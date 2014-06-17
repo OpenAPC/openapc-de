@@ -2,8 +2,8 @@
 
 The aim of this repository is:
 
-- to share a copy of DOAJ journal master list (downloaded January 2014) -> [data/doajJournalList.csv](data/doajJournalList.csv)
-- to release a Bielefeld University Paid APCs 2012/13 Dataset under an Open Database License -> [data/unibi12-13.csv](data/unibi12-13.csv)
+- to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014) -> [data/doajJournalList.csv](data/doajJournalList.csv)
+- to release a [Bielefeld University](http://www.uni-bielefeld.de/) Paid APCs 2012/13 Dataset under an Open Database License -> [data/unibi12-13.csv](data/unibi12-13.csv)
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible
 
 This documentation is written in Markdown and embeds source code written in [R](http://www.r-project.org/).
@@ -12,26 +12,24 @@ You can run ```knit()``` to reproduce this file
 
 ```
 require(knitr)
-knit(readme.Rmd) 
+knit(README.Rmd) 
 ```
 
 ## DOAJ
 
-The current [DOAJ journal master list](http://doaj.org/faq#metadata) that can be downloaded as `csv` lacks information on the applicability of author processing charges (APC). Answering Ulrich Herbs concerns in his blog post [The prevalence of Open Access publication fees](http://www.scinoptica.com/pages/topics/the-prevalence-of-open-access-publication-fees.php), we decided to share our copy that we used for reporting Open Access Gold publications as part of the [DFG Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infratructure/lis/funding_opportunities/open_access_publishing/index.html) in January 2014.
+The current [DOAJ journal master list](http://doaj.org/faq#metadata) that can be downloaded as `csv` lacks information on the applicability of author processing charges (APC). Answering [Ulrich Herb's](https://twitter.com/scinoptica) concerns in [The prevalence of Open Access publication fees](http://www.scinoptica.com/pages/topics/the-prevalence-of-open-access-publication-fees.php), we decided to share our DOAJ copy that we used at [Bielefeld University Library](http://www.ub.uni-bielefeld.de/) for reporting Open Access Gold publications at Bielefeld University as part of the [DFG Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infratructure/lis/funding_opportunities/open_access_publishing/index.html) in January 2014.
 
-### Load DOAJ master list
+### Load DOAJ journal master list
 
 ```{r}
 doaj <- read.csv("data/doajJournalList.csv", header = TRUE, sep =",")
 ```
-This list contains
+This master list contains
 
 ```{r}
 length(unique(doaj$ISSN))
 ```
-registered Open Access journals.
-
-The following columns are available:
+registered Open Access journals. It provides information on
 
 ```{r}
 colnames(doaj)
@@ -77,18 +75,17 @@ theme_bw(base_size= 16) +
 opts(legend.key=theme_rect(fill="white",colour="white"))
 ```
 
-As this little exploration demonstrates, the DOAJ journal title master list is an excellent source (not only) to study the longitudinal growth of Open Access journal publishing. As we have shown, by reusing such a file, you can also make your study reproducible.
+ This little exploration demonstrates that the DOAJ journal title master list is an excellent source (not only) to study the longitudinal growth of Open Access journal publishing. As we have shown, by reusing such a file, you can also write your study in a reproducible manner.
 
-We hope that DOAJ will continue its bulk download service in order to provide an convenient way to monitor Open Access journal publishing.  At Bielefeld University Library, for instance, we use the `csv` download to answer our DFG reporting requirements. 
+We hope that the DOAJ will continue its bulk download service in order to provide an convenient way to monitor Open Access journal publishing.  At Bielefeld University Library, for instance, we use the `csv` download to answer our DFG reporting requirements. 
 
 ## Bielefeld University Paid APCs 2012/13 Dataset
 
-With this dataset, we are providing information on paid Article Processing Charges (APC) by the [Open Access Publication Fund of Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html). The fund is supported by the German Research Foundation (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
+With the [Bielefeld University Paid APCs 2012/13 Dataset](data/unibi12-13.csv), we publish information on paid Article Processing Charges (APC) by the [Open Access Publication Fund of Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html). The fund is supported by the German Research Foundation (DFG) under its [Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html).
 
 
 ### Load Data
 
-To load the data in R:
 ```{r}
 my.df <- read.csv("data/unibi12-13.csv", header = TRUE, sep =",")
 head(my.df)
