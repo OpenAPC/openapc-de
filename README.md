@@ -17,7 +17,7 @@ knit(README.Rmd)
 
 ## DOAJ
 
-The current [DOAJ journal master list](http://doaj.org/faq#metadata) that can be downloaded as `csv` lacks information on the applicability of author processing charges (APC). Answering [Ulrich Herb's](https://twitter.com/scinoptica) concerns in [The prevalence of Open Access publication fees](http://www.scinoptica.com/pages/topics/the-prevalence-of-open-access-publication-fees.php), we decided to share our DOAJ copy that we used at [Bielefeld University Library](http://www.ub.uni-bielefeld.de/) for reporting Open Access Gold publications at Bielefeld University as part of the [DFG Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infratructure/lis/funding_opportunities/open_access_publishing/index.html) in January 2014.
+The current [DOAJ journal master list](http://doaj.org/faq#metadata) that can be downloaded as `csv` lacks information on the applicability of author processing charges (APC). Answering [Ulrich Herb's](https://twitter.com/scinoptica) concerns in [The prevalence of Open Access publication fees](http://www.scinoptica.com/pages/topics/the-prevalence-of-open-access-publication-fees.php), we decided to share our DOAJ copy that we used at [Bielefeld University Library](http://www.ub.uni-bielefeld.de/) for reporting Open Access Gold publications at Bielefeld University as part of the [DFG Open-Access Publishing Programme](http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html) in January 2014.
 
 ### Load DOAJ journal master list
 
@@ -103,7 +103,9 @@ theme_bw(base_size= 16) +
 opts(legend.key=theme_rect(fill="white",colour="white"))
 ```
 
-![plot of chunk simpleplot](figure/simpleplot.png) 
+```
+## Error: konnte Funktion "aes" nicht finden
+```
 
  This little exploration demonstrates that the DOAJ journal title master list is an excellent source (not only) to study the longitudinal growth of Open Access journal publishing. As we have shown, by reusing such a file, you can also write your study in a reproducible manner.
 
