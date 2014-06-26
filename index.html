@@ -1,0 +1,256 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://timelyportfolio.github.io/rCharts_d3_sankey/css/sankey.css'>
+    
+    <script src='http://timelyportfolio.github.io/rCharts_d3_sankey/js/d3.v3.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_d3_sankey/js/sankey.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 960px;
+      height: 800px;
+    }  
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="rebi -- Europe PMC in R">
+    <meta name="author" content="Scott Chamberlain">
+    <script src="http://use.edgefonts.net/source-code-pro.js"></script>
+    <script src="http://use.edgefonts.net/quattrocento-sans.js"></script>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <script href="assets/js/bootstrap.js"></script>
+    <script href="assets/js/bootstrap-button.js"></script>
+    <script href="assets/js/bootstrap-collapse.js"></script>
+    <script href="assets/jquery.js"></script>
+    <link rel="stylesheet" href="assets/styles/github.css">
+    <script src="assets/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css"></link>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
+</script>
+  </head>
+  <body>
+      <div class="span11 offset1">
+
+     <div class="row">
+      <div class=".col-md-12">
+       <h1>Datasets on fee-based Open Access publishing</h1>
+
+        <p>For bugs, feature requests and other issues, please submit an <a href="https://github.com/njahn82/unibiAPC/issues">issue via Github</a>.</p>
+
+          <p>For general comments, email najko.jahn at uni-bielefeld.de  and dirk.pieper at uni-bielefeld.de .</p>
+
+      <p><a href="https://github.com/njahn82/unibiAPC"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a></p>
+
+      <hr class="soften">
+
+<h2>Datasets</h2>
+  <ul>
+    <li><a href="https://github.com/njahn82/unibiAPC/blob/master/data/unibi12-13.csv">Bielefeld University Publication Fund 2012-13</a></li>
+  </ul>
+
+<h2>Sample visualisations</h2>
+
+<h3>Fees paid Bielefeld University Publication Fund 2012-13</h3>
+
+<div id = 'chart35defb9cb0' class = 'rChart rCharts_d3_sankey'></div>    
+
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart35defb9cb0",
+"width":    960,
+"height":    800,
+"data": {
+ "value": [   3722,    142,  27409,   1928,   1017,   3151,   1046,  23271,    732,  42902,   4247,    961,   1037,   1724,    142,    900,   1600,    960,    960,    960,    960,    960,   1142,   1142,   1904,   1142,    916,   1143,   1142,    917,   1904,   1142,   1142,   1143,   1142,   1142,   1904,   1142,    388,    462,   1078,   1017,    990,    493,    493,   1175,   1046,    915,    968,    958,    968,   1265,   1109,   2053,   1109,   1232,   1109,   1232,   1232,   1232,   1232,   1069,   1232,   1109,   1109,   1069,   1069,    732,   1370,   1500, 1257.5, 1257.5,   1520,    850,   1490,   1475,   1545,   1480,   1470,   1490,   1565,   1190,   1535,   1545,   1252,   1232,   1228,    948,   1048,   1348,   1236,   1081,   1081,   1296,   1212,   1228,   1216,   1212,   1236,   1296,   1212,   1333,   1457,   1457 ],
+"target": [ "Association for Research in Vision and Ophthalmology (ARVO)", "Elsevier BV", "Frontiers Media SA", "Hindawi Publishing Corporation", "Informa UK Limited", "MDPI AG", "Nature Publishing Group", "Public Library of Science (PLoS)", "Scientific Research Publishing, Inc,", "Springer Science + Business Media", "Wiley-Blackwell", "Journal of Vision", "Journal of Vision", "Journal of Vision", "CSBJ", "Frontiers in Cellular and Infection Microbiology", "Frontiers in Neural Circuits", "Front. Psychology", "Front. Psychology", "Front. Psychology", "Front. Plant Sci.", "Front. Psychology", "Front. Neurorobot.", "Frontiers in Psychology", "Frontiers in Behavioral Neuroscience", "Front. Plant Sci.", "Frontiers in Behavioral Neuroscience", "Front. Hum. Neurosci.", "Frontiers in Psychology", "Frontiers in Psychology", "Front. Hum. Neurosci.", "Frontiers in Behavioral Neuroscience", "Frontiers in Psychology", "Front. Comput. Neurosci.", "Front. Comput. Neurosci.", "Front. Plant Sci.", "Frontiers in Behavioral Neuroscience", "Frontiers in Behavioral Neuroscience", "Anatomy Research International", "Education Research International", "Stem Cells International", "Health Psychology and Behavioral Medicine", "Entropy", "Symmetry", "Symmetry", "Entropy", "Scientific Reports", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS Computational Biology", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "Journal of Intelligent Learning Systems and Applications", "BMC Microbiol", "BMC Genomics", "BMC Bioinformatics", "BMC Bioinformatics", "BMC Bioinformatics", "SpringerPlus", "BMC Public Health", "BMC Structural Biology", "BMC Microbiol", "BMC Genomics", "BMC Public Health", "BMC Microbiol", "Health and Quality of Life Outcomes", "BMC Genomics", "BMC Genomics", "BMC Pregnancy and Childbirth", "BMC Public Health", "BMC Biotechnology", "BMC Public Health", "Journal of NeuroEngineering and Rehabilitation", "Microb Cell Fact", "Biotechnol Biofuels", "BMC Psychol", "BMC Bioinformatics", "BMC Bioinformatics", "BMC Public Health", "BMC Genomics", "BMC Genomics", "Globalization and Health", "BMC Genomics", "BMC Public Health", "BMC Biotechnology", "BMC Genomics", "Ecol Evol", "Ecol Evol", "Ecol Evol" ],
+"source": [ "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Uni Bielefeld", "Association for Research in Vision and Ophthalmology (ARVO)", "Association for Research in Vision and Ophthalmology (ARVO)", "Association for Research in Vision and Ophthalmology (ARVO)", "Elsevier BV", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Hindawi Publishing Corporation", "Hindawi Publishing Corporation", "Hindawi Publishing Corporation", "Informa UK Limited", "MDPI AG", "MDPI AG", "MDPI AG", "MDPI AG", "Nature Publishing Group", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Scientific Research Publishing, Inc,", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Wiley-Blackwell", "Wiley-Blackwell", "Wiley-Blackwell" ] 
+},
+"nodeWidth":     15,
+"nodePadding":     10,
+"layout":     32,
+"unit": "EURO",
+"title": "Author fees paid by Bielefeld University Publication Fund 2012-13",
+"id": "chart35defb9cb0" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+    
+    <script></script> 
+
+<h3>Code</h3>
+
+<pre><code class="r">
+
+require(devtools)
+install_github('rCharts', 'ramnathv')
+
+unibi <- read.csv("data/unibi12-13.csv", header =T, sep=",")
+
+#select columns
+unibi.sub <- unibi[,c("Publisher", "Journal", "EURO")]
+
+#rename
+colnames(unibi.sub) <- c("source", "target", "value")
+unibi.sub$value <- as.numeric(unibi.sub$value)
+
+#get affiliation 
+ tt <- as.data.frame(as.matrix((tapply(unibi.sub$value,unibi.sub$source,  sum))))
+ tt$target <- rownames(tt)
+ tt$source <- rep("Uni Bielefeld", times = nrow(tt))
+ colnames(tt) <- c("value", "target", "source")
+
+unibi.sub <- rbind(tt, unibi.sub)
+
+
+#now we finally have the data in the form we need
+sankeyPlot <- rCharts$new()
+sankeyPlot$setLib('http://timelyportfolio.github.io/rCharts_d3_sankey')
+
+sankeyPlot$set(
+  data = unibi.sub,
+  nodeWidth = 15,
+  nodePadding = 10,
+  layout = 32,
+  width = 960,
+  height = 800,
+  unit = "EURO",
+  title= "Author fees paid by Bielefeld University Publication Fund 2012-13"
+)
+sankeyPlot
+
+</code></pre> 
+
+ <h2>License</h2>
+ 
+ This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License</a>.
+
+  </section>
+
+    </div>
+    </div> 
+    </div> 
+  </body>
+</html>
