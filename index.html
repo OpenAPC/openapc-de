@@ -217,10 +217,10 @@ colnames(unibi.sub) <- c("source", "target", "value")
 unibi.sub$value <- as.numeric(unibi.sub$value)
 
 #get affiliation 
- tt <- as.data.frame(as.matrix((tapply(unibi.sub$value,unibi.sub$source,  sum))))
- tt$target <- rownames(tt)
- tt$source <- rep("Uni Bielefeld", times = nrow(tt))
- colnames(tt) <- c("value", "target", "source")
+tt <- as.data.frame(as.matrix((tapply(unibi.sub$value,unibi.sub$source,  sum))))
+tt$target <- rownames(tt)
+tt$source <- rep("Uni Bielefeld", times = nrow(tt))
+colnames(tt) <- c("value", "target", "source")
 
 unibi.sub <- rbind(tt, unibi.sub)
 
