@@ -103,9 +103,7 @@ theme_bw(base_size= 16) +
 opts(legend.key=theme_rect(fill="white",colour="white"))
 ```
 
-```
-## Error: konnte Funktion "aes" nicht finden
-```
+![plot of chunk simpleplot](figure/simpleplot.png) 
 
  This little exploration demonstrates that the DOAJ journal title master list is an excellent source (not only) to study the longitudinal growth of Open Access journal publishing. As we have shown, by reusing such a file, you can also write your study in a reproducible manner.
 
