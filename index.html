@@ -78,7 +78,20 @@
 
 <h2>Sample visualisations</h2>
 
-<h3>Fees paid by German Universities 2012-13</h3>
+<ul>
+  <li>
+    <a href="#unide">Fees paid by German Universities 2012 &mdash; 13</a>
+  </li>
+  <li>
+    <a href="#unireg">Fees paid by University of Regensburg Publication Fund 2012 &mdash; 13</a>
+  </li>
+   <li>
+    <a href="#unireg">Fees paid by Bielefeld University Publication Fund 2012 &mdash; 13</a>
+  </li>
+</ul>
+
+
+<h3 id="unide">Fees paid by German Universities 2012 &mdash; 13</h3>
 
 <div id = 'chart7c627e1dfc8' class = 'rChart rCharts_d3_sankey'></div>
 <!--Attribution:
@@ -219,7 +232,148 @@ node.append("text")
 })();
 </script> 
 
-<h3>Fees paid by Bielefeld University Publication Fund 2012-13</h3>
+<h3 id="unireg">Fees paid by University of Regensburg Publication Fund 2012 &mdash; 13</h3>
+
+  <div id = 'chart7c63c3ed967' class = 'rChart rCharts_d3_sankey'></div>
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart7c63c3ed967",
+"width":    960,
+"height":    800,
+"data": {
+ "value": [ 2283.1,   1111,   2176, 1506.3, 1239.5,  192.8,  24810, 3595.9, 1142.4, 1682.6, 304.93, 1404.2,    890, 5052.2,  684.1, 1244.7, 2807.4, 5690.6, 1963.5, 1802.8,  50419, 1197.3,    833,  63001, 1173.1,  285.6, 4116.5,   2000,   2000, 1244.7, 719.95, 1963.5, 1981.3, 152.61, 152.32, 766.22, 771.01,   1100,   1056,   1076,   1076,   1224,   1216,   1192,   1160,   1096,   1236,   1200,   1056,    948,   1060,   1080,    516,    572,   1000,   1028,   1292,   1180,   1364,   1388,   1368,   1188, 756.59, 1797.1, 1023.7, 1022.3, 1028.3, 1019.4, 1079.6, 1079.6, 1079.6, 1095.4, 1088.6, 1106.2, 1077.8, 1075.3, 1031.8, 956.24,  943.4, 944.57, 1046.6,  285.6,  583.1,    575,   1071, 1142.4, 1142.4,   1904,   1904, 1142.4, 1028.2, 1142.4, 1142.4,   2380, 973.34, 1635.4,   1111,    119, 2084.2, 723.28, 1099.5, 1344.7, 1178.1, 1802.8, 1267.3, 1267.3, 1267.3,    890,    926, 1178.1, 1017.1,   1296,   1220,   1232, 1844.5,   1228,   1296,   1236,   1196,   1200,   1256,   1240,   1244,    840,   1120,   1096,   1048,   1080,   1316,   1124,   1132,    624,   1056,   1480,   1380,   1228,   1236,   1228,   1296,   1620, 625.32, 2074.6, 2010.9, 941.93, 1240.2, 1232.9, 1119.2, 1252.8, 1226.8, 1238.3, 1120.8, 1236.4, 1191.1, 1236.5,   1204, 1206.5, 1206.7, 1206.7, 1093.2, 1206.7, 1069.8, 1197.3, 1197.3, 1173.1, 1173.1, 1173.1, 1239.5,    833,   1904, 1523.2,    960, 1142.4, 1142.4, 684.25, 1142.4,  916.3,  916.3,   1368, 1538.8, 484.41,    357, 318.01, 383.11, 244.24, 237.64,    640,  684.1, 745.25,  192.8, 761.05 ],
+"target": [ "Association for Research in Vision and Ophthalmology (ARVO)", "Baishideng Publishing Group Co., Limited (formerly WJG Press)", "Canadian Center of Science and Education", "e-Century Publ. Corp.", "Elsevier BV", "Food Science Publisher", "Frontiers Media SA", "Hindawi Publishing Corporation", "InTech", "International Scientific Literature", "International Union of Crystallography (IUCr)", "IOP Publishing", "Ivyspring International Publisher", "MDPI AG", "Medknow", "Nature Publishing Group", "OMICS Publishing Group", "Oxford University Press (OUP)", "PAGEPress Publications", "Pensoft Publishers", "Public Library of Science (PLoS)", "Scientific Research Publishing, Inc,", "Society for Publication of Acta Dermato-Venereologica ", "Springer Science + Business Media", "The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Walter de Gruyter GmbH", "Wiley-Blackwell", "Radiat Oncol", "ChemistryOpen", "Scientific Reports", "New J. Phys.", "Clinics and Practice", "Nucleic Acids Research", "Acta Cryst E Struct Rep Online", "Acta Cryst E Struct Rep Online", "Computational Intelligence and Neuroscience", "Journal of Ophthalmology", "BMC Bioinformatics", "BMC Neurosci", "BMC Cardiovascular Disorders", "BMC Musculoskeletal Disorders", "BMC Ear, Nose and Throat Disorders", "BMC Complement Altern Med", "BMC Clin Pathol", "Cardiovasc Diabetol", "Cardiovasc Diabetol", "Health and Quality of Life Outcomes", "Health and Quality of Life Outcomes", "Trials", "Radiat Oncol", "Journal of Vision", "Radiat Oncol", "J Med Case Rep", "J Med Case Rep", "Clin Transl Med", "Experimental & Translational Stroke Medicine", "Biol sex dif", "BMC Biophysics", "Transplant Res", "Transplant Res", "Transplant Res", "Arthritis Research & Therapy", "Medical Science Monitor", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS Neglected Tropical Diseases", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "ChemistryOpen", "PLoS ONE", "PLoS ONE", "Zeitschrift für Kristallographie - New Crystal Structures", "Front. Microbio.", "Front. Hum. Neurosci.", "Frontiers in Systems Neuroscience", "Frontiers in Systems Neuroscience", "Frontiers in Systems Neuroscience", "Front. Psychology", "Front. Psychology", "Front. Psychology", "Front. Psychology", "Front. Psychology", "Front. Psychology", "Front. Psychiatry", "Materials", "Sensors", "WJG", "PLoS ONE", "J Neurol Neurophysiol", "Journal of Physical Chemistry & Biophysics", "PLoS ONE", "Frontiers in Cellular and Infection Microbiology", "IJMS", "ZOOKEYS", "PLoS ONE", "PLoS ONE", "PLoS ONE", "Theranostics", "American Journal of Case Reports", "BMC Biotechnology", "BMC Cancer", "Arthritis Research & Therapy", "Health and Quality of Life Outcomes", "Critical Care", "Radiat Oncol", "Cardiovasc Diabetol", "BMC Med Genet", "BMC Palliat Care", "BMC Medical Imaging", "Critical Care", "Transplant Res", "Transplant Res", "J Cardiothorac Surg", "Journal of Vision", "Journal of Management and Sustainability", "Trials", "J Cardiothorac Surg", "J Med Case Rep", "J Ovarian Res", "Genome Biol", "J Cardiothorac Surg", "Radiat Oncol", "Journal of Management and Sustainability", "Critical Care", "Front. Psychology", "Radiat Oncol", "BMC Infect Dis", "BMC Ear, Nose and Throat Disorders", "BMC Cancer", "Health and Quality of Life Outcomes", "IJMS", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS Genetics", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS Genetics", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "EURASIP Journal on Advances in Signal Processing", "Journal of Analytical Sciences, Methods and Instrumentation", "PLoS ONE", "Molecular Medicine", "Physiological Reports", "CSBJ", "Acta Dermato-Venereologica", "Front. Psychology", "Front. Plant Sci.", "Front. Plant Sci.", "Mathematical Problems in Engineering", "Chromatin Remodelling", "New J. Phys.", "Front. Psychology", "Front. Plant Sci.", "International Journal of Dentistry", "Nucleic Acids Research", "Nucleic Acids Research", "Nucleic Acids Research", "PLoS ONE", "Nucleic Acids Research", "Journal of Vision", "Front. Integr. Neurosci.", "Front. Hum. Neurosci.", "Pharmaceuticals", "Surg Neurol Int", "International Journal of Molecular Epidemiology and Genetics", "Functional Foods in Health and Disease", "International Journal of Molecular Epidemiology and Genetics" ],
+"source": [ "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Uni Regensburg", "Springer Science + Business Media", "Wiley-Blackwell", "Nature Publishing Group", "IOP Publishing", "PAGEPress Publications", "Oxford University Press (OUP)", "International Union of Crystallography (IUCr)", "International Union of Crystallography (IUCr)", "Hindawi Publishing Corporation", "Hindawi Publishing Corporation", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Association for Research in Vision and Ophthalmology (ARVO)", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "International Scientific Literature", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Wiley-Blackwell", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Walter de Gruyter GmbH", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "MDPI AG", "MDPI AG", "Baishideng Publishing Group Co., Limited (formerly WJG Press)", "Public Library of Science (PLoS)", "OMICS Publishing Group", "OMICS Publishing Group", "Public Library of Science (PLoS)", "Frontiers Media SA", "MDPI AG", "Pensoft Publishers", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Ivyspring International Publisher", "International Scientific Literature", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Association for Research in Vision and Ophthalmology (ARVO)", "Canadian Center of Science and Education", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Canadian Center of Science and Education", "Springer Science + Business Media", "Frontiers Media SA", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "MDPI AG", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Springer Science + Business Media", "Scientific Research Publishing, Inc,", "Public Library of Science (PLoS)", "The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Wiley-Blackwell", "Elsevier BV", "Society for Publication of Acta Dermato-Venereologica ", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Hindawi Publishing Corporation", "InTech", "IOP Publishing", "Frontiers Media SA", "Frontiers Media SA", "Hindawi Publishing Corporation", "Oxford University Press (OUP)", "Oxford University Press (OUP)", "Oxford University Press (OUP)", "Public Library of Science (PLoS)", "Oxford University Press (OUP)", "Association for Research in Vision and Ophthalmology (ARVO)", "Frontiers Media SA", "Frontiers Media SA", "MDPI AG", "Medknow", "e-Century Publ. Corp.", "Food Science Publisher", "e-Century Publ. Corp." ] 
+},
+"nodeWidth":     15,
+"nodePadding":     10,
+"layout":     32,
+"unit": "EURO",
+"title": "Author fees paid by University of Regensburg Publication Fund 2012-13",
+"id": "chart7c63c3ed967" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+
+<h3 id="unibi">Fees paid by Bielefeld University Publication Fund 2012-13</h3>
 
 <div id = 'chart70661c96fc3' class = 'rChart rCharts_d3_sankey'></div>    
     <!--Attribution:
@@ -364,6 +518,7 @@ node.append("text")
 
 <h3>Code</h3>
 
+<p>Sample code to generate sankey plot from Bielefeld University dataset</p>
 <pre><code class="r">
 
 require(devtools)
