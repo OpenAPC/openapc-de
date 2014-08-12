@@ -28,42 +28,29 @@ require(RJSONIO)
 source("R/doi_fetch.r")
 
 # exclude empy
-my.df <- my.df[!is.na(my.df$doi),]
+my.doi.na <- my.df[!is.na(my.df$doi),]
 
-tt.doi <- ldply(my.df$doi, doi_fetch)
+tt.doi <- ldply(my.doi.na$doi, doi_fetch)
 
 # transform:
+matches <- match(my.df$doi,tt.doi$doi)
 
-my.df <- rbind(unireg, unibi)
+# factor levels to character
 
+my.df[,c("Publisher","Journal")] <- sapply(my.df[,c("Publisher","Journal")], as.character)
 
-#publisher title
-my.df <- transform(my.df, 
-          Publisher=ifelse(my.df$doi %in% tt.doi$doi, 
-                                  as.character(tt.doi$publisher), 
-                                  as.character(my.df$Publisher)))
+#publisher
+my.df$Publisher[!is.na(matches)] <- as.character(tt.doi$publisher[matches[!is.na(matches)]])
 
-# transform journal title
+#journal
+my.df$Journal[!is.na(matches)] <- as.character(tt.doi$journal[matches[!is.na(matches)]])
 
-my.df <- transform(my.df, 
-                   Journal=ifelse(my.df$doi %in% tt.doi$doi, 
-                                    as.character(tt.doi$journal), 
-                                    as.character(my.df$Journal)))
-# issn.1
+#issn
+my.df$issn.1[!is.na(matches)] <- as.character(tt.doi$ISSN.1[matches[!is.na(matches)]])
 
-my.df <- transform(my.df, 
-                   issn.1=ifelse(my.df$doi %in% tt.doi$doi, 
-                                  as.character(tt.doi$ISSN.1), 
-                                  as.character(my.df$issn.1)))
+my.df$issn.2[!is.na(matches)] <- as.character(tt.doi$ISSN.2[matches[!is.na(matches)]])
 
-# issn.2
-
-my.df <- transform(my.df, 
-                   issn.2=ifelse(my.df$doi %in% tt.doi$doi, 
-                                  as.character(tt.doi$ISSN.2), 
-                                  as.character(my.df$issn.2)))
-
-# map values
+# manual clean up ambigue crossref publsiher and journal names 
 
 my.df$Publisher <-  mapvalues(my.df$Publisher,  "OMICs Publ. Group",
                               "OMICS Publishing Group")
@@ -110,6 +97,7 @@ write.csv(my.df, "data/apc_de.csv", row.names = FALSE)
 
 
 # prepare sankey
+require(reshape)
 
 my.df <- read.csv("data/apc_de.csv", header =T, sep=",")
 # dimension uni --> publisher
@@ -117,11 +105,11 @@ tt<- melt(tapply (my.df$EURO, list (my.df$uni, my.df$Publisher), sum))
 tt <- tt[!is.na(tt$value),]
 colnames(tt) <- c("source", "target", "value")
 
-# join with apc per article set
-apc <- my.df[, c("Publisher", "Journal", "EURO")]
-colnames(apc) <- c("source", "target", "value")
+# # join with apc per article set
+# apc <- my.df[, c("Publisher", "Journal", "EURO")]
+# colnames(apc) <- c("source", "target", "value")
 
-apc <- rbind(apc, tt)
+# apc <- rbind(apc, tt)
 
 require(rCharts)
 sankeyPlot <- rCharts$new()
@@ -129,13 +117,13 @@ sankeyPlot$setLib('http://timelyportfolio.github.io/rCharts_d3_sankey')
 
 sankeyPlot$set(
   data = tt,
-  nodeWidth = 10,
-  nodePadding = 10,
+  nodeWidth = 20,
+  nodePadding = 8,
   layout = 32,
   width = 960,
-  height = 800,
+  height = 600,
   unit = "EURO",
-  title= "Author fees paid by Bielefeld University Publication Fund 2012-13"
+  title= "Author fees paid by Bielefeld University and University of Regensburg Publication Fund 2012-13"
 )
 sankeyPlot
 
