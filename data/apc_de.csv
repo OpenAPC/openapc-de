@@ -5,17 +5,17 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 719.95,"New J. Phys.",2012,"IOP Publishing",http://epub.uni-regensburg.de/,10.1088/1367-2630/14/2/023018,TRUE,1367-2630,NA,NA,NA,23417,"Uni Regensburg",000302304900003
 1963.5,"Nucleic Acids Research",2012,"Oxford University Press (OUP)",http://epub.uni-regensburg.de/,10.1093/nar/gks1056,TRUE,0305-1048,1362-4962,PMC3553968,23209026,27513,"Uni Regensburg",000314121100049
 1981.35,"Nucleic Acids Research",2012,"Oxford University Press (OUP)",http://epub.uni-regensburg.de/,10.1093/nar/gks705,TRUE,0305-1048,1362-4962,PMC3479175,22844086,26554,"Uni Regensburg",000310377200046
-152.61,"Acta Cryst E Struct Rep Online",2012,"International Union of Crystallography (IUCr)",http://epub.uni-regensburg.de/,10.1107/S1600536812038792,TRUE,1600-5368,NA,NA,NA,26033,"Uni Regensburg",
-152.32,"Acta Cryst E Struct Rep Online",2012,"International Union of Crystallography (IUCr)",http://epub.uni-regensburg.de/,10.1107/S1600536812043863,TRUE,1600-5368,NA,NA,NA,20012,"Uni Regensburg",
+152.61,"Acta Cryst E Struct Rep Online",2012,"International Union of Crystallography (IUCr)",http://epub.uni-regensburg.de/,10.1107/S1600536812038792,TRUE,1600-5368,NA,NA,NA,26033,"Uni Regensburg",NA
+152.32,"Acta Cryst E Struct Rep Online",2012,"International Union of Crystallography (IUCr)",http://epub.uni-regensburg.de/,10.1107/S1600536812043863,TRUE,1600-5368,NA,NA,NA,20012,"Uni Regensburg",NA
 766.22,"Computational Intelligence and Neuroscience",2012,"Hindawi Publishing Corporation",http://epub.uni-regensburg.de/,10.1155/2012/412512,TRUE,1687-5265,1687-5273,PMC3477528,23097663,26460,"Uni Regensburg",000208906200013
 771.01,"Journal of Ophthalmology",2012,"Hindawi Publishing Corporation",http://epub.uni-regensburg.de/,10.1155/2012/851648,TRUE,2090-004X,2090-0058,PMC3317217,22523654,23735,"Uni Regensburg",000306801200001
 1100,"BMC Bioinformatics",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1471-2105-13-55,TRUE,1471-2105,NA,PMC3391178,22480135,23790,"Uni Regensburg",000306289000001
 1056,"BMC Neurosci",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1471-2202-13-36,TRUE,1471-2202,NA,PMC3338087,22458914,23791,"Uni Regensburg",000303330300001
 1076,"BMC Cardiovascular Disorders",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1471-2261-12-17,TRUE,1471-2261,NA,PMC3323468,22424497,23792,"Uni Regensburg",000302545000001
 1076,"BMC Musculoskeletal Disorders",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1471-2474-13-65,TRUE,1471-2474,NA,PMC3416712,22559740,25852,"Uni Regensburg",000307403600001
-1224,"BMC Ear, Nose and Throat Disorders",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-6815-12-14,TRUE,1472-6815,NA,PMC3526555,23194317,29509,"Uni Regensburg",
+1224,"BMC Ear, Nose and Throat Disorders",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-6815-12-14,TRUE,1472-6815,NA,PMC3526555,23194317,29509,"Uni Regensburg",NA
 1216,"BMC Complement Altern Med",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-6882-12-235,TRUE,1472-6882,NA,PMC3517771,23186556,27947,"Uni Regensburg",000312330900001
-1192,"BMC Clin Pathol",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-6890-12-16,TRUE,1472-6890,NA,PMC3511299,23009620,26080,"Uni Regensburg",
+1192,"BMC Clin Pathol",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-6890-12-16,TRUE,1472-6890,NA,PMC3511299,23009620,26080,"Uni Regensburg",NA
 1160,"Cardiovasc Diabetol",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1475-2840-11-48,TRUE,1475-2840,NA,PMC3398851,22553958,26557,"Uni Regensburg",000306362800001
 1096,"Cardiovasc Diabetol",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1475-2840-11-57,TRUE,1475-2840,NA,PMC3447673,22621761,25840,"Uni Regensburg",000309125900001
 1236,"Health and Quality of Life Outcomes",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1477-7525-10-128,TRUE,1477-7525,NA,PMC3541124,23078754,26558,"Uni Regensburg",000313431400001
@@ -24,17 +24,17 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 948,"Radiat Oncol",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1748-717X-7-108,TRUE,1748-717X,NA,NA,NA,24167,"Uni Regensburg",000308372800001
 1060,"Radiat Oncol",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1748-717X-7-162,TRUE,1748-717X,NA,NA,NA,26079,"Uni Regensburg",000311418200001
 1080,"Radiat Oncol",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1748-717X-7-212,TRUE,1748-717X,NA,NA,NA,29510,"Uni Regensburg",000313978700001
-516,"J Med Case Rep",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1752-1947-6-177,TRUE,1752-1947,NA,PMC3438020,22747665,25860,"Uni Regensburg",
-572,"J Med Case Rep",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1752-1947-6-209,TRUE,1752-1947,NA,PMC3407706,22809225,25843,"Uni Regensburg",
-1000,"Clin Transl Med",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2001-1326-1-22,TRUE,2001-1326,NA,PMC3560978,23369669,26085,"Uni Regensburg",
-1028,"Experimental & Translational Stroke Medicine",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2040-7378-4-9,TRUE,2040-7378,NA,PMC3466144,22553972,25847,"Uni Regensburg",
+516,"J Med Case Rep",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1752-1947-6-177,TRUE,1752-1947,NA,PMC3438020,22747665,25860,"Uni Regensburg",NA
+572,"J Med Case Rep",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1752-1947-6-209,TRUE,1752-1947,NA,PMC3407706,22809225,25843,"Uni Regensburg",NA
+1000,"Clin Transl Med",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2001-1326-1-22,TRUE,2001-1326,NA,PMC3560978,23369669,26085,"Uni Regensburg",NA
+1028,"Experimental & Translational Stroke Medicine",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2040-7378-4-9,TRUE,2040-7378,NA,PMC3466144,22553972,25847,"Uni Regensburg",NA
 1292,"Biol sex dif",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2042-6410-3-17,TRUE,2042-6410,NA,PMC3472235,22846218,25858,"Uni Regensburg",000316419900001
 1180,"BMC Biophysics",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2046-1682-5-19,TRUE,2046-1682,NA,PMC3507795,22967319,26042,"Uni Regensburg",000312303800001
-1364,"Transplant Res",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-1-12,TRUE,2047-1440,NA,PMC3560988,23369493,26083,"Uni Regensburg",
-1388,"Transplant Res",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-1-15,TRUE,2047-1440,NA,PMC3560989,23369567,26081,"Uni Regensburg",
-1368,"Transplant Res",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-1-17,TRUE,2047-1440,NA,PMC3561050,23369628,26084,"Uni Regensburg",
+1364,"Transplant Res",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-1-12,TRUE,2047-1440,NA,PMC3560988,23369493,26083,"Uni Regensburg",NA
+1388,"Transplant Res",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-1-15,TRUE,2047-1440,NA,PMC3560989,23369567,26081,"Uni Regensburg",NA
+1368,"Transplant Res",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-1-17,TRUE,2047-1440,NA,PMC3561050,23369628,26084,"Uni Regensburg",NA
 1188,"Arthritis Research & Therapy",2012,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/ar3852,TRUE,1478-6354,NA,PMC3446503,22621205,25842,"Uni Regensburg",000314972600024
-756.59,"Medical Science Monitor",2012,"International Scientific Literature",http://epub.uni-regensburg.de/,10.12659/MSM.882463,TRUE,1234-1010,NA,NA,NA,25863,"Uni Regensburg",
+756.59,"Medical Science Monitor",2012,"International Scientific Literature",http://epub.uni-regensburg.de/,10.12659/MSM.882463,TRUE,1234-1010,NA,NA,NA,25863,"Uni Regensburg",NA
 1797.12,"PLoS Neglected Tropical Diseases",2012,"Public Library of Science (PLoS)",http://epub.uni-regensburg.de/,10.1371/journal.pntd.0001741,TRUE,1935-2735,NA,PMC3404120,22848771,25853,"Uni Regensburg",000307101900033
 1023.74,"PLoS ONE",2012,"Public Library of Science (PLoS)",http://epub.uni-regensburg.de/,10.1371/journal.pone.0032552,TRUE,1932-6203,NA,PMC3303783,22431976,23739,"Uni Regensburg",000303198600019
 1022.26,"PLoS ONE",2012,"Public Library of Science (PLoS)",http://epub.uni-regensburg.de/,10.1371/journal.pone.0033956,TRUE,1932-6203,NA,PMC3309014,22448281,23723,"Uni Regensburg",000303855700072
@@ -56,32 +56,32 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 285.6,"Zeitschrift für Kristallographie - New Crystal Structures",2012,"Walter de Gruyter GmbH",http://epub.uni-regensburg.de/,10.1524/ncrs.2012.0173,TRUE,1433-7266,NA,NA,NA,25530,"Uni Regensburg",000321004400040
 583.1,"Front. Microbio.",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fmicb.2012.00074,TRUE,1664-302X,NA,PMC3298847,22416241,25856,"Uni Regensburg",000208863600128
 575,"Front. Hum. Neurosci.",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnhum.2012.00342,TRUE,1662-5161,NA,PMC3533233,23293597,25535,"Uni Regensburg",000312929700001
-1071,"Frontiers in Systems Neuroscience",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnsys.2012.00011,TRUE,1662-5137,NA,PMC3284861,22383902,23734,"Uni Regensburg",
-1142.4,"Frontiers in Systems Neuroscience",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnsys.2012.00015,TRUE,1662-5137,NA,PMC3321434,22509155,23733,"Uni Regensburg",
-1142.4,"Frontiers in Systems Neuroscience",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnsys.2012.00041,TRUE,1662-5137,NA,PMC3360237,22654739,25854,"Uni Regensburg",
+1071,"Frontiers in Systems Neuroscience",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnsys.2012.00011,TRUE,1662-5137,NA,PMC3284861,22383902,23734,"Uni Regensburg",NA
+1142.4,"Frontiers in Systems Neuroscience",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnsys.2012.00015,TRUE,1662-5137,NA,PMC3321434,22509155,23733,"Uni Regensburg",NA
+1142.4,"Frontiers in Systems Neuroscience",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnsys.2012.00041,TRUE,1662-5137,NA,PMC3360237,22654739,25854,"Uni Regensburg",NA
 1904,"Front. Psychology",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyg.2012.00040,TRUE,1664-1078,NA,PMC3282502,22363311,23731,"Uni Regensburg",000208863900054
 1904,"Front. Psychology",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyg.2012.00141,TRUE,1664-1078,NA,PMC3349303,22593748,25846,"Uni Regensburg",000208863900153
 1142.4,"Front. Psychology",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyg.2012.00265,TRUE,1664-1078,NA,PMC3406411,22866047,25841,"Uni Regensburg",000208863900276
 1028.16,"Front. Psychology",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyg.2012.00287,TRUE,1664-1078,NA,PMC3415689,22908004,25837,"Uni Regensburg",000208864000005
 1142.4,"Front. Psychology",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyg.2012.00519,TRUE,1664-1078,NA,PMC3505020,23189067,27512,"Uni Regensburg",000208864000227
 1142.4,"Front. Psychology",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyg.2012.00566,TRUE,1664-1078,NA,PMC3568988,23403400,27518,"Uni Regensburg",000208864000270
-2380,"Front. Psychiatry",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyt.2012.00070,TRUE,1664-0640,NA,PMC3413045,22891061,25864,"Uni Regensburg",
+2380,"Front. Psychiatry",2012,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyt.2012.00070,TRUE,1664-0640,NA,PMC3413045,22891061,25864,"Uni Regensburg",NA
 973.34,Materials,2012,"MDPI AG",http://epub.uni-regensburg.de/,10.3390/ma5101774,TRUE,1996-1944,NA,NA,NA,29511,"Uni Regensburg",000310504800003
 1635.44,Sensors,2012,"MDPI AG",http://epub.uni-regensburg.de/,10.3390/s121216954,TRUE,1424-8220,NA,PMC3571820,23235441,27511,"Uni Regensburg",000312607500054
 1110.97,WJG,2012,"Baishideng Publishing Group Co., Limited (formerly WJG Press)",http://epub.uni-regensburg.de/,10.3748/wjg.v18.i46.6836,TRUE,1007-9327,NA,PMC3520173,23239922,25533,"Uni Regensburg",000312966000018
-119,"Clinics and Practice",2012,"PAGEPress Publications",http://epub.uni-regensburg.de/,10.4081/cp.2012.e64,TRUE,2039-7283,2039-7275,PMC3981316,24765463,25836,"Uni Regensburg",
-2084.16,"J Neurol Neurophysiol",2012,"OMICS Publishing Group",http://epub.uni-regensburg.de/,10.4172/2155-9562.1000124,TRUE,2155-9562,NA,NA,NA,23746,"Uni Regensburg",
-723.28,"Journal of Physical Chemistry & Biophysics",2012,"OMICS Publishing Group",http://epub.uni-regensburg.de/,10.4172/2161-0398.S1-001,FALSE,NA,NA,NA,NA,29508,"Uni Regensburg",
-1099.53,"PLoS ONE",2012,"Public Library of Science (PLoS)",http://epub.uni-regensburg.de/,doi:10.1371/journal.pone.0042449,TRUE,1932-6203,NA,NA,NA,25848,"Uni Regensburg",
-1344.7,"Physiological Reports",2013,Wiley-Blackwell,http://epub.uni-regensburg.de/,10.1002/phy2.132,TRUE,2051-817X,NA,PMC3841059,24303195,29524,"Uni Regensburg",
+119,"Clinics and Practice",2012,"PAGEPress Publications",http://epub.uni-regensburg.de/,10.4081/cp.2012.e64,TRUE,2039-7283,2039-7275,PMC3981316,24765463,25836,"Uni Regensburg",NA
+2084.16,"J Neurol Neurophysiol",2012,"OMICS Publishing Group",http://epub.uni-regensburg.de/,10.4172/2155-9562.1000124,TRUE,2155-9562,NA,NA,NA,23746,"Uni Regensburg",NA
+723.28,"Journal of Physical Chemistry & Biophysics",2012,"OMICS Publishing Group",http://epub.uni-regensburg.de/,10.4172/2161-0398.S1-001,FALSE,NA,NA,NA,NA,29508,"Uni Regensburg",NA
+1099.53,"PLoS ONE",2012,"Public Library of Science (PLoS)",http://epub.uni-regensburg.de/,doi:10.1371/journal.pone.0042449,TRUE,1932-6203,NA,NA,NA,25848,"Uni Regensburg",NA
+1344.7,"Physiological Reports",2013,Wiley-Blackwell,http://epub.uni-regensburg.de/,10.1002/phy2.132,TRUE,2051-817X,NA,PMC3841059,24303195,29524,"Uni Regensburg",NA
 1178.1,"New J. Phys.",2013,"IOP Publishing",http://epub.uni-regensburg.de/,10.1088/1367-2630/15/7/073047,TRUE,1367-2630,NA,NA,NA,28624,"Uni Regensburg",000322177100002
 1802.85,"Nucleic Acids Research",2013,"Oxford University Press (OUP)",http://epub.uni-regensburg.de/,10.1093/nar/gkt218,TRUE,0305-1048,1362-4962,PMC3664807,23580549,28804,"Uni Regensburg",000319806600018
 1267.35,"Nucleic Acids Research",2013,"Oxford University Press (OUP)",http://epub.uni-regensburg.de/,10.1093/nar/gkt355,TRUE,0305-1048,1362-4962,PMC3711439,23658224,28816,"Uni Regensburg",000322458800012
 1267.35,"Nucleic Acids Research",2013,"Oxford University Press (OUP)",http://epub.uni-regensburg.de/,10.1093/nar/gkt433,TRUE,0305-1048,1362-4962,PMC3737540,23737452,29541,"Uni Regensburg",000323050700030
 1267.35,"Nucleic Acids Research",2013,"Oxford University Press (OUP)",http://epub.uni-regensburg.de/,10.1093/nar/gkt891,TRUE,0305-1048,1362-4962,PMC3874202,24106087,29516,"Uni Regensburg",000331136000002
-890,"International Journal of Dentistry",2013,"Hindawi Publishing Corporation",http://epub.uni-regensburg.de/,10.1155/2013/841840,TRUE,1687-8728,1687-8736,PMC3818850,24228034,29544,"Uni Regensburg",
+890,"International Journal of Dentistry",2013,"Hindawi Publishing Corporation",http://epub.uni-regensburg.de/,10.1155/2013/841840,TRUE,1687-8728,1687-8736,PMC3818850,24228034,29544,"Uni Regensburg",NA
 926,"Mathematical Problems in Engineering",2013,"Hindawi Publishing Corporation",http://epub.uni-regensburg.de/,10.1155/2013/960421,TRUE,1024-123X,1563-5147,NA,NA,29634,"Uni Regensburg",000319606000001
-1178.1,"Journal of Vision",2013,"Association for Research in Vision and Ophthalmology (ARVO)",http://epub.uni-regensburg.de/,"10.1167/13.1.10 ",TRUE,1534-7362,NA,NA,NA,27729,"Uni Regensburg",
+1178.1,"Journal of Vision",2013,"Association for Research in Vision and Ophthalmology (ARVO)",http://epub.uni-regensburg.de/,"10.1167/13.1.10 ",TRUE,1534-7362,NA,NA,NA,27729,"Uni Regensburg",NA
 1017.13,"Journal of Vision",2013,"Association for Research in Vision and Ophthalmology (ARVO)",http://epub.uni-regensburg.de/,10.1167/13.6.16,TRUE,1534-7362,NA,PMC3670578,23729767,28812,"Uni Regensburg",000319814300016
 1296,"BMC Infect Dis",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1471-2334-13-306,TRUE,1471-2334,NA,PMC3710210,23822550,28820,"Uni Regensburg",000321712000001
 1220,"BMC Medical Imaging",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1471-2342-13-41,TRUE,1471-2342,NA,PMC3866976,24289722,29527,"Uni Regensburg",000329694800001
@@ -90,7 +90,7 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 1228,"BMC Cancer",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1471-2407-13-67,TRUE,1471-2407,NA,PMC3575316,23391248,28774,"Uni Regensburg",000315028400001
 1296,"BMC Surgery",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1471-2482-13-47,TRUE,1471-2482,NA,PMC4016525,24152541,29504,"Uni Regensburg",000326341200001
 1236,"BMC Biotechnology",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-6750-13-9,TRUE,1472-6750,NA,PMC3575233,23391022,28790,"Uni Regensburg",000315023200001
-1196,"BMC Ear, Nose and Throat Disorders",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-6815-13-7,TRUE,1472-6815,NA,PMC3707821,23829563,28837,"Uni Regensburg",
+1196,"BMC Ear, Nose and Throat Disorders",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-6815-13-7,TRUE,1472-6815,NA,PMC3707821,23829563,28837,"Uni Regensburg",NA
 1200,"BMC Palliat Care",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1472-684X-12-10,TRUE,1472-684X,NA,NA,NA,28836,"Uni Regensburg",000316789900001
 1256,"Cardiovasc Diabetol",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1475-2840-12-46,TRUE,1475-2840,NA,PMC3606629,23497197,28000,"Uni Regensburg",000316609700001
 1240,"Health and Quality of Life Outcomes",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1477-7525-11-115,TRUE,1477-7525,NA,PMC3707810,23835154,28799,"Uni Regensburg",000321583200001
@@ -103,16 +103,16 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 1316,"J Cardiothorac Surg",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1749-8090-8-158,TRUE,1749-8090,NA,PMC3698060,23800191,28772,"Uni Regensburg",000321138100001
 1124,"J Cardiothorac Surg",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1749-8090-8-59,TRUE,1749-8090,NA,PMC3621772,23547910,28817,"Uni Regensburg",000317280100001
 1132,"J Cardiothorac Surg",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1749-8090-8-77,TRUE,1749-8090,NA,PMC3639089,23577747,28788,"Uni Regensburg",000318187700001
-624,"J Med Case Rep",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1752-1947-7-128,TRUE,1752-1947,NA,PMC3657545,23668891,28807,"Uni Regensburg",
+624,"J Med Case Rep",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1752-1947-7-128,TRUE,1752-1947,NA,PMC3657545,23668891,28807,"Uni Regensburg",NA
 1056,"J Ovarian Res",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/1757-2215-6-51,TRUE,1757-2215,NA,PMC3723961,23849542,28786,"Uni Regensburg",000322240400001
-1480,"Transplant Res",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-2-12,TRUE,2047-1440,NA,PMC3716891,23816330,28814,"Uni Regensburg",
-1380,"Transplant Res",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-2-16,TRUE,2047-1440,NA,PMC4016099,24143891,29517,"Uni Regensburg",
+1480,"Transplant Res",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-2-12,TRUE,2047-1440,NA,PMC3716891,23816330,28814,"Uni Regensburg",NA
+1380,"Transplant Res",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/2047-1440-2-16,TRUE,2047-1440,NA,PMC4016099,24143891,29517,"Uni Regensburg",NA
 1228,"Arthritis Research & Therapy",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/ar4304,TRUE,1478-6354,NA,PMC3978726,24432363,29543,"Uni Regensburg",000329737400024
 1236,"Critical Care",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/cc12694,TRUE,1364-8535,NA,PMC4056784,23622019,29513,"Uni Regensburg",000327887300045
 1228,"Critical Care",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/cc12782,TRUE,1364-8535,NA,PMC4056791,23786965,28775,"Uni Regensburg",000329431100027
 1296,"Critical Care",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/cc12809,TRUE,1364-8535,NA,PMC4056110,23844607,29514,"Uni Regensburg",000331539700004
 1620,"Genome Biol",2013,"Springer Science + Business Media",http://epub.uni-regensburg.de/,10.1186/gb-2013-14-5-r46,TRUE,1465-6906,NA,PMC4053946,23705593,28789,"Uni Regensburg",000325680100006
-625.32,"American Journal of Case Reports",2013,"International Scientific Literature",http://epub.uni-regensburg.de/,10.12659/AJCR.889672,TRUE,1941-5923,NA,NA,NA,29520,"Uni Regensburg",
+625.32,"American Journal of Case Reports",2013,"International Scientific Literature",http://epub.uni-regensburg.de/,10.12659/AJCR.889672,TRUE,1941-5923,NA,NA,NA,29520,"Uni Regensburg",NA
 2074.62,"PLoS Genetics",2013,"Public Library of Science (PLoS)",http://epub.uni-regensburg.de/,10.1371/journal.pgen.1003500,TRUE,1553-7404,NA,PMC3674993,23754948,28782,"Uni Regensburg",000321222600005
 2010.89,"PLoS Genetics",2013,"Public Library of Science (PLoS)",http://epub.uni-regensburg.de/,10.1371/journal.pgen.1003786,TRUE,1553-7404,NA,PMC3772059,24068958,29515,"Uni Regensburg",000325076600045
 941.93,"PLoS ONE",2013,"Public Library of Science (PLoS)",http://epub.uni-regensburg.de/,10.1371/journal.pone.0052499,TRUE,1932-6203,NA,PMC3549997,23349687,27514,"Uni Regensburg",000313943000009
@@ -142,7 +142,7 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 833,"Acta Dermato-Venereologica",2013,"Society for Publication of Acta Dermato-Venereologica ",http://epub.uni-regensburg.de/,10.2340/00015555-1632,FALSE,NA,NA,NA,23995048,28743,"Uni Regensburg",000332820000007
 1904,"Front. Hum. Neurosci.",2013,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnhum.2013.00134,TRUE,1662-5161,NA,PMC3622040,23596407,28745,"Uni Regensburg",000317335100001
 1523.2,"Front. Hum. Neurosci.",2013,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnhum.2013.00291,TRUE,1662-5161,NA,PMC3690355,23805088,28746,"Uni Regensburg",000320758200001
-960,"Front. Integr. Neurosci.",2013,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnint.2013.00005,TRUE,1662-5145,NA,PMC3570774,23407860,28766,"Uni Regensburg",
+960,"Front. Integr. Neurosci.",2013,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fnint.2013.00005,TRUE,1662-5145,NA,PMC3570774,23407860,28766,"Uni Regensburg",NA
 1142.4,"Front. Plant Sci.",2013,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpls.2013.00241,TRUE,1664-462X,NA,PMC3703529,23847644,28780,"Uni Regensburg",000330727200001
 1142.4,"Front. Plant Sci.",2013,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpls.2013.00296,TRUE,1664-462X,NA,PMC3743015,23967000,28822,"Uni Regensburg",000330765500001
 684.25,"Front. Plant Sci.",2013,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpls.2013.00377,TRUE,1664-462X,NA,PMC3779858,24065980,29535,"Uni Regensburg",000329108300001
@@ -151,21 +151,21 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 916.3,"Front. Psychology",2013,"Frontiers Media SA",http://epub.uni-regensburg.de/,10.3389/fpsyg.2013.00467,TRUE,1664-1078,NA,PMC3721022,23898312,28777,"Uni Regensburg",000331106600001
 1368,IJMS,2013,"MDPI AG",http://epub.uni-regensburg.de/,10.3390/ijms14058708,TRUE,1422-0067,NA,PMC3676752,23615466,28829,"Uni Regensburg",000319441500003
 1538.84,IJMS,2013,"MDPI AG",http://epub.uni-regensburg.de/,10.3390/ijms140714475,TRUE,1422-0067,NA,PMC3742255,23852022,28828,"Uni Regensburg",000322171700091
-484.41,Pharmaceuticals,2013,"MDPI AG",http://epub.uni-regensburg.de/,10.3390/ph6020269,TRUE,1424-8247,NA,PMC3816681,24275951,28262,"Uni Regensburg",
+484.41,Pharmaceuticals,2013,"MDPI AG",http://epub.uni-regensburg.de/,10.3390/ph6020269,TRUE,1424-8247,NA,PMC3816681,24275951,28262,"Uni Regensburg",NA
 357,ZOOKEYS,2013,"Pensoft Publishers",http://epub.uni-regensburg.de/,10.3897/zookeys.301.4913,TRUE,1313-2970,1313-2989,PMC3689134,23794892,28830,"Uni Regensburg",000319038300002
-318.01,"Surg Neurol Int",2013,Medknow,http://epub.uni-regensburg.de/,10.4103/2152-7806.114811,TRUE,2152-7806,NA,PMC3740614,23956931,28821,"Uni Regensburg",
-383.11,"Journal of Analytical Sciences, Methods and Instrumentation",2013,"Scientific Research Publishing, Inc,",http://epub.uni-regensburg.de/,10.4236/jasmi.2013.34030,TRUE,2164-2745,2164-2753,NA,NA,29507,"Uni Regensburg",
-244.24,"Journal of Management and Sustainability",2013,"Canadian Center of Science and Education",http://epub.uni-regensburg.de/,10.5539/jms.v3n1p9,TRUE,1925-4733,1925-4725,NA,NA,25635,"Uni Regensburg",
-237.64,"Journal of Management and Sustainability",2013,"Canadian Center of Science and Education",http://epub.uni-regensburg.de/,10.5539/jms.v3n2p68,TRUE,1925-4733,1925-4725,NA,NA,19650,"Uni Regensburg",
-640,"Chromatin Remodelling",2013,InTech,http://epub.uni-regensburg.de/,10.5772/55683,TRUE,NA,NA,NA,NA,28798,"Uni Regensburg",
+318.01,"Surg Neurol Int",2013,Medknow,http://epub.uni-regensburg.de/,10.4103/2152-7806.114811,TRUE,2152-7806,NA,PMC3740614,23956931,28821,"Uni Regensburg",NA
+383.11,"Journal of Analytical Sciences, Methods and Instrumentation",2013,"Scientific Research Publishing, Inc,",http://epub.uni-regensburg.de/,10.4236/jasmi.2013.34030,TRUE,2164-2745,2164-2753,NA,NA,29507,"Uni Regensburg",NA
+244.24,"Journal of Management and Sustainability",2013,"Canadian Center of Science and Education",http://epub.uni-regensburg.de/,10.5539/jms.v3n1p9,TRUE,1925-4733,1925-4725,NA,NA,25635,"Uni Regensburg",NA
+237.64,"Journal of Management and Sustainability",2013,"Canadian Center of Science and Education",http://epub.uni-regensburg.de/,10.5539/jms.v3n2p68,TRUE,1925-4733,1925-4725,NA,NA,19650,"Uni Regensburg",NA
+640,"Chromatin Remodelling",2013,InTech,http://epub.uni-regensburg.de/,10.5772/55683,TRUE,NA,NA,NA,NA,28798,"Uni Regensburg",NA
 684.1,Theranostics,2013,"Ivyspring International Publisher",http://epub.uni-regensburg.de/,10.7150/thno.5113,TRUE,1838-7640,NA,PMC3630524,23606910,27965,"Uni Regensburg",000316996600001
 1333,"Ecol Evol",2012,Wiley-Blackwell,http://pub.uni-bielefeld.de/,10.1002/ece3.309,TRUE,2045-7758,NA,PMC3433994,22957192,2521737,"Uni Bielefeld",000312448700012
 1457,"Ecol Evol",2013,Wiley-Blackwell,http://pub.uni-bielefeld.de/,10.1002/ece3.732,TRUE,2045-7758,NA,PMC3810869,24198934,2623728,"Uni Bielefeld",000325486000006
 1457,"Ecol Evol",2013,Wiley-Blackwell,http://pub.uni-bielefeld.de/,10.1002/ece3.764,TRUE,2045-7758,NA,PMC3810887,24198952,2634909,"Uni Bielefeld",000325486000024
 1046,"Scientific Reports",2012,"Nature Publishing Group",http://pub.uni-bielefeld.de/,10.1038/srep00659,TRUE,2045-2322,NA,PMC3447382,22997548,2541275,"Uni Bielefeld",000309061000001
-1017,"Health Psychology and Behavioral Medicine",2013,"Informa UK Limited",http://pub.uni-bielefeld.de/,10.1080/21642850.2013.809313,TRUE,2164-2850,NA,NA,NA,2566281,"Uni Bielefeld",
-462,"Education Research International",2012,"Hindawi Publishing Corporation",http://pub.uni-bielefeld.de/,10.1155/2012/751625,TRUE,2090-4002,2090-4010,NA,NA,2535635,"Uni Bielefeld",
-388,"Anatomy Research International",2012,"Hindawi Publishing Corporation",http://pub.uni-bielefeld.de/,10.1155/2012/837626,TRUE,2090-2743,2090-2751,PMC3467754,23082250,2490850,"Uni Bielefeld",
+1017,"Health Psychology and Behavioral Medicine",2013,"Informa UK Limited",http://pub.uni-bielefeld.de/,10.1080/21642850.2013.809313,TRUE,2164-2850,NA,NA,NA,2566281,"Uni Bielefeld",NA
+462,"Education Research International",2012,"Hindawi Publishing Corporation",http://pub.uni-bielefeld.de/,10.1155/2012/751625,TRUE,2090-4002,2090-4010,NA,NA,2535635,"Uni Bielefeld",NA
+388,"Anatomy Research International",2012,"Hindawi Publishing Corporation",http://pub.uni-bielefeld.de/,10.1155/2012/837626,TRUE,2090-2743,2090-2751,PMC3467754,23082250,2490850,"Uni Bielefeld",NA
 1078,"Stem Cells International",2013,"Hindawi Publishing Corporation",http://pub.uni-bielefeld.de/,10.1155/2013/960958,TRUE,1687-966X,1687-9678,PMC3608262,23554818,2545861,"Uni Bielefeld",000323793800001
 961,"Journal of Vision",2012,"Association for Research in Vision and Ophthalmology (ARVO)",http://pub.uni-bielefeld.de/,10.1167/12.2.8,TRUE,1534-7362,NA,NA,22323821,2465755,"Uni Bielefeld",000300947500008
 1037,"Journal of Vision",2012,"Association for Research in Vision and Ophthalmology (ARVO)",http://pub.uni-bielefeld.de/,10.1167/12.5.7,TRUE,1534-7362,NA,NA,22637708,2515416,"Uni Bielefeld",000306336600007
@@ -201,8 +201,8 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 948,"Journal of NeuroEngineering and Rehabilitation",2013,"Springer Science + Business Media",http://pub.uni-bielefeld.de/,10.1186/1743-0003-10-42,TRUE,1743-0003,NA,PMC3637817,23618596,2577463,"Uni Bielefeld",000318067100001
 1216,"Globalization and Health",2013,"Springer Science + Business Media",http://pub.uni-bielefeld.de/,10.1186/1744-8603-9-44,TRUE,1744-8603,NA,PMC3819662,24131565,2642124,"Uni Bielefeld",000326538800001
 1348,"Biotechnol Biofuels",2013,"Springer Science + Business Media",http://pub.uni-bielefeld.de/,10.1186/1754-6834-6-49,TRUE,1754-6834,NA,PMC3639179,23557021,2605193,"Uni Bielefeld",000318409700001
-1236,"BMC Psychol",2013,"Springer Science + Business Media",http://pub.uni-bielefeld.de/,10.1186/2050-7283-1-12,TRUE,2050-7283,NA,NA,NA,2610712,"Uni Bielefeld",
-850,SpringerPlus,2012,"Springer Science + Business Media",http://pub.uni-bielefeld.de/,10.1186/2193-1801-1-5,TRUE,2193-1801,NA,PMC3581110,23984223,2520044,"Uni Bielefeld",
+1236,"BMC Psychol",2013,"Springer Science + Business Media",http://pub.uni-bielefeld.de/,10.1186/2050-7283-1-12,TRUE,2050-7283,NA,NA,NA,2610712,"Uni Bielefeld",NA
+850,SpringerPlus,2012,"Springer Science + Business Media",http://pub.uni-bielefeld.de/,10.1186/2193-1801-1-5,TRUE,2193-1801,NA,PMC3581110,23984223,2520044,"Uni Bielefeld",NA
 2053,"PLoS Computational Biology",2013,"Public Library of Science (PLoS)",http://pub.uni-bielefeld.de/,10.1371/journal.pcbi.1002986,TRUE,1553-7358,NA,PMC3610657,23555221,2575501,"Uni Bielefeld",000316864200056
 915,"PLoS ONE",2012,"Public Library of Science (PLoS)",http://pub.uni-bielefeld.de/,10.1371/journal.pone.0032415,TRUE,1932-6203,NA,PMC3293793,22403655,2487924,"Uni Bielefeld",000303017700052
 958,"PLoS ONE",2012,"Public Library of Science (PLoS)",http://pub.uni-bielefeld.de/,10.1371/journal.pone.0036615,TRUE,1932-6203,NA,PMC3344906,22574196,2494548,"Uni Bielefeld",000305349800093
@@ -229,7 +229,7 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 1142,"Frontiers in Behavioral Neuroscience",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fnbeh.2013.00094,TRUE,1662-5153,NA,PMC3736047,23966914,2623746,"Uni Bielefeld",000322813500001
 1904,"Frontiers in Behavioral Neuroscience",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fnbeh.2013.00155,TRUE,1662-5153,NA,PMC3810598,24194704,2634538,"Uni Bielefeld",000326220200001
 1142,"Frontiers in Behavioral Neuroscience",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fnbeh.2013.00189,TRUE,1662-5153,NA,PMC3853647,24367306,2645164,"Uni Bielefeld",000328142100001
-1142,"Front. Neurorobot.",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fnbot.2013.00006,TRUE,1662-5218,NA,PMC3613617,23565092,2547895,"Uni Bielefeld",
+1142,"Front. Neurorobot.",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fnbot.2013.00006,TRUE,1662-5218,NA,PMC3613617,23565092,2547895,"Uni Bielefeld",NA
 1600,"Frontiers in Neural Circuits",2012,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fncir.2012.00072,TRUE,1662-5110,NA,PMC3466426,23087615,2530855,"Uni Bielefeld",000309577200001
 1143,"Front. Comput. Neurosci.",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fncom.2013.00126,TRUE,1662-5188,NA,PMC3774992,24062682,2623884,"Uni Bielefeld",000324633500001
 1142,"Front. Comput. Neurosci.",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fncom.2013.00127,TRUE,1662-5188,NA,PMC3776155,24065915,2623900,"Uni Bielefeld",000324633600001
@@ -241,7 +241,7 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 960,"Front. Psychology",2012,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fpsyg.2012.00403,TRUE,1664-1078,NA,PMC3485580,23125838,2541265,"Uni Bielefeld",000208864000119
 960,"Front. Psychology",2012,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fpsyg.2012.00444,TRUE,1664-1078,NA,PMC3481004,23112785,2531235,"Uni Bielefeld",000208864000157
 960,"Front. Psychology",2012,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fpsyg.2012.00538,TRUE,1664-1078,NA,PMC3514542,23227018,2544873,"Uni Bielefeld",000208864000246
-960,"Front. Psychology",2012,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fpsyg.2012.00599,TRUE,1664-1078,NA,PMC3551234,23346063,2533825,"Uni Bielefeld",
+960,"Front. Psychology",2012,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fpsyg.2012.00599,TRUE,1664-1078,NA,PMC3551234,23346063,2533825,"Uni Bielefeld",NA
 1142,"Front. Psychology",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fpsyg.2013.00182,TRUE,1664-1078,NA,PMC3622033,23596435,2550401,"Uni Bielefeld",000330846700001
 1142,"Front. Psychology",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fpsyg.2013.00324,TRUE,1664-1078,NA,PMC3684785,23785343,2610958,"Uni Bielefeld",000331044100001
 917,"Front. Psychology",2013,"Frontiers Media SA",http://pub.uni-bielefeld.de/,10.3389/fpsyg.2013.00342,TRUE,1664-1078,NA,PMC3690456,23805111,2610967,"Uni Bielefeld",000331046300001
@@ -250,8 +250,8 @@ EURO,Journal,Period,Publisher,base.url,doi,indexed_in_CrossRef,issn.1,issn.2,pmc
 1175,Entropy,2013,"MDPI AG",http://pub.uni-bielefeld.de/,10.3390/e15093312,TRUE,1099-4300,NA,NA,NA,2623798,"Uni Bielefeld",000328463000001
 493,Symmetry,2012,"MDPI AG",http://pub.uni-bielefeld.de/,10.3390/sym4040566,TRUE,2073-8994,NA,NA,NA,2531176,"Uni Bielefeld",000208832800001
 493,Symmetry,2012,"MDPI AG",http://pub.uni-bielefeld.de/,10.3390/sym4040581,TRUE,2073-8994,NA,NA,NA,2541297,"Uni Bielefeld",000208832800002
-732,"Journal of Intelligent Learning Systems and Applications",2012,"Scientific Research Publishing, Inc,",http://pub.uni-bielefeld.de/,10.4236/jilsa.2012.43024,TRUE,2150-8402,2150-8410,NA,NA,2508614,"Uni Bielefeld",
-142,"Computational and Structural Biotechnology Journal",2012,"Elsevier BV",http://pub.uni-bielefeld.de/,10.5936/csbj.201210004,TRUE,2001-0370,NA,PMC3962153,24688664,2533638,"Uni Bielefeld",
-745.25,"International Journal of Molecular Epidemiology and Genetics",2012,"e-Century Publ. Corp.",http://epub.uni-regensburg.de/,NA,FALSE,NA,NA,NA,NA,23616,"Uni Regensburg",
-192.8,"Functional Foods in Health and Disease",2013,"Food Science Publisher",http://epub.uni-regensburg.de/,NA,FALSE,NA,NA,NA,NA,28794,"Uni Regensburg",
-761.05,"International Journal of Molecular Epidemiology and Genetics",2012,"e-Century Publ. Corp.",http://epub.uni-regensburg.de/,NA,FALSE,NA,NA,NA,NA,26556,"Uni Regensburg",
+732,"Journal of Intelligent Learning Systems and Applications",2012,"Scientific Research Publishing, Inc,",http://pub.uni-bielefeld.de/,10.4236/jilsa.2012.43024,TRUE,2150-8402,2150-8410,NA,NA,2508614,"Uni Bielefeld",NA
+142,"Computational and Structural Biotechnology Journal",2012,"Elsevier BV",http://pub.uni-bielefeld.de/,10.5936/csbj.201210004,TRUE,2001-0370,NA,PMC3962153,24688664,2533638,"Uni Bielefeld",NA
+745.25,"International Journal of Molecular Epidemiology and Genetics",2012,"e-Century Publ. Corp.",http://epub.uni-regensburg.de/,NA,FALSE,NA,NA,NA,NA,23616,"Uni Regensburg",NA
+192.8,"Functional Foods in Health and Disease",2013,"Food Science Publisher",http://epub.uni-regensburg.de/,NA,FALSE,NA,NA,NA,NA,28794,"Uni Regensburg",NA
+761.05,"International Journal of Molecular Epidemiology and Genetics",2012,"e-Century Publ. Corp.",http://epub.uni-regensburg.de/,NA,FALSE,NA,NA,NA,NA,26556,"Uni Regensburg",NA
