@@ -3,7 +3,7 @@
 The aim of this repository is:
 
 - to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014) -> [data/doajJournalList.csv](data/doajJournalList.csv)
-- to release a [Bielefeld University](http://www.uni-bielefeld.de/) Paid APCs 2012/13 Dataset under an Open Database License -> [data/unibi12-13.csv](data/unibi12-13.csv)
+- to release a [Bielefeld University](http://www.uni-bielefeld.de/) Paid APCs 2012/13 Dataset under an Open Database License -> [data/unibi/unibi12-13.csv](data/unibi12-13.csv)
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible
 
 This documentation is written in Markdown and embeds source code written in [R](http://www.r-project.org/).
