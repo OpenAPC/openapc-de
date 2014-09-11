@@ -8,7 +8,7 @@ The aim of this repository is:
 
 ## Dataset
 
-At the moment, the dataset releases information for 287 articles, with total expenditure of 330,954.60 EURO.
+At the moment, the dataset releases information on 287 articles, with total expenditure of 330,954.60 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
@@ -46,7 +46,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Gernot Deinzer, Ulrich Herb, Dirk Pieper, Marco Tullney, Najko Jahn
+Gernot Deinzer, Ulrich Herb, Vitali Peil, Dirk Pieper, Marco Tullney, Najko Jahn
 
 ## Contact
 
