@@ -2,7 +2,7 @@ require(plyr)
 require(RJSONIO)
 require(RCurl)
 
-unih <- read.csv("data/unihannover//unihannover.csv", header = TRUE, sep=",")
+unih <- read.csv("data/unihannover/unihannover.csv", header = TRUE, sep=",")
 
 source("R/doi_fetch.r")
 
@@ -67,3 +67,39 @@ colnames(my.df) <- colnames(my.all)
 my.all.t <- rbind(my.all, my.df)
 
 write.csv(my.all.t, "data/apc_de.csv")
+
+# make a sankey for hannover
+
+unihan <- my.df[my.df$uni == "Leibniz Universität Hannover",]
+
+#select columns
+unihan <- unihan[,c("Publisher", "Journal", "EURO")]
+
+#rename
+colnames(unihan) <- c("source", "target", "value")
+unihan$value <- as.numeric(unihan$value)
+
+#get affiliation 
+tt <- as.data.frame(as.matrix((tapply(unihan$value,unihan$source, sum))))
+tt$target <- rownames(tt)
+tt$source <- rep("Leibniz Universität Hannover", times = nrow(tt))
+colnames(tt) <- c("value", "target", "source")
+
+unihan.sub <- rbind(tt, unihan)
+
+
+#now we finally have the data in the form we need
+sankeyPlot <- rCharts$new()
+sankeyPlot$setLib('http://timelyportfolio.github.io/rCharts_d3_sankey')
+
+sankeyPlot$set(
+  data = unihan.sub,
+  nodeWidth = 15,
+  nodePadding = 10,
+  layout = 32,
+  width = 960,
+  height = 800,
+  unit = "EURO",
+  title= "Author fees paid by Leibniz Universität Hannover Publication Fund since 2013"
+)
+sankeyPlot
