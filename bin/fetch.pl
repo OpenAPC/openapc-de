@@ -132,7 +132,7 @@ $csv->each(
     sub {
         my $data = $_[0];
         my $body = _generate_xml($data);
-        if ($body) {
+        if ($body && $data->{ut} eq 'NA') {
             my $ut = _parse( _do_request($body) );
             $data->{ut} = $ut if $ut;
         } 
