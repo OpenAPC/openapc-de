@@ -8,7 +8,7 @@ The aim of this repository is:
 
 ## Dataset
 
-At the moment, the dataset releases information on 287 articles, with total expenditure of 330,954.60 EURO.
+At the moment, the dataset releases information on 342 articles, with total expenditure of 394,581.60 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
@@ -18,6 +18,7 @@ So far, the following German universities have agreed to share information on pa
 
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
+- [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 
 ## How to contribute?
@@ -36,7 +37,8 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Deinzer, Gernot; Herb, Ulrich; Peil, Vitali; Pieper, Dirk; Tullney, Marco; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Deinzer, Gernot; Herb, Ulrich; Lützenkirchen, Frank;
+Peil, Vitali; Pieper, Dirk; Tullney, Marco; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
@@ -46,7 +48,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Gernot Deinzer, Ulrich Herb, Vitali Peil, Dirk Pieper, Marco Tullney, Najko Jahn
+Gernot Deinzer, Ulrich Herb, Frank Lützenkirchen, Vitali Peil, Dirk Pieper, Marco Tullney, Najko Jahn
 
 ## Contact
 
