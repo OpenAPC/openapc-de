@@ -68,19 +68,19 @@ my.df <- my.tmp[,c("Institution", "Period", "EURO", "Publisher",
                    "record.id", "base.url", "ut")]
 
 my.all <- read.csv("data/apc_de.csv", header = T, sep =",")
-my.all <- my.all[,-c(1:2)]
+my.all <- my.all[,-c(1)]
 
 colnames(my.df) <- colnames(my.all)
 
 my.all.t <- rbind(my.all, my.df)
 
-write.csv(my.all.t, "data/apc_de.csv")
+write.csv(my.all.t, "data/apc_de.csv", row.names = FALSE)
 
 # make a sankey for hannover
 
 uniduean <- my.df[my.df$uni == "Universität Duisburg-Essen",]
 
-#select columns
+#select columnsh
 uniduean <- uniduean[,c("Publisher", "Journal", "EURO")]
 
 #rename
