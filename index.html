@@ -56,8 +56,8 @@
 <p>Participating Funds:</p>
   <ul>
     <li><a href="http://oa.uni-bielefeld.de/publikationsfonds.html">Bielefeld University</a></li>
-    <li><a href="http://tib.uni-hannover.de/oafonds">Leibniz Universität Hannover
-</a></li>
+    <li><a href="http://tib.uni-hannover.de/oafonds">Leibniz Universität Hannover</a></li>
+    <li><a href="https://www.uni-due.de/ub/open_access.shtml">University of Duisburg-Essen</a></li>
     <li><a href="http://oa.uni-regensburg.de/">University of Regensburg</a></li>
   </ul>
 
@@ -82,7 +82,10 @@
 
 <ul>
   <li>
-    <a href="#unide">Fees paid by German Universities 2012 &mdash; 13</a>
+    <a href="#unide">Comparing Bielefeld and Regensburg fees paid 2012 &mdash; 13</a>
+  </li>
+   <li>
+    <a href="#unidue">Fees paid by Open-Access-Fonds University of Duisburg-Essen 2013</a>
   </li>
     <li>
     <a href="#unih">Fees paid by Leibniz Universität Hannover Publication Fund since 2013</a>
@@ -96,7 +99,7 @@
 </ul>
 
 
-<h3 id="unide">Fees paid by German Universities 2012 &mdash; 13</h3>
+<h3 id="unide">Comparing Bielefeld and Regensburg fees paid 2012 &mdash; 13</h3>
 
 <div id = 'chart8a715b175a7' class = 'rChart rCharts_d3_sankey'></div>
 <!--Attribution:
@@ -237,6 +240,148 @@ node.append("text")
 })();
 </script>
 
+<h3 id="unidue">Fees paid by Open-Access-Fonds University of Duisburg-Essen 2013</h3>
+
+
+<div id = 'chart1f257566d3c' class = 'rChart rCharts_d3_sankey'></div>
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart1f257566d3c",
+"width":    960,
+"height":    600,
+"data": {
+ "value": [   1143,   1157,    385,    990,  17060,    243,  41740,    909,    990,   1157,    540,   1000,   1000,   1236,   1216,   1216,   1196,   1212,   1236,   1296,   1256,   1296,   1296,   1296,   1064,   1068,   1140,   1316,   1308,   1252,   1244,   1268,   1056,   1044,   1096,   1080,   1032,   1188,   1180,   1180,   1180,    680,   1104,   1152,    924,    680,   1212,    385,   1377,   1377,   1377,   1377,   1377,   1377,   1377,   1377,   1016,   1737,   1634,   1657,   1143,    243,    909 ],
+"target": [ "Frontiers Media SA", "Hindawi Publishing Corporation", "International Scientific Literature", "IOP Publishing", "Public Library of Science (PLoS)", "Sciedu Press", "Springer Science + Business Media", "Univ. of Buckingham Pr.", "New J. Phys.", "Disease Markers", "Journal of Inequalities and Applications", "J Headache Pain", "J Headache Pain", "BMC Gastroenterology", "BMC Neurology", "BMC Neurology", "BMC Cancer", "BMC Ophthalmol", "BMC Psychiatry", "BMC Complement Altern Med", "World Journal of Surgical Oncology", "World Journal of Surgical Oncology", "World Journal of Surgical Oncology", "World Journal of Surgical Oncology", "Retrovirology", "Retrovirology", "Retrovirology", "Front Zool", "Front Zool", "Virol J", "Virol J", "Behav Brain Funct", "Diagnostic Pathology", "Radiat Oncol", "Radiat Oncol", "Radiat Oncol", "Radiat Oncol", "Orphanet J Rare Dis", "Orphanet J Rare Dis", "Orphanet J Rare Dis", "Orphanet J Rare Dis", "BMC Research Notes", "Parasites & Vectors", "Parasites & Vectors", "EJNMMI Res", "SpringerPlus", "Critical Care", "Annals of Transplantation", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS Pathogens", "PLoS Pathogens", "PLoS Pathogens", "Frontiers in Oncology", "International Journal of Financial Research", "Hypothesis in the Life Sciences " ],
+"source": [ "Universität Duisburg-Essen", "Universität Duisburg-Essen", "Universität Duisburg-Essen", "Universität Duisburg-Essen", "Universität Duisburg-Essen", "Universität Duisburg-Essen", "Universität Duisburg-Essen", "Universität Duisburg-Essen", "IOP Publishing", "Hindawi Publishing Corporation", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "International Scientific Literature", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Frontiers Media SA", "Sciedu Press", "Univ. of Buckingham Pr." ] 
+},
+"nodeWidth":     15,
+"nodePadding":     10,
+"layout":     32,
+"unit": "EURO",
+"title": "Author fees paid by Leibniz Universität Hannover Publication Fund since 2013",
+"id": "chart1f257566d3c" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+
 <h3 id="unih">Fees paid by Leibniz Universität Hannover Publication Fund  since 2013</h3>
 
 <div id = 'chart176d351d1ac' class = 'rChart rCharts_d3_sankey'></div>
@@ -250,7 +395,7 @@ Mike Bostock http://bost.ocks.org/mike/sankey/
 var params = {
  "dom": "chart176d351d1ac",
 "width":    960,
-"height":    800,
+"height":    600,
 "data": {
  "value": [ 3387.6, 6473.6, 4990.9, 4476.4, 7174.1,    930, 2454.7,   1568,  533.8, 6788.9,    930, 1178.1, 1178.1, 1178.1, 1456.6,   1568, 1874.2,   1904, 1993.2, 1017.5, 1191.4, 1361.2, 1616.7, 1638.5, 1366.3,   1241, 1213.7, 1142.4, 1142.4, 1142.4, 1142.4,   1904, 1758.6, 779.97, 779.89,   1158,  533.8,  999.6, 828.24, 756.84, 802.93 ],
 "target": [ "Copernicus GmbH", "Frontiers Media SA", "IOP Publishing", "MDPI AG", "Optical Society of America (OSA)", "Portland Press Ltd.", "Public Library of Science (PLoS)", "Schweizerbart", "Scientific Research Publishing, Inc,", "Springer Science + Business Media", "Biosci. Rep.", "New J. Phys.", "New J. Phys.", "New J. Phys.", "New J. Phys.", "Meteorologische Zeitschrift", "BMC Evol Biol", "BMC Genomics", "BMC Health Services Research", "Health Econ Rev", "Biomed. Opt. Express", "Opt. Express", "Opt. Express", "Opt. Express", "Opt. Express", "PLoS ONE", "PLoS ONE", "Front. Plant Sci.", "Front. Plant Sci.", "Front. Plant Sci.", "Front. Plant Sci.", "Front. Plant Sci.", "Sensors", "Sustainability", "Sustainability", "Viruses", "IJG", "Atmos. Meas. Tech. Discuss.", "Atmos. Meas. Tech. Discuss.", "Natural Hazards and Earth System Sciences Discussions", "Natural Hazards and Earth System Sciences Discussions" ],
@@ -707,9 +852,17 @@ sankeyPlot
 
 </code></pre>
 
+<h2>How to cite?</h2>
+
+<p>Bielefeld University Library archives a remote including version history. To cite:</p>
+
+<p>Deinzer, Gernot; Herb, Ulrich; Lützenkirchen, Frank;
+Peil, Vitali; Pieper, Dirk; Tullney, Marco; Jahn, Najko; (2014): <em>Datasets on fee-based Open Access publishing across German Institutions</em>. Bielefeld University. <a href="http://dx.doi.org/10.4119/UNIBI/UB.2014.18">10.4119/UNIBI/UB.2014.18</a></p>
+
+
 <h2>Contributors</h2>
 
-<p>Gernot Deinzer, Ulrich Herb, Vitali Peil, Dirk Pieper, Marco Tullney, Najko Jahn</p>
+<p>Gernot Deinzer, Ulrich Herb, Frank Lützenkirchen, Vitali Peil, Dirk Pieper, Marco Tullney, Najko Jahn</p>
 
  <h2>License</h2>
  
