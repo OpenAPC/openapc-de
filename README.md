@@ -21,6 +21,18 @@ So far, the following German universities have agreed to share information on pa
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 
+## Sample Visualisations
+
+### Distribution over publishers
+
+![](figure/plotPublisherAPC.png)
+
+### Average fees paid by publisher
+
+![](figure/plotAverageAPC.png)
+
+see also [http://njahn82.github.io/unibiAPC/](http://njahn82.github.io/unibiAPC/)
+
 ## How to contribute?
 
 In collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/), a [wiki page](https://github.com/njahn82/unibiAPC/wiki/Handreichung-Dateneingabe)(in German) explains all the steps required. Meeting and telephone conferences are documented as well:
