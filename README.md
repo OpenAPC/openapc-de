@@ -8,7 +8,7 @@ The aim of this repository is:
 
 ## Dataset
 
-At the moment, the dataset releases information on 838 articles, with total expenditure of 1.020.769 EURO.
+At the moment, the dataset releases information on 799 articles, with total expenditure of 968.269,50 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
