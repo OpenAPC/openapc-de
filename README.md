@@ -8,7 +8,7 @@ The aim of this repository is:
 
 ## Dataset
 
-At the moment, the dataset releases information on 443 articles, with total expenditure of 510,422 EURO.
+At the moment, the dataset releases information on 838 articles, with total expenditure of 1.020.769 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
@@ -19,6 +19,7 @@ So far, the following German universities have agreed to share information on pa
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
+- [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 
 ## Sample Visualisations
