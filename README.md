@@ -22,6 +22,15 @@ So far, the following German universities have agreed to share information on pa
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 
+## Participating Research Society Funds in Germany
+
+Dataset on funds that are supported by research societies under its Open-Access Publishing Programme.
+
+Participating Research Organizations:
+- [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
+
+The data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
+
 ## Sample Visualisations
 
 ### Distribution over publishers
