@@ -18,7 +18,7 @@ Vitali Peil, vitali.peil at uni-bielefeld.de
 
 This software is copyright (c) 2014 by Vitali Peil.
 
-This is free software; you can redistribute it and/or modify it 
+This is free software; you can redistribute it and/or modify it
 under the same terms as the Perl 5 programming language system itself.
 
 =cut
@@ -30,6 +30,7 @@ use Catmandu::Exporter::CSV;
 use LWP::UserAgent;
 use XML::Simple;
 use Try::Tiny;
+use FindBin qw/$Bin/;
 
 my $file   = $ARGV[0];
 my $wosURL = 'http://apps.webofknowledge.com/';
@@ -115,7 +116,7 @@ sub _parse {
         $xml = XMLin($f);
         return if exists $xml->{error};
         my $node = $xml->{fn}->{map}->{map}->{map}->{val};
-        
+
         my $ut = $node->{ut}->{content} ||= '';
         return $ut;
     }
@@ -126,7 +127,12 @@ sub _parse {
 
 # main
 my $csv      = Catmandu::Importer::CSV->new( file => $file );
-my $exporter = Catmandu::Exporter::CSV->new( file => "output.csv" );
+my $exporter = Catmandu::Exporter::CSV->new(
+  file => "$Bin/../data/doi_ut.csv",
+  sep_char => ',',
+  quote_char => '"',
+  always_quote => 1,
+  );
 
 $csv->each(
     sub {
@@ -134,8 +140,7 @@ $csv->each(
         my $body = _generate_xml($data);
         if ($body && $data->{ut} eq 'NA') {
             my $ut = _parse( _do_request($body) );
-            $data->{ut} = $ut if $ut;
-        } 
-        $exporter->add($data);
+            $exporter->add({doi => $data->{doi}, ut => $ut ? "ut:$ut" : 'NA'});
+        }
     }
 );
