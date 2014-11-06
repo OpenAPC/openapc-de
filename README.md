@@ -8,7 +8,7 @@ The aim of this repository is:
 
 ## Dataset
 
-At the moment, the dataset releases information on 799 articles, with total expenditure of 968.269,50 EURO.
+At the moment, the dataset releases information on 1.432 articles, with total expenditure of 1.732.556 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
@@ -38,7 +38,6 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Sample Visualisations
 
 ### Distribution over publishers by university
-
 
 ![](figure/plotPublisherAPC.png)
 
