@@ -39,19 +39,70 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ### Distribution over publishers by university
 
+```{r, echo=FALSE}
+require(ggplot2)
+require(wesanderson)
+
+#load data
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+
+#exclude mpg
+my.apc <- my.apc[!my.apc$Institution == "MPG",]
+
+## Choose only publisher with at least 5 publication (abritary)
+
+# relevel
+my.apc$Publisher <- factor(my.apc$Publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$Institution <- factor(my.apc$Institution, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+
+levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
+
+my.df <- aggregate(my.apc$EURO, list(Publisher =my.apc$Publisher, uni = my.apc$Institution), sum)
+
+## Plot by publisher
+
+tt <- ggplot(my.df, aes(Publisher, x, fill=uni)) + geom_bar(stat="identity")  
+
+p <- tt + ylab("Fees paid (in EURO)") + coord_flip() + scale_y_continuous(limits=c(0, 300000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
+  scale_fill_brewer(type="qual", palette = 1) + theme_bw()
+
+p <- p + theme(legend.position="top", legend.text = element_text(size = 6, colour = "black"))
+
+ggsave(p, file = "figure/plotPublisherAPC.png", width=6.8,height=4.5,units="in")
+```
 
 ![](figure/plotPublisherAPC.png)
 
 
 ### Average fees paid by publisher
 
+```{r, echo=FALSE}
 
+q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
+
+ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
+
+```
 
 ![](figure/plotAverageAPC.png)
 
 ### Average fees Max Planck Digital Library paid for Springer Open Access articles by year
 
+```{r, echo=FALSE}
 
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+
+mpg <- my.apc[my.apc$Institution == "MPG" & my.apc$Publisher == "Springer Science + Business Media",]
+q <- ggplot(mpg, aes(factor(Period), EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + xlab("Period") + theme(legend.position="top") + theme_bw()
+
+ggsave(q, file = "figure/plotAverageSpringerMPDL.png", width=6.8,height=4.5,units="in")
+
+```
 
 ![](figure/plotAverageSpringerMPDL.png)
 
