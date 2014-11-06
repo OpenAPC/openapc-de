@@ -3,7 +3,7 @@
 The aim of this repository is:
 
 - to release datasets on fees paid for Open Access journal articles by German Universities under an Open Database License
-- to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014) -> [data/doajJournalList.csv](data/doajJournalList.csv)
+- to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014) -> [data/doaj/doajJournalList.csv](data/doajJournalList.csv)
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
 ## Dataset
@@ -39,6 +39,12 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ### Distribution over publishers by university
 
+
+```
+## Loading required package: ggplot2
+## Loading required package: methods
+## Loading required package: wesanderson
+```
 
 ![](figure/plotPublisherAPC.png)
 
