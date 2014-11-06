@@ -49,7 +49,18 @@
 
       <hr class="soften">
 
-<h2>Datasets</h2>
+<h2>Dataset Fees paid by German Research Research Institutions</h2>
+
+ <p>The dataset provides disambiguated data elements for monitoring APC expenditure across institutions per article, in particular:</p>
+ <ul>
+  <li>Fee paid (including VAT)</li>
+  <li>Publication identifiers - DOI, PubMedID, PubMedCentral ID, Web of Science UT</li>
+  <li>Disambiguated publisher names and journal titles provided by CrossRef</li>
+  <li>Repository Identifier of participating universities.</li>
+  <li>ISSN</li>
+</ul>
+
+  <a href="https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv" class="btn btn-info btn-lg" role="button">View on GitHub</a>
 
 <h3>University Publication Funds in Germany</h3>
 <p>Dataset on funds that are supported by the German Research Foundation (DFG) under its <a href="http://www.dfg.de/en/research_funding/programmes/infrastructure/lis/funding_opportunities/open_access_publishing/index.html">Open-Access Publishing Programme.</a></p>
@@ -57,20 +68,25 @@
   <ul>
     <li><a href="http://oa.uni-bielefeld.de/publikationsfonds.html">Bielefeld University</a></li>
     <li><a href="http://tib.uni-hannover.de/oafonds">Leibniz Universität Hannover</a></li>
+     <li><a href="http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php">KIT Karlsruhe</a></li>
     <li><a href="https://www.uni-due.de/ub/open_access.shtml">University of Duisburg-Essen</a></li>
+    <li><a href="http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/">University of Konstanz</a></li>
     <li><a href="http://oa.uni-regensburg.de/">University of Regensburg</a></li>
   </ul>
 
- <p>It provides disambiguated data elements for monitoring APC expenditure across institutions per article, in particular:</p>
- <ul>
-  <li>Fee paid (including VAT)</li>
-  <li>Publication identifiers - DOI, PubMedID, PubMedCentral ID</li>
-  <li>Disambiguated publisher names and journal titles provided by CrossRef</li>
-  <li>Repository Identifier of participating universities.</li>
-  <li>ISSN</li>
+<h3>Participating Research Society Funds in Germany</h3>
+
+Dataset on funds that are supported by research societies under its Open-Access Publishing Programme.
+
+Participating Research Organizations:
+
+<ul>
+  <li><a href="http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html">Max Planck Digital Library</a>
+  </li>
 </ul>
 
-  <a href="https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv" class="btn btn-info btn-lg" role="button">View on GitHub</a>
+Please note, MPDL data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
+
 
 <h3>Information on APC (journal level)</h3>
   <ul>
@@ -81,12 +97,11 @@
 <h2>Sample visualisations</h2>
 
 <ul>
+    <li>
+    <a href="#unik">Fees paid by German Research Research Institutions</a>
+  </li>
   <li>
     <a href="#unide">Comparing Bielefeld and Regensburg fees paid 2012 &mdash; 13</a>
-  </li>
-    <li>
-    <a href="#unik">Fees paid by University of Konstanz Publication Fund 2012 &mdash; 13</a>
-  </li>
    <li>
     <a href="#unidue">Fees paid by Open-Access-Fonds University of Duisburg-Essen 2013</a>
   </li>
@@ -100,6 +115,147 @@
     <a href="#unireg">Fees paid by Bielefeld University Publication Fund 2012 &mdash; 13</a>
   </li>
 </ul>
+
+<h3 id="unik">Author fees paid by German Research Institutions</h3>
+
+<div id = 'chart7ea21bad7c1' class = 'rChart rCharts_d3_sankey'></div>
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart7ea21bad7c1",
+"width":    760,
+"height":    600,
+"data": {
+ "source": [ "Konstanz U", "Duisburg-Essen U", "KIT", "Bielefeld U", "MPG", "Duisburg-Essen U", "Bielefeld U", "Regensburg U", "Regensburg U", "Regensburg U", "Bielefeld U", "Konstanz U", "Hannover U", "KIT", "Regensburg U", "Bielefeld U", "MPG", "Konstanz U", "KIT", "Regensburg U", "Bielefeld U", "Duisburg-Essen U", "Hannover U", "KIT", "Konstanz U", "Regensburg U", "Konstanz U", "Bielefeld U", "Duisburg-Essen U", "KIT", "Konstanz U", "Regensburg U", "KIT", "Bielefeld U", "Duisburg-Essen U", "KIT", "KIT", "Konstanz U", "Regensburg U", "Duisburg-Essen U", "Regensburg U", "KIT", "Regensburg U", "Bielefeld U", "Duisburg-Essen U", "Hannover U", "KIT", "Konstanz U", "MPG", "Regensburg U", "Regensburg U", "Duisburg-Essen U", "KIT", "Bielefeld U", "Duisburg-Essen U", "Hannover U", "KIT", "Regensburg U", "Regensburg U", "Bielefeld U", "Duisburg-Essen U", "KIT", "Konstanz U", "Regensburg U", "KIT", "Regensburg U", "Hannover U", "KIT", "Konstanz U", "Duisburg-Essen U", "KIT", "Konstanz U", "Regensburg U", "Regensburg U", "Konstanz U", "Regensburg U", "Hannover U", "Bielefeld U", "Duisburg-Essen U", "Hannover U", "KIT", "Konstanz U", "MPG", "Regensburg U", "Hannover U", "Duisburg-Essen U", "Bielefeld U", "Hannover U", "KIT", "Konstanz U", "Regensburg U", "Regensburg U", "Bielefeld U", "Duisburg-Essen U", "Hannover U", "KIT", "Konstanz U", "MPG", "Regensburg U", "Regensburg U", "Konstanz U", "Duisburg-Essen U", "MPG", "Duisburg-Essen U", "Regensburg U", "Bielefeld U", "Duisburg-Essen U", "KIT", "MPG", "Regensburg U" ],
+"target": [ "Academy and Industry Research Collaboration Center (AIRCC)", "AIP Publishing", "AIP Publishing", "American Physical Society (APS)", "American Vacuum Society", "Amsterdam University Press", "Association for Research in Vision and Ophthalmology (ARVO)", "Association for Research in Vision and Ophthalmology (ARVO)", "Baishideng Publishing Group Co., Limited (formerly WJG Press)", "Canadian Center of Science and Education", "Co-Action Publishing", "Co-Action Publishing", "Copernicus GmbH", "Copernicus GmbH", "e-Century Publ. Corp.", "Elsevier BV", "EMBO", "Environmental Health Perspectives", "ESG", "Food Science Publisher", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Genetics Society of America", "Hindawi Publishing Corporation", "Hindawi Publishing Corporation", "Hindawi Publishing Corporation", "Hindawi Publishing Corporation", "Hindawi Publishing Corporation", "IGIP", "Informa UK Limited", "Institute of Electrical & Electronics Engineers (IEEE)", "Institute of Electrical & Electronics Engineers (IEEE)", "InTech", "InTech", "InTech", "International Scientific Literature", "International Scientific Literature", "International Union of Crystallography (IUCr)", "International Union of Crystallography (IUCr)", "IOP Publishing", "IOP Publishing", "IOP Publishing", "IOP Publishing", "IOP Publishing", "IOP Publishing", "IOP Publishing", "Ivyspring International Publisher", "JMIR Publications Inc.", "KIT Scientific Publishing", "MDPI AG", "MDPI AG", "MDPI AG", "MDPI AG", "MDPI AG", "Medknow", "Nature Publishing Group", "Nature Publishing Group", "Nature Publishing Group", "Nature Publishing Group", "Nature Publishing Group", "OMICS Publishing Group", "OMICS Publishing Group", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Oxford University Press (OUP)", "Oxford University Press (OUP)", "Oxford University Press (OUP)", "Oxford University Press (OUP)", "PAGEPress Publications", "Pensoft Publishers", "Pensoft Publishers", "Portland Press Ltd.", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Schweizerbart", "Sciedu Press", "Scientific Research Publishing, Inc,", "Scientific Research Publishing, Inc,", "Scientific Research Publishing, Inc,", "Scientific Research Publishing, Inc,", "Scientific Research Publishing, Inc,", "Society for Publication of Acta Dermato-Venereologica ", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "The Genomic Standards Consortium", "Thieme Publishing Group", "Ubiquity Press, Ltd.", "Univ. of Buckingham Pr.", "Walter de Gruyter GmbH", "Wiley-Blackwell", "Wiley-Blackwell", "Wiley-Blackwell", "Wiley-Blackwell", "Wiley-Blackwell" ],
+"value": [ 136.57,   1206, 1057.9,   1087, 737.28,    238, 5507.2, 2195.2,   1111, 481.88, 1404.2,  928.2, 3387.6,  54308, 1506.3, 1728.1, 1337.2, 1314.5,   1000,  192.8,  45068,   3246, 7996.8, 9301.3,  18517,  25489, 1803.7,   1928,   2851, 7898.9, 2445.4, 3353.2,    120,   1017,   1283, 2400.5,   1180, 1523.2,    640,    385, 1381.9, 148.46, 304.93, 2356.2,   1598, 4990.9, 6792.5, 1178.1,  61482,   1898,  684.1,   1118,    690, 4504.3,   2878, 4482.9, 2614.6,   6000, 318.01, 2290.7,   2235,   7472, 1244.7, 1244.7, 2038.2, 2807.4,   7192,  67270, 9367.1,   1982, 2534.7, 2451.4, 9549.8,    119,  523.6,    357,    930,  31443,  32880, 3678.5,  26665,  30118, 2.7549e+05,  51825,   1568,    243,    732,  533.8, 1393.7, 770.78, 383.11,    833,  62375,  65934, 6788.9,  32762,  34955, 5.3274e+05,  63064, 1239.5, 499.13,    762, 2178.7,    909,  285.6,   4247,    827,    979,  11760, 5344.7 ] 
+},
+"nodeWidth":     20,
+"nodePadding":      8,
+"layout":     32,
+"unit": "EURO",
+"title": "Author fees paid by German Research Institutions",
+"id": "chart7ea21bad7c1" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
 
 
 <h3 id="unide">Comparing Bielefeld and Regensburg fees paid 2012 &mdash; 13</h3>
@@ -243,146 +399,6 @@ node.append("text")
 })();
 </script>
 
-<h3 id="unik">Fees paid by Open-Access-Fonds University of Duisburg-Essen 2013</h3>
-
-<div id = 'chart74d68ed149f' class = 'rChart rCharts_d3_sankey'></div>
-<!--Attribution:
-Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
-Mike Bostock http://bost.ocks.org/mike/sankey/
--->
-
-<script>
-(function(){
-var params = {
- "dom": "chart74d68ed149f",
-"width":    960,
-"height":    1000,
-"data": {
- "value": [ 136.57, null, null, null, null, null, null, null,  928.2, null, null, null, null, 1314.5, null, null,  18517, 1803.7, 2445.4, null, null, null, 1523.2, null, null, 1178.1, null, null, null, null, null, 1244.7, null, 9367.1, 2451.4, null,  523.6, null,  30118, null, null, 770.78, null,  34955, null, 499.13, null, null, null, null, null, 1225.7, 1518.7, 466.67, 1451.8, 1489.9, 1270.9, 1280.4, 1266.2, 1466.1, 1437.5, 1437.5, 661.64, 1314.5, 1564.8, 931.89, 997.22, 1697.3, 1281.3, 1244.9, 1234.9, 1307.8, 1341.7, 1308.5, 1323.7, 1267.8, 1296.4, 1302.5, 1258.2,   1091,   1924, 1733.6, 1142.4, 136.57,  761.6,  761.6, 1244.7, 1178.1, 1225.7, 460.01, 1182.4, 1451.8, 1542.2, 1494.6,   1447, 1461.3,   1447, 1451.8, 1542.2, 1542.2, 1466.1, 1451.8,  642.6, 1232.8, 1285.2, 1280.4, 1270.9, 919.95, 1559.2, 1696.8,   1257,   1257, 1243.9, 1240.4, 1256.6, 1258.3, 1249.2, 1212.3, 1186.8, 1166.8, 1210.4, 1206.2, 1204.8, 1803.7,   1904,   1924,   1904, 1142.4,   1924,   1904,   1924,  928.2,  523.6, 499.13, 385.39, 385.39 ],
-"target": [ "Academy and Industry Research Collaboration Center (AIRCC)", "AIP Publishing", "American Physical Society (APS)", "American Vacuum Society", "Amsterdam University Press", "Association for Research in Vision and Ophthalmology (ARVO)", "Baishideng Publishing Group Co., Limited (formerly WJG Press)", "Canadian Center of Science and Education", "Co-Action Publishing", "Copernicus GmbH", "e-Century Publ. Corp.", "Elsevier BV", "EMBO", "Environmental Health Perspectives", "ESG", "Food Science Publisher", "Frontiers Media SA", "Genetics Society of America", "Hindawi Publishing Corporation", "IGIP", "Informa UK Limited", "Institute of Electrical & Electronics Engineers (IEEE)", "InTech", "International Scientific Literature", "International Union of Crystallography (IUCr)", "IOP Publishing", "Ivyspring International Publisher", "JMIR Publications Inc.", "KIT Scientific Publishing", "MDPI AG", "Medknow", "Nature Publishing Group", "OMICS Publishing Group", "Optical Society of America (OSA)", "Oxford University Press (OUP)", "PAGEPress Publications", "Pensoft Publishers", "Portland Press Ltd.", "Public Library of Science (PLoS)", "Schweizerbart", "Sciedu Press", "Scientific Research Publishing, Inc,", "Society for Publication of Acta Dermato-Venereologica ", "Springer Science + Business Media", "The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "The Genomic Standards Consortium", "Thieme Publishing Group", "Ubiquity Press, Ltd.", "Univ. of Buckingham Pr.", "Walter de Gruyter GmbH", "Wiley-Blackwell", "Genome Biology and Evolution", "Oxidative Medicine and Cellular Longevity", "Education Research International", "BMC Genomics", "BMC Plant Biology", "BMC Plant Biology", "BMC Psychiatry", "BMC Psychiatry", "BMC Public Health", "BMC Public Health", "BMC Public Health", "BMC Research Notes", "Environ Health Perspect", "Opt. Express", "Opt. Express", "Opt. Express", "Opt. Express", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "Front. Hum. Neurosci.", "Front. Psychology", "Front. Psychology", "Front. Psychology", "IJCNC", "Principal Component Analysis - Multidisciplinary Applications", "Glucocorticoids - New Recognition of Our Familiar Friend", "Scientific Reports", "New J. Phys.", "Genome Biology and Evolution", "ISRN High Energy Physics", "BMC Bioinformatics", "BMC Cell Biology", "BMC Evol Biol", "BMC Evol Biol", "BMC Evol Biol", "BMC Genomics", "BMC Genomics", "BMC Pediatrics", "BMC Public Health", "BMC Public Health", "BMC Public Health", "BMC Ecol", "Fixed Point Theory Appl", "Subst Abuse Treat Prev Policy", "Conflict and Health", "Conflict and Health", "Conflict and Health", "Opt. Express", "Opt. Express", "Opt. Express", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "G3&#58; Genes|Genomes|Genetics", "Frontiers in Behavioral Neuroscience", "Front. Psychology", "Front. Psychology", "Front. Psychology", "Front. Psychology", "Front. Psychology", "Front. Psychology", "European Journal of Psychotraumatology", "NEOBIOTA", "Stand. Genomic Sci.", "OJApo", "Open Journal of Modern Linguistics" ],
-"source": [ "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Oxford University Press (OUP)", "Hindawi Publishing Corporation", "Hindawi Publishing Corporation", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Environmental Health Perspectives", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Academy and Industry Research Collaboration Center (AIRCC)", "InTech", "InTech", "Nature Publishing Group", "IOP Publishing", "Oxford University Press (OUP)", "Hindawi Publishing Corporation", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Genetics Society of America", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Co-Action Publishing", "Pensoft Publishers", "The Genomic Standards Consortium", "Scientific Research Publishing, Inc,", "Scientific Research Publishing, Inc," ] 
-},
-"nodeWidth":     15,
-"nodePadding":     10,
-"layout":     32,
-"unit": "EURO",
-"title": "Author fees paid by University of Konstanz Publication Fund",
-"id": "chart74d68ed149f" 
-};
-
-params.units ? units = " " + params.units : units = "";
-
-//hard code these now but eventually make available
-var formatNumber = d3.format("0,.0f"),    // zero decimal places
-    format = function(d) { return formatNumber(d) + units; },
-    color = d3.scale.category20();
-
-if(params.labelFormat){
-  formatNumber = d3.format(".2%");
-}
-
-var svg = d3.select('#' + params.id).append("svg")
-    .attr("width", params.width)
-    .attr("height", params.height);
-    
-var sankey = d3.sankey()
-    .nodeWidth(params.nodeWidth)
-    .nodePadding(params.nodePadding)
-    .layout(params.layout)
-    .size([params.width,params.height]);
-    
-var path = sankey.link();
-    
-var data = params.data,
-    links = [],
-    nodes = [];
-    
-//get all source and target into nodes
-//will reduce to unique in the next step
-//also get links in object form
-data.source.forEach(function (d, i) {
-    nodes.push({ "name": data.source[i] });
-    nodes.push({ "name": data.target[i] });
-    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
-}); 
-
-//now get nodes based on links data
-//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
-//this handy little function returns only the distinct / unique nodes
-nodes = d3.keys(d3.nest()
-                .key(function (d) { return d.name; })
-                .map(nodes));
-
-//it appears d3 with force layout wants a numeric source and target
-//so loop through each link replacing the text with its index from node
-links.forEach(function (d, i) {
-    links[i].source = nodes.indexOf(links[i].source);
-    links[i].target = nodes.indexOf(links[i].target);
-});
-
-//now loop through each nodes to make nodes an array of objects rather than an array of strings
-nodes.forEach(function (d, i) {
-    nodes[i] = { "name": d };
-});
-
-sankey
-  .nodes(nodes)
-  .links(links)
-  .layout(params.layout);
-  
-var link = svg.append("g").selectAll(".link")
-  .data(links)
-.enter().append("path")
-  .attr("class", "link")
-  .attr("d", path)
-  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
-  .sort(function (a, b) { return b.dy - a.dy; });
-
-link.append("title")
-  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
-
-var node = svg.append("g").selectAll(".node")
-  .data(nodes)
-.enter().append("g")
-  .attr("class", "node")
-  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
-.call(d3.behavior.drag()
-  .origin(function (d) { return d; })
-  .on("dragstart", function () { this.parentNode.appendChild(this); })
-  .on("drag", dragmove));
-
-node.append("rect")
-  .attr("height", function (d) { return d.dy; })
-  .attr("width", sankey.nodeWidth())
-  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
-  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
-.append("title")
-  .text(function (d) { return d.name + "\n" + format(d.value); });
-
-node.append("text")
-  .attr("x", -6)
-  .attr("y", function (d) { return d.dy / 2; })
-  .attr("dy", ".35em")
-  .attr("text-anchor", "end")
-  .attr("transform", null)
-  .text(function (d) { return d.name; })
-.filter(function (d) { return d.x < params.width / 2; })
-  .attr("x", 6 + sankey.nodeWidth())
-  .attr("text-anchor", "start");
-
-// the function for moving the nodes
-  function dragmove(d) {
-    d3.select(this).attr("transform", 
-        "translate(" + (
-                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
-                ) + "," + (
-                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
-                ) + ")");
-        sankey.relayout();
-        link.attr("d", path);
-  }
-})();
-</script>
 
 <h3 id="unidue">Fees paid by Open-Access-Fonds University of Duisburg-Essen 2013</h3>
 
@@ -1005,7 +1021,7 @@ Peil, Vitali; Pieper, Dirk; Tullney, Marco; Jahn, Najko; (2014): <em>Datasets on
 
 <h2>Contributors</h2>
 
-<p>Gernot Deinzer, Ulrich Herb, Frank Lützenkirchen, Vitali Peil, Dirk Pieper, Marco Tullney, Najko Jahn</p>
+<p>Gernot Deinzer, Ulrich Herb, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Vitali Peil, Dirk Pieper, Adriana Sikora, Marco Tullney, Najko Jahn</p>
 
  <h2>License</h2>
  
