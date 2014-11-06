@@ -39,6 +39,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ### Distribution over publishers by university
 
+
 ![](figure/plotPublisherAPC.png)
 
 
@@ -64,7 +65,7 @@ In collaboration with the [DINI working group Electronic Publishing](http://dini
 
 ## Licence
 
-The Bielefeld University Paid APCs 2012/13 Dataset is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
+The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
 
 This work is licensed under the Creative Commons Attribution 4.0 Unported License.
 
