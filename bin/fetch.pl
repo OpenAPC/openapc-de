@@ -141,6 +141,8 @@ $csv->each(
         if ($body && $data->{ut} eq 'NA') {
             my $ut = _parse( _do_request($body) );
             $exporter->add({doi => $data->{doi}, ut => $ut ? "ut:$ut" : 'NA'});
+        } else {
+            $exporter->add({doi => $data->{doi}, ut => $data->{ut}});
         }
     }
 );
