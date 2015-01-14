@@ -66,6 +66,7 @@ my.df$ut <- NA
 
 my.all <- read.csv("data/apc_de.csv", header = T, sep =",")
 
+my.df <- my.df[!my.df$DOI %in% my.all$doi,]
 colnames(my.df) <- colnames(my.all)
 
 my.all.t <- rbind(my.all, my.df)
@@ -74,7 +75,7 @@ write.csv(my.all.t, "data/apc_de.csv", row.names = FALSE)
 
 # make a sankey for hannover
 
-unihan <- my.df[my.df$uni == "Leibniz Universität Hannover",]
+unihan <- my.all[my.all$Institution == "Hannover U",]
 
 #select columns
 unihan <- unihan[,c("Publisher", "Journal", "EURO")]
@@ -99,7 +100,7 @@ sankeyPlot$setLib('http://timelyportfolio.github.io/rCharts_d3_sankey')
 sankeyPlot$set(
   data = unihan.sub,
   nodeWidth = 15,
-  nodePadding = 10,
+  nodePadding = 6,
   layout = 32,
   width = 960,
   height = 800,
