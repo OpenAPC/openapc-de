@@ -51,14 +51,18 @@ my.pmc$pmid <- unlist(my.pmc$pmid)
 
 my.tmp <- merge(unih, my.pmc, by.x="DOI", by.y="doi", all.x = T)
 
+my.tmp$DOAJ <- TRUE
+
+my.tmp$Institution <- "Hannover U"
+
 # a bit of sorting
 
 my.df <- my.tmp[,c("Institution", "Period", "EURO", "Publisher", 
                    "Journal", "ISSN.1", "ISSN.2", "DOI", 
                    "indexed_in_CrossRef","pmid", "pmcid", 
-                   "record.id", "base.url")]
-
+                   "record.id", "base.url", "DOAJ")]
 my.df$ut <- NA
+
 
 my.all <- read.csv("data/apc_de.csv", header = T, sep =",")
 
@@ -66,7 +70,7 @@ colnames(my.df) <- colnames(my.all)
 
 my.all.t <- rbind(my.all, my.df)
 
-write.csv(my.all.t, "data/apc_de.csv")
+write.csv(my.all.t, "data/apc_de.csv", row.names = FALSE)
 
 # make a sankey for hannover
 
