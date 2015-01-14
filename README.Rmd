@@ -41,7 +41,6 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ```{r, echo=FALSE}
 require(ggplot2)
-require(wesanderson)
 
 #load data
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
@@ -71,7 +70,7 @@ p <- tt + ylab("Fees paid (in EURO)") + coord_flip() + scale_y_continuous(limits
 
 p <- p + theme(legend.position="top", legend.text = element_text(size = 6, colour = "black"))
 
-ggsave(p, file = "figure/plotPublisherAPC.png", width=6.8,height=4.5,units="in")
+ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 ```
 
 ![](figure/plotPublisherAPC.png)

@@ -40,10 +40,6 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ### Distribution over publishers by university
 
 
-```
-## Loading required package: ggplot2
-## Loading required package: wesanderson
-```
 
 ![](figure/plotPublisherAPC.png)
 
