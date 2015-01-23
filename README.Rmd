@@ -60,7 +60,7 @@ require(ggplot2)
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 #only unis
-my.apc <- my.apc[!my.apc$Institution == c("MPG", "FZJ - ZB")]
+my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB"),]
 
 ## Choose only publisher with at least 5 publication (abritary)
 

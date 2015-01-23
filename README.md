@@ -55,20 +55,6 @@ View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/ap
 ### Distribution over publishers by university
 
 
-```
-## Warning: Länge des längeren Objektes
-##  	 ist kein Vielfaches der Länge des kürzeren Objektes
-## Warning: Länge des längeren Objektes
-##  	 ist kein Vielfaches der Länge des kürzeren Objektes
-```
-
-```
-## Error: undefined columns selected
-```
-
-```
-## Warning: Removed 1 rows containing missing values (position_stack).
-```
 
 ![](figure/plotPublisherAPC.png)
 
