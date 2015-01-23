@@ -6,12 +6,6 @@ The aim of this repository is:
 - to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014)
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-## Dataset
-
-At the moment, the dataset releases information on 1.441 articles, with total expenditure of 1.744.312 EURO.
-
-View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
-
 ## Participating Universities
 
 So far, the following German universities have agreed to share information on paid author processing charges (APC):
@@ -35,6 +29,26 @@ Participating Research Organizations:
 
 The data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
 
+- [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
+
+## Dataset
+
+At the moment, the dataset releases information on 1.517 articles, with total expenditure of 1.834.722,88 EURO.
+
+View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
+
+```{r, echo=FALSE, results='asis'}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+
+df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
+             tapply(my.apc$EURO, my.apc$Institution, sum),
+             tapply(my.apc$EURO, my.apc$Institution, mean))
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+kable(as.data.frame(df.summary, digits = c(0, 2, 2)))
+```
+
+
 ## Sample Visualisations
 
 ### Distribution over publishers by university
@@ -45,8 +59,8 @@ require(ggplot2)
 #load data
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
-#exclude mpg
-my.apc <- my.apc[!my.apc$Institution == "MPG",]
+#only unis
+my.apc <- my.apc[!my.apc$Institution == c("MPG", "FZJ - ZB")]
 
 ## Choose only publisher with at least 5 publication (abritary)
 

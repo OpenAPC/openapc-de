@@ -6,12 +6,6 @@ The aim of this repository is:
 - to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014)
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-## Dataset
-
-At the moment, the dataset releases information on 1.441 articles, with total expenditure of 1.744.312 EURO.
-
-View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
-
 ## Participating Universities
 
 So far, the following German universities have agreed to share information on paid author processing charges (APC):
@@ -35,11 +29,46 @@ Participating Research Organizations:
 
 The data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
 
+- [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
+
+## Dataset
+
+At the moment, the dataset releases information on 1.517 articles, with total expenditure of 1.834.722,88 EURO.
+
+View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
+
+
+|                 | Articles| Fees paid in EURO| Mean Fee paid|
+|:----------------|--------:|-----------------:|-------------:|
+|Bielefeld U      |      141|            165688|          1175|
+|Duisburg-Essen U |      106|            120575|          1138|
+|FZJ - ZB         |       76|             90411|          1190|
+|Hannover U       |       42|             53305|          1269|
+|KIT              |      194|            228626|          1178|
+|Konstanz U       |       85|            107776|          1268|
+|MPG              |      710|            885732|          1248|
+|Regensburg U     |      163|            182610|          1120|
+
+
 ## Sample Visualisations
 
 ### Distribution over publishers by university
 
 
+```
+## Warning: Länge des längeren Objektes
+##  	 ist kein Vielfaches der Länge des kürzeren Objektes
+## Warning: Länge des längeren Objektes
+##  	 ist kein Vielfaches der Länge des kürzeren Objektes
+```
+
+```
+## Error: undefined columns selected
+```
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
 
 ![](figure/plotPublisherAPC.png)
 
