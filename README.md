@@ -89,8 +89,8 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Deinzer, Gernot; Herb, Ulrich; Lützenkirchen, Frank;
-Peil, Vitali; Pieper, Dirk; Tullney, Marco; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Deinzer, Gernot; Herb, Ulrich; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
+Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Sikora, Adriana; Tullney, Marco; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
@@ -100,7 +100,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Gernot Deinzer, Ulrich Herb, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Vitali Peil, Dirk Pieper, Adriana Sikora, Marco Tullney, Najko Jahn
+Gernot Deinzer, Ulrich Herb, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Najko Jahn
 
 ## Contact
 
