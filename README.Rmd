@@ -11,6 +11,7 @@ The aim of this repository is:
 So far, the following German universities have agreed to share information on paid author processing charges (APC):
 
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
+- [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
@@ -33,7 +34,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Dataset
 
-At the moment, the dataset releases information on 1.517 articles, with total expenditure of 1.834.722,88 EURO.
+At the moment, the dataset releases information on 1.521 articles, with total expenditure of 1.838.494 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
@@ -82,7 +83,7 @@ tt <- ggplot(my.df, aes(Publisher, x, fill=uni)) + geom_bar(stat="identity")
 p <- tt + ylab("Fees paid (in EURO)") + coord_flip() + scale_y_continuous(limits=c(0, 300000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
   scale_fill_brewer(type="qual", palette = 1) + theme_bw()
 
-p <- p + theme(legend.position="top", legend.text = element_text(size = 6, colour = "black"))
+p <- p + theme(legend.position="top", legend.text = element_text(size = 4, colour = "black"))
 
 ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 ```

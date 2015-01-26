@@ -3,15 +3,20 @@
 The aim of this repository is:
 
 - to release datasets on fees paid for Open Access journal articles by German Universities under an Open Database License
-- to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014)
+- to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014) -> [data/doajJournalList.csv](data/doajJournalList.csv)
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
+
+## Dataset
+
+At the moment, the dataset releases information on 799 articles, with total expenditure of 968.269,50 EURO.
+
+View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
 ## Participating Universities
 
 So far, the following German universities have agreed to share information on paid author processing charges (APC):
 
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
-- [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
@@ -30,50 +35,35 @@ Participating Research Organizations:
 
 The data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
 
-- [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
-
-## Dataset
-
-At the moment, the dataset releases information on 1.521 articles, with total expenditure of 1.838.494 EURO.
-
-View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
-
-
-|                 | Articles| Fees paid in EURO| Mean Fee paid|
-|:----------------|--------:|-----------------:|-------------:|
-|Bielefeld U      |      141|            165688|        1175.1|
-|Duisburg-Essen U |      106|            120575|        1137.5|
-|FZJ - ZB         |       76|             90411|        1189.6|
-|Hannover U       |       42|             53305|        1269.2|
-|KIT              |      194|            228626|        1178.5|
-|Konstanz U       |       85|            107776|        1268.0|
-|MPG              |      710|            885732|        1247.5|
-|Regensburg U     |      163|            182610|        1120.3|
-|TU Clausthal     |        4|              3771|         942.7|
-
-
 ## Sample Visualisations
 
 ### Distribution over publishers by university
 
 
+```
+## Loading required package: ggplot2
+## Loading required package: methods
+## Loading required package: wesanderson
+```
+
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
 
 ![](figure/plotPublisherAPC.png)
 
 
 ### Average fees paid by publisher
 
+```
+q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
+ggsave(q, file = "../figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
+
+```
 
 ![](figure/plotAverageAPC.png)
 
-### Average fees Max Planck Digital Library paid for Springer Open Access articles by year
-
-
-
-![](figure/plotAverageSpringerMPDL.png)
-
-For more exapmles see also [http://njahn82.github.io/unibiAPC/](http://njahn82.github.io/unibiAPC/)
+see also [http://njahn82.github.io/unibiAPC/](http://njahn82.github.io/unibiAPC/)
 
 ## How to contribute?
 
@@ -83,7 +73,7 @@ In collaboration with the [DINI working group Electronic Publishing](http://dini
 
 ## Licence
 
-The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
+The Bielefeld University Paid APCs 2012/13 Dataset is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
 
 This work is licensed under the Creative Commons Attribution 4.0 Unported License.
 
@@ -91,8 +81,8 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Deinzer, Gernot; Herb, Ulrich; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
-Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Sikora, Adriana; Tullney, Marco; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Deinzer, Gernot; Herb, Ulrich; Lützenkirchen, Frank;
+Peil, Vitali; Pieper, Dirk; Tullney, Marco; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
@@ -102,7 +92,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Gernot Deinzer, Ulrich Herb, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Najko Jahn
+Gernot Deinzer, Ulrich Herb, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Vitali Peil, Dirk Pieper, Adriana Sikora, Marco Tullney, Najko Jahn
 
 ## Contact
 
