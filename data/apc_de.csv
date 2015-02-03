@@ -929,9 +929,9 @@
 "KIT","2013","575","Frontiers Media SA","Front. Pharmacol.","1663-9812",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
 "KIT","2013","960","Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
 "KIT","2013","770","Frontiers Media SA","Front. Psychology","1664-1078",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
-"KIT","2013","960","Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
-"KIT","2013","960","Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
-"KIT","2013","1600","Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
+"KIT","2013","960","Frontiers Media SA","Front. Psychology","1664-1078",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
+"KIT","2013","960","Frontiers Media SA","Front. Psychology","1664-1078",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
+"KIT","2013","1600","Frontiers Media SA","Front. Psychology","1664-1078",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
 "KIT","2013","382.95","Hindawi Publishing Corporation","ISRN Mechanical Engineering","2090-5130",NA,NA,"TRUE",NA,NA,NA,NA,NA,TRUE
 "KIT","2013","309.38","Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075","1687-6083",NA,"TRUE",NA,NA,NA,NA,NA,TRUE
 "KIT","2013","618.81","Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075","1687-6083",NA,"TRUE",NA,NA,NA,NA,NA,TRUE
@@ -1480,7 +1480,7 @@
 "FZJ - ZB","2014","960","Frontiers Media SA","Front. Phys.","2296-424X",NA,"10.3389/fphy.2014.00073","TRUE",NA,NA,"https://juser.fz-juelich.de/","186475",NA,FALSE
 "FZJ - ZB","2014","960","Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"10.3389/fphys.2014.00209","TRUE","24917826","PMC4042065","https://juser.fz-juelich.de/","154361",NA,TRUE
 "FZJ - ZB","2014","1600","Frontiers Media SA","Front. Plant Sci.","1664-462X",NA,"10.3389/fpls.2014.00469","TRUE","25278947","PMC4165221","https://juser.fz-juelich.de/","171781","ut:000343858000001",TRUE
-"FZJ - ZB","2014","960","Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"10.3389/fpsyg.2014.00686","TRUE","25071656","PMC4078255","https://juser.fz-juelich.de/","154146","ut:000338778100001",TRUE
+"FZJ - ZB","2014","960","Frontiers Media SA","Front. Psychology","1664-1078",NA,"10.3389/fpsyg.2014.00686","TRUE","25071656","PMC4078255","https://juser.fz-juelich.de/","154146","ut:000338778100001",TRUE
 "FZJ - ZB","2014","369.69","MDPI AG","Atmosphere","2073-4433",NA,"10.3390/atmos5020420 ","TRUE",NA,NA,"https://juser.fz-juelich.de/","156078",NA,TRUE
 "FZJ - ZB","2014","1347.61","MDPI AG","Molecules","1420-3049",NA,"10.3390/molecules191219269","TRUE","25429558",NA,"https://juser.fz-juelich.de/","172887",NA,TRUE
 "FZJ - ZB","2014","1080","MDPI AG","Molecules","1420-3049",NA,"10.3390/molecules20010470","TRUE","25558857",NA,"https://juser.fz-juelich.de/","186482",NA,TRUE
@@ -1512,9 +1512,9 @@
 "FZJ - ZB","2014","744","Copernicus GmbH","Geosci. Model Dev. Discuss.","1991-962X",NA,"10.5194/gmdd-7-1759-2014","TRUE",NA,NA,"https://juser.fz-juelich.de/","151845",NA,TRUE
 "FZJ - ZB","2014","841","Copernicus GmbH","Geosci. Model Dev. Discuss.","1991-962X",NA,"10.5194/gmdd-7-3545-2014","TRUE",NA,NA,"https://juser.fz-juelich.de/","171937",NA,TRUE
 "FZJ - ZB","2014","1248","Copernicus GmbH","Geosci. Model Dev. Discuss.","1991-962X",NA,"10.5194/gmdd-7-5087-2014","TRUE",NA,NA,"https://juser.fz-juelich.de/","154949",NA,TRUE
-"FZJ - ZB","2014","1505","BioMed Central","Plant Methods",NA,"1746-4811",NA,"FALSE",NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE
-"FZJ - ZB","2014","1204","BioMed Central","Plant Methods",NA,"1746-4811",NA,"FALSE",NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE
-"FZJ - ZB","2014","1675","BioMed Central","BMC Cell Biology",NA,"1471-2121",NA,"FALSE",NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE
+"FZJ - ZB","2014","1505","Springer Science + Business Media","Plant Methods",NA,"1746-4811",NA,"FALSE",NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE
+"FZJ - ZB","2014","1204","Springer Science + Business Media","Plant Methods",NA,"1746-4811",NA,"FALSE",NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE
+"FZJ - ZB","2014","1675","Springer Science + Business Media","BMC Cell Biology",NA,"1471-2121",NA,"FALSE",NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE
 "FZJ - ZB","2014","798.02","Elsevier","Nuclear Materials and Energy",NA,"2352-1791",NA,"FALSE",NA,NA,"https://juser.fz-juelich.de/",NA,NA,FALSE
 "TU Clausthal","2013","1002.46","AIP Publishing","AIP Advances","2158-3226",NA,"10.1063/1.4824616","TRUE",NA,NA,"https://dokumente.ub.tu-clausthal.de/","clausthal_mods_00000042","ut:000326637200002",TRUE
 "TU Clausthal","2013","935","Springer Science + Business Media","Nanoscale Res Lett","1556-276X",NA,"10.1186/1556-276X-8-504","TRUE","24289235","PMC4219176","https://dokumente.ub.tu-clausthal.de/","clausthal_mods_00000089","ut:000328262500001",TRUE
@@ -1536,7 +1536,7 @@
 "Bielefeld U","2014","1064","Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"10.1371/journal.pone.0110756","TRUE","25356781","PMC4214709",NA,NA,NA,TRUE
 "Bielefeld U","2014","1077","Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"10.1371/journal.pone.0113909","TRUE","25426929","PMC4245236",NA,NA,NA,TRUE
 "Bielefeld U","2014","912","Frontiers Media SA","Frontiers in Neural Circuits","1662-5110",NA,"10.3389/fncir.2014.00127","TRUE","25389392","PMC4211400",NA,NA,NA,TRUE
-"Bielefeld U","2014","912","Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"10.3389/fpsyg.2014.01292","TRUE","25426095","PMC4227471",NA,NA,NA,TRUE
+"Bielefeld U","2014","912","Frontiers Media SA","Front. Psychology","1664-1078",NA,"10.3389/fpsyg.2014.01292","TRUE","25426095","PMC4227471",NA,NA,NA,TRUE
 "Bielefeld U","2014","879.67","OMICS Publishing Group","J Biotechnol Biomater","2155-952X",NA,"10.4172/2155-952X.1000167","TRUE",NA,NA,NA,NA,NA,FALSE
 "Leipzig U","2014","1344.7","Wiley-Blackwell","Physiological Reports","2051-817X",NA,"10.1002/phy2.269","TRUE","24760523","PMC4002249",NA,NA,NA,TRUE
 "Leipzig U","2014","340.74","Elsevier BV","International Journal of Surgery Case Reports","2210-2612",NA,"10.1016/j.ijscr.2014.10.002","TRUE","25544485",NA,NA,NA,NA,FALSE
@@ -1593,8 +1593,8 @@
 "Leipzig U","2015","800","Frontiers Media SA","Frontiers in Marine Science","2296-7745",NA,"10.3389/fmars.2014.00082","TRUE",NA,NA,NA,NA,NA,FALSE
 "Leipzig U","2014","1904","Frontiers Media SA","Frontiers in Neuroanatomy","1662-5129",NA,"10.3389/fnana.2014.00007","TRUE","24616668","PMC3935231",NA,NA,NA,TRUE
 "Leipzig U","2014","804","Frontiers Media SA","Front. Hum. Neurosci.","1662-5161",NA,"10.3389/fnhum.2014.00387","TRUE","24966823","PMC4052740",NA,NA,NA,TRUE
-"Leipzig U","2014","1142.4","Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"10.3389/fpsyg.2014.00292","TRUE","24782797","PMC3988394",NA,NA,NA,TRUE
-"Leipzig U","2014","1904","Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"10.3389/fpsyg.2014.01295","TRUE","25477832","PMC4235414",NA,NA,NA,TRUE
+"Leipzig U","2014","1142.4","Frontiers Media SA","Front. Psychology","1664-1078",NA,"10.3389/fpsyg.2014.00292","TRUE","24782797","PMC3988394",NA,NA,NA,TRUE
+"Leipzig U","2014","1904","Frontiers Media SA","Front. Psychology","1664-1078",NA,"10.3389/fpsyg.2014.01295","TRUE","25477832","PMC4235414",NA,NA,NA,TRUE
 "Leipzig U","2014","411.45","MDPI AG","Metabolites","2218-1989",NA,"10.3390/metabo4020453","TRUE","24957036","PMC4101516",NA,NA,NA,TRUE
 "Leipzig U","2014","1332.8","Co-Action Publishing","European Journal of Psychotraumatology","2000-8198","2000-818X","10.3402/ejpt.v5.23870","TRUE","25206956","PMC4149745",NA,NA,NA,FALSE
 "Leipzig U","2014","379.49","Medknow","Surg Neurol Int","2152-7806",NA,"10.4103/2152-7806.146346","TRUE","25593757","PMC4287919",NA,NA,NA,TRUE
