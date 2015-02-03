@@ -24,8 +24,7 @@ cr_parse <- function(doi) {
   xp_queries = c(doi = "//ct:doi",
                  journal_full_title = "//cr:journal_metadata//cr:full_title",
                  publisher = "//ct:crm-item[@name='publisher-name']",
-                 # keep this order
-                # issn = "//cr:journal_metadata//cr:issn",
+                 issn = "//cr:journal_metadata//cr:issn",
                  issn_print = "//cr:journal_metadata//cr:issn[@media_type='print']",
                  issn_electronic = "//cr:journal_metadata//cr:issn[@media_type='electronic']",
                  license_ref = "//ai:license_ref")
