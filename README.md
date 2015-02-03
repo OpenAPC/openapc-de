@@ -13,6 +13,7 @@ So far, the following German universities have agreed to share information on pa
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
+- [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
@@ -34,22 +35,23 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Dataset
 
-At the moment, the dataset releases information on 1.521 articles, with total expenditure of 1.838.494 EURO.
+At the moment, the dataset releases information on 1.599 articles, with total expenditure of 1.938.505 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
 
 |                 | Articles| Fees paid in EURO| Mean Fee paid|
 |:----------------|--------:|-----------------:|-------------:|
-|Bielefeld U      |      141|            165688|        1175.1|
-|Duisburg-Essen U |      106|            120575|        1137.5|
-|FZJ - ZB         |       76|             90411|        1189.6|
-|Hannover U       |       42|             53305|        1269.2|
-|KIT              |      194|            228626|        1178.5|
-|Konstanz U       |       85|            107776|        1268.0|
-|MPG              |      710|            885732|        1247.5|
-|Regensburg U     |      163|            182610|        1120.3|
-|TU Clausthal     |        4|              3771|         942.7|
+|Bielefeld U      |      159|         186096.22|       1170.42|
+|Duisburg-Essen U |      106|         120575.00|       1137.50|
+|FZJ - ZB         |       76|          90410.94|       1189.62|
+|Hannover U       |       42|          53305.10|       1269.17|
+|KIT              |      194|         228626.36|       1178.49|
+|Konstanz U       |       85|         107776.13|       1267.95|
+|Leipzig U        |       60|          79602.89|       1326.71|
+|MPG              |      710|         885731.68|       1247.51|
+|Regensburg U     |      163|         182609.56|       1120.30|
+|TU Clausthal     |        4|           3770.77|        942.69|
 
 
 ## Sample Visualisations
@@ -73,7 +75,7 @@ View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/ap
 
 ![](figure/plotAverageSpringerMPDL.png)
 
-For more exapmles see also [http://njahn82.github.io/unibiAPC/](http://njahn82.github.io/unibiAPC/)
+For more examples see also [http://njahn82.github.io/unibiAPC/](http://njahn82.github.io/unibiAPC/)
 
 ## How to contribute?
 
@@ -92,7 +94,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 Bielefeld University Library archives a remote including version history. To cite:
 
 Deinzer, Gernot; Herb, Ulrich; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
-Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Sikora, Adriana; Tullney, Marco; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
@@ -102,7 +104,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Gernot Deinzer, Ulrich Herb, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Najko Jahn
+Gernot Deinzer, Ulrich Herb, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Astrid Vieler, Najko Jahn
 
 ## Contact
 
