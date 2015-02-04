@@ -96,7 +96,7 @@ ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 ```{r, echo = FALSE}
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point()
-q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw()
+q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="in")
 
