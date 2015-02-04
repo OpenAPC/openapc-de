@@ -62,6 +62,11 @@ View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/ap
 
 ![](figure/plotPublisherAPC.png)
 
+### Comparing fees paid by univeristy and research institution
+
+
+
+![](figure/boxplot_institution.png)
 
 ### Average fees paid by publisher
 

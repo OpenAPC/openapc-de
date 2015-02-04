@@ -91,10 +91,34 @@ ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 
 ![](figure/plotPublisherAPC.png)
 
+### Comparing fees paid by univeristy and research institution
+
+```{r, echo = FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + theme(legend.position="top") + theme_bw()
+
+ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="in")
+
+
+
+```
+
+![](figure/boxplot_institution.png)
 
 ### Average fees paid by publisher
 
 ```{r, echo=FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+
+# relevel
+my.apc$Publisher <- factor(my.apc$Publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$Institution <- factor(my.apc$Institution, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+
+levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
 
 q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
