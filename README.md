@@ -35,7 +35,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Dataset
 
-At the moment, the dataset releases information on 1.599 articles, with total expenditure of 1.938.505 EURO.
+At the moment, the dataset releases information on 1.599 articles, with total expenditure of 1.938.715 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
@@ -45,7 +45,7 @@ View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/ap
 |Bielefeld U      |      159|         186096.22|       1170.42|
 |Duisburg-Essen U |      106|         120575.00|       1137.50|
 |FZJ - ZB         |       76|          90410.94|       1189.62|
-|Hannover U       |       42|          53305.10|       1269.17|
+|Hannover U       |       42|          53515.64|       1274.18|
 |KIT              |      194|         228626.36|       1178.49|
 |Konstanz U       |       85|         107776.13|       1267.95|
 |Leipzig U        |       60|          79602.89|       1326.71|

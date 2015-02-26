@@ -35,7 +35,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Dataset
 
-At the moment, the dataset releases information on 1.599 articles, with total expenditure of 1.938.505 EURO.
+At the moment, the dataset releases information on 1.599 articles, with total expenditure of 1.938.715 EURO.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
