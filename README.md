@@ -15,6 +15,7 @@ So far, the following German universities have agreed to share information on pa
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
+- [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
@@ -32,19 +33,24 @@ Participating Research Organizations:
 The data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
+- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 
 ## Dataset
 
-At the moment, the dataset releases information on 1.599 articles, with total expenditure of 1.938.715 EURO.
+
+
+At the moment, the dataset releases information on 1676 articles, with total expenditure of 2014356.10€. Average fee is 1201.9€.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
 
 |                 | Articles| Fees paid in EURO| Mean Fee paid|
 |:----------------|--------:|-----------------:|-------------:|
-|Bielefeld U      |      159|         186096.22|       1170.42|
+|Bamberg U        |       16|          15932.11|        995.76|
+|Bielefeld U      |      160|         187296.22|       1170.60|
 |Duisburg-Essen U |      106|         120575.00|       1137.50|
 |FZJ - ZB         |       76|          90410.94|       1189.62|
+|GFZ-Potsdam      |       60|          58508.80|        975.15|
 |Hannover U       |       42|          53515.64|       1274.18|
 |KIT              |      194|         228626.36|       1178.49|
 |Konstanz U       |       85|         107776.13|       1267.95|
@@ -98,7 +104,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Deinzer, Gernot; Herb, Ulrich; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
+Bertelmann, Roland; Deinzer, Gernot; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
 Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
@@ -109,10 +115,10 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Gernot Deinzer, Ulrich Herb, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Astrid Vieler, Najko Jahn
+Roland Bertelmann, Gernot Deinzer, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Astrid Vieler, Najko Jahn
 
 ## Contact
 
-For bugs, feature requests and other issues, please submit an issue via Github.
+For bugs, feature requests and other issues, please submit an issue via [Github](https://github.com/OpenAPC/openapc-de/issues/new).
 
 For general comments, email najko.jahn at uni-bielefeld.de and dirk.pieper at uni-bielefeld.de
