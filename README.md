@@ -86,13 +86,14 @@ View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/ap
 
 ![](figure/plotAverageSpringerMPDL.png)
 
-For more examples see also [http://njahn82.github.io/unibiAPC/](http://njahn82.github.io/unibiAPC/)
+For more examples see also [http://openapc.github.io/openapc-de/](http://openapc.github.io/openapc-de/)
 
 ## How to contribute?
 
-In collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/), a [wiki page](https://github.com/njahn82/unibiAPC/wiki/Handreichung-Dateneingabe)(in German) explains all the steps required. Meeting and telephone conferences are documented as well:
+In collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/), a [wiki page](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)(in German) explains all the steps required. Meeting and telephone conferences are documented as well:
 
-* [Virtual Meeting 19 August](https://github.com/njahn82/unibiAPC/wiki/Protokoll-Kick-Off-19.-August)
+* [Virtual Meeting 19 August](https://github.com/OpenAPC/openapc-de/wiki/Protokoll-Kick-Off-19.-August)
+* [Virtual Meeting 11 + 12 February 2015](https://github.com/OpenAPC/openapc-de/wiki/Ergebnisprotokoll-11-bzw.-12.-Februar-2015)
 
 ## Licence
 
