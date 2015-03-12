@@ -37,52 +37,115 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Dataset
 
+```{r, echo=FALSE, cache = TRUE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+```
 
-
-At the moment, the dataset releases information on 1676 articles, with total expenditure of 2014356.10€. Average fee is 1201.9€.
+At the moment, the dataset releases information on `r nrow(my.apc)` articles, with total expenditure of `r format(sum(my.apc$EURO), nsmall = 2)`€. Average fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€.
 
 View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
 
+```{r, echo=FALSE, results='asis', message = FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
-|                 | Articles| Fees paid in EURO| Mean Fee paid|
-|:----------------|--------:|-----------------:|-------------:|
-|Bamberg U        |       16|          15932.11|        995.76|
-|Bielefeld U      |      160|         187296.22|       1170.60|
-|Duisburg-Essen U |      106|         120575.00|       1137.50|
-|FZJ - ZB         |       76|          90410.94|       1189.62|
-|GFZ-Potsdam      |       60|          58508.80|        975.15|
-|Hannover U       |       42|          53515.64|       1274.18|
-|KIT              |      194|         228626.36|       1178.49|
-|Konstanz U       |       85|         107776.13|       1267.95|
-|Leipzig U        |       60|          79602.89|       1326.71|
-|MPG              |      710|         885731.68|       1247.51|
-|Regensburg U     |      163|         182609.56|       1120.30|
-|TU Clausthal     |        4|           3770.77|        942.69|
+df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
+             tapply(my.apc$EURO, my.apc$Institution, sum),
+             tapply(my.apc$EURO, my.apc$Institution, mean))
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+```
 
 
 ## Sample Visualisations
 
 ### Distribution over publishers by university
 
+```{r, echo=FALSE, message = FALSE}
+require(ggplot2)
 
+#load data
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+
+#only unis
+my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam"),]
+
+## Choose only publisher with at least 5 publication (abritary)
+
+# relevel
+my.apc$Publisher <- factor(my.apc$Publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$Institution <- factor(my.apc$Institution, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+
+levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
+
+my.df <- aggregate(my.apc$EURO, list(Publisher =my.apc$Publisher, Uni = my.apc$Institution), sum)
+
+## Plot by publisher
+
+p <- ggplot(my.df, aes(Publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() + 
+  scale_y_continuous(limits=c(0, 350000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
+  scale_fill_brewer(palette = "Set3") + theme_bw() + 
+  theme(legend.position="right", legend.text = element_text(size = 6, colour = "black"))
+
+ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
+```
 
 ![](figure/plotPublisherAPC.png)
 
 ### Comparing fees paid by univeristy and research institution
 
+```{r, echo = FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
+ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="in")
+
+
+
+```
 
 ![](figure/boxplot_institution.png)
 
 ### Average fees paid by publisher
 
+```{r, echo=FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
+# relevel
+my.apc$Publisher <- factor(my.apc$Publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$Institution <- factor(my.apc$Institution, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+
+levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
+
+q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
+
+ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
+
+```
 
 ![](figure/plotAverageAPC.png)
 
 ### Average fees Max Planck Digital Library paid for Springer Open Access articles by year
 
+```{r, echo=FALSE}
 
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+
+mpg <- my.apc[my.apc$Institution == "MPG" & my.apc$Publisher == "Springer Science + Business Media",]
+q <- ggplot(mpg, aes(factor(Period), EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + xlab("Period") + theme(legend.position="top") + theme_bw()
+
+ggsave(q, file = "figure/plotAverageSpringerMPDL.png", width=6.8,height=4.5,units="in")
+
+```
 
 ![](figure/plotAverageSpringerMPDL.png)
 

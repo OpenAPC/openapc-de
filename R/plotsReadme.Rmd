@@ -16,6 +16,10 @@ require(wesanderson)
 
 ```{r}
 my.apc <- read.csv("../data/apc_de.csv", header = TRUE, sep =",")
+
+#exclude mpg
+
+my.apc <- my.apc[!my.apc$Institution == "MPG",]
 ```
 
 
@@ -25,20 +29,20 @@ my.apc <- read.csv("../data/apc_de.csv", header = TRUE, sep =",")
 # relevel
 my.apc$Publisher <- factor(my.apc$Publisher, 
                            levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
-my.apc$uni <- factor(my.apc$uni , 
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$uni)))))))
+my.apc$Institution <- factor(my.apc$Institution, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
 
 levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
                                                                       length(unique(my.apc$Publisher)) - 5, ")", sep="")
 
-my.df <- aggregate(my.apc$EURO, list(Publisher =my.apc$Publisher, Uni = my.apc$uni), sum)
+my.df <- aggregate(my.apc$EURO, list(Publisher =my.apc$Publisher, uni = my.apc$Institution), sum)
 ```
 
 ## Plot by publisher
 ```{r}
-tt <- ggplot(my.df, aes(Publisher, x, fill=Uni)) + geom_bar(stat="identity")  + theme_bw()
-p <- tt + ylab("Fees paid (in EURO)") + coord_flip() + scale_y_continuous(limits=c(0, 200000)) + 
-  scale_fill_manual(values = wes.palette(4, "Darjeeling"))
+tt <- ggplot(my.df, aes(Publisher, x, fill=uni)) + geom_bar(stat="identity")  
+p <- tt + ylab("Fees paid (in EURO)") + coord_flip() + scale_y_continuous(limits=c(0, 250000)) + 
+  scale_fill_brewer(type="qual", palette = 1) + theme_bw()
 
 p <- p + theme(legend.position="top", legend.text = element_text(size = 6, colour = "black"))
 

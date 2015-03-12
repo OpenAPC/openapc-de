@@ -101,7 +101,7 @@ require(reshape)
 
 my.df <- read.csv("data/apc_de.csv", header =T, sep=",")
 # dimension uni --> publisher
-tt<- melt(tapply (my.df$EURO, list (my.df$uni, my.df$Publisher), sum))
+tt<- melt(tapply (my.df$EURO, list (my.df$Institution, my.df$Publisher), sum))
 tt <- tt[!is.na(tt$value),]
 colnames(tt) <- c("source", "target", "value")
 
@@ -117,10 +117,10 @@ sankeyPlot$setLib('http://timelyportfolio.github.io/rCharts_d3_sankey')
 
 sankeyPlot$set(
   data = tt,
-  nodeWidth = 20,
-  nodePadding = 8,
-  layout = 32,
-  width = 960,
+  nodeWidth = 40,
+  nodePadding = 7,
+  layout = 1,
+  width = 600,
   height = 600,
   unit = "EURO",
   title= "Author fees paid by Bielefeld University and University of Regensburg Publication Fund 2012-13"
@@ -129,19 +129,19 @@ sankeyPlot
 
 # sankey by uni regensburg
 
-unireg <- my.df[my.df$uni == "Uni Regensburg",]
-
+unireg <- my.df[my.df$Institution == "FZJ - ZB",]
+unireg <- unireg[!is.na(unireg$doi),]
 #select columns
 unireg <- unireg[,c("Publisher", "Journal", "EURO")]
 
 #rename
 colnames(unireg) <- c("source", "target", "value")
 unireg$value <- as.numeric(unireg$value)
-
+ unireg <- droplevels(unireg)
 #get affiliation 
 tt <- as.data.frame(as.matrix((tapply(unireg$value,unireg$source, sum))))
 tt$target <- rownames(tt)
-tt$source <- rep("Uni Regensburg", times = nrow(tt))
+tt$source <- rep("FZJ - ZB", times = nrow(tt))
 colnames(tt) <- c("value", "target", "source")
 
 unireg.sub <- rbind(tt, unireg)
