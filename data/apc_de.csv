@@ -1,4 +1,4 @@
-"Institution","Period","EURO","publisher","journal_full_title","issn","issn_print","issn_electronic","doi","indexed_in_CrossRef","pmid","pmcid","base.url","repo_id","ut","DOAJ","license_ref"
+"Institution","Period","EURO","publisher","journal_full_title","issn","issn_print","issn_electronic","doi","indexed_in_CrossRef","pmid","pmcid","base_url","repo_id","ut","DOAJ","license_ref"
 "Konstanz U",2012,"136.57","Academy and Industry Research Collaboration Center (AIRCC)","International journal of Computer Networks & Communications","9752293","9752293",NA,"10.5121/ijcnc.2012.4502",TRUE,NA,NA,NA,NA,NA,TRUE,NA
 "Regensburg U",2013,"833","Acta Dermato-Venereologica","Acta Dermato Venereologica","0001-5555","0001-5555",NA,"10.2340/00015555-1632",TRUE,23995048,NA,"http://epub.uni-regensburg.de/","28743","ut:000332820000007",FALSE,NA
 "TU Clausthal",2013,"1002.46","AIP Publishing","AIP Advances","21583226","21583226",NA,"10.1063/1.4824616",TRUE,NA,NA,"https://dokumente.ub.tu-clausthal.de/","clausthal_mods_00000042","ut:000326637200002",TRUE,NA
@@ -1675,11 +1675,11 @@
 "MPG",2007,"1728.29","Springer Science + Business Media",NA,NA,NA,NA,"10.1186/jbiol61",TRUE,18154684,"PMC2373902",NA,NA,NA,FALSE,NA
 "MPG",2007,"1096.7","Ubiquity Press, Ltd.",NA,NA,NA,NA,"10.1186/1740-3391-6-3",TRUE,18298828,"PMC2292679",NA,NA,NA,TRUE,NA
 "MPG",2007,"1082.02","Ubiquity Press, Ltd.",NA,NA,NA,NA,"10.1186/1740-3391-6-5",TRUE,18355404,"PMC2277380",NA,NA,NA,TRUE,NA
-"Universität Duisburg-Essen",2014,NA,"Elsevier BV","Results in Pharma Sciences","22112863","22112863",NA,"10.1016/j.rinphs.2014.04.001",TRUE,25756002,NA,NA,NA,NA,FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
+"Universität Duisburg-Essen",2014,1710,"Elsevier BV","Results in Pharma Sciences","22112863","22112863",NA,"10.1016/j.rinphs.2014.04.001",TRUE,25756002,NA,NA,NA,NA,FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
 "Universität Duisburg-Essen",2014,"1080","IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","10.1088/1367-2630/16/11/113035",TRUE,NA,NA,NA,NA,NA,TRUE,NA
-"Universität Duisburg-Essen",2014,NA,"Wiley-Blackwell","Microbial Biotechnology","17517915",NA,NA,"10.1111/1751-7915.12188",TRUE,NA,NA,NA,NA,NA,FALSE,NA
+"Universität Duisburg-Essen",2014,"1803","Wiley-Blackwell","Microbial Biotechnology","17517915",NA,NA,"10.1111/1751-7915.12188",TRUE,NA,NA,NA,NA,NA,FALSE,NA
 "Universität Duisburg-Essen",2014,"1247","Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0104953",TRUE,25133403,"PMC4136840",NA,NA,NA,TRUE,NA
-"Universität Duisburg-Essen",2014,NA,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0113706",TRUE,25479539,"PMC4257624",NA,NA,NA,TRUE,NA
-"Universität Duisburg-Essen",2014,NA,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0113882",TRUE,25426932,"PMC4245231",NA,NA,NA,TRUE,NA
-"Universität Duisburg-Essen",2014,NA,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0116980",TRUE,25629939,"PMC4309600",NA,NA,NA,TRUE,NA
+"Universität Duisburg-Essen",2014,"988","Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0113706",TRUE,25479539,"PMC4257624",NA,NA,NA,TRUE,NA
+"Universität Duisburg-Essen",2014,"988","Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0113882",TRUE,25426932,"PMC4245231",NA,NA,NA,TRUE,NA
+"Universität Duisburg-Essen",2014,"998","Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0116980",TRUE,25629939,"PMC4309600",NA,NA,NA,TRUE,NA
 "Universität Duisburg-Essen",2014,"1600","Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.01386",TRUE,25520690,"PMC4253823",NA,NA,NA,TRUE,NA
