@@ -14,9 +14,11 @@ So far, the following German universities have agreed to share information on pa
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
+- [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
+- [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 
@@ -37,7 +39,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Dataset
 
-```{r, echo=FALSE, cache = TRUE}
+```{r, echo=FALSE, cache = FALSE}
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 ```
 
@@ -73,20 +75,20 @@ my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam"),]
 ## Choose only publisher with at least 5 publication (abritary)
 
 # relevel
-my.apc$Publisher <- factor(my.apc$Publisher, 
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$publisher <- factor(my.apc$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
 my.apc$Institution <- factor(my.apc$Institution, 
                            levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
 
-levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
-                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
+levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$publisher)) - 5, ")", sep="")
 
-my.df <- aggregate(my.apc$EURO, list(Publisher =my.apc$Publisher, Uni = my.apc$Institution), sum)
+my.df <- aggregate(my.apc$EURO, list(publisher =my.apc$publisher, Uni = my.apc$Institution), sum)
 
 ## Plot by publisher
 
-p <- ggplot(my.df, aes(Publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() + 
-  scale_y_continuous(limits=c(0, 350000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
+p <- ggplot(my.df, aes(publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() + 
+  scale_y_continuous(limits=c(0, 400000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
   scale_fill_brewer(palette = "Set3") + theme_bw() + 
   theme(legend.position="right", legend.text = element_text(size = 6, colour = "black"))
 
@@ -116,15 +118,15 @@ ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="i
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 # relevel
-my.apc$Publisher <- factor(my.apc$Publisher, 
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$publisher <- factor(my.apc$publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
 my.apc$Institution <- factor(my.apc$Institution, 
                            levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
 
-levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
-                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
+levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$publisher)) - 5, ")", sep="")
 
-q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
+q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
@@ -139,7 +141,7 @@ ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
 
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
-mpg <- my.apc[my.apc$Institution == "MPG" & my.apc$Publisher == "Springer Science + Business Media",]
+mpg <- my.apc[my.apc$Institution == "MPG" & my.apc$publisher == "Springer Science + Business Media",]
 q <- ggplot(mpg, aes(factor(Period), EURO)) + geom_boxplot() + geom_point()
 q <- q +  ylab("Fees paid (in EURO)") + xlab("Period") + theme(legend.position="top") + theme_bw()
 
@@ -168,8 +170,8 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Bertelmann, Roland; Deinzer, Gernot; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
-Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
+Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
@@ -179,7 +181,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Roland Bertelmann, Gernot Deinzer, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Astrid Vieler, Najko Jahn
+Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
