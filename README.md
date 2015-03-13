@@ -1,3 +1,6 @@
+
+
+
 ## About 
 
 The aim of this repository is:
@@ -41,28 +44,47 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2166 articles, with total expenditure of 2635859.84€. Average fee is 1216.9€.
+At the moment, the dataset releases information on 2 166 articles, with total expenditure of 2 635 859.84€. Average fee is 1 216.9€.
 
-View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
+View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
 |                 | Articles| Fees paid in EURO| Mean Fee paid|
 |:----------------|--------:|-----------------:|-------------:|
-|Bamberg U        |       16|          15932.11|        995.76|
-|Bielefeld U      |      160|         187296.22|       1170.60|
-|Duisburg-Essen U |      114|         130989.00|       1149.03|
-|FU Berlin        |       45|          56074.43|       1246.10|
-|FZJ - ZB         |       76|          90410.94|       1189.62|
-|GFZ-Potsdam      |       60|          69625.47|       1160.42|
-|Goettingen U     |      156|         191826.70|       1229.66|
-|Hannover U       |       42|          53515.64|       1274.18|
-|KIT              |      194|         228626.36|       1178.49|
-|Konstanz U       |       85|         107776.13|       1267.95|
-|Leipzig U        |       60|          79602.89|       1326.71|
-|MPG              |      991|        1237803.62|       1249.05|
-|Regensburg U     |      163|         182609.56|       1120.30|
-|TU Clausthal     |        4|           3770.77|        942.69|
+|Bamberg U        |       16|             15932|           996|
+|Bielefeld U      |      160|            187296|          1171|
+|Duisburg-Essen U |      114|            130989|          1149|
+|FU Berlin        |       45|             56074|          1246|
+|FZJ - ZB         |       76|             90411|          1190|
+|GFZ-Potsdam      |       60|             69625|          1160|
+|Goettingen U     |      156|            191827|          1230|
+|Hannover U       |       42|             53516|          1274|
+|KIT              |      194|            228626|          1178|
+|Konstanz U       |       85|            107776|          1268|
+|Leipzig U        |       60|             79603|          1327|
+|MPG              |      991|           1237804|          1249|
+|Regensburg U     |      163|            182610|          1120|
+|TU Clausthal     |        4|              3771|           943|
 
+## Use of external sources
+
+Externals sourced were used to compile the dataset in order to provide shared identifiers for publications (e.g. PMID) and disambiguated information on publishers and journals.
+
+
+
+|Source     |variable  |description                     |
+|:--------------|:---------|:-----------------------------------------------|
+|CrossRef   |`publisher` |Title of Publisher             |
+|CrossRef   |`journal_full_title` |Full Title of Journal  |
+|CrossRef   |`issn` |International Standard Serial Numbers (collapsed) |
+|CrossRef   |`issn_print` |ISSN print |
+|CrossRef   |`issn_electronic`  |ISSN electronic        |
+|CrossRef   |`license_ref`  |License of the article     |
+|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|EuropePMC    |`pmid`  |PubMed ID                 |
+|EuropePMC    |`pmcid` |PubMed Central ID         |
+|Web of Science |`ut` |Web of Science record ID             |
+|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
@@ -72,7 +94,7 @@ View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/ap
 
 ![](figure/plotPublisherAPC.png)
 
-### Comparing fees paid by univeristy and research institution
+### Comparing fees paid by university and research institution
 
 
 
