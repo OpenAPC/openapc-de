@@ -5,7 +5,7 @@
 "Leipzig U",2014,1914.31,"AIP Publishing","APL Materials","2166-532X",NA,"2166-532X","10.1063/1.4870536",TRUE,NA,NA,NA,NA,"ut:000336083600005",TRUE,NA
 "Duisburg-Essen U",2014,1206,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","10.1063/1.4873157",TRUE,NA,NA,NA,NA,"ut:000336082000045",TRUE,NA
 "FZJ - ZB",2014,1728.66,"AIP Publishing","APL Materials","2166-532X",NA,"2166-532X","10.1063/1.4900817",TRUE,NA,NA,"https://juser.fz-juelich.de/","186433","ut:000344588400009",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,1057.87,"AIP Publishing","AIP Advances","21583226","21583226",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2012,1057.87,"AIP Publishing","AIP Advances","21583226","21583226",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Bielefeld U",2014,1087,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","10.1103/PhysRevX.3.041020",TRUE,NA,NA,"http://pub.uni-bielefeld.de/","2641830","ut:000327388400001",TRUE,NA
 "MPG",2013,737.28,"American Vacuum Society","Biointerphases","1559-4106","1559-4106",NA,"10.1186/1559-4106-8-36",TRUE,24706145,NA,NA,NA,"ut:000334054600001",TRUE,NA
 "Duisburg-Essen U",2014,238,"Amsterdam University Press","Taal en tongval","398691","398691",NA,"10.5117/TET2012.1.BOON",TRUE,NA,NA,NA,NA,NA,FALSE,NA
@@ -39,118 +39,118 @@
 "FZJ - ZB",2014,888,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375","10.5194/acpd-14-18461-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","155472",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,1102,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375","10.5194/acpd-14-18905-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","155383",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,1073,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375","10.5194/acpd-14-3193-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","186436",NA,TRUE,NA
-"GFZ-Potsdam",2013,771.12,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","10.5194/amt-6-3169-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000327815900015",TRUE,NA
+"GFZ-Potsdam",2013,771.12,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","10.5194/amt-6-3169-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","301809","ut:000327815900015",TRUE,NA
 "Hannover U",2013,999.6,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-6-11145-2013",TRUE,NA,NA,NA,NA,NA,TRUE,NA
 "FZJ - ZB",2014,1272,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-6-9939-2013",TRUE,NA,NA,"https://juser.fz-juelich.de/","139374",NA,TRUE,NA
-"GFZ-Potsdam",2014,1256.64,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-12173-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2014,1256.64,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-12173-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","744891",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,1073,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-1535-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","155640",NA,TRUE,NA
 "FZJ - ZB",2014,1104,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-4229-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","185599",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "Hannover U",2014,828.24,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-69-2014",TRUE,NA,NA,NA,NA,NA,TRUE,NA
 "FZJ - ZB",2014,1200,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-8415-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","155275",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,864,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-9803-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","156127",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2013,487.9,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1035-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000322290400005",TRUE,NA
-"GFZ-Potsdam",2013,875.84,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1115-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000322290400011",TRUE,NA
-"GFZ-Potsdam",2013,930.58,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1315-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000323979100003",TRUE,NA
-"GFZ-Potsdam",2013,731.85,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1491-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000325345800002",TRUE,NA
-"GFZ-Potsdam",2013,683.06,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1507-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000325345800003",TRUE,NA
-"GFZ-Potsdam",2013,536.69,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-529-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000318432300013",TRUE,NA
-"GFZ-Potsdam",2013,766.36,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-541-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000318432300014",TRUE,NA
-"GFZ-Potsdam",2014,634.27,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-32-249-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000334098900006",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2014,683.06,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-32-609-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000338509000003",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2014,439.11,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-32-623-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000338509000004",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2013,487.9,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1035-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247015","ut:000322290400005",TRUE,NA
+"GFZ-Potsdam",2013,875.84,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1115-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","328093","ut:000322290400011",TRUE,NA
+"GFZ-Potsdam",2013,930.58,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1315-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","248011","ut:000323979100003",TRUE,NA
+"GFZ-Potsdam",2013,731.85,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1491-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","248054","ut:000325345800002",TRUE,NA
+"GFZ-Potsdam",2013,683.06,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-1507-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","328076","ut:000325345800003",TRUE,NA
+"GFZ-Potsdam",2013,536.69,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-529-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","322061","ut:000318432300013",TRUE,NA
+"GFZ-Potsdam",2013,766.36,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-31-541-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","246423","ut:000318432300014",TRUE,NA
+"GFZ-Potsdam",2014,634.27,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-32-249-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","360538","ut:000334098900006",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2014,683.06,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-32-609-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","881903","ut:000338509000003",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2014,439.11,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","10.5194/angeo-32-623-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","881902","ut:000338509000004",TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,1189,"Copernicus GmbH","Biogeosciences Discussions","1810-6285",NA,"1810-6285","10.5194/bgd-11-11943-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","186437",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,1247,"Copernicus GmbH","Biogeosciences Discussions","1810-6285",NA,"1810-6285","10.5194/bgd-11-12985-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","172274",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2014,1104.32,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-10-2099-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000347569500009",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2014,1104.32,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-10-2099-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","735890","ut:000347569500009",TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,1421,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-10-2153-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","186065","ut:000347569500012",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2013,1587.46,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-10-623-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000335374600014",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2013,1311.38,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-10-91-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000333837600007",TRUE,NA
-"GFZ-Potsdam",2013,828.24,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-9-1559-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000323412600013",TRUE,NA
-"GFZ-Potsdam",2013,1104.32,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-9-1601-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000323412600016",TRUE,NA
-"GFZ-Potsdam",2013,1449.42,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-9-2413-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000328274700001",TRUE,NA
+"GFZ-Potsdam",2013,1587.46,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-10-623-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","364132","ut:000335374600014",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2013,1311.38,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-10-91-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","317285","ut:000333837600007",TRUE,NA
+"GFZ-Potsdam",2013,828.24,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-9-1559-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247521","ut:000323412600013",TRUE,NA
+"GFZ-Potsdam",2013,1104.32,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-9-1601-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247519","ut:000323412600016",TRUE,NA
+"GFZ-Potsdam",2013,1449.42,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","10.5194/cp-9-2413-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","260069","ut:000328274700001",TRUE,NA
 "FZJ - ZB",2014,744,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X","10.5194/gmdd-7-1759-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","151845",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,841,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X","10.5194/gmdd-7-3545-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","171937",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "FZJ - ZB",2014,1248,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X","10.5194/gmdd-7-5087-2014",TRUE,NA,NA,"https://juser.fz-juelich.de/","154949",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2014,1285.2,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X","10.5194/gmdd-7-6217-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2014,1505.35,"Copernicus GmbH","Geothermal Energy Science","2195-478X",NA,"2195-478X","10.5194/gtes-2-1-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,NA,FALSE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2013,1690.99,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","10.5194/hess-17-3039-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000323981900003",TRUE,NA
-"GFZ-Potsdam",2013,885.36,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","10.5194/hess-17-3871-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000326603200013",TRUE,NA
-"GFZ-Potsdam",2014,1829.03,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","10.5194/hess-18-3033-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000341597600014",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2014,1449.42,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","10.5194/hess-19-309-2015",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000348929800017",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2013,656.88,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-12-3507-2012",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000311804900026",TRUE,NA
-"GFZ-Potsdam",2013,437.92,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-13-1285-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000319857400011",TRUE,NA
-"GFZ-Potsdam",2013,656.88,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-13-53-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000314414000006",TRUE,NA
-"GFZ-Potsdam",2014,1019.59,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-14-1625-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000338650500022",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2013,892.5,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-14-189-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000332336700003",TRUE,NA
-"GFZ-Potsdam",2014,1349.46,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-14-1921-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000340105800019",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2014,2261,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-14-675-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000334093600014",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2014,1285.2,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X","10.5194/gmdd-7-6217-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","887890",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2014,1505.35,"Copernicus GmbH","Geothermal Energy Science","2195-478X",NA,"2195-478X","10.5194/gtes-2-1-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","370642",NA,FALSE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2013,1690.99,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","10.5194/hess-17-3039-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247560","ut:000323981900003",TRUE,NA
+"GFZ-Potsdam",2013,885.36,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","10.5194/hess-17-3871-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","248049","ut:000326603200013",TRUE,NA
+"GFZ-Potsdam",2014,1829.03,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","10.5194/hess-18-3033-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","565889","ut:000341597600014",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2014,1449.42,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","10.5194/hess-19-309-2015",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","836890","ut:000348929800017",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2013,656.88,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-12-3507-2012",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","246086","ut:000311804900026",TRUE,NA
+"GFZ-Potsdam",2013,437.92,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-13-1285-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247192","ut:000319857400011",TRUE,NA
+"GFZ-Potsdam",2013,656.88,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-13-53-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","246257","ut:000314414000006",TRUE,NA
+"GFZ-Potsdam",2014,1019.59,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-14-1625-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","442920","ut:000338650500022",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2013,892.5,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-14-189-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","331956","ut:000332336700003",TRUE,NA
+"GFZ-Potsdam",2014,1349.46,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-14-1921-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","498888","ut:000340105800019",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2014,2261,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","10.5194/nhess-14-675-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","352283","ut:000334093600014",TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "Hannover U",2013,756.84,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","10.5194/nhessd-1-1119-2013",TRUE,NA,NA,NA,NA,NA,FALSE,NA
-"GFZ-Potsdam",2013,856.8,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","10.5194/nhessd-1-275-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,NA,FALSE,NA
-"GFZ-Potsdam",2013,678.3,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","10.5194/nhessd-1-4925-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,NA,FALSE,NA
+"GFZ-Potsdam",2013,856.8,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","10.5194/nhessd-1-275-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","246875",NA,FALSE,NA
+"GFZ-Potsdam",2013,678.3,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","10.5194/nhessd-1-4925-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","352283",NA,FALSE,NA
 "Hannover U",2014,802.93,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","10.5194/nhessd-2-3683-2014",TRUE,NA,NA,NA,NA,NA,FALSE,"http://creativecommons.org/licenses/by/3.0/"
-"GFZ-Potsdam",2013,1113.84,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","10.5194/tc-7-1707-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000328546300004",TRUE,NA
-"GFZ-Potsdam",2013,724.71,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","10.5194/tc-8-575-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000335377200017",TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"GFZ-Potsdam",2013,1113.84,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","10.5194/tc-7-1707-2013",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","272163","ut:000328546300004",TRUE,NA
+"GFZ-Potsdam",2013,724.71,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","10.5194/tc-8-575-2014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247226","ut:000335377200017",TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "GFZ-Potsdam",2014,1242.36,"Copernicus GmbH","The Cryosphere Discussions","1994-0440",NA,"1994-0440","10.5194/tcd-8-4645-2014",TRUE,NA,NA,NA,NA,NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,1207.85,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,2598.96,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1513.68,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1428,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1725.5,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,542.64,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1142.4,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1760.01,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,2036.09,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1173.34,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1967.07,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1370.88,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,862.75,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1794.52,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,828.24,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,714,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1313.76,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1967.07,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,628.32,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,862.75,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,949.62,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1770.72,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,971.04,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1428,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,885.36,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,999.6,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,913.92,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,856.8,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1069.81,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1056.72,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,2312.17,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1345.89,"Copernicus GmbH","Biogeosciences Discussions","1810-6285",NA,"1810-6285",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,999.6,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,885.36,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,862.75,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1449.42,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1863.54,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1656.48,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,2105.11,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1138.83,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,535.5,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,813.96,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"Bamberg U",2013,1372,"Dove Medical Press Ltd.","Journal of Pain Research","1178-7090",NA,"1178-7090","10.2147/JPR.S45097",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,NA,TRUE,NA
-"Regensburg U",2012,761.05,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics",NA,NA,NA,NA,FALSE,NA,NA,"http://epub.uni-regensburg.de/","26556",NA,FALSE,NA
-"Regensburg U",2012,745.25,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics",NA,NA,NA,NA,FALSE,NA,NA,"http://epub.uni-regensburg.de/","23616",NA,FALSE,NA
-"Bamberg U",2014,90,"Education & Psychology I+D+i","Electronic Journal of Research in Educational Psychology","16962095",NA,"16962095","10.14204/ejrep.32.13077",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,NA,TRUE,NA
-"FZJ - ZB",2014,798.02,"Elsevier BV","Nuclear Materials and Energy",NA,NA,NA,NA,FALSE,NA,NA,"https://juser.fz-juelich.de/",NA,NA,FALSE,NA
+"KIT",2012,1207.85,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,2598.96,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1513.68,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1428,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1725.5,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,542.64,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1142.4,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1760.01,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,2036.09,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1173.34,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1967.07,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1370.88,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,862.75,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1794.52,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,828.24,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,714,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1313.76,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1967.07,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,628.32,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,862.75,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,949.62,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1770.72,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,971.04,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1428,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,885.36,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,999.6,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,913.92,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,856.8,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1069.81,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1056.72,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,2312.17,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1345.89,"Copernicus GmbH","Biogeosciences Discussions","1810-6285",NA,"1810-6285",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,999.6,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,885.36,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,862.75,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1449.42,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1863.54,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1656.48,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,2105.11,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1138.83,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,535.5,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,813.96,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"Bamberg U",2013,1372,"Dove Medical Press Ltd.","Journal of Pain Research","1178-7090",NA,"1178-7090","10.2147/JPR.S45097",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21333",NA,TRUE,NA
+"Regensburg U",2012,761.05,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics",NA,NA,NA,NA,FALSE,NA,NA,"http://epub.uni-regensburg.de/","20362",NA,FALSE,NA
+"Regensburg U",2012,745.25,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics",NA,NA,NA,NA,FALSE,NA,NA,"http://epub.uni-regensburg.de/","20362",NA,FALSE,NA
+"Bamberg U",2014,90,"Education & Psychology I+D+i","Electronic Journal of Research in Educational Psychology","16962095",NA,"16962095","10.14204/ejrep.32.13077",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","20502",NA,TRUE,NA
+"FZJ - ZB",2014,798.02,"Elsevier BV","Nuclear Materials and Energy",NA,NA,NA,NA,FALSE,NA,NA,"https://juser.fz-juelich.de/","20362",NA,FALSE,NA
 "Duisburg-Essen U",2014,827,"Elsevier BV","New Microbes and New Infections","20522975","20522975",NA,"10.1002/nmi2.44",TRUE,25356347,"PMC4184661",NA,NA,NA,FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
-"GFZ-Potsdam",2014,2189.6,"Elsevier BV","Energy","3605442","3605442",NA,"10.1016/j.energy.2014.01.014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000334262000079",FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
+"GFZ-Potsdam",2014,2189.6,"Elsevier BV","Energy","3605442","3605442",NA,"10.1016/j.energy.2014.01.014",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","342440","ut:000334262000079",FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
 "Leipzig U",2014,340.74,"Elsevier BV","International Journal of Surgery Case Reports","22102612","22102612",NA,"10.1016/j.ijscr.2014.10.002",TRUE,25544485,"PMC4334960",NA,NA,NA,FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
 "FZJ - ZB",2014,1110.7,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"10.1016/j.nicl.2014.05.017",TRUE,24967158,"PMC4066186","https://juser.fz-juelich.de/","154324",NA,FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
 "Bielefeld U",2014,1586.09,"Elsevier BV","Stem Cell Research","18735061","18735061",NA,"10.1016/j.scr.2014.04.017",TRUE,24858494,NA,"http://pub.uni-bielefeld.de/","2678057","ut:000342287000009",FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
 "Bielefeld U",2012,142,"Elsevier BV","Computational and Structural Biotechnology Journal","20010370","20010370",NA,"10.5936/csbj.201210004",TRUE,24688664,"PMC3962153","http://pub.uni-bielefeld.de/","2533638",NA,TRUE,"http://www.elsevier.com/tdm/userlicense/1.0/"
 "MPG",2013,1337.23,"EMBO","EMBO Molecular Medicine","17574676",NA,NA,"10.1002/emmm.201200230",TRUE,22473874,"PMC3443947",NA,NA,"ut:000304767900010",TRUE,NA
 "Konstanz U",2012,1314.51,"Environmental Health Perspectives","Environmental Health Perspectives","0091-6765","0091-6765",NA,"10.1289/ehp.1104489",TRUE,22571897,"PMC3440079",NA,NA,"ut:000307260500022",TRUE,NA
-"KIT",2013,500,"ESG","International Journal of Electrochemical Science","1452-3981",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,500,"ESG","International Journal of Electrochemical Science","1452-3981",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"Regensburg U",2013,192.8,"Food Science Publisher","Functional Foods in Health and Disease",NA,NA,NA,NA,FALSE,NA,NA,"http://epub.uni-regensburg.de/","28794",NA,FALSE,NA
+"KIT",2013,500,"ESG","International Journal of Electrochemical Science","1452-3981",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,500,"ESG","International Journal of Electrochemical Science","1452-3981",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"Regensburg U",2013,192.8,"Food Science Publisher","Functional Foods in Health and Disease",NA,NA,NA,NA,FALSE,NA,NA,"http://epub.uni-regensburg.de/","20362",NA,FALSE,NA
 "Bielefeld U",2014,912,"Frontiers Media SA","Frontiers in Bioengineering and Biotechnology","2296-4185",NA,"2296-4185","10.3389/fbioe.2014.00028",TRUE,25191655,"PMC4138558","http://pub.uni-bielefeld.de/","2687390",NA,FALSE,NA
 "Bielefeld U",2012,900,"Frontiers Media SA","Frontiers in Cellular and Infection Microbiology","2235-2988",NA,"2235-2988","10.3389/fcimb.2012.00070",TRUE,22919661,"PMC3417467","http://pub.uni-bielefeld.de/","2510371","ut:000324627400016",FALSE,NA
-"GFZ-Potsdam",2014,1904,"Frontiers Media SA","Frontiers in Earth Science","2296-6463",NA,"2296-6463","10.3389/feart.2014.00012",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,NA,FALSE,NA
+"GFZ-Potsdam",2014,1904,"Frontiers Media SA","Frontiers in Earth Science","2296-6463",NA,"2296-6463","10.3389/feart.2014.00012",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","523901",NA,FALSE,NA
 "Leipzig U",2015,800,"Frontiers Media SA","Frontiers in Marine Science","2296-7745",NA,"2296-7745","10.3389/fmars.2014.00082",TRUE,NA,NA,NA,NA,NA,FALSE,NA
 "Regensburg U",2012,583.1,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","10.3389/fmicb.2012.00074",TRUE,22416241,"PMC3298847","http://epub.uni-regensburg.de/","25856","ut:000208863600128",TRUE,NA
 "Bielefeld U",2014,912,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","10.3389/fmicb.2014.00252",TRUE,24904564,"PMC4033844","http://pub.uni-bielefeld.de/","2678800","ut:000336663500002",TRUE,NA
@@ -189,7 +189,7 @@
 "FZJ - ZB",2014,1600,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00362",TRUE,24904391,"PMC4035756","https://juser.fz-juelich.de/","154833","ut:000339500100001",TRUE,NA
 "Leipzig U",2014,804,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00387",TRUE,24966823,"PMC4052740",NA,NA,"ut:000339710700001",TRUE,NA
 "FZJ - ZB",2014,960,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00516",TRUE,25076885,"PMC4098078","https://juser.fz-juelich.de/","155592",NA,TRUE,NA
-"Bamberg U",2014,960,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00566",TRUE,25132816,"PMC4116780","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000340606500001",TRUE,NA
+"Bamberg U",2014,960,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00566",TRUE,25132816,"PMC4116780","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21002","ut:000340606500001",TRUE,NA
 "FZJ - ZB",2014,1600,"Frontiers Media SA","Frontiers in Neuroinformatics","1662-5196",NA,"1662-5196","10.3389/fninf.2014.00078",TRUE,25346682,"PMC4193238","https://juser.fz-juelich.de/","172421","ut:000348207000001",TRUE,NA
 "Regensburg U",2013,960,"Frontiers Media SA","Frontiers in Integrative Neuroscience","1662-5145",NA,"1662-5145","10.3389/fnint.2013.00005",TRUE,23407860,"PMC3570774","http://epub.uni-regensburg.de/","28766",NA,TRUE,NA
 "Bielefeld U",2014,1520,"Frontiers Media SA","Frontiers in Integrative Neuroscience","1662-5145",NA,"1662-5145","10.3389/fnint.2014.00034",TRUE,24808836,"PMC4010782","http://pub.uni-bielefeld.de/","2675090",NA,TRUE,NA
@@ -202,7 +202,7 @@
 "Duisburg-Essen U",2014,1143,"Frontiers Media SA","Frontiers in Oncology","2234-943X",NA,"2234-943X","10.3389/fonc.2014.00169",TRUE,25019063,"PMC4072089",NA,NA,NA,TRUE,NA
 "FZJ - ZB",2014,1600,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X","10.3389/fphy.2014.00002",TRUE,NA,NA,"https://juser.fz-juelich.de/","151162",NA,FALSE,NA
 "FZJ - ZB",2014,1600,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X","10.3389/fphy.2014.00042",TRUE,NA,NA,"https://juser.fz-juelich.de/","155401",NA,FALSE,NA
-"GFZ-Potsdam",2014,1523.2,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X","10.3389/fphy.2014.00047",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,NA,FALSE,NA
+"GFZ-Potsdam",2014,1523.2,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X","10.3389/fphy.2014.00047",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","881906",NA,FALSE,NA
 "FZJ - ZB",2014,960,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X","10.3389/fphy.2014.00073",TRUE,NA,NA,"https://juser.fz-juelich.de/","186475",NA,FALSE,NA
 "FZJ - ZB",2014,960,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","10.3389/fphys.2014.00209",TRUE,24917826,"PMC4042065","https://juser.fz-juelich.de/","154361","ut:000347059300002",TRUE,NA
 "Bielefeld U",2012,960,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","10.3389/fpls.2012.00247",TRUE,23162559,"PMC3493970","http://pub.uni-bielefeld.de/","2543925","ut:000208837900243",TRUE,NA
@@ -237,14 +237,14 @@
 "Konstanz U",2013,1904,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00147",TRUE,23554597,"PMC3612696",NA,NA,"ut:000330840700001",TRUE,NA
 "Bielefeld U",2013,1142,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00182",TRUE,23596435,"PMC3622033","http://pub.uni-bielefeld.de/","2550401","ut:000330846700001",TRUE,NA
 "Konstanz U",2013,1142.4,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00225",TRUE,23641227,"PMC3639408",NA,NA,"ut:000330934100001",TRUE,NA
-"Bamberg U",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00318",TRUE,23760550,"PMC3669756","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000331039300001",TRUE,NA
+"Bamberg U",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00318",TRUE,23760550,"PMC3669756","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21331","ut:000331039300001",TRUE,NA
 "Bielefeld U",2013,1142,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00324",TRUE,23785343,"PMC3684785","http://pub.uni-bielefeld.de/","2610958","ut:000331044100001",TRUE,NA
 "Bielefeld U",2013,917,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00342",TRUE,23805111,"PMC3690456","http://pub.uni-bielefeld.de/","2610967","ut:000331046300001",TRUE,NA
 "Regensburg U",2013,1142.4,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00352",TRUE,23847557,"PMC3696841","http://epub.uni-regensburg.de/","28791","ut:000331104500001",TRUE,NA
-"Bamberg U",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00406",TRUE,23847576,"PMC3705173","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000331105300001",TRUE,NA
+"Bamberg U",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00406",TRUE,23847576,"PMC3705173","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21357","ut:000331105300001",TRUE,NA
 "Regensburg U",2013,916.3,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00428",TRUE,23882237,"PMC3713239","http://epub.uni-regensburg.de/","28776","ut:000331103700001",TRUE,NA
 "Konstanz U",2013,1924,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00442",TRUE,23882244,"PMC3713251",NA,NA,"ut:000331169000001",TRUE,NA
-"Bamberg U",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00453",TRUE,23882250,"PMC3714455","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000331171000001",TRUE,NA
+"Bamberg U",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00453",TRUE,23882250,"PMC3714455","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","20928","ut:000331171000001",TRUE,NA
 "Regensburg U",2013,916.3,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00467",TRUE,23898312,"PMC3721022","http://epub.uni-regensburg.de/","28777","ut:000331106600001",TRUE,NA
 "Konstanz U",2013,1904,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00545",TRUE,23986730,"PMC3749430",NA,NA,"ut:000331193600001",TRUE,NA
 "Bielefeld U",2013,1142,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00557",TRUE,24009594,"PMC3757322","http://pub.uni-bielefeld.de/","2623872","ut:000331190500001",TRUE,NA
@@ -259,15 +259,15 @@
 "Leipzig U",2014,1904,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.01295",TRUE,25477832,"PMC4235414",NA,NA,"ut:000345456200002",TRUE,NA
 "Regensburg U",2012,2380,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","10.3389/fpsyt.2012.00070",TRUE,22891061,"PMC3413045","http://epub.uni-regensburg.de/","25864",NA,TRUE,NA
 "Bielefeld U",2014,1520,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","10.3389/fpsyt.2014.00026",TRUE,24672491,"PMC3957367","http://pub.uni-bielefeld.de/","2668899",NA,TRUE,NA
-"KIT",2013,960,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,916.3,"Frontiers Media SA","Frontiers in Neuroscience","1662-4548",NA,"1662-4548",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,575,"Frontiers Media SA","Frontiers in Pharmacology","1663-9812",NA,"1663-9812",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1600,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,960,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,770,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1600,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2013,960,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,916.3,"Frontiers Media SA","Frontiers in Neuroscience","1662-4548",NA,"1662-4548",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,575,"Frontiers Media SA","Frontiers in Pharmacology","1663-9812",NA,"1663-9812",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1600,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,960,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,770,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1600,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Konstanz U",2013,1803.74,"Genetics Society of America","G3&#58; Genes|Genomes|Genetics","2160-1836",NA,"2160-1836","10.1534/g3.112.003897",TRUE,23316439,"PMC3538344",NA,NA,"ut:000313555200007",TRUE,NA
 "Konstanz U",2012,1518.73,"Hindawi Publishing Corporation","Oxidative Medicine and Cellular Longevity","1942-0900;1942-0994","1942-0900","1942-0994","10.1155/2012/321653",TRUE,23050038,"PMC3459245",NA,NA,"ut:000309278200001",TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "Regensburg U",2012,766.22,"Hindawi Publishing Corporation","Computational Intelligence and Neuroscience","1687-5265;1687-5273","1687-5265","1687-5273","10.1155/2012/412512",TRUE,23097663,"PMC3477528","http://epub.uni-regensburg.de/","26460","ut:000208906200013",TRUE,"http://creativecommons.org/licenses/by/3.0/"
@@ -288,38 +288,38 @@
 "FZJ - ZB",2014,1312.38,"Hindawi Publishing Corporation","BioMed Research International","2314-6133;2314-6141","2314-6133","2314-6141","10.1155/2014/812973",TRUE,25343144,"PMC4197889","https://juser.fz-juelich.de/","154927","ut:000341881700001",TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "Leipzig U",2014,1062.5,"Hindawi Publishing Corporation","Advances in Mathematical Physics","1687-9120;1687-9139","1687-9120","1687-9139","10.1155/2014/981586",TRUE,NA,NA,NA,NA,"ut:000344688700001",TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "Leipzig U",2014,1120.14,"Hindawi Publishing Corporation","BioMed Research International","2314-6133;2314-6141","2314-6133","2314-6141","10.1155/2014/986594",TRUE,24971366,"PMC4058284",NA,NA,"ut:000337488600001",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,659.27,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,786.81,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,943.38,"Hindawi Publishing Corporation","Advances in Hematology","1687-9104;1687-9112","1687-9104","1687-9112",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,240.51,"Hindawi Publishing Corporation","International Journal of Reconfigurable Computing","1687-7195;1687-7209","1687-7195","1687-7209",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,510.47,"Hindawi Publishing Corporation","International Journal of Reconfigurable Computing","1687-7195;1687-7209","1687-7195","1687-7209",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,589.77,"Hindawi Publishing Corporation","International Journal of Reconfigurable Computing","1687-7195;1687-7209","1687-7195","1687-7209",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2013,382.95,"Hindawi Publishing Corporation","ISRN Mechanical Engineering","2090-5130",NA,"2090-5130",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,626.68,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,360.58,"Hindawi Publishing Corporation","Advances in High Energy Physics","1687-7357;1687-7365","1687-7357","1687-7365",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,397.85,"Hindawi Publishing Corporation","Chromatography Research International","2090-3502;2090-3510","2090-3502","2090-3510",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2013,618.81,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2013,309.38,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2013,751.87,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,353.91,"Hindawi Publishing Corporation","ISRN Mathematical Physics","2090-4681",NA,"2090-4681",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2012,366.63,"Hindawi Publishing Corporation","ISRN Mathematical Physics","2090-4681",NA,"2090-4681",NA,TRUE,NA,NA,NA,NA,NA,NA,"http://creativecommons.org/licenses/by/3.0/"
-"KIT",2013,120,"IGIP","International Journal of Engineering Pedagogy","2192-4880",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2012,659.27,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,786.81,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,943.38,"Hindawi Publishing Corporation","Advances in Hematology","1687-9104;1687-9112","1687-9104","1687-9112",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,240.51,"Hindawi Publishing Corporation","International Journal of Reconfigurable Computing","1687-7195;1687-7209","1687-7195","1687-7209",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,510.47,"Hindawi Publishing Corporation","International Journal of Reconfigurable Computing","1687-7195;1687-7209","1687-7195","1687-7209",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,589.77,"Hindawi Publishing Corporation","International Journal of Reconfigurable Computing","1687-7195;1687-7209","1687-7195","1687-7209",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2013,382.95,"Hindawi Publishing Corporation","ISRN Mechanical Engineering","2090-5130",NA,"2090-5130",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,626.68,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,360.58,"Hindawi Publishing Corporation","Advances in High Energy Physics","1687-7357;1687-7365","1687-7357","1687-7365",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,397.85,"Hindawi Publishing Corporation","Chromatography Research International","2090-3502;2090-3510","2090-3502","2090-3510",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2013,618.81,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2013,309.38,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2013,751.87,"Hindawi Publishing Corporation","Science and Technology of Nuclear Installations","1687-6075;1687-6083","1687-6075","1687-6083",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,353.91,"Hindawi Publishing Corporation","ISRN Mathematical Physics","2090-4681",NA,"2090-4681",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2012,366.63,"Hindawi Publishing Corporation","ISRN Mathematical Physics","2090-4681",NA,"2090-4681",NA,TRUE,NA,NA,NA,"20362",NA,NA,"http://creativecommons.org/licenses/by/3.0/"
+"KIT",2013,120,"IGIP","International Journal of Engineering Pedagogy","2192-4880",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
 "Bielefeld U",2013,1017,"Informa UK Limited","Health Psychology and Behavioral Medicine","2164-2850",NA,"2164-2850","10.1080/21642850.2013.809313",TRUE,25264498,"PMC4164240","http://pub.uni-bielefeld.de/","2566281",NA,FALSE,NA
 "FZJ - ZB",2014,417,"Informa UK Limited","Materials Research Letters","2166-3831",NA,"2166-3831","10.1080/21663831.2014.882869",TRUE,NA,NA,"https://juser.fz-juelich.de/","173073",NA,FALSE,NA
 "Duisburg-Essen U",2014,1283,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Access","2169-3536",NA,"2169-3536","10.1109/ACCESS.2014.2323299",TRUE,NA,NA,NA,NA,NA,FALSE,NA
-"KIT",2013,1181.37,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Photonics Journal","1943-0655",NA,"1943-0655",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1219.15,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Photonics Journal","1943-0655",NA,"1943-0655",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2013,1181.37,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Photonics Journal","1943-0655",NA,"1943-0655",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1219.15,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Photonics Journal","1943-0655",NA,"1943-0655",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Konstanz U",2012,761.6,"InTech","Principal Component Analysis - Multidisciplinary Applications",NA,NA,NA,"10.5772/38010",TRUE,NA,NA,NA,NA,NA,FALSE,NA
 "Konstanz U",2012,761.6,"InTech","Glucocorticoids - New Recognition of Our Familiar Friend	",NA,NA,NA,"10.5772/52788",TRUE,NA,NA,NA,NA,NA,FALSE,NA
 "Regensburg U",2013,640,"InTech","Chromatin Remodelling	",NA,NA,NA,"10.5772/55683",TRUE,NA,NA,"http://epub.uni-regensburg.de/","28798",NA,FALSE,NA
-"KIT",2012,590,"InTech","Fourier Transform - Materials Analysis",NA,NA,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,590,"InTech","Smart Actuation and Sensing Systems - Recent Advances and Future Challenges",NA,NA,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2012,590,"InTech","Fourier Transform - Materials Analysis",NA,NA,NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,590,"InTech","Smart Actuation and Sensing Systems - Recent Advances and Future Challenges",NA,NA,NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Regensburg U",2013,625.32,"International Scientific Literature","American Journal of Case Reports","1941-5923",NA,"1941-5923","10.12659/AJCR.889672",TRUE,NA,NA,"http://epub.uni-regensburg.de/","29520",NA,FALSE,NA
 "Duisburg-Essen U",2013,385,"International Scientific Literature","Annals of Transplantation","2329-0358",NA,"2329-0358","10.12659/AOT.883910",TRUE,NA,NA,NA,NA,NA,FALSE,NA
 "Regensburg U",2012,756.59,"International Scientific Literature","Medical Science Monitor","1234-1010","1234-1010",NA,"10.12659/MSM.882463",TRUE,NA,NA,"http://epub.uni-regensburg.de/","25863",NA,FALSE,NA
 "Regensburg U",2012,152.61,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368","10.1107/S1600536812038792",TRUE,NA,NA,"http://epub.uni-regensburg.de/","26033",NA,TRUE,NA
 "Regensburg U",2012,152.32,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368","10.1107/S1600536812043863",TRUE,NA,NA,"http://epub.uni-regensburg.de/","20012",NA,TRUE,NA
-"KIT",2013,148.46,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2013,148.46,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Regensburg U",2012,719.95,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","10.1088/1367-2630/14/2/023018",TRUE,NA,NA,"http://epub.uni-regensburg.de/","23417","ut:000302304900003",TRUE,NA
 "MPG",2013,933.12,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","10.1088/1367-2630/15/1/013002",TRUE,NA,NA,NA,NA,"ut:000313370900002",TRUE,NA
 "MPG",2013,933.12,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","10.1088/1367-2630/15/1/013006",TRUE,NA,NA,NA,NA,"ut:000313371100001",TRUE,NA
@@ -390,34 +390,34 @@
 "Duisburg-Essen U",2014,608,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","10.1088/1367-2630/16/4/045002",TRUE,NA,NA,NA,NA,"ut:000333739400001",TRUE,NA
 "Hannover U",2014,1456.56,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","10.1088/1367-2630/16/5/053043",TRUE,NA,NA,NA,NA,"ut:000338940400002",TRUE,NA
 "Hannover U",2014,1113.84,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","10.1088/1367-2630/16/9/093040",TRUE,NA,NA,NA,NA,"ut:000344059100003",TRUE,NA
-"KIT",2013,742.5,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,605,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,742.5,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,990,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,990,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,742.5,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,990,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,990,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2013,742.5,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,605,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,742.5,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,990,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,990,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,742.5,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,990,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,990,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Regensburg U",2013,684.1,"Ivyspring International Publisher","Theranostics","1838-7640",NA,NA,"10.7150/thno.5113",TRUE,23606910,"PMC3630524","http://epub.uni-regensburg.de/","27965","ut:000316996600001",TRUE,NA
 "Duisburg-Essen U",2014,1118,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871","10.2196/jmir.3390",TRUE,25100579,"PMC4129187",NA,NA,"ut:000341430200013",TRUE,NA
-"Bamberg U",2014,1569.89,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871","10.2196/jmir.3398",TRUE,25299174,"PMC4210952","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000343108300010",TRUE,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,NA,NA
-"Bamberg U",2013,182,"Lifescience Global","International Journal of Criminology and Sociology","1929-4409",NA,NA,NA,FALSE,NA,NA," ",NA,NA,FALSE,NA
+"Bamberg U",2014,1569.89,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871","10.2196/jmir.3398",TRUE,25299174,"PMC4210952","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21596","ut:000343108300010",TRUE,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,69,"KIT Scientific Publishing","Journal of new frontiers in spatial concepts","1868-6648",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,NA,NA
+"Bamberg U",2013,182,"Lifescience Global","International Journal of Criminology and Sociology","1929-4409",NA,NA,NA,FALSE,NA,NA," ","20362",NA,FALSE,NA
 "FZJ - ZB",2014,369.69,"MDPI AG","Atmosphere","2073-4433",NA,"2073-4433","10.3390/atmos5020420",TRUE,NA,NA,"https://juser.fz-juelich.de/","156078","ut:000338665800014",TRUE,NA
 "Bielefeld U",2012,990,"MDPI AG","Entropy","1099-4300",NA,"1099-4300","10.3390/e14050856",TRUE,NA,NA,"http://pub.uni-bielefeld.de/","2509999","ut:000304451400002",TRUE,NA
 "Bielefeld U",2013,1175,"MDPI AG","Entropy","1099-4300",NA,"1099-4300","10.3390/e15093312",TRUE,NA,NA,"http://pub.uni-bielefeld.de/","2623798","ut:000328463000001",TRUE,NA
-"GFZ-Potsdam",2013,930.58,"MDPI AG","Energies","1996-1073",NA,"1996-1073","10.3390/en6063002",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000320773700016",TRUE,NA
-"GFZ-Potsdam",2014,940.1,"MDPI AG","Energies","1996-1073",NA,"1996-1073","10.3390/en7042148",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000336217000016",TRUE,NA
-"GFZ-Potsdam",2014,1178.1,"MDPI AG","Energies","1996-1073",NA,"1996-1073","10.3390/en7042573",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000336217000036",TRUE,NA
+"GFZ-Potsdam",2013,930.58,"MDPI AG","Energies","1996-1073",NA,"1996-1073","10.3390/en6063002",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247328","ut:000320773700016",TRUE,NA
+"GFZ-Potsdam",2014,940.1,"MDPI AG","Energies","1996-1073",NA,"1996-1073","10.3390/en7042148",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","521895","ut:000336217000016",TRUE,NA
+"GFZ-Potsdam",2014,1178.1,"MDPI AG","Energies","1996-1073",NA,"1996-1073","10.3390/en7042573",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","858896","ut:000336217000036",TRUE,NA
 "Bielefeld U",2014,1353.26,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","10.3390/ijerph110100849",TRUE,24406666,"PMC3924478","http://pub.uni-bielefeld.de/","2644087","ut:000331456400046",TRUE,NA
 "Regensburg U",2013,1368,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","10.3390/ijms14058708",TRUE,23615466,"PMC3676752","http://epub.uni-regensburg.de/","28829","ut:000319441500003",TRUE,NA
 "Regensburg U",2013,1538.84,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","10.3390/ijms140714475",TRUE,23852022,"PMC3742255","http://epub.uni-regensburg.de/","28828","ut:000322171700091",TRUE,NA
@@ -429,53 +429,53 @@
 "FZJ - ZB",2014,1080,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","10.3390/molecules20010470",TRUE,25558857,NA,"https://juser.fz-juelich.de/","186482","ut:000348319000028",TRUE,NA
 "Regensburg U",2013,484.41,"MDPI AG","Pharmaceuticals","1424-8247",NA,"1424-8247","10.3390/ph6020269",TRUE,24275951,"PMC3816681","http://epub.uni-regensburg.de/","28262",NA,TRUE,NA
 "FZJ - ZB",2014,981.99,"MDPI AG","Polymers","2073-4360",NA,"2073-4360","10.3390/polym6051602",TRUE,NA,NA,"https://juser.fz-juelich.de/","154033","ut:000337946500015",TRUE,NA
-"GFZ-Potsdam",2013,772.31,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs5063082",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000320771100023",TRUE,NA
-"GFZ-Potsdam",2013,769.93,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs5083681",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000328626100003",TRUE,NA
-"GFZ-Potsdam",2014,772.85,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6010841",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000335555900038",TRUE,NA
-"GFZ-Potsdam",2014,976.45,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6032572",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000334797000040",TRUE,NA
-"GFZ-Potsdam",2014,1057.91,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6086790",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000341518700003",TRUE,NA
-"GFZ-Potsdam",2014,1059.1,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6098026",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000343093800008",TRUE,NA
-"GFZ-Potsdam",2014,1065.05,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6109239",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000344458000005",TRUE,NA
-"GFZ-Potsdam",2014,1065.05,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs61110571",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000345530700015",TRUE,NA
-"GFZ-Potsdam",2014,1071,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs61111082",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000345530700038",TRUE,NA
+"GFZ-Potsdam",2013,772.31,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs5063082",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247184","ut:000320771100023",TRUE,NA
+"GFZ-Potsdam",2013,769.93,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs5083681",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","247610","ut:000328626100003",TRUE,NA
+"GFZ-Potsdam",2014,772.85,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6010841",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","309980","ut:000335555900038",TRUE,NA
+"GFZ-Potsdam",2014,976.45,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6032572",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","470921","ut:000334797000040",TRUE,NA
+"GFZ-Potsdam",2014,1057.91,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6086790",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","513901","ut:000341518700003",TRUE,NA
+"GFZ-Potsdam",2014,1059.1,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6098026",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","744892","ut:000343093800008",TRUE,NA
+"GFZ-Potsdam",2014,1065.05,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs6109239",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","620897","ut:000344458000005",TRUE,NA
+"GFZ-Potsdam",2014,1065.05,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs61110571",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","682918","ut:000345530700015",TRUE,NA
+"GFZ-Potsdam",2014,1071,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs61111082",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","697889","ut:000345530700038",TRUE,NA
 "Regensburg U",2012,1635.44,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","10.3390/s121216954",TRUE,23235441,"PMC3571820","http://epub.uni-regensburg.de/","27511","ut:000312607500054",TRUE,NA
-"GFZ-Potsdam",2013,1737.4,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","10.3390/s130912030",TRUE,24021971,"PMC3821330","gfzpublic.gfz-potsdam.de",NA,"ut:000328625800048",TRUE,NA
-"GFZ-Potsdam",2013,1725.5,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","10.3390/s131013779",TRUE,24129017,"PMC3859091","gfzpublic.gfz-potsdam.de",NA,"ut:000328625300058",TRUE,NA
+"GFZ-Potsdam",2013,1737.4,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","10.3390/s130912030",TRUE,24021971,"PMC3821330","gfzpublic.gfz-potsdam.de","247836","ut:000328625800048",TRUE,NA
+"GFZ-Potsdam",2013,1725.5,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","10.3390/s131013779",TRUE,24129017,"PMC3859091","gfzpublic.gfz-potsdam.de","297161","ut:000328625300058",TRUE,NA
 "Hannover U",2014,1765.08,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","10.3390/s140712715",TRUE,25036330,"PMC4168486",NA,NA,"ut:000340035700080",TRUE,NA
 "Hannover U",2014,1755.25,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","10.3390/s141121889",TRUE,25414968,"PMC4279567",NA,NA,"ut:000345562800104",TRUE,NA
 "Hannover U",2014,779.89,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","10.3390/su6020836",TRUE,NA,NA,NA,NA,"ut:000332123100021",TRUE,NA
 "Bielefeld U",2012,493,"MDPI AG","Symmetry","2073-8994",NA,"2073-8994","10.3390/sym4040566",TRUE,NA,NA,"http://pub.uni-bielefeld.de/","2531176","ut:000208832800001",TRUE,NA
 "Bielefeld U",2012,493,"MDPI AG","Symmetry","2073-8994",NA,"2073-8994","10.3390/sym4040581",TRUE,NA,NA,"http://pub.uni-bielefeld.de/","2541297","ut:000208832800002",TRUE,NA
 "Hannover U",2013,1157.95,"MDPI AG","Viruses","1999-4915",NA,"1999-4915","10.3390/v5102512",TRUE,24113719,"PMC3814600",NA,NA,"ut:000328626400010",TRUE,NA
-"GFZ-Potsdam",2014,882.98,"MDPI AG","Water","2073-4441",NA,"2073-4441","10.3390/w6082367",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de",NA,"ut:000341100400012",TRUE,NA
+"GFZ-Potsdam",2014,882.98,"MDPI AG","Water","2073-4441",NA,"2073-4441","10.3390/w6082367",TRUE,NA,NA,"gfzpublic.gfz-potsdam.de","565888","ut:000341100400012",TRUE,NA
 "Hannover U",2014,990.51,"MDPI AG","Water","2073-4441",NA,"2073-4441","10.3390/w6123807",TRUE,NA,NA,NA,NA,"Ut:000346794400020",TRUE,NA
-"KIT",2013,313.57,"MDPI AG","Algorithms","1999-4893",NA,"1999-4893",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1157.39,"MDPI AG","Energies","1996-1073",NA,"1996-1073",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,313.61,"MDPI AG","Future Internet","1999-5903",NA,"1999-5903",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,413.55,"MDPI AG","Pharmaceuticals","1424-8247",NA,"1424-8247",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,416.45,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2013,313.57,"MDPI AG","Algorithms","1999-4893",NA,"1999-4893",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1157.39,"MDPI AG","Energies","1996-1073",NA,"1996-1073",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,313.61,"MDPI AG","Future Internet","1999-5903",NA,"1999-5903",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,413.55,"MDPI AG","Pharmaceuticals","1424-8247",NA,"1424-8247",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,416.45,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Regensburg U",2013,318.01,"Medknow","Surgical Neurology International","2152-7806","2152-7806",NA,"10.4103/2152-7806.114811",TRUE,23956931,"PMC3740614","http://epub.uni-regensburg.de/","28821",NA,TRUE,NA
 "Leipzig U",2014,379.49,"Medknow","Surgical Neurology International","2152-7806","2152-7806",NA,"10.4103/2152-7806.146346",TRUE,25593757,"PMC4287919",NA,NA,NA,TRUE,NA
 "Leipzig U",2014,1999.2,"Nature Publishing Group","Cell Death and Disease","2041-4889",NA,"2041-4889","10.1038/cddis.2014.25",TRUE,24625978,"PMC3973247",NA,NA,"ut:000333754100023",TRUE,NA
 "Duisburg-Essen U",2014,990,"Nature Publishing Group","Modern Pathology","0893-3952;1530-0285","0893-3952","1530-0285","10.1038/modpathol.2013.168",TRUE,24030750,NA,NA,NA,"ut:000334014200002",FALSE,NA
-"GFZ-Potsdam",2014,2023,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","10.1038/ncomms5014",TRUE,24905463,"PMC4059923","gfzpublic.gfz-potsdam.de",NA,"ut:000338836500002",FALSE,NA
-"GFZ-Potsdam",2014,4403,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","10.1038/ncomms5166",TRUE,24946791,"PMC4279185","gfzpublic.gfz-potsdam.de",NA,"ut:000338838500022",FALSE,NA
+"GFZ-Potsdam",2014,2023,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","10.1038/ncomms5014",TRUE,24905463,"PMC4059923","gfzpublic.gfz-potsdam.de","440888","ut:000338836500002",FALSE,NA
+"GFZ-Potsdam",2014,4403,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","10.1038/ncomms5166",TRUE,24946791,"PMC4279185","gfzpublic.gfz-potsdam.de","510922","ut:000338838500022",FALSE,NA
 "FZJ - ZB",2014,3700,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","10.1038/ncomms6568",TRUE,25424490,"PMC4263323","https://juser.fz-juelich.de/","186486","ut:000345914100003",FALSE,NA
 "Bielefeld U",2012,1046,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep00659",TRUE,22997548,"PMC3447382","http://pub.uni-bielefeld.de/","2541275","ut:000309061000001",TRUE,NA
 "Regensburg U",2012,1244.74,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep00942",TRUE,23267431,"PMC3521080","http://epub.uni-regensburg.de/","27517","ut:000312273400001",TRUE,NA
 "Konstanz U",2013,1244.74,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep01072",TRUE,23330062,"PMC3547320",NA,NA,"ut:000313651000001",TRUE,NA
-"GFZ-Potsdam",2013,1244.74,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep02682",TRUE,24045328,"PMC3775310","gfzpublic.gfz-potsdam.de",NA,"ut:000324459900004",TRUE,NA
-"GFZ-Potsdam",2014,1244.74,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep03886",TRUE,24469260,"PMC3904149","gfzpublic.gfz-potsdam.de",NA,"ut:000331151900001",TRUE,NA
+"GFZ-Potsdam",2013,1244.74,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep02682",TRUE,24045328,"PMC3775310","gfzpublic.gfz-potsdam.de","248055","ut:000324459900004",TRUE,NA
+"GFZ-Potsdam",2014,1244.74,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep03886",TRUE,24469260,"PMC3904149","gfzpublic.gfz-potsdam.de","322050","ut:000331151900001",TRUE,NA
 "Bielefeld U",2014,1244.74,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep05304",TRUE,24931735,"PMC4058873","http://pub.uni-bielefeld.de/","2681893","ut:000337341400001",TRUE,NA
 "Duisburg-Essen U",2014,1245,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","10.1038/srep06003",TRUE,25132493,"PMC4135328",NA,NA,"ut:000340711700001",TRUE,NA
-"KIT",2013,2856,"Nature Publishing Group","Cell Death and Disease","2041-4889",NA,"2041-4889",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,3570,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1046,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2013,2856,"Nature Publishing Group","Cell Death and Disease","2041-4889",NA,"2041-4889",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,3570,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1046,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Bielefeld U",2014,879.67,"OMICS Publishing Group","Journal of Biotechnology & Biomaterials","2155952X",NA,"2155952X","10.4172/2155-952X.1000167",TRUE,NA,NA,"http://pub.uni-bielefeld.de/","2704479",NA,FALSE,NA
 "Regensburg U",2012,2084.16,"OMICS Publishing Group","Journal of Neurology & Neurophysiology","21559562",NA,"21559562","10.4172/2155-9562.1000124",TRUE,NA,NA,"http://epub.uni-regensburg.de/","23746",NA,FALSE,NA
 "Hannover U",2014,1142.84,"OMICS Publishing Group","Journal of Physical Chemistry & Biophysics","21610398",NA,"21610398","10.4172/2161-0398.1000156",TRUE,NA,NA,NA,NA,NA,FALSE,NA
 "Regensburg U",2012,723.28,"OMICS Publishing Group","Journal of Physical Chemistry & Biophysics",NA,NA,NA,"10.4172/2161-0398.S1-001",FALSE,NA,NA,"http://epub.uni-regensburg.de/","29508",NA,FALSE,NA
-"KIT",2012,2038.23,"OMICS Publishing Group","Journal of Bioprocessing & Biotechniques","21559821",NA,"21559821",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2012,2038.23,"OMICS Publishing Group","Journal of Bioprocessing & Biotechniques","21559821",NA,"21559821",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Hannover U",2014,1209.28,"Optical Society of America (OSA)","Biomedical Optics Express","2156-7085;2156-7085","2156-7085","2156-7085","10.1364/BOE.5.002054",TRUE,NA,NA,NA,NA,"ut:000338929100006",TRUE,NA
 "Konstanz U",2012,1564.75,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","10.1364/OE.20.005955",TRUE,NA,NA,NA,NA,"ut:000301877700036",TRUE,NA
 "Konstanz U",2012,931.89,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","10.1364/OE.20.009698",TRUE,NA,NA,NA,NA,"ut:000303989300040",TRUE,NA
@@ -491,49 +491,49 @@
 "Hannover U",2014,1366.32,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","10.1364/OE.22.005234",TRUE,NA,NA,NA,NA,"ut:000333579200079",TRUE,NA
 "Hannover U",2014,1442.32,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","10.1364/OE.22.022905",TRUE,NA,NA,NA,NA,"ut:000342756500065",TRUE,NA
 "FZJ - ZB",2014,1381.86,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","10.1364/OE.22.0A1270",TRUE,NA,NA,"https://juser.fz-juelich.de/","154809","ut:000340717300007",TRUE,NA
-"KIT",2012,1349.3,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,920.1,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1631.03,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1598.92,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1598.92,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1731.01,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1355.63,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1350.64,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1598.68,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1652.26,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1713.01,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,2032.45,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1740.49,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,3731.09,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1710.27,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1434.51,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1417.3,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1869.21,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,805.54,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1645.68,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1350.64,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1358.15,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1354.19,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1344.56,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1653.11,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1656.29,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,970.32,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1675.61,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1675.61,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1627.01,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1625.67,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1623.83,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1593.2,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1817.12,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,2198.6,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1605.31,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1765.79,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1598.28,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,931.34,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1565.75,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1613.95,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,498.62,"Optical Society of America (OSA)","Optical Materials Express","2159-3930",NA,"2159-3930",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1280.7,"Optical Society of America (OSA)","Optical Materials Express","2159-3930",NA,"2159-3930",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2012,1349.3,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,920.1,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1631.03,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1598.92,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1598.92,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1731.01,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1355.63,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1350.64,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1598.68,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1652.26,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1713.01,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,2032.45,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1740.49,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,3731.09,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1710.27,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1434.51,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1417.3,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1869.21,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,805.54,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1645.68,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1350.64,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1358.15,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1354.19,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1344.56,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1653.11,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1656.29,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,970.32,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1675.61,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1675.61,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1627.01,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1625.67,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1623.83,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1593.2,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1817.12,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,2198.6,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1605.31,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1765.79,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1598.28,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,931.34,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1565.75,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1613.95,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,498.62,"Optical Society of America (OSA)","Optical Materials Express","2159-3930",NA,"2159-3930",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1280.7,"Optical Society of America (OSA)","Optical Materials Express","2159-3930",NA,"2159-3930",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Konstanz U",2012,1225.7,"Oxford University Press (OUP)","Genome Biology and Evolution","1759-6653",NA,"1759-6653","10.1093/gbe/evs069",TRUE,22887124,"PMC3516227",NA,NA,"ut:000313212900004",TRUE,NA
 "Konstanz U",2013,1225.7,"Oxford University Press (OUP)","Genome Biology and Evolution","1759-6653",NA,"1759-6653","10.1093/gbe/evt104",TRUE,23843192,"PMC3762194",NA,NA,"ut:000324595000004",TRUE,NA
 "Leipzig U",2014,1740.97,"Oxford University Press (OUP)","Genome Biology and Evolution","1759-6653",NA,"1759-6653","10.1093/gbe/evu193",TRUE,25193307,"PMC4202329",NA,NA,"ut:000343249300017",TRUE,NA
@@ -545,12 +545,12 @@
 "Regensburg U",2013,1267.35,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962","10.1093/nar/gkt891",TRUE,24106087,"PMC3874202","http://epub.uni-regensburg.de/","29516","ut:000331136000002",TRUE,NA
 "Duisburg-Essen U",2014,1982,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962","10.1093/nar/gku298",TRUE,24748665,"PMC4041464",NA,NA,"ut:000338768100029",TRUE,NA
 "Leipzig U",2014,1774.29,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962","10.1093/nar/gku696",TRUE,25106871,"PMC4176359",NA,NA,"ut:000344647700017",TRUE,NA
-"KIT",2013,2534.7,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2013,2534.7,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Regensburg U",2012,119,"PAGEPress Publications","Clinics and Practice","2039-7283;2039-7275","2039-7275","2039-7283","10.4081/cp.2012.e64",TRUE,24765463,"PMC3981316","http://epub.uni-regensburg.de/","25836",NA,TRUE,NA
 "Konstanz U",2013,523.6,"Pensoft Publishers","NeoBiota","1314-2488;1619-0033","1619-0033","1314-2488","10.3897/neobiota.16.4351",TRUE,NA,NA,NA,NA,NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
 "Regensburg U",2013,357,"Pensoft Publishers","ZooKeys","1313-2970;1313-2989","1313-2989","1313-2970","10.3897/zookeys.301.4913",TRUE,23794892,"PMC3689134","http://epub.uni-regensburg.de/","28830","ut:000319038300002",TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"Bamberg U",2013,405.79,"Pion Ltd","i-Perception","2041-6695",NA,"2041-6695","10.1068/i0605",TRUE,24349703,"PMC3859561","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000336567400008",TRUE,NA
-"Bamberg U",2014,380.74,"Pion Ltd","i-Perception","2041-6695",NA,"2041-6695","10.1068/i0664",TRUE,NA,NA," ",NA,"ut:000345832400004",TRUE,NA
+"Bamberg U",2013,405.79,"Pion Ltd","i-Perception","2041-6695",NA,"2041-6695","10.1068/i0605",TRUE,24349703,"PMC3859561","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21332","ut:000336567400008",TRUE,NA
+"Bamberg U",2014,380.74,"Pion Ltd","i-Perception","2041-6695",NA,"2041-6695","10.1068/i0664",TRUE,NA,NA," ","19825","ut:000345832400004",TRUE,NA
 "Hannover U",2013,930,"Portland Press Ltd.","Bioscience Reports","0144-8463;1573-4935","0144-8463","1573-4935","10.1042/BSR20130051",TRUE,NA,NA,NA,NA,"ut:000324032600004",TRUE,NA
 "MPG",2013,2597.2,"Public Library of Science (PLoS)","PLoS Biology","1545-7885",NA,"1545-7885","10.1371/journal.pbio.1001505",TRUE,23554573,"PMC3595218",NA,NA,"ut:000316794600006",TRUE,NA
 "MPG",2013,2593.6,"Public Library of Science (PLoS)","PLoS Biology","1545-7885",NA,"1545-7885","10.1371/journal.pbio.1001577",TRUE,23762018,"PMC3676292",NA,NA,"ut:000321042900005",TRUE,NA
@@ -799,7 +799,7 @@
 "MPG",2013,1146.23,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0077876",TRUE,24205009,"PMC3813749",NA,NA,"ut:000326334500071",TRUE,NA
 "MPG",2013,1146.23,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0077886",TRUE,24223739,"PMC3815207",NA,NA,"ut:000326499300013",TRUE,NA
 "MPG",2013,1146.23,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078007",TRUE,24223750,"PMC3817170",NA,NA,"ut:000326503400027",TRUE,NA
-"GFZ-Potsdam",2013,1190,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078080",TRUE,24223762,"PMC3817176","gfzpublic.gfz-potsdam.de",NA,"ut:000326503400033",TRUE,NA
+"GFZ-Potsdam",2013,1190,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078080",TRUE,24223762,"PMC3817176","gfzpublic.gfz-potsdam.de","272244","ut:000326503400033",TRUE,NA
 "MPG",2013,1146.23,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078273",TRUE,24260108,"PMC3832628",NA,NA,"ut:000327216200018",TRUE,NA
 "MPG",2013,1146.23,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078384",TRUE,24205218,"PMC3813627",NA,NA,"ut:000326334500114",TRUE,NA
 "MPG",2013,1146.23,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078433",TRUE,24223805,"PMC3818331",NA,NA,"ut:000326597400027",TRUE,NA
@@ -809,7 +809,7 @@
 "MPG",2013,1146.23,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078781",TRUE,24244359,"PMC3828321",NA,NA,"ut:000327143800017",TRUE,NA
 "Regensburg U",2013,1069.81,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078935",TRUE,24223867,"PMC3815307","http://epub.uni-regensburg.de/","29103","ut:000326499300044",TRUE,NA
 "MPG",2013,1146.23,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0078966",TRUE,24236077,"PMC3827306",NA,NA,"ut:000327254700074",TRUE,NA
-"Bamberg U",2013,1019.3,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0079164",TRUE,24116236,"PMC3792936","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000325552200121",TRUE,NA
+"Bamberg U",2013,1019.3,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0079164",TRUE,24116236,"PMC3792936","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","20253","ut:000325552200121",TRUE,NA
 "MPG",2013,1150.8,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0079406",TRUE,24223943,"PMC3815139",NA,NA,"ut:000326499300082",TRUE,NA
 "Regensburg U",2013,1197.27,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0079450",TRUE,24348902,"PMC3865338","http://epub.uni-regensburg.de/","28978","ut:000326597400066",TRUE,NA
 "MPG",2013,1150.8,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0079487",TRUE,24236139,"PMC3827366",NA,NA,"ut:000327254700138",TRUE,NA
@@ -831,7 +831,7 @@
 "MPG",2013,1130.07,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0082605",TRUE,24312664,"PMC3846789",NA,NA,"ut:000327944500139",TRUE,NA
 "Regensburg U",2013,1173.13,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0082780",TRUE,24324830,"PMC3855771","http://epub.uni-regensburg.de/","29539","ut:000328566700109",TRUE,NA
 "MPG",2013,1130.07,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0083218",TRUE,24349465,"PMC3861491",NA,NA,NA,TRUE,NA
-"Bamberg U",2013,1022.78,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0083277",TRUE,24349479,"PMC3857299","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000328705200128",TRUE,NA
+"Bamberg U",2013,1022.78,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0083277",TRUE,24349479,"PMC3857299","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21208","ut:000328705200128",TRUE,NA
 "Konstanz U",2013,1210.44,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0083452",TRUE,24376703,"PMC3871553",NA,NA,"ut:000328882000088",TRUE,NA
 "MPG",2013,1130.07,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0083570",TRUE,24349531,"PMC3861515",NA,NA,"ut:000328731800128",TRUE,NA
 "MPG",2013,1130.07,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0083840",TRUE,24376765,"PMC3871594",NA,NA,"ut:000328882000125",TRUE,NA
@@ -847,7 +847,7 @@
 "Duisburg-Essen U",2013,1016,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084562",TRUE,24400100,"PMC3882245",NA,NA,"ut:000329462700034",TRUE,NA
 "MPG",2013,1130.07,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084592",TRUE,24386398,"PMC3875559",NA,NA,"ut:000329194700113",TRUE,NA
 "Bielefeld U",2013,1069,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084662",TRUE,24367689,"PMC3867509","http://pub.uni-bielefeld.de/","2648205","ut:000328740300155",TRUE,NA
-"GFZ-Potsdam",2013,1181.67,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084761",TRUE,24416279,"PMC3885591","gfzpublic.gfz-potsdam.de",NA,"ut:000329862500162",TRUE,NA
+"GFZ-Potsdam",2013,1181.67,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084761",TRUE,24416279,"PMC3885591","gfzpublic.gfz-potsdam.de","309866","ut:000329862500162",TRUE,NA
 "Regensburg U",2013,1173.13,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084911",TRUE,24367700,"PMC3867544","http://epub.uni-regensburg.de/","29531","ut:000328740300158",TRUE,NA
 "MPG",2013,1130.07,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084914",TRUE,24454765,"PMC3893168",NA,NA,"ut:000330235100042",TRUE,NA
 "Duisburg-Essen U",2014,994,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0085350",TRUE,24465542,"PMC3897440",NA,NA,"ut:000330244500058",TRUE,NA
@@ -920,32 +920,32 @@
 "Duisburg-Essen U",2013,1657,"Public Library of Science (PLoS)","PLoS Pathogens","1553-7374",NA,"1553-7374","10.1371/journal.ppat.1003856",TRUE,24391505,"PMC3879364",NA,NA,"ut:000332640900009",TRUE,NA
 "MPG",2013,1883.45,"Public Library of Science (PLoS)","PLoS Pathogens","1553-7374",NA,"1553-7374","10.1371/journal.ppat.1003866",TRUE,24992561,"PMC4081774",NA,NA,"ut:000340551000001",TRUE,NA
 "MPG",2013,1883.45,"Public Library of Science (PLoS)","PLoS Pathogens","1553-7374",NA,"1553-7374","10.1371/journal.ppat.1003881",TRUE,24453973,"PMC3894212",NA,NA,"ut:000332640900046",TRUE,NA
-"KIT",2012,1950.98,"Public Library of Science (PLoS)","PLoS Genetics","1553-7404",NA,"1553-7404",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,2003.26,"Public Library of Science (PLoS)","PLoS Genetics","1553-7404",NA,"1553-7404",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1273.7,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1244.01,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1289.39,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1303.16,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1326.49,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1088.54,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1042.43,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1051.67,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1070,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1041.4,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1267.6,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1262.17,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1247.69,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1221.62,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1202.05,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1205.05,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1210.12,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1177.58,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1186.3,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2012,1950.98,"Public Library of Science (PLoS)","PLoS Genetics","1553-7404",NA,"1553-7404",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,2003.26,"Public Library of Science (PLoS)","PLoS Genetics","1553-7404",NA,"1553-7404",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1273.7,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1244.01,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1289.39,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1303.16,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1326.49,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1088.54,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1042.43,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1051.67,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1070,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1041.4,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1267.6,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1262.17,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1247.69,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1221.62,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1202.05,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1205.05,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1210.12,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1177.58,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1186.3,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Leipzig U",2014,1130.5,"S. Karger AG","Obesity Facts","1662-4033;1662-4025","1662-4025","1662-4033","10.1159/000365793",TRUE,25059420,NA,NA,NA,"ut:000341585100002",TRUE,NA
 "Hannover U",2014,1568,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,"10.1127/0941-2948/2014/0577",TRUE,NA,NA,NA,NA,"ut:000344214400005",FALSE,NA
 "Hannover U",2014,1568,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,"10.1127/metz/2014/0615",TRUE,NA,NA,NA,NA,"ut:000348600900006",FALSE,NA
 "Duisburg-Essen U",2013,243,"Sciedu Press","International Journal of Financial Research","1923-4031;1923-4023","1923-4023","1923-4031","10.5430/ijfr.v4n4p11",TRUE,NA,NA,NA,NA,NA,TRUE,NA
-"Bamberg U",2013,229.61,"Sciedu Press","International Journal of Higher Education","1927-6052;1927-6044","1927-6044","1927-6052","10.5430/ijhe.v2n4p214",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,NA,TRUE,NA
+"Bamberg U",2013,229.61,"Sciedu Press","International Journal of Higher Education","1927-6052;1927-6044","1927-6044","1927-6052","10.5430/ijhe.v2n4p214",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21597",NA,TRUE,NA
 "Hannover U",2013,533.8,"Scientific Research Publishing, Inc,","International Journal of Geosciences","2156-8359;2156-8367","2156-8359","2156-8367","10.4236/ijg.2013.44061",TRUE,NA,NA,NA,NA,NA,TRUE,NA
 "Regensburg U",2013,383.11,"Scientific Research Publishing, Inc,","Journal of Analytical Sciences, Methods and Instrumentation","2164-2745;2164-2753","2164-2745","2164-2753","10.4236/jasmi.2013.34030",TRUE,NA,NA,"http://epub.uni-regensburg.de/","29507",NA,TRUE,NA
 "TU Clausthal",2013,459.75,"Scientific Research Publishing, Inc,","Journal of Computer and Communications","2327-5219;2327-5227","2327-5219","2327-5227","10.4236/jcc.2013.15006",TRUE,NA,NA,"https://dokumente.ub.tu-clausthal.de/","clausthal_mods_00000053",NA,FALSE,NA
@@ -953,8 +953,8 @@
 "Konstanz U",2013,385.39,"Scientific Research Publishing, Inc,","Open Journal of Apoptosis","2168-3832;2168-3840","2168-3832","2168-3840","10.4236/ojapo.2013.23004",TRUE,NA,NA,NA,NA,NA,FALSE,NA
 "Konstanz U",2013,385.39,"Scientific Research Publishing, Inc,","Open Journal of Modern Linguistics","2164-2818;2164-2834","2164-2818","2164-2834","10.4236/ojml.2014.41002",TRUE,NA,NA,NA,NA,NA,TRUE,NA
 "FZJ - ZB",2014,753.67,"Scientific Research Publishing, Inc,","World Journal of Neuroscience","2162-2000;2162-2019","2162-2000","2162-2019","10.4236/wjns.2014.44040",TRUE,NA,NA,"https://juser.fz-juelich.de/","155302",NA,TRUE,NA
-"KIT",2012,675.17,"Scientific Research Publishing, Inc,","Journal of Modern Physics","2153-1196;2153-120X","2153-1196","2153-120X",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,718.54,"Scientific Research Publishing, Inc,","Smart Grid and Renewable Energy","2151-481X;2151-4844","2151-481X","2151-4844",NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2012,675.17,"Scientific Research Publishing, Inc,","Journal of Modern Physics","2153-1196;2153-120X","2153-1196","2153-120X",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,718.54,"Scientific Research Publishing, Inc,","Smart Grid and Renewable Energy","2151-481X;2151-4844","2151-481X","2151-4844",NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Duisburg-Essen U",2013,540,"Springer Science + Business Media","Journal of Inequalities and Applications","1029-242X","1029-242X",NA,"10.1186/1029-242X-2013-168",TRUE,NA,NA,NA,NA,"ut:000319453600001",TRUE,NA
 "Duisburg-Essen U",2013,1000,"Springer Science + Business Media","The Journal of Headache and Pain","1129-2377","1129-2377",NA,"10.1186/1129-2377-14-40",TRUE,23651174,"PMC3655106",NA,NA,"ut:000319287300001",TRUE,NA
 "Duisburg-Essen U",2013,1000,"Springer Science + Business Media","The Journal of Headache and Pain","1129-2377","1129-2377",NA,"10.1186/1129-2377-14-52",TRUE,23782952,"PMC3691823",NA,NA,"ut:000325180500001",TRUE,NA
@@ -1088,7 +1088,7 @@
 "MPG",2011,1225.73,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,"10.1186/1471-2202-12-93",TRUE,21943192,"PMC3217851",NA,NA,"ut:000297057700001",TRUE,NA
 "MPG",2011,1239.55,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,"10.1186/1471-2202-13-1",TRUE,22214384,"PMC3320525",NA,NA,"ut:000302360200001",TRUE,NA
 "Regensburg U",2012,1056,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,"10.1186/1471-2202-13-36",TRUE,22458914,"PMC3338087","http://epub.uni-regensburg.de/","23791","ut:000303330300001",TRUE,NA
-"Bamberg U",2013,2010,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,"10.1186/1471-2202-14-154",TRUE,24330622,"PMC4028813","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000329428800001",TRUE,NA
+"Bamberg U",2013,2010,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,"10.1186/1471-2202-14-154",TRUE,24330622,"PMC4028813","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21585","ut:000329428800001",TRUE,NA
 "MPG",2013,1396.22,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,"10.1186/1471-2202-15-38",TRUE,24618040,"PMC3975265",NA,NA,"ut:000334945400001",TRUE,NA
 "MPG",2010,1267.2,"Springer Science + Business Media","BMC Plant Biology","1471-2229","1471-2229",NA,"10.1186/1471-2229-10-271",TRUE,21143910,"PMC3012049",NA,NA,"ut:000285722600001",TRUE,NA
 "MPG",2010,1244.16,"Springer Science + Business Media","BMC Plant Biology","1471-2229","1471-2229",NA,"10.1186/1471-2229-10-285",TRUE,21176196,"PMC3023791",NA,NA,"ut:000286511300001",TRUE,NA
@@ -1407,14 +1407,14 @@
 "Leipzig U",2014,1594.6,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,"1471-2105","10.1186/s12859-014-0404-0",TRUE,NA,NA,NA,NA,"ut:000348472800001",TRUE,NA
 "Leipzig U",2014,1513.68,"Springer Science + Business Media","BMC Genetics","1471-2156",NA,"1471-2156","10.1186/s12863-014-0088-5",TRUE,25112433,"PMC4236550",NA,NA,"ut:000341112100001",TRUE,NA
 "Bielefeld U",2014,1280,"Springer Science + Business Media","BMC Plant Biology","1471-2229","1471-2229",NA,"10.1186/s12870-014-0249-8",TRUE,25249410,"PMC4180131","http://pub.uni-bielefeld.de/","2696778","ut:000342380900001",TRUE,NA
-"Bamberg U",2014,1890,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","10.1186/s12883-014-0229-5",TRUE,NA,NA," ",NA,NA,TRUE,NA
+"Bamberg U",2014,1890,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","10.1186/s12883-014-0229-5",TRUE,NA,NA," ","21293",NA,TRUE,NA
 "Bielefeld U",2014,1280,"Springer Science + Business Media","BMC Psychiatry","1471-244X","1471-244X",NA,"10.1186/s12888-014-0255-2",TRUE,25214199,"PMC4172827","http://pub.uni-bielefeld.de/","2701494","ut:000342031700001",TRUE,NA
 "Leipzig U",2014,1594.6,"Springer Science + Business Media","BMC Psychiatry","1471-244X",NA,"1471-244X","10.1186/s12888-014-0368-7",TRUE,25599722,"PMC4299476",NA,NA,"ut:000348156900001",TRUE,NA
 "Leipzig U",2014,1594.6,"Springer Science + Business Media","BMC Biotechnology","1472-6750",NA,"1472-6750","10.1186/s12896-014-0109-5",TRUE,NA,NA,NA,NA,NA,TRUE,NA
 "Leipzig U",2014,1523.2,"Springer Science + Business Media","BMC Veterinary Research","1746-6148",NA,"1746-6148","10.1186/s12917-014-0300-x",TRUE,NA,NA,NA,NA,"ut:000347015700001",TRUE,NA
 "Leipzig U",2014,1594.6,"Springer Science + Business Media","BMC Systems Biology","1752-0509",NA,"1752-0509","10.1186/s12918-014-0138-7",TRUE,25539928,"PMC4302124",NA,NA,NA,TRUE,NA
 "Leipzig U",2014,1513.68,"Springer Science + Business Media","Health and Quality of Life Outcomes","1477-7525",NA,"1477-7525","10.1186/s12955-014-0105-4",TRUE,25213736,"PMC4172837",NA,NA,"ut:000342016300001",TRUE,NA
-"Bamberg U",2014,1920,"Springer Science + Business Media","Health and Quality of Life Outcomes","1477-7525","1477-7525",NA,"10.1186/s12955-014-0181-5",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/",NA,"ut:000347426000001",TRUE,NA
+"Bamberg U",2014,1920,"Springer Science + Business Media","Health and Quality of Life Outcomes","1477-7525","1477-7525",NA,"10.1186/s12955-014-0181-5",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21400","ut:000347426000001",TRUE,NA
 "Leipzig U",2014,1470.84,"Springer Science + Business Media","Patient Safety in Surgery","1754-9493","1754-9493",NA,"10.1186/s13037-014-0036-3",TRUE,25187791,"PMC4152761",NA,NA,NA,TRUE,NA
 "Duisburg-Essen U",2014,1128,"Springer Science + Business Media","Journal of Cheminformatics","1758-2946","1758-2946",NA,"10.1186/s13321-014-0045-3",TRUE,25383098,"PMC4212157",NA,NA,"ut:000346445700001",TRUE,NA
 "Leipzig U",2014,1850.45,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,"10.1186/s13568-014-0044-9",TRUE,25405080,"PMC4231364",NA,NA,NA,TRUE,NA
@@ -1424,36 +1424,36 @@
 "Konstanz U",2013,499.13,"Springer Science + Business Media","Standards in Genomic Sciences","1944-3277",NA,"1944-3277","10.4056/sigs.3847890",TRUE,23991256,"PMC3746432",NA,NA,"ut:000323326900008",TRUE,NA
 "FZJ - ZB",2014,1505,"Springer Science + Business Media","Plant Methods","1746-4811",NA,"1746-4811","10.1186/s13007-015-0052-z",TRUE,NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE,NA
 "FZJ - ZB",2014,1204,"Springer Science + Business Media","Plant Methods","1746-4811",NA,"1746-4811","10.1186/s13007-015-0043-0",TRUE,NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE,NA
-"FZJ - ZB",2014,1675,"Springer Science + Business Media","BMC Cell Biology",NA,NA,NA,NA,FALSE,NA,NA,"https://juser.fz-juelich.de/",NA,NA,TRUE,NA
-"KIT",2013,1470.84,"Springer Science + Business Media","BMC Evolutionary Biology","1471-2148","1471-2148",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1442.28,"Springer Science + Business Media","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1462.32,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1494.64,"Springer Science + Business Media","BMC Cancer","1471-2407","1471-2407",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1489.88,"Springer Science + Business Media","BMC Biotechnology","1472-6750","1472-6750",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1535.1,"Springer Science + Business Media","Microbial Cell Factories","1475-2859","1475-2859",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1558.9,"Springer Science + Business Media","Microbial Cell Factories","1475-2859","1475-2859",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,952,"Springer Science + Business Media","Nanoscale Research Letters","1556-276X","1556-276X",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,952,"Springer Science + Business Media","Biointerphases","1559-4106","1559-4106",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,952,"Springer Science + Business Media","Biointerphases","1559-4106","1559-4106",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1190,"Springer Science + Business Media","EURASIP Journal on Wireless Communications and Networking","1687-1499","1687-1499",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1779.05,"Springer Science + Business Media","EURASIP Journal on Wireless Communications and Networking","1687-1499","1687-1499",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1850.45,"Springer Science + Business Media","Neural Development","1749-8104","1749-8104",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1527.96,"Springer Science + Business Media","Neural Development","1749-8104","1749-8104",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1749.3,"Springer Science + Business Media","BMC Biophysics","2046-1682","2046-1682",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,761.6,"Springer Science + Business Media","Environmental Sciences Europe","2190-4715","2190-4715",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1785,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1785,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,1785,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,1785,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,952,"Springer Science + Business Media","Energy, Sustainability and Society","2192-0567","2192-0567",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2012,952,"Springer Science + Business Media","Energy, Sustainability and Society","2192-0567","2192-0567",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,799.68,"Springer Science + Business Media","Energy, Sustainability and Society","2192-0567","2192-0567",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
-"KIT",2013,749.7,"Springer Science + Business Media","Journal of Cloud Computing: Advances, Systems and Applications","2192-113X","2192-113X",NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"FZJ - ZB",2014,1675,"Springer Science + Business Media","BMC Cell Biology",NA,NA,NA,NA,FALSE,NA,NA,"https://juser.fz-juelich.de/","20362",NA,TRUE,NA
+"KIT",2013,1470.84,"Springer Science + Business Media","BMC Evolutionary Biology","1471-2148","1471-2148",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1442.28,"Springer Science + Business Media","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1462.32,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1494.64,"Springer Science + Business Media","BMC Cancer","1471-2407","1471-2407",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1489.88,"Springer Science + Business Media","BMC Biotechnology","1472-6750","1472-6750",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1535.1,"Springer Science + Business Media","Microbial Cell Factories","1475-2859","1475-2859",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1558.9,"Springer Science + Business Media","Microbial Cell Factories","1475-2859","1475-2859",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,952,"Springer Science + Business Media","Nanoscale Research Letters","1556-276X","1556-276X",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,952,"Springer Science + Business Media","Biointerphases","1559-4106","1559-4106",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,952,"Springer Science + Business Media","Biointerphases","1559-4106","1559-4106",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1190,"Springer Science + Business Media","EURASIP Journal on Wireless Communications and Networking","1687-1499","1687-1499",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1779.05,"Springer Science + Business Media","EURASIP Journal on Wireless Communications and Networking","1687-1499","1687-1499",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1850.45,"Springer Science + Business Media","Neural Development","1749-8104","1749-8104",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1527.96,"Springer Science + Business Media","Neural Development","1749-8104","1749-8104",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1749.3,"Springer Science + Business Media","BMC Biophysics","2046-1682","2046-1682",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,761.6,"Springer Science + Business Media","Environmental Sciences Europe","2190-4715","2190-4715",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1785,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1785,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,1785,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,1785,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,952,"Springer Science + Business Media","Energy, Sustainability and Society","2192-0567","2192-0567",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2012,952,"Springer Science + Business Media","Energy, Sustainability and Society","2192-0567","2192-0567",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,799.68,"Springer Science + Business Media","Energy, Sustainability and Society","2192-0567","2192-0567",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
+"KIT",2013,749.7,"Springer Science + Business Media","Journal of Cloud Computing: Advances, Systems and Applications","2192-113X","2192-113X",NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "FZJ - ZB",2014,375,"Taylor & Francis","Materials Research Letters",NA,NA,NA,"10.1080/21663831.2014.95149",FALSE,NA,NA,"https://juser.fz-juelich.de/",NA,NA,FALSE,NA
 "Regensburg U",2013,1239.47,"The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)","Molecular Medicine","1076-1551;1528-3658","1076-1551","1528-3658","10.2119/molmed.2013.00027",TRUE,23887691,"PMC3769531","http://epub.uni-regensburg.de/","29512","ut:000328604700009",TRUE,NA
 "Duisburg-Essen U",2014,762,"Thieme Publishing Group","American Journal of Perinatology Reports","2157-6998;2157-7005","2157-6998","2157-7005","10.1055/s-0034-1368091",TRUE,25032054,"PMC4078105",NA,NA,NA,FALSE,NA
 "Leipzig U",2014,976.22,"Thieme Publishing Group","American Journal of Perinatology Reports","2157-6998;2157-7005","2157-6998","2157-7005","10.1055/s-0034-1390166",TRUE,25452889,"PMC4239140",NA,NA,NA,FALSE,NA
-"Duisburg-Essen U",2013,909,"Univ. of Buckingham Pr.","Hypothesis in the Life Sciences ","2042-8960",NA,NA,NA,FALSE,NA,NA,NA,NA,NA,FALSE,NA
+"Duisburg-Essen U",2013,909,"Univ. of Buckingham Pr.","Hypothesis in the Life Sciences ","2042-8960",NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,FALSE,NA
 "Regensburg U",2012,285.6,"Walter de Gruyter GmbH","Zeitschrift für Kristallographie - New Crystal Structures","1433-7266","1433-7266",NA,"10.1524/ncrs.2012.0173",TRUE,NA,NA,"http://epub.uni-regensburg.de/","25530","ut:000321004400040",FALSE,NA
 "MPG",2013,1447.83,"Wiley-Blackwell","Brain and Behavior","21623279",NA,NA,"10.1002/brb3.180",TRUE,24363971,"PMC3868173",NA,NA,"ut:000346972200009",TRUE,NA
 "Bielefeld U",2012,1333,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"10.1002/ece3.309",TRUE,22957192,"PMC3433994","http://pub.uni-bielefeld.de/","2521737","ut:000312448700012",TRUE,NA
@@ -1473,7 +1473,7 @@
 "Leipzig U",2014,1344.7,"Wiley-Blackwell","Physiological Reports","2051817X",NA,NA,"10.1002/phy2.269",TRUE,24760523,"PMC4002249",NA,NA,NA,TRUE,NA
 "FZJ - ZB",2014,1554,"Wiley-Blackwell","Microbial Biotechnology","17517915",NA,NA,"10.1111/1751-7915.12236",TRUE,25488698,NA,"https://juser.fz-juelich.de/","173351",NA,TRUE,NA
 "FZJ - ZB",2015,1554,"Wiley-Blackwell","Microbial Biotechnology","17517915",NA,NA,"10.1111/1751-7915.12237",TRUE,25488800,NA,"https://juser.fz-juelich.de/","186493",NA,TRUE,NA
-"KIT",2013,979,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA
+"KIT",2013,979,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,NA,TRUE,NA,NA,NA,"20362",NA,NA,NA
 "Duisburg-Essen U",2014,1710,"Elsevier BV","Results in Pharma Sciences","22112863","22112863",NA,"10.1016/j.rinphs.2014.04.001",TRUE,25756002,NA,NA,NA,NA,FALSE,"http://www.elsevier.com/tdm/userlicense/1.0/"
 "Duisburg-Essen U",2014,1080,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","10.1088/1367-2630/16/11/113035",TRUE,NA,NA,NA,NA,"ut:000346763400005",TRUE,NA
 "Duisburg-Essen U",2014,1803,"Wiley-Blackwell","Microbial Biotechnology","17517915",NA,NA,"10.1111/1751-7915.12188",TRUE,NA,NA,NA,NA,NA,FALSE,NA
@@ -1637,7 +1637,7 @@
 "Goettingen U",2013,491.62,"Academic Journals (Sapele, Nigeria/Nairobi, Kenya)","International Journal of Biodiversity and Conservation",NA,NA,NA,"10.5897/IJBC2013.0607",FALSE,NA,NA,NA,NA,NA,FALSE,NA
 "Goettingen U",2013,1542.24,"Springer Science + Business Media","BMC Genomics",NA,NA,NA,"1471-2164",FALSE,NA,NA,NA,NA,NA,TRUE,NA
 "Goettingen U",2013,1321.13,"IOP","New Journal of Physics",NA,NA,NA,"http://iopscience.iop.org/1367-2630/15/8/085024",FALSE,NA,NA,NA,NA,NA,FALSE,NA
-"Goettingen U",2013,1617.25,"Impact Journals LLC","OncoTarget",NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA,FALSE,NA
+"Goettingen U",2013,1617.25,"Impact Journals LLC","OncoTarget",NA,NA,NA,NA,FALSE,NA,NA,NA,"20362",NA,FALSE,NA
 "MPG",2014,662.4,"Frontiers Media SA","Frontiers in Cell and Developmental Biology","2296-634X",NA,"2296-634X","10.3389/fcell.2014.00005",TRUE,25364713,"PMC4207033",NA,NA,NA,FALSE,NA
 "MPG",2012,995.33,"Frontiers Media SA","Frontiers in Genetics","1664-8021",NA,"1664-8021","10.3389/fgene.2012.00115",TRUE,22754563,"PMC3384976",NA,NA,NA,TRUE,NA
 "MPG",2013,662.4,"Frontiers Media SA","Frontiers in Genetics","1664-8021",NA,"1664-8021","10.3389/fgene.2013.00031",TRUE,23516134,"PMC3601328",NA,NA,NA,TRUE,NA
@@ -1919,51 +1919,51 @@
 "MPG",2013,1105.92,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","10.3389/fpsyt.2013.00066",TRUE,23847554,"PMC3706988",NA,NA,NA,TRUE,NA
 "MPG",2013,1105.92,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","10.3389/fpsyt.2013.00080",TRUE,23966957,"PMC3736070",NA,NA,NA,TRUE,NA
 "MPG",2014,1105.92,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","10.3389/fpsyt.2013.00172",TRUE,24391603,"PMC3870301",NA,NA,NA,TRUE,NA
-"FU Berlin",2014,1400.83,"Cambridge University Press (CUP)","Journal of Nutritional Science","2048-6790",NA,"2048-6790","10.1017/jns.2014.13",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,NA,FALSE,NA
-"FU Berlin",2014,1176.59,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","10.1063/1.4862168",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,"ut:000331209400010",TRUE,NA
-"FU Berlin",2014,668.04,"American Mathematical Society (AMS)","Proceedings of the American Mathematical Society, Series B","2330-1511",NA,"2330-1511","10.1090/S2330-1511-2014-00017-1",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,NA,FALSE,NA
-"FU Berlin",2014,1585.08,"Wiley-Blackwell","Evolutionary Applications","17524571",NA,NA,"10.1111/eva.12184",TRUE,25469169,"PMC4211720","http://edocs.fu-berlin.de/",NA,"ut:000342756300005",FALSE,NA
-"FU Berlin",2014,1568,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,"10.1127/metz/2014/0609",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,"ut:000348600400004",FALSE,NA
-"FU Berlin",2014,1890,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,"10.1186/1471-2180-14-59",TRUE,24606756,"PMC4015679","http://edocs.fu-berlin.de/",NA,"ut:000335404200002",TRUE,NA
-"FU Berlin",2014,1660,"Springer Science + Business Media","BMC Family Practice","1471-2296","1471-2296",NA,"10.1186/1471-2296-15-157",TRUE,25241039,"PMC4262980","http://edocs.fu-berlin.de/",NA,"ut:000342510900001",TRUE,NA
-"FU Berlin",2014,2000,"Springer Science + Business Media","BMC Biology","1741-7007","1741-7007",NA,"10.1186/1741-7007-12-43",TRUE,24885555,"PMC4071339","http://edocs.fu-berlin.de/",NA,"ut:000338467300002",TRUE,NA
-"FU Berlin",2014,1957.55,"Springer Science + Business Media","BMC Veterinary Research","1746-6148","1746-6148",NA,"10.1186/1746-6148-10-163",TRUE,25030305,"PMC4108249","http://edocs.fu-berlin.de/",NA,"ut:000339406900001",TRUE,NA
-"FU Berlin",2014,1355,"Springer Science + Business Media","Parasites & Vectors","1756-3305","1756-3305",NA,"10.1186/1756-3305-7-34",TRUE,24438698,"PMC3896851","http://edocs.fu-berlin.de/",NA,"ut:000334640200001",TRUE,NA
-"FU Berlin",2014,720,"Springer Science + Business Media","Earth, Planets and Space","1880-5981","1880-5981",NA,"10.1186/1880-5981-66-112",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,"ut:000342424100001",FALSE,NA
-"FU Berlin",2014,1100.75,"Springer Science + Business Media","SpringerPlus","2193-1801","2193-1801",NA,"10.1186/2193-1801-3-343",TRUE,25061551,"PMC4108716","http://edocs.fu-berlin.de/",NA,NA,TRUE,NA
-"FU Berlin",2014,1850.45,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,"10.1186/s13568-014-0080-5",TRUE,25401079,"PMC4230810","http://edocs.fu-berlin.de/",NA,NA,TRUE,NA
-"FU Berlin",2014,226.99,"Springer Science + Business Media","Psychology of Well-Being: Theory, Research and Practice","2211-1522","2211-1522",NA,"10.1186/s13612-014-0014-7",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,NA,TRUE,NA
-"FU Berlin",2014,1960.98,"Public Library of Science (PLoS)","PLoS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","10.1371/journal.pntd.0002698",TRUE,24587460,"PMC3930511","http://edocs.fu-berlin.de/",NA,"ut:000332017500024",TRUE,NA
-"FU Berlin",2014,993.24,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084299",TRUE,24416212,"PMC3885567","http://edocs.fu-berlin.de/",NA,"ut:000329862500110",TRUE,NA
-"FU Berlin",2014,1176.59,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0085656",TRUE,24465637,"PMC3896405","http://edocs.fu-berlin.de/",NA,"ut:000330240500065",TRUE,NA
-"FU Berlin",2014,1176.59,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0086673",TRUE,24489764,"PMC3906056","http://edocs.fu-berlin.de/",NA,"ut:000330570000057",TRUE,NA
-"FU Berlin",2014,1177.01,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0087277",TRUE,24475262,"PMC3903628","http://edocs.fu-berlin.de/",NA,"ut:000330507300160",TRUE,NA
-"FU Berlin",2014,996.24,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0090311",TRUE,24587318,"PMC3938686","http://edocs.fu-berlin.de/",NA,"ut:000332396200164",TRUE,NA
-"FU Berlin",2014,1172.97,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0099065",TRUE,24897501,"PMC4045913","http://edocs.fu-berlin.de/",NA,"ut:000338430700111",TRUE,NA
-"FU Berlin",2014,1178.91,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0100358",TRUE,24950060,"PMC4065100","http://edocs.fu-berlin.de/",NA,"ut:000338276300068",TRUE,NA
-"FU Berlin",2014,997.27,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0104399",TRUE,25093839,"PMC4122453","http://edocs.fu-berlin.de/",NA,"ut:000341357200109",TRUE,NA
-"FU Berlin",2014,1029.02,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0107488",TRUE,25211029,"PMC4161419","http://edocs.fu-berlin.de/",NA,"ut:000341855900077",TRUE,NA
-"FU Berlin",2014,1202.47,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0108206",TRUE,25238153,"PMC4169587","http://edocs.fu-berlin.de/",NA,"ut:000342491600086",TRUE,NA
-"FU Berlin",2014,1270.47,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0110490",TRUE,25330315,"PMC4203803","http://edocs.fu-berlin.de/",NA,"ut:000343942100065",TRUE,NA
-"FU Berlin",2014,2000,"Public Library of Science (PLoS)","PLoS Pathogens","1553-7374",NA,"1553-7374","10.1371/journal.ppat.1004445",TRUE,25299705,"PMC4192597","http://edocs.fu-berlin.de/",NA,"ut:000344548800038",TRUE,NA
-"FU Berlin",2014,1500.23,"Society for Neuroscience","Journal of Neuroscience","0270-6474;1529-2401","0270-6474","1529-2401","10.1523/JNEUROSCI.1622-11.2011",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,"ut:000300535400025",FALSE,NA
-"FU Berlin",2014,1904,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00390",TRUE,24926247,"PMC4045244","http://edocs.fu-berlin.de/",NA,"ut:000339605700001",TRUE,NA
-"FU Berlin",2014,1142.4,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00886",TRUE,25414658,"PMC4222328","http://edocs.fu-berlin.de/",NA,"ut:000344223300001",TRUE,NA
-"FU Berlin",2014,1904,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00935",TRUE,25477807,"PMC4237054","http://edocs.fu-berlin.de/",NA,"ut:000345079300001",TRUE,NA
-"FU Berlin",2014,1142.4,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","10.3389/fphys.2014.00221",TRUE,25009499,"PMC4067758","http://edocs.fu-berlin.de/",NA,"ut:000347063000001",TRUE,NA
-"FU Berlin",2014,1280,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","10.3389/fpls.2014.00475",TRUE,25295044,"PMC4172000","http://edocs.fu-berlin.de/",NA,"ut:000343905800001",TRUE,NA
-"FU Berlin",2014,684.25,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.00080",TRUE,24575062,"PMC3921575","http://edocs.fu-berlin.de/",NA,"ut:000331283700001",TRUE,NA
-"FU Berlin",2014,1904,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.00728",TRUE,25071688,"PMC4092369","http://edocs.fu-berlin.de/",NA,"ut:000339007500001",TRUE,NA
-"FU Berlin",2014,575,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.01102",TRUE,25324808,"PMC4179646","http://edocs.fu-berlin.de/",NA,"ut:000342312000001",TRUE,NA
-"FU Berlin",2014,1142.4,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.01448",TRUE,25566129,"PMC4267422","http://edocs.fu-berlin.de/",NA,"ut:000347182500003",TRUE,NA
-"FU Berlin",2014,585.05,"MDPI AG","Energies","1996-1073",NA,"1996-1073","10.3390/en7063642",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,"ut:000338557600007",TRUE,NA
-"FU Berlin",2014,1568.77,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","10.3390/ijms150711799",TRUE,24995694,"PMC4139815","http://edocs.fu-berlin.de/",NA,"ut:000340038500039",TRUE,NA
-"FU Berlin",2014,1389,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs70100001",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,"ut:000348401900001",TRUE,NA
-"FU Berlin",2014,900,"Co-Action Publishing","Tellus A","1600-0870;0280-6495","0280-6495","1600-0870","10.3402/tellusa.v66.22830",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,"ut:000334589000001",TRUE,NA
-"FU Berlin",2014,437,"Scientific Research Publishing, Inc,","Advances in Pure Mathematics","2160-0368;2160-0384","2160-0368","2160-0384","10.4236/apm.2014.411070",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,NA,FALSE,NA
-"FU Berlin",2014,451.05,"Scientific Research Publishing, Inc,","Psychology","2152-7180;2152-7199","2152-7180","2152-7199","10.4236/psych.2014.51013",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,NA,FALSE,NA
-"FU Berlin",2014,1113.84,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-7753-2014",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
-"FU Berlin",2014,960,"Canadian Center of Science and Education","Journal of Educational and Developmental Psychology","1927-0534;1927-0526","1927-0526","1927-0534","10.5539/jedp.v4n1p128",TRUE,NA,NA,"http://edocs.fu-berlin.de/",NA,NA,TRUE,NA
+"FU Berlin",2014,1400.83,"Cambridge University Press (CUP)","Journal of Nutritional Science","2048-6790",NA,"2048-6790","10.1017/jns.2014.13",TRUE,NA,NA,"http://edocs.fu-berlin.de/","21332",NA,FALSE,NA
+"FU Berlin",2014,1176.59,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","10.1063/1.4862168",TRUE,NA,NA,"http://edocs.fu-berlin.de/","19825","ut:000331209400010",TRUE,NA
+"FU Berlin",2014,668.04,"American Mathematical Society (AMS)","Proceedings of the American Mathematical Society, Series B","2330-1511",NA,"2330-1511","10.1090/S2330-1511-2014-00017-1",TRUE,NA,NA,"http://edocs.fu-berlin.de/","21585",NA,FALSE,NA
+"FU Berlin",2014,1585.08,"Wiley-Blackwell","Evolutionary Applications","17524571",NA,NA,"10.1111/eva.12184",TRUE,25469169,"PMC4211720","http://edocs.fu-berlin.de/","21293","ut:000342756300005",FALSE,NA
+"FU Berlin",2014,1568,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,"10.1127/metz/2014/0609",TRUE,NA,NA,"http://edocs.fu-berlin.de/","21400","ut:000348600400004",FALSE,NA
+"FU Berlin",2014,1890,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,"10.1186/1471-2180-14-59",TRUE,24606756,"PMC4015679","http://edocs.fu-berlin.de/","20253","ut:000335404200002",TRUE,NA
+"FU Berlin",2014,1660,"Springer Science + Business Media","BMC Family Practice","1471-2296","1471-2296",NA,"10.1186/1471-2296-15-157",TRUE,25241039,"PMC4262980","http://edocs.fu-berlin.de/","21208","ut:000342510900001",TRUE,NA
+"FU Berlin",2014,2000,"Springer Science + Business Media","BMC Biology","1741-7007","1741-7007",NA,"10.1186/1741-7007-12-43",TRUE,24885555,"PMC4071339","http://edocs.fu-berlin.de/","20502","ut:000338467300002",TRUE,NA
+"FU Berlin",2014,1957.55,"Springer Science + Business Media","BMC Veterinary Research","1746-6148","1746-6148",NA,"10.1186/1746-6148-10-163",TRUE,25030305,"PMC4108249","http://edocs.fu-berlin.de/","21333","ut:000339406900001",TRUE,NA
+"FU Berlin",2014,1355,"Springer Science + Business Media","Parasites & Vectors","1756-3305","1756-3305",NA,"10.1186/1756-3305-7-34",TRUE,24438698,"PMC3896851","http://edocs.fu-berlin.de/","21596","ut:000334640200001",TRUE,NA
+"FU Berlin",2014,720,"Springer Science + Business Media","Earth, Planets and Space","1880-5981","1880-5981",NA,"10.1186/1880-5981-66-112",TRUE,NA,NA,"http://edocs.fu-berlin.de/","21002","ut:000342424100001",FALSE,NA
+"FU Berlin",2014,1100.75,"Springer Science + Business Media","SpringerPlus","2193-1801","2193-1801",NA,"10.1186/2193-1801-3-343",TRUE,25061551,"PMC4108716","http://edocs.fu-berlin.de/","21331",NA,TRUE,NA
+"FU Berlin",2014,1850.45,"Springer Science + Business Media","AMB Express","2191-0855","2191-0855",NA,"10.1186/s13568-014-0080-5",TRUE,25401079,"PMC4230810","http://edocs.fu-berlin.de/","21357",NA,TRUE,NA
+"FU Berlin",2014,226.99,"Springer Science + Business Media","Psychology of Well-Being: Theory, Research and Practice","2211-1522","2211-1522",NA,"10.1186/s13612-014-0014-7",TRUE,NA,NA,"http://edocs.fu-berlin.de/","20928",NA,TRUE,NA
+"FU Berlin",2014,1960.98,"Public Library of Science (PLoS)","PLoS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","10.1371/journal.pntd.0002698",TRUE,24587460,"PMC3930511","http://edocs.fu-berlin.de/","21597","ut:000332017500024",TRUE,NA
+"FU Berlin",2014,993.24,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0084299",TRUE,24416212,"PMC3885567","http://edocs.fu-berlin.de/","20362","ut:000329862500110",TRUE,NA
+"FU Berlin",2014,1176.59,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0085656",TRUE,24465637,"PMC3896405","http://edocs.fu-berlin.de/","20325","ut:000330240500065",TRUE,NA
+"FU Berlin",2014,1176.59,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0086673",TRUE,24489764,"PMC3906056","http://edocs.fu-berlin.de/","19634","ut:000330570000057",TRUE,NA
+"FU Berlin",2014,1177.01,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0087277",TRUE,24475262,"PMC3903628","http://edocs.fu-berlin.de/","20026","ut:000330507300160",TRUE,NA
+"FU Berlin",2014,996.24,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0090311",TRUE,24587318,"PMC3938686","http://edocs.fu-berlin.de/","19911","ut:000332396200164",TRUE,NA
+"FU Berlin",2014,1172.97,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0099065",TRUE,24897501,"PMC4045913","http://edocs.fu-berlin.de/","20882","ut:000338430700111",TRUE,NA
+"FU Berlin",2014,1178.91,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0100358",TRUE,24950060,"PMC4065100","http://edocs.fu-berlin.de/","20775","ut:000338276300068",TRUE,NA
+"FU Berlin",2014,997.27,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0104399",TRUE,25093839,"PMC4122453","http://edocs.fu-berlin.de/","21110","ut:000341357200109",TRUE,NA
+"FU Berlin",2014,1029.02,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0107488",TRUE,25211029,"PMC4161419","http://edocs.fu-berlin.de/","20954","ut:000341855900077",TRUE,NA
+"FU Berlin",2014,1202.47,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0108206",TRUE,25238153,"PMC4169587","http://edocs.fu-berlin.de/","21210","ut:000342491600086",TRUE,NA
+"FU Berlin",2014,1270.47,"Public Library of Science (PLoS)","PLoS ONE","1932-6203",NA,"1932-6203","10.1371/journal.pone.0110490",TRUE,25330315,"PMC4203803","http://edocs.fu-berlin.de/","21243","ut:000343942100065",TRUE,NA
+"FU Berlin",2014,2000,"Public Library of Science (PLoS)","PLoS Pathogens","1553-7374",NA,"1553-7374","10.1371/journal.ppat.1004445",TRUE,25299705,"PMC4192597","http://edocs.fu-berlin.de/","21344","ut:000344548800038",TRUE,NA
+"FU Berlin",2014,1500.23,"Society for Neuroscience","Journal of Neuroscience","0270-6474;1529-2401","0270-6474","1529-2401","10.1523/JNEUROSCI.1622-11.2011",TRUE,NA,NA,"http://edocs.fu-berlin.de/","20699","ut:000300535400025",FALSE,NA
+"FU Berlin",2014,1904,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00390",TRUE,24926247,"PMC4045244","http://edocs.fu-berlin.de/","20651","ut:000339605700001",TRUE,NA
+"FU Berlin",2014,1142.4,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00886",TRUE,25414658,"PMC4222328","http://edocs.fu-berlin.de/","21223","ut:000344223300001",TRUE,NA
+"FU Berlin",2014,1904,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","10.3389/fnhum.2014.00935",TRUE,25477807,"PMC4237054","http://edocs.fu-berlin.de/","21335","ut:000345079300001",TRUE,NA
+"FU Berlin",2014,1142.4,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","10.3389/fphys.2014.00221",TRUE,25009499,"PMC4067758","http://edocs.fu-berlin.de/","20617","ut:000347063000001",TRUE,NA
+"FU Berlin",2014,1280,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","10.3389/fpls.2014.00475",TRUE,25295044,"PMC4172000","http://edocs.fu-berlin.de/","21047","ut:000343905800001",TRUE,NA
+"FU Berlin",2014,684.25,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.00080",TRUE,24575062,"PMC3921575","http://edocs.fu-berlin.de/","20245","ut:000331283700001",TRUE,NA
+"FU Berlin",2014,1904,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.00728",TRUE,25071688,"PMC4092369","http://edocs.fu-berlin.de/","20650","ut:000339007500001",TRUE,NA
+"FU Berlin",2014,575,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.01102",TRUE,25324808,"PMC4179646","http://edocs.fu-berlin.de/","21054","ut:000342312000001",TRUE,NA
+"FU Berlin",2014,1142.4,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2014.01448",TRUE,25566129,"PMC4267422","http://edocs.fu-berlin.de/","21554","ut:000347182500003",TRUE,NA
+"FU Berlin",2014,585.05,"MDPI AG","Energies","1996-1073",NA,"1996-1073","10.3390/en7063642",TRUE,NA,NA,"http://edocs.fu-berlin.de/","20783","ut:000338557600007",TRUE,NA
+"FU Berlin",2014,1568.77,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","10.3390/ijms150711799",TRUE,24995694,"PMC4139815","http://edocs.fu-berlin.de/","20879","ut:000340038500039",TRUE,NA
+"FU Berlin",2014,1389,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","10.3390/rs70100001",TRUE,NA,NA,"http://edocs.fu-berlin.de/","21530","ut:000348401900001",TRUE,NA
+"FU Berlin",2014,900,"Co-Action Publishing","Tellus A","1600-0870;0280-6495","0280-6495","1600-0870","10.3402/tellusa.v66.22830",TRUE,NA,NA,"http://edocs.fu-berlin.de/","20781","ut:000334589000001",TRUE,NA
+"FU Berlin",2014,437,"Scientific Research Publishing, Inc,","Advances in Pure Mathematics","2160-0368;2160-0384","2160-0368","2160-0384","10.4236/apm.2014.411070",TRUE,NA,NA,"http://edocs.fu-berlin.de/","21384",NA,FALSE,NA
+"FU Berlin",2014,451.05,"Scientific Research Publishing, Inc,","Psychology","2152-7180;2152-7199","2152-7180","2152-7199","10.4236/psych.2014.51013",TRUE,NA,NA,"http://edocs.fu-berlin.de/","19530",NA,FALSE,NA
+"FU Berlin",2014,1113.84,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","10.5194/amtd-7-7753-2014",TRUE,NA,NA,"http://edocs.fu-berlin.de/","20667",NA,TRUE,"http://creativecommons.org/licenses/by/3.0/"
+"FU Berlin",2014,960,"Canadian Center of Science and Education","Journal of Educational and Developmental Psychology","1927-0534;1927-0526","1927-0526","1927-0534","10.5539/jedp.v4n1p128",TRUE,NA,NA,"http://edocs.fu-berlin.de/","20324",NA,TRUE,NA
 "MPG",2009,999.94,"Springer Science + Business Media","BMC Biochemistry","1471-2091","1471-2091",NA,"10.1186/1471-2091-10-16",TRUE,19515240,"PMC2702275",NA,NA,"ut:000267521800001",TRUE,NA
 "MPG",2008,1036.8,"Springer Science + Business Media","BMC Bioinformatics","1471-2105","1471-2105",NA,"10.1186/1471-2105-10-117",TRUE,19383128,"PMC2683816",NA,NA,"ut:000266605400002",TRUE,NA
 "MPG",2008,1078.27,"Springer Science + Business Media","BMC Bioinformatics","1471-2105","1471-2105",NA,"10.1186/1471-2105-10-181",TRUE,19527491,"PMC2708159",NA,NA,"ut:000268449300001",TRUE,NA
