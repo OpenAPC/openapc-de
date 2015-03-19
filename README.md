@@ -15,6 +15,7 @@ So far, the following German universities have agreed to share information on pa
 
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
+- [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
@@ -44,7 +45,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2 166 articles, with total expenditure of 2 635 859.84€. Average fee is 1 216.9€.
+At the moment, the dataset releases information on 2 251 articles, with total expenditure of 2 749 113.36€. Average fee is 1 221.3€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -59,6 +60,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |GFZ-Potsdam      |       60|             69625|          1160|
 |Goettingen U     |      156|            191827|          1230|
 |Hannover U       |       42|             53516|          1274|
+|Heidelberg U     |       85|            113254|          1332|
 |KIT              |      194|            228626|          1178|
 |Konstanz U       |       85|            107776|          1268|
 |Leipzig U        |       60|             79603|          1327|
