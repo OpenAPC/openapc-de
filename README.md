@@ -45,7 +45,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2 251 articles, with total expenditure of 2 749 113.36€. Average fee is 1 221.3€.
+At the moment, the dataset releases information on 2 306 articles, with total expenditure of 2 826 923.99€. Average fee is 1 225.9€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -64,7 +64,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |KIT              |      194|            228626|          1178|
 |Konstanz U       |       85|            107776|          1268|
 |Leipzig U        |       60|             79603|          1327|
-|MPG              |      991|           1237804|          1249|
+|MPG              |     1046|           1315614|          1258|
 |Regensburg U     |      163|            182610|          1120|
 |TU Clausthal     |        4|              3771|           943|
 
