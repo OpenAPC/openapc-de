@@ -18,7 +18,7 @@ So far, the following German universities have agreed to share information on pa
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
-- [Ludwig Maximilian University of Munich](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
+- [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
@@ -46,7 +46,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2 412 articles, with total expenditure of 2 980 477€. Average fee is 1 235.7€.
+At the moment, the dataset releases information on 2 382 articles, with total expenditure of 2 947 836€. Average fee is 1 237.5€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -59,7 +59,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |FU Berlin        |       45|             56074|          1246|
 |FZJ - ZB         |       76|             90411|          1190|
 |GFZ-Potsdam      |       60|             69625|          1160|
-|Goettingen U     |      156|            191827|          1230|
+|Goettingen U     |      126|            159186|          1263|
 |Hannover U       |       42|             53516|          1274|
 |Heidelberg U     |       85|            113254|          1332|
 |KIT              |      194|            228626|          1178|
