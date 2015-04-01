@@ -1,3 +1,6 @@
+
+
+
 ## About 
 
 The aim of this repository is:
@@ -12,8 +15,10 @@ So far, the following German universities have agreed to share information on pa
 
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
+- [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
+- [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
@@ -41,28 +46,49 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2166 articles, with total expenditure of 2635859.84€. Average fee is 1216.9€.
+At the moment, the dataset releases information on 2 387 articles, with total expenditure of 2 956 480€. Average fee is 1 238.6€.
 
-View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
+View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
 |                 | Articles| Fees paid in EURO| Mean Fee paid|
 |:----------------|--------:|-----------------:|-------------:|
-|Bamberg U        |       16|          15932.11|        995.76|
-|Bielefeld U      |      160|         187296.22|       1170.60|
-|Duisburg-Essen U |      114|         130989.00|       1149.03|
-|FU Berlin        |       45|          56074.43|       1246.10|
-|FZJ - ZB         |       76|          90410.94|       1189.62|
-|GFZ-Potsdam      |       60|          69625.47|       1160.42|
-|Goettingen U     |      156|         191826.70|       1229.66|
-|Hannover U       |       42|          53515.64|       1274.18|
-|KIT              |      194|         228626.36|       1178.49|
-|Konstanz U       |       85|         107776.13|       1267.95|
-|Leipzig U        |       60|          79602.89|       1326.71|
-|MPG              |      991|        1237803.62|       1249.05|
-|Regensburg U     |      163|         182609.56|       1120.30|
-|TU Clausthal     |        4|           3770.77|        942.69|
+|Bamberg U        |       16|             15932|           996|
+|Bielefeld U      |      160|            187296|          1171|
+|Duisburg-Essen U |      114|            130989|          1149|
+|FU Berlin        |       45|             56074|          1246|
+|FZJ - ZB         |       76|             90411|          1190|
+|GFZ-Potsdam      |       60|             69625|          1160|
+|Goettingen U     |      126|            159186|          1263|
+|Hannover U       |       49|             63175|          1289|
+|Heidelberg U     |       83|            112238|          1352|
+|KIT              |      194|            228626|          1178|
+|Konstanz U       |       85|            107776|          1268|
+|Leipzig U        |       60|             79603|          1327|
+|MPG              |     1046|           1315614|          1258|
+|Muenchen LMU     |      106|            153553|          1449|
+|Regensburg U     |      163|            182610|          1120|
+|TU Clausthal     |        4|              3771|           943|
 
+## Use of external sources
+
+Externals sourced were used to compile the dataset in order to provide shared identifiers for publications (e.g. PMID) and disambiguated information on publishers and journals.
+
+
+
+|Source     |variable  |description                     |
+|:--------------|:---------|:-----------------------------------------------|
+|CrossRef   |`publisher` |Title of Publisher             |
+|CrossRef   |`journal_full_title` |Full Title of Journal  |
+|CrossRef   |`issn` |International Standard Serial Numbers (collapsed) |
+|CrossRef   |`issn_print` |ISSN print |
+|CrossRef   |`issn_electronic`  |ISSN electronic        |
+|CrossRef   |`license_ref`  |License of the article     |
+|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|EuropePMC    |`pmid`  |PubMed ID                 |
+|EuropePMC    |`pmcid` |PubMed Central ID         |
+|Web of Science |`ut` |Web of Science record ID             |
+|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
@@ -72,7 +98,7 @@ View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/ap
 
 ![](figure/plotPublisherAPC.png)
 
-### Comparing fees paid by univeristy and research institution
+### Comparing fees paid by university and research institution
 
 
 
@@ -109,7 +135,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
+Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Dorner, Andrea; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
 Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
@@ -120,7 +146,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Andrea Dorner, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
