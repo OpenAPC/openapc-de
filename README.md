@@ -15,6 +15,7 @@ So far, the following German universities have agreed to share information on pa
 
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
+- [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
@@ -46,7 +47,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2 387 articles, with total expenditure of 2 956 480€. Average fee is 1 238.6€.
+At the moment, the dataset releases information on 2 397 articles, with total expenditure of 2 968 391€. Average fee is 1 238.4€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -60,6 +61,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |FZJ - ZB         |       76|             90411|          1190|
 |GFZ-Potsdam      |       60|             69625|          1160|
 |Goettingen U     |      126|            159186|          1263|
+|Hamburg TUHH     |       10|             11911|          1191|
 |Hannover U       |       49|             63175|          1289|
 |Heidelberg U     |       83|            112238|          1352|
 |KIT              |      194|            228626|          1178|
@@ -135,7 +137,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Dorner, Andrea; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
+Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Dorner, Andrea; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
 Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
@@ -146,7 +148,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Andrea Dorner, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Andrea Dorner, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
