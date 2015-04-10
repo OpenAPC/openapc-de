@@ -22,14 +22,12 @@ So far, the following German universities have agreed to share information on pa
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
-- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
+- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
-
-* (KIT omitted DOI due to privacy concerns)
 
 ## Participating Research Society Funds in Germany
 
@@ -48,7 +46,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2 454 articles, with total expenditure of 3 032 909€. Average fee is 1 235.9€.
+At the moment, the dataset releases information on 2 556 articles, with total expenditure of 3 154 397€. Average fee is 1 234.1€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -66,7 +64,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Hamburg TUHH     |       10|             11911|          1191|
 |Hannover U       |       49|             63175|          1289|
 |Heidelberg U     |       83|            112238|          1352|
-|KIT              |      194|            228626|          1178|
+|KIT              |      296|            350114|          1183|
 |Konstanz U       |       85|            107776|          1268|
 |Leipzig U        |       60|             79603|          1327|
 |MPG              |     1046|           1315614|          1258|

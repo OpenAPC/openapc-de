@@ -38,14 +38,12 @@ So far, the following German universities have agreed to share information on pa
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
-- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
+- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
-
-* (KIT omitted DOI due to privacy concerns)
 
 ## Participating Research Society Funds in Germany
 
@@ -147,7 +145,7 @@ ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 
 ```{r, echo = FALSE}
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
-q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point()
+q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="in")
@@ -172,7 +170,7 @@ my.apc$Institution <- factor(my.apc$Institution,
 levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=", 
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
 
-q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point()
+q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
@@ -188,7 +186,7 @@ ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 mpg <- my.apc[my.apc$Institution == "MPG" & my.apc$publisher == "Springer Science + Business Media",]
-q <- ggplot(mpg, aes(factor(Period), EURO)) + geom_boxplot() + geom_point()
+q <- ggplot(mpg, aes(factor(Period), EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
 q <- q +  ylab("Fees paid (in EURO)") + xlab("Period") + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/plotAverageSpringerMPDL.png", width=6.8,height=4.5,units="in")
