@@ -1,0 +1,65 @@
+---
+title: "Untitled"
+author: "Najko Jahn"
+date: "10. Oktober 2014"
+output: html_document
+---
+
+## Required libraries
+
+```{r}
+require(ggplot2)
+require(wesanderson)
+```
+
+## Load Data
+
+```{r}
+my.apc <- read.csv("../data/apc_de.csv", header = TRUE, sep =",")
+
+#exclude mpg
+
+my.apc <- my.apc[!my.apc$Institution == "MPG",]
+```
+
+
+## Choose only publisher with at least 5 publication (abritary)
+
+```{r}
+# relevel
+my.apc$Publisher <- factor(my.apc$Publisher, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Publisher)))))))
+my.apc$Institution <- factor(my.apc$Institution, 
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+
+levels(my.apc$Publisher)[6:length(levels(my.apc$Publisher))] <- paste("other (n=", 
+                                                                      length(unique(my.apc$Publisher)) - 5, ")", sep="")
+
+my.df <- aggregate(my.apc$EURO, list(Publisher =my.apc$Publisher, uni = my.apc$Institution), sum)
+```
+
+## Plot by publisher
+```{r}
+tt <- ggplot(my.df, aes(Publisher, x, fill=uni)) + geom_bar(stat="identity")  
+p <- tt + ylab("Fees paid (in EURO)") + coord_flip() + scale_y_continuous(limits=c(0, 250000)) + 
+  scale_fill_brewer(type="qual", palette = 1) + theme_bw()
+
+p <- p + theme(legend.position="top", legend.text = element_text(size = 6, colour = "black"))
+
+p
+
+ggsave(p, file = "../figure/plotPublisherAPC.png", width=6.8,height=4.5,units="in")
+```
+
+
+# Boxplot mean APC
+
+```{r}
+q <- ggplot(my.apc, aes(Publisher, EURO)) + geom_boxplot() + geom_point()
+q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
+
+q
+
+ggsave(q, file = "../figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
+```
+
