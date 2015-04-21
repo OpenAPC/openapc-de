@@ -16,17 +16,17 @@ cr_parse <- function(doi) {
   if(!exists("doc")) return(NULL) else
     
   # namespaces
-  nm = c(cr = "http://www.crossref.org/xschema/1.1",# caution: comes in different version, use local-name instead
+  nm = c(cr = "http://www.crossref.org/xschema/1.1",
          ct = "http://www.crossref.org/qrschema/3.0",
          ai = "http://www.crossref.org/AccessIndicators.xsd")
   
   #xpath queries
   xp_queries = c(doi = "//ct:doi",
-                 journal_full_title = "//*[local-name()='journal']//*[local-name()='journal_metadata']//*[local-name()='full_title']",
+                 journal_full_title = "//cr:journal_metadata//cr:full_title",
                  publisher = "//ct:crm-item[@name='publisher-name']",
-                 issn = "//*[local-name()='journal']//*[local-name()='journal_metadata']//*[local-name()='issn']",
-                 issn_print = "//*[local-name()='journal']//*[local-name()='journal_metadata']//*[local-name()='issn'][@media_type='print']",
-                 issn_electronic = "//*[local-name()='journal']//*[local-name()='journal_metadata']//*[local-name()='issn'][@media_type='electronic']",
+                 issn = "//cr:journal_metadata//cr:issn",
+                 issn_print = "//cr:journal_metadata//cr:issn[@media_type='print']",
+                 issn_electronic = "//cr:journal_metadata//cr:issn[@media_type='electronic']",
                  license_ref = "//ai:license_ref")
   
   # sapply on xpath queries on nodes
