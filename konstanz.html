@@ -1,0 +1,463 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='assets/css/sankey.css'>
+    
+    <script src='assets/js/d3.v3.js' type='text/javascript'></script>
+    <script src='assets/js/sankey.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 960px;
+      height: 800px;
+    }  
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Figures on Fee-based Open Access Publishing in Germany ">
+    <meta name="author" content="Najko Jahn">
+    <script src="http://use.edgefonts.net/source-code-pro.js"></script>
+    <script src="http://use.edgefonts.net/quattrocento-sans.js"></script>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <script href="assets/js/bootstrap.js"></script>
+    <script href="assets/js/bootstrap-button.js"></script>
+    <script href="assets/js/bootstrap-collapse.js"></script>
+    <script href="assets/jquery.js"></script>
+    <link rel="stylesheet" href="assets/styles/github.css">
+    <script src="assets/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css"></link>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
+</script>
+  </head>
+  <body>
+
+      <h1>Author Fees paid by Konstanz University Library</h1>
+
+<h2>2013 - 2014</h2>
+      
+            <div id = 'chart33f2769dbe6' class = 'rChart rCharts_d3_sankey'></div>
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart33f2769dbe6",
+"width":    960,
+"height":    600,
+"data": {
+ "source": [ "Co-Action Publishing", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Genetics Society of America", "Hindawi Publishing Corporation", "IOP Publishing", "Nature Publishing Group", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Oxford University Press (OUP)", "Pensoft Publishers", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Scientific Research Publishing, Inc,", "Scientific Research Publishing, Inc,", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Wiley-Blackwell", "Nature Publishing Group", "IOP Publishing", "IOP Publishing", "IOP Publishing", "Oxford University Press (OUP)", "American Physical Society (APS)", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Annex Publishers, LLC", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Co-Action Publishing", "Scientific Research Publishing, Inc,", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U" ],
+"target": [ "European Journal of Psychotraumatology", "Frontiers in Psychology", "Frontiers in Behavioral Neuroscience", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "G3&#58; Genes|Genomes|Genetics", "ISRN High Energy Physics", "New Journal of Physics", "Scientific Reports", "Optics Express", "Optics Express", "Optics Express", "Genome Biology and Evolution", "NeoBiota", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "Open Journal of Apoptosis", "Open Journal of Modern Linguistics", "Standards in Genomic Sciences", "Fixed Point Theory and Applications", "BMC Bioinformatics", "Substance Abuse Treatment, Prevention, and Policy", "Conflict and Health", "Conflict and Health", "Conflict and Health", "BMC Evolutionary Biology", "BMC Genomics", "BMC Cell Biology", "BMC Pediatrics", "BMC Ecology", "BMC Genomics", "BMC Public Health", "BMC Evolutionary Biology", "BMC Evolutionary Biology", "BMC Public Health", "BMC Public Health", "Ecology and Evolution", "Scientific Reports", "Journal of Physics: Condensed Matter", "New Journal of Physics", "New Journal of Physics", "Genome Biology and Evolution", "Physical Review X", "BMC Genomics", "BMC Pediatrics", "BMC Psychiatry", "Cell Communication and Signaling", "International Journal of Behavioral Nutrition and Physical Activity", "Boundary Value Problems", "Journal of NeuroEngineering and Rehabilitation", "Globalization and Health", "Neural Development", "International Journal of Mental Health Systems", "International Journal of Mental Health Systems", "Parasites & Vectors", "EvoDevo", "BMC International Health and Human Rights", "Child and Adolescent Psychiatry and Mental Health", "BMC Biophysics", "Computational Social Networks", "Optical Materials Express", "Optical Materials Express", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY", "Frontiers in Genetics", "Frontiers in Behavioral Neuroscience", "Frontiers in Behavioral Neuroscience", "Frontiers in Neuroscience", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Public Health", "European Journal of Psychotraumatology", "Open Journal of Philosophy", "American Physical Society (APS)", "Annex Publishers, LLC", "Co-Action Publishing", "Frontiers Media SA", "Genetics Society of America", "Hindawi Publishing Corporation", "IOP Publishing", "Nature Publishing Group", "Optical Society of America (OSA)", "Oxford University Press (OUP)", "Pensoft Publishers", "Public Library of Science (PLoS)", "Scientific Research Publishing, Inc,", "Springer Science + Business Media", "Wiley-Blackwell" ],
+"value": [  928.2, 1142.4,   1904,   1904,   1904,   1924,   1924,   1924, 1803.7, 460.01, 1178.1, 1244.7, 919.95, 1559.2, 1696.8, 1225.7,  523.6, 1166.8, 1186.8, 1204.8, 1206.2, 1210.4, 1212.3, 1240.4, 1243.9, 1249.2, 1256.6,   1257,   1257, 1258.3, 385.39, 385.39, 499.13,  642.6, 1182.4, 1232.8, 1270.9, 1280.4, 1285.2,   1447,   1447, 1451.8, 1451.8, 1451.8, 1461.3, 1466.1, 1494.6, 1542.2, 1542.2, 1542.2, 1820.7,   1046,   1950,    990,    792,   1463, 1104.6,   1268,   1276,   1284,   1120,   1380,    448,   1120,   1216,   1388,   1036,   1128,   1164,   1388,   1280,   1128,   1280,    640,   1260,   1293,   1260,   1260,   1260,   1260,   1260,   1260,   1260,   1260,    725,    960,   1600,   1600,   1600,    770,   1600,   1600,   1600,   1600,     40,    560, 1104.6,    725,  968.2,  25556, 1803.7, 460.01, 4910.1, 2290.7, 6728.9, 2688.7,  523.6,  26030, 1330.8,  43236, 1820.7 ] 
+},
+"nodeWidth":     20,
+"nodePadding":      6,
+"layout":     16,
+"unit": "EURO",
+"id": "chart33f2769dbe6" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+<h2>2014</h2>
+
+<div id = 'chart33f20844209' class = 'rChart rCharts_d3_sankey'></div>
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart33f20844209",
+"width":    960,
+"height":    400,
+"data": {
+ "source": [ "Wiley-Blackwell", "Nature Publishing Group", "IOP Publishing", "IOP Publishing", "IOP Publishing", "Oxford University Press (OUP)", "American Physical Society (APS)", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Annex Publishers, LLC", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Co-Action Publishing", "Scientific Research Publishing, Inc,", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U" ],
+"target": [ "Ecology and Evolution", "Scientific Reports", "Journal of Physics: Condensed Matter", "New Journal of Physics", "New Journal of Physics", "Genome Biology and Evolution", "Physical Review X", "BMC Genomics", "BMC Pediatrics", "BMC Psychiatry", "Cell Communication and Signaling", "International Journal of Behavioral Nutrition and Physical Activity", "Boundary Value Problems", "Journal of NeuroEngineering and Rehabilitation", "Globalization and Health", "Neural Development", "International Journal of Mental Health Systems", "International Journal of Mental Health Systems", "Parasites & Vectors", "EvoDevo", "BMC International Health and Human Rights", "Child and Adolescent Psychiatry and Mental Health", "BMC Biophysics", "Computational Social Networks", "Optical Materials Express", "Optical Materials Express", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY", "Frontiers in Genetics", "Frontiers in Behavioral Neuroscience", "Frontiers in Behavioral Neuroscience", "Frontiers in Neuroscience", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Public Health", "European Journal of Psychotraumatology", "Open Journal of Philosophy", "American Physical Society (APS)", "Annex Publishers, LLC", "Co-Action Publishing", "Frontiers Media SA", "IOP Publishing", "Nature Publishing Group", "Optical Society of America (OSA)", "Oxford University Press (OUP)", "Public Library of Science (PLoS)", "Scientific Research Publishing, Inc,", "Springer Science + Business Media", "Wiley-Blackwell" ],
+"value": [ 1820.7,   1046,   1950,    990,    792,   1463, 1104.6,   1268,   1276,   1284,   1120,   1380,    448,   1120,   1216,   1388,   1036,   1128,   1164,   1388,   1280,   1128,   1280,    640,   1260,   1293,   1260,   1260,   1260,   1260,   1260,   1260,   1260,   1260,    725,    960,   1600,   1600,   1600,    770,   1600,   1600,   1600,   1600,     40,    560, 1104.6,    725,     40,  12930,   3732,   1046,   2553,   1463,  10080,    560,  19544, 1820.7 ] 
+},
+"nodeWidth":     20,
+"nodePadding":      6,
+"layout":     16,
+"unit": "EURO",
+"id": "chart33f20844209" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+      <h2>2013</h2>
+      
+<div id = 'chart33f52122d82' class = 'rChart rCharts_d3_sankey'></div>
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart33f52122d82",
+"width":    960,
+"height":    400,
+"data": {
+ "source": [ "Co-Action Publishing", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Frontiers Media SA", "Genetics Society of America", "Hindawi Publishing Corporation", "IOP Publishing", "Nature Publishing Group", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Optical Society of America (OSA)", "Oxford University Press (OUP)", "Pensoft Publishers", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Scientific Research Publishing, Inc,", "Scientific Research Publishing, Inc,", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U", "Konstanz U" ],
+"target": [ "European Journal of Psychotraumatology", "Frontiers in Psychology", "Frontiers in Behavioral Neuroscience", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "Frontiers in Psychology", "G3&#58; Genes|Genomes|Genetics", "ISRN High Energy Physics", "New Journal of Physics", "Scientific Reports", "Optics Express", "Optics Express", "Optics Express", "Genome Biology and Evolution", "NeoBiota", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "PLoS ONE", "Open Journal of Apoptosis", "Open Journal of Modern Linguistics", "Standards in Genomic Sciences", "Fixed Point Theory and Applications", "BMC Bioinformatics", "Substance Abuse Treatment, Prevention, and Policy", "Conflict and Health", "Conflict and Health", "Conflict and Health", "BMC Evolutionary Biology", "BMC Genomics", "BMC Cell Biology", "BMC Pediatrics", "BMC Ecology", "BMC Genomics", "BMC Public Health", "BMC Evolutionary Biology", "BMC Evolutionary Biology", "BMC Public Health", "BMC Public Health", "Co-Action Publishing", "Frontiers Media SA", "Genetics Society of America", "Hindawi Publishing Corporation", "IOP Publishing", "Nature Publishing Group", "Optical Society of America (OSA)", "Oxford University Press (OUP)", "Pensoft Publishers", "Public Library of Science (PLoS)", "Scientific Research Publishing, Inc,", "Springer Science + Business Media" ],
+"value": [  928.2, 1142.4,   1904,   1904,   1904,   1924,   1924,   1924, 1803.7, 460.01, 1178.1, 1244.7, 919.95, 1559.2, 1696.8, 1225.7,  523.6, 1166.8, 1186.8, 1204.8, 1206.2, 1210.4, 1212.3, 1240.4, 1243.9, 1249.2, 1256.6,   1257,   1257, 1258.3, 385.39, 385.39, 499.13,  642.6, 1182.4, 1232.8, 1270.9, 1280.4, 1285.2,   1447,   1447, 1451.8, 1451.8, 1451.8, 1461.3, 1466.1, 1494.6, 1542.2, 1542.2, 1542.2,  928.2,  12626, 1803.7, 460.01, 1178.1, 1244.7, 4175.9, 1225.7,  523.6,  15950, 770.78,  23692 ] 
+},
+"nodeWidth":     20,
+"nodePadding":      6,
+"layout":     16,
+"unit": "EURO",
+"id": "chart33f52122d82" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+      
+
+
+</body>
+
+</html>
