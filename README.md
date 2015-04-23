@@ -41,36 +41,38 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
+- [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 
 ## Dataset
 
 
 
-At the moment, the dataset releases information on 2 922 articles, with total expenditure of 3 580 917€. Average fee is 1 225.5€.
+At the moment, the dataset releases information on 2 926 articles, with total expenditure of 3 585 184€. Average fee is 1 225.3€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
-|                 | Articles| Fees paid in EURO| Mean Fee paid|
-|:----------------|--------:|-----------------:|-------------:|
-|Bamberg U        |       16|             15932|           996|
-|Bayreuth U       |       57|             64519|          1132|
-|Bielefeld U      |      160|            187296|          1171|
-|Duisburg-Essen U |      114|            130989|          1149|
-|FU Berlin        |       45|             56074|          1246|
-|FZJ - ZB         |       76|             90411|          1190|
-|GFZ-Potsdam      |       60|             69625|          1160|
-|Goettingen U     |      126|            159186|          1263|
-|Hamburg TUHH     |       10|             11911|          1191|
-|Hannover U       |       50|             63908|          1278|
-|Heidelberg U     |       83|            112238|          1352|
-|KIT              |      296|            350114|          1183|
-|Konstanz U       |      131|            163374|          1247|
-|Leipzig U        |       60|             79603|          1327|
-|MPG              |     1046|           1315614|          1258|
-|Muenchen LMU     |      308|            374634|          1216|
-|Regensburg U     |      280|            331718|          1185|
-|TU Clausthal     |        4|              3771|           943|
+|                                            | Articles| Fees paid in EURO| Mean Fee paid|
+|:-------------------------------------------|--------:|-----------------:|-------------:|
+|Bamberg U                                   |       16|             15932|           996|
+|Bayreuth U                                  |       57|             64519|          1132|
+|Bielefeld U                                 |      160|            187296|          1171|
+|Duisburg-Essen U                            |      114|            130989|          1149|
+|FU Berlin                                   |       45|             56074|          1246|
+|FZJ - ZB                                    |       76|             90411|          1190|
+|GFZ-Potsdam                                 |       60|             69625|          1160|
+|Goettingen U                                |      126|            159186|          1263|
+|Hamburg TUHH                                |       10|             11911|          1191|
+|Hannover U                                  |       50|             63908|          1278|
+|Heidelberg U                                |       83|            112238|          1352|
+|INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|
+|KIT                                         |      296|            350114|          1183|
+|Konstanz U                                  |      131|            163374|          1247|
+|Leipzig U                                   |       60|             79603|          1327|
+|MPG                                         |     1046|           1315614|          1258|
+|Muenchen LMU                                |      308|            374634|          1216|
+|Regensburg U                                |      280|            331718|          1185|
+|TU Clausthal                                |        4|              3771|           943|
 
 ## Use of external sources
 
@@ -136,7 +138,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
+Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
 Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
@@ -147,7 +149,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
