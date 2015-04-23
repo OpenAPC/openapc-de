@@ -47,7 +47,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2 926 articles in open access journals that charges publication fees, with total expenditure of 3 585 184€. Average  fee is 1 225.3€.
+At the moment, the dataset releases information on 2 926 articles in open access journals which charge publication fees. Total expenditure amounts to  3 585 184€. Average  fee is 1 225.3€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
