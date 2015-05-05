@@ -88,8 +88,9 @@ my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 
 df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
              tapply(my.apc$EURO, my.apc$Institution, sum),
-             tapply(my.apc$EURO, my.apc$Institution, mean))
-colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+             tapply(my.apc$EURO, my.apc$Institution, mean),
+             tapply(my.apc$EURO, my.apc$Institution, median))
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
 ```
@@ -112,8 +113,9 @@ my.apc <- droplevels(my.apc)
 
 df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
              tapply(my.apc$EURO, my.apc$Institution, sum),
-             tapply(my.apc$EURO, my.apc$Institution, mean))
-colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+             tapply(my.apc$EURO, my.apc$Institution, mean),
+             tapply(my.apc$EURO, my.apc$Institution, median))
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
 

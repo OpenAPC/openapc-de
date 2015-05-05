@@ -62,28 +62,28 @@ At the moment, the dataset releases information on 2 949 articles in open access
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
-|                                            | Articles| Fees paid in EURO| Mean Fee paid|
-|:-------------------------------------------|--------:|-----------------:|-------------:|
-|Bamberg U                                   |       16|             15932|           996|
-|Bayreuth U                                  |       57|             64519|          1132|
-|Bielefeld U                                 |      160|            187296|          1171|
-|Duisburg-Essen U                            |      114|            130989|          1149|
-|FU Berlin                                   |       45|             56074|          1246|
-|FZJ - ZB                                    |       76|             90411|          1190|
-|GFZ-Potsdam                                 |       60|             69625|          1160|
-|Goettingen U                                |      126|            159186|          1263|
-|Hamburg TUHH                                |       10|             11911|          1191|
-|Hannover U                                  |       50|             63908|          1278|
-|Heidelberg U                                |       83|            112238|          1352|
-|INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|
-|KIT                                         |      296|            350114|          1183|
-|Konstanz U                                  |      131|            163374|          1247|
-|Leipzig U                                   |       60|             79603|          1327|
-|MDC                                         |       23|             41464|          1803|
-|MPG                                         |     1046|           1315614|          1258|
-|Muenchen LMU                                |      308|            374634|          1216|
-|Regensburg U                                |      280|            331718|          1185|
-|TU Clausthal                                |        4|              3771|           943|
+|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
+|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|Bamberg U                                   |       16|             15932|           996|    960|
+|Bayreuth U                                  |       57|             64519|          1132|   1104|
+|Bielefeld U                                 |      160|            187296|          1171|   1160|
+|Duisburg-Essen U                            |      114|            130989|          1149|   1194|
+|FU Berlin                                   |       45|             56074|          1246|   1177|
+|FZJ - ZB                                    |       76|             90411|          1190|   1080|
+|GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
+|Goettingen U                                |      126|            159186|          1263|   1245|
+|Hamburg TUHH                                |       10|             11911|          1191|   1149|
+|Hannover U                                  |       50|             63908|          1278|   1194|
+|Heidelberg U                                |       83|            112238|          1352|   1418|
+|INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
+|KIT                                         |      296|            350114|          1183|   1179|
+|Konstanz U                                  |      131|            163374|          1247|   1260|
+|Leipzig U                                   |       60|             79603|          1327|   1305|
+|MDC                                         |       23|             41464|          1803|   1212|
+|MPG                                         |     1046|           1315614|          1258|   1178|
+|Muenchen LMU                                |      308|            374634|          1216|   1266|
+|Regensburg U                                |      280|            331718|          1185|   1183|
+|TU Clausthal                                |        4|              3771|           943|    969|
 
 ### Hybrid articles
 
@@ -94,9 +94,9 @@ The dataset covers 11 hybrid open access articles. Total expenditure amounts to 
 The following institutions have contributed its expenditures for hybrid open access.
 
 
-|    | Articles| Fees paid in EURO| Mean Fee paid|
-|:---|--------:|-----------------:|-------------:|
-|MDC |       11|             20054|          1823|
+|    | Articles| Fees paid in EURO| Mean Fee paid| Median|
+|:---|--------:|-----------------:|-------------:|------:|
+|MDC |       11|             20054|          1823|   1382|
 
 ## Use of external sources
 
