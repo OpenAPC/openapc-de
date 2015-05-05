@@ -58,6 +58,8 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administr
+ation/library)
 
 ## Dataset
 
@@ -65,12 +67,24 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 ```
 
-At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€.
+Both information on open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
+
+In total,  `r format(sum(my.apc$EURO), scientific=FALSE)`€ for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€
+
+### Open Access Journals
+
+```{r, echo=FALSE, cache = FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
+```
+
+At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 ```{r, echo=FALSE, results='asis', message = FALSE}
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 
 df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
              tapply(my.apc$EURO, my.apc$Institution, sum),
@@ -78,6 +92,31 @@ df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
+```
+
+### Hybrid articles
+
+```{r, echo=FALSE, cache = FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+my.apc <- my.apc[my.apc$is_hybrid == TRUE,]
+```
+In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
+The dataset covers `r nrow(my.apc)` hybrid open access articles. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
+
+The following institutions have contributed its expenditures for hybrid open access.
+
+```{r, echo=FALSE, cache = FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+my.apc <- my.apc[my.apc$is_hybrid == TRUE,]
+my.apc <- droplevels(my.apc)
+
+df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
+             tapply(my.apc$EURO, my.apc$Institution, sum),
+             tapply(my.apc$EURO, my.apc$Institution, mean))
+colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid")
+
+knitr::kable(as.data.frame(df.summary), digits = 2)
+
 ```
 
 ## Use of external sources
@@ -111,7 +150,7 @@ require(RColorBrewer)
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 #only unis
-my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "INM - Leibniz-Institut für Neue Materialien"),]
+my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "INM - Leibniz-Institut für Neue Materialien", "MDC"),]
 
 ## Choose only publisher with at least 5 publication (abritary)
 
@@ -145,7 +184,8 @@ ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 
 ```{r, echo = FALSE}
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
-q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
+q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
+
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="in")
@@ -211,7 +251,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
+Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
 Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
@@ -222,7 +262,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Roland Bertelmann, Daniel Beucke, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 

@@ -42,12 +42,22 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administr
+ation/library)
 
 ## Dataset
 
 
 
-At the moment, the dataset releases information on 2 926 articles in open access journals which charge publication fees. Total expenditure amounts to  3 585 184€. Average  fee is 1 225.3€.
+Both information on open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
+
+In total,  3 646 702€ for  2 960 articles were paid by the participating unviversities. Average  fee is 1 232€ and the median 1 196€
+
+### Open Access Journals
+
+
+
+At the moment, the dataset releases information on 2 949 articles in open access journals which charge publication fees. Total expenditure amounts to  3 626 648€. Average  fee is 1 229.8€ and the median 1 193€
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -69,10 +79,24 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |KIT                                         |      296|            350114|          1183|
 |Konstanz U                                  |      131|            163374|          1247|
 |Leipzig U                                   |       60|             79603|          1327|
+|MDC                                         |       23|             41464|          1803|
 |MPG                                         |     1046|           1315614|          1258|
 |Muenchen LMU                                |      308|            374634|          1216|
 |Regensburg U                                |      280|            331718|          1185|
 |TU Clausthal                                |        4|              3771|           943|
+
+### Hybrid articles
+
+
+In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
+The dataset covers 11 hybrid open access articles. Total expenditure amounts to  20 054€. Average  fee is 1 823.1€ and the median 1 382€.
+
+The following institutions have contributed its expenditures for hybrid open access.
+
+
+|    | Articles| Fees paid in EURO| Mean Fee paid|
+|:---|--------:|-----------------:|-------------:|
+|MDC |       11|             20054|          1823|
 
 ## Use of external sources
 
@@ -138,7 +162,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
+Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
 Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
@@ -149,7 +173,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Roland Bertelmann, Daniel Beucke, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
