@@ -67,9 +67,9 @@ ation/library)
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 ```
 
-Both information on open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
+Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  `r format(sum(my.apc$EURO), scientific=FALSE)`€ for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€
+In total,  `r format(sum(my.apc$EURO), scientific=FALSE)`€ for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
 
 ### Open Access Journals
 
@@ -78,7 +78,7 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 ```
 
-At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€
+At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
