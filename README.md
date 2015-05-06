@@ -52,7 +52,7 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  3 664 143€ for  2 975 articles were paid by the participating unviversities. Average  fee is 1 231.6€ and the median 1 195€.
+In total,  3 668 382€ for  2 977 articles were paid by the participating unviversities. Average  fee is 1 232.2€ and the median 1 196€.
 
 ### Open Access Journals
 
@@ -91,14 +91,15 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 11 hybrid open access articles. Total expenditure amounts to  20 054€. Average  fee is 1 823.1€ and the median 1 382€.
+The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293€. Average  fee is 1 868.7€ and the median 1 785€.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
 
-|    | Articles| Fees paid in EURO| Mean Fee paid| Median|
-|:---|--------:|-----------------:|-------------:|------:|
-|MDC |       11|             20054|          1823|   1382|
+|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
+|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
+|MDC                                         |       11|             20054|          1823|   1382|
 
 ## Use of external sources
 
