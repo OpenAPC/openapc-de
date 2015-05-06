@@ -1,0 +1,323 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='assets/css/sankey.css'>
+    
+    <script src='assets/js/d3.v3.js' type='text/javascript'></script>
+    <script src='assets/js/sankey.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 960px;
+      height: 800px;
+    }  
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Figures on Fee-based Open Access Publishing in Germany ">
+    <meta name="author" content="Najko Jahn">
+    <script src="http://use.edgefonts.net/source-code-pro.js"></script>
+    <script src="http://use.edgefonts.net/quattrocento-sans.js"></script>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <script href="assets/js/bootstrap.js"></script>
+    <script href="assets/js/bootstrap-button.js"></script>
+    <script href="assets/js/bootstrap-collapse.js"></script>
+    <script href="assets/jquery.js"></script>
+    <link rel="stylesheet" href="assets/styles/github.css">
+    <script src="assets/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css"></link>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
+</script>
+  </head>
+  <body>
+
+<h2>2013</h2>
+
+<div id = 'chart7b077cb7bda' class = 'rChart rCharts_d3_sankey'></div>
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart7b077cb7bda",
+"width":    960,
+"height":    800,
+"data": {
+ "source": [ "Portland Press Ltd.", "IOP Publishing", "IOP Publishing", "IOP Publishing", "Springer Science + Business Media", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "Frontiers Media SA", "Frontiers Media SA", "MDPI AG", "MDPI AG", "MDPI AG", "MDPI AG", "MDPI AG", "Scientific Research Publishing, Inc,", "Scientific Research Publishing, Inc,", "Copernicus GmbH", "Copernicus GmbH", "Sciedu Press", "Academic Journals", "Impact Journals LLC", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U" ],
+"target": [ "Bioscience Reports", "New Journal of Physics", "New Journal of Physics", "New Journal of Physics", "BMC Biology", "PLoS Genetics", "PLoS ONE", "PLoS ONE", "PLoS ONE", "Frontiers in Microbiology", "Frontiers in Plant Science", "Chemosensors", "Molecules", "Sensors", "Sensors", "Sensors", "American Journal of Industrial and Business Management", "Creative Education", "Atmospheric Measurement Techniques Discussions", "Atmospheric Measurement Techniques Discussions", "World Journal of Education", "African Journal of Agricultural Research", "Aging", "Academic Journals", "Copernicus GmbH", "Frontiers Media SA", "Impact Journals LLC", "IOP Publishing", "MDPI AG", "Portland Press Ltd.", "Public Library of Science (PLoS)", "Sciedu Press", "Scientific Research Publishing, Inc,", "Springer Science + Business Media" ],
+"value": [   1000,    990,    990,    990,   1875, 1734.4, 993.09, 1000.8, 995.65,    960,    960,    205, 1478.9, 1478.9, 1482.6, 1463.9, 468.42, 390.59, 828.24, 793.73, 232.16, 435.41,   1343, 435.41,   1622,   1920,   1343,   2970, 6109.3,   1000, 4723.9, 232.16, 859.01,   1875 ] 
+},
+"nodeWidth":     15,
+"nodePadding":      6,
+"layout":      1,
+"unit": "EURO",
+"title": "Author fees paid by Bayreuth U Publication Fund since 2013",
+"id": "chart7b077cb7bda" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+
+<h2>2014</h2>
+
+<div id = 'chart7b0503062a7' class = 'rChart rCharts_d3_sankey'></div>
+<!--Attribution:
+Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey
+Mike Bostock http://bost.ocks.org/mike/sankey/
+-->
+
+<script>
+(function(){
+var params = {
+ "dom": "chart7b0503062a7",
+"width":    960,
+"height":    800,
+"data": {
+ "source": [ "Wiley-Blackwell", "Nature Publishing Group", "Nature Publishing Group", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Springer Science + Business Media", "Public Library of Science (PLoS)", "Public Library of Science (PLoS)", "International Mountain Society (IMS) and United Nations University", "Frontiers Media SA", "MDPI AG", "MDPI AG", "MDPI AG", "MDPI AG", "MDPI AG", "MDPI AG", "Pensoft Publishers", "Scientific Research Publishing, Inc,", "Copernicus GmbH", "Copernicus GmbH", "Copernicus GmbH", "Copernicus GmbH", "Copernicus GmbH", "Copernicus GmbH", "Copernicus GmbH", "Copernicus GmbH", "Copernicus GmbH", "Canadian Center of Science and Education", "Academic Journals", "Sciencedomain International", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U", "Bayreuth U" ],
+"target": [ "Ecology and Evolution", "Scientific Reports", "Scientific Reports", "BMC Genomics", "BMC Microbiology", "BMC Public Health", "BMC Neurology", "Health Economics Review", "Movement Ecology", "PLoS Genetics", "PLoS ONE", "Mountain Research and Development", "Frontiers in Plant Science", "Energies", "Forests", "International Journal of Environmental Research and Public Health", "Materials", "Remote Sensing", "Sensors", "MycoKeys", "American Journal of Industrial and Business Management", "Atmospheric Chemistry and Physics Discussions", "Atmospheric Chemistry and Physics Discussions", "Atmospheric Measurement Techniques Discussions", "Atmospheric Measurement Techniques Discussions", "Biogeosciences Discussions", "Biogeosciences Discussions", "Biogeosciences Discussions", "Biogeosciences Discussions", "Biogeosciences Discussions", "International Business Research", "African Journal of Political Science and International Relations", "British Journal of Economics, Management & Trade", "Academic Journals", "Canadian Center of Science and Education", "Copernicus GmbH", "Frontiers Media SA", "International Mountain Society (IMS) and United Nations University", "MDPI AG", "Nature Publishing Group", "Pensoft Publishers", "Public Library of Science (PLoS)", "Sciencedomain International", "Scientific Research Publishing, Inc,", "Springer Science + Business Media", "Wiley-Blackwell" ],
+"value": [ 1332.8, 1244.7,   1046,   1926,   1585, 1951.6, 1969.5,   1065, 1969.5, 1656.6, 991.12, 447.18,   1904, 1177.6, 783.66, 1371.2, 1374.6,   1200, 1772.9,    180, 392.96, 1104.3, 1414.9, 1085.3, 1380.4,   1200,   1300,   1200, 1035.3, 1967.1, 226.25, 476.56,  81.86, 476.56, 226.25,  11687,   1904, 447.18,   7680, 2290.7,    180, 2647.7,  81.86, 392.96,  10467, 1332.8 ] 
+},
+"nodeWidth":     15,
+"nodePadding":      6,
+"layout":      1,
+"unit": "EURO",
+"title": "Author fees paid by Bayreuth U Publication Fund since 2013",
+"id": "chart7b0503062a7" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+
+</body>
+
+</html>
