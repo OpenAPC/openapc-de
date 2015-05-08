@@ -23,6 +23,7 @@ So far, the following German universities have agreed to share information on pa
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
@@ -41,41 +42,68 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
+- [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administr
+ation/library)
 
 ## Dataset
 
 
 
-At the moment, the dataset releases information on 2 556 articles, with total expenditure of 3 154 397€. Average fee is 1 234.1€.
+Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
+
+In total,  3 668 382€ for  2 977 articles were paid by the participating unviversities. Average  fee is 1 232.2€ and the median 1 196€.
+
+### Open Access Journals
+
+
+
+At the moment, the dataset releases information on 2 964 articles in open access journals which charge publication fees. Total expenditure amounts to  3 644 089€. Average  fee is 1 229.4€ and the median 1 193€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
-|                 | Articles| Fees paid in EURO| Mean Fee paid|
-|:----------------|--------:|-----------------:|-------------:|
-|Bamberg U        |       16|             15932|           996|
-|Bayreuth U       |       57|             64519|          1132|
-|Bielefeld U      |      160|            187296|          1171|
-|Duisburg-Essen U |      114|            130989|          1149|
-|FU Berlin        |       45|             56074|          1246|
-|FZJ - ZB         |       76|             90411|          1190|
-|GFZ-Potsdam      |       60|             69625|          1160|
-|Goettingen U     |      126|            159186|          1263|
-|Hamburg TUHH     |       10|             11911|          1191|
-|Hannover U       |       49|             63175|          1289|
-|Heidelberg U     |       83|            112238|          1352|
-|KIT              |      296|            350114|          1183|
-|Konstanz U       |       85|            107776|          1268|
-|Leipzig U        |       60|             79603|          1327|
-|MPG              |     1046|           1315614|          1258|
-|Muenchen LMU     |      106|            153553|          1449|
-|Regensburg U     |      163|            182610|          1120|
-|TU Clausthal     |        4|              3771|           943|
+|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
+|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|Bamberg U                                   |       16|             15932|           996|    960|
+|Bayreuth U                                  |       57|             64519|          1132|   1104|
+|Bielefeld U                                 |      160|            187296|          1171|   1160|
+|Duisburg-Essen U                            |      114|            130989|          1149|   1194|
+|FU Berlin                                   |       45|             56074|          1246|   1177|
+|FZJ - ZB                                    |       76|             90411|          1190|   1080|
+|GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
+|Goettingen U                                |      126|            159186|          1263|   1245|
+|Hamburg TUHH                                |       10|             11911|          1191|   1149|
+|Hannover U                                  |       50|             63908|          1278|   1194|
+|Heidelberg U                                |       83|            112238|          1352|   1418|
+|INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
+|KIT                                         |      296|            350114|          1183|   1179|
+|Konstanz U                                  |      131|            163374|          1247|   1260|
+|Leipzig U                                   |       60|             79603|          1327|   1305|
+|MDC                                         |       23|             41464|          1803|   1212|
+|MPG                                         |     1046|           1315614|          1258|   1178|
+|Muenchen LMU                                |      308|            374634|          1216|   1266|
+|Regensburg U                                |      280|            331718|          1185|   1183|
+|TU Chemnitz                                 |       15|             17441|          1163|   1142|
+|TU Clausthal                                |        4|              3771|           943|    969|
+
+### Hybrid articles
+
+
+In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
+The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293€. Average  fee is 1 868.7€ and the median 1 785€.
+
+The following institutions have contributed its expenditures for hybrid open access.
+
+
+|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
+|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
+|MDC                                         |       11|             20054|          1823|   1382|
 
 ## Use of external sources
 
-Externals sourced were used to compile the dataset in order to provide shared identifiers for publications (e.g. PMID) and disambiguated information on publishers and journals.
-
+External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.
 
 
 |Source     |variable  |description                     |
@@ -137,7 +165,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
+Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Blumtritt, Ute; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
 Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
@@ -148,7 +176,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Roland Bertelmann, Daniel Beucke, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Roland Bertelmann, Daniel Beucke, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
