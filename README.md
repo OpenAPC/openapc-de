@@ -1,3 +1,6 @@
+
+
+
 ## About 
 
 The aim of this repository is:
@@ -10,17 +13,24 @@ The aim of this repository is:
 
 So far, the following German universities have agreed to share information on paid author processing charges (APC):
 
+- [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
+- [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
+- [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
-- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)*
+- [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
+- [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
+- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html)
+- [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
+- [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
+- [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
-
-* (KIT omitted DOI due to privacy concerns)
 
 ## Participating Research Society Funds in Germany
 
@@ -34,31 +44,85 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
+- [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administr
+ation/library)
 
 ## Dataset
 
 
 
-At the moment, the dataset releases information on 1676 articles, with total expenditure of 2014356.10€. Average fee is 1201.9€.
+Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/apc_de.csv).
+In total,  3 772 665€ for  3 064 articles were paid by the participating unviversities. Average  fee is 1 231.3€ and the median 1 198€.
+
+### Open Access Journals
 
 
-|                 | Articles| Fees paid in EURO| Mean Fee paid|
-|:----------------|--------:|-----------------:|-------------:|
-|Bamberg U        |       16|          15932.11|        995.76|
-|Bielefeld U      |      160|         187296.22|       1170.60|
-|Duisburg-Essen U |      106|         120575.00|       1137.50|
-|FZJ - ZB         |       76|          90410.94|       1189.62|
-|GFZ-Potsdam      |       60|          58508.80|        975.15|
-|Hannover U       |       42|          53515.64|       1274.18|
-|KIT              |      194|         228626.36|       1178.49|
-|Konstanz U       |       85|         107776.13|       1267.95|
-|Leipzig U        |       60|          79602.89|       1326.71|
-|MPG              |      710|         885731.68|       1247.51|
-|Regensburg U     |      163|         182609.56|       1120.30|
-|TU Clausthal     |        4|           3770.77|        942.69|
 
+At the moment, the dataset releases information on 3 051 articles in open access journals which charge publication fees. Total expenditure amounts to  3 748 372€. Average  fee is 1 228.6€ and the median 1 196€.
+
+View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
+
+
+|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
+|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|Bamberg U                                   |       16|             15932|           996|    960|
+|Bayreuth U                                  |       57|             64519|          1132|   1104|
+|Bielefeld U                                 |      160|            187296|          1171|   1160|
+|Dortmund TU                                 |        9|              8238|           915|    900|
+|Duisburg-Essen U                            |      114|            130989|          1149|   1194|
+|FU Berlin                                   |       45|             56074|          1246|   1177|
+|FZJ - ZB                                    |       76|             90411|          1190|   1080|
+|GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
+|Goettingen U                                |      126|            159186|          1263|   1245|
+|Hamburg TUHH                                |       10|             11911|          1191|   1149|
+|Hannover U                                  |       50|             63908|          1278|   1194|
+|Heidelberg U                                |       83|            112238|          1352|   1418|
+|INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
+|KIT                                         |      296|            350114|          1183|   1179|
+|Konstanz U                                  |      131|            163374|          1247|   1260|
+|Leipzig U                                   |       60|             79603|          1327|   1305|
+|MDC                                         |       23|             41464|          1803|   1212|
+|MPG                                         |     1046|           1315614|          1258|   1178|
+|Muenchen LMU                                |      308|            374634|          1216|   1266|
+|Regensburg U                                |      280|            331718|          1185|   1183|
+|TU Chemnitz                                 |       15|             17441|          1163|   1142|
+|TU Clausthal                                |        4|              3771|           943|    969|
+|TU Dresden                                  |       78|             96046|          1231|   1242|
+
+### Hybrid articles
+
+
+In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
+The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293€. Average  fee is 1 868.7€ and the median 1 785€.
+
+The following institutions have contributed its expenditures for hybrid open access.
+
+
+|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
+|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
+|INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
+|MDC                                         |       11|             20054|          1823|   1382|
+
+## Use of external sources
+
+External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.
+
+
+|Source     |variable  |description                     |
+|:--------------|:---------|:-----------------------------------------------|
+|CrossRef   |`publisher` |Title of Publisher             |
+|CrossRef   |`journal_full_title` |Full Title of Journal  |
+|CrossRef   |`issn` |International Standard Serial Numbers (collapsed) |
+|CrossRef   |`issn_print` |ISSN print |
+|CrossRef   |`issn_electronic`  |ISSN electronic        |
+|CrossRef   |`license_ref`  |License of the article     |
+|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|EuropePMC    |`pmid`  |PubMed ID                 |
+|EuropePMC    |`pmcid` |PubMed Central ID         |
+|Web of Science |`ut` |Web of Science record ID             |
+|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
@@ -68,7 +132,7 @@ View dataset on [GitHub](https://github.com/njahn82/unibiAPC/blob/master/data/ap
 
 ![](figure/plotPublisherAPC.png)
 
-### Comparing fees paid by univeristy and research institution
+### Comparing fees paid by university and research institution
 
 
 
@@ -105,8 +169,8 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Bertelmann, Roland; Deinzer, Gernot; Herb, Ulrich; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Oberländer, Anja; 
-Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Jahn, Najko; (2014): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Apel, Jochen; Becker, Hans-Georg; Bertelmann, Roland; Beucke, Daniel; Blumtritt, Ute; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Kuehle, Gerrit; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
+Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
@@ -116,7 +180,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Roland Bertelmann, Gernot Deinzer, Ulrich Herb, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Adriana Sikora, Marco Tullney, Astrid Vieler, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
