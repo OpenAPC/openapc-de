@@ -46,31 +46,36 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-At the moment, the dataset releases information on 2 557 articles, with total expenditure of 3 155 129€. Average fee is 1 233.9€.
+At the moment, the dataset releases information on 3 011 articles, with total expenditure of 3 689 598€. Average fee is 1 225.4€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
 
-|                 | Articles| Fees paid in EURO| Mean Fee paid|
-|:----------------|--------:|-----------------:|-------------:|
-|Bamberg U        |       16|             15932|           996|
-|Bayreuth U       |       57|             64519|          1132|
-|Bielefeld U      |      160|            187296|          1171|
-|Duisburg-Essen U |      114|            130989|          1149|
-|FU Berlin        |       45|             56074|          1246|
-|FZJ - ZB         |       76|             90411|          1190|
-|GFZ-Potsdam      |       60|             69625|          1160|
-|Goettingen U     |      126|            159186|          1263|
-|Hamburg TUHH     |       10|             11911|          1191|
-|Hannover U       |       50|             63908|          1278|
-|Heidelberg U     |       83|            112238|          1352|
-|KIT              |      296|            350114|          1183|
-|Konstanz U       |       85|            107776|          1268|
-|Leipzig U        |       60|             79603|          1327|
-|MPG              |     1046|           1315614|          1258|
-|Muenchen LMU     |      106|            153553|          1449|
-|Regensburg U     |      163|            182610|          1120|
-|TU Clausthal     |        4|              3771|           943|
+|                                            | Articles| Fees paid in EURO| Mean Fee paid|
+|:-------------------------------------------|--------:|-----------------:|-------------:|
+|Bamberg U                                   |       16|             15932|           996|
+|Bayreuth U                                  |       57|             64519|          1132|
+|Bielefeld U                                 |      160|            187296|          1171|
+|Dortmund TU                                 |        9|              8238|           915|
+|Duisburg-Essen U                            |      114|            130989|          1149|
+|FU Berlin                                   |       45|             56074|          1246|
+|FZJ - ZB                                    |       76|             90411|          1190|
+|GFZ-Potsdam                                 |       60|             69625|          1160|
+|Goettingen U                                |      126|            159186|          1263|
+|Hamburg TUHH                                |       10|             11911|          1191|
+|Hannover U                                  |       50|             63908|          1278|
+|Heidelberg U                                |       83|            112238|          1352|
+|INM - Leibniz-Institut für Neue Materialien |        6|              8505|          1418|
+|KIT                                         |      296|            350114|          1183|
+|Konstanz U                                  |      131|            163374|          1247|
+|Leipzig U                                   |       60|             79603|          1327|
+|MDC                                         |       34|             61519|          1809|
+|MPG                                         |      993|           1232547|          1241|
+|Muenchen LMU                                |      308|            374634|          1216|
+|Regensburg U                                |      280|            331718|          1185|
+|TU Chemnitz                                 |       15|             17441|          1163|
+|TU Clausthal                                |        4|              3771|           943|
+|TU Dresden                                  |       78|             96046|          1231|
 
 ## Use of external sources
 
