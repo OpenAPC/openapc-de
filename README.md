@@ -23,6 +23,7 @@ So far, the following German universities have agreed to share information on pa
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html)
 - [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
 - [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
@@ -54,13 +55,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  3 679 062€ for  3 004 articles were paid by the participating unviversities. Average  fee is 1 224.7€ and the median 1 190€.
+In total,  3 706 751€ for  3 029 articles were paid by the participating unviversities. Average  fee is 1 223.8€ and the median 1 190€.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 2 991 articles in open access journals which charge publication fees. Total expenditure amounts to  3 654 769€. Average  fee is 1 221.9€ and the median 1 190€.
+At the moment, the dataset releases information on 3 016 articles in open access journals which charge publication fees. Total expenditure amounts to  3 682 458€. Average  fee is 1 221€ and the median 1 190€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -70,6 +71,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
 |Bielefeld U                                 |      160|            187296|          1171|   1160|
+|Bochum U                                    |       25|             27689|          1108|   1216|
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            130989|          1149|   1194|
 |FU Berlin                                   |       45|             56074|          1246|   1177|
@@ -169,7 +171,7 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 Bielefeld University Library archives a remote including version history. To cite:
 
-Apel, Jochen; Becker, Hans-Georg; Bertelmann, Roland; Beucke, Daniel; Blumtritt, Ute; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Kuehle, Gerrit; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
+Apel, Jochen; Becker, Hans-Georg; Bertelmann, Roland; Beucke, Daniel; Blumtritt, Ute; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris; Kroiss, Stephanie; Kuehle, Gerrit; Lucht-Roussel, Kathrin;  Lützenkirchen, Frank; Oberländer, Anja; 
 Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
@@ -180,7 +182,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
