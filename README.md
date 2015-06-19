@@ -22,6 +22,7 @@ So far, the following German universities have agreed to share information on pa
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
+- [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oajlu-en?set_language=en)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html)
@@ -55,13 +56,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  3 719 198€ for  3 038 articles were paid by the participating unviversities. Average  fee is 1 224.2€ and the median 1 191€.
+In total,  4 045 281€ for  3 281 articles were paid by the participating unviversities. Average  fee is 1 232.9€ and the median 1 200€.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 3 025 articles in open access journals which charge publication fees. Total expenditure amounts to  3 694 905€. Average  fee is 1 221.5€ and the median 1 190€.
+At the moment, the dataset releases information on 3 268 articles in open access journals which charge publication fees. Total expenditure amounts to  4 020 987€. Average  fee is 1 230.4€ and the median 1 199€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -77,6 +78,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |FU Berlin                                   |       45|             56074|          1246|   1177|
 |FZJ - ZB                                    |       76|             90411|          1190|   1080|
 |GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
+|Giessen U                                   |      243|            326082|          1342|   1247|
 |Goettingen U                                |      126|            159186|          1263|   1245|
 |Hamburg TUHH                                |       10|             11911|          1191|   1149|
 |Hannover U                                  |       50|             63908|          1278|   1194|
