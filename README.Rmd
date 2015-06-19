@@ -177,7 +177,7 @@ colour_count <- length(unique(my.df$Uni))
 
 
 p <- ggplot(my.df, aes(publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() + 
-  scale_y_continuous(limits=c(0, 1000000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
+  scale_y_continuous(limits=c(0, 1250000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
   scale_fill_manual(values = colorRampPalette(brewer.pal(12, "Set3"))(colour_count)) +
   theme_bw() + theme(legend.text = element_text(size = 4, colour = "black")) +
   guides(fill=guide_legend(ncol=2)) 
