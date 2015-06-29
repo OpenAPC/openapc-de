@@ -56,13 +56,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  4 045 281€ for  3 281 articles were paid by the participating unviversities. Average  fee is 1 232.9€ and the median 1 200€.
+In total,  4 035 491€ for  3 276 articles were paid by the participating unviversities. Average  fee is 1 231.8€ and the median 1 200€.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 3 268 articles in open access journals which charge publication fees. Total expenditure amounts to  4 020 987€. Average  fee is 1 230.4€ and the median 1 199€.
+At the moment, the dataset releases information on 3 263 articles in open access journals which charge publication fees. Total expenditure amounts to  4 011 197€. Average  fee is 1 229.3€ and the median 1 197€.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -76,7 +76,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            130989|          1149|   1194|
 |FU Berlin                                   |       45|             56074|          1246|   1177|
-|FZJ - ZB                                    |       76|             90411|          1190|   1080|
+|FZJ - ZB                                    |       71|             80621|          1136|   1067|
 |GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
 |Giessen U                                   |      243|            326082|          1342|   1247|
 |Goettingen U                                |      126|            159186|          1263|   1245|
@@ -163,7 +163,7 @@ In collaboration with the [DINI working group Electronic Publishing](http://dini
 * [Virtual Meeting 19 August](https://github.com/OpenAPC/openapc-de/wiki/Protokoll-Kick-Off-19.-August)
 * [Virtual Meeting 11 + 12 February 2015](https://github.com/OpenAPC/openapc-de/wiki/Ergebnisprotokoll-11-bzw.-12.-Februar-2015)
 
-## License
+## Licence
 
 The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
 
@@ -171,13 +171,10 @@ This work is licensed under the Creative Commons Attribution 4.0 Unported Licens
 
 ## How to cite?
 
-When citing this dataset, please indicate the [release](https://github.com/OpenAPC/openapc-de/releases/) you are referring to. The releases also contain information on contributors relating to the respective release.
+Bielefeld University Library archives a remote including version history. To cite:
 
-Please do not cite the master branch of the Github repository (https://github.com/OpenAPC/openapc-de/tree/master/), but use the release numbers/tags.
-
-Bielefeld University Library archives a copy (including commit history). To cite:
-
-{Contributors:} *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Apel, Jochen; Becker, Hans-Georg; Bertelmann, Roland; Beucke, Daniel; Blumtritt, Ute; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris; Kroiss, Stephanie; Kuehle, Gerrit; Lucht-Roussel, Kathrin;  Lützenkirchen, Frank; Oberländer, Anja; 
+Peil, Vitali; Pieper, Dirk; Ruckelshausen, Florian; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
