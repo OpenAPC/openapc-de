@@ -94,10 +94,10 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MPG                                         |      992|           1231441|          1241|   1170|
 |Muenchen LMU                                |      314|            382455|          1218|   1266|
 |Regensburg U                                |      280|            331718|          1185|   1183|
-|Technische Universitaet Ilmenau             |        4|              4043|          1011|   1201|
 |TU Chemnitz                                 |       15|             17441|          1163|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
 |TU Dresden                                  |       78|             96046|          1231|   1242|
+|TU Ilmenau                                  |        4|              4043|          1011|   1201|
 
 ### Hybrid articles
 
