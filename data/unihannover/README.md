@@ -1,6 +1,7 @@
 # Diese Daten #
+
 * APC-Kosten, die aus dem Open-Access-Fonds der *Leibniz Universität Hannover* bezahlt worden sind
-* Daten aus den Publikationsjahren 2013 und bisherigem Jahr 2014 (2014-09)
+* Daten aus den Publikationsjahren 2013 und bisherigem Jahr 2015 (2015-09)
 * Fonds mit Unterstützung der *Deutschen Forschungsgemeinschaft* (DFG)
 * Weitere Informationen unter <http://tib.uni-hannover.de/oafonds>:
   * geförderte Artikel
@@ -10,7 +11,7 @@
 
 # this data #
 * APC costs that the open access fund of *Leibniz Universität Hannover* has paid for
-* data from 2013 and 2014 YTD (2014-09)
+* data from 2013 and 2015 YTD (2015-09)
 * fund supported by *Deutsche Forschungsgemeinschaft* (DFG)
 * information available under <http://tib.uni-hannover.de/oafonds>:
   * funded articles
