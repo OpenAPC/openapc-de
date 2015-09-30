@@ -198,3 +198,7 @@ Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, U
 For bugs, feature requests and other issues, please submit an issue via [Github](https://github.com/OpenAPC/openapc-de/issues/new).
 
 For general comments, email najko.jahn at uni-bielefeld.de and dirk.pieper at uni-bielefeld.de
+
+## Disclaimer
+
+People, who are looking for "Open Advanced Process Control Software" for automation, visualization and process control tasks from home control up to industrial automation, please follow <http://www.openapc.com> (2015-09-30)
