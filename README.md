@@ -59,13 +59,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  4 474 463€ for  3 618 articles were paid by the participating unviversities. Average  fee is 1 236.7€ and the median 1 202€.
+In total,  4 474 463 € for  3 618 articles were paid by the participating unviversities. Average  fee is 1 236.7 € and the median 1 202 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 3 605 articles in open access journals which charge publication fees. Total expenditure amounts to  4 450 169€. Average  fee is 1 234.4€ and the median 1 201€.
+At the moment, the dataset releases information on 3 605 articles in open access journals which charge publication fees. Total expenditure amounts to  4 450 169 €. Average  fee is 1 234.4 € and the median 1 201 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -105,7 +105,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293€. Average  fee is 1 868.7€ and the median 1 785€.
+The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293 €. Average  fee is 1 868.7 € and the median 1 785 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -139,36 +139,24 @@ External sources were used to compile the dataset. This allows for disambiguated
 ### Distribution over publishers by university
 
 
-```
-#> Error in dev.off(): QuartzBitmap_Output - unable to open file 'figure/plotPublisherAPC.png'
-```
 
 ![](figure/plotPublisherAPC.png)
 
 ### Comparing fees paid by university and research institution
 
 
-```
-#> Error in dev.off(): QuartzBitmap_Output - unable to open file 'figure/boxplot_institution.png'
-```
 
 ![](figure/boxplot_institution.png)
 
 ### Average fees paid by publisher
 
 
-```
-#> Error in dev.off(): QuartzBitmap_Output - unable to open file 'figure/plotAverageAPC.png'
-```
 
 ![](figure/plotAverageAPC.png)
 
 ### Average fees Max Planck Digital Library paid for Springer Open Access articles by year
 
 
-```
-#> Error in dev.off(): QuartzBitmap_Output - unable to open file 'figure/plotAverageSpringerMPDL.png'
-```
 
 ![](figure/plotAverageSpringerMPDL.png)
 
