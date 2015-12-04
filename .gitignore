@@ -3,3 +3,5 @@
 .Rproj
 .Rhistory
 .idea
+# Exclude generated files
+python/out.csv
