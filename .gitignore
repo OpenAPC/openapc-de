@@ -5,3 +5,5 @@
 .idea
 # Exclude generated files
 python/out.csv
+# Exclude python byte code
+*.pyc
