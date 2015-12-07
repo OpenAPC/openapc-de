@@ -11,6 +11,7 @@ import locale
 import re
 import sys
 import urllib2
+import xml.etree.ElementTree as ET
 
 try:
     import chardet
@@ -123,21 +124,75 @@ def get_metadata_from_crossref(doi):
                 "error_msg": "Parse Error: '{}' is no valid DOI".format(doi)
                }
     url = 'http://data.crossref.org/' + doi
-    headers = {"Accept": "application/vnd.citationstyles.csl+json"}
+    headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
     req = urllib2.Request(url, None, headers)
     ret_value = {'success': True}
     try:
         response = urllib2.urlopen(req)
-        json_content = response.read()
-        ret_value['data'] = json.loads(json_content)
+        content_string = response.read()
+        ns = {"cr_qr": "http://www.crossref.org/qrschema/3.0",
+              "cr_x": "http://www.crossref.org/xschema/1.1",
+              "ai": "http://www.crossref.org/AccessIndicators.xsd"}
+        root = ET.fromstring(content_string)
+        crossref_data = {}
+        xml_element_not_found = ("WARNING: Element '{}' not found in in " +
+                                 "response for doi {}.")
+        xpaths = {
+            "publisher": ".//cr_qr:crm-item[@name='publisher-name']",
+            "journal": ".//cr_x:journal_metadata//cr_x:full_title",
+            "issn": ".//cr_x:journal_metadata//cr_x:issn",
+            "issn_print": ".//cr_x:journal_metadata//cr_x:issn[@media_type='print']",
+            "issn_electronic": ".//cr_x:journal_metadata//cr_x:issn[@media_type='electronic']",
+            "license": ".//ai:license_ref"
+        }
+        for elem, path in xpaths.iteritems():
+            result = root.findall(path, ns)
+            if result:
+                crossref_data[elem] = result[0].text
+            else:
+                crossref_data[elem] = ""
+                print xml_element_not_found.format(elem, doi)
+        ret_value['data'] = crossref_data
     except urllib2.HTTPError as httpe:
         ret_value['success'] = False
         code = str(httpe.getcode())
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
-    except ValueError as ve:
-        ret_value['success'] = False
-        ret_value['error_msg'] = "ValueError: " + ve.message
     return ret_value
+    
+def get_metadata_from_pubmed(doi):
+    if not doi_re.match(doi.strip()):
+        return {"success": False,
+                "error_msg": "Parse Error: '{}' is no valid DOI".format(doi)
+               }
+    url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
+    url += doi
+    req = urllib2.Request(url)
+    ret_value = {'success': True}
+    try:
+        response = urllib2.urlopen(req)
+        content_string = response.read()
+        root = ET.fromstring(content_string)
+        pubmed_data = {}
+        xml_element_not_found = ("WARNING: Element '{}' not found in in " +
+                                 "response for doi {}.")
+        xpaths = {
+            "pmid": ".//resultList/result/pmid",
+            "pmcid": ".//resultList/result/pmcid",
+        }
+        for elem, path in xpaths.iteritems():
+            result = root.findall(path)
+            if result:
+                pubmed_data[elem] = result[0].text
+            else:
+                pubmed_data[elem] = ""
+                print xml_element_not_found.format(elem, doi)
+        ret_value['data'] = pubmed_data
+    except urllib2.HTTPError as httpe:
+        ret_value['success'] = False
+        code = str(httpe.getcode())
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
+    return ret_value
+    
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -402,14 +457,16 @@ if __name__ == '__main__':
     enriched_content = []
 
     csv_file.seek(0)
+    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     header_processed = False
     for row in reader:
         if not row:
             continue # skip empty lines
         if not header_processed:
             header_processed = True
-            new_header = ["period", "doi", "apc", "type", "publisher",
-                          "journal", "ISSN_1", "ISSN_2"]
+            new_header = ["period", "doi", "apc", "publisher",
+                          "journal", "issn", "issn_print", "issn_electronic",
+                          "license", "pmid", "pmcid"]
             enriched_content.append(new_header)
             if has_header:
                 # If the CSV file has a header, we are currently there - skip it
@@ -420,21 +477,29 @@ if __name__ == '__main__':
         year = row[column_map["year"]]
         extended_row = [year, doi, apc]
 
+        # include crossref metadata
         crossref_result = get_metadata_from_crossref(doi)
         if crossref_result["success"]:
             data = crossref_result["data"]
-            print "DOI resolved: " + doi
-            crossref_fields = [data["type"], data["publisher"],
-                               data["container-title"]]
-            crossref_fields.append(data['ISSN'][0])
-            if len(data['ISSN']) > 1:
-                crossref_fields.append(data['ISSN'][1])
-            else:
-                crossref_fields.append("")
+            print "Crossref: DOI resolved: " + doi
+            crossref_fields = [data["publisher"], data["journal"],
+                               data["issn"], data["issn_print"],
+                               data["issn_electronic"], data["license"]]
             extended_row += crossref_fields
         else:
-            print ("Error while trying to resolve DOI " + doi + ": " +
+            print ("Crossref: Error while trying to resolve DOI " + doi + ": " +
                    crossref_result["error_msg"])
+        
+        # include pubmed metadata
+        pubmed_result = get_metadata_from_pubmed(doi)
+        if pubmed_result["success"]:
+            data = pubmed_result["data"]
+            print "Pubmed: DOI resolved: " + doi
+            pubmed_fields = [data["pmid"], data["pmcid"]]
+            extended_row += pubmed_fields
+        else:
+            print ("Pubmed: Error while trying to resolve DOI " + doi + ": " +
+                   pubmed_result["error_msg"])
         enriched_content.append(extended_row)
 
     csv_file.close()
