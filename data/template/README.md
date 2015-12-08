@@ -12,4 +12,4 @@
 * Please indicate your institution in the file name.
 * The file's header comprises the obligatory and optional columns.
 * Values are seperated by commas.
-* Wiki: [Hinweise zur Dateneinreichung (German)](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe), [Data schema](https://github.com/OpenAPC/openapc-de/wiki/schema
+* Wiki: [Hinweise zur Dateneinreichung (German)](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe), [Data schema](https://github.com/OpenAPC/openapc-de/wiki/schema)
