@@ -3,10 +3,11 @@
 
 import argparse
 import codecs
+from collections import OrderedDict
+from copy import copy
 import cStringIO
 import csv
 import datetime
-import json
 import locale
 import re
 import sys
@@ -82,9 +83,10 @@ class UnicodeWriter:
             self.writerow(row)
 
 ARG_HELP_STRINGS = {
-    "csv_file": "CSV file containing your APC data. It should consist of 3 " +
-                "columns at least: Year, DOI and APC Amount (in EURO).",
-    "encoding": "The encoding of the apc file. Setting this argument will " +
+    "csv_file": "CSV file containing your APC data. It must contain at least " +
+                "the 4 mandatory columns defined by the OpenAPC data schema: " +
+                "institution, doi, period and euro (in no particular order).",
+    "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
     "locale": "Set the locale context used by the script. You might want to " +
               "set this if your system locale differs from the locale the " +
@@ -93,35 +95,40 @@ ARG_HELP_STRINGS = {
               "values with ',' as decimal point character)",
     "headers": "Ignore any CSV headers (if present) and try to determine " +
                "relevant columns heuristically.",
-    "year": "Manually identify the 'Year' column if the script fails to " +
+    "institution": "Manually identify the 'institution' column if the script " +
+                   "fails to detect it automatically. The value is the " +
+                   "numerical column index in the CSV file, with the " +
+                   "leftmost column being 0.",
+    "period": "Manually identify the 'period' column if the script fails to " +
+              "detect it automatically. The value is the numerical column " +
+              "index in the CSV file, with the leftmost column being 0.",
+    "doi": "Manually identify the 'doi' column if the script fails to " +
+           "detect it automatically. The value is the numerical column index " +
+           "in the CSV file, with the leftmost column being 0.",
+    "euro": "Manually identify the 'euro' column if the script fails to " +
             "detect it automatically. The value is the numerical column " +
-            "index in the CSV file, with the leftmost column being 0.",
-    "doi": "Manually identify the 'DOI' column if the script fails to detect " +
-           "it automatically. The value is the numerical column index in the " +
-           "CSV file, with the leftmost column being 0.",
-    "apc": "Manually identify the 'apc' column if the script fails to detect " +
-           "it automatically. The value is the numerical column index in the " +
-           "CSV file, with the leftmost column being 0."
+            "index in the CSV file, with the leftmost column being 0."
 }
 
 # regex for detecing DOIs
 doi_re = re.compile("^10\.[0-9]+(\.[0-9]+)*\/\S+")
 
-def get_column_type_from_whitelist(item):
+def get_column_type_from_whitelist(column_name):
     column_names = {
+        "institution": ["institution"],
         "doi": ["doi"],
-        "apc": ["apc", "kosten"],
-        "year": ["jahr", "period"]
+        "euro": ["apc", "kosten", "euro"],
+        "period": ["period", "jahr"]
     }
     for key, whitelist in column_names.iteritems():
-        if item.lower() in whitelist:
+        if column_name.lower() in whitelist:
             return key
     return None
 
 def get_metadata_from_crossref(doi):
     if not doi_re.match(doi.strip()):
         return {"success": False,
-                "error_msg": "Parse Error: '{}' is no valid DOI".format(doi)
+                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
                }
     url = 'http://data.crossref.org/' + doi
     headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
@@ -135,22 +142,22 @@ def get_metadata_from_crossref(doi):
               "ai": "http://www.crossref.org/AccessIndicators.xsd"}
         root = ET.fromstring(content_string)
         crossref_data = {}
-        xml_element_not_found = ("WARNING: Element '{}' not found in in " +
+        xml_element_not_found = (u"WARNING: Element '{}' not found in in " +
                                  "response for doi {}.")
         xpaths = {
             "publisher": ".//cr_qr:crm-item[@name='publisher-name']",
-            "journal": ".//cr_x:journal_metadata//cr_x:full_title",
+            "journal_full_title": ".//cr_x:journal_metadata//cr_x:full_title",
             "issn": ".//cr_x:journal_metadata//cr_x:issn",
             "issn_print": ".//cr_x:journal_metadata//cr_x:issn[@media_type='print']",
             "issn_electronic": ".//cr_x:journal_metadata//cr_x:issn[@media_type='electronic']",
-            "license": ".//ai:license_ref"
+            "license_ref": ".//ai:license_ref"
         }
         for elem, path in xpaths.iteritems():
             result = root.findall(path, ns)
             if result:
                 crossref_data[elem] = result[0].text
             else:
-                crossref_data[elem] = ""
+                crossref_data[elem] = "NA"
                 print xml_element_not_found.format(elem, doi)
         ret_value['data'] = crossref_data
     except urllib2.HTTPError as httpe:
@@ -162,7 +169,7 @@ def get_metadata_from_crossref(doi):
 def get_metadata_from_pubmed(doi):
     if not doi_re.match(doi.strip()):
         return {"success": False,
-                "error_msg": "Parse Error: '{}' is no valid DOI".format(doi)
+                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
                }
     url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
@@ -173,7 +180,7 @@ def get_metadata_from_pubmed(doi):
         content_string = response.read()
         root = ET.fromstring(content_string)
         pubmed_data = {}
-        xml_element_not_found = ("WARNING: Element '{}' not found in in " +
+        xml_element_not_found = (u"WARNING: Element '{}' not found in in " +
                                  "response for doi {}.")
         xpaths = {
             "pmid": ".//resultList/result/pmid",
@@ -184,7 +191,7 @@ def get_metadata_from_pubmed(doi):
             if result:
                 pubmed_data[elem] = result[0].text
             else:
-                pubmed_data[elem] = ""
+                pubmed_data[elem] = "NA"
                 print xml_element_not_found.format(elem, doi)
         ret_value['data'] = pubmed_data
     except urllib2.HTTPError as httpe:
@@ -201,12 +208,14 @@ if __name__ == '__main__':
     parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
     parser.add_argument("-i", "--ignore-header", action="store_true",
                         help=ARG_HELP_STRINGS["headers"])
-    parser.add_argument("-year", "--year_column", type=int,
-                        help=ARG_HELP_STRINGS["year"])
+    parser.add_argument("-institution", "--institution_column", type=int,
+                        help=ARG_HELP_STRINGS["institution"])
+    parser.add_argument("-period", "--period_column", type=int,
+                        help=ARG_HELP_STRINGS["period"])
     parser.add_argument("-doi", "--doi_column", type=int,
                         help=ARG_HELP_STRINGS["doi"])
-    parser.add_argument("-apc", "--apc_column", type=int,
-                        help=ARG_HELP_STRINGS["apc"])
+    parser.add_argument("-euro", "--euro_column", type=int,
+                        help=ARG_HELP_STRINGS["euro"])
 
     args = parser.parse_args()
     enc = None # CSV file encoding
@@ -306,15 +315,18 @@ if __name__ == '__main__':
     reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
     column_map = {
-        "year": None,
-        "apc": None,
+        "institution": None,
+        "period": None,
+        "euro": None,
         "doi": None
     }
 
-    if args.year_column is not None:
-        column_map['year'] = args.year_column
-    if args.apc_column is not None:
-        column_map['apc'] = args.apc_column
+    if args.institution_column is not None:
+        column_map['institution'] = args.institution_column
+    if args.period_column is not None:
+        column_map['period'] = args.period_column
+    if args.euro_column is not None:
+        column_map['euro'] = args.euro_column
     if args.doi_column is not None:
         column_map['doi'] = args.doi_column
     header = None
@@ -353,8 +365,8 @@ if __name__ == '__main__':
             continue
         column_candidates = {
             "doi": [],
-            "year": [],
-            "apc": []
+            "period": [],
+            "euro": []
         }
         for (index, entry) in enumerate(row):
             if index in column_map.values():
@@ -373,34 +385,34 @@ if __name__ == '__main__':
                     column_candidates['doi'].append(index)
                     continue
             # Search for a potential year string
-            if column_map['year'] is None:
+            if column_map['period'] is None:
                 try:
-                    maybe_year = int(entry)
+                    maybe_period = int(entry)
                     now = datetime.date.today().year
                     # Should be a wide enough margin
-                    if maybe_year >= 2000 and maybe_year <= now + 2:
+                    if maybe_period >= 2000 and maybe_period <= now + 2:
                         column_id = str(index)
                         if header:
                             column_id += " ('" + header[index] + "')"
                         print ("The entry in column {} looks like a " +
-                               "potential year: {}").format(column_id, entry)
-                        column_candidates['year'].append(index)
+                               "potential period: {}").format(column_id, entry)
+                        column_candidates['period'].append(index)
                         continue
                 except ValueError:
                     pass
-            # Search for a potential apc string
-            if column_map['apc'] is None:
+            # Search for a potential monetary amount
+            if column_map['euro'] is None:
                 try:
-                    maybe_apc = locale.atof(entry)
+                    maybe_euro = locale.atof(entry)
                     # Are there APCs above 6000€ ??
-                    if maybe_apc >= 10 and maybe_apc <= 6000:
+                    if maybe_euro >= 10 and maybe_euro <= 6000:
                         column_id = str(index)
                         if header:
                             column_id += " ('" + header[index] + "')"
                         print ("The entry in column {} looks like a " +
-                               "potential apc amount: {}").format(column_id,
+                               "potential euro amount: {}").format(column_id,
                                                                   entry)
-                        column_candidates['apc'].append(index)
+                        column_candidates['euro'].append(index)
                         continue
                 except ValueError:
                     pass
@@ -459,48 +471,69 @@ if __name__ == '__main__':
     csv_file.seek(0)
     reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     header_processed = False
+    csv_columns = OrderedDict([
+        ("institution", "NA"),
+        ("period", "NA"),
+        ("euro", "NA"),
+        ("doi", "NA"),
+        ("is_hybrid", "NA"),
+        ("publisher", "NA"),
+        ("journal_full_title", "NA"),
+        ("issn", "NA"),
+        ("issn_print", "NA"),
+        ("issn_electronic", "NA"),
+        ("license_ref", "NA"),
+        ("indexed_in_crossref", "NA"),
+        ("pmid", "NA"),
+        ("pmcid", "NA"),
+        ("ut", "NA"),
+        ("url", "NA"),
+        ("doaj", "NA")
+    ])
     for row in reader:
         if not row:
             continue # skip empty lines
         if not header_processed:
             header_processed = True
-            new_header = ["period", "doi", "apc", "publisher",
-                          "journal", "issn", "issn_print", "issn_electronic",
-                          "license", "pmid", "pmcid"]
-            enriched_content.append(new_header)
+            enriched_content.append(csv_columns.keys())
             if has_header:
                 # If the CSV file has a header, we are currently there - skip it
                 # to get to the first data row
                 continue
+
         doi = row[column_map["doi"]]
-        apc = row[column_map["apc"]]
-        year = row[column_map["year"]]
-        extended_row = [year, doi, apc]
+
+        current_row = copy(csv_columns)
+        current_row["institution"] = row[column_map["institution"]]
+        current_row["doi"] = doi
+        current_row["euro"] = row[column_map["euro"]]
+        current_row["period"] = row[column_map["period"]]
 
         # include crossref metadata
         crossref_result = get_metadata_from_crossref(doi)
         if crossref_result["success"]:
-            data = crossref_result["data"]
             print "Crossref: DOI resolved: " + doi
-            crossref_fields = [data["publisher"], data["journal"],
-                               data["issn"], data["issn_print"],
-                               data["issn_electronic"], data["license"]]
-            extended_row += crossref_fields
+            current_row["indexed_in_crossref"] = "TRUE"
+            data = crossref_result["data"]
+            for key, value in data.iteritems():
+                current_row[key] = value
         else:
             print ("Crossref: Error while trying to resolve DOI " + doi + ": " +
                    crossref_result["error_msg"])
-        
+            current_row["indexed_in_crossref"] = "FALSE"
+
         # include pubmed metadata
         pubmed_result = get_metadata_from_pubmed(doi)
         if pubmed_result["success"]:
-            data = pubmed_result["data"]
             print "Pubmed: DOI resolved: " + doi
-            pubmed_fields = [data["pmid"], data["pmcid"]]
-            extended_row += pubmed_fields
+            data = pubmed_result["data"]
+            for key, value in data.iteritems():
+                current_row[key] = value
         else:
             print ("Pubmed: Error while trying to resolve DOI " + doi + ": " +
                    pubmed_result["error_msg"])
-        enriched_content.append(extended_row)
+
+        enriched_content.append(current_row.values())
 
     csv_file.close()
 
