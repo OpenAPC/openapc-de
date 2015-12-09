@@ -111,7 +111,7 @@ ARG_HELP_STRINGS = {
 }
 
 # regex for detecing DOIs
-doi_re = re.compile("^10\.[0-9]+(\.[0-9]+)*\/\S+")
+DOI_RE = re.compile("^10\.[0-9]+(\.[0-9]+)*\/\S+")
 
 def get_column_type_from_whitelist(column_name):
     column_names = {
@@ -126,7 +126,7 @@ def get_column_type_from_whitelist(column_name):
     return None
 
 def get_metadata_from_crossref(doi):
-    if not doi_re.match(doi.strip()):
+    if not DOI_RE.match(doi.strip()):
         return {"success": False,
                 "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
                }
@@ -165,9 +165,9 @@ def get_metadata_from_crossref(doi):
         code = str(httpe.getcode())
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
     return ret_value
-    
+
 def get_metadata_from_pubmed(doi):
-    if not doi_re.match(doi.strip()):
+    if not DOI_RE.match(doi.strip()):
         return {"success": False,
                 "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
                }
@@ -199,9 +199,8 @@ def get_metadata_from_pubmed(doi):
         code = str(httpe.getcode())
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
     return ret_value
-    
 
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
@@ -375,7 +374,7 @@ if __name__ == '__main__':
             entry = entry.strip()
             # Search for a DOI
             if column_map['doi'] is None:
-                if doi_re.match(entry):
+                if DOI_RE.match(entry):
                     column_id = str(index)
                     # identify column either numerical or by column header
                     if header:
@@ -411,7 +410,7 @@ if __name__ == '__main__':
                             column_id += " ('" + header[index] + "')"
                         print ("The entry in column {} looks like a " +
                                "potential euro amount: {}").format(column_id,
-                                                                  entry)
+                                                                   entry)
                         column_candidates['euro'].append(index)
                         continue
                 except ValueError:
@@ -545,3 +544,7 @@ if __name__ == '__main__':
                    dialect.escapechar + "'")
         writer = UnicodeWriter(out, dialect=dialect)
         writer.writerows(enriched_content)
+    
+
+if __name__ == '__main__':
+    main()
