@@ -22,7 +22,7 @@ except ImportError:
 
 # These classes were adopted from
 # https://docs.python.org/2/library/csv.html#examples
-class UTF8Recoder:
+class UTF8Recoder(object):
     """
     Iterator that reads an encoded stream and reencodes the input
     to UTF-8
@@ -36,7 +36,7 @@ class UTF8Recoder:
     def next(self):
         return self.reader.next().encode("utf-8")
 
-class UnicodeReader:
+class UnicodeReader(object):
     """
     A CSV reader which will iterate over lines in the CSV file "f",
     which is encoded in the given encoding.
@@ -53,7 +53,7 @@ class UnicodeReader:
     def __iter__(self):
         return self
 
-class UnicodeWriter:
+class UnicodeWriter(object):
     """
     A CSV writer which will write rows to CSV file "f",
     which is encoded in the given encoding.
@@ -111,7 +111,7 @@ ARG_HELP_STRINGS = {
 }
 
 # regex for detecing DOIs
-DOI_RE = re.compile("^10\.[0-9]+(\.[0-9]+)*\/\S+")
+DOI_RE = re.compile("^((https?://dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
 
 def get_column_type_from_whitelist(column_name):
     column_names = {
@@ -125,11 +125,39 @@ def get_column_type_from_whitelist(column_name):
             return key
     return None
 
-def get_metadata_from_crossref(doi):
-    if not DOI_RE.match(doi.strip()):
-        return {"success": False,
-                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
-               }
+def get_metadata_from_crossref(doi_string):
+    """
+    Take a DOI and extract metadata relevant to OpenAPC from crossref.
+
+    This method looks up a DOI in crossref and returns all metadata fields
+    relevant to OpenAPC (publisher, journal_full_title, issn, issn_print,
+    ssn_electronic, license_ref).
+
+    Args:
+        doi_string: A string representing a doi. 'Pure' form (10.xxx),
+        DOI Handbook notation (doi:10.xxx) or crossref-style
+        (http://dx.doi.org/10.xxx) are all acceptable.
+    Returns:
+        A dict with a key 'success'. If data extraction was successful,
+        'success' will be True and the dict will have a second entry 'data'
+        which contains the extracted metadata as another dict:
+
+        {'publisher': 'MDPI AG',
+         'journal_full_title': 'Chemosensors',
+         [...]
+        }
+        The dict will contain all keys in question, those were no data could
+        be retreived will have a None value.
+
+        If data extraction failed, 'success' will be False and the dict will
+        contain a second entry 'error_msg' with a string value
+        stating the reason.
+    """
+    doi_match = DOI_RE.match(doi_string.strip())
+    if not doi_match:
+        error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
+        return {"success": False, "error_msg": error_msg}
+    doi = doi_match.groupdict()["doi"]
     url = 'http://data.crossref.org/' + doi
     headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
     req = urllib2.Request(url, None, headers)
@@ -142,14 +170,14 @@ def get_metadata_from_crossref(doi):
               "ai": "http://www.crossref.org/AccessIndicators.xsd"}
         root = ET.fromstring(content_string)
         crossref_data = {}
-        xml_element_not_found = (u"WARNING: Element '{}' not found in in " +
-                                 "response for doi {}.")
         xpaths = {
             "publisher": ".//cr_qr:crm-item[@name='publisher-name']",
             "journal_full_title": ".//cr_x:journal_metadata//cr_x:full_title",
             "issn": ".//cr_x:journal_metadata//cr_x:issn",
-            "issn_print": ".//cr_x:journal_metadata//cr_x:issn[@media_type='print']",
-            "issn_electronic": ".//cr_x:journal_metadata//cr_x:issn[@media_type='electronic']",
+            "issn_print": ".//cr_x:journal_metadata//" +
+                          "cr_x:issn[@media_type='print']",
+            "issn_electronic": ".//cr_x:journal_metadata//" +
+                               "cr_x:issn[@media_type='electronic']",
             "license_ref": ".//ai:license_ref"
         }
         for elem, path in xpaths.iteritems():
@@ -157,8 +185,7 @@ def get_metadata_from_crossref(doi):
             if result:
                 crossref_data[elem] = result[0].text
             else:
-                crossref_data[elem] = "NA"
-                print xml_element_not_found.format(elem, doi)
+                crossref_data[elem] = None
         ret_value['data'] = crossref_data
     except urllib2.HTTPError as httpe:
         ret_value['success'] = False
@@ -515,7 +542,12 @@ def main():
             current_row["indexed_in_crossref"] = "TRUE"
             data = crossref_result["data"]
             for key, value in data.iteritems():
-                current_row[key] = value
+                if value is not None:
+                    current_row[key] = value
+                else:
+                    current_row[key] = "NA"
+                    print (u"WARNING: Element '{}' not found in in response " +
+                           "for doi {}.").format(key, doi)
         else:
             print ("Crossref: Error while trying to resolve DOI " + doi + ": " +
                    crossref_result["error_msg"])
@@ -544,7 +576,7 @@ def main():
                    dialect.escapechar + "'")
         writer = UnicodeWriter(out, dialect=dialect)
         writer.writerows(enriched_content)
-    
+
 
 if __name__ == '__main__':
     main()
