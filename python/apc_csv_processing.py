@@ -81,6 +81,14 @@ class UnicodeWriter(object):
     def writerows(self, rows):
         for row in rows:
             self.writerow(row)
+            
+class CSVColumn(object):
+    
+    def __init__(self, mandatory, index=None, column_name=""):
+        self.mandatory = mandatory
+        self.index = index
+        self.column_name = column_name
+        
 
 ARG_HELP_STRINGS = {
     "csv_file": "CSV file containing your APC data. It must contain at least " +
@@ -107,7 +115,12 @@ ARG_HELP_STRINGS = {
            "in the CSV file, with the leftmost column being 0.",
     "euro": "Manually identify the 'euro' column if the script fails to " +
             "detect it automatically. The value is the numerical column " +
-            "index in the CSV file, with the leftmost column being 0."
+            "index in the CSV file, with the leftmost column being 0.",
+    "publisher": "Manually identify the 'publisher' column if the script " +
+                 "fails to detect it automatically. The value is the " +
+                 "numerical column index in the CSV file, with the leftmost " +
+                 "column being 0. This is an optional column, identifying it " +
+                 "is required if there are articles without a DOI in the file."
 }
 
 # regex for detecing DOIs
@@ -118,7 +131,8 @@ def get_column_type_from_whitelist(column_name):
         "institution": ["institution"],
         "doi": ["doi"],
         "euro": ["apc", "kosten", "euro"],
-        "period": ["period", "jahr"]
+        "period": ["period", "jahr"],
+        "publisher": ["publisher"]
     }
     for key, whitelist in column_names.iteritems():
         if column_name.lower() in whitelist:
@@ -146,7 +160,7 @@ def get_metadata_from_crossref(doi_string):
          'journal_full_title': 'Chemosensors',
          [...]
         }
-        The dict will contain all keys in question, those were no data could
+        The dict will contain all keys in question, those where no data could
         be retreived will have a None value.
 
         If data extraction failed, 'success' will be False and the dict will
@@ -242,6 +256,8 @@ def main():
                         help=ARG_HELP_STRINGS["doi"])
     parser.add_argument("-euro", "--euro_column", type=int,
                         help=ARG_HELP_STRINGS["euro"])
+    parser.add_argument("-publisher", "--publisher_column", type=int,
+                        help=ARG_HELP_STRINGS["publisher"])
 
     args = parser.parse_args()
     enc = None # CSV file encoding
@@ -341,22 +357,25 @@ def main():
     reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
     column_map = {
-        "institution": None,
-        "period": None,
-        "euro": None,
-        "doi": None
+        "institution": CSVColumn(mandatory=True),
+        "period": CSVColumn(mandatory=True),
+        "euro": CSVColumn(mandatory=True),
+        "doi": CSVColumn(mandatory=True),
+        "publisher": CSVColumn(mandatory=False)
     }
 
     if args.institution_column is not None:
-        column_map['institution'] = args.institution_column
+        column_map['institution'].index = args.institution_column
     if args.period_column is not None:
-        column_map['period'] = args.period_column
+        column_map['period'].index = args.period_column
     if args.euro_column is not None:
-        column_map['euro'] = args.euro_column
+        column_map['euro'].index = args.euro_column
     if args.doi_column is not None:
-        column_map['doi'] = args.doi_column
+        column_map['doi'].index = args.doi_column
+    if args.publisher_column is not None:
+        column_map['publisher'].index = args.publisher_column
+        
     header = None
-
     if has_header:
         for row in reader:
             if not row: # Skip empty lines
@@ -369,13 +388,14 @@ def main():
                 print "\n    *** Analyzing CSV header ***\n"
             for (index, item) in enumerate(header):
                 column_type = get_column_type_from_whitelist(item)
-                if column_type is not None and column_map[column_type] is None:
-                    column_map[column_type] = index
+                if column_type is not None and column_map[column_type].index is None:
+                    column_map[column_type].index = index
+                    column_map[column_type].column_name = item
                     print ("Found column named '{}' at index {}, " +
                            "assuming this to be the {} column.").format(
                                item, index, column_type)
             break
-        unassigned = filter(lambda (k, v): v is None, column_map.iteritems())
+        unassigned = filter(lambda (k, v): v.index is None, column_map.iteritems())
         if not unassigned:
             print "All relevant columns have been identifed."
         else:
@@ -395,12 +415,12 @@ def main():
             "euro": []
         }
         for (index, entry) in enumerate(row):
-            if index in column_map.values():
+            if index in [csvcolumn.index for csvcolumn in column_map.values()]:
                 # Skip columns already assigned
                 continue
             entry = entry.strip()
             # Search for a DOI
-            if column_map['doi'] is None:
+            if column_map['doi'].index is None:
                 if DOI_RE.match(entry):
                     column_id = str(index)
                     # identify column either numerical or by column header
@@ -411,7 +431,7 @@ def main():
                     column_candidates['doi'].append(index)
                     continue
             # Search for a potential year string
-            if column_map['period'] is None:
+            if column_map['period'].index is None:
                 try:
                     maybe_period = int(entry)
                     now = datetime.date.today().year
@@ -427,7 +447,7 @@ def main():
                 except ValueError:
                     pass
             # Search for a potential monetary amount
-            if column_map['euro'] is None:
+            if column_map['euro'].index is None:
                 try:
                     maybe_euro = locale.atof(entry)
                     # Are there APCs above 6000€ ??
@@ -443,7 +463,7 @@ def main():
                 except ValueError:
                     pass
         for column_type, candidates in column_candidates.iteritems():
-            if column_map[column_type] is not None:
+            if column_map[column_type].index is not None:
                 continue
             if len(candidates) > 1:
                 print ("Could not reliably identify the '" + column_type +
@@ -452,18 +472,23 @@ def main():
                 print "No candidate found for column '" + column_type + "'!"
             else:
                 index = candidates.pop()
-                column_id = header[index] if header else str(index)
+                column_map[column_type].index = index
+                if header:
+                    column_id = header[index]
+                    column_map[column_type].column_name = column_id
+                else:
+                    column_id = index
                 print ("Assuming column '{}' to be the '{}' " +
                        "column.").format(column_id, column_type)
-                column_map[column_type] = index
+                column_map[column_type].index = index
         break
 
-    # Wrap up: Check if there any column types left which have not been
-    # identified - we cannot continue in that case.
-
-    unassigned = filter(lambda (k, v): v is None, column_map.iteritems())
+    # Wrap up: Check if there any mandatory column types left which have not
+    # been identified - we cannot continue in that case.
+    unassigned = filter(lambda (k, v): v.mandatory and v.index is None,
+                        column_map.iteritems())
     if unassigned:
-        print ("Error: We cannot continue because not all necessary " +
+        print ("ERROR: We cannot continue because not all mandatory " +
                "column types in the CSV file could be automatically " +
                "identified. There are 2 ways to fix this:")
         if not header:
@@ -483,12 +508,30 @@ def main():
 
     print "\n    *** CSV file analysis summary ***\n"
 
-    for (column_type, index) in column_map.iteritems():
+    for (column_type, csv_column) in column_map.iteritems():
+        index = csv_column.index
         column = str(index)
         if header:
             column += " ('" + header[index] + "')"
         print ("The '{}' column is column number {}.").format(column_type,
                                                               column)
+                                                              
+    # Check for unassigned optional column types. We can continue but should
+    # issue a warning as all entries will need a valid DOI in this case.
+    unassigned = filter(lambda (k, v): not v.mandatory and v.index is None,
+                        column_map.iteritems())
+    if unassigned:
+        print ("WARNING: Not all optional column types could be identified. " +
+               "Metadata aggregation is still possible, but every entry in " +
+               "the CSV file will need a valid DOI.")
+        for item in unassigned:
+            print "The {} column is still unidentified.".format(item[0])
+            
+    start = raw_input("\nStart metadata aggregation? (y/n):")
+    while start not in ["y", "n"]:
+        start = raw_input("Please type 'y' or 'n':")
+    if start == "n":
+        sys.exit()
 
     print "\n    *** Starting metadata aggregation ***\n"
 
@@ -527,13 +570,13 @@ def main():
                 # to get to the first data row
                 continue
 
-        doi = row[column_map["doi"]]
+        doi = row[column_map["doi"].index]
 
         current_row = copy(csv_columns)
-        current_row["institution"] = row[column_map["institution"]]
+        current_row["institution"] = row[column_map["institution"].index]
         current_row["doi"] = doi
-        current_row["euro"] = row[column_map["euro"]]
-        current_row["period"] = row[column_map["period"]]
+        current_row["euro"] = row[column_map["euro"].index]
+        current_row["period"] = row[column_map["period"].index]
 
         # include crossref metadata
         crossref_result = get_metadata_from_crossref(doi)
