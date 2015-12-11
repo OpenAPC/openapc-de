@@ -81,14 +81,14 @@ class UnicodeWriter(object):
     def writerows(self, rows):
         for row in rows:
             self.writerow(row)
-            
+
 class CSVColumn(object):
-    
+
     def __init__(self, mandatory, index=None, column_name=""):
         self.mandatory = mandatory
         self.index = index
         self.column_name = column_name
-        
+
 
 ARG_HELP_STRINGS = {
     "csv_file": "CSV file containing your APC data. It must contain at least " +
@@ -120,7 +120,13 @@ ARG_HELP_STRINGS = {
                  "fails to detect it automatically. The value is the " +
                  "numerical column index in the CSV file, with the leftmost " +
                  "column being 0. This is an optional column, identifying it " +
-                 "is required if there are articles without a DOI in the file."
+                 "is required if there are articles without a DOI in the file.",
+    "journal_full_title": "Manually identify the 'journal_full_title' column " +
+                          "if the script fails to detect it automatically. " +
+                          "The value is the numerical column index in the " +
+                          "CSV file, with the leftmost column being 0. This " +
+                          "is an optional column, identifying it is required " +
+                          "if there are articles without a DOI in the file."
 }
 
 # regex for detecing DOIs
@@ -132,7 +138,8 @@ def get_column_type_from_whitelist(column_name):
         "doi": ["doi"],
         "euro": ["apc", "kosten", "euro"],
         "period": ["period", "jahr"],
-        "publisher": ["publisher"]
+        "publisher": ["publisher"],
+        "journal_full_title": ["journal_full_title"]
     }
     for key, whitelist in column_names.iteritems():
         if column_name.lower() in whitelist:
@@ -258,6 +265,8 @@ def main():
                         help=ARG_HELP_STRINGS["euro"])
     parser.add_argument("-publisher", "--publisher_column", type=int,
                         help=ARG_HELP_STRINGS["publisher"])
+    parser.add_argument("-journal_full_title", "--journal_full_title_column",
+                        type=int, help=ARG_HELP_STRINGS["journal_full_title"])
 
     args = parser.parse_args()
     enc = None # CSV file encoding
@@ -357,24 +366,14 @@ def main():
     reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
     column_map = {
-        "institution": CSVColumn(mandatory=True),
-        "period": CSVColumn(mandatory=True),
-        "euro": CSVColumn(mandatory=True),
-        "doi": CSVColumn(mandatory=True),
-        "publisher": CSVColumn(mandatory=False)
+        "institution": CSVColumn(True, args.institution_column),
+        "period": CSVColumn(True, args.period_column),
+        "euro": CSVColumn(True, args.euro_column),
+        "doi": CSVColumn(True, args.doi_column),
+        "publisher": CSVColumn(False, args.publisher_column),
+        "journal_full_title": CSVColumn(False, args.journal_full_title_column)
     }
 
-    if args.institution_column is not None:
-        column_map['institution'].index = args.institution_column
-    if args.period_column is not None:
-        column_map['period'].index = args.period_column
-    if args.euro_column is not None:
-        column_map['euro'].index = args.euro_column
-    if args.doi_column is not None:
-        column_map['doi'].index = args.doi_column
-    if args.publisher_column is not None:
-        column_map['publisher'].index = args.publisher_column
-        
     header = None
     if has_header:
         for row in reader:
@@ -395,7 +394,8 @@ def main():
                            "assuming this to be the {} column.").format(
                                item, index, column_type)
             break
-        unassigned = filter(lambda (k, v): v.index is None, column_map.iteritems())
+        unassigned = filter(lambda (k, v): v.index is None,
+                            column_map.iteritems())
         if not unassigned:
             print "All relevant columns have been identifed."
         else:
@@ -484,7 +484,7 @@ def main():
         break
 
     # Wrap up: Check if there any mandatory column types left which have not
-    # been identified - we cannot continue in that case.
+    # yet been identified - we cannot continue in that case.
     unassigned = filter(lambda (k, v): v.mandatory and v.index is None,
                         column_map.iteritems())
     if unassigned:
@@ -510,23 +510,25 @@ def main():
 
     for (column_type, csv_column) in column_map.iteritems():
         index = csv_column.index
-        column = str(index)
-        if header:
-            column += " ('" + header[index] + "')"
-        print ("The '{}' column is column number {}.").format(column_type,
-                                                              column)
-                                                              
+        if index is None:
+            print "The '{}' column could not be identified.".format(column_type)
+        else:
+            column_name = ""
+            if csv_column.column_name:
+                column_name = " ('" + csv_column.column_name + "')"
+            print ("The '{}' column is column number {}{}.").format(column_type,
+                                                                    index,
+                                                                    column_name)
+
     # Check for unassigned optional column types. We can continue but should
     # issue a warning as all entries will need a valid DOI in this case.
     unassigned = filter(lambda (k, v): not v.mandatory and v.index is None,
                         column_map.iteritems())
     if unassigned:
-        print ("WARNING: Not all optional column types could be identified. " +
-               "Metadata aggregation is still possible, but every entry in " +
-               "the CSV file will need a valid DOI.")
-        for item in unassigned:
-            print "The {} column is still unidentified.".format(item[0])
-            
+        print ("\nWARNING: Not all optional column types could be " +
+               "identified. Metadata aggregation is still possible, but " +
+               "every entry in the CSV file will need a valid DOI.")
+
     start = raw_input("\nStart metadata aggregation? (y/n):")
     while start not in ["y", "n"]:
         start = raw_input("Please type 'y' or 'n':")
