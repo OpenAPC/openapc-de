@@ -238,8 +238,6 @@ def get_metadata_from_pubmed(doi):
         content_string = response.read()
         root = ET.fromstring(content_string)
         pubmed_data = {}
-        xml_element_not_found = (u"WARNING: Element '{}' not found in in " +
-                                 "response for doi {}.")
         xpaths = {
             "pmid": ".//resultList/result/pmid",
             "pmcid": ".//resultList/result/pmcid",
@@ -249,8 +247,7 @@ def get_metadata_from_pubmed(doi):
             if result:
                 pubmed_data[elem] = result[0].text
             else:
-                pubmed_data[elem] = "NA"
-                print xml_element_not_found.format(elem, doi)
+                pubmed_data[elem] = None
         ret_value['data'] = pubmed_data
     except urllib2.HTTPError as httpe:
         ret_value['success'] = False
@@ -392,6 +389,8 @@ def main():
                                         args.journal_full_title_column)
     }
     
+    # This list will store info about additional (unknown) columns found in 
+    # the CSV file as CSVColumn objects. 
     additional_columns = []
     
     csv_columns = OrderedDict([
@@ -615,10 +614,11 @@ def main():
         doi = row[column_map["doi"].index]
 
         current_row = copy(csv_columns)
-        current_row["institution"] = row[column_map["institution"].index]
-        current_row["doi"] = doi
-        current_row["euro"] = row[column_map["euro"].index]
-        current_row["period"] = row[column_map["period"].index]
+        
+        # Copy content of identified columns 
+        for csv_column in column_map.values():
+            if csv_column.index is not None:
+                current_row[csv_column.column_type] = row[csv_column.index]
         
         # add unidentified fields to the row
         for column in additional_columns:
@@ -649,7 +649,12 @@ def main():
             print "Pubmed: DOI resolved: " + doi
             data = pubmed_result["data"]
             for key, value in data.iteritems():
-                current_row[key] = value
+                if value is not None:
+                    current_row[key] = value
+                else:
+                    current_row[key] = "NA"
+                    print (u"WARNING: Element '{}' not found in in response " +
+                           "for doi {}.").format(key, doi)
         else:
             print ("Pubmed: Error while trying to resolve DOI " + doi + ": " +
                    pubmed_result["error_msg"])
