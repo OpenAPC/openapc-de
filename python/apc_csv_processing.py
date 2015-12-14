@@ -149,7 +149,7 @@ def get_column_type_from_whitelist(column_name):
         "euro": ["apc", "kosten", "euro"],
         "period": ["period", "jahr"],
         "publisher": ["publisher"],
-        "journal_full_title": ["journal_full_title"]
+        "journal_full_title": ["journal_full_title", "journal"]
     }
     for key, whitelist in column_names.iteritems():
         if column_name.lower() in whitelist:
@@ -391,6 +391,28 @@ def main():
         "journal_full_title": CSVColumn("journal_full_title", False,
                                         args.journal_full_title_column)
     }
+    
+    additional_columns = []
+    
+    csv_columns = OrderedDict([
+        ("institution", "NA"),
+        ("period", "NA"),
+        ("euro", "NA"),
+        ("doi", "NA"),
+        ("is_hybrid", "NA"),
+        ("publisher", "NA"),
+        ("journal_full_title", "NA"),
+        ("issn", "NA"),
+        ("issn_print", "NA"),
+        ("issn_electronic", "NA"),
+        ("license_ref", "NA"),
+        ("indexed_in_crossref", "NA"),
+        ("pmid", "NA"),
+        ("pmcid", "NA"),
+        ("ut", "NA"),
+        ("url", "NA"),
+        ("doaj", "NA")
+    ])
 
     
     header = None
@@ -535,6 +557,15 @@ def main():
             msg = ("column number {} ({}) is an unknown column, it will be " +
                    "appended to the generated CSV file")
             print msg.format(index, column_name)
+            if not column_name:
+                # Use a generic name
+                column_name = "unknown"
+            while column_name in csv_columns:
+                # TODO: Replace by a numerical, increasing suffix
+                column_name += "_"
+            csv_columns[column_name] = "NA"
+            additional_columns.append(CSVColumn(column_name, False, index))
+            
 
     print ""
     for column in column_map.values():
@@ -569,25 +600,7 @@ def main():
     csv_file.seek(0)
     reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     header_processed = False
-    csv_columns = OrderedDict([
-        ("institution", "NA"),
-        ("period", "NA"),
-        ("euro", "NA"),
-        ("doi", "NA"),
-        ("is_hybrid", "NA"),
-        ("publisher", "NA"),
-        ("journal_full_title", "NA"),
-        ("issn", "NA"),
-        ("issn_print", "NA"),
-        ("issn_electronic", "NA"),
-        ("license_ref", "NA"),
-        ("indexed_in_crossref", "NA"),
-        ("pmid", "NA"),
-        ("pmcid", "NA"),
-        ("ut", "NA"),
-        ("url", "NA"),
-        ("doaj", "NA")
-    ])
+    
     for row in reader:
         if not row:
             continue # skip empty lines
@@ -606,7 +619,12 @@ def main():
         current_row["doi"] = doi
         current_row["euro"] = row[column_map["euro"].index]
         current_row["period"] = row[column_map["period"].index]
-
+        
+        # add unidentified fields to the row
+        for column in additional_columns:
+            field = row[column.index]
+            current_row[column.column_type] = field
+            
         # include crossref metadata
         crossref_result = get_metadata_from_crossref(doi)
         if crossref_result["success"]:
