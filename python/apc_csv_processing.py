@@ -84,7 +84,8 @@ class UnicodeWriter(object):
 
 class CSVColumn(object):
 
-    def __init__(self, mandatory, index=None, column_name=""):
+    def __init__(self, column_type, mandatory, index=None, column_name=""):
+        self.column_type = column_type
         self.mandatory = mandatory
         self.index = index
         self.column_name = column_name
@@ -133,6 +134,15 @@ ARG_HELP_STRINGS = {
 DOI_RE = re.compile("^((https?://dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
 
 def get_column_type_from_whitelist(column_name):
+    """
+    Identify a CSV column type by looking up the name in a whitelist.
+    
+    Args:
+        column_name: Name of a CSV column, usually extracted from the header.
+    Returns:
+        An APC-normed column type (as a string) if the column name was found in
+        a whitelist, None otherwise.
+    """
     column_names = {
         "institution": ["institution"],
         "doi": ["doi"],
@@ -364,16 +374,25 @@ def main():
 
     csv_file.seek(0)
     reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    
+    first_row = reader.next()
+    num_columns = len(first_row)
+    print "\nCSV file has {} columns.".format(num_columns)
+    
+    csv_file.seek(0)
+    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
     column_map = {
-        "institution": CSVColumn(True, args.institution_column),
-        "period": CSVColumn(True, args.period_column),
-        "euro": CSVColumn(True, args.euro_column),
-        "doi": CSVColumn(True, args.doi_column),
-        "publisher": CSVColumn(False, args.publisher_column),
-        "journal_full_title": CSVColumn(False, args.journal_full_title_column)
+        "institution": CSVColumn("institution", True, args.institution_column),
+        "period": CSVColumn("period", True, args.period_column),
+        "euro": CSVColumn("euro", True, args.euro_column),
+        "doi": CSVColumn("doi", True, args.doi_column),
+        "publisher": CSVColumn("publisher", False, args.publisher_column),
+        "journal_full_title": CSVColumn("journal_full_title", False,
+                                        args.journal_full_title_column)
     }
 
+    
     header = None
     if has_header:
         for row in reader:
@@ -394,13 +413,6 @@ def main():
                            "assuming this to be the {} column.").format(
                                item, index, column_type)
             break
-        unassigned = filter(lambda (k, v): v.index is None,
-                            column_map.iteritems())
-        if not unassigned:
-            print "All relevant columns have been identifed."
-        else:
-            for item in unassigned:
-                print "The {} column is still unidentified.".format(item[0])
 
 
     print "\n    *** Starting heuristical analysis ***\n"
@@ -508,17 +520,30 @@ def main():
 
     print "\n    *** CSV file analysis summary ***\n"
 
-    for (column_type, csv_column) in column_map.iteritems():
-        index = csv_column.index
-        if index is None:
-            print "The '{}' column could not be identified.".format(column_type)
+    index_dict = {csvc.index: csvc for csvc in column_map.values()}
+    
+    for index in range(num_columns):
+        column_name = ""
+        if header:
+            column_name = header[index]
+        if index in index_dict:
+            column = index_dict[index]
+            mandatory = "mandatory" if column.mandatory else "optional"
+            msg = "column number {} ({}) is the {} column '{}'"
+            print msg.format(index, column_name, mandatory, column.column_type)
         else:
-            column_name = ""
-            if csv_column.column_name:
-                column_name = " ('" + csv_column.column_name + "')"
-            print ("The '{}' column is column number {}{}.").format(column_type,
-                                                                    index,
-                                                                    column_name)
+            msg = ("column number {} ({}) is an unknown column, it will be " +
+                   "appended to the generated CSV file")
+            print msg.format(index, column_name)
+
+    print ""
+    for column in column_map.values():
+        if column.index is None:
+            # Should all be optional...
+            mandatory = "mandatory" if column.mandatory else "optional"
+            msg = "The {} column '{}' could not be identified."
+            print msg.format(mandatory, column.column_type)
+
 
     # Check for unassigned optional column types. We can continue but should
     # issue a warning as all entries will need a valid DOI in this case.
@@ -534,6 +559,8 @@ def main():
         start = raw_input("Please type 'y' or 'n':")
     if start == "n":
         sys.exit()
+        
+    
 
     print "\n    *** Starting metadata aggregation ***\n"
 
