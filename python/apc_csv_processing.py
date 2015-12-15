@@ -128,7 +128,12 @@ ARG_HELP_STRINGS = {
                           "The value is the numerical column index in the " +
                           "CSV file, with the leftmost column being 0. This " +
                           "is an optional column, identifying it is required " +
-                          "if there are articles without a DOI in the file."
+                          "if there are articles without a DOI in the file.",
+    "url": "Manually identify the 'url' column if the script fails to detect " +
+           "it automatically. The value is the numerical column index in the " +
+           "CSV file, with the leftmost column being 0. This is an optional " +
+           "column, identifying it is required if there are articles without " +
+           "a DOI in the file."
 }
 
 # regex for detecing DOIs
@@ -150,7 +155,8 @@ def get_column_type_from_whitelist(column_name):
         "euro": ["apc", "kosten", "euro"],
         "period": ["period", "jahr"],
         "publisher": ["publisher"],
-        "journal_full_title": ["journal_full_title", "journal"]
+        "journal_full_title": ["journal_full_title", "journal"],
+        "url": ["url"]
     }
     for key, whitelist in column_names.iteritems():
         if column_name.lower() in whitelist:
@@ -335,6 +341,8 @@ def main():
                         help=ARG_HELP_STRINGS["publisher"])
     parser.add_argument("-journal_full_title", "--journal_full_title_column",
                         type=int, help=ARG_HELP_STRINGS["journal_full_title"])
+    parser.add_argument("-url", "--url_column",
+                        type=int, help=ARG_HELP_STRINGS["url"])
 
     args = parser.parse_args()
     enc = None # CSV file encoding
@@ -447,7 +455,8 @@ def main():
         "doi": CSVColumn("doi", True, args.doi_column),
         "publisher": CSVColumn("publisher", False, args.publisher_column),
         "journal_full_title": CSVColumn("journal_full_title", False,
-                                        args.journal_full_title_column)
+                                        args.journal_full_title_column),
+        "url": CSVColumn("url", False, args.url_column)
     }
     
     # This list will store info about additional (unknown) columns found in 
@@ -720,13 +729,15 @@ def main():
             print ("Pubmed: Error while trying to resolve DOI " + doi + ": " +
                    pubmed_result["error_msg"])
                    
-        # lookup in DOAJ. try the EISSN first, then the ISSN
+        # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
         if current_row["doaj"] != "TRUE":
             issns = []
             if current_row["issn_electronic"] != "NA":
                 issns.append(current_row["issn_electronic"])
             if current_row["issn"] != "NA":
                 issns.append(current_row["issn"])
+            if current_row["issn_print"] != "NA":
+                issns.append(current_row["issn_print"])
             for issn in issns:
                 doaj_res = lookup_journal_in_doaj(issn)
                 if doaj_res["data_received"]:
