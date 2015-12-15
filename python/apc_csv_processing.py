@@ -8,6 +8,7 @@ from copy import copy
 import cStringIO
 import csv
 import datetime
+import json
 import locale
 import re
 import sys
@@ -254,6 +255,66 @@ def get_metadata_from_pubmed(doi):
         code = str(httpe.getcode())
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
     return ret_value
+    
+def lookup_journal_in_doaj(issn):
+    """
+    Take an ISSN and check if the corresponding journal exists in DOAJ.
+    
+    This method looks up an ISSN in the Directory of Open Access Journals
+    (DOAJ, https://doaj.org). This is a simple existence check and will not
+    return any additional metadata (except for the journal title).
+    It is also important to note that there is no additional effort to test
+    the validity of the given ISSN - if a negative result is returned, the ISSN
+    might be invalid, but it might also belong to a journal which is not
+    registered in DOAJ.
+    
+    Args:
+        issn: A string representing an issn
+     Returns:
+        A dict with a key 'data_received'. If data was received from DOAJ,
+        this key will have the value True and the dict will have a second
+        entry 'data' which contains the lookup result:
+        
+        {'in_doaj': True,
+         'title': 'Frontiers in Human Neuroscience',
+        }
+        or
+        {'in_doaj': False}
+
+        If data extraction failed, 'data_received' will be False and the dict
+        will contain a second entry 'error_msg' with a string value
+        stating the reason.   
+    """
+    headers = {"Accept": "application/json"}
+    ret_value = {'data_received': True}
+    url = "https://doaj.org/api/v1/search/journals/issn:" + issn
+    req = urllib2.Request(url, None, headers)
+    try:
+        response = urllib2.urlopen(req)
+        content_string = response.read()
+        json_dict = json.loads(content_string)
+        ret_data = {}
+        if "results" in json_dict and len(json_dict["results"]) > 0:
+            ret_data["in_doaj"] = True
+            # Try to extract the journal title - useful for error correction
+            journal = json_dict["results"][0]
+            try:
+                ret_data["title"] = journal["bibjson"]["title"]
+            except KeyError:
+                ret_data["title"] = ""
+        else:
+            ret_data["in_doaj"] = False
+        ret_value['data'] = ret_data
+    except urllib2.HTTPError as httpe:
+        ret_value['data_received'] = False
+        code = str(httpe.getcode())
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
+    except ValueError as ve:
+        ret_value['data_received'] = False
+        msg = "ValueError while parsing JSON: {}"
+        ret_value['error_msg'] = msg.format(ve.message)
+    return ret_value
+        
 
 def main():
     parser = argparse.ArgumentParser()
@@ -658,6 +719,30 @@ def main():
         else:
             print ("Pubmed: Error while trying to resolve DOI " + doi + ": " +
                    pubmed_result["error_msg"])
+                   
+        # lookup in DOAJ. try the EISSN first, then the ISSN
+        if current_row["doaj"] != "TRUE":
+            issns = []
+            if current_row["issn_electronic"] != "NA":
+                issns.append(current_row["issn_electronic"])
+            if current_row["issn"] != "NA":
+                issns.append(current_row["issn"])
+            for issn in issns:
+                doaj_res = lookup_journal_in_doaj(issn)
+                if doaj_res["data_received"]:
+                    if doaj_res["data"]["in_doaj"]:
+                        msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
+                        print msg.format(issn, doaj_res["data"]["title"])
+                        current_row["doaj"] = "TRUE"
+                        break
+                    else:
+                        msg = "DOAJ: Journal ISSN ({}) not found in DOAJ."
+                        current_row["doaj"] = "FALSE"
+                        print msg.format(issn)
+                else:
+                    msg = "DOAJ: Error while trying to look up ISSN {}: {}"
+                    print msg.format(issn, doaj_res["error_msg"])
+            
 
         enriched_content.append(current_row.values())
 
