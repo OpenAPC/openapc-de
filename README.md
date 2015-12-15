@@ -1,7 +1,7 @@
 
 
 
-## About 
+## About
 
 The aim of this repository is:
 
@@ -59,13 +59,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  4 494 568 € for  3 633 articles were paid by the participating unviversities. Average  fee is 1 237.2 € and the median 1 203 €.
+In total,  4 514 469 € for  3 654 articles were paid by the participating unviversities. Average  fee is 1 235.5 € and the median 1 203 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 3 620 articles in open access journals which charge publication fees. Total expenditure amounts to  4 470 274 €. Average  fee is 1 234.9 € and the median 1 202 €.
+At the moment, the dataset releases information on 3 641 articles in open access journals which charge publication fees. Total expenditure amounts to  4 490 176 €. Average  fee is 1 233.2 € and the median 1 202 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -95,7 +95,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MPG                                         |      992|           1231441|          1241|   1170|
 |Muenchen LMU                                |      314|            382455|          1218|   1266|
 |Regensburg U                                |      280|            331718|          1185|   1183|
-|TU Chemnitz                                 |       15|             17441|          1163|   1142|
+|TU Chemnitz                                 |       36|             37342|          1037|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
 |TU Dresden                                  |       78|             96046|          1231|   1242|
 |TU Ilmenau                                  |        4|              4043|          1011|   1201|
@@ -171,7 +171,7 @@ In collaboration with the [DINI working group Electronic Publishing](http://dini
 
 ## License
 
-The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
+The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 This work is licensed under the Creative Commons Attribution 4.0 Unported License.
 
@@ -187,13 +187,13 @@ Bielefeld University Library archives a copy (including commit history). To cite
 
 ## Acknowledgement
 
-This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting. 
+This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting.
 
 For data enrichment, sample visualisations and explorations we build on the work of [rOpenSci](http://ropensci.org/) and [LibreCat/Catmandu](http://librecat.org/).
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 

@@ -5,7 +5,7 @@ knitr::opts_knit$set(base.url = "/")
 knitr::opts_chunk$set(
   comment = "#>",
   collapse = TRUE,
-  warning = FALSE, 
+  warning = FALSE,
   message = FALSE,
   echo = FALSE,
   fig.width = 9,
@@ -17,7 +17,7 @@ knitr::knit_hooks$set(inline = function(x) {
 })
 ```
 
-## About 
+## About
 
 The aim of this repository is:
 
@@ -165,12 +165,12 @@ my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "I
 ## Choose only publisher with at least 5 publication (abritary)
 
 # relevel
-my.apc$publisher <- factor(my.apc$publisher, 
+my.apc$publisher <- factor(my.apc$publisher,
                            levels =  c(rownames(data.frame(rev(sort(tapply(my.apc$EURO, list(my.apc$publisher), sum)))))))
-my.apc$Institution <- factor(my.apc$Institution, 
+my.apc$Institution <- factor(my.apc$Institution,
                            levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
 
-levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=", 
+levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=",
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
 
 my.df <- aggregate(my.apc$EURO, list(publisher =my.apc$publisher, Uni = my.apc$Institution), sum)
@@ -179,11 +179,11 @@ my.df <- aggregate(my.apc$EURO, list(publisher =my.apc$publisher, Uni = my.apc$I
 colour_count <- length(unique(my.df$Uni))
 
 
-p <- ggplot(my.df, aes(publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() + 
-  scale_y_continuous(limits=c(0, 1250000), labels=function(x) format(x, big.mark = " ", scientific = FALSE)) + 
+p <- ggplot(my.df, aes(publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() +
+  scale_y_continuous(limits=c(0, 1250000), labels=function(x) format(x, big.mark = " ", scientific = FALSE)) +
   scale_fill_manual(values = colorRampPalette(brewer.pal(12, "Set3"))(colour_count)) +
   theme_bw() + theme(legend.text = element_text(size = 4, colour = "black")) +
-  guides(fill=guide_legend(ncol=2)) 
+  guides(fill=guide_legend(ncol=2))
 
 ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 ```
@@ -209,12 +209,12 @@ ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="i
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 # relevel
-my.apc$publisher <- factor(my.apc$publisher, 
+my.apc$publisher <- factor(my.apc$publisher,
                            levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
-my.apc$Institution <- factor(my.apc$Institution, 
+my.apc$Institution <- factor(my.apc$Institution,
                            levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
 
-levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=", 
+levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=",
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
 
 q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
@@ -253,7 +253,7 @@ In collaboration with the [DINI working group Electronic Publishing](http://dini
 
 ## License
 
-The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
+The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 This work is licensed under the Creative Commons Attribution 4.0 Unported License.
 
@@ -269,13 +269,13 @@ Bielefeld University Library archives a copy (including commit history). To cite
 
 ## Acknowledgement
 
-This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting. 
+This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting.
 
 For data enrichment, sample visualisations and explorations we build on the work of [rOpenSci](http://ropensci.org/) and [LibreCat/Catmandu](http://librecat.org/).
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
 
 ## Contact
 
