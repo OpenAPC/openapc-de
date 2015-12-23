@@ -5,7 +5,6 @@
 
 cr_parse_old <- function(doi) {
   
-  # fetch XML through rcrossref
   tryCatch({
     doc <- rcrossref::cr_cn(doi, "crossref-tdm")
   }, error=function(err) {
@@ -13,7 +12,9 @@ cr_parse_old <- function(doi) {
     warning(sprintf("doi: %s not found", doi))
   })
   
-  if(!exists("doc")) return(NULL) else
+  if(is.null(doc))
+    return(NULL)
+  else
     
     # namespaces
     nm = c(cr = "http://www.crossref.org/xschema/1.0",
@@ -24,9 +25,9 @@ cr_parse_old <- function(doi) {
   xp_queries = c(doi = "//ct:doi",
                  journal_full_title = "//cr:journal_metadata//cr:full_title",
                  publisher = "//ct:crm-item[@name='publisher-name']",
-                 issn = "//cr:journal_metadata//cr:issn",
-                 issn_print = "//cr:journal_metadata//cr:issn[@media_type='print']",
-                 issn_electronic = "//cr:journal_metadata//cr:issn[@media_type='electronic']",
+                 issn = "//*[local-name() = 'journal_metadata']//*[local-name() = 'issn']",
+                 issn_print = "//*[local-name() = 'journal_metadata']//*[local-name() = 'issn' and @media_type='print']",
+                 issn_electronic = "//*[local-name() = 'journal_metadata']//*[local-name() = 'issn' and @media_type='electronic']",
                  license_ref = "//ai:license_ref")
   
   # sapply on xpath queries on nodes
