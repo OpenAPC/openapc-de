@@ -137,7 +137,7 @@ ARG_HELP_STRINGS = {
 }
 
 # regex for detecing DOIs
-DOI_RE = re.compile("^((https?://dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
+DOI_RE = re.compile("^(((https?://)?dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
 
 def get_column_type_from_whitelist(column_name):
     """
