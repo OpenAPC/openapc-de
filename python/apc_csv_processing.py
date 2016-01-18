@@ -68,6 +68,9 @@ class UnicodeWriter(object):
         self.encoder = codecs.getincrementalencoder(encoding)()
 
     def writerow(self, row):
+        if self.writer.dialect.quoting == csv.QUOTE_NONE:
+            # Use the apc-specific quotation rules
+            row = [self.mimic_r_dialect(s) for s in row]
         self.writer.writerow([s.encode("utf-8") for s in row])
         # Fetch UTF-8 output from the queue ...
         data = self.queue.getvalue()
@@ -82,6 +85,33 @@ class UnicodeWriter(object):
     def writerows(self, rows):
         for row in rows:
             self.writerow(row)
+            
+    def mimic_r_dialect(self, s):
+        """
+        Quote a string based on the open apc csv standard.
+        
+        Having been created by an R library, the open apc csv files use the
+        following rules for quoting fields:
+        - Do not quote numeric values.
+        - Do not quote the keywords FALSE, TRUE and NA.
+        - Quote everything else.
+        Since the python csv module cannot reproduce this exact behaviour, we
+        have to reimplement it.
+        
+        Args:
+            s: A string.
+        Returns:
+            Either a quoted or an unmodified version of s, according to the
+            apc csv standard.
+        """
+        if s in ["TRUE", "FALSE", "NA"]:
+            return s
+        try:
+            # Consider locale instead?
+            float(s)
+            return s
+        except ValueError:
+            return '"' + s + '"'
 
 class CSVColumn(object):
 
@@ -758,13 +788,10 @@ def main():
         enriched_content.append(current_row.values())
 
     csv_file.close()
-
+    dialect.quoting = csv.QUOTE_NONE
+    dialect.quotechar = ''
+    dialect.escapechar = "\\"
     with open('out.csv', 'w') as out:
-        if not dialect.escapechar:
-            dialect.escapechar = "\\"
-            print ("WARNING: Escaping needed while writing output file, but " +
-                   "dialect does not specify an escape char - using '" +
-                   dialect.escapechar + "'")
         writer = UnicodeWriter(out, dialect=dialect)
         writer.writerows(enriched_content)
 
