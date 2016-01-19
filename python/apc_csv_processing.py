@@ -53,6 +53,42 @@ class UnicodeReader(object):
 
     def __iter__(self):
         return self
+        
+class OpenAPCUnicodeWriter(object):
+    """
+    A custom CSV writer. Encodes output in Unicode and follows the open APC
+    CSV quotation standards. A quote mask can be provided to enable or disable
+    value quotation in distinct CSV columns.
+    """
+    
+    def __init__(self, f, quotemask=None, has_header=True):
+        self.outfile = f
+        self.quotemask = quotemask
+        self.has_header = has_header
+        self.encoder = codecs.getincrementalencoder("utf-8")()
+        
+    def _prepare_row(self, row, use_quotemask):
+        for index in range(len(row)):
+            if row[index] in [u"TRUE", u"FALSE", u"NA"]:
+                # Never quote these keywords
+                continue
+            if use_quotemask and self.quotemask is not None and index < len(self.quotemask):
+                if not self.quotemask[index]:
+                    # Do not quote items where the quotemask is False 
+                    continue
+            row[index] = u'"' + row[index] + u'"'
+        return row
+
+    def _write_row(self, row):
+        line = u",".join(row) + u"\r\n"
+        line = self.encoder.encode(line)
+        self.outfile.write(line)
+        
+    def write_rows(self, rows):
+        if self.has_header:
+            self._write_row(self._prepare_row(rows.pop(0), False))
+        for row in rows:
+            self._write_row(self._prepare_row(row, True))
 
 class UnicodeWriter(object):
     """
@@ -76,6 +112,7 @@ class UnicodeWriter(object):
         data = self.queue.getvalue()
         data = data.decode("utf-8")
         # ... and reencode it into the target encoding
+        print data
         data = self.encoder.encode(data)
         # write to the target stream
         self.stream.write(data)
@@ -512,8 +549,28 @@ def main():
         ("url", "NA"),
         ("doaj", "NA")
     ])
-
     
+    # Do not quote the values in the 'period' and 'euro' columns 
+    quotemask = [
+        True,
+        False,
+        False,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+    ]
+
     header = None
     if has_header:
         for row in reader:
@@ -788,12 +845,10 @@ def main():
         enriched_content.append(current_row.values())
 
     csv_file.close()
-    dialect.quoting = csv.QUOTE_NONE
-    dialect.quotechar = ''
-    dialect.escapechar = "\\"
+
     with open('out.csv', 'w') as out:
-        writer = UnicodeWriter(out, dialect=dialect)
-        writer.writerows(enriched_content)
+        writer = OpenAPCUnicodeWriter(out, quotemask, True)
+        writer.write_rows(enriched_content)
 
 
 if __name__ == '__main__':
