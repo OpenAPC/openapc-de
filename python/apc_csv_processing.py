@@ -12,12 +12,6 @@ import sys
 
 import openapc_toolkit as oat
 
-try:
-    import chardet
-except ImportError:
-    print ("WARNING: 3rd party module 'chardet' not found - character " +
-           "encoding guessing will not work")
-
 class CSVColumn(object):
 
     def __init__(self, column_type, mandatory, index=None, column_name=""):
@@ -122,31 +116,16 @@ def main():
                    "guessing.")
             sys.exit()
 
-    try:
-        csv_file = open(args.csv_file, "r")
-    except IOError as ioe:
-        print "Error: could not open file", args.csv_file, ":", ioe.strerror
+    result = oat.analyze_csv_file(args.csv_file)
+    if result["success"]:
+        csv_analysis = result["data"]
+    else:
+        print result["error_msg"]
         sys.exit()
-
-    print "    *** Analyzing file '" + args.csv_file + "' ***\n"
-    content = ""
-
-    blanks = 0
-    for line in csv_file:
-        if line.strip(): # omit blank lines
-            content += line
-        else:
-            blanks += 1
-    if blanks:
-        print "Found " + str(blanks) + " empty lines in CSV file."
-
-    if chardet and enc is None:
-        chardet_result = chardet.detect(content)
-        enc = chardet_result["encoding"]
-        print ("Educated guessing of file character encoding: {enc} with " +
-               "a confidence of {conf}%").format(
-                   enc=enc,
-                   conf=int(chardet_result["confidence"] * 100))
+    
+    enc = csv_analysis.enc
+    dialect = csv_analysis.dialect
+    has_header = csv_analysis.has_header
 
     if enc is None:
         print ("Error: No encoding given for CSV file and automated " +
@@ -154,40 +133,7 @@ def main():
                "--enc argument")
         sys.exit()
 
-    sniffer = csv.Sniffer()
-    try:
-        dialect = sniffer.sniff(content)
-        has_header = sniffer.has_header(content)
-    except csv.Error as csve:
-        print ("Error: An error occured while analyzing the file: " +
-               csve.message + ". Maybe it is no valid CSV file?")
-        sys.exit()
-
-    if dialect is not None:
-        quote_consts = ["QUOTE_ALL", "QUOTE_MINIMAL", "QUOTE_NONE",
-                        "QUOTE_NONNUMERIC"]
-        quoting = dialect.quoting
-        for const in quote_consts:
-            # Seems hacky. Is there a more pythonic way to determine a
-            # member const by its value?
-            if hasattr(csv, const) and getattr(csv, const) == dialect.quoting:
-                quoting = const
-        print ("CSV dialect sniffing:\ndelimiter => {dlm}\ndoublequote " +
-               "=> {dbq}\nescapechar => {esc}\nquotechar => {quc}\nquoting " +
-               "=> {quo}\nskip initial space => {sis}").format(
-                   dlm=dialect.delimiter,
-                   dbq=dialect.doublequote,
-                   esc=dialect.escapechar,
-                   quc=dialect.quotechar,
-                   quo=quoting,
-                   sis=dialect.skipinitialspace)
-
-    if has_header:
-        print "\nCSV file seems to have a header."
-    else:
-        print "\nCSV file doesn't seem to have a header."
-
-    csv_file.seek(0)
+    csv_file = open(args.csv_file, "r")
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
     first_row = reader.next()

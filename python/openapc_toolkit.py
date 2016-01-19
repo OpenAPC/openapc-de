@@ -8,6 +8,12 @@ import re
 import urllib2
 import xml.etree.ElementTree as ET
 
+try:
+    import chardet
+except ImportError:
+    print ("WARNING: 3rd party module 'chardet' not found - character " +
+           "encoding guessing will not work")
+
 # regex for detecing DOIs
 DOI_RE = re.compile("^(((https?://)?dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
 
@@ -79,6 +85,91 @@ class OpenAPCUnicodeWriter(object):
             self._write_row(self._prepare_row(rows.pop(0), False))
         for row in rows:
             self._write_row(self._prepare_row(row, True))
+            
+class CSVAnalysisResult(object):
+    
+    def __init__(self, blanks, dialect, has_header, enc, enc_conf):
+        self.blanks = blanks
+        self.dialect = dialect
+        self.has_header = has_header
+        self.enc = enc
+        self.enc_conf = enc_conf
+        
+    def __str__(self):
+        ret = "*****CSV file analysis*****\n"
+        if self.dialect is not None:
+            quote_consts = ["QUOTE_ALL", "QUOTE_MINIMAL", "QUOTE_NONE",
+                            "QUOTE_NONNUMERIC"]
+            quoting = self.dialect.quoting
+            for const in quote_consts:
+            # Seems hacky. Is there a more pythonic way to determine a
+            # member const by its value?
+                if hasattr(csv, const) and getattr(csv, const) == self.dialect.quoting:
+                    quoting = const
+            ret += ("CSV dialect sniffing:\ndelimiter => {dlm}\ndoublequote " +
+                   "=> {dbq}\nescapechar => {esc}\nquotechar => {quc}\nquoting " +
+                   "=> {quo}\nskip initial space => {sis}\n\n").format(
+                       dlm=self.dialect.delimiter,
+                       dbq=self.dialect.doublequote,
+                       esc=self.dialect.escapechar,
+                       quc=self.dialect.quotechar,
+                       quo=quoting,
+                       sis=self.dialect.skipinitialspace)
+
+        if self.has_header:
+            ret += "CSV file seems to have a header.\n\n"
+        else:
+            ret += "CSV file doesn't seem to have a header.\n\n"
+        
+
+        if self.blanks:
+            ret += "Found " + str(self.blanks) + " empty lines in CSV file.\n\n"
+        if self.enc:
+            ret += ("Educated guessing of file character encoding: {} with " +
+                    "a confidence of {}%\n").format(
+                        self.enc,
+                        int(self.enc_conf * 100))
+        ret += "***************************"
+        return ret
+ 
+def analyze_csv_file(file_path):
+    try:
+        csv_file = open(file_path, "r")
+    except IOError as ioe:
+        error_msg = "Error: could not open file '{}': {}".format(file_path,
+                                                                 ioe.strerror)
+        return {"success": False, "error_msg": error_msg}
+        
+    data = {}
+    content = ""
+
+    blanks = 0
+    for line in csv_file:
+        if line.strip(): # omit blank lines
+            content += line
+        else:
+            blanks += 1
+
+    if chardet:
+        chardet_result = chardet.detect(content)
+        enc = chardet_result["encoding"]
+        enc_conf = chardet_result["confidence"]
+    else:
+        enc = None
+        enc_conf = None
+
+    sniffer = csv.Sniffer()
+    try:
+        dialect = sniffer.sniff(content)
+        has_header = sniffer.has_header(content)
+    except csv.Error as csve:
+        error_msg = ("Error: An error occured while analyzing the file: '" +
+                     csve.message + "'. Maybe it is no valid CSV file?")
+        return {"success": False, "error_msg": error_msg}
+    result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
+    csv_file.close()
+    return {"success": True, "data": result}
+
 
 def get_metadata_from_crossref(doi_string):
     """
