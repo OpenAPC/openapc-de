@@ -5,150 +5,18 @@ import argparse
 import codecs
 from collections import OrderedDict
 from copy import copy
-import cStringIO
 import csv
 import datetime
-import json
 import locale
-import re
 import sys
-import urllib2
-import xml.etree.ElementTree as ET
+
+import openapc_toolkit as oat
 
 try:
     import chardet
 except ImportError:
     print ("WARNING: 3rd party module 'chardet' not found - character " +
            "encoding guessing will not work")
-
-# These classes were adopted from
-# https://docs.python.org/2/library/csv.html#examples
-class UTF8Recoder(object):
-    """
-    Iterator that reads an encoded stream and reencodes the input
-    to UTF-8
-    """
-    def __init__(self, f, encoding):
-        self.reader = codecs.getreader(encoding)(f)
-
-    def __iter__(self):
-        return self
-
-    def next(self):
-        return self.reader.next().encode("utf-8")
-
-class UnicodeReader(object):
-    """
-    A CSV reader which will iterate over lines in the CSV file "f",
-    which is encoded in the given encoding.
-    """
-
-    def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
-        f = UTF8Recoder(f, encoding)
-        self.reader = csv.reader(f, dialect=dialect, **kwds)
-
-    def next(self):
-        row = self.reader.next()
-        return [unicode(s, "utf-8") for s in row]
-
-    def __iter__(self):
-        return self
-        
-class OpenAPCUnicodeWriter(object):
-    """
-    A custom CSV writer. Encodes output in Unicode and follows the open APC
-    CSV quotation standards. A quote mask can be provided to enable or disable
-    value quotation in distinct CSV columns.
-    """
-    
-    def __init__(self, f, quotemask=None, has_header=True):
-        self.outfile = f
-        self.quotemask = quotemask
-        self.has_header = has_header
-        self.encoder = codecs.getincrementalencoder("utf-8")()
-        
-    def _prepare_row(self, row, use_quotemask):
-        for index in range(len(row)):
-            if row[index] in [u"TRUE", u"FALSE", u"NA"]:
-                # Never quote these keywords
-                continue
-            if use_quotemask and self.quotemask is not None and index < len(self.quotemask):
-                if not self.quotemask[index]:
-                    # Do not quote items where the quotemask is False 
-                    continue
-            row[index] = u'"' + row[index] + u'"'
-        return row
-
-    def _write_row(self, row):
-        line = u",".join(row) + u"\r\n"
-        line = self.encoder.encode(line)
-        self.outfile.write(line)
-        
-    def write_rows(self, rows):
-        if self.has_header:
-            self._write_row(self._prepare_row(rows.pop(0), False))
-        for row in rows:
-            self._write_row(self._prepare_row(row, True))
-
-class UnicodeWriter(object):
-    """
-    A CSV writer which will write rows to CSV file "f",
-    which is encoded in the given encoding.
-    """
-
-    def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
-        # Redirect output to a queue
-        self.queue = cStringIO.StringIO()
-        self.writer = csv.writer(self.queue, dialect=dialect, **kwds)
-        self.stream = f
-        self.encoder = codecs.getincrementalencoder(encoding)()
-
-    def writerow(self, row):
-        if self.writer.dialect.quoting == csv.QUOTE_NONE:
-            # Use the apc-specific quotation rules
-            row = [self.mimic_r_dialect(s) for s in row]
-        self.writer.writerow([s.encode("utf-8") for s in row])
-        # Fetch UTF-8 output from the queue ...
-        data = self.queue.getvalue()
-        data = data.decode("utf-8")
-        # ... and reencode it into the target encoding
-        print data
-        data = self.encoder.encode(data)
-        # write to the target stream
-        self.stream.write(data)
-        # empty queue
-        self.queue.truncate(0)
-
-    def writerows(self, rows):
-        for row in rows:
-            self.writerow(row)
-            
-    def mimic_r_dialect(self, s):
-        """
-        Quote a string based on the open apc csv standard.
-        
-        Having been created by an R library, the open apc csv files use the
-        following rules for quoting fields:
-        - Do not quote numeric values.
-        - Do not quote the keywords FALSE, TRUE and NA.
-        - Quote everything else.
-        Since the python csv module cannot reproduce this exact behaviour, we
-        have to reimplement it.
-        
-        Args:
-            s: A string.
-        Returns:
-            Either a quoted or an unmodified version of s, according to the
-            apc csv standard.
-        """
-        if s in ["TRUE", "FALSE", "NA"]:
-            return s
-        try:
-            # Consider locale instead?
-            float(s)
-            return s
-        except ValueError:
-            return '"' + s + '"'
 
 class CSVColumn(object):
 
@@ -202,192 +70,6 @@ ARG_HELP_STRINGS = {
            "column, identifying it is required if there are articles without " +
            "a DOI in the file."
 }
-
-# regex for detecing DOIs
-DOI_RE = re.compile("^(((https?://)?dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
-
-def get_column_type_from_whitelist(column_name):
-    """
-    Identify a CSV column type by looking up the name in a whitelist.
-    
-    Args:
-        column_name: Name of a CSV column, usually extracted from the header.
-    Returns:
-        An APC-normed column type (as a string) if the column name was found in
-        a whitelist, None otherwise.
-    """
-    column_names = {
-        "institution": ["institution"],
-        "doi": ["doi"],
-        "euro": ["apc", "kosten", "euro"],
-        "period": ["period", "jahr"],
-        "publisher": ["publisher"],
-        "journal_full_title": ["journal_full_title", "journal"],
-        "url": ["url"]
-    }
-    for key, whitelist in column_names.iteritems():
-        if column_name.lower() in whitelist:
-            return key
-    return None
-
-def get_metadata_from_crossref(doi_string):
-    """
-    Take a DOI and extract metadata relevant to OpenAPC from crossref.
-
-    This method looks up a DOI in crossref and returns all metadata fields
-    relevant to OpenAPC (publisher, journal_full_title, issn, issn_print,
-    ssn_electronic, license_ref).
-
-    Args:
-        doi_string: A string representing a doi. 'Pure' form (10.xxx),
-        DOI Handbook notation (doi:10.xxx) or crossref-style
-        (http://dx.doi.org/10.xxx) are all acceptable.
-    Returns:
-        A dict with a key 'success'. If data extraction was successful,
-        'success' will be True and the dict will have a second entry 'data'
-        which contains the extracted metadata as another dict:
-
-        {'publisher': 'MDPI AG',
-         'journal_full_title': 'Chemosensors',
-         [...]
-        }
-        The dict will contain all keys in question, those where no data could
-        be retreived will have a None value.
-
-        If data extraction failed, 'success' will be False and the dict will
-        contain a second entry 'error_msg' with a string value
-        stating the reason.
-    """
-    doi_match = DOI_RE.match(doi_string.strip())
-    if not doi_match:
-        error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
-        return {"success": False, "error_msg": error_msg}
-    doi = doi_match.groupdict()["doi"]
-    url = 'http://data.crossref.org/' + doi
-    headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
-    req = urllib2.Request(url, None, headers)
-    ret_value = {'success': True}
-    try:
-        response = urllib2.urlopen(req)
-        content_string = response.read()
-        ns = {"cr_qr": "http://www.crossref.org/qrschema/3.0",
-              "cr_x": "http://www.crossref.org/xschema/1.1",
-              "ai": "http://www.crossref.org/AccessIndicators.xsd"}
-        root = ET.fromstring(content_string)
-        crossref_data = {}
-        xpaths = {
-            "publisher": ".//cr_qr:crm-item[@name='publisher-name']",
-            "journal_full_title": ".//cr_x:journal_metadata//cr_x:full_title",
-            "issn": ".//cr_x:journal_metadata//cr_x:issn",
-            "issn_print": ".//cr_x:journal_metadata//" +
-                          "cr_x:issn[@media_type='print']",
-            "issn_electronic": ".//cr_x:journal_metadata//" +
-                               "cr_x:issn[@media_type='electronic']",
-            "license_ref": ".//ai:license_ref"
-        }
-        for elem, path in xpaths.iteritems():
-            result = root.findall(path, ns)
-            if result:
-                crossref_data[elem] = result[0].text
-            else:
-                crossref_data[elem] = None
-        ret_value['data'] = crossref_data
-    except urllib2.HTTPError as httpe:
-        ret_value['success'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
-    return ret_value
-
-def get_metadata_from_pubmed(doi):
-    if not DOI_RE.match(doi.strip()):
-        return {"success": False,
-                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
-               }
-    url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
-    url += doi
-    req = urllib2.Request(url)
-    ret_value = {'success': True}
-    try:
-        response = urllib2.urlopen(req)
-        content_string = response.read()
-        root = ET.fromstring(content_string)
-        pubmed_data = {}
-        xpaths = {
-            "pmid": ".//resultList/result/pmid",
-            "pmcid": ".//resultList/result/pmcid",
-        }
-        for elem, path in xpaths.iteritems():
-            result = root.findall(path)
-            if result:
-                pubmed_data[elem] = result[0].text
-            else:
-                pubmed_data[elem] = None
-        ret_value['data'] = pubmed_data
-    except urllib2.HTTPError as httpe:
-        ret_value['success'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
-    return ret_value
-    
-def lookup_journal_in_doaj(issn):
-    """
-    Take an ISSN and check if the corresponding journal exists in DOAJ.
-    
-    This method looks up an ISSN in the Directory of Open Access Journals
-    (DOAJ, https://doaj.org). This is a simple existence check and will not
-    return any additional metadata (except for the journal title).
-    It is also important to note that there is no additional effort to test
-    the validity of the given ISSN - if a negative result is returned, the ISSN
-    might be invalid, but it might also belong to a journal which is not
-    registered in DOAJ.
-    
-    Args:
-        issn: A string representing an issn
-     Returns:
-        A dict with a key 'data_received'. If data was received from DOAJ,
-        this key will have the value True and the dict will have a second
-        entry 'data' which contains the lookup result:
-        
-        {'in_doaj': True,
-         'title': 'Frontiers in Human Neuroscience',
-        }
-        or
-        {'in_doaj': False}
-
-        If data extraction failed, 'data_received' will be False and the dict
-        will contain a second entry 'error_msg' with a string value
-        stating the reason.   
-    """
-    headers = {"Accept": "application/json"}
-    ret_value = {'data_received': True}
-    url = "https://doaj.org/api/v1/search/journals/issn:" + issn
-    req = urllib2.Request(url, None, headers)
-    try:
-        response = urllib2.urlopen(req)
-        content_string = response.read()
-        json_dict = json.loads(content_string)
-        ret_data = {}
-        if "results" in json_dict and len(json_dict["results"]) > 0:
-            ret_data["in_doaj"] = True
-            # Try to extract the journal title - useful for error correction
-            journal = json_dict["results"][0]
-            try:
-                ret_data["title"] = journal["bibjson"]["title"]
-            except KeyError:
-                ret_data["title"] = ""
-        else:
-            ret_data["in_doaj"] = False
-        ret_value['data'] = ret_data
-    except urllib2.HTTPError as httpe:
-        ret_value['data_received'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
-    except ValueError as ve:
-        ret_value['data_received'] = False
-        msg = "ValueError while parsing JSON: {}"
-        ret_value['error_msg'] = msg.format(ve.message)
-    return ret_value
-        
 
 def main():
     parser = argparse.ArgumentParser()
@@ -506,14 +188,14 @@ def main():
         print "\nCSV file doesn't seem to have a header."
 
     csv_file.seek(0)
-    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
-    
+    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+
     first_row = reader.next()
     num_columns = len(first_row)
     print "\nCSV file has {} columns.".format(num_columns)
-    
+
     csv_file.seek(0)
-    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
     column_map = {
         "institution": CSVColumn("institution", True, args.institution_column),
@@ -525,11 +207,11 @@ def main():
                                         args.journal_full_title_column),
         "url": CSVColumn("url", False, args.url_column)
     }
-    
-    # This list will store info about additional (unknown) columns found in 
-    # the CSV file as CSVColumn objects. 
+
+    # This list will store info about additional (unknown) columns found in
+    # the CSV file as CSVColumn objects.
     additional_columns = []
-    
+
     csv_columns = OrderedDict([
         ("institution", "NA"),
         ("period", "NA"),
@@ -549,8 +231,8 @@ def main():
         ("url", "NA"),
         ("doaj", "NA")
     ])
-    
-    # Do not quote the values in the 'period' and 'euro' columns 
+
+    # Do not quote the values in the 'period' and 'euro' columns
     quotemask = [
         True,
         False,
@@ -583,7 +265,7 @@ def main():
             else:
                 print "\n    *** Analyzing CSV header ***\n"
             for (index, item) in enumerate(header):
-                column_type = get_column_type_from_whitelist(item)
+                column_type = oat.get_column_type_from_whitelist(item)
                 if column_type is not None and column_map[column_type].index is None:
                     column_map[column_type].index = index
                     column_map[column_type].column_name = item
@@ -611,7 +293,7 @@ def main():
             entry = entry.strip()
             # Search for a DOI
             if column_map['doi'].index is None:
-                if DOI_RE.match(entry):
+                if oat.DOI_RE.match(entry):
                     column_id = str(index)
                     # identify column either numerical or by column header
                     if header:
@@ -699,7 +381,7 @@ def main():
     print "\n    *** CSV file analysis summary ***\n"
 
     index_dict = {csvc.index: csvc for csvc in column_map.values()}
-    
+
     for index in range(num_columns):
         column_name = ""
         if header:
@@ -721,7 +403,7 @@ def main():
                 column_name += "_"
             csv_columns[column_name] = "NA"
             additional_columns.append(CSVColumn(column_name, False, index))
-            
+
 
     print ""
     for column in column_map.values():
@@ -746,17 +428,17 @@ def main():
         start = raw_input("Please type 'y' or 'n':")
     if start == "n":
         sys.exit()
-        
-    
+
+
 
     print "\n    *** Starting metadata aggregation ***\n"
 
     enriched_content = []
 
     csv_file.seek(0)
-    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     header_processed = False
-    
+
     for row in reader:
         if not row:
             continue # skip empty lines
@@ -771,19 +453,19 @@ def main():
         doi = row[column_map["doi"].index]
 
         current_row = copy(csv_columns)
-        
-        # Copy content of identified columns 
+
+        # Copy content of identified columns
         for csv_column in column_map.values():
             if csv_column.index is not None:
                 current_row[csv_column.column_type] = row[csv_column.index]
-        
+
         # add unidentified fields to the row
         for column in additional_columns:
             field = row[column.index]
             current_row[column.column_type] = field
-            
+
         # include crossref metadata
-        crossref_result = get_metadata_from_crossref(doi)
+        crossref_result = oat.get_metadata_from_crossref(doi)
         if crossref_result["success"]:
             print "Crossref: DOI resolved: " + doi
             current_row["indexed_in_crossref"] = "TRUE"
@@ -801,7 +483,7 @@ def main():
             current_row["indexed_in_crossref"] = "FALSE"
 
         # include pubmed metadata
-        pubmed_result = get_metadata_from_pubmed(doi)
+        pubmed_result = oat.get_metadata_from_pubmed(doi)
         if pubmed_result["success"]:
             print "Pubmed: DOI resolved: " + doi
             data = pubmed_result["data"]
@@ -815,7 +497,7 @@ def main():
         else:
             print ("Pubmed: Error while trying to resolve DOI " + doi + ": " +
                    pubmed_result["error_msg"])
-                   
+
         # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
         if current_row["doaj"] != "TRUE":
             issns = []
@@ -826,7 +508,7 @@ def main():
             if current_row["issn_print"] != "NA":
                 issns.append(current_row["issn_print"])
             for issn in issns:
-                doaj_res = lookup_journal_in_doaj(issn)
+                doaj_res = oat.lookup_journal_in_doaj(issn)
                 if doaj_res["data_received"]:
                     if doaj_res["data"]["in_doaj"]:
                         msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
@@ -840,14 +522,14 @@ def main():
                 else:
                     msg = "DOAJ: Error while trying to look up ISSN {}: {}"
                     print msg.format(issn, doaj_res["error_msg"])
-            
+
 
         enriched_content.append(current_row.values())
 
     csv_file.close()
 
     with open('out.csv', 'w') as out:
-        writer = OpenAPCUnicodeWriter(out, quotemask, True)
+        writer = oat.OpenAPCUnicodeWriter(out, quotemask, True)
         writer.write_rows(enriched_content)
 
 
