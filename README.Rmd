@@ -77,7 +77,7 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  `r format(sum(my.apc$EURO), scientific=FALSE)` € for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$EURO)` €.
+In total,  `r format(sum(my.apc$euro), scientific=FALSE)` € for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
 
 ### Open Access Journals
 
@@ -86,7 +86,7 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 ```
 
-At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$EURO)` €.
+At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$euro), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -94,10 +94,10 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 
-df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
-             tapply(my.apc$EURO, my.apc$Institution, sum),
-             tapply(my.apc$EURO, my.apc$Institution, mean),
-             tapply(my.apc$EURO, my.apc$Institution, median))
+df.summary <-cbind(tapply(my.apc$euro, my.apc$institution, length),
+             tapply(my.apc$euro, my.apc$institution, sum),
+             tapply(my.apc$euro, my.apc$institution, mean),
+             tapply(my.apc$euro, my.apc$institution, median))
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
@@ -110,7 +110,7 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == TRUE,]
 ```
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers `r nrow(my.apc)` hybrid open access articles. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$EURO)` €.
+The dataset covers `r nrow(my.apc)` hybrid open access articles. Total expenditure amounts to  `r format(sum(my.apc$euro), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -119,10 +119,10 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == TRUE,]
 my.apc <- droplevels(my.apc)
 
-df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
-             tapply(my.apc$EURO, my.apc$Institution, sum),
-             tapply(my.apc$EURO, my.apc$Institution, mean),
-             tapply(my.apc$EURO, my.apc$Institution, median))
+df.summary <-cbind(tapply(my.apc$euro, my.apc$institution, length),
+             tapply(my.apc$euro, my.apc$institution, sum),
+             tapply(my.apc$euro, my.apc$institution, mean),
+             tapply(my.apc$euro, my.apc$institution, median))
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
@@ -142,11 +142,11 @@ External sources were used to compile the dataset. This allows for disambiguated
 |CrossRef   |`issn_print` |ISSN print |
 |CrossRef   |`issn_electronic`  |ISSN electronic        |
 |CrossRef   |`license_ref`  |License of the article     |
-|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |
 |EuropePMC    |`pmid`  |PubMed ID                 |
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
-|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
+|DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
@@ -160,20 +160,20 @@ require(RColorBrewer)
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 #only unis
-my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "INM - Leibniz-Institut für Neue Materialien", "MDC"),]
+my.apc <- my.apc[!my.apc$institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "INM - Leibniz-Institut für Neue Materialien", "MDC"),]
 
 ## Choose only publisher with at least 5 publication (abritary)
 
 # relevel
 my.apc$publisher <- factor(my.apc$publisher,
-                           levels =  c(rownames(data.frame(rev(sort(tapply(my.apc$EURO, list(my.apc$publisher), sum)))))))
-my.apc$Institution <- factor(my.apc$Institution,
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+                           levels =  c(rownames(data.frame(rev(sort(tapply(my.apc$euro, list(my.apc$publisher), sum)))))))
+my.apc$institution <- factor(my.apc$institution,
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$institution)))))))
 
 levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=",
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
 
-my.df <- aggregate(my.apc$EURO, list(publisher =my.apc$publisher, Uni = my.apc$Institution), sum)
+my.df <- aggregate(my.apc$euro, list(publisher =my.apc$publisher, Uni = my.apc$institution), sum)
 
 ## Plot by publisher
 colour_count <- length(unique(my.df$Uni))
@@ -194,7 +194,7 @@ ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 
 ```{r, echo = FALSE}
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
-q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
+q <- ggplot(my.apc, aes(institution, euro)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
 
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
@@ -211,13 +211,13 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 # relevel
 my.apc$publisher <- factor(my.apc$publisher,
                            levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
-my.apc$Institution <- factor(my.apc$Institution,
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+my.apc$institution <- factor(my.apc$institution,
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$institution)))))))
 
 levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=",
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
 
-q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
+q <- ggplot(my.apc, aes(publisher, euro)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
@@ -232,8 +232,8 @@ ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
 
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
-mpg <- my.apc[my.apc$Institution == "MPG" & my.apc$publisher == "Springer Science + Business Media",]
-q <- ggplot(mpg, aes(factor(Period), EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
+mpg <- my.apc[my.apc$institution == "MPG" & my.apc$publisher == "Springer Science + Business Media",]
+q <- ggplot(mpg, aes(factor(period), euro)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
 q <- q +  ylab("Fees paid (in EURO)") + xlab("Period") + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/plotAverageSpringerMPDL.png", width=6.8,height=4.5,units="in")
