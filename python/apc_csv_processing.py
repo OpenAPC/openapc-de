@@ -500,7 +500,7 @@ def main():
     csv_file.close()
 
     with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, quotemask, True)
+        writer = oat.OpenAPCUnicodeWriter(out, quotemask, True, True)
         writer.write_rows(enriched_content)
 
 

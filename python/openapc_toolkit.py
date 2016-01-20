@@ -52,27 +52,42 @@ class UnicodeReader(object):
         
 class OpenAPCUnicodeWriter(object):
     """
-    A custom CSV writer. Encodes output in Unicode and follows the open APC
-    CSV quotation standards. A quote mask can be provided to enable or disable
-    value quotation in distinct CSV columns.
+    A customized CSV Writer.
+    
+    A custom CSV writer. Encodes output in Unicode and can be configured to
+    follow the open APC CSV quotation standards. A quote mask can also be
+    provided to enable or disable value quotation in distinct CSV columns.
+    
+    Attributes:
+        quotemask: A quotemask is a list of boolean values which should have
+                   the same length as the number of columns in the csv file.
+                   On writing, the truth values in the codemask will determine
+                   if the values in the according column will be quoted.  
+        openapc_quote_rules: Determines if the special openapc quote rules
+                             should be applied, meaning that the keywords
+                             NA, TRUE and FALSE will never be quoted. If used
+                             together with a quotemask, the openapc quote
+                             rules have precedence.
+        has_header: Determines if the csv file has a header. If that's the case,
+                    The values in the first row will all be quoted regardless
+                    of any quotemask.  
     """
     
-    def __init__(self, f, quotemask=None, has_header=True):
+    def __init__(self, f, quotemask=None, openapc_quote_rules=True, has_header=True):
         self.outfile = f
         self.quotemask = quotemask
+        self.openapc_quote_rules = openapc_quote_rules
         self.has_header = has_header
         self.encoder = codecs.getincrementalencoder("utf-8")()
         
     def _prepare_row(self, row, use_quotemask):
         for index in range(len(row)):
-            if row[index] in [u"TRUE", u"FALSE", u"NA"]:
+            if self.openapc_quote_rules and row[index] in [u"TRUE", u"FALSE", u"NA"]:
                 # Never quote these keywords
                 continue
             if use_quotemask and self.quotemask is not None and index < len(self.quotemask):
-                if not self.quotemask[index]:
-                    # Do not quote items where the quotemask is False 
-                    continue
-            row[index] = u'"' + row[index] + u'"'
+                if self.quotemask[index]:
+                    row[index] = u'"' + row[index] + u'"'
         return row
 
     def _write_row(self, row):
