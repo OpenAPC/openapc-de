@@ -344,6 +344,7 @@ def get_column_type_from_whitelist(column_name):
         "doi": ["doi"],
         "euro": ["apc", "kosten", "euro"],
         "period": ["period", "jahr"],
+        "is_hybrid": ["is_hybrid"],
         "publisher": ["publisher"],
         "journal_full_title": ["journal_full_title", "journal"],
         "url": ["url"]
