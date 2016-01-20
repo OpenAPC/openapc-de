@@ -4,32 +4,32 @@
 import argparse
 import codecs
 import csv
+import sys
 
 import openapc_toolkit as oat
 
 ARG_HELP_STRINGS = {
     "csv_file": "The csv file where columns should be reordered",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
-                "disable automatic guessing of encoding."
+                "disable automatic guessing of encoding.",
+    "quotemask": "A quotemask to apply to the result file after the action " +
+                 "has been performed. A quotemask is a string consisting " +
+                 "only of the letters 't' and 'f' (true/false) and has " +
+                 "the same length as there are columns in the (resulting) " +
+                 "csv file. Only the columns where the index is 't' will be " +
+                 "quoted."
 }
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
+    parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
     subparsers = parser.add_subparsers(help='The column operation to perform')
     
-    quote_parser = subparsers.add_parser("quote", help="quote help")
-    quote_parser.add_argument("column_index", type=int, help='bar help')
-    quote_parser.set_defaults(func=quote_column)
-    
-    unquote_parser = subparsers.add_parser("unquote", help="unquote help")
-    unquote_parser.add_argument("column_index", type=int, help='bar help')
-    unquote_parser.set_defaults(func=unquote_column)
-    
-    unquote_parser = subparsers.add_parser("delete", help="delete help")
-    unquote_parser.add_argument("column_index", type=int, help='bar help')
-    unquote_parser.set_defaults(func=delete_column)
+    delete_parser = subparsers.add_parser("delete", help="delete help")
+    delete_parser.add_argument("column_index", type=int, help='bar help')
+    delete_parser.set_defaults(func=delete_column)
     
     insert_parser = subparsers.add_parser("insert", help="insert help")
     insert_parser.add_argument("target_index", type=int, help='bar help')
@@ -62,7 +62,7 @@ def main():
                    "guessing.")
             sys.exit()
     
-    result = oat.analyze_csv_file(args.csv_file)
+    result = oat.analyze_csv_file(args.csv_file, 500)
     if result["success"]:
         csv_analysis = result["data"]
         print csv_analysis
@@ -80,16 +80,24 @@ def main():
         sys.exit()
         
     dialect = csv_analysis.dialect
-    dialect.quoting = csv.QUOTE_NONE # No modification of quotes while reading
     
     csv_file = open(args.csv_file, "r")
 
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     new_rows = args.func(reader, args)
     csv_file.close()
+
+    mask = None
+    if args.quotemask:
+        reduced = args.quotemask.replace("f", "").replace("t", "")
+        if len(reduced) > 0:
+            print ("Error: A quotemask may only contain the letters 't' and"  +
+                   "'f'!")
+            sys.exit()
+        mask = [True if x == "t" else False for x in args.quotemask]
     
     with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, None, False, False)
+        writer = oat.OpenAPCUnicodeWriter(out, mask, True, False)
         writer.write_rows(new_rows)
         
 def quote_column(csv_reader, args):

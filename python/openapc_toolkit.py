@@ -62,12 +62,12 @@ class OpenAPCUnicodeWriter(object):
         quotemask: A quotemask is a list of boolean values which should have
                    the same length as the number of columns in the csv file.
                    On writing, the truth values in the codemask will determine
-                   if the values in the according column will be quoted.  
+                   if the values in the according column will be quoted. If no
+                   quotemask is provided, every field will be quoted. 
         openapc_quote_rules: Determines if the special openapc quote rules
                              should be applied, meaning that the keywords
-                             NA, TRUE and FALSE will never be quoted. If used
-                             together with a quotemask, the openapc quote
-                             rules have precedence.
+                             NA, TRUE and FALSE will never be quoted. This
+                             always takes precedence over a quotemask.
         has_header: Determines if the csv file has a header. If that's the case,
                     The values in the first row will all be quoted regardless
                     of any quotemask.  
@@ -85,7 +85,11 @@ class OpenAPCUnicodeWriter(object):
             if self.openapc_quote_rules and row[index] in [u"TRUE", u"FALSE", u"NA"]:
                 # Never quote these keywords
                 continue
-            if use_quotemask and self.quotemask is not None and index < len(self.quotemask):
+            if not use_quotemask or not self.quotemask:
+                # Always quote without a quotemask
+                row[index] = u'"' + row[index] + u'"'
+                continue
+            if index < len(self.quotemask):
                 if self.quotemask[index]:
                     row[index] = u'"' + row[index] + u'"'
         return row
@@ -147,7 +151,7 @@ class CSVAnalysisResult(object):
         ret += "***************************"
         return ret
  
-def analyze_csv_file(file_path):
+def analyze_csv_file(file_path, line_limit=None):
     try:
         csv_file = open(file_path, "r")
     except IOError as ioe:
@@ -159,9 +163,13 @@ def analyze_csv_file(file_path):
     content = ""
 
     blanks = 0
+    lines_processed = 0
     for line in csv_file:
         if line.strip(): # omit blank lines
             content += line
+            lines_processed += 1
+            if line_limit and lines_processed > line_limit:
+                break
         else:
             blanks += 1
 
