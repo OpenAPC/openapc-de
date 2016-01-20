@@ -34,6 +34,8 @@ ARG_HELP_STRINGS = {
               "values with ',' as decimal point character)",
     "headers": "Ignore any CSV headers (if present) and try to determine " +
                "relevant columns heuristically.",
+    "force": "Force the script to continue even if not all mandatory columns " +
+             "have been identified",
     "institution": "Manually identify the 'institution' column if the script " +
                    "fails to detect it automatically. The value is the " +
                    "numerical column index in the CSV file, with the " +
@@ -47,6 +49,10 @@ ARG_HELP_STRINGS = {
     "euro": "Manually identify the 'euro' column if the script fails to " +
             "detect it automatically. The value is the numerical column " +
             "index in the CSV file, with the leftmost column being 0.",
+    "is_hybrid": "Manually identify the 'is_hybrid' column if the script " +
+                 "fails to detect it automatically. The value is the " +
+                 "numerical column index in the CSV file, with the leftmost " +
+                 "column being 0.",
     "publisher": "Manually identify the 'publisher' column if the script " +
                  "fails to detect it automatically. The value is the " +
                  "numerical column index in the CSV file, with the leftmost " +
@@ -72,6 +78,8 @@ def main():
     parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
     parser.add_argument("-i", "--ignore-header", action="store_true",
                         help=ARG_HELP_STRINGS["headers"])
+    parser.add_argument("-f", "--force", action="store_true",
+                        help=ARG_HELP_STRINGS["force"])
     parser.add_argument("-institution", "--institution_column", type=int,
                         help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("-period", "--period_column", type=int,
@@ -80,6 +88,8 @@ def main():
                         help=ARG_HELP_STRINGS["doi"])
     parser.add_argument("-euro", "--euro_column", type=int,
                         help=ARG_HELP_STRINGS["euro"])
+    parser.add_argument("-is_hybrid", "--is_hybrid_column", type=int,
+                        help=ARG_HELP_STRINGS["is_hybrid"])
     parser.add_argument("-publisher", "--publisher_column", type=int,
                         help=ARG_HELP_STRINGS["publisher"])
     parser.add_argument("-journal_full_title", "--journal_full_title_column",
@@ -123,7 +133,8 @@ def main():
         print result["error_msg"]
         sys.exit()
     
-    enc = csv_analysis.enc
+    if enc is None:
+        enc = csv_analysis.enc
     dialect = csv_analysis.dialect
     has_header = csv_analysis.has_header
 
@@ -148,6 +159,7 @@ def main():
         "period": CSVColumn("period", True, args.period_column),
         "euro": CSVColumn("euro", True, args.euro_column),
         "doi": CSVColumn("doi", True, args.doi_column),
+        "is_hybrid": CSVColumn("is_hybrid", True, args.is_hybrid_column),
         "publisher": CSVColumn("publisher", False, args.publisher_column),
         "journal_full_title": CSVColumn("journal_full_title", False,
                                         args.journal_full_title_column),
@@ -302,27 +314,31 @@ def main():
         break
 
     # Wrap up: Check if there any mandatory column types left which have not
-    # yet been identified - we cannot continue in that case.
+    # yet been identified - we cannot continue in that case (unless forced).
     unassigned = filter(lambda (k, v): v.mandatory and v.index is None,
                         column_map.iteritems())
     if unassigned:
-        print ("ERROR: We cannot continue because not all mandatory " +
-               "column types in the CSV file could be automatically " +
-               "identified. There are 2 ways to fix this:")
-        if not header:
-            print ("1) Add a header row to your file and identify the " +
-                   "column(s) by assigning them an appropiate column name.")
-        else:
-            print ("1) Identify the missing column(s) by assigning them " +
-                   "a different column name in the CSV header (You can use " +
-                   "the column name(s) mentioned in the message below)")
-        print ("2) Use command line parameters when calling this script " +
-               "to identify the missing columns (use -h for help) ")
         for item in unassigned:
             print "The {} column is still unidentified.".format(item[0])
         if header:
             print "The CSV header is:\n" + dialect.delimiter.join(header)
-        sys.exit()
+        if not args.force:
+            print ("ERROR: We cannot continue because not all mandatory " +
+                   "column types in the CSV file could be automatically " +
+                   "identified. There are 2 ways to fix this:")
+            if not header:
+                print ("1) Add a header row to your file and identify the " +
+                       "column(s) by assigning them an appropiate column name.")
+            else:
+                print ("1) Identify the missing column(s) by assigning them " +
+                       "a different column name in the CSV header (You can " +
+                       "use the column name(s) mentioned in the message above)")
+            print ("2) Use command line parameters when calling this script " +
+                   "to identify the missing columns (use -h for help) ")
+            sys.exit()
+        else:
+            print ("WARNING: Not all mandatory column types in the CSV file " +
+                   "could be automatically identified - forced to continue.")
 
     print "\n    *** CSV file analysis summary ***\n"
 
@@ -403,7 +419,16 @@ def main():
         # Copy content of identified columns
         for csv_column in column_map.values():
             if csv_column.index is not None:
-                current_row[csv_column.column_type] = row[csv_column.index]
+                if csv_column.column_type == "euro":
+                    # special case for monetary values: Cast to float to ensure
+                    # the decimal point is a dot (instead of a comma)
+                    euro = locale.atof(row[csv_column.index])
+                    if euro.is_integer():
+                        euro = int(euro)
+                    current_row[csv_column.column_type] = str(euro)
+                else:
+                    current_row[csv_column.column_type] = row[csv_column.index]
+                    
 
         # add unidentified fields to the row
         for column in additional_columns:
