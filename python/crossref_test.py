@@ -11,7 +11,7 @@ received and are relevant to OpenAPC, an error message otherwise.
 
 import argparse
 
-from apc_csv_processing import get_metadata_from_crossref as gmfc
+from openapc_toolkit import get_metadata_from_crossref as gmfc
 
 def main():
     parser = argparse.ArgumentParser()
