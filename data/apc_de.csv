@@ -1,4 +1,4 @@
-"Institution","Period","EURO","publisher","journal_full_title","issn","issn_print","issn_electronic","doi","indexed_in_CrossRef","pmid","pmcid","base_url","repo_id","ut","DOAJ","license_ref","is_hybrid"
+"institution","period","euro","publisher","journal_full_title","issn","issn_print","issn_electronic","doi","indexed_in_crossref","pmid","pmcid","base_url","repo_id","ut","doaj","license_ref","is_hybrid"
 "Bamberg U",2013,1372,"Dove Medical Press Ltd.","Journal of Pain Research","1178-7090",NA,"1178-7090","10.2147/JPR.S45097",TRUE,NA,NA,"http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21333",NA,TRUE,NA,FALSE
 "Bamberg U",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00318",TRUE,"23760550","PMC3669756","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21331","ut:000331039300001",TRUE,NA,FALSE
 "Bamberg U",2013,960,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","10.3389/fpsyg.2013.00406",TRUE,"23847576","PMC3705173","http://opus4.kobv.de/opus4-bamberg/frontdoor/index/index/docId/","21357","ut:000331105300001",TRUE,NA,FALSE
