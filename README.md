@@ -59,13 +59,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  5 660 040 € for  4 583 articles were paid by the participating unviversities. Average  fee is 1 235 € and the median 1 184 €.
+In total,  5 741 076 € for  4 634 articles were paid by the participating unviversities. Average  fee is 1 238.9 € and the median 1 188 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 4 570 articles in open access journals which charge publication fees. Total expenditure amounts to  5 635 746 €. Average  fee is 1 233.2 € and the median 1 184 €.
+At the moment, the dataset releases information on 4 621 articles in open access journals which charge publication fees. Total expenditure amounts to  5 716 783 €. Average  fee is 1 237.1 € and the median 1 188 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -93,7 +93,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Leipzig U                                   |       60|             79603|          1327|   1305|
 |MDC                                         |       23|             41464|          1803|   1212|
 |MPG                                         |     1921|           2376528|          1237|   1140|
-|Muenchen LMU                                |      314|            382455|          1218|   1266|
+|Muenchen LMU                                |      365|            463491|          1270|   1299|
 |Regensburg U                                |      280|            331718|          1185|   1183|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
@@ -128,11 +128,11 @@ External sources were used to compile the dataset. This allows for disambiguated
 |CrossRef   |`issn_print` |ISSN print |
 |CrossRef   |`issn_electronic`  |ISSN electronic        |
 |CrossRef   |`license_ref`  |License of the article     |
-|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |
 |EuropePMC    |`pmid`  |PubMed ID                 |
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
-|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
+|DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
