@@ -129,6 +129,7 @@ def main():
     result = oat.analyze_csv_file(args.csv_file)
     if result["success"]:
         csv_analysis = result["data"]
+        print csv_analysis
     else:
         print result["error_msg"]
         sys.exit()
