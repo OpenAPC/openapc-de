@@ -370,6 +370,7 @@ def get_column_type_from_whitelist(column_name):
         "is_hybrid": ["is_hybrid"],
         "publisher": ["publisher"],
         "journal_full_title": ["journal_full_title", "journal"],
+        "issn": ["issn"],
         "url": ["url"]
     }
     for key, whitelist in column_names.iteritems():

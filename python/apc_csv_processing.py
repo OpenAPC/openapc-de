@@ -64,6 +64,11 @@ ARG_HELP_STRINGS = {
                           "CSV file, with the leftmost column being 0. This " +
                           "is an optional column, identifying it is required " +
                           "if there are articles without a DOI in the file.",
+    "issn": "Manually identify the 'issn' column if the script fails to " +
+            "detect it automatically. The value is the numerical column " +
+            "index in the CSV file, with the leftmost column being 0. This " +
+            "is an optional column, identifying it is required if there are " +
+            "articles without a DOI in the file.",
     "url": "Manually identify the 'url' column if the script fails to detect " +
            "it automatically. The value is the numerical column index in the " +
            "CSV file, with the leftmost column being 0. This is an optional " +
@@ -94,6 +99,8 @@ def main():
                         help=ARG_HELP_STRINGS["publisher"])
     parser.add_argument("-journal_full_title", "--journal_full_title_column",
                         type=int, help=ARG_HELP_STRINGS["journal_full_title"])
+    parser.add_argument("-issn", "--issn_column",
+                        type=int, help=ARG_HELP_STRINGS["issn"])
     parser.add_argument("-url", "--url_column",
                         type=int, help=ARG_HELP_STRINGS["url"])
 
@@ -164,6 +171,7 @@ def main():
         "publisher": CSVColumn("publisher", False, args.publisher_column),
         "journal_full_title": CSVColumn("journal_full_title", False,
                                         args.journal_full_title_column),
+        "issn": CSVColumn("issn", False, args.issn_column),
         "url": CSVColumn("url", False, args.url_column)
     }
 
