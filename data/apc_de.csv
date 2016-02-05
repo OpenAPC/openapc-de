@@ -37,8 +37,8 @@
 "Bielefeld U",2012,968,"10.1371/journal.pone.0038697",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"22679515","PMC3367956","ut:000305343900063",NA,TRUE
 "Bielefeld U",2012,732,"10.4236/jilsa.2012.43024",FALSE,"Scientific Research Publishing, Inc,","Journal of Intelligent Learning Systems and Applications","2150-8402;2150-8410","2150-8402","2150-8410",NA,TRUE,NA,NA,NA,NA,TRUE
 "Bielefeld U",2012,850,"10.1186/2193-1801-1-5",FALSE,"Springer Science + Business Media","SpringerPlus","2193-1801","2193-1801",NA,NA,TRUE,"23984223","PMC3581110","ut:000209459000005",NA,TRUE
-"Bielefeld U",2012,1190,"10.1186/1471-2164-14-s1-s12",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164",NA,NA,NA,FALSE,"23369161","PMC3549816","ut:000314471000012",NA,TRUE
-"Bielefeld U",2012,1257.5,"10.1186/1471-2105-13-s19-s3",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,NA,NA,FALSE,"23281826","PMC3526435","ut:000312986200003",NA,TRUE
+"Bielefeld U",2012,1190,"10.1186/1471-2164-14-s1-s12",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164",NA,NA,NA,TRUE,"23369161","PMC3549816","ut:000314471000012",NA,TRUE
+"Bielefeld U",2012,1257.5,"10.1186/1471-2105-13-s19-s3",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,NA,NA,TRUE,"23281826","PMC3526435","ut:000312986200003",NA,TRUE
 "Bielefeld U",2012,1257.5,"10.1186/1471-2105-13-S19-S7",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,NA,NA,FALSE,NA,NA,"ut:000312986200007",NA,TRUE
 "Bielefeld U",2012,1370,"10.1186/1471-2180-12-6",FALSE,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,"22243621","PMC3398298","ut:000301134700001",NA,TRUE
 "Bielefeld U",2012,1470,"10.1186/1471-2458-12-852",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458","1471-2458",NA,NA,TRUE,"23043425","PMC3491031","ut:000311102600001",NA,TRUE
@@ -91,8 +91,8 @@
 "Bielefeld U",2013,2053,"10.1371/journal.pcbi.1002986",FALSE,"Public Library of Science (PLoS)","PLoS Computational Biology","1553-7358",NA,"1553-7358",NA,TRUE,"23555221","PMC3610657","ut:000316864200056",NA,TRUE
 "Bielefeld U",2013,948,"10.1186/1743-0003-10-42",FALSE,"Springer Science + Business Media","Journal of NeuroEngineering and Rehabilitation","1743-0003","1743-0003",NA,NA,TRUE,"23618596","PMC3637817","ut:000318067100001",NA,TRUE
 "Bielefeld U",2013,1048,"10.1186/1475-2859-12-63",FALSE,"Springer Science + Business Media","Microbial Cell Factories","1475-2859","1475-2859",NA,NA,TRUE,"23806148","PMC3702523","ut:000321379800001",NA,TRUE
-"Bielefeld U",2013,1081,"10.1186/1471-2105-14-s15-s14",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,NA,NA,FALSE,"24564620","PMC3908651","ut:000328316700014",NA,TRUE
-"Bielefeld U",2013,1081,"10.1186/1471-2105-14-s15-s3",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,NA,NA,FALSE,"24564182","PMC3851949","ut:000328316700003",NA,TRUE
+"Bielefeld U",2013,1081,"10.1186/1471-2105-14-s15-s14",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,NA,NA,TRUE,"24564620","PMC3908651","ut:000328316700014",NA,TRUE
+"Bielefeld U",2013,1081,"10.1186/1471-2105-14-s15-s3",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,NA,NA,TRUE,"24564182","PMC3851949","ut:000328316700003",NA,TRUE
 "Bielefeld U",2013,1212,"10.1186/1471-2164-14-714",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,"24138339","PMC4046766","ut:000328632800001",NA,TRUE
 "Bielefeld U",2013,1212,"10.1186/1471-2164-14-888",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,"24341750","PMC3890552","ut:000329612300001",NA,TRUE
 "Bielefeld U",2013,1212,"10.1186/1471-2164-14-926",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,"24373495","PMC3890519","ut:000329613900001",NA,TRUE
@@ -168,7 +168,7 @@
 "Bielefeld U",2014,1276,"10.1186/1471-2458-14-844",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458","1471-2458",NA,NA,TRUE,"25124365","PMC4150979","ut:000340960200001",NA,TRUE
 "Bielefeld U",2014,1276,"10.1186/1472-6807-14-12",FALSE,"Springer Science + Business Media","BMC Structural Biology","1472-6807","1472-6807",NA,NA,TRUE,"24669959","PMC3986869","ut:000334808500001",NA,TRUE
 "Bielefeld U",2014,1276,"10.1186/1472-6874-14-105",FALSE,"Springer Science + Business Media","BMC Women's Health","1472-6874","1472-6874",NA,NA,TRUE,"25189632","PMC4158383","ut:000341736400001",NA,TRUE
-"Bielefeld U",2014,1280,"10.1186/1471-2164-15-1117",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164",NA,NA,NA,FALSE,"25516378",NA,"ut:000347728200002",NA,TRUE
+"Bielefeld U",2014,1280,"10.1186/1471-2164-15-1117",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164",NA,NA,NA,TRUE,"25516378",NA,"ut:000347728200002",NA,TRUE
 "Bielefeld U",2014,1280,"10.1186/1471-2458-14-1148",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458","1471-2458",NA,NA,TRUE,"25374265","PMC4289044","ut:000345866000001",NA,TRUE
 "Bielefeld U",2014,1280,"10.1186/s12859-014-0384-0",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105",NA,"1471-2105",NA,TRUE,NA,NA,"ut:000348472000001",NA,TRUE
 "Bielefeld U",2014,1280,"10.1186/s12870-014-0249-8",FALSE,"Springer Science + Business Media","BMC Plant Biology","1471-2229","1471-2229",NA,NA,TRUE,"25249410","PMC4180131","ut:000342380900001",NA,TRUE
@@ -969,7 +969,7 @@
 "MPG",2014,1105.92,"10.3389/fnins.2014.00137",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X",NA,TRUE,"24926232","PMC4044900","ut:000346486300001",NA,TRUE
 "MPG",2014,1105.92,"10.3389/fnmol.2014.00088",FALSE,"Frontiers Media SA","Frontiers in Molecular Neuroscience","1662-5099",NA,"1662-5099",NA,TRUE,"25477779","PMC4235368","ut:000348067500001",NA,TRUE
 "MPG",2014,1105.92,"10.3389/fnsys.2013.00116",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137",NA,TRUE,"24399939","PMC3871967",NA,NA,TRUE
-"MPG",2014,1105.92,"10.3389/fnsys.2014.00108",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137",NA,FALSE,"25009473","PMC4068003",NA,NA,FALSE
+"MPG",2014,1105.92,"10.3389/fnsys.2014.00108",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137",NA,TRUE,"25009473","PMC4068003",NA,NA,FALSE
 "MPG",2014,1105.92,"10.3389/fnsys.2014.00223",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137",NA,TRUE,"25505390","PMC4243503",NA,NA,TRUE
 "MPG",2014,1105.92,"10.3389/fpls.2014.00038",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,"24592268","PMC3923160","ut:000331534800001",NA,TRUE
 "MPG",2014,1105.92,"10.3389/fpls.2014.00164",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,"24817870","PMC4012189","ut:000336049900001",NA,TRUE
@@ -1055,7 +1055,7 @@
 "Regensburg U",2012,973.34,"10.3390/ma5101774",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944",NA,TRUE,NA,NA,"ut:000310504800003",NA,TRUE
 "Regensburg U",2012,1635.44,"10.3390/s121216954",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"23235441","PMC3571820","ut:000312607500054",NA,TRUE
 "Regensburg U",2012,1244.74,"10.1038/srep00942",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"23267431","PMC3521080","ut:000312273400001",NA,TRUE
-"Regensburg U",2012,723.28,"10.4172/2161-0398.S1-001",FALSE,"OMICS Publishing Group","Journal of Physical Chemistry & Biophysics",NA,NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+"Regensburg U",2012,723.28,"10.4172/2161-0398.S1-001",FALSE,"OMICS Publishing Group","Journal of Physical Chemistry & Biophysics","21610398",NA,"21610398",NA,TRUE,NA,NA,NA,NA,FALSE
 "Regensburg U",2012,2084.16,"10.4172/2155-9562.1000124",FALSE,"OMICS Publishing Group","Journal of Neurology & Neurophysiology","21559562",NA,"21559562",NA,TRUE,NA,NA,NA,NA,FALSE
 "Regensburg U",2012,1963.5,"10.1093/nar/gks1056",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962",NA,TRUE,"23209026","PMC3553968","ut:000314121100049",NA,TRUE
 "Regensburg U",2012,1981.35,"10.1093/nar/gks705",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962",NA,TRUE,"22844086","PMC3479175","ut:000310377200046",NA,TRUE
@@ -1359,7 +1359,7 @@
 "Goettingen U",2013,1447.04,"10.1186/1749-8090-8-233",FALSE,"Springer Science + Business Media","Journal of Cardiothoracic Surgery","1749-8090","1749-8090",NA,NA,TRUE,"24377791","PMC3892123","ut:000331885700001",NA,TRUE
 "Goettingen U",2013,1351.84,"10.1186/1749-8090-8-31",FALSE,"Springer Science + Business Media","Journal of Cardiothoracic Surgery","1749-8090","1749-8090",NA,NA,TRUE,"23445831","PMC3599225","ut:000315952200001",NA,TRUE
 "Goettingen U",2013,1566.04,"10.1186/1749-8090-8-37",FALSE,"Springer Science + Business Media","Journal of Cardiothoracic Surgery","1749-8090","1749-8090",NA,NA,TRUE,"23497549","PMC3599940","ut:000316382100001",NA,TRUE
-"Goettingen U",2013,1347.08,"10.1186/1749-8090-8-5",FALSE,"Springer Science + Business Media","Journal of Cardiothoracic Surgery","1748-8090",NA,NA,NA,FALSE,"23311392","PMC3599272","ut:000315951400001",NA,FALSE
+"Goettingen U",2013,1347.08,"10.1186/1749-8090-8-5",FALSE,"Springer Science + Business Media","Journal of Cardiothoracic Surgery","1748-8090",NA,NA,NA,TRUE,"23311392","PMC3599272","ut:000315951400001",NA,FALSE
 "Goettingen U",2013,1356.6,"10.1186/1749-8090-8-56",FALSE,"Springer Science + Business Media","Journal of Cardiothoracic Surgery","1749-8090","1749-8090",NA,NA,TRUE,"23537248","PMC3621607","ut:000317279600001",NA,TRUE
 "Goettingen U",2013,1551.76,"10.1186/1751-0147-55-8",FALSE,"Springer Science + Business Media","Acta Veterinaria Scandinavica","1751-0147","1751-0147",NA,NA,TRUE,"23369508","PMC3598879","ut:000317045600001",NA,TRUE
 "Goettingen U",2013,1466.08,"10.1186/1751-0147-55-81",FALSE,"Springer Science + Business Media","Acta Veterinaria Scandinavica","1751-0147","1751-0147",NA,NA,TRUE,"24237628","PMC3843554","ut:000328953500001",NA,TRUE
@@ -1410,7 +1410,7 @@
 "Goettingen U",2013,1142.4,"10.3389/fpls.2013.00415",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,"24155751","PMC3801086","ut:000331441300001",NA,TRUE
 "Goettingen U",2013,481,"10.3390/d5010026",FALSE,"MDPI AG","Diversity","1424-2818",NA,"1424-2818",NA,TRUE,NA,NA,NA,NA,TRUE
 "Goettingen U",2013,1741.6,"10.3390/molecules181113608",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049",NA,TRUE,"24192913",NA,"ut:000330311500033",NA,TRUE
-"Goettingen U",2013,779.95,"10.3390/su5041443",FALSE,"MDPI, Basel","Sustainibility. Special Issue: Sustainability in Education: a Critical Reappraisal of Practice and Purpose","1443-1460",NA,NA,NA,FALSE,NA,NA,"ut:000324048200005",NA,FALSE
+"Goettingen U",2013,779.95,"10.3390/su5041443",FALSE,"MDPI AG","Sustainibility","1443-1460",NA,"1443-1460",NA,TRUE,NA,NA,"ut:000324048200005",NA,FALSE
 "Goettingen U",2013,466.49,"10.4161/cib.23894",FALSE,"Informa UK Limited","Communicative & Integrative Biology","1942-0889",NA,"1942-0889",NA,TRUE,"23713138","PMC3656020",NA,NA,FALSE
 "Goettingen U",2013,812.37,"10.4172/2155-6105.1000164",FALSE,"OMICS Publishing Group","Journal of Addiction Research & Therapy","21556105",NA,"21556105",NA,TRUE,NA,NA,NA,NA,FALSE
 "Goettingen U",2013,845.92,"10.4172/2155-9880.S11-008",FALSE,"OMICS Publishing Group","Journal of Clinical & Experimental Cardiology","21559880",NA,"21559880",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -1776,7 +1776,7 @@
 "KIT",2013,500,NA,FALSE,"ESG","International Journal of Electrochemical Science","1452-3981",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
 "KIT",2013,500,NA,FALSE,"ESG","International Journal of Electrochemical Science","1452-3981",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
 "KIT",2013,120,NA,FALSE,"IGIP","International Journal of Engineering Pedagogy","2192-4880",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
-"KIT",2014,2000,"10.1038/lsa.2014.54",FALSE,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,NA,NA,FALSE,NA,NA,"ut:000336902500004",NA,FALSE
+"KIT",2014,2000,"10.1038/lsa.2014.54",FALSE,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,"ut:000336902500004",NA,FALSE
 "KIT",2014,2000,"10.1038/lsa.2014.56",FALSE,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,"ut:000338335400001",NA,TRUE
 "KIT",2014,1938.29,"10.1063/1.4862695",FALSE,"AIP Publishing","APL Materials","2166-532X",NA,"2166-532X",NA,TRUE,NA,NA,"ut:000332282300010",NA,TRUE
 "KIT",2014,924,"10.1088/1367-2630/15/12/123030",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000329439600004",NA,TRUE
@@ -1971,7 +1971,7 @@
 "Regensburg U",2014,1292.85,"10.1371/journal.pone.0114898",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25501974","PMC4264851","ut:000346375400062",NA,TRUE
 "Regensburg U",2014,1435.02,"10.1371/journal.pone.0115005",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25541982","PMC4277272","ut:000347239900017",NA,TRUE
 "Regensburg U",2014,238,"10.14786/flr.v2i4.109",FALSE,"EARLI","Frontline Learning Research","22953159",NA,"22953159",NA,TRUE,NA,NA,NA,NA,FALSE
-"Regensburg U",2014,1000.72,"10.15406/jaccoa.2014.01.00035",FALSE,"Med Crave","Journal of Anesthesia & Critical Care: Open Access",NA,NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+"Regensburg U",2014,1000.72,"10.15406/jaccoa.2014.01.00035",FALSE,"MedCrave Group, LLC","Journal of Anesthesia &amp; Critical Care: Open Access","23736437",NA,"23736437",NA,TRUE,NA,NA,NA,NA,FALSE
 "Regensburg U",2014,1523.2,"10.3389/fchem.2014.00051",FALSE,"Frontiers Media SA","Frontiers in Chemistry","2296-2646",NA,"2296-2646",NA,TRUE,"25077143","PMC4100322",NA,NA,TRUE
 "Regensburg U",2014,575,"10.3389/fgene.2014.00367",FALSE,"Frontiers Media SA","Frontiers in Genetics","1664-8021",NA,"1664-8021",NA,TRUE,"25400657","PMC4212275",NA,NA,TRUE
 "Regensburg U",2014,1142.4,"10.3389/fmicb.2014.00397",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"25140167","PMC4122167","ut:000341028800001",NA,TRUE
@@ -3625,7 +3625,7 @@
 "TU Muenchen",2013,799.68,"10.1186/1756-0500-6-514",FALSE,"Springer Science + Business Media","BMC Research Notes",NA,"1756-0500",NA,NA,TRUE,"24308641","PMC4234937",NA,NA,TRUE
 "TU Muenchen",2014,790.16,"10.1186/1756-0500-7-101",FALSE,"Springer Science + Business Media","BMC Research Notes",NA,"1756-0500",NA,NA,TRUE,"24558966","PMC3936845",NA,NA,TRUE
 "TU Muenchen",2014,799.68,"10.1186/1756-0500-7-580",FALSE,"Springer Science + Business Media","BMC Research Notes",NA,"1756-0500",NA,NA,TRUE,"25167870","PMC4162968",NA,NA,TRUE
-"TU Muenchen",2014,1523.2,"10.1186/1944-3277-9-22",FALSE,"Springer Science + Business Media","Standards in Genomic Sciences",NA,"1944-3277",NA,NA,FALSE,"25593636","PMC4286197",NA,NA,FALSE
+"TU Muenchen",2014,1523.2,"10.1186/1944-3277-9-22",FALSE,"Springer Science + Business Media","Standards in Genomic Sciences",NA,"1944-3277",NA,NA,TRUE,"25593636","PMC4286197",NA,NA,FALSE
 "TU Muenchen",2014,1451.8,"10.1186/2045-7022-4-17",FALSE,"Springer Science + Business Media","Clinical and Translational Allergy",NA,"2045-7022",NA,NA,TRUE,"26085923","PMC4470350",NA,NA,TRUE
 "TU Muenchen",2014,1566.04,"10.1186/2047-2382-3-24",FALSE,"Springer Science + Business Media","Environmental Evidence",NA,"2047-2382",NA,NA,TRUE,NA,NA,NA,NA,TRUE
 "TU Muenchen",2014,1651.72,"10.1186/2047-783X-19-37",FALSE,"Springer Science + Business Media","European Journal of Medical Research",NA,"2047-783X",NA,NA,TRUE,NA,NA,"ut:000338949700001",NA,TRUE
@@ -5477,7 +5477,7 @@
 "Heidelberg U",2015,1661.6,"10.1186/s12885-015-1797-5",FALSE,"Springer Science + Business Media","BMC Cancer","1471-2407",NA,"1471-2407",NA,TRUE,"26486754","PMC4612425",NA,NA,TRUE
 "Heidelberg U",2015,1661.6,"10.1186/s12891-015-0806-9",FALSE,"Springer Science + Business Media","BMC Musculoskeletal Disorders","1471-2474",NA,"1471-2474",NA,TRUE,"26559635","PMC4642614",NA,NA,TRUE
 "Heidelberg U",2015,1661.6,"10.1186/s12909-015-0430-2",FALSE,"Springer Science + Business Media","BMC Medical Education","1472-6920",NA,"1472-6920",NA,TRUE,"26419731","PMC4588264",NA,NA,TRUE
-"Heidelberg U",2015,1785,"10.1186/s12935-015-0257-2",FALSE,"BMC","Cancer Cell International","1475-2867",NA,NA,NA,FALSE,"26500454","PMC4619509",NA,NA,TRUE
+"Heidelberg U",2015,1785,"10.1186/s12935-015-0257-2",FALSE,"Springer Science + Business Media","Cancer Cell International","1475-2867",NA,NA,NA,TRUE,"26500454","PMC4619509",NA,NA,TRUE
 "Heidelberg U",2015,1637.44,"10.1186/s12936-015-1068-6",FALSE,"Springer Science + Business Media","Malaria Journal","1475-2875",NA,"1475-2875",NA,TRUE,"26714758","PMC4696193",NA,NA,TRUE
 "Heidelberg U",2015,1751.68,"10.1186/s12974-015-0356-y",FALSE,"Springer Science + Business Media","Journal of Neuroinflammation","1742-2094",NA,"1742-2094",NA,TRUE,"26377085","PMC4574226",NA,NA,TRUE
 "Heidelberg U",2015,1751.68,"10.1186/s12974-015-0357-x",FALSE,"Springer Science + Business Media","Journal of Neuroinflammation","1742-2094",NA,"1742-2094",NA,TRUE,"26377184","PMC4574118",NA,NA,TRUE
@@ -5555,7 +5555,7 @@
 "Heidelberg U",2015,1497.42,"10.1371/journal.pone.0128770",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26086473","PMC4473014",NA,NA,TRUE
 "Heidelberg U",2015,1497.42,"10.1371/journal.pone.0129104",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26121653","PMC4488141",NA,NA,TRUE
 "Heidelberg U",2015,1497.42,"10.1371/journal.pone.0129120",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26058083","PMC4461256",NA,NA,TRUE
-"Heidelberg U",2015,1497.42,"10.1371/journal.pone.0129149",FALSE,"Public Library of Science (PLoS)","PlOS ONE","1932-6203",NA,NA,NA,FALSE,"26030460","PMC4451245",NA,NA,TRUE
+"Heidelberg U",2015,1497.42,"10.1371/journal.pone.0129149",FALSE,"Public Library of Science (PLoS)","PlOS ONE","1932-6203",NA,NA,NA,TRUE,"26030460","PMC4451245",NA,NA,TRUE
 "Heidelberg U",2015,1497.42,"10.1371/journal.pone.0129648",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26087013","PMC4472749",NA,NA,TRUE
 "Heidelberg U",2015,1497.42,"10.1371/journal.pone.0130453",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26083345","PMC4470826",NA,NA,TRUE
 "Heidelberg U",2015,1497.42,"10.1371/journal.pone.0130653",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26110421","PMC4482435",NA,NA,TRUE
