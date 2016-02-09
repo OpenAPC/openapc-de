@@ -17,5 +17,6 @@ def get_ut():
 
     with cd("openapc/"):
         run("perl fetch.pl apc_de.csv")
-        get("apc_de_ut.csv", "data/apc_de.csv")
-        local("git diff data/apc_de.csv")
+        get("apc_de_ut.csv", "apc_de_ut.csv")
+        local("R CMD BATCH R/isi_add.r")
+        local("rm apc_de_ut.csv")

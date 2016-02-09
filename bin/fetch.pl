@@ -41,7 +41,7 @@ sub _do_request {
     my $ua       = LWP::UserAgent->new;
     my $response = $ua->post( 'http://ws.isiknowledge.com/cps/xrpc',
         Content => $body, );
-#print $response->{_content};
+
     ( $response->is_success )
         ? ( return $response->{_content} )
         : ( return 0 );
@@ -104,7 +104,7 @@ XML4
     }
 
     $body .= '</map></list></fn></request>';
-#print $body ."\n";
+
     return $body;
 }
 
@@ -148,6 +148,7 @@ $csv->each(
             $ut = _parse( _do_request($body) );
             $data->{ut} = $ut ? "ut:$ut" : 'NA';
         }
+
         $exporter->add($data);
     }
 );
