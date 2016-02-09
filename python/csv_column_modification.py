@@ -9,7 +9,7 @@ import sys
 import openapc_toolkit as oat
 
 ARG_HELP_STRINGS = {
-    "csv_file": "The csv file where columns should be reordered",
+    "csv_file": "The csv file where columns should be modified",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
     "quotemask": "A quotemask to apply to the result file after the action " +
@@ -17,7 +17,12 @@ ARG_HELP_STRINGS = {
                  "only of the letters 't' and 'f' (true/false) and has " +
                  "the same length as there are columns in the (resulting) " +
                  "csv file. Only the columns where the index is 't' will be " +
-                 "quoted."
+                 "quoted.",
+    "openapc_quote_rules": "Determines if the special openapc quote rules " +
+                           "should be applied, meaning that the keywords " +
+                           "NA, TRUE and FALSE will never be quoted. If in " +
+                           "conflict with a quotemask, openapc_quote_rules " +
+                           "will take precedence."
 }
 
 def main():
@@ -25,6 +30,9 @@ def main():
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
+    parser.add_argument("-o", "--openapc_quote_rules", 
+                        help=ARG_HELP_STRINGS["openapc_quote_rules"],
+                        action="store_true", default=False)
     subparsers = parser.add_subparsers(help='The column operation to perform')
     
     delete_parser = subparsers.add_parser("delete", help="delete help")
@@ -42,9 +50,12 @@ def main():
     move_parser.add_argument("target_index", type=int, help='bar help')
     move_parser.set_defaults(func=move_column)
     
+    copy_parser = subparsers.add_parser("copy", help="copy help")
+    copy_parser.set_defaults(func=copy)
+    
     args = parser.parse_args()
     
-    print args
+    quote_rules = args.openapc_quote_rules
     
     enc = None #CSV file encoding
     
@@ -97,7 +108,7 @@ def main():
         mask = [True if x == "t" else False for x in args.quotemask]
     
     with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, mask, True, False)
+        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
         writer.write_rows(new_rows)
         
 def quote_column(csv_reader, args):
@@ -139,6 +150,12 @@ def insert_column(csv_reader, args):
     new_rows = [header]
     for row in csv_reader:
         row.insert(args.target_index, args.default_value)
+        new_rows.append(row)
+    return new_rows
+    
+def copy(csv_reader, _):
+    new_rows = []
+    for row in csv_reader:
         new_rows.append(row)
     return new_rows
 
