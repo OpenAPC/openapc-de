@@ -222,6 +222,17 @@ def get_metadata_from_crossref(doi_string):
         contain a second entry 'error_msg' with a string value
         stating the reason.
     """
+    _cr_schema_1_0 = 'xmlns="http://www.crossref.org/xschema/1.0"'
+    _cr_schema_1_1 = 'xmlns="http://www.crossref.org/xschema/1.1"'
+    xpaths = {
+        "publisher": ".//cr_qr:crm-item[@name='publisher-name']",
+        "journal_full_title": ".//cr_x:journal_metadata//cr_x:full_title",
+        "issn": ".//cr_x:journal_metadata//cr_x:issn",
+        "issn_print": ".//cr_x:journal_metadata//" +
+                      "cr_x:issn[@media_type='print']",
+        "issn_electronic": ".//cr_x:journal_metadata//" +
+                           "cr_x:issn[@media_type='electronic']",
+        "license_ref": ".//ai:license_ref"}
     doi_match = DOI_RE.match(doi_string.strip())
     if not doi_match:
         error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
@@ -234,21 +245,25 @@ def get_metadata_from_crossref(doi_string):
     try:
         response = urllib2.urlopen(req)
         content_string = response.read()
-        ns = {"cr_qr": "http://www.crossref.org/qrschema/3.0",
-              "cr_x": "http://www.crossref.org/xschema/1.1",
-              "ai": "http://www.crossref.org/AccessIndicators.xsd"}
+        # Detect crossref namespace - older entries might still have version 1.0
+        if _cr_schema_1_1 in content_string:
+            ns = {"cr_qr": "http://www.crossref.org/qrschema/3.0",
+                  "cr_x": "http://www.crossref.org/xschema/1.1",
+                  "ai": "http://www.crossref.org/AccessIndicators.xsd"}
+        elif _cr_schema_1_0 in content_string:
+            ns = {"cr_qr": "http://www.crossref.org/qrschema/3.0",
+                  "cr_x": "http://www.crossref.org/xschema/1.0",
+                  "ai": "http://www.crossref.org/AccessIndicators.xsd"}
+        else:
+            ret_value['success'] = False
+            error_msg = ("Parse Error: Unable to detect CrossRef XML " +
+                        "Namespace - neither '{}' nor '{}' found in query " +
+                        "result!").format(_cr_schema_1_0, _cr_schema_1_1)
+            ret_value['error_msg'] = error_msg
+            return ret_value
         root = ET.fromstring(content_string)
         crossref_data = {}
-        xpaths = {
-            "publisher": ".//cr_qr:crm-item[@name='publisher-name']",
-            "journal_full_title": ".//cr_x:journal_metadata//cr_x:full_title",
-            "issn": ".//cr_x:journal_metadata//cr_x:issn",
-            "issn_print": ".//cr_x:journal_metadata//" +
-                          "cr_x:issn[@media_type='print']",
-            "issn_electronic": ".//cr_x:journal_metadata//" +
-                               "cr_x:issn[@media_type='electronic']",
-            "license_ref": ".//ai:license_ref"
-        }
+        
         for elem, path in xpaths.iteritems():
             result = root.findall(path, ns)
             if result:
