@@ -60,13 +60,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  7 514 747 € for  5 898 articles were paid by the participating unviversities. Average  fee is 1 274.1 € and the median 1 203 €.
+In total,  7 798 605 € for  6 115 articles were paid by the participating unviversities. Average  fee is 1 275.3 € and the median 1 203 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 5 845 articles in open access journals which charge publication fees. Total expenditure amounts to  7 426 905 €. Average  fee is 1 270.6 € and the median 1 203 €.
+At the moment, the dataset releases information on 6 062 articles in open access journals which charge publication fees. Total expenditure amounts to  7 710 763 €. Average  fee is 1 272 € and the median 1 203 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -75,7 +75,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
-|Bielefeld U                                 |      160|            187296|          1171|   1160|
+|Bielefeld U                                 |      262|            321475|          1227|   1232|
 |Bochum U                                    |       25|             27689|          1108|   1216|
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
@@ -93,7 +93,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Konstanz U                                  |      223|            304182|          1364|   1342|
 |Leipzig U                                   |       60|             79603|          1327|   1305|
 |MDC                                         |       23|             41464|          1803|   1212|
-|MPG                                         |     2641|           3364310|          1274|   1165|
+|MPG                                         |     2756|           3513989|          1275|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
 |Regensburg U                                |      280|            331718|          1185|   1183|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
