@@ -166,49 +166,25 @@ def main():
     csv_file.seek(0)
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
-    column_map = {
-        "institution": CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column),
-        "period": CSVColumn("period", CSVColumn.MANDATORY, args.period_column),
-        "euro": CSVColumn("euro", CSVColumn.MANDATORY, args.euro_column),
-        "doi": CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column),
-        "is_hybrid": CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column),
-        "publisher": CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column),
-        "journal_full_title": CSVColumn("journal_full_title", CSVColumn.OPTIONAL,
-                                        args.journal_full_title_column),
-        "issn": CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column),
-        "issn_print": CSVColumn("issn_print", CSVColumn.NONE, None),
-        "issn_electronic": CSVColumn("issn_electronic", CSVColumn.NONE, None),
-        "license_ref": CSVColumn("license_ref", CSVColumn.NONE, None),
-        "indexed_in_crossref": CSVColumn("indexed_in_crossref", CSVColumn.NONE, None),
-        "pmid": CSVColumn("pmid", CSVColumn.NONE, None),
-        "pmcid": CSVColumn("pmcid", CSVColumn.NONE, None),
-        "ut": CSVColumn("ut", CSVColumn.NONE, None),
-        "url": CSVColumn("url", CSVColumn.OPTIONAL, args.url_column),
-        "doaj": CSVColumn("doaj", CSVColumn.NONE, None)
-    }
-
-    # This list will store info about additional (unknown) columns found in
-    # the CSV file as CSVColumn objects.
-    additional_columns = []
-
-    csv_columns = OrderedDict([
-        ("institution", "NA"),
-        ("period", "NA"),
-        ("euro", "NA"),
-        ("doi", "NA"),
-        ("is_hybrid", "NA"),
-        ("publisher", "NA"),
-        ("journal_full_title", "NA"),
-        ("issn", "NA"),
-        ("issn_print", "NA"),
-        ("issn_electronic", "NA"),
-        ("license_ref", "NA"),
-        ("indexed_in_crossref", "NA"),
-        ("pmid", "NA"),
-        ("pmcid", "NA"),
-        ("ut", "NA"),
-        ("url", "NA"),
-        ("doaj", "NA")
+    column_map = OrderedDict([
+        ("institution", CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column)),  
+        ("period", CSVColumn("period", CSVColumn.MANDATORY, args.period_column)),
+        ("euro", CSVColumn("euro", CSVColumn.MANDATORY, args.euro_column)),
+        ("doi", CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column)),
+        ("is_hybrid", CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column)),
+        ("publisher", CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column)),
+        ("journal_full_title", CSVColumn("journal_full_title", CSVColumn.OPTIONAL,
+                                        args.journal_full_title_column)),
+        ("issn", CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column)),
+        ("issn_print", CSVColumn("issn_print", CSVColumn.NONE, None)),
+        ("issn_electronic", CSVColumn("issn_electronic", CSVColumn.NONE, None)),
+        ("license_ref", CSVColumn("license_ref", CSVColumn.NONE, None)),
+        ("indexed_in_crossref", CSVColumn("indexed_in_crossref", CSVColumn.NONE, None)),
+        ("pmid", CSVColumn("pmid", CSVColumn.NONE, None)),
+        ("pmcid", CSVColumn("pmcid", CSVColumn.NONE, None)),
+        ("ut", CSVColumn("ut", CSVColumn.NONE, None)),
+        ("url", CSVColumn("url", CSVColumn.OPTIONAL, args.url_column)),
+        ("doaj", CSVColumn("doaj", CSVColumn.NONE, None))
     ])
 
     # Do not quote the values in the 'period' and 'euro' columns
@@ -384,12 +360,10 @@ def main():
             if not column_name:
                 # Use a generic name
                 column_name = "unknown"
-            while column_name in csv_columns:
+            while column_name in column_map.keys():
                 # TODO: Replace by a numerical, increasing suffix
                 column_name += "_"
-            csv_columns[column_name] = "NA"
-            additional_columns.append(CSVColumn(column_name, False, index))
-
+            column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
 
     print ""
     for column in column_map.values():
@@ -413,8 +387,6 @@ def main():
     if start == "n":
         sys.exit()
 
-
-
     print "\n    *** Starting metadata aggregation ***\n"
 
     enriched_content = []
@@ -428,7 +400,7 @@ def main():
             continue # skip empty lines
         if not header_processed:
             header_processed = True
-            enriched_content.append(csv_columns.keys())
+            enriched_content.append(column_map.keys())
             if has_header:
                 # If the CSV file has a header, we are currently there - skip it
                 # to get to the first data row
@@ -436,8 +408,7 @@ def main():
 
         doi = row[column_map["doi"].index]
 
-        current_row = copy(csv_columns)
-
+        current_row = OrderedDict()
         # Copy content of identified columns
         for csv_column in column_map.values():
             if csv_column.index is not None:
@@ -450,12 +421,8 @@ def main():
                     current_row[csv_column.column_type] = str(euro)
                 else:
                     current_row[csv_column.column_type] = row[csv_column.index]
-                    
-
-        # add unidentified fields to the row
-        for column in additional_columns:
-            field = row[column.index]
-            current_row[column.column_type] = field
+            else:
+                current_row[csv_column.column_type] = "NA"
 
         # include crossref metadata
         crossref_result = oat.get_metadata_from_crossref(doi)
