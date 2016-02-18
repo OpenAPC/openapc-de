@@ -13,10 +13,14 @@ import sys
 import openapc_toolkit as oat
 
 class CSVColumn(object):
+    
+    MANDATORY = "mandatory"
+    OPTIONAL = "optional"
+    NONE = "non-required"
 
-    def __init__(self, column_type, mandatory, index=None, column_name=""):
+    def __init__(self, column_type, requirement, index=None, column_name=""):
         self.column_type = column_type
-        self.mandatory = mandatory
+        self.requirement = requirement
         self.index = index
         self.column_name = column_name
 
@@ -163,16 +167,24 @@ def main():
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
     column_map = {
-        "institution": CSVColumn("institution", True, args.institution_column),
-        "period": CSVColumn("period", True, args.period_column),
-        "euro": CSVColumn("euro", True, args.euro_column),
-        "doi": CSVColumn("doi", True, args.doi_column),
-        "is_hybrid": CSVColumn("is_hybrid", True, args.is_hybrid_column),
-        "publisher": CSVColumn("publisher", False, args.publisher_column),
-        "journal_full_title": CSVColumn("journal_full_title", False,
+        "institution": CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column),
+        "period": CSVColumn("period", CSVColumn.MANDATORY, args.period_column),
+        "euro": CSVColumn("euro", CSVColumn.MANDATORY, args.euro_column),
+        "doi": CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column),
+        "is_hybrid": CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column),
+        "publisher": CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column),
+        "journal_full_title": CSVColumn("journal_full_title", CSVColumn.OPTIONAL,
                                         args.journal_full_title_column),
-        "issn": CSVColumn("issn", False, args.issn_column),
-        "url": CSVColumn("url", False, args.url_column)
+        "issn": CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column),
+        "issn_print": CSVColumn("issn_print", CSVColumn.NONE, None),
+        "issn_electronic": CSVColumn("issn_electronic", CSVColumn.NONE, None),
+        "license_ref": CSVColumn("license_ref", CSVColumn.NONE, None),
+        "indexed_in_crossref": CSVColumn("indexed_in_crossref", CSVColumn.NONE, None),
+        "pmid": CSVColumn("pmid", CSVColumn.NONE, None),
+        "pmcid": CSVColumn("pmcid", CSVColumn.NONE, None),
+        "ut": CSVColumn("ut", CSVColumn.NONE, None),
+        "url": CSVColumn("url", CSVColumn.OPTIONAL, args.url_column),
+        "doaj": CSVColumn("doaj", CSVColumn.NONE, None)
     }
 
     # This list will store info about additional (unknown) columns found in
@@ -324,7 +336,7 @@ def main():
 
     # Wrap up: Check if there any mandatory column types left which have not
     # yet been identified - we cannot continue in that case (unless forced).
-    unassigned = filter(lambda (k, v): v.mandatory and v.index is None,
+    unassigned = filter(lambda (k, v): v.requirement == CSVColumn.MANDATORY and v.index is None,
                         column_map.iteritems())
     if unassigned:
         for item in unassigned:
@@ -359,13 +371,16 @@ def main():
             column_name = header[index]
         if index in index_dict:
             column = index_dict[index]
-            mandatory = "mandatory" if column.mandatory else "optional"
-            msg = "column number {} ({}) is the {} column '{}'"
-            print msg.format(index, column_name, mandatory, column.column_type)
+            msg = "column number {} ({}) is the {} column '{}'".format(
+                index, column_name, column.requirement, column.column_type)
+            if column.requirement in [CSVColumn.MANDATORY, CSVColumn.OPTIONAL]:
+                oat.print_g(msg)
+            else:
+                oat.print_b(msg)
         else:
             msg = ("column number {} ({}) is an unknown column, it will be " +
                    "appended to the generated CSV file")
-            print msg.format(index, column_name)
+            oat.print_y(msg.format(index, column_name))
             if not column_name:
                 # Use a generic name
                 column_name = "unknown"
@@ -379,15 +394,13 @@ def main():
     print ""
     for column in column_map.values():
         if column.index is None:
-            # Should all be optional...
-            mandatory = "mandatory" if column.mandatory else "optional"
             msg = "The {} column '{}' could not be identified."
-            print msg.format(mandatory, column.column_type)
+            print msg.format(column.requirement, column.column_type)
 
 
     # Check for unassigned optional column types. We can continue but should
     # issue a warning as all entries will need a valid DOI in this case.
-    unassigned = filter(lambda (k, v): not v.mandatory and v.index is None,
+    unassigned = filter(lambda (k, v): v.requirement == CSVColumn.OPTIONAL and v.index is None,
                         column_map.iteritems())
     if unassigned:
         print ("\nWARNING: Not all optional column types could be " +

@@ -388,7 +388,13 @@ def get_column_type_from_whitelist(column_name):
         "issn": ["issn"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
-        "url": ["url"]
+        "license_ref": ["license_ref"],
+        "indexed_in_crossref": ["indexed_in_crossref"],
+        "pmid": ["pmid"],
+        "pmcid": ["pmcid"],
+        "ut": ["ut"],
+        "url": ["url"],
+        "doaj": ["doaj"]
     }
     for key, whitelist in column_names.iteritems():
         if column_name.lower() in whitelist:
@@ -403,3 +409,6 @@ def print_g(text):
     
 def print_r(text):
     print "\033[91m" + text + "\033[0m"
+
+def print_y(text):
+    print "\033[93m" + text + "\033[0m"
