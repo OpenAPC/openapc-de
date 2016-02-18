@@ -380,15 +380,26 @@ def get_column_type_from_whitelist(column_name):
     column_names = {
         "institution": ["institution"],
         "doi": ["doi"],
-        "euro": ["apc", "kosten", "euro"],
+        "euro": ["apc", "kosten", "euro", "eur"],
         "period": ["period", "jahr"],
         "is_hybrid": ["is_hybrid"],
         "publisher": ["publisher"],
         "journal_full_title": ["journal_full_title", "journal"],
         "issn": ["issn"],
+        "issn_print": ["issn_print"],
+        "issn_electronic": ["issn_electronic"],
         "url": ["url"]
     }
     for key, whitelist in column_names.iteritems():
         if column_name.lower() in whitelist:
             return key
     return None
+    
+def print_b(text):
+    print "\033[94m" + text + "\033[0m"
+    
+def print_g(text):
+    print "\033[92m" + text + "\033[0m"
+    
+def print_r(text):
+    print "\033[91m" + text + "\033[0m"
