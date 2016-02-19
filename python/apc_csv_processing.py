@@ -17,12 +17,49 @@ class CSVColumn(object):
     MANDATORY = "mandatory"
     OPTIONAL = "optional"
     NONE = "non-required"
+    
+    OW_ALWAYS = 0
+    OW_ASK = 1
+    OW_NEVER = 2
+    
+    _OW_MSG = (u"\033[91mConflict\033[0m: Existing non-NA value " +
+               u"\033[93m{}\033[0m in column \033[93m{}\033[0m is to be " +
+               u"replaced by new value \033[93m{}\033[0m. Allow overwrite?\n" +
+               u"(y)es, (n)o, (a)lways overwrite in this column, n(e)ver " +
+               u"overwrite in this column:") 
 
-    def __init__(self, column_type, requirement, index=None, column_name=""):
+    def __init__(self, column_type, requirement, index=None, column_name="", overwrite=OW_ASK):
         self.column_type = column_type
         self.requirement = requirement
         self.index = index
         self.column_name = column_name
+        self.overwrite = overwrite
+        
+    def check_overwrite(self, old_value, new_value):
+        if old_value == new_value:
+            return old_value
+        # Priority: NA values will always be overwritten by non-NA values.
+        if old_value == "NA":
+            return new_value
+        if self.overwrite == CSVColumn.OW_ALWAYS:
+            return new_value
+        if self.overwrite == CSVColumn.OW_NEVER:
+            return old_value
+        msg = CSVColumn._OW_MSG.format(old_value, self.column_name, new_value)
+        msg = msg.encode("utf-8")
+        ret = raw_input(msg)
+        while ret not in ["y", "n", "a", "e"]:
+            ret = raw_input("Please type 'y', 'n', 'a' or 'e':")
+        if ret == "n":
+            return old_value
+        if ret == "y":
+            return new_value
+        if ret == "a":
+            self.overwrite = CSVColumn.OW_ALWAYS
+            return new_value
+        if ret == "e":
+            self.overwrite = CSVColumn.OW_NEVER
+            return old_value
 
 
 ARG_HELP_STRINGS = {
@@ -432,13 +469,15 @@ def main():
             data = crossref_result["data"]
             for key, value in data.iteritems():
                 if value is not None:
-                    current_row[key] = value
+                    new_value = value
                 else:
-                    current_row[key] = "NA"
+                    new_value = "NA"
                     print (u"WARNING: Element '{}' not found in in response " +
                            "for doi {}.").format(key, doi)
+                old_value = current_row[key]
+                current_row[key] = column_map[key].check_overwrite(old_value, new_value)
         else:
-            print ("Crossref: Error while trying to resolve DOI " + doi + ": " +
+            oat.print_r("Crossref: Error while trying to resolve DOI " + doi + ": " +
                    crossref_result["error_msg"])
             current_row["indexed_in_crossref"] = "FALSE"
 
@@ -449,13 +488,15 @@ def main():
             data = pubmed_result["data"]
             for key, value in data.iteritems():
                 if value is not None:
-                    current_row[key] = value
+                    new_value = value
                 else:
-                    current_row[key] = "NA"
+                    new_value = "NA"
                     print (u"WARNING: Element '{}' not found in in response " +
                            "for doi {}.").format(key, doi)
+                old_value = current_row[key]
+                current_row[key] = column_map[key].check_overwrite(old_value, new_value)
         else:
-            print ("Pubmed: Error while trying to resolve DOI " + doi + ": " +
+            oat.print_r("Pubmed: Error while trying to resolve DOI " + doi + ": " +
                    pubmed_result["error_msg"])
 
         # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
@@ -481,7 +522,7 @@ def main():
                         print msg.format(issn)
                 else:
                     msg = "DOAJ: Error while trying to look up ISSN {}: {}"
-                    print msg.format(issn, doaj_res["error_msg"])
+                    oat.print_r(msg.format(issn, doaj_res["error_msg"]))
 
 
         enriched_content.append(current_row.values())
