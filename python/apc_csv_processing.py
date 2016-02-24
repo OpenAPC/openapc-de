@@ -450,8 +450,10 @@ def main():
     csv_file.seek(0)
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     header_processed = False
+    row_num = 0
 
     for row in reader:
+        row_num += 1
         if not row:
             continue # skip empty lines
         if not header_processed:
@@ -461,6 +463,14 @@ def main():
                 # If the CSV file has a header, we are currently there - skip it
                 # to get to the first data row
                 continue
+        if len(row) != num_columns:
+            error_msg = ("ERROR: the number of values in line {} ({}) " +
+                         "differs from the number of columns ({}). Line left " +
+                         "unchanged, please correct the error in the result " +
+                         "file and re-run.")
+            oat.print_r(error_msg.format(row_num, len(row), num_columns))
+            enriched_content.append(row)
+            continue
 
         doi = row[column_map["doi"].index]
 
