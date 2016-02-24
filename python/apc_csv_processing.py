@@ -23,10 +23,13 @@ class CSVColumn(object):
     OW_NEVER = 2
     
     _OW_MSG = (u"\033[91mConflict\033[0m: Existing non-NA value " +
-               u"\033[93m{}\033[0m in column \033[93m{}\033[0m is to be " +
-               u"replaced by new value \033[93m{}\033[0m. Allow overwrite?\n" +
-               u"(y)es, (n)o, (a)lways overwrite in this column, n(e)ver " +
-               u"overwrite in this column:") 
+               u"\033[93m{ov}\033[0m in column \033[93m{name}\033[0m is to be " +
+               u"replaced by new value \033[93m{nv}\033[0m.\nAllow overwrite?\n" +
+               u"1) Yes\n2) Yes, and always replace \033[93m{ov}\033[0m by "+
+               "\033[93m{nv}\033[0m in this column\n3) Yes, and always " +
+               "overwrite in this column\n4) No\n5) No, and never replace " +
+               "\033[93m{ov}\033[0m by \033[93m{nv}\033[0m in this " +
+               "column\n6) No, and never overwrite in this column\n>") 
 
     def __init__(self, column_type, requirement, index=None, column_name="", overwrite=OW_ASK):
         self.column_type = column_type
@@ -34,30 +37,46 @@ class CSVColumn(object):
         self.index = index
         self.column_name = column_name
         self.overwrite = overwrite
+        self.overwrite_whitelist = {}
+        self.overwrite_blacklist = {}
         
     def check_overwrite(self, old_value, new_value):
         if old_value == new_value:
             return old_value
-        # Priority: NA values will always be overwritten by non-NA values.
+        # Priority: Empty or NA values will always be overwritten.
         if old_value == "NA":
+            return new_value
+        if old_value.strip() == "":
             return new_value
         if self.overwrite == CSVColumn.OW_ALWAYS:
             return new_value
         if self.overwrite == CSVColumn.OW_NEVER:
             return old_value
-        msg = CSVColumn._OW_MSG.format(old_value, self.column_name, new_value)
+        if old_value in self.overwrite_blacklist:
+            if self.overwrite_blacklist[old_value] == new_value:
+                return old_value
+        if old_value in self.overwrite_whitelist:
+            return new_value
+        msg = CSVColumn._OW_MSG.format(ov=old_value, name=self.column_name, 
+                                       nv=new_value)
         msg = msg.encode("utf-8")
         ret = raw_input(msg)
-        while ret not in ["y", "n", "a", "e"]:
-            ret = raw_input("Please type 'y', 'n', 'a' or 'e':")
-        if ret == "n":
-            return old_value
-        if ret == "y":
+        while ret not in ["1", "2", "3", "4", "5", "6"]:
+            ret = raw_input("Please select a number between 1 and 5:")
+        if ret == "1":
             return new_value
-        if ret == "a":
+        if ret == "2":
+            self.overwrite_whitelist[old_value] = new_value
+            return new_value
+        if ret == "3":
             self.overwrite = CSVColumn.OW_ALWAYS
             return new_value
-        if ret == "e":
+        if ret == "4":
+            return old_value
+        if ret == "5":
+            self.overwrite_blacklist[old_value] = new_value
+            return old_value
+        if ret == "6":
             self.overwrite = CSVColumn.OW_NEVER
             return old_value
 
