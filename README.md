@@ -60,13 +60,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  7 798 605 € for  6 115 articles were paid by the participating unviversities. Average  fee is 1 275.3 € and the median 1 203 €.
+In total,  8 097 413 € for  6 328 articles were paid by the participating unviversities. Average  fee is 1 279.6 € and the median 1 208 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 6 062 articles in open access journals which charge publication fees. Total expenditure amounts to  7 710 763 €. Average  fee is 1 272 € and the median 1 203 €.
+At the moment, the dataset releases information on 6 275 articles in open access journals which charge publication fees. Total expenditure amounts to  8 009 572 €. Average  fee is 1 276.4 € and the median 1 207 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -76,22 +76,22 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
 |Bielefeld U                                 |      262|            321475|          1227|   1232|
-|Bochum U                                    |       25|             27689|          1108|   1216|
+|Bochum U                                    |       70|             91951|          1314|   1437|
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |      104|            139284|          1339|   1283|
 |FZJ - ZB                                    |       94|            109701|          1167|   1091|
-|GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
+|GFZ-Potsdam                                 |      106|            126520|          1194|   1065|
 |Giessen U                                   |      243|            326082|          1342|   1247|
 |Goettingen U                                |      313|            409930|          1310|   1285|
-|Hamburg TUHH                                |       10|             11911|          1191|   1149|
+|Hamburg TUHH                                |       24|             32789|          1366|   1466|
 |Hannover U                                  |       69|             90259|          1308|   1241|
 |Heidelberg U                                |      215|            308348|          1434|   1500|
 |INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
 |Kassel U                                    |       35|             35550|          1016|   1142|
 |KIT                                         |      293|            345311|          1179|   1176|
 |Konstanz U                                  |      223|            304182|          1364|   1342|
-|Leipzig U                                   |       60|             79603|          1327|   1305|
+|Leipzig U                                   |      168|            236376|          1407|   1481|
 |MDC                                         |       23|             41464|          1803|   1212|
 |MPG                                         |     2756|           3513989|          1275|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
