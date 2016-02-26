@@ -60,13 +60,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  8 350 014 € for  6 501 articles were paid by the participating unviversities. Average  fee is 1 284.4 € and the median 1 214 €.
+In total,  8 351 609 € for  6 502 articles were paid by the participating unviversities. Average  fee is 1 284.5 € and the median 1 214 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 6 448 articles in open access journals which charge publication fees. Total expenditure amounts to  8 262 173 €. Average  fee is 1 281.4 € and the median 1 211 €.
+At the moment, the dataset releases information on 6 449 articles in open access journals which charge publication fees. Total expenditure amounts to  8 263 767 €. Average  fee is 1 281.4 € and the median 1 212 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -76,7 +76,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
 |Bielefeld U                                 |      262|            321475|          1227|   1232|
-|Bochum U                                    |       70|             91951|          1314|   1437|
+|Bochum U                                    |       71|             93546|          1318|   1438|
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |      104|            139284|          1339|   1283|
