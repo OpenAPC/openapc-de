@@ -13,7 +13,7 @@ try:
 except ImportError:
     print ("WARNING: 3rd party module 'chardet' not found - character " +
            "encoding guessing will not work")
-
+           
 # regex for detecing DOIs
 DOI_RE = re.compile("^(((https?://)?dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
 
@@ -46,6 +46,23 @@ class UnicodeReader(object):
     def next(self):
         row = self.reader.next()
         return [unicode(s, "utf-8") for s in row]
+
+    def __iter__(self):
+        return self
+        
+class UnicodeDictReader(object):
+    """
+    A CSV reader which will iterate over lines in the CSV file "f",
+    which is encoded in the given encoding.
+    """
+
+    def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
+        f = UTF8Recoder(f, encoding)
+        self.reader = csv.DictReader(f, dialect=dialect, **kwds)
+
+    def next(self):
+        row = self.reader.next()
+        return {k: unicode(v, "utf-8") for (k, v) in row.iteritems()}
 
     def __iter__(self):
         return self
@@ -150,6 +167,12 @@ class CSVAnalysisResult(object):
                         int(self.enc_conf * 100))
         ret += "***************************"
         return ret
+        
+def is_wellformed_DOI(doi_string):
+    doi_match = DOI_RE.match(doi_string.strip())
+    if doi_match is not None:
+        return True
+    return False
  
 def analyze_csv_file(file_path, line_limit=None):
     try:
