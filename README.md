@@ -60,13 +60,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  8 350 014 € for  6 501 articles were paid by the participating unviversities. Average  fee is 1 284.4 € and the median 1 214 €.
+In total,  8 551 222 € for  6 648 articles were paid by the participating unviversities. Average  fee is 1 286.3 € and the median 1 214 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 6 448 articles in open access journals which charge publication fees. Total expenditure amounts to  8 262 173 €. Average  fee is 1 281.4 € and the median 1 211 €.
+At the moment, the dataset releases information on 6 595 articles in open access journals which charge publication fees. Total expenditure amounts to  8 463 380 €. Average  fee is 1 283.3 € and the median 1 212 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -76,11 +76,11 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
 |Bielefeld U                                 |      262|            321475|          1227|   1232|
-|Bochum U                                    |       70|             91951|          1314|   1437|
+|Bochum U                                    |       71|             93546|          1318|   1438|
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |      104|            139284|          1339|   1283|
-|FZJ - ZB                                    |       94|            109701|          1167|   1091|
+|FZJ - ZB                                    |      180|            225732|          1254|   1200|
 |GFZ-Potsdam                                 |      106|            126520|          1194|   1065|
 |Giessen U                                   |      243|            326082|          1342|   1247|
 |Goettingen U                                |      313|            409930|          1310|   1285|
@@ -93,7 +93,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Konstanz U                                  |      223|            304182|          1364|   1342|
 |Leipzig U                                   |      168|            236376|          1407|   1481|
 |MDC                                         |       23|             41464|          1803|   1212|
-|MPG                                         |     2756|           3513989|          1275|   1161|
+|MPG                                         |     2816|           3597571|          1278|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
 |Regensburg U                                |      401|            504642|          1258|   1207|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
