@@ -6,12 +6,20 @@
 "MPG",2015,1969.92,"10.5194/acp-15-8847-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "MPG",2015,1497.6,"10.5194/acpd-15-6967-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "MPG",2015,2138.11,"10.5194/amt-8-2827-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+<<<<<<< HEAD
 "MPG",2015,1327.1,"10.5194/amt-8-2233-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,FALSE,NA,NA,NA,http://www.atmos-meas-tech.net/8/2233/2015/,NA
+=======
+"MPG",2015,1327.1,"10.5194/amt-8-2233-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",FALSE,NA,NA,NA,"http://www.atmos-meas-tech.net/8/2233/2015/",TRUE
+>>>>>>> refs/remotes/OpenAPC/master
 "MPG",2015,774.14,"10.5194/amt-8-3209-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "MPG",2015,1353.6,"10.5194/amt-8-3767-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "MPG",2015,1636.99,"10.5194/bg-12-3525-2015",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "MPG",2015,950.4,"10.5194/cpd-11-997-2015",FALSE,"Copernicus GmbH","Climate of the Past Discussions","1814-9359",NA,"1814-9359","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+<<<<<<< HEAD
 "MPG",2015,1354.75,"10.5194/gmd-8-2435-2015",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+=======
+"MPG",2015,1354.75,"10.5194/gmd-8-2655-2015",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+>>>>>>> refs/remotes/OpenAPC/master
 "MPG",2015,1555.2,"10.5194/gmd-8-2893-2015",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "MPG",2015,1658.88,"10.5194/acp-16-1491-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "MPG",2015,864,"10.5194/acp-15-10399-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
