@@ -1,5 +1,5 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"FU Berlin",2015,2000,"10.1038/npjqi.2015.10",FALSE,"Nature Publishing Group","npj Quantum Information","2056-6387",NA,"2056-6387",NA,TRUE,NA,NA,NA,NA,FALSE
+"FU Berlin",2015,2000,"10.1038/npjqi.2015.10",FALSE,"Nature Publishing Group","npj Quantum Information","2056-6387",NA,"2056-6387",NA,TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2015,1503.12,"10.1103/PhysRevX.5.041008",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2015,2000,"10.1038/ncomms9498",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26577800","PMC4673657",NA,NA,TRUE
 "FU Berlin",2015,2000,"10.1371/journal.ppat.1005246",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374",NA,TRUE,"26544881","PMC4636265",NA,NA,TRUE
@@ -58,3 +58,5 @@
 "FU Berlin",2015,1731.45,"10.1186/s13015-014-0028-y",FALSE,"Springer Science + Business Media","Algorithms for Molecular Biology","1748-7188","1748-7188",NA,NA,TRUE,"25649004","PMC4302510",NA,NA,TRUE
 "FU Berlin",2015,1600,"10.3389/fpsyg.2015.00194",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25762966","PMC4340142",NA,NA,TRUE
 "FU Berlin",2015,219.84,"10.3389/fevo.2015.00020",FALSE,"Frontiers Media SA","Frontiers in Ecology and Evolution","2296-701X",NA,"2296-701X",NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1386.35,"10.1038/srep19416",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26757825","PMC4725832",NA,NA,TRUE
+"FU Berlin",2015,2000,"10.1155/2015/569512",FALSE,"Hindawi Publishing Corporation","Mediators of Inflammation","0962-9351","0962-9351","1466-1861","http://creativecommons.org/licenses/by/3.0/",TRUE,"26770019",NA,NA,NA,TRUE
