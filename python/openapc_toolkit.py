@@ -223,7 +223,7 @@ def get_metadata_from_crossref(doi_string):
 
     This method looks up a DOI in crossref and returns all metadata fields
     relevant to OpenAPC (publisher, journal_full_title, issn, issn_print,
-    ssn_electronic, license_ref).
+    issn_electronic, license_ref).
 
     Args:
         doi_string: A string representing a doi. 'Pure' form (10.xxx),
@@ -407,7 +407,7 @@ def get_column_type_from_whitelist(column_name):
         "period": ["period", "jahr"],
         "is_hybrid": ["is_hybrid"],
         "publisher": ["publisher"],
-        "journal_full_title": ["journal_full_title", "journal"],
+        "journal_full_title": ["journal_full_title", "journal", "journal title"],
         "issn": ["issn"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
