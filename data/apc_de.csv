@@ -275,11 +275,11 @@
 "FU Berlin",2014,1957.55,"10.1186/1746-6148-10-163",FALSE,"Springer Science + Business Media","BMC Veterinary Research","1746-6148","1746-6148",NA,NA,TRUE,"25030305","PMC4108249","ut:000339406900001",NA,TRUE
 "FU Berlin",2014,2000,"10.1186/1741-7007-12-43",FALSE,"Springer Science + Business Media","BMC Biology","1741-7007","1741-7007",NA,NA,TRUE,"24885555","PMC4071339","ut:000338467300002",NA,TRUE
 "FU Berlin",2014,1585.08,"10.1111/eva.12184",FALSE,"Wiley-Blackwell","Evolutionary Applications","17524571",NA,NA,NA,TRUE,"25469169","PMC4211720","ut:000342756300005",NA,FALSE
-"GFZ-Potsdam",2013,437.92,"10.5194/nhess-13-1285-2013",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981",NA,TRUE,NA,NA,"ut:000319857400011",NA,TRUE
+"GFZ-Potsdam",2013,437.92,"10.5194/nhess-13-1285-2013",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981",NA,TRUE,NA,NA,"ut:000319857400011",NA,TRUE
 "GFZ-Potsdam",2013,487.9,"10.5194/angeo-31-1035-2013",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576",NA,TRUE,NA,NA,"ut:000322290400005",NA,TRUE
 "GFZ-Potsdam",2013,536.69,"10.5194/angeo-31-529-2013",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576",NA,TRUE,NA,NA,"ut:000318432300013",NA,TRUE
-"GFZ-Potsdam",2013,656.88,"10.5194/nhess-12-3507-2012",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981",NA,TRUE,NA,NA,"ut:000311804900026",NA,TRUE
-"GFZ-Potsdam",2013,656.88,"10.5194/nhess-13-53-2013",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981",NA,TRUE,NA,NA,"ut:000314414000006",NA,TRUE
+"GFZ-Potsdam",2013,656.88,"10.5194/nhess-12-3507-2012",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981",NA,TRUE,NA,NA,"ut:000311804900026",NA,TRUE
+"GFZ-Potsdam",2013,656.88,"10.5194/nhess-13-53-2013",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981",NA,TRUE,NA,NA,"ut:000314414000006",NA,TRUE
 "GFZ-Potsdam",2013,678.3,"10.5194/nhessd-1-4925-2013",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269",NA,TRUE,NA,NA,NA,NA,FALSE
 "GFZ-Potsdam",2013,683.06,"10.5194/angeo-31-1507-2013",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576",NA,TRUE,NA,NA,"ut:000325345800003",NA,TRUE
 "GFZ-Potsdam",2013,724.71,"10.5194/tc-8-575-2014",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000335377200017",NA,TRUE
@@ -290,7 +290,7 @@
 "GFZ-Potsdam",2013,856.8,"10.5194/nhessd-1-275-2013",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269",NA,TRUE,NA,NA,NA,NA,FALSE
 "GFZ-Potsdam",2013,875.84,"10.5194/angeo-31-1115-2013",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576",NA,TRUE,NA,NA,"ut:000322290400011",NA,TRUE
 "GFZ-Potsdam",2013,885.36,"10.5194/hess-17-3871-2013",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938",NA,TRUE,NA,NA,"ut:000326603200013",NA,TRUE
-"GFZ-Potsdam",2013,892.5,"10.5194/nhess-14-189-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981",NA,TRUE,NA,NA,"ut:000332336700003",NA,TRUE
+"GFZ-Potsdam",2013,892.5,"10.5194/nhess-14-189-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981",NA,TRUE,NA,NA,"ut:000332336700003",NA,TRUE
 "GFZ-Potsdam",2013,930.58,"10.5194/angeo-31-1315-2013",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576",NA,TRUE,NA,NA,"ut:000323979100003",NA,TRUE
 "GFZ-Potsdam",2013,1104.32,"10.5194/cp-9-1601-2013",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000323412600016",NA,TRUE
 "GFZ-Potsdam",2013,1113.84,"10.5194/tc-7-1707-2013",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424",NA,TRUE,NA,NA,"ut:000328546300004",NA,TRUE
@@ -309,16 +309,16 @@
 "GFZ-Potsdam",2014,439.11,"10.5194/angeo-32-623-2014",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000338509000004",NA,TRUE
 "GFZ-Potsdam",2014,634.27,"10.5194/angeo-32-249-2014",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000334098900006",NA,TRUE
 "GFZ-Potsdam",2014,683.06,"10.5194/angeo-32-609-2014",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000338509000003",NA,TRUE
-"GFZ-Potsdam",2014,1019.59,"10.5194/nhess-14-1625-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000338650500022",NA,TRUE
+"GFZ-Potsdam",2014,1019.59,"10.5194/nhess-14-1625-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000338650500022",NA,TRUE
 "GFZ-Potsdam",2014,1104.32,"10.5194/cp-10-2099-2014",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000347569500009",NA,TRUE
 "GFZ-Potsdam",2014,1242.36,"10.5194/tcd-8-4645-2014",FALSE,"Copernicus GmbH","The Cryosphere Discussions","1994-0440",NA,"1994-0440","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "GFZ-Potsdam",2014,1256.64,"10.5194/amtd-7-12173-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "GFZ-Potsdam",2014,1285.2,"10.5194/gmdd-7-6217-2014",FALSE,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
-"GFZ-Potsdam",2014,1349.46,"10.5194/nhess-14-1921-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000340105800019",NA,TRUE
+"GFZ-Potsdam",2014,1349.46,"10.5194/nhess-14-1921-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000340105800019",NA,TRUE
 "GFZ-Potsdam",2014,1449.42,"10.5194/hess-19-309-2015",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000348929800017",NA,TRUE
 "GFZ-Potsdam",2014,1505.35,"10.5194/gtes-2-1-2014",FALSE,"Copernicus GmbH","Geothermal Energy Science","2195-478X",NA,"2195-478X","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "GFZ-Potsdam",2014,1829.03,"10.5194/hess-18-3033-2014",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000341597600014",NA,TRUE
-"GFZ-Potsdam",2014,2261,"10.5194/nhess-14-675-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000334093600014",NA,TRUE
+"GFZ-Potsdam",2014,2261,"10.5194/nhess-14-675-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000334093600014",NA,TRUE
 "GFZ-Potsdam",2014,2189.6,"10.1016/j.energy.2014.01.014",FALSE,"Elsevier BV","Energy","3605442","3605442",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000334262000079",NA,FALSE
 "GFZ-Potsdam",2014,1523.2,"10.3389/fphy.2014.00047",FALSE,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X",NA,TRUE,NA,NA,NA,NA,FALSE
 "GFZ-Potsdam",2014,1904,"10.3389/feart.2014.00012",FALSE,"Frontiers Media SA","Frontiers in Earth Science","2296-6463",NA,"2296-6463",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -6295,7 +6295,7 @@
 "Hamburg TUHH",2015,1543.98,"10.3389/fmats.2015.00072",FALSE,"Frontiers Media SA","Frontiers in Materials","2296-8016",NA,"2296-8016","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Hamburg TUHH",2015,1322.37,"10.1109/JPHOT.2015.2487139",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Photonics Journal","1943-0655",NA,"1943-0655","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "GFZ-Potsdam",2015,428.4,"10.5194/amtd-7-12719-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
-"GFZ-Potsdam",2015,533.12,"10.5194/nhess-15-723-2015",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Science","1684-9981",NA,"1684-9981","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"GFZ-Potsdam",2015,533.12,"10.5194/nhess-15-723-2015",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "GFZ-Potsdam",2015,1256.64,"10.5194/amt-8-1337-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "GFZ-Potsdam",2015,931.77,"10.5194/gmd-8-1979-2015",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "GFZ-Potsdam",2015,793.73,"10.5194/cpd-10-3965-2014",FALSE,"Copernicus GmbH","Climate of the Past Discussions","1814-9359",NA,"1814-9359","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
