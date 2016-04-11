@@ -3,6 +3,15 @@ import re
 
 import openapc_toolkit as oat
 
+# A Whitelist for denoting publisher identity (Possible consequence of business buy outs or fusions)
+# If one publisher name is stored in the left list of an entry and another in the right one,
+# they will not be treated as different by the name_consistency test.
+PUBLISHERS_WHITELIST = [
+    (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
+    (["Wiley-Blackwell"], ["EMBO"]),
+    (["Pion Ltd"], ["SAGE Publications"])
+]
+
 csv_file = open("data/apc_de.csv", "r")
 reader = oat.UnicodeDictReader(csv_file)
 apc_data = []
@@ -13,6 +22,14 @@ for row in reader:
 
 def has_value(field):
     return len(field) > 0 and field != "NA"
+    
+def in_whitelist(first_publisher, second_publisher):
+    for entry in PUBLISHERS_WHITELIST:
+        if first_publisher in entry[0] and second_publisher in entry[1]:
+            return True
+        if first_publisher in entry[1] and second_publisher in entry[0]:
+            return True
+    return False
 
 @pytest.mark.parametrize("row", apc_data)
 class TestAPCRows(object):
@@ -44,11 +61,11 @@ class TestAPCRows(object):
         publisher = row["publisher"]
         for other_row in apc_data:
             if issn is not None and other_row["issn"] == issn:
-                assert other_row["publisher"] == publisher, 'Two entries share a common ISSN, but the publisher name differs'
+                assert other_row["publisher"] == publisher or in_whitelist(publisher, other_row["publisher"]), 'Two entries share a common ISSN, but the publisher name differs'
                 assert other_row["journal_full_title"] == journal_full_title, 'Two entries share a common ISSN, but the journal title differs'
             elif issn_p is not None and other_row["issn_print"] == issn_p:
-                assert other_row["publisher"] == publisher, 'Two entries share a common Print ISSN, but the publisher name differs'
+                assert other_row["publisher"] == publisher or in_whitelist(publisher, other_row["publisher"]), 'Two entries share a common Print ISSN, but the publisher name differs'
                 assert other_row["journal_full_title"] == journal_full_title, 'Two entries share a common Print ISSN, but the journal title differs'
             elif issn_e is not None and other_row["issn_electronic"] == issn_e:
-                assert other_row["publisher"] == publisher, 'Two entries share a common Electronic ISSN, but the publisher name differs'
+                assert other_row["publisher"] == publisher or in_whitelist(publisher, other_row["publisher"]), 'Two entries share a common Electronic ISSN, but the publisher name differs'
                 assert other_row["journal_full_title"] == journal_full_title, 'Two entries share a common Electronic ISSN, but the journal title differs'
