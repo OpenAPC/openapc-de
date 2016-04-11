@@ -4874,7 +4874,7 @@
 "MPG",2012,1173.12,"10.1371/journal.pone.0031526",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"22328937","PMC3273468",NA,NA,TRUE
 "MPG",2012,1955.2,"10.1371/journal.pgen.1002567",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404",NA,TRUE,"22438820","PMC3305403",NA,NA,TRUE
 "MPG",2012,1173.12,"10.1371/journal.pone.0030920",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"22319593","PMC3272038",NA,NA,TRUE
-"MPG",2012,1161.03,"10.1371/JOURNAL.PONE.0018900",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"21541323","PMC3082538",NA,NA,NA
+"MPG",2012,1161.03,"10.1371/JOURNAL.PONE.0018900",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"21541323","PMC3082538",NA,NA,TRUE
 "MPG",2012,1179.98,"10.1371/journal.pone.0032600",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"22396783","PMC3292577",NA,NA,TRUE
 "MPG",2012,1179.98,"10.1371/journal.pone.0032826",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"22412929","PMC3295772",NA,NA,TRUE
 "MPG",2012,1179.98,"10.1371/journal.pone.0034146",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"22493680","PMC3320907",NA,NA,TRUE
@@ -6252,7 +6252,7 @@
 "Bochum U",2015,1755.45,"10.1534/g3.115.017681",FALSE,"Genetics Society of America","G3: Genes|Genomes|Genetics","2160-1836",NA,"2160-1836",NA,TRUE,"25873638","PMC4478551",NA,"",TRUE
 "Bochum U",2015,1904,"10.3389/fncel.2015.00069",FALSE,"Frontiers Media SA","Frontiers in Cellular Neuroscience","1662-5102",NA,"1662-5102",NA,TRUE,"25798088","PMC4350408",NA,"",TRUE
 "Bochum U",2015,1438.48,"10.1371/journal.pone.0129906",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26066795","PMC4466566",NA,"",TRUE
-"Bochum U",2015,100,"",FALSE,"Esmon Publicidad","Journal of Investigational Allergology and Clinical Immunology","1018-9068",NA,"1698-0808",NA,FALSE,NA,NA,NA,"http://www.jiaci.org/issues/vol25issue2/vol25issue02-21.htm",TRUE
+"Bochum U",2015,100,NA,FALSE,"Esmon Publicidad","Journal of Investigational Allergology and Clinical Immunology","1018-9068",NA,"1698-0808",NA,FALSE,NA,NA,NA,"http://www.jiaci.org/issues/vol25issue2/vol25issue02-21.htm",TRUE
 "Bochum U",2015,1899.24,"10.1186/s13643-015-0093-4",FALSE,"Springer Science + Business Media","Systematic Reviews","2046-4053",NA,"2046-4053",NA,TRUE,"26223228","PMC4520082",NA,"",TRUE
 "Bochum U",2015,904.4,"10.1186/s13063-015-0679-0",FALSE,"Springer Science + Business Media","Trials","1745-6215",NA,"1745-6215",NA,TRUE,"25872619","PMC4404062",NA,"",TRUE
 "Bochum U",2015,1728.95,"10.1155/2015/408169",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"25922834","PMC4398947",NA,"",TRUE
