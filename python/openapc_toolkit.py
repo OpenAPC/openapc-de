@@ -245,17 +245,22 @@ def get_metadata_from_crossref(doi_string):
         contain a second entry 'error_msg' with a string value
         stating the reason.
     """
-    _cr_schema_1_0 = 'xmlns="http://www.crossref.org/xschema/1.0"'
-    _cr_schema_1_1 = 'xmlns="http://www.crossref.org/xschema/1.1"'
     xpaths = {
-        "publisher": ".//cr_qr:crm-item[@name='publisher-name']",
-        "journal_full_title": ".//cr_x:journal_metadata//cr_x:full_title",
-        "issn": ".//cr_x:journal_metadata//cr_x:issn",
-        "issn_print": ".//cr_x:journal_metadata//" +
-                      "cr_x:issn[@media_type='print']",
-        "issn_electronic": ".//cr_x:journal_metadata//" +
-                           "cr_x:issn[@media_type='electronic']",
-        "license_ref": ".//ai:license_ref"}
+        ".//cr_qr:crm-item[@name='publisher-name']": "publisher",
+        ".//cr_1_0:journal_metadata//cr_1_0:full_title": "journal_full_title",
+        ".//cr_1_1:journal_metadata//cr_1_1:full_title": "journal_full_title",
+        ".//cr_1_0:journal_metadata//cr_1_0:issn": "issn",
+        ".//cr_1_1:journal_metadata//cr_1_1:issn": "issn",
+        ".//cr_1_0:journal_metadata//cr_1_0:issn[@media_type='print']": "issn_print",
+        ".//cr_1_1:journal_metadata//cr_1_1:issn[@media_type='print']": "issn_print",
+        ".//cr_1_0:journal_metadata//cr_1_0:issn[@media_type='electronic']": "issn_electronic",
+        ".//cr_1_1:journal_metadata//cr_1_1:issn[@media_type='electronic']": "issn_electronic",
+        ".//ai:license_ref": "license_ref"}
+    namespaces = {
+        "cr_qr": "http://www.crossref.org/qrschema/3.0",
+        "cr_1_1": "http://www.crossref.org/xschema/1.1",
+        "cr_1_0": "http://www.crossref.org/xschema/1.0",
+        "ai": "http://www.crossref.org/AccessIndicators.xsd"}
     doi_match = DOI_RE.match(doi_string.strip())
     if not doi_match:
         error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
@@ -268,31 +273,14 @@ def get_metadata_from_crossref(doi_string):
     try:
         response = urllib2.urlopen(req)
         content_string = response.read()
-        # Detect crossref namespace - older entries might still have version 1.0
-        if _cr_schema_1_1 in content_string:
-            ns = {"cr_qr": "http://www.crossref.org/qrschema/3.0",
-                  "cr_x": "http://www.crossref.org/xschema/1.1",
-                  "ai": "http://www.crossref.org/AccessIndicators.xsd"}
-        elif _cr_schema_1_0 in content_string:
-            ns = {"cr_qr": "http://www.crossref.org/qrschema/3.0",
-                  "cr_x": "http://www.crossref.org/xschema/1.0",
-                  "ai": "http://www.crossref.org/AccessIndicators.xsd"}
-        else:
-            ret_value['success'] = False
-            error_msg = ("Parse Error: Unable to detect CrossRef XML " +
-                        "Namespace - neither '{}' nor '{}' found in query " +
-                        "result!").format(_cr_schema_1_0, _cr_schema_1_1)
-            ret_value['error_msg'] = error_msg
-            return ret_value
         root = ET.fromstring(content_string)
         crossref_data = {}
-        
-        for elem, path in xpaths.iteritems():
-            result = root.findall(path, ns)
+        for path, elem in xpaths.iteritems():
+            if elem not in crossref_data:
+                crossref_data[elem] = None
+            result = root.findall(path, namespaces)
             if result:
                 crossref_data[elem] = result[0].text
-            else:
-                crossref_data[elem] = None
         ret_value['data'] = crossref_data
     except urllib2.HTTPError as httpe:
         ret_value['success'] = False
