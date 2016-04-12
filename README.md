@@ -1,3 +1,6 @@
+
+
+
 ## About
 
 The aim of this repository is:
@@ -32,6 +35,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
+- [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 
@@ -53,15 +57,17 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Dataset
 
+
+
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  8 566 226 € for  6 658 articles were paid by the participating unviversities. Average  fee is 1 286.6 € and the median 1 216 €.
+In total,  8 598 168 € for  6 682 articles were paid by the participating unviversities. Average  fee is 1 286.8 € and the median 1 216 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 6 605 articles in open access journals which charge publication fees. Total expenditure amounts to  8 478 385 €. Average  fee is 1 283.6 € and the median 1 213 €.
+At the moment, the dataset releases information on 6 629 articles in open access journals which charge publication fees. Total expenditure amounts to  8 510 327 €. Average  fee is 1 283.8 € and the median 1 214 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -91,6 +97,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MDC                                         |       23|             41464|          1803|   1212|
 |MPG                                         |     2816|           3597571|          1278|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
+|Potsdam U                                   |       24|             31942|          1331|   1363|
 |Regensburg U                                |      401|            504642|          1258|   1207|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
