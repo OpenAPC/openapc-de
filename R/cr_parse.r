@@ -13,7 +13,9 @@ cr_parse <- function(doi) {
     warning(sprintf("doi: %s not found", doi))
   })
   
-  if(!exists("doc")) return(NULL) else
+  if(is.null(doc))
+    return(NULL)
+  else
     
   # namespaces
   nm = c(cr = "http://www.crossref.org/xschema/1.1",

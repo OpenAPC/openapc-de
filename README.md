@@ -1,7 +1,7 @@
 
 
 
-## About 
+## About
 
 The aim of this repository is:
 
@@ -28,12 +28,16 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html)
 - [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
 - [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
+- [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
+- [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
+- [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
+- [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 
 ## Participating Research Society Funds in Germany
 
@@ -43,13 +47,13 @@ Participating Research Organizations:
 
 - [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
 
-The data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
+The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
-- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
-- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administr
-ation/library)
+- [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
+- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
 
 ## Dataset
 
@@ -57,13 +61,13 @@ ation/library)
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  4 058 377€ for  3 299 articles were paid by the participating unviversities. Average  fee is 1 230.2€ and the median 1 196€.
+In total,  8 598 168 € for  6 682 articles were paid by the participating unviversities. Average  fee is 1 286.8 € and the median 1 216 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 3 286 articles in open access journals which charge publication fees. Total expenditure amounts to  4 034 083€. Average  fee is 1 227.7€ and the median 1 196€.
+At the moment, the dataset releases information on 6 629 articles in open access journals which charge publication fees. Total expenditure amounts to  8 510 327 €. Average  fee is 1 283.8 € and the median 1 214 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -72,36 +76,41 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
-|Bielefeld U                                 |      160|            187296|          1171|   1160|
-|Bochum U                                    |       25|             27689|          1108|   1216|
+|Bielefeld U                                 |      263|            322815|          1227|   1232|
+|Bochum U                                    |       71|             93546|          1318|   1438|
 |Dortmund TU                                 |        9|              8238|           915|    900|
-|Duisburg-Essen U                            |      114|            130989|          1149|   1194|
-|FU Berlin                                   |       45|             56074|          1246|   1177|
-|FZJ - ZB                                    |       71|             80621|          1136|   1067|
-|GFZ-Potsdam                                 |       60|             69625|          1160|   1062|
+|Duisburg-Essen U                            |      114|            136911|          1201|   1214|
+|FU Berlin                                   |      106|            142671|          1346|   1292|
+|FZJ - ZB                                    |      158|            196869|          1246|   1177|
+|GFZ-Potsdam                                 |      106|            126520|          1194|   1065|
 |Giessen U                                   |      243|            326082|          1342|   1247|
-|Goettingen U                                |      126|            159186|          1263|   1245|
-|Hamburg TUHH                                |       10|             11911|          1191|   1149|
-|Hannover U                                  |       50|             63908|          1278|   1194|
-|Heidelberg U                                |       83|            112238|          1352|   1418|
+|Goettingen U                                |      313|            409930|          1310|   1285|
+|Hamburg TUHH                                |       24|             32789|          1366|   1466|
+|Hannover U                                  |       69|             90259|          1308|   1241|
+|Heidelberg U                                |      215|            308348|          1434|   1500|
 |INM - Leibniz-Institut für Neue Materialien |        4|              4266|          1067|   1175|
-|Kassel U                                    |       23|             22886|           995|   1059|
+|Kassel U                                    |       35|             35550|          1016|   1142|
 |KIT                                         |      293|            345311|          1179|   1176|
-|Konstanz U                                  |      131|            163374|          1247|   1260|
-|Leipzig U                                   |       60|             79603|          1327|   1305|
+|Konstanz U                                  |      223|            304182|          1364|   1342|
+|Leibniz-Fonds                               |       20|             30182|          1509|   1476|
+|Leipzig U                                   |      168|            236376|          1407|   1481|
 |MDC                                         |       23|             41464|          1803|   1212|
-|MPG                                         |      992|           1231441|          1241|   1170|
-|Muenchen LMU                                |      314|            382455|          1218|   1266|
-|Regensburg U                                |      280|            331718|          1185|   1183|
-|TU Chemnitz                                 |       15|             17441|          1163|   1142|
+|MPG                                         |     2816|           3597571|          1278|   1161|
+|Muenchen LMU                                |      365|            463491|          1270|   1299|
+|Potsdam U                                   |       24|             31942|          1331|   1363|
+|Regensburg U                                |      401|            504642|          1258|   1207|
+|TU Chemnitz                                 |       36|             37826|          1051|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
-|TU Dresden                                  |       78|             96046|          1231|   1242|
+|TU Dresden                                  |      130|            175723|          1352|   1415|
+|TU Ilmenau                                  |       13|             13002|          1000|    986|
+|TU Muenchen                                 |      103|            123054|          1195|   1269|
+|Wuerzburg U                                 |      207|            286543|          1384|   1447|
 
 ### Hybrid articles
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 13 hybrid open access articles. Total expenditure amounts to  24 293€. Average  fee is 1 868.7€ and the median 1 785€.
+The dataset covers 53 hybrid open access articles. Total expenditure amounts to  87 842 €. Average  fee is 1 657.4 € and the median 1 673 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -110,6 +119,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
 |INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
 |MDC                                         |       11|             20054|          1823|   1382|
+|MPG                                         |       40|             63548|          1589|   1669|
 
 ## Use of external sources
 
@@ -124,11 +134,11 @@ External sources were used to compile the dataset. This allows for disambiguated
 |CrossRef   |`issn_print` |ISSN print |
 |CrossRef   |`issn_electronic`  |ISSN electronic        |
 |CrossRef   |`license_ref`  |License of the article     |
-|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |
 |EuropePMC    |`pmid`  |PubMed ID                 |
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
-|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
+|DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
@@ -167,7 +177,7 @@ In collaboration with the [DINI working group Electronic Publishing](http://dini
 
 ## License
 
-The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
+The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 This work is licensed under the Creative Commons Attribution 4.0 Unported License.
 
@@ -183,16 +193,20 @@ Bielefeld University Library archives a copy (including commit history). To cite
 
 ## Acknowledgement
 
-This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting. 
+This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting.
 
 For data enrichment, sample visualisations and explorations we build on the work of [rOpenSci](http://ropensci.org/) and [LibreCat/Catmandu](http://librecat.org/).
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
 For bugs, feature requests and other issues, please submit an issue via [Github](https://github.com/OpenAPC/openapc-de/issues/new).
 
 For general comments, email najko.jahn at uni-bielefeld.de and dirk.pieper at uni-bielefeld.de
+
+## Disclaimer
+
+People, who are looking for "Open Advanced Process Control Software" for automation, visualization and process control tasks from home control up to industrial automation, please follow <http://www.openapc.com> (2015-09-30)
