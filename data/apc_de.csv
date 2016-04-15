@@ -1426,7 +1426,7 @@
 "Goettingen U",2013,304.6,"10.5539/jsd.v6n5p1",FALSE,"Canadian Center of Science and Education","Journal of Sustainable Development","1913-9071;1913-9063","1913-9063","1913-9071",NA,TRUE,NA,NA,NA,NA,TRUE
 "Goettingen U",2013,300.46,"10.5539/jsd.v6n9p88",FALSE,"Canadian Center of Science and Education","Journal of Sustainable Development","1913-9071;1913-9063","1913-9063","1913-9071",NA,TRUE,NA,NA,NA,NA,TRUE
 "Goettingen U",2013,491.62,"10.5897/IJBC2013.0607",FALSE,"Academic Journals","International Journal of Biodiversity and Conservation","2141-243X",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
-"Goettingen U",2013,1617.25,NA,FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+"Goettingen U",2013,1617.25,"10.18632/oncotarget.1085",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
 "Heidelberg U",2014,1618.4,"10.1002/cam4.305",FALSE,"Wiley-Blackwell","Cancer Medicine","20457634",NA,NA,NA,TRUE,"25124163","PMC4298379","ut:000348226000008",NA,FALSE
 "Heidelberg U",2014,1244.74,"10.1038/srep03803",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"24448162","PMC3898048","ut:000330044400001",NA,TRUE
 "Heidelberg U",2014,1052.09,"10.1155/2014/370307",FALSE,"Hindawi Publishing Corporation","Neural Plasticity","2090-5904;1687-5443","2090-5904","1687-5443","http://creativecommons.org/licenses/by/3.0/",TRUE,"25120934","PMC4121180","ut:000339249800001",NA,TRUE
@@ -1584,7 +1584,7 @@
 "Bayreuth U",2013,435.41,"10.5897/AJAR10.914",FALSE,"Academic Journals","African Journal of Agricultural Research","1991-637X",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
 "Bayreuth U",2014,476.56,"10.5897/AJPSIR2013.0639",FALSE,"Academic Journals","African Journal of Political Science and International Relations","1996-0832",NA,"1996-0832",NA,TRUE,NA,NA,NA,NA,FALSE
 "Bayreuth U",2014,81.86,"10.9734/BJEMT/2014/9144",FALSE,"Sciencedomain International","British Journal of Economics, Management & Trade","2278098X",NA,"2278098X",NA,TRUE,NA,NA,NA,NA,FALSE
-"Bayreuth U",2013,1343.05,NA,FALSE,"Impact Journals, LLC","Aging","1945-4589",NA,"1945-4589",NA,FALSE,"23524286","PMC3629287",NA,NA,FALSE
+"Bayreuth U",2013,1343.05,NA,FALSE,"Impact Journals, LLC","Aging","1945-4589",NA,"1945-4589",NA,FALSE,"23524286","PMC3629287",NA,"http://www.impactaging.com/papers/v5/n3/full/100542.html",FALSE
 "KIT",2013,979,"10.1002/ece3.848",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,NA,TRUE,"24363904","PMC3867911","ut:000327304000014",NA,FALSE
 "KIT",2013,2856,"10.1038/cddis.2013.364",FALSE,"Nature Publishing Group","Cell Death and Disease","2041-4889",NA,"2041-4889",NA,TRUE,"24091662","PMC3824673","ut:000326967100005",NA,TRUE
 "KIT",2013,3570,"10.1038/lsa.2013.38",FALSE,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,"ut:000324468600003",NA,TRUE
@@ -3756,8 +3756,8 @@
 "Hannover U",2013,756.84,"10.5194/nhessd-1-1119-2013",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269",NA,TRUE,NA,NA,NA,NA,TRUE
 "Hannover U",2014,802.93,"10.5194/nhessd-2-3683-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "Hannover U",2014,601.47,"10.7750/BioDiscovery.2014.14.1",FALSE,"Dundee Science Press","BioDiscovery","20502966",NA,"20502966",NA,TRUE,NA,NA,NA,NA,TRUE
-"Hannover U",2015,1047.2,NA,FALSE,"International Frequency Sensor Association","Sensors & Transducers","2306-8515",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
-"Hannover U",2015,1047.2,NA,FALSE,"International Frequency Sensor Association","Sensors & Transducers","2306-8515",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+"Hannover U",2015,1047.2,NA,FALSE,"International Frequency Sensor Association","Sensors & Transducers","2306-8515",NA,NA,NA,FALSE,NA,NA,NA,"http://www.sensorsportal.com/HTML/DIGEST/P_RP_0196.htm",FALSE
+"Hannover U",2015,1047.2,NA,FALSE,"International Frequency Sensor Association","Sensors & Transducers","2306-8515",NA,NA,NA,FALSE,NA,NA,NA,"http://www.sensorsportal.com/HTML/DIGEST/P_RP_0203.htm",FALSE
 "Hannover U",2015,1578.8,"10.3389/fmicb.2015.01224",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"26635733","PMC4654428",NA,NA,TRUE
 "Hannover U",2015,1426.04,"10.1063/1.4923379",FALSE,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "TU Chemnitz",2015,1386.35,"10.1038/srep13150",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26310910","PMC4550836",NA,NA,TRUE
