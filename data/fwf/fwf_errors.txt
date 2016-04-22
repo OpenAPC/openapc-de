@@ -1,0 +1,26 @@
+fwf_2013.csv:
+
+7 lines could not be enriched and were excluded from the resulting file: 
+
+Line 170: Crossref: Error while trying to resolve DOI 10.1007/s12685-013-0076-2: HTTPError: 404 - Not Found
+
+Line 316: Crossref: Error while trying to resolve DOI 10.1016/j.orgel.2012.03.: HTTPError: 404 - Not Found
+
+Line 383: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
+
+Line 564: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
+
+Line 607: Crossref: Error while trying to resolve DOI 10.3390/ijms.140x000x: HTTPError: 404 - Not Found
+
+Line 834: Crossref: Error while trying to resolve DOI 10.021/ja307037z: HTTPError: 404 - Not Found
+
+Line 1012: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
+
+fwf_2014.csv:
+
+2 lines could not be enriched and were excluded from the resulting file: 
+
+Line 832: Crossref: Error while trying to resolve DOI 10.3389/fmicb.2014.0054: HTTPError: 404 - Not Found
+
+Line 937: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI (Seems to be a book chapter!)
+
