@@ -77,7 +77,6 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|Austrian Science Fund (FWF)                 |      446|            599801|          1345|   1216|
 |Bamberg U                                   |       16|             15932|           996|    960|
 |Bayreuth U                                  |       57|             64519|          1132|   1104|
 |Bielefeld U                                 |      263|            322815|          1227|   1232|
@@ -85,6 +84,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |      106|            142671|          1346|   1292|
+|FWF - Austrian Science Fund                 |      446|            599801|          1345|   1216|
 |FZJ - ZB                                    |      158|            196869|          1246|   1177|
 |GFZ-Potsdam                                 |      106|            126520|          1194|   1065|
 |Giessen U                                   |      243|            326082|          1342|   1247|
@@ -121,7 +121,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|Austrian Science Fund (FWF)                 |     1689|           3851169|          2280|   2380|
+|FWF - Austrian Science Fund                 |     1689|           3851169|          2280|   2380|
 |INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
 |MDC                                         |       11|             20054|          1823|   1382|
 |MPG                                         |       40|             63548|          1589|   1669|
