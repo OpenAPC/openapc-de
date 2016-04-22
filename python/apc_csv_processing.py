@@ -87,6 +87,7 @@ ARG_HELP_STRINGS = {
                 "institution, doi, period and euro (in no particular order).",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
+    "verbose": "Be more verbose during the enrichment process.",
     "locale": "Set the locale context used by the script. You might want to " +
               "set this if your system locale differs from the locale the " +
               "CSV file was created in (Example: Using en_US as your system " +
@@ -140,6 +141,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
+    parser.add_argument("-v", "--verbose", action="store_true",
+                        help=ARG_HELP_STRINGS["verbose"])
     parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
     parser.add_argument("-i", "--ignore-header", action="store_true",
                         help=ARG_HELP_STRINGS["headers"])
@@ -446,6 +449,8 @@ def main():
     print "\n    *** Starting metadata aggregation ***\n"
 
     enriched_content = []
+    
+    error_messages = []
 
     csv_file.seek(0)
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
@@ -463,17 +468,20 @@ def main():
                 # If the CSV file has a header, we are currently there - skip it
                 # to get to the first data row
                 continue
+        print "---Processing line number " + str(row_num) + "---"
         if len(row) != num_columns:
-            error_msg = ("ERROR: the number of values in line {} ({}) " +
+            error_msg = ("Syntax: the number of values in line {} ({}) " +
                          "differs from the number of columns ({}). Line left " +
                          "unchanged, please correct the error in the result " +
                          "file and re-run.")
-            oat.print_r(error_msg.format(row_num, len(row), num_columns))
+            error_msg_fmt = error_msg.format(row_num, len(row), num_columns)
+            error_messages.append("Line {}: {}".format(row_num, error_msg_fmt))
+            oat.print_r(error_msg_fmt)
             enriched_content.append(row)
             continue
 
         doi = row[column_map["doi"].index]
-
+        
         current_row = OrderedDict()
         # Copy content of identified columns
         for csv_column in column_map.values():
@@ -501,13 +509,16 @@ def main():
                     new_value = value
                 else:
                     new_value = "NA"
-                    print (u"WARNING: Element '{}' not found in in response " +
-                           "for doi {}.").format(key, doi)
+                    if args.verbose:
+                        print (u"WARNING: Element '{}' not found in in " +
+                               "response for doi {}.").format(key, doi)
                 old_value = current_row[key]
                 current_row[key] = column_map[key].check_overwrite(old_value, new_value)
         else:
-            oat.print_r("Crossref: Error while trying to resolve DOI " + doi + ": " +
-                   crossref_result["error_msg"])
+            error_msg = ("Crossref: Error while trying to resolve DOI " + doi +
+                         ": " + crossref_result["error_msg"])
+            oat.print_r(error_msg)
+            error_messages.append("Line {}: {}".format(row_num, error_msg))
             current_row["indexed_in_crossref"] = "FALSE"
 
         # include pubmed metadata
@@ -520,13 +531,16 @@ def main():
                     new_value = value
                 else:
                     new_value = "NA"
-                    print (u"WARNING: Element '{}' not found in in response " +
-                           "for doi {}.").format(key, doi)
+                    if args.verbose:
+                        print (u"WARNING: Element '{}' not found in in " +
+                               "response for doi {}.").format(key, doi)
                 old_value = current_row[key]
                 current_row[key] = column_map[key].check_overwrite(old_value, new_value)
         else:
-            oat.print_r("Pubmed: Error while trying to resolve DOI " + doi + ": " +
-                   pubmed_result["error_msg"])
+            error_msg = ("Pubmed: Error while trying to resolve DOI " + doi +
+                         ": " + pubmed_result["error_msg"])
+            oat.print_r(error_msg)
+            error_messages.append("Line {}: {}".format(row_num, error_msg))
 
         # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
         if current_row["doaj"] != "TRUE":
@@ -551,7 +565,9 @@ def main():
                         print msg.format(issn)
                 else:
                     msg = "DOAJ: Error while trying to look up ISSN {}: {}"
-                    oat.print_r(msg.format(issn, doaj_res["error_msg"]))
+                    msg_fmt = msg.format(issn, doaj_res["error_msg"])
+                    oat.print_r(msg_fmt)
+                    error_messages.append("Line {}: {}".format(row_num, msg_fmt))
 
 
         enriched_content.append(current_row.values())
@@ -562,6 +578,12 @@ def main():
         writer = oat.OpenAPCUnicodeWriter(out, quotemask, True, True)
         writer.write_rows(enriched_content)
 
+    if not error_messages:
+        oat.print_g("Metadata enrichment successful, no errors occured")
+    else:
+        oat.print_r("There were errors during the enrichment process:\n")
+        for msg in error_messages:
+            print msg + "\n"
 
 if __name__ == '__main__':
     main()
