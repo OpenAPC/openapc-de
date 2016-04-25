@@ -485,7 +485,7 @@ def main():
         current_row = OrderedDict()
         # Copy content of identified columns
         for csv_column in column_map.values():
-            if csv_column.index is not None:
+            if csv_column.index is not None and len(row[csv_column.index]) > 0:
                 if csv_column.column_type == "euro":
                     # special case for monetary values: Cast to float to ensure
                     # the decimal point is a dot (instead of a comma)
