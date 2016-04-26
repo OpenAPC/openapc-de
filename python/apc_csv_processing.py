@@ -147,6 +147,11 @@ ERROR_MSGS = {
               "-l option."
 }
 
+INFO_MSGS = {
+    "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
+             "to maintain consistency."
+}
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
@@ -523,7 +528,24 @@ def main():
             data = crossref_result["data"]
             for key, value in data.iteritems():
                 if value is not None:
-                    new_value = value
+                    if key == "journal_full_title":
+                        unified_value = oat.get_unified_journal_title(value)
+                        if unified_value != value:
+                            msg = INFO_MSGS["unify"].format("journal title",
+                                                            value,
+                                                            unified_value)
+                            oat.print_b(msg)
+                        new_value = unified_value
+                    elif key == "publisher":
+                        unified_value = oat.get_unified_publisher_name(value)
+                        if unified_value != value:
+                            msg = INFO_MSGS["unify"].format("publisher name",
+                                                            value,
+                                                            unified_value)
+                            oat.print_b(msg)
+                        new_value = unified_value
+                    else:
+                        new_value = value
                 else:
                     new_value = "NA"
                     if args.verbose:

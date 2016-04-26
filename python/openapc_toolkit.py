@@ -412,6 +412,41 @@ def get_column_type_from_whitelist(column_name):
             return key
     return None
     
+def get_unified_publisher_name(publisher):
+    """
+    Unify certain publisher names via a mapping table.
+    
+    CrossRef data is sometimes inconsistent when it comes to publisher names,
+    these cases can be solved by returning a unified name from a mapping table.
+    
+    Args:
+        publisher: A publisher as it is returned from the CrossRef API.
+    Returns:
+        Either a unified name or the original name as a string
+    """
+    publisher_mappings = {
+        "The Optical Society": "Optical Society of America (OSA)"
+    }
+    return publisher_mappings.get(publisher, publisher)
+    
+def get_unified_journal_title(journal_full_title):
+    """
+    Unify certain journal titles via a mapping table.
+    
+    CrossRef data is sometimes inconsistent when it comes to journal titles,
+    these cases can be solved by returning a unified name from a mapping table.
+    
+    Args:
+        journal_full_title: A journal title as it is returned from the CrossRef API.
+    Returns:
+        Either a unified name or the original name as a string
+    """
+    journal_mappings = {
+        "PLoS ONE": "PLOS ONE"
+    }
+    return journal_mappings.get(journal_full_title, journal_full_title)
+    
+    
 def print_b(text):
     print "\033[94m" + text + "\033[0m"
     
