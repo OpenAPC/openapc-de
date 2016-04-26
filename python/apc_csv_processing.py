@@ -92,7 +92,7 @@ ARG_HELP_STRINGS = {
               "set this if your system locale differs from the locale the " +
               "CSV file was created in (Example: Using en_US as your system " +
               "locale might become a problem if the file contains numeric " +
-              "values with ',' as decimal point character)",
+              "values with ',' as decimal mark character)",
     "headers": "Ignore any CSV headers (if present) and try to determine " +
                "relevant columns heuristically.",
     "force": "Force the script to continue even if not all mandatory columns " +
@@ -135,6 +135,16 @@ ARG_HELP_STRINGS = {
            "CSV file, with the leftmost column being 0. This is an optional " +
            "column, identifying it is required if there are articles without " +
            "a DOI in the file."
+}
+
+ERROR_MSGS = {
+    "locale": "Error: Could not process the monetary value '{}' in column " +
+              "{}. This will usually have one of two reasons:\n1) The value " +
+              "does not represent a number.\n2) The value represents a " +
+              "number, but its format differs from your current system " +
+              "locale - the most common source of error will be the decimal " +
+              "mark (1234.56 vs 1234,56). Try using another locale with the " +
+              "-l option."
 }
 
 def main():
@@ -489,10 +499,17 @@ def main():
                 if csv_column.column_type == "euro":
                     # special case for monetary values: Cast to float to ensure
                     # the decimal point is a dot (instead of a comma)
-                    euro = locale.atof(row[csv_column.index])
-                    if euro.is_integer():
-                        euro = int(euro)
-                    current_row[csv_column.column_type] = str(euro)
+                    euro_value = row[csv_column.index]
+                    try:
+                        euro = locale.atof(euro_value)
+                        if euro.is_integer():
+                            euro = int(euro)
+                        current_row[csv_column.column_type] = str(euro)
+                    except ValueError:
+                        msg = ERROR_MSGS["locale"].format(euro_value,
+                                                          csv_column.index)
+                        oat.print_r(msg)
+                        sys.exit()
                 else:
                     current_row[csv_column.column_type] = row[csv_column.index]
             else:

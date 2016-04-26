@@ -391,7 +391,7 @@ def get_column_type_from_whitelist(column_name):
     column_names = {
         "institution": ["institution"],
         "doi": ["doi"],
-        "euro": ["apc", "kosten", "euro", "eur"],
+        "euro": ["apc", "kosten", "cost", "euro", "eur"],
         "period": ["period", "jahr"],
         "is_hybrid": ["is_hybrid"],
         "publisher": ["publisher"],
