@@ -6,6 +6,8 @@
 .cache
 # Exclude generated files
 python/out.csv
+# Exclude python virtual env
+python/venv/
 # Exclude python byte code
 *.pyc
 
