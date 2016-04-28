@@ -70,7 +70,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
 
-## Participating Research Society Funds in Austria
+## Participating Austrian Institutions
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 
