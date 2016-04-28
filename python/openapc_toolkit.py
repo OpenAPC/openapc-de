@@ -5,6 +5,7 @@ import csv
 import codecs
 import json
 import re
+import ssl
 import urllib2
 import xml.etree.ElementTree as ET
 
@@ -354,7 +355,6 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
     req = urllib2.Request(url, None, headers)
     try:
         if bypass_cert_verification:
-            import ssl
             empty_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
             response = urllib2.urlopen(req, context=empty_context)
         else:
