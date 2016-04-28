@@ -319,7 +319,7 @@ def get_metadata_from_pubmed(doi):
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
     return ret_value
     
-def lookup_journal_in_doaj(issn):
+def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
     """
     Take an ISSN and check if the corresponding journal exists in DOAJ.
     
@@ -353,7 +353,12 @@ def lookup_journal_in_doaj(issn):
     url = "https://doaj.org/api/v1/search/journals/issn:" + issn
     req = urllib2.Request(url, None, headers)
     try:
-        response = urllib2.urlopen(req)
+        if bypass_cert_verification:
+            import ssl
+            empty_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
+            response = urllib2.urlopen(req, context=empty_context)
+        else:
+            response = urllib2.urlopen(req)
         content_string = response.read()
         json_dict = json.loads(content_string)
         ret_data = {}
@@ -391,7 +396,7 @@ def get_column_type_from_whitelist(column_name):
     column_names = {
         "institution": ["institution"],
         "doi": ["doi"],
-        "euro": ["apc", "kosten", "euro", "eur"],
+        "euro": ["apc", "kosten", "cost", "euro", "eur"],
         "period": ["period", "jahr"],
         "is_hybrid": ["is_hybrid"],
         "publisher": ["publisher"],
@@ -411,6 +416,41 @@ def get_column_type_from_whitelist(column_name):
         if column_name.lower() in whitelist:
             return key
     return None
+    
+def get_unified_publisher_name(publisher):
+    """
+    Unify certain publisher names via a mapping table.
+    
+    CrossRef data is sometimes inconsistent when it comes to publisher names,
+    these cases can be solved by returning a unified name from a mapping table.
+    
+    Args:
+        publisher: A publisher as it is returned from the CrossRef API.
+    Returns:
+        Either a unified name or the original name as a string
+    """
+    publisher_mappings = {
+        "The Optical Society": "Optical Society of America (OSA)"
+    }
+    return publisher_mappings.get(publisher, publisher)
+    
+def get_unified_journal_title(journal_full_title):
+    """
+    Unify certain journal titles via a mapping table.
+    
+    CrossRef data is sometimes inconsistent when it comes to journal titles,
+    these cases can be solved by returning a unified name from a mapping table.
+    
+    Args:
+        journal_full_title: A journal title as it is returned from the CrossRef API.
+    Returns:
+        Either a unified name or the original name as a string
+    """
+    journal_mappings = {
+        "PLoS ONE": "PLOS ONE"
+    }
+    return journal_mappings.get(journal_full_title, journal_full_title)
+    
     
 def print_b(text):
     print "\033[94m" + text + "\033[0m"
