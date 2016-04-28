@@ -319,7 +319,7 @@ def get_metadata_from_pubmed(doi):
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
     return ret_value
     
-def lookup_journal_in_doaj(issn):
+def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
     """
     Take an ISSN and check if the corresponding journal exists in DOAJ.
     
@@ -353,7 +353,12 @@ def lookup_journal_in_doaj(issn):
     url = "https://doaj.org/api/v1/search/journals/issn:" + issn
     req = urllib2.Request(url, None, headers)
     try:
-        response = urllib2.urlopen(req)
+        if bypass_cert_verification:
+            import ssl
+            empty_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
+            response = urllib2.urlopen(req, context=empty_context)
+        else:
+            response = urllib2.urlopen(req)
         content_string = response.read()
         json_dict = json.loads(content_string)
         ret_data = {}

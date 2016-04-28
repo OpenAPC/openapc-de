@@ -97,6 +97,10 @@ ARG_HELP_STRINGS = {
                "relevant columns heuristically.",
     "force": "Force the script to continue even if not all mandatory columns " +
              "have been identified",
+    "bypass": "Force the script to bypass TLS certificate verification when " +
+              "querying metadata APIs. Not recommended, but might be " +
+              "necessary if run under windows (where python does not use the " +
+              "cert store of the OS)",
     "institution": "Manually identify the 'institution' column if the script " +
                    "fails to detect it automatically. The value is the " +
                    "numerical column index in the CSV file, with the " +
@@ -163,6 +167,8 @@ def main():
                         help=ARG_HELP_STRINGS["headers"])
     parser.add_argument("-f", "--force", action="store_true",
                         help=ARG_HELP_STRINGS["force"])
+    parser.add_argument("-b", "--bypass-cert-verification", action="store_true",
+                        help=ARG_HELP_STRINGS["bypass"])
     parser.add_argument("-institution", "--institution_column", type=int,
                         help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("-period", "--period_column", type=int,
@@ -591,7 +597,7 @@ def main():
             if current_row["issn_print"] != "NA":
                 issns.append(current_row["issn_print"])
             for issn in issns:
-                doaj_res = oat.lookup_journal_in_doaj(issn)
+                doaj_res = oat.lookup_journal_in_doaj(issn, args.bypass_cert_verification)
                 if doaj_res["data_received"]:
                     if doaj_res["data"]["in_doaj"]:
                         msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
