@@ -1,5 +1,4 @@
 fwf_2013.csv:
-
 7 lines could not be enriched and were excluded from the resulting file: 
 
 Line 170: Crossref: Error while trying to resolve DOI 10.1007/s12685-013-0076-2: HTTPError: 404 - Not Found
@@ -17,10 +16,23 @@ Line 834: Crossref: Error while trying to resolve DOI 10.021/ja307037z: HTTPErro
 Line 1012: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
 
 fwf_2014.csv:
-
 2 lines could not be enriched and were excluded from the resulting file: 
 
 Line 832: Crossref: Error while trying to resolve DOI 10.3389/fmicb.2014.0054: HTTPError: 404 - Not Found
 
-Line 937: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI (Seems to be a book chapter!)
+Line 937: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI (is a book chapter!)
 
+fwf_2015.csv:
+6 lines could not be enriched and were excluded from the resulting file: 
+
+Line 146: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI (is a book chapter!)
+
+Line 153: Crossref: Error while trying to resolve DOI 10.4230/LIPIcs.FSTTCS.2011.288: HTTPError: 404 - Not Found (conference proceedings!)
+
+Line 415: Crossref: Error while trying to resolve DOI 10.1016/j.neurobiolaging.1014.12.027: HTTPError: 404 - Not Found
+
+Line 521: Crossref: Error while trying to resolve DOI 10.3389/fpls.2014.0052: HTTPError: 404 - Not Found
+
+Line 851: Crossref: Error while trying to resolve DOI 10.1039/C4PY017: HTTPError: 404 - Not Found
+
+Line 1091: Crossref: Error while trying to resolve DOI 10.1111/ecoj.12339: HTTPError: 404 - Not Found
