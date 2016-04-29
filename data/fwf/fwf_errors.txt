@@ -36,3 +36,13 @@ Line 521: Crossref: Error while trying to resolve DOI 10.3389/fpls.2014.0052: HT
 Line 851: Crossref: Error while trying to resolve DOI 10.1039/C4PY017: HTTPError: 404 - Not Found
 
 Line 1091: Crossref: Error while trying to resolve DOI 10.1111/ecoj.12339: HTTPError: 404 - Not Found
+
+Line 1127 (DOI 10.1111/jeb.12608): Is a duplicate of line 1030
+
+Line 608 (DOI 10.1088/1367-2630/16/7/073007): Is a duplicate of line 765 in file fwf_2014.csv
+
+Line 573 (DOI 10.1088/1752-7155/8/4/046005): Is a duplicate of line 654 in file fwf_2014.csv
+
+Line 584 (DOI 10.1088/0953-8984/27/3/036001): Is a duplicate of line 445 in file fwf_2014.csv
+
+Line 569 (DOI 10.1088/1748-9326/9/11/114009): Is a duplicate of line 313 in file fwf_2014.csv
