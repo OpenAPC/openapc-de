@@ -465,7 +465,8 @@ def get_unified_publisher_name(publisher):
         Either a unified name or the original name as a string
     """
     publisher_mappings = {
-        "The Optical Society": "Optical Society of America (OSA)"
+        "The Optical Society": "Optical Society of America (OSA)",
+        "Impact Journals": "Impact Journals LLC"
     }
     return publisher_mappings.get(publisher, publisher)
     
@@ -482,7 +483,20 @@ def get_unified_journal_title(journal_full_title):
         Either a unified name or the original name as a string
     """
     journal_mappings = {
-        "PLoS ONE": "PLOS ONE"
+        "PLoS ONE": "PLOS ONE",
+        "Phys. Chem. Chem. Phys.": "Physical Chemistry Chemical Physics",
+        "J. Mater. Chem. A": "Journal of Materials Chemistry A",
+        "PLoS Pathogens": "PLOS Pathogens",
+        "PLoS Genetics": "PLOS Genetics",
+        "PLoS Biology": "PLOS Biology",
+        "PLoS Computational Biology": "PLOS Computational Biology",
+        "Oncotarget": "OncoTarget",
+        "Journal of Lipid Research": "The Journal of Lipid Research",
+        "Plastic and Reconstructive Surgery Global Open": "Plastic and Reconstructive Surgery - Global Open",
+        "RSC Adv.": "RSC Advances",
+        "Zeitschrift für die neutestamentliche Wissenschaft": "Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
+        "Chem. Soc. Rev.": "Chemical Society Reviews",
+        "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
     
