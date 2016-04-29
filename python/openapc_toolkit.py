@@ -122,6 +122,32 @@ class OpenAPCUnicodeWriter(object):
         for row in rows:
             self._write_row(self._prepare_row(row, True))
             
+class DOAJOfflineAnalysis(object):
+    
+    def __init__(self, doaj_csv_file):
+        self.doaj_issn_map = {}
+        self.doaj_eissn_map = {}
+        
+        handle = open(doaj_csv_file, "r")
+        reader = UnicodeDictReader(handle)
+        for line in reader:
+            journal_title = line["Journal title"]
+            issn = line["Journal ISSN (print version)"]
+            eissn = line["Journal EISSN (online version)"]
+            if issn:
+                self.doaj_issn_map[issn] = journal_title
+            if eissn:
+                self.doaj_eissn_map[eissn] = journal_title
+                
+    def lookup(self, any_issn):
+        if any_issn in self.doaj_issn_map:
+            return self.doaj_issn_map[any_issn]
+        elif any_issn in self.doaj_eissn_map:
+            return self.doaj_eissn_map[any_issn]
+        else:
+            return None
+        
+            
 class CSVAnalysisResult(object):
     
     def __init__(self, blanks, dialect, has_header, enc, enc_conf):
@@ -286,6 +312,12 @@ def get_metadata_from_crossref(doi_string):
         ret_value['success'] = False
         code = str(httpe.getcode())
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
+    except urllib2.URLError as urle:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "URLError: {}".format(urle.reason)
+    except ET.ParseError as pe:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(pe))
     return ret_value
 
 def get_metadata_from_pubmed(doi):
@@ -317,6 +349,9 @@ def get_metadata_from_pubmed(doi):
         ret_value['success'] = False
         code = str(httpe.getcode())
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
+    except urllib2.URLError as urle:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     return ret_value
     
 def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
