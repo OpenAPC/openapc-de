@@ -8,6 +8,7 @@ from copy import copy
 import csv
 import datetime
 import locale
+import os
 import sys
 
 import openapc_toolkit as oat
@@ -138,7 +139,13 @@ ARG_HELP_STRINGS = {
            "it automatically. The value is the numerical column index in the " +
            "CSV file, with the leftmost column being 0. This is an optional " +
            "column, identifying it is required if there are articles without " +
-           "a DOI in the file."
+           "a DOI in the file.",
+    "offline_doaj": "Use an offline copy of the DOAJ database. This might " +
+                    "be useful when processing large files as the DOAJ API " +
+                    "is not too responsive at times and might pose a " +
+                    "bottleneck. This option expects the CSV you can usually " +
+                    "download at https://doaj.org/csv as argument. " +
+                    "Obviously, this copy should be as up-to-date as possible."
 }
 
 ERROR_MSGS = {
@@ -169,6 +176,8 @@ def main():
                         help=ARG_HELP_STRINGS["force"])
     parser.add_argument("-b", "--bypass-cert-verification", action="store_true",
                         help=ARG_HELP_STRINGS["bypass"])
+    parser.add_argument("-d", "--offline_doaj",
+                        help=ARG_HELP_STRINGS["offline_doaj"])
     parser.add_argument("-institution", "--institution_column", type=int,
                         help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("-period", "--period_column", type=int,
@@ -235,6 +244,15 @@ def main():
                "detection failed. Please set the encoding manually via the " +
                "--enc argument")
         sys.exit()
+        
+        
+    doaj_offline_analysis = None
+    if args.offline_doaj:
+        if os.path.isfile(args.offline_doaj):
+            doaj_offline_analysis = oat.DOAJOfflineAnalysis(args.offline_doaj)
+        else:
+            oat.print_r("Error: " + args.offline_doaj + " does not seem "
+                        "to be a file!")
 
     csv_file = open(args.csv_file, "r")
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
@@ -597,22 +615,37 @@ def main():
             if current_row["issn_print"] != "NA":
                 issns.append(current_row["issn_print"])
             for issn in issns:
-                doaj_res = oat.lookup_journal_in_doaj(issn, args.bypass_cert_verification)
-                if doaj_res["data_received"]:
-                    if doaj_res["data"]["in_doaj"]:
-                        msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
-                        print msg.format(issn, doaj_res["data"]["title"])
+                # look up in an offline copy of the DOAJ if requested...
+                if doaj_offline_analysis:
+                    lookup_result = doaj_offline_analysis.lookup(issn)
+                    if lookup_result:
+                        msg = ("DOAJ: Journal ISSN ({}) found in DOAJ " +
+                               "offline copy ('{}').")
+                        print msg.format(issn, lookup_result)
                         current_row["doaj"] = "TRUE"
-                        break
                     else:
-                        msg = "DOAJ: Journal ISSN ({}) not found in DOAJ."
+                        msg = ("DOAJ: Journal ISSN ({}) not found in DOAJ " +
+                               "offline copy.")
                         current_row["doaj"] = "FALSE"
                         print msg.format(issn)
+                # ...or query the online API
                 else:
-                    msg = "DOAJ: Error while trying to look up ISSN {}: {}"
-                    msg_fmt = msg.format(issn, doaj_res["error_msg"])
-                    oat.print_r(msg_fmt)
-                    error_messages.append("Line {}: {}".format(row_num, msg_fmt))
+                    doaj_res = oat.lookup_journal_in_doaj(issn, args.bypass_cert_verification)
+                    if doaj_res["data_received"]:
+                        if doaj_res["data"]["in_doaj"]:
+                            msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
+                            print msg.format(issn, doaj_res["data"]["title"])
+                            current_row["doaj"] = "TRUE"
+                            break
+                        else:
+                            msg = "DOAJ: Journal ISSN ({}) not found in DOAJ."
+                            current_row["doaj"] = "FALSE"
+                            print msg.format(issn)
+                    else:
+                        msg = "DOAJ: Error while trying to look up ISSN {}: {}"
+                        msg_fmt = msg.format(issn, doaj_res["error_msg"])
+                        oat.print_r(msg_fmt)
+                        error_messages.append("Line {}: {}".format(row_num, msg_fmt))
 
 
         enriched_content.append(current_row.values())
