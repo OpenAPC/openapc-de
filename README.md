@@ -64,13 +64,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  16 272 287 € for  10 370 articles were paid by the participating unviversities. Average  fee is 1 569.2 € and the median 1 386 €.
+In total,  16 270 787 € for  10 370 articles were paid by the participating unviversities. Average  fee is 1 569 € and the median 1 386 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 7 742 articles in open access journals which charge publication fees. Total expenditure amounts to  10 027 555 €. Average  fee is 1 295.2 € and the median 1 228 €.
+At the moment, the dataset releases information on 7 742 articles in open access journals which charge publication fees. Total expenditure amounts to  10 026 055 €. Average  fee is 1 295 € and the median 1 228 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -107,7 +107,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Clausthal                                |        4|              3771|           943|    969|
 |TU Dresden                                  |      130|            175723|          1352|   1415|
 |TU Ilmenau                                  |       13|             13053|          1004|    986|
-|TU Muenchen                                 |      308|            391586|          1271|   1386|
+|TU Muenchen                                 |      308|            390086|          1267|   1386|
 |Wuerzburg U                                 |      207|            286543|          1384|   1447|
 
 ### Hybrid articles
