@@ -11,6 +11,7 @@ import xml.etree.ElementTree as ET
 try:
     import chardet
 except ImportError:
+    chardet = None
     print ("WARNING: 3rd party module 'chardet' not found - character " +
            "encoding guessing will not work")
            
