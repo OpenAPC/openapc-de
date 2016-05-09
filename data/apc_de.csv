@@ -1032,8 +1032,8 @@
 "MPG",2014,1843.2,"10.3389/fpsyg.2014.01242",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25404924","PMC4217337","ut:000344857900001",NA,TRUE
 "MPG",2014,1843.2,"10.3389/fpsyg.2014.01363",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25505442","PMC4244805","ut:000345577400001",NA,TRUE
 "Regensburg U",2012,1110.97,"10.3748/wjg.v18.i46.6836",FALSE,"Baishideng Publishing Group Co., Limited (formerly WJG Press)","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"23239922","PMC3520173","ut:000312966000018",NA,TRUE
-"Regensburg U",2012,745.25,NA,FALSE,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics",NA,NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
-"Regensburg U",2012,761.05,NA,FALSE,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics",NA,NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+"Regensburg U",2012,745.25,NA,FALSE,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics",NA,NA,NA,NA,FALSE,NA,NA,"PMC3316444","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3316444/",FALSE
+"Regensburg U",2012,761.05,NA,FALSE,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics",NA,NA,NA,NA,FALSE,NA,NA,"PMC3459214","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3459214/",FALSE
 "Regensburg U",2012,575,"10.3389/fnhum.2012.00342",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"23293597","PMC3533233","ut:000312929700001",NA,TRUE
 "Regensburg U",2012,583.1,"10.3389/fmicb.2012.00074",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"22416241","PMC3298847","ut:000208863600128",NA,TRUE
 "Regensburg U",2012,1028.16,"10.3389/fpsyg.2012.00287",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"22908004","PMC3415689","ut:000208864000005",NA,TRUE
@@ -1112,7 +1112,7 @@
 "Regensburg U",2013,1178.1,"10.1167/13.1.10",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362",NA,"1534-7362",NA,TRUE,"23302213",NA,"ut:000314516900010",NA,TRUE
 "Regensburg U",2013,237.64,"10.5539/jms.v3n2p68",FALSE,"Canadian Center of Science and Education","Journal of Management and Sustainability","1925-4733;1925-4725","1925-4725","1925-4733",NA,TRUE,NA,NA,NA,NA,TRUE
 "Regensburg U",2013,244.24,"10.5539/jms.v3n1p9",FALSE,"Canadian Center of Science and Education","Journal of Management and Sustainability","1925-4733;1925-4725","1925-4725","1925-4733",NA,TRUE,NA,NA,NA,NA,TRUE
-"Regensburg U",2013,192.8,NA,FALSE,"Food Science Publisher","Functional Foods in Health and Disease",NA,NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+"Regensburg U",2013,192.8,NA,FALSE,"Food Science Publisher","Functional Foods in Health and Disease",NA,NA,NA,NA,FALSE,NA,NA,NA,"http://functionalfoodscenter.net/files/70318858.pdf",FALSE
 "Regensburg U",2013,684.25,"10.3389/fpls.2013.00377",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664462X",NA,"1664462X",NA,TRUE,"24065980","PMC3779858","ut:000329108300001",NA,TRUE
 "Regensburg U",2013,916.3,"10.3389/fpsyg.2013.00428",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23882237","PMC3713239","ut:000331103700001",NA,TRUE
 "Regensburg U",2013,916.3,"10.3389/fpsyg.2013.00467",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23898312","PMC3721022","ut:000331106600001",NA,TRUE
