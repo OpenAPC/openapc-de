@@ -5,7 +5,8 @@
 
 The aim of this repository is:
 
-- to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
+- to release datasets on fees paid for Open Access journal articles by German Universities under an Open Database License
+- to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014)
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
 ## Participating Universities
@@ -54,23 +55,19 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
 
-## Participating Austrian Institutions
-
-- [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
-
 ## Dataset
 
 
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  16 298 551 € for  10 392 articles were paid by the participating unviversities. Average  fee is 1 568.4 € and the median 1 386 €.
+In total,  9 104 729 € for  7 068 articles were paid by the participating unviversities. Average  fee is 1 288.2 € and the median 1 224 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 7 748 articles in open access journals which charge publication fees. Total expenditure amounts to  10 033 890 €. Average  fee is 1 295 € and the median 1 228 €.
+At the moment, the dataset releases information on 7 015 articles in open access journals which charge publication fees. Total expenditure amounts to  9 016 888 €. Average  fee is 1 285.4 € and the median 1 223 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -84,7 +81,6 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |      106|            142671|          1346|   1292|
-|FWF - Austrian Science Fund                 |      733|           1017239|          1388|   1270|
 |FZJ - ZB                                    |      158|            196869|          1246|   1177|
 |GFZ-Potsdam                                 |      106|            126520|          1194|   1065|
 |Giessen U                                   |      243|            326082|          1342|   1247|
@@ -101,12 +97,12 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |MDC                                         |       23|             41464|          1803|   1212|
 |MPG                                         |     2816|           3597571|          1278|   1161|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
-|Potsdam U                                   |       24|             31942|          1331|   1363|
+|Potsdam U                                   |       24|             32128|          1339|   1386|
 |Regensburg U                                |      400|            503845|          1260|   1207|
 |TU Chemnitz                                 |       36|             37826|          1051|   1142|
 |TU Clausthal                                |        4|              3771|           943|    969|
 |TU Dresden                                  |      130|            175723|          1352|   1415|
-|TU Ilmenau                                  |       13|             13002|          1000|    986|
+|TU Ilmenau                                  |       13|             13053|          1004|    986|
 |TU Muenchen                                 |      308|            391586|          1271|   1386|
 |Wuerzburg U                                 |      207|            286543|          1384|   1447|
 
@@ -114,14 +110,13 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 2 644 hybrid open access articles. Total expenditure amounts to  6 264 661 €. Average  fee is 2 369.4 € and the median 2 454 €.
+The dataset covers 53 hybrid open access articles. Total expenditure amounts to  87 842 €. Average  fee is 1 657.4 € and the median 1 673 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|FWF - Austrian Science Fund                 |     2591|           6176819|          2384|   2500|
 |INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
 |MDC                                         |       11|             20054|          1823|   1382|
 |MPG                                         |       40|             63548|          1589|   1669|
@@ -204,7 +199,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter,  Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
