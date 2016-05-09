@@ -623,6 +623,7 @@ def main():
                                "offline copy ('{}').")
                         print msg.format(issn, lookup_result)
                         current_row["doaj"] = "TRUE"
+                        break
                     else:
                         msg = ("DOAJ: Journal ISSN ({}) not found in DOAJ " +
                                "offline copy.")
