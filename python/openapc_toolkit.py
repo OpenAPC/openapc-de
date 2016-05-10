@@ -497,7 +497,8 @@ def get_unified_journal_title(journal_full_title):
         "RSC Adv.": "RSC Advances",
         "Zeitschrift für die neutestamentliche Wissenschaft": "Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
         "Chem. Soc. Rev.": "Chemical Society Reviews",
-        "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties"
+        "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
+        "Scientific Repor.": "Scientific Reports"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
     
