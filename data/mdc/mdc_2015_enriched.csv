@@ -1,0 +1,39 @@
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"MDC",2015,1396,"10.1186/s13014-015-0510-9",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X",NA,"1748-717X",NA,TRUE,"26391138","PMC4578265",NA,NA,TRUE
+"MDC",2015,1340,"10.1186/s12885-015-1150-z",FALSE,"Springer Science + Business Media","BMC Cancer","1471-2407",NA,"1471-2407",NA,TRUE,"25884643","PMC4371627",NA,NA,TRUE
+"MDC",2015,1128,"10.1186/s12968-015-0129-x",FALSE,"Springer Science + Business Media","Journal of Cardiovascular Magnetic Resonance","1532-429X",NA,"1532-429X",NA,TRUE,"25926126","PMC4414435",NA,NA,TRUE
+"MDC",2015,760,"10.1186/s13104-015-1118-8",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500",NA,"1756-0500",NA,TRUE,"25889572","PMC4404576",NA,NA,TRUE
+"MDC",2015,1340,"10.1186/s12943-015-0316-2",FALSE,"Springer Science + Business Media","Molecular Cancer","1476-4598","1476-4598",NA,NA,TRUE,"25742883","PMC4335361",NA,NA,TRUE
+"MDC",2015,1804,"10.1186/s13059-015-0810-2",FALSE,"Springer Science + Business Media","Genome Biology","1474-760X",NA,"1474-760X",NA,TRUE,"26553112","PMC4640370",NA,NA,TRUE
+"MDC",2015,1420,"10.1186/2049-3002-2-9",FALSE,"Springer Science + Business Media","Cancer & Metabolism","2049-3002","2049-3002",NA,NA,TRUE,"25035808","PMC4101711",NA,NA,TRUE
+"MDC",2015,2310,"10.1186/s13059-015-0742-x",FALSE,"Springer Science + Business Media","Genome Biology","1474-760X",NA,"1474-760X",NA,TRUE,"26364619","PMC4568590",NA,NA,TRUE
+"MDC",2015,768,"10.3389/fbioe.2014.00084",FALSE,"Frontiers Media SA","Frontiers in Bioengineering and Biotechnology","2296-4185",NA,"2296-4185",NA,TRUE,"25654076","PMC4301187",NA,NA,TRUE
+"MDC",2015,1200,"10.1093/nar/gku1180",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"25416797","PMC4383974",NA,NA,TRUE
+"MDC",2015,1165,"10.1038/srep08427",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25673047",NA,NA,NA,TRUE
+"MDC",2015,3083,"10.1016/j.celrep.2014.12.019",FALSE,"Elsevier BV","Cell Reports","22111247","22111247",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25558066",NA,NA,NA,FALSE
+"MDC",2015,1247,"10.1371/journal.pone.0119430",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25749283","PMC4352076",NA,NA,TRUE
+"MDC",2015,2078,"10.1371/journal.pgen.1005076",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"25757221","PMC4355615",NA,NA,TRUE
+"MDC",2015,2600,"10.1038/cddis.2015.127",FALSE,"Nature Publishing Group","Cell Death and Disease","2041-4889",NA,"2041-4889",NA,TRUE,"26043076","PMC4669822",NA,NA,TRUE
+"MDC",2015,3700,"10.1038/ncomms8200",TRUE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26007203","PMC4455061",NA,NA,TRUE
+"MDC",2015,3145,"10.15252/embj.201490819",TRUE,"EMBO","The EMBO Journal","0261-4189","0261-4189","1460-2075",NA,TRUE,"25828096","PMC4492000",NA,NA,FALSE
+"MDC",2015,3700,"10.1038/ncomms8264",TRUE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26081042","PMC4557308",NA,NA,TRUE
+"MDC",2015,2950,"10.15252/msb.20145970",FALSE,"EMBO","Molecular Systems Biology","1744-4292",NA,"1744-4292",NA,TRUE,"26134616","PMC4547845",NA,NA,TRUE
+"MDC",2015,1209,"10.1371/journal.pone.0128386",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26186349","PMC4506094",NA,NA,TRUE
+"MDC",2015,2950,"10.15252/msb.156240",FALSE,"EMBO","Molecular Systems Biology","1744-4292",NA,"1744-4292",NA,TRUE,"26253569","PMC4562498",NA,NA,TRUE
+"MDC",2015,3700,"10.1038/ncomms8367",TRUE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26170170","PMC4510711",NA,NA,TRUE
+"MDC",2015,4379,"10.1016/j.celrep.2015.04.030",FALSE,"Elsevier BV","Cell Reports","22111247","22111247",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25959826",NA,NA,NA,FALSE
+"MDC",2015,3065,"10.1002/bies.201400113",TRUE,"Wiley-Blackwell","BioEssays","02659247",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25640005","PMC4409097",NA,NA,FALSE
+"MDC",2015,771,"10.3389/fgene.2015.00237",FALSE,"Frontiers Media SA","Frontiers in Genetics","1664-8021",NA,"1664-8021",NA,TRUE,"26236332","PMC4500955",NA,NA,TRUE
+"MDC",2015,4179,"10.3389/fcell.2015.00070",FALSE,"Frontiers Media SA","Frontiers in Cell and Developmental Biology","2296-634X",NA,"2296-634X",NA,TRUE,"26618157","PMC4641242",NA,NA,TRUE
+"MDC",2015,4568,"10.1016/j.celrep.2015.09.015",FALSE,"Elsevier BV","Cell Reports","22111247","22111247",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26456821",NA,NA,NA,FALSE
+"MDC",2015,3700,"10.1038/ncomms9804",TRUE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26542096","PMC4667629",NA,NA,TRUE
+"MDC",2015,1165,"10.1038/srep17230",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26821826","PMC4731789",NA,NA,TRUE
+"MDC",2015,1253,"10.1371/journal.pone.0141214",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26485708","PMC4617279",NA,NA,TRUE
+"MDC",2015,4552,"10.1016/j.stemcr.2015.10.003",FALSE,"Elsevier BV","Stem Cell Reports","22136711","22136711",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26549850","PMC4682088",NA,NA,FALSE
+"MDC",2015,1607,"10.1016/j.ydbio.2015.10.009",TRUE,"Elsevier BV","Developmental Biology","00121606","00121606",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26453796",NA,NA,NA,FALSE
+"MDC",2015,877,"10.18632/oncotarget.6793",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,"26760764",NA,NA,NA,FALSE
+"MDC",2015,2564,"10.1038/mtna.2015.52",FALSE,"Nature Publishing Group","Molecular Therapy—Nucleic Acids","2162-2531",NA,"2162-2531",NA,TRUE,"26784637",NA,NA,NA,TRUE
+"MDC",2015,4662,"10.1016/j.celrep.2015.11.011",FALSE,"Elsevier BV","Cell Reports","22111247","22111247",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26670044","PMC4688033",NA,NA,FALSE
+"MDC",2015,1756,"10.1016/j.neuropharm.2014.12.007",TRUE,"Elsevier BV","Neuropharmacology","00283908","00283908",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25528740",NA,NA,NA,FALSE
+"MDC",2015,2190,"10.1038/cddis.2015.20",FALSE,"Nature Publishing Group","Cell Death and Disease","2041-4889",NA,"2041-4889",NA,TRUE,"25741600","PMC4385913",NA,NA,TRUE
+"MDC",2015,2276,"10.1016/j.celrep.2015.03.059",FALSE,"Elsevier BV","Cell Reports","22111247","22111247",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25921526",NA,NA,NA,FALSE
