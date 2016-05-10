@@ -102,6 +102,8 @@ ARG_HELP_STRINGS = {
               "querying metadata APIs. Not recommended, but might be " +
               "necessary if run under windows (where python does not use the " +
               "cert store of the OS)",
+    "unknown_columns": "Attach any unidentified columns to the generated " +
+                       "csv file",
     "institution": "Manually identify the 'institution' column if the script " +
                    "fails to detect it automatically. The value is the " +
                    "numerical column index in the CSV file, with the " +
@@ -166,18 +168,20 @@ INFO_MSGS = {
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
-    parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
-    parser.add_argument("-v", "--verbose", action="store_true",
-                        help=ARG_HELP_STRINGS["verbose"])
-    parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
-    parser.add_argument("-i", "--ignore-header", action="store_true",
-                        help=ARG_HELP_STRINGS["headers"])
-    parser.add_argument("-f", "--force", action="store_true",
-                        help=ARG_HELP_STRINGS["force"])
     parser.add_argument("-b", "--bypass-cert-verification", action="store_true",
                         help=ARG_HELP_STRINGS["bypass"])
     parser.add_argument("-d", "--offline_doaj",
                         help=ARG_HELP_STRINGS["offline_doaj"])
+    parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
+    parser.add_argument("-f", "--force", action="store_true",
+                        help=ARG_HELP_STRINGS["force"])
+    parser.add_argument("-i", "--ignore-header", action="store_true",
+                        help=ARG_HELP_STRINGS["headers"])
+    parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
+    parser.add_argument("-u", "--add-unknown-columns", action="store_true", 
+                        help=ARG_HELP_STRINGS["unknown_columns"])
+    parser.add_argument("-v", "--verbose", action="store_true",
+                        help=ARG_HELP_STRINGS["verbose"])
     parser.add_argument("-institution", "--institution_column", type=int,
                         help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("-period", "--period_column", type=int,
@@ -452,16 +456,21 @@ def main():
             else:
                 oat.print_b(msg)
         else:
-            msg = ("column number {} ({}) is an unknown column, it will be " +
-                   "appended to the generated CSV file")
-            oat.print_y(msg.format(index, column_name))
-            if not column_name:
-                # Use a generic name
-                column_name = "unknown"
-            while column_name in column_map.keys():
-                # TODO: Replace by a numerical, increasing suffix
-                column_name += "_"
-            column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
+            if args.add_unknown_columns:
+                msg = ("column number {} ({}) is an unknown column, it will be " +
+                       "appended to the generated CSV file")
+                oat.print_y(msg.format(index, column_name))
+                if not column_name:
+                    # Use a generic name
+                    column_name = "unknown"
+                while column_name in column_map.keys():
+                    # TODO: Replace by a numerical, increasing suffix
+                    column_name += "_"
+                column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
+            else:
+                msg = ("column number {} ({}) is an unknown column, it will be " +
+                       "ignored")
+                oat.print_y(msg.format(index, column_name))
 
     print ""
     for column in column_map.values():
