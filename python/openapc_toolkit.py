@@ -491,6 +491,7 @@ def get_unified_journal_title(journal_full_title):
         "PLoS Genetics": "PLOS Genetics",
         "PLoS Biology": "PLOS Biology",
         "PLoS Computational Biology": "PLOS Computational Biology",
+        "PLoS Neglected Tropical Diseases": "PLOS Neglected Tropical Diseases",
         "Oncotarget": "OncoTarget",
         "Journal of Lipid Research": "The Journal of Lipid Research",
         "Plastic and Reconstructive Surgery Global Open": "Plastic and Reconstructive Surgery - Global Open",
