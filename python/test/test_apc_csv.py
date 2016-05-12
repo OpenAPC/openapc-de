@@ -7,7 +7,8 @@ import openapc_toolkit as oat
 # If one publisher name is stored in the left list of an entry and another in the right one,
 # they will not be treated as different by the name_consistency test.
 PUBLISHER_IDENTITY = [
-    (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society", "Springer Nature"]),
+    (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
+    (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Wiley-Blackwell"], ["EMBO"]),
     (["Pion Ltd"], ["SAGE Publications"])
 ]
