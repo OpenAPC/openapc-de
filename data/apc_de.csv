@@ -6735,12 +6735,12 @@
 "KIT",2015,2000,"10.1175/BAMS-D-14-00108.1",FALSE,"American Meteorological Society","Bulletin of the American Meteorological Society","0003-0007","0003-0007","1520-0477",NA,TRUE,NA,NA,NA,NA,FALSE
 "KIT",2015,1766.47,"10.1103/PhysRevX.5.021030",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2015,2000,"10.1128/mBio.00749-15",FALSE,"American Society for Microbiology","mBio","2150-7511",NA,"2150-7511",NA,TRUE,"26126853","PMC4488947",NA,NA,TRUE
-"KIT",2015,1396,"10.1186/s12896-015-0196-y",FALSE,"Springer Science + Business Media","BMC Biotechnology","1472-6750",NA,"1472-6750",NA,TRUE,"26286267","PMC4545374",NA,NA,TRUE
-"KIT",2015,1340,"10.1186/s12896-015-0208-y",FALSE,"Springer Science + Business Media","BMC Biotechnology","1472-6750",NA,"1472-6750",NA,TRUE,"26450685","PMC4599741",NA,NA,TRUE
-"KIT",2015,1340,"10.1186/s12866-015-0358-z",FALSE,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,"25652096","PMC4326477",NA,NA,TRUE
-"KIT",2015,1340,"10.1186/s12889-015-1731-4",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458",NA,"1471-2458",NA,TRUE,"25887314","PMC4407713",NA,NA,TRUE
-"KIT",2015,760,"10.1186/s13104-015-1082-3",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500",NA,"1756-0500",NA,TRUE,"25886068","PMC4422448",NA,NA,TRUE
-"KIT",2015,1300,"10.1186/s13578-015-0022-1",FALSE,"Springer Science + Business Media","Cell & Bioscience","2045-3701",NA,"2045-3701",NA,TRUE,"26075053","PMC4465304",NA,NA,TRUE
+"KIT",2015,1396,"10.1186/s12896-015-0196-y",FALSE,"Springer Nature","BMC Biotechnology","1472-6750",NA,"1472-6750",NA,TRUE,"26286267","PMC4545374",NA,NA,TRUE
+"KIT",2015,1340,"10.1186/s12896-015-0208-y",FALSE,"Springer Nature","BMC Biotechnology","1472-6750",NA,"1472-6750",NA,TRUE,"26450685","PMC4599741",NA,NA,TRUE
+"KIT",2015,1340,"10.1186/s12866-015-0358-z",FALSE,"Springer Nature","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,"25652096","PMC4326477",NA,NA,TRUE
+"KIT",2015,1340,"10.1186/s12889-015-1731-4",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458",NA,TRUE,"25887314","PMC4407713",NA,NA,TRUE
+"KIT",2015,760,"10.1186/s13104-015-1082-3",FALSE,"Springer Nature","BMC Research Notes","1756-0500",NA,"1756-0500",NA,TRUE,"25886068","PMC4422448",NA,NA,TRUE
+"KIT",2015,1300,"10.1186/s13578-015-0022-1",FALSE,"Springer Nature","Cell & Bioscience","2045-3701",NA,"2045-3701",NA,TRUE,"26075053","PMC4465304",NA,NA,TRUE
 "KIT",2015,1606.5,"10.3402/tellusb.v67.25308",FALSE,"Co-Action Publishing","Tellus B","1600-0889","0280-6509","1600-0889",NA,TRUE,NA,NA,NA,NA,TRUE
 "KIT",2015,1428,"10.5194/acpd-15-8883-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2015,1342.32,"10.5194/acpd-15-5801-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -6791,7 +6791,7 @@
 "KIT",2015,400.11,"10.1016/j.cocom.2015.08.002",FALSE,"Elsevier BV","Computational Condensed Matter","23522143","23522143",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2015,354.36,"10.1016/j.nme.2015.04.002",FALSE,"Elsevier BV","Nuclear Materials and Energy","23521791","23521791",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2015,518.46,"10.4236/ojfd.2015.51006",FALSE,"Scientific Research Publishing, Inc,","Open Journal of Fluid Dynamics","2165-3852","2165-3852","2165-3860","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"KIT",2015,500,NA,FALSE,"ESG","International Journal of Electrochemical Science","1452-3981",NA,NA,NA,FALSE,NA,NA,NA,"http://www.electrochemsci.org/papers/vol10/101209988.pdf",TRUE
+"KIT",2015,500,NA,FALSE,"ESG","International Journal of Electrochemical Science","1452-3981",NA,NA,NA,FALSE,NA,NA,NA,"http://www.electrochemsci.org/papers/vol10/101209988.pdf",FALSE
 "KIT",2015,1343.2,"10.3389/fpls.2015.01077",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,"26648959","PMC4665137",NA,NA,TRUE
 "KIT",2015,2000,"10.3389/fbioe.2015.00209",FALSE,"Frontiers Media SA","Frontiers in Bioengineering and Biotechnology","2296-4185",NA,"2296-4185",NA,TRUE,"26793704","PMC4710757",NA,NA,TRUE
 "KIT",2015,1540.03,"10.3389/fnhum.2015.00617",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"26617510","PMC4641917",NA,NA,TRUE
@@ -6816,24 +6816,24 @@
 "KIT",2015,1545.68,"10.3390/s150511873",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"26007735","PMC4481949",NA,NA,TRUE
 "KIT",2015,1667.65,"10.3390/s150923110",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"26378545","PMC4610545",NA,NA,TRUE
 "KIT",2015,1009.29,"10.3390/su7032695",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050",NA,TRUE,NA,NA,NA,NA,TRUE
-"KIT",2015,2000,"10.1038/lsa.2015.55",FALSE,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,NA,NA,TRUE
-"KIT",2015,2000,"10.1038/lsa.2015.111",FALSE,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,NA,NA,TRUE
-"KIT",2015,2000,"10.1038/lsa.2015.28",FALSE,"Nature Publishing Group","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,NA,NA,TRUE
-"KIT",2015,2000,"10.1038/ncomms7182",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25652611","PMC4327544",NA,NA,TRUE
-"KIT",2015,2000,"10.1038/ncomms8911",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26227915","PMC4532874",NA,NA,TRUE
-"KIT",2015,2000,"10.1038/ncomms9961",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26611619","PMC4674778",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep08386",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25669431","PMC4323638",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep08601",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25712513",NA,NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep09388",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25807192",NA,NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep10149",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25951521","PMC4423563",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep10941",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26061283","PMC4462017",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep13621",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26323326","PMC4555029",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep15342",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26493176","PMC4615978",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep15627",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26496823","PMC4620486",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep16313",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26549694","PMC4637878",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep17363",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26612567","PMC4661601",NA,NA,TRUE
-"KIT",2015,1165,"10.1038/srep18006",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26648024","PMC4673609",NA,NA,TRUE
-"KIT",2015,1386.35,"10.1038/srep19957",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26829153","PMC4734290",NA,NA,TRUE
+"KIT",2015,2000,"10.1038/lsa.2015.55",FALSE,"Springer Nature","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,NA,NA,TRUE
+"KIT",2015,2000,"10.1038/lsa.2015.111",FALSE,"Springer Nature","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,NA,NA,TRUE
+"KIT",2015,2000,"10.1038/lsa.2015.28",FALSE,"Springer Nature","Light: Science & Applications","2047-7538",NA,"2047-7538",NA,TRUE,NA,NA,NA,NA,TRUE
+"KIT",2015,2000,"10.1038/ncomms7182",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25652611","PMC4327544",NA,NA,TRUE
+"KIT",2015,2000,"10.1038/ncomms8911",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26227915","PMC4532874",NA,NA,TRUE
+"KIT",2015,2000,"10.1038/ncomms9961",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26611619","PMC4674778",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep08386",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25669431","PMC4323638",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep08601",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25712513",NA,NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep09388",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25807192",NA,NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep10149",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25951521","PMC4423563",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep10941",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26061283","PMC4462017",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep13621",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26323326","PMC4555029",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep15342",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26493176","PMC4615978",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep15627",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26496823","PMC4620486",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep16313",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26549694","PMC4637878",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep17363",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26612567","PMC4661601",NA,NA,TRUE
+"KIT",2015,1165,"10.1038/srep18006",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26648024","PMC4673609",NA,NA,TRUE
+"KIT",2015,1386.35,"10.1038/srep19957",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26829153","PMC4734290",NA,NA,TRUE
 "KIT",2015,1632.43,"10.4172/2155-9821.1000234",FALSE,"OMICS Publishing Group","Journal of Bioprocessing & Biotechniques","21559821",NA,"21559821",NA,TRUE,NA,NA,NA,NA,FALSE
 "KIT",2015,1235.63,"10.1364/OME.5.000576",FALSE,"Optical Society of America (OSA)","Optical Materials Express","2159-3930",NA,"2159-3930",NA,TRUE,NA,NA,NA,NA,TRUE
 "KIT",2015,1290.5,"10.1364/OME.5.000996",FALSE,"Optical Society of America (OSA)","Optical Materials Express","2159-3930",NA,"2159-3930",NA,TRUE,NA,NA,NA,NA,TRUE
@@ -6848,24 +6848,24 @@
 "KIT",2015,2000,"10.1364/OE.23.021942",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"26368170",NA,NA,NA,TRUE
 "KIT",2015,2000,"10.1364/OE.23.033044",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"26831974",NA,NA,NA,TRUE
 "KIT",2015,2000,"10.1093/nar/gkv932",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"26420827","PMC4666395",NA,NA,TRUE
-"KIT",2015,775,"10.1042/BSR20150093",FALSE,"Portland Press Ltd.","Bioscience Reports","0144-8463","0144-8463","1573-4935",NA,TRUE,"26181364","PMC4721543",NA,NA,TRUE
-"KIT",2015,1208.39,"10.1371/journal.pone.0130316",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26201078","PMC4511676",NA,NA,TRUE
-"KIT",2015,1445.17,"10.1371/journal.pone.0131098",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26191792","PMC4508044",NA,NA,TRUE
-"KIT",2015,1246.15,"10.1371/journal.pone.0117645",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25692557","PMC4334901",NA,NA,TRUE
-"KIT",2015,1246.15,"10.1371/journal.pone.0117300",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25706987","PMC4338023",NA,NA,TRUE
-"KIT",2015,1246.15,"10.1371/journal.pone.0124231",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25885258","PMC4401688",NA,NA,TRUE
-"KIT",2015,1438.33,"10.1371/journal.pone.0135399",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26308344","PMC4550381",NA,NA,TRUE
-"KIT",2015,1412.45,"10.1371/journal.pone.0137286",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26444552","PMC4596872",NA,NA,TRUE
-"KIT",2015,1490.63,"10.1371/journal.pone.0140955",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26489006","PMC4619345",NA,NA,TRUE
+"KIT",2015,775,"10.1042/BSR20150093",FALSE,"Portland Press Ltd.","Bioscience Reports","0144-8463","0144-8463","1573-4935",NA,TRUE,"26181364","PMC4721543",NA,NA,FALSE
+"KIT",2015,1208.39,"10.1371/journal.pone.0130316",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26201078","PMC4511676",NA,NA,TRUE
+"KIT",2015,1445.17,"10.1371/journal.pone.0131098",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26191792","PMC4508044",NA,NA,TRUE
+"KIT",2015,1246.15,"10.1371/journal.pone.0117645",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","https://creativecommons.org/publicdomain/zero/1.0/",TRUE,"25692557","PMC4334901",NA,NA,TRUE
+"KIT",2015,1246.15,"10.1371/journal.pone.0117300",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25706987","PMC4338023",NA,NA,TRUE
+"KIT",2015,1246.15,"10.1371/journal.pone.0124231",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25885258","PMC4401688",NA,NA,TRUE
+"KIT",2015,1438.33,"10.1371/journal.pone.0135399",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26308344","PMC4550381",NA,NA,TRUE
+"KIT",2015,1412.45,"10.1371/journal.pone.0137286",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26444552","PMC4596872",NA,NA,TRUE
+"KIT",2015,1490.63,"10.1371/journal.pone.0140955",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26489006","PMC4619345",NA,NA,TRUE
 "KIT",2015,1229.17,"10.1371/journal.pone.0143599",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26606157","PMC4659539",NA,NA,TRUE
 "KIT",2015,2000,"10.1127/metz/2015/0594",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,NA,TRUE,NA,NA,NA,NA,TRUE
 "KIT",2015,727.58,"10.4236/ape.2015.52010",FALSE,"Scientific Research Publishing, Inc,","Advances in Physical Education","2164-0386","2164-0386","2164-0408","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"KIT",2015,1260,"10.1186/s13568-015-0107-6",FALSE,"Springer Science + Business Media","AMB Express","2191-0855",NA,"2191-0855",NA,TRUE,"25852998","PMC4385232",NA,NA,TRUE
-"KIT",2015,1260,"10.1186/s13568-015-0145-0",FALSE,"Springer Science + Business Media","AMB Express","2191-0855",NA,"2191-0855",NA,TRUE,"26297438","PMC4546119",NA,NA,TRUE
-"KIT",2015,672,"10.1186/s13021-014-0011-4",FALSE,"Springer Science + Business Media","Carbon Balance and Management","1750-0680",NA,"1750-0680",NA,TRUE,"25632297","PMC4302244",NA,NA,TRUE
-"KIT",2015,840,"10.1186/s13634-015-0203-4",FALSE,"Springer Science + Business Media","EURASIP Journal on Advances in Signal Processing","1687-6180",NA,"1687-6180",NA,TRUE,NA,NA,NA,NA,TRUE
-"KIT",2015,708,"10.1186/s12932-015-0027-z",FALSE,"Springer Science + Business Media","Geochemical Transactions","1467-4866",NA,"1467-4866",NA,TRUE,"26339199","PMC4559087",NA,NA,TRUE
-"KIT",2015,528,"10.1186/s13677-014-0025-1",FALSE,"Springer Science + Business Media","Journal of Cloud Computing","2192-113X",NA,"2192-113X",NA,TRUE,NA,NA,NA,NA,TRUE
+"KIT",2015,1260,"10.1186/s13568-015-0107-6",FALSE,"Springer Nature","AMB Express","2191-0855",NA,"2191-0855",NA,TRUE,"25852998","PMC4385232",NA,NA,TRUE
+"KIT",2015,1260,"10.1186/s13568-015-0145-0",FALSE,"Springer Nature","AMB Express","2191-0855",NA,"2191-0855",NA,TRUE,"26297438","PMC4546119",NA,NA,TRUE
+"KIT",2015,672,"10.1186/s13021-014-0011-4",FALSE,"Springer Nature","Carbon Balance and Management","1750-0680",NA,"1750-0680",NA,TRUE,"25632297","PMC4302244",NA,NA,TRUE
+"KIT",2015,840,"10.1186/s13634-015-0203-4",FALSE,"Springer Nature","EURASIP Journal on Advances in Signal Processing","1687-6180",NA,"1687-6180",NA,TRUE,NA,NA,NA,NA,TRUE
+"KIT",2015,708,"10.1186/s12932-015-0027-z",FALSE,"Springer Nature","Geochemical Transactions","1467-4866",NA,"1467-4866",NA,TRUE,"26339199","PMC4559087",NA,NA,TRUE
+"KIT",2015,528,"10.1186/s13677-014-0025-1",FALSE,"Springer Nature","Journal of Cloud Computing","2192-113X",NA,"2192-113X",NA,TRUE,NA,NA,NA,NA,TRUE
 "TU Muenchen",2015,175,"10.1107/S2056989015011366",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26279872","PMC4518917",NA,NA,TRUE
 "TU Muenchen",2015,185.85,"10.1107/S2056989015022367 ",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26870427","PMC4719836",NA,NA,TRUE
 "TU Muenchen",2015,1428,"10.2340/00015555-2165",FALSE,"Acta Dermato-Venereologica","Acta Dermato Venereologica","0001-5555","0001-5555",NA,NA,TRUE,"26059424",NA,NA,NA,TRUE
