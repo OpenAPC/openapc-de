@@ -94,8 +94,10 @@ ARG_HELP_STRINGS = {
               "CSV file was created in (Example: Using en_US as your system " +
               "locale might become a problem if the file contains numeric " +
               "values with ',' as decimal mark character)",
-    "headers": "Ignore any CSV headers (if present) and try to determine " +
-               "relevant columns heuristically.",
+    "ignore_header": "Ignore any CSV headers (if present) and try to " +
+                     "determine relevant columns heuristically.",
+    "force_header": "Interpret the file's first line as a header even if the " +
+                    "automatic analysis did not detect one.",
     "force": "Force the script to continue even if not all mandatory columns " +
              "have been identified",
     "bypass": "Force the script to bypass TLS certificate verification when " +
@@ -176,7 +178,9 @@ def main():
     parser.add_argument("-f", "--force", action="store_true",
                         help=ARG_HELP_STRINGS["force"])
     parser.add_argument("-i", "--ignore-header", action="store_true",
-                        help=ARG_HELP_STRINGS["headers"])
+                        help=ARG_HELP_STRINGS["ignore_header"])
+    parser.add_argument("-j", "--force-header", action="store_true",
+                        help=ARG_HELP_STRINGS["force_header"])
     parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
     parser.add_argument("-u", "--add-unknown-columns", action="store_true", 
                         help=ARG_HELP_STRINGS["unknown_columns"])
@@ -311,7 +315,7 @@ def main():
     ]
 
     header = None
-    if has_header:
+    if has_header or args.force_header:
         for row in reader:
             if not row: # Skip empty lines
                 continue
