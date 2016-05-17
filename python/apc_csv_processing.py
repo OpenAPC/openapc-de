@@ -615,47 +615,46 @@ def main():
             error_messages.append("Line {}: {}".format(row_num, error_msg))
 
         # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
-        if current_row["doaj"] != "TRUE":
-            issns = []
-            if current_row["issn_electronic"] != "NA":
-                issns.append(current_row["issn_electronic"])
-            if current_row["issn"] != "NA":
-                issns.append(current_row["issn"])
-            if current_row["issn_print"] != "NA":
-                issns.append(current_row["issn_print"])
-            for issn in issns:
-                # look up in an offline copy of the DOAJ if requested...
-                if doaj_offline_analysis:
-                    lookup_result = doaj_offline_analysis.lookup(issn)
-                    if lookup_result:
-                        msg = ("DOAJ: Journal ISSN ({}) found in DOAJ " +
-                               "offline copy ('{}').")
-                        print msg.format(issn, lookup_result)
+        issns = []
+        if current_row["issn_electronic"] != "NA":
+            issns.append(current_row["issn_electronic"])
+        if current_row["issn"] != "NA":
+            issns.append(current_row["issn"])
+        if current_row["issn_print"] != "NA":
+            issns.append(current_row["issn_print"])
+        for issn in issns:
+            # look up in an offline copy of the DOAJ if requested...
+            if doaj_offline_analysis:
+                lookup_result = doaj_offline_analysis.lookup(issn)
+                if lookup_result:
+                    msg = ("DOAJ: Journal ISSN ({}) found in DOAJ " +
+                           "offline copy ('{}').")
+                    print msg.format(issn, lookup_result)
+                    current_row["doaj"] = "TRUE"
+                    break
+                else:
+                    msg = ("DOAJ: Journal ISSN ({}) not found in DOAJ " +
+                           "offline copy.")
+                    current_row["doaj"] = "FALSE"
+                    print msg.format(issn)
+            # ...or query the online API
+            else:
+                doaj_res = oat.lookup_journal_in_doaj(issn, args.bypass_cert_verification)
+                if doaj_res["data_received"]:
+                    if doaj_res["data"]["in_doaj"]:
+                        msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
+                        print msg.format(issn, doaj_res["data"]["title"])
                         current_row["doaj"] = "TRUE"
                         break
                     else:
-                        msg = ("DOAJ: Journal ISSN ({}) not found in DOAJ " +
-                               "offline copy.")
+                        msg = "DOAJ: Journal ISSN ({}) not found in DOAJ."
                         current_row["doaj"] = "FALSE"
                         print msg.format(issn)
-                # ...or query the online API
                 else:
-                    doaj_res = oat.lookup_journal_in_doaj(issn, args.bypass_cert_verification)
-                    if doaj_res["data_received"]:
-                        if doaj_res["data"]["in_doaj"]:
-                            msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
-                            print msg.format(issn, doaj_res["data"]["title"])
-                            current_row["doaj"] = "TRUE"
-                            break
-                        else:
-                            msg = "DOAJ: Journal ISSN ({}) not found in DOAJ."
-                            current_row["doaj"] = "FALSE"
-                            print msg.format(issn)
-                    else:
-                        msg = "DOAJ: Error while trying to look up ISSN {}: {}"
-                        msg_fmt = msg.format(issn, doaj_res["error_msg"])
-                        oat.print_r(msg_fmt)
-                        error_messages.append("Line {}: {}".format(row_num, msg_fmt))
+                    msg = "DOAJ: Error while trying to look up ISSN {}: {}"
+                    msg_fmt = msg.format(issn, doaj_res["error_msg"])
+                    oat.print_r(msg_fmt)
+                    error_messages.append("Line {}: {}".format(row_num, msg_fmt))
 
 
         enriched_content.append(current_row.values())
