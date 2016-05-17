@@ -245,7 +245,7 @@ def main():
     if enc is None:
         enc = csv_analysis.enc
     dialect = csv_analysis.dialect
-    has_header = csv_analysis.has_header
+    has_header = csv_analysis.has_header or args.force_header
 
     if enc is None:
         print ("Error: No encoding given for CSV file and automated " +
@@ -315,7 +315,7 @@ def main():
     ]
 
     header = None
-    if has_header or args.force_header:
+    if has_header:
         for row in reader:
             if not row: # Skip empty lines
                 continue
