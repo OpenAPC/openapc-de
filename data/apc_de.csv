@@ -3005,7 +3005,7 @@
 "Muenchen LMU",2014,1523.2,"10.1186/s13054-014-0538-5",FALSE,"Springer Science + Business Media","Critical Care","1364-8535","1364-8535",NA,NA,TRUE,"25497357","PMC4201669","ut:000351850600055",NA,FALSE
 "Muenchen LMU",2014,994.84,"10.1186/s40478-014-0096-8",FALSE,"Springer Science + Business Media","Acta Neuropathologica Communications","2051-5960","2051-5960",NA,NA,TRUE,"25190493","PMC4243959",NA,NA,TRUE
 "Giessen U",2012,1666.5,"10.1002/ece3.280",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,NA,TRUE,"22957159","PMC3434920","ut:000312448400017",NA,TRUE
-"Giessen U",2015,1737.4,"10.1002/prp2.139",FALSE,"Wiley-Blackwell","Pharmacology Research & Perspectives","20521707",NA,NA,NA,TRUE,NA,NA,NA,NA,FALSE
+"Giessen U",2015,1737.4,"10.1002/prp2.139",FALSE,"Wiley-Blackwell","Pharmacology Research & Perspectives","20521707",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26236483","PMC4492755",NA,NA,FALSE
 "Giessen U",2013,1377.31,"10.1016/j.nicl.2013.03.011",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"http://www.elsevier.com/tdm/userlicense/1.0/;http://creativecommons.org/licenses/by/3.0/",TRUE,"24179799","PMC3777795","ut:000209276800050",NA,TRUE
 "Giessen U",2013,1244.74,"10.1038/srep02066",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"23797622","PMC3691562","ut:000320847200002",NA,TRUE
 "Giessen U",2014,1244.74,"10.1038/srep06899",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25367630","PMC4219162","ut:000344230800002",NA,TRUE
@@ -3022,7 +3022,7 @@
 "Giessen U",2013,2891.7,"10.1093/nar/gkt080",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962",NA,TRUE,"23408850","PMC3627573","ut:000318167900010",NA,TRUE
 "Giessen U",2013,3605.7,"10.1093/nar/gkt262",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962",NA,TRUE,"23620283","PMC3675480","ut:000320116200024",NA,TRUE
 "Giessen U",2014,2534.7,"10.1093/nar/gku447",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048;1362-4962","0305-1048","1362-4962",NA,TRUE,"24878924","PMC4081073","ut:000339713200007",NA,TRUE
-"Giessen U",2015,2237.2,"10.1111/jcmm.12499",FALSE,"Wiley-Blackwell","Journal of Cellular and Molecular Medicine","15821838",NA,NA,NA,TRUE,"25678382","PMC4395196","ut:000352024000012",NA,FALSE
+"Giessen U",2015,2237.2,"10.1111/jcmm.12499",FALSE,"Wiley-Blackwell","Journal of Cellular and Molecular Medicine","15821838",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25678382","PMC4395196","ut:000352024000012",NA,FALSE
 "Giessen U",2013,253.23,"10.1128/genomeA.00165-12",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287",NA,TRUE,NA,NA,NA,NA,FALSE
 "Giessen U",2014,262.76,"10.1128/genomeA.01157-14",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287",NA,TRUE,NA,NA,NA,NA,FALSE
 "Giessen U",2011,1070.51,"10.1155/2011/174306",FALSE,"Hindawi Publishing Corporation","Journal of Biomedicine and Biotechnology","1110-7243;1110-7251","1110-7243","1110-7251","http://creativecommons.org/licenses/by/3.0/",TRUE,"22131798","PMC3205707","ut:000298427100001",NA,FALSE
@@ -3044,7 +3044,7 @@
 "Giessen U",2014,1662.62,"10.1167/14.12.16",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362",NA,"1534-7362",NA,TRUE,NA,NA,"ut:000344971700010",NA,TRUE
 "Giessen U",2014,1253.01,"10.1167/14.2.16",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362",NA,"1534-7362",NA,TRUE,NA,NA,"ut:000334064400016",NA,TRUE
 "Giessen U",2014,817.74,"10.1167/14.7.10",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362",NA,"1534-7362",NA,TRUE,NA,NA,"ut:000338844900010",NA,TRUE
-"Giessen U",2015,1218.31,"10.1167/15.2.13",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362",NA,"1534-7362",NA,TRUE,NA,NA,"ut:000350679800013",NA,TRUE
+"Giessen U",2015,1218.31,"10.1167/15.2.13",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362",NA,"1534-7362",NA,TRUE,"25761331","PMC4323039","ut:000350679800013",NA,TRUE
 "Giessen U",2011,500,"10.1186/1297-9716-42-97",FALSE,"Springer Science + Business Media","Veterinary Research","1297-9716","1297-9716",NA,NA,TRUE,"21878124","PMC3180656","ut:000295367300001",NA,TRUE
 "Giessen U",2013,1461.32,"10.1186/1465-9921-14-91",FALSE,"Springer Science + Business Media","Respiratory Research","1465-9921","1465-9921",NA,NA,TRUE,"24044871","PMC3848864","ut:000324862100001",NA,TRUE
 "Giessen U",2014,1239.74,"10.1186/1471-2148-14-42",FALSE,"Springer Science + Business Media","BMC Evolutionary Biology","1471-2148","1471-2148",NA,NA,TRUE,"24597925","PMC4015641","ut:000334459400001",NA,TRUE
@@ -3070,7 +3070,7 @@
 "Giessen U",2013,1247.12,"10.1186/1742-2094-10-140",FALSE,"Springer Science + Business Media","Journal of Neuroinflammation","1742-2094","1742-2094",NA,NA,TRUE,"24279606","PMC4222273","ut:000329207300001",NA,TRUE
 "Giessen U",2013,1080.52,"10.1186/1743-7075-10-28",FALSE,"Springer Science + Business Media","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"23497226","PMC3631133","ut:000317780600001",NA,TRUE
 "Giessen U",2013,1328.35,"10.1186/1743-7075-10-48",FALSE,"Springer Science + Business Media","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"23842456","PMC3717057","ut:000321924500001",NA,TRUE
-"Giessen U",2015,1182.08,"10.1186/1743-7075-12-2",FALSE,"Springer Science + Business Media","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"25745506","PMC4350646","ut:000348398000001",NA,TRUE
+"Giessen U",2015,1182.08,"10.1186/1743-7075-12-2",FALSE,"Springer Nature","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"25745506","PMC4350646","ut:000348398000001",NA,TRUE
 "Giessen U",2011,1250,"10.1186/1743-7075-8-76",FALSE,"Springer Science + Business Media","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"22040461","PMC3216248","ut:000297103000001",NA,TRUE
 "Giessen U",2012,1375,"10.1186/1743-7075-9-20",FALSE,"Springer Science + Business Media","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"22433818","PMC3362780","ut:000304763400001",NA,TRUE
 "Giessen U",2012,1355,"10.1186/1743-7075-9-42",FALSE,"Springer Science + Business Media","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"22607088","PMC3484027","ut:000310463800001",NA,TRUE
@@ -3091,21 +3091,21 @@
 "Giessen U",2013,680.68,"10.1186/2190-4715-25-29",FALSE,"Springer Science + Business Media","Environmental Sciences Europe","2190-4715","2190-4715",NA,NA,TRUE,NA,NA,NA,NA,TRUE
 "Giessen U",2013,80.92,"10.1186/2193-7532-1-16",FALSE,"Springer Science + Business Media","Agricultural and Food Economics","2193-7532","2193-7532",NA,NA,TRUE,NA,NA,NA,NA,TRUE
 "Giessen U",2014,1239.74,"10.1186/ar4489",FALSE,"Springer Science + Business Media","Arthritis Research & Therapy","1478-6354","1478-6354",NA,NA,TRUE,"24548804","PMC3978872","ut:000335148700053",NA,FALSE
-"Giessen U",2015,1489.84,"10.1186/s12862-015-0296-2",FALSE,"Springer Science + Business Media","BMC Evolutionary Biology","1471-2148",NA,"1471-2148",NA,TRUE,"25886047","PMC4373078","ut:000351503800001",NA,TRUE
-"Giessen U",2015,1440.9,"10.1186/s12866-015-0384-x",FALSE,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,"25887321","PMC4342102","ut:000350258500001",NA,TRUE
-"Giessen U",2015,1440.9,"10.1186/s12891-015-0459-8",FALSE,"Springer Science + Business Media","BMC Musculoskeletal Disorders","1471-2474","1471-2474",NA,NA,TRUE,"25636336","PMC4328057","ut:000350385800001",NA,TRUE
+"Giessen U",2015,1489.84,"10.1186/s12862-015-0296-2",FALSE,"Springer Nature","BMC Evolutionary Biology","1471-2148",NA,"1471-2148",NA,TRUE,"25886047","PMC4373078","ut:000351503800001",NA,TRUE
+"Giessen U",2015,1440.9,"10.1186/s12866-015-0384-x",FALSE,"Springer Nature","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,"25887321","PMC4342102","ut:000350258500001",NA,TRUE
+"Giessen U",2015,1440.9,"10.1186/s12891-015-0459-8",FALSE,"Springer Nature","BMC Musculoskeletal Disorders","1471-2474","1471-2474",NA,NA,TRUE,"25636336","PMC4328057","ut:000350385800001",NA,TRUE
 "Giessen U",2014,1273.37,"10.1186/s12896-014-0098-4",FALSE,"Springer Science + Business Media","BMC Biotechnology","1472-6750",NA,"1472-6750",NA,TRUE,"25404227","PMC4239385","ut:000345866300001",NA,TRUE
 "Giessen U",2014,1273.37,"10.1186/s12898-014-0031-7",FALSE,"Springer Science + Business Media","BMC Ecology","1472-6785","1472-6785",NA,NA,TRUE,"25496534","PMC4269849","ut:000347120500001",NA,TRUE
 "Giessen U",2014,1273.37,"10.1186/s12917-014-0196-5",FALSE,"Springer Science + Business Media","BMC Veterinary Research","1746-6148","1746-6148",NA,NA,TRUE,"25323005","PMC4158062","ut:000341384100002",NA,TRUE
 "Giessen U",2014,1273.37,"10.1186/s12917-014-0201-z",FALSE,"Springer Science + Business Media","BMC Veterinary Research","1746-6148","1746-6148",NA,NA,TRUE,"25319320","PMC4159529","ut:000341384200001",NA,TRUE
-"Giessen U",2015,1440.9,"10.1186/s12917-015-0368-y",FALSE,"Springer Science + Business Media","BMC Veterinary Research","1746-6148","1746-6148",NA,NA,TRUE,"25888880","PMC4355968","ut:000350626200001",NA,TRUE
+"Giessen U",2015,1440.9,"10.1186/s12917-015-0368-y",FALSE,"Springer Nature","BMC Veterinary Research","1746-6148","1746-6148",NA,NA,TRUE,"25888880","PMC4355968","ut:000350626200001",NA,TRUE
 "Giessen U",2014,1196.49,"10.1186/s12995-014-0039-0",FALSE,"Springer Science + Business Media","Journal of Occupational Medicine and Toxicology","1745-6673",NA,"1745-6673",NA,TRUE,"25419224","PMC4240834","ut:000345176900001",NA,TRUE
 "Giessen U",2014,1359.87,"10.1186/s13028-014-0044-4",FALSE,"Springer Science + Business Media","Acta Veterinaria Scandinavica","1751-0147","1751-0147",NA,NA,TRUE,"25299119","PMC4198911","ut:000340951800001",NA,TRUE
 "Giessen U",2014,1124.41,"10.1186/s13039-014-0094-3",FALSE,"Springer Science + Business Media","Molecular Cytogenetics","1755-8166","1755-8166",NA,NA,TRUE,"25520754","PMC4268894","ut:000346530400001",NA,TRUE
 "Giessen U",2014,1292.6,"10.1186/s13099-014-0037-x",FALSE,"Springer Science + Business Media","Gut Pathogens","1757-4749","1757-4749",NA,NA,TRUE,"25349632","PMC4209514","ut:000344494300001",NA,TRUE
-"Giessen U",2015,1975,"10.1186/s13148-015-0058-4",FALSE,"Springer Science + Business Media","Clinical Epigenetics","1868-7083","1868-7083",NA,NA,TRUE,"25806092","PMC4372182","ut:000351573300001",NA,TRUE
-"Giessen U",2015,1440.9,"10.1186/s13231-014-0014-y",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"25657829","PMC4318170",NA,NA,TRUE
-"Giessen U",2015,1141.85,"10.1186/s13567-015-0155-6",FALSE,"Springer Science + Business Media","Veterinary Research","1297-9716","1297-9716",NA,NA,TRUE,"25885264","PMC4349228","ut:000350376300002",NA,TRUE
+"Giessen U",2015,1975,"10.1186/s13148-015-0058-4",FALSE,"Springer Nature","Clinical Epigenetics","1868-7083","1868-7083",NA,NA,TRUE,"25806092","PMC4372182","ut:000351573300001",NA,TRUE
+"Giessen U",2015,1440.9,"10.1186/s13231-014-0014-y",FALSE,"Springer Nature","Experimental & Translational Stroke Medicine","2040-7378",NA,"2040-7378",NA,TRUE,"25657829","PMC4318170",NA,NA,TRUE
+"Giessen U",2015,1141.85,"10.1186/s13567-015-0155-6",FALSE,"Springer Nature","Veterinary Research","1297-9716","1297-9716",NA,NA,TRUE,"25885264","PMC4349228","ut:000350376300002",NA,TRUE
 "Giessen U",2014,994.67,"10.1186/s40635-014-0024-z",FALSE,"Springer Science + Business Media","Intensive Care Medicine Experimental","2197-425X","2197-425X",NA,NA,TRUE,NA,NA,NA,NA,FALSE
 "Giessen U",2014,1124.41,"10.1186/s40694-014-0009-4",FALSE,"Springer Science + Business Media","Fungal Biology and Biotechnology","2054-3085",NA,"2054-3085",NA,TRUE,NA,NA,NA,NA,FALSE
 "Giessen U",2013,2078.41,"10.1371/journal.pgen.1003576",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404",NA,TRUE,"23818867","PMC3688512","ut:000321222600050",NA,TRUE
@@ -3171,14 +3171,14 @@
 "Giessen U",2014,1289.02,"10.1371/journal.pone.0111734",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25423195","PMC4244090","ut:000345899700007",NA,TRUE
 "Giessen U",2014,1299.17,"10.1371/journal.pone.0115069",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25526083","PMC4272305","ut:000347186200011",NA,TRUE
 "Giessen U",2014,1360.77,"10.1371/journal.pone.0115847",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25545245","PMC4278831","ut:000347120200075",NA,TRUE
-"Giessen U",2015,1422.25,"10.1371/journal.pone.0119791",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25799434","PMC4370489","ut:000351987300080",NA,TRUE
-"Giessen U",2015,1426.46,"10.1371/journal.pone.0120562",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25781894","PMC4363376","ut:000351284600172",NA,TRUE
-"Giessen U",2015,1496.39,"10.1371/journal.pone.0121807",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25837711","PMC4383577","ut:000352139000064",NA,TRUE
-"Giessen U",2015,1488.98,"10.1371/journal.pone.0123960",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25822229","PMC4379024","ut:000352134700244",NA,TRUE
-"Giessen U",2015,1523.91,"10.1371/journal.pone.0124174",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25938575","PMC4418575","ut:000353943000020",NA,TRUE
-"Giessen U",2015,1514.21,"10.1371/journal.pone.0125068",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25955586","PMC4425483","ut:000356768100043",NA,TRUE
-"Giessen U",2015,1503.47,"10.1371/journal.pone.0125192",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25933137","PMC4416892","ut:000353887100089",NA,TRUE
-"Giessen U",2015,1505.92,"10.1371/journal.pone.0126011",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25954967","PMC4425692","ut:000356768100091",NA,TRUE
+"Giessen U",2015,1422.25,"10.1371/journal.pone.0119791",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25799434","PMC4370489","ut:000351987300080",NA,TRUE
+"Giessen U",2015,1426.46,"10.1371/journal.pone.0120562",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25781894","PMC4363376","ut:000351284600172",NA,TRUE
+"Giessen U",2015,1496.39,"10.1371/journal.pone.0121807",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25837711","PMC4383577","ut:000352139000064",NA,TRUE
+"Giessen U",2015,1488.98,"10.1371/journal.pone.0123960",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25822229","PMC4379024","ut:000352134700244",NA,TRUE
+"Giessen U",2015,1523.91,"10.1371/journal.pone.0124174",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25938575","PMC4418575","ut:000353943000020",NA,TRUE
+"Giessen U",2015,1514.21,"10.1371/journal.pone.0125068",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25955586","PMC4425483","ut:000356768100043",NA,TRUE
+"Giessen U",2015,1503.47,"10.1371/journal.pone.0125192",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25933137","PMC4416892","ut:000353887100089",NA,TRUE
+"Giessen U",2015,1505.92,"10.1371/journal.pone.0126011",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25954967","PMC4425692","ut:000356768100091",NA,TRUE
 "Giessen U",2012,2013.63,"10.1371/journal.ppat.1002598",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374",NA,TRUE,"22457622","PMC3310793","ut:000302225600046",NA,TRUE
 "Giessen U",2013,2077.95,"10.1371/journal.ppat.1003448",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374",NA,TRUE,"23785292","PMC3681755","ut:000321206600047",NA,TRUE
 "Giessen U",2014,1428.94,"10.1534/g3.113.010025",FALSE,"Genetics Society of America","G3: Genes|Genomes|Genetics","2160-1836",NA,"2160-1836",NA,TRUE,"24449687","PMC3962491","ut:000335751700014",NA,TRUE
@@ -3231,7 +3231,7 @@
 "Giessen U",2014,911.52,"10.3390/w6113270",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441",NA,TRUE,NA,NA,"ut:000345529500003",NA,TRUE
 "Giessen U",2013,357.5,"10.3391/ai.2013.8.1.06",FALSE,"Regional Euro-Asian Biological Invasions Centre Oy (REABIC)","Aquatic Invasions","18185487",NA,"18185487",NA,TRUE,NA,NA,"ut:000320995600006",NA,TRUE
 "Giessen U",2014,1517.25,"10.3402/fnr.v58.23632",FALSE,"Co-Action Publishing","Food & Nutrition Research","1654-661X;1654-6628","1654-6628","1654-661X",NA,TRUE,"25317118","PMC4168313","ut:000342086100001",NA,TRUE
-"Giessen U",2015,892.5,"10.4081/ejh.2015.2477",FALSE,"PAGEPress Publications","European Journal of Histochemistry","2038-8306;1121-760X","1121-760X","2038-8306",NA,TRUE,NA,NA,"ut:000355207000005",NA,TRUE
+"Giessen U",2015,892.5,"10.4081/ejh.2015.2477",FALSE,"PAGEPress Publications","European Journal of Histochemistry","2038-8306","1121-760X","2038-8306",NA,TRUE,"26150154","PMC4503967","ut:000355207000005",NA,TRUE
 "Giessen U",2014,1019.54,"10.4137/NMI.S14003",FALSE,"Libertas Academica, Ltd.","Nutrition and Metabolic Insights","1178-6388",NA,"1178-6388",NA,TRUE,"24855375","PMC4024054",NA,NA,TRUE
 "Giessen U",2014,897.26,"10.5194/bg-11-2069-2014",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000334609000025",NA,TRUE
 "Giessen U",2015,1345.89,"10.5194/bg-12-1257-2015",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000358044200006",NA,TRUE
