@@ -1031,7 +1031,7 @@
 "MPG",2014,1843.2,"10.3389/fpsyg.2014.01174",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25368592","PMC4202777","ut:000343718300001",NA,TRUE
 "MPG",2014,1843.2,"10.3389/fpsyg.2014.01242",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25404924","PMC4217337","ut:000344857900001",NA,TRUE
 "MPG",2014,1843.2,"10.3389/fpsyg.2014.01363",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25505442","PMC4244805","ut:000345577400001",NA,TRUE
-"Regensburg U",2012,1110.97,"10.3748/wjg.v18.i46.6836",FALSE,"Baishideng Publishing Group Co., Limited (formerly WJG Press)","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"23239922","PMC3520173","ut:000312966000018",NA,TRUE
+"Regensburg U",2012,1110.97,"10.3748/wjg.v18.i46.6836",FALSE,"Baishideng Publishing Group Inc.","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"23239922","PMC3520173","ut:000312966000018",NA,FALSE
 "Regensburg U",2012,745.25,NA,FALSE,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics","1948-1756",NA,NA,NA,FALSE,NA,NA,"PMC3316444","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3316444/",FALSE
 "Regensburg U",2012,761.05,NA,FALSE,"e-Century Publ. Corp.","International Journal of Molecular Epidemiology and Genetics","1948-1756",NA,NA,NA,FALSE,NA,NA,"PMC3459214","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3459214/",FALSE
 "Regensburg U",2012,575,"10.3389/fnhum.2012.00342",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"23293597","PMC3533233","ut:000312929700001",NA,TRUE
@@ -3335,7 +3335,7 @@
 "Kassel U",2014,1059,"10.1088/1367-2630/16/7/075007",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000339239600001",NA,TRUE
 "Kassel U",2014,1059,"10.1088/1367-2630/16/1/013002",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000330534500002",NA,TRUE
 "Kassel U",2014,1156,"10.1088/1367-2630/16/10/102002",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000344092300001",NA,TRUE
-"Kassel U",2014,250,"10.12854/erde-145-18",FALSE,"Gesellschaft fÃ¼r Erdkunde zu Berlin","DIE ERDE: Journal of the Geographical Society of Berlin","0013-9998","0013-9998",NA,NA,FALSE,NA,NA,NA,NA,TRUE
+"Kassel U",2014,250,"10.12854/erde-145-18",FALSE,"Gesellschaft für Erdkunde zu Berlin","DIE ERDE: Journal of the Geographical Society of Berlin","0013-9998","0013-9998",NA,NA,FALSE,NA,NA,NA,NA,TRUE
 "Kassel U",2014,607,"10.15698/mic2014.12.179",FALSE,"Shared Science Publishers OG","Microbial Cell","23112638",NA,"23112638",NA,TRUE,NA,NA,NA,NA,FALSE
 "Kassel U",2014,1025,"10.1371/journal.pone.0108757",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25269074","PMC4182629","ut:000343671700157",NA,TRUE
 "Kassel U",2013,1354,"10.1103/PhysRevX.3.011005",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000314233500001",NA,TRUE
@@ -3508,15 +3508,15 @@
 "Goettingen U",2014,1171.35,"10.3390/rs6043041",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292",NA,TRUE,NA,NA,"ut:000336746900022",NA,FALSE
 "Goettingen U",2014,1059.52,"10.3390/rs6086988",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292",NA,TRUE,NA,NA,"ut:000341518700010",NA,FALSE
 "Goettingen U",2014,1066.47,"10.3390/rs6109475",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292",NA,TRUE,NA,NA,"ut:000344458000016",NA,FALSE
-"Goettingen U",2014,1223.26,"10.3748/wjg.v20.i11.2979",FALSE,"Baishideng Publishing Group Co., Limited (formerly WJG Press)","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"24659889","PMC3960407","ut:000333667200026",NA,FALSE
-"Goettingen U",2014,2353.01,"10.3748/wjg.v20.i7.1807",FALSE,"Baishideng Publishing Group Co., Limited (formerly WJG Press)","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"24587658","PMC3930979","ut:000331966100016",NA,FALSE
-"Goettingen U",2015,1362.32,"10.3748/wjg.v21.i11.3325",FALSE,"WJG Press, Baishideng Publ. Group","World Journal of Gastroenterology ","2219-2840",NA,NA,NA,FALSE,"25805940","PMC4363763","ut:000351165100021",NA,FALSE
+"Goettingen U",2014,1223.26,"10.3748/wjg.v20.i11.2979",FALSE,"Baishideng Publishing Group Inc.","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"24659889","PMC3960407","ut:000333667200026",NA,FALSE
+"Goettingen U",2014,2353.01,"10.3748/wjg.v20.i7.1807",FALSE,"Baishideng Publishing Group Inc.","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"24587658","PMC3930979","ut:000331966100016",NA,FALSE
+"Goettingen U",2015,1362.32,"10.3748/wjg.v21.i11.3325",FALSE,"Baishideng Publishing Group Inc.","World Journal of Gastroenterology","2219-2840",NA,NA,NA,FALSE,"25805940","PMC4363763","ut:000351165100021",NA,FALSE
 "Goettingen U",2014,180,"10.3897/phytokeys.39.7691",FALSE,"Pensoft Publishers","PhytoKeys","1314-2003;1314-2011","1314-2011","1314-2003",NA,TRUE,"25197227","PMC4152893","ut:000341805100007",NA,FALSE
 "Goettingen U",2015,763.77,"10.4161/cib.27634",FALSE,"Informa UK Limited","Communicative & Integrative Biology","1942-0889",NA,"1942-0889",NA,TRUE,"24719676","PMC3977921",NA,NA,FALSE
 "Goettingen U",2014,557.41,"10.4172/2168-9776.1000123",FALSE,"OMICS Publishing Group","Forest Research: Open Access","21689776",NA,"21689776",NA,TRUE,NA,NA,NA,NA,FALSE
 "Goettingen U",2014,638.23,"10.4172/2332-2632.1000122",FALSE,"OMICS Publishing Group","Oceanography: Open Access","23322632;23322632","23322632","23322632",NA,TRUE,NA,NA,NA,NA,FALSE
 "Goettingen U",2014,846.91,"10.4172/2375-4494.1000158",FALSE,"OMICS Publishing Group","Journal of Child and Adolescent Behaviour","23754494",NA,"23754494",NA,TRUE,NA,NA,NA,NA,FALSE
-"Goettingen U",2014,676.71,"10.4254/wjh.v6.i10.759",FALSE,"Baishideng Publishing Group Co., Limited (formerly WJG Press)","World Journal of Hepatology","1948-5182","1948-5182",NA,NA,TRUE,"25349647","PMC4209421",NA,NA,FALSE
+"Goettingen U",2014,676.71,"10.4254/wjh.v6.i10.759",FALSE,"Baishideng Publishing Group Inc.","World Journal of Hepatology","1948-5182","1948-5182",NA,NA,TRUE,"25349647","PMC4209421",NA,NA,FALSE
 "Goettingen U",2014,1207.85,"10.5194/bg-11-7009-2014",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000346357100034",NA,FALSE
 "Goettingen U",2014,913.92,"10.5194/bgd-11-9103-2014",FALSE,"Copernicus GmbH","Biogeosciences Discussions","1810-6285",NA,"1810-6285","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "Goettingen U",2014,1138.83,"10.5194/cp-10-1857-2014",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000344734800015",NA,FALSE
@@ -5301,7 +5301,7 @@
 "Wuerzburg U",2014,1170.32,"10.1371/journal.pone.0098279",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"24870357","PMC4037227",NA,NA,TRUE
 "Wuerzburg U",2014,1175.37,"10.1371/journal.pone.0094696",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"24732949","PMC3986408",NA,NA,TRUE
 "Wuerzburg U",2014,105.07,"10.5121/ijaia.2014.5401",FALSE,"Academy and Industry Research Collaboration Center (AIRCC)","International Journal of Artificial Intelligence & Applications","09762191","09762191","0975900X",NA,TRUE,NA,NA,NA,NA,FALSE
-"Wuerzburg U",2014,633.79,"10.4329/wjr.v6.i7.480",FALSE,"Baishideng Publishing Group Co., Limited (formerly WJG Press)","World Journal of Radiology","1949-8470","1949-8470",NA,NA,TRUE,"25071888","PMC4109099",NA,NA,TRUE
+"Wuerzburg U",2014,633.79,"10.4329/wjr.v6.i7.480",FALSE,"Baishideng Publishing Group Inc.","World Journal of Radiology","1949-8470","1949-8470",NA,NA,TRUE,"25071888","PMC4109099",NA,NA,FALSE
 "Wuerzburg U",2014,1244.74,"10.1038/srep05303",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"24993103","PMC4081891",NA,NA,TRUE
 "Wuerzburg U",2014,1975,"10.1371/journal.ppat.1004160",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374",NA,TRUE,"24945304","PMC4055770",NA,NA,TRUE
 "Wuerzburg U",2014,1267.35,"10.1093/nar/gku555",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"25053837","PMC4132710",NA,NA,TRUE
@@ -5921,7 +5921,7 @@
 "Wuerzburg U",2015,1267.35,"10.1093/nar/gkv731",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"26187993","PMC4652759",NA,NA,TRUE
 "Wuerzburg U",2015,1566.22,"10.3389/fphys.2015.00208",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X",NA,TRUE,"26283968","PMC4516877",NA,NA,TRUE
 "Wuerzburg U",2015,1482.69,"10.1371/journal.pone.0134274",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26218529","PMC4517860",NA,NA,TRUE
-"Wuerzburg U",2015,243.85,"10.4081/gh.2015.398",FALSE,"Global Network for Geospatial Health","Geospatial Health","1970-7096","1827-1987","1970-7096","http://creativecommons.org/licenses/by-nc/4.0",TRUE,"26618326",NA,NA,"http://geospatialhealth.net/index.php/gh/article/view/398",TRUE
+"Wuerzburg U",2015,243.85,"10.4081/gh.2015.398",FALSE,"PAGEPress Publications","Geospatial health","1970-7096","1827-1987","1970-7096","http://creativecommons.org/licenses/by-nc/4.0",TRUE,"26618326",NA,NA,"http://geospatialhealth.net/index.php/gh/article/view/398",TRUE
 "Wuerzburg U",2015,1661.24,"10.1186/s12893-015-0076-3",FALSE,"Springer Nature","BMC Surgery","1471-2482",NA,"1471-2482",NA,TRUE,"26226942","PMC4520015",NA,NA,TRUE
 "Wuerzburg U",2015,994.84,"10.1186/s40478-014-0138-2",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960","http://creativecommons.org/licenses/by/4.0",TRUE,"25597707","PMC4177072",NA,NA,TRUE
 "Wuerzburg U",2015,1190,"10.1186/s40635-014-0034-x",FALSE,"Springer Nature","Intensive Care Medicine Experimental","2197-425X",NA,"2197-425X","http://www.springer.com/tdm",TRUE,"26266931","PMC4513002",NA,NA,TRUE
@@ -6275,7 +6275,7 @@
 "Leipzig U",2015,1541.74,"10.3390/v7122928",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915",NA,TRUE,"26703711","PMC4690853",NA,NA,TRUE
 "Leipzig U",2015,1296.42,"10.3748/wjg.v21.i16.4894",FALSE,"Baishideng Publishing Group Inc.","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"25945002","PMC4408461",NA,NA,FALSE
 "Leipzig U",2015,1542.24,"10.1186/s12957-014-0420-6",FALSE,"Springer Nature","World Journal of Surgical Oncology","1477-7819","1477-7819",NA,NA,TRUE,"25890279","PMC4340492",NA,NA,TRUE
-"Leipzig U",2015,2055.15,NA,FALSE,"Baishideng Publishing Group Co. Limited","World journal of gastroenterology","2219-2840",NA,NA,NA,FALSE,NA,NA,NA,"http://www.wjgnet.com/1007-9327/full/v22/i12/3412.htm",FALSE
+"Leipzig U",2015,2055.15,NA,FALSE,"Baishideng Publishing Group Inc.","World Journal of Gastroenterology","2219-2840",NA,NA,NA,FALSE,NA,NA,NA,"http://www.wjgnet.com/1007-9327/full/v22/i12/3412.htm",FALSE
 "Leipzig U",2015,1974.21,"10.2147/CIA.S88354",FALSE,"Dove Medical Press Ltd.","Clinical Interventions in Aging","1178-1998",NA,"1178-1998",NA,TRUE,"26893549","PMC4745849",NA,NA,TRUE
 "Leipzig U",2015,1827.84,"10.1186/s13227-015-0008-4",FALSE,"Springer Nature","EvoDevo","2041-9139",NA,"2041-9139",NA,TRUE,"26052416","PMC4458024",NA,NA,TRUE
 "Leipzig U",2015,1642.2,"10.1186/s13049-015-0186-z",FALSE,"Springer Nature","Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine","1757-7241",NA,"1757-7241",NA,TRUE,"26892804","PMC4759783",NA,NA,TRUE
@@ -6389,7 +6389,7 @@
 "Regensburg U",2010,1088,"10.1186/1471-2164-11-617",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,"21050470","PMC3091758",NA,"http://epub.uni-regensburg.de/17985/",TRUE
 "Regensburg U",2010,1270,"10.1186/1748-717X-5-110",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"21092163","PMC2998512",NA,"http://epub.uni-regensburg.de/20984/",TRUE
 "Regensburg U",2010,1468.75,"10.1186/1748-717X-5-95",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"20973977","PMC2987940",NA,"http://epub.uni-regensburg.de/20985/",TRUE
-"Regensburg U",2011,978,"10.3748/wjg.v17.i13.1739",FALSE,"Baishideng Publishing Group Co., Limited (formerly WJG Press)","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"21483635","PMC3072639",NA,"http://epub.uni-regensburg.de/22419/",TRUE
+"Regensburg U",2011,978,"10.3748/wjg.v17.i13.1739",FALSE,"Baishideng Publishing Group Inc.","World Journal of Gastroenterology","1007-9327","1007-9327",NA,NA,TRUE,"21483635","PMC3072639",NA,"http://epub.uni-regensburg.de/22419/",FALSE
 "Regensburg U",2011,900,"10.3389/fnsys.2011.00088",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137",NA,TRUE,"22069382","PMC3208342",NA,"http://epub.uni-regensburg.de/23732/",TRUE
 "Regensburg U",2011,743.07,"10.1088/1367-2630/13/6/063033",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"http://epub.uni-regensburg.de/21616/",TRUE
 "Regensburg U",2011,374.77,"10.1088/1367-2630/13/6/063020",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,"http://epub.uni-regensburg.de/20942/",TRUE
