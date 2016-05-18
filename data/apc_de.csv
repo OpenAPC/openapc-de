@@ -3772,23 +3772,23 @@
 "Hannover U",2014,601.47,"10.7750/BioDiscovery.2014.14.1",FALSE,"Dundee Science Press","BioDiscovery","20502966",NA,"20502966",NA,TRUE,NA,NA,NA,NA,TRUE
 "Hannover U",2015,1142.4,"10.3389/fpls.2015.00009",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,"25699060","PMC4313603","ut:000348721700001",NA,TRUE
 "Hannover U",2015,1936.02,"10.1364/OE.23.003614",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"25836213",NA,"ut:000349688800170",NA,TRUE
-"Hannover U",2015,1421.56,"10.1371/journal.pone.0119761",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"25774531","PMC4361764","ut:000351183500120",NA,TRUE
+"Hannover U",2015,1421.56,"10.1371/journal.pone.0119761",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25774531","PMC4361764","ut:000351183500120",NA,TRUE
 "Hannover U",2015,1621.97,"10.5194/bgd-12-2697-2015",FALSE,"Copernicus GmbH","Biogeosciences Discussions","1810-6285",NA,"1810-6285","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "Hannover U",2015,894.92,"10.3390/d7010036",FALSE,"MDPI AG","Diversity","1424-2818",NA,"1424-2818",NA,TRUE,NA,NA,NA,NA,TRUE
 "Hannover U",2015,2000,"10.5194/gmdd-8-1539-2015",FALSE,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
-"Hannover U",2015,2158.97,"10.1155/2015/574209",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133;2314-6141","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"26247024","PMC4506834","ut:000358265200001",NA,TRUE
+"Hannover U",2015,2158.97,"10.1155/2015/574209",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"26247024","PMC4506834","ut:000358265200001",NA,TRUE
 "Hannover U",2015,1047.2,NA,FALSE,"International Frequency Sensor Association","Sensors & Transducers","2306-8515",NA,NA,NA,FALSE,NA,NA,NA,"http://www.sensorsportal.com/HTML/DIGEST/P_RP_0196.htm",FALSE
 "Hannover U",2015,1047.2,NA,FALSE,"International Frequency Sensor Association","Sensors & Transducers","2306-8515",NA,NA,NA,FALSE,NA,NA,NA,"http://www.sensorsportal.com/HTML/DIGEST/P_RP_0203.htm",FALSE
-"Hannover U",2015,1831.78,"10.1002/2014MS000376",FALSE,"Wiley-Blackwell","Journal of Advances in Modeling Earth Systems","19422466",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000360825000008",NA,TRUE
+"Hannover U",2015,1831.78,"10.1002/2014MS000376",FALSE,"Wiley-Blackwell","Journal of Advances in Modeling Earth Systems","19422466",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000360825000008",NA,FALSE
 "Hannover U",2015,1806,"10.1127/metz/2015/0680",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,NA,TRUE,NA,NA,NA,NA,TRUE
 "Hannover U",2015,2071.42,"10.1364/OE.23.009640",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"25969000",NA,"ut:000353299300008",NA,TRUE
 "Hannover U",2015,1392.3,"10.1088/1367-2630/17/4/043062",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000353942700002",NA,TRUE
 "Hannover U",2015,1856.4,"10.1088/1367-2630/17/5/055005",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000355277600001",NA,TRUE
-"Hannover U",2015,1386.35,"10.1038/srep09955",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25898259","PMC4404713","ut:000353280600001",NA,TRUE
+"Hannover U",2015,1386.35,"10.1038/srep09955",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25898259","PMC4404713","ut:000353280600001",NA,TRUE
 "Hannover U",2015,1257.48,"10.3390/su7066872",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050",NA,TRUE,NA,NA,"ut:000357593000026",NA,TRUE
 "Hannover U",2015,1170.86,"10.1364/OE.23.017179",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"26191726",NA,"ut:000358543300066",NA,TRUE
-"Hannover U",2015,1417.63,"10.1371/journal.pone.0130571",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26110826","PMC4481408","ut:000356933800064",NA,TRUE
-"Hannover U",2015,1636.83,"10.1155/2015/691069",FALSE,"Hindawi Publishing Corporation","Journal of Nanomaterials","1687-4110;1687-4129","1687-4110","1687-4129","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000360483900001",NA,TRUE
+"Hannover U",2015,1417.63,"10.1371/journal.pone.0130571",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26110826","PMC4481408","ut:000356933800064",NA,TRUE
+"Hannover U",2015,1636.83,"10.1155/2015/691069",FALSE,"Hindawi Publishing Corporation","Journal of Nanomaterials","1687-4110","1687-4110","1687-4129","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000360483900001",NA,TRUE
 "Hannover U",2015,1392.3,"10.1088/1367-2630/17/8/083005",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000360943600001",NA,TRUE
 "Hannover U",2015,1392.3,"10.1088/1367-2630/17/9/093046",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
 "Hannover U",2015,148.75,"10.5194/ars-13-175-2015",FALSE,"Copernicus GmbH","Advances in Radio Science","1684-9973",NA,"1684-9973","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
