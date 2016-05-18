@@ -45,7 +45,7 @@ def main():
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
     parser.add_argument("column", type=int, help=ARG_HELP_STRINGS["column"])
     parser.add_argument("other_csv_file", nargs="?", help=ARG_HELP_STRINGS["other_csv_file"])
-    parser.add_argument("other_column", nargs="?", help=ARG_HELP_STRINGS["other_column"])
+    parser.add_argument("other_column", type=int, nargs="?", help=ARG_HELP_STRINGS["other_column"])
     parser.add_argument("-e2", "--other_encoding", help=ARG_HELP_STRINGS["other_encoding"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
