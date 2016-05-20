@@ -1,49 +1,27 @@
 fwf_2013.csv:
-7 lines could not be enriched and were excluded from the resulting file: 
-
-Line 170: Crossref: Error while trying to resolve DOI 10.1007/s12685-013-0076-2: HTTPError: 404 - Not Found
-
-Line 316: Crossref: Error while trying to resolve DOI 10.1016/j.orgel.2012.03.: HTTPError: 404 - Not Found
+3 lines could not be enriched and were excluded from the resulting file: 
 
 Line 383: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
 
 Line 564: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
 
-Line 607: Crossref: Error while trying to resolve DOI 10.3390/ijms.140x000x: HTTPError: 404 - Not Found
-
-Line 834: Crossref: Error while trying to resolve DOI 10.021/ja307037z: HTTPError: 404 - Not Found
-
 Line 1012: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
 
 fwf_2014.csv:
-12 lines could not be enriched and were excluded from the resulting file: 
-
-Line 90 (DOI 10.1016/j.gloplacha.2013.09.018): Is a duplicate of line 28
-
-Line 93 (DOI 10.1088/0957-4484/25/13/135705): Is a duplicate of line 72
-
-Line 275 (DOI 10.1016/j.crohns.2012.12.014): Is a duplicate of line 430 in file fwf_2013.csv
-
-Line 303 (DOI 0.1093/nar/gkt861): Is a duplicate of line 286 in file fwf_2013.csv
+5 lines could not be enriched and were excluded from the resulting file: 
 
 Line 322 (DOI 10.3920/978-90-8686-238-2_28): Not a journal (book chapter)
 
 Line 345 (DOI 10.1145/2676726.2676963): Not a journal (conference proceedings)
 
-Line 590 (DOI 0.1002/ana.23974): Is a duplicate of line 541 in file fwf_2013.csv
-
 Line 694 (DOI 10.1145/2507157.2507180): Not a journal (conference proceedings)
-
-Line 831 (DOI 10.1002/elps.201300151): Is a duplicate of line 859 in file fwf_2013.csv
-
-Line 832: Crossref: Error while trying to resolve DOI 10.3389/fmicb.2014.0054: HTTPError: 404 - Not Found
 
 Line 911 (DOI 10.1145/2556288.2557032): Not a journal (conference proceedings)
 
 Line 937: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI (Not a journal (book chapter))
 
 fwf_2015.csv:
-18 lines could not be enriched and were excluded from the resulting file: 
+9 lines could not be enriched and were excluded from the resulting file: 
 
 Line 146: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI (Not a journal (book chapter))
 
@@ -61,24 +39,6 @@ Line 158 (DOI 10.2174/97816810806041150101): Not a journal (book chapter)
 
 Line 159 (DOI 10.2174/97816810807411150101): Not a journal (book chapter)
 
-Line 415: Crossref: Error while trying to resolve DOI 10.1016/j.neurobiolaging.1014.12.027: HTTPError: 404 - Not Found
-
-Line 521: Crossref: Error while trying to resolve DOI 10.3389/fpls.2014.0052: HTTPError: 404 - Not Found
-
-Line 569 (DOI 10.1088/1748-9326/9/11/114009): Is a duplicate of line 313 in file fwf_2014.csv
-
-Line 573 (DOI 10.1088/1752-7155/8/4/046005): Is a duplicate of line 654 in file fwf_2014.csv
-
-Line 584 (DOI 10.1088/0953-8984/27/3/036001): Is a duplicate of line 445 in file fwf_2014.csv
-
-Line 608 (DOI 10.1088/1367-2630/16/7/073007): Is a duplicate of line 765 in file fwf_2014.csv
-
-Line 849 (DOI 10.1039/C3CP51906F): Is a duplicate of line 193 in file fwf_2014.csv
-
-Line 851: Crossref: Error while trying to resolve DOI 10.1039/C4PY017: HTTPError: 404 - Not Found
-
 Line 1091: Crossref: Error while trying to resolve DOI 10.1111/ecoj.12339: HTTPError: 404 - Not Found
-
-Line 1127 (DOI 10.1111/jeb.12608): Is a duplicate of line 1030
 
 
