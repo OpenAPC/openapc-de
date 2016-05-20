@@ -3724,8 +3724,8 @@
 "TU Muenchen",2014,205.92,"10.4172/jpb.1000328",FALSE,"OMICS Publishing Group","Journal of Proteomics & Bioinformatics",NA,NA,"0974276X",NA,TRUE,NA,NA,NA,NA,FALSE
 "TU Muenchen",2014,708.12,"10.4236/as.2014.510097",FALSE,"Scientific Research Publishing, Inc,","Agricultural Sciences",NA,"2156-8553","2156-8561","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "TU Muenchen",2014,1414.91,"10.5194/acpd-14-8143-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions",NA,NA,"1680-7375","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
-"TU Muenchen",2013,151.98,NA,FALSE,"European Scientific Institute","European Scientific Journal","1857-7431",NA,NA,NA,FALSE,NA,NA,NA,NA,TRUE
-"TU Muenchen",2014,240.38,NA,FALSE,"Research online Publishing","Open Journal of Web Technologies","2199-188X",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+"TU Muenchen",2013,151.98,NA,FALSE,"European Scientific Institute","European Scientific Journal","1857-7431",NA,NA,NA,FALSE,NA,NA,NA,"http://eujournal.org/index.php/esj/article/view/1942",TRUE
+"TU Muenchen",2014,240.38,NA,FALSE,"Research online Publishing","Open Journal of Web Technologies","2199-188X",NA,NA,NA,FALSE,NA,NA,NA,"https://www.ronpub.com/publications/OJWT-v1i2n01_Hoernig.pdf",FALSE
 "Hannover U",2013,1178.1,"10.1088/1367-2630/15/2/023020",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000314868400001",NA,TRUE
 "Hannover U",2013,1241.02,"10.1371/journal.pone.0063501",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"23658836","PMC3643915","ut:000321202100069",NA,TRUE
 "Hannover U",2013,1361.2,"10.1364/OE.21.000949",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"23388988",NA,"ut:000315988100119",NA,TRUE
