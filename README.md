@@ -64,13 +64,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  16 840 966 € for  10 756 articles were paid by the participating unviversities. Average  fee is 1 565.7 € and the median 1 386 €.
+In total,  16 860 703 € for  10 767 articles were paid by the participating unviversities. Average  fee is 1 566 € and the median 1 386 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 8 120 articles in open access journals which charge publication fees. Total expenditure amounts to  10 573 960 €. Average  fee is 1 302.2 € and the median 1 234 €.
+At the moment, the dataset releases information on 8 124 articles in open access journals which charge publication fees. Total expenditure amounts to  10 579 734 €. Average  fee is 1 302.3 € and the median 1 235 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -84,7 +84,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |        9|              8238|           915|    900|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
 |FU Berlin                                   |      106|            142671|          1346|   1292|
-|FWF - Austrian Science Fund                 |      727|           1010667|          1390|   1270|
+|FWF - Austrian Science Fund                 |      731|           1016441|          1390|   1271|
 |FZJ - ZB                                    |      158|            196869|          1246|   1177|
 |GFZ-Potsdam                                 |      106|            126520|          1194|   1065|
 |Giessen U                                   |      243|            326082|          1342|   1247|
@@ -114,14 +114,14 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 2 636 hybrid open access articles. Total expenditure amounts to  6 267 006 €. Average  fee is 2 377.5 € and the median 2 466 €.
+The dataset covers 2 643 hybrid open access articles. Total expenditure amounts to  6 280 968 €. Average  fee is 2 376.5 € and the median 2 464 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|FWF - Austrian Science Fund                 |     2575|           6156891|          2391|   2516|
+|FWF - Austrian Science Fund                 |     2582|           6170854|          2390|   2515|
 |INM - Leibniz-Institut für Neue Materialien |        2|              4239|          2119|   2119|
 |MDC                                         |       18|             42227|          2346|   1996|
 |MPG                                         |       40|             63548|          1589|   1669|
