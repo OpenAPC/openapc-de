@@ -8,6 +8,7 @@ from copy import copy
 import csv
 import datetime
 import locale
+import os
 import sys
 
 import openapc_toolkit as oat
@@ -93,14 +94,18 @@ ARG_HELP_STRINGS = {
               "CSV file was created in (Example: Using en_US as your system " +
               "locale might become a problem if the file contains numeric " +
               "values with ',' as decimal mark character)",
-    "headers": "Ignore any CSV headers (if present) and try to determine " +
-               "relevant columns heuristically.",
+    "ignore_header": "Ignore any CSV headers (if present) and try to " +
+                     "determine relevant columns heuristically.",
+    "force_header": "Interpret the file's first line as a header even if the " +
+                    "automatic analysis did not detect one.",
     "force": "Force the script to continue even if not all mandatory columns " +
              "have been identified",
     "bypass": "Force the script to bypass TLS certificate verification when " +
               "querying metadata APIs. Not recommended, but might be " +
               "necessary if run under windows (where python does not use the " +
               "cert store of the OS)",
+    "unknown_columns": "Attach any unidentified columns to the generated " +
+                       "csv file",
     "institution": "Manually identify the 'institution' column if the script " +
                    "fails to detect it automatically. The value is the " +
                    "numerical column index in the CSV file, with the " +
@@ -138,7 +143,13 @@ ARG_HELP_STRINGS = {
            "it automatically. The value is the numerical column index in the " +
            "CSV file, with the leftmost column being 0. This is an optional " +
            "column, identifying it is required if there are articles without " +
-           "a DOI in the file."
+           "a DOI in the file.",
+    "offline_doaj": "Use an offline copy of the DOAJ database. This might " +
+                    "be useful when processing large files as the DOAJ API " +
+                    "is not too responsive at times and might pose a " +
+                    "bottleneck. This option expects the CSV you can usually " +
+                    "download at https://doaj.org/csv as argument. " +
+                    "Obviously, this copy should be as up-to-date as possible."
 }
 
 ERROR_MSGS = {
@@ -159,16 +170,22 @@ INFO_MSGS = {
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
-    parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
-    parser.add_argument("-v", "--verbose", action="store_true",
-                        help=ARG_HELP_STRINGS["verbose"])
-    parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
-    parser.add_argument("-i", "--ignore-header", action="store_true",
-                        help=ARG_HELP_STRINGS["headers"])
-    parser.add_argument("-f", "--force", action="store_true",
-                        help=ARG_HELP_STRINGS["force"])
     parser.add_argument("-b", "--bypass-cert-verification", action="store_true",
                         help=ARG_HELP_STRINGS["bypass"])
+    parser.add_argument("-d", "--offline_doaj",
+                        help=ARG_HELP_STRINGS["offline_doaj"])
+    parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
+    parser.add_argument("-f", "--force", action="store_true",
+                        help=ARG_HELP_STRINGS["force"])
+    parser.add_argument("-i", "--ignore-header", action="store_true",
+                        help=ARG_HELP_STRINGS["ignore_header"])
+    parser.add_argument("-j", "--force-header", action="store_true",
+                        help=ARG_HELP_STRINGS["force_header"])
+    parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
+    parser.add_argument("-u", "--add-unknown-columns", action="store_true", 
+                        help=ARG_HELP_STRINGS["unknown_columns"])
+    parser.add_argument("-v", "--verbose", action="store_true",
+                        help=ARG_HELP_STRINGS["verbose"])
     parser.add_argument("-institution", "--institution_column", type=int,
                         help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("-period", "--period_column", type=int,
@@ -228,13 +245,22 @@ def main():
     if enc is None:
         enc = csv_analysis.enc
     dialect = csv_analysis.dialect
-    has_header = csv_analysis.has_header
+    has_header = csv_analysis.has_header or args.force_header
 
     if enc is None:
         print ("Error: No encoding given for CSV file and automated " +
                "detection failed. Please set the encoding manually via the " +
                "--enc argument")
         sys.exit()
+        
+        
+    doaj_offline_analysis = None
+    if args.offline_doaj:
+        if os.path.isfile(args.offline_doaj):
+            doaj_offline_analysis = oat.DOAJOfflineAnalysis(args.offline_doaj)
+        else:
+            oat.print_r("Error: " + args.offline_doaj + " does not seem "
+                        "to be a file!")
 
     csv_file = open(args.csv_file, "r")
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
@@ -434,16 +460,21 @@ def main():
             else:
                 oat.print_b(msg)
         else:
-            msg = ("column number {} ({}) is an unknown column, it will be " +
-                   "appended to the generated CSV file")
-            oat.print_y(msg.format(index, column_name))
-            if not column_name:
-                # Use a generic name
-                column_name = "unknown"
-            while column_name in column_map.keys():
-                # TODO: Replace by a numerical, increasing suffix
-                column_name += "_"
-            column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
+            if args.add_unknown_columns:
+                msg = ("column number {} ({}) is an unknown column, it will be " +
+                       "appended to the generated CSV file")
+                oat.print_y(msg.format(index, column_name))
+                if not column_name:
+                    # Use a generic name
+                    column_name = "unknown"
+                while column_name in column_map.keys():
+                    # TODO: Replace by a numerical, increasing suffix
+                    column_name += "_"
+                column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
+            else:
+                msg = ("column number {} ({}) is an unknown column, it will be " +
+                       "ignored")
+                oat.print_y(msg.format(index, column_name))
 
     print ""
     for column in column_map.values():
@@ -588,15 +619,30 @@ def main():
             error_messages.append("Line {}: {}".format(row_num, error_msg))
 
         # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
-        if current_row["doaj"] != "TRUE":
-            issns = []
-            if current_row["issn_electronic"] != "NA":
-                issns.append(current_row["issn_electronic"])
-            if current_row["issn"] != "NA":
-                issns.append(current_row["issn"])
-            if current_row["issn_print"] != "NA":
-                issns.append(current_row["issn_print"])
-            for issn in issns:
+        issns = []
+        if current_row["issn_electronic"] != "NA":
+            issns.append(current_row["issn_electronic"])
+        if current_row["issn"] != "NA":
+            issns.append(current_row["issn"])
+        if current_row["issn_print"] != "NA":
+            issns.append(current_row["issn_print"])
+        for issn in issns:
+            # look up in an offline copy of the DOAJ if requested...
+            if doaj_offline_analysis:
+                lookup_result = doaj_offline_analysis.lookup(issn)
+                if lookup_result:
+                    msg = ("DOAJ: Journal ISSN ({}) found in DOAJ " +
+                           "offline copy ('{}').")
+                    print msg.format(issn, lookup_result)
+                    current_row["doaj"] = "TRUE"
+                    break
+                else:
+                    msg = ("DOAJ: Journal ISSN ({}) not found in DOAJ " +
+                           "offline copy.")
+                    current_row["doaj"] = "FALSE"
+                    print msg.format(issn)
+            # ...or query the online API
+            else:
                 doaj_res = oat.lookup_journal_in_doaj(issn, args.bypass_cert_verification)
                 if doaj_res["data_received"]:
                     if doaj_res["data"]["in_doaj"]:

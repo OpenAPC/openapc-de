@@ -12,6 +12,7 @@ import xml.etree.ElementTree as ET
 try:
     import chardet
 except ImportError:
+    chardet = None
     print ("WARNING: 3rd party module 'chardet' not found - character " +
            "encoding guessing will not work")
            
@@ -122,6 +123,32 @@ class OpenAPCUnicodeWriter(object):
             self._write_row(self._prepare_row(rows.pop(0), False))
         for row in rows:
             self._write_row(self._prepare_row(row, True))
+            
+class DOAJOfflineAnalysis(object):
+    
+    def __init__(self, doaj_csv_file):
+        self.doaj_issn_map = {}
+        self.doaj_eissn_map = {}
+        
+        handle = open(doaj_csv_file, "r")
+        reader = UnicodeDictReader(handle)
+        for line in reader:
+            journal_title = line["Journal title"]
+            issn = line["Journal ISSN (print version)"]
+            eissn = line["Journal EISSN (online version)"]
+            if issn:
+                self.doaj_issn_map[issn] = journal_title
+            if eissn:
+                self.doaj_eissn_map[eissn] = journal_title
+                
+    def lookup(self, any_issn):
+        if any_issn in self.doaj_issn_map:
+            return self.doaj_issn_map[any_issn]
+        elif any_issn in self.doaj_eissn_map:
+            return self.doaj_eissn_map[any_issn]
+        else:
+            return None
+        
             
 class CSVAnalysisResult(object):
     
@@ -287,6 +314,12 @@ def get_metadata_from_crossref(doi_string):
         ret_value['success'] = False
         code = str(httpe.getcode())
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
+    except urllib2.URLError as urle:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "URLError: {}".format(urle.reason)
+    except ET.ParseError as pe:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(pe))
     return ret_value
 
 def get_metadata_from_pubmed(doi):
@@ -318,6 +351,9 @@ def get_metadata_from_pubmed(doi):
         ret_value['success'] = False
         code = str(httpe.getcode())
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
+    except urllib2.URLError as urle:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     return ret_value
     
 def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
@@ -430,7 +466,8 @@ def get_unified_publisher_name(publisher):
         Either a unified name or the original name as a string
     """
     publisher_mappings = {
-        "The Optical Society": "Optical Society of America (OSA)"
+        "The Optical Society": "Optical Society of America (OSA)",
+        "Impact Journals": "Impact Journals LLC"
     }
     return publisher_mappings.get(publisher, publisher)
     
@@ -447,7 +484,22 @@ def get_unified_journal_title(journal_full_title):
         Either a unified name or the original name as a string
     """
     journal_mappings = {
-        "PLoS ONE": "PLOS ONE"
+        "PLoS ONE": "PLOS ONE",
+        "Phys. Chem. Chem. Phys.": "Physical Chemistry Chemical Physics",
+        "J. Mater. Chem. A": "Journal of Materials Chemistry A",
+        "PLoS Pathogens": "PLOS Pathogens",
+        "PLoS Genetics": "PLOS Genetics",
+        "PLoS Biology": "PLOS Biology",
+        "PLoS Computational Biology": "PLOS Computational Biology",
+        "PLoS Neglected Tropical Diseases": "PLOS Neglected Tropical Diseases",
+        "Oncotarget": "OncoTarget",
+        "Journal of Lipid Research": "The Journal of Lipid Research",
+        "Plastic and Reconstructive Surgery Global Open": "Plastic and Reconstructive Surgery - Global Open",
+        "RSC Adv.": "RSC Advances",
+        "Zeitschrift für die neutestamentliche Wissenschaft": "Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
+        "Chem. Soc. Rev.": "Chemical Society Reviews",
+        "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
+        "Scientific Repor.": "Scientific Reports"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
     

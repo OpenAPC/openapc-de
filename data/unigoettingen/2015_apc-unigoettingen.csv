@@ -43,7 +43,7 @@ Nr.,institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn
 42,Goettingen University,2015,"1386,35",10.1038/srep10539,FALSE,,,,,,
 43,Goettingen University,2015,"1142,40",10.3389/fbioe.2015.00072,FALSE,,,,,,
 44,Goettingen University,2015,"1433,22",10.1371/journal.pone.0128019 ,FALSE,,,,,,
-45,Goettingen University,2015,"263,32",NA,FALSE,Mongabay,Tropical Conservation Science,1940-0829,NA,NA,https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwie2Yj8opXLAhWINJoKHY-nAdYQFggnMAA&url=http%3A%2F%2Ftropicalconservationscience.mongabay.com%2Fcontent%2Fv8%2Ftcs_v8i2_479-490_Hong_Dao.pdf&usg=AFQjCNE2wWmARIgexVKLJcMA2aE958PsBg&cad=rja
+45,Goettingen University,2015,"263,32",NA,FALSE,Mongabay,Tropical Conservation Science,1940-0829,NA,NA,https://tropicalconservationscience.mongabay.com/content/v8/tcs_v8i2_479-490_Hong_Dao.pdf
 46,Goettingen University,2015,"1523,20",10.3389/fnhum.2015.00314,FALSE,,,,,,
 47,Goettingen University,2015,"876,13",10.1155/2015/278139,FALSE,,,,,,
 48,Goettingen University,2015,"1560,60",10.3389/fnbeh.2015.00147,FALSE,,,,,,
@@ -78,7 +78,7 @@ Nr.,institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn
 77,Goettingen University,2015,"1577,94",10.1088/1367-2630/17/7/073033,FALSE,,,,,,
 78,Goettingen University,2015,"1386,35",10.1038/srep13431,FALSE,,,,,,
 79,Goettingen University,2015,"1135,12",10.3390/toxins7083000,FALSE,,,,,,
-80,Goettingen University,2015,"286,99",10.5580/IJPSP.26961,FALSE,,,,,,
+80,Goettingen University,2015,"286,99",NA,FALSE,ISPUB,"The Internet Journal of Pain, Symptom Control and Palliative Care",1528-8277,NA,NA,print.ispub.com/api/0/ispub-article/26961
 81,Goettingen University,2015,"424,44",10.4236/ojf.2015.57063 ,FALSE,,,,,,
 82,Goettingen University,2015,"1904,00",10.3389/fpls.2015.00765,FALSE,,,,,,
 83,Goettingen University,2015,"1386,35",10.1038/srep13951,FALSE,,,,,,
@@ -111,7 +111,7 @@ Nr.,institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn
 110,Goettingen University,2015,"785,40",10.5194/bgd-12-9729-2015,FALSE,,,,,,
 111,Goettingen University,2015,"1540,05",10.3389/feart.2015.00066,FALSE,,,,,,
 112,Goettingen University,2015,"1992,46",10.4172/2165-7904.1000280,FALSE,,,,,,
-113,Goettingen University,2015,"1643,04",downloads.hindawi.com/journals/bn/aip/7928014.pdf,FALSE,,,,,,
+113,Goettingen University,2015,"1643,04",10.1155/2016/7928014,FALSE,,,,,,
 114,Goettingen University,2015,"1386,35",10.1038/srep17085,FALSE,,,,,,
 115,Goettingen University,2015,"1547,75",10.1097/MD.0000000000002035,FALSE,,,,,,
 116,Goettingen University,2015,"589,05",10.5194/fr-19-1-2016,FALSE,,,,,,
@@ -124,7 +124,7 @@ Nr.,institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn
 123,Goettingen University,2015,"1740,97",10.1093/gbe/evv222,FALSE,,,,,,
 124,Goettingen University,2015,"1386,35",10.1038/srep17420,FALSE,,,,,,
 125,Goettingen University,2015,"1131,56",10.3390/w7126657,FALSE,,,,,,
-126,Goettingen University,2015,"561,25",hematology.jacobspublishers.com/images/Hematology/J_J_Hemato_2_1_023.pdf,FALSE,,,,,,
+126,Goettingen University,2015,"561,25",NA,FALSE,Jacobs Publishers,Jacobs Journal of Hematology,2380-1646,NA,NA,hematology.jacobspublishers.com/images/Hematology/J_J_Hemato_2_1_023.pdf
 127,Goettingen University,2015,"780,26",10.14293/S2199-1006.1.SOR-MATSCI.AKA0J6.v2,FALSE,,,,,,
 128,Goettingen University,2015,"1606,37",10.3390/molecules191221022,FALSE,,,,,,
 129,Goettingen University,2015,"1142,40",10.3389/fpsyg.2014.01415,FALSE,,,,,,
@@ -138,7 +138,7 @@ Nr.,institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn
 137,Goettingen University,2015,"3094,00",10.1038/cddis.2015.17,FALSE,,,,,,
 138,Goettingen University,2015,"2223,67",10.1155/2015/154272,FALSE,,,,,,
 139,Goettingen University,2015,"1424,47",10.1016/j.bonr.2014.12.001,FALSE,,,,,,
-140,Goettingen University,2015,"2080,70","10.1371/journal.pone.0034351",FALSE,,,,,,
+140,Goettingen University,2015,"2080,70",10.1136/openhrt-2014-000182,FALSE,,,,,,
 141,Goettingen University,2015,"4403,00",10.1038/ncomms7008,FALSE,,,,,,
 142,Goettingen University,2015,"2237,20",10.1111/jcmm.12630,FALSE,,,,,,
 143,Goettingen University,2015,"3094,00",10.1038/cddis.2015.169,FALSE,,,,,,
