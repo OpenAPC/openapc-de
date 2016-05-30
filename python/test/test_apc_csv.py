@@ -56,6 +56,12 @@ class TestAPCRows(object):
             assert has_value(row['journal_full_title']), 'if no DOI is given, the column "journal_full_title" must not be empty'
             assert has_value(row['issn']), 'if no DOI is given, the column "issn" must not be empty'
             assert has_value(row['url']), 'if no DOI is given, the column "url" must not be empty'
+        for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"]]:
+            if issn_column != "NA":
+                issn_strings = issn_column.split(";")
+                for issn in issn_strings:
+                    assert oat.is_wellformed_ISSN(issn), 'value "' + issn + '" is not a well-formed ISSN' 
+                    assert oat.is_valid_ISSN(issn), 'value "' + issn + '" is no valid ISSN (check digit mismatch)'
 
     def test_doi_duplicates(self, row):
         doi = row["doi"]
