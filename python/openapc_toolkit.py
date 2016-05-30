@@ -5,6 +5,7 @@ import csv
 import codecs
 import json
 import re
+import ssl
 import urllib2
 import xml.etree.ElementTree as ET
 
@@ -17,6 +18,7 @@ except ImportError:
            
 # regex for detecing DOIs
 DOI_RE = re.compile("^(((https?://)?dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
+ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 # These classes were adopted from
 # https://docs.python.org/2/library/csv.html#examples
@@ -200,7 +202,36 @@ def is_wellformed_DOI(doi_string):
     if doi_match is not None:
         return True
     return False
- 
+    
+def is_wellformed_ISSN(issn_string):
+    issn_match = ISSN_RE.match(issn_string.strip())
+    if issn_match is not None:
+        return True
+    return False
+
+def is_valid_ISSN(issn_string):
+    issn_match = ISSN_RE.match(issn_string.strip())
+    match_dict = issn_match.groupdict()
+    check_digit = match_dict["check_digit"]
+    if check_digit in ["X", "x"]:
+        check_digit = 10
+    else:
+        check_digit = int(check_digit)
+    digits = match_dict["first_part"] + match_dict["second_part"]
+    factor = 8
+    total = 0
+    for digit in digits:
+        total += int(digit) * factor
+        factor -= 1
+    mod = total % 11
+    if mod == 0 and check_digit == 0:
+        return True
+    else:
+        if 11 - mod == check_digit:
+            return True
+    return False
+    
+
 def analyze_csv_file(file_path, line_limit=None):
     try:
         csv_file = open(file_path, "r")
@@ -390,7 +421,6 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
     req = urllib2.Request(url, None, headers)
     try:
         if bypass_cert_verification:
-            import ssl
             empty_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
             response = urllib2.urlopen(req, context=empty_context)
         else:
