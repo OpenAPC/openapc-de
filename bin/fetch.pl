@@ -138,8 +138,10 @@ my $exporter = Catmandu::Exporter::CSV->new(
       "indexed_in_crossref","pmid","pmcid","ut","url","doaj"],
     );
 
+my $counter = 0;
 $csv->each(
     sub {
+        $counter++;
         my $data = $_[0];
         my $body = _generate_xml($data);
 
@@ -148,7 +150,7 @@ $csv->each(
             $ut = _parse( _do_request($body) );
             $data->{ut} = $ut ? "ut:$ut" : 'NA';
         }
-
+        print "Processed $counter records...\n" if $counter % 100 == 0;
         $exporter->add($data);
     }
 );
