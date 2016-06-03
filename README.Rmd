@@ -165,7 +165,7 @@ require(RColorBrewer)
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 #only unis
-my.apc <- my.apc[!my.apc$institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "INM - Leibniz-Institut für Neue Materialien", "MDC"),]
+my.apc <- my.apc[!my.apc$institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "INM - Leibniz-Institut für Neue Materialien", "MDC", "FWF - Austrian Science Fund", "Leibniz-Fonds"),]
 
 ## Choose only publisher with at least 5 publication (abritary)
 
