@@ -1,0 +1,62 @@
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"FU Berlin",2015,2000,"10.1038/npjqi.2015.10",FALSE,"Springer Nature","npj Quantum Information","2056-6387",NA,"2056-6387",NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1503.12,"10.1103/PhysRevX.5.041008",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,2000,"10.1038/ncomms9498",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26577800","PMC4673657",NA,NA,TRUE
+"FU Berlin",2015,2000,"10.1371/journal.ppat.1005246",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"26544881","PMC4636265",NA,NA,TRUE
+"FU Berlin",2015,1805,"10.1186/s13099-015-0075-z",FALSE,"Springer Nature","Gut Pathogens","1757-4749",NA,"1757-4749",NA,TRUE,"26483849","PMC4610047",NA,NA,TRUE
+"FU Berlin",2015,1191.32,"10.1371/journal.pone.0139894",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26466351","PMC4605782",NA,NA,TRUE
+"FU Berlin",2015,1236.83,"10.1371/journal.pone.0142240",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","https://creativecommons.org/publicdomain/zero/1.0/",TRUE,"26544980","PMC4636251",NA,NA,TRUE
+"FU Berlin",2015,1499.08,"10.3389/fcimb.2015.00067",FALSE,"Frontiers Media SA","Frontiers in Cellular and Infection Microbiology","2235-2988",NA,"2235-2988",NA,TRUE,"26484314","PMC4586511",NA,NA,TRUE
+"FU Berlin",2015,1160.25,"10.5194/acp-15-6897-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1191.21," 10.1371/journal.pone.0140050",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1142.4," 10.3389/fpsyg.2015.01137",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1298.29,"10.3389/fpsyg.2015.01661",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26617535","PMC4642355",NA,NA,TRUE
+"FU Berlin",2015,2000,"10.3389/fpsyg.2015.01675",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26583000","PMC4628112",NA,NA,TRUE
+"FU Berlin",2015,1165,"10.1038/srep11598",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26111759","PMC4650600",NA,NA,TRUE
+"FU Berlin",2015,1386.35,"10.1038/srep12681",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26223582","PMC4519788",NA,NA,TRUE
+"FU Berlin",2015,2000," 10.1371/journal.ppat.1004781",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,892.5,"10.4081/ejh.2015.2516",FALSE,"PAGEPress Publications","European Journal of Histochemistry","2038-8306","1121-760X","2038-8306","http://www.ejh.it/index.php/ejh/about/submissions#copyrightNotice",TRUE,"26428884","PMC4598596",NA,NA,TRUE
+"FU Berlin",2015,1535.87,"10.3389/fbioe.2015.00130",FALSE,"Frontiers Media SA","Frontiers in Bioengineering and Biotechnology","2296-4185",NA,"2296-4185",NA,TRUE,"26442247","PMC4562258",NA,NA,TRUE
+"FU Berlin",2015,223.93,"10.3389/fpsyg.2015.01526",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26539131","PMC4611089",NA,NA,TRUE
+"FU Berlin",2015,1178.42,"10.1371/journal.pone.0139402",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26406497","PMC4584000",NA,NA,TRUE
+"FU Berlin",2015,1285.52,"10.3389/fpsyg.2015.01267",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26379592","PMC4547006",NA,NA,TRUE
+"FU Berlin",2015,1392.3,"10.1088/1367-2630/17/8/083042",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1509.22,"10.3389/fevo.2015.00103",FALSE,"Frontiers Media SA","Frontiers in Ecology and Evolution","2296-701X",NA,"2296-701X",NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,2000,"10.1127/metz/2015/0641",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1249.5,"10.1186/s13570-015-0035-8",FALSE,"Springer Nature","Pastoralism","2041-7136",NA,"2041-7136",NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1625,"10.1186/s13071-015-0924-0",FALSE,"Springer Nature","Parasites & Vectors","1756-3305","1756-3305",NA,NA,TRUE,"26084663","PMC4492007",NA,NA,TRUE
+"FU Berlin",2015,1800,"10.1186/s12862-015-0390-5",FALSE,"Springer Nature","BMC Evolutionary Biology","1471-2148",NA,"1471-2148",NA,TRUE,"26084455","PMC4471916",NA,NA,TRUE
+"FU Berlin",2015,1550.33,"10.1016/j.ijpddr.2015.03.003",FALSE,"Elsevier BV","International Journal for Parasitology: Drugs and Drug Resistance","22113207","22113207",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25905032","PMC4401813",NA,NA,FALSE
+"FU Berlin",2015,2000,"10.3389/fnhum.2015.00551",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"26500523","PMC4599046",NA,NA,TRUE
+"FU Berlin",2015,2000,"10.1038/ncomms8606",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26216619","PMC4525213",NA,NA,TRUE
+"FU Berlin",2015,1429.79," 10.1371/journal.pone.0135968",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1410.07,"10.1155/2015/304149",FALSE,"Hindawi Publishing Corporation","Mediators of Inflammation","0962-9351","0962-9351","1466-1861","http://creativecommons.org/licenses/by/3.0/",TRUE,"25948884","PMC4408629",NA,NA,TRUE
+"FU Berlin",2015,2000,"10.1186/s12918-015-0183-x",FALSE,"Springer Nature","BMC Systems Biology","1752-0509",NA,"1752-0509",NA,TRUE,"26201334","PMC4511525",NA,NA,TRUE
+"FU Berlin",2015,1785,"10.3354/cr01302",FALSE,"Inter-Research Science Center","Climate Research","0936-577X","0936-577X","1616-1572",NA,TRUE,NA,NA,NA,NA,FALSE
+"FU Berlin",2015,1202.03,"10.1371/journal.pone.0130117",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26083383","PMC4470584",NA,NA,TRUE
+"FU Berlin",2015,1243.27,"10.1371/journal.pone.0133118",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26186649","PMC4506123",NA,NA,TRUE
+"FU Berlin",2015,1687,"10.1127/metz/2015/0642",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1687,"10.1127/metz/2015/0639",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,895.15,"10.1155/2015/235184",FALSE,"Hindawi Publishing Corporation","Scientifica","2090-908X",NA,"2090-908X","http://creativecommons.org/licenses/by/3.0/",TRUE,"25883829","PMC4391159",NA,NA,TRUE
+"FU Berlin",2015,853.84,"10.4236/me.2015.66072",FALSE,"Scientific Research Publishing, Inc,","Modern Economy","2152-7245","2152-7245","2152-7261","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"FU Berlin",2015,1904,"10.3389/fpsyg.2015.00813",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26157399","PMC4477056",NA,NA,TRUE
+"FU Berlin",2015,435.46,"10.4236/epe.2015.75022",FALSE,"Scientific Research Publishing, Inc,","Energy and Power Engineering","1949-243X","1949-243X","1947-3818","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"FU Berlin",2015,1150,"10.3390/toxins7051556",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"26008228","PMC4448163",NA,NA,TRUE
+"FU Berlin",2015,770,"10.3389/fpsyg.2015.00714",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26089808","PMC4452804",NA,NA,TRUE
+"FU Berlin",2015,1299.92,"10.1371/journal.pone.0126224",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25955253","PMC4425535",NA,NA,TRUE
+"FU Berlin",2015,2000,"10.1371/journal.pcbi.1004200",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"25927964","PMC4423987",NA,NA,TRUE
+"FU Berlin",2015,1202.03,"10.1371/journal.pone.0124550",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25946306","PMC4422438",NA,NA,TRUE
+"FU Berlin",2015,430.5,"10.17645/pag.v3i2.192",FALSE,"Cogitatio","Politics and Governance","2183-2463",NA,"2183-2463",NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1600,"10.3389/fnbeh.2015.00096",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"25941479","PMC4403551",NA,NA,TRUE
+"FU Berlin",2015,1280,"10.3389/fpsyg.2015.00079",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25717309","PMC4324075",NA,NA,TRUE
+"FU Berlin",2015,1513.7,"10.1371/journal.pone.0118179",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25671315","PMC4324997",NA,NA,TRUE
+"FU Berlin",2015,1904,"10.3389/fimmu.2015.00108",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224",NA,TRUE,"25806034","PMC4354412",NA,NA,TRUE
+"FU Berlin",2015,1072.55,"10.4142/jvs.2015.16.1.57",FALSE,"The Korean Society of Veterinary Science (KAMJE)","Journal of Veterinary Science","1229-845X","1229-845X","1976-555X","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,981.75,"10.5194/amtd-8-2623-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1969.45,"10.1186/s12917-015-0351-7",FALSE,"Springer Nature","BMC Veterinary Research","1746-6148","1746-6148",NA,NA,TRUE,"25889573","PMC4352559",NA,NA,TRUE
+"FU Berlin",2015,1130.5,"10.5194/nhessd-3-1231-2015",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1731.45,"10.1186/s13015-014-0028-y",FALSE,"Springer Nature","Algorithms for Molecular Biology","1748-7188","1748-7188",NA,NA,TRUE,"25649004","PMC4302510",NA,NA,TRUE
+"FU Berlin",2015,1600,"10.3389/fpsyg.2015.00194",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25762966","PMC4340142",NA,NA,TRUE
+"FU Berlin",2015,219.84,"10.3389/fevo.2015.00020",FALSE,"Frontiers Media SA","Frontiers in Ecology and Evolution","2296-701X",NA,"2296-701X",NA,TRUE,NA,NA,NA,NA,TRUE
+"FU Berlin",2015,1386.35,"10.1038/srep19416",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26757825","PMC4725832",NA,NA,TRUE
+"FU Berlin",2015,2000,"10.1155/2015/569512",FALSE,"Hindawi Publishing Corporation","Mediators of Inflammation","0962-9351","0962-9351","1466-1861","http://creativecommons.org/licenses/by/4.0/",TRUE,"26770019","PMC4681803",NA,NA,TRUE

@@ -5,7 +5,7 @@ knitr::opts_knit$set(base.url = "/")
 knitr::opts_chunk$set(
   comment = "#>",
   collapse = TRUE,
-  warning = FALSE, 
+  warning = FALSE,
   message = FALSE,
   echo = FALSE,
   fig.width = 9,
@@ -13,16 +13,15 @@ knitr::opts_chunk$set(
 )
 options(scipen = 0, digits = 2)
 knitr::knit_hooks$set(inline = function(x) {
-  prettyNum(x, big.mark=" ")
+  prettyNum(x, big.mark = " ")
 })
 ```
 
-## About 
+## About
 
 The aim of this repository is:
 
-- to release datasets on fees paid for Open Access journal articles by German Universities under an Open Database License
-- to share a copy of [Directory of Open Access Journals (DOAJ)](http://doaj.org/) journal master list (downloaded January 2014)
+- to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
 ## Participating Universities
@@ -32,19 +31,28 @@ So far, the following German universities have agreed to share information on pa
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
+- [Freie Universität Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
-- [Free University of Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
+- [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oajlu-en?set_language=en)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/publikationsfonds.html)
+- [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
+- [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
+- [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
+- [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
+- [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
+- [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
+- [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 
 ## Participating Research Society Funds in Germany
 
@@ -54,13 +62,17 @@ Participating Research Organizations:
 
 - [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
 
-The data content covers APCs as paid for by our central budget for the Max Planck Society.  APCs funded locally by Max Planck Institutes are not part of this data set.  The Max Planck Society has a limited input tax reduction. The refund of input VAT for APC is 20%.
+The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
-- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
-- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administr
-ation/library)
+- [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
+- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
+
+## Participating Austrian Institutions
+
+- [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 
 ## Dataset
 
@@ -70,7 +82,7 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  `r format(sum(my.apc$EURO), scientific=FALSE)`€ for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
+In total,  `r format(sum(my.apc$euro), scientific=FALSE)` € for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
 
 ### Open Access Journals
 
@@ -79,7 +91,7 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 ```
 
-At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
+At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$euro), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
 
@@ -87,10 +99,10 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 
-df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
-             tapply(my.apc$EURO, my.apc$Institution, sum),
-             tapply(my.apc$EURO, my.apc$Institution, mean),
-             tapply(my.apc$EURO, my.apc$Institution, median))
+df.summary <-cbind(tapply(my.apc$euro, my.apc$institution, length),
+             tapply(my.apc$euro, my.apc$institution, sum),
+             tapply(my.apc$euro, my.apc$institution, mean),
+             tapply(my.apc$euro, my.apc$institution, median))
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
@@ -103,7 +115,7 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == TRUE,]
 ```
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers `r nrow(my.apc)` hybrid open access articles. Total expenditure amounts to  `r format(sum(my.apc$EURO), scientific=FALSE)`€. Average  fee is `r format(sum(my.apc$EURO)/nrow(my.apc), digits = 5)`€ and the median `r median(my.apc$EURO)`€.
+The dataset covers `r nrow(my.apc)` hybrid open access articles. Total expenditure amounts to  `r format(sum(my.apc$euro), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -112,10 +124,10 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 my.apc <- my.apc[my.apc$is_hybrid == TRUE,]
 my.apc <- droplevels(my.apc)
 
-df.summary <-cbind(tapply(my.apc$EURO, my.apc$Institution, length),
-             tapply(my.apc$EURO, my.apc$Institution, sum),
-             tapply(my.apc$EURO, my.apc$Institution, mean),
-             tapply(my.apc$EURO, my.apc$Institution, median))
+df.summary <-cbind(tapply(my.apc$euro, my.apc$institution, length),
+             tapply(my.apc$euro, my.apc$institution, sum),
+             tapply(my.apc$euro, my.apc$institution, mean),
+             tapply(my.apc$euro, my.apc$institution, median))
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
 knitr::kable(as.data.frame(df.summary), digits = 2)
@@ -135,11 +147,11 @@ External sources were used to compile the dataset. This allows for disambiguated
 |CrossRef   |`issn_print` |ISSN print |
 |CrossRef   |`issn_electronic`  |ISSN electronic        |
 |CrossRef   |`license_ref`  |License of the article     |
-|CrossRef   |`indexed_in_CrossRef`  |Is the article metadata registered with CrossRef? (logical)    |
+|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |
 |EuropePMC    |`pmid`  |PubMed ID                 |
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
-|DOAJ           |`DOAJ` |Is the journal indexed in the DOAJ? (logical)    |
+|DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
 
 ## Sample Visualisations
 
@@ -153,30 +165,30 @@ require(RColorBrewer)
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 #only unis
-my.apc <- my.apc[!my.apc$Institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "INM - Leibniz-Institut für Neue Materialien", "MDC"),]
+my.apc <- my.apc[!my.apc$institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "INM - Leibniz-Institut für Neue Materialien", "MDC", "FWF - Austrian Science Fund", "Leibniz-Fonds"),]
 
 ## Choose only publisher with at least 5 publication (abritary)
 
 # relevel
-my.apc$publisher <- factor(my.apc$publisher, 
-                           levels =  c(rownames(data.frame(rev(sort(tapply(my.apc$EURO, list(my.apc$publisher), sum)))))))
-my.apc$Institution <- factor(my.apc$Institution, 
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+my.apc$publisher <- factor(my.apc$publisher,
+                           levels =  c(rownames(data.frame(rev(sort(tapply(my.apc$euro, list(my.apc$publisher), sum)))))))
+my.apc$institution <- factor(my.apc$institution,
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$institution)))))))
 
-levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=", 
+levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=",
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
 
-my.df <- aggregate(my.apc$EURO, list(publisher =my.apc$publisher, Uni = my.apc$Institution), sum)
+my.df <- aggregate(my.apc$euro, list(publisher =my.apc$publisher, Uni = my.apc$institution), sum)
 
 ## Plot by publisher
 colour_count <- length(unique(my.df$Uni))
 
 
-p <- ggplot(my.df, aes(publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() + 
-  scale_y_continuous(limits=c(0, 1000000), labels=function(x) format(x, big.mark = ".", scientific = FALSE)) + 
+p <- ggplot(my.df, aes(publisher, x, fill= Uni)) + geom_bar(stat="identity")  + ylab("Fees paid (in EURO)") + coord_flip() +
+  scale_y_continuous(limits=c(0, 1250000), labels=function(x) format(x, big.mark = " ", scientific = FALSE)) +
   scale_fill_manual(values = colorRampPalette(brewer.pal(12, "Set3"))(colour_count)) +
   theme_bw() + theme(legend.text = element_text(size = 4, colour = "black")) +
-  guides(fill=guide_legend(ncol=2)) 
+  guides(fill=guide_legend(ncol=2))
 
 ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 ```
@@ -187,7 +199,7 @@ ggsave(p, file = "figure/plotPublisherAPC.png", width=7.5,height=4.5,units="in")
 
 ```{r, echo = FALSE}
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
-q <- ggplot(my.apc, aes(Institution, EURO)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
+q <- ggplot(my.apc, aes(institution, euro)) + geom_boxplot() + geom_point(alpha = 8/10, size = 2,aes(colour =is_hybrid)) + scale_colour_manual(values = c("#000A02", "#DC4E00"))
 
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
@@ -202,15 +214,15 @@ ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="i
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 # relevel
-my.apc$publisher <- factor(my.apc$publisher, 
+my.apc$publisher <- factor(my.apc$publisher,
                            levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
-my.apc$Institution <- factor(my.apc$Institution, 
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$Institution)))))))
+my.apc$institution <- factor(my.apc$institution,
+                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$institution)))))))
 
-levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=", 
+levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=",
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
 
-q <- ggplot(my.apc, aes(publisher, EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
+q <- ggplot(my.apc, aes(publisher, euro)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
 q <- q +  ylab("Fees paid (in EURO)") + coord_flip() + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
@@ -225,8 +237,8 @@ ggsave(q, file = "figure/plotAverageAPC.png", width=6.8,height=4.5,units="in")
 
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
-mpg <- my.apc[my.apc$Institution == "MPG" & my.apc$publisher == "Springer Science + Business Media",]
-q <- ggplot(mpg, aes(factor(Period), EURO)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
+mpg <- my.apc[my.apc$institution == "MPG" & my.apc$publisher == "Springer Science + Business Media",]
+q <- ggplot(mpg, aes(factor(period), euro)) + geom_boxplot() + geom_point(alpha = 2/10, size = 2)
 q <- q +  ylab("Fees paid (in EURO)") + xlab("Period") + theme(legend.position="top") + theme_bw()
 
 ggsave(q, file = "figure/plotAverageSpringerMPDL.png", width=6.8,height=4.5,units="in")
@@ -244,31 +256,38 @@ In collaboration with the [DINI working group Electronic Publishing](http://dini
 * [Virtual Meeting 19 August](https://github.com/OpenAPC/openapc-de/wiki/Protokoll-Kick-Off-19.-August)
 * [Virtual Meeting 11 + 12 February 2015](https://github.com/OpenAPC/openapc-de/wiki/Ergebnisprotokoll-11-bzw.-12.-Februar-2015)
 
-## Licence
+## License
 
-The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/ 
+The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 This work is licensed under the Creative Commons Attribution 4.0 Unported License.
 
 ## How to cite?
 
-Bielefeld University Library archives a remote including version history. To cite:
+When citing this dataset, please indicate the [release](https://github.com/OpenAPC/openapc-de/releases/) you are referring to. The releases also contain information on contributors relating to the respective release.
 
-Apel, Jochen; Bertelmann, Roland; Beucke, Daniel; Blumtritt, Ute; Busjahn, Dorothea;  Deinzer, Gernot; Dorner, Andrea; Engelhardt, Clemens; Hell, Dominik; Herb, Ulrich; Feldsien-Sudhaus, Inken; Franke, Fabian; Frick, Claudia; Geschuhn, Kai Karin; Jaeger, Doris;  Lützenkirchen, Frank; Kroiss, Stephanie; Oberländer, Anja; 
-Peil, Vitali; Pieper, Dirk; Schlachter, Michael; Schlegel, Birgit; Sikora, Adriana; Tullney, Marco; Vieler, Astrid; Witt, Sabine; Jahn, Najko; (2014 -): *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
+Please do not cite the master branch of the Github repository (https://github.com/OpenAPC/openapc-de/tree/master/), but use the release numbers/tags.
+
+Bielefeld University Library archives a copy (including commit history). To cite:
+
+{Contributors:} *Datasets on fee-based Open Access publishing across German Institutions*. Bielefeld University. [10.4119/UNIBI/UB.2014.18](http://dx.doi.org/10.4119/UNIBI/UB.2014.18)
 
 ## Acknowledgement
 
-This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting. 
+This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting.
 
 For data enrichment, sample visualisations and explorations we build on the work of [rOpenSci](http://ropensci.org/) and [LibreCat/Catmandu](http://librecat.org/).
 
 ## Contributors
 
-Jochen Apel, Roland Bertelmann, Daniel Beucke, Ute Blumtritt, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Kai Karin Geschuhn, Doris Jaeger, Stephanie Kroiss, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Sabine Witt, Najko Jahn
+Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
 For bugs, feature requests and other issues, please submit an issue via [Github](https://github.com/OpenAPC/openapc-de/issues/new).
 
 For general comments, email najko.jahn at uni-bielefeld.de and dirk.pieper at uni-bielefeld.de
+
+## Disclaimer
+
+People, who are looking for "Open Advanced Process Control Software" for automation, visualization and process control tasks from home control up to industrial automation, please follow <http://www.openapc.com> (2015-09-30)

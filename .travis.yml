@@ -1,0 +1,8 @@
+language: python
+python:
+- '2.7'
+install: pip install pytest
+script: py.test
+notifications:
+  slack:
+    secure: GyOO/Tfdtc/2JMCRisOCY2kMfy0OXlFFuzr6W2yHAo+d6aL4j4+RxH3V3NYE7F94AbRrzbHE2KE8HyakFYF5OYKdfxbYP+EprZ5KMvuiVu0os+uX+QmVyLLBwYpY1sInIpPZ0NAIfsbMbcUM3sQM8SL5JHbR41Y1KF+4zpOKYFw=

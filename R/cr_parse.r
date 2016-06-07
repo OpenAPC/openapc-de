@@ -13,7 +13,9 @@ cr_parse <- function(doi) {
     warning(sprintf("doi: %s not found", doi))
   })
   
-  if(!exists("doc")) return(NULL) else
+  if(is.null(doc))
+    return(NULL)
+  else
     
   # namespaces
   nm = c(cr = "http://www.crossref.org/xschema/1.1",
@@ -23,6 +25,7 @@ cr_parse <- function(doi) {
   #xpath queries
   xp_queries = c(doi = "//ct:doi",
                  journal_full_title = "//cr:journal_metadata//cr:full_title",
+                 year = "//cr:journal_issue//cr:publication_date//cr:year",
                  publisher = "//ct:crm-item[@name='publisher-name']",
                  issn = "//cr:journal_metadata//cr:issn",
                  issn_print = "//cr:journal_metadata//cr:issn[@media_type='print']",
@@ -30,7 +33,7 @@ cr_parse <- function(doi) {
                  license_ref = "//ai:license_ref")
   
   # sapply on xpath queries on nodes
-  tt <- lapply(xp_queries, function(xp_queries) getNodeSet(doc, xp_queries, nm, xmlValue))
+  tt <- lapply(xp_queries, function(xp_queries) XML::getNodeSet(doc, xp_queries, nm, XML::xmlValue))
   # deal with empty list elements
   tt.df <- lapply(tt, function(x)  if (length(x) == 0) x <- NA  else x <- x)
   # deal with multiple value
