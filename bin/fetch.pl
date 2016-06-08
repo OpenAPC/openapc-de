@@ -16,7 +16,7 @@ Vitali Peil, vitali.peil at uni-bielefeld.de
 
 =head1 LICENSE
 
-This software is copyright (c) 2014 by Vitali Peil.
+This software is copyright (c) 2016 by Vitali Peil.
 
 This is free software; you can redistribute it and/or modify it
 under the same terms as the Perl 5 programming language system itself.
@@ -30,18 +30,18 @@ use Catmandu::Exporter::CSV;
 use LWP::UserAgent;
 use XML::Simple;
 use Try::Tiny;
-use FindBin qw/$Bin/;
 
-my $file   = $ARGV[0];
+my $file = $ARGV[0];
 my $wosURL = 'http://apps.webofknowledge.com/';
 
 sub _do_request {
     my $body = shift;
 
-    sleep 2;
+    sleep 0.5;
     my $ua       = LWP::UserAgent->new;
-    my $response = $ua->post( 'https://ws.isiknowledge.com/cps/xrpc',
+    my $response = $ua->post( 'http://ws.isiknowledge.com/cps/xrpc',
         Content => $body, );
+
     ( $response->is_success )
         ? ( return $response->{_content} )
         : ( return 0 );
@@ -86,7 +86,7 @@ XML
     if ( $data->{doi} && $data->{doi} ne 'NA' ) {
         my $s = _filter_xml( $data->{doi} );
         $body .= <<XML3;
-<map name="$data->{repo_id}">
+<map name="1">
 	<val name="doi">$s</val>
 </map>
 XML3
@@ -94,7 +94,7 @@ XML3
     elsif ( $data->{pmid} && $data->{pmid} ne 'NA' ) {
         my $s = _filter_xml( $data->{pmid} );
         $body .= <<XML4;
-<map name="$data->{repo_id}">
+<map name="1">
 	<val name="pmid">$s</val>
 </map>
 XML4
@@ -126,23 +126,33 @@ sub _parse {
 }
 
 # main
-my $csv      = Catmandu::Importer::CSV->new( file => $file );
+my $csv = Catmandu::Importer::CSV->new( file => $file );
 my $exporter = Catmandu::Exporter::CSV->new(
-  file => "$Bin/../data/doi_ut.csv",
-  sep_char => ',',
-  quote_char => '"',
-  always_quote => 1,
-  );
+    file => "apc_de_ut.csv",
+    sep_char => ',',
+    quote_char => '"',
+    always_quote => 1,
+    fields => ["institution","period","euro","doi",
+      "is_hybrid","publisher","journal_full_title",
+      "issn","issn_print","issn_electronic","license_ref",
+      "indexed_in_crossref","pmid","pmcid","ut","url","doaj"],
+    );
 
+my $counter = 0;
 $csv->each(
     sub {
+        $counter++;
         my $data = $_[0];
         my $body = _generate_xml($data);
+
+        my $ut;
         if ($body && $data->{ut} eq 'NA') {
-            my $ut = _parse( _do_request($body) );
-            $exporter->add({doi => $data->{doi}, ut => $ut ? "ut:$ut" : 'NA'});
-        } else {
-            $exporter->add({doi => $data->{doi}, ut => $data->{ut}});
+            $ut = _parse( _do_request($body) );
+            $data->{ut} = $ut ? "ut:$ut" : 'NA';
         }
+        print "Processed $counter records...\n" if $counter % 100 == 0;
+        $exporter->add($data);
     }
 );
+
+$exporter->commit;
