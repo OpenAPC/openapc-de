@@ -222,10 +222,22 @@ ggsave(q, file = "figure/boxplot_institution.png", width=6.8,height=4.5,units="i
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 # relevel
-my.apc$publisher <- factor(my.apc$publisher,
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
-my.apc$institution <- factor(my.apc$institution,
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$institution)))))))
+
+
+
+## my.apc$publisher <- factor(my.apc$publisher, levels =  c(rownames(data.frame(rev(sort(table(my.apc$publisher)))))))
+
+d_frame = data.frame(table(my.apc$publisher,  dnn="Publisher"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Publisher)), ]                                           
+                                    
+my.apc$publisher <- factor(my.apc$publisher, levels =  d_frame$Publisher)
+
+## my.apc$institution <- factor(my.apc$institution, levels =  c(rownames(data.frame(rev(sort(table(my.apc$institution)))))))
+
+d_frame = data.frame(table(my.apc$institution,  dnn="Institution"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Institution)), ]                                           
+                                    
+my.apc$institution <- factor(my.apc$institution, levels =  d_frame$Institution)
 
 levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=",
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
