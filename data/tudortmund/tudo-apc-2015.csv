@@ -1,22 +1,21 @@
-Institution;Period;EURO;DOI;Publisher;Journal;ISSN.1 €;ISSN.2;base.url;record.id;
-Technische Universität Dortmund;2015;1.634,92 €;10.3390/ma8063012;MDPI AG;Materials;1996-1944;;;;
-Technische Universität Dortmund;2015;4.403,00 €;0.1038/ncomms8349;Nature Publishing Group;Nature Communications;2041-1723;;;;
-Technische Universität Dortmund;2015;1.527,25 €;10.3390/s150100214;MDPI AG;Sensors;1424-8220;;;;
-Technische Universität Dortmund;2015;1.504,78 €;10.3389/fmicb.2015.01042;Frontiers Media;Frontiers in Microbiology;1664-302X;;;;
-Technische Universität Dortmund;2015;1.568,91 €;10.3389/fpsyg.2015.01623;Frontiers Media;Frontiers in Psychology;1664-1078;;;;
-Technische Universität Dortmund;2015;2.029,28 €;10.3389/fnins.2015.00341;Frontiers Media;Frontiers in Neuroscience;1662-453X;;;;
-Technische Universität Dortmund;2015;972,94 €;10.3390/mi6121459;MDPI AG;Micromachines;2072-666X;;;;
-Technische Universität Dortmund;2015;1.641,82 €;10.1371/journal.pone.0144981;PLoS;PLoS One;1932-6203;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015018757;International Union of Crystallography;Acta Crystallographica Section E;2056-9890;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015018149;International Union of Crystallography;Acta Crystallographica Section E;2056-9891;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015016965;International Union of Crystallography;Acta Crystallographica Section E;2056-9892;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015016813;International Union of Crystallography;Acta Crystallographica Section E;2056-9893;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015010221;International Union of Crystallography;Acta Crystallographica Section E;2056-9894;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015009160;International Union of Crystallography;Acta Crystallographica Section E;2056-9895;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015008713;International Union of Crystallography;Acta Crystallographica Section E;2056-9896;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015008105;International Union of Crystallography;Acta Crystallographica Section E;2056-9897;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015022707;International Union of Crystallography;Acta Crystallographica Section E;2056-9898;;;;
-Technische Universität Dortmund;2015;174,70 €;10.1107/S2056989015020307;International Union of Crystallography;Acta Crystallographica Section E;2056-9898;;;;
-Technische Universität Dortmund;2015;1.142,40 €;10.3389/fpsyg.2015.01994;Frontiers Media;Frontiers in Psychology;1664-1078;;;;
-Technische Universität Dortmund;2015;1.581,33 €;10.1016/j.jal.2015.03.006;Elsevier;Journal of Applied Logic;1570-8683;;;;HYBRID!!!
-
+institution,period,euro,doi,is_hybrid,url
+Technische Universität Dortmund;2015;1.634,92;10.3390/ma8063012;FALSE;
+Technische Universität Dortmund;2015;4.403,00;0.1038/ncomms8349;FALSE;
+Technische Universität Dortmund;2015;1.527,25;10.3390/s150100214;FALSE;
+Technische Universität Dortmund;2015;1.504,78;10.3389/fmicb.2015.01042;FALSE;
+Technische Universität Dortmund;2015;1.568,91;10.3389/fpsyg.2015.01623;FALSE;
+Technische Universität Dortmund;2015;2.029,28;10.3389/fnins.2015.00341;FALSE;
+Technische Universität Dortmund;2015;972,94;10.3390/mi6121459;FALSE;
+Technische Universität Dortmund;2015;1.641,82;10.1371/journal.pone.0144981;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015018757;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015018149;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015016965;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015016813;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015010221;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015009160;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015008713;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015008105;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015022707;FALSE;
+Technische Universität Dortmund;2015;174,70;10.1107/S2056989015020307;FALSE;
+Technische Universität Dortmund;2015;1.142,40;10.3389/fpsyg.2015.01994;FALSE;
+Technische Universität Dortmund;2015;1.581,33;10.1016/j.jal.2015.03.006;TRUE;
