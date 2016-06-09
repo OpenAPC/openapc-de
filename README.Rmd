@@ -172,8 +172,16 @@ my.apc <- my.apc[!my.apc$institution %in% c("MPG", "FZJ - ZB", "GFZ-Potsdam", "I
 # relevel
 my.apc$publisher <- factor(my.apc$publisher,
                            levels =  c(rownames(data.frame(rev(sort(tapply(my.apc$euro, list(my.apc$publisher), sum)))))))
-my.apc$institution <- factor(my.apc$institution,
-                           levels =  c(rownames(data.frame(rev(sort(table(my.apc$institution)))))))
+                           
+                              
+## my.apc$institution <- factor(my.apc$institution, levels =  c(rownames(data.frame(rev(sort(table(my.apc$institution)))))))
+
+d_frame = data.frame(table(my.apc$institution,  dnn="Institution"))                 
+d_frame = d_frame[with(d_frame, order(-Freq, Institution)), ]                                           
+                                    
+my.apc$institution <- factor(my.apc$institution, levels =  d_frame$Institution)
+
+
 
 levels(my.apc$publisher)[6:length(levels(my.apc$publisher))] <- paste("other (n=",
                                                                       length(unique(my.apc$publisher)) - 5, ")", sep="")
