@@ -72,7 +72,7 @@ In total,  16 983 063 € for  10 861 articles were paid by the participating un
 
 At the moment, the dataset releases information on 8 217 articles in open access journals which charge publication fees. Total expenditure amounts to  10 700 514 €. Average  fee is 1 302.2 € and the median 1 236 €.
 
-View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
+View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
@@ -146,6 +146,17 @@ External sources were used to compile the dataset. This allows for disambiguated
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
 |DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
+
+
+
+|Identifier                 | Coverage                                                          |
+|:--------------------------|:------------------------------------------------------------------|
+|DOI                        |  99.51%       |
+|PubMed ID                  |  71.51%      |
+|PubMed Central ID          |  67.76%     |
+|Web of Science record ID   | 83.81%      |
+
+
 
 ## Sample Visualisations
 

@@ -93,7 +93,7 @@ my.apc <- my.apc[my.apc$is_hybrid == FALSE,]
 
 At the moment, the dataset releases information on `r nrow(my.apc)` articles in open access journals which charge publication fees. Total expenditure amounts to  `r format(sum(my.apc$euro), scientific=FALSE)` €. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
 
-View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv).
+View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
 ```{r, echo=FALSE, results='asis', message = FALSE}
 my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
@@ -152,6 +152,23 @@ External sources were used to compile the dataset. This allows for disambiguated
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
 |DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
+
+```{r, echo=FALSE, cache = FALSE}
+my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
+my.apc_doi <- my.apc[!is.na(my.apc$doi), ]
+my.apc_pmid <- my.apc[!is.na(my.apc$pmid), ]
+my.apc_pmcid <- my.apc[!is.na(my.apc$pmcid), ]
+my.apc_ut <- my.apc[!is.na(my.apc$ut), ]
+```
+
+|Identifier                 | Coverage                                                          |
+|:--------------------------|:------------------------------------------------------------------|
+|DOI                        |  `r format(nrow(my.apc_doi)*100/nrow(my.apc), digits = 4)`%       |
+|PubMed ID                  |  `r format(nrow(my.apc_pmid)*100/nrow(my.apc), digits = 4)`%      |
+|PubMed Central ID          |  `r format(nrow(my.apc_pmcid)*100/nrow(my.apc), digits = 4)`%     |
+|Web of Science record ID   | `r format(nrow(my.apc_ut)*100/nrow(my.apc), digits = 4)`%      |
+
+
 
 ## Sample Visualisations
 
