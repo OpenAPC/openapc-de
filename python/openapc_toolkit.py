@@ -3,7 +3,10 @@
 
 import csv
 import codecs
+from collections import OrderedDict
 import json
+import locale
+import logging
 import re
 import ssl
 import urllib2
@@ -449,6 +452,154 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
         ret_value['error_msg'] = msg.format(ve.message)
     return ret_value
     
+def process_row(row, row_num, column_map, num_required_columns, doaj_offline_analysis, bypass_cert_verification):
+    
+    MESSAGES = {
+        "num_columns": "Syntax: the number of values in line {} ({}) " +
+                       "differs from the number of columns ({}). Line left " +
+                       "unchanged, the resulting CSV file will not be valid.",
+        "locale": "Error: Could not process the monetary value '{}' in column " +
+              "{}. This will usually have one of two reasons:\n1) The value " +
+              "does not represent a number.\n2) The value represents a " +
+              "number, but its format differs from your current system " +
+              "locale - the most common source of error will be the decimal " +
+              "mark (1234.56 vs 1234,56). Try using another locale with the " +
+              "-l option.",
+        "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
+             "to maintain consistency."
+    }
+    
+    if len(row) != num_required_columns:
+        msg = MESSAGES["num_columns"].format(row_num,
+                                                   len(row),
+                                                   num_required_columns)
+        logging.error("Line {}: {}".format(row_num, msg))
+        return row
+
+    doi = row[column_map["doi"].index]
+
+    current_row = OrderedDict()
+    # Copy content of identified columns
+    for csv_column in column_map.values():
+        if csv_column.index is not None and len(row[csv_column.index]) > 0:
+            if csv_column.column_type == "euro":
+                # special case for monetary values: Cast to float to ensure
+                # the decimal point is a dot (instead of a comma)
+                euro_value = row[csv_column.index]
+                try:
+                    euro = locale.atof(euro_value)
+                    if euro.is_integer():
+                        euro = int(euro)
+                    current_row[csv_column.column_type] = str(euro)
+                except ValueError:
+                    msg = MESSAGES["locale"].format(euro_value,
+                                                    csv_column.index)
+                    logging.error("Line {}: {}".format(row_num, msg))
+            else:
+                current_row[csv_column.column_type] = row[csv_column.index]
+        else:
+            current_row[csv_column.column_type] = "NA"
+
+    # include crossref metadata
+    crossref_result = get_metadata_from_crossref(doi)
+    if crossref_result["success"]:
+        logging.info("Crossref: DOI resolved: " + doi)
+        current_row["indexed_in_crossref"] = "TRUE"
+        data = crossref_result["data"]
+        for key, value in data.iteritems():
+            if value is not None:
+                if key == "journal_full_title":
+                    unified_value = get_unified_journal_title(value)
+                    if unified_value != value:
+                        msg = MESSAGES["unify"].format("journal title",
+                                                        value,
+                                                        unified_value)
+                        logging.warning(msg)
+                    new_value = unified_value
+                elif key == "publisher":
+                    unified_value = get_unified_publisher_name(value)
+                    if unified_value != value:
+                        msg = MESSAGES["unify"].format("publisher name",
+                                                        value,
+                                                        unified_value)
+                        logging.warning(msg)
+                    new_value = unified_value
+                else:
+                    new_value = value
+            else:
+                new_value = "NA"
+                logging.debug(u"WARNING: Element '{}' not found in in " +
+                              "response for doi {}.".format(key, doi))
+            old_value = current_row[key]
+            current_row[key] = column_map[key].check_overwrite(old_value, new_value)
+    else:
+        msg = ("Crossref: Error while trying to resolve DOI " + doi +
+               ": " + crossref_result["error_msg"])
+        logging.error("Line {}: {}".format(row_num, error_msg))
+        current_row["indexed_in_crossref"] = "FALSE"
+
+    # include pubmed metadata
+    pubmed_result = get_metadata_from_pubmed(doi)
+    if pubmed_result["success"]:
+        logging.info("Pubmed: DOI resolved: " + doi)
+        data = pubmed_result["data"]
+        for key, value in data.iteritems():
+            if value is not None:
+                new_value = value
+            else:
+                new_value = "NA"
+                logging.debug(u"WARNING: Element '{}' not found in in " +
+                              "response for doi {}.".format(key, doi))
+            old_value = current_row[key]
+            current_row[key] = column_map[key].check_overwrite(old_value, new_value)
+    else:
+        msg = ("Pubmed: Error while trying to resolve DOI " + doi +
+               ": " + pubmed_result["error_msg"])
+        logging.error("Line {}: {}".format(row_num, error_msg))
+
+    # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
+    issns = []
+    if current_row["issn_electronic"] != "NA":
+        issns.append(current_row["issn_electronic"])
+    if current_row["issn"] != "NA":
+        issns.append(current_row["issn"])
+    if current_row["issn_print"] != "NA":
+        issns.append(current_row["issn_print"])
+    for issn in issns:
+        # look up in an offline copy of the DOAJ if requested...
+        if doaj_offline_analysis:
+            lookup_result = doaj_offline_analysis.lookup(issn)
+            if lookup_result:
+                msg = ("DOAJ: Journal ISSN ({}) found in DOAJ " +
+                       "offline copy ('{}').")
+                logging.info(msg.format(issn, lookup_result))
+                current_row["doaj"] = "TRUE"
+                break
+            else:
+                msg = ("DOAJ: Journal ISSN ({}) not found in DOAJ " +
+                       "offline copy.")
+                current_row["doaj"] = "FALSE"
+                logging.info(msg.format(issn))
+        # ...or query the online API
+        else:
+            doaj_res = lookup_journal_in_doaj(issn, bypass_cert_verification)
+            if doaj_res["data_received"]:
+                if doaj_res["data"]["in_doaj"]:
+                    msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
+                    logging.info(msg.format(issn, doaj_res["data"]["title"]))
+                    current_row["doaj"] = "TRUE"
+                    break
+                else:
+                    msg = "DOAJ: Journal ISSN ({}) not found in DOAJ."
+                    logging.info(msg.format(issn))
+                    current_row["doaj"] = "FALSE"
+            else:
+                msg = ("DOAJ: Error while trying to look up ISSN " + issn +
+                       ": " + doaj_res["error_msg"])
+                logging.error("Line {}: {}".format(row_num, msg))
+    return current_row
+
+
 def get_column_type_from_whitelist(column_name):
     """
     Identify a CSV column type by looking up the name in a whitelist.
