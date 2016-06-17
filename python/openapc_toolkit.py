@@ -452,7 +452,7 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
         ret_value['error_msg'] = msg.format(ve.message)
     return ret_value
     
-def process_row(row, row_num, column_map, num_required_columns, doaj_offline_analysis, bypass_cert_verification):
+def process_row(row, row_num, column_map, num_required_columns, doaj_offline_analysis=False, bypass_cert_verification=False):
     
     MESSAGES = {
         "num_columns": "Syntax: the number of values in line {} ({}) " +
@@ -471,8 +471,8 @@ def process_row(row, row_num, column_map, num_required_columns, doaj_offline_ana
     
     if len(row) != num_required_columns:
         msg = MESSAGES["num_columns"].format(row_num,
-                                                   len(row),
-                                                   num_required_columns)
+                                             len(row),
+                                             num_required_columns)
         logging.error("Line {}: {}".format(row_num, msg))
         return row
 
@@ -597,7 +597,7 @@ def process_row(row, row_num, column_map, num_required_columns, doaj_offline_ana
                 msg = ("DOAJ: Error while trying to look up ISSN " + issn +
                        ": " + doaj_res["error_msg"])
                 logging.error("Line {}: {}".format(row_num, msg))
-    return current_row
+    return current_row.values()
 
 
 def get_column_type_from_whitelist(column_name):
