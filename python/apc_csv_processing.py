@@ -7,6 +7,7 @@ from collections import OrderedDict
 import datetime
 import locale
 import logging
+from logging.handlers import MemoryHandler
 import os
 import sys
 
@@ -79,9 +80,11 @@ class CSVColumn(object):
         if ret == "6":
             self.overwrite = CSVColumn.OW_NEVER
             return old_value
-            
-class CustomFormatter(logging.Formatter):
-    
+
+class ANSIColorFormatter(logging.Formatter):
+    """
+    A simple logging formatter using ANSI codes to colorize messages
+    """
     FORMATS = {
         logging.ERROR: "\033[91m%(levelname)s: %(message)s\033[0m",
         logging.WARNING: "\033[93m%(levelname)s: %(message)s\033[0m",
@@ -92,7 +95,22 @@ class CustomFormatter(logging.Formatter):
     def format(self, record):
         self._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
         return logging.Formatter.format(self, record)
-            
+
+class BufferedErrorHandler(MemoryHandler):
+    """
+    A modified MemoryHandler without automatic flushing.
+
+    This handler serves the simple purpose of buffering error and critical
+    log messages so that they can be shown to the user in collected form when
+    the enrichment process has finished.
+    """
+    def __init__(self, target):
+        MemoryHandler.__init__(self, 100000, target=target)
+        self.setLevel(logging.ERROR)
+
+    def shouldFlush(self, record):
+        return False
+
 
 ARG_HELP_STRINGS = {
     "csv_file": "CSV file containing your APC data. It must contain at least " +
@@ -204,11 +222,13 @@ def main():
 
     args = parser.parse_args()
     enc = None # CSV file encoding
-    
 
-    hdlr = logging.StreamHandler(sys.stderr)
-    hdlr.setFormatter(CustomFormatter())
-    logging.root.addHandler(hdlr)
+    handler = logging.StreamHandler(sys.stderr)
+    handler.setFormatter(ANSIColorFormatter())
+    bufferedHandler = BufferedErrorHandler(handler)
+    bufferedHandler.setFormatter(ANSIColorFormatter())
+    logging.root.addHandler(handler)
+    logging.root.addHandler(bufferedHandler)
     logging.root.setLevel(logging.INFO)
 
     if args.locale:
@@ -505,8 +525,6 @@ def main():
 
     enriched_content = []
 
-    error_messages = []
-
     csv_file.seek(0)
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     header_processed = False
@@ -524,10 +542,10 @@ def main():
                 # to get to the first data row
                 continue
         print "---Processing line number " + str(row_num) + "---"
-        current_row = oat.process_row(row, row_num, column_map, num_columns,
-                                      doaj_offline_analysis,
-                                      args.bypass_cert_verification)
-        enriched_content.append(current_row.values())
+        enriched_row = oat.process_row(row, row_num, column_map, num_columns,
+                                       doaj_offline_analysis,
+                                       args.bypass_cert_verification)
+        enriched_content.append(enriched_row)
 
     csv_file.close()
 
@@ -535,12 +553,13 @@ def main():
         writer = oat.OpenAPCUnicodeWriter(out, quotemask, True, True)
         writer.write_rows(enriched_content)
 
-    if not error_messages:
+    if not bufferedHandler.buffer:
         oat.print_g("Metadata enrichment successful, no errors occured")
     else:
         oat.print_r("There were errors during the enrichment process:\n")
-        for msg in error_messages:
-            print msg + "\n"
+    # closing will implicitly flush the handler and print any buffered
+    # messages to stderr
+    bufferedHandler.close()
 
 if __name__ == '__main__':
     main()
