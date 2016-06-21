@@ -6681,11 +6681,11 @@
 "FZJ - ZB",2015,1241.67,"10.1371/journal.pone.0145174",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26674091","PMC4684506","ut:000366722700110",NA,TRUE
 "FZJ - ZB",2015,1350,"10.1371/journal.pone.0143647",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26600248","PMC4658145","ut:000365853900151",NA,TRUE
 "FZJ - ZB",2015,1165,"10.1038/srep19513",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26839261","PMC4738257","ut:000369154900001",NA,TRUE
-"Leibniz-Fonds",2016,1638.63,"10.1002/ece3.1993",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Leibniz-Fonds",2016,1638.63,"10.1002/ece3.1993",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000376149400002",NA,FALSE
 "Leibniz-Fonds",2016,1456.56,"10.1002/ece3.2040",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27069579","PMC4782256","ut:000374052000025",NA,FALSE
 "Leibniz-Fonds",2016,1456.56,"10.1002/ece3.2113",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27092238","PMC4823144",NA,NA,FALSE
 "Leibniz-Fonds",2016,1593.18,"10.1016/j.gecco.2016.02.006",FALSE,"Elsevier BV","Global Ecology and Conservation","23519894","23519894",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
-"Leibniz-Fonds",2016,2543.03,"10.1038/mtna.2016.15",FALSE,"Springer Nature","Molecular Therapy—Nucleic Acids","2162-2531",NA,"2162-2531",NA,TRUE,"27003757",NA,NA,NA,TRUE
+"Leibniz-Fonds",2016,2543.03,"10.1038/mtna.2016.15",FALSE,"Springer Nature","Molecular Therapy—Nucleic Acids","2162-2531",NA,"2162-2531",NA,TRUE,"27003757",NA,"ut:000374465400003",NA,TRUE
 "Leibniz-Fonds",2016,1386.35,"10.1038/srep21029",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26868373","PMC4751523","ut:000369938800002",NA,TRUE
 "Leibniz-Fonds",2016,1386.35,"10.1038/srep21442",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26869057","PMC4751472","ut:000369931100001",NA,TRUE
 "Leibniz-Fonds",2016,1386.35,"10.1038/srep21615",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26857841","PMC4746665","ut:000369661200001",NA,TRUE
@@ -6858,7 +6858,7 @@
 "KIT",2015,1412.45,"10.1371/journal.pone.0137286",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26444552","PMC4596872","ut:000362510600010",NA,TRUE
 "KIT",2015,1490.63,"10.1371/journal.pone.0140955",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26489006","PMC4619345","ut:000363248400084",NA,TRUE
 "KIT",2015,1229.17,"10.1371/journal.pone.0143599",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26606157","PMC4659539","ut:000365865300086",NA,TRUE
-"KIT",2015,2000,"10.1127/metz/2015/0594",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"KIT",2015,2000,"10.1127/metz/2015/0594",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,NA,TRUE,NA,NA,"ut:000376160400008",NA,TRUE
 "KIT",2015,727.58,"10.4236/ape.2015.52010",FALSE,"Scientific Research Publishing, Inc,","Advances in Physical Education","2164-0386","2164-0386","2164-0408","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2015,1260,"10.1186/s13568-015-0107-6",FALSE,"Springer Nature","AMB Express","2191-0855",NA,"2191-0855",NA,TRUE,"25852998","PMC4385232","ut:000358076200001",NA,TRUE
 "KIT",2015,1260,"10.1186/s13568-015-0145-0",FALSE,"Springer Nature","AMB Express","2191-0855",NA,"2191-0855",NA,TRUE,"26297438","PMC4546119","ut:000359926600001",NA,TRUE
@@ -9589,7 +9589,7 @@
 "FWF - Austrian Science Fund",2015,2489.82,"10.1016/j.jorganchem.2015.01.030",TRUE,"Elsevier BV","Journal of Organometallic Chemistry","0022328X","0022328X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25892824","PMC4396856","ut:000351637900017",NA,FALSE
 "FWF - Austrian Science Fund",2015,2489.82,"10.1016/j.jorganchem.2015.01.005",TRUE,"Elsevier BV","Journal of Organometallic Chemistry","0022328X","0022328X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25892823","PMC4396858","ut:000351637900016",NA,FALSE
 "FWF - Austrian Science Fund",2015,3508.16,"10.1016/j.jphotobiol.2015.05.016",TRUE,"Elsevier BV","Journal of Photochemistry and Photobiology B: Biology","10111344","10111344",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26065817","PMC4509709","ut:000358628400017",NA,FALSE
-"FWF - Austrian Science Fund",2015,2582.27,"10.1016/j.jplph.2015.09.002",TRUE,"Elsevier BV","Journal of Plant Physiology","01761617","01761617",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26422081",NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2015,2582.27,"10.1016/j.jplph.2015.09.002",TRUE,"Elsevier BV","Journal of Plant Physiology","01761617","01761617",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26422081",NA,"ut:000375853800002",NA,FALSE
 "FWF - Austrian Science Fund",2015,2657.7,"10.1016/j.jpsychires.2015.02.025",TRUE,"Elsevier BV","Journal of Psychiatric Research","00223956","00223956",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25801734","PMC4415908","ut:000354342000002",NA,FALSE
 "FWF - Austrian Science Fund",2015,1594.62,"10.1016/j.jrp.2015.05.006",TRUE,"Elsevier BV","Journal of Research in Personality","00926566","00926566",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000361776800004",NA,FALSE
 "FWF - Austrian Science Fund",2015,2968.63,"10.1016/j.jsv.2014.12.027",TRUE,"Elsevier BV","Journal of Sound and Vibration","0022460X","0022460X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26023245","PMC4357438","ut:000350997600007",NA,FALSE
@@ -9895,7 +9895,7 @@
 "FWF - Austrian Science Fund",2015,3480,"10.1038/npp.2013.331",TRUE,"Springer Nature","Neuropsychopharmacology","0893-133X","0893-133X","1740-634X",NA,TRUE,"24287719","PMC3988539","ut:000334560600007",NA,FALSE
 "FWF - Austrian Science Fund",2015,3480,"10.1038/npp.2015.163",TRUE,"Springer Nature","Neuropsychopharmacology","0893-133X","0893-133X","1740-634X",NA,TRUE,"26062787",NA,"ut:000366599400006",NA,FALSE
 "FWF - Austrian Science Fund",2015,3240,"10.1038/onc.2014.450",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594",NA,TRUE,"25639866","PMC4430320","ut:000363479200004",NA,FALSE
-"FWF - Austrian Science Fund",2015,3240,"10.1038/onc.2015.292",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594",NA,TRUE,"26257066",NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2015,3240,"10.1038/onc.2015.292",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594",NA,TRUE,"26257066",NA,"ut:000376165000005",NA,FALSE
 "FWF - Austrian Science Fund",2015,3120,"10.1038/tpj.2015.2",TRUE,"Springer Nature","The Pharmacogenomics Journal","1470-269X","1470-269X","1473-1150",NA,TRUE,"25665511","PMC4762902","ut:000361835900002",NA,FALSE
 "FWF - Austrian Science Fund",2015,1398,"10.1038/srep11017",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26047332","PMC4650644","ut:000355875600002",NA,TRUE
 "FWF - Austrian Science Fund",2015,1398,"10.1038/srep09970",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26066467","PMC4464346","ut:000356134900001",NA,TRUE
@@ -10170,7 +10170,7 @@
 "FWF - Austrian Science Fund",2015,2640,"10.1007/s00426-015-0656-y",TRUE,"Springer Nature","Psychological Research","0340-0727","0340-0727","1430-2772",NA,TRUE,"25758054","PMC4629411","ut:000372171600007",NA,FALSE
 "FWF - Austrian Science Fund",2015,2200,"10.1007/s11136-015-1107-3",TRUE,"Springer Nature","Quality of Life Research","0962-9343","0962-9343","1573-2649",NA,TRUE,"26353905","PMC4759250","ut:000370796700011",NA,FALSE
 "FWF - Austrian Science Fund",2015,2640,"10.1007/s10113-014-0653-5",TRUE,"Springer Nature","Regional Environmental Change","1436-3798","1436-3798","1436-378X",NA,TRUE,"25821403","PMC4372142","ut:000347705300009",NA,FALSE
-"FWF - Austrian Science Fund",2015,2640,"10.1007/s10270-014-0435-z",TRUE,"Springer Nature","Software & Systems Modeling","1619-1366","1619-1366","1619-1374","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2015,2640,"10.1007/s10270-014-0435-z",TRUE,"Springer Nature","Software & Systems Modeling","1619-1366","1619-1366","1619-1374","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000374567800004",NA,FALSE
 "FWF - Austrian Science Fund",2015,2640,"10.1007/s00477-015-1067-8",TRUE,"Springer Nature","Stochastic Environmental Research and Risk Assessment","1436-3240","1436-3240","1436-3259",NA,TRUE,NA,NA,"ut:000371317700005",NA,FALSE
 "FWF - Austrian Science Fund",2015,2618,"10.1007/s11229-015-0799-9",TRUE,"Springer Nature","Synthese","0039-7857","0039-7857","1573-0964",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2200,"10.1007/s00214-014-1600-8",TRUE,"Springer Nature","Theoretical Chemistry Accounts","1432-881X","1432-881X","1432-2234",NA,TRUE,"26097404","PMC4470580","ut:000352087600001",NA,FALSE
@@ -10336,10 +10336,10 @@
 "FWF - Austrian Science Fund",2015,1223.64,"10.1107/S160057751402284X",TRUE,"International Union of Crystallography (IUCr)","Journal of Synchrotron Radiation","1600-5775",NA,"1600-5775",NA,TRUE,"25537589","PMC4294024","ut:000346850200010",NA,FALSE
 "FWF - Austrian Science Fund",2015,2790.31,"10.1111/jace.13758",TRUE,"Wiley-Blackwell","Journal of the American Ceramic Society","00027820",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000362599000015",NA,FALSE
 "FWF - Austrian Science Fund",2015,2762.43,"10.1111/jth.12884",TRUE,"Wiley-Blackwell","Journal of Thrombosis and Haemostasis","15387933",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25715026",NA,"ut:000355746100027",NA,FALSE
-"FWF - Austrian Science Fund",2015,3214.28,"10.1111/ahe.12190",TRUE,"Wiley-Blackwell","Anatomia, Histologia, Embryologia","03402096",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26287450",NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2015,3214.28,"10.1111/ahe.12190",TRUE,"Wiley-Blackwell","Anatomia, Histologia, Embryologia","03402096",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26287450",NA,"ut:000375674100008",NA,FALSE
 "FWF - Austrian Science Fund",2015,3332.36,"10.1111/jzs.12110",TRUE,"Wiley-Blackwell","Journal of Zoological Systematics and Evolutionary Research","09475745",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000362449200004",NA,FALSE
 "FWF - Austrian Science Fund",2015,3202.56,"10.1111/jzs.12112",TRUE,"Wiley-Blackwell","Journal of Zoological Systematics and Evolutionary Research","09475745",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000372064400003",NA,FALSE
-"FWF - Austrian Science Fund",2015,2812.68,"10.1002/lno.10241",TRUE,"Wiley-Blackwell","Limnology and Oceanography","00243590",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2015,2812.68,"10.1002/lno.10241",TRUE,"Wiley-Blackwell","Limnology and Oceanography","00243590",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000375748400001",NA,FALSE
 "FWF - Austrian Science Fund",2015,1728.03,"10.1002/mrm.24760",TRUE,"Wiley-Blackwell","Magnetic Resonance in Medicine","07403194",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"23606167","PMC4180725","ut:000331614600013",NA,FALSE
 "FWF - Austrian Science Fund",2015,3235.43,"10.1111/meca.12085",TRUE,"Wiley-Blackwell","Metroeconomica","00261386",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000362375700003",NA,FALSE
 "FWF - Austrian Science Fund",2015,2925.52,"10.1002/mc.22252",TRUE,"Wiley-Blackwell","Molecular Carcinogenesis","08991987",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25491945",NA,"ut:000363480000025",NA,FALSE
@@ -10424,7 +10424,7 @@
 "MDC",2015,1253,"10.1371/journal.pone.0141214",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26485708","PMC4617279","ut:000363028100123",NA,TRUE
 "MDC",2015,4552,"10.1016/j.stemcr.2015.10.003",FALSE,"Elsevier BV","Stem Cell Reports","22136711","22136711",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26549850","PMC4682088","ut:000366142900006",NA,FALSE
 "MDC",2015,1607,"10.1016/j.ydbio.2015.10.009",TRUE,"Elsevier BV","Developmental Biology","00121606","00121606",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26453796",NA,"ut:000366956700011",NA,FALSE
-"MDC",2015,877,"10.18632/oncotarget.6793",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,"26760764",NA,NA,NA,FALSE
+"MDC",2015,877,"10.18632/oncotarget.6793",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,"26760764",NA,"ut:000376123100025",NA,FALSE
 "MDC",2015,2564,"10.1038/mtna.2015.52",FALSE,"Springer Nature","Molecular Therapy—Nucleic Acids","2162-2531",NA,"2162-2531",NA,TRUE,"26784637",NA,"ut:000369332700001",NA,TRUE
 "MDC",2015,4662,"10.1016/j.celrep.2015.11.011",FALSE,"Elsevier BV","Cell Reports","22111247","22111247",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26670044","PMC4688033","ut:000366534300008",NA,FALSE
 "MDC",2015,2190,"10.1038/cddis.2015.20",FALSE,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889",NA,TRUE,"25741600","PMC4385913","ut:000353723300009",NA,TRUE
@@ -10804,7 +10804,7 @@
 "Giessen U",2016,1503.35,"10.1186/s12885-016-2087-6",FALSE,"Springer Nature","BMC Cancer","1471-2407",NA,"1471-2407",NA,TRUE,"26833217","PMC4736155","ut:000370009800002",NA,TRUE
 "Giessen U",2016,1503.35,"10.1186/s12881-016-0281-7",FALSE,"Springer Nature","BMC Medical Genetics","1471-2350",NA,"1471-2350",NA,TRUE,"26936445","PMC4776392","ut:000371271800001",NA,TRUE
 "Giessen U",2016,1503.35,"10.1186/s12864-016-2580-y",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"27025377","PMC4812617","ut:000373558700001",NA,TRUE
-"Giessen U",2016,1717.34,"10.1186/s13227-016-0046-6",FALSE,"Springer Nature","EvoDevo","2041-9139",NA,"2041-9139",NA,TRUE,"27076904","PMC4830062",NA,NA,TRUE
+"Giessen U",2016,1717.34,"10.1186/s13227-016-0046-6",FALSE,"Springer Nature","EvoDevo","2041-9139",NA,"2041-9139",NA,TRUE,"27076904","PMC4830062","ut:000374673500001",NA,TRUE
 "Giessen U",2016,1503.35,"10.1186/s12864-016-2602-9",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"27107716","PMC4842269","ut:000374946400001",NA,TRUE
 "Giessen U",2015,3749.32,"10.1167/15.8.22",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362","1534-7362",NA,NA,TRUE,"26129860",NA,"ut:000361549200022",NA,TRUE
 "Giessen U",2016,1106.7,"10.5194/bg-13-1149-2016",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000372082200018",NA,TRUE
@@ -10836,7 +10836,291 @@
 "Giessen U",2016,2029.16,"10.3389/fmars.2016.00053",FALSE,"Frontiers Media SA","Frontiers in Marine Science","2296-7745",NA,"2296-7745",NA,TRUE,NA,NA,NA,NA,TRUE
 "Giessen U",2016,1386.35,"10.1038/srep24288",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"27068448","PMC4828675","ut:000373768700002",NA,TRUE
 "Giessen U",2016,1587.85,"10.1371/journal.pone.0151991",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27015428","PMC4807783","ut:000372708900037",NA,TRUE
-"Giessen U",2016,1569.85,"10.1371/journal.pone.0153138",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27073838","PMC4830558",NA,NA,TRUE
-"Giessen U",2016,1523.17,"10.3389/fpls.2016.00613",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,NA,NA,NA,NA,TRUE
+"Giessen U",2016,1569.85,"10.1371/journal.pone.0153138",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27073838","PMC4830558","ut:000374131200052",NA,TRUE
+"Giessen U",2016,1523.17,"10.3389/fpls.2016.00613",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,NA,NA,"ut:000375974300001",NA,TRUE
 "Giessen U",2016,1513.45,"10.3389/fnhum.2016.00227",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,NA,NA,NA,NA,TRUE
 "Giessen U",2015,2495.52,"10.1167/15.16.1",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362","1534-7362",NA,NA,TRUE,"26624936",NA,"ut:000368253000001",NA,TRUE
+"Dortmund TU",2015,1634.92,"10.3390/ma8063012",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944",NA,TRUE,NA,NA,"ut:000357588900010",NA,TRUE
+"Dortmund TU",2015,4403,"10.1038/ncomms8349",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26076946","PMC4490580","ut:000357173300008",NA,TRUE
+"Dortmund TU",2015,1527.25,"10.3390/s150100214",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"25609043","PMC4327015","ut:000348309400012",NA,TRUE
+"Dortmund TU",2015,1504.78,"10.3389/fmicb.2015.01042",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"26483771","PMC4589675","ut:000363378000001",NA,TRUE
+"Dortmund TU",2015,1568.91,"10.3389/fpsyg.2015.01623",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26539152","PMC4611085","ut:000363864200001",NA,TRUE
+"Dortmund TU",2015,2029.28,"10.3389/fnins.2015.00341",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X",NA,TRUE,"26483623","PMC4586946","ut:000362217200001",NA,TRUE
+"Dortmund TU",2015,972.94,"10.3390/mi6121459",FALSE,"MDPI AG","Micromachines","2072-666X",NA,"2072-666X",NA,TRUE,NA,NA,"ut:000367532600002",NA,TRUE
+"Dortmund TU",2015,1641.82,"10.1371/journal.pone.0144981",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26701782","PMC4689373","ut:000367092600039",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015018757",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26594529","PMC4645043","ut:000370761400006",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015018149",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26594527","PMC4645014","ut:000370761400004",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015016965",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26594462","PMC4647413","ut:000370082200040",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015016813",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26594453","PMC4647418","ut:000370082200031",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015010221",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26279895","PMC4518957","ut:000369981000007",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015009160",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26090151","PMC4459299","ut:000369979300079",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015008713",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26090183","PMC4459354","ut:000369979300020",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015008105",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"25995881","PMC4420053","ut:000369977900106",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015022707",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26870476","PMC4719957","ut:000370762300103",NA,TRUE
+"Dortmund TU",2015,174.7,"10.1107/S2056989015020307",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890",NA,TRUE,"26870519","PMC4719872","ut:000370762300037",NA,TRUE
+"Dortmund TU",2015,1142.4,"10.3389/fpsyg.2015.01994",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26779096","PMC4705295",NA,NA,TRUE
+"Dortmund TU",2015,1581.33,"10.1016/j.jal.2015.03.006",TRUE,"Elsevier BV","Journal of Applied Logic","15708683","15708683",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000366072300004",NA,FALSE
+"Bremen U",2011,1149.54,"10.5194/acp-11-2671-2011",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000288982300016",NA,TRUE
+"Bremen U",2011,913.92,"10.5194/amt-5-1059-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000304057300011",NA,TRUE
+"Bremen U",2011,1242.36,"10.5194/cp-7-1209-2011",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000298493300009",NA,TRUE
+"Bremen U",2011,900,"10.3389/fnhum.2011.00120",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"22025912","PMC3198031","ut:000296775700001",NA,TRUE
+"Bremen U",2011,1350,"10.1186/1471-2164-11-705",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,"21159186","PMC3016420","ut:000285918300001",NA,TRUE
+"Bremen U",2011,1621.97,"10.5194/cp-8-37-2012",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000300878100004",NA,TRUE
+"Bremen U",2011,1035.3,"10.5194/cp-8-841-2012",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000304059700031",NA,TRUE
+"Bremen U",2011,1123.36,"10.5194/amt-4-2389-2011",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000298135800003",NA,TRUE
+"Bremen U",2011,1076,"10.1186/1471-244X-11-190",FALSE,"Springer Science + Business Media","BMC Psychiatry","1471-244X","1471-244X",NA,NA,TRUE,"22145796","PMC3262154","ut:000299285000001",NA,TRUE
+"Bremen U",2011,1040,"10.1186/1472-6890-11-13",FALSE,"Springer Science + Business Media","BMC Clinical Pathology","1472-6890","1472-6890",NA,NA,TRUE,"22050638","PMC3229435",NA,NA,TRUE
+"Bremen U",2011,1064,"10.1186/1471-2091-12-39",FALSE,"Springer Science + Business Media","BMC Biochemistry","1471-2091","1471-2091",NA,NA,TRUE,"21801439","PMC3173295","ut:000294896400001",NA,TRUE
+"Bremen U",2011,1237.6,"10.5194/amt-4-1735-2011",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000295367700003",NA,TRUE
+"Bremen U",2011,135,"10.1107/S160053681100660X",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368",NA,TRUE,"21522470","PMC3052014","ut:000287820000243",NA,TRUE
+"Bremen U",2011,1088,"10.1186/1472-6963-11-193",FALSE,"Springer Science + Business Media","BMC Health Services Research","1472-6963","1472-6963",NA,NA,TRUE,"21849031","PMC3170186","ut:000294735400002",NA,TRUE
+"Bremen U",2011,1199.52,"10.5194/acp-11-10765-2011",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000296967900001",NA,TRUE
+"Bremen U",2011,599.76,"10.5194/tcd-5-1239-2011",FALSE,"Copernicus GmbH","The Cryosphere Discussions","1994-0440",NA,"1994-0440",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2011,437.92,"10.5194/amt-4-2567-2011",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000298135800013",NA,TRUE
+"Bremen U",2011,1112,"10.1186/1471-2393-11-63",FALSE,"Springer Science + Business Media","BMC Pregnancy and Childbirth","1471-2393","1471-2393",NA,NA,TRUE,"21936931","PMC3188470","ut:000296477500001",NA,TRUE
+"Bremen U",2011,1064,"10.1186/1471-2458-11-727",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458","1471-2458",NA,NA,TRUE,"21943100","PMC3189891","ut:000295793200001",NA,TRUE
+"Bremen U",2011,1308,"10.1364/OE.19.019422",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"21996883",NA,"ut:000295373800067",NA,TRUE
+"Bremen U",2011,1040,"10.1186/1471-2458-11-849",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458","1471-2458",NA,NA,TRUE,"22067135","PMC3282827","ut:000300440900001",NA,TRUE
+"Bremen U",2011,685.44,"10.5194/amt-4-2809-2011",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000298492400014",NA,TRUE
+"Bremen U",2011,640,"10.1186/2190-4715-23-32",FALSE,"Springer Science + Business Media","Environmental Sciences Europe","2190-4715","2190-4715",NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2011,1056.72,"10.5194/acp-11-11221-2011",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000296967900028",NA,TRUE
+"Bremen U",2011,1000,"10.1371/journal.pone.0018837",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21533145","PMC3077414","ut:000289505600035",NA,TRUE
+"Bremen U",2011,1211,"10.1186/2041-9139-1-13",FALSE,"Springer Science + Business Media","EvoDevo","2041-9139","2041-9139",NA,NA,TRUE,"21122096","PMC3012024","ut:000208517600013",NA,TRUE
+"Bremen U",2011,1242.36,"10.5194/acp-11-12149-2011",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000298134300015",NA,TRUE
+"Bremen U",2011,1072,"10.1186/1471-2334-11-348",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334","1471-2334",NA,NA,TRUE,"22168604","PMC3274486","ut:000300065400001",NA,TRUE
+"Bremen U",2011,680.74,"10.4172/2155-9589.S4-001",FALSE,"OMICS Publishing Group","Journal of Membrane Science & Technology","21559589",NA,"21559589",NA,TRUE,NA,NA,NA,NA,FALSE
+"Bremen U",2012,828.24,"10.5194/acp-12-3261-2012",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000302806700009",NA,TRUE
+"Bremen U",2012,437.92,"10.5194/amt-5-1349-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000305837600010",NA,TRUE
+"Bremen U",2012,655.69,"10.5194/amt-5-1965-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000308288400008",NA,TRUE
+"Bremen U",2012,942.48,"10.5194/amt-5-1319-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000305837600008",NA,TRUE
+"Bremen U",2012,942.48,"10.5194/acp-12-8813-2012",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000309424300032",NA,TRUE
+"Bremen U",2012,1415,"10.1186/1472-6963-12-47",FALSE,"Springer Science + Business Media","BMC Health Services Research","1472-6963","1472-6963",NA,NA,TRUE,"22364554","PMC3306200","ut:000301931200001",NA,TRUE
+"Bremen U",2012,1299.48,"10.5194/tc-6-1411-2012",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424",NA,TRUE,NA,NA,"ut:000312698800014",NA,TRUE
+"Bremen U",2012,1113.84,"10.5194/acp-12-5633-2012",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000305835900020",NA,TRUE
+"Bremen U",2012,780.64,"10.5194/os-8-1055-2012",FALSE,"Copernicus GmbH","Ocean Science","1812-0792",NA,"1812-0792",NA,TRUE,NA,NA,"ut:000312698600009",NA,TRUE
+"Bremen U",2012,856.8,"10.5194/amt-5-2499-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000310468300015",NA,TRUE
+"Bremen U",2012,1085.28,"10.5194/acp-12-6565-2012",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000306808300032",NA,TRUE
+"Bremen U",2012,2024.27,"10.1371/journal.pcbi.1002520",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"22654653","PMC3360074","ut:000305964600027",NA,TRUE
+"Bremen U",2012,476,"10.5194/amt-5-1627-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000306975500009",NA,TRUE
+"Bremen U",2012,1207.85,"10.5194/amtd-5-2645-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2012,1285.2,"10.5194/amt-5-1935-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000308288400006",NA,TRUE
+"Bremen U",2012,1113.84,"10.5194/amt-5-2867-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000311804400023",NA,TRUE
+"Bremen U",2012,1092,"10.1186/1472-6874-12-2",FALSE,"Springer Science + Business Media","BMC Women's Health","1472-6874","1472-6874",NA,NA,TRUE,"22233735","PMC3276409","ut:000313497800001",NA,TRUE
+"Bremen U",2012,940,"10.1186/1467-4866-13-2",FALSE,"Springer Science + Business Media","Geochemical Transactions","1467-4866","1467-4866",NA,NA,TRUE,"22283983","PMC3355016","ut:000304721000001",NA,TRUE
+"Bremen U",2012,1214.56,"10.1371/journal.pone.0032414",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22448219","PMC3308957","ut:000303855700009",NA,TRUE
+"Bremen U",2012,449.84,"10.4236/ojms.2012.24014",FALSE,"Scientific Research Publishing, Inc,","Open Journal of Marine Science","2161-7384","2161-7384","2161-7392","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bremen U",2012,1028.16,"10.5194/amt-5-2375-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000310468300006",NA,TRUE
+"Bremen U",2012,1214.56,"10.1371/journal.pone.0040562",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22876281","PMC3410887","ut:000307184700009",NA,TRUE
+"Bremen U",2012,1173.34,"10.5194/cpd-8-2819-2012",FALSE,"Copernicus GmbH","Climate of the Past Discussions","1814-9359",NA,"1814-9359",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2012,1152.81,"10.1186/2041-1480-3-S2-S3",FALSE,"Springer Science + Business Media","Journal of Biomedical Semantics","2041-1480","2041-1480",NA,NA,TRUE,"23046572","PMC3448532",NA,NA,TRUE
+"Bremen U",2012,1342.32,"10.5194/acp-12-11179-2012",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000312411300036",NA,TRUE
+"Bremen U",2012,1228.08,"10.5194/amtd-5-5993-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques Discussions","1867-8610",NA,"1867-8610",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2012,1170.96,"10.5194/bg-9-2127-2012",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189",NA,TRUE,NA,NA,"ut:000305830000013",NA,TRUE
+"Bremen U",2012,1586.67,"10.3390/s121114292",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"23202160","PMC3522913","ut:000311429500003",NA,TRUE
+"Bremen U",2012,824.67,"10.5194/amt-5-517-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000302178500002",NA,TRUE
+"Bremen U",2012,856.8,"10.5194/amt-5-1551-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000306975500004",NA,TRUE
+"Bremen U",2012,1085.28,"10.5194/acp-12-6741-2012",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000308287000004",NA,TRUE
+"Bremen U",2012,837.76,"10.5194/amt-5-771-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000304056200006",NA,TRUE
+"Bremen U",2012,999.6,"10.5194/acp-12-815-2012",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000300321500014",NA,TRUE
+"Bremen U",2012,913.92,"10.5194/acp-12-1527-2012",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000300656500020",NA,TRUE
+"Bremen U",2012,966.28,"10.5194/cp-8-391-2012",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000304059700001",NA,TRUE
+"Bremen U",2012,1599.36,"10.5194/amt-5-1271-2012",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000305837600006",NA,TRUE
+"Bremen U",2013,828.24,"10.5194/cp-9-1181-2013",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000322859700012",NA,TRUE
+"Bremen U",2013,946.65,"10.1186/1471-2105-13-S16-S11",FALSE,"Springer Science + Business Media","BMC Bioinformatics",NA,"1471-2105",NA,NA,FALSE,"23176142","PMC3489526","ut:000312714500011",NA,TRUE
+"Bremen U",2013,1000.79,"10.5194/bg-10-4073-2013",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189",NA,TRUE,NA,NA,"ut:000321122700040",NA,TRUE
+"Bremen U",2013,1863.54,"10.5194/cp-9-2231-2013",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000326597800012",NA,TRUE
+"Bremen U",2013,655.69,"10.5194/tc-7-1325-2013",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424",NA,TRUE,NA,NA,"ut:000323985700021",NA,TRUE
+"Bremen U",2013,1242.36,"10.5194/bg-10-5125-2013",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189",NA,TRUE,NA,NA,"ut:000324617300004",NA,TRUE
+"Bremen U",2013,471.66,"10.1155/2013/359074",FALSE,"Hindawi Publishing Corporation","Mathematical Problems in Engineering","1024-123X","1024-123X","1563-5147","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000315261900001",NA,TRUE
+"Bremen U",2013,1041.99,"10.1371/journal.pone.0058940",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23536838","PMC3594201","ut:000316251100103",NA,TRUE
+"Bremen U",2013,942.48,"10.5194/amt-6-3055-2013",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000327815900008",NA,TRUE
+"Bremen U",2013,1548.46,"10.1371/journal.pone.0062177",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23637997","PMC3634807","ut:000318340400082",NA,TRUE
+"Bremen U",2013,1548.46,"10.1371/journal.pone.0066997",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23818974","PMC3688578","ut:000322342800112",NA,TRUE
+"Bremen U",2013,913.92,"10.5194/amt-6-2825-2013",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000326547100019",NA,TRUE
+"Bremen U",2013,2341.92,"10.5194/amt-6-3477-2013",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000328263800010",NA,TRUE
+"Bremen U",2013,1548.46,"10.1371/journal.pone.0068051",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23840810","PMC3695934","ut:000321148400159",NA,TRUE
+"Bremen U",2013,1548.46,"10.1107/S160053681301711X",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368",NA,TRUE,"24046703","PMC3770418",NA,NA,TRUE
+"Bremen U",2013,1200,"10.1080/21642583.2013.817959",FALSE,"Informa UK Limited","Systems Science & Control Engineering","2164-2583",NA,"2164-2583",NA,TRUE,NA,NA,NA,NA,FALSE
+"Bremen U",2013,242.18,"10.3390/g4030398",FALSE,"MDPI AG","Games","2073-4336",NA,"2073-4336",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2013,1170.96,"10.5194/bg-10-6639-2013",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189",NA,TRUE,NA,NA,"ut:000326470500031",NA,TRUE
+"Bremen U",2013,1455.8,"10.3390/s130810944",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"23966190","PMC3812636","ut:000328624800069",NA,TRUE
+"Bremen U",2013,1548.46,"10.1371/journal.pone.0076601",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24204643","PMC3812208","ut:000326270700007",NA,TRUE
+"Bremen U",2013,1548.46,"10.1371/journal.pone.0077590",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24223716","PMC3818376","ut:000326597400009",NA,TRUE
+"Bremen U",2013,1548.46,"10.1371/journal.pone.0077498",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24143238","PMC3797083","ut:000325894100076",NA,TRUE
+"Bremen U",2013,1548.46,"10.1371/journal.pone.0080303",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24324594","PMC3855616","ut:000328566700005",NA,TRUE
+"Bremen U",2013,1600,"10.3389/fncom.2013.00170",FALSE,"Frontiers Media SA","Frontiers in Computational Neuroscience","1662-5188",NA,"1662-5188",NA,TRUE,"24312047","PMC3835974","ut:000327820000001",NA,TRUE
+"Bremen U",2013,1548.46,"10.1371/journal.pntd.0002549",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"24340108","PMC3855035","ut:000329168100009",NA,TRUE
+"Bremen U",2013,1548.46,"10.1167/13.14.5",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362",NA,"1534-7362",NA,TRUE,"24306854",NA,"ut:000335662100005",NA,TRUE
+"Bremen U",2013,1192,"10.1186/1471-244X-13-11",FALSE,"Springer Science + Business Media","BMC Psychiatry","1471-244X","1471-244X",NA,NA,TRUE,"23294623","PMC3544568","ut:000313708500002",NA,TRUE
+"Bremen U",2013,840,"10.1186/1687-6180-2013-70",FALSE,"Springer Science + Business Media","EURASIP Journal on Advances in Signal Processing","1687-6180","1687-6180",NA,NA,TRUE,NA,NA,"ut:000320949200001",NA,TRUE
+"Bremen U",2013,1211.25,"10.1186/1479-5868-10-65",FALSE,"Springer Science + Business Media","International Journal of Behavioral Nutrition and Physical Activity","1479-5868","1479-5868",NA,NA,TRUE,"23714200","PMC3686694","ut:000320712500001",NA,TRUE
+"Bremen U",2013,982.5,"10.1186/1755-8166-6-23",FALSE,"Springer Science + Business Media","Molecular Cytogenetics","1755-8166","1755-8166",NA,NA,TRUE,"23738817","PMC3712005","ut:000321781400001",NA,TRUE
+"Bremen U",2013,1308.75,"10.1186/1742-9994-10-43",FALSE,"Springer Science + Business Media","Frontiers in Zoology","1742-9994","1742-9994",NA,NA,TRUE,"23895372","PMC3734144","ut:000322713900001",NA,TRUE
+"Bremen U",2013,652,"10.1186/1756-0500-5-703",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500","1756-0500",NA,NA,TRUE,"23273039","PMC3544606",NA,NA,TRUE
+"Bremen U",2013,1456.56,"10.5194/amt-6-1503-2013",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000322545400004",NA,TRUE
+"Bremen U",2013,1725.5,"10.5194/cp-9-789-2013",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000317009700018",NA,TRUE
+"Bremen U",2013,1799.28,"10.5194/amt-6-565-2013",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000317011200005",NA,TRUE
+"Bremen U",2013,1449.42,"10.5194/acp-13-5731-2013",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000320380200022",NA,TRUE
+"Bremen U",2013,656.88,"10.5194/acp-13-1771-2013",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000315406600005",NA,TRUE
+"Bremen U",2013,931.77,"10.5194/tc-7-657-2013",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424",NA,TRUE,NA,NA,"ut:000321181800003",NA,TRUE
+"Bremen U",2013,1656.48,"10.5194/cp-9-841-2013",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000317009700021",NA,TRUE
+"Bremen U",2013,1342.32,"10.5194/amt-6-151-2013",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000315176400013",NA,TRUE
+"Bremen U",2013,942,"10.5194/amt-6-1623-2013",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000322546800004",NA,TRUE
+"Bremen U",2013,1000.79,"10.5194/cp-9-1683-2013",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332",NA,TRUE,NA,NA,"ut:000323412600021",NA,TRUE
+"Bremen U",2013,1256.64,"10.5194/acp-13-1203-2013",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000315406100008",NA,TRUE
+"Bremen U",2013,862.75,"10.5194/os-9-431-2013",FALSE,"Copernicus GmbH","Ocean Science","1812-0792",NA,"1812-0792",NA,TRUE,NA,NA,"ut:000320348700015",NA,TRUE
+"Bremen U",2013,685.44,"10.5194/acp-13-2445-2013",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000316960500010",NA,TRUE
+"Bremen U",2013,1770.72,"10.5194/acp-13-4145-2013",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000318428300013",NA,TRUE
+"Bremen U",2013,1621.97,"10.5194/bg-10-3421-2013",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189",NA,TRUE,NA,NA,"ut:000319838200038",NA,TRUE
+"Bremen U",2013,1690.99,"10.5194/bg-9-2013-2012",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189",NA,TRUE,NA,NA,"ut:000305830000006",NA,TRUE
+"Bremen U",2013,1285.2,"10.5194/acp-13-1809-2013",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000315406600008",NA,TRUE
+"Bremen U",2014,669.38,"10.1080/21642583.2014.999389",FALSE,"Informa UK Limited","Systems Science & Control Engineering","2164-2583",NA,"2164-2583",NA,TRUE,NA,NA,NA,NA,FALSE
+"Bremen U",2014,1038.46,"10.1371/journal.pone.0086914",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24551043","PMC3923715","ut:000331266000006",NA,TRUE
+"Bremen U",2014,1038.46,"10.1371/journal.pone.0086527",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24516534","PMC3916325","ut:000330830700009",NA,TRUE
+"Bremen U",2014,1038.46,"10.1371/journal.pone.0088126",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24516594","PMC3917869","ut:000330834400033",NA,TRUE
+"Bremen U",2014,1342.32,"10.5194/acp-14-10193-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000344165600003",NA,TRUE
+"Bremen U",2014,1323.78,"10.1103/PhysRevX.4.011047",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000333466900002",NA,TRUE
+"Bremen U",2014,1098.46,"10.1155/2014/934176",FALSE,"Hindawi Publishing Corporation","Mathematical Problems in Engineering","1024-123X","1024-123X","1563-5147","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000333629200001",NA,TRUE
+"Bremen U",2014,1038.46,"10.1371/journal.pone.0092148",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24663038","PMC3963880","ut:000333459900044",NA,TRUE
+"Bremen U",2014,1038.46,"10.1371/journal.pone.0093090",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24743324","PMC3990531","ut:000335309100012",NA,TRUE
+"Bremen U",2014,1276.87,"10.5194/amt-7-3295-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000344732200005",NA,TRUE
+"Bremen U",2014,1098.46,"10.1155/2014/360862",FALSE,"Hindawi Publishing Corporation","Mathematical Problems in Engineering","1024-123X","1024-123X","1563-5147","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000337412600001",NA,TRUE
+"Bremen U",2014,1904,"10.3389/fnagi.2014.00057",FALSE,"Frontiers Media SA","Frontiers in Aging Neuroscience","1663-4365",NA,"1663-4365",NA,TRUE,"24778615","PMC3985030","ut:000333755800001",NA,TRUE
+"Bremen U",2014,549.23,"10.1155/2014/901861",FALSE,"Hindawi Publishing Corporation","Mathematical Problems in Engineering","1024-123X","1024-123X","1563-5147","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000335775200001",NA,TRUE
+"Bremen U",2014,1038.46,"10.1371/journal.pone.0097738",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24844305","PMC4028300","ut:000339563400053",NA,TRUE
+"Bremen U",2014,1038.46,"10.1371/journal.pone.0097126",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24824517","PMC4019660","ut:000336369200062",NA,TRUE
+"Bremen U",2014,1342.32,"10.5194/amt-7-4203-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000345782000012",NA,TRUE
+"Bremen U",2014,656.88,"10.5194/acp-14-12803-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000346140100012",NA,TRUE
+"Bremen U",2014,2320.23,"10.1136/bmjopen-2014-005095",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"24871540","PMC4039806","ut:000336976900017",NA,TRUE
+"Bremen U",2014,1764.32,"10.3390/s140712387",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"25014099","PMC4168428","ut:000340035700059",NA,TRUE
+"Bremen U",2014,1587.46,"10.5194/bg-11-6029-2014",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000344649700003",NA,TRUE
+"Bremen U",2014,1170.96,"10.5194/amt-7-4133-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000345782000008",NA,TRUE
+"Bremen U",2014,960,"10.3389/fnhum.2014.00414",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24959132","PMC4051263","ut:000339607800001",NA,TRUE
+"Bremen U",2014,1142.4,"10.3389/fnsys.2014.00151",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137",NA,TRUE,"25202240","PMC4142542",NA,NA,TRUE
+"Bremen U",2014,111.6,"10.1107/S1600536814017711",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368",NA,TRUE,"25309157","PMC4186136",NA,NA,TRUE
+"Bremen U",2014,1563.66,"10.1002/2014EF000265",FALSE,"Wiley-Blackwell","Earth's Future","23284277",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000358136100006",NA,FALSE
+"Bremen U",2014,999.5,"10.5194/acp-14-13739-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000347957100017",NA,TRUE
+"Bremen U",2014,1968,"10.1186/1472-6939-15-73",FALSE,"Springer Science + Business Media","BMC Medical Ethics","1472-6939","1472-6939",NA,NA,TRUE,"25288039","PMC4196023","ut:000359401400001",NA,TRUE
+"Bremen U",2014,1774.92,"10.3390/s141120372",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"25356643","PMC4279488","ut:000345562800025",NA,TRUE
+"Bremen U",2014,1904,"10.3389/fevo.2014.00064",FALSE,"Frontiers Media SA","Frontiers in Ecology and Evolution","2296-701X",NA,"2296-701X",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2014,1038.46,"10.1371/journal.pone.0113184",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25437855","PMC4249839","ut:000347114900033",NA,TRUE
+"Bremen U",2014,1069.81,"10.5194/acpd-14-25869-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2014,1780.64,"10.3390/s150100832",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"25569757","PMC4327052","ut:000348309400049",NA,TRUE
+"Bremen U",2014,1347.68,"10.1186/1471-2318-14-20",FALSE,"Springer Science + Business Media","BMC Geriatrics","1471-2318","1471-2318",NA,NA,TRUE,"24520876","PMC3937236","ut:000333086500002",NA,TRUE
+"Bremen U",2014,1356.6,"10.1186/1472-6963-14-97",FALSE,"Springer Science + Business Media","BMC Health Services Research","1472-6963","1472-6963",NA,NA,TRUE,"24581043","PMC3946022",NA,NA,TRUE
+"Bremen U",2014,1347.68,"10.1186/1471-2458-14-229",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458","1471-2458",NA,NA,TRUE,"24597565","PMC3996039","ut:000334553000001",NA,TRUE
+"Bremen U",2014,1356.6,"10.1186/1471-2318-14-70",FALSE,"Springer Science + Business Media","BMC Geriatrics","1471-2318","1471-2318",NA,NA,TRUE,"24884813","PMC4046081","ut:000336993700001",NA,TRUE
+"Bremen U",2014,1195.95,"10.1186/1755-8166-7-19",FALSE,"Springer Science + Business Media","Molecular Cytogenetics","1755-8166","1755-8166",NA,NA,TRUE,"24593849","PMC3996012","ut:000334808900001",NA,TRUE
+"Bremen U",2014,1419.08,"10.1186/1471-2431-14-174",FALSE,"Springer Science + Business Media","BMC Pediatrics","1471-2431","1471-2431",NA,NA,TRUE,"24997585","PMC4099488","ut:000339014000001",NA,TRUE
+"Bremen U",2014,1428,"10.1186/1471-2202-15-85",FALSE,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,NA,TRUE,"25015103","PMC4228502","ut:000339351700001",NA,TRUE
+"Bremen U",2014,1338.75,"10.1186/1745-6673-9-27",FALSE,"Springer Science + Business Media","Journal of Occupational Medicine and Toxicology","1745-6673","1745-6673",NA,NA,TRUE,"25067940","PMC4110375","ut:000339404200001",NA,TRUE
+"Bremen U",2014,1414.61,"10.1186/s12888-014-0229-4",FALSE,"Springer Science + Business Media","BMC Psychiatry","1471-244X",NA,"1471-244X","http://www.springer.com/tdm",TRUE,"25108447","PMC4149195","ut:000340792200001",NA,TRUE
+"Bremen U",2014,749.7,"10.1186/s12302-014-0024-3",FALSE,"Springer Science + Business Media","Environmental Sciences Europe","2190-4707","2190-4707","2190-4715","http://www.springer.com/tdm",TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2014,1428,"10.1186/1471-2458-14-1112",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458","1471-2458",NA,NA,TRUE,"25349109","PMC4219109","ut:000345353600001",NA,TRUE
+"Bremen U",2014,1494.94,"10.1186/s12884-014-0371-5",FALSE,"Springer Science + Business Media","BMC Pregnancy and Childbirth","1471-2393",NA,"1471-2393","http://www.springer.com/tdm",TRUE,"25363152","PMC4216848","ut:000344504500001",NA,TRUE
+"Bremen U",2014,1320.9,"10.1186/s13039-014-0088-1",FALSE,"Springer Science + Business Media","Molecular Cytogenetics","1755-8166",NA,"1755-8166",NA,TRUE,"25506394","PMC4264251","ut:000346527900001",NA,TRUE
+"Bremen U",2014,1428,"10.1186/s12955-014-0177-1",FALSE,"Springer Science + Business Media","Health and Quality of Life Outcomes","1477-7525",NA,"1477-7525",NA,TRUE,"25495548","PMC4276020","ut:000349048800001",NA,TRUE
+"Bremen U",2014,602.44,"10.1186/s12932-014-0015-8",FALSE,"Springer Science + Business Media","Geochemical Transactions","1467-4866",NA,"1467-4866",NA,TRUE,"25648878","PMC4302130","ut:000350414700001",NA,TRUE
+"Bremen U",2014,862.75,"10.5194/amt-7-2411-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000341605200003",NA,TRUE
+"Bremen U",2014,1285.2,"10.5194/acp-14-831-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000330853800020",NA,TRUE
+"Bremen U",2014,1856.4,"10.5194/amt-7-29-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000330945400003",NA,TRUE
+"Bremen U",2014,1313.76,"10.5194/acp-14-9883-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000341993100025",NA,TRUE
+"Bremen U",2014,1827.84,"10.5194/acp-14-3247-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000334608400006",NA,TRUE
+"Bremen U",2014,1104.32,"10.5194/amt-7-625-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000332386700019",NA,TRUE
+"Bremen U",2014,1587.46,"10.5194/amt-7-609-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,"ut:000332386700018",NA,TRUE
+"Bremen U",2014,1570.8,"10.5194/amt-7-2073-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000339937200013",NA,TRUE
+"Bremen U",2014,828.24,"10.5194/gmd-7-419-2014",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603",NA,TRUE,NA,NA,"ut:000332799400017",NA,TRUE
+"Bremen U",2014,656.88,"10.5194/acp-14-133-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000329930600009",NA,TRUE
+"Bremen U",2014,771.12,"10.5194/tc-8-439-2014",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000335377200008",NA,TRUE
+"Bremen U",2014,1414.91,"10.5194/acp-14-6881-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000339244600025",NA,TRUE
+"Bremen U",2014,1518.44,"10.5194/cp-10-843-2014",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000335374600029",NA,TRUE
+"Bremen U",2014,2001.58,"10.5194/acp-14-2447-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324",NA,TRUE,NA,NA,"ut:000334104200016",NA,TRUE
+"Bremen U",2014,971.04,"10.5194/amt-7-1245-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000336740700007",NA,TRUE
+"Bremen U",2014,856.8,"10.5194/acp-14-3545-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000334608400021",NA,TRUE
+"Bremen U",2014,1313.76,"10.5194/acp-14-7059-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000339244600036",NA,TRUE
+"Bremen U",2014,1942.08,"10.5194/acp-14-7367-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000339934900014",NA,TRUE
+"Bremen U",2014,1028.16,"10.5194/acp-14-5679-2014",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000337803100023",NA,TRUE
+"Bremen U",2014,1552.95,"10.5194/bg-11-1799-2014",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000334609000009",NA,TRUE
+"Bremen U",2014,1656.48,"10.5194/cp-10-955-2014",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000338761600003",NA,TRUE
+"Bremen U",2015,1786.51,"10.3390/s150202336",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"25621607","PMC4367308","ut:000351992500006",NA,TRUE
+"Bremen U",2015,789,"10.1093/jisesa/ieu153",FALSE,"Oxford University Press (OUP)","Journal of Insect Science","1536-2442",NA,"1536-2442",NA,TRUE,"25527596",NA,"ut:000349770200130",NA,TRUE
+"Bremen U",2015,1449.42,"10.5194/bg-12-5261-2015",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000361524900001",NA,TRUE
+"Bremen U",2015,1784.01,"10.1103/PhysRevX.5.011033",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000351878700001",NA,TRUE
+"Bremen U",2015,1456.56,"10.5194/os-11-373-2015",FALSE,"Copernicus GmbH","Ocean Science","1812-0792",NA,"1812-0792","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000356676300004",NA,TRUE
+"Bremen U",2015,1190.89,"10.1371/journal.pone.0120582",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25790026","PMC4366107","ut:000351425400164",NA,TRUE
+"Bremen U",2015,1587.46,"10.5194/bg-12-2207-2015",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000352958400011",NA,TRUE
+"Bremen U",2015,2035.16,"10.3390/s150407499",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"25825973","PMC4431309","ut:000354236100020",NA,TRUE
+"Bremen U",2015,2176.51,"10.5194/amt-8-2961-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000358799900022",NA,TRUE
+"Bremen U",2015,1904,"10.3389/fmicb.2015.00365",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"25983723","PMC4416451","ut:000355005500001",NA,TRUE
+"Bremen U",2015,1456.56,"10.1002/ece3.1455",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25937914","PMC4409419","ut:000354209300015",NA,FALSE
+"Bremen U",2015,1272.74,"10.1371/journal.pone.0123456",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25849569","PMC4388459","ut:000352477800234",NA,TRUE
+"Bremen U",2015,1285.2,"10.1088/1367-2630/17/4/043021",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000354020300003",NA,TRUE
+"Bremen U",2015,606.9,"10.5194/acp-15-10087-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000361567600021",NA,TRUE
+"Bremen U",2015,952,"10.5194/amt-8-4369-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000364317600025",NA,TRUE
+"Bremen U",2015,1106.7,"10.5194/cpd-11-1913-2015",FALSE,"Copernicus GmbH","Climate of the Past Discussions","1814-9359",NA,"1814-9359","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2015,1499.4,"10.5194/amt-8-3369-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000360649700021",NA,TRUE
+"Bremen U",2015,1249.5,"10.5194/cp-11-1181-2015",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000362459100005",NA,TRUE
+"Bremen U",2015,217.09,NA,FALSE,"Jacobs Publishers","Jacobs Journal of Gerontology","2381-7313",NA,NA,NA,FALSE,NA,NA,NA,"http://www.jacobspublishers.com/images/Gerontology/J_J_Geronto_1_2_007.pdf",FALSE
+"Bremen U",2015,1369.11,"10.3390/en8076995",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073",NA,TRUE,NA,NA,"ut:000359897800040",NA,TRUE
+"Bremen U",2015,1220.86,"10.1371/journal.pone.0132917",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26270964","PMC4536047","ut:000359492800004",NA,TRUE
+"Bremen U",2015,1220.86,"10.1371/journal.pone.0135311",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26258498","PMC4530949","ut:000359352600058",NA,TRUE
+"Bremen U",2015,1208.42,"10.1371/journal.pone.0137057",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26327619","PMC4556528","ut:000360437700087",NA,TRUE
+"Bremen U",2015,821.1,"10.5194/gmdd-8-5619-2015",FALSE,"Copernicus GmbH","Geoscientific Model Development Discussions","1991-962X",NA,"1991-962X","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2015,1219.75,"10.5194/bg-12-7519-2015",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2015,1285.2,"10.5194/bg-12-5967-2015",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000363182200005",NA,TRUE
+"Bremen U",2015,963.9,"10.5194/bg-12-7239-2015",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000372085100007",NA,TRUE
+"Bremen U",2015,1264.03,"10.1371/journal.pone.0134377",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26226014","PMC4520555","ut:000358837700082",NA,TRUE
+"Bremen U",2015,2018.22,"10.1371/journal.pntd.0004120",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"26474304","PMC4608562","ut:000364459600027",NA,TRUE
+"Bremen U",2015,575.49,"10.1177/2041669515599308",FALSE,"SAGE Publications","i-Perception","2041-6695",NA,"2041-6695",NA,TRUE,NA,NA,"ut:000365878800006",NA,TRUE
+"Bremen U",2015,1904,"10.3389/fmicb.2015.00005",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"25657645","PMC4302986","ut:000349008800002",NA,TRUE
+"Bremen U",2015,1386.35,"10.1038/srep18194",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26658547","PMC4677359","ut:000366290800002",NA,TRUE
+"Bremen U",2015,1428,"10.1186/2055-0928-1-3",FALSE,"Springer Nature","BMC Nutrition","2055-0928","2055-0928",NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2015,1494.94,"10.1186/s12877-015-0012-5",FALSE,"Springer Nature","BMC Geriatrics","1471-2318","1471-2318",NA,NA,TRUE,"25868401","PMC4347913","ut:000350174500001",NA,TRUE
+"Bremen U",2015,1780.54,"10.1186/s13643-015-0057-8",FALSE,"Springer Nature","Systematic Reviews","2046-4053",NA,"2046-4053",NA,TRUE,"25963745","PMC4489355",NA,NA,TRUE
+"Bremen U",2015,1494.94,"10.1186/s12889-015-1943-7",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458",NA,TRUE,"26087768","PMC4474340","ut:000356482000003",NA,TRUE
+"Bremen U",2015,1557.41,"10.1186/s12914-015-0055-x",FALSE,"Springer Nature","BMC International Health and Human Rights","1472-698X",NA,"1472-698X",NA,TRUE,"26117380","PMC4501194","ut:000356924600001",NA,TRUE
+"Bremen U",2015,847.88,"10.1186/s13104-015-1268-8",FALSE,"Springer Nature","BMC Research Notes","1756-0500",NA,"1756-0500",NA,TRUE,"26159425","PMC4702423",NA,NA,TRUE
+"Bremen U",2015,1494.94,"10.1186/s12889-015-2013-x",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458",NA,TRUE,"26162746","PMC4702408","ut:000357780900003",NA,TRUE
+"Bremen U",2015,1780.54,"10.1186/s13643-015-0106-3",FALSE,"Springer Nature","Systematic Reviews","2046-4053",NA,"2046-4053",NA,TRUE,"26420738","PMC4588908",NA,NA,TRUE
+"Bremen U",2015,1780.54,"10.1186/s12966-015-0273-6",FALSE,"Springer Nature","International Journal of Behavioral Nutrition and Physical Activity","1479-5868",NA,"1479-5868",NA,TRUE,"26377674","PMC4574210","ut:000361361500004",NA,TRUE
+"Bremen U",2015,1615.43,"10.1186/s40545-015-0048-0",FALSE,"Springer Nature","Journal of Pharmaceutical Policy and Practice","2052-3211",NA,"2052-3211",NA,TRUE,"26557368","PMC4638028",NA,NA,TRUE
+"Bremen U",2015,981.75,"10.1186/s13638-015-0479-y",FALSE,"Springer Nature","EURASIP Journal on Wireless Communications and Networking","1687-1499",NA,"1687-1499",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2015,1780.54,"10.1186/s13643-015-0153-9",FALSE,"Springer Nature","Systematic Reviews","2046-4053",NA,"2046-4053",NA,TRUE,"26607658","PMC4658770",NA,NA,TRUE
+"Bremen U",2015,2088.31,"10.3389/fenvs.2015.00078",FALSE,"Frontiers Media SA","Frontiers in Environmental Science","2296-665X",NA,"2296-665X",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2015,2088.31,"10.3389/fmicb.2015.01290",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"26635758","PMC4658423","ut:000366546500001",NA,TRUE
+"Bremen U",2015,1566.23,"10.3389/fpsyg.2015.01920",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26733911","PMC4686593","ut:000366935200001",NA,TRUE
+"Bremen U",2015,2090.6,"10.3389/fmars.2015.00113  ",FALSE,"Frontiers Media SA","Frontiers in Marine Science","2296-7745",NA,"2296-7745",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2015,1399.44,"10.5194/acp-15-273-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000347958200016",NA,TRUE
+"Bremen U",2015,913.92,"10.5194/cp-11-175-2015",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000350560400004",NA,TRUE
+"Bremen U",2015,1542.24,"10.5194/amt-8-5113-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000367384600007",NA,TRUE
+"Bremen U",2015,1370,"10.5194/cp-11-233-2015",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000350560400009",NA,TRUE
+"Bremen U",2015,1207.85,"10.5194/cp-11-751-2015",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000357121100004",NA,TRUE
+"Bremen U",2015,913.92,"10.5194/os-11-559-2015",FALSE,"Copernicus GmbH","Ocean Science","1812-0792",NA,"1812-0792","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000360657200004",NA,TRUE
+"Bremen U",2015,2277.66,"10.5194/tc-9-1551-2015",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000360661700015",NA,TRUE
+"Bremen U",2016,1237.8,"10.1371/journal.pone.0148363",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26859838","PMC4747607","ut:000370038400036",NA,TRUE
+"Bremen U",2016,1368.33,"10.1371/journal.pone.0148948",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26900845","PMC4763343","ut:000371276100031",NA,TRUE
+"Bremen U",2016,2022.38,"10.3389/fmicb.2016.00008",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"26858697","PMC4726784","ut:000368815500001",NA,TRUE
+"Bremen U",2016,1516.79,"10.3389/fmicb.2016.00107 ",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"26903986","PMC4746428",NA,NA,TRUE
+"Bremen U",2016,1201.55,"10.1371/journal.pone.0149016",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26914144","PMC4767609","ut:000371175700011",NA,TRUE
+"Bremen U",2016,2063.72,"10.3389/fnagi.2016.00053",FALSE,"Frontiers Media SA","Frontiers in Aging Neuroscience","1663-4365",NA,"1663-4365",NA,TRUE,"27014059","PMC4792879","ut:000372149100001",NA,TRUE
+"Bremen U",2016,1732.64,"10.3390/rs8050397",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292",NA,TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2016,1499.4,"10.5194/bg-13-2415-2016",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2016,856.8,"10.5194/se-7-651-2016",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000374543400024",NA,TRUE
+"Bremen U",2016,1719.99,"10.3390/ijerph13050471",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601",NA,TRUE,"27164120","PMC4881096",NA,NA,TRUE
+"Bremen U",2016,1520.14,"10.3389/fnhum.2016.00291",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,FALSE,NA,NA,NA,"http://journal.frontiersin.org/article/10.3389/fnhum.2016.00291/abstract",TRUE
+"Bremen U",2016,2656.62,"10.3389/fmicb.2016.00773",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"27252690","PMC4877504","ut:000376379900002",NA,TRUE
+"Bremen U",2016,1723.07,"10.3389/fmars.2016.00093",FALSE,"Frontiers Media SA","Frontiers in Marine Science","2296-7745",NA,"2296-7745",NA,FALSE,NA,NA,NA,"http://journal.frontiersin.org/article/10.3389/fmars.2016.00093/abstract",TRUE
+"Bremen U",2016,2027.14,"10.3389/fenvs.2016.00043",FALSE,"Frontiers Media SA","Frontiers in Environmental Science","2296-665X",NA,"2296-665X",NA,FALSE,NA,NA,NA,"http://journal.frontiersin.org/article/10.3389/fenvs.2016.00043/abstract",TRUE
+"Bremen U",2016,1249.5,"10.5194/bg-13-691-2016",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000370973900005",NA,TRUE
+"Bremen U",2016,2052.75,"10.5194/amt-9-133-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000375610500011",NA,TRUE
+"Bremen U",2016,1309,"10.5194/amt-9-295-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000375610500020",NA,TRUE
+"Bremen U",2016,1071,"10.5194/cp-12-677-2016",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000376072300006",NA,TRUE
+"Bremen U",2016,1725.5,"10.5194/amt-9-793-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000375612000030",NA,TRUE
+"Bremen U",2016,1463.7,"10.5194/acp-16-2123-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000372971500017",NA,TRUE
+"Bremen U",2016,1160.25,"10.5194/acp-16-1773-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000371284100035",NA,TRUE
+"Bremen U",2016,1368.5,"10.5194/acp-16-417-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000371284000001",NA,TRUE
+"Bremen U",2016,773,"10.5194/amt-9-577-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000375612000016",NA,TRUE
+"Bremen U",2016,2177.7,"10.5194/bg-13-3203-2016",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Bremen U",2016,1463.7,"10.5194/acp-16-2803-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000374702000006",NA,TRUE
+"Bremen U",2016,1338.75,"10.5194/amt-9-1485-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000375616100005",NA,TRUE
+"Bremen U",2016,1785,"10.5194/bg-13-3071-2016",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
