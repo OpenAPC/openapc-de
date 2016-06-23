@@ -6681,19 +6681,37 @@
 "FZJ - ZB",2015,1241.67,"10.1371/journal.pone.0145174",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26674091","PMC4684506","ut:000366722700110",NA,TRUE
 "FZJ - ZB",2015,1350,"10.1371/journal.pone.0143647",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26600248","PMC4658145","ut:000365853900151",NA,TRUE
 "FZJ - ZB",2015,1165,"10.1038/srep19513",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26839261","PMC4738257","ut:000369154900001",NA,TRUE
-"Leibniz-Fonds",2016,1638.63,"10.1002/ece3.1993",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000376149400002",NA,FALSE
+"Leibniz-Fonds",2016,1563.66,"10.1002/2016EF000353",FALSE,"Wiley-Blackwell","Earth's Future","23284277",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Leibniz-Fonds",2016,1638.63,"10.1002/ece3.1993",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27066228","PMC4769883","ut:000376149400002",NA,FALSE
 "Leibniz-Fonds",2016,1456.56,"10.1002/ece3.2040",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27069579","PMC4782256","ut:000374052000025",NA,FALSE
-"Leibniz-Fonds",2016,1456.56,"10.1002/ece3.2113",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27092238","PMC4823144",NA,NA,FALSE
+"Leibniz-Fonds",2016,1456.56,"10.1002/ece3.2113",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27092238","PMC4823144","ut:000376646700006",NA,FALSE
+"Leibniz-Fonds",2016,2120.58,"10.1002/mbo3.369",FALSE,"Wiley-Blackwell","MicrobiologyOpen","20458827",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Leibniz-Fonds",2016,531.06,"10.1016/j.dib.2016.04.019",FALSE,"Elsevier BV","Data in Brief","23523409","23523409",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"27158657","PMC4845158",NA,NA,FALSE
 "Leibniz-Fonds",2016,1593.18,"10.1016/j.gecco.2016.02.006",FALSE,"Elsevier BV","Global Ecology and Conservation","23519894","23519894",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
 "Leibniz-Fonds",2016,2543.03,"10.1038/mtna.2016.15",FALSE,"Springer Nature","Molecular Therapy—Nucleic Acids","2162-2531",NA,"2162-2531",NA,TRUE,"27003757",NA,"ut:000374465400003",NA,TRUE
 "Leibniz-Fonds",2016,1386.35,"10.1038/srep21029",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26868373","PMC4751523","ut:000369938800002",NA,TRUE
 "Leibniz-Fonds",2016,1386.35,"10.1038/srep21442",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26869057","PMC4751472","ut:000369931100001",NA,TRUE
 "Leibniz-Fonds",2016,1386.35,"10.1038/srep21615",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26857841","PMC4746665","ut:000369661200001",NA,TRUE
 "Leibniz-Fonds",2016,1386.35,"10.1038/srep23294",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"27039893","PMC4819182","ut:000373269000001",NA,TRUE
+"Leibniz-Fonds",2016,1386.35,"10.1038/srep23825",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"27029458","PMC4814869","ut:000373169500001",NA,TRUE
+"Leibniz-Fonds",2016,1386.35,"10.1038/srep26263",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"27196877","PMC4872536","ut:000376064800001",NA,TRUE
+"Leibniz-Fonds",2016,1856.4,"10.1088/1748-9326/11/4/044002",FALSE,"IOP Publishing","Environmental Research Letters","1748-9326",NA,"1748-9326","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,"ut:000375746800005",NA,TRUE
+"Leibniz-Fonds",2016,1428,"10.1093/database/baw033",FALSE,"Oxford University Press (OUP)","Database","1758-0463",NA,"1758-0463",NA,TRUE,"27087305","PMC4834206","ut:000374649900001",NA,TRUE
+"Leibniz-Fonds",2016,2534.7,"10.1093/nar/gkw376",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,NA,NA,NA,NA,TRUE
+"Leibniz-Fonds",2016,3201.85,"10.1126/sciadv.1501026",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548",NA,TRUE,NA,NA,NA,NA,TRUE
+"Leibniz-Fonds",2016,2388.3,"10.1126/sciadv.1501428",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548",NA,TRUE,"27152340","PMC4846427",NA,NA,TRUE
 "Leibniz-Fonds",2016,2271,"10.1136/bmjopen-2015-007875",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"27000782","PMC4809093","ut:000374052300002",NA,TRUE
+"Leibniz-Fonds",2016,1332.8,"10.1186/s12711-016-0199-8",FALSE,"Springer Nature","Genetics Selection Evolution","1297-9686",NA,"1297-9686",NA,TRUE,"27037038","PMC4818457","ut:000374132500002",NA,TRUE
+"Leibniz-Fonds",2016,1830.52,"10.1186/s12881-016-0297-z",FALSE,"Springer Nature","BMC Medical Genetics","1471-2350",NA,"1471-2350",NA,TRUE,"27142837","PMC4855429","ut:000375686300001",NA,TRUE
 "Leibniz-Fonds",2016,1661.24,"10.1186/s12889-016-2761-2",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458",NA,TRUE,"26833206","PMC4735971","ut:000369477100001",NA,TRUE
+"Leibniz-Fonds",2016,2142,"10.1186/s12890-016-0185-5",FALSE,"Springer Nature","BMC Pulmonary Medicine","1471-2466",NA,"1471-2466",NA,TRUE,"26803467","PMC4724406","ut:000368484500001",NA,TRUE
+"Leibniz-Fonds",2016,1661.24,"10.1186/s12898-016-0059-y",FALSE,"Springer Nature","BMC Ecology","1472-6785",NA,"1472-6785",NA,TRUE,"26868261","PMC4751723","ut:000369949000001",NA,TRUE
+"Leibniz-Fonds",2016,1661.24,"10.1186/s12903-016-0185-0",FALSE,"Springer Nature","BMC Oral Health","1472-6831",NA,"1472-6831",NA,TRUE,"26969620","PMC4788953","ut:000371781100001",NA,TRUE
 "Leibniz-Fonds",2016,1899.24,"10.1186/s12966-016-0344-3",FALSE,"Springer Nature","International Journal of Behavioral Nutrition and Physical Activity","1479-5868",NA,"1479-5868",NA,TRUE,"26879850","PMC4754870","ut:000370121200002",NA,TRUE
-"Leibniz-Fonds",2016,1249.5,"10.1242/bio.014902",FALSE,"The Company of Biologists","Biology Open","2046-6390",NA,"2046-6390",NA,TRUE,"27044323",NA,NA,NA,TRUE
+"Leibniz-Fonds",2016,2023,"10.1186/s13036-016-0027-2",FALSE,"Springer Nature","Journal of Biological Engineering","1754-1611",NA,"1754-1611",NA,TRUE,"27200108","PMC4872333",NA,NA,TRUE
+"Leibniz-Fonds",2016,1899.24,"10.1186/s13643-016-0223-7",FALSE,"Springer Nature","Systematic Reviews","2046-4053",NA,"2046-4053",NA,TRUE,"26984189","PMC4793489",NA,NA,TRUE
+"Leibniz-Fonds",2016,1249.5,"10.1242/bio.014902",FALSE,"The Company of Biologists","Biology Open","2046-6390",NA,"2046-6390",NA,TRUE,"27044323","PMC4874346","ut:000376943100003",NA,TRUE
+"Leibniz-Fonds",2016,1454.44,"10.1364/OPTICA.3.000452",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536",NA,TRUE,NA,NA,"ut:000374749100017",NA,FALSE
 "Leibniz-Fonds",2016,3100.03,"10.1371/journal.pbio.1002390",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885",NA,TRUE,"26901857","PMC4764326","ut:000371883600020",NA,TRUE
 "Leibniz-Fonds",2016,2450.49,"10.1371/journal.pgen.1005907",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404",NA,TRUE,"26977770","PMC4792503","ut:000373268900019",NA,TRUE
 "Leibniz-Fonds",2016,1394.5,"10.1371/journal.pone.0148268",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26849826","PMC4744027","ut:000369554000061",NA,TRUE
@@ -6701,12 +6719,24 @@
 "Leibniz-Fonds",2016,1462.78,"10.1371/journal.pone.0149598",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26959499","PMC4784739","ut:000371992300017",NA,TRUE
 "Leibniz-Fonds",2016,1488.74,"10.1371/journal.pone.0150695",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26954353","PMC4783037","ut:000371991300042",NA,TRUE
 "Leibniz-Fonds",2016,1670.58,"10.1371/journal.pone.0150771",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26938719","PMC4777502","ut:000371735200141",NA,TRUE
+"Leibniz-Fonds",2016,1580.45,"10.1371/journal.pone.0152200",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27011018","PMC4806982","ut:000372708000108",NA,TRUE
+"Leibniz-Fonds",2016,1410.17,"10.1371/journal.pone.0152586",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27074015","PMC4830443","ut:000374131200029",NA,TRUE
+"Leibniz-Fonds",2016,1418.46,"10.1371/journal.pone.0154014",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27100189","PMC4839599","ut:000374898500123",NA,TRUE
+"Leibniz-Fonds",2016,1572.92,"10.1371/journal.pone.0154078",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27096163","PMC4838267","ut:000374543600086",NA,TRUE
+"Leibniz-Fonds",2016,1563.33,"10.1371/journal.pone.0154531",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27140416","PMC4854426","ut:000375675700039",NA,TRUE
+"Leibniz-Fonds",2016,1411.72,"10.1371/journal.pone.0155129",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27149624","PMC4858272","ut:000375676800120",NA,TRUE
+"Leibniz-Fonds",2016,1591.16,"10.1371/journal.pone.0156419",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"27232626","PMC4883742","ut:000376883000032",NA,TRUE
+"Leibniz-Fonds",2016,2372.61,"10.1371/journal.ppat.1005538",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374",NA,TRUE,"27070311","PMC4829248",NA,NA,TRUE
+"Leibniz-Fonds",2016,2394.02,"10.1371/journal.ppat.1005618",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374",NA,TRUE,"27168322","PMC4864081",NA,NA,TRUE
 "Leibniz-Fonds",2016,1606.5,"10.3354/aei00172",FALSE,"Inter-Research Science Center","Aquaculture Environment Interactions","1869-215X","1869-215X","1869-7534",NA,TRUE,NA,NA,NA,NA,TRUE
 "Leibniz-Fonds",2016,1555.22,"10.3389/fmicb.2016.00152",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"26913029","PMC4753732","ut:000370013800001",NA,TRUE
+"Leibniz-Fonds",2016,1824.7,"10.3389/fnhum.2016.00232",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"27242493","PMC4873516","ut:000376059900001",NA,TRUE
 "Leibniz-Fonds",2016,2031.88,"10.3389/fpls.2016.00388",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,"27066038","PMC4814755","ut:000373261200003",NA,TRUE
+"Leibniz-Fonds",2016,2215.71,"10.3389/fpls.2016.00669",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,"27242870","PMC4876776",NA,NA,TRUE
 "Leibniz-Fonds",2016,325.96,"10.3390/foods5010017",FALSE,"MDPI AG","Foods","2304-8158",NA,"2304-8158",NA,TRUE,NA,NA,"ut:000373533600008",NA,TRUE
 "Leibniz-Fonds",2016,464.1,"10.3897/zookeys.564.7535",FALSE,"Pensoft Publishers","ZooKeys","1313-2970","1313-2989","1313-2970","http://creativecommons.org/licenses/by/4.0/",TRUE,"27081331","PMC4820090","ut:000370337300002",NA,TRUE
 "Leibniz-Fonds",2016,303.45,"10.3897/zookeys.578.8052",FALSE,"Pensoft Publishers","ZooKeys","1313-2970","1313-2989","1313-2970","http://creativecommons.org/licenses/by/4.0/",TRUE,"27110194","PMC4829959","ut:000373698500002",NA,TRUE
+"Leibniz-Fonds",2016,173.36,NA,FALSE,"International Institute of Science, Technology and Education (IISTE)","Information and Knowledge Management","2224-896X",NA,"2224-896X",NA,FALSE,NA,NA,NA,"http://www.iiste.org/Journals/index.php/IKM/article/view/29275",TRUE
 "Potsdam U",2015,1405.88,"10.1371/journal.pone.0118535",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25695770","PMC4335049","ut:000350062300055",NA,TRUE
 "Potsdam U",2015,1340,"10.1186/s12887-015-0317-8",FALSE,"Springer Nature","BMC Pediatrics","1471-2431","1471-2431",NA,NA,TRUE,"25652949","PMC4325950","ut:000349862600001",NA,TRUE
 "Potsdam U",2015,1142.4,"10.3389/fnbeh.2015.00082",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"25914633","PMC4392695","ut:000352276000001",NA,TRUE
