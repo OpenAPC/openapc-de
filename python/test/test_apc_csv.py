@@ -128,31 +128,33 @@ def check_name_consistency(row_object):
     journal = row["journal_full_title"]
     publ = row["publisher"]
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    msg = (line_str + 'Two entries share a common {}ISSN ({}), but the ' +
+           '{} differs ("{}" vs "{}")')
     for other_row_object in apc_data:
         other_row = other_row_object.row
         other_publ = other_row["publisher"]
         other_journal = other_row["journal_full_title"]
         if issn is not None and other_row["issn"] == issn:
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
-                pytest.fail(line_str + 'Two entries share a common ISSN, ' +
-                            'but the publisher name differs')
+                ret = msg.format("", issn, "publisher name", publ, other_publ)
+                pytest.fail(ret)
             if not other_journal == journal:
-                pytest.fail(line_str + 'Two entries share a common ISSN, ' +
-                            'but the journal title differs')
+                ret = msg.format("", issn, "journal title", journal, other_journal)
+                pytest.fail(ret)
         elif issn_p is not None and other_row["issn_print"] == issn_p:
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
-                pytest.fail(line_str + 'Two entries share a common Print ' +
-                            'ISSN, but the publisher name differs')
+                ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
+                pytest.fail(ret)
             if not other_journal == journal:
-                pytest.fail(line_str + 'Two entries share a common Print ' +
-                            'ISSN, but the journal title differs')
+                ret = msg.format("Print ", issn_p, "journal title", journal, other_journal)
+                pytest.fail(ret)
         elif issn_e is not None and other_row["issn_electronic"] == issn_e:
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
-                pytest.fail(line_str + 'Two entries share a common ' +
-                            'Electronic ISSN, but the publisher name differs')
+                ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
+                pytest.fail(ret)
             if not other_journal == journal:
-                pytest.fail(line_str + 'Two entries share a common ' +
-                            'Electronic ISSN, but the journal title differs')
+                ret = msg.format("Electronic ", issn_e, "journal title", journal, other_journal)
+                pytest.fail(ret)
 
 @pytest.mark.parametrize("row_object", apc_data)
 class TestAPCRows(object):
