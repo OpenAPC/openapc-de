@@ -646,7 +646,7 @@ def main():
                 doaj_res = oat.lookup_journal_in_doaj(issn, args.bypass_cert_verification)
                 if doaj_res["data_received"]:
                     if doaj_res["data"]["in_doaj"]:
-                        msg = "DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
+                        msg = u"DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
                         print msg.format(issn, doaj_res["data"]["title"])
                         current_row["doaj"] = "TRUE"
                         break
