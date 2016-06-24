@@ -7,7 +7,7 @@ Brutto-APC-Kosten, die aus dem Open-Access-Publikationsfonds der Friedrich-Alexa
 - die gemeldeten Daten umfassen die Förderperioden 2012 - 2015 (Stand 23.06.2016)
 - Daten zu den Förderperioden 2016 ff. werden jeweils rückwirkend im nachfolgenden Jahr gemeldet
 
-Weitere Informationen unter [http://www.ub.fau.de/open-access/] und den dortigen Unterseiten
+Weitere Informationen unter [http://www.ub.fau.de/open-access/]() und den dortigen Unterseiten
 
 - Förderkriterien
 - Rabatte durch institutionelle Mitgliedschaften, Allianzlizenzen etc.
@@ -23,7 +23,7 @@ APC gross costs, financed by the open access fund of Friedrich-Alexander Univers
 - reported data from 2012 - 2015 (as of 23.06.2016)
 - data from 2016 et seq. will be reported retroactively in the following year
 
-Further information available under [http://www.ub.fau.de/open-access/]  
+Further information available under [http://www.ub.fau.de/open-access/]()  
 
 - eligibility criteria
 - discounts (institutional memberships, contractual agreements, etc.)
