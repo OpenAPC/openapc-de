@@ -458,12 +458,12 @@ def process_row(row, row_num, column_map, num_required_columns,
 
     Take a csv row (a list) and a column mapping (a list of CSVColumn objects)
     and return an enriched and re-arranged version which conforms to the Open
-    APC data schema. 
+    APC data schema.
 
     Args:
         row: A list of column values (as yielded by a UnicodeReader f.e.).
         row_num: The line number in the csv file, for logging purposes.
-        column_map: An OrderedDict of CSVColumn Objects, mapping the row 
+        column_map: An OrderedDict of CSVColumn Objects, mapping the row
                     cells to Open APC data schema fields.
         num_required_columns: An int describing the required length of the row
                               list. If not matched, an error is logged and the
@@ -479,11 +479,11 @@ def process_row(row, row_num, column_map, num_required_columns,
         result will conform to the Open APC data schema.
     """
     MESSAGES = {
-        "num_columns": "Syntax: the number of values in line {} ({}) " +
-                       "differs from the number of columns ({}). Line left " +
+        "num_columns": "Syntax: The number of values in this row (%s) " +
+                       "differs from the number of columns (%s). Line left " +
                        "unchanged, the resulting CSV file will not be valid.",
-        "locale": "Error: Could not process the monetary value '{}' in " +
-                  "column {}. This will usually have one of two reasons:\n1) " +
+        "locale": "Error: Could not process the monetary value '%s' in " +
+                  "column %s. This will usually have one of two reasons:\n1) " +
                   "The value does not represent a number.\n2) The value " +
                   "represents a number, but its format differs from your " +
                   "current system locale - the most common source of error " +
@@ -494,10 +494,8 @@ def process_row(row, row_num, column_map, num_required_columns,
     }
 
     if len(row) != num_required_columns:
-        msg = MESSAGES["num_columns"].format(row_num,
-                                             len(row),
-                                             num_required_columns)
-        logging.error("Line {}: {}".format(row_num, msg))
+        msg = "Line %s: " + MESSAGES["num_columns"]
+        logging.error(msg, row_num, len(row), num_required_columns)
         return row
 
     doi = row[column_map["doi"].index]
@@ -516,9 +514,8 @@ def process_row(row, row_num, column_map, num_required_columns,
                         euro = int(euro)
                     current_row[csv_column.column_type] = str(euro)
                 except ValueError:
-                    msg = MESSAGES["locale"].format(euro_value,
-                                                    csv_column.index)
-                    logging.error("Line {}: {}".format(row_num, msg))
+                    msg = "Line %s: " + MESSAGES["locale"]
+                    logging.error(msg, row_num, euro_value, csv_column.index)
             else:
                 current_row[csv_column.column_type] = row[csv_column.index]
         else:
@@ -552,14 +549,14 @@ def process_row(row, row_num, column_map, num_required_columns,
                     new_value = value
             else:
                 new_value = "NA"
-                logging.debug(u"WARNING: Element '{}' not found in in " +
-                              "response for doi {}.".format(key, doi))
+                msg = (u"WARNING: Element '%s' not found in in response for " +
+                       "doi %s.")
+                logging.debug(msg, key, doi)
             old_value = current_row[key]
             current_row[key] = column_map[key].check_overwrite(old_value, new_value)
     else:
-        msg = ("Crossref: Error while trying to resolve DOI " + doi +
-               ": " + crossref_result["error_msg"])
-        logging.error("Line {}: {}".format(row_num, error_msg))
+        msg = "Line %s: Crossref: Error while trying to resolve DOI %s: %s"
+        logging.error(msg, row_num, doi, crossref_result["error_msg"])
         current_row["indexed_in_crossref"] = "FALSE"
 
     # include pubmed metadata
@@ -572,14 +569,14 @@ def process_row(row, row_num, column_map, num_required_columns,
                 new_value = value
             else:
                 new_value = "NA"
-                logging.debug(u"WARNING: Element '{}' not found in in " +
-                              "response for doi {}.".format(key, doi))
+                msg = (u"WARNING: Element %s not found in in response for " +
+                       "doi %s.")
+                logging.debug(msg, key, doi)
             old_value = current_row[key]
             current_row[key] = column_map[key].check_overwrite(old_value, new_value)
     else:
-        msg = ("Pubmed: Error while trying to resolve DOI " + doi +
-               ": " + pubmed_result["error_msg"])
-        logging.error("Line {}: {}".format(row_num, msg))
+        msg = "Line %s: Pubmed: Error while trying to resolve DOI %s: %s"
+        logging.error(msg, row_num, doi, pubmed_result["error_msg"])
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
     issns = []
@@ -594,33 +591,33 @@ def process_row(row, row_num, column_map, num_required_columns,
         if doaj_offline_analysis:
             lookup_result = doaj_offline_analysis.lookup(issn)
             if lookup_result:
-                msg = (u"DOAJ: Journal ISSN ({}) found in DOAJ " +
-                       "offline copy ('{}').")
-                logging.info(msg.format(issn, lookup_result))
+                msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
+                       "offline copy ('%s').")
+                logging.info(msg, issn, lookup_result)
                 current_row["doaj"] = "TRUE"
                 break
             else:
-                msg = (u"DOAJ: Journal ISSN ({}) not found in DOAJ " +
+                msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
                        "offline copy.")
                 current_row["doaj"] = "FALSE"
-                logging.info(msg.format(issn))
+                logging.info(msg, issn)
         # ...or query the online API
         else:
             doaj_res = lookup_journal_in_doaj(issn, bypass_cert_verification)
             if doaj_res["data_received"]:
                 if doaj_res["data"]["in_doaj"]:
-                    msg = u"DOAJ: Journal ISSN ({}) found in DOAJ ('{}')."
-                    logging.info(msg.format(issn, doaj_res["data"]["title"]))
+                    msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
+                    logging.info(msg, issn, doaj_res["data"]["title"])
                     current_row["doaj"] = "TRUE"
                     break
                 else:
-                    msg = u"DOAJ: Journal ISSN ({}) not found in DOAJ."
-                    logging.info(msg.format(issn))
+                    msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
+                    logging.info(msg, issn)
                     current_row["doaj"] = "FALSE"
             else:
-                msg = (u"DOAJ: Error while trying to look up ISSN " + issn +
-                       ": " + doaj_res["error_msg"])
-                logging.error("Line {}: {}".format(row_num, msg))
+                msg = (u"Line %s: DOAJ: Error while trying to look up " +
+                       "ISSN %s: %s")
+                logging.error(msg, row_num, issn, doaj_res["error_msg"])
     return current_row.values()
 
 
