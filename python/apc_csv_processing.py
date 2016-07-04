@@ -179,7 +179,12 @@ ARG_HELP_STRINGS = {
                     "is not too responsive at times and might pose a " +
                     "bottleneck. This option expects the CSV you can usually " +
                     "download at https://doaj.org/csv as argument. " +
-                    "Obviously, this copy should be as up-to-date as possible."
+                    "Obviously, this copy should be as up-to-date as possible.",
+    "start": "Do not process the whole file, but start from this line " +
+             "number. May be used together with '-end' to select a specific " +
+             "segment.",
+    "end": "Do not process the whole file, but end at this line number. May " +
+           "be used together with '-start' to select a specific segment."
 }
 
 def main():
@@ -219,6 +224,8 @@ def main():
                         type=int, help=ARG_HELP_STRINGS["issn"])
     parser.add_argument("-url", "--url_column",
                         type=int, help=ARG_HELP_STRINGS["url"])
+    parser.add_argument("-start", type=int, help=ARG_HELP_STRINGS["start"])
+    parser.add_argument("-end", type=int, help=ARG_HELP_STRINGS["end"])
 
     args = parser.parse_args()
     enc = None # CSV file encoding
@@ -541,6 +548,10 @@ def main():
                 # If the CSV file has a header, we are currently there - skip it
                 # to get to the first data row
                 continue
+        if args.start and args.start > row_num:
+            continue
+        if args.end and args.end < row_num:
+            continue
         print "---Processing line number " + str(row_num) + "---"
         enriched_row = oat.process_row(row, row_num, column_map, num_columns,
                                        doaj_offline_analysis,
