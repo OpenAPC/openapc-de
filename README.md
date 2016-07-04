@@ -16,6 +16,7 @@ So far, the following German universities have agreed to share information on pa
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Freie Universität Berlin](http://www.fu-berlin.de/sites/open_access/dienstleistungen/artikelgebuehren/publikationsfonds/index.html)
+- [Friedrich-Alexander-Universität Erlangen-Nürnberg](http://www.ub.fau.de/open-access/open-access-fonds.shtml)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
@@ -65,13 +66,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  17 318 936 € for  11 125 articles were paid by the participating unviversities. Average  fee is 1 556.8 € and the median 1 386 €.
+In total,  17 922 679 € for  11 557 articles were paid by the participating unviversities. Average  fee is 1 550.8 € and the median 1 386 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 8 481 articles in open access journals which charge publication fees. Total expenditure amounts to  11 036 387 €. Average  fee is 1 301.3 € and the median 1 236 €.
+At the moment, the dataset releases information on 8 913 articles in open access journals which charge publication fees. Total expenditure amounts to  11 640 129 €. Average  fee is 1 306 € and the median 1 242 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -85,6 +86,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Bremen U                                    |      264|            335873|          1272|   1246|
 |Dortmund TU                                 |       28|             26410|           943|    826|
 |Duisburg-Essen U                            |      114|            136911|          1201|   1214|
+|Erlangen Nuernberg U                        |      402|            551812|          1373|   1424|
 |FU Berlin                                   |      106|            142671|          1346|   1292|
 |FWF - Austrian Science Fund                 |      731|           1016441|          1390|   1271|
 |FZJ - ZB                                    |      158|            196869|          1246|   1177|
@@ -98,7 +100,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Kassel U                                    |       35|             35550|          1016|   1142|
 |KIT                                         |      428|            524346|          1225|   1239|
 |Konstanz U                                  |      223|            304182|          1364|   1342|
-|Leibniz-Fonds                               |       26|             40800|          1569|   1522|
+|Leibniz-Fonds                               |       56|             92730|          1656|   1586|
 |Leipzig U                                   |      173|            243873|          1410|   1471|
 |MDC                                         |       51|            103028|          2020|   1483|
 |MPG                                         |     2816|           3597571|          1278|   1161|
@@ -153,10 +155,10 @@ External sources were used to compile the dataset. This allows for disambiguated
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.51%       |
-|PubMed ID                  |  70.77%      |
-|PubMed Central ID          |  67.07%     |
-|Web of Science record ID   | 84.1%      |
+|DOI                        |  99.32%       |
+|PubMed ID                  |  71.27%      |
+|PubMed Central ID          |  67.45%     |
+|Web of Science record ID   | 84.02%      |
 
 
 
@@ -219,7 +221,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 

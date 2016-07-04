@@ -3,7 +3,10 @@
 
 import csv
 import codecs
+from collections import OrderedDict
 import json
+import locale
+import logging
 import re
 import ssl
 import urllib2
@@ -15,7 +18,7 @@ except ImportError:
     chardet = None
     print ("WARNING: 3rd party module 'chardet' not found - character " +
            "encoding guessing will not work")
-           
+
 # regex for detecing DOIs
 DOI_RE = re.compile("^(((https?://)?dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
 ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
@@ -52,7 +55,7 @@ class UnicodeReader(object):
 
     def __iter__(self):
         return self
-        
+
 class UnicodeDictReader(object):
     """
     A CSV reader which will iterate over lines in the CSV file "f",
@@ -69,37 +72,37 @@ class UnicodeDictReader(object):
 
     def __iter__(self):
         return self
-        
+
 class OpenAPCUnicodeWriter(object):
     """
     A customized CSV Writer.
-    
+
     A custom CSV writer. Encodes output in Unicode and can be configured to
     follow the open APC CSV quotation standards. A quote mask can also be
     provided to enable or disable value quotation in distinct CSV columns.
-    
+
     Attributes:
         quotemask: A quotemask is a list of boolean values which should have
                    the same length as the number of columns in the csv file.
                    On writing, the truth values in the codemask will determine
                    if the values in the according column will be quoted. If no
-                   quotemask is provided, every field will be quoted. 
+                   quotemask is provided, every field will be quoted.
         openapc_quote_rules: Determines if the special openapc quote rules
                              should be applied, meaning that the keywords
                              NA, TRUE and FALSE will never be quoted. This
                              always takes precedence over a quotemask.
         has_header: Determines if the csv file has a header. If that's the case,
                     The values in the first row will all be quoted regardless
-                    of any quotemask.  
+                    of any quotemask.
     """
-    
+
     def __init__(self, f, quotemask=None, openapc_quote_rules=True, has_header=True):
         self.outfile = f
         self.quotemask = quotemask
         self.openapc_quote_rules = openapc_quote_rules
         self.has_header = has_header
         self.encoder = codecs.getincrementalencoder("utf-8")()
-        
+
     def _prepare_row(self, row, use_quotemask):
         for index in range(len(row)):
             if self.openapc_quote_rules and row[index] in [u"TRUE", u"FALSE", u"NA"]:
@@ -118,19 +121,19 @@ class OpenAPCUnicodeWriter(object):
         line = u",".join(row) + u"\r\n"
         line = self.encoder.encode(line)
         self.outfile.write(line)
-        
+
     def write_rows(self, rows):
         if self.has_header:
             self._write_row(self._prepare_row(rows.pop(0), False))
         for row in rows:
             self._write_row(self._prepare_row(row, True))
-            
+
 class DOAJOfflineAnalysis(object):
-    
+
     def __init__(self, doaj_csv_file):
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
-        
+
         handle = open(doaj_csv_file, "r")
         reader = UnicodeDictReader(handle)
         for line in reader:
@@ -141,7 +144,7 @@ class DOAJOfflineAnalysis(object):
                 self.doaj_issn_map[issn] = journal_title
             if eissn:
                 self.doaj_eissn_map[eissn] = journal_title
-                
+
     def lookup(self, any_issn):
         if any_issn in self.doaj_issn_map:
             return self.doaj_issn_map[any_issn]
@@ -149,17 +152,17 @@ class DOAJOfflineAnalysis(object):
             return self.doaj_eissn_map[any_issn]
         else:
             return None
-        
-            
+
+
 class CSVAnalysisResult(object):
-    
+
     def __init__(self, blanks, dialect, has_header, enc, enc_conf):
         self.blanks = blanks
         self.dialect = dialect
         self.has_header = has_header
         self.enc = enc
         self.enc_conf = enc_conf
-        
+
     def __str__(self):
         ret = "*****CSV file analysis*****\n"
         if self.dialect is not None:
@@ -172,20 +175,20 @@ class CSVAnalysisResult(object):
                 if hasattr(csv, const) and getattr(csv, const) == self.dialect.quoting:
                     quoting = const
             ret += ("CSV dialect sniffing:\ndelimiter => {dlm}\ndoublequote " +
-                   "=> {dbq}\nescapechar => {esc}\nquotechar => {quc}\nquoting " +
-                   "=> {quo}\nskip initial space => {sis}\n\n").format(
-                       dlm=self.dialect.delimiter,
-                       dbq=self.dialect.doublequote,
-                       esc=self.dialect.escapechar,
-                       quc=self.dialect.quotechar,
-                       quo=quoting,
-                       sis=self.dialect.skipinitialspace)
+                    "=> {dbq}\nescapechar => {esc}\nquotechar => {quc}\nquoting " +
+                    "=> {quo}\nskip initial space => {sis}\n\n").format(
+                        dlm=self.dialect.delimiter,
+                        dbq=self.dialect.doublequote,
+                        esc=self.dialect.escapechar,
+                        quc=self.dialect.quotechar,
+                        quo=quoting,
+                        sis=self.dialect.skipinitialspace)
 
         if self.has_header:
             ret += "CSV file seems to have a header.\n\n"
         else:
             ret += "CSV file doesn't seem to have a header.\n\n"
-        
+
 
         if self.blanks:
             ret += "Found " + str(self.blanks) + " empty lines in CSV file.\n\n"
@@ -196,13 +199,13 @@ class CSVAnalysisResult(object):
                         int(self.enc_conf * 100))
         ret += "***************************"
         return ret
-        
+
 def is_wellformed_DOI(doi_string):
     doi_match = DOI_RE.match(doi_string.strip())
     if doi_match is not None:
         return True
     return False
-    
+
 def is_wellformed_ISSN(issn_string):
     issn_match = ISSN_RE.match(issn_string.strip())
     if issn_match is not None:
@@ -230,7 +233,7 @@ def is_valid_ISSN(issn_string):
         if 11 - mod == check_digit:
             return True
     return False
-    
+
 
 def analyze_csv_file(file_path, line_limit=None):
     try:
@@ -239,8 +242,7 @@ def analyze_csv_file(file_path, line_limit=None):
         error_msg = "Error: could not open file '{}': {}".format(file_path,
                                                                  ioe.strerror)
         return {"success": False, "error_msg": error_msg}
-        
-    data = {}
+
     content = ""
 
     blanks = 0
@@ -347,9 +349,9 @@ def get_metadata_from_crossref(doi_string):
     except urllib2.URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
-    except ET.ParseError as pe:
+    except ET.ParseError as etpe:
         ret_value['success'] = False
-        ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(pe))
+        ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(etpe))
     return ret_value
 
 def get_metadata_from_pubmed(doi):
@@ -385,11 +387,11 @@ def get_metadata_from_pubmed(doi):
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     return ret_value
-    
+
 def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
     """
     Take an ISSN and check if the corresponding journal exists in DOAJ.
-    
+
     This method looks up an ISSN in the Directory of Open Access Journals
     (DOAJ, https://doaj.org). This is a simple existence check and will not
     return any additional metadata (except for the journal title).
@@ -397,14 +399,14 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
     the validity of the given ISSN - if a negative result is returned, the ISSN
     might be invalid, but it might also belong to a journal which is not
     registered in DOAJ.
-    
+
     Args:
         issn: A string representing an issn
      Returns:
         A dict with a key 'data_received'. If data was received from DOAJ,
         this key will have the value True and the dict will have a second
         entry 'data' which contains the lookup result:
-        
+
         {'in_doaj': True,
          'title': 'Frontiers in Human Neuroscience',
         }
@@ -413,7 +415,7 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
 
         If data extraction failed, 'data_received' will be False and the dict
         will contain a second entry 'error_msg' with a string value
-        stating the reason.   
+        stating the reason.
     """
     headers = {"Accept": "application/json"}
     ret_value = {'data_received': True}
@@ -448,11 +450,181 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
         msg = "ValueError while parsing JSON: {}"
         ret_value['error_msg'] = msg.format(ve.message)
     return ret_value
-    
+
+def process_row(row, row_num, column_map, num_required_columns,
+                doaj_offline_analysis=False, bypass_cert_verification=False):
+    """
+    Enrich a single row of data and reformat it according to Open APC standards.
+
+    Take a csv row (a list) and a column mapping (a list of CSVColumn objects)
+    and return an enriched and re-arranged version which conforms to the Open
+    APC data schema.
+
+    Args:
+        row: A list of column values (as yielded by a UnicodeReader f.e.).
+        row_num: The line number in the csv file, for logging purposes.
+        column_map: An OrderedDict of CSVColumn Objects, mapping the row
+                    cells to Open APC data schema fields.
+        num_required_columns: An int describing the required length of the row
+                              list. If not matched, an error is logged and the
+                              row is returned unchanged.
+        doaj_offline_analysis: If true, a local copy will be used for the DOAJ
+                               lookup.
+        bypass_cert_verification: If true, certificate validation will be
+                                  skipped when connecting to metadata
+                                  providers via TLS.
+     Returns:
+        A list of values which represents the enriched and re-arranged variant
+        of the input row. If no errors were logged during the process, this
+        result will conform to the Open APC data schema.
+    """
+    MESSAGES = {
+        "num_columns": "Syntax: The number of values in this row (%s) " +
+                       "differs from the number of columns (%s). Line left " +
+                       "unchanged, the resulting CSV file will not be valid.",
+        "locale": "Error: Could not process the monetary value '%s' in " +
+                  "column %s. This will usually have one of two reasons:\n1) " +
+                  "The value does not represent a number.\n2) The value " +
+                  "represents a number, but its format differs from your " +
+                  "current system locale - the most common source of error " +
+                  "will be the decimal mark (1234.56 vs 1234,56). Try using " +
+                  "another locale with the -l option.",
+        "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
+                 "to maintain consistency."
+    }
+
+    if len(row) != num_required_columns:
+        msg = "Line %s: " + MESSAGES["num_columns"]
+        logging.error(msg, row_num, len(row), num_required_columns)
+        return row
+
+    doi = row[column_map["doi"].index]
+
+    current_row = OrderedDict()
+    # Copy content of identified columns
+    for csv_column in column_map.values():
+        if csv_column.index is not None and len(row[csv_column.index]) > 0:
+            if csv_column.column_type == "euro":
+                # special case for monetary values: Cast to float to ensure
+                # the decimal point is a dot (instead of a comma)
+                euro_value = row[csv_column.index]
+                try:
+                    euro = locale.atof(euro_value)
+                    if euro.is_integer():
+                        euro = int(euro)
+                    current_row[csv_column.column_type] = str(euro)
+                except ValueError:
+                    msg = "Line %s: " + MESSAGES["locale"]
+                    logging.error(msg, row_num, euro_value, csv_column.index)
+            else:
+                current_row[csv_column.column_type] = row[csv_column.index]
+        else:
+            current_row[csv_column.column_type] = "NA"
+
+    # include crossref metadata
+    crossref_result = get_metadata_from_crossref(doi)
+    if crossref_result["success"]:
+        logging.info("Crossref: DOI resolved: " + doi)
+        current_row["indexed_in_crossref"] = "TRUE"
+        data = crossref_result["data"]
+        for key, value in data.iteritems():
+            if value is not None:
+                if key == "journal_full_title":
+                    unified_value = get_unified_journal_title(value)
+                    if unified_value != value:
+                        msg = MESSAGES["unify"].format("journal title",
+                                                       value,
+                                                       unified_value)
+                        logging.warning(msg)
+                    new_value = unified_value
+                elif key == "publisher":
+                    unified_value = get_unified_publisher_name(value)
+                    if unified_value != value:
+                        msg = MESSAGES["unify"].format("publisher name",
+                                                       value,
+                                                       unified_value)
+                        logging.warning(msg)
+                    new_value = unified_value
+                else:
+                    new_value = value
+            else:
+                new_value = "NA"
+                msg = (u"WARNING: Element '%s' not found in in response for " +
+                       "doi %s.")
+                logging.debug(msg, key, doi)
+            old_value = current_row[key]
+            current_row[key] = column_map[key].check_overwrite(old_value, new_value)
+    else:
+        msg = "Line %s: Crossref: Error while trying to resolve DOI %s: %s"
+        logging.error(msg, row_num, doi, crossref_result["error_msg"])
+        current_row["indexed_in_crossref"] = "FALSE"
+
+    # include pubmed metadata
+    pubmed_result = get_metadata_from_pubmed(doi)
+    if pubmed_result["success"]:
+        logging.info("Pubmed: DOI resolved: " + doi)
+        data = pubmed_result["data"]
+        for key, value in data.iteritems():
+            if value is not None:
+                new_value = value
+            else:
+                new_value = "NA"
+                msg = (u"WARNING: Element %s not found in in response for " +
+                       "doi %s.")
+                logging.debug(msg, key, doi)
+            old_value = current_row[key]
+            current_row[key] = column_map[key].check_overwrite(old_value, new_value)
+    else:
+        msg = "Line %s: Pubmed: Error while trying to resolve DOI %s: %s"
+        logging.error(msg, row_num, doi, pubmed_result["error_msg"])
+
+    # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
+    issns = []
+    if current_row["issn_electronic"] != "NA":
+        issns.append(current_row["issn_electronic"])
+    if current_row["issn"] != "NA":
+        issns.append(current_row["issn"])
+    if current_row["issn_print"] != "NA":
+        issns.append(current_row["issn_print"])
+    for issn in issns:
+        # look up in an offline copy of the DOAJ if requested...
+        if doaj_offline_analysis:
+            lookup_result = doaj_offline_analysis.lookup(issn)
+            if lookup_result:
+                msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
+                       "offline copy ('%s').")
+                logging.info(msg, issn, lookup_result)
+                current_row["doaj"] = "TRUE"
+                break
+            else:
+                msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
+                       "offline copy.")
+                current_row["doaj"] = "FALSE"
+                logging.info(msg, issn)
+        # ...or query the online API
+        else:
+            doaj_res = lookup_journal_in_doaj(issn, bypass_cert_verification)
+            if doaj_res["data_received"]:
+                if doaj_res["data"]["in_doaj"]:
+                    msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
+                    logging.info(msg, issn, doaj_res["data"]["title"])
+                    current_row["doaj"] = "TRUE"
+                    break
+                else:
+                    msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
+                    logging.info(msg, issn)
+                    current_row["doaj"] = "FALSE"
+            else:
+                msg = (u"Line %s: DOAJ: Error while trying to look up " +
+                       "ISSN %s: %s")
+                logging.error(msg, row_num, issn, doaj_res["error_msg"])
+    return current_row.values()
+
+
 def get_column_type_from_whitelist(column_name):
     """
     Identify a CSV column type by looking up the name in a whitelist.
-    
+
     Args:
         column_name: Name of a CSV column, usually extracted from the header.
     Returns:
@@ -482,14 +654,14 @@ def get_column_type_from_whitelist(column_name):
         if column_name.lower() in whitelist:
             return key
     return None
-    
+
 def get_unified_publisher_name(publisher):
     """
     Unify certain publisher names via a mapping table.
-    
+
     CrossRef data is sometimes inconsistent when it comes to publisher names,
     these cases can be solved by returning a unified name from a mapping table.
-    
+
     Args:
         publisher: A publisher as it is returned from the CrossRef API.
     Returns:
@@ -500,14 +672,14 @@ def get_unified_publisher_name(publisher):
         "Impact Journals": "Impact Journals LLC"
     }
     return publisher_mappings.get(publisher, publisher)
-    
+
 def get_unified_journal_title(journal_full_title):
     """
     Unify certain journal titles via a mapping table.
-    
+
     CrossRef data is sometimes inconsistent when it comes to journal titles,
     these cases can be solved by returning a unified name from a mapping table.
-    
+
     Args:
         journal_full_title: A journal title as it is returned from the CrossRef API.
     Returns:
@@ -532,14 +704,14 @@ def get_unified_journal_title(journal_full_title):
         "Scientific Repor.": "Scientific Reports"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
-    
-    
+
+
 def print_b(text):
     print "\033[94m" + text + "\033[0m"
-    
+
 def print_g(text):
     print "\033[92m" + text + "\033[0m"
-    
+
 def print_r(text):
     print "\033[91m" + text + "\033[0m"
 
