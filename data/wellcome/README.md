@@ -22,4 +22,8 @@ A preprocessed variant of the aforementioned file. The following steps were carr
 
 In the case of rows removed, an empty line (sequence of semicolons) was inserted instead, so rows in the preprocessed file can still be assigned to their counterpart in the original file by line numbers.
 
+### University_Returns_2014-2015_FINAL_Figshare_enriched.csv
 
+Enriched, OpenAPC-compatible version of the preprocessed file. During enrichment, the following overwriting policy was employed:
+
+Values in the columns PMCID, PMID, Publisher, Journal title and ISSN were replaced if in conflict with a non-NA value imported from Crossref/Pubmed. 
