@@ -521,62 +521,68 @@ def process_row(row, row_num, column_map, num_required_columns,
         else:
             current_row[csv_column.column_type] = "NA"
 
-    # include crossref metadata
-    crossref_result = get_metadata_from_crossref(doi)
-    if crossref_result["success"]:
-        logging.info("Crossref: DOI resolved: " + doi)
-        current_row["indexed_in_crossref"] = "TRUE"
-        data = crossref_result["data"]
-        for key, value in data.iteritems():
-            if value is not None:
-                if key == "journal_full_title":
-                    unified_value = get_unified_journal_title(value)
-                    if unified_value != value:
-                        msg = MESSAGES["unify"].format("journal title",
-                                                       value,
-                                                       unified_value)
-                        logging.warning(msg)
-                    new_value = unified_value
-                elif key == "publisher":
-                    unified_value = get_unified_publisher_name(value)
-                    if unified_value != value:
-                        msg = MESSAGES["unify"].format("publisher name",
-                                                       value,
-                                                       unified_value)
-                        logging.warning(msg)
-                    new_value = unified_value
-                else:
-                    new_value = value
-            else:
-                new_value = "NA"
-                msg = (u"WARNING: Element '%s' not found in in response for " +
-                       "doi %s.")
-                logging.debug(msg, key, doi)
-            old_value = current_row[key]
-            current_row[key] = column_map[key].check_overwrite(old_value, new_value)
-    else:
-        msg = "Line %s: Crossref: Error while trying to resolve DOI %s: %s"
-        logging.error(msg, row_num, doi, crossref_result["error_msg"])
+    if len(doi) == 0 or doi == 'NA':
+        msg = ("Line %s: No DOI found, entry could not enriched with " +
+               "Crossref or Pubmed metadata.")
+        logging.warning(msg, row_num)
         current_row["indexed_in_crossref"] = "FALSE"
-
-    # include pubmed metadata
-    pubmed_result = get_metadata_from_pubmed(doi)
-    if pubmed_result["success"]:
-        logging.info("Pubmed: DOI resolved: " + doi)
-        data = pubmed_result["data"]
-        for key, value in data.iteritems():
-            if value is not None:
-                new_value = value
-            else:
-                new_value = "NA"
-                msg = (u"WARNING: Element %s not found in in response for " +
-                       "doi %s.")
-                logging.debug(msg, key, doi)
-            old_value = current_row[key]
-            current_row[key] = column_map[key].check_overwrite(old_value, new_value)
     else:
-        msg = "Line %s: Pubmed: Error while trying to resolve DOI %s: %s"
-        logging.error(msg, row_num, doi, pubmed_result["error_msg"])
+        # include crossref metadata
+        crossref_result = get_metadata_from_crossref(doi)
+        if crossref_result["success"]:
+            logging.info("Crossref: DOI resolved: " + doi)
+            current_row["indexed_in_crossref"] = "TRUE"
+            data = crossref_result["data"]
+            for key, value in data.iteritems():
+                if value is not None:
+                    if key == "journal_full_title":
+                        unified_value = get_unified_journal_title(value)
+                        if unified_value != value:
+                            msg = MESSAGES["unify"].format("journal title",
+                                                           value,
+                                                           unified_value)
+                            logging.warning(msg)
+                        new_value = unified_value
+                    elif key == "publisher":
+                        unified_value = get_unified_publisher_name(value)
+                        if unified_value != value:
+                            msg = MESSAGES["unify"].format("publisher name",
+                                                           value,
+                                                           unified_value)
+                            logging.warning(msg)
+                        new_value = unified_value
+                    else:
+                        new_value = value
+                else:
+                    new_value = "NA"
+                    msg = (u"WARNING: Element '%s' not found in in response for " +
+                           "doi %s.")
+                    logging.debug(msg, key, doi)
+                old_value = current_row[key]
+                current_row[key] = column_map[key].check_overwrite(old_value, new_value)
+        else:
+            msg = "Line %s: Crossref: Error while trying to resolve DOI %s: %s"
+            logging.error(msg, row_num, doi, crossref_result["error_msg"])
+            current_row["indexed_in_crossref"] = "FALSE"
+
+        # include pubmed metadata
+        pubmed_result = get_metadata_from_pubmed(doi)
+        if pubmed_result["success"]:
+            logging.info("Pubmed: DOI resolved: " + doi)
+            data = pubmed_result["data"]
+            for key, value in data.iteritems():
+                if value is not None:
+                    new_value = value
+                else:
+                    new_value = "NA"
+                    msg = (u"WARNING: Element %s not found in in response for " +
+                           "doi %s.")
+                    logging.debug(msg, key, doi)
+                old_value = current_row[key]
+                current_row[key] = column_map[key].check_overwrite(old_value, new_value)
+        else:
+            msg = "Line %s: Pubmed: Error while trying to resolve DOI %s: %s"
+            logging.error(msg, row_num, doi, pubmed_result["error_msg"])
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
     issns = []
