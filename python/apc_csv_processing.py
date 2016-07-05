@@ -49,6 +49,9 @@ class CSVColumn(object):
             return new_value
         if old_value.strip() == "":
             return new_value
+        # Do not replace an existing old value with NA
+        if new_value == "NA":
+            return old_value
         if self.overwrite == CSVColumn.OW_ALWAYS:
             return new_value
         if self.overwrite == CSVColumn.OW_NEVER:
