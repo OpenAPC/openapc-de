@@ -707,7 +707,12 @@ def get_unified_journal_title(journal_full_title):
         "Zeitschrift für die neutestamentliche Wissenschaft": "Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
         "Chem. Soc. Rev.": "Chemical Society Reviews",
         "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
-        "Scientific Repor.": "Scientific Reports"
+        "Scientific Repor.": "Scientific Reports",
+        "PAIN": "Pain",
+        "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
+        "Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
+        "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
+        "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
