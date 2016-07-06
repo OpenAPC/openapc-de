@@ -21,8 +21,8 @@ A preprocessed variant of the aforementioned file. The following steps were carr
 
 Additionally, some semantical corrections were conducted:
 
-- Cases of duplicate DOIs were corrected, either by deleting the duplicate or by manually correcting the DOI in case of wrong assignments (c27ba52).
-- Missing hybrid status was manually added in several cases and entries with non-supported publication tpyes (book chapters, proceedings...) were removed (14c04f6).
+- Cases of duplicate DOIs were corrected, either by deleting the duplicate or by manually correcting the DOI in case of wrong assignments ([c27ba52](https://github.com/OpenAPC/openapc-de/commit/c27ba52325d96441deeb0bc2ba81fad81c926e85)).
+- Missing hybrid status was manually added in several cases and entries with non-supported publication types (book chapters, proceedings...) were removed ([14c04f6](https://github.com/OpenAPC/openapc-de/commit/14c04f6c71b7938bd64f9bcb679db760165b971c)).
 
 In the case of rows removed, an empty line (sequence of semicolons) was inserted instead, so rows in the preprocessed file can still be assigned to their counterpart in the original file by line numbers.
 
