@@ -60,19 +60,23 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 
+## Participating Institutions from the United Kingdom:
+
+- [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
+
 ## Dataset
 
 
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  17 922 679 € for  11 557 articles were paid by the participating unviversities. Average  fee is 1 550.8 € and the median 1 386 €.
+In total,  25 199 943 € for  14 380 articles were paid by the participating unviversities. Average  fee is 1 752.4 € and the median 1 509 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 8 913 articles in open access journals which charge publication fees. Total expenditure amounts to  11 640 129 €. Average  fee is 1 306 € and the median 1 242 €.
+At the moment, the dataset releases information on 9 685 articles in open access journals which charge publication fees. Total expenditure amounts to  13 097 256 €. Average  fee is 1 352.3 € and the median 1 266 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -112,13 +116,14 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Dresden                                  |      130|            175723|          1352|   1415|
 |TU Ilmenau                                  |       13|             13053|          1004|    986|
 |TU Muenchen                                 |      308|            390086|          1267|   1386|
+|Wellcome Trust                              |      772|           1457126|          1887|   1823|
 |Wuerzburg U                                 |      207|            286543|          1384|   1447|
 
 ### Hybrid articles
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 2 644 hybrid open access articles. Total expenditure amounts to  6 282 549 €. Average  fee is 2 376.2 € and the median 2 460 €.
+The dataset covers 4 695 hybrid open access articles. Total expenditure amounts to  12 102 687 €. Average  fee is 2 577.8 € and the median 2 618 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -131,6 +136,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |MDC                                         |       18|             42227|          2346|   1996|
 |MPG                                         |       40|             63548|          1589|   1669|
 |TU Chemnitz                                 |        1|               100|           100|    100|
+|Wellcome Trust                              |     2051|           5820138|          2838|   2743|
 
 ## Use of external sources
 
@@ -155,10 +161,10 @@ External sources were used to compile the dataset. This allows for disambiguated
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.32%       |
-|PubMed ID                  |  71.27%      |
-|PubMed Central ID          |  67.45%     |
-|Web of Science record ID   | 84.02%      |
+|DOI                        |  99.45%       |
+|PubMed ID                  |  76.68%      |
+|PubMed Central ID          |  73.17%     |
+|Web of Science record ID   | 67.52%      |
 
 
 
@@ -221,7 +227,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
