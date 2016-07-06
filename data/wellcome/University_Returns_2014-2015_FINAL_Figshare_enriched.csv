@@ -25,7 +25,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,679.12,"10.1371/journal.pone.0139319",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26426329","PMC4591359",NA,NA,TRUE
 "Wellcome Trust",2015,687.01,"10.7717/peerj.785",FALSE,"PeerJ","PeerJ","2167-8359",NA,"2167-8359",NA,TRUE,"25780755","PMC4358641",NA,NA,TRUE
 "Wellcome Trust",2015,708.12,"10.1093/rheumatology/keu445",TRUE,"Oxford University Press (OUP)","Rheumatology","1462-0324","1462-0324","1462-0332",NA,TRUE,"25431483","PMC4476844",NA,NA,FALSE
-"Wellcome Trust",2015,714.03,"10.1242/dmm.017285",FALSE,"The Company of Biologists","Disease Models & Mechanisms","1754-8403","1754-8403","1754-8411",NA,TRUE,"25510503","PMC4314782",NA,NA,TRUE
+"Wellcome Trust",2015,714.03,"10.14800/ics.792",FALSE,"Smart Science and Technology, LLC","Inflammation and Cell Signaling","23307803",NA,"23307803",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,727.84,"10.3389/fimmu.2015.00018",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224",NA,TRUE,"25699041","PMC4313718",NA,NA,TRUE
 "Wellcome Trust",2015,728.35,"10.1080/14461242.2015.1008537",TRUE,"Informa UK Limited","Health Sociology Review","1446-1242","1446-1242","1839-3551",NA,TRUE,"25999784","PMC4409085",NA,NA,FALSE
 "Wellcome Trust",2015,728.35,"10.1080/14636778.2014.999153",TRUE,"Informa UK Limited","New Genetics and Society","1463-6778","1463-6778","1469-9915",NA,TRUE,"25745355","PMC4337687",NA,NA,FALSE
@@ -62,7 +62,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1022.46,"10.3389/fendo.2014.00160",FALSE,"Frontiers Media SA","Frontiers in Endocrinology","1664-2392",NA,"1664-2392",NA,TRUE,"25352829","PMC4196579",NA,NA,TRUE
 "Wellcome Trust",2015,1025.6,"10.3389/fnhum.2014.00853",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25414654","PMC4222142",NA,NA,TRUE
 "Wellcome Trust",2015,1029.03,"10.1107/S2053230X15008584",TRUE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section F Structural Biology Communications","2053-230X",NA,"2053-230X",NA,TRUE,"26144235","PMC4498711",NA,NA,FALSE
-"Wellcome Trust",2015,1034.56,"10.1074/jbc.M114.627059",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25979333","PMC4513130",NA,NA,FALSE
+"Wellcome Trust",2015,1034.56,"10.1074/jbc.M114.627059",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25979333","PMC4513130",NA,NA,FALSE
 "Wellcome Trust",2015,1041.56,"10.1107/S1399004714017581",TRUE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section D Biological Crystallography","1399-0047",NA,"1399-0047",NA,TRUE,"25286854","PMC4188010",NA,NA,FALSE
 "Wellcome Trust",2015,1048.49,"10.1128/MCB.01478-14",TRUE,"American Society for Microbiology","Molecular and Cellular Biology","0270-7306","0270-7306","1098-5549",NA,TRUE,"25733689","PMC4405644",NA,NA,FALSE
 "Wellcome Trust",2015,1052.06,"10.1038/sdata.2014.42",FALSE,"Springer Nature","Scientific Data","2052-4463",NA,"2052-4463",NA,TRUE,"25984346","PMC4432636",NA,NA,TRUE
@@ -136,7 +136,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1199.23,"10.1371/journal.pone.0122589",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","https://creativecommons.org/publicdomain/zero/1.0/",TRUE,"25826619","PMC4380462",NA,NA,TRUE
 "Wellcome Trust",2015,1200.38,"10.1371/journal.pone.0131218",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26121586","PMC4486172",NA,NA,TRUE
 "Wellcome Trust",2015,1204.2,"10.1371/journal.pone.0127712",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26024229","PMC4449205",NA,NA,TRUE
-"Wellcome Trust",2015,1204.68,"10.1152/japplphysiol.01014.2014",TRUE,"American Physiological Society","Journal of Applied Physiology","8750-7587","8750-7587","1522-1601",NA,TRUE,"26139220","PMC4687864",NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1205.6,"10.1371/journal.pone.0129548",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26075619","PMC4468061",NA,NA,TRUE
 "Wellcome Trust",2015,1206.5,"10.1371/journal.pone.0136207",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26367874","PMC4569348",NA,NA,TRUE
 "Wellcome Trust",2015,1207.46,"10.1371/journal.pone.0137947",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26367740","PMC4569550",NA,NA,TRUE
@@ -170,7 +170,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1273.16,"10.1371/journal.pone.0123649",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25830774","PMC4382188",NA,NA,TRUE
 "Wellcome Trust",2015,1275.96,"10.1002/cam4.477",FALSE,"Wiley-Blackwell","Cancer Medicine","20457634",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26108357","PMC4567016",NA,NA,FALSE
 "Wellcome Trust",2015,1281.9,"10.1038/srep11729",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26130263","PMC4486961",NA,NA,TRUE
-"Wellcome Trust",2015,1284,"10.1074/jbc.m114.622498",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25516594","PMC4326798",NA,NA,FALSE
+"Wellcome Trust",2015,1284,"10.1074/jbc.m114.622498",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25516594","PMC4326798",NA,NA,FALSE
 "Wellcome Trust",2015,1298.71,"10.1155/2015/381281",FALSE,"Hindawi Publishing Corporation","Parkinson's Disease","2090-8083","2090-8083","2042-0080","http://creativecommons.org/licenses/by/3.0/",TRUE,"25960916","PMC4414211",NA,NA,TRUE
 "Wellcome Trust",2015,1299.78,"10.1371/journal.pone.0114575",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25535746","PMC4275206",NA,NA,TRUE
 "Wellcome Trust",2015,1300.24,"10.1016/j.scr.2014.10.007",FALSE,"Elsevier BV","Stem Cell Research","18735061","18735061",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25460248","PMC4305370",NA,NA,FALSE
@@ -191,12 +191,12 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1346.64,"10.1371/journal.pone.0121271",TRUE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25830295","PMC4382181",NA,NA,TRUE
 "Wellcome Trust",2015,1346.82,"10.1371/journal.pone.0112547",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25380074","PMC4224508",NA,NA,TRUE
 "Wellcome Trust",2015,1348.79,"10.1371/journal.pone.0114725",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25486534","PMC4259366",NA,NA,TRUE
-"Wellcome Trust",2015,1348.8,"10.1074/jbc.M115.661280",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26041778","PMC4498093",NA,NA,FALSE
+"Wellcome Trust",2015,1348.8,"10.1074/jbc.M115.661280",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26041778","PMC4498093",NA,NA,FALSE
 "Wellcome Trust",2015,1348.8,"10.1523/JNEUROSCI.0323-15.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"26156983","PMC4495238",NA,NA,FALSE
-"Wellcome Trust",2015,1353.05,"10.1074/jbc.M114.604397",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25368322","PMC4319009",NA,NA,FALSE
-"Wellcome Trust",2015,1353.51,"10.1074/jbc.M114.619270",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25670864","PMC4375503",NA,NA,FALSE
-"Wellcome Trust",2015,1354.2,"10.1155/2015/165074",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"26504782","PMC4609345",NA,NA,TRUE
-"Wellcome Trust",2015,1359.77,"10.1074/jbc.m114.621789",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25505271","PMC4316997",NA,NA,FALSE
+"Wellcome Trust",2015,1353.05,"10.1074/jbc.M114.604397",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25368322","PMC4319009",NA,NA,FALSE
+"Wellcome Trust",2015,1353.51,"10.1074/jbc.M114.619270",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25670864","PMC4375503",NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+"Wellcome Trust",2015,1359.77,"10.1074/jbc.m114.621789",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25505271","PMC4316997",NA,NA,FALSE
 "Wellcome Trust",2015,1362.84,"10.1371/journal.pone.0113637",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25474696","PMC4256164",NA,NA,TRUE
 "Wellcome Trust",2015,1365.55,"10.1371/journal.pone.0114289",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25474626","PMC4256406",NA,NA,TRUE
 "Wellcome Trust",2015,1365.74,"10.1371/journal.pone.0113415",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25412251","PMC4239054",NA,NA,TRUE
@@ -205,12 +205,12 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1366.54,"10.1016/j.lmot.2014.08.002",TRUE,"Elsevier BV","Learning and Motivation","00239690","00239690",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25512678","PMC4261084",NA,NA,FALSE
 "Wellcome Trust",2015,1367.28,"10.1371/journal.pone.0113402",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25426859","PMC4245140",NA,NA,TRUE
 "Wellcome Trust",2015,1367.79,"10.1371/journal.pone.0110997",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25393739","PMC4230991",NA,NA,TRUE
-"Wellcome Trust",2015,1374.31,"10.1074/jbc.M114.616664",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25505247","PMC4326827",NA,NA,FALSE
+"Wellcome Trust",2015,1374.31,"10.1074/jbc.M114.616664",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25505247","PMC4326827",NA,NA,FALSE
 "Wellcome Trust",2015,1375.78,"10.1093/bioinformatics/btv386",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059",NA,TRUE,"26112292","PMC4595905",NA,NA,FALSE
-"Wellcome Trust",2015,1375.78,"10.1074/mcp.M114.044594",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25755298","PMC4424403",NA,NA,FALSE
+"Wellcome Trust",2015,1375.78,"10.1074/mcp.M114.044594",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25755298","PMC4424403",NA,NA,FALSE
 "Wellcome Trust",2015,1375.78,"10.1093/bioinformatics/btv114",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059",NA,TRUE,"25777524","PMC4495289",NA,NA,FALSE
 "Wellcome Trust",2015,1375.78,"10.1093/bioinformatics/btu669",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059",NA,TRUE,"25319962","PMC4308667",NA,NA,FALSE
-"Wellcome Trust",2015,1375.78,"10.1093/bioinformatics/btu669",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059",NA,TRUE,"25319962","PMC4308667",NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1375.78,"10.1093/bioinformatics/btv463",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059",NA,TRUE,"26249811","PMC4653391",NA,NA,FALSE
 "Wellcome Trust",2015,1379.11,"10.1371/journal.pone.0113555",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25460003","PMC4251986",NA,NA,TRUE
 "Wellcome Trust",2015,1383.87,"10.1371/journal.pone.0136213",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26308086","PMC4550250",NA,NA,TRUE
@@ -377,14 +377,14 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1562.29,"10.1016/j.neuroimage.2014.11.021",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25463459","PMC4275574",NA,NA,FALSE
 "Wellcome Trust",2015,1562.33,"10.1261/rna.045849.114",TRUE,"Cold Spring Harbor Laboratory Press","RNA","1355-8382","1355-8382","1469-9001",NA,TRUE,"25171822","PMC4174441",NA,NA,FALSE
 "Wellcome Trust",2015,1564.73,"10.1155/2015/901679",TRUE,"Hindawi Publishing Corporation","Journal of Immunology Research","2314-8861","2314-8861","2314-7156","http://creativecommons.org/licenses/by/3.0/",TRUE,"26065008","PMC4433704",NA,NA,TRUE
-"Wellcome Trust",2015,1575.7,"10.1074/jbc.M115.640524",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25969539","PMC4513131",NA,NA,FALSE
+"Wellcome Trust",2015,1575.7,"10.1074/jbc.M115.640524",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25969539","PMC4513131",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1583.71,"10.4161/15384101.2014.988027",TRUE,"Informa UK Limited","Cell Cycle","1538-4101","1538-4101","1551-4005",NA,TRUE,"25551772","PMC4352972",NA,NA,FALSE
 "Wellcome Trust",2015,1585.11,"10.1371/journal.pntd.0003608",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","https://creativecommons.org/publicdomain/zero/1.0/",TRUE,"25781015","PMC4362764",NA,NA,TRUE
-"Wellcome Trust",2015,1591.08,"10.1074/jbc.M115.660613",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25995448","PMC4505424",NA,NA,FALSE
-"Wellcome Trust",2015,1599.14,"10.1074/jbc.M115.642033",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25903136","PMC4505523",NA,NA,FALSE
-"Wellcome Trust",2015,1599.14,"10.1074/jbc.M114.592246",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25425641","PMC4340402",NA,NA,FALSE
+"Wellcome Trust",2015,1591.08,"10.1074/jbc.M115.660613",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25995448","PMC4505424",NA,NA,FALSE
+"Wellcome Trust",2015,1599.14,"10.1074/jbc.M115.642033",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25903136","PMC4505523",NA,NA,FALSE
+"Wellcome Trust",2015,1599.14,"10.1074/jbc.M114.592246",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25425641","PMC4340402",NA,NA,FALSE
 "Wellcome Trust",2015,1600.15,"10.1096/fj.14-267179",TRUE,"FASEB","The FASEB Journal","0892-6638","0892-6638","1530-6860",NA,TRUE,"25634958","PMC4415021",NA,NA,FALSE
 "Wellcome Trust",2015,1602.37,"10.1038/srep12399",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26198310","PMC4510525",NA,NA,TRUE
 "Wellcome Trust",2015,1602.37,"10.1038/srep14005",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26364564","PMC4568464",NA,NA,TRUE
@@ -417,8 +417,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1602.37,"10.1038/srep09941",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25898175","PMC4404714",NA,NA,TRUE
 "Wellcome Trust",2015,1602.37,"10.1038/srep13113",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26290392","PMC4542335",NA,NA,TRUE
 "Wellcome Trust",2015,1606.03,"10.1016/j.cognition.2014.07.010",TRUE,"Elsevier BV","Cognition","00100277","00100277",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25168161","PMC4175410",NA,NA,FALSE
-"Wellcome Trust",2015,1607.85,"10.1074/jbc.M115.640367",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25925950","PMC4505459",NA,NA,FALSE
-"Wellcome Trust",2015,1610.49,"10.1074/jbc.M114.624650",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25605733","PMC4358236",NA,NA,FALSE
+"Wellcome Trust",2015,1607.85,"10.1074/jbc.M115.640367",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25925950","PMC4505459",NA,NA,FALSE
+"Wellcome Trust",2015,1610.49,"10.1074/jbc.M114.624650",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25605733","PMC4358236",NA,NA,FALSE
 "Wellcome Trust",2015,1618.56,"10.1136/bmjopen-2015-008086",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"26253567","PMC4539390",NA,NA,TRUE
 "Wellcome Trust",2015,1618.56,"10.1136/bmjopen-2014-007161",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055",NA,NA,TRUE,"25941180","PMC4420941",NA,NA,TRUE
 "Wellcome Trust",2015,1618.56,"10.1093/brain/awv107",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156",NA,TRUE,"25953777","PMC4572485",NA,NA,FALSE
@@ -427,12 +427,12 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1618.56,"10.1136/bmjopen-2015-008950",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"26482774","PMC4611208",NA,NA,TRUE
 "Wellcome Trust",2015,1618.56,"10.1530/REP-14-0503",TRUE,"BioScientifica","Reproduction","1470-1626","1470-1626","1741-7899",NA,TRUE,"25855670","PMC4397614",NA,NA,FALSE
 "Wellcome Trust",2015,1618.56,"10.1530/JOE-14-0456",TRUE,"BioScientifica","Journal of Endocrinology","0022-0795","0022-0795","1479-6805",NA,TRUE,"25161081","PMC4191185",NA,NA,FALSE
-"Wellcome Trust",2015,1622.07,"10.1074/jbc.M115.642983",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25802336","PMC4424342",NA,NA,FALSE
+"Wellcome Trust",2015,1622.07,"10.1074/jbc.M115.642983",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25802336","PMC4424342",NA,NA,FALSE
 "Wellcome Trust",2015,1630.55,"10.3389/fpsyg.2014.01440",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25566122","PMC4271597",NA,NA,TRUE
 "Wellcome Trust",2015,1631.51,"10.1002/iid3.49",FALSE,"Wiley-Blackwell","Immunity, Inflammation and Disease","20504527",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26029366","PMC4444149",NA,NA,FALSE
 "Wellcome Trust",2015,1631.51,"10.3389/fnins.2014.00405",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X",NA,TRUE,"25538556","PMC4260483",NA,NA,TRUE
 "Wellcome Trust",2015,1631.51,"10.3389/fnhum.2014.00893",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25426047","PMC4226147",NA,NA,TRUE
-"Wellcome Trust",2015,1636.45,"10.1074/jbc.M115.637306",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25713081","PMC4416878",NA,NA,FALSE
+"Wellcome Trust",2015,1636.45,"10.1074/jbc.M115.637306",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25713081","PMC4416878",NA,NA,FALSE
 "Wellcome Trust",2015,1638.79,"10.1136/bmjopen-2015-008577",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"26493457","PMC4620164",NA,NA,TRUE
 "Wellcome Trust",2015,1638.79,"10.1136/bmjopen-2015-007980",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"26346873","PMC4563249",NA,NA,TRUE
 "Wellcome Trust",2015,1638.79,"10.1136/bmjopen-2015-008737",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"26631055","PMC4679905",NA,NA,TRUE
@@ -445,7 +445,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1680.69,"10.1016/j.bbrc.2015.07.073",TRUE,"Elsevier BV","Biochemical and Biophysical Research Communications","0006291X","0006291X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26188511","PMC4624959",NA,NA,FALSE
 "Wellcome Trust",2015,1681.29,"10.1016/j.neuroimage.2014.12.081",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25585017","PMC4334664",NA,NA,FALSE
 "Wellcome Trust",2015,1682.2,"10.1016/j.neuroimage.2014.12.030",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25529007","PMC4334663",NA,NA,FALSE
-"Wellcome Trust",2015,1685.77,"10.1074/jbc.M114.622738",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25648893","PMC4367295",NA,NA,FALSE
+"Wellcome Trust",2015,1685.77,"10.1074/jbc.M114.622738",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25648893","PMC4367295",NA,NA,FALSE
 "Wellcome Trust",2015,1688.16,"10.3109/01677063.2015.1053478",TRUE,"Informa Healthcare","Journal of Neurogenetics","0167-7063","0167-7063","1563-5260",NA,TRUE,"25985846","PMC4673530",NA,NA,FALSE
 "Wellcome Trust",2015,1690.02,"10.1128/AAC.03258-14",TRUE,"American Society for Microbiology","Antimicrobial Agents and Chemotherapy","0066-4804","0066-4804","1098-6596",NA,TRUE,"25224007","PMC4249529",NA,NA,FALSE
 "Wellcome Trust",2015,1690.59,"10.1186/1476-072X-14-8",FALSE,"Springer Nature","International Journal of Health Geographics","1476-072X","1476-072X",NA,NA,TRUE,"25656299","PMC4429367",NA,NA,TRUE
@@ -454,8 +454,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1698.75,"10.1016/j.vaccine.2015.01.042",TRUE,"Elsevier BV","Vaccine","0264410X","0264410X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25629523","PMC4331283",NA,NA,FALSE
 "Wellcome Trust",2015,1699.49,"10.1098/rstb.2013.0540",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society B: Biological Sciences","0962-8436","0962-8436","1471-2970",NA,TRUE,"25349449","PMC4216463",NA,NA,FALSE
 "Wellcome Trust",2015,1699.49,"10.1098/rstb.2013.0541",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society B: Biological Sciences","0962-8436","0962-8436","1471-2970",NA,TRUE,"25349450","PMC4216464",NA,NA,FALSE
-"Wellcome Trust",2015,1699.49,"10.1074/mcp.M114.047647",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25931509","PMC4587319",NA,NA,FALSE
-"Wellcome Trust",2015,1699.49,"10.1074/mcp.M114.044289",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25963834","PMC4587315",NA,NA,FALSE
+"Wellcome Trust",2015,1699.49,"10.1074/mcp.M114.047647",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25931509","PMC4587319",NA,NA,FALSE
+"Wellcome Trust",2015,1699.49,"10.1074/mcp.M114.044289",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25963834","PMC4587315",NA,NA,FALSE
 "Wellcome Trust",2015,1699.49,"10.1098/rstb.2013.0376",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society B: Biological Sciences","0962-8436","0962-8436","1471-2970",NA,TRUE,"25487328","PMC4275884",NA,NA,FALSE
 "Wellcome Trust",2015,1700.46,"10.1016/j.ridd.2014.10.043",TRUE,"Elsevier BV","Research in Developmental Disabilities","08914222","08914222",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,"PMC4265728",NA,NA,FALSE
 "Wellcome Trust",2015,1708.81,"10.1016/j.addbeh.2015.01.026",TRUE,"Elsevier BV","Addictive Behaviors","03064603","03064603",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25658770","PMC4376294",NA,NA,FALSE
@@ -468,15 +468,15 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1725.91,"10.1016/j.neuroimage.2014.09.044",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25264230","PMC4263529",NA,NA,FALSE
 "Wellcome Trust",2015,1726.42,"10.1016/j.jneumeth.2015.01.003",TRUE,"Elsevier BV","Journal of Neuroscience Methods","01650270","01650270",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25583383","PMC4346275",NA,NA,FALSE
 "Wellcome Trust",2015,1728.37,"10.1016/j.freeradbiomed.2014.10.575",TRUE,"Elsevier BV","Free Radical Biology and Medicine","08915849","08915849",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25451639","PMC4344222",NA,NA,FALSE
-"Wellcome Trust",2015,1728.68,"10.1074/jbc.m115.639237",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26139601","PMC4543653",NA,NA,FALSE
+"Wellcome Trust",2015,1728.68,"10.1074/jbc.m115.639237",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26139601","PMC4543653",NA,NA,FALSE
 "Wellcome Trust",2015,1729.16,"10.1016/j.neuroimage.2014.12.071",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25573670","PMC4349632",NA,NA,FALSE
 "Wellcome Trust",2015,1731.86,"10.1186/s13071-015-0782-9",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"25889461","PMC4373032",NA,NA,TRUE
-"Wellcome Trust",2015,1735.03,"10.1074/jbc.M114.610782",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25336647","PMC4276868",NA,NA,FALSE
+"Wellcome Trust",2015,1735.03,"10.1074/jbc.M114.610782",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25336647","PMC4276868",NA,NA,FALSE
 "Wellcome Trust",2015,1735.91,"10.1016/j.ypmed.2014.11.018",TRUE,"Elsevier BV","Preventive Medicine","00917435","00917435",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25434736","PMC4295935",NA,NA,FALSE
 "Wellcome Trust",2015,1738.74,"10.1186/s13071-015-0656-1",FALSE,"Springer Nature","Parasites & Vectors","1756-3305","1756-3305",NA,NA,TRUE,"25623184","PMC4316651",NA,NA,TRUE
 "Wellcome Trust",2015,1738.74,"10.1186/s13071-014-0466-x",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"25303991","PMC4197264",NA,NA,TRUE
 "Wellcome Trust",2015,1739.82,"10.1016/j.jmb.2014.10.008",TRUE,"Elsevier BV","Journal of Molecular Biology","00222836","00222836",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25315822","PMC4270448",NA,NA,FALSE
-"Wellcome Trust",2015,1740.38,"10.1074/jbc.M114.590976",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25281741","PMC4263873",NA,NA,FALSE
+"Wellcome Trust",2015,1740.38,"10.1074/jbc.M114.590976",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25281741","PMC4263873",NA,NA,FALSE
 "Wellcome Trust",2015,1741.35,"10.3389/fgene.2015.00288",FALSE,"Frontiers Media SA","Frontiers in Genetics","1664-8021",NA,"1664-8021",NA,TRUE,"26442106","PMC4584935",NA,NA,TRUE
 "Wellcome Trust",2015,1748.04,"10.1098/rstb.2014.0083",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society B: Biological Sciences","0962-8436","0962-8436","1471-2970",NA,TRUE,"25918441","PMC4424433",NA,NA,FALSE
 "Wellcome Trust",2015,1748.04,"10.1098/rsif.2014.0882",TRUE,"The Royal Society","Journal of The Royal Society Interface","1742-5689","1742-5689","1742-5662",NA,TRUE,"25505130","PMC4305403",NA,NA,FALSE
@@ -485,17 +485,17 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1748.79,"10.2196/mhealth.3895",FALSE,"JMIR Publications Inc.","JMIR mHealth and uHealth","2291-5222",NA,"2291-5222",NA,TRUE,"26123578","PMC4526967",NA,NA,TRUE
 "Wellcome Trust",2015,1750.66,"10.1128/EC.00028-15",TRUE,"American Society for Microbiology","Eukaryotic Cell","1535-9778","1535-9778","1535-9786",NA,TRUE,"26002719","PMC4486676",NA,NA,FALSE
 "Wellcome Trust",2015,1751.62,"10.1016/j.bone.2014.05.008",TRUE,"Elsevier BV","Bone","87563282","87563282",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24840816","PMC4073227",NA,NA,FALSE
-"Wellcome Trust",2015,1752.28,"10.1534/g3.115.017509",FALSE,"Genetics Society of America","G3&amp;#58; Genes|Genomes|Genetics","2160-1836",NA,"2160-1836",NA,TRUE,"25717150","PMC4426358",NA,NA,TRUE
+"Wellcome Trust",2015,1752.28,"10.1534/g3.115.017509",FALSE,"Genetics Society of America","G3: Genes|Genomes|Genetics","2160-1836",NA,"2160-1836",NA,TRUE,"25717150","PMC4426358",NA,NA,TRUE
 "Wellcome Trust",2015,1753.16,"10.1152/ajpheart.00233.2015",TRUE,"American Physiological Society","American Journal of Physiology - Heart and Circulatory Physiology","0363-6135","0363-6135","1522-1539",NA,TRUE,"26071543","PMC4537945",NA,NA,FALSE
-"Wellcome Trust",2015,1753.44,"10.1074/jbc.M114.628750",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25778404","PMC4424335",NA,NA,FALSE
+"Wellcome Trust",2015,1753.44,"10.1074/jbc.M114.628750",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25778404","PMC4424335",NA,NA,FALSE
 "Wellcome Trust",2015,1753.44,"10.3390/ijms160922509",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067",NA,TRUE,"26393574","PMC4613321",NA,NA,TRUE
 "Wellcome Trust",2015,1754.57,"10.1016/j.neuropsychologia.2014.11.032",TRUE,"Elsevier BV","Neuropsychologia","00283932","00283932",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25433223","PMC4410792",NA,NA,FALSE
-"Wellcome Trust",2015,1762.45,"10.1074/jbc.M114.608448",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25313401","PMC4246079",NA,NA,FALSE
+"Wellcome Trust",2015,1762.45,"10.1074/jbc.M114.608448",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25313401","PMC4246079",NA,NA,FALSE
 "Wellcome Trust",2015,1764.46,"10.1016/j.neuroimage.2014.07.051",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25094018","PMC4289914",NA,NA,FALSE
 "Wellcome Trust",2015,1773.13,"10.1186/1743-7075-11-51",FALSE,"Springer Nature","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"25392710","PMC4228191",NA,NA,TRUE
 "Wellcome Trust",2015,1773.94,"10.1186/s12866-015-0410-z",FALSE,"Springer Nature","BMC Microbiology","1471-2180",NA,"1471-2180",NA,TRUE,"25887289","PMC4404196",NA,NA,TRUE
 "Wellcome Trust",2015,1774.75,"10.1186/s12888-015-0398-9",FALSE,"Springer Nature","BMC Psychiatry","1471-244X","1471-244X",NA,NA,TRUE,"25886303","PMC4329658",NA,NA,TRUE
-"Wellcome Trust",2015,1777.29,"10.1074/jbc.R114.609198",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25336650","PMC4263850",NA,NA,FALSE
+"Wellcome Trust",2015,1777.29,"10.1074/jbc.R114.609198",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25336650","PMC4263850",NA,NA,FALSE
 "Wellcome Trust",2015,1780.42,"10.1038/psp.2014.48",FALSE,"Wiley-Blackwell","CPT Pharmacometrics Syst. Pharmacol.","2163-8306",NA,"2163-8306","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25470184","PMC4288001",NA,NA,TRUE
 "Wellcome Trust",2015,1787.16,"10.1186/1471-2474-15-418",FALSE,"Springer Nature","BMC Musculoskeletal Disorders","1471-2474","1471-2474",NA,NA,TRUE,"25492581","PMC4295256",NA,NA,TRUE
 "Wellcome Trust",2015,1787.16,"10.1186/s12875-014-0195-4",FALSE,"Springer Nature","BMC Family Practice","1471-2296",NA,"1471-2296","http://www.springer.com/tdm",TRUE,"25477255","PMC4261613",NA,NA,TRUE
@@ -593,7 +593,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1857.3,"10.1136/bmjopen-2014-006391",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"25500618","PMC4267077",NA,NA,TRUE
 "Wellcome Trust",2015,1858.98,"10.1016/j.mad.2015.05.001",TRUE,"Elsevier BV","Mechanisms of Ageing and Development","00476374","00476374",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25956603","PMC4461009",NA,NA,FALSE
 "Wellcome Trust",2015,1862.73,"10.1016/j.jneumeth.2015.05.016",TRUE,"Elsevier BV","Journal of Neuroscience Methods","01650270","01650270",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26026581","PMC4550477",NA,NA,FALSE
-"Wellcome Trust",2015,1865.28,"10.1074/jbc.M114.625137",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25653282","PMC4375474",NA,NA,FALSE
+"Wellcome Trust",2015,1865.28,"10.1074/jbc.M114.625137",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25653282","PMC4375474",NA,NA,FALSE
 "Wellcome Trust",2015,1867.24,"10.1016/j.jbtep.2015.02.007",TRUE,"Elsevier BV","Journal of Behavior Therapy and Experimental Psychiatry","00057916","00057916",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25770671","PMC4429971",NA,NA,FALSE
 "Wellcome Trust",2015,1868.87,"10.1016/j.neulet.2015.01.084",TRUE,"Elsevier BV","Neuroscience Letters","03043940","03043940",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25697597","PMC4411215",NA,NA,FALSE
 "Wellcome Trust",2015,1871.33,"10.1016/j.expneurol.2015.07.024",TRUE,"Elsevier BV","Experimental Neurology","00144886","00144886",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26244281","PMC4654430",NA,NA,FALSE
@@ -698,12 +698,12 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1965.74,"10.1186/s12864-015-1495-3",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"25887553","PMC4419465",NA,NA,TRUE
 "Wellcome Trust",2015,1965.74,"10.1186/s12864-015-1650-x",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"26055083","PMC4460688",NA,NA,TRUE
 "Wellcome Trust",2015,1965.74,"10.1186/s12943-015-0339-8",FALSE,"Springer Nature","Molecular Cancer","1476-4598",NA,"1476-4598",NA,TRUE,"25889361","PMC4392876",NA,NA,TRUE
-"Wellcome Trust",2015,1965.74,"10.1371/journal.pone.0136717",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26332995","PMC4557947",NA,NA,TRUE
+"Wellcome Trust",2015,1965.74,"10.1186/s13063-015-0890-z",FALSE,"Springer Nature","Trials","1745-6215",NA,"1745-6215",NA,TRUE,"26292675","PMC4546100",NA,NA,TRUE
 "Wellcome Trust",2015,1970.61,"10.1111/imm.12253",TRUE,"Wiley-Blackwell","Immunology","00192805",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24444341","PMC4008236",NA,NA,FALSE
 "Wellcome Trust",2015,1971.99,"10.1016/j.vaccine.2015.04.053",TRUE,"Elsevier BV","Vaccine","0264410X","0264410X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25917672","PMC4441035",NA,NA,FALSE
 "Wellcome Trust",2015,1982.74,"10.1099/vir.0.000145",TRUE,"Microbiology Society","Journal of General Virology","0022-1317","0022-1317","1465-2099",NA,TRUE,"25872741","PMC4681064",NA,NA,FALSE
 "Wellcome Trust",2015,1985.27,"10.1371/journal.ppat.1005003",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"26181518","PMC4504473",NA,NA,TRUE
-"Wellcome Trust",2015,1988.89,"10.1074/jbc.M114.568154",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25190808","PMC4215230",NA,NA,FALSE
+"Wellcome Trust",2015,1988.89,"10.1074/jbc.M114.568154",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25190808","PMC4215230",NA,NA,FALSE
 "Wellcome Trust",2015,1992.58,"10.1007/s13239-014-0203-9",TRUE,"Springer Nature","Cardiovascular Engineering and Technology","1869-408X","1869-408X","1869-4098",NA,TRUE,"25984249","PMC4427651",NA,NA,FALSE
 "Wellcome Trust",2015,1992.58,"10.1007/s00125-014-3448-9",TRUE,"Springer Nature","Diabetologia","0012-186X","0012-186X","1432-0428",NA,TRUE,"25431266","PMC4320303",NA,NA,FALSE
 "Wellcome Trust",2015,1992.58,"10.1007/s11695-014-1507-4",TRUE,"Springer Nature","Obesity Surgery","0960-8923","0960-8923","1708-0428",NA,TRUE,"25411121","PMC4297286",NA,NA,FALSE
@@ -749,7 +749,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2023.2,"10.1002/glia.22759",TRUE,"Wiley-Blackwell","Glia","08941491",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25327839","PMC4309495",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1111/aji.12341",TRUE,"Wiley-Blackwell","American Journal of Reproductive Immunology","10467408",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25469631","PMC4409084",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1111/bph.13013",TRUE,"Wiley-Blackwell","British Journal of Pharmacology","00071188",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25393318","PMC4386982",NA,NA,FALSE
-"Wellcome Trust",2015,2024.87,"10.1074/jbc.M114.606772",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25342751","PMC4263881",NA,NA,FALSE
+"Wellcome Trust",2015,2024.87,"10.1074/jbc.M114.606772",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25342751","PMC4263881",NA,NA,FALSE
 "Wellcome Trust",2015,2025.03,"10.2196/jmir.3382",FALSE,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871",NA,TRUE,"25488851","PMC4275497",NA,NA,TRUE
 "Wellcome Trust",2015,2025.79,"10.1080/00224499.2014.985813",TRUE,"Informa UK Limited","The Journal of Sex Research","0022-4499","0022-4499","1559-8519",NA,TRUE,"25667952","PMC4536938",NA,NA,FALSE
 "Wellcome Trust",2015,2026.52,"10.3389/fimmu.2015.00026",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224",NA,TRUE,"25691884","PMC4315118",NA,NA,TRUE
@@ -767,7 +767,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2038.01,"10.1371/journal.pntd.0003552",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"25768648","PMC4358968",NA,NA,TRUE
 "Wellcome Trust",2015,2038.01,"10.1371/journal.ppat.1004689",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"25775470","PMC4361558",NA,NA,TRUE
 "Wellcome Trust",2015,2038.4,"10.3389/fnmol.2014.00087",FALSE,"Frontiers Media SA","Frontiers in Molecular Neuroscience","1662-5099",NA,"1662-5099",NA,TRUE,"25426020","PMC4227287",NA,NA,TRUE
-"Wellcome Trust",2015,2048.85,"10.1074/jbc.M114.594796",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25281748","PMC4231679",NA,NA,FALSE
+"Wellcome Trust",2015,2048.85,"10.1074/jbc.M114.594796",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25281748","PMC4231679",NA,NA,FALSE
 "Wellcome Trust",2015,2050.16,"10.1016/j.ibmb.2014.10.002",TRUE,"Elsevier BV","Insect Biochemistry and Molecular Biology","09651748","09651748",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25460510","PMC4261083",NA,NA,FALSE
 "Wellcome Trust",2015,2050.16,"10.1016/j.neuropharm.2014.08.008",TRUE,"Elsevier BV","Neuropharmacology","00283908","00283908",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25174552","PMC4220016",NA,NA,FALSE
 "Wellcome Trust",2015,2050.7,"10.1371/journal.pgen.1004986",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"25738810","PMC4349457",NA,NA,TRUE
@@ -779,14 +779,14 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2056.79,"10.1186/s12966-014-0102-3",FALSE,"Springer Nature","International Journal of Behavioral Nutrition and Physical Activity","1479-5868",NA,"1479-5868",NA,TRUE,"25927293","PMC4149242",NA,NA,TRUE
 "Wellcome Trust",2015,2058.84,"10.1002/stem.1887",TRUE,"Wiley-Blackwell","STEM CELLS","10665099",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25377180","PMC4359624",NA,NA,FALSE
 "Wellcome Trust",2015,2061.71,"10.1002/cmdc.201500014",TRUE,"Wiley-Blackwell","ChemMedChem","18607179",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25899172","PMC4515083",NA,NA,FALSE
-"Wellcome Trust",2015,2061.87,"10.1074/jbc.M114.602615",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25404741","PMC4340400",NA,NA,FALSE
+"Wellcome Trust",2015,2061.87,"10.1074/jbc.M114.602615",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25404741","PMC4340400",NA,NA,FALSE
 "Wellcome Trust",2015,2062.73,"10.1016/j.cortex.2014.10.023",TRUE,"Elsevier BV","Cortex","00109452","00109452",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25527430","PMC4298656",NA,NA,FALSE
 "Wellcome Trust",2015,2062.99,"10.3390/v7072796",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915",NA,TRUE,"26184282","PMC4517125",NA,NA,TRUE
 "Wellcome Trust",2015,2063.66,"10.1186/s13071-015-0797-2",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"25888775","PMC4377062",NA,NA,TRUE
 "Wellcome Trust",2015,2063.66,"10.1098/rstb.2015.0031",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society B: Biological Sciences","0962-8436","0962-8436","1471-2970",NA,TRUE,"26370943","PMC4632607",NA,NA,FALSE
 "Wellcome Trust",2015,2064.1,"10.1021/acs.biomac.5b00190",TRUE,"American Chemical Society (ACS)","Biomacromolecules","1525-7797","1525-7797","1526-4602","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25815624","PMC4429494",NA,NA,FALSE
 "Wellcome Trust",2015,2064.12,"10.1002/cphc.201402794",TRUE,"Wiley-Blackwell","ChemPhysChem","14394235",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25755090","PMC4539592",NA,NA,FALSE
-"Wellcome Trust",2015,2065.03,"10.1074/jbc.M114.612630",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25326384","PMC4276880",NA,NA,FALSE
+"Wellcome Trust",2015,2065.03,"10.1074/jbc.M114.612630",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25326384","PMC4276880",NA,NA,FALSE
 "Wellcome Trust",2015,2067.71,"10.1016/j.tics.2015.04.001",TRUE,"Elsevier BV","Trends in Cognitive Sciences","13646613","13646613",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25882915","PMC4454779",NA,NA,FALSE
 "Wellcome Trust",2015,2067.71,"10.1016/j.tcb.2015.05.001",TRUE,"Elsevier BV","Trends in Cell Biology","09628924","09628924",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25981318","PMC4509518",NA,NA,FALSE
 "Wellcome Trust",2015,2068.14,"10.1371/journal.pntd.0003518",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"25730310","PMC4346263",NA,NA,TRUE
@@ -799,7 +799,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2071.5,"10.1021/bi5008035",TRUE,"American Chemical Society (ACS)","Biochemistry","0006-2960","0006-2960","1520-4995","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25238029","PMC4312132",NA,NA,FALSE
 "Wellcome Trust",2015,2071.5,"10.1002/stem.1910",TRUE,"Wiley-Blackwell","STEM CELLS","10665099",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25447755","PMC4583782",NA,NA,FALSE
 "Wellcome Trust",2015,2074.04,"10.1016/j.neuropharm.2014.08.010",TRUE,"Elsevier BV","Neuropharmacology","00283908","00283908",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25158312","PMC4259517",NA,NA,FALSE
-"Wellcome Trust",2015,2074.4,"10.1074/jbc.M115.645291",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26178371","PMC4571871",NA,NA,FALSE
+"Wellcome Trust",2015,2074.4,"10.1074/jbc.M115.645291",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26178371","PMC4571871",NA,NA,FALSE
 "Wellcome Trust",2015,2074.62,"10.1016/j.expneurol.2014.11.013",TRUE,"Elsevier BV","Experimental Neurology","00144886","00144886",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25483398","PMC4353684",NA,NA,FALSE
 "Wellcome Trust",2015,2074.74,"10.2196/jmir.4420",FALSE,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871",NA,TRUE,"26149323","PMC4526978",NA,NA,TRUE
 "Wellcome Trust",2015,2075.99,"10.1128/mBio.02383-14",FALSE,"American Society for Microbiology","mBio","2150-7511",NA,"2150-7511",NA,TRUE,"25714712","PMC4358009",NA,NA,TRUE
@@ -810,7 +810,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2082.2,"10.1371/journal.pntd.0003627",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"25799270","PMC4370749",NA,NA,TRUE
 "Wellcome Trust",2015,2082.55,"10.1152/ajpheart.00152.2015",TRUE,"American Physiological Society","American Journal of Physiology - Heart and Circulatory Physiology","0363-6135","0363-6135","1522-1539",NA,TRUE,"26163442","PMC4591398",NA,NA,FALSE
 "Wellcome Trust",2015,2083.1,"10.1021/ci500245d",TRUE,"American Chemical Society (ACS)","Journal of Chemical Information and Modeling","1549-9596","1549-9596","1549-960X","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25244105","PMC4372120",NA,NA,FALSE
-"Wellcome Trust",2015,2084.27,"10.1534/g3.114.014415",FALSE,"Genetics Society of America","G3&amp;#58; Genes|Genomes|Genetics","2160-1836",NA,"2160-1836",NA,TRUE,"25452419","PMC4291465",NA,NA,TRUE
+"Wellcome Trust",2015,2084.27,"10.1534/g3.114.014415",FALSE,"Genetics Society of America","G3: Genes|Genomes|Genetics","2160-1836",NA,"2160-1836",NA,TRUE,"25452419","PMC4291465",NA,NA,TRUE
 "Wellcome Trust",2015,2084.3,"10.1186/1741-7015-12-57",FALSE,"Springer Nature","BMC Medicine","1741-7015","1741-7015",NA,NA,TRUE,"24694212","PMC3997818",NA,NA,TRUE
 "Wellcome Trust",2015,2086.15,"10.1002/cbic.201500185",TRUE,"Wiley-Blackwell","ChemBioChem","14394227",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26010437","PMC4581463",NA,NA,FALSE
 "Wellcome Trust",2015,2086.4,"10.1371/journal.pgen.1005107",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"25826266","PMC4380362",NA,NA,TRUE
@@ -819,7 +819,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2090.26,"10.1016/j.jmr.2014.09.010",TRUE,"Elsevier BV","Journal of Magnetic Resonance","10907807","10907807",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25310878","PMC4245719",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2093.34,"10.1016/j.ebiom.2015.08.037",FALSE,"Elsevier BV","EBioMedicine","23523964","23523964",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26629528","PMC4634624",NA,NA,FALSE
-"Wellcome Trust",2015,2094.12,"10.1074/jbc.M115.641415",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26105053","PMC4528144",NA,NA,FALSE
+"Wellcome Trust",2015,2094.12,"10.1074/jbc.M115.641415",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26105053","PMC4528144",NA,NA,FALSE
 "Wellcome Trust",2015,2094.71,"10.1128/IAI.02831-14",TRUE,"American Society for Microbiology","Infection and Immunity","0019-9567","0019-9567","1098-5522",NA,TRUE,"25624353","PMC4363412",NA,NA,FALSE
 "Wellcome Trust",2015,2096.75,"10.4269/ajtmh.14-0435",TRUE,"American Society of Tropical Medicine and Hygiene","American Journal of Tropical Medicine and Hygiene","0002-9637","0002-9637",NA,NA,TRUE,"25487730","PMC4347340",NA,NA,FALSE
 "Wellcome Trust",2015,2100.82,"10.2196/jmir.3082",FALSE,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871",NA,TRUE,"25831125","PMC4387294",NA,NA,TRUE
@@ -834,8 +834,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2114.92,"10.1021/jm501893k",TRUE,"American Chemical Society (ACS)","Journal of Medicinal Chemistry","0022-2623","0022-2623","1520-4804","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25703523","PMC4403932",NA,NA,FALSE
 "Wellcome Trust",2015,2115.05,"10.1128/JCM.03524-14",TRUE,"American Society for Microbiology","Journal of Clinical Microbiology","0095-1137","0095-1137","1098-660X",NA,TRUE,"25926489","PMC4473204",NA,NA,FALSE
 "Wellcome Trust",2015,2116.23,"10.1007/s00415-015-7778-4",TRUE,"Springer Nature","Journal of Neurology","0340-5354","0340-5354","1432-1459",NA,TRUE,"26032230","PMC4539360",NA,NA,FALSE
-"Wellcome Trust",2015,2116.28,"10.1074/jbc.M114.622928",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25979343","PMC4505408",NA,NA,FALSE
-"Wellcome Trust",2015,2117.08,"10.1074/jbc.M115.661058",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26055705","PMC4505066",NA,NA,FALSE
+"Wellcome Trust",2015,2116.28,"10.1074/jbc.M114.622928",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25979343","PMC4505408",NA,NA,FALSE
+"Wellcome Trust",2015,2117.08,"10.1074/jbc.M115.661058",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26055705","PMC4505066",NA,NA,FALSE
 "Wellcome Trust",2015,2119.14,"10.1016/j.bbr.2014.10.016",TRUE,"Elsevier BV","Behavioural Brain Research","01664328","01664328",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25453745","PMC4274319",NA,NA,FALSE
 "Wellcome Trust",2015,2119.38,"10.1007/s00439-015-1568-z",TRUE,"Springer Nature","Human Genetics","0340-6717","0340-6717","1432-1203",NA,TRUE,"26008905","PMC4495259",NA,NA,FALSE
 "Wellcome Trust",2015,2120.66,"10.1152/ajpcell.00079.2015",TRUE,"American Physiological Society","American Journal of Physiology - Cell Physiology","0363-6143","0363-6143","1522-1563",NA,TRUE,"25972452","PMC4525080",NA,NA,FALSE
@@ -849,7 +849,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2137.71,"10.1186/s12966-015-0185-5",FALSE,"Springer Nature","International Journal of Behavioral Nutrition and Physical Activity","1479-5868","1479-5868",NA,NA,TRUE,"25889383","PMC4340230",NA,NA,TRUE
 "Wellcome Trust",2015,2137.71,"10.1186/s12966-015-0202-8",FALSE,"Springer Nature","International Journal of Behavioral Nutrition and Physical Activity","1479-5868",NA,"1479-5868",NA,TRUE,"25890259","PMC4377032",NA,NA,TRUE
 "Wellcome Trust",2015,2137.71,"10.1186/s12964-015-0085-y",FALSE,"Springer Nature","Cell Communication and Signaling","1478-811X","1478-811X",NA,NA,TRUE,"25630770","PMC4334914",NA,NA,TRUE
-"Wellcome Trust",2015,2141.87,"10.1074/jbc.M114.586222",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25378395","PMC4276847",NA,NA,FALSE
+"Wellcome Trust",2015,2141.87,"10.1074/jbc.M114.586222",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25378395","PMC4276847",NA,NA,FALSE
 "Wellcome Trust",2015,2144.55,"10.1002/cmdc.201500301",TRUE,"Wiley-Blackwell","ChemMedChem","18607179",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26395087","PMC4648043",NA,NA,FALSE
 "Wellcome Trust",2015,2144.55,"10.1002/cmdc.201500300",TRUE,"Wiley-Blackwell","ChemMedChem","18607179",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26381210","PMC4648050",NA,NA,FALSE
 "Wellcome Trust",2015,2144.59,"10.1186/s13075-015-0639-9",FALSE,"Springer Nature","Arthritis Research & Therapy","1478-6354",NA,"1478-6354",NA,TRUE,"26025096","PMC4449558",NA,NA,TRUE
@@ -861,7 +861,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2144.59,"10.1186/1471-2407-14-983",FALSE,"Springer Nature","BMC Cancer","1471-2407","1471-2407",NA,NA,TRUE,"25526776","PMC4301834",NA,NA,TRUE
 "Wellcome Trust",2015,2144.59,"10.1186/s12879-014-0660-7",FALSE,"Springer Nature","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"25466778","PMC4265419",NA,NA,TRUE
 "Wellcome Trust",2015,2145.39,"10.1371/journal.pntd.0003748",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"25909750","PMC4409211",NA,NA,TRUE
-"Wellcome Trust",2015,2146.62,"10.1074/jbc.M115.636704",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25869132","PMC4505599",NA,NA,FALSE
+"Wellcome Trust",2015,2146.62,"10.1074/jbc.M115.636704",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25869132","PMC4505599",NA,NA,FALSE
 "Wellcome Trust",2015,2146.83,"10.1007/s00415-015-7755-y",TRUE,"Springer Nature","Journal of Neurology","0340-5354","0340-5354","1432-1459",NA,TRUE,"25957632","PMC4503877",NA,NA,FALSE
 "Wellcome Trust",2015,2151.03,"10.3389/fmicb.2014.00686",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"25566206","PMC4264479",NA,NA,TRUE
 "Wellcome Trust",2015,2152.68,"10.1186/s12936-015-0574-x",FALSE,"Springer Nature","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"25890035","PMC4333887",NA,NA,TRUE
@@ -869,8 +869,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2153.09,"10.1186/s12966-015-0236-y",FALSE,"Springer Nature","International Journal of Behavioral Nutrition and Physical Activity","1479-5868",NA,"1479-5868",NA,TRUE,"26054403","PMC4464137",NA,NA,TRUE
 "Wellcome Trust",2015,2153.09,"10.1186/s12966-015-0286-1",FALSE,"Springer Nature","International Journal of Behavioral Nutrition and Physical Activity","1479-5868",NA,"1479-5868",NA,TRUE,"26410252","PMC4583748",NA,NA,TRUE
 "Wellcome Trust",2015,2154.78,"10.1128/JVI.02995-14",TRUE,"American Society for Microbiology","Journal of Virology","0022-538X","0022-538X","1098-5514",NA,TRUE,"25552726","PMC4337517",NA,NA,FALSE
-"Wellcome Trust",2015,2162.34,"10.1074/jbc.M114.610527",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25505181","PMC4303689",NA,NA,FALSE
-"Wellcome Trust",2015,2164.28,"10.1152/japplphysiol.01014.2014",TRUE,"American Physiological Society","Journal of Applied Physiology","8750-7587","8750-7587","1522-1601",NA,TRUE,"26139220","PMC4687864",NA,NA,FALSE
+"Wellcome Trust",2015,2162.34,"10.1074/jbc.M114.610527",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25505181","PMC4303689",NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2164.54,"10.1189/jlb.2A0614-282R",TRUE,"Society for Leukocyte Biology","Journal of Leukocyte Biology","0741-5400","0741-5400",NA,NA,TRUE,"25381387","PMC4377829",NA,NA,FALSE
 "Wellcome Trust",2015,2165.15,"10.1021/acs.jpcb.5b00686",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry B","1520-6106","1520-6106","1520-5207","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25811635","PMC4428009",NA,NA,FALSE
 "Wellcome Trust",2015,2166.08,"10.1016/j.jad.2014.11.003",TRUE,"Elsevier BV","Journal of Affective Disorders","01650327","01650327",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25462412","PMC4286629",NA,NA,FALSE
@@ -1112,7 +1112,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2436.31,"10.1371/journal.pgen.1005061",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"25835000","PMC4383549",NA,NA,TRUE
 "Wellcome Trust",2015,2444.03,"10.1093/nar/gkv211",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"25779050","PMC4402531",NA,NA,TRUE
 "Wellcome Trust",2015,2449.39,"10.1002/bies.201400019",TRUE,"Wiley-Blackwell","BioEssays","02659247",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24782340","PMC4190646",NA,NA,FALSE
-"Wellcome Trust",2015,2452.31,"10.1074/jbc.M114.583542",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25248749","PMC4223357",NA,NA,FALSE
+"Wellcome Trust",2015,2452.31,"10.1074/jbc.M114.583542",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"25248749","PMC4223357",NA,NA,FALSE
 "Wellcome Trust",2015,2453.2,"10.1371/journal.pntd.0003688",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"25897492","PMC4405193",NA,NA,TRUE
 "Wellcome Trust",2015,2453.22,"10.1007/s00213-015-3949-3",TRUE,"Springer Nature","Psychopharmacology","0033-3158","0033-3158","1432-2072",NA,TRUE,"25963561","PMC4600471",NA,NA,FALSE
 "Wellcome Trust",2015,2454.68,"10.1371/journal.ppat.1004811",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"25875600","PMC4397069",NA,NA,TRUE
@@ -1311,9 +1311,9 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2697.6,"10.1093/jac/dkv206",TRUE,"Oxford University Press (OUP)","Journal of Antimicrobial Chemotherapy","0305-7453","0305-7453","1460-2091",NA,TRUE,"26221019","PMC4566964",NA,NA,FALSE
 "Wellcome Trust",2015,2697.6,"10.1155/2015/743263",FALSE,"Hindawi Publishing Corporation","Journal of Ophthalmology","2090-004X","2090-004X","2090-0058","http://creativecommons.org/licenses/by/3.0/",TRUE,"26457197","PMC4589625",NA,NA,TRUE
 "Wellcome Trust",2015,2697.6,"10.1093/inthealth/ihv010",TRUE,"Oxford University Press (OUP)","International Health","1876-3413","1876-3413","1876-3405",NA,TRUE,"25733562","PMC4357799",NA,NA,FALSE
-"Wellcome Trust",2015,2697.6,"10.1093/trstmh/tru206",TRUE,"Oxford University Press (OUP)","Transactions of the Royal Society of Tropical Medicine and Hygiene","0035-9203","0035-9203","1878-3503",NA,TRUE,"25636950","PMC4321022",NA,NA,FALSE
+"Wellcome Trust",2015,2697.6,"10.1093/trstmh/tru206",TRUE,"Oxford University Press (OUP)","Transactions of The Royal Society of Tropical Medicine and Hygiene","0035-9203","0035-9203","1878-3503",NA,TRUE,"25636950","PMC4321022",NA,NA,FALSE
 "Wellcome Trust",2015,2697.6,"10.1093/brain/awv117",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156",NA,TRUE,"25981959","PMC4572487",NA,NA,FALSE
-"Wellcome Trust",2015,2697.6,"10.1093/trstmh/trv012",TRUE,"Oxford University Press (OUP)","Transactions of the Royal Society of Tropical Medicine and Hygiene","0035-9203","0035-9203","1878-3503",NA,TRUE,"25771261","PMC4401210",NA,NA,FALSE
+"Wellcome Trust",2015,2697.6,"10.1093/trstmh/trv012",TRUE,"Oxford University Press (OUP)","Transactions of The Royal Society of Tropical Medicine and Hygiene","0035-9203","0035-9203","1878-3503",NA,TRUE,"25771261","PMC4401210",NA,NA,FALSE
 "Wellcome Trust",2015,2697.6,"10.1093/jac/dkt473",TRUE,"Oxford University Press (OUP)","Journal of Antimicrobial Chemotherapy","0305-7453","0305-7453","1460-2091",NA,TRUE,"24324223","PMC3956375",NA,NA,FALSE
 "Wellcome Trust",2015,2697.6,"10.1093/trstmh/trv047",TRUE,"Oxford University Press (OUP)","Transactions of The Royal Society of Tropical Medicine and Hygiene","0035-9203","0035-9203","1878-3503",NA,TRUE,"26085474","PMC4501400",NA,NA,FALSE
 "Wellcome Trust",2015,2697.6,"10.1093/trstmh/trv024",TRUE,"Oxford University Press (OUP)","Transactions of The Royal Society of Tropical Medicine and Hygiene","0035-9203","0035-9203","1878-3503",NA,TRUE,"25820266","PMC4447827",NA,NA,FALSE
@@ -1464,7 +1464,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2913.41,"10.1002/acr.22418",TRUE,"Wiley-Blackwell","Arthritis Care & Research","2151464X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25074673","PMC4296218",NA,NA,FALSE
 "Wellcome Trust",2015,2916.01,"10.1523/JNEUROSCI.1382-15.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"26290231","PMC4540794",NA,NA,FALSE
 "Wellcome Trust",2015,2918.88,"10.1111/1462-2920.12415",TRUE,"Wiley-Blackwell","Environmental Microbiology","14622912",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25588789","PMC4390391",NA,NA,FALSE
-"Wellcome Trust",2015,2918.88,"10.1111/1462-2920.12415",TRUE,"Wiley-Blackwell","Environmental Microbiology","14622912",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25588789","PMC4390391",NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2924.1,"10.1523/JNEUROSCI.0560-15.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"26269631","PMC4532755",NA,NA,FALSE
 "Wellcome Trust",2015,2927.66,"10.1523/JNEUROSCI.3558-14.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"26063927","PMC4461694",NA,NA,FALSE
 "Wellcome Trust",2015,2929.18,"10.1523/jneurosci.0956-15.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"26446209","PMC4595614",NA,NA,FALSE
@@ -1649,7 +1649,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3237.12,"10.1093/cvr/cvv029",TRUE,"Oxford University Press (OUP)","Cardiovascular Research","0008-6363","0008-6363","1755-3245",NA,TRUE,"25661082","PMC4362402",NA,NA,FALSE
 "Wellcome Trust",2015,3237.12,"10.1093/mutage/gev073",TRUE,"Oxford University Press (OUP)","Mutagenesis","0267-8357","0267-8357","1464-3804",NA,TRUE,"26443852","PMC4637815",NA,NA,FALSE
 "Wellcome Trust",2015,3237.12,"10.1093/jac/dkv080",TRUE,"Oxford University Press (OUP)","Journal of Antimicrobial Chemotherapy","0305-7453","0305-7453","1460-2091",NA,TRUE,"25858354","PMC4472329",NA,NA,FALSE
-"Wellcome Trust",2015,3237.12,"10.1093/jac/dkv039",TRUE,"Oxford University Press","Journal of Antimicrobial Chemotherapy","0305-7453, 1460-2091",NA,NA,NA,FALSE,"25759035","PMC4498297",NA,NA,FALSE
+"Wellcome Trust",2015,3237.12,"10.1093/jac/dkv039",TRUE,"Oxford University Press","Journal of Antimicrobial Chemotherapy","1460-2091",NA,NA,NA,FALSE,"25759035","PMC4498297",NA,NA,FALSE
 "Wellcome Trust",2015,3237.12,"10.1038/bjc.2015.204",TRUE,"Springer Nature","British Journal of Cancer","0007-0920","0007-0920","1532-1827",NA,TRUE,"26079301","PMC4522622",NA,NA,FALSE
 "Wellcome Trust",2015,3237.12,"10.1038/bjc.2015.265",TRUE,"Springer Nature","British Journal of Cancer","0007-0920","0007-0920","1532-1827",NA,TRUE,"26241817","PMC4559829",NA,NA,FALSE
 "Wellcome Trust",2015,3237.12,"10.1093/ije/dyv098",TRUE,"Oxford University Press (OUP)","International Journal of Epidemiology","0300-5771","0300-5771","1464-3685",NA,TRUE,"26050254","PMC4521131",NA,NA,FALSE
@@ -1705,8 +1705,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3297.2,"10.1523/JNEUROSCI.4994-13.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"25568112","PMC4287140",NA,NA,FALSE
 "Wellcome Trust",2015,3298.25,"10.1212/WNL.0000000000000913",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Neurology","0028-3878","0028-3878","1526-632X",NA,TRUE,"25253744","PMC4222855",NA,NA,FALSE
 "Wellcome Trust",2015,3305.37,"10.1523/JNEUROSCI.0594-14.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"25568102","PMC4287159",NA,NA,FALSE
-"Wellcome Trust",2015,3314.41,"10.1074/jbc.m113.526350",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"24375413","PMC3924264",NA,NA,FALSE
-"Wellcome Trust",2015,3332.86,"10.1074/jbc.M114.622522",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26085090","PMC4521012",NA,NA,FALSE
+"Wellcome Trust",2015,3314.41,"10.1074/jbc.m113.526350",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"24375413","PMC3924264",NA,NA,FALSE
+"Wellcome Trust",2015,3332.86,"10.1074/jbc.M114.622522",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"26085090","PMC4521012",NA,NA,FALSE
 "Wellcome Trust",2015,3335.91,"10.1523/JNEUROSCI.3653-14.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"25698750","PMC4331632",NA,NA,FALSE
 "Wellcome Trust",2015,3336.61,"10.1523/JNEUROSCI.3318-14.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"25653363","PMC4315834",NA,NA,FALSE
 "Wellcome Trust",2015,3342.97,"10.4049/jimmunol.1402956",TRUE,"The American Association of Immunologists","The Journal of Immunology","0022-1767","0022-1767","1550-6606",NA,TRUE,"25725109","PMC4367161",NA,NA,FALSE
@@ -1731,7 +1731,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3439.44,"10.1093/aje/kwv045",TRUE,"Oxford University Press (OUP)","American Journal of Epidemiology","0002-9262","0002-9262","1476-6256",NA,TRUE,"26443417","PMC4617295",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/humrep/dev120",TRUE,"Oxford University Press (OUP)","Human Reproduction","0268-1161","0268-1161","1460-2350",NA,TRUE,"26040481","PMC4507329",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/molehr/gau105",TRUE,"Oxford University Press (OUP)","Molecular Human Reproduction","1360-9947","1360-9947","1460-2407",NA,TRUE,"25391298","PMC4339857",NA,NA,FALSE
-"Wellcome Trust",2015,3439.44,"10.1093/jnci/djv178",TRUE,"Oxford University Press","Journal of the National Cancer Institute","0027-8874, 1460-2105",NA,NA,NA,FALSE,"26134033","PMC4572886",NA,NA,FALSE
+"Wellcome Trust",2015,3439.44,"10.1093/jnci/djv178",TRUE,"Oxford University Press","Journal of the National Cancer Institute","1460-2105",NA,NA,NA,FALSE,"26134033","PMC4572886",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/humrep/dev098",TRUE,"Oxford University Press (OUP)","Human Reproduction","0268-1161","0268-1161","1460-2350",NA,TRUE,"25954039","PMC4472320",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/jnci/djv081",TRUE,"Oxford University Press (OUP)","JNCI Journal of the National Cancer Institute","0027-8874","0027-8874","1460-2105",NA,TRUE,"25890600","PMC4555642",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/jnci/djv001",TRUE,"Oxford University Press (OUP)","JNCI Journal of the National Cancer Institute","0027-8874","0027-8874","1460-2105",NA,TRUE,"25669203","PMC4394893",NA,NA,FALSE
@@ -1753,7 +1753,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3463.62,"10.1037/a0038396",TRUE,"American Psychological Association (APA)","Psychology and Aging","1939-1498","0882-7974","1939-1498","http://creativecommons.org/licenses/by/3.0/",TRUE,"25528066","PMC4360752",NA,NA,FALSE
 "Wellcome Trust",2015,3470.25,"10.1017/S0031182014001905",TRUE,"Cambridge University Press (CUP)","Parasitology","0031-1820","0031-1820","1469-8161",NA,TRUE,"25586410","PMC4413790",NA,NA,FALSE
 "Wellcome Trust",2015,3472.19,"10.1016/j.cbpa.2014.10.016",TRUE,"Elsevier BV","Current Opinion in Chemical Biology","13675931","13675931",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25461723","PMC4319709",NA,NA,FALSE
-"Wellcome Trust",2015,3479.39,"10.1038/ncomms6116",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25311795","PMC4208094",NA,NA,TRUE
+"Wellcome Trust",2015,3479.39,"10.1002/anie.201506384",TRUE,"Wiley-Blackwell","Angewandte Chemie International Edition","14337851",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26585495","PMC4736448",NA,NA,FALSE
 "Wellcome Trust",2015,3487.34,"10.1089/hum.2015.019",TRUE,"Mary Ann Liebert Inc","Human Gene Therapy","1043-0342","1043-0342","1557-7422",NA,TRUE,"25760682","PMC4442572",NA,NA,FALSE
 "Wellcome Trust",2015,3490.44,"10.1159/000366225",TRUE,"S. Karger AG","Nephron Physiology","1660-2137",NA,"1660-2137",NA,TRUE,"25358339","PMC4369119",NA,NA,FALSE
 "Wellcome Trust",2015,3505.37,"10.1016/j.drudis.2014.06.023",TRUE,"Elsevier BV","Drug Discovery Today","13596446","13596446",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24993159","PMC4154450",NA,NA,FALSE
@@ -1846,7 +1846,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,4046.4,"10.1002/bies.201500006",TRUE,"Wiley-Blackwell","BioEssays","02659247",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25874377","PMC4683677",NA,NA,FALSE
 "Wellcome Trust",2015,4046.4,"10.1242/jcs.164152",TRUE,"The Company of Biologists","Journal of Cell Science","0021-9533","0021-9533","1477-9137",NA,TRUE,"25416817","PMC4294771",NA,NA,FALSE
 "Wellcome Trust",2015,4046.4,"10.1179/1743132813Y.0000000288",TRUE,"Informa UK Limited","Neurological Research","0161-6412","0161-6412","1743-1328",NA,TRUE,"24512022","PMC4510853",NA,NA,FALSE
-"Wellcome Trust",2015,4049.69,"10.1097/01.j.pain.0000460302.56325.0c",TRUE,"Ovid Technologies (Wolters Kluwer Health)","PAIN","0304-3959","0304-3959",NA,NA,TRUE,"25599443","PMC4309489",NA,NA,FALSE
+"Wellcome Trust",2015,4049.69,"10.1097/01.j.pain.0000460302.56325.0c",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Pain","0304-3959","0304-3959",NA,NA,TRUE,"25599443","PMC4309489",NA,NA,FALSE
 "Wellcome Trust",2015,4049.69,"10.1212/WNL.0000000000001025",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Neurology","0028-3878","0028-3878","1526-632X",NA,TRUE,"25355828","PMC4248450",NA,NA,FALSE
 "Wellcome Trust",2015,4053.14,"10.1242/dev.125450",TRUE,"The Company of Biologists","Development","0950-1991","0950-1991","1477-9129",NA,TRUE,"26116663","PMC4529036",NA,NA,FALSE
 "Wellcome Trust",2015,4057.34,"10.1097/ICU.0000000000000125",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Current Opinion in Ophthalmology","1040-8738","1040-8738",NA,NA,TRUE,"25490529","PMC4323570",NA,NA,FALSE
@@ -1969,7 +1969,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,5098.46,"10.1038/ncomms8495",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26151378","PMC4506997",NA,NA,TRUE
 "Wellcome Trust",2015,5098.46,"10.1038/ncomms6897",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25631608","PMC4311266",NA,NA,TRUE
 "Wellcome Trust",2015,5098.46,"10.1038/ncomms5998",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25241929","PMC4199285",NA,NA,TRUE
-"Wellcome Trust",2015,5098.46,"10.1038/ncomms5998",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25241929","PMC4199285",NA,NA,TRUE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,5098.46,"10.1038/ncomms9045",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"26289944","PMC4560779",NA,NA,TRUE
 "Wellcome Trust",2015,5098.46,"10.1038/ncomms8000",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25965853","PMC4432600",NA,NA,TRUE
 "Wellcome Trust",2015,5098.46,"10.1038/ncomms6127",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25351101","PMC4382518",NA,NA,TRUE
@@ -2059,7 +2059,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,6082.71,"10.1016/j.chembiol.2015.04.019",TRUE,"Elsevier BV","Chemistry & Biology","10745521","10745521",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26091166","PMC4518475",NA,NA,FALSE
 "Wellcome Trust",2015,1873.33,"10.1016/j.cognition.2015.06.004",TRUE,"Elsevier BV","Cognition","00100277","00100277",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26113448","PMC4534310",NA,NA,FALSE
 "Wellcome Trust",2015,809.28,"10.1179/1461957114Y.0000000055",TRUE,"Informa UK Limited","European Journal of Archaeology","1461-9571","1461-9571","1741-2722",NA,TRUE,"26290654","PMC4538853",NA,NA,FALSE
-"Wellcome Trust",2015,1138.52,"10.3233/JAD-141512",TRUE,"IOS Press","Journal of Alzheimer's disease","1387-2877, 1875-8908",NA,NA,NA,FALSE,"25114083","PMC4337967",NA,NA,FALSE
+"Wellcome Trust",2015,1138.52,"10.3233/JAD-141512",TRUE,"IOS Press","Journal of Alzheimer's disease","1875-8908",NA,NA,NA,FALSE,"25114083","PMC4337967",NA,NA,FALSE
 "Wellcome Trust",2015,1375.78,"10.2217/fca.14.67",TRUE,"Future Medicine Ltd","Future Cardiology","1479-6678","1479-6678","1744-8298",NA,TRUE,"25606706","PMC4374150",NA,NA,FALSE
 "Wellcome Trust",2015,1416.24,"10.1332/204986014X14002292074708",TRUE,"The Policy Press","Critical and Radical Social Work","20498608","20498608","20498675",NA,TRUE,"25984302","PMC4430803",NA,NA,FALSE
 "Wellcome Trust",2015,1578.1,"10.1002/mgg3.164",TRUE,"Wiley-Blackwell","Molecular Genetics & Genomic Medicine","23249269",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26740946","PMC4694127",NA,NA,FALSE
@@ -2077,7 +2077,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2360.4,"10.1093/hmg/ddu516",TRUE,"Oxford University Press (OUP)","Human Molecular Genetics","0964-6906","0964-6906","1460-2083",NA,TRUE,"25296917","PMC4576730",NA,NA,FALSE
 "Wellcome Trust",2015,2427.84,"10.1111/1468-2281.12031",TRUE,"Wiley-Blackwell","Historical Research","09503471",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,"PMC4424280",NA,NA,FALSE
 "Wellcome Trust",2015,2427.84,"10.1111/ejn.12834",TRUE,"Wiley-Blackwell","European Journal of Neuroscience","0953816X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25728176","PMC4493314",NA,NA,FALSE
-"Wellcome Trust",2015,2564.99,"10.1007/978-1-4939-3023-4_62",TRUE,"Springer Nature","Journal of biomedical optics","1083-3668, 1560-2281",NA,NA,"http://www.springer.com/tdm",TRUE,"26782250","PMC2435254",NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2565.23,"10.1111/tmi.12545",TRUE,"Wiley-Blackwell","Tropical Medicine & International Health","13602276",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25976017","PMC4568314",NA,NA,FALSE
 "Wellcome Trust",2015,2603.87,"10.1002/humu.22633",TRUE,"Wiley-Blackwell","Human Mutation","10597794",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25125334","PMC4441004",NA,NA,FALSE
 "Wellcome Trust",2015,2613.11,"10.1111/tmi.12517",TRUE,"Wiley-Blackwell","Tropical Medicine & International Health","13602276",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25877007","PMC4579546",NA,NA,FALSE
@@ -2108,25 +2108,25 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,723.5,"10.1586/14760584.2015.1052800",TRUE,"Informa Healthcare","Expert Review of Vaccines","1476-0584","1476-0584","1744-8395",NA,TRUE,"26159938","PMC4673562",NA,NA,FALSE
 "Wellcome Trust",2015,809.28,"10.1179/0729247314Z.00000000050",TRUE,"Informa UK Limited","War & Society","0729-2473","0729-2473","2042-4345",NA,TRUE,"26213442","PMC4497454",NA,NA,FALSE
 "Wellcome Trust",2015,889.1,"10.4161/15384101.2014.972889",TRUE,"Informa UK Limited","Cell Cycle","1538-4101","1538-4101","1551-4005",NA,TRUE,"25558831","PMC4614811",NA,NA,FALSE
-"Wellcome Trust",2015,891.95,"10.4161/15384101.2014.972889",TRUE,"Informa UK Limited","Cell Cycle","1538-4101","1538-4101","1551-4005",NA,TRUE,"25558831","PMC4614811",NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1062.18,"10.4161/2162402X.2014.973808",TRUE,"Informa UK Limited","OncoImmunology","2162-402X",NA,"2162-402X",NA,TRUE,"25949890","PMC4404791",NA,NA,FALSE
 "Wellcome Trust",2015,1070.58,"10.1016/j.amjmed.2014.10.056",TRUE,"Elsevier BV","The American Journal of Medicine","00029343","00029343",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25436428","PMC4414368",NA,NA,FALSE
 "Wellcome Trust",2015,1149.18,"10.1093/nar/gku507",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"24944197","PMC4081105",NA,NA,TRUE
 "Wellcome Trust",2015,1199.14,"10.1016/j.epidem.2014.07.001",FALSE,"Elsevier BV","Epidemics","17554365","17554365",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25843387","PMC4383807",NA,NA,FALSE
 "Wellcome Trust",2015,1257.96,"10.1016/j.diabres.2015.04.013",TRUE,"Elsevier BV","Diabetes Research and Clinical Practice","01688227","01688227",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25937542","PMC4504034",NA,NA,FALSE
-"Wellcome Trust",2015,1370.5,"10.1074/mcp.M114.038570",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25561500","PMC4349980",NA,NA,FALSE
+"Wellcome Trust",2015,1370.5,"10.1074/mcp.M114.038570",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25561500","PMC4349980",NA,NA,FALSE
 "Wellcome Trust",2015,1375.78,"10.1039/c4ob01669f",TRUE,"Royal Society of Chemistry (RSC)","Org. Biomol. Chem.","1477-0520","1477-0520","1477-0539",NA,TRUE,"25230674","PMC4224572",NA,NA,FALSE
 "Wellcome Trust",2015,1436.88,"10.1084/jem.20132413",TRUE,"Rockefeller University Press","The Journal of Experimental Medicine","0022-1007","0022-1007","1540-9538",NA,TRUE,"24913232","PMC4076577",NA,NA,FALSE
 "Wellcome Trust",2015,1494.85,"10.1016/j.stemcr.2014.11.003",FALSE,"Elsevier BV","Stem Cell Reports","22136711","22136711",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25533637","PMC4297869",NA,NA,FALSE
 "Wellcome Trust",2015,1560.29,"10.1016/j.virol.2014.10.030",TRUE,"Elsevier BV","Virology","00426822","00426822",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25463610","PMC4266535",NA,NA,FALSE
 "Wellcome Trust",2015,1578.1,"10.1136/rmdopen-2014-000026",TRUE,"BMJ","RMD Open","2056-5933",NA,"2056-5933",NA,TRUE,"26509056","PMC4613171",NA,NA,TRUE
 "Wellcome Trust",2015,1658.2,"10.1016/j.bone.2014.09.020",TRUE,"Elsevier BV","Bone","87563282","87563282",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25280470","PMC4228060",NA,NA,FALSE
-"Wellcome Trust",2015,1699.49,"10.1074/mcp.M113.037242",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25266776","PMC4256504",NA,NA,FALSE
+"Wellcome Trust",2015,1699.49,"10.1074/mcp.M113.037242",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25266776","PMC4256504",NA,NA,FALSE
 "Wellcome Trust",2015,1733.69,"10.1021/jm5011258",TRUE,"American Chemical Society (ACS)","Journal of Medicinal Chemistry","0022-2623","0022-2623","1520-4804","http://pubs.acs.org/page/policy/authorchoice_ccbyncnd_termsofuse.html",TRUE,"25166285","PMC4207132",NA,NA,FALSE
 "Wellcome Trust",2015,1751.66,"10.3791/51714",TRUE,"MyJove Corporation","Journal of Visualized Experiments","1940-087X",NA,"1940-087X",NA,TRUE,"25350719","PMC4353292",NA,NA,FALSE
 "Wellcome Trust",2015,1776.95,"10.1016/j.bbrc.2015.08.016",TRUE,"Elsevier BV","Biochemical and Biophysical Research Communications","0006291X","0006291X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26265043","PMC4567061",NA,NA,FALSE
 "Wellcome Trust",2015,1828.54,"10.1242/jcs.088344",TRUE,"The Company of Biologists","Journal of Cell Science","0021-9533","0021-9533","1477-9137",NA,TRUE,"22135362","PMC3244986",NA,NA,FALSE
-"Wellcome Trust",2015,1831.48,"10.1074/mcp.O114.042259",TRUE,"American Society for Biochemistry &amp; Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25648531","PMC4390258",NA,NA,FALSE
+"Wellcome Trust",2015,1831.48,"10.1074/mcp.O114.042259",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"25648531","PMC4390258",NA,NA,FALSE
 "Wellcome Trust",2015,1857.3,"10.1136/bmjopen-2014-005720",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"25410605","PMC4244441",NA,NA,TRUE
 "Wellcome Trust",2015,1857.3,"10.1136/bmjopen-2014-006733",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"26137881","PMC4499745",NA,NA,TRUE
 "Wellcome Trust",2015,1857.3,"10.1136/bmjopen-2014-005561",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"25394816","PMC4248082",NA,NA,TRUE
@@ -2259,7 +2259,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3824.99,"10.1016/j.neuron.2014.09.010",TRUE,"Elsevier BV","Neuron","08966273","08966273",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25263755","PMC4210638",NA,NA,FALSE
 "Wellcome Trust",2015,3857.97,"10.1016/j.cub.2014.10.019",TRUE,"Elsevier BV","Current Biology","09609822","09609822",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25454592","PMC4252164",NA,NA,FALSE
 "Wellcome Trust",2015,3901.28,"10.1016/j.cub.2014.09.045",TRUE,"Elsevier BV","Current Biology","09609822","09609822",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25447992","PMC4228054",NA,NA,FALSE
-"Wellcome Trust",2015,3941.6,"10.1097/j.pain.0000000000000206",TRUE,"Ovid Technologies (Wolters Kluwer Health)","PAIN","0304-3959","0304-3959",NA,NA,TRUE,"25932687","PMC4617288",NA,NA,FALSE
+"Wellcome Trust",2015,3941.6,"10.1097/j.pain.0000000000000206",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Pain","0304-3959","0304-3959",NA,NA,TRUE,"25932687","PMC4617288",NA,NA,FALSE
 "Wellcome Trust",2015,3969.67,"10.1016/j.molcel.2014.09.008",TRUE,"Elsevier BV","Molecular Cell","10972765","10972765",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25306921","PMC4232310",NA,NA,FALSE
 "Wellcome Trust",2015,3991.79,"10.1097/QAD.0000000000000362",TRUE,"Ovid Technologies (Wolters Kluwer Health)","AIDS","0269-9370","0269-9370",NA,NA,TRUE,"24906112","PMC4166042",NA,NA,FALSE
 "Wellcome Trust",2015,4010.16,"10.1016/j.cmet.2015.01.009",TRUE,"Elsevier BV","Cell Metabolism","15504131","15504131",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25651180","PMC4321886",NA,NA,FALSE
@@ -2291,7 +2291,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,5437.13,"10.1016/j.celrep.2015.02.059",FALSE,"Elsevier BV","Cell Reports","22111247","22111247",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25818292","PMC4386026",NA,NA,FALSE
 "Wellcome Trust",2015,5585.02,"10.1016/j.cell.2015.03.027",TRUE,"Elsevier BV","Cell","00928674","00928674",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25910207","PMC4410947",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2015,723.5,"10.1080/17546559.2015.1077390",NA,"Informa UK Limited","Journal of Medieval Iberian Studies","1754-6559","1754-6559","1754-6567",NA,TRUE,"26550030","PMC4606826",NA,NA,FALSE
+"Wellcome Trust",2015,723.5,"10.1080/17546559.2015.1077390",TRUE,"Informa UK Limited","Journal of Medieval Iberian Studies","1754-6559","1754-6559","1754-6567",NA,TRUE,"26550030","PMC4606826",NA,NA,FALSE
 "Wellcome Trust",2015,828.58,"10.1073/pnas.1411979112",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490",NA,TRUE,"25512499","PMC4284544",NA,NA,FALSE
 "Wellcome Trust",2015,862.53,"10.1073/pnas.1420159112",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","http://www.pnas.org/site/misc/userlicense.xhtml",TRUE,"25489104","PMC4280588",NA,NA,FALSE
 "Wellcome Trust",2015,867.51,"10.1073/pnas.1410378111",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","http://www.pnas.org/site/misc/userlicense.xhtml",TRUE,"25422429","PMC4267352",NA,NA,FALSE
@@ -2311,14 +2311,14 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1773.94,"10.1186/s12889-015-1864-5",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458",NA,TRUE,"26163294","PMC4702375",NA,NA,TRUE
 "Wellcome Trust",2015,1775.32,"10.1016/j.bpj.2015.01.012",TRUE,"Elsevier BV","Biophysical Journal","00063495","00063495",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25762312","PMC4375440",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2015,1829.97,"10.1016/j.jth.2015.04.502",NA,"Elsevier BV","Journal of Transport & Health","22141405","22141405",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,"PMC4557416",NA,NA,FALSE
+"Wellcome Trust",2015,1829.97,"10.1016/j.jth.2015.04.502",TRUE,"Elsevier BV","Journal of Transport & Health","22141405","22141405",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,"PMC4557416",NA,NA,FALSE
 "Wellcome Trust",2015,1873.33,"10.1016/j.bpj.2015.04.009",TRUE,"Elsevier BV","Biophysical Journal","00063495","00063495",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25992724","PMC4456998",NA,NA,FALSE
 "Wellcome Trust",2015,1886.59,"10.1016/j.bpj.2015.02.013",TRUE,"Elsevier BV","Biophysical Journal","00063495","00063495",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25809255","PMC4375533",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1916.75,"10.1016/j.mod.2015.07.001",TRUE,"Elsevier BV","Mechanisms of Development","09254773","09254773",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26222953","PMC4678116",NA,NA,FALSE
 "Wellcome Trust",2015,1930.04,"10.1016/j.jneumeth.2015.09.018",TRUE,"Elsevier BV","Journal of Neuroscience Methods","01650270","01650270",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26424507","PMC4666412",NA,NA,FALSE
 "Wellcome Trust",2015,1931.02,"10.1121/1.4923452",TRUE,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,NA,TRUE,"26328685","PMC4610194",NA,NA,FALSE
-"Wellcome Trust",2015,1996.22,"10.1016/j.nepig.2015.06.001",NA,"Elsevier BV","Neuroepigenetics","22147845","22147845",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26702400","PMC4659419",NA,NA,FALSE
+"Wellcome Trust",2015,1996.22,"10.1016/j.nepig.2015.06.001",FALSE,"Elsevier BV","Neuroepigenetics","22147845","22147845",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26702400","PMC4659419",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -2339,7 +2339,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2453.25,"10.1111/bcp.12578",TRUE,"Wiley-Blackwell","British Journal of Clinical Pharmacology","03065251",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25641659","PMC4456134",NA,NA,FALSE
 "Wellcome Trust",2015,2475.4,"10.1016/j.ajhg.2015.01.005",TRUE,"Elsevier BV","The American Journal of Human Genetics","00029297","00029297",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25728773","PMC4375449",NA,NA,FALSE
 "Wellcome Trust",2015,2528.95,"10.1089/AID.2013.0240",TRUE,"Mary Ann Liebert Inc","AIDS Research and Human Retroviruses","0889-2229","0889-2229","1931-8405",NA,TRUE,"24925099","PMC4180525",NA,NA,FALSE
-"Wellcome Trust",2015,2564.99,"10.1007/978-1-4939-3023-4_14",TRUE,"Springer Nature","Neurophotonics","2329-423X, 2329-4248",NA,NA,"http://www.springer.com/tdm",TRUE,"26782202","PMC4247161",NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2581.23,"10.1016/j.ajhg.2015.02.007",TRUE,"Elsevier BV","The American Journal of Human Genetics","00029297","00029297",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25799108","PMC4385177",NA,NA,FALSE
 "Wellcome Trust",2015,2598.36,"10.1016/j.ajhg.2015.04.008",TRUE,"Elsevier BV","The American Journal of Human Genetics","00029297","00029297",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25983243","PMC4457957",NA,NA,FALSE
@@ -2351,7 +2351,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2668.6,"10.1017/s0950268800068011",TRUE,"Cambridge University Press (CUP)","Epidemiology and Infection","0950-2688","0950-2688","1469-4409",NA,TRUE,"3678406","PMC2249273",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2015,2790.92,"10.1186/ISRCTN65314790",NA,"Springer Nature","Trials",NA,NA,NA,NA,TRUE,NA,"PMC4535824",NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2798.99,"10.1016/j.ajhg.2014.04.003",TRUE,"Elsevier BV","The American Journal of Human Genetics","00029297","00029297",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24791901","PMC4067560",NA,NA,FALSE
 "Wellcome Trust",2015,2896.28,"10.1523/jneurosci.1120-15.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"26490851","PMC4683678",NA,NA,FALSE
 "Wellcome Trust",2015,2925.17,"10.1523/JNEUROSCI.0045-15.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,TRUE,"26203141","PMC4510287",NA,NA,FALSE
@@ -2387,7 +2387,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3372,"10.1192/bjp.bp.114.153494",TRUE,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250",NA,NA,TRUE,"25999339","PMC4678946",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/cercor/bhv080",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,TRUE,"25911415","PMC4810001",NA,NA,FALSE
 "Wellcome Trust",2015,3560.83,"10.1038/ejhg.2015.63",TRUE,"Springer Nature","European Journal of Human Genetics","1018-4813","1018-4813","1476-5438",NA,TRUE,"25920552","PMC4681116",NA,NA,FALSE
-"Wellcome Trust",2015,3887.57,"10.1242/jcs.173476",NA,"The Company of Biologists","Journal of Cell Science","0021-9533","0021-9533","1477-9137",NA,TRUE,"26203165","PMC4582195",NA,NA,FALSE
+"Wellcome Trust",2015,3887.57,"10.1242/jcs.173476",TRUE,"The Company of Biologists","Journal of Cell Science","0021-9533","0021-9533","1477-9137",NA,TRUE,"26203165","PMC4582195",NA,NA,FALSE
 "Wellcome Trust",2015,4023.01,"10.1212/WNL.0b013e3182166e42",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Neurology","0028-3878","0028-3878","1526-632X",NA,TRUE,"21502595","PMC3087405",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,4046.4,"10.1242/jcs.148619",TRUE,"The Company of Biologists","Journal of Cell Science","0021-9533","0021-9533","1477-9137",NA,TRUE,"25002404","PMC4150060",NA,NA,FALSE
@@ -2405,34 +2405,34 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,5098.46,"10.1038/ncomms7435",TRUE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25751308","PMC4403592",NA,NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2015,5313.02,"10.3945/ajcn.114.103648",NA,"American Society for Nutrition","American Journal of Clinical Nutrition","0002-9165","0002-9165","1938-3207",NA,TRUE,"25832337","PMC4409689",NA,NA,FALSE
+"Wellcome Trust",2015,5313.02,"10.3945/ajcn.114.103648",TRUE,"American Society for Nutrition","American Journal of Clinical Nutrition","0002-9165","0002-9165","1938-3207",NA,TRUE,"25832337","PMC4409689",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,323.71,"10.1177/0004867415585580",TRUE,"SAGE Publications","Australian & New Zealand Journal of Psychiatry","0004-8674","0004-8674","1440-1614",NA,TRUE,"25991764","PMC4702215",NA,NA,FALSE
 "Wellcome Trust",2015,323.71,"10.1177/2047487315582320",TRUE,"SAGE Publications","European Journal of Preventive Cardiology","2047-4873","2047-4873","2047-4881",NA,TRUE,"25903971","PMC4767146",NA,NA,FALSE
 "Wellcome Trust",2015,323.71,"10.1177/0271678X15606457",TRUE,"SAGE Publications","Journal of Cerebral Blood Flow & Metabolism","0271-678X","0271-678X","1559-7016",NA,TRUE,"26661160",NA,NA,NA,FALSE
 "Wellcome Trust",2015,323.71,"10.1177/1073858415600389",TRUE,"SAGE Publications","The Neuroscientist","1073-8584","1073-8584","1089-4098",NA,TRUE,"26276163",NA,NA,NA,FALSE
 "Wellcome Trust",2015,323.71,"10.1177/0969141315599015",TRUE,"SAGE Publications","Journal of Medical Screening","0969-1413","0969-1413","1475-5793",NA,TRUE,"26408533","PMC4741296",NA,NA,FALSE
-"Wellcome Trust",2015,404.64,"10.1179/0040496914Z.00000000045",NA,"Informa UK Limited","Textile History","0040-4969","0040-4969","1743-2952",NA,TRUE,NA,NA,NA,NA,FALSE
-"Wellcome Trust",2015,404.64,"10.5334/jcms.1021220",NA,"Ubiquity Press, Ltd.","Journal of Conservation and Museum Studies","1364-0429",NA,"1364-0429",NA,TRUE,NA,NA,NA,NA,TRUE
-"Wellcome Trust",2015,457.94,"10.1117/12.2184988",NA,"SPIE-Intl Soc Optical Eng","Stereoscopic displays and applications XXVI",NA,NA,NA,NA,TRUE,NA,NA,NA,NA,NA
+"Wellcome Trust",2015,404.64,"10.1179/0040496914Z.00000000045",TRUE,"Informa UK Limited","Textile History","0040-4969","0040-4969","1743-2952",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,404.64,"10.5334/jcms.1021220",FALSE,"Ubiquity Press, Ltd.","Journal of Conservation and Museum Studies","1364-0429",NA,"1364-0429",NA,TRUE,NA,NA,NA,NA,TRUE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,525.51,"10.1080/19336950.2015.1075784",TRUE,"Informa UK Limited","Channels","1933-6950","1933-6950","1933-6969",NA,TRUE,"26218467","PMC4826112",NA,NA,FALSE
 "Wellcome Trust",2015,606.96,"10.4161/auto.36438",TRUE,"Informa UK Limited","Autophagy","1554-8627","1554-8627","1554-8635",NA,TRUE,"25484087","PMC4502677",NA,NA,FALSE
 "Wellcome Trust",2015,647.42,"10.1177/1073858414559409",TRUE,"SAGE Publications","The Neuroscientist","1073-8584","1073-8584","1089-4098",NA,TRUE,"25406224","PMC4712385",NA,NA,FALSE
 "Wellcome Trust",2015,707.26,"10.1016/j.pbiomolbio.2015.01.009",TRUE,"Elsevier BV","Progress in Biophysics and Molecular Biology","00796107","00796107",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25662442","PMC4726663",NA,NA,FALSE
-"Wellcome Trust",2015,723.5,"10.1080/13811118.2015.1033121",NA,"Informa UK Limited","Archives of Suicide Research","1381-1118","1381-1118","1543-6136",NA,TRUE,"26789257","PMC4841016",NA,NA,FALSE
-"Wellcome Trust",2015,723.5,"10.1080/01433768.2015.1044284",NA,"Informa UK Limited","Landscape History","0143-3768","0143-3768","2160-2506",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,723.5,"10.1080/13811118.2015.1033121",TRUE,"Informa UK Limited","Archives of Suicide Research","1381-1118","1381-1118","1543-6136",NA,TRUE,"26789257","PMC4841016",NA,NA,FALSE
+"Wellcome Trust",2015,723.5,"10.1080/01433768.2015.1044284",TRUE,"Informa UK Limited","Landscape History","0143-3768","0143-3768","2160-2506",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,723.5,"10.1080/01459740.2015.1091818",TRUE,"Informa UK Limited","Medical Anthropology","0145-9740","0145-9740","1545-5882",NA,TRUE,"26452039","PMC4720056",NA,NA,FALSE
 "Wellcome Trust",2015,728.35,"10.1080/09602011.2015.1053948",TRUE,"Informa UK Limited","Neuropsychological Rehabilitation","0960-2011","0960-2011","1464-0694",NA,TRUE,"26088818",NA,NA,NA,FALSE
 "Wellcome Trust",2015,728.35,"10.1080/15476286.2015.1017207",TRUE,"Informa UK Limited","RNA Biology","1547-6286","1547-6286","1555-8584",NA,TRUE,"25826413","PMC4615370",NA,NA,FALSE
 "Wellcome Trust",2015,728.35,"10.1080/17588928.2015.1054271",TRUE,"Informa UK Limited","Cognitive Neuroscience","1758-8928","1758-8928","1758-8936",NA,TRUE,"26001157","PMC4784481",NA,NA,FALSE
 "Wellcome Trust",2015,758.7,"10.4161/15384101.2014.979680",TRUE,"Informa UK Limited","Cell Cycle","1538-4101","1538-4101","1551-4005",NA,TRUE,"25607650","PMC4353066",NA,NA,FALSE
 "Wellcome Trust",2015,785.15,"10.1016/j.pbiomolbio.2015.02.003",TRUE,"Elsevier BV","Progress in Biophysics and Molecular Biology","00796107","00796107",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25701377","PMC4728184",NA,NA,FALSE
-"Wellcome Trust",2015,809.28,"10.1179/0729247314Z.00000000048",NA,"Informa UK Limited","War & Society","0729-2473","0729-2473","2042-4345",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,809.28,"10.1179/0729247314Z.00000000048",TRUE,"Informa UK Limited","War & Society","0729-2473","0729-2473","2042-4345",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,953.17,"10.1016/j.freeradbiomed.2015.04.036",TRUE,"Elsevier BV","Free Radical Biology and Medicine","08915849","08915849",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25975984","PMC4726722",NA,NA,FALSE
 "Wellcome Trust",2015,1011.6,"10.1002/stem.2102",TRUE,"Wiley-Blackwell","STEM CELLS","10665099",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26175344","PMC4737116",NA,NA,FALSE
-"Wellcome Trust",2015,1027.79,"10.12688/f1000research.6255.1",NA,"F1000 Research, Ltd.","F1000Research","2046-1402",NA,"2046-1402",NA,TRUE,"27158443","PMC4850861",NA,NA,TRUE
-"Wellcome Trust",2015,1062.18,"10.1080/2162402X.2015.1025194",NA,"Informa UK Limited","OncoImmunology","2162-402X",NA,"2162-402X",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,1027.79,"10.12688/f1000research.6255.1",FALSE,"F1000 Research, Ltd.","F1000Research","2046-1402",NA,"2046-1402",NA,TRUE,"27158443","PMC4850861",NA,NA,TRUE
+"Wellcome Trust",2015,1062.18,"10.1080/2162402X.2015.1025194",TRUE,"Informa UK Limited","OncoImmunology","2162-402X",NA,"2162-402X",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,1090.98,"10.4161/21541264.2014.978173",TRUE,"Informa UK Limited","Transcription","2154-1264","2154-1264","2154-1272",NA,TRUE,"25425188","PMC4581352",NA,NA,FALSE
 "Wellcome Trust",2015,1125.38,"10.1016/j.shpsc.2014.07.001",TRUE,"Elsevier BV","Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences","13698486","13698486",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25167833","PMC4726727",NA,NA,FALSE
 "Wellcome Trust",2015,1138.05,"10.1080/15592294.2015.1061174",TRUE,"Informa UK Limited","Epigenetics","1559-2294","1559-2294","1559-2308",NA,TRUE,"26237075","PMC4622588",NA,NA,FALSE
@@ -2447,15 +2447,15 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1365.66,"10.4161/2162402X.2014.976052",TRUE,"Informa UK Limited","OncoImmunology","2162-402X",NA,"2162-402X",NA,TRUE,"25949894","PMC4404815",NA,NA,FALSE
 "Wellcome Trust",2015,1375.78,"10.1039/c4cc09588j",TRUE,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X",NA,TRUE,"25695462","PMC4774366",NA,NA,FALSE
 "Wellcome Trust",2015,1517.4,"10.1113/EP085071",TRUE,"Wiley-Blackwell","Experimental Physiology","09580670",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26154775","PMC4737134",NA,NA,FALSE
-"Wellcome Trust",2015,1523.73,"10.3390/ma7128168",NA,"MDPI AG","Materials","1996-1944",NA,"1996-1944",NA,TRUE,NA,NA,NA,NA,TRUE
+"Wellcome Trust",2015,1523.73,"10.3390/ma7128168",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944",NA,TRUE,NA,NA,NA,NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2015,1576.83,"10.1142/S0219519415400096",NA,"World Scientific Pub Co Pte Lt","Journal of Mechanics in Medicine and Biology","0219-5194","0219-5194","1793-6810",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,1576.83,"10.1142/S0219519415400096",TRUE,"World Scientific Pub Co Pte Lt","Journal of Mechanics in Medicine and Biology","0219-5194","0219-5194","1793-6810",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,1592.12,"10.4161/2162402X.2014.974374",TRUE,"Informa UK Limited","OncoImmunology","2162-402X",NA,"2162-402X",NA,TRUE,"25949892","PMC4404788",NA,NA,FALSE
 "Wellcome Trust",2015,1602.37,"10.1038/srep08117",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25631385","PMC4822650",NA,NA,TRUE
 "Wellcome Trust",2015,1602.63,"10.1016/j.bone.2015.08.003",TRUE,"Elsevier BV","Bone","87563282","87563282",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26279137","PMC4768060",NA,NA,FALSE
 "Wellcome Trust",2015,1666.2,"10.1016/j.healthplace.2015.04.004",TRUE,"Elsevier BV","Health & Place","13538292","13538292",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25956260","PMC4889776",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2015,1711.74,"10.1109/JLT.2015.2436816",NA,"Institute of Electrical &amp; Electronics Engineers (IEEE)","Journal of Lightwave Technology","0733-8724","0733-8724","1558-2213",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,1711.74,"10.1109/JLT.2015.2436816",TRUE,"Institute of Electrical &amp; Electronics Engineers (IEEE)","Journal of Lightwave Technology","0733-8724","0733-8724","1558-2213",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,1748.79,"10.1109/TMI.2015.2409024",TRUE,"Institute of Electrical &amp; Electronics Engineers (IEEE)","IEEE Transactions on Medical Imaging","0278-0062","0278-0062","1558-254X",NA,TRUE,"25769147",NA,NA,NA,FALSE
 "Wellcome Trust",2015,1753.63,"10.1111/ane.12422",TRUE,"Wiley-Blackwell","Acta Neurologica Scandinavica","00016314",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25939728","PMC4737228",NA,NA,FALSE
 "Wellcome Trust",2015,1776.64,"10.1021/jm501436m",TRUE,"American Chemical Society (ACS)","Journal of Medicinal Chemistry","0022-2623","0022-2623","1520-4804","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25680029","PMC4767141",NA,NA,FALSE
@@ -2465,7 +2465,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1792.3,"10.1515/jpem-2015-0170",TRUE,"Walter de Gruyter GmbH","Journal of Pediatric Endocrinology and Metabolism","2191-0251","0334-018X","2191-0251",NA,TRUE,"26208381","PMC4860009",NA,NA,FALSE
 "Wellcome Trust",2015,1824.67,"10.1016/j.bpj.2015.06.038",TRUE,"Elsevier BV","Biophysical Journal","00063495","00063495",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26287630","PMC4547144",NA,NA,FALSE
 "Wellcome Trust",2015,1834.79,"10.1016/j.bone.2015.06.024",TRUE,"Elsevier BV","Bone","87563282","87563282",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26142930","PMC4640978",NA,NA,FALSE
-"Wellcome Trust",2015,1841.67,"10.1109/TGRS.2015.2431692",NA,"Institute of Electrical &amp; Electronics Engineers (IEEE)","IEEE Transactions on Geoscience and Remote Sensing","0196-2892","0196-2892","1558-0644",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,1841.67,"10.1109/TGRS.2015.2431692",TRUE,"Institute of Electrical &amp; Electronics Engineers (IEEE)","IEEE Transactions on Geoscience and Remote Sensing","0196-2892","0196-2892","1558-0644",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,1857.62,"10.1096/fj.14-268144",TRUE,"FASEB","The FASEB Journal","0892-6638","0892-6638","1530-6860",NA,TRUE,"25746794",NA,NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -2483,8 +2483,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1980.6,"10.1016/j.jmb.2015.02.005",TRUE,"Elsevier BV","Journal of Molecular Biology","00222836","00222836",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25681696","PMC4726662",NA,NA,FALSE
 "Wellcome Trust",2015,1995.68,"10.1016/j.epidem.2015.02.008",FALSE,"Elsevier BV","Epidemics","17554365","17554365",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26342238","PMC4728197",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1111/ijs.12558",TRUE,"SAGE Publications","International Journal of Stroke","17474930",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26120782","PMC4737263",NA,NA,FALSE
-"Wellcome Trust",2015,2023.2,"10.1111/infa.12103",NA,"Wiley-Blackwell","Infancy","15250008",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
-"Wellcome Trust",2015,2023.2,"10.1002/ehf2.12027",NA,"Wiley-Blackwell","ESC Heart Failure","20555822",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2023.2,"10.1111/infa.12103",TRUE,"Wiley-Blackwell","Infancy","15250008",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2023.2,"10.1002/ehf2.12027",FALSE,"Wiley-Blackwell","ESC Heart Failure","20555822",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1002/ajmg.a.36893",TRUE,"Wiley-Blackwell","American Journal of Medical Genetics Part A","15524825",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25691406","PMC4737262",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1002/art.38392",TRUE,"Wiley-Blackwell","Arthritis & Rheumatology","23265191",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24497523","PMC4737104",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -2499,7 +2499,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2023.2,"10.1113/jphysiol.2014.282442",TRUE,"Wiley-Blackwell","The Journal of Physiology","00223751",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25362149","PMC4405742",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1002/mrm.25767",TRUE,"Wiley-Blackwell","Magnetic Resonance in Medicine","07403194",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26010550","PMC4791092",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1111/cup.12625",TRUE,"Wiley-Blackwell","Journal of Cutaneous Pathology","03036987",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26458093","PMC4819440",NA,NA,FALSE
-"Wellcome Trust",2015,2023.2,"10.1111/1467-9566.12370",NA,"Wiley-Blackwell","Sociology of Health & Illness","01419889",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26537016","PMC4755229",NA,NA,FALSE
+"Wellcome Trust",2015,2023.2,"10.1111/1467-9566.12370",TRUE,"Wiley-Blackwell","Sociology of Health & Illness","01419889",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26537016","PMC4755229",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1111/bioe.12165",TRUE,"Wiley-Blackwell","Bioethics","02699702",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25960157","PMC4762535",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1113/JP270631",TRUE,"Wiley-Blackwell","The Journal of Physiology","00223751",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26223765","PMC4606541",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1002/path.4527",TRUE,"Wiley-Blackwell","The Journal of Pathology","00223417",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25727407","PMC4737252",NA,NA,FALSE
@@ -2531,7 +2531,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2023.2,"10.1111/acps.12384",TRUE,"Wiley-Blackwell","Acta Psychiatrica Scandinavica","0001690X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25556912","PMC4737210",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1002/ana.24508",TRUE,"Wiley-Blackwell","Annals of Neurology","03645134",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26290444","PMC4737098",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1111/epi.12924",TRUE,"Wiley-Blackwell","Epilepsia","00139580",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25656379","PMC4737214",NA,NA,FALSE
-"Wellcome Trust",2015,2023.2,"10.1002/prot.24863",NA,"Wiley-Blackwell","Proteins: Structure, Function, and Bioinformatics","08873585",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2023.2,"10.1002/prot.24863",TRUE,"Wiley-Blackwell","Proteins: Structure, Function, and Bioinformatics","08873585",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1111/liv.12876",TRUE,"Wiley-Blackwell","Liver International","14783223",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26012885","PMC4869675",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2023.2,"10.1111/dme.12895",TRUE,"Wiley-Blackwell","Diabetic Medicine","07423071",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26314829","PMC4740925",NA,NA,FALSE
@@ -2539,14 +2539,14 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2023.2,"10.1002/mrm.25723",TRUE,"Wiley-Blackwell","Magnetic Resonance in Medicine","07403194",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25994918","PMC4791093",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1111/ecc.12353",TRUE,"Wiley-Blackwell","European Journal of Cancer Care","09615423",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26227343","PMC4855626",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1002/uog.14929",TRUE,"Wiley-Blackwell","Ultrasound in Obstetrics & Gynecology","09607692",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26095052","PMC4755159",NA,NA,FALSE
-"Wellcome Trust",2015,2023.2,"10.1002/pon.3998",NA,"Wiley-Blackwell","Psycho-Oncology","10579249",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26425927","PMC4915489",NA,NA,FALSE
+"Wellcome Trust",2015,2023.2,"10.1002/pon.3998",TRUE,"Wiley-Blackwell","Psycho-Oncology","10579249",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26425927","PMC4915489",NA,NA,FALSE
 "Wellcome Trust",2015,2023.2,"10.1002/gps.4377",TRUE,"Wiley-Blackwell","International Journal of Geriatric Psychiatry","08856230",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26489874","PMC4855642",NA,NA,FALSE
-"Wellcome Trust",2015,2023.2,"10.1002/poi3.97",NA,"Wiley-Blackwell","Policy & Internet","19442866",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2023.2,"10.1002/poi3.97",TRUE,"Wiley-Blackwell","Policy & Internet","19442866",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2025.79,"10.3109/10253890.2015.1064889",TRUE,"Informa Healthcare","Stress","1025-3890","1025-3890","1607-8888",NA,TRUE,"26181102","PMC4732430",NA,NA,FALSE
 "Wellcome Trust",2015,2035.43,"10.1080/15384101.2015.1053667",TRUE,"Informa UK Limited","Cell Cycle","1538-4101","1538-4101","1551-4005",NA,TRUE,"26030842","PMC4613188",NA,NA,FALSE
 "Wellcome Trust",2015,2062.84,"10.1016/j.exer.2014.10.015",TRUE,"Elsevier BV","Experimental Eye Research","00144835","00144835",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25447808","PMC4726664",NA,NA,FALSE
 "Wellcome Trust",2015,2063.66,"10.1088/0031-9155/60/2/709",TRUE,"IOP Publishing","Physics in Medicine and Biology","0031-9155","0031-9155","1361-6560",NA,TRUE,"25555069",NA,NA,NA,FALSE
-"Wellcome Trust",2015,2063.66,"10.1136/bmjsem-2015-000023",NA,"BMJ","BMJ Open Sport & Exercise Medicine","2055-7647",NA,"2055-7647",NA,TRUE,NA,NA,NA,NA,TRUE
+"Wellcome Trust",2015,2063.66,"10.1136/bmjsem-2015-000023",FALSE,"BMJ","BMJ Open Sport & Exercise Medicine","2055-7647",NA,"2055-7647",NA,TRUE,NA,NA,NA,NA,TRUE
 "Wellcome Trust",2015,2071.76,"10.1039/C5CC05469A",TRUE,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X",NA,TRUE,"26219458","PMC4847484",NA,NA,FALSE
 "Wellcome Trust",2015,2106.37,"10.1002/stem.1930",TRUE,"Wiley-Blackwell","STEM CELLS","10665099",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25535084","PMC4737258",NA,NA,FALSE
 "Wellcome Trust",2015,2108.85,"10.1007/s10067-015-2950-x",TRUE,"Springer Nature","Clinical Rheumatology","0770-3198","0770-3198","1434-9949",NA,TRUE,"25920453","PMC4819554",NA,NA,FALSE
@@ -2615,7 +2615,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2498.6,"10.1007/s11019-015-9658-1",TRUE,"Springer Nature","Medicine, Health Care and Philosophy","1386-7423","1386-7423","1572-8633","http://creativecommons.org/licenses/by/4.0",TRUE,"26294174","PMC4880624",NA,NA,FALSE
 "Wellcome Trust",2015,2498.6,"10.1007/s10728-015-0304-0",TRUE,"Springer Nature","Health Care Analysis","1065-3058","1065-3058","1573-3394",NA,TRUE,"26240021",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2498.6,"10.1007/s10728-015-0300-4",TRUE,"Springer Nature","Health Care Analysis","1065-3058","1065-3058","1573-3394",NA,TRUE,"26297608",NA,NA,NA,FALSE
-"Wellcome Trust",2015,2507.64,"10.1007/s11145-015-9578-8",NA,"Springer Nature","Reading and Writing","0922-4777","0922-4777","1573-0905",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2507.64,"10.1007/s11145-015-9578-8",TRUE,"Springer Nature","Reading and Writing","0922-4777","0922-4777","1573-0905",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2527.15,"10.1007/s10802-015-0037-4",TRUE,"Springer Nature","Journal of Abnormal Child Psychology","0091-0627","0091-0627","1573-2835","http://www.springer.com/tdm",TRUE,"26021462","PMC4729813",NA,NA,FALSE
 "Wellcome Trust",2015,2527.57,"10.1016/j.biopsych.2015.07.018",TRUE,"Elsevier BV","Biological Psychiatry","00063223","00063223",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26359113",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2529,"10.1111/1462-2920.12980",TRUE,"Wiley-Blackwell","Environmental Microbiology","14622912",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26178789","PMC4737189",NA,NA,FALSE
@@ -2630,9 +2630,9 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2558.43,"10.1007/s00429-015-1049-0",TRUE,"Springer Nature","Brain Structure and Function","1863-2653","1863-2653","1863-2661","http://creativecommons.org/licenses/by/4.0",TRUE,"25944572","PMC4884206",NA,NA,FALSE
 "Wellcome Trust",2015,2562.69,"10.1016/j.autneu.2015.05.003",TRUE,"Elsevier BV","Autonomic Neuroscience","15660702","15660702",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26015156","PMC4658331",NA,NA,FALSE
 "Wellcome Trust",2015,2563.26,"10.1007/s00204-015-1531-8",TRUE,"Springer Nature","Archives of Toxicology","0340-5761","0340-5761","1432-0738",NA,TRUE,"25995008","PMC4785204",NA,NA,FALSE
-"Wellcome Trust",2015,2564.99,"10.1007/978-1-4939-3023-4_64",NA,"Springer Nature",NA,NA,NA,NA,"http://www.springer.com/tdm",TRUE,"26782252",NA,NA,NA,NA
-"Wellcome Trust",2015,2564.99,"10.1007/978-1-4939-3023-4_29",NA,"Springer Nature",NA,NA,NA,NA,"http://www.springer.com/tdm",TRUE,"26782217",NA,NA,NA,NA
-"Wellcome Trust",2015,2564.99,"10.1007/978-1-4939-3023-4_17",NA,"Springer Nature",NA,NA,NA,NA,"http://www.springer.com/tdm",TRUE,"26782205",NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2574.05,"10.1016/j.celrep.2015.06.001",FALSE,"Elsevier BV","Cell Reports","22111247","22111247",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26119739","PMC4487770",NA,NA,FALSE
 "Wellcome Trust",2015,2575.74,"10.1016/j.ajhg.2015.07.016",TRUE,"Elsevier BV","The American Journal of Human Genetics","00029297","00029297",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26320892","PMC4564992",NA,NA,FALSE
 "Wellcome Trust",2015,2576.19,"10.1007/s00429-015-1024-9",TRUE,"Springer Nature","Brain Structure and Function","1863-2653","1863-2653","1863-2661","http://creativecommons.org/licenses/by/4.0",TRUE,"25758403","PMC4853463",NA,NA,FALSE
@@ -2648,8 +2648,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2595,"10.1111/cea.12434",TRUE,"Wiley-Blackwell","Clinical & Experimental Allergy","09547894",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25303516","PMC4778413",NA,NA,FALSE
 "Wellcome Trust",2015,2599.62,"10.1007/s00213-015-3919-9",TRUE,"Springer Nature","Psychopharmacology","0033-3158","0033-3158","1432-2072",NA,TRUE,"25877654","PMC4828485",NA,NA,FALSE
 "Wellcome Trust",2015,2607.58,"10.1007/s10865-015-9677-7",TRUE,"Springer Nature","Journal of Behavioral Medicine","0160-7715","0160-7715","1573-3521",NA,TRUE,"26341356","PMC4720702",NA,NA,FALSE
-"Wellcome Trust",2015,2610.87,"10.1080/09505431.2015.1063597",NA,"Informa UK Limited","Science as Culture","0950-5431","0950-5431","1470-1189",NA,TRUE,NA,NA,NA,NA,FALSE
-"Wellcome Trust",2015,2611.28,"10.1007/s10739-015-9421-8",NA,"Springer Nature","Journal of the History of Biology","0022-5010","0022-5010","1573-0387","http://creativecommons.org/licenses/by/4.0",TRUE,"26307748",NA,NA,NA,FALSE
+"Wellcome Trust",2015,2610.87,"10.1080/09505431.2015.1063597",TRUE,"Informa UK Limited","Science as Culture","0950-5431","0950-5431","1470-1189",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2611.28,"10.1007/s10739-015-9421-8",TRUE,"Springer Nature","Journal of the History of Biology","0022-5010","0022-5010","1573-0387","http://creativecommons.org/licenses/by/4.0",TRUE,"26307748",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2611.53,"10.1007/s00213-015-3876-3",TRUE,"Springer Nature","Psychopharmacology","0033-3158","0033-3158","1432-2072",NA,TRUE,"25678193","PMC4828497",NA,NA,FALSE
 "Wellcome Trust",2015,2615.58,"10.1007/s00415-015-7884-3",TRUE,"Springer Nature","Journal of Neurology","0340-5354","0340-5354","1432-1459",NA,TRUE,"26315846","PMC4723631",NA,NA,FALSE
 "Wellcome Trust",2015,2630.16,"10.1136/jech-2015-205988",TRUE,"BMJ","Journal of Epidemiology and Community Health","0143-005X","0143-005X","1470-2738",NA,TRUE,"26248550","PMC4717378",NA,NA,FALSE
@@ -2661,7 +2661,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2648.3,"10.1002/ejp.560",TRUE,"Wiley-Blackwell","European Journal of Pain","10903801",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24974787","PMC4737240",NA,NA,FALSE
 "Wellcome Trust",2015,2651.81,"10.1002/jbio.201300203",TRUE,"Wiley-Blackwell","Journal of Biophotonics","1864063X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24573953","PMC4737404",NA,NA,FALSE
 "Wellcome Trust",2015,2652.82,"10.1038/cdd.2014.206",TRUE,"Springer Nature","Cell Death and Differentiation","1350-9047","1350-9047","1476-5403",NA,TRUE,"25526086","PMC4572864",NA,NA,FALSE
-"Wellcome Trust",2015,2676.03,"10.1016/j.carpath.2015.09.009",NA,"Elsevier BV","Cardiovascular Pathology","10548807","10548807",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26764143","PMC4758811",NA,NA,FALSE
+"Wellcome Trust",2015,2676.03,"10.1016/j.carpath.2015.09.009",FALSE,"Elsevier BV","Cardiovascular Pathology","10548807","10548807",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26764143","PMC4758811",NA,NA,FALSE
 "Wellcome Trust",2015,2681.51,"10.1002/acr.22546",TRUE,"Wiley-Blackwell","Arthritis Care & Research","2151464X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25604329","PMC4737248",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/tobaccocontrol-2014-051919",TRUE,"BMJ","Tobacco Control","0964-4563","0964-4563","1468-3318",NA,TRUE,"25713313","PMC4669229",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/annrheumdis-2014-206921",TRUE,"BMJ","Annals of the Rheumatic Diseases","0003-4967","0003-4967","1468-2060",NA,TRUE,"25858640","PMC4819606",NA,NA,FALSE
@@ -2671,8 +2671,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2682.76,"10.1136/thoraxjnl-2015-207433",TRUE,"BMJ","Thorax","0040-6376","0040-6376","1468-3296",NA,TRUE,"26138736","PMC4717418",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/jnnp-2015-310737",TRUE,"BMJ","Journal of Neurology, Neurosurgery & Psychiatry","0022-3050","0022-3050","1468-330X",NA,TRUE,"26157034","PMC4717449",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/jnnp-2014-310142",TRUE,"BMJ","Journal of Neurology, Neurosurgery & Psychiatry","0022-3050","0022-3050","1468-330X",NA,TRUE,"25926483","PMC4853554",NA,NA,FALSE
-"Wellcome Trust",2015,2682.76,"10.1136/jnnp-2015-310788",NA,"BMJ","Journal of Neurology, Neurosurgery & Psychiatry","0022-3050","0022-3050","1468-330X",NA,TRUE,"25935893","PMC4853550",NA,NA,FALSE
-"Wellcome Trust",2015,2682.76,"10.1136/sextrans-2015-052013",NA,"BMJ","Sexually Transmitted Infections","1368-4973","1368-4973","1472-3263",NA,TRUE,"26290483","PMC4853535",NA,NA,FALSE
+"Wellcome Trust",2015,2682.76,"10.1136/jnnp-2015-310788",TRUE,"BMJ","Journal of Neurology, Neurosurgery & Psychiatry","0022-3050","0022-3050","1468-330X",NA,TRUE,"25935893","PMC4853550",NA,NA,FALSE
+"Wellcome Trust",2015,2682.76,"10.1136/sextrans-2015-052013",TRUE,"BMJ","Sexually Transmitted Infections","1368-4973","1368-4973","1472-3263",NA,TRUE,"26290483","PMC4853535",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/jnnp-2015-311161",TRUE,"BMJ","Journal of Neurology, Neurosurgery & Psychiatry","0022-3050","0022-3050","1468-330X",NA,TRUE,"26384513",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/jech-2014-204685",TRUE,"BMJ","Journal of Epidemiology and Community Health","0143-005X","0143-005X","1470-2738",NA,TRUE,"26246540","PMC4717375",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/jnnp-2015-310521",TRUE,"BMJ","Journal of Neurology, Neurosurgery & Psychiatry","0022-3050","0022-3050","1468-330X",NA,TRUE,"25886782","PMC4819648",NA,NA,FALSE
@@ -2689,7 +2689,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2697.6,"10.1111/ced.12696",TRUE,"Wiley-Blackwell","Clinical and Experimental Dermatology","03076938",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26132338","PMC4762539",NA,NA,FALSE
 "Wellcome Trust",2015,2697.6,"10.1093/brain/awv020",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156",NA,TRUE,"25688076",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2697.6,"10.1093/brain/awv182",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156",NA,TRUE,"26122121",NA,NA,NA,FALSE
-"Wellcome Trust",2015,2699.93,"10.1016/j.cja.2015.05.010",NA,"Elsevier BV","Chinese Journal of Aeronautics","10009361","10009361",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2699.93,"10.1016/j.cja.2015.05.010",FALSE,"Elsevier BV","Chinese Journal of Aeronautics","10009361","10009361",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2705.48,"10.1016/j.crad.2015.02.003",TRUE,"Elsevier BV","Clinical Radiology","00099260","00099260",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25791202","PMC4728185",NA,NA,FALSE
 "Wellcome Trust",2015,2713.79,"10.1007/s00429-014-0947-x",TRUE,"Springer Nature","Brain Structure and Function","1863-2653","1863-2653","1863-2661",NA,TRUE,"25432771","PMC4771819",NA,NA,FALSE
 "Wellcome Trust",2015,2743.46,"10.1017/S1041610215001180",TRUE,"Cambridge University Press (CUP)","International Psychogeriatrics","1041-6102","1041-6102","1741-203X",NA,TRUE,"26250473","PMC4720143",NA,NA,FALSE
@@ -2697,9 +2697,9 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2743.46,"10.1017/S1368980015002104",TRUE,"Cambridge University Press (CUP)","Public Health Nutrition","1368-9800","1368-9800","1475-2727",NA,TRUE,"26156809","PMC4825057",NA,NA,FALSE
 "Wellcome Trust",2015,2743.46,"10.1017/S1352465814000629",TRUE,"Cambridge University Press (CUP)","Behavioural and Cognitive Psychotherapy","1352-4658","1352-4658","1469-1833",NA,TRUE,"25731214","PMC4762235",NA,NA,FALSE
 "Wellcome Trust",2015,2743.46,"10.1017/S0033291714002967",TRUE,"Cambridge University Press (CUP)","Psychological Medicine","0033-2917","0033-2917","1469-8978",NA,TRUE,"25677948","PMC4803046",NA,NA,FALSE
-"Wellcome Trust",2015,2751.55,"10.1093/bjps/axv007",NA,"Oxford University Press (OUP)","The British Journal for the Philosophy of Science","0007-0882","0007-0882","1464-3537",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2751.55,"10.1093/bjps/axv007",TRUE,"Oxford University Press (OUP)","The British Journal for the Philosophy of Science","0007-0882","0007-0882","1464-3537",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.2217/fon.15.204",TRUE,"Future Medicine Ltd","Future Oncology","1479-6694","1479-6694","1744-8301",NA,TRUE,"26344657",NA,NA,NA,FALSE
-"Wellcome Trust",2015,2751.55,"10.1111/jdi.12432",NA,"Wiley-Blackwell","Journal of Diabetes Investigation","20401116",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27330718","PMC4847886",NA,NA,FALSE
+"Wellcome Trust",2015,2751.55,"10.1111/jdi.12432",FALSE,"Wiley-Blackwell","Journal of Diabetes Investigation","20401116",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27330718","PMC4847886",NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.4155/ppa.15.3",TRUE,"Future Science, LTD","Pharmaceutical Patent Analyst","2046-8954","2046-8954",NA,NA,TRUE,"26030080",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.1088/0031-9155/60/4/1681",TRUE,"IOP Publishing","Physics in Medicine and Biology","0031-9155","0031-9155","1361-6560",NA,TRUE,"25633183",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.1038/bjc.2015.334",TRUE,"Springer Nature","British Journal of Cancer","0007-0920","0007-0920","1532-1827",NA,TRUE,"26461055","PMC4815881",NA,NA,FALSE
@@ -2709,51 +2709,51 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2751.55,"10.2217/nnm.14.202",TRUE,"Future Medicine Ltd","Nanomedicine","1743-5889","1743-5889","1748-6963",NA,TRUE,"25694062",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.2217/bmm.15.17",TRUE,"Future Medicine Ltd","Biomarkers in Medicine","1752-0363","1752-0363","1752-0371",NA,TRUE,"26174843","PMC4822679",NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.2217/rme.14.72",TRUE,"Future Medicine Ltd","Regenerative Medicine","1746-0751","1746-0751","1746-076X",NA,TRUE,"25562354","PMC4780212",NA,NA,FALSE
-"Wellcome Trust",2015,2751.55,"10.1038/leu.2015.133",NA,"Springer Nature","Leukemia","0887-6924","0887-6924","1476-5551",NA,TRUE,"26050648","PMC4705432",NA,NA,FALSE
+"Wellcome Trust",2015,2751.55,"10.1038/leu.2015.133",TRUE,"Springer Nature","Leukemia","0887-6924","0887-6924","1476-5551",NA,TRUE,"26050648","PMC4705432",NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.1038/leu.2015.129",TRUE,"Springer Nature","Leukemia","0887-6924","0887-6924","1476-5551",NA,TRUE,"25991409","PMC4705423",NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.1098/rspb.2015.0972",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954",NA,TRUE,"26311664","PMC4571691",NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.2217/bmm.14.78",TRUE,"Future Medicine Ltd","Biomarkers in Medicine","1752-0363","1752-0363","1752-0371",NA,TRUE,"25689899",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.4155/fmc.15.104",TRUE,"Future Science, LTD","Future Medicinal Chemistry","1756-8919","1756-8919","1756-8927",NA,TRUE,"26423719",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2751.55,"10.2217/nmt.14.30",TRUE,"Future Medicine Ltd","Neurodegenerative Disease Management","1758-2024","1758-2024","1758-2032",NA,TRUE,"25313984",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2781.66,"10.1016/j.bbamcr.2014.10.029",TRUE,"Elsevier BV","Biochimica et Biophysica Acta (BBA) - Molecular Cell Research","01674889","01674889",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25447549","PMC4728190",NA,NA,FALSE
-"Wellcome Trust",2015,2782.44,"10.1159/000438788",NA,"S. Karger AG","Molecular Neuropsychiatry","2296-9209","2296-9209","2296-9179",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2782.44,"10.1159/000438788",TRUE,"S. Karger AG","Molecular Neuropsychiatry","2296-9209","2296-9209","2296-9179",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2793.96,"10.1016/j.neubiorev.2014.09.012",TRUE,"Elsevier BV","Neuroscience & Biobehavioral Reviews","01497634","01497634",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25277283","PMC4726659",NA,NA,FALSE
-"Wellcome Trust",2015,2794.21,"10.1016/j.ijms.2015.07.029",NA,"Elsevier BV","International Journal of Mass Spectrometry","13873806","13873806",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2794.21,"10.1016/j.ijms.2015.07.029",TRUE,"Elsevier BV","International Journal of Mass Spectrometry","13873806","13873806",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2797.25,"10.1017/s0952523815000206",TRUE,"Cambridge University Press (CUP)","Visual Neuroscience","0952-5238","0952-5238","1469-8714",NA,TRUE,"26423343","PMC4733890",NA,NA,FALSE
 "Wellcome Trust",2015,2799.43,"10.1016/j.neubiorev.2014.09.013",TRUE,"Elsevier BV","Neuroscience & Biobehavioral Reviews","01497634","01497634",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25280906","PMC4726915",NA,NA,FALSE
 "Wellcome Trust",2015,2804.16,"10.1007/s00204-014-1409-1",TRUE,"Springer Nature","Archives of Toxicology","0340-5761","0340-5761","1432-0738",NA,TRUE,"25398514","PMC4748000",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2832.48,"10.1093/bioinformatics/btv425",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059",NA,TRUE,"26206307","PMC4754627",NA,NA,FALSE
-"Wellcome Trust",2015,2832.48,"10.1093/shm/hkv067",NA,"Oxford University Press (OUP)","Social History of Medicine","0951-631X","0951-631X","1477-4666",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2832.48,"10.1093/shm/hkv067",TRUE,"Oxford University Press (OUP)","Social History of Medicine","0951-631X","0951-631X","1477-4666",NA,TRUE,NA,NA,NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2832.48,"10.1042/CS20140578",TRUE,"Portland Press Ltd.","Clinical Science","0143-5221","0143-5221","1470-8736",NA,TRUE,"25524654",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2832.48,"10.1159/000375368",TRUE,"S. Karger AG","Developmental Neuroscience","0378-5866","0378-5866","1421-9859",NA,TRUE,"25823427","PMC4876595",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2015,2832.48,"10.1093/hwj/dbv015",NA,"Oxford University Press (OUP)","History Workshop Journal","1363-3554","1363-3554","1477-4569",NA,TRUE,"27019608","PMC4804231",NA,NA,FALSE
-"Wellcome Trust",2015,2832.48,"10.1093/pastj/gtv026",NA,"Oxford University Press (OUP)","Past & Present","0031-2746","0031-2746","1477-464X",NA,TRUE,NA,NA,NA,NA,FALSE
-"Wellcome Trust",2015,2832.48,"10.1093/hwj/dbv029",NA,"Oxford University Press (OUP)","History Workshop Journal","1363-3554","1363-3554","1477-4569",NA,TRUE,"27019607","PMC4804233",NA,NA,FALSE
+"Wellcome Trust",2015,2832.48,"10.1093/hwj/dbv015",TRUE,"Oxford University Press (OUP)","History Workshop Journal","1363-3554","1363-3554","1477-4569",NA,TRUE,"27019608","PMC4804231",NA,NA,FALSE
+"Wellcome Trust",2015,2832.48,"10.1093/pastj/gtv026",TRUE,"Oxford University Press (OUP)","Past & Present","0031-2746","0031-2746","1477-464X",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2832.48,"10.1093/hwj/dbv029",TRUE,"Oxford University Press (OUP)","History Workshop Journal","1363-3554","1363-3554","1477-4569",NA,TRUE,"27019607","PMC4804233",NA,NA,FALSE
 "Wellcome Trust",2015,2832.48,"10.1002/cne.23806",TRUE,"Wiley-Blackwell","Journal of Comparative Neurology","00219967",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25975775","PMC4737253",NA,NA,FALSE
 "Wellcome Trust",2015,2832.48,"10.1002/hbm.22840",TRUE,"Wiley-Blackwell","Human Brain Mapping","10659471",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25995134","PMC4545680",NA,NA,FALSE
 "Wellcome Trust",2015,2832.48,"10.1002/cne.23784",TRUE,"Wiley-Blackwell","Journal of Comparative Neurology","00219967",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25845831","PMC4737260",NA,NA,FALSE
-"Wellcome Trust",2015,2832.48,"10.1002/hbm.22997",NA,"Wiley-Blackwell","Human Brain Mapping","10659471",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26415818","PMC4737094",NA,NA,FALSE
+"Wellcome Trust",2015,2832.48,"10.1002/hbm.22997",TRUE,"Wiley-Blackwell","Human Brain Mapping","10659471",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26415818","PMC4737094",NA,NA,FALSE
 "Wellcome Trust",2015,2832.48,"10.1002/hbm.23015",TRUE,"Wiley-Blackwell","Human Brain Mapping","10659471",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26452176","PMC4737127",NA,NA,FALSE
 "Wellcome Trust",2015,2832.48,"10.1111/ajt.13318",TRUE,"Wiley-Blackwell","American Journal of Transplantation","16006135",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26037782","PMC4737133",NA,NA,FALSE
 "Wellcome Trust",2015,2832.48,"10.1111/mec.13113",TRUE,"Wiley-Blackwell","Molecular Ecology","09621083",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25689782","PMC4737241",NA,NA,FALSE
-"Wellcome Trust",2015,2832.48,"10.1093/tcbh/hwv024",NA,"Oxford University Press (OUP)","Twentieth Century British History","0955-2359","0955-2359","1477-4674",NA,TRUE,"26502666","PMC4804230",NA,NA,FALSE
+"Wellcome Trust",2015,2832.48,"10.1093/tcbh/hwv024",TRUE,"Oxford University Press (OUP)","Twentieth Century British History","0955-2359","0955-2359","1477-4674",NA,TRUE,"26502666","PMC4804230",NA,NA,FALSE
 "Wellcome Trust",2015,2839.22,"10.1099/jgv.0.000264",TRUE,"Microbiology Society","Journal of General Virology","0022-1317","0022-1317","1465-2099",NA,TRUE,"26282123","PMC4806580",NA,NA,FALSE
 "Wellcome Trust",2015,2866.2,"10.1093/cercor/bhv134",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,TRUE,"26092220","PMC4816805",NA,NA,FALSE
 "Wellcome Trust",2015,2866.2,"10.1093/cercor/bhv120",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,TRUE,"26048956","PMC4816804",NA,NA,FALSE
 "Wellcome Trust",2015,2886.43,"10.1136/annrheumdis-2014-206644",TRUE,"BMJ","Annals of the Rheumatic Diseases","0003-4967","0003-4967","1468-2060",NA,TRUE,"26275430",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2892.07,"10.1016/j.cmi.2015.09.018",TRUE,"Elsevier BV","Clinical Microbiology and Infection","1198743X","1198743X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26432192","PMC4721535",NA,NA,FALSE
-"Wellcome Trust",2015,2893.99,"10.1080/1081602X.2014.1001768",NA,"Informa UK Limited","The History of the Family","1081-602X","1081-602X","1873-5398",NA,TRUE,"26900320","PMC4738191",NA,NA,FALSE
+"Wellcome Trust",2015,2893.99,"10.1080/1081602X.2014.1001768",TRUE,"Informa UK Limited","The History of the Family","1081-602X","1081-602X","1873-5398",NA,TRUE,"26900320","PMC4738191",NA,NA,FALSE
 "Wellcome Trust",2015,2893.99,"10.3109/21678421.2015.1071397",TRUE,"Informa Healthcare","Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration","2167-8421","2167-8421","2167-9223",NA,TRUE,"26312952","PMC4732449",NA,NA,FALSE
 "Wellcome Trust",2015,2893.99,"10.3109/09638288.2015.1035458",TRUE,"Informa UK Limited","Disability and Rehabilitation","0963-8288","0963-8288","1464-5165",NA,TRUE,"25879468","PMC4696242",NA,NA,FALSE
 "Wellcome Trust",2015,2893.99,"10.1080/17441692.2015.1057091",TRUE,"Informa UK Limited","Global Public Health","1744-1692","1744-1692","1744-1706",NA,TRUE,"26234691",NA,NA,NA,FALSE
-"Wellcome Trust",2015,2893.99,"10.1080/14733285.2015.972653",NA,"Informa UK Limited","Children's Geographies","1473-3285","1473-3285","1473-3277",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,2893.99,"10.1080/14733285.2015.972653",TRUE,"Informa UK Limited","Children's Geographies","1473-3285","1473-3285","1473-3277",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,2896.28,"10.1016/j.semcancer.2015.01.001",TRUE,"Elsevier BV","Seminars in Cancer Biology","1044579X","1044579X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25600295","PMC4737670",NA,NA,FALSE
 "Wellcome Trust",2015,2913.41,"10.1259/bjr.20150208",TRUE,"British Institute of Radiology","The British Journal of Radiology","0007-1285","0007-1285","1748-880X",NA,TRUE,"26246041","PMC4730970",NA,NA,FALSE
 "Wellcome Trust",2015,2913.41,"10.1002/jbm.b.33313",TRUE,"Wiley-Blackwell","Journal of Biomedical Materials Research Part B: Applied Biomaterials","15524973",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25370809","PMC4737106",NA,NA,FALSE
-"Wellcome Trust",2015,2929.59,"10.1136/gutjnl-2014-306919",NA,"BMJ","Gut","0017-5749","0017-5749","1468-3288",NA,TRUE,"25715355","PMC4819603",NA,NA,FALSE
+"Wellcome Trust",2015,2929.59,"10.1136/gutjnl-2014-306919",TRUE,"BMJ","Gut","0017-5749","0017-5749","1468-3288",NA,TRUE,"25715355","PMC4819603",NA,NA,FALSE
 "Wellcome Trust",2015,2932.29,"10.18632/oncotarget.4801",TRUE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,"26334099",NA,NA,NA,FALSE
 "Wellcome Trust",2015,2963.8,"10.18632/oncotarget.4919",TRUE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,"26295308","PMC4823038",NA,NA,FALSE
 "Wellcome Trust",2015,2986.55,"10.18632/oncotarget.5796",TRUE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,"26415229","PMC4745683",NA,NA,FALSE
@@ -2793,7 +2793,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3114.19,"10.1002/mus.24427",TRUE,"Wiley-Blackwell","Muscle & Nerve","0148639X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25154476","PMC4858813",NA,NA,FALSE
 "Wellcome Trust",2015,3116.62,"10.1002/stem.2093",TRUE,"Wiley-Blackwell","STEM CELLS","10665099",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26175215","PMC4737122",NA,NA,FALSE
-"Wellcome Trust",2015,3116.62,"10.1111/bjd.14003",NA,"Wiley-Blackwell","British Journal of Dermatology","00070963",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26147717","PMC4762540",NA,NA,FALSE
+"Wellcome Trust",2015,3116.62,"10.1111/bjd.14003",TRUE,"Wiley-Blackwell","British Journal of Dermatology","00070963",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26147717","PMC4762540",NA,NA,FALSE
 "Wellcome Trust",2015,3119.52,"10.1080/09658211.2015.1008014",TRUE,"Informa UK Limited","Memory","0965-8211","0965-8211","1464-0686",NA,TRUE,"25716137","PMC4743605",NA,NA,FALSE
 "Wellcome Trust",2015,3121.82,"10.1016/j.neurobiolaging.2015.06.005",TRUE,"Elsevier BV","Neurobiology of Aging","01974580","01974580",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26154020","PMC4706156",NA,NA,FALSE
 "Wellcome Trust",2015,3125.44,"10.1111/obr.12310",TRUE,"Wiley-Blackwell","Obesity Reviews","14677881",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26252417","PMC4737242",NA,NA,FALSE
@@ -2813,7 +2813,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3156.19,"10.1136/annrheumdis-2014-207210",TRUE,"BMJ","Annals of the Rheumatic Diseases","0003-4967","0003-4967","1468-2060",NA,TRUE,"26386125","PMC4717396",NA,NA,FALSE
 "Wellcome Trust",2015,3156.19,"10.1136/annrheumdis-2014-206927",TRUE,"BMJ","Annals of the Rheumatic Diseases","0003-4967","0003-4967","1468-2060",NA,TRUE,"26116548","PMC4717397",NA,NA,FALSE
 "Wellcome Trust",2015,3156.19,"10.1136/archdischild-2014-308117",TRUE,"BMJ","Archives of Disease in Childhood","0003-9888","0003-9888","1468-2044",NA,TRUE,"26369575","PMC4819639",NA,NA,FALSE
-"Wellcome Trust",2015,3156.19,"10.1136/annrheumdis-2014-206578",NA,"BMJ","Annals of the Rheumatic Diseases","0003-4967","0003-4967","1468-2060",NA,TRUE,"25923217","PMC4853576",NA,NA,FALSE
+"Wellcome Trust",2015,3156.19,"10.1136/annrheumdis-2014-206578",TRUE,"BMJ","Annals of the Rheumatic Diseases","0003-4967","0003-4967","1468-2060",NA,TRUE,"25923217","PMC4853576",NA,NA,FALSE
 "Wellcome Trust",2015,3156.19,"10.1136/jmedgenet-2015-103393",TRUE,"BMJ","Journal of Medical Genetics","0022-2593","0022-2593","1468-6244",NA,TRUE,"26543203","PMC4789813",NA,NA,FALSE
 "Wellcome Trust",2015,3156.19,"10.1136/emermed-2015-204847",TRUE,"BMJ","Emergency Medicine Journal","1472-0205","1472-0205","1472-0213",NA,TRUE,"26400865",NA,NA,NA,FALSE
 "Wellcome Trust",2015,3160.99,"10.1111/pcmr.12370",TRUE,"Wiley-Blackwell","Pigment Cell & Melanoma Research","17551471",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25818589","PMC4692100",NA,NA,FALSE
@@ -2822,16 +2822,16 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3163.88,"10.1111/bjh.13509",TRUE,"Wiley-Blackwell","British Journal of Haematology","00071048",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26013304","PMC4737237",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3170.91,"10.1016/j.mri.2014.10.010",TRUE,"Elsevier BV","Magnetic Resonance Imaging","0730725X","0730725X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25460333","PMC4728188",NA,NA,FALSE
-"Wellcome Trust",2015,3172.81,"10.1111/een.12226",NA,"Wiley-Blackwell","Ecological Entomology","03076946",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,3172.81,"10.1111/een.12226",TRUE,"Wiley-Blackwell","Ecological Entomology","03076946",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,3176.52,"10.1002/eat.22398",TRUE,"Wiley-Blackwell","International Journal of Eating Disorders","02763478",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25728705","PMC4737215",NA,NA,FALSE
-"Wellcome Trust",2015,3179.57,"10.1111/hex.12371",NA,"Wiley-Blackwell","Health Expectations","13696513",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25929296","PMC4737222",NA,NA,FALSE
+"Wellcome Trust",2015,3179.57,"10.1111/hex.12371",TRUE,"Wiley-Blackwell","Health Expectations","13696513",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25929296","PMC4737222",NA,NA,FALSE
 "Wellcome Trust",2015,3182.06,"10.1016/j.trsl.2015.08.004",TRUE,"Elsevier BV","Translational Research","19315244","19315244",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26334389","PMC4728194",NA,NA,FALSE
 "Wellcome Trust",2015,3183.17,"10.1002/nbm.3276",TRUE,"Wiley-Blackwell","NMR in Biomedicine","09523480",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25802214","PMC4737099",NA,NA,FALSE
 "Wellcome Trust",2015,3184.26,"10.1111/imm.12472",TRUE,"Wiley-Blackwell","Immunology","00192805",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25882672","PMC4515135",NA,NA,FALSE
 "Wellcome Trust",2015,3185.96,"10.1113/JP270495",TRUE,"Wiley-Blackwell","The Journal of Physiology","00223751",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25920377","PMC4532528",NA,NA,FALSE
 "Wellcome Trust",2015,3188.86,"10.1002/jor.22947",TRUE,"Wiley-Blackwell","Journal of Orthopaedic Research","07360266",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25991385","PMC4737200",NA,NA,FALSE
 "Wellcome Trust",2015,3194.58,"10.1016/j.numecd.2015.07.008",TRUE,"Elsevier BV","Nutrition, Metabolism and Cardiovascular Diseases","09394753","09394753",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26298426","PMC4714622",NA,NA,FALSE
-"Wellcome Trust",2015,3196.83,"10.1111/ehr.12112",NA,"Wiley-Blackwell","The Economic History Review","00130117",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,3196.83,"10.1111/ehr.12112",TRUE,"Wiley-Blackwell","The Economic History Review","00130117",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,3198.94,"10.1111/cei.12570",TRUE,"Wiley-Blackwell","Clinical & Experimental Immunology","00099104",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25496365","PMC4408161",NA,NA,FALSE
 "Wellcome Trust",2015,3201.84,"10.15252/embj.201490009",TRUE,"EMBO","The EMBO Journal","0261-4189","0261-4189","1460-2075",NA,TRUE,"25872774","PMC4516428",NA,NA,FALSE
 "Wellcome Trust",2015,3206.91,"10.1111/pai.12401",TRUE,"Wiley-Blackwell","Pediatric Allergy and Immunology","09056157",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25955441","PMC4737128",NA,NA,FALSE
@@ -2848,11 +2848,11 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3237.12,"10.1093/inthealth/ihv034",TRUE,"Oxford University Press (OUP)","International Health","1876-3413","1876-3413","1876-3405",NA,TRUE,"25969503","PMC4866326",NA,NA,FALSE
 "Wellcome Trust",2015,3238.24,"10.1016/j.media.2015.07.002",TRUE,"Elsevier BV","Medical Image Analysis","13618415","13618415",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26319973","PMC4686006",NA,NA,FALSE
 "Wellcome Trust",2015,3251.96,"10.1016/j.media.2015.08.012",TRUE,"Elsevier BV","Medical Image Analysis","13618415","13618415",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26409245","PMC4686008",NA,NA,FALSE
-"Wellcome Trust",2015,3280.7,"10.1097/j.pain.0000000000000307",TRUE,"Ovid Technologies (Wolters Kluwer Health)","PAIN","0304-3959","0304-3959",NA,NA,TRUE,"26218719","PMC4685754",NA,NA,FALSE
+"Wellcome Trust",2015,3280.7,"10.1097/j.pain.0000000000000307",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Pain","0304-3959","0304-3959",NA,NA,TRUE,"26218719","PMC4685754",NA,NA,FALSE
 "Wellcome Trust",2015,3305.29,"10.1016/j.tim.2015.03.005",TRUE,"Elsevier BV","Trends in Microbiology","0966842X","0966842X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25840766","PMC4710578",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3330.83,"10.1002/mrm.25876",TRUE,"Wiley-Blackwell","Magnetic Resonance in Medicine","07403194",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26302363","PMC4869836",NA,NA,FALSE
-"Wellcome Trust",2015,3341.75,"10.1212/NXG.0000000000000006",NA,"Ovid Technologies (Wolters Kluwer Health)","Neurology Genetics","2376-7839",NA,"2376-7839",NA,TRUE,"27066545","PMC4821083",NA,NA,TRUE
+"Wellcome Trust",2015,3341.75,"10.1212/NXG.0000000000000006",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Neurology Genetics","2376-7839",NA,"2376-7839",NA,TRUE,"27066545","PMC4821083",NA,NA,TRUE
 "Wellcome Trust",2015,3372,"10.1192/bjp.bp.114.150755",TRUE,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250",NA,NA,TRUE,"26294364","PMC4771942",NA,NA,FALSE
 "Wellcome Trust",2015,3398.98,"10.1038/gene.2015.36",TRUE,"Springer Nature","Genes and Immunity","1466-4879","1466-4879","1476-5470",NA,TRUE,"26378653","PMC4763160",NA,NA,FALSE
 "Wellcome Trust",2015,3398.98,"10.1038/hdy.2015.33",TRUE,"Springer Nature","Heredity","0018-067X","0018-067X","1365-2540",NA,TRUE,"25899013","PMC4519523",NA,NA,FALSE
@@ -2861,12 +2861,12 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3439.44,"10.1093/cercor/bhv094",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,TRUE,"25979089","PMC4816797",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/jnci/djv036",TRUE,"Oxford University Press (OUP)","JNCI Journal of the National Cancer Institute","0027-8874","0027-8874","1460-2105",NA,TRUE,"25855707","PMC4754625",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/cercor/bhv043",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,TRUE,"25754338","PMC4816790",NA,NA,FALSE
-"Wellcome Trust",2015,3439.44,"10.1093/jnci/djv289",TRUE,"Oxford University Press (OUP)","Journal of the National Cancer Institute","0027-8874","0027-8874","1460-2105",NA,TRUE,"26464464","PMC4712681",NA,NA,FALSE
+"Wellcome Trust",2015,3439.44,"10.1093/jnci/djv289",TRUE,"Oxford University Press (OUP)","JNCI Journal of the National Cancer Institute","0027-8874","0027-8874","1460-2105",NA,TRUE,"26464464","PMC4712681",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/cercor/bhv063",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,TRUE,"25899706","PMC4816794",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/gerona/glv093",TRUE,"Oxford University Press (OUP)","The Journals of Gerontology Series A: Biological Sciences and Medical Sciences","1079-5006","1079-5006","1758-535X",NA,TRUE,"26248561",NA,NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/cercor/bhu323",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,TRUE,"25596591","PMC4816780",NA,NA,FALSE
 "Wellcome Trust",2015,3439.44,"10.1093/cercor/bhv027",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,TRUE,"25754518","PMC4813761",NA,NA,FALSE
-"Wellcome Trust",2015,3457.35,"10.1002/adfm.201501277",NA,"Wiley-Blackwell","Advanced Functional Materials","1616301X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Wellcome Trust",2015,3457.35,"10.1002/adfm.201501277",TRUE,"Wiley-Blackwell","Advanced Functional Materials","1616301X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "Wellcome Trust",2015,3460.72,"10.1097/AJP.0000000000000252",TRUE,"Ovid Technologies (Wolters Kluwer Health)","The Clinical Journal of Pain","0749-8047","0749-8047",NA,NA,TRUE,"25974623","PMC4551416",NA,NA,FALSE
 "Wellcome Trust",2015,3482.55,"10.1097/SHK.0000000000000235",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Shock","1073-2322","1073-2322",NA,NA,TRUE,"25046538","PMC4851220",NA,NA,FALSE
 "Wellcome Trust",2015,3490.02,"10.1080/15384101.2015.1033597",TRUE,"Informa UK Limited","Cell Cycle","1538-4101","1538-4101","1551-4005",NA,TRUE,"25928399","PMC4614551",NA,NA,FALSE
@@ -2893,7 +2893,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3884.54,"10.1038/mp.2015.46",TRUE,"Springer Nature","Molecular Psychiatry","1359-4184","1359-4184","1476-5578",NA,TRUE,"25869808","PMC4519524",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,3884.54,"10.1038/mp.2015.12",TRUE,"Springer Nature","Molecular Psychiatry","1359-4184","1359-4184","1476-5578",NA,TRUE,"25754080","PMC4759203",NA,NA,FALSE
-"Wellcome Trust",2015,3920.22,"10.1097/j.pain.0000000000000316",TRUE,"Ovid Technologies (Wolters Kluwer Health)","PAIN","0304-3959","0304-3959",NA,NA,TRUE,"26270592","PMC4764020",NA,NA,FALSE
+"Wellcome Trust",2015,3920.22,"10.1097/j.pain.0000000000000316",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Pain","0304-3959","0304-3959",NA,NA,TRUE,"26270592","PMC4764020",NA,NA,FALSE
 "Wellcome Trust",2015,3944.77,"10.1161/HYPERTENSIONAHA.115.05262",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Hypertension","0194-911X","0194-911X","1524-4563",NA,TRUE,"26077568","PMC4847935",NA,NA,FALSE
 "Wellcome Trust",2015,3959.13,"10.1016/j.copbio.2015.04.006",TRUE,"Elsevier BV","Current Opinion in Biotechnology","09581669","09581669",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25935873","PMC4728186",NA,NA,FALSE
 "Wellcome Trust",2015,4013.69,"10.1016/S1470-2045(14)71171-4",TRUE,"Elsevier BV","The Lancet Oncology","14702045","14702045",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25497694","PMC4772450",NA,NA,FALSE
@@ -2923,7 +2923,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,4531.97,"10.1038/onc.2014.378",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594",NA,TRUE,"25417700","PMC4430310",NA,NA,FALSE
 "Wellcome Trust",2015,4531.97,"10.1038/onc.2015.134",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594",NA,TRUE,"25961932","PMC4753255",NA,NA,FALSE
-"Wellcome Trust",2015,4531.97,"10.1038/gim.2015.72",NA,"Springer Nature","Genetics in Medicine","1098-3600","1098-3600","1530-0366",NA,TRUE,"26110233","PMC4823639",NA,NA,FALSE
+"Wellcome Trust",2015,4531.97,"10.1038/gim.2015.72",TRUE,"Springer Nature","Genetics in Medicine","1098-3600","1098-3600","1530-0366",NA,TRUE,"26110233","PMC4823639",NA,NA,FALSE
 "Wellcome Trust",2015,4531.97,"10.1038/gim.2014.192",TRUE,"Springer Nature","Genetics in Medicine","1098-3600","1098-3600","1530-0366",NA,TRUE,"25569441","PMC4430305",NA,NA,FALSE
 "Wellcome Trust",2015,4531.97,"10.1038/ijo.2015.124",TRUE,"Springer Nature","International Journal of Obesity","0307-0565","0307-0565","1476-5497",NA,TRUE,"26122029","PMC4722238",NA,NA,FALSE
 "Wellcome Trust",2015,4534.49,"10.1111/mec.13197",TRUE,"Wiley-Blackwell","Molecular Ecology","09621083",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25865270","PMC4447564",NA,NA,FALSE
@@ -2939,5 +2939,3 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,5166.88,"10.1200/JCO.2014.59.4945",TRUE,"American Society of Clinical Oncology (ASCO)","Journal of Clinical Oncology","0732-183X","0732-183X","1527-7755",NA,TRUE,"25964255","PMC4463475",NA,NA,FALSE
 "Wellcome Trust",2015,5209.07,"10.1001/jamaoncol.2015.2855",TRUE,"American Medical Association (AMA)","JAMA Oncology","2374-2437","2374-2437",NA,NA,TRUE,"26313462",NA,NA,NA,FALSE
 "Wellcome Trust",2015,5256.27,"10.1021/acs.bioconjchem.5b00335",TRUE,"American Chemical Society (ACS)","Bioconjugate Chemistry","1043-1802","1043-1802","1520-4812","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"26286399","PMC4759618",NA,NA,FALSE
-NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
