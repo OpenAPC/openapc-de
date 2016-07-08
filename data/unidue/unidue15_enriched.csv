@@ -1,6 +1,5 @@
 "institution",period,euro,"doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Duisburg-Essen U",2015,523,"10.1038/srep07997",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25613569","PMC4303864",NA,NA,TRUE
-"Duisburg-Essen U",2015,595,"10.1371/journal.pone.0116980",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25629939","PMC4309600",NA,NA,TRUE
 "Duisburg-Essen U",2015,865,"10.1186/s12858-015-0033-x",FALSE,"Springer Nature","BMC Biochemistry","1471-2091","1471-2091",NA,NA,TRUE,"25645591","PMC4327958",NA,NA,TRUE
 "Duisburg-Essen U",2015,573,"10.1371/journal.pone.0117814",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25689158","PMC4331557",NA,NA,TRUE
 "Duisburg-Essen U",2015,595,"10.1371/journal.pone.0119845",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25785837","PMC4364710",NA,NA,TRUE
@@ -23,7 +22,7 @@
 "Duisburg-Essen U",2015,329,"10.4236/oja.2015.52004",FALSE,"Scientific Research Publishing, Inc,","Open Journal of Acoustics","2162-5786","2162-5786","2162-5794","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Duisburg-Essen U",2015,1000,"10.1186/s13071-015-0904-4",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"26036245","PMC4476078",NA,NA,TRUE
 "Duisburg-Essen U",2015,603,"10.1371/journal.pone.0130290",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26110847","PMC4481534",NA,NA,TRUE
-
+"Duisburg-Essen U",2015,250,"10.7153/jmi-10-01",FALSE,"Element","Journal of Mathematical Inequalities","1848-9575",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
 "Duisburg-Essen U",2015,1000,"10.1186/s13071-015-1036-6",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"26263904","PMC4534018",NA,NA,TRUE
 "Duisburg-Essen U",2015,385,"10.3389/fbioe.2015.00123",FALSE,"Frontiers Media SA","Frontiers in Bioengineering and Biotechnology","2296-4185",NA,"2296-4185",NA,TRUE,"26380258","PMC4550784",NA,NA,TRUE
 "Duisburg-Essen U",2015,747,"10.3389/fpsyg.2015.01356",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26441732","PMC4561748",NA,NA,TRUE
