@@ -70,7 +70,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  25 221 602 € for  14 414 articles were paid by the participating unviversities. Average  fee is 1 749.8 € and the median 1 505 €.
+In total,  25 221 602 € for  14 414 articles were paid by the participating universities. Average  fee is 1 749.8 € and the median 1 505 €.
 
 ### Open Access Journals
 

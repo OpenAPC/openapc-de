@@ -88,7 +88,7 @@ my.apc <- read.csv("data/apc_de.csv", header = TRUE, sep =",")
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  `r format(sum(my.apc$euro), scientific=FALSE)` € for  `r nrow(my.apc)` articles were paid by the participating unviversities. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
+In total,  `r format(sum(my.apc$euro), scientific=FALSE)` € for  `r nrow(my.apc)` articles were paid by the participating universities. Average  fee is `r format(sum(my.apc$euro)/nrow(my.apc), digits = 5)` € and the median `r median(my.apc$euro)` €.
 
 ### Open Access Journals
 
