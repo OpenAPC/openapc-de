@@ -70,13 +70,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  25 268 345 € for  14 422 articles were paid by the participating universities. Average  fee is 1 752.1 € and the median 1 507 €.
+In total,  25 576 921 € for  14 684 articles were paid by the participating universities. Average  fee is 1 741.8 € and the median 1 499 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 9 719 articles in open access journals which charge publication fees. Total expenditure amounts to  13 140 259 €. Average  fee is 1 352 € and the median 1 266 €.
+At the moment, the dataset releases information on 9 981 articles in open access journals which charge publication fees. Total expenditure amounts to  13 448 834 €. Average  fee is 1 347.4 € and the median 1 260 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -117,7 +117,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Ilmenau                                  |       13|             13053|          1004|    986|
 |TU Muenchen                                 |      308|            390086|          1267|   1386|
 |Wellcome Trust                              |      772|           1457126|          1887|   1823|
-|Wuerzburg U                                 |      207|            286543|          1384|   1447|
+|Wuerzburg U                                 |      469|            595119|          1269|   1266|
 
 ### Hybrid articles
 
@@ -162,10 +162,10 @@ External sources were used to compile the dataset. This allows for disambiguated
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.45%       |
-|PubMed ID                  |  76.66%      |
-|PubMed Central ID          |  73.17%     |
-|Web of Science record ID   | 86.04%      |
+|DOI                        |  99.44%       |
+|PubMed ID                  |  76.97%      |
+|PubMed Central ID          |  73.5%     |
+|Web of Science record ID   | 84.5%      |
 
 
 
