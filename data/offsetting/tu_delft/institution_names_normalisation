@@ -1,4 +1,4 @@
-original_name,target
+"original_name","target"
 "AMC, Netherlands","Academic Medical Center (AMC)"
 "Delft University of Technology, Netherlands","Delft University of Technology"
 "Eindhoven University of Technology, Netherlands","Eindhoven University of Technology"
@@ -16,3 +16,6 @@ original_name,target
 "Radboud UMC","Radboud University Medical Center"
 "Radboudumc, Netherlands","Radboud University Medical Center"
 "Radboud University, Netherlands","Radboud University"
+"Tilburg University - Netherlands","Tilburg University"
+"UMC Utrecht","University Medical Center Utrecht"
+"UMC Utrecht, Netherlands","University Medical Center Utrecht"
