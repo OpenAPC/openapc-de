@@ -1,6 +1,6 @@
 "Institution";"DOI";"is_hybrid";"period"
 "Wageningen University, Netherlands";"10.1007/s11698-015-0128-z";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00192-015-2695-8";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00192-015-2695-8";TRUE;2015
 "Wageningen University, Netherlands";"10.1007/s12263-015-0469-z";TRUE;2015
 "Delft University of Technology";"10.1007/s00348-015-1977-8";TRUE;2015
 "VU University Amsterdam, Netherlands";"10.1007/s10964-015-0289-x";TRUE;2015
@@ -8,7 +8,7 @@
 "VU University Amsterdam, Netherlands";"10.1007/s11145-015-9568-x";TRUE;2015
 "Utrecht University, Netherlands";"10.1007/s11205-015-0987-5";TRUE;2015
 "Utrecht University, Netherlands";"10.1007/s40266-015-0270-0";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00418-015-1326-2";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00418-015-1326-2";TRUE;2015
 "Leiden University";"10.1007/s00586-015-3991-1";TRUE;2015
 "University Groningen, Netherlands";"10.1007/s00210-015-1128-z";TRUE;2015
 "University of Twente, Netherlands";"10.1007/s11249-015-0536-z";TRUE;2015
@@ -22,8 +22,8 @@
 "Utrecht University, Netherlands";"10.1007/s11242-015-0513-x";TRUE;2015
 "Utrecht University, Netherlands";"10.1007/s10993-015-9366-y";TRUE;2015
 "University Groningen, Netherlands";"10.1007/s10901-015-9446-5";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s12281-015-0224-3";TRUE;2015
-"Radboud University, Netherlands";"10.1007/s11225-015-9615-2";TRUE;2015
+"Radboud University Medical Center";"10.1007/s12281-015-0224-3";TRUE;2015
+"Radboud University";"10.1007/s11225-015-9615-2";TRUE;2015
 "Leiden University";"10.1007/s11185-015-9144-7";TRUE;2015
 "Delft University of Technology";"10.1007/s00158-015-1236-x";TRUE;2015
 "Delft University of Technology";"10.1007/s10270-015-0472-2";TRUE;2015
@@ -32,8 +32,8 @@
 "Maastricht University Medical Center (UMC+)";"10.1007/s12672-015-0224-3";TRUE;2015
 "University Groningen, Netherlands";"10.1007/s11079-015-9348-x";TRUE;2015
 "UMC Utrecht, Netherlands";"10.1007/s11926-015-0519-y";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00262-015-1707-3";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00167-015-3632-6";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00262-015-1707-3";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00167-015-3632-6";TRUE;2015
 "Leiden University";"10.1007/s00330-015-3764-6";TRUE;2015
 "Maastricht University Medical Center (UMC+)";"10.1007/s10151-015-1311-8";TRUE;2015
 "Leiden University";"10.1007/s00262-015-1716-2";TRUE;2015
@@ -42,7 +42,7 @@
 "Maastricht University";"10.1007/s00125-015-3597-5";TRUE;2015
 "Delft University of Technology";"10.1007/s40279-015-0339-2";TRUE;2015
 "Wageningen University, Netherlands";"10.1007/s00792-015-0750-5";TRUE;2015
-"Radboud University, Netherlands";"10.1007/s00420-015-1054-x";TRUE;2015
+"Radboud University";"10.1007/s00420-015-1054-x";TRUE;2015
 "Academic Medical Center (AMC)";"10.1007/s00345-015-1582-8";TRUE;2015
 "Delft University of Technology";"10.1007/s00466-015-1167-9";TRUE;2015
 "Maastricht University";"10.1007/s00199-015-0886-7";TRUE;2015
@@ -67,7 +67,7 @@
 "Leiden University";"10.1007/s00204-015-1536-3";TRUE;2015
 "Wageningen University, Netherlands";"10.1007/s11032-015-0329-y";TRUE;2015
 "Leiden University";"10.1007/s00464-015-4211-0";TRUE;2015
-"Radboud University, Netherlands";"10.1007/s11306-015-0813-8";TRUE;2015
+"Radboud University";"10.1007/s11306-015-0813-8";TRUE;2015
 "VU University Amsterdam, Netherlands";"10.1007/s10479-015-1904-7";TRUE;2015
 "University of Amsterdam, Netherlands";"10.1007/s10826-015-0174-y";TRUE;2015
 "UMC Utrecht, Netherlands";"10.1007/s00247-015-3354-4";TRUE;2015
@@ -109,7 +109,7 @@
 "Utrecht University, Netherlands";"10.1007/s11910-015-0569-6";TRUE;2015
 "Erasmus MC";"10.1007/s10459-015-9610-4";TRUE;2015
 "UMC Utrecht, Netherlands";"10.1007/s10554-015-0664-4";TRUE;2015
-"Radboud University, Netherlands";"10.1007/s10623-015-0087-1";TRUE;2015
+"Radboud University";"10.1007/s10623-015-0087-1";TRUE;2015
 "VU University Amsterdam, Netherlands";"10.1007/s00431-015-2556-y";TRUE;2015
 "Delft University of Technology";"10.1007/s10957-015-0758-0";TRUE;2015
 "Wageningen University, Netherlands";"10.1007/s10886-015-0587-5";TRUE;2015
@@ -119,7 +119,7 @@
 "Maastricht University Medical Center (UMC+)";"10.1007/s10120-015-0502-3";TRUE;2015
 "Netherlands Institute of Ecology";"10.1007/s00442-015-3346-y";TRUE;2015
 "Erasmus MC";"10.1007/s00439-015-1559-0";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00345-015-1598-0";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00345-015-1598-0";TRUE;2015
 "Leiden University";"10.1007/s00264-015-2783-x";TRUE;2015
 "UMC Utrecht, Netherlands";"10.1007/s00429-015-1033-8";TRUE;2015
 "University of Amsterdam, Netherlands";"10.1007/s13524-015-0388-z";TRUE;2015
@@ -128,17 +128,17 @@
 "University of Twente, Netherlands";"10.1007/s11027-015-9651-2";TRUE;2015
 "Academic Medical Center (AMC)";"10.1007/s00412-015-0518-9";TRUE;2015
 "Maastricht University";"10.1007/s12263-015-0465-3";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00228-015-1863-6";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00228-015-1863-6";TRUE;2015
 "UMC Utrecht, Netherlands";"10.1007/s00330-015-3791-3";TRUE;2015
 "Utrecht University, Netherlands";"10.1007/s10858-015-9942-7";TRUE;2015
 "VU University Amsterdam, Netherlands";"10.1007/s13235-015-0154-2";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00259-015-3084-8";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00259-015-3084-8";TRUE;2015
 "VU University Amsterdam, Netherlands";"10.1007/s11027-015-9654-z";TRUE;2015
 "Wageningen University, Netherlands";"10.1007/s10681-015-1467-3";TRUE;2015
 "Wageningen University, Netherlands";"10.1007/s10113-015-0799-9";TRUE;2015
 "Academic Medical Center (AMC)";"10.1007/s00414-015-1186-2";TRUE;2015
 "University of Amsterdam, Netherlands";"10.1007/s13218-015-0373-0";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00281-015-0492-6";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00281-015-0492-6";TRUE;2015
 "Erasmus MC";"10.1007/s11548-015-1218-x";TRUE;2015
 "Erasmus MC";"10.1007/s10096-015-2398-6";TRUE;2015
 "Vumc, Netherlands";"10.1007/s00125-015-3606-8";TRUE;2015
@@ -176,12 +176,12 @@
 "Wageningen University, Netherlands";"10.1007/s11051-015-3029-y";TRUE;2015
 "Leiden University";"10.1007/s00125-015-3594-8";TRUE;2015
 "UMCG, Netherlands";"10.1007/s00520-015-2764-z";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s00330-015-3824-y";TRUE;2015
-"Radboudumc, Netherlands";"10.1245/s10434-015-4562-8";TRUE;2015
+"Radboud University Medical Center";"10.1007/s00330-015-3824-y";TRUE;2015
+"Radboud University Medical Center";"10.1245/s10434-015-4562-8";TRUE;2015
 "University of Groningen, Netherlands";"10.1007/s12304-015-9241-4";TRUE;2015
 "Utrecht University, Netherlands";"10.1007/s40262-015-0273-3";TRUE;2015
 "Wageningen University, Netherlands";"10.1007/s10113-015-0815-0";TRUE;2015
-"Radboudumc, Netherlands";"10.1007/s13187-015-0845-9";TRUE;2015
+"Radboud University Medical Center";"10.1007/s13187-015-0845-9";TRUE;2015
 "UMC Utrecht, Netherlands";"10.1007/s12170-015-0462-5";TRUE;2015
 "Delft University of Technology";"10.1007/s11517-015-1312-9";TRUE;2015
 "Maastricht University";"10.1007/s00330-015-3770-8";TRUE;2015
