@@ -1,6 +1,6 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Academic Medical Center (AMC)",2015,NA,"10.1007/s00198-015-3087-0",TRUE,"Springer Nature","Osteoporosis International","0937-941X","0937-941X","1433-2965",NA,TRUE,"25910744","PMC4483183",NA,NA,FALSE
-"Maastricht UMC+, Netherlands",2015,NA,"10.1007/s00198-015-3090-5",TRUE,"Springer Nature","Osteoporosis International","0937-941X","0937-941X","1433-2965",NA,TRUE,"25906239","PMC4483244",NA,NA,FALSE
+"Maastricht University Medical Center (UMC+)",2015,NA,"10.1007/s00198-015-3090-5",TRUE,"Springer Nature","Osteoporosis International","0937-941X","0937-941X","1433-2965",NA,TRUE,"25906239","PMC4483244",NA,NA,FALSE
 "Erasmus MC",2015,NA,"10.1007/s10654-015-0026-5",TRUE,"Springer Nature","European Journal of Epidemiology","0393-2990","0393-2990","1573-7284",NA,TRUE,"25837965","PMC4457808",NA,NA,FALSE
 "Delft University of Technology",2015,NA,"10.1007/s10040-015-1245-2",TRUE,"Springer Nature","Hydrogeology Journal","1431-2174","1431-2174","1435-0157",NA,TRUE,NA,NA,NA,NA,FALSE
 "Wageningen University, Netherlands",2015,NA,"10.1007/s12263-015-0461-7",TRUE,"Springer Nature","Genes & Nutrition","1555-8932","1555-8932","1865-3499",NA,TRUE,"25861755","PMC4393378",NA,NA,TRUE
@@ -8,8 +8,8 @@
 "Leiden University",2015,NA,"10.1007/s10928-015-9413-5",TRUE,"Springer Nature","Journal of Pharmacokinetics and Pharmacodynamics","1567-567X","1567-567X","1573-8744",NA,TRUE,"25868863","PMC4432106",NA,NA,FALSE
 "VU University Amsterdam, Netherlands",2015,NA,"10.1007/s10959-015-0611-2",TRUE,"Springer Nature","Journal of Theoretical Probability","0894-9840","0894-9840","1572-9230",NA,TRUE,NA,NA,NA,NA,FALSE
 "University Groningen, Netherlands",2015,NA,"10.1007/s10711-015-0069-5",TRUE,"Springer Nature","Geometriae Dedicata","0046-5755","0046-5755","1572-9168",NA,TRUE,NA,NA,NA,NA,FALSE
-"Maastricht UMC+, Netherlands",2015,NA,"10.1007/s00277-015-2358-3",TRUE,"Springer Nature","Annals of Hematology","0939-5555","0939-5555","1432-0584",NA,TRUE,"25869027","PMC4488461",NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1007/s11906-015-0554-0",TRUE,"Springer Nature","Current Hypertension Reports","1522-6417","1522-6417","1534-3111",NA,TRUE,"25903071","PMC4408368",NA,NA,FALSE
+"Maastricht University Medical Center (UMC+)",2015,NA,"10.1007/s00277-015-2358-3",TRUE,"Springer Nature","Annals of Hematology","0939-5555","0939-5555","1432-0584",NA,TRUE,"25869027","PMC4488461",NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1007/s11906-015-0554-0",TRUE,"Springer Nature","Current Hypertension Reports","1522-6417","1522-6417","1534-3111",NA,TRUE,"25903071","PMC4408368",NA,NA,FALSE
 
 "Tilburg University - Netherlands",2015,NA,"10.1007/s10902-015-9624-x",TRUE,"Springer Nature","Journal of Happiness Studies","1389-4978","1389-4978","1573-7780","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "Eindhoven University of Technology",2015,NA,"10.1007/s11134-015-9438-x",TRUE,"Springer Nature","Queueing Systems","0257-0130","0257-0130","1572-9443",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -27,7 +27,7 @@
 "Utrecht University, Netherlands",2015,NA,"10.1007/s00382-015-2578-1",TRUE,"Springer Nature","Climate Dynamics","0930-7575","0930-7575","1432-0894",NA,TRUE,NA,NA,NA,NA,FALSE
 "Radboudumc, Netherlands",2015,NA,"10.1007/s00428-015-1762-3",TRUE,"Springer Nature","Virchows Archiv","0945-6317","0945-6317","1432-2307",NA,TRUE,"25846513","PMC4460276",NA,NA,FALSE
 "Wageningen University, Netherlands",2015,NA,"10.1007/s13165-015-0110-x",TRUE,"Springer Nature","Organic Agriculture","1879-4238","1879-4238","1879-4246","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1007/s13361-015-1146-6",TRUE,"Springer Nature","Journal of The American Society for Mass Spectrometry","1044-0305","1044-0305","1879-1123",NA,TRUE,"25916600","PMC4422856",NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1007/s13361-015-1146-6",TRUE,"Springer Nature","Journal of The American Society for Mass Spectrometry","1044-0305","1044-0305","1879-1123",NA,TRUE,"25916600","PMC4422856",NA,NA,FALSE
 "Erasmus MC",2015,NA,"10.1007/s00134-015-3789-y",TRUE,"Springer Nature","Intensive Care Medicine","0342-4642","0342-4642","1432-1238",NA,TRUE,"25894622","PMC4477720",NA,NA,FALSE
 "Radboudumc, Netherlands",2015,NA,"10.1007/s00234-015-1515-7",TRUE,"Springer Nature","Neuroradiology","0028-3940","0028-3940","1432-1920",NA,TRUE,"25845807","PMC4495265",NA,NA,FALSE
 "Eindhoven University of Technology",2015,NA,"10.1007/s11116-015-9616-z",TRUE,"Springer Nature","Transportation","0049-4488","0049-4488","1572-9435",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -37,7 +37,7 @@
 "VU University Amsterdam, Netherlands",2015,NA,"10.1007/s11120-015-0141-x",TRUE,"Springer Nature","Photosynthesis Research","0166-8595","0166-8595","1573-5079",NA,TRUE,"25893897","PMC4673099",NA,NA,FALSE
 "University Groningen, Netherlands",2015,NA,"10.1007/s10803-015-2448-z",TRUE,"Springer Nature","Journal of Autism and Developmental Disorders","0162-3257","0162-3257","1573-3432",NA,TRUE,"25911303","PMC4553147",NA,NA,FALSE
 "Utrecht University, Netherlands",2015,NA,"10.1007/s10964-015-0287-z",TRUE,"Springer Nature","Journal of Youth and Adolescence","0047-2891","0047-2891","1573-6601",NA,TRUE,"25922116",NA,NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1007/s11745-015-4020-1",TRUE,"Springer Nature","Lipids","0024-4201","0024-4201","1558-9307",NA,TRUE,"25931382","PMC4445258",NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1007/s11745-015-4020-1",TRUE,"Springer Nature","Lipids","0024-4201","0024-4201","1558-9307",NA,TRUE,"25931382","PMC4445258",NA,NA,FALSE
 "Leiden University",2015,NA,"10.1007/s00330-015-3665-8",TRUE,"Springer Nature","European Radiology","0938-7994","0938-7994","1432-1084",NA,TRUE,"25899415","PMC4529447",NA,NA,FALSE
 "University Groningen, Netherlands",2015,NA,"10.1007/s10336-015-1212-7",TRUE,"Springer Nature","Journal of Ornithology","2193-7192","2193-7192","2193-7206",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Amsterdam, Netherlands",2015,NA,"10.1007/s40429-015-0053-z",TRUE,"Springer Nature","Current Addiction Reports","2196-2952",NA,"2196-2952",NA,TRUE,"25960940","PMC4412508",NA,NA,FALSE
@@ -62,7 +62,7 @@
 "VU University Amsterdam, Netherlands",2015,NA,"10.3758/s13414-015-0860-2",TRUE,"Springer Nature","Attention, Perception, & Psychophysics","1943-3921","1943-3921","1943-393X",NA,TRUE,"25832185","PMC4468981",NA,NA,FALSE
 "Utrecht University, Netherlands",2015,NA,"10.1007/s00408-015-9721-y",TRUE,"Springer Nature","Lung","0341-2040","0341-2040","1432-1750",NA,TRUE,"25833078","PMC4432079",NA,NA,FALSE
 "Eindhoven University of Technology",2015,NA,"10.1007/s10623-015-0067-5",TRUE,"Springer Nature","Designs, Codes and Cryptography","0925-1022","0925-1022","1573-7586",NA,TRUE,NA,NA,NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1007/s10508-015-0525-1",TRUE,"Springer Nature","Archives of Sexual Behavior","0004-0002","0004-0002","1573-2800",NA,TRUE,"25925898","PMC4706577",NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1007/s10508-015-0525-1",TRUE,"Springer Nature","Archives of Sexual Behavior","0004-0002","0004-0002","1573-2800",NA,TRUE,"25925898","PMC4706577",NA,NA,FALSE
 "Erasmus University",2015,NA,"10.1007/s40258-015-0167-4",TRUE,"Springer Nature","Applied Health Economics and Health Policy","1175-5652","1175-5652","1179-1896",NA,TRUE,"25917685","PMC4740566",NA,NA,FALSE
 "UMC Utrecht, Netherlands",2015,NA,"10.1007/s00259-015-3048-z",TRUE,"Springer Nature","European Journal of Nuclear Medicine and Molecular Imaging","1619-7070","1619-7070","1619-7089",NA,TRUE,"25916740","PMC4480819",NA,NA,FALSE
 "Radboudumc, Netherlands",2015,NA,"10.1007/s00264-015-2722-x",TRUE,"Springer Nature","International Orthopaedics","0341-2695","0341-2695","1432-5195",NA,TRUE,"25864087",NA,NA,NA,FALSE
@@ -72,7 +72,7 @@
 "Eindhoven University of Technology",2015,NA,"10.1007/s00453-015-0001-2",TRUE,"Springer Nature","Algorithmica","0178-4617","0178-4617","1432-0541",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Amsterdam, Netherlands",2015,NA,"10.1007/s10992-015-9345-y",TRUE,"Springer Nature","Journal of Philosophical Logic","0022-3611","0022-3611","1573-0433",NA,TRUE,NA,NA,NA,NA,FALSE
 "UMCG, Netherlands",2015,NA,"10.1007/s11307-015-0832-x",TRUE,"Springer Nature","Molecular Imaging and Biology","1536-1632","1536-1632","1860-2002",NA,TRUE,"25860122","PMC4641156",NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1007/s10198-015-0688-7",TRUE,"Springer Nature","The European Journal of Health Economics","1618-7598","1618-7598","1618-7601","http://creativecommons.org/licenses/by/4.0",TRUE,"25842252","PMC4837211",NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1007/s10198-015-0688-7",TRUE,"Springer Nature","The European Journal of Health Economics","1618-7598","1618-7598","1618-7601","http://creativecommons.org/licenses/by/4.0",TRUE,"25842252","PMC4837211",NA,NA,FALSE
 "University Groningen, Netherlands",2015,NA,"10.1007/s10751-015-1161-9",TRUE,"Springer Nature","Hyperfine Interactions","0304-3843","0304-3843","1572-9540",NA,TRUE,NA,NA,NA,NA,FALSE
 "Utrecht University, Netherlands",2015,NA,"10.1007/s00223-015-9993-5",TRUE,"Springer Nature","Calcified Tissue International","0171-967X","0171-967X","1432-0827",NA,TRUE,"25894068","PMC4491344",NA,NA,FALSE
 "Vumc, Netherlands",2015,NA,"10.1007/s00330-015-3696-1",TRUE,"Springer Nature","European Radiology","0938-7994","0938-7994","1432-1084",NA,TRUE,"25899416","PMC4562004",NA,NA,FALSE
@@ -83,18 +83,18 @@
 "Wageningen University, Netherlands",2015,NA,"10.1007/s11569-015-0222-5",TRUE,"Springer Nature","NanoEthics","1871-4757","1871-4757","1871-4765",NA,TRUE,"26300995","PMC4536280",NA,NA,FALSE
 "Wageningen University, Netherlands",2015,NA,"10.1007/s11947-015-1513-0",TRUE,"Springer Nature","Food and Bioprocess Technology","1935-5130","1935-5130","1935-5149",NA,TRUE,NA,NA,NA,NA,FALSE
 "Radboudumc, Netherlands",2015,NA,"10.1007/s00134-015-3777-2",TRUE,"Springer Nature","Intensive Care Medicine","0342-4642","0342-4642","1432-1238",NA,TRUE,"25894620","PMC4477716",NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1007/s10578-015-0547-x",TRUE,"Springer Nature","Child Psychiatry & Human Development","0009-398X","0009-398X","1573-3327",NA,TRUE,"25842046","PMC4712224",NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1007/s10578-015-0547-x",TRUE,"Springer Nature","Child Psychiatry & Human Development","0009-398X","0009-398X","1573-3327",NA,TRUE,"25842046","PMC4712224",NA,NA,FALSE
 "Erasmus University",2015,NA,"10.1007/s10797-015-9354-3",TRUE,"Springer Nature","International Tax and Public Finance","0927-5940","0927-5940","1573-6970",NA,TRUE,NA,NA,NA,NA,FALSE
 "Open University of The Netherlands, Netherlands",2015,NA,"10.1007/s10639-015-9388-2",TRUE,"Springer Nature","Education and Information Technologies","1360-2357","1360-2357","1573-7608",NA,TRUE,NA,NA,NA,NA,FALSE
 "Tilburg University - Netherlands",2015,NA,"10.1007/s10583-015-9253-3",TRUE,"Springer Nature","Children's Literature in Education","0045-6713","0045-6713","1573-1693",NA,TRUE,NA,NA,NA,NA,FALSE
 "University Groningen, Netherlands",2015,NA,"10.1007/s12076-015-0141-7",TRUE,"Springer Nature","Letters in Spatial and Resource Sciences","1864-4031","1864-4031","1864-404X",NA,TRUE,NA,NA,NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1245/s10434-015-4558-4",TRUE,"Springer Nature","Annals of Surgical Oncology","1068-9265","1068-9265","1534-4681",NA,TRUE,"25893413","PMC4644199",NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1245/s10434-015-4558-4",TRUE,"Springer Nature","Annals of Surgical Oncology","1068-9265","1068-9265","1534-4681",NA,TRUE,"25893413","PMC4644199",NA,NA,FALSE
 "Leiden University",2015,NA,"10.1007/s11186-015-9247-6",TRUE,"Springer Nature","Theory and Society","0304-2421","0304-2421","1573-7853",NA,TRUE,NA,NA,NA,NA,FALSE
 "VU University Amsterdam, Netherlands",2015,NA,"10.1007/s00168-015-0672-2",TRUE,"Springer Nature","The Annals of Regional Science","0570-1864","0570-1864","1432-0592",NA,TRUE,NA,NA,NA,NA,FALSE
 "Radboudumc, Netherlands",2015,NA,"10.1007/s00428-015-1771-2",TRUE,"Springer Nature","Virchows Archiv","0945-6317","0945-6317","1432-2307",NA,TRUE,"25894432","PMC4491101",NA,NA,FALSE
 "VU University Amsterdam, Netherlands",2015,NA,"10.1007/s00784-015-1451-2",TRUE,"Springer Nature","Clinical Oral Investigations","1432-6981","1432-6981","1436-3771",NA,TRUE,"25855466","PMC4656704",NA,NA,FALSE
 "Academic Medical Center (AMC)",2015,NA,"10.1007/s00402-015-2219-5",TRUE,"Springer Nature","Archives of Orthopaedic and Trauma Surgery","0936-8051","0936-8051","1434-3916",NA,TRUE,"25913906","PMC4513207",NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1007/s00355-015-0891-6",TRUE,"Springer Nature","Social Choice and Welfare","0176-1714","0176-1714","1432-217X",NA,TRUE,NA,NA,NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1007/s00355-015-0891-6",TRUE,"Springer Nature","Social Choice and Welfare","0176-1714","0176-1714","1432-217X",NA,TRUE,NA,NA,NA,NA,FALSE
 "Academic Medical Center (AMC)",2015,NA,"10.1007/s00330-015-3648-9",TRUE,"Springer Nature","European Radiology","0938-7994","0938-7994","1432-1084",NA,TRUE,"25903701","PMC4495262",NA,NA,FALSE
 "Erasmus MC",2015,NA,"10.1007/s10802-015-9993-y",TRUE,"Springer Nature","Journal of Abnormal Child Psychology","0091-0627","0091-0627","1573-2835",NA,TRUE,"25832625","PMC4729812",NA,NA,FALSE
 "Eindhoven University of Technology",2015,NA,"10.1007/s10796-015-9554-5",TRUE,"Springer Nature","Information Systems Frontiers","1387-3326","1387-3326","1572-9419","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
@@ -106,8 +106,8 @@
 "Leiden University",2015,NA,"10.1007/s00418-015-1319-1",TRUE,"Springer Nature","Histochemistry and Cell Biology","0948-6143","0948-6143","1432-119X",NA,TRUE,"25850409","PMC4468792",NA,NA,FALSE
 "University of Twente, Netherlands",2015,NA,"10.1007/s11548-015-1176-3",TRUE,"Springer Nature","International Journal of Computer Assisted Radiology and Surgery","1861-6410","1861-6410","1861-6429",NA,TRUE,"25843947","PMC4617842",NA,NA,FALSE
 "University of Amsterdam, Netherlands",2015,NA,"10.1007/s10803-015-2441-6",TRUE,"Springer Nature","Journal of Autism and Developmental Disorders","0162-3257","0162-3257","1573-3432",NA,TRUE,"25847757","PMC4553146",NA,NA,FALSE
-"Maastricht UMC+, Netherlands",2015,NA,"10.1007/s00262-015-1694-4",TRUE,"Springer Nature","Cancer Immunology, Immunotherapy","0340-7004","0340-7004","1432-0851",NA,TRUE,"25920521","PMC4506464",NA,NA,FALSE
-"Maastricht University, Netherlands",2015,NA,"10.1007/s00127-015-1049-7",TRUE,"Springer Nature","Social Psychiatry and Psychiatric Epidemiology","0933-7954","0933-7954","1433-9285",NA,TRUE,"25895686","PMC4589545",NA,NA,FALSE
+"Maastricht University Medical Center (UMC+)",2015,NA,"10.1007/s00262-015-1694-4",TRUE,"Springer Nature","Cancer Immunology, Immunotherapy","0340-7004","0340-7004","1432-0851",NA,TRUE,"25920521","PMC4506464",NA,NA,FALSE
+"Maastricht University",2015,NA,"10.1007/s00127-015-1049-7",TRUE,"Springer Nature","Social Psychiatry and Psychiatric Epidemiology","0933-7954","0933-7954","1433-9285",NA,TRUE,"25895686","PMC4589545",NA,NA,FALSE
 "University Groningen, Netherlands",2015,NA,"10.1007/s00253-015-6531-3",TRUE,"Springer Nature","Applied Microbiology and Biotechnology","0175-7598","0175-7598","1432-0614",NA,TRUE,"25851715","PMC4480331",NA,NA,FALSE
 "Wageningen University, Netherlands",2015,NA,"10.1007/s10113-015-0788-z",TRUE,"Springer Nature","Regional Environmental Change","1436-3798","1436-3798","1436-378X",NA,TRUE,NA,NA,NA,NA,FALSE
 "Radboud University, Netherlands",2015,NA,"10.1007/s11024-015-9270-9",TRUE,"Springer Nature","Minerva","0026-4695","0026-4695","1573-1871",NA,TRUE,"26097259","PMC4468800",NA,NA,FALSE
