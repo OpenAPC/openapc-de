@@ -39,9 +39,9 @@
 "Maastricht University",2016,NA,"10.1007/s13347-016-0215-5",TRUE,"Springer Nature","Philosophy & Technology","2210-5433","2210-5433","2210-5441","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "University Medical Center Utrecht",2016,NA,"10.1007/s40521-016-0080-6",TRUE,"Springer Nature","Current Treatment Options in Allergy","2196-3053",NA,"2196-3053","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "Academic Medical Center (AMC)",2016,NA,"10.1007/s10897-016-9948-7",TRUE,"Springer Nature","Journal of Genetic Counseling","1059-7700","1059-7700","1573-3599","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
-"University Medical Center Rotterdam (Erasmus MC)",2016,NA,"10.1007/s11136-016-1277-7",TRUE,"Springer Nature","Quality of Life Research","0962-9343","0962-9343","1573-2649",NA,TRUE,NA,NA,NA,NA,FALSE
-"University Medical Center Rotterdam (Erasmus MC)",2016,NA,"10.1007/s00134-016-4337-0",TRUE,"Springer Nature","Intensive Care Medicine","0342-4642","0342-4642","1432-1238",NA,TRUE,NA,NA,NA,NA,FALSE
-"University Medical Center Rotterdam (Erasmus MC)",2016,NA,"10.1007/s00431-016-2715-9",TRUE,"Springer Nature","European Journal of Pediatrics","0340-6199","0340-6199","1432-1076","http://creativecommons.org/licenses/by/4.0",TRUE,"27041121","PMC4839044",NA,NA,FALSE
+"Erasmus MC",2016,NA,"10.1007/s11136-016-1277-7",TRUE,"Springer Nature","Quality of Life Research","0962-9343","0962-9343","1573-2649",NA,TRUE,NA,NA,NA,NA,FALSE
+"Erasmus MC",2016,NA,"10.1007/s00134-016-4337-0",TRUE,"Springer Nature","Intensive Care Medicine","0342-4642","0342-4642","1432-1238",NA,TRUE,NA,NA,NA,NA,FALSE
+"Erasmus MC",2016,NA,"10.1007/s00431-016-2715-9",TRUE,"Springer Nature","European Journal of Pediatrics","0340-6199","0340-6199","1432-1076","http://creativecommons.org/licenses/by/4.0",TRUE,"27041121","PMC4839044",NA,NA,FALSE
 "University of Groningen",2016,NA,"10.1007/s00253-016-7476-x",TRUE,"Springer Nature","Applied Microbiology and Biotechnology","0175-7598","0175-7598","1432-0614",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Amsterdam",2016,NA,"10.1007/s11147-016-9122-2",TRUE,"Springer Nature","Review of Derivatives Research","1380-6645","1380-6645","1573-7144",NA,TRUE,NA,NA,NA,NA,FALSE
 "VU University Amsterdam",2016,NA,"10.1007/s00601-016-1090-4",TRUE,"Springer Nature","Few-Body Systems","0177-7963","0177-7963","1432-5411","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
@@ -77,7 +77,7 @@
 "Maastricht University Medical Center (UMC+)",2016,NA,"10.1007/s00384-016-2576-8",TRUE,"Springer Nature","International Journal of Colorectal Disease","0179-1958","0179-1958","1432-1262","http://creativecommons.org/licenses/by/4.0",TRUE,"27055660","PMC4867151",NA,NA,FALSE
 "Maastricht University",2016,NA,"10.1007/s13235-016-0186-2",TRUE,"Springer Nature","Dynamic Games and Applications","2153-0785","2153-0785","2153-0793",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Twente",2016,NA,"10.1007/s10608-016-9774-0",TRUE,"Springer Nature","Cognitive Therapy and Research","0147-5916","0147-5916","1573-2819",NA,TRUE,NA,NA,NA,NA,FALSE
-"University Medical Center Rotterdam (Erasmus MC)",2016,NA,"10.1007/s00134-016-4344-1",TRUE,"Springer Nature","Intensive Care Medicine","0342-4642","0342-4642","1432-1238","http://creativecommons.org/licenses/by-nc/4.0",TRUE,"27084344","PMC4846705",NA,NA,FALSE
+"Erasmus MC",2016,NA,"10.1007/s00134-016-4344-1",TRUE,"Springer Nature","Intensive Care Medicine","0342-4642","0342-4642","1432-1238","http://creativecommons.org/licenses/by-nc/4.0",TRUE,"27084344","PMC4846705",NA,NA,FALSE
 "Radboud University Medical Center",2016,NA,"10.1007/s11255-016-1283-2",TRUE,"Springer Nature","International Urology and Nephrology","0301-1623","0301-1623","1573-2584","http://creativecommons.org/licenses/by/4.0",TRUE,"27068817","PMC4917583",NA,NA,FALSE
 "VU University Amsterdam",2016,NA,"10.1007/s10433-016-0370-7",TRUE,"Springer Nature","European Journal of Ageing","1613-9372","1613-9372","1613-9380",NA,TRUE,NA,NA,NA,NA,FALSE
 "University Medical Center Groningen (UMCG)",2016,NA,"10.1007/s12350-016-0482-7",TRUE,"Springer Nature","Journal of Nuclear Cardiology","1071-3581","1071-3581","1532-6551",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -106,7 +106,7 @@
 "Radboud University Medical Center",2016,NA,"10.1007/s00428-016-1935-8",TRUE,"Springer Nature","Virchows Archiv","0945-6317","0945-6317","1432-2307","http://creativecommons.org/licenses/by/4.0",TRUE,"27097810","PMC4887530",NA,NA,FALSE
 "Wageningen University",2016,NA,"10.1007/s11273-016-9489-8",TRUE,"Springer Nature","Wetlands Ecology and Management","0923-4861","0923-4861","1572-9834",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Groningen",2016,NA,"10.1007/s10851-016-0649-5",TRUE,"Springer Nature","Journal of Mathematical Imaging and Vision","0924-9907","0924-9907","1573-7683","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
-"University Medical Center Rotterdam (Erasmus MC)",2016,NA,"10.1007/s00394-016-1210-4",TRUE,"Springer Nature","European Journal of Nutrition","1436-6207","1436-6207","1436-6215","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
+"Erasmus MC",2016,NA,"10.1007/s00394-016-1210-4",TRUE,"Springer Nature","European Journal of Nutrition","1436-6207","1436-6207","1436-6215","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "VU University Amsterdam",2016,NA,"10.1007/s10677-016-9722-9",TRUE,"Springer Nature","Ethical Theory and Moral Practice","1386-2820","1386-2820","1572-8447","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "Leiden University",2016,NA,"10.1007/s10578-016-0642-7",TRUE,"Springer Nature","Child Psychiatry & Human Development","0009-398X","0009-398X","1573-3327","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "University of Amsterdam",2016,NA,"10.1007/s10452-016-9577-0",TRUE,"Springer Nature","Aquatic Ecology","1386-2588","1386-2588","1573-5125",NA,TRUE,NA,NA,NA,NA,FALSE
