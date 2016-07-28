@@ -1,5 +1,5 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"Leiden University, Netherlands",2015,NA,"10.1007/s11095-015-1760-9",TRUE,"Springer Nature","Pharmaceutical Research","0724-8741","0724-8741","1573-904X",NA,TRUE,"26553352","PMC4689776",NA,NA,FALSE
+"Leiden University",2015,NA,"10.1007/s11095-015-1760-9",TRUE,"Springer Nature","Pharmaceutical Research","0724-8741","0724-8741","1573-904X",NA,TRUE,"26553352","PMC4689776",NA,NA,FALSE
 "Leiden University",2015,NA,"10.3758/s13428-015-0677-x",TRUE,"Springer Nature","Behavior Research Methods","1554-3528",NA,"1554-3528",NA,TRUE,NA,NA,NA,NA,FALSE
 "Radboud UMC",2015,NA,"10.1007/s13629-015-0105-0",TRUE,"Springer Nature","Tijdschrift voor Urologie","2211-3037","2211-3037","2211-4718",NA,TRUE,NA,NA,NA,NA,FALSE
 "Erasmus MC",2015,NA,"10.1007/s13629-015-0108-x",TRUE,"Springer Nature","Tijdschrift voor Urologie","2211-3037","2211-3037","2211-4718",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -42,7 +42,7 @@
 "Wageningen UR (University & Research Centre)",2015,NA,"10.1007/s10661-015-4943-2",TRUE,"Springer Nature","Environmental Monitoring and Assessment","0167-6369","0167-6369","1573-2959",NA,TRUE,"26547322","PMC4636989",NA,NA,FALSE
 "University of Groningen",2015,NA,"10.1245/s10434-015-4939-8",TRUE,"Springer Nature","Annals of Surgical Oncology","1068-9265","1068-9265","1534-4681","http://creativecommons.org/licenses/by/4.0",TRUE,"26553441","PMC4858551",NA,NA,FALSE
 "Delft University of Technology",2015,NA,"10.1007/s11664-015-4120-y",TRUE,"Springer Nature","Journal of Electronic Materials","0361-5235","0361-5235","1543-186X",NA,TRUE,NA,NA,NA,NA,FALSE
-"LUMC Leiden, Netherlands",2015,NA,"10.1007/s00420-015-1090-6",TRUE,"Springer Nature","International Archives of Occupational and Environmental Health","0340-0131","0340-0131","1432-1246",NA,TRUE,"26563718","PMC4786597",NA,NA,FALSE
+"Leiden University Medical Center (LUMC)",2015,NA,"10.1007/s00420-015-1090-6",TRUE,"Springer Nature","International Archives of Occupational and Environmental Health","0340-0131","0340-0131","1432-1246",NA,TRUE,"26563718","PMC4786597",NA,NA,FALSE
 "Utrecht University",2015,NA,"10.1007/s40259-015-0149-y",TRUE,"Springer Nature","BioDrugs","1173-8804","1173-8804","1179-190X",NA,TRUE,"26621793","PMC4684580",NA,NA,FALSE
 "Radboud UMC",2015,NA,"10.1007/s12308-015-0262-3",TRUE,"Springer Nature","Journal of Hematopathology","1868-9256","1868-9256","1865-5785",NA,TRUE,NA,NA,NA,NA,FALSE
 "Erasmus University",2015,NA,"10.1007/s10198-015-0745-2",TRUE,"Springer Nature","The European Journal of Health Economics","1618-7598","1618-7598","1618-7601",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -127,7 +127,7 @@
 "Radboud UMC",2015,NA,"10.1007/s10488-015-0699-9",TRUE,"Springer Nature","Administration and Policy in Mental Health and Mental Health Services Research","0894-587X","0894-587X","1573-3289",NA,TRUE,NA,NA,NA,NA,FALSE
 "University Groningen, Netherlands",2015,NA,"10.1007/s10680-015-9351-3",TRUE,"Springer Nature","European Journal of Population","0168-6577","0168-6577","1572-9885",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Amsterdam, Netherlands",2015,NA,"10.1007/s11406-015-9645-z",TRUE,"Springer Nature","Philosophia","0048-3893","0048-3893","1574-9274",NA,TRUE,NA,NA,NA,NA,FALSE
-"LUMC Leiden, Netherlands",2015,NA,"10.1007/s10719-015-9626-2",TRUE,"Springer Nature","Glycoconjugate Journal","0282-0080","0282-0080","1573-4986","http://creativecommons.org/licenses/by/4.0",TRUE,"26555091","PMC4891372",NA,NA,FALSE
+"Leiden University Medical Center (LUMC)",2015,NA,"10.1007/s10719-015-9626-2",TRUE,"Springer Nature","Glycoconjugate Journal","0282-0080","0282-0080","1573-4986","http://creativecommons.org/licenses/by/4.0",TRUE,"26555091","PMC4891372",NA,NA,FALSE
 "VU University Amsterdam",2015,NA,"10.1007/s10519-015-9764-0",TRUE,"Springer Nature","Behavior Genetics","0001-8244","0001-8244","1573-3297",NA,TRUE,"26552795","PMC4751180",NA,NA,FALSE
 "Eindhoven University of Technology",2015,NA,"10.1007/s10955-015-1391-x",TRUE,"Springer Nature","Journal of Statistical Physics","0022-4715","0022-4715","1572-9613",NA,TRUE,NA,NA,NA,NA,FALSE
 "Academic Medical Center (AMC)",2015,NA,"10.1007/s00330-015-4081-9",TRUE,"Springer Nature","European Radiology","0938-7994","0938-7994","1432-1084","http://creativecommons.org/licenses/by-nc/4.0",TRUE,"26560732","PMC4927597",NA,NA,FALSE
