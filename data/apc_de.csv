@@ -14379,37 +14379,887 @@
 "Wellcome Trust",2015,5166.88,"10.1200/JCO.2014.59.4945",TRUE,"American Society of Clinical Oncology (ASCO)","Journal of Clinical Oncology","0732-183X","0732-183X","1527-7755",NA,TRUE,"25964255","PMC4463475","ut:000361652800013",NA,FALSE
 "Wellcome Trust",2015,5209.07,"10.1001/jamaoncol.2015.2855",TRUE,"American Medical Association (AMA)","JAMA Oncology","2374-2437","2374-2437",NA,NA,TRUE,"26313462",NA,NA,NA,FALSE
 "Wellcome Trust",2015,5256.27,"10.1021/acs.bioconjchem.5b00335",TRUE,"American Chemical Society (ACS)","Bioconjugate Chemistry","1043-1802","1043-1802","1520-4812","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"26286399","PMC4759618","ut:000370582600006",NA,FALSE
-"Duisburg-Essen U",2015,523,"10.1038/srep07997",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25613569","PMC4303864","ut:000348287500018",NA,TRUE
-"Duisburg-Essen U",2015,865,"10.1186/s12858-015-0033-x",FALSE,"Springer Nature","BMC Biochemistry","1471-2091","1471-2091",NA,NA,TRUE,"25645591","PMC4327958","ut:000349923800001",NA,TRUE
-"Duisburg-Essen U",2015,573,"10.1371/journal.pone.0117814",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25689158","PMC4331557","ut:000350322700074",NA,TRUE
-"Duisburg-Essen U",2015,595,"10.1371/journal.pone.0119845",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25785837","PMC4364710","ut:000352138500133",NA,TRUE
-"Duisburg-Essen U",2015,643,"10.1088/1367-2630/17/3/033036",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000352903000001",NA,TRUE
-"Duisburg-Essen U",2015,355,"10.1186/s13660-015-0623-6",FALSE,"Springer Nature","Journal of Inequalities and Applications","1029-242X",NA,"1029-242X",NA,TRUE,NA,NA,"ut:000357408800002",NA,TRUE
-"Duisburg-Essen U",2015,603,"10.1371/journal.pone.0122329",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25793614","PMC4368671","ut:000352083900177",NA,TRUE
-"Duisburg-Essen U",2015,603,"10.1371/journal.pone.0120531",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25781619","PMC4364009","ut:000351284600171",NA,TRUE
-"Duisburg-Essen U",2015,910,"10.1155/2015/318306",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"25918710","PMC4396138","ut:000352888600001",NA,TRUE
-"Duisburg-Essen U",2015,997,"10.1186/s13063-015-0627-z",FALSE,"Springer Nature","Trials","1745-6215",NA,"1745-6215",NA,TRUE,"25873097","PMC4392781","ut:000352588400001",NA,TRUE
-"Duisburg-Essen U",2015,188,"10.1080/21663831.2015.1036324 ",FALSE,"Informa UK Limited","Materials Research Letters","2166-3831",NA,"2166-3831",NA,TRUE,NA,NA,NA,NA,FALSE
-"Duisburg-Essen U",2015,583,"10.1038/srep09917",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25923312","PMC4413948","ut:000353622900001",NA,TRUE
-"Duisburg-Essen U",2015,505,"10.1177/2047981615570417",FALSE,"SAGE Publications","Acta Radiologica Open","2058-4601","2058-4601","2058-4601",NA,TRUE,"25922690","PMC4406923","ut:000366015900003",NA,TRUE
-"Duisburg-Essen U",2015,639,"10.1371/journal.pone.0123838",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25853899","PMC4390237","ut:000352478400120",NA,TRUE
-"Duisburg-Essen U",2015,480,"10.3389/fmicb.2015.00395",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"25999929","PMC4419727","ut:000355109500001",NA,TRUE
-"Duisburg-Essen U",2015,618,"10.1371/journal.pone.0125658",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25942393","PMC4420481","ut:000353943400049",NA,TRUE
-"Duisburg-Essen U",2015,583,"10.1038/srep10501",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25994622","PMC4440206","ut:000355508500001",NA,TRUE
-"Duisburg-Essen U",2015,1000,"10.1038/oncsis.2015.9",FALSE,"Springer Nature","Oncogenesis","2157-9024",NA,"2157-9024",NA,TRUE,"25985209","PMC4450264","ut:000355332600002",NA,TRUE
-"Duisburg-Essen U",2015,919,"10.1155/2015/151503",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"26106600","PMC4461728","ut:000355803900001",NA,TRUE
-"Duisburg-Essen U",2015,1309,"10.1007/s11084-015-9411-z",TRUE,"Springer Nature","Origins of Life and Evolution of Biospheres","0169-6149","0169-6149","1573-0875",NA,TRUE,"25716918","PMC4457167","ut:000355820100015",NA,FALSE
-"Duisburg-Essen U",2015,329,"10.4236/oja.2015.52004",FALSE,"Scientific Research Publishing, Inc,","Open Journal of Acoustics","2162-5786","2162-5786","2162-5794","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Duisburg-Essen U",2015,1000,"10.1186/s13071-015-0904-4",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"26036245","PMC4476078","ut:000356666500001",NA,TRUE
-"Duisburg-Essen U",2015,603,"10.1371/journal.pone.0130290",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26110847","PMC4481534","ut:000356933800040",NA,TRUE
-"Duisburg-Essen U",2015,250,"10.7153/jmi-10-01",FALSE,"Element","Journal of Mathematical Inequalities","1848-9575",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
-"Duisburg-Essen U",2015,1000,"10.1186/s13071-015-1036-6",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"26263904","PMC4534018","ut:000359350000001",NA,TRUE
-"Duisburg-Essen U",2015,385,"10.3389/fbioe.2015.00123",FALSE,"Frontiers Media SA","Frontiers in Bioengineering and Biotechnology","2296-4185",NA,"2296-4185",NA,TRUE,"26380258","PMC4550784",NA,NA,TRUE
-"Duisburg-Essen U",2015,747,"10.3389/fpsyg.2015.01356",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26441732","PMC4561748",NA,NA,TRUE
-"Duisburg-Essen U",2015,707,"10.1371/journal.pone.0140296",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26465593","PMC4605699","ut:000363183100101",NA,TRUE
-"Duisburg-Essen U",2015,760,"10.3389/fpsyg.2015.01607",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26579003","PMC4630541","ut:000364478100001",NA,TRUE
-"Duisburg-Essen U",2015,450,"10.4236/ce.2015.619210",FALSE,"Scientific Research Publishing, Inc,","Creative Education","2151-4755","2151-4755","2151-4771","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Duisburg-Essen U",2015,332,"10.4236/psych.2015.614187",FALSE,"Scientific Research Publishing, Inc,","Psychology","2152-7180","2152-7180","2152-7199","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Duisburg-Essen U",2015,450,"10.4236/ce.2015.619213",FALSE,"Scientific Research Publishing, Inc,","Creative Education","2151-4755","2151-4755","2151-4771","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Duisburg-Essen U",2015,590,"10.1371/journal.pone.0141590",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26523925","PMC4629888","ut:000364029800014",NA,TRUE
-"Duisburg-Essen U",2015,565,"10.4172/2155-9589.1000138",FALSE,"OMICS Publishing Group","Journal of Membrane Science & Technology","21559589",NA,"21559589",NA,TRUE,NA,NA,NA,NA,FALSE
+"Duisburg-Essen U",2015,1046,"10.1038/srep07997",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25613569","PMC4303864","ut:000348287500018",NA,TRUE
+"Duisburg-Essen U",2015,1730,"10.1186/s12858-015-0033-x",FALSE,"Springer Nature","BMC Biochemistry","1471-2091","1471-2091",NA,NA,TRUE,"25645591","PMC4327958","ut:000349923800001",NA,TRUE
+"Duisburg-Essen U",2015,1146,"10.1371/journal.pone.0117814",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25689158","PMC4331557","ut:000350322700074",NA,TRUE
+"Duisburg-Essen U",2015,1191,"10.1371/journal.pone.0119845",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25785837","PMC4364710","ut:000352138500133",NA,TRUE
+"Duisburg-Essen U",2015,1285,"10.1088/1367-2630/17/3/033036",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,"ut:000352903000001",NA,TRUE
+"Duisburg-Essen U",2015,710,"10.1186/s13660-015-0623-6",FALSE,"Springer Nature","Journal of Inequalities and Applications","1029-242X",NA,"1029-242X",NA,TRUE,NA,NA,"ut:000357408800002",NA,TRUE
+"Duisburg-Essen U",2015,1206,"10.1371/journal.pone.0122329",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25793614","PMC4368671","ut:000352083900177",NA,TRUE
+"Duisburg-Essen U",2015,1206,"10.1371/journal.pone.0120531",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25781619","PMC4364009","ut:000351284600171",NA,TRUE
+"Duisburg-Essen U",2015,1821,"10.1155/2015/318306",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"25918710","PMC4396138","ut:000352888600001",NA,TRUE
+"Duisburg-Essen U",2015,1994,"10.1186/s13063-015-0627-z",FALSE,"Springer Nature","Trials","1745-6215",NA,"1745-6215",NA,TRUE,"25873097","PMC4392781","ut:000352588400001",NA,TRUE
+"Duisburg-Essen U",2015,375,"10.1080/21663831.2015.1036324 ",FALSE,"Informa UK Limited","Materials Research Letters","2166-3831",NA,"2166-3831",NA,TRUE,NA,NA,NA,NA,FALSE
+"Duisburg-Essen U",2015,1165,"10.1038/srep09917",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25923312","PMC4413948","ut:000353622900001",NA,TRUE
+"Duisburg-Essen U",2015,1009,"10.1177/2047981615570417",FALSE,"SAGE Publications","Acta Radiologica Open","2058-4601","2058-4601","2058-4601",NA,TRUE,"25922690","PMC4406923","ut:000366015900003",NA,TRUE
+"Duisburg-Essen U",2015,1278,"10.1371/journal.pone.0123838",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25853899","PMC4390237","ut:000352478400120",NA,TRUE
+"Duisburg-Essen U",2015,960,"10.3389/fmicb.2015.00395",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"25999929","PMC4419727","ut:000355109500001",NA,TRUE
+"Duisburg-Essen U",2015,1236,"10.1371/journal.pone.0125658",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25942393","PMC4420481","ut:000353943400049",NA,TRUE
+"Duisburg-Essen U",2015,1165,"10.1038/srep10501",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"25994622","PMC4440206","ut:000355508500001",NA,TRUE
+"Duisburg-Essen U",2015,2800,"10.1038/oncsis.2015.9",FALSE,"Springer Nature","Oncogenesis","2157-9024",NA,"2157-9024",NA,TRUE,"25985209","PMC4450264","ut:000355332600002",NA,TRUE
+"Duisburg-Essen U",2015,1839,"10.1155/2015/151503",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"26106600","PMC4461728","ut:000355803900001",NA,TRUE
+"Duisburg-Essen U",2015,2618,"10.1007/s11084-015-9411-z",TRUE,"Springer Nature","Origins of Life and Evolution of Biospheres","0169-6149","0169-6149","1573-0875",NA,TRUE,"25716918","PMC4457167","ut:000355820100015",NA,FALSE
+"Duisburg-Essen U",2015,658,"10.4236/oja.2015.52004",FALSE,"Scientific Research Publishing, Inc,","Open Journal of Acoustics","2162-5786","2162-5786","2162-5794","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Duisburg-Essen U",2015,1999,"10.1186/s13071-015-0904-4",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"26036245","PMC4476078","ut:000356666500001",NA,TRUE
+"Duisburg-Essen U",2015,1205,"10.1371/journal.pone.0130290",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26110847","PMC4481534","ut:000356933800040",NA,TRUE
+"Duisburg-Essen U",2015,500,"10.7153/jmi-10-01",FALSE,"Element","Journal of Mathematical Inequalities","1848-9575",NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+"Duisburg-Essen U",2015,1999,"10.1186/s13071-015-1036-6",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"26263904","PMC4534018","ut:000359350000001",NA,TRUE
+"Duisburg-Essen U",2015,770,"10.3389/fbioe.2015.00123",FALSE,"Frontiers Media SA","Frontiers in Bioengineering and Biotechnology","2296-4185",NA,"2296-4185",NA,TRUE,"26380258","PMC4550784",NA,NA,TRUE
+"Duisburg-Essen U",2015,1494,"10.3389/fpsyg.2015.01356",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26441732","PMC4561748",NA,NA,TRUE
+"Duisburg-Essen U",2015,1415,"10.1371/journal.pone.0140296",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26465593","PMC4605699","ut:000363183100101",NA,TRUE
+"Duisburg-Essen U",2015,1520,"10.3389/fpsyg.2015.01607",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26579003","PMC4630541","ut:000364478100001",NA,TRUE
+"Duisburg-Essen U",2015,915,"10.4236/ce.2015.619210",FALSE,"Scientific Research Publishing, Inc,","Creative Education","2151-4755","2151-4755","2151-4771","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Duisburg-Essen U",2015,663,"10.4236/psych.2015.614187",FALSE,"Scientific Research Publishing, Inc,","Psychology","2152-7180","2152-7180","2152-7199","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Duisburg-Essen U",2015,915,"10.4236/ce.2015.619213",FALSE,"Scientific Research Publishing, Inc,","Creative Education","2151-4755","2151-4755","2151-4771","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Duisburg-Essen U",2015,1180,"10.1371/journal.pone.0141590",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26523925","PMC4629888","ut:000364029800014",NA,TRUE
+"Duisburg-Essen U",2015,1131,"10.4172/2155-9589.1000138",FALSE,"OMICS Publishing Group","Journal of Membrane Science & Technology","21559589",NA,"21559589",NA,TRUE,NA,NA,NA,NA,FALSE
+"INM - Leibniz-Institut für Neue Materialien",2015,1477.17,"10.1126/sciadv.1500165",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548",NA,TRUE,"26601217","PMC4646781",NA,NA,TRUE
+"INM - Leibniz-Institut für Neue Materialien",2015,2073.73,"10.1021/acsami.5b07287",TRUE,"American Chemical Society (ACS)","ACS Applied Materials & Interfaces","1944-8244","1944-8244","1944-8252","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"26457864","PMC4642880",NA,NA,FALSE
+"INM - Leibniz-Institut für Neue Materialien",2015,3213.14,"10.1016/j.actamat.2015.10.016",TRUE,"Elsevier BV","Acta Materialia","13596454","13596454",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"INM - Leibniz-Institut für Neue Materialien",2015,3508.16,"10.1016/j.jmps.2014.11.004",TRUE,"Elsevier BV","Journal of the Mechanics and Physics of Solids","00225096","00225096",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"INM - Leibniz-Institut für Neue Materialien",2015,3571.43,"10.1002/adfm.201500437",TRUE,"Wiley-Blackwell","Advanced Functional Materials","1616301X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26120295","PMC4478996",NA,NA,FALSE
+"INM - Leibniz-Institut für Neue Materialien",2015,3608.48,"10.1002/adfm.201500241",TRUE,"Wiley-Blackwell","Advanced Functional Materials","1616301X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26366145","PMC4553704",NA,NA,FALSE
+"INM - Leibniz-Institut für Neue Materialien",2015,3861,"10.3791/53186",TRUE,"MyJove Corporation","Journal of Visualized Experiments","1940-087X",NA,"1940-087X",NA,TRUE,"26383083","PMC4692600",NA,NA,FALSE
+"INM - Leibniz-Institut für Neue Materialien",2015,2945.38,"10.1016/j.ijsolstr.2016.02.018",TRUE,"Elsevier BV","International Journal of Solids and Structures","00207683","00207683",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"Wuerzburg U",2011,1982.6,"10.1371/journal.ppat.1001290",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"21379338","PMC3040670",NA,NA,TRUE
+"Wuerzburg U",2011,416.5,"10.1155/2011/751593",FALSE,"Hindawi Publishing Corporation","Arthritis","2090-1984","2090-1984","2090-1992","http://creativecommons.org/licenses/by/3.0/",TRUE,"22046524","PMC3199937",NA,NA,TRUE
+"Wuerzburg U",2011,1128.39,"10.1371/journal.pone.0021741",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21750728","PMC3131289",NA,NA,TRUE
+"Wuerzburg U",2011,1018.71,"10.1371/journal.pone.0022911",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21826217","PMC3149625",NA,NA,TRUE
+"Wuerzburg U",2011,175.53,"10.5539/ach.v3n1p14",FALSE,"Canadian Center of Science and Education","Asian Culture and History","1916-9663","1916-9655","1916-9663",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wuerzburg U",2011,1090.04,"10.1186/1753-2000-5-5",FALSE,"Springer Science + Business Media","Child and Adolescent Psychiatry and Mental Health","1753-2000","1753-2000",NA,NA,TRUE,"21356037","PMC3058082",NA,NA,TRUE
+"Wuerzburg U",2011,1275.68,"10.1186/1471-2431-11-31",FALSE,"Springer Science + Business Media","BMC Pediatrics","1471-2431",NA,"1471-2431","http://www.springer.com/tdm",TRUE,"21569228","PMC3115870",NA,NA,TRUE
+"Wuerzburg U",2011,1309,"10.1186/1471-2407-11-68",FALSE,"Springer Science + Business Media","BMC Cancer","1471-2407",NA,"1471-2407","http://www.springer.com/tdm",TRUE,"21320309","PMC3044654",NA,NA,TRUE
+"Wuerzburg U",2011,1150.79,"10.1371/journal.pone.0018441",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21541312","PMC3082526",NA,NA,TRUE
+"Wuerzburg U",2011,1685.04,"10.1186/gb-2011-12-3-r24",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"21418624","PMC3129674",NA,NA,FALSE
+"Wuerzburg U",2011,1432.76,"10.1186/1744-8069-7-21",FALSE,"SAGE Publications","Molecular Pain","1744-8069","1744-8069",NA,NA,TRUE,"21447193","PMC3073884",NA,NA,TRUE
+"Wuerzburg U",2011,1280.44,"10.1186/1471-244X-11-103",FALSE,"Springer Science + Business Media","BMC Psychiatry","1471-244X",NA,"1471-244X","http://www.springer.com/tdm",TRUE,"21702894","PMC3143918",NA,NA,TRUE
+"Wuerzburg U",2011,1489.07,"10.1364/OE.19.007020",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"21503016",NA,NA,NA,FALSE
+"Wuerzburg U",2011,0,"10.3390/v3020102",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915",NA,TRUE,"22049305","PMC3206598",NA,NA,TRUE
+"Wuerzburg U",2011,1428,"10.1155/2011/971502",FALSE,"Hindawi Publishing Corporation","Mediators of Inflammation","0962-9351","0962-9351","1466-1861","http://creativecommons.org/licenses/by/3.0/",TRUE,"21437210","PMC3061215",NA,NA,TRUE
+"Wuerzburg U",2011,1209.04,"10.1186/1743-7075-8-54",FALSE,"Springer Science + Business Media","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"21794124","PMC3157418",NA,NA,TRUE
+"Wuerzburg U",2011,1142.4,"10.1186/1710-1492-7-7",FALSE,"Springer Science + Business Media","Allergy, Asthma & Clinical Immunology","1710-1492","1710-1492",NA,NA,TRUE,"21507228","PMC3104479",NA,NA,TRUE
+"Wuerzburg U",2011,1137.1,"10.1371/journal.pone.0017296",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21390246","PMC3046968",NA,NA,TRUE
+"Wuerzburg U",2011,1299.48,"10.1186/1471-2180-11-163",FALSE,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,"21745384","PMC3142209",NA,NA,TRUE
+"Wuerzburg U",2011,773.5,"10.1155/2011/545104",FALSE,"Hindawi Publishing Corporation","Sarcoma","1357-714X","1357-714X","1369-1643","http://creativecommons.org/licenses/by/3.0/",TRUE,"21559264","PMC3087941",NA,NA,TRUE
+"Wuerzburg U",2011,1191.06,"10.1371/journal.pone.0017040",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21347228","PMC3039648",NA,NA,TRUE
+"Wuerzburg U",2011,1151.92,"10.1186/1756-9966-30-23",FALSE,"Springer Science + Business Media","Journal of Experimental & Clinical Cancer Research","1756-9966","1756-9966",NA,NA,TRUE,"21345220","PMC3058063",NA,NA,TRUE
+"Wuerzburg U",2011,1156.25,"10.1371/journal.pone.0017667",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21408014","PMC3052370",NA,NA,TRUE
+"Wuerzburg U",2011,1332.8,"10.1186/1471-2377-11-141",FALSE,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","http://www.springer.com/tdm",TRUE,"22054256","PMC3235964",NA,NA,TRUE
+"Wuerzburg U",2011,264.19,"10.4236/psych.2011.23042",FALSE,"Scientific Research Publishing, Inc,","Psychology","2152-7180","2152-7180","2152-7199","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Wuerzburg U",2011,1128.12,"10.1186/2040-7378-3-3",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"21457546","PMC3080328",NA,NA,TRUE
+"Wuerzburg U",2011,1128.24,"10.1371/journal.pone.0016016",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21264256","PMC3021540",NA,NA,TRUE
+"Wuerzburg U",2011,1108.62,"10.1371/journal.pone.0017271",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21408149","PMC3050840",NA,NA,TRUE
+"Wuerzburg U",2011,793.38,"10.12659/MSM.881974",FALSE,"International Scientific Literature","Medical Science Monitor","1234-1010","1234-1010",NA,NA,TRUE,NA,NA,NA,NA,FALSE
+"Wuerzburg U",2011,427.11,"10.4161/cib.4.2.15369",FALSE,"Informa UK Limited","Communicative & Integrative Biology","1942-0889",NA,NA,"https://creativecommons.org/licenses/by-nc/3.0/deed.en_GB",FALSE,"21966565","PMC3181515",NA,NA,TRUE
+"Wuerzburg U",2011,1704.08,"10.1186/gb-2011-12-10-r98",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"21989159","PMC3333780",NA,NA,FALSE
+"Wuerzburg U",2011,1018.71,"10.1371/journal.pone.0022528",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21799887","PMC3142178",NA,NA,TRUE
+"Wuerzburg U",2011,1270.92,"10.1186/1471-2377-11-104",FALSE,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","http://www.springer.com/tdm",TRUE,"21861889","PMC3180265",NA,NA,TRUE
+"Wuerzburg U",2011,990.85,"10.1371/journal.pone.0019669",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21602920","PMC3094336",NA,NA,TRUE
+"Wuerzburg U",2011,1005.95,"10.1371/journal.pone.0021282",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21829597","PMC3148213",NA,NA,TRUE
+"Wuerzburg U",2011,1048.45,"10.1371/journal.pone.0019502",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21611171","PMC3097189",NA,NA,TRUE
+"Wuerzburg U",2011,1266.16,"10.1186/1471-2334-11-233",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"21880125","PMC3175218",NA,NA,TRUE
+"Wuerzburg U",2011,1809.37,"10.1371/journal.pgen.1002088",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"21637789","PMC3102746",NA,NA,TRUE
+"Wuerzburg U",2011,1309,"10.1186/1476-4598-10-136",FALSE,"Springer Science + Business Media","Molecular Cancer","1476-4598","1476-4598",NA,NA,TRUE,"22067876","PMC3239322",NA,NA,TRUE
+"Wuerzburg U",2011,1256.64,"10.1186/1752-0509-5-178",FALSE,"Springer Science + Business Media","BMC Systems Biology","1752-0509","1752-0509",NA,NA,TRUE,"22034949","PMC3247139",NA,NA,TRUE
+"Wuerzburg U",2011,1120.92,"10.1371/journal.pone.0021383",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21731724","PMC3121771",NA,NA,TRUE
+"Wuerzburg U",2011,1445.85,"10.1093/nar/gkr396",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"21596776","PMC3167630",NA,NA,TRUE
+"Wuerzburg U",2011,1223.32,"10.1186/1742-9994-8-20",FALSE,"Springer Science + Business Media","Frontiers in Zoology","1742-9994","1742-9994",NA,NA,TRUE,"21859477","PMC3177866",NA,NA,TRUE
+"Wuerzburg U",2011,166.06,"10.3968/j.ccc.1923670020110702.004",FALSE,"Canadian Academy of Oriental and Occidental Culture","Cross-Cultural Communication","1712-8358","1712-8358","1923-6700","https://creativecommons.org/licenses/by/4.0/",FALSE,NA,NA,NA,NA,FALSE
+"Wuerzburg U",2011,1047.2,"10.1186/2191-219X-1-8",FALSE,"Springer Science + Business Media","EJNMMI Research","2191-219X","2191-219X",NA,NA,TRUE,"21841971","PMC3155201",NA,NA,TRUE
+"Wuerzburg U",2011,1156.09,"10.1371/journal.pone.0022096",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21760960","PMC3132323",NA,NA,TRUE
+"Wuerzburg U",2011,1109.08,"10.1186/1748-717X-6-170",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"22152490","PMC3377925",NA,NA,TRUE
+"Wuerzburg U",2011,0,"10.1186/1749-799X-6-24",FALSE,"Springer Science + Business Media","Journal of Orthopaedic Surgery and Research","1749-799X","1749-799X",NA,NA,TRUE,"21600042","PMC3115902",NA,NA,TRUE
+"Wuerzburg U",2011,1018.71,"10.1371/journal.pone.0023091",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21886779","PMC3158766",NA,NA,TRUE
+"Wuerzburg U",2011,1130.38,"10.1371/journal.pone.0023445",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21858119","PMC3152577",NA,NA,TRUE
+"Wuerzburg U",2011,1902.07,"10.1371/journal.pntd.0001516",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"22363826","PMC3283565",NA,NA,TRUE
+"Wuerzburg U",2011,1304.24,"10.1186/1477-7819-9-171",FALSE,"Springer Science + Business Media","World Journal of Surgical Oncology","1477-7819","1477-7819",NA,NA,TRUE,"22188796","PMC3280941",NA,NA,TRUE
+"Wuerzburg U",2011,1318.52,"10.1186/1479-5876-9-172",FALSE,"Springer Science + Business Media","Journal of Translational Medicine","1479-5876","1479-5876",NA,NA,TRUE,"21989091","PMC3207905",NA,NA,TRUE
+"Wuerzburg U",2011,1190,"10.1186/1743-7075-8-75",FALSE,"Springer Science + Business Media","Nutrition & Metabolism","1743-7075","1743-7075",NA,NA,TRUE,"22029671","PMC3267662",NA,NA,TRUE
+"Wuerzburg U",2011,1280.44,"10.1186/1471-2474-12-245",FALSE,"Springer Science + Business Media","BMC Musculoskeletal Disorders","1471-2474",NA,"1471-2474","http://www.springer.com/tdm",TRUE,"22034969","PMC3234198",NA,NA,TRUE
+"Wuerzburg U",2011,271.71,"10.3390/toxins3010043",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"22069689","PMC3210454",NA,NA,TRUE
+"Wuerzburg U",2011,1128.12,"10.1186/1746-1596-6-94",FALSE,"Springer Science + Business Media","Diagnostic Pathology","1746-1596","1746-1596",NA,NA,TRUE,"21961558","PMC3216896",NA,NA,TRUE
+"Wuerzburg U",2011,1123.36,"10.1186/1748-717X-6-172",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"22172095","PMC3286433",NA,NA,TRUE
+"Wuerzburg U",2011,1086.21,"10.1371/journal.pone.0025623",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21980509","PMC3181345",NA,NA,TRUE
+"Wuerzburg U",2011,1289.96,"10.1186/1471-2202-12-116",FALSE,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,NA,TRUE,"22085464","PMC3225309",NA,NA,TRUE
+"Wuerzburg U",2011,1082.39,"10.1371/journal.pone.0028546",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22163033","PMC3230627",NA,NA,TRUE
+"Wuerzburg U",2011,1285.2,"10.1186/1472-6750-11-118",FALSE,"Springer Science + Business Media","BMC Biotechnology","1472-6750","1472-6750",NA,NA,TRUE,"22129198","PMC3247844",NA,NA,TRUE
+"Wuerzburg U",2011,974.61,"10.5194/tcd-5-3383-2011",FALSE,"Copernicus GmbH","The Cryosphere Discussions","1994-0440",NA,"1994-0440",NA,TRUE,NA,NA,NA,NA,TRUE
+"Wuerzburg U",2011,583.1,"10.3389/fpls.2011.00068",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664462X",NA,"1664462X",NA,TRUE,"22645547","PMC3355788",NA,NA,FALSE
+"Wuerzburg U",2011,1266.16,"10.1186/1471-2350-12-151",FALSE,"Springer Science + Business Media","BMC Medical Genetics","1471-2350",NA,"1471-2350","http://www.springer.com/tdm",TRUE,"22107728","PMC3266204",NA,NA,TRUE
+"Wuerzburg U",2011,1075.87,"10.1371/journal.pone.0028174",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22194811","PMC3241620",NA,NA,TRUE
+"Wuerzburg U",2011,1077.78,"10.1371/journal.pone.0028396",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22162768","PMC3230585",NA,NA,TRUE
+"Wuerzburg U",2011,1267.35,"10.1093/nar/gkr1156",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"22180532","PMC3333887",NA,NA,TRUE
+"Wuerzburg U",2011,890.86,"10.1155/2012/612707",FALSE,"Hindawi Publishing Corporation","Advances in Urology","1687-6369","1687-6369","1687-6377","http://creativecommons.org/licenses/by/3.0/",TRUE,"22400018","PMC3286887",NA,NA,TRUE
+"Wuerzburg U",2011,1082.39,"10.1371/journal.pone.0028205",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22164245","PMC3229527",NA,NA,TRUE
+"Wuerzburg U",2011,952.04,"10.1371/journal.pone.0022049",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"21811558","PMC3139610",NA,NA,TRUE
+"Wuerzburg U",2011,1083.77,"10.1371/journal.pone.0028143",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22194810","PMC3240623",NA,NA,TRUE
+"Wuerzburg U",2011,1083.69,"10.1371/journal.pone.0029352",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"22206011","PMC3244249",NA,NA,TRUE
+"Wuerzburg U",2011,1103.37,"10.1371/journal.pone.0029959",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22242193","PMC3252365",NA,NA,TRUE
+"Wuerzburg U",2011,188.16,NA,FALSE,"Science and Engineering Publ. Co.","Computing Science and Technology International Journal","2162-0687",NA,NA,NA,FALSE,NA,NA,NA,"http://researchpub.org/journal/cstij/number/vol1-no2/vol1-no2-3.pdf",FALSE
+"Wuerzburg U",2011,860.46,"10.1016/j.ijpddr.2011.12.001",FALSE,"Elsevier BV","International Journal for Parasitology: Drugs and Drug Resistance","22113207","22113207",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24533266","PMC3862440",NA,NA,FALSE
+"Wuerzburg U",2012,1866.03,"10.1364/OE.20.011838",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"22714171",NA,NA,NA,FALSE
+"Wuerzburg U",2012,1142.42,"10.1371/journal.pone.0040387",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22952573","PMC3431399",NA,NA,TRUE
+"Wuerzburg U",2012,971.04,"10.1186/1532-429X-14-31",FALSE,"Springer Science + Business Media","Journal of Cardiovascular Magnetic Resonance","1532-429X","1532-429X",NA,NA,TRUE,"22607376","PMC3409035",NA,NA,TRUE
+"Wuerzburg U",2012,1270.02,"10.1186/1471-2288-12-11",FALSE,"Springer Science + Business Media","BMC Medical Research Methodology","1471-2288",NA,"1471-2288","http://www.springer.com/tdm",TRUE,"22309508","PMC3311602",NA,NA,TRUE
+"Wuerzburg U",2012,1256.64,"10.1186/1471-2288-12-43",FALSE,"Springer Science + Business Media","BMC Medical Research Methodology","1471-2288",NA,"1471-2288","http://www.springer.com/tdm",TRUE,"22471343","PMC3359253",NA,NA,TRUE
+"Wuerzburg U",2012,583.1,"10.3389/fcimb.2012.00014",FALSE,"Frontiers Media SA","Frontiers in Cellular and Infection Microbiology","2235-2988",NA,"2235-2988",NA,TRUE,"22919606","PMC3417511",NA,NA,TRUE
+"Wuerzburg U",2012,1266.16,"10.1186/1471-2334-12-14",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"22264238","PMC3282641",NA,NA,TRUE
+"Wuerzburg U",2012,1128.12,"10.1186/1758-5996-4-7",FALSE,"Springer Science + Business Media","Diabetology & Metabolic Syndrome","1758-5996","1758-5996",NA,NA,TRUE,"22390349","PMC3309977",NA,NA,TRUE
+"Wuerzburg U",2012,1332.8,"10.1186/1479-5876-10-3",FALSE,"Springer Science + Business Media","Journal of Translational Medicine","1479-5876","1479-5876",NA,NA,TRUE,"22216938","PMC3398296",NA,NA,TRUE
+"Wuerzburg U",2012,1294.72,"10.1186/1471-2229-12-125",FALSE,"Springer Science + Business Media","BMC Plant Biology","1471-2229","1471-2229",NA,NA,TRUE,"22852874","PMC3438128",NA,NA,TRUE
+"Wuerzburg U",2012,1280.44,"10.1186/1472-6882-12-61",FALSE,"Springer Science + Business Media","BMC Complementary and Alternative Medicine","1472-6882",NA,"1472-6882","http://www.springer.com/tdm",TRUE,"22551313","PMC3404974",NA,NA,TRUE
+"Wuerzburg U",2012,1332.8,"10.1002/ece3.221",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"22837825","PMC3399199",NA,NA,FALSE
+"Wuerzburg U",2012,1585.08,"10.1186/1465-9921-13-13",FALSE,"Springer Science + Business Media","Respiratory Research","1465-9921","1465-9921",NA,NA,TRUE,"22309369","PMC3299632",NA,NA,TRUE
+"Wuerzburg U",2012,729.72,"10.2174/1874312901206010050",FALSE,"Bentham Science Publishers Ltd.","The Open Rheumatology Journal","18743129","18743129",NA,NA,TRUE,"22670165","PMC3367302",NA,NA,FALSE
+"Wuerzburg U",2012,1309,"10.1186/1479-5876-10-9",FALSE,"Springer Science + Business Media","Journal of Translational Medicine","1479-5876","1479-5876",NA,NA,TRUE,"22236378","PMC3268093",NA,NA,TRUE
+"Wuerzburg U",2012,661.64,"10.1186/1756-0500-5-264",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500","1756-0500",NA,NA,TRUE,"22658129","PMC3427529",NA,NA,TRUE
+"Wuerzburg U",2012,1309,"10.1186/1752-0509-6-72",FALSE,"Springer Science + Business Media","BMC Systems Biology","1752-0509","1752-0509",NA,NA,TRUE,"22713133","PMC3534414",NA,NA,TRUE
+"Wuerzburg U",2012,547.92,"10.1155/2012/586413",FALSE,"Hindawi Publishing Corporation","Advances in High Energy Physics","1687-7357","1687-7357","1687-7365","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Wuerzburg U",2012,1109.89,"10.1371/journal.pone.0032402",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22403652","PMC3293799",NA,NA,TRUE
+"Wuerzburg U",2012,1865.65,"10.1242/dmm.008730",FALSE,"The Company of Biologists","Disease Models & Mechanisms","1754-8403","1754-8403","1754-8411",NA,TRUE,"22422827","PMC3380712",NA,NA,TRUE
+"Wuerzburg U",2012,1294.72,"10.1186/1749-8090-7-115",FALSE,"Springer Science + Business Media","Journal of Cardiothoracic Surgery","1749-8090",NA,"1749-8090","http://www.springer.com/tdm",TRUE,"23130553","PMC3504518",NA,NA,TRUE
+"Wuerzburg U",2012,1102.61,"10.1371/journal.pone.0034880",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22545092","PMC3335827",NA,NA,TRUE
+"Wuerzburg U",2012,1841.89,"10.1371/journal.pgen.1002728",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"22615585","PMC3355086",NA,NA,TRUE
+"Wuerzburg U",2012,1163.57,"10.1371/journal.pone.0039613",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22768099","PMC3387252",NA,NA,TRUE
+"Wuerzburg U",2012,1223.32,"10.1186/2040-7378-4-1",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"22300472","PMC3305492",NA,NA,TRUE
+"Wuerzburg U",2012,1247.12,"10.1186/1742-4690-9-41",FALSE,"Springer Science + Business Media","Retrovirology","1742-4690","1742-4690",NA,NA,TRUE,"22574974","PMC3407527",NA,NA,TRUE
+"Wuerzburg U",2012,1223.32,"10.1186/2040-7378-4-2",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"22360825","PMC3299621",NA,NA,TRUE
+"Wuerzburg U",2012,137.18,"10.1107/S1600536812004424",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368",NA,TRUE,"22412544","PMC3295433",NA,NA,TRUE
+"Wuerzburg U",2012,135.74,"10.1107/S1600536812010677",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368",NA,TRUE,"22589946","PMC3344037",NA,NA,TRUE
+"Wuerzburg U",2012,1223.32,"10.1186/2040-7378-4-6",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"22480252","PMC3359191",NA,NA,TRUE
+"Wuerzburg U",2012,1399.44,"10.1186/ar3921",FALSE,"Springer Science + Business Media","Arthritis Research & Therapy","1478-6354","1478-6354",NA,NA,TRUE,"22817660","PMC3580562",NA,NA,TRUE
+"Wuerzburg U",2012,1251.88,"10.1186/1746-4811-8-28",FALSE,"Springer Science + Business Media","Plant Methods","1746-4811","1746-4811",NA,NA,TRUE,"22867517","PMC3544639",NA,NA,TRUE
+"Wuerzburg U",2012,1110.48,"10.1371/journal.pone.0049451",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23185334","PMC3502502",NA,NA,TRUE
+"Wuerzburg U",2012,1228.08,"10.1186/1546-0096-10-20",FALSE,"Springer Science + Business Media","Pediatric Rheumatology","1546-0096","1546-0096",NA,NA,TRUE,"22849717","PMC3508844",NA,NA,TRUE
+"Wuerzburg U",2012,916.3,"10.3389/fimmu.2012.00123",FALSE,"Frontiers Media SA","Frontiers in Immunology","16643224",NA,"16643224",NA,TRUE,"22629255","PMC3355325",NA,NA,FALSE
+"Wuerzburg U",2012,1223.32,"10.1186/1748-717X-7-99",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"22720902","PMC3439242",NA,NA,TRUE
+"Wuerzburg U",2012,794.92,"10.1186/1756-0500-5-304",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500","1756-0500",NA,NA,TRUE,"22713762","PMC3438061",NA,NA,TRUE
+"Wuerzburg U",2012,1223.32,"10.1186/1748-717X-7-63",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"22531060","PMC3441228",NA,NA,TRUE
+"Wuerzburg U",2012,1841.6,"10.1364/OE.20.014632",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"22714525",NA,NA,NA,FALSE
+"Wuerzburg U",2012,1242.36,"10.1186/1748-717X-7-81",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"22682767","PMC3484063",NA,NA,TRUE
+"Wuerzburg U",2012,1242.36,"10.1186/1748-717X-7-103",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"22726938","PMC3432005",NA,NA,TRUE
+"Wuerzburg U",2012,1632.68,"10.2147/NSS.S33127",FALSE,"Dove Medical Press Ltd.","Nature and Science of Sleep","1179-1608",NA,"1179-1608","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"23620683","PMC3630976",NA,NA,TRUE
+"Wuerzburg U",2012,1904,"10.3389/fnins.2012.00072",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-4548",NA,"1662-4548",NA,TRUE,"22833713","PMC3400942",NA,NA,TRUE
+"Wuerzburg U",2012,1328.04,"10.1186/1478-811X-10-16",FALSE,"Springer Science + Business Media","Cell Communication and Signaling","1478-811X","1478-811X",NA,NA,TRUE,"22764736","PMC3464794",NA,NA,TRUE
+"Wuerzburg U",2012,1156.68,"10.1186/2040-7378-4-8",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"22551223","PMC3398845",NA,NA,TRUE
+"Wuerzburg U",2012,1120.63,"10.1371/journal.pone.0036523",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22590556","PMC3349712",NA,NA,TRUE
+"Wuerzburg U",2012,1904,"10.3389/fnhum.2012.00214",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"22855675","PMC3405279",NA,NA,TRUE
+"Wuerzburg U",2012,1119.94,"10.1371/journal.pone.0037651",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22662185","PMC3360757",NA,NA,TRUE
+"Wuerzburg U",2012,1119.94,"10.1371/journal.pone.0037880",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22693581","PMC3365055",NA,NA,TRUE
+"Wuerzburg U",2012,1451.8,"10.1186/1471-2407-12-530",FALSE,"Springer Science + Business Media","BMC Cancer","1471-2407",NA,"1471-2407","http://www.springer.com/tdm",TRUE,"23164174","PMC3522547",NA,NA,TRUE
+"Wuerzburg U",2012,1162.91,"10.1371/journal.pone.0038651",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22719915","PMC3374837",NA,NA,TRUE
+"Wuerzburg U",2012,1133.2,"10.1371/journal.pone.0050043",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23209640","PMC3507893",NA,NA,TRUE
+"Wuerzburg U",2012,1904,"10.3389/fneng.2012.00014",FALSE,"Frontiers Media SA","Frontiers in Neuroengineering","1662-6443",NA,"1662-6443",NA,TRUE,"22822397","PMC3398470",NA,NA,TRUE
+"Wuerzburg U",2012,1904,"10.3389/fpsyt.2012.00076",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640",NA,TRUE,"22969731","PMC3432511",NA,NA,TRUE
+"Wuerzburg U",2012,1185.8,"10.1371/journal.pone.0043036",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"22912782","PMC3415428",NA,NA,TRUE
+"Wuerzburg U",2012,1116.05,"10.1371/journal.pone.0052208",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23284936","PMC3527399",NA,NA,TRUE
+"Wuerzburg U",2012,1587.72,"10.3390/md10061192",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397",NA,TRUE,"22822366","PMC3397433",NA,NA,TRUE
+"Wuerzburg U",2012,1108.19,"10.1371/journal.pone.0050080",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23226238","PMC3511437",NA,NA,TRUE
+"Wuerzburg U",2012,1904,"10.3389/fpsyg.2012.00269",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"22870071","PMC3409449",NA,NA,TRUE
+"Wuerzburg U",2012,1285.2,"10.1186/2040-7378-4-23",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"23194464","PMC3552945",NA,NA,TRUE
+"Wuerzburg U",2012,916.3,"10.3389/fpsyg.2012.00446",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23112787","PMC3481005",NA,NA,TRUE
+"Wuerzburg U",2012,1123.69,"10.1371/journal.pone.0047427",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23077614","PMC3471814",NA,NA,TRUE
+"Wuerzburg U",2012,1142.4,"10.3389/fpsyg.2012.00393",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23060848","PMC3465983",NA,NA,TRUE
+"Wuerzburg U",2012,1047.2,"10.1186/2191-219X-2-52",FALSE,"Springer Science + Business Media","EJNMMI Research","2191-219X","2191-219X",NA,NA,TRUE,"23016793","PMC3475087",NA,NA,TRUE
+"Wuerzburg U",2012,1504.16,"10.1186/1471-230X-12-179",FALSE,"Springer Science + Business Media","BMC Gastroenterology","1471-230X",NA,"1471-230X","http://www.springer.com/tdm",TRUE,"23245375","PMC3547783",NA,NA,TRUE
+"Wuerzburg U",2012,1140.26,"10.1371/journal.pone.0050695",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23383294","PMC3562341",NA,NA,TRUE
+"Wuerzburg U",2012,1131.17,"10.1371/journal.pone.0051575",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23272120","PMC3522739",NA,NA,TRUE
+"Wuerzburg U",2012,474.02,"10.1155/2012/231206",FALSE,"Hindawi Publishing Corporation","Radiology Research and Practice","2090-1941","2090-1941","2090-195X","http://creativecommons.org/licenses/by/3.0/",TRUE,"23050146","PMC3462401",NA,NA,TRUE
+"Wuerzburg U",2012,1151.88,"10.1371/journal.pone.0045430",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23029004","PMC3447888",NA,NA,TRUE
+"Wuerzburg U",2012,1121.94,"10.1371/journal.pone.0046397",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23029508","PMC3459899",NA,NA,TRUE
+"Wuerzburg U",2012,1261.76,"10.3390/md10102208",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397",NA,TRUE,"23170078","PMC3497017",NA,NA,TRUE
+"Wuerzburg U",2012,1119.08,"10.1371/journal.pone.0046964",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23056543","PMC3466187",NA,NA,TRUE
+"Wuerzburg U",2012,1404.2,"10.1186/1471-2377-12-92",FALSE,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","http://www.springer.com/tdm",TRUE,"22974055","PMC3488470",NA,NA,TRUE
+"Wuerzburg U",2012,788.41,"10.3390/v4091830",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915",NA,TRUE,"23170185","PMC3499832",NA,NA,TRUE
+"Wuerzburg U",2012,1142.4,"10.3389/fpsyg.2012.00471",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23130011","PMC3487423",NA,NA,TRUE
+"Wuerzburg U",2012,1267.35,"10.1093/nar/gks1030",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"23143100","PMC3592429",NA,NA,TRUE
+"Wuerzburg U",2012,1632.68,"10.2147/OPTH.S38591",FALSE,"Dove Medical Press Ltd.","Clinical Ophthalmology","1177-5483",NA,"1177-5483","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"23226000","PMC3514060",NA,NA,TRUE
+"Wuerzburg U",2012,1142.4,"10.3389/fpsyg.2012.00494",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23162524","PMC3495337",NA,NA,TRUE
+"Wuerzburg U",2012,1116.05,"10.1371/journal.pone.0052398",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23300660","PMC3530556",NA,NA,TRUE
+"Wuerzburg U",2012,1447.04,"10.1186/1472-6750-12-90",FALSE,"Springer Science + Business Media","BMC Biotechnology","1472-6750","1472-6750",NA,NA,TRUE,"23181472","PMC3576278",NA,NA,TRUE
+"Wuerzburg U",2012,1285.2,"10.1186/2040-7378-4-22",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"23174128","PMC3522059",NA,NA,TRUE
+"Wuerzburg U",2012,1116.05,"10.1371/journal.pone.0052648",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23285130","PMC3527584",NA,NA,TRUE
+"Wuerzburg U",2012,1122.65,"10.1371/journal.pone.0053513",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23457444","PMC3573031",NA,NA,TRUE
+"Wuerzburg U",2012,1115.46,"10.1371/journal.pone.0053667",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23341969","PMC3547051",NA,NA,TRUE
+"Wuerzburg U",2013,1085.32,"10.1371/journal.pone.0055242",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23383316","PMC3562323",NA,NA,TRUE
+"Wuerzburg U",2013,1470.84,"10.1186/1471-2334-13-266",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"23738890","PMC3679722",NA,NA,TRUE
+"Wuerzburg U",2013,1461.32,"10.1186/1471-2105-14-218",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105","1471-2105",NA,NA,TRUE,"23837681","PMC3720290",NA,NA,TRUE
+"Wuerzburg U",2013,704.48,"10.1186/1752-1947-7-75",FALSE,"Springer Science + Business Media","Journal of Medical Case Reports","1752-1947",NA,"1752-1947","http://www.springer.com/tdm",TRUE,"23506237","PMC3607977",NA,NA,TRUE
+"Wuerzburg U",2013,1142.4,"10.3389/fpsyg.2013.00162",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23616774","PMC3629984",NA,NA,TRUE
+"Wuerzburg U",2013,1466.08,"10.1186/1471-2415-13-1",FALSE,"Springer Science + Business Media","BMC Ophthalmology","1471-2415",NA,"1471-2415","http://www.springer.com/tdm",TRUE,"23360243","PMC3564772",NA,NA,TRUE
+"Wuerzburg U",2013,1389.92,"10.1186/1745-6673-8-4",FALSE,"Springer Science + Business Media","Journal of Occupational Medicine and Toxicology","1745-6673","1745-6673",NA,NA,TRUE,"23510399","PMC3599363",NA,NA,TRUE
+"Wuerzburg U",2013,1489.88,"10.1186/1471-2318-13-38",FALSE,"Springer Science + Business Media","BMC Geriatrics","1471-2318",NA,"1471-2318","http://www.springer.com/tdm",TRUE,"23635086","PMC3645973",NA,NA,TRUE
+"Wuerzburg U",2013,1513.68,"10.1186/1479-5876-11-106",FALSE,"Springer Science + Business Media","Journal of Translational Medicine","1479-5876","1479-5876",NA,NA,TRUE,"23635329","PMC3646671",NA,NA,TRUE
+"Wuerzburg U",2013,1105.72,"10.1371/journal.pone.0056486",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23418575","PMC3572051",NA,NA,TRUE
+"Wuerzburg U",2013,1328.04,"10.1186/1742-4690-10-55",FALSE,"Springer Science + Business Media","Retrovirology","1742-4690","1742-4690",NA,NA,TRUE,"23718736","PMC3694450",NA,NA,TRUE
+"Wuerzburg U",2013,1451.8,"10.1186/1471-2334-13-111",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"23448529","PMC3599956",NA,NA,TRUE
+"Wuerzburg U",2013,1266.16,"10.1186/1748-717X-8-98",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"23617930","PMC3653697",NA,NA,TRUE
+"Wuerzburg U",2013,714.93,"10.2174/1874325001307010040",FALSE,"Bentham Science Publishers Ltd.","The Open Orthopaedics Journal","18743250","18743250",NA,NA,TRUE,"23459513","PMC3583030",NA,NA,FALSE
+"Wuerzburg U",2013,752.68,"10.1088/1367-2630/15/2/025006",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
+"Wuerzburg U",2013,1466.08,"10.1186/1471-2334-13-112",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"23452879","PMC3599253",NA,NA,TRUE
+"Wuerzburg U",2013,704.48,"10.1186/1752-1947-7-61",FALSE,"Springer Science + Business Media","Journal of Medical Case Reports","1752-1947",NA,"1752-1947","http://www.springer.com/tdm",TRUE,"23497685","PMC3600992",NA,NA,TRUE
+"Wuerzburg U",2013,883.58,"10.1088/1367-2630/15/2/025008",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
+"Wuerzburg U",2013,1275.68,"10.1186/1710-1492-9-1",FALSE,"Springer Science + Business Media","Allergy, Asthma & Clinical Immunology","1710-1492","1710-1492",NA,NA,TRUE,"23305328","PMC3565926",NA,NA,TRUE
+"Wuerzburg U",2013,1105.44,"10.1155/2013/425184",FALSE,"Hindawi Publishing Corporation","Computational and Mathematical Methods in Medicine","1748-670X","1748-670X","1748-6718","http://creativecommons.org/licenses/by/3.0/",TRUE,"24069064","PMC3771471",NA,NA,TRUE
+"Wuerzburg U",2013,1470.84,"10.1186/1471-2253-13-24",FALSE,"Springer Science + Business Media","BMC Anesthesiology","1471-2253",NA,"1471-2253","http://www.springer.com/tdm",TRUE,"24053352","PMC3848727",NA,NA,TRUE
+"Wuerzburg U",2013,761.6,"10.1186/2211-1522-3-1",FALSE,"Springer Science + Business Media","Psychology of Well-Being: Theory, Research and Practice","2211-1522","2211-1522",NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"Wuerzburg U",2013,1470.84,"10.1186/1471-2490-13-43",FALSE,"Springer Science + Business Media","BMC Urology","1471-2490",NA,"1471-2490","http://www.springer.com/tdm",TRUE,"24006885","PMC3847360",NA,NA,TRUE
+"Wuerzburg U",2013,1470.84,"10.1186/1471-2393-13-139",FALSE,"Springer Science + Business Media","BMC Pregnancy and Childbirth","1471-2393",NA,"1471-2393","http://www.springer.com/tdm",TRUE,"23815762","PMC3700797",NA,NA,TRUE
+"Wuerzburg U",2013,1105.72,"10.1371/journal.pone.0057040",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23457648","PMC3574050",NA,NA,TRUE
+"Wuerzburg U",2013,1809.67,"10.1371/journal.pgen.1003261",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"23382700","PMC3561109",NA,NA,TRUE
+"Wuerzburg U",2013,1470.84,"10.1186/1471-2334-13-303",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"23815523","PMC3710078",NA,NA,TRUE
+"Wuerzburg U",2013,1244.74,"10.1038/srep01637",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"23572127","PMC3622138",NA,NA,TRUE
+"Wuerzburg U",2013,1809.67,"10.1371/journal.pgen.1003267",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"23408907","PMC3567176",NA,NA,TRUE
+"Wuerzburg U",2013,709.24,"10.1186/1752-1947-7-135",FALSE,"Springer Science + Business Media","Journal of Medical Case Reports","1752-1947",NA,"1752-1947","http://www.springer.com/tdm",TRUE,"23692985","PMC3686624",NA,NA,TRUE
+"Wuerzburg U",2013,480.11,"10.3390/polym5010112",FALSE,"MDPI AG","Polymers","2073-4360",NA,"2073-4360",NA,TRUE,NA,NA,NA,NA,TRUE
+"Wuerzburg U",2013,1285.2,"10.1186/1748-717X-8-7",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"23289496","PMC3552718",NA,NA,TRUE
+"Wuerzburg U",2013,1470.84,"10.1186/1472-6823-13-34",FALSE,"Springer Science + Business Media","BMC Endocrine Disorders","1472-6823",NA,"1472-6823","http://www.springer.com/tdm",TRUE,"24006909","PMC3844619",NA,NA,TRUE
+"Wuerzburg U",2013,416.5,NA,FALSE,"Würzburg University Press","Nutrition and Medicine","2195-0083",NA,NA,NA,FALSE,NA,NA,NA,"http://www.nume.de/index.php/nume/article/view/1",FALSE
+"Wuerzburg U",2013,1035.3,"10.5772/56813",FALSE,"SAGE Publications","International Journal of Advanced Robotic Systems","1729-8806","1729-8806",NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"Wuerzburg U",2013,922.25,"10.1042/BSR20130007",FALSE,"Portland Press Ltd.","Bioscience Reports","0144-8463","0144-8463","1573-4935",NA,TRUE,"23368846","PMC3596097",NA,NA,FALSE
+"Wuerzburg U",2013,1542.24,"10.1186/1471-2105-14-115",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105","1471-2105",NA,NA,TRUE,"23537512","PMC3636010",NA,NA,TRUE
+"Wuerzburg U",2013,1113.91,"10.1371/journal.pone.0057702",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23460896","PMC3584085",NA,NA,TRUE
+"Wuerzburg U",2013,1106.32,"10.1371/journal.pone.0065006",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23755167","PMC3673997",NA,NA,TRUE
+"Wuerzburg U",2013,1542.24,"10.1186/1471-2431-13-57",FALSE,"Springer Science + Business Media","BMC Pediatrics","1471-2431",NA,"1471-2431","http://www.springer.com/tdm",TRUE,"23597118","PMC3644263",NA,NA,TRUE
+"Wuerzburg U",2013,836.34,"10.4172/2155-9899.S6-007",FALSE,"OMICS Publishing Group","Journal of Clinical & Cellular Immunology","21559899",NA,"21559899",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wuerzburg U",2013,1087.27,"10.1371/journal.pone.0066726",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23826120","PMC3691174",NA,NA,TRUE
+"Wuerzburg U",2013,1112.96,"10.1371/journal.pone.0069352",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23922705","PMC3724858",NA,NA,TRUE
+"Wuerzburg U",2013,1661.24,"10.1186/1742-9994-10-24",FALSE,"Springer Science + Business Media","Frontiers in Zoology","1742-9994","1742-9994",NA,NA,TRUE,"23642192","PMC3658878",NA,NA,TRUE
+"Wuerzburg U",2013,1904,"10.3389/fnbeh.2013.00031",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"23630477","PMC3632789",NA,NA,TRUE
+"Wuerzburg U",2013,1542.24,"10.1186/1471-2377-13-47",FALSE,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","http://www.springer.com/tdm",TRUE,"23705943","PMC3672069",NA,NA,TRUE
+"Wuerzburg U",2013,1119.25,"10.1371/journal.pone.0057488",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23554862","PMC3595274",NA,NA,TRUE
+"Wuerzburg U",2013,1632.68,"10.2147/OPTH.S41750",FALSE,"Dove Medical Press Ltd.","Clinical Ophthalmology","1177-5483",NA,"1177-5483","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"23814458","PMC3693864",NA,NA,TRUE
+"Wuerzburg U",2013,1142.4,"10.3389/fnhum.2013.00105",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"23565083","PMC3613602",NA,NA,TRUE
+"Wuerzburg U",2013,574.15,"10.4330/wjc.v5.i5.151",FALSE,"Baishideng Publishing Group Inc.","World Journal of Cardiology","1949-8462","1949-8462",NA,NA,TRUE,"23710303","PMC3663130",NA,NA,FALSE
+"Wuerzburg U",2013,992,"10.1186/1532-429X-15-88",FALSE,"Springer Science + Business Media","Journal of Cardiovascular Magnetic Resonance","1532-429X","1532-429X",NA,NA,TRUE,"24083810","PMC3850985",NA,NA,TRUE
+"Wuerzburg U",2013,1864.12,"10.1371/journal.pgen.1003495",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"23696746","PMC3656092",NA,NA,TRUE
+"Wuerzburg U",2013,908.74,"10.1155/2013/341078",FALSE,"Hindawi Publishing Corporation","The Scientific World Journal","1537-744X",NA,"1537-744X","http://creativecommons.org/licenses/by/3.0/",TRUE,"23737713","PMC3659489",NA,NA,TRUE
+"Wuerzburg U",2013,1107.34,"10.1371/journal.pone.0063197",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23646194","PMC3639945",NA,NA,TRUE
+"Wuerzburg U",2013,1107.34,"10.1371/journal.pone.0063564",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23658840","PMC3642180",NA,NA,TRUE
+"Wuerzburg U",2013,1845.56,"10.1371/journal.ppat.1003373",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"23717204","PMC3662692",NA,NA,TRUE
+"Wuerzburg U",2013,1065.05,"10.1371/journal.pone.0075598",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24086584","PMC3784459",NA,NA,TRUE
+"Wuerzburg U",2013,1071.24,"10.1371/journal.pone.0078613",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24223831","PMC3818481",NA,NA,TRUE
+"Wuerzburg U",2013,1332.8,"10.1186/2040-7378-5-6",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"23618347","PMC3642016",NA,NA,TRUE
+"Wuerzburg U",2013,1087.27,"10.1371/journal.pone.0061400",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23620749","PMC3631192",NA,NA,TRUE
+"Wuerzburg U",2013,1784.52,"10.1159/000350081",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23652608",NA,NA,NA,TRUE
+"Wuerzburg U",2013,1718.36,"10.1186/1741-7015-11-134",FALSE,"Springer Science + Business Media","BMC Medicine","1741-7015",NA,"1741-7015","http://www.springer.com/tdm",TRUE,"23692886","PMC3665617",NA,NA,TRUE
+"Wuerzburg U",2013,1247.12,"10.1186/1710-1492-9-33",FALSE,"Springer Science + Business Media","Allergy, Asthma & Clinical Immunology","1710-1492","1710-1492",NA,NA,TRUE,"24004607","PMC3846485",NA,NA,TRUE
+"Wuerzburg U",2013,1247.12,"10.1186/1748-717X-8-263",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"24207129","PMC4225755",NA,NA,TRUE
+"Wuerzburg U",2013,1116.14,"10.1371/journal.pone.0065064",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23798998","PMC3683014",NA,NA,TRUE
+"Wuerzburg U",2013,111.09,"10.5121/ijaia.2013.4304",FALSE,"Academy and Industry Research Collaboration Center (AIRCC)","International Journal of Artificial Intelligence & Applications","09762191","09762191","0975900X",NA,TRUE,NA,NA,NA,NA,FALSE
+"Wuerzburg U",2013,1447.04,"10.1186/1471-2261-13-60",FALSE,"Springer Science + Business Media","BMC Cardiovascular Disorders","1471-2261",NA,"1471-2261","http://www.springer.com/tdm",TRUE,"23968340","PMC3765303",NA,NA,TRUE
+"Wuerzburg U",2013,1105.31,"10.1371/journal.pone.0071729",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24014105","PMC3754939",NA,NA,TRUE
+"Wuerzburg U",2013,1447.04,"10.1186/1471-2172-14-48",FALSE,"Springer Science + Business Media","BMC Immunology","1471-2172","1471-2172",NA,NA,TRUE,"24089996","PMC3852591",NA,NA,TRUE
+"Wuerzburg U",2013,1087.27,"10.1371/journal.pone.0066415",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23799099","PMC3684586",NA,NA,TRUE
+"Wuerzburg U",2013,1247.12,"10.1186/2040-7378-5-9",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"23842538","PMC3716956",NA,NA,TRUE
+"Wuerzburg U",2013,1904,"10.3389/fncir.2013.00127",FALSE,"Frontiers Media SA","Frontiers in Neural Circuits","1662-5110",NA,"1662-5110",NA,TRUE,"23914156","PMC3729985",NA,NA,TRUE
+"Wuerzburg U",2013,1087.27,"10.1371/journal.pone.0062882",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23667535","PMC3647048",NA,NA,TRUE
+"Wuerzburg U",2013,684.25,"10.3389/fped.2013.00012",FALSE,"Frontiers Media SA","Frontiers in Pediatrics","2296-2360",NA,"2296-2360",NA,TRUE,"24400258","PMC3860891",NA,NA,TRUE
+"Wuerzburg U",2013,1437.52,"10.1186/scrt316",FALSE,"Springer Science + Business Media","Stem Cell Research & Therapy","1757-6512","1757-6512",NA,NA,TRUE,"24004723","PMC3854715",NA,NA,TRUE
+"Wuerzburg U",2013,1428,"10.1093/database/bat043",FALSE,"Oxford University Press (OUP)","Database","1758-0463",NA,"1758-0463",NA,TRUE,"23813641","PMC3694605",NA,NA,TRUE
+"Wuerzburg U",2013,1109.03,"10.1371/journal.pone.0069945",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23922865","PMC3726735",NA,NA,TRUE
+"Wuerzburg U",2013,1247.12,"10.1186/2040-7378-5-8",FALSE,"Springer Science + Business Media","Experimental & Translational Stroke Medicine","2040-7378","2040-7378",NA,NA,TRUE,"23800299","PMC3724477",NA,NA,TRUE
+"Wuerzburg U",2013,1142.4,"10.3389/fnhum.2013.00378",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"23888134","PMC3719026",NA,NA,TRUE
+"Wuerzburg U",2013,1904,"10.3389/fnins.2013.00129",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X",NA,TRUE,"23898236","PMC3721006",NA,NA,TRUE
+"Wuerzburg U",2013,416.5,NA,FALSE,"Würzburg University Press","Nutrition and Medicine","2195-0083",NA,NA,NA,FALSE,NA,NA,NA,"http://www.nume.de/index.php/nume/article/view/10",FALSE
+"Wuerzburg U",2013,273.05,"10.1155/2013/953859",FALSE,"Hindawi Publishing Corporation","Case Reports in Anesthesiology","2090-6382","2090-6382","2090-6390","http://creativecommons.org/licenses/by/3.0/",TRUE,"24455316","PMC3888708",NA,NA,TRUE
+"Wuerzburg U",2013,1142.4,"10.3389/fphar.2013.00097",FALSE,"Frontiers Media SA","Frontiers in Pharmacology","1663-9812",NA,"1663-9812",NA,TRUE,"23935583","PMC3731744",NA,NA,TRUE
+"Wuerzburg U",2013,1094.68,"10.1371/journal.pone.0075420",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24069413","PMC3775750",NA,NA,TRUE
+"Wuerzburg U",2013,799.68,"10.1186/1756-0500-6-393",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500","1756-0500",NA,NA,TRUE,"24079804","PMC3849942",NA,NA,TRUE
+"Wuerzburg U",2013,1618.4,"10.1002/cam4.133",FALSE,"Wiley-Blackwell","Cancer Medicine","20457634",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24403233","PMC3892799",NA,NA,FALSE
+"Wuerzburg U",2013,1356.6,"10.1186/1475-2867-13-94",FALSE,"Springer Science + Business Media","Cancer Cell International","1475-2867","1475-2867",NA,NA,TRUE,"24059699","PMC3849065",NA,NA,TRUE
+"Wuerzburg U",2013,1781.49,"10.3390/molecules181011658",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049",NA,TRUE,"24071977",NA,NA,NA,TRUE
+"Wuerzburg U",2013,1086.53,"10.1371/journal.pone.0073959",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24066089","PMC3774745",NA,NA,TRUE
+"Wuerzburg U",2013,1556.52,"10.1186/1478-811X-11-90",FALSE,"Springer Science + Business Media","Cell Communication and Signaling","1478-811X","1478-811X",NA,NA,TRUE,"24267514","PMC4222901",NA,NA,TRUE
+"Wuerzburg U",2013,1082.79,"10.1371/journal.pone.0074501",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24040262","PMC3769261",NA,NA,TRUE
+"Wuerzburg U",2013,1094.68,"10.1371/journal.pone.0075737",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24098720","PMC3787053",NA,NA,TRUE
+"Wuerzburg U",2013,1093.19,"10.1371/journal.pone.0075292",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24098375","PMC3788051",NA,NA,TRUE
+"Wuerzburg U",2013,1105.81,"10.1371/journal.pone.0076148",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24204597","PMC3799852",NA,NA,TRUE
+"Wuerzburg U",2013,1447.04,"10.1186/1471-2202-14-107",FALSE,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,NA,TRUE,"24079268","PMC3851833",NA,NA,TRUE
+"Wuerzburg U",2013,1816.62,"10.1371/journal.ppat.1003696",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"24130492","PMC3795047",NA,NA,TRUE
+"Wuerzburg U",2013,1904,"10.3389/fpsyt.2013.00107",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640",NA,TRUE,"24069003","PMC3781351",NA,NA,TRUE
+"Wuerzburg U",2013,1065.87,"10.1371/journal.pone.0078296",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24205188","PMC3799628",NA,NA,TRUE
+"Wuerzburg U",2013,1159.75,"10.3390/v5102349",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915",NA,TRUE,"24072062","PMC3814592",NA,NA,TRUE
+"Wuerzburg U",2013,1495.05,"10.3390/ijms141121414",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067",NA,TRUE,"24173237","PMC3856012",NA,NA,TRUE
+"Wuerzburg U",2013,264.87,"10.1155/2013/739427",FALSE,"Hindawi Publishing Corporation","Case Reports in Vascular Medicine","2090-6986","2090-6986","2090-6994","http://creativecommons.org/licenses/by/3.0/",TRUE,"24490097","PMC3893835",NA,NA,TRUE
+"Wuerzburg U",2013,799.68,"10.1186/1756-0500-6-523",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500","1756-0500",NA,NA,TRUE,"24321093","PMC4029092",NA,NA,TRUE
+"TU Ilmenau",2016,974.61,"10.3390/en9030121",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073",NA,TRUE,NA,NA,NA,NA,TRUE
+"TU Ilmenau",2016,1461.9,"10.1063/1.4944348",FALSE,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"TU Ilmenau",2016,1046.25,"10.3390/en9040235",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073",NA,TRUE,NA,NA,NA,NA,TRUE
+"TU Ilmenau",2016,2003.72,"10.3389/fnins.2016.00141",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X",NA,TRUE,"27092044","PMC4823312",NA,NA,TRUE
+"Tuebingen U",2013,1669.57,"10.1186/1475-2875-12-9",FALSE,"Springer Science + Business Media","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"23297791","PMC3547756",NA,NA,TRUE
+"Tuebingen U",2013,1040.78,"10.1371/journal.pone.0055173",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23383096","PMC3557268",NA,NA,TRUE
+"Tuebingen U",2013,1040.78,"10.1371/journal.pone.0056872",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23460816","PMC3584096",NA,NA,TRUE
+"Tuebingen U",2013,1880.2,"10.1186/1471-2180-13-7",FALSE,"Springer Science + Business Media","BMC Microbiology","1471-2180","1471-2180",NA,NA,TRUE,"23320528","PMC3557171",NA,NA,TRUE
+"Tuebingen U",2013,1886.15,"10.1186/1752-0509-7-15",FALSE,"Springer Science + Business Media","BMC Systems Biology","1752-0509","1752-0509",NA,NA,TRUE,"23433509","PMC3623889",NA,NA,TRUE
+"Tuebingen U",2013,1038.06,"10.1371/journal.pone.0058336",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23520499","PMC3592924",NA,NA,TRUE
+"Tuebingen U",2013,1027.48,"10.1371/journal.pone.0055455",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23383194","PMC3559478",NA,NA,TRUE
+"Tuebingen U",2013,1636.25,"10.1159/000343353",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23363637",NA,NA,NA,TRUE
+"Tuebingen U",2013,1040.78,"10.1371/journal.pone.0056650",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23437197","PMC3577872",NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fpsyg.2013.00127",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23508565","PMC3597983",NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fimmu.2013.00076",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224",NA,TRUE,"23543707","PMC3608903",NA,NA,TRUE
+"Tuebingen U",2013,1056.34,"10.1371/journal.pone.0058686",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23505549","PMC3591404",NA,NA,TRUE
+"Tuebingen U",2013,1038.06,"10.1371/journal.pone.0057247",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23516401","PMC3596376",NA,NA,TRUE
+"Tuebingen U",2013,1113.84,"10.5194/amt-6-2101-2013",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2013,1037.82,"10.1371/journal.pone.0060237",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23593180","PMC3617223",NA,NA,TRUE
+"Tuebingen U",2013,1920,"10.1186/1471-244X-13-111",FALSE,"Springer Science + Business Media","BMC Psychiatry","1471-244X",NA,"1471-244X","http://www.springer.com/tdm",TRUE,"23570454","PMC3626571",NA,NA,TRUE
+"Tuebingen U",2013,1037.82,"10.1371/journal.pone.0063441",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23667619","PMC3648477",NA,NA,TRUE
+"Tuebingen U",2013,1035.2,"10.1371/journal.pone.0064259",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23691185","PMC3653868",NA,NA,TRUE
+"Tuebingen U",2013,1037.82,"10.1371/journal.pone.0063524",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23671682","PMC3646028",NA,NA,TRUE
+"Tuebingen U",2013,1035.04,"10.1371/journal.pone.0064649",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23741358","PMC3669378",NA,NA,TRUE
+"Tuebingen U",2013,1035.04,"10.1371/journal.pone.0060752",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23580164","PMC3620330",NA,NA,TRUE
+"Tuebingen U",2013,556.68,"10.1155/2013/369425",FALSE,"Hindawi Publishing Corporation","Advances in Human-Computer Interaction","1687-5893","1687-5893","1687-5907","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2013,2391.9,"10.1186/1471-213X-13-22",FALSE,"Springer Science + Business Media","BMC Developmental Biology","1471-213X","1471-213X",NA,NA,TRUE,"23682742","PMC3707749",NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fncom.2013.00068",FALSE,"Frontiers Media SA","Frontiers in Computational Neuroscience","1662-5188",NA,"1662-5188",NA,TRUE,"23750135","PMC3664315",NA,NA,TRUE
+"Tuebingen U",2013,1021.26,"10.1371/journal.pone.0065893",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23799059","PMC3683048",NA,NA,TRUE
+"Tuebingen U",2013,150.23,"10.1107/S1600536813013512",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368",NA,TRUE,"23795101","PMC3685082",NA,NA,TRUE
+"Tuebingen U",2013,1912.2,"10.1186/1741-7015-11-146",FALSE,"Springer Science + Business Media","BMC Medicine","1741-7015",NA,"1741-7015","http://www.springer.com/tdm",TRUE,"23758701","PMC3694028",NA,NA,TRUE
+"Tuebingen U",2013,1810.66,"10.1159/000350083",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23689698",NA,NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fnbeh.2013.00062",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"23760667","PMC3674308",NA,NA,TRUE
+"Tuebingen U",2013,1693.26,"10.1371/journal.pntd.0002094",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"23505586","PMC3591311",NA,NA,TRUE
+"Tuebingen U",2013,1686.82,"10.4137/CMO.S12169",FALSE,"Libertas Academica, Ltd.","Clinical Medicine Insights: Oncology","1179-5549",NA,"1179-5549",NA,TRUE,"23943661","PMC3738379",NA,NA,TRUE
+"Tuebingen U",2013,671.66,"10.1155/2013/206574",FALSE,"Hindawi Publishing Corporation","Gastroenterology Research and Practice","1687-6121","1687-6121","1687-630X","http://creativecommons.org/licenses/by/3.0/",TRUE,"23843782","PMC3697310",NA,NA,TRUE
+"Tuebingen U",2013,1178.1,"10.1088/1367-2630/15/7/073009",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2013,1641.11,"10.1159/000350086",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23711493",NA,NA,NA,TRUE
+"Tuebingen U",2013,927.55,"10.1371/journal.pone.0066071",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","https://creativecommons.org/publicdomain/zero/1.0/",TRUE,"23935820","PMC3729955",NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fnhum.2013.00324",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"23847498","PMC3698451",NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fnhum.2013.00342",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"23840187","PMC3699720",NA,NA,TRUE
+"Tuebingen U",2013,1382.33,"10.1159/000350141",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"23712027",NA,NA,NA,TRUE
+"Tuebingen U",2013,1644.97,"10.1159/000350096",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23735862",NA,NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fphys.2013.00164",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X",NA,TRUE,"23840190","PMC3699716",NA,NA,TRUE
+"Tuebingen U",2013,1904,"10.3389/fnhum.2013.00377",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"23882207","PMC3715733",NA,NA,TRUE
+"Tuebingen U",2013,1638,"10.1186/1758-2946-5-33",FALSE,"Springer Science + Business Media","Journal of Cheminformatics","1758-2946","1758-2946",NA,NA,TRUE,"23842210","PMC4104930",NA,NA,TRUE
+"Tuebingen U",2013,1422.82,"10.1016/j.rinim.2013.06.002",FALSE,"Elsevier BV","Results in Immunology","22112839","22112839",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24600561","PMC3908332",NA,NA,FALSE
+"Tuebingen U",2013,769.73,"10.3390/toxins5071230",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"23860350","PMC3737494",NA,NA,TRUE
+"Tuebingen U",2013,920.11,"10.1371/journal.pone.0070988",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23923038","PMC3726597",NA,NA,TRUE
+"Tuebingen U",2013,1022.34,"10.1371/journal.pone.0071644",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23977102","PMC3748130",NA,NA,TRUE
+"Tuebingen U",2013,2010,"10.1159/000350110",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23817201",NA,NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fpsyg.2013.00530",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"23966968","PMC3745084",NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fncom.2013.00148",FALSE,"Frontiers Media SA","Frontiers in Computational Neuroscience","1662-5188",NA,"1662-5188",NA,TRUE,"24191151","PMC3808893",NA,NA,TRUE
+"Tuebingen U",2013,1904,"10.3389/fnmol.2013.00020",FALSE,"Frontiers Media SA","Frontiers in Molecular Neuroscience","1662-5099",NA,"1662-5099",NA,TRUE,"23950737","PMC3739414",NA,NA,TRUE
+"Tuebingen U",2013,1211.44,"10.1371/journal.pone.0073103",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24015287","PMC3756038",NA,NA,TRUE
+"Tuebingen U",2013,2294.21,"10.1159/000350120",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23860121",NA,NA,NA,TRUE
+"Tuebingen U",2013,684.25,"10.3389/fnhum.2013.00499",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"23986683","PMC3750209",NA,NA,TRUE
+"Tuebingen U",2013,914.77,"10.1371/journal.pone.0074224",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24040207","PMC3769349",NA,NA,TRUE
+"Tuebingen U",2013,2237.2,"10.1111/jcmm.12124",FALSE,"Wiley-Blackwell","Journal of Cellular and Molecular Medicine","15821838",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24034629","PMC3914648",NA,NA,FALSE
+"Tuebingen U",2013,1142.4,"10.3389/fnhum.2013.00513",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24009574","PMC3755212",NA,NA,TRUE
+"Tuebingen U",2013,914.77,"10.1371/journal.pone.0073938",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24040119","PMC3769381",NA,NA,TRUE
+"Tuebingen U",2013,1300.81,"10.1159/000354437",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23942252",NA,NA,NA,TRUE
+"Tuebingen U",2013,1445.35,"10.1159/000354441",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"23942339",NA,NA,NA,TRUE
+"Tuebingen U",2013,1505.35,"10.1371/journal.ppat.1003654",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"24098134","PMC3784491",NA,NA,TRUE
+"Tuebingen U",2013,1013.51,"10.1371/journal.pone.0075177",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24146751","PMC3795721",NA,NA,TRUE
+"Tuebingen U",2013,1904,"10.3389/fncir.2013.00141",FALSE,"Frontiers Media SA","Frontiers in Neural Circuits","1662-5110",NA,"1662-5110",NA,TRUE,"24062646","PMC3769619",NA,NA,TRUE
+"Tuebingen U",2013,1904,"10.3389/fpsyg.2013.00556",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"24009593","PMC3757575",NA,NA,TRUE
+"Tuebingen U",2013,899.53,"10.1371/journal.pone.0076542",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24146885","PMC3797795",NA,NA,TRUE
+"Tuebingen U",2013,903.21,"10.1371/journal.pone.0077191",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24194870","PMC3806738",NA,NA,TRUE
+"Tuebingen U",2013,916.3,"10.3389/fnhum.2013.00648",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24146641","PMC3797968",NA,NA,TRUE
+"Tuebingen U",2013,964.11,"10.3390/toxins5091543",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"24025609","PMC3798872",NA,NA,TRUE
+"Tuebingen U",2013,1904,"10.3389/fnhum.2013.00669",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24137123","PMC3797400",NA,NA,TRUE
+"Tuebingen U",2013,1003.12,"10.1371/journal.pone.0078661",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24236031","PMC3827281",NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fnhum.2013.00701",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24167485","PMC3805979",NA,NA,TRUE
+"Tuebingen U",2013,1142.4,"10.3389/fnhum.2013.00706",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24298245","PMC3829462",NA,NA,TRUE
+"Tuebingen U",2013,886.34,"10.1371/journal.pone.0068951",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23894380","PMC3718802",NA,NA,TRUE
+"Tuebingen U",2013,981.32,"10.1371/journal.pone.0083486",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24358287","PMC3865216",NA,NA,TRUE
+"Tuebingen U",2013,1811.55,"10.1159/000354510",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"24217651",NA,NA,NA,TRUE
+"Tuebingen U",2013,1976.23,"10.1159/000350159",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"24060611",NA,NA,NA,TRUE
+"Tuebingen U",2013,2662.27,"10.1111/jcmm.12207",FALSE,"Wiley-Blackwell","Journal of Cellular and Molecular Medicine","15821838",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24330097","PMC3955158",NA,NA,FALSE
+"Tuebingen U",2013,1370.9,NA,FALSE,"e-Century Publishing Corporation","International Journal of Clinical and Experimental Pathology","1936-2625",NA,NA,NA,FALSE,NA,NA,NA,"http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3843253/",FALSE
+"Tuebingen U",2013,1646.85,"10.1159/000355730",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"24247848",NA,NA,NA,TRUE
+"Tuebingen U",2013,883.19,"10.1371/journal.pone.0083181",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24349456","PMC3861474",NA,NA,TRUE
+"Tuebingen U",2013,883.19,"10.1371/journal.pone.0084081",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24416192","PMC3885536",NA,NA,TRUE
+"Tuebingen U",2013,885.89,"10.1371/journal.pone.0084667",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24416261","PMC3885583",NA,NA,TRUE
+"Tuebingen U",2013,1152.8,"10.1159/000355731",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"24281140",NA,NA,NA,TRUE
+"Tuebingen U",2013,1654.4,"10.1159/000355735",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"24356547",NA,NA,NA,TRUE
+"Tuebingen U",2013,1442.28,"10.1186/1471-2148-13-203",FALSE,"Springer Science + Business Media","BMC Evolutionary Biology","1471-2148","1471-2148",NA,NA,TRUE,"24053145","PMC3852240",NA,NA,TRUE
+"Tuebingen U",2013,1442.28,"10.1186/1471-2377-13-185",FALSE,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","http://www.springer.com/tdm",TRUE,"24274741","PMC4222806",NA,NA,TRUE
+"Tuebingen U",2013,1442.28,"10.1186/1752-0509-7-55",FALSE,"Springer Science + Business Media","BMC Systems Biology","1752-0509","1752-0509",NA,NA,TRUE,"23826941","PMC3707837",NA,NA,TRUE
+"Tuebingen U",2013,1542.24,"10.1186/1742-4933-10-29",FALSE,"Springer Science + Business Media","Immunity & Ageing","1742-4933","1742-4933",NA,NA,TRUE,"23855879","PMC3720251",NA,NA,TRUE
+"Tuebingen U",2013,1418.48,"10.1186/1471-2202-14-74",FALSE,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,NA,TRUE,"23879896","PMC3847124",NA,NA,TRUE
+"Tuebingen U",2013,1247.12,"10.1186/1746-1596-8-184",FALSE,"Springer Science + Business Media","Diagnostic Pathology","1746-1596","1746-1596",NA,NA,TRUE,"24188515","PMC4228252",NA,NA,TRUE
+"Tuebingen U",2013,1451.8,"10.1186/1471-2377-13-107",FALSE,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","http://www.springer.com/tdm",TRUE,"23947787","PMC3751626",NA,NA,TRUE
+"Tuebingen U",2013,1470.84,"10.1186/1471-2334-13-375",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"23945350","PMC3765098",NA,NA,TRUE
+"Tuebingen U",2013,1461.32,"10.1186/1475-2875-12-283",FALSE,"Springer Science + Business Media","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"23941258","PMC3765117",NA,NA,TRUE
+"Tuebingen U",2013,1442.28,"10.1186/1471-2148-13-266",FALSE,"Springer Science + Business Media","BMC Evolutionary Biology","1471-2148","1471-2148",NA,NA,TRUE,"24314094","PMC4077068",NA,NA,TRUE
+"Tuebingen U",2013,1442.28,"10.1186/1471-2202-14-99",FALSE,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,NA,TRUE,"24020588","PMC3846851",NA,NA,TRUE
+"Tuebingen U",2013,1232.84,"10.1186/1754-9493-7-34",FALSE,"Springer Science + Business Media","Patient Safety in Surgery","1754-9493","1754-9493",NA,NA,TRUE,"24268107","PMC4176190",NA,NA,TRUE
+"Tuebingen U",2013,1451.8,"10.1186/bcr3496",FALSE,"Springer Science + Business Media","Breast Cancer Research","1465-5411","1465-5411",NA,NA,TRUE,"24099325","PMC3978634",NA,NA,TRUE
+"Tuebingen U",2013,809.2,"10.1186/2193-1801-2-559",FALSE,"Springer Science + Business Media","SpringerPlus","2193-1801","2193-1801",NA,NA,TRUE,"24255853","PMC3825070",NA,NA,TRUE
+"Tuebingen U",2013,1542.24,"10.1186/1471-2202-14-136",FALSE,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,NA,TRUE,"24195591","PMC3871002",NA,NA,TRUE
+"Tuebingen U",2013,1442.28,"10.1186/1471-2334-13-515",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"24176052","PMC3818928",NA,NA,TRUE
+"Tuebingen U",2013,1442.28,"10.1186/1471-2431-13-178",FALSE,"Springer Science + Business Media","BMC Pediatrics","1471-2431",NA,"1471-2431","http://www.springer.com/tdm",TRUE,"24180239","PMC4228390",NA,NA,TRUE
+"Tuebingen U",2014,814.26,"10.3389/fcimb.2014.00006",FALSE,"Frontiers Media SA","Frontiers in Cellular and Infection Microbiology","2235-2988",NA,"2235-2988",NA,TRUE,"24524029","PMC3905216",NA,NA,TRUE
+"Tuebingen U",2014,1575,"10.1155/2014/542526",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"24757668","PMC3976939",NA,NA,TRUE
+"Tuebingen U",2014,891.3,"10.1371/journal.pone.0088637",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24523925","PMC3921210",NA,NA,TRUE
+"Tuebingen U",2014,897,"10.1371/journal.pone.0089420",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24586765","PMC3930743",NA,NA,TRUE
+"Tuebingen U",2014,2201.29,"10.1159/000356640",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"24429827",NA,NA,NA,TRUE
+"Tuebingen U",2014,1345.89,"10.5194/cpd-10-469-2014",FALSE,"Copernicus GmbH","Climate of the Past Discussions","1814-9359",NA,"1814-9359",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2014,775.1,"10.1155/2014/524383",FALSE,"Hindawi Publishing Corporation","Gastroenterology Research and Practice","1687-6121","1687-6121","1687-630X","http://creativecommons.org/licenses/by/3.0/",TRUE,"24744777","PMC3976868",NA,NA,TRUE
+"Tuebingen U",2014,1044.25,"10.3390/toxins6020650",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"24561477","PMC3942757",NA,NA,TRUE
+"Tuebingen U",2014,887.12,"10.1371/journal.pone.0090499",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24598591","PMC3943966",NA,NA,TRUE
+"Tuebingen U",2014,891.22,"10.1371/journal.pone.0090508",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24598703","PMC3944018",NA,NA,TRUE
+"Tuebingen U",2014,1678.9,"10.3390/ijms15022858",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067",NA,TRUE,"24557580","PMC3958886",NA,NA,TRUE
+"Tuebingen U",2014,891.22,"10.1371/journal.pone.0091476",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24614281","PMC3948918",NA,NA,TRUE
+"Tuebingen U",2014,1359.46,"10.3389/fnbeh.2014.00064",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"24634648","PMC3943336",NA,NA,TRUE
+"Tuebingen U",2014,2202.03,"10.1159/000356664",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"24496246",NA,NA,NA,TRUE
+"Tuebingen U",2014,562.16,"10.1214/EJP.v19-2940",FALSE,"Institute of Mathematical Statistics","Electronic Journal of Probability","1083-6489",NA,"1083-6489",NA,TRUE,NA,NA,NA,NA,FALSE
+"Tuebingen U",2014,895,"10.1371/journal.pone.0103076",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25072467","PMC4114518",NA,NA,TRUE
+"Tuebingen U",2014,369.28,"10.3390/ph7050621",FALSE,"MDPI AG","Pharmaceuticals","1424-8247",NA,"1424-8247",NA,TRUE,"24830987","PMC4035771",NA,NA,TRUE
+"Tuebingen U",2014,1093.06,"10.1371/journal.pone.0088604",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24586351","PMC3931625",NA,NA,TRUE
+"Tuebingen U",2014,1987.3,"10.1186/1742-9994-11-1",FALSE,"Springer Science + Business Media","Frontiers in Zoology","1742-9994","1742-9994",NA,NA,TRUE,"24401080","PMC3898096",NA,NA,TRUE
+"Tuebingen U",2014,873.97,"10.1371/journal.pone.0092854",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24671172","PMC3966820",NA,NA,TRUE
+"Tuebingen U",2014,1904,"10.3389/fnhum.2014.00122",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24634650","PMC3942791",NA,NA,TRUE
+"Tuebingen U",2014,887.18,"10.1371/journal.pone.0091372",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24618708","PMC3950183",NA,NA,TRUE
+"Tuebingen U",2014,380.63,"10.4236/ojapo.2014.32003",FALSE,"Scientific Research Publishing, Inc,","Open Journal of Apoptosis","2168-3832","2168-3832","2168-3840","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Tuebingen U",2014,880.6,"10.3390/rs6032195",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2014,1122.87,"10.1155/2014/583507",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"24877117","PMC4022207",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fnbeh.2014.00093",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"24672456","PMC3957028",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fpsyg.2014.00304",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"24795668","PMC4006036",NA,NA,TRUE
+"Tuebingen U",2014,508.5,"10.1371/journal.pone.0094676",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24743185","PMC3990532",NA,NA,TRUE
+"Tuebingen U",2014,1044.76,"10.1371/journal.pone.0092878",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24675747","PMC3968033",NA,NA,TRUE
+"Tuebingen U",2014,891.79,"10.1371/journal.pone.0093148",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24695116","PMC3973696",NA,NA,TRUE
+"Tuebingen U",2014,659.92,"10.4172/2161-1122.1000210",FALSE,"OMICS Publishing Group","Dentistry","21611122",NA,"21611122",NA,TRUE,NA,NA,NA,NA,FALSE
+"Tuebingen U",2014,1654.1,"10.1186/2050-2974-2-7",FALSE,"Springer Science + Business Media","Journal of Eating Disorders","2050-2974","2050-2974",NA,NA,TRUE,"24764531","PMC3984741",NA,NA,TRUE
+"Tuebingen U",2014,1138.83,"10.5194/bgd-10-12417-2013",FALSE,"Copernicus GmbH","Biogeosciences Discussions","1810-6285",NA,"1810-6285",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2014,885.12,"10.1371/journal.pone.0097640",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24830643","PMC4022579",NA,NA,TRUE
+"Tuebingen U",2014,1716,"10.1364/OE.22.015484",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"24977808",NA,NA,NA,FALSE
+"Tuebingen U",2014,1586.8,"10.1016/j.nicl.2014.04.002",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24936412","PMC4053633",NA,NA,FALSE
+"Tuebingen U",2014,862.35,"10.1371/journal.pone.0098325",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24858945","PMC4032280",NA,NA,TRUE
+"Tuebingen U",2014,913.92,"10.5194/amt-7-3059-2014",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2014,891.55,"10.1371/journal.pone.0098359",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24878544","PMC4039507",NA,NA,TRUE
+"Tuebingen U",2014,892.5,"10.3390/toxins6092771",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"25238045","PMC4179159",NA,NA,TRUE
+"Tuebingen U",2014,1500.99,"10.1159/000355763",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"24685987",NA,NA,NA,TRUE
+"Tuebingen U",2014,1854.95,"10.1159/000358643",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"24643001",NA,NA,NA,TRUE
+"Tuebingen U",2014,911.7,"10.1371/journal.pone.0099122",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24892559","PMC4044012",NA,NA,TRUE
+"Tuebingen U",2014,890.44,"10.1371/journal.pone.0098946",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24897423","PMC4045857",NA,NA,TRUE
+"Tuebingen U",2014,903.46,"10.1371/journal.pone.0095519",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24751721","PMC3994105",NA,NA,TRUE
+"Tuebingen U",2014,999.26,"10.1371/journal.pone.0100080",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24927180","PMC4057353",NA,NA,TRUE
+"Tuebingen U",2014,919.04,"10.1371/journal.pone.0099616",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24911025","PMC4049763",NA,NA,TRUE
+"Tuebingen U",2014,1904,"10.3389/fnhum.2014.00285",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24834047","PMC4018546",NA,NA,TRUE
+"Tuebingen U",2014,1632.68,"10.2147/OPTH.S64722",FALSE,"Dove Medical Press Ltd.","Clinical Ophthalmology","1177-5483",NA,"1177-5483","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"25071365","PMC4111662",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fnhum.2014.00286",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24847238","PMC4019872",NA,NA,TRUE
+"Tuebingen U",2014,976.93,"10.3390/rs6065614",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fpls.2014.00292",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X",NA,TRUE,"25071790","PMC4082301",NA,NA,TRUE
+"Tuebingen U",2014,1206.51,"10.1371/journal.pone.0098374",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24901982","PMC4047025",NA,NA,TRUE
+"Tuebingen U",2014,1227.56,"10.1371/journal.pone.0106148",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25165854","PMC4148441",NA,NA,TRUE
+"Tuebingen U",2014,684.25,"10.3389/fmicb.2014.00320",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"25101059","PMC4105635",NA,NA,TRUE
+"Tuebingen U",2014,1048.37,"10.1155/2014/213020",FALSE,"Hindawi Publishing Corporation","Abstract and Applied Analysis","1085-3375","1085-3375","1687-0409","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2014,999.12,"10.1371/journal.pone.0099819",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24932758","PMC4059690",NA,NA,TRUE
+"Tuebingen U",2014,885.12,"10.1371/journal.pone.0097678",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24828355","PMC4020844",NA,NA,TRUE
+"Tuebingen U",2014,1523.2,"10.3389/fnagi.2014.00161",FALSE,"Frontiers Media SA","Frontiers in Aging Neuroscience","1663-4365",NA,"1663-4365",NA,TRUE,"25071568","PMC4088338",NA,NA,TRUE
+"Tuebingen U",2014,1010.83,"10.1371/journal.pone.0095241",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24743542","PMC3990610",NA,NA,TRUE
+"Tuebingen U",2014,720,"10.1093/nar/gkt1392",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"24445806","PMC3973333",NA,NA,TRUE
+"Tuebingen U",2014,1189.12,"10.1371/journal.pone.0097405",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24834915","PMC4023969",NA,NA,TRUE
+"Tuebingen U",2014,1601.82,"10.3390/s141121045",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220",NA,TRUE,"25384010","PMC4279524",NA,NA,TRUE
+"Tuebingen U",2014,892.5,"10.3390/toxins6102975",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"25317837","PMC4210880",NA,NA,TRUE
+"Tuebingen U",2014,890.4,"10.1371/journal.pone.0098307",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24901835","PMC4047013",NA,NA,TRUE
+"Tuebingen U",2014,1997.94,"10.1093/nar/gku272",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"24744243","PMC4041445",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fpsyg.2014.00748",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25101022","PMC4102910",NA,NA,TRUE
+"Tuebingen U",2014,1861.36,"10.1159/000358715",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1015-8987","1015-8987","1421-9778",NA,TRUE,"24854840",NA,NA,NA,TRUE
+"Tuebingen U",2014,1661.06,"10.1159/000355750",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"24525794",NA,NA,NA,TRUE
+"Tuebingen U",2014,1856.47,"10.1159/000358629",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"24556932",NA,NA,NA,TRUE
+"Tuebingen U",2014,1661.06,"10.1159/000355752",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"24556698",NA,NA,NA,TRUE
+"Tuebingen U",2014,532.59,"10.1155/2014/424503",FALSE,"Hindawi Publishing Corporation","Gastroenterology Research and Practice","1687-6121","1687-6121","1687-630X","http://creativecommons.org/licenses/by/3.0/",TRUE,"25214830","PMC4156978",NA,NA,TRUE
+"Tuebingen U",2014,934.23,"10.1371/journal.pone.0104616",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25101849","PMC4125230",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fnhum.2014.00580",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25136307","PMC4120699",NA,NA,TRUE
+"Tuebingen U",2014,1008.77,"10.1371/journal.pone.0107048",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25203538","PMC4159304",NA,NA,TRUE
+"Tuebingen U",2014,785.01,"10.3390/molecules19056727",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049",NA,TRUE,"24858103",NA,NA,NA,TRUE
+"Tuebingen U",2014,458.15,"10.3389/fncir.2014.00093",FALSE,"Frontiers Media SA","Frontiers in Neural Circuits","1662-5110",NA,"1662-5110",NA,TRUE,"25140130","PMC4122189",NA,NA,TRUE
+"Tuebingen U",2014,960,"10.3389/fonc.2014.00227",FALSE,"Frontiers Media SA","Frontiers in Oncology","2234-943X",NA,"2234-943X",NA,TRUE,"25202679","PMC4142417",NA,NA,TRUE
+"Tuebingen U",2014,575,"10.3389/fnhum.2014.00608",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25161616","PMC4130111",NA,NA,TRUE
+"Tuebingen U",2014,1029.9,"10.1371/journal.pone.0105662",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25144554","PMC4140820",NA,NA,TRUE
+"Tuebingen U",2014,894.43,"10.1371/journal.pone.0102030",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25014085","PMC4094494",NA,NA,TRUE
+"Tuebingen U",2014,1904,"10.3389/fpsyg.2014.01079",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25324797","PMC4181242",NA,NA,TRUE
+"Tuebingen U",2014,1012.03,"10.1371/journal.pone.0100391",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25025664","PMC4099130",NA,NA,TRUE
+"Tuebingen U",2014,1898.05,"10.2147/PPA.S69586",FALSE,"Dove Medical Press Ltd.","Patient Preference and Adherence","1177-889X",NA,"1177-889X","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"25484576","PMC4240191",NA,NA,TRUE
+"Tuebingen U",2014,1030.11,"10.1371/journal.pone.0103402",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25072914","PMC4114839",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fnagi.2014.00286",FALSE,"Frontiers Media SA","Frontiers in Aging Neuroscience","1663-4365",NA,"1663-4365",NA,TRUE,"25386137","PMC4208400",NA,NA,TRUE
+"Tuebingen U",2014,1424,"10.3389/fncel.2014.00318",FALSE,"Frontiers Media SA","Frontiers in Cellular Neuroscience","1662-5102",NA,"1662-5102",NA,TRUE,"25352780","PMC4196631",NA,NA,TRUE
+"Tuebingen U",2014,1304.28,"10.1016/j.nicl.2014.09.013",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25379443","PMC4215386",NA,NA,FALSE
+"Tuebingen U",2014,1142.4,"10.3389/fnbeh.2014.00370",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"25386126","PMC4209814",NA,NA,TRUE
+"Tuebingen U",2014,1419.13,"10.3390/ijms151019037",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067",NA,TRUE,"25338045","PMC4227259",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fphys.2014.00394",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664042X",NA,"1664042X",NA,TRUE,"25352809","PMC4196583",NA,NA,FALSE
+"Tuebingen U",2014,1142.4,"10.3389/fnhum.2014.00861",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25374532","PMC4204459",NA,NA,TRUE
+"Tuebingen U",2014,996,"10.1371/journal.pone.0086148",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24465926","PMC3899212",NA,NA,TRUE
+"Tuebingen U",2014,1007.96,"10.1371/journal.pone.0092238",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24643166","PMC3958485",NA,NA,TRUE
+"Tuebingen U",2014,1677.45,"10.1159/000355812",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"25322850",NA,NA,NA,TRUE
+"Tuebingen U",2014,1677.45,"10.1159/000355816",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"25323061",NA,NA,NA,TRUE
+"Tuebingen U",2014,1874.79,"10.1159/000366346",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"25301365",NA,NA,NA,TRUE
+"Tuebingen U",2014,892.5,"10.3390/toxins6051559",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"24828755","PMC4052252",NA,NA,TRUE
+"Tuebingen U",2014,1884.17,"10.1159/000366311",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"25200670",NA,NA,NA,TRUE
+"Tuebingen U",2014,1861.98,"10.1159/000362968",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"25011927",NA,NA,NA,TRUE
+"Tuebingen U",2014,1861.98,"10.1159/000363012",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"25095724",NA,NA,NA,TRUE
+"Tuebingen U",2014,1873.55,"10.1159/000362962",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"24969439",NA,NA,NA,TRUE
+"Tuebingen U",2014,2300.4,"10.1093/nar/gku1006",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"25404135","PMC4267612",NA,NA,TRUE
+"Tuebingen U",2014,1091.23,"10.1371/journal.pone.0099815",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24918625","PMC4053467",NA,NA,TRUE
+"Tuebingen U",2014,1904,"10.3389/fneur.2014.00236",FALSE,"Frontiers Media SA","Frontiers in Neurology","1664-2295",NA,"1664-2295",NA,TRUE,"25477860","PMC4235071",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fnhum.2014.00037",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"24567710","PMC3915104",NA,NA,TRUE
+"Tuebingen U",2014,761.6,"10.3389/fnbeh.2014.00385",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"25426039","PMC4226163",NA,NA,TRUE
+"Tuebingen U",2014,1083.7,"10.1371/journal.pone.0112793",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25409437","PMC4237361",NA,NA,TRUE
+"Tuebingen U",2014,2131.06,"10.1371/journal.pcbi.1003923",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"25392991","PMC4230734",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fpsyt.2014.00171",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640",NA,TRUE,"25506329","PMC4246670",NA,NA,TRUE
+"Tuebingen U",2014,916.3,"10.3389/fnhum.2014.00894",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25414659","PMC4222234",NA,NA,TRUE
+"Tuebingen U",2014,916.3,"10.3389/fnhum.2014.00604",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25152725","PMC4126150",NA,NA,TRUE
+"Tuebingen U",2014,1244.74,"10.1038/ncomms6388",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723",NA,TRUE,"25369851","PMC4272254",NA,NA,TRUE
+"Tuebingen U",2014,1993.25,"10.1186/1475-2875-13-454",FALSE,"Springer Science + Business Media","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"25421401","PMC4256729",NA,NA,TRUE
+"Tuebingen U",2014,1904,"10.3389/fnbeh.2014.00379",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"25404903","PMC4217502",NA,NA,TRUE
+"Tuebingen U",2014,1292.23,"10.1371/journal.pone.0112142",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25392995","PMC4230983",NA,NA,TRUE
+"Tuebingen U",2014,960,"10.3389/fpsyg.2014.01472",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25566147","PMC4268908",NA,NA,TRUE
+"Tuebingen U",2014,934.16,"10.1371/journal.pone.0114802",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25517903","PMC4269388",NA,NA,TRUE
+"Tuebingen U",2014,1440,"10.1186/cc13796",FALSE,"Springer Science + Business Media","Critical Care","1364-8535","1364-8535",NA,NA,TRUE,"24666981","PMC4057227",NA,NA,TRUE
+"Tuebingen U",2014,1542.24,"10.1186/1471-2334-14-124",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"24592922","PMC3943987",NA,NA,TRUE
+"Tuebingen U",2014,1408.96,"10.1186/1477-7827-12-23",FALSE,"Springer Science + Business Media","Reproductive Biology and Endocrinology","1477-7827","1477-7827",NA,NA,TRUE,"24641817","PMC4003801",NA,NA,TRUE
+"Tuebingen U",2014,1675.52,"10.1186/1750-1172-9-57",FALSE,"Springer Science + Business Media","Orphanet Journal of Rare Diseases","1750-1172","1750-1172",NA,NA,TRUE,"24742043","PMC4021831",NA,NA,TRUE
+"Tuebingen U",2014,1513.68,"10.1186/1471-2431-14-126",FALSE,"Springer Science + Business Media","BMC Pediatrics","1471-2431",NA,"1471-2431","http://www.springer.com/tdm",TRUE,"24884686","PMC4041904",NA,NA,TRUE
+"Tuebingen U",2014,1513.68,"10.1186/1471-2202-15-70",FALSE,"Springer Science + Business Media","BMC Neuroscience","1471-2202","1471-2202",NA,NA,TRUE,"24898526","PMC4079165",NA,NA,TRUE
+"Tuebingen U",2014,1523.3,"10.1186/1471-2377-14-118",FALSE,"Springer Science + Business Media","BMC Neurology","1471-2377",NA,"1471-2377","http://www.springer.com/tdm",TRUE,"24894446","PMC4060843",NA,NA,TRUE
+"Tuebingen U",2014,1542.24,"10.1186/2193-1801-3-388",FALSE,"Springer Science + Business Media","SpringerPlus","2193-1801","2193-1801",NA,NA,TRUE,"25120947","PMC4128953",NA,NA,TRUE
+"Tuebingen U",2014,1513.68,"10.1186/1471-2431-14-206",FALSE,"Springer Science + Business Media","BMC Pediatrics","1471-2431",NA,"1471-2431","http://www.springer.com/tdm",TRUE,"25138045","PMC4144695",NA,NA,TRUE
+"Tuebingen U",2014,1342.32,"10.1186/1477-9560-12-19",FALSE,"Springer Science + Business Media","Thrombosis Journal","1477-9560","1477-9560",NA,NA,TRUE,"25278813","PMC4182280",NA,NA,TRUE
+"Tuebingen U",2014,1523.2,"10.1186/1471-2407-14-766",FALSE,"Springer Science + Business Media","BMC Cancer","1471-2407",NA,"1471-2407","http://www.springer.com/tdm",TRUE,"25319454","PMC4203962",NA,NA,TRUE
+"Tuebingen U",2014,1523.2,"10.1186/1476-4598-13-231",FALSE,"Springer Science + Business Media","Molecular Cancer","1476-4598","1476-4598",NA,NA,TRUE,"25306547","PMC4201705",NA,NA,TRUE
+"Tuebingen U",2014,1523.2,"10.1186/1472-6920-14-208",FALSE,"Springer Science + Business Media","BMC Medical Education","1472-6920",NA,"1472-6920","http://www.springer.com/tdm",TRUE,"25273844","PMC4190478",NA,NA,TRUE
+"Tuebingen U",2014,1765.96,"10.1186/s12887-014-0287-2",FALSE,"Springer Science + Business Media","BMC Pediatrics","1471-2431",NA,"1471-2431","http://www.springer.com/tdm",TRUE,"25388806","PMC4233038",NA,NA,TRUE
+"Tuebingen U",2014,1523.2,"10.1186/1743-0003-11-165",FALSE,"Springer Science + Business Media","Journal of NeuroEngineering and Rehabilitation","1743-0003","1743-0003",NA,NA,TRUE,"25510922","PMC4274709",NA,NA,TRUE
+"Tuebingen U",2014,1594.6,"10.1186/1475-925X-13-167",FALSE,"Springer Science + Business Media","BioMedical Engineering OnLine","1475-925X","1475-925X",NA,NA,TRUE,"25516427","PMC4279817",NA,NA,TRUE
+"Tuebingen U",2014,1594.6,"10.1186/s12879-014-0650-9",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"25490897","PMC4266216",NA,NA,TRUE
+"Tuebingen U",2014,1523.2,"10.1186/s12879-014-0674-1",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"25487281","PMC4279999",NA,NA,TRUE
+"Tuebingen U",2014,1342.24,"10.1186/1748-717X-9-207",FALSE,"Springer Science + Business Media","Radiation Oncology","1748-717X","1748-717X",NA,NA,TRUE,"25234922","PMC4262387",NA,NA,TRUE
+"Tuebingen U",2014,1523.2,"10.1186/1471-2105-15-200",FALSE,"Springer Science + Business Media","BMC Bioinformatics","1471-2105","1471-2105",NA,NA,TRUE,"25002076","PMC4083868",NA,NA,TRUE
+"Tuebingen U",2014,1420.8,"10.1186/1750-1172-9-9",FALSE,"Springer Science + Business Media","Orphanet Journal of Rare Diseases","1750-1172","1750-1172",NA,NA,TRUE,"24433508","PMC3899445",NA,NA,TRUE
+"Tuebingen U",2014,1437.52,"10.1186/1471-2474-15-20",FALSE,"Springer Science + Business Media","BMC Musculoskeletal Disorders","1471-2474",NA,"1471-2474","http://www.springer.com/tdm",TRUE,"24433417","PMC3898222",NA,NA,TRUE
+"Tuebingen U",2014,806.4,"10.1186/2190-4715-26-3",FALSE,"Springer Science + Business Media","Environmental Sciences Europe","2190-4715","2190-4715",NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2014,1437.52,"10.1186/1750-1172-9-24",FALSE,"Springer Science + Business Media","Orphanet Journal of Rare Diseases","1750-1172","1750-1172",NA,NA,TRUE,"24528855","PMC3931488",NA,NA,TRUE
+"Tuebingen U",2014,1420.8,"10.1186/1472-6920-14-32",FALSE,"Springer Science + Business Media","BMC Medical Education","1472-6920",NA,"1472-6920","http://www.springer.com/tdm",TRUE,"24528532","PMC3930288",NA,NA,TRUE
+"Tuebingen U",2014,1152.87,"10.1186/1475-2875-13-48",FALSE,"Springer Science + Business Media","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"24502664","PMC4011513",NA,NA,TRUE
+"Tuebingen U",2014,1408.96,"10.1186/1750-1172-9-18",FALSE,"Springer Science + Business Media","Orphanet Journal of Rare Diseases","1750-1172","1750-1172",NA,NA,TRUE,"24499656","PMC3922034",NA,NA,TRUE
+"Tuebingen U",2014,1454.4,"10.1186/1471-2164-15-291",FALSE,"Springer Science + Business Media","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,"24734910","PMC4023603",NA,NA,TRUE
+"Tuebingen U",2014,1518.44,"10.1186/1471-2148-14-77",FALSE,"Springer Science + Business Media","BMC Evolutionary Biology","1471-2148","1471-2148",NA,NA,TRUE,"24707892","PMC4021230",NA,NA,TRUE
+"Tuebingen U",2014,1281.6,"10.1186/1758-2946-6-30",FALSE,"Springer Science + Business Media","Journal of Cheminformatics","1758-2946","1758-2946",NA,NA,TRUE,"24987463","PMC4074154",NA,NA,TRUE
+"Tuebingen U",2014,1459.2,"10.1186/ar4569",FALSE,"Springer Science + Business Media","Arthritis Research & Therapy","1478-6354","1478-6354",NA,NA,TRUE,"24887019","PMC4075409",NA,NA,TRUE
+"Tuebingen U",2014,1518.44,"10.1186/1471-2474-15-150",FALSE,"Springer Science + Business Media","BMC Musculoskeletal Disorders","1471-2474",NA,"1471-2474","http://www.springer.com/tdm",TRUE,"24886025","PMC4029939",NA,NA,TRUE
+"Tuebingen U",2014,1518.44,"10.1186/1743-422X-11-114",FALSE,"Springer Science + Business Media","Virology Journal","1743-422X","1743-422X",NA,NA,TRUE,"24942884","PMC4076064",NA,NA,TRUE
+"Tuebingen U",2014,1454.4,"10.1186/1471-2474-15-194",FALSE,"Springer Science + Business Media","BMC Musculoskeletal Disorders","1471-2474",NA,"1471-2474","http://www.springer.com/tdm",TRUE,"24894637","PMC4057594",NA,NA,TRUE
+"Tuebingen U",2014,1047.2,"10.1186/1687-1499-2014-98",FALSE,"Springer Science + Business Media","EURASIP Journal on Wireless Communications and Networking","1687-1499","1687-1499",NA,NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2014,1483.2,"10.1186/1471-2334-14-365",FALSE,"Springer Science + Business Media","BMC Infectious Diseases","1471-2334",NA,"1471-2334","http://www.springer.com/tdm",TRUE,"24993051","PMC4099094",NA,NA,TRUE
+"Tuebingen U",2014,1513.68,"10.1186/1471-2253-14-66",FALSE,"Springer Science + Business Media","BMC Anesthesiology","1471-2253",NA,"1471-2253","http://www.springer.com/tdm",TRUE,"25110463","PMC4126617",NA,NA,TRUE
+"Tuebingen U",2014,1454.4,"10.1186/1472-6920-14-185",FALSE,"Springer Science + Business Media","BMC Medical Education","1472-6920",NA,"1472-6920","http://www.springer.com/tdm",TRUE,"25194168","PMC4168208",NA,NA,TRUE
+"Tuebingen U",2014,1262.4,"10.1186/1546-0096-12-9",FALSE,"Springer Science + Business Media","Pediatric Rheumatology","1546-0096","1546-0096",NA,NA,TRUE,"24593886","PMC3975869",NA,NA,TRUE
+"Tuebingen U",2014,1485.12,"10.1186/1472-6963-14-427",FALSE,"Springer Science + Business Media","BMC Health Services Research","1472-6963",NA,"1472-6963","http://www.springer.com/tdm",TRUE,"25248968","PMC4263045",NA,NA,TRUE
+"Tuebingen U",2014,1333.62,"10.1371/journal.pone.0114630",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25531674","PMC4273973",NA,NA,TRUE
+"Tuebingen U",2014,1904,"10.3389/fpsyg.2014.01507",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25653624","PMC4299432",NA,NA,TRUE
+"Tuebingen U",2014,1884.17,"10.1159/000369666",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"25562169",NA,NA,NA,TRUE
+"Tuebingen U",2014,1884.17,"10.1159/000369668",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"25562171",NA,NA,NA,TRUE
+"Tuebingen U",2014,1993.25,"10.1186/1475-2875-13-476",FALSE,"Springer Science + Business Media","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"25476467","PMC4289317",NA,NA,TRUE
+"Tuebingen U",2014,1993.25,"10.1186/1475-2875-13-436",FALSE,"Springer Science + Business Media","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"25406504","PMC4242501",NA,NA,TRUE
+"Tuebingen U",2014,1142.4,"10.3389/fnbeh.2014.00429",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"25538591","PMC4260503",NA,NA,TRUE
+"Tuebingen U",2014,1343.11,"10.1371/journal.pone.0114566",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25470145","PMC4255021",NA,NA,TRUE
+"Tuebingen U",2014,1343.11,"10.1371/journal.pone.0115090",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25671634","PMC4324907",NA,NA,TRUE
+"Tuebingen U",2014,892.5,"10.3390/toxins6123596",FALSE,"MDPI AG","Toxins","2072-6651",NA,"2072-6651",NA,TRUE,"25533522","PMC4280550",NA,NA,TRUE
+"Tuebingen U",2014,1094.09,"10.1371/journal.pone.0115265",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25531278","PMC4274022",NA,NA,TRUE
+"Tuebingen U",2014,1854.42,"10.1159/000368451",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"25376088",NA,NA,NA,TRUE
+"Tuebingen U",2014,1685.14,"10.1159/000368454",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"25412628",NA,NA,NA,TRUE
+"Tuebingen U",2014,1517.25,"10.1159/000368457",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"25471359",NA,NA,NA,TRUE
+"Tuebingen U",2014,916.3,"10.3389/fnhum.2014.01038",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25610390","PMC4285751",NA,NA,TRUE
+"Tuebingen U",2014,1600,"10.3389/fnhum.2014.01033",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25642177","PMC4295525",NA,NA,TRUE
+"Tuebingen U",2014,1743.35,"10.1186/s13321-014-0050-6",FALSE,"Springer Science + Business Media","Journal of Cheminformatics","1758-2946","1758-2946",NA,NA,TRUE,"25643067","PMC4306736",NA,NA,TRUE
+"Tuebingen U",2015,2000,"10.14573/altex.1408041",FALSE,"ALTEX Edition","ALTEX","1868596X","1868596X",NA,NA,TRUE,"25372315",NA,NA,NA,FALSE
+"Tuebingen U",2015,1415,"10.1159/000368468",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1423-0143","1420-4096","1423-0143",NA,TRUE,"25531828",NA,NA,NA,TRUE
+"Tuebingen U",2015,772.32,"10.1155/2015/513518",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","http://creativecommons.org/licenses/by/3.0/",TRUE,"25821808","PMC4364016",NA,NA,TRUE
+"Tuebingen U",2015,1142.4,"10.3389/fnins.2015.00036",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X",NA,TRUE,"25729347","PMC4325901",NA,NA,TRUE
+"Tuebingen U",2015,1142.4,"10.3389/fnbeh.2015.00021",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"25762908","PMC4329795",NA,NA,TRUE
+"Tuebingen U",2015,1142.4,"10.3389/fncom.2015.00026",FALSE,"Frontiers Media SA","Frontiers in Computational Neuroscience","1662-5188",NA,"1662-5188",NA,TRUE,"25767446","PMC4341563",NA,NA,TRUE
+"Tuebingen U",2015,1606,"10.3390/ijms16024190",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067",NA,TRUE,"25690034","PMC4346952",NA,NA,TRUE
+"Tuebingen U",2015,1600,"10.3389/fnhum.2015.00155",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25859204","PMC4374466",NA,NA,TRUE
+"Tuebingen U",2015,1142.4,"10.3389/fpsyg.2015.00292",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25852609","PMC4367177",NA,NA,TRUE
+"Tuebingen U",2015,685.44,"10.5194/nhessd-2-6937-2014",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2015,1495,"10.1371/journal.pone.0122863",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25830371","PMC4382192",NA,NA,TRUE
+"Tuebingen U",2015,1527.23,"10.1371/journal.pone.0121620",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25799149","PMC4370634",NA,NA,TRUE
+"Tuebingen U",2015,1549.33,"10.1371/journal.pone.0121359",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25798949","PMC4370506",NA,NA,TRUE
+"Tuebingen U",2015,916.3,"10.3389/fpsyg.2015.00348",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"25883575","PMC4381502",NA,NA,TRUE
+"Tuebingen U",2015,1142.4,"10.3389/fmicb.2015.00248",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X",NA,TRUE,"25873915","PMC4379935",NA,NA,TRUE
+"Tuebingen U",2015,1904,"10.3389/fnhum.2015.00110",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25798099","PMC4350389",NA,NA,TRUE
+"Tuebingen U",2015,511.81,"10.3390/cells4020202",FALSE,"MDPI AG","Cells","2073-4409",NA,"2073-4409",NA,TRUE,"26010754","PMC4493456",NA,NA,TRUE
+"Tuebingen U",2015,1560.04,"10.1371/journal.pone.0123444",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25844871","PMC4386828",NA,NA,TRUE
+"Tuebingen U",2015,653.31,"10.1556/EUJMI-D-14-00041",FALSE,"Akademiai Kiado Zrt.","European Journal of Microbiology and Immunology","2062-509X","2062-509X","2062-8633",NA,TRUE,"25883801","PMC4397855",NA,NA,FALSE
+"Tuebingen U",2015,1904,"10.3389/fncom.2015.00047",FALSE,"Frontiers Media SA","Frontiers in Computational Neuroscience","1662-5188",NA,"1662-5188",NA,TRUE,"25983690","PMC4415408",NA,NA,TRUE
+"Tuebingen U",2015,1258.39,"10.1371/journal.pone.0123059",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25885790","PMC4401728",NA,NA,TRUE
+"Tuebingen U",2015,1285.39,"10.1371/journal.pone.0126707",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25966025","PMC4428754",NA,NA,TRUE
+"Tuebingen U",2015,1904,"10.3389/fnhum.2015.00240",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25983686","PMC4415410",NA,NA,TRUE
+"Tuebingen U",2015,1180.41,"10.1159/000374031",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1015-8987","1015-8987","1421-9778",NA,TRUE,"25895678",NA,NA,NA,TRUE
+"Tuebingen U",2015,870.408,"10.1371/journal.pone.0126804",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25965336","PMC4429020",NA,NA,TRUE
+"Tuebingen U",2015,1424,"10.3389/fpsyg.2015.00598",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26029138","PMC4428074",NA,NA,TRUE
+"Tuebingen U",2015,1437.84,"10.1371/journal.pone.0128183",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26200112","PMC4511587",NA,NA,TRUE
+"Tuebingen U",2015,1642,"10.1159/000368491",FALSE,"S. Karger AG","Kidney and Blood Pressure Research","1420-4096","1420-4096","1423-0143",NA,TRUE,"25871296",NA,NA,NA,TRUE
+"Tuebingen U",2015,1187.8,"10.1371/journal.pone.0130732",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26111251","PMC4482428",NA,NA,TRUE
+"Tuebingen U",2015,1212.72,"10.1371/journal.pone.0128084",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26079260","PMC4469422",NA,NA,TRUE
+"Tuebingen U",2015,1715.75,"10.3389/fnmol.2015.00021",FALSE,"Frontiers Media SA","Frontiers in Molecular Neuroscience","1662-5099",NA,"1662-5099",NA,TRUE,"26124703","PMC4466442",NA,NA,TRUE
+"Tuebingen U",2015,1287.03,"10.3389/fpsyg.2015.01197",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26441696","PMC4568392",NA,NA,TRUE
+"Tuebingen U",2015,1210,"10.3390/rs70809563",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2015,862.57,NA,FALSE,"omics international","International Journal of Emergency Mental Health and Human Resilience","1522-4821",NA,NA,NA,FALSE,NA,NA,NA,"http://www.omicsonline.com/open-access/dementia-caregiver-interventions-a-systematic-review-of-caregiveroutcomes-and-instruments-in-randomized-controlled-trials-1522-4821-1000195.php?aid=46023",FALSE
+"Tuebingen U",2015,1516.98,"10.1371/journal.pone.0123914",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25902182","PMC4406446",NA,NA,TRUE
+"Tuebingen U",2015,1208.05,"10.1371/journal.pone.0131824",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26125972","PMC4488358",NA,NA,TRUE
+"Tuebingen U",2015,1460.55,"10.1371/journal.pone.0131154",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26110792","PMC4482384",NA,NA,TRUE
+"Tuebingen U",2015,1221.94,"10.1371/journal.pone.0131314",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26176853","PMC4503676",NA,NA,TRUE
+"Tuebingen U",2015,1904,"10.3389/fpsyg.2015.00622",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26029150","PMC4428077",NA,NA,TRUE
+"Tuebingen U",2015,1454.5,"10.1371/journal.pone.0132196",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26148062","PMC4492787",NA,NA,TRUE
+"Tuebingen U",2015,1051.79,"10.1371/journal.pone.0130363",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26154177","PMC4496088",NA,NA,TRUE
+"Tuebingen U",2015,632.29,"10.17140/SEMOJ-1-109",FALSE,"Openventio Publishers","Sports and Exercise Medicine - Open Journal","23796375",NA,"23796375",NA,TRUE,NA,NA,NA,NA,FALSE
+"Tuebingen U",2015,1832.07,"10.1186/1471-2105-16-S11-S3",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105","1471-2105",NA,NA,TRUE,"26328606","PMC4547177",NA,NA,TRUE
+"Tuebingen U",2015,1392.3,"10.1088/1367-2630/17/5/053005",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2015,2039.87,"10.3389/fncom.2015.00079",FALSE,"Frontiers Media SA","Frontiers in Computational Neuroscience","1662-5188",NA,"1662-5188",NA,TRUE,"26217215","PMC4491628",NA,NA,TRUE
+"Tuebingen U",2015,1208.05,"10.1371/journal.pone.0130001",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26098694","PMC4476744",NA,NA,TRUE
+"Tuebingen U",2015,1745,"10.1186/s12868-015-0185-z",FALSE,"Springer Nature","BMC Neuroscience","1471-2202",NA,"1471-2202",NA,TRUE,"26541673","PMC4635610",NA,NA,TRUE
+"Tuebingen U",2015,387.76,"10.3389/fnins.2015.00263",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X",NA,TRUE,"26283903","PMC4518157",NA,NA,TRUE
+"Tuebingen U",2015,1581.33,"10.1016/j.nicl.2015.06.013",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26413473","PMC4543214",NA,NA,FALSE
+"Tuebingen U",2015,1142.4,"10.3389/fnhum.2015.00391",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"26190995","PMC4490244",NA,NA,TRUE
+"Tuebingen U",2015,1142.4,"10.3389/fnbeh.2015.00181",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"26236207","PMC4500921",NA,NA,TRUE
+"Tuebingen U",2015,1555.73,"10.3389/fpsyg.2015.01213",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26347682","PMC4539453",NA,NA,TRUE
+"Tuebingen U",2015,1278.26,"10.3389/fphy.2015.00063",FALSE,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2015,1199.36,"10.1371/journal.pone.0135832",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26285210","PMC4540285",NA,NA,TRUE
+"Tuebingen U",2015,897.49,"10.7717/peerj.1189",FALSE,"PeerJ","PeerJ","2167-8359",NA,"2167-8359",NA,TRUE,"26413432","PMC4581773",NA,NA,TRUE
+"Tuebingen U",2015,1386.35,"10.1038/srep13450",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26304588","PMC4548255",NA,NA,TRUE
+"Tuebingen U",2015,1206.65,"10.1371/journal.pone.0136146",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26353118","PMC4564210",NA,NA,TRUE
+"Tuebingen U",2015,2054.7,"10.3389/fnhum.2015.00456",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"26379523","PMC4548224",NA,NA,TRUE
+"Tuebingen U",2015,1415.79,"10.1371/journal.pone.0138863",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26394050","PMC4578891",NA,NA,TRUE
+"Tuebingen U",2015,849.04,"10.4172/2314-7326.S1-001",FALSE,"OMICS Publishing Group","Journal of Neuroinfectious Diseases","23147326",NA,"23147326",NA,TRUE,NA,NA,NA,NA,FALSE
+"Tuebingen U",2015,2018.03," 10.3389/fpsyg.2015.01489",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2015,1773.1,"10.3390/molecules201018367",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049",NA,TRUE,"26473808",NA,NA,NA,TRUE
+"Tuebingen U",2015,1207.5,"10.1371/journal.pone.0138879",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26421920","PMC4589283",NA,NA,TRUE
+"Tuebingen U",2015,2030.9,"10.3389/fncir.2015.00053",FALSE,"Frontiers Media SA","Frontiers in Neural Circuits","1662-5110",NA,"1662-5110",NA,TRUE,"26483640","PMC4588702",NA,NA,TRUE
+"Tuebingen U",2015,1165,"10.1038/srep13402",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26292717","PMC4544033",NA,NA,TRUE
+"Tuebingen U",2015,1651.23,"10.4172/2168-975X.S2-001",FALSE,"OMICS Publishing Group","Brain Disorders & Therapy","2168975X",NA,"2168975X",NA,TRUE,NA,NA,NA,NA,FALSE
+"Tuebingen U",2015,854.672,"10.1371/journal.pone.0135527",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26263001","PMC4532358",NA,NA,TRUE
+"Tuebingen U",2015,641.291,"10.3389/fpsyg.2015.01062",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26257701","PMC4512035",NA,NA,TRUE
+"Tuebingen U",2015,1986.13,"10.18632/oncotarget.5673",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,"26515460","PMC4747361",NA,NA,FALSE
+"Tuebingen U",2015,1226.72,"10.1371/journal.pone.0134971",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26398489","PMC4580460",NA,NA,TRUE
+"Tuebingen U",2015,892.39,"10.12659/AOT.895729",FALSE,"International Scientific Literature","Annals of Transplantation","2329-0358",NA,"2329-0358",NA,TRUE,NA,NA,NA,NA,FALSE
+"Tuebingen U",2015,1142.4,"10.3389/fnhum.2015.00564",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"26528168","PMC4607784",NA,NA,TRUE
+"Tuebingen U",2015,1386.35,"10.1038/srep16008",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26522966","PMC4629184",NA,NA,TRUE
+"Tuebingen U",2015,1986.99,"10.3389/fnint.2015.00053",FALSE,"Frontiers Media SA","Frontiers in Integrative Neuroscience","1662-5145",NA,"1662-5145",NA,TRUE,"26528148","PMC4606012",NA,NA,TRUE
+"Tuebingen U",2015,959.68,"10.3389/fncel.2015.00444",FALSE,"Frontiers Media SA","Frontiers in Cellular Neuroscience","1662-5102",NA,"1662-5102",NA,TRUE,"26617491","PMC4637421",NA,NA,TRUE
+"Tuebingen U",2015,1785.84,NA,FALSE,"Austin Publishing group","Annals of Hematology & Oncology","2375-7965",NA,NA,NA,FALSE,NA,NA,NA,"http://austinpublishinggroup.com/hematology/fulltext/hematology-v2-id1037.php",FALSE
+"Tuebingen U",2015,1325.48,"10.4172/2168-975X.1000187",FALSE,"OMICS Publishing Group","Brain Disorders & Therapy","2168975X",NA,"2168975X",NA,TRUE,NA,NA,NA,NA,FALSE
+"Tuebingen U",2015,1857.9,"10.2196/jmir.4597",FALSE,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871",NA,TRUE,"26607233","PMC4704952",NA,NA,TRUE
+"Tuebingen U",2015,1277.8,"10.1371/journal.pone.0143584",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26600188","PMC4658024",NA,NA,TRUE
+"Tuebingen U",2015,747.06,"10.1155/2016/3186016",FALSE,"Hindawi Publishing Corporation","Gastroenterology Research and Practice","1687-6121","1687-6121","1687-630X","http://creativecommons.org/licenses/by/4.0/",TRUE,"26880887","PMC4736007",NA,NA,TRUE
+"Tuebingen U",2015,2019.63,"10.3389/fpsyg.2015.01813",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26648886","PMC4663265",NA,NA,TRUE
+"Tuebingen U",2015,1386.35,"10.1038/srep17281",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26603208","PMC4658565",NA,NA,TRUE
+"Tuebingen U",2015,1593.18,"10.1016/j.nicl.2015.11.009",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26759785","PMC4683423",NA,NA,FALSE
+"Tuebingen U",2015,1787.39,"10.3389/fpsyg.2015.01859",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26648902","PMC4664952",NA,NA,TRUE
+"Tuebingen U",2015,1384.89,"10.3389/fpsyg.2015.01763 ",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26640445","PMC4661237",NA,NA,TRUE
+"Tuebingen U",2015,1587.78,"10.3389/fpsyg.2015.01833",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,TRUE,"26648893","PMC4663255",NA,NA,TRUE
+"Tuebingen U",2015,1380,"10.1136/bmjopen-2015-009445",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055",NA,TRUE,"26685032","PMC4691789",NA,NA,TRUE
+"Tuebingen U",2015,770,"10.3389/fnbeh.2015.00269",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"26539089","PMC4611064",NA,NA,TRUE
+"Tuebingen U",2015,1556.82,"10.3389/fncel.2015.00482",FALSE,"Frontiers Media SA","Frontiers in Cellular Neuroscience","1662-5102",NA,"1662-5102",NA,TRUE,"26733808","PMC4683355",NA,NA,TRUE
+"Tuebingen U",2015,1386.35,"10.1038/srep17349",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322",NA,TRUE,"26611642","PMC4661469",NA,NA,TRUE
+"Tuebingen U",2015,1751.59,"10.1364/OE.23.018401",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087",NA,TRUE,"26191898",NA,NA,NA,FALSE
+"Tuebingen U",2015,1389.49,"10.3390/rs71215821",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2015,1382.4,"10.1186/1475-2875-12-412",FALSE,"Springer Nature","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"24225335","PMC3830506",NA,NA,TRUE
+"Tuebingen U",2015,1827.48,"10.1186/s13148-014-0038-0",FALSE,"Springer Nature","Clinical Epigenetics","1868-7083","1868-7083",NA,NA,TRUE,"25657826","PMC4318184",NA,NA,TRUE
+"Tuebingen U",2015,1542.24,"10.1186/s12936-015-0608-4",FALSE,"Springer Nature","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"25890010","PMC4365807",NA,NA,TRUE
+"Tuebingen U",2015,1542.24,"10.1186/s12936-015-0605-7",FALSE,"Springer Nature","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"25885325","PMC4335593",NA,NA,TRUE
+"Tuebingen U",2015,1799.28,"10.1186/s12964-015-0099-5",FALSE,"Springer Nature","Cell Communication and Signaling","1478-811X",NA,"1478-811X","http://creativecommons.org/licenses/by/4.0",TRUE,"25889792","PMC4422548",NA,NA,TRUE
+"Tuebingen U",2015,1542.24,"10.1186/s12936-015-0628-0",FALSE,"Springer Nature","Malaria Journal","1475-2875",NA,"1475-2875",NA,TRUE,"25889522","PMC4371633",NA,NA,TRUE
+"Tuebingen U",2015,1408.96,"10.1186/s12969-015-0004-1",FALSE,"Springer Nature","Pediatric Rheumatology","1546-0096",NA,"1546-0096",NA,TRUE,"25829894","PMC4379600",NA,NA,TRUE
+"Tuebingen U",2015,1594.6,"10.1186/s13058-015-0541-z",FALSE,"Springer Nature","Breast Cancer Research","1465-5411",NA,"1465-5411",NA,TRUE,"25849846","PMC4377034",NA,NA,TRUE
+"Tuebingen U",2015,1594.6,"10.1186/s12985-015-0261-0",FALSE,"Springer Nature","Virology Journal","1743-422X","1743-422X",NA,NA,TRUE,"25889921","PMC4355422",NA,NA,TRUE
+"Tuebingen U",2015,737.8,"10.1186/s13104-015-1138-4",FALSE,"Springer Nature","BMC Research Notes","1756-0500",NA,"1756-0500",NA,TRUE,"25952620","PMC4429671",NA,NA,TRUE
+"Tuebingen U",2015,1394.68,"10.1186/s13321-015-0074-6",FALSE,"Springer Nature","Journal of Cheminformatics","1758-2946",NA,"1758-2946",NA,TRUE,"26034510","PMC4450982",NA,NA,TRUE
+"Tuebingen U",2015,1594.6,"10.1186/s13063-015-0683-4",FALSE,"Springer Nature","Trials","1745-6215",NA,"1745-6215",NA,TRUE,"25928870","PMC4433028",NA,NA,TRUE
+"Tuebingen U",2015,1332.8,"10.1186/s12950-015-0050-y",FALSE,"Springer Nature","Journal of Inflammation","1476-9255","1476-9255",NA,NA,TRUE,"25698903","PMC4334608",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12883-015-0363-8",FALSE,"Springer Nature","BMC Neurology","1471-2377",NA,"1471-2377",NA,TRUE,"26152311","PMC4495627",NA,NA,TRUE
+"Tuebingen U",2015,1899.24,"10.1186/s13148-015-0095-z",FALSE,"Springer Nature","Clinical Epigenetics","1868-7075","1868-7075","1868-7083",NA,TRUE,"26161152","PMC4497414",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12938-015-0068-7",FALSE,"Springer Nature","BioMedical Engineering OnLine","1475-925X",NA,"1475-925X",NA,TRUE,"26201401","PMC4511523",NA,NA,TRUE
+"Tuebingen U",2015,1594.6,"10.1186/s12885-015-1616-z",FALSE,"Springer Nature","BMC Cancer","1471-2407",NA,"1471-2407",NA,TRUE,"26315105","PMC4552308",NA,NA,TRUE
+"Tuebingen U",2015,1899.24,"10.1186/s13148-015-0133-x",FALSE,"Springer Nature","Clinical Epigenetics","1868-7075","1868-7075","1868-7083",NA,TRUE,"26366235","PMC4567821",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12891-015-0697-9",FALSE,"Springer Nature","BMC Musculoskeletal Disorders","1471-2474",NA,"1471-2474",NA,TRUE,"26341003","PMC4560873",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12868-015-0192-0",FALSE,"Springer Nature","BMC Neuroscience","1471-2202",NA,"1471-2202",NA,TRUE,"26346361","PMC4562100",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12918-015-0212-9",FALSE,"Springer Nature","BMC Systems Biology","1752-0509",NA,"1752-0509",NA,TRUE,"26452770","PMC4600286",NA,NA,TRUE
+"Tuebingen U",2015,842.52,"10.1186/s12302-015-0056-3",FALSE,"Springer Nature","Environmental Sciences Europe","2190-4707","2190-4707","2190-4715",NA,TRUE,NA,NA,NA,NA,TRUE
+"Tuebingen U",2015,498.37,"10.1186/s12883-015-0447-5",FALSE,"Springer Nature","BMC Neurology","1471-2377",NA,"1471-2377",NA,TRUE,"26452640","PMC4600299",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12909-015-0443-x",FALSE,"Springer Nature","BMC Medical Education","1472-6920",NA,"1472-6920",NA,TRUE,"26415941","PMC4587833",NA,NA,TRUE
+"Tuebingen U",2015,1523.2,"10.1186/s12879-015-1180-9",FALSE,"Springer Nature","BMC Infectious Diseases","1471-2334",NA,"1471-2334",NA,TRUE,"26503619","PMC4621931",NA,NA,TRUE
+"Tuebingen U",2015,1504.16,"10.1186/s12969-015-0041-9",FALSE,"Springer Nature","Pediatric Rheumatology","1546-0096",NA,"1546-0096",NA,TRUE,"26531310","PMC4632838",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12891-015-0826-5",FALSE,"Springer Nature","BMC Musculoskeletal Disorders","1471-2474",NA,"1471-2474",NA,TRUE,"26634924","PMC4669663",NA,NA,TRUE
+"Tuebingen U",2015,1504.16,"10.1186/s12979-015-0052-x",FALSE,"Springer Nature","Immunity & Ageing","1742-4933",NA,"1742-4933",NA,TRUE,"26640505","PMC4670504",NA,NA,TRUE
+"Tuebingen U",2015,1785,"10.1186/s12937-015-0076-2",FALSE,"Springer Nature","Nutrition Journal","1475-2891",NA,"1475-2891",NA,TRUE,"26537818","PMC4634581",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12934-015-0384-4",FALSE,"Springer Nature","Microbial Cell Factories","1475-2859",NA,"1475-2859",NA,TRUE,"26608263","PMC4660640",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12885-015-1968-4",FALSE,"Springer Nature","BMC Cancer","1471-2407",NA,"1471-2407",NA,TRUE,"26675671","PMC4682268",NA,NA,TRUE
+"Tuebingen U",2015,2003.96,"10.1186/s12957-015-0752-x",FALSE,"Springer Nature","World Journal of Surgical Oncology","1477-7819",NA,"1477-7819",NA,TRUE,"26684213","PMC4683761",NA,NA,TRUE
+"Tuebingen U",2015,1661.24,"10.1186/s12885-015-2014-2",FALSE,"Springer Nature","BMC Cancer","1471-2407",NA,"1471-2407",NA,TRUE,"26690689","PMC4687293",NA,NA,TRUE
+"MPG",2015,2950.73,"10.1371/journal.pbio.1002073",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","http://creativecommons.org/licenses/by/4.0/",TRUE,"25710328","PMC4339735",NA,NA,TRUE
+"MPG",2015,1373.62,"10.1371/journal.pone.0116536",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25706533","PMC4338252",NA,NA,TRUE
+"MPG",2015,1373.62,"10.1371/journal.pone.0117312",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25723751","PMC4344194",NA,NA,TRUE
+"MPG",2015,1373.62,"10.1371/journal.pone.0118695",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25714095","PMC4340946",NA,NA,TRUE
+"MPG",2015,1373.62,"10.1371/journal.pone.0117532",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25675444","PMC4326128",NA,NA,TRUE
+"MPG",2015,1373.62,"10.1371/journal.pone.0118740",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25692786","PMC4333295",NA,NA,TRUE
+"MPG",2015,1373.62,"10.1371/journal.pone.0116492",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25671708","PMC4324766",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0118890",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25837719","PMC4383593",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0119030",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25775093","PMC4361563",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0122150",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25826219","PMC4380337",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0119188",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25793306","PMC4368813",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0119163",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25803427","PMC4372288",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0120068",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25793289","PMC4368040",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0120272",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25830625","PMC4382147",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0119860",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26061878","PMC4464885",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0120206",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25826216","PMC4380457",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0118853",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25750992","PMC4353617",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0120533",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25793367","PMC4368725",NA,NA,TRUE
+"MPG",2015,1451.7,"10.1371/journal.pone.0120494",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25786250","PMC4364954",NA,NA,TRUE
+"MPG",2015,2311.39,"10.1371/journal.pgen.1005023",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"25830239","PMC4382338",NA,NA,TRUE
+"MPG",2015,2311.39,"10.1371/journal.pgen.1005146",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"26087034","PMC4473527",NA,NA,TRUE
+"MPG",2015,1386.83,"10.1371/journal.pone.0123019",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25901602","PMC4406681",NA,NA,TRUE
+"MPG",2015,1386.83,"10.1371/journal.pone.0122475",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25830918","PMC4382171",NA,NA,TRUE
+"MPG",2015,1386.83,"10.1371/journal.pone.0122221",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25898319","PMC4405575",NA,NA,TRUE
+"MPG",2015,1386.83,"10.1371/journal.pone.0121675",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25826215","PMC4380363",NA,NA,TRUE
+"MPG",2015,1386.83,"10.1371/journal.pone.0123899",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25879926","PMC4399992",NA,NA,TRUE
+"MPG",2015,1386.83,"10.1371/journal.pone.0125099",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25923686","PMC4414272",NA,NA,TRUE
+"MPG",2015,1386.83,"10.1371/journal.pone.0124650",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25993380","PMC4439039",NA,NA,TRUE
+"MPG",2015,1386.83,"10.1371/journal.pone.0122957",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25823014","PMC4378991",NA,NA,TRUE
+"MPG",2015,2351.67,"10.1371/journal.pcbi.1004294",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"25996373","PMC4440638",NA,NA,TRUE
+"MPG",2015,2351.67,"10.1371/journal.pcbi.1004287",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"26067358","PMC4465831",NA,NA,TRUE
+"MPG",2015,1411,"10.1371/journal.pone.0127000",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25993274","PMC4436369",NA,NA,TRUE
+"MPG",2015,1411,"10.1371/journal.pone.0127305",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25996476","PMC4440773",NA,NA,TRUE
+"MPG",2015,1411,"10.1371/journal.pone.0125445",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25941812","PMC4420485",NA,NA,TRUE
+"MPG",2015,1411,"10.1371/journal.pone.0127043",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25965335","PMC4428882",NA,NA,TRUE
+"MPG",2015,1411,"10.1371/journal.pone.0125444",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25961286","PMC4427407",NA,NA,TRUE
+"MPG",2015,1411,"10.1371/journal.pone.0127296",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26030663","PMC4452144",NA,NA,TRUE
+"MPG",2015,1411,"10.1371/journal.pone.0127104",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25938235","PMC4418840",NA,NA,TRUE
+"MPG",2015,1411,"10.1371/journal.pone.0127207",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25996870","PMC4440740",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0128465",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26011321","PMC4444327",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0129684",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26075710","PMC4468221",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0128451",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26042816","PMC4456364",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0127118",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26038825","PMC4454537",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0129726",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26091358","PMC4474718",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0128776",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26030824","PMC4452512",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0127008",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26083665","PMC4470511",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0128342",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26024445","PMC4449219",NA,NA,TRUE
+"MPG",2015,1400.19,"10.1371/journal.pone.0129254",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26154509","PMC4495928",NA,NA,TRUE
+"MPG",2015,3070.3,"10.1371/journal.pbio.1002217",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","http://creativecommons.org/licenses/by/4.0/",TRUE,"26252244","PMC4529158",NA,NA,TRUE
+"MPG",2015,2382.13,"10.1371/journal.pgen.1005341",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"26132848","PMC4488436",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0132145",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26186527","PMC4506144",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0129731",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26134279","PMC4489924",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0131691",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26121035","PMC4484801",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0131875",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26158726","PMC4497637",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0130834",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26114751","PMC4482716",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0130766",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26154431","PMC4496095",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0131818",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26134977","PMC4489927",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0132428",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26134976","PMC4489860",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0131136",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26125626","PMC4488370",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0130850",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26153691","PMC4496085",NA,NA,TRUE
+"MPG",2015,1429.28,"10.1371/journal.pone.0132132",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26136125","PMC4489926",NA,NA,TRUE
+"MPG",2015,2371.24,"10.1371/journal.pcbi.1004369",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"26305797","PMC4549275",NA,NA,TRUE
+"MPG",2015,2371.24,"10.1371/journal.pcbi.1004442",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"26267143","PMC4534380",NA,NA,TRUE
+"MPG",2015,2371.24,"10.1371/journal.pcbi.1004420",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"26335425","PMC4559467",NA,NA,TRUE
+"MPG",2015,2371.24,"10.1371/journal.pcbi.1004427",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"26325254","PMC4556690",NA,NA,TRUE
+"MPG",2015,2371.24,"10.1371/journal.pcbi.1004343",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"26496371","PMC4619893",NA,NA,TRUE
+"MPG",2015,2371.24,"10.1371/journal.pgen.1005423",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"26247782","PMC4527767",NA,NA,TRUE
+"MPG",2015,1422.74,"10.1371/journal.pone.0133820",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26230256","PMC4521943",NA,NA,TRUE
+"MPG",2015,1422.74,"10.1371/journal.pone.0133988",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26267652","PMC4534140",NA,NA,TRUE
+"MPG",2015,1422.74,"10.1371/journal.pone.0134961",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26244883","PMC4526683",NA,NA,TRUE
+"MPG",2015,1422.74,"10.1371/journal.pone.0134236",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26230398","PMC4521690",NA,NA,TRUE
+"MPG",2015,1422.74,"10.1371/journal.pone.0131762",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26147808","PMC4509578",NA,NA,TRUE
+"MPG",2015,1422.74,"10.1371/journal.pone.0134994",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26270805","PMC4535986",NA,NA,TRUE
+"MPG",2015,1422.74,"10.1371/journal.pone.0135394",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26308213","PMC4550346",NA,NA,TRUE
+"MPG",2015,2944.48,"10.1371/journal.pbio.1002257",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","http://creativecommons.org/licenses/by/4.0/",TRUE,"26394205","PMC4579086",NA,NA,TRUE
+"MPG",2015,2944.48,"10.1371/journal.pbio.1002248",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","http://creativecommons.org/licenses/by/4.0/",TRUE,"26366558","PMC4569426",NA,NA,TRUE
+"MPG",2015,2944.48,"10.1371/journal.pbio.1002255",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","http://creativecommons.org/licenses/by/4.0/",TRUE,"26394016","PMC4579081",NA,NA,TRUE
+"MPG",2015,2284.51,"10.1371/journal.pcbi.1004437",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"26544962","PMC4636432",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0111637",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25369332","PMC4219743",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136073",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26336100","PMC4559451",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0137661",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26355966","PMC4565587",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0137557",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26335441","PMC4559420",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136768",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26352593","PMC4564177",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136920",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26368807","PMC4569553",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0137456",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26397983","PMC4580647",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136925",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26322782","PMC4555836",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0133984",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26332773","PMC4557928",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136233",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26375606","PMC4574475",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136234",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26291081","PMC4546398",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0138021",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26376439","PMC4574310",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136100",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26375483","PMC4573759",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136432",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26322783","PMC4556452",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0135448",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26305355","PMC4549274",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0137393",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26352149","PMC4564208",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0136337",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26309219","PMC4550360",NA,NA,TRUE
+"MPG",2015,2284.51,"10.1371/journal.pgen.1005539",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"26393790","PMC4579134",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0138985",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26465139","PMC4605647",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0139429",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26431424","PMC4592070",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0137841",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26367536","PMC4569174",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0139073",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26413839","PMC4587668",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0137969",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26383861","PMC4575186",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0138965",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26440112","PMC4595471",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0140246",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26465604","PMC4605766",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0139516",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26426330","PMC4591122",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0137391",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26382944","PMC4575116",NA,NA,TRUE
+"MPG",2015,1370.71,"10.1371/journal.pone.0140191",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26439494","PMC4595131",NA,NA,TRUE
+"MPG",2015,2419.27,"10.1371/journal.pcbi.1004602",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358",NA,TRUE,"26575467","PMC4648540",NA,NA,TRUE
+"MPG",2015,2419.27,"10.1371/journal.pgen.1005607",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"26523602","PMC4629907",NA,NA,TRUE
+"MPG",2015,1451.56,"10.1371/journal.pone.0141069",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26536026","PMC4633113",NA,NA,TRUE
+"MPG",2015,1451.56,"10.1371/journal.pone.0141564",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26529101","PMC4631320",NA,NA,TRUE
+"MPG",2015,1451.56,"10.1371/journal.pone.0142238",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26544879","PMC4636295",NA,NA,TRUE
+"MPG",2015,3044.57,"10.1371/journal.pbio.1002332",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885",NA,TRUE,"26731567","PMC4701418",NA,NA,TRUE
+"MPG",2015,3044.57,"10.1371/journal.pbio.1002318",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885",NA,TRUE,"26674493","PMC4687525",NA,NA,TRUE
+"MPG",2015,2362.17,"10.1371/journal.pgen.1005737",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404",NA,TRUE,"26684465","PMC4686169",NA,NA,TRUE
+"MPG",2015,1417.3,"10.1371/journal.pone.0144225",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26659377","PMC4684237",NA,NA,TRUE
+"MPG",2015,1417.3,"10.1371/journal.pone.0144391",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26640946","PMC4671665",NA,NA,TRUE
+"MPG",2015,1417.3,"10.1371/journal.pone.0143162",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26575183","PMC4648588",NA,NA,TRUE
+"MPG",2015,1417.3,"10.1371/journal.pone.0143681",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26625116","PMC4666667",NA,NA,TRUE
+"MPG",2015,1417.3,"10.1371/journal.pone.0144597",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,TRUE,"26658466","PMC4676685",NA,NA,TRUE
+"MPG",2015,922,"10.14293/S2199-1006.1.SOR-EDU.AJRG23.v1",FALSE,"ScienceOpen","ScienceOpen Research","2199-1006",NA,"2199-1006",NA,TRUE,NA,NA,NA,NA,TRUE
+"MPG",2015,922,"10.14293/S2199-1006.1.SOR-MATH.AV2JW3.v1",FALSE,"ScienceOpen","ScienceOpen Research","2199-1006",NA,"2199-1006",NA,TRUE,NA,NA,NA,NA,TRUE
+"MPG",2015,1658.88,"10.1186/s12983-014-0093-6",FALSE,"Springer Nature","Frontiers in Zoology","1742-9994","1742-9994",NA,NA,TRUE,"25628752","PMC4307165",NA,NA,TRUE
+"MPG",2015,1769.47,"10.1186/2041-9139-6-1",FALSE,"Springer Nature","EvoDevo","2041-9139","2041-9139",NA,NA,TRUE,"25905000","PMC4406211",NA,NA,TRUE
+"MPG",2015,1474.56,"10.1186/s12870-014-0406-0",FALSE,"Springer Nature","BMC Plant Biology","1471-2229","1471-2229",NA,NA,TRUE,"25592329","PMC4304619",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12859-014-0436-5",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105",NA,TRUE,"25592474","PMC4310145",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12870-014-0398-9",FALSE,"Springer Nature","BMC Plant Biology","1471-2229","1471-2229",NA,NA,TRUE,"25604123","PMC4318441",NA,NA,TRUE
+"MPG",2015,1976.83,"10.1186/s13059-014-0578-9",FALSE,"Springer Nature","Genome Biology","1465-6906",NA,"1465-6906",NA,TRUE,"25631560","PMC4373106",NA,NA,FALSE
+"MPG",2015,1474.56,"10.1186/s12863-014-0153-0",FALSE,"Springer Nature","BMC Genetics","1471-2156","1471-2156",NA,NA,TRUE,"25634232","PMC4342226",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12870-015-0420-x",FALSE,"Springer Nature","BMC Plant Biology","1471-2229","1471-2229",NA,NA,TRUE,"25643896","PMC4329211",NA,NA,TRUE
+"MPG",2015,1976.83,"10.1186/s13059-015-0597-1",FALSE,"Springer Nature","Genome Biology","1465-6906",NA,"1465-6906",NA,TRUE,"25853185","PMC4378019",NA,NA,FALSE
+"MPG",2015,1658.88,"10.1186/s12983-015-0095-z",FALSE,"Springer Nature","Frontiers in Zoology","1742-9994","1742-9994",NA,NA,TRUE,"25705242","PMC4336494",NA,NA,TRUE
+"MPG",2015,1474.56,"10.1186/s12864-015-1262-5",FALSE,"Springer Nature","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,"25765079","PMC4344782",NA,NA,TRUE
+"MPG",2015,834.05,"10.1186/s13104-015-0989-z",FALSE,"Springer Nature","BMC Research Notes","1756-0500","1756-0500",NA,NA,TRUE,"25888779","PMC4341241",NA,NA,TRUE
+"MPG",2015,1474.56,"10.1186/s12859-015-0491-6",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105",NA,TRUE,"25884684","PMC4347972",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12864-015-1282-1",FALSE,"Springer Nature","BMC Genomics","1471-2164","1471-2164",NA,NA,TRUE,"25766122","PMC4347969",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12943-015-0319-z",FALSE,"Springer Nature","Molecular Cancer","1476-4598","1476-4598",NA,NA,TRUE,"25884419","PMC4359546",NA,NA,TRUE
+"MPG",2015,1299.46,"10.1186/s13015-015-0037-5",FALSE,"Springer Nature","Algorithms for Molecular Biology","1748-7188","1748-7188",NA,NA,TRUE,"25788974","PMC4363181",NA,NA,TRUE
+"MPG",2015,1976.83,"10.1186/s13059-015-0627-z",FALSE,"Springer Nature","Genome Biology","1465-6906",NA,"1465-6906",NA,TRUE,"25887593","PMC4404591",NA,NA,FALSE
+"MPG",2015,1769.47,"10.1186/s13323-015-0024-0",FALSE,"Springer Nature","Investigative Genetics","2041-2223",NA,"2041-2223",NA,TRUE,"25834724","PMC4381409",NA,NA,TRUE
+"MPG",2015,1525.25,"10.1186/s13007-015-0069-3",FALSE,"Springer Nature","Plant Methods","1746-4811",NA,"1746-4811",NA,TRUE,"25866550","PMC4393613",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12864-015-1436-1",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"25879960","PMC4423592",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12863-015-0195-y",FALSE,"Springer Nature","BMC Genetics","1471-2156",NA,"1471-2156",NA,TRUE,"25887883","PMC4407358",NA,NA,TRUE
+"MPG",2015,1013.76,"10.1186/s40478-015-0204-4",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960",NA,TRUE,"25958115","PMC4425867",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12888-015-0494-x",FALSE,"Springer Nature","BMC Psychiatry","1471-244X",NA,"1471-244X",NA,TRUE,"25968177","PMC4436160",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12859-015-0549-5",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105",NA,TRUE,"25971816","PMC4448285",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12870-015-0526-1",FALSE,"Springer Nature","BMC Plant Biology","1471-2229",NA,"1471-2229",NA,TRUE,"26017568","PMC4446944",NA,NA,TRUE
+"MPG",2015,1474.56,"10.1186/s12864-015-1631-0",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"26062809","PMC4464113",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12859-015-0619-8",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105",NA,TRUE,"26055961","PMC4459672",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12859-015-0652-7",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105",NA,TRUE,"26208945","PMC4513682",NA,NA,TRUE
+"MPG",2015,2078.21,"10.1186/s13059-015-0708-z",FALSE,"Springer Nature","Genome Biology","1465-6906",NA,"1465-6906",NA,TRUE,"26206277","PMC4514447",NA,NA,FALSE
+"MPG",2015,2078.21,"10.1186/s13059-015-0711-4",FALSE,"Springer Nature","Genome Biology","1465-6906",NA,"1465-6906",NA,TRUE,"26201466","PMC4511969",NA,NA,FALSE
+"MPG",2015,815.62,"10.1007/s40993-015-0019-1",FALSE,"Springer Nature","Research in Number Theory","2363-9555",NA,"2363-9555",NA,TRUE,NA,NA,NA,NA,FALSE
+"MPG",2015,921.6,"10.1140/epjti/s40485-015-0024-8",FALSE,"Springer Nature","EPJ Techniques and Instrumentation","2195-7045",NA,"2195-7045",NA,TRUE,NA,NA,NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12953-015-0078-1",FALSE,"Springer Nature","Proteome Science","1477-5956",NA,"1477-5956",NA,TRUE,"26312056","PMC4550075",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12864-015-1839-z",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"26296872","PMC4644070",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12862-015-0466-2",FALSE,"Springer Nature","BMC Evolutionary Biology","1471-2148",NA,"1471-2148",NA,TRUE,"26370559","PMC4570658",NA,NA,TRUE
+"MPG",2015,1456.13,"10.1186/s13039-015-0173-0",FALSE,"Springer Nature","Molecular Cytogenetics","1755-8166",NA,"1755-8166",NA,TRUE,"26300977","PMC4546047",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12883-015-0410-5",FALSE,"Springer Nature","BMC Neurology","1471-2377",NA,"1471-2377",NA,TRUE,"26303364","PMC4548309",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12870-015-0601-7",FALSE,"Springer Nature","BMC Plant Biology","1471-2229",NA,"1471-2229",NA,TRUE,"26424710","PMC4590214",NA,NA,TRUE
+"MPG",2015,2078.21,"10.1186/s13059-015-0776-0",FALSE,"Springer Nature","Genome Biology","1474-760X",NA,"1474-760X",NA,TRUE,"26458810","PMC4601135",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12859-015-0733-7",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105",NA,TRUE,"26510976","PMC4625540",NA,NA,TRUE
+"MPG",2015,1838.59,"10.1186/s13072-015-0033-5",FALSE,"Springer Nature","Epigenetics & Chromatin","1756-8935",NA,"1756-8935",NA,TRUE,"26430472","PMC4589918",NA,NA,TRUE
+"MPG",2015,1838.59,"10.1186/s40168-015-0118-1",FALSE,"Springer Nature","Microbiome","2049-2618",NA,"2049-2618",NA,TRUE,"26607965","PMC4660790",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12862-015-0462-6",FALSE,"Springer Nature","BMC Evolutionary Biology","1471-2148",NA,"1471-2148",NA,TRUE,"26419522","PMC4589230",NA,NA,TRUE
+"MPG",2015,1456.13,"10.1186/s12963-015-0060-2",FALSE,"Springer Nature","Population Health Metrics","1478-7954",NA,"1478-7954",NA,TRUE,"26425117","PMC4588495",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s13064-015-0050-x",FALSE,"Springer Nature","Neural Development","1749-8104",NA,"1749-8104",NA,TRUE,"26492970","PMC4618557",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12864-015-2017-z",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"26467653","PMC4606501",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12864-015-2068-1",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"26490347","PMC4618519",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12870-015-0647-6",FALSE,"Springer Nature","BMC Plant Biology","1471-2229",NA,"1471-2229",NA,TRUE,"26511849","PMC4625925",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12862-015-0528-5",FALSE,"Springer Nature","BMC Evolutionary Biology","1471-2148",NA,"1471-2148",NA,TRUE,"26555287","PMC4641351",NA,NA,TRUE
+"MPG",2015,2078.21,"10.1186/s13059-015-0828-5",FALSE,"Springer Nature","Genome Biology","1474-760X",NA,"1474-760X",NA,TRUE,"26673150","PMC4699359",NA,NA,TRUE
+"MPG",2015,921.6,"10.1186/s13104-015-1683-x",FALSE,"Springer Nature","BMC Research Notes","1756-0500",NA,"1756-0500",NA,TRUE,"26682538","PMC4684624",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12864-015-2025-z",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164",NA,TRUE,"26564201","PMC4643517",NA,NA,TRUE
+"MPG",2015,1838.59,"10.1186/s13072-015-0045-1",FALSE,"Springer Nature","Epigenetics & Chromatin","1756-8935",NA,"1756-8935",NA,TRUE,"26628921","PMC4666223",NA,NA,TRUE
+"MPG",2015,1543.68,"10.1186/s12918-015-0233-4",FALSE,"Springer Nature","BMC Systems Biology","1752-0509",NA,"1752-0509",NA,TRUE,"26589494","PMC4654848",NA,NA,TRUE
+"MPG",2015,1608.19,"10.1186/s12953-015-0086-1",FALSE,"Springer Nature","Proteome Science","1477-5956",NA,"1477-5956",NA,TRUE,"26628892","PMC4666066",NA,NA,TRUE
