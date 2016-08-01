@@ -71,13 +71,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  26 399 995 € for  15 262 articles were paid by the participating universities. Average  fee is 1 729.8 € and the median 1 493 €.
+In total,  26 412 682 € for  15 273 articles were paid by the participating universities. Average  fee is 1 729.4 € and the median 1 492 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 10 559 articles in open access journals which charge publication fees. Total expenditure amounts to  14 271 908 €. Average  fee is 1 351.6 € and the median 1 269 €.
+At the moment, the dataset releases information on 10 570 articles in open access journals which charge publication fees. Total expenditure amounts to  14 284 595 €. Average  fee is 1 351.4 € and the median 1 269 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -117,7 +117,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Dresden                                  |      130|            175723|          1352|   1415|
 |TU Ilmenau                                  |       17|             18540|          1091|   1046|
 |TU Muenchen                                 |      308|            390086|          1267|   1386|
-|Tuebingen U                                 |      400|            535437|          1339|   1375|
+|Tuebingen U                                 |      411|            548124|          1334|   1346|
 |Wellcome Trust                              |      772|           1457126|          1887|   1823|
 |Wuerzburg U                                 |      469|            595119|          1269|   1266|
 
@@ -165,9 +165,9 @@ External sources were used to compile the dataset. This allows for disambiguated
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.44%       |
-|PubMed ID                  |  77.62%      |
-|PubMed Central ID          |  74.01%     |
-|Web of Science record ID   | 88.5%      |
+|PubMed ID                  |  77.64%      |
+|PubMed Central ID          |  74.03%     |
+|Web of Science record ID   | 88.51%      |
 
 
 
