@@ -167,7 +167,7 @@ External sources were used to compile the dataset. This allows for disambiguated
 |DOI                        |  99.44%       |
 |PubMed ID                  |  77.62%      |
 |PubMed Central ID          |  74.01%     |
-|Web of Science record ID   | 80.85%      |
+|Web of Science record ID   | 88.5%      |
 
 
 
