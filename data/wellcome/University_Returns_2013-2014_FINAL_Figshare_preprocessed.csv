@@ -433,7 +433,7 @@ Wellcome Trust;2014;PMC3960724;23956020;10.1136/thoraxjnl-2013-204247;BMJ;Thorax
 Wellcome Trust;2014;PMC4055272;24706039;10.1136/thoraxjnl-2013-204742;BMJ;Thorax;0040-6376, 1468-3296;2858.31;TRUE
 Wellcome Trust;2014;PMC4215371;25124165;10.1136/tobaccocontrol-2014-051822;BMJ;Tobacco Control;0964-4563, 1468-3318;2858.31;TRUE
 Wellcome Trust;2014;PMC4243024;25065034;10.1163/15718093-12341323;Brill;European Journal of Health Law;0929-0273, 0929-0273;2329.90;TRUE
-Wellcome Trust;2014;;;10.1163/22134468-00002026;Brill;Timing & Time Perception;;1960.10;
+Wellcome Trust;2014;;;10.1163/22134468-00002026;Brill;Timing & Time Perception;;1960.10;TRUE
 Wellcome Trust;2014;PMC4000164;24739347;10.1017/S1751731114000330;Cambridge University Press;Animal;1751-7311, 1751-732X;2244.95;TRUE
 Wellcome Trust;2014;PMC3821375;23531413;10.1017/S003329171300038X;Cambridge University Press;Psychological Medicine;0033-2917, 1469-8978;2484.53;TRUE
 Wellcome Trust;2014;PMC3854554;23551879;10.1017/S0033291713000561;Cambridge University Press;Psychological Medicine;0033-2917, 1469-8978;2484.53;TRUE
@@ -449,8 +449,8 @@ Wellcome Trust;2014;;25124530;10.1017/S0033291714001949;Cambridge University Pre
 Wellcome Trust;2014;;25062429;10.1017/S0033291714001421;Cambridge University Press;Psychological Medicine;0033-2917, 1469-8978;2484.53;TRUE
 Wellcome Trust;2014;;24866925;10.1017/S1368980014001074;Cambridge University Press;Public Health Nutrition ;1368-9800, 1475-2727;1965.12;TRUE
 Wellcome Trust;2014;;24941794;10.1017/S026988971400009X;Cambridge University Press;Science in Context;0269-8897;2484.53;TRUE
-Wellcome Trust;2014;;;10.1017/S0022149X14000431;Cambridge University Press;Journal of Helminthology;;2834.74;
-Wellcome Trust;2014;;;10.1017/S0001972013000454;Cambridge University Press;Journal of the International African Institute;;2484.53;
+Wellcome Trust;2014;;;10.1017/S0022149X14000431;Cambridge University Press;Journal of Helminthology;;2834.74;TRUE
+Wellcome Trust;2014;;;10.1017/S0001972013000454;Cambridge University Press;Journal of the International African Institute;;2484.53;TRUE
 Wellcome Trust;2014;PMC4189116;25111193;10.1017/S0007114514001718;Cambridge University Press;British Journal of Nutrition;0007-1145, 1475-2662;2070.44;TRUE
 Wellcome Trust;2014;PMC3866005;24331217;10.1017/mdh.2013.75;Cambridge University Press;Medical History;0025-7273;2484.53;TRUE
 Wellcome Trust;2014;PMC4103393;25045179;10.1017/mdh.2014.28;Cambridge University Press;Medical History;0025-7273;2484.53;TRUE
@@ -873,10 +873,10 @@ Wellcome Trust;2014;;25131200;10.1016/j.celrep.2014.07.020;Elsevier;Cell Reports
 Wellcome Trust;2014;PMC4184977;25090446;10.1016/j.stem.2014.07.002;Elsevier;Cell Stem Cell;1934-5909, 1875-9777;4329.01;TRUE
 ;;;;;;;;;
 ;;;;;;;;;
-Wellcome Trust;2014;;;10.1016/j.apsusc.2014.06.111;Elsevier;Applied Surface Science;;1904.67;
+Wellcome Trust;2014;;;10.1016/j.apsusc.2014.06.111;Elsevier;Applied Surface Science;;1904.67;TRUE
 ;;;;;;;;;
-Wellcome Trust;2014;;;10.1016/j.euroecorev.2012.09.009;Elsevier;European Economic Review;;2906.31;
-Wellcome Trust;2014;;;10.1016/j.nima.2013.08.077;Elsevier;Nuclear Inst. and Methods in Physics Research, A;;1985.79;
+Wellcome Trust;2014;;;10.1016/j.euroecorev.2012.09.009;Elsevier;European Economic Review;;2906.31;TRUE
+Wellcome Trust;2014;;;10.1016/j.nima.2013.08.077;Elsevier;Nuclear Inst. and Methods in Physics Research, A;;1985.79;TRUE
 ;;;;;;;;;
 Wellcome Trust;2014;PMC3991416;24370641;10.1016/j.actbio.2013.12.030;Elsevier;Acta Biomaterialia;1742-7061, 1878-7568;2675.84;TRUE
 Wellcome Trust;2014;PMC4199142;25014552;10.1016/j.actbio.2014.07.001;Elsevier;Acta Biomaterialia;1742-7061, 1878-7568;2088.26;TRUE
@@ -1244,9 +1244,9 @@ Wellcome Trust;2014;;25322831;10.4161/19382014.2014.954436;Landes Bioscience;Isl
 Wellcome Trust;2014;PMC4164488;25482198;10.4161/nucl.36232;Landes Bioscience;Nucleus;1949-1034, 1949-1042;1325.08;TRUE
 Wellcome Trust;2014;PMC4208559;25325312;10.1089/vbz.2014.1578;Liebert;Vector-borne and zoonotic diseases;1530-3667, 1557-7759;2894.69;TRUE
 Wellcome Trust;2014;PMC3999137;24500501;10.1097/CMR.0000000000000046;Lippincott Williams & Wilkins;Melanoma Research;0960-8931, 1473-5636;2763.86;TRUE
-Wellcome Trust;2014;;;10.1353/bhs.0.0098;Liverpool University Press 2004 Ltd;Bulletin of Hispanic Studies;;1832.25;
+Wellcome Trust;2014;;;10.1353/bhs.0.0098;Liverpool University Press 2004 Ltd;Bulletin of Hispanic Studies;;1832.25;TRUE
 Wellcome Trust;2014;PMC4108088;25057298;10.1186/1756-8935-7-8;Ludwig-Maximillans Universitat Munchen;Epigenetics & Chromatin;1756-8935;339.71;FALSE
-Wellcome Trust;2014;;;10.1179/0079423614Z.00000000054;Maney Publishing;Post Medieval Archaeology (Maney Publishing);;732.90;
+Wellcome Trust;2014;;;10.1179/0079423614Z.00000000054;Maney Publishing;Post Medieval Archaeology (Maney Publishing);;732.90;TRUE
 Wellcome Trust;2014;PMC3910480;23947948;10.1089/AID.2013.0171;Mary Ann Liebert;AIDS Res Hum Retroviruses;0889-2229, 1931-8405;1637.12;TRUE
 Wellcome Trust;2014;PMC3920758;24279882;10.1089/cell.2013.0064;Mary Ann Liebert;Cellular Reprogramming;2152-4971, 2152-4998;1717.05;TRUE
 Wellcome Trust;2014;PMC4135321;24801544;10.1089/dia.2014.0009;Mary Ann Liebert;Diabetes Technology and Therapeutics;1520-9156, 1557-8593;2777.79;TRUE
@@ -1345,7 +1345,7 @@ Wellcome Trust;2014;PMC4250079;25156127;10.1038/mt.2014.157;Nature Publishing Gr
 Wellcome Trust;2014;;25182274;10.1038/ncomms5741;Nature Publishing Group;Nature Communications;2041-1723;4617.27;TRUE
 Wellcome Trust;2014;;25163855;10.1038/ncomms5765;Nature Publishing Group;Nature Communications;2041-1723;4617.27;TRUE
 Wellcome Trust;2014;;24828261;10.1038/srep04954;Nature Publishing Group;Scientific Reports;2045-2322;1304.56;FALSE
-Wellcome Trust;2014;;;10.1038/sdata.2014.24;Nature Publishing Group;Scientific data;;666.94;
+Wellcome Trust;2014;;;10.1038/sdata.2014.24;Nature Publishing Group;Scientific data;;666.94;FALSE
 Wellcome Trust;2014;PMC3730202;23872705;10.1038/bcj.2013.24;Nature Publishing Group;Blood Cancer Journal;2044-5385;2931.60;FALSE
 Wellcome Trust;2014;;;10.1038/sj.bdj.2013.741;Nature Publishing Group;British Dental Journal;0907-4449, 1399-0047;3957.66;TRUE
 Wellcome Trust;2014;PMC4207485;24769728;10.1038/cdd.2014.47;Nature Publishing Group;Cell Death & Differentiation;1350-9047, 1476-5403;3957.66;TRUE
@@ -1382,7 +1382,7 @@ Wellcome Trust;2014;PMC3731785;23838890;10.1038/tp.2013.53;Nature Publishing Gro
 Wellcome Trust;2014;PMC397580;3857595;10.1038/ejcn.2013.265;Nature Publishing Group;European Journal of Clinical Nutrition;0027-8424, 1091-6490;3371.34;TRUE
 Wellcome Trust;2014;;25290268;10.1038/tp.2014.100;Nature Publishing Group ;Translational Psychiatry;2158-3188;3517.92;FALSE
 Wellcome Trust;2014;PMC4163653;25232464;10.4172/1948-5956.1000280;OMICS;Journal of Cancer Science and Therapy;1948-5956;2520.02;TRUE
-Wellcome Trust;2014;;;10.4172/2329-8936.1000102;OMICS;Transcriptomics;;787.81;
+Wellcome Trust;2014;;;10.4172/2329-8936.1000102;OMICS;Transcriptomics;;787.81;FALSE
 ;;;;;;;;;
 Wellcome Trust;2014;PMC3888373;23118196;10.1093/cercor/bhs334;Open University Press;Cerebral Cortex;1047-3211, 1460-2199;2491.86;TRUE
 Wellcome Trust;2014;;24907365;10.1093/bfgp/elu015;Oxford University Press;Briefings in Functional Genomics;2041-2649, 2041-2657;2565.15;TRUE
@@ -1860,7 +1860,7 @@ Wellcome Trust;2014;PMC3916391;24516380;10.1371/journal.ppat.1003898;PLOS;PLOS P
 Wellcome Trust;2014;PMC3907375;24497829;10.1371/journal.ppat.1003896;PLOS;PLOS Pathogens;1553-7366, 1553-7374;1731.48;FALSE
 Wellcome Trust;2014;PMC3814344;24204251;10.1371/journal.ppat.1003647;PLOS;PLOS Pathogens;1553-7366, 1553-7374;1722.39;FALSE
 Wellcome Trust;2014;PMC3946313;24603764;10.1371/journal.ppat.1003897;PLOS;PLOS Pathogens;1553-7366, 1553-7374;1060.84;FALSE
-Wellcome Trust;2014;;;10.1332/204674314X14110461422823;Policy Press at the University of Bristol;Families, Relationships and Societies;;2198.70;
+Wellcome Trust;2014;;;10.1332/204674314X14110461422823;Policy Press at the University of Bristol;Families, Relationships and Societies;;2198.70;TRUE
 Wellcome Trust;2014;PMC3583032;23252471;10.1042/BJ20121599;Portland Press;Biochemical Journal;0264-6021, 1470-8728;2137.63;TRUE
 Wellcome Trust;2014;;24256264;10.1042/BST20130189;Portland Press;Biochemical Society Transactions;0300-5127, 1470-8752;2565.15;TRUE
 ;;;;;;;;;
@@ -1957,8 +1957,8 @@ Wellcome Trust;2014;PMC3867339;22441888;10.1177/1087054712436876;Sage;Journal of
 Wellcome Trust;2014;;24285289;10.1177/0954411913509977;Sage;Proceedings of the Institution of Mechanical Engineers, Part H: Journal of Engineering in MedicineÃ‚Â ;0954-4119, 2041-3033;293.16;TRUE
 ;;;;;;;;;
 ;;;;;;;;;
-Wellcome Trust;2014;;;10.1177/0952695114536715;Sage;History of the Human Sciences;;293.16;
-Wellcome Trust;2014;;;10.1177/1468794114550439;Sage;Qualitative Research;;1172.64;
+Wellcome Trust;2014;;;10.1177/0952695114536715;Sage;History of the Human Sciences;;293.16;TRUE
+Wellcome Trust;2014;;;10.1177/1468794114550439;Sage;Qualitative Research;;1172.64;TRUE
 ;;;;;;;;;
 Wellcome Trust;2014;PMC3546629;22815336;10.1177/0269881112454228;Sage;Journal of Psychopharmacology;0269-8811, 1461-7285;2345.28;TRUE
 Wellcome Trust;2014;PMC4128077;24781160;10.1177/0141076814532392;Sage;Journal of the Royal Society of Medicine;0141-0768, 1758-1095;2345.28;TRUE
@@ -2051,10 +2051,10 @@ Wellcome Trust;2014;;24729231;10.1007/978-1-4939-0620-8_24;Springer;Adv Exp Med 
 Wellcome Trust;2014;;24729229;10.1007/978-1-4939-0620-8_22;Springer;Adv Exp Med Biol;0065-2598;2128.96;TRUE
 Wellcome Trust;2014;;24965798;10.1007/s00787-014-0576-1;Springer;European Child and Adolescent Psychiatry;1018-8827, 1435-165X;2504.54;TRUE
 Wellcome Trust;2014;;21505784;10.1007/s00424-011-0957-y;Springer;Pflugers archive;0031-6768, 1432-2013;2635.04;TRUE
-Wellcome Trust;2014;;;10.1007/s10437-014-9164-5;Springer;African Archaeological Review;;1895.89;
+Wellcome Trust;2014;;;10.1007/s10437-014-9164-5;Springer;African Archaeological Review;;1895.89;TRUE
 ;;;;;;;;;
-Wellcome Trust;2014;PMC4221650;;10.1007/s00415-014-7476-7;Springer;Journal of Neurology;;2513.50;
-Wellcome Trust;2014;;;10.1007/s11047-014-9428-7;Springer;Natural Computing;;2581.47;
+Wellcome Trust;2014;PMC4221650;;10.1007/s00415-014-7476-7;Springer;Journal of Neurology;;2513.50;TRUE
+Wellcome Trust;2014;;;10.1007/s11047-014-9428-7;Springer;Natural Computing;;2581.47;TRUE
 Wellcome Trust;2014;PMC3895181;24292008;10.1007/s00401-013-1219-1;Springer;Acta Neuropathologica;0001-6322, 1432-0533;2660.76;TRUE
 Wellcome Trust;2014;PMC4102831;24913350;10.1007/s00401-014-1305-z;Springer;Acta Neuropathologica;0001-6322, 1432-0533;1895.89;TRUE
 Wellcome Trust;2014;PMC4021167;24623119;10.1007/s00726-014-1706-2;Springer;Amino Acids;0939-4451, 1438-2199;2696.75;TRUE
@@ -2120,8 +2120,8 @@ Wellcome Trust;2014;PMC3969515;24399192;10.1007/s12015-013-9493-9;Springer;Stem 
 Wellcome Trust;2014;PMC4074890;24991189;10.1007/s10677-013-9441-4;Springer ;Ethical Theory and Moral Practice;1386-2820;2817.05;TRUE
 Wellcome Trust;2014;PMC4083266;25009441;10.1007/s10892-014-9161-6;Springer ;Journal of Ethics;1382-4554;2604.27;TRUE
 Wellcome Trust;2014;;23568656;10.1007/s00441-013-1613-y;Springer ;Cell Tissue Research;0302-766X, 1432-0878;2700.92;TRUE
-Wellcome Trust;2014;;;10.1007/s10670-014-9648-3;Springer ;Erkenntis;;2543.85;
-Wellcome Trust;2014;;;10.1007/s11098-013-0236-1;Springer ;Philosophical Studies;;2255.17;
+Wellcome Trust;2014;;;10.1007/s10670-014-9648-3;Springer ;Erkenntis;;2543.85;TRUE
+Wellcome Trust;2014;;;10.1007/s11098-013-0236-1;Springer ;Philosophical Studies;;2255.17;TRUE
 Wellcome Trust;2014;PMC3905171;24337726;10.1007/s10461-013-0676-9;Springer ;AIDS and Behavior;1090-7165, 1573-3254;2079.47;TRUE
 Wellcome Trust;2014;PMC3824348;23813324;10.1007/s11673-013-9465-4;Springer ;Bioethical Inquiry;1176-7529;2303.25;TRUE
 Wellcome Trust;2014;PMC4210745;25434066;10.1007/s40592-014-0004-9;Springer ;Bioethics;1321-2753, 1836-6716;2538.70;TRUE
@@ -2159,13 +2159,13 @@ Wellcome Trust;2014;;25059754;10.1080/13607863.2014.938605;Taylor & Francis;Agin
 Wellcome Trust;2014;;25355176;10.1080/09540121.2014.967658;Taylor & Francis;CAICI - AIDS Care;0954-0121, 1360-0451;2707.56;TRUE
 Wellcome Trust;2014;;25157425;10.1080/13554794.2014.953178;Taylor & Francis;Neurocase;1355-4794, 1465-3656;1834.60;TRUE
 Wellcome Trust;2014;;24809599;10.1080/15265161.2014.903642;Taylor & Francis;The American Journal of Bioethics ;1526-5161, 1536-0075;2620.85;TRUE
-Wellcome Trust;2014;;;10.1080/14753820.2010.530837;Taylor & Francis;Bulletin of Spanish Studies;;2649.09;
-Wellcome Trust;2014;;;10.1080/14753820.2010.530832;Taylor & Francis;Bulletin of Spanish Studies;;2649.09;
+Wellcome Trust;2014;;;10.1080/14753820.2010.530837;Taylor & Francis;Bulletin of Spanish Studies;;2649.09;TRUE
+Wellcome Trust;2014;;;10.1080/14753820.2010.530832;Taylor & Francis;Bulletin of Spanish Studies;;2649.09;TRUE
 ;;;;;;;;;
-Wellcome Trust;2014;;;10.1080/17496977.2014.914643;Taylor & Francis;Intellectual History Review;;2620.85;
+Wellcome Trust;2014;;;10.1080/17496977.2014.914643;Taylor & Francis;Intellectual History Review;;2620.85;TRUE
 ;;;;;;;;;
-Wellcome Trust;2014;;;10.1080/09515089.2014.962018;Taylor & Francis;Philosophical Psychology;;2252.62;
-Wellcome Trust;2014;;;10.1080/14780887.2014.948697;Taylor & Francis;Qualitative Research in Psychology;;2620.85;
+Wellcome Trust;2014;;;10.1080/09515089.2014.962018;Taylor & Francis;Philosophical Psychology;;2252.62;TRUE
+Wellcome Trust;2014;;;10.1080/14780887.2014.948697;Taylor & Francis;Qualitative Research in Psychology;;2620.85;TRUE
 ;;;;;;;;;
 Wellcome Trust;2014;PMC4104782;24625293;10.1080/09540121.2014.892564;Taylor & Francis;AIDS Care;0954-0121, 1360-0451;2620.85;TRUE
 Wellcome Trust;2014;PMC4299853;25632175;10.1080/09581596.2014.886762;Taylor & Francis;Critical Public Health;0958-1596;2620.85;TRUE
@@ -2300,12 +2300,12 @@ Wellcome Trust;2014;;24966276;10.15252/embj.201489096;Wiley;EMBO Journal;0261-41
 Wellcome Trust;2014;PMC3934709;24247983;10.1113/jphysiol.2013.263475;Wiley;Journal of Physiology;0022-3751, 1469-7793;2682.26;TRUE
 Wellcome Trust;2014;;25416721;10.1093/ije/dyu218;Wiley;Journal of the American Heart Association;0300-5771, 1464-3685;1177.53;TRUE
 Wellcome Trust;2014;;24573811;10.1002/rcm.6841;Wiley;Rapid Communications in Mass Spectrometry;0951-4198, 1097-0231;2736.23;TRUE
-Wellcome Trust;2014;;;10.1002/admi.201300085;Wiley;Advanced Materials Interfaces;;2198.70;
-Wellcome Trust;2014;;;10.1002/admi.201400026;Wiley;Advanced Materials Interfaces;;2198.70;
-Wellcome Trust;2014;;;10.1111/eve.12182;Wiley;Equine Veterinary Education;;2233.63;
-Wellcome Trust;2014;;;10.1002/jocb.73;Wiley;Journal of Creative Behaviour;;1832.25;
-Wellcome Trust;2014;;;10.1111/lest.12042;Wiley;Legal Studies;;2931.60;
-Wellcome Trust;2014;;;10.1002/psp.1842;Wiley;Population, Space and Place;;2415.31;
+Wellcome Trust;2014;;;10.1002/admi.201300085;Wiley;Advanced Materials Interfaces;;2198.70;TRUE
+Wellcome Trust;2014;;;10.1002/admi.201400026;Wiley;Advanced Materials Interfaces;;2198.70;TRUE
+Wellcome Trust;2014;;;10.1111/eve.12182;Wiley;Equine Veterinary Education;;2233.63;TRUE
+Wellcome Trust;2014;;;10.1002/jocb.73;Wiley;Journal of Creative Behaviour;;1832.25;TRUE
+Wellcome Trust;2014;;;10.1111/lest.12042;Wiley;Legal Studies;;2931.60;TRUE
+Wellcome Trust;2014;;;10.1002/psp.1842;Wiley;Population, Space and Place;;2415.31;TRUE
 ;;;;;;;;;
 ;;;;;;;;;
 Wellcome Trust;2014;PMC4296345;24913289;10.1111/apha.12324;Wiley;Acta Physiologica;1748-1708, 1748-1716;2583.20;TRUE
