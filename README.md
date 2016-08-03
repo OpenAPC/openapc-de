@@ -71,13 +71,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  26 399 995 € for  15 264 articles were paid by the participating universities. Average  fee is 1 729.6 € and the median 1 493 €.
+In total,  26 412 682 € for  15 273 articles were paid by the participating universities. Average  fee is 1 729.4 € and the median 1 492 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 10 561 articles in open access journals which charge publication fees. Total expenditure amounts to  14 271 908 €. Average  fee is 1 351.4 € and the median 1 269 €.
+At the moment, the dataset releases information on 10 570 articles in open access journals which charge publication fees. Total expenditure amounts to  14 284 595 €. Average  fee is 1 351.4 € and the median 1 269 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -108,7 +108,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Leibniz-Fonds                               |       56|             92730|          1656|   1586|
 |Leipzig U                                   |      173|            243873|          1410|   1471|
 |MDC                                         |       51|            103028|          2020|   1483|
-|MPG                                         |     2992|           3879721|          1297|   1177|
+|MPG                                         |     2990|           3879721|          1298|   1178|
 |Muenchen LMU                                |      365|            463491|          1270|   1299|
 |Potsdam U                                   |       24|             32128|          1339|   1386|
 |Regensburg U                                |      400|            503845|          1260|   1207|
@@ -117,7 +117,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Dresden                                  |      130|            175723|          1352|   1415|
 |TU Ilmenau                                  |       17|             18540|          1091|   1046|
 |TU Muenchen                                 |      308|            390086|          1267|   1386|
-|Tuebingen U                                 |      400|            535437|          1339|   1375|
+|Tuebingen U                                 |      411|            548124|          1334|   1346|
 |Wellcome Trust                              |      772|           1457126|          1887|   1823|
 |Wuerzburg U                                 |      469|            595119|          1269|   1266|
 
@@ -165,9 +165,9 @@ External sources were used to compile the dataset. This allows for disambiguated
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.44%       |
-|PubMed ID                  |  77.61%      |
-|PubMed Central ID          |  74%     |
-|Web of Science record ID   | 81.29%      |
+|PubMed ID                  |  77.64%      |
+|PubMed Central ID          |  74.03%     |
+|Web of Science record ID   | 88.51%      |
 
 
 
