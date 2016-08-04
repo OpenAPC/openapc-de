@@ -13,7 +13,7 @@ Preprocessed variants of the aforementioned files. The following steps were carr
 
 - All columns not relevant to the OpenAPC data schema were removed.
 - An 'institution' column was added, default value 'Wellcome Trust'.
-- A 'period' column was added, default value '2015'. Note that this is slightly incorrect as the data time frame runs from 1st October 2014 to 30th September 2015 (Wellcome Trust financial year). However, there is no means to adress this issue at the moment.
+- A 'period' column was added, defaulting to the second year of each file. Note that this is slightly incorrect as the data time frames run from 1st October to 30th September of the following year (Wellcome Trust financial year). However, there is no means to adress this issue at the moment.
 - The 'cost' column was normalised. Pound signs and decimal marks were removed. Rows with malformed monetary values (like '491625' in line 22 of the 2014-15 file, which originates from an already malformed value '491.625' in the original spreadsheet) were removed.
 - The values in the 'cost' column were converted from Pound Sterling to Euro. This was done using the average exchange rate for the reported timeframes (01-10-201x till 30-09-201y) as provided by the [ECB](https://www.ecb.europa.eu/stats/exchange/eurofxref/html/eurofxref-graph-gbp.en.html). The column was renamed to 'euro'.
 
