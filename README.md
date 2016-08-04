@@ -30,6 +30,7 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
 - [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
+- [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
@@ -39,7 +40,6 @@ So far, the following German universities have agreed to share information on pa
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
-- [University of Ulm](https://www.uni-ulm.de/index.php?id=57202)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 
 ## Participating Research Society Funds in Germany
