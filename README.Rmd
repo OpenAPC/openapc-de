@@ -55,8 +55,8 @@ So far, the following German universities have agreed to share information on pa
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
-- [University of Ulm](https://www.uni-ulm.de/index.php?id=57202)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
+- [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
 
 ## Participating Research Society Funds in Germany
 
