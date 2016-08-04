@@ -39,6 +39,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
+- [University of Ulm](https://www.uni-ulm.de/index.php?id=57202)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 
 ## Participating Research Society Funds in Germany
@@ -71,13 +72,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  31 985 649 € for  17 759 articles were paid by the participating universities. Average  fee is 1 801.1 € and the median 1 563 €.
+In total,  32 103 631 € for  17 837 articles were paid by the participating universities. Average  fee is 1 799.8 € and the median 1 562 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 11 173 articles in open access journals which charge publication fees. Total expenditure amounts to  15 195 033 €. Average  fee is 1 360 € and the median 1 269 €.
+At the moment, the dataset releases information on 11 238 articles in open access journals which charge publication fees. Total expenditure amounts to  15 287 082 €. Average  fee is 1 360.3 € and the median 1 270 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -118,6 +119,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Ilmenau                                  |       17|            18,540|         1,091|  1,046|
 |TU Muenchen                                 |      308|           390,086|         1,267|  1,386|
 |Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
+|Ulm U                                       |       65|            92,049|         1,416|  1,285|
 |Wellcome Trust                              |    1,375|         2,367,564|         1,722|  1,602|
 |Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
@@ -125,7 +127,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 6 586 hybrid open access articles. Total expenditure amounts to  16 790 617 €. Average  fee is 2 549.4 € and the median 2 589 €.
+The dataset covers 6 599 hybrid open access articles. Total expenditure amounts to  16 816 549 €. Average  fee is 2 548.3 € and the median 2 589 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -139,6 +141,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |MDC                                         |       18|            42,227|         2,346|  1,996|
 |MPG                                         |       40|            63,548|         1,589|  1,669|
 |TU Chemnitz                                 |        1|               100|           100|    100|
+|Ulm U                                       |       13|            25,932|         1,995|  1,741|
 |Wellcome Trust                              |    3,934|        10,482,668|         2,665|  2,610|
 
 ## Use of external sources
@@ -165,9 +168,9 @@ External sources were used to compile the dataset. This allows for disambiguated
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.52%       |
-|PubMed ID                  |  80.67%      |
-|PubMed Central ID          |  77.39%     |
-|Web of Science record ID   | 76.11%      |
+|PubMed ID                  |  80.64%      |
+|PubMed Central ID          |  77.33%     |
+|Web of Science record ID   | 75.78%      |
 
 
 
@@ -230,7 +233,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
