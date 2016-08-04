@@ -71,13 +71,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  26 412 682 € for  15 273 articles were paid by the participating universities. Average  fee is 1 729.4 € and the median 1 492 €.
+In total,  31 985 649 € for  17 759 articles were paid by the participating universities. Average  fee is 1 801.1 € and the median 1 563 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 10 571 articles in open access journals which charge publication fees. Total expenditure amounts to  14 286 014 €. Average  fee is 1 351.4 € and the median 1 269 €.
+At the moment, the dataset releases information on 11 173 articles in open access journals which charge publication fees. Total expenditure amounts to  15 195 033 €. Average  fee is 1 360 € and the median 1 269 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -118,14 +118,14 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |TU Ilmenau                                  |       17|            18,540|         1,091|  1,046|
 |TU Muenchen                                 |      308|           390,086|         1,267|  1,386|
 |Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
-|Wellcome Trust                              |      773|         1,458,545|         1,887|  1,823|
+|Wellcome Trust                              |    1,375|         2,367,564|         1,722|  1,602|
 |Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
 ### Hybrid articles
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 4 702 hybrid open access articles. Total expenditure amounts to  12 126 668 €. Average  fee is 2 579 € and the median 2 618 €.
+The dataset covers 6 586 hybrid open access articles. Total expenditure amounts to  16 790 617 €. Average  fee is 2 549.4 € and the median 2 589 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
@@ -139,7 +139,7 @@ The following institutions have contributed its expenditures for hybrid open acc
 |MDC                                         |       18|            42,227|         2,346|  1,996|
 |MPG                                         |       40|            63,548|         1,589|  1,669|
 |TU Chemnitz                                 |        1|               100|           100|    100|
-|Wellcome Trust                              |    2,050|         5,818,719|         2,838|  2,743|
+|Wellcome Trust                              |    3,934|        10,482,668|         2,665|  2,610|
 
 ## Use of external sources
 
@@ -164,10 +164,10 @@ External sources were used to compile the dataset. This allows for disambiguated
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.44%       |
-|PubMed ID                  |  77.64%      |
-|PubMed Central ID          |  74.03%     |
-|Web of Science record ID   | 88.5%      |
+|DOI                        |  99.52%       |
+|PubMed ID                  |  80.67%      |
+|PubMed Central ID          |  77.39%     |
+|Web of Science record ID   | 76.11%      |
 
 
 
