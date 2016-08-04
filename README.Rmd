@@ -112,7 +112,7 @@ df.summary <-cbind(tapply(my.apc$euro, my.apc$institution, length),
              tapply(my.apc$euro, my.apc$institution, median))
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
-knitr::kable(as.data.frame(df.summary), digits = 2)
+knitr::kable(as.data.frame(df.summary), format.args = list(scientific = FALSE, big.mark = ","))
 ```
 
 ### Hybrid articles
@@ -137,7 +137,7 @@ df.summary <-cbind(tapply(my.apc$euro, my.apc$institution, length),
              tapply(my.apc$euro, my.apc$institution, median))
 colnames(df.summary) <- c("Articles", "Fees paid in EURO", "Mean Fee paid", "Median")
 
-knitr::kable(as.data.frame(df.summary), digits = 2)
+knitr::kable(as.data.frame(df.summary), format.args = list(scientific = FALSE, big.mark = ","))
 
 ```
 
