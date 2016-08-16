@@ -40,6 +40,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
+- [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
 
 ## Participating Research Society Funds in Germany
 
@@ -71,75 +72,77 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  26 412 682 € for  15 273 articles were paid by the participating universities. Average  fee is 1 729.4 € and the median 1 492 €.
+In total,  32 103 631 € for  17 837 articles were paid by the participating universities. Average  fee is 1 799.8 € and the median 1 562 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 10 570 articles in open access journals which charge publication fees. Total expenditure amounts to  14 284 595 €. Average  fee is 1 351.4 € and the median 1 269 €.
+At the moment, the dataset releases information on 11 238 articles in open access journals which charge publication fees. Total expenditure amounts to  15 287 082 €. Average  fee is 1 360.3 € and the median 1 270 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|Bamberg U                                   |       22|             23663|          1076|   1009|
-|Bayreuth U                                  |       92|            105725|          1149|   1200|
-|Bielefeld U                                 |      263|            322815|          1227|   1232|
-|Bochum U                                    |       71|             93546|          1318|   1438|
-|Bremen U                                    |      264|            335873|          1272|   1246|
-|Dortmund TU                                 |       28|             26410|           943|    826|
-|Duisburg-Essen U                            |      147|            178437|          1214|   1212|
-|Erlangen Nuernberg U                        |      402|            551812|          1373|   1424|
-|FU Berlin                                   |      106|            142671|          1346|   1292|
-|FWF - Austrian Science Fund                 |      731|           1016441|          1390|   1271|
-|FZJ - ZB                                    |      158|            196869|          1246|   1177|
-|GFZ-Potsdam                                 |      106|            126520|          1194|   1065|
-|Giessen U                                   |      317|            428690|          1352|   1273|
-|Goettingen U                                |      650|            883918|          1360|   1354|
-|Hamburg TUHH                                |       24|             32789|          1366|   1466|
-|Hannover U                                  |       69|             90259|          1308|   1241|
-|Heidelberg U                                |      215|            308348|          1434|   1500|
-|INM - Leibniz-Institut für Neue Materialien |        5|              5744|          1149|   1305|
-|Kassel U                                    |       35|             35550|          1016|   1142|
-|KIT                                         |      428|            524346|          1225|   1239|
-|Konstanz U                                  |      223|            304182|          1364|   1342|
-|Leibniz-Fonds                               |       56|             92730|          1656|   1586|
-|Leipzig U                                   |      173|            243873|          1410|   1471|
-|MDC                                         |       51|            103028|          2020|   1483|
-|MPG                                         |     2990|           3879721|          1298|   1178|
-|Muenchen LMU                                |      365|            463491|          1270|   1299|
-|Potsdam U                                   |       24|             32128|          1339|   1386|
-|Regensburg U                                |      400|            503845|          1260|   1207|
-|TU Chemnitz                                 |       40|             39454|           986|   1056|
-|TU Clausthal                                |        8|              6999|           875|    918|
-|TU Dresden                                  |      130|            175723|          1352|   1415|
-|TU Ilmenau                                  |       17|             18540|          1091|   1046|
-|TU Muenchen                                 |      308|            390086|          1267|   1386|
-|Tuebingen U                                 |      411|            548124|          1334|   1346|
-|Wellcome Trust                              |      772|           1457126|          1887|   1823|
-|Wuerzburg U                                 |      469|            595119|          1269|   1266|
+|Bamberg U                                   |       22|            23,663|         1,076|  1,009|
+|Bayreuth U                                  |       92|           105,725|         1,149|  1,200|
+|Bielefeld U                                 |      263|           322,815|         1,227|  1,232|
+|Bochum U                                    |       71|            93,546|         1,318|  1,438|
+|Bremen U                                    |      264|           335,873|         1,272|  1,246|
+|Dortmund TU                                 |       28|            26,410|           943|    826|
+|Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
+|Erlangen Nuernberg U                        |      402|           551,812|         1,373|  1,424|
+|FU Berlin                                   |      106|           142,671|         1,346|  1,292|
+|FWF - Austrian Science Fund                 |      731|         1,016,441|         1,390|  1,271|
+|FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
+|GFZ-Potsdam                                 |      106|           126,520|         1,194|  1,065|
+|Giessen U                                   |      317|           428,690|         1,352|  1,273|
+|Goettingen U                                |      650|           883,918|         1,360|  1,354|
+|Hamburg TUHH                                |       24|            32,789|         1,366|  1,466|
+|Hannover U                                  |       69|            90,259|         1,308|  1,241|
+|Heidelberg U                                |      215|           308,348|         1,434|  1,500|
+|INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
+|Kassel U                                    |       35|            35,550|         1,016|  1,142|
+|KIT                                         |      428|           524,346|         1,225|  1,239|
+|Konstanz U                                  |      223|           304,182|         1,364|  1,342|
+|Leibniz-Fonds                               |       56|            92,730|         1,656|  1,586|
+|Leipzig U                                   |      173|           243,873|         1,410|  1,471|
+|MDC                                         |       51|           103,028|         2,020|  1,483|
+|MPG                                         |    2,990|         3,879,721|         1,298|  1,178|
+|Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
+|Potsdam U                                   |       24|            32,128|         1,339|  1,386|
+|Regensburg U                                |      400|           503,845|         1,260|  1,207|
+|TU Chemnitz                                 |       40|            39,454|           986|  1,056|
+|TU Clausthal                                |        8|             6,999|           875|    918|
+|TU Dresden                                  |      130|           175,723|         1,352|  1,415|
+|TU Ilmenau                                  |       17|            18,540|         1,091|  1,046|
+|TU Muenchen                                 |      308|           390,086|         1,267|  1,386|
+|Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
+|Ulm U                                       |       65|            92,049|         1,416|  1,285|
+|Wellcome Trust                              |    1,375|         2,367,564|         1,722|  1,602|
+|Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
 
 ### Hybrid articles
 
 
 In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 4 703 hybrid open access articles. Total expenditure amounts to  12 128 086 €. Average  fee is 2 578.8 € and the median 2 618 €.
+The dataset covers 6 599 hybrid open access articles. Total expenditure amounts to  16 816 549 €. Average  fee is 2 548.3 € and the median 2 589 €.
 
 The following institutions have contributed its expenditures for hybrid open access.
 
 
 |                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
 |:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|Dortmund TU                                 |        1|              1581|          1581|   1581|
-|Duisburg-Essen U                            |        1|              2618|          2618|   2618|
-|FWF - Austrian Science Fund                 |     2582|           6170854|          2390|   2515|
-|INM - Leibniz-Institut für Neue Materialien |        9|             27020|          3002|   3213|
-|MDC                                         |       18|             42227|          2346|   1996|
-|MPG                                         |       40|             63548|          1589|   1669|
+|Dortmund TU                                 |        1|             1,581|         1,581|  1,581|
+|Duisburg-Essen U                            |        1|             2,618|         2,618|  2,618|
+|FWF - Austrian Science Fund                 |    2,582|         6,170,854|         2,390|  2,515|
+|INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
+|MDC                                         |       18|            42,227|         2,346|  1,996|
+|MPG                                         |       40|            63,548|         1,589|  1,669|
 |TU Chemnitz                                 |        1|               100|           100|    100|
-|Wellcome Trust                              |     2051|           5820138|          2838|   2743|
+|Ulm U                                       |       13|            25,932|         1,995|  1,741|
+|Wellcome Trust                              |    3,934|        10,482,668|         2,665|  2,610|
 
 ## Use of external sources
 
@@ -164,10 +167,10 @@ External sources were used to compile the dataset. This allows for disambiguated
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.44%       |
-|PubMed ID                  |  77.64%      |
-|PubMed Central ID          |  74.03%     |
-|Web of Science record ID   | 88.51%      |
+|DOI                        |  99.52%       |
+|PubMed ID                  |  80.64%      |
+|PubMed Central ID          |  77.33%     |
+|Web of Science record ID   | 89.54%      |
 
 
 
@@ -230,7 +233,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner,  Clemens Engelhardt, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 

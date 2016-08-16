@@ -675,7 +675,8 @@ def get_unified_publisher_name(publisher):
     """
     publisher_mappings = {
         "The Optical Society": "Optical Society of America (OSA)",
-        "Impact Journals": "Impact Journals LLC"
+        "Impact Journals": "Impact Journals LLC",
+        "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -695,6 +696,7 @@ def get_unified_journal_title(journal_full_title):
         "PLoS ONE": "PLOS ONE",
         "Phys. Chem. Chem. Phys.": "Physical Chemistry Chemical Physics",
         "J. Mater. Chem. A": "Journal of Materials Chemistry A",
+        "J. Mater. Chem. B": "Journal of Materials Chemistry B",
         "PLoS Pathogens": "PLOS Pathogens",
         "PLoS Genetics": "PLOS Genetics",
         "PLoS Biology": "PLOS Biology",
@@ -709,10 +711,13 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
         "Scientific Repor.": "Scientific Reports",
         "PAIN": "Pain",
-        "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
         "Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
         "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
-        "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene"
+        "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
+        "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
+        "PLoS Medicine": "PLOS Medicine",
+        "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
+        "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
