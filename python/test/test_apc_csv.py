@@ -30,7 +30,7 @@ class RowObject(object):
 doi_duplicate_list = []
 apc_data = []
 
-for file_name in ["data/apc_de.csv"]:
+for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
     csv_file = open(file_name, "r")
     reader = oat.UnicodeDictReader(csv_file)
     line = 2
