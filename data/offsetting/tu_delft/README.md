@@ -26,3 +26,7 @@ Enriched variants of the aforementioned files.
 ### springer_netherlands_yyyy_full_enriched.csv
 
 Enriched files, aggregated into a yearly table.
+
+### institution_names_normalisation.csv
+
+As the original data was inconsistent in terms of institution designations, an additional normalisation step was required. This table shows the names in question and their normalisation targets.  
