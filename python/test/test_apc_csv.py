@@ -30,7 +30,7 @@ class RowObject(object):
 doi_duplicate_list = []
 apc_data = []
 
-for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
+for file_name in ["data/apc_de.csv"]:
     csv_file = open(file_name, "r")
     reader = oat.UnicodeDictReader(csv_file)
     line = 2
@@ -128,7 +128,7 @@ def check_name_consistency(row_object):
     journal = row["journal_full_title"]
     publ = row["publisher"]
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
-    msg = (line_str + 'Two entries share a common {}ISSN ({}), but the ' +
+    msg = (u'' + line_str + 'Two entries share a common {}ISSN ({}), but the ' +
            '{} differs ("{}" vs "{}")')
     for other_row_object in apc_data:
         other_row = other_row_object.row
