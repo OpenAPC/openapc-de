@@ -73,13 +73,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  32 725 090 € for  18 305 articles were paid by the participating universities. Average  fee is 1 787.8 € and the median 1 547 €.
+In total,  32 730 111 € for  18 308 articles were paid by the participating universities. Average  fee is 1 787.7 € and the median 1 547 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 11 706 articles in open access journals which charge publication fees. Total expenditure amounts to  15 908 541 €. Average  fee is 1 359 € and the median 1 273 €.
+At the moment, the dataset releases information on 11 709 articles in open access journals which charge publication fees. Total expenditure amounts to  15 913 562 €. Average  fee is 1 359.1 € and the median 1 273 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -94,7 +94,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |       28|            26,410|           943|    826|
 |Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
 |Erlangen Nuernberg U                        |      402|           551,812|         1,373|  1,424|
-|Freiburg U                                  |      468|           621,459|         1,328|  1,386|
+|Freiburg U                                  |      471|           626,480|         1,330|  1,386|
 |FU Berlin                                   |      106|           142,671|         1,346|  1,292|
 |FWF - Austrian Science Fund                 |      731|         1,016,441|         1,390|  1,271|
 |FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
@@ -170,9 +170,9 @@ External sources were used to compile the dataset. This allows for disambiguated
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.52%       |
-|PubMed ID                  |  80.7%      |
-|PubMed Central ID          |  77.43%     |
-|Web of Science record ID   | 87.25%      |
+|PubMed ID                  |  80.71%      |
+|PubMed Central ID          |  77.44%     |
+|Web of Science record ID   | 87.24%      |
 
 
 
