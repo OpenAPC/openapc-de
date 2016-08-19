@@ -33,6 +33,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
+- [University of Freiburg](https://www.ub.uni-freiburg.de/unterstuetzung/elektronisch-publizieren/open-access/publikationsfonds/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
@@ -72,13 +73,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
 
-In total,  32 103 631 € for  17 837 articles were paid by the participating universities. Average  fee is 1 799.8 € and the median 1 562 €.
+In total,  32 725 090 € for  18 305 articles were paid by the participating universities. Average  fee is 1 787.8 € and the median 1 547 €.
 
 ### Open Access Journals
 
 
 
-At the moment, the dataset releases information on 11 238 articles in open access journals which charge publication fees. Total expenditure amounts to  15 287 082 €. Average  fee is 1 360.3 € and the median 1 270 €.
+At the moment, the dataset releases information on 11 706 articles in open access journals which charge publication fees. Total expenditure amounts to  15 908 541 €. Average  fee is 1 359 € and the median 1 273 €.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -93,6 +94,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 |Dortmund TU                                 |       28|            26,410|           943|    826|
 |Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
 |Erlangen Nuernberg U                        |      402|           551,812|         1,373|  1,424|
+|Freiburg U                                  |      468|           621,459|         1,328|  1,386|
 |FU Berlin                                   |      106|           142,671|         1,346|  1,292|
 |FWF - Austrian Science Fund                 |      731|         1,016,441|         1,390|  1,271|
 |FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
@@ -168,9 +170,9 @@ External sources were used to compile the dataset. This allows for disambiguated
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.52%       |
-|PubMed ID                  |  80.64%      |
-|PubMed Central ID          |  77.33%     |
-|Web of Science record ID   | 89.54%      |
+|PubMed ID                  |  80.7%      |
+|PubMed Central ID          |  77.43%     |
+|Web of Science record ID   | 87.25%      |
 
 
 
@@ -233,7 +235,7 @@ For data enrichment, sample visualisations and explorations we build on the work
 
 ## Contributors
 
-Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
