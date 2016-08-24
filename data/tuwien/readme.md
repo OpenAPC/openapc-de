@@ -1,6 +1,6 @@
 # Publikationskosten, finanziert durch die Universitätsbibliothek der TU Wien #
 
-Brutto-APC-Kosten, die an der Bibliothek verwaltet wurden
+Brutto-APC-Kosten, die an der Bibliothek verwaltet wurden. 
 Daten aus dem Rechnungsjahr 2015. Daten für 2016 (...) werden jeweils im Folgejahr zur Verfügung gestellt.
 
 Nicht enthalten sind:
