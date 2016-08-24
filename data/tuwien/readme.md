@@ -1,6 +1,6 @@
-# Publikationskosten (brutto), finanziert durch die Universitätsbibliothek der TU Wien #
+# Publikationskosten, finanziert durch die Universitätsbibliothek der TU Wien #
 
-APC-Kosten, die an der Bibliothek verwaltet wurden
+Brutto-APC-Kosten, die an der Bibliothek verwaltet wurden
 Daten aus dem Rechnungsjahr 2015. Daten für 2016 (...) werden jeweils im Folgejahr zur Verfügung gestellt.
 
 Nicht enthalten sind:
@@ -13,7 +13,7 @@ Kontakt: MMag. Magdalena Andrae <mailto: open-access@ub.tuwien.ac.at>
 
 
 
-# APC gross costs, financed by the library of the Technischen Universitaet Wien (TU Wien) #
+# APC gross costs, financed by the library of the Technische Universitaet Wien (TU Wien) #
 
 
 Data covers only APCs that are either covered by our publication fund or deals that were negotiated between publishers and library staff.
