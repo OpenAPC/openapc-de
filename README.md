@@ -74,9 +74,9 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-This dataset contains information on 18,319 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 39 research performing institutions and research funders. 
+This dataset contains information on 18,318 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 39 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 32,744,017. The average payment was € 1,787  and the median was € 1,547.
+In total, publication fee spending covered by the Open APC initiative amounted to € 32,742,587. The average payment was € 1,787  and the median was € 1,547.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -90,7 +90,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-11,720 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 15,927,468, including value-added tax; the average payment was € 1,359 (median =  € 1,273, SD = € 540).
+11,719 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 15,926,038, including value-added tax; the average payment was € 1,359 (median =  € 1,273, SD = € 540).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -98,7 +98,7 @@ The following table summarises institutional spending on articles published in f
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|MPG                                         |    2,990|             3,879,721|   1,298 (469)|  1,178|        69 - 7,419|
+|MPG                                         |    2,989|             3,878,292|   1,298 (469)|  1,178|        69 - 7,419|
 |Wellcome Trust                              |    1,375|             2,367,564|   1,722 (739)|  1,602|       229 - 5,486|
 |FWF - Austrian Science Fund                 |      731|             1,016,441|   1,390 (637)|  1,271|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
@@ -143,7 +143,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,599 open access articles being published in hybrid journals. Total expenditure amounts to  32,744,017 €. Average  fee is 2,548 € and the median 2,589 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,599 open access articles being published in hybrid journals. Total expenditure amounts to  32,742,587 €. Average  fee is 2,548 € and the median 2,589 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -187,9 +187,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.52%       |
-|PubMed ID                  |  80.68%      |
+|PubMed ID                  |  80.67%      |
 |PubMed Central ID          |  77.41%     |
-|Web of Science record ID   | 89.36%      |
+|Web of Science record ID   | 89.35%      |
 
 
 
