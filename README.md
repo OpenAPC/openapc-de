@@ -1,6 +1,8 @@
 
 
 
+
+
 ## About
 
 The aim of this repository is:
@@ -8,7 +10,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-## Participating Universities
+## Participating German Universities
 
 So far, the following German universities have agreed to share information on paid author processing charges (APC):
 
@@ -33,6 +35,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
+- [University of Freiburg](https://www.ub.uni-freiburg.de/unterstuetzung/elektronisch-publizieren/open-access/publikationsfonds/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
@@ -61,6 +64,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Participating Austrian Institutions
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
+- [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
 ## Participating Institutions from the United Kingdom:
 
@@ -70,86 +74,99 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-Information on both open access journal articles and open access publication of articles in toll-access journals ("hybrid") are provided.
+This dataset contains information on 18,319 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 39 research performing institutions and research funders. 
 
-In total,  32 103 631 € for  17 837 articles were paid by the participating universities. Average  fee is 1 799.8 € and the median 1 562 €.
-
-### Open Access Journals
-
-
-
-At the moment, the dataset releases information on 11 238 articles in open access journals which charge publication fees. Total expenditure amounts to  15 287 082 €. Average  fee is 1 360.3 € and the median 1 270 €.
+In total, publication fee spending covered by the Open APC initiative amounted to € 32,744,017. The average payment was € 1,787  and the median was € 1,547.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
-
-|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
-|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|Bamberg U                                   |       22|            23,663|         1,076|  1,009|
-|Bayreuth U                                  |       92|           105,725|         1,149|  1,200|
-|Bielefeld U                                 |      263|           322,815|         1,227|  1,232|
-|Bochum U                                    |       71|            93,546|         1,318|  1,438|
-|Bremen U                                    |      264|           335,873|         1,272|  1,246|
-|Dortmund TU                                 |       28|            26,410|           943|    826|
-|Duisburg-Essen U                            |      147|           178,437|         1,214|  1,212|
-|Erlangen Nuernberg U                        |      402|           551,812|         1,373|  1,424|
-|FU Berlin                                   |      106|           142,671|         1,346|  1,292|
-|FWF - Austrian Science Fund                 |      731|         1,016,441|         1,390|  1,271|
-|FZJ - ZB                                    |      158|           196,869|         1,246|  1,177|
-|GFZ-Potsdam                                 |      106|           126,520|         1,194|  1,065|
-|Giessen U                                   |      317|           428,690|         1,352|  1,273|
-|Goettingen U                                |      650|           883,918|         1,360|  1,354|
-|Hamburg TUHH                                |       24|            32,789|         1,366|  1,466|
-|Hannover U                                  |       69|            90,259|         1,308|  1,241|
-|Heidelberg U                                |      215|           308,348|         1,434|  1,500|
-|INM - Leibniz-Institut für Neue Materialien |        5|             5,744|         1,149|  1,305|
-|Kassel U                                    |       35|            35,550|         1,016|  1,142|
-|KIT                                         |      428|           524,346|         1,225|  1,239|
-|Konstanz U                                  |      223|           304,182|         1,364|  1,342|
-|Leibniz-Fonds                               |       56|            92,730|         1,656|  1,586|
-|Leipzig U                                   |      173|           243,873|         1,410|  1,471|
-|MDC                                         |       51|           103,028|         2,020|  1,483|
-|MPG                                         |    2,990|         3,879,721|         1,298|  1,178|
-|Muenchen LMU                                |      365|           463,491|         1,270|  1,299|
-|Potsdam U                                   |       24|            32,128|         1,339|  1,386|
-|Regensburg U                                |      400|           503,845|         1,260|  1,207|
-|TU Chemnitz                                 |       40|            39,454|           986|  1,056|
-|TU Clausthal                                |        8|             6,999|           875|    918|
-|TU Dresden                                  |      130|           175,723|         1,352|  1,415|
-|TU Ilmenau                                  |       17|            18,540|         1,091|  1,046|
-|TU Muenchen                                 |      308|           390,086|         1,267|  1,386|
-|Tuebingen U                                 |      411|           548,124|         1,334|  1,346|
-|Ulm U                                       |       65|            92,049|         1,416|  1,285|
-|Wellcome Trust                              |    1,375|         2,367,564|         1,722|  1,602|
-|Wuerzburg U                                 |      469|           595,119|         1,269|  1,266|
-
-### Hybrid articles
+### Spending distribution over fully and hybrid open access journals
 
 
-In many toll-access journals some of the articles are open access after a fee has been paid. This model is often called "hybrid open access".
-The dataset covers 6 599 hybrid open access articles. Total expenditure amounts to  16 816 549 €. Average  fee is 2 548.3 € and the median 2 589 €.
 
-The following institutions have contributed its expenditures for hybrid open access.
+![](figure/boxplot_oa.png)
+
+###  Fully Open Access Journals
 
 
-|                                            | Articles| Fees paid in EURO| Mean Fee paid| Median|
-|:-------------------------------------------|--------:|-----------------:|-------------:|------:|
-|Dortmund TU                                 |        1|             1,581|         1,581|  1,581|
-|Duisburg-Essen U                            |        1|             2,618|         2,618|  2,618|
-|FWF - Austrian Science Fund                 |    2,582|         6,170,854|         2,390|  2,515|
-|INM - Leibniz-Institut für Neue Materialien |        9|            27,020|         3,002|  3,213|
-|MDC                                         |       18|            42,227|         2,346|  1,996|
-|MPG                                         |       40|            63,548|         1,589|  1,669|
-|TU Chemnitz                                 |        1|               100|           100|    100|
-|Ulm U                                       |       13|            25,932|         1,995|  1,741|
-|Wellcome Trust                              |    3,934|        10,482,668|         2,665|  2,610|
+
+11,720 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 15,927,468, including value-added tax; the average payment was € 1,359 (median =  € 1,273, SD = € 540).
+
+The following table summarises institutional spending on articles published in fully open access journals.
+
+
+
+|Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
+|:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
+|MPG                                         |    2,990|             3,879,721|   1,298 (469)|  1,178|        69 - 7,419|
+|Wellcome Trust                              |    1,375|             2,367,564|   1,722 (739)|  1,602|       229 - 5,486|
+|FWF - Austrian Science Fund                 |      731|             1,016,441|   1,390 (637)|  1,271|       100 - 5,216|
+|Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
+|Freiburg U                                  |      471|               626,480|   1,330 (410)|  1,386|        50 - 2,474|
+|Wuerzburg U                                 |      469|               595,119|   1,269 (416)|  1,266|         0 - 2,514|
+|KIT                                         |      428|               524,346|   1,225 (526)|  1,239|        69 - 3,731|
+|Tuebingen U                                 |      411|               548,124|   1,334 (407)|  1,346|       150 - 2,662|
+|Erlangen Nuernberg U                        |      402|               551,812|   1,373 (369)|  1,424|       124 - 2,286|
+|Regensburg U                                |      400|               503,845|   1,260 (504)|  1,207|        77 - 4,403|
+|Muenchen LMU                                |      365|               463,491|   1,270 (296)|  1,299|       496 - 2,023|
+|Giessen U                                   |      317|               428,690|   1,352 (575)|  1,273|        81 - 4,498|
+|TU Muenchen                                 |      308|               390,086|   1,267 (479)|  1,386|       131 - 2,122|
+|Bremen U                                    |      264|               335,873|   1,272 (425)|  1,246|       112 - 2,657|
+|Bielefeld U                                 |      263|               322,815|   1,227 (313)|  1,232|         0 - 2,103|
+|Konstanz U                                  |      223|               304,182|   1,364 (407)|  1,342|        40 - 2,072|
+|Heidelberg U                                |      215|               308,348|   1,434 (377)|  1,500|        60 - 2,042|
+|Leipzig U                                   |      173|               243,873|   1,410 (331)|  1,471|       341 - 2,055|
+|FZJ - ZB                                    |      158|               196,869|   1,246 (516)|  1,177|       370 - 3,700|
+|Duisburg-Essen U                            |      147|               178,437|   1,214 (356)|  1,212|       238 - 2,800|
+|TU Dresden                                  |      130|               175,723|   1,352 (416)|  1,415|       200 - 2,193|
+|FU Berlin                                   |      106|               142,671|   1,346 (466)|  1,292|       220 - 2,000|
+|GFZ-Potsdam                                 |      106|               126,520|   1,194 (760)|  1,065|       223 - 4,403|
+|Bayreuth U                                  |       92|               105,725|   1,149 (532)|  1,200|        82 - 2,059|
+|Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
+|Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
+|Ulm U                                       |       65|                92,049|   1,416 (672)|  1,285|       260 - 5,284|
+|Leibniz-Fonds                               |       56|                92,730|   1,656 (597)|  1,586|       173 - 3,202|
+|MDC                                         |       51|               103,028| 2,020 (1,220)|  1,483|       575 - 4,662|
+|TU Chemnitz                                 |       40|                39,454|     986 (697)|  1,056|        78 - 2,123|
+|Kassel U                                    |       35|                35,550|   1,016 (475)|  1,142|       150 - 1,861|
+|Dortmund TU                                 |       28|                26,410|     943 (937)|    826|       155 - 4,403|
+|Hamburg TUHH                                |       24|                32,789|   1,366 (499)|  1,466|       300 - 2,027|
+|Potsdam U                                   |       24|                32,128|   1,339 (236)|  1,386|       916 - 2,116|
+|Bamberg U                                   |       22|                23,663|   1,076 (563)|  1,009|        90 - 2,010|
+|TU Ilmenau                                  |       17|                18,540|   1,091 (594)|  1,046|       178 - 2,077|
+|TU Wien                                     |       11|                13,905|   1,264 (347)|  1,181|       806 - 1,817|
+|TU Clausthal                                |        8|                 6,999|     875 (514)|    918|       181 - 1,724|
+|INM - Leibniz-Institut für Neue Materialien |        5|                 5,744|   1,149 (560)|  1,305|       237 - 1,679|
+
+
+### Articles published in hybrid open access journals
+
+
+
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,599 open access articles being published in hybrid journals. Total expenditure amounts to  32,744,017 €. Average  fee is 2,548 € and the median 2,589 €.
+
+The following institutions have contributed expenditures on hybrid open access journal articles.
+
+
+|Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
+|:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
+|Wellcome Trust                              |    3,934|            10,482,668|   2,665 (947)|  2,610|       267 - 6,108|
+|FWF - Austrian Science Fund                 |    2,582|             6,170,854|   2,390 (736)|  2,515|       120 - 5,315|
+|MPG                                         |       40|                63,548|   1,589 (290)|  1,669|       763 - 1,958|
+|MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
+|Ulm U                                       |       13|                25,932|   1,995 (613)|  1,741|     1,308 - 2,631|
+|INM - Leibniz-Institut für Neue Materialien |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
+|Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|     1,581 - 1,581|
+|Duisburg-Essen U                            |        1|                 2,618|   2,618 (  0)|  2,618|     2,618 - 2,618|
+|TU Chemnitz                                 |        1|                   100|     100 (  0)|    100|       100 -   100|
+
 
 ## Use of external sources
 
-External sources were used to compile the dataset. This allows for disambiguated information on publishers and journals in order to make cost data comparable. Shared identifiers for publications (e.g. PMID) are provided as well.
+Metadata representing journals or publishers were obtained from Crossref in order to avoid extensive validation of the records. Case where we don't re-use information from Crossref to disambiguate the spending metadata are documented [here](python/test/test_apc_csv.py). Moreover, indexing coverage in Europe PMC and the Web of science is automatically checked.
 
 
-|Source     |variable  |description                     |
+|Source     |Variable  |Description                     |
 |:--------------|:---------|:-----------------------------------------------|
 |CrossRef   |`publisher` |Title of Publisher             |
 |CrossRef   |`journal_full_title` |Full Title of Journal  |
@@ -165,42 +182,18 @@ External sources were used to compile the dataset. This allows for disambiguated
 
 
 
+Indexing coverage
+
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.52%       |
-|PubMed ID                  |  80.64%      |
-|PubMed Central ID          |  77.33%     |
-|Web of Science record ID   | 89.54%      |
+|PubMed ID                  |  80.68%      |
+|PubMed Central ID          |  77.41%     |
+|Web of Science record ID   | 89.36%      |
 
 
 
-## Sample Visualisations
 
-### Distribution over publishers by university
-
-
-
-![](figure/plotPublisherAPC.png)
-
-### Comparing fees paid by university and research institution
-
-
-
-![](figure/boxplot_institution.png)
-
-### Average fees paid by publisher
-
-
-
-![](figure/plotAverageAPC.png)
-
-### Average fees Max Planck Digital Library paid for Springer Open Access articles by year
-
-
-
-![](figure/plotAverageSpringerMPDL.png)
-
-For more examples see also [http://openapc.github.io/openapc-de/](http://openapc.github.io/openapc-de/)
 
 ## How to contribute?
 
@@ -229,17 +222,16 @@ Bielefeld University Library archives a copy (including commit history). To cite
 
 This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting.
 
-For data enrichment, sample visualisations and explorations we build on the work of [rOpenSci](http://ropensci.org/) and [LibreCat/Catmandu](http://librecat.org/).
 
 ## Contributors
 
-Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
 For bugs, feature requests and other issues, please submit an issue via [Github](https://github.com/OpenAPC/openapc-de/issues/new).
 
-For general comments, email najko.jahn at uni-bielefeld.de and dirk.pieper at uni-bielefeld.de
+For general comments, email openapc at uni-bielefeld.de
 
 ## Disclaimer
 
