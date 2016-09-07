@@ -189,7 +189,7 @@ Indexing coverage
 |DOI                        |  99.52%       |
 |PubMed ID                  |  80.67%      |
 |PubMed Central ID          |  77.41%     |
-|Web of Science record ID   | 89.35%      |
+|Web of Science record ID   | 89.42%      |
 
 
 
