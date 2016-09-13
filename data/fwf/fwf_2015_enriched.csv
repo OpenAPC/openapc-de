@@ -599,7 +599,7 @@
 "FWF - Austrian Science Fund",2015,476.06,"10.1088/1367-2630/17/1/013028",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,1732.15,"10.1088/1367-2630/17/1/013022",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,1108.8,"10.1088/1367-2630/16/1/013003",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
-"FWF - Austrian Science Fund",2015,2453.88,"10.1088/1367-2630/17/10/102001",TRUE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,NA,NA,TRUE
+"FWF - Austrian Science Fund",2015,2453.88,"10.1088/1367-2630/17/10/102001",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,2453.88,"10.1088/0951-7715/28/6/1963",TRUE,"IOP Publishing","Nonlinearity","0951-7715","0951-7715","1361-6544",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2453.88,"10.1088/0741-3335/57/4/045012",TRUE,"IOP Publishing","Plasma Physics and Controlled Fusion","0741-3335","0741-3335","1361-6587",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2453.88,"10.1088/0268-1242/30/3/035002",TRUE,"IOP Publishing","Semiconductor Science and Technology","0268-1242","0268-1242","1361-6641",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -747,9 +747,9 @@
 "FWF - Austrian Science Fund",2015,2250,"10.1093/molbev/msv193",TRUE,"Oxford University Press (OUP)","Molecular Biology and Evolution","0737-4038","0737-4038","1537-1719",NA,TRUE,"26424812","PMC4652624",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2250,"10.1093/molbev/msv265",TRUE,"Oxford University Press (OUP)","Molecular Biology and Evolution","0737-4038","0737-4038","1537-1719",NA,TRUE,"26601937","PMC4760078",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2250,"10.1093/molbev/msu251",TRUE,"Oxford University Press (OUP)","Molecular Biology and Evolution","0737-4038","0737-4038","1537-1719",NA,TRUE,"25169930","PMC4245816",NA,NA,FALSE
-"FWF - Austrian Science Fund",2015,2556,"10.1093/nar/gkv1161",TRUE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"26531825","PMC4737144",NA,NA,TRUE
+"FWF - Austrian Science Fund",2015,2556,"10.1093/nar/gkv1161",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"26531825","PMC4737144",NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,2556,"10.1093/nar/gkv288",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"25904631","PMC4446422",NA,NA,TRUE
-"FWF - Austrian Science Fund",2015,2556,"10.1093/nar/gkv1473",TRUE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"26682798","PMC4770224",NA,NA,TRUE
+"FWF - Austrian Science Fund",2015,2556,"10.1093/nar/gkv1473",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"26682798","PMC4770224",NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,2556,"10.1093/nar/gkv727",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"26202974","PMC4666383",NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,2922,"10.1093/femspd/ftv048",TRUE,"Oxford University Press (OUP)","Pathogens and Disease","2049-632X","2049-632X","2049-632X",NA,TRUE,"26187893","PMC4535462",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2730,"10.1093/pcp/pcv119",TRUE,"Oxford University Press (OUP)","Plant and Cell Physiology","0032-0781","0032-0781","1471-9053",NA,TRUE,"26272553","PMC4684100",NA,NA,FALSE
