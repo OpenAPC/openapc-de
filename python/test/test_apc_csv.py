@@ -127,6 +127,7 @@ def check_name_consistency(row_object):
     issn_e = row["issn_electronic"] if has_value(row["issn_electronic"]) else None
     journal = row["journal_full_title"]
     publ = row["publisher"]
+    hybrid = row["is_hybrid"]
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
     msg = (u'' + line_str + 'Two entries share a common {}ISSN ({}), but the ' +
            '{} differs ("{}" vs "{}")')
@@ -134,12 +135,16 @@ def check_name_consistency(row_object):
         other_row = other_row_object.row
         other_publ = other_row["publisher"]
         other_journal = other_row["journal_full_title"]
+        other_hybrid = other_row["is_hybrid"]
         if issn is not None and other_row["issn"] == issn:
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
                 ret = msg.format("", issn, "publisher name", publ, other_publ)
                 pytest.fail(ret)
             if not other_journal == journal:
                 ret = msg.format("", issn, "journal title", journal, other_journal)
+                pytest.fail(ret)
+            if not other_hybrid == hybrid:
+                ret = msg.format("", issn, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
         elif issn_p is not None and other_row["issn_print"] == issn_p:
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
@@ -148,12 +153,18 @@ def check_name_consistency(row_object):
             if not other_journal == journal:
                 ret = msg.format("Print ", issn_p, "journal title", journal, other_journal)
                 pytest.fail(ret)
+            if not other_hybrid == hybrid:
+                ret = msg.format("Print", issn_p, "hybrid status", hybrid, other_hybrid)
+                pytest.fail(ret)
         elif issn_e is not None and other_row["issn_electronic"] == issn_e:
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
                 ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
                 pytest.fail(ret)
             if not other_journal == journal:
                 ret = msg.format("Electronic ", issn_e, "journal title", journal, other_journal)
+                pytest.fail(ret)
+            if not other_hybrid == hybrid:
+                ret = msg.format("Electronic", issn_e, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
 
 @pytest.mark.parametrize("row_object", apc_data)
