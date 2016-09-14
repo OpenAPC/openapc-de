@@ -588,8 +588,8 @@ Wellcome Trust;2014;PMC3991849;24287440;10.1016/j.neuroimage.2013.11.037;Elsevie
 Wellcome Trust;2014;PMC3988837;24440530;10.1016/j.neuroimage.2014.01.011;Elsevier;Neuroimage;1053-8119, 1095-9572;1639.97;TRUE
 Wellcome Trust;2014;PMC4073651;24345387;10.1016/j.neuroimage.2013.12.009;Elsevier;Neuroimage;1053-8119, 1095-9572;1631.17;TRUE
 Wellcome Trust;2014;PMC3988925;24440529;10.1016/j.neuroimage.2014.01.012;Elsevier;Neuroimage;1053-8119, 1095-9572;1621.19;TRUE
-Wellcome Trust;2014;PMC4055894;24936433;10.1016/j.nicl.2014.05.009;Elsevier;NeuroImage: Clinical;2213-1582;1301.90;TRUE
-Wellcome Trust;2014;PMC3830060;24273726;10.1016/j.nicl.2013.10.005;Elsevier;NeuroImage: Clinical;2213-1582;1162.92;TRUE
+Wellcome Trust;2014;PMC4055894;24936433;10.1016/j.nicl.2014.05.009;Elsevier;NeuroImage: Clinical;2213-1582;1301.90;FALSE
+Wellcome Trust;2014;PMC3830060;24273726;10.1016/j.nicl.2013.10.005;Elsevier;NeuroImage: Clinical;2213-1582;1162.92;FALSE
 Wellcome Trust;2014;PMC3988992;24444549;10.1016/j.nmd.2013.12.001;Elsevier;Neuromuscular Disorders;0960-8966, 1873-2364;2706.73;TRUE
 Wellcome Trust;2014;PMC4022839;24811381;10.1016/j.neuron.2014.03.012;Elsevier;Neuron;0896-6273, 1097-4199;4299.04;TRUE
 Wellcome Trust;2014;PMC3979113;24269876;10.1016/j.parint.2013.11.002;Elsevier;Parasitology;1383-5769, 1873-0329;2037.44;TRUE
@@ -598,7 +598,7 @@ Wellcome Trust;2014;PMC4210662;25117497;10.1016/j.pbiomolbio.2014.08.005;Elsevie
 Wellcome Trust;2014;PMC3988927;24467873;10.1016/j.psychres.2013.12.026;Elsevier;Psychiatry Research;0165-1781, 1872-7123;1887.65;TRUE
 Wellcome Trust;2014;PMC3988953;24581550;10.1016/j.schres.2014.02.001;Elsevier;Schizophrenia Research;0920-9964, 1573-2509;2236.70;TRUE
 Wellcome Trust;2014;PMC4166404;24998031;10.1016/j.schres.2014.06.011;Elsevier;Schizophrenia Research;0920-9964, 1573-2509;2164.93;TRUE
-Wellcome Trust;2014;PMC3871394;24371807;10.1016/j.stemcr.2013.11.010;Elsevier;Stem Cell Reports;2213-6711;2702.76;TRUE
+Wellcome Trust;2014;PMC3871394;24371807;10.1016/j.stemcr.2013.11.010;Elsevier;Stem Cell Reports;2213-6711;2702.76;FALSE
 Wellcome Trust;2014;PMC3988984;24582434;10.1016/j.str.2014.01.009;Elsevier;Structure;0969-2126, 1878-4186;3761.24;TRUE
 Wellcome Trust;2014;PMC4085477;24928762;10.1016/j.tibs.2014.05.001;Elsevier;Trends in Biological Science;0968-0004;2660.55;TRUE
 Wellcome Trust;2014;PMC4158425;24938173;10.1016/j.tim.2014.05.007;Elsevier;Trends in Microbiology;0966-842X, 1878-4380;2690.13;TRUE
@@ -1041,11 +1041,11 @@ Wellcome Trust;2014;PMC4229499;25108179;10.1016/j.neuroimage.2014.07.047;Elsevie
 Wellcome Trust;2014;PMC4229504;25134978;10.1016/j.neuroimage.2014.08.019;Elsevier;Neuroimage;1053-8119, 1095-9572;1567.98;TRUE
 Wellcome Trust;2014;PMC4229501;25128710;10.1016/j.neuroimage.2014.08.015;Elsevier;NeuroImage;1053-8119, 1095-9572;1567.11;TRUE
 Wellcome Trust;2014;PMC4229503;25038441;10.1016/j.neuroimage.2014.07.015;Elsevier;Neuroimage;1053-8119, 1095-9572;1552.26;TRUE
-Wellcome Trust;2014;PMC3984441;24818081;10.1016/j.nicl.2014.03.013;Elsevier;Neuroimage: Clinical;2213-1582;1338.21;TRUE
-Wellcome Trust;2014;PMC4055864;24936434;10.1016/j.nicl.2014.05.014;Elsevier;NeuroImage: Clinical;2213-1582;1306.42;TRUE
-Wellcome Trust;2014;PMC4110887;25068112;10.1016/j.nicl.2014.06.008;Elsevier;Neuroimage: Clinical;2213-1582;1270.36;TRUE
-Wellcome Trust;2014;PMC3836281;24266008;10.1016/j.nicl.2013.10.004;Elsevier;Neuroimage: Clinical;2213-1582;1161.51;TRUE
-Wellcome Trust;2014;PMC3830064;24273734;10.1016/j.nicl.2013.10.010;Elsevier;Neuroimage: Clinical;2213-1582;1156.59;TRUE
+Wellcome Trust;2014;PMC3984441;24818081;10.1016/j.nicl.2014.03.013;Elsevier;Neuroimage: Clinical;2213-1582;1338.21;FALSE
+Wellcome Trust;2014;PMC4055864;24936434;10.1016/j.nicl.2014.05.014;Elsevier;NeuroImage: Clinical;2213-1582;1306.42;FALSE
+Wellcome Trust;2014;PMC4110887;25068112;10.1016/j.nicl.2014.06.008;Elsevier;Neuroimage: Clinical;2213-1582;1270.36;FALSE
+Wellcome Trust;2014;PMC3836281;24266008;10.1016/j.nicl.2013.10.004;Elsevier;Neuroimage: Clinical;2213-1582;1161.51;FALSE
+Wellcome Trust;2014;PMC3830064;24273734;10.1016/j.nicl.2013.10.010;Elsevier;Neuroimage: Clinical;2213-1582;1156.59;FALSE
 Wellcome Trust;2014;PMC4047625;24792523;10.1016/j.nmd.2014.03.011;Elsevier;Neuromuscular Disorders;0960-8966, 1873-2364;2608.38;TRUE
 Wellcome Trust;2014;PMC3988957;24559679;10.1016/j.neuron.2013.12.029;Elsevier;Neuron;0896-6273, 1097-4199;3757.37;TRUE
 Wellcome Trust;2014;PMC3969249;24507190;10.1016/j.neuron.2013.11.025;Elsevier;Neuron;0896-6273, 1097-4199;3722.72;TRUE
@@ -1070,7 +1070,7 @@ Wellcome Trust;2014;PMC3969091;24581081;10.1016/j.socscimed.2013.12.006;Elsevier
 Wellcome Trust;2014;PMC3988836;24230960;10.1016/j.socscimed.2013.10.028;Elsevier;Social Science and Medicine;0277-9536, 1873-5347;2680.69;TRUE
 Wellcome Trust;2014;PMC3969102;24534735;10.1016/j.socscimed.2014.01.020;Elsevier;Social Science and Medicine;0277-9536, 1873-5347;2672.63;TRUE
 Wellcome Trust;2014;PMC4124517;24997443;10.1016/j.socscimed.2014.06.036;Elsevier;Social Science and Medicine;0277-9536, 1873-5347;2611.38;TRUE
-Wellcome Trust;2014;PMC3849254;24319657;10.1016/j.stemcr.2013.07.003;Elsevier;Stem Cell Reports;2213-6711;2733.69;TRUE
+Wellcome Trust;2014;PMC3849254;24319657;10.1016/j.stemcr.2013.07.003;Elsevier;Stem Cell Reports;2213-6711;2733.69;FALSE
 Wellcome Trust;2014;PMC4087272;24980796;10.1016/j.str.2014.04.018;Elsevier;Structure;0969-2126, 1878-4186;1579.59;TRUE
 Wellcome Trust;2014;PMC4275593;24268931;10.1016/j.shpsc.2013.10.009;Elsevier;Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences;1369-8486, 1879-2499;1022.13;TRUE
 Wellcome Trust;2014;PMC4275600;24388014;10.1016/j.shpsc.2013.12.002;Elsevier;Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences;1369-8486, 1879-2499;993.37;TRUE
@@ -1116,7 +1116,7 @@ Wellcome Trust;2014;PMC3277281;22363260;10.3389/fnmol.2012.00008;Frontiers;Front
 Wellcome Trust;2014;PMC4097812;25076868;10.3389/fnins.2014.00189;Frontiers;Brain Imaging Methods (Frontiers);1662-4548, 1662-453X;1867.06;FALSE
 Wellcome Trust;2014;PMC4115666;25126078;10.3389/fnagi.2014.00190;Frontiers;Frontiers in Aging Neuroscience;1663-4365;1477.53;FALSE
 Wellcome Trust;2014;PMC3950931;24659960;10.3389/fnbeh.2014.00076;Frontiers;Frontiers in Behavioral Neuroscience;1662-5153;1477.53;FALSE
-Wellcome Trust;2014;PMC3827541;24294594;10.3389/fcimb.2013.00078;Frontiers;Frontiers in Cellular and Infection Microbiology;2235-2988;991.70;TRUE
+Wellcome Trust;2014;PMC3827541;24294594;10.3389/fcimb.2013.00078;Frontiers;Frontiers in Cellular and Infection Microbiology;2235-2988;991.70;FALSE
 Wellcome Trust;2014;PMC3872302;24399930;10.3389/fncel.2013.00263;Frontiers;Frontiers in Cellular Neuroscience;1662-5102;1177.84;FALSE
 Wellcome Trust;2014;PMC4051194;24959118;10.3389/fncel.2014.00151;Frontiers;Frontiers in Cellular Neuroscience;1662-5102;711.06;FALSE
 Wellcome Trust;2014;PMC4009417;24808876;10.3389/fpsyg.2014.00360;Frontiers;Frontiers in Cognitive Science;1664-1078;886.52;FALSE
@@ -1501,7 +1501,7 @@ Wellcome Trust;2014;PMC4030775;24463883;10.1093/hmg/ddu030;Oxford University Pre
 Wellcome Trust;2014;PMC4168830;24879641;10.1093/hmg/ddu269;Oxford University Press;Human Molecular Genetics;0964-6906, 1460-2083;2137.63;TRUE
 Wellcome Trust;2014;PMC4204770;24943594;10.1093/hmg/ddu311;Oxford University Press;Human Molecular Genetics;0964-6906, 1460-2083;2137.63;TRUE
 Wellcome Trust;2014;PMC3803144;23393160;10.1093/hmg/ddt058;Oxford University Press;Human Molecular Genetics;0964-6906, 1460-2083;1432.21;TRUE
-Wellcome Trust;2014;;;10.1093/hmg/ddt616;Oxford University Press;Human Molecular Genetics;1932-6203;2565.15;FALSE
+Wellcome Trust;2014;;;10.1093/hmg/ddt616;Oxford University Press;Human Molecular Genetics;1932-6203;2565.15;TRUE
 Wellcome Trust;2014;PMC3829580;24067601;10.1093/humrep/det372;Oxford University Press;Human Reproduction;0268-1161, 1460-2350;3114.83;TRUE
 Wellcome Trust;2014;PMC3949498;24522839;10.1093/humrep/deu017;Oxford University Press;Human Reproduction;0268-1161, 1460-2350;3114.83;TRUE
 Wellcome Trust;2014;PMC4164146;25056088;10.1093/humrep/deu182;Oxford University Press;Human Reproduction;0268-1161, 1460-2350;3114.83;TRUE
