@@ -408,7 +408,7 @@ Wellcome Trust;2014;PMC4025454;24793252;10.1136/bmjopen-2013-004633;BMJ;BMJ Open
 Wellcome Trust;2014;PMC4054640;24898091;10.1136/bmjopen-2014-005559;BMJ;BMJ Open;2044-6055;989.42;FALSE
 Wellcome Trust;2014;PMC4127934;25099934;10.1136/bmjopen-2014-005439;BMJ;BMJ Open;2044-6055;989.42;FALSE
 Wellcome Trust;2014;PMC4010848;24785400;10.1136/bmjopen-2014-004934;BMJ;BMJ Open ;2044-6055;993.18;FALSE
-Wellcome Trust;2014;PMC4212707;25478170;10.1136/bmjresp-2013-000014;BMJ;BMJ Open Respiratory Research;2052-4439;1978.83;TRUE
+Wellcome Trust;2014;PMC4212707;25478170;10.1136/bmjresp-2013-000014;BMJ;BMJ Open Respiratory Research;2052-4439;1978.83;FALSE
 Wellcome Trust;2014;PMC4112431;24302753;10.1136/jech-2013-203225;BMJ;Journal of Epidemiology & Community Health;0143-005X, 1470-2738;2894.96;TRUE
 ;;;;;;;;;
 Wellcome Trust;2014;PMC4215291;24608087;10.1136/medethics-2013-101810;BMJ;Journal of Medical Ethics;0306-6800, 1473-4257;2858.31;TRUE
@@ -574,7 +574,7 @@ Wellcome Trust;2014;PMC3972632;23778147;10.1016/j.expneurol.2013.06.010;Elsevier
 Wellcome Trust;2014;PMC4046229;24333634;10.1016/j.freeradbiomed.2013.12.006;Elsevier;Free radical biology & medicine;0891-5849, 1873-4596;1911.97;TRUE
 Wellcome Trust;2014;PMC4161391;25011008;10.1016/j.fgb.2014.06.011;Elsevier;Fungal Genetics and Biology;1087-1845, 1096-0937;1581.16;TRUE
 Wellcome Trust;2014;PMC3969301;24321822;10.1016/j.heares.2013.11.008;Elsevier;Hearing Research;0378-5955, 1878-5891;1604.72;TRUE
-Wellcome Trust;2014;PMC4266795;25516825;10.1016/j.ijpddr.2014.07.003;Elsevier;"International Journal of Parasitology; Drug & Drug Resistance ";2211-3207;1293.75;TRUE
+Wellcome Trust;2014;PMC4266795;25516825;10.1016/j.ijpddr.2014.07.003;Elsevier;"International Journal of Parasitology; Drug & Drug Resistance ";2211-3207;1293.75;FALSE
 Wellcome Trust;2014;PMC3979107;24388011;10.1016/j.jaci.2013.10.056;Elsevier;Journal of Allergy and Clinical Immunology;0091-6749, 1097-6825;2329.03;TRUE
 Wellcome Trust;2014;PMC3989117;24444818;10.1016/j.jcpa.2013.11.204;Elsevier;Journal of Comparative Pathology;0021-9975, 1532-3129;2758.05;TRUE
 Wellcome Trust;2014;PMC4141889;25005882;10.1016/j.vaccine.2014.05.038;Elsevier;Lancet Global Health;0264-410X, 1873-2518;1312.32;TRUE
@@ -1000,7 +1000,7 @@ Wellcome Trust;2014;PMC3991334;24556578;10.1016/j.jsb.2014.02.004;Elsevier;Journ
 Wellcome Trust;2014;PMC4064301;24727187;10.1016/j.jtbi.2014.04.005;Elsevier;Journal of Theoretical Biology;0022-5193, 1095-8541;1970.98;TRUE
 Wellcome Trust;2014;PMC4201441;25194890;10.1016/j.jviromet.2014.08.020;Elsevier;Journal of Virological Methods;0166-0934, 1879-0984;1521.89;TRUE
 Wellcome Trust;2014;PMC4288792;24582810;10.1016/j.lfs.2014.02.020;Elsevier;Life Sciences;0024-3205, 1879-0631;2708.03;TRUE
-Wellcome Trust;2014;PMC3463576;23056315;10.1016/j.gep.2013.09.002;Elsevier;Mechanism of Development Gene Expression Pattern;1932-6203;1711.27;FALSE
+Wellcome Trust;2014;PMC3463576;23056315;10.1016/j.gep.2013.09.002;Elsevier;Mechanism of Development Gene Expression Pattern;1932-6203;1711.27;TRUE
 Wellcome Trust;2014;PMC3969109;24211736;10.1016/j.ymeth.2013.10.015;Elsevier;Methods;1046-2023, 1095-9130;2379.45;TRUE
 Wellcome Trust;2014;PMC4046648;23499752;10.1016/j.mito.2013.03.002;Elsevier;Mitochondrion;1567-7249, 1872-8278;2608.27;TRUE
 Wellcome Trust;2014;PMC3969298;24333691;10.1016/j.mito.2013.12.001;Elsevier;Mitochondrion;1567-7249, 1872-8278;1832.25;TRUE

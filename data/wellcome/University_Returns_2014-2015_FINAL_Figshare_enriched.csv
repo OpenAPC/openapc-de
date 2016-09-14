@@ -1182,7 +1182,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2562.38,"10.1016/j.psychres.2014.12.012",TRUE,"Elsevier BV","Psychiatry Research","01651781","01651781",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25596956","PMC4326175",NA,NA,FALSE
 "Wellcome Trust",2015,2562.85,"10.1111/phc3.12200",TRUE,"Wiley-Blackwell","Philosophy Compass","17479991",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26146511","PMC4479978",NA,NA,FALSE
 "Wellcome Trust",2015,2565.08,"10.1007/s00204-015-1453-5",TRUE,"Springer Nature","Archives of Toxicology","0340-5761","0340-5761","1432-0738",NA,TRUE,"25693864","PMC4572080",NA,NA,FALSE
-"Wellcome Trust",2015,2565.42,"10.1186/s12916-014-0220-4",TRUE,"Springer Nature","BMC Medicine","1741-7015",NA,"1741-7015","http://www.springer.com/tdm",TRUE,"25428603","PMC4245790",NA,NA,TRUE
+"Wellcome Trust",2015,2565.42,"10.1186/s12916-014-0220-4",FALSE,"Springer Nature","BMC Medicine","1741-7015",NA,"1741-7015","http://www.springer.com/tdm",TRUE,"25428603","PMC4245790",NA,NA,TRUE
 "Wellcome Trust",2015,2566.38,"10.1016/j.schres.2015.06.016",TRUE,"Elsevier BV","Schizophrenia Research","09209964","09209964",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26189075","PMC4604250",NA,NA,FALSE
 "Wellcome Trust",2015,2567.1,"10.1007/s10389-015-0662-y",TRUE,"Springer Nature","Journal of Public Health","2198-1833","2198-1833","1613-2238",NA,TRUE,"26000232","PMC4434856",NA,NA,FALSE
 "Wellcome Trust",2015,2567.76,"10.1007/s00395-015-0476-7",TRUE,"Springer Nature","Basic Research in Cardiology","0300-8428","0300-8428","1435-1803",NA,TRUE,"25725809","PMC4344953",NA,NA,FALSE
@@ -1289,7 +1289,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2675.25,"10.1007/s00424-014-1660-6",TRUE,"Springer Nature","Pflügers Archiv - European Journal of Physiology","0031-6768","0031-6768","1432-2013",NA,TRUE,"25482670","PMC4428809",NA,NA,FALSE
 "Wellcome Trust",2015,2678.8,"10.1016/j.echo.2014.10.012",TRUE,"Elsevier BV","Journal of the American Society of Echocardiography","08947317","08947317",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25499839","PMC4346278",NA,NA,FALSE
 "Wellcome Trust",2015,2681.12,"10.4049/jimmunol.1501404",TRUE,"The American Association of Immunologists","The Journal of Immunology","0022-1767","0022-1767","1550-6606",NA,TRUE,"26320251","PMC4574524",NA,NA,FALSE
-"Wellcome Trust",2015,2682.76,"10.1136/archdischild-2015-308187",FALSE,"BMJ","Archives of Disease in Childhood","0003-9888","0003-9888","1468-2044",NA,TRUE,"26111816","PMC4680200",NA,NA,FALSE
+"Wellcome Trust",2015,2682.76,"10.1136/archdischild-2015-308187",TRUE,"BMJ","Archives of Disease in Childhood","0003-9888","0003-9888","1468-2044",NA,TRUE,"26111816","PMC4680200",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/jech-2014-204915",TRUE,"BMJ","Journal of Epidemiology and Community Health","0143-005X","0143-005X","1470-2738",NA,TRUE,"25573701","PMC4413744",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/jfprhc-2014-101082",TRUE,"BMJ","Journal of Family Planning and Reproductive Health Care","1471-1893","1471-1893","2045-2098",NA,TRUE,"25583124","PMC4621371",NA,NA,FALSE
 "Wellcome Trust",2015,2682.76,"10.1136/heartjnl-2014-306472",TRUE,"BMJ","Heart","1355-6037","1355-6037","1468-201X",NA,TRUE,"25480883","PMC4392309",NA,NA,FALSE
