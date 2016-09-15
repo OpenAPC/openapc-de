@@ -138,7 +138,7 @@
 "FWF - Austrian Science Fund";2015;1786.63;"10.1074/mcp.M114.040352";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;2805.41;"10.1091/mbc.E14-06-1174";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;2106.73;"10.1128/AEM.01545-15";"TRUE";;;;
-"FWF - Austrian Science Fund";2015;397.19;"10.1128/genomeA.00674-15";"TRUE";;;;
+"FWF - Austrian Science Fund";2015;397.19;"10.1128/genomeA.00674-15";"FALSE";;;;
 "FWF - Austrian Science Fund";2015;2967.75;"10.1128/mBio.00621-15";"FALSE";;;;
 "FWF - Austrian Science Fund";2015;2550.51;"10.1128/MCB.01346-14";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;1934.00;"10.1182/blood-2014-08-595397";"TRUE";;;;
@@ -535,10 +535,10 @@
 "FWF - Austrian Science Fund";2015;1645.16;"10.1534/genetics.114.169698";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;2241.46;"10.1655/HERPETOLOGICA-D-14-00014";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;1815.84;"10.1155/2015/460598";"FALSE";;;;
-"FWF - Austrian Science Fund";2015;1653.47;"10.1155/2015/797421";"TRUE";;;;
+"FWF - Austrian Science Fund";2015;1653.47;"10.1155/2015/797421";"FALSE";;;;
 "FWF - Austrian Science Fund";2015;1230.16;"10.1155/2014/140419";"FALSE";;;;
 "FWF - Austrian Science Fund";2015;1227.16;"10.1680/bbn.14.00009";"TRUE";;;;
-"FWF - Austrian Science Fund";2015;2532.11;;"TRUE";"Impact Journals";"Aging";"1945-4589";"http://www.impactaging.com/papers/v7/n6/full/100755.html"
+"FWF - Austrian Science Fund";2015;2532.11;;"FALSE";"Impact Journals, LLC";"Aging";"1945-4589";"http://www.impactaging.com/papers/v7/n6/full/100755.html"
 "FWF - Austrian Science Fund";2015;992.54;"10.18632/oncotarget.2465";"FALSE";;;;
 "FWF - Austrian Science Fund";2015;2599.26;"10.18632/oncotarget.3586";"FALSE";;;;
 "FWF - Austrian Science Fund";2015;3002.69;"10.18632/oncotarget.3368";"FALSE";;;;
@@ -588,7 +588,7 @@
 "FWF - Austrian Science Fund";2015;2453.88;"10.1088/0953-8984/27/14/146001";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;2453.88;"10.1088/0953-8984/27/32/325102";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;2453.88;"10.1088/0953-8984/27/42/425602";"TRUE";;;;
-"FWF - Austrian Science Fund";2015;2453.88;"10.1088/0953-8984/27/20/203202";"FALSE";;;;
+"FWF - Austrian Science Fund";2015;2453.88;"10.1088/0953-8984/27/20/203202";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;2453.88;"10.1088/0957-4484/26/31/315601";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;2453.88;"10.1088/0957-4484/26/22/225202";"TRUE";;;;
 "FWF - Austrian Science Fund";2015;2453.88;"10.1088/0957-4484/26/48/485702";"TRUE";;;;

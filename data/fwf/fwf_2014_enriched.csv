@@ -157,7 +157,7 @@
 "FWF - Austrian Science Fund",2014,229.6,"10.4161/sgtp.27281",TRUE,"Informa UK Limited","Small GTPases","2154-1248","2154-1248","2154-1256",NA,TRUE,"24322054","PMC4011821",NA,NA,FALSE
 "FWF - Austrian Science Fund",2014,963.93,"10.1039/C4OB02318H",TRUE,"Royal Society of Chemistry (RSC)","Org. Biomol. Chem.","1477-0520","1477-0520","1477-0539",NA,TRUE,"25521410","PMC4323751",NA,NA,FALSE
 "FWF - Austrian Science Fund",2014,1751.82,"10.1080/15230406.2014.901900",TRUE,"Informa UK Limited","Cartography and Geographic Information Science","1523-0406","1523-0406","1545-0465",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2014,1160.6,NA,TRUE,"Impact Journals LLC","Aging","1945-4589",NA,NA,NA,FALSE,NA,"PMC3371764",NA,"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3371764/",FALSE
+"FWF - Austrian Science Fund",2014,1160.6,"10.18632/aging.100452",FALSE,"Impact Journals LLC","Aging","1945-4589",NA,NA,NA,FALSE,NA,"PMC3371764",NA,"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3371764/",FALSE
 "FWF - Austrian Science Fund",2014,1230.61,"10.1103/PhysRevB.89.201406",TRUE,"American Physical Society (APS)","Physical Review B","1098-0121","1098-0121","1550-235X","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2014,2599.14,"10.1021/nl403411w",TRUE,"American Chemical Society (ACS)","Nano Letters","1530-6984","1530-6984","1530-6992","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"24592968","PMC3985450",NA,NA,FALSE
 "FWF - Austrian Science Fund",2014,1483.24,"10.1103/PhysRevB.89.165105",TRUE,"American Physical Society (APS)","Physical Review B","1098-0121","1098-0121","1550-235X","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -892,7 +892,7 @@
 "FWF - Austrian Science Fund",2014,1635.88,"10.1016/j.landusepol.2013.11.010",TRUE,"Elsevier BV","Land Use Policy","02648377","02648377",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25844006","PMC4375667",NA,NA,FALSE
 "FWF - Austrian Science Fund",2014,1560,"10.1093/aob/mcu010",TRUE,"Oxford University Press (OUP)","Annals of Botany","0305-7364","0305-7364","1095-8290",NA,TRUE,"24603604","PMC4195540",NA,NA,FALSE
 "FWF - Austrian Science Fund",2014,1363.22,"10.1016/j.nicl.2013.09.007",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24273720","PMC3814956",NA,NA,FALSE
-"FWF - Austrian Science Fund",2014,420,"10.2478/geoca-2014-0024",TRUE,"Walter de Gruyter GmbH","Geologica Carpathica","1336-8052",NA,"1336-8052",NA,TRUE,NA,NA,NA,NA,TRUE
+"FWF - Austrian Science Fund",2014,420,"10.2478/geoca-2014-0024",FALSE,"Walter de Gruyter GmbH","Geologica Carpathica","1336-8052",NA,"1336-8052",NA,TRUE,NA,NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2014,1954.84,"10.1016/j.tpb.2014.04.001",TRUE,"Elsevier BV","Theoretical Population Biology","00405809","00405809",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24793653","PMC4045392",NA,NA,FALSE
 "FWF - Austrian Science Fund",2014,2643.56,"10.1111/bph.12766",TRUE,"Wiley-Blackwell","British Journal of Pharmacology","00071188",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24824446","PMC4561504",NA,NA,FALSE
 "FWF - Austrian Science Fund",2014,2263.53,"10.1111/jiec.12088",TRUE,"Wiley-Blackwell","Journal of Industrial Ecology","10881980",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25866460","PMC4386478",NA,NA,FALSE
