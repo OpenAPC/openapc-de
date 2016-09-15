@@ -39,7 +39,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,883.73,"10.1186/s12936-015-0541-6",FALSE,"Springer Nature","Malaria Journal","1475-2875","1475-2875",NA,NA,TRUE,"25627033","PMC4318195",NA,NA,TRUE
 "Wellcome Trust",2015,887.98,"10.3389/fnint.2015.00021",FALSE,"Frontiers Media SA","Frontiers in Integrative Neuroscience","1662-5145",NA,"1662-5145",NA,TRUE,"25883556","PMC4381624",NA,NA,TRUE
 "Wellcome Trust",2015,887.98,"10.3389/fnhum.2015.00125",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25852515","PMC4366647",NA,NA,TRUE
-"Wellcome Trust",2015,890.21,"10.1302/2046-3758.46.2000318",TRUE,"British Editorial Society of Bone &amp; Joint Surgery","Bone and Joint Research","2046-3758",NA,"2046-3758",NA,TRUE,"26036203","PMC4468929",NA,NA,TRUE
+"Wellcome Trust",2015,890.21,"10.1302/2046-3758.46.2000318",FALSE,"British Editorial Society of Bone &amp; Joint Surgery","Bone and Joint Research","2046-3758",NA,"2046-3758",NA,TRUE,"26036203","PMC4468929",NA,NA,TRUE
 "Wellcome Trust",2015,890.21,"10.1302/2046-3758.410.2000420",FALSE,"British Editorial Society of Bone &amp; Joint Surgery","Bone and Joint Research","2046-3758",NA,"2046-3758",NA,TRUE,"26450640","PMC4649683",NA,NA,TRUE
 "Wellcome Trust",2015,894.32,"10.3389/fnbeh.2015.00026",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"25741255","PMC4330887",NA,NA,TRUE
 "Wellcome Trust",2015,912.06,"10.3389/fnbeh.2015.00186",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153",NA,TRUE,"26236210","PMC4505102",NA,NA,TRUE
@@ -58,7 +58,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,992.37,"10.1186/s12891-015-0534-1",FALSE,"Springer Nature","BMC Musculoskeletal Disorders","1471-2474",NA,"1471-2474",NA,TRUE,"25887581","PMC4419506",NA,NA,TRUE
 "Wellcome Trust",2015,992.37,"10.1186/1471-2474-15-451",FALSE,"Springer Nature","BMC Musculoskeletal Disorders","1471-2474","1471-2474",NA,NA,TRUE,"25539734","PMC4364581",NA,NA,TRUE
 "Wellcome Trust",2015,1008.52,"10.18632/oncoscience.149",TRUE,"Impact Journals, LLC","Oncoscience","2331-4737",NA,"2331-4737",NA,TRUE,"26097884","PMC4468337",NA,NA,FALSE
-"Wellcome Trust",2015,1011.6,"10.4161/21541248.2014.992259",FALSE,"Informa UK Limited","Small GTPases","2154-1248","2154-1248","2154-1256",NA,TRUE,"25862165","PMC4601492",NA,NA,FALSE
+"Wellcome Trust",2015,1011.6,"10.4161/21541248.2014.992259",TRUE,"Informa UK Limited","Small GTPases","2154-1248","2154-1248","2154-1256",NA,TRUE,"25862165","PMC4601492",NA,NA,FALSE
 "Wellcome Trust",2015,1022.46,"10.3389/fendo.2014.00160",FALSE,"Frontiers Media SA","Frontiers in Endocrinology","1664-2392",NA,"1664-2392",NA,TRUE,"25352829","PMC4196579",NA,NA,TRUE
 "Wellcome Trust",2015,1025.6,"10.3389/fnhum.2014.00853",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161",NA,TRUE,"25414654","PMC4222142",NA,NA,TRUE
 "Wellcome Trust",2015,1029.03,"10.1107/S2053230X15008584",TRUE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section F Structural Biology Communications","2053-230X",NA,"2053-230X",NA,TRUE,"26144235","PMC4498711",NA,NA,FALSE
@@ -552,7 +552,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,1830.5,"10.1016/j.bone.2015.06.026",TRUE,"Elsevier BV","Bone","87563282","87563282",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26142929","PMC4652609",NA,NA,FALSE
 "Wellcome Trust",2015,1834.48,"10.1016/j.yjmcc.2015.07.009",TRUE,"Elsevier BV","Journal of Molecular and Cellular Cardiology","00222828","00222828",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26196304","PMC4564289",NA,NA,FALSE
 "Wellcome Trust",2015,1835.04,"10.1186/s13071-015-0779-4",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305",NA,TRUE,"25889256","PMC4381491",NA,NA,TRUE
-"Wellcome Trust",2015,1836.94,"10.1109/TNS.2015.2434851",FALSE,"Institute of Electrical &amp; Electronics Engineers (IEEE)","IEEE Transactions on Nuclear Science","0018-9499","0018-9499","1558-1578",NA,TRUE,"26501679","PMC4545898",NA,NA,FALSE
+"Wellcome Trust",2015,1836.94,"10.1109/TNS.2015.2434851",TRUE,"Institute of Electrical &amp; Electronics Engineers (IEEE)","IEEE Transactions on Nuclear Science","0018-9499","0018-9499","1558-1578",NA,TRUE,"26501679","PMC4545898",NA,NA,FALSE
 "Wellcome Trust",2015,1838.95,"10.1016/j.neuroimage.2014.12.018",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25512040","PMC4306523",NA,NA,FALSE
 "Wellcome Trust",2015,1838.95,"10.1016/j.neuroimage.2014.12.015",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25512038","PMC4306525",NA,NA,FALSE
 "Wellcome Trust",2015,1841.38,"10.1016/j.yjmcc.2015.06.012",TRUE,"Elsevier BV","Journal of Molecular and Cellular Cardiology","00222828","00222828",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26103619","PMC4564288",NA,NA,FALSE
