@@ -36,10 +36,15 @@ class RowObject(object):
         self.file_name = file_name
         self.line_number = line_number
         self.row = row
+        
+def has_value(field):
+    return len(field) > 0 and field != "NA"
 
 doi_duplicate_list = []
 apc_data = []
-
+issn_dict = {}
+issn_p_dict = {}
+issn_e_dict = {}
 
 for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
     csv_file = open(file_name, "r")
@@ -48,11 +53,26 @@ for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
     for row in reader:
         apc_data.append(RowObject(file_name, line, row))
         doi_duplicate_list.append(row["doi"])
+        issn = row["issn"]
+        if has_value(issn):
+            if issn not in issn_dict:
+                issn_dict[issn] = [row]
+            else:
+                issn_dict[issn].append(row)
+        issn_p = row["issn_print"]
+        if has_value(issn_p):
+            if issn_p not in issn_p_dict:
+                issn_p_dict[issn_p] = [row]
+            else:
+                issn_p_dict[issn_p].append(row)
+        issn_e = row["issn_electronic"]
+        if has_value(issn_e):
+            if issn_e not in issn_e_dict:
+                issn_e_dict[issn_e] = [row]
+            else:
+                issn_e_dict[issn_e].append(row)
         line += 1
     csv_file.close()
-
-def has_value(field):
-    return len(field) > 0 and field != "NA"
 
 def in_whitelist(issn, first_publisher, second_publisher):
     for entry in PUBLISHER_IDENTITY:
@@ -142,12 +162,12 @@ def check_name_consistency(row_object):
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
     msg = (u'' + line_str + 'Two entries share a common {}ISSN ({}), but the ' +
            '{} differs ("{}" vs "{}")')
-    for other_row_object in apc_data:
-        other_row = other_row_object.row
-        other_publ = other_row["publisher"]
-        other_journal = other_row["journal_full_title"]
-        other_hybrid = other_row["is_hybrid"]
-        if issn is not None and other_row["issn"] == issn:
+    if issn is not None:
+        same_issn_rows = issn_dict[issn]
+        for other_row in same_issn_rows:
+            other_publ = other_row["publisher"]
+            other_journal = other_row["journal_full_title"]
+            other_hybrid = other_row["is_hybrid"]
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
                 ret = msg.format("", issn, "publisher name", publ, other_publ)
                 pytest.fail(ret)
@@ -157,7 +177,12 @@ def check_name_consistency(row_object):
             if not other_hybrid == hybrid and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
                 ret = msg.format("", issn, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
-        elif issn_p is not None and other_row["issn_print"] == issn_p:
+    if issn_p is not None:
+        same_issn_p_rows = issn_p_dict[issn_p]
+        for other_row in same_issn_p_rows:
+            other_publ = other_row["publisher"]
+            other_journal = other_row["journal_full_title"]
+            other_hybrid = other_row["is_hybrid"]    
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
                 ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
                 pytest.fail(ret)
@@ -167,7 +192,12 @@ def check_name_consistency(row_object):
             if not other_hybrid == hybrid and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
                 ret = msg.format("Print ", issn_p, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
-        elif issn_e is not None and other_row["issn_electronic"] == issn_e:
+    if issn_e is not None:
+        same_issn_e_rows = issn_e_dict[issn_e]
+        for other_row in same_issn_e_rows:
+            other_publ = other_row["publisher"]
+            other_journal = other_row["journal_full_title"]
+            other_hybrid = other_row["is_hybrid"]  
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
                 ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
                 pytest.fail(ret)
