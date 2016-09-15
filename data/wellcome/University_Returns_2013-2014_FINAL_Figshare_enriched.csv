@@ -131,7 +131,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2014,1088.78,"10.1074/jbc.M114.550558",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"24550402","PMC3974974",NA,NA,FALSE
 "Wellcome Trust",2014,1888.07,"10.1074/mcp.M113.028589",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Molecular & Cellular Proteomics","1535-9476","1535-9476","1535-9484",NA,TRUE,"23660474","PMC3734580",NA,NA,FALSE
 "Wellcome Trust",2014,1810.29,"10.1074/jbc.M113.510917",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X",NA,TRUE,"24106277","PMC3843076",NA,NA,FALSE
-"Wellcome Trust",2014,3220.79,"10.1172/JCI74281",TRUE,"American Society for Clinical Investigation","Journal of Clinical Investigation","0021-9738","0021-9738",NA,NA,TRUE,"25105365","PMC4151218",NA,NA,FALSE
+"Wellcome Trust",2014,3220.79,"10.1172/JCI74281",FALSE,"American Society for Clinical Investigation","Journal of Clinical Investigation","0021-9738","0021-9738",NA,NA,TRUE,"25105365","PMC4151218",NA,NA,FALSE
 "Wellcome Trust",2014,1465.34,"10.1128/jvi.01567-14",TRUE,"American Society for Microbiology","Journal of Virology","0022-538X","0022-538X","1098-5514",NA,TRUE,"25078692","PMC4178744",NA,NA,FALSE
 "Wellcome Trust",2014,1661.33,"10.1128/mBio.00856-13",FALSE,"American Society for Microbiology","mBio","2150-7511",NA,"2150-7511",NA,TRUE,"24327341","PMC3870257",NA,NA,TRUE
 "Wellcome Trust",2014,1485.1,"10.1128/EC.00269-13",TRUE,"American Society for Microbiology","Eukaryotic Cell","1535-9778","1535-9778","1535-9786",NA,TRUE,"24376004","PMC3910970",NA,NA,FALSE
