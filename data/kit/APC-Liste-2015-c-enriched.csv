@@ -1,6 +1,6 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "KIT",2015,1459.92,"10.1063/1.4928074",FALSE,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
-"KIT",2015,2000,"10.1175/BAMS-D-14-00108.1",FALSE,"American Meteorological Society","Bulletin of the American Meteorological Society","0003-0007","0003-0007","1520-0477",NA,TRUE,NA,NA,NA,NA,FALSE
+"KIT",2015,2000,"10.1175/BAMS-D-14-00108.1",TRUE,"American Meteorological Society","Bulletin of the American Meteorological Society","0003-0007","0003-0007","1520-0477",NA,TRUE,NA,NA,NA,NA,FALSE
 "KIT",2015,1766.47,"10.1103/PhysRevX.5.021030",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2015,2000,"10.1128/mBio.00749-15",FALSE,"American Society for Microbiology","mBio","2150-7511",NA,"2150-7511",NA,TRUE,"26126853","PMC4488947",NA,NA,TRUE
 "KIT",2015,1396,"10.1186/s12896-015-0196-y",FALSE,"Springer Nature","BMC Biotechnology","1472-6750",NA,"1472-6750",NA,TRUE,"26286267","PMC4545374",NA,NA,TRUE

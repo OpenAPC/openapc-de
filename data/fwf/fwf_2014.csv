@@ -112,7 +112,7 @@
 "FWF - Austrian Science Fund";2014;742.18;"10.4236/ns.2013.55079";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;2665.69;"10.1016/j.ijcard.2014.03.086";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;981.78;"10.1105/tpc.113.113373";"TRUE";;;;;
-"FWF - Austrian Science Fund";2014;1152.00;"10.3389/fnhum.2014.00355";"TRUE";;;;;
+"FWF - Austrian Science Fund";2014;1152.00;"10.3389/fnhum.2014.00355";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;960.00;"10.3389/fpls.2013.00292";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;2696.61;"10.1021/ic500803h";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1211.42;"10.1371/journal.pone.0102113";"FALSE";;;;;
@@ -157,7 +157,7 @@
 "FWF - Austrian Science Fund";2014;229.60;"10.4161/sgtp.27281";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;963.93;"10.1039/C4OB02318H";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1751.82;"10.1080/15230406.2014.901900";"TRUE";;;;;
-"FWF - Austrian Science Fund";2014;1160.60;;"TRUE";"Impact Journals";"Aging";"1945-4589";"PMC3371764";"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3371764/"
+"FWF - Austrian Science Fund";2014;1160.60;;"FALSE";"Impact Journals";"Aging";"1945-4589";"PMC3371764";"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3371764/"
 "FWF - Austrian Science Fund";2014;1230.61;"10.1103/PhysRevB.89.201406";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2599.14;"10.1021/nl403411w";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1483.24;"10.1103/PhysRevB.89.165105";"TRUE";;;;;
@@ -240,7 +240,7 @@
 "FWF - Austrian Science Fund";2014;1589.87;"10.1016/j.paid.2014.01.064";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1577.80;"10.1016/j.neuropsychologia.2014.09.019";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2556.00;"10.1093/nar/gku161";"FALSE";;;;;
-"FWF - Austrian Science Fund";2014;2044.89;"10.1088/0953-2048/27/4/044009";"FALSE";;;;;
+"FWF - Austrian Science Fund";2014;2044.89;"10.1088/0953-2048/27/4/044009";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1485.00;"10.1186/1471-2148-14-33";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;1579.06;"10.1186/1471-2164-15-425";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;1777.13;"10.1016/j.cam.2014.04.015";"TRUE";;;;;
@@ -572,11 +572,11 @@
 "FWF - Austrian Science Fund";2014;559.27;"10.4161/chan.26368";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1440.00;"10.1088/1748-9326/9/3/034001";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;498.76;"10.3390/cancers6010193";"FALSE";;;;;
-"FWF - Austrian Science Fund";2014;1600.00;"10.3389/fnagi.2014.00263";"TRUE";;;;;
+"FWF - Austrian Science Fund";2014;1600.00;"10.3389/fnagi.2014.00263";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;2672.72;"10.1111/cgf.12406";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1255.20;"10.1038/srep01955";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;2599.14;"10.1021/bi401042z";"TRUE";;;;;
-"FWF - Austrian Science Fund";2014;1388.48;"10.1364/OE.22.016759";"TRUE";;;;;
+"FWF - Austrian Science Fund";2014;1388.48;"10.1364/OE.22.016759";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;2581.01;"10.1016/j.stemcr.2014.01.006";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;2250.00;"10.1093/molbev/msu227";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1560.00;"10.1163/15685381-00002940";"TRUE";;;;;
@@ -650,7 +650,7 @@
 "FWF - Austrian Science Fund";2014;2044.89;"10.1088/1752-7155/8/4/046005";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2640.00;"10.1007/s00339-014-8408-1";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2720.07;"10.1111/gwat.12243";"TRUE";;;;;
-"FWF - Austrian Science Fund";2014;1124.37;"10.1155/2014/971345";"TRUE";;;;;
+"FWF - Austrian Science Fund";2014;1124.37;"10.1155/2014/971345";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;3060.00;"10.1093/jhered/est005";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1928.41;"10.1016/j.nima.2014.06.080";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2916.22;"10.1021/jp410964w";"TRUE";;;;;
@@ -838,7 +838,7 @@
 "FWF - Austrian Science Fund";2014;1981.40;"10.1021/jz402301v";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1601.58;"10.1103/PhysRevB.89.174113";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1015.76;"10.1371/journal.pone.0086315";"FALSE";;;;;
-"FWF - Austrian Science Fund";2014;2204.65;"10.18632/oncotarget.2329";"TRUE";;;;;
+"FWF - Austrian Science Fund";2014;2204.65;"10.18632/oncotarget.2329";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;1314.83;"10.1016/j.camwa.2014.07.010";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2076.66;"10.1099/ijs.0.052654-0";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2055.00;"10.1038/ncomms3963";"TRUE";;;;;
@@ -888,14 +888,14 @@
 "FWF - Austrian Science Fund";2014;990.00;"10.1186/2051-5960-1-85";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;2196.92;"10.1080/03054985.2014.921613";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2280.00;"10.1093/nar/gkt1315";"FALSE";;;;;
-"FWF - Austrian Science Fund";2014;2044.89;"10.1088/0953-2048/27/4/044006";"FALSE";;;;;
+"FWF - Austrian Science Fund";2014;2044.89;"10.1088/0953-2048/27/4/044006";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2696.61;"10.1021/np500198g";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2030.40;"10.1111/jcmm.12298";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;2932.26;"10.1016/j.carres.2014.03.004";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1635.88;"10.1016/j.landusepol.2013.11.010";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;1560.00;"10.1093/aob/mcu010";"TRUE";;;;;
-"FWF - Austrian Science Fund";2014;1363.22;"10.1016/j.nicl.2013.09.007";"TRUE";;;;;
-"FWF - Austrian Science Fund";2014;420.00;"10.2478/geoca-2014-0024";"TRUE";;;;;
+"FWF - Austrian Science Fund";2014;1363.22;"10.1016/j.nicl.2013.09.007";"FALSE";;;;;
+"FWF - Austrian Science Fund";2014;420.00;"10.2478/geoca-2014-0024";"FALSE";;;;;
 "FWF - Austrian Science Fund";2014;1954.84;"10.1016/j.tpb.2014.04.001";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2643.56;"10.1111/bph.12766";"TRUE";;;;;
 "FWF - Austrian Science Fund";2014;2263.53;"10.1111/jiec.12088";"TRUE";;;;;
