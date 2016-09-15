@@ -18,6 +18,16 @@ JOURNAL_OWNER_CHANGED = {
     "1744-8069": ["SAGE Publications", "Springer Science + Business Media"]
 }
 
+# A whiltelist for denoting changes in journal full open access policy. ISSNs
+# listed here will not be checked for equal "is_hybrid" status by the name_consistency
+# test. Note that we make not further attempts in determining the correct hybrid
+# status for any journal listed here (like trying to track a point of time were the
+# policy change occured), it is up to the contributing institutions to deliver
+# correct data in these cases.
+JOURNAL_HYBRID_STATUS_CHANGED = [
+    "2041-1723" # Nature Communications
+]
+
 class RowObject(object):
     """
     A minimal container class to store contextual information along with csv rows.
@@ -29,6 +39,7 @@ class RowObject(object):
 
 doi_duplicate_list = []
 apc_data = []
+
 
 for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
     csv_file = open(file_name, "r")
@@ -143,7 +154,7 @@ def check_name_consistency(row_object):
             if not other_journal == journal:
                 ret = msg.format("", issn, "journal title", journal, other_journal)
                 pytest.fail(ret)
-            if not other_hybrid == hybrid:
+            if not other_hybrid == hybrid and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
                 ret = msg.format("", issn, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
         elif issn_p is not None and other_row["issn_print"] == issn_p:
@@ -153,8 +164,8 @@ def check_name_consistency(row_object):
             if not other_journal == journal:
                 ret = msg.format("Print ", issn_p, "journal title", journal, other_journal)
                 pytest.fail(ret)
-            if not other_hybrid == hybrid:
-                ret = msg.format("Print", issn_p, "hybrid status", hybrid, other_hybrid)
+            if not other_hybrid == hybrid and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
+                ret = msg.format("Print ", issn_p, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
         elif issn_e is not None and other_row["issn_electronic"] == issn_e:
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
@@ -163,8 +174,8 @@ def check_name_consistency(row_object):
             if not other_journal == journal:
                 ret = msg.format("Electronic ", issn_e, "journal title", journal, other_journal)
                 pytest.fail(ret)
-            if not other_hybrid == hybrid:
-                ret = msg.format("Electronic", issn_e, "hybrid status", hybrid, other_hybrid)
+            if not other_hybrid == hybrid and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
+                ret = msg.format("Electronic ", issn_e, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
 
 @pytest.mark.parametrize("row_object", apc_data)
