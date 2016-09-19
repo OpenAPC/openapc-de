@@ -90,7 +90,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-11,719 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 15,926,038, including value-added tax; the average payment was € 1,359 (median =  € 1,273, SD = € 540).
+11,759 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,009,172, including value-added tax; the average payment was € 1,361 (median =  € 1,274, SD = € 544).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -99,32 +99,32 @@ The following table summarises institutional spending on articles published in f
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |MPG                                         |    2,989|             3,878,292|   1,298 (469)|  1,178|        69 - 7,419|
-|Wellcome Trust                              |    1,375|             2,367,564|   1,722 (739)|  1,602|       229 - 5,486|
-|FWF - Austrian Science Fund                 |      731|             1,016,441|   1,390 (637)|  1,271|       100 - 5,216|
+|Wellcome Trust                              |    1,400|             2,425,249|   1,732 (750)|  1,602|       229 - 5,486|
+|FWF - Austrian Science Fund                 |      753|             1,056,717|   1,403 (649)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
 |Freiburg U                                  |      471|               626,480|   1,330 (410)|  1,386|        50 - 2,474|
 |Wuerzburg U                                 |      469|               595,119|   1,269 (416)|  1,266|         0 - 2,514|
-|KIT                                         |      428|               524,346|   1,225 (526)|  1,239|        69 - 3,731|
+|KIT                                         |      427|               522,346|   1,223 (525)|  1,236|        69 - 3,731|
 |Tuebingen U                                 |      411|               548,124|   1,334 (407)|  1,346|       150 - 2,662|
-|Erlangen Nuernberg U                        |      402|               551,812|   1,373 (369)|  1,424|       124 - 2,286|
+|Erlangen Nuernberg U                        |      401|               550,174|   1,372 (369)|  1,424|       124 - 2,286|
 |Regensburg U                                |      400|               503,845|   1,260 (504)|  1,207|        77 - 4,403|
 |Muenchen LMU                                |      365|               463,491|   1,270 (296)|  1,299|       496 - 2,023|
 |Giessen U                                   |      317|               428,690|   1,352 (575)|  1,273|        81 - 4,498|
 |TU Muenchen                                 |      308|               390,086|   1,267 (479)|  1,386|       131 - 2,122|
 |Bremen U                                    |      264|               335,873|   1,272 (425)|  1,246|       112 - 2,657|
 |Bielefeld U                                 |      263|               322,815|   1,227 (313)|  1,232|         0 - 2,103|
-|Konstanz U                                  |      223|               304,182|   1,364 (407)|  1,342|        40 - 2,072|
+|Konstanz U                                  |      222|               302,232|   1,361 (406)|  1,333|        40 - 2,072|
 |Heidelberg U                                |      215|               308,348|   1,434 (377)|  1,500|        60 - 2,042|
 |Leipzig U                                   |      173|               243,873|   1,410 (331)|  1,471|       341 - 2,055|
 |FZJ - ZB                                    |      158|               196,869|   1,246 (516)|  1,177|       370 - 3,700|
 |Duisburg-Essen U                            |      147|               178,437|   1,214 (356)|  1,212|       238 - 2,800|
 |TU Dresden                                  |      130|               175,723|   1,352 (416)|  1,415|       200 - 2,193|
-|FU Berlin                                   |      106|               142,671|   1,346 (466)|  1,292|       220 - 2,000|
 |GFZ-Potsdam                                 |      106|               126,520|   1,194 (760)|  1,065|       223 - 4,403|
+|FU Berlin                                   |      105|               141,170|   1,344 (468)|  1,286|       220 - 2,000|
 |Bayreuth U                                  |       92|               105,725|   1,149 (532)|  1,200|        82 - 2,059|
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
-|Ulm U                                       |       65|                92,049|   1,416 (672)|  1,285|       260 - 5,284|
+|Ulm U                                       |       62|                84,310|   1,360 (647)|  1,285|       260 - 5,284|
 |Leibniz-Fonds                               |       56|                92,730|   1,656 (597)|  1,586|       173 - 3,202|
 |MDC                                         |       51|               103,028| 2,020 (1,220)|  1,483|       575 - 4,662|
 |TU Chemnitz                                 |       40|                39,454|     986 (697)|  1,056|        78 - 2,123|
@@ -143,21 +143,25 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,599 open access articles being published in hybrid journals. Total expenditure amounts to  32,742,587 €. Average  fee is 2,548 € and the median 2,589 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,559 open access articles being published in hybrid journals. Total expenditure amounts to  32,742,587 €. Average  fee is 2,551 € and the median 2,589 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|Wellcome Trust                              |    3,934|            10,482,668|   2,665 (947)|  2,610|       267 - 6,108|
-|FWF - Austrian Science Fund                 |    2,582|             6,170,854|   2,390 (736)|  2,515|       120 - 5,315|
+|Wellcome Trust                              |    3,909|            10,424,982|   2,667 (946)|  2,610|       267 - 6,108|
+|FWF - Austrian Science Fund                 |    2,560|             6,130,578|   2,395 (733)|  2,519|       120 - 5,315|
 |MPG                                         |       40|                63,548|   1,589 (290)|  1,669|       763 - 1,958|
 |MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
-|Ulm U                                       |       13|                25,932|   1,995 (613)|  1,741|     1,308 - 2,631|
+|Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
 |INM - Leibniz-Institut für Neue Materialien |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
 |Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|     1,581 - 1,581|
 |Duisburg-Essen U                            |        1|                 2,618|   2,618 (  0)|  2,618|     2,618 - 2,618|
+|Erlangen Nuernberg U                        |        1|                 1,638|   1,638 (  0)|  1,638|     1,638 - 1,638|
+|FU Berlin                                   |        1|                 1,500|   1,500 (  0)|  1,500|     1,500 - 1,500|
+|KIT                                         |        1|                 2,000|   2,000 (  0)|  2,000|     2,000 - 2,000|
+|Konstanz U                                  |        1|                 1,950|   1,950 (  0)|  1,950|     1,950 - 1,950|
 |TU Chemnitz                                 |        1|                   100|     100 (  0)|    100|       100 -   100|
 
 
@@ -186,10 +190,10 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.52%       |
-|PubMed ID                  |  80.67%      |
+|DOI                        |  99.53%       |
+|PubMed ID                  |  80.69%      |
 |PubMed Central ID          |  77.41%     |
-|Web of Science record ID   | 89.42%      |
+|Web of Science record ID   | 89.43%      |
 
 
 

@@ -39,7 +39,7 @@ Wellcome Trust;2015;PMC4427169;25945713;10.1107/S2053230X15003040;International 
 Wellcome Trust;2015;PMC4318195;25627033;10.1186/s12936-015-0541-6;BioMed Central;Malaria Journal;1475-2875;883.73;FALSE
 Wellcome Trust;2015;PMC4381624;25883556;10.3389/fnint.2015.00021;Frontiers;Frontiers in Integrative Neuroscience;1662-5145;887.98;FALSE
 Wellcome Trust;2015;PMC4366647;25852515;10.3389/fnhum.2015.00125;Frontiers;Frontiers in Human Neuroscience;1662-5161;887.98;FALSE
-Wellcome Trust;2015;PMC4405644;26036203;10.1302/2046-3758.46.2000318;British Editorial Society of Bone and Joint Surgery;Bone and Joint Research;0270-7306, 1098-5549;890.21;TRUE
+Wellcome Trust;2015;PMC4405644;26036203;10.1302/2046-3758.46.2000318;British Editorial Society of Bone and Joint Surgery;Bone and Joint Research;0270-7306, 1098-5549;890.21;FALSE
 Wellcome Trust;2015;PMC4649683;26450640;10.1302/2046-3758.410.2000420;British Editorial Society of Bone and Joint Surgery;Bone and Joint Research;2046-3758;890.21;FALSE
 Wellcome Trust;2015;PMC4330887;25741255;10.3389/fnbeh.2015.00026;Frontiers;Frontiers in Behavioral Neuroscience;1662-5153;894.32;FALSE
 Wellcome Trust;2015;PMC4505102;;10.3389/fnbeh.2015.00186;Frontiers;Frontiers in Behavioural Neuroscience;1662-5153;912.06;FALSE
@@ -58,7 +58,7 @@ Wellcome Trust;2015;PMC4332365;;10.3389/fimmu.2015.00051;Frontiers ;Frontiers in
 Wellcome Trust;2015;PMC4419506;25887581;10.1186/s12891-015-0534-1;Biomed Central ;BioMed Central;1471-2474;992.37;FALSE
 Wellcome Trust;2015;PMC4364581;25539734;10.1186/1471-2474-15-451;Biomed Central ;BMC Muskuloskeletal;1471-2474;992.37;FALSE
 Wellcome Trust;2015;PMC4468337;26097884;10.18632/oncoscience.149;Impact Journals;Oncoscience;2331-4737;1008.52;TRUE
-Wellcome Trust;2015;PMC4585930;26411260;10.4161/21541248.2014.992259;Taylor & Francis;Small GTPases;2045-2322;1011.60;FALSE
+Wellcome Trust;2015;PMC4585930;26411260;10.4161/21541248.2014.992259;Taylor & Francis;Small GTPases;2045-2322;1011.60;TRUE
 Wellcome Trust;2015;PMC4196579;25352829;10.3389/fendo.2014.00160;Frontiers Research Foundation;Frontiers in Endocrinology;1664-2392;1022.46;FALSE
 Wellcome Trust;2015;PMC4222142;25414654;10.3389/fnhum.2014.00853;Frontiers;Frontiers in Human Neuroscience;1662-5161;1025.60;FALSE
 Wellcome Trust;2015;PMC4498711;26144235;10.1107/S2053230X15008584;International Union of Crystallography ;Acta Crystallographica Section F;2053-230X;1029.03;TRUE
@@ -188,7 +188,7 @@ Wellcome Trust;2015;PMC4146515;25162539;10.1371/journal.pone.0105302;PLOS;P L o 
 Wellcome Trust;2015;PMC4272291;25526617;10.1371/journal.pone.0115374;PLOS;PLoS One;1932-6203;1342.24;FALSE
 Wellcome Trust;2015;PMC4186810;25286379;10.1371/journal.pone.0108839;PLOS;P L o S One;1932-6203;1342.51;FALSE
 Wellcome Trust;2015;PMC4231104;25393410;10.1371/journal.pone.0112768;PLOS;PLoS One;1932-6203;1344.15;FALSE
-Wellcome Trust;2015;PMC4268703;25830295;10.1371/journal.pone.0121271;PLOS;PLoS ONE;2041-1723;1346.64;TRUE
+Wellcome Trust;2015;PMC4268703;25830295;10.1371/journal.pone.0121271;PLOS;PLoS ONE;2041-1723;1346.64;FALSE
 Wellcome Trust;2015;PMC4224508;25380074;10.1371/journal.pone.0112547;PLOS;P L o S One;1932-6203;1346.82;FALSE
 Wellcome Trust;2015;PMC4259366;25486534;10.1371/journal.pone.0114725;PLOS;PLoS One;1932-6203;1348.79;FALSE
 Wellcome Trust;2015;PMC4498093;;10.1074/jbc.M115.661280;ASBMB;Journal of Biological Chemistry;0021-9258, 1083-351X;1348.80;TRUE
@@ -308,7 +308,7 @@ Wellcome Trust;2015;PMC4260857;25490401;10.1371/journal.pone.0114405;PLOS;PLOS O
 Wellcome Trust;2015;PMC4492893;26147467;10.1371/journal.pone.0131130;PLOS;PLOS One;1932-6203;1429.07;FALSE
 Wellcome Trust;2015;PMC4476783;26098361;10.1371/journal.pone.0131016;PLOS;PLOS One;1932-6203;1432.26;FALSE
 Wellcome Trust;2015;PMC4477937;26103636;10.1371/journal.pone.0130036;PLOS;PLOS One;1932-6203;1432.48;FALSE
-Wellcome Trust;2015;PMC4673239;26320186;10.18632/oncotarget.4879;Impact Journals LLC;Impact Journals LLCOncoTarget;1949-2553;1432.52;TRUE
+Wellcome Trust;2015;PMC4673239;26320186;10.18632/oncotarget.4879;Impact Journals LLC;Impact Journals LLCOncoTarget;1949-2553;1432.52;FALSE
 Wellcome Trust;2015;PMC4356519;25761107;10.1371/journal.pone.0118027;PLOS;PLOS ONE;1932-6203;1433.77;FALSE
 Wellcome Trust;2015;PMC4474892;26091104;10.1371/journal.pone.0130094;PLOS;PlosONE;1932-6203;1433.96;FALSE
 Wellcome Trust;2015;PMC4495034;26151929;10.1371/journal.pone.0131885;PLOS;PLoS One;1932-6203;1435.84;FALSE
@@ -376,7 +376,7 @@ Wellcome Trust;2015;PMC4614541;25486354;10.4161/15384101.2014.950151;Taylor & Fr
 Wellcome Trust;2015;PMC4332198;25501439;10.14814/phy2.12194;Wiley;Physiological Reports;2051-817X;1561.91;FALSE
 Wellcome Trust;2015;PMC4275574;25463459;10.1016/j.neuroimage.2014.11.021;Elsevier;Neuroimage;1053-8119, 1095-9572;1562.29;TRUE
 Wellcome Trust;2015;PMC4174441;25171822;10.1261/rna.045849.114;Cold Spring Harbor Laboratory Press;RNA;1355-8382, 1469-9001;1562.33;TRUE
-Wellcome Trust;2015;PMC4433704;26065008;10.1155/2015/901679;Hindawi Publishing Corporation;Journal of Immunology Research;2314-8861, 2314-7156;1564.73;TRUE
+Wellcome Trust;2015;PMC4433704;26065008;10.1155/2015/901679;Hindawi Publishing Corporation;Journal of Immunology Research;2314-8861, 2314-7156;1564.73;FALSE
 Wellcome Trust;2015;PMC4513131;25969539;10.1074/jbc.M115.640524;ASBMB;The Journal of Biological Chemistry;0021-9258, 1083-351X;1575.70;TRUE
 ;;;;;;;;;
 ;;;;;;;;;
@@ -552,7 +552,7 @@ Wellcome Trust;2015;PMC4564290;26159617;10.1016/j.yjmcc.2015.06.021;Elsevier;Jou
 Wellcome Trust;2015;PMC4652609;26142929;10.1016/j.bone.2015.06.026;Elsevier;Bone;8756-3282, 1873-2763;1830.50;TRUE
 Wellcome Trust;2015;PMC4564289;26196304;10.1016/j.yjmcc.2015.07.009;Elsevier;Journal of Molecular and Cellular Cardiology;0022-2828, 1095-8584;1834.48;TRUE
 Wellcome Trust;2015;PMC4381491;25889256;10.1186/s13071-015-0779-4;BioMed Central;Parasites & Vectors;1756-3305;1835.04;FALSE
-Wellcome Trust;2015;PMC4545898;26501679;10.1109/TNS.2015.2434851;IEEE Nuclear and Plasma Sciences Society;IEEE Transactions on Nuclear Science ;2197-7364;1836.94;FALSE
+Wellcome Trust;2015;PMC4545898;26501679;10.1109/TNS.2015.2434851;IEEE Nuclear and Plasma Sciences Society;IEEE Transactions on Nuclear Science ;2197-7364;1836.94;TRUE
 Wellcome Trust;2015;PMC4306523;25512040;10.1016/j.neuroimage.2014.12.018;Elsevier;Neuroimage;1053-8119, 1095-9572;1838.95;TRUE
 Wellcome Trust;2015;PMC4306525;25512038;10.1016/j.neuroimage.2014.12.015;Elsevier;Neuroimage;1053-8119, 1095-9572;1838.95;TRUE
 Wellcome Trust;2015;PMC4564288;26103619;10.1016/j.yjmcc.2015.06.012;Elsevier;Journal of Molecular and Cellular Cardiology;0022-2828, 1095-8584;1841.38;TRUE
@@ -1038,7 +1038,7 @@ Wellcome Trust;2015;PMC4499945;25995293;10.1093/trstmh/trv035;Oxford University 
 Wellcome Trust;2015;PMC4321448;25361962;10.1093/hmg/ddu555;Oxford University Press;Human Molecular Genetics;0964-6906, 1460-2083;2360.40;TRUE
 Wellcome Trust;2015;PMC4382908;25431331;10.1093/bioinformatics/BTU791;Oxford University Press;Bioinformatics;1367-4803, 1367-4811;2360.40;TRUE
 Wellcome Trust;2015;PMC4623854;26516299;10.1093/shm/hkv040;Oxford University Press;Social History of Medicine;0951-631X, 1477-4666;2360.40;TRUE
-Wellcome Trust;2015;PMC4381605;25460505;10.18632/oncotarget.2813;Impact Journals;Oncotarget;1949-2553;2362.02;TRUE
+Wellcome Trust;2015;PMC4381605;25460505;10.18632/oncotarget.2813;Impact Journals;Oncotarget;1949-2553;2362.02;FALSE
 Wellcome Trust;2015;PMC4534465;26267488;10.1371/journal.pgen.1005421;PLOS;PLoS One;1553-7390, 1553-7404;2363.00;FALSE
 Wellcome Trust;2015;PMC4304833;25461817;10.1016/j.ymeth.2014.10.036;Elsevier;Methods;1046-2023, 1095-9130;2363.34;TRUE
 Wellcome Trust;2015;PMC4376878;25816228;10.1371/journal.pntd.0003665;PLOS;PLoS Neglected Tropical Diseases;1935-2727, 1935-2735;2364.78;FALSE
@@ -1081,7 +1081,7 @@ Wellcome Trust;2015;PMC4524371;26239227;10.1186/s12974-015-0359-8;Biomed Central
 Wellcome Trust;2015;PMC4376896;25815506;10.1371/journal.ppat.1004765;PLOS;PLOS Pathogens;1553-7366, 1553-7374;2419.94;FALSE
 Wellcome Trust;2015;PMC4286102;25060092;10.1111/febs.12944;Wiley;FEBS Journal;1742-464X, 1742-4658;2421.69;TRUE
 Wellcome Trust;2015;PMC4390160;25676335;10.1016/j.jpsychores.2015.01.015;Elsevier;Journal of Psychosomatic�Ã��Â� Research;0022-3999, 1879-1360;2426.26;TRUE
-Wellcome Trust;2015;PMC4324242;25346172;10.1111/cmi.12388;Wiley;Cellular Microbiology;2150-7511;2427.84;FALSE
+Wellcome Trust;2015;PMC4324242;25346172;10.1111/cmi.12388;Wiley;Cellular Microbiology;2150-7511;2427.84;TRUE
 Wellcome Trust;2015;PMC4370213;25815060;10.1093/phe/phu046;Oxford University Press;Public Health Ethics;1754-9973, 1754-9981;2427.84;TRUE
 Wellcome Trust;2015;PMC4524417;26062886;10.1002/cbic.201500120;Wiley;ChemBioChem;1439-4227, 1439-7633;2427.84;TRUE
 Wellcome Trust;2015;PMC4008987;24547915;10.1111/cei.12297;Wiley;Clinical & Experimental Immunology;0009-9104, 1365-2249;2427.84;TRUE
@@ -1182,7 +1182,7 @@ Wellcome Trust;2015;PMC4504987;;10.1007/s11248-015-9883-7;Springer;Transgenic Re
 Wellcome Trust;2015;PMC4326175;25596956;10.1016/j.psychres.2014.12.012;Elsevier;Psychiatry Research;0165-1781, 1872-7123;2562.38;TRUE
 Wellcome Trust;2015;PMC4479978;26146511;10.1111/phc3.12200;Wiley;Philosophy Compass;1747-9991;2562.85;TRUE
 Wellcome Trust;2015;PMC4572080;;10.1007/s00204-015-1453-5;Springer;Archives of Toxicology;0340-5761, 1432-0738;2565.08;TRUE
-Wellcome Trust;2015;PMC4276809;;10.1186/s12916-014-0220-4;BioMed Central;BMC Medicine;1880-6546, 1880-6562;2565.42;TRUE
+Wellcome Trust;2015;PMC4276809;;10.1186/s12916-014-0220-4;BioMed Central;BMC Medicine;1880-6546, 1880-6562;2565.42;FALSE
 Wellcome Trust;2015;PMC4604250;26189075;10.1016/j.schres.2015.06.016;Elsevier;Schizophrenia Research;0920-9964, 1573-2509;2566.38;TRUE
 Wellcome Trust;2015;PMC4434856;26000232;10.1007/s10389-015-0662-y;Oxford University Press;Journal of Public Health;2198-1833, 1613-2238;2567.10;TRUE
 Wellcome Trust;2015;PMC4344953;25725809;10.1007/s00395-015-0476-7;Springer;Basic Research in Cardiology;0300-8428, 1435-1803;2567.76;TRUE
@@ -1289,7 +1289,7 @@ Wellcome Trust;2015;PMC4383351;25521998;10.1111/bjh.13241;Wiley;British Journal 
 Wellcome Trust;2015;PMC4428809;25482670;10.1007/s00424-014-1660-6;;Pflugers Archive;0031-6768, 1432-2013;2675.25;TRUE
 Wellcome Trust;2015;PMC4346278;25499839;10.1016/j.echo.2014.10.012;Elsevier;Journal of the American Society of Echocardiography;0894-7317, 1097-6795;2678.80;TRUE
 Wellcome Trust;2015;PMC4574524;26320251;10.4049/jimmunol.1501404;American Association of Immunologists;Journal of Immunology;0022-1767, 1550-6606;2681.12;TRUE
-Wellcome Trust;2015;PMC4333373;25572315;10.1136/archdischild-2015-308187;BMJ;Archives of Disease in Childhood;0305-1048, 1362-4962;2682.76;FALSE
+Wellcome Trust;2015;PMC4333373;25572315;10.1136/archdischild-2015-308187;BMJ;Archives of Disease in Childhood;0305-1048, 1362-4962;2682.76;TRUE
 Wellcome Trust;2015;PMC4413744;25573701;10.1136/jech-2014-204915;BMJ ;Journal of Epidemiology and Community Health;0143-005X, 1470-2738;2682.76;TRUE
 Wellcome Trust;2015;PMC4621371;25583124;10.1136/jfprhc-2014-101082;BMJ;Journal of Family Planning and Reproductive Health Care;1471-1893, 2045-2098;2682.76;TRUE
 Wellcome Trust;2015;PMC4392309;25480883;10.1136/heartjnl-2014-306472;BMJ;Heart;1355-6037, 1468-201X;2682.76;TRUE
@@ -1342,7 +1342,7 @@ Wellcome Trust;2015;PMC4563702;26366006;10.1017/S0018246X14000399;Cambridge Univ
 Wellcome Trust;2015;PMC4243378;25366989;10.1186/s13059-014-0494-z;BioMed Central;Genome Biology;1474-7596, 1474-760X;2743.46;FALSE
 Wellcome Trust;2015;PMC4299533;25473855;10.1017/S0963180114000218;Cambridge University Press;Cambridge Quarterly of Healthcare Ethnics;0963-1801, 1469-2147;2743.46;TRUE
 Wellcome Trust;2015;PMC4462157;25827289;10.1017/S0007114515000604;Cambridge University Press;British Journal of Nutrition;0007-1145, 1475-2662;2743.46;TRUE
-Wellcome Trust;2015;PMC4322962;;10.18632/oncotarget.2573;Impact Journals;Oncotarget;1949-2553;2751.38;TRUE
+Wellcome Trust;2015;PMC4322962;;10.18632/oncotarget.2573;Impact Journals;Oncotarget;1949-2553;2751.38;FALSE
 Wellcome Trust;2015;PMC4484949;26077269;10.3399/bjgp15X685705;Royal College of General Practitioners;British Journal of General Practice;0960-1643, 1478-5242;2751.55;TRUE
 Wellcome Trust;2015;PMC4360209;25349153;10.1038/leu.2014.308;Nature Publishing Group;Leukemia;0887-6924, 1476-5551;2751.55;TRUE
 Wellcome Trust;2015;PMC4100506;25009062;10.1098/rspb.2014.0709;;Proceedings of the Royal Society B: Biological Sciences;0962-8452, 1471-2954;2751.55;TRUE
@@ -1518,7 +1518,7 @@ Wellcome Trust;2015;PMC4332694;25595267;10.1016/j.vetmic.2014.12.023;Elsevier;Ve
 Wellcome Trust;2015;PMC4471147;26097890;10.1016/j.ebiom.2015.02.009;Elsevier;EBioMedicine;2352-3964;3037.88;FALSE
 Wellcome Trust;2015;PMC4596251;26142652;10.1016/j.jpain.2015.06.008;Elsevier;Journal of Pain;1526-5900, 1528-8447;3042.58;TRUE
 Wellcome Trust;2015;PMC4249533;25267672;10.1128/AAC.03900-14;American Society for Mircrobiology;Antimicrobial Agents and Chemotherapy;0066-4804, 1098-6596;3044.92;TRUE
-Wellcome Trust;2015;PMC4496350;;10.18632/oncotarget.3504;Impact Journals;Oncotarget;1949-2553;3046.56;TRUE
+Wellcome Trust;2015;PMC4496350;;10.18632/oncotarget.3504;Impact Journals;Oncotarget;1949-2553;3046.56;FALSE
 Wellcome Trust;2015;PMC4673085;26196300;10.1016/j.vph.2015.07.010;Elsevier;Vascular Pharmacology;1537-1891, 1879-3649;3047.96;TRUE
 Wellcome Trust;2015;PMC4469461;26079503;10.1371/journal.pmed.1001841;PLOS;PLOS Medicine;1549-1277, 1549-1676;3062.25;FALSE
 Wellcome Trust;2015;PMC4534822;26190105;10.1016/j.celrep.2015.06.053;Elsevier ;Cell Reports;2211-1247;3063.15;FALSE
@@ -1529,7 +1529,7 @@ Wellcome Trust;2015;PMC4610947;25533870;10.1016/j.socscimed.2014.11.028;Elsevier
 Wellcome Trust;2015;PMC4508967;25354247;10.1111/febs.13132;Wiley;FEBS Journal;1742-464X, 1742-4658;3079.07;TRUE
 Wellcome Trust;2015;PMC4441097;25900447;10.1016/j.clinbiomech.2015.02.014;Elsevier;Clinical Biomechanics;0268-0033, 1879-1271;3082.29;TRUE
 Wellcome Trust;2015;PMC4669309;26051242;10.1016/j.jclinepi.2015.04.007;Elsevier;Journal of Clinical Epidemiology;0895-4356, 1878-5921;3084.06;TRUE
-Wellcome Trust;2015;PMC4496214;25860929;10.18632/oncotarget.3284;Oncotarget;Impact Journals;1949-2553;3086.35;TRUE
+Wellcome Trust;2015;PMC4496214;25860929;10.18632/oncotarget.3284;Oncotarget;Impact Journals;1949-2553;3086.35;FALSE
 Wellcome Trust;2015;PMC4557053;25820993;10.1002/path.4539;Wiley;The Journal of Pathology;0022-3417, 1096-9896;3087.08;TRUE
 Wellcome Trust;2015;PMC4601018;26253758;10.1016/j.jbiomech.2015.07.017;Elsevier;Journal of Biomechanics;0021-9290, 1873-2380;3087.73;TRUE
 Wellcome Trust;2015;PMC4657505;25982802;10.1002/jbmr.2552;Wiley;Journal of Bone and Mineral Research;0884-0431, 1523-4681;3088.86;TRUE
@@ -1593,7 +1593,7 @@ Wellcome Trust;2015;PMC4392199;24996883;10.1136/gutjnl-2013-306287;BMJ ;Gut;0017
 Wellcome Trust;2015;PMC4392210;25646372;10.1136/annrheumdis-2014-206405;BMJ ;Annals of the Rheumatic Diseases;0003-4967, 1468-2060;3156.19;TRUE
 Wellcome Trust;2015;PMC4345977;25432943;10.1136/thoraxjnl-2014-205202;BMJ ;Thorax;0040-6376, 1468-3296;3156.19;TRUE
 Wellcome Trust;2015;PMC4528233;25940741;10.1002/cnm.2722;Wiley;International Journal for Numerical Methods in Biomedical Engineering;2040-7939, 2040-7947;3156.53;TRUE
-Wellcome Trust;2015;PMC4536996;25968568;10.18632/oncotarget.3864;Impact Journals;Oncotarget;1949-2553;3160.32;TRUE
+Wellcome Trust;2015;PMC4536996;25968568;10.18632/oncotarget.3864;Impact Journals;Oncotarget;1949-2553;3160.32;FALSE
 Wellcome Trust;2015;PMC4348415;25734701;10.1371/journal.pbio.1002082;PLOS;PLoS Biology;1544-9173, 1545-7885;3161.91;FALSE
 Wellcome Trust;2015;PMC4333038;25490276;10.1210/jc.2014-3450;Endocrine Society;The Journal of Clinical Endocrinology and Metabolism;0021-972X, 1945-7197;3162.69;TRUE
 ;;;;;;;;;
@@ -1673,7 +1673,7 @@ Wellcome Trust;2015;PMC4506388;26035703;10.1038/bjc.2015.202;Nature Publishing G
 Wellcome Trust;2015;PMC4651137;26291059;10.1038/bjc.2015.289;Nature Publishing Group;British Journal of Cancer;0007-0920, 1532-1827;3237.12;TRUE
 Wellcome Trust;2015;PMC4647255;25950385;10.1038/bjc.2015.148;Nature Publishing Group;British Journal of Cancer;0007-0920, 1532-1827;3237.12;TRUE
 Wellcome Trust;2015;PMC4559824;26171938;10.1038/bjc.2015.248;Nature Publishing Group;British Journal of Cancer;0007-0920, 1532-1827;3237.12;TRUE
-Wellcome Trust;2015;PMC4330902;25699215;10.1093/ije/dyv074;Oxford University Press;International Journal of Epidemiology;2167-8359;3237.12;FALSE
+Wellcome Trust;2015;PMC4330902;25699215;10.1093/ije/dyv074;Oxford University Press;International Journal of Epidemiology;2167-8359;3237.12;TRUE
 Wellcome Trust;2015;PMC4285196;25468732;10.1093/brain/awu337;Oxford University Press;Brain;0006-8950, 1460-2156;3237.12;TRUE
 Wellcome Trust;2015;PMC4407192;25783594;10.1093/brain/awv052;Oxford University Press;Brain;0006-8950, 1460-2156;3237.12;TRUE
 Wellcome Trust;2015;PMC4362403;25691540;10.1093/cvr/cvv040;Oxford University Press;Cardiovascular Research;0008-6363, 1755-3245;3237.12;TRUE
@@ -2398,8 +2398,8 @@ Wellcome Trust;2015;PMC4250839;25437561;10.1016/j.celrep.2014.09.045;Elsevier;Ce
 ;;;;;;;;;
 Wellcome Trust;2015;PMC4430311;25531315;10.1038/onc.2014.421;;Oncogene;0950-9232, 1476-5594;4531.97;TRUE
 Wellcome Trust;2015;PMC4430325;25531318;10.1038/onc.2014.428;;Oncogene;0950-9232, 1476-5594;4531.97;TRUE
-Wellcome Trust;2015;PMC4588302;26301809;10.1172/JCI82636;American Society for Clinical Investigation;Journal of Clinical Investigation ;0021-9738, 1558-8238;4672.24;TRUE
-Wellcome Trust;2015;PMC4563749;;10.1172/JCI80055;American Society for Clinical Investigation;Journal of Clinical Investigation;0021-9738, 1558-8238;4735.93;TRUE
+Wellcome Trust;2015;PMC4588302;26301809;10.1172/JCI82636;American Society for Clinical Investigation;Journal of Clinical Investigation ;0021-9738, 1558-8238;4672.24;FALSE
+Wellcome Trust;2015;PMC4563749;;10.1172/JCI80055;American Society for Clinical Investigation;Journal of Clinical Investigation;0021-9738, 1558-8238;4735.93;FALSE
 ;;;;;;;;;
 ;;;;;;;;;
 ;;;;;;;;;
@@ -2472,7 +2472,7 @@ Wellcome Trust;2015;;25746794;10.1096/fj.14-268144;Federation of American Societ
 Wellcome Trust;2015;;25823652;10.1016/j.ydbio.2015.03.008;Academic Press;Developmental Biology;0012-1606, 1095-564X;1878.23;TRUE
 ;;;;;;;;;
 Wellcome Trust;2015;;25818045;10.1016/j.visres.2015.02.010;Elsevier;Vision Research;0042-6989, 1878-5646;1887.51;TRUE
-Wellcome Trust;2015;;25457440;10.1128/mBio.01874-14;ASM;mBio;0017-467X, 1745-6584;1888.32;TRUE
+Wellcome Trust;2015;;25457440;10.1128/mBio.01874-14;ASM;mBio;0017-467X, 1745-6584;1888.32;FALSE
 Wellcome Trust;2015;;25589238;10.1016/j.virol.2014.12.025;Elsevier;Virology;0042-6822, 1096-0341;1888.93;TRUE
 Wellcome Trust;2015;;26365886;10.1016/j.healthplace.2015.09.001;Elsevier;Health and Place;1353-8292, 1873-2054;1896.41;TRUE
 Wellcome Trust;2015;PMC4315143;25462701;10.1016/j.neuroimage.2014.10.033;Elsevier;Neuroimage;1053-8119, 1095-9572;1906.66;TRUE
@@ -2754,9 +2754,9 @@ Wellcome Trust;2015;;25600295;10.1016/j.semcancer.2015.01.001;Elsevier;Seminars 
 Wellcome Trust;2015;;26246041;10.1259/bjr.20150208;Brit Inst Radiology;British Journal of Radiology;0007-1285, 1748-880X;2913.41;TRUE
 Wellcome Trust;2015;;25370809;10.1002/jbm.b.33313;Wiley;Journal of Biomedical Materials Research Part B: Applied Biomaterials;1552-4973, 1552-4981;2913.41;TRUE
 Wellcome Trust;2015;;;10.1136/gutjnl-2014-306919;BMJ ;Gut;;2929.59;TRUE
-Wellcome Trust;2015;;26334099;10.18632/oncotarget.4801;Impact Journals;Oncotarget;1949-2553;2932.29;TRUE
-Wellcome Trust;2015;;26295308;10.18632/oncotarget.4919;Impact Journals;OncoTarget;1949-2553;2963.80;TRUE
-Wellcome Trust;2015;;26415229;10.18632/oncotarget.5796;Impact Journals;Oncotarget;1949-2553;2986.55;TRUE
+Wellcome Trust;2015;;26334099;10.18632/oncotarget.4801;Impact Journals;Oncotarget;1949-2553;2932.29;FALSE
+Wellcome Trust;2015;;26295308;10.18632/oncotarget.4919;Impact Journals;OncoTarget;1949-2553;2963.80;FALSE
+Wellcome Trust;2015;;26415229;10.18632/oncotarget.5796;Impact Journals;Oncotarget;1949-2553;2986.55;FALSE
 Wellcome Trust;2015;;26084351;10.1259/bjr.20150172;British Institute of Radiology;The British Journal of Radiology;0007-1285, 1748-880X;2994.34;TRUE
 Wellcome Trust;2015;;26152658;10.1002/pds.3831;Wiley;Pharmacoepedemiology and Drug Safety;1053-8569, 1099-1557;3029.07;TRUE
 Wellcome Trust;2015;;25754933;10.1002/eji.201445421;Wiley;European Journal of Immunology;0014-2980, 1521-4141;3034.80;TRUE
@@ -2767,13 +2767,13 @@ Wellcome Trust;2015;;25988361;10.1002/art.39200;Wiley;Arthritis & Rheumatology;2
 Wellcome Trust;2015;;25916583;10.1002/art.39167;Wiley;Arthritis & Rheumatology;2326-5191, 2326-5205;3034.80;TRUE
 Wellcome Trust;2015;;25929188;10.1016/j.vph.2015.03.003;Elsevier;Vascular Pharmacology;1537-1891, 1879-3649;3035.74;TRUE
 Wellcome Trust;2015;;26112128;10.1016/j.neubiorev.2015.06.015;Elsevier;Neuroscience & Biobehavioral Reviews;0149-7634, 1873-7528;3035.74;TRUE
-Wellcome Trust;2015;;;10.18632/oncotarget.4347;Impact Journals;Oncotarget;1949-2553;3037.79;TRUE
+Wellcome Trust;2015;;;10.18632/oncotarget.4347;Impact Journals;Oncotarget;1949-2553;3037.79;FALSE
 Wellcome Trust;2015;;24913989;10.1002/nbm.3147;Wiley;NMR in Biomedicine;0952-3480, 1099-1492;3043.01;TRUE
 Wellcome Trust;2015;;26248609;10.1002/pds.3846;Wiley;Pharmacoepedemiology and Drug Safety;1053-8569, 1099-1557;3045.09;TRUE
-Wellcome Trust;2015;;;10.18632/oncotarget.4927;Impact Journals;Oncotarget;1949-2553;3047.10;TRUE
+Wellcome Trust;2015;;;10.18632/oncotarget.4927;Impact Journals;Oncotarget;1949-2553;3047.10;FALSE
 Wellcome Trust;2015;;25987420;10.1016/j.ejphar.2015.04.056;Elsevier;European Journal of Pharmacology;0014-2999, 1879-0712;3053.94;TRUE
 Wellcome Trust;2015;;26365896;10.1016/j.molonc.2015.08.003;Elsevier;Molecular Oncology;1574-7891, 1878-0261;3059.31;TRUE
-Wellcome Trust;2015;;26433463;10.18632/oncotarget.5584;Impact Journals;Oncotarget;1949-2553;3068.63;TRUE
+Wellcome Trust;2015;;26433463;10.18632/oncotarget.5584;Impact Journals;Oncotarget;1949-2553;3068.63;FALSE
 Wellcome Trust;2015;;26169252;10.1016/j.biopsych.2015.05.015;Elsevier;Biological Psychiatry;0006-3223, 1873-2402;3070.19;TRUE
 Wellcome Trust;2015;;25980937;10.1016/j.addr.2015.05.003;Elsevier;Advanced Drug Delivery Reviews;0169-409X, 1872-8294;3072.61;TRUE
 Wellcome Trust;2015;;26179020;10.1111/mmi.13121;Wiley;Molecular Microbiology;0950-382X, 1365-2958;3074.85;TRUE
