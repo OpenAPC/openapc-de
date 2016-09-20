@@ -26,10 +26,6 @@ JOURNAL_OWNER_CHANGED = {
 # correct data in these cases.
 JOURNAL_HYBRID_STATUS_CHANGED = [
     "2041-1723", # Nature Communications
-    
-    "1756-994X", # Genome Medicine
-    "1465-6906", "1474-760X", # Genome Biology
-    "1465-5411" # Breast Cancer Research
 ]
 
 class RowObject(object):
