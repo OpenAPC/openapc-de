@@ -276,6 +276,11 @@ def analyze_csv_file(file_path, line_limit=None):
     csv_file.close()
     return {"success": True, "data": result}
 
+def get_normalised_doi(doi_string):
+    doi_match = DOI_RE.match(doi_string.strip())
+    if not doi_match:
+        return None
+    return doi_match.groupdict()["doi"]
 
 def get_metadata_from_crossref(doi_string):
     """
@@ -321,11 +326,10 @@ def get_metadata_from_crossref(doi_string):
         "cr_1_1": "http://www.crossref.org/xschema/1.1",
         "cr_1_0": "http://www.crossref.org/xschema/1.0",
         "ai": "http://www.crossref.org/AccessIndicators.xsd"}
-    doi_match = DOI_RE.match(doi_string.strip())
-    if not doi_match:
+    doi = get_normalised_doi(doi_string)
+    if doi is None:
         error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
         return {"success": False, "error_msg": error_msg}
-    doi = doi_match.groupdict()["doi"]
     url = 'http://data.crossref.org/' + doi
     headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
     req = urllib2.Request(url, None, headers)
@@ -354,10 +358,11 @@ def get_metadata_from_crossref(doi_string):
         ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(etpe))
     return ret_value
 
-def get_metadata_from_pubmed(doi):
-    if not DOI_RE.match(doi.strip()):
+def get_metadata_from_pubmed(doi_string):
+    doi = get_normalised_doi(doi_string)
+    if doi is None:
         return {"success": False,
-                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
+                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi_string)
                }
     url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
@@ -490,7 +495,8 @@ def process_row(row, row_num, column_map, num_required_columns,
                   "will be the decimal mark (1234.56 vs 1234,56). Try using " +
                   "another locale with the -l option.",
         "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
-                 "to maintain consistency."
+                 "to maintain consistency.",
+        "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({})."
     }
 
     if len(row) != num_required_columns:
@@ -527,6 +533,12 @@ def process_row(row, row_num, column_map, num_required_columns,
         logging.warning(msg, row_num)
         current_row["indexed_in_crossref"] = "FALSE"
     else:
+        # Normalise DOI
+        norm_doi = get_normalised_doi(doi)
+        if norm_doi is not None and norm_doi != doi:
+            current_row["doi"] = norm_doi
+            msg = MESSAGES["doi_norm"].format(doi, norm_doi)
+            logging.warning(msg)
         # include crossref metadata
         crossref_result = get_metadata_from_crossref(doi)
         if crossref_result["success"]:
