@@ -199,12 +199,6 @@ class CSVAnalysisResult(object):
                         int(self.enc_conf * 100))
         ret += "***************************"
         return ret
-
-def is_wellformed_DOI(doi_string):
-    doi_match = DOI_RE.match(doi_string.strip())
-    if doi_match is not None:
-        return True
-    return False
     
 def get_normalised_DOI(doi_string):
     doi_match = DOI_RE.match(doi_string.strip())

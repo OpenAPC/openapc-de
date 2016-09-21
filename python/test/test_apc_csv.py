@@ -121,8 +121,14 @@ def check_field_content(row_object):
         pytest.fail(line_str + 'value in row "indexed_in_crossref" must either be TRUE or FALSE')
     if row['is_hybrid'] not in ["TRUE", "FALSE"]:
         pytest.fail(line_str + 'value in row "is_hybrid" must either be TRUE or FALSE')
-    if not oat.is_wellformed_DOI(row['doi']) and not row['doi'] == "NA":
-        pytest.fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
+    if not row['doi'] == "NA":
+        doi_norm = oat.get_normalised_DOI(row['doi'])
+        if doi_norm is None:
+            pytest.fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
+        if doi_norm != row['doi']:
+            pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
+                                   'is not correct. It should be the simple DOI name, not ' +
+                                   'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
 
 def check_issns(row_object):
     __tracebackhide__ = True
