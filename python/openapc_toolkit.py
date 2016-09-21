@@ -205,6 +205,12 @@ def is_wellformed_DOI(doi_string):
     if doi_match is not None:
         return True
     return False
+    
+def get_normalised_DOI(doi_string):
+    doi_match = DOI_RE.match(doi_string.strip())
+    if not doi_match:
+        return None
+    return doi_match.groupdict()["doi"]
 
 def is_wellformed_ISSN(issn_string):
     issn_match = ISSN_RE.match(issn_string.strip())
@@ -276,12 +282,6 @@ def analyze_csv_file(file_path, line_limit=None):
     csv_file.close()
     return {"success": True, "data": result}
 
-def get_normalised_doi(doi_string):
-    doi_match = DOI_RE.match(doi_string.strip())
-    if not doi_match:
-        return None
-    return doi_match.groupdict()["doi"]
-
 def get_metadata_from_crossref(doi_string):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
@@ -326,7 +326,7 @@ def get_metadata_from_crossref(doi_string):
         "cr_1_1": "http://www.crossref.org/xschema/1.1",
         "cr_1_0": "http://www.crossref.org/xschema/1.0",
         "ai": "http://www.crossref.org/AccessIndicators.xsd"}
-    doi = get_normalised_doi(doi_string)
+    doi = get_normalised_DOI(doi_string)
     if doi is None:
         error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
         return {"success": False, "error_msg": error_msg}
@@ -359,7 +359,7 @@ def get_metadata_from_crossref(doi_string):
     return ret_value
 
 def get_metadata_from_pubmed(doi_string):
-    doi = get_normalised_doi(doi_string)
+    doi = get_normalised_DOI(doi_string)
     if doi is None:
         return {"success": False,
                 "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi_string)
@@ -534,7 +534,7 @@ def process_row(row, row_num, column_map, num_required_columns,
         current_row["indexed_in_crossref"] = "FALSE"
     else:
         # Normalise DOI
-        norm_doi = get_normalised_doi(doi)
+        norm_doi = get_normalised_DOI(doi)
         if norm_doi is not None and norm_doi != doi:
             current_row["doi"] = norm_doi
             msg = MESSAGES["doi_norm"].format(doi, norm_doi)
