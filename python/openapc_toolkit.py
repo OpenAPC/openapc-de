@@ -592,6 +592,7 @@ def process_row(row, row_num, column_map, num_required_columns,
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
     issns = []
+    new_value = ""
     if current_row["issn_electronic"] != "NA":
         issns.append(current_row["issn_electronic"])
     if current_row["issn"] != "NA":
@@ -606,12 +607,12 @@ def process_row(row, row_num, column_map, num_required_columns,
                 msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
                        "offline copy ('%s').")
                 logging.info(msg, issn, lookup_result)
-                current_row["doaj"] = "TRUE"
+                new_value = "TRUE"
                 break
             else:
                 msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
                        "offline copy.")
-                current_row["doaj"] = "FALSE"
+                new_value = "FALSE"
                 logging.info(msg, issn)
         # ...or query the online API
         else:
@@ -620,16 +621,18 @@ def process_row(row, row_num, column_map, num_required_columns,
                 if doaj_res["data"]["in_doaj"]:
                     msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
                     logging.info(msg, issn, doaj_res["data"]["title"])
-                    current_row["doaj"] = "TRUE"
+                    new_value = "TRUE"
                     break
                 else:
                     msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
                     logging.info(msg, issn)
-                    current_row["doaj"] = "FALSE"
+                    new_value = "FALSE"
             else:
                 msg = (u"Line %s: DOAJ: Error while trying to look up " +
                        "ISSN %s: %s")
                 logging.error(msg, row_num, issn, doaj_res["error_msg"])
+    old_value = current_row["doaj"]
+    current_row["doaj"] = column_map["doaj"].check_overwrite(new_value, old_value)
     return current_row.values()
 
 
@@ -654,6 +657,7 @@ def get_column_type_from_whitelist(column_name):
         "issn": ["issn"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
+        "issn_l": ["issn_l"],
         "license_ref": ["license_ref"],
         "indexed_in_crossref": ["indexed_in_crossref"],
         "pmid": ["pmid"],

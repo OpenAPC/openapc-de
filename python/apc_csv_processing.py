@@ -267,7 +267,7 @@ def main():
                    "guessing.")
             sys.exit()
 
-    result = oat.analyze_csv_file(args.csv_file)
+    result = oat.analyze_csv_file(args.csv_file, line_limit=500)
     if result["success"]:
         csv_analysis = result["data"]
         print csv_analysis
