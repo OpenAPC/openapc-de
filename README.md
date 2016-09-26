@@ -90,7 +90,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-11,759 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,009,172, including value-added tax; the average payment was € 1,361 (median =  € 1,274, SD = € 544).
+11,790 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,064,885, including value-added tax; the average payment was € 1,363 (median =  € 1,276, SD = € 544).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -98,8 +98,8 @@ The following table summarises institutional spending on articles published in f
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|MPG                                         |    2,989|             3,878,292|   1,298 (469)|  1,178|        69 - 7,419|
-|Wellcome Trust                              |    1,400|             2,425,249|   1,732 (750)|  1,602|       229 - 5,486|
+|MPG                                         |    3,016|             3,924,332|   1,301 (469)|  1,178|        69 - 7,419|
+|Wellcome Trust                              |    1,404|             2,434,923|   1,734 (750)|  1,602|       229 - 5,486|
 |FWF - Austrian Science Fund                 |      753|             1,056,717|   1,403 (649)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
 |Freiburg U                                  |      471|               626,480|   1,330 (410)|  1,386|        50 - 2,474|
@@ -143,18 +143,18 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,559 open access articles being published in hybrid journals. Total expenditure amounts to  32,742,587 €. Average  fee is 2,551 € and the median 2,589 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,528 open access articles being published in hybrid journals. Total expenditure amounts to  32,742,587 €. Average  fee is 2,555 € and the median 2,592 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|Wellcome Trust                              |    3,909|            10,424,982|   2,667 (946)|  2,610|       267 - 6,108|
+|Wellcome Trust                              |    3,905|            10,415,309|   2,667 (946)|  2,611|       267 - 6,108|
 |FWF - Austrian Science Fund                 |    2,560|             6,130,578|   2,395 (733)|  2,519|       120 - 5,315|
-|MPG                                         |       40|                63,548|   1,589 (290)|  1,669|       763 - 1,958|
 |MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
 |Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
+|MPG                                         |       13|                17,508|   1,347 (321)|  1,325|       763 - 1,825|
 |INM - Leibniz-Institut für Neue Materialien |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
 |Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|     1,581 - 1,581|
 |Duisburg-Essen U                            |        1|                 2,618|   2,618 (  0)|  2,618|     2,618 - 2,618|
