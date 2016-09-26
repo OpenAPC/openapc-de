@@ -87,10 +87,10 @@ def in_whitelist(issn, first_publisher, second_publisher):
 
 def check_line_length(row_object):
     __tracebackhide__ = True
-    if len(row_object.row) != 17:
+    if len(row_object.row) != 18:
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        pytest.fail(line_str + 'Row must consist of exactly 17 items')
+        pytest.fail(line_str + 'Row must consist of exactly 18 items')
 
 def check_optional_fields(row_object):
     __tracebackhide__ = True
@@ -134,7 +134,7 @@ def check_issns(row_object):
     __tracebackhide__ = True
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
-    for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"]]:
+    for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"], row["issn_l"]]:
         if issn_column != "NA":
             issn_strings = issn_column.split(";")
             for issn in issn_strings:
