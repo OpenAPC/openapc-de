@@ -27,6 +27,11 @@ ARG_HELP_STRINGS = {
                            "will take precedence."
 }
 
+def reformat_issn(issn):
+    if "-" not in issn:
+        return issn[:4] + "-"  + issn[4:]
+    return issn
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("apc_file", help=ARG_HELP_STRINGS["apc_file"])
@@ -40,7 +45,16 @@ def main():
     args = parser.parse_args()
     
     quote_rules = args.openapc_quote_rules
-    mask = args.quotemask
+
+    mask = None
+    if args.quotemask:
+        reduced = args.quotemask.replace("f", "").replace("t", "")
+        if len(reduced) > 0:
+            print ("Error: A quotemask may only contain the letters 't' and"  +
+                   "'f'!")
+            sys.exit()
+        mask = [True if x == "t" else False for x in args.quotemask]
+    
     enc = None
     
     if args.encoding:
@@ -103,9 +117,9 @@ def main():
     issn_matches = issn_p_matches = issn_e_matches = unmatched = different = 0
     enriched_lines = []
     for line in reader:
-        issn = line[7]
-        issn_p = line[8]
-        issn_e = line[9]
+        issn = reformat_issn(line[7])
+        issn_p = reformat_issn(line[8])
+        issn_e = reformat_issn(line[9])
         target = None
         if issn in issn_l_dict:
             target = issn_l_dict[issn]
@@ -126,7 +140,7 @@ def main():
         enriched_lines.append(line)
     
     print "{} issn_l values mapped by issn, {} by issn_p, {} by issn_e. {} could not be assigned.\n In {} cases the ISSN-L was different from all existing ISSN values".format(issn_matches, issn_p_matches, issn_e_matches, unmatched, different)
-    
+
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
         writer.write_rows(enriched_lines)
