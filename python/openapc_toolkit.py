@@ -632,7 +632,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                        "ISSN %s: %s")
                 logging.error(msg, row_num, issn, doaj_res["error_msg"])
     old_value = current_row["doaj"]
-    current_row["doaj"] = column_map["doaj"].check_overwrite(new_value, old_value)
+    current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
     return current_row.values()
 
 

@@ -136,14 +136,12 @@ def check_issns(row_object):
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
     for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"], row["issn_l"]]:
         if issn_column != "NA":
-            issn_strings = issn_column.split(";")
-            for issn in issn_strings:
-                if not oat.is_wellformed_ISSN(issn):
-                    pytest.fail(line_str + 'value "' + issn + '" is not a ' +
-                                'well-formed ISSN')
-                if not oat.is_valid_ISSN(issn):
-                    pytest.fail(line_str + 'value "' + issn + '" is no valid ' +
-                                'ISSN (check digit mismatch)')
+            if not oat.is_wellformed_ISSN(issn_column):
+                pytest.fail(line_str + 'value "' + issn_column + '" is not a ' +
+                            'well-formed ISSN')
+            if not oat.is_valid_ISSN(issn_column):
+                pytest.fail(line_str + 'value "' + issn_column + '" is no valid ' +
+                            'ISSN (check digit mismatch)')
 
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
