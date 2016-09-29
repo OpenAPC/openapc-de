@@ -729,7 +729,10 @@ def get_unified_journal_title(journal_full_title):
         "PLoS Medicine": "PLOS Medicine",
         "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
         "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
-        "Naturwissenschaften": "The Science of Nature"
+        "Naturwissenschaften": "The Science of Nature",
+        "Dalton Trans.": "Dalton Transactions",
+        "Chem. Sci.": "Chemical Science",
+        "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
