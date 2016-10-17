@@ -996,7 +996,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2328.7,"10.1371/journal.pntd.0003310",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"25473834","PMC4256472",NA,NA,TRUE
 "Wellcome Trust",2015,2329.53,"10.1128/JVI.01043-15",TRUE,"American Society for Microbiology","Journal of Virology","0022-538X","0022-538X","1098-5514",NA,TRUE,"26063423","PMC4524249",NA,NA,FALSE
 "Wellcome Trust",2015,2331.52,"10.1016/j.virusres.2015.02.002",TRUE,"Elsevier BV","Virus Research","01681702","01681702",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25678268","PMC4509552",NA,NA,FALSE
-"Wellcome Trust",2015,2331.94,"10.1186/s13073-014-0116-0",TRUE,"Springer Nature","Genome Medicine","1756-994X",NA,"1756-994X","http://www.springer.com/tdm",TRUE,"25587359","PMC4292812",NA,NA,TRUE
+"Wellcome Trust",2015,2331.94,"10.1186/s13073-014-0116-0",FALSE,"Springer Nature","Genome Medicine","1756-994X",NA,"1756-994X","http://www.springer.com/tdm",TRUE,"25587359","PMC4292812",NA,NA,TRUE
 "Wellcome Trust",2015,2332.36,"10.1371/journal.ppat.1005021",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"26132467","PMC4488530",NA,NA,TRUE
 "Wellcome Trust",2015,2333.72,"10.1371/journal.ppat.1005031",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"26153983","PMC4496050",NA,NA,TRUE
 "Wellcome Trust",2015,2333.72,"10.1371/journal.pntd.0003938",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"26186715","PMC4506122",NA,NA,TRUE
@@ -1071,8 +1071,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2407.61,"10.1099/vir.0.000035",TRUE,"Microbiology Society","Journal of General Virology","0022-1317","0022-1317","1465-2099",NA,TRUE,"25535323","PMC4361796",NA,NA,FALSE
 "Wellcome Trust",2015,2407.61,"10.1099/vir.0.000071",TRUE,"Microbiology Society","Journal of General Virology","0022-1317","0022-1317","1465-2099",NA,TRUE,"25626684","PMC4635489",NA,NA,FALSE
 "Wellcome Trust",2015,2412.17,"10.1159/000366323",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1421-9778","1015-8987","1421-9778",NA,TRUE,"25228294","PMC4464011",NA,NA,TRUE
-"Wellcome Trust",2015,2412.87,"10.1186/s13073-014-0120-4",TRUE,"Springer Nature","Genome Medicine","1756-994X","1756-994X",NA,NA,TRUE,"25649125","PMC4308924",NA,NA,TRUE
-"Wellcome Trust",2015,2412.87,"10.1186/s13073-014-0099-x",TRUE,"Springer Nature","Genome Medicine","1756-994X",NA,"1756-994X",NA,TRUE,"25484919","PMC4256740",NA,NA,TRUE
+"Wellcome Trust",2015,2412.87,"10.1186/s13073-014-0120-4",FALSE,"Springer Nature","Genome Medicine","1756-994X","1756-994X",NA,NA,TRUE,"25649125","PMC4308924",NA,NA,TRUE
+"Wellcome Trust",2015,2412.87,"10.1186/s13073-014-0099-x",FALSE,"Springer Nature","Genome Medicine","1756-994X",NA,"1756-994X",NA,TRUE,"25484919","PMC4256740",NA,NA,TRUE
 "Wellcome Trust",2015,2418.05,"10.1371/journal.pgen.1005058",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","http://creativecommons.org/licenses/by/4.0/",TRUE,"25838181","PMC4383555",NA,NA,TRUE
 "Wellcome Trust",2015,2419.4,"10.1371/journal.pntd.0003756",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","http://creativecommons.org/licenses/by/4.0/",TRUE,"26061527","PMC4464526",NA,NA,TRUE
 "Wellcome Trust",2015,2419.75,"10.1186/1479-5868-11-54",FALSE,"Springer Nature","International Journal of Behavioral Nutrition and Physical Activity","1479-5868","1479-5868",NA,NA,TRUE,"24758143","PMC4004449",NA,NA,TRUE
@@ -1142,7 +1142,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2512.95,"10.1007/s00125-015-3572-1",TRUE,"Springer Nature","Diabetologia","0012-186X","0012-186X","1432-0428",NA,TRUE,"25944371","PMC4473082",NA,NA,FALSE
 "Wellcome Trust",2015,2516.05,"10.1186/s13059-015-0672-7",FALSE,"Springer Nature","Genome Biology","1465-6906",NA,"1465-6906",NA,TRUE,"26025256","PMC4491874",NA,NA,FALSE
 "Wellcome Trust",2015,2516.05,"10.1186/s13059-015-0696-z",FALSE,"Springer Nature","Genome Biology","1465-6906",NA,"1465-6906",NA,TRUE,"26100407","PMC4492089",NA,NA,FALSE
-"Wellcome Trust",2015,2516.05,"10.1186/s13073-015-0212-9",TRUE,"Springer Nature","Genome Medicine","1756-994X",NA,"1756-994X",NA,TRUE,"26330083","PMC4557825",NA,NA,TRUE
+"Wellcome Trust",2015,2516.05,"10.1186/s13073-015-0212-9",FALSE,"Springer Nature","Genome Medicine","1756-994X",NA,"1756-994X",NA,TRUE,"26330083","PMC4557825",NA,NA,TRUE
 "Wellcome Trust",2015,2518.21,"10.1016/j.math.2014.11.008",TRUE,"Elsevier BV","Manual Therapy","1356689X","1356689X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25511448","PMC4425945",NA,NA,FALSE
 "Wellcome Trust",2015,2521.77,"10.1371/journal.pmed.1001873",FALSE,"Public Library of Science (PLoS)","PLOS Medicine","1549-1676",NA,"1549-1676","http://creativecommons.org/licenses/by/4.0/",TRUE,"26348035","PMC4562710",NA,NA,TRUE
 "Wellcome Trust",2015,2524.32,"10.1007/s10557-015-6609-2",TRUE,"Springer Nature","Cardiovascular Drugs and Therapy","0920-3206","0920-3206","1573-7241",NA,TRUE,"26179955","PMC4636986",NA,NA,FALSE

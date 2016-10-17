@@ -267,7 +267,7 @@ def main():
                    "guessing.")
             sys.exit()
 
-    result = oat.analyze_csv_file(args.csv_file)
+    result = oat.analyze_csv_file(args.csv_file, line_limit=500)
     if result["success"]:
         csv_analysis = result["data"]
         print csv_analysis
@@ -317,6 +317,7 @@ def main():
         ("issn", CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column)),
         ("issn_print", CSVColumn("issn_print", CSVColumn.NONE, None)),
         ("issn_electronic", CSVColumn("issn_electronic", CSVColumn.NONE, None)),
+        ("issn_l", CSVColumn("issn_l", CSVColumn.NONE, None)),
         ("license_ref", CSVColumn("license_ref", CSVColumn.NONE, None)),
         ("indexed_in_crossref", CSVColumn("indexed_in_crossref", CSVColumn.NONE, None)),
         ("pmid", CSVColumn("pmid", CSVColumn.NONE, None)),
@@ -331,6 +332,7 @@ def main():
         True,
         False,
         False,
+        True,
         True,
         True,
         True,

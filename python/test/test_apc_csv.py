@@ -26,10 +26,6 @@ JOURNAL_OWNER_CHANGED = {
 # correct data in these cases.
 JOURNAL_HYBRID_STATUS_CHANGED = [
     "2041-1723", # Nature Communications
-    
-    "1756-994X", # Genome Medicine
-    "1465-6906", "1474-760X", # Genome Biology
-    "1465-5411" # Breast Cancer Research
 ]
 
 class RowObject(object):
@@ -91,10 +87,10 @@ def in_whitelist(issn, first_publisher, second_publisher):
 
 def check_line_length(row_object):
     __tracebackhide__ = True
-    if len(row_object.row) != 17:
+    if len(row_object.row) != 18:
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        pytest.fail(line_str + 'Row must consist of exactly 17 items')
+        pytest.fail(line_str + 'Row must consist of exactly 18 items')
 
 def check_optional_fields(row_object):
     __tracebackhide__ = True
@@ -125,23 +121,27 @@ def check_field_content(row_object):
         pytest.fail(line_str + 'value in row "indexed_in_crossref" must either be TRUE or FALSE')
     if row['is_hybrid'] not in ["TRUE", "FALSE"]:
         pytest.fail(line_str + 'value in row "is_hybrid" must either be TRUE or FALSE')
-    if not oat.is_wellformed_DOI(row['doi']) and not row['doi'] == "NA":
-        pytest.fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
+    if not row['doi'] == "NA":
+        doi_norm = oat.get_normalised_DOI(row['doi'])
+        if doi_norm is None:
+            pytest.fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
+        if doi_norm != row['doi']:
+            pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
+                                   'is not correct. It should be the simple DOI name, not ' +
+                                   'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
 
 def check_issns(row_object):
     __tracebackhide__ = True
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
-    for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"]]:
+    for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"], row["issn_l"]]:
         if issn_column != "NA":
-            issn_strings = issn_column.split(";")
-            for issn in issn_strings:
-                if not oat.is_wellformed_ISSN(issn):
-                    pytest.fail(line_str + 'value "' + issn + '" is not a ' +
-                                'well-formed ISSN')
-                if not oat.is_valid_ISSN(issn):
-                    pytest.fail(line_str + 'value "' + issn + '" is no valid ' +
-                                'ISSN (check digit mismatch)')
+            if not oat.is_wellformed_ISSN(issn_column):
+                pytest.fail(line_str + 'value "' + issn_column + '" is not a ' +
+                            'well-formed ISSN')
+            if not oat.is_valid_ISSN(issn_column):
+                pytest.fail(line_str + 'value "' + issn_column + '" is no valid ' +
+                            'ISSN (check digit mismatch)')
 
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True

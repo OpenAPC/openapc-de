@@ -56,6 +56,7 @@ Participating Research Organizations:
 The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
+- [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
@@ -74,9 +75,9 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-This dataset contains information on 18,318 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 39 research performing institutions and research funders. 
+This dataset contains information on 18,443 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 40 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 32,742,587. The average payment was € 1,787  and the median was € 1,547.
+In total, publication fee spending covered by the Open APC initiative amounted to € 32,918,621. The average payment was € 1,785  and the median was € 1,544.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -90,7 +91,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-11,759 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,009,172, including value-added tax; the average payment was € 1,361 (median =  € 1,274, SD = € 544).
+11,895 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,229,039, including value-added tax; the average payment was € 1,364 (median =  € 1,276, SD = € 548).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -98,8 +99,8 @@ The following table summarises institutional spending on articles published in f
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|MPG                                         |    2,989|             3,878,292|   1,298 (469)|  1,178|        69 - 7,419|
-|Wellcome Trust                              |    1,400|             2,425,249|   1,732 (750)|  1,602|       229 - 5,486|
+|MPG                                         |    3,016|             3,924,332|   1,301 (469)|  1,178|        69 - 7,419|
+|Wellcome Trust                              |    1,404|             2,434,923|   1,734 (750)|  1,602|       229 - 5,486|
 |FWF - Austrian Science Fund                 |      753|             1,056,717|   1,403 (649)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
 |Freiburg U                                  |      471|               626,480|   1,330 (410)|  1,386|        50 - 2,474|
@@ -119,16 +120,17 @@ The following table summarises institutional spending on articles published in f
 |FZJ - ZB                                    |      158|               196,869|   1,246 (516)|  1,177|       370 - 3,700|
 |Duisburg-Essen U                            |      147|               178,437|   1,214 (356)|  1,212|       238 - 2,800|
 |TU Dresden                                  |      130|               175,723|   1,352 (416)|  1,415|       200 - 2,193|
+|Leibniz-Fonds                               |      129|               208,581|   1,617 (708)|  1,572|        66 - 4,403|
 |GFZ-Potsdam                                 |      106|               126,520|   1,194 (760)|  1,065|       223 - 4,403|
 |FU Berlin                                   |      105|               141,170|   1,344 (468)|  1,286|       220 - 2,000|
 |Bayreuth U                                  |       92|               105,725|   1,149 (532)|  1,200|        82 - 2,059|
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
 |Ulm U                                       |       62|                84,310|   1,360 (647)|  1,285|       260 - 5,284|
-|Leibniz-Fonds                               |       56|                92,730|   1,656 (597)|  1,586|       173 - 3,202|
 |MDC                                         |       51|               103,028| 2,020 (1,220)|  1,483|       575 - 4,662|
 |TU Chemnitz                                 |       40|                39,454|     986 (697)|  1,056|        78 - 2,123|
 |Kassel U                                    |       35|                35,550|   1,016 (475)|  1,142|       150 - 1,861|
+|HZDR                                        |       32|                48,303|   1,509 (923)|  1,170|       344 - 3,700|
 |Dortmund TU                                 |       28|                26,410|     943 (937)|    826|       155 - 4,403|
 |Hamburg TUHH                                |       24|                32,789|   1,366 (499)|  1,466|       300 - 2,027|
 |Potsdam U                                   |       24|                32,128|   1,339 (236)|  1,386|       916 - 2,116|
@@ -143,18 +145,19 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,559 open access articles being published in hybrid journals. Total expenditure amounts to  32,742,587 €. Average  fee is 2,551 € and the median 2,589 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,548 open access articles being published in hybrid journals. Total expenditure amounts to  32,918,621 €. Average  fee is 2,549 € and the median 2,590 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|Wellcome Trust                              |    3,909|            10,424,982|   2,667 (946)|  2,610|       267 - 6,108|
+|Wellcome Trust                              |    3,905|            10,415,309|   2,667 (946)|  2,611|       267 - 6,108|
 |FWF - Austrian Science Fund                 |    2,560|             6,130,578|   2,395 (733)|  2,519|       120 - 5,315|
-|MPG                                         |       40|                63,548|   1,589 (290)|  1,669|       763 - 1,958|
+|HZDR                                        |       20|                11,880|     594 (118)|    570|       540 - 1,080|
 |MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
 |Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
+|MPG                                         |       13|                17,508|   1,347 (321)|  1,325|       763 - 1,825|
 |INM - Leibniz-Institut für Neue Materialien |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
 |Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|     1,581 - 1,581|
 |Duisburg-Essen U                            |        1|                 2,618|   2,618 (  0)|  2,618|     2,618 - 2,618|
@@ -191,9 +194,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.53%       |
-|PubMed ID                  |  80.69%      |
-|PubMed Central ID          |  77.41%     |
-|Web of Science record ID   | 89.43%      |
+|PubMed ID                  |  81.36%      |
+|PubMed Central ID          |  77.84%     |
+|Web of Science record ID   | 89.88%      |
 
 
 
@@ -201,7 +204,7 @@ Indexing coverage
 
 ## How to contribute?
 
-In collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/), a [wiki page](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)(in German) explains all the steps required. Meeting and telephone conferences are documented as well:
+In collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/), a wiki page([German](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)/[English](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout)) explains all the steps required. Meeting and telephone conferences are documented as well:
 
 * [Virtual Meeting 19 August](https://github.com/OpenAPC/openapc-de/wiki/Protokoll-Kick-Off-19.-August)
 * [Virtual Meeting 11 + 12 February 2015](https://github.com/OpenAPC/openapc-de/wiki/Ergebnisprotokoll-11-bzw.-12.-Februar-2015)
@@ -229,7 +232,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 

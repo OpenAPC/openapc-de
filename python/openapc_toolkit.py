@@ -199,12 +199,12 @@ class CSVAnalysisResult(object):
                         int(self.enc_conf * 100))
         ret += "***************************"
         return ret
-
-def is_wellformed_DOI(doi_string):
+    
+def get_normalised_DOI(doi_string):
     doi_match = DOI_RE.match(doi_string.strip())
-    if doi_match is not None:
-        return True
-    return False
+    if not doi_match:
+        return None
+    return doi_match.groupdict()["doi"]
 
 def is_wellformed_ISSN(issn_string):
     issn_match = ISSN_RE.match(issn_string.strip())
@@ -276,7 +276,6 @@ def analyze_csv_file(file_path, line_limit=None):
     csv_file.close()
     return {"success": True, "data": result}
 
-
 def get_metadata_from_crossref(doi_string):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
@@ -321,11 +320,10 @@ def get_metadata_from_crossref(doi_string):
         "cr_1_1": "http://www.crossref.org/xschema/1.1",
         "cr_1_0": "http://www.crossref.org/xschema/1.0",
         "ai": "http://www.crossref.org/AccessIndicators.xsd"}
-    doi_match = DOI_RE.match(doi_string.strip())
-    if not doi_match:
+    doi = get_normalised_DOI(doi_string)
+    if doi is None:
         error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
         return {"success": False, "error_msg": error_msg}
-    doi = doi_match.groupdict()["doi"]
     url = 'http://data.crossref.org/' + doi
     headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
     req = urllib2.Request(url, None, headers)
@@ -354,10 +352,11 @@ def get_metadata_from_crossref(doi_string):
         ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(etpe))
     return ret_value
 
-def get_metadata_from_pubmed(doi):
-    if not DOI_RE.match(doi.strip()):
+def get_metadata_from_pubmed(doi_string):
+    doi = get_normalised_DOI(doi_string)
+    if doi is None:
         return {"success": False,
-                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
+                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi_string)
                }
     url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
@@ -490,7 +489,8 @@ def process_row(row, row_num, column_map, num_required_columns,
                   "will be the decimal mark (1234.56 vs 1234,56). Try using " +
                   "another locale with the -l option.",
         "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
-                 "to maintain consistency."
+                 "to maintain consistency.",
+        "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({})."
     }
 
     if len(row) != num_required_columns:
@@ -527,6 +527,12 @@ def process_row(row, row_num, column_map, num_required_columns,
         logging.warning(msg, row_num)
         current_row["indexed_in_crossref"] = "FALSE"
     else:
+        # Normalise DOI
+        norm_doi = get_normalised_DOI(doi)
+        if norm_doi is not None and norm_doi != doi:
+            current_row["doi"] = norm_doi
+            msg = MESSAGES["doi_norm"].format(doi, norm_doi)
+            logging.warning(msg)
         # include crossref metadata
         crossref_result = get_metadata_from_crossref(doi)
         if crossref_result["success"]:
@@ -586,6 +592,7 @@ def process_row(row, row_num, column_map, num_required_columns,
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
     issns = []
+    new_value = ""
     if current_row["issn_electronic"] != "NA":
         issns.append(current_row["issn_electronic"])
     if current_row["issn"] != "NA":
@@ -600,12 +607,12 @@ def process_row(row, row_num, column_map, num_required_columns,
                 msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
                        "offline copy ('%s').")
                 logging.info(msg, issn, lookup_result)
-                current_row["doaj"] = "TRUE"
+                new_value = "TRUE"
                 break
             else:
                 msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
                        "offline copy.")
-                current_row["doaj"] = "FALSE"
+                new_value = "FALSE"
                 logging.info(msg, issn)
         # ...or query the online API
         else:
@@ -614,16 +621,18 @@ def process_row(row, row_num, column_map, num_required_columns,
                 if doaj_res["data"]["in_doaj"]:
                     msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
                     logging.info(msg, issn, doaj_res["data"]["title"])
-                    current_row["doaj"] = "TRUE"
+                    new_value = "TRUE"
                     break
                 else:
                     msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
                     logging.info(msg, issn)
-                    current_row["doaj"] = "FALSE"
+                    new_value = "FALSE"
             else:
                 msg = (u"Line %s: DOAJ: Error while trying to look up " +
                        "ISSN %s: %s")
                 logging.error(msg, row_num, issn, doaj_res["error_msg"])
+    old_value = current_row["doaj"]
+    current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
     return current_row.values()
 
 
@@ -648,6 +657,7 @@ def get_column_type_from_whitelist(column_name):
         "issn": ["issn"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
+        "issn_l": ["issn_l"],
         "license_ref": ["license_ref"],
         "indexed_in_crossref": ["indexed_in_crossref"],
         "pmid": ["pmid"],
@@ -718,7 +728,11 @@ def get_unified_journal_title(journal_full_title):
         "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
         "PLoS Medicine": "PLOS Medicine",
         "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
-        "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology"
+        "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
+        "Naturwissenschaften": "The Science of Nature",
+        "Dalton Trans.": "Dalton Transactions",
+        "Chem. Sci.": "Chemical Science",
+        "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
