@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 5,715 articles. The following table shows the article distribution over institutions.
+This dataset contains information on 5,715 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
 
 |Institution                                                      | Articles|
@@ -140,6 +140,4 @@ This dataset contains information on 5,715 articles. The following table shows t
 |University of Abertay Dundee                                     |        1|
 |University of the Highlands and Islands                          |        1|
 |University of Wales Trinity St David                             |        1|
-
-The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
