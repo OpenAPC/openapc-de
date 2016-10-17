@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 5,715 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
+This dataset contains information on 5,733 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
 
 |Institution                                                      | Articles|
@@ -30,11 +30,11 @@ This dataset contains information on 5,715 articles, the following table shows t
 |Academic Medical Center (AMC)                                    |      168|
 |VU University Amsterdam                                          |      167|
 |Wageningen University                                            |      167|
+|MPG                                                              |      146|
 |Radboud University Medical Center                                |      145|
 |University Medical Center Utrecht                                |      136|
 |Imperial College London                                          |      130|
 |King's College London                                            |      128|
-|MPG                                                              |      128|
 |University of Manchester                                         |      128|
 |Maastricht University                                            |      123|
 |University of Twente                                             |      114|
