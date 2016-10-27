@@ -7,11 +7,11 @@ This directory contains APC data for articles funded by the HOPE Fund (Harvard O
 
 For every year there are 3 different files:
 
-# YYYY.csv
+### YYYY.csv
 
 Original file as reported by the OSC (spreadsheet CSV export)
 
-# YYYY_preprocessed.csv
+### YYYY_preprocessed.csv
 
 A preprocessed variant, ready for OpenAPC metadata enrichment. The following intermediate steps were conducted:
 
@@ -19,11 +19,11 @@ A preprocessed variant, ready for OpenAPC metadata enrichment. The following int
 - The contents of the 'is_hybrid' column were converted from '0' to 'FALSE'
 - The 'Amount Awarded' column was renamed to 'Euro' and its contents (USD monetary values) converted to Euro (see below)
 
-# YYYY_enriched.csv
+### YYYY_enriched.csv
 
 Metadata enriched files, conforming to the OpenAPC data schema.
 
-### Exchange rates
+## Exchange rates
 
 The reported APC values were converted from US Dollar to Euro. These calculations were performed using the average exchange rate for the reported timeframes as provided by the [ECB](https://www.ecb.europa.eu/stats/exchange/eurofxref/html/eurofxref-graph-usd.en.html):
 
