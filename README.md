@@ -71,13 +71,17 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
 
+## Participating Institutions from the United States:
+
+- [Harvard University Library](https://osc.hul.harvard.edu/programs/hope/)
+
 ## Dataset
 
 
 
-This dataset contains information on 18,443 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 40 research performing institutions and research funders. 
+This dataset contains information on 18,538 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 41 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 32,918,621. The average payment was € 1,785  and the median was € 1,544.
+In total, publication fee spending covered by the Open APC initiative amounted to € 33,002,414. The average payment was € 1,780  and the median was € 1,542.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -91,7 +95,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-11,895 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,229,039, including value-added tax; the average payment was € 1,364 (median =  € 1,276, SD = € 548).
+11,990 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,312,832, including value-added tax; the average payment was € 1,361 (median =  € 1,274, SD = € 549).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -123,6 +127,7 @@ The following table summarises institutional spending on articles published in f
 |Leibniz-Fonds                               |      129|               208,581|   1,617 (708)|  1,572|        66 - 4,403|
 |GFZ-Potsdam                                 |      106|               126,520|   1,194 (760)|  1,065|       223 - 4,403|
 |FU Berlin                                   |      105|               141,170|   1,344 (468)|  1,286|       220 - 2,000|
+|HOPE Fund - OSC Harvard University Library  |       95|                83,793|     882 (536)|    830|        75 - 3,139|
 |Bayreuth U                                  |       92|               105,725|   1,149 (532)|  1,200|        82 - 2,059|
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
@@ -145,7 +150,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,548 open access articles being published in hybrid journals. Total expenditure amounts to  32,918,621 €. Average  fee is 2,549 € and the median 2,590 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,548 open access articles being published in hybrid journals. Total expenditure amounts to  33,002,414 €. Average  fee is 2,549 € and the median 2,590 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -194,9 +199,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.53%       |
-|PubMed ID                  |  81.36%      |
+|PubMed ID                  |  81.37%      |
 |PubMed Central ID          |  77.84%     |
-|Web of Science record ID   | 89.88%      |
+|Web of Science record ID   | 89.42%      |
 
 
 
@@ -232,7 +237,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
