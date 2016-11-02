@@ -15,7 +15,8 @@ PUBLISHER_IDENTITY = [
 
 # A whitelist for denoting changes in journal ownership.
 JOURNAL_OWNER_CHANGED = {
-    "1744-8069": ["SAGE Publications", "Springer Science + Business Media"]
+    "1744-8069": ["SAGE Publications", "Springer Science + Business Media"],
+    "1990-2573": ["European Optical Society", "Springer Nature"]
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
