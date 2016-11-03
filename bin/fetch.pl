@@ -2,7 +2,7 @@
 
 =head1 SYNOPSIS
 
-	perl fetch_ut.pl {input_file.csv}
+	perl fetch.pl --input {input_file.csv} --output {output_file.csv}
 
 =head1 DESCRIPTION
 
@@ -30,8 +30,16 @@ use Catmandu::Exporter::CSV;
 use LWP::UserAgent;
 use XML::Simple;
 use Try::Tiny;
+use Getopt::Long;
 
-my $file = $ARGV[0];
+my ($in_file, $out_file);
+GetOptions(
+    "input=s" => \$in_file,
+    "output=s" => \$out_file,
+) or die("Error in command line arguments\n");
+
+die "Parameters '--input' and '--output' are required." unless $in_file and $out_file;
+
 my $wosURL = 'http://apps.webofknowledge.com/';
 
 sub _do_request {
@@ -126,9 +134,9 @@ sub _parse {
 }
 
 # main
-my $csv = Catmandu::Importer::CSV->new( file => $file );
+my $csv = Catmandu::Importer::CSV->new( file => $in_file );
 my $exporter = Catmandu::Exporter::CSV->new(
-    file => "apc_de_ut.csv",
+    file => $out_file,
     sep_char => ',',
     quote_char => '"',
     always_quote => 1,
