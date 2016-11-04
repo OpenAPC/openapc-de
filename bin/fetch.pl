@@ -142,7 +142,7 @@ my $exporter = Catmandu::Exporter::CSV->new(
     always_quote => 1,
     fields => ["institution","period","euro","doi",
       "is_hybrid","publisher","journal_full_title",
-      "issn","issn_print","issn_electronic","license_ref",
+      "issn","issn_print","issn_electronic","issn_l","license_ref",
       "indexed_in_crossref","pmid","pmcid","ut","url","doaj"],
     );
 
