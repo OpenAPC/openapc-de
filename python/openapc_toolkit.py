@@ -118,7 +118,7 @@ class OpenAPCUnicodeWriter(object):
         return row
 
     def _write_row(self, row):
-        line = u",".join(row) + u"\r\n"
+        line = u",".join(row) + u"\n"
         line = self.encoder.encode(line)
         self.outfile.write(line)
 

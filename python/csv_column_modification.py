@@ -108,7 +108,7 @@ def main():
         mask = [True if x == "t" else False for x in args.quotemask]
     
     with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
+        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, True)
         writer.write_rows(new_rows)
         
 def quote_column(csv_reader, args):
