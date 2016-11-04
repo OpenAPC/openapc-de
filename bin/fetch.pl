@@ -154,7 +154,7 @@ $csv->each(
         my $body = _generate_xml($data);
 
         my $ut;
-        if ($body && $data->{ut} eq 'NA') {
+        if ($body && $data && $data->{ut} eq 'NA') {
             $ut = _parse( _do_request($body) );
             $data->{ut} = $ut ? "ut:$ut" : 'NA';
         }
