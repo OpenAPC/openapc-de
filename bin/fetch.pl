@@ -135,6 +135,10 @@ sub _parse {
 
 # main
 my $csv = Catmandu::Importer::CSV->new( file => $in_file );
+
+die "Input file does not match required format."
+    unless keys %{$csv->first} == 18;
+
 my $exporter = Catmandu::Exporter::CSV->new(
     file => $out_file,
     sep_char => ',',
