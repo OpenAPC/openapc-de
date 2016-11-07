@@ -74,7 +74,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Participating Institutions from the United States:
 
-- [Harvard University Library](https://osc.hul.harvard.edu/programs/hope/)
+- [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
 
 ## Dataset
 
@@ -128,7 +128,7 @@ The following table summarises institutional spending on articles published in f
 |Leibniz-Fonds                               |      129|               208,581|   1,617 (708)|  1,572|        66 - 4,403|
 |GFZ-Potsdam                                 |      106|               126,520|   1,194 (760)|  1,065|       223 - 4,403|
 |FU Berlin                                   |      105|               141,170|   1,344 (468)|  1,286|       220 - 2,000|
-|HOPE Fund - OSC Harvard University Library  |       95|                83,793|     882 (536)|    830|        75 - 3,139|
+|Harvard U                                   |       95|                83,793|     882 (536)|    830|        75 - 3,139|
 |Bayreuth U                                  |       92|               105,725|   1,149 (532)|  1,200|        82 - 2,059|
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
