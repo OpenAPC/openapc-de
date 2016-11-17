@@ -136,9 +136,6 @@ sub _parse {
 # main
 my $csv = Catmandu::Importer::CSV->new( file => $in_file );
 
-die "Input file does not match required format."
-    unless keys %{$csv->first} == 18;
-
 my $exporter = Catmandu::Exporter::CSV->new(
     file => $out_file,
     sep_char => ',',
@@ -155,6 +152,10 @@ $csv->each(
     sub {
         $counter++;
         my $data = $_[0];
+
+        die "Input file does not match required format."
+            unless keys %$data == 18;
+
         my $body = _generate_xml($data);
 
         my $ut;
