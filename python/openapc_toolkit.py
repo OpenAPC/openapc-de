@@ -118,7 +118,7 @@ class OpenAPCUnicodeWriter(object):
         return row
 
     def _write_row(self, row):
-        line = u",".join(row) + u"\r\n"
+        line = u",".join(row) + u"\n"
         line = self.encoder.encode(line)
         self.outfile.write(line)
 
@@ -732,7 +732,9 @@ def get_unified_journal_title(journal_full_title):
         "Naturwissenschaften": "The Science of Nature",
         "Dalton Trans.": "Dalton Transactions",
         "Chem. Sci.": "Chemical Science",
-        "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry"
+        "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry",
+        "Geospatial health": "Geospatial Health",
+        "Journal of the European Optical Society-Rapid Publications": "Journal of the European Optical Society: Rapid Publications"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

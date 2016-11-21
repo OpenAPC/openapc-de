@@ -39,6 +39,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
+- [University of Oldenburg](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
@@ -71,13 +72,17 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
 
+## Participating Institutions from the United States:
+
+- [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
+
 ## Dataset
 
 
 
-This dataset contains information on 18,443 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 40 research performing institutions and research funders. 
+This dataset contains information on 18,583 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 42 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 32,918,621. The average payment was € 1,785  and the median was € 1,544.
+In total, publication fee spending covered by the Open APC initiative amounted to € 33,049,530. The average payment was € 1,778  and the median was € 1,542.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -91,7 +96,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-11,895 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,229,039, including value-added tax; the average payment was € 1,364 (median =  € 1,276, SD = € 548).
+12,035 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,359,949, including value-added tax; the average payment was € 1,359 (median =  € 1,273, SD = € 549).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -123,11 +128,13 @@ The following table summarises institutional spending on articles published in f
 |Leibniz-Fonds                               |      129|               208,581|   1,617 (708)|  1,572|        66 - 4,403|
 |GFZ-Potsdam                                 |      106|               126,520|   1,194 (760)|  1,065|       223 - 4,403|
 |FU Berlin                                   |      105|               141,170|   1,344 (468)|  1,286|       220 - 2,000|
+|Harvard U                                   |       95|                83,793|     882 (536)|    830|        75 - 3,139|
 |Bayreuth U                                  |       92|               105,725|   1,149 (532)|  1,200|        82 - 2,059|
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
 |Ulm U                                       |       62|                84,310|   1,360 (647)|  1,285|       260 - 5,284|
 |MDC                                         |       51|               103,028| 2,020 (1,220)|  1,483|       575 - 4,662|
+|Oldenburg U                                 |       45|                47,117|   1,047 (492)|  1,216|        63 - 1,900|
 |TU Chemnitz                                 |       40|                39,454|     986 (697)|  1,056|        78 - 2,123|
 |Kassel U                                    |       35|                35,550|   1,016 (475)|  1,142|       150 - 1,861|
 |HZDR                                        |       32|                48,303|   1,509 (923)|  1,170|       344 - 3,700|
@@ -145,7 +152,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,548 open access articles being published in hybrid journals. Total expenditure amounts to  32,918,621 €. Average  fee is 2,549 € and the median 2,590 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,548 open access articles being published in hybrid journals. Total expenditure amounts to  33,049,530 €. Average  fee is 2,549 € and the median 2,590 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -194,9 +201,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.53%       |
-|PubMed ID                  |  81.36%      |
-|PubMed Central ID          |  77.84%     |
-|Web of Science record ID   | 89.88%      |
+|PubMed ID                  |  81.31%      |
+|PubMed Central ID          |  77.76%     |
+|Web of Science record ID   | 89.99%      |
 
 
 
@@ -232,7 +239,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 

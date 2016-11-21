@@ -1,22 +1,32 @@
 #!/usr/bin/python
 
 from fabric.api import *
+import sys
+import os
 
-# USAGE: $ fab -R pub get_ut
+# USAGE: $ fab -R pub get_ut:input={input_file},output={output_file}
 
 env.roledefs = {
-    'pub': ['openapc@pub'],
+    'pub': ['openapc@pub']
 }
 
 def prepare():
     local("git pull origin master")
 
-def get_ut():
+def get_ut(input,output):
+    if input == '' or output == '':
+        sys.exit("Input file and output file are required.")
+    if os.path.isfile(input):
+        in_file = os.path.basename(input)
+    else:
+        sys.exit("Input file is no valid file.")
+        
     put("bin/fetch.pl", "openapc/fetch.pl")
-    put("data/apc_de.csv", "openapc/apc_de.csv")
+    put(input, "openapc/" + in_file)
 
     with cd("openapc/"):
-        run("perl fetch.pl apc_de.csv")
-        get("apc_de_ut.csv", "apc_de_ut.csv")
-        local("R CMD BATCH R/isi_add.r")
-        local("rm apc_de_ut.csv")
+        run("perl fetch.pl --input " + in_file + " --output tmp_ut.csv")
+        get("tmp_ut.csv", "tmp_ut.csv")
+        local("python/csv_column_modification.py -e utf8 -o -q tffttttttttttttttt tmp_ut.csv copy") # Does not modify any data, only changes the CSV format to OpenAPC standard
+        local("rm tmp_ut.csv")
+        local("mv out.csv " + output)
