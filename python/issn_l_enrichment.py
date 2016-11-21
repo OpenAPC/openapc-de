@@ -117,6 +117,9 @@ def main():
     issn_matches = issn_p_matches = issn_e_matches = unmatched = different = 0
     enriched_lines = []
     for line in reader:
+        if len(line) == 0:
+            enriched_lines.append(line)
+            continue
         issn = reformat_issn(line[7])
         issn_p = reformat_issn(line[8])
         issn_e = reformat_issn(line[9])

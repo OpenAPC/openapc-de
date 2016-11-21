@@ -651,7 +651,7 @@ def get_column_type_from_whitelist(column_name):
         "doi": ["doi"],
         "euro": ["apc", "kosten", "cost", "euro", "eur"],
         "period": ["period", "jahr"],
-        "is_hybrid": ["is_hybrid"],
+        "is_hybrid": ["is_hybrid", "Is Hybrid"],
         "publisher": ["publisher"],
         "journal_full_title": ["journal_full_title", "journal", "journal title"],
         "issn": ["issn"],
