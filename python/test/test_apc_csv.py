@@ -27,6 +27,10 @@ JOURNAL_OWNER_CHANGED = {
 # correct data in these cases.
 JOURNAL_HYBRID_STATUS_CHANGED = [
     "2041-1723", # Nature Communications
+    "14749718", # Aging Cell
+    "1555-8932", # Genes & Nutrition
+    "1756-1833", # BMJ (fully OA status disputed, "added value" content not OA)
+    "1461-1457" # International Journal of Neuropsychopharmacology
 ]
 
 class RowObject(object):
