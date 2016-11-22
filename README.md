@@ -86,9 +86,9 @@ LIBER coordinates the [FP7 Post-Grant OA Pilot](https://www.openaire.eu/postgran
 
 
 
-This dataset contains information on 19,119 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 43 research performing institutions and research funders. 
+This dataset contains information on 19,121 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 43 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 33,830,567. The average payment was € 1,769  and the median was € 1,539.
+In total, publication fee spending covered by the Open APC initiative amounted to € 33,832,208. The average payment was € 1,769  and the median was € 1,539.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -102,7 +102,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-12,572 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 17,143,385, including value-added tax; the average payment was € 1,364 (median =  € 1,280, SD = € 545).
+12,574 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 17,145,026, including value-added tax; the average payment was € 1,364 (median =  € 1,280, SD = € 545).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -114,7 +114,7 @@ The following table summarises institutional spending on articles published in f
 |Wellcome Trust                              |    1,402|             2,431,927|   1,735 (750)|  1,602|       229 - 5,486|
 |FWF - Austrian Science Fund                 |      754|             1,059,117|   1,405 (650)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
-|FP7 Post-Grant OA Pilot                     |      543|               790,821|   1,456 (419)|  1,415|       209 - 2,086|
+|FP7 Post-Grant OA Pilot                     |      545|               792,462|   1,454 (421)|  1,413|       209 - 2,086|
 |Freiburg U                                  |      471|               626,480|   1,330 (410)|  1,386|        50 - 2,474|
 |Wuerzburg U                                 |      469|               595,119|   1,269 (416)|  1,266|         0 - 2,514|
 |KIT                                         |      427|               522,346|   1,223 (525)|  1,236|        69 - 3,731|
@@ -159,7 +159,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,547 open access articles being published in hybrid journals. Total expenditure amounts to  33,830,567 €. Average  fee is 2,549 € and the median 2,590 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,547 open access articles being published in hybrid journals. Total expenditure amounts to  33,832,208 €. Average  fee is 2,549 € and the median 2,590 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -210,7 +210,7 @@ Indexing coverage
 |DOI                        |  99.54%       |
 |PubMed ID                  |  81.09%      |
 |PubMed Central ID          |  77.49%     |
-|Web of Science record ID   | 89.75%      |
+|Web of Science record ID   | 89.74%      |
 
 
 
