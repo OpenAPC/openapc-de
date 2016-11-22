@@ -503,23 +503,23 @@ def process_row(row, row_num, column_map, num_required_columns,
     current_row = OrderedDict()
     # Copy content of identified columns
     for csv_column in column_map.values():
-        if csv_column.index is not None and len(row[csv_column.index]) > 0:
-            if csv_column.column_type == "euro":
-                # special case for monetary values: Cast to float to ensure
-                # the decimal point is a dot (instead of a comma)
-                euro_value = row[csv_column.index]
-                try:
-                    euro = locale.atof(euro_value)
-                    if euro.is_integer():
-                        euro = int(euro)
-                    current_row[csv_column.column_type] = str(euro)
-                except ValueError:
-                    msg = "Line %s: " + MESSAGES["locale"]
-                    logging.error(msg, row_num, euro_value, csv_column.index)
-            else:
-                current_row[csv_column.column_type] = row[csv_column.index]
+        if csv_column.column_type == "euro":
+            # special case for monetary values: Cast to float to ensure
+            # the decimal point is a dot (instead of a comma)
+            euro_value = row[csv_column.index]
+            try:
+                euro = locale.atof(euro_value)
+                if euro.is_integer():
+                    euro = int(euro)
+                current_row[csv_column.column_type] = str(euro)
+            except ValueError:
+                msg = "Line %s: " + MESSAGES["locale"]
+                logging.error(msg, row_num, euro_value, csv_column.index)
         else:
-            current_row[csv_column.column_type] = "NA"
+            if csv_column.index is not None and len(row[csv_column.index]) > 0:
+                current_row[csv_column.column_type] = row[csv_column.index]
+            else:
+                current_row[csv_column.column_type] = "NA"
 
     if len(doi) == 0 or doi == 'NA':
         msg = ("Line %s: No DOI found, entry could not enriched with " +
