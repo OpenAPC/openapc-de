@@ -68,12 +68,6 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
-## Participating Institutions from the Netherlands
-
-- [LIBER](http://libereurope.eu/blog/2015/02/23/pilot-launched-funding-open-access-for-post-grant-fp7-publications)
-
-LIBER coordinates the [FP7 Post-Grant OA Pilot](https://www.openaire.eu/postgrantoapilot), developed in context of the OpenAIRE2020 project.
-
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -81,6 +75,10 @@ LIBER coordinates the [FP7 Post-Grant OA Pilot](https://www.openaire.eu/postgran
 ## Participating Institutions from the United States:
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
+
+## Supranational participants
+
+- [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
 
 ## Dataset
 
