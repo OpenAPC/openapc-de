@@ -112,7 +112,7 @@ The following table summarises institutional spending on articles published in f
 |Wellcome Trust                              |    1,402|             2,431,927|   1,735 (750)|  1,602|       229 - 5,486|
 |FWF - Austrian Science Fund                 |      754|             1,059,117|   1,405 (650)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
-|FP7 Post-Grant OA Pilot                     |      546|               792,703|   1,452 (424)|  1,413|       209 - 2,086|
+|OpenAIRE                                    |      546|               792,703|   1,452 (424)|  1,413|       209 - 2,086|
 |Freiburg U                                  |      471|               626,480|   1,330 (410)|  1,386|        50 - 2,474|
 |Wuerzburg U                                 |      469|               595,119|   1,269 (416)|  1,266|         0 - 2,514|
 |KIT                                         |      427|               522,346|   1,223 (525)|  1,236|        69 - 3,731|
