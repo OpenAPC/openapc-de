@@ -488,7 +488,7 @@ def main():
             column_name = header[index]
         if index in index_dict:
             column = index_dict[index]
-            msg = "column number {} ({}) is the {} column '{}'".format(
+            msg = u"column number {} ({}) is the {} column '{}'".format(
                 index, column_name, column.requirement, column.column_type)
             if column.requirement in [CSVColumn.MANDATORY, CSVColumn.OPTIONAL]:
                 oat.print_g(msg)
@@ -496,7 +496,7 @@ def main():
                 oat.print_b(msg)
         else:
             if args.add_unknown_columns:
-                msg = ("column number {} ({}) is an unknown column, it will be " +
+                msg = (u"column number {} ({}) is an unknown column, it will be " +
                        "appended to the generated CSV file")
                 oat.print_y(msg.format(index, column_name))
                 if not column_name:
@@ -507,7 +507,7 @@ def main():
                     column_name += "_"
                 column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
             else:
-                msg = ("column number {} ({}) is an unknown column, it will be " +
+                msg = (u"column number {} ({}) is an unknown column, it will be " +
                        "ignored")
                 oat.print_y(msg.format(index, column_name))
 
