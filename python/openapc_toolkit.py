@@ -478,19 +478,19 @@ def process_row(row, row_num, column_map, num_required_columns,
         result will conform to the Open APC data schema.
     """
     MESSAGES = {
-        "num_columns": "Syntax: The number of values in this row (%s) " +
+        "num_columns": u"Syntax: The number of values in this row (%s) " +
                        "differs from the number of columns (%s). Line left " +
                        "unchanged, the resulting CSV file will not be valid.",
-        "locale": "Error: Could not process the monetary value '%s' in " +
+        "locale": u"Error: Could not process the monetary value '%s' in " +
                   "column %s. This will usually have one of two reasons:\n1) " +
                   "The value does not represent a number.\n2) The value " +
                   "represents a number, but its format differs from your " +
                   "current system locale - the most common source of error " +
                   "will be the decimal mark (1234.56 vs 1234,56). Try using " +
                   "another locale with the -l option.",
-        "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
+        "unify": u"Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
                  "to maintain consistency.",
-        "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({})."
+        "doi_norm": u"Normalisation: DOI '{}' normalised to pure form ({})."
     }
 
     if len(row) != num_required_columns:
