@@ -275,6 +275,38 @@ def analyze_csv_file(file_path, line_limit=None):
     result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
     csv_file.close()
     return {"success": True, "data": result}
+    
+def get_csv_file_content(file_name, enc=None):
+    result = analyze_csv_file(file_name, 500)
+    if result["success"]:
+        csv_analysis = result["data"]
+        print csv_analysis
+    else:
+        print result["error_msg"]
+        sys.exit()
+    
+    if enc is None:
+        enc = csv_analysis.enc
+    
+    if enc is None:
+        print ("Error: No encoding given for CSV file and automated " +
+               "detection failed. Please set the encoding manually via the " +
+               "--enc argument")
+        sys.exit()
+        
+    dialect = csv_analysis.dialect
+    
+    csv_file = open(file_name, "r")
+
+    content = []
+    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    header = []
+    if csv_analysis.has_header:
+        header.append(reader.next())
+    for row in reader:
+        content.append(row)
+    csv_file.close()
+    return (header, content)
 
 def get_metadata_from_crossref(doi_string):
     """
@@ -658,7 +690,7 @@ def get_column_type_from_whitelist(column_name):
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
         "issn_l": ["issn_l"],
-        "license_ref": ["license_ref"],
+        "license_ref": ["Licence", "license_ref"],
         "indexed_in_crossref": ["indexed_in_crossref"],
         "pmid": ["pmid", "pubmed id"],
         "pmcid": ["pmcid", "pubmed central (pmc) id"],
