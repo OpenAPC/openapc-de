@@ -1,46 +1,46 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 
-"Bangor University",2014,1995.69,"10.1186/1471-2229-14-51",FALSE,"Springer Nature","BMC Plant Biology","1471-2229","1471-2229",NA,NA,"CC BY",TRUE,"24558978","PMC4015440",NA,NA,TRUE
-"Bangor University",2014,1259.17,"10.1371/journal.pone.0090882",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,"http://creativecommons.org/licenses/by/4.0/",TRUE,"24633085","PMC3954595",NA,NA,TRUE
+"Bangor University",2014,1995.69,"10.1186/1471-2229-14-51",FALSE,"Springer Science + Business Media","BMC Plant Biology","1471-2229","1471-2229",NA,"1471-2229","CC BY",TRUE,"24558978","PMC4015440","ut:000335064500001",NA,TRUE
+"Bangor University",2014,1259.17,"10.1371/journal.pone.0090882",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24633085","PMC3954595","ut:000332858400023",NA,TRUE
 
-"Bangor University",2014,2777.93,"10.1111/psyp.12182",TRUE,"Wiley-Blackwell","Psychophysiology","00485772",NA,NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24611889","PMC4285917",NA,NA,FALSE
-
-
-
-"Bangor University",2014,1654.46,"10.3389/fpsyg.2014.00222",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078",NA,"CC BY",TRUE,"24672505","PMC3953663",NA,NA,TRUE
-"Bangor University",2014,937.35,"10.1371/journal.pone.0094015",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,"http://creativecommons.org/licenses/by/4.0/",TRUE,"24710001","PMC3977980",NA,NA,TRUE
-"Bangor University",2014,1235.03,"10.1371/journal.pone.0096811",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,"http://creativecommons.org/licenses/by/4.0/",TRUE,"24805782","PMC4013050",NA,NA,TRUE
-
-"Bangor University",2014,4134.04,"10.1523/jneurosci.4820-13.2014",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,"CC BY",TRUE,"24920615","PMC4051968",NA,NA,FALSE
-
-"Bangor University",2014,4134.04,"10.1523/jneurosci.0665-14.2014",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401",NA,"CC BY",TRUE,"24920636","PMC4051981",NA,NA,FALSE
-"Bangor University",2014,2032.91,"10.1016/j.orgel.2014.03.043",TRUE,"Elsevier BV","Organic Electronics","15661199","15661199",NA,NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
-"Bangor University",2014,1973.35,"10.1186/1477-7525-12-94",FALSE,"Springer Nature","Health and Quality of Life Outcomes","1477-7525","1477-7525",NA,NA,"CC BY",TRUE,"24919416","PMC4061777",NA,NA,TRUE
-"Bangor University",2014,3622.57,"10.1037/a0034983",TRUE,"American Psychological Association (APA)","Journal of Experimental Psychology: Human Perception and Performance","1939-1277","0096-1523","1939-1277",NA,"http://creativecommons.org/licenses/by/3.0/",TRUE,"24364701","PMC3977674",NA,NA,FALSE
-"Bangor University",2014,1574.19,"10.1109/ted.2014.2329329",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Electron Devices","0018-9383","0018-9383","1557-9646",NA,"CC BY",TRUE,NA,NA,NA,NA,FALSE
-"Bangor University",2014,2263.77,"10.1186/2046-4053-3-91",FALSE,"Springer Nature","Systematic Reviews","2046-4053",NA,"2046-4053",NA,"http://www.springer.com/tdm",TRUE,"25128286","PMC4141269",NA,NA,TRUE
+"Bangor University",2014,2777.93,"10.1111/psyp.12182",TRUE,"Wiley-Blackwell","Psychophysiology","00485772",NA,NA,"0048-5772","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24611889","PMC4285917","ut:000332585900009",NA,FALSE
 
 
 
+"Bangor University",2014,1654.46,"10.3389/fpsyg.2014.00222",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","CC BY",TRUE,"24672505","PMC3953663","ut:000332786100001",NA,TRUE
+"Bangor University",2014,937.35,"10.1371/journal.pone.0094015",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24710001","PMC3977980",NA,NA,TRUE
+"Bangor University",2014,1235.03,"10.1371/journal.pone.0096811",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24805782","PMC4013050","ut:000335728900100",NA,TRUE
 
-"Bangor University",2014,2240.88,"10.1016/j.soilbio.2014.07.003",TRUE,"Elsevier BV","Soil Biology and Biochemistry","00380717","00380717",NA,NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bangor University",2014,4134.04,"10.1523/jneurosci.4820-13.2014",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474","CC BY",TRUE,"24920615","PMC4051968","ut:000338338700005",NA,FALSE
 
-"Bangor University",2014,2240.86,"10.1016/j.energy.2014.07.002",FALSE,"Elsevier BV","Energy","03605442","03605442",NA,NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
-"Bangor University",2014,2652.69,"10.1016/j.gca.2014.05.031",TRUE,"Elsevier BV","Geochimica et Cosmochimica Acta","00167037","00167037",NA,NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bangor University",2014,4134.04,"10.1523/jneurosci.0665-14.2014",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474","CC BY",TRUE,"24920636","PMC4051981","ut:000338338700026",NA,FALSE
+"Bangor University",2014,2032.91,"10.1016/j.orgel.2014.03.043",TRUE,"Elsevier BV","Organic Electronics","15661199","15661199",NA,"1566-1199","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000336543500024",NA,FALSE
+"Bangor University",2014,1973.35,"10.1186/1477-7525-12-94",FALSE,"Springer Science + Business Media","Health and Quality of Life Outcomes","1477-7525","1477-7525",NA,"1477-7525","CC BY",TRUE,"24919416","PMC4061777","ut:000338314500004",NA,TRUE
+"Bangor University",2014,3622.57,"10.1037/a0034983",TRUE,"American Psychological Association (APA)","Journal of Experimental Psychology: Human Perception and Performance","1939-1277","0096-1523","1939-1277","0096-1523","http://creativecommons.org/licenses/by/3.0/",TRUE,"24364701","PMC3977674","ut:000334522400002",NA,FALSE
+"Bangor University",2014,1574.19,"10.1109/ted.2014.2329329",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Electron Devices","0018-9383","0018-9383","1557-9646","0018-9383","CC BY",TRUE,NA,NA,"ut:000342906200049",NA,FALSE
+"Bangor University",2014,2263.77,"10.1186/2046-4053-3-91",FALSE,"Springer Science + Business Media","Systematic Reviews","2046-4053",NA,"2046-4053","2046-4053","http://www.springer.com/tdm",TRUE,"25128286","PMC4141269",NA,NA,TRUE
 
 
 
 
-"Bangor University",2014,2001.44,"10.1002/2014gl061538",TRUE,"Wiley-Blackwell","Geophysical Research Letters","00948276",NA,NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
-"Bangor University",2014,1080.77,"10.1371/journal.pone.0112951",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203",NA,"http://creativecommons.org/licenses/by/4.0/",TRUE,"25397595","PMC4232572",NA,NA,TRUE
+"Bangor University",2014,2240.88,"10.1016/j.soilbio.2014.07.003",TRUE,"Elsevier BV","Soil Biology and Biochemistry","00380717","00380717",NA,"0038-0717","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000341556600029",NA,FALSE
 
-"Bangor University",2014,2085.05,"10.1111/gcb.12784",TRUE,"Wiley-Blackwell","Global Change Biology","13541013",NA,NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25351704","PMC4365897",NA,NA,FALSE
+"Bangor University",2014,2240.86,"10.1016/j.energy.2014.07.002",FALSE,"Elsevier BV","Energy","03605442","03605442",NA,"0360-5442","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000341334200090",NA,FALSE
+"Bangor University",2014,2652.69,"10.1016/j.gca.2014.05.031",TRUE,"Elsevier BV","Geochimica et Cosmochimica Acta","00167037","00167037",NA,"0016-7037","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000341925300013",NA,FALSE
 
-"Bangor University",2014,4170.1,"10.1038/ismej.2014.213",TRUE,"Springer Nature","The ISME Journal","1751-7362","1751-7362","1751-7370",NA,"CC BY",TRUE,"25423027","PMC4409164",NA,NA,FALSE
-"Bangor University",2014,3226.86,"10.1177/0956797614527830",TRUE,"SAGE Publications","Psychological Science","0956-7976","0956-7976","1467-9280",NA,"CC BY-NC",TRUE,"24815611","PMC4230382",NA,NA,FALSE
-"Bangor University",2014,2047.82,"10.1186/s12955-014-0175-3",FALSE,"Springer Nature","Health and Quality of Life Outcomes","1477-7525",NA,"1477-7525",NA,"CC BY",TRUE,"25488722","PMC4276099",NA,NA,TRUE
-"Bangor University",2014,2382.91,"10.1098/rspb.2014.2336",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954",NA,"CC BY",TRUE,NA,NA,NA,NA,FALSE
 
-"Bangor University",2014,2134.69,"10.1111/1365-2435.12377",TRUE,"Wiley-Blackwell","Functional Ecology","02698463",NA,NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
-"Bangor University",2014,3729.26,"10.1093/cercor/bhu282",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199",NA,"CC BY",TRUE,"25452578","PMC4585525",NA,NA,FALSE
-"Bangor University",2014,535.09,"10.1002/lno.10008",TRUE,"Wiley-Blackwell","Limnology and Oceanography","00243590",NA,NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+
+
+"Bangor University",2014,2001.44,"10.1002/2014gl061538",TRUE,"Wiley-Blackwell","Geophysical Research Letters","00948276",NA,NA,"0094-8276","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000346644600025",NA,FALSE
+"Bangor University",2014,1080.77,"10.1371/journal.pone.0112951",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25397595","PMC4232572","ut:000345558500118",NA,TRUE
+
+"Bangor University",2014,2085.05,"10.1111/gcb.12784",TRUE,"Wiley-Blackwell","Global Change Biology","13541013",NA,NA,"1354-1013","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25351704","PMC4365897","ut:000349896400028",NA,FALSE
+
+"Bangor University",2014,4170.1,"10.1038/ismej.2014.213",TRUE,"Nature Publishing Group","The ISME Journal","1751-7362","1751-7362","1751-7370","1751-7362","CC BY",TRUE,"25423027","PMC4409164","ut:000353354100013",NA,FALSE
+"Bangor University",2014,3226.86,"10.1177/0956797614527830",TRUE,"SAGE Publications","Psychological Science","0956-7976","0956-7976","1467-9280","0956-7976","CC BY-NC",TRUE,"24815611","PMC4230382","ut:000340131300002",NA,FALSE
+"Bangor University",2014,2047.82,"10.1186/s12955-014-0175-3",FALSE,"Springer Science + Business Media","Health and Quality of Life Outcomes","1477-7525",NA,"1477-7525","1477-7525","CC BY",TRUE,"25488722","PMC4276099","ut:000347425500001",NA,TRUE
+"Bangor University",2014,2382.91,"10.1098/rspb.2014.2336",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452","CC BY",TRUE,NA,NA,"ut:000354866500013",NA,FALSE
+
+"Bangor University",2014,2134.69,"10.1111/1365-2435.12377",TRUE,"Wiley-Blackwell","Functional Ecology","02698463",NA,NA,"0269-8463","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000350051900015",NA,FALSE
+"Bangor University",2014,3729.26,"10.1093/cercor/bhu282",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","CC BY",TRUE,"25452578","PMC4585525","ut:000366454000053",NA,FALSE
+"Bangor University",2014,535.09,"10.1002/lno.10008",TRUE,"Wiley-Blackwell","Limnology and Oceanography","00243590",NA,NA,"0024-3590","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000349082600004",NA,FALSE
