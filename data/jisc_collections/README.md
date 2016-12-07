@@ -5,7 +5,7 @@ This directory contains selected APC data from the [JISC collections](https://ww
 
 ## Contents
 
-Starting from the JISC original files, 3 transformation steps were applied each file:
+Starting from the JISC original files, 3 transformation steps were applied to each file:
 
 ### original
 
@@ -18,16 +18,16 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
 - All rows without a valid entry in the 'DOI' column were removed (Note that for this and every following row removal steps the line in question was replaced by a comma sequence, so line numbers in the preprocessed files still correspond to their counterpart in the original file).
 - The 'Type of publication' column was renamed to 'is_hybrid'. Its contents were mapped as follows:
 
-| value                                     | target          | 
-|:------------------------------------------|----------------:|
-| Journal Article/Review (Full OA journal)  | FALSE           |
-| Journal Article/Review (Hybrid journal)   | TRUE            |
+  | value                                     | target          | 
+  |:------------------------------------------|----------------:|
+  | Journal Article/Review (Full OA journal)  | FALSE           |
+  | Journal Article/Review (Hybrid journal)   | TRUE            |
 
-All rows containing other values were deleted (but empty lines were kept).
+  All rows containing other values were deleted (but empty lines were kept).
 
 - The 'Date of APC payment' column was renamed to 'period'. Its values (various date formats) were converted to 4-digit years. 
 - An additional column 'institution' was added.
-- In cases were the 'Additional costs (£)' column contained monetary values, those amounts were added to the amount denoted in 'APC paid (£) including VAT if charged' column and deleted afterwards.
+- In cases where the 'Additional costs (£)' column contained monetary values, those amounts were added to the amount denoted in 'APC paid (£) including VAT if charged' column and deleted afterwards.
 - The reported APC values in the 'APC paid (£) including VAT if charged' column were converted from Pound Sterling to Euro. These calculations were performed using the average exchange rate for the reported timeframes as provided by the [ECB](https://www.ecb.europa.eu/stats/exchange/eurofxref/html/eurofxref-graph-gbp.en.html) (See below for a table listing the applied rates). The column was renamed to 'euro' afterwards.
 
 ### enriched
