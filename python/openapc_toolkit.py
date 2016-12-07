@@ -690,7 +690,7 @@ def get_column_type_from_whitelist(column_name):
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
         "issn_l": ["issn_l"],
-        "license_ref": ["Licence", "license_ref"],
+        "license_ref": ["licence", "license_ref"],
         "indexed_in_crossref": ["indexed_in_crossref"],
         "pmid": ["pmid", "pubmed id"],
         "pmcid": ["pmcid", "pubmed central (pmc) id"],
