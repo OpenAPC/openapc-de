@@ -3,6 +3,7 @@
 
 import argparse
 import codecs
+import copy
 import csv
 import sys
 
@@ -14,7 +15,9 @@ ARG_HELP_STRINGS = {
     "value": "The value on which to trigger a line deletion",
     "full_delete": "Fully delete the line, reducing the total number " +
                    "of rows in the result file. Otherwise, the line " +
-                   "is replaced by a row of emtpy values. ", 
+                   "is replaced by a row of emtpy values. ",
+    "deleted_entries_file": "Write deleted entries to a separate " + 
+                            "out file ('del.csv')",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
     "quotemask": "A quotemask to apply to the result file after the action " +
@@ -35,7 +38,8 @@ def main():
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
     parser.add_argument("index", type=int, help=ARG_HELP_STRINGS["index"])
     parser.add_argument("value", help=ARG_HELP_STRINGS["value"])
-    parser.add_argument("-f", "--full_delete", action="store_true", help=ARG_HELP_STRINGS["full_delete"])
+    parser.add_argument("-d", "--full_delete", action="store_true", help=ARG_HELP_STRINGS["full_delete"])
+    parser.add_argument("-f", "--deleted_entries_file", action="store_true", help=ARG_HELP_STRINGS["deleted_entries_file"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
     parser.add_argument("-o", "--openapc_quote_rules", 
@@ -82,22 +86,30 @@ def main():
     oat.print_g(msg)
     
     modified_content = []
-    total_lines = deleted_lines = 0
+    deleted_lines = []
+    num_total_lines = num_deleted_lines = 0
     for line in content:
-        total_lines += 1
+        num_total_lines += 1
         if line[args.index] != args.value:
             modified_content.append(line)
         else:
-            deleted_lines += 1
+            num_deleted_lines += 1
             if not args.full_delete:
                 modified_content.append(list(emtpy_line))
+            if args.deleted_entries_file:
+                deleted_lines.append(line)
             
-    msg = u"Process complete, deleted {} out of {} total lines".format(deleted_lines, total_lines)            
+    msg = u"Process complete, deleted {} out of {} total lines".format(num_deleted_lines, num_total_lines)            
     oat.print_g(msg)
     
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
-        writer.write_rows(header + modified_content)
+        writer.write_rows(copy.deepcopy(header) + modified_content)
+
+    if args.deleted_entries_file and len(deleted_lines) > 0:
+        with open('del.csv', 'w') as out:
+            writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
+            writer.write_rows(copy.deepcopy(header) + deleted_lines)
 
 
 if __name__ == '__main__':
