@@ -9,6 +9,7 @@ import locale
 import logging
 import re
 import ssl
+import sys
 import urllib2
 import xml.etree.ElementTree as ET
 
@@ -314,7 +315,7 @@ def get_metadata_from_crossref(doi_string):
 
     This method looks up a DOI in crossref and returns all metadata fields
     relevant to OpenAPC (publisher, journal_full_title, issn, issn_print,
-    issn_electronic, license_ref).
+    issn_electronic, license_ref) and the crossref prefix.
 
     Args:
         doi_string: A string representing a doi. 'Pure' form (10.xxx),
@@ -338,6 +339,7 @@ def get_metadata_from_crossref(doi_string):
     """
     xpaths = {
         ".//cr_qr:crm-item[@name='publisher-name']": "publisher",
+        ".//cr_qr:crm-item[@name='prefix-name']": "prefix",
         ".//cr_1_0:journal_metadata//cr_1_0:full_title": "journal_full_title",
         ".//cr_1_1:journal_metadata//cr_1_1:full_title": "journal_full_title",
         ".//cr_1_0:journal_metadata//cr_1_0:issn": "issn",
@@ -522,7 +524,14 @@ def process_row(row, row_num, column_map, num_required_columns,
                   "another locale with the -l option.",
         "unify": u"Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
                  "to maintain consistency.",
-        "doi_norm": u"Normalisation: DOI '{}' normalised to pure form ({})."
+        "doi_norm": u"Normalisation: DOI '{}' normalised to pure form ({}).",
+        "springer_distinction": u"publisher 'Springer Nature' found " +
+                                 "for a pre-2015 article - publisher " +
+                                 "changed to '%s' based on prefix " +
+                                 "discrimination ('%s')",
+        "unknown_prefix": u"publisher 'Springer Nature' found for a " +
+                           "pre-2015 article, but discrimination was " +
+                           "not possible - unknown prefix ('%s')"
     }
 
     if len(row) != num_required_columns:
@@ -571,6 +580,7 @@ def process_row(row, row_num, column_map, num_required_columns,
             logging.info("Crossref: DOI resolved: " + doi)
             current_row["indexed_in_crossref"] = "TRUE"
             data = crossref_result["data"]
+            prefix = data.pop("prefix")
             for key, value in data.iteritems():
                 if value is not None:
                     if key == "journal_full_title":
@@ -589,6 +599,22 @@ def process_row(row, row_num, column_map, num_required_columns,
                                                            unified_value)
                             logging.warning(msg)
                         new_value = unified_value
+                        # Treat Springer Open special case: crossref erroneously
+                        # reports publisher "Springer Nature" even for articles
+                        # published before 2015 (publishers fusioned only then)
+                        if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
+                            publisher = None
+                            if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag"]:
+                                publisher = "Springer Science + Business Media"
+                            elif prefix in ["Nature Publishing Group"]:
+                                publisher = "Nature Publishing Group"
+                            if publisher:
+                                msg = MESSAGES["springer_distinction"]
+                                logging.warning(msg, publisher, prefix)
+                                new_value = publisher
+                            else:
+                                msg = MESSAGES["unknown_prefix"]
+                                logging.error(msg, prefix)
                     else:
                         new_value = value
                 else:
