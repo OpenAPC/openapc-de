@@ -548,14 +548,19 @@ def process_row(row, row_num, column_map, num_required_columns,
             # special case for monetary values: Cast to float to ensure
             # the decimal point is a dot (instead of a comma)
             euro_value = row[csv_column.index]
-            try:
-                euro = locale.atof(euro_value)
-                if euro.is_integer():
-                    euro = int(euro)
-                current_row[csv_column.column_type] = str(euro)
-            except ValueError:
-                msg = "Line %s: " + MESSAGES["locale"]
-                logging.error(msg, row_num, euro_value, csv_column.index)
+            if len(euro_value) == 0:
+                msg = "Line %s: Empty monetary value in column %s."
+                logging.warning(msg, row_num, csv_column.index)
+                current_row[csv_column.column_type] = "NA"
+            else:
+                try:
+                    euro = locale.atof(euro_value)
+                    if euro.is_integer():
+                        euro = int(euro)
+                    current_row[csv_column.column_type] = str(euro)
+                except ValueError:
+                    msg = "Line %s: " + MESSAGES["locale"]
+                    logging.error(msg, row_num, euro_value, csv_column.index)
         else:
             if csv_column.index is not None and len(row[csv_column.index]) > 0:
                 current_row[csv_column.column_type] = row[csv_column.index]
@@ -604,7 +609,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                         # published before 2015 (publishers fusioned only then)
                         if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
                             publisher = None
-                            if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag"]:
+                            if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag", "Springer - Psychonomic Society"]:
                                 publisher = "Springer Science + Business Media"
                             elif prefix in ["Nature Publishing Group"]:
                                 publisher = "Nature Publishing Group"
@@ -650,7 +655,7 @@ def process_row(row, row_num, column_map, num_required_columns,
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
     issns = []
-    new_value = ""
+    new_value = "NA"
     if current_row["issn_electronic"] != "NA":
         issns.append(current_row["issn_electronic"])
     if current_row["issn"] != "NA":
