@@ -139,6 +139,8 @@ ARG_HELP_STRINGS = {
               "cert store of the OS)",
     "unknown_columns": "Attach any unidentified columns to the generated " +
                        "csv file",
+    "overwrite": "Always overwrite existing data with imported data " +
+                 "(instead of asking on the first conflict)",
     "institution": "Manually identify the 'institution' column if the script " +
                    "fails to detect it automatically. The value is the " +
                    "numerical column index in the CSV file, with the " +
@@ -209,6 +211,8 @@ def main():
                         help=ARG_HELP_STRINGS["unknown_columns"])
     parser.add_argument("-v", "--verbose", action="store_true",
                         help=ARG_HELP_STRINGS["verbose"])
+    parser.add_argument("-o", "--overwrite", action="store_true",
+                        help=ARG_HELP_STRINGS["overwrite"])
     parser.add_argument("-institution", "--institution_column", type=int,
                         help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("-period", "--period_column", type=int,
@@ -305,26 +309,31 @@ def main():
     csv_file.seek(0)
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
 
+    if args.overwrite:
+        ow_strategy = CSVColumn.OW_ALWAYS
+    else:
+        ow_strategy = CSVColumn.OW_ASK
+
     column_map = OrderedDict([
-        ("institution", CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column)),
-        ("period", CSVColumn("period", CSVColumn.MANDATORY, args.period_column)),
-        ("euro", CSVColumn("euro", CSVColumn.MANDATORY, args.euro_column)),
-        ("doi", CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column)),
-        ("is_hybrid", CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column)),
-        ("publisher", CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column)),
+        ("institution", CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column, overwrite=ow_strategy)),
+        ("period", CSVColumn("period", CSVColumn.MANDATORY, args.period_column, overwrite=ow_strategy)),
+        ("euro", CSVColumn("euro", CSVColumn.MANDATORY, args.euro_column, overwrite=ow_strategy)),
+        ("doi", CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column, overwrite=ow_strategy)),
+        ("is_hybrid", CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column, overwrite=ow_strategy)),
+        ("publisher", CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column, overwrite=ow_strategy)),
         ("journal_full_title", CSVColumn("journal_full_title", CSVColumn.OPTIONAL,
-                                         args.journal_full_title_column)),
-        ("issn", CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column)),
-        ("issn_print", CSVColumn("issn_print", CSVColumn.NONE, None)),
-        ("issn_electronic", CSVColumn("issn_electronic", CSVColumn.NONE, None)),
-        ("issn_l", CSVColumn("issn_l", CSVColumn.NONE, None)),
-        ("license_ref", CSVColumn("license_ref", CSVColumn.NONE, None)),
-        ("indexed_in_crossref", CSVColumn("indexed_in_crossref", CSVColumn.NONE, None)),
-        ("pmid", CSVColumn("pmid", CSVColumn.NONE, None)),
-        ("pmcid", CSVColumn("pmcid", CSVColumn.NONE, None)),
-        ("ut", CSVColumn("ut", CSVColumn.NONE, None)),
-        ("url", CSVColumn("url", CSVColumn.OPTIONAL, args.url_column)),
-        ("doaj", CSVColumn("doaj", CSVColumn.NONE, None))
+                                         args.journal_full_title_column, overwrite=ow_strategy)),
+        ("issn", CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column, overwrite=ow_strategy)),
+        ("issn_print", CSVColumn("issn_print", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("issn_electronic", CSVColumn("issn_electronic", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("issn_l", CSVColumn("issn_l", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("license_ref", CSVColumn("license_ref", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("indexed_in_crossref", CSVColumn("indexed_in_crossref", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("pmid", CSVColumn("pmid", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("pmcid", CSVColumn("pmcid", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("ut", CSVColumn("ut", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("url", CSVColumn("url", CSVColumn.OPTIONAL, args.url_column, overwrite=ow_strategy)),
+        ("doaj", CSVColumn("doaj", CSVColumn.NONE, None, overwrite=ow_strategy))
     ])
 
     # Do not quote the values in the 'period' and 'euro' columns
