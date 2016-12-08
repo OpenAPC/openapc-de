@@ -599,7 +599,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                                                            unified_value)
                             logging.warning(msg)
                         new_value = unified_value
-                        # Treat Springer Open special case: crossref erroneously
+                        # Treat Springer Nature special case: crossref erroneously
                         # reports publisher "Springer Nature" even for articles
                         # published before 2015 (publishers fusioned only then)
                         if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
