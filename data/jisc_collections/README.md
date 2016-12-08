@@ -23,11 +23,9 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
   | Journal Article/Review (Full OA journal)  | FALSE           |
   | Journal Article/Review (Hybrid journal)   | TRUE            |
 
-  All rows containing other values were deleted (but empty lines were kept).
+  All rows containing other values (Book chapter, Conference Paper/Proceeding/Abstract) were deleted (but empty lines were kept).
 
-- The 'Date of APC payment' column was renamed to 'period'. Its values (various date formats) were converted to 4-digit years. 
-- An additional column 'institution' was added.
-- In cases where the 'Additional costs (£)' column contained monetary values, those amounts were added to the amount denoted in 'APC paid (£) including VAT if charged' column and deleted afterwards.
+- The 'Date of APC payment' column was renamed to 'period'. Its values (various date formats) were converted to 4-digit years. In case of missing values a default value equal to the reported year of the file was assigned (e.g. 2014 for APCs2014combined.csv).
 - The reported APC values in the 'APC paid (£) including VAT if charged' column were converted from Pound Sterling to Euro. These calculations were performed using the average exchange rate for the reported timeframes as provided by the [ECB](https://www.ecb.europa.eu/stats/exchange/eurofxref/html/eurofxref-graph-gbp.en.html) (See below for a table listing the applied rates). The column was renamed to 'euro' afterwards.
 
 ### enriched
