@@ -102,6 +102,8 @@ def main():
     for line in source_content:
         if line:
             key = line[args.source_file_key_column]
+            if key == 'NA':
+                continue
             value = line[args.source_file_value_column]
             if key not in mapping_table:
                 mapping_table[key] = value
@@ -127,7 +129,7 @@ def main():
     
     line_num = 0 if not target_header else 1
     
-    replace_msg = "Line {}: Found matching key '{}', replaced old value '{}' by '{}'"
+    replace_msg = u"Line {}: Found matching key '{}', replaced old value '{}' by '{}'"
     modified_content = []
     for line in target_content:
         key = line[args.target_file_key_column]
