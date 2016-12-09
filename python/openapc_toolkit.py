@@ -611,15 +611,15 @@ def process_row(row, row_num, column_map, num_required_columns,
                             publisher = None
                             if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag", "Springer - Psychonomic Society"]:
                                 publisher = "Springer Science + Business Media"
-                            elif prefix in ["Nature Publishing Group"]:
+                            elif prefix in ["Nature Publishing Group", "Nature Publishing Group - Macmillan Publishers"]:
                                 publisher = "Nature Publishing Group"
                             if publisher:
-                                msg = MESSAGES["springer_distinction"]
-                                logging.warning(msg, publisher, prefix)
+                                msg = "Line %s: " + MESSAGES["springer_distinction"]
+                                logging.warning(msg, row_num, publisher, prefix)
                                 new_value = publisher
                             else:
-                                msg = MESSAGES["unknown_prefix"]
-                                logging.error(msg, prefix)
+                                msg = "Line %s: " + MESSAGES["unknown_prefix"]
+                                logging.error(msg, row_num, prefix)
                     else:
                         new_value = value
                 else:
