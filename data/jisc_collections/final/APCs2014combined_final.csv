@@ -1006,7 +1006,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,2978.64,"10.1093/brain/awu034",FALSE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"24578547","PMC4032096","ut:000337028900002",NA,FALSE
 "Newcastle University",2014,1221.33,"10.1371/journal.pone.0090377",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24587344","PMC3938727","ut:000332396200183",NA,TRUE
 "Newcastle University",2014,694.22,"10.1175/JCLI-D-13-00723.1",TRUE,"American Meteorological Society","Journal of Climate","0894-8755","0894-8755","1520-0442","0894-8755",NA,TRUE,NA,NA,"ut:000340310800004",NA,FALSE
-"Newcastle University",2014,1573.71,"10.1261/rna.043471.113",FALSE,"Cold Spring Harbor Laboratory","RNA","1355-8382","1355-8382",NA,"1355-8382","CC BY",TRUE,"24550520","PMC3964915","ut:000333191300011",NA,FALSE
+"Newcastle University",2014,1573.71,"10.1261/rna.043471.113",FALSE,"Cold Spring Harbor Laboratory Press","RNA","1355-8382","1355-8382",NA,"1355-8382","CC BY",TRUE,"24550520","PMC3964915","ut:000333191300011",NA,FALSE
 "Newcastle University",2014,1221.33,"10.1371/journal.pone.0088016",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24516578","PMC3917849","ut:000330834400025",NA,TRUE
 "Newcastle University",2014,2606.31,"10.1038/eye.2014.37",FALSE,"Nature Publishing Group","Eye","0950-222X","0950-222X","1476-5454","0950-222X","CC BY",TRUE,"24603424","PMC4017118","ut:000335975800003",NA,FALSE
 "Newcastle University",2014,1221.33,"10.1371/journal.pone.0081763",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24339963","PMC3858267","ut:000328707400039",NA,TRUE
@@ -1786,7 +1786,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,3018.31,"10.1037/a0033787",TRUE,"American Psychological Association (APA)","Psychology and Aging","1939-1498","0882-7974","1939-1498","0882-7974","http://creativecommons.org/licenses/by/3.0/",TRUE,"24364401","PMC3906799","ut:000329046600007",NA,FALSE
 "UCL",2014,2961.86,"10.1037/neu0000020",TRUE,"American Psychological Association (APA)","Neuropsychology","1931-1559","0894-4105","1931-1559","0894-4105","http://creativecommons.org/licenses/by/3.0/",TRUE,"24219607","PMC3906797","ut:000329118900010",NA,FALSE
-"UCL",2014,1509.95,"10.1101/lm.032409.113",TRUE,"Cold Spring Harbor Laboratory","Learning & Memory","1072-0502","1072-0502","1549-5485","1072-0502",NA,TRUE,"24345636","PMC3867709","ut:000328908500005",NA,FALSE
+"UCL",2014,1509.95,"10.1101/lm.032409.113",TRUE,"Cold Spring Harbor Laboratory Press","Learning & Memory","1072-0502","1072-0502","1549-5485","1072-0502",NA,TRUE,"24345636","PMC3867709","ut:000328908500005",NA,FALSE
 "UCL",2014,1374.08,"10.5194/hessd-11-1343-2014",TRUE,"Copernicus GmbH","Hydrology and Earth System Sciences Discussions","1812-2116",NA,"1812-2116","1812-2116",NA,TRUE,NA,NA,NA,NA,TRUE
 "UCL",2014,2247.95,"10.1007/s10518-014-9588-y",TRUE,"Springer Science + Business Media","Bulletin of Earthquake Engineering","1570-761X","1570-761X","1573-1456","1570-761X",NA,TRUE,NA,NA,"ut:000331707600015",NA,FALSE
 "UCL",2014,1641.7,"10.1063/1.4866146",TRUE,"AIP Publishing","Physics of Fluids","1070-6631","1070-6631","1089-7666","1070-6631",NA,TRUE,NA,NA,"ut:000332322000016",NA,FALSE
@@ -3258,7 +3258,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1563.79,"10.1098/rsif.2014.0543",TRUE,"The Royal Society","Journal of The Royal Society Interface","1742-5689","1742-5689","1742-5662","1742-5662",NA,TRUE,"25079871","PMC4233731","ut:000341100800013",NA,FALSE
 "UCL",2014,731.01,"10.1016/j.futures.2014.07.004",TRUE,"Elsevier BV","Futures","00163287","00163287",NA,"0016-3287","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000343783200001",NA,FALSE
 "UCL",2014,2978.64,"10.1093/jac/dku296",TRUE,"Oxford University Press (OUP)","Journal of Antimicrobial Chemotherapy","0305-7453","0305-7453","1460-2091","0305-7453",NA,TRUE,"25096075","PMC4228778","ut:000345767300023",NA,FALSE
-"UCL",2014,1499.25,"10.1101/gr.166819.113",TRUE,"Cold Spring Harbor Laboratory","Genome Research","1088-9051","1088-9051",NA,"1088-9051",NA,TRUE,"24709818","PMC4079972","ut:000338185000011",NA,FALSE
+"UCL",2014,1499.25,"10.1101/gr.166819.113",TRUE,"Cold Spring Harbor Laboratory Press","Genome Research","1088-9051","1088-9051",NA,"1088-9051",NA,TRUE,"24709818","PMC4079972","ut:000338185000011",NA,FALSE
 "UCL",2014,1765.96,"10.1186/1866-1955-6-21",FALSE,"Springer Science + Business Media","Journal of Neurodevelopmental Disorders","1866-1955","1866-1955",NA,"1866-1947",NA,TRUE,"25110526","PMC4126817","ut:000340008000001",NA,TRUE
 "UCL",2014,1861.65,"10.1002/anie.201405348",TRUE,"Wiley-Blackwell","Angewandte Chemie International Edition","14337851",NA,NA,"1433-7851","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25147077","PMC4271674","ut:000342761500034",NA,FALSE
 "UCL",2014,1993.21,"10.1016/j.bbalip.2014.07.014",TRUE,"Elsevier BV","Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids","13881981","13881981",NA,"1388-1981","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25066473","PMC4331669","ut:000342864900016",NA,FALSE
@@ -3722,7 +3722,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,900.74,"10.3389/fnhum.2014.00825",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","1662-5161",NA,TRUE,"25477800","PMC4237059","ut:000345078900001",NA,TRUE
 "UCL",2014,1556.4,"10.1016/j.neuroimage.2014.09.018",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"1053-8119","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25234119","PMC4330550","ut:000345393800033",NA,FALSE
-"UCL",2014,1529.63,"10.1101/gr.169375.113",TRUE,"Cold Spring Harbor Laboratory","Genome Research","1088-9051","1088-9051","1549-5469","1088-9051",NA,TRUE,"24963154","PMC4158754","ut:000341281200014",NA,FALSE
+"UCL",2014,1529.63,"10.1101/gr.169375.113",TRUE,"Cold Spring Harbor Laboratory Press","Genome Research","1088-9051","1088-9051","1549-5469","1088-9051",NA,TRUE,"24963154","PMC4158754","ut:000341281200014",NA,FALSE
 "UCL",2014,1727.9,"10.1364/OE.22.025506",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"25401583",NA,"ut:000344004600087",NA,FALSE
 "UCL",2014,3127.57,"10.1038/cddis.2014.399",FALSE,"Nature Publishing Group","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889",NA,TRUE,"25321467","PMC4237238","ut:000344994000032",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -4493,7 +4493,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bath",2014,1450.36,"10.1364/OE.22.003732",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","Unknown",TRUE,"24663665",NA,"ut:000332518100158",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Bath",2014,1521.09,"10.1101/gr.165415.113",TRUE,"Cold Spring Harbor Laboratory","Genome Research","1088-9051","1088-9051",NA,"1088-9051","CC BY",TRUE,"24717264","PMC4009613","ut:000335365600013",NA,FALSE
+"University of Bath",2014,1521.09,"10.1101/gr.165415.113",TRUE,"Cold Spring Harbor Laboratory Press","Genome Research","1088-9051","1088-9051",NA,"1088-9051","CC BY",TRUE,"24717264","PMC4009613","ut:000335365600013",NA,FALSE
 "University of Bath",2014,1094.65,"10.1016/j.jpaa.2014.04.022",TRUE,"Elsevier BV","Journal of Pure and Applied Algebra","00224049","00224049",NA,"0022-4049","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000343686300004",NA,FALSE
 "University of Bath",2014,2684.42,"10.1007/s11064-014-1302-6",TRUE,"Springer Science + Business Media","Neurochemical Research","0364-3190","0364-3190","1573-6903","0364-3190","CC BY",TRUE,"24728867","PMC4630245","ut:000364529800005",NA,FALSE
 "University of Bath",2014,848.81,"10.1364/OE.22.010091",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","Unknown",TRUE,"24787890",NA,"ut:000335902200119",NA,FALSE
@@ -4765,7 +4765,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Birmingham",2014,1829.95,"10.1128/JVI.01431-14",TRUE,"American Society for Microbiology","Journal of Virology","0022-538X","0022-538X","1098-5514","0022-538X","CC BY",TRUE,"25122803","PMC4178707","ut:000342688000039",NA,FALSE
 "University of Birmingham",2014,1660.59,"10.1016/j.jweia.2014.10.001",TRUE,"Elsevier BV","Journal of Wind Engineering and Industrial Aerodynamics","01676105","01676105",NA,"0167-6105","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000347662700010",NA,FALSE
 "University of Birmingham",2014,2233.98,"10.1002/lpor.201400006",TRUE,"Wiley-Blackwell","Laser & Photonics Reviews","18638880",NA,NA,"1863-8880","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000341704900013",NA,FALSE
-"University of Birmingham",2014,1965,"10.1101/lm.035543.114",TRUE,"Cold Spring Harbor Laboratory","Learning & Memory","1549-5485",NA,"1549-5485","1072-0502","CC BY",TRUE,"25135195","PMC4138356","ut:000341301200006",NA,FALSE
+"University of Birmingham",2014,1965,"10.1101/lm.035543.114",TRUE,"Cold Spring Harbor Laboratory Press","Learning & Memory","1549-5485",NA,"1549-5485","1072-0502","CC BY",TRUE,"25135195","PMC4138356","ut:000341301200006",NA,FALSE
 "University of Birmingham",2014,996.6,"10.1016/j.laa.2014.07.027",TRUE,"Elsevier BV","Linear Algebra and its Applications","00243795","00243795",NA,"0024-3795","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000342533400008",NA,FALSE
 "University of Birmingham",2014,2233.98,"10.1002/mrm.25355",TRUE,"Wiley-Blackwell","Magnetic Resonance in Medicine","07403194",NA,NA,"0740-3194","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25046769",NA,"ut:000354729100006",NA,FALSE
 "University of Birmingham",2014,2701.87,"10.1016/j.matchar.2013.12.012",TRUE,"Elsevier BV","Materials Characterization","10445803","10445803",NA,"1044-5803","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000333513400012",NA,FALSE
@@ -5482,7 +5482,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,3700.64,"10.1021/jz501332v",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry Letters","1948-7185","1948-7185",NA,"1948-7185","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"26277936",NA,"ut:000340222200002",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2014,1556.25,"10.1101/lm.034603.114",TRUE,"Cold Spring Harbor Laboratory","Learning & Memory","1549-5485",NA,"1549-5485","1072-0502","CC BY",TRUE,"25135197","PMC4138357","ut:000341301200008",NA,FALSE
+"University of Cambridge",2014,1556.25,"10.1101/lm.034603.114",TRUE,"Cold Spring Harbor Laboratory Press","Learning & Memory","1549-5485",NA,"1549-5485","1072-0502","CC BY",TRUE,"25135197","PMC4138357","ut:000341301200008",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,1834.02,"10.1021/nn500767b",TRUE,"American Chemical Society (ACS)","ACS Nano","1936-0851","1936-0851","1936-086X","1936-0851","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"24735347","PMC4240663","ut:000336640600074",NA,FALSE
@@ -6811,7 +6811,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sussex",2014,2585.42,"10.1007/s00265-014-1840-6",TRUE,"Springer Science + Business Media","Behavioral Ecology and Sociobiology","0340-5443","0340-5443","1432-0762","0340-5443","CC BY",TRUE,"25620834","PMC4293493","ut:000347818500011",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Warwick",2014,2647.27,"10.1371/journal.pbio.1001747",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","1544-9173","http://creativecommons.org/licenses/by/4.0/",TRUE,"24409095","PMC3883644","ut:000336832200004",NA,TRUE
-"University of Warwick",2014,1249.79,"10.1261/rna.041574.113",TRUE,"Cold Spring Harbor Laboratory","RNA","1355-8382","1355-8382",NA,"1355-8382","CC BY",TRUE,"24412912","PMC3923131","ut:000331890900009",NA,FALSE
+"University of Warwick",2014,1249.79,"10.1261/rna.041574.113",TRUE,"Cold Spring Harbor Laboratory Press","RNA","1355-8382","1355-8382",NA,"1355-8382","CC BY",TRUE,"24412912","PMC3923131","ut:000331890900009",NA,FALSE
 "University of Warwick",2014,1521.59,"10.1103/PhysRevB.89.035203",TRUE,"American Physical Society (APS)","Physical Review B","1098-0121","1098-0121","1550-235X","1098-0121","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000332218200002",NA,FALSE
 "University of Warwick",2014,2025.48,"10.1039/c3an02322b",TRUE,"Royal Society of Chemistry (RSC)","The Analyst","0003-2654","0003-2654","1364-5528","0003-2654","CC BY",TRUE,"24482800",NA,"ut:000331867500014",NA,FALSE
 "University of Warwick",2014,2703.12,"10.1111/nph.12694",TRUE,"Wiley-Blackwell","New Phytologist","0028646X",NA,NA,"0028-646X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24444091","PMC4235297","ut:000333981500023",NA,FALSE
