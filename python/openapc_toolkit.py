@@ -751,7 +751,8 @@ def get_unified_publisher_name(publisher):
         "Impact Journals": "Impact Journals LLC",
         "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
         "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
-        "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press"
+        "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press",
+        "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -800,7 +801,11 @@ def get_unified_journal_title(journal_full_title):
         "Geospatial health": "Geospatial Health",
         "Journal of the European Optical Society-Rapid Publications": "Journal of the European Optical Society: Rapid Publications",
         "J. Mater. Chem. C": "Journal of Materials Chemistry C",
-        "Chem. Commun.": "Chemical Communications"
+        "Chem. Commun.": "Chemical Communications",
+        "Cognition and Emotion": "Cognition & Emotion",
+        "Catal. Sci. Technol.": "Catalysis Science & Technology",
+        "Journal of Epidemiology & Community Health": "Journal of Epidemiology and Community Health",
+        "JRSM": "Journal of the Royal Society of Medicine"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
