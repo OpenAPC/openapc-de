@@ -30,7 +30,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "14749718", # Aging Cell
     "1555-8932", # Genes & Nutrition
     "1756-1833", # BMJ (fully OA status disputed, "added value" content not OA)
-    "1461-1457" # International Journal of Neuropsychopharmacology
+    "1461-1457", # International Journal of Neuropsychopharmacology
+    "1552-5783" # Investigative Opthalmology & Visual Science, OA since 01/2016
 ]
 
 class RowObject(object):
