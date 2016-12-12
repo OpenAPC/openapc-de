@@ -84,9 +84,9 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 
 
-This dataset contains information on 19,122 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 43 research performing institutions and research funders. 
+This dataset contains information on 19,136 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 43 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 33,832,448. The average payment was € 1,769  and the median was € 1,539.
+In total, publication fee spending covered by the Open APC initiative amounted to € 33,848,506. The average payment was € 1,769  and the median was € 1,539.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -100,7 +100,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-12,575 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 17,145,266, including value-added tax; the average payment was € 1,363 (median =  € 1,280, SD = € 545).
+12,589 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 17,161,325, including value-added tax; the average payment was € 1,363 (median =  € 1,280, SD = € 545).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -138,8 +138,8 @@ The following table summarises institutional spending on articles published in f
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
 |Ulm U                                       |       62|                84,310|   1,360 (647)|  1,285|       260 - 5,284|
+|Oldenburg U                                 |       59|                63,175|   1,071 (480)|  1,247|        63 - 1,757|
 |MDC                                         |       51|               103,028| 2,020 (1,220)|  1,483|       575 - 4,662|
-|Oldenburg U                                 |       45|                47,117|   1,047 (492)|  1,216|        63 - 1,900|
 |TU Chemnitz                                 |       40|                39,454|     986 (697)|  1,056|        78 - 2,123|
 |Kassel U                                    |       35|                35,550|   1,016 (475)|  1,142|       150 - 1,861|
 |HZDR                                        |       32|                48,303|   1,509 (923)|  1,170|       344 - 3,700|
@@ -157,7 +157,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,547 open access articles being published in hybrid journals. Total expenditure amounts to  33,832,448 €. Average  fee is 2,549 € and the median 2,590 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,547 open access articles being published in hybrid journals. Total expenditure amounts to  33,848,506 €. Average  fee is 2,549 € and the median 2,590 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -206,9 +206,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.53%       |
-|PubMed ID                  |  81.08%      |
-|PubMed Central ID          |  77.49%     |
-|Web of Science record ID   | 89.74%      |
+|PubMed ID                  |  81.05%      |
+|PubMed Central ID          |  77.46%     |
+|Web of Science record ID   | 89.73%      |
 
 
 
