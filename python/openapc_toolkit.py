@@ -799,7 +799,8 @@ def get_unified_journal_title(journal_full_title):
         "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry",
         "Geospatial health": "Geospatial Health",
         "Journal of the European Optical Society-Rapid Publications": "Journal of the European Optical Society: Rapid Publications",
-        "J. Mater. Chem. C": "Journal of Materials Chemistry C"
+        "J. Mater. Chem. C": "Journal of Materials Chemistry C",
+        "Chem. Commun.": "Chemical Communications"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
