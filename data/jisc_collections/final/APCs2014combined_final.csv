@@ -274,7 +274,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2014,2411.94,"10.1103/PhysRevLett.112.165501",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","http://creativecommons.org/licenses/by/3.0/",TRUE,"24815656",NA,"ut:000338513000010",NA,FALSE
 "Imperial College London",2014,3258.63,"10.1093/infdis/jiu182",TRUE,"Oxford University Press (OUP)","Journal of Infectious Diseases","0022-1899","0022-1899","1537-6613","0022-1899","CC BY",TRUE,"24688069","PMC4136801","ut:000344608300004",NA,FALSE
 "Imperial College London",2014,2718.78,"10.1016/j.actbio.2013.12.030",TRUE,"Elsevier BV","Acta Biomaterialia","17427061","17427061",NA,"1742-7061","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24370641","PMC3991416","ut:000335095300028",NA,FALSE
-"Imperial College London",2014,1367.56,"10.1016/j.nicl.2014.02.004",TRUE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24936415","PMC4053639","ut:000349667600070",NA,FALSE
+"Imperial College London",2014,1367.56,"10.1016/j.nicl.2014.02.004",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24936415","PMC4053639","ut:000349667600070",NA,FALSE
 "Imperial College London",2014,1175.82,"10.1371/journal.pone.0092205",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24694949","PMC3973652","ut:000334103000016",NA,TRUE
 "Imperial College London",2014,4466.55,"10.1378/chest.13-2247",TRUE,"Elsevier BV","Chest","00123692","00123692",NA,"0012-3692","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24556715","PMC4077410","ut:000339729800019",NA,FALSE
 "Imperial College London",2014,1654.86,"10.2196/jmir.3050",FALSE,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871","1438-8871","CC BY",TRUE,"25048247","PMC4397388",NA,NA,TRUE
@@ -941,7 +941,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,3258.63,"10.1093/infdis/jiu207",TRUE,"Oxford University Press (OUP)","Journal of Infectious Diseases","0022-1899","0022-1899","1537-6613","0022-1899","CC BY",TRUE,"24740632","PMC4136803","ut:000344608300001",NA,FALSE
 "LSHTM",2014,984.65,"10.1371/journal.pone.0103285",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25075867","PMC4116167","ut:000340028800035",NA,TRUE
 "LSHTM",2014,2233.98,"10.1093/pubmed/fdt131",TRUE,"Oxford University Press (OUP)","Journal of Public Health","1741-3842","1741-3842","1741-3850","1741-3842","CC BY",TRUE,"24472776","PMC4245898","ut:000345840900007",NA,FALSE
-"LSHTM",2014,1005.29,"10.1136/bmjopen-2014-004877",TRUE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055","CC BY",TRUE,"24657884","PMC3963103","ut:000333921300040",NA,TRUE
+"LSHTM",2014,1005.29,"10.1136/bmjopen-2014-004877",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055","CC BY",TRUE,"24657884","PMC3963103","ut:000333921300040",NA,TRUE
 "LSHTM",2014,3258.63,"10.1093/infdis/jiu574",TRUE,"Oxford University Press (OUP)","Journal of Infectious Diseases","0022-1899","0022-1899","1537-6613","0022-1899","CC BY",TRUE,"25336729","PMC4354982","ut:000354697500017",NA,FALSE
 "LSHTM",2014,1677.35,"10.1186/1471-2458-14-1245",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://www.springer.com/tdm",TRUE,"25476231","PMC4289401","ut:000347928900001",NA,TRUE
 "LSHTM",2014,2904.17,"10.1136/sextrans-2013-051339",TRUE,"BMJ","Sexually Transmitted Infections","1368-4973","1368-4973","1472-3263","1368-4973","CC BY",TRUE,"24695990","PMC4112496","ut:000339281500013",NA,FALSE
@@ -953,7 +953,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,2126.95,"10.1016/j.puhe.2014.10.019",TRUE,"Elsevier BV","Public Health","00333506","00333506",NA,"0033-3506","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25542740","PMC4315810","ut:000348035500006",NA,FALSE
 "LSHTM",2014,1751.81,"10.1186/1471-2261-14-85",FALSE,"Springer Science + Business Media","BMC Cardiovascular Disorders","1471-2261",NA,"1471-2261","1471-2261","http://www.springer.com/tdm",TRUE,"25022519","PMC4118294","ut:000339839900001",NA,TRUE
 "LSHTM",2014,1135.51,"10.1111/tmi.12267",TRUE,"Wiley-Blackwell","Tropical Medicine & International Health","13602276",NA,NA,"1360-2276","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24479379","PMC4065366","ut:000334398000013",NA,FALSE
-"LSHTM",2014,1005.29,"10.1136/bmjopen-2013-004633",TRUE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055","CC BY",TRUE,"24793252","PMC4025454","ut:000336976900023",NA,TRUE
+"LSHTM",2014,1005.29,"10.1136/bmjopen-2013-004633",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055","CC BY",TRUE,"24793252","PMC4025454","ut:000336976900023",NA,TRUE
 "LSHTM",2014,2233.98,"10.1093/eurpub/cku076",TRUE,"Oxford University Press (OUP)","The European Journal of Public Health","1101-1262","1101-1262","1464-360X","1101-1262","CC BY",TRUE,"24913316","PMC4110957","ut:000339908200008",NA,FALSE
 "LSHTM",2014,1027.21,"10.1371/journal.pone.0110586",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25343719","PMC4208768","ut:000343943500037",NA,TRUE
 "LSHTM",2014,2220.2,"10.1186/s13073-014-0099-x",FALSE,"Springer Science + Business Media","Genome Medicine","1756-994X",NA,"1756-994X","1756-994X","Unknown",TRUE,"25484919","PMC4256740","ut:000347345800001",NA,TRUE
@@ -977,7 +977,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,2904.17,"10.1136/sextrans-2013-051336",TRUE,"BMJ","Sexually Transmitted Infections","1368-4973","1368-4973","1472-3263","1368-4973","CC BY",TRUE,"24714445","PMC4033143","ut:000336897700013",NA,FALSE
 "LSHTM",2014,979.6,"10.1186/1756-0500-7-37",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500","1756-0500",NA,"1756-0500","CC BY",TRUE,"24423150","PMC3896753",NA,NA,TRUE
 "LSHTM",2014,1891.1,"10.1016/j.jad.2014.03.036",TRUE,"Elsevier BV","Journal of Affective Disorders","01650327","01650327",NA,"0165-0327","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24836093","PMC4037874","ut:000336435000013",NA,FALSE
-"LSHTM",2014,1507.94,"10.1136/bmjopen-2014-005540",TRUE,"BMJ","BMJ Open","2044-6055","2044-6055",NA,"2044-6055","CC BY",TRUE,"25056980","PMC4120321","ut:000339720900115",NA,TRUE
+"LSHTM",2014,1507.94,"10.1136/bmjopen-2014-005540",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055",NA,"2044-6055","CC BY",TRUE,"25056980","PMC4120321","ut:000339720900115",NA,TRUE
 "LSHTM",2014,2264.65,"10.1111/1469-0691.12401",TRUE,"Elsevier BV","Clinical Microbiology and Infection","1198743X","1198743X",NA,"1198-743X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24107197","PMC4302318","ut:000340197000018",NA,FALSE
 "LSHTM",2014,2002.6,"10.1016/j.jtbi.2014.04.005",TRUE,"Elsevier BV","Journal of Theoretical Biology","00225193","00225193",NA,"0022-5193","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24727187","PMC4064301","ut:000337865100016",NA,FALSE
 "LSHTM",2014,1019.46,"10.1371/journal.pone.0090356",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24671000","PMC3966730","ut:000333677000008",NA,TRUE
@@ -1003,7 +1003,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,1991.92,"10.1016/j.mito.2013.07.115",FALSE,"Elsevier BV","Mitochondrion","15677249","15677249",NA,"1567-7249","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23892058","PMC3919214","ut:000327280500040",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Newcastle University",2014,2978.64,"10.1093/brain/awu034",FALSE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"24578547","PMC4032096","ut:000337028900002",NA,FALSE
+"Newcastle University",2014,2978.64,"10.1093/brain/awu034",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"24578547","PMC4032096","ut:000337028900002",NA,FALSE
 "Newcastle University",2014,1221.33,"10.1371/journal.pone.0090377",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24587344","PMC3938727","ut:000332396200183",NA,TRUE
 "Newcastle University",2014,694.22,"10.1175/JCLI-D-13-00723.1",TRUE,"American Meteorological Society","Journal of Climate","0894-8755","0894-8755","1520-0442","0894-8755",NA,TRUE,NA,NA,"ut:000340310800004",NA,FALSE
 "Newcastle University",2014,1573.71,"10.1261/rna.043471.113",TRUE,"Cold Spring Harbor Laboratory Press","RNA","1355-8382","1355-8382",NA,"1355-8382","CC BY",TRUE,"24550520","PMC3964915","ut:000333191300011",NA,FALSE
@@ -1026,7 +1026,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,2659.4,"10.1007/s13593-014-0219-4",TRUE,"Springer Science + Business Media","Agronomy for Sustainable Development","1774-0746","1774-0746","1773-0155","1773-0155","CC BY",TRUE,NA,NA,"ut:000348065500013",NA,FALSE
 "Newcastle University",2014,2222.44,"10.1016/j.jsames.2014.02.005",TRUE,"Elsevier BV","Journal of South American Earth Sciences","08959811","08959811",NA,"0895-9811","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000336464700007",NA,FALSE
 "Newcastle University",2014,304.39,"10.3390/genes5010235",FALSE,"MDPI AG","Genes","2073-4425",NA,"2073-4425","2073-4425","CC BY",TRUE,"24705295","PMC3978521","ut:000348855800013",NA,TRUE
-"Newcastle University",2014,1658.21,"10.1016/j.neuropsychologia.2014.02.021",FALSE,"Elsevier BV","Neuropsychologia","00283932","00283932",NA,"0028-3932","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24613477","PMC4022837","ut:000336772100004",NA,FALSE
+"Newcastle University",2014,1658.21,"10.1016/j.neuropsychologia.2014.02.021",TRUE,"Elsevier BV","Neuropsychologia","00283932","00283932",NA,"0028-3932","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24613477","PMC4022837","ut:000336772100004",NA,FALSE
 "Newcastle University",2014,3208.36,"10.1111/mmi.12568",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950382X",NA,NA,"0950-382X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24589252","PMC4114557","ut:000334857400002",NA,FALSE
 "Newcastle University",2014,2256.17,"10.1007/s00232-014-9640-5",TRUE,"Springer Science + Business Media","The Journal of Membrane Biology","0022-2631","0022-2631","1432-1424","0022-2631","CC BY",TRUE,"24585057","PMC4196048","ut:000343835500014",NA,FALSE
 "Newcastle University",2014,3023.41,"10.1016/j.soilbio.2013.09.015",TRUE,"Elsevier BV","Soil Biology and Biochemistry","00380717","00380717",NA,"0038-0717","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000329536200005",NA,FALSE
@@ -1094,7 +1094,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,2650.83,"10.1016/j.bbamcr.2014.02.006",TRUE,"Elsevier BV","Biochimica et Biophysica Acta (BBA) - Molecular Cell Research","01674889","01674889",NA,"0167-4889","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24566088","PMC4024195","ut:000335627900008",NA,FALSE
 "Newcastle University",2014,1385.07,"10.3389/fmicb.2014.00224",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X","CC BY",TRUE,"24904539","PMC4034419","ut:000336660000001",NA,TRUE
-"Newcastle University",2014,2978.64,"10.1093/brain/awu060",FALSE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"24727571","PMC3999722","ut:000336252800013",NA,FALSE
+"Newcastle University",2014,2978.64,"10.1093/brain/awu060",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"24727571","PMC3999722","ut:000336252800013",NA,FALSE
 "Newcastle University",2014,2233.98,"10.1371/journal.pone.0115433",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25532126","PMC4274008","ut:000348845100065",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -1135,7 +1135,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,3478.1,"10.1021/nl5017255",TRUE,"American Chemical Society (ACS)","Nano Letters","1530-6984","1530-6984","1530-6992","1530-6984","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"24915057",NA,"ut:000338979700025",NA,FALSE
 "Newcastle University",2014,2620.09,"10.1007/s00477-014-0916-1",TRUE,"Springer Science + Business Media","Stochastic Environmental Research and Risk Assessment","1436-3240","1436-3240","1436-3259","1436-3240","CC BY",TRUE,NA,NA,"ut:000353516400008",NA,FALSE
 "Newcastle University",2014,1563.79,"10.1098/rspb.2014.0094",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452","CC BY",TRUE,"24943374","PMC4083779","ut:000338637600001",NA,FALSE
-"Newcastle University",2014,2978.64,"10.1093/brain/awu187",FALSE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"25012222","PMC4163031","ut:000343420900003",NA,FALSE
+"Newcastle University",2014,2978.64,"10.1093/brain/awu187",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"25012222","PMC4163031","ut:000343420900003",NA,FALSE
 "Newcastle University",2014,1608.47,"10.1098/rsif.2014.0447",TRUE,"The Royal Society","Journal of The Royal Society Interface","1742-5689","1742-5689","1742-5662","1742-5662","CC BY",TRUE,"25030385","PMC4233693","ut:000344643800006",NA,FALSE
 "Newcastle University",2014,2191.66,"10.1016/j.pscychresns.2014.06.006",FALSE,"Elsevier BV","Psychiatry Research: Neuroimaging","09254927","09254927",NA,"0925-4927","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25037902","PMC4333903","ut:000340985400002",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -1168,7 +1168,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,1057.42,"10.1093/nar/gku683",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","CC BY",TRUE,"25063297","PMC4150786","ut:000343220300040",NA,TRUE
 "Newcastle University",2014,2978.64,"10.1111/1574-6968.12554",TRUE,"Oxford University Press (OUP)","FEMS Microbiology Letters","03781097",NA,NA,"0378-1097","CC BY",TRUE,"25105965",NA,"ut:000342745700004",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Newcastle University",2014,2978.64,"10.1093/brain/awu235",FALSE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"25146915","PMC4285186","ut:000348189800006",NA,FALSE
+"Newcastle University",2014,2978.64,"10.1093/brain/awu235",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"25146915","PMC4285186","ut:000348189800006",NA,FALSE
 "Newcastle University",2014,2124.51,"10.1186/s12915-014-0064-6",FALSE,"Springer Science + Business Media","BMC Biology","1741-7007",NA,"1741-7007","1741-7007","CC BY",TRUE,"25204677","PMC4160539","ut:000341537600001",NA,TRUE
 "Newcastle University",2014,1227.72,"10.1371/journal.pone.0108370",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25302500","PMC4193743","ut:000343730400012",NA,TRUE
 "Newcastle University",2014,3610.98,"10.1016/j.immuni.2014.08.006",FALSE,"Elsevier BV","Immunity","10747613","10747613",NA,"1074-7613","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25200712","PMC4175180","ut:000342626500016",NA,FALSE
@@ -1180,7 +1180,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,2553.84,"10.1007/s00415-014-7476-7",TRUE,"Springer Science + Business Media","Journal of Neurology","0340-5354","0340-5354","1432-1459","0340-5354","CC BY",TRUE,"25182700","PMC4221650","ut:000344808400018",NA,FALSE
 "Newcastle University",2014,2904.17,"10.1136/bjophthalmol-2014-305657",FALSE,"BMJ","British Journal of Ophthalmology","0007-1161","0007-1161","1468-2079","0007-1161","CC BY",TRUE,"25287367","PMC4345983","ut:000349998000025",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Newcastle University",2014,2792.48,"10.1093/cercor/bhu220",FALSE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","CC BY",TRUE,"25260701","PMC4585510","ut:000366454000034",NA,FALSE
+"Newcastle University",2014,2792.48,"10.1093/cercor/bhu220",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","CC BY",TRUE,"25260701","PMC4585510","ut:000366454000034",NA,FALSE
 "Newcastle University",2014,3276.5,"10.1038/ejhg.2014.214",FALSE,"Nature Publishing Group","European Journal of Human Genetics","1018-4813","1018-4813","1476-5438","1018-4813","CC BY",TRUE,"25293719","PMC4305338","ut:000356170700007",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,2166.59,"10.1016/j.socscimed.2014.09.012",TRUE,"Elsevier BV","Social Science & Medicine","02779536","02779536",NA,"0277-9536","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25226449",NA,"ut:000345180600009",NA,FALSE
@@ -1232,7 +1232,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,3800.98,"10.1021/om500582w",TRUE,"American Chemical Society (ACS)","Organometallics","0276-7333","0276-7333","1520-6041","0276-7333","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,NA,NA,"ut:000345552500010",NA,FALSE
 "Newcastle University",2014,3800.98,"10.1021/es502528c",TRUE,"American Chemical Society (ACS)","Environmental Science & Technology","0013-936X","0013-936X","1520-5851","0013-936X","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25363162",NA,"ut:000345803800007",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Newcastle University",2014,2978.64,"10.1093/brain/awu348",FALSE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"25497598","PMC4306819","ut:000350209900018",NA,FALSE
+"Newcastle University",2014,2978.64,"10.1093/brain/awu348",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","CC BY",TRUE,"25497598","PMC4306819","ut:000350209900018",NA,FALSE
 "Newcastle University",2014,1751.81,"10.1186/1471-2261-14-128",FALSE,"Springer Science + Business Media","BMC Cardiovascular Disorders","1471-2261",NA,"1471-2261","1471-2261","http://www.springer.com/tdm",TRUE,"25257704","PMC4189162","ut:000342590100001",NA,TRUE
 "Newcastle University",2014,2606.31,"10.1093/rheumatology/keu523",FALSE,"Oxford University Press (OUP)","Rheumatology","1462-0324","1462-0324","1462-0332","1462-0324","CC BY",TRUE,"25661469","PMC4473768","ut:000357430500025",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -3079,7 +3079,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1619.98,"10.1016/j.neuroimage.2014.06.023",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"1053-8119","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24945667","PMC4148524","ut:000344235800014",NA,FALSE
 "UCL",2014,1622.35,"10.1016/j.neuroimage.2014.05.077",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"1053-8119","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24907483","PMC4148523","ut:000344235800030",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2014,1327.38,"10.1016/j.nicl.2014.05.014",TRUE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24936434","PMC4055864","ut:000349667800004",NA,FALSE
+"UCL",2014,1327.38,"10.1016/j.nicl.2014.05.014",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24936434","PMC4055864","ut:000349667800004",NA,FALSE
 "UCL",2014,2512.95,"10.1212/WNL.0b013e318281ccd3",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Neurology","0028-3878","0028-3878","1526-632X","0028-3878",NA,TRUE,"23303849","PMC3590059","ut:000314878500012",NA,FALSE
 "UCL",2014,2512.95,"10.1212/WNL.0b013e3182840c6d",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Neurology","0028-3878","0028-3878","1526-632X","0028-3878",NA,TRUE,"23390172",NA,"ut:000315773500015",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -3434,7 +3434,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1180.5,"10.1016/j.chemgeo.2014.03.020",TRUE,"Elsevier BV","Chemical Geology","00092541","00092541",NA,"0009-2541","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000335772600008",NA,FALSE
 "UCL",2014,2328.06,"10.1016/j.ympev.2014.02.004",TRUE,"Elsevier BV","Molecular Phylogenetics and Evolution","10557903","10557903",NA,"1055-7903","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24555995","PMC4101239","ut:000335286700015",NA,FALSE
 "UCL",2014,2328.06,"10.1016/j.neurobiolaging.2014.01.010",TRUE,"Elsevier BV","Neurobiology of Aging","01974580","01974580",NA,"0197-4580","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24503276","PMC4104112","ut:000333970800045",NA,FALSE
-"UCL",2014,1180.5,"10.1016/j.nicl.2014.06.012",TRUE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25161892","PMC4141980","ut:000349667800029",NA,FALSE
+"UCL",2014,1180.5,"10.1016/j.nicl.2014.06.012",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25161892","PMC4141980","ut:000349667800029",NA,FALSE
 "UCL",2014,1481.13,"10.1186/1617-9625-12-13",FALSE,"Springer Science + Business Media","Tobacco Induced Diseases","1617-9625","1617-9625",NA,"1617-9625",NA,TRUE,"25170337","PMC4147097","ut:000341947500001",NA,TRUE
 "UCL",2014,2561.82,"10.1016/j.cma.2014.07.007",TRUE,"Elsevier BV","Computer Methods in Applied Mechanics and Engineering","00457825","00457825",NA,"0045-7825","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000342480100022",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -3932,7 +3932,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1677.35,"10.1186/1471-2458-14-1097",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://www.springer.com/tdm",TRUE,"25339315","PMC4287338","ut:000345139200001",NA,TRUE
-"UCL",2014,996.6,"10.1016/j.nicl.2014.10.007",TRUE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25379457","PMC4218943","ut:000349668500048",NA,FALSE
+"UCL",2014,996.6,"10.1016/j.nicl.2014.10.007",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25379457","PMC4218943","ut:000349668500048",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,2468.55,"10.1136/archdischild-2014-306934",TRUE,"BMJ","Archives of Disease in Childhood","0003-9888","0003-9888","1468-2044","0003-9888",NA,TRUE,"25398447","PMC4413836","ut:000353159300020",NA,FALSE
 "UCL",2014,2193.02,"10.1016/j.ces.2014.08.049",TRUE,"Elsevier BV","Chemical Engineering Science","00092509","00092509",NA,"0009-2509","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000344943800011",NA,FALSE
@@ -4269,7 +4269,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1833.48,"10.1007/s00605-014-0705-4",TRUE,"Springer Science + Business Media","Monatshefte für Mathematik","0026-9255","0026-9255","1436-5081","0026-9255",NA,TRUE,"25821247","PMC4372181","ut:000349889600006",NA,FALSE
-"UCL",2014,1088.44,"10.1016/j.nicl.2014.11.021",TRUE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25610791","PMC4297887","ut:000373172600032",NA,FALSE
+"UCL",2014,1088.44,"10.1016/j.nicl.2014.11.021",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25610791","PMC4297887","ut:000373172600032",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1833.48,"10.1007/s00723-014-0621-8",TRUE,"Springer Science + Business Media","Applied Magnetic Resonance","0937-9347","0937-9347","1613-7507","0937-9347",NA,TRUE,"25798030","PMC4359710","ut:000351302700002",NA,FALSE
 "UCL",2014,2233.98,"10.1042/BST20140195",TRUE,"Portland Press Ltd.","Biochemical Society Transactions","0300-5127","0300-5127","1470-8752","0300-5127",NA,TRUE,"25233407",NA,"ut:000342566700007",NA,FALSE
@@ -4324,7 +4324,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,2152.07,"10.1136/openhrt-2014-000188",FALSE,"BMJ","Open Heart","2053-3624",NA,"2053-3624","2053-3624",NA,TRUE,"25628893","PMC4305067",NA,NA,TRUE
 "UCL",2014,2395.32,"10.1016/j.chroma.2014.12.010",TRUE,"Elsevier BV","Journal of Chromatography A","00219673","00219673",NA,"0021-9673","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25541092","PMC4289918","ut:000348089400009",NA,FALSE
 "UCL",2014,1833.48,"10.1007/s12035-014-9034-9",TRUE,"Springer Science + Business Media","Molecular Neurobiology","0893-7648","0893-7648","1559-1182","0893-7648",NA,TRUE,"25502460","PMC4703635","ut:000368176300053",NA,FALSE
-"UCL",2014,1088.44,"10.1016/j.nicl.2013.12.004",TRUE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24392306","PMC3879413","ut:000349667600021",NA,FALSE
+"UCL",2014,1088.44,"10.1016/j.nicl.2013.12.004",FALSE,"Elsevier BV","NeuroImage: Clinical","22131582","22131582",NA,"2213-1582","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24392306","PMC3879413","ut:000349667600021",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -5857,7 +5857,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Glasgow",2014,2587.69,"10.1016/j.pain.2014.08.023",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Pain","0304-3959","0304-3959",NA,"0304-3959","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25168670","PMC4247378","ut:000345413400012",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Glasgow",2014,1272.83,"10.1016/j.bone.2014.10.008",TRUE,"Elsevier BV","Bone","87563282","87563282",NA,"1873-2763","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25445449","PMC4289916","ut:000347770000014",NA,FALSE
-"University of Glasgow",2014,1035.08,"10.1042/BSR20140150",TRUE,"Portland Press Ltd.","Bioscience Reports","0144-8463","0144-8463","1573-4935","0144-8463","CC BY",TRUE,"25387830","PMC4293902","ut:000355679100003",NA,FALSE
+"University of Glasgow",2014,1035.08,"10.1042/BSR20140150",FALSE,"Portland Press Ltd.","Bioscience Reports","0144-8463","0144-8463","1573-4935","0144-8463","CC BY",TRUE,"25387830","PMC4293902","ut:000355679100003",NA,FALSE
 "University of Glasgow",2014,2215.36,"10.1099/vir.0.071522-0",TRUE,"Microbiology Society","Journal of General Virology","0022-1317","0022-1317","1465-2099","0022-1317",NA,TRUE,"25395594","PMC4336861","ut:000355784900020",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Glasgow",2014,2606.31,"10.1042/CS20140578",TRUE,"Portland Press Ltd.","Clinical Science","0143-5221","0143-5221","1470-8736","0143-5221",NA,TRUE,"25524654",NA,"ut:000350743000005",NA,FALSE
@@ -5953,7 +5953,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Glasgow",2014,1882.5,"10.1016/j.renene.2014.11.024",FALSE,"Elsevier BV","Renewable Energy","09601481","09601481",NA,"0960-1481","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000348955400051",NA,FALSE
+"University of Glasgow",2014,1882.5,"10.1016/j.renene.2014.11.024",TRUE,"Elsevier BV","Renewable Energy","09601481","09601481",NA,"0960-1481","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000348955400051",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6455,7 +6455,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Portsmouth",2014,1208.83,"10.1371/journal.pone.0105982",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25207538","PMC4160189","ut:000342030300014",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Portsmouth",2014,1193.94,"10.1111/desc.12145",FALSE,"Wiley-Blackwell","Developmental Science","1363755X",NA,NA,"1363-755X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24410843","PMC4116479","ut:000341511600005",NA,FALSE
+"University of Portsmouth",2014,1193.94,"10.1111/desc.12145",TRUE,"Wiley-Blackwell","Developmental Science","1363755X",NA,NA,"1363-755X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24410843","PMC4116479","ut:000341511600005",NA,FALSE
 "University of Portsmouth",2014,1253.51,"10.1371/journal.pone.0113395",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25415193","PMC4240600","ut:000346906600044",NA,TRUE
 "University of Portsmouth",2014,1354.04,"10.1371/journal.pone.0098365",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24887147","PMC4041747","ut:000336956300058",NA,TRUE
 "University of Portsmouth",2014,2786.27,"10.1111/joa.12141",TRUE,"Wiley-Blackwell","Journal of Anatomy","00218782",NA,NA,"0021-8782","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24252088","PMC3969064","ut:000329747000012",NA,FALSE
@@ -6486,7 +6486,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1548.89,"10.1039/C4CC04576A",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25030082",NA,"ut:000340513400026",NA,FALSE
 "University of Sheffield",2014,2531.84,"10.1088/0964-1726/23/7/075020",TRUE,"IOP Publishing","Smart Materials and Structures","0964-1726","0964-1726","1361-665X","0964-1726","CC BY",TRUE,NA,NA,"ut:000339657900036",NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1111/aeq.12069",TRUE,"Wiley-Blackwell","Anthropology & Education Quarterly","01617761",NA,NA,"0161-7761","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000340476400008",NA,FALSE
-"University of Sheffield",2014,1675.49,"10.1093/gbe/evu157",TRUE,"Oxford University Press (OUP)","Genome Biology and Evolution","1759-6653",NA,"1759-6653","1759-6653","CC BY",TRUE,"25062920","PMC4231635","ut:000342976600013",NA,TRUE
+"University of Sheffield",2014,1675.49,"10.1093/gbe/evu157",FALSE,"Oxford University Press (OUP)","Genome Biology and Evolution","1759-6653",NA,"1759-6653","1759-6653","CC BY",TRUE,"25062920","PMC4231635","ut:000342976600013",NA,TRUE
 "University of Sheffield",2014,2792.48,"10.1002/2014JA019920",TRUE,"Wiley-Blackwell","Journal of Geophysical Research: Space Physics","21699380",NA,NA,"2169-9380","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000344809600024",NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1111/mec.12883",TRUE,"Wiley-Blackwell","Molecular Ecology","09621083",NA,NA,"0962-1083","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25113130","PMC4285301","ut:000342743400015",NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1002/hec.3103",TRUE,"Wiley-Blackwell","Health Economics","10579230",NA,NA,"1057-9230","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25204721",NA,"ut:000362498000006",NA,FALSE
