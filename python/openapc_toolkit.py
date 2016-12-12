@@ -750,7 +750,8 @@ def get_unified_publisher_name(publisher):
         "The Optical Society": "Optical Society of America (OSA)",
         "Impact Journals": "Impact Journals LLC",
         "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
-        "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)"
+        "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
+        "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -797,7 +798,8 @@ def get_unified_journal_title(journal_full_title):
         "Chem. Sci.": "Chemical Science",
         "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry",
         "Geospatial health": "Geospatial Health",
-        "Journal of the European Optical Society-Rapid Publications": "Journal of the European Optical Society: Rapid Publications"
+        "Journal of the European Optical Society-Rapid Publications": "Journal of the European Optical Society: Rapid Publications",
+        "J. Mater. Chem. C": "Journal of Materials Chemistry C"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
