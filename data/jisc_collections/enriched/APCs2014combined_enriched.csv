@@ -170,7 +170,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Durham University",2014,1097.01,"10.1371/journal.pone.0113265",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25469635","PMC4254451","ut:000349128700019",NA,TRUE
 "Durham University",2014,2449.01,"10.1016/j.quascirev.2014.11.004",TRUE,"Elsevier BV","Quaternary Science Reviews","02773791","02773791",NA,"0277-3791","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000348960000005",NA,FALSE
 "Durham University",2014,1638.15,"10.3389/fpls.2014.00673",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X","CC BY",TRUE,"25506351","PMC4246675","ut:000347324700001",NA,TRUE
-"Durham University",2014,2025.48,"10.1039/C4CC01799D",TRUE,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"24852610",NA,"ut:000337101800005",NA,FALSE
+"Durham University",2014,2025.48,"10.1039/C4CC01799D",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"24852610",NA,"ut:000337101800005",NA,FALSE
 "Durham University",2014,2224.31,"10.1016/j.quascirev.2014.09.013",TRUE,"Elsevier BV","Quaternary Science Reviews","02773791","02773791",NA,"0277-3791","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000345822500001",NA,FALSE
 "Durham University",2014,2531.84,"10.1088/2050-6120/2/2/024007",TRUE,"IOP Publishing","Methods and Applications in Fluorescence","2050-6120",NA,"2050-6120","2050-6120","CC BY",TRUE,NA,NA,"ut:000353361900008",NA,FALSE
 "Durham University",2014,2531.84,"10.1088/0953-8984/26/23/236002",TRUE,"IOP Publishing","Journal of Physics: Condensed Matter","0953-8984","0953-8984","1361-648X","0953-8984","CC BY",TRUE,"24833038",NA,"ut:000336389800013",NA,FALSE
@@ -582,7 +582,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2014,1837.31,"10.1021/jm5011397",TRUE,"American Chemical Society (ACS)","Journal of Medicinal Chemistry","0022-2623","0022-2623","1520-4804","0022-2623","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25238611","PMC4211304","ut:000343740700035",NA,FALSE
 "Imperial College London",2014,2755.97,"10.1111/cea.12395",TRUE,"Wiley-Blackwell","Clinical & Experimental Allergy","09547894",NA,NA,"0954-7894","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25146585","PMC4238847","ut:000344371300010",NA,FALSE
 "Imperial College London",2014,2114.83,"10.1093/nar/gku1015",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","CC BY",TRUE,"25352558","PMC4227749","ut:000347693200022",NA,TRUE
-"Imperial College London",2014,1265.92,"10.1039/c4cc06307d",TRUE,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25236677",NA,"ut:000351393600040",NA,FALSE
+"Imperial College London",2014,1265.92,"10.1039/c4cc06307d",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25236677",NA,"ut:000351393600040",NA,FALSE
 "Imperial College London",2014,1234.27,"10.1088/1751-8113/47/39/395101",TRUE,"IOP Publishing","Journal of Physics A: Mathematical and Theoretical","1751-8113","1751-8113","1751-8121","1751-8113","CC BY",TRUE,NA,NA,"ut:000342385400002",NA,FALSE
 "Imperial College London",2014,1209.18,"10.1371/journal.pone.0111109",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25343258","PMC4208797","ut:000343943500080",NA,TRUE
 "Imperial College London",2014,2323.34,"10.1177/0141076814542669",TRUE,"SAGE Publications","Journal of the Royal Society of Medicine","0141-0768","0141-0768","1758-1095","0141-0768","CC BY-NC",TRUE,"25377736","PMC4224646","ut:000344939900004",NA,FALSE
@@ -1448,9 +1448,9 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1563.79,"10.1098/rsta.2013.0144",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences","1364-503X","1364-503X","1471-2962","1364-503X",NA,TRUE,"24470422","PMC3900039","ut:000332379600015",NA,FALSE
 "UCL",2014,2468.55,"10.1136/bmjqs-2013-002557",TRUE,"BMJ","BMJ Quality & Safety","2044-5415","2044-5415","2044-5423","2044-5415",NA,TRUE,"24459201","PMC3963544","ut:000333002700004",NA,FALSE
-"UCL",2014,1548.89,"10.1039/C3CC47534D",TRUE,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345",NA,TRUE,"24257446",NA,"ut:000335011200030",NA,FALSE
+"UCL",2014,1548.89,"10.1039/C3CC47534D",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345",NA,TRUE,"24257446",NA,"ut:000335011200030",NA,FALSE
 "UCL",2014,2468.55,"10.1136/jfprhc-2013-100705",NA,"BMJ","Journal of Family Planning and Reproductive Health Care","1471-1893","1471-1893","2045-2098","1471-1893",NA,TRUE,"24521934","PMC4514978","ut:000346905100013",NA,FALSE
-"UCL",2014,1548.89,"10.1039/C3CC47967F",TRUE,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345",NA,TRUE,"24292272",NA,"ut:000328651500034",NA,FALSE
+"UCL",2014,1548.89,"10.1039/C3CC47967F",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345",NA,TRUE,"24292272",NA,"ut:000328651500034",NA,FALSE
 "UCL",2014,822.53,"10.1016/j.ijpharm.2013.12.037",TRUE,"Elsevier BV","International Journal of Pharmaceutics","03785173","03785173",NA,"0378-5173","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24374221",NA,"ut:000330171200015",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1295.71,"10.1242/bio.20147245",NA,"The Company of Biologists","Biology Open","2046-6390",NA,"2046-6390","2046-6390",NA,TRUE,"24463365","PMC3925319","ut:000348065600006",NA,TRUE
@@ -5191,7 +5191,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bristol",2014,2226.53,"10.1186/1479-5868-11-54",FALSE,"Springer Science + Business Media","International Journal of Behavioral Nutrition and Physical Activity","1479-5868","1479-5868",NA,"1479-5868","CC BY",TRUE,"24758143","PMC4004449","ut:000335183300001",NA,TRUE
 "University of Bristol",2014,1973.35,"10.1186/1471-2458-14-655",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://www.springer.com/tdm",TRUE,"24970045","PMC4091740","ut:000338952300001",NA,TRUE
 "University of Bristol",2014,2536.66,"10.1016/j.neubiorev.2014.09.016",TRUE,"Elsevier BV","Neuroscience & Biobehavioral Reviews","01497634","01497634",NA,"0149-7634","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25280908","PMC4382520","ut:000351974000003",NA,FALSE
-"University of Bristol",2014,2159.51,"10.1039/c4cc06495j",TRUE,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25321894",NA,"ut:000344460300007",NA,FALSE
+"University of Bristol",2014,2159.51,"10.1039/c4cc06495j",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25321894",NA,"ut:000344460300007",NA,FALSE
 "University of Bristol",2014,1435.34,"10.1016/j.jinteco.2014.11.005",TRUE,"Elsevier BV","Journal of International Economics","00221996","00221996",NA,"0022-1996","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000352044600009",NA,FALSE
 "University of Bristol",2014,1993.12,"10.1016/j.jad.2014.11.003",TRUE,"Elsevier BV","Journal of Affective Disorders","01650327","01650327",NA,"0165-0327","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25462412","PMC4286629","ut:000346643500025",NA,FALSE
 "University of Bristol",2014,1563.79,"10.1098/rspb.2014.1013",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452","CC BY",TRUE,"25429012","PMC4262156","ut:000347160800002",NA,FALSE
@@ -5548,7 +5548,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,2751.05,"10.1002/aenm.201401299",NA,"Wiley-Blackwell","Advanced Energy Materials","16146832",NA,NA,"1614-6832","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26190957","PMC4503997","ut:000348772600017",NA,FALSE
 "University of Cambridge",2014,1917.29,"10.1016/j.appet.2014.08.038",NA,"Elsevier BV","Appetite","01956663","01956663",NA,"0195-6663","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25195083","PMC4217146","ut:000344824200034",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2014,1265.92,"10.1039/C4CC05107F",NA,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25178041",NA,"ut:000342343300011",NA,FALSE
+"University of Cambridge",2014,1265.92,"10.1039/C4CC05107F",NA,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25178041",NA,"ut:000342343300011",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,2585.09,"10.1016/j.fbp.2014.09.001",NA,"Elsevier BV","Food and Bioproducts Processing","09603085","09603085",NA,"0960-3085","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000349431800030",NA,FALSE
@@ -5713,13 +5713,13 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,2124.9,"10.1371/journal.pntd.0003398",NA,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"25569707","PMC4288732","ut:000349318100018",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2014,1265.92,"10.1039/C4CC06051B",NA,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25275804",NA,"ut:000344226000016",NA,FALSE
+"University of Cambridge",2014,1265.92,"10.1039/C4CC06051B",NA,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25275804",NA,"ut:000344226000016",NA,FALSE
 "University of Cambridge",2014,2573.87,"10.1016/j.ymeth.2014.11.005",NA,"Elsevier BV","Methods","10462023","10462023",NA,"1046-2023","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25461811","PMC4358838","ut:000351188800004",NA,FALSE
 "University of Cambridge",2014,2025.48,"10.1039/C4FD00059E",NA,"Royal Society of Chemistry (RSC)","Faraday Discuss.","1359-6640","1359-6640","1364-5498","1359-6640","CC BY",TRUE,"25434986",NA,"ut:000350894400013",NA,FALSE
 "University of Cambridge",2014,2263.77,"10.1186/s12966-014-0142-8",NA,"Springer Science + Business Media","International Journal of Behavioral Nutrition and Physical Activity","1479-5868",NA,"1479-5868","1479-5868","CC BY",TRUE,"25406733","PMC4253618","ut:000346208400001",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2014,1265.92,"10.1039/C4CC06159D",NA,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25407336",NA,"ut:000345452400040",NA,FALSE
+"University of Cambridge",2014,1265.92,"10.1039/C4CC06159D",NA,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25407336",NA,"ut:000345452400040",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -5728,14 +5728,14 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,3106.6,"10.1016/j.rse.2014.10.023",NA,"Elsevier BV","Remote Sensing of Environment","00344257","00344257",NA,"0034-4257","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000348879100005",NA,FALSE
-"University of Cambridge",2014,1265.92,"10.1039/C4CC07974D",NA,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25415185",NA,"ut:000351393600009",NA,FALSE
+"University of Cambridge",2014,1265.92,"10.1039/C4CC07974D",NA,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25415185",NA,"ut:000351393600009",NA,FALSE
 "University of Cambridge",2014,2606.31,"10.1093/hmg/ddu581",NA,"Oxford University Press (OUP)","Human Molecular Genetics","0964-6906","0964-6906","1460-2083","0964-6906","CC BY",TRUE,"25424174","PMC4381751","ut:000350144200022",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,3469.59,"10.1002/anie.201409344",NA,"Wiley-Blackwell","Angewandte Chemie International Edition","14337851",NA,NA,"1433-7851","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25477186","PMC4506567","ut:000348372900016",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,3469.59,"10.1002/anie.201408113",NA,"Wiley-Blackwell","Angewandte Chemie International Edition","14337851",NA,NA,"1433-7851","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25421962","PMC4506565","ut:000348372200031",NA,FALSE
-"University of Cambridge",2014,1265.92,"10.1039/C4CC06628F",NA,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25412439",NA,"ut:000346068200021",NA,FALSE
+"University of Cambridge",2014,1265.92,"10.1039/C4CC06628F",NA,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25412439",NA,"ut:000346068200021",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2014,1035.52,"10.1016/j.shpsc.2014.07.001",NA,"Elsevier BV","Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences","13698486","13698486",NA,"1369-8486","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25167833","PMC4726727",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6566,7 +6566,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1325.49,"10.1038/srep07250",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","CC BY-SA",TRUE,"25431166","PMC4246202","ut:000346255000008",NA,TRUE
 "University of Sheffield",2014,2792.48,"10.1002/2014JA020238",TRUE,"Wiley-Blackwell","Journal of Geophysical Research: Space Physics","21699380",NA,NA,"2169-9380","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26167432","PMC4497480","ut:000345445400008",NA,FALSE
 "University of Sheffield",2014,1548.89,"10.1039/C4RA04489D",TRUE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","CC BY",TRUE,NA,NA,"ut:000341287700034",NA,FALSE
-"University of Sheffield",2014,1548.89,"10.1039/C4CC05421K",TRUE,"Royal Society of Chemistry (RSC)","Chem. Commun.","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25096332",NA,"ut:000340900400014",NA,FALSE
+"University of Sheffield",2014,1548.89,"10.1039/C4CC05421K",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"25096332",NA,"ut:000340900400014",NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1111/padm.12121",TRUE,"Wiley-Blackwell","Public Administration","00333298",NA,NA,"0033-3298","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000350753300001",NA,FALSE
 "University of Sheffield",2014,1548.89,"10.1039/C4CE01322K",TRUE,"Royal Society of Chemistry (RSC)","CrystEngComm","1466-8033",NA,"1466-8033","1466-8033","CC BY",TRUE,NA,NA,"ut:000343035400020",NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1111/nph.13024",TRUE,"Wiley-Blackwell","New Phytologist","0028646X",NA,NA,"0028-646X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25230098","PMC4303992","ut:000346584600030",NA,FALSE
