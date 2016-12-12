@@ -605,7 +605,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2014,1837.31,"10.1128/JVI.01636-14",TRUE,"American Society for Microbiology","Journal of Virology","0022-538X","0022-538X","1098-5514","0022-538X","CC BY",TRUE,"25210166","PMC4249111","ut:000344812500029",NA,FALSE
 "Imperial College London",2014,4574.07,"10.1038/ncomms6512",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","CC BY",TRUE,"25405458","PMC4243246","ut:000345913000017",NA,TRUE
 "Imperial College London",2014,1837.31,"10.1128/JB.01850-14",TRUE,"American Society for Microbiology","Journal of Bacteriology","0021-9193","0021-9193","1098-5530","0021-9193","CC BY",TRUE,"25225264","PMC4248864","ut:000344645500010",NA,FALSE
-"Imperial College London",2014,2025.48,"10.1039/c4tc01500b",TRUE,"Royal Society of Chemistry (RSC)","J. Mater. Chem. C","2050-7526","2050-7526","2050-7534","2050-7526","CC BY",TRUE,NA,NA,"ut:000343001600020",NA,FALSE
+"Imperial College London",2014,2025.48,"10.1039/c4tc01500b",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry C","2050-7526","2050-7526","2050-7534","2050-7526","CC BY",TRUE,NA,NA,"ut:000343001600020",NA,FALSE
 "Imperial College London",2014,1527.27,"10.1109/TSE.2013.2297120",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Software Engineering","0098-5589","0098-5589","1939-3520","0098-5589","CC BY",TRUE,NA,NA,"ut:000340191000005",NA,FALSE
 "Imperial College London",2014,268.71,"10.1155/2014/216969",FALSE,"Hindawi Publishing Corporation","Case Reports in Obstetrics and Gynecology","2090-6684","2090-6684","2090-6692","2090-6692","http://creativecommons.org/licenses/by/3.0/",TRUE,"25400958","PMC4220570",NA,NA,TRUE
 "Imperial College London",2014,1423.91,"10.1167/iovs.14-14429",TRUE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","Unknown",TRUE,"25028360","PMC4126794","ut:000343145500029",NA,FALSE
@@ -676,7 +676,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2014,1508.92,"10.1109/TIFS.2014.2365365",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Information Forensics and Security","1556-6013","1556-6013","1556-6021","1556-6013","CC BY",TRUE,NA,NA,"ut:000346751600004",NA,FALSE
 "Imperial College London",2014,2144.62,"10.1098/rsif.2014.0880",TRUE,"The Royal Society","Journal of The Royal Society Interface","1742-5689","1742-5689","1742-5662","1742-5662","CC BY",TRUE,"25551147","PMC4277078",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Imperial College London",2014,2025.48,"10.1039/C4TC02008A",TRUE,"Royal Society of Chemistry (RSC)","J. Mater. Chem. C","2050-7526","2050-7526","2050-7534","2050-7526","CC BY",TRUE,NA,NA,"ut:000346568200008",NA,FALSE
+"Imperial College London",2014,2025.48,"10.1039/C4TC02008A",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry C","2050-7526","2050-7526","2050-7534","2050-7526","CC BY",TRUE,NA,NA,"ut:000346568200008",NA,FALSE
 "Imperial College London",2014,907.62,"10.1371/journal.pntd.0003287",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"25474579","PMC4256278","ut:000346701000004",NA,TRUE
 "Imperial College London",2014,2025.48,"10.1039/C4DT02910K",TRUE,"Royal Society of Chemistry (RSC)","Dalton Transactions","1477-9226","1477-9226","1477-9234","1477-9226","CC BY",TRUE,"25361228",NA,"ut:000349668200021",NA,FALSE
 "Imperial College London",2014,2129.95,"10.1016/j.envsoft.2014.10.007",TRUE,"Elsevier BV","Environmental Modelling & Software","13648152","13648152",NA,"1364-8152","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000347362900015",NA,FALSE
@@ -5667,7 +5667,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2014,2025.48,"10.1039/C4TC01660B",TRUE,"Royal Society of Chemistry (RSC)","J. Mater. Chem. C","2050-7526","2050-7526","2050-7534","2050-7526",NA,TRUE,NA,NA,"ut:000343001600014",NA,FALSE
+"University of Cambridge",2014,2025.48,"10.1039/C4TC01660B",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry C","2050-7526","2050-7526","2050-7534","2050-7526",NA,TRUE,NA,NA,"ut:000343001600014",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6920,7 +6920,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Warwick",2014,913.13,"10.1186/1745-6215-15-435",FALSE,"Springer Science + Business Media","Trials","1745-6215",NA,"1745-6215","1745-6215","http://www.springer.com/tdm",TRUE,"25380994","PMC4289183","ut:000346096800001",NA,TRUE
 "University of Warwick",2014,1890.23,"10.1021/ja5069992",TRUE,"American Chemical Society (ACS)","Journal of the American Chemical Society","0002-7863","0002-7863","1520-5126","0002-7863","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"25381931",NA,"ut:000345883900025",NA,FALSE
 "University of Warwick",2014,3723.3,"10.1242/jcs.163659",TRUE,"The Company of Biologists","Journal of Cell Science","0021-9533","0021-9533","1477-9137","0021-9533","Unknown",TRUE,"25395579","PMC4282051","ut:000347167200019",NA,FALSE
-"University of Warwick",2014,2025.48,"10.1039/C4TC02116A",TRUE,"Royal Society of Chemistry (RSC)","J. Mater. Chem. C","2050-7526","2050-7526","2050-7534","2050-7526","CC BY",TRUE,NA,NA,"ut:000346568200032",NA,FALSE
+"University of Warwick",2014,2025.48,"10.1039/C4TC02116A",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry C","2050-7526","2050-7526","2050-7534","2050-7526","CC BY",TRUE,NA,NA,"ut:000346568200032",NA,FALSE
 "University of Warwick",2014,2478.07,"10.1002/cmdc.201402285",TRUE,"Wiley-Blackwell","ChemMedChem","18607179",NA,NA,"1860-7179","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25209896","PMC4506560","ut:000345516300018",NA,FALSE
 "University of Warwick",2014,1191.46,"10.1177/0170840614557213",TRUE,"SAGE Publications","Organization Studies","0170-8406","0170-8406","1741-3044","0170-8406","CC BY",TRUE,NA,NA,"ut:000351230600003",NA,FALSE
 "University of Warwick",2014,2387.72,"10.1002/pi.4842",TRUE,"Wiley-Blackwell","Polymer International","09598103",NA,NA,"0959-8103","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000347461900002",NA,FALSE
