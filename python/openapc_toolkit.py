@@ -544,7 +544,7 @@ def process_row(row, row_num, column_map, num_required_columns,
     current_row = OrderedDict()
     # Copy content of identified columns
     for csv_column in column_map.values():
-        if csv_column.column_type == "euro":
+        if csv_column.column_type == "euro" and csv_column.index is not None:
             # special case for monetary values: Cast to float to ensure
             # the decimal point is a dot (instead of a comma)
             euro_value = row[csv_column.index]
