@@ -9,7 +9,8 @@ PUBLISHER_IDENTITY = [
     (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Wiley-Blackwell"], ["EMBO"]),
-    (["Pion Ltd"], ["SAGE Publications"])
+    (["Pion Ltd"], ["SAGE Publications"]),
+    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"])
 ]
 
 
@@ -160,6 +161,19 @@ def check_for_doi_duplicates(row_object):
                                               row_object.line_number)
             pytest.fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
                         'encountered more than one time')
+                        
+def check_hybrid_status(row_object):
+    __tracebackhide__ = True
+    doaj = row_object.row["doaj"]
+    is_hybrid = row_object.row["is_hybrid"]
+    issn = row_object.row["issn"]
+    title = row_object.row["journal_full_title"]
+    if doaj == "TRUE" and is_hybrid == "TRUE" and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
+        line_str = '{}, line {}: '.format(row_object.file_name,
+                                          row_object.line_number)
+        msg = 'Journal "{}" ({}) is listed in the DOAJ but is marked as hybrid (DOAJ only lists fully OA journals)'
+        msg = msg.format(title, issn)
+        pytest.fail(line_str + msg)
 
 def check_name_consistency(row_object):
     __tracebackhide__ = True
@@ -228,6 +242,7 @@ class TestAPCRows(object):
         check_field_content(row_object)
         check_optional_fields(row_object)
         check_issns(row_object)
+        check_hybrid_status(row_object)
 
     def test_doi_duplicates(self, row_object):
         check_for_doi_duplicates(row_object)
