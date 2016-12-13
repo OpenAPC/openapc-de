@@ -1542,7 +1542,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2014,2198.7,"10.1093/pubmed/fdt116",TRUE,"Oxford University Press (OUP)","Journal of Public Health","1741-3842","1741-3842","1741-3850",NA,TRUE,"24323951","PMC4245896",NA,NA,FALSE
 "Wellcome Trust",2014,2198.7,"10.1093/pubmed/fdt131",TRUE,"Oxford University Press (OUP)","Journal of Public Health","1741-3842","1741-3842","1741-3850",NA,TRUE,"24472776","PMC4245898",NA,NA,FALSE
 "Wellcome Trust",2014,3114.83,"10.1093/geronb/gbu014",TRUE,"Oxford University Press (OUP)","The Journals of Gerontology Series B: Psychological Sciences and Social Sciences","1079-5014","1079-5014","1758-5368",NA,TRUE,"24598045","PMC3983917",NA,NA,FALSE
-"Wellcome Trust",2014,2565.15,"10.1093/ckj/sfu032",TRUE,"Oxford University Press (OUP)","Clinical Kidney Journal","2048-8505","2048-8505","2048-8513",NA,TRUE,"24944786","PMC4038258",NA,NA,TRUE
+"Wellcome Trust",2014,2565.15,"10.1093/ckj/sfu032",FALSE,"Oxford University Press (OUP)","Clinical Kidney Journal","2048-8505","2048-8505","2048-8513",NA,TRUE,"24944786","PMC4038258",NA,NA,TRUE
 "Wellcome Trust",2014,2565.15,"10.1093/ndt/gfu019",TRUE,"Oxford University Press (OUP)","Nephrology Dialysis Transplantation","0931-0509","0931-0509","1460-2385",NA,TRUE,"24574541","PMC4071051",NA,NA,FALSE
 "Wellcome Trust",2014,2081.44,"10.1093/nar/gkt624",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"23887939","PMC3794586",NA,NA,TRUE
 "Wellcome Trust",2014,2081.44,"10.1093/nar/gkt1218",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962",NA,TRUE,"24319144","PMC3936726",NA,NA,TRUE
