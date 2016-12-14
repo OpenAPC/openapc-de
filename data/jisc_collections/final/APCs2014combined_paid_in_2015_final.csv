@@ -1,6 +1,6 @@
-"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"institution",period,euro,"doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Newcastle University",2015,3735.61,"10.1212/WNL.0000000000000066",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Neurology","0028-3878","0028-3878","1526-632X","0028-3878","CC BY",TRUE,"24363137","PMC3929202","ut:000335989500010",NA,FALSE
-"Newcastle University",2015,3796.39,"10.1017/S095927091400046X",NA,"Cambridge University Press (CUP)","Bird Conservation International","0959-2709","0959-2709","1474-0001","0959-2709","CC BY",TRUE,NA,NA,"ut:000365019300007",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2015,1079.03,"10.1073/pnas.1412817112",FALSE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","http://www.pnas.org/site/misc/userlicense.xhtml",TRUE,"25535356","PMC4291635","ut:000347447100065",NA,FALSE
 "Newcastle University",2015,1456.74,"10.1371/journal.pone.0114462",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25474153","PMC4256439","ut:000346382500032",NA,TRUE
 "Newcastle University",2015,2427.21,"10.1371/journal.pgen.1004871",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"25521757","PMC4270488","ut:000346649900064",NA,TRUE
@@ -12,7 +12,7 @@
 "Queen Mary, University of London",2015,1183.75,"10.1371/journal.pone.0114626",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25517119","PMC4269406","ut:000347215600024",NA,TRUE
 "Queen Mary, University of London",2015,1232.85,"10.1371/journal.pone.0114870",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25522217","PMC4270791","ut:000348845600010",NA,TRUE
 "University of Bristol",2015,2128.96,"10.1016/j.neuroimage.2014.11.057",TRUE,"Elsevier BV","NeuroImage","10538119","10538119",NA,"1053-8119","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25482267","PMC4306532","ut:000348043100004",NA,FALSE
-"University of Cambridge",2015,413.55,"10.5334/pia.478",NA,"Ubiquity Press, Ltd.","Papers from the Institute of Archaeology","2041-9015",NA,"2041-9015","0965-9315","CC BY",TRUE,NA,NA,"ut:000371920200003",NA,TRUE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,3515.18,"10.1371/journal.pone.0108891",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25302496","PMC4193746","ut:000343730400034",NA,TRUE
 "University of Cambridge",2015,4022.5,"10.1097/EDE.0000000000000161",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Epidemiology","1044-3983","1044-3983",NA,"1044-3983","CC BY",TRUE,"25166881","PMC4222800","ut:000343122000014",NA,FALSE
 "University of Cambridge",2015,2812.14,"10.4155/fmc.14.137",TRUE,"Future Science, LTD","Future Medicinal Chemistry","1756-8919","1756-8919","1756-8927","1756-8919",NA,TRUE,"25531967",NA,"ut:000346694700005",NA,FALSE
@@ -21,13 +21,13 @@
 "University of Cambridge",2015,2249.71,"10.1039/C4CE01622J",TRUE,"Royal Society of Chemistry (RSC)","CrystEngComm","1466-8033",NA,"1466-8033","1466-8033","CC BY",TRUE,NA,NA,"ut:000345065400013",NA,FALSE
 "University of Cambridge",2015,130.42,"10.11646/zootaxa.3905.1.10",TRUE,"Magnolia Press","Zootaxa","1175-5334","1175-5326","1175-5334","1175-5326","CC BY",TRUE,"25661028",NA,NA,NA,FALSE
 "University of Cambridge",2015,3175.65,"10.1111/cei.12434",TRUE,"Wiley-Blackwell","Clinical & Experimental Immunology","00099104",NA,NA,"0009-9104","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25113810","PMC4337671","ut:000350038400002",NA,FALSE
-"University of Cambridge",2015,3175.65,"10.1111/lsi.12093",NA,"Wiley-Blackwell","Law & Social Inquiry","08976546",NA,NA,"0897-6546","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000355134400001",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,5292.76,"10.3945/ajcn.114.087551",TRUE,"American Society for Nutrition","American Journal of Clinical Nutrition","0002-9165","0002-9165","1938-3207","0002-9165","CC BY",TRUE,"25527760","PMC4266886","ut:000346895700019",NA,FALSE
 "University of Cambridge",2015,2100.83,"10.1186/s12939-014-0107-1",FALSE,"Springer Nature","International Journal for Equity in Health","1475-9276",NA,"1475-9276","1475-9276","CC BY",TRUE,"25376485","PMC4228103","ut:000346959700001",NA,TRUE
 "University of Cambridge",2015,2851.84,"10.1007/s12522-014-0199-8",TRUE,"Springer Nature","Reproductive Medicine and Biology","1445-5781","1445-5781","1447-0578","1445-5781","CC BY",TRUE,"26161037","PMC4490168",NA,NA,FALSE
-"University of Cambridge",2015,3272.41,"10.1002/pssb.201451591",NA,"Wiley-Blackwell","physica status solidi (b)","03701972",NA,NA,"0370-1972","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26212392","PMC4511389","ut:000354267300041",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,1945.75,"10.1186/s12875-014-0185-6",FALSE,"Springer Nature","BMC Family Practice","1471-2296",NA,"1471-2296","1471-2296","http://www.springer.com/tdm",TRUE,"25421440","PMC4245775","ut:000345936900003",NA,TRUE
-"University of Cambridge",2015,2886.58,"10.1186/s13059-014-0526-8",NA,"Springer Nature","Genome Biology","1474-760X",NA,"1474-760X","1474-7596","http://www.springer.com/tdm",TRUE,"25608477","PMC4268857","ut:000346609500008",NA,TRUE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,2646.39,"10.1096/fj.14-263004",TRUE,"FASEB","The FASEB Journal","0892-6638","0892-6638","1530-6860","0892-6638",NA,TRUE,"25422368","PMC4422362","ut:000350633000033",NA,FALSE
 "University of Cambridge",2015,4146.68,"10.1097/ICU.0000000000000125",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Current Opinion in Ophthalmology","1040-8738","1040-8738",NA,"1040-8738","CC BY",TRUE,"25490529","PMC4323570","ut:000349352300001",NA,FALSE
 "University of Cambridge",2015,3273.69,"10.1016/j.jpsychores.2014.11.002",TRUE,"Elsevier BV","Journal of Psychosomatic Research","00223999","00223999",NA,"0022-3999","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25466985","PMC4292984","ut:000348247400004",NA,FALSE
@@ -45,7 +45,7 @@
 "University of Cambridge",2015,5172.34,"10.1016/j.str.2014.11.020",TRUE,"Elsevier BV","Structure","09692126","09692126",NA,"0969-2126","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25619999","PMC4321884","ut:000349402500018",NA,FALSE
 "University of Cambridge",2015,2275.82,"10.1016/j.appet.2014.11.002",TRUE,"Elsevier BV","Appetite","01956663","01956663",NA,"0195-6663","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25450898","PMC4286113","ut:000347867000004",NA,FALSE
 "University of Cambridge",2015,3249.48,"10.1002/adma.201405044",TRUE,"Wiley-Blackwell","Advanced Materials","09359648",NA,NA,"0935-9648","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25573086","PMC4515082","ut:000350058200017",NA,FALSE
-"University of Cambridge",2015,3122.73,"10.1080/00102202.2014.902814",NA,"Informa UK Limited","Combustion Science and Technology","0010-2202","0010-2202","1563-521X","0010-2202",NA,TRUE,NA,NA,"ut:000337917400005",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,2068.94,"10.1016/j.proci.2014.07.025",TRUE,"Elsevier BV","Proceedings of the Combustion Institute","15407489","15407489",NA,"1540-7489","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000348049500121",NA,FALSE
 "University of Cambridge",2015,2530.93,"10.1088/2050-6120/3/1/014002",TRUE,"IOP Publishing","Methods and Applications in Fluorescence","2050-6120",NA,"2050-6120","2050-6120","CC BY",TRUE,NA,NA,"ut:000353445500002",NA,FALSE
 "University of Cambridge",2015,2851.84,"10.1007/s00125-014-3434-2",TRUE,"Springer Nature","Diabetologia","0012-186X","0012-186X","1432-0428","0012-186X",NA,TRUE,"25403480","PMC4287682","ut:000347697000018",NA,FALSE
