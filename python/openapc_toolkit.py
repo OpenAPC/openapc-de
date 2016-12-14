@@ -805,7 +805,8 @@ def get_unified_journal_title(journal_full_title):
         "Cognition and Emotion": "Cognition & Emotion",
         "Catal. Sci. Technol.": "Catalysis Science & Technology",
         "Journal of Epidemiology & Community Health": "Journal of Epidemiology and Community Health",
-        "JRSM": "Journal of the Royal Society of Medicine"
+        "JRSM": "Journal of the Royal Society of Medicine",
+        "Green Chem.": "Green Chemistry"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
