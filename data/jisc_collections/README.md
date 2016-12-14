@@ -54,4 +54,4 @@ A shortcoming of many processed files is the lack of data in the 'Type of public
 | period                   | exchange rate (1 GBP = )  | 
 |:-------------------------|--------------------------:|
 | 2014                     | 1.2411 EUR                | 
-
+| 2015                     | 1.3785 EUR                |
