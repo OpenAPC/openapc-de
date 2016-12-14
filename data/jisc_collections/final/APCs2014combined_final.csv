@@ -1021,7 +1021,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,2201.12,"10.1016/j.gca.2014.02.035",TRUE,"Elsevier BV","Geochimica et Cosmochimica Acta","00167037","00167037",NA,"0016-7037","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000334833600024",NA,FALSE
 "Newcastle University",2014,1787.48,"10.1152/jn.00935.2012",TRUE,"American Physiological Society","Journal of Neurophysiology","0022-3077","0022-3077","1522-1598","0022-3077","CC BY",TRUE,"24572094","PMC4044345","ut:000339170300007",NA,FALSE
-"Newcastle University",2014,2673.63,"10.1002/jcp.22872",FALSE,"Wiley-Blackwell","Journal of Cellular Physiology","00219541",NA,NA,"0021-9541","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"21678407","PMC4150531","ut:000298986100027",NA,FALSE
+"Newcastle University",2014,2673.63,"10.1002/jcp.22872",TRUE,"Wiley-Blackwell","Journal of Cellular Physiology","00219541",NA,NA,"0021-9541","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"21678407","PMC4150531","ut:000298986100027",NA,FALSE
 "Newcastle University",2014,1996.86,"10.1016/j.anbehav.2014.02.025",TRUE,"Elsevier BV","Animal Behaviour","00033472","00033472",NA,"0003-3472","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24910465","PMC4045381","ut:000336458600007",NA,FALSE
 "Newcastle University",2014,2659.4,"10.1007/s13593-014-0219-4",TRUE,"Springer Science + Business Media","Agronomy for Sustainable Development","1774-0746","1774-0746","1773-0155","1773-0155","CC BY",TRUE,NA,NA,"ut:000348065500013",NA,FALSE
 "Newcastle University",2014,2222.44,"10.1016/j.jsames.2014.02.005",TRUE,"Elsevier BV","Journal of South American Earth Sciences","08959811","08959811",NA,"0895-9811","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000336464700007",NA,FALSE
@@ -1098,7 +1098,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,2233.98,"10.1371/journal.pone.0115433",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25532126","PMC4274008","ut:000348845100065",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Newcastle University",2014,4170.1,"10.1038/gim.2014.66",FALSE,"Nature Publishing Group","Genetics in Medicine","1098-3600","1098-3600","1530-0366","1098-3600","CC BY",TRUE,"24901348","PMC4272251","ut:000346040900015",NA,FALSE
+"Newcastle University",2014,4170.1,"10.1038/gim.2014.66",TRUE,"Nature Publishing Group","Genetics in Medicine","1098-3600","1098-3600","1530-0366","1098-3600","CC BY",TRUE,"24901348","PMC4272251","ut:000346040900015",NA,FALSE
 "Newcastle University",2014,1974.69,"10.1074/jbc.M113.491829",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X","0021-9258","CC BY",TRUE,"24394413","PMC3961634","ut:000333157500001",NA,FALSE
 "Newcastle University",2014,2620.09,"10.1007/s00429-014-0793-x",TRUE,"Springer Science + Business Media","Brain Structure and Function","1863-2653","1863-2653","1863-2661","1863-2653","CC BY",TRUE,"24863422","PMC4481302","ut:000356874700033",NA,FALSE
 "Newcastle University",2014,1992.25,"10.1371/journal.pgen.1004445",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"25033443","PMC4102448","ut:000339902600008",NA,TRUE
