@@ -33,7 +33,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1756-1833", # BMJ (fully OA status disputed, "added value" content not OA)
     "1461-1457", # International Journal of Neuropsychopharmacology
     "1552-5783", # Investigative Opthalmology & Visual Science, OA since 01/2016
-    "0001-4966" # The Journal of the Acoustical Society of America, archives hybrid and non-hybrid sub-journals
+    "0001-4966", # The Journal of the Acoustical Society of America, archives hybrid and non-hybrid sub-journals
+    "0887-0446" # Psychology & Health, status unclear -> Possible mistake in Konstanz U data
 ]
 
 class RowObject(object):
