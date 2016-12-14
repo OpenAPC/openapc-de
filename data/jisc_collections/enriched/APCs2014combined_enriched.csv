@@ -895,7 +895,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,2158.62,"10.1080/07315724.2013.867420",TRUE,"Informa UK Limited","Journal of the American College of Nutrition","0731-5724","0731-5724","1541-1087","0731-5724","CC BY",TRUE,"24870294","PMC4151802",NA,NA,FALSE
 "LSHTM",2014,2217.7,"10.1128/AAC.02889-14",TRUE,"American Society for Microbiology","Antimicrobial Agents and Chemotherapy","0066-4804","0066-4804","1098-6596","0066-4804","CC BY",TRUE,"24913169","PMC4136063","ut:000339259200094",NA,FALSE
 "LSHTM",2014,2159.51,"10.1093/molbev/msu106",TRUE,"Oxford University Press (OUP)","Molecular Biology and Evolution","0737-4038","0737-4038","1537-1719","0737-4038","CC BY",TRUE,"24644299","PMC4032133","ut:000337067400016",NA,FALSE
-"LSHTM",2014,2217.7,"10.1128/AAC.02889-14",TRUE,"American Society for Microbiology","Antimicrobial Agents and Chemotherapy","0066-4804","0066-4804","1098-6596","0066-4804","Unknown",TRUE,"24913169","PMC4136063","ut:000339259200094",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,998.86,"10.1371/journal.pone.0101129",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24988195","PMC4079295","ut:000341354100063",NA,TRUE
 "LSHTM",2014,2100.6,"10.7448/IAS.17.1.18839",TRUE,"International AIDS Society","Journal of the International AIDS Society","1758-2652",NA,"1758-2652","1758-2652","CC BY",TRUE,"24815595","PMC4017591","ut:000335924400001",NA,TRUE
 "LSHTM",2014,3041.41,"10.5588/ijtld.13.0811",TRUE,"International Union Against Tuberculosis and Lung Disease","The International Journal of Tuberculosis and Lung Disease","10273719","10273719","18157920","1027-3719","Unknown",TRUE,"24902563","PMC4238259","ut:000337662400019",NA,FALSE
@@ -931,8 +931,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,2727.54,"10.1016/j.pec.2014.01.003",TRUE,"Elsevier BV","Patient Education and Counseling","07383991","07383991",NA,"0738-3991","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24492159","PMC3994506","ut:000335113400010",NA,FALSE
 "LSHTM",2014,3258.63,"10.1093/infdis/jit812",TRUE,"Oxford University Press (OUP)","Journal of Infectious Diseases","0022-1899","0022-1899","1537-6613","0022-1899","CC BY",TRUE,"24338354","PMC4017360","ut:000336485900018",NA,FALSE
 "LSHTM",2014,2270.8,"10.1016/j.tube.2014.02.005",TRUE,"Elsevier BV","Tuberculosis","14729792","14729792",NA,"1472-9792","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24637013","PMC4066953","ut:000335913700022",NA,FALSE
-"LSHTM",2014,1129.3,"10.1111/tmi.12276",TRUE,"Wiley-Blackwell","Tropical Medicine & International Health","13602276",NA,NA,"1360-2276","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24479434","PMC4065367","ut:000333984600015",NA,FALSE
-"LSHTM",2014,2258.6,"10.1111/tmi.12276",TRUE,"Wiley-Blackwell","Tropical Medicine & International Health","13602276",NA,NA,"1360-2276","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24479434","PMC4065367","ut:000333984600015",NA,FALSE
+"LSHTM",2014,3387.9,"10.1111/tmi.12276",TRUE,"Wiley-Blackwell","Tropical Medicine & International Health","13602276",NA,NA,"1360-2276","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24479434","PMC4065367","ut:000333984600015",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,2233.98,"10.1332/174426413X663724",TRUE,"The Policy Press","Evidence & Policy: A Journal of Research, Debate and Practice","17442648","17442648","17442656","1744-2648","CC BY",TRUE,NA,NA,"ut:000334392100006",NA,FALSE
 "LSHTM",2014,998.86,"10.1371/journal.pone.0106455",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25271417","PMC4182667","ut:000343729600004",NA,TRUE
 "LSHTM",2014,3517.65,"10.1016/S2214-109X(14)70033-6",TRUE,"Elsevier BV","The Lancet Global Health","2214109X","2214109X",NA,"2214-109X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,"PMC4013553","ut:000336424900017",NA,FALSE
@@ -972,7 +972,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,2227.71,"10.1080/13648470.2012.692360",TRUE,"Informa UK Limited","Anthropology & Medicine","1364-8470","1364-8470","1469-2910","1364-8470","CC BY",TRUE,"22897630","PMC3962072","ut:000209408200008",NA,FALSE
 "LSHTM",2014,2379.56,"10.1111/mve.12090",TRUE,"Wiley-Blackwell","Medical and Veterinary Entomology","0269283X",NA,NA,"0269-283X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25537754","PMC4359020","ut:000349392300007",NA,FALSE
 "LSHTM",2014,1803.94,"10.1186/1475-2891-13-89",FALSE,"Springer Science + Business Media","Nutrition Journal","1475-2891",NA,"1475-2891","1475-2891","http://www.springer.com/tdm",TRUE,"25192735","PMC4168165","ut:000341604500001",NA,TRUE
-"LSHTM",2014,1849.74,"10.2105/AJPH.2013.301858",TRUE,"American Public Health Association","American Journal of Public Health","0090-0036","0090-0036","1541-0048","0090-0036","CC BY",TRUE,"24922137","PMC4103247","ut:000341811000030",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "LSHTM",2014,3705.08,"10.1016/j.socscimed.2013.12.005",TRUE,"Elsevier BV","Social Science & Medicine","02779536","02779536",NA,"0277-9536","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24565154","PMC3979101","ut:000333785400020",NA,FALSE
 "LSHTM",2014,2904.17,"10.1136/sextrans-2013-051336",TRUE,"BMJ","Sexually Transmitted Infections","1368-4973","1368-4973","1472-3263","1368-4973","CC BY",TRUE,"24714445","PMC4033143","ut:000336897700013",NA,FALSE
 "LSHTM",2014,979.6,"10.1186/1756-0500-7-37",FALSE,"Springer Science + Business Media","BMC Research Notes","1756-0500","1756-0500",NA,"1756-0500","CC BY",TRUE,"24423150","PMC3896753",NA,NA,TRUE
@@ -1013,7 +1013,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2014,2674.25,"10.1021/es405348h",NA,"American Chemical Society (ACS)","Environmental Science & Technology","0013-936X","0013-936X","1520-5851","0013-936X","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"24521347","PMC3945829","ut:000332494200059",NA,FALSE
 "Newcastle University",2014,1335.39,"10.1371/journal.pone.0091005",NA,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"24614678","PMC3948743","ut:000332839300062",NA,TRUE
 "Newcastle University",2014,1563.79,"10.1098/rspb.2013.3255",NA,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452","CC BY",TRUE,"24598424","PMC3953848","ut:000332640400022",NA,FALSE
-"Newcastle University",2014,4319.03,"10.3390/genes5010235",FALSE,"MDPI AG","Genes","2073-4425",NA,"2073-4425","2073-4425","CC BY",TRUE,"24705295","PMC3978521","ut:000348855800013",NA,TRUE
+"Newcastle University",2014,4319.03,"10.1038/eye.2014.37",FALSE,"Nature Publishing Group","Eye","0950-222X","0950-222X","1476-5454","0950-222X","CC BY",TRUE,"24603424","PMC4017118","ut:000335975800003",NA,FALSE
 "Newcastle University",2014,2978.64,"10.1038/ejhg.2014.30",FALSE,"Nature Publishing Group","European Journal of Human Genetics","1018-4813","1018-4813","1476-5438","1018-4813","CC BY",TRUE,"24595329","PMC4051597","ut:000343850200008",NA,FALSE
 "Newcastle University",2014,4691.36,"10.1038/ncomms4442",NA,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","CC BY",TRUE,"24603761","PMC3955808","ut:000334300400025",NA,TRUE
 "Newcastle University",2014,2740.35,"10.1007/s00726-014-1706-2",FALSE,"Springer Science + Business Media","Amino Acids","0939-4451","0939-4451","1438-2199","0939-4451","CC BY",TRUE,"24623119","PMC4021167","ut:000336268800003",NA,FALSE
@@ -6535,7 +6535,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,4691.36,"10.1038/ncomms6245",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","CC BY",TRUE,"25316291","PMC4208097","ut:000343984700001",NA,TRUE
 "University of Sheffield",2014,4467.96,"10.1136/bmj.g5452",TRUE,"BMJ","BMJ","1756-1833",NA,"1756-1833","1756-1833","CC BY-NC",TRUE,"25270743","PMC4180296","ut:000342665100002",NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1111/mmi.12813",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950382X",NA,NA,"0950-382X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25287423",NA,"ut:000345595100005",NA,FALSE
-"University of Sheffield",2014,1624.71,"10.1111/tra.12155",TRUE,"Wiley-Blackwell","Traffic","13989219",NA,NA,"1398-9219","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24460703","PMC4282331","ut:000333704400006",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1554.13,"10.1016/j.regsciurbeco.2014.09.004",TRUE,"Elsevier BV","Regional Science and Urban Economics","01660462","01660462",NA,"0166-0462","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000347764700028",NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1002/we.1824",TRUE,"Wiley-Blackwell","Wind Energy","10954244",NA,NA,"1095-4244","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000370255600008",NA,FALSE
 "University of Sheffield",2014,2531.84,"10.1093/eurheartj/ehu272",TRUE,"Oxford University Press (OUP)","European Heart Journal","0195-668X","0195-668X","1522-9645","0195-668X","CC BY-NC",TRUE,"25079365","PMC4320321","ut:000351588700014",NA,FALSE
@@ -6588,7 +6588,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1886.47,"10.1080/02699931.2014.901213",TRUE,"Informa UK Limited","Cognition & Emotion","0269-9931","0269-9931","1464-0600","0269-9931",NA,TRUE,"24678930","PMC4241596","ut:000344866900009",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1861.65,"10.1111/cobi.12215",TRUE,"Wiley-Blackwell","Conservation Biology","08888892",NA,NA,"0888-8892","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24372643","PMC4232860","ut:000332923500012",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6596,25 +6596,25 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1861.65,"10.1002/esp.3550",TRUE,"Wiley-Blackwell","Earth Surface Processes and Landforms","01979337",NA,NA,"0197-9337","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000343799900002",NA,FALSE
-"University of Sheffield",2014,964.33,"10.1002/ece3.996",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"2045-7758","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24772270","PMC3997309","ut:000333809000004",NA,FALSE
-NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1861.65,"10.1111/1758-2229.12115",TRUE,"Wiley-Blackwell","Environmental Microbiology Reports","17582229",NA,NA,"1758-2229","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24596269","PMC4208606","ut:000329820500013",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1861.65,"10.1111/gwao.12050",TRUE,"Wiley-Blackwell","Gender, Work & Organization","09686673",NA,NA,"0968-6673","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000340675600007",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1861.65,"10.1111/1468-2281.12056",TRUE,"Wiley-Blackwell","Historical Research","09503471",NA,NA,"0950-3471","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000343994500005",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1861.65,"10.1111/ijac.12239",TRUE,"Wiley-Blackwell","International Journal of Applied Ceramic Technology","1546542X",NA,NA,"1546-542X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000354550500013",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1861.65,"10.1111/jeb.12350",TRUE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010061X",NA,NA,"1010-061X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24580655","PMC4237172","ut:000332923200010",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1861.65,"10.1111/johs.12053",TRUE,"Wiley-Blackwell","Journal of Historical Sociology","09521909",NA,NA,"0952-1909","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000341517000008",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6623,11 +6623,11 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,302.83,"10.1177/0272989X13505910",TRUE,"SAGE Publications","Medical Decision Making","0272-989X","0272-989X","1552-681X","0272-989X",NA,TRUE,"24246566","PMC4819801","ut:000333552400007",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1861.65,"10.1111/mec.12673",TRUE,"Wiley-Blackwell","Molecular Ecology","09621083",NA,NA,"0962-1083","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24446663","PMC4016754","ut:000331851900009",NA,FALSE
-"University of Sheffield",2014,1861.65,"10.1111/mmi.12549",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950382X",NA,NA,"0950-382X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24527847","PMC4065374","ut:000344590700006",NA,FALSE
-"University of Sheffield",2014,1861.65,"10.1111/mmi.12513",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950382X",NA,NA,"0950-382X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24405365","PMC4015370","ut:000331833800003",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1861.65,"10.1002/nbm.3101",TRUE,"Wiley-Blackwell","NMR in Biomedicine","09523480",NA,NA,"0952-3480","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24639007","PMC4260680","ut:000333753300012",NA,FALSE
+"University of Sheffield",2014,1861.65,"10.1111/mmi.12549",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950382X",NA,NA,"0950-382X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24527847","PMC4065374","ut:000344590700006",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6640,9 +6640,9 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1150.5,"10.1080/08870446.2013.858343",TRUE,"Informa UK Limited","Psychology & Health","0887-0446","0887-0446","1476-8321","0887-0446",NA,TRUE,"24245778","PMC3967502","ut:000330932300002",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1861.65,"10.1111/1467-954X.12154",TRUE,"Wiley-Blackwell","The Sociological Review","00380261",NA,NA,"0038-0261","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000337536700002",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,1861.65,"10.1111/tra.12155",TRUE,"Wiley-Blackwell","Traffic","13989219",NA,NA,"1398-9219","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24460703","PMC4282331","ut:000333704400006",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1522.82,"10.1021/nn406368e",TRUE,"American Chemical Society (ACS)","ACS Nano","1936-0851","1936-0851","1936-086X","1936-0851","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"24758721",NA,"ut:000336640600039",NA,FALSE
@@ -6665,7 +6665,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1548.89,"10.1039/C3CY01015E",TRUE,"Royal Society of Chemistry (RSC)","Catalysis Science & Technology","2044-4753","2044-4753","2044-4761","2044-4753","CC BY",TRUE,NA,NA,"ut:000336158700017",NA,FALSE
 "University of Sheffield",2014,1548.89,"10.1039/C4CC02627F",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","CC BY",TRUE,"24799315",NA,"ut:000336794000008",NA,FALSE
 "University of Sheffield",2014,2792.48,"10.1002/chem.201403618",TRUE,"Wiley-Blackwell","Chemistry - A European Journal","09476539",NA,NA,"0947-6539","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24930403","PMC4145666","ut:000339386700015",NA,FALSE
-"University of Sheffield",2014,2263.47,"10.1080/02699931.2014.901213",TRUE,"Informa UK Limited","Cognition & Emotion","0269-9931","0269-9931","1464-0600","0269-9931","CC BY",TRUE,"24678930","PMC4241596","ut:000344866900009",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1161.15,"10.4161/cib.28522",NA,"Informa UK Limited","Communicative & Integrative Biology","1942-0889",NA,"1942-0889","1942-0889","CC BY",TRUE,"25346786","PMC4203630",NA,NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6678,11 +6678,11 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,2233.98,"10.1111/dar.12191",TRUE,"Wiley-Blackwell","Drug and Alcohol Review","09595236",NA,NA,"0959-5236","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25186193","PMC4313683","ut:000341813800008",NA,FALSE
 "University of Sheffield",2014,323.08,"10.5194/angeo-32-223-2014",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","0992-7689","CC BY",TRUE,NA,NA,"ut:000334098900003",NA,TRUE
-"University of Sheffield",2014,1157.2,"10.1002/ece3.996",NA,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"2045-7758","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24772270","PMC3997309","ut:000333809000004",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1157.2,"10.1002/ece3.1017",NA,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"2045-7758","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24834337","PMC4020700","ut:000334601100015",NA,FALSE
 "University of Sheffield",2014,1157.2,"10.1002/ece3.1112",NA,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"2045-7758","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25360289","PMC4203301","ut:000337738800021",NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1111/ele.12320",TRUE,"Wiley-Blackwell","Ecology Letters","1461023X",NA,NA,"1461-023X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25039999","PMC4282064","ut:000340406200010",NA,FALSE
-"University of Sheffield",2014,2233.98,"10.1111/1758-2229.12115",NA,"Wiley-Blackwell","Environmental Microbiology Reports","17582229",NA,NA,"1758-2229","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24596269","PMC4208606","ut:000329820500013",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,2233.98,"10.1111/evo.12473",TRUE,"Wiley-Blackwell","Evolution","00143820",NA,NA,"0014-3820","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24931497","PMC4262321","ut:000341824100006",NA,FALSE
 "University of Sheffield",2014,1576,"10.3389/fnhum.2014.00376",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","16625161",NA,"16625161","1662-5161","CC BY",TRUE,"24936178","PMC4047966","ut:000339606400001",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6693,17 +6693,17 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1199.23,"10.1109/TCSVT.2013.2276700",NA,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Circuits and Systems for Video Technology","1051-8215","1051-8215","1558-2205","1051-8215","CC BY",TRUE,NA,NA,"ut:000334522000013",NA,FALSE
 "University of Sheffield",2014,1199.23,"10.1109/TPWRS.2013.2291660",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Power Systems","0885-8950","0885-8950","1558-0679","0885-8950","CC BY",TRUE,NA,NA,"ut:000335399100021",NA,FALSE
 "University of Sheffield",2014,1142.12,"10.1021/ic4024713",TRUE,"American Chemical Society (ACS)","Inorganic Chemistry","0020-1669","0020-1669","1520-510X","0020-1669","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"24400886","PMC3954650","ut:000330204000049",NA,FALSE
-"University of Sheffield",2014,2233.98,"10.1111/ijac.12239",TRUE,"Wiley-Blackwell","International Journal of Applied Ceramic Technology","1546542X",NA,NA,"1546-542X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000354550500013",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,2233.98,"10.1002/asi.23352",NA,"Wiley-Blackwell","Journal of the Association for Information Science and Technology","23301635",NA,NA,"2330-1635","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000368340100002",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,2233.98,"10.1111/jam.12516",NA,"Wiley-Blackwell","Journal of Applied Microbiology","13645072",NA,NA,"1364-5072","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24712449","PMC4282425","ut:000339480000026",NA,FALSE
 "University of Sheffield",2014,775.87,"10.4172/2155-9821.1000155",FALSE,"OMICS Publishing Group","Journal of Bioprocessing & Biotechniques","21559821",NA,"21559821",NA,NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Sheffield",2014,1065.98,"10.1117/1.JBO.19.2.026008",NA,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668","1083-3668",NA,"1083-3668","CC BY",TRUE,"24525827",NA,"ut:000332830900026",NA,FALSE
-"University of Sheffield",2014,1065.98,"10.1117/1.JBO.19.2.026008",NA,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668","1083-3668",NA,"1083-3668","CC BY",TRUE,"24525827",NA,"ut:000332830900026",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1522.82,"10.1021/ci5001828",TRUE,"American Chemical Society (ACS)","Journal of Chemical Information and Modeling","1549-9596","1549-9596","1549-960X","1549-9596","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"24873983",NA,"ut:000339647000005",NA,FALSE
-"University of Sheffield",2014,2233.98,"10.1111/jeb.12350",TRUE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010061X",NA,NA,"1010-061X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24580655","PMC4237172","ut:000332923200010",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1566.02,"10.1016/j.jhealeco.2013.12.006",TRUE,"Elsevier BV","Journal of Health Economics","01676296","01676296",NA,"0167-6296","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24508846","PMC3991422","ut:000333787200008",NA,FALSE
-"University of Sheffield",2014,1861.65,"10.1111/johs.12053",TRUE,"Wiley-Blackwell","Journal of Historical Sociology","09521909",NA,NA,"0952-1909","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000341517000008",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1548.89,"10.1039/C4TA00637B",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry A","2050-7488","2050-7488","2050-7496","2050-7496","CC BY",TRUE,NA,NA,"ut:000335924100049",NA,FALSE
 "University of Sheffield",2014,699.73,"10.4172/1948-5948.1000138",FALSE,"OMICS Publishing Group","Journal of Microbial & Biochemical Technology","19485948",NA,"19485948","1948-5948",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Sheffield",2014,2233.98,"10.1111/jnc.12645",TRUE,"Wiley-Blackwell","Journal of Neurochemistry","00223042",NA,NA,"0022-3042","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24372287","PMC4063335","ut:000335951400004",NA,FALSE
@@ -6719,14 +6719,14 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1824.42,"10.1099/mic.0.080713-0",TRUE,"Microbiology Society","Microbiology","1350-0872","1350-0872","1465-2080","1350-0872",NA,TRUE,"24961951","PMC4148689","ut:000343960600021",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,2233.98,"10.1002/mop.28328",NA,"Wiley-Blackwell","Microwave and Optical Technology Letters","08952477",NA,NA,"0895-2477","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000332848500038",NA,FALSE
-"University of Sheffield",2014,2233.98,"10.1111/mec.12673",TRUE,"Wiley-Blackwell","Molecular Ecology","09621083",NA,NA,"0962-1083","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24446663","PMC4016754","ut:000331851900009",NA,FALSE
-"University of Sheffield",2014,2233.98,"10.1111/mmi.12513",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950382X",NA,NA,"0950-382X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24405365","PMC4015370","ut:000331833800003",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,4691.36,"10.1038/ncomms5230",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","CC BY",TRUE,"25001275","PMC4102111","ut:000340614800001",NA,TRUE
 "University of Sheffield",2014,4691.36,"10.1038/ncomms5269",FALSE,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","CC BY",TRUE,"24978025","PMC4083421","ut:000338841100002",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,2233.98,"10.1111/nan.12147",NA,"Wiley-Blackwell","Neuropathology and Applied Neurobiology","03051846",NA,NA,"0305-1846","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24750211","PMC4329387","ut:000349109500012",NA,FALSE
 "University of Sheffield",2014,2971.59,"10.1016/j.neuroscience.2014.03.056",TRUE,"Elsevier BV","Neuroscience","03064522","03064522",NA,"0306-4522","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24709040","PMC4030309","ut:000335903900031",NA,FALSE
-"University of Sheffield",2014,2233.98,"10.1002/nbm.3101",NA,"Wiley-Blackwell","NMR in Biomedicine","09523480",NA,NA,"0952-3480","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24639007","PMC4260680","ut:000333753300012",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,2010.12,"10.1016/j.nima.2013.05.156",TRUE,"Elsevier BV","Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment","01689002","01689002",NA,"0168-9002","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000326944100021",NA,FALSE
 "University of Sheffield",2014,2284.23,"10.1111/oik.01704",NA,"Wiley-Blackwell","Oikos","00301299",NA,NA,"0030-1299","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000352240500009",NA,FALSE
 "University of Sheffield",2014,1548.89,"10.1039/C4OB00496E",TRUE,"Royal Society of Chemistry (RSC)","Organic & Biomolecular Chemistry","1477-0520","1477-0520","1477-0539","1477-0520","CC BY",TRUE,"24722672",NA,"ut:000335336800008",NA,FALSE
@@ -6753,13 +6753,13 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1325.49,"10.1038/srep05286",FALSE,"Nature Publishing Group","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","CC BY",TRUE,"24924096","PMC4055896","ut:000337339800009",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,2625.71,"10.1016/j.socscimed.2014.05.026",TRUE,"Elsevier BV","Social Science & Medicine","02779536","02779536",NA,"0277-9536","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24908173","PMC4074344","ut:000339131500005",NA,FALSE
-"University of Sheffield",2014,2233.98,"10.1111/1467-954X.12154",TRUE,"Wiley-Blackwell","The Sociological Review","00380261",NA,NA,"0038-0261","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000337536700002",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1548.89,"10.1039/c4sm00415a",TRUE,"Royal Society of Chemistry (RSC)","Soft Matter","1744-683X","1744-683X","1744-6848","1744-683X","CC BY",TRUE,"24733440",NA,"ut:000336845900012",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1575.43,"10.1016/j.techsoc.2014.02.003",NA,"Elsevier BV","Technology in Society","0160791X","0160791X",NA,"0160-791X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Sheffield",2014,985,"10.1140/epje/i2014-14008-3",NA,"Springer Science + Business Media","The European Physical Journal E","1292-8941","1292-8941","1292-895X","1292-8941","CC BY",TRUE,"24532222",NA,"ut:000331719300001",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Sheffield",2014,2233.98,"10.1111/tra.12155",TRUE,"Wiley-Blackwell","Traffic","13989219",NA,NA,"1398-9219","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24460703","PMC4282331","ut:000333704400006",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Sheffield",2014,1411.5,"10.1186/1745-6215-15-215",FALSE,"Springer Science + Business Media","Trials","1745-6215","1745-6215",NA,"1745-6215","CC BY",TRUE,"24913438","PMC4059032","ut:000338458500001",NA,TRUE
 "University of Sheffield",2014,1094.04,"10.1016/j.ufug.2014.04.007",NA,"Elsevier BV","Urban Forestry & Urban Greening","16188667","16188667",NA,"1610-8167","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000341555900012",NA,FALSE
 "University of Sheffield",2014,2610.03,"10.1016/j.watres.2014.01.049",TRUE,"Elsevier BV","Water Research","00431354","00431354",NA,"0043-1354","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24565801",NA,"ut:000334003000011",NA,FALSE
