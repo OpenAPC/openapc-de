@@ -76,13 +76,17 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
 
+## Supranational participants
+
+- [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
+
 ## Dataset
 
 
 
-This dataset contains information on 18,583 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 42 research performing institutions and research funders. 
+This dataset contains information on 19,136 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 43 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 33,049,530. The average payment was € 1,778  and the median was € 1,542.
+In total, publication fee spending covered by the Open APC initiative amounted to € 33,848,506. The average payment was € 1,769  and the median was € 1,539.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -96,7 +100,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-12,035 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 16,359,949, including value-added tax; the average payment was € 1,359 (median =  € 1,273, SD = € 549).
+12,589 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 17,161,325, including value-added tax; the average payment was € 1,363 (median =  € 1,280, SD = € 545).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -104,10 +108,11 @@ The following table summarises institutional spending on articles published in f
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|MPG                                         |    3,016|             3,924,332|   1,301 (469)|  1,178|        69 - 7,419|
-|Wellcome Trust                              |    1,404|             2,434,923|   1,734 (750)|  1,602|       229 - 5,486|
-|FWF - Austrian Science Fund                 |      753|             1,056,717|   1,403 (649)|  1,274|       100 - 5,216|
+|MPG                                         |    3,011|             3,917,544|   1,301 (469)|  1,178|        69 - 7,419|
+|Wellcome Trust                              |    1,402|             2,431,927|   1,735 (750)|  1,602|       229 - 5,486|
+|FWF - Austrian Science Fund                 |      754|             1,059,117|   1,405 (650)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
+|OpenAIRE                                    |      546|               792,703|   1,452 (424)|  1,413|       209 - 2,086|
 |Freiburg U                                  |      471|               626,480|   1,330 (410)|  1,386|        50 - 2,474|
 |Wuerzburg U                                 |      469|               595,119|   1,269 (416)|  1,266|         0 - 2,514|
 |KIT                                         |      427|               522,346|   1,223 (525)|  1,236|        69 - 3,731|
@@ -133,8 +138,8 @@ The following table summarises institutional spending on articles published in f
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
 |Ulm U                                       |       62|                84,310|   1,360 (647)|  1,285|       260 - 5,284|
+|Oldenburg U                                 |       59|                63,175|   1,071 (480)|  1,247|        63 - 1,757|
 |MDC                                         |       51|               103,028| 2,020 (1,220)|  1,483|       575 - 4,662|
-|Oldenburg U                                 |       45|                47,117|   1,047 (492)|  1,216|        63 - 1,900|
 |TU Chemnitz                                 |       40|                39,454|     986 (697)|  1,056|        78 - 2,123|
 |Kassel U                                    |       35|                35,550|   1,016 (475)|  1,142|       150 - 1,861|
 |HZDR                                        |       32|                48,303|   1,509 (923)|  1,170|       344 - 3,700|
@@ -152,7 +157,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,548 open access articles being published in hybrid journals. Total expenditure amounts to  33,049,530 €. Average  fee is 2,549 € and the median 2,590 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 6,547 open access articles being published in hybrid journals. Total expenditure amounts to  33,848,506 €. Average  fee is 2,549 € and the median 2,590 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -160,7 +165,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |Wellcome Trust                              |    3,905|            10,415,309|   2,667 (946)|  2,611|       267 - 6,108|
-|FWF - Austrian Science Fund                 |    2,560|             6,130,578|   2,395 (733)|  2,519|       120 - 5,315|
+|FWF - Austrian Science Fund                 |    2,559|             6,128,178|   2,395 (733)|  2,521|       120 - 5,315|
 |HZDR                                        |       20|                11,880|     594 (118)|    570|       540 - 1,080|
 |MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
 |Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
@@ -201,9 +206,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.53%       |
-|PubMed ID                  |  81.31%      |
-|PubMed Central ID          |  77.76%     |
-|Web of Science record ID   | 89.99%      |
+|PubMed ID                  |  81.05%      |
+|PubMed Central ID          |  77.46%     |
+|Web of Science record ID   | 89.73%      |
 
 
 
@@ -239,7 +244,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
