@@ -544,7 +544,7 @@ def process_row(row, row_num, column_map, num_required_columns,
     current_row = OrderedDict()
     # Copy content of identified columns
     for csv_column in column_map.values():
-        if csv_column.column_type == "euro":
+        if csv_column.column_type == "euro" and csv_column.index is not None:
             # special case for monetary values: Cast to float to ensure
             # the decimal point is a dot (instead of a comma)
             euro_value = row[csv_column.index]
@@ -805,7 +805,8 @@ def get_unified_journal_title(journal_full_title):
         "Cognition and Emotion": "Cognition & Emotion",
         "Catal. Sci. Technol.": "Catalysis Science & Technology",
         "Journal of Epidemiology & Community Health": "Journal of Epidemiology and Community Health",
-        "JRSM": "Journal of the Royal Society of Medicine"
+        "JRSM": "Journal of the Royal Society of Medicine",
+        "Green Chem.": "Green Chemistry"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
