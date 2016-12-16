@@ -82,6 +82,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Loughborough University
 - London School of Hygiene & Tropical Medicine (LSHTM)
 - Newcastle University
+- Plymouth University
 - Queen Mary University of London
 - Royal Holloway, University of London
 - Swansea University
