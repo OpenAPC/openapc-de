@@ -54,7 +54,7 @@ def main():
                         action="store_true", default=False)
     
     args = parser.parse_args()
-    if not args.value and not args.file:
+    if args.value is None and args.file is None:
         parser.error("Either a single value (-v option) or a file of " +
                      "multiple values (-f option) must be given.")
     
@@ -69,7 +69,7 @@ def main():
                     values.append(line.strip("\r\n"))
         oat.print_g(str(len(values)) + " values read from file")
     
-    if args.value:
+    if args.value is not None:
         values.append(args.value)
         if args.file:
             oat.print_y("Value argument given in addition to file " +
