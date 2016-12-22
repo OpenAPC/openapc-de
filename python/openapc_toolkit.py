@@ -806,7 +806,8 @@ def get_unified_journal_title(journal_full_title):
         "Catal. Sci. Technol.": "Catalysis Science & Technology",
         "Journal of Epidemiology & Community Health": "Journal of Epidemiology and Community Health",
         "JRSM": "Journal of the Royal Society of Medicine",
-        "Green Chem.": "Green Chemistry"
+        "Green Chem.": "Green Chemistry",
+        "Stochastics and  Partial Differential Equations: Analysis and Computations": "Stochastics and Partial Differential Equations: Analysis and Computations"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
