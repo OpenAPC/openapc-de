@@ -308,6 +308,70 @@ def get_csv_file_content(file_name, enc=None):
         content.append(row)
     csv_file.close()
     return (header, content)
+    
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None):
+    """
+    Harvest OpenAPC records via OAI-PMH
+    """
+    collection_xpath = ".//oai_2_0:record//oai_2_0:metadata//intact:collection"
+    token_xpath = ".//oai_2_0:resumptionToken"
+    collection_content = OrderedDict([
+        ("intact:institution", "institution"),
+        ("intact:period", "period"),
+        ("intact:euro", "euro"),
+        ("intact:id_number[@type='doi']", "doi"),
+        ("intact:is_hybrid", "is_hybrid"),
+        ("intact:publisher", "publisher"),
+        ("intact:journal_full_title", "journal_full_title"),
+        ("intact:issn", "issn"),
+        ("intact:licence", "license_ref")
+    ])
+    #institution_xpath = 
+    namespaces = {
+        "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
+        "intact": "http://intact-project.org"
+    }
+    url = basic_url + "?verb=ListRecords"
+    if metadata_prefix:
+        url += "&metadataPrefix=" + metadata_prefix
+    if oai_set:
+        url += "&set=" + oai_set
+    articles = [collection_content.values()] # use as header
+    while url is not None:
+        try:
+            request = urllib2.Request(url)
+            url = None
+            response = urllib2.urlopen(request)
+            content_string = response.read()
+            root = ET.fromstring(content_string)
+            collections = root.findall(collection_xpath, namespaces)
+            for collection in collections:
+                print_g("Collection:")
+                row = []
+                for xpath, elem in collection_content.iteritems():
+                    result = collection.find(xpath, namespaces)
+                    if result is not None and result.text is not None:
+                        print "    " + elem + ": " + result.text
+                        row.append(result.text)
+                    else:
+                        print_r("    " + elem + ": None")
+                        row.append("NA")
+                articles.append(row)
+            token = root.find(token_xpath, namespaces)
+            if token is not None:
+                print "Resumption token: " + token.text
+                url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text
+                print "Next harvest URL: " + url
+            #print collections
+        except urllib2.HTTPError as httpe:
+            code = str(httpe.getcode())
+            print "HTTPError: {} - {}".format(code, httpe.reason)
+        except urllib2.HTTPError as httpe:
+            code = str(httpe.getcode())
+            print "HTTPError: {} - {}".format(code, httpe.reason)
+    with open("out.csv", "w") as f:
+        writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
+        writer.write_rows(articles)
 
 def get_metadata_from_crossref(doi_string):
     """
