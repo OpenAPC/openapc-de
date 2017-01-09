@@ -807,7 +807,10 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Epidemiology & Community Health": "Journal of Epidemiology and Community Health",
         "JRSM": "Journal of the Royal Society of Medicine",
         "Green Chem.": "Green Chemistry",
-        "Stochastics and  Partial Differential Equations: Analysis and Computations": "Stochastics and Partial Differential Equations: Analysis and Computations"
+        "Stochastics and  Partial Differential Equations: Analysis and Computations": "Stochastics and Partial Differential Equations: Analysis and Computations",
+        "Journal of Mass Communication & Journalism": "Journal of Mass Communication and Journalism",
+        "Journal of Child and Adolescent Behavior": "Journal of Child and Adolescent Behaviour",
+        "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
