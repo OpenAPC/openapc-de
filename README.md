@@ -68,6 +68,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
+
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -102,6 +103,10 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
 
+## Participating Canadian Institutions:
+
+- [University of Calgary](http://library.ucalgary.ca/open-access-authors-fund)
+
 ## Supranational participants
 
 - [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
@@ -110,9 +115,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 22,864 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 65 research performing institutions and research funders. 
+This dataset contains information on 23,793 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 66 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 41,272,332. The average payment was € 1,805  and the median was € 1,607.
+In total, publication fee spending covered by the Open APC initiative amounted to € 42,358,058. The average payment was € 1,780  and the median was € 1,594.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -126,7 +131,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-13,582 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 18,780,422, including value-added tax; the average payment was € 1,383 (median =  € 1,285, SD = € 591).
+14,465 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 19,772,584, including value-added tax; the average payment was € 1,367 (median =  € 1,271, SD = € 586).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -135,7 +140,8 @@ The following table summarises institutional spending on articles published in f
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |MPG                                         |    3,040|             3,954,284|   1,301 (467)|  1,180|        69 - 7,419|
-|Wellcome Trust                              |    1,157|             2,060,610|   1,781 (772)|  1,634|       229 - 5,486|
+|Wellcome Trust                              |    1,158|             2,061,618|   1,780 (772)|  1,634|       229 - 5,486|
+|University of Calgary                       |      882|               991,153|   1,124 (448)|  1,144|        50 - 4,632|
 |FWF - Austrian Science Fund                 |      754|             1,059,117|   1,405 (650)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
 |OpenAIRE                                    |      546|               792,703|   1,452 (424)|  1,413|       209 - 2,086|
@@ -204,14 +210,14 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,282 open access articles being published in hybrid journals. Total expenditure amounts to  41,272,332 €. Average  fee is 2,423 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,328 open access articles being published in hybrid journals. Total expenditure amounts to  42,358,058 €. Average  fee is 2,421 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|Wellcome Trust                              |    3,221|             8,690,182|   2,698 (961)|  2,633|       267 - 6,083|
+|Wellcome Trust                              |    3,220|             8,689,174|   2,699 (961)|  2,633|       267 - 6,083|
 |FWF - Austrian Science Fund                 |    2,559|             6,128,178|   2,395 (733)|  2,521|       120 - 5,315|
 |UCL                                         |    1,415|             2,796,186|   1,976 (685)|  1,862|       248 - 5,064|
 |Imperial College London                     |      382|               937,573|   2,454 (729)|  2,576|       255 - 5,228|
@@ -226,6 +232,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Durham University                           |       77|               149,302|   1,939 (597)|  1,997|       621 - 3,471|
 |Loughborough University                     |       76|               170,264|   2,240 (937)|  2,172|       298 - 4,134|
 |Queen Mary, University of London            |       51|               111,794|   2,192 (915)|  2,202|       298 - 5,212|
+|University of Calgary                       |       47|                94,572|   2,012 (408)|  2,182|       997 - 2,665|
 |Swansea University                          |       35|                69,959|   1,999 (638)|  1,862|     1,100 - 4,085|
 |University of Glasgow                       |       30|                65,591|   2,186 (765)|  1,928|       496 - 4,468|
 |Bangor University                           |       25|                68,604|   2,744 (878)|  2,659|       535 - 4,170|
@@ -275,10 +282,10 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.6%       |
-|PubMed ID                  |  79.52%      |
-|PubMed Central ID          |  74.31%     |
-|Web of Science record ID   | 90.4%      |
+|DOI                        |  99.56%       |
+|PubMed ID                  |  79.51%      |
+|PubMed Central ID          |  74.45%     |
+|Web of Science record ID   | 89.68%      |
 
 
 
@@ -314,7 +321,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 
