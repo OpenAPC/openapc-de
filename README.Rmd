@@ -1,5 +1,5 @@
 
-```{r, echo = FALSE, warning = FALSE}
+```{r, echo = FALSE, warning = TRUE}
 
 knitr::opts_knit$set(base.url = "/")
 knitr::opts_chunk$set(
@@ -31,7 +31,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-## Participating Universities
+## Participating German Universities
 
 So far, the following German universities have agreed to share information on paid author processing charges (APC):
 
@@ -60,6 +60,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](http://www.ub.uni-konstanz.de/openaccess/open-access-publikationsfonds-der-universitaet-konstanz/)
+- [University of Oldenburg](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
@@ -77,6 +78,7 @@ Participating Research Organizations:
 The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
+- [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
@@ -85,10 +87,50 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Participating Austrian Institutions
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
+- [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
+
 
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
+- [JISC](https://www.jisc-collections.ac.uk/Jisc-Monitor/APC-data-collection/)
+
+Jisc Collections released data on APC payments made by UK higher education institutions (HEIs):
+
+- Bangor University
+- Cranfield University
+- Durham University
+- Imperial College London
+- Loughborough University
+- London School of Hygiene & Tropical Medicine (LSHTM)
+- Newcastle University
+- Plymouth University
+- Queen Mary University of London
+- Royal Holloway, University of London
+- Swansea University
+- University College London (UCL)
+- University of Bath
+- University of Birmingham
+- University of Bristol
+- University of Cambridge
+- University of Glasgow
+- University of Portsmouth
+- University of Salford
+- University of Sheffield
+- University of Sussex
+- University of Warwick
+
+## Participating Institutions from the United States:
+
+- [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
+
+## Participating Canadian Institutions:
+
+- [University of Calgary](http://library.ucalgary.ca/open-access-authors-fund)
+
+## Supranational participants
+
+- [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
 
 ## Dataset
 
@@ -228,7 +270,7 @@ Indexing coverage
 
 ## How to contribute?
 
-In collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/), a [wiki page](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)(in German) explains all the steps required. Meeting and telephone conferences are documented as well:
+In collaboration with the [DINI working group Electronic Publishing](http://dini.de/ag/e-pub1/), a wiki page([German](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)/[English](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout)) explains all the steps required. Meeting and telephone conferences are documented as well:
 
 * [Virtual Meeting 19 August](https://github.com/OpenAPC/openapc-de/wiki/Protokoll-Kick-Off-19.-August)
 * [Virtual Meeting 11 + 12 February 2015](https://github.com/OpenAPC/openapc-de/wiki/Ergebnisprotokoll-11-bzw.-12.-Februar-2015)
@@ -256,7 +298,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Christoph Broschinski, Dorothea Busjahn, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
 
 ## Contact
 

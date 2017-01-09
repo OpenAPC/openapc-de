@@ -1,26 +1,26 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"MPG",2014,763.03,"10.1117/1.JBO.19.6.065002","TRUE ","SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668","1083-3668",NA,NA,TRUE,"24919447",NA,NA,NA,FALSE
-"MPG",2015,795.44,"10.1117/1.JATIS.1.1.014006","TRUE ","SPIE-Intl Soc Optical Eng","Journal of Astronomical Telescopes, Instruments, and Systems","2329-4124","2329-4124",NA,NA,TRUE,NA,NA,NA,NA,FALSE
-"MPG",2014,1880.06,"10.1186/s13059-014-0423-1","TRUE ","Springer Science + Business Media","Genome Biology","1474-760X",NA,"1474-760X","http://www.springer.com/tdm",TRUE,"25315429","PMC4180961",NA,NA,TRUE
-"MPG",2014,1838.59,"10.1186/gb-2014-15-2-r34","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"24512684","PMC4056463",NA,NA,FALSE
-"MPG",2013,1958.4,"10.1186/gb-2013-14-8-r84","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23958307","PMC4053815",NA,NA,FALSE
-"MPG",2013,1958.4,"10.1186/gm473","TRUE ","Springer Science + Business Media","Genome Medicine","1756-994X","1756-994X",NA,NA,TRUE,"23902830","PMC3978951",NA,NA,FALSE
-"MPG",2013,1958.4,"10.1186/gb-2013-14-6-r61","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23773572","PMC3706810",NA,NA,FALSE
-"MPG",2013,1875.46,"10.1186/gb-2013-14-2-r16","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23425577","PMC4054090",NA,NA,FALSE
-"MPG",2012,1912.32,"10.1186/gb-2012-13-12-r117","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23253144","PMC4056368",NA,NA,FALSE
-"MPG",2012,1829.38,"10.1186/gb-2012-13-10-r96","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23034089","PMC3491424",NA,NA,FALSE
-"MPG",2012,1870.85,"10.1186/gb-2012-13-7-r63","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"22809431","PMC3491384",NA,NA,FALSE
-"MPG",2012,1695.74,"10.1186/gb-2012-13-5-r34","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"22621726","PMC3446287",NA,NA,FALSE
-"MPG",2012,1801.73,"10.1186/gb-2012-13-3-r17","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"22436691","PMC3439968",NA,NA,FALSE
-"MPG",2011,1234.94,"10.1186/bcr3046","TRUE ","Springer Science + Business Media","Breast Cancer Research","1465-5411","1465-5411",NA,NA,TRUE,"22030022","PMC3262217",NA,NA,TRUE
-"MPG",2011,1658.88,"10.1186/gb-2011-12-8-r76","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"21846378","PMC3245616",NA,NA,FALSE
-"MPG",2011,1686.53,"10.1186/gb-2011-12-2-r19","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"21352535","PMC3188801",NA,NA,FALSE
-"MPG",2011,1672.7,"10.1186/gb-2011-12-1-r8","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"21247462","PMC3091306",NA,NA,FALSE
-"MPG",2010,1525.25,"10.1186/gb-2010-11-5-r47","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"20441577","PMC2898072",NA,NA,NA
-"MPG",2009,1419.26,"10.1186/gb-2009-10-10-r105","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19804638","PMC2784320",NA,NA,NA
-"MPG",2009,1534.46,"10.1186/gb-2009-10-9-r98","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19761611","PMC2768987",NA,NA,NA
-"MPG",2009,1446.91,"10.1186/gb-2009-10-8-r83","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19682367","PMC2745764",NA,NA,NA
-"MPG",2009,1580.54,"10.1186/gb-2009-10-2-r14","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19208250","PMC2688269",NA,NA,NA
-"MPG",2008,1679.33,"10.1186/gb-2008-9-11-r167","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19040720","PMC2614481",NA,NA,NA
-"MPG",2008,1733.18,"10.1186/gb-2008-9-8-r124","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"18681948","PMC2575514",NA,NA,NA
-"MPG",2008,1664.64,"10.1186/gb-2008-9-7-r112","TRUE ","Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"18613972","PMC2530869",NA,NA,NA
+"MPG",2014,763.03,"10.1117/1.JBO.19.6.065002",FALSE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668","1083-3668",NA,NA,TRUE,"24919447",NA,NA,NA,FALSE
+"MPG",2015,795.44,"10.1117/1.JATIS.1.1.014006",FALSE,"SPIE-Intl Soc Optical Eng","Journal of Astronomical Telescopes, Instruments, and Systems","2329-4124","2329-4124",NA,NA,TRUE,NA,NA,NA,NA,FALSE
+"MPG",2014,1880.06,"10.1186/s13059-014-0423-1",FALSE,"Springer Science + Business Media","Genome Biology","1474-760X",NA,"1474-760X","http://www.springer.com/tdm",TRUE,"25315429","PMC4180961",NA,NA,TRUE
+"MPG",2014,1838.59,"10.1186/gb-2014-15-2-r34",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"24512684","PMC4056463",NA,NA,FALSE
+"MPG",2013,1958.4,"10.1186/gb-2013-14-8-r84",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23958307","PMC4053815",NA,NA,FALSE
+"MPG",2013,1958.4,"10.1186/gm473",FALSE,"Springer Science + Business Media","Genome Medicine","1756-994X","1756-994X",NA,NA,TRUE,"23902830","PMC3978951",NA,NA,FALSE
+"MPG",2013,1958.4,"10.1186/gb-2013-14-6-r61",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23773572","PMC3706810",NA,NA,FALSE
+"MPG",2013,1875.46,"10.1186/gb-2013-14-2-r16",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23425577","PMC4054090",NA,NA,FALSE
+"MPG",2012,1912.32,"10.1186/gb-2012-13-12-r117",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23253144","PMC4056368",NA,NA,FALSE
+"MPG",2012,1829.38,"10.1186/gb-2012-13-10-r96",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"23034089","PMC3491424",NA,NA,FALSE
+"MPG",2012,1870.85,"10.1186/gb-2012-13-7-r63",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"22809431","PMC3491384",NA,NA,FALSE
+"MPG",2012,1695.74,"10.1186/gb-2012-13-5-r34",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"22621726","PMC3446287",NA,NA,FALSE
+"MPG",2012,1801.73,"10.1186/gb-2012-13-3-r17",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"22436691","PMC3439968",NA,NA,FALSE
+"MPG",2011,1234.94,"10.1186/bcr3046",FALSE,"Springer Science + Business Media","Breast Cancer Research","1465-5411","1465-5411",NA,NA,TRUE,"22030022","PMC3262217",NA,NA,TRUE
+"MPG",2011,1658.88,"10.1186/gb-2011-12-8-r76",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"21846378","PMC3245616",NA,NA,FALSE
+"MPG",2011,1686.53,"10.1186/gb-2011-12-2-r19",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"21352535","PMC3188801",NA,NA,FALSE
+"MPG",2011,1672.7,"10.1186/gb-2011-12-1-r8",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"21247462","PMC3091306",NA,NA,FALSE
+"MPG",2010,1525.25,"10.1186/gb-2010-11-5-r47",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"20441577","PMC2898072",NA,NA,NA
+"MPG",2009,1419.26,"10.1186/gb-2009-10-10-r105",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19804638","PMC2784320",NA,NA,NA
+"MPG",2009,1534.46,"10.1186/gb-2009-10-9-r98",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19761611","PMC2768987",NA,NA,NA
+"MPG",2009,1446.91,"10.1186/gb-2009-10-8-r83",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19682367","PMC2745764",NA,NA,NA
+"MPG",2009,1580.54,"10.1186/gb-2009-10-2-r14",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19208250","PMC2688269",NA,NA,NA
+"MPG",2008,1679.33,"10.1186/gb-2008-9-11-r167",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"19040720","PMC2614481",NA,NA,NA
+"MPG",2008,1733.18,"10.1186/gb-2008-9-8-r124",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"18681948","PMC2575514",NA,NA,NA
+"MPG",2008,1664.64,"10.1186/gb-2008-9-7-r112",FALSE,"Springer Science + Business Media","Genome Biology","1465-6906","1465-6906",NA,NA,TRUE,"18613972","PMC2530869",NA,NA,NA

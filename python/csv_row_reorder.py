@@ -75,14 +75,14 @@ def main():
                 sys.exit()
         encs.append(encoding)
     
-    header, content = _get_csv_file_content(args.csv_file, enc=encs[0])
+    header, content = oat.get_csv_file_content(args.csv_file, enc=encs[0])
     column = args.column
     
     if not args.other_csv_file:
         rearranged_content = header + sorted(content, key=lambda x:x[column])
     else:
         rearranged_content = []
-        _, second_content = _get_csv_file_content(args.other_csv_file, enc=encs[1])
+        _, second_content = oat.get_csv_file_content(args.other_csv_file, enc=encs[1])
         other_column = column # default: use same column index as in first file
         if args.other_column:
             other_column = args.other_column
@@ -112,38 +112,6 @@ def main():
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
         writer.write_rows(rearranged_content)
-
-def _get_csv_file_content(file_name, enc=None):
-    result = oat.analyze_csv_file(file_name, 500)
-    if result["success"]:
-        csv_analysis = result["data"]
-        print csv_analysis
-    else:
-        print result["error_msg"]
-        sys.exit()
-    
-    if enc is None:
-        enc = csv_analysis.enc
-    
-    if enc is None:
-        print ("Error: No encoding given for CSV file and automated " +
-               "detection failed. Please set the encoding manually via the " +
-               "--enc argument")
-        sys.exit()
-        
-    dialect = csv_analysis.dialect
-    
-    csv_file = open(file_name, "r")
-
-    content = []
-    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
-    header = []
-    if csv_analysis.has_header:
-        header.append(reader.next())
-    for row in reader:
-        content.append(row)
-    csv_file.close()
-    return (header, content)
 
 if __name__ == '__main__':
     main()

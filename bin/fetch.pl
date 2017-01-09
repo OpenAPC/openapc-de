@@ -2,7 +2,7 @@
 
 =head1 SYNOPSIS
 
-	perl fetch_ut.pl {input_file.csv}
+	perl fetch.pl --input {input_file.csv} --output {output_file.csv}
 
 =head1 DESCRIPTION
 
@@ -30,8 +30,16 @@ use Catmandu::Exporter::CSV;
 use LWP::UserAgent;
 use XML::Simple;
 use Try::Tiny;
+use Getopt::Long;
 
-my $file = $ARGV[0];
+my ($in_file, $out_file);
+GetOptions(
+    "input=s" => \$in_file,
+    "output=s" => \$out_file,
+) or die("Error in command line arguments\n");
+
+die "Parameters '--input' and '--output' are required." unless $in_file and $out_file;
+
 my $wosURL = 'http://apps.webofknowledge.com/';
 
 sub _do_request {
@@ -126,15 +134,16 @@ sub _parse {
 }
 
 # main
-my $csv = Catmandu::Importer::CSV->new( file => $file );
+my $csv = Catmandu::Importer::CSV->new( file => $in_file );
+
 my $exporter = Catmandu::Exporter::CSV->new(
-    file => "apc_de_ut.csv",
+    file => $out_file,
     sep_char => ',',
     quote_char => '"',
     always_quote => 1,
     fields => ["institution","period","euro","doi",
       "is_hybrid","publisher","journal_full_title",
-      "issn","issn_print","issn_electronic","license_ref",
+      "issn","issn_print","issn_electronic","issn_l","license_ref",
       "indexed_in_crossref","pmid","pmcid","ut","url","doaj"],
     );
 
@@ -143,10 +152,14 @@ $csv->each(
     sub {
         $counter++;
         my $data = $_[0];
+
+        die "Input file does not match required format."
+            unless keys %$data == 18;
+
         my $body = _generate_xml($data);
 
         my $ut;
-        if ($body && $data->{ut} eq 'NA') {
+        if ($body && $data && $data->{ut} eq 'NA') {
             $ut = _parse( _do_request($body) );
             $data->{ut} = $ut ? "ut:$ut" : 'NA';
         }

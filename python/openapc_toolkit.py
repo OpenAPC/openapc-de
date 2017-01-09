@@ -9,6 +9,7 @@ import locale
 import logging
 import re
 import ssl
+import sys
 import urllib2
 import xml.etree.ElementTree as ET
 
@@ -118,7 +119,7 @@ class OpenAPCUnicodeWriter(object):
         return row
 
     def _write_row(self, row):
-        line = u",".join(row) + u"\r\n"
+        line = u",".join(row) + u"\n"
         line = self.encoder.encode(line)
         self.outfile.write(line)
 
@@ -199,12 +200,12 @@ class CSVAnalysisResult(object):
                         int(self.enc_conf * 100))
         ret += "***************************"
         return ret
-
-def is_wellformed_DOI(doi_string):
+    
+def get_normalised_DOI(doi_string):
     doi_match = DOI_RE.match(doi_string.strip())
-    if doi_match is not None:
-        return True
-    return False
+    if not doi_match:
+        return None
+    return doi_match.groupdict()["doi"]
 
 def is_wellformed_ISSN(issn_string):
     issn_match = ISSN_RE.match(issn_string.strip())
@@ -275,7 +276,38 @@ def analyze_csv_file(file_path, line_limit=None):
     result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
     csv_file.close()
     return {"success": True, "data": result}
+    
+def get_csv_file_content(file_name, enc=None):
+    result = analyze_csv_file(file_name, 500)
+    if result["success"]:
+        csv_analysis = result["data"]
+        print csv_analysis
+    else:
+        print result["error_msg"]
+        sys.exit()
+    
+    if enc is None:
+        enc = csv_analysis.enc
+    
+    if enc is None:
+        print ("Error: No encoding given for CSV file and automated " +
+               "detection failed. Please set the encoding manually via the " +
+               "--enc argument")
+        sys.exit()
+        
+    dialect = csv_analysis.dialect
+    
+    csv_file = open(file_name, "r")
 
+    content = []
+    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    header = []
+    if csv_analysis.has_header:
+        header.append(reader.next())
+    for row in reader:
+        content.append(row)
+    csv_file.close()
+    return (header, content)
 
 def get_metadata_from_crossref(doi_string):
     """
@@ -283,7 +315,7 @@ def get_metadata_from_crossref(doi_string):
 
     This method looks up a DOI in crossref and returns all metadata fields
     relevant to OpenAPC (publisher, journal_full_title, issn, issn_print,
-    issn_electronic, license_ref).
+    issn_electronic, license_ref) and the crossref prefix.
 
     Args:
         doi_string: A string representing a doi. 'Pure' form (10.xxx),
@@ -307,6 +339,7 @@ def get_metadata_from_crossref(doi_string):
     """
     xpaths = {
         ".//cr_qr:crm-item[@name='publisher-name']": "publisher",
+        ".//cr_qr:crm-item[@name='prefix-name']": "prefix",
         ".//cr_1_0:journal_metadata//cr_1_0:full_title": "journal_full_title",
         ".//cr_1_1:journal_metadata//cr_1_1:full_title": "journal_full_title",
         ".//cr_1_0:journal_metadata//cr_1_0:issn": "issn",
@@ -321,11 +354,10 @@ def get_metadata_from_crossref(doi_string):
         "cr_1_1": "http://www.crossref.org/xschema/1.1",
         "cr_1_0": "http://www.crossref.org/xschema/1.0",
         "ai": "http://www.crossref.org/AccessIndicators.xsd"}
-    doi_match = DOI_RE.match(doi_string.strip())
-    if not doi_match:
+    doi = get_normalised_DOI(doi_string)
+    if doi is None:
         error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
         return {"success": False, "error_msg": error_msg}
-    doi = doi_match.groupdict()["doi"]
     url = 'http://data.crossref.org/' + doi
     headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
     req = urllib2.Request(url, None, headers)
@@ -354,10 +386,11 @@ def get_metadata_from_crossref(doi_string):
         ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(etpe))
     return ret_value
 
-def get_metadata_from_pubmed(doi):
-    if not DOI_RE.match(doi.strip()):
+def get_metadata_from_pubmed(doi_string):
+    doi = get_normalised_DOI(doi_string)
+    if doi is None:
         return {"success": False,
-                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi)
+                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi_string)
                }
     url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
@@ -479,18 +512,26 @@ def process_row(row, row_num, column_map, num_required_columns,
         result will conform to the Open APC data schema.
     """
     MESSAGES = {
-        "num_columns": "Syntax: The number of values in this row (%s) " +
+        "num_columns": u"Syntax: The number of values in this row (%s) " +
                        "differs from the number of columns (%s). Line left " +
                        "unchanged, the resulting CSV file will not be valid.",
-        "locale": "Error: Could not process the monetary value '%s' in " +
+        "locale": u"Error: Could not process the monetary value '%s' in " +
                   "column %s. This will usually have one of two reasons:\n1) " +
                   "The value does not represent a number.\n2) The value " +
                   "represents a number, but its format differs from your " +
                   "current system locale - the most common source of error " +
                   "will be the decimal mark (1234.56 vs 1234,56). Try using " +
                   "another locale with the -l option.",
-        "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
-                 "to maintain consistency."
+        "unify": u"Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
+                 "to maintain consistency.",
+        "doi_norm": u"Normalisation: DOI '{}' normalised to pure form ({}).",
+        "springer_distinction": u"publisher 'Springer Nature' found " +
+                                 "for a pre-2015 article - publisher " +
+                                 "changed to '%s' based on prefix " +
+                                 "discrimination ('%s')",
+        "unknown_prefix": u"publisher 'Springer Nature' found for a " +
+                           "pre-2015 article, but discrimination was " +
+                           "not possible - unknown prefix ('%s')"
     }
 
     if len(row) != num_required_columns:
@@ -503,11 +544,15 @@ def process_row(row, row_num, column_map, num_required_columns,
     current_row = OrderedDict()
     # Copy content of identified columns
     for csv_column in column_map.values():
-        if csv_column.index is not None and len(row[csv_column.index]) > 0:
-            if csv_column.column_type == "euro":
-                # special case for monetary values: Cast to float to ensure
-                # the decimal point is a dot (instead of a comma)
-                euro_value = row[csv_column.index]
+        if csv_column.column_type == "euro" and csv_column.index is not None:
+            # special case for monetary values: Cast to float to ensure
+            # the decimal point is a dot (instead of a comma)
+            euro_value = row[csv_column.index]
+            if len(euro_value) == 0:
+                msg = "Line %s: Empty monetary value in column %s."
+                logging.warning(msg, row_num, csv_column.index)
+                current_row[csv_column.column_type] = "NA"
+            else:
                 try:
                     euro = locale.atof(euro_value)
                     if euro.is_integer():
@@ -516,10 +561,11 @@ def process_row(row, row_num, column_map, num_required_columns,
                 except ValueError:
                     msg = "Line %s: " + MESSAGES["locale"]
                     logging.error(msg, row_num, euro_value, csv_column.index)
-            else:
-                current_row[csv_column.column_type] = row[csv_column.index]
         else:
-            current_row[csv_column.column_type] = "NA"
+            if csv_column.index is not None and len(row[csv_column.index]) > 0:
+                current_row[csv_column.column_type] = row[csv_column.index]
+            else:
+                current_row[csv_column.column_type] = "NA"
 
     if len(doi) == 0 or doi == 'NA':
         msg = ("Line %s: No DOI found, entry could not enriched with " +
@@ -527,12 +573,19 @@ def process_row(row, row_num, column_map, num_required_columns,
         logging.warning(msg, row_num)
         current_row["indexed_in_crossref"] = "FALSE"
     else:
+        # Normalise DOI
+        norm_doi = get_normalised_DOI(doi)
+        if norm_doi is not None and norm_doi != doi:
+            current_row["doi"] = norm_doi
+            msg = MESSAGES["doi_norm"].format(doi, norm_doi)
+            logging.warning(msg)
         # include crossref metadata
         crossref_result = get_metadata_from_crossref(doi)
         if crossref_result["success"]:
             logging.info("Crossref: DOI resolved: " + doi)
             current_row["indexed_in_crossref"] = "TRUE"
             data = crossref_result["data"]
+            prefix = data.pop("prefix")
             for key, value in data.iteritems():
                 if value is not None:
                     if key == "journal_full_title":
@@ -551,6 +604,22 @@ def process_row(row, row_num, column_map, num_required_columns,
                                                            unified_value)
                             logging.warning(msg)
                         new_value = unified_value
+                        # Treat Springer Nature special case: crossref erroneously
+                        # reports publisher "Springer Nature" even for articles
+                        # published before 2015 (publishers fusioned only then)
+                        if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
+                            publisher = None
+                            if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag", "Springer - Psychonomic Society"]:
+                                publisher = "Springer Science + Business Media"
+                            elif prefix in ["Nature Publishing Group", "Nature Publishing Group - Macmillan Publishers"]:
+                                publisher = "Nature Publishing Group"
+                            if publisher:
+                                msg = "Line %s: " + MESSAGES["springer_distinction"]
+                                logging.warning(msg, row_num, publisher, prefix)
+                                new_value = publisher
+                            else:
+                                msg = "Line %s: " + MESSAGES["unknown_prefix"]
+                                logging.error(msg, row_num, prefix)
                     else:
                         new_value = value
                 else:
@@ -586,6 +655,7 @@ def process_row(row, row_num, column_map, num_required_columns,
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
     issns = []
+    new_value = "NA"
     if current_row["issn_electronic"] != "NA":
         issns.append(current_row["issn_electronic"])
     if current_row["issn"] != "NA":
@@ -600,12 +670,12 @@ def process_row(row, row_num, column_map, num_required_columns,
                 msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
                        "offline copy ('%s').")
                 logging.info(msg, issn, lookup_result)
-                current_row["doaj"] = "TRUE"
+                new_value = "TRUE"
                 break
             else:
                 msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
                        "offline copy.")
-                current_row["doaj"] = "FALSE"
+                new_value = "FALSE"
                 logging.info(msg, issn)
         # ...or query the online API
         else:
@@ -614,16 +684,18 @@ def process_row(row, row_num, column_map, num_required_columns,
                 if doaj_res["data"]["in_doaj"]:
                     msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
                     logging.info(msg, issn, doaj_res["data"]["title"])
-                    current_row["doaj"] = "TRUE"
+                    new_value = "TRUE"
                     break
                 else:
                     msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
                     logging.info(msg, issn)
-                    current_row["doaj"] = "FALSE"
+                    new_value = "FALSE"
             else:
                 msg = (u"Line %s: DOAJ: Error while trying to look up " +
                        "ISSN %s: %s")
                 logging.error(msg, row_num, issn, doaj_res["error_msg"])
+    old_value = current_row["doaj"]
+    current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
     return current_row.values()
 
 
@@ -642,16 +714,17 @@ def get_column_type_from_whitelist(column_name):
         "doi": ["doi"],
         "euro": ["apc", "kosten", "cost", "euro", "eur"],
         "period": ["period", "jahr"],
-        "is_hybrid": ["is_hybrid"],
+        "is_hybrid": ["is_hybrid", "is hybrid"],
         "publisher": ["publisher"],
         "journal_full_title": ["journal_full_title", "journal", "journal title"],
         "issn": ["issn"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
-        "license_ref": ["license_ref"],
+        "issn_l": ["issn_l"],
+        "license_ref": ["licence", "license_ref"],
         "indexed_in_crossref": ["indexed_in_crossref"],
-        "pmid": ["pmid"],
-        "pmcid": ["pmcid"],
+        "pmid": ["pmid", "pubmed id"],
+        "pmcid": ["pmcid", "pubmed central (pmc) id"],
         "ut": ["ut"],
         "url": ["url"],
         "doaj": ["doaj"]
@@ -676,7 +749,10 @@ def get_unified_publisher_name(publisher):
     publisher_mappings = {
         "The Optical Society": "Optical Society of America (OSA)",
         "Impact Journals": "Impact Journals LLC",
-        "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)"
+        "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
+        "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
+        "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press",
+        "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -717,7 +793,24 @@ def get_unified_journal_title(journal_full_title):
         "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
         "PLoS Medicine": "PLOS Medicine",
         "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
-        "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology"
+        "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
+        "Naturwissenschaften": "The Science of Nature",
+        "Dalton Trans.": "Dalton Transactions",
+        "Chem. Sci.": "Chemical Science",
+        "J. Anal. At. Spectrom.": "Journal of Analytical Atomic Spectrometry",
+        "Geospatial health": "Geospatial Health",
+        "Journal of the European Optical Society-Rapid Publications": "Journal of the European Optical Society: Rapid Publications",
+        "J. Mater. Chem. C": "Journal of Materials Chemistry C",
+        "Chem. Commun.": "Chemical Communications",
+        "Cognition and Emotion": "Cognition & Emotion",
+        "Catal. Sci. Technol.": "Catalysis Science & Technology",
+        "Journal of Epidemiology & Community Health": "Journal of Epidemiology and Community Health",
+        "JRSM": "Journal of the Royal Society of Medicine",
+        "Green Chem.": "Green Chemistry",
+        "Stochastics and  Partial Differential Equations: Analysis and Computations": "Stochastics and Partial Differential Equations: Analysis and Computations",
+        "Journal of Mass Communication & Journalism": "Journal of Mass Communication and Journalism",
+        "Journal of Child and Adolescent Behavior": "Journal of Child and Adolescent Behaviour",
+        "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
