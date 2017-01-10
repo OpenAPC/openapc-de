@@ -115,9 +115,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 23,793 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 66 research performing institutions and research funders. 
+This dataset contains information on 23,805 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 66 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 42,358,058. The average payment was € 1,780  and the median was € 1,594.
+In total, publication fee spending covered by the Open APC initiative amounted to € 42,376,555. The average payment was € 1,780  and the median was € 1,593.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -131,7 +131,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-14,465 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 19,772,584, including value-added tax; the average payment was € 1,367 (median =  € 1,271, SD = € 586).
+14,477 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 19,791,081, including value-added tax; the average payment was € 1,367 (median =  € 1,272, SD = € 586).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -188,11 +188,11 @@ The following table summarises institutional spending on articles published in f
 |Hamburg TUHH                                |       24|                32,789|   1,366 (499)|  1,466|       300 - 2,027|
 |Potsdam U                                   |       24|                32,128|   1,339 (236)|  1,386|       916 - 2,116|
 |Queen Mary, University of London            |       24|                30,528|   1,272 (539)|  1,200|       458 - 3,272|
+|TU Wien                                     |       23|                32,403|   1,409 (421)|  1,323|       768 - 2,192|
 |Bamberg U                                   |       22|                23,663|   1,076 (563)|  1,009|        90 - 2,010|
 |University of Bath                          |       21|                30,539|   1,454 (675)|  1,257|       416 - 2,830|
 |TU Ilmenau                                  |       17|                18,540|   1,091 (594)|  1,046|       178 - 2,077|
 |University of Sussex                        |       13|                26,551| 2,042 (1,292)|  1,253|       881 - 4,691|
-|TU Wien                                     |       11|                13,905|   1,264 (347)|  1,181|       806 - 1,817|
 |Durham University                           |       10|                14,302|   1,430 (416)|  1,368|       995 - 1,973|
 |Bangor University                           |        9|                14,447|   1,605 (487)|  1,654|       937 - 2,264|
 |Swansea University                          |        9|                16,097| 1,789 (1,312)|  1,218|     1,014 - 4,691|
@@ -210,7 +210,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,328 open access articles being published in hybrid journals. Total expenditure amounts to  42,358,058 €. Average  fee is 2,421 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,328 open access articles being published in hybrid journals. Total expenditure amounts to  42,376,555 €. Average  fee is 2,421 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -283,9 +283,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.56%       |
-|PubMed ID                  |  79.51%      |
-|PubMed Central ID          |  74.45%     |
-|Web of Science record ID   | 89.68%      |
+|PubMed ID                  |  79.5%      |
+|PubMed Central ID          |  74.42%     |
+|Web of Science record ID   | 89.67%      |
 
 
 
