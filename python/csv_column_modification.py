@@ -133,14 +133,16 @@ def unquote_column(csv_reader, args):
 def move_column(csv_reader, args):
     new_rows = []
     for row in csv_reader:
-        row.insert(args.target_index, row.pop(args.column_index))
+        if len(row) > 0:
+            row.insert(args.target_index, row.pop(args.column_index))
         new_rows.append(row)
     return new_rows
     
 def delete_column(csv_reader, args):
     new_rows = []
     for row in csv_reader:
-        row.pop(args.column_index)
+        if len(row) > 0:
+            row.pop(args.column_index)
         new_rows.append(row)
     return new_rows
     

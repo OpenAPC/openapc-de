@@ -59,6 +59,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
@@ -67,6 +68,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
+
 
 ## Participating Institutions from the United Kingdom:
 
@@ -102,6 +104,10 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
 
+## Participating Canadian Institutions:
+
+- [University of Calgary](http://library.ucalgary.ca/open-access-authors-fund)
+
 ## Supranational participants
 
 - [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
@@ -110,9 +116,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 22,795 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 65 research performing institutions and research funders. 
+This dataset contains information on 23,860 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 67 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 41,176,978. The average payment was € 1,806  and the median was € 1,608.
+In total, publication fee spending covered by the Open APC initiative amounted to € 42,472,111. The average payment was € 1,780  and the median was € 1,593.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -126,7 +132,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-13,513 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 18,685,068, including value-added tax; the average payment was € 1,383 (median =  € 1,285, SD = € 591).
+14,510 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 19,833,034, including value-added tax; the average payment was € 1,367 (median =  € 1,273, SD = € 586).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -134,8 +140,9 @@ The following table summarises institutional spending on articles published in f
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|MPG                                         |    3,040|             3,954,284|   1,301 (467)|  1,180|        69 - 7,419|
-|Wellcome Trust                              |    1,157|             2,060,610|   1,781 (772)|  1,634|       229 - 5,486|
+|MPG                                         |    3,069|             3,992,328|   1,301 (464)|  1,180|        69 - 7,419|
+|Wellcome Trust                              |    1,158|             2,061,618|   1,780 (772)|  1,634|       229 - 5,486|
+|University of Calgary                       |      882|               991,153|   1,124 (448)|  1,144|        50 - 4,632|
 |FWF - Austrian Science Fund                 |      754|             1,059,117|   1,405 (650)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
 |OpenAIRE                                    |      546|               792,703|   1,452 (424)|  1,413|       209 - 2,086|
@@ -153,13 +160,13 @@ The following table summarises institutional spending on articles published in f
 |Bielefeld U                                 |      263|               322,815|   1,227 (313)|  1,232|         0 - 2,103|
 |Konstanz U                                  |      222|               302,232|   1,361 (406)|  1,333|        40 - 2,072|
 |Heidelberg U                                |      215|               308,348|   1,434 (377)|  1,500|        60 - 2,042|
+|FU Berlin                                   |      174|               236,525|   1,359 (505)|  1,391|       150 - 2,142|
 |Leipzig U                                   |      173|               243,873|   1,410 (331)|  1,471|       341 - 2,055|
 |FZJ - ZB                                    |      158|               196,869|   1,246 (516)|  1,177|       370 - 3,700|
 |Imperial College London                     |      153|               293,414| 1,918 (1,146)|  1,631|       269 - 4,709|
 |Duisburg-Essen U                            |      147|               178,437|   1,214 (356)|  1,212|       238 - 2,800|
 |TU Dresden                                  |      130|               175,723|   1,352 (416)|  1,415|       200 - 2,193|
 |Leibniz-Fonds                               |      129|               208,581|   1,617 (708)|  1,572|        66 - 4,403|
-|FU Berlin                                   |      105|               141,170|   1,344 (468)|  1,286|       220 - 2,000|
 |University of Birmingham                    |      105|               163,136|   1,554 (679)|  1,481|       137 - 4,691|
 |GFZ-Potsdam                                 |      104|               120,536|   1,159 (715)|  1,062|       223 - 4,403|
 |Harvard U                                   |       95|                83,793|     882 (536)|    830|        75 - 3,139|
@@ -182,17 +189,18 @@ The following table summarises institutional spending on articles published in f
 |Hamburg TUHH                                |       24|                32,789|   1,366 (499)|  1,466|       300 - 2,027|
 |Potsdam U                                   |       24|                32,128|   1,339 (236)|  1,386|       916 - 2,116|
 |Queen Mary, University of London            |       24|                30,528|   1,272 (539)|  1,200|       458 - 3,272|
+|TU Wien                                     |       23|                32,403|   1,409 (421)|  1,323|       768 - 2,192|
 |Bamberg U                                   |       22|                23,663|   1,076 (563)|  1,009|        90 - 2,010|
 |University of Bath                          |       21|                30,539|   1,454 (675)|  1,257|       416 - 2,830|
 |TU Ilmenau                                  |       17|                18,540|   1,091 (594)|  1,046|       178 - 2,077|
 |University of Sussex                        |       13|                26,551| 2,042 (1,292)|  1,253|       881 - 4,691|
-|TU Wien                                     |       11|                13,905|   1,264 (347)|  1,181|       806 - 1,817|
 |Durham University                           |       10|                14,302|   1,430 (416)|  1,368|       995 - 1,973|
 |Bangor University                           |        9|                14,447|   1,605 (487)|  1,654|       937 - 2,264|
 |Swansea University                          |        9|                16,097| 1,789 (1,312)|  1,218|     1,014 - 4,691|
 |TU Clausthal                                |        8|                 6,999|     875 (514)|    918|       181 - 1,724|
 |INM - Leibniz-Institut für Neue Materialien |        5|                 5,744|   1,149 (560)|  1,305|       237 - 1,679|
 |University of Portsmouth                    |        5|                 7,706|   1,541 (373)|  1,354|     1,209 - 1,973|
+|IPN                                         |        4|                 3,909|   977 (1,099)|    479|       330 - 2,621|
 |University of Salford                       |        4|                 5,690|   1,423 (664)|  1,468|       745 - 2,011|
 |Plymouth University                         |        3|                 2,889|     963 (304)|  1,010|       638 - 1,241|
 |University of Glasgow                       |        3|                 4,528|   1,509 (648)|  1,246|     1,035 - 2,247|
@@ -204,14 +212,14 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,282 open access articles being published in hybrid journals. Total expenditure amounts to  41,176,978 €. Average  fee is 2,423 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,350 open access articles being published in hybrid journals. Total expenditure amounts to  42,472,111 €. Average  fee is 2,421 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|Wellcome Trust                              |    3,221|             8,690,182|   2,698 (961)|  2,633|       267 - 6,083|
+|Wellcome Trust                              |    3,220|             8,689,174|   2,699 (961)|  2,633|       267 - 6,083|
 |FWF - Austrian Science Fund                 |    2,559|             6,128,178|   2,395 (733)|  2,521|       120 - 5,315|
 |UCL                                         |    1,415|             2,796,186|   1,976 (685)|  1,862|       248 - 5,064|
 |Imperial College London                     |      382|               937,573|   2,454 (729)|  2,576|       255 - 5,228|
@@ -226,10 +234,12 @@ The following institutions have contributed expenditures on hybrid open access j
 |Durham University                           |       77|               149,302|   1,939 (597)|  1,997|       621 - 3,471|
 |Loughborough University                     |       76|               170,264|   2,240 (937)|  2,172|       298 - 4,134|
 |Queen Mary, University of London            |       51|               111,794|   2,192 (915)|  2,202|       298 - 5,212|
+|University of Calgary                       |       47|                94,572|   2,012 (408)|  2,182|       997 - 2,665|
 |Swansea University                          |       35|                69,959|   1,999 (638)|  1,862|     1,100 - 4,085|
 |University of Glasgow                       |       30|                65,591|   2,186 (765)|  1,928|       496 - 4,468|
 |Bangor University                           |       25|                68,604|   2,744 (878)|  2,659|       535 - 4,170|
 |University of Sussex                        |       24|                56,728| 2,364 (1,028)|  2,304|       363 - 4,464|
+|IPN                                         |       22|                53,603|   2,437 (554)|  2,558|     1,181 - 3,540|
 |HZDR                                        |       20|                11,880|     594 (118)|    570|       540 - 1,080|
 |MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
 |Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
@@ -275,10 +285,10 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.61%       |
-|PubMed ID                  |  79.6%      |
-|PubMed Central ID          |  74.38%     |
-|Web of Science record ID   | 90.45%      |
+|DOI                        |  99.56%       |
+|PubMed ID                  |  79.33%      |
+|PubMed Central ID          |  74.25%     |
+|Web of Science record ID   | 89.61%      |
 
 
 
@@ -311,10 +321,9 @@ Bielefeld University Library archives a copy (including commit history). To cite
 
 This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting.
 
-
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
 
 ## Contact
 
