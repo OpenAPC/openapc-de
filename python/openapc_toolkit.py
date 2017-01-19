@@ -345,24 +345,27 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None):
             content_string = response.read()
             root = ET.fromstring(content_string)
             collections = root.findall(collection_xpath, namespaces)
+            counter = 0
             for collection in collections:
-                print_g("Collection:")
                 row = []
+                apc_amount_found = False # No sense in storing articles without APCs
                 for xpath, elem in collection_content.iteritems():
                     result = collection.find(xpath, namespaces)
                     if result is not None and result.text is not None:
-                        print "    " + elem + ": " + result.text
                         row.append(result.text)
+                        if elem == "euro":
+                            apc_amount_found = True
                     else:
-                        print_r("    " + elem + ": None")
                         row.append("NA")
-                articles.append(row)
+                if apc_amount_found:
+                    articles.append(row)
+                    counter += 1
+                else:
+                    print_r("Article skipped, no APC amount found.")
             token = root.find(token_xpath, namespaces)
             if token is not None:
-                print "Resumption token: " + token.text
                 url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text
-                print "Next harvest URL: " + url
-            #print collections
+            print_g(str(counter) + " articles harvested.")
         except urllib2.HTTPError as httpe:
             code = str(httpe.getcode())
             print "HTTPError: {} - {}".format(code, httpe.reason)
