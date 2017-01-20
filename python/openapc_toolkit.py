@@ -309,12 +309,29 @@ def get_csv_file_content(file_name, enc=None):
     csv_file.close()
     return (header, content)
     
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None):
+def has_value(field):
+    return len(field) > 0 and field != "NA"
+    
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, selective_harvest=False):
     """
     Harvest OpenAPC records via OAI-PMH
     """
+    if selective_harvest:
+        # create lists of all exisiting dois, pmids and urls
+        keys = ["doi", "pmid", "url"]
+        lists = {}
+        for key in keys:
+            lists[key] = []
+        with open("../data/apc_de.csv", "r") as core_file:
+            reader = UnicodeDictReader(core_file, encoding="utf-8")
+            for line in reader:
+                for key in keys:
+                    if has_value(line[key]):
+                        lists[key].append(line[key])
     collection_xpath = ".//oai_2_0:record//oai_2_0:metadata//intact:collection"
     token_xpath = ".//oai_2_0:resumptionToken"
+    processing_regex = re.compile("'(?P<target>\w*?)':'(?P<generator>.*?)'")
+    variable_regex = re.compile("%(\w*?)%")
     collection_content = OrderedDict([
         ("intact:institution", "institution"),
         ("intact:period", "period"),
@@ -324,7 +341,10 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None):
         ("intact:publisher", "publisher"),
         ("intact:journal_full_title", "journal_full_title"),
         ("intact:issn", "issn"),
-        ("intact:licence", "license_ref")
+        ("intact:licence", "license_ref"),
+        ("intact:id_number[@type='pubmed']","pmid"),
+        ("", "url"),
+        ("intact:id_number[@type='local']", "local_id")
     ])
     #institution_xpath = 
     namespaces = {
@@ -336,6 +356,16 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None):
         url += "&metadataPrefix=" + metadata_prefix
     if oai_set:
         url += "&set=" + oai_set
+    if processing:
+        match = processing_regex.match(processing)
+        if match:
+            groupdict = match.groupdict()
+            target = groupdict["target"]
+            generator = groupdict["generator"]
+            variables = variable_regex.search(generator).groups()
+        else:
+            print_r("Error: Unable to parse processing instruction!")
+            processing = None
     articles = [collection_content.values()] # use as header
     while url is not None:
         try:
@@ -347,21 +377,32 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None):
             collections = root.findall(collection_xpath, namespaces)
             counter = 0
             for collection in collections:
-                row = []
-                apc_amount_found = False # No sense in storing articles without APCs
+                article = OrderedDict()
                 for xpath, elem in collection_content.iteritems():
                     result = collection.find(xpath, namespaces)
                     if result is not None and result.text is not None:
-                        row.append(result.text)
-                        if elem == "euro":
-                            apc_amount_found = True
+                        article[elem] = result.text
                     else:
-                        row.append("NA")
-                if apc_amount_found:
-                    articles.append(row)
-                    counter += 1
-                else:
+                        article[elem] = "NA"
+                if processing:
+                    target_string = generator
+                    for variable in variables:
+                        target_string = target_string.replace("%" + variable + "%", article[variable])
+                    article[target] = target_string
+                if article["euro"] in ["NA", "0"]:
                     print_r("Article skipped, no APC amount found.")
+                    continue
+                elif selective_harvest:
+                    key_found = False
+                    for key in keys:
+                        if article[key] in lists[key]:
+                            print_r("Article skipped, " + key + " already in core data file.")
+                            key_found = True
+                            break
+                    if key_found:
+                        continue
+                articles.append(article.values())
+                counter += 1
             token = root.find(token_xpath, namespaces)
             if token is not None:
                 url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text

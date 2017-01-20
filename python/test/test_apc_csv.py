@@ -46,9 +46,6 @@ class RowObject(object):
         self.file_name = file_name
         self.line_number = line_number
         self.row = row
-        
-def has_value(field):
-    return len(field) > 0 and field != "NA"
 
 doi_duplicate_list = []
 apc_data = []
@@ -64,19 +61,19 @@ for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
         apc_data.append(RowObject(file_name, line, row))
         doi_duplicate_list.append(row["doi"])
         issn = row["issn"]
-        if has_value(issn):
+        if oat.has_value(issn):
             if issn not in issn_dict:
                 issn_dict[issn] = [row]
             else:
                 issn_dict[issn].append(row)
         issn_p = row["issn_print"]
-        if has_value(issn_p):
+        if oat.has_value(issn_p):
             if issn_p not in issn_p_dict:
                 issn_p_dict[issn_p] = [row]
             else:
                 issn_p_dict[issn_p].append(row)
         issn_e = row["issn_electronic"]
-        if has_value(issn_e):
+        if oat.has_value(issn_e):
             if issn_e not in issn_e_dict:
                 issn_e_dict[issn_e] = [row]
             else:
@@ -108,16 +105,16 @@ def check_optional_fields(row_object):
     if row['doi'] == "NA":
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        if not has_value(row['publisher']):
+        if not oat.has_value(row['publisher']):
             pytest.fail(line_str + 'if no DOI is given, the column ' +
                         '"publisher" must not be empty')
-        if not has_value(row['journal_full_title']):
+        if not oat.has_value(row['journal_full_title']):
             pytest.fail(line_str + 'if no DOI is given, the column ' +
                         '"journal_full_title" must not be empty')
-        if not has_value(row['issn']):
+        if not oat.has_value(row['issn']):
             pytest.fail(line_str + 'if no DOI is given, the column "issn" ' +
                         'must not be empty')
-        if not has_value(row['url']):
+        if not oat.has_value(row['url']):
             pytest.fail(line_str + 'if no DOI is given, the column "url" ' +
                         'must not be empty')
 
@@ -180,9 +177,9 @@ def check_hybrid_status(row_object):
 def check_name_consistency(row_object):
     __tracebackhide__ = True
     row = row_object.row
-    issn = row["issn"] if has_value(row["issn"]) else None
-    issn_p = row["issn_print"] if has_value(row["issn_print"]) else None
-    issn_e = row["issn_electronic"] if has_value(row["issn_electronic"]) else None
+    issn = row["issn"] if oat.has_value(row["issn"]) else None
+    issn_p = row["issn_print"] if oat.has_value(row["issn_print"]) else None
+    issn_e = row["issn_electronic"] if oat.has_value(row["issn_electronic"]) else None
     journal = row["journal_full_title"]
     publ = row["publisher"]
     hybrid = row["is_hybrid"]
