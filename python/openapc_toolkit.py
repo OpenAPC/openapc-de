@@ -860,7 +860,8 @@ def get_unified_publisher_name(publisher):
         "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
         "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
         "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press",
-        "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)"
+        "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
+        "Hindawi Limited": "Hindawi Publishing Corporation"
     }
     return publisher_mappings.get(publisher, publisher)
 
