@@ -58,6 +58,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
+- [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
@@ -116,9 +117,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 23,971 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 67 research performing institutions and research funders. 
+This dataset contains information on 24,011 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 68 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 42,651,740. The average payment was € 1,779  and the median was € 1,594.
+In total, publication fee spending covered by the Open APC initiative amounted to € 42,693,926. The average payment was € 1,778  and the median was € 1,591.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -132,7 +133,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-14,621 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,012,663, including value-added tax; the average payment was € 1,369 (median =  € 1,275, SD = € 587).
+14,661 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,054,849, including value-added tax; the average payment was € 1,368 (median =  € 1,275, SD = € 587).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -182,6 +183,7 @@ The following table summarises institutional spending on articles published in f
 |Newcastle University                        |       51|                91,101| 1,786 (1,002)|  1,385|       304 - 4,691|
 |LSHTM                                       |       44|                65,723|   1,494 (519)|  1,517|       521 - 3,518|
 |TU Chemnitz                                 |       40|                39,454|     986 (697)|  1,056|        78 - 2,123|
+|UFZ                                         |       40|                42,186|   1,055 (404)|    979|       232 - 2,291|
 |University of Sheffield                     |       33|                52,894| 1,603 (1,089)|  1,325|       323 - 4,691|
 |HZDR                                        |       32|                48,303|   1,509 (923)|  1,170|       344 - 3,700|
 |University of Warwick                       |       30|                63,715| 2,124 (1,884)|  1,330|       442 - 9,033|
@@ -212,7 +214,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,350 open access articles being published in hybrid journals. Total expenditure amounts to  42,651,740 €. Average  fee is 2,421 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,350 open access articles being published in hybrid journals. Total expenditure amounts to  42,693,926 €. Average  fee is 2,421 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -286,9 +288,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.56%       |
-|PubMed ID                  |  79.36%      |
-|PubMed Central ID          |  74.26%     |
-|Web of Science record ID   | 89.58%      |
+|PubMed ID                  |  79.28%      |
+|PubMed Central ID          |  74.18%     |
+|Web of Science record ID   | 89.57%      |
 
 
 
@@ -323,7 +325,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
 
 ## Contact
 
