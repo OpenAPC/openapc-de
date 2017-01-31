@@ -43,6 +43,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
+- [University of Veterinary Medicine Hannover, Foundation (TiHo)](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 - [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
 
@@ -117,9 +118,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 24,011 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 68 research performing institutions and research funders. 
+This dataset contains information on 24,089 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 69 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 42,693,926. The average payment was € 1,778  and the median was € 1,591.
+In total, publication fee spending covered by the Open APC initiative amounted to € 42,796,339. The average payment was € 1,777  and the median was € 1,588.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -133,7 +134,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-14,663 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,057,519, including value-added tax; the average payment was € 1,368 (median =  € 1,275, SD = € 587).
+14,731 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,145,874, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 586).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -176,6 +177,7 @@ The following table summarises institutional spending on articles published in f
 |University of Bristol                       |       77|               135,628|   1,761 (989)|  1,513|       143 - 4,691|
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
+|TiHo Hannover                               |       68|                88,355|   1,299 (502)|  1,396|       196 - 2,656|
 |Ulm U                                       |       62|                84,310|   1,360 (647)|  1,285|       260 - 5,284|
 |Oldenburg U                                 |       59|                63,175|   1,071 (480)|  1,247|        63 - 1,757|
 |Kassel U                                    |       55|                59,511|   1,082 (545)|  1,129|       150 - 2,321|
@@ -214,7 +216,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,348 open access articles being published in hybrid journals. Total expenditure amounts to  42,693,926 €. Average  fee is 2,422 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,358 open access articles being published in hybrid journals. Total expenditure amounts to  42,796,339 €. Average  fee is 2,420 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -246,6 +248,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
 |Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
 |MPG                                         |       13|                17,508|   1,347 (321)|  1,325|       763 - 1,825|
+|TiHo Hannover                               |       10|                14,059|   1,406 (841)|  1,114|       547 - 3,115|
 |INM - Leibniz-Institut für Neue Materialien |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
 |Plymouth University                         |        7|                16,865|   2,409 (745)|  2,266|     1,190 - 3,642|
 |University of Portsmouth                    |        6|                13,419|   2,236 (751)|  2,653|     1,194 - 2,786|
@@ -287,10 +290,10 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.56%       |
-|PubMed ID                  |  79.28%      |
-|PubMed Central ID          |  74.18%     |
-|Web of Science record ID   | 89.57%      |
+|DOI                        |  99.54%       |
+|PubMed ID                  |  79.24%      |
+|PubMed Central ID          |  74.13%     |
+|Web of Science record ID   | 89.53%      |
 
 
 
@@ -325,7 +328,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Julia Dickel, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt
 
 ## Contact
 
