@@ -133,7 +133,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-14,661 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,054,849, including value-added tax; the average payment was € 1,368 (median =  € 1,275, SD = € 587).
+14,663 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,057,519, including value-added tax; the average payment was € 1,368 (median =  € 1,275, SD = € 587).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -143,7 +143,7 @@ The following table summarises institutional spending on articles published in f
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |MPG                                         |    3,076|             3,999,318|   1,300 (465)|  1,180|        69 - 7,419|
 |Wellcome Trust                              |    1,158|             2,061,618|   1,780 (772)|  1,634|       229 - 5,486|
-|University of Calgary                       |      882|               991,153|   1,124 (448)|  1,144|        50 - 4,632|
+|University of Calgary                       |      884|               993,823|   1,124 (448)|  1,145|        50 - 4,632|
 |FWF - Austrian Science Fund                 |      754|             1,059,117|   1,405 (650)|  1,274|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
 |OpenAIRE                                    |      546|               792,703|   1,452 (424)|  1,413|       209 - 2,086|
@@ -214,7 +214,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,350 open access articles being published in hybrid journals. Total expenditure amounts to  42,693,926 €. Average  fee is 2,421 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,348 open access articles being published in hybrid journals. Total expenditure amounts to  42,693,926 €. Average  fee is 2,422 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -236,7 +236,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Durham University                           |       77|               149,302|   1,939 (597)|  1,997|       621 - 3,471|
 |Loughborough University                     |       76|               170,264|   2,240 (937)|  2,172|       298 - 4,134|
 |Queen Mary, University of London            |       51|               111,794|   2,192 (915)|  2,202|       298 - 5,212|
-|University of Calgary                       |       47|                94,572|   2,012 (408)|  2,182|       997 - 2,665|
+|University of Calgary                       |       45|                91,902|   2,042 (390)|  2,184|       997 - 2,665|
 |Swansea University                          |       35|                69,959|   1,999 (638)|  1,862|     1,100 - 4,085|
 |University of Glasgow                       |       30|                65,591|   2,186 (765)|  1,928|       496 - 4,468|
 |Bangor University                           |       25|                68,604|   2,744 (878)|  2,659|       535 - 4,170|
