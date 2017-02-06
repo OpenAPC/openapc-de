@@ -21,7 +21,7 @@ except ImportError:
            "encoding guessing will not work")
 
 # regex for detecing DOIs
-DOI_RE = re.compile("^(((https?://)?dx.doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
+DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
 ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 # These classes were adopted from
