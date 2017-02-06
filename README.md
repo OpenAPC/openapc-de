@@ -71,6 +71,9 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
+## Participating Italian Institutions
+
+- [Università degli Studi di Milano](http://www.unimi.it/ENG/)
 
 ## Participating Institutions from the United Kingdom:
 
@@ -118,9 +121,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 24,089 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 69 research performing institutions and research funders. 
+This dataset contains information on 24,146 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 70 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 42,796,339. The average payment was € 1,777  and the median was € 1,588.
+In total, publication fee spending covered by the Open APC initiative amounted to € 42,886,409. The average payment was € 1,776  and the median was € 1,588.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -134,7 +137,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-14,731 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,145,874, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 586).
+14,779 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,220,208, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 588).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -183,6 +186,7 @@ The following table summarises institutional spending on articles published in f
 |Kassel U                                    |       55|                59,511|   1,082 (545)|  1,129|       150 - 2,321|
 |MDC                                         |       51|               103,028| 2,020 (1,220)|  1,483|       575 - 4,662|
 |Newcastle University                        |       51|                91,101| 1,786 (1,002)|  1,385|       304 - 4,691|
+|Milano U                                    |       48|                74,335|   1,549 (933)|  1,357|       110 - 4,470|
 |LSHTM                                       |       44|                65,723|   1,494 (519)|  1,517|       521 - 3,518|
 |TU Chemnitz                                 |       40|                39,454|     986 (697)|  1,056|        78 - 2,123|
 |UFZ                                         |       40|                42,186|   1,055 (404)|    979|       232 - 2,291|
@@ -216,7 +220,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,358 open access articles being published in hybrid journals. Total expenditure amounts to  42,796,339 €. Average  fee is 2,420 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,367 open access articles being published in hybrid journals. Total expenditure amounts to  42,886,409 €. Average  fee is 2,420 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -250,6 +254,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |MPG                                         |       13|                17,508|   1,347 (321)|  1,325|       763 - 1,825|
 |TiHo Hannover                               |       10|                14,059|   1,406 (841)|  1,114|       547 - 3,115|
 |INM - Leibniz-Institut für Neue Materialien |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
+|Milano U                                    |        9|                15,735|   1,748 (861)|  1,969|       400 - 2,706|
 |Plymouth University                         |        7|                16,865|   2,409 (745)|  2,266|     1,190 - 3,642|
 |University of Portsmouth                    |        6|                13,419|   2,236 (751)|  2,653|     1,194 - 2,786|
 |Cranfield University                        |        5|                12,287|   2,457 (983)|  2,532|     1,085 - 3,842|
@@ -291,9 +296,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.54%       |
-|PubMed ID                  |  79.24%      |
-|PubMed Central ID          |  74.13%     |
-|Web of Science record ID   | 89.53%      |
+|PubMed ID                  |  79.22%      |
+|PubMed Central ID          |  74.1%     |
+|Web of Science record ID   | 89.48%      |
 
 
 
