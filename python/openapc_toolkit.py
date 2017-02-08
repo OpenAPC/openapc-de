@@ -771,6 +771,10 @@ def process_row(row, row_num, column_map, num_required_columns,
     if current_row["issn_print"] != "NA":
         issns.append(current_row["issn_print"])
     for issn in issns:
+        # In some cases xref delievers ISSNs without a hyphen. Add it
+        # temporarily to prevent the DOAJ lookup from failing.
+        if re.match("^\d{7}[\dxX]$", issn):
+            issn = issn[:4] + "-" + issn[4:]
         # look up in an offline copy of the DOAJ if requested...
         if doaj_offline_analysis:
             lookup_result = doaj_offline_analysis.lookup(issn)

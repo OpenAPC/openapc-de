@@ -248,27 +248,31 @@ def main():
     if args.locale:
         norm = locale.normalize(args.locale)
         if norm != args.locale:
-            print "locale '{}' not found, normalized to '{}'".format(
-                args.locale, norm)
+            msg = "locale '{}' not found, normalised to '{}'".format(
+                  args.locale, norm)
+            oat.print_y(msg)
         try:
             loc = locale.setlocale(locale.LC_ALL, norm)
-            print "Using locale", loc
+            oat.print_g("Using locale " + loc)
         except locale.Error as loce:
-            print "Setting locale to " + norm + " failed: " + loce.message
+            msg = "Setting locale to {} failed: {}".format(norm, loce.message)
+            oat.print_r(msg)
             sys.exit()
 
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
-            print ("Encoding '{}' found in Python's codec collection " +
+            msg = ("Encoding '{}' found in Python's codec collection " +
                    "as '{}'").format(args.encoding, codec.name)
+            oat.print_g(msg)
             enc = args.encoding
         except LookupError:
-            print ("Error: '" + args.encoding + "' not found Python's " +
+            msg = ("Error: '" + args.encoding + "' not found Python's " +
                    "codec collection. Either look for a valid name here " +
                    "(https://docs.python.org/2/library/codecs.html#standard-" +
                    "encodings) or omit this argument to enable automated " +
                    "guessing.")
+            oat.print_r(msg)
             sys.exit()
 
     result = oat.analyze_csv_file(args.csv_file, line_limit=500)
