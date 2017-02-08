@@ -121,9 +121,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 24,146 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 70 research performing institutions and research funders. 
+This dataset contains information on 24,141 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 70 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 42,886,409. The average payment was € 1,776  and the median was € 1,588.
+In total, publication fee spending covered by the Open APC initiative amounted to € 42,882,300. The average payment was € 1,776  and the median was € 1,588.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -137,7 +137,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-14,779 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,220,208, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 588).
+14,777 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,218,824, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 588).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -180,7 +180,7 @@ The following table summarises institutional spending on articles published in f
 |University of Bristol                       |       77|               135,628|   1,761 (989)|  1,513|       143 - 4,691|
 |Bochum U                                    |       71|                93,546|   1,318 (460)|  1,438|       100 - 2,042|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
-|TiHo Hannover                               |       68|                88,355|   1,299 (502)|  1,396|       196 - 2,656|
+|TiHo Hannover                               |       66|                86,971|   1,318 (498)|  1,396|       196 - 2,656|
 |Ulm U                                       |       62|                84,310|   1,360 (647)|  1,285|       260 - 5,284|
 |Oldenburg U                                 |       59|                63,175|   1,071 (480)|  1,247|        63 - 1,757|
 |Kassel U                                    |       55|                59,511|   1,082 (545)|  1,129|       150 - 2,321|
@@ -220,7 +220,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,367 open access articles being published in hybrid journals. Total expenditure amounts to  42,886,409 €. Average  fee is 2,420 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,364 open access articles being published in hybrid journals. Total expenditure amounts to  42,882,300 €. Average  fee is 2,420 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -252,10 +252,10 @@ The following institutions have contributed expenditures on hybrid open access j
 |MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
 |Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
 |MPG                                         |       13|                17,508|   1,347 (321)|  1,325|       763 - 1,825|
-|TiHo Hannover                               |       10|                14,059|   1,406 (841)|  1,114|       547 - 3,115|
 |INM - Leibniz-Institut für Neue Materialien |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
 |Milano U                                    |        9|                15,735|   1,748 (861)|  1,969|       400 - 2,706|
 |Plymouth University                         |        7|                16,865|   2,409 (745)|  2,266|     1,190 - 3,642|
+|TiHo Hannover                               |        7|                11,334|   1,619 (930)|  1,435|       547 - 3,115|
 |University of Portsmouth                    |        6|                13,419|   2,236 (751)|  2,653|     1,194 - 2,786|
 |Cranfield University                        |        5|                12,287|   2,457 (983)|  2,532|     1,085 - 3,842|
 |Royal Holloway                              |        3|                 5,751|   1,917 (626)|  1,971|     1,266 - 2,514|
@@ -296,8 +296,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.54%       |
-|PubMed ID                  |  79.22%      |
-|PubMed Central ID          |  74.1%     |
+|PubMed ID                  |  79.21%      |
+|PubMed Central ID          |  74.11%     |
 |Web of Science record ID   | 89.96%      |
 
 
