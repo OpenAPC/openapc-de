@@ -116,6 +116,8 @@ def main():
     deleted_lines = []
     num_total_lines = num_deleted_lines = 0
     for line in content:
+        if len(line) == 0:
+            continue
         num_total_lines += 1
         if line[args.index] not in values:
             modified_content.append(line)
