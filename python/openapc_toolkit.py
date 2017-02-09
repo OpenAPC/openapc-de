@@ -593,7 +593,9 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
     return ret_value
 
 def process_row(row, row_num, column_map, num_required_columns,
-                doaj_offline_analysis=False, bypass_cert_verification=False):
+                no_crossref_lookup=False, no_pubmed_lookup=False,
+                no_doaj_lookup=False, doaj_offline_analysis=False,
+                bypass_cert_verification=False):
     """
     Enrich a single row of data and reformat it according to Open APC standards.
 
@@ -609,11 +611,17 @@ def process_row(row, row_num, column_map, num_required_columns,
         num_required_columns: An int describing the required length of the row
                               list. If not matched, an error is logged and the
                               row is returned unchanged.
+        no_crossref_lookup: If true, no metadata will be imported from crossref.
+        no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
+        no_doaj_lookup: If true, journals will not be checked for being
+                        listended in the DOAJ (default).
         doaj_offline_analysis: If true, a local copy will be used for the DOAJ
-                               lookup.
+                               lookup. Has no effect if no_doaj_lookup is set to
+                               true.
         bypass_cert_verification: If true, certificate validation will be
                                   skipped when connecting to metadata
                                   providers via TLS.
+
      Returns:
         A list of values which represents the enriched and re-arranged variant
         of the input row. If no errors were logged during the process, this
@@ -688,126 +696,129 @@ def process_row(row, row_num, column_map, num_required_columns,
             msg = MESSAGES["doi_norm"].format(doi, norm_doi)
             logging.warning(msg)
         # include crossref metadata
-        crossref_result = get_metadata_from_crossref(doi)
-        if crossref_result["success"]:
-            logging.info("Crossref: DOI resolved: " + doi)
-            current_row["indexed_in_crossref"] = "TRUE"
-            data = crossref_result["data"]
-            prefix = data.pop("prefix")
-            for key, value in data.iteritems():
-                if value is not None:
-                    if key == "journal_full_title":
-                        unified_value = get_unified_journal_title(value)
-                        if unified_value != value:
-                            msg = MESSAGES["unify"].format("journal title",
-                                                           value,
-                                                           unified_value)
-                            logging.warning(msg)
-                        new_value = unified_value
-                    elif key == "publisher":
-                        unified_value = get_unified_publisher_name(value)
-                        if unified_value != value:
-                            msg = MESSAGES["unify"].format("publisher name",
-                                                           value,
-                                                           unified_value)
-                            logging.warning(msg)
-                        new_value = unified_value
-                        # Treat Springer Nature special case: crossref erroneously
-                        # reports publisher "Springer Nature" even for articles
-                        # published before 2015 (publishers fusioned only then)
-                        if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
-                            publisher = None
-                            if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag", "Springer - Psychonomic Society"]:
-                                publisher = "Springer Science + Business Media"
-                            elif prefix in ["Nature Publishing Group", "Nature Publishing Group - Macmillan Publishers"]:
-                                publisher = "Nature Publishing Group"
-                            if publisher:
-                                msg = "Line %s: " + MESSAGES["springer_distinction"]
-                                logging.warning(msg, row_num, publisher, prefix)
-                                new_value = publisher
-                            else:
-                                msg = "Line %s: " + MESSAGES["unknown_prefix"]
-                                logging.error(msg, row_num, prefix)
+        if not no_crossref_lookup:
+            crossref_result = get_metadata_from_crossref(doi)
+            if crossref_result["success"]:
+                logging.info("Crossref: DOI resolved: " + doi)
+                current_row["indexed_in_crossref"] = "TRUE"
+                data = crossref_result["data"]
+                prefix = data.pop("prefix")
+                for key, value in data.iteritems():
+                    if value is not None:
+                        if key == "journal_full_title":
+                            unified_value = get_unified_journal_title(value)
+                            if unified_value != value:
+                                msg = MESSAGES["unify"].format("journal title",
+                                                               value,
+                                                               unified_value)
+                                logging.warning(msg)
+                            new_value = unified_value
+                        elif key == "publisher":
+                            unified_value = get_unified_publisher_name(value)
+                            if unified_value != value:
+                                msg = MESSAGES["unify"].format("publisher name",
+                                                               value,
+                                                               unified_value)
+                                logging.warning(msg)
+                            new_value = unified_value
+                            # Treat Springer Nature special case: crossref erroneously
+                            # reports publisher "Springer Nature" even for articles
+                            # published before 2015 (publishers fusioned only then)
+                            if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
+                                publisher = None
+                                if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag", "Springer - Psychonomic Society"]:
+                                    publisher = "Springer Science + Business Media"
+                                elif prefix in ["Nature Publishing Group", "Nature Publishing Group - Macmillan Publishers"]:
+                                    publisher = "Nature Publishing Group"
+                                if publisher:
+                                    msg = "Line %s: " + MESSAGES["springer_distinction"]
+                                    logging.warning(msg, row_num, publisher, prefix)
+                                    new_value = publisher
+                                else:
+                                    msg = "Line %s: " + MESSAGES["unknown_prefix"]
+                                    logging.error(msg, row_num, prefix)
+                        else:
+                            new_value = value
                     else:
-                        new_value = value
-                else:
-                    new_value = "NA"
-                    msg = (u"WARNING: Element '%s' not found in in response for " +
-                           "doi %s.")
-                    logging.debug(msg, key, doi)
-                old_value = current_row[key]
-                current_row[key] = column_map[key].check_overwrite(old_value, new_value)
-        else:
-            msg = "Line %s: Crossref: Error while trying to resolve DOI %s: %s"
-            logging.error(msg, row_num, doi, crossref_result["error_msg"])
-            current_row["indexed_in_crossref"] = "FALSE"
-
+                        new_value = "NA"
+                        msg = (u"WARNING: Element '%s' not found in in response for " +
+                               "doi %s.")
+                        logging.debug(msg, key, doi)
+                    old_value = current_row[key]
+                    current_row[key] = column_map[key].check_overwrite(old_value, new_value)
+            else:
+                msg = "Line %s: Crossref: Error while trying to resolve DOI %s: %s"
+                logging.error(msg, row_num, doi, crossref_result["error_msg"])
+                current_row["indexed_in_crossref"] = "FALSE"
         # include pubmed metadata
-        pubmed_result = get_metadata_from_pubmed(doi)
-        if pubmed_result["success"]:
-            logging.info("Pubmed: DOI resolved: " + doi)
-            data = pubmed_result["data"]
-            for key, value in data.iteritems():
-                if value is not None:
-                    new_value = value
-                else:
-                    new_value = "NA"
-                    msg = (u"WARNING: Element %s not found in in response for " +
-                           "doi %s.")
-                    logging.debug(msg, key, doi)
-                old_value = current_row[key]
-                current_row[key] = column_map[key].check_overwrite(old_value, new_value)
-        else:
-            msg = "Line %s: Pubmed: Error while trying to resolve DOI %s: %s"
-            logging.error(msg, row_num, doi, pubmed_result["error_msg"])
+        if not no_pubmed_lookup:
+            pubmed_result = get_metadata_from_pubmed(doi)
+            if pubmed_result["success"]:
+                logging.info("Pubmed: DOI resolved: " + doi)
+                data = pubmed_result["data"]
+                for key, value in data.iteritems():
+                    if value is not None:
+                        new_value = value
+                    else:
+                        new_value = "NA"
+                        msg = (u"WARNING: Element %s not found in in response for " +
+                               "doi %s.")
+                        logging.debug(msg, key, doi)
+                    old_value = current_row[key]
+                    current_row[key] = column_map[key].check_overwrite(old_value, new_value)
+            else:
+                msg = "Line %s: Pubmed: Error while trying to resolve DOI %s: %s"
+                logging.error(msg, row_num, doi, pubmed_result["error_msg"])
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
-    issns = []
-    new_value = "NA"
-    if current_row["issn_electronic"] != "NA":
-        issns.append(current_row["issn_electronic"])
-    if current_row["issn"] != "NA":
-        issns.append(current_row["issn"])
-    if current_row["issn_print"] != "NA":
-        issns.append(current_row["issn_print"])
-    for issn in issns:
-        # In some cases xref delievers ISSNs without a hyphen. Add it
-        # temporarily to prevent the DOAJ lookup from failing.
-        if re.match("^\d{7}[\dxX]$", issn):
-            issn = issn[:4] + "-" + issn[4:]
-        # look up in an offline copy of the DOAJ if requested...
-        if doaj_offline_analysis:
-            lookup_result = doaj_offline_analysis.lookup(issn)
-            if lookup_result:
-                msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
-                       "offline copy ('%s').")
-                logging.info(msg, issn, lookup_result)
-                new_value = "TRUE"
-                break
-            else:
-                msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
-                       "offline copy.")
-                new_value = "FALSE"
-                logging.info(msg, issn)
-        # ...or query the online API
-        else:
-            doaj_res = lookup_journal_in_doaj(issn, bypass_cert_verification)
-            if doaj_res["data_received"]:
-                if doaj_res["data"]["in_doaj"]:
-                    msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
-                    logging.info(msg, issn, doaj_res["data"]["title"])
+    if not no_doaj_lookup:
+        issns = []
+        new_value = "NA"
+        if current_row["issn_electronic"] != "NA":
+            issns.append(current_row["issn_electronic"])
+        if current_row["issn"] != "NA":
+            issns.append(current_row["issn"])
+        if current_row["issn_print"] != "NA":
+            issns.append(current_row["issn_print"])
+        for issn in issns:
+            # In some cases xref delievers ISSNs without a hyphen. Add it
+            # temporarily to prevent the DOAJ lookup from failing.
+            if re.match("^\d{7}[\dxX]$", issn):
+                issn = issn[:4] + "-" + issn[4:]
+            # look up in an offline copy of the DOAJ if requested...
+            if doaj_offline_analysis:
+                lookup_result = doaj_offline_analysis.lookup(issn)
+                if lookup_result:
+                    msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
+                           "offline copy ('%s').")
+                    logging.info(msg, issn, lookup_result)
                     new_value = "TRUE"
                     break
                 else:
-                    msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
-                    logging.info(msg, issn)
+                    msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
+                           "offline copy.")
                     new_value = "FALSE"
+                    logging.info(msg, issn)
+            # ...or query the online API
             else:
-                msg = (u"Line %s: DOAJ: Error while trying to look up " +
-                       "ISSN %s: %s")
-                logging.error(msg, row_num, issn, doaj_res["error_msg"])
-    old_value = current_row["doaj"]
-    current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
+                doaj_res = lookup_journal_in_doaj(issn, bypass_cert_verification)
+                if doaj_res["data_received"]:
+                    if doaj_res["data"]["in_doaj"]:
+                        msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
+                        logging.info(msg, issn, doaj_res["data"]["title"])
+                        new_value = "TRUE"
+                        break
+                    else:
+                        msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
+                        logging.info(msg, issn)
+                        new_value = "FALSE"
+                else:
+                    msg = (u"Line %s: DOAJ: Error while trying to look up " +
+                           "ISSN %s: %s")
+                    logging.error(msg, row_num, issn, doaj_res["error_msg"])
+        old_value = current_row["doaj"]
+        current_row["doaj"] = column_map["doaj"].check_overwrite(old_value,
+                                                                 new_value)
     return current_row.values()
 
 

@@ -141,6 +141,12 @@ ARG_HELP_STRINGS = {
                        "csv file",
     "overwrite": "Always overwrite existing data with imported data " +
                  "(instead of asking on the first conflict)",
+    "no_crossref": "Do not import metadata from crossref. Since journal ISSN " +
+                   "numbers are imported from crossref, this will also make " +
+                   "a DOAJ lookup impossible if no ISSN fields are present in " +
+                   "the input data.",
+    "no_pubmed": "Do not import metadata from pubmed.",
+    "no_doaj": "Do not look up journals for being listended in the DOAJ.",
     "institution": "Manually identify the 'institution' column if the script " +
                    "fails to detect it automatically. The value is the " +
                    "numerical column index in the CSV file, with the " +
@@ -213,6 +219,12 @@ def main():
                         help=ARG_HELP_STRINGS["verbose"])
     parser.add_argument("-o", "--overwrite", action="store_true",
                         help=ARG_HELP_STRINGS["overwrite"])
+    parser.add_argument("--no-crossref", action="store_true",
+                        help=ARG_HELP_STRINGS["no_crossref"])
+    parser.add_argument("--no-pubmed", action="store_true",
+                        help=ARG_HELP_STRINGS["no_pubmed"])
+    parser.add_argument("--no-doaj", action="store_true",
+                        help=ARG_HELP_STRINGS["no_doaj"])
     parser.add_argument("-institution", "--institution_column", type=int,
                         help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("-period", "--period_column", type=int,
@@ -572,7 +584,8 @@ def main():
             continue
         print "---Processing line number " + str(row_num) + "---"
         enriched_row = oat.process_row(row, row_num, column_map, num_columns,
-                                       doaj_offline_analysis,
+                                       args.no_crossref, args.no_pubmed,
+                                       args.no_doaj, doaj_offline_analysis,
                                        args.bypass_cert_verification)
         enriched_content.append(enriched_row)
 
