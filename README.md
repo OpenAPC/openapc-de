@@ -137,7 +137,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-14,777 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,218,824, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 588).
+14,779 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,223,134, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 588).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -146,9 +146,9 @@ The following table summarises institutional spending on articles published in f
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |MPG                                         |    3,076|             3,999,318|   1,300 (465)|  1,180|        69 - 7,419|
-|Wellcome Trust                              |    1,158|             2,061,618|   1,780 (772)|  1,634|       229 - 5,486|
+|Wellcome Trust                              |    1,159|             2,063,196|   1,780 (771)|  1,633|       229 - 5,486|
 |University of Calgary                       |      884|               993,823|   1,124 (448)|  1,145|        50 - 4,632|
-|FWF - Austrian Science Fund                 |      754|             1,059,117|   1,405 (650)|  1,274|       100 - 5,216|
+|FWF - Austrian Science Fund                 |      755|             1,061,848|   1,406 (651)|  1,275|       100 - 5,216|
 |Goettingen U                                |      650|               883,918|   1,360 (476)|  1,354|       180 - 4,695|
 |OpenAIRE                                    |      546|               792,703|   1,452 (424)|  1,413|       209 - 2,086|
 |Regensburg U                                |      484|               652,522|   1,348 (564)|  1,254|        77 - 4,403|
@@ -220,15 +220,15 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,364 open access articles being published in hybrid journals. Total expenditure amounts to  42,882,300 €. Average  fee is 2,420 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,362 open access articles being published in hybrid journals. Total expenditure amounts to  42,882,300 €. Average  fee is 2,420 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|Wellcome Trust                              |    3,220|             8,689,174|   2,699 (961)|  2,633|       267 - 6,083|
-|FWF - Austrian Science Fund                 |    2,559|             6,128,178|   2,395 (733)|  2,521|       120 - 5,315|
+|Wellcome Trust                              |    3,219|             8,687,596|   2,699 (961)|  2,633|       267 - 6,083|
+|FWF - Austrian Science Fund                 |    2,558|             6,125,447|   2,395 (733)|  2,519|       120 - 5,315|
 |UCL                                         |    1,415|             2,796,186|   1,976 (685)|  1,862|       248 - 5,064|
 |Imperial College London                     |      382|               937,573|   2,454 (729)|  2,576|       255 - 5,228|
 |University of Cambridge                     |      315|               798,488|   2,535 (800)|  2,585|       -65 - 5,293|
@@ -296,8 +296,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.54%       |
-|PubMed ID                  |  79.21%      |
-|PubMed Central ID          |  74.11%     |
+|PubMed ID                  |  80.13%      |
+|PubMed Central ID          |  75.46%     |
 |Web of Science record ID   | 89.96%      |
 
 
