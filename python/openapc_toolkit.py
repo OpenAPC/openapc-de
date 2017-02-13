@@ -935,7 +935,8 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Mass Communication & Journalism": "Journal of Mass Communication and Journalism",
         "Journal of Child and Adolescent Behavior": "Journal of Child and Adolescent Behaviour",
         "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
-        "manuscripta mathematica": "Manuscripta Mathematica"
+        "manuscripta mathematica": "Manuscripta Mathematica",
+        "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
