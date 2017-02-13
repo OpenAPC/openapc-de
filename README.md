@@ -137,7 +137,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-14,779 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,223,134, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 588).
+14,790 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,239,084, including value-added tax; the average payment was € 1,368 (median =  € 1,276, SD = € 588).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -145,7 +145,7 @@ The following table summarises institutional spending on articles published in f
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|MPG                                         |    3,076|             3,999,318|   1,300 (465)|  1,180|        69 - 7,419|
+|MPG                                         |    3,087|             4,015,268|   1,301 (464)|  1,184|        69 - 7,419|
 |Wellcome Trust                              |    1,159|             2,063,196|   1,780 (771)|  1,633|       229 - 5,486|
 |University of Calgary                       |      884|               993,823|   1,124 (448)|  1,145|        50 - 4,632|
 |FWF - Austrian Science Fund                 |      755|             1,061,848|   1,406 (651)|  1,275|       100 - 5,216|
@@ -220,7 +220,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,362 open access articles being published in hybrid journals. Total expenditure amounts to  42,882,300 €. Average  fee is 2,420 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,351 open access articles being published in hybrid journals. Total expenditure amounts to  42,882,300 €. Average  fee is 2,421 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -251,7 +251,6 @@ The following institutions have contributed expenditures on hybrid open access j
 |HZDR                                        |       20|                11,880|     594 (118)|    570|       540 - 1,080|
 |MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
 |Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
-|MPG                                         |       13|                17,508|   1,347 (321)|  1,325|       763 - 1,825|
 |INM - Leibniz-Institut für Neue Materialien |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
 |Milano U                                    |        9|                15,735|   1,748 (861)|  1,969|       400 - 2,706|
 |Plymouth University                         |        7|                16,865|   2,409 (745)|  2,266|     1,190 - 3,642|
@@ -260,6 +259,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Cranfield University                        |        5|                12,287|   2,457 (983)|  2,532|     1,085 - 3,842|
 |Royal Holloway                              |        3|                 5,751|   1,917 (626)|  1,971|     1,266 - 2,514|
 |GFZ-Potsdam                                 |        2|                 5,985| 2,992 (1,135)|  2,992|     2,190 - 3,795|
+|MPG                                         |        2|                 1,558|     779 ( 23)|    779|       763 -   795|
 |University of Salford                       |        2|                 5,892|   2,946 ( 59)|  2,946|     2,904 - 2,987|
 |Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|     1,581 - 1,581|
 |Duisburg-Essen U                            |        1|                 2,618|   2,618 (  0)|  2,618|     2,618 - 2,618|
