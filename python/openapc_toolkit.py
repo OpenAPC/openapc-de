@@ -647,7 +647,8 @@ def process_row(row, row_num, column_map, num_required_columns,
                                  "discrimination ('%s')",
         "unknown_prefix": u"publisher 'Springer Nature' found for a " +
                            "pre-2015 article, but discrimination was " +
-                           "not possible - unknown prefix ('%s')"
+                           "not possible - unknown prefix ('%s')",
+        "issn_hyphen_fix": u"Normalisation: Added hyphen to %s value (%s -> %s)"
     }
 
     if len(row) != num_required_columns:
@@ -737,6 +738,13 @@ def process_row(row, row_num, column_map, num_required_columns,
                                 else:
                                     msg = "Line %s: " + MESSAGES["unknown_prefix"]
                                     logging.error(msg, row_num, prefix)
+                        # Fix ISSNs without hyphen
+                        elif key in ["issn", "issn_print", "issn_electronic"]:
+                            new_value = value
+                            if re.match("^\d{7}[\dxX]$", value):
+                                new_value = value[:4] + "-" + value[4:]
+                                msg = "Line %s: " + MESSAGES["issn_hyphen_fix"]
+                                logging.warning(msg, row_num, key, value, new_value)
                         else:
                             new_value = value
                     else:
