@@ -474,6 +474,12 @@ def get_metadata_from_crossref(doi_string):
         response = urllib2.urlopen(req)
         content_string = response.read()
         root = ET.fromstring(content_string)
+        doi_element = root.findall(".//cr_qr:doi", namespaces)
+        doi_type = doi_element[0].attrib['type']
+        if doi_type != "journal_article":
+            msg = ("Unsupported DOI type '" + doi_type + "' (OpenAPC only " +
+                   "supports journal articles)")
+            raise ValueError(msg)
         crossref_data = {}
         for path, elem in xpaths.iteritems():
             if elem not in crossref_data:
@@ -492,6 +498,9 @@ def get_metadata_from_crossref(doi_string):
     except ET.ParseError as etpe:
         ret_value['success'] = False
         ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(etpe))
+    except ValueError as ve:
+        ret_value['success'] = False
+        ret_value['error_msg'] = str(ve)
     return ret_value
 
 def get_metadata_from_pubmed(doi_string):
