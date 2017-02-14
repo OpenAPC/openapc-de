@@ -2,7 +2,7 @@
 "Virginia Tech",2012,1004.01,"10.1186/1752-0509-6-S3-S6",FALSE,"Springer Science + Business Media","BMC Systems Biology","1752-0509","1752-0509",NA,"1752-0509",NA,TRUE,"23282371","PMC3524319","ut:000312992900006",NA,TRUE
 "Virginia Tech",2012,1051.52,"10.1371/journal.pone.0047952",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23110142","PMC3480463","ut:000310310200119",NA,TRUE
 "Virginia Tech",2012,307.67,NA,FALSE,"STEM Education and Research Institute ","Journal of STEM Education: Innovations and Research","1557-5284",NA,NA,"1557-5284",NA,FALSE,NA,NA,NA,"http://jstem.org/index.php?journal=JSTEM&page=article&op=view&path%5B%5D=1746",FALSE
-"Virginia Tech",2012,1402.02,"10.1063/1.4747332",FALSE,"AIP Publishing","Applied Physics Letters","0003-6951","0003-6951","1077-3118","0003-6951",NA,TRUE,NA,NA,"ut:000308420800109",NA,FALSE
+"Virginia Tech",2012,1402.02,"10.1063/1.4747332",TRUE,"AIP Publishing","Applied Physics Letters","0003-6951","0003-6951","1077-3118","0003-6951",NA,TRUE,NA,NA,"ut:000308420800109",NA,FALSE
 "Virginia Tech",2012,1168.35,"10.1364/OE.21.001152",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"23389008",NA,"ut:000315988100139",NA,FALSE
 "Virginia Tech",2012,1168.35,"10.1093/nar/gks951",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048",NA,TRUE,"23161673","PMC3553975","ut:000314121100009",NA,TRUE
 "Virginia Tech",2012,233.67,"10.1155/2012/439021",FALSE,"Hindawi Publishing Corporation","International Journal of Reconfigurable Computing","1687-7195","1687-7195","1687-7209","1687-7195","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -37,7 +37,7 @@
 "Virginia Tech",2014,1357.02,"10.3390/s140303891",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220",NA,TRUE,"24573312","PMC4003921","ut:000336783300005",NA,TRUE
 "Virginia Tech",2014,980.07,"10.4161/cc.28189",TRUE,"Informa UK Limited","Cell Cycle","1538-4101","1538-4101","1551-4005","1551-4005",NA,TRUE,"24552811","PMC3984312","ut:000336659200010",NA,FALSE
 "Virginia Tech",2014,112.86,"10.1107/S160053681400453X",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Structure Reports Online","1600-5368",NA,"1600-5368","1600-5368","http://creativecommons.org/licenses/by/2.0/uk/legalcode",TRUE,"24826089","PMC3998581",NA,NA,TRUE
-"Virginia Tech",2014,1130.85,"10.1007/s00784-014-1211-8",FALSE,"Springer Science + Business Media","Clinical Oral Investigations","1432-6981","1432-6981","1436-3771","1432-6981",NA,TRUE,"24595687","PMC4156565","ut:000348981100015",NA,FALSE
+"Virginia Tech",2014,1130.85,"10.1007/s00784-014-1211-8",TRUE,"Springer Science + Business Media","Clinical Oral Investigations","1432-6981","1432-6981","1436-3771","1432-6981",NA,TRUE,"24595687","PMC4156565","ut:000348981100015",NA,FALSE
 "Virginia Tech",2014,1130.85,"10.1186/1471-2458-13-775",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://www.springer.com/tdm",TRUE,"23971427","PMC3765974","ut:000323837300001",NA,TRUE
 "Virginia Tech",2014,1455.46,"10.1186/1471-2458-14-1051",FALSE,"Springer Science + Business Media","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://www.springer.com/tdm",TRUE,"25297840","PMC4198673","ut:000345134100001",NA,TRUE
 "Virginia Tech",2014,376.95,"10.1371/journal.pone.0111609",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25369126","PMC4219731","ut:000344402000077",NA,TRUE
@@ -63,7 +63,7 @@
 "Virginia Tech",2015,955.99,"10.1186/s40038-015-0007-5",FALSE,"Springer Nature","Fire Science Reviews","2193-0414",NA,"2193-0414","2193-0414",NA,TRUE,NA,NA,NA,NA,TRUE
 "Virginia Tech",2015,1017.77,"10.1371/journal.pone.0115414",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25651399","PMC4317179","ut:000349250700001",NA,TRUE
 "Virginia Tech",2015,565.43,"10.1371/journal.pone.0115380",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25531435","PMC4274011","ut:000348845100059",NA,TRUE
-"Virginia Tech",2015,527.73,"10.1145/2699026.2699106",TRUE,"Association for Computing Machinery (ACM)",NA,NA,NA,NA,NA,"http://www.acm.org/publications/policies/copyright_policy#Background",TRUE,NA,NA,NA,NA,NA
+
 "Virginia Tech",2015,1487.76,"10.1186/s12859-014-0439-2",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105","1471-2105","http://www.springer.com/tdm",TRUE,"25592753","PMC4302125","ut:000348816000001",NA,TRUE
 "Virginia Tech",2015,1215.57,"10.1371/journal.pone.0118176",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25775135","PMC4361690","ut:000351183500026",NA,TRUE
 "Virginia Tech",2015,328.5,"10.3823/1606",FALSE,"International Medical Publisher (Fundacion de Neurociencias)","International Archives of Medicine","1755-7682",NA,"1755-7682","1755-7682",NA,TRUE,NA,NA,NA,NA,FALSE
