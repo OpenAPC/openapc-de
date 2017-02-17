@@ -953,7 +953,8 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Child and Adolescent Behavior": "Journal of Child and Adolescent Behaviour",
         "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
         "manuscripta mathematica": "Manuscripta Mathematica",
-        "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology"
+        "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology",
+        "Taal en tongval": "Taal en Tongval"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
