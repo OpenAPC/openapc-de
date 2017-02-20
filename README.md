@@ -123,9 +123,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 24,717 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 72 research performing institutions and research funders. 
+This dataset contains information on 24,742 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 72 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 43,563,260. The average payment was € 1,762  and the median was € 1,564.
+In total, publication fee spending covered by the Open APC initiative amounted to € 43,596,359. The average payment was € 1,762  and the median was € 1,564.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -139,7 +139,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-15,352 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,899,565, including value-added tax; the average payment was € 1,361 (median =  € 1,272, SD = € 584).
+15,374 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 20,927,891, including value-added tax; the average payment was € 1,361 (median =  € 1,272, SD = € 585).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -176,8 +176,8 @@ The following table summarises institutional spending on articles published in f
 |Duisburg-Essen U                            |      147|               178,437|   1,214 (356)|  1,212|       238 - 2,800|
 |TU Dresden                                  |      130|               175,723|   1,352 (416)|  1,415|       200 - 2,193|
 |Leibniz-Fonds                               |      129|               208,581|   1,617 (708)|  1,572|        66 - 4,403|
+|GFZ-Potsdam                                 |      126|               148,862|   1,181 (755)|  1,082|       137 - 4,403|
 |University of Birmingham                    |      105|               163,136|   1,554 (679)|  1,481|       137 - 4,691|
-|GFZ-Potsdam                                 |      104|               120,536|   1,159 (715)|  1,062|       223 - 4,403|
 |Harvard U                                   |       95|                83,793|     882 (536)|    830|        75 - 3,139|
 |Bayreuth U                                  |       92|               105,725|   1,149 (532)|  1,200|        82 - 2,059|
 |University of Cambridge                     |       84|               134,018|   1,595 (824)|  1,462|    -1,057 - 4,722|
@@ -224,7 +224,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,365 open access articles being published in hybrid journals. Total expenditure amounts to  43,563,260 €. Average  fee is 2,420 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,368 open access articles being published in hybrid journals. Total expenditure amounts to  43,596,359 €. Average  fee is 2,420 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -262,8 +262,8 @@ The following institutions have contributed expenditures on hybrid open access j
 |TiHo Hannover                               |        7|                11,334|   1,619 (930)|  1,435|       547 - 3,115|
 |University of Portsmouth                    |        6|                13,419|   2,236 (751)|  2,653|     1,194 - 2,786|
 |Cranfield University                        |        5|                12,287|   2,457 (983)|  2,532|     1,085 - 3,842|
+|GFZ-Potsdam                                 |        5|                10,756| 2,151 (1,343)|  2,190|       134 - 3,795|
 |Royal Holloway                              |        3|                 5,751|   1,917 (626)|  1,971|     1,266 - 2,514|
-|GFZ-Potsdam                                 |        2|                 5,985| 2,992 (1,135)|  2,992|     2,190 - 3,795|
 |MPG                                         |        2|                 1,558|     779 ( 23)|    779|       763 -   795|
 |University of Salford                       |        2|                 5,892|   2,946 ( 59)|  2,946|     2,904 - 2,987|
 |Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|     1,581 - 1,581|
@@ -300,9 +300,9 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.53%       |
-|PubMed ID                  |  80.24%      |
-|PubMed Central ID          |  75.55%     |
+|DOI                        |  99.54%       |
+|PubMed ID                  |  80.18%      |
+|PubMed Central ID          |  75.49%     |
 |Web of Science record ID   | 89.86%      |
 
 
