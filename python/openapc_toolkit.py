@@ -7,6 +7,7 @@ from collections import OrderedDict
 import json
 import locale
 import logging
+from logging.handlers import MemoryHandler
 import re
 import ssl
 import sys
@@ -200,6 +201,36 @@ class CSVAnalysisResult(object):
                         int(self.enc_conf * 100))
         ret += "***************************"
         return ret
+
+class ANSIColorFormatter(logging.Formatter):
+    """
+    A simple logging formatter using ANSI codes to colorize messages
+    """
+    FORMATS = {
+        logging.ERROR: "\033[91m%(levelname)s: %(message)s\033[0m",
+        logging.WARNING: "\033[93m%(levelname)s: %(message)s\033[0m",
+        logging.INFO: "\033[94m%(levelname)s: %(message)s\033[0m",
+        "DEFAULT": "%(levelname)s: %(message)s"
+    }
+
+    def format(self, record):
+        self._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
+        return logging.Formatter.format(self, record)
+
+class BufferedErrorHandler(MemoryHandler):
+    """
+    A modified MemoryHandler without automatic flushing.
+
+    This handler serves the simple purpose of buffering error and critical
+    log messages so that they can be shown to the user in collected form when
+    the enrichment process has finished.
+    """
+    def __init__(self, target):
+        MemoryHandler.__init__(self, 100000, target=target)
+        self.setLevel(logging.ERROR)
+
+    def shouldFlush(self, record):
+        return False
     
 def get_normalised_DOI(doi_string):
     doi_match = DOI_RE.match(doi_string.strip())
