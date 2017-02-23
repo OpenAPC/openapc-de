@@ -7,7 +7,6 @@ from collections import OrderedDict
 import datetime
 import locale
 import logging
-from logging.handlers import MemoryHandler
 import os
 import sys
 
@@ -84,37 +83,6 @@ class CSVColumn(object):
             self.overwrite = CSVColumn.OW_NEVER
             return old_value
 
-class ANSIColorFormatter(logging.Formatter):
-    """
-    A simple logging formatter using ANSI codes to colorize messages
-    """
-    FORMATS = {
-        logging.ERROR: "\033[91m%(levelname)s: %(message)s\033[0m",
-        logging.WARNING: "\033[93m%(levelname)s: %(message)s\033[0m",
-        logging.INFO: "\033[94m%(levelname)s: %(message)s\033[0m",
-        "DEFAULT": "%(levelname)s: %(message)s"
-    }
-
-    def format(self, record):
-        self._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
-        return logging.Formatter.format(self, record)
-
-class BufferedErrorHandler(MemoryHandler):
-    """
-    A modified MemoryHandler without automatic flushing.
-
-    This handler serves the simple purpose of buffering error and critical
-    log messages so that they can be shown to the user in collected form when
-    the enrichment process has finished.
-    """
-    def __init__(self, target):
-        MemoryHandler.__init__(self, 100000, target=target)
-        self.setLevel(logging.ERROR)
-
-    def shouldFlush(self, record):
-        return False
-
-
 ARG_HELP_STRINGS = {
     "csv_file": "CSV file containing your APC data. It must contain at least " +
                 "the 4 mandatory columns defined by the OpenAPC data schema: " +
@@ -141,6 +109,12 @@ ARG_HELP_STRINGS = {
                        "csv file",
     "overwrite": "Always overwrite existing data with imported data " +
                  "(instead of asking on the first conflict)",
+    "no_crossref": "Do not import metadata from crossref. Since journal ISSN " +
+                   "numbers are imported from crossref, this will also make " +
+                   "a DOAJ lookup impossible if no ISSN fields are present in " +
+                   "the input data.",
+    "no_pubmed": "Do not import metadata from pubmed.",
+    "no_doaj": "Do not look up journals for being listended in the DOAJ.",
     "institution": "Manually identify the 'institution' column if the script " +
                    "fails to detect it automatically. The value is the " +
                    "numerical column index in the CSV file, with the " +
@@ -213,6 +187,12 @@ def main():
                         help=ARG_HELP_STRINGS["verbose"])
     parser.add_argument("-o", "--overwrite", action="store_true",
                         help=ARG_HELP_STRINGS["overwrite"])
+    parser.add_argument("--no-crossref", action="store_true",
+                        help=ARG_HELP_STRINGS["no_crossref"])
+    parser.add_argument("--no-pubmed", action="store_true",
+                        help=ARG_HELP_STRINGS["no_pubmed"])
+    parser.add_argument("--no-doaj", action="store_true",
+                        help=ARG_HELP_STRINGS["no_doaj"])
     parser.add_argument("-institution", "--institution_column", type=int,
                         help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("-period", "--period_column", type=int,
@@ -238,9 +218,9 @@ def main():
     enc = None # CSV file encoding
 
     handler = logging.StreamHandler(sys.stderr)
-    handler.setFormatter(ANSIColorFormatter())
-    bufferedHandler = BufferedErrorHandler(handler)
-    bufferedHandler.setFormatter(ANSIColorFormatter())
+    handler.setFormatter(oat.ANSIColorFormatter())
+    bufferedHandler = oat.BufferedErrorHandler(handler)
+    bufferedHandler.setFormatter(oat.ANSIColorFormatter())
     logging.root.addHandler(handler)
     logging.root.addHandler(bufferedHandler)
     logging.root.setLevel(logging.INFO)
@@ -248,27 +228,31 @@ def main():
     if args.locale:
         norm = locale.normalize(args.locale)
         if norm != args.locale:
-            print "locale '{}' not found, normalized to '{}'".format(
-                args.locale, norm)
+            msg = "locale '{}' not found, normalised to '{}'".format(
+                  args.locale, norm)
+            oat.print_y(msg)
         try:
             loc = locale.setlocale(locale.LC_ALL, norm)
-            print "Using locale", loc
+            oat.print_g("Using locale " + loc)
         except locale.Error as loce:
-            print "Setting locale to " + norm + " failed: " + loce.message
+            msg = "Setting locale to {} failed: {}".format(norm, loce.message)
+            oat.print_r(msg)
             sys.exit()
 
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
-            print ("Encoding '{}' found in Python's codec collection " +
+            msg = ("Encoding '{}' found in Python's codec collection " +
                    "as '{}'").format(args.encoding, codec.name)
+            oat.print_g(msg)
             enc = args.encoding
         except LookupError:
-            print ("Error: '" + args.encoding + "' not found Python's " +
+            msg = ("Error: '" + args.encoding + "' not found Python's " +
                    "codec collection. Either look for a valid name here " +
                    "(https://docs.python.org/2/library/codecs.html#standard-" +
                    "encodings) or omit this argument to enable automated " +
                    "guessing.")
+            oat.print_r(msg)
             sys.exit()
 
     result = oat.analyze_csv_file(args.csv_file, line_limit=500)
@@ -568,7 +552,8 @@ def main():
             continue
         print "---Processing line number " + str(row_num) + "---"
         enriched_row = oat.process_row(row, row_num, column_map, num_columns,
-                                       doaj_offline_analysis,
+                                       args.no_crossref, args.no_pubmed,
+                                       args.no_doaj, doaj_offline_analysis,
                                        args.bypass_cert_verification)
         enriched_content.append(enriched_row)
 

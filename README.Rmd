@@ -45,6 +45,7 @@ So far, the following German universities have agreed to share information on pa
 - [Leibniz Universität Hannover](http://tib.uni-hannover.de/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-access/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
+- [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
 - [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oajlu-en?set_language=en)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
@@ -64,6 +65,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
+- [University of Veterinary Medicine Hannover, Foundation (TiHo)](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
 - [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
 - [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
 
@@ -79,7 +81,9 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
+- [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
 - [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
@@ -88,6 +92,10 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
+
+## Participating Italian Institutions
+
+- [Università degli Studi di Milano](http://www.unimi.it/ENG/)
 
 ## Participating Institutions from the United Kingdom:
 
@@ -122,6 +130,11 @@ Jisc Collections released data on APC payments made by UK higher education insti
 ## Participating Institutions from the United States:
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
+- [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
+
+## Participating Canadian Institutions:
+
+- [University of Calgary](http://library.ucalgary.ca/open-access-authors-fund)
 
 ## Supranational participants
 
@@ -290,10 +303,9 @@ Bielefeld University Library archives a copy (including commit history). To cite
 
 This project follows [Wellcome Trust example to share data on paid APCs](http://blog.wellcome.ac.uk/2014/03/28/the-cost-of-open-access-publishing-a-progress-report/). It recognises efforts from [JISC](https://www.jisc-collections.ac.uk/News/Releasing-open-data-about-Total-Cost-of-Ownership/) and the [ESAC initative](http://esac-initiative.org/) to standardise APC reporting.
 
-
 ## Contributors
 
-Benjamin Ahlborn, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Andrea Dorner, Clemens Engelhardt, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Gerrit Kuehle, Doris Jaeger, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Birgit Schlegel, Adriana Sikora, Marco Tullney, Astrid Vieler, Marco Winkler, Sabine Witt, Najko Jahn
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Julia Dickel, Andrea Dorner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
