@@ -14,14 +14,14 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 7,201 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
+This dataset contains information on 7,215 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
 
 |Institution                                                      | Articles|
 |:----------------------------------------------------------------|--------:|
 |University College London                                        |      238|
 |University of Cambridge                                          |      222|
-|MPG                                                              |      201|
+|MPG                                                              |      215|
 |University of Groningen                                          |      199|
 |Erasmus MC                                                       |      186|
 |Leiden University                                                |      178|
