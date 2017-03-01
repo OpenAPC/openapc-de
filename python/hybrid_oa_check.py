@@ -28,12 +28,12 @@ class LandingPageLookup(object):
     """
     Encapsulates information on how to perform a landing page lookup for a
     given publisher.
-    
+
     Attributes:
         publisher_name: The publisher name as it occurs in the "publisher"
                         column of the given OpenAPC file
         landingpage_domain: The domain where the publisher's landing
-                            pages reside (like "sciencedirect.com"). 
+                            pages reside (like "sciencedirect.com").
                             A simple match against this value is performed
                             for all DOI targets, so it should not be too specific.
         regex_groups: A list of RegexGroup objects. At least one of these groups
@@ -50,10 +50,10 @@ class LandingPageLookup(object):
             self.publisher_aliases = []
         else:
             self.publisher_aliases = publisher_aliases
-        
+
     def publisher_matches(self, publisher):
         return publisher == self.publisher_name or publisher in self.publisher_aliases
-        
+
     def search_for_oa(self, page_content):
         for group in self.regex_groups:
             link = group.search(page_content)
@@ -61,11 +61,11 @@ class LandingPageLookup(object):
                 continue
             return link
         return None
-        
+
 class RegexGroup(object):
     """
     A simple container class for grouping regular expressions objects.
-    
+
     Instances of this class are created with an arbitrary number of
     pre-compiled regular expressions objects. Its purpose is to bundle
     a set of expressions which must all match to confirm the OA status
@@ -76,7 +76,7 @@ class RegexGroup(object):
         self.regexes = []
         for regex in args:
             self.regexes.append(regex)
-            
+
     def search(self, text):
         link = ""
         for regex in self.regexes:
@@ -87,8 +87,8 @@ class RegexGroup(object):
             if len(groups) > 0:
                 link = groups[0]
         return link
-        
-        
+
+
 elsevier_regex_groups = [
     # landing pages with a single pdf file
     RegexGroup(re.compile('<a id="pdfLink".*?pdfurl="(.*?)"')),
@@ -107,7 +107,7 @@ wiley_regex_groups = [
     RegexGroup(re.compile('<li class="box-actions"><a href="(.*?)" class="js-article-section__pdf-container-link article-section__pdf-container-link"')),
     RegexGroup(re.compile('<span class="article-type article-type--open-access">.*?Open Access.*?</span>'))
 ]
-        
+
 elsevier = LandingPageLookup("Elsevier BV", "sciencedirect.com", elsevier_regex_groups)
 springer = LandingPageLookup("Springer Nature", "link.springer.com", springer_regex_groups, ["Springer Science + Business Media"])
 wiley = LandingPageLookup("Wiley-Blackwell", "onlinelibrary.wiley.com", wiley_regex_groups)
@@ -212,7 +212,7 @@ def main():
                                    "http://doi.org/{}").format(line_num, doi)
                     logging.warning(warning_msg)
                 else:
-                   oat.print_g(u"PDF link found: " + pdf_link)
+                    oat.print_g(u"PDF link found: " + pdf_link)
         time.sleep(1)
 
     if not bufferedHandler.buffer:
