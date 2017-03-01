@@ -13,6 +13,7 @@ The working group within the Austrian consortium (AG Springer Compact) is evalua
 The original data provided by Springer had errors in assigning institutions correctly. After requesting a new data set, Springer provided a corrected version. There still might be minor errors. 
 
 Contact: 
-Marton Villanyi <mailto: marton.villanyi@ist.ac.at>, Magdalena Andrae <mailto: open-access@ub.tuwien.ac.at>
+marton.villanyi@ist.ac.at; open-access@ub.tuwien.ac.at
+
 
 
