@@ -123,9 +123,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 24,744 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 72 research performing institutions and research funders. 
+This dataset contains information on 24,742 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 72 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 43,597,672. The average payment was € 1,762  and the median was € 1,564.
+In total, publication fee spending covered by the Open APC initiative amounted to € 43,594,555. The average payment was € 1,762  and the median was € 1,564.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -224,7 +224,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,368 open access articles being published in hybrid journals. Total expenditure amounts to  43,597,672 €. Average  fee is 2,420 € and the median 2,400 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 9,366 open access articles being published in hybrid journals. Total expenditure amounts to  43,594,555 €. Average  fee is 2,420 € and the median 2,400 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -233,9 +233,9 @@ The following institutions have contributed expenditures on hybrid open access j
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |Wellcome Trust                              |    3,219|             8,687,596|   2,699 (961)|  2,633|       267 - 6,083|
 |FWF - Austrian Science Fund                 |    2,558|             6,125,447|   2,395 (733)|  2,519|       120 - 5,315|
-|UCL                                         |    1,415|             2,796,186|   1,976 (685)|  1,862|       248 - 5,064|
+|UCL                                         |    1,414|             2,795,364|   1,977 (684)|  1,862|       248 - 5,064|
 |Imperial College London                     |      382|               937,573|   2,454 (729)|  2,576|       255 - 5,228|
-|University of Cambridge                     |      315|               798,488|   2,535 (800)|  2,585|       -65 - 5,293|
+|University of Cambridge                     |      314|               796,194|   2,536 (801)|  2,585|       -65 - 5,293|
 |University of Bristol                       |      218|               523,705|   2,402 (706)|  2,234|       298 - 4,572|
 |University of Birmingham                    |      186|               416,606|   2,240 (641)|  2,234|       298 - 4,468|
 |Newcastle University                        |      168|               430,248|   2,561 (865)|  2,603|       694 - 6,965|
@@ -302,7 +302,7 @@ Indexing coverage
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.54%       |
 |PubMed ID                  |  80.18%      |
-|PubMed Central ID          |  75.48%     |
+|PubMed Central ID          |  75.49%     |
 |Web of Science record ID   | 89.86%      |
 
 
