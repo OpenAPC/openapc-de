@@ -530,8 +530,8 @@
 "University of Calgary",2014,269.58,NA,FALSE,"East West Institute","The West East Journal of Social Sciences","2168-7307",NA,NA,"2168-7307",NA,FALSE,NA,NA,NA,"http://westeastinstitute.com/journals/wp-content/uploads/2014/10/1FatemaChristine-and-Liza.pdf",FALSE
 "University of Calgary",2014,1095.73,"10.1890/es13-00380.1",FALSE,"Wiley-Blackwell","Ecosphere","2150-8925","2150-8925",NA,"2150-8925","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000345097000015",NA,TRUE
 
-"University of Calgary",2013,1350.6,"10.1016/j.ijppaw.2013.03.002",TRUE,"Elsevier BV","International Journal for Parasitology: Parasites and Wildlife","22132244","22132244",NA,"2213-2244","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24533324","PMC3862520",NA,NA,FALSE
-"University of Calgary",2013,1319.47,"10.1016/j.ijppaw.2013.05.002",TRUE,"Elsevier BV","International Journal for Parasitology: Parasites and Wildlife","22132244","22132244",NA,"2213-2244","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24533335","PMC3862502",NA,NA,FALSE
+"University of Calgary",2013,1350.6,"10.1016/j.ijppaw.2013.03.002",FALSE,"Elsevier BV","International Journal for Parasitology: Parasites and Wildlife","22132244","22132244",NA,"2213-2244","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24533324","PMC3862520",NA,NA,FALSE
+"University of Calgary",2013,1319.47,"10.1016/j.ijppaw.2013.05.002",FALSE,"Elsevier BV","International Journal for Parasitology: Parasites and Wildlife","22132244","22132244",NA,"2213-2244","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24533335","PMC3862502",NA,NA,FALSE
 "University of Calgary",2013,1372.31,"10.1016/j.jbiotec.2013.07.004",TRUE,"Elsevier BV","Journal of Biotechnology","01681656","01681656",NA,"0168-1656","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23871656",NA,"ut:000324737900006",NA,FALSE
 "University of Calgary",2013,2240.59,"10.1016/j.vetimm.2013.08.005",TRUE,"Elsevier BV","Veterinary Immunology and Immunopathology","01652427","01652427",NA,"0165-2427","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"24034933",NA,"ut:000325832700008",NA,FALSE
 "University of Calgary",2013,290.3,"10.1016/j.eucr.2015.03.009",FALSE,"Elsevier BV","Urology Case Reports","22144420","22144420",NA,"2214-4420","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26793524","PMC4672652",NA,NA,FALSE
@@ -704,7 +704,7 @@
 "University of Calgary",2014,1320.83,"10.1159/000366451",FALSE,"S. Karger AG","Nephron Extra","1664-5529",NA,"1664-5529","1664-5529",NA,TRUE,"25404936","PMC4224231",NA,NA,TRUE
 "University of Calgary",2014,49.78,"10.3991/ijep.v5i1.4046",FALSE,"IGIP","International Journal of Engineering Pedagogy (iJEP)","2192-4880",NA,"2192-4880","2192-4880",NA,TRUE,NA,NA,"ut:000366060100003",NA,TRUE
 "University of Calgary",2014,1428.81,"10.4161/19336950.2014.954224",TRUE,"Informa UK Limited","Channels","1933-6950","1933-6950","1933-6969","1933-6950",NA,TRUE,"25483582","PMC4594508","ut:000348382300006",NA,FALSE
-"University of Calgary",2014,311.33,NA,FALSE,"Lifescience Global","Journal of Criminology and Sociology","1929-4409",NA,NA,"1929-4409",NA,FALSE,NA,NA,NA,"http://www.lifescienceglobal.com/pms/index.php/ijcs/article/viewFile/1987/1197",FALSE
+"University of Calgary",2014,311.33,NA,FALSE,"Lifescience Global","International Journal of Criminology and Sociology","1929-4409",NA,NA,"1929-4409",NA,FALSE,NA,NA,NA,"http://www.lifescienceglobal.com/pms/index.php/ijcs/article/viewFile/1987/1197",FALSE
 "University of Calgary",2014,1558.9,"10.1179/1362171814Y.0000000196",TRUE,"Informa UK Limited","Science and Technology of Welding and Joining","1362-1718","1362-1718","1743-2936","1362-1718",NA,TRUE,NA,NA,"ut:000337135100007",NA,FALSE
 "University of Calgary",2010,215.77,"10.3390/rs2051348",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292",NA,TRUE,NA,NA,"ut:000208401500008",NA,TRUE
 "University of Calgary",2012,254.94,"10.3390/rel3030833",FALSE,"MDPI AG","Religions","2077-1444",NA,"2077-1444","2077-1444",NA,TRUE,NA,NA,"ut:000321254100016",NA,TRUE
@@ -763,7 +763,7 @@
 "University of Calgary",2015,106.24,"10.4172/2376-0249.1000296",FALSE,"OMICS Publishing Group","International Journal of Clinical & Medical Imaging","23760249",NA,"23760249","2376-0249",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Calgary",2015,106.24,"10.4172/2376-0249.1000297",FALSE,"OMICS Publishing Group","International Journal of Clinical & Medical Imaging","23760249",NA,"23760249","2376-0249",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Calgary",2015,651.37,"10.4172/2165-7912.1000261",FALSE,"OMICS Publishing Group","Journal of Mass Communication and Journalism","21657912",NA,"21657912","2165-7912",NA,TRUE,NA,NA,NA,NA,FALSE
-"University of Calgary",2014,92.89,NA,FALSE,"Omics Publishing Group","International Journal of Clinical & Medical Imaging","2376-0249",NA,NA,"2376-0249",NA,FALSE,NA,NA,NA,"http://imagejournals.org/acanthosis-nigricans.php?image_id=169",FALSE
+"University of Calgary",2014,92.89,NA,FALSE,"OMICS Publishing Group","International Journal of Clinical & Medical Imaging","2376-0249",NA,NA,"2376-0249",NA,FALSE,NA,NA,NA,"http://imagejournals.org/acanthosis-nigricans.php?image_id=169",FALSE
 
 "University of Calgary",2014,1174.43,NA,FALSE,"Open Medicine Publications","Open Medicine","1911-2092",NA,NA,"1911-2092",NA,FALSE,NA,"4242789",NA,"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4242789/",FALSE
 "University of Calgary",2011,1328.48,"10.1364/OE.19.003004",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"21369125",NA,"ut:000288860000021",NA,FALSE

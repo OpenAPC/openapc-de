@@ -2659,261 +2659,784 @@
 "University College London","10.1007/s11224-016-0852-4","2016"
 "Newcastle University","10.1007/s00401-016-1625-2","2016"
 "University of Cambridge","10.1007/s11224-016-0841-7","2016"
-"Bournemouth University","10.1007/s10531-016-1209-4",2016,TRUE
-"Imperial College London","10.1007/s10854-016-5750-4",2016,TRUE
-"King's College London","10.1007/s11914-016-0325-0",2016,TRUE
-"King's College London","10.1007/s11192-016-2139-3",2016,TRUE
-"University of Bath","10.1007/s11229-016-1231-9",2016,TRUE
-"University of Leeds","10.1007/s11242-016-0770-3",2016,TRUE
-"University of Nottingham","10.1007/s11367-016-1203-9",2016,TRUE
-"University of St Andrews","10.1007/s10336-016-1395-6",2016,TRUE
-"University of Ulster","10.1007/s11127-016-0379-7",2016,TRUE
-"University of York","10.1007/s10437-016-9232-0",2016,TRUE
-"Edge Hill University","10.1007/s00500-016-2383-8",2016,TRUE
-"King's College London","10.1007/s11625-016-0400-6",2016,TRUE
-"Liverpool John Moores University","10.1007/s00421-016-3480-1",2016,TRUE
-"Loughborough University","10.1007/s40279-016-0621-y",2016,TRUE
-"Northumbria University","10.1007/s00521-016-2564-5",2016,TRUE
-"University College London","10.1007/s13142-016-0438-0",2016,TRUE
-"University of Cambridge","10.1007/s10858-016-0056-7",2016,TRUE
-"University of Cambridge","10.1007/s40472-016-0116-7",2016,TRUE
-"University of Liverpool","10.1007/s11071-016-3097-2",2016,TRUE
-"University of Liverpool","10.3758/s13428-016-0808-z",2016,TRUE
-"University of Strathclyde","10.1007/s11219-016-9339-1",2016,TRUE
-"University of Aberdeen","10.1007/s10459-016-9715-4",2016,TRUE
-"University of Bath","10.1007/s11538-016-0209-6",2016,TRUE
-"University of Birmingham","10.1007/s13361-016-1482-1",2016,TRUE
-"University of Cambridge","10.1007/s40803-016-0034-x",2016,TRUE
-"University of Cambridge","10.1007/s10992-016-9412-z",2016,TRUE
-"University of Glasgow","10.1007/s11222-016-9708-4",2016,TRUE
-"University of Hull","10.1007/s00181-016-1176-3",2016,TRUE
-"University of Manchester","10.1007/s12650-016-0396-0",2016,TRUE
-"University of St Andrews","10.1007/s11153-016-9588-8",2016,TRUE
-"Imperial College London","10.1007/s13239-016-0280-z",2016,TRUE
-"Newcastle University","10.1007/s13147-016-0435-2",2016,TRUE
-"Queen's University of Belfast","10.1007/s13346-016-0332-9",2016,TRUE
-"University of Abertay Dundee","10.1007/s00265-016-2211-2",2016,TRUE
-"University of Bath","10.1007/s10948-016-3824-4",2016,TRUE
-"University of Bradford","10.1007/s13199-016-0447-2",2016,TRUE
-"University of Cambridge","10.1007/s00222-016-0685-1",2016,TRUE
-"University of Oxford","10.1007/s13347-016-0236-0",2016,TRUE
-"University of Southampton","10.1007/s12928-016-0434-9",2016,TRUE
-"City University London","10.1007/s00182-016-0552-8",2016,TRUE
-"Imperial College London","10.1007/s10921-016-0374-4",2016,TRUE
-"King's College London","10.1007/s11908-016-0544-7",2016,TRUE
-"London School of Economics and Political Science","10.1007/s40804-016-0044-0",2016,TRUE
-"Newcastle University","10.1007/s00018-016-2391-y",2016,TRUE
-"University College London","10.1007/s10397-016-0983-z",2016,TRUE
-"University College London","10.1140/epjd/e2016-70124-7",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0680-y",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0673-x",2016,TRUE
-"University of Dundee","10.1007/s11538-016-0214-9",2016,TRUE
-"University of Manchester","10.1007/s10826-016-0564-9",2016,TRUE
-"University of Sheffield","10.1007/s11153-016-9589-7",2016,TRUE
-"University of Warwick","10.1007/s00371-016-1322-0",2016,TRUE
-"Imperial College London","10.1007/s10854-016-5780-y",2016,TRUE
-"King's College London","10.1007/s40472-016-0115-8",2016,TRUE
-"Loughborough University","10.1007/s11661-016-3790-2",2016,TRUE
-"University College London","10.1007/s00429-016-1313-y",2016,TRUE
-"University College London","10.1007/s10548-016-0526-y",2016,TRUE
-"University of Cambridge","10.1007/s11625-016-0402-4",2016,TRUE
-"University of Leeds","10.1007/s10404-016-1806-2",2016,TRUE
-"University of Manchester","10.1007/s11042-016-3927-8",2016,TRUE
-"University of Reading","10.1007/s00704-016-1922-7",2016,TRUE
-"Imperial College London","10.1007/s00332-016-9336-3",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0677-6",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0678-5",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0674-9",2016,TRUE
-"University of Cambridge","10.1007/s10689-016-9928-y",2016,TRUE
-"University of Exeter","10.1007/s10436-016-0281-9",2016,TRUE
-"University of York","10.1007/s11145-016-9699-8",2016,TRUE
-"King's College London","10.1007/s10897-016-0008-0",2016,TRUE
-"Queen's University of Belfast","10.1007/s11265-016-1185-7",2016,TRUE
-"University of Bristol","10.1140/epjst/e2016-60148-1",2016,TRUE
-"University of Huddersfield","10.1007/s00170-016-9457-8",2016,TRUE
-"University of Oxford","10.1140/epjst/e2016-60152-y",2016,TRUE
-"Aston University","10.1007/s10611-016-9652-4",2016,TRUE
-"Cardiff University","10.1007/s00405-016-4338-1",2016,TRUE
-"King's College London","10.1007/s10654-016-0152-8",2016,TRUE
-"Sheffield Hallam University","10.1007/s10854-016-5802-9",2016,TRUE
-"University of East Anglia","10.3758/s13423-016-1168-5",2016,TRUE
-"Keele University","10.1007/s11406-016-9758-z",2016,TRUE
-"University of Oxford","10.1007/s11069-016-2592-6",2016,TRUE
-"University of Sheffield","10.1007/s12283-016-0220-z",2016,TRUE
-"Cardiff University","10.1007/s00415-016-8297-7",2016,TRUE
-"Cardiff University","10.1007/s40139-016-0119-1",2016,TRUE
-"Imperial College London","10.1007/s10898-016-0474-9",2016,TRUE
-"Natural History Museum","10.1007/s10498-016-9304-4",2016,TRUE
-"Nottingham Trent University","10.1007/s10578-016-0690-z",2016,TRUE
-"University of Dundee","10.1007/s40520-016-0636-0",2016,TRUE
-"University of East Anglia","10.1007/s00167-016-4314-8",2016,TRUE
-"University of Manchester","10.1007/s00018-016-2386-8",2016,TRUE
-"University of Warwick","10.1007/s11229-016-1243-5",2016,TRUE
-"Queen's University of Belfast","10.1007/s11135-016-0423-1",2016,TRUE
-"Royal Holloway, University of London","10.1007/s12020-016-1135-y",2016,TRUE
-"University College London","10.1007/s40167-016-0044-5",2016,TRUE
-"University of Aberdeen","10.1007/s40674-016-0056-5",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0682-9",2016,TRUE
-"University of Bristol","10.1007/s11263-016-0961-y",2016,TRUE
-"University of Edinburgh","10.1007/s10447-016-9277-4",2016,TRUE
-"University of Oxford","10.1007/s11657-016-0286-z",2016,TRUE
-"University of Warwick","10.1007/s10982-016-9274-0",2016,TRUE
-"Nottingham Trent University","10.1007/s10750-016-3008-z",2016,TRUE
-"University College London","10.1007/s00145-016-9242-8",2016,TRUE
-"University College London","10.1007/s00395-016-0586-x",2016,TRUE
-"University of Birmingham","10.1007/s11102-016-0754-x",2016,TRUE
-"University of Cambridge","10.1007/s10948-016-3842-2",2016,TRUE
-"University of Hull","10.1007/s00394-016-1320-z",2016,TRUE
-"University of Leeds","10.1007/s00259-016-3537-8",2016,TRUE
-"University of Manchester","10.1007/s10853-016-0476-5",2016,TRUE
-"University of Oxford","10.1007/s11229-016-1232-8",2016,TRUE
-"University of Oxford","10.1007/s00220-016-2766-9",2016,TRUE
-"University of St Andrews","10.1007/s00265-016-2219-7",2016,TRUE
-"Edge Hill University","10.1007/s00426-016-0813-y",2016,TRUE
-"Imperial College London","10.1007/s10443-016-9536-x",2016,TRUE
-"Imperial College London","10.1007/s00216-016-9961-6",2016,TRUE
-"Queen Mary, University of London","10.1007/s11263-016-0963-9",2016,TRUE
-"University College London","10.1007/s00125-016-4079-0",2016,TRUE
-"University of Bristol","10.1007/s00213-016-4458-8",2016,TRUE
-"University of Edinburgh","10.1007/s12304-016-9274-3",2016,TRUE
-"Lancaster University","10.1007/s10458-016-9348-2",2016,TRUE
-"University of Manchester","10.1007/s10443-016-9540-1",2016,TRUE
-"University of Oxford","10.1007/s10761-016-0380-3",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0676-7",2016,TRUE
-"Aston University","10.1007/s00170-016-9540-1",2016,TRUE
-"Brunel University","10.1007/s11837-016-2120-x",2016,TRUE
-"Imperial College London","10.1007/s00406-016-0735-0",2016,TRUE
-"Imperial College London","10.1007/s10853-016-0468-5",2016,TRUE
-"Imperial College London","10.1007/s11249-016-0768-6",2016,TRUE
-"King's College London","10.1007/s10611-016-9658-y",2016,TRUE
-"University College London","10.3758/s13423-016-1170-y",2016,TRUE
-"University College London","10.1007/s10460-016-9737-9",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0681-x",2016,TRUE
-"University of Edinburgh","10.1007/s13361-016-1513-y",2016,TRUE
-"University of Glasgow","10.1007/s13668-016-0185-3",2016,TRUE
-"University of Lincoln","10.1007/s00267-016-0773-4",2016,TRUE
-"University of Oxford","10.1007/s13311-016-0484-9",2016,TRUE
-"University of Reading","10.1007/s10712-016-9387-x",2016,TRUE
-"Loughborough University","10.1007/s00348-016-2260-3",2016,TRUE
-"Northumbria University","10.1007/s11356-016-7850-3",2016,TRUE
-"University College London","10.1007/s12564-016-9459-0",2016,TRUE
-"University College London","10.1007/s00330-016-4615-9",2016,TRUE
-"University of Cambridge","10.1007/s00220-016-2783-8",2016,TRUE
-"University of Cambridge","10.1007/s11538-016-0217-6",2016,TRUE
-"University of Manchester","10.1007/s10443-016-9537-9",2016,TRUE
-"University of Southampton","10.1007/s10991-016-9188-9",2016,TRUE
-"University of St Andrews","10.1007/s11225-016-9692-x",2016,TRUE
-"University of Ulster","10.1007/s11136-016-1432-1",2016,TRUE
-"University of Warwick","10.1007/s11156-016-0605-x",2016,TRUE
-"University of York","10.1007/s00605-016-0983-0",2016,TRUE
-"Bangor University","10.1007/s12671-016-0632-7",2016,TRUE
-"Queen Margaret University","10.1007/s00167-016-4355-z",2016,TRUE
-"University College London","10.1007/s10461-016-1582-8",2016,TRUE
-"University College London","10.1007/s11214-016-0299-3",2016,TRUE
-"University of Cambridge","10.1007/s10649-016-9732-5",2016,TRUE
-"University of Dundee","10.1007/s11538-016-0207-8",2016,TRUE
-"University of Edinburgh","10.1007/s10708-016-9754-7",2016,TRUE
-"University of Manchester","10.1007/s10443-016-9541-0",2016,TRUE
-"University of Manchester","10.1007/s11038-016-9495-0",2016,TRUE
-"University of Nottingham","10.1007/s00296-016-3579-z",2016,TRUE
-"University of Oxford","10.1007/s10677-016-9759-9",2016,TRUE
-"University of Surrey","10.1007/s00424-016-1885-7",2016,TRUE
-"Cardiff University","10.1007/s00784-016-1967-0",2016,TRUE
-"Imperial College London","10.1007/s00220-016-2774-9",2016,TRUE
-"Kingston University","10.1007/s13346-016-0338-3",2016,TRUE
-"Loughborough University","10.1007/s40753-016-0044-z",2016,TRUE
-"Newcastle University","10.1007/s00204-016-1876-7",2016,TRUE
-"Queen's University of Belfast","10.1007/s12526-016-0590-2",2016,TRUE
-"University College London","10.1007/s00395-016-0588-8",2016,TRUE
-"University College London","10.1007/s10982-016-9272-2",2016,TRUE
-"University of Cambridge","10.1007/s00023-016-0524-3",2016,TRUE
-"University of Edinburgh","10.1007/s11538-016-0221-x",2016,TRUE
-"University of Manchester","10.1007/s11061-016-9507-3",2016,TRUE
-"University of Sheffield","10.1007/s00038-016-0909-6",2016,TRUE
-"King's College London","10.1007/s00127-016-1292-6",2016,TRUE
-"Queen's University of Belfast","10.1007/s11136-016-1440-1",2016,TRUE
-"Swansea University","10.1007/s11082-016-0771-z",2016,TRUE
-"University College London","10.1007/s00401-016-1629-y",2016,TRUE
-"University of Aberdeen","10.1007/s00401-016-1632-3",2016,TRUE
-"University of Liverpool","10.3758/s13421-016-0663-2",2016,TRUE
-"University of Portsmouth","10.1007/s00384-016-2682-7",2016,TRUE
-"Queen Mary, University of London","10.1007/s41063-016-0024-1",2016,TRUE
-"University of Glasgow","10.1007/s00033-016-0733-0",2016,TRUE
-"University of Oxford","10.1007/s10701-016-0045-4",2016,TRUE
-"University of Sheffield","10.1007/s10803-016-2941-z",2016,TRUE
-"University of Southampton","10.1007/s11934-016-0647-6",2016,TRUE
-"Brunel University","10.1007/s11663-016-0824-5",2016,TRUE
-"Cardiff University","10.1007/s10584-016-1837-4",2016,TRUE
-"Newcastle University","10.1007/s10827-016-0630-8",2016,TRUE
-"Northumbria University","10.1007/s11356-016-7867-7",2016,TRUE
-"University of Birmingham","10.1007/s10877-016-9942-5",2016,TRUE
-"University of Birmingham","10.1007/s10761-016-0371-4",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0675-8",2016,TRUE
-"University of Birmingham","10.1007/s00737-016-0683-8",2016,TRUE
-"University of Cambridge","10.1007/s00330-016-4635-5",2016,TRUE
-"University of Cambridge","10.1007/s00415-016-8308-8",2016,TRUE
-"University of Edinburgh","10.1007/s13164-016-0322-3",2016,TRUE
-"University of Glasgow","10.1007/s10750-016-2964-7",2016,TRUE
-"University of Glasgow","10.1007/s00213-016-4463-y",2016,TRUE
-"University of Manchester","10.1007/s10545-016-9979-0",2016,TRUE
-"University of Manchester","10.1007/s10967-016-5073-1",2016,TRUE
-"University of Nottingham","10.1007/s10479-016-2352-8",2016,TRUE
-"University of Oxford","10.1007/s10067-016-3420-9",2016,TRUE
-"Cardiff University","10.1007/s00429-016-1330-x",2016,TRUE
-"Imperial College London","10.1007/s11269-016-1490-8",2016,TRUE
-"Imperial College London","10.1007/s00268-016-3751-3",2016,TRUE
-"Loughborough University","10.1007/s12649-016-9720-0",2016,TRUE
-"Queen's University of Belfast","10.1007/s12289-016-1320-9",2016,TRUE
-"University College London","10.1007/s10518-016-0034-1",2016,TRUE
-"University College London","10.1007/s40140-016-0187-0",2016,TRUE
-"University of Aberdeen","10.1007/s11012-016-0554-4",2016,TRUE
-"University of Exeter","10.1007/s00170-016-9509-0",2016,TRUE
-"University of Oxford","10.1007/s00127-016-1287-3",2016,TRUE
-"University of Oxford","10.1007/s00429-016-1309-7",2016,TRUE
-"Glasgow Caledonian University","10.1007/s11266-016-9803-3",2016,TRUE
-"Queen Mary, University of London","10.1007/s11229-016-1238-2",2016,TRUE
-"St George's, University of London","10.1007/s10334-016-0593-9",2016,TRUE
-"Swansea University","10.1007/s11998-016-9842-0",2016,TRUE
-"University of Bristol","10.1007/s10518-016-0035-0",2016,TRUE
-"University of Cambridge","10.1007/s40961-016-0076-4",2016,TRUE
-"University of Edinburgh","10.1007/s00285-016-1069-2",2016,TRUE
-"University of Leeds","10.1007/s10554-016-1006-x",2016,TRUE
-"University of Leeds","10.1007/s10067-016-3451-2",2016,TRUE
-"University of Leeds","10.1007/s10739-016-9455-6",2016,TRUE
-"University of Nottingham","10.1007/s11136-016-1439-7",2016,TRUE
-"University of Portsmouth","10.1007/s10389-016-0770-3",2016,TRUE
-"University of Reading","10.1007/s00382-016-3407-x",2016,TRUE
-"University of Salford","10.1007/s10914-016-9357-6",2016,TRUE
-"University of York","10.1007/s11059-016-0351-z",2016,TRUE
-"Imperial College London","10.1007/s10439-016-1750-z",2016,TRUE
-"Imperial College London","10.1007/s10854-016-5933-z",2016,TRUE
-"Nottingham Trent University","10.1007/s11469-016-9711-1",2016,TRUE
-"University of Birmingham","10.1007/s11906-016-0688-8",2016,TRUE
-"University of Exeter","10.1007/s00421-016-3491-y",2016,TRUE
-"University of Leeds","10.1007/s10611-016-9643-5",2016,TRUE
-"University of Manchester","10.1007/s11538-016-0220-y",2016,TRUE
-"University of Oxford","10.1007/s11864-016-0439-8",2016,TRUE
-"University of Reading","10.1007/s13721-016-0140-7",2016,TRUE
-"University of Stirling","10.1007/s10640-016-0077-4",2016,TRUE
-"Bournemouth University","10.1007/s10792-016-0383-4",2016,TRUE
-"Newcastle University","10.1007/s10803-016-2924-0",2016,TRUE
-"Nottingham Trent University","10.1007/s11469-016-9708-9",2016,TRUE
-"University of Liverpool","10.1007/s00223-016-0202-y",2016,TRUE
-"University of Portsmouth","10.1007/s00249-016-1182-6",2016,TRUE
-"University of Sussex","10.1007/s10519-016-9825-z",2016,TRUE
-"Queen's University of Belfast","10.1007/s12520-016-0383-3",2016,TRUE
-"University College London","10.1007/s10557-016-6698-6",2016,TRUE
-"University College London","10.1007/s00234-016-1741-7",2016,TRUE
-"King's College London","10.1007/s00605-016-1001-2",2016,TRUE
-"Loughborough University","10.1007/s10494-016-9778-6",2016,TRUE
-"University of Aberdeen","10.1007/s40823-016-0016-7",2016,TRUE
-"University of Birmingham","10.1007/s00125-016-4142-x",2016,TRUE
-"University of Cambridge","10.1007/s00330-016-4630-x",2016,TRUE
-"University of Cambridge","10.1007/s00453-016-0235-7",2016,TRUE
-"University of Kent","10.1007/s10208-016-9337-5",2016,TRUE
-"University of Manchester","10.1007/s10689-016-9942-0",2016,TRUE
-"University of Nottingham","10.1007/s10495-016-1323-5",2016,TRUE
-"University of Oxford","10.1007/s00382-016-3375-1",2016,TRUE
-"University of Oxford","10.1007/s00208-016-1488-9",2016,TRUE
-"University of St Andrews","10.1007/s00359-016-1126-8",2016,TRUE
-"University of York","10.1007/s10067-016-3452-1",2016,TRUE
+"Bournemouth University","10.1007/s10531-016-1209-4","2016"
+"Imperial College London","10.1007/s10854-016-5750-4","2016"
+"King's College London","10.1007/s11914-016-0325-0","2016"
+"King's College London","10.1007/s11192-016-2139-3","2016"
+"University of Bath","10.1007/s11229-016-1231-9","2016"
+"University of Leeds","10.1007/s11242-016-0770-3","2016"
+"University of Nottingham","10.1007/s11367-016-1203-9","2016"
+"University of St Andrews","10.1007/s10336-016-1395-6","2016"
+"University of Ulster","10.1007/s11127-016-0379-7","2016"
+"University of York","10.1007/s10437-016-9232-0","2016"
+"Edge Hill University","10.1007/s00500-016-2383-8","2016"
+"King's College London","10.1007/s11625-016-0400-6","2016"
+"Liverpool John Moores University","10.1007/s00421-016-3480-1","2016"
+"Loughborough University","10.1007/s40279-016-0621-y","2016"
+"Northumbria University","10.1007/s00521-016-2564-5","2016"
+"University College London","10.1007/s13142-016-0438-0","2016"
+"University of Cambridge","10.1007/s10858-016-0056-7","2016"
+"University of Cambridge","10.1007/s40472-016-0116-7","2016"
+"University of Liverpool","10.1007/s11071-016-3097-2","2016"
+"University of Liverpool","10.3758/s13428-016-0808-z","2016"
+"University of Strathclyde","10.1007/s11219-016-9339-1","2016"
+"University of Aberdeen","10.1007/s10459-016-9715-4","2016"
+"University of Bath","10.1007/s11538-016-0209-6","2016"
+"University of Birmingham","10.1007/s13361-016-1482-1","2016"
+"University of Cambridge","10.1007/s40803-016-0034-x","2016"
+"University of Cambridge","10.1007/s10992-016-9412-z","2016"
+"University of Glasgow","10.1007/s11222-016-9708-4","2016"
+"University of Hull","10.1007/s00181-016-1176-3","2016"
+"University of Manchester","10.1007/s12650-016-0396-0","2016"
+"University of St Andrews","10.1007/s11153-016-9588-8","2016"
+"Imperial College London","10.1007/s13239-016-0280-z","2016"
+"Newcastle University","10.1007/s13147-016-0435-2","2016"
+"Queen's University of Belfast","10.1007/s13346-016-0332-9","2016"
+"University of Abertay Dundee","10.1007/s00265-016-2211-2","2016"
+"University of Bath","10.1007/s10948-016-3824-4","2016"
+"University of Bradford","10.1007/s13199-016-0447-2","2016"
+"University of Cambridge","10.1007/s00222-016-0685-1","2016"
+"University of Oxford","10.1007/s13347-016-0236-0","2016"
+"University of Southampton","10.1007/s12928-016-0434-9","2016"
+"City University London","10.1007/s00182-016-0552-8","2016"
+"Imperial College London","10.1007/s10921-016-0374-4","2016"
+"King's College London","10.1007/s11908-016-0544-7","2016"
+"London School of Economics and Political Science","10.1007/s40804-016-0044-0","2016"
+"Newcastle University","10.1007/s00018-016-2391-y","2016"
+"University College London","10.1007/s10397-016-0983-z","2016"
+"University College London","10.1140/epjd/e2016-70124-7","2016"
+"University of Birmingham","10.1007/s00737-016-0680-y","2016"
+"University of Birmingham","10.1007/s00737-016-0673-x","2016"
+"University of Dundee","10.1007/s11538-016-0214-9","2016"
+"University of Manchester","10.1007/s10826-016-0564-9","2016"
+"University of Sheffield","10.1007/s11153-016-9589-7","2016"
+"University of Warwick","10.1007/s00371-016-1322-0","2016"
+"Imperial College London","10.1007/s10854-016-5780-y","2016"
+"King's College London","10.1007/s40472-016-0115-8","2016"
+"Loughborough University","10.1007/s11661-016-3790-2","2016"
+"University College London","10.1007/s00429-016-1313-y","2016"
+"University College London","10.1007/s10548-016-0526-y","2016"
+"University of Cambridge","10.1007/s11625-016-0402-4","2016"
+"University of Leeds","10.1007/s10404-016-1806-2","2016"
+"University of Manchester","10.1007/s11042-016-3927-8","2016"
+"University of Reading","10.1007/s00704-016-1922-7","2016"
+"Imperial College London","10.1007/s00332-016-9336-3","2016"
+"University of Birmingham","10.1007/s00737-016-0677-6","2016"
+"University of Birmingham","10.1007/s00737-016-0678-5","2016"
+"University of Birmingham","10.1007/s00737-016-0674-9","2016"
+"University of Cambridge","10.1007/s10689-016-9928-y","2016"
+"University of Exeter","10.1007/s10436-016-0281-9","2016"
+"University of York","10.1007/s11145-016-9699-8","2016"
+"King's College London","10.1007/s10897-016-0008-0","2016"
+"Queen's University of Belfast","10.1007/s11265-016-1185-7","2016"
+"University of Bristol","10.1140/epjst/e2016-60148-1","2016"
+"University of Huddersfield","10.1007/s00170-016-9457-8","2016"
+"University of Oxford","10.1140/epjst/e2016-60152-y","2016"
+"Aston University","10.1007/s10611-016-9652-4","2016"
+"Cardiff University","10.1007/s00405-016-4338-1","2016"
+"King's College London","10.1007/s10654-016-0152-8","2016"
+"Sheffield Hallam University","10.1007/s10854-016-5802-9","2016"
+"University of East Anglia","10.3758/s13423-016-1168-5","2016"
+"Keele University","10.1007/s11406-016-9758-z","2016"
+"University of Oxford","10.1007/s11069-016-2592-6","2016"
+"University of Sheffield","10.1007/s12283-016-0220-z","2016"
+"Cardiff University","10.1007/s00415-016-8297-7","2016"
+"Cardiff University","10.1007/s40139-016-0119-1","2016"
+"Imperial College London","10.1007/s10898-016-0474-9","2016"
+"Natural History Museum","10.1007/s10498-016-9304-4","2016"
+"Nottingham Trent University","10.1007/s10578-016-0690-z","2016"
+"University of Dundee","10.1007/s40520-016-0636-0","2016"
+"University of East Anglia","10.1007/s00167-016-4314-8","2016"
+"University of Manchester","10.1007/s00018-016-2386-8","2016"
+"University of Warwick","10.1007/s11229-016-1243-5","2016"
+"Queen's University of Belfast","10.1007/s11135-016-0423-1","2016"
+"Royal Holloway, University of London","10.1007/s12020-016-1135-y","2016"
+"University College London","10.1007/s40167-016-0044-5","2016"
+"University of Aberdeen","10.1007/s40674-016-0056-5","2016"
+"University of Birmingham","10.1007/s00737-016-0682-9","2016"
+"University of Bristol","10.1007/s11263-016-0961-y","2016"
+"University of Edinburgh","10.1007/s10447-016-9277-4","2016"
+"University of Oxford","10.1007/s11657-016-0286-z","2016"
+"University of Warwick","10.1007/s10982-016-9274-0","2016"
+"Nottingham Trent University","10.1007/s10750-016-3008-z","2016"
+"University College London","10.1007/s00145-016-9242-8","2016"
+"University College London","10.1007/s00395-016-0586-x","2016"
+"University of Birmingham","10.1007/s11102-016-0754-x","2016"
+"University of Cambridge","10.1007/s10948-016-3842-2","2016"
+"University of Hull","10.1007/s00394-016-1320-z","2016"
+"University of Leeds","10.1007/s00259-016-3537-8","2016"
+"University of Manchester","10.1007/s10853-016-0476-5","2016"
+"University of Oxford","10.1007/s11229-016-1232-8","2016"
+"University of Oxford","10.1007/s00220-016-2766-9","2016"
+"University of St Andrews","10.1007/s00265-016-2219-7","2016"
+"Edge Hill University","10.1007/s00426-016-0813-y","2016"
+"Imperial College London","10.1007/s10443-016-9536-x","2016"
+"Imperial College London","10.1007/s00216-016-9961-6","2016"
+"Queen Mary, University of London","10.1007/s11263-016-0963-9","2016"
+"University College London","10.1007/s00125-016-4079-0","2016"
+"University of Bristol","10.1007/s00213-016-4458-8","2016"
+"University of Edinburgh","10.1007/s12304-016-9274-3","2016"
+"Lancaster University","10.1007/s10458-016-9348-2","2016"
+"University of Manchester","10.1007/s10443-016-9540-1","2016"
+"University of Oxford","10.1007/s10761-016-0380-3","2016"
+"University of Birmingham","10.1007/s00737-016-0676-7","2016"
+"Aston University","10.1007/s00170-016-9540-1","2016"
+"Brunel University","10.1007/s11837-016-2120-x","2016"
+"Imperial College London","10.1007/s00406-016-0735-0","2016"
+"Imperial College London","10.1007/s10853-016-0468-5","2016"
+"Imperial College London","10.1007/s11249-016-0768-6","2016"
+"King's College London","10.1007/s10611-016-9658-y","2016"
+"University College London","10.3758/s13423-016-1170-y","2016"
+"University College London","10.1007/s10460-016-9737-9","2016"
+"University of Birmingham","10.1007/s00737-016-0681-x","2016"
+"University of Edinburgh","10.1007/s13361-016-1513-y","2016"
+"University of Glasgow","10.1007/s13668-016-0185-3","2016"
+"University of Lincoln","10.1007/s00267-016-0773-4","2016"
+"University of Oxford","10.1007/s13311-016-0484-9","2016"
+"University of Reading","10.1007/s10712-016-9387-x","2016"
+"Loughborough University","10.1007/s00348-016-2260-3","2016"
+"Northumbria University","10.1007/s11356-016-7850-3","2016"
+"University College London","10.1007/s12564-016-9459-0","2016"
+"University College London","10.1007/s00330-016-4615-9","2016"
+"University of Cambridge","10.1007/s00220-016-2783-8","2016"
+"University of Cambridge","10.1007/s11538-016-0217-6","2016"
+"University of Manchester","10.1007/s10443-016-9537-9","2016"
+"University of Southampton","10.1007/s10991-016-9188-9","2016"
+"University of St Andrews","10.1007/s11225-016-9692-x","2016"
+"University of Ulster","10.1007/s11136-016-1432-1","2016"
+"University of Warwick","10.1007/s11156-016-0605-x","2016"
+"University of York","10.1007/s00605-016-0983-0","2016"
+"Bangor University","10.1007/s12671-016-0632-7","2016"
+"Queen Margaret University","10.1007/s00167-016-4355-z","2016"
+"University College London","10.1007/s10461-016-1582-8","2016"
+"University College London","10.1007/s11214-016-0299-3","2016"
+"University of Cambridge","10.1007/s10649-016-9732-5","2016"
+"University of Dundee","10.1007/s11538-016-0207-8","2016"
+"University of Edinburgh","10.1007/s10708-016-9754-7","2016"
+"University of Manchester","10.1007/s10443-016-9541-0","2016"
+"University of Manchester","10.1007/s11038-016-9495-0","2016"
+"University of Nottingham","10.1007/s00296-016-3579-z","2016"
+"University of Oxford","10.1007/s10677-016-9759-9","2016"
+"University of Surrey","10.1007/s00424-016-1885-7","2016"
+"Cardiff University","10.1007/s00784-016-1967-0","2016"
+"Imperial College London","10.1007/s00220-016-2774-9","2016"
+"Kingston University","10.1007/s13346-016-0338-3","2016"
+"Loughborough University","10.1007/s40753-016-0044-z","2016"
+"Newcastle University","10.1007/s00204-016-1876-7","2016"
+"Queen's University of Belfast","10.1007/s12526-016-0590-2","2016"
+"University College London","10.1007/s00395-016-0588-8","2016"
+"University College London","10.1007/s10982-016-9272-2","2016"
+"University of Cambridge","10.1007/s00023-016-0524-3","2016"
+"University of Edinburgh","10.1007/s11538-016-0221-x","2016"
+"University of Manchester","10.1007/s11061-016-9507-3","2016"
+"University of Sheffield","10.1007/s00038-016-0909-6","2016"
+"King's College London","10.1007/s00127-016-1292-6","2016"
+"Queen's University of Belfast","10.1007/s11136-016-1440-1","2016"
+"Swansea University","10.1007/s11082-016-0771-z","2016"
+"University College London","10.1007/s00401-016-1629-y","2016"
+"University of Aberdeen","10.1007/s00401-016-1632-3","2016"
+"University of Liverpool","10.3758/s13421-016-0663-2","2016"
+"University of Portsmouth","10.1007/s00384-016-2682-7","2016"
+"Queen Mary, University of London","10.1007/s41063-016-0024-1","2016"
+"University of Glasgow","10.1007/s00033-016-0733-0","2016"
+"University of Oxford","10.1007/s10701-016-0045-4","2016"
+"University of Sheffield","10.1007/s10803-016-2941-z","2016"
+"University of Southampton","10.1007/s11934-016-0647-6","2016"
+"Brunel University","10.1007/s11663-016-0824-5","2016"
+"Cardiff University","10.1007/s10584-016-1837-4","2016"
+"Newcastle University","10.1007/s10827-016-0630-8","2016"
+"Northumbria University","10.1007/s11356-016-7867-7","2016"
+"University of Birmingham","10.1007/s10877-016-9942-5","2016"
+"University of Birmingham","10.1007/s10761-016-0371-4","2016"
+"University of Birmingham","10.1007/s00737-016-0675-8","2016"
+"University of Birmingham","10.1007/s00737-016-0683-8","2016"
+"University of Cambridge","10.1007/s00330-016-4635-5","2016"
+"University of Cambridge","10.1007/s00415-016-8308-8","2016"
+"University of Edinburgh","10.1007/s13164-016-0322-3","2016"
+"University of Glasgow","10.1007/s10750-016-2964-7","2016"
+"University of Glasgow","10.1007/s00213-016-4463-y","2016"
+"University of Manchester","10.1007/s10545-016-9979-0","2016"
+"University of Manchester","10.1007/s10967-016-5073-1","2016"
+"University of Nottingham","10.1007/s10479-016-2352-8","2016"
+"University of Oxford","10.1007/s10067-016-3420-9","2016"
+"Cardiff University","10.1007/s00429-016-1330-x","2016"
+"Imperial College London","10.1007/s11269-016-1490-8","2016"
+"Imperial College London","10.1007/s00268-016-3751-3","2016"
+"Loughborough University","10.1007/s12649-016-9720-0","2016"
+"Queen's University of Belfast","10.1007/s12289-016-1320-9","2016"
+"University College London","10.1007/s10518-016-0034-1","2016"
+"University College London","10.1007/s40140-016-0187-0","2016"
+"University of Aberdeen","10.1007/s11012-016-0554-4","2016"
+"University of Exeter","10.1007/s00170-016-9509-0","2016"
+"University of Oxford","10.1007/s00127-016-1287-3","2016"
+"University of Oxford","10.1007/s00429-016-1309-7","2016"
+"Glasgow Caledonian University","10.1007/s11266-016-9803-3","2016"
+"Queen Mary, University of London","10.1007/s11229-016-1238-2","2016"
+"St George's, University of London","10.1007/s10334-016-0593-9","2016"
+"Swansea University","10.1007/s11998-016-9842-0","2016"
+"University of Bristol","10.1007/s10518-016-0035-0","2016"
+"University of Cambridge","10.1007/s40961-016-0076-4","2016"
+"University of Edinburgh","10.1007/s00285-016-1069-2","2016"
+"University of Leeds","10.1007/s10554-016-1006-x","2016"
+"University of Leeds","10.1007/s10067-016-3451-2","2016"
+"University of Leeds","10.1007/s10739-016-9455-6","2016"
+"University of Nottingham","10.1007/s11136-016-1439-7","2016"
+"University of Portsmouth","10.1007/s10389-016-0770-3","2016"
+"University of Reading","10.1007/s00382-016-3407-x","2016"
+"University of Salford","10.1007/s10914-016-9357-6","2016"
+"University of York","10.1007/s11059-016-0351-z","2016"
+"Imperial College London","10.1007/s10439-016-1750-z","2016"
+"Imperial College London","10.1007/s10854-016-5933-z","2016"
+"Nottingham Trent University","10.1007/s11469-016-9711-1","2016"
+"University of Birmingham","10.1007/s11906-016-0688-8","2016"
+"University of Exeter","10.1007/s00421-016-3491-y","2016"
+"University of Leeds","10.1007/s10611-016-9643-5","2016"
+"University of Manchester","10.1007/s11538-016-0220-y","2016"
+"University of Oxford","10.1007/s11864-016-0439-8","2016"
+"University of Reading","10.1007/s13721-016-0140-7","2016"
+"University of Stirling","10.1007/s10640-016-0077-4","2016"
+"Bournemouth University","10.1007/s10792-016-0383-4","2016"
+"Newcastle University","10.1007/s10803-016-2924-0","2016"
+"Nottingham Trent University","10.1007/s11469-016-9708-9","2016"
+"University of Liverpool","10.1007/s00223-016-0202-y","2016"
+"University of Portsmouth","10.1007/s00249-016-1182-6","2016"
+"University of Sussex","10.1007/s10519-016-9825-z","2016"
+"Queen's University of Belfast","10.1007/s12520-016-0383-3","2016"
+"University College London","10.1007/s10557-016-6698-6","2016"
+"University College London","10.1007/s00234-016-1741-7","2016"
+"King's College London","10.1007/s00605-016-1001-2","2016"
+"Loughborough University","10.1007/s10494-016-9778-6","2016"
+"University of Aberdeen","10.1007/s40823-016-0016-7","2016"
+"University of Birmingham","10.1007/s00125-016-4142-x","2016"
+"University of Cambridge","10.1007/s00330-016-4630-x","2016"
+"University of Cambridge","10.1007/s00453-016-0235-7","2016"
+"University of Kent","10.1007/s10208-016-9337-5","2016"
+"University of Manchester","10.1007/s10689-016-9942-0","2016"
+"University of Nottingham","10.1007/s10495-016-1323-5","2016"
+"University of Oxford","10.1007/s00382-016-3375-1","2016"
+"University of Oxford","10.1007/s00208-016-1488-9","2016"
+"University of St Andrews","10.1007/s00359-016-1126-8","2016"
+"University of York","10.1007/s10067-016-3452-1","2016"
+"Aberystwyth University","10.1007/s11295-016-1079-7","2016"
+"Aberystwyth University","10.1007/s10811-016-0995-0","2016"
+"Anglia Ruskin University","10.1007/s13347-016-0243-1","2016"
+"Anglia Ruskin University","10.1007/s00405-016-4391-9","2016"
+"Aston University","10.1007/s11187-016-9810-1","2016"
+"Bournemouth University","10.1007/s11829-016-9468-2","2016"
+"Bournemouth University","10.1007/s11104-016-3135-3","2016"
+"Brunel University","10.1007/s11664-016-5139-4","2016"
+"Brunel University","10.1007/s10347-016-0482-8","2016"
+"Brunel University","10.1007/s10854-016-5965-4","2016"
+"Brunel University","10.1007/s10854-016-6077-x","2016"
+"Cardiff University","10.1007/s00439-016-1744-9","2016"
+"Cardiff University","10.1007/s00126-016-0699-z","2016"
+"Cardiff University","10.1007/s12160-016-9849-x","2016"
+"Cardiff University","10.1007/s11269-016-1537-x","2016"
+"Cardiff University","10.1007/s11248-016-9995-8","2016"
+"Cardiff University","10.1007/s00701-016-2998-7","2016"
+"Cardiff University","10.1007/s00415-016-8326-6","2016"
+"Cardiff University","10.1007/s10551-016-3392-3","2016"
+"Cardiff University","10.1007/s00415-016-8359-x","2016"
+"Cardiff University","10.1007/s10712-016-9403-1","2016"
+"Cardiff University","10.1007/s40831-016-0102-4","2016"
+"Cardiff University","10.1007/s10696-016-9267-1","2016"
+"City University London","10.1007/s00348-016-2256-z","2016"
+"City University London","10.3758/s13421-016-0669-9","2016"
+"City University London","10.1007/s10877-016-9959-9","2016"
+"City University London","10.1007/s00779-016-0995-8","2016"
+"City University London","10.1007/s13235-016-0212-4","2016"
+"City University London","10.1007/s10899-016-9663-1","2016"
+"Durham University","10.1007/s11138-016-0373-9","2016"
+"Durham University","10.1007/s10764-016-9938-5","2016"
+"Durham University","10.1007/s11207-016-1041-8","2016"
+"Durham University","10.1140/epjst/e2015-50338-3","2016"
+"Edge Hill University","10.1007/s00426-016-0821-y","2016"
+"Edinburgh Napier University","10.1007/s00421-016-3489-5","2016"
+"Glasgow Caledonian University","10.1007/s00202-016-0473-3","2016"
+"Goldsmiths, University of London","10.1007/s10583-016-9300-8","2016"
+"Goldsmiths, University of London","10.1007/s00221-016-4842-y","2016"
+"Goldsmiths, University of London","10.1007/s11217-016-9561-0","2016"
+"Heriot-Watt University","10.1007/s10404-016-1823-1","2016"
+"Heriot-Watt University","10.1007/s13762-016-1177-y","2016"
+"Heriot-Watt University","10.1007/s00165-016-0403-1","2016"
+"Heriot-Watt University","10.1007/s11269-016-1561-x","2016"
+"Heriot-Watt University","10.1007/s00338-016-1519-8","2016"
+"Imperial College London","10.1007/s11239-016-1439-z","2016"
+"Imperial College London","10.1007/s11012-016-0576-y","2016"
+"Imperial College London","10.1007/s00737-016-0685-6","2016"
+"Imperial College London","10.1007/s10236-016-1010-7","2016"
+"Imperial College London","10.1007/s11005-016-0919-6","2016"
+"Imperial College London","10.1007/s00204-016-1894-5","2016"
+"Imperial College London","10.1007/s10801-016-0719-1","2016"
+"Imperial College London","10.1007/s10909-016-1703-9","2016"
+"Imperial College London","10.1007/s11249-016-0776-6","2016"
+"Imperial College London","10.1007/s41247-016-0012-x","2016"
+"Imperial College London","10.1007/s00220-016-2800-y","2016"
+"Imperial College London","10.1007/s10955-016-1645-2","2016"
+"Imperial College London","10.1007/s00381-016-3275-z","2016"
+"Imperial College London","10.1007/s40315-016-0186-7","2016"
+"Imperial College London","10.1007/s10237-016-0860-8","2016"
+"Imperial College London","10.1007/s00787-016-0933-3","2016"
+"Imperial College London","10.1007/s10745-016-9870-5","2016"
+"Imperial College London","10.1007/s00429-016-1344-4","2016"
+"Imperial College London","10.1007/s10554-016-1033-7","2016"
+"Imperial College London","10.1007/s11249-016-0791-7","2016"
+"Imperial College London","10.1007/s00384-016-2714-3","2016"
+"Imperial College London","10.1007/s11695-016-2467-7","2016"
+"Imperial College London","10.1007/s10554-016-1035-5","2016"
+"Imperial College London","10.1007/s11085-016-9672-6","2016"
+"Imperial College London","10.1007/s10589-016-9888-z","2016"
+"Imperial College London","10.1007/s10439-016-1766-4","2016"
+"Imperial College London","10.1245/s10434-016-5717-y","2016"
+"Imperial College London","10.1007/s11249-016-0807-3","2016"
+"Keele University","10.1007/s11406-016-9767-y","2016"
+"King's College London","10.1007/s00414-016-1468-3","2016"
+"King's College London","10.1007/s11325-016-1417-x","2016"
+"King's College London","10.1007/s10719-016-9749-0","2016"
+"King's College London","10.1007/s11366-016-9450-y","2016"
+"King's College London","10.1007/s10802-016-0224-y","2016"
+"King's College London","10.1007/s10433-016-0405-0","2016"
+"King's College London","10.1007/s40429-016-0127-6","2016"
+"King's College London","10.1007/s00429-016-1342-6","2016"
+"King's College London","10.1007/s11277-016-3837-0","2016"
+"King's College London","10.1007/s10608-016-9818-5","2016"
+"King's College London","10.1007/s00280-016-3189-1","2016"
+"King's College London","10.1007/s00702-016-1667-6","2016"
+"King's College London","10.1007/s12160-016-9869-6","2016"
+"King's College London","10.1007/s12559-016-9445-1","2016"
+"King's College London","10.1007/s12138-016-0422-6","2016"
+"King's College London","10.1007/s11017-016-9390-8","2016"
+"King's College London","10.1007/s40618-016-0601-y","2016"
+"King's College London","10.1007/s11243-016-0110-z","2016"
+"King's College London","10.1007/s00270-016-1513-0","2016"
+"King's College London","10.1007/s00429-016-1347-1","2016"
+"King's College London","10.1140/epjst/e2016-60125-2","2016"
+"Lancaster University","10.1007/s10687-016-0275-z","2016"
+"Lancaster University","10.1007/s10468-016-9662-z","2016"
+"Lancaster University","10.1007/s10288-016-0336-9","2016"
+"Lancaster University","10.1007/s10687-016-0280-2","2016"
+"Leeds Beckett University","10.1007/s12529-016-9608-1","2016"
+"Leeds Beckett University","10.1007/s10522-016-9671-7","2016"
+"Liverpool John Moores University","10.1007/s10522-016-9667-3","2016"
+"Liverpool John Moores University","10.1007/s10339-016-0783-4","2016"
+"London School of Economics and Political Science","10.1007/s40804-016-0055-x","2016"
+"London School of Economics and Political Science","10.1007/s10957-016-1036-5","2016"
+"London School of Economics and Political Science","10.1007/s10584-016-1846-3","2016"
+"London School of Economics and Political Science","10.1007/s40804-016-0056-9","2016"
+"London School of Economics and Political Science","10.1007/s40804-016-0054-y","2016"
+"London School of Economics and Political Science","10.1007/s00168-016-0798-x","2016"
+"London School of Economics and Political Science","10.1007/s00780-016-0322-2","2016"
+"London School of Economics and Political Science","10.1007/s10198-016-0855-5","2016"
+"Loughborough University","10.1007/s40279-016-0650-6","2016"
+"Loughborough University","10.1007/s10652-016-9482-z","2016"
+"Loughborough University","10.1007/s11664-016-5074-4","2016"
+"Loughborough University","10.1007/s00394-016-1344-4","2016"
+"Loughborough University","10.1007/s10912-016-9426-0","2016"
+"Loughborough University","10.1007/s11069-016-2732-z","2016"
+"Manchester Metropolitan University","10.1007/s11696-016-0005-7","2016"
+"Natural History Museum","10.1007/s10722-016-0467-z","2016"
+"Natural History Museum","10.1007/s10531-016-1250-3","2016"
+"Newcastle University","10.1007/s13593-016-0398-2","2016"
+"Newcastle University","10.1007/s00125-016-4143-9","2016"
+"Newcastle University","10.1007/s10761-016-0381-2","2016"
+"Newcastle University","10.1007/s10875-016-0343-9","2016"
+"Newcastle University","10.1007/s00280-016-3186-4","2016"
+"Newcastle University","10.1007/s00429-016-1343-5","2016"
+"Newcastle University","10.1007/s40735-016-0066-8","2016"
+"Newcastle University","10.1007/s10909-016-1708-4","2016"
+"Newcastle University","10.1007/s00417-016-3562-0","2016"
+"Newcastle University","10.1007/s00296-016-3637-6","2016"
+"Newcastle University","10.1007/s10646-016-1749-0","2016"
+"Newcastle University","10.1007/s10811-016-1025-y","2016"
+"Newcastle University","10.1007/s11095-016-2091-1","2016"
+"Newcastle University","10.1007/s00359-016-1139-3","2016"
+"Northumbria University","10.1007/s11356-016-8054-6","2016"
+"Northumbria University","10.1007/s10551-016-3381-6","2016"
+"Northumbria University","10.1617/s11527-016-0977-3","2016"
+"Nottingham Trent University","10.1007/s00127-016-1299-z","2016"
+"Nottingham Trent University","10.1007/s11469-016-9713-z","2016"
+"Nottingham Trent University","10.1007/s10899-016-9648-0","2016"
+"Queen Mary, University of London","10.1007/s10459-016-9735-0","2016"
+"Queen Mary, University of London","10.1007/s00018-016-2419-3","2016"
+"Queen Mary, University of London","10.1007/s10689-016-9946-9","2016"
+"Queen Mary, University of London","10.1007/s00606-016-1356-9","2016"
+"Queen Mary, University of London","10.1007/s00199-016-1010-3","2016"
+"Queen Mary, University of London","10.1007/s00780-016-0319-x","2016"
+"Queen Mary, University of London","10.1007/s00158-016-1626-8","2016"
+"Queen Mary, University of London","10.1007/s10801-016-0734-2","2016"
+"Queen's University of Belfast","10.1007/s10530-016-1330-z","2016"
+"Queen's University of Belfast","10.1007/s10856-016-5806-2","2016"
+"Queen's University of Belfast","10.1007/s00170-016-9850-3","2016"
+"Queen's University of Belfast","10.1007/s10912-016-9417-1","2016"
+"Queen's University of Belfast","10.1007/s00038-016-0929-2","2016"
+"Robert Gordon University","10.1007/s10111-016-0396-9","2016"
+"Robert Gordon University","10.1007/s40974-016-0044-5","2016"
+"Royal Holloway, University of London","10.1007/s00453-016-0259-z","2016"
+"Royal Holloway, University of London","10.1007/s10896-016-9905-0","2016"
+"Scotland's Rural College","10.1007/s10961-016-9520-5","2016"
+"Scotland's Rural College","10.1007/s13399-016-0230-x","2016"
+"Sheffield Hallam University","10.1007/s00779-016-0993-x","2016"
+"Sheffield Hallam University","10.1007/s00421-016-3517-5","2016"
+"St George's, University of London","10.1007/s10096-016-2869-4","2016"
+"St George's, University of London","10.1007/s00424-016-1916-4","2016"
+"Swansea University","10.1007/s12035-016-0281-9","2016"
+"Swansea University","10.1007/s00779-016-0982-0","2016"
+"Swansea University","10.1007/s00204-016-1903-8","2016"
+"Swansea University","10.1007/s11948-016-9855-1","2016"
+"The Open University","10.1007/s11340-016-0245-z","2016"
+"University College London","10.1007/s11692-016-9399-y","2016"
+"University College London","10.1007/s11229-016-1269-8","2016"
+"University College London","10.1007/s12020-016-1161-9","2016"
+"University College London","10.1007/s13239-016-0284-8","2016"
+"University College London","10.1007/s11116-016-9747-x","2016"
+"University College London","10.1007/s00127-016-1311-7","2016"
+"University College London","10.1007/s12576-016-0501-0","2016"
+"University College London","10.1007/s12160-016-9855-z","2016"
+"University College London","10.1007/s10502-016-9272-x","2016"
+"University College London","10.1007/s00229-016-0900-9","2016"
+"University College London","10.1007/s00127-016-1313-5","2016"
+"University College London","10.1007/s00429-016-1337-3","2016"
+"University College London","10.1007/s11136-016-1454-8","2016"
+"University College London","10.1007/s10529-016-2244-7","2016"
+"University College London","10.1007/s12265-016-9722-0","2016"
+"University College London","10.1007/s10654-016-0217-8","2016"
+"University College London","10.1007/s11229-016-1288-5","2016"
+"University College London","10.1007/s13142-016-0453-1","2016"
+"University College London","10.1007/s00228-016-2182-2","2016"
+"University College London","10.1007/s00239-016-9765-5","2016"
+"University College London","10.1007/s11207-016-1030-y","2016"
+"University College London","10.1007/s00240-016-0954-x","2016"
+"University College London","10.1007/s10518-016-0077-3","2016"
+"University College London","10.1007/s00268-016-3823-4","2016"
+"University College London","10.1007/s00467-016-3571-6","2016"
+"University College London","10.1007/s00264-016-3326-9","2016"
+"University College London","10.1007/s10654-016-0214-y","2016"
+"University College London","10.1007/s10565-016-9372-7","2016"
+"University College London","10.1007/s40279-016-0651-5","2016"
+"University College London","10.1007/s00780-016-0317-z","2016"
+"University College London","10.1007/s10699-016-9517-4","2016"
+"University College London","10.1007/s00401-016-1651-0","2016"
+"University of Aberdeen","10.1007/s10728-016-0335-1","2016"
+"University of Aberdeen","10.1007/s11482-016-9491-6","2016"
+"University of Aberdeen","10.1007/s00334-016-0596-5","2016"
+"University of Aberdeen","10.1007/s12529-016-9611-6","2016"
+"University of Bath","10.1007/s40072-016-0088-8","2016"
+"University of Bath","10.1007/s00222-016-0692-2","2016"
+"University of Bath","10.1007/s10570-016-1111-y","2016"
+"University of Bath","10.1007/s00029-016-0298-y","2016"
+"University of Bath","10.1007/s12678-016-0347-5","2016"
+"University of Bath","10.1617/s11527-016-0976-4","2016"
+"University of Bath","10.1007/s10802-016-0243-8","2016"
+"University of Bath","10.1007/s10853-016-0647-4","2016"
+"University of Bath","10.3758/s13428-016-0840-z","2016"
+"University of Birmingham","10.1007/s11948-016-9838-2","2016"
+"University of Birmingham","10.1007/s00209-016-1813-8","2016"
+"University of Birmingham","10.1007/s00168-016-0797-y","2016"
+"University of Birmingham","10.1007/s00737-016-0684-7","2016"
+"University of Birmingham","10.1007/s11420-016-9531-7","2016"
+"University of Birmingham","10.1007/s10856-016-5816-0","2016"
+"University of Birmingham","10.1007/s11098-016-0827-8","2016"
+"University of Birmingham","10.1007/s13239-016-0288-4","2016"
+"University of Birmingham","10.3758/s13428-016-0830-1","2016"
+"University of Birmingham","10.1007/s00192-016-3226-y","2016"
+"University of Birmingham","10.1007/s10762-016-0344-z","2016"
+"University of Birmingham","10.1007/s00339-016-0608-4","2016"
+"University of Bristol","10.1007/s11071-016-3205-3","2016"
+"University of Bristol","10.1007/s00477-016-1352-1","2016"
+"University of Bristol","10.1007/s00127-016-1306-4","2016"
+"University of Bristol","10.1007/s11554-016-0654-3","2016"
+"University of Bristol","10.1007/s00020-016-2334-x","2016"
+"University of Bristol","10.1007/s11017-016-9387-3","2016"
+"University of Bristol","10.1007/s00415-016-8336-4","2016"
+"University of Bristol","10.1007/s10552-016-0827-1","2016"
+"University of Bristol","10.1007/s10803-016-2952-9","2016"
+"University of Bristol","10.1007/s11081-016-9343-0","2016"
+"University of Bristol","10.1007/s00127-016-1308-2","2016"
+"University of Bristol","10.1007/s00787-016-0928-0","2016"
+"University of Bristol","10.1007/s00418-016-1526-4","2016"
+"University of Bristol","10.1007/s10853-016-0478-3","2016"
+"University of Bristol","10.1007/s00253-016-8034-2","2016"
+"University of Cambridge","10.1007/s00018-016-2402-z","2016"
+"University of Cambridge","10.1007/s11186-016-9279-6","2016"
+"University of Cambridge","10.1007/s10236-016-1011-6","2016"
+"University of Cambridge","10.3758/s13414-016-1237-x","2016"
+"University of Cambridge","10.1007/s10745-016-9858-1","2016"
+"University of Cambridge","10.1007/s10494-016-9762-1","2016"
+"University of Cambridge","10.1007/s12028-016-0319-x","2016"
+"University of Cambridge","10.1007/s11005-016-0896-9","2016"
+"University of Cambridge","10.1007/s00221-016-4823-1","2016"
+"University of Cambridge","10.1007/s11217-016-9556-x","2016"
+"University of Cambridge","10.1007/s00018-016-2408-6","2016"
+"University of Cambridge","10.1007/s40825-016-0047-x","2016"
+"University of Cambridge","10.1007/s40656-016-0123-0","2016"
+"University of Cambridge","10.1007/s10652-016-9492-x","2016"
+"University of Cambridge","10.1007/s11422-016-9750-8","2016"
+"University of Cambridge","10.1007/s00018-016-2427-3","2016"
+"University of Cambridge","10.1007/s40279-016-0656-0","2016"
+"University of Cambridge","10.1007/s10961-016-9543-y","2016"
+"University of Cambridge","10.1007/s00265-016-2238-4","2016"
+"University of Cambridge","10.1007/s10948-016-3944-x","2016"
+"University of Cambridge","10.1007/s10955-016-1690-x","2016"
+"University of Cambridge","10.1007/s10539-016-9557-8","2016"
+"University of Cambridge","10.1007/s11098-016-0844-7","2016"
+"University of Cambridge","10.1007/s00125-016-4187-x","2016"
+"University of Cambridge","10.1007/s00348-016-2290-x","2016"
+"University of Cambridge","10.1007/s11095-016-2083-1","2016"
+"University of Cambridge","10.1007/s00226-016-0882-5","2016"
+"University of Cambridge","10.1007/s00208-016-1504-0","2016"
+"University of Cambridge","10.1007/s12028-016-0356-5","2016"
+"University of Cambridge","10.1007/s11229-016-1294-7","2016"
+"University of Chester","10.1007/s10915-016-0319-1","2016"
+"University of Derby","10.1007/s12528-016-9129-6","2016"
+"University of Dundee","10.1007/s10013-016-0232-9","2016"
+"University of Dundee","10.1007/s00203-016-1322-5","2016"
+"University of East Anglia","10.1007/s10551-016-3373-6","2016"
+"University of East Anglia","10.1007/s10640-016-0091-6","2016"
+"University of East Anglia","10.1007/s10618-016-0483-9","2016"
+"University of East Anglia","10.1007/s10803-016-2971-6","2016"
+"University of East Anglia","10.1007/s10113-016-1080-6","2016"
+"University of East Anglia","10.1007/s00453-016-0241-9","2016"
+"University of Edinburgh","10.1007/s00401-016-1638-x","2016"
+"University of Edinburgh","10.1007/s12665-016-6240-y","2016"
+"University of Edinburgh","10.1007/s12551-016-0242-6","2016"
+"University of Edinburgh","10.1007/s11229-016-1262-2","2016"
+"University of Edinburgh","10.1007/s12551-016-0234-6","2016"
+"University of Edinburgh","10.1007/s10519-016-9822-2","2016"
+"University of Edinburgh","10.1007/s10342-016-1011-6","2016"
+"University of Edinburgh","10.1007/s11406-016-9782-z","2016"
+"University of Edinburgh","10.1007/s00018-016-2404-x","2016"
+"University of Edinburgh","10.1007/s00167-016-4367-8","2016"
+"University of Edinburgh","10.1007/s11217-016-9555-y","2016"
+"University of Edinburgh","10.1245/s10434-016-5683-4","2016"
+"University of Edinburgh","10.1140/epjst/e2016-60084-6","2016"
+"University of Edinburgh","10.1007/s10728-016-0334-2","2016"
+"University of Edinburgh","10.1007/s13365-016-0504-x","2016"
+"University of Edinburgh","10.1007/s11266-016-9810-4","2016"
+"University of Edinburgh","10.1007/s00440-016-0748-7","2016"
+"University of Edinburgh","10.3758/s13415-016-0478-4","2016"
+"University of Edinburgh","10.1007/s10992-016-9420-z","2016"
+"University of Edinburgh","10.1007/s12018-016-9226-0","2016"
+"University of Edinburgh","10.1007/s11406-016-9772-1","2016"
+"University of Edinburgh","10.1007/s11229-016-1279-6","2016"
+"University of Edinburgh","10.1007/s11229-016-1285-8","2016"
+"University of Edinburgh","10.1007/s10577-016-9539-3","2016"
+"University of Edinburgh","10.1007/s12402-016-0210-9","2016"
+"University of Exeter","10.1007/s40799-016-0144-3","2016"
+"University of Exeter","10.1007/s00426-016-0827-5","2016"
+"University of Exeter","10.1007/s00382-016-3270-9","2016"
+"University of Exeter","10.1007/s00332-016-9345-2","2016"
+"University of Exeter","10.1007/s10526-016-9777-5","2016"
+"University of Exeter","10.1007/s10531-016-1257-9","2016"
+"University of Exeter","10.1007/s10814-016-9100-0","2016"
+"University of Glasgow","10.1007/s11306-016-1134-2","2016"
+"University of Glasgow","10.1007/s00592-016-0940-3","2016"
+"University of Glasgow","10.1007/s00464-016-5313-z","2016"
+"University of Glasgow","10.1007/s00294-016-0662-7","2016"
+"University of Glasgow","10.1007/s11886-016-0795-9","2016"
+"University of Glasgow","10.1007/s11229-016-1263-1","2016"
+"University of Glasgow","10.1245/s10434-016-5684-3","2016"
+"University of Glasgow","10.1007/s00251-016-0962-6","2016"
+"University of Greenwich","10.1007/s10973-016-5957-x","2016"
+"University of Greenwich","10.1007/s40828-016-0038-0","2016"
+"University of Greenwich","10.1007/s00421-016-3520-x","2016"
+"University of Greenwich","10.1007/s00394-016-1353-3","2016"
+"University of Huddersfield","10.1007/s11896-016-9218-5","2016"
+"University of Huddersfield","10.1007/s10734-016-0101-1","2016"
+"University of Kent","10.1007/s11784-016-0378-9","2016"
+"University of Kent","10.1007/s10044-016-0587-2","2016"
+"University of Kent","10.1007/s40141-016-0137-2","2016"
+"University of Kent","10.1007/s00421-016-3496-6","2016"
+"University of Kent","10.1007/s10815-016-0832-z","2016"
+"University of Kent","10.1007/s10882-016-9524-y","2016"
+"University of Kent","10.1007/s00421-016-3508-6","2016"
+"University of Kent","10.1007/s10640-016-0102-7","2016"
+"University of Leeds","10.1007/s00381-016-3295-8","2016"
+"University of Leeds","10.1007/s00270-016-1490-3","2016"
+"University of Leeds","10.1007/s00382-016-3440-9","2016"
+"University of Leeds","10.1007/s11116-016-9744-0","2016"
+"University of Leeds","10.1007/s10762-016-0336-z","2016"
+"University of Leeds","10.1007/s00190-016-0978-6","2016"
+"University of Leeds","10.1007/s11302-016-9553-0","2016"
+"University of Leeds","10.1007/s00442-016-3796-x","2016"
+"University of Leeds","10.1007/s10067-016-3503-7","2016"
+"University of Leeds","10.1007/s11440-016-0512-2","2016"
+"University of Leeds","10.1007/s11153-016-9597-7","2016"
+"University of Leeds","10.1007/s13762-016-1229-3","2016"
+"University of Leicester","10.1007/s00125-016-4162-6","2016"
+"University of Leicester","10.1007/s00414-016-1473-6","2016"
+"University of Leicester","10.1007/s11075-016-0235-3","2016"
+"University of Leicester","10.1007/s40615-016-0316-y","2016"
+"University of Leicester","10.1007/s10515-016-0209-7","2016"
+"University of Leicester","10.1140/epjst/e2016-60099-y","2016"
+"University of Lincoln","10.1007/s00018-016-2406-8","2016"
+"University of Lincoln","10.1007/s10508-016-0905-1","2016"
+"University of Liverpool","10.1007/s10506-016-9190-5","2016"
+"University of Liverpool","10.1007/s00296-016-3590-4","2016"
+"University of Liverpool","10.1007/s11060-016-2320-9","2016"
+"University of Liverpool","10.1007/s00467-016-3533-z","2016"
+"University of Liverpool","10.1007/s10998-016-0169-5","2016"
+"University of Liverpool","10.1007/s40598-016-0060-8","2016"
+"University of Liverpool","10.1007/s00209-016-1784-9","2016"
+"University of Liverpool","10.1007/s00477-016-1360-1","2016"
+"University of Liverpool","10.1007/s11896-016-9222-9","2016"
+"University of Liverpool","10.1007/s11250-016-1195-2","2016"
+"University of Liverpool","10.1007/s10851-016-0692-2","2016"
+"University of Liverpool","10.1007/s11153-016-9598-6","2016"
+"University of Liverpool","10.1007/s00702-016-1663-x","2016"
+"University of Manchester","10.1007/s11038-016-9499-9","2016"
+"University of Manchester","10.1007/s12689-016-0071-x","2016"
+"University of Manchester","10.1007/s10443-016-9538-8","2016"
+"University of Manchester","10.1007/s10443-016-9554-8","2016"
+"University of Manchester","10.1245/s10434-016-5673-6","2016"
+"University of Manchester","10.1007/s10443-016-9549-5","2016"
+"University of Manchester","10.1007/s00170-016-9542-z","2016"
+"University of Manchester","10.1007/s10443-016-9545-9","2016"
+"University of Manchester","10.1007/s00245-016-9388-7","2016"
+"University of Manchester","10.1007/s10443-016-9557-5","2016"
+"University of Manchester","10.1007/s10443-016-9550-z","2016"
+"University of Manchester","10.1007/s11906-016-0697-7","2016"
+"University of Manchester","10.1007/s10443-016-9560-x","2016"
+"University of Manchester","10.1007/s10443-016-9559-3","2016"
+"University of Manchester","10.1007/s12104-016-9720-9","2016"
+"University of Manchester","10.1007/s00018-016-2418-4","2016"
+"University of Manchester","10.1007/s10875-016-0359-1","2016"
+"University of Manchester","10.1007/s40846-016-0184-2","2016"
+"University of Manchester","10.1007/s11999-016-5199-z","2016"
+"University of Manchester","10.1007/s11051-016-3691-8","2016"
+"University of Manchester","10.1007/s10067-016-3485-5","2016"
+"University of Manchester","10.1007/s10443-016-9563-7","2016"
+"University of Manchester","10.1007/s10443-016-9570-8","2016"
+"University of Manchester","10.1007/s10443-016-9561-9","2016"
+"University of Manchester","10.1007/s40722-016-0071-5","2016"
+"University of Manchester","10.1007/s10555-016-9645-x","2016"
+"University of Manchester","10.1007/s11406-016-9787-7","2016"
+"University of Manchester","10.1007/s00018-016-2433-5","2016"
+"University of Manchester","10.1007/s00198-016-3816-z","2016"
+"University of Nottingham","10.1007/s10803-016-2965-4","2016"
+"University of Nottingham","10.1007/s10584-016-1773-3","2016"
+"University of Nottingham","10.1007/s12551-016-0232-8","2016"
+"University of Nottingham","10.1007/s00787-016-0915-5","2016"
+"University of Nottingham","10.1007/s10479-016-2379-x","2016"
+"University of Nottingham","10.1007/s00248-016-0895-5","2016"
+"University of Nottingham","10.1617/s11527-016-0982-6","2016"
+"University of Oxford","10.1007/s00270-016-1506-z","2016"
+"University of Oxford","10.1007/s40316-016-0072-8","2016"
+"University of Oxford","10.1007/s10711-016-0209-6","2016"
+"University of Oxford","10.1007/s11061-016-9504-6","2016"
+"University of Oxford","10.1007/s12526-016-0598-7","2016"
+"University of Oxford","10.1007/s11211-016-0275-9","2016"
+"University of Oxford","10.1007/s12187-016-9428-5","2016"
+"University of Oxford","10.1007/s00348-016-2282-x","2016"
+"University of Oxford","10.1007/s13347-016-0241-3","2016"
+"University of Oxford","10.1007/s11205-016-1483-2","2016"
+"University of Oxford","10.1007/s10640-016-0086-3","2016"
+"University of Oxford","10.1007/s10665-016-9879-1","2016"
+"University of Oxford","10.1007/s00213-016-4477-5","2016"
+"University of Oxford","10.3758/s13423-016-1198-z","2016"
+"University of Oxford","10.1007/s11075-016-0248-y","2016"
+"University of Oxford","10.1007/s11017-016-9389-1","2016"
+"University of Oxford","10.1007/s10544-016-0137-0","2016"
+"University of Oxford","10.1007/s11098-016-0843-8","2016"
+"University of Oxford","10.1007/s11548-016-1511-3","2016"
+"University of Oxford","10.1007/s00125-016-4178-y","2016"
+"University of Oxford","10.1007/s10519-016-9832-0","2016"
+"University of Oxford","10.1007/s00410-016-1319-8","2016"
+"University of Oxford","10.1007/s00220-016-2790-9","2016"
+"University of Oxford","10.1007/s40750-016-0058-4","2016"
+"University of Oxford","10.1007/s11071-016-3272-5","2016"
+"University of Oxford","10.1007/s00236-016-0287-9","2016"
+"University of Oxford","10.1007/s00167-016-4404-7","2016"
+"University of Oxford","10.1007/s11205-016-1540-x","2016"
+"University of Oxford","10.1007/s00348-016-2286-6","2016"
+"University of Oxford","10.1140/epjst/e2016-60018-x","2016"
+"University of Portsmouth","10.1007/s11042-016-4109-4","2016"
+"University of Portsmouth","10.1007/s11042-016-4062-2","2016"
+"University of Portsmouth","10.1007/s41066-016-0034-1","2016"
+"University of Reading","10.1007/s00030-016-0415-9","2016"
+"University of Reading","10.1007/s11156-016-0609-6","2016"
+"University of Reading","10.1007/s13164-016-0323-2","2016"
+"University of Reading","10.1007/s00382-016-3467-y","2016"
+"University of Salford","10.1007/s10886-016-0784-x","2016"
+"University of Sheffield","10.1007/s11238-016-9581-9","2016"
+"University of Sheffield","10.1007/s12192-016-0750-0","2016"
+"University of Sheffield","10.1007/s00125-016-4146-6","2016"
+"University of Sheffield","10.1007/s10704-016-0170-2","2016"
+"University of Sheffield","10.1007/s00417-016-3546-0","2016"
+"University of Sheffield","10.1007/s11365-016-0425-4","2016"
+"University of Sheffield","10.1007/s40823-016-0018-5","2016"
+"University of Sheffield","10.1007/s11120-016-0322-2","2016"
+"University of Sheffield","10.1007/s11136-016-1483-3","2016"
+"University of Sheffield","10.1007/s11095-016-2076-0","2016"
+"University of Sheffield","10.1007/s00453-016-0262-4","2016"
+"University of Sheffield","10.1007/s10953-016-0554-y","2016"
+"University of Sheffield","10.1007/s12520-016-0447-4","2016"
+"University of Sheffield","10.1007/s10439-016-1772-6","2016"
+"University of Southampton","10.1007/s10107-016-1090-7","2016"
+"University of Southampton","10.1007/s11249-016-0794-4","2016"
+"University of Southampton","10.1007/s12062-016-9168-9","2016"
+"University of Southampton","10.1007/s11136-016-1449-5","2016"
+"University of Southampton","10.1007/s10610-016-9332-z","2016"
+"University of Southampton","10.1007/s10677-016-9775-9","2016"
+"University of Southampton","10.1007/s00467-016-3560-9","2016"
+"University of Southampton","10.1007/s11166-016-9245-8","2016"
+"University of Southampton","10.1007/s12160-016-9866-9","2016"
+"University of Southampton","10.1007/s10040-016-1511-y","2016"
+"University of St Andrews","10.1007/s10436-016-0285-5","2016"
+"University of St Andrews","10.1007/s11229-016-1254-2","2016"
+"University of St Andrews","10.1007/s00442-016-3780-5","2016"
+"University of St Andrews","10.1007/s11554-016-0655-2","2016"
+"University of St Andrews","10.1007/s11229-016-1264-0","2016"
+"University of St Andrews","10.1007/s10071-016-1061-7","2016"
+"University of St Andrews","10.1007/s00010-016-0451-x","2016"
+"University of St Andrews","10.1007/s10459-016-9744-z","2016"
+"University of St Andrews","10.1007/s00779-016-0997-6","2016"
+"University of St Andrews","10.1007/s00209-016-1826-3","2016"
+"University of Stirling","10.1007/s00477-016-1354-z","2016"
+"University of Stirling","10.1007/s11258-016-0677-7","2016"
+"University of Stirling","10.1007/s10695-016-0305-4","2016"
+"University of Stirling","10.1007/s10198-016-0856-4","2016"
+"University of Strathclyde","10.1007/s11356-016-7997-y","2016"
+"University of Strathclyde","10.1007/s11156-016-0610-0","2016"
+"University of Strathclyde","10.1007/s12560-016-9275-z","2016"
+"University of Surrey","10.1007/s10569-016-9740-x","2016"
+"University of Surrey","10.1007/s00285-016-1073-6","2016"
+"University of Surrey","10.1007/s10853-016-0594-0","2016"
+"University of Sussex","10.1208/s12249-016-0621-0","2016"
+"University of Sussex","10.1007/s10955-016-1654-1","2016"
+"University of Sussex","10.1007/s10584-016-1839-2","2016"
+"University of Sussex","10.1007/s13346-016-0344-5","2016"
+"University of Sussex","10.1007/s11764-016-0580-1","2016"
+"University of Sussex","10.1007/s10991-016-9190-2","2016"
+"University of Sussex","10.1007/s10609-016-9300-9","2016"
+"University of Sussex","10.1007/s10961-016-9545-9","2016"
+"University of Sussex","10.3758/s13415-016-0477-5","2016"
+"University of Ulster","10.1007/s00125-016-4186-y","2016"
+"University of Ulster","10.1007/s12553-016-0159-x","2016"
+"University of Wales Trinity St David","10.1007/s10639-016-9549-y","2016"
+"University of Warwick","10.1007/s10734-016-0074-0","2016"
+"University of Warwick","10.1007/s00245-016-9389-6","2016"
+"University of Warwick","10.1007/s10955-016-1646-1","2016"
+"University of Warwick","10.1007/s00285-016-1074-5","2016"
+"University of Warwick","10.1007/s00332-016-9348-z","2016"
+"University of Warwick","10.1007/s10924-016-0883-3","2016"
+"University of Warwick","10.3758/s13423-016-1197-0","2016"
+"University of Warwick","10.1007/s11150-016-9353-x","2016"
+"University of Warwick","10.1007/s12138-016-0421-7","2016"
+"University of Warwick","10.1007/s11214-016-0312-x","2016"
+"University of Warwick","10.1007/s00170-016-9696-8","2016"
+"University of Warwick","10.1007/s11136-016-1465-5","2016"
+"University of Warwick","10.1007/s10676-016-9413-1","2016"
+"University of Warwick","10.1007/s00125-016-4166-2","2016"
+"University of Warwick","10.1007/s10961-016-9551-y","2016"
+"University of West of Scotland","10.1007/s11665-016-2438-0","2016"
+"University of West of Scotland","10.1007/s40279-016-0644-4","2016"
+"University of West of Scotland","10.1007/s10961-016-9517-0","2016"
+"University of West of Scotland","10.1007/s12281-016-0268-z","2016"
+"University of West of Scotland","10.1007/s00421-016-3506-8","2016"
+"University of Westminster","10.1007/s00221-016-4807-1","2016"
+"University of York","10.1007/s40062-016-0154-y","2016"
+"University of York","10.1007/s00040-016-0534-7","2016"
+"Imperial College London","10.1007/s00348-016-2243-4","2016"
+"Lancaster University","10.1007/s10579-016-9367-2","2016"
+"University of Kent","10.1007/s12603-016-0806-y","2016"
+"University of Strathclyde","10.1007/s40735-016-0044-1","2016"
