@@ -5,6 +5,7 @@ import argparse
 import codecs
 import logging
 import re
+from socket import error as socket_error
 import sys
 import time
 import urllib2
@@ -23,13 +24,123 @@ ARG_HELP_STRINGS = {
            "be used together with '-start' to select a specific segment."
 }
 
-# regex for landing pages with a single pdf file
-pdflink_re = re.compile('<a id="pdfLink".*?pdfurl="(.*?)"')
+class LandingPageLookup(object):
+    """
+    Encapsulates information on how to perform a landing page lookup for a
+    given publisher.
+    
+    Attributes:
+        publisher_name: The publisher name as it occurs in the "publisher"
+                        column of the given OpenAPC file
+        landingpage_domain: The domain where the publisher's landing
+                            pages reside (like "sciencedirect.com"). 
+                            A simple match against this value is performed
+                            for all DOI targets, so it should not be too specific.
+        regex_groups: A list of RegexGroup objects. At least one of these groups
+                      must produce a match for all of its expressions to
+                      confirm OA status.
+        publisher_aliases: An optional list of aliases, if the same publisher
+                           has different designations in the input file
+    """
+    def __init__(self, publisher_name, landingpage_domain, regex_groups, publisher_aliases=None):
+        self.publisher_name = publisher_name
+        self.landingpage_domain = landingpage_domain
+        self.regex_groups = regex_groups
+        if publisher_aliases is None:
+            self.publisher_aliases = []
+        else:
+            self.publisher_aliases = publisher_aliases
+        
+    def publisher_matches(self, publisher):
+        return publisher == self.publisher_name or publisher in self.publisher_aliases
+        
+    def search_for_oa(self, page_content):
+        for group in self.regex_groups:
+            link = group.search(page_content)
+            if link is None:
+                continue
+            return link
+        return None
+        
+class RegexGroup(object):
+    """
+    A simple container class for grouping regular expressions objects.
+    
+    Instances of this class are created with an arbitrary number of
+    pre-compiled regular expressions objects. Its purpose is to bundle
+    a set of expressions which must all match to confirm the OA status
+    of a landing page. Exactly one of the regexes should
+    contain a group which matches the link target of the article PDF.
+    """
+    def __init__(self, *args):
+        self.regexes = []
+        for regex in args:
+            self.regexes.append(regex)
+            
+    def search(self, text):
+        link = ""
+        for regex in self.regexes:
+            match = regex.search(text)
+            if not match:
+                return None
+            groups = match.groups()
+            if len(groups) > 0:
+                link = groups[0]
+        return link
+        
+        
+elsevier_regex_groups = [
+    # landing pages with a single pdf file
+    RegexGroup(re.compile('<a id="pdfLink".*?pdfurl="(.*?)"')),
+    # pages with more than one pdf. Note that this snippet is located
+    # in a commented section (it is transformed via js dynamically), so the href
+    # link might not be initially valid (ampersand escaping etc)
+    RegexGroup(re.compile('<a class="download-pdf-link".*?href="(.*?)"'))
+]
 
-# regex for pages with more than one pdf. Note that this snippet is located
-# in a commented section (it is transformed via js dynamically), so the href
-# link might not be initially valid (ampersand escaping etc)
-pdflink_multi_re = re.compile('<a class="download-pdf-link".*?href="(.*?)"')
+springer_regex_groups = [
+    RegexGroup(re.compile('<a href="(.*?)".*?title="Download this article in PDF format"'),
+               re.compile('<span.*?class="open-access"'))
+]
+
+wiley_regex_groups = [
+    RegexGroup(re.compile('<li class="box-actions"><a href="(.*?)" class="js-article-section__pdf-container-link article-section__pdf-container-link"')),
+    RegexGroup(re.compile('<span class="article-type article-type--open-access">.*?Open Access.*?</span>'))
+]
+        
+elsevier = LandingPageLookup("Elsevier BV", "sciencedirect.com", elsevier_regex_groups)
+springer = LandingPageLookup("Springer Nature", "link.springer.com", springer_regex_groups, ["Springer Science + Business Media"])
+wiley = LandingPageLookup("Wiley-Blackwell", "onlinelibrary.wiley.com", wiley_regex_groups)
+
+lpl_list = [elsevier, springer, wiley]
+
+def get_landingpage_content(doi, lpl):
+    url = 'http://doi.org/' + doi
+    header = {"User-Agent": "Mozilla/5.0 Firefox/45.0"}
+    req = urllib2.Request(url, None, header)
+    try:
+        response = urllib2.urlopen(req)
+        target = response.geturl()
+        resolve_msg = u"DOI {} resolved, led us to {}".format(doi, target)
+        if lpl.landingpage_domain not in target:
+            oat.print_y(resolve_msg)
+            landingpage_msg = (u"Journal not located at {}, " +
+                               "skipping...").format(lpl.landingpage_domain)
+            oat.print_y(landingpage_msg)
+            return None
+        oat.print_b(resolve_msg)
+        content_string = response.read()
+        return content_string
+    except urllib2.HTTPError as httpe:
+        code = str(httpe.getcode())
+        oat.print_r("HTTPError: {} - {}".format(code, httpe.reason))
+        return None
+    except urllib2.URLError as urle:
+        oat.print_r("URLError: {}".format(urle.reason))
+        return None
+    except socket_error as se:
+        oat.print_r("Socket Error: {}".format(se.message))
+        return None
 
 def main():
     parser = argparse.ArgumentParser()
@@ -67,8 +178,6 @@ def main():
     head, content = oat.get_csv_file_content(args.csv_file, enc)
     content = head + content
 
-    header = {"User-Agent": "Mozilla/5.0 Firefox/45.0"}
-
     line_num = 0
     for line in content:
         line_num += 1
@@ -76,50 +185,35 @@ def main():
             continue
         if args.end and args.end < line_num:
             continue
+        # Check hybrid status
+        if line[4] != "TRUE":
+            continue
         institution = line[0]
         period = line[1]
         doi = line[3]
-        is_hybrid = line[4]
         publisher = line[5]
         journal = line[6]
-        if publisher != "Elsevier BV" or is_hybrid != "TRUE":
-            continue
-        init_msg = (u"Line {}: Checking {} article from {}, published in " +
-                    "{}...").format(line_num, institution, period, journal)
-        oat.print_b(init_msg)
-        url = 'http://doi.org/' + doi
-        req = urllib2.Request(url, None, header)
-        ret_value = {'success': True}
-        try:
-            response = urllib2.urlopen(req)
-            target = response.geturl()
-            resolve_msg = u"DOI {} resolved, led us to {}".format(doi, target)
-            if "sciencedirect.com" not in target:
-                oat.print_y(resolve_msg)
-                oat.print_y("Journal not located at sciencedirect, skipping...")
-                continue
-            oat.print_b(resolve_msg)
-            content_string = response.read()
-            single_match = pdflink_re.search(content_string)
-            if single_match:
-                link_url = single_match.groups()[0]
-                oat.print_g(u"PDF link found: " + link_url)
-            else:
-                multi_match = pdflink_multi_re.search(content_string)
-                if multi_match:
-                   link_url = multi_match.groups()[0]
-                   link_url = link_url.replace("&amp;", "&")
-                   oat.print_g(u"PDF link found (more than one document): " + link_url)
-                else:
-                    error_msg = (u"No PDF link found! (line {}, DOI: {}, " +
-                                 "landing page: {})").format(line_num, doi, target)
+        for lpl in lpl_list:
+            if lpl.publisher_matches(publisher):
+                init_msg = (u"Line {}: Checking {} article from {}, published in '" +
+                            "{}'...").format(line_num, institution, period, journal)
+                oat.print_b(init_msg)
+                page_content = get_landingpage_content(doi, lpl)
+                if page_content is None:
+                    continue
+                pdf_link = lpl.search_for_oa(page_content)
+                if pdf_link is None:
+                    error_msg = (u"No PDF link found! (line {}, DOI: " +
+                                 "http://doi.org/{}").format(line_num, doi)
                     logging.error(error_msg)
-            time.sleep(1)
-        except urllib2.HTTPError as httpe:
-            code = str(httpe.getcode())
-            oat.print_r("HTTPError: {} - {}".format(code, httpe.reason))
-        except urllib2.URLError as urle:
-            oat.print_r("URLError: {}".format(urle.reason))
+                elif pdf_link == "":
+                    warning_msg = (u"A RegexGroup matched, but no PDF " +
+                                   "link was found! (line {}, DOI: " +
+                                   "http://doi.org/{}").format(line_num, doi)
+                    logging.warning(warning_msg)
+                else:
+                   oat.print_g(u"PDF link found: " + pdf_link)
+        time.sleep(1)
 
     if not bufferedHandler.buffer:
         oat.print_g("\nLookup finished, all articles were accessible on sciencedirect")
