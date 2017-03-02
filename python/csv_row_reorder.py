@@ -92,13 +92,14 @@ def main():
             rearranged_content += matching_rows
             for matching_row in matching_rows:
                 content.remove(matching_row)
-        msg = ("{} rows could not be rearranged (unmatched in second csv file) " +
+        unmatched_msg = ("{} rows could not be rearranged (unmatched in second csv file) " +
                "and were appended to the end of the result file " +
                "in original order.")
         if len(content):
-            oat.print_y(msg.format(len(content)))
+            oat.print_y(unmatched_msg.format(len(content)))
+        else:
+            oat.print_g("All rows matched.")
         rearranged_content = header + rearranged_content + content # append any unmatched rows
-        print rearranged_content[0:5]
     
     mask = None
     if args.quotemask:
