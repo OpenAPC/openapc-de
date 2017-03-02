@@ -985,7 +985,8 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
         "manuscripta mathematica": "Manuscripta Mathematica",
         "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology",
-        "Taal en tongval": "Taal en Tongval"
+        "Taal en tongval": "Taal en Tongval",
+        "Notfall +  Rettungsmedizin": "Notfall + Rettungsmedizin"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
