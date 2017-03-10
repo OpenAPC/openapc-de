@@ -383,7 +383,7 @@
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "Cardiff University",2015,2616.13,"10.1523/jneurosci.1152-14.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474","Unknown",TRUE,"25834059","PMC4381005","ut:000352208200025",NA,FALSE
-"Cardiff University",2015,3092.38,"10.1523/jneurosci.2740-15.2015",TRUE,"Society for Neuroscience","The Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474","CC BY",TRUE,"26609149","PMC4659821","ut:000366055000003",NA,FALSE
+"Cardiff University",2015,3092.38,"10.1523/jneurosci.2740-15.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474","CC BY",TRUE,"26609149","PMC4659821","ut:000366055000003",NA,FALSE
 "Cardiff University",2015,2570.83,"10.1523/jneurosci.3603-14.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474","Unknown",TRUE,"25855163","PMC4388913","ut:000353054900002",NA,FALSE
 "Cardiff University",2015,2592.79,"10.1523/jneurosci.4945-14.2015",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474","Unknown",TRUE,"25855166","PMC4388916","ut:000353054900005",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
@@ -1989,7 +1989,7 @@
 "LSHTM",2015,2022.05,"10.1371/journal.pntd.0004228",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"26600211","PMC4657919","ut:000368344400038",NA,TRUE
 "LSHTM",2015,2038.4,"10.1371/journal.pntd.0004246",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"26624616","PMC4666486","ut:000368345100026",NA,TRUE
 "LSHTM",2015,2058.56,"10.1371/journal.pntd.0004254",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"26598937","PMC4657886","ut:000368344400049",NA,TRUE
-"LSHTM",2015,1211.73,"10.1371/journal.pone.0124688",TRUE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26398228","PMC4580573","ut:000361797500001",NA,TRUE
+"LSHTM",2015,1211.73,"10.1371/journal.pone.0124688",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26398228","PMC4580573","ut:000361797500001",NA,TRUE
 "LSHTM",2015,1182.7,"10.1371/journal.pone.0132840",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26181760","PMC4504505","ut:000358198200041",NA,TRUE
 "LSHTM",2015,1200.4,"10.1371/journal.pone.0136976",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26305110","PMC4549272","ut:000359995500118",NA,TRUE
 "LSHTM",2015,1224.73,"10.1371/journal.pone.0138303",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26406317","PMC4583445","ut:000361800700039",NA,TRUE
@@ -3885,8 +3885,8 @@
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "University of Aberdeen",2015,2012.87,"10.1371/journal.pcbi.1004372",TRUE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","1553-734X","http://creativecommons.org/licenses/by/4.0/",TRUE,"26317592","PMC4552863","ut:000360824500018",NA,TRUE
-"University of Aberdeen",2015,1217.48,"10.1371/journal.pone.0119763",TRUE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25789758","PMC4366045","ut:000351425400102",NA,TRUE
-"University of Aberdeen",2015,1225.22,"10.1371/journal.pone.0130762",TRUE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26115356","PMC4483238","ut:000358147500093",NA,TRUE
+"University of Aberdeen",2015,1217.48,"10.1371/journal.pone.0119763",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25789758","PMC4366045","ut:000351425400102",NA,TRUE
+"University of Aberdeen",2015,1225.22,"10.1371/journal.pone.0130762",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26115356","PMC4483238","ut:000358147500093",NA,TRUE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
@@ -7810,7 +7810,7 @@
 "University of St Andrews",2015,2894.85,"10.1002/adma.201405623",TRUE,"Wiley-Blackwell","Advanced Materials","0935-9648",NA,NA,"0935-9648","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25759321",NA,"ut:000352819400012",NA,FALSE
 "University of St Andrews",2015,2067.75,"10.1002/asia.201500907",FALSE,"Wiley-Blackwell","Chemistry - An Asian Journal","1861-4728",NA,NA,"1861-471X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26471245","PMC4755233","ut:000369986800014",NA,FALSE
 "University of St Andrews",2015,2067.75,"10.1002/casp.2236",TRUE,"Wiley-Blackwell","Journal of Community & Applied Social Psychology","1052-9284",NA,NA,"1052-9284","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000368016200005",NA,FALSE
-"University of St Andrews",2015,2067.75,"10.1002/cbic.201500494",FALSE,"Wiley-Blackwell","ChemBioChem","1439-4227",NA,NA,"1439-4227","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26507241","PMC4736454","ut:000367720300015",NA,FALSE
+"University of St Andrews",2015,2067.75,"10.1002/cbic.201500494",TRUE,"Wiley-Blackwell","ChemBioChem","1439-4227",NA,NA,"1439-4227","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26507241","PMC4736454","ut:000367720300015",NA,FALSE
 "University of St Andrews",2015,2067.75,"10.1002/cctc.201402891",TRUE,"Wiley-Blackwell","ChemCatChem","1867-3880",NA,NA,"1867-3880","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26236406","PMC4515107","ut:000347781400007",NA,FALSE
 "University of St Andrews",2015,2584.69,"10.1002/chem.201402684",TRUE,"Wiley-Blackwell","Chemistry - A European Journal","0947-6539",NA,NA,"0947-6539","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24989672","PMC4517160","ut:000340176600040",NA,FALSE
 "University of St Andrews",2015,2584.69,"10.1002/chem.201501271",TRUE,"Wiley-Blackwell","Chemistry - A European Journal","0947-6539",NA,NA,"0947-6539","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26073559","PMC4531819","ut:000357328200036",NA,FALSE
@@ -7832,7 +7832,7 @@
 "University of St Andrews",2015,2067.75,"10.1111/evo.12636",TRUE,"Wiley-Blackwell","Evolution","0014-3820",NA,NA,"0014-3820","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25756346","PMC4989449","ut:000353236000008",NA,FALSE
 "University of St Andrews",2015,2067.75,"10.1111/jeb.12678",TRUE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010-061X",NA,NA,"1010-061X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26086205","PMC4744990","ut:000359606200013",NA,FALSE
 "University of St Andrews",2015,2067.75,"10.1111/jeb.12697",TRUE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010-061X",NA,NA,"1010-061X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26190034",NA,"ut:000362892300016",NA,FALSE
-"University of St Andrews",2015,2067.75,"10.1111/jeb.12771",FALSE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010-061X",NA,NA,"1010-061X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26431821","PMC4738439","ut:000368074900012",NA,FALSE
+"University of St Andrews",2015,2067.75,"10.1111/jeb.12771",TRUE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010-061X",NA,NA,"1010-061X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26431821","PMC4738439","ut:000368074900012",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "University of Surrey",2015,3044.1,"10.1017/jfm.2015.565",TRUE,"Cambridge University Press (CUP)","Journal of Fluid Mechanics","0022-1120","0022-1120","1469-7645","0022-1120","CC BY",TRUE,NA,NA,"ut:000365009700012",NA,FALSE
@@ -8157,13 +8157,13 @@
 "University of York",2015,2738.94,"10.1007/s10853-015-9393-2",TRUE,"Springer Nature","Journal of Materials Science","0022-2461","0022-2461","1573-4803","0022-2461","CC BY",TRUE,NA,NA,"ut:000361901400029",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
 "University of York",2015,744.39,"10.1080/14241277.2015.1055533",TRUE,"Informa UK Limited","International Journal on Media Management","1424-1277","1424-1277","1424-1250","1424-1250","CC BY",TRUE,NA,NA,NA,NA,FALSE
-"University of York",2015,2481.3,"10.1002/cbic.201402701",FALSE,"Wiley-Blackwell","ChemBioChem","1439-4227",NA,NA,"1439-4227","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25737306","PMC4515095","ut:000352489300012",NA,FALSE
+"University of York",2015,2481.3,"10.1002/cbic.201402701",TRUE,"Wiley-Blackwell","ChemBioChem","1439-4227",NA,NA,"1439-4227","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25737306","PMC4515095","ut:000352489300012",NA,FALSE
 "University of York",2015,3101.63,"10.1002/chem.201406372",TRUE,"Wiley-Blackwell","Chemistry - A European Journal","0947-6539",NA,NA,"0947-6539","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26031244","PMC4515093","ut:000357026700024",NA,FALSE
 "University of York",2015,2481.3,"10.1002/dvdy.24358",TRUE,"Wiley-Blackwell","Developmental Dynamics","1058-8388",NA,NA,"1058-8388","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26447465","PMC4982076","ut:000368168800003",NA,FALSE
 "University of York",2015,1285,"10.1107/s1399004715009220",TRUE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section D Biological Crystallography","1399-0047",NA,"1399-0047","0907-4449","http://creativecommons.org/licenses/by/2.0/uk/legalcode",TRUE,"26143927","PMC4498606","ut:000357829500015",NA,FALSE
 "University of York",2015,1085.29,"10.1107/s2053230x15014892",TRUE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section F Structural Biology Communications","2053-230X",NA,"2053-230X","2053-230X","http://creativecommons.org/licenses/by/2.0/uk/legalcode",TRUE,"26457511","PMC4601584","ut:000362852000004",NA,FALSE
 "University of York",2015,3101.63,"10.1111/1462-2920.12901",TRUE,"Wiley-Blackwell","Environmental Microbiology","1462-2912",NA,NA,"1462-2912","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25969927","PMC4989453","ut:000368457800016",NA,FALSE
 "University of York",2015,3473.82,"10.1111/gcb.13056",TRUE,"Wiley-Blackwell","Global Change Biology","1354-1013",NA,NA,"1354-1013","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26234897","PMC4991288","ut:000369135400007",NA,FALSE
-"University of York",2015,2481.3,"10.1111/jeb.12705",FALSE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010-061X",NA,NA,"1010-061X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26206380","PMC4949989","ut:000362892300002",NA,FALSE
+"University of York",2015,2481.3,"10.1111/jeb.12705",TRUE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010-061X",NA,NA,"1010-061X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26206380","PMC4949989","ut:000362892300002",NA,FALSE
 "University of York",2015,2481.3,"10.1111/nph.13224",TRUE,"Wiley-Blackwell","New Phytologist","0028-646X",NA,NA,"0028-646X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25560980","PMC4338757","ut:000349386300029",NA,FALSE
 "University of York",2015,2481.3,"10.1111/rssa.12141",TRUE,"Wiley-Blackwell","Journal of the Royal Statistical Society: Series A (Statistics in Society)","0964-1998",NA,NA,"0964-1998","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000384821600005",NA,FALSE

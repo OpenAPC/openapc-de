@@ -231,7 +231,7 @@ class BufferedErrorHandler(MemoryHandler):
 
     def shouldFlush(self, record):
         return False
-    
+
 def get_normalised_DOI(doi_string):
     doi_match = DOI_RE.match(doi_string.strip())
     if not doi_match:
@@ -307,7 +307,7 @@ def analyze_csv_file(file_path, line_limit=None):
     result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
     csv_file.close()
     return {"success": True, "data": result}
-    
+
 def get_csv_file_content(file_name, enc=None):
     result = analyze_csv_file(file_name, 500)
     if result["success"]:
@@ -316,18 +316,18 @@ def get_csv_file_content(file_name, enc=None):
     else:
         print result["error_msg"]
         sys.exit()
-    
+
     if enc is None:
         enc = csv_analysis.enc
-    
+
     if enc is None:
         print ("Error: No encoding given for CSV file and automated " +
                "detection failed. Please set the encoding manually via the " +
                "--enc argument")
         sys.exit()
-        
+
     dialect = csv_analysis.dialect
-    
+
     csv_file = open(file_name, "r")
 
     content = []
@@ -339,10 +339,10 @@ def get_csv_file_content(file_name, enc=None):
         content.append(row)
     csv_file.close()
     return (header, content)
-    
+
 def has_value(field):
     return len(field) > 0 and field != "NA"
-    
+
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, selective_harvest=False):
     """
     Harvest OpenAPC records via OAI-PMH
@@ -377,7 +377,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         ("", "url"),
         ("intact:id_number[@type='local']", "local_id")
     ])
-    #institution_xpath = 
+    #institution_xpath =
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
         "intact": "http://intact-project.org"
@@ -986,7 +986,8 @@ def get_unified_journal_title(journal_full_title):
         "manuscripta mathematica": "Manuscripta Mathematica",
         "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology",
         "Taal en tongval": "Taal en Tongval",
-        "Notfall +  Rettungsmedizin": "Notfall + Rettungsmedizin"
+        "Notfall +  Rettungsmedizin": "Notfall + Rettungsmedizin",
+        "The Journal of Neuroscience": "Journal of Neuroscience"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
