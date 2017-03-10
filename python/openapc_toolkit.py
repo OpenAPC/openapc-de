@@ -987,7 +987,8 @@ def get_unified_journal_title(journal_full_title):
         "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology",
         "Taal en tongval": "Taal en Tongval",
         "Notfall +  Rettungsmedizin": "Notfall + Rettungsmedizin",
-        "The Journal of Neuroscience": "Journal of Neuroscience"
+        "The Journal of Neuroscience": "Journal of Neuroscience",
+        "British Editorial Society of Bone &amp; Joint Surgery": "British Editorial Society of Bone & Joint Surgery"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
