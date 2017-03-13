@@ -1121,7 +1121,7 @@
 "Imperial College London",2015,1963.73,"10.3389/fnhum.2015.00436",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","1662-5161","CC BY",TRUE,"26300760","PMC4526810","ut:000360268300001",NA,TRUE
 "Imperial College London",2015,1517.22,"10.3389/fnhum.2015.00526",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","1662-5161","CC BY",TRUE,"26528160","PMC4604246","ut:000363060100001",NA,TRUE
 "Imperial College London",2015,1526.79,"10.3389/fnhum.2015.00606",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","1662-5161","CC BY",TRUE,"26582984","PMC4631821","ut:000366494600001",NA,TRUE
-"Imperial College London",2015,1304.97,"10.3389/fnsys.2015.00157",TRUE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137","1662-5137","CC BY",TRUE,"26635547","PMC4655245","ut:000366817300001",NA,TRUE
+"Imperial College London",2015,1304.97,"10.3389/fnsys.2015.00157",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137","1662-5137","CC BY",TRUE,"26635547","PMC4655245","ut:000366817300001",NA,TRUE
 "Imperial College London",2015,1565.96,"10.3389/fphar.2015.00148",FALSE,"Frontiers Media SA","Frontiers in Pharmacology","1663-9812",NA,"1663-9812","1663-9812","CC BY",TRUE,"26236239","PMC4505077","ut:000365327500001",NA,TRUE
 "Imperial College London",2015,1188.57,"10.3389/fphy.2015.00046",FALSE,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X","2296-424X","CC BY",TRUE,NA,NA,"ut:000387263900001",NA,TRUE
 "Imperial College London",2015,2812.14,"10.2217/epi.15.53",TRUE,"Future Medicine Ltd","Epigenomics","1750-1911","1750-1911","1750-192X","1750-192X","CC BY-NC",TRUE,"26479310","PMC4864050","ut:000365163600013",NA,FALSE
@@ -2041,7 +2041,7 @@
 "Northumbria University",2015,1438.2,"10.1109/tpami.2015.2497686",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Pattern Analysis and Machine Intelligence","0162-8828","0162-8828","2160-9292","0162-8828","CC BY",TRUE,"26552074",NA,"ut:000381432700015",NA,FALSE
 "Northumbria University",2015,1485.36,"10.1109/tvcg.2015.2510000",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Visualization and Computer Graphics","1077-2626","1077-2626",NA,"1077-2626","CC BY",TRUE,"26701789",NA,"ut:000384578800009",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
-"Northumbria University",2015,1185.51,"10.1088/1748-9326/10/8/085008",TRUE,"IOP Publishing","Environmental Research Letters","1748-9326",NA,"1748-9326","1748-9326","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,"ut:000366999400035",NA,TRUE
+"Northumbria University",2015,1185.51,"10.1088/1748-9326/10/8/085008",FALSE,"IOP Publishing","Environmental Research Letters","1748-9326",NA,"1748-9326","1748-9326","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,"ut:000366999400035",NA,TRUE
 "Northumbria University",2015,1284.42,"10.1049/iet-rpg.2014.0337",TRUE,"Institution of Engineering and Technology (IET)","IET Renewable Power Generation","1752-1416","1752-1416","1752-1424","1752-1416","CC BY",TRUE,NA,NA,"ut:000356366000008",NA,FALSE
 "Northumbria University",2015,3170.55,"10.3189/2015jog15j086",FALSE,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","CC BY",TRUE,NA,NA,"ut:000371653600006",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
@@ -3843,7 +3843,7 @@
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
-"University of Aberdeen",2015,4504.94,"10.1016/j.celrep.2015.06.066",TRUE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26212319","PMC4534484","ut:000358999800007",NA,TRUE
+"University of Aberdeen",2015,4504.94,"10.1016/j.celrep.2015.06.066",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26212319","PMC4534484","ut:000358999800007",NA,TRUE
 "University of Aberdeen",2015,438.16,"10.1016/j.chom.2015.01.004",TRUE,"Elsevier BV","Cell Host & Microbe","1931-3128","1931-3128",NA,"1931-3128","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25674984","PMC4334100","ut:000349761700014",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
@@ -3870,7 +3870,7 @@
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "University of Aberdeen",2015,1649.98,"10.3390/molecules20034055",TRUE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","CC BY",TRUE,"25741899","PMC3869273","ut:000352471300032",NA,TRUE
-"University of Aberdeen",2015,2236.52,"10.1073/pnas.1419329112",FALSE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","http://www.pnas.org/site/misc/userlicense.xhtml",TRUE,"26170282","PMC4522744","ut:000358656500068",NA,FALSE
+"University of Aberdeen",2015,2236.52,"10.1073/pnas.1419329112",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","http://www.pnas.org/site/misc/userlicense.xhtml",TRUE,"26170282","PMC4522744","ut:000358656500068",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
@@ -4616,7 +4616,7 @@
 "University of Bristol",2015,2148.31,"10.1155/2015/923491",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","2314-6133","http://creativecommons.org/licenses/by/3.0/",TRUE,"26106619","PMC4461748","ut:000354699300001",NA,TRUE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
-"University of Bristol",2015,1809.63,"10.1109/access.2015.2472355",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Access","2169-3536",NA,"2169-3536","2169-3536",NA,TRUE,NA,NA,"ut:000371388200107",NA,TRUE
+"University of Bristol",2015,1809.63,"10.1109/access.2015.2472355",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Access","2169-3536",NA,"2169-3536","2169-3536",NA,TRUE,NA,NA,"ut:000371388200107",NA,TRUE
 "University of Bristol",2015,1435.94,"10.1109/tcsvt.2015.2428551",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Circuits and Systems for Video Technology","1051-8215","1051-8215","1558-2205","1051-8215",NA,TRUE,NA,NA,"ut:000378507600001",NA,FALSE
 "University of Bristol",2015,1435.94,"10.1109/tcsvt.2015.2461971",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Circuits and Systems for Video Technology","1051-8215","1051-8215","1558-2205","1051-8215","CC BY",TRUE,NA,NA,"ut:000387894100002",NA,FALSE
 "University of Bristol",2015,1435.94,"10.1109/tcyb.2014.2368353",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Cybernetics","2168-2267","2168-2267","2168-2275","2168-2267","CC BY",TRUE,"25420277",NA,"ut:000361751900020",NA,FALSE
@@ -6235,7 +6235,7 @@
 "University of Manchester",2015,3639.24,"10.1136/thoraxjnl-2015-206781",TRUE,"BMJ","Thorax","0040-6376","0040-6376","1468-3296","0040-6376","CC BY",TRUE,"25805205","PMC4515979","ut:000357900800018",NA,FALSE
 "University of Manchester",2015,2944.48,"10.1017/s0144686x15001105",TRUE,"Cambridge University Press (CUP)","Ageing and Society","0144-686X","0144-686X","1469-1779","0144-686X","Unknown",TRUE,"28163343","PMC5244445",NA,NA,FALSE
 "University of Manchester",2015,2803.87,"10.1017/s0305000915000288",TRUE,"Cambridge University Press (CUP)","Journal of Child Language","0305-0009","0305-0009","1469-7602","0305-0009","CC BY",TRUE,"26160674",NA,"ut:000385685200004",NA,FALSE
-"University of Manchester",2015,5235.27,"10.1016/j.ccell.2015.06.001",FALSE,"Elsevier BV","Cancer Cell","1535-6108","1535-6108",NA,"1535-6108","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26175417","PMC4518499","ut:000358111300015",NA,FALSE
+"University of Manchester",2015,5235.27,"10.1016/j.ccell.2015.06.001",TRUE,"Elsevier BV","Cancer Cell","1535-6108","1535-6108",NA,"1535-6108","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26175417","PMC4518499","ut:000358111300015",NA,FALSE
 "University of Manchester",2015,5355.46,"10.1016/j.celrep.2015.08.012",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26321638","PMC4571823","ut:000360965500008",NA,TRUE
 "University of Manchester",2015,5256.06,"10.1016/j.cub.2014.12.034",TRUE,"Elsevier BV","Current Biology","0960-9822","0960-9822",NA,"0960-9822","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25639242","PMC4331286","ut:000349375900020",NA,FALSE
 "University of Manchester",2015,2480.61,"10.1016/j.cub.2015.02.023",TRUE,"Elsevier BV","Current Biology","0960-9822","0960-9822",NA,"0960-9822","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25866390","PMC4406943","ut:000353351900025",NA,FALSE
@@ -7577,7 +7577,7 @@
 "University of Reading",2015,1550.81,"10.1002/2015gl066779",TRUE,"Wiley-Blackwell","Geophysical Research Letters","0094-8276",NA,NA,"0094-8276","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000368343900027",NA,FALSE
 "University of Reading",2015,1550.81,"10.1002/2015gl066802",TRUE,"Wiley-Blackwell","Geophysical Research Letters","0094-8276",NA,NA,"0094-8276","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000368343200005",NA,FALSE
 "University of Reading",2015,1550.81,"10.1002/2015gl066858",TRUE,"Wiley-Blackwell","Geophysical Research Letters","0094-8276",NA,NA,"0094-8276","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000368939700025",NA,FALSE
-"University of Reading",2015,2285.25,"10.1002/2015ms000468",TRUE,"Wiley-Blackwell","Journal of Advances in Modeling Earth Systems","1942-2466",NA,NA,"1942-2466","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000368739800005",NA,TRUE
+"University of Reading",2015,2285.25,"10.1002/2015ms000468",FALSE,"Wiley-Blackwell","Journal of Advances in Modeling Earth Systems","1942-2466",NA,NA,"1942-2466","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000368739800005",NA,TRUE
 "University of Reading",2015,2584.69,"10.1002/2015sw001280",TRUE,"Wiley-Blackwell","Space Weather","1542-7390",NA,NA,"1542-7390","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000365413700010",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
 "University of Reading",2015,3721.95,"10.1002/anie.201301960",TRUE,"Wiley-Blackwell","Angewandte Chemie International Edition","1433-7851",NA,NA,"1433-7851","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"23955926","PMC4672711","ut:000325091500029",NA,FALSE
