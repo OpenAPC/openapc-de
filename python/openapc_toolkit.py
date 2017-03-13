@@ -991,7 +991,8 @@ def get_unified_journal_title(journal_full_title):
         "The Journal of Neuroscience": "Journal of Neuroscience",
         "British Editorial Society of Bone &amp; Joint Surgery": "British Editorial Society of Bone & Joint Surgery",
         "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
-        "The FEBS Journal": "FEBS Journal"
+        "The FEBS Journal": "FEBS Journal",
+        "PLANT PHYSIOLOGY": "Plant Physiology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
