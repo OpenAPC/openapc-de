@@ -924,7 +924,8 @@ def get_unified_publisher_name(publisher):
         "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
         "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press",
         "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
-        "Hindawi Limited": "Hindawi Publishing Corporation"
+        "Hindawi Limited": "Hindawi Publishing Corporation",
+        "Oxford University Press": "Oxford University Press (OUP)"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -988,7 +989,8 @@ def get_unified_journal_title(journal_full_title):
         "Taal en tongval": "Taal en Tongval",
         "Notfall +  Rettungsmedizin": "Notfall + Rettungsmedizin",
         "The Journal of Neuroscience": "Journal of Neuroscience",
-        "British Editorial Society of Bone &amp; Joint Surgery": "British Editorial Society of Bone & Joint Surgery"
+        "British Editorial Society of Bone &amp; Joint Surgery": "British Editorial Society of Bone & Joint Surgery",
+        "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
