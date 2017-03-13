@@ -7,7 +7,7 @@
 "Aston University",2015,1949.2,"10.1186/s12968-015-0221-2",FALSE,"Springer Nature","Journal of Cardiovascular Magnetic Resonance","1532-429X",NA,"1532-429X","1097-6647","CC BY",TRUE,"26732096","PMC4700639","ut:000367514300001",NA,TRUE
 "Aston University",2015,2153.22,"10.1186/s12886-015-0174-0",FALSE,"Springer Nature","BMC Ophthalmology","1471-2415",NA,"1471-2415","1471-2415","http://www.springer.com/tdm",TRUE,"26705024","PMC4690418","ut:000367129700001",NA,TRUE
 "Aston University",2015,1934.04,"10.1016/j.bar.2015.01.002",TRUE,"Elsevier BV","The British Accounting Review","0890-8389","0890-8389",NA,"0890-8389","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000379280400009",NA,FALSE
-"Aston University",2015,2952.75,"10.1016/j.bej.2015.06.018",FALSE,"Elsevier BV","Biochemical Engineering Journal","1369-703X","1369-703X",NA,"1369-703X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000372563700003",NA,FALSE
+"Aston University",2015,2952.75,"10.1016/j.bej.2015.06.018",TRUE,"Elsevier BV","Biochemical Engineering Journal","1369-703X","1369-703X",NA,"1369-703X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000372563700003",NA,FALSE
 "Aston University",2015,2989.97,"10.1016/j.bej.2015.08.003",TRUE,"Elsevier BV","Biochemical Engineering Journal","1369-703X","1369-703X",NA,"1369-703X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000372563700004",NA,FALSE
 "Aston University",2015,1181.37,"10.1016/j.cpa.2015.01.005",TRUE,"Elsevier BV","Critical Perspectives on Accounting","1045-2354","1045-2354",NA,"1045-2354","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000367768400004",NA,FALSE
 "Aston University",2015,1774.13,"10.1016/j.cpc.2014.12.019",TRUE,"Elsevier BV","Computer Physics Communications","0010-4655","0010-4655",NA,"0010-4655","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000351645900011",NA,FALSE
@@ -866,7 +866,7 @@
 "Imperial College London",2015,1945.75,"10.1186/s12879-015-0789-z",FALSE,"Springer Nature","BMC Infectious Diseases","1471-2334",NA,"1471-2334","1471-2334","http://www.springer.com/tdm",TRUE,"25886745","PMC4381490","ut:000351912600001",NA,TRUE
 "Imperial College London",2015,1958.79,"10.1186/s12879-015-1091-9",FALSE,"Springer Nature","BMC Infectious Diseases","1471-2334",NA,"1471-2334","1471-2334","http://www.springer.com/tdm",TRUE,"26268227","PMC4535609","ut:000359526800001",NA,TRUE
 "Imperial College London",2015,1926.32,"10.1186/s12879-015-1139-x",FALSE,"Springer Nature","BMC Infectious Diseases","1471-2334",NA,"1471-2334","1471-2334","http://www.springer.com/tdm",TRUE,"26424656","PMC4589970","ut:000362252200013",NA,TRUE
-"Imperial College London",2015,1945.75,"10.1186/s12883-015-0324-2",TRUE,"Springer Nature","BMC Neurology","1471-2377",NA,"1471-2377","1471-2377","http://www.springer.com/tdm",TRUE,"25935418","PMC4429974","ut:000354250800001",NA,TRUE
+"Imperial College London",2015,1945.75,"10.1186/s12883-015-0324-2",FALSE,"Springer Nature","BMC Neurology","1471-2377",NA,"1471-2377","1471-2377","http://www.springer.com/tdm",TRUE,"25935418","PMC4429974","ut:000354250800001",NA,TRUE
 "Imperial College London",2015,2348.96,"10.1186/s12885-015-1335-5",FALSE,"Springer Nature","BMC Cancer","1471-2407",NA,"1471-2407","1471-2407","http://www.springer.com/tdm",TRUE,"25927974","PMC4424887","ut:000354164700003",NA,TRUE
 "Imperial College London",2015,1945.75,"10.1186/s12889-015-2128-0",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://www.springer.com/tdm",TRUE,"26293238","PMC4546087","ut:000359765600002",NA,TRUE
 "Imperial College London",2015,1945.75,"10.1186/s12911-015-0202-2",FALSE,"Springer Nature","BMC Medical Informatics and Decision Making","1472-6947",NA,"1472-6947","1472-6947","http://www.springer.com/tdm",TRUE,"26466787","PMC4607170","ut:000362714700004",NA,TRUE
@@ -1210,7 +1210,7 @@
 "Imperial College London",2015,5080.46,"10.1038/ncomms9538",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","CC BY",TRUE,"26437360","PMC4600755","ut:000364930800023",NA,TRUE
 "Imperial College London",2015,5210.73,"10.1038/ncomms9905",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","CC BY",TRUE,"26563440","PMC4660361","ut:000366378900007",NA,TRUE
 "Imperial College London",2015,4466.34,"10.1038/npp.2015.340",TRUE,"Springer Nature","Neuropsychopharmacology","0893-133X","0893-133X","1740-634X","0893-133X","CC BY",TRUE,"26552847","PMC4869041","ut:000375968600006",NA,FALSE
-"Imperial College London",2015,4300.92,"10.1038/nutd.2014.25",TRUE,"Springer Nature","Nutrition & Diabetes","2044-4052",NA,"2044-4052","2044-4052","CC BY",TRUE,"25089883","PMC4151174","ut:000341657400001",NA,TRUE
+"Imperial College London",2015,4300.92,"10.1038/nutd.2014.25",FALSE,"Springer Nature","Nutrition & Diabetes","2044-4052",NA,"2044-4052","2044-4052","CC BY",TRUE,"25089883","PMC4151174","ut:000341657400001",NA,TRUE
 "Imperial College London",2015,4631.76,"10.1038/onc.2015.152",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594","0950-9232","CC BY",TRUE,"25961928","PMC4538879","ut:000370823300005",NA,FALSE
 "Imperial College London",2015,4631.76,"10.1038/onc.2015.208",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594","0950-9232","CC BY",TRUE,"26148240","PMC4606987","ut:000372196400009",NA,FALSE
 "Imperial College London",2015,4300.92,"10.1038/oncsis.2015.26",FALSE,"Springer Nature","Oncogenesis","2157-9024",NA,"2157-9024","2157-9024","CC BY",TRUE,"26344694","PMC4767938","ut:000368678800003",NA,TRUE
@@ -1366,7 +1366,7 @@
 "Imperial College London",2015,2249.71,"10.1039/C5TC00263J",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry C","2050-7526","2050-7526","2050-7534","2050-7526","CC BY",TRUE,NA,NA,"ut:000354209500013",NA,FALSE
 "Imperial College London",2015,3243.36,"10.1177/1073858415585730",TRUE,"SAGE Publications","The Neuroscientist","1073-8584","1073-8584","1089-4098","1073-8584","CC BY",TRUE,"25948648","PMC4586496","ut:000362290000013",NA,FALSE
 "Imperial College London",2015,2646.72,"10.1177/1352458515579445",TRUE,"SAGE Publications","Multiple Sclerosis Journal","1352-4585","1352-4585","1477-0970","1352-4585","CC BY-NC",TRUE,"25921040","PMC4702245","ut:000367252500008",NA,FALSE
-"Imperial College London",2015,725.78,"10.1177/2054270415577762",TRUE,"SAGE Publications","JRSM Open","2054-2704","2054-2704","2054-2704","2054-2704","CC BY-NC",TRUE,"25973215","PMC4429042",NA,NA,TRUE
+"Imperial College London",2015,725.78,"10.1177/2054270415577762",FALSE,"SAGE Publications","JRSM Open","2054-2704","2054-2704","2054-2704","2054-2704","CC BY-NC",TRUE,"25973215","PMC4429042",NA,NA,TRUE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "Imperial College London",2015,2933.45,"10.2110/jsr.2015.25",TRUE,"Society for Sedimentary Geology","Journal of Sedimentary Research","1527-1404","1527-1404",NA,"1527-1404","Unknown",TRUE,NA,NA,"ut:000353386400001",NA,FALSE
@@ -1997,7 +1997,7 @@
 "LSHTM",2015,1223.03,"10.1371/journal.pone.0142993",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26575847","PMC4648522","ut:000365153400025",NA,TRUE
 "LSHTM",2015,1223.85,"10.1371/journal.pone.0143572",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26618915","PMC4664267","ut:000365889800047",NA,TRUE
 "LSHTM",2015,2039.74,"10.1371/journal.ppat.1005321",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","1553-7366","http://creativecommons.org/licenses/by/4.0/",TRUE,"26646790","PMC4672896","ut:000368332800039",NA,TRUE
-"LSHTM",2015,744.39,"10.1177/2054270415611309",TRUE,"SAGE Publications","JRSM Open","2054-2704","2054-2704","2054-2704","2054-2704","CC BY-NC",TRUE,"26770816","PMC4710115",NA,NA,TRUE
+"LSHTM",2015,744.39,"10.1177/2054270415611309",FALSE,"SAGE Publications","JRSM Open","2054-2704","2054-2704","2054-2704","2054-2704","CC BY-NC",TRUE,"26770816","PMC4710115",NA,NA,TRUE
 "LSHTM",2015,2162.51,"10.1007/s00038-015-0723-6",TRUE,"Springer Nature","International Journal of Public Health","1661-8556","1661-8556","1661-8564","1661-8556","CC BY",TRUE,"26298446","PMC4636531","ut:000364521200015",NA,FALSE
 "LSHTM",2015,2957.71,"10.1080/17441692.2015.1057091",TRUE,"Informa UK Limited","Global Public Health","1744-1692","1744-1692","1744-1706","1744-1692","CC BY",TRUE,"26234691","PMC5020346","ut:000383877900001",NA,FALSE
 "LSHTM",2015,3265.94,"10.1002/ajhb.22793",TRUE,"Wiley-Blackwell","American Journal of Human Biology","1042-0533",NA,NA,"1042-0533","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26407916","PMC4949535","ut:000377587300007",NA,FALSE
