@@ -1033,7 +1033,7 @@
 "Imperial College London",2015,2578.62,"10.1016/j.jcis.2015.01.005",TRUE,"Elsevier BV","Journal of Colloid and Interface Science","0021-9797","0021-9797",NA,"0021-9797","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25646787",NA,"ut:000355336100003",NA,FALSE
 "Imperial College London",2015,3474.62,"10.1016/j.jclepro.2015.05.082",TRUE,"Elsevier BV","Journal of Cleaner Production","0959-6526","0959-6526",NA,"0959-6526","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000367762500081",NA,FALSE
 "Imperial College London",2015,3182.6,"10.1016/j.jcmg.2015.08.007",TRUE,"Elsevier BV","JACC: Cardiovascular Imaging","1936-878X","1936-878X",NA,"1876-7591","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26476505","PMC4639392","ut:000365150900005",NA,FALSE
-"Imperial College London",2015,2168.09,"10.1016/j.jcmgh.2015.08.006",FALSE,"Elsevier BV","Cellular and Molecular Gastroenterology and Hepatology","2352-345X","2352-345X",NA,"2352-345X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"Imperial College London",2015,2168.09,"10.1016/j.jcmgh.2015.08.006",FALSE,"Elsevier BV","CMGH Cellular and Molecular Gastroenterology and Hepatology","2352-345X","2352-345X",NA,"2352-345X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
 "Imperial College London",2015,2632.29,"10.1016/j.jconhyd.2015.06.004",TRUE,"Elsevier BV","Journal of Contaminant Hydrology","0169-7722","0169-7722",NA,"0169-7722","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"26142546",NA,"ut:000359965200015",NA,FALSE
 "Imperial College London",2015,1818.26,"10.1016/j.jcp.2015.01.021",TRUE,"Elsevier BV","Journal of Computational Physics","0021-9991","0021-9991",NA,"0021-9991","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000349599500002",NA,FALSE
 "Imperial College London",2015,2284.11,"10.1016/j.jcp.2015.06.008",TRUE,"Elsevier BV","Journal of Computational Physics","0021-9991","0021-9991",NA,"0021-9991","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000358796700026",NA,FALSE
@@ -3780,7 +3780,7 @@
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
-"UCL",2015,1949.32,"10.3402/tellusa.v67.24474",FALSE,"Informa UK Limited","Tellus A","1600-0870","0280-6495","1600-0870","0280-6495","CC BY",TRUE,NA,NA,"ut:000363047200001",NA,TRUE
+"UCL",2015,1949.32,"10.3402/tellusa.v67.24474",FALSE,"Co-Action Publishing","Tellus A","1600-0870","0280-6495","1600-0870","0280-6495","CC BY",TRUE,NA,NA,"ut:000363047200001",NA,TRUE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
@@ -4623,8 +4623,8 @@
 "University of Bristol",2015,1435.94,"10.1109/tie.2015.2466553",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Industrial Electronics","0278-0046","0278-0046","1557-9948","0278-0046","CC BY",TRUE,NA,NA,"ut:000366933100003",NA,FALSE
 "University of Bristol",2015,1435.94,"10.1109/tii.2015.2475695",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Industrial Informatics","1551-3203","1551-3203","1941-0050","1551-3203",NA,TRUE,NA,NA,"ut:000362356000020",NA,FALSE
 "University of Bristol",2015,1435.94,"10.1109/tpel.2015.2434877",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Power Electronics","0885-8993","0885-8993","1941-0107","0885-8993","CC BY",TRUE,NA,NA,"ut:000360654500005",NA,FALSE
-"University of Bristol",2015,1435.94,"10.1109/tuffc.2014.006837",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control","0885-3010","0885-3010",NA,"0885-3010","CC BY",TRUE,"26067043",NA,"ut:000356162000011",NA,FALSE
-"University of Bristol",2015,1435.94,"10.1109/tuffc.2014.006848",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control","0885-3010","0885-3010",NA,"0885-3010","CC BY",TRUE,"25768820",NA,"ut:000351446800014",NA,FALSE
+"University of Bristol",2015,1435.94,"10.1109/tuffc.2014.006837",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control","0885-3010","0885-3010",NA,"0885-3010","CC BY",TRUE,"26067043",NA,"ut:000356162000011",NA,FALSE
+"University of Bristol",2015,1435.94,"10.1109/tuffc.2014.006848",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control","0885-3010","0885-3010",NA,"0885-3010","CC BY",TRUE,"25768820",NA,"ut:000351446800014",NA,FALSE
 "","","","","","","","","","","","","","","","","",""
 "University of Bristol",2015,3068.06,"10.18632/oncotarget.5548",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553","CC BY",TRUE,"26517508","PMC4741879",NA,NA,FALSE
 "University of Bristol",2015,2812.14,"10.1088/0953-2048/28/8/085015",TRUE,"IOP Publishing","Superconductor Science and Technology","0953-2048","0953-2048","1361-6668","0953-2048","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,"ut:000360930500020",NA,FALSE
