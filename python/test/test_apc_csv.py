@@ -21,8 +21,10 @@ JOURNAL_OWNER_CHANGED = {
     "1755-7682": ["Springer Science + Business Media", "International Medical Publisher (Fundacion de Neurociencias)"], # International Archives of Medicine
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
     "0024-4066": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society
+    "0024-4074": ["Wiley-Blackwell", "Oxford University Press (OUP)"], #  Botanical Journal of the Linnean Society
     "1087-2981": ["Co-Action Publishing", "Informa UK Limited"], # Medical Education Online
-    "1654-9716": ["Co-Action Publishing", "Informa UK Limited"] # Global Health Action
+    "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
+    "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"] # Evolutionary Bioinformatics
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
