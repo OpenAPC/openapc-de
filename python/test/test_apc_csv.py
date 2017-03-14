@@ -24,7 +24,11 @@ JOURNAL_OWNER_CHANGED = {
     "0024-4074": ["Wiley-Blackwell", "Oxford University Press (OUP)"], #  Botanical Journal of the Linnean Society
     "1087-2981": ["Co-Action Publishing", "Informa UK Limited"], # Medical Education Online
     "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
-    "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"] # Evolutionary Bioinformatics
+    "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"], # Evolutionary Bioinformatics
+    "1574-7891": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology
+    "0020-7292": ["Wiley-Blackwell", "Elsevier BV"], # "International Journal of Gynecology & Obstetrics"
+    "1350-6129": ["Informa Healthcare", "Informa UK Limited"], # Amyloid
+    "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"] # Molecular Therapy
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -215,7 +219,7 @@ def check_name_consistency(row_object):
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
             other_hybrid = other_row["is_hybrid"]
-            if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
+            if not other_publ == publ and not in_whitelist(issn_p, publ, other_publ):
                 ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
                 pytest.fail(ret)
             if not other_journal == journal:
@@ -230,7 +234,7 @@ def check_name_consistency(row_object):
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
             other_hybrid = other_row["is_hybrid"]
-            if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
+            if not other_publ == publ and not in_whitelist(issn_e, publ, other_publ):
                 ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
                 pytest.fail(ret)
             if not other_journal == journal:
