@@ -23,12 +23,16 @@ JOURNAL_OWNER_CHANGED = {
     "0024-4066": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society
     "0024-4074": ["Wiley-Blackwell", "Oxford University Press (OUP)"], #  Botanical Journal of the Linnean Society
     "1087-2981": ["Co-Action Publishing", "Informa UK Limited"], # Medical Education Online
-    "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
+    "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action (print)
+    "1654-9880": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
     "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"], # Evolutionary Bioinformatics
     "1574-7891": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology
     "0020-7292": ["Wiley-Blackwell", "Elsevier BV"], # "International Journal of Gynecology & Obstetrics"
-    "1350-6129": ["Informa Healthcare", "Informa UK Limited"], # Amyloid
-    "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"] # Molecular Therapy
+    "1350-6129": ["Informa Healthcare", "Informa UK Limited"], # Amyloid (print)
+    "1744-2818": ["Informa Healthcare", "Informa UK Limited"], # Amyloid
+    "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Molecular Therapy
+    "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
+    "2000-8066": ["Co-Action Publishing", "Informa UK Limited"] # European Journal of Psychotraumatology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
