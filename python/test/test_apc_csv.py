@@ -19,7 +19,16 @@ JOURNAL_OWNER_CHANGED = {
     "1744-8069": ["SAGE Publications", "Springer Science + Business Media"],
     "1990-2573": ["European Optical Society", "Springer Nature"],
     "1755-7682": ["Springer Science + Business Media", "International Medical Publisher (Fundacion de Neurociencias)"], # International Archives of Medicine
-    "2000-8198": ["Co-Action Publishing", "Informa UK Limited"] # European Journal of Psychotraumatology
+    "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
+    "0024-4066": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society
+    "0024-4074": ["Wiley-Blackwell", "Oxford University Press (OUP)"], #  Botanical Journal of the Linnean Society
+    "1087-2981": ["Co-Action Publishing", "Informa UK Limited"], # Medical Education Online
+    "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
+    "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"], # Evolutionary Bioinformatics
+    "1574-7891": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology
+    "0020-7292": ["Wiley-Blackwell", "Elsevier BV"], # "International Journal of Gynecology & Obstetrics"
+    "1350-6129": ["Informa Healthcare", "Informa UK Limited"], # Amyloid
+    "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"] # Molecular Therapy
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -163,7 +172,7 @@ def check_for_doi_duplicates(row_object):
                                               row_object.line_number)
             pytest.fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
                         'encountered more than one time')
-                        
+
 def check_hybrid_status(row_object):
     __tracebackhide__ = True
     doaj = row_object.row["doaj"]
@@ -209,8 +218,8 @@ def check_name_consistency(row_object):
         for other_row in same_issn_p_rows:
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
-            other_hybrid = other_row["is_hybrid"]    
-            if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn_p, publ, other_publ):
                 ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
                 pytest.fail(ret)
             if not other_journal == journal:
@@ -224,8 +233,8 @@ def check_name_consistency(row_object):
         for other_row in same_issn_e_rows:
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
-            other_hybrid = other_row["is_hybrid"]  
-            if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn_e, publ, other_publ):
                 ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
                 pytest.fail(ret)
             if not other_journal == journal:
