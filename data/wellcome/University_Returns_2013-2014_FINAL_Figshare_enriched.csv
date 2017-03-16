@@ -1,4 +1,4 @@
-"institution",period,euro,"doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Wellcome Trust",2014,2198.7,"10.1111/maq.12092",TRUE,"Wiley-Blackwell","Medical Anthropology Quarterly","07455194",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24752909","PMC4305216",NA,NA,FALSE
 "Wellcome Trust",2014,2200.73,"10.1158/0008-5472.CAN-13-2131",TRUE,"American Association for Cancer Research (AACR)","Cancer Research","0008-5472","0008-5472","1538-7445",NA,TRUE,"24686174","PMC3990471",NA,NA,FALSE
 "Wellcome Trust",2014,2908.32,"10.1158/1078-0432.CCR-12-3066",TRUE,"American Association for Cancer Research (AACR)","Clinical Cancer Research","1078-0432","1078-0432","1557-3265",NA,TRUE,"23403638","PMC4172367",NA,NA,FALSE
