@@ -104,28 +104,46 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 Jisc Collections released data on APC payments made by UK higher education institutions (HEIs):
 
+- Aston University
 - Bangor University
+- Cardiff University
 - Cranfield University
 - Durham University
 - Imperial College London
+- Institute of Cancer Research (ICR)
+- King's College London
 - Loughborough University
+- London School of Economics (LSE)
 - London School of Hygiene & Tropical Medicine (LSHTM)
 - Newcastle University
+- Northumbria University
 - Plymouth University
 - Queen Mary University of London
+- Queen's University Belfast
 - Royal Holloway, University of London
 - Swansea University
 - University College London (UCL)
+- University of Aberdeen
 - University of Bath
 - University of Birmingham
 - University of Bristol
 - University of Cambridge
 - University of Glasgow
+- University of Huddersfield
+- University of Hull
+- University of Leicester
+- University of Liverpool
+- University of Manchester
+- University of Oxford
 - University of Portsmouth
+- University of Reading
 - University of Salford
 - University of Sheffield
+- University of Surrey
 - University of Sussex
+- University of St Andrews
 - University of Warwick
+- University of York
 
 ## Participating Institutions from the United States:
 

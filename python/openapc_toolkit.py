@@ -992,8 +992,9 @@ def get_unified_journal_title(journal_full_title):
         "British Editorial Society of Bone &amp; Joint Surgery": "British Editorial Society of Bone & Joint Surgery",
         "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
         "The FEBS Journal": "FEBS Journal",
-+       "PLANT PHYSIOLOGY": "Plant Physiology"
-
+        "PLANT PHYSIOLOGY": "Plant Physiology",
+        "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control": "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control",
+        "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
