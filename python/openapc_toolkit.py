@@ -22,7 +22,7 @@ except ImportError:
            "encoding guessing will not work")
 
 # regex for detecing DOIs
-DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
+DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
 ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 # These classes were adopted from
@@ -236,7 +236,8 @@ def get_normalised_DOI(doi_string):
     doi_match = DOI_RE.match(doi_string.strip())
     if not doi_match:
         return None
-    return doi_match.groupdict()["doi"]
+    doi = doi_match.groupdict()["doi"]
+    return doi.lower()
 
 def is_wellformed_ISSN(issn_string):
     issn_match = ISSN_RE.match(issn_string.strip())
