@@ -58,10 +58,11 @@ class RowObject(object):
     """
     A minimal container class to store contextual information along with csv rows.
     """
-    def __init__(self, file_name, line_number, row):
+    def __init__(self, file_name, line_number, row, test_apc=True):
         self.file_name = file_name
         self.line_number = line_number
         self.row = row
+        self.test_apc = test_apc
 
 doi_duplicate_list = []
 apc_data = []
@@ -74,7 +75,10 @@ for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
     reader = oat.UnicodeDictReader(csv_file)
     line = 2
     for row in reader:
-        apc_data.append(RowObject(file_name, line, row))
+        test_apc = True
+        if file_name == "data/offsetting/offsetting.csv":
+            test_apc = False
+        apc_data.append(RowObject(file_name, line, row, test_apc))
         doi_duplicate_list.append(row["doi"])
         issn = row["issn"]
         if oat.has_value(issn):
@@ -152,6 +156,15 @@ def check_field_content(row_object):
             pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
                                    'is not correct. It should be the simple DOI name, not ' +
                                    'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
+    if row_object.test_apc:
+        try:
+            euro = float(row['euro'])
+            if euro <= 0:
+                pytest.fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
+        except ValueError:
+            pytest.fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
+
+
 
 def check_issns(row_object):
     __tracebackhide__ = True
