@@ -995,7 +995,8 @@ def get_unified_journal_title(journal_full_title):
         "The FEBS Journal": "FEBS Journal",
         "PLANT PHYSIOLOGY": "Plant Physiology",
         "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control": "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control",
-        "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology"
+        "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology",
+        "Tellus B: Chemical and Physical Meteorology""Tellus B: Chemical and Physical Meteorology": "Tellus B"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

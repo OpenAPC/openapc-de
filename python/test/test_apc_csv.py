@@ -32,7 +32,8 @@ JOURNAL_OWNER_CHANGED = {
     "1744-2818": ["Informa Healthcare", "Informa UK Limited"], # Amyloid
     "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Molecular Therapy
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
-    "2000-8066": ["Co-Action Publishing", "Informa UK Limited"] # European Journal of Psychotraumatology
+    "2000-8066": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
+    "1600-0889": ["Co-Action Publishing", "Informa UK Limited"] # Tellus B
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
