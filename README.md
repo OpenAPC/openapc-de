@@ -36,7 +36,7 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
-- [University of Duisburg-Essen](https://www.uni-due.de/ub/open_access.shtml)
+- [University of Duisburg-Essen](https://www.uni-due.de/ub/openaccess)
 - [University of Freiburg](https://www.ub.uni-freiburg.de/unterstuetzung/elektronisch-publizieren/open-access/publikationsfonds/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
