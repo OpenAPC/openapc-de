@@ -142,9 +142,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 29,708 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 91 research performing institutions and research funders. 
+This dataset contains information on 29,703 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 91 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 55,259,209. The average payment was € 1,860  and the median was € 1,661.
+In total, publication fee spending covered by the Open APC initiative amounted to € 55,260,332. The average payment was € 1,860  and the median was € 1,661.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -158,7 +158,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-17,031 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 23,886,395, including value-added tax; the average payment was € 1,403 (median =  € 1,313, SD = € 628).
+17,027 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 23,887,453, including value-added tax; the average payment was € 1,403 (median =  € 1,313, SD = € 627).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -175,13 +175,13 @@ The following table summarises institutional spending on articles published in f
 |OpenAIRE                                    |      544|               789,670|   1,452 (423)|  1,413|       209 - 2,086|
 |Regensburg U                                |      484|               652,522|   1,348 (564)|  1,254|        77 - 4,403|
 |Freiburg U                                  |      471|               626,480|   1,330 (410)|  1,386|        50 - 2,474|
-|Wuerzburg U                                 |      469|               595,119|   1,269 (416)|  1,266|         0 - 2,514|
+|Wuerzburg U                                 |      467|               595,119|   1,274 (408)|  1,266|       105 - 2,514|
 |KIT                                         |      425|               521,166|   1,226 (525)|  1,242|        69 - 3,731|
 |Tuebingen U                                 |      411|               548,124|   1,334 (407)|  1,346|       150 - 2,662|
 |Erlangen Nuernberg U                        |      401|               550,174|   1,372 (369)|  1,424|       124 - 2,286|
 |Imperial College London                     |      375|               757,675| 2,020 (1,120)|  1,655|        38 - 5,495|
 |Muenchen LMU                                |      365|               463,491|   1,270 (296)|  1,299|       496 - 2,023|
-|Bielefeld U                                 |      349|               437,899|   1,255 (336)|  1,276|         0 - 2,380|
+|Bielefeld U                                 |      348|               437,899|   1,258 (330)|  1,276|       142 - 2,380|
 |Münster U                                   |      325|               381,287|   1,173 (437)|  1,159|       168 - 2,380|
 |Giessen U                                   |      317|               428,690|   1,352 (575)|  1,273|        81 - 4,498|
 |TU Muenchen                                 |      308|               390,086|   1,267 (479)|  1,386|       131 - 2,122|
@@ -190,7 +190,7 @@ The following table summarises institutional spending on articles published in f
 |Konstanz U                                  |      220|               300,709|   1,367 (403)|  1,361|        40 - 2,072|
 |Heidelberg U                                |      215|               308,348|   1,434 (377)|  1,500|        60 - 2,042|
 |University of Bristol                       |      193|               343,251|   1,779 (863)|  1,638|       143 - 5,371|
-|University of Cambridge                     |      190|               368,427|   1,939 (977)|  1,789|    -1,057 - 5,352|
+|University of Cambridge                     |      189|               369,484|   1,955 (955)|  1,794|       152 - 5,352|
 |FU Berlin                                   |      187|               255,545|   1,367 (505)|  1,410|       150 - 2,142|
 |Leipzig U                                   |      173|               243,873|   1,410 (331)|  1,471|       341 - 2,055|
 |FZJ - ZB                                    |      158|               196,869|   1,246 (516)|  1,177|       370 - 3,700|
@@ -262,7 +262,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 12,677 open access articles being published in hybrid journals. Total expenditure amounts to  55,259,209 €. Average  fee is 2,475 € and the median 2,469 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 12,676 open access articles being published in hybrid journals. Total expenditure amounts to  55,260,332 €. Average  fee is 2,475 € and the median 2,469 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -273,7 +273,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Wellcome Trust                              |    2,335|             6,210,243|   2,660 (955)|  2,614|       270 - 6,036|
 |UCL                                         |    1,922|             4,105,842|   2,136 (828)|  1,926|       248 - 5,606|
 |Imperial College London                     |      875|             2,291,595|   2,619 (801)|  2,630|       255 - 5,572|
-|University of Cambridge                     |      630|             1,694,335|   2,689 (909)|  2,608|       -65 - 6,217|
+|University of Cambridge                     |      629|             1,694,400|   2,694 (903)|  2,608|       130 - 6,217|
 |University of Bristol                       |      534|             1,326,923|   2,485 (870)|  2,351|       298 - 5,535|
 |University of Birmingham                    |      405|               960,727|   2,372 (846)|  2,397|       298 - 5,563|
 |University of Oxford                        |      380|             1,167,431| 3,072 (1,160)|  2,804|       273 - 8,705|
@@ -358,8 +358,8 @@ Indexing coverage
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.61%       |
 |PubMed ID                  |  77.88%      |
-|PubMed Central ID          |  72.29%     |
-|Web of Science record ID   | 90.39%      |
+|PubMed Central ID          |  72.28%     |
+|Web of Science record ID   | 90.38%      |
 
 
 
