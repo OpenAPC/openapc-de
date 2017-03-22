@@ -309,7 +309,7 @@ def analyze_csv_file(file_path, line_limit=None):
     csv_file.close()
     return {"success": True, "data": result}
 
-def get_csv_file_content(file_name, enc=None):
+def get_csv_file_content(file_name, enc=None, force_header=False):
     result = analyze_csv_file(file_name, 500)
     if result["success"]:
         csv_analysis = result["data"]
@@ -334,7 +334,7 @@ def get_csv_file_content(file_name, enc=None):
     content = []
     reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     header = []
-    if csv_analysis.has_header:
+    if csv_analysis.has_header or force_header:
         header.append(reader.next())
     for row in reader:
         content.append(row)
