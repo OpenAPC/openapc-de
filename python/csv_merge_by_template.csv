@@ -107,7 +107,7 @@ def main():
             oat.print_r("Error: Value '" + value + "' occuring more than once in merge file!")
             sys.exit()
         else:
-            merge_dict[value] = line
+            merge_dict[value] = [line, 0]
     oat.print_g("...Done")
 
     num_inserts = 0
@@ -115,11 +115,19 @@ def main():
         value = template_content[i][args.template_column]
         if value in merge_dict:
             old_value =  base_content[i]
-            base_content[i] = merge_dict[value]
+            new_value = merge_dict[value][0]
+            base_content[i] = new_value
             num_inserts += 1
+            merge_dict[value][1] += 1
             msg = "line {}: {} -> {}"
-            oat.print_g(msg.format(i, old_value, merge_dict[value]))
+            oat.print_g(msg.format(i, old_value, new_value))
     oat.print_g(str(num_inserts) + " lines replaced.")
+    
+    for key, value in merge_dict.iteritems():
+        if value[1] == 0:
+            oat.print_y("Warning: Key '" + key + "' did not occur in template file and wasn't mapped!")
+        elif value[1] > 1:
+            oat.print_y("Warning: Key '" + key + "' did occur " + str(value[1]) + " times in template file!")
     
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
