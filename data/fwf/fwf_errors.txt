@@ -1,0 +1,44 @@
+fwf_2013.csv:
+3 lines could not be enriched and were excluded from the resulting file: 
+
+Line 383: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
+
+Line 564: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
+
+Line 1012: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI
+
+fwf_2014.csv:
+5 lines could not be enriched and were excluded from the resulting file: 
+
+Line 322 (DOI 10.3920/978-90-8686-238-2_28): Not a journal (book chapter)
+
+Line 345 (DOI 10.1145/2676726.2676963): Not a journal (conference proceedings)
+
+Line 694 (DOI 10.1145/2507157.2507180): Not a journal (conference proceedings)
+
+Line 911 (DOI 10.1145/2556288.2557032): Not a journal (conference proceedings)
+
+Line 937: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI (Not a journal (book chapter))
+
+fwf_2015.csv:
+9 lines could not be enriched and were excluded from the resulting file: 
+
+Line 146: Crossref: Error while trying to resolve DOI : Parse Error: '' is no valid DOI (Not a journal (book chapter))
+
+Line 147 (DOI 10.1145/2676724.2693171): Not a journal (conference proceedings)
+
+Line 149 (DOI 10.1145/2814270.2814294): Not a journal (conference proceedings)
+
+Line 150 (DOI 10.1145/2676724.2693176): Not a journal (conference proceedings)
+
+Line 151 (DOI 10.1145/2676724.2693173): Not a journal (conference proceedings)
+
+Line 153: Crossref: Error while trying to resolve DOI 10.4230/LIPIcs.FSTTCS.2011.288: HTTPError: 404 - Not Found (Not a journal (conference proceedings))
+
+Line 158 (DOI 10.2174/97816810806041150101): Not a journal (book chapter)
+
+Line 159 (DOI 10.2174/97816810807411150101): Not a journal (book chapter)
+
+Line 1091: Crossref: Error while trying to resolve DOI 10.1111/ecoj.12339: HTTPError: 404 - Not Found
+
+
