@@ -36,7 +36,8 @@ JOURNAL_OWNER_CHANGED = {
     "1600-0889": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B
     "0963-8237": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health
     "1360-0567": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health (electronic)
-    "0038-0261": ["Wiley-Blackwell", "SAGE Publications"] # The Sociological Review
+    "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
+    "2162-2531": ["Springer Nature", "Elsevier BV"] # "Molecular Therapy-Nucleic Acids"
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
