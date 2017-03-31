@@ -98,6 +98,10 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Università degli Studi di Milano](http://www.unimi.it/ENG/)
 
+## Participating Spanish Institutions:
+
+- [Universitat de Barcelona](http://www.ub.edu/web/ub/en/index.html)
+
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
