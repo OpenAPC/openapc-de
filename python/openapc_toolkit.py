@@ -892,7 +892,7 @@ def get_column_type_from_whitelist(column_name):
         "is_hybrid": ["is_hybrid", "is hybrid"],
         "publisher": ["publisher"],
         "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title"],
-        "issn": ["issn"],
+        "issn": ["issn", "issn.1"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
         "issn_l": ["issn_l"],
