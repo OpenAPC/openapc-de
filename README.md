@@ -146,9 +146,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 30,814 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 92 research performing institutions and research funders. 
+This dataset contains information on 30,841 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 92 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 56,917,865. The average payment was € 1,847  and the median was € 1,658.
+In total, publication fee spending covered by the Open APC initiative amounted to € 56,977,071. The average payment was € 1,847  and the median was € 1,658.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -162,7 +162,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-17,878 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 25,002,873, including value-added tax; the average payment was € 1,399 (median =  € 1,321, SD = € 625).
+17,896 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 25,037,304, including value-added tax; the average payment was € 1,399 (median =  € 1,321, SD = € 626).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -214,6 +214,7 @@ The following table summarises institutional spending on articles published in f
 |University of Manchester                    |       75|               149,380|   1,992 (970)|  1,650|       522 - 6,395|
 |University of Warwick                       |       73|               146,418| 2,006 (1,417)|  1,641|       442 - 9,033|
 |Hannover U                                  |       69|                90,259|   1,308 (414)|  1,241|       149 - 2,159|
+|MDC                                         |       69|               137,459| 1,992 (1,207)|  1,483|       224 - 4,662|
 |Queen's University Belfast                  |       68|               105,959|   1,558 (669)|  1,553|       808 - 5,211|
 |TiHo Hannover                               |       66|                86,971|   1,318 (498)|  1,396|       196 - 2,656|
 |Ulm U                                       |       62|                84,310|   1,360 (647)|  1,285|       260 - 5,284|
@@ -222,7 +223,6 @@ The following table summarises institutional spending on articles published in f
 |Cardiff University                          |       55|                98,083|   1,783 (749)|  1,638|       205 - 3,970|
 |Kassel U                                    |       55|                59,511|   1,082 (545)|  1,129|       150 - 2,321|
 |TU Chemnitz                                 |       55|                60,695|   1,104 (696)|  1,374|        78 - 2,123|
-|MDC                                         |       51|               103,028| 2,020 (1,220)|  1,483|       575 - 4,662|
 |Newcastle University                        |       51|                91,101| 1,786 (1,002)|  1,385|       304 - 4,691|
 |Milano U                                    |       48|                74,335|   1,549 (933)|  1,357|       110 - 4,470|
 |University of Sheffield                     |       47|                74,948|   1,595 (938)|  1,547|       323 - 4,691|
@@ -267,7 +267,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 12,936 open access articles being published in hybrid journals. Total expenditure amounts to  56,917,865 €. Average  fee is 2,467 € and the median 2,469 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 12,945 open access articles being published in hybrid journals. Total expenditure amounts to  56,977,071 €. Average  fee is 2,467 € and the median 2,469 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -306,12 +306,12 @@ The following institutions have contributed expenditures on hybrid open access j
 |ICR                                         |       37|               115,982|   3,135 (932)|  2,812|     1,816 - 5,211|
 |Queen's University Belfast                  |       31|                81,071|   2,615 (988)|  2,585|       331 - 4,989|
 |Cranfield University                        |       27|                77,790|   2,881 (698)|  2,812|     1,085 - 4,844|
+|MDC                                         |       27|                67,002| 2,482 (1,247)|  2,200|       491 - 4,936|
 |Bangor University                           |       26|                71,011|   2,731 (863)|  2,656|       535 - 4,170|
 |University of Huddersfield                  |       26|                33,228|   1,278 (909)|    982|       616 - 3,102|
 |University of Sussex                        |       25|                59,454| 2,378 (1,009)|  2,327|       363 - 4,464|
 |IPN                                         |       22|                53,603|   2,437 (554)|  2,558|     1,181 - 3,540|
 |HZDR                                        |       20|                11,880|     594 (118)|    570|       540 - 1,080|
-|MDC                                         |       18|                42,227| 2,346 (1,254)|  1,996|       491 - 4,700|
 |Ulm U                                       |       16|                33,672|   2,104 (548)|  2,319|     1,308 - 2,631|
 |Plymouth University                         |       15|                33,827|   2,255 (839)|  2,209|     1,051 - 3,664|
 |University of Aberdeen                      |       14|                37,817|   2,701 (889)|  2,676|       438 - 4,280|
@@ -362,9 +362,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.6%       |
-|PubMed ID                  |  77.66%      |
-|PubMed Central ID          |  72.08%     |
-|Web of Science record ID   | 90.57%      |
+|PubMed ID                  |  77.68%      |
+|PubMed Central ID          |  72.1%     |
+|Web of Science record ID   | 90.56%      |
 
 
 
