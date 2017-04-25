@@ -449,7 +449,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
         writer.write_rows(articles)
 
-def get_metadata_from_crossref(doi_string):
+def get_metadata_from_crossref(doi_string, retry=2):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
 
@@ -523,6 +523,9 @@ def get_metadata_from_crossref(doi_string):
     except urllib2.HTTPError as httpe:
         ret_value['success'] = False
         code = str(httpe.getcode())
+        # crossref API can be busy at times, auto-retry 2 times on a 504 (gateway timeout) 
+        if code == 504 and retry > 0:
+            return get_metadata_from_crossref(doi_string, retry-1)
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
     except urllib2.URLError as urle:
         ret_value['success'] = False
