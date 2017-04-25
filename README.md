@@ -71,6 +71,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Participating Austrian Institutions
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
+- [Institute of Science and Technology Austria](https://ist.ac.at/open-access/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
 ## Participating Italian Institutions
@@ -146,9 +147,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-This dataset contains information on 30,841 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 92 research performing institutions and research funders. 
+This dataset contains information on 30,847 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 93 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 56,977,071. The average payment was € 1,847  and the median was € 1,658.
+In total, publication fee spending covered by the Open APC initiative amounted to € 56,986,470. The average payment was € 1,847  and the median was € 1,658.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -162,7 +163,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-17,896 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 25,037,304, including value-added tax; the average payment was € 1,399 (median =  € 1,321, SD = € 626).
+17,902 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 25,046,704, including value-added tax; the average payment was € 1,399 (median =  € 1,321, SD = € 626).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -252,6 +253,7 @@ The following table summarises institutional spending on articles published in f
 |Royal Holloway                              |        9|                12,714|   1,413 (439)|  1,244|       928 - 2,349|
 |Plymouth University                         |        8|                 9,936|   1,242 (348)|  1,220|       638 - 1,714|
 |TU Clausthal                                |        8|                 6,999|     875 (514)|    918|       181 - 1,724|
+|IST Austria                                 |        6|                 9,400|   1,567 ( 79)|  1,556|     1,450 - 1,676|
 |Cranfield University                        |        5|                 6,557|   1,311 (723)|  1,688|       234 - 1,975|
 |INM - Leibniz-Institut für Neue Materialien |        5|                 5,744|   1,149 (560)|  1,305|       237 - 1,679|
 |University of Portsmouth                    |        5|                 7,706|   1,541 (373)|  1,354|     1,209 - 1,973|
@@ -267,7 +269,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 12,945 open access articles being published in hybrid journals. Total expenditure amounts to  56,977,071 €. Average  fee is 2,467 € and the median 2,469 €.
+Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers 12,945 open access articles being published in hybrid journals. Total expenditure amounts to  56,986,470 €. Average  fee is 2,467 € and the median 2,469 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -399,7 +401,7 @@ This project follows [Wellcome Trust example to share data on paid APCs](http://
 
 ## Contributors
 
-Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
