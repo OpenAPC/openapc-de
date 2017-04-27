@@ -1,6 +1,6 @@
 Institution;Period;Euro;is_hybrid;doi;Publisher;Journal;issn.1;Date
 Duisburg Essen U;2016;1165;FALSE;10.1038/srep13661;npg;Scientific Reports;;Jan 16
-Duisburg Essen U;2016;2618;FALSE;10.1007/s00146-015-0629-0;Springer;AI & Society;;Jan 16
+Duisburg Essen U;2016;2618;TRUE;10.1007/s00146-015-0629-0;Springer;AI & Society;;Jan 16
 Duisburg Essen U;2016;1580;FALSE;10.1186/s12942-015-0031-7;Biomed Central;International Journal of Health Geographics;;Jan 16
 Duisburg Essen U;2016;1276;FALSE;10.1371/journal.pone.0146409;PLoSOne;Public Library of Science;;Jan 16
 Duisburg Essen U;2016;1220;FALSE;10.1371/journal.pone.0149528;PLOS;PLOSOne;;Feb 16
@@ -23,7 +23,7 @@ Duisburg Essen U;2016;1364;FALSE;10.1161/JAHA.116.003393;Wiley;J AM Heart Assoc;
 Duisburg Essen U;2016;1800;FALSE;10.1186/s12891-016-1044-5;Biomed Central;BMC Musculoskelet Disord.;;Mai 16
 Duisburg Essen U;2016;1325;FALSE;10.1371/journal.pone.0155591;PLOS;PLOSOne;;Mai 16
 Duisburg Essen U;2016;2325;FALSE;10.1186/s12915-016-0274-1;Biomed Central;BMC Biology;;Jun 16
-Duisburg Essen U;2016;2618;FALSE;10.1007/s12665-016-5787-y;Springer Nature;Environmental Earth Sciences;;Jun 16
+Duisburg Essen U;2016;2618;TRUE;10.1007/s12665-016-5787-y;Springer Nature;Environmental Earth Sciences;;Jun 16
 Duisburg Essen U;2016;1818;FALSE;10.1155/2016/5614086;Hindawi;BioMed Research International;;Jun 16
 Duisburg Essen U;2016;924;FALSE;10.4172/2161-0932.1000387;;Gynecology & Obstetrics;;Jun 16
 Duisburg Essen U;2016;2678;FALSE;10.1016/j.jalz.2016.05.006;Elsevier;Alzheimer's & Dementia;;Jun 16
