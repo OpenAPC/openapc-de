@@ -7,7 +7,6 @@ from collections import OrderedDict
 import datetime
 import locale
 import logging
-from logging.handlers import MemoryHandler
 import os
 import sys
 
@@ -83,37 +82,6 @@ class CSVColumn(object):
         if ret == "6":
             self.overwrite = CSVColumn.OW_NEVER
             return old_value
-
-class ANSIColorFormatter(logging.Formatter):
-    """
-    A simple logging formatter using ANSI codes to colorize messages
-    """
-    FORMATS = {
-        logging.ERROR: "\033[91m%(levelname)s: %(message)s\033[0m",
-        logging.WARNING: "\033[93m%(levelname)s: %(message)s\033[0m",
-        logging.INFO: "\033[94m%(levelname)s: %(message)s\033[0m",
-        "DEFAULT": "%(levelname)s: %(message)s"
-    }
-
-    def format(self, record):
-        self._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
-        return logging.Formatter.format(self, record)
-
-class BufferedErrorHandler(MemoryHandler):
-    """
-    A modified MemoryHandler without automatic flushing.
-
-    This handler serves the simple purpose of buffering error and critical
-    log messages so that they can be shown to the user in collected form when
-    the enrichment process has finished.
-    """
-    def __init__(self, target):
-        MemoryHandler.__init__(self, 100000, target=target)
-        self.setLevel(logging.ERROR)
-
-    def shouldFlush(self, record):
-        return False
-
 
 ARG_HELP_STRINGS = {
     "csv_file": "CSV file containing your APC data. It must contain at least " +
@@ -250,9 +218,9 @@ def main():
     enc = None # CSV file encoding
 
     handler = logging.StreamHandler(sys.stderr)
-    handler.setFormatter(ANSIColorFormatter())
-    bufferedHandler = BufferedErrorHandler(handler)
-    bufferedHandler.setFormatter(ANSIColorFormatter())
+    handler.setFormatter(oat.ANSIColorFormatter())
+    bufferedHandler = oat.BufferedErrorHandler(handler)
+    bufferedHandler.setFormatter(oat.ANSIColorFormatter())
     logging.root.addHandler(handler)
     logging.root.addHandler(bufferedHandler)
     logging.root.setLevel(logging.INFO)

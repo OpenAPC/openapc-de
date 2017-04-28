@@ -23,6 +23,7 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
   |:------------------------------------------|----------------:|
   | Journal Article/Review (Full OA journal)  | FALSE           |
   | Journal Article/Review (Hybrid journal)   | TRUE            |
+  | Journal Article                           | _empty value_ (but article is kept) |
 
   All rows containing other values (Book chapter, Conference Paper/Proceeding/Abstract) were deleted (but empty lines were kept).
 
@@ -57,5 +58,7 @@ After that, a final round of data curation was perfomed:
 
 | period                   | exchange rate (1 GBP = )  | 
 |:-------------------------|--------------------------:|
+| 2013                     | 1.1777 EUR                |
 | 2014                     | 1.2411 EUR                | 
 | 2015                     | 1.3785 EUR                |
+| 2016                     | 1.2239 EUR                |

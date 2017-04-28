@@ -7,6 +7,7 @@ from collections import OrderedDict
 import json
 import locale
 import logging
+from logging.handlers import MemoryHandler
 import re
 import ssl
 import sys
@@ -21,7 +22,7 @@ except ImportError:
            "encoding guessing will not work")
 
 # regex for detecing DOIs
-DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)")
+DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
 ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 # These classes were adopted from
@@ -200,12 +201,43 @@ class CSVAnalysisResult(object):
                         int(self.enc_conf * 100))
         ret += "***************************"
         return ret
-    
+
+class ANSIColorFormatter(logging.Formatter):
+    """
+    A simple logging formatter using ANSI codes to colorize messages
+    """
+    FORMATS = {
+        logging.ERROR: "\033[91m%(levelname)s: %(message)s\033[0m",
+        logging.WARNING: "\033[93m%(levelname)s: %(message)s\033[0m",
+        logging.INFO: "\033[94m%(levelname)s: %(message)s\033[0m",
+        "DEFAULT": "%(levelname)s: %(message)s"
+    }
+
+    def format(self, record):
+        self._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
+        return logging.Formatter.format(self, record)
+
+class BufferedErrorHandler(MemoryHandler):
+    """
+    A modified MemoryHandler without automatic flushing.
+
+    This handler serves the simple purpose of buffering error and critical
+    log messages so that they can be shown to the user in collected form when
+    the enrichment process has finished.
+    """
+    def __init__(self, target):
+        MemoryHandler.__init__(self, 100000, target=target)
+        self.setLevel(logging.ERROR)
+
+    def shouldFlush(self, record):
+        return False
+
 def get_normalised_DOI(doi_string):
     doi_match = DOI_RE.match(doi_string.strip())
     if not doi_match:
         return None
-    return doi_match.groupdict()["doi"]
+    doi = doi_match.groupdict()["doi"]
+    return doi.lower()
 
 def is_wellformed_ISSN(issn_string):
     issn_match = ISSN_RE.match(issn_string.strip())
@@ -276,8 +308,8 @@ def analyze_csv_file(file_path, line_limit=None):
     result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
     csv_file.close()
     return {"success": True, "data": result}
-    
-def get_csv_file_content(file_name, enc=None):
+
+def get_csv_file_content(file_name, enc=None, force_header=False):
     result = analyze_csv_file(file_name, 500)
     if result["success"]:
         csv_analysis = result["data"]
@@ -285,33 +317,33 @@ def get_csv_file_content(file_name, enc=None):
     else:
         print result["error_msg"]
         sys.exit()
-    
+
     if enc is None:
         enc = csv_analysis.enc
-    
+
     if enc is None:
         print ("Error: No encoding given for CSV file and automated " +
                "detection failed. Please set the encoding manually via the " +
                "--enc argument")
         sys.exit()
-        
+
     dialect = csv_analysis.dialect
-    
+
     csv_file = open(file_name, "r")
 
     content = []
     reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
     header = []
-    if csv_analysis.has_header:
+    if csv_analysis.has_header or force_header:
         header.append(reader.next())
     for row in reader:
         content.append(row)
     csv_file.close()
     return (header, content)
-    
+
 def has_value(field):
     return len(field) > 0 and field != "NA"
-    
+
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, selective_harvest=False):
     """
     Harvest OpenAPC records via OAI-PMH
@@ -346,7 +378,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         ("", "url"),
         ("intact:id_number[@type='local']", "local_id")
     ])
-    #institution_xpath = 
+    #institution_xpath =
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
         "intact": "http://intact-project.org"
@@ -417,7 +449,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
         writer.write_rows(articles)
 
-def get_metadata_from_crossref(doi_string):
+def get_metadata_from_crossref(doi_string, retry=2):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
 
@@ -491,6 +523,9 @@ def get_metadata_from_crossref(doi_string):
     except urllib2.HTTPError as httpe:
         ret_value['success'] = False
         code = str(httpe.getcode())
+        # crossref API can be busy at times, auto-retry 2 times on a 504 (gateway timeout) 
+        if code == 504 and retry > 0:
+            return get_metadata_from_crossref(doi_string, retry-1)
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
     except urllib2.URLError as urle:
         ret_value['success'] = False
@@ -856,12 +891,12 @@ def get_column_type_from_whitelist(column_name):
         "period": ["period", "jahr"],
         "is_hybrid": ["is_hybrid", "is hybrid"],
         "publisher": ["publisher"],
-        "journal_full_title": ["journal_full_title", "journal", "journal title"],
-        "issn": ["issn"],
+        "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title"],
+        "issn": ["issn", "issn.1"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
         "issn_l": ["issn_l"],
-        "license_ref": ["licence", "license_ref"],
+        "license_ref": ["licence", "license", "license_ref"],
         "indexed_in_crossref": ["indexed_in_crossref"],
         "pmid": ["pmid", "pubmed id"],
         "pmcid": ["pmcid", "pubmed central (pmc) id"],
@@ -893,7 +928,8 @@ def get_unified_publisher_name(publisher):
         "Institute of Electrical and Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
         "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press",
         "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
-        "Hindawi Limited": "Hindawi Publishing Corporation"
+        "Hindawi Limited": "Hindawi Publishing Corporation",
+        "Oxford University Press": "Oxford University Press (OUP)"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -954,7 +990,17 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Otolaryngology - Head and Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
         "manuscripta mathematica": "Manuscripta Mathematica",
         "CPT Pharmacometrics Syst. Pharmacol.": "CPT: Pharmacometrics & Systems Pharmacology",
-        "Taal en tongval": "Taal en Tongval"
+        "Taal en tongval": "Taal en Tongval",
+        "Notfall +  Rettungsmedizin": "Notfall + Rettungsmedizin",
+        "The Journal of Neuroscience": "Journal of Neuroscience",
+        "British Editorial Society of Bone &amp; Joint Surgery": "British Editorial Society of Bone & Joint Surgery",
+        "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+        "The FEBS Journal": "FEBS Journal",
+        "PLANT PHYSIOLOGY": "Plant Physiology",
+        "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control": "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control",
+        "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology",
+        "Tellus B: Chemical and Physical Meteorology""Tellus B: Chemical and Physical Meteorology": "Tellus B",
+        "Natural Hazards and Earth System Science": "Natural Hazards and Earth System Sciences"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

@@ -22,6 +22,7 @@ ARG_HELP_STRINGS = {
     "full_delete": "Fully delete the line, reducing the total number " +
                    "of rows in the result file. Otherwise, the line " +
                    "is replaced by a row of emtpy values. ",
+    "ignore_case": "Ignore case when comparing values",
     "results_file": "Write deleted entries to a separate " + 
                     "out file ('del.csv')",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
@@ -46,6 +47,7 @@ def main():
     parser.add_argument("-v", "--value", help=ARG_HELP_STRINGS["value"])
     parser.add_argument("-f", "--file", help=ARG_HELP_STRINGS["file"])
     parser.add_argument("-d", "--full_delete", action="store_true", help=ARG_HELP_STRINGS["full_delete"])
+    parser.add_argument("-i", "--ignore_case", action="store_true", help=ARG_HELP_STRINGS["ignore_case"])
     parser.add_argument("-r", "--results_file", action="store_true", help=ARG_HELP_STRINGS["results_file"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
@@ -66,11 +68,18 @@ def main():
         with open(args.file, "r") as f:
             for line in f:
                 if len(line) > 0:
-                    values.append(line.strip("\r\n"))
+                    value = line.strip("\r\n")
+                    if args.ignore_case:
+                        values.append(value.lower())
+                    else:
+                        values.append(value)
         oat.print_g(str(len(values)) + " values read from file")
     
     if args.value is not None:
-        values.append(args.value)
+        if args.ignore_case:
+            values.append(args.value.lower())
+        else:
+            values.append(args.value)
         if args.file:
             oat.print_y("Value argument given in addition to file " +
                         "argument, adding value to file imports...")
@@ -119,7 +128,10 @@ def main():
         if len(line) == 0:
             continue
         num_total_lines += 1
-        if line[args.index] not in values:
+        current_value = line[args.index]
+        if args.ignore_case:
+            current_value = current_value.lower()
+        if current_value not in values:
             modified_content.append(line)
         else:
             num_deleted_lines += 1
