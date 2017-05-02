@@ -449,7 +449,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
         writer.write_rows(articles)
 
-def get_metadata_from_crossref(doi_string, retry=2):
+def get_metadata_from_crossref(doi_string):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
 
@@ -523,9 +523,6 @@ def get_metadata_from_crossref(doi_string, retry=2):
     except urllib2.HTTPError as httpe:
         ret_value['success'] = False
         code = str(httpe.getcode())
-        # crossref API can be busy at times, auto-retry 2 times on a 504 (gateway timeout) 
-        if code == 504 and retry > 0:
-            return get_metadata_from_crossref(doi_string, retry-1)
         ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
     except urllib2.URLError as urle:
         ret_value['success'] = False
@@ -743,6 +740,11 @@ def process_row(row, row_num, column_map, num_required_columns,
         # include crossref metadata
         if not no_crossref_lookup:
             crossref_result = get_metadata_from_crossref(doi)
+            while not crossref_result["success"] and crossref_result["error_msg"].startswith("HTTPError: 504"):
+                # retry on gateway timeouts, crossref API is quite busy sometimes
+                msg = "%s, retrying..."
+                logging.warning(msg, crossref_result["error_msg"])
+                crossref_result = get_metadata_from_crossref(doi)
             if crossref_result["success"]:
                 logging.info("Crossref: DOI resolved: " + doi)
                 current_row["indexed_in_crossref"] = "TRUE"
