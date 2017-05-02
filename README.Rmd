@@ -233,7 +233,7 @@ my_apc <- readr::read_csv("data/apc_de.csv") %>%
   dplyr::filter(is_hybrid == TRUE)
 ```
 
-Hybrid open access journals, which allow articles to be published immediatley as open access after a charge was paid, rely on both publication fees and subscritions as revenue source. This dataset covers `r nrow(my_apc)` open access articles being published in hybrid journals. Total expenditure amounts to  `r sum(my.apc$euro)` €. Average  fee is `r format(sum(my_apc$euro)/nrow(my_apc))` € and the median `r median(my_apc$euro)` €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers `r nrow(my_apc)` open access articles being published in hybrid journals. Total expenditure amounts to  `r sum(my_apc$euro)` €. Average  fee is `r format(sum(my_apc$euro)/nrow(my_apc))` € and the median `r median(my_apc$euro)` €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
