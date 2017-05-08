@@ -161,6 +161,11 @@ def check_field_content(row_object):
             pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
                                    'is not correct. It should be the simple DOI name, not ' +
                                    'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
+    if len(row['publisher']) != len(row['publisher'].strip()):
+        pytest.fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
+    if len(row['journal_full_title']) != len(row['journal_full_title'].strip()):
+        pytest.fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
+    
     if row_object.test_apc:
         try:
             euro = float(row['euro'])
