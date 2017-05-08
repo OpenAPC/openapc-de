@@ -124,21 +124,12 @@ def check_line_length(row_object):
                                           row_object.line_number)
         pytest.fail(line_str + 'Row must consist of exactly 18 items')
 
-def check_optional_fields(row_object):
+def check_optional_identifier(row_object):
     __tracebackhide__ = True
     row = row_object.row
     if row['doi'] == "NA":
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        if not oat.has_value(row['publisher']):
-            pytest.fail(line_str + 'if no DOI is given, the column ' +
-                        '"publisher" must not be empty')
-        if not oat.has_value(row['journal_full_title']):
-            pytest.fail(line_str + 'if no DOI is given, the column ' +
-                        '"journal_full_title" must not be empty')
-        if not oat.has_value(row['issn']):
-            pytest.fail(line_str + 'if no DOI is given, the column "issn" ' +
-                        'must not be empty')
         if not oat.has_value(row['url']):
             pytest.fail(line_str + 'if no DOI is given, the column "url" ' +
                         'must not be empty')
@@ -147,6 +138,12 @@ def check_field_content(row_object):
     __tracebackhide__ = True
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    if not oat.has_value(row['publisher']):
+        pytest.fail(line_str + 'the column "publisher" must not be empty')
+    if not oat.has_value(row['journal_full_title']):
+        pytest.fail(line_str + 'the column "journal_full_title" must not be empty')
+    if not oat.has_value(row['issn']):
+        pytest.fail(line_str + 'the column "issn" must not be empty')
     if row['doaj'] not in ["TRUE", "FALSE"]:
         pytest.fail(line_str + 'value in row "doaj" must either be TRUE or FALSE')
     if row['indexed_in_crossref'] not in ["TRUE", "FALSE"]:
@@ -161,6 +158,11 @@ def check_field_content(row_object):
             pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
                                    'is not correct. It should be the simple DOI name, not ' +
                                    'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
+    if len(row['publisher']) != len(row['publisher'].strip()):
+        pytest.fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
+    if len(row['journal_full_title']) != len(row['journal_full_title'].strip()):
+        pytest.fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
+    
     if row_object.test_apc:
         try:
             euro = float(row['euro'])
@@ -183,6 +185,24 @@ def check_issns(row_object):
             if not oat.is_valid_ISSN(issn_column):
                 pytest.fail(line_str + 'value "' + issn_column + '" is no valid ' +
                             'ISSN (check digit mismatch)')
+    issn_l = row["issn_l"]
+    if issn_l != "NA":
+        msg = line_str + "Two entries share a common {} ({}), but the issn_l differs ({} vs {})"
+        issn = row["issn"]
+        if issn != "NA":
+            for row in issn_dict[issn]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn", issn, issn_l, row["issn_l"]))
+        issn_p = row["issn_print"]
+        if issn_p != "NA":
+            for row in issn_p_dict[issn_p]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn_p", issn_p, issn_l, row["issn_l"]))
+        issn_e = row["issn_electronic"]
+        if issn_e != "NA":
+            for row in issn_e_dict[issn_e]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn_e", issn_e, issn_l, row["issn_l"]))
 
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
@@ -273,7 +293,7 @@ class TestAPCRows(object):
     def test_row_format(self, row_object):
         check_line_length(row_object)
         check_field_content(row_object)
-        check_optional_fields(row_object)
+        check_optional_identifier(row_object)
         check_issns(row_object)
         check_hybrid_status(row_object)
 
