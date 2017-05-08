@@ -240,13 +240,13 @@ def get_normalised_DOI(doi_string):
     return doi.lower()
 
 def is_wellformed_ISSN(issn_string):
-    issn_match = ISSN_RE.match(issn_string.strip())
+    issn_match = ISSN_RE.match(issn_string)
     if issn_match is not None:
         return True
     return False
 
 def is_valid_ISSN(issn_string):
-    issn_match = ISSN_RE.match(issn_string.strip())
+    issn_match = ISSN_RE.match(issn_string)
     match_dict = issn_match.groupdict()
     check_digit = match_dict["check_digit"]
     if check_digit in ["X", "x"]:
