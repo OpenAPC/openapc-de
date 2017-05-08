@@ -124,21 +124,12 @@ def check_line_length(row_object):
                                           row_object.line_number)
         pytest.fail(line_str + 'Row must consist of exactly 18 items')
 
-def check_optional_fields(row_object):
+def check_optional_identifier(row_object):
     __tracebackhide__ = True
     row = row_object.row
     if row['doi'] == "NA":
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        if not oat.has_value(row['publisher']):
-            pytest.fail(line_str + 'if no DOI is given, the column ' +
-                        '"publisher" must not be empty')
-        if not oat.has_value(row['journal_full_title']):
-            pytest.fail(line_str + 'if no DOI is given, the column ' +
-                        '"journal_full_title" must not be empty')
-        if not oat.has_value(row['issn']):
-            pytest.fail(line_str + 'if no DOI is given, the column "issn" ' +
-                        'must not be empty')
         if not oat.has_value(row['url']):
             pytest.fail(line_str + 'if no DOI is given, the column "url" ' +
                         'must not be empty')
@@ -147,6 +138,12 @@ def check_field_content(row_object):
     __tracebackhide__ = True
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    if not oat.has_value(row['publisher']):
+        pytest.fail(line_str + 'the column "publisher" must not be empty')
+    if not oat.has_value(row['journal_full_title']):
+        pytest.fail(line_str + 'the column "journal_full_title" must not be empty')
+    if not oat.has_value(row['issn']):
+        pytest.fail(line_str + 'the column "issn" must not be empty')
     if row['doaj'] not in ["TRUE", "FALSE"]:
         pytest.fail(line_str + 'value in row "doaj" must either be TRUE or FALSE')
     if row['indexed_in_crossref'] not in ["TRUE", "FALSE"]:
@@ -296,7 +293,7 @@ class TestAPCRows(object):
     def test_row_format(self, row_object):
         check_line_length(row_object)
         check_field_content(row_object)
-        check_optional_fields(row_object)
+        check_optional_identifier(row_object)
         check_issns(row_object)
         check_hybrid_status(row_object)
 
