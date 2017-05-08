@@ -188,6 +188,24 @@ def check_issns(row_object):
             if not oat.is_valid_ISSN(issn_column):
                 pytest.fail(line_str + 'value "' + issn_column + '" is no valid ' +
                             'ISSN (check digit mismatch)')
+    issn_l = row["issn_l"]
+    if issn_l != "NA":
+        msg = line_str + "Two entries share a common {} ({}), but the issn_l differs ({} vs {})"
+        issn = row["issn"]
+        if issn != "NA":
+            for row in issn_dict[issn]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn", issn, issn_l, row["issn_l"]))
+        issn_p = row["issn_print"]
+        if issn_p != "NA":
+            for row in issn_p_dict[issn_p]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn_p", issn_p, issn_l, row["issn_l"]))
+        issn_e = row["issn_electronic"]
+        if issn_e != "NA":
+            for row in issn_e_dict[issn_e]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn_e", issn_e, issn_l, row["issn_l"]))
 
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
