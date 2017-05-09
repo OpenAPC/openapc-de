@@ -17,7 +17,7 @@ At the moment this project provides cost data on 31,422 open access journal arti
 ## How to contribute?
 
 Any academic institution or research funder paying for Article Process Charges (APCs) can contribute to OpenAPC, no formal registration is required.
-This page([German](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)/[English](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout)) explains the details.
+This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
 
 ## Participating German Universities
 
