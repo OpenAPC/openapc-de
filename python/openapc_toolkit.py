@@ -1002,7 +1002,8 @@ def get_unified_journal_title(journal_full_title):
         "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control": "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control",
         "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology",
         "Tellus B: Chemical and Physical Meteorology": "Tellus B",
-        "Natural Hazards and Earth System Science": "Natural Hazards and Earth System Sciences"
+        "Natural Hazards and Earth System Science": "Natural Hazards and Earth System Sciences",
+        "interactive Journal of Medical Research": "Interactive Journal of Medical Research"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
