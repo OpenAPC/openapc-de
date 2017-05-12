@@ -14,7 +14,7 @@ The aim of this repository is:
 
 At the moment this project provides cost data on 31,481 open access journal articles, amounting to € 57,894,542 and contributed by 93 institutions.
 
-[![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)
+[![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
 ## How to contribute?
 

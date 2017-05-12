@@ -37,7 +37,7 @@ The aim of this repository is:
 
 At the moment this project provides cost data on `r nrow(my_apc)` open access journal articles, amounting to € `r sum(my_apc$euro)` and contributed by `r length(unique(my_apc$institution))` institutions.
 
-[![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)
+[![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
 ## How to contribute?
 
