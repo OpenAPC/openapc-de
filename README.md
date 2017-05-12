@@ -14,6 +14,8 @@ The aim of this repository is:
 
 At the moment this project provides cost data on 31,479 open access journal articles, amounting to € 57,892,402 and contributed by 93 institutions.
 
+[![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)
+
 ## How to contribute?
 
 Any academic institution or research funder paying for Article Process Charges (APCs) can contribute to OpenAPC, no formal registration is required.

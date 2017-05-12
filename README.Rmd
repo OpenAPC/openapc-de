@@ -37,6 +37,8 @@ The aim of this repository is:
 
 At the moment this project provides cost data on `r nrow(my_apc)` open access journal articles, amounting to € `r sum(my_apc$euro)` and contributed by `r length(unique(my_apc$institution))` institutions.
 
+[![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)
+
 ## How to contribute?
 
 Any academic institution or research funder paying for Article Process Charges (APCs) can contribute to OpenAPC, no formal registration is required.
