@@ -34,6 +34,8 @@ JOURNAL_OWNER_CHANGED = {
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
     "2000-8066": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
     "1600-0889": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B
+    "1654-6628": ["Co-Action Publishing", "Informa UK Limited"], # Food & Nutrition Research (print)
+    "1654-661X": ["Co-Action Publishing", "Informa UK Limited"], # Food & Nutrition Research (electronic)
     "0963-8237": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health
     "1360-0567": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health (electronic)
     "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
