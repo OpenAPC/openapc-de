@@ -1009,6 +1009,7 @@ def get_unified_journal_title(journal_full_title):
         "CARTILAGE": "Cartilage",
         "Annals of Clinical Biochemistry": "Annals of Clinical Biochemistry: An international journal of biochemistry and laboratory medicine",
         "JNCI: Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
+        "Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
         "European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
         "Transplantation": "Transplantation Journal",
         "SHOCK": "Shock",
