@@ -46,8 +46,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2016,3029.93,"10.2337/db12-1077",TRUE,"American Diabetes Association","Diabetes","0012-1797","0012-1797","1939-327X","0012-1797",NA,TRUE,"23300278","PMC3636649","ut:000318128700054",NA,FALSE
 "Wellcome Trust",2016,1721.55,"10.2337/db14-1388",TRUE,"American Diabetes Association","Diabetes","0012-1797","0012-1797","1939-327X","0012-1797",NA,TRUE,"25510240","PMC4452716","ut:000353431200034",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2016,2721.82,"10.1161/circimaging.115.003487",TRUE,"American Heart Association","Circulation. Cardiovascular imaging","1941-9651, 1942-0080",NA,NA,NA,NA,FALSE,"26429760","PMC4596008",NA,NA,FALSE
-"Wellcome Trust",2016,4392.18,"10.1161/circimaging.115.003579",TRUE,"American Heart Association","Circulation. Cardiovascular imaging","1941-9651, 1942-0080",NA,NA,NA,NA,FALSE,"27033835","PMC4841180","ut:000374795700001",NA,FALSE
+"Wellcome Trust",2016,2721.82,"10.1161/circimaging.115.003487",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Circulation: Cardiovascular Imaging","1941-9651","1941-9651","1942-0080","1941-9651",NA,FALSE,"26429760","PMC4596008",NA,NA,FALSE
+"Wellcome Trust",2016,4392.18,"10.1161/circimaging.115.003579",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Circulation: Cardiovascular Imaging","1941-9651","1941-9651","1942-0080","1941-9651",NA,FALSE,"27033835","PMC4841180","ut:000374795700001",NA,FALSE
 "Wellcome Trust",2016,2464.9,"10.1103/physrevlett.116.038102",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","http://creativecommons.org/licenses/by/3.0/",TRUE,"26849616",NA,"ut:000368524500020",NA,FALSE
 "Wellcome Trust",2016,1787.29,"10.1152/ajpendo.00594.2014",TRUE,"American Physiological Society","AJP: Endocrinology and Metabolism","0193-1849","0193-1849","1522-1555","0193-1849",NA,TRUE,"26126685","PMC4572456","ut:000361817000002",NA,FALSE
 "Wellcome Trust",2016,941.69,"10.1152/ajpheart.00075.2015",TRUE,"American Physiological Society","American Journal of Physiology - Heart and Circulatory Physiology","0363-6135","0363-6135","1522-1539","0363-6135",NA,TRUE,"26747496","PMC4867343","ut:000372082900010",NA,FALSE
@@ -3090,7 +3090,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2016,850.54,"10.4172/jcs.1000103",TRUE,"OMICS Publishing Group","Journal of Cell Signaling",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -3115,7 +3115,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2016,1035.36,"10.1515/jci-2015-0024",TRUE,"Walter de Gruyter GmbH","Journal of Causal Inference","2193-3677","2193-3677","2193-3685","2193-3685",NA,TRUE,NA,NA,"ut:000374108200003",NA,FALSE
 "Wellcome Trust",2016,1861.98,"10.5301/ijao.5000452",TRUE,"Wichtig Publishing, SRL","The International Journal of Artificial Organs","0391-3988","0391-3988",NA,"0391-3988",NA,TRUE,"26689146","PMC4910869","ut:000370254000005",NA,FALSE
-"Wellcome Trust",2016,1721.55,"10.1002/mpr.1520",TRUE,"Wiley","International journal of methods in psychiatric research","1049-8931, 1557-0657",NA,NA,NA,NA,FALSE,"27469020",NA,NA,NA,FALSE
+"Wellcome Trust",2016,1721.55,"10.1002/mpr.1520",TRUE,"Wiley","International journal of methods in psychiatric research","1049-8931",NA,NA,NA,NA,FALSE,"27469020",NA,NA,NA,FALSE
 "Wellcome Trust",2016,2065.86,"10.1111/mcn.12353",TRUE,"Wiley-Blackwell","Maternal & Child Nutrition","1740-8695",NA,NA,"1740-8695","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27723265","PMC5396145","ut:000398117200036",NA,FALSE
 "Wellcome Trust",2016,1721.55,"10.1111/ane.12611",TRUE,"Wiley-Blackwell","Acta Neurologica Scandinavica","0001-6314",NA,NA,"0001-6314","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"27231140","PMC5157719","ut:000389421400006",NA,FALSE
 "Wellcome Trust",2016,2231.55,"10.1111/apha.12656",TRUE,"Wiley-Blackwell","Acta Physiologica","1748-1708",NA,NA,"1748-1708","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26804547","PMC5215486","ut:000393914900017",NA,FALSE
@@ -3390,8 +3390,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2016,2231.55,"10.1161/jaha.115.002822",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,"26908407","PMC4802443","ut:000378131100013",NA,TRUE
 "Wellcome Trust",2016,1220.01,"10.1161/jaha.115.002846",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,"27312802","PMC4937249","ut:000386712700013",NA,TRUE
 "Wellcome Trust",2016,912.42,"10.1161/jaha.115.002834",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,"26908408","PMC4802451","ut:000378131100008",NA,TRUE
-"Wellcome Trust",2016,1106.38,"10.1161/jaha.115.002365",TRUE,"Wiley-Blackwell","Journal of the American Heart Association",NA,NA,NA,NA,NA,FALSE,"26873682","PMC4802439","ut:000378131100024",NA,NA
-"Wellcome Trust",2016,1430.68,"10.1161/jaha.115.001926",TRUE,"Wiley-Blackwell","Journal of the American Heart Association",NA,NA,NA,NA,NA,FALSE,"26289347","PMC4599457","ut:000364150900009",NA,NA
+"Wellcome Trust",2016,1106.38,"10.1161/jaha.115.002365",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,FALSE,"26873682","PMC4802439","ut:000378131100024",NA,TRUE
+"Wellcome Trust",2016,1430.68,"10.1161/jaha.115.001926",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,FALSE,"26289347","PMC4599457","ut:000364150900009",NA,TRUE
 "Wellcome Trust",2016,914.72,"10.1161/jaha.116.003555",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,"27402229","PMC5015393","ut:000386713800045",NA,TRUE
 "Wellcome Trust",2016,2754.48,"10.1111/jth.13189",TRUE,"Wiley-Blackwell","Journal of Thrombosis and Haemostasis","1538-7933",NA,NA,"1538-7836","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26559391","PMC4737436","ut:000370661100021",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
