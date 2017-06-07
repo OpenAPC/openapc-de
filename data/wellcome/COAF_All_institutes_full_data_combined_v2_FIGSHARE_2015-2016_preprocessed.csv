@@ -1,6 +1,6 @@
 institution;period;PMCID;PMID;DOI;Publisher;Journal title;ISSN;euro;is_hybrid
 Wellcome Trust;2016;PMC4718564;26869723;10.1063/1.4936345;AIP Publishing;Applied physics letters;0003-6951;2012.84;TRUE
-Wellcome Trust;2016;PMC5067544;27629089;unknown;American Academy of Neurology;Neurology;0028-3878, 1526-632X;3540.23;TRUE
+Wellcome Trust;2016;PMC5067544;27629089;10.1212/WNL.0000000000003221;American Academy of Neurology;Neurology;0028-3878, 1526-632X;3540.23;TRUE
 Wellcome Trust;2016;PMC4873385;26921328;10.1158/0008-5472.can-15-1551;American Association for Cancer Research (AACR);Cancer research;0008-5472, 1538-7445;2489.33;TRUE
 Wellcome Trust;2016;PMC4795533;26964624;10.1158/0008-5472.can-15-1410;American Association for Cancer Research (AACR);Cancer research;0008-5472, 1538-7445;2696.36;TRUE
 Wellcome Trust;2016;PMC4757751;26659574;10.1158/0008-5472.can-15-2062;American Association for Cancer Research (AACR);Cancer research;0008-5472, 1538-7445;2689.21;TRUE
@@ -45,7 +45,7 @@ Wellcome Trust;2016;PMC4854487;27003358;10.1021/acs.langmuir.6b00240;American Ch
 Wellcome Trust;2016;PMC5002933;27109430;10.1021/acs.jpcb.6b01387;American Chemical Society (ACS);The journal of physical chemistry. B;1520-6106, 1520-5207;4690.24;TRUE
 Wellcome Trust;2016;PMC3636649;23300278;10.2337/db12-1077;American Diabetes Association;Diabetes;0012-1797, 1939-327X;3029.93;TRUE
 Wellcome Trust;2016;PMC4452716;25510240;10.2337/db14-1388;American Diabetes Association;Diabetes;0012-1797, 1939-327X;1721.55;TRUE
-Wellcome Trust;2016;PMC4841180;27033835;10.1161/circimaging.115.003579;American Heart Association;Circulation. Cardiovascular imaging;1941-9651, 1942-0080;0.00;TRUE
+;;;;;;;;;
 Wellcome Trust;2016;PMC4596008;26429760;10.1161/circimaging.115.003487;American Heart Association;Circulation. Cardiovascular imaging;1941-9651, 1942-0080;2721.82;TRUE
 Wellcome Trust;2016;PMC4841180;27033835;10.1161/circimaging.115.003579;American Heart Association;Circulation. Cardiovascular imaging;1941-9651, 1942-0080;4392.18;TRUE
 Wellcome Trust;2016;;26849616;10.1103/physrevlett.116.038102;American Physical Society (APS);Physical review letters;0031-9007, 1079-7114;2464.90;TRUE
@@ -203,7 +203,7 @@ Wellcome Trust;2016;PMC4855826;27124316;10.1167/iovs.16-19332;Association for Re
 Wellcome Trust;2016;PMC5024667;27604067;10.1167/16.11.4;Association for Research in Vision and Ophthalmology (ARVO);Journal of vision;1534-7362;1957.77;FALSE
 Wellcome Trust;2016;PMC4993241;26894512;10.1167/16.3.28;Association for Research in Vision and Ophthalmology (ARVO);Journal of vision;1534-7362;1931.23;FALSE
 Wellcome Trust;2016;PMC5015923;27617181;10.1167/tvst.5.4.15;Association for Research in Vision and Ophthalmology (ARVO);Translational vision science & technology;2164-2591;1666.44;TRUE
-Wellcome Trust;2016;PMC5155399;27964754;NOTYETPUBLISHED;BioMed Central;Breast cancer research : BCR;1465-5411, 1465-542X;2246.28;FALSE
+Wellcome Trust;2016;PMC5155399;27964754;10.1186/s13058-016-0754-9;BioMed Central;Breast cancer research : BCR;1465-5411, 1465-542X;2246.28;FALSE
 Wellcome Trust;2016;PMC5002965;26864459;10.1530/ec-16-0004;BioScientifica;Endocrine connections;2049-3614;1170.65;FALSE
 Wellcome Trust;2016;PMC4697192;26574572;10.1530/erc-15-0386;BioScientifica;Endocrine-related cancer;1351-0088, 1479-6821;1859.27;TRUE
 Wellcome Trust;2016;PMC5065077;27257145;10.1530/eje-16-0461;BioScientifica;European journal of endocrinology;0804-4643, 1479-683X;1859.27;TRUE
@@ -424,7 +424,7 @@ Wellcome Trust;2016;PMC4574750;26286745;10.1261/rna.052548.115;Cold Spring Harbo
 Wellcome Trust;2016;PMC4869665;27274229;10.2147/ijn.s94255;Dove Medical Press Ltd.;International journal of nanomedicine;1176-9114, 1178-2013;2017.66;FALSE
 Wellcome Trust;2016;PMC4869792;27274253;10.2147/ndt.s96330;Dove Medical Press Ltd.;Neuropsychiatric disease and treatment;1176-6328, 1178-2021;1816.58;FALSE
 Wellcome Trust;2016;PMC4920009;27350872;10.7189/jogh.06.010306;Edinburgh University Global Health Society;Journal of global health;2047-2978, 2047-2986;401.70;FALSE
-Wellcome Trust;2016;PMC4908177 ;27259051;10.1016/j.ajhg.2016.04.012.;Elsevier;American journal of human genetics; 0002-9297;5492.56;TRUE
+Wellcome Trust;2016;PMC4908177 ;27259051;10.1016/j.ajhg.2016.04.012;Elsevier;American journal of human genetics; 0002-9297;5492.56;TRUE
 Wellcome Trust;2016;PMC4821176;26772438;10.1016/j.pbiomolbio.2016.01.001;Elsevier;Progress in Biophysics and Molecular Biology;0079-6107;2944.47;TRUE
 Wellcome Trust;2016;PMC4682169;26540015;10.1016/j.aap.2015.10.017;Elsevier BV;"Accident; analysis and prevention";0001-4575, 1879-2057;2691.77;TRUE
 Wellcome Trust;2016;PMC4982525;27268480;10.1016/j.actbio.2016.06.007;Elsevier BV;Acta biomaterialia;1742-7061, 1878-7568;2086.52;TRUE
@@ -899,7 +899,7 @@ Wellcome Trust;2016;PMC4751405;26499366;10.1016/j.medengphy.2015.09.004;Elsevier
 Wellcome Trust;2016;PMC4917895;27054278;10.1016/j.media.2016.03.002;Elsevier BV;Medical image analysis;1361-8415, 1361-8423;2465.25;TRUE
 Wellcome Trust;2016;PMC4686007;26606458;10.1016/j.media.2015.10.006;Elsevier BV;Medical image analysis;1361-8415, 1361-8423;2717.00;TRUE
 Wellcome Trust;2016;PMC5052128;27179367;10.1016/j.media.2016.04.009;Elsevier BV;Medical image analysis;1361-8415, 1361-8423;2899.02;TRUE
-Wellcome Trust;2016;PMC4112878;25083080;10.3748/wjg.v20.i27.9072;Elsevier BV;Metabolism;1007-9327, 2219-2840;2382.26;TRUE
+;;;;;;;;;
 Wellcome Trust;2016;PMC4766367;26892515;10.1016/j.metabol.2015.10.018;Elsevier BV;Metabolism: clinical and experimental;0026-0495, 1532-8600;1817.96;TRUE
 Wellcome Trust;2016;PMC4773406;26608109;10.1016/j.ymeth.2015.11.012;Elsevier BV;Methods (San Diego, Calif.);1046-2023, 1095-9130;1456.40;TRUE
 Wellcome Trust;2016;PMC4641872;26123184;10.1016/j.ymeth.2015.06.017;Elsevier BV;Methods (San Diego, Calif.);1046-2023, 1095-9130;2155.40;TRUE
@@ -1501,7 +1501,7 @@ Wellcome Trust;2016;PMC4528798;26249344;10.1107/s1399004715007968;International 
 Wellcome Trust;2016;PMC4784662;26960118;10.1107/s2059798316000401;International Union of Crystallography (IUCr);Acta crystallographica. Section D, Structural biology;2059-7983;1168.55;TRUE
 Wellcome Trust;2016;PMC4765087;26925254;10.1088/2057-1976/1/4/045209;IOP Publishing;Biomedical physics & engineering express;2057-1976;2341.31;TRUE
 Wellcome Trust;2016;unknown;unknown;10.1088/2057-1976/2/1/015010;IOP Publishing;Biomedical Physics & Engineering Express;2057-1976;2341.31;TRUE
-Wellcome Trust;2016;unknown;unknown;10.1088/2057-1976/2/1/017002/pdf;IOP publishing;Biomedical Physics & Engineering Express;;2341.31;FALSE
+Wellcome Trust;2016;unknown;unknown;10.1088/2057-1976/2/1/017002;IOP publishing;Biomedical Physics & Engineering Express;;2341.31;FALSE
 Wellcome Trust;2016;unknown;27255758;10.1088/0957-4484/27/28/285103;IOP Publishing;Nanotechnology;0957-4484, 1361-6528;2341.31;TRUE
 Wellcome Trust;2016;unknown;26816273;10.1088/0031-9155/61/4/1546;IOP Publishing;Physics in medicine and biology;0031-9155, 1361-6560;2341.31;TRUE
 Wellcome Trust;2016;unknown;27049898;10.1088/0031-9155/61/9/3500;IOP Publishing;Physics in medicine and biology;0031-9155, 1361-6560;2341.31;TRUE
@@ -1529,8 +1529,8 @@ Wellcome Trust;2016;PMC4872467 ;26633297;10.1159/000438754;Karger;Nephron;1660-8
 Wellcome Trust;2016;PMC4962962;27486348;10.4137/cmc.s39708;Libertas Academica, Ltd.;Clinical Medicine Insights. Cardiology;1179-5468;1085.39;FALSE
 Wellcome Trust;2016;PMC4844272;27127403;10.4137/ebo.s33489;Libertas Academica, Ltd.;Evolutionary bioinformatics online;1176-9343;1109.31;FALSE
 Wellcome Trust;2016;PMC4915790;27375356;10.4137/ebo.s39454;Libertas Academica, Ltd.;Evolutionary bioinformatics online;1176-9343;1117.41;FALSE
-Wellcome Trust;2016;unknown;27749700;NOTYETPUBLISHED;Lippincott, Williams & Wilkins;Epidemiology (Cambridge, Mass.);1044-3983, 1531-5487;3936.66;TRUE
-Wellcome Trust;2016;PMC4722556;26858916;10.1089/big.2015.0019.;Mary Ann Liebert;Big data;2167-6461, 2167-647X;2479.41;TRUE
+Wellcome Trust;2016;unknown;27749700;10.1097/EDE.0000000000000559;Lippincott, Williams & Wilkins;Epidemiology (Cambridge, Mass.);1044-3983, 1531-5487;3936.66;TRUE
+Wellcome Trust;2016;PMC4722556;26858916;10.1089/big.2015.0019;Mary Ann Liebert;Big data;2167-6461, 2167-647X;2479.41;TRUE
 Wellcome Trust;2016;PMC5028906;27679750;10.1089/wound.2015.0677;Mary Ann Liebert Inc;Advances in wound care;2162-1918, 2162-1934;2539.19;TRUE
 Wellcome Trust;2016;PMC4931742;26864743;10.1089/aid.2015.0274;Mary Ann Liebert Inc;AIDS research and human retroviruses;0889-2229, 1931-8405;2581.64;TRUE
 Wellcome Trust;2016;PMC4675176;26258548;10.1089/aid.2015.0138;Mary Ann Liebert Inc;AIDS research and human retroviruses;0889-2229, 1931-8405;2853.25;TRUE
@@ -1567,7 +1567,7 @@ Wellcome Trust;2016;PMC5226340;28060270;10.3791/54811;MyJove Corporation;Journal
 Wellcome Trust;2016;PMC4692775;26710086;10.3791/53534;MyJove Corporation;Journal of visualized experiments : JoVE;1940-087X;3679.65;TRUE
 Wellcome Trust;2016;PMC4993316;27404278;10.3791/54115;MyJove Corporation;Journal of visualized experiments : JoVE;1940-087X;3241.17;TRUE
 Wellcome Trust;2016;PMC5091880;27584862;10.3791/54342;MyJove Corporation;Journal of visualized experiments : JoVE;1940-087X;3500.91;TRUE
-Wellcome Trust;2016;unknown;unknown;Aheadofpublished;MyJove Corporation;Journal of visualized experiments : JoVE;unknown;4641.93;TRUE
+;;;;;;;;;
 Wellcome Trust;2016;unknown;unknown;10.4172/2469-9756.1000114;OMICS Publishing Group;Immunochemistry & Immunopathology;2469-9756;1260.77;TRUE
 Wellcome Trust;2016;;;10.4172/2157-7560.1000322;OMICS Publishing Group;Journal of Vaccines & Vaccination;2157-7560;1430.93;TRUE
 Wellcome Trust;2016;unknown;unknown;10.15761/ICST.1000182;Open Access Text Pvt, Ltd.;Integrative Cancer Science and Therapeutics;2056-4546;728.79;TRUE
@@ -1801,7 +1801,7 @@ Wellcome Trust;2016;unknown;27524817;10.1093/ije/dyw165;Oxford University Press 
 Wellcome Trust;2016;;26800751;10.1093/ije/dyv341;Oxford University Press (OUP);International journal of epidemiology;0300-5771, 1464-3685;2754.48;TRUE
 Wellcome Trust;2016;unknown;27154633;10.1093/ije/dyw056;Oxford University Press (OUP);International journal of epidemiology;0300-5771, 1464-3685;2754.48;TRUE
 Wellcome Trust;2016;unknown;27694570;10.1093/ije/dyw216;Oxford University Press (OUP);International journal of epidemiology;0300-5771, 1464-3685;2961.07;TRUE
-Wellcome Trust;2016;unknown;27864404;unknown;Oxford University Press (OUP);International journal of epidemiology;0300-5771, 1464-3685;2961.07;TRUE
+Wellcome Trust;2016;unknown;27864404;10.1093/ije/dyw281;Oxford University Press (OUP);International journal of epidemiology;0300-5771, 1464-3685;2961.07;TRUE
 Wellcome Trust;2016;unknown;unknown;10.1093/jac/dkw265;Oxford University Press (OUP);Journal of Antimicrobial Chemotherapy;0305-7453;2295.40;TRUE
 Wellcome Trust;2016;PMC4991666;26993041;10.1093/jmcb/mjw009;Oxford University Press (OUP);Journal of molecular cell biology;1674-2788, 1759-4685;2410.17;TRUE
 Wellcome Trust;2016;PMC5020142;27072719;10.1093/jpepsy/jsw025;Oxford University Press (OUP);Journal of pediatric psychology;0146-8693, 1465-735X;2926.64;TRUE
@@ -1810,7 +1810,7 @@ Wellcome Trust;2016;unknown;26911811;10.1093/jamia/ocv180;Oxford University Pres
 Wellcome Trust;2016;PMC4849803;26657335;10.1093/jnci/djv371;Oxford University Press (OUP);Journal of the National Cancer Institute;0027-8874, 1460-2105;2926.64;TRUE
 Wellcome Trust;2016;PMC4808632;26757732;10.1093/jnci/djv360;Oxford University Press (OUP);Journal of the National Cancer Institute;0027-8874, 1460-2105;2926.64;TRUE
 Wellcome Trust;2016;unknown;26407277;10.1093/jpids/piv045;Oxford University Press (OUP);Journal of the Pediatric Infectious Diseases Society;2048-7193, 2048-7207;3013.40;TRUE
-Wellcome Trust;2016;unknown;27940525;inpress;Oxford University Press (OUP);Medical law review;0967-0742, 1464-3790;2547.89;TRUE
+Wellcome Trust;2016;unknown;27940525;10.1093/medlaw/fww029;Oxford University Press (OUP);Medical law review;0967-0742, 1464-3790;2547.89;TRUE
 Wellcome Trust;2016;PMC4989106;27247329;10.1093/molbev/msw101;Oxford University Press (OUP);Molecular biology and evolution;0737-4038, 1537-1719;1997.00;TRUE
 Wellcome Trust;2016;PMC4948709;27189558;10.1093/molbev/msw083;Oxford University Press (OUP);Molecular biology and evolution;0737-4038, 1537-1719;1997.00;TRUE
 Wellcome Trust;2016;PMC4839220;26802217;10.1093/molbev/msw015;Oxford University Press (OUP);Molecular biology and evolution;0737-4038, 1537-1719;2104.88;TRUE
@@ -2218,7 +2218,7 @@ Wellcome Trust;2016;PMC4756314;26426572;10.1039/c5cp04753f;Royal Society of Chem
 Wellcome Trust;2016;PMC4841106;27148427;10.1039/C6PY00146G;Royal Society of Chemistry (RSC);Polymer chemistry;1759-9954, 1759-9962;1997.00;TRUE
 Wellcome Trust;2016;PMC4786947;27019702;10.1039/C5RA20359G;Royal Society of Chemistry (RSC);RSC advances;2046-2069;1762.87;TRUE
 Wellcome Trust;2016;PMC5171214;28066549;10.1039/c6ra19413c;Royal Society of Chemistry (RSC);RSC advances;2046-2069;1873.05;TRUE
-Wellcome Trust;2016;PMC5046960;27683002;unknown;Royal Society, The;Journal of the Royal Society, Interface;1742-5689, 1742-5662;2341.31;TRUE
+Wellcome Trust;2016;PMC5046960;27683002;10.1098/rsif.2016.0616;Royal Society, The;Journal of the Royal Society, Interface;1742-5689, 1742-5662;2341.31;TRUE
 Wellcome Trust;2016;PMC5022760;27237450;10.1159/000445982;S. Karger AG;Annals of nutrition & metabolism;0250-6807, 1421-9697;2438.98;TRUE
 Wellcome Trust;2016;PMC4774042;25227877;10.1159/000366040;S. Karger AG;Dementia and geriatric cognitive disorders;1420-8008, 1421-9824;2886.30;TRUE
 Wellcome Trust;2016;PMC4913762;27350781;10.1159/000444848;S. Karger AG;Dementia and geriatric cognitive disorders extra;1664-5464;1782.72;FALSE
@@ -2287,12 +2287,12 @@ Wellcome Trust;2016;PMC4867026;27200413;10.1523/eneuro.0026-16.2016;Society for 
 Wellcome Trust;2016;PMC4967817;27517086;10.1523/eneuro.0158-16.2016;Society for Neuroscience;eNeuro;2373-2822;3061.83;TRUE
 Wellcome Trust;2016;PMC4571603;26377458;10.1523/jneurosci.3651-14.2015;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2103.45;TRUE
 Wellcome Trust;2016;PMC4837683;27098693;10.1523/jneurosci.4341-14.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2869.25;TRUE
-Wellcome Trust;2016;PMC5125225;27852774;unknown;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2624.19;TRUE
+Wellcome Trust;2016;PMC5125225;27852774;10.1523/JNEUROSCI.4527-15.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2624.19;TRUE
 Wellcome Trust;2016;PMC4951571;27445139;10.1523/jneurosci.0872-16.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;3094.74;TRUE
 Wellcome Trust;2016;PMC5148237;27807161;10.1523/jneurosci.3714-15.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;1299.13;TRUE
 Wellcome Trust;2016;PMC4846668;27122026;10.1523/jneurosci.4075-15.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2823.27;TRUE
 Wellcome Trust;2016;PMC4987433;27535905;10.1523/jneurosci.1059-16.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;5091.37;TRUE
-Wellcome Trust;2016;PMC5125222;27852770;unknown;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2623.79;TRUE
+Wellcome Trust;2016;PMC5125222;27852770;10.1523/JNEUROSCI.0516-16.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2623.79;TRUE
 Wellcome Trust;2016;PMC4812132;27030758;10.1523/jneurosci.2511-15.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2854.66;TRUE
 Wellcome Trust;2016;PMC4682776;26658858;10.1523/jneurosci.2931-15.2015;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2150.23;TRUE
 Wellcome Trust;2016;PMC4728720;26818501;10.1523/jneurosci.1742-15.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2148.33;TRUE
@@ -2320,7 +2320,7 @@ Wellcome Trust;2016;PMC4812133;27030759;10.1523/jneurosci.3836-15.2016;Society f
 Wellcome Trust;2016;PMC4987431;27535903;10.1523/jneurosci.4263-15.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;3221.97;TRUE
 Wellcome Trust;2016;PMC4478247;26109651;10.1523/jneurosci.5095-14.2015;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;3687.47;TRUE
 Wellcome Trust;2016;PMC4854963;27147648;10.1523/jneurosci.2933-15.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;4776.07;TRUE
-Wellcome Trust;2016;PMC5059426;27733604;unknown;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2551.60;TRUE
+Wellcome Trust;2016;PMC5059426;27733604;10.1523/JNEUROSCI.1659-16.2016;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2551.60;TRUE
 Wellcome Trust;2016;PMC4355196;25762667;10.1523/jneurosci.4075-14.2015;Society for Neuroscience;The Journal of neuroscience : the official journal of the Society for Neuroscience;0270-6474, 1529-2401;2202.39;TRUE
 Wellcome Trust;2016;;;10.3892/br.2016.577;Spandidos Publications;Biomedical Reports;2049-9434;883.73;TRUE
 Wellcome Trust;2016;PMC5106492;27544758;10.1007/s00401-016-1609-2;Springer Nature;Acta neuropathologica;0001-6322, 1432-0533;0.00;TRUE
@@ -2620,7 +2620,7 @@ Wellcome Trust;2016;PMC4779559;26945997;10.1186/s12936-016-1187-8;Springer Natur
 Wellcome Trust;2016;PMC4935748;27114382;10.1007/s00335-016-9631-1;Springer Nature;Mammalian genome : official journal of the International Mammalian Genome Society;0938-8990, 1432-1777;2195.55;TRUE
 Wellcome Trust;2016;PMC4653235;26369329;10.1007/s00335-015-9602-y;Springer Nature;Mammalian genome : official journal of the International Mammalian Genome Society;0938-8990, 1432-1777;2255.55;TRUE
 Wellcome Trust;2016;;;10.1007/s11306-016-1055-0;Springer Nature;Metabolomics;1573-3882;2195.55;TRUE
-Wellcome Trust;2016;PMC5065092;26585125;10.1007/978-1-4939-3127-9_4;Springer Nature;Methods in molecular biology (Clifton, N.J.);1064-3745, 1940-6029;2315.77;TRUE
+;;;;;;;;;
 Wellcome Trust;2016;PMC5010613;27642371;10.1007/s12671-016-0543-7;Springer Nature;Mindfulness;1868-8527, 1868-8535;2315.77;TRUE
 Wellcome Trust;2016;PMC4832494;27080240;10.1186/s13041-016-0219-1;Springer Nature;Molecular brain;1756-6606;1549.74;FALSE
 Wellcome Trust;2016;PMC4672529;26643252;10.1186/s12943-015-0475-1;Springer Nature;Molecular cancer;1476-4598;1955.68;FALSE
@@ -2912,7 +2912,7 @@ Wellcome Trust;2016;PMC4971490;27484308;10.1038/srep31114;Springer Nature;Scient
 Wellcome Trust;2016;PMC5007485;27582020;10.1038/srep31879;Springer Nature;Scientific reports;2045-2322;1363.47;FALSE
 Wellcome Trust;2016;PMC5021995;27625311;10.1038/srep33041;Springer Nature;Scientific reports;2045-2322;1363.47;FALSE
 Wellcome Trust;2016;PMC4735681;26830761;10.1038/srep19766;Springer Nature;Scientific reports;2045-2322;2014.21;FALSE
-Wellcome Trust;2016;unknown;27994224;unknown;Springer Nature;Scientific reports;null, 2045-2322;1363.47;FALSE
+Wellcome Trust;2016;unknown;27994224;10.1038/s41598-016-0012-5;Springer Nature;Scientific reports;null, 2045-2322;1363.47;FALSE
 Wellcome Trust;2016;unknown;unknown;10.1007/s11205-016-1356-8;Springer Nature;Social Indicators Research;0303-8300;1592.35;TRUE
 Wellcome Trust;2016;;;10.1007/s40279-016-0606-x;Springer Nature;Sports Medicine;0112-1642;2195.55;TRUE
 Wellcome Trust;2016;PMC4816933;27047716;10.1186/s40064-016-2030-y;Springer Nature;SpringerPlus;2193-1801;813.60;FALSE
@@ -2958,7 +2958,7 @@ Wellcome Trust;2016;PMC4950108;27430267;10.1186/s13063-016-1449-3;Springer Natur
 Wellcome Trust;2016;PMC4776410;26936776;10.1186/s13063-016-1230-7;Springer Nature;Trials;1745-6215;1955.68;FALSE
 Wellcome Trust;2016;PMC4907276;27296091;10.1186/s13063-016-1354-9;Springer Nature;Trials;1745-6215;1955.68;FALSE
 Wellcome Trust;2016;PMC3495012;23114081;10.1186/1745-6215-13-203;Springer Nature;Trials;1745-6215;3013.40;FALSE
-Wellcome Trust;2016;PMC4670458;26474776;10.?1007/?s00125-015-3783-5;Springer Verlag;Diabetologia;0012-186X, 1432-0428;2167.18;TRUE
+Wellcome Trust;2016;PMC4670458;26474776;10.1007/s00125-015-3783-5;Springer Verlag;Diabetologia;0012-186X, 1432-0428;2167.18;TRUE
 Wellcome Trust;2016;PMC5029547;27660700;10.5127/jep.047315;Textrum, Ltd.;Journal of experimental psychopathology;2043-8087;1147.70;TRUE
 Wellcome Trust;2016;PMC4654228;26500347;10.4049/jimmunol.1500707;The American Association of Immunologists;Journal of immunology (Baltimore, Md. : 1950);0022-1767, 1550-6606;2279.73;TRUE
 Wellcome Trust;2016;PMC4760235;26829983;10.4049/jimmunol.1502462;The American Association of Immunologists;Journal of immunology (Baltimore, Md. : 1950);0022-1767, 1550-6606;2917.90;TRUE
@@ -3085,38 +3085,38 @@ Wellcome Trust;2016;PMC4936038;27335421;10.1098/rspb.2016.0778;The Royal Society
 Wellcome Trust;2016;PMC4920313;unknown;10.1098/rspb.2016.0328;The Royal Society;Proceedings. Biological sciences;0962-8452, 1471-2954;1755.98;TRUE
 Wellcome Trust;2016;PMC4971211;27466452;10.1098/rspb.2016.1024;The Royal Society;Proceedings. Biological sciences;0962-8452, 1471-2954;1755.98;TRUE
 Wellcome Trust;2016;PMC4633872;26468244;10.1098/rspb.2015.1568;The Royal Society;Proceedings. Biological sciences;0962-8452, 1471-2954;1755.98;TRUE
-Wellcome Trust;2016;PMC5073870;27769191;unknown;unknown;BMC pregnancy and childbirth;null, 1471-2393;1603.80;TRUE
+Wellcome Trust;2016;PMC5073870;27769191;10.1186/s12884-016-1102-x;unknown;BMC pregnancy and childbirth;null, 1471-2393;1603.80;TRUE
 Wellcome Trust;2016;PMC4788482;26989780;10.1126/sciadv.1501257;unknown;Science advances;null, 2375-2548;1066.55;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;0.00;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;688.62;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;717.31;TRUE
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
 Wellcome Trust;2016;unknown;unknown;10.4172/jcs.1000103;unknown;unknown;unknown;850.54;TRUE
 Wellcome Trust;2016;unknown;unknown;10.1093/jsh/shw01;unknown;unknown;unknown;1377.24;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;1652.69;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;1710.54;TRUE
+;;;;;;;;;
+;;;;;;;;;
 Wellcome Trust;2016;unknown;unknown;10.1111/bjhp.12210;unknown;unknown;unknown;1721.55;TRUE
-Wellcome Trust;2016;unknown;unknown;Checking;unknown;unknown;unknown;2008.48;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;2123.25;TRUE
-Wellcome Trust;2016;unknown;unknown;10.1136/archdischild-2015-308570.R2;unknown;unknown;unknown;2282.78;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;2341.31;TRUE
-Wellcome Trust;2016;unknown;unknown;NOTYETPUBLISHED;unknown;unknown;unknown;2458.37;TRUE
-Wellcome Trust;2016;unknown;unknown;10.1017;unknown;unknown;unknown;2459.52;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;2547.89;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;2547.89;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;2601.97;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;2654.68;TRUE
-Wellcome Trust;2016;;unknown;10.1093/europace/euw136e;unknown;unknown;unknown;2754.48;TRUE
-Wellcome Trust;2016;unknown;unknown;NOTYETPUBLISHED;unknown;unknown;unknown;3152.30;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;3225.15;TRUE
-Wellcome Trust;2016;unknown;unknown;Aheadofpublished;unknown;unknown;unknown;3362.80;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;3363.94;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;3535.50;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;4338.31;TRUE
-Wellcome Trust;2016;unknown;unknown;unknown;unknown;unknown;unknown;0.00;TRUE
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+Wellcome Trust;2016;;unknown;10.1093/europace/euw136;unknown;unknown;unknown;2754.48;TRUE
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
 Wellcome Trust;2016;;;10.1515/jci-2015-0024;Walter de Gruyter GmbH;Journal of Causal Inference;2193-3677;1035.36;TRUE
 Wellcome Trust;2016;PMC4910869;26689146;10.5301/ijao.5000452;Wichtig Publishing, SRL;The International journal of artificial organs;0391-3988, 1724-6040;1861.98;TRUE
 Wellcome Trust;2016;unknown;27469020;10.1002/mpr.1520;Wiley;International journal of methods in psychiatric research;1049-8931, 1557-0657;1721.55;TRUE
-Wellcome Trust;2016;unknown;27723265;unknown;Wiley;Maternal & child nutrition;1740-8695, 1740-8709;2065.86;TRUE
+Wellcome Trust;2016;unknown;27723265;10.1111/mcn.12353;Wiley;Maternal & child nutrition;1740-8695, 1740-8709;2065.86;TRUE
 Wellcome Trust;2016;PMC5157719;27231140;10.1111/ane.12611;Wiley-Blackwell;Acta neurologica Scandinavica;0001-6314, 1600-0404;1721.55;TRUE
 Wellcome Trust;2016;PMC5215486;26804547;10.1111/apha.12656;Wiley-Blackwell;Acta physiologica (Oxford, England);1748-1708, 1748-1716;2231.55;TRUE
 Wellcome Trust;2016;PMC5244682;27452960;10.1111/add.13474;Wiley-Blackwell;Addiction (Abingdon, England);0965-2140, 1360-0443;3016.55;TRUE
@@ -3176,7 +3176,7 @@ Wellcome Trust;2016;PMC5053292;26881696;10.1002/acr.22867;Wiley-Blackwell;Arthri
 Wellcome Trust;2016;PMC5042182;27040737;10.1002/acr.22832;Wiley-Blackwell;Arthritis care & research;2151-464X, 2151-4658;2295.40;TRUE
 Wellcome Trust;2016;PMC5025729;26713415;10.1002/acr.22823;Wiley-Blackwell;Arthritis care & research;2151-464X, 2151-4658;2754.48;TRUE
 Wellcome Trust;2016;PMC5091627;26990778;10.1002/acr.22882;Wiley-Blackwell;Arthritis care & research;2151-464X, 2151-4658;2957.29;TRUE
-Wellcome Trust;2016;unknown;unknown;10.1002/acr.22833Â ;Wiley-Blackwell;Arthritis Care & Research;2151-464X;2754.48;TRUE
+Wellcome Trust;2016;unknown;unknown;10.1002/acr.22833;Wiley-Blackwell;Arthritis Care & Research;2151-464X;2754.48;TRUE
 Wellcome Trust;2016;unknown;27428176;10.1002/acr.22993;Wiley-Blackwell;Arthritis care & research;2151-464X, 2151-4658;1721.55;TRUE
 Wellcome Trust;2016;PMC4979668;26037488;10.1111/appy.12190;Wiley-Blackwell;Asia-Pacific psychiatry : official journal of the Pacific Rim College of Psychiatrists;1758-5864, 1758-5872;2384.91;TRUE
 Wellcome Trust;2016;PMC5031219;26692550;10.1002/aur.1587;Wiley-Blackwell;Autism research : official journal of the International Society for Autism Research;1939-3792, 1939-3806;1721.55;TRUE
@@ -3484,7 +3484,7 @@ Wellcome Trust;2016;unknown;27273472;10.1111/bjd.14791;Wiley-Blackwell;The Briti
 Wellcome Trust;2016;unknown;27534273;10.1111/bjd.14973;Wiley-Blackwell;The British journal of dermatology;0007-0963, 1365-2133;2151.94;TRUE
 Wellcome Trust;2016;PMC5324688;27479915;10.1111/bjd.14914;Wiley-Blackwell;The British journal of dermatology;0007-0963, 1365-2133;2151.94;TRUE
 Wellcome Trust;2016;PMC4973675;27321766;10.1002/bjs.10203;Wiley-Blackwell;The British journal of surgery;0007-1323, 1365-2168;2065.86;TRUE
-Wellcome Trust;2016;PMC4661324;26568232;10.1002/14651858.cd004008.pub3;Wiley-Blackwell;The Cochrane database of systematic reviews;null, 1469-493X;4015.18;TRUE
+;;;;;;;;;
 Wellcome Trust;2016;PMC4855639;26855336;10.1111/ejn.13208;Wiley-Blackwell;The European journal of neuroscience;0953-816X, 1460-9568;0.00;TRUE
 Wellcome Trust;2016;PMC4915493;27003546;10.1111/ejn.13242;Wiley-Blackwell;The European journal of neuroscience;0953-816X, 1460-9568;1721.55;TRUE
 Wellcome Trust;2016;PMC4855951;26791018;10.1111/ejn.13183;Wiley-Blackwell;The European journal of neuroscience;0953-816X, 1460-9568;1721.55;TRUE
