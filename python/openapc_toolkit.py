@@ -1003,7 +1003,18 @@ def get_unified_journal_title(journal_full_title):
         "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology",
         "Tellus B: Chemical and Physical Meteorology": "Tellus B",
         "Natural Hazards and Earth System Science": "Natural Hazards and Earth System Sciences",
-        "interactive Journal of Medical Research": "Interactive Journal of Medical Research"
+        "interactive Journal of Medical Research": "Interactive Journal of Medical Research",
+        "EP Europace": "Europace",
+        "Prostate Cancer and Prostatic Disease": "Prostate Cancer and Prostatic Diseases",
+        "CARTILAGE": "Cartilage",
+        "Annals of Clinical Biochemistry": "Annals of Clinical Biochemistry: An international journal of biochemistry and laboratory medicine",
+        "JNCI: Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
+        "European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
+        "Transplantation": "Transplantation Journal",
+        "SHOCK": "Shock",
+        "Endocrine-Related Cancer": "Endocrine Related Cancer",
+        "The American Journal of Tropical Medicine and Hygiene": "American Journal of Tropical Medicine and Hygiene",
+        "American Journal of Physiology - Endocrinology And Metabolism": "AJP: Endocrinology and Metabolism"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
