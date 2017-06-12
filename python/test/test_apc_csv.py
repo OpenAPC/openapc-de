@@ -10,7 +10,8 @@ PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Wiley-Blackwell"], ["EMBO"]),
     (["Pion Ltd"], ["SAGE Publications"]),
-    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"])
+    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
+    (["Informa Healthcare"], ["Informa UK Limited"]) # Usage very inconsistent in crossref data
 ]
 
 
@@ -28,18 +29,15 @@ JOURNAL_OWNER_CHANGED = {
     "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"], # Evolutionary Bioinformatics
     "1574-7891": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology
     "0020-7292": ["Wiley-Blackwell", "Elsevier BV"], # "International Journal of Gynecology & Obstetrics"
-    "1350-6129": ["Informa Healthcare", "Informa UK Limited"], # Amyloid (print)
-    "1744-2818": ["Informa Healthcare", "Informa UK Limited"], # Amyloid
     "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Molecular Therapy
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
     "2000-8066": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
     "1600-0889": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B
     "1654-6628": ["Co-Action Publishing", "Informa UK Limited"], # Food & Nutrition Research (print)
     "1654-661X": ["Co-Action Publishing", "Informa UK Limited"], # Food & Nutrition Research (electronic)
-    "0963-8237": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health
-    "1360-0567": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health (electronic)
     "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
-    "2162-2531": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"] # "Molecular Therapy-Nucleic Acids"
+    "2162-2531": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # "Molecular Therapy-Nucleic Acids"
+    "0009-9236": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
