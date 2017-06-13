@@ -23,6 +23,9 @@ except ImportError:
 
 # regex for detecing DOIs
 DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
+# regex for detecting shortDOIs
+SHORTDOI_RE = re.compile("^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", re.IGNORECASE)
+
 ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 # These classes were adopted from
@@ -231,13 +234,42 @@ class BufferedErrorHandler(MemoryHandler):
 
     def shouldFlush(self, record):
         return False
+        
+class NoRedirection(urllib2.HTTPErrorProcessor):
+    """
+    A dummy processor to suppress HTTP redirection.
+    
+    This handler serves the simple purpose of stopping redirection for
+    easy extraction of shortDOI redirect targets.
+    """
+    def http_response(self, request, response):
+        return response
+
+    https_response = http_response
 
 def get_normalised_DOI(doi_string):
-    doi_match = DOI_RE.match(doi_string.strip())
-    if not doi_match:
-        return None
-    doi = doi_match.groupdict()["doi"]
-    return doi.lower()
+    doi_string = doi_string.strip()
+    doi_match = DOI_RE.match(doi_string)
+    if doi_match:
+        doi = doi_match.groupdict()["doi"]
+        return doi.lower()
+    shortdoi_match = SHORTDOI_RE.match(doi_string)
+    if shortdoi_match:
+        # Extract redirect URL to obtain original DOI
+        shortdoi = shortdoi_match.groupdict()["shortdoi"]
+        url = "https://doi.org/" + shortdoi
+        opener = urllib2.build_opener(NoRedirection)
+        try:
+            res = opener.open(url)
+            if res.code == 301:
+                doi_match = DOI_RE.match(res.headers["Location"])
+                if doi_match:
+                    doi = doi_match.groupdict()["doi"]
+                    return doi.lower()
+            return None
+        except (urllib2.HTTPError, urllib2.URLError):
+            return None
+    return None
 
 def is_wellformed_ISSN(issn_string):
     issn_match = ISSN_RE.match(issn_string)
@@ -737,6 +769,7 @@ def process_row(row, row_num, column_map, num_required_columns,
             current_row["doi"] = norm_doi
             msg = MESSAGES["doi_norm"].format(doi, norm_doi)
             logging.warning(msg)
+            doi = norm_doi
         # include crossref metadata
         if not no_crossref_lookup:
             crossref_result = get_metadata_from_crossref(doi)
