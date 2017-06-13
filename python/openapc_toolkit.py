@@ -1016,7 +1016,8 @@ def get_unified_journal_title(journal_full_title):
         "Endocrine-Related Cancer": "Endocrine Related Cancer",
         "The American Journal of Tropical Medicine and Hygiene": "American Journal of Tropical Medicine and Hygiene",
         "American Journal of Physiology - Endocrinology And Metabolism": "AJP: Endocrinology and Metabolism",
-        "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation"
+        "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
+        "eneuro": "eNeuro"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
