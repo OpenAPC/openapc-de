@@ -240,13 +240,13 @@ def get_normalised_DOI(doi_string):
     return doi.lower()
 
 def is_wellformed_ISSN(issn_string):
-    issn_match = ISSN_RE.match(issn_string.strip())
+    issn_match = ISSN_RE.match(issn_string)
     if issn_match is not None:
         return True
     return False
 
 def is_valid_ISSN(issn_string):
-    issn_match = ISSN_RE.match(issn_string.strip())
+    issn_match = ISSN_RE.match(issn_string)
     match_dict = issn_match.groupdict()
     check_digit = match_dict["check_digit"]
     if check_digit in ["X", "x"]:
@@ -740,6 +740,11 @@ def process_row(row, row_num, column_map, num_required_columns,
         # include crossref metadata
         if not no_crossref_lookup:
             crossref_result = get_metadata_from_crossref(doi)
+            while not crossref_result["success"] and crossref_result["error_msg"].startswith("HTTPError: 504"):
+                # retry on gateway timeouts, crossref API is quite busy sometimes
+                msg = "%s, retrying..."
+                logging.warning(msg, crossref_result["error_msg"])
+                crossref_result = get_metadata_from_crossref(doi)
             if crossref_result["success"]:
                 logging.info("Crossref: DOI resolved: " + doi)
                 current_row["indexed_in_crossref"] = "TRUE"
@@ -888,12 +893,12 @@ def get_column_type_from_whitelist(column_name):
         "period": ["period", "jahr"],
         "is_hybrid": ["is_hybrid", "is hybrid"],
         "publisher": ["publisher"],
-        "journal_full_title": ["journal_full_title", "journal", "journal title"],
-        "issn": ["issn"],
+        "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title"],
+        "issn": ["issn", "issn.1"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
         "issn_l": ["issn_l"],
-        "license_ref": ["licence", "license_ref"],
+        "license_ref": ["licence", "license", "license_ref"],
         "indexed_in_crossref": ["indexed_in_crossref"],
         "pmid": ["pmid", "pubmed id"],
         "pmcid": ["pmcid", "pubmed central (pmc) id"],
@@ -996,7 +1001,23 @@ def get_unified_journal_title(journal_full_title):
         "PLANT PHYSIOLOGY": "Plant Physiology",
         "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control": "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control",
         "Cellular and Molecular Gastroenterology and Hepatology": "CMGH Cellular and Molecular Gastroenterology and Hepatology",
-        "Tellus B: Chemical and Physical Meteorology""Tellus B: Chemical and Physical Meteorology": "Tellus B"
+        "Tellus B: Chemical and Physical Meteorology": "Tellus B",
+        "Natural Hazards and Earth System Science": "Natural Hazards and Earth System Sciences",
+        "interactive Journal of Medical Research": "Interactive Journal of Medical Research",
+        "EP Europace": "Europace",
+        "Prostate Cancer and Prostatic Disease": "Prostate Cancer and Prostatic Diseases",
+        "CARTILAGE": "Cartilage",
+        "Annals of Clinical Biochemistry": "Annals of Clinical Biochemistry: An international journal of biochemistry and laboratory medicine",
+        "JNCI: Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
+        "Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
+        "European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
+        "Transplantation": "Transplantation Journal",
+        "SHOCK": "Shock",
+        "Endocrine-Related Cancer": "Endocrine Related Cancer",
+        "The American Journal of Tropical Medicine and Hygiene": "American Journal of Tropical Medicine and Hygiene",
+        "American Journal of Physiology - Endocrinology And Metabolism": "AJP: Endocrinology and Metabolism",
+        "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
+        "eneuro": "eNeuro"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
