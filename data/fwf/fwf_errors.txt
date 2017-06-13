@@ -41,4 +41,13 @@ Line 159 (DOI 10.2174/97816810807411150101): Not a journal (book chapter)
 
 Line 1091: Crossref: Error while trying to resolve DOI 10.1111/ecoj.12339: HTTPError: 404 - Not Found
 
+fwf_2016.csv:
+7 lines could not be enriched and were excluded from the resulting file: 
 
+ERROR: Line 151: Crossref: Error while trying to resolve DOI 10.7551/978-0-262-32621-6-ch091: Unsupported DOI type 'conference_paper' (OpenAPC only supports journal articles)
+ERROR: Line 179: Crossref: Error while trying to resolve DOI http://phaidra.univie.ac.at/o:440097: Parse Error: 'http://phaidra.univie.ac.at/o:440097' is no valid DOI (publication without ISSN)
+ERROR: Line 357: Crossref: Error while trying to resolve DOI 10.1145/2854065.2854069: Unsupported DOI type 'conference_paper' (OpenAPC only supports journal articles)
+ERROR: Line 668: Crossref: Error while trying to resolve DOI 10.14220/9783737004510: Unsupported DOI type 'book_title' (OpenAPC only supports journal articles)
+ERROR: Line 718: Crossref: Error while trying to resolve DOI http://phaidra.univie.ac.at/o:440094: Parse Error: 'http://phaidra.univie.ac.at/o:440094' is no valid DOI (publication without ISSN)
+ERROR: Line 774: Crossref: Error while trying to resolve DOI 10.14220/9783737005494: Unsupported DOI type 'book_title' (OpenAPC only supports journal articles)
+ERROR: Line 786: Crossref: Error while trying to resolve DOI 10.1145/2854065.2854070: Unsupported DOI type 'conference_paper' (OpenAPC only supports journal articles)
