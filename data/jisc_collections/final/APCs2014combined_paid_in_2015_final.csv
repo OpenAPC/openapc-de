@@ -1,4 +1,4 @@
-"institution",period,euro,"doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Newcastle University",2015,3735.61,"10.1212/WNL.0000000000000066",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Neurology","0028-3878","0028-3878","1526-632X","0028-3878","CC BY",TRUE,"24363137","PMC3929202","ut:000335989500010",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Newcastle University",2015,1079.03,"10.1073/pnas.1412817112",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","http://www.pnas.org/site/misc/userlicense.xhtml",TRUE,"25535356","PMC4291635","ut:000347447100065",NA,FALSE
@@ -35,7 +35,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,2117.11,"10.1002/stem.1910",TRUE,"Wiley-Blackwell","STEM CELLS","10665099",NA,NA,"1066-5099","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25447755","PMC4583782","ut:000349849000031",NA,FALSE
 "University of Cambridge",2015,2580.11,"10.1016/j.jneb.2014.11.001",TRUE,"Elsevier BV","Journal of Nutrition Education and Behavior","14994046","14994046",NA,"1499-4046","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25528079","PMC4315137","ut:000346564400010",NA,FALSE
 "University of Cambridge",2015,2841.16,"10.1007/s10659-014-9506-1",TRUE,"Springer Nature","Journal of Elasticity","0374-3535","0374-3535","1573-2681","0374-3535","CC BY",TRUE,NA,NA,"ut:000354209100005",NA,FALSE
-"University of Cambridge",2015,2294.44,"10.1016/j.epsl.2014.11.034",TRUE,"Elsevier BV","Earth and Planetary Science Letters","0012821X","0012821X",NA,"0012-821X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000349197500015",NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,2851.84,"10.1007/s00439-014-1515-4",TRUE,"Springer Nature","Human Genetics","0340-6717","0340-6717","1432-1203","0340-6717","CC BY",TRUE,"25487306","PMC4291520","ut:000348149500010",NA,FALSE
 "University of Cambridge",2015,3240.73,"10.1016/j.mri.2014.10.010",TRUE,"Elsevier BV","Magnetic Resonance Imaging","0730725X","0730725X",NA,"0730-725X","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25460333","PMC4728188","ut:000349738900008",NA,FALSE
 "University of Cambridge",2015,2460.62,"10.1099/vir.0.069591-0",TRUE,"Microbiology Society","Journal of General Virology","0022-1317","0022-1317","1465-2099","0022-1317","CC BY",TRUE,"25351724","PMC4298679","ut:000355784700017",NA,FALSE

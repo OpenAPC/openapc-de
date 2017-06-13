@@ -19,7 +19,25 @@ JOURNAL_OWNER_CHANGED = {
     "1744-8069": ["SAGE Publications", "Springer Science + Business Media"],
     "1990-2573": ["European Optical Society", "Springer Nature"],
     "1755-7682": ["Springer Science + Business Media", "International Medical Publisher (Fundacion de Neurociencias)"], # International Archives of Medicine
-    "2000-8198": ["Co-Action Publishing", "Informa UK Limited"] # European Journal of Psychotraumatology
+    "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
+    "0024-4066": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society
+    "0024-4074": ["Wiley-Blackwell", "Oxford University Press (OUP)"], #  Botanical Journal of the Linnean Society
+    "1087-2981": ["Co-Action Publishing", "Informa UK Limited"], # Medical Education Online
+    "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action (print)
+    "1654-9880": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
+    "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"], # Evolutionary Bioinformatics
+    "1574-7891": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology
+    "0020-7292": ["Wiley-Blackwell", "Elsevier BV"], # "International Journal of Gynecology & Obstetrics"
+    "1350-6129": ["Informa Healthcare", "Informa UK Limited"], # Amyloid (print)
+    "1744-2818": ["Informa Healthcare", "Informa UK Limited"], # Amyloid
+    "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Molecular Therapy
+    "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
+    "2000-8066": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
+    "1600-0889": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B
+    "0963-8237": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health
+    "1360-0567": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health (electronic)
+    "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
+    "2162-2531": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"] # "Molecular Therapy-Nucleic Acids"
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -45,10 +63,11 @@ class RowObject(object):
     """
     A minimal container class to store contextual information along with csv rows.
     """
-    def __init__(self, file_name, line_number, row):
+    def __init__(self, file_name, line_number, row, test_apc=True):
         self.file_name = file_name
         self.line_number = line_number
         self.row = row
+        self.test_apc = test_apc
 
 doi_duplicate_list = []
 apc_data = []
@@ -61,7 +80,10 @@ for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
     reader = oat.UnicodeDictReader(csv_file)
     line = 2
     for row in reader:
-        apc_data.append(RowObject(file_name, line, row))
+        test_apc = True
+        if file_name == "data/offsetting/offsetting.csv":
+            test_apc = False
+        apc_data.append(RowObject(file_name, line, row, test_apc))
         doi_duplicate_list.append(row["doi"])
         issn = row["issn"]
         if oat.has_value(issn):
@@ -139,6 +161,15 @@ def check_field_content(row_object):
             pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
                                    'is not correct. It should be the simple DOI name, not ' +
                                    'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
+    if row_object.test_apc:
+        try:
+            euro = float(row['euro'])
+            if euro <= 0:
+                pytest.fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
+        except ValueError:
+            pytest.fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
+
+
 
 def check_issns(row_object):
     __tracebackhide__ = True
@@ -163,7 +194,7 @@ def check_for_doi_duplicates(row_object):
                                               row_object.line_number)
             pytest.fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
                         'encountered more than one time')
-                        
+
 def check_hybrid_status(row_object):
     __tracebackhide__ = True
     doaj = row_object.row["doaj"]
@@ -209,8 +240,8 @@ def check_name_consistency(row_object):
         for other_row in same_issn_p_rows:
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
-            other_hybrid = other_row["is_hybrid"]    
-            if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn_p, publ, other_publ):
                 ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
                 pytest.fail(ret)
             if not other_journal == journal:
@@ -224,8 +255,8 @@ def check_name_consistency(row_object):
         for other_row in same_issn_e_rows:
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
-            other_hybrid = other_row["is_hybrid"]  
-            if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn_e, publ, other_publ):
                 ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
                 pytest.fail(ret)
             if not other_journal == journal:
