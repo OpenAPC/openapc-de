@@ -2183,7 +2183,7 @@
 "Queen Mary, University of London",2015,2067.75,"10.1111/boj.12357",TRUE,"Oxford University Press (OUP)","Botanical Journal of the Linnean Society","0024-4074",NA,NA,"0024-4074","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000368802200001",NA,FALSE
 "Queen Mary, University of London",2015,2067.75,"10.1111/gwao.12082",TRUE,"Wiley-Blackwell","Gender, Work & Organization","0968-6673",NA,NA,"0968-6673","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000374345700002",NA,FALSE
 "Queen Mary, University of London",2015,2646.72,"10.1111/mmi.12940",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950-382X",NA,NA,"0950-382X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25601560","PMC4949578","ut:000353895800002",NA,FALSE
-"Queen Mary, University of London",2015,827.1,"10.1112/tlms/tlv001",TRUE,"Oxford University Press (OUP)","Transactions of the London Mathematical Society","2052-4986",NA,NA,"2052-4986","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"Queen Mary, University of London",2015,827.1,"10.1112/tlms/tlv001",FALSE,"Oxford University Press (OUP)","Transactions of the London Mathematical Society","2052-4986",NA,NA,"2052-4986","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "Queen Mary, University of London",2015,4743.16,"10.1161/atvbaha.115.306219",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Arteriosclerosis, Thrombosis, and Vascular Biology","1079-5642","1079-5642","1524-4636","1079-5642","CC BY",TRUE,"26272940","PMC4587545","ut:000361610700009",NA,FALSE
@@ -8071,7 +8071,7 @@
 "University of Warwick",2015,2067.75,"10.1111/tops.12175",TRUE,"Wiley-Blackwell","Topics in Cognitive Science","1756-8757",NA,NA,"1756-8757","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26612490","PMC4991276","ut:000369342200006",NA,FALSE
 "University of Warwick",2015,3962.46,"10.1111/tpj.12735",TRUE,"Wiley-Blackwell","The Plant Journal","0960-7412",NA,NA,"0960-7412","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25439058","PMC4671266","ut:000348502500005",NA,FALSE
 "University of Warwick",2015,2894.85,"10.1111/tpj.13050",TRUE,"Wiley-Blackwell","The Plant Journal","0960-7412",NA,NA,"0960-7412","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26466558","PMC4982060","ut:000368267900008",NA,FALSE
-"University of Warwick",2015,827.1,"10.1112/tlms/tlv003",TRUE,"Oxford University Press (OUP)","Transactions of the London Mathematical Society","2052-4986",NA,NA,"2052-4986","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"University of Warwick",2015,827.1,"10.1112/tlms/tlv003",FALSE,"Oxford University Press (OUP)","Transactions of the London Mathematical Society","2052-4986",NA,NA,"2052-4986","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","",""
 "University of York",2015,4340.47,"10.1021/acs.est.5b01620",TRUE,"American Chemical Society (ACS)","Environmental Science & Technology","0013-936X","0013-936X","1520-5851","0013-936X","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"26207531",NA,"ut:000359891700031",NA,FALSE
