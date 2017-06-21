@@ -1050,7 +1050,8 @@ def get_unified_journal_title(journal_full_title):
         "The American Journal of Tropical Medicine and Hygiene": "American Journal of Tropical Medicine and Hygiene",
         "American Journal of Physiology - Endocrinology And Metabolism": "AJP: Endocrinology and Metabolism",
         "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
-        "eneuro": "eNeuro"
+        "eneuro": "eNeuro",
+        "Journal of Agricultural, Biological, and Environmental Statistics": "Journal of Agricultural, Biological and Environmental Statistics"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
