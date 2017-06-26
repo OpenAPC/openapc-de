@@ -11,7 +11,8 @@ PUBLISHER_IDENTITY = [
     (["Wiley-Blackwell"], ["EMBO"]),
     (["Pion Ltd"], ["SAGE Publications"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
-    (["Informa Healthcare"], ["Informa UK Limited"]) # Usage very inconsistent in crossref data
+    (["Informa Healthcare"], ["Informa UK Limited"]), # Usage very inconsistent in crossref data
+    (["GeoScienceWorld"], ["Mineralogical Society of America"])
 ]
 
 
@@ -56,7 +57,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0001-4966", # The Journal of the Acoustical Society of America, archives hybrid and non-hybrid sub-journals
     "0887-0446", # Psychology & Health, status unclear -> Possible mistake in Konstanz U data
     "0066-4804", # Antimicrobial Agents and Chemotherapy -> delayed OA journal. Borderline case, needs further discussion
-    "0022-1430" # Journal of Glaciology, Gold OA since 2016
+    "0022-1430", # Journal of Glaciology, Gold OA since 2016
+    "1467-7644" # Plant Biotechnology Journal, Gold OA since 2016
 ]
 
 class RowObject(object):
