@@ -1,0 +1,692 @@
+DOI,Institution,period,is_hybrid
+10.1007/s00009-017-0841-x,Queen's University of Belfast,2017,TRUE
+10.1007/s00015-017-0266-3,University of Liverpool,2017,TRUE
+10.1007/s00038-017-0965-6,University of St Andrews,2017,TRUE
+10.1007/s00039-017-0404-0,University of Cambridge,2017,TRUE
+10.1007/s00039-017-0408-9,University College London,2017,TRUE
+10.1007/s00114-017-1453-9,Bournemouth University,2017,TRUE
+10.1007/s00125-017-4226-2,University of Exeter,2017,TRUE
+10.1007/s00125-017-4230-6,University of Cambridge,2017,TRUE
+10.1007/s00125-017-4235-1,University of Leicester,2017,TRUE
+10.1007/s00125-017-4242-2,Imperial College London,2017,TRUE
+10.1007/s00125-017-4245-z,University of Manchester,2017,TRUE
+10.1007/s00126-017-0716-x,Cardiff University,2017,TRUE
+10.1007/s00127-017-1354-4,University of Oxford,2017,TRUE
+10.1007/s00127-017-1359-z,University of Bristol,2017,TRUE
+10.1007/s00127-017-1372-2,University of York,2017,TRUE
+10.1007/s00138-017-0830-x,Cardiff University,2017,TRUE
+10.1007/s00146-017-0690-y,Imperial College London,2017,TRUE
+10.1007/s00146-017-0694-7,University of Birmingham,2017,TRUE
+10.1007/s00146-017-0710-y,The Open University,2017,TRUE
+10.1007/s00146-017-0712-9,University of Cambridge,2017,TRUE
+10.1007/s00167-017-4494-x,Imperial College London,2017,TRUE
+10.1007/s00170-017-0155-y,University of Birmingham,2017,TRUE
+10.1007/s00170-017-0156-x,University of Warwick,2017,TRUE
+10.1007/s00170-017-0175-7,Loughborough University,2017,TRUE
+10.1007/s00170-017-0219-z,Kingston University,2017,TRUE
+10.1007/s00182-017-0570-1,University of Kent,2017,TRUE
+10.1007/s00199-017-1041-4,University of Nottingham,2017,TRUE
+10.1007/s00199-017-1043-2,"Queen Mary, University of London",2017,TRUE
+10.1007/s00203-017-1358-1,Newcastle University,2017,TRUE
+10.1007/s00205-017-1104-5,University of Surrey,2017,TRUE
+10.1007/s00213-017-4569-x,University of Cambridge,2017,TRUE
+10.1007/s00213-017-4579-8,University of Cambridge,2017,TRUE
+10.1007/s00213-017-4585-x,Keele University,2017,TRUE
+10.1007/s00220-016-2814-5,University of Oxford,2017,TRUE
+10.1007/s00220-017-2851-8,Aberystwyth University,2017,TRUE
+10.1007/s00221-017-4917-4,Durham University,2017,TRUE
+10.1007/s00221-017-4930-7,Leeds Beckett University,2017,TRUE
+10.1007/s00221-017-4935-2,University of Lincoln,2017,TRUE
+10.1007/s00223-016-0229-0,University of Sheffield,2017,TRUE
+10.1007/s00223-017-0246-7,University of Oxford,2017,TRUE
+10.1007/s00223-017-0265-4,University of Edinburgh,2017,TRUE
+10.1007/s00256-017-2610-0,University of Oxford,2017,TRUE
+10.1007/s00262-017-1977-z,University of Manchester,2017,TRUE
+10.1007/s00268-017-3917-7,University of Edinburgh,2017,TRUE
+10.1007/s00268-017-4007-6,King's College London,2017,TRUE
+10.1007/s00276-017-1841-z,King's College London,2017,TRUE
+10.1007/s00281-017-0620-6,University of Birmingham,2017,TRUE
+10.1007/s00300-017-2106-3,University of Cambridge,2017,TRUE
+10.1007/s00332-017-9367-4,Imperial College London,2017,TRUE
+10.1007/s00334-017-0602-6,University College London,2017,TRUE
+10.1007/s00338-017-1561-1,University of Exeter,2017,TRUE
+10.1007/s00338-017-1572-y,University of Derby,2017,TRUE
+10.1007/s00344-017-9692-8,University of Nottingham,2017,TRUE
+10.1007/s00348-017-2313-2,University of Cambridge,2017,TRUE
+10.1007/s00348-017-2321-2,University of Oxford,2017,TRUE
+10.1007/s00348-017-2322-1,City University London,2017,TRUE
+10.1007/s00355-017-1033-0,University of Oxford,2017,TRUE
+10.1007/s00355-017-1038-8,University of York,2017,TRUE
+10.1007/s00359-017-1156-x,"Queen Mary, University of London",2017,TRUE
+10.1007/s00366-017-0511-4,University of Portsmouth,2017,TRUE
+10.1007/s00374-017-1193-1,Bangor University,2017,TRUE
+10.1007/s00381-017-3380-7,University of Edinburgh,2017,TRUE
+10.1007/s00381-017-3383-4,"St George's, University of London",2017,TRUE
+10.1007/s00382-017-3581-5,University of Edinburgh,2017,TRUE
+10.1007/s00391-017-1224-4,University of East Anglia,2017,TRUE
+10.1007/s00394-017-1411-5,University of Sheffield,2017,TRUE
+10.1007/s00394-017-1432-0,University of Bristol,2017,TRUE
+10.1007/s00401-017-1703-0,University of Edinburgh,2017,TRUE
+10.1007/s00401-017-1704-z,King's College London,2017,TRUE
+10.1007/s00402-017-2661-7,University of Edinburgh,2017,TRUE
+10.1007/s00402-017-2675-1,University of Edinburgh,2017,TRUE
+10.1007/s00405-017-4519-6,Cardiff University,2017,TRUE
+10.1007/s00408-017-9990-8,University of Hull,2017,TRUE
+10.1007/s00408-017-9996-2,University of Hull,2017,TRUE
+10.1007/s00414-017-1557-y,Cranfield University,2017,TRUE
+10.1007/s00415-017-8434-y,King's College London,2017,TRUE
+10.1007/s00415-017-8442-y,Cardiff University,2017,TRUE
+10.1007/s00415-017-8473-4,Cardiff University,2017,TRUE
+10.1007/s00420-017-1214-2,University of Southampton,2017,TRUE
+10.1007/s00421-017-3567-3,Manchester Metropolitan University,2017,TRUE
+10.1007/s00421-017-3568-2,University of Exeter,2017,TRUE
+10.1007/s00421-017-3569-1,Nottingham Trent University,2017,TRUE
+10.1007/s00421-017-3573-5,Leeds Beckett University,2017,TRUE
+10.1007/s00421-017-3574-4,Edge Hill University,2017,TRUE
+10.1007/s00421-017-3580-6,Leeds Beckett University,2017,TRUE
+10.1007/s00421-017-3582-4,University of Kent,2017,TRUE
+10.1007/s00424-017-1958-2,University of Manchester,2017,TRUE
+10.1007/s00424-017-1959-1,University of Cambridge,2017,TRUE
+10.1007/s00426-017-0850-1,University of Sussex,2017,TRUE
+10.1007/s00426-017-0853-y,Cardiff University,2017,TRUE
+10.1007/s00429-017-1393-3,University of Leicester,2017,TRUE
+10.1007/s00431-017-2886-z,University of Nottingham,2017,TRUE
+10.1007/s00431-017-2893-0,University of Manchester,2017,TRUE
+10.1007/s00439-017-1773-z,University of Cambridge,2017,TRUE
+10.1007/s00439-017-1779-6,Cardiff University,2017,TRUE
+10.1007/s00440-017-0767-z,University of Cambridge,2017,TRUE
+10.1007/s00440-017-0768-y,University of Warwick,2017,TRUE
+10.1007/s00442-017-3851-2,University of Exeter,2017,TRUE
+10.1007/s00446-017-0298-y,University of Warwick,2017,TRUE
+10.1007/s00453-017-0296-2,University of Oxford,2017,TRUE
+10.1007/s00454-017-9885-8,London School of Economics and Political Science,2017,TRUE
+10.1007/s00455-017-9789-z,University of Manchester,2017,TRUE
+10.1007/s00464-017-5459-3,University of Leeds,2017,TRUE
+10.1007/s00466-017-1381-8,University of Oxford,2017,TRUE
+10.1007/s00467-017-3629-0,University of Bristol,2017,TRUE
+10.1007/s00530-017-0541-1,"Queen Mary, University of London",2017,TRUE
+10.1007/s00542-017-3371-3,University of Edinburgh,2017,TRUE
+10.1007/s00590-017-1934-8,University of Edinburgh,2017,TRUE
+10.1007/s00601-017-1278-2,University of Cambridge,2017,TRUE
+10.1007/s00604-017-2151-1,University of Aberdeen,2017,TRUE
+10.1007/s00701-017-3095-2,University of Cambridge,2017,TRUE
+10.1007/s00701-017-3151-y,University of Nottingham,2017,TRUE
+10.1007/s00702-017-1702-2,Newcastle University,2017,TRUE
+10.1007/s00705-017-3342-0,University of Edinburgh,2017,TRUE
+10.1007/s00726-017-2393-6,University of Exeter,2017,TRUE
+10.1007/s00766-017-0265-y,Bournemouth University,2017,TRUE
+10.1007/s00779-017-0999-z,University of Cambridge,2017,TRUE
+10.1007/s00779-017-1001-9,Lancaster University,2017,TRUE
+10.1007/s00779-017-1018-0,Glasgow Caledonian University,2017,TRUE
+10.1007/s00780-017-0323-9,London School of Economics and Political Science,2017,TRUE
+10.1007/s00787-017-0975-1,University of Bristol,2017,TRUE
+10.1007/s10009-017-0452-7,Heriot-Watt University,2017,TRUE
+10.1007/s10035-017-0707-8,Imperial College London,2017,TRUE
+10.1007/s10067-017-3590-0,"Royal Holloway, University of London",2017,TRUE
+10.1007/s10067-017-3595-8,University of Nottingham,2017,TRUE
+10.1007/s10113-017-1134-4,Scotland's Rural College,2017,TRUE
+10.1007/s10198-017-0871-0,London School of Economics and Political Science,2017,TRUE
+10.1007/s10236-017-1044-5,University of Southampton,2017,TRUE
+10.1007/s10237-017-0889-3,Swansea University,2017,TRUE
+10.1007/s10278-017-9966-5,University of Southampton,2017,TRUE
+10.1007/s10344-017-1096-3,University of Liverpool,2017,TRUE
+10.1007/s10346-017-0802-2,University of Dundee,2017,TRUE
+10.1007/s10354-017-0555-5,University of Liverpool,2017,TRUE
+10.1007/s10393-017-1229-x,University of Edinburgh,2017,TRUE
+10.1007/s10404-017-1888-5,University of Southampton,2017,TRUE
+10.1007/s10404-017-1904-9,Durham University,2017,TRUE
+10.1007/s10409-017-0647-x,University of Southampton,2017,TRUE
+10.1007/s10437-017-9245-3,University of Oxford,2017,TRUE
+10.1007/s10439-017-1827-3,University of Cambridge,2017,TRUE
+10.1007/s10456-017-9542-0,University of Liverpool,2017,TRUE
+10.1007/s10458-017-9361-0,University of Oxford,2017,TRUE
+10.1007/s10472-017-9540-3,"Royal Holloway, University of London",2017,TRUE
+10.1007/s10479-017-2430-6,University of Sussex,2017,TRUE
+10.1007/s10485-017-9484-0,Manchester Metropolitan University,2017,TRUE
+10.1007/s10490-016-9501-0,University of Leeds,2017,TRUE
+10.1007/s10490-017-9509-0,City University London,2017,TRUE
+10.1007/s10506-017-9194-9,University of Liverpool,2017,TRUE
+10.1007/s10506-017-9197-6,University of Aberdeen,2017,TRUE
+10.1007/s10508-017-0962-0,University of Surrey,2017,TRUE
+10.1007/s10522-017-9683-y,University of Kent,2017,TRUE
+10.1007/s10522-017-9691-y,University of Cambridge,2017,TRUE
+10.1007/s10531-017-1336-6,Royal Botanic Gardens,2017,TRUE
+10.1007/s10539-017-9570-6,University of Cambridge,2017,TRUE
+10.1007/s10545-017-0022-x,University College London,2017,TRUE
+10.1007/s10545-017-0025-7,University College London,2017,TRUE
+10.1007/s10545-017-0027-5,University of Cambridge,2017,TRUE
+10.1007/s10548-017-0554-2,King's College London,2017,TRUE
+10.1007/s10548-017-0557-z,Aston University,2017,TRUE
+10.1007/s10549-017-4202-z,Imperial College London,2017,TRUE
+10.1007/s10551-017-3466-x,University of Nottingham,2017,TRUE
+10.1007/s10551-017-3478-6,University of Edinburgh,2017,TRUE
+10.1007/s10552-017-0883-1,University of Bristol,2017,TRUE
+10.1007/s10554-017-1116-0,University of Bristol,2017,TRUE
+10.1007/s10569-017-9760-1,University of Surrey,2017,TRUE
+10.1007/s10579-017-9385-8,University of Cambridge,2017,TRUE
+10.1007/s10592-017-0951-9,University of Exeter,2017,TRUE
+10.1007/s10609-017-9308-9,University of Oxford,2017,TRUE
+10.1007/s10623-017-0355-3,"Royal Holloway, University of London",2017,TRUE
+10.1007/s10640-017-0133-8,London School of Economics and Political Science,2017,TRUE
+10.1007/s10646-017-1788-1,University of Central Lancashire,2017,TRUE
+10.1007/s10649-017-9750-y,University of Nottingham,2017,TRUE
+10.1007/s10649-017-9754-7,Loughborough University,2017,TRUE
+10.1007/s10652-017-9514-3,Imperial College London,2017,TRUE
+10.1007/s10652-017-9523-2,Heriot-Watt University,2017,TRUE
+10.1007/s10654-017-0235-1,University of Cambridge,2017,TRUE
+10.1007/s10665-017-9899-5,Keele University,2017,TRUE
+10.1007/s10670-016-9862-2,University of Bristol,2017,TRUE
+10.1007/s10670-017-9883-5,University of Cambridge,2017,TRUE
+10.1007/s10670-017-9884-4,University of Manchester,2017,TRUE
+10.1007/s10670-017-9887-1,University of Cambridge,2017,TRUE
+10.1007/s10677-017-9798-x,University of York,2017,TRUE
+10.1007/s10680-017-9420-x,London School of Economics and Political Science,2017,TRUE
+10.1007/s10691-017-9340-5,University of Sussex,2017,TRUE
+10.1007/s10691-017-9343-2,Durham University,2017,TRUE
+10.1007/s10710-017-9292-1,University of Manchester,2017,TRUE
+10.1007/s10723-017-9394-2,University of Westminster,2017,TRUE
+10.1007/s10728-017-0341-y,University of Birmingham,2017,TRUE
+10.1007/s10728-017-0343-9,University of Cambridge,2017,TRUE
+10.1007/s10729-017-9398-2,University of Exeter,2017,TRUE
+10.1007/s10741-017-9607-6,University College London,2017,TRUE
+10.1007/s10761-017-0403-8,University of Leicester,2017,TRUE
+10.1007/s10764-017-9952-2,University of Kent,2017,TRUE
+10.1007/s10767-017-9252-z,London School of Economics and Political Science,2017,TRUE
+10.1007/s10773-017-3344-4,University of Warwick,2017,TRUE
+10.1007/s10784-017-9364-y,University of East Anglia,2017,TRUE
+10.1007/s10796-017-9741-7,Brunel University,2017,TRUE
+10.1007/s10800-017-1066-1,University of Cambridge,2017,TRUE
+10.1007/s10803-017-3078-4,University of Nottingham,2017,TRUE
+10.1007/s10803-017-3091-7,University of Bristol,2017,TRUE
+10.1007/s10803-017-3105-5,King's College London,2017,TRUE
+10.1007/s10806-017-9660-0,University of Oxford,2017,TRUE
+10.1007/s10811-017-1092-8,University of the Highlands and Islands,2017,TRUE
+10.1007/s10811-017-1112-8,Swansea University,2017,TRUE
+10.1007/s10817-017-9409-5,University of York,2017,TRUE
+10.1007/s10826-017-0676-x,University of Strathclyde,2017,TRUE
+10.1007/s10846-017-0534-5,Loughborough University,2017,TRUE
+10.1007/s10846-017-0542-5,Loughborough University,2017,TRUE
+10.1007/s10853-017-0868-1,University of Manchester,2017,TRUE
+10.1007/s10853-017-0969-x,Imperial College London,2017,TRUE
+10.1007/s10853-017-0973-1,Cranfield University,2017,TRUE
+10.1007/s10853-017-0997-6,University of Bristol,2017,TRUE
+10.1007/s10854-017-6751-7,Imperial College London,2017,TRUE
+10.1007/s10856-017-5882-y,University of Oxford,2017,TRUE
+10.1007/s10865-017-9840-4,University of Aberdeen,2017,TRUE
+10.1007/s10882-017-9547-z,University of Kent,2017,TRUE
+10.1007/s10887-017-9142-2,University of Warwick,2017,TRUE
+10.1007/s10897-017-0079-6,Cardiff University,2017,TRUE
+10.1007/s10914-017-9381-1,University of Edinburgh,2017,TRUE
+10.1007/s10915-017-0397-8,Nottingham Trent University,2017,TRUE
+10.1007/s10959-017-0750-8,University of Liverpool,2017,TRUE
+10.1007/s10959-017-0753-5,Durham University,2017,TRUE
+10.1007/s10964-017-0659-7,University of West of England,2017,TRUE
+10.1007/s10967-017-5203-4,University of Surrey,2017,TRUE
+10.1007/s10980-017-0504-0,University of Southampton,2017,TRUE
+10.1007/s10982-017-9297-1,University of East Anglia,2017,TRUE
+10.1007/s10982-017-9299-z,University of Edinburgh,2017,TRUE
+10.1007/s10988-016-9202-7,University of Reading,2017,TRUE
+10.1007/s10991-017-9199-1,University of Surrey,2017,TRUE
+10.1007/s10992-017-9434-1,University of Cambridge,2017,TRUE
+10.1007/s10993-017-9436-4,University College London,2017,TRUE
+10.1007/s11002-017-9421-x,Durham University,2017,TRUE
+10.1007/s11005-017-0952-0,University of Surrey,2017,TRUE
+10.1007/s11042-017-4522-3,Aberystwyth University,2017,TRUE
+10.1007/s11050-017-9133-z,University of York,2017,TRUE
+10.1007/s11065-017-9341-9,University of Cambridge,2017,TRUE
+10.1007/s11095-017-2129-z,University of Cambridge,2017,TRUE
+10.1007/s11095-017-2137-z,University of Cambridge,2017,TRUE
+10.1007/s11096-017-0452-4,Queen's University of Belfast,2017,TRUE
+10.1007/s11097-016-9495-6,University of Oxford,2017,TRUE
+10.1007/s11098-017-0889-2,University of St Andrews,2017,TRUE
+10.1007/s11098-017-0890-9,University of York,2017,TRUE
+10.1007/s11098-017-0895-4,University of Cambridge,2017,TRUE
+10.1007/s11103-017-0602-z,University of Bath,2017,TRUE
+10.1007/s11104-017-3211-3,University of Dundee,2017,TRUE
+10.1007/s11117-017-0488-7,Queen's University of Belfast,2017,TRUE
+10.1007/s11127-017-0438-8,University of Exeter,2017,TRUE
+10.1007/s11127-017-0442-z,University of West of England,2017,TRUE
+10.1007/s11135-017-0473-z,University of Strathclyde,2017,TRUE
+10.1007/s11136-017-1520-x,University of Southampton,2017,TRUE
+10.1007/s11136-017-1548-y,University of Surrey,2017,TRUE
+10.1007/s11136-017-1564-y,University of Southampton,2017,TRUE
+10.1007/s11139-017-9884-7,University of Bristol,2017,TRUE
+10.1007/s11142-017-9387-1,London School of Economics and Political Science,2017,TRUE
+10.1007/s11151-017-9575-y,Queen's University of Belfast,2017,TRUE
+10.1007/s11156-017-0632-2,University of Bath,2017,TRUE
+10.1007/s11158-017-9354-5,University of Oxford,2017,TRUE
+10.1007/s11187-017-9844-z,University of Warwick,2017,TRUE
+10.1007/s11192-017-2316-z,University of Leicester,2017,TRUE
+10.1007/s11192-017-2325-y,University of Portsmouth,2017,TRUE
+10.1007/s11199-017-0741-3,University of Huddersfield,2017,TRUE
+10.1007/s11199-017-0742-2,Nottingham Trent University,2017,TRUE
+10.1007/s11207-017-1060-0,University of St Andrews,2017,TRUE
+10.1007/s11207-017-1070-y,University College London,2017,TRUE
+10.1007/s11207-017-1072-9,University College London,2017,TRUE
+10.1007/s11222-017-9738-6,University of Edinburgh,2017,TRUE
+10.1007/s11222-017-9739-5,University of East Anglia,2017,TRUE
+10.1007/s11229-017-1335-x,University of Leeds,2017,TRUE
+10.1007/s11229-017-1342-y,University of Bristol,2017,TRUE
+10.1007/s11229-017-1345-8,King's College London,2017,TRUE
+10.1007/s11229-017-1371-6,University of Warwick,2017,TRUE
+10.1007/s11229-017-1377-0,University of Birmingham,2017,TRUE
+10.1007/s11229-017-1380-5,King's College London,2017,TRUE
+10.1007/s11229-017-1382-3,University of East Anglia,2017,TRUE
+10.1007/s11230-017-9717-5,Natural History Museum,2017,TRUE
+10.1007/s11235-017-0296-1,Queen's University of Belfast,2017,TRUE
+10.1007/s11238-017-9593-0,University of Warwick,2017,TRUE
+10.1007/s11241-017-9269-4,University of Birmingham,2017,TRUE
+10.1007/s11242-017-0835-y,University of Nottingham,2017,TRUE
+10.1007/s11249-017-0836-6,Imperial College London,2017,TRUE
+10.1007/s11249-017-0841-9,University of Sheffield,2017,TRUE
+10.1007/s11266-017-9853-1,University of Oxford,2017,TRUE
+10.1007/s11266-017-9856-y,Glasgow Caledonian University,2017,TRUE
+10.1007/s11269-017-1575-z,Imperial College London,2017,TRUE
+10.1007/s11269-017-1595-8,University of Sheffield,2017,TRUE
+10.1007/s11356-017-8701-6,Northumbria University,2017,TRUE
+10.1007/s11356-017-8710-5,University of Exeter,2017,TRUE
+10.1007/s11356-017-8847-2,University of Cambridge,2017,TRUE
+10.1007/s11367-017-1285-z,University College London,2017,TRUE
+10.1007/s11548-017-1558-9,Imperial College London,2017,TRUE
+10.1007/s11562-017-0382-x,University of Edinburgh,2017,TRUE
+10.1007/s11572-017-9414-0,University of Surrey,2017,TRUE
+10.1007/s11657-017-0322-7,University of Southampton,2017,TRUE
+10.1007/s11661-017-4004-2,Brunel University,2017,TRUE
+10.1007/s11661-017-4044-7,University of Birmingham,2017,TRUE
+10.1007/s11661-017-4079-9,University of Warwick,2017,TRUE
+10.1007/s11663-017-0956-2,University of Warwick,2017,TRUE
+10.1007/s11759-017-9304-z,University of Birmingham,2017,TRUE
+10.1007/s11760-017-1086-7,University of Reading,2017,TRUE
+10.1007/s11837-017-2286-x,Brunel University,2017,TRUE
+10.1007/s11837-017-2307-9,Imperial College London,2017,TRUE
+10.1007/s11841-017-0585-x,University of Oxford,2017,TRUE
+10.1007/s11864-017-0460-6,University of Southampton,2017,TRUE
+10.1007/s11869-017-0464-1,University of Surrey,2017,TRUE
+10.1007/s11892-017-0839-6,University of Birmingham,2017,TRUE
+10.1007/s11892-017-0847-6,King's College London,2017,TRUE
+10.1007/s11892-017-0852-9,University of Exeter,2017,TRUE
+10.1007/s11892-017-0857-4,University of East Anglia,2017,TRUE
+10.1007/s11896-017-9234-0,University of Liverpool,2017,TRUE
+10.1007/s11906-017-0717-2,University of Leeds,2017,TRUE
+10.1007/s11948-017-9884-4,University of Leeds,2017,TRUE
+10.1007/s11999-017-5309-6,University of Oxford,2017,TRUE
+10.1007/s12021-017-9326-0,University College London,2017,TRUE
+10.1007/s12022-017-9474-7,"Queen Mary, University of London",2017,TRUE
+10.1007/s12026-017-8910-6,King's College London,2017,TRUE
+10.1007/s12035-017-0462-1,University of West of England,2017,TRUE
+10.1007/s12035-017-0492-8,University of Huddersfield,2017,TRUE
+10.1007/s12062-017-9181-7,University of Sheffield,2017,TRUE
+10.1007/s12115-017-0114-0,Birmingham City University,2017,TRUE
+10.1007/s12160-017-9895-z,University of Manchester,2017,TRUE
+10.1007/s12170-017-0537-6,University of Glasgow,2017,TRUE
+10.1007/s12187-017-9464-9,University of Huddersfield,2017,TRUE
+10.1007/s12192-017-0774-0,University of Chester,2017,TRUE
+10.1007/s12225-017-9676-7,Royal Botanic Gardens,2017,TRUE
+10.1007/s12225-017-9678-5,University of Oxford,2017,TRUE
+10.1007/s12225-017-9680-y,University of Oxford,2017,TRUE
+10.1007/s12225-017-9682-9,University of Oxford,2017,TRUE
+10.1007/s12231-017-9367-1,University of Reading,2017,TRUE
+10.1007/s12304-017-9286-7,University of Edinburgh,2017,TRUE
+10.1007/s12410-017-9411-7,University of Edinburgh,2017,TRUE
+10.1007/s12410-017-9412-6,University of Edinburgh,2017,TRUE
+10.1007/s12553-017-0179-1,University of Cambridge,2017,TRUE
+10.1007/s12665-017-6536-6,University of Leicester,2017,TRUE
+10.1007/s13142-017-0477-1,University College London,2017,TRUE
+10.1007/s13194-017-0171-7,Durham University,2017,TRUE
+10.1007/s13280-017-0912-z,University College London,2017,TRUE
+10.1007/s13346-017-0366-7,University of Oxford,2017,TRUE
+10.1007/s13349-017-0218-7,Queen's University of Belfast,2017,TRUE
+10.1007/s13355-016-0470-z,University of Warwick,2017,TRUE
+10.1007/s13679-017-0249-8,University College London,2017,TRUE
+10.1007/s40072-017-0093-6,University of Edinburgh,2017,TRUE
+10.1007/s40136-017-0144-6,University College London,2017,TRUE
+10.1007/s40279-017-0688-0,University of Exeter,2017,TRUE
+10.1007/s40279-017-0720-4,Bournemouth University,2017,TRUE
+10.1007/s40279-017-0721-3,University of Bath,2017,TRUE
+10.1007/s40519-017-0364-2,University College London,2017,TRUE
+10.1007/s40521-017-0117-5,Imperial College London,2017,TRUE
+10.1007/s40556-017-0120-8,"St George's, University of London",2017,TRUE
+10.1007/s40558-017-0081-8,Bournemouth University,2017,TRUE
+10.1007/s40596-017-0697-1,King's College London,2017,TRUE
+10.1007/s40615-017-0346-0,Liverpool John Moores University,2017,TRUE
+10.1007/s40641-017-0061-2,University of Leeds,2017,TRUE
+10.1007/s40656-017-0131-8,University of Cambridge,2017,TRUE
+10.1007/s40692-017-0081-x,Durham University,2017,TRUE
+10.1007/s40692-017-0083-8,University of Huddersfield,2017,TRUE
+10.1007/s40750-017-0061-4,University of Oxford,2017,TRUE
+10.1007/s40750-017-0064-1,University of Glasgow,2017,TRUE
+10.1007/s40802-017-0078-1,University of Reading,2017,TRUE
+10.1007/s40818-017-0024-x,University of Warwick,2017,TRUE
+10.1007/s40818-017-0026-8,Imperial College London,2017,TRUE
+10.1007/s40830-017-0099-y,Robert Gordon University,2017,TRUE
+10.1007/s40879-017-0138-4,University of Leeds,2017,TRUE
+10.1007/s40894-017-0053-4,King's College London,2017,TRUE
+10.1007/s40953-017-0087-2,Leeds Beckett University,2017,TRUE
+10.1007/s41055-017-0011-7,Keele University,2017,TRUE
+10.1007/s41061-017-0130-y,University of York,2017,TRUE
+10.1140/epjb/e2017-70438-8,University of Bath,2017,TRUE
+10.1140/epjd/e2017-70568-1,University of Oxford,2017,TRUE
+10.1140/epjst/e2016-60164-1,"Queen Mary, University of London",2017,TRUE
+10.1140/epjst/e2016-60274-8,"Queen Mary, University of London",2017,TRUE
+10.1245/s10434-017-5817-3,University of Glasgow,2017,TRUE
+10.1245/s10434-017-5829-z,University of Aberdeen,2017,TRUE
+10.3758/s13421-017-0702-7,University of Leeds,2017,TRUE
+10.3758/s13423-016-1218-z,Lancaster University,2017,TRUE
+10.3758/s13423-017-1257-0,University of Birmingham,2017,TRUE
+10.3758/s13423-017-1264-1,University of Bath,2017,TRUE
+10.3758/s13423-017-1266-z,University of Sussex,2017,TRUE
+10.3758/s13423-017-1267-y,Lancaster University,2017,TRUE
+10.3758/s13428-017-0871-0,King's College London,2017,TRUE
+10.3758/s13428-017-0877-7,University of Oxford,2017,TRUE
+10.1007/s10722-017-0513-5,University of Birmingham,2017,TRUE
+10.1007/s00401-017-1707-9,King's College London,2017,TRUE
+10.1007/s10796-017-9756-0,Brunel University,2017,TRUE
+10.1007/s12529-016-9630-3,University of Leeds,2017,TRUE
+10.1007/s11079-017-9434-3,London School of Economics and Political Science,2017,TRUE
+10.1007/s10761-017-0401-x,Queen's University of Belfast,2017,TRUE
+10.1007/s10689-017-9986-9,University of Leeds,2017,TRUE
+10.1007/s10729-017-9399-1,University of Southampton,2017,TRUE
+10.1007/s00441-017-2618-8,University College London,2017,TRUE
+10.1007/s11831-017-9222-7,University of Manchester,2017,TRUE
+10.1007/s40899-017-0094-7,University of Glasgow,2017,TRUE
+10.1007/s11948-017-9904-4,Queen's University of Belfast,2017,TRUE
+10.1007/s10677-017-9793-2,The Open University,2017,TRUE
+10.1007/s40062-017-0172-4,Queen's University of Belfast,2017,TRUE
+10.1007/s11069-017-2848-9,University of Oxford,2017,TRUE
+10.1007/s10854-017-6864-z,Imperial College London,2017,TRUE
+10.1007/s13399-017-0254-x,Aston University,2017,TRUE
+10.1007/s10670-017-9891-5,University of Oxford,2017,TRUE
+10.1007/s00467-017-3662-z,Newcastle University,2017,TRUE
+10.1007/s40778-017-0076-6,University College London,2017,TRUE
+10.1007/s00220-017-2867-0,Imperial College London,2017,TRUE
+10.1007/s12560-017-9293-5,Bangor University,2017,TRUE
+10.1007/s10936-017-9487-x,University of Central Lancashire,2017,TRUE
+10.1007/s10701-017-0082-7,University of York,2017,TRUE
+10.1007/s40279-017-0717-z,Brunel University,2017,TRUE
+10.1007/s10701-017-0084-5,University of Oxford,2017,TRUE
+10.1007/s11340-017-0280-4,University of Sheffield,2017,TRUE
+10.3758/s13420-017-0269-y,Cardiff University,2017,TRUE
+10.1007/s10531-017-1340-x,University of Oxford,2017,TRUE
+10.1007/s00125-017-4275-6,University of Cambridge,2017,TRUE
+10.1007/s00429-017-1418-y,University College London,2017,TRUE
+10.1007/s00163-017-0257-4,University of Strathclyde,2017,TRUE
+10.1007/s10551-017-3551-1,University of Warwick,2017,TRUE
+10.1007/s11273-017-9545-z,University of Exeter,2017,TRUE
+10.1007/s10811-017-1149-8,Heriot-Watt University,2017,TRUE
+10.1007/s11222-017-9750-x,University of Glasgow,2017,TRUE
+10.1007/s11340-017-0275-1,University of Oxford,2017,TRUE
+10.1007/s10530-017-1440-2,University of the Highlands and Islands,2017,TRUE
+10.1007/s12518-017-0187-x,University of Nottingham,2017,TRUE
+10.1007/s13668-017-0202-1,Loughborough University,2017,TRUE
+10.1007/s13668-017-0203-0,University of Birmingham,2017,TRUE
+10.1007/s10854-017-6984-5,Imperial College London,2017,TRUE
+10.1007/s10458-017-9364-x,King's College London,2017,TRUE
+10.1007/s11406-016-9752-5,University of Hull,2017,TRUE
+10.1007/s10828-017-9085-1,University College London,2017,TRUE
+10.1007/s12225-017-9677-6,Royal Botanic Gardens,2017,TRUE
+10.1007/s00264-017-3431-4,University of Cambridge,2017,TRUE
+10.1007/s12225-017-9683-8,Royal Botanic Gardens,2017,TRUE
+10.1007/s40737-017-0079-8,University of Birmingham,2017,TRUE
+10.1007/s00222-017-0725-5,University of York,2017,TRUE
+10.1007/s11158-017-9358-1,University of West of England,2017,TRUE
+10.1007/s10732-017-9327-z,Cardiff University,2017,TRUE
+10.1007/s10854-017-6798-5,Imperial College London,2017,TRUE
+10.1007/s00285-017-1123-8,University of Liverpool,2017,TRUE
+10.1007/s10711-017-0241-1,Durham University,2017,TRUE
+10.1007/s00281-017-0623-3,University of Glasgow,2017,TRUE
+10.1007/s00374-017-1195-z,Scotland's Rural College,2017,TRUE
+10.1007/s00138-017-0835-5,University of Surrey,2017,TRUE
+10.1007/s00253-017-8262-0,University of Ulster,2017,TRUE
+10.1007/s00270-017-1643-z,University of Dundee,2017,TRUE
+10.1007/s00526-017-1135-7,University of Edinburgh,2017,TRUE
+10.1007/s00224-017-9757-x,University of Liverpool,2017,TRUE
+10.1007/s10551-017-3506-6,Nottingham Trent University,2017,TRUE
+10.1007/s10826-017-0710-z,University College London,2017,TRUE
+10.1007/s11661-017-4086-x,University of Cambridge,2017,TRUE
+10.1007/s10531-017-1334-8,University of Manchester,2017,TRUE
+10.1007/s11528-017-0188-y,Liverpool John Moores University,2017,TRUE
+10.1007/s10982-017-9300-x,University of East Anglia,2017,TRUE
+10.1007/s10389-017-0801-8,University of York,2017,TRUE
+10.1007/s10459-017-9775-0,University of Dundee,2017,TRUE
+10.1007/s10485-017-9490-2,University of Edinburgh,2017,TRUE
+10.1007/s10107-017-1143-6,University of Southampton,2017,TRUE
+10.1007/s40429-017-0142-2,King's College London,2017,TRUE
+10.1007/s11897-017-0328-x,University of Hull,2017,TRUE
+10.1007/s10551-017-3530-6,University of Nottingham,2017,TRUE
+10.1007/s11249-017-0851-7,Imperial College London,2017,TRUE
+10.1007/s40518-017-0070-8,University College London,2017,TRUE
+10.1007/s00429-017-1414-2,University of Edinburgh,2017,TRUE
+10.1007/s10888-017-9350-1,London School of Economics and Political Science,2017,TRUE
+10.1007/s11657-017-0340-5,Keele University,2017,TRUE
+10.1007/s11126-017-9498-7,King's College London,2017,TRUE
+10.1007/s12225-017-9684-7,Royal Botanic Gardens,2017,TRUE
+10.3758/s13428-017-0876-8,University College London,2017,TRUE
+10.1007/s11051-017-3840-8,University of Liverpool,2017,TRUE
+10.1007/s00394-017-1443-x,Imperial College London,2017,TRUE
+10.1007/s00038-017-0970-9,University of Oxford,2017,TRUE
+10.1007/s40505-017-0116-5,University of Manchester,2017,TRUE
+10.1007/s00384-017-2797-5,University of Glasgow,2017,TRUE
+10.1007/s10854-017-6797-6,Imperial College London,2017,TRUE
+10.1007/s10567-017-0232-7,University of Oxford,2017,TRUE
+10.1007/s10237-017-0900-z,University of Exeter,2017,TRUE
+10.1007/s00500-017-2587-6,University of Birmingham,2017,TRUE
+10.1007/s10546-017-0248-z,University of Reading,2017,TRUE
+10.1007/s40430-017-0777-x,Birmingham City University,2017,TRUE
+10.1007/s00339-017-0927-0,Aston University,2017,TRUE
+10.1007/s11085-017-9766-9,Cranfield University,2017,TRUE
+10.1007/s12665-017-6593-x,University of Exeter,2017,TRUE
+10.1007/s11940-017-0450-9,University of Bristol,2017,TRUE
+10.1007/s10827-017-0641-0,Imperial College London,2017,TRUE
+10.1007/s10745-017-9905-6,University of Southampton,2017,TRUE
+10.1007/s10021-017-0132-1,University of Southampton,2017,TRUE
+10.1007/s00335-017-9687-6,University of Edinburgh,2017,TRUE
+10.3758/s13423-017-1277-9,City University London,2017,TRUE
+10.1007/s10961-017-9576-x,University of Sussex,2017,TRUE
+10.1007/s10764-017-9961-1,University of West of England,2017,TRUE
+10.1007/s00466-017-1411-6,University of Southampton,2017,TRUE
+10.1007/s13162-017-0092-9,University of York,2017,TRUE
+10.1007/s13679-017-0255-x,University of Strathclyde,2017,TRUE
+10.1007/s10470-017-0982-7,University of Bristol,2017,TRUE
+10.1007/s00383-017-4085-4,University of Southampton,2017,TRUE
+10.1007/s40505-017-0122-7,University College London,2017,TRUE
+10.1007/s00220-017-2886-x,University of Bath,2017,TRUE
+10.1007/s11085-017-9776-7,University of Nottingham,2017,TRUE
+10.1007/s00294-017-0697-4,University of Cambridge,2017,TRUE
+10.1007/s10909-017-1779-x,"Royal Holloway, University of London",2017,TRUE
+10.1007/s10549-017-4266-9,University College London,2017,TRUE
+10.1007/s00415-017-8483-2,Newcastle University,2017,TRUE
+10.1007/s00521-017-3005-9,University of Aberdeen,2017,TRUE
+10.1007/s00300-017-2118-z,University of Southampton,2017,TRUE
+10.1007/s11548-017-1580-y,Imperial College London,2017,TRUE
+10.1007/s40802-017-0082-5,University of Manchester,2017,TRUE
+10.1007/s11207-017-1068-5,University of Warwick,2017,TRUE
+10.1007/s10346-017-0822-y,Glasgow Caledonian University,2017,TRUE
+10.1007/s11111-017-0277-z,University of Sussex,2017,TRUE
+10.1007/s10048-017-0514-8,University College London,2017,TRUE
+10.1007/s40778-017-0077-5,University College London,2017,TRUE
+10.1007/s00213-017-4605-x,University of Exeter,2017,TRUE
+10.1007/s10876-017-1205-1,Bangor University,2017,TRUE
+10.1007/s00018-017-2507-z,University of Nottingham,2017,TRUE
+10.1007/s10840-017-0243-9,King's College London,2017,TRUE
+10.1007/s00421-017-3595-z,Loughborough University,2017,TRUE
+10.1007/s11064-017-2220-1,University of Portsmouth,2017,TRUE
+10.1007/s10654-017-0242-2,University of Bristol,2017,TRUE
+10.1007/s00418-017-1564-6,University of St Andrews,2017,TRUE
+10.1186/s10397-017-1006-4,Queen's University of Belfast,2017,TRUE
+10.1007/s10236-017-1047-2,University of Hull,2017,TRUE
+10.1007/s10198-017-0891-9,University of Manchester,2017,TRUE
+10.1007/s11071-017-3500-7,University of Exeter,2017,TRUE
+10.1007/s00330-017-4822-z,"Queen Mary, University of London",2017,TRUE
+10.1007/s00023-017-0579-9,University of Leicester,2017,TRUE
+10.1007/s11252-017-0661-6,Manchester Metropolitan University,2017,TRUE
+10.1007/s11085-017-9768-7,Cranfield University,2017,TRUE
+10.1007/s11416-017-0296-4,"Royal Holloway, University of London",2017,TRUE
+10.1007/s00268-017-3999-2,University of Oxford,2017,TRUE
+10.1007/s40556-017-0123-5,University of Kent,2017,TRUE
+10.1007/s10534-017-0016-z,University of Strathclyde,2017,TRUE
+10.1007/s00423-017-1581-x,University of Leicester,2017,TRUE
+10.1007/s10803-017-3120-6,Cardiff University,2017,TRUE
+10.1007/s13679-017-0257-8,Leeds Beckett University,2017,TRUE
+10.1007/s11548-017-1584-7,University College London,2017,TRUE
+10.1007/s00340-017-6734-7,University of Southampton,2017,TRUE
+10.1007/s10198-017-0893-7,University College London,2017,TRUE
+10.1007/s10689-017-9994-9,University of Southampton,2017,TRUE
+10.1007/s11901-017-0341-2,University of Oxford,2017,TRUE
+10.1007/s00270-017-1649-6,King's College London,2017,TRUE
+10.1007/s11019-017-9772-3,King's College London,2017,TRUE
+10.1007/s00704-017-2122-9,University of Birmingham,2017,TRUE
+10.1007/s10658-017-1226-5,University of Sheffield,2017,TRUE
+10.1007/s00355-017-1051-y,University of Leicester,2017,TRUE
+10.1007/s11207-017-1090-7,University of Reading,2017,TRUE
+10.1007/s40279-017-0727-x,University of Stirling,2017,TRUE
+10.1007/s13668-017-0201-2,Swansea University,2017,TRUE
+10.1007/s00109-017-1535-3,University of Cambridge,2017,TRUE
+10.1007/s10825-017-0989-4,Swansea University,2017,TRUE
+10.1007/s00590-017-1957-1,University of Warwick,2017,TRUE
+10.1007/s13253-017-0279-4,University of Kent,2017,TRUE
+10.1007/s10439-017-1828-2,University College London,2017,TRUE
+10.1007/s40948-016-0048-9,Imperial College London,2017,TRUE
+10.1007/s11023-017-9430-9,University of Oxford,2017,TRUE
+10.1007/s11244-017-0742-z,University of Edinburgh,2017,TRUE
+10.1007/s00784-017-2103-5,University of Bristol,2017,TRUE
+10.1007/s11837-017-2335-5,Brunel University,2017,TRUE
+10.1007/s11245-017-9482-8,University of Oxford,2017,TRUE
+10.1007/s10802-017-0301-x,King's College London,2017,TRUE
+10.1007/s10539-017-9572-4,University of Edinburgh,2017,TRUE
+10.1007/s10461-017-1755-0,King's College London,2017,TRUE
+10.1007/s00023-017-0571-4,University of Warwick,2017,TRUE
+10.1007/s10509-017-3066-3,University of Oxford,2017,TRUE
+10.1007/s10677-017-9802-5,University of Oxford,2017,TRUE
+10.1007/s11657-017-0324-5,University of Cambridge,2017,TRUE
+10.1007/s11899-017-0375-0,King's College London,2017,TRUE
+10.1007/s00221-017-4950-3,University College London,2017,TRUE
+10.1007/s11934-017-0693-8,University of Oxford,2017,TRUE
+10.1007/s00020-017-2371-0,University of Bristol,2017,TRUE
+10.1007/s00535-017-1336-z,University of Birmingham,2017,TRUE
+10.1007/s10334-017-0621-4,University of Cambridge,2017,TRUE
+10.1007/s41465-017-0022-7,Liverpool John Moores University,2017,TRUE
+10.1007/s10824-017-9302-4,Kingston University,2017,TRUE
+10.1007/s40139-017-0137-7,University of Cambridge,2017,TRUE
+10.1007/s10661-017-5946-y,University College London,2017,TRUE
+10.1007/s11136-017-1575-8,University of Sheffield,2017,TRUE
+10.1007/s00455-017-9799-x,University College London,2017,TRUE
+10.1007/s00424-017-1981-3,Newcastle University,2017,TRUE
+10.1007/s00213-017-4627-4,University of Leicester,2017,TRUE
+10.1007/s00223-017-0277-0,University of Southampton,2017,TRUE
+10.1007/s11579-017-0187-y,"Queen Mary, University of London",2017,TRUE
+10.1007/s12311-017-0860-y,University of Bristol,2017,TRUE
+10.1007/s10508-017-0986-5,King's College London,2017,TRUE
+10.1007/s10113-017-1155-z,University of Leeds,2017,TRUE
+10.1007/s10734-017-0147-8,University of Manchester,2017,TRUE
+10.1007/s40778-017-0078-4,University College London,2017,TRUE
+10.3758/s13428-017-0855-0,Queen Margaret University,2017,TRUE
+10.1007/s00249-017-1203-0,"Queen Mary, University of London",2017,TRUE
+10.1007/s10295-017-1920-5,University of Exeter,2017,TRUE
+10.1007/s00355-017-1034-z,London School of Economics and Political Science,2017,TRUE
+10.1007/s41066-017-0043-8,University of Portsmouth,2017,TRUE
+10.1007/s10207-017-0369-x,Newcastle University,2017,TRUE
+10.1007/s00426-017-0859-5,Brunel University,2017,TRUE
+10.1007/s00737-017-0723-z,King's College London,2017,TRUE
+10.1007/s41105-017-0099-5,Imperial College London,2017,TRUE
+10.1007/s10591-017-9408-z,Queen's University of Belfast,2017,TRUE
+10.1007/s00382-017-3641-x,University of Reading,2017,TRUE
+10.1007/s11293-017-9537-7,University of Oxford,2017,TRUE
+10.1007/s10151-017-1613-0,Imperial College London,2017,TRUE
+10.1007/s10670-017-9895-1,Durham University,2017,TRUE
+10.1007/s11229-017-1386-z,University of Edinburgh,2017,TRUE
+10.1007/s11263-017-1009-7,Imperial College London,2017,TRUE
+10.1007/s12528-017-9145-1,University of Abertay Dundee,2017,TRUE
+10.1007/s12520-017-0489-2,University of Cambridge,2017,TRUE
+10.1007/s00348-017-2326-x,University of Cambridge,2017,TRUE
+10.1007/s11786-017-0313-5,University of Sheffield,2017,TRUE
+10.1007/s10833-017-9297-9,University College London,2017,TRUE
+10.1007/s10903-017-0570-z,Cardiff University,2017,TRUE
+10.1007/s11207-017-1088-1,University of Cambridge,2017,TRUE
+10.1007/s11406-017-9833-0,University of Reading,2017,TRUE
+10.1007/s10982-017-9301-9,University of Surrey,2017,TRUE
+10.1007/s10961-017-9578-8,Northumbria University,2017,TRUE
+10.1007/s00268-017-4018-3,University of Birmingham,2017,TRUE
+10.1007/s10853-017-1091-9,University of Sheffield,2017,TRUE
+10.1007/s11214-017-0366-4,University of Leicester,2017,TRUE
+10.1007/s12671-017-0726-x,University of Birmingham,2017,TRUE
+10.1007/s00227-017-3132-y,Natural History Museum,2017,TRUE
+10.1007/s11245-017-9485-5,University of Warwick,2017,TRUE
+10.1007/s00440-017-0774-0,Imperial College London,2017,TRUE
+10.1007/s00401-017-1709-7,University of Edinburgh,2017,TRUE
+10.1007/s00415-017-8485-0,Cardiff University,2017,TRUE
+10.1007/s00348-017-2343-9,University of Bath,2017,TRUE
+10.1007/s00029-017-0324-8,University of York,2017,TRUE
+10.1007/s11886-017-0848-8,University College London,2017,TRUE
+10.1007/s10071-017-1085-7,University of Cambridge,2017,TRUE
+10.1007/s10551-017-3527-1,University of Manchester,2017,TRUE
+10.1007/s10803-017-3118-0,Newcastle University,2017,TRUE
+10.1007/s10912-017-9441-9,Durham University,2017,TRUE
+10.1007/s10522-017-9697-5,Leeds Beckett University,2017,TRUE
+10.1007/s00355-017-1035-y,London School of Economics and Political Science,2017,TRUE
+10.1007/s11886-017-0839-9,University of Edinburgh,2017,TRUE
+10.1007/s00170-017-0267-4,University of Strathclyde,2017,TRUE
+10.1007/s10479-017-2485-4,Cardiff University,2017,TRUE
+10.1007/s10368-017-0375-5,University of Lincoln,2017,TRUE
+10.1007/s11085-017-9772-y,University of Surrey,2017,TRUE
+10.1007/s00213-017-4593-x,University of Cambridge,2017,TRUE
+10.1007/s00181-017-1250-5,Durham University,2017,TRUE
+10.1007/s12526-017-0688-1,Queen's University of Belfast,2017,TRUE
+10.1007/s11187-017-9855-9,University of Westminster,2017,TRUE
+10.1007/s00382-017-3644-7,University of Sheffield,2017,TRUE
+10.1007/s10654-017-0243-1,University of Reading,2017,TRUE
+10.1007/s11786-017-0316-2,University of Bath,2017,TRUE
+10.1007/s00181-017-1239-0,Imperial College London,2017,TRUE
+10.1186/s10397-017-1004-6,University of Oxford,2017,TRUE
+10.1007/s11457-017-9170-2,University of Exeter,2017,TRUE
+10.1007/s00526-017-1142-8,University of Bath,2017,TRUE
+10.1007/s41061-017-0133-8,University of York,2017,TRUE
+10.1007/s11128-017-1578-y,University of Surrey,2017,TRUE
+10.1007/s10554-017-1124-0,Imperial College London,2017,TRUE
+10.1007/s11266-017-9866-9,University of Portsmouth,2017,TRUE
+10.1007/s11248-017-0017-2,University of Edinburgh,2017,TRUE
+10.1007/s00592-017-0994-x,University of Liverpool,2017,TRUE
+10.1007/s00439-017-1798-3,University of Bath,2017,TRUE
+10.1007/s11829-017-9519-3,University of Cambridge,2017,TRUE
+10.1007/s10551-017-3547-x,University of Reading,2017,TRUE
+10.1007/s10472-017-9547-9,"Royal Holloway, University of London",2017,TRUE
+10.1007/s12526-017-0717-0,Aberystwyth University,2017,TRUE
+10.1007/s11269-017-1663-0,Cranfield University,2017,TRUE
+10.1007/s10766-017-0503-4,University of St Andrews,2017,TRUE
+10.1007/s11005-017-0957-8,University of Nottingham,2017,TRUE
+10.1007/s11785-017-0677-1,University of Leeds,2017,TRUE
+10.1007/s10670-017-9898-y,Durham University,2017,TRUE
+10.1007/s00340-017-6733-8,University of Manchester,2017,TRUE
+10.1007/s12020-017-1306-5,University of Sheffield,2017,TRUE
+10.1007/s12559-017-9464-6,Imperial College London,2017,TRUE
+10.1007/s00542-017-3359-z,Lancaster University,2017,TRUE
+10.1007/s11219-017-9364-8,University of Strathclyde,2017,TRUE
+10.1007/s00421-017-3602-4,Loughborough University,2017,TRUE
+10.1007/s00414-017-1570-1,University of Leicester,2017,TRUE
+10.1007/s10610-017-9341-6,Nottingham Trent University,2017,TRUE
+10.1007/s00382-017-3650-9,University of Reading,2017,TRUE
+10.1007/s00163-017-0255-6,University of Nottingham,2017,TRUE
+10.1007/s11245-017-9475-7,University of Oxford,2017,TRUE
+10.1007/s00259-017-3690-8,King's College London,2017,TRUE
+10.1007/s00125-017-4270-y,University of Oxford,2017,TRUE
+10.1007/s12016-017-8609-4,"Queen Mary, University of London",2017,TRUE
+10.1007/s12160-017-9906-0,King's College London,2017,TRUE
+10.1007/s00424-017-1968-0,Cardiff University,2017,TRUE
+10.1007/s11764-017-0615-2,University of Manchester,2017,TRUE
+10.1007/s00439-017-1791-x,University of Cambridge,2017,TRUE
+10.1007/s11102-017-0804-z,University of Manchester,2017,TRUE
+10.1007/s00439-017-1792-9,Newcastle University,2017,TRUE
+10.1007/s12117-017-9305-8,University of Manchester,2017,TRUE
+10.1007/s10554-017-1138-7,University of Leeds,2017,TRUE
+10.1007/s10584-017-1966-4,University of Reading,2017,TRUE
+10.1007/s10853-017-1114-6,Swansea University,2017,TRUE
+10.1007/s10549-017-4267-8,University of Nottingham,2017,TRUE
+10.1007/s00216-017-0352-4,Queen's University of Belfast,2017,TRUE
+10.1007/s10551-017-3540-4,"Queen Mary, University of London",2017,TRUE
+10.1007/s11238-017-9600-5,University of York,2017,TRUE
+10.1007/s00394-017-1454-7,Northumbria University,2017,TRUE
+10.1007/s00248-017-0982-2,King's College London,2017,TRUE
+10.1007/s11085-017-9774-9,University of Nottingham,2017,TRUE
+10.1140/epja/i2017-12224-7,University of West of Scotland,2017,TRUE
+10.1140/epjb/e2017-70586-9,Imperial College London,2017,TRUE
+10.1140/epje/i2017-11536-2,University of Warwick,2017,TRUE
+10.1007/s40273-017-0511-7,University of Oxford,2017,TRUE

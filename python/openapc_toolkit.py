@@ -1052,7 +1052,8 @@ def get_unified_journal_title(journal_full_title):
         "Neurology - Neuroimmunology Neuroinflammation": "Neurology: Neuroimmunology & Neuroinflammation",
         "eneuro": "eNeuro",
         "The Journal of Experimental Biology": "Journal of Experimental Biology",
-        "The Plant Cell Online": "The Plant Cell"
+        "The Plant Cell Online": "The Plant Cell",
+        "Journal of Agricultural, Biological, and Environmental Statistics": "Journal of Agricultural, Biological and Environmental Statistics"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
