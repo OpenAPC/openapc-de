@@ -1,6 +1,6 @@
 Institution;Period;Rechnungssumme;DOI;Hybrid;Publisher;Journaltitle;ISSN;URL
 FZJ-ZB;2016;1200.52;10.3389/fpsyg.2015.02045;FALSE;Frontiers;Frontiers in Psychology;;
-FZJ-ZB;2016;1165.00;10.1038/srep19513;FALSE;Nature Publishing Group;Scientific Reports;;
+
 FZJ-ZB;2016;1193.84;10.3389/fbioe.2016.00046;FALSE;Frontiers;Frontiers in Bioengineering and Biotechnology;;
 FZJ-ZB;2016;1172.05;10.3389/fnana.2016.00057;FALSE;Frontiers;Frontiers in Neuroanatomy;;
 FZJ-ZB;2016;1150.46;10.3389/fnins.2016.00008;FALSE;Frontiers;Frontiers in Neuroscience;;
@@ -90,7 +90,7 @@ FZJ-ZB;2016;1165.00;10.1038/srep32104;FALSE;Nature Publishing Group;Scientific R
 FZJ-ZB;2016;1950.00;10.1088/0022-3727/49/29/294003;TRUE;Institute of Physics (IOP);Journal of Physics D: Applied Physics;;
 FZJ-ZB;2016;1396.00;10.1186/s12934-016-0433-7;FALSE;Biomed Central (BMC);Microbial Cell Factories;;
 FZJ-ZB;2016;900.00;10.1093/nar/gkw692;FALSE;Oxford University Press;Nucleic Acid Research;;
-FZJ-ZB;2016;1396.00;10.1186/s12934-016-0433-7;FALSE;Biomed Central (BMC);Microbial Cell Factories;;
+
 FZJ-ZB;2016;1165.00;10.1038/srep32250;FALSE;Nature Publishing Group;Scientific Reports;;
 FZJ-ZB;2016;1340.00;10.1186/s13287-015-0098-x;FALSE;Biomed Central (BMC);Stem Cell Research and Therapy;;
 FZJ-ZB;2016;0.00;10.3390/coatings6040049;FALSE;MDPI;Coatings;;
