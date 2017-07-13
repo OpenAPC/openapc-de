@@ -11,7 +11,8 @@ PUBLISHER_IDENTITY = [
     (["Wiley-Blackwell"], ["EMBO"]),
     (["Pion Ltd"], ["SAGE Publications"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
-    (["Informa Healthcare"], ["Informa UK Limited"]) # Usage very inconsistent in crossref data
+    (["Informa Healthcare"], ["Informa UK Limited"]), # Usage very inconsistent in crossref data
+    (["GeoScienceWorld"], ["Mineralogical Society of America"])
 ]
 
 
@@ -38,6 +39,7 @@ JOURNAL_OWNER_CHANGED = {
     "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
     "2162-2531": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # "Molecular Therapy-Nucleic Acids"
     "0009-9236": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics
+    "1940-0829": ["Mongabay", "SAGE Publications"] # Tropical Conservation Science, acquired by SAGE in 08/2016
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -56,7 +58,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0001-4966", # The Journal of the Acoustical Society of America, archives hybrid and non-hybrid sub-journals
     "0887-0446", # Psychology & Health, status unclear -> Possible mistake in Konstanz U data
     "0066-4804", # Antimicrobial Agents and Chemotherapy -> delayed OA journal. Borderline case, needs further discussion
-    "0022-1430" # Journal of Glaciology, Gold OA since 2016
+    "0022-1430", # Journal of Glaciology, Gold OA since 2016
+    "1467-7644", # Plant Biotechnology Journal, Gold OA since 2016
+    "2046-2069" # RSC Advances, Gold OA since 01/2017
 ]
 
 class RowObject(object):
