@@ -1,6 +1,6 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Goettingen U",2016,178.5,"10.3897/phytokeys.58.5847",FALSE,"Pensoft Publishers","PhytoKeys","1314-2003","1314-2011","1314-2003","1314-2003","http://creativecommons.org/licenses/by/4.0/",TRUE,"26884707","PMC4743016","ut:000369360700006",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
+"Goettingen U",2016,874.35,"10.1155/2016/6893137",FALSE,"Hindawi Publishing Corporation","Journal of Nutrition and Metabolism","2090-0724","2090-0724","2090-0732","2090-0724","http://creativecommons.org/licenses/by/4.0/",TRUE,"26904278","PMC4745283","ut:000377889200001",NA,TRUE
 "Goettingen U",2016,655.77,"10.1155/2016/4903749",FALSE,"Hindawi Publishing Corporation","International Journal of Forestry Research","1687-9368","1687-9368","1687-9376","1687-9368","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Goettingen U",2016,1661.24,"10.1186/s12863-016-0327-z",FALSE,"Springer Nature","BMC Genetics","1471-2156",NA,"1471-2156","1471-2156",NA,TRUE,"26747197","PMC4706708","ut:000367905500001",NA,TRUE
 "Goettingen U",2016,651.24,"10.7717/peerj.1619",FALSE,"PeerJ","PeerJ","2167-8359",NA,"2167-8359","2167-8359","http://creativecommons.org/licenses/by/4.0/",TRUE,"26966644","PMC4783760","ut:000369406400004",NA,TRUE
@@ -11,7 +11,7 @@
 "Goettingen U",2016,1594.6,"10.1186/s12873-016-0069-2",FALSE,"Springer Nature","BMC Emergency Medicine","1471-227X",NA,"1471-227X","1471-227X",NA,TRUE,"26830474","PMC4734868","ut:000378121200002",NA,TRUE
 "Goettingen U",2016,1618.4,"10.1038/cddiscovery.2016.12",FALSE,"Springer Nature","Cell Death Discovery","2058-7716",NA,"2058-7716","2058-7716",NA,TRUE,"27551506","PMC4979493",NA,NA,FALSE
 "Goettingen U",2016,482.39,"10.3390/ani6020014",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615",NA,TRUE,"26901229","PMC4773741",NA,NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
+"Goettingen U",2016,139.14,NA,FALSE,"European Centre for Research, Training and Development, United Kingdom","International Journal of Non-Governmental Organizations and Essays","2514-9245",NA,NA,"2514-9237",NA,FALSE,NA,NA,NA,"http://goedoc.uni-goettingen.de/goescholar/handle/1/13114",FALSE
 "Goettingen U",2016,1661.24,"10.1186/s12883-016-0543-1",FALSE,"Springer Nature","BMC Neurology","1471-2377",NA,"1471-2377","1471-2377",NA,TRUE,"26852234","PMC4744425","ut:000369361200001",NA,TRUE
 "Goettingen U",2016,1999.2,"10.1002/jcsm.12106",FALSE,"Wiley-Blackwell","Journal of Cachexia, Sarcopenia and Muscle","2190-5991",NA,NA,"2190-5991","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"27128291","PMC4799863","ut:000373200500010",NA,FALSE
 "Goettingen U",2016,1666,"10.1186/s40413-016-0093-4",FALSE,"Springer Nature","World Allergy Organization Journal","1939-4551",NA,"1939-4551","1939-4551",NA,TRUE,"26904156","PMC4745161","ut:000370024300001",NA,TRUE
@@ -186,7 +186,6 @@
 "Goettingen U",2016,303.45,"10.3897/zookeys.529.6421",FALSE,"Pensoft Publishers","ZooKeys","1313-2970","1313-2989","1313-2970","1313-2970","http://creativecommons.org/licenses/by/4.0/",TRUE,"26692794","PMC4668901","ut:000363702600003",NA,TRUE
 "Goettingen U",2016,2426.37,"10.1371/journal.pgen.1006098",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"27341336","PMC4920419","ut:000379347100018",NA,TRUE
 "Goettingen U",2016,3002.66,"10.18632/oncotarget.11650",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"27572314","PMC5325399","ut:000387167800072",NA,FALSE
-"",,,"","","","","","","","","","","","","","",""
 "Goettingen U",2016,2388.28,"10.1371/journal.pgen.1006274",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"27611684","PMC5017785","ut:000386069000012",NA,TRUE
 "Goettingen U",2016,2161.04,"10.1186/s12915-016-0304-z",FALSE,"Springer Nature","BMC Biology","1741-7007",NA,"1741-7007","1741-7007",NA,TRUE,"27751175","PMC5067906","ut:000385883900002",NA,TRUE
 "Goettingen U",2016,4403,"10.1038/ncomms13137",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"27725673","PMC5062595","ut:000385546700001",NA,TRUE
@@ -197,5 +196,5 @@
 "Goettingen U",2016,2161.04,"10.1186/s13073-016-0372-2",FALSE,"Springer Nature","Genome Medicine","1756-994X",NA,"1756-994X","1756-994X",NA,TRUE,NA,NA,"ut:000387622000001",NA,TRUE
 "Goettingen U",2016,3186.3,"10.18632/oncotarget.13887",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"27965462","PMC5356880","ut:000391506300114",NA,FALSE
 "Goettingen U",2016,3927,"10.1038/s41526-016-0007-3",FALSE,"Springer Nature","npj Microgravity","2373-8065",NA,"2373-8065","2373-8065","http://creativecommons.org/licenses/by/4.0",TRUE,"28649621","PMC5460250","ut:000391632100001",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
+"Goettingen U",2016,2023.45,NA,FALSE,"OMICS Publishing Group","Journal of Thrombosis and Circulation","2572-9462",NA,NA,"2572-9462",NA,FALSE,NA,NA,NA,"http://goedoc.uni-goettingen.de/goescholar/handle/1/14210",FALSE
 "Goettingen U",2016,4830,"10.1016/j.celrep.2016.09.058",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"27720640","PMC5080600","ut:000385853600013",NA,TRUE
