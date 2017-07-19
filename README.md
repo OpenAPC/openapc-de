@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 36,217 open access journal articles, amounting to € 68,576,016 and contributed by 94 institutions.
+At the moment this project provides cost data on 36,217 open access journal articles, amounting to € 68,576,189 and contributed by 94 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -159,7 +159,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 This dataset contains information on 36,217 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 94 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 68,576,016. The average payment was € 1,893  and the median was € 1,684.
+In total, publication fee spending covered by the Open APC initiative amounted to € 68,576,189. The average payment was € 1,893  and the median was € 1,684.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -173,7 +173,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-20,568 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 29,589,086, including value-added tax; the average payment was € 1,439 (median =  € 1,367, SD = € 662).
+20,568 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 29,589,260, including value-added tax; the average payment was € 1,439 (median =  € 1,367, SD = € 662).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -181,7 +181,7 @@ The following table summarises institutional spending on articles published in f
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|MPG                                         |    3,188|             4,181,631|   1,312 (469)|  1,193|        69 - 7,419|
+|MPG                                         |    3,189|             4,182,944|   1,312 (468)|  1,193|        69 - 7,419|
 |Wellcome Trust                              |    1,764|             3,262,045|   1,849 (900)|  1,628|       165 - 5,486|
 |FWF - Austrian Science Fund                 |    1,017|             1,542,862|   1,517 (741)|  1,398|       100 - 5,405|
 |UCL                                         |      888|             1,407,377|   1,585 (780)|  1,497|        88 - 5,630|
@@ -190,7 +190,7 @@ The following table summarises institutional spending on articles published in f
 |Freiburg U                                  |      623|               871,696|   1,399 (422)|  1,449|        50 - 2,501|
 |Wuerzburg U                                 |      562|               749,032|   1,333 (417)|  1,309|       105 - 2,514|
 |TU Muenchen                                 |      551|               713,150|   1,294 (484)|  1,439|       106 - 2,122|
-|OpenAIRE                                    |      544|               789,670|   1,452 (423)|  1,413|       209 - 2,086|
+|OpenAIRE                                    |      543|               788,530|   1,452 (423)|  1,413|       209 - 2,086|
 |KIT                                         |      542|               705,673|   1,302 (528)|  1,340|        69 - 3,731|
 |Regensburg U                                |      484|               652,522|   1,348 (564)|  1,254|        77 - 4,403|
 |Giessen U                                   |      415|               590,189|   1,422 (652)|  1,346|        81 - 4,498|
