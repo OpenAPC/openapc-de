@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 36,217 open access journal articles, amounting to € 68,576,189 and contributed by 94 institutions.
+At the moment this project provides cost data on 36,227 open access journal articles, amounting to € 68,609,278 and contributed by 94 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -157,9 +157,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 36,217 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 94 research performing institutions and research funders. 
+This dataset contains information on 36,227 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 94 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 68,576,189. The average payment was € 1,893  and the median was € 1,684.
+In total, publication fee spending covered by the Open APC initiative amounted to € 68,609,278. The average payment was € 1,894  and the median was € 1,685.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -173,7 +173,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-20,568 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 29,589,260, including value-added tax; the average payment was € 1,439 (median =  € 1,367, SD = € 662).
+20,575 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 29,610,438, including value-added tax; the average payment was € 1,439 (median =  € 1,367, SD = € 663).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -256,6 +256,7 @@ The following table summarises institutional spending on articles published in f
 |Northumbria University                      |       22|                55,286| 2,513 (1,590)|  1,638|     1,186 - 5,211|
 |University of Bath                          |       21|                30,539|   1,454 (675)|  1,257|       416 - 2,830|
 |ICR                                         |       13|                27,313| 2,101 (1,113)|  1,638|     1,218 - 5,211|
+|IST Austria                                 |       13|                30,578| 2,352 (1,608)|  1,632|       562 - 5,412|
 |University of Sussex                        |       13|                26,551| 2,042 (1,292)|  1,253|       881 - 4,691|
 |Aston University                            |       12|                27,424| 2,285 (1,197)|  1,793|     1,454 - 4,797|
 |Bangor University                           |       10|                17,110|   1,711 (568)|  1,814|       937 - 2,663|
@@ -263,7 +264,6 @@ The following table summarises institutional spending on articles published in f
 |Royal Holloway                              |        9|                12,714|   1,413 (439)|  1,244|       928 - 2,349|
 |Plymouth University                         |        8|                 9,936|   1,242 (348)|  1,220|       638 - 1,714|
 |TU Clausthal                                |        8|                 6,999|     875 (514)|    918|       181 - 1,724|
-|IST Austria                                 |        6|                 9,400|   1,567 ( 79)|  1,556|     1,450 - 1,676|
 |Cranfield University                        |        5|                 6,557|   1,311 (723)|  1,688|       234 - 1,975|
 |INM - Leibniz-Institut für Neue Materialien |        5|                 5,744|   1,149 (560)|  1,305|       237 - 1,679|
 |University of Portsmouth                    |        5|                 7,706|   1,541 (373)|  1,354|     1,209 - 1,973|
@@ -280,7 +280,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 15,649 open access articles being published in hybrid journals. Total expenditure amounts to  38,986,929 €. Average  fee is 2,491 € and the median 2,479 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 15,652 open access articles being published in hybrid journals. Total expenditure amounts to  38,998,840 €. Average  fee is 2,492 € and the median 2,479 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -341,6 +341,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of Surrey                        |        5|                15,253|   3,051 (478)|  2,807|     2,748 - 3,880|
 |LSE                                         |        4|                 5,908|   1,477 (958)|  1,354|       616 - 2,583|
 |Duisburg-Essen U                            |        3|                 7,854|   2,618 (  0)|  2,618|     2,618 - 2,618|
+|IST Austria                                 |        3|                11,911| 3,970 (1,267)|  3,468|     3,031 - 5,412|
 |Hannover U                                  |        2|                 2,646|   1,323 (  0)|  1,323|     1,323 - 1,323|
 |MPG                                         |        2|                 1,558|     779 ( 23)|    779|       763 -   795|
 |Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|     1,581 - 1,581|
