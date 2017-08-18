@@ -90,6 +90,8 @@ def main():
         
     dialect = csv_analysis.dialect
     
+    has_header = csv_analysis.has_header
+    
     csv_file = open(args.apc_file, "r")
 
     reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
@@ -114,7 +116,7 @@ def main():
     print str(itself) + " ISSNs pointing to itself as ISSN-L, " + str(other) + " to another value."
     oat.print_g("Starting enrichment...")
     
-    issn_matches = issn_p_matches = issn_e_matches = unmatched = different = 0
+    issn_matches = issn_p_matches = issn_e_matches = unmatched = different = corrections = 0
     enriched_lines = []
     for line in reader:
         if len(line) == 0:
@@ -126,15 +128,24 @@ def main():
         target = None
         if issn in issn_l_dict:
             target = issn_l_dict[issn]
-            line[10] = target
+            corrected_target = oat.get_corrected_issn_l(target)
+            if corrected_target != target:
+                corrections += 1
+            line[10] = corrected_target
             issn_matches += 1
         elif issn_p in issn_l_dict:
             target = issn_l_dict[issn_p]
-            line[10] = target
+            corrected_target = oat.get_corrected_issn_l(target)
+            if corrected_target != target:
+                corrections += 1
+            line[10] = corrected_target
             issn_p_matches += 1
         elif issn_e in issn_l_dict:
             target = issn_l_dict[issn_e]
-            line[10] = target
+            corrected_target = oat.get_corrected_issn_l(target)
+            if corrected_target != target:
+                corrections += 1
+            line[10] = corrected_target
             issn_e_matches += 1
         else:
             unmatched += 1
@@ -142,10 +153,10 @@ def main():
             different += 1
         enriched_lines.append(line)
     
-    print "{} issn_l values mapped by issn, {} by issn_p, {} by issn_e. {} could not be assigned.\n In {} cases the ISSN-L was different from all existing ISSN values".format(issn_matches, issn_p_matches, issn_e_matches, unmatched, different)
+    print "{} issn_l values mapped by issn, {} by issn_p, {} by issn_e. {} could not be assigned.\n{} issn_l values were corrected during the process.\n In {} cases the ISSN-L was different from all existing ISSN values".format(issn_matches, issn_p_matches, issn_e_matches, unmatched, corrections, different)
 
     with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
+        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, has_header)
         writer.write_rows(enriched_lines)
             
 
