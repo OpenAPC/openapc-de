@@ -380,7 +380,7 @@ Indexing coverage
 |DOI                        |  99.63%       |
 |PubMed ID                  |  79.05%      |
 |PubMed Central ID          |  73.64%     |
-|Web of Science record ID   | 90.74%      |
+|Web of Science record ID   | 91.25%      |
 
 
 
