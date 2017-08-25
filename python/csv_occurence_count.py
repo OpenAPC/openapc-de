@@ -52,7 +52,11 @@ def main():
     occurence_dict = OrderedDict()
 
     for line in content:
-        value = line[args.count_column]
+        try:
+            value = line[args.count_column]
+        except IndexError as ie:
+            print "IndexError ({}) at line {}".format(ie.message, line)
+            sys.exit()
         if value not in occurence_dict:
             occurence_dict[value] = 1
         else:
