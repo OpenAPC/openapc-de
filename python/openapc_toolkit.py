@@ -73,7 +73,7 @@ class UnicodeDictReader(object):
 
     def next(self):
         row = self.reader.next()
-        return {k: unicode(v, "utf-8") for (k, v) in row.iteritems()}
+        return {unicode(k, "utf-8"): unicode(v, "utf-8") for (k, v) in row.iteritems()}
 
     def __iter__(self):
         return self
