@@ -19,30 +19,30 @@ Preprocessed variant of the original files. As OpenAPC data files require 5 spec
 
 | JISC column                                         | Used in                   | Usage                                           |  
 |:----------------------------------------------------|---------------------------|------------------------------------------------:|
-| DOI                                                 | preprocessing, enrichment | mapped to column "doi", record deletion         |
-| Drop?                                               | preprocessing             | record deletion                                 |
-| Type of publication                                 | preprocessing             | record deletion                                 |
-| Date of APC payment                                 | preprocessing             | generation of 'period' column                   |
-| Date of publication                                 | preprocessing             | generation of 'period' column                   |
-| Date of initial application by author               | preprocessing             | generation of 'period' column                   |
-| Date of APC payment                                 | preprocessing             | generation of 'period' column                   |
 | APC paid (actual currency) including VAT if charged | preprocessing             | generation of 'euro' column                     |
+| APC paid (£) including VAT (calculated)             | preprocessing             | generation of 'euro' column                     |
 | Currency of APC                                     | preprocessing             | generation of 'euro' column                     |
-| APC paid (£) including VAT if charged               | preprocessing             | generation of 'euro' column                     |
+| DOI                                                 | preprocessing, enrichment | mapped to column "doi", record deletion         |
+| Date of APC payment                                 | preprocessing             | generation of 'period' column                   |
+| Date of initial application by author               | preprocessing             | generation of 'period' column                   |
+| ISSN0                                               | enrichment                | mapped to column "issn"                         |
 | Institution                                         | enrichment                | mapped to column "institution"                  |
-| PubMed Central (PMC) ID)                            | enrichment                | mapped to column "pmcid"                        |
+| Journal                                             | enrichment                | mapped to column "journal_full_title"           |
+| Licence                                             | enrichment                | mapped to column "license_ref"                  |
+| PubMed Central (PMC) ID                             | enrichment                | mapped to column "pmcid"                        |
 | PubMed ID                                           | enrichment                | mapped to column "pmid"                         |
 | Publisher                                           | enrichment                | mapped to column "publisher"                    |
-| Journal                                             | enrichment                | mapped to column "journal_full_title"           |
-| ISSN0                                               | enrichment                | mapped to column "issn"                         |
-| Licence                                             | enrichment                | mapped to column "license_ref"                  |
+| TCO year                                            | preprocessing             | generation of 'period' column                   |
+| Type of publication                                 | preprocessing             | record deletion                                 |
+| Drop?                                               | preprocessing             | record deletion                                 |
+| Year of publication                                 | preprocessing             | generation of 'period' column                   |
  
 2. All rows without a valid entry in the 'DOI' column were removed (Note that for this and every following row removal steps the line in question was replaced by a comma sequence, so line numbers in the preprocessed file still correspond to their counterpart in the original file).
 3. All rows with a '1' in the 'Drop?' column were removed, these entries were identified as [removable duplicates](https://nbviewer.jupyter.org/github/kshamash/Article-processing-charges/blob/master/Autogenerate%20APC%20report.ipynb#De-duplication) by JISC. Note that JISC's de-duplication rules, although being compatible with OpenAPC's, do not resolve every duplicate case, so this would require additional efforts on our side later on (OpenAPC enforces a strict [no-duplicate](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing#interdependent-tests) policy on DOIs in its datasets).
 4. All rows containing one of the following RIOXX terms in the 'Type of publication' column were removed: 'Book', 'Book chapter', 'Book edited', 'Conference Paper/Proceeding/Abstract', 'Letter', 'Monograph'.
-5. The 'period' column was added. Since its definition by the OpenAPC data schema is 'Year of APC payment', the value was copied from one of the 'date' columns using the following order (We took the value from the highest ranking non-empty column, formatted as YYYY):
+5. The 'period' column was added. Since its definition by the OpenAPC data schema is 'Year of APC payment', the value was copied from one of the 'date' columns using the following order (We took the value from the highest ranking non-empty column, optionally formatted as YYYY):
     - Date of APC payment
-    - Date of publication
+    - Year of publication
     - Date of initial application by author
     - TCO year
 6. The 'is_hybrid' column was added, but initially left empty. Assigning journal hybrid status was postponed to post-enrichment (see below).
@@ -51,8 +51,8 @@ Preprocessed variant of the original files. As OpenAPC data files require 5 spec
         - if 'Currency of APC' is 'EUR', use the value directly
         - if 'Currency of APC' is any other non-null value (AUD, CAD, CHF, GBP, JPY, USD), perform a conversion:
             - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the specific conversion rate to Euro for that day (via [fixer.io](http://fixer.io/))
-            - otherwise, use the year value in 'period' to determine the average yearly conversion rate for the currency in question.
-    2. if 'APC paid (£) including VAT if charged' is a numerical value larger than 0, perform a conversion:
+            - otherwise, use the year value in 'period' to determine the average yearly conversion rate for the currency in question (see below for details).
+    2. if 'APC paid (£) including VAT (calculated)' is a numerical value larger than 0, perform a conversion:
         - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the £ -> € conversion rate for that day (via [fixer.io](http://fixer.io/))
         - otherwise, use the year value in 'period' to determine the average yearly £ -> € conversion rate.
     3. otherwise, remove the entry.
