@@ -20,6 +20,7 @@ ARG_HELP_STRINGS = {
 FIELDNAMES = [
     u"APC paid (actual currency) including VAT if charged",
     u"APC paid (£) including VAT (calculated)",
+    u"APC paid (£) including VAT if charged",
     u"Currency of APC",
     u"DOI",
     u"Date of APC payment",
@@ -60,7 +61,7 @@ PERIOD_FIELD_SOURCE = [
 
 AVG_YEARLY_CONVERSION_RATES = {
     "AUD": {"2015": 1.4777},
-    "GBP": {"2005": 0.68380, "2009": 0.89094, "2013": 0.84926, "2014": 0.80612, "2015": 0.72584, "2016": 0.81948},
+    "GBP": {"2005": 0.68380, "2009": 0.89094, "2012": 0.81087, "2013": 0.84926, "2014": 0.80612, "2015": 0.72584, "2016": 0.81948},
     "USD": {"2005": 1.2441, "2013": 1.3281, "2014": 1.3285, "2015": 1.1095, "2016": 1.1069},
     "CHF": {"2013": 1.2311, "2014": 1.2146, "2015": 1.0679, "2016": 1.0902}
 }
@@ -205,6 +206,15 @@ def main():
             shutdown()
         # euro field generation
         apc_orig = line[u"APC paid (actual currency) including VAT if charged"]
+        apc_pound = ""
+        field_used_for_pound_value = ""
+        for field in [u"APC paid (£) including VAT (calculated)", u"APC paid (£) including VAT if charged"]:
+            if is_money_value(line[field]):
+                apc_pound = line[field]
+                field_used_for_pound_value = field
+                break
+        payment_date = line[u"Date of APC payment"]
+        date_match = DATE_DAY_RE.match(payment_date)
         if is_money_value(apc_orig):
             currency = line[u"Currency of APC"].strip()
             if currency == u"EUR":
@@ -212,8 +222,6 @@ def main():
                 msg = "   - Created euro field ('{}') by using the value in 'APC paid (actual currency) including VAT if charged' directly since the currency is EUR"
                 oat.print_g(msg.format(apc_orig))
             elif len(currency) == 3:
-                payment_date = line[u"Date of APC payment"]
-                date_match = DATE_DAY_RE.match(payment_date)
                 if date_match and is_valid_date(date_match):
                     rate = query_fixer(currency, payment_date)
                     euro_value = round(float(apc_orig) / rate, 2)
@@ -238,6 +246,36 @@ def main():
                     msg = "   - Created euro field ('{}') by dividing the value in 'APC paid (actual currency) including VAT if charged' ({}) by {} (avg EUR -> {} conversion rate in {}) [ECB]"
                     msg = msg.format(euro_value, apc_orig, rate, currency, year)
                     oat.print_g(msg)
+        if line[u"euro"] == "" and is_money_value(apc_pound):
+            if date_match and is_valid_date(date_match):
+                rate = query_fixer("GBP", payment_date)
+                euro_value = round(float(apc_pound) / rate, 2)
+                line[u"euro"] = str(euro_value)
+                msg = u"   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (EUR -> GBP conversion rate on {}) [fixer.io]"
+                msg = msg.format(euro_value, field_used_for_pound_value, apc_pound, rate, payment_date)
+                oat.print_g(msg)
+            else:
+                year = line[u"period"]
+                if int(year) >= datetime.datetime.now().year:
+                    delete_line(line)
+                    modified_content.append(line_as_list(line))
+                    oat.print_r(("   - article period ({}) is too recent to determine an average yearly conversion rate, line deleted").format(year))
+                    continue
+                try:
+                    rate = AVG_YEARLY_CONVERSION_RATES["GBP"][year]
+                except KeyError as ke:
+                    oat.print_r("KeyError: An average yearly conversion rate is missing (GBP, " + year + ")")
+                    shutdown()
+                euro_value = round(float(apc_pound) / rate, 2)
+                line[u"euro"] = str(euro_value)
+                msg = u"   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (avg EUR -> GBP conversion rate in {}) [ECB]"
+                msg = msg.format(euro_value, field_used_for_pound_value, apc_pound, rate, year)
+                oat.print_g(msg)
+        if line[u"euro"] == "":
+            delete_line(line)
+            modified_content.append(line_as_list(line))
+            oat.print_r("   - Unable to properly calculate a converted euro value, line deleted")
+            continue
         modified_content.append(line_as_list(line))
     csv_file.close()
     
