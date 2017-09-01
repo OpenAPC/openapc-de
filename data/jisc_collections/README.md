@@ -21,6 +21,7 @@ Preprocessed variant of the original files. As OpenAPC data files require 5 spec
 |:----------------------------------------------------|---------------------------|------------------------------------------------:|
 | APC paid (actual currency) including VAT if charged | preprocessing             | generation of 'euro' column                     |
 | APC paid (£) including VAT (calculated)             | preprocessing             | generation of 'euro' column                     |
+| APC paid (£) including VAT if charged               | preprocessing             | generation of 'euro' column                     |
 | Currency of APC                                     | preprocessing             | generation of 'euro' column                     |
 | DOI                                                 | preprocessing, enrichment | mapped to column "doi", record deletion         |
 | Date of APC payment                                 | preprocessing             | generation of 'period' column                   |
@@ -52,7 +53,7 @@ Preprocessed variant of the original files. As OpenAPC data files require 5 spec
         - if 'Currency of APC' is any other non-null value (AUD, CAD, CHF, GBP, JPY, USD), perform a conversion:
             - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the specific conversion rate to Euro for that day (via [fixer.io](http://fixer.io/))
             - otherwise, use the year value in 'period' to determine the average yearly conversion rate for the currency in question (see below for details).
-    2. if 'APC paid (£) including VAT (calculated)' is a numerical value larger than 0, perform a conversion:
+    2. if 'APC paid (£) including VAT (calculated)' [first option] or 'APC paid (£) including VAT if charged' [second option] is a numerical value larger than 0, perform a conversion:
         - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the £ -> € conversion rate for that day (via [fixer.io](http://fixer.io/))
         - otherwise, use the year value in 'period' to determine the average yearly £ -> € conversion rate.
     3. otherwise, remove the entry.
