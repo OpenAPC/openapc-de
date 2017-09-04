@@ -69,7 +69,15 @@ AVG_YEARLY_CONVERSION_RATES = {
 FIXER_CACHE = {}
 FIXER_CACHE_FILE = None
 
-def delete_line(line_dict):
+delete_reasons = {}
+
+def delete_line(line_dict, reason):
+    global delete_reasons
+    oat.print_r(" -   " + reason + ", line deleted")
+    if reason not in delete_reasons:
+        delete_reasons[reason] = 1
+    else:
+        delete_reasons[reason] += 1
     for key in line_dict:
         line_dict[key] = u""
         
@@ -174,22 +182,19 @@ def main():
         oat.print_b("--- Analysing line " + str(reader.reader.line_num) + " ---")
         # DOI checking
         if len(line[u"DOI"].strip()) == 0:
-            delete_line(line)
+            delete_line(line, u"Empty DOI")
             modified_content.append(line_as_list(line))
-            oat.print_r("   - Empty DOI, line deleted")
             continue 
         # Drop checking
         if line[u"Drop?"] == u"1":
-            delete_line(line)
+            delete_line(line, u"Drop mark found")
             modified_content.append(line_as_list(line))
-            oat.print_r("   - Drop mark found, line deleted")
             continue
         # Publication blacklist checking 
         pub_type = line[u"Type of publication"]
         if pub_type in PUBLICATION_TYPES_BL:
-            delete_line(line)
+            delete_line(line, "Blacklisted pub type ('" + pub_type + "')")
             modified_content.append(line_as_list(line))
-            oat.print_r("   - Blacklisted publication type ('" + pub_type + "'), line deleted")
             continue
         # period field generation
         for source_field in PERIOD_FIELD_SOURCE:
@@ -232,9 +237,9 @@ def main():
                 else:
                     year = line[u"period"]
                     if int(year) >= datetime.datetime.now().year:
-                        delete_line(line)
+                        del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
+                        delete_line(line, del_msg)
                         modified_content.append(line_as_list(line))
-                        oat.print_r(("   - article period ({}) is too recent to determine an average yearly conversion rate, line deleted").format(year))
                         continue
                     try:
                         rate = AVG_YEARLY_CONVERSION_RATES[currency][year]
@@ -257,9 +262,9 @@ def main():
             else:
                 year = line[u"period"]
                 if int(year) >= datetime.datetime.now().year:
-                    delete_line(line)
+                    del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
+                    delete_line(line, del_msg)
                     modified_content.append(line_as_list(line))
-                    oat.print_r(("   - article period ({}) is too recent to determine an average yearly conversion rate, line deleted").format(year))
                     continue
                 try:
                     rate = AVG_YEARLY_CONVERSION_RATES["GBP"][year]
@@ -272,9 +277,8 @@ def main():
                 msg = msg.format(euro_value, field_used_for_pound_value, apc_pound, rate, year)
                 oat.print_g(msg)
         if line[u"euro"] == "":
-            delete_line(line)
+            delete_line(line, "Unable to properly calculate a converted euro value")
             modified_content.append(line_as_list(line))
-            oat.print_r("   - Unable to properly calculate a converted euro value, line deleted")
             continue
         modified_content.append(line_as_list(line))
     csv_file.close()
@@ -282,6 +286,17 @@ def main():
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, None, False, True)
         writer.write_rows(modified_content)
+        
+    print "\n\nPreprocessing finished, deleted articles overview:"
+    
+    sorted_reasons = sorted(delete_reasons.items(), key=lambda x: x[1])
+    sorted_reasons.reverse()
+    for item in sorted_reasons:
+        oat.print_r(item[0].ljust(72) + str(item[1]))
+    oat.print_r("-------------------------------------------------")
+    oat.print_r("Total".ljust(72) + str(sum(delete_reasons.values())))
+    
+    shutdown()
 
 if __name__ == '__main__':
     main()
