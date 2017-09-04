@@ -2,12 +2,12 @@
 # -*- coding: UTF-8 -*-
 
 import argparse
+import codecs
 import datetime
 import json
 from os import path
 import re
 import sys
-
 import urllib2
 
 ARG_HELP_STRINGS = {
@@ -75,7 +75,7 @@ DELETE_REASONS = {}
 NO_DECORATIONS = False
 
 def delete_line(line_dict, reason):
-    _print("r", " -   " + reason + ", line deleted")
+    _print("r", "   - " + reason + ", line deleted")
     if reason not in DELETE_REASONS:
         DELETE_REASONS[reason] = 1
     else:
@@ -309,4 +309,6 @@ def main():
 if __name__ == '__main__' and __package__ is None:
     sys.path.append(path.dirname(path.dirname(path.dirname(path.dirname(path.abspath(__file__))))))
     import openapc_toolkit as oat
+    utf8_writer = codecs.getwriter('utf8')
+    sys.stdout = utf8_writer(sys.stdout)
     main()
