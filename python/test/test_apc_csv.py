@@ -1,6 +1,6 @@
 import pytest
 
-import openapc_toolkit as oat
+from .. import openapc_toolkit as oat
 
 # A whitelist for denoting publisher identity (Possible consequence of business buy outs or fusions)
 # If one publisher name is stored in the left list of an entry and another in the right one,
