@@ -927,7 +927,7 @@ def get_column_type_from_whitelist(column_name):
         "is_hybrid": ["is_hybrid", "is hybrid", "hybrid"],
         "publisher": ["publisher"],
         "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title", "journaltitle"],
-        "issn": ["issn", "issn.1"],
+        "issn": ["issn", "issn.1", "issn0"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
         "issn_l": ["issn_l"],
