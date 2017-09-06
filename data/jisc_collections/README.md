@@ -13,9 +13,9 @@ Original file, downloaded directly from figshare. The CSV version is an export o
 
 ### 2. preprocessed
 
-Preprocessed variant of the original files. As OpenAPC data files require 5 specific mandatory data fields (institution, period, euro, doi, is_hybrid) to make them automatically enrichable, several steps were conducted to make the original JISC file compatible with the OpenAPC data schema and enrichment routines:
+Preprocessed variants of the original files. As OpenAPC data files require 5 specific mandatory data fields (institution, period, euro, doi, is_hybrid) to make them automatically enrichable, several steps were conducted to make the original JISC file compatible with the OpenAPC data schema and enrichment routines:
 
-1. All columns not relevant to OpenAPC were removed, reducing the file to the following items:
+1. All columns not relevant to OpenAPC were removed, reducing the file to the following items (The interim result of this step is the "columns_removed" file):
 
 | JISC column                                         | Used in                   | Usage                                           |  
 |:----------------------------------------------------|---------------------------|------------------------------------------------:|
@@ -57,6 +57,10 @@ Preprocessed variant of the original files. As OpenAPC data files require 5 spec
         - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the £ -> € conversion rate for that day (via [fixer.io](http://fixer.io/))
         - otherwise, use the year value in 'period' to determine the average yearly £ -> € conversion rate.
     3. otherwise, remove the entry.
+
+Steps 2-7 were executed by an custom python preprocessing script. The script's output log was added to the directory along with the resulting file ("_preprocessed").
+
+8. Rows with DOIs unsuited for enrichment (non-resolving, not listed in crossref or wrong crossref publication type) were removed.
 
 ### 3. enriched
 
