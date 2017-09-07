@@ -1054,7 +1054,19 @@ def get_unified_journal_title(journal_full_title):
         "The Journal of Experimental Biology": "Journal of Experimental Biology",
         "The Plant Cell Online": "The Plant Cell",
         "Journal of Agricultural, Biological, and Environmental Statistics": "Journal of Agricultural, Biological and Environmental Statistics",
-        "PalZ": "Paläontologische Zeitschrift"
+        "PalZ": "Paläontologische Zeitschrift",
+        "Lighting Research and Technology": "Lighting Research & Technology",
+        "The Journal of Infectious Diseases": "Journal of Infectious Diseases",
+        "Planning Practice and Research": "Planning Practice & Research",
+        "Learning and Individual Differences": "Learning & Individual Differences",
+        "Water Science and Technology": "Water Science & Technology",
+        "Antimicrobial Resistance & Infection Control": "Antimicrobial Resistance and Infection Control",
+        "MedChemComm": "Med. Chem. Commun.",
+        "European Journal of Public Health": "The European Journal of Public Health",
+        "Journal of Vacuum Science & Technology B, Nanotechnology and Microelectronics: Materials, Processing, Measurement, and Phenomena": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
+        "Briefings In Bioinformatics": "Briefings in Bioinformatics",
+        "Notes and Records: the Royal Society journal of the history of science": "Notes and Records of the Royal Society",
+        "Journal Of Logic And Computation": "Journal of Logic and Computation"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
