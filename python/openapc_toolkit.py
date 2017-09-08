@@ -1077,7 +1077,9 @@ def get_unified_journal_title(journal_full_title):
         "Research on Language and Social Interaction": "Research on Language & Social Interaction",
         "Psychology and Sexuality": "Psychology & Sexuality",
         "BJA: British Journal of Anaesthesia": "British Journal of Anaesthesia",
-        "Journal of Development Studies": "The Journal of Development Studies"
+        "Journal of Development Studies": "The Journal of Development Studies",
+        "Tellus A: Dynamic Meteorology and Oceanography": "Tellus A",
+        "International journal of methods in psychiatric research": "International Journal of Methods in Psychiatric Research"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
