@@ -73,11 +73,11 @@ def main():
         publisher_new = oat.get_unified_publisher_name(publisher)
         if publisher_new != publisher:
             line[5] = publisher_new
-            msg = "Line {}: Updated publisher name ({} -> {})"
+            msg = u"Line {}: Updated publisher name ({} -> {})"
             oat.print_g(msg.format(line_num, publisher, publisher_new))
         if journal_new != journal:
             line[6] = journal_new
-            msg = "Line {}: Updated journal_full_title ({} -> {})"
+            msg = u"Line {}: Updated journal_full_title ({} -> {})"
             oat.print_g(msg.format(line_num, journal, journal_new))
         line_num += 1
     
