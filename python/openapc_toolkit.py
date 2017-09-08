@@ -1071,12 +1071,13 @@ def get_unified_journal_title(journal_full_title):
         "Health:: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine": "Health: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine",
         "INTERNATIONAL JOURNAL OF SYSTEMATIC AND EVOLUTIONARY MICROBIOLOGY": "International Journal of Systematic and Evolutionary Microbiology",
         "Protein Engineering Design and Selection": "Protein Engineering, Design and Selection",
-        "European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
+        u"European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
         "The Journals of Gerontology: Series A": "The Journals of Gerontology Series A: Biological Sciences and Medical Sciences",
         "MHR: Basic science of reproductive medicine": "Molecular Human Reproduction",
         "Research on Language and Social Interaction": "Research on Language & Social Interaction",
         "Psychology and Sexuality": "Psychology & Sexuality",
-        "BJA: British Journal of Anaesthesia": "British Journal of Anaesthesia"
+        "BJA: British Journal of Anaesthesia": "British Journal of Anaesthesia",
+        "Journal of Development Studies": "The Journal of Development Studies"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
