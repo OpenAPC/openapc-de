@@ -42,9 +42,16 @@ JOURNAL_OWNER_CHANGED = {
     "1940-0829": ["Mongabay", "SAGE Publications"], # Tropical Conservation Science, acquired by SAGE in 08/2016
     "1600-0870": ["Co-Action Publishing", "Informa UK Limited"], # Tellus A
     "0963-6897": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation
+    "1555-3892": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation (electronic)
     "0021-4922": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics
+    "1347-4065": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics (electronic)
     "1445-5781": ["Springer Science + Business Media", "Wiley-Blackwell"], # Reproductive Medicine and Biology
-    "1538-4357": ["American Astronomical Society", "IOP Publishing"] # The Astrophysical Journal
+    "1538-4357": ["American Astronomical Society", "IOP Publishing"], # The Astrophysical Journal
+    "1461-4103": ["Maney Publishing", "Informa UK Limited"], # Environmental Archaeology
+    "1749-6314": ["Maney Publishing", "Informa UK Limited"], # Environmental Archaeology (electronic)
+    "0039-3630": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation
+    "2047-0584": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation (electronic)
+    "0148-396X": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"] # Neurosurgery
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
