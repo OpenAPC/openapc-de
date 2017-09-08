@@ -964,7 +964,8 @@ def get_unified_publisher_name(publisher):
         "Cold Spring Harbor Laboratory": "Cold Spring Harbor Laboratory Press",
         "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
         "Hindawi Limited": "Hindawi Publishing Corporation",
-        "Oxford University Press": "Oxford University Press (OUP)"
+        "Oxford University Press": "Oxford University Press (OUP)",
+        "Wiley": "Wiley-Blackwell"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -1066,7 +1067,16 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Vacuum Science & Technology B, Nanotechnology and Microelectronics: Materials, Processing, Measurement, and Phenomena": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
         "Briefings In Bioinformatics": "Briefings in Bioinformatics",
         "Notes and Records: the Royal Society journal of the history of science": "Notes and Records of the Royal Society",
-        "Journal Of Logic And Computation": "Journal of Logic and Computation"
+        "Journal Of Logic And Computation": "Journal of Logic and Computation",
+        "Health:: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine": "Health: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine",
+        "INTERNATIONAL JOURNAL OF SYSTEMATIC AND EVOLUTIONARY MICROBIOLOGY": "International Journal of Systematic and Evolutionary Microbiology",
+        "Protein Engineering Design and Selection": "Protein Engineering, Design and Selection",
+        "European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
+        "The Journals of Gerontology: Series A": "The Journals of Gerontology Series A: Biological Sciences and Medical Sciences",
+        "MHR: Basic science of reproductive medicine": "Molecular Human Reproduction",
+        "Research on Language and Social Interaction": "Research on Language & Social Interaction",
+        "Psychology and Sexuality": "Psychology & Sexuality",
+        "BJA: British Journal of Anaesthesia": "British Journal of Anaesthesia"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
