@@ -39,7 +39,12 @@ JOURNAL_OWNER_CHANGED = {
     "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
     "2162-2531": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # "Molecular Therapy-Nucleic Acids"
     "0009-9236": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics
-    "1940-0829": ["Mongabay", "SAGE Publications"] # Tropical Conservation Science, acquired by SAGE in 08/2016
+    "1940-0829": ["Mongabay", "SAGE Publications"], # Tropical Conservation Science, acquired by SAGE in 08/2016
+    "1600-0870": ["Co-Action Publishing", "Informa UK Limited"], # Tellus A
+    "0963-6897": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation
+    "0021-4922": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics
+    "1445-5781": ["Springer Science + Business Media", "Wiley-Blackwell"], # Reproductive Medicine and Biology
+    "1538-4357": ["American Astronomical Society", "IOP Publishing"] # The Astrophysical Journal
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
