@@ -72,7 +72,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0066-4804", # Antimicrobial Agents and Chemotherapy -> delayed OA journal. Borderline case, needs further discussion
     "0022-1430", # Journal of Glaciology, Gold OA since 2016
     "1467-7644", # Plant Biotechnology Journal, Gold OA since 2016
-    "2046-2069" # RSC Advances, Gold OA since 01/2017
+    "2046-2069", # RSC Advances, Gold OA since 01/2017
+    "2041-6520", # Chemical Science, Gold OA since 2015
+    "0260-3055", # Annals of Glaciology, Gold OA since 2016
+    "1744-5647", # Journal of Maps, Gold OA since 09/2016
+    "1445-5781" # Reproductive Medicine and Biology, Gold OA since 2017
 ]
 
 class RowObject(object):
