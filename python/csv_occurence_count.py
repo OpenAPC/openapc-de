@@ -55,8 +55,8 @@ def main():
         try:
             value = line[args.count_column]
         except IndexError as ie:
-            print "IndexError ({}) at line {}".format(ie.message, line)
-            sys.exit()
+            oat.print_y("IndexError ({}) at line {}, skipping...".format(ie.message, line))
+            continue
         if value not in occurence_dict:
             occurence_dict[value] = 1
         else:
