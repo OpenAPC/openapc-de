@@ -51,7 +51,7 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
     1. if 'APC paid (actual currency) including VAT if charged' is a numerical value larger than 0:
         - if 'Currency of APC' is 'EUR', use the value directly
         - if 'Currency of APC' is any other non-null value (AUD, CAD, CHF, GBP, JPY, USD), perform a conversion:
-            - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the specific conversion rate to Euro for that day (via [fixer.io](http://fixer.io/), see [here](https://github.com/OpenAPC/openapc-de/python/etc/preprocessing/jisc/_fixer_cache.json) for the cached values used)
+            - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the specific conversion rate to Euro for that day (via [fixer.io](http://fixer.io/), see [here](https://github.com/OpenAPC/openapc-de/blob/master/python/etc/preprocessing/jisc/_fixer_cache.json) for the cached values used)
             - otherwise, use the year value in 'period' to determine the [average yearly conversion rate](https://github.com/OpenAPC/openapc-de/blob/master/python/etc/preprocessing/jisc/jisc_preprocessing.py#L61) for the currency in question as provided by the [ECB](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html).
     2. if 'APC paid (£) including VAT (calculated)' [first option] or 'APC paid (£) including VAT if charged' [second option] is a numerical value larger than 0, perform a conversion:
         - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the £ -> € conversion rate for that day (via [fixer.io](http://fixer.io/))
