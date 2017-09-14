@@ -51,8 +51,8 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
     1. if 'APC paid (actual currency) including VAT if charged' is a numerical value larger than 0:
         - if 'Currency of APC' is 'EUR', use the value directly
         - if 'Currency of APC' is any other non-null value (AUD, CAD, CHF, GBP, JPY, USD), perform a conversion:
-            - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the specific conversion rate to Euro for that day (via [fixer.io](http://fixer.io/), see [here](openapc-de/python/etc/preprocessing/jisc/_fixer_cache.json) for the cached values used)
-            - otherwise, use the year value in 'period' to determine the [average yearly conversion rate](openapc-de/blob/master/python/etc/preprocessing/jisc/jisc_preprocessing.py#L61) for the currency in question as provided by the [ECB](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html).
+            - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the specific conversion rate to Euro for that day (via [fixer.io](http://fixer.io/), see [here](https://github.com/OpenAPC/openapc-de/python/etc/preprocessing/jisc/_fixer_cache.json) for the cached values used)
+            - otherwise, use the year value in 'period' to determine the [average yearly conversion rate](https://github.com/OpenAPC/openapc-de/blob/master/python/etc/preprocessing/jisc/jisc_preprocessing.py#L61) for the currency in question as provided by the [ECB](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html).
     2. if 'APC paid (£) including VAT (calculated)' [first option] or 'APC paid (£) including VAT if charged' [second option] is a numerical value larger than 0, perform a conversion:
         - if 'Date of APC payment' denotes a day (DD-MM-YYYY), use the £ -> € conversion rate for that day (via [fixer.io](http://fixer.io/))
         - otherwise, use the year value in 'period' to determine the average yearly £ -> € conversion rate.
@@ -76,20 +76,22 @@ This is the final file as it was added to the OpenAPC core data. The following s
 
 1. Several duplicates were removed: 
     - Remaining internal duplicates within the jisc file itself
-    - Duplicates with existing OpenAPC [Offsetting](openapc-de/tree/master/data/offsetting) data (Springer Compact articles)
-    - Duplicates with existing data provided by the [Wellcome Trust](openapc-de/tree/master/data/wellcome) (in this case, however, the wellcome data was removed)
+    - Duplicates with existing OpenAPC [Offsetting](https://github.com/OpenAPC/openapc-de/tree/master/data/offsetting) data (Springer Compact articles)
+    - Duplicates with existing data provided by the [Wellcome Trust](https://github.com/OpenAPC/openapc-de/tree/master/data/wellcome) (in this case, however, the wellcome data was removed)
 
 2. As mentioned, the 'is_hybrid' status had to be determined for all entries:
     - Since we had already already processed much of the jisc data [before](https://github.com/OpenAPC/openapc-de/releases/tag/v3.13.0), we could build upon those results and import the status for several DOIs/ISSNs automatically.
     - A second source of information to determine full OA journals was the [ISSN-GOLD-OA](https://doi.org/10.4119/unibi/2913654) dataset created by our colleagues at the [OA Analytics](https://www.intact-project.org/oa_analytics/) project. This table provides ISSNs of journals identified as fully OA and is more comprehensive than the DOAJ.
-    - In contrast to JISC, we did not classify remaining unknown journals as hybrid per default. Instead, those entries were removed from the dataset and listed in a [separate file](openapc-de/data/jisc_collections/final/ALLAPCDATAMERGEDpublicwithnotes_final_not_included_hybrid_status_unknown.csv) for reference and optional inclusion later on.
+    - In contrast to JISC, we did not classify remaining unknown journals as hybrid per default. Instead, those entries were removed from the dataset and listed in a [separate file](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/postprocessed/ALLAPCDATAMERGEDpublicwithnotes_final.csv) for reference and optional inclusion later on.
     
 ### Statistics
 
 The processing reduced the net increase in articles to OpenAPC by a large margin. The following table gives an overview on how many articles were removed for what reason.
 
-Articles in original report: 35698
+Articles in original report: *35698*
+
 Preprocessing:
+
 | Reason for deletion                                                 | Count        |
 |:--------------------------------------------------------------------|-------------:|
 |No DOI                                                               |   - 8454     |
@@ -102,7 +104,7 @@ Preprocessing:
 |Blacklisted pub type ('Letter')                                      |   - 2        |
 |Blacklisted pub type ('Monograph')                                   |   - 1        |
 
-Remaining after Preprocessing:                                           21382  
+Remaining after Preprocessing:                                           *21382* 
 
 Postprocessing:
 
@@ -117,6 +119,6 @@ Postprocessing:
 |Journal Gold OA status unknown                                        | - 1808      |
 |Jisc articles already present in OpenAPC (2014/15 data sets)          | - 10830     |
 
-New articles remaining after Postprocessing:                              6157
+New articles remaining after Postprocessing:                              *6157*
 
 
