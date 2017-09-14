@@ -90,30 +90,33 @@ The processing reduced the net increase in articles to OpenAPC by a large margin
 
 Articles in original report: 35698
 Preprocessing:
-----------------------------------------------------------------------------------
-No DOI                                                                  - 8454
-Unable to properly calculate a converted euro value larger than 0       - 3370
-Drop mark found                                                         - 2400
-Blacklisted pub type ('Conference Paper/Proceeding/Abstract')           - 45
-period (2017) too recent to determine average yearly conversion rate    - 22
-Blacklisted pub type ('Book chapter')                                   - 19
-Blacklisted pub type ('Book')                                           - 3
-Blacklisted pub type ('Letter')                                         - 2
-Blacklisted pub type ('Monograph')                                      - 1
-----------------------------------------------------------------------------------
-Remaining after Preprocessing:                                           21382
+| Reason for deletion                                                 | Count        |
+|:--------------------------------------------------------------------|-------------:|
+|No DOI                                                               |   - 8454     |
+|Unable to properly calculate a converted euro value larger than 0    |   - 3370     |
+|Drop mark found                                                      |   - 2400     |
+|Blacklisted pub type ('Conference Paper/Proceeding/Abstract')        |   - 45       |
+|period (2017) too recent to determine average yearly conversion rate |   - 22       |
+|Blacklisted pub type ('Book chapter')                                |   - 19       |
+|Blacklisted pub type ('Book')                                        |   - 3        |
+|Blacklisted pub type ('Letter')                                      |   - 2        |
+|Blacklisted pub type ('Monograph')                                   |   - 1        |
+
+Remaining after Preprocessing:                                           21382  
 
 Postprocessing:
-----------------------------------------------------------------------------------
-Non-resolving DOIs                                                      - 41
-Duplicates with OpenAPC Offsetting data set (Springer Compact)          - 269
-Springer Compact Status unclear (Possible reporting errors)             - 6
-Remaining internal duplicates within jisc data                          - 156
-Duplicates with Wellcome Trust data                                     - 2109
-Duplicates with other OpenAPC core file data ("Double reporting")       - 6
-Journal Gold OA status unknown                                          - 1808
-Jisc articles already present in OpenAPC (2014/15 data sets)            - 10830
-----------------------------------------------------------------------------------
+
+| Reason for deletion                                                  | Count       |
+|:---------------------------------------------------------------------|------------:|
+|Non-resolving DOIs                                                    | - 41        | 
+|Duplicates with OpenAPC Offsetting data set (Springer Compact)        | - 269       | 
+|Springer Compact Status unclear (Possible reporting errors)           | - 6         |
+|Remaining internal duplicates within jisc data                        | - 156       |
+|Duplicates with Wellcome Trust data                                   | - 2109      |
+|Duplicates with other OpenAPC core file data ("Double reporting")     | - 6         |
+|Journal Gold OA status unknown                                        | - 1808      |
+|Jisc articles already present in OpenAPC (2014/15 data sets)          | - 10830     |
+
 New articles remaining after Postprocessing:                              6157
 
 
