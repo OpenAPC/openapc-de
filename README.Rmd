@@ -117,6 +117,22 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Universitat de Barcelona](http://www.ub.edu/web/ub/en/index.html)
 
+## Institutions from Sweden (via [Open APC Sweden](https://github.com/Kungbib/openapc-se)):
+
+- Chalmers University of Technology
+- Dalarna University College
+- Karolinska Institutet
+- KTH Royal Institute of Technology
+- Linköping University
+- Luleå University of Technology
+- Lund University
+- Malmö University College
+- Stockholm University
+- Swedish University of Agricultural Sciences
+- Umeå University
+- University of Gothenburg
+- Uppsala University
+
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
