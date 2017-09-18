@@ -51,7 +51,8 @@ JOURNAL_OWNER_CHANGED = {
     "1749-6314": ["Maney Publishing", "Informa UK Limited"], # Environmental Archaeology (electronic)
     "0039-3630": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation
     "2047-0584": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation (electronic)
-    "0148-396X": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"] # Neurosurgery
+    "0148-396X": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"], # Neurosurgery
+    "2047-217X": ["Springer Nature", "Oxford University Press (OUP)"] # GigaScience
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
