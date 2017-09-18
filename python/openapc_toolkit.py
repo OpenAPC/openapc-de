@@ -99,13 +99,18 @@ class OpenAPCUnicodeWriter(object):
         has_header: Determines if the csv file has a header. If that's the case,
                     The values in the first row will all be quoted regardless
                     of any quotemask.
+        minimal_quotes: Quote values containing a comma even if a quotemask
+                        is False for that column (Might produce a malformed
+                        csv file otherwise). 
     """
 
-    def __init__(self, f, quotemask=None, openapc_quote_rules=True, has_header=True):
+    def __init__(self, f, quotemask=None, openapc_quote_rules=True,
+                 has_header=True, minimal_quotes=True):
         self.outfile = f
         self.quotemask = quotemask
         self.openapc_quote_rules = openapc_quote_rules
         self.has_header = has_header
+        self.minimal_quotes = minimal_quotes
         self.encoder = codecs.getincrementalencoder("utf-8")()
 
     def _prepare_row(self, row, use_quotemask):
@@ -118,7 +123,7 @@ class OpenAPCUnicodeWriter(object):
                 row[index] = u'"' + row[index] + u'"'
                 continue
             if index < len(self.quotemask):
-                if self.quotemask[index]:
+                if self.quotemask[index] or u"," in row[index] and self.minimal_quotes:
                     row[index] = u'"' + row[index] + u'"'
         return row
 
