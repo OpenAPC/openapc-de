@@ -61,6 +61,13 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
 Steps 2-7 were executed by an custom python [preprocessing script](https://github.com/OpenAPC/openapc-de/blob/master/python/etc/preprocessing/jisc/jisc_preprocessing.py). The script's [output log](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/preprocessed/preprocessing.log) was added to the directory along with the resulting file for reference.
 
 8. Rows with DOIs unsuited for enrichment (non-resolving, not listed in crossref or wrong crossref publication type) were removed.
+9. Inconsistent institutional names were normalised: 
+
+|  designations                                           | normalised to                |
+|:--------------------------------------------------------|-----------------------------:|
+| "Newcastle University", "University of Newcastle"       | "University of Newcastle"    |
+| "Durham University", "University of Durham"             | "University of Durham"       |
+| "Loughborough University", "University of Loughborough" | "University of Loughborough" |
 
 ### 3. enriched
 
