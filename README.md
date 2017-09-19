@@ -122,7 +122,6 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Bangor University
 - Cardiff University
 - Cranfield University
-- Durham University
 - Goldsmiths
 - Imperial College London
 - Institute of Cancer Research (ICR)
@@ -131,9 +130,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - London School of Economics (LSE)
 - London School of Hygiene & Tropical Medicine (LSHTM)
 - Lancaster University
-- Loughborough University
 - Manchester Metropolitan University
-- Newcastle University
 - Northumbria University
 - Plymouth University
 - Queen Mary, University of London
