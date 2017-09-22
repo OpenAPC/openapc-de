@@ -37,7 +37,8 @@ ARG_HELP_STRINGS = {
     "other_column": "The numerical index of the column to use in the second " +
                     "file. If omitted, the same index as in the first file " +
                     "is used.",
-    "other_encoding": "The optional encoding of the second CSV file."
+    "other_encoding": "The optional encoding of the second CSV file.",
+    "ignore_case": "Ignore case when comparing values for reordering between two files" 
 }
 
 def main():
@@ -48,6 +49,8 @@ def main():
     parser.add_argument("other_column", type=int, nargs="?", help=ARG_HELP_STRINGS["other_column"])
     parser.add_argument("-e2", "--other_encoding", help=ARG_HELP_STRINGS["other_encoding"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
+    parser.add_argument("-i", "--ignore_case", action="store_true", default=False, 
+                        help=ARG_HELP_STRINGS["ignore_case"])
     parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
     parser.add_argument("-o", "--openapc_quote_rules", 
                         help=ARG_HELP_STRINGS["openapc_quote_rules"],
@@ -88,7 +91,10 @@ def main():
             other_column = args.other_column
             
         for row in second_content:
-            matching_rows = filter(lambda x: x[column] == row[other_column], content)
+            if args.ignore_case:
+                matching_rows = filter(lambda x: x[column].lower() == row[other_column].lower(), content)
+            else:
+                matching_rows = filter(lambda x: x[column] == row[other_column], content)
             rearranged_content += matching_rows
             for matching_row in matching_rows:
                 content.remove(matching_row)

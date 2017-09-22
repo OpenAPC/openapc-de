@@ -2,4 +2,4 @@
 
 <http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/>
 
-Contact: Gerrit Kuehle <mailto:gerrit.kuehle@slub-dresden.de>
+Contact: Open Access-Team SLUB <mailto:openaccess@slub-dresden.de>

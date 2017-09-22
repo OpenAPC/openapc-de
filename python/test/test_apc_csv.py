@@ -1,6 +1,6 @@
 import pytest
 
-import openapc_toolkit as oat
+from .. import openapc_toolkit as oat
 
 # A whitelist for denoting publisher identity (Possible consequence of business buy outs or fusions)
 # If one publisher name is stored in the left list of an entry and another in the right one,
@@ -10,7 +10,9 @@ PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Wiley-Blackwell"], ["EMBO"]),
     (["Pion Ltd"], ["SAGE Publications"]),
-    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"])
+    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
+    (["Informa Healthcare"], ["Informa UK Limited"]), # Usage very inconsistent in crossref data
+    (["GeoScienceWorld"], ["Mineralogical Society of America"])
 ]
 
 
@@ -28,15 +30,29 @@ JOURNAL_OWNER_CHANGED = {
     "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"], # Evolutionary Bioinformatics
     "1574-7891": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology
     "0020-7292": ["Wiley-Blackwell", "Elsevier BV"], # "International Journal of Gynecology & Obstetrics"
-    "1350-6129": ["Informa Healthcare", "Informa UK Limited"], # Amyloid (print)
-    "1744-2818": ["Informa Healthcare", "Informa UK Limited"], # Amyloid
     "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Molecular Therapy
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
     "2000-8066": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
     "1600-0889": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B
-    "0963-8237": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health
-    "1360-0567": ["Informa Healthcare", "Informa UK Limited"], # Journal of Mental Health (electronic)
-    "0038-0261": ["Wiley-Blackwell", "SAGE Publications"] # The Sociological Review
+    "1654-6628": ["Co-Action Publishing", "Informa UK Limited"], # Food & Nutrition Research (print)
+    "1654-661X": ["Co-Action Publishing", "Informa UK Limited"], # Food & Nutrition Research (electronic)
+    "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
+    "2162-2531": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # "Molecular Therapy-Nucleic Acids"
+    "0009-9236": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics
+    "1940-0829": ["Mongabay", "SAGE Publications"], # Tropical Conservation Science, acquired by SAGE in 08/2016
+    "1600-0870": ["Co-Action Publishing", "Informa UK Limited"], # Tellus A
+    "0963-6897": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation
+    "1555-3892": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation (electronic)
+    "0021-4922": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics
+    "1347-4065": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics (electronic)
+    "1445-5781": ["Springer Science + Business Media", "Wiley-Blackwell"], # Reproductive Medicine and Biology
+    "1538-4357": ["American Astronomical Society", "IOP Publishing"], # The Astrophysical Journal
+    "1461-4103": ["Maney Publishing", "Informa UK Limited"], # Environmental Archaeology
+    "1749-6314": ["Maney Publishing", "Informa UK Limited"], # Environmental Archaeology (electronic)
+    "0039-3630": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation
+    "2047-0584": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation (electronic)
+    "0148-396X": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"], # Neurosurgery
+    "2047-217X": ["Springer Nature", "Oxford University Press (OUP)"] # GigaScience
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -55,7 +71,13 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0001-4966", # The Journal of the Acoustical Society of America, archives hybrid and non-hybrid sub-journals
     "0887-0446", # Psychology & Health, status unclear -> Possible mistake in Konstanz U data
     "0066-4804", # Antimicrobial Agents and Chemotherapy -> delayed OA journal. Borderline case, needs further discussion
-    "0022-1430" # Journal of Glaciology, Gold OA since 2016
+    "0022-1430", # Journal of Glaciology, Gold OA since 2016
+    "1467-7644", # Plant Biotechnology Journal, Gold OA since 2016
+    "2046-2069", # RSC Advances, Gold OA since 01/2017
+    "2041-6520", # Chemical Science, Gold OA since 2015
+    "0260-3055", # Annals of Glaciology, Gold OA since 2016
+    "1744-5647", # Journal of Maps, Gold OA since 09/2016
+    "1445-5781" # Reproductive Medicine and Biology, Gold OA since 2017
 ]
 
 class RowObject(object):
@@ -123,21 +145,12 @@ def check_line_length(row_object):
                                           row_object.line_number)
         pytest.fail(line_str + 'Row must consist of exactly 18 items')
 
-def check_optional_fields(row_object):
+def check_optional_identifier(row_object):
     __tracebackhide__ = True
     row = row_object.row
     if row['doi'] == "NA":
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        if not oat.has_value(row['publisher']):
-            pytest.fail(line_str + 'if no DOI is given, the column ' +
-                        '"publisher" must not be empty')
-        if not oat.has_value(row['journal_full_title']):
-            pytest.fail(line_str + 'if no DOI is given, the column ' +
-                        '"journal_full_title" must not be empty')
-        if not oat.has_value(row['issn']):
-            pytest.fail(line_str + 'if no DOI is given, the column "issn" ' +
-                        'must not be empty')
         if not oat.has_value(row['url']):
             pytest.fail(line_str + 'if no DOI is given, the column "url" ' +
                         'must not be empty')
@@ -146,6 +159,12 @@ def check_field_content(row_object):
     __tracebackhide__ = True
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    if not oat.has_value(row['publisher']):
+        pytest.fail(line_str + 'the column "publisher" must not be empty')
+    if not oat.has_value(row['journal_full_title']):
+        pytest.fail(line_str + 'the column "journal_full_title" must not be empty')
+    if not oat.has_value(row['issn']):
+        pytest.fail(line_str + 'the column "issn" must not be empty')
     if row['doaj'] not in ["TRUE", "FALSE"]:
         pytest.fail(line_str + 'value in row "doaj" must either be TRUE or FALSE')
     if row['indexed_in_crossref'] not in ["TRUE", "FALSE"]:
@@ -160,6 +179,11 @@ def check_field_content(row_object):
             pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
                                    'is not correct. It should be the simple DOI name, not ' +
                                    'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
+    if len(row['publisher']) != len(row['publisher'].strip()):
+        pytest.fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
+    if len(row['journal_full_title']) != len(row['journal_full_title'].strip()):
+        pytest.fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
+    
     if row_object.test_apc:
         try:
             euro = float(row['euro'])
@@ -182,6 +206,24 @@ def check_issns(row_object):
             if not oat.is_valid_ISSN(issn_column):
                 pytest.fail(line_str + 'value "' + issn_column + '" is no valid ' +
                             'ISSN (check digit mismatch)')
+    issn_l = row["issn_l"]
+    if issn_l != "NA":
+        msg = line_str + "Two entries share a common {} ({}), but the issn_l differs ({} vs {})"
+        issn = row["issn"]
+        if issn != "NA":
+            for row in issn_dict[issn]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn", issn, issn_l, row["issn_l"]))
+        issn_p = row["issn_print"]
+        if issn_p != "NA":
+            for row in issn_p_dict[issn_p]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn_p", issn_p, issn_l, row["issn_l"]))
+        issn_e = row["issn_electronic"]
+        if issn_e != "NA":
+            for row in issn_e_dict[issn_e]:
+                if row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn_e", issn_e, issn_l, row["issn_l"]))
 
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
@@ -272,7 +314,7 @@ class TestAPCRows(object):
     def test_row_format(self, row_object):
         check_line_length(row_object)
         check_field_content(row_object)
-        check_optional_fields(row_object)
+        check_optional_identifier(row_object)
         check_issns(row_object)
         check_hybrid_status(row_object)
 
