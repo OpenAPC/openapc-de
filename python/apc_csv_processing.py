@@ -163,7 +163,16 @@ ARG_HELP_STRINGS = {
              "number. May be used together with '-end' to select a specific " +
              "segment.",
     "end": "Do not process the whole file, but end at this line number. May " +
-           "be used together with '-start' to select a specific segment."
+           "be used together with '-start' to select a specific segment.",
+    "quotemask": "A quotemask to apply to the result file after the " + 
+                 "enrichment has been performed. A quotemask is a string " +
+                 "consisting only of the letters 't' and 'f' (true/false) " +
+                 "and has the same length as there are columns in the " +
+                 "resulting csv file. Only the columns where the index is 't' "
+                 "will be quoted.",
+    "no_openapc_quote_rules": "Do not apply the special openapc quote rules " +
+                              "(never quoting NA, TRUE and FALSE to maintain " +
+                              "compatibility with R scripts)."
 }
 
 def main():
@@ -213,6 +222,11 @@ def main():
                         type=int, help=ARG_HELP_STRINGS["url"])
     parser.add_argument("-start", type=int, help=ARG_HELP_STRINGS["start"])
     parser.add_argument("-end", type=int, help=ARG_HELP_STRINGS["end"])
+    parser.add_argument("-q", "--quotemask", default="tffttttttttttttttt",
+                        help=ARG_HELP_STRINGS["quotemask"])
+    parser.add_argument("-n", "--no-openapc-quote-rules", 
+                        help=ARG_HELP_STRINGS["no_openapc_quote_rules"],
+                        action="store_true", default=False)
 
     args = parser.parse_args()
     enc = None # CSV file encoding
@@ -274,6 +288,12 @@ def main():
                "--enc argument")
         sys.exit()
 
+    reduced = args.quotemask.replace("f", "").replace("t", "")
+    if len(reduced) > 0:
+        print ("Error: A quotemask may only contain the letters 't' and "  +
+               "'f'!")
+        sys.exit()
+    mask = [True if x == "t" else False for x in args.quotemask]
 
     doaj_offline_analysis = None
     if args.offline_doaj:
@@ -560,7 +580,9 @@ def main():
     csv_file.close()
 
     with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, quotemask, True, True)
+        writer = oat.OpenAPCUnicodeWriter(out, mask, 
+                                          not args.no_openapc_quote_rules, True,
+                                          True)
         writer.write_rows(enriched_content)
 
     if not bufferedHandler.buffer:
