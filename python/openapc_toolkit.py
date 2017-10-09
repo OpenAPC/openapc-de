@@ -1091,7 +1091,8 @@ def get_unified_journal_title(journal_full_title):
         "European Journal of Public Health": "The European Journal of Public Health",
         "Interface": "Journal of The Royal Society Interface",
         "The Plant Cell Online": "The Plant Cell",
-        "Medical Engineering and Physics": "Medical Engineering & Physics"
+        "Medical Engineering and Physics": "Medical Engineering & Physics",
+        "Forensic Science, Medicine, and Pathology": "Forensic Science, Medicine and Pathology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
