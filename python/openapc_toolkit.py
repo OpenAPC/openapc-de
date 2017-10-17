@@ -73,7 +73,18 @@ class UnicodeDictReader(object):
 
     def next(self):
         row = self.reader.next()
-        return {unicode(k, "utf-8"): unicode(v, "utf-8") for (k, v) in row.iteritems()}
+        row_dict = {}
+        for (k, v) in row.iteritems():
+            try:
+                row_dict[unicode(k, "utf-8")] = unicode(v, "utf-8")
+            except TypeError:
+                msg = ("TypeError in UnicodeDictReader (line {}): Could not " +
+                       "coerce value in column '{}' to Unicode ({})")
+                print_r(msg.format(self.reader.line_num, k, v))
+                sys.exit()
+        return row_dict
+        #return {unicode(k, "utf-8"): unicode(v, "utf-8") for (k, v) in row.iteritems()}
+        
 
     def __iter__(self):
         return self
