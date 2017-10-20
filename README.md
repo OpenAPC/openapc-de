@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 44,425 open access journal articles, amounting to € 86,008,454 and contributed by 117 institutions.
+At the moment this project provides cost data on 44,407 open access journal articles, amounting to € 85,974,164 and contributed by 117 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -183,9 +183,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 44,425 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 117 research performing institutions and research funders. 
+This dataset contains information on 44,407 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 117 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 86,008,454. The average payment was € 1,936  and the median was € 1,756.
+In total, publication fee spending covered by the Open APC initiative amounted to € 85,974,164. The average payment was € 1,936  and the median was € 1,756.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -199,7 +199,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-24,390 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 36,071,376, including value-added tax; the average payment was € 1,479 (median =  € 1,386, SD = € 731).
+24,389 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 36,069,471, including value-added tax; the average payment was € 1,479 (median =  € 1,386, SD = € 731).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -257,7 +257,7 @@ The following table summarises institutional spending on articles published in f
 |University of Southampton                   |      120|               223,390| 1,862 (1,722)|  1,550|      388 - 18,802|
 |Queen's University Belfast                  |      114|               184,597|   1,619 (667)|  1,543|      630 -  5,060|
 |Ulm U                                       |      108|               155,525|   1,440 (553)|  1,409|      260 -  5,284|
-|KTH Royal Institute of Technology           |      107|               131,168|   1,226 (805)|  1,072|      185 -  2,570|
+|KTH Royal Institute of Technology           |      106|               129,263|   1,219 (806)|  1,072|      185 -  2,570|
 |University of Glasgow                       |      105|               206,779| 1,969 (1,083)|  1,483|      365 -  4,613|
 |Hannover U                                  |      100|               127,965|   1,280 (478)|  1,257|      124 -  2,159|
 |Linköping University                        |       99|               155,146|   1,567 (723)|  1,355|      372 -  4,440|
@@ -330,7 +330,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 20,035 open access articles being published in hybrid journals. Total expenditure amounts to  49,937,078 €. Average  fee is 2,492 € and the median 2,444 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 20,018 open access articles being published in hybrid journals. Total expenditure amounts to  49,904,693 €. Average  fee is 2,493 € and the median 2,444 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -374,7 +374,6 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of Leicester                     |       64|               171,209| 2,675 (1,062)|  2,604|      754 -  5,414|
 |Cranfield University                        |       63|               178,932|   2,840 (820)|  2,929|      633 -  4,113|
 |Lancaster University                        |       56|               135,977|   2,428 (919)|  2,381|      524 -  4,681|
-|KTH Royal Institute of Technology           |       47|                90,580|   1,927 (375)|  1,905|    1,166 -  2,959|
 |University of Calgary                       |       45|                91,902|   2,042 (390)|  2,184|      997 -  2,665|
 |Institute of Cancer Research                |       43|               129,726|   3,017 (905)|  2,793|    1,315 -  5,296|
 |Bangor University                           |       38|               104,790|   2,758 (845)|  2,726|      535 -  4,168|
@@ -383,6 +382,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Queen's University Belfast                  |       34|                86,290|   2,538 (992)|  2,495|      281 -  4,490|
 |Linköping University                        |       33|                69,756|   2,114 (717)|  2,132|      234 -  3,750|
 |Royal Holloway                              |       31|                72,192| 2,329 (1,078)|  2,040|      687 -  5,210|
+|KTH Royal Institute of Technology           |       30|                58,195|   1,940 (471)|  2,109|    1,166 -  2,959|
 |Northumbria University                      |       28|                66,441| 2,373 (1,009)|  2,295|      596 -  4,513|
 |MDC                                         |       27|                67,002| 2,482 (1,247)|  2,200|      491 -  4,936|
 |University of Huddersfield                  |       27|                35,417|   1,312 (894)|    968|      607 -  3,220|
@@ -451,8 +451,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.69%       |
-|PubMed ID                  |  77.06%      |
-|PubMed Central ID          |  70.42%     |
+|PubMed ID                  |  77.08%      |
+|PubMed Central ID          |  70.44%     |
 |Web of Science record ID   | 91.26%      |
 
 
