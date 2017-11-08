@@ -567,6 +567,13 @@ def get_metadata_from_crossref(doi_string):
             result = root.findall(path, namespaces)
             if result:
                 crossref_data[elem] = result[0].text
+                if elem == 'license_ref':
+                    # If there's more than one license_ref element, prefer
+                    # the one with the attribute applies_to="vor"
+                    for xml_elem in result:
+                        if xml_elem.get("applies_to") == "vor":
+                            crossref_data[elem] = xml_elem.text
+                            break
         ret_value['data'] = crossref_data
     except urllib2.HTTPError as httpe:
         ret_value['success'] = False
