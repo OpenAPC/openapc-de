@@ -1110,7 +1110,9 @@ def get_unified_journal_title(journal_full_title):
         "Interface": "Journal of The Royal Society Interface",
         "The Plant Cell Online": "The Plant Cell",
         "Medical Engineering and Physics": "Medical Engineering & Physics",
-        "Forensic Science, Medicine, and Pathology": "Forensic Science, Medicine and Pathology"
+        "Forensic Science, Medicine, and Pathology": "Forensic Science, Medicine and Pathology",
+        "Lab Chip": "Lab on a Chip",
+        "Mater. Horiz.": "Materials Horizons"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
