@@ -1117,7 +1117,8 @@ def get_unified_journal_title(journal_full_title):
 def get_corrected_issn_l(issn_l):
     issn_l_corrections = {
         "0266-7061": "1367-4803", # "Bioinformatics". 1460-2059(issn_e) -> 0266-7061, but 1367-4803(issn_p) -> 1367-4803
-        "1654-6628": "1654-661X"  # "Food & Nutrition Research". 1654-6628(issn_p) -> 1654-6628, but 1654-661X(issn_e) -> 1654-661X
+        "1654-6628": "1654-661X",  # "Food & Nutrition Research". 1654-6628(issn_p) -> 1654-6628, but 1654-661X(issn_e) -> 1654-661X
+        "1474-7596": "1465-6906" # "Genome Biology".  1465-6906(issn_p) -> 1465-6906, but 1474-760X(issn_e) -> 1474-7596
     }
     return issn_l_corrections.get(issn_l, issn_l)
 
