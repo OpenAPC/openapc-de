@@ -1112,7 +1112,9 @@ def get_unified_journal_title(journal_full_title):
         "Medical Engineering and Physics": "Medical Engineering & Physics",
         "Forensic Science, Medicine, and Pathology": "Forensic Science, Medicine and Pathology",
         "Lab Chip": "Lab on a Chip",
-        "Mater. Horiz.": "Materials Horizons"
+        "Mater. Horiz.": "Materials Horizons",
+        "AoB PLANTS": "AoB Plants",
+        "Elem Sci Anth": "Elementa: Science of the Anthropocene"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
