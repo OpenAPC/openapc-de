@@ -91,6 +91,8 @@ This is the final file as it was added to the OpenAPC core data. The following s
     - A second source of information to determine full OA journals was the [ISSN-GOLD-OA](https://doi.org/10.4119/unibi/2913654) dataset created by our colleagues at the [OA Analytics](https://www.intact-project.org/oa_analytics/) project. This table provides ISSNs of journals identified as fully OA and is more comprehensive than the DOAJ.
     - In contrast to JISC, we did not classify remaining unknown journals as hybrid per default. Instead, those entries were removed from the dataset and listed in a [separate file](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/postprocessed/ALLAPCDATAMERGEDpublicwithnotes_final.csv) for reference and optional inclusion later on.
     
+3. Some articles were reported as not having been paid for in APCs (They were published using alternative models of clearing, like the RSC "Gold 4 Gold" voucher system). Those entries were removed in accordance with the [OpenAPC cost definition](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout#definition-of-costs).
+
 ### Statistics
 
 The processing reduced the net increase in articles to OpenAPC by a large margin. The following table gives an overview on how many articles were removed for what reason.
