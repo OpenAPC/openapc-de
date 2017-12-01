@@ -11,7 +11,8 @@ knitr::opts_chunk$set(
   fig.width = 9,
   fig.height = 6
 )
-options(scipen = 999, digits = 0)
+options(scipen = 999, digits = 0, tibble.width = Inf, tibble.print_max = Inf)
+
 knitr::knit_hooks$set(inline = function(x) {
   prettyNum(x, big.mark = ",")
 })
@@ -250,15 +251,14 @@ my_apc %>% select(institution, euro) %>%
                          sum = "sum(., na.rm = TRUE)",
                          min = "min(., na.rm = TRUE)",
                          max = "max(., na.rm = TRUE)"
-                         )) %>% 
-  format(big.mark=',') %>%
-  ezsummary::ezmarkup('...[. (.)]..[. - .]') %>% 
-  # get rid of blanks in combination with big.mark
-  dplyr::mutate(`mean (sd)` = gsub("\\(  ", "(", .$`mean (sd)`)) %>% 
+                         )) %>%
+  mutate_all(format, big.mark=',') %>%
+  ezsummary::ezmarkup('...[. (.)]..[. - .]') %>%
+#> get rid of blanks
+  mutate(`mean (sd)` = gsub("\\(  ", "(", .$`mean (sd)`)) %>% 
   select(institution, n, sum, `mean (sd)`, median, `min - max`) %>%
   arrange(desc(n)) %>%
-  knitr::kable(col.names = c("Institution", "Articles", "Spending total (in €)", "Mean (SD)", "Median", "Minimum - Maximum"),
-               align = c("l","r", "r", "r", "r", "r"))
+  knitr::kable(col.names = c("Institution", "Articles", "Spending total (in €)", "Mean (SD)", "Median", "Minimum - Maximum"), align = c("l","r", "r", "r", "r", "r"))
 ```
 
 
@@ -282,15 +282,13 @@ my_apc %>% select(institution, euro) %>%
                          min = "min(., na.rm = TRUE)",
                          max = "max(., na.rm = TRUE)"
                          )) %>% 
-  format(big.mark=',') %>%
+  mutate_all(format, big.mark=',') %>%
   ezsummary::ezmarkup('...[. (.)]..[. - .]') %>% 
-  # get rid of blanks in combination with big.mark
-  dplyr::mutate(`mean (sd)` = gsub("\\(  ", "(", .$`mean (sd)`)) %>% 
+#> get rid of blanks
+  mutate(`mean (sd)` = gsub("\\(  ", "(", .$`mean (sd)`)) %>% 
   select(institution, n, sum, `mean (sd)`, median, `min - max`) %>%
   arrange(desc(n)) %>%
-  knitr::kable(col.names = c("Institution", "Articles", "Spending total (in €)", "Mean (SD)", "Median", "Minimum - Maximum"),
-               align = c("l","r", "r", "r", "r", "r"))
-
+  knitr::kable(col.names = c("Institution", "Articles", "Spending total (in €)", "Mean (SD)", "Median", "Minimum - Maximum"), align = c("l","r", "r", "r", "r", "r"))
 ```
 
 
