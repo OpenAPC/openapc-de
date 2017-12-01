@@ -91,7 +91,7 @@ This is the final file as it was added to the OpenAPC core data. The following s
     - A second source of information to determine full OA journals was the [ISSN-GOLD-OA](https://doi.org/10.4119/unibi/2913654) dataset created by our colleagues at the [OA Analytics](https://www.intact-project.org/oa_analytics/) project. This table provides ISSNs of journals identified as fully OA and is more comprehensive than the DOAJ.
     - In contrast to JISC, we did not classify remaining unknown journals as hybrid per default. Instead, those entries were removed from the dataset and listed in a [separate file](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/postprocessed/ALLAPCDATAMERGEDpublicwithnotes_final.csv) for reference and optional inclusion later on.
     
-3. Some articles were reported as not having been paid for in APCs (They were published using alternative models of clearing, like the RSC "Gold 4 Gold" voucher system). Those entries were removed in accordance with the [OpenAPC cost definition](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout#definition-of-costs).
+3. Some articles were reported as not having been paid for in APCs (They were published using alternative models of clearing, like the RSC "Gold 4 Gold" voucher system). Those entries were [removed](https://github.com/OpenAPC/openapc-de/commit/40220582) in accordance with the [OpenAPC cost definition](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout#definition-of-costs).
 
 ### Statistics
 
@@ -126,8 +126,9 @@ Postprocessing:
 |Duplicates with Wellcome Trust data                                   | - 2109      |
 |Duplicates with other OpenAPC core file data ("Double reporting")     | - 6         |
 |Journal Gold OA status unknown                                        | - 1808      |
+|Non-APC payment model                                                 | - 73        |
 |Jisc articles already present in OpenAPC (2014/15 data sets)          | - 10830     |
 
-New articles remaining after Postprocessing:                              *6157*
+New articles remaining after Postprocessing:                              *6084*
 
 
