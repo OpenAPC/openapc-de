@@ -8,7 +8,7 @@ from math import inf
 import random
 import sys
 from urllib.parse import quote_plus, urlencode
-from urllib.request import urlopen
+from urllib.request import urlopen, Request
 
 from Levenshtein import ratio, matching_blocks, editops
 
@@ -143,7 +143,9 @@ def crossref_query_title(title):
     params = {"rows": "5", "query.title": title}
     url = api_url + urlencode(params, quote_via=quote_plus)
     
-    ret = urlopen(url)
+    request = Request(url)
+    request.add_header("User-Agent", "OpenAPC DOI Importer (https://github.com/OpenAPC/openapc-de/blob/master/python/import_dois.py; mailto:openapc@uni-bielefeld.de)")
+    ret = urlopen(request)
     content = ret.read()
     data = json.loads(content)
     items = data["message"]["items"]
