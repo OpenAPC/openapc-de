@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 44,373 open access journal articles, amounting to € 85,888,466 and contributed by 117 institutions.
+At the moment this project provides cost data on 44,552 open access journal articles, amounting to € 86,148,531 and contributed by 117 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -183,9 +183,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 44,373 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 117 research performing institutions and research funders. 
+This dataset contains information on 44,552 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 117 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 85,888,466. The average payment was € 1,936  and the median was € 1,756.
+In total, publication fee spending covered by the Open APC initiative amounted to € 86,148,531. The average payment was € 1,934  and the median was € 1,752.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -199,7 +199,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-24,442 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 36,130,377, including value-added tax; the average payment was € 1,478 (median =  € 1,386, SD = € 731).
+24,621 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 36,390,442, including value-added tax; the average payment was € 1,478 (median =  € 1,386, SD = € 729).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -214,6 +214,7 @@ The following table summarises institutional spending on articles published in f
 |University of Calgary                       |      884|               993,823|   1,124 (448)|  1,145|       50 -  4,632|
 |Goettingen U                                |      849|             1,200,870|   1,414 (539)|  1,422|      139 -  4,830|
 |Freiburg U                                  |      623|               871,696|   1,399 (422)|  1,449|       50 -  2,501|
+|Tuebingen U                                 |      590|               808,189|   1,370 (422)|  1,386|       75 -  2,662|
 |Imperial College London                     |      563|             1,051,993|   1,869 (996)|  1,596|      269 -  5,439|
 |Wuerzburg U                                 |      562|               749,032|   1,333 (417)|  1,309|      105 -  2,514|
 |TU Muenchen                                 |      551|               713,150|   1,294 (484)|  1,439|      106 -  2,122|
@@ -225,7 +226,6 @@ The following table summarises institutional spending on articles published in f
 |University of Cambridge                     |      433|               943,714| 2,179 (1,202)|  1,807|      154 -  5,528|
 |University of Birmingham                    |      416|               717,371|   1,724 (781)|  1,680|      126 -  5,669|
 |Giessen U                                   |      415|               590,189|   1,422 (652)|  1,346|       81 -  4,498|
-|Tuebingen U                                 |      411|               548,124|   1,334 (407)|  1,346|      150 -  2,662|
 |Muenchen LMU                                |      407|               533,749|   1,311 (314)|  1,342|      496 -  2,123|
 |Heidelberg U                                |      396|               586,179|   1,480 (386)|  1,614|       60 -  2,108|
 |Universitat de Barcelona                    |      373|               342,602|     919 (454)|    862|       55 -  2,000|
@@ -451,8 +451,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.69%       |
-|PubMed ID                  |  77.09%      |
-|PubMed Central ID          |  70.55%     |
+|PubMed ID                  |  77.12%      |
+|PubMed Central ID          |  70.59%     |
 |Web of Science record ID   | 91.22%      |
 
 
