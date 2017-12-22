@@ -7,6 +7,7 @@ import json
 from math import inf
 import random
 import sys
+from urllib.error import HTTPError
 from urllib.parse import quote_plus, urlencode
 from urllib.request import urlopen, Request
 
@@ -32,9 +33,10 @@ BREAK = "".join(["-" for i in range(80)])
 CMP_COLORS = ["blue", "green", "yellow", "red"]
 EMPTY_RESULT = {
     "crossref_title": "",
-    "similarity": "",
+    "similarity": 0,
     "doi": ""
 }
+MAX_RETRIES_ON_ERROR = 3
 
 def main():
     parser = argparse.ArgumentParser()
@@ -74,7 +76,14 @@ def main():
             title = line[title_field]
             head = "line " + str(reader.line_num) + ", query title:"
             print(colorise(head.ljust(L_JUST) + "'" + title + "'", "blue"))
-            result = crossref_query_title(title)
+            ret = crossref_query_title(title)
+            retries = 0
+            while not ret['success'] and retries < MAX_RETRIES_ON_ERROR:
+                retries += 1
+                msg = "Error while querying CrossRef API ({}), retrying ({})...".format(ret["exception"], retries)
+                print(colorise(msg, "red"))
+                ret = crossref_query_title(title)
+            result = ret["result"]
             msg_tail = "'{}' [{}]"
             msg_tail = msg_tail.format(result["crossref_title"], result["doi"])
             if result["similarity"] == 1.0:
@@ -104,10 +113,11 @@ def main():
                 line.update(EMPTY_RESULT)
                 line["ask"] = False
             modified_lines.append(line)
-        print(BREAK)
-        ask_msg = "{} matches found with a similarity between {} and {} will need manual confirmation:"
-        ask_msg = ask_msg.format(ask_count, args.ask_threshold, args.match_threshold)
-        print(colorise(ask_msg, "green"))
+        if ask_count > 0:
+            print(BREAK)
+            ask_msg = "{} matches found with a similarity between {} and {} will need manual confirmation:"
+            ask_msg = ask_msg.format(ask_count, args.ask_threshold, args.match_threshold)
+            print(colorise(ask_msg, "green"))
         for line in modified_lines:
             if line["ask"]:
                 print(BREAK)
@@ -148,25 +158,27 @@ def crossref_query_title(title):
     api_url = "https://api.crossref.org/works?"
     params = {"rows": "5", "query.title": title}
     url = api_url + urlencode(params, quote_via=quote_plus)
-    
     request = Request(url)
     request.add_header("User-Agent", "OpenAPC DOI Importer (https://github.com/OpenAPC/openapc-de/blob/master/python/import_dois.py; mailto:openapc@uni-bielefeld.de)")
-    ret = urlopen(request)
-    content = ret.read()
-    data = json.loads(content)
-    items = data["message"]["items"]
-    
-    most_similar = None
-    for item in items:
-        title = item["title"].pop()
-        result = {
-            "crossref_title": title,
-            "similarity": ratio(title.lower(), params["query.title"].lower()),
-            "doi": item["DOI"]
-        }
-        if most_similar is None or most_similar["similarity"] < result["similarity"]:
-            most_similar = result
-    return most_similar
+    try:
+        ret = urlopen(request)
+        content = ret.read()
+        data = json.loads(content)
+        items = data["message"]["items"]
+        
+        most_similar = None
+        for item in items:
+            title = item["title"].pop()
+            result = {
+                "crossref_title": title,
+                "similarity": ratio(title.lower(), params["query.title"].lower()),
+                "doi": item["DOI"]
+            }
+            if most_similar is None or most_similar["similarity"] < result["similarity"]:
+                most_similar = result
+        return {"success": True, "result": most_similar}
+    except HTTPError as httpe:
+        return {"success": False, "result": EMPTY_RESULT, "exception": httpe}
     
 def colorise(text, color):
     return colorise_text_segment(text, 0, len(text), color)
