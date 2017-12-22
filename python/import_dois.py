@@ -65,6 +65,7 @@ def main():
             if field not in header:
                 header.append(field)
         modified_lines = []
+        ask_count = 0
         for line in reader:
             line["ask"] = False
             if reader.line_num < args.start or reader.line_num > args.end:
@@ -95,6 +96,7 @@ def main():
                 line.update(result)
                 line["line_num"] = reader.line_num
                 line["ask"] = True
+                ask_count += 1
             else:
                 msg_head = "No match found, most similar was ({}):"
                 msg_head = msg_head.format(round(result["similarity"], 2)).ljust(L_JUST)
@@ -102,6 +104,10 @@ def main():
                 line.update(EMPTY_RESULT)
                 line["ask"] = False
             modified_lines.append(line)
+        print(BREAK)
+        ask_msg = "{} matches found with a similarity between {} and {} will need manual confirmation:"
+        ask_msg = ask_msg.format(ask_count, args.ask_threshold, args.match_threshold)
+        print(colorise(ask_msg, "green"))
         for line in modified_lines:
             if line["ask"]:
                 print(BREAK)
