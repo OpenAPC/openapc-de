@@ -165,8 +165,7 @@ def crossref_query_title(title):
         content = ret.read()
         data = json.loads(content)
         items = data["message"]["items"]
-        
-        most_similar = None
+        most_similar = EMPTY_RESULT
         for item in items:
             title = item["title"].pop()
             result = {
@@ -174,7 +173,7 @@ def crossref_query_title(title):
                 "similarity": ratio(title.lower(), params["query.title"].lower()),
                 "doi": item["DOI"]
             }
-            if most_similar is None or most_similar["similarity"] < result["similarity"]:
+            if most_similar["similarity"] < result["similarity"]:
                 most_similar = result
         return {"success": True, "result": most_similar}
     except HTTPError as httpe:
