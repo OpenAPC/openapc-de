@@ -12,7 +12,8 @@ PUBLISHER_IDENTITY = [
     (["Pion Ltd"], ["SAGE Publications"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
     (["Informa Healthcare"], ["Informa UK Limited"]), # Usage very inconsistent in crossref data
-    (["GeoScienceWorld"], ["Mineralogical Society of America"])
+    (["GeoScienceWorld"], ["Mineralogical Society of America"]),
+    (["International Scientific Literature"], ["International Scientific Information, Inc."])
 ]
 
 
