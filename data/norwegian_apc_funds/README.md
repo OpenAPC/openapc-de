@@ -26,11 +26,11 @@ Contains the results of the OpenAPC enrichment routines after working on the pre
 
 ### 4. postprocessed
 
-Two additional steps were required before the data could be added to the OpenAPC core data file:
+Some additional steps were required before adding the data to the OpenAPC core data file:
 
-1. Since the original file lacked information on the hybrid status of journals (mandatory field "is_hybrid" in OpenAPC), this field was imported from exisiting data in the core/offsetting files. New journals were classified manually.
+1. Since the original file lacked information on the hybrid status of journals (mandatory column "is_hybrid" in OpenAPC), this field was imported from exisiting data in the core/offsetting files. New journals were classified manually.
 2. Duplicates cases (DOIs occuring more than once) were either resolved or removed if no solution was obvious. These changes were applied retroactively to the enriched and the preprocessed file.
-
+3. Articles from Telemark University College processed in 2016 were reassigned to University College of Southeast Norway (Telemark UC was merged into USN on 1 January 2016).
 
 ### Column usage and mappings
 
