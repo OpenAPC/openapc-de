@@ -18,7 +18,7 @@ Preprocessed variant of the original file. This file is a result of the followin
 2. For all entries with an empty "DOI" field, reconstruction of the correct DOI was attempted via semi-automatic article title lookup (crossref API).
 3. Articles without a recoverable DOI were removed.
 4. Monetary values ("APC in NOK") were converted from Norwegian kroner to Euro using average exchange rates for the according year (see below).
-5. Some column titles were modified(see below) to make them reusable by our enrichment script.
+5. Some column titles were modified (see below) to make them reusable by our enrichment script.
 
 ### 3. enriched
 
@@ -28,8 +28,8 @@ Contains the results of the OpenAPC enrichment routines after working on the pre
 
 Some additional steps were required before adding the data to the OpenAPC core data file:
 
-1. Since the original file lacked information on the hybrid status of journals (mandatory column "is_hybrid" in OpenAPC), this field was imported from exisiting data in the core/offsetting files. New journals were classified manually.
-2. Duplicates cases (DOIs occuring more than once) were either resolved or removed if no solution was obvious. These changes were applied retroactively to the enriched and the preprocessed file.
+1. Since the original file lacked information on the hybrid status of journals (mandatory column "is_hybrid" in OpenAPC), this field was imported from existing data in the core/offsetting files. New journals were classified manually.
+2. Duplicate cases (DOIs occuring more than once) were either resolved or removed if no solution was obvious. These changes were applied retroactively to the enriched and preprocessed files.
 3. Articles from Telemark University College processed in 2016 were reassigned to University College of Southeast Norway (Telemark UC was merged into USN on 1 January 2016).
 
 ### Column usage and mappings
