@@ -93,7 +93,7 @@ This dataset contains information on 13,541 articles, the following table shows 
 |TU Wien (TUW)                                                    |       63|
 |Nottingham Trent University                                      |       62|
 |Maastricht University Medical Center (UMC+)                      |       60|
-|Swansea University                                               |       59|
+|Swansea University                                               |       60|
 |University of Dundee                                             |       57|
 |Medical University of Graz                                       |       56|
 |University of Surrey                                             |       56|
@@ -121,10 +121,10 @@ This dataset contains information on 13,541 articles, the following table shows 
 |University of Lincoln                                            |       28|
 |University of West of England                                    |       28|
 |Manchester Metropolitan University                               |       27|
+|The Open University                                              |       26|
 |Johannes Kepler University Linz                                  |       25|
 |Keele University                                                 |       25|
 |Natural History Museum                                           |       25|
-|The Open University                                              |       24|
 |Wageningen UR (University & Research Centre)                     |       24|
 |University of Huddersfield                                       |       23|
 |Aberystwyth University                                           |       22|
@@ -191,7 +191,6 @@ This dataset contains information on 13,541 articles, the following table shows 
 |Academisch Centrum Tandheelkunde Amsterdam (ACTA)                |        2|
 |FH Salzburg - University of Applied Sciences                     |        2|
 |Netherlands Institute for Neuroscience                           |        2|
-|The The The Open University                                      |        2|
 |FH Joanneum - University of Applied Sciences                     |        1|
 |FH Vorarlberg - University of Applied Sciences                   |        1|
 |Institute for Advanced Studies Vienna                            |        1|
@@ -202,7 +201,6 @@ This dataset contains information on 13,541 articles, the following table shows 
 |Rathenau Institute                                               |        1|
 |Research Institute of Molecular Pathology (IMP) / IMBA - Institu |        1|
 |Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bure |        1|
-|Swansea university                                               |        1|
 |Swedish National Road and Transport Research Institute (VTI)     |        1|
 |Swedish School of Sport and Health Sciences (GIH)                |        1|
 |University of Applied Sciences Burgenland                        |        1|
