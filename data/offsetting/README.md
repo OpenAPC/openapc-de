@@ -14,186 +14,187 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 12,010 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
+This dataset contains information on 13,595 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
 
 
 |Institution                                                      | Articles|
 |:----------------------------------------------------------------|--------:|
-|MPG                                                              |      487|
-|University College London                                        |      395|
-|University of Cambridge                                          |      384|
-|Imperial College London                                          |      306|
-|University of Oxford                                             |      302|
-|King's College London                                            |      267|
-|University of Manchester                                         |      262|
-|Lund University                                                  |      246|
-|University of Edinburgh                                          |      219|
+|MPG                                                              |      541|
+|University College London                                        |      465|
+|University of Cambridge                                          |      463|
+|Imperial College London                                          |      376|
+|University of Oxford                                             |      372|
+|King's College London                                            |      311|
+|University of Manchester                                         |      304|
+|Lund University                                                  |      288|
+|University of Edinburgh                                          |      260|
+|Karolinska Institute                                             |      212|
+|University of Bristol                                            |      207|
+|University of Leeds                                              |      207|
 |University of Groningen                                          |      199|
+|Uppsala University                                               |      198|
+|University of Gothenburg                                         |      195|
+|University of Southampton                                        |      191|
+|University of Sheffield                                          |      190|
+|University of Nottingham                                         |      187|
 |Erasmus MC                                                       |      186|
 |FWF - Austrian Science Fund                                      |      184|
-|Karolinska Institute                                             |      183|
 |Medical University of Vienna                                     |      179|
 |Leiden University                                                |      178|
 |Utrecht University                                               |      177|
 |Delft University of Technology                                   |      175|
+|University of Birmingham                                         |      175|
 |University of Amsterdam                                          |      174|
-|University of Leeds                                              |      169|
+|University of Warwick                                            |      174|
 |Academic Medical Center (AMC)                                    |      168|
-|University of Gothenburg                                         |      167|
 |VU University Amsterdam                                          |      167|
 |Wageningen University                                            |      167|
-|Uppsala University                                               |      166|
-|University of Bristol                                            |      159|
-|University of Birmingham                                         |      153|
-|University of Southampton                                        |      152|
-|University of Sheffield                                          |      150|
-|University of Nottingham                                         |      147|
+|Cardiff University                                               |      148|
 |Radboud University Medical Center                                |      145|
-|University of Warwick                                            |      145|
+|Royal Institute of Technology                                    |      144|
+|University of Liverpool                                          |      141|
+|Newcastle University                                             |      140|
+|Stockholm University                                             |      136|
 |University Medical Center Utrecht                                |      136|
 |University of Innsbruck and Medical University of Innsbruck      |      132|
-|Royal Institute of Technology                                    |      127|
-|Cardiff University                                               |      125|
+|University of Glasgow                                            |      125|
 |Maastricht University                                            |      123|
-|University of Liverpool                                          |      122|
-|Stockholm University                                             |      117|
-|Newcastle University                                             |      116|
+|Umea University                                                  |      118|
+|Linköping University                                             |      117|
 |University of Twente                                             |      114|
+|Queen's University of Belfast                                    |      111|
+|Chalmers University of Technology                                |      110|
 |VU University Medical Center (VUmc)                              |      109|
+|University of Exeter                                             |      108|
 |Erasmus University                                               |      105|
 |Radboud University                                               |      105|
-|Chalmers University of Technology                                |      103|
-|Umea University                                                  |      100|
-|University of Glasgow                                            |      100|
-|Queen's University of Belfast                                    |       96|
+|University of Reading                                            |      104|
+|Queen Mary, University of London                                 |      103|
+|Swedish University of Agricultural Sciences                      |       99|
+|University of St Andrews                                         |       98|
+|University of York                                               |       97|
+|Durham University                                                |       96|
 |Leiden University Medical Center (LUMC)                          |       94|
-|Queen Mary, University of London                                 |       89|
+|University of East Anglia                                        |       92|
 |University Medical Center Groningen (UMCG)                       |       88|
-|Linköping University                                             |       87|
-|Swedish University of Agricultural Sciences                      |       87|
-|University of Exeter                                             |       87|
-|University of St Andrews                                         |       86|
-|University of Reading                                            |       85|
+|London School of Economics and Political Science                 |       86|
+|University of Bath                                               |       86|
 |Eindhoven University of Technology                               |       84|
 |University of Vienna                                             |       84|
-|University of East Anglia                                        |       80|
-|Durham University                                                |       79|
-|University of York                                               |       79|
-|London School of Economics and Political Science                 |       74|
-|University of Bath                                               |       68|
-|University of Sussex                                             |       68|
-|Loughborough University                                          |       67|
+|University of Sussex                                             |       80|
+|Loughborough University                                          |       78|
+|University of Leicester                                          |       71|
+|University of Aberdeen                                           |       70|
+|University of Kent                                               |       68|
+|University of Strathclyde                                        |       66|
+|Lancaster University                                             |       65|
 |Tilburg University                                               |       65|
 |TU Wien (TUW)                                                    |       63|
+|Nottingham Trent University                                      |       62|
 |Maastricht University Medical Center (UMC+)                      |       60|
-|University of Aberdeen                                           |       60|
-|Lancaster University                                             |       57|
-|University of Leicester                                          |       57|
+|Swansea University                                               |       60|
+|University of Dundee                                             |       57|
 |Medical University of Graz                                       |       56|
-|University of Kent                                               |       55|
-|University of Strathclyde                                        |       54|
+|University of Surrey                                             |       56|
+|Northumbria University                                           |       55|
+|Lulea University of Technology                                   |       54|
 |University of Natural Resources and Life Sciences Vienna (BOKU)  |       53|
-|Lulea University of Technology                                   |       47|
-|University of Dundee                                             |       47|
-|University of Surrey                                             |       47|
-|Swansea University                                               |       45|
-|Brunel University                                                |       44|
-|Nottingham Trent University                                      |       44|
-|Northumbria University                                           |       43|
+|Brunel University                                                |       52|
+|Liverpool John Moores University                                 |       45|
+|City University London                                           |       44|
 |Paracelsus Medical University                                    |       40|
-|City University London                                           |       37|
-|Cranfield University                                             |       35|
+|University of Portsmouth                                         |       39|
+|University of Ulster                                             |       39|
+|Cranfield University                                             |       38|
+|Örebro University                                                |       37|
+|University of Stirling                                           |       37|
+|Bangor University                                                |       36|
+|Heriot-Watt University                                           |       36|
+|Royal Holloway, University of London                             |       36|
+|Sheffield Hallam University                                      |       36|
 |University of Graz                                               |       34|
 |Graz University of Technology                                    |       33|
-|Liverpool John Moores University                                 |       33|
-|University of Stirling                                           |       32|
-|University of Ulster                                             |       32|
-|Bangor University                                                |       30|
-|Linnaeus University                                              |       30|
-|Örebro University                                                |       30|
-|Sheffield Hallam University                                      |       30|
-|University of Portsmouth                                         |       30|
-|Royal Holloway, University of London                             |       28|
-|University of Hull                                               |       28|
-|Bournemouth University                                           |       27|
-|Heriot-Watt University                                           |       27|
+|Linnaeus University                                              |       33|
+|Bournemouth University                                           |       32|
+|University of Hull                                               |       32|
+|University of Lincoln                                            |       28|
+|University of West of England                                    |       28|
+|Manchester Metropolitan University                               |       27|
+|The Open University                                              |       26|
 |Johannes Kepler University Linz                                  |       25|
+|Keele University                                                 |       25|
+|Natural History Museum                                           |       25|
 |Wageningen UR (University & Research Centre)                     |       24|
-|Keele University                                                 |       22|
-|Manchester Metropolitan University                               |       22|
+|University of Huddersfield                                       |       23|
+|Aberystwyth University                                           |       22|
+|Aston University                                                 |       22|
+|Leeds Beckett University                                         |       22|
 |Paris Lodron University of Salzburg                              |       22|
-|The Open University                                              |       22|
-|University of West of England                                    |       22|
+|Karlstad University                                              |       21|
 |Montanuniversität Leoben                                         |       21|
-|University of Huddersfield                                       |       21|
-|University of Lincoln                                            |       21|
-|Aberystwyth University                                           |       20|
-|Natural History Museum                                           |       20|
-|Aston University                                                 |       19|
-|Karlstad University                                              |       19|
-|Leeds Beckett University                                         |       17|
+|Royal Botanic Gardens                                            |       21|
+|Mälardalen University                                            |       18|
+|University of Greenwich                                          |       18|
+|Malmö University                                                 |       17|
 |University of Klagenfurt                                         |       17|
-|University of Westminster                                        |       16|
-|Malmö University                                                 |       15|
+|University of Westminster                                        |       17|
+|Glasgow Caledonian University                                    |       16|
+|Goldsmiths, University of London                                 |       16|
+|Robert Gordon University                                         |       16|
+|St George's, University of London                                |       16|
+|University of Bradford                                           |       16|
 |Netherlands Institute of Ecology                                 |       15|
-|Goldsmiths, University of London                                 |       14|
-|Mälardalen University                                            |       14|
-|St George's, University of London                                |       14|
-|University of Greenwich                                          |       14|
-|Glasgow Caledonian University                                    |       13|
+|Kristianstad University                                          |       14|
+|University of West of Scotland                                   |       14|
+|University West                                                  |       14|
+|Edge Hill University                                             |       13|
 |Institute of Science and Technology (IST Austria)                |       13|
-|Kristianstad University                                          |       13|
-|Robert Gordon University                                         |       13|
-|University of Bradford                                           |       12|
-|University of West of Scotland                                   |       12|
+|University of Central Lancashire                                 |       13|
+|University of Salford                                            |       13|
+|Mid Sweden University                                            |       12|
 |Vienna University of Economics and Business (WU)                 |       12|
-|Mid Sweden University                                            |       11|
-|University West                                                  |       11|
-|Edinburgh Napier University                                      |       10|
+|Edinburgh Napier University                                      |       11|
+|Swedish Museum of Natural History                                |       11|
+|Blekinge Institute of Technology                                 |       10|
 |International Institute for Applied Systems Analysis (IIASA)     |       10|
-|University of Salford                                            |       10|
-|Blekinge Institute of Technology                                 |        9|
-|Edge Hill University                                             |        9|
-|Jönköping University                                             |        9|
-|Kingston University                                              |        9|
-|Royal Botanic Gardens                                            |        9|
-|Swedish Museum of Natural History                                |        9|
-|University of Central Lancashire                                 |        9|
+|Jönköping University                                             |       10|
+|Kingston University                                              |       10|
+|Cardiff Metropolitan University                                  |        9|
 |University of Veterinary Medicine Vienna                         |        9|
+|Scotland's Rural College                                         |        8|
 |University of Applied Sciences Upper Austria                     |        8|
+|University of Boras                                              |        8|
 |University of Gävle                                              |        8|
 |Open University of The Netherlands                               |        7|
+|Södertörn University                                             |        7|
 |University of Bedfordshire                                       |        7|
-|University of Boras                                              |        7|
+|University of Derby                                              |        7|
 |Anglia Ruskin University                                         |        6|
 |Danube Universtity Krems University for Continuing Education     |        6|
 |Fungal Biodiversity Center (CBS)                                 |        6|
 |Halmstad University                                              |        6|
-|Scotland's Rural College                                         |        6|
 |Stockholm School of Economics                                    |        6|
-|University of Derby                                              |        6|
-|Cardiff Metropolitan University                                  |        5|
+|University of Skövde                                             |        6|
+|University of Wales Trinity St David                             |        6|
 |FH St. Pölten - University of Applied Sciences                   |        5|
 |London South Bank University                                     |        5|
-|Södertörn University                                             |        5|
 |Swedish Defence Research Agency                                  |        5|
-|University of Skövde                                             |        5|
+|University of Chester                                            |        5|
+|University of Northampton                                        |        5|
+|Birmingham City University                                       |        4|
 |University of Abertay Dundee                                     |        4|
-|University of Chester                                            |        4|
-|University of Northampton                                        |        4|
-|University of Wales Trinity St David                             |        4|
+|University of the Highlands and Islands                          |        4|
+|Dalarna University                                               |        3|
 |Netherlands Interdisciplinary Demographic Institute (NIDI)       |        3|
-|University of the Highlands and Islands                          |        3|
+|Queen Margaret University                                        |        3|
 |Academisch Centrum Tandheelkunde Amsterdam (ACTA)                |        2|
-|Birmingham City University                                       |        2|
-|Dalarna University                                               |        2|
 |FH Salzburg - University of Applied Sciences                     |        2|
 |Netherlands Institute for Neuroscience                           |        2|
-|Queen Margaret University                                        |        2|
 |FH Joanneum - University of Applied Sciences                     |        1|
 |FH Vorarlberg - University of Applied Sciences                   |        1|
 |Institute for Advanced Studies Vienna                            |        1|
+|Institute Mittag-Leffler                                         |        1|
 |International Institute of Social History (IISH)                 |        1|
 |Medical Products Agency                                          |        1|
 |Meertens Institute, Netherlands                                  |        1|

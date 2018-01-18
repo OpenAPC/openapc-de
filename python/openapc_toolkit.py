@@ -596,7 +596,7 @@ def get_metadata_from_pubmed(doi_string):
         return {"success": False,
                 "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi_string)
                }
-    url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
+    url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
     req = urllib2.Request(url)
     ret_value = {'success': True}

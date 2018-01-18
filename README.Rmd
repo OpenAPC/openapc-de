@@ -114,6 +114,42 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [Università degli Studi di Milano](http://www.unimi.it/ENG/)
 
+## Institutions from Norway:
+
+- Akershus University Hospital
+- BI Norwegian Business School
+- Bergen University College
+- Fridtjof Nansen Institute
+- GenØk - Centre for Biosafety
+- Harstad University College
+- Innlandet Hospital Trust
+- Institute of Marine Research
+- Molde University College
+- NILU - Norwegian Institute for Air Research
+- Nansen Environmental and Remote Sensing Center
+- Nord University
+- Norwegian Center for Studies on Violence and Traumatic Stress
+- Norwegian Institute for Agricultural and Environmental Research
+- Norwegian Institute for Nature Research
+- Norwegian Institute of Public Health
+- Norwegian Institute of Water Research
+- Norwegian School of Sport Sciences
+- Norwegian University of Life Sciences
+- Norwegian University of Science and Technology
+- Oslo University Hospital
+- Oslo and Akershus university college
+- SINTEF (Foundation for Scientific and Industrial Research)
+- Sørlandet Hospital Trust
+- Uni Research
+- University College of Southeast Norway
+- University of Agder
+- University of Bergen
+- University of Oslo
+- University of Stavanger
+- University of Tromsø - The Arctic University of Norway
+- Vestfold Hospital Trust
+- Vestre Viken Hospital Trust
+
 ## Participating Spanish Institutions:
 
 - [Universitat de Barcelona](http://www.ub.edu/web/ub/en/index.html)
@@ -356,7 +392,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
