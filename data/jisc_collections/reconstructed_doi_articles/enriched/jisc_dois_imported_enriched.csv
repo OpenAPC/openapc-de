@@ -30,7 +30,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bristol",2014,2278.05,"10.1144/jgs2014-099",NA,"Geological Society of London","Journal of the Geological Society","0016-7649","0016-7649","2041-479X","0016-7649",NA,TRUE,NA,NA,"ut:000353722600003",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Bristol",2014,3755.16,"10.1192/bjp.bp.114.146324",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25497299","PMC4312966","ut:000349277100006",NA,FALSE
+"University of Bristol",2014,3755.16,"10.1192/bjp.bp.114.146324",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25497299","PMC4312966","ut:000349277100006",NA,FALSE
 "University of Bristol",2014,1175.94,"10.1002/ece3.1436",NA,"Wiley-Blackwell","Ecology and Evolution","2045-7758",NA,NA,"2045-7758","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"25859338","PMC4377276","ut:000351458500019",NA,TRUE
 "University of Bristol",2014,2629.66,"10.1016/j.molonc.2014.10.015",NA,"Wiley-Blackwell","Molecular Oncology","1574-7891",NA,NA,"1574-7891","http://creativecommons.org/licenses/by/3.0/",TRUE,"25475372","PMC4359099","ut:000352043200006",NA,TRUE
 "University of Bristol",2014,2671.08,"10.1093/jel/equ035",NA,"Oxford University Press (OUP)","Journal of Environmental Law","0952-8873","0952-8873","1464-374X","0952-8873",NA,TRUE,NA,NA,"ut:000355134200003",NA,FALSE
@@ -142,7 +142,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Glasgow",2014,2287.2,"10.1016/j.biocon.2014.03.020",NA,"Elsevier BV","Biological Conservation","0006-3207","0006-3207",NA,"0006-3207","http://creativecommons.org/licenses/by/3.0/",TRUE,"24899731","PMC4039997","ut:000337650800015",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Glasgow",2014,2158.49,"10.1039/c4cc00805g",NA,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345",NA,TRUE,"24667987",NA,"ut:000334599800012",NA,FALSE
-"University of Glasgow",2014,1860.77,"10.1111/1468-0009.12057",NA,"Wiley-Blackwell","Milbank Quarterly","0887-378X",NA,NA,"0887-378X","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"24890247","PMC4089371","ut:000337525000012",NA,FALSE
+"University of Glasgow",2014,1860.77,"10.1111/1468-0009.12057",NA,"Wiley-Blackwell","The Milbank Quarterly","0887-378X",NA,NA,"0887-378X","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"24890247","PMC4089371","ut:000337525000012",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Glasgow",2014,1563.04,"10.1098/rspb.2014.0388",NA,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452",NA,TRUE,"24807256","PMC4024296","ut:000335812100020",NA,FALSE
 "University of Glasgow",2014,1563.04,"10.1098/rspb.2014.0311",NA,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452",NA,TRUE,"24807254","PMC4024293","ut:000335812100017",NA,FALSE
@@ -350,7 +350,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Lancaster University",2014,1824.38,"10.1186/1756-3305-7-329",NA,"Springer Science + Business Media","Parasites & Vectors","1756-3305","1756-3305",NA,"1756-3305",NA,TRUE,"25051919","PMC4112039","ut:000339288400001",NA,TRUE
 "Lancaster University",2014,595.44,"10.1177/0963947014526312",NA,"SAGE Publications","Language and Literature","0963-9470","0963-9470","1461-7293","0963-9470","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,"ut:000335765900003",NA,FALSE
 "Lancaster University",2014,2828.36,"10.1287/opre.2014.1272",NA,"Institute for Operations Research and the Management Sciences (INFORMS)","Operations Research","0030-364X","0030-364X","1526-5463","0030-364X",NA,TRUE,NA,NA,"ut:000337721400016",NA,FALSE
-"Lancaster University",2014,3806.62,"10.1192/bjp.bp.113.141259",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25213157",NA,"ut:000349656200011",NA,FALSE
+"Lancaster University",2014,3806.62,"10.1192/bjp.bp.113.141259",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25213157",NA,"ut:000349656200011",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Lancaster University",2014,1342,"10.1002/2014gl059553",NA,"Wiley-Blackwell","Geophysical Research Letters","0094-8276",NA,NA,"0094-8276","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000334983000001",NA,FALSE
 "Lancaster University",2014,1878.4,"10.1111/1467-954x.12198",NA,"SAGE Publications","The Sociological Review","0038-0261","0038-0261","1467-954X","0038-0261","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"25641992","PMC4302975","ut:000346428800011",NA,FALSE
@@ -553,7 +553,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2014,1750.98,"10.1186/1471-2458-14-796",NA,"Springer Science + Business Media","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://www.springer.com/tdm",TRUE,"25090915","PMC4131042","ut:000340002800001",NA,TRUE
 "University of Liverpool",2014,2523.2,"10.1017/s0033291714001342",NA,"Cambridge University Press (CUP)","Psychological Medicine","0033-2917","0033-2917","1469-8978","0033-2917",NA,TRUE,"25068652","PMC4301199","ut:000349617100005",NA,FALSE
 "University of Liverpool",2014,1656,"10.1063/1.4891217",NA,"AIP Publishing","Journal of Applied Physics","0021-8979","0021-8979","1089-7550","0021-8979","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000340710700023",NA,FALSE
-"University of Liverpool",2014,1505.46,"10.1152/ajpendo.00430.2013",NA,"American Physiological Society","American Journal of Physiology-Endocrinology and Metabolism","0193-1849","0193-1849","1522-1555","0193-1849",NA,TRUE,"24918199","PMC4121578","ut:000341709200005",NA,FALSE
+"University of Liverpool",2014,1505.46,"10.1152/ajpendo.00430.2013",NA,"American Physiological Society","AJP: Endocrinology and Metabolism","0193-1849","0193-1849","1522-1555","0193-1849",NA,TRUE,"24918199","PMC4121578","ut:000341709200005",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -752,8 +752,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,2304.59,"10.1504/ijgw.2015.073056",NA,"Inderscience Publishers","International Journal of Global Warming","1758-2083","1758-2083","1758-2091","1758-2083",NA,TRUE,NA,NA,"ut:000366046500007",NA,FALSE
 "UCL",2014,1887.86,"10.1002/aic.14608",NA,"Wiley-Blackwell","AIChE Journal","0001-1541",NA,NA,"0001-1541","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000345232800025",NA,FALSE
 "UCL",2014,1887.86,"10.1111/bjp.12123",NA,"Wiley-Blackwell","British Journal of Psychotherapy","0265-9883",NA,NA,"0265-9883","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000360486000011",NA,FALSE
-"UCL",2014,1873.83,"10.1192/bjp.bp.113.130948",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25061120","PMC4432387","ut:000341284100005",NA,FALSE
-"UCL",2014,3747.66,"10.1192/bjp.bp.113.141119",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25452601",NA,"ut:000345953900005",NA,FALSE
+"UCL",2014,1873.83,"10.1192/bjp.bp.113.130948",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25061120","PMC4432387","ut:000341284100005",NA,FALSE
+"UCL",2014,3747.66,"10.1192/bjp.bp.113.141119",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25452601",NA,"ut:000345953900005",NA,FALSE
 "UCL",2014,1575.72,"10.2196/jmir.3569",NA,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871","1438-8871",NA,TRUE,"25498308","PMC4275502","ut:000346141400010",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1870,"10.1007/s12061-014-9115-1",NA,"Springer Science + Business Media","Applied Spatial Analysis and Policy","1874-463X","1874-463X","1874-4621","1874-4621","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000379578900003",NA,FALSE
@@ -909,7 +909,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,4731.51,"10.1038/ncomms6826",NA,"Nature Publishing Group","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"25518808","PMC4284802","ut:000347614400001",NA,TRUE
 "UCL",2014,2173.56,"10.1016/j.actbio.2014.11.026",NA,"Elsevier BV","Acta Biomaterialia","1742-7061","1742-7061",NA,"1742-7061","http://creativecommons.org/licenses/by/3.0/",TRUE,"25463487",NA,"ut:000348753700032",NA,FALSE
 "UCL",2014,1706.22,"10.1186/1745-6215-15-456",NA,"Springer Science + Business Media","Trials","1745-6215",NA,"1745-6215","1745-6215","http://www.springer.com/tdm",TRUE,"25416527","PMC4247637","ut:000345718400001",NA,TRUE
-"UCL",2014,3183.43,"10.1038/cddis.2014.452",NA,"Nature Publishing Group","Cell Death & Disease","2041-4889",NA,"2041-4889","2041-4889","http://www.springer.com/tdm",TRUE,"25356872","PMC4649532","ut:000344994000074",NA,TRUE
+"UCL",2014,3183.43,"10.1038/cddis.2014.452",NA,"Nature Publishing Group","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889","http://www.springer.com/tdm",TRUE,"25356872","PMC4649532","ut:000344994000074",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,2512.63,"10.1136/sextrans-2014-051719",NA,"BMJ","Sexually Transmitted Infections","1368-4973","1368-4973","1472-3263","1368-4973",NA,TRUE,"25512674","PMC4345976","ut:000349996900013",NA,FALSE
@@ -960,9 +960,9 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,2862.23,"10.1093/jnci/dju379",NA,"Oxford University Press (OUP)","JNCI Journal of the National Cancer Institute","1460-2105","0027-8874","1460-2105","0027-8874",NA,TRUE,"25435541","PMC4301703","ut:000350232800027",NA,FALSE
 "UCL",2014,1232.08,"10.1002/ece3.1367",NA,"Wiley-Blackwell","Ecology and Evolution","2045-7758",NA,NA,"2045-7758","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"25691978","PMC4328759","ut:000349386000001",NA,TRUE
 "UCL",2014,1747.24,"10.1136/bmjopen-2014-006431",NA,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"25552614","PMC4281536","ut:000355413900054",NA,TRUE
-"UCL",2014,3172.19,"10.1192/bjp.bp.114.147561",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25833867",NA,"ut:000352680400003",NA,FALSE
+"UCL",2014,3172.19,"10.1192/bjp.bp.114.147561",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25833867",NA,"ut:000352680400003",NA,FALSE
 "UCL",2014,1747.24,"10.1136/bmjopen-2014-005982",NA,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"25550293","PMC4283435","ut:000355413900029",NA,TRUE
-"UCL",2014,3172.19,"10.1192/bjp.bp.114.147843",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25698767",NA,"ut:000352680400004",NA,FALSE
+"UCL",2014,3172.19,"10.1192/bjp.bp.114.147843",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25698767",NA,"ut:000352680400004",NA,FALSE
 "UCL",2014,1912.05,"10.1111/camh.12086",NA,"Wiley-Blackwell","Child and Adolescent Mental Health","1475-357X",NA,NA,"1475-357X","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000359379100005",NA,FALSE
 "UCL",2014,1912.05,"10.1111/ecge.12086",NA,"Wiley-Blackwell","Economic Geography","0013-0095",NA,NA,"0013-0095","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000351628100001",NA,FALSE
 "UCL",2014,2600.38,"10.1093/annonc/mdu526",NA,"Oxford University Press (OUP)","Annals of Oncology","0923-7534","0923-7534","1569-8041","0923-7534",NA,TRUE,"25421877","PMC4304379","ut:000349609600023",NA,FALSE
@@ -971,7 +971,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1083.49,"10.11141/ia.38.1",NA,"Council for British Archaeology","Internet Archaeology","1363-5387",NA,"1363-5387","1363-5387",NA,TRUE,NA,NA,NA,NA,TRUE
 "UCL",2014,1511.11,"10.1108/ijccsm-05-2014-0058",NA,"Emerald","International Journal of Climate Change Strategies and Management","1756-8692","1756-8692",NA,"1756-8692","http://www.emeraldinsight.com/page/tdm",TRUE,NA,NA,"ut:000360569200010",NA,FALSE
 "UCL",2014,1898.37,"10.1111/cei.12470",NA,"Wiley-Blackwell","Clinical & Experimental Immunology","0009-9104",NA,NA,"0009-9104","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"25311087","PMC4337679","ut:000350038400010",NA,FALSE
-"UCL",2014,3163.96,"10.1192/bjp.bp.114.153494",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25999339","PMC4678946","ut:000361080900011",NA,FALSE
+"UCL",2014,3163.96,"10.1192/bjp.bp.114.153494",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"25999339","PMC4678946","ut:000361080900011",NA,FALSE
 "UCL",2014,2200,"10.1007/s00394-014-0789-6",NA,"Springer Science + Business Media","European Journal of Nutrition","1436-6207","1436-6207","1436-6215","1436-6207",NA,TRUE,"25367317","PMC4575379","ut:000361634700009",NA,FALSE
 "UCL",2014,2178.83,"10.1103/physrevlett.114.016405",NA,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","http://creativecommons.org/licenses/by/3.0/",TRUE,"25615487",NA,"ut:000348572200014",NA,FALSE
 "UCL",2014,2191.38,"10.1016/j.eplepsyres.2014.11.001",NA,"Elsevier BV","Epilepsy Research","0920-1211","0920-1211",NA,"0920-1211","http://creativecommons.org/licenses/by/3.0/",TRUE,"25616449","PMC4315807","ut:000349592800001",NA,FALSE
@@ -994,8 +994,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,2670.06,"10.1093/police/pau052",NA,"Oxford University Press (OUP)","Policing","1752-4512","1752-4512","1752-4520","1752-4512",NA,TRUE,NA,NA,NA,NA,FALSE
 "UCL",2014,1525.75,"10.1017/s0003598x00115327",NA,"Cambridge University Press (CUP)","Antiquity","0003-598X","0003-598X","1745-1744","0003-598X",NA,TRUE,NA,NA,NA,NA,FALSE
 "UCL",2014,3338.33,"10.1093/infdis/jiu403",NA,"Oxford University Press (OUP)","Journal of Infectious Diseases","0022-1899","0022-1899","1537-6613","0022-1899",NA,TRUE,"25053739","PMC4334823","ut:000350220600009",NA,FALSE
-"UCL",2014,3823.12,"10.1192/bjp.bp.114.153486",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"26294371","PMC4664858","ut:000366147600013",NA,FALSE
-"UCL",2014,3823.12,"10.1192/bjp.bp.114.144899",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"26045349","PMC4555442","ut:000361080900006",NA,FALSE
+"UCL",2014,3823.12,"10.1192/bjp.bp.114.153486",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"26294371","PMC4664858","ut:000366147600013",NA,FALSE
+"UCL",2014,3823.12,"10.1192/bjp.bp.114.144899",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"26045349","PMC4555442","ut:000361080900006",NA,FALSE
 "UCL",2014,1651.17,"10.1098/rspb.2014.1720",NA,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452",NA,TRUE,"25520354","PMC4298201","ut:000346409000004",NA,FALSE
 "UCL",2014,2229.58,"10.1093/femsle/fnu050",NA,"Oxford University Press (OUP)","FEMS Microbiology Letters","1574-6968",NA,"1574-6968","0378-1097",NA,TRUE,"25673660",NA,"ut:000356884600010",NA,FALSE
 "UCL",2014,1906.7,"10.1002/mar.20787",NA,"Wiley-Blackwell","Psychology & Marketing","0742-6046",NA,NA,"0742-6046","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000351219400002",NA,FALSE
@@ -1009,7 +1009,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Cardiff University",2015,4073.32,"10.1192/bjp.bp.114.155333",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"26795425","PMC4816969","ut:000374100400008",NA,FALSE
+"Cardiff University",2015,4073.32,"10.1192/bjp.bp.114.155333",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"26795425","PMC4816969","ut:000374100400008",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2015,1847.42,"10.1680/jener.15.00002",NA,"Thomas Telford Ltd.","Proceedings of the Institution of Civil Engineers - Energy","1751-4223","1751-4223","1751-4231","1751-4223",NA,TRUE,NA,NA,"ut:000375206600003",NA,FALSE
 "Cardiff University",2015,2479.96,"10.3109/10253890.2015.1055725",NA,"Informa UK Limited","Stress","1025-3890","1025-3890","1607-8888","1025-3890",NA,TRUE,"26383033",NA,"ut:000361330000010",NA,FALSE
@@ -1230,7 +1230,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2015,2053,"10.1063/1.4935983",NA,"AIP Publishing","Applied Physics Letters","0003-6951","0003-6951","1077-3118","0003-6951","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000365688700076",NA,FALSE
 "UCL",2015,1508.97,"10.1103/physrevx.5.041016",NA,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000363788700001",NA,TRUE
 "UCL",2015,1533.6,"10.1103/physrevx.5.041028",NA,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000364908900001",NA,TRUE
-"UCL",2015,1884.66,"10.1152/ajpheart.00560.2015",NA,"American Physiological Society","American Journal of Physiology-Heart and Circulatory Physiology","0363-6135","0363-6135","1522-1539","0363-6135",NA,TRUE,"26475587","PMC4698427","ut:000367288700012",NA,FALSE
+"UCL",2015,1884.66,"10.1152/ajpheart.00560.2015",NA,"American Physiological Society","American Journal of Physiology - Heart and Circulatory Physiology","0363-6135","0363-6135","1522-1539","0363-6135",NA,TRUE,"26475587","PMC4698427","ut:000367288700012",NA,FALSE
 "UCL",2015,1889.29,"10.1152/jn.00691.2015",NA,"American Physiological Society","Journal of Neurophysiology","0022-3077","0022-3077","1522-1598","0022-3077",NA,TRUE,"26510762","PMC4760470","ut:000369061900019",NA,FALSE
 "UCL",2015,1829.32,"10.1074/jbc.m115.699447",NA,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X","0021-9258",NA,TRUE,"26553875","PMC4705382","ut:000367830500010",NA,FALSE
 "UCL",2015,4408.41,"10.3945/ajcn.114.095117",NA,"Oxford University Press (OUP)","American Journal of Clinical Nutrition","0002-9165","0002-9165","1938-3207","0002-9165",NA,TRUE,"26354545","PMC4588736","ut:000362241900006",NA,FALSE
@@ -1289,7 +1289,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2015,1906.15,"10.1136/bmjopen-2015-010210",NA,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"26769791","PMC4735176","ut:000369993900183",NA,TRUE
 "UCL",2015,1450,"10.1484/j.viator.5.105367",NA,"Brepols Publishers NV","Viator","0083-5897","0083-5897",NA,"0083-5897",NA,TRUE,NA,NA,"ut:000370311600009",NA,FALSE
 "UCL",2015,1995,"10.1163/1871191x-12341319",NA,"Brill Academic Publishers","The Hague Journal of Diplomacy","1871-1901","1871-1901","1871-191X","1871-1901",NA,TRUE,NA,NA,"ut:000382012000004",NA,FALSE
-"UCL",2015,3007.52,"10.1302/0301-620x.98b1.36431",NA,"British Editorial Society of Bone & Joint Surgery","The Bone & Joint Journal","2049-4394","2049-4394",NA,"2049-4394",NA,TRUE,"26733513","PMC4714035","ut:000367611400007",NA,FALSE
+"UCL",2015,3007.52,"10.1302/0301-620x.98b1.36431",NA,"British Editorial Society of Bone & Joint Surgery","Bone & Joint Journal","2049-4394","2049-4394",NA,"2049-4394",NA,TRUE,"26733513","PMC4714035","ut:000367611400007",NA,FALSE
 "UCL",2015,2463.19,"10.1112/s0025579315000509",NA,"Oxford University Press (OUP)","Mathematika","0025-5793","0025-5793","2041-7942","0025-5793",NA,TRUE,NA,NA,"ut:000375948100004",NA,FALSE
 "UCL",2015,1752.85,"10.1101/lm.038828.115",NA,"Cold Spring Harbor Laboratory Press","Learning & Memory","1549-5485",NA,"1549-5485","1072-0502",NA,TRUE,"26373834","PMC4579355","ut:000362971900007",NA,FALSE
 "UCL",2015,3963.36,"10.1242/dev.125120",NA,"The Company of Biologists","Development","0950-1991","0950-1991","1477-9129","0950-1991",NA,TRUE,"26428010","PMC4712879","ut:000366361300014",NA,FALSE
@@ -1516,7 +1516,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bristol",2015,2163.66,"10.1123/japa.2015-0060",NA,"Human Kinetics","Journal of Aging and Physical Activity","1063-8652","1063-8652","1543-267X","1063-8652",NA,TRUE,"26421605","PMC4857800","ut:000373661500012",NA,FALSE
 "University of Bristol",2015,1859.05,"10.1136/bmjopen-2015-008630",NA,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"26610758","PMC4663422","ut:000368840100167",NA,TRUE
 "University of Bristol",2015,1450.39,"10.1109/jstsp.2015.2496908",NA,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Journal of Selected Topics in Signal Processing","1932-4553","1932-4553","1941-0484","1932-4553","http://creativecommons.org/licenses/by/3.0/legalcode",TRUE,NA,NA,"ut:000370957200002",NA,FALSE
-"University of Bristol",2015,2178.63,"10.1152/ajpheart.00597.2015",NA,"American Physiological Society","American Journal of Physiology-Heart and Circulatory Physiology","0363-6135","0363-6135","1522-1539","0363-6135",NA,TRUE,"26566728","PMC4796630","ut:000369056600011",NA,FALSE
+"University of Bristol",2015,2178.63,"10.1152/ajpheart.00597.2015",NA,"American Physiological Society","American Journal of Physiology - Heart and Circulatory Physiology","0363-6135","0363-6135","1522-1539","0363-6135",NA,TRUE,"26566728","PMC4796630","ut:000369056600011",NA,FALSE
 "University of Bristol",2015,2575.49,"10.1016/j.cellsig.2015.10.014",NA,"Elsevier BV","Cellular Signalling","0898-6568","0898-6568",NA,"0898-6568","http://creativecommons.org/licenses/by/4.0/",TRUE,"26515129","PMC4678287","ut:000366882700009",NA,FALSE
 "University of Bristol",2015,2117.94,"10.1098/rspb.2015.2289",NA,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452",NA,TRUE,"26631568","PMC4685785","ut:000368095200015",NA,FALSE
 "University of Bristol",2015,1943.29,"10.1016/j.jhealeco.2015.10.007",NA,"Elsevier BV","Journal of Health Economics","0167-6296","0167-6296",NA,"0167-6296","http://creativecommons.org/licenses/by/4.0/",TRUE,"26614692","PMC4770870","ut:000371840800011",NA,FALSE
@@ -2109,10 +2109,10 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2017,3552.35,"10.1016/j.jsg.2017.02.003",NA,"Elsevier BV","Journal of Structural Geology","0191-8141","0191-8141",NA,"0191-8141","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000401203400005",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"King's College London",2016,3336.67,"10.1192/bjp.bp.116.182048",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"27758836","PMC5209631","ut:000391520600011",NA,FALSE
+"King's College London",2016,3336.67,"10.1192/bjp.bp.116.182048",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"27758836","PMC5209631","ut:000391520600011",NA,FALSE
 "UCL",2016,3317.48,"10.1038/gt.2016.66",NA,"Springer Nature","Gene Therapy","0969-7128","0969-7128","1476-5462","0969-7128","http://www.springer.com/tdm",TRUE,"27653967","PMC5143366","ut:000390212700005",NA,FALSE
 "UCL",2016,3317.48,"10.1038/cdd.2017.175",NA,"Springer Nature","Cell Death and Differentiation","1350-9047","1350-9047","1476-5403","1350-9047",NA,TRUE,"29027992","PMC5686358","ut:000414963300020",NA,FALSE
-"University of Cambridge",2016,3478.66,"10.1192/bjp.bp.116.187682",NA,"Royal College of Psychiatrists","British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"27979819","PMC5376719","ut:000398055000007",NA,FALSE
+"University of Cambridge",2016,3478.66,"10.1192/bjp.bp.116.187682",NA,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250",NA,TRUE,"27979819","PMC5376719","ut:000398055000007",NA,FALSE
 "University of York",2016,3837.74,"10.3791/54765",NA,"MyJove Corporation","Journal of Visualized Experiments","1940-087X",NA,"1940-087X","1940-087X",NA,TRUE,"27842375","PMC5226141","ut:000397845800069",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -2179,8 +2179,8 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2016,2956.86,"10.1093/humrep/dew196",NA,"Oxford University Press (OUP)","Human Reproduction","0268-1161","0268-1161","1460-2350","0268-1161",NA,TRUE,"27609981","PMC5088633","ut:000388594300030",NA,FALSE
 "King's College London",2016,2853.09,"10.18632/oncotarget.12282",NA,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"27765920","PMC5342596","ut:000387448300136",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2016,3014.43,"10.1038/cddis.2016.397",NA,"Springer Nature","Cell Death & Disease","2041-4889",NA,"2041-4889","2041-4889","http://www.springer.com/tdm",TRUE,"27929541","PMC5260990","ut:000391815800019",NA,TRUE
-"UCL",2016,2944.96,"10.1038/cddis.2016.235",NA,"Springer Nature","Cell Death & Disease","2041-4889",NA,"2041-4889","2041-4889","http://www.springer.com/tdm",TRUE,"28079888","PMC5386347","ut:000393679000002",NA,TRUE
+"UCL",2016,3014.43,"10.1038/cddis.2016.397",NA,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889","http://www.springer.com/tdm",TRUE,"27929541","PMC5260990","ut:000391815800019",NA,TRUE
+"UCL",2016,2944.96,"10.1038/cddis.2016.235",NA,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889","http://www.springer.com/tdm",TRUE,"28079888","PMC5386347","ut:000393679000002",NA,TRUE
 "University of Cambridge",2016,2831.52,"10.1038/hdy.2016.107",NA,"Springer Nature","Heredity","0018-067X","0018-067X","1365-2540","0018-067X","http://www.springer.com/tdm",TRUE,"27925618","PMC5176112","ut:000392229100009",NA,FALSE
 "University of Cambridge",2016,3178.45,"10.1002/mame.201600135",NA,"Wiley-Blackwell","Macromolecular Materials and Engineering","1438-7492",NA,NA,"1438-7492","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000383683500001",NA,FALSE
 "University of Cambridge",2016,3192.33,"10.1111/jfb.12934",NA,"Wiley-Blackwell","Journal of Fish Biology","0022-1112",NA,NA,"0022-1112","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"26940195","PMC4982035","ut:000374008900026",NA,FALSE
@@ -2269,7 +2269,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2016,2517.69,"10.2217/rme-2016-0102",NA,"Future Medicine Ltd","Regenerative Medicine","1746-0751","1746-0751","1746-076X","1746-0751",NA,TRUE,"27885887","PMC5221268","ut:000390428500004",NA,FALSE
-"University of Liverpool",2017,2463.77,"10.1038/cddis.2016.485",NA,"Springer Nature","Cell Death & Disease","2041-4889",NA,"2041-4889","2041-4889","http://www.springer.com/tdm",TRUE,"28079887","PMC5386385","ut:000393679000041",NA,TRUE
+"University of Liverpool",2017,2463.77,"10.1038/cddis.2016.485",NA,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889","http://www.springer.com/tdm",TRUE,"28079887","PMC5386385","ut:000393679000041",NA,TRUE
 "University of Liverpool",2017,2474.73,"10.4155/fmc-2016-0207",NA,"Future Science, LTD","Future Medicinal Chemistry","1756-8919","1756-8919","1756-8927","1756-8919","CC BY",TRUE,"28097887",NA,"ut:000393683500008",NA,FALSE
 "King's College London",2016,2546.82,"10.1017/s0033291716002993",NA,"Cambridge University Press (CUP)","Psychological Medicine","0033-2917","0033-2917","1469-8978","0033-2917",NA,TRUE,"27916012","PMC5341492","ut:000396305100010",NA,FALSE
 "King's College London",2016,2546.82,"10.1017/s003329171600341x",NA,"Cambridge University Press (CUP)","Psychological Medicine","0033-2917","0033-2917","1469-8978","0033-2917",NA,TRUE,"28007047",NA,"ut:000398797100016",NA,FALSE
@@ -2586,7 +2586,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2016,1683.54,"10.1080/19420889.2016.1183854",NA,"Informa UK Limited","Communicative & Integrative Biology","1942-0889",NA,"1942-0889","1942-0889",NA,TRUE,"27574533","PMC4988446",NA,NA,TRUE
 "UCL",2016,1531.77,"10.1111/irv.12443",NA,"Wiley-Blackwell","Influenza and Other Respiratory Viruses","1750-2640",NA,NA,"1750-2640","http://creativecommons.org/licenses/by/4.0/",TRUE,"28058797","PMC5304572","ut:000394961400003",NA,TRUE
 "UCL",2016,1435.77,"10.1186/s13550-016-0226-3",NA,"Springer Nature","EJNMMI Research","2191-219X",NA,"2191-219X","2191-219X","http://creativecommons.org/licenses/by/4.0",TRUE,"27678494","PMC5039146","ut:000384365700001",NA,TRUE
-"UCL",2016,1500,"10.5271/sjweh.3589",NA,"Scandinavian Journal of Work, Environment and Health","Scandinavian Journal of Work, Environment & Health","0355-3140","0355-3140","1795-990X","0355-3140",NA,TRUE,"27576104",NA,"ut:000391242200003",NA,FALSE
+"UCL",2016,1500,"10.5271/sjweh.3589",NA,"Scandinavian Journal of Work, Environment and Health","Scandinavian Journal of Work Environment and Health","0355-3140","0355-3140","1795-990X","0355-3140",NA,TRUE,"27576104",NA,"ut:000391242200003",NA,FALSE
 "UCL",2016,1410.19,"10.1002/acp.3285",NA,"Wiley-Blackwell","Applied Cognitive Psychology","0888-4080",NA,NA,"0888-4080","http://creativecommons.org/licenses/by/3.0/",TRUE,"28163370","PMC5248650","ut:000394145400011",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2017,1454.62,"10.1111/hic3.12370",NA,"Wiley-Blackwell","History Compass","1478-0542",NA,NA,"1478-0542","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000393570000004",NA,FALSE
