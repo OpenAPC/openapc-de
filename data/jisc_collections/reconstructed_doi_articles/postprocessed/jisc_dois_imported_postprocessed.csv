@@ -1233,7 +1233,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2015,1884.66,"10.1152/ajpheart.00560.2015",TRUE,"American Physiological Society","American Journal of Physiology - Heart and Circulatory Physiology","0363-6135","0363-6135","1522-1539","0363-6135",NA,TRUE,"26475587","PMC4698427","ut:000367288700012",NA,FALSE
 "UCL",2015,1889.29,"10.1152/jn.00691.2015",TRUE,"American Physiological Society","Journal of Neurophysiology","0022-3077","0022-3077","1522-1598","0022-3077",NA,TRUE,"26510762","PMC4760470","ut:000369061900019",NA,FALSE
 "UCL",2015,1829.32,"10.1074/jbc.m115.699447",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X","0021-9258",NA,TRUE,"26553875","PMC4705382","ut:000367830500010",NA,FALSE
-"UCL",2015,4408.41,"10.3945/ajcn.114.095117",TRUE,"Oxford University Press (OUP)","American Journal of Clinical Nutrition","0002-9165","0002-9165","1938-3207","0002-9165",NA,TRUE,"26354545","PMC4588736","ut:000362241900006",NA,FALSE
+"UCL",2015,4408.41,"10.3945/ajcn.114.095117",TRUE,"American Society for Nutrition","American Journal of Clinical Nutrition","0002-9165","0002-9165","1938-3207","0002-9165",NA,TRUE,"26354545","PMC4588736","ut:000362241900006",NA,FALSE
 "UCL",2015,659.63,"10.1145/2914770.2837621",TRUE,"Association for Computing Machinery (ACM)","ACM SIGPLAN Notices","0362-1340","0362-1340",NA,"0362-1340","http://www.acm.org/publications/policies/copyright_policy#Background",TRUE,NA,NA,NA,NA,FALSE
 "UCL",2015,1697.5,"10.1167/15.6.2",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362","1534-7362",NA,"1534-7362",NA,TRUE,"26024450","PMC4419383","ut:000357858600002",NA,TRUE
 "UCL",2015,1343.57,"10.1167/15.15.12",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362","1534-7362",NA,"1534-7362",NA,TRUE,"26605841","PMC4669210","ut:000368252600012",NA,TRUE
@@ -1819,7 +1819,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,3303,"10.1016/j.semcancer.2015.09.013",TRUE,"Elsevier BV","Seminars in Cancer Biology","1044-579X","1044-579X",NA,"1044-579X","http://creativecommons.org/licenses/by/4.0/",TRUE,"26416465",NA,"ut:000371553900002",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2015,3215.6,"10.1080/17470218.2015.1099163",TRUE,"SAGE Publications","Quarterly Journal of Experimental Psychology","1747-0218","1747-0218","1747-0226","1747-0218","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"26447832","PMC5000869","ut:000388352700013",NA,FALSE
+"University of Cambridge",2015,3215.6,"10.1080/17470218.2015.1099163",TRUE,"Informa UK Limited","The Quarterly Journal of Experimental Psychology","1747-0218","1747-0218","1747-0226","1747-0218",NA,TRUE,"26447832","PMC5000869","ut:000388352700013",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,2956.02,"10.3109/03091902.2015.1088090",TRUE,"Informa UK Limited","Journal of Medical Engineering & Technology","0309-1902","0309-1902","1464-522X","0309-1902",NA,TRUE,"26453036","PMC4673557",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -1854,7 +1854,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Glasgow",2016,2489.38,"10.1088/0264-9381/32/24/245013",TRUE,"IOP Publishing","Classical and Quantum Gravity","0264-9381","0264-9381","1361-6382","0264-9381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000366360900015",NA,FALSE
 "University of Glasgow",2016,1351.44,"10.1103/physrevd.92.072009",TRUE,"American Physical Society (APS)","Physical Review D","1550-7998","1550-7998","1550-2368","1550-2368","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000363014900003",NA,FALSE
-"University of Glasgow",2016,545.47,"10.1080/13555502.2015.1124798",TRUE,"Oxford University Press (OUP)","Journal of Victorian Culture","1355-5502","1355-5502","1750-0133","1355-5502",NA,TRUE,NA,NA,"ut:000372121200002",NA,FALSE
+"University of Glasgow",2016,545.47,"10.1080/13555502.2015.1124798",TRUE,"Informa UK Limited","Journal of Victorian Culture","1355-5502","1355-5502","1750-0133","1355-5502",NA,TRUE,NA,NA,"ut:000372121200002",NA,FALSE
 "University of Glasgow",2016,3350.03,"10.1016/j.stemcr.2015.10.002",FALSE,"Elsevier BV","Stem Cell Reports","2213-6711","2213-6711",NA,"2213-6711","http://creativecommons.org/licenses/by/4.0/",TRUE,"26549847","PMC4682065","ut:000366142900012",NA,TRUE
 "University of Glasgow",2016,2489.38,"10.1088/0960-1317/25/12/125019",TRUE,"IOP Publishing","Journal of Micromechanics and Microengineering","0960-1317","0960-1317","1361-6439","0960-1317","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000366868400022",NA,FALSE
 "University of Glasgow",2016,1104.02,"10.1140/epja/i2015-15142-8",TRUE,"Springer Nature","The European Physical Journal A","1434-6001","1434-6001","1434-601X","1434-6001",NA,TRUE,NA,NA,"ut:000364513900001",NA,FALSE
