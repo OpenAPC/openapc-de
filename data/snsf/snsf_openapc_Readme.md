@@ -15,11 +15,6 @@
 |2018.04|For new grant applications APCs are no longer part of the research budget. The existing upper limit of 3000 CHF has been temporary removed (as part of the OA2020 policy).|
 |2018.10|A new workflow will be established, where grantees can apply for payment/reimbursement of APCs also for grants that already have expired.|
 
-
-In order to establish the extent of SNSF resources used to fund open access publishing since the measure introduced in October 2013 to cover article processing charges (APC) via project costs, a random sample of the financial reports of the key funding schemes was evaluated.
-
-In order to establish the extent of SNSF resources used to fund open access publishing since the measure introduced in October 2013 to cover article processing charges (APC) via project costs, a random sample of the financial reports of the key funding schemes was evaluated.
-
 ## CHF to EUR Conversion
 
 Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAPC all amounts in CHF were converted to EUR. For the conversion, the annual average exchange rate available from the [Swiss National Bank](https://data.snb.ch/de/topics/ziredev#!/cube/devkua?fromDate=2010&toDate=2017&dimSel=D1(EUR1)) was used:
