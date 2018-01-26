@@ -45,4 +45,4 @@ Values in the columns PMCID, PMID, Publisher, Journal title and ISSN were replac
 
 ## Duplicate treatment in connection with JISC data
 
-The JISC collections data processed in December 2016 included a lot of articles already reported by the Wellcome Trust. Since the JISC data provides a more accurate breakdown (institutions), it was given precedence and the equivalent Wellcome records were removed (See [3ddcf1b6](https://github.com/OpenAPC/openapc-de/commit/3ddcf1b6c07c577aa71c0d38a082c3c93f3e1f35)).
+The JISC collections data processed in December 2016 included a lot of articles already reported by the Wellcome Trust. Since the JISC data provides a more accurate breakdown (institutions), it was given precedence and the equivalent Wellcome records were removed (See [3ddcf1b6](https://github.com/OpenAPC/openapc-de/commit/3ddcf1b6c07c577aa71c0d38a082c3c93f3e1f35) and [7afa4435](https://github.com/OpenAPC/openapc-de/commit/7afa44353cf70d41f7c3156f76ff620b45915f02)).
