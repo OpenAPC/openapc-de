@@ -103,7 +103,7 @@ Preprocessing:
 
 | Reason for deletion                                                 | Count        |
 |:--------------------------------------------------------------------|-------------:|
-|No DOI                                                               |   - 8454     |
+|No DOI                                                               |   - 8454 (*) |
 |Unable to properly calculate a converted euro value larger than 0    |   - 3370     |
 |Drop mark found                                                      |   - 2400     |
 |Blacklisted pub type ('Conference Paper/Proceeding/Abstract')        |   - 45       |
@@ -131,4 +131,47 @@ Postprocessing:
 
 New articles remaining after Postprocessing:                              *6084*
 
+(*) Some of those could be reconstructed later, see next section.
 
+### Reconstructed DOIs
+
+In a follow-up, some articles initially dropped for not supplying a DOI could be made available for ingestion by automatically looking up the missing DOIs in CrossRef (using the article title). The subdirectory *reconstructed_doi_articles* contains the results and interim steps of this process.
+
+1. [jisc_doiless_articles_with_titles.csv](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/reconstructed_doi_articles/jisc_doiless_articles_with_titles.csv) is the starting point. It contains a subset of the original JISC spreadsheet, filtered to all articles with an article title but without a DOI. The columns are already reduced to the preprocessing set.
+
+2. dois_imported: Contains a variant of the previous file, with DOIs having been automatically imported from CrossRef.
+
+3. preprocessed, enriched, postprocessed: These directories and their contents are equivalent to the main transformation workflow in the parent directory.
+
+### Statistics for reconstructed DOIs:
+
+Candidates (articles with a title but without a DOI): 2970
+
+DOIs sucessfully imported: 2518
+
+Preprocessing:
+
+| Reason for deletion                                                 | Count        |
+|:--------------------------------------------------------------------|-------------:|
+|Drop mark found                                                      |   367        |
+|Unable to properly calculate a converted euro value                  |   299        |
+|Blacklisted pub type ('Conference Paper/Proceeding/Abstract')        |   13         |
+|Blacklisted pub type ('Book chapter')                                |   5          |
+|Blacklisted pub type ('Book edited')                                 |   2          |
+|Blacklisted pub type ('Book')                                        |   1          |
+|Additional unsupported publication types (via CrossRef)              |   8          |
+
+Remaining after Preprocessing:                                          *1823*
+
+Postprocessing: 24
+
+| Reason for deletion                                                  | Count       |
+|:---------------------------------------------------------------------|------------:|
+|Duplicates with Wellcome Trust data                                   | - 254       |
+|Resolvable duplicates with existing jisc data / internal duplicates   | - 25        |
+|Non-resolvable introduced duplicates (*)                              | - 11 (x2)   |
+|Non-resolvable introduced duplicates with OpenAIRE (*)                | - 1 (x2)    |
+
+New articles remaining after Postprocessing:                              *1520*
+
+(*) This happens when a reconstructed DOI article is already present in our ingested data and the cost information differs. Since there's no indication which entry is correct, we have to remove them both, thus the (x2).
