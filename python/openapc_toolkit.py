@@ -1114,7 +1114,14 @@ def get_unified_journal_title(journal_full_title):
         "Lab Chip": "Lab on a Chip",
         "Mater. Horiz.": "Materials Horizons",
         "AoB PLANTS": "AoB Plants",
-        "Elem Sci Anth": "Elementa: Science of the Anthropocene"
+        "Elem Sci Anth": "Elementa: Science of the Anthropocene",
+        "Cell Death & Disease": "Cell Death and Disease",
+        "Scandinavian Journal of Work, Environment & Health": "Scandinavian Journal of Work Environment and Health",
+        "The Bone & Joint Journal": "Bone & Joint Journal",
+        "British Journal of Psychiatry": "The British Journal of Psychiatry",
+        "American Journal of Physiology-Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
+        "American Journal of Physiology-Endocrinology and Metabolism": "AJP: Endocrinology and Metabolism",
+        "Milbank Quarterly": "The Milbank Quarterly"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

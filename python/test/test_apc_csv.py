@@ -13,7 +13,8 @@ PUBLISHER_IDENTITY = [
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
     (["Informa Healthcare"], ["Informa UK Limited"]), # Usage very inconsistent in crossref data
     (["GeoScienceWorld"], ["Mineralogical Society of America"]),
-    (["International Scientific Literature"], ["International Scientific Information, Inc."])
+    (["International Scientific Literature"], ["International Scientific Information, Inc."]),
+    (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"])
 ]
 
 
@@ -53,7 +54,14 @@ JOURNAL_OWNER_CHANGED = {
     "0039-3630": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation
     "2047-0584": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation (electronic)
     "0148-396X": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"], # Neurosurgery
-    "2047-217X": ["Springer Nature", "Oxford University Press (OUP)"] # GigaScience
+    "2047-217X": ["Springer Nature", "Oxford University Press (OUP)"], # GigaScience
+    "0007-0912": ["Oxford University Press (OUP)", "Elsevier BV"], # British Journal of Anaesthesia
+    "0003-598X": ["Antiquity Publications", "Cambridge University Press (CUP)"], # Antiquity
+    "1745-1744": ["Antiquity Publications", "Cambridge University Press (CUP)"], # Antiquity (electronic)
+    "0818-9641": ["Nature Publishing Group", "Springer Nature", "Wiley-Blackwell"], # Immunology and Cell Biology
+    "1758-2652": ["International AIDS Society", "Wiley-Blackwell"], # Journal of the International AIDS Society
+    "1097-3958": ["Springer Nature", "Wiley-Blackwell"], # Journal of Surfactants and Detergents
+    "1558-9293": ["Springer Nature", "Wiley-Blackwell"] # Journal of Surfactants and Detergents (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
