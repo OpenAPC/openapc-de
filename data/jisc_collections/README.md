@@ -93,7 +93,7 @@ This is the final file as it was added to the OpenAPC core data. The following s
     
 3. Some articles were reported as not having been paid for in APCs (They were published using alternative models of clearing, like the RSC "Gold 4 Gold" voucher system). Those entries were [removed](https://github.com/OpenAPC/openapc-de/commit/40220582) in accordance with the [OpenAPC cost definition](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout#definition-of-costs).
 
-### Statistics
+#### Statistics
 
 The processing reduced the net increase in articles to OpenAPC by a large margin. The following table gives an overview on how many articles were removed for what reason.
 
@@ -137,13 +137,13 @@ New articles remaining after Postprocessing:                              *6084*
 
 In a follow-up, some articles initially dropped for not supplying a DOI could be made available for ingestion by automatically looking up the missing DOIs in CrossRef (using the article title). The subdirectory *reconstructed_doi_articles* contains the results and interim steps of this process.
 
-1. [jisc_doiless_articles_with_titles.csv](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/reconstructed_doi_articles/jisc_doiless_articles_with_titles.csv) is the starting point. It contains a subset of the original JISC spreadsheet, filtered to all articles with an article title but without a DOI. The columns are already reduced to the preprocessing set.
+* [jisc_doiless_articles_with_titles.csv](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/reconstructed_doi_articles/jisc_doiless_articles_with_titles.csv) is the starting point. It contains a subset of the original JISC spreadsheet, filtered to all articles with an article title but without a DOI. The columns are already reduced to the preprocessing set.
 
-2. dois_imported: Contains a variant of the previous file, with DOIs having been automatically imported from CrossRef.
+* dois_imported: Contains a variant of the previous file, with DOIs having been automatically imported from CrossRef.
 
-3. preprocessed, enriched, postprocessed: These directories and their contents are equivalent to the main transformation workflow in the parent directory.
+* preprocessed, enriched, postprocessed: These directories and their contents are equivalent to the main transformation workflow in the parent directory.
 
-### Statistics for reconstructed DOIs:
+#### Statistics for reconstructed DOIs:
 
 Candidates (articles with a title but without a DOI): 2970
 
@@ -163,7 +163,7 @@ Preprocessing:
 
 Remaining after Preprocessing:                                          *1823*
 
-Postprocessing: 24
+Postprocessing:
 
 | Reason for deletion                                                  | Count       |
 |:---------------------------------------------------------------------|------------:|
