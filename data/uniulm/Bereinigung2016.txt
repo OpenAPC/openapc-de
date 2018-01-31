@@ -1,5 +1,0 @@
-Änderung		doi					euro
-
-löschen			10.1038/srep29323	
-Betrag ändern		10.4172/2157-7560.1000337		1333	
-Betrag ändern		10.1038/srep33231			1165	
