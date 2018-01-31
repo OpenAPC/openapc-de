@@ -1121,7 +1121,8 @@ def get_unified_journal_title(journal_full_title):
         "British Journal of Psychiatry": "The British Journal of Psychiatry",
         "American Journal of Physiology-Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
         "American Journal of Physiology-Endocrinology and Metabolism": "AJP: Endocrinology and Metabolism",
-        "Milbank Quarterly": "The Milbank Quarterly"
+        "Milbank Quarterly": "The Milbank Quarterly",
+        "Faraday Discuss.": "Faraday Discussions"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
