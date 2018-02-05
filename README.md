@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 47,690 open access journal articles, amounting to € 91,857,125 and contributed by 151 institutions.
+At the moment this project provides cost data on 47,697 open access journal articles, amounting to € 91,868,230 and contributed by 151 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -220,9 +220,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 47,690 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 151 research performing institutions and research funders. 
+This dataset contains information on 47,697 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 151 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 91,857,125. The average payment was € 1,926  and the median was € 1,739.
+In total, publication fee spending covered by the Open APC initiative amounted to € 91,868,230. The average payment was € 1,926  and the median was € 1,739.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -236,7 +236,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-26,708 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 39,540,709, including value-added tax; the average payment was € 1,480 (median =  € 1,396, SD = € 723).
+26,712 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 39,544,732, including value-added tax; the average payment was € 1,480 (median =  € 1,396, SD = € 723).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -357,12 +357,12 @@ The following table summarises institutional spending on articles published in f
 |IST Austria                                                     |       13|                30,578| 2,352 (1,608)|  1,632|      562 -  5,412|
 |Nord University                                                 |       12|                14,974|   1,248 (559)|  1,126|      101 -  2,045|
 |Royal Holloway                                                  |       12|                20,914|   1,743 (904)|  1,512|      921 -  4,363|
+|TU Clausthal                                                    |       12|                11,023|     919 (585)|    918|      181 -  2,099|
 |Akershus University Hospital                                    |       11|                15,680|   1,425 (402)|  1,290|      834 -  1,979|
 |Plymouth University                                             |       11|                14,848|   1,350 (422)|  1,340|      631 -  2,250|
 |Cranfield University                                            |       10|                14,348|   1,435 (513)|  1,530|      228 -  2,067|
 |Manchester Metropolitan University                              |       10|                14,997|   1,500 (521)|  1,421|      461 -  2,246|
 |Aberystwyth University                                          |        9|                18,176| 2,020 (1,119)|  1,569|    1,236 -  4,797|
-|TU Clausthal                                                    |        8|                 6,999|     875 (514)|    918|      181 -  1,724|
 |Umeå University                                                 |        8|                 6,104|     763 (362)|    724|      323 -  1,585|
 |Uppsala University                                              |        8|                 6,467|     808 (619)|    691|      321 -  2,132|
 |Karolinska Institutet                                           |        7|                 4,371|     624 (230)|    755|      199 -    755|
@@ -401,7 +401,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 20,982 open access articles being published in hybrid journals. Total expenditure amounts to  52,316,416 €. Average  fee is 2,493 € and the median 2,446 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 20,985 open access articles being published in hybrid journals. Total expenditure amounts to  52,323,498 €. Average  fee is 2,493 € and the median 2,446 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -487,6 +487,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of Surrey                        |        5|                15,095|   3,019 (480)|  2,769|    2,735 -  3,857|
 |Hannover U                                  |        4|                 5,824|   1,456 (180)|  1,398|    1,323 -  1,704|
 |IST Austria                                 |        3|                11,911| 3,970 (1,267)|  3,468|    3,031 -  5,412|
+|TU Clausthal                                |        3|                 7,082|   2,361 (349)|  2,500|    1,964 -  2,618|
 |GenØk - Centre for Biosafety                |        2|                 3,650|   1,825 (371)|  1,825|    1,563 -  2,087|
 |HZDR                                        |        2|                 3,650| 1,825 (1,054)|  1,825|    1,080 -  2,570|
 |Bergen University College                   |        1|                   503|     503 (  0)|    503|      503 -    503|
@@ -524,8 +525,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.7%       |
-|PubMed ID                  |  76.88%      |
-|PubMed Central ID          |  70.43%     |
+|PubMed ID                  |  76.87%      |
+|PubMed Central ID          |  70.42%     |
 |Web of Science record ID   | 91.15%      |
 
 
