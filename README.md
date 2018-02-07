@@ -236,7 +236,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-26,758 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 39,621,778, including value-added tax; the average payment was € 1,481 (median =  € 1,396, SD = € 724).
+26,755 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 39,618,505, including value-added tax; the average payment was € 1,481 (median =  € 1,396, SD = € 724).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -278,7 +278,7 @@ The following table summarises institutional spending on articles published in f
 |University of Manchester                                        |      247|               481,564|   1,950 (981)|  1,672|      431 -  4,888|
 |Duisburg-Essen U                                                |      229|               309,648|   1,352 (489)|  1,276|      238 -  3,700|
 |University of Oslo                                              |      218|               339,354|   1,557 (541)|  1,522|       70 -  3,522|
-|JGU Mainz                                                       |      216|               304,319|   1,409 (429)|  1,383|      110 -  2,646|
+|JGU Mainz                                                       |      215|               302,527|   1,407 (429)|  1,381|      110 -  2,646|
 |King's College London                                           |      198|               401,718| 2,029 (1,076)|  1,591|      421 -  5,599|
 |University of Bristol                                           |      198|               342,569|   1,730 (867)|  1,607|      131 -  5,520|
 |TU Dresden                                                      |      195|               274,112|   1,406 (420)|  1,449|      200 -  2,193|
@@ -288,8 +288,8 @@ The following table summarises institutional spending on articles published in f
 |University of Tromsø - The Arctic University of Norway          |      179|               252,462|   1,410 (415)|  1,523|      496 -  2,404|
 |GFZ-Potsdam                                                     |      172|               225,908|   1,313 (808)|  1,224|      137 -  4,403|
 |Cardiff University                                              |      169|               289,389|   1,712 (792)|  1,562|      204 -  4,510|
-|University of Edinburgh                                         |      159|               269,874|   1,697 (834)|  1,586|      226 -  4,689|
 |Oldenburg U                                                     |      157|               189,277|   1,206 (488)|  1,342|       63 -  2,002|
+|University of Edinburgh                                         |      157|               268,393|   1,710 (832)|  1,632|      226 -  4,689|
 |University of Bergen                                            |      156|               242,308|   1,553 (499)|  1,549|      333 -  5,142|
 |Virginia Tech                                                   |      153|               165,423|   1,081 (472)|  1,216|      112 -  2,484|
 |University of Sheffield                                         |      150|               255,179| 1,701 (1,063)|  1,496|      203 -  5,492|
@@ -401,7 +401,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 20,990 open access articles being published in hybrid journals. Total expenditure amounts to  52,337,296 €. Average  fee is 2,493 € and the median 2,446 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 20,993 open access articles being published in hybrid journals. Total expenditure amounts to  52,340,569 €. Average  fee is 2,493 € and the median 2,446 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -423,7 +423,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of Liverpool                     |      425|             1,043,327|   2,455 (834)|  2,467|      132 -  5,199|
 |University of Sheffield                     |      419|             1,020,762|   2,436 (816)|  2,289|       66 -  5,837|
 |University of Newcastle                     |      354|               972,503|   2,747 (968)|  2,629|      691 -  7,202|
-|University of Edinburgh                     |      297|               791,922|   2,666 (910)|  2,618|      620 -  5,624|
+|University of Edinburgh                     |      299|               793,402|   2,654 (921)|  2,618|      489 -  5,624|
 |University of Warwick                       |      267|               679,743|   2,546 (808)|  2,574|      739 -  5,208|
 |University of Durham                        |      265|               563,728|   2,127 (638)|  2,091|      224 -  3,788|
 |University of Reading                       |      234|               537,879|   2,299 (753)|  2,308|      561 -  4,587|
@@ -494,6 +494,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|    1,581 -  1,581|
 |Erlangen Nuernberg U                        |        1|                 1,638|   1,638 (  0)|  1,638|    1,638 -  1,638|
 |FU Berlin                                   |        1|                 1,500|   1,500 (  0)|  1,500|    1,500 -  1,500|
+|JGU Mainz                                   |        1|                 1,792|   1,792 (  0)|  1,792|    1,792 -  1,792|
 |KIT                                         |        1|                 2,000|   2,000 (  0)|  2,000|    2,000 -  2,000|
 |Konstanz U                                  |        1|                 1,950|   1,950 (  0)|  1,950|    1,950 -  1,950|
 |TU Chemnitz                                 |        1|                   100|     100 (  0)|    100|      100 -    100|
