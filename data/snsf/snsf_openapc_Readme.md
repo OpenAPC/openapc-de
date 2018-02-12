@@ -32,9 +32,9 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
  
 ## Co-Funding
 
-From 2013.10-2018.03 there existed an upper limit of 3000 CHF for APCs. In cases of higher APCs the SNSF usually covered 3000 CHF and the remaining payment was rejected to the author and/or financial department of the University. The APCs of the following publications have not been paid completely by the SNSF:
+From 2013.10-2018.03 there existed an upper limit of 3000 CHF for APCs. In cases of higher APCs the SNSF usually covered 3000 CHF and the remaining payment was rejected to the author and/or financial department of the University. The APCs of the following publications have not been paid completely by the SNSF.
 
-See [list of publication with co-funding](https://github.com/OpenAPC/openapc-de/tree/master/data/snsf/snsf_apc_cofunding.csv) in the snsf data folder
+See [list of publication with co-funding](snsf_apc_cofunding.csv) in the snsf data folder
 
 
 ## Hybrid
