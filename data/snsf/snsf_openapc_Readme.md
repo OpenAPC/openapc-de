@@ -30,41 +30,11 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 |2016|1|1.09008992|
 |2017|1|1.11156946|
  
-## Cost-Splits
+## Co-Funding
 
 From 2013.10-2018.03 there existed an upper limit of 3000 CHF for APCs. In cases of higher APCs the SNSF usually covered 3000 CHF and the remaining payment was rejected to the author and/or financial department of the University. The APCs of the following publications have not been paid completely by the SNSF:
 
-
-----------
-
-
-|  doi                         | year | invoice  | effective payment euro | part snsf euro | part other euro  | other institution is probably | snsf grant       |
-| ---------------------------- | ---- | -------  | ----------------       | ---------------| --------------   | ----------------              | ---------------- | 
-| 10.1038/ncomms8494           | 2015 | 3700 EUR | 3700                   | 2684.54        | 1015.46          | UniFR                         | 31003A_156764    |
-| 10.1038/ncomms9675           | 2015 | 3700 EUR | 3700                   | 1018.99        | 2681.01          | PSI                           | 200021_138068    |
-| 10.3389/fpsyg.2015.01691     | 2015 | 1539 USD | 1416                   | 447.70         | 968.30           | UniGE                         | 320030_144187    |
-| 10.1126/sciadv.1600432       | 2016 | 3105 USD | 2857                   | 1433.92        | 1423.08          | immigrationlab.org            | 100017_159820    |
-| 10.15252/msb.20145247        | 2014 | 3810 USD | 3008                   | 2469.89        | 538.11           | UniL                          | 310030B_141181   |
-| 10.1016/j.celrep.2015.01.061 | 2015 | 5000 USD | 2962                   | 2808.69        | 153.31           | UniGE                         | 31003A_140940    |
-| 10.1016/j.celrep.2015.01.063 | 2015 | 5000 USD | 5000                   | 2808.69        | 2191.31          | UniGE                         | CRSII3_147637    |
-| 10.1016/j.celrep.2015.06.051 | 2015 | 5000 USD | 4636                   | 2808.69        | 1827.31          | FMI                           | 31003A_155940    |
-| 10.1038/ncomms8837           | 2015 | 3700 EUR | 4024                   | 2808.69        | 1215.31          | ETHZ                          | CRSII2-141843    |
-| 10.1038/ncomms9141           | 2015 | 3700 EUR | 3728                   | 2808.69        | 919.31           | UZH                           | CRSII3_154488    |
-| 10.1038/ncomms9757           | 2015 | 3700 EUR | 3817                   | 2808.69        | 1008.31          | ETHZ                          | 200021_150046    |
-| 10.1038/ncomms9892           | 2015 | 3700 EUR | 4048                   | 2808.69        | 1239.31          | UniGE                         | 200020_150079    |
-| 10.3791/53188                | 2015 | 4200 USD | 4001                   | 2808.69        | 1192.31          | CHUV                          | 200021_140230    |
-| 10.3791/54193                | 2015 | 4200 USD | 3953                   | 2808.69        | 1144.31          | EMPA                          | 200021_160174    |
-| 10.1038/lsa.2016.74          | 2016 | 3000 EUR | 3120                   | 2752.07        | 367.93           | EPFL                          | 200021L_157132   |
-| 10.1038/ncomms10622          | 2016 | 3700 EUR | 3771                   | 2752.07        | 1018.93          | UZH                           | PP00P2_157607    |
-| 10.1038/ncomms10938          | 2016 | 3700 EUR | 3750                   | 2752.07        | 997.93           | UniGE                         | 310030_149390    |
-| 10.1038/ncomms11582          | 2016 | 3700 EUR | 3675                   | 2752.07        | 922.93           | crg.eu                        | CRSII3_141918    |
-| 10.1038/ncomms11866          | 2016 | 3700 EUR | 3869                   | 2752.07        | 1116.93          | UniL                          | 31003A_140869    |
-| 10.1038/ncomms13120          | 2016 | 3700 EUR | 3768                   | 2752.07        | 1015.93          | ETHZ                          | 200021_156106    |
-| 10.1038/lsa.2017.66          | 2017 |          | 2’914                  | 2698.89        | 215.11           | UZH                           | 200020_159916    |
-| 10.1038/s41467-017-01467-7   | 2017 | 3700 EUR | 4201                   | 2698.89        | 1502.11          | UniGE                         | PZ00P3_154728    |
-
-
-----------
+See [list of publication with co-funding](https://github.com/OpenAPC/openapc-de/tree/master/data/snsf/snsf_apc_cofunding.csv) in the snsf data folder
 
 
 ## Hybrid
