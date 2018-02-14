@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 47,870 open access journal articles, amounting to € 92,161,124 and contributed by 152 institutions.
+At the moment this project provides cost data on 48,171 open access journal articles, amounting to € 92,675,284 and contributed by 153 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -87,6 +87,10 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Institute of Science and Technology Austria](https://ist.ac.at/open-access/open-access-policy/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
+
+## Participating Swiss Institutions
+
+- [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 
 ## Participating Italian Institutions
 
@@ -221,9 +225,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 47,870 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 152 research performing institutions and research funders. 
+This dataset contains information on 48,171 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 153 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 92,161,124. The average payment was € 1,925  and the median was € 1,737.
+In total, publication fee spending covered by the Open APC initiative amounted to € 92,675,284. The average payment was € 1,924  and the median was € 1,734.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -237,7 +241,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-26,856 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 39,770,497, including value-added tax; the average payment was € 1,481 (median =  € 1,396, SD = € 723).
+27,099 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 40,165,432, including value-added tax; the average payment was € 1,482 (median =  € 1,396, SD = € 725).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -261,7 +265,7 @@ The following table summarises institutional spending on articles published in f
 |OpenAIRE                                                        |      538|               780,991|   1,452 (423)|  1,413|      209 -  2,086|
 |University of Cambridge                                         |      527|             1,146,718| 2,176 (1,174)|  1,807|      154 -  5,528|
 |Regensburg U                                                    |      484|               652,522|   1,348 (564)|  1,254|       77 -  4,403|
-|University of Oxford                                            |      449|               966,280| 2,152 (1,154)|  1,898|      220 -  5,661|
+|University of Oxford                                            |      448|               965,918| 2,156 (1,152)|  1,901|      220 -  5,661|
 |University of Birmingham                                        |      433|               749,069|   1,730 (779)|  1,680|      126 -  5,669|
 |Giessen U                                                       |      415|               590,189|   1,422 (652)|  1,346|       81 -  4,498|
 |Muenchen LMU                                                    |      407|               533,749|   1,311 (314)|  1,342|      496 -  2,123|
@@ -277,6 +281,7 @@ The following table summarises institutional spending on articles published in f
 |FZJ - ZB                                                        |      266|               336,279|   1,264 (552)|  1,165|      225 -  3,700|
 |University of Liverpool                                         |      262|               445,007|   1,699 (712)|  1,693|      223 -  5,382|
 |University of Manchester                                        |      247|               481,564|   1,950 (981)|  1,672|      431 -  4,888|
+|Swiss National Science Foundation (SNSF)                        |      244|               395,297|   1,620 (902)|  1,361|      227 -  5,000|
 |Duisburg-Essen U                                                |      236|               322,744|   1,368 (518)|  1,277|      238 -  3,700|
 |University of Oslo                                              |      218|               339,354|   1,557 (541)|  1,522|       70 -  3,522|
 |JGU Mainz                                                       |      215|               302,527|   1,407 (429)|  1,381|      110 -  2,646|
@@ -403,7 +408,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,014 open access articles being published in hybrid journals. Total expenditure amounts to  52,390,627 €. Average  fee is 2,493 € and the median 2,446 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,072 open access articles being published in hybrid journals. Total expenditure amounts to  52,509,852 €. Average  fee is 2,492 € and the median 2,444 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -448,6 +453,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Aston University                            |       76|               164,750|   2,168 (862)|  2,174|      338 -  4,399|
 |Institute of Cancer Research                |       67|               206,220|   3,078 (945)|  2,811|    1,315 -  5,296|
 |Cranfield University                        |       66|               186,639|   2,828 (817)|  2,901|      633 -  4,113|
+|Swiss National Science Foundation (SNSF)    |       58|               119,225|   2,056 (862)|  2,153|      247 -  4,452|
 |University of Calgary                       |       45|                91,902|   2,042 (390)|  2,184|      997 -  2,665|
 |LSE                                         |       44|                86,452| 1,965 (1,023)|  2,067|      527 -  5,392|
 |Bangor University                           |       39|               106,903|   2,741 (841)|  2,714|      535 -  4,168|
@@ -528,9 +534,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.7%       |
-|PubMed ID                  |  76.81%      |
-|PubMed Central ID          |  70.37%     |
-|Web of Science record ID   | 91.13%      |
+|PubMed ID                  |  76.79%      |
+|PubMed Central ID          |  70.33%     |
+|Web of Science record ID   | 91.15%      |
 
 
 
@@ -558,7 +564,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
