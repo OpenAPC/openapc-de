@@ -484,7 +484,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                 articles.append(article.values())
                 counter += 1
             token = root.find(token_xpath, namespaces)
-            if token is not None:
+            if token is not None and token.text is not None:
                 url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text
             print_g(str(counter) + " articles harvested.")
         except urllib2.HTTPError as httpe:

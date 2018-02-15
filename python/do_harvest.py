@@ -26,12 +26,12 @@ def main():
             basic_url = line["basic_url"]
             if line["active"] == "TRUE":
                 oat.print_g("Starting harvest from source " + basic_url)
-                processing = None
-                if len(line["processing"]) > 0:
-                    processing = line["processing"]
+                oai_set = line["oai_set"] if len(line["oai_set"]) > 0 else None
+                prefix = line["metadata_prefix"] if len(line["metadata_prefix"]) > 0 else None
+                processing = line["processing"] if len(line["processing"]) > 0 else None
                 oat.oai_harvest(basic_url,
-                                line["metadata_prefix"],
-                                line["oai_set"],
+                                prefix,
+                                oai_set,
                                 processing,
                                 args.selective_harvesting)
                 now = datetime.datetime.now()
