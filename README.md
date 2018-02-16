@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 48,171 open access journal articles, amounting to € 92,675,284 and contributed by 153 institutions.
+At the moment this project provides cost data on 48,199 open access journal articles, amounting to € 92,725,390 and contributed by 153 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -225,9 +225,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 48,171 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 153 research performing institutions and research funders. 
+This dataset contains information on 48,199 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 153 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 92,675,284. The average payment was € 1,924  and the median was € 1,734.
+In total, publication fee spending covered by the Open APC initiative amounted to € 92,725,390. The average payment was € 1,924  and the median was € 1,734.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -241,7 +241,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-27,099 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 40,165,432, including value-added tax; the average payment was € 1,482 (median =  € 1,396, SD = € 725).
+27,127 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 40,215,538, including value-added tax; the average payment was € 1,482 (median =  € 1,396, SD = € 725).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -249,7 +249,7 @@ The following table summarises institutional spending on articles published in f
 
 |Institution                                                     | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:---------------------------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|MPG                                                             |    3,458|             4,712,028|   1,363 (537)|  1,203|       69 -  7,419|
+|MPG                                                             |    3,486|             4,762,134|   1,366 (539)|  1,203|       69 -  7,419|
 |UCL                                                             |    1,645|             2,697,774|   1,640 (885)|  1,534|       88 -  5,721|
 |FWF - Austrian Science Fund                                     |    1,017|             1,542,862|   1,517 (741)|  1,398|      100 -  5,405|
 |Wellcome Trust                                                  |    1,015|             1,782,368|   1,756 (819)|  1,604|      240 -  5,486|
@@ -534,9 +534,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.7%       |
-|PubMed ID                  |  76.79%      |
-|PubMed Central ID          |  70.33%     |
-|Web of Science record ID   | 92.7%      |
+|PubMed ID                  |  76.75%      |
+|PubMed Central ID          |  70.29%     |
+|Web of Science record ID   | 92.71%      |
 
 
 
