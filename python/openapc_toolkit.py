@@ -591,6 +591,22 @@ def get_metadata_from_crossref(doi_string):
     return ret_value
 
 def get_metadata_from_pubmed(doi_string):
+    """
+    Look up a DOI in Europe PMC and extract Pubmed ID and Pubmed Central ID
+    
+    Args:
+        doi_string: A string representing a doi. 'Pure' form (10.xxx),
+        DOI Handbook notation (doi:10.xxx) or crossref-style
+        (https://doi.org/10.xxx) are all acceptable.
+    Returns:
+        A dict with a key 'success'. If data extraction was successful,
+        'success' will be True and the dict will have a second entry 'data'
+        which contains the extracted metadata (pmid, pmcid) as another dict.
+
+        If data extraction failed, 'success' will be False and the dict will
+        contain a second entry 'error_msg' with a string value
+        stating the reason.
+    """
     doi = get_normalised_DOI(doi_string)
     if doi is None:
         return {"success": False,
@@ -598,10 +614,10 @@ def get_metadata_from_pubmed(doi_string):
                }
     url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
-    req = urllib2.Request(url)
+    req = Request(url)
     ret_value = {'success': True}
     try:
-        response = urllib2.urlopen(req)
+        response = urlopen(req)
         content_string = response.read()
         root = ET.fromstring(content_string)
         pubmed_data = {}
@@ -609,18 +625,17 @@ def get_metadata_from_pubmed(doi_string):
             "pmid": ".//resultList/result/pmid",
             "pmcid": ".//resultList/result/pmcid",
         }
-        for elem, path in xpaths.iteritems():
+        for elem, path in xpaths.items():
             result = root.findall(path)
             if result:
                 pubmed_data[elem] = result[0].text
             else:
                 pubmed_data[elem] = None
         ret_value['data'] = pubmed_data
-    except urllib2.HTTPError as httpe:
+    except HTTPError as httpe:
         ret_value['success'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
-    except urllib2.URLError as urle:
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     return ret_value
