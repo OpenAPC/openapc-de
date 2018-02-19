@@ -640,7 +640,7 @@ def get_metadata_from_pubmed(doi_string):
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     return ret_value
 
-def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
+def lookup_journal_in_doaj(issn):
     """
     Take an ISSN and check if the corresponding journal exists in DOAJ.
 
@@ -669,16 +669,12 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
         will contain a second entry 'error_msg' with a string value
         stating the reason.
     """
-    headers = {"Accept": "application/json"}
     ret_value = {'data_received': True}
     url = "https://doaj.org/api/v1/search/journals/issn:" + issn
-    req = urllib2.Request(url, None, headers)
+    req = Request(url)
+    req.add_header("Accept", "application/json")
     try:
-        if bypass_cert_verification:
-            empty_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
-            response = urllib2.urlopen(req, context=empty_context)
-        else:
-            response = urllib2.urlopen(req)
+        response = urlopen(req)
         content_string = response.read()
         json_dict = json.loads(content_string)
         ret_data = {}
@@ -686,17 +682,13 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
             ret_data["in_doaj"] = True
             # Try to extract the journal title - useful for error correction
             journal = json_dict["results"][0]
-            try:
-                ret_data["title"] = journal["bibjson"]["title"]
-            except KeyError:
-                ret_data["title"] = ""
+            ret_data["title"] = journal["bibjson"].get("title", "")
         else:
             ret_data["in_doaj"] = False
         ret_value['data'] = ret_data
-    except urllib2.HTTPError as httpe:
+    except HTTPError as httpe:
         ret_value['data_received'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
     except ValueError as ve:
         ret_value['data_received'] = False
         msg = "ValueError while parsing JSON: {}"
