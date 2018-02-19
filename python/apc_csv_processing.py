@@ -1,8 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
 import codecs
+import csv
 from collections import OrderedDict
 import datetime
 import locale
@@ -269,12 +270,12 @@ def main():
             oat.print_r(msg)
             sys.exit()
 
-    result = oat.analyze_csv_file(args.csv_file, line_limit=500)
+    result = oat.analyze_csv_file(args.csv_file)
     if result["success"]:
         csv_analysis = result["data"]
-        print csv_analysis
+        print(csv_analysis)
     else:
-        print result["error_msg"]
+        print(result["error_msg"])
         sys.exit()
 
     if enc is None:
@@ -303,15 +304,15 @@ def main():
             oat.print_r("Error: " + args.offline_doaj + " does not seem "
                         "to be a file!")
 
-    csv_file = open(args.csv_file, "r")
-    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    csv_file = open(args.csv_file, "r", encoding=enc)
+    reader = csv.reader(csv_file, dialect=dialect)
 
-    first_row = reader.next()
+    first_row = next(reader)
     num_columns = len(first_row)
-    print "\nCSV file has {} columns.".format(num_columns)
+    print("\nCSV file has {} columns.".format(num_columns))
 
     csv_file.seek(0)
-    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    reader = csv.reader(csv_file, dialect=dialect)
 
     if args.overwrite:
         ow_strategy = CSVColumn.OW_ALWAYS
@@ -369,22 +370,22 @@ def main():
                 continue
             header = row # First non-empty row should be the header
             if args.ignore_header:
-                print "Skipping header analysis due to command line argument."
+                print("Skipping header analysis due to command line argument.")
                 break
             else:
-                print "\n    *** Analyzing CSV header ***\n"
+                print("\n    *** Analyzing CSV header ***\n")
             for (index, item) in enumerate(header):
                 column_type = oat.get_column_type_from_whitelist(item)
                 if column_type is not None and column_map[column_type].index is None:
                     column_map[column_type].index = index
                     column_map[column_type].column_name = item
-                    print ("Found column named '{}' at index {}, " +
-                           "assuming this to be the {} column.").format(
-                               item, index, column_type)
+                    found_msg = ("Found column named '{}' at index {}, " +
+                                 "assuming this to be the {} column.")
+                    print(found_msg.format(item, index, column_type))
             break
 
 
-    print "\n    *** Starting heuristical analysis ***\n"
+    print("\n    *** Starting heuristical analysis ***\n")
     for row in reader:
         if not row: # Skip empty lines
             # We analyze the first non-empty line, a possible header should
@@ -443,14 +444,14 @@ def main():
                         continue
                 except ValueError:
                     pass
-        for column_type, candidates in column_candidates.iteritems():
+        for column_type, candidates in column_candidates.items():
             if column_map[column_type].index is not None:
                 continue
             if len(candidates) > 1:
-                print ("Could not reliably identify the '" + column_type +
-                       "' column - more than one possible candiate!")
+                print("Could not reliably identify the '" + column_type +
+                      "' column - more than one possible candiate!")
             elif len(candidates) < 1:
-                print "No candidate found for column '" + column_type + "'!"
+                print("No candidate found for column '" + column_type + "'!")
             else:
                 index = candidates.pop()
                 column_map[column_type].index = index
@@ -466,32 +467,31 @@ def main():
 
     # Wrap up: Check if there any mandatory column types left which have not
     # yet been identified - we cannot continue in that case (unless forced).
-    unassigned = filter(lambda (k, v): v.requirement == CSVColumn.MANDATORY and v.index is None,
-                        column_map.iteritems())
+    unassigned = [x for x in iter(column_map.items()) if x[1].requirement == CSVColumn.MANDATORY and x[1].index is None]
     if unassigned:
         for item in unassigned:
-            print "The {} column is still unidentified.".format(item[0])
+            print("The {} column is still unidentified.".format(item[0]))
         if header:
-            print "The CSV header is:\n" + dialect.delimiter.join(header)
+            print("The CSV header is:\n" + dialect.delimiter.join(header))
         if not args.force:
-            print ("ERROR: We cannot continue because not all mandatory " +
-                   "column types in the CSV file could be automatically " +
-                   "identified. There are 2 ways to fix this:")
+            print("ERROR: We cannot continue because not all mandatory " +
+                  "column types in the CSV file could be automatically " +
+                  "identified. There are 2 ways to fix this:")
             if not header:
-                print ("1) Add a header row to your file and identify the " +
-                       "column(s) by assigning them an appropiate column name.")
+                print("1) Add a header row to your file and identify the " +
+                      "column(s) by assigning them an appropiate column name.")
             else:
-                print ("1) Identify the missing column(s) by assigning them " +
-                       "a different column name in the CSV header (You can " +
-                       "use the column name(s) mentioned in the message above)")
-            print ("2) Use command line parameters when calling this script " +
-                   "to identify the missing columns (use -h for help) ")
+                print("1) Identify the missing column(s) by assigning them " +
+                      "a different column name in the CSV header (You can " +
+                      "use the column name(s) mentioned in the message above)")
+            print("2) Use command line parameters when calling this script " +
+                  "to identify the missing columns (use -h for help) ")
             sys.exit()
         else:
-            print ("WARNING: Not all mandatory column types in the CSV file " +
-                   "could be automatically identified - forced to continue.")
+            print("WARNING: Not all mandatory column types in the CSV file " +
+                  "could be automatically identified - forced to continue.")
 
-    print "\n    *** CSV file analysis summary ***\n"
+    print("\n    *** CSV file analysis summary ***\n")
 
     index_dict = {csvc.index: csvc for csvc in column_map.values()}
 
@@ -524,34 +524,34 @@ def main():
                        "ignored")
                 oat.print_y(msg.format(index, column_name))
 
-    print ""
+    print()
     for column in column_map.values():
         if column.index is None:
             msg = "The {} column '{}' could not be identified."
-            print msg.format(column.requirement, column.column_type)
+            print(msg.format(column.requirement, column.column_type))
 
 
     # Check for unassigned optional column types. We can continue but should
     # issue a warning as all entries will need a valid DOI in this case.
-    unassigned = filter(lambda (k, v): v.requirement == CSVColumn.OPTIONAL and v.index is None,
-                        column_map.iteritems())
+    unassigned = filter(lambda k, v: v.requirement == CSVColumn.OPTIONAL and v.index is None,
+                        column_map.items())
     if unassigned:
         print ("\nWARNING: Not all optional column types could be " +
                "identified. Metadata aggregation is still possible, but " +
                "every entry in the CSV file will need a valid DOI.")
 
-    start = raw_input("\nStart metadata aggregation? (y/n):")
+    start = input("\nStart metadata aggregation? (y/n):")
     while start not in ["y", "n"]:
-        start = raw_input("Please type 'y' or 'n':")
+        start = input("Please type 'y' or 'n':")
     if start == "n":
         sys.exit()
 
-    print "\n    *** Starting metadata aggregation ***\n"
+    print("\n    *** Starting metadata aggregation ***\n")
 
     enriched_content = []
 
     csv_file.seek(0)
-    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    reader = csv.reader(csv_file, dialect=dialect)
     header_processed = False
     row_num = 0
 
@@ -561,7 +561,7 @@ def main():
             continue # skip empty lines
         if not header_processed:
             header_processed = True
-            enriched_content.append(column_map.keys())
+            enriched_content.append(list(column_map.keys()))
             if has_header:
                 # If the CSV file has a header, we are currently there - skip it
                 # to get to the first data row
@@ -570,11 +570,10 @@ def main():
             continue
         if args.end and args.end < row_num:
             continue
-        print "---Processing line number " + str(row_num) + "---"
+        print("---Processing line number " + str(row_num) + "---")
         enriched_row = oat.process_row(row, row_num, column_map, num_columns,
                                        args.no_crossref, args.no_pubmed,
-                                       args.no_doaj, doaj_offline_analysis,
-                                       args.bypass_cert_verification)
+                                       args.no_doaj, doaj_offline_analysis)
         enriched_content.append(enriched_row)
 
     csv_file.close()
