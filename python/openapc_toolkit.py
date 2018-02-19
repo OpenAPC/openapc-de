@@ -11,7 +11,8 @@ from logging.handlers import MemoryHandler
 import re
 import ssl
 import sys
-from urllib.request import urlopen, Request
+from urllib.request import urlopen, HTTPErrorProcessor, Request
+from urllib.error import HTTPError, URLError
 import xml.etree.ElementTree as ET
 
 try:
@@ -250,7 +251,7 @@ class BufferedErrorHandler(MemoryHandler):
     def shouldFlush(self, record):
         return False
         
-class NoRedirection(urllib2.HTTPErrorProcessor):
+class NoRedirection(HTTPErrorProcessor):
     """
     A dummy processor to suppress HTTP redirection.
     
@@ -506,7 +507,7 @@ def get_metadata_from_crossref(doi_string):
     Args:
         doi_string: A string representing a doi. 'Pure' form (10.xxx),
         DOI Handbook notation (doi:10.xxx) or crossref-style
-        (http://dx.doi.org/10.xxx) are all acceptable.
+        (https://doi.org/10.xxx) are all acceptable.
     Returns:
         A dict with a key 'success'. If data extraction was successful,
         'success' will be True and the dict will have a second entry 'data'
@@ -534,22 +535,24 @@ def get_metadata_from_crossref(doi_string):
         ".//cr_1_1:journal_metadata//cr_1_1:issn[@media_type='print']": "issn_print",
         ".//cr_1_0:journal_metadata//cr_1_0:issn[@media_type='electronic']": "issn_electronic",
         ".//cr_1_1:journal_metadata//cr_1_1:issn[@media_type='electronic']": "issn_electronic",
-        ".//ai:license_ref": "license_ref"}
+        ".//ai:license_ref": "license_ref"
+    }
     namespaces = {
         "cr_qr": "http://www.crossref.org/qrschema/3.0",
         "cr_1_1": "http://www.crossref.org/xschema/1.1",
         "cr_1_0": "http://www.crossref.org/xschema/1.0",
-        "ai": "http://www.crossref.org/AccessIndicators.xsd"}
+        "ai": "http://www.crossref.org/AccessIndicators.xsd"
+    }
     doi = get_normalised_DOI(doi_string)
     if doi is None:
         error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
         return {"success": False, "error_msg": error_msg}
     url = 'http://data.crossref.org/' + doi
-    headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
-    req = urllib2.Request(url, None, headers)
+    req = Request(url)
+    req.add_header("Accept", "application/vnd.crossref.unixsd+xml")
     ret_value = {'success': True}
     try:
-        response = urllib2.urlopen(req)
+        response = urlopen(req)
         content_string = response.read()
         root = ET.fromstring(content_string)
         doi_element = root.findall(".//cr_qr:doi", namespaces)
@@ -559,7 +562,7 @@ def get_metadata_from_crossref(doi_string):
                    "supports journal articles)")
             raise ValueError(msg)
         crossref_data = {}
-        for path, elem in xpaths.iteritems():
+        for path, elem in xpaths.items():
             if elem not in crossref_data:
                 crossref_data[elem] = None
             result = root.findall(path, namespaces)
@@ -573,11 +576,10 @@ def get_metadata_from_crossref(doi_string):
                             crossref_data[elem] = xml_elem.text
                             break
         ret_value['data'] = crossref_data
-    except urllib2.HTTPError as httpe:
+    except HTTPError as httpe:
         ret_value['success'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
-    except urllib2.URLError as urle:
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     except ET.ParseError as etpe:
