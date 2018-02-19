@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import csv
@@ -11,7 +11,7 @@ from logging.handlers import MemoryHandler
 import re
 import ssl
 import sys
-import urllib2
+from urllib.request import urlopen, Request
 import xml.etree.ElementTree as ET
 
 try:
@@ -174,7 +174,6 @@ class DOAJOfflineAnalysis(object):
         else:
             return None
 
-
 class CSVAnalysisResult(object):
 
     def __init__(self, blanks, dialect, has_header, enc, enc_conf):
@@ -315,7 +314,6 @@ def is_valid_ISSN(issn_string):
             return True
     return False
 
-
 def analyze_csv_file(file_path, line_limit=None):
     try:
         csv_file = open(file_path, "r")
@@ -361,9 +359,9 @@ def get_csv_file_content(file_name, enc=None, force_header=False):
     result = analyze_csv_file(file_name, 500)
     if result["success"]:
         csv_analysis = result["data"]
-        print csv_analysis
+        print(csv_analysis)
     else:
-        print result["error_msg"]
+        print(result["error_msg"])
         sys.exit()
 
     if enc is None:
@@ -489,10 +487,10 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
             print_g(str(counter) + " articles harvested.")
         except urllib2.HTTPError as httpe:
             code = str(httpe.getcode())
-            print "HTTPError: {} - {}".format(code, httpe.reason)
+            print("HTTPError: {} - {}".format(code, httpe.reason))
         except urllib2.HTTPError as httpe:
             code = str(httpe.getcode())
-            print "HTTPError: {} - {}".format(code, httpe.reason)
+            print("HTTPError: {} - {}".format(code, httpe.reason))
     with open("out.csv", "w") as f:
         writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
         writer.write_rows(articles)
@@ -931,7 +929,6 @@ def process_row(row, row_num, column_map, num_required_columns,
                                                                  new_value)
     return current_row.values()
 
-
 def get_column_type_from_whitelist(column_name):
     """
     Identify a CSV column type by looking up the name in a whitelist.
@@ -1135,13 +1132,13 @@ def get_corrected_issn_l(issn_l):
     return issn_l_corrections.get(issn_l, issn_l)
 
 def print_b(text):
-    print "\033[94m" + text + "\033[0m"
+    print("\033[94m" + text + "\033[0m")
 
 def print_g(text):
-    print "\033[92m" + text + "\033[0m"
+    print("\033[92m" + text + "\033[0m")
 
 def print_r(text):
-    print "\033[91m" + text + "\033[0m"
+    print("\033[91m" + text + "\033[0m")
 
 def print_y(text):
-    print "\033[93m" + text + "\033[0m"
+    print("\033[93m" + text + "\033[0m")
