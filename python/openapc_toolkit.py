@@ -123,25 +123,23 @@ class OpenAPCUnicodeWriter(object):
         self.openapc_quote_rules = openapc_quote_rules
         self.has_header = has_header
         self.minimal_quotes = minimal_quotes
-        self.encoder = codecs.getincrementalencoder("utf-8")()
 
     def _prepare_row(self, row, use_quotemask):
         for index in range(len(row)):
-            if self.openapc_quote_rules and row[index] in [u"TRUE", u"FALSE", u"NA"]:
+            if self.openapc_quote_rules and row[index] in ["TRUE", "FALSE", "NA"]:
                 # Never quote these keywords
                 continue
             if not use_quotemask or not self.quotemask:
                 # Always quote without a quotemask
-                row[index] = u'"' + row[index] + u'"'
+                row[index] = '"' + row[index] + '"'
                 continue
             if index < len(self.quotemask):
-                if self.quotemask[index] or u"," in row[index] and self.minimal_quotes:
-                    row[index] = u'"' + row[index] + u'"'
+                if self.quotemask[index] or "," in row[index] and self.minimal_quotes:
+                    row[index] = '"' + row[index] + '"'
         return row
 
     def _write_row(self, row):
-        line = u",".join(row) + u"\n"
-        line = self.encoder.encode(line)
+        line = ",".join(row) + "\n"
         self.outfile.write(line)
 
     def write_rows(self, rows):
@@ -225,6 +223,10 @@ class ANSIColorFormatter(logging.Formatter):
     """
     A simple logging formatter using ANSI codes to colorize messages
     """
+    
+    def __init__(self):
+        super().__init__(fmt="%(levelname)s: %(message)s", datefmt=None, style="%")
+    
     FORMATS = {
         logging.ERROR: "\033[91m%(levelname)s: %(message)s\033[0m",
         logging.WARNING: "\033[93m%(levelname)s: %(message)s\033[0m",
@@ -233,7 +235,7 @@ class ANSIColorFormatter(logging.Formatter):
     }
 
     def format(self, record):
-        self._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
+        self._style._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
         return logging.Formatter.format(self, record)
 
 class BufferedErrorHandler(MemoryHandler):
@@ -315,7 +317,7 @@ def is_valid_ISSN(issn_string):
             return True
     return False
 
-def analyze_csv_file(file_path, line_limit=None):
+def analyze_csv_file(file_path):
     try:
         csv_file = open(file_path, "r")
     except IOError as ioe:
@@ -331,8 +333,6 @@ def analyze_csv_file(file_path, line_limit=None):
         if line.strip(): # omit blank lines
             content += line
             lines_processed += 1
-            if line_limit and lines_processed > line_limit:
-                break
         else:
             blanks += 1
     
@@ -916,7 +916,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                     logging.info(msg, issn)
             # ...or query the online API
             else:
-                doaj_res = lookup_journal_in_doaj(issn, bypass_cert_verification)
+                doaj_res = lookup_journal_in_doaj(issn)
                 if doaj_res["data_received"]:
                     if doaj_res["data"]["in_doaj"]:
                         msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
@@ -934,7 +934,7 @@ def process_row(row, row_num, column_map, num_required_columns,
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value,
                                                                  new_value)
-    return current_row.values()
+    return list(current_row.values())
 
 def get_column_type_from_whitelist(column_name):
     """
@@ -966,7 +966,7 @@ def get_column_type_from_whitelist(column_name):
         "url": ["url"],
         "doaj": ["doaj"]
     }
-    for key, whitelist in column_names.iteritems():
+    for key, whitelist in column_names.items():
         if column_name.lower() in whitelist:
             return key
     return None
