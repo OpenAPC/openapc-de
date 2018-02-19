@@ -697,8 +697,7 @@ def lookup_journal_in_doaj(issn):
 
 def process_row(row, row_num, column_map, num_required_columns,
                 no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, doaj_offline_analysis=False,
-                bypass_cert_verification=False):
+                no_doaj_lookup=False, doaj_offline_analysis=False):
     """
     Enrich a single row of data and reformat it according to Open APC standards.
 
@@ -710,20 +709,17 @@ def process_row(row, row_num, column_map, num_required_columns,
         row: A list of column values (as yielded by a UnicodeReader f.e.).
         row_num: The line number in the csv file, for logging purposes.
         column_map: An OrderedDict of CSVColumn Objects, mapping the row
-                    cells to Open APC data schema fields.
+                    cells to OpenAPC data schema fields.
         num_required_columns: An int describing the required length of the row
                               list. If not matched, an error is logged and the
                               row is returned unchanged.
         no_crossref_lookup: If true, no metadata will be imported from crossref.
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
         no_doaj_lookup: If true, journals will not be checked for being
-                        listended in the DOAJ (default).
+                        listended in the DOAJ.
         doaj_offline_analysis: If true, a local copy will be used for the DOAJ
                                lookup. Has no effect if no_doaj_lookup is set to
                                true.
-        bypass_cert_verification: If true, certificate validation will be
-                                  skipped when connecting to metadata
-                                  providers via TLS.
 
      Returns:
         A list of values which represents the enriched and re-arranged variant
@@ -813,7 +809,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                 current_row["indexed_in_crossref"] = "TRUE"
                 data = crossref_result["data"]
                 prefix = data.pop("prefix")
-                for key, value in data.iteritems():
+                for key, value in data.items():
                     if value is not None:
                         if key == "journal_full_title":
                             unified_value = get_unified_journal_title(value)
@@ -873,7 +869,7 @@ def process_row(row, row_num, column_map, num_required_columns,
             if pubmed_result["success"]:
                 logging.info("Pubmed: DOI resolved: " + doi)
                 data = pubmed_result["data"]
-                for key, value in data.iteritems():
+                for key, value in data.items():
                     if value is not None:
                         new_value = value
                     else:
