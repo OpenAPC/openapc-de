@@ -335,11 +335,14 @@ def analyze_csv_file(file_path, line_limit=None):
                 break
         else:
             blanks += 1
-
+    
+    csv_file.close()
+    
     if chardet:
-        chardet_result = chardet.detect(content)
-        enc = chardet_result["encoding"]
-        enc_conf = chardet_result["confidence"]
+        with open(file_path, "rb") as csv_file_bytes:
+            chardet_result = chardet.detect(csv_file_bytes.read())
+            enc = chardet_result["encoding"]
+            enc_conf = chardet_result["confidence"]
     else:
         enc = None
         enc_conf = None
@@ -353,7 +356,6 @@ def analyze_csv_file(file_path, line_limit=None):
                      csve.message + "'. Maybe it is no valid CSV file?")
         return {"success": False, "error_msg": error_msg}
     result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
-    csv_file.close()
     return {"success": True, "data": result}
 
 def get_csv_file_content(file_name, enc=None, force_header=False):
