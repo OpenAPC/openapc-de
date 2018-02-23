@@ -61,7 +61,8 @@ JOURNAL_OWNER_CHANGED = {
     "0818-9641": ["Nature Publishing Group", "Springer Nature", "Wiley-Blackwell"], # Immunology and Cell Biology
     "1758-2652": ["International AIDS Society", "Wiley-Blackwell"], # Journal of the International AIDS Society
     "1097-3958": ["Springer Nature", "Wiley-Blackwell"], # Journal of Surfactants and Detergents
-    "1558-9293": ["Springer Nature", "Wiley-Blackwell"] # Journal of Surfactants and Detergents (electronic)
+    "1558-9293": ["Springer Nature", "Wiley-Blackwell"], # Journal of Surfactants and Detergents (electronic)
+    "1526-9914": ["Multimed Inc.", "Wiley-Blackwell"] # Journal of Applied Clinical Medical Physics
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
