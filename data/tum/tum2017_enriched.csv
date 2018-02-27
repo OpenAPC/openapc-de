@@ -177,10 +177,10 @@
 "TU Muenchen",2017,1532.87,"10.1371/journal.pone.0189119",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29220394","PMC5722286","ut:000417469900034",NA,TRUE
 "TU Muenchen",2017,1532.87,"10.1371/journal.pone.0188635",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29190808","PMC5708782","ut:000416841900089",NA,TRUE
 "TU Muenchen",2017,1532.87,"10.1371/journal.pone.0190092",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29267357","PMC5739474","ut:000418587400090",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/info8010007",FALSE,"MDPI AG","Information","2078-2489",NA,"2078-2489","2078-2489","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000400844500007",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/molecules22010135",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"28098833",NA,"ut:000395473500134",NA,TRUE
+
+
 "TU Muenchen",2017,252.04,"10.3390/coatings7010009",FALSE,"MDPI AG","Coatings","2079-6412",NA,"2079-6412","2079-6412","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000395504700009",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/v9010018",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915","1999-4915","https://creativecommons.org/licenses/by/4.0/",TRUE,"28117695","PMC5294987","ut:000396476200017",NA,TRUE
+
 "TU Muenchen",2017,1606.5,"10.3390/s17020399",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"28218701","PMC5335922","ut:000395482700183",NA,TRUE
 "TU Muenchen",2017,1338.75,"10.3390/en10030285",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000398736700025",NA,TRUE
 "TU Muenchen",2017,1606.5,"10.3390/s17030534",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"28282850","PMC5375820","ut:000398818700107",NA,TRUE
@@ -205,20 +205,20 @@
 "TU Muenchen",2017,1395.14,"10.3390/s17061422",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"28629141","PMC5492843","ut:000404553900238",NA,TRUE
 "TU Muenchen",2017,1395.14,"10.3390/md15060191",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"28635658","PMC5484141","ut:000404526900046",NA,TRUE
 "TU Muenchen",2017,826.75,"10.3390/w9070455",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000406681700006",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/en10070976",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000406700200147",NA,TRUE
+
 "TU Muenchen",2017,1085.11,"10.3390/w9070510",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000406681700061",NA,TRUE
 "TU Muenchen",2017,1240.12,"10.3390/rs9070720",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000406676800083",NA,TRUE
 "TU Muenchen",2017,1085.11,"10.3390/w9070527",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000406681700078",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/molecules22071204",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"28753928",NA,"ut:000406621300177",NA,TRUE
+
 "TU Muenchen",2017,1162.61,"10.3390/v9070193",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915","1999-4915","https://creativecommons.org/licenses/by/4.0/",TRUE,"28753992","PMC5537685","ut:000406684400035",NA,TRUE
 "TU Muenchen",2017,930.09,"10.3390/app7080748",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000408905900001",NA,TRUE
 "TU Muenchen",2017,1240.12,"10.3390/nu9090926",FALSE,"MDPI AG","Nutrients","2072-6643",NA,"2072-6643","2072-6643","https://creativecommons.org/licenses/by/4.0/",TRUE,"28832502","PMC5622686","ut:000411973200009",NA,TRUE
 "TU Muenchen",2017,1240.12,"10.3390/nu9090969",FALSE,"MDPI AG","Nutrients","2072-6643",NA,"2072-6643","2072-6643","https://creativecommons.org/licenses/by/4.0/",TRUE,"28862677","PMC5622729","ut:000411973200052",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/cancers9090116",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"28869579","PMC5615331","ut:000412078500007",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/app7090915",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000414453600051",NA,TRUE
+
+
 "TU Muenchen",2017,930.09,"10.3390/f8090328",FALSE,"MDPI AG","Forests","1999-4907",NA,"1999-4907","1999-4907","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000411523700026",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/e19090480",FALSE,"MDPI AG","Entropy","1099-4300",NA,"1099-4300","1099-4300","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000411527100049",NA,TRUE
-"TU Muenchen",2017,0,"10.3390/risks5030048",FALSE,"MDPI AG","Risks","2227-9091",NA,"2227-9091","2227-9091","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000411991500016",NA,TRUE
+
+
 "TU Muenchen",2017,1149.34,"10.3390/en10101659",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000414578400214",NA,TRUE
 "TU Muenchen",2017,1225.96,"10.3390/rs9111091",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000416554100006",NA,TRUE
 "TU Muenchen",2017,421.42,"10.3390/agriculture7110090",FALSE,"MDPI AG","Agriculture","2077-0472",NA,"2077-0472","2077-0472","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000423493100001",NA,TRUE
