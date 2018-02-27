@@ -241,7 +241,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-27,588 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 40,928,149, including value-added tax; the average payment was € 1,484 (median =  € 1,398, SD = € 721).
+27,589 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 40,929,136, including value-added tax; the average payment was € 1,484 (median =  € 1,398, SD = € 721).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -314,8 +314,8 @@ The following table summarises institutional spending on articles published in f
 |University of York                                              |      102|               176,418|   1,730 (917)|  1,530|      221 -  5,208|
 |Linköping University                                            |       99|               155,146|   1,567 (723)|  1,355|      372 -  4,440|
 |University of St Andrews                                        |       98|               171,540| 1,750 (1,025)|  1,514|      329 -  5,392|
+|Stockholm University                                            |       95|               144,255|   1,518 (646)|  1,399|      313 -  3,700|
 |Harvard U                                                       |       94|                82,722|     880 (539)|    796|       75 -  3,139|
-|Stockholm University                                            |       94|               143,268|   1,524 (647)|  1,402|      313 -  3,700|
 |Kassel U                                                        |       78|                85,210|   1,092 (578)|  1,136|       65 -  2,321|
 |University of Warwick                                           |       74|               146,885| 1,985 (1,410)|  1,639|      442 -  9,028|
 |TU Chemnitz                                                     |       73|                84,652|   1,160 (650)|  1,289|       78 -  2,123|
@@ -408,7 +408,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,075 open access articles being published in hybrid journals. Total expenditure amounts to  52,512,769 €. Average  fee is 2,492 € and the median 2,444 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,074 open access articles being published in hybrid journals. Total expenditure amounts to  52,511,781 €. Average  fee is 2,492 € and the median 2,444 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -436,7 +436,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of Reading                       |      234|               537,879|   2,299 (753)|  2,308|      561 -  4,587|
 |Swedish University of Agricultural Sciences |      154|               347,982|   2,260 (511)|  2,200|      731 -  3,582|
 |University of Loughborough                  |      153|               322,498|   2,108 (827)|  2,190|      287 -  4,132|
-|Stockholm University                        |      151|               308,509|   2,043 (885)|  2,200|      295 -  5,502|
+|Stockholm University                        |      150|               307,521|   2,050 (883)|  2,200|      295 -  5,502|
 |University of York                          |      148|               365,651|   2,471 (836)|  2,389|      331 -  5,208|
 |University of Bath                          |      147|               317,089|   2,157 (860)|  2,049|      113 -  4,822|
 |University of Southampton                   |      138|               368,880| 2,673 (2,065)|  2,555|      293 - 25,070|
