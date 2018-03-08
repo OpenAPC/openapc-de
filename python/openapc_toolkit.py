@@ -1122,7 +1122,8 @@ def get_unified_journal_title(journal_full_title):
         "American Journal of Physiology-Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
         "American Journal of Physiology-Endocrinology and Metabolism": "AJP: Endocrinology and Metabolism",
         "Milbank Quarterly": "The Milbank Quarterly",
-        "Faraday Discuss.": "Faraday Discussions"
+        "Faraday Discuss.": "Faraday Discussions",
+        "Journal of Management and Governance": "Journal of Management & Governance"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
