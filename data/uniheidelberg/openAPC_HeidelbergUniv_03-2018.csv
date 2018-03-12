@@ -7,7 +7,7 @@ id;institution;period;publisher;journal_full_title;doi;is_hybrid;country;euro
 ;Heidelberg U;2016;PeerJ;PeerJ;10.7717/peerj.1879;FALSE;DEU;0
 ;Heidelberg U;2016;BMJ;BMJ Open;10.1136/bmjopen-2016-012216 ;FALSE;DEU;1380,4
 ;Heidelberg U;2016;BMC;BMC Health Services Research;10.1186/s12913-017-2688-z;FALSE;DEU;1661,24
-;Heidelberg U;2016;Frontiers Media SA;Frontiers in Psychology;doi: 10.3389/fpsyg.2016.01340;FALSE;DEU;477,62
+;Heidelberg U;2016;Frontiers Media SA;Frontiers in Psychology;10.3389/fpsyg.2016.01340;FALSE;DEU;477,62
 ;Heidelberg U;2016;BMC;Alzheimer's Research  & Therapy;10.1186/s13195-017-0301-7;FALSE;DEU;1685,04
 ;Heidelberg U;2016;Joule Inc.;Journal of psychiatry & neurosciences;10.1503/jpn.160074;FALSE;DEU;1418,88
 ;Heidelberg U;2016;Oxford Univ. Pr.;Journal of Radiation Research;10.1093/jrr/rrw095;FALSE;DEU;1487,5
@@ -147,7 +147,7 @@ id;institution;period;publisher;journal_full_title;doi;is_hybrid;country;euro
 ;Heidelberg U;2017;Anticancer Research USA ;in vivo;10.21873/invivo.11182;FALSE;DEU;574,27
 ;Heidelberg U;2017;Elsevier;International Journal of Surgery Protocols;10.1016/j.isjp.2017.09.001;FALSE;DEU;419,82
 ;Heidelberg U;2017;PLoS;Plos one;10.1371/journal.pone.0186349;FALSE;DEU;1493,12
-;Heidelberg U;2017;AME Publ. Co.;Journal of Thoracic Disease;10.21037/jtd.2017.10.108.;FALSE;DEU;888,88
+;Heidelberg U;2017;AME Publ. Co.;Journal of Thoracic Disease;10.21037/jtd.2017.10.108;FALSE;DEU;888,88
 ;Heidelberg U;2017;BMC;Trials;10.1186/s13063-017-2231-x;FALSE;DEU;1661,24
 ;Heidelberg U;2017;Frontiers Media SA;Frontiers in Cellular Neuroscience;10.3389/fncel.2018.00007;FALSE;DEU;1830,03
 ;Heidelberg U;2017;BMC;BMC Genomics;10.1186/s12864-017-4208-2;FALSE;DEU;1661,24
@@ -167,7 +167,7 @@ id;institution;period;publisher;journal_full_title;doi;is_hybrid;country;euro
 ;Heidelberg U;2017;Frontiers Media SA;Frontiers In Bioengineering and Biotechnology;10.3389/fbioe.2017.00053;FALSE;DEU;962,63
 ;Heidelberg U;2017;Macmillan Publ. Ltd;Scientific Reports;10.1038/s41598-017-13982-0;FALSE;DEU;1552,95
 ;Heidelberg U;2017;BMC;BMC Bioinformatics;10.1186/s12859-018-2081-x;FALSE;DEU;1661,24
-;Heidelberg U;2017;BMC;Journal of Neuroinflammation;10.1186/s12974-017-1043-y.;FALSE;DEU;1899,24
+;Heidelberg U;2017;BMC;Journal of Neuroinflammation;10.1186/s12974-017-1043-y;FALSE;DEU;1899,24
 ;Heidelberg U;2017;Frontiers Media SA;Frontiers in Human Neuroscience;10.3389/fnhum.2017.00523;FALSE;DEU;1925,24
 ;Heidelberg U;2017;Frontiers Media SA;Frontiers in Neurology;10.3389/fneur.2017.00605;FALSE;DEU;1554,63
 ;Heidelberg U;2017;PLoS;Plos one;10.1371/journal.pone.0182741;FALSE;DEU;1513,31
