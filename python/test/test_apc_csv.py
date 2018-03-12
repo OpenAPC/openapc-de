@@ -63,7 +63,10 @@ JOURNAL_OWNER_CHANGED = {
     "1097-3958": ["Springer Nature", "Wiley-Blackwell"], # Journal of Surfactants and Detergents
     "1558-9293": ["Springer Nature", "Wiley-Blackwell"], # Journal of Surfactants and Detergents (electronic)
     "1526-9914": ["Multimed Inc.", "Wiley-Blackwell"], # Journal of Applied Clinical Medical Physics
-    "1559-2448": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"] # International Food and Agribusiness Management Review
+    "1559-2448": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review
+    "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine
+    "1555-4309": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging
+    "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"] # HAU: Journal of Ethnographic Theory
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
