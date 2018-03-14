@@ -111,36 +111,47 @@ issn_dict = {}
 issn_p_dict = {}
 issn_e_dict = {}
 
+UNUSED_FIELDS = ["institution", "period", "license_ref", "pmid", "pmcid", "ut"]
+CORRECT_ROW_LENGTH = 18 - len(UNUSED_FIELDS)
+
+ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
+
 for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
-    csv_file = open(file_name, "r")
-    reader = oat.UnicodeDictReader(csv_file)
-    line = 2
-    for row in reader:
-        test_apc = True
-        if file_name == "data/offsetting/offsetting.csv":
-            test_apc = False
-        apc_data.append(RowObject(file_name, line, row, test_apc))
-        doi_duplicate_list.append(row["doi"])
-        issn = row["issn"]
-        if oat.has_value(issn):
-            if issn not in issn_dict:
-                issn_dict[issn] = [row]
-            else:
-                issn_dict[issn].append(row)
-        issn_p = row["issn_print"]
-        if oat.has_value(issn_p):
-            if issn_p not in issn_p_dict:
-                issn_p_dict[issn_p] = [row]
-            else:
-                issn_p_dict[issn_p].append(row)
-        issn_e = row["issn_electronic"]
-        if oat.has_value(issn_e):
-            if issn_e not in issn_e_dict:
-                issn_e_dict[issn_e] = [row]
-            else:
-                issn_e_dict[issn_e].append(row)
-        line += 1
-    csv_file.close()
+    with open(file_name, "r") as csv_file:
+        reader = oat.UnicodeDictReader(csv_file)
+        line = 2
+        for row in reader:
+            for field in UNUSED_FIELDS:
+                del(row[field])
+            test_apc = True
+            if file_name == "data/offsetting/offsetting.csv":
+                test_apc = False
+            apc_data.append(RowObject(file_name, line, row, test_apc))
+            doi_duplicate_list.append(row["doi"])
+            
+            reduced_row = {}
+            for field in ISSN_DICT_FIELDS:
+                reduced_row[field] = row[field]
+            
+            issn = row["issn"]
+            if oat.has_value(issn):
+                if issn not in issn_dict:
+                    issn_dict[issn] = [reduced_row]
+                else:
+                    issn_dict[issn].append(reduced_row)
+            issn_p = row["issn_print"]
+            if oat.has_value(issn_p):
+                if issn_p not in issn_p_dict:
+                    issn_p_dict[issn_p] = [reduced_row]
+                else:
+                    issn_p_dict[issn_p].append(reduced_row)
+            issn_e = row["issn_electronic"]
+            if oat.has_value(issn_e):
+                if issn_e not in issn_e_dict:
+                    issn_e_dict[issn_e] = [reduced_row]
+                else:
+                    issn_e_dict[issn_e].append(reduced_row)
+            line += 1
 
 def in_whitelist(issn, first_publisher, second_publisher):
     for entry in PUBLISHER_IDENTITY:
@@ -155,7 +166,7 @@ def in_whitelist(issn, first_publisher, second_publisher):
 
 def check_line_length(row_object):
     __tracebackhide__ = True
-    if len(row_object.row) != 18:
+    if len(row_object.row) != CORRECT_ROW_LENGTH:
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
         pytest.fail(line_str + 'Row must consist of exactly 18 items')
@@ -226,19 +237,19 @@ def check_issns(row_object):
         msg = line_str + "Two entries share a common {} ({}), but the issn_l differs ({} vs {})"
         issn = row["issn"]
         if issn != "NA":
-            for row in issn_dict[issn]:
-                if row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn", issn, issn_l, row["issn_l"]))
+            for reduced_row in issn_dict[issn]:
+                if reduced_row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn", issn, issn_l, reduced_row["issn_l"]))
         issn_p = row["issn_print"]
         if issn_p != "NA":
-            for row in issn_p_dict[issn_p]:
-                if row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn_p", issn_p, issn_l, row["issn_l"]))
+            for reduced_row in issn_p_dict[issn_p]:
+                if reduced_row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn_p", issn_p, issn_l, reduced_row["issn_l"]))
         issn_e = row["issn_electronic"]
         if issn_e != "NA":
-            for row in issn_e_dict[issn_e]:
-                if row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn_e", issn_e, issn_l, row["issn_l"]))
+            for reduced_row in issn_e_dict[issn_e]:
+                if reduced_row["issn_l"] != issn_l:
+                    pytest.fail(msg.format("issn_e", issn_e, issn_l, reduced_row["issn_l"]))
 
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
