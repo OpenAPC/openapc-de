@@ -43,6 +43,28 @@ OAI_COLLECTION_CONTENT = OrderedDict([
     ("intact:id_number[@type='local']", "local_id")
 ])
 
+# Do not quote the values in the 'period' and 'euro' columns
+OPENAPC_STANDARD_QUOTEMASK = [
+    True,
+    False,
+    False,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+]
+
 # These classes were adopted from
 # https://docs.python.org/2/library/csv.html#examples
 class UTF8Recoder(object):
@@ -446,7 +468,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             collections = root.findall(collection_xpath, namespaces)
             counter = 0
             for collection in collections:
-                article = OrderedDict()
+                article = {}
                 for xpath, elem in OAI_COLLECTION_CONTENT.iteritems():
                     result = collection.find(xpath, namespaces)
                     if result is not None and result.text is not None:
@@ -461,16 +483,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
                 if article["euro"] in ["NA", "0"]:
                     print_r("Article skipped, no APC amount found.")
                     continue
-                elif selective_harvest:
-                    key_found = False
-                    for key in keys:
-                        if article[key] in lists[key]:
-                            print_r("Article skipped, " + key + " already in core data file.")
-                            key_found = True
-                            break
-                    if key_found:
-                        continue
-                articles.append(article.values())
+                articles.append(article)
                 counter += 1
             token = root.find(token_xpath, namespaces)
             if token is not None and token.text is not None:

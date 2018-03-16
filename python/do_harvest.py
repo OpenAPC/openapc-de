@@ -26,9 +26,9 @@ def integrate_changes(articles, file_path, enriched_file=False):
         The second element is the list of column headers encountered in the harvest 
         file.
     '''
-    if not os.path.isfile("file_path"):
+    if not os.path.isfile(file_path):
         return (articles, None)
-    enriched_blacklist = ["publisher", "journal_full_title", "issn", "license_ref", "pmid"]
+    enriched_blacklist = ["institution", "publisher", "journal_full_title", "issn", "license_ref", "pmid"]
     article_dict = OrderedDict()
     for article in articles:
         doi = article["doi"]
@@ -37,32 +37,38 @@ def integrate_changes(articles, file_path, enriched_file=False):
     updated_lines = []
     fieldnames = None
     with open(file_path, "r") as f:
-        reader = oat.UnicodeReader(oat, encoding="utf-8")
+        reader = oat.UnicodeDictReader(f)
         fieldnames = reader.reader.fieldnames
-        updated_lines.append(fieldnames) #header
+        updated_lines.append(list(fieldnames)) #header
         for line in reader:
             doi = line["doi"]
             line_num = reader.reader.line_num
-            if oat.has_value(doi):
-                msg = "Line {}: Checking for changes ({})"
-                oat.print_y(msg.format(line_num, doi))
-            else:
+            if not oat.has_value(doi):
                 msg = "Line {}: No DOI found, change check not possible"
-                oat.print_r(msg.format(line_num))
-            if doi in article_dict:
-                for key, value in article_dict[doi].iteritems():
-                    if enriched_file and key in enriched_blacklist:
-                        continue
-                    if key in line and value != line[key]:
-                        update_msg = 'Updating value in column {} ("{}" -> "{}")'
-                        oat.print_g(update_msg.format(key, line[key], value))
-                        line[key] = value
-                del(article_dict[doi])
-            updated_line = [line[key] for key in fieldnames]
-            updated_lines.append(updated_line)
+                oat.print_y(msg.format(line_num))
+                updated_line = [line[key] for key in fieldnames]
+                updated_lines.append(updated_line)
+            else:
+                msg = "Line {}: Checking for changes ({})"
+                oat.print_b(msg.format(line_num, doi))
+                if doi in article_dict:
+                    for key, value in article_dict[doi].iteritems():
+                        if enriched_file and key in enriched_blacklist:
+                            continue
+                        if key in line and value != line[key]:
+                            update_msg = 'Updating value in column {} ("{}" -> "{}")'
+                            oat.print_g(update_msg.format(key, line[key], value))
+                            line[key] = value
+                    del(article_dict[doi])
+                    updated_line = [line[key] for key in fieldnames]
+                    updated_lines.append(updated_line)
+                else:
+                    remove_msg = "DOI {} no longer found in harvest data, removing article"
+                    oat.print_r(remove_msg.format(doi))
     with open(file_path, "w") as f:
-        writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
-        writer.write_rows(updated_articles)
+        mask = oat.OPENAPC_STANDARD_QUOTEMASK if enriched_file else None
+        writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
+        writer.write_rows(updated_lines)
     return (article_dict.values(), fieldnames)
     
 
@@ -87,14 +93,16 @@ def main():
                 else:
                     # if no header was returned, an "all_harvested" file doesn't exist yet
                     new_articles = [oat.OAI_COLLECTION_CONTENT.values()]
-                for artice_dict in new_article_dicts:
+                #print new_article_dicts
+                print header
+                for article_dict in new_article_dicts:
                     new_articles.append([article_dict[key] for key in header])
                 now = datetime.datetime.now()
                 date_string = now.strftime("%Y_%m_%d")
                 file_name = "new_articles_" + date_string + ".csv"
                 target = os.path.join(directory, file_name)
                 with open(target, "w") as t:
-                    writer = OpenAPCUnicodeWriter(t, openapc_quote_rules=True, has_header=True)
+                    writer = oat.OpenAPCUnicodeWriter(t, openapc_quote_rules=True, has_header=True)
                     writer.write_rows(new_articles)
             else:
                 oat.print_y("Skipping inactive source " + basic_url)
