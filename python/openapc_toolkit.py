@@ -28,6 +28,21 @@ SHORTDOI_RE = re.compile("^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", 
 
 ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
+OAI_COLLECTION_CONTENT = OrderedDict([
+    ("intact:institution", "institution"),
+    ("intact:period", "period"),
+    ("intact:euro", "euro"),
+    ("intact:id_number[@type='doi']", "doi"),
+    ("intact:is_hybrid", "is_hybrid"),
+    ("intact:publisher", "publisher"),
+    ("intact:journal_full_title", "journal_full_title"),
+    ("intact:issn", "issn"),
+    ("intact:licence", "license_ref"),
+    ("intact:id_number[@type='pubmed']","pmid"),
+    ("", "url"),
+    ("intact:id_number[@type='local']", "local_id")
+])
+
 # These classes were adopted from
 # https://docs.python.org/2/library/csv.html#examples
 class UTF8Recoder(object):
@@ -392,40 +407,14 @@ def get_csv_file_content(file_name, enc=None, force_header=False):
 def has_value(field):
     return len(field) > 0 and field != "NA"
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, selective_harvest=False):
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
     """
     Harvest OpenAPC records via OAI-PMH
     """
-    if selective_harvest:
-        # create lists of all exisiting dois, pmids and urls
-        keys = ["doi", "pmid", "url"]
-        lists = {}
-        for key in keys:
-            lists[key] = []
-        with open("../data/apc_de.csv", "r") as core_file:
-            reader = UnicodeDictReader(core_file, encoding="utf-8")
-            for line in reader:
-                for key in keys:
-                    if has_value(line[key]):
-                        lists[key].append(line[key])
     collection_xpath = ".//oai_2_0:record//oai_2_0:metadata//intact:collection"
     token_xpath = ".//oai_2_0:resumptionToken"
     processing_regex = re.compile("'(?P<target>\w*?)':'(?P<generator>.*?)'")
     variable_regex = re.compile("%(\w*?)%")
-    collection_content = OrderedDict([
-        ("intact:institution", "institution"),
-        ("intact:period", "period"),
-        ("intact:euro", "euro"),
-        ("intact:id_number[@type='doi']", "doi"),
-        ("intact:is_hybrid", "is_hybrid"),
-        ("intact:publisher", "publisher"),
-        ("intact:journal_full_title", "journal_full_title"),
-        ("intact:issn", "issn"),
-        ("intact:licence", "license_ref"),
-        ("intact:id_number[@type='pubmed']","pmid"),
-        ("", "url"),
-        ("intact:id_number[@type='local']", "local_id")
-    ])
     #institution_xpath =
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
@@ -446,7 +435,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         else:
             print_r("Error: Unable to parse processing instruction!")
             processing = None
-    articles = [collection_content.values()] # use as header
+    articles = []
     while url is not None:
         try:
             request = urllib2.Request(url)
@@ -458,7 +447,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
             counter = 0
             for collection in collections:
                 article = OrderedDict()
-                for xpath, elem in collection_content.iteritems():
+                for xpath, elem in OAI_COLLECTION_CONTENT.iteritems():
                     result = collection.find(xpath, namespaces)
                     if result is not None and result.text is not None:
                         article[elem] = result.text
@@ -493,9 +482,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         except urllib2.HTTPError as httpe:
             code = str(httpe.getcode())
             print "HTTPError: {} - {}".format(code, httpe.reason)
-    with open("out.csv", "w") as f:
-        writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
-        writer.write_rows(articles)
+    return articles
 
 def get_metadata_from_crossref(doi_string):
     """
