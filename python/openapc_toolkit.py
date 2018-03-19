@@ -483,6 +483,12 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
                 if article["euro"] in ["NA", "0"]:
                     print_r("Article skipped, no APC amount found.")
                     continue
+                if article["doi"] != "NA":
+                    norm_doi = get_normalised_DOI(article["doi"])
+                    if norm_doi is None:
+                        article["doi"] = "NA"
+                    else:
+                        article["doi"] = norm_doi
                 articles.append(article)
                 counter += 1
             token = root.find(token_xpath, namespaces)
