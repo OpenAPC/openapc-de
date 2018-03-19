@@ -16,7 +16,7 @@ def integrate_changes(articles, file_path, enriched_file=False):
     Update existing entries in a previously created harvest file.
     
     Args:
-        articles: A list of article dicts, as retured by openapc_toolkit.oai_harvest
+        articles: A list of article dicts, as retured by openapc_toolkit.oai_harvest()
         file_path: Path to the CSV file the new values should be integrated into.
         enriched_file: If true, columns which are overwritten during enrichment
                        will not be updated
@@ -40,6 +40,8 @@ def integrate_changes(articles, file_path, enriched_file=False):
         reader = oat.UnicodeDictReader(f)
         fieldnames = reader.reader.fieldnames
         updated_lines.append(list(fieldnames)) #header
+        start_msg = "Integrating changes in harvest data into existing file {}"
+        oat.print_g(start_msg.format(file_path))
         for line in reader:
             doi = line["doi"]
             line_num = reader.reader.line_num
@@ -93,8 +95,6 @@ def main():
                 else:
                     # if no header was returned, an "all_harvested" file doesn't exist yet
                     new_articles = [oat.OAI_COLLECTION_CONTENT.values()]
-                #print new_article_dicts
-                print header
                 for article_dict in new_article_dicts:
                     new_articles.append([article_dict[key] for key in header])
                 now = datetime.datetime.now()
