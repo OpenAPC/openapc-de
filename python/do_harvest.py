@@ -90,11 +90,10 @@ def main():
                 enriched_file_path = os.path.join(directory, "all_harvested_articles_enriched.csv")
                 new_article_dicts, header = integrate_changes(articles, harvest_file_path, False)
                 integrate_changes(articles, enriched_file_path, True)
-                if header is not None:
-                    new_articles = [header]
-                else:
+                if header is None:
                     # if no header was returned, an "all_harvested" file doesn't exist yet
-                    new_articles = [oat.OAI_COLLECTION_CONTENT.values()]
+                    header = oat.OAI_COLLECTION_CONTENT.values()
+                new_articles = [header]
                 for article_dict in new_article_dicts:
                     new_articles.append([article_dict[key] for key in header])
                 now = datetime.datetime.now()
