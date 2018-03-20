@@ -1129,7 +1129,8 @@ def get_unified_journal_title(journal_full_title):
         "American Journal of Physiology-Endocrinology and Metabolism": "AJP: Endocrinology and Metabolism",
         "Milbank Quarterly": "The Milbank Quarterly",
         "Faraday Discuss.": "Faraday Discussions",
-        "Journal of Management and Governance": "Journal of Management & Governance"
+        "Journal of Management and Governance": "Journal of Management & Governance",
+        "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
