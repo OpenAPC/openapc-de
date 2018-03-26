@@ -30,18 +30,18 @@ SHORTDOI_RE = re.compile("^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", 
 ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 OAI_COLLECTION_CONTENT = OrderedDict([
-    ("intact:institution", "institution"),
-    ("intact:period", "period"),
-    ("intact:euro", "euro"),
-    ("intact:id_number[@type='doi']", "doi"),
-    ("intact:is_hybrid", "is_hybrid"),
-    ("intact:publisher", "publisher"),
-    ("intact:journal_full_title", "journal_full_title"),
-    ("intact:issn", "issn"),
-    ("intact:licence", "license_ref"),
-    ("intact:id_number[@type='pubmed']","pmid"),
-    ("", "url"),
-    ("intact:id_number[@type='local']", "local_id")
+    ("institution", "intact:institution"),
+    ("period", "intact:period"),
+    ("euro", "intact:euro"),
+    ("doi", "intact:id_number[@type='doi']"),
+    ("is_hybrid", "intact:is_hybrid"),
+    ("publisher", "intact:publisher"),
+    ("journal_full_title", "intact:journal_full_title"),
+    ("issn", "intact:issn"),
+    ("license_ref", "intact:licence"),
+    ("pmid", "intact:id_number[@type='pubmed']"),
+    ("url", None),
+    ("local_id", "intact:id_number[@type='local']")
 ])
 
 # Do not quote the values in the 'period' and 'euro' columns
@@ -461,21 +461,21 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
     articles = []
     while url is not None:
         try:
-            request = urllib2.Request(url)
+            request = Request(url)
             url = None
-            response = urllib2.urlopen(request)
+            response = urlopen(request)
             content_string = response.read()
             root = ET.fromstring(content_string)
             collections = root.findall(collection_xpath, namespaces)
             counter = 0
             for collection in collections:
                 article = {}
-                for xpath, elem in OAI_COLLECTION_CONTENT.iteritems():
-                    result = collection.find(xpath, namespaces)
-                    if result is not None and result.text is not None:
-                        article[elem] = result.text
-                    else:
-                        article[elem] = "NA"
+                for elem, xpath in OAI_COLLECTION_CONTENT.items():
+                    article[elem] = "NA"
+                    if xpath is not None:
+                        result = collection.find(xpath, namespaces)
+                        if result is not None and result.text is not None:
+                            article[elem] = result.text
                 if processing:
                     target_string = generator
                     for variable in variables:
@@ -496,12 +496,11 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             if token is not None and token.text is not None:
                 url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text
             print_g(str(counter) + " articles harvested.")
-        except urllib2.HTTPError as httpe:
+        except HTTPError as httpe:
             code = str(httpe.getcode())
             print("HTTPError: {} - {}".format(code, httpe.reason))
-        except urllib2.HTTPError as httpe:
-            code = str(httpe.getcode())
-            print("HTTPError: {} - {}".format(code, httpe.reason))
+        except URLError as urle:
+            print("URLError: {}".format(urle.reason))
     return articles
 
 def get_metadata_from_crossref(doi_string):

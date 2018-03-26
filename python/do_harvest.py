@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -6,6 +6,7 @@ import datetime
 import os
 
 from collections import OrderedDict
+from csv import DictReader
 
 import openapc_toolkit as oat
 
@@ -37,8 +38,8 @@ def integrate_changes(articles, file_path, enriched_file=False):
     updated_lines = []
     fieldnames = None
     with open(file_path, "r") as f:
-        reader = oat.UnicodeDictReader(f)
-        fieldnames = reader.reader.fieldnames
+        reader = DictReader(f)
+        fieldnames = reader.fieldnames
         updated_lines.append(list(fieldnames)) #header
         start_msg = "Integrating changes in harvest data into existing file {}"
         oat.print_g(start_msg.format(file_path))
@@ -54,7 +55,7 @@ def integrate_changes(articles, file_path, enriched_file=False):
                 msg = "Line {}: Checking for changes ({})"
                 oat.print_b(msg.format(line_num, doi))
                 if doi in article_dict:
-                    for key, value in article_dict[doi].iteritems():
+                    for key, value in article_dict[doi].items():
                         if enriched_file and key in enriched_blacklist:
                             continue
                         if key in line and value != line[key]:
@@ -76,7 +77,7 @@ def integrate_changes(articles, file_path, enriched_file=False):
 
 def main():
     with open("harvest_list.csv", "r") as harvest_list:
-        reader = oat.UnicodeDictReader(harvest_list, encoding="utf-8")
+        reader = DictReader(harvest_list)
         for line in reader:
             basic_url = line["basic_url"]
             if line["active"] == "TRUE":
