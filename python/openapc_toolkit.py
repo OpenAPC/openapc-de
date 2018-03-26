@@ -11,7 +11,7 @@ from logging.handlers import MemoryHandler
 import re
 import ssl
 import sys
-from urllib.request import urlopen, HTTPErrorProcessor, Request
+from urllib.request import build_opener, urlopen, HTTPErrorProcessor, Request
 from urllib.error import HTTPError, URLError
 import xml.etree.ElementTree as ET
 
@@ -192,7 +192,7 @@ class DOAJOfflineAnalysis(object):
         self.doaj_eissn_map = {}
 
         handle = open(doaj_csv_file, "r")
-        reader = UnicodeDictReader(handle)
+        reader = csv.DictReader(handle)
         for line in reader:
             journal_title = line["Journal title"]
             issn = line["Journal ISSN (print version)"]
@@ -313,7 +313,7 @@ def get_normalised_DOI(doi_string):
         # Extract redirect URL to obtain original DOI
         shortdoi = shortdoi_match.groupdict()["shortdoi"]
         url = "https://doi.org/" + shortdoi
-        opener = urllib2.build_opener(NoRedirection)
+        opener = build_opener(NoRedirection)
         try:
             res = opener.open(url)
             if res.code == 301:
@@ -322,7 +322,7 @@ def get_normalised_DOI(doi_string):
                     doi = doi_match.groupdict()["doi"]
                     return doi.lower()
             return None
-        except (urllib2.HTTPError, urllib2.URLError):
+        except (HTTPError, URLError):
             return None
     return None
 
@@ -390,7 +390,7 @@ def analyze_csv_file(file_path):
         has_header = sniffer.has_header(content)
     except csv.Error as csve:
         error_msg = ("Error: An error occured while analyzing the file: '" +
-                     csve.message + "'. Maybe it is no valid CSV file?")
+                     str(csve) + "'. Maybe it is no valid CSV file?")
         return {"success": False, "error_msg": error_msg}
     result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
     return {"success": True, "data": result}
@@ -501,7 +501,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             print("HTTPError: {} - {}".format(code, httpe.reason))
         except urllib2.HTTPError as httpe:
             code = str(httpe.getcode())
-            print "HTTPError: {} - {}".format(code, httpe.reason)
+            print("HTTPError: {} - {}".format(code, httpe.reason))
     return articles
 
 def get_metadata_from_crossref(doi_string):

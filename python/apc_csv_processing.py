@@ -63,10 +63,9 @@ class CSVColumn(object):
             return new_value
         msg = CSVColumn._OW_MSG.format(ov=old_value, name=self.column_name,
                                        nv=new_value)
-        msg = msg.encode("utf-8")
-        ret = raw_input(msg)
+        ret = input(msg)
         while ret not in ["1", "2", "3", "4", "5", "6"]:
-            ret = raw_input("Please select a number between 1 and 5:")
+            ret = input("Please select a number between 1 and 5:")
         if ret == "1":
             return new_value
         if ret == "2":
@@ -86,8 +85,9 @@ class CSVColumn(object):
 
 ARG_HELP_STRINGS = {
     "csv_file": "CSV file containing your APC data. It must contain at least " +
-                "the 4 mandatory columns defined by the OpenAPC data schema: " +
-                "institution, doi, period and euro (in no particular order).",
+                "the 5 mandatory columns defined by the OpenAPC data schema: " +
+                "institution, period, euro, doi and is_hybrid (in no " +
+                "particular order).",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
     "verbose": "Be more verbose during the enrichment process.",
@@ -284,15 +284,15 @@ def main():
     has_header = csv_analysis.has_header or args.force_header
 
     if enc is None:
-        print ("Error: No encoding given for CSV file and automated " +
-               "detection failed. Please set the encoding manually via the " +
-               "--enc argument")
+        print("Error: No encoding given for CSV file and automated " +
+              "detection failed. Please set the encoding manually via the " +
+              "--enc argument")
         sys.exit()
 
     reduced = args.quotemask.replace("f", "").replace("t", "")
     if len(reduced) > 0:
-        print ("Error: A quotemask may only contain the letters 't' and "  +
-               "'f'!")
+        print("Error: A quotemask may only contain the letters 't' and "  +
+              "'f'!")
         sys.exit()
     mask = [True if x == "t" else False for x in args.quotemask]
 
@@ -303,6 +303,7 @@ def main():
         else:
             oat.print_r("Error: " + args.offline_doaj + " does not seem "
                         "to be a file!")
+            sys.exit()
 
     csv_file = open(args.csv_file, "r", encoding=enc)
     reader = csv.reader(csv_file, dialect=dialect)
@@ -374,6 +375,7 @@ def main():
             "period": [],
             "euro": []
         }
+        found_msg = "The entry in column {} looks like a potential {}: {}"
         for (index, entry) in enumerate(row):
             if index in [csvcolumn.index for csvcolumn in column_map.values()]:
                 # Skip columns already assigned
@@ -383,11 +385,10 @@ def main():
             if column_map['doi'].index is None:
                 if oat.DOI_RE.match(entry):
                     column_id = str(index)
-                    # identify column either numerical or by column header
+                    # identify column either numerically or by column header
                     if header:
                         column_id += " ('" + header[index] + "')"
-                    print ("The entry in column {} looks like a " +
-                           "DOI: {}").format(column_id, entry)
+                    print(found_msg.format(column_id, "DOI", entry))
                     column_candidates['doi'].append(index)
                     continue
             # Search for a potential year string
@@ -400,8 +401,7 @@ def main():
                         column_id = str(index)
                         if header:
                             column_id += " ('" + header[index] + "')"
-                        print ("The entry in column {} looks like a " +
-                               "potential period: {}").format(column_id, entry)
+                        print(found_msg.format(column_id, "year", entry))
                         column_candidates['period'].append(index)
                         continue
                 except ValueError:
@@ -410,14 +410,11 @@ def main():
             if column_map['euro'].index is None:
                 try:
                     maybe_euro = locale.atof(entry)
-                    # Are there APCs above 6000€ ??
-                    if maybe_euro >= 10 and maybe_euro <= 6000:
+                    if maybe_euro >= 10 and maybe_euro <= 10000:
                         column_id = str(index)
                         if header:
                             column_id += " ('" + header[index] + "')"
-                        print ("The entry in column {} looks like a " +
-                               "potential euro amount: {}").format(column_id,
-                                                                   entry)
+                        print (found_msg.format(column_id, "euro amount", entry))
                         column_candidates['euro'].append(index)
                         continue
                 except ValueError:
@@ -438,8 +435,8 @@ def main():
                     column_map[column_type].column_name = column_id
                 else:
                     column_id = index
-                print ("Assuming column '{}' to be the '{}' " +
-                       "column.").format(column_id, column_type)
+                msg = "Assuming column '{}' to be the '{}' column."
+                print(msg.format(column_id, column_type))
                 column_map[column_type].index = index
         break
 
