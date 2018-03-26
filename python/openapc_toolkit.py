@@ -354,7 +354,7 @@ def is_valid_ISSN(issn_string):
             return True
     return False
 
-def analyze_csv_file(file_path):
+def analyze_csv_file(file_path, test_lines=1000):
     try:
         csv_file = open(file_path, "r")
     except IOError as ioe:
@@ -362,32 +362,39 @@ def analyze_csv_file(file_path):
                                                                  ioe.strerror)
         return {"success": False, "error_msg": error_msg}
 
-    content = ""
-
+    text_content = ""
+    
     blanks = 0
     lines_processed = 0
     for line in csv_file:
         if line.strip(): # omit blank lines
-            content += line
             lines_processed += 1
+            if lines_processed <= test_lines:
+                text_content += line
         else:
             blanks += 1
-    
     csv_file.close()
     
+    enc = None
+    enc_conf = None
     if chardet:
-        with open(file_path, "rb") as csv_file_bytes:
-            chardet_result = chardet.detect(csv_file_bytes.read())
-            enc = chardet_result["encoding"]
-            enc_conf = chardet_result["confidence"]
-    else:
-        enc = None
-        enc_conf = None
+        byte_content = b"" # in python3 chardet only operates on bytes
+        with open(file_path, "rb") as binary_file:
+            lines_processed = 0
+            for line in binary_file:
+                if line.strip(): # omit blank lines
+                    lines_processed += 1
+                    byte_content += line
+                    if lines_processed > test_lines:
+                        break
+        chardet_result = chardet.detect(byte_content)
+        enc = chardet_result["encoding"]
+        enc_conf = chardet_result["confidence"]
 
     sniffer = csv.Sniffer()
     try:
-        dialect = sniffer.sniff(content)
-        has_header = sniffer.has_header(content)
+        dialect = sniffer.sniff(text_content)
+        has_header = sniffer.has_header(text_content)
     except csv.Error as csve:
         error_msg = ("Error: An error occured while analyzing the file: '" +
                      str(csve) + "'. Maybe it is no valid CSV file?")
@@ -415,13 +422,13 @@ def get_csv_file_content(file_name, enc=None, force_header=False):
 
     dialect = csv_analysis.dialect
 
-    csv_file = open(file_name, "r")
+    csv_file = open(file_name, "r", encoding=enc)
 
     content = []
-    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    reader = csv.reader(csv_file, dialect=dialect)
     header = []
     if csv_analysis.has_header or force_header:
-        header.append(reader.next())
+        header.append(next(reader))
     for row in reader:
         content.append(row)
     csv_file.close()
