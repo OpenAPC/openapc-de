@@ -29,6 +29,43 @@ SHORTDOI_RE = re.compile("^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", 
 
 ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
+OAI_COLLECTION_CONTENT = OrderedDict([
+    ("intact:institution", "institution"),
+    ("intact:period", "period"),
+    ("intact:euro", "euro"),
+    ("intact:id_number[@type='doi']", "doi"),
+    ("intact:is_hybrid", "is_hybrid"),
+    ("intact:publisher", "publisher"),
+    ("intact:journal_full_title", "journal_full_title"),
+    ("intact:issn", "issn"),
+    ("intact:licence", "license_ref"),
+    ("intact:id_number[@type='pubmed']","pmid"),
+    ("", "url"),
+    ("intact:id_number[@type='local']", "local_id")
+])
+
+# Do not quote the values in the 'period' and 'euro' columns
+OPENAPC_STANDARD_QUOTEMASK = [
+    True,
+    False,
+    False,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+]
+
 # These classes were adopted from
 # https://docs.python.org/2/library/csv.html#examples
 class UTF8Recoder(object):
@@ -393,40 +430,14 @@ def get_csv_file_content(file_name, enc=None, force_header=False):
 def has_value(field):
     return len(field) > 0 and field != "NA"
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, selective_harvest=False):
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
     """
     Harvest OpenAPC records via OAI-PMH
     """
-    if selective_harvest:
-        # create lists of all exisiting dois, pmids and urls
-        keys = ["doi", "pmid", "url"]
-        lists = {}
-        for key in keys:
-            lists[key] = []
-        with open("../data/apc_de.csv", "r") as core_file:
-            reader = UnicodeDictReader(core_file, encoding="utf-8")
-            for line in reader:
-                for key in keys:
-                    if has_value(line[key]):
-                        lists[key].append(line[key])
     collection_xpath = ".//oai_2_0:record//oai_2_0:metadata//intact:collection"
     token_xpath = ".//oai_2_0:resumptionToken"
     processing_regex = re.compile("'(?P<target>\w*?)':'(?P<generator>.*?)'")
     variable_regex = re.compile("%(\w*?)%")
-    collection_content = OrderedDict([
-        ("intact:institution", "institution"),
-        ("intact:period", "period"),
-        ("intact:euro", "euro"),
-        ("intact:id_number[@type='doi']", "doi"),
-        ("intact:is_hybrid", "is_hybrid"),
-        ("intact:publisher", "publisher"),
-        ("intact:journal_full_title", "journal_full_title"),
-        ("intact:issn", "issn"),
-        ("intact:licence", "license_ref"),
-        ("intact:id_number[@type='pubmed']","pmid"),
-        ("", "url"),
-        ("intact:id_number[@type='local']", "local_id")
-    ])
     #institution_xpath =
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
@@ -447,7 +458,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         else:
             print_r("Error: Unable to parse processing instruction!")
             processing = None
-    articles = [collection_content.values()] # use as header
+    articles = []
     while url is not None:
         try:
             request = urllib2.Request(url)
@@ -458,8 +469,8 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
             collections = root.findall(collection_xpath, namespaces)
             counter = 0
             for collection in collections:
-                article = OrderedDict()
-                for xpath, elem in collection_content.iteritems():
+                article = {}
+                for xpath, elem in OAI_COLLECTION_CONTENT.iteritems():
                     result = collection.find(xpath, namespaces)
                     if result is not None and result.text is not None:
                         article[elem] = result.text
@@ -473,16 +484,13 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                 if article["euro"] in ["NA", "0"]:
                     print_r("Article skipped, no APC amount found.")
                     continue
-                elif selective_harvest:
-                    key_found = False
-                    for key in keys:
-                        if article[key] in lists[key]:
-                            print_r("Article skipped, " + key + " already in core data file.")
-                            key_found = True
-                            break
-                    if key_found:
-                        continue
-                articles.append(article.values())
+                if article["doi"] != "NA":
+                    norm_doi = get_normalised_DOI(article["doi"])
+                    if norm_doi is None:
+                        article["doi"] = "NA"
+                    else:
+                        article["doi"] = norm_doi
+                articles.append(article)
                 counter += 1
             token = root.find(token_xpath, namespaces)
             if token is not None and token.text is not None:
@@ -493,10 +501,8 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
             print("HTTPError: {} - {}".format(code, httpe.reason))
         except urllib2.HTTPError as httpe:
             code = str(httpe.getcode())
-            print("HTTPError: {} - {}".format(code, httpe.reason))
-    with open("out.csv", "w") as f:
-        writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
-        writer.write_rows(articles)
+            print "HTTPError: {} - {}".format(code, httpe.reason)
+    return articles
 
 def get_metadata_from_crossref(doi_string):
     """
@@ -953,7 +959,7 @@ def get_column_type_from_whitelist(column_name):
         "period": ["period", "jahr"],
         "is_hybrid": ["is_hybrid", "is hybrid", "hybrid"],
         "publisher": ["publisher"],
-        "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title", "journaltitle"],
+        "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title", "journaltitle", "journal_title"],
         "issn": ["issn", "issn.1", "issn0"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
@@ -1022,7 +1028,7 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Lipid Research": "The Journal of Lipid Research",
         "Plastic and Reconstructive Surgery Global Open": "Plastic and Reconstructive Surgery - Global Open",
         "RSC Adv.": "RSC Advances",
-        "Zeitschrift für die neutestamentliche Wissenschaft": "Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
+        u"Zeitschrift für die neutestamentliche Wissenschaft": u"Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
         "Chem. Soc. Rev.": "Chemical Society Reviews",
         "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
         "Scientific Repor.": "Scientific Reports",
@@ -1082,7 +1088,7 @@ def get_unified_journal_title(journal_full_title):
         "The Journal of Experimental Biology": "Journal of Experimental Biology",
         "The Plant Cell Online": "The Plant Cell",
         "Journal of Agricultural, Biological, and Environmental Statistics": "Journal of Agricultural, Biological and Environmental Statistics",
-        "PalZ": "Paläontologische Zeitschrift",
+        "PalZ": u"Paläontologische Zeitschrift",
         "Lighting Research and Technology": "Lighting Research & Technology",
         "The Journal of Infectious Diseases": "Journal of Infectious Diseases",
         "Planning Practice and Research": "Planning Practice & Research",
@@ -1126,7 +1132,9 @@ def get_unified_journal_title(journal_full_title):
         "American Journal of Physiology-Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
         "American Journal of Physiology-Endocrinology and Metabolism": "AJP: Endocrinology and Metabolism",
         "Milbank Quarterly": "The Milbank Quarterly",
-        "Faraday Discuss.": "Faraday Discussions"
+        "Faraday Discuss.": "Faraday Discussions",
+        "Journal of Management and Governance": "Journal of Management & Governance",
+        "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

@@ -341,28 +341,6 @@ def main():
         ("doaj", CSVColumn("doaj", CSVColumn.NONE, None, overwrite=ow_strategy))
     ])
 
-    # Do not quote the values in the 'period' and 'euro' columns
-    quotemask = [
-        True,
-        False,
-        False,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-        True,
-    ]
-
     header = None
     if has_header:
         for row in reader:
