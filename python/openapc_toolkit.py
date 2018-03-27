@@ -403,7 +403,7 @@ def analyze_csv_file(file_path, test_lines=1000):
     return {"success": True, "data": result}
 
 def get_csv_file_content(file_name, enc=None, force_header=False):
-    result = analyze_csv_file(file_name, 500)
+    result = analyze_csv_file(file_name)
     if result["success"]:
         csv_analysis = result["data"]
         print(csv_analysis)

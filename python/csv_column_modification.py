@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -62,8 +62,8 @@ def main():
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
-            print ("Encoding '{}' found in Python's codec collection " +
-                   "as '{}'").format(args.encoding, codec.name)
+            msg = "Encoding '{}' found in Python's codec collection as '{}'"
+            print(msg.format(args.encoding, codec.name))
             enc = args.encoding
         except LookupError:
             print ("Error: '" + args.encoding + "' not found Python's " +
@@ -73,30 +73,7 @@ def main():
                    "guessing.")
             sys.exit()
     
-    result = oat.analyze_csv_file(args.csv_file, 500)
-    if result["success"]:
-        csv_analysis = result["data"]
-        print csv_analysis
-    else:
-        print result["error_msg"]
-        sys.exit()
-    
-    if enc is None:
-        enc = csv_analysis.enc
-    
-    if enc is None:
-        print ("Error: No encoding given for CSV file and automated " +
-               "detection failed. Please set the encoding manually via the " +
-               "--enc argument")
-        sys.exit()
-        
-    dialect = csv_analysis.dialect
-    
-    csv_file = open(args.csv_file, "r")
-
-    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
-    new_rows = args.func(reader, args)
-    csv_file.close()
+    header, content = oat.get_csv_file_content(args.csv_file, enc)
 
     mask = None
     if args.quotemask:
@@ -107,20 +84,22 @@ def main():
             sys.exit()
         mask = [True if x == "t" else False for x in args.quotemask]
     
+    new_rows = args.func(header, content, args)
+    
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, True)
         writer.write_rows(new_rows)
         
-def quote_column(csv_reader, args):
-    new_rows = []
-    for row in csv_reader:
+def quote_column(header, content, args):
+    new_rows = header
+    for row in content:
         row[args.column_index] = '"' + row[args.column_index] + '"'
         new_rows.append(row)
     return new_rows
 
-def unquote_column(csv_reader, args):
-    new_rows = []
-    for row in csv_reader:
+def unquote_column(header, content, args):
+    new_rows = header
+    for row in content:
         value = row[args.column_index]
         if value.startswith('"'):
             value = value[1:]
@@ -130,34 +109,35 @@ def unquote_column(csv_reader, args):
         new_rows.append(row)
     return new_rows
     
-def move_column(csv_reader, args):
+def move_column(header, content, args):
     new_rows = []
-    for row in csv_reader:
+    merged = header + content
+    for row in merged:
         if len(row) > 0:
             row.insert(args.target_index, row.pop(args.column_index))
         new_rows.append(row)
     return new_rows
     
-def delete_column(csv_reader, args):
+def delete_column(header, content, args):
     new_rows = []
-    for row in csv_reader:
+    merged = header + content
+    for row in merged:
         if len(row) > 0:
             row.pop(args.column_index)
         new_rows.append(row)
     return new_rows
     
-def insert_column(csv_reader, args):
-    header = csv_reader.next()
-    header.insert(args.target_index, args.column_name)
-    new_rows = [header]
-    for row in csv_reader:
+def insert_column(header, content, args):
+    header[0].insert(args.target_index, args.column_name)
+    new_rows = header
+    for row in content:
         row.insert(args.target_index, args.default_value)
         new_rows.append(row)
     return new_rows
     
-def copy(csv_reader, _):
-    new_rows = []
-    for row in csv_reader:
+def copy(header, content, _):
+    new_rows = [header]
+    for row in content:
         new_rows.append(row)
     return new_rows
 
