@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -63,7 +63,7 @@ def main():
     values = []
     if args.file:
         if not os.path.isfile(args.file):
-            print ("Error: '" + args.file + "' is no valid file!")
+            print("Error: '" + args.file + "' is no valid file!")
             sys.exit() 
         with open(args.file, "r") as f:
             for line in f:
@@ -90,8 +90,8 @@ def main():
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
-            print ("Encoding '{}' found in Python's codec collection " +
-                   "as '{}'").format(args.encoding, codec.name)
+            msg = "Encoding '{}' found in Python's codec collection as '{}'"
+            print (msg.format(args.encoding, codec.name))
             enc = args.encoding
         except LookupError:
             print ("Error: '" + args.encoding + "' not found Python's " +
@@ -112,12 +112,12 @@ def main():
     
     header, content = oat.get_csv_file_content(args.csv_file, enc)
     
-    emtpy_line = [u'' for element in content[0]]
+    empty_line = ['' for element in content[0]]
     column_name = "column " + str(args.index)
     if header:
         header_line = header[0]
         column_name = header_line[args.index]
-        emtpy_line = [u'' for element in header_line]
+        empty_line = ['' for element in header_line]
     msg = u"Performing line deletion on condition '{}' in {}".format(column_name, values)
     oat.print_g(msg)
     
@@ -136,12 +136,12 @@ def main():
         else:
             num_deleted_lines += 1
             if not args.full_delete:
-                modified_content.append(list(emtpy_line))
+                modified_content.append(list(empty_line))
             if args.results_file:
                 deleted_lines.append(line)
             
-    msg = u"Process complete, deleted {} out of {} total lines".format(num_deleted_lines, num_total_lines)            
-    oat.print_g(msg)
+    msg = u"Process complete, deleted {} out of {} total lines"        
+    oat.print_g(msg.format(num_deleted_lines, num_total_lines))
     
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
