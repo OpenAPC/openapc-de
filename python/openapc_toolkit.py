@@ -354,42 +354,62 @@ def is_valid_ISSN(issn_string):
             return True
     return False
 
-def analyze_csv_file(file_path, test_lines=1000):
+def analyze_csv_file(file_path, test_lines=1000, enc=None):
     try:
-        csv_file = open(file_path, "r")
+        csv_file = open(file_path, "rb")
     except IOError as ioe:
         error_msg = "Error: could not open file '{}': {}".format(file_path,
                                                                  ioe.strerror)
         return {"success": False, "error_msg": error_msg}
 
-    text_content = ""
-    
+    guessed_enc = None
+    guessed_enc_confidence = None
     blanks = 0
-    lines_processed = 0
-    for line in csv_file:
-        if line.strip(): # omit blank lines
-            lines_processed += 1
-            if lines_processed <= test_lines:
-                text_content += line
-        else:
-            blanks += 1
+    if chardet:
+        byte_content = b"" # in python3 chardet operates on bytes
+        lines_processed = 0
+        for line in csv_file:
+            if line.strip(): # omit blank lines
+                lines_processed += 1
+                if lines_processed <= test_lines:
+                    byte_content += line
+            else:
+                blanks += 1
+        chardet_result = chardet.detect(byte_content)
+        guessed_enc = chardet_result["encoding"]
+        guessed_enc_confidence = chardet_result["confidence"]
+
     csv_file.close()
     
-    enc = None
-    enc_conf = None
-    if chardet:
-        byte_content = b"" # in python3 chardet only operates on bytes
-        with open(file_path, "rb") as binary_file:
+    if enc is not None:
+        used_encoding = enc
+    elif guessed_enc is not None:
+        used_encoding = guessed_enc
+    else:
+        used_encoding = locale.getpreferredencoding()
+    
+    text_content = ""
+    with open(file_path, "r", encoding=used_encoding) as csv_file:
+        try:
             lines_processed = 0
-            for line in binary_file:
+            for line in csv_file:
                 if line.strip(): # omit blank lines
                     lines_processed += 1
-                    byte_content += line
+                    text_content += line
                     if lines_processed > test_lines:
                         break
-        chardet_result = chardet.detect(byte_content)
-        enc = chardet_result["encoding"]
-        enc_conf = chardet_result["confidence"]
+        except UnicodeError as ue:
+            error = ('A UnicodeError occured while trying to read the csv ' +
+                     'file ("{}") - it seems the encoding we used ({}) is ' +
+                     'not correct.')
+            advice = ""
+            if chardet:
+                if enc is not None:
+                    advice = " You could try to omit the encoding and let the chardet module have a guess."
+                elif guessed_enc is not None:
+                    advice = " It was auto-detected by chardet, try to specify it manually."
+            error_msg = error.format(str(ue), used_encoding) + advice
+            return {"success": False, "error_msg": error_msg}
 
     sniffer = csv.Sniffer()
     try:
@@ -399,16 +419,16 @@ def analyze_csv_file(file_path, test_lines=1000):
         error_msg = ("Error: An error occured while analyzing the file: '" +
                      str(csve) + "'. Maybe it is no valid CSV file?")
         return {"success": False, "error_msg": error_msg}
-    result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
+    result = CSVAnalysisResult(blanks, dialect, has_header, guessed_enc, guessed_enc_confidence)
     return {"success": True, "data": result}
 
 def get_csv_file_content(file_name, enc=None, force_header=False):
-    result = analyze_csv_file(file_name)
+    result = analyze_csv_file(file_name, enc=enc)
     if result["success"]:
         csv_analysis = result["data"]
         print(csv_analysis)
     else:
-        print(result["error_msg"])
+        print_r(result["error_msg"])
         sys.exit()
 
     if enc is None:

@@ -100,6 +100,8 @@ def main():
                    "encodings) or omit this argument to enable automated " +
                    "guessing.")
             sys.exit()
+            
+    header, content = oat.get_csv_file_content(args.csv_file, enc)
         
     mask = None
     if args.quotemask:
@@ -109,8 +111,6 @@ def main():
                    "'f'!")
             sys.exit()
         mask = [True if x == "t" else False for x in args.quotemask]
-    
-    header, content = oat.get_csv_file_content(args.csv_file, enc)
     
     empty_line = ['' for element in content[0]]
     column_name = "column " + str(args.index)

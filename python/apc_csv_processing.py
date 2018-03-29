@@ -230,7 +230,6 @@ def main():
                         action="store_true", default=False)
 
     args = parser.parse_args()
-    enc = None # CSV file encoding
 
     handler = logging.StreamHandler(sys.stderr)
     handler.setFormatter(oat.ANSIColorFormatter())
@@ -254,6 +253,7 @@ def main():
             oat.print_r(msg)
             sys.exit()
 
+    enc = None # CSV file encoding
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
@@ -270,7 +270,7 @@ def main():
             oat.print_r(msg)
             sys.exit()
 
-    result = oat.analyze_csv_file(args.csv_file)
+    result = oat.analyze_csv_file(args.csv_file, enc=enc)
     if result["success"]:
         csv_analysis = result["data"]
         print(csv_analysis)

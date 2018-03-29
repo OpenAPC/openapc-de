@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -60,8 +60,8 @@ def main():
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
-            print ("Encoding '{}' found in Python's codec collection " +
-                   "as '{}'").format(args.encoding, codec.name)
+            msg = "Encoding '{}' found in Python's codec collection as '{}'"
+            oat.print_g(msg.format(args.encoding, codec.name))
             enc = args.encoding
         except LookupError:
             print ("Error: '" + args.encoding + "' not found Python's " +
@@ -70,32 +70,8 @@ def main():
                    "encodings) or omit this argument to enable automated " +
                    "guessing.")
             sys.exit()
-            
-    result = oat.analyze_csv_file(args.apc_file, 500)
-    if result["success"]:
-        csv_analysis = result["data"]
-        print csv_analysis
-    else:
-        print result["error_msg"]
-        sys.exit()
-    
-    if enc is None:
-        enc = csv_analysis.enc
-    
-    if enc is None:
-        print ("Error: No encoding given for CSV file and automated " +
-               "detection failed. Please set the encoding manually via the " +
-               "--enc argument")
-        sys.exit()
         
-    dialect = csv_analysis.dialect
-    
-    has_header = csv_analysis.has_header
-    
-    csv_file = open(args.apc_file, "r")
-
-    reader = oat.UnicodeReader(csv_file, dialect=dialect, encoding=enc)
-    
+    header, content = oat.get_csv_file_content(args.apc_file, enc)
     
     oat.print_g("Preparing mapping table...")
     itself = other = 0
@@ -104,7 +80,7 @@ def main():
     issn_l_dict = {}
     for i, line in enumerate(issn_l_file):
         if i % 100000 == 0:
-            print str(i) + " lines processed."
+            print(str(i) + " lines processed.")
         match = issn_l_re.match(line)
         if match:
             match_dict = match.groupdict()
@@ -113,12 +89,12 @@ def main():
                 itself += 1
             else:
                 other += 1
-    print str(itself) + " ISSNs pointing to itself as ISSN-L, " + str(other) + " to another value."
+    print(str(itself) + " ISSNs pointing to itself as ISSN-L, " + str(other) + " to another value.")
     oat.print_g("Starting enrichment...")
     
     issn_matches = issn_p_matches = issn_e_matches = unmatched = different = corrections = 0
     enriched_lines = []
-    for line in reader:
+    for line in content:
         if len(line) == 0:
             enriched_lines.append(line)
             continue
@@ -153,11 +129,16 @@ def main():
             different += 1
         enriched_lines.append(line)
     
-    print "{} issn_l values mapped by issn, {} by issn_p, {} by issn_e. {} could not be assigned.\n{} issn_l values were corrected during the process.\n In {} cases the ISSN-L was different from all existing ISSN values".format(issn_matches, issn_p_matches, issn_e_matches, unmatched, corrections, different)
+    msg = ("{} issn_l values mapped by issn, {} by issn_p, {} by issn_e. {} " +
+           "could not be assigned.\n{} issn_l values were corrected during " +
+           "the process.\n In {} cases the ISSN-L was different from all " +
+           "existing ISSN values")
+    print(msg.format(issn_matches, issn_p_matches, issn_e_matches, 
+                     unmatched, corrections, different))
 
     with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, has_header)
-        writer.write_rows(enriched_lines)
+        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, True)
+        writer.write_rows(header + enriched_lines)
             
 
 if __name__ == '__main__':
