@@ -1,4 +1,5 @@
 import pytest
+from csv import DictReader
 
 from .. import openapc_toolkit as oat
 
@@ -119,7 +120,7 @@ ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
 for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
     with open(file_name, "r") as csv_file:
-        reader = oat.UnicodeDictReader(csv_file)
+        reader = DictReader(csv_file)
         line = 2
         for row in reader:
             for field in UNUSED_FIELDS:
