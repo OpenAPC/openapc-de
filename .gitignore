@@ -4,6 +4,7 @@
 .Rhistory
 .idea
 .cache
+.pytest_cache
 # Exclude generated files
 python/out.csv
 # Exclude python virtual env
