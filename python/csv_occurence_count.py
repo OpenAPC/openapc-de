@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -30,8 +30,8 @@ def main():
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
-            print ("Encoding '{}' found in Python's codec collection " +
-                   "as '{}'").format(args.encoding, codec.name)
+            msg = "Encoding '{}' found in Python's codec collection as '{}'"
+            print(msg.format(args.encoding, codec.name))
             enc = args.encoding
         except LookupError:
             oat.print_r("Error: '" + args.encoding + "' not found Python's " +
@@ -67,7 +67,7 @@ def main():
                                             reverse=True))
 
     for item in occurence_dict.items():
-        print item[0] + ": " + str(item[1])
+        print(item[0] + ": " + str(item[1]))
 
 if __name__ == '__main__':
     main()
