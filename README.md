@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 50,133 open access journal articles, amounting to € 95,618,618 and contributed by 156 institutions.
+At the moment this project provides cost data on 50,205 open access journal articles, amounting to € 95,711,547 and contributed by 157 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -44,6 +44,7 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en)
+- [Technische Universität Darmstadt](https://www.ulb.tu-darmstadt.de/service/elektronisches_publizieren/oa_publikationsfond/index.en.jsp)
 - [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
 - [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
@@ -228,9 +229,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 50,133 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 156 research performing institutions and research funders. 
+This dataset contains information on 50,205 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 157 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 95,618,618. The average payment was € 1,907  and the median was € 1,710.
+In total, publication fee spending covered by the Open APC initiative amounted to € 95,711,547. The average payment was € 1,906  and the median was € 1,709.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -244,7 +245,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-29,058 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 43,100,203, including value-added tax; the average payment was € 1,483 (median =  € 1,406, SD = € 715).
+29,130 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 43,193,132, including value-added tax; the average payment was € 1,483 (median =  € 1,405, SD = € 714).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -300,6 +301,7 @@ The following table summarises institutional spending on articles published in f
 |Oldenburg U                                                     |      177|               215,062|   1,215 (495)|  1,361|       63 -  2,002|
 |GFZ-Potsdam                                                     |      172|               225,908|   1,313 (808)|  1,224|      137 -  4,403|
 |Cardiff University                                              |      169|               289,389|   1,712 (792)|  1,562|      204 -  4,510|
+|Bayreuth U                                                      |      165|               193,663|   1,174 (494)|  1,245|       82 -  2,112|
 |University of Edinburgh                                         |      157|               268,393|   1,710 (832)|  1,632|      226 -  4,689|
 |University of Bergen                                            |      156|               242,308|   1,553 (499)|  1,549|      333 -  5,142|
 |Virginia Tech                                                   |      153|               165,423|   1,081 (472)|  1,216|      112 -  2,484|
@@ -308,7 +310,6 @@ The following table summarises institutional spending on articles published in f
 |University of Glasgow                                           |      144|               272,944|   1,895 (985)|  1,568|      365 -  4,613|
 |Hannover U                                                      |      138|               181,409|   1,315 (497)|  1,392|      124 -  2,159|
 |TiHo Hannover                                                   |      137|               194,193|   1,417 (468)|  1,416|      196 -  3,673|
-|Bayreuth U                                                      |      128|               148,228|   1,158 (520)|  1,202|       82 -  2,112|
 |Milano U                                                        |      121|               185,356|   1,532 (722)|  1,495|      110 -  4,470|
 |University of Southampton                                       |      121|               224,453| 1,855 (1,716)|  1,538|      388 - 18,802|
 |Norwegian University of Science and Technology                  |      115|               162,119|   1,410 (492)|  1,420|      183 -  3,554|
@@ -344,9 +345,10 @@ The following table summarises institutional spending on articles published in f
 |Bamberg U                                                       |       36|                39,450|   1,096 (572)|  1,116|       90 -  2,010|
 |Oslo and Akershus university college                            |       36|                45,728|   1,270 (514)|  1,252|       86 -  2,238|
 |Swansea University                                              |       36|                59,942|   1,665 (764)|  1,332|      840 -  4,689|
+|TU Darmstadt                                                    |       35|                41,591|   1,188 (386)|  1,258|      190 -  1,898|
 |University of Bath                                              |       34|                48,484|   1,426 (585)|  1,395|      360 -  2,429|
 |TU Braunschweig                                                 |       33|                40,822|   1,237 (683)|  1,531|      181 -  2,142|
-|TU Berlin                                                       |       30|                34,171|   1,139 (381)|  1,189|      364 -  1,673|
+|TU Berlin                                                       |       30|                40,074|   1,336 (438)|  1,392|      433 -  1,990|
 |Lancaster University                                            |       28|                34,167|   1,220 (375)|  1,221|      256 -  1,825|
 |Dalarna University College                                      |       27|                38,434|   1,423 (619)|  1,698|      283 -  2,338|
 |TU Ilmenau                                                      |       26|                31,545|   1,213 (590)|  1,408|      178 -  2,077|
@@ -540,9 +542,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.7%       |
-|PubMed ID                  |  76.79%      |
-|PubMed Central ID          |  70.41%     |
-|Web of Science record ID   | 92.52%      |
+|PubMed ID                  |  76.77%      |
+|PubMed Central ID          |  70.4%     |
+|Web of Science record ID   | 92.7%      |
 
 
 
@@ -570,7 +572,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 

@@ -67,7 +67,8 @@ JOURNAL_OWNER_CHANGED = {
     "1559-2448": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review
     "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine
     "1555-4309": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging
-    "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"] # HAU: Journal of Ethnographic Theory
+    "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
+    "0197-6729": ["Wiley-Blackwell", "Hindawi Publishing Corporation"] # Journal of Advanced Transportation
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
