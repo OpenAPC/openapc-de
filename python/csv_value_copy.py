@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -66,8 +66,8 @@ def main():
         if encoding:
             try:
                 codec = codecs.lookup(encoding)
-                print ("Encoding '{}' found in Python's codec collection " +
-                       "as '{}'").format(encoding, codec.name)
+                msg = "Encoding '{}' found in Python's codec collection as '{}'"
+                print(msg.format(encoding, codec.name))
                 enc = args.encoding
             except LookupError:
                 print ("Error: '" + encoding + "' not found Python's " +
