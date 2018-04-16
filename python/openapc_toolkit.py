@@ -2,14 +2,12 @@
 # -*- coding: UTF-8 -*-
 
 import csv
-import codecs
 from collections import OrderedDict
 import json
 import locale
 import logging
 from logging.handlers import MemoryHandler
 import re
-import ssl
 import sys
 from urllib.request import build_opener, urlopen, HTTPErrorProcessor, Request
 from urllib.error import HTTPError, URLError
@@ -19,8 +17,8 @@ try:
     import chardet
 except ImportError:
     chardet = None
-    print ("WARNING: 3rd party module 'chardet' not found - character " +
-           "encoding guessing will not work")
+    print("WARNING: 3rd party module 'chardet' not found - character " +
+          "encoding guessing will not work")
 
 # regex for detecing DOIs
 DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
@@ -66,67 +64,6 @@ OPENAPC_STANDARD_QUOTEMASK = [
     True,
 ]
 
-# These classes were adopted from
-# https://docs.python.org/2/library/csv.html#examples
-class UTF8Recoder(object):
-    """
-    Iterator that reads an encoded stream and reencodes the input
-    to UTF-8
-    """
-    def __init__(self, f, encoding):
-        self.reader = codecs.getreader(encoding)(f)
-
-    def __iter__(self):
-        return self
-
-    def next(self):
-        return self.reader.next().encode("utf-8")
-
-class UnicodeReader(object):
-    """
-    A CSV reader which will iterate over lines in the CSV file "f",
-    which is encoded in the given encoding.
-    """
-
-    def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
-        f = UTF8Recoder(f, encoding)
-        self.reader = csv.reader(f, dialect=dialect, **kwds)
-
-    def next(self):
-        row = self.reader.next()
-        return [unicode(s, "utf-8") for s in row]
-
-    def __iter__(self):
-        return self
-
-class UnicodeDictReader(object):
-    """
-    A CSV reader which will iterate over lines in the CSV file "f",
-    which is encoded in the given encoding.
-    """
-
-    def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
-        f = UTF8Recoder(f, encoding)
-        self.reader = csv.DictReader(f, dialect=dialect, **kwds)
-
-    def next(self):
-        row = self.reader.next()
-        row_dict = {}
-        for (k, v) in row.iteritems():
-            try:
-                row_dict[unicode(k, "utf-8")] = unicode(v, "utf-8")
-            except TypeError:
-                msg = ("TypeError in UnicodeDictReader (line {}): Could not " +
-                       "coerce value in column '{}' to Unicode ({})")
-                print_r(msg.format(self.reader.line_num, k, v))
-                sys.exit()
-        return row_dict
-        #return {unicode(k, "utf-8"): unicode(v, "utf-8") for (k, v) in row.iteritems()}
-        
-
-    def __iter__(self):
-        return self
-
 class OpenAPCUnicodeWriter(object):
     """
     A customized CSV Writer.
@@ -150,7 +87,7 @@ class OpenAPCUnicodeWriter(object):
                     of any quotemask.
         minimal_quotes: Quote values containing a comma even if a quotemask
                         is False for that column (Might produce a malformed
-                        csv file otherwise). 
+                        csv file otherwise).
     """
 
     def __init__(self, f, quotemask=None, openapc_quote_rules=True,
@@ -207,8 +144,7 @@ class DOAJOfflineAnalysis(object):
             return self.doaj_issn_map[any_issn]
         elif any_issn in self.doaj_eissn_map:
             return self.doaj_eissn_map[any_issn]
-        else:
-            return None
+        return None
 
 class CSVAnalysisResult(object):
 
@@ -260,10 +196,10 @@ class ANSIColorFormatter(logging.Formatter):
     """
     A simple logging formatter using ANSI codes to colorize messages
     """
-    
+
     def __init__(self):
         super().__init__(fmt="%(levelname)s: %(message)s", datefmt=None, style="%")
-    
+
     FORMATS = {
         logging.ERROR: "\033[91m%(levelname)s: %(message)s\033[0m",
         logging.WARNING: "\033[93m%(levelname)s: %(message)s\033[0m",
@@ -289,11 +225,11 @@ class BufferedErrorHandler(MemoryHandler):
 
     def shouldFlush(self, record):
         return False
-        
+
 class NoRedirection(HTTPErrorProcessor):
     """
     A dummy processor to suppress HTTP redirection.
-    
+
     This handler serves the simple purpose of stopping redirection for
     easy extraction of shortDOI redirect targets.
     """
@@ -380,14 +316,14 @@ def analyze_csv_file(file_path, test_lines=1000, enc=None):
         guessed_enc_confidence = chardet_result["confidence"]
 
     csv_file.close()
-    
+
     if enc is not None:
         used_encoding = enc
     elif guessed_enc is not None:
         used_encoding = guessed_enc
     else:
         used_encoding = locale.getpreferredencoding()
-    
+
     text_content = ""
     with open(file_path, "r", encoding=used_encoding) as csv_file:
         try:
@@ -405,7 +341,8 @@ def analyze_csv_file(file_path, test_lines=1000, enc=None):
             advice = ""
             if chardet:
                 if enc is not None:
-                    advice = " You could try to omit the encoding and let the chardet module have a guess."
+                    advice = (" You could try to omit the encoding and let the chardet module " +
+                              "have a guess.")
                 elif guessed_enc is not None:
                     advice = " It was auto-detected by chardet, try to specify it manually."
             error_msg = error.format(str(ue), used_encoding) + advice
@@ -435,9 +372,8 @@ def get_csv_file_content(file_name, enc=None, force_header=False):
         enc = csv_analysis.enc
 
     if enc is None:
-        print ("Error: No encoding given for CSV file and automated " +
-               "detection failed. Please set the encoding manually via the " +
-               "--enc argument")
+        print("Error: No encoding given for CSV file and automated detection failed. Please set " +
+              "the encoding manually via the --enc argument")
         sys.exit()
 
     dialect = csv_analysis.dialect
@@ -579,7 +515,7 @@ def get_metadata_from_crossref(doi_string):
     }
     doi = get_normalised_DOI(doi_string)
     if doi is None:
-        error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
+        error_msg = "Parse Error: '{}' is no valid DOI".format(doi_string)
         return {"success": False, "error_msg": error_msg}
     url = 'http://data.crossref.org/' + doi
     req = Request(url)
@@ -627,7 +563,7 @@ def get_metadata_from_crossref(doi_string):
 def get_metadata_from_pubmed(doi_string):
     """
     Look up a DOI in Europe PMC and extract Pubmed ID and Pubmed Central ID
-    
+
     Args:
         doi_string: A string representing a doi. 'Pure' form (10.xxx),
         DOI Handbook notation (doi:10.xxx) or crossref-style
@@ -644,7 +580,7 @@ def get_metadata_from_pubmed(doi_string):
     doi = get_normalised_DOI(doi_string)
     if doi is None:
         return {"success": False,
-                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi_string)
+                "error_msg": "Parse Error: '{}' is no valid DOI".format(doi_string)
                }
     url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
@@ -761,27 +697,27 @@ def process_row(row, row_num, column_map, num_required_columns,
         result will conform to the Open APC data schema.
     """
     MESSAGES = {
-        "num_columns": u"Syntax: The number of values in this row (%s) " +
+        "num_columns": "Syntax: The number of values in this row (%s) " +
                        "differs from the number of columns (%s). Line left " +
                        "unchanged, the resulting CSV file will not be valid.",
-        "locale": u"Error: Could not process the monetary value '%s' in " +
+        "locale": "Error: Could not process the monetary value '%s' in " +
                   "column %s. This will usually have one of two reasons:\n1) " +
                   "The value does not represent a number.\n2) The value " +
                   "represents a number, but its format differs from your " +
                   "current system locale - the most common source of error " +
                   "will be the decimal mark (1234.56 vs 1234,56). Try using " +
                   "another locale with the -l option.",
-        "unify": u"Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
+        "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
                  "to maintain consistency.",
-        "doi_norm": u"Normalisation: DOI '{}' normalised to pure form ({}).",
-        "springer_distinction": u"publisher 'Springer Nature' found " +
-                                 "for a pre-2015 article - publisher " +
-                                 "changed to '%s' based on prefix " +
-                                 "discrimination ('%s')",
-        "unknown_prefix": u"publisher 'Springer Nature' found for a " +
-                           "pre-2015 article, but discrimination was " +
-                           "not possible - unknown prefix ('%s')",
-        "issn_hyphen_fix": u"Normalisation: Added hyphen to %s value (%s -> %s)"
+        "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({}).",
+        "springer_distinction": "publisher 'Springer Nature' found " +
+                                "for a pre-2015 article - publisher " +
+                                "changed to '%s' based on prefix " +
+                                "discrimination ('%s')",
+        "unknown_prefix": "publisher 'Springer Nature' found for a " +
+                          "pre-2015 article, but discrimination was " +
+                          "not possible - unknown prefix ('%s')",
+        "issn_hyphen_fix": "Normalisation: Added hyphen to %s value (%s -> %s)"
     }
 
     if len(row) != num_required_columns:
@@ -888,8 +824,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                             new_value = value
                     else:
                         new_value = "NA"
-                        msg = (u"WARNING: Element '%s' not found in in response for " +
-                               "doi %s.")
+                        msg = "WARNING: Element '%s' not found in in response for doi %s."
                         logging.debug(msg, key, doi)
                     old_value = current_row[key]
                     current_row[key] = column_map[key].check_overwrite(old_value, new_value)
@@ -908,8 +843,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                         new_value = value
                     else:
                         new_value = "NA"
-                        msg = (u"WARNING: Element %s not found in in response for " +
-                               "doi %s.")
+                        msg = "WARNING: Element %s not found in in response for doi %s."
                         logging.debug(msg, key, doi)
                     old_value = current_row[key]
                     current_row[key] = column_map[key].check_overwrite(old_value, new_value)
@@ -936,14 +870,12 @@ def process_row(row, row_num, column_map, num_required_columns,
             if doaj_offline_analysis:
                 lookup_result = doaj_offline_analysis.lookup(issn)
                 if lookup_result:
-                    msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
-                           "offline copy ('%s').")
+                    msg = "DOAJ: Journal ISSN (%s) found in DOAJ offline copy ('%s')."
                     logging.info(msg, issn, lookup_result)
                     new_value = "TRUE"
                     break
                 else:
-                    msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
-                           "offline copy.")
+                    msg = "DOAJ: Journal ISSN (%s) not found in DOAJ offline copy."
                     new_value = "FALSE"
                     logging.info(msg, issn)
             # ...or query the online API
@@ -951,17 +883,16 @@ def process_row(row, row_num, column_map, num_required_columns,
                 doaj_res = lookup_journal_in_doaj(issn)
                 if doaj_res["data_received"]:
                     if doaj_res["data"]["in_doaj"]:
-                        msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
+                        msg = "DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
                         logging.info(msg, issn, doaj_res["data"]["title"])
                         new_value = "TRUE"
                         break
                     else:
-                        msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
+                        msg = "DOAJ: Journal ISSN (%s) not found in DOAJ."
                         logging.info(msg, issn)
                         new_value = "FALSE"
                 else:
-                    msg = (u"Line %s: DOAJ: Error while trying to look up " +
-                           "ISSN %s: %s")
+                    msg = "Line %s: DOAJ: Error while trying to look up ISSN %s: %s"
                     logging.error(msg, row_num, issn, doaj_res["error_msg"])
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value,
@@ -1054,17 +985,15 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Lipid Research": "The Journal of Lipid Research",
         "Plastic and Reconstructive Surgery Global Open": "Plastic and Reconstructive Surgery - Global Open",
         "RSC Adv.": "RSC Advances",
-        u"Zeitschrift für die neutestamentliche Wissenschaft": u"Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
+        "Zeitschrift für die neutestamentliche Wissenschaft": "Zeitschrift für die Neutestamentliche Wissenschaft und die Kunde der älteren Kirche",
         "Chem. Soc. Rev.": "Chemical Society Reviews",
         "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
         "Scientific Repor.": "Scientific Reports",
         "PAIN": "Pain",
-        "Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
         "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
         "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
         "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
         "PLoS Medicine": "PLOS Medicine",
-        "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
         "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
         "Naturwissenschaften": "The Science of Nature",
         "Dalton Trans.": "Dalton Transactions",
@@ -1114,7 +1043,7 @@ def get_unified_journal_title(journal_full_title):
         "The Journal of Experimental Biology": "Journal of Experimental Biology",
         "The Plant Cell Online": "The Plant Cell",
         "Journal of Agricultural, Biological, and Environmental Statistics": "Journal of Agricultural, Biological and Environmental Statistics",
-        "PalZ": u"Paläontologische Zeitschrift",
+        "PalZ": "Paläontologische Zeitschrift",
         "Lighting Research and Technology": "Lighting Research & Technology",
         "The Journal of Infectious Diseases": "Journal of Infectious Diseases",
         "Planning Practice and Research": "Planning Practice & Research",
@@ -1130,7 +1059,6 @@ def get_unified_journal_title(journal_full_title):
         "Health:: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine": "Health: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine",
         "INTERNATIONAL JOURNAL OF SYSTEMATIC AND EVOLUTIONARY MICROBIOLOGY": "International Journal of Systematic and Evolutionary Microbiology",
         "Protein Engineering Design and Selection": "Protein Engineering, Design and Selection",
-        u"European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
         "The Journals of Gerontology: Series A": "The Journals of Gerontology Series A: Biological Sciences and Medical Sciences",
         "MHR: Basic science of reproductive medicine": "Molecular Human Reproduction",
         "Research on Language and Social Interaction": "Research on Language & Social Interaction",
@@ -1142,9 +1070,7 @@ def get_unified_journal_title(journal_full_title):
         "Polym. Chem.": "Polymer Chemistry",
         "Angewandte Chemie": "Angewandte Chemie International Edition",
         "ISME Journal": "The ISME Journal",
-        "European Journal of Public Health": "The European Journal of Public Health",
         "Interface": "Journal of The Royal Society Interface",
-        "The Plant Cell Online": "The Plant Cell",
         "Medical Engineering and Physics": "Medical Engineering & Physics",
         "Forensic Science, Medicine, and Pathology": "Forensic Science, Medicine and Pathology",
         "Lab Chip": "Lab on a Chip",
