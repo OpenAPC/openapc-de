@@ -3,7 +3,6 @@
 
 import argparse
 import codecs
-import csv
 import sys
 
 import openapc_toolkit as oat
@@ -38,7 +37,7 @@ ARG_HELP_STRINGS = {
                     "file. If omitted, the same index as in the first file " +
                     "is used.",
     "other_encoding": "The optional encoding of the second CSV file.",
-    "ignore_case": "Ignore case when comparing values for reordering between two files" 
+    "ignore_case": "Ignore case when comparing values for reordering between two files"
 }
 
 def main():
@@ -49,73 +48,71 @@ def main():
     parser.add_argument("other_column", type=int, nargs="?", help=ARG_HELP_STRINGS["other_column"])
     parser.add_argument("-e2", "--other_encoding", help=ARG_HELP_STRINGS["other_encoding"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
-    parser.add_argument("-i", "--ignore_case", action="store_true", default=False, 
+    parser.add_argument("-i", "--ignore_case", action="store_true", default=False,
                         help=ARG_HELP_STRINGS["ignore_case"])
     parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
-    parser.add_argument("-o", "--openapc_quote_rules", 
+    parser.add_argument("-o", "--openapc_quote_rules",
                         help=ARG_HELP_STRINGS["openapc_quote_rules"],
                         action="store_true", default=False)
-    
+
     args = parser.parse_args()
-    
+
     quote_rules = args.openapc_quote_rules
-    
+
     encs = [] #CSV file encodings
-    
+
     for encoding in [args.encoding, args.other_encoding]:
         if encoding:
             try:
                 codec = codecs.lookup(encoding)
                 msg = "Encoding '{}' found in Python's codec collection as '{}'"
                 print(msg.format(encoding, codec.name))
-                enc = args.encoding
             except LookupError:
-                print ("Error: '" + encoding + "' not found Python's " +
-                       "codec collection. Either look for a valid name here " +
-                       "(https://docs.python.org/2/library/codecs.html#standard-" +
-                       "encodings) or omit this argument to enable automated " +
-                       "guessing.")
+                print("Error: '" + encoding + "' not found Python's " +
+                      "codec collection. Either look for a valid name here " +
+                      "(https://docs.python.org/2/library/codecs.html#standard-" +
+                      "encodings) or omit this argument to enable automated " +
+                      "guessing.")
                 sys.exit()
         encs.append(encoding)
-    
+
+    mask = None
+    if args.quotemask:
+        reduced = args.quotemask.replace("f", "").replace("t", "")
+        if reduced:
+            print("Error: A quotemask may only contain the letters 't' and 'f'!")
+            sys.exit()
+        mask = [True if x == "t" else False for x in args.quotemask]
+
     header, content = oat.get_csv_file_content(args.csv_file, enc=encs[0])
     column = args.column
-    
+
     if not args.other_csv_file:
-        rearranged_content = header + sorted(content, key=lambda x:x[column])
+        rearranged_content = header + sorted(content, key=lambda x: x[column])
     else:
         rearranged_content = []
         _, second_content = oat.get_csv_file_content(args.other_csv_file, enc=encs[1])
         other_column = column # default: use same column index as in first file
         if args.other_column:
             other_column = args.other_column
-            
-        for row in second_content:
+
+        for other_row in second_content:
             if args.ignore_case:
-                matching_rows = filter(lambda x: x[column].lower() == row[other_column].lower(), content)
+                matching_rows = [row for row in content if row[column].lower() == other_row[other_column].lower()]
             else:
-                matching_rows = filter(lambda x: x[column] == row[other_column], content)
+                matching_rows = [row for row in content if row[column] == other_row[other_column]]
             rearranged_content += matching_rows
             for matching_row in matching_rows:
                 content.remove(matching_row)
         unmatched_msg = ("{} rows could not be rearranged (unmatched in second csv file) " +
-               "and were appended to the end of the result file " +
-               "in original order.")
-        if len(content):
+                         "and were appended to the end of the result file " +
+                         "in original order.")
+        if content:
             oat.print_y(unmatched_msg.format(len(content)))
         else:
             oat.print_g("All rows matched.")
         rearranged_content = header + rearranged_content + content # append any unmatched rows
-    
-    mask = None
-    if args.quotemask:
-        reduced = args.quotemask.replace("f", "").replace("t", "")
-        if len(reduced) > 0:
-            print ("Error: A quotemask may only contain the letters 't' and" +
-                   "'f'!")
-            sys.exit()
-        mask = [True if x == "t" else False for x in args.quotemask]
-    
+
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
         writer.write_rows(rearranged_content)
