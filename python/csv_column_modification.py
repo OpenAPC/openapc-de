@@ -136,7 +136,7 @@ def insert_column(header, content, args):
     return new_rows
     
 def copy(header, content, _):
-    new_rows = [header]
+    new_rows = header
     for row in content:
         new_rows.append(row)
     return new_rows
