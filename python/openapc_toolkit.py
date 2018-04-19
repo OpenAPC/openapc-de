@@ -1086,7 +1086,8 @@ def get_unified_journal_title(journal_full_title):
         "Milbank Quarterly": "The Milbank Quarterly",
         "Faraday Discuss.": "Faraday Discussions",
         "Journal of Management and Governance": "Journal of Management & Governance",
-        "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety"
+        "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety",
+        "Nanoscale Horiz.": "Nanoscale Horizons" 
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
