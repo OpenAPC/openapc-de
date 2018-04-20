@@ -1088,7 +1088,8 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Management and Governance": "Journal of Management & Governance",
         "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety",
         "Nanoscale Horiz.": "Nanoscale Horizons",
-        "BeitrÃ¤ge zur Algebra und Geometrie / Contributions to Algebra and Geometry": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry" 
+        "BeitrÃ¤ge zur Algebra und Geometrie / Contributions to Algebra and Geometry": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
+        "Energy Environ. Sci.": "Energy & Environmental Science"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
