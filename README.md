@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 50,537 open access journal articles, amounting to € 96,193,884 and contributed by 158 institutions.
+At the moment this project provides cost data on 50,538 open access journal articles, amounting to € 96,195,879 and contributed by 158 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -230,9 +230,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 50,537 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 158 research performing institutions and research funders. 
+This dataset contains information on 50,538 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 158 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 96,193,884. The average payment was € 1,903  and the median was € 1,704.
+In total, publication fee spending covered by the Open APC initiative amounted to € 96,195,879. The average payment was € 1,903  and the median was € 1,704.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -417,7 +417,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,143 open access articles being published in hybrid journals. Total expenditure amounts to  52,654,812 €. Average  fee is 2,490 € and the median 2,444 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,144 open access articles being published in hybrid journals. Total expenditure amounts to  52,656,807 €. Average  fee is 2,490 € and the median 2,443 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -488,8 +488,8 @@ The following institutions have contributed expenditures on hybrid open access j
 |Manchester Metropolitan University          |       16|                34,362|   2,148 (990)|  2,198|      376 -  3,481|
 |Virginia Tech                               |       14|                20,480|   1,463 (575)|  1,256|      633 -  2,337|
 |Dalarna University College                  |       13|                33,705|   2,593 (933)|  2,690|      747 -  4,679|
+|GIGA                                        |       13|                27,235|   2,095 (423)|  2,151|      987 -  2,583|
 |Luleå University of Technology              |       13|                28,385|   2,183 (908)|  2,429|      234 -  3,140|
-|GIGA                                        |       12|                25,240|   2,103 (440)|  2,151|      987 -  2,583|
 |GFZ-Potsdam                                 |       10|                24,555| 2,455 (1,037)|  2,643|      134 -  3,795|
 |MPG                                         |       10|                 9,179|     918 (113)|    958|      727 -  1,034|
 |University of Hull                          |       10|                26,794|   2,679 (360)|  2,640|    2,247 -  3,225|
