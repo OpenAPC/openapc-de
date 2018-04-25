@@ -36,8 +36,9 @@ my_apc <- readr::read_csv("offsetting.csv")
 ```
 This dataset contains information on `r nrow(my_apc)` articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
+
 ```{r, echo=FALSE, results='asis', message=FALSE}
-my_apc %>% select(institution, is_hybrid) %>% 
+my_apc %>% select(institution, euro) %>% 
     group_by(institution) %>% 
     ezsummary::ezsummary(n = TRUE, digits= 0) %>%
     select(institution, n) %>%

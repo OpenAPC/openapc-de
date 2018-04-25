@@ -1,0 +1,138 @@
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
+
+import argparse
+import codecs
+from collections import OrderedDict
+import sys
+
+import openapc_toolkit as oat
+
+ARG_HELP_STRINGS = {
+    "base_file": "The base csv file",
+    "merge_file": "The file containing the lines which should be merge into the base file",
+    "template_file": "The file to use as template for merge actions",
+    "merge_column": "The numerical index of the column to use as merge key (merge file)",
+    "template_column": "The numerical index of the column to use as merge key (template file)",
+    "enc_base": "The encoding of the base file.",
+    "enc_merge": "The encoding of the merge file.",
+    "enc_template": "The encoding of the template file.",
+    "quotemask": "A quotemask to apply to the result file after the action " +
+                 "has been performed. A quotemask is a string consisting " +
+                 "only of the letters 't' and 'f' (true/false) and has " +
+                 "the same length as there are columns in the (resulting) " +
+                 "csv file. Only the columns where the index is 't' will be " +
+                 "quoted.",
+    "openapc_quote_rules": "Determines if the special openapc quote rules " +
+                           "should be applied, meaning that the keywords " +
+                           "NA, TRUE and FALSE will never be quoted. If in " +
+                           "conflict with a quotemask, openapc_quote_rules " +
+                           "will take precedence."
+}
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("template_file", help=ARG_HELP_STRINGS["template_file"])
+    parser.add_argument("base_file", help=ARG_HELP_STRINGS["base_file"])
+    parser.add_argument("merge_file", help=ARG_HELP_STRINGS["merge_file"])
+    parser.add_argument("template_column", type=int, help=ARG_HELP_STRINGS["template_column"])
+    parser.add_argument("merge_column", type=int, help=ARG_HELP_STRINGS["merge_column"])
+    parser.add_argument("-e1", "--enc_template", help=ARG_HELP_STRINGS["enc_template"])
+    parser.add_argument("-e2", "--enc_base", help=ARG_HELP_STRINGS["enc_base"])
+    parser.add_argument("-e3", "--enc_merge", help=ARG_HELP_STRINGS["enc_merge"])
+    parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
+    parser.add_argument("-o", "--openapc_quote_rules", 
+                        help=ARG_HELP_STRINGS["openapc_quote_rules"],
+                        action="store_true", default=False)
+
+    args = parser.parse_args()
+
+    quote_rules = args.openapc_quote_rules
+
+    encs = [] #CSV file encodings
+    
+    for encoding in [args.enc_template, args.enc_base, args.enc_merge]:
+        if encoding:
+            try:
+                codec = codecs.lookup(encoding)
+                msg = "Encoding '{}' found in Python's codec collection as '{}'"
+                print(msg.format(encoding, codec.name))
+            except LookupError:
+                print ("Error: '" + encoding + "' not found Python's " +
+                       "codec collection. Either look for a valid name here " +
+                       "(https://docs.python.org/2/library/codecs.html#standard-" +
+                       "encodings) or omit this argument to enable automated " +
+                       "guessing.")
+                sys.exit()
+        encs.append(encoding)
+    
+    mask = None
+    if args.quotemask:
+        reduced = args.quotemask.replace("f", "").replace("t", "")
+        if len(reduced) > 0:
+            oat.print_r("Error: A quotemask may only contain the letters 't' and" +
+                        "'f'!")
+            sys.exit()
+        mask = [True if x == "t" else False for x in args.quotemask]
+
+    template_header, template_content = oat.get_csv_file_content(args.template_file, encs[0], True)
+    base_header, base_content = oat.get_csv_file_content(args.base_file, encs[1], True)
+    if len(template_content) != len(base_content):
+        msg = "Error: The template file and the base file differ in their number of lines ({} vs {})."
+        oat.print_r(msg.format(len(template_content), len(base_content)))
+        sys.exit()
+    merge_header, merge_content = oat.get_csv_file_content(args.merge_file, encs[2], True)
+
+    merge_column_name = "column " + str(args.merge_column)
+    if merge_header:
+        header_line = merge_header[0]
+        merge_column_name = header_line[args.merge_column]
+    template_column_name = "column " + str(args.template_column)
+    if template_header:
+        header_line = template_header[0]
+        template_column_name = header_line[args.template_column]
+
+    msg = ("Performing merge by mapping values in merge file column '{}' " +
+           "to order of values in template file column '{}'")
+    oat.print_g(msg.format(merge_column_name, template_column_name))
+    occurence_dict = OrderedDict()
+
+    oat.print_g("Building mapping table for merge file...")
+    merge_dict = {}
+    for line in merge_content:
+        value = line[args.merge_column]
+        if len(value) == 0:
+            continue
+        if value in merge_dict:
+            oat.print_r("Error: Value '" + value + "' occuring more than once in merge file!")
+            sys.exit()
+        else:
+            merge_dict[value] = [line, 0]
+    oat.print_g("...Done")
+
+    num_inserts = 0
+    for i in range(0, len(template_content)):
+        value = template_content[i][args.template_column]
+        if value in merge_dict:
+            old_value =  base_content[i]
+            new_value = merge_dict[value][0]
+            base_content[i] = new_value
+            num_inserts += 1
+            merge_dict[value][1] += 1
+            msg = "line {}: {} -> {}"
+            oat.print_g(msg.format(i, old_value, new_value))
+    oat.print_g(str(num_inserts) + " lines replaced.")
+    
+    for key, value in merge_dict.iteritems():
+        if value[1] == 0:
+            oat.print_y("Warning: Key '" + key + "' did not occur in template file and wasn't mapped!")
+        elif value[1] > 1:
+            oat.print_y("Warning: Key '" + key + "' did occur " + str(value[1]) + " times in template file!")
+    
+    with open('out.csv', 'w') as out:
+        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
+        writer.write_rows(base_header + base_content)
+
+
+if __name__ == '__main__':
+    main()

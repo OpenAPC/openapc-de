@@ -53,7 +53,7 @@
 "FWF - Austrian Science Fund",2013,1625.49,"10.1016/j.yexcr.2012.01.021",TRUE,"Elsevier BV","Experimental Cell Research","00144827","00144827",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"22342458","PMC3405526",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,1969.01,"10.1021/cg4009015",TRUE,"American Chemical Society (ACS)","Crystal Growth & Design","1528-7483","1528-7483","1528-7505","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"24027438","PMC3767201",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2400,"10.1111/1574-6941.12073",TRUE,"Oxford University Press (OUP)","FEMS Microbiology Ecology","01686496",NA,NA,NA,TRUE,"23330917","PMC3732383",NA,NA,FALSE
-"FWF - Austrian Science Fund",2013,2871.78,"10.4172/2155-6156.1000253",TRUE,"OMICS Publishing Group","Journal of Diabetes & Metabolism","21556156",NA,"21556156",NA,TRUE,NA,NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2013,2871.78,"10.4172/2155-6156.1000253",FALSE,"OMICS Publishing Group","Journal of Diabetes & Metabolism","21556156",NA,"21556156",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,418.69,"10.4236/ijaa.2012.22012",FALSE,"Scientific Research Publishing, Inc,","International Journal of Astronomy and Astrophysics","2161-4717","2161-4717","2161-4725","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2676.26,"10.1016/j.ymeth.2013.03.034",TRUE,"Elsevier BV","Methods","10462023","10462023",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23571313","PMC3678024",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2050.96,"10.1021/jp400255u",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry C","1932-7447","1932-7447","1932-7455","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"23762499","PMC3677233",NA,NA,FALSE
@@ -889,7 +889,7 @@
 "FWF - Austrian Science Fund",2013,1379.92,"10.1063/1.4773234",TRUE,"AIP Publishing","Applied Physics Letters","00036951","00036951",NA,NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,1508.08,"10.1016/j.bone.2013.07.038",TRUE,"Elsevier BV","Bone","87563282","87563282",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23932972","PMC3807669",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2400,"10.1111/1574-6941.12142",TRUE,"Oxford University Press (OUP)","FEMS Microbiology Ecology","01686496",NA,NA,NA,TRUE,"23621156","PMC3840699",NA,NA,FALSE
-"FWF - Austrian Science Fund",2013,449.82,"10.1104/pp.113.215509",TRUE,"American Society of Plant Biologists (ASPB)","PLANT PHYSIOLOGY","0032-0889","0032-0889","1532-2548",NA,TRUE,"23493405",NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2013,449.82,"10.1104/pp.113.215509",TRUE,"American Society of Plant Biologists (ASPB)","Plant Physiology","0032-0889","0032-0889","1532-2548",NA,TRUE,"23493405",NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,1969.01,"10.1021/nl4019947",TRUE,"American Chemical Society (ACS)","Nano Letters","1530-6984","1530-6984","1530-6992","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"23968490","PMC3772860",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2347.93,"10.1016/j.ica.2012.10.007",TRUE,"Elsevier BV","Inorganica Chimica Acta","00201693","00201693",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23564970","PMC3616971",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,1969.01,"10.1021/jp407818k",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry A","1089-5639","1089-5639","1520-5215","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"24028555","PMC3871282",NA,NA,FALSE
@@ -1041,7 +1041,7 @@
 "FWF - Austrian Science Fund",2013,1080.86,"10.1371/journal.pone.0057547",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"23437396","PMC3578790",NA,NA,TRUE
 "FWF - Austrian Science Fund",2013,1757.95,"10.1371/journal.ppat.1003253",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","http://creativecommons.org/licenses/by/4.0/",TRUE,"23555261","PMC3605152",NA,NA,TRUE
 "FWF - Austrian Science Fund",2013,2347.83,"10.1016/j.jmaa.2012.05.028",TRUE,"Elsevier BV","Journal of Mathematical Analysis and Applications","0022247X","0022247X",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23576818","PMC3617911",NA,NA,FALSE
-"FWF - Austrian Science Fund",2013,600.59,"10.1104/pp.112.210757",TRUE,"American Society of Plant Biologists (ASPB)","PLANT PHYSIOLOGY","0032-0889","0032-0889","1532-2548",NA,TRUE,"23400704",NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2013,600.59,"10.1104/pp.112.210757",TRUE,"American Society of Plant Biologists (ASPB)","Plant Physiology","0032-0889","0032-0889","1532-2548",NA,TRUE,"23400704",NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,1969.01,"10.1021/ja407052t",TRUE,"American Chemical Society (ACS)","Journal of the American Chemical Society","0002-7863","0002-7863","1520-5126","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"24041160","PMC3797520",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2709.03,"10.1016/j.infbeh.2012.02.007",TRUE,"Elsevier BV","Infant Behavior and Development","01636383","01636383",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"22721743","PMC3425770",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2400,"10.1111/bph.12081",TRUE,"Wiley-Blackwell","British Journal of Pharmacology","00071188",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"23194305","PMC3623057",NA,NA,FALSE
@@ -1049,7 +1049,7 @@
 "FWF - Austrian Science Fund",2013,792,"10.1088/1367-2630/15/8/085001",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630",NA,TRUE,NA,NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2013,3360,"10.1002/ange.201302327",TRUE,"Wiley-Blackwell","Angewandte Chemie","00448249",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2676.26,"10.1016/j.actamat.2013.01.014",TRUE,"Elsevier BV","Acta Materialia","13596454","13596454",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23555179","PMC3610543",NA,NA,FALSE
-"FWF - Austrian Science Fund",2013,2587.01,"10.1080/10426507.2012.743145",TRUE,"Informa UK Limited","Phosphorus, Sulfur, and Silicon and the Related Elements","1042-6507","1042-6507","1563-5325",NA,TRUE,NA,NA,NA,NA,FALSE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "FWF - Austrian Science Fund",2013,2058.62,"10.1021/jp309300b",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry B","1520-6106","1520-6106","1520-5207","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"23078105","PMC3557935",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2618,"10.1007/s10746-013-9269-x",TRUE,"Springer Science + Business Media","Human Studies","0163-8548","0163-8548","1572-851X",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2257.53,"10.1016/j.cpc.2011.12.021",TRUE,"Elsevier BV","Computer Physics Communications","00104655","00104655",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"22474397","PMC3279633",NA,NA,FALSE
@@ -1110,7 +1110,6 @@
 "FWF - Austrian Science Fund",2013,2640,"10.1007/s00265-013-1604-8",TRUE,"Springer Science + Business Media","Behavioral Ecology and Sociobiology","0340-5443","0340-5443","1432-0762",NA,TRUE,"24273373","PMC3827896",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2400,"10.1007/s00468-012-0826-0",TRUE,"Springer Science + Business Media","Trees","0931-1890","0931-1890","1432-2285",NA,TRUE,"23794789","PMC3688303",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,4460.43,"10.1016/j.cub.2013.06.066",TRUE,"Elsevier BV","Current Biology","09609822","09609822",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23973297","PMC3770902",NA,NA,FALSE
-"FWF - Austrian Science Fund",2013,990,"10.1002/mnfr.201200794",TRUE,"Wiley-Blackwell","Molecular Nutrition & Food Research","16134125",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"23650230","PMC3771820",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,2077.12,"10.1021/jm301648f",TRUE,"American Chemical Society (ACS)","Journal of Medicinal Chemistry","0022-2623","0022-2623","1520-4804","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"23282017","PMC3579476",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,1986.71,"10.1016/j.orgel.2012.11.016",TRUE,"Elsevier BV","Organic Electronics","15661199","15661199",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"23565069","PMC3608035",NA,NA,FALSE
 "FWF - Austrian Science Fund",2013,1546.03,"10.1128/EC.00182-12",TRUE,"American Society for Microbiology","Eukaryotic Cell","1535-9778","1535-9778","1535-9786",NA,TRUE,"23291620","PMC3629775",NA,NA,FALSE

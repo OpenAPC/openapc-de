@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -22,6 +22,7 @@ ARG_HELP_STRINGS = {
     "full_delete": "Fully delete the line, reducing the total number " +
                    "of rows in the result file. Otherwise, the line " +
                    "is replaced by a row of emtpy values. ",
+    "ignore_case": "Ignore case when comparing values",
     "results_file": "Write deleted entries to a separate " + 
                     "out file ('del.csv')",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
@@ -46,6 +47,7 @@ def main():
     parser.add_argument("-v", "--value", help=ARG_HELP_STRINGS["value"])
     parser.add_argument("-f", "--file", help=ARG_HELP_STRINGS["file"])
     parser.add_argument("-d", "--full_delete", action="store_true", help=ARG_HELP_STRINGS["full_delete"])
+    parser.add_argument("-i", "--ignore_case", action="store_true", help=ARG_HELP_STRINGS["ignore_case"])
     parser.add_argument("-r", "--results_file", action="store_true", help=ARG_HELP_STRINGS["results_file"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-q", "--quotemask", help=ARG_HELP_STRINGS["quotemask"])
@@ -61,16 +63,23 @@ def main():
     values = []
     if args.file:
         if not os.path.isfile(args.file):
-            print ("Error: '" + args.file + "' is no valid file!")
+            print("Error: '" + args.file + "' is no valid file!")
             sys.exit() 
         with open(args.file, "r") as f:
             for line in f:
                 if len(line) > 0:
-                    values.append(line.strip("\r\n"))
+                    value = line.strip("\r\n")
+                    if args.ignore_case:
+                        values.append(value.lower())
+                    else:
+                        values.append(value)
         oat.print_g(str(len(values)) + " values read from file")
     
     if args.value is not None:
-        values.append(args.value)
+        if args.ignore_case:
+            values.append(args.value.lower())
+        else:
+            values.append(args.value)
         if args.file:
             oat.print_y("Value argument given in addition to file " +
                         "argument, adding value to file imports...")
@@ -81,8 +90,8 @@ def main():
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
-            print ("Encoding '{}' found in Python's codec collection " +
-                   "as '{}'").format(args.encoding, codec.name)
+            msg = "Encoding '{}' found in Python's codec collection as '{}'"
+            print (msg.format(args.encoding, codec.name))
             enc = args.encoding
         except LookupError:
             print ("Error: '" + args.encoding + "' not found Python's " +
@@ -91,6 +100,8 @@ def main():
                    "encodings) or omit this argument to enable automated " +
                    "guessing.")
             sys.exit()
+            
+    header, content = oat.get_csv_file_content(args.csv_file, enc)
         
     mask = None
     if args.quotemask:
@@ -101,14 +112,12 @@ def main():
             sys.exit()
         mask = [True if x == "t" else False for x in args.quotemask]
     
-    header, content = oat.get_csv_file_content(args.csv_file, enc)
-    
-    emtpy_line = [u'' for element in content[0]]
+    empty_line = ['' for element in content[0]]
     column_name = "column " + str(args.index)
     if header:
         header_line = header[0]
         column_name = header_line[args.index]
-        emtpy_line = [u'' for element in header_line]
+        empty_line = ['' for element in header_line]
     msg = u"Performing line deletion on condition '{}' in {}".format(column_name, values)
     oat.print_g(msg)
     
@@ -119,17 +128,20 @@ def main():
         if len(line) == 0:
             continue
         num_total_lines += 1
-        if line[args.index] not in values:
+        current_value = line[args.index]
+        if args.ignore_case:
+            current_value = current_value.lower()
+        if current_value not in values:
             modified_content.append(line)
         else:
             num_deleted_lines += 1
             if not args.full_delete:
-                modified_content.append(list(emtpy_line))
+                modified_content.append(list(empty_line))
             if args.results_file:
                 deleted_lines.append(line)
             
-    msg = u"Process complete, deleted {} out of {} total lines".format(num_deleted_lines, num_total_lines)            
-    oat.print_g(msg)
+    msg = u"Process complete, deleted {} out of {} total lines"        
+    oat.print_g(msg.format(num_deleted_lines, num_total_lines))
     
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
