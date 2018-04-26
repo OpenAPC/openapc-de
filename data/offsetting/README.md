@@ -33,6 +33,7 @@ This dataset contains information on 19,413 articles, the following table shows 
 |King's College London                                                                 |      359|
 |Erasmus MC                                                                            |      352|
 |Leiden University                                                                     |      350|
+|FWF - Austrian Science Fund                                                           |      349|
 |Medical University of Vienna                                                          |      342|
 |Lund University                                                                       |      341|
 |University of Manchester                                                              |      339|
@@ -60,11 +61,9 @@ This dataset contains information on 19,413 articles, the following table shows 
 |Eindhoven University of Technology                                                    |      199|
 |University of Birmingham                                                              |      195|
 |University of Warwick                                                                 |      192|
-|FWF - Austrian Science Fund                                                           |      184|
 |Royal Institute of Technology                                                         |      179|
 |Cardiff University                                                                    |      178|
 |University of Vienna                                                                  |      176|
-|Austrian Science Fund (FWF)                                                           |      165|
 |University of Liverpool                                                               |      164|
 |Stockholm University                                                                  |      161|
 |Newcastle University                                                                  |      160|
