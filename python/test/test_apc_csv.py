@@ -97,7 +97,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1744-5647", # Journal of Maps, Gold OA since 09/2016
     "1445-5781", # Reproductive Medicine and Biology, Gold OA since 2017
     "2522-0144", # Research in the Mathematical Sciences, Hybrid since 2018
-    "1574-7891" # Molecular Oncology, Gold OA since 2/2017
+    "1574-7891", # Molecular Oncology, Gold OA since 2/2017
+    "1749-5016" # Social Cognitive and Affective Neuroscience, Gold OA since 2017
 ]
 
 class RowObject(object):
