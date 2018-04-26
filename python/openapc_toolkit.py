@@ -1089,7 +1089,8 @@ def get_unified_journal_title(journal_full_title):
         "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety",
         "Nanoscale Horiz.": "Nanoscale Horizons",
         "BeitrÃ¤ge zur Algebra und Geometrie / Contributions to Algebra and Geometry": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
-        "Energy Environ. Sci.": "Energy & Environmental Science"
+        "Energy Environ. Sci.": "Energy & Environmental Science",
+        "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
