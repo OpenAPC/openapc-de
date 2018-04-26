@@ -734,7 +734,7 @@ def process_row(row, row_num, column_map, num_required_columns,
             # special case for monetary values: Cast to float to ensure
             # the decimal point is a dot (instead of a comma)
             euro_value = row[csv_column.index]
-            if len(euro_value) == 0:
+            if not euro_value or euro_value == "NA":
                 msg = "Line %s: Empty monetary value in column %s."
                 logging.warning(msg, row_num, csv_column.index)
                 current_row[csv_column.column_type] = "NA"
