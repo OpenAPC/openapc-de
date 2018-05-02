@@ -70,7 +70,8 @@ JOURNAL_OWNER_CHANGED = {
     "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
     "0197-6729": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation
     "0094-8276": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters"
-    "8755-1209": ["Wiley-Blackwell", "American Geophysical Union (AGU)"] # Reviews of Geophysics
+    "8755-1209": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics
+    "0161-0457": ["Wiley-Blackwell", "Hindawi Publishing Corporation"] # Scanning
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -98,7 +99,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1445-5781", # Reproductive Medicine and Biology, Gold OA since 2017
     "2522-0144", # Research in the Mathematical Sciences, Hybrid since 2018
     "1574-7891", # Molecular Oncology, Gold OA since 2/2017
-    "1749-5016" # Social Cognitive and Affective Neuroscience, Gold OA since 2017
+    "1749-5016", # Social Cognitive and Affective Neuroscience, Gold OA since 2017
+    "0161-0457" # Scanning, Gold OA since 2017
 ]
 
 class RowObject(object):
