@@ -1,6 +1,6 @@
 Institution;Period;Euro;Publisher;Journal;ISSN;DOI;Spalte1;Spalte2;Spalte3;Spalte4;Spalte5
-KIT;2017;1750,17;American Association for the Advancement of Science ;Science Advances;2375-2548; 10.1126/sciadv.1701798;;;;;
-KIT;2017;2000,00;American Association for the Advancement of Science ;Science Advances;2375-2548;NA;;;;;
+KIT;2017;1750,17;American Association for the Advancement of Science ;Science Advances;2375-2548;10.1126/sciadv.1701798;;;;;
+KIT;2017;2000,00;American Association for the Advancement of Science ;Science Advances;2375-2548;10.1126/sciadv.1700232;;;;;
 KIT;2017;1520,70;American Chemical Society (ACS);ACS Omega;2470-1343;10.1021/acsomega.7b01442;;;;;
 KIT;2017;1366,61;American Institute of Physics (AIP) ;APL Photonics;2378-0967;10.1063/1.4985766 ;;;;;
 KIT;2017;2000,00;American Physical Society;Physical Review X;2160-3308;10.1103/PhysRevX.7.041060;;;;;
@@ -12,7 +12,7 @@ KIT;2017;1884,96;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/
 KIT;2017;1627,92;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-1207-2017;;;;;
 KIT;2017;1028,16;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-899-2017;;;;;
 KIT;2017;1627,92;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-11521-2017;;;;;
-KIT;2017;1370,88;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-11313-2017;;;;;
+KIT;2017;1370,88;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-11177-2017;;;;;
 KIT;2017;931,77;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-10733-2017;;;;;
 KIT;2017;1449,42;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-9223-2017;;;;;
 KIT;2017;1028,16;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-9535-2017;;;;;
@@ -31,7 +31,7 @@ KIT;2017;2000,00;Copernicus;Biogeosciences;1726-4189;10.5194/bg-14-4829-2017;;;;
 KIT;2017;1499,40;Copernicus;Earth System Dynamics;2190-4987;10.5194/esd-8-91-2017;;;;;
 KIT;2017;1970,64;Copernicus;Geoscientific Model Development;1991-9603;10.5194/gmd-10-1175-2017;;;;;
 KIT;2017;2000,00;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-21-1225-2017;;;;;
-KIT;2017;1542,24;Copernicus;Natural Hazards and Easth System Sciences;1684-9981;10.5194/nhess-17-1319-2017;;;;;
+KIT;2017;1542,24;Copernicus;Natural Hazards and Earth System Sciences;1684-9981;10.5194/nhess-17-1319-2017;;;;;
 KIT;2017;221,34;Copernicus ;Advances in Science and Research;1992-0636;10.5194/asr-14-157-2017;;;;;
 KIT;2017;1138,83;Copernicus ;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-7827-2017;;;;;
 KIT;2017;1760,01;Copernicus ;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-7635-2017;;;;;
@@ -64,7 +64,7 @@ KIT;2017;1962,04;Hindawi;Computational and Mathematical Methods in Medicine;1748
 KIT;2017;1962,59;Hindawi;Computational and Mathematical Methods in Medicine;1748-6718;10.1155/2017/9295029;;;;;
 KIT;2017;1668,55;Hindawi;Scanning;1932-8745;10.1155/2017/4907457;;;;;
 KIT;2017;226,10;"IACSS (deGruyter)";International Journal of Computer Science in Sport;1684-4769;10.1515/ijcss-2017-0009;;;;;
-KIT;2017;181,61;International Journal of Engineering Research and Development ;International Journal of Engineering Research and Development;2278-067X;NA;;;;;
+KIT;2017;181,61;International Journal of Engineering Research and Development ;International Journal of Engineering Research and Development;2278-067X;10.5445/IR/1000065256;;;;;
 KIT;2017;1856,40;IOP;Environmental Research Letters;1748-9326;10.1088/1748-9326/aa5fb0;;;;;
 KIT;2017;1862,99;IOP;Environmental Research Letters;1748-9326;10.1088/1748-9326/aa5f46;;;;;
 KIT;2017;1392,30;IOP;New Journal of Physics;1367-2630;10.1088/1367-2630/aa5e7f;;;;;
@@ -79,7 +79,6 @@ KIT;2017;1145,86;MDPI;Forests;1999-4907;10.3390/f8060181;;;;;
 KIT;2017;1441,88;MDPI;International Journal of Environmental Research and Public Health ; 1660-4601;10.3390/ijerph14111375;;;;;
 KIT;2017;959,27;MDPI;Materials;1996-1944;10.3390/ma11010049;;;;;
 KIT;2017;1241,39;MDPI;Polymers;2073-4360;10.3390/polym9100489;;;;;
-KIT;2017;1234,61;MDPI;Polymers;2073-4360;10.3390/polym9100489;;;;;
 KIT;2017;1542,09;MDPI;Remote sensing;2072-4292;10.3390/rs9030277;;;;;
 KIT;2017;693,53;MDPI;Remote Sensing;2072-4292;10.3390/rs10010002;;;;;
 KIT;2017;1318,11;MDPI;Sensors;1424-8220;10.3390/s17112529;;;;;
@@ -94,8 +93,8 @@ KIT;2017;1607,92;Public Library of Science;Plos One;1932-6203;10.1371/journal.po
 KIT;2017;1616,47;Public Library of Science;PLoS One;1932-6203;10.1371/journal.pone.0178430;;;;;
 KIT;2017;1519,82;Public Library of Science;PLOS ONE;1932-6203;10.1371/JOURNAL.PONE.0182779;;;;;
 KIT;2017;1281,44;Public Library of Science;Plos One;1932-6203;10.1371/journal.pone.0187535;;;;;
-KIT;2017;1801,35;Remedy Publications;Annals of Pharmacology and Pharmaceutics;2573-6051;NA;;;;;
-KIT;2017;665,41;Royal Society of Chemistry;RSC Advances;2046-2069; 10.1039/C7RA05385A;;;;;
+KIT;2017;1801,35;Remedy Publications;Annals of Pharmacology and Pharmaceutics;2573-6051;10.5445/IR/1000073679;;;;;
+KIT;2017;665,41;Royal Society of Chemistry;RSC Advances;2046-2069;10.1039/C7RA05385A;;;;;
 KIT;2017;674,69;Royal Society of Chemistry;RSC Advances;2046-2069;10.1039/C6RA26546D;;;;;
 KIT;2017;1449,00;Schweizerbart;Meteorologische Zeitschrift;1610-1227;10.1127/metz/2017/0819;;;;;
 KIT;2017;1330,00;Schweizerbart;Meteorologische Zeitschrift;1610-1227;10.1127/metz/2017/0828;;;;;
@@ -132,4 +131,4 @@ KIT;2017;1552,95;"SpringerNature";Scientific Reports;2045-2322;10.1038/s41598-01
 KIT;2017;940,10;Taylor & Francis;Advances in Physics X;2374-6149;10.1080/23746149.2017.1296372;;;;;
 KIT;2017;1713,60;WileyOpen;ChemistryOpen;2191-1363;10.1002/open.201600153;;;;;
 KIT;2017;1769,53;WileyOpen;GCB Bioenergy;1757-1707;10.1111/gcbb.12454;;;;;
-KIT;2017;1538,67;WileyOpen;Remote Sensing in Ecology and Conservation;2056-3485; 10.1002/rse2.68;;;;;
+KIT;2017;1538,67;WileyOpen;Remote Sensing in Ecology and Conservation;2056-3485;10.1002/rse2.68;;;;;
