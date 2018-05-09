@@ -160,6 +160,9 @@ ARG_HELP_STRINGS = {
                     "bottleneck. This option expects the CSV you can usually " +
                     "download at https://doaj.org/csv as argument. " +
                     "Obviously, this copy should be as up-to-date as possible.",
+    "offline_doaj_download": "Like -d, but will downloaded the needed csv file " +
+                             "automatically. Expects a file name which does not " +
+                             "exist already.",
     "start": "Do not process the whole file, but start from this line " +
              "number. May be used together with '-end' to select a specific " +
              "segment.",
@@ -183,6 +186,8 @@ def main():
                         help=ARG_HELP_STRINGS["bypass"])
     parser.add_argument("-d", "--offline_doaj",
                         help=ARG_HELP_STRINGS["offline_doaj"])
+    parser.add_argument("-D", "--offline_doaj_download",
+                        help=ARG_HELP_STRINGS["offline_doaj_download"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-f", "--force", action="store_true",
                         help=ARG_HELP_STRINGS["force"])
@@ -238,6 +243,10 @@ def main():
     logging.root.addHandler(handler)
     logging.root.addHandler(bufferedHandler)
     logging.root.setLevel(logging.INFO)
+    
+    if args.offline_doaj and args.offline_doaj_download:
+        oat.print_r("Error: Either use the -d or the -D option, not both.")
+        sys.exit()
 
     if args.locale:
         norm = locale.normalize(args.locale)
@@ -304,6 +313,11 @@ def main():
             oat.print_r("Error: " + args.offline_doaj + " does not seem "
                         "to be a file!")
             sys.exit()
+    elif args.offline_doaj_download:
+        if os.path.isfile(args.offline_doaj_download):
+            oat.print_r("Error: Target file '" + args.offline_doaj_download + "' already exists!")
+            sys.exit()
+        doaj_offline_analysis = oat.DOAJOfflineAnalysis(args.offline_doaj_download, download=True)
 
     csv_file = open(args.csv_file, "r", encoding=enc)
     reader = csv.reader(csv_file, dialect=dialect)
