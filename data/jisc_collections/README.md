@@ -93,6 +93,8 @@ This is the final file as it was added to the OpenAPC core data. The following s
     
 3. Some articles were reported as not having been paid for in APCs (They were published using alternative models of clearing, like the RSC "Gold 4 Gold" voucher system). Those entries were [removed](https://github.com/OpenAPC/openapc-de/commit/40220582) in accordance with the [OpenAPC cost definition](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout#definition-of-costs).
 
+4. Articles with unusually high APCs were reviewed, erroneous entries were either [fixed or removed](https://github.com/OpenAPC/openapc-de/commit/a5910267).
+
 #### Statistics
 
 The processing reduced the net increase in articles to OpenAPC by a large margin. The following table gives an overview on how many articles were removed for what reason.
