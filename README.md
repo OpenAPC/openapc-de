@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 50,842 open access journal articles, amounting to € 96,626,937 and contributed by 158 institutions.
+At the moment this project provides cost data on 50,864 open access journal articles, amounting to € 96,656,179 and contributed by 158 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -230,9 +230,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 50,842 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 158 research performing institutions and research funders. 
+This dataset contains information on 50,864 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 158 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 96,626,937. The average payment was € 1,901  and the median was € 1,700.
+In total, publication fee spending covered by the Open APC initiative amounted to € 96,656,179. The average payment was € 1,900  and the median was € 1,699.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -246,7 +246,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-29,696 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 43,966,524, including value-added tax; the average payment was € 1,481 (median =  € 1,407, SD = € 709).
+29,718 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 43,995,766, including value-added tax; the average payment was € 1,480 (median =  € 1,407, SD = € 709).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -341,6 +341,7 @@ The following table summarises institutional spending on articles published in f
 |University of Durham                                            |       50|                95,365|   1,907 (998)|  1,719|      225 -  5,219|
 |University of Leicester                                         |       50|                82,629|   1,653 (685)|  1,652|      418 -  4,765|
 |Hamburg TUHH                                                    |       46|                65,468|   1,423 (483)|  1,533|      300 -  2,225|
+|TU Wien                                                         |       45|                61,645|   1,370 (496)|  1,323|      240 -  2,288|
 |LSHTM                                                           |       44|                75,734| 1,721 (1,655)|  1,529|      496 - 11,900|
 |UFZ                                                             |       40|                42,186|   1,055 (404)|    979|      232 -  2,291|
 |Dortmund TU                                                     |       38|                39,184|   1,031 (901)|    962|      144 -  4,403|
@@ -355,7 +356,6 @@ The following table summarises institutional spending on articles published in f
 |TU Ilmenau                                                      |       26|                31,545|   1,213 (590)|  1,408|      178 -  2,077|
 |University of Aberdeen                                          |       26|                48,895|   1,881 (695)|  1,787|      985 -  4,556|
 |Aston University                                                |       24|                47,259|   1,969 (896)|  1,654|    1,324 -  4,845|
-|TU Wien                                                         |       23|                32,403|   1,409 (421)|  1,323|      768 -  2,192|
 |Northumbria University                                          |       21|                31,037|   1,478 (436)|  1,380|      682 -  2,369|
 |Bangor University                                               |       20|                46,857| 2,343 (2,940)|  1,638|      429 - 14,507|
 |Institute of Cancer Research                                    |       20|                43,133| 2,157 (1,106)|  1,673|    1,205 -  5,118|
@@ -543,9 +543,9 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.7%       |
-|PubMed ID                  |  76.71%      |
-|PubMed Central ID          |  70.35%     |
+|DOI                        |  99.71%       |
+|PubMed ID                  |  76.7%      |
+|PubMed Central ID          |  70.34%     |
 |Web of Science record ID   | 92.79%      |
 
 
