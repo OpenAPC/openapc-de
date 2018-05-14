@@ -9,7 +9,7 @@ import logging
 from logging.handlers import MemoryHandler
 import re
 import sys
-from urllib.request import build_opener, urlopen, HTTPErrorProcessor, Request
+from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
 from urllib.error import HTTPError, URLError
 import xml.etree.ElementTree as ET
 
@@ -124,9 +124,12 @@ class OpenAPCUnicodeWriter(object):
 
 class DOAJOfflineAnalysis(object):
 
-    def __init__(self, doaj_csv_file):
+    def __init__(self, doaj_csv_file, download=False):
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
+        
+        if download:
+            doaj_csv_file = self.download_doaj_csv(doaj_csv_file)
 
         handle = open(doaj_csv_file, "r")
         reader = csv.DictReader(handle)
@@ -145,6 +148,10 @@ class DOAJOfflineAnalysis(object):
         elif any_issn in self.doaj_eissn_map:
             return self.doaj_eissn_map[any_issn]
         return None
+        
+    def download_doaj_csv(self, filename):
+        result = urlretrieve("https://doaj.org/csv", filename)
+        return result[0]
 
 class CSVAnalysisResult(object):
 
@@ -734,7 +741,7 @@ def process_row(row, row_num, column_map, num_required_columns,
             # special case for monetary values: Cast to float to ensure
             # the decimal point is a dot (instead of a comma)
             euro_value = row[csv_column.index]
-            if len(euro_value) == 0:
+            if not euro_value or euro_value == "NA":
                 msg = "Line %s: Empty monetary value in column %s."
                 logging.warning(msg, row_num, csv_column.index)
                 current_row[csv_column.column_type] = "NA"
@@ -1089,7 +1096,8 @@ def get_unified_journal_title(journal_full_title):
         "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety",
         "Nanoscale Horiz.": "Nanoscale Horizons",
         "BeitrÃ¤ge zur Algebra und Geometrie / Contributions to Algebra and Geometry": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
-        "Energy Environ. Sci.": "Energy & Environmental Science"
+        "Energy Environ. Sci.": "Energy & Environmental Science",
+        "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
