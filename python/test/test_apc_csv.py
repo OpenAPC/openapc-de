@@ -71,7 +71,11 @@ JOURNAL_OWNER_CHANGED = {
     "0197-6729": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation
     "0094-8276": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters"
     "8755-1209": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics
-    "0161-0457": ["Wiley-Blackwell", "Hindawi Publishing Corporation"] # Scanning
+    "0161-0457": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Scanning
+    "2169-9380": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics
+    "1542-7390": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Space Weather
+    "2169-897X": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Atmospheres
+    "1525-2027": ["Wiley-Blackwell", "American Geophysical Union (AGU)"] # Geochemistry, Geophysics, Geosystems
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs

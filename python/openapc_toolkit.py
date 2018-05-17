@@ -1097,7 +1097,9 @@ def get_unified_journal_title(journal_full_title):
         "Nanoscale Horiz.": "Nanoscale Horizons",
         "BeitrÃ¤ge zur Algebra und Geometrie / Contributions to Algebra and Geometry": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
         "Energy Environ. Sci.": "Energy & Environmental Science",
-        "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung"
+        "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung",
+        "Mol. BioSyst.": "Molecular BioSystems",
+        "Physics in Medicine & Biology": "Physics in Medicine and Biology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
