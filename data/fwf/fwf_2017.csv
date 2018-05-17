@@ -648,8 +648,8 @@ FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s10703-017-0276-9;TRUE;SPRING
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s10703-017-0283-x;TRUE;SPRINGER NATURE;Formal Methods in System Design;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s10703-017-0295-6;TRUE;SPRINGER NATURE;Formal Methods in System Design;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s10703-017-0297-4;TRUE;SPRINGER NATURE;Formal Methods in System Design;;
-FWF - Austrian Science Fund;2017;2.345,10 ;10.1016/J.FREERADLife Sciences.2016.11.049;TRUE;ELSEVIER;Free Radical Biology and Medicine;;
-FWF - Austrian Science Fund;2017;3.014,12 ;10.1016/j.freeradLife Sciences.2016.12.034;TRUE;ELSEVIER;Free Radical Biology and Medicine;;
+FWF - Austrian Science Fund;2017;2.345,10 ;10.1016/J.FREERADbiomed.2016.11.049;TRUE;ELSEVIER;Free Radical Biology and Medicine;;
+FWF - Austrian Science Fund;2017;3.014,12 ;10.1016/j.freeradbiomed.2016.12.034;TRUE;ELSEVIER;Free Radical Biology and Medicine;;
 FWF - Austrian Science Fund;2017;3.240,07 ;10.1111/FWB.12828;TRUE;WILEY-BLACKWELL;Freshwater Biology;;
 FWF - Austrian Science Fund;2017;2.691,18 ;10.1053/j.gastro.2017.03.053;TRUE;ELSEVIER;Gastroenterology;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/S13137-016-0091-2;TRUE;SPRINGER NATURE;GEM - International Journal on Geomathematics;;
@@ -791,7 +791,7 @@ FWF - Austrian Science Fund;2017;2.164,70 ;10.1016/J.CAM.2016.08.043;TRUE;ELSEVI
 FWF - Austrian Science Fund;2017;5.278,90 ;10.1089/cmb.2016.0096;TRUE;MARY ANN LIEBERT;Journal of Computational Biology;;
 FWF - Austrian Science Fund;2017;2.152,94 ;10.1016/j.jcss.2017.02.002;TRUE;ELSEVIER;Journal of Computer and System Sciences;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s10822-017-0021-x;TRUE;SPRINGER NATURE;Journal of Computer-Aided Molecular Design;;
-FWF - Austrian Science Fund;2017;2.640,00 ;10.1007/s10822-013-9635;TRUE;SPRINGER NATURE;Journal of Computer-Aided Molecular Design;;
+FWF - Austrian Science Fund;2017;2.640,00 ;10.1007/s10822-013-9635-9;TRUE;SPRINGER NATURE;Journal of Computer-Aided Molecular Design;;
 FWF - Austrian Science Fund;2017;1.937,65 ;10.1016/j.joep.2017.06.005;TRUE;ELSEVIER;Journal of Economic Psychology;;
 FWF - Austrian Science Fund;2017;1.806,00 ;10.1080/17457289.2017.1310111;TRUE;TAYLOR & FRANCIS;Journal of Elections, Public Opinion and Parties;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s10832-017-0081-2;TRUE;SPRINGER NATURE;Journal of Electroceramics;;
@@ -882,7 +882,7 @@ FWF - Austrian Science Fund;2017;1.368,80 ;10.1107/S1600577516017057;TRUE;WILEY-
 FWF - Austrian Science Fund;2017;1.806,00 ;10.1080/14772019.2017.1354090;TRUE;TAYLOR & FRANCIS;Journal of Systematic Palaeontology;;
 FWF - Austrian Science Fund;2017;1.806,00 ;10.1080/14772019.2017.1330772;TRUE;TAYLOR & FRANCIS;Journal of Systematic Palaeontology;;
 FWF - Austrian Science Fund;2017;3.759,49 ;10.1121/1.4965965;TRUE;ACOUSTICAL SOCIETY OF AMERICA;Journal of the Acoustical Society of America;;
-FWF - Austrian Science Fund;2017;1.559,98 ;10.1021/jacs.7b06935a;TRUE;AMERICAN CHEMICAL SOCIETY (ACS);Journal of the American Chemical Society;;
+FWF - Austrian Science Fund;2017;1.559,98 ;10.1021/jacs.7b06935;TRUE;AMERICAN CHEMICAL SOCIETY (ACS);Journal of the American Chemical Society;;
 FWF - Austrian Science Fund;2017;3.119,95 ;10.1021/jacs.7b05880;TRUE;AMERICAN CHEMICAL SOCIETY (ACS);Journal of the American Chemical Society;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s13361-017-1634-y;TRUE;SPRINGER NATURE;Journal of the American Society for Mass Spectrometry;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s40881-017-0041-2;TRUE;SPRINGER NATURE;Journal of the Economic Science Association;;
@@ -943,7 +943,7 @@ FWF - Austrian Science Fund;2017;915,64 ;10.1175/MWR-D-16-0260.1;TRUE;AMERICAN M
 FWF - Austrian Science Fund;2017;1.806,00 ;10.1080/00275514.2017.1397476;TRUE;TAYLOR & FRANCIS;Mycologia;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s11557-017-1329-6;TRUE;SPRINGER NATURE;Mycological Progress;;
 FWF - Austrian Science Fund;2017;1.912,73 ;10.1007/s11046-017-0175-z;TRUE;SPRINGER NATURE;Mycopathologia;;
-FWF - Austrian Science Fund;2017;900,00 ;https://myrmecologicalnews.org/cms/index.php?option=com_content&view=category&id=1491&Itemid=407;TRUE;ÖSTERREICHISCHE GESELLSCHAFT FÜR ENTOMOFAUNISTIK ;Myrmecological News;;
+FWF - Austrian Science Fund;2017;900,00 ;NA;TRUE;ÖSTERREICHISCHE GESELLSCHAFT FÜR ENTOMOFAUNISTIK ;Myrmecological News;;https://myrmecologicalnews.org/cms/index.php?option=com_content&view=category&id=1491&Itemid=407
 FWF - Austrian Science Fund;2017;1.559,98 ;10.1021/acs.nanolett.7b00777;TRUE;AMERICAN CHEMICAL SOCIETY (ACS);Nano Letters;;
 FWF - Austrian Science Fund;2017;3.108,54 ;10.1021/acs.nanolett.7b01637;TRUE;AMERICAN CHEMICAL SOCIETY (ACS);Nano Letters;;
 FWF - Austrian Science Fund;2017;3.119,95 ;10.1021/acs.nanolett.7b00425;TRUE;AMERICAN CHEMICAL SOCIETY (ACS);Nano Letters;;
