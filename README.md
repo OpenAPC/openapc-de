@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 50,863 open access journal articles, amounting to € 96,553,902 and contributed by 158 institutions.
+At the moment this project provides cost data on 51,820 open access journal articles, amounting to € 98,797,306 and contributed by 158 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -230,9 +230,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 50,863 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 158 research performing institutions and research funders. 
+This dataset contains information on 51,820 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 158 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 96,553,902. The average payment was € 1,898  and the median was € 1,699.
+In total, publication fee spending covered by the Open APC initiative amounted to € 98,797,306. The average payment was € 1,907  and the median was € 1,712.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -246,7 +246,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-29,718 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 43,955,077, including value-added tax; the average payment was € 1,479 (median =  € 1,407, SD = € 695).
+30,087 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 44,701,120, including value-added tax; the average payment was € 1,486 (median =  € 1,412, SD = € 700).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -256,7 +256,7 @@ The following table summarises institutional spending on articles published in f
 |:---------------------------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |MPG                                                             |    3,675|             4,987,866|   1,357 (508)|  1,207|        69 - 7,419|
 |UCL                                                             |    1,645|             2,697,774|   1,640 (885)|  1,534|        88 - 5,721|
-|FWF - Austrian Science Fund                                     |    1,017|             1,542,862|   1,517 (741)|  1,398|       100 - 5,405|
+|FWF - Austrian Science Fund                                     |    1,389|             2,294,176|   1,652 (799)|  1,495|       100 - 5,412|
 |Wellcome Trust                                                  |    1,015|             1,782,368|   1,756 (819)|  1,604|       240 - 5,486|
 |University of Calgary                                           |      884|               993,823|   1,124 (448)|  1,145|        50 - 4,632|
 |TU Muenchen                                                     |      858|             1,147,525|   1,337 (468)|  1,462|       106 - 2,122|
@@ -283,11 +283,11 @@ The following table summarises institutional spending on articles published in f
 |Münster U                                                       |      382|               468,717|   1,227 (452)|  1,200|       168 - 2,380|
 |Konstanz U                                                      |      345|               524,743|   1,521 (513)|  1,506|        40 - 4,403|
 |Swedish University of Agricultural Sciences                     |      343|               449,661|   1,311 (418)|  1,326|       124 - 2,765|
-|JGU Mainz                                                       |      319|               457,252|   1,433 (502)|  1,457|        95 - 2,699|
+|JGU Mainz                                                       |      318|               456,141|   1,434 (502)|  1,458|        95 - 2,699|
 |FU Berlin                                                       |      294|               413,858|   1,408 (485)|  1,506|       150 - 2,142|
 |Leibniz-Fonds                                                   |      274|               439,562|   1,604 (604)|  1,570|        66 - 4,403|
 |University of Liverpool                                         |      262|               445,007|   1,699 (712)|  1,693|       223 - 5,382|
-|University of Manchester                                        |      247|               481,564|   1,950 (981)|  1,672|       431 - 4,888|
+|University of Manchester                                        |      246|               479,435|   1,949 (983)|  1,666|       431 - 4,888|
 |Swiss National Science Foundation (SNSF)                        |      244|               395,297|   1,620 (902)|  1,361|       227 - 5,000|
 |Duisburg-Essen U                                                |      236|               322,744|   1,368 (518)|  1,277|       238 - 3,700|
 |University of Oslo                                              |      218|               339,354|   1,557 (541)|  1,522|        70 - 3,522|
@@ -319,7 +319,7 @@ The following table summarises institutional spending on articles published in f
 |KTH Royal Institute of Technology                               |      106|               129,263|   1,219 (806)|  1,072|       185 - 2,570|
 |University of York                                              |      102|               176,418|   1,730 (917)|  1,530|       221 - 5,208|
 |Linköping University                                            |       99|               155,146|   1,567 (723)|  1,355|       372 - 4,440|
-|University of St Andrews                                        |       98|               171,540| 1,750 (1,025)|  1,514|       329 - 5,392|
+|University of St Andrews                                        |       97|               169,509| 1,748 (1,030)|  1,509|       329 - 5,392|
 |Stockholm University                                            |       95|               144,255|   1,518 (646)|  1,399|       313 - 3,700|
 |Harvard U                                                       |       94|                82,722|     880 (539)|    796|        75 - 3,139|
 |MDC                                                             |       93|               188,106| 2,023 (1,121)|  1,800|       224 - 4,662|
@@ -417,20 +417,20 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,145 open access articles being published in hybrid journals. Total expenditure amounts to  52,598,824 €. Average  fee is 2,488 € and the median 2,443 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,733 open access articles being published in hybrid journals. Total expenditure amounts to  54,096,186 €. Average  fee is 2,489 € and the median 2,446 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                 | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:-------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|FWF - Austrian Science Fund                 |    3,188|             7,778,679|   2,440 (778)|  2,599|       120 - 6,240|
+|FWF - Austrian Science Fund                 |    3,775|             9,277,292|   2,458 (813)|  2,599|       120 - 6,601|
 |UCL                                         |    2,882|             6,375,210|   2,212 (896)|  1,999|       267 - 5,682|
 |Wellcome Trust                              |    2,767|             7,117,449|   2,572 (893)|  2,565|       230 - 6,036|
 |University of Cambridge                     |    1,517|             4,237,627| 2,793 (1,037)|  2,683|       127 - 6,334|
 |University of Oxford                        |    1,057|             3,163,650| 2,993 (1,211)|  2,746|       224 - 9,070|
 |Imperial College London                     |      870|             2,345,319|   2,696 (896)|  2,648|       260 - 6,511|
-|University of Manchester                    |      835|             2,036,225|   2,439 (946)|  2,381|       169 - 7,133|
+|University of Manchester                    |      836|             2,038,355|   2,438 (946)|  2,376|       169 - 7,133|
 |University of Birmingham                    |      571|             1,401,746|   2,455 (908)|  2,480|       279 - 6,849|
 |University of Bristol                       |      557|             1,344,586|   2,414 (878)|  2,275|       289 - 5,663|
 |King's College London                       |      547|             1,479,691| 2,705 (1,012)|  2,640|       310 - 7,438|
@@ -451,7 +451,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of Southampton                   |      138|               346,317|   2,510 (758)|  2,544|       293 - 4,585|
 |University of Nottingham                    |      133|               343,025|   2,579 (912)|  2,626|       419 - 5,806|
 |Queen Mary, University of London            |      130|               296,514| 2,281 (1,233)|  2,024|       217 - 9,079|
-|University of St Andrews                    |      124|               281,429|   2,270 (870)|  2,159|       240 - 5,271|
+|University of St Andrews                    |      125|               283,460|   2,268 (866)|  2,152|       240 - 5,271|
 |Swansea University                          |      110|               273,581|   2,487 (793)|  2,576|       890 - 5,267|
 |University of Leicester                     |      110|               277,033| 2,518 (1,042)|  2,326|       685 - 5,414|
 |University of Gothenburg                    |      105|               258,773|   2,465 (807)|  2,750|       246 - 4,463|
@@ -505,10 +505,10 @@ The following institutions have contributed expenditures on hybrid open access j
 |Goldsmiths                                  |        4|                12,154|   3,039 (826)|  3,100|     1,969 - 3,985|
 |Hannover U                                  |        4|                 5,824|   1,456 (180)|  1,398|     1,323 - 1,704|
 |HZDR                                        |        3|                 5,405|   1,802 (746)|  1,755|     1,080 - 2,570|
-|IST Austria                                 |        3|                11,911| 3,970 (1,267)|  3,468|     3,031 - 5,412|
 |Konstanz U                                  |        3|                 5,556|   1,852 (525)|  1,950|     1,285 - 2,320|
 |TU Clausthal                                |        3|                 7,082|   2,361 (349)|  2,500|     1,964 - 2,618|
 |GenØk - Centre for Biosafety                |        2|                 3,650|   1,825 (371)|  1,825|     1,563 - 2,087|
+|IST Austria                                 |        2|                 6,499|   3,249 (310)|  3,249|     3,031 - 3,468|
 |Bergen University College                   |        1|                   503|     503 (  0)|    503|       503 -   503|
 |Dortmund TU                                 |        1|                 1,581|   1,581 (  0)|  1,581|     1,581 - 1,581|
 |Erlangen Nuernberg U                        |        1|                 1,638|   1,638 (  0)|  1,638|     1,638 - 1,638|
@@ -544,9 +544,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.71%       |
-|PubMed ID                  |  76.7%      |
-|PubMed Central ID          |  70.34%     |
-|Web of Science record ID   | 92.79%      |
+|PubMed ID                  |  76.69%      |
+|PubMed Central ID          |  70.25%     |
+|Web of Science record ID   | 92.84%      |
 
 
 
