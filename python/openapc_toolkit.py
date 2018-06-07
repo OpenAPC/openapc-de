@@ -1100,7 +1100,8 @@ def get_unified_journal_title(journal_full_title):
         "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung",
         "Mol. BioSyst.": "Molecular BioSystems",
         "Physics in Medicine & Biology": "Physics in Medicine and Biology",
-        "Anal. Methods": "Analytical Methods"
+        "Anal. Methods": "Analytical Methods",
+        "The American Journal of Clinical Nutrition": "American Journal of Clinical Nutrition"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
