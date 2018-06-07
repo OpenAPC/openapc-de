@@ -1099,7 +1099,8 @@ def get_unified_journal_title(journal_full_title):
         "Energy Environ. Sci.": "Energy & Environmental Science",
         "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung",
         "Mol. BioSyst.": "Molecular BioSystems",
-        "Physics in Medicine & Biology": "Physics in Medicine and Biology"
+        "Physics in Medicine & Biology": "Physics in Medicine and Biology",
+        "Anal. Methods": "Analytical Methods"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
