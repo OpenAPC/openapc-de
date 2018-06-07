@@ -28,7 +28,7 @@
 "INRIA",2015,960,"10.3389/fnsys.2015.00041",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137","1662-5137",NA,TRUE,"25852499","PMC4364175","ut:000363675100001",NA,TRUE
 "INRIA",2015,960,"10.3389/fnsys.2015.00087",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137","1662-5137",NA,TRUE,"26097448","PMC4456570","ut:000363838300001",NA,TRUE
 "INRIA",2015,947.5,"10.1186/s13408-015-0023-8",FALSE,"Springer Nature","The Journal of Mathematical Neuroscience","2190-8567",NA,"2190-8567","2190-8567",NA,TRUE,"26055523","PMC4449351","ut:000366608300001",NA,TRUE
-"INRIA",2015,846,"10.1016/j.visres.2015.10.009",FALSE,"Elsevier BV","Vision Research","0042-6989","0042-6989",NA,"0042-6989","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"26518743",NA,"ut:000365557900010",NA,FALSE
+"INRIA",2015,846,"10.1016/j.visres.2015.10.009",TRUE,"Elsevier BV","Vision Research","0042-6989","0042-6989",NA,"0042-6989","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"26518743",NA,"ut:000365557900010",NA,FALSE
 "INRIA",2015,769,"10.1186/s13174-015-0031-7",FALSE,"Springer Nature","Journal of Internet Services and Applications","1867-4828","1867-4828","1869-0238","1867-4828",NA,TRUE,NA,NA,"ut:000366797300001",NA,TRUE
 "INRIA",2015,714,"10.1186/s13174-015-0027-3",FALSE,"Springer Nature","Journal of Internet Services and Applications","1867-4828","1867-4828","1869-0238","1867-4828",NA,TRUE,NA,NA,"ut:000366761500001",NA,TRUE
 "INRIA",2015,605,"10.1186/s13638-014-0239-4",FALSE,"Springer Nature","EURASIP Journal on Wireless Communications and Networking","1687-1499",NA,"1687-1499","1687-1472","http://creativecommons.org/licenses/by/2.0",TRUE,NA,NA,"ut:000349222100001",NA,TRUE
