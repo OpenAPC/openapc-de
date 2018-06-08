@@ -183,6 +183,21 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - University of Gothenburg
 - Uppsala University
 
+## Institutions from France
+
+The [Couperin consortium](https://couperin.org) aggregates data on APC expenditures made by institutions in France:
+
+- Aix-Marseille Université
+- Université de Bourgogne
+- Hospices Civils de Lyon
+- Institut national de recherche en informatique et en automatique (INRIA)
+- Institut national de la santé et de la recherche médicale (INSERM)
+- Université Lille 1
+- Université Lille 2
+- Université de Rennes 1
+- Université de Toulon
+- Université Pierre et Marie Curie (Paris VI)
+
 ## Participating Institutions from the United Kingdom:
 
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
@@ -406,7 +421,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 

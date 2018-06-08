@@ -75,7 +75,9 @@ JOURNAL_OWNER_CHANGED = {
     "2169-9380": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics
     "1542-7390": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Space Weather
     "2169-897X": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Atmospheres
-    "1525-2027": ["Wiley-Blackwell", "American Geophysical Union (AGU)"] # Geochemistry, Geophysics, Geosystems
+    "1525-2027": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Geochemistry, Geophysics, Geosystems
+    "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
+    "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"] # American Journal of Clinical Nutrition (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
