@@ -962,7 +962,8 @@ def get_unified_publisher_name(publisher):
         "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
         "Hindawi Limited": "Hindawi Publishing Corporation",
         "Oxford University Press": "Oxford University Press (OUP)",
-        "Wiley": "Wiley-Blackwell"
+        "Wiley": "Wiley-Blackwell",
+        "Bioscientifica": "BioScientifica"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -1101,7 +1102,9 @@ def get_unified_journal_title(journal_full_title):
         "Mol. BioSyst.": "Molecular BioSystems",
         "Physics in Medicine & Biology": "Physics in Medicine and Biology",
         "Anal. Methods": "Analytical Methods",
-        "The American Journal of Clinical Nutrition": "American Journal of Clinical Nutrition"
+        "The American Journal of Clinical Nutrition": "American Journal of Clinical Nutrition",
+        "International Journal of Clinical and Experimental Pathology ": "International Journal of Clinical and Experimental Pathology"
+        
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
@@ -1109,7 +1112,8 @@ def get_corrected_issn_l(issn_l):
     issn_l_corrections = {
         "0266-7061": "1367-4803", # "Bioinformatics". 1460-2059(issn_e) -> 0266-7061, but 1367-4803(issn_p) -> 1367-4803
         "1654-6628": "1654-661X",  # "Food & Nutrition Research". 1654-6628(issn_p) -> 1654-6628, but 1654-661X(issn_e) -> 1654-661X
-        "1474-7596": "1465-6906" # "Genome Biology".  1465-6906(issn_p) -> 1465-6906, but 1474-760X(issn_e) -> 1474-7596
+        "1474-7596": "1465-6906", # "Genome Biology".  1465-6906(issn_p) -> 1465-6906, but 1474-760X(issn_e) -> 1474-7596
+        "0959-8138": "1756-1833" # BMJ. The BMJ has a bunch of ISSNs assigend, but the ISSN-L mappings are all fixed points. Unknown if this is intended. 
     }
     return issn_l_corrections.get(issn_l, issn_l)
 
