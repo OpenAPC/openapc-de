@@ -249,7 +249,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-30,472 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 45,290,911, including value-added tax; the average payment was € 1,486 (median =  € 1,415, SD = € 699).
+30,469 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 45,281,286, including value-added tax; the average payment was € 1,486 (median =  € 1,415, SD = € 699).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -272,7 +272,7 @@ The following table summarises institutional spending on articles published in f
 |Tuebingen U                                                     |      594|               814,355|   1,371 (423)|  1,386|        75 - 2,662|
 |Imperial College London                                         |      572|             1,064,200|   1,860 (993)|  1,595|       269 - 5,439|
 |Wuerzburg U                                                     |      562|               749,032|   1,333 (417)|  1,309|       105 - 2,514|
-|OpenAIRE                                                        |      538|               780,991|   1,452 (423)|  1,413|       209 - 2,086|
+|OpenAIRE                                                        |      537|               778,991|   1,451 (423)|  1,413|       209 - 2,086|
 |University of Cambridge                                         |      526|             1,143,562| 2,174 (1,174)|  1,807|       154 - 5,528|
 |Universitat de Barcelona                                        |      465|               443,659|     954 (473)|    897|        55 - 2,000|
 |University of Oxford                                            |      448|               965,918| 2,156 (1,152)|  1,901|       220 - 5,661|
@@ -297,9 +297,9 @@ The following table summarises institutional spending on articles published in f
 |University of Oslo                                              |      218|               339,354|   1,557 (541)|  1,522|        70 - 3,522|
 |Stuttgart U                                                     |      210|               254,329|   1,211 (611)|  1,261|        91 - 3,320|
 |Bochum U                                                        |      204|               304,382|   1,492 (405)|  1,562|       100 - 2,648|
-|University of Bristol                                           |      198|               342,569|   1,730 (867)|  1,607|       131 - 5,520|
 |King's College London                                           |      197|               398,725| 2,024 (1,077)|  1,588|       421 - 5,599|
-|University of Gothenburg                                        |      193|               295,543|   1,531 (606)|  1,406|       223 - 4,440|
+|University of Bristol                                           |      197|               338,408|   1,718 (851)|  1,601|       131 - 5,520|
+|University of Gothenburg                                        |      192|               292,079|   1,521 (591)|  1,406|       223 - 4,440|
 |Ulm U                                                           |      191|               294,038|   1,539 (539)|  1,541|       260 - 5,284|
 |University of Tromsø - The Arctic University of Norway          |      179|               252,462|   1,410 (415)|  1,523|       496 - 2,404|
 |Oldenburg U                                                     |      177|               215,062|   1,215 (495)|  1,361|        63 - 2,002|
@@ -423,7 +423,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,738 open access articles being published in hybrid journals. Total expenditure amounts to  54,107,704 €. Average  fee is 2,489 € and the median 2,446 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,741 open access articles being published in hybrid journals. Total expenditure amounts to  54,117,329 €. Average  fee is 2,489 € and the median 2,446 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -438,7 +438,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Imperial College London                     |      870|             2,345,319|   2,696 (896)|  2,648|       260 - 6,511|
 |University of Manchester                    |      836|             2,038,355|   2,438 (946)|  2,376|       169 - 7,133|
 |University of Birmingham                    |      571|             1,401,746|   2,455 (908)|  2,480|       279 - 6,849|
-|University of Bristol                       |      557|             1,344,586|   2,414 (878)|  2,275|       289 - 5,663|
+|University of Bristol                       |      558|             1,348,747|   2,417 (880)|  2,275|       289 - 5,663|
 |King's College London                       |      548|             1,482,684| 2,706 (1,011)|  2,641|       310 - 7,438|
 |Cardiff University                          |      522|             1,302,192|   2,495 (798)|  2,555|       275 - 5,452|
 |University of Glasgow                       |      448|             1,120,600|   2,501 (976)|  2,467|       187 - 6,146|
@@ -460,7 +460,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of St Andrews                    |      125|               283,460|   2,268 (866)|  2,152|       240 - 5,271|
 |Swansea University                          |      110|               273,581|   2,487 (793)|  2,576|       890 - 5,267|
 |University of Leicester                     |      110|               277,033| 2,518 (1,042)|  2,326|       685 - 5,414|
-|University of Gothenburg                    |      105|               258,773|   2,465 (807)|  2,750|       246 - 4,463|
+|University of Gothenburg                    |      106|               262,238|   2,474 (809)|  2,755|       246 - 4,463|
 |University of Exeter                        |      101|               269,157|   2,665 (804)|  2,669|       337 - 4,639|
 |University of Sussex                        |       97|               236,396|   2,437 (895)|  2,335|       331 - 5,188|
 |Lancaster University                        |       88|               200,823|   2,282 (947)|  2,221|       337 - 4,681|
@@ -521,6 +521,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |FU Berlin                                   |        1|                 1,500|   1,500 (  0)|  1,500|     1,500 - 1,500|
 |JGU Mainz                                   |        1|                 1,792|   1,792 (  0)|  1,792|     1,792 - 1,792|
 |KIT                                         |        1|                 2,000|   2,000 (  0)|  2,000|     2,000 - 2,000|
+|OpenAIRE                                    |        1|                 2,000|   2,000 (  0)|  2,000|     2,000 - 2,000|
 |TU Chemnitz                                 |        1|                   100|     100 (  0)|    100|       100 -   100|
 
 
