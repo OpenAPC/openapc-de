@@ -249,7 +249,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-30,469 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 45,281,286, including value-added tax; the average payment was € 1,486 (median =  € 1,415, SD = € 699).
+30,471 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 45,281,658, including value-added tax; the average payment was € 1,486 (median =  € 1,415, SD = € 699).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -270,7 +270,7 @@ The following table summarises institutional spending on articles published in f
 |Heidelberg U                                                    |      617|               913,967|   1,481 (384)|  1,606|        60 - 2,108|
 |Regensburg U                                                    |      614|               890,535|   1,450 (636)|  1,394|        77 - 4,403|
 |Tuebingen U                                                     |      594|               814,355|   1,371 (423)|  1,386|        75 - 2,662|
-|Imperial College London                                         |      572|             1,064,200|   1,860 (993)|  1,595|       269 - 5,439|
+|Imperial College London                                         |      573|             1,064,460|   1,858 (994)|  1,594|       260 - 5,439|
 |Wuerzburg U                                                     |      562|               749,032|   1,333 (417)|  1,309|       105 - 2,514|
 |OpenAIRE                                                        |      537|               778,991|   1,451 (423)|  1,413|       209 - 2,086|
 |University of Cambridge                                         |      526|             1,143,562| 2,174 (1,174)|  1,807|       154 - 5,528|
@@ -352,7 +352,7 @@ The following table summarises institutional spending on articles published in f
 |Oslo and Akershus university college                            |       36|                45,728|   1,270 (514)|  1,252|        86 - 2,238|
 |Swansea University                                              |       36|                59,942|   1,665 (764)|  1,332|       840 - 4,689|
 |TU Darmstadt                                                    |       35|                48,777|   1,394 (428)|  1,497|       226 - 2,166|
-|University of Bath                                              |       34|                48,484|   1,426 (585)|  1,395|       360 - 2,429|
+|University of Bath                                              |       35|                48,597|   1,388 (617)|  1,392|       113 - 2,429|
 |TU Braunschweig                                                 |       33|                40,822|   1,237 (683)|  1,531|       181 - 2,142|
 |TU Berlin                                                       |       30|                40,074|   1,336 (438)|  1,392|       433 - 1,990|
 |Lancaster University                                            |       28|                34,167|   1,220 (375)|  1,221|       256 - 1,825|
@@ -423,7 +423,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,741 open access articles being published in hybrid journals. Total expenditure amounts to  54,117,329 €. Average  fee is 2,489 € and the median 2,446 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 21,739 open access articles being published in hybrid journals. Total expenditure amounts to  54,116,957 €. Average  fee is 2,489 € and the median 2,447 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -435,7 +435,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Wellcome Trust                              |    2,767|             7,117,449|   2,572 (893)|  2,565|       230 - 6,036|
 |University of Cambridge                     |    1,518|             4,240,782| 2,794 (1,037)|  2,683|       127 - 6,334|
 |University of Oxford                        |    1,057|             3,163,650| 2,993 (1,211)|  2,746|       224 - 9,070|
-|Imperial College London                     |      870|             2,345,319|   2,696 (896)|  2,648|       260 - 6,511|
+|Imperial College London                     |      869|             2,345,060|   2,699 (892)|  2,648|       584 - 6,511|
 |University of Manchester                    |      836|             2,038,355|   2,438 (946)|  2,376|       169 - 7,133|
 |University of Birmingham                    |      571|             1,401,746|   2,455 (908)|  2,480|       279 - 6,849|
 |University of Bristol                       |      558|             1,348,747|   2,417 (880)|  2,275|       289 - 5,663|
@@ -453,7 +453,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of Loughborough                  |      153|               322,498|   2,108 (827)|  2,190|       287 - 4,132|
 |Stockholm University                        |      150|               307,521|   2,050 (883)|  2,200|       295 - 5,502|
 |University of York                          |      148|               365,651|   2,471 (836)|  2,389|       331 - 5,208|
-|University of Bath                          |      147|               317,089|   2,157 (860)|  2,049|       113 - 4,822|
+|University of Bath                          |      146|               316,976|   2,171 (846)|  2,052|       194 - 4,822|
 |University of Southampton                   |      138|               346,317|   2,510 (758)|  2,544|       293 - 4,585|
 |University of Nottingham                    |      133|               343,025|   2,579 (912)|  2,626|       419 - 5,806|
 |Queen Mary, University of London            |      130|               296,514| 2,281 (1,233)|  2,024|       217 - 9,079|
