@@ -758,7 +758,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2014,1870,"10.1007/s12061-014-9115-1",TRUE,"Springer Science + Business Media","Applied Spatial Analysis and Policy","1874-463X","1874-463X","1874-4621","1874-4621","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000379578900003",NA,FALSE
 "UCL",2014,1884.9,"10.1111/2041-210x.12278",TRUE,"Wiley-Blackwell","Methods in Ecology and Evolution","2041-210X",NA,NA,"2041-210X","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000345762000005",NA,FALSE
-"UCL",2014,900,"10.1016/j.jalz.2014.05.427",FALSE,"Elsevier BV","Alzheimer's & Dementia","1552-5260","1552-5260",NA,"1552-5260","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
+"UCL",2014,900,"10.1016/j.jalz.2014.05.427",TRUE,"Elsevier BV","Alzheimer's & Dementia","1552-5260","1552-5260",NA,"1552-5260","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,NA,NA,FALSE
 "UCL",2014,3051.49,"10.1038/nutd.2014.33",FALSE,"Nature Publishing Group","Nutrition & Diabetes","2044-4052",NA,"2044-4052","2044-4052","http://www.springer.com/tdm",TRUE,"25198238","PMC4183974","ut:000343525700007",NA,TRUE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -1692,7 +1692,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2015,3171.02,"10.1016/j.jclinepi.2015.08.001",TRUE,"Elsevier BV","Journal of Clinical Epidemiology","0895-4356","0895-4356",NA,"0895-4356","http://creativecommons.org/licenses/by/4.0/",TRUE,"26291580","PMC4687951","ut:000367127600027",NA,FALSE
 "University of Cambridge",2015,2663.6,"10.1007/s00213-015-4038-3",TRUE,"Springer Nature","Psychopharmacology","0033-3158","0033-3158","1432-2072","0033-3158",NA,TRUE,"26264904","PMC4600475","ut:000362669600013",NA,FALSE
 "University of Cambridge",2015,2722.09,"10.1016/j.algal.2015.08.009",TRUE,"Elsevier BV","Algal Research","2211-9264","2211-9264",NA,"2211-9264","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000368829500012",NA,FALSE
-"University of Cambridge",2015,3155.25,"10.1016/j.jalz.2015.07.490",FALSE,"Elsevier BV","Alzheimer's & Dementia","1552-5260","1552-5260",NA,"1552-5260","http://creativecommons.org/licenses/by/4.0/",TRUE,"26362596","PMC4867786","ut:000376054200003",NA,FALSE
+"University of Cambridge",2015,3155.25,"10.1016/j.jalz.2015.07.490",TRUE,"Elsevier BV","Alzheimer's & Dementia","1552-5260","1552-5260",NA,"1552-5260","http://creativecommons.org/licenses/by/4.0/",TRUE,"26362596","PMC4867786","ut:000376054200003",NA,FALSE
 "University of Cambridge",2015,3476.76,"10.1016/j.carres.2015.07.002",TRUE,"Elsevier BV","Carbohydrate Research","0008-6215","0008-6215",NA,"0008-6215","http://creativecommons.org/licenses/by/4.0/",TRUE,"26267887","PMC4610949","ut:000362889100001",NA,FALSE
 "University of Cambridge",2015,5201.95,"10.1016/j.molcel.2015.07.015",TRUE,"Elsevier BV","Molecular Cell","1097-2765","1097-2765",NA,"1097-2765","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"26321253","PMC4576164","ut:000365166100013",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
