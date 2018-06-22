@@ -194,7 +194,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Grenoble Alpes
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la santé et de la recherche médicale (INSERM)
-- Institut national polytechnique de Toulouse (INTP)
+- Institut national polytechnique de Toulouse (INPT)
 - Université Lille 1
 - Université Lille 2
 - Université Nice-Sophia-Antipolis
