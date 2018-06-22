@@ -106,7 +106,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2522-0144", # Research in the Mathematical Sciences, Hybrid since 2018
     "1574-7891", # Molecular Oncology, Gold OA since 2/2017
     "1749-5016", # Social Cognitive and Affective Neuroscience, Gold OA since 2017
-    "0161-0457" # Scanning, Gold OA since 2017
+    "0161-0457", # Scanning, Gold OA since 2017
+    "2300-3235" # Bulletin of the Veterinary Institute in Puławy, Gold OA since 2016
 ]
 
 class RowObject(object):
