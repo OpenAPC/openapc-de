@@ -55,6 +55,9 @@ def main():
                 issn = line[issn_type]
                 if issn not in remaining_journals[title]["issns"] and oat.is_wellformed_ISSN(issn):
                     remaining_journals[title]["issns"].append(issn)
+            is_hybrid = line["is_hybrid"]
+            if is_hybrid in ["TRUE", "FALSE"] and is_hybrid != remaining_journals[title]["is_hybrid"]:
+                remaining_journals[title]["is_hybrid"] = "FLIPPED"
             
     msg = "{} unique journals found in OpenAPC core data file, {} already analysed, {} remaining."
     oat.print_g(msg.format(len(remaining_journals) + len(analysed_journals), len(analysed_journals), len(remaining_journals)))

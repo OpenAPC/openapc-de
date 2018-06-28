@@ -125,7 +125,7 @@ Energy,Elsevier BV,0360-5442,TRUE,TRUE,Elsevier,Energy,PARTIALLY_FREE
 Frontiers in Physics,Frontiers Media SA,2296-424X,FALSE,TRUE,Frontiers Media,Frontiers in Physics,OA
 Frontiers in Earth Science,Frontiers Media SA,2296-6463,FALSE,TRUE,Frontiers Media,Frontiers in Earth Science,OA
 Water,MDPI AG,2073-4441,FALSE,TRUE,MDPI,Water,OA
-Nature Communications,Nature Publishing Group,2041-1723,FALSE,TRUE,NPG,Nature Communications,OA
+Nature Communications,Nature Publishing Group,2041-1723,FLIPPED,TRUE,NPG,Nature Communications,OA
 International journal of Computer Networks & Communications,Academy and Industry Research Collaboration Center (AIRCC),0975-2293|0974-9322,FALSE,,,,
 Environmental Health Perspectives,Environmental Health Perspectives,0091-6765,FALSE,TRUE,National Institute of Environmental Health Sciences,Environmental Health Perspectives (EHP),OA
 Oxidative Medicine and Cellular Longevity,Hindawi Publishing Corporation,1942-0900|1942-0994,FALSE,TRUE,Hindawi,Oxidative Medicine and Cellular Longevity,OA
@@ -351,7 +351,7 @@ BMC Molecular Biology,Springer Nature,1471-2199,FALSE,TRUE,Biomed Central Ltd.,B
 Nutrients,MDPI AG,2072-6643,FALSE,TRUE,MDPI,Nutrients,OA
 NeuroImage: Clinical,Elsevier BV,2213-1582,FALSE,TRUE,Elsevier,NeuroImage : Clinical,OA
 Advances in Difference Equations,Springer Nature,1687-1847|1687-1839,FALSE,TRUE,SpringerOpen,Advances in Difference Equations,OA
-Psychology & Health,Informa UK Limited,0887-0446|1476-8321,FALSE,TRUE,Taylor & Francis,Psychology &amp; Health,HYBRID
+Psychology & Health,Informa UK Limited,0887-0446|1476-8321,FLIPPED,TRUE,Taylor & Francis,Psychology &amp; Health,HYBRID
 Toxins,MDPI AG,2072-6651,FALSE,TRUE,MDPI,Toxins,OA
 Optica,Optical Society of America (OSA),2334-2536,FALSE,TRUE,Optical Society of America,Optica,OA
 Respiratory Research,Springer Science + Business Media,1465-9921|1465-993X,FALSE,TRUE,Biomed Central Ltd.,Respiratory Research,OA
@@ -519,7 +519,7 @@ Sensors & Transducers,International Frequency Sensor Association,2306-8515|1726-
 Journal of Advances in Modeling Earth Systems,Wiley-Blackwell,1942-2466,FALSE,TRUE,AGU,Journal of Advances in Modeling Earth Systems,OA
 Journal of Nanomaterials,Hindawi Publishing Corporation,1687-4110|1687-4129,FALSE,TRUE,Hindawi,Journal of Nanomaterials,OA
 Advances in Radio Science,Copernicus GmbH,1684-9973|1684-9965,FALSE,TRUE,Copernicus Publications,Advances in Radio Science (ARS),OA
-Medicine,Ovid Technologies (Wolters Kluwer Health),0025-7974|1357-3039,FALSE,TRUE,LWW Wolters Kluwer,Medicine,OA
+Medicine,Ovid Technologies (Wolters Kluwer Health),0025-7974|1357-3039,FLIPPED,TRUE,LWW Wolters Kluwer,Medicine,OA
 Interactive Journal of Medical Research,JMIR Publications Inc.,1929-073X,FALSE,TRUE,JMIR Publications Inc.,interactive Journal of Medical Research,OA
 Tobacco Induced Diseases,Springer Nature,1617-9625,FALSE,TRUE,Biomed Central Ltd.,Tobacco Induced Diseases,OA
 Brazilian Journal of Science and Technology,Springer Nature,2196-288X,FALSE,TRUE,SpringerOpen,Brazilian Journal of Science and Technology,OA
@@ -952,7 +952,7 @@ Journal of Crohn's and Colitis,Oxford University Press (OUP),1873-9946|1876-4479
 European Journal of Cancer,Elsevier BV,0959-8049,TRUE,TRUE,Elsevier,European Journal of Cancer,HYBRID
 Molecular and Cellular Endocrinology,Elsevier BV,0303-7207,TRUE,TRUE,Elsevier,Molecular and Cellular Endocrinology,HYBRID
 Biology and Fertility of Soils,Springer Science + Business Media,0178-2762|1432-0789,TRUE,TRUE,Springer-Verlag,Biology and Fertility of Soils,HYBRID
-Aging Cell,Wiley-Blackwell,1474-9718,TRUE,TRUE,John Wiley & Sons,Aging Cell,OA
+Aging Cell,Wiley-Blackwell,1474-9718,FLIPPED,TRUE,John Wiley & Sons,Aging Cell,OA
 Micron,Elsevier BV,0968-4328,TRUE,TRUE,Elsevier,Micron,HYBRID
 Chemistry of Materials,American Chemical Society (ACS),0897-4756|1520-5002,TRUE,TRUE,ACS,Chemistry of Materials,SUBSCRIPTION
 Journal of Solid State Chemistry,Elsevier BV,0022-4596,TRUE,TRUE,Elsevier,Journal of Solid State Chemistry,HYBRID
@@ -1201,7 +1201,7 @@ Invertebrate Biology,Wiley-Blackwell,1077-8306,TRUE,TRUE,John Wiley & Sons,Inver
 Journal of Climate,American Meteorological Society,0894-8755|1520-0442,TRUE,TRUE,AMS,Journal of Climate,SUBSCRIPTION
 Animal Reproduction Science,Elsevier BV,0378-4320,TRUE,TRUE,Elsevier,Animal Reproduction Science,HYBRID
 European Journal of Personality,Wiley-Blackwell,0890-2070,TRUE,TRUE,John Wiley & Sons,European Journal of Personality,HYBRID
-RSC Advances,Royal Society of Chemistry (RSC),2046-2069,TRUE,TRUE,RSC,RSC Advances,OA
+RSC Advances,Royal Society of Chemistry (RSC),2046-2069,FLIPPED,TRUE,RSC,RSC Advances,OA
 Placenta,Elsevier BV,0143-4004,TRUE,TRUE,Elsevier,Placenta,HYBRID
 Trends in Molecular Medicine,Elsevier BV,1471-4914,TRUE,TRUE,Elsevier,Trends in Molecular Medicine,SUBSCRIPTION
 European Journal of Immunology,Wiley-Blackwell,0014-2980,TRUE,TRUE,John Wiley & Sons,European Journal of Immunology,HYBRID
@@ -1281,7 +1281,7 @@ Journal of Pest Science,Springer Science + Business Media,1612-4758|1612-4766,TR
 Chemoecology,Springer Science + Business Media,0937-7409|1423-0445,TRUE,TRUE,Springer-Verlag,Chemoecology,HYBRID
 Physiology & Behavior,Elsevier BV,0031-9384,TRUE,TRUE,Elsevier,Physiology &amp; Behavior,HYBRID
 Measurement Science and Technology,IOP Publishing,0957-0233|1361-6501,TRUE,TRUE,IOP,Measurement Science and Technology,HYBRID
-Chemical Science,Royal Society of Chemistry (RSC),2041-6520|2041-6539,TRUE,TRUE,RSC,Chemical Science,OA
+Chemical Science,Royal Society of Chemistry (RSC),2041-6520|2041-6539,FLIPPED,TRUE,RSC,Chemical Science,OA
 Restorative Neurology and Neuroscience,IOS Press,0922-6028|1878-3627,TRUE,TRUE,IOS Press,Restorative Neurology and Neuroscience,ERROR
 Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology,Elsevier BV,1095-6433,TRUE,TRUE,Elsevier,Comparative Biochemistry and Physiology Part A: Molecular &amp; Integrative Physiology,HYBRID
 Physical Chemistry Chemical Physics,Royal Society of Chemistry (RSC),1463-9076|1463-9084,TRUE,TRUE,RSC,Physical Chemistry Chemical Physics,SUBSCRIPTION
@@ -1332,7 +1332,7 @@ Knowledge-Based Systems,Elsevier BV,0950-7051,TRUE,TRUE,Elsevier,Knowledge-Based
 Journal of Phase Equilibria and Diffusion,Springer Science + Business Media,1547-7037|1863-7345,TRUE,TRUE,Springer-Verlag,Journal of Phase Equilibria and Diffusion,HYBRID
 Calphad,Elsevier BV,0364-5916,TRUE,TRUE,Elsevier,Calphad,HYBRID
 International Journal of Biometeorology,Springer Science + Business Media,0020-7128|1432-1254,TRUE,TRUE,Springer-Verlag,International Journal of Biometeorology,HYBRID
-Scanning,Wiley-Blackwell,0161-0457|1932-8745,TRUE,TRUE,Hindawi,Scanning : The Journal of Scanning Microscopies,HYBRID
+Scanning,Wiley-Blackwell,0161-0457|1932-8745,FLIPPED,TRUE,Hindawi,Scanning : The Journal of Scanning Microscopies,HYBRID
 Plant Signaling & Behavior,Informa UK Limited,1559-2324|1559-2316,TRUE,TRUE,Taylor & Francis,Plant Signaling &amp;amp; Behavior,SUBSCRIPTION
 Journal of Materials Science,Springer Science + Business Media,0022-2461|1573-4803,TRUE,TRUE,Springer-Verlag,Journal of Materials Science,HYBRID
 Journal of Electron Spectroscopy and Related Phenomena,Elsevier BV,0368-2048,TRUE,TRUE,Elsevier,Journal of Electron Spectroscopy and Related Phenomena,HYBRID
@@ -1368,7 +1368,7 @@ International Journal of Forecasting,Elsevier BV,0169-2070,TRUE,TRUE,Elsevier,In
 Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures,American Vacuum Society,2166-2746|1520-8567|2166-2754,TRUE,TRUE,AVS,Journal of Vacuum Science &amp;amp; Technology B,SUBSCRIPTION
 Current Eye Research,Informa Healthcare,0271-3683|1460-2202,TRUE,TRUE,Taylor & Francis,Current Eye Research,HYBRID
 Applied and Computational Harmonic Analysis,Elsevier BV,1063-5203,TRUE,TRUE,Elsevier,Applied and Computational Harmonic Analysis,SUBSCRIPTION
-Journal of Maps,Informa UK Limited,1744-5647,TRUE,TRUE,Taylor & Francis,Journal of Maps,OA
+Journal of Maps,Informa UK Limited,1744-5647,FLIPPED,TRUE,Taylor & Francis,Journal of Maps,OA
 Insects,MDPI AG,2075-4450,FALSE,TRUE,MDPI,Insects,OA
 Experimental Dermatology,Wiley-Blackwell,0906-6705,TRUE,TRUE,John Wiley & Sons,Experimental Dermatology,HYBRID
 IEEE Journal of Selected Topics in Signal Processing,Institute of Electrical & Electronics Engineers (IEEE),1932-4553|1941-0484,TRUE,TRUE,IEEE,IEEE Journal of Selected Topics in Signal Processing,HYBRID
@@ -1400,7 +1400,7 @@ Journal of Breath Research,IOP Publishing,1752-7163|1752-7155,TRUE,TRUE,IOP,Jour
 Applied Physics A,Springer Science + Business Media,0947-8396|1432-0630,TRUE,TRUE,Springer-Verlag,Applied Physics A,HYBRID
 Groundwater,Wiley-Blackwell,0017-467X,TRUE,TRUE,John Wiley & Sons,Ground Water,HYBRID
 Journal of Heredity,Oxford University Press (OUP),0022-1503|1465-7333,TRUE,TRUE,Oxford University Press,Journal of Heredity,HYBRID
-Plant Biotechnology Journal,Wiley-Blackwell,1467-7644,TRUE,TRUE,John Wiley & Sons,Plant Biotechnology Journal,OA
+Plant Biotechnology Journal,Wiley-Blackwell,1467-7644,FLIPPED,TRUE,John Wiley & Sons,Plant Biotechnology Journal,OA
 Computational Statistics,Springer Science + Business Media,0943-4062|1613-9658,TRUE,TRUE,Springer-Verlag,Computational Statistics,HYBRID
 "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",The Royal Society,1364-503X|1471-2962,TRUE,TRUE,"Royal Society, The","Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",SUBSCRIPTION
 Journal of Multivariate Analysis,Elsevier BV,0047-259X,TRUE,TRUE,Elsevier,Journal of Multivariate Analysis,HYBRID
@@ -1475,7 +1475,7 @@ Physics and Chemistry of Liquids,Informa UK Limited,0031-9104|1029-0451,TRUE,TRU
 Journal of Plankton Research,Oxford University Press (OUP),0142-7873|1464-3774,TRUE,TRUE,Oxford University Press,Journal of Plankton Research,HYBRID
 Journal of Research in Personality,Elsevier BV,0092-6566,TRUE,TRUE,Elsevier,Journal of Research in Personality,HYBRID
 Acta Protozoologica,Jagiellonian University,0065-1583,FALSE,,,,
-The Journal of the Acoustical Society of America,Acoustical Society of America (ASA),0001-4966,TRUE,TRUE,ASA,Journal of the Acoustical Society of America,SUBSCRIPTION
+The Journal of the Acoustical Society of America,Acoustical Society of America (ASA),0001-4966,FLIPPED,TRUE,ASA,Journal of the Acoustical Society of America,SUBSCRIPTION
 Cancer Research,American Association for Cancer Research (AACR),0008-5472|1538-7445,TRUE,TRUE,AACR,Cancer Research,HYBRID
 ACS Photonics,American Chemical Society (ACS),2330-4022,TRUE,TRUE,ACS,ACS Photonics,SUBSCRIPTION
 ACS Catalysis,American Chemical Society (ACS),2155-5435,TRUE,TRUE,ACS,ACS Catalysis,SUBSCRIPTION
@@ -1486,7 +1486,7 @@ Physical Review E,American Physical Society (APS),1539-3755|1550-2376|2470-0045|
 Molecular & Cellular Proteomics,American Society for Biochemistry & Molecular Biology (ASBMB),1535-9476|1535-9484,TRUE,TRUE,ASBMB,Molecular &amp; Cellular Proteomics,SUBSCRIPTION
 Molecular and Cellular Biology,American Society for Microbiology,0270-7306|1098-5549,TRUE,TRUE,American Society for Microbiology,Molecular and Cellular Biology,HYBRID
 ACM Transactions on Graphics,Association for Computing Machinery (ACM),0730-0301,TRUE,TRUE,ACM,ACM Transactions on Graphics (TOG),HYBRID
-Investigative Opthalmology & Visual Science,Association for Research in Vision and Ophthalmology (ARVO),1552-5783|0146-0404,TRUE,TRUE,ARVO,Investigative Ophthalmology &amp;amp; Visual Science,SUBSCRIPTION
+Investigative Opthalmology & Visual Science,Association for Research in Vision and Ophthalmology (ARVO),1552-5783|0146-0404,FLIPPED,TRUE,ARVO,Investigative Ophthalmology &amp;amp; Visual Science,SUBSCRIPTION
 Current Alzheimer Research,Bentham Science Publishers Ltd.,1567-2050,TRUE,TRUE,Bentham Science,Current Alzheimer Research,HYBRID
 Current Medicinal Chemistry,Bentham Science Publishers Ltd.,0929-8673,TRUE,TRUE,Bentham Science,Current Medicinal Chemistry,HYBRID
 Current Neurovascular Research,Bentham Science Publishers Ltd.,1567-2026,TRUE,TRUE,Bentham Science,Current Neurovascular Research,HYBRID
@@ -1824,7 +1824,7 @@ Diabetologia,Springer Nature,0012-186X|1432-0428,TRUE,TRUE,Springer-Verlag,Diabe
 European Journal of Endocrinology,BioScientifica,0804-4643|1479-683X,TRUE,TRUE,Bioscientifica,European Journal of Endocrinology,SUBSCRIPTION
 Journal of Endocrinology,BioScientifica,0022-0795|1479-6805,TRUE,TRUE,Bioscientifica,Journal of Endocrinology,SUBSCRIPTION
 "Immunity, Inflammation and Disease",Wiley-Blackwell,2050-4527,FALSE,TRUE,John Wiley & Sons,"Immunity, Inflammation and Disease",OA
-Antimicrobial Agents and Chemotherapy,American Society for Microbiology,0066-4804|1098-6596,TRUE,TRUE,American Society for Microbiology,Antimicrobial Agents and Chemotherapy,HYBRID
+Antimicrobial Agents and Chemotherapy,American Society for Microbiology,0066-4804|1098-6596,FLIPPED,TRUE,American Society for Microbiology,Antimicrobial Agents and Chemotherapy,HYBRID
 Cortex,Elsevier BV,0010-9452,TRUE,TRUE,Elsevier,Cortex,HYBRID
 Mechanisms of Ageing and Development,Elsevier BV,0047-6374,TRUE,TRUE,Elsevier,Mechanisms of Ageing and Development,HYBRID
 Molecular Therapy,Springer Nature,1525-0016|1525-0024,TRUE,TRUE,Elsevier,Molecular Therapy,HYBRID
@@ -1957,7 +1957,7 @@ Medical History,Cambridge University Press (CUP),0025-7273|2048-8343,TRUE,TRUE,C
 Journal of Biomechanics,Elsevier BV,0021-9290,TRUE,TRUE,Elsevier,Journal of Biomechanics,HYBRID
 Journal of Medicine and Philosophy,Oxford University Press (OUP),0360-5310|1744-5019,TRUE,TRUE,Oxford University Press,Journal of Medicine and Philosophy,HYBRID
 Parenting,Informa UK Limited,1529-5192|1532-7922,TRUE,TRUE,Taylor & Francis,Parenting,HYBRID
-Molecular Oncology,Elsevier BV,1574-7891,TRUE,TRUE,John Wiley & Sons,Molecular Oncology,OA
+Molecular Oncology,Elsevier BV,1574-7891,FLIPPED,TRUE,John Wiley & Sons,Molecular Oncology,OA
 JACC: Cardiovascular Imaging,Elsevier BV,1936-878X|1876-7591,TRUE,TRUE,Elsevier,JACC : Cardiovascular Imaging,HYBRID
 Trends in Endocrinology & Metabolism,Elsevier BV,1043-2760,TRUE,TRUE,Elsevier,Trends in Endocrinology &amp; Metabolism,SUBSCRIPTION
 Journal of Medical Genetics,BMJ,0022-2593|1468-6244,TRUE,TRUE,BMJ Publishing Group,Journal of Medical Genetics,SUBSCRIPTION
@@ -2361,7 +2361,7 @@ Dependence Modeling,Walter de Gruyter GmbH,2300-2298,FALSE,TRUE,De Gruyter,Depen
 Energy Reports,Elsevier BV,2352-4847,FALSE,TRUE,Elsevier,Energy Reports,OA
 Palgrave Communications,Springer Nature,2055-1045,FALSE,TRUE,Palgrave MacMillan,Palgrave Communications,OA
 Food Science & Nutrition,Wiley-Blackwell,2048-7177,FALSE,TRUE,John Wiley & Sons,Food Science &amp;amp; Nutrition,OA
-International Journal of Neuropsychopharmacology,Oxford University Press (OUP),1461-1457|1469-5111,FALSE,TRUE,Oxford University Press,International Journal of Neuropsychopharmacology,OA
+International Journal of Neuropsychopharmacology,Oxford University Press (OUP),1461-1457|1469-5111,FLIPPED,TRUE,Oxford University Press,International Journal of Neuropsychopharmacology,OA
 JMIR Medical Informatics,JMIR Publications Inc.,2291-9694,FALSE,TRUE,JMIR Publications Inc.,JMIR Medical Informatics,OA
 The Plant Genome,Crop Science Society of America,1940-3372,FALSE,TRUE,Crop Science Society of America,The Plant Genome,SUBSCRIPTION
 Inside the Cell,Wiley-Blackwell,2375-2920,FALSE,TRUE,John Wiley & Sons,Inside the Cell,OA
@@ -2379,7 +2379,7 @@ Italian Journal of Animal Science,Informa UK Limited,1828-051X|1594-4077,FALSE,T
 Earth Perspectives,Springer Nature,2194-6434,FALSE,TRUE,SpringerOpen,Earth Perspectives - Transdisciplinarity Enabled,OA
 Energy and Emission Control Technologies,Dove Medical Press Ltd.,2253-2218,FALSE,TRUE,Dove Medical Press,Energy and Emission Control Technologies,OA
 Aquaculture Reports,Elsevier BV,2352-5134,FALSE,TRUE,Elsevier,Aquaculture Reports,OA
-Journal of Glaciology,Cambridge University Press (CUP),0022-1430|1727-5652,FALSE,TRUE,International Glaciological Society,Journal of Glaciology,ERROR
+Journal of Glaciology,Cambridge University Press (CUP),0022-1430|1727-5652,FLIPPED,TRUE,International Glaciological Society,Journal of Glaciology,ERROR
 Journal of Functional Biomaterials,MDPI AG,2079-4983,FALSE,TRUE,MDPI,Journal of Functional Biomaterials,OA
 BMJ Global Health,BMJ,2059-7908,FALSE,,,,
 mSphere,American Society for Microbiology,2379-5042,FALSE,TRUE,American Society for Microbiology,mSphere,OA
@@ -2400,7 +2400,7 @@ International Journal of Biological Sciences,Ivyspring International Publisher,1
 Implementation Science,Springer Nature,1748-5908,FALSE,TRUE,Biomed Central Ltd.,Implementation Science,OA
 Schizophrenia Research and Treatment,Hindawi Publishing Corporation,2090-2085|2090-2093,FALSE,TRUE,Hindawi,Schizophrenia Research and Treatment,OA
 Journal of Sensors,Hindawi Publishing Corporation,1687-725X|1687-7268,FALSE,TRUE,Hindawi,Journal of Sensors,OA
-Genes & Nutrition,Springer Nature,1555-8932|1865-3499,FALSE,TRUE,Springer-Verlag,Genes &amp;amp; Nutrition,OA
+Genes & Nutrition,Springer Nature,1555-8932|1865-3499,FLIPPED,TRUE,Springer-Verlag,Genes &amp;amp; Nutrition,OA
 Open Life Sciences,Walter de Gruyter GmbH,2391-5412,FALSE,TRUE,De Gruyter,Open Life Sciences,OA
 Cogent Economics & Finance,Informa UK Limited,2332-2039,FALSE,TRUE,Taylor & Francis,Cogent Economics &amp; Finance,OA
 Catalysts,MDPI AG,2073-4344,FALSE,TRUE,MDPI,Catalysts,OA
@@ -3000,7 +3000,7 @@ Seminars in Oncology,Elsevier BV,0093-7754,TRUE,TRUE,Elsevier,Seminars in Oncolo
 Geophysical Journal International,Oxford University Press (OUP),0956-540X|1365-246X,TRUE,TRUE,Oxford University Press,Geophysical Journal International,HYBRID
 Psychological Science,SAGE Publications,0956-7976|1467-9280,TRUE,TRUE,Sage Publications,Psychological Science,HYBRID
 Journal of Financial Markets,Elsevier BV,1386-4181,TRUE,TRUE,Elsevier,Journal of Financial Markets,HYBRID
-Social Cognitive and Affective Neuroscience,Oxford University Press (OUP),1749-5016|1749-5024,TRUE,TRUE,Oxford University Press,Social Cognitive and Affective Neuroscience,OA
+Social Cognitive and Affective Neuroscience,Oxford University Press (OUP),1749-5016|1749-5024,FLIPPED,TRUE,Oxford University Press,Social Cognitive and Affective Neuroscience,OA
 Oncology Letters,Spandidos Publications,1792-1074|1792-1082,TRUE,TRUE,Spandidos Publications,Oncology Letters,SUBSCRIPTION
 Antibiotics,MDPI AG,2079-6382,FALSE,TRUE,MDPI,Antibiotics,OA
 Geologia Croatica,Croatian Geological Survey,1330-030X|1333-4875,FALSE,,,,
@@ -3152,7 +3152,7 @@ Earthquake Engineering & Structural Dynamics,Wiley-Blackwell,0098-8847,TRUE,TRUE
 Clinical Endocrinology,Wiley-Blackwell,0300-0664,TRUE,TRUE,John Wiley & Sons,Clinical Endocrinology,HYBRID
 BMJ Supportive & Palliative Care,BMJ,2045-435X|2045-4368,TRUE,TRUE,BMJ Publishing Group,BMJ Supportive &amp;amp; Palliative Care,SUBSCRIPTION
 Geophysical Prospecting,Wiley-Blackwell,0016-8025,TRUE,TRUE,John Wiley & Sons,Geophysical Prospecting,HYBRID
-Annals of Glaciology,Cambridge University Press (CUP),0260-3055|1727-5644,TRUE,TRUE,International Glaciological Society,Annals of Glaciology,ERROR
+Annals of Glaciology,Cambridge University Press (CUP),0260-3055|1727-5644,FLIPPED,TRUE,International Glaciological Society,Annals of Glaciology,ERROR
 Statistics in Biosciences,Springer Science + Business Media,1867-1764|1867-1772,TRUE,TRUE,Springer-Verlag,Statistics in Biosciences,HYBRID
 Biology of the Cell,Wiley-Blackwell,0248-4900,TRUE,TRUE,John Wiley & Sons,Biology of the Cell,SUBSCRIPTION
 International Journal of Quantum Information,World Scientific Pub Co Pte Lt,0219-7499|1793-6918,TRUE,TRUE,World Scientific,International Journal of Quantum Information,HYBRID
