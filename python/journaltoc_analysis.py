@@ -29,8 +29,9 @@ JOURNAL_TYPE_RES = {
 APC_DE_FILE = "../data/apc_de.csv"
 JOURNALTOC_RESULTS_FILE = "journaltoc_comparison.csv"
 
-RESULTS_FILE_FIELDNAMES = ["issn", "publisher", "journal_full_title", "is_hybrid", "in_jtoc", "jtoc_publisher", "jtoc_title", "jtoc_type"]
-BATCH_SIZE = 100
+RESULTS_FILE_FIELDNAMES = ["journal_full_title", "publisher", "issns", "is_hybrid", "in_jtoc", "jtoc_publisher", "jtoc_title", "jtoc_type"]
+ISSN_TYPES = ["issn", "issn_print", "issn_electronic", "issn_l"]
+BATCH_SIZE = 200
 
 def main():
     analysed_journals = {}
@@ -38,42 +39,52 @@ def main():
         with open(JOURNALTOC_RESULTS_FILE) as results:
             reader = DictReader(results)
             for line in reader:
-                issn = line["issn"]
-                if issn not in analysed_journals:
-                    analysed_journals[issn] = line
-    openapc_journals = {}
+                title = line["journal_full_title"]
+                if title not in analysed_journals:
+                    analysed_journals[title] = line
+    remaining_journals = {}
     with open(APC_DE_FILE) as apc_de:
         reader = DictReader(apc_de)
         for line in reader:
-            issn = line["issn"]
-            if issn not in openapc_journals and issn not in analysed_journals:
-                openapc_journals[issn] = {"journal_full_title": line["journal_full_title"], "publisher": line["publisher"], "is_hybrid": line["is_hybrid"]}
+            title = line["journal_full_title"]
+            if title in analysed_journals:
+                continue
+            if title not in remaining_journals:
+                remaining_journals[title] = {"journal_full_title": line["journal_full_title"], "publisher": line["publisher"], "is_hybrid": line["is_hybrid"], "issns": []}
+            for issn_type in ISSN_TYPES:
+                issn = line[issn_type]
+                if issn not in remaining_journals[title]["issns"] and oat.is_wellformed_ISSN(issn):
+                    remaining_journals[title]["issns"].append(issn)
+            
     msg = "{} unique journals found in OpenAPC core data file, {} already analysed, {} remaining."
-    oat.print_g(msg.format(len(openapc_journals) + len(analysed_journals), len(analysed_journals), len(openapc_journals)))
+    oat.print_g(msg.format(len(remaining_journals) + len(analysed_journals), len(analysed_journals), len(remaining_journals)))
 
     count = 0
-    for issn, fields in openapc_journals.items():
+    for title, fields in remaining_journals.items():
         count += 1
         entry = {field: None for field in RESULTS_FILE_FIELDNAMES}
-        entry["issn"] = issn
-        for key in ["journal_full_title", "publisher", "is_hybrid"]:
+        entry["journal_full_title"] = title
+        for key in ["publisher", "is_hybrid"]:
             entry[key] = fields[key]
+        entry["issns"] = "|".join(fields["issns"])
         msg = 'Analysing journal "{}" ({}), OpenAPC hybrid status is {}...'
-        msg = msg.format(fields["journal_full_title"], issn, fields["is_hybrid"])
+        msg = msg.format(entry["journal_full_title"], entry["issns"], entry["is_hybrid"])
         oat.print_b(msg)
-        jtoc_metadata = get_jtoc_metadata(issn)
-        if jtoc_metadata["jtoc_id"] is None:
-            entry["in_jtoc"] = "FALSE"
-            oat.print_y("Journal not found in journalTOCs!")
+        for issn in fields["issns"]:
+            oat.print_y("Looking up ISSN " + issn + "...")
+            jtoc_metadata = get_jtoc_metadata(issn)
+            if jtoc_metadata["jtoc_id"] is not None:
+                entry["in_jtoc"] = "TRUE"
+                for key in ["jtoc_publisher", "jtoc_title"]:
+                    entry[key] = jtoc_metadata[key]
+                journal_type = get_jtoc_journal_type(jtoc_metadata["jtoc_id"])
+                entry["jtoc_type"] = journal_type
+                msg = 'Journal found ("{}"), JournalTOCs type is {}'
+                oat.print_g(msg.format(entry["jtoc_title"], entry["jtoc_type"]))
+                break
         else:
-            entry["in_jtoc"] = "TRUE"
-            for key in ["jtoc_publisher", "jtoc_title"]:
-                entry[key] = jtoc_metadata[key]
-            journal_type = get_jtoc_journal_type(jtoc_metadata["jtoc_id"])
-            entry["jtoc_type"] = journal_type
-            msg = 'Journal found ("{}"), JournalTOCs type is {}'
-            oat.print_g(msg.format(entry["jtoc_title"], entry["jtoc_type"]))
-        analysed_journals[issn] = entry
+            oat.print_r("None of the associated ISSNS found in JTOCs!")
+        analysed_journals[title] = entry
         if count < BATCH_SIZE:
             sleep(2)
         else:
