@@ -76,8 +76,15 @@ JOURNAL_OWNER_CHANGED = {
     "1542-7390": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Space Weather
     "2169-897X": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Atmospheres
     "1525-2027": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Geochemistry, Geophysics, Geosystems
+    "2328-4277": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Earth's Future
+    "1942-2466": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Advances in Modeling Earth Systems
+    "0043-1397": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Water Resources Research
+    "0886-6236": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Global Biogeochemical Cycles
+    "2169-9003": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Earth Surface
+    "2169-9275": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Oceans
     "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
-    "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"] # American Journal of Clinical Nutrition (electronic)
+    "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition (electronic)
+    "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"] # Journal of Leukocyte Biology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs

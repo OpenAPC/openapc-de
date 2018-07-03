@@ -1103,8 +1103,12 @@ def get_unified_journal_title(journal_full_title):
         "Physics in Medicine & Biology": "Physics in Medicine and Biology",
         "Anal. Methods": "Analytical Methods",
         "The American Journal of Clinical Nutrition": "American Journal of Clinical Nutrition",
-        "International Journal of Clinical and Experimental Pathology ": "International Journal of Clinical and Experimental Pathology"
-        
+        "International Journal of Clinical and Experimental Pathology ": "International Journal of Clinical and Experimental Pathology",
+        "Forestry": "Forestry: An International Journal of Forest Research",
+        "BJPsych Open": "British Journal of Psychiatry Open",
+        "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY": "Journal of Forensic Science & Criminology",
+        "New J. Chem.": "New Journal of Chemistry",
+        "The British Journal of Criminology": "British Journal of Criminology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
