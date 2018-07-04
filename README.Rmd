@@ -171,16 +171,20 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - Chalmers University of Technology
 - Dalarna University College
+- University of Gothenburg
+- Borås University College
+- University College West
 - Karolinska Institutet
 - KTH Royal Institute of Technology
 - Linköping University
+- Linnaeus University
 - Luleå University of Technology
 - Lund University
 - Malmö University College
-- Stockholm University
+- Örebro University
 - Swedish University of Agricultural Sciences
+- Stockholm University
 - Umeå University
-- University of Gothenburg
 - Uppsala University
 
 ## Institutions from France
