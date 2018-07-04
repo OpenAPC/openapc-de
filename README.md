@@ -156,7 +156,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - Linnaeus University
 - Luleå University of Technology
 - Lund University
-- Malmö University College
+- Malmö University
 - Örebro University
 - Swedish University of Agricultural Sciences
 - Stockholm University
