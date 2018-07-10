@@ -87,6 +87,7 @@ def main():
                 break
         else:
             oat.print_r("None of the associated ISSNS found in JTOCs!")
+            entry["in_jtoc"] = "FALSE"
         analysed_journals[title] = entry
         if count < BATCH_SIZE:
             sleep(2)
