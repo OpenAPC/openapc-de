@@ -2,14 +2,13 @@
 # -*- coding: UTF-8 -*-
 
 from csv import DictReader, DictWriter
-import os
+from os import path
 import re
 from time import sleep
 import socket
+import sys
 from urllib.error import HTTPError, URLError
 from urllib.request import urlopen, Request
-
-import openapc_toolkit as oat
 
 JTOC_METADATA_RES = {
     "jtoc_id": re.compile("journaltocID\:\s*(?P<jtoc_id>\d+)"),
@@ -26,7 +25,7 @@ JOURNAL_TYPE_RES = {
     "ERROR": re.compile("Article not found or there are no recent issues available for this journal")
 }
 
-APC_DE_FILE = "../data/apc_de.csv"
+DATA_FILES = ["../../../data/apc_de.csv", "../../../data/offsetting/offsetting.csv"]
 JOURNALTOC_RESULTS_FILE = "journaltoc_comparison.csv"
 
 RESULTS_FILE_FIELDNAMES = ["journal_full_title", "publisher", "issns", "is_hybrid", "in_jtoc", "jtoc_publisher", "jtoc_title", "jtoc_type"]
@@ -35,7 +34,7 @@ BATCH_SIZE = 200
 
 def main():
     analysed_journals = {}
-    if os.path.isfile(JOURNALTOC_RESULTS_FILE):
+    if path.isfile(JOURNALTOC_RESULTS_FILE):
         with open(JOURNALTOC_RESULTS_FILE) as results:
             reader = DictReader(results)
             for line in reader:
@@ -43,23 +42,25 @@ def main():
                 if title not in analysed_journals:
                     analysed_journals[title] = line
     remaining_journals = {}
-    with open(APC_DE_FILE) as apc_de:
-        reader = DictReader(apc_de)
-        for line in reader:
-            title = line["journal_full_title"]
-            if title in analysed_journals:
-                continue
-            if title not in remaining_journals:
-                remaining_journals[title] = {"journal_full_title": line["journal_full_title"], "publisher": line["publisher"], "is_hybrid": line["is_hybrid"], "issns": []}
-            for issn_type in ISSN_TYPES:
-                issn = line[issn_type]
-                if issn not in remaining_journals[title]["issns"] and oat.is_wellformed_ISSN(issn):
-                    remaining_journals[title]["issns"].append(issn)
-            is_hybrid = line["is_hybrid"]
-            if is_hybrid in ["TRUE", "FALSE"] and is_hybrid != remaining_journals[title]["is_hybrid"]:
-                remaining_journals[title]["is_hybrid"] = "FLIPPED"
+    
+    for data_file in DATA_FILES:
+        with open(data_file) as f:
+            reader = DictReader(f)
+            for line in reader:
+                title = line["journal_full_title"]
+                if title in analysed_journals:
+                    continue
+                if title not in remaining_journals:
+                    remaining_journals[title] = {"journal_full_title": line["journal_full_title"], "publisher": line["publisher"], "is_hybrid": line["is_hybrid"], "issns": []}
+                for issn_type in ISSN_TYPES:
+                    issn = line[issn_type]
+                    if issn not in remaining_journals[title]["issns"] and oat.is_wellformed_ISSN(issn):
+                        remaining_journals[title]["issns"].append(issn)
+                is_hybrid = line["is_hybrid"]
+                if is_hybrid in ["TRUE", "FALSE"] and is_hybrid != remaining_journals[title]["is_hybrid"]:
+                    remaining_journals[title]["is_hybrid"] = "FLIPPED"
             
-    msg = "{} unique journals found in OpenAPC core data file, {} already analysed, {} remaining."
+    msg = "{} unique journals found in OpenAPC and offsetting files, {} already analysed, {} remaining."
     oat.print_g(msg.format(len(remaining_journals) + len(analysed_journals), len(analysed_journals), len(remaining_journals)))
 
     count = 0
@@ -167,4 +168,6 @@ def get_jtoc_journal_type(jtoc_id, retries=0):
 
     
 if __name__ == '__main__':
+    sys.path.append(path.dirname(path.dirname(path.dirname(path.abspath(__file__)))))
+    import openapc_toolkit as oat
     main()
