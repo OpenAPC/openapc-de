@@ -30,7 +30,10 @@ JOURNALTOC_RESULTS_FILE = "journaltoc_comparison.csv"
 
 RESULTS_FILE_FIELDNAMES = ["journal_full_title", "publisher", "issns", "is_hybrid", "in_jtoc", "jtoc_publisher", "jtoc_title", "jtoc_type"]
 ISSN_TYPES = ["issn", "issn_print", "issn_electronic", "issn_l"]
-BATCH_SIZE = 6000
+
+BATCH_SIZE = 1000
+JTOCS_USERNAME = "user@example.com"
+
 
 def main():
     analysed_journals = {}
@@ -103,7 +106,7 @@ def main():
 
 def get_jtoc_metadata(issn, retries=0):
     api_url = "http://www.journaltocs.ac.uk/api/journals/"
-    user_param = "?user=openapc@uni-bielefeld.de"
+    user_param = "?user=" + JTOCS_USERNAME
     
     url = api_url + issn + user_param
     req = Request(url)
