@@ -30,7 +30,7 @@ JOURNALTOC_RESULTS_FILE = "journaltoc_comparison.csv"
 
 RESULTS_FILE_FIELDNAMES = ["journal_full_title", "publisher", "issns", "is_hybrid", "in_jtoc", "jtoc_publisher", "jtoc_title", "jtoc_type"]
 ISSN_TYPES = ["issn", "issn_print", "issn_electronic", "issn_l"]
-BATCH_SIZE = 200
+BATCH_SIZE = 6000
 
 def main():
     analysed_journals = {}
