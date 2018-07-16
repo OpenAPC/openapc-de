@@ -54,7 +54,7 @@
 "CNRS",2015,2790,"10.1002/jnr.23591",TRUE,"Wiley-Blackwell","Journal of Neuroscience Research","0360-4012",NA,NA,"0360-4012","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"25821139",NA,"ut:000362831800004",NA,FALSE
 "CNRS",2015,2760,"10.1002/rcm.7210",TRUE,"Wiley-Blackwell","Rapid Communications in Mass Spectrometry","0951-4198",NA,NA,"0951-4198","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"26395603","PMC5033000","ut:000357454600001",NA,FALSE
 "CNRS",2015,2730,"10.1093/nar/gkv224",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","1362-4962","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"25779049","PMC4402537","ut:000354722500037",NA,TRUE
-"CNRS",2015,2700,"10.1038/cdd.2015.42",TRUE,"Springer Nature","Cell Death & Differentiation","1350-9047","1350-9047","1476-5403","1350-9047","http://www.springer.com/tdm",TRUE,"26024391","PMC4815975","ut:000368062000020",NA,FALSE
+"CNRS",2015,2700,"10.1038/cdd.2015.42",TRUE,"Springer Nature","Cell Death and Differentiation","1350-9047","1350-9047","1476-5403","1350-9047","http://www.springer.com/tdm",TRUE,"26024391","PMC4815975","ut:000368062000020",NA,FALSE
 "CNRS",2015,2700,"10.1002/pssa.201532303",TRUE,"Wiley-Blackwell","physica status solidi (a)","1862-6300",NA,NA,"1862-6300","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000362952400028",NA,FALSE
 "CNRS",2015,2700,"10.1038/ismej.2014.221",TRUE,"Springer Nature","The ISME Journal","1751-7362","1751-7362","1751-7370","1751-7362","http://www.springer.com/tdm",TRUE,"25461969","PMC4438323","ut:000354786700008",NA,FALSE
 "CNRS",2015,2689.86,"10.1016/j.ymeth.2015.07.010",TRUE,"Elsevier BV","Methods","1046-2023","1046-2023",NA,"1046-2023","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"26210398",NA,"ut:000371193000006",NA,FALSE
@@ -216,7 +216,7 @@
 "CNRS",2015,1710,"10.5194/hess-18-3121-2014",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000341597600020",NA,TRUE
 "CNRS",2015,1707.17,"10.1364/oe.23.007140",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"25837059",NA,"ut:000351765900017",NA,TRUE
 "CNRS",2015,1700.98,"10.3389/fpls.2015.00881",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"26539201","PMC4612159","ut:000364345400001",NA,TRUE
-"CNRS",2015,1700,"10.1093/ijnp/pyv022",TRUE,"Oxford University Press (OUP)","International Journal of Neuropsychopharmacology","1469-5111","1461-1457","1469-5111","1461-1457",NA,TRUE,"25733538","PMC4571631","ut:000359703500009",NA,TRUE
+"CNRS",2015,1700,"10.1093/ijnp/pyv022",TRUE,"Oxford University Press (OUP)","International Journal of Neuropsychopharmacology","1469-5111","1461-1457","1469-5111","1461-1457",NA,TRUE,"25733538","PMC4571631","ut:000359703500009",NA,FALSE
 "CNRS",2015,1700,"10.1186/s13045-015-0115-7",FALSE,"Springer Nature","Journal of Hematology & Oncology","1756-8722","1756-8722",NA,"1756-8722",NA,TRUE,"25886310","PMC4372312","ut:000351500600001",NA,TRUE
 "CNRS",2015,1696.56,"10.1364/optica.2.000944",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536","2334-2536",NA,TRUE,NA,NA,"ut:000365738100007",NA,TRUE
 "CNRS",2015,1695.6,"10.1364/ol.40.001294",TRUE,"Optical Society of America (OSA)","Optics Letters","0146-9592","0146-9592","1539-4794","0146-9592",NA,TRUE,"25831316",NA,"ut:000352154600041",NA,FALSE
@@ -681,7 +681,7 @@
 "CNRS",2015,242.25,"10.3897/phytokeys.46.8937",FALSE,"Pensoft Publishers","PhytoKeys","1314-2003","1314-2011","1314-2003","1314-2003","http://creativecommons.org/licenses/by/4.0/",TRUE,"25878546","PMC4391954","ut:000351791200001",NA,TRUE
 "CNRS",2015,232.5,"10.3389/fgene.2015.00206",FALSE,"Frontiers Media SA","Frontiers in Genetics","1664-8021",NA,"1664-8021","1664-8021",NA,TRUE,"26124772","PMC4463008","ut:000359644500001",NA,TRUE
 "CNRS",2015,232.42,"10.3390/e17042198",FALSE,"MDPI AG","Entropy","1099-4300",NA,"1099-4300","1099-4300","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000354125700033",NA,TRUE
-"CNRS",2015,227.5,NA,FALSE,"Blue Pen Journals",NA,"2053-1818",NA,NA,"2053-1818",NA,FALSE,NA,NA,NA,"http://www.bluepenjournals.org/ijambr/pdf/2015/August/Mobili_et_al.pdf",FALSE
+"CNRS",2015,227.5,NA,FALSE,"Blue Pen Journals","International Journal of Applied Microbiology and Biotechnology Research","2053-1818",NA,NA,"2053-1818",NA,FALSE,NA,NA,NA,"http://www.bluepenjournals.org/ijambr/pdf/2015/August/Mobili_et_al.pdf",FALSE
 "CNRS",2015,223.14,"10.1016/j.dib.2015.10.004",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"26958615","PMC4773365",NA,NA,TRUE
 "CNRS",2015,188.56,"10.15379/2408-977x.2015.02.01.1",TRUE,"Cosmos Scholars Publishing House","International Journal of Advanced Applied Physics Research","2408-977X",NA,"2408-977X","2408-977X",NA,TRUE,NA,NA,NA,NA,FALSE
 "CNRS",2015,178,"10.13189/ujms.2015.030401",FALSE,"Horizon Research Publishing Co., Ltd.","Universal Journal of Materials Science","2331-6691","2331-6691","2331-6705","2331-6705",NA,TRUE,NA,NA,NA,NA,FALSE
