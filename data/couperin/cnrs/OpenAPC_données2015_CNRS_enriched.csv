@@ -74,7 +74,7 @@
 "CNRS",2015,2584,"10.18632/oncotarget.3071",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"25779657","PMC4480700","ut:000354885300016",NA,FALSE
 "CNRS",2015,2583,"10.18632/oncotarget.4162",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"26068979","PMC4673163","ut:000362954800057",NA,FALSE
 "CNRS",2015,2583,"10.18632/oncotarget.3738",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"26059436","PMC4494908","ut:000359008200010",NA,FALSE
-"CNRS",2015,2581,"10.1371/journal.pbio.1002059",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","1544-9173","http://creativecommons.org/licenses/by/4.0/",TRUE,"25671553","PMC4344463","ut:000352080100006",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,2581,"10.1371/journal.pbio.1002247",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","1544-9173","http://creativecommons.org/licenses/by/4.0/",TRUE,"26352141","PMC4564238","ut:000362266100011",NA,TRUE
 "CNRS",2015,2565,"10.18632/oncotarget.4679",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"26325176","PMC4694804","ut:000363160100033",NA,FALSE
 "CNRS",2015,2565,"10.18632/oncotarget.4288",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"26299614","PMC4695127","ut:000363157700030",NA,FALSE
@@ -258,7 +258,7 @@
 "CNRS",2015,1600,"10.3389/fpsyg.2015.00989",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078",NA,TRUE,"26236264","PMC4503892","ut:000358218400001",NA,TRUE
 "CNRS",2015,1600,"10.3389/fpsyg.2015.00322",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078",NA,TRUE,"25852625","PMC4371586","ut:000351713600001",NA,TRUE
 "CNRS",2015,1600,"10.3389/fnsys.2015.00109",FALSE,"Frontiers Media SA","Frontiers in Systems Neuroscience","1662-5137",NA,"1662-5137","1662-5137",NA,TRUE,"26283933","PMC4516875","ut:000363846600002",NA,TRUE
-"CNRS",2015,1600,"10.1186/1944-3277-10-12",FALSE,"Springer Nature","Standards in Genomic Sciences","1944-3277",NA,"1944-3277","1944-3277",NA,FALSE,"26464750","PMC4603820","ut:000367983200001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,1594.62,"10.1016/j.brainres.2015.03.030",TRUE,"Elsevier BV","Brain Research","0006-8993","0006-8993",NA,"0006-8993","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"25819554","PMC4673104","ut:000366066400017",NA,FALSE
 "CNRS",2015,1590,"10.5194/amt-8-4347-2015",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000364317600024",NA,TRUE
 "CNRS",2015,1580,"10.1186/s12940-016-0163-7",FALSE,"Springer Nature","Environmental Health","1476-069X",NA,"1476-069X","1476-069X","http://www.springer.com/tdm",TRUE,"27449640","PMC4957910","ut:000380150000001",NA,TRUE
@@ -541,7 +541,7 @@
 "CNRS",2015,1050,"10.3402/tellusb.v67.27884",FALSE,"Informa UK Limited","Tellus B","1600-0889",NA,"1600-0889","0280-6509",NA,TRUE,NA,NA,"ut:000363414700001",NA,TRUE
 "CNRS",2015,1050,"10.3402/tellusb.v67.28385",FALSE,"Informa UK Limited","Tellus B","1600-0889",NA,"1600-0889","0280-6509",NA,TRUE,NA,NA,"ut:000361967400001",NA,TRUE
 "CNRS",2015,1046,"10.1038/srep07474",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"25559286","PMC4284513","ut:000347795300001",NA,TRUE
-"CNRS",2015,1040,"10.1186/1944-3277-10-12",FALSE,"Springer Nature","Standards in Genomic Sciences","1944-3277",NA,"1944-3277","1944-3277",NA,FALSE,"26464750","PMC4603820","ut:000367983200001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,1037.43,"10.1016/j.nmni.2014.11.003",FALSE,"Elsevier BV","New Microbes and New Infections","2052-2975","2052-2975",NA,"2052-2975","http://creativecommons.org/licenses/by-nc-nd/3.0/",TRUE,"25834736","PMC4354914",NA,NA,TRUE
 "CNRS",2015,1025.73,"10.5194/acpd-15-13395-2015",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics Discussions","1680-7375",NA,"1680-7375","1680-7375","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "CNRS",2015,1025.21,"10.1127/ejm/2015/0027-2481",TRUE,"Schweizerbart","European Journal of Mineralogy","0935-1221","0935-1221",NA,"0935-1221",NA,TRUE,NA,NA,"ut:000367042500001",NA,FALSE
@@ -564,8 +564,8 @@
 "",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,953.64,"10.1364/oe.23.002369",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"25836104",NA,"ut:000349688800062",NA,TRUE
 "CNRS",2015,950,"10.1186/s13104-015-1236-3",FALSE,"Springer Nature","BMC Research Notes","1756-0500",NA,"1756-0500","1756-0500",NA,TRUE,"26105071","PMC4479326",NA,NA,TRUE
-"CNRS",2015,950,"10.1186/1752-1947-9-1",FALSE,"Springer Nature","Journal of Medical Case Reports","1752-1947",NA,"1752-1947","1752-1947","http://www.springer.com/tdm",TRUE,"25560323","PMC4326192",NA,NA,TRUE
-"CNRS",2015,936,"10.5194/tc-9-989-2015",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000354442400011",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,931.54,"10.1016/j.ijid.2015.04.003",FALSE,"Elsevier BV","International Journal of Infectious Diseases","1201-9712","1201-9712",NA,"1201-9712","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"25869076",NA,"ut:000358004000006",NA,TRUE
 "CNRS",2015,930,"10.1107/s205252061500270x",TRUE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section B Structural Science, Crystal Engineering and Materials","2052-5206",NA,"2052-5206","2052-5192","http://creativecommons.org/licenses/by/2.0/uk/legalcode",TRUE,"25827369","PMC4383392","ut:000352166500005",NA,FALSE
 "CNRS",2015,930,"10.5194/bg-12-3885-2015",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","1726-4170","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000357119000016",NA,TRUE
@@ -590,12 +590,12 @@
 "CNRS",2015,840.34,"10.1002/ese3.53",FALSE,"Wiley-Blackwell","Energy Science & Engineering","2050-0505",NA,NA,"2050-0505","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000374422000003",NA,TRUE
 "CNRS",2015,840,"10.1186/s40562-014-0017-5",FALSE,"Springer Nature","Geoscience Letters","2196-4092",NA,"2196-4092","2196-4092","http://www.springer.com/tdm",TRUE,NA,NA,NA,NA,TRUE
 "CNRS",2015,820.41,"10.4236/jemaa.2015.73008",FALSE,"Scientific Research Publishing, Inc,","Journal of Electromagnetic Analysis and Applications","1942-0730","1942-0730","1942-0749","1942-0730","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"CNRS",2015,820,"10.1186/1752-1947-9-1",FALSE,"Springer Nature","Journal of Medical Case Reports","1752-1947",NA,"1752-1947","1752-1947","http://www.springer.com/tdm",TRUE,"25560323","PMC4326192",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,820,"10.1186/s13256-015-0548-1",FALSE,"Springer Nature","Journal of Medical Case Reports","1752-1947",NA,"1752-1947","1752-1947","http://www.springer.com/tdm",TRUE,"25886183","PMC4381499",NA,NA,TRUE
 "CNRS",2015,820,"10.1186/s12974-015-0345-1",FALSE,"Springer Nature","Journal of Neuroinflammation","1742-2094","1742-2094",NA,"1742-2094",NA,TRUE,"26112704","PMC4488051","ut:000357152800001",NA,TRUE
 "CNRS",2015,819.92,"10.4172/2332-0877.1000170",FALSE,"OMICS Publishing Group","Journal of Infectious Diseases and Therapy","2332-0877",NA,"2332-0877","2332-0877",NA,TRUE,NA,NA,NA,NA,FALSE
 "CNRS",2015,806.78,"10.1107/s1399004714018446",TRUE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section D Biological Crystallography","1399-0047",NA,"1399-0047","0907-4449","http://creativecommons.org/licenses/by/2.0/uk/legalcode",TRUE,"25372688","PMC4220976","ut:000344792000019",NA,FALSE
-"CNRS",2015,803.25,"10.5194/tc-9-989-2015",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000354442400011",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,800,"10.3389/frobt.2015.00012",FALSE,"Frontiers Media SA","Frontiers in Robotics and AI","2296-9144",NA,"2296-9144","2296-9144",NA,TRUE,NA,NA,"ut:000421362200015",NA,TRUE
 "CNRS",2015,793.26,"10.3389/fphys.2015.00213",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X",NA,TRUE,"26300779","PMC4526817","ut:000360470800001",NA,TRUE
 "CNRS",2015,792,"10.5194/os-11-471-2015",FALSE,"Copernicus GmbH","Ocean Science","1812-0792",NA,"1812-0792","1812-0784","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000360655800001",NA,TRUE
@@ -631,7 +631,7 @@
 "CNRS",2015,598.51,"10.1371/journal.pone.0124477",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26270648","PMC4536016","ut:000359492800002",NA,TRUE
 "CNRS",2015,575,"10.3389/fcimb.2014.00193",FALSE,"Frontiers Media SA","Frontiers in Cellular and Infection Microbiology","2235-2988",NA,"2235-2988","2235-2988",NA,TRUE,"25653924","PMC4301024","ut:000349157100001",NA,TRUE
 "CNRS",2015,560,"10.3391/ai.2015.10.3.07",FALSE,"Regional Euro-Asian Biological Invasions Centre Oy (REABIC)","Aquatic Invasions","1818-5487",NA,"1818-5487","1818-5487",NA,TRUE,NA,NA,"ut:000364345100007",NA,TRUE
-"CNRS",2015,547.93,"10.1371/journal.pbio.1002059",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","1544-9173","http://creativecommons.org/licenses/by/4.0/",TRUE,"25671553","PMC4344463","ut:000352080100006",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,531.54,"10.1016/j.ijid.2015.03.018",FALSE,"Elsevier BV","International Journal of Infectious Diseases","1201-9712","1201-9712",NA,"1201-9712","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"25835103",NA,"ut:000355926800022",NA,TRUE
 "CNRS",2015,523.97,"10.1155/2015/592090",FALSE,"Hindawi Publishing Corporation","Stem Cells International","1687-966X","1687-966X","1687-9678","1687-966X","http://creativecommons.org/licenses/by/3.0/",TRUE,"25733979","PMC4334981","ut:000349823900001",NA,TRUE
 "CNRS",2015,501.68,"10.1371/journal.pone.0117750",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25693176","PMC4333358","ut:000350061500072",NA,TRUE
@@ -647,7 +647,7 @@
 "CNRS",2015,464,"10.5194/cp-11-1417-2015",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","1814-9324","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000364324600010",NA,TRUE
 "CNRS",2015,460.8,"10.1088/1367-2630/17/2/023073",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000352867100011",NA,TRUE
 "CNRS",2015,460.66,"10.1128/genomea.00878-15",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"26251499","PMC4541277",NA,NA,FALSE
-"CNRS",2015,460,"10.3390/cells4030483",FALSE,"MDPI AG","Cells","2073-4409",NA,"2073-4409","2073-4409","https://creativecommons.org/licenses/by/4.0/",TRUE,"26378582","PMC4588047","ut:000418776600013",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,453.65,"10.1128/genomea.00816-15",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"26205865","PMC4513159",NA,NA,FALSE
 "CNRS",2015,453.43,"10.1128/genomea.01369-15",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"26586900","PMC4653802",NA,NA,FALSE
 "CNRS",2015,450,"10.1093/pcp/pcu177",TRUE,"Oxford University Press (OUP)","Plant and Cell Physiology","0032-0781","0032-0781","1471-9053","0032-0781",NA,TRUE,"25432975","PMC4301744","ut:000350122400004",NA,FALSE
@@ -657,9 +657,9 @@
 "CNRS",2015,441.15,"10.1128/genomea.01314-15",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"26543131","PMC4645216",NA,NA,FALSE
 "CNRS",2015,441.15,"10.1128/genomea.01274-15",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"26543113","PMC4645198",NA,NA,FALSE
 "CNRS",2015,405.68,"10.2174/2213335602666150729222314",TRUE,"Bentham Science Publishers Ltd.","Current Microwave Chemistry","2213-3356","2213-3356",NA,"2213-3356",NA,TRUE,NA,NA,"ut:000410856800007",NA,FALSE
-"CNRS",2015,405,"10.1371/journal.pone.0116070",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25671520","PMC4324829","ut:000349545300016",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,400.5,"10.1371/journal.pone.0141052",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"26535895","PMC4633138","ut:000364298400050",NA,TRUE
-"CNRS",2015,400.27,"10.1371/journal.pone.0116070",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"25671520","PMC4324829","ut:000349545300016",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,400,"10.1051/0004-6361/201423598",TRUE,"EDP Sciences","Astronomy & Astrophysics","0004-6361","0004-6361","1432-0746","0004-6361",NA,TRUE,NA,NA,"ut:000343092100052",NA,FALSE
 "CNRS",2015,393.94,"10.3390/s141121466",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"25401688","PMC4279543","ut:000345562800080",NA,TRUE
 "CNRS",2015,389.03,"10.3389/feart.2015.00040",FALSE,"Frontiers Media SA","Frontiers in Earth Science","2296-6463",NA,"2296-6463","2296-6463",NA,TRUE,NA,NA,"ut:000421619700015",NA,TRUE
@@ -672,7 +672,7 @@
 "CNRS",2015,300,"10.3389/fmicb.2015.00857",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"26379636","PMC4551099","ut:000360340300001",NA,TRUE
 "CNRS",2015,300,"10.1051/swsc/2015027",FALSE,"EDP Sciences","Journal of Space Weather and Space Climate","2115-7251",NA,"2115-7251","2115-7251",NA,TRUE,NA,NA,"ut:000360161100001",NA,TRUE
 "CNRS",2015,293.2,"10.3390/v7122937",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915","1999-4915","https://creativecommons.org/licenses/by/4.0/",TRUE,"26633467","PMC4690861","ut:000367536700012",NA,TRUE
-"CNRS",2015,288.3,"10.3390/cells4030483",FALSE,"MDPI AG","Cells","2073-4409",NA,"2073-4409","2073-4409","https://creativecommons.org/licenses/by/4.0/",TRUE,"26378582","PMC4588047","ut:000418776600013",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,288,"10.3390/bios5020241",FALSE,"MDPI AG","Biosensors","2079-6374",NA,"2079-6374","2079-6374","https://creativecommons.org/licenses/by/4.0/",TRUE,"25938789","PMC4493548","ut:000215188800008",NA,TRUE
 "CNRS",2015,281.97,"10.3390/catal5010310",FALSE,"MDPI AG","Catalysts","2073-4344",NA,"2073-4344","2073-4344","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000352059400016",NA,TRUE
 "CNRS",2015,267,"10.1371/journal.pntd.0004133",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"26451592","PMC4599739","ut:000364459600038",NA,TRUE
