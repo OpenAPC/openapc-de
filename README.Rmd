@@ -194,6 +194,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Aix-Marseille Université
 - Université de Bordeaux
 - Université de Bourgogne
+- Centre national de la recherche scientifique (CNRS)
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - Institut national de recherche en informatique et en automatique (INRIA)
@@ -201,6 +202,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national polytechnique de Toulouse (INPT)
 - Université Lille 1
 - Université Lille 2
+- Université de Lorraine
 - Université Nice-Sophia-Antipolis
 - Université de Poitiers
 - Université de Rennes 1
