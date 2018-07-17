@@ -84,7 +84,8 @@ JOURNAL_OWNER_CHANGED = {
     "2169-9275": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Oceans
     "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
     "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition (electronic)
-    "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"] # Journal of Leukocyte Biology
+    "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology
+    "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"] # Applications in Plant Sciences
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -114,7 +115,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1574-7891", # Molecular Oncology, Gold OA since 2/2017
     "1749-5016", # Social Cognitive and Affective Neuroscience, Gold OA since 2017
     "0161-0457", # Scanning, Gold OA since 2017
-    "2300-3235" # Bulletin of the Veterinary Institute in Puławy, Gold OA since 2016
+    "2300-3235", # Bulletin of the Veterinary Institute in Puławy, Gold OA since 2016
+    "1461-1457" # International Journal of Neuropsychopharmacology, Gold OA since 2015
 ]
 
 class RowObject(object):
@@ -303,6 +305,7 @@ def check_name_consistency(row_object):
     issn = row["issn"] if oat.has_value(row["issn"]) else None
     issn_p = row["issn_print"] if oat.has_value(row["issn_print"]) else None
     issn_e = row["issn_electronic"] if oat.has_value(row["issn_electronic"]) else None
+    hybrid_status_changed = len({issn, issn_p, issn_e}.intersection(JOURNAL_HYBRID_STATUS_CHANGED)) > 0
     journal = row["journal_full_title"]
     publ = row["publisher"]
     hybrid = row["is_hybrid"]
@@ -321,7 +324,7 @@ def check_name_consistency(row_object):
             if not other_journal == journal:
                 ret = msg.format("", issn, "journal title", journal, other_journal)
                 pytest.fail(ret)
-            if not other_hybrid == hybrid and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
+            if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("", issn, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
     if issn_p is not None:
@@ -336,7 +339,7 @@ def check_name_consistency(row_object):
             if not other_journal == journal:
                 ret = msg.format("Print ", issn_p, "journal title", journal, other_journal)
                 pytest.fail(ret)
-            if not other_hybrid == hybrid and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
+            if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("Print ", issn_p, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
     if issn_e is not None:
@@ -351,7 +354,7 @@ def check_name_consistency(row_object):
             if not other_journal == journal:
                 ret = msg.format("Electronic ", issn_e, "journal title", journal, other_journal)
                 pytest.fail(ret)
-            if not other_hybrid == hybrid and issn not in JOURNAL_HYBRID_STATUS_CHANGED:
+            if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("Electronic ", issn_e, "hybrid status", hybrid, other_hybrid)
                 pytest.fail(ret)
 

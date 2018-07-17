@@ -1108,7 +1108,9 @@ def get_unified_journal_title(journal_full_title):
         "BJPsych Open": "British Journal of Psychiatry Open",
         "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY": "Journal of Forensic Science & Criminology",
         "New J. Chem.": "New Journal of Chemistry",
-        "The British Journal of Criminology": "British Journal of Criminology"
+        "The British Journal of Criminology": "British Journal of Criminology",
+        "Journal of Alzheimer's disease": "Journal of Alzheimer's Disease",
+        "Cell Death & Differentiation": "Cell Death and Differentiation"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
