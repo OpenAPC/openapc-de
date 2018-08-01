@@ -4,19 +4,35 @@ This is data from the York University Libraries Open Access Author Fund.  It cov
 
 # Source
 
-Original data source: [YorkU OA Fund_May 2018.xlsx](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/27524/YorkU%20OA%20Fund_May%202018.xlsx) from [Dataset: York University Libraries Open Access Author Fund](https://yorkspace.library.yorku.ca/xmlui/handle/10315/27524).
+Original data source: [YorkU OA Fund July 2018.xlsx](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/27524/YorkU%20OA%20Fund%20July%202018.xlsx) from [Dataset: York University Libraries Open Access Author Fund](https://yorkspace.library.yorku.ca/xmlui/handle/10315/27524).
 
 # Processing
 
-Steps taken to clean the data, by editing it in Org in Emacs, then exporting it with R:
+The source Excel spreadsheet is cleaner than the previous version.  Once it is downloaded, this R script is all that is needed for generate the CSV here:
 
-+ columns moved, renamed, added and deleted to meet requirements
-+ "period" simplified from the original date field, so it is just the year
-+ "cost" and "currency" columns used to hold costs until "euros" column can be filled in
-+ minor cleanup: DOIs standardized, some journal titles and publisher names expanded and standardized
-+ removed an open access book
-+ removed articles where the cost was 0
-* removed a 2013 *BMC Public Health* article (1970 USD) where no DOI is known
+``` R
+library(tidyverse)
+library(readxl)
+
+yorkdata <- read_excel("YorkU OA Fund July 2018.xlsx", sheet="raw data") %>%
+    mutate(institution = "York University") %>%
+    mutate(period = as.Date(date)) %>%
+    mutate(is_hybrid = "FALSE") %>%
+    rename(journal_full_title = journal_title) %>%
+    ## Exclude anything with 0 cost
+    filter(fee > 0) %>%
+    ## Some fees are in EUR; others need to be converted from fee and currency column
+    mutate(euro = if_else(currency == "EUR", fee, 0)) %>%
+    ## Exclude anything without both a DOI a URL (we are missing data for these)
+    filter(! (is.na(doi) & is.na(url))) %>%
+    ## Add in ISSN for the one journal where it is needed (no DOI, but it does have a URL)
+    mutate(issn = if_else(journal_full_title == "American Journal of Translational Research", "1943-8141", "")) %>%
+    ## Exclude the one thing without a journal title, which is an ebook
+    filter(! is.na(journal_full_title)) %>%
+    select(institution, period, euro, doi, is_hybrid, publisher, journal_full_title, issn, url)
+write_csv(yorkdata, "york-university.csv")
+
+```
 
 # TO DO
 
