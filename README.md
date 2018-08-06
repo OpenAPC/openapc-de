@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 54,959 open access journal articles, amounting to € 103,974,244 and contributed by 182 institutions.
+At the moment this project provides cost data on 54,973 open access journal articles, amounting to € 103,996,612 and contributed by 183 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -176,6 +176,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
+- Université Clermont Auvergne
 - Université Lille 1
 - Université Lille 2
 - Université de Lorraine
@@ -259,9 +260,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 54,959 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 182 research performing institutions and research funders. 
+This dataset contains information on 54,973 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 183 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 103,974,244. The average payment was € 1,892  and the median was € 1,691.
+In total, publication fee spending covered by the Open APC initiative amounted to € 103,996,612. The average payment was € 1,892  and the median was € 1,690.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -275,7 +276,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-32,504 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 48,270,968, including value-added tax; the average payment was € 1,485 (median =  € 1,408, SD = € 700).
+32,518 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 48,293,336, including value-added tax; the average payment was € 1,485 (median =  € 1,408, SD = € 700).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -413,6 +414,7 @@ The following table summarises institutional spending on articles published in f
 |LSE                                                             |       14|                26,721|   1,909 (822)|  1,798|       718 - 3,000|
 |NILU - Norwegian Institute for Air Research                     |       14|                20,647|   1,475 (487)|  1,441|       661 - 2,462|
 |Rhode Island U                                                  |       14|                11,639|     831 (605)|    691|        77 - 2,019|
+|Université Clermont Auvergne                                    |       14|                22,368|   1,598 (863)|  1,350|       250 - 3,700|
 |Bergen University College                                       |       13|                19,984|   1,537 (511)|  1,713|       184 - 2,120|
 |IST Austria                                                     |       13|                30,578| 2,352 (1,608)|  1,632|       562 - 5,412|
 |Nord University                                                 |       12|                14,974|   1,248 (559)|  1,126|       101 - 2,045|
