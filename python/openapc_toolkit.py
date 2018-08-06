@@ -963,7 +963,8 @@ def get_unified_publisher_name(publisher):
         "Hindawi Limited": "Hindawi Publishing Corporation",
         "Oxford University Press": "Oxford University Press (OUP)",
         "Wiley": "Wiley-Blackwell",
-        "Bioscientifica": "BioScientifica"
+        "Bioscientifica": "BioScientifica",
+        "Springer Nature America, Inc": "Springer Nature"
     }
     return publisher_mappings.get(publisher, publisher)
 
