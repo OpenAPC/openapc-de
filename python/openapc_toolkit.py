@@ -765,7 +765,9 @@ def process_row(row, row_num, column_map, num_required_columns,
         "unknown_prefix": "publisher 'Springer Nature' found for a " +
                           "pre-2015 article, but discrimination was " +
                           "not possible - unknown prefix ('%s')",
-        "issn_hyphen_fix": "Normalisation: Added hyphen to %s value (%s -> %s)"
+        "issn_hyphen_fix": "Normalisation: Added hyphen to %s value (%s -> %s)",
+        "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)"
+            
     }
 
     if len(row) != num_required_columns:
@@ -795,6 +797,13 @@ def process_row(row, row_num, column_map, num_required_columns,
                 except ValueError:
                     msg = "Line %s: " + MESSAGES["locale"]
                     logging.error(msg, row_num, euro_value, csv_column.index)
+        elif csv_column.column_type == "period":
+            value = row[csv_column.index]
+            if re.match("^\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?$", value):
+                msg = "Line %s: " + MESSAGES["period_format"]
+                new_value = value[:4]
+                logging.warning(msg, row_num, value, new_value)
+                current_row[csv_column.column_type] = new_value
         else:
             if csv_column.index is not None and len(row[csv_column.index]) > 0:
                 current_row[csv_column.column_type] = row[csv_column.index]
