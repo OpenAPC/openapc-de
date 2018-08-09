@@ -271,6 +271,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 ## Participating Institutions from the United States:
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
+- [Indiana University - Purdue University Indianapolis (IUPUI)](http://www.ulib.iupui.edu/digitalscholarship/openaccess/oafund)
 - [University of Rhode Island](https://uri.libguides.com/oafund)
 - [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
 
