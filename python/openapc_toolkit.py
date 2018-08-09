@@ -671,6 +671,47 @@ def lookup_journal_in_doaj(issn):
         msg = "ValueError while parsing JSON: {}"
         ret_value['error_msg'] = msg.format(ve.message)
     return ret_value
+    
+def get_euro_exchange_rates(currency, frequency="D"):
+    """
+    Obtain historical euro exchange rates against a certain currency from the European Central Bank.
+    
+    Take a currency and a frequency type (either daily, monthly average or yearly average rates) and
+    return a dict containing all data provided by the ECB for the chosen parameters.
+    
+    Args:
+        currency: A three-letter string representing a currency code according to ISO 4217
+        frequency: Must be either "D" (daily), "M" (monthly) or "A" (annual). In the last two cases
+                   the results will be average values for the given time frames.
+    
+    Returns:
+        A dict of date strings mapping to exchange rates (as floats). Depending on the chosen
+        freqency, the date format will either be "YYYY", "YYYY-MM" or "YYYY-MM-DD".
+    """
+    ISO_4217_RE = re.compile("[A-Z]{3}")
+    FREQUENCIES = ["D", "M", "A"]
+    
+    URL_TEMPLATE = "http://sdw-wsrest.ecb.europa.eu/service/data/EXR/{}.{}.EUR.SP00.A?format=csvdata"
+    
+    if not ISO_4217_RE.match(currency):
+        raise ValueError('"' + currency + '" is no valid currency code!')
+    if frequency not in FREQUENCIES:
+        raise ValueError("Frequency must be one of " + ", ".join(FREQUENCIES))
+    
+    url = URL_TEMPLATE.format(frequency, currency)
+    req = Request(url)
+    response = urlopen(req)
+    lines = []
+    for line in response:
+        lines.append(line.decode("utf-8"))
+    reader = csv.DictReader(lines)
+    result = {}
+    for line in reader:
+        date = line["TIME_PERIOD"]
+        value = line["OBS_VALUE"]
+        result[date] = value
+    return result
+
 
 def process_row(row, row_num, column_map, num_required_columns,
                 no_crossref_lookup=False, no_pubmed_lookup=False,
