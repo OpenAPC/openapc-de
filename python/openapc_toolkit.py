@@ -804,6 +804,8 @@ def process_row(row, row_num, column_map, num_required_columns,
                 new_value = value[:4]
                 logging.warning(msg, row_num, value, new_value)
                 current_row[csv_column.column_type] = new_value
+            else:
+                current_row[csv_column.column_type] = value
         else:
             if csv_column.index is not None and len(row[csv_column.index]) > 0:
                 current_row[csv_column.column_type] = row[csv_column.index]
