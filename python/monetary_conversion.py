@@ -37,8 +37,8 @@ ARG_HELP_STRINGS = {
 }
 
 YEARLY_RE = re.compile("^\d\d\d\d$")
-MONTHLY_RE = re.compile("^\d\d\d\d-[0-1]{1}\d$")
-DAILY_RE = re.compile("^\d\d\d\d-[0-1]{1}\d-[0-3]{1}\d$")
+MONTHLY_RE = re.compile("^\d{4}-[0-1]{1}\d$")
+DAILY_RE = re.compile("^\d{4}-[0-1]{1}\d-[0-3]{1}\d$")
 
 def get_frequency(date_string):
     date_string = date_string.strip()
