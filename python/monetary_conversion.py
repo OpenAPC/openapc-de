@@ -5,31 +5,15 @@ import argparse
 import codecs
 import locale
 from os import path
+import re
 import sys
 
 import openapc_toolkit as oat
 
-AVG_YEARLY_CONVERSION_RATES = {
-    "CAD": {
-        "2013": 1.3684,
-        "2014": 1.4661,
-        "2015": 1.4186,
-        "2016": 1.4659,
-        "2017": 1.4647,
-        "2018": 1.5451
-    },
-    "USD": {
-        "2009": 1.3948,
-        "2010": 1.3257,
-        "2011": 1.3920,
-        "2012": 1.2848,
-        "2013": 1.3281,
-        "2014": 1.3285,
-        "2015": 1.1095,
-        "2016": 1.1069,
-        "2017": 1.1297,
-        "2018": 1.2071
-    }
+EXCHANGE_RATES = {
+    "D": {},
+    "M": {},
+    "A": {} 
 }
 
 ARG_HELP_STRINGS = {
@@ -51,6 +35,21 @@ ARG_HELP_STRINGS = {
               "locale might become a problem if the file contains monetary " +
               "values with ',' as decimal mark character)",
 }
+
+YEARLY_RE = re.compile("^\d\d\d\d$")
+MONTHLY_RE = re.compile("^\d\d\d\d-[0-1]{1}\d$")
+DAILY_RE = re.compile("^\d\d\d\d-[0-1]{1}\d-[0-3]{1}\d$")
+
+def get_frequency(date_string):
+    date_string = date_string.strip()
+    if YEARLY_RE.match(date_string):
+        return "A"
+    elif MONTHLY_RE.match(date_string):
+        return "M"
+    elif DAILY_RE.match(date_string):
+        return "D"
+    else:
+        return None
 
 def main():
     parser = argparse.ArgumentParser()
@@ -109,7 +108,7 @@ def main():
             oat.print_r(msg)
             sys.exit()
         
-    header, content = oat.get_csv_file_content(args.source_file, enc)
+    header, content = oat.get_csv_file_content(args.source_file, enc, True)
     fieldnames = header.pop()
     
     modified_content = []
@@ -140,27 +139,37 @@ def main():
             oat.print_y(msg.format(line_num, line[args.source_column]))
             modified_content.append(line)
             continue
-        period = line[args.period_column]
-        if not oat.has_value(period) or not period.isdigit():
-            msg = "WARNING: Could not extract a valid year string from period column in line {} ('{}'), skipping..."
-            oat.print_y(msg.format(line_num, period))
-            modified_content.append(line)
-            continue
         currency = line[args.currency_column]
         if not oat.has_value(currency):
             msg = "WARNING: Could not extract a valid currency indicator from currency column in line {} ('{}'), skipping..."
             oat.print_y(msg.format(line_num, currency))
             modified_content.append(line)
             continue
+        period = line[args.period_column]
+        frequency = get_frequency(period)
+        if frequency is None:
+            msg = "WARNING: Could not extract a valid date string from period column in line {} ('{}'), skipping..."
+            oat.print_y(msg.format(line_num, period))
+            modified_content.append(line)
+            continue
+        if currency not in EXCHANGE_RATES[frequency]:
+            msg = 'No exchange rates ({}) found for currency "{}", querying ECB data warehouse...'
+            oat.print_b(msg.format(frequency, currency))
+            rates = oat.get_euro_exchange_rates(currency, frequency)
+            EXCHANGE_RATES[frequency][currency] = rates
         try:
-            rate = AVG_YEARLY_CONVERSION_RATES[currency][period]
+            rate = EXCHANGE_RATES[frequency][currency][period]
         except KeyError:
-            msg = "ERROR: No conversion rate found for currency {} in year {} (line {}), aborting..."
+            msg = "ERROR: No conversion rate found for currency {} for period {} (line {}), aborting..."
             oat.print_r(msg.format(currency, period, line_num))
             sys.exit()
         
-        euro_value = round(monetary_value/rate, 2)
+        euro_value = round(monetary_value/float(rate), 2)
         line[args.target_column] = str(euro_value)
+        
+        msg = "Line {}: {} exchange rate ({}) for date {} is {} -> {} / {} = {} EUR"
+        msg = msg.format(line_num, currency, frequency, period, rate, monetary_value, rate, euro_value)
+        oat.print_g(msg)
         
         modified_content.append(line)
     
