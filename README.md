@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 55,147 open access journal articles, amounting to € 104,243,167 and contributed by 184 institutions.
+At the moment this project provides cost data on 55,191 open access journal articles, amounting to € 104,305,891 and contributed by 184 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -261,9 +261,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 55,147 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 184 research performing institutions and research funders. 
+This dataset contains information on 55,191 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 184 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 104,243,167. The average payment was € 1,890  and the median was € 1,687.
+In total, publication fee spending covered by the Open APC initiative amounted to € 104,305,891. The average payment was € 1,890  and the median was € 1,687.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -277,7 +277,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-32,691 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 48,538,286, including value-added tax; the average payment was € 1,485 (median =  € 1,407, SD = € 699).
+32,735 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 48,601,010, including value-added tax; the average payment was € 1,485 (median =  € 1,408, SD = € 699).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -326,6 +326,7 @@ The following table summarises institutional spending on articles published in f
 |University of Manchester                                        |      246|               479,435|   1,949 (983)|  1,666|       431 - 4,888|
 |Swiss National Science Foundation (SNSF)                        |      244|               395,297|   1,620 (902)|  1,361|       227 - 5,000|
 |Duisburg-Essen U                                                |      235|               320,066|   1,362 (512)|  1,276|       238 - 3,700|
+|Oldenburg U                                                     |      221|               277,787|   1,257 (507)|  1,387|        63 - 2,009|
 |University of Oslo                                              |      218|               339,354|   1,557 (541)|  1,522|        70 - 3,522|
 |Stuttgart U                                                     |      210|               254,329|   1,211 (611)|  1,261|        91 - 3,320|
 |Bochum U                                                        |      204|               304,382|   1,492 (405)|  1,562|       100 - 2,648|
@@ -334,7 +335,6 @@ The following table summarises institutional spending on articles published in f
 |Ulm U                                                           |      190|               293,342|   1,544 (537)|  1,545|       260 - 5,284|
 |KTH Royal Institute of Technology                               |      181|               217,262|   1,200 (728)|  1,152|       185 - 3,300|
 |University of Tromsø - The Arctic University of Norway          |      179|               252,462|   1,410 (415)|  1,523|       496 - 2,404|
-|Oldenburg U                                                     |      177|               215,062|   1,215 (495)|  1,361|        63 - 2,002|
 |GFZ-Potsdam                                                     |      170|               224,765|   1,322 (809)|  1,231|       137 - 4,403|
 |Cardiff University                                              |      169|               289,389|   1,712 (792)|  1,562|       204 - 4,510|
 |Linköping University                                            |      167|               262,221|   1,570 (655)|  1,357|        75 - 4,440|
@@ -620,8 +620,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.69%       |
-|PubMed ID                  |  76.61%      |
-|PubMed Central ID          |  70.08%     |
+|PubMed ID                  |  76.6%      |
+|PubMed Central ID          |  70.07%     |
 |Web of Science record ID   | 92.67%      |
 
 
