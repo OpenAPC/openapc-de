@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 55,191 open access journal articles, amounting to € 104,305,891 and contributed by 184 institutions.
+At the moment this project provides cost data on 55,201 open access journal articles, amounting to € 104,326,867 and contributed by 185 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -82,6 +82,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
+- [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](http://www.igb-berlin.de/bibliothek)
 - [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
@@ -261,9 +262,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 55,191 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 184 research performing institutions and research funders. 
+This dataset contains information on 55,201 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 185 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 104,305,891. The average payment was € 1,890  and the median was € 1,687.
+In total, publication fee spending covered by the Open APC initiative amounted to € 104,326,867. The average payment was € 1,890  and the median was € 1,687.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -277,7 +278,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-32,735 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 48,601,010, including value-added tax; the average payment was € 1,485 (median =  € 1,408, SD = € 699).
+32,740 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 48,611,712, including value-added tax; the average payment was € 1,485 (median =  € 1,407, SD = € 699).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -320,8 +321,8 @@ The following table summarises institutional spending on articles published in f
 |JGU Mainz                                                       |      318|               456,141|   1,434 (502)|  1,458|        95 - 2,699|
 |FU Berlin                                                       |      294|               413,858|   1,408 (485)|  1,506|       150 - 2,142|
 |TU Dresden                                                      |      275|               390,484|   1,420 (407)|  1,500|       200 - 2,193|
-|Leibniz-Fonds                                                   |      274|               439,562|   1,604 (604)|  1,570|        66 - 4,403|
 |Stockholm University                                            |      274|               413,066|   1,508 (702)|  1,336|       140 - 4,486|
+|Leibniz-Fonds                                                   |      273|               438,130|   1,605 (605)|  1,572|        66 - 4,403|
 |University of Liverpool                                         |      262|               445,007|   1,699 (712)|  1,693|       223 - 5,382|
 |University of Manchester                                        |      246|               479,435|   1,949 (983)|  1,666|       431 - 4,888|
 |Swiss National Science Foundation (SNSF)                        |      244|               395,297|   1,620 (902)|  1,361|       227 - 5,000|
@@ -435,6 +436,7 @@ The following table summarises institutional spending on articles published in f
 |Université de Bourgogne                                         |        7|                 9,568|   1,367 (257)|  1,285|       960 - 1,625|
 |University of Loughborough                                      |        7|                 9,422|   1,346 (514)|  1,650|       384 - 1,760|
 |Chalmers University of Technology                               |        6|                 5,817|     970 (444)|  1,012|       413 - 1,650|
+|Leibniz-IGB                                                     |        6|                12,134| 2,022 (1,376)|  2,132|       299 - 3,700|
 |Nansen Environmental and Remote Sensing Center                  |        6|                 5,298|     883 (407)|    775|       582 - 1,655|
 |University College West                                         |        6|                 4,868|     811 (464)|    729|       272 - 1,677|
 |University of Portsmouth                                        |        6|                 8,489|   1,415 (403)|  1,303|       887 - 1,915|
@@ -473,7 +475,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 22,456 open access articles being published in hybrid journals. Total expenditure amounts to  55,704,881 €. Average  fee is 2,481 € and the median 2,441 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 22,461 open access articles being published in hybrid journals. Total expenditure amounts to  55,715,154 €. Average  fee is 2,481 € and the median 2,441 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -560,6 +562,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Chalmers University of Technology                           |        7|                16,723|   2,389 (323)|  2,429|     2,132 - 3,040|
 |Aberystwyth University                                      |        6|                16,115|   2,686 (792)|  2,775|     1,200 - 3,481|
 |University of Portsmouth                                    |        6|                13,412|   2,235 (751)|  2,652|     1,193 - 2,785|
+|Leibniz-IGB                                                 |        5|                10,273| 2,055 (1,344)|  2,871|       352 - 3,200|
 |Université Lille 1                                          |        5|                14,411|   2,882 (418)|  2,959|     2,200 - 3,348|
 |Université Pierre et Marie Curie (Paris VI)                 |        5|                12,458|   2,492 (820)|  2,275|     1,540 - 3,480|
 |University of Salford                                       |        5|                13,547|   2,709 (239)|  2,662|     2,382 - 2,981|
@@ -650,7 +653,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
