@@ -85,7 +85,9 @@ JOURNAL_OWNER_CHANGED = {
     "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
     "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition (electronic)
     "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology
-    "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"] # Applications in Plant Sciences
+    "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
+    "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology
+    "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -116,7 +118,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1749-5016", # Social Cognitive and Affective Neuroscience, Gold OA since 2017
     "0161-0457", # Scanning, Gold OA since 2017
     "2300-3235", # Bulletin of the Veterinary Institute in Puławy, Gold OA since 2016
-    "1461-1457" # International Journal of Neuropsychopharmacology, Gold OA since 2015
+    "1461-1457", # International Journal of Neuropsychopharmacology, Gold OA since 2015,
+    "1010-4283" # Tumor Biology, Gold OA since 2017
 ]
 
 class RowObject(object):
