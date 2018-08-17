@@ -1163,7 +1163,8 @@ def get_unified_journal_title(journal_full_title):
         "New J. Chem.": "New Journal of Chemistry",
         "The British Journal of Criminology": "British Journal of Criminology",
         "Journal of Alzheimer's disease": "Journal of Alzheimer's Disease",
-        "Cell Death & Differentiation": "Cell Death and Differentiation"
+        "Cell Death & Differentiation": "Cell Death and Differentiation",
+        "Nat. Prod. Rep.": "Natural Product Reports"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
