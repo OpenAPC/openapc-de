@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 55,330 open access journal articles, amounting to € 104,549,785 and contributed by 186 institutions.
+At the moment this project provides cost data on 55,346 open access journal articles, amounting to € 104,567,944 and contributed by 186 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -264,9 +264,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 55,330 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 186 research performing institutions and research funders. 
+This dataset contains information on 55,346 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 186 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 104,549,785. The average payment was € 1,890  and the median was € 1,687.
+In total, publication fee spending covered by the Open APC initiative amounted to € 104,567,944. The average payment was € 1,889  and the median was € 1,686.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -280,7 +280,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-32,867 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 48,829,761, including value-added tax; the average payment was € 1,486 (median =  € 1,409, SD = € 699).
+32,883 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 48,847,920, including value-added tax; the average payment was € 1,486 (median =  € 1,409, SD = € 699).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -309,9 +309,9 @@ The following table summarises institutional spending on articles published in f
 |Universitat de Barcelona                                        |      464|               443,269|     955 (472)|    899|        55 - 2,000|
 |Swedish University of Agricultural Sciences                     |      450|               595,056|   1,322 (443)|  1,328|       124 - 3,700|
 |University of Oxford                                            |      448|               965,918| 2,156 (1,152)|  1,901|       220 - 5,661|
+|Bielefeld U                                                     |      446|               579,938|   1,300 (373)|  1,323|       140 - 2,380|
 |Muenchen LMU                                                    |      443|               594,905|   1,343 (322)|  1,404|       496 - 2,123|
 |University of Birmingham                                        |      433|               749,069|   1,730 (779)|  1,680|       126 - 5,669|
-|Bielefeld U                                                     |      430|               561,779|   1,306 (377)|  1,340|       140 - 2,380|
 |Giessen U                                                       |      415|               590,189|   1,422 (652)|  1,346|        81 - 4,498|
 |Leipzig U                                                       |      415|               611,856|   1,474 (341)|  1,553|       178 - 2,097|
 |FZJ - ZB                                                        |      397|               532,437|   1,341 (635)|  1,242|        40 - 3,700|
