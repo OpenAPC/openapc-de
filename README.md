@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 55,478 open access journal articles, amounting to € 104,766,102 and contributed by 186 institutions.
+At the moment this project provides cost data on 55,548 open access journal articles, amounting to € 104,842,463 and contributed by 186 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -264,9 +264,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 55,478 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 186 research performing institutions and research funders. 
+This dataset contains information on 55,548 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 186 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 104,766,102. The average payment was € 1,888  and the median was € 1,685.
+In total, publication fee spending covered by the Open APC initiative amounted to € 104,842,463. The average payment was € 1,887  and the median was € 1,684.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -280,7 +280,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-33,015 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 49,046,078, including value-added tax; the average payment was € 1,486 (median =  € 1,410, SD = € 698).
+33,085 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 49,122,439, including value-added tax; the average payment was € 1,485 (median =  € 1,409, SD = € 697).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -302,7 +302,7 @@ The following table summarises institutional spending on articles published in f
 |Freiburg U                                                      |      623|               871,696|   1,399 (422)|  1,449|        50 - 2,501|
 |Regensburg U                                                    |      614|               890,535|   1,450 (636)|  1,394|        77 - 4,403|
 |Tuebingen U                                                     |      594|               814,355|   1,371 (423)|  1,386|        75 - 2,662|
-|Imperial College London                                         |      573|             1,064,460|   1,858 (994)|  1,594|       260 - 5,439|
+|Imperial College London                                         |      572|             1,063,736|   1,860 (994)|  1,595|       260 - 5,439|
 |CNRS                                                            |      568|               835,780|   1,471 (781)|  1,260|       100 - 5,606|
 |OpenAIRE                                                        |      536|               776,905|   1,449 (422)|  1,411|       209 - 2,086|
 |University of Cambridge                                         |      526|             1,143,562| 2,174 (1,174)|  1,807|       154 - 5,528|
@@ -317,10 +317,10 @@ The following table summarises institutional spending on articles published in f
 |FZJ - ZB                                                        |      397|               532,437|   1,341 (635)|  1,242|        40 - 3,700|
 |INSERM                                                          |      391|               643,505|   1,646 (823)|  1,300|       200 - 4,650|
 |Bremen U                                                        |      390|               552,016|   1,415 (601)|  1,345|       112 - 4,403|
+|JGU Mainz                                                       |      389|               533,226|   1,371 (508)|  1,386|        95 - 2,699|
 |Münster U                                                       |      382|               468,717|   1,227 (452)|  1,200|       168 - 2,380|
 |Konstanz U                                                      |      345|               524,743|   1,521 (513)|  1,506|        40 - 4,403|
 |University of Gothenburg                                        |      331|               490,458|   1,482 (613)|  1,406|       223 - 4,485|
-|JGU Mainz                                                       |      318|               456,141|   1,434 (502)|  1,458|        95 - 2,699|
 |FU Berlin                                                       |      294|               413,858|   1,408 (485)|  1,506|       150 - 2,142|
 |TU Dresden                                                      |      275|               390,484|   1,420 (407)|  1,500|       200 - 2,193|
 |Stockholm University                                            |      274|               413,066|   1,508 (702)|  1,336|       140 - 4,486|
@@ -626,9 +626,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.69%       |
-|PubMed ID                  |  76.67%      |
-|PubMed Central ID          |  70.15%     |
-|Web of Science record ID   | 92.67%      |
+|PubMed ID                  |  76.69%      |
+|PubMed Central ID          |  70.18%     |
+|Web of Science record ID   | 92.66%      |
 
 
 
