@@ -211,6 +211,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Poitiers
 - Université de Rennes 1
 - Université de Toulon
+- Université Paris Descartes (Paris V)
 - Université Pierre et Marie Curie (Paris VI)
 
 ## Participating Institutions from the United Kingdom:
