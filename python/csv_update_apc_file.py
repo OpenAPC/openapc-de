@@ -19,7 +19,8 @@ ARG_HELP_STRINGS = {
     "update_encoding": "The encoding of the update file.",
     "locale": "The locale to parse the original file with (important for monetary values)",
     "update_locale": "The locale to parse the update file with",
-    "autocreate_mappings": "Create mappings for all matched column pairs without asking for confirmation" 
+    "autocreate_mappings": "Create mappings for all matched column pairs without asking for confirmation",
+    "grouping": "Use grouping (thousands separator) when updating euro field values"
 }
 
 class Change(object):
@@ -42,6 +43,7 @@ def main():
     parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
     parser.add_argument("-lu", "--update_locale", help=ARG_HELP_STRINGS["update_locale"])
     parser.add_argument("-a", "--autocreate_mappings", action="store_true", help=ARG_HELP_STRINGS["autocreate_mappings"])
+    parser.add_argument("-g", "--grouping", action="store_true", help=ARG_HELP_STRINGS["grouping"])
     
     args = parser.parse_args()
     
@@ -118,7 +120,7 @@ def main():
         if params[file_type]["locale"] is not None:
             locale_name = "locale " + params[file_type]["locale"]
         msg = "{} file will be opened with encoding {} and {}"
-        oat.print_g(msg.format(file_type, guessed_enc, locale_name))
+        oat.print_g(msg.format(file_type, params[file_type]["encoding"], locale_name))
         
         with open(params[file_type]["file"], "r", encoding=params[file_type]["encoding"]) as f:
             reader = csv.DictReader(f, dialect=params[file_type]["csv_analysis"].dialect)
@@ -224,7 +226,10 @@ def main():
                 oat.print_y(msg.format(reader.line_num, doi))
                 for change in changes:
                     oat.print_y(str(change))
-                    line[change.field_name] = change.new_value
+                    if change.monetary:
+                        line[change.field_name] = locale.currency(change.new_value,symbol=False, grouping=args.grouping)
+                    else:
+                        line[change.field_name] = change.new_value
             del(update_mappings[doi])
             modified_content.append(line)
         if update_mappings:
@@ -233,14 +238,15 @@ def main():
             oat.print_y(doi)
             new_line = changes
             new_line[params["original"]["doi_field"]] = doi
+            formatted_euro = locale.currency(new_line[params["original"]["euro_field"]], symbol=False, grouping=args.grouping)
+            new_line[params["original"]["euro_field"]] = formatted_euro
             modified_content.append(new_line)
     
-    with open("out.csv", "w") as out:
+    with open("out.csv", "w", encoding=params["original"]["encoding"]) as out:
         writer = csv.DictWriter(out, fieldnames, dialect=params["original"]["csv_analysis"].dialect)
         writer.writeheader()
         for line in modified_content:
             writer.writerow(line)
-    
 
 if __name__ == '__main__':
     main()
