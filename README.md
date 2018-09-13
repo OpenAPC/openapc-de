@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 55,599 open access journal articles, amounting to € 104,916,987 and contributed by 187 institutions.
+At the moment this project provides cost data on 55,620 open access journal articles, amounting to € 104,951,950 and contributed by 187 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -265,9 +265,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 55,599 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 187 research performing institutions and research funders. 
+This dataset contains information on 55,620 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 187 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 104,916,987. The average payment was € 1,887  and the median was € 1,683.
+In total, publication fee spending covered by the Open APC initiative amounted to € 104,951,950. The average payment was € 1,887  and the median was € 1,683.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -281,7 +281,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-33,127 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 49,179,985, including value-added tax; the average payment was € 1,485 (median =  € 1,409, SD = € 697).
+33,148 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 49,214,948, including value-added tax; the average payment was € 1,485 (median =  € 1,409, SD = € 697).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -315,10 +315,10 @@ The following table summarises institutional spending on articles published in f
 |University of Birmingham                                        |      433|               749,069|   1,730 (779)|  1,680|       126 - 5,669|
 |Giessen U                                                       |      415|               590,189|   1,422 (652)|  1,346|        81 - 4,498|
 |Leipzig U                                                       |      415|               611,856|   1,474 (341)|  1,553|       178 - 2,097|
+|JGU Mainz                                                       |      410|               568,189|   1,386 (531)|  1,392|        95 - 4,403|
 |FZJ - ZB                                                        |      397|               532,437|   1,341 (635)|  1,242|        40 - 3,700|
 |INSERM                                                          |      391|               643,505|   1,646 (823)|  1,300|       200 - 4,650|
 |Bremen U                                                        |      390|               552,016|   1,415 (601)|  1,345|       112 - 4,403|
-|JGU Mainz                                                       |      389|               533,226|   1,371 (508)|  1,386|        95 - 2,699|
 |Münster U                                                       |      382|               468,717|   1,227 (452)|  1,200|       168 - 2,380|
 |Konstanz U                                                      |      345|               524,743|   1,521 (513)|  1,506|        40 - 4,403|
 |University of Gothenburg                                        |      331|               490,458|   1,482 (613)|  1,406|       223 - 4,485|
@@ -629,8 +629,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.69%       |
-|PubMed ID                  |  76.71%      |
-|PubMed Central ID          |  70.18%     |
+|PubMed ID                  |  76.72%      |
+|PubMed Central ID          |  70.19%     |
 |Web of Science record ID   | 92.66%      |
 
 
