@@ -29,7 +29,7 @@
 "INRA",2017,448.53,"10.1016/j.dib.2017.07.006",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"28765829","PMC5526467",NA,NA,TRUE
 "INRA",2017,1973.53,"10.1016/j.ijpara.2017.08.001",TRUE,"Elsevier BV","International Journal for Parasitology","0020-7519","0020-7519",NA,"0020-7519","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28893638",NA,"ut:000413058100003",NA,FALSE
 "INRA",2017,2345.1,"10.1016/j.omtm.2016.12.005",FALSE,"Elsevier BV","Molecular Therapy - Methods & Clinical Development","2329-0501","2329-0501",NA,"2329-0501","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28344994","PMC5363290","ut:000397454700008",NA,TRUE
-"INRA",2017,1648.79,"10.1016/j.ijpddr.2017.10.007",TRUE,"Elsevier BV","International Journal for Parasitology: Drugs and Drug Resistance","2211-3207","2211-3207",NA,"2211-3207","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29149701","PMC5727347","ut:000417355700017",NA,TRUE
+"INRA",2017,1648.79,"10.1016/j.ijpddr.2017.10.007",FALSE,"Elsevier BV","International Journal for Parasitology: Drugs and Drug Resistance","2211-3207","2211-3207",NA,"2211-3207","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29149701","PMC5727347","ut:000417355700017",NA,TRUE
 "INRA",2017,2340.6,"10.3389/fmicb.2017.00443",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28373865","PMC5357655","ut:000396757600001",NA,TRUE
 "INRA",2017,1904.85,"10.3389/fcimb.2017.00234",FALSE,"Frontiers Media SA","Frontiers in Cellular and Infection Microbiology","2235-2988",NA,"2235-2988","2235-2988",NA,TRUE,"28620590","PMC5450623",NA,NA,TRUE
 "INRA",2017,973.59,"10.3389/fcimb.2017.00236",FALSE,"Frontiers Media SA","Frontiers in Cellular and Infection Microbiology","2235-2988",NA,"2235-2988","2235-2988",NA,TRUE,"28642842","PMC5462901","ut:000402847600001",NA,TRUE
@@ -78,13 +78,13 @@
 "INRA",2017,1305,"10.1038/s41598-017-10461-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28947760","PMC5613006","ut:000411647900001",NA,TRUE
 "INRA",2017,1305,"10.1038/srep40568",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28084452","PMC5234012","ut:000392174600001",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-08380-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28819220","PMC5561069","ut:000407864000023",NA,TRUE
-"INRA",2017,582.5,"10.1038/s41598-017-09873-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28912421","PMC5599632","ut:000410739000114",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "INRA",2017,1305,"10.1038/srep41948",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28165046","PMC5292727","ut:000393371700001",NA,TRUE
-"INRA",2017,1305,"10.1038/s41598-017-09873-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28912421","PMC5599632","ut:000410739000114",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "INRA",2017,1305,"10.1038/srep44334",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28287150","PMC5347079","ut:000396095200001",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-04853-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28687734","PMC5501821","ut:000404970900041",NA,TRUE
 "INRA",2017,1200,"10.1038/nature22380",TRUE,"Springer Nature","Nature","0028-0836","0028-0836","1476-4687","0028-0836",NA,TRUE,"28538728",NA,"ut:000402372800046",NA,FALSE
-"INRA",2017,1305,"10.1038/srep44334",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28287150","PMC5347079","ut:000396095200001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "INRA",2017,1305,"10.1038/s41598-017-07593-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28798305","PMC5552874","ut:000407400200012",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-16614-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29263358","PMC5738420","ut:000418389000004",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-11523-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28904385","PMC5597596","ut:000410666900024",NA,TRUE
@@ -147,7 +147,7 @@
 "INRA",2017,2917,"10.1002/mnfr.201600685",TRUE,"Wiley-Blackwell","Molecular Nutrition & Food Research","1613-4125",NA,NA,"1613-4125","http://creativecommons.org/licenses/by/4.0/",TRUE,"28101967","PMC5516247","ut:000403088100008",NA,FALSE
 "INRA",2017,4628.38,"10.1111/mmi.13673",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950-382X",NA,NA,"0950-382X","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28317238","PMC5485061","ut:000402866000007",NA,FALSE
 "INRA",2017,1989.51,"10.3389/fmicb.2017.00598",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28428778","PMC5382197","ut:000398464400001",NA,TRUE
-"INRA",2017,932,"10.3389/fmicb.2017.01366",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28790986","PMC5524725","ut:000406342500001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "INRA",2017,1650,"10.1038/ng.3886",TRUE,"Springer Nature","Nature Genetics","1061-4036","1061-4036","1546-1718","1061-4036",NA,TRUE,"28581499",NA,"ut:000404253300019",NA,FALSE
 "INRA",2017,2112.15,"10.3389/fpls.2017.01843",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"29184557","PMC5694560","ut:000415038700001",NA,TRUE
 "INRA",2017,1947.18,"10.3389/fmicb.2017.00937",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28596764","PMC5442214","ut:000402238400001",NA,TRUE
