@@ -1,7 +1,7 @@
 institution,period,PMID,PMCID,DOI,Publisher,Journal title,ISSN,is_hybrid,euro
 Wellcome Trust,2017,27781454,PMC5381716,10.1063/1.4961065,AIP Publishing,"Chaos (Woodbury, N.Y.)","1054-1500, 1089-7682",TRUE,1807.42
 Wellcome Trust,2017,Unknown,Unknown,10.1063/1.4977743,AIP Publishing,AIP Advances,2158-3226,FALSE,1268.12
-Wellcome Trust,2017,Unknown,Unknown,Unknown,Allied Academies,Current Pediatric Research,,FALSE,1337.12
+,,,,,,,,,
 Wellcome Trust,2017,28751446,Unknown,10.1158/1078-0432.ccr-17-0972,American Association for Cancer Research (AACR),Clinical cancer research : an official journal of the American Association for Cancer Research,1078-0432,TRUE,4358.99
 Wellcome Trust,2017,28377452,Unknown,10.1158/0008-5472.can-16-0255,American Association for Cancer Research (AACR),Cancer research,"0008-5472, 1538-7445",TRUE,3962.67
 Wellcome Trust,2017,27742686,PMC5321488,10.1158/0008-5472.can-16-1201,American Association for Cancer Research (AACR),Cancer research,"0008-5472, 1538-7445",TRUE,3724.9
@@ -3091,9 +3091,9 @@ Wellcome Trust,2017,28100666,PMC5303278,10.1098/rsob.160288,The Royal Society,Op
 Wellcome Trust,2017,28855393,PMC5577446,10.1098/rsob.170080,The Royal Society,Open biology,2046-2441,FALSE,1231.74
 Wellcome Trust,2017,28835541,Unknown,10.1098/rsif.2017.0238,The Royal Society,"Journal of the Royal Society, Interface","1742-5689, 1742-5662",TRUE,2326.62
 Wellcome Trust,2017,27784789,PMC5090064,10.1098/rsob.160248,The Royal Society,Open biology,2046-2441,FALSE,615.87
-Wellcome Trust,2017,Unknown,Unknown,Unknown,Unknown,Unknown,,TRUE,1847.61
-Wellcome Trust,2017,Unknown,Unknown,UpdateRequested,Unknown,Unknown,Unknown,TRUE,1710.75
-Wellcome Trust,2017,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,TRUE,904.02
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
 Wellcome Trust,2017,29033477,PMC5638009,10.1515/ijsl-2017-0005,Walter de Gruyter GmbH,International journal of the sociology of language,0165-2516,TRUE,2359.66
 Wellcome Trust,2017,26097196,PMC4832285 ,10.1002/art.39232,Wiley,Arthritis and Rheumatology,,TRUE,3079.35
 Wellcome Trust,2017,28919655,PMC5573992 ,10.1111/japp.12249,Wiley,Journal of Applied Philosophy,,TRUE,2281
