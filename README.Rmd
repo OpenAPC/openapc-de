@@ -205,17 +205,22 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national de la recherche agronomique (INRA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
+- Université d'Avignon et des Pays de Vaucluse
+- Université de Caen Normandie
 - Université Clermont Auvergne
+- Université de France-Comté
 - Université Lille 1
 - Université Lille 2
 - Université de Lorraine
 - Université Nice-Sophia-Antipolis
 - Université de Poitiers
 - Université de Rennes 1
+- Université de Strasbourg
 - Université de Toulon
 - Université Toulouse III
 - Université Paris Descartes (Paris V)
 - Université Pierre et Marie Curie (Paris VI)
+- Université Paris Diderot (Paris VII)
 
 ## Participating Institutions from the United Kingdom:
 
