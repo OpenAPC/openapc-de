@@ -88,6 +88,7 @@ JOURNAL_OWNER_CHANGED = {
     "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
     "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology
     "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology (electronic)
+    "1530-9932": ["American Association of Pharmaceutical Scientists (AAPS)", "Springer Nature"]  # AAPS PharmSciTech
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -119,7 +120,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0161-0457", # Scanning, Gold OA since 2017
     "2300-3235", # Bulletin of the Veterinary Institute in Puławy, Gold OA since 2016
     "1461-1457", # International Journal of Neuropsychopharmacology, Gold OA since 2015,
-    "1010-4283" # Tumor Biology, Gold OA since 2017
+    "1010-4283", # Tumor Biology, Gold OA since 2017
+    "2363-9555", # Research in Number Theory, Hybrid since 2018
+    "2212-9790" # Maritime Studies, Hybrid since 2018
 ]
 
 class RowObject(object):
