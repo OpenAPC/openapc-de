@@ -44,7 +44,7 @@
 "INRA",2017,432.4,"10.3389/fpls.2017.00082",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"28220131","PMC5292615","ut:000393331400001",NA,TRUE
 "INRA",2017,1081.48,"10.3389/fpls.2017.00431",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"28400786","PMC5368246","ut:000397429200001",NA,TRUE
 "INRA",2017,2141.4,"10.3389/fpls.2017.00265",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"28293247","PMC5329020","ut:000394892400002",NA,TRUE
-"INRA",2017,931.26,"10.3389/fmicb.2017.01366",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28790986","PMC5524725","ut:000406342500001",NA,TRUE
+"INRA",2017,1863.26,"10.3389/fmicb.2017.01366",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28790986","PMC5524725","ut:000406342500001",NA,TRUE
 "INRA",2017,1950,"10.3389/fmicb.2017.01236",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28729859","PMC5498481","ut:000405228400001",NA,TRUE
 "INRA",2017,1850,"10.3389/fpls.2017.01387",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"28878784","PMC5572249","ut:000408208900001",NA,TRUE
 "INRA",2017,1850,"10.3389/fpls.2017.01633",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"28983306","PMC5613134","ut:000411408000001",NA,TRUE
@@ -62,7 +62,7 @@
 "INRA",2017,1372.75,"10.3389/fchem.2017.00087",FALSE,"Frontiers Media SA","Frontiers in Chemistry","2296-2646",NA,"2296-2646","2296-2646",NA,TRUE,"29167789","PMC5682303","ut:000414648600001",NA,TRUE
 "INRA",2017,1820.19,"10.3389/fimmu.2017.01553",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224",NA,TRUE,"29209314","PMC5702231","ut:000415599900001",NA,TRUE
 "INRA",2017,1615,"10.3389/fendo.2017.00065",FALSE,"Frontiers Media SA","Frontiers in Endocrinology","1664-2392",NA,"1664-2392","1664-2392",NA,TRUE,"28443064","PMC5385335","ut:000398629100001",NA,TRUE
-"INRA",2017,1373.18,"10.3389/fendo.2017.00216",FALSE,"Frontiers Media SA","Frontiers in Endocrinology","1664-2392",NA,"1664-2392","1664-2392",NA,TRUE,"28900415",NA,"ut:000408501000001",NA,TRUE
+"INRA",2017,1373.18,"10.3389/fendo.2017.00216",FALSE,"Frontiers Media SA","Frontiers in Endocrinology","1664-2392",NA,"1664-2392","1664-2392",NA,TRUE,"28900415","PMC5581815","ut:000408501000001",NA,TRUE
 "INRA",2017,1008,"10.1016/j.agsy.2017.03.016",TRUE,"Elsevier BV","Agricultural Systems","0308-521X","0308-521X",NA,"0308-521X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000401876600016",NA,FALSE
 "INRA",2017,3559.33,"10.1159/000485878",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1015-8987","1015-8987","1421-9778","1015-8987","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29224025",NA,"ut:000424013000017",NA,TRUE
 "INRA",2017,1200,"10.3390/genes8110337",FALSE,"MDPI AG","Genes","2073-4425",NA,"2073-4425","2073-4425","https://creativecommons.org/licenses/by/4.0/",TRUE,"29165361","PMC5704250","ut:000416800600047",NA,TRUE
@@ -78,13 +78,11 @@
 "INRA",2017,1305,"10.1038/s41598-017-10461-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28947760","PMC5613006","ut:000411647900001",NA,TRUE
 "INRA",2017,1305,"10.1038/srep40568",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28084452","PMC5234012","ut:000392174600001",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-08380-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28819220","PMC5561069","ut:000407864000023",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
 "INRA",2017,1305,"10.1038/srep41948",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28165046","PMC5292727","ut:000393371700001",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
-"INRA",2017,1305,"10.1038/srep44334",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28287150","PMC5347079","ut:000396095200001",NA,TRUE
+"INRA",2017,1305,"10.1038/s41598-017-09873-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28912421","PMC5599632","ut:000410739000114",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-04853-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28687734","PMC5501821","ut:000404970900041",NA,TRUE
 "INRA",2017,1200,"10.1038/nature22380",TRUE,"Springer Nature","Nature","0028-0836","0028-0836","1476-4687","0028-0836",NA,TRUE,"28538728",NA,"ut:000402372800046",NA,FALSE
-"",,,"","","","","","","","","","","","","","",""
+"INRA",2017,1305,"10.1038/srep44334",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28287150","PMC5347079","ut:000396095200001",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-07593-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28798305","PMC5552874","ut:000407400200012",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-16614-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29263358","PMC5738420","ut:000418389000004",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-11523-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28904385","PMC5597596","ut:000410666900024",NA,TRUE
@@ -147,7 +145,6 @@
 "INRA",2017,2917,"10.1002/mnfr.201600685",TRUE,"Wiley-Blackwell","Molecular Nutrition & Food Research","1613-4125",NA,NA,"1613-4125","http://creativecommons.org/licenses/by/4.0/",TRUE,"28101967","PMC5516247","ut:000403088100008",NA,FALSE
 "INRA",2017,4628.38,"10.1111/mmi.13673",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950-382X",NA,NA,"0950-382X","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28317238","PMC5485061","ut:000402866000007",NA,FALSE
 "INRA",2017,1989.51,"10.3389/fmicb.2017.00598",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28428778","PMC5382197","ut:000398464400001",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
 "INRA",2017,1650,"10.1038/ng.3886",TRUE,"Springer Nature","Nature Genetics","1061-4036","1061-4036","1546-1718","1061-4036",NA,TRUE,"28581499",NA,"ut:000404253300019",NA,FALSE
 "INRA",2017,2112.15,"10.3389/fpls.2017.01843",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"29184557","PMC5694560","ut:000415038700001",NA,TRUE
 "INRA",2017,1947.18,"10.3389/fmicb.2017.00937",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28596764","PMC5442214","ut:000402238400001",NA,TRUE
