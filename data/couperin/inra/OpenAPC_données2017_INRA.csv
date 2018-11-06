@@ -1,10 +1,10 @@
 institution;period;euro;doi;is_hybrid
 INRA;2017;2125;https://doi.org/10.2527/jas.2016.0980;TRUE
-INRA;2017;1350;https://doi.org/ 10.1074/jbc.M117.783464;TRUE
+INRA;2017;1350;https://doi.org/10.1074/jbc.M117.783464;TRUE
 INRA;2017;1668,66;https://doi.org/10.1128/mSystems.00186-16;FALSE
-INRA;2017;1057,5;https://doi.org/10.1128%2FmSphere.00118-17;FALSE
+INRA;2017;1057,5;https://doi.org/10.1128/mSphere.00118-17;FALSE
 INRA;2017;675;https://doi.org/10.1128/genomeA.00410-17;FALSE
-INRA;2017;690;https://doi.org/10.1128%2FgenomeA.00584-17;FALSE
+INRA;2017;690;https://doi.org/10.1128/genomeA.00584-17;FALSE
 INRA;2017;1481,48;https://doi.org/10.1104/pp.16.01484;TRUE
 INRA;2017;1384,36;https://doi.org/10.1104/pp.16.00621;TRUE
 INRA;2017;2431,8;https://doi.org/10.1104/pp.17.00698;TRUE
@@ -33,8 +33,8 @@ INRA;2017;1648,79;https://doi.org/10.1016/j.ijpddr.2017.10.007;FALSE
 INRA;2017;2340,6;https://doi.org/10.3389/fmicb.2017.00443;FALSE
 INRA;2017;1904,85;https://doi.org/10.3389/fcimb.2017.00234;FALSE
 INRA;2017;973,59;https://doi.org/10.3389/fcimb.2017.00236;FALSE
-INRA;2017;1904,4;https://doi.org/10.3389%2Ffcimb.2017.00281;FALSE
-INRA;2017;1820,19;https://doi.org/10.3389%2Ffcimb.2017.00375;FALSE
+INRA;2017;1904,4;https://doi.org/10.3389/fcimb.2017.00281;FALSE
+INRA;2017;1820,19;https://doi.org/10.3389/fcimb.2017.00375;FALSE
 INRA;2017;2141,4;https://doi.org/10.3389/fcimb.2018.00006;FALSE
 INRA;2017;2141,4;https://doi.org/10.3389/fcimb.2017.00490;FALSE
 INRA;2017;387;https://doi.org/10.3389/fimmu.2017.01733;FALSE
@@ -131,7 +131,7 @@ INRA;2017;1353,77;https://doi.org/10.1371/journal.pone.0178285;FALSE
 INRA;2017;1980;https://doi.org/10.1371/journal.pgen.1006909;FALSE
 INRA;2017;1285,7;https://doi.org/10.1371/journal.pone.0189694;FALSE
 INRA;2017;592;https://doi.org/10.1039/c7ra02506h ;TRUE
-INRA;2017;1127,06;https://doi.org/1710.4236/fns.2017.84029;FALSE
+INRA;2017;1127,06;https://doi.org/10.4236/fns.2017.84029;FALSE
 INRA;2017;2640;https://doi.org/10.1007/s12551-017-0302-6;TRUE
 INRA;2017;2200;https://doi.org/10.1007/s00122-017-3003-4;TRUE
 INRA;2017;2040;https://doi.org/10.1098/rstb.2015.0545 ;TRUE
