@@ -1,7 +1,7 @@
 
 ## About
 
-This directory contains selected APC data from the [JISC collections](https://www.jisc-collections.ac.uk/Jisc-Monitor/APC-data-collection/), made available on [figshare](https://figshare.com/articles/APC_data_collected_by_Jisc_2013-2016/5335999).
+This directory contains selected APC data from the [JISC collections](https://www.jisc-collections.ac.uk/Jisc-Monitor/APC-data-collection/), made available on [figshare](https://figshare.com/articles/APC_data_collected_by_Jisc_2013-2016/5335999). This collection mainly covers the 2014, 2015 and 2016 periods (OpenAPC period assignment may vary in some cases, see below).
 
 ## Contents
 
