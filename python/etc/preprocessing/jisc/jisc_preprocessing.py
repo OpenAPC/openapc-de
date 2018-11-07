@@ -42,7 +42,22 @@ FIELDNAMES = {
         "euro"
     ],
     "2017": [
-        
+        "APC paid (£) including VAT if charged",
+        "DOI",
+        "Date of APC payment",
+        "ISSN0",
+        "Institution",
+        "Journal",
+        "Licence",
+        "PubMed ID",
+        "Publisher",
+        "TCO year",
+        "Type of publication",
+        "Drop?",
+        "Period of APC payment",
+        "period",
+        "is_hybrid",
+        "euro"
     ]
 }
 
@@ -57,20 +72,18 @@ PUBLICATION_TYPES_BL = [
 
 DATE_DAY_RE = re.compile("(?P<year>[0-9]{4})-?(?P<month>[0-9]{2})?-?(?P<day>[0-9]{2})?")
 
-PERIOD_FIELD_SOURCE = [
-    "Date of APC payment",
-    "Year of publication",
-    "Date of initial application by author",
-    "TCO year"
-]
-
-AVG_YEARLY_CONVERSION_RATES = {
-    "AUD": {"2015": 1.4777},
-    "GBP": {"2005": 0.68380, "2009": 0.89094, "2012": 0.81087, "2013": 0.84926,
-            "2014": 0.80612, "2015": 0.72584, "2016": 0.81948},
-    "USD": {"2005": 1.2441, "2013": 1.3281, "2014": 1.3285, "2015": 1.1095,
-            "2016": 1.1069},
-    "CHF": {"2013": 1.2311, "2014": 1.2146, "2015": 1.0679, "2016": 1.0902}
+PERIOD_FIELD_SOURCE = {
+    "2014_16": [
+        "Date of APC payment",
+        "Year of publication",
+        "Date of initial application by author",
+        "TCO year"
+    ],
+    "2017": [
+        "Date of APC payment",
+        "Period of APC payment",
+        "TCO year"
+    ]
 }
 
 EXCHANGE_RATES_CACHE = {}
@@ -161,8 +174,77 @@ def get_exchange_rate(currency, frequency, date):
         shutdown()
     else:
         return EXCHANGE_RATES_CACHE[currency][frequency][date]
-    
-
+        
+def calculate_euro_value(line, jisc_format):
+    payment_date = line["Date of APC payment"]
+    date_match = DATE_DAY_RE.match(payment_date)
+    if jisc_format == "2017":
+        apc_pound = line["APC paid (£) including VAT if charged"]
+        field_used_for_pound_value = "APC paid (£) including VAT if charged"
+    elif jisc_format == "2014_16":
+        apc_orig = line["APC paid (actual currency) including VAT if charged"]
+        apc_pound = ""
+        field_used_for_pound_value = ""
+        for field in ["APC paid (£) including VAT (calculated)", "APC paid (£) including VAT if charged"]:
+            if is_money_value(line[field]):
+                apc_pound = line[field]
+                field_used_for_pound_value = field
+                break
+        if is_money_value(apc_orig):
+            currency = line["Currency of APC"].strip()
+            if currency == "EUR":
+                line["euro"] = apc_orig
+                msg = "   - Created euro field ('{}') by using the value in 'APC paid (actual currency) including VAT if charged' directly since the currency is EUR"
+                _print("g", msg.format(apc_orig))
+            elif len(currency) == 3:
+                if date_match and is_valid_date(date_match):
+                    rate = get_exchange_rate(currency, "D", payment_date)
+                    euro_value = round(float(apc_orig) / float(rate), 2)
+                    line["euro"] = str(euro_value)
+                    msg = "   - Created euro field ('{}') by dividing the value in 'APC paid (actual currency) including VAT if charged' ({}) by {} (EUR -> {} conversion rate on {}) [ECB]"
+                    msg = msg.format(euro_value, apc_orig, rate, currency, payment_date)
+                    _print("g", msg)
+                else:
+                    year = line["period"]
+                    if int(year) >= datetime.datetime.now().year:
+                        del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
+                        delete_line(line, del_msg)
+                        return
+                    try:
+                        rate = get_exchange_rate(currency, "A", year)
+                    except KeyError:
+                        _print("r", "KeyError: An average yearly conversion rate is missing (" + currency + ", " + year + ")")
+                        shutdown()
+                    euro_value = round(float(apc_orig) / float(rate), 2)
+                    line["euro"] = str(euro_value)
+                    msg = "   - Created euro field ('{}') by dividing the value in 'APC paid (actual currency) including VAT if charged' ({}) by {} (avg EUR -> {} conversion rate in {}) [ECB]"
+                    msg = msg.format(euro_value, apc_orig, rate, currency, year)
+                    _print("g", msg)
+    if line["euro"] == "" and is_money_value(apc_pound):
+        if date_match and is_valid_date(date_match):
+            rate = get_exchange_rate("GBP", "D", payment_date)
+            euro_value = round(float(apc_pound) / float(rate), 2)
+            line["euro"] = str(euro_value)
+            msg = "   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (EUR -> GBP conversion rate on {}) [ECB]"
+            msg = msg.format(euro_value, field_used_for_pound_value, apc_pound, rate, payment_date)
+            _print("g", msg)
+        else:
+            year = line["period"]
+            if int(year) >= datetime.datetime.now().year:
+                del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
+                delete_line(line, del_msg)
+                return
+            try:
+                rate = get_exchange_rate("GBP", "A", year)
+            except KeyError:
+                _print("r", "KeyError: An average yearly conversion rate is missing (GBP, " + year + ")")
+                shutdown()
+            euro_value = round(float(apc_pound) / float(rate), 2)
+            line["euro"] = str(euro_value)
+            msg = "   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (avg EUR -> GBP conversion rate in {}) [ECB]"
+            msg = msg.format(euro_value, field_used_for_pound_value, apc_pound, rate, year)
+            _print("g", msg)
+       
 def main():
     global EXCHANGE_RATES_CACHE, EXCHANGE_RATES_CACHE_FILE, NO_DECORATIONS, FORMAT
     parser = argparse.ArgumentParser()
@@ -210,7 +292,7 @@ def main():
             modified_content.append(line_as_list(line))
             continue
         # period field generation
-        for source_field in PERIOD_FIELD_SOURCE:
+        for source_field in PERIOD_FIELD_SOURCE[FORMAT]:
             content = line[source_field].strip()
             match = DATE_DAY_RE.match(content)
             if match:
@@ -225,72 +307,7 @@ def main():
             _print("r", "ERROR: period column could not be created for line:\n" + str(line))
             shutdown()
         # euro field generation
-        apc_orig = line["APC paid (actual currency) including VAT if charged"]
-        apc_pound = ""
-        field_used_for_pound_value = ""
-        for field in ["APC paid (£) including VAT (calculated)", "APC paid (£) including VAT if charged"]:
-            if is_money_value(line[field]):
-                apc_pound = line[field]
-                field_used_for_pound_value = field
-                break
-        payment_date = line["Date of APC payment"]
-        date_match = DATE_DAY_RE.match(payment_date)
-        if is_money_value(apc_orig):
-            currency = line["Currency of APC"].strip()
-            if currency == "EUR":
-                line["euro"] = apc_orig
-                msg = "   - Created euro field ('{}') by using the value in 'APC paid (actual currency) including VAT if charged' directly since the currency is EUR"
-                _print("g", msg.format(apc_orig))
-            elif len(currency) == 3:
-                if date_match and is_valid_date(date_match):
-                    rate = get_exchange_rate(currency, "D", payment_date)
-                    euro_value = round(float(apc_orig) / float(rate), 2)
-                    line["euro"] = str(euro_value)
-                    msg = "   - Created euro field ('{}') by dividing the value in 'APC paid (actual currency) including VAT if charged' ({}) by {} (EUR -> {} conversion rate on {}) [ECB]"
-                    msg = msg.format(euro_value, apc_orig, rate, currency, payment_date)
-                    _print("g", msg)
-                else:
-                    year = line["period"]
-                    if int(year) >= datetime.datetime.now().year:
-                        del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
-                        delete_line(line, del_msg)
-                        modified_content.append(line_as_list(line))
-                        continue
-                    try:
-                        rate = get_exchange_rate(currency, "A", year)
-                    except KeyError:
-                        _print("r", "KeyError: An average yearly conversion rate is missing (" + currency + ", " + year + ")")
-                        shutdown()
-                    euro_value = round(float(apc_orig) / float(rate), 2)
-                    line["euro"] = str(euro_value)
-                    msg = "   - Created euro field ('{}') by dividing the value in 'APC paid (actual currency) including VAT if charged' ({}) by {} (avg EUR -> {} conversion rate in {}) [ECB]"
-                    msg = msg.format(euro_value, apc_orig, rate, currency, year)
-                    _print("g", msg)
-        if line["euro"] == "" and is_money_value(apc_pound):
-            if date_match and is_valid_date(date_match):
-                rate = get_exchange_rate("GBP", "D", payment_date)
-                euro_value = round(float(apc_pound) / float(rate), 2)
-                line["euro"] = str(euro_value)
-                msg = "   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (EUR -> GBP conversion rate on {}) [ECB]"
-                msg = msg.format(euro_value, field_used_for_pound_value, apc_pound, rate, payment_date)
-                _print("g", msg)
-            else:
-                year = line["period"]
-                if int(year) >= datetime.datetime.now().year:
-                    del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
-                    delete_line(line, del_msg)
-                    modified_content.append(line_as_list(line))
-                    continue
-                try:
-                    rate = get_exchange_rate("GBP", "A", year)
-                except KeyError:
-                    _print("r", "KeyError: An average yearly conversion rate is missing (GBP, " + year + ")")
-                    shutdown()
-                euro_value = round(float(apc_pound) / float(rate), 2)
-                line["euro"] = str(euro_value)
-                msg = "   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (avg EUR -> GBP conversion rate in {}) [ECB]"
-                msg = msg.format(euro_value, field_used_for_pound_value, apc_pound, rate, year)
-                _print("g", msg)
+        calculate_euro_value(line, FORMAT)
         if line["euro"] == "":
             delete_line(line, "Unable to properly calculate a converted euro value")
             modified_content.append(line_as_list(line))
