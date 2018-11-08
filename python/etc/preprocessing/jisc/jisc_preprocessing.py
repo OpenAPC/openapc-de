@@ -270,11 +270,14 @@ def main():
     reader = csv.DictReader(f)
 
     modified_content = [list(FIELDNAMES[FORMAT])]
+    line_num = 1
     for line in reader:
+        line_num += 1
         line["period"] = ""
         line["is_hybrid"] = ""
         line["euro"] = ""
-        _print("b", "--- Analysing line " + str(reader.reader.line_num) + " ---")
+        line["Journal"] = line["Journal"].replace("\n", " ")
+        _print("b", "--- Analysing line " + str(line_num) + " ---")
         # DOI checking
         if len(line["DOI"].strip()) == 0:
             delete_line(line, "Empty DOI")
