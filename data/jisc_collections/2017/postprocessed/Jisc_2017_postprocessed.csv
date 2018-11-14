@@ -173,7 +173,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Brunel University",2017,1559.07,"10.1186/1748-5908-9-47",FALSE,"Springer Nature","Implementation Science","1748-5908",NA,"1748-5908","1748-5908","http://www.springer.com/tdm",TRUE,"24755187","PMC4003508","ut:000335186700001",NA,TRUE
 "Brunel University",2017,1500.9,"10.1186/1471-2458-14-505",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://www.springer.com/tdm",TRUE,"24884735","PMC4036649","ut:000336764200001",NA,TRUE
 "Brunel University",2017,1541.62,"10.1186/1743-0003-11-116",FALSE,"Springer Nature","Journal of NeuroEngineering and Rehabilitation","1743-0003","1743-0003",NA,"1743-0003",NA,TRUE,"25097005","PMC4237874","ut:000341039900001",NA,TRUE
-"Brunel University",2017,773.72,"10.1186/s13612-014-0016-5",FALSE,"Springer Nature","Psychology of Well-Being","2211-1522",NA,"2211-1522","2211-1522",NA,TRUE,"26568909","PMC4637363",NA,NA,FALSE
+"Brunel University",2017,773.72,"10.1186/s13612-014-0016-5",FALSE,"Springer Nature","Psychology of Well-Being: Theory, Research and Practice","2211-1522",NA,"2211-1522","2211-1522",NA,TRUE,"26568909","PMC4637363",NA,NA,FALSE
 "Brunel University",2017,1541.62,"10.1186/1471-2318-14-106",FALSE,"Springer Nature","BMC Geriatrics","1471-2318",NA,"1471-2318","1471-2318","http://www.springer.com/tdm",TRUE,"25240250","PMC4182770","ut:000342599300002",NA,TRUE
 "Brunel University",2017,1541.62,"10.1186/1471-2105-15-322",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105","1471-2105",NA,"1471-2105",NA,TRUE,"25267386","PMC4262117","ut:000342701900001",NA,TRUE
 "Brunel University",2017,1541.62,"10.1186/s12970-014-0050-y",FALSE,"Springer Nature","Journal of the International Society of Sports Nutrition","1550-2783",NA,"1550-2783","1550-2783",NA,TRUE,"25339853","PMC4205294","ut:000347205000001",NA,TRUE
@@ -1066,7 +1066,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2017,1776.76,"10.1002/mp.12312",TRUE,"Wiley-Blackwell","Medical Physics","0094-2405",NA,NA,"0094-2405","http://creativecommons.org/licenses/by/4.0/",TRUE,"28474819","PMC5575543","ut:000407286900023",NA,FALSE
 "Cardiff University",2017,2504.75,"10.1016/j.bmc.2017.03.068",TRUE,"Elsevier BV","Bioorganic & Medicinal Chemistry","0968-0896","0968-0896",NA,"0968-0896","http://creativecommons.org/licenses/by/4.0/",TRUE,"28404524","PMC5930831","ut:000430267200007",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Cardiff University",2017,395.09,"10.5194/jm-37-97-2018",TRUE,"Copernicus GmbH","Journal of Micropalaeontology","2041-4978",NA,"2041-4978","0262-821X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000419816200008",NA,TRUE
+"Cardiff University",2017,395.09,"10.5194/jm-37-97-2018",FALSE,"Copernicus GmbH","Journal of Micropalaeontology","2041-4978",NA,"2041-4978","0262-821X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000419816200008",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
