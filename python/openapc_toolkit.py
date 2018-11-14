@@ -1165,7 +1165,8 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Alzheimer's disease": "Journal of Alzheimer's Disease",
         "Cell Death & Differentiation": "Cell Death and Differentiation",
         "Nat. Prod. Rep.": "Natural Product Reports",
-        "Bone & Joint Research": "Bone and Joint Research"
+        "Bone & Joint Research": "Bone and Joint Research",
+        "Psychology of Well-Being": "Psychology of Well-Being: Theory, Research and Practice"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

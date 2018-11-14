@@ -15,7 +15,9 @@ PUBLISHER_IDENTITY = [
     (["Informa Healthcare"], ["Informa UK Limited"]), # Usage very inconsistent in crossref data
     (["GeoScienceWorld"], ["Mineralogical Society of America"]),
     (["International Scientific Literature"], ["International Scientific Information, Inc."]),
-    (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"])
+    (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"]),
+    (["Schattauer GmbH"], ["Georg Thieme Verlag KG"]), # Schattauer bought up by Thieme (1/1/2017)
+    (["Johns Hopkins University Press"], ["Project Muse"])
 ]
 
 
@@ -88,7 +90,26 @@ JOURNAL_OWNER_CHANGED = {
     "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
     "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology
     "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology (electronic)
-    "1530-9932": ["American Association of Pharmaceutical Scientists (AAPS)", "Springer Nature"]  # AAPS PharmSciTech
+    "1530-9932": ["American Association of Pharmaceutical Scientists (AAPS)", "Springer Nature"], # AAPS PharmSciTech
+    "1869-6716": ["Springer Science + Business Media", "Oxford University Press (OUP)"], # Translational Behavioral Medicine
+    "0883-6612": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine
+    "1532-4796": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine (electronic)
+    "0013-0095": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography
+    "2157-6564": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine
+    "0002-9122": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany
+    "1537-2197": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany (electronic)
+    "0024-6115": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
+    "0160-5682": ["Nature Publishing Group", "Springer Nature", "Informa UK Limited"], # Journal of the Operational Research Society
+    "1476-9360": ["Nature Publishing Group", "Springer Nature", "Informa UK Limited"], # Journal of the Operational Research Society (electronic)
+    "1078-0998": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"], # Inflammatory Bowel Diseases
+    "1869-6716": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine
+    "1613-9860": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine (electronic)
+    "0883-8305": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography
+    "1076-2787": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Complexity
+    "2333-5084": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Earth and Space Science
+    "2041-8213": ["IOP Publishing", "American Astronomical Society"], # The Astrophysical Journal
+    "0024-6107": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society
+    "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"] # Journal of Geophysical Research: Solid Earth
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -122,7 +143,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1461-1457", # International Journal of Neuropsychopharmacology, Gold OA since 2015,
     "1010-4283", # Tumor Biology, Gold OA since 2017
     "2363-9555", # Research in Number Theory, Hybrid since 2018
-    "2212-9790" # Maritime Studies, Hybrid since 2018
+    "2212-9790", # Maritime Studies, Hybrid since 2018
+    "2041-4978" # Journal of Micropalaeontology, OA since 1/2018
 ]
 
 class RowObject(object):
