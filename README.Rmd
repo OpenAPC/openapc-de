@@ -232,13 +232,20 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Aberystwyth University
 - Aston University
 - Bangor University
+- Brunel University
 - Cardiff University
 - Cranfield University
+- Edinburgh Napier University
+- Glasgow Caledonian University
 - Goldsmiths
+- Heriot-Watt University
 - Imperial College London
 - Institute of Cancer Research (ICR)
 - Keele University
 - King's College London
+- Leeds Beckett University
+- Liverpool John Moores University
+- Liverpool School of Tropical Medicine
 - London School of Economics (LSE)
 - London School of Hygiene & Tropical Medicine (LSHTM)
 - Lancaster University
@@ -250,18 +257,23 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Royal Holloway
 - St George's, University of London
 - Swansea University
+- The Open University
 - University College London (UCL)
 - University of Aberdeen
 - University of Bath
 - University of Birmingham
 - University of Bristol
 - University of Cambridge
+- University of Dundee
 - University of Durham
+- University of East Anglia
 - University of Edinburgh
 - University of Exeter
 - University of Glasgow
 - University of Huddersfield
 - University of Hull
+- University of Kent
+- University of Leeds
 - University of Leicester
 - University of Liverpool
 - University of Loughborough
@@ -275,8 +287,11 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - University of Sheffield
 - University of Southampton
 - University of St Andrews
+- University of Strathclyde
 - University of Surrey
 - University of Sussex
+- University of the West of England
+- University of Ulster
 - University of Warwick
 - University of York
 
