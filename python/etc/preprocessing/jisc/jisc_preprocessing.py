@@ -244,6 +244,8 @@ def calculate_euro_value(line, jisc_format):
             msg = "   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (avg EUR -> GBP conversion rate in {}) [ECB]"
             msg = msg.format(euro_value, field_used_for_pound_value, apc_pound, rate, year)
             _print("g", msg)
+    if line["euro"] == "":
+        delete_line(line, "Unable to properly calculate a converted euro value")
        
 def main():
     global EXCHANGE_RATES_CACHE, EXCHANGE_RATES_CACHE_FILE, NO_DECORATIONS, FORMAT
@@ -311,10 +313,6 @@ def main():
             shutdown()
         # euro field generation
         calculate_euro_value(line, FORMAT)
-        if line["euro"] == "":
-            delete_line(line, "Unable to properly calculate a converted euro value")
-            modified_content.append(line_as_list(line))
-            continue
         modified_content.append(line_as_list(line))
 
     with open('out.csv', 'w') as out:
