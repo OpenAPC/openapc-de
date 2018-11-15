@@ -205,17 +205,22 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national de la recherche agronomique (INRA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
+- Université d'Avignon et des Pays de Vaucluse
+- Université de Caen Normandie
 - Université Clermont Auvergne
+- Université de France-Comté
 - Université Lille 1
 - Université Lille 2
 - Université de Lorraine
 - Université Nice-Sophia-Antipolis
 - Université de Poitiers
 - Université de Rennes 1
+- Université de Strasbourg
 - Université de Toulon
 - Université Toulouse III
 - Université Paris Descartes (Paris V)
 - Université Pierre et Marie Curie (Paris VI)
+- Université Paris Diderot (Paris VII)
 
 ## Participating Institutions from the United Kingdom:
 
@@ -227,13 +232,20 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Aberystwyth University
 - Aston University
 - Bangor University
+- Brunel University
 - Cardiff University
 - Cranfield University
+- Edinburgh Napier University
+- Glasgow Caledonian University
 - Goldsmiths
+- Heriot-Watt University
 - Imperial College London
 - Institute of Cancer Research (ICR)
 - Keele University
 - King's College London
+- Leeds Beckett University
+- Liverpool John Moores University
+- Liverpool School of Tropical Medicine
 - London School of Economics (LSE)
 - London School of Hygiene & Tropical Medicine (LSHTM)
 - Lancaster University
@@ -245,18 +257,23 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Royal Holloway
 - St George's, University of London
 - Swansea University
+- The Open University
 - University College London (UCL)
 - University of Aberdeen
 - University of Bath
 - University of Birmingham
 - University of Bristol
 - University of Cambridge
+- University of Dundee
 - University of Durham
+- University of East Anglia
 - University of Edinburgh
 - University of Exeter
 - University of Glasgow
 - University of Huddersfield
 - University of Hull
+- University of Kent
+- University of Leeds
 - University of Leicester
 - University of Liverpool
 - University of Loughborough
@@ -270,10 +287,17 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - University of Sheffield
 - University of Southampton
 - University of St Andrews
+- University of Strathclyde
 - University of Surrey
 - University of Sussex
+- University of the West of England
+- University of Ulster
 - University of Warwick
 - University of York
+
+## Participating Institutions from the Czech Republic (contributed by [CzechELib](https://www.czechelib.cz/en/)):
+
+- [University of Chemistry and Technology, Prague](https://www.vscht.cz/?jazyk=en)
 
 ## Participating Institutions from the United States:
 
@@ -441,7 +465,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
