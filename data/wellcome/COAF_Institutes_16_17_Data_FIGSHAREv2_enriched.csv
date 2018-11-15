@@ -1592,8 +1592,8 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2017,1843.12,"10.1162/netn_a_00015",TRUE,"MIT Press - Journals","Network Neuroscience","2472-1751",NA,"2472-1751","2472-1751",NA,TRUE,"29400357","PMC5796644",NA,NA,TRUE
-"Wellcome Trust",2017,1843.12,"10.1162/netn_a_00018",TRUE,"MIT Press - Journals","Network Neuroscience","2472-1751",NA,"2472-1751","2472-1751",NA,TRUE,"29417960","PMC5798592",NA,NA,TRUE
+"Wellcome Trust",2017,1843.12,"10.1162/netn_a_00015",FALSE,"MIT Press - Journals","Network Neuroscience","2472-1751",NA,"2472-1751","2472-1751",NA,TRUE,"29400357","PMC5796644",NA,NA,TRUE
+"Wellcome Trust",2017,1843.12,"10.1162/netn_a_00018",FALSE,"MIT Press - Journals","Network Neuroscience","2472-1751",NA,"2472-1751","2472-1751",NA,TRUE,"29417960","PMC5798592",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2017,4517.67,"10.3791/56793",TRUE,"MyJove Corporation","Journal of Visualized Experiments","1940-087X",NA,"1940-087X","1940-087X",NA,TRUE,"29443054","PMC5912251","ut:000426095700082",NA,FALSE
 "Wellcome Trust",2017,2009.01,"10.3791/55107",TRUE,"MyJove Corporation","Journal of Visualized Experiments","1940-087X",NA,"1940-087X","1940-087X",NA,TRUE,"28448042","PMC5564471","ut:000401077600015",NA,FALSE
@@ -2256,7 +2256,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2017,821.16,"10.1177/2398212817733403",TRUE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"29900415","PMC5990926",NA,NA,FALSE
 "Wellcome Trust",2017,821.16,"10.1177/2398212817723443",TRUE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"28944298","PMC5608081",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2017,273.72,"10.1177/1747016117711972",TRUE,"SAGE Publications","Research Ethics","1747-0161","1747-0161","2047-6094","1747-0161","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"Unknown","Unknown",NA,NA,TRUE
+"Wellcome Trust",2017,273.72,"10.1177/1747016117711972",FALSE,"SAGE Publications","Research Ethics","1747-0161","1747-0161","2047-6094","1747-0161","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"Unknown","Unknown",NA,NA,TRUE
 "Wellcome Trust",2017,273.72,"10.1177/2396987317728854",TRUE,"SAGE Publications","European Stroke Journal","2396-9873","2396-9873","2396-9881","2396-9873","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"29900411","PMC5992736","ut:000429801100008",NA,FALSE
 "Wellcome Trust",2017,273.72,"10.1177/0143831x16682307",TRUE,"SAGE Publications","Economic and Industrial Democracy","0143-831X","0143-831X","1461-7099","0143-831X","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"Unknown","Unknown",NA,NA,FALSE
 "Wellcome Trust",2017,350.33,"10.1177/2158244016667450",FALSE,"SAGE Publications","SAGE Open","2158-2440","2158-2440","2158-2440","2158-2440","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"Unknown","Unknown","ut:000385495800081",NA,TRUE
