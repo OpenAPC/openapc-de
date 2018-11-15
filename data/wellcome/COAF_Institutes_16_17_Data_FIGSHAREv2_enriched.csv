@@ -95,13 +95,13 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2017,2248.13,"10.1152/ajprenal.00344.2016",TRUE,"American Physiological Society","American Journal of Physiology-Renal Physiology","1931-857X","1931-857X","1522-1466","1522-1466",NA,TRUE,"28100499","PMC5495891","ut:000404369100021",NA,FALSE
+"Wellcome Trust",2017,2248.13,"10.1152/ajprenal.00344.2016",TRUE,"American Physiological Society","AJP: Renal Physiology","1931-857X","1931-857X","1522-1466","1522-1466",NA,TRUE,"28100499","PMC5495891","ut:000404369100021",NA,FALSE
 "Wellcome Trust",2017,2227.01,"10.1152/jn.00762.2016",TRUE,"American Physiological Society","Journal of Neurophysiology","0022-3077","0022-3077","1522-1598","0022-3077",NA,TRUE,"28003411","PMC5340880","ut:000398162500022",NA,FALSE
 "Wellcome Trust",2017,2189.33,"10.1152/ajpgi.00181.2015",TRUE,"American Physiological Society","American Journal of Physiology-Gastrointestinal and Liver Physiology","0193-1857","0193-1857","1522-1547","0193-1857",NA,TRUE,"27609768","PMC5130553","ut:000390113400002",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2017,2107.15,"10.1152/ajplung.00382.2016",TRUE,"American Physiological Society","American Journal of Physiology-Lung Cellular and Molecular Physiology","1040-0605","1040-0605","1522-1504","1040-0605",NA,TRUE,"28522564","PMC5582930","ut:000406746900004",NA,FALSE
+"Wellcome Trust",2017,2107.15,"10.1152/ajplung.00382.2016",TRUE,"American Physiological Society","American Journal of Physiology - Lung Cellular and Molecular Physiology","1040-0605","1040-0605","1522-1504","1040-0605",NA,TRUE,"28522564","PMC5582930","ut:000406746900004",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -1750,7 +1750,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2017,2942.49,"10.1093/ije/dyx177",TRUE,"Oxford University Press (OUP)","International Journal of Epidemiology","0300-5771","0300-5771","1464-3685","0300-5771","http://creativecommons.org/licenses/by/4.0/",TRUE,"29025131","PMC5837697","ut:000414561600054",NA,FALSE
 "Wellcome Trust",2017,2942.49,"10.1093/ecco-jcc/jjw189",TRUE,"Oxford University Press (OUP)","Journal of Crohn's and Colitis","1873-9946","1873-9946","1876-4479","1873-9946",NA,TRUE,"28453768","PMC5815571","ut:000401983300014",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2017,2942.49,"10.1093/qjmed/hcx046",TRUE,"Oxford University Press (OUP)","QJM: An International Journal of Medicine","1460-2725","1460-2725","1460-2393","1460-2393",NA,TRUE,"28339806","PMC5424648","ut:000402854700010",NA,FALSE
+"Wellcome Trust",2017,2942.49,"10.1093/qjmed/hcx046",TRUE,"Oxford University Press (OUP)","QJM","1460-2725","1460-2725","1460-2393","1460-2393",NA,TRUE,"28339806","PMC5424648","ut:000402854700010",NA,FALSE
 "Wellcome Trust",2017,2942.49,"10.1093/trstmh/trw069",TRUE,"Oxford University Press (OUP)","Transactions of The Royal Society of Tropical Medicine and Hygiene","0035-9203","0035-9203","1878-3503","0035-9203",NA,TRUE,"27852877","PMC5155547","ut:000398389700003",NA,FALSE
 "Wellcome Trust",2017,2942.49,"10.1093/trstmh/trx025",TRUE,"Oxford University Press (OUP)","Transactions of The Royal Society of Tropical Medicine and Hygiene","0035-9203","0035-9203","1878-3503","0035-9203",NA,TRUE,"28549173","PMC5722049","ut:000404562900001",NA,FALSE
 "Wellcome Trust",2017,2925.38,"10.1093/cercor/bhw417",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211",NA,TRUE,"28057726","PMC5390398","ut:000397257600002",NA,FALSE
@@ -2477,7 +2477,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2017,2771.42,"10.1038/bcj.2016.114",FALSE,"Springer Nature","Blood Cancer Journal","2044-5385",NA,"2044-5385","2044-5385","http://www.springer.com/tdm",TRUE,"27935580","PMC5223149","ut:000391807500005",NA,TRUE
 "Wellcome Trust",2017,2771.42,"10.1038/bcj.2017.27",FALSE,"Springer Nature","Blood Cancer Journal","2044-5385",NA,"2044-5385","2044-5385","http://www.springer.com/tdm",TRUE,"28362441","PMC5380911","ut:000397942200002",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2017,3147.78,"10.1038/gene.2017.5",TRUE,"Springer Nature","Genes & Immunity","1466-4879","1466-4879","1476-5470","1466-4879","http://www.springer.com/tdm",TRUE,"28381868","PMC5435965","ut:000401087000008",NA,FALSE
+"Wellcome Trust",2017,3147.78,"10.1038/gene.2017.5",TRUE,"Springer Nature","Genes and Immunity","1466-4879","1466-4879","1476-5470","1466-4879","http://www.springer.com/tdm",TRUE,"28381868","PMC5435965","ut:000401087000008",NA,FALSE
 "Wellcome Trust",2017,3147.78,"10.1038/jp.2017.138",TRUE,"Springer Nature","Journal of Perinatology","0743-8346","0743-8346","1476-5543","0743-8346",NA,TRUE,"29048408","PMC5712473","ut:000416883700004",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
