@@ -26,9 +26,10 @@ Preprocessed variants of the aforementioned files are indicated by a "_preproces
 |University_Returns_2013-2014_FINAL_Figshare_preprocessed.csv     | 01-10-2013 till 30-09-2014 | 1.2215 EUR                  |
 |University_Returns_2014-2015_FINAL_Figshare_preprocessed.csv     | 01-10-2014 till 30-09-2015 | 1.3488 EUR                  |
 |COAF_All_institutes_full_data_combined_v2_FIGSHARE_2015-2016.csv | 01-10-2015 till 30-09-2016 | 1.1477 EUR                  |
+|COAF_Institutes_16_17_Data_FIGSHAREv2_preprocessed.csv           | 01-10-2016 till 30-09-2017 | 1.1405 EUR                  |
 
-- The 'Journal Type' column was renamed to 'is_hybrid'. Values were converted accordingly: 'oa' was mapped to 'FALSE', 'hybrid' to TRUE.
-- All rows without a DOI were removed
+- The 'Journal Type' column was renamed to 'is_hybrid'. Values were converted accordingly: 'oa' was mapped to 'FALSE', 'hybrid' to TRUE (in case of 2016/17: Column 'Fully Open Access Journal', '0' mapped to TRUE, '1' mapped to FALSE).
+- All rows without a DOI or a cost value of 0 were removed.
 
 Additionally, some semantical corrections were conducted:
 
