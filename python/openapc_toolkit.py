@@ -1166,7 +1166,14 @@ def get_unified_journal_title(journal_full_title):
         "Cell Death & Differentiation": "Cell Death and Differentiation",
         "Nat. Prod. Rep.": "Natural Product Reports",
         "Bone & Joint Research": "Bone and Joint Research",
-        "Psychology of Well-Being": "Psychology of Well-Being: Theory, Research and Practice"
+        "Psychology of Well-Being": "Psychology of Well-Being: Theory, Research and Practice",
+        "Genes & Immunity": "Genes and Immunity",
+        "Biomater. Sci.": "Biomaterials Science",
+        "BDJ": "British Dental Journal",
+        "QJM: An International Journal of Medicine": "QJM",
+        "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
+        "American Journal of Physiology-Renal Physiology": "AJP: Renal Physiology",
+        "The Journal of Nutrition": "Journal of Nutrition"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
