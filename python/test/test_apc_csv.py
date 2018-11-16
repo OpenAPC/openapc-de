@@ -109,7 +109,9 @@ JOURNAL_OWNER_CHANGED = {
     "2333-5084": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Earth and Space Science
     "2041-8213": ["IOP Publishing", "American Astronomical Society"], # The Astrophysical Journal
     "0024-6107": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society
-    "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"] # Journal of Geophysical Research: Solid Earth
+    "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth
+    "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)"],# Journal of Nutrition
+    "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"] # Journal of Nutrition (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
