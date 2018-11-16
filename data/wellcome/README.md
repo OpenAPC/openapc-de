@@ -1,7 +1,7 @@
 
 ## About
 
-This directory contains APC data from the Wellcome Trust/Charity Open Access Fund from 2013 to 2017. For each period (fiscal year running from 1st October to 30th September) there are 3 different files:
+This directory contains APC data from the Wellcome Trust/Charity Open Access Fund from 2013 to 2017. There are 3 different files for each period (fiscal year running from 1st October to 30th September):
 
 ### Original files
 
@@ -41,18 +41,18 @@ Enriched, OpenAPC-compatible version of the preprocessed files. During enrichmen
 In addition, some corrections were applied post-enrichment:
 
 - Missing or wrong hybrid status was manually corrected in several cases
-- Entries with non-supported publication types (book chapters, proceedings...) were removed (Example: [14c04f6](https://github.com/OpenAPC/openapc-de/commit/14c04f6c71b7938bd64f9bcb679db760165b971c))
+- Entries with non-supported publication types (book chapters, proceedings...) were removed
 - duplicate cases were resolved (see below)
 
 ## Duplicate treatment
 
-Since OpenAPC ingests APC data for the UK from other sources as well (most notably the [Jisc collections](COAF_All_institutes_full_data_combined_v2_FIGSHARE_2015-2016_preprocessed.csv)), duplicates (identified via DOI) arise frequently (In fact, for the 2016/17 data set we identified about 70% of all articles as already being present in our collections!). 
+Since OpenAPC ingests APC data for the UK from other sources as well (most notably the [Jisc collections](https://github.com/OpenAPC/openapc-de/tree/master/data/jisc_collections)), duplicates (identified via DOI) arise frequently (In fact, for the 2016/17 data set we identified about 70% of all articles as already being present in our collections!). 
 Those cases have to be cleared as OpenAPC enforces a strict no-duplicate policy over all its data sets. Here's an overview of possible duplicate cases and how they are resolved:
 
 | type            |                                              description                                | resolving strategy                                           | reasoning                                                                                                                       | example |
 |:----------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|--------:|
-| internal        | A DOI occuring more than once inside a COAF data file                                   | Delete all cases                                             | Unable to determine which entry is correct                                                                                      |         |
-| Jisc data       | A DOI also reported by Jisc in a collections report                                     | Keep Jisc article, drop COAF entry                           | Jisc data more informative (states the author's affiliation)                                                                    |         |
-| offsetting data | A DOI also reported in an offsetting report (usually Springer Compact UK)               | Keep offsetting data, drop COAF entry                        | No "standard" APC is charged for articles published under offsetting contracts                                                  |         |
+| internal        | A DOI occuring more than once inside a COAF data file                                   | Delete all cases                                             | Unable to determine which entry is correct                                                                                      | [c63f3a3a](https://github.com/OpenAPC/openapc-de/commit/c63f3a3a) |
+| Jisc data       | A DOI also reported by Jisc in a collections report                                     | Keep Jisc article, drop COAF entry                           | Jisc data more informative (states the author's affiliation)                                                                    | [7beaecfc](https://github.com/OpenAPC/openapc-de/commit/7beaecfc) |
+| offsetting data | A DOI also reported in an offsetting report (usually Springer Compact UK)               | Keep offsetting data, drop COAF entry                        | No "standard" APC is charged for articles published under offsetting contracts                                                  | [c6797749](https://github.com/OpenAPC/openapc-de/commit/c6797749) |
 | other duplicate | Article already present in OpenAPC core data and not originating from a Jisc report     | Move both articles to unresolved duplicates collection file  | Unable to determine if case of "double reporting" (Full APC reported twice) or co-funding (APC shared between institutions)     |         |
 
