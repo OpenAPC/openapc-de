@@ -1173,7 +1173,8 @@ def get_unified_journal_title(journal_full_title):
         "QJM: An International Journal of Medicine": "QJM",
         "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
         "American Journal of Physiology-Renal Physiology": "AJP: Renal Physiology",
-        "The Journal of Nutrition": "Journal of Nutrition"
+        "The Journal of Nutrition": "Journal of Nutrition",
+        "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

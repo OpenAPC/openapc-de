@@ -111,7 +111,8 @@ JOURNAL_OWNER_CHANGED = {
     "0024-6107": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society
     "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth
     "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)"],# Journal of Nutrition
-    "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"] # Journal of Nutrition (electronic)
+    "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"], # Journal of Nutrition (electronic)
+    "1651-2235": ["Co-Action Publishing", "Informa UK Limited"] # Microbial Ecology in Health & Disease
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
