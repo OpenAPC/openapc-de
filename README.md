@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 71,643 open access journal articles, amounting to € 141,596,654 and contributed by 219 institutions.
+At the moment this project provides cost data on 71,668 open access journal articles, amounting to € 141,634,785 and contributed by 219 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -300,9 +300,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 71,643 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 219 research performing institutions and research funders. 
+This dataset contains information on 71,668 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 219 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 141,596,654. The average payment was € 1,976  and the median was € 1,785.
+In total, publication fee spending covered by the Open APC initiative amounted to € 141,634,785. The average payment was € 1,976  and the median was € 1,785.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -316,7 +316,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-40,011 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 62,231,181, including value-added tax; the average payment was € 1,555 (median =  € 1,459, SD = € 765).
+40,036 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 62,269,313, including value-added tax; the average payment was € 1,555 (median =  € 1,459, SD = € 765).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -370,9 +370,9 @@ The following table summarises institutional spending on articles published in f
 |Leibniz-Fonds                                                   |      271|               435,042|   1,605 (606)|  1,572|        66 - 4,403|
 |University of Glasgow                                           |      268|               542,753|   2,025 (997)|  1,674|       205 - 4,613|
 |University of Sheffield                                         |      256|               454,301| 1,775 (1,027)|  1,533|       132 - 5,492|
+|Oldenburg U                                                     |      246|               315,918|   1,284 (514)|  1,396|        63 - 2,009|
 |Swiss National Science Foundation (SNSF)                        |      244|               395,297|   1,620 (902)|  1,361|       227 - 5,000|
 |Duisburg-Essen U                                                |      235|               320,066|   1,362 (512)|  1,276|       238 - 3,700|
-|Oldenburg U                                                     |      221|               277,787|   1,257 (507)|  1,387|        63 - 2,009|
 |University of Oslo                                              |      218|               339,354|   1,557 (541)|  1,522|        70 - 3,522|
 |Queen's University Belfast                                      |      216|               350,202|   1,621 (716)|  1,454|       534 - 5,060|
 |Stuttgart U                                                     |      210|               254,329|   1,211 (611)|  1,261|        91 - 3,320|
