@@ -192,19 +192,19 @@ for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
             if oat.has_value(issn):
                 if issn not in issn_dict:
                     issn_dict[issn] = [reduced_row]
-                else:
+                elif reduced_row not in issn_dict[issn]:
                     issn_dict[issn].append(reduced_row)
             issn_p = row["issn_print"]
             if oat.has_value(issn_p):
                 if issn_p not in issn_p_dict:
                     issn_p_dict[issn_p] = [reduced_row]
-                else:
+                elif reduced_row not in issn_p_dict[issn_p]:
                     issn_p_dict[issn_p].append(reduced_row)
             issn_e = row["issn_electronic"]
             if oat.has_value(issn_e):
                 if issn_e not in issn_e_dict:
                     issn_e_dict[issn_e] = [reduced_row]
-                else:
+                elif reduced_row not in issn_e_dict[issn_e]:
                     issn_e_dict[issn_e].append(reduced_row)
             line += 1
 
