@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 71,668 open access journal articles, amounting to € 141,634,785 and contributed by 219 institutions.
+At the moment this project provides cost data on 71,788 open access journal articles, amounting to € 141,812,482 and contributed by 220 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -191,6 +191,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
 - Université Clermont Auvergne
+- Université Evry Val-d'Essonne
 - Université de France-Comté
 - Université Lille 1
 - Université Lille 2
@@ -300,9 +301,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 71,668 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 219 research performing institutions and research funders. 
+This dataset contains information on 71,788 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 220 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 141,634,785. The average payment was € 1,976  and the median was € 1,785.
+In total, publication fee spending covered by the Open APC initiative amounted to € 141,812,482. The average payment was € 1,975  and the median was € 1,785.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -316,7 +317,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-40,036 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 62,269,313, including value-added tax; the average payment was € 1,555 (median =  € 1,459, SD = € 765).
+40,148 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 62,428,336, including value-added tax; the average payment was € 1,555 (median =  € 1,458, SD = € 765).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -410,6 +411,7 @@ The following table summarises institutional spending on articles published in f
 |INRIA                                                           |       77|               118,761|   1,542 (645)|  1,538|       290 - 3,700|
 |University of Warwick                                           |       74|               146,885| 1,985 (1,410)|  1,639|       442 - 9,028|
 |TU Chemnitz                                                     |       73|                84,652|   1,160 (650)|  1,289|        78 - 2,123|
+|Université de Bordeaux                                          |       71|               105,784|   1,490 (593)|  1,347|       433 - 3,700|
 |University of Nottingham                                        |       68|               124,918|   1,837 (798)|  1,626|       803 - 5,319|
 |Institut de recherche pour le développement (IRD)               |       66|                89,007|   1,349 (498)|  1,313|        91 - 2,256|
 |Osnabrück U                                                     |       65|                90,046|   1,385 (611)|  1,553|       173 - 2,496|
@@ -419,6 +421,7 @@ The following table summarises institutional spending on articles published in f
 |University of Agder                                             |       62|                42,571|     687 (421)|    536|        86 - 2,145|
 |Dortmund TU                                                     |       61|                75,727|   1,241 (879)|  1,426|       107 - 4,403|
 |University of Chemistry and Technology, Prague                  |       61|                70,856|   1,162 (560)|  1,202|        60 - 2,798|
+|Université de Lorraine                                          |       60|                73,787|   1,230 (628)|  1,142|       142 - 3,700|
 |Northumbria University                                          |       57|                96,627|   1,695 (769)|  1,581|       144 - 4,335|
 |Swansea University                                              |       57|                99,199|   1,740 (875)|  1,419|       511 - 4,689|
 |University of Bath                                              |       57|                92,876|   1,629 (754)|  1,515|       113 - 4,186|
@@ -438,6 +441,7 @@ The following table summarises institutional spending on articles published in f
 |Université Clermont Auvergne                                    |       40|                66,154|   1,654 (872)|  1,350|       250 - 3,700|
 |University of Strathclyde                                       |       40|                63,464|   1,587 (849)|  1,513|       416 - 4,343|
 |University of Dundee                                            |       39|                83,879|   2,151 (955)|  1,971|       693 - 4,635|
+|Université Lille 2                                              |       38|                55,024|   1,448 (555)|  1,351|       202 - 2,990|
 |Aston University                                                |       36|                70,678|   1,963 (803)|  1,700|       713 - 4,845|
 |Oslo and Akershus university college                            |       36|                45,728|   1,270 (514)|  1,252|        86 - 2,238|
 |TU Ilmenau                                                      |       36|                42,389|   1,177 (553)|  1,251|       178 - 2,077|
@@ -461,17 +465,14 @@ The following table summarises institutional spending on articles published in f
 |Université Toulouse III - Paul Sabatier                         |       23|                39,591|   1,721 (968)|  1,350|       888 - 4,700|
 |IRSTEA                                                          |       21|                27,516|   1,310 (622)|  1,495|       300 - 2,175|
 |LSE                                                             |       21|                37,285|   1,775 (749)|  1,781|       496 - 3,000|
-|Université Lille 2                                              |       21|                29,150|   1,388 (684)|  1,256|       202 - 2,990|
 |University of Loughborough                                      |       21|                31,453|   1,498 (771)|  1,581|       384 - 4,204|
 |Bangor University                                               |       20|                33,800|   1,690 (672)|  1,572|       429 - 3,025|
 |Institute of Cancer Research                                    |       20|                43,133| 2,157 (1,106)|  1,673|     1,205 - 5,118|
-|Université de Lorraine                                          |       20|                24,914|   1,246 (577)|  1,128|       181 - 2,331|
 |Keele University                                                |       19|                31,431|   1,654 (395)|  1,644|     1,048 - 2,459|
 |St George's, University of London                               |       19|                36,284|   1,910 (702)|  1,862|       575 - 3,991|
 |Uni Research                                                    |       19|                28,070|   1,477 (610)|  1,474|       731 - 3,685|
 |University College of Southeast Norway                          |       19|                19,107|   1,006 (584)|    907|       112 - 2,155|
 |Norwegian Institute for Nature Research                         |       18|                23,241|   1,291 (390)|  1,264|       640 - 2,186|
-|Université de Bordeaux                                          |       18|                25,745|   1,430 (456)|  1,258|       960 - 2,600|
 |Université de Franche-Comté                                     |       18|                21,696|   1,205 (436)|  1,184|       300 - 2,160|
 |University of Huddersfield                                      |       18|                27,045|   1,502 (407)|  1,578|       761 - 2,512|
 |Uppsala University                                              |       18|                15,612|     867 (549)|    874|       180 - 2,132|
@@ -537,6 +538,7 @@ The following table summarises institutional spending on articles published in f
 |Norwegian Institute for Agricultural and Environmental Research |        2|                 2,389|   1,194 (  0)|  1,194|     1,194 - 1,194|
 |Norwegian Institute of Water Research                           |        2|                 1,813|     906 ( 16)|    906|       895 -   918|
 |Norwegian School of Sport Sciences                              |        2|                 1,568|     784 (500)|    784|       431 - 1,137|
+|Université Evry Val-d'Essonne                                   |        2|                 4,237| 2,118 (1,105)|  2,118|     1,337 - 2,900|
 |Linnaeus University                                             |        1|                   630|     630 (  0)|    630|       630 -   630|
 |TIB                                                             |        1|                 1,619|   1,619 (  0)|  1,619|     1,619 - 1,619|
 |University of Stavanger                                         |        1|                   709|     709 (  0)|    709|       709 -   709|
@@ -546,7 +548,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,632 open access articles being published in hybrid journals. Total expenditure amounts to  79,365,473 €. Average  fee is 2,509 € and the median 2,453 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,640 open access articles being published in hybrid journals. Total expenditure amounts to  79,384,146 €. Average  fee is 2,509 € and the median 2,453 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -659,12 +661,15 @@ The following institutions have contributed expenditures on hybrid open access j
 |Ecole normale supérieure de Paris                           |        4|                17,077| 4,269 (3,800)|  2,909|     1,410 - 9,848|
 |Glasgow Caledonian University                               |        4|                13,215|   3,304 (414)|  3,382|     2,771 - 3,680|
 |Hannover U                                                  |        4|                 5,824|   1,456 (180)|  1,398|     1,323 - 1,704|
+|Université de Bordeaux                                      |        4|                 8,815|   2,204 (607)|  2,195|     1,676 - 2,750|
+|Université Lille 2                                          |        4|                12,659| 3,165 (1,262)|  3,089|     1,981 - 4,500|
 |University College West                                     |        4|                 8,395|   2,099 (245)|  2,022|     1,906 - 2,443|
 |ESPCI Paris                                                 |        3|                 5,574|   1,858 (846)|  2,160|       902 - 2,512|
 |Hospices Civils de Lyon                                     |        3|                 8,317|   2,772 (198)|  2,677|     2,640 - 3,000|
 |HZDR                                                        |        3|                 5,405|   1,802 (746)|  1,755|     1,080 - 2,570|
 |Konstanz U                                                  |        3|                 5,556|   1,852 (525)|  1,950|     1,285 - 2,320|
 |TU Clausthal                                                |        3|                 7,082|   2,361 (349)|  2,500|     1,964 - 2,618|
+|Université de Lorraine                                      |        3|                 5,256| 1,752 (1,121)|  1,370|       872 - 3,014|
 |Université Paris Diderot (Paris VII)                        |        3|                 4,405|   1,468 ( 82)|  1,500|     1,375 - 1,530|
 |GenØk - Centre for Biosafety                                |        2|                 3,650|   1,825 (371)|  1,825|     1,563 - 2,087|
 |Indiana University - Purdue University Indianapolis (IUPUI) |        2|                 3,019|   1,509 (136)|  1,509|     1,413 - 1,605|
@@ -688,14 +693,11 @@ The following institutions have contributed expenditures on hybrid open access j
 |OpenAIRE                                                    |        1|                 2,000|   2,000 (  0)|  2,000|     2,000 - 2,000|
 |TU Chemnitz                                                 |        1|                   100|     100 (  0)|    100|       100 -   100|
 |Université Claude Bernard Lyon 1                            |        1|                 1,875|   1,875 (  0)|  1,875|     1,875 - 1,875|
-|Université de Bordeaux                                      |        1|                 2,709|   2,709 (  0)|  2,709|     2,709 - 2,709|
 |Université de Bourgogne                                     |        1|                 1,950|   1,950 (  0)|  1,950|     1,950 - 1,950|
 |Université de Caen Normandie                                |        1|                   750|     750 (  0)|    750|       750 -   750|
 |Université de Franche-Comté                                 |        1|                   307|     307 (  0)|    307|       307 -   307|
-|Université de Lorraine                                      |        1|                 1,370|   1,370 (  0)|  1,370|     1,370 - 1,370|
 |Université de Toulon                                        |        1|                 1,378|   1,378 (  0)|  1,378|     1,378 - 1,378|
 |Université Grenoble Alpes                                   |        1|                   350|     350 (  0)|    350|       350 -   350|
-|Université Lille 2                                          |        1|                 3,977|   3,977 (  0)|  3,977|     3,977 - 3,977|
 |Université Nice-Sophia-Antipolis                            |        1|                 2,000|   2,000 (  0)|  2,000|     2,000 - 2,000|
 |Université Toulouse III - Paul Sabatier                     |        1|                 3,000|   3,000 (  0)|  3,000|     3,000 - 3,000|
 
@@ -726,9 +728,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.75%       |
-|PubMed ID                  |  76.61%      |
+|PubMed ID                  |  76.6%      |
 |PubMed Central ID          |  69.14%     |
-|Web of Science record ID   | 93.12%      |
+|Web of Science record ID   | 93.11%      |
 
 
 

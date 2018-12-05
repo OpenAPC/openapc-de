@@ -215,6 +215,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
 - Université Clermont Auvergne
+- Université Evry Val-d'Essonne
 - Université de France-Comté
 - Université Lille 1
 - Université Lille 2
