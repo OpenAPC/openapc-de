@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 22,562 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
+This dataset contains information on 22,687 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
 
 
@@ -25,25 +25,25 @@ This dataset contains information on 22,562 articles, the following table shows 
 |University of Cambridge                                                               |      644|
 |University of Oxford                                                                  |      574|
 |Imperial College London                                                               |      530|
-|Lund University                                                                       |      470|
+|Lund University                                                                       |      479|
 |King's College London                                                                 |      460|
 |University of Manchester                                                              |      404|
 |University of Amsterdam                                                               |      393|
 |Utrecht University                                                                    |      393|
+|Karolinska Institute                                                                  |      380|
 |University of Groningen                                                               |      376|
 |Delft University of Technology                                                        |      362|
 |Wageningen University                                                                 |      361|
-|Karolinska Institute                                                                  |      358|
 |Erasmus MC                                                                            |      352|
 |Leiden University                                                                     |      350|
 |FWF - Austrian Science Fund                                                           |      349|
 |University of Edinburgh                                                               |      349|
 |Medical University of Vienna                                                          |      342|
+|Uppsala University                                                                    |      339|
 |Academic Medical Center (AMC)                                                         |      331|
 |VU University Amsterdam                                                               |      330|
-|Uppsala University                                                                    |      322|
+|University of Gothenburg                                                              |      310|
 |Radboud University Medical Center                                                     |      305|
-|University of Gothenburg                                                              |      300|
 |University of Leeds                                                                   |      294|
 |Maastricht University                                                                 |      291|
 |University Medical Center Utrecht                                                     |      285|
@@ -51,27 +51,27 @@ This dataset contains information on 22,562 articles, the following table shows 
 |University of Bristol                                                                 |      278|
 |University of Southampton                                                             |      275|
 |University of Sheffield                                                               |      274|
+|Royal Institute of Technology                                                         |      265|
 |VU University Medical Center (VUmc)                                                   |      257|
-|Royal Institute of Technology                                                         |      255|
 |University of Nottingham                                                              |      255|
 |University of Birmingham                                                              |      252|
 |Radboud University                                                                    |      241|
 |Cardiff University                                                                    |      228|
 |Leiden University Medical Center (LUMC)                                               |      228|
 |University of Warwick                                                                 |      226|
+|Stockholm University                                                                  |      225|
 |University of Twente                                                                  |      223|
-|Stockholm University                                                                  |      219|
 |Erasmus University                                                                    |      206|
 |University Medical Center Groningen (UMCG)                                            |      205|
 |University of Liverpool                                                               |      203|
 |Eindhoven University of Technology                                                    |      199|
-|Umea University                                                                       |      193|
+|Umea University                                                                       |      199|
+|Linköping University                                                                  |      195|
 |Newcastle University                                                                  |      188|
-|Linköping University                                                                  |      187|
+|Chalmers University of Technology                                                     |      187|
 |University of Glasgow                                                                 |      180|
-|Chalmers University of Technology                                                     |      178|
+|Swedish University of Agricultural Sciences                                           |      177|
 |University of Vienna                                                                  |      176|
-|Swedish University of Agricultural Sciences                                           |      170|
 |University of Exeter                                                                  |      156|
 |Queen's University of Belfast                                                         |      150|
 |Tilburg University                                                                    |      150|
@@ -94,7 +94,7 @@ This dataset contains information on 22,562 articles, the following table shows 
 |Nottingham Trent University                                                           |       97|
 |University of Strathclyde                                                             |       97|
 |University of Aberdeen                                                                |       96|
-|Lulea University of Technology                                                        |       84|
+|Lulea University of Technology                                                        |       88|
 |Swansea University                                                                    |       84|
 |University of Dundee                                                                  |       83|
 |University of Kent                                                                    |       83|
@@ -109,13 +109,13 @@ This dataset contains information on 22,562 articles, the following table shows 
 |City University London                                                                |       63|
 |Heriot-Watt University                                                                |       62|
 |Montanuniversität Leoben                                                              |       60|
+|Örebro University                                                                     |       60|
 |University of Portsmouth                                                              |       59|
 |Cranfield University                                                                  |       58|
-|Örebro University                                                                     |       57|
 |Royal Holloway, University of London                                                  |       57|
 |Bangor University                                                                     |       55|
+|Linnaeus University                                                                   |       51|
 |University of Stirling                                                                |       51|
-|Linnaeus University                                                                   |       50|
 |Sheffield Hallam University                                                           |       49|
 |University of Ulster                                                                  |       49|
 |Bournemouth University                                                                |       48|
@@ -127,24 +127,24 @@ This dataset contains information on 22,562 articles, the following table shows 
 |University of West of England                                                         |       39|
 |University of Lincoln                                                                 |       38|
 |University of Huddersfield                                                            |       36|
+|Karlstad University                                                                   |       35|
 |Keele University                                                                      |       35|
-|Karlstad University                                                                   |       34|
 |Leeds Beckett University                                                              |       32|
-|Mälardalen University                                                                 |       31|
+|Mälardalen University                                                                 |       32|
 |Natural History Museum                                                                |       31|
+|Malmö University                                                                      |       30|
 |University of Klagenfurt                                                              |       30|
 |Aberystwyth University                                                                |       29|
 |Aston University                                                                      |       29|
-|Malmö University                                                                      |       29|
 |Vienna University of Economics and Business (WU)                                      |       29|
+|Jönköping University                                                                  |       28|
 |University of Veterinary Medicine Vienna                                              |       28|
 |University of Greenwich                                                               |       27|
-|Jönköping University                                                                  |       26|
+|University West                                                                       |       27|
 |St George's, University of London                                                     |       26|
 |Edge Hill University                                                                  |       25|
 |Netherlands Institute of Ecology                                                      |       25|
 |Robert Gordon University                                                              |       25|
-|University West                                                                       |       25|
 |Wageningen UR (University & Research Centre)                                          |       24|
 |Goldsmiths, University of London                                                      |       22|
 |University of Salford                                                                 |       22|
@@ -162,22 +162,22 @@ This dataset contains information on 22,562 articles, the following table shows 
 |International Institute for Applied Systems Analysis (IIASA)                          |       16|
 |Södertörn University                                                                  |       16|
 |Swedish Museum of Natural History                                                     |       16|
+|University of Gävle                                                                   |       16|
 |Fungal Biodiversity Center (CBS)                                                      |       15|
 |Halmstad University                                                                   |       15|
 |Kristianstad University                                                               |       15|
 |Cardiff Metropolitan University                                                       |       14|
 |University of Applied Sciences Upper Austria                                          |       14|
-|University of Gävle                                                                   |       14|
 |Edinburgh Napier University                                                           |       13|
+|University of Skövde                                                                  |       13|
 |University of Derby                                                                   |       12|
-|University of Skövde                                                                  |       12|
 |Stockholm School of Economics                                                         |       10|
 |University of Bedfordshire                                                            |       10|
 |London South Bank University                                                          |        9|
 |Scotland's Rural College                                                              |        8|
+|Swedish Defence Research Agency                                                       |        8|
 |University of Wales Trinity St David                                                  |        8|
 |FH Salzburg - University of Applied Sciences                                          |        7|
-|Swedish Defence Research Agency                                                       |        7|
 |University of Chester                                                                 |        7|
 |University of the Highlands and Islands                                               |        7|
 |Anglia Ruskin University                                                              |        6|
@@ -188,12 +188,12 @@ This dataset contains information on 22,562 articles, the following table shows 
 |Academisch Centrum Tandheelkunde Amsterdam (ACTA)                                     |        5|
 |FH St. Pölten - University of Applied Sciences                                        |        5|
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                            |        5|
+|Dalarna University                                                                    |        4|
 |Netherlands Institute for Neuroscience                                                |        4|
 |Queen Margaret University                                                             |        4|
 |Swedish National Road and Transport Research Institute (VTI)                          |        4|
-|Dalarna University                                                                    |        3|
+|Swedish School of Sport and Health Sciences (GIH)                                     |        4|
 |FH Vorarlberg - University of Applied Sciences                                        |        3|
-|Swedish School of Sport and Health Sciences (GIH)                                     |        3|
 |University of Worcester                                                               |        3|
 |Carinthia University of Applied Sciences (CUAS)                                       |        2|
 |Danube University Krems University for Continuing Education                           |        2|
