@@ -9,15 +9,13 @@
 "INSERM",2017,1725.25,"10.1186/s12933-017-0509-7",FALSE,"Springer Nature","Cardiovascular Diabetology","1475-2840",NA,"1475-2840","1475-2840",NA,TRUE,"28202017","PMC5311847","ut:000396940400001",NA,TRUE
 "INSERM",2017,1483.25,"10.1186/s12889-016-4007-8",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458",NA,TRUE,"28095815","PMC5240241","ut:000392879100005",NA,TRUE
 "INSERM",2017,1415,"10.1186/s13550-017-0267-2",FALSE,"Springer Nature","EJNMMI Research","2191-219X",NA,"2191-219X","2191-219X","http://creativecommons.org/licenses/by/4.0",TRUE,"28266002","PMC5339262","ut:000396165200001",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
 "INSERM",2017,2155.51,"10.7554/elife.32640",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29087295","PMC5711373","ut:000417125000001",NA,TRUE
 "INSERM",2017,1500,"10.3324/haematol.2016.156869",FALSE,"Ferrata Storti Foundation (Haematologica)","Haematologica","0390-6078","0390-6078","1592-8721","0390-6078",NA,TRUE,"28385784","PMC5566019","ut:000404129300016",NA,TRUE
 "INSERM",2017,3613.77,"10.3791/55709",TRUE,"MyJove Corporation","Journal of Visualized Experiments","1940-087X",NA,"1940-087X","1940-087X",NA,TRUE,"29364247","PMC5908391","ut:000423240800010",NA,FALSE
 "INSERM",2017,1425,"10.1136/bmjopen-2017-018587",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"29273664","PMC5778291","ut:000423826700151",NA,TRUE
-"INSERM",2017,1689.73,"10.1177/1756283x17746625",FALSE,"SAGE Publications","Therapeutic Advances in Gastroenterology","1756-2848","1756-2848","1756-2848","1756-283X","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"29399039","PMC5788087","ut:000443073400001",NA,TRUE
+"INSERM",2017,1689.73,"10.1177/1756283x17746625",TRUE,"SAGE Publications","Therapeutic Advances in Gastroenterology","1756-2848","1756-2848","1756-2848","1756-283X","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"29399039","PMC5788087","ut:000443073400001",NA,TRUE
 "INSERM",2017,2800,"10.1136/archdischild-2017-313697",TRUE,"BMJ","Archives of Disease in Childhood - Fetal and Neonatal Edition","1359-2998","1359-2998","1468-2052","1359-2998",NA,TRUE,"29353260",NA,NA,NA,FALSE
-"",,,"","","","","","","","","","","","","","",""
+"INSERM",2017,2131.43,"10.7554/elife.27215",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29239722","PMC5747519",NA,NA,TRUE
 "INSERM",2017,1800,"10.1186/s12911-017-0537-y",FALSE,"Springer Nature","BMC Medical Informatics and Decision Making","1472-6947",NA,"1472-6947","1472-6947",NA,TRUE,"28962565","PMC5622531","ut:000412136700001",NA,TRUE
 "INSERM",2017,1614,"10.1093/gigascience/gix099",FALSE,"Oxford University Press (OUP)","GigaScience","2047-217X",NA,"2047-217X","2047-217X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29048555","PMC5691353","ut:000419634600001",NA,TRUE
 "INSERM",2017,2162.27,"10.1177/0962280217726803",TRUE,"SAGE Publications","Statistical Methods in Medical Research","0962-2802","0962-2802","1477-0334","0962-2802","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"28870123","PMC5658278",NA,NA,FALSE
@@ -35,11 +33,11 @@
 "INSERM",2017,1414.5,"10.1371/journal.pone.0170658",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28152013","PMC5289461","ut:000396161200029",NA,TRUE
 "INSERM",2017,2348.59,"10.3389/fpsyg.2017.00442",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078",NA,TRUE,"28386243","PMC5362594","ut:000397317800001",NA,TRUE
 "INSERM",2017,2822.71,"10.1158/1055-9965.epi-16-1030",TRUE,"American Association for Cancer Research (AACR)","Cancer Epidemiology Biomarkers & Prevention","1055-9965","1055-9965","1538-7755","1055-9965",NA,TRUE,"28377415",NA,"ut:000415229200001",NA,FALSE
-"INSERM",2017,1611.79,"10.1364/boe.8.001665",FALSE,"Optical Society of America (OSA)","Biomedical Optics Express","2156-7085","2156-7085","2156-7085","2156-7085",NA,TRUE,"28663855","PMC5480570","ut:000395942600029",NA,TRUE
+"INSERM",2017,1611.79,"10.1364/boe.8.001665",TRUE,"Optical Society of America (OSA)","Biomedical Optics Express","2156-7085","2156-7085","2156-7085","2156-7085",NA,TRUE,"28663855","PMC5480570","ut:000395942600029",NA,TRUE
 "INSERM",2017,2558.55,"10.18632/oncotarget.18968",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"29299119","PMC5746354","ut:000419566000008",NA,FALSE
 "INSERM",2017,1341.52,"10.1371/journal.pone.0179849",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28723956","PMC5516970","ut:000406067800008",NA,TRUE
 "INSERM",2017,1899.21,"10.3389/fnmol.2017.00211",FALSE,"Frontiers Media SA","Frontiers in Molecular Neuroscience","1662-5099",NA,"1662-5099","1662-5099",NA,TRUE,"28744197","PMC5504187","ut:000405354300001",NA,TRUE
-"INSERM",2017,2800,"10.1038/tp.2017.137",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188",NA,TRUE,"28786975","PMC5611717","ut:000407809100006",NA,TRUE
+"INSERM",2017,2800,"10.1038/tp.2017.137",TRUE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188",NA,TRUE,"28786975","PMC5611717","ut:000407809100006",NA,TRUE
 "INSERM",2017,1845.9,"10.1186/s12889-017-4562-7",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458",NA,TRUE,"28764733","PMC5540569","ut:000406754200001",NA,TRUE
 "INSERM",2017,1558.71,"10.1186/s13633-016-0031-9",FALSE,"Springer Nature","International Journal of Pediatric Endocrinology","1687-9856",NA,"1687-9856","1687-9848",NA,TRUE,"27379168","PMC4931699","ut:000378989900001",NA,TRUE
 "INSERM",2017,1435.29,"10.1016/j.ekir.2017.08.010",FALSE,"Elsevier BV","Kidney International Reports","2468-0249","2468-0249",NA,"2468-0249","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29340320","PMC5762958","ut:000419317600015",NA,TRUE
@@ -47,7 +45,7 @@
 "INSERM",2017,1483.25,"10.1186/s12882-017-0710-7",FALSE,"Springer Nature","BMC Nephrology","1471-2369",NA,"1471-2369","1471-2369",NA,TRUE,"28899351","PMC5596852","ut:000410631300001",NA,TRUE
 "INSERM",2017,1510,"10.1002/cam4.1186",FALSE,"Wiley-Blackwell","Cancer Medicine","2045-7634",NA,NA,"2045-7634","http://creativecommons.org/licenses/by/4.0/",TRUE,"28941222","PMC5633590","ut:000412646000028",NA,TRUE
 "INSERM",2017,1483.25,"10.1186/s12913-017-2602-8",FALSE,"Springer Nature","BMC Health Services Research","1472-6963",NA,"1472-6963","1472-6963",NA,TRUE,"28962560","PMC5622434","ut:000412228800001",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
+"INSERM",2017,2601.33,"10.1182/bloodadvances.2017004960",FALSE,"American Society of Hematology","Blood Advances","2473-9529","2473-9529","2473-9537","2473-9529",NA,FALSE,"29296822","PMC5728329","ut:000410489200016",NA,FALSE
 "INSERM",2017,2667,"10.1111/1467-9566.12620",TRUE,"Wiley-Blackwell","Sociology of Health & Illness","0141-9889",NA,NA,"0141-9889","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28980337",NA,"ut:000425943700004",NA,FALSE
 "INSERM",2017,1267.57,"10.1371/journal.pone.0185848",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29036185","PMC5643053","ut:000413054800011",NA,TRUE
 "INSERM",2017,1943.14,"10.1371/journal.pgen.1007049",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","https://creativecommons.org/publicdomain/zero/1.0/",TRUE,"29107990","PMC5690690","ut:000416836900006",NA,TRUE
@@ -58,7 +56,7 @@
 "INSERM",2017,2130,"10.1093/nar/gkw1280",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28013268","PMC5389700","ut:000396055400012",NA,TRUE
 "INSERM",2017,478.4,"10.1128/genomea.00226-17",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"28428309","PMC5399268",NA,NA,FALSE
 "INSERM",2017,478.4,"10.1128/genomea.00248-17",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"28450515","PMC5408113",NA,NA,FALSE
-"",,,"","","","","","","","","","","","","","",""
+"INSERM",2017,498.15,NA,FALSE,"Open Access Pub",NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,"https://openaccesspub.org/article/445/jhp-17-1460.pdf",NA
 "INSERM",2017,1995,"10.1186/s12954-017-0181-y",FALSE,"Springer Nature","Harm Reduction Journal","1477-7517",NA,"1477-7517","1477-7517",NA,TRUE,"28778212","PMC5545002","ut:000407452600001",NA,TRUE
 "INSERM",2017,3519,"10.4172/2167-7662.1000144",FALSE,"OMICS Publishing Group","Bioenergetics: Open Access","2167-7662",NA,"2167-7662","2167-7662",NA,TRUE,NA,NA,NA,NA,FALSE
 "INSERM",2017,1495,"10.1242/bio.026153",FALSE,"The Company of Biologists","Biology Open","2046-6390",NA,"2046-6390","2046-6390","http://creativecommons.org/licenses/by/3.0",TRUE,"28870996","PMC5665465","ut:000413105900013",NA,TRUE
@@ -73,7 +71,7 @@
 "INSERM",2017,2946.9,"10.1182/bloodadvances.2016002360",FALSE,"American Society of Hematology","Blood Advances","2473-9529","2473-9529","2473-9537","2473-9529",NA,TRUE,"29296975","PMC5728597","ut:000399371200004",NA,FALSE
 "INSERM",2017,1998,"10.2147/dddt.s153095",FALSE,"Dove Medical Press Ltd.","Drug Design, Development and Therapy","1177-8881",NA,"1177-8881","1177-8881","http://creativecommons.org/licenses/by/4.0/",TRUE,"29386885","PMC5765974","ut:000422635000001",NA,TRUE
 "INSERM",2017,1534,"10.2147/ijn.s147659",FALSE,"Dove Medical Press Ltd.","International Journal of Nanomedicine","1178-2013",NA,"1178-2013","1176-9114","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"29200853","PMC5703174","ut:000416045000001",NA,TRUE
-"INSERM",2017,1598,NA,FALSE,"e-Century Publishing Corporation","American Journal of Cancer Research","2156-6976",NA,NA,"2156-6976",NA,FALSE,NA,NA,NA,"http://ajcr.us/files/ajcr0052086.pdf",FALSE
+"INSERM",2017,1598,NA,FALSE," e-Century Publishing Corporation",NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,"http://ajcr.us/files/ajcr0052086.pdf",NA
 "INSERM",2017,2500,"10.7554/elife.26423",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"28875936","PMC5628014","ut:000412205900001",NA,TRUE
 "INSERM",2017,2500,"10.7554/elife.27564",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"28731406","PMC5540466","ut:000406748600001",NA,TRUE
 "INSERM",2017,2500,"10.7554/elife.25808",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"28534738","PMC5441875","ut:000401798900001",NA,TRUE
@@ -115,7 +113,7 @@
 "INSERM",2017,4509.8,"10.1016/j.celrep.2016.12.045",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28076778",NA,"ut:000396468200004",NA,TRUE
 "INSERM",2017,2691.18,"10.1016/j.ebiom.2017.02.013",FALSE,"Elsevier BV","EBioMedicine","2352-3964","2352-3964",NA,"2352-3964","http://creativecommons.org/licenses/by/4.0/",TRUE,"28229909","PMC5360583","ut:000398075700018",NA,TRUE
 "INSERM",2017,2870.59,"10.1016/j.omtm.2017.04.008",FALSE,"Elsevier BV","Molecular Therapy - Methods & Clinical Development","2329-0501","2329-0501",NA,"2329-0501","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28540323","PMC5430497","ut:000406299600021",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
+"INSERM",2017,1345.59,"10.1016/j.ultrasmedbio.2017.03.011",TRUE,"Elsevier BV","Ultrasound in Medicine & Biology","0301-5629","0301-5629",NA,"0301-5629","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28476311","PMC5754333","ut:000406418500013",NA,FALSE
 "INSERM",2017,2691.18,"10.1016/j.jcmg.2017.05.021",TRUE,"Elsevier BV","JACC: Cardiovascular Imaging","1936-878X","1936-878X",NA,"1876-7591","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28823737","PMC5784807","ut:000434433800003",NA,FALSE
 "INSERM",2017,4509.8,"10.1016/j.celrep.2016.11.033",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"27926875",NA,"ut:000390894200021",NA,TRUE
 "INSERM",2017,2691.18,"10.1053/j.gastro.2017.11.003",TRUE,"Elsevier BV","Gastroenterology","0016-5085","0016-5085",NA,"0016-5085","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29133078",NA,"ut:000427453300041",NA,FALSE
@@ -188,7 +186,7 @@
 "INSERM",2017,2116.5,"10.3389/fimmu.2017.01590",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224",NA,TRUE,"29209323","PMC5701973","ut:000415681100002",NA,TRUE
 "INSERM",2017,2116.5,"10.3389/fphys.2017.00949",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X",NA,TRUE,"29213245","PMC5702631","ut:000415988500001",NA,TRUE
 "INSERM",2017,1150,"10.3389/fimmu.2017.00031",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224",NA,TRUE,"28167946","PMC5256148","ut:000392433600001",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
+"INSERM",2017,2490,"10.3389/fimmu.2017.00863",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224",NA,TRUE,"28824613","PMC5543029","ut:000407152100001",NA,TRUE
 "INSERM",2017,2116.5,"10.3389/fimmu.2017.00498",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224",NA,TRUE,"28507548","PMC5410627","ut:000400317900001",NA,TRUE
 "INSERM",2017,2490,"10.3389/fmicb.2017.01499",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28861047","PMC5559693","ut:000407737000001",NA,TRUE
 "INSERM",2017,2000,"10.1155/2017/2982879",FALSE,"Hindawi Publishing Corporation","Mediators of Inflammation","0962-9351","0962-9351","1466-1861","0962-9351","http://creativecommons.org/licenses/by/4.0/",TRUE,"28785137","PMC5529663","ut:000405600900001",NA,TRUE
@@ -280,7 +278,7 @@
 "INSERM",2017,1165,"10.1038/srep39715",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28045070","PMC5206643","ut:000391148300001",NA,TRUE
 "INSERM",2017,1305,"10.1038/srep42676",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28198454","PMC5309880","ut:000394254600001",NA,TRUE
 "INSERM",2017,850,"10.1038/emi.2017.47",FALSE,"Springer Nature","Emerging Microbes & Infections","2222-1751",NA,"2222-1751","2222-1751",NA,TRUE,"28634357","PMC5520320","ut:000404720600007",NA,TRUE
-"INSERM",2017,2600,"10.1038/mp.2017.195",TRUE,"Springer Nature","Molecular Psychiatry","1359-4184","1359-4184","1476-5578","1359-4184",NA,TRUE,"28924185",NA,NA,NA,FALSE
+"INSERM",2017,2600,"10.1038/mp.2017.195",TRUE,"Springer Nature","Molecular Psychiatry","1359-4184","1359-4184","1476-5578","1359-4184","http://www.springer.com/tdm",TRUE,"28924185",NA,NA,NA,FALSE
 "INSERM",2017,2600,"10.1038/cddis.2017.374",FALSE,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889",NA,TRUE,"28796253","PMC5596562","ut:000409550500016",NA,TRUE
 "INSERM",2017,2700,"10.1038/onc.2017.97",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594","0950-9232",NA,TRUE,"28414308","PMC5562849","ut:000407702400011",NA,FALSE
 "INSERM",2017,1305,"10.1038/s41598-017-16586-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29176602","PMC5701211","ut:000416135000053",NA,TRUE
@@ -358,7 +356,7 @@
 "INSERM",2017,1305,"10.1038/s41598-017-06547-8",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28740149","PMC5524760","ut:000406260800005",NA,TRUE
 "INSERM",2017,1305.01,"10.1038/s41598-017-11264-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28883437","PMC5589798","ut:000409562000046",NA,TRUE
 "INSERM",2017,2180,"10.1038/s41540-017-0038-8",FALSE,"Springer Nature","npj Systems Biology and Applications","2056-7189",NA,"2056-7189","2056-7189","http://creativecommons.org/licenses/by/4.0",TRUE,"29263798","PMC5736638",NA,NA,TRUE
-"INSERM",2017,2800,"10.1038/tp.2017.36",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188",NA,TRUE,"28267147","PMC5416679","ut:000397228200007",NA,TRUE
+"INSERM",2017,2800,"10.1038/tp.2017.36",TRUE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188",NA,TRUE,"28267147","PMC5416679","ut:000397228200007",NA,TRUE
 "INSERM",2017,1360,"10.1038/cddiscovery.2017.18",FALSE,"Springer Nature","Cell Death Discovery","2058-7716",NA,"2058-7716","2058-7716",NA,TRUE,"28417018","PMC5377063",NA,NA,TRUE
 "INSERM",2017,1305,"10.1038/s41598-017-05313-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28701774","PMC5507914","ut:000405425000039",NA,TRUE
 "INSERM",2017,3700,"10.1038/s41467-017-00468-w",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"28916785","PMC5602674","ut:000410812200006",NA,TRUE
@@ -407,7 +405,7 @@
 "INSERM",2017,850,"10.3390/cancers9080100",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"28771164","PMC5575603","ut:000408877700006",NA,TRUE
 "INSERM",2017,700,"10.3390/cancers9120161",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"29186933","PMC5742809","ut:000419187300002",NA,TRUE
 "INSERM",2017,699,"10.15406/aovs.2017.07.00209",FALSE,"MedCrave Group, LLC","Advances in Ophthalmology & Visual System","2377-4290",NA,"2377-4290","2377-4290",NA,TRUE,NA,NA,NA,NA,FALSE
-"",,,"","","","","","","","","","","","","","",""
+"INSERM",2017,448,"10.15406/hpmij.2017.01.00014",FALSE,"MedCrave Group, LLC","Hospice and Palliative Medicine International Journal","2576-4497",NA,"2576-4497","2576-4497",NA,TRUE,NA,NA,NA,NA,FALSE
 "INSERM",2017,1100,"10.1073/pnas.1616864114",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","http://www.pnas.org/site/misc/userlicense.xhtml",TRUE,"28193889","PMC5338546","ut:000395101200075",NA,FALSE
 "INSERM",2017,1305,"10.1038/s41598-017-18826-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29323173","PMC5764989","ut:000419941000015",NA,TRUE
 "INSERM",2017,1305,"10.1038/s41598-017-18080-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29269773","PMC5740174","ut:000418562100030",NA,TRUE
@@ -498,9 +496,9 @@
 "INSERM",2017,1495,"10.1371/journal.pone.0178886",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28570698","PMC5453588","ut:000402611800133",NA,TRUE
 "INSERM",2017,1495,"10.1371/journal.pone.0180236",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28671951","PMC5495333","ut:000405268500031",NA,TRUE
 "INSERM",2017,1495,"10.1371/journal.pone.0184630",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28926581","PMC5604981","ut:000411166600027",NA,TRUE
-"INSERM",2017,1565.2,NA,FALSE,"Remedy Publications","Journal of Respiratory Medicine and Lung Disease","2475-5761",NA,NA,"2475-5761",NA,FALSE,NA,NA,NA,"http://www.remedypublications.com/respiratory-medicine/full-text/jrmld-v2-id1026.php",FALSE
+"INSERM",2017,1565.2,NA,FALSE,"Remedy Publications",NA,"2475-5761",NA,NA,"2475-5761",NA,FALSE,NA,NA,NA,"http://www.remedypublications.com/respiratory-medicine/full-text/jrmld-v2-id1026.php",FALSE
 "INSERM",2017,1950,"10.1159/000477607",FALSE,"S. Karger AG","Cellular Physiology and Biochemistry","1015-8987","1015-8987","1421-9778","1015-8987","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28578353",NA,"ut:000405733400013",NA,TRUE
-"INSERM",2017,1100,NA,FALSE,"Sciaccess, Inc.","Journal of Rare Diseases Research & Treatment","2572-9411",NA,NA,"2572-9411",NA,FALSE,NA,NA,NA,"http://www.rarediseasesjournal.com/articles/inherited-lrp2-dysfunction-in-human-disease-and-animal-models.pdf",FALSE
+"INSERM",2017,1100,NA,FALSE,"Sciaccess, Inc.",NA,"2572-9411",NA,NA,"2572-9411",NA,FALSE,NA,NA,NA,"http://www.rarediseasesjournal.com/articles/inherited-lrp2-dysfunction-in-human-disease-and-animal-models.pdf",FALSE
 "INSERM",2017,501.5,"10.15698/mic2017.09.590",FALSE,"Shared Science Publishers OG","Microbial Cell","2311-2638",NA,"2311-2638","2311-2638",NA,TRUE,"28913345","PMC5597793","ut:000409047600003",NA,TRUE
 "INSERM",2017,2300,"10.3892/or.2017.5882",TRUE,"Spandidos Publications","Oncology Reports","1021-335X","1021-335X","1791-2431","1021-335X",NA,TRUE,"28791387","PMC5652939","ut:000411688200005",NA,FALSE
 "INSERM",2017,695,"10.3892/ijmm.2017.3257",TRUE,"Spandidos Publications","International Journal of Molecular Medicine","1107-3756","1107-3756","1791-244X","1107-3756",NA,TRUE,"29207017","PMC5752242","ut:000423222200005",NA,FALSE
@@ -522,7 +520,7 @@
 "INSERM",2017,1243.56,"10.1093/nar/gkx1267",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"29272518","PMC5814900","ut:000425294400010",NA,TRUE
 "INSERM",2017,4474,"10.1093/cercor/bhx174",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28922856",NA,"ut:000407847800025",NA,FALSE
 "INSERM",2017,2556,"10.1093/nar/gkx192",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28369499","PMC5435990","ut:000402064200035",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
+"INSERM",2017,2130,"10.1093/nar/gkw1183",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28180305","PMC5388412",NA,NA,TRUE
 "INSERM",2017,2130,"10.1093/nar/gkw1289",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28003477","PMC5397155","ut:000399448400053",NA,TRUE
 "INSERM",2017,1065,"10.1093/nar/gkx190",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28369640","PMC5416835","ut:000400578600064",NA,TRUE
 "INSERM",2017,1200,"10.1093/database/bax022",FALSE,"Oxford University Press (OUP)","Database","1758-0463",NA,"1758-0463","1758-0463","http://creativecommons.org/licenses/by/4.0/",TRUE,"28365741","PMC5467549","ut:000397533900001",NA,TRUE
