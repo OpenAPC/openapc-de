@@ -298,7 +298,7 @@
 "CNRS",2015,1413.15,"10.1186/1755-8794-8-s3-s5",FALSE,"Springer Nature","BMC Medical Genomics","1755-8794",NA,"1755-8794","1755-8794","http://www.springer.com/tdm",TRUE,"26399998","PMC4582210","ut:000382997900005",NA,TRUE
 "CNRS",2015,1412.67,"10.4172/2153-0602.1000166",FALSE,"OMICS Publishing Group","Journal of Data Mining in Genomics & Proteomics","2153-0602",NA,"2153-0602","2153-0602",NA,TRUE,NA,NA,NA,NA,FALSE
 "CNRS",2015,1409.88,"10.1155/2015/565140",FALSE,"Hindawi Publishing Corporation","Oxidative Medicine and Cellular Longevity","1942-0900","1942-0900","1942-0994","1942-0994","http://creativecommons.org/licenses/by/3.0/",TRUE,"26523199","PMC4619980","ut:000363572400001",NA,TRUE
-"CNRS",2015,1403.97,"10.5966/sctm.2014-0180",FALSE,"Alphamed Press","STEM CELLS Translational Medicine","2157-6564",NA,NA,"2157-6564","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"25979862","PMC4479617","ut:000358272900020",NA,FALSE
+"CNRS",2015,1403.97,"10.5966/sctm.2014-0180",TRUE,"Alphamed Press","STEM CELLS Translational Medicine","2157-6564",NA,NA,"2157-6564","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"25979862","PMC4479617","ut:000358272900020",NA,FALSE
 "CNRS",2015,1399.71,"10.1890/es15-00182.1",FALSE,"Wiley-Blackwell","Ecosphere","2150-8925","2150-8925",NA,"2150-8925","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,"ut:000364024300028",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
 "CNRS",2015,1398,"10.1038/srep18432",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"26656207","PMC4995677","ut:000366294000001",NA,TRUE
