@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 71,799 open access journal articles, amounting to € 141,828,413 and contributed by 221 institutions.
+At the moment this project provides cost data on 71,876 open access journal articles, amounting to € 141,962,160 and contributed by 222 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -30,6 +30,7 @@ So far, the following German universities have agreed to share information on pa
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Freie Universität Berlin](http://www.fu-berlin.de/sites/open_access/finanzierung/publikationsfonds/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
+- [Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
@@ -302,9 +303,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 71,799 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 221 research performing institutions and research funders. 
+This dataset contains information on 71,876 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 222 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 141,828,413. The average payment was € 1,975  and the median was € 1,785.
+In total, publication fee spending covered by the Open APC initiative amounted to € 141,962,160. The average payment was € 1,975  and the median was € 1,785.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -318,7 +319,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-40,153 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 62,435,703, including value-added tax; the average payment was € 1,555 (median =  € 1,458, SD = € 765).
+40,230 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 62,569,450, including value-added tax; the average payment was € 1,555 (median =  € 1,459, SD = € 765).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -409,6 +410,7 @@ The following table summarises institutional spending on articles published in f
 |MDC                                                             |       92|               186,801| 2,030 (1,125)|  1,802|       224 - 4,662|
 |HZDR                                                            |       83|               122,636|   1,478 (968)|  1,213|       236 - 6,512|
 |Kassel U                                                        |       78|                85,210|   1,092 (578)|  1,136|        65 - 2,321|
+|Frankfurt U                                                     |       77|               133,747|   1,737 (860)|  1,630|       109 - 4,841|
 |INRIA                                                           |       77|               118,761|   1,542 (645)|  1,538|       290 - 3,700|
 |University of Warwick                                           |       74|               146,885| 1,985 (1,410)|  1,639|       442 - 9,028|
 |TU Chemnitz                                                     |       73|                84,652|   1,160 (650)|  1,289|        78 - 2,123|
@@ -730,9 +732,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.75%       |
-|PubMed ID                  |  76.6%      |
-|PubMed Central ID          |  69.14%     |
-|Web of Science record ID   | 93.11%      |
+|PubMed ID                  |  76.61%      |
+|PubMed Central ID          |  69.15%     |
+|Web of Science record ID   | 93.1%      |
 
 
 

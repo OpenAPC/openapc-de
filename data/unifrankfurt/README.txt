@@ -1,0 +1,2 @@
+The data content covers APCs as paid for by the Open Access Fund of Goethe University Frankfurt am Main. APCs that were paid for by authors or institutes and not refunded by the central OA Fund are not part of this data set. 
+APCs that were co-financed (50% by the author/institute, 50% by the central OA Fund) are included in the data set with the full amount. This applies to articles above the DFG funding cap of 2000 EUR.
