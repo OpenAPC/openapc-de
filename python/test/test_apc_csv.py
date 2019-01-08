@@ -112,7 +112,8 @@ JOURNAL_OWNER_CHANGED = {
     "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth
     "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)"],# Journal of Nutrition
     "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"], # Journal of Nutrition (electronic)
-    "1651-2235": ["Co-Action Publishing", "Informa UK Limited"] # Microbial Ecology in Health & Disease
+    "1651-2235": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease
+    "2575-1433": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"] # HAU: Journal of Ethnographic Theory
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
