@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 72,083 open access journal articles, amounting to € 142,400,228 and contributed by 223 institutions.
+At the moment this project provides cost data on 72,087 open access journal articles, amounting to € 142,404,122 and contributed by 224 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -43,6 +43,7 @@ So far, the following German universities have agreed to share information on pa
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
+- [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en)
@@ -304,9 +305,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 72,083 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 223 research performing institutions and research funders. 
+This dataset contains information on 72,087 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 224 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 142,400,228. The average payment was € 1,976  and the median was € 1,785.
+In total, publication fee spending covered by the Open APC initiative amounted to € 142,404,122. The average payment was € 1,975  and the median was € 1,785.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -320,7 +321,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-40,407 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 62,929,620, including value-added tax; the average payment was € 1,557 (median =  € 1,460, SD = € 768).
+40,411 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 62,933,514, including value-added tax; the average payment was € 1,557 (median =  € 1,460, SD = € 768).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -530,6 +531,7 @@ The following table summarises institutional spending on articles published in f
 |Edinburgh Napier University                                     |        4|                 6,222|   1,556 (666)|  1,297|     1,094 - 2,533|
 |Fridtjof Nansen Institute                                       |        4|                 5,062|   1,265 (214)|  1,303|     1,010 - 1,446|
 |IPN                                                             |        4|                 3,909|   977 (1,099)|    479|       330 - 2,621|
+|TH Wildau                                                       |        4|                 3,894|     974 (404)|  1,057|       442 - 1,338|
 |University of Salford                                           |        4|                 5,714|   1,429 (657)|  1,480|       744 - 2,010|
 |University of Ulster                                            |        4|                 4,012|   1,003 (407)|    919|       613 - 1,561|
 |Vestfold Hospital Trust                                         |        4|                 6,134|   1,533 (286)|  1,532|     1,241 - 1,828|
