@@ -715,7 +715,8 @@ def get_euro_exchange_rates(currency, frequency="D"):
 
 def process_row(row, row_num, column_map, num_required_columns,
                 no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, doaj_offline_analysis=False):
+                no_doaj_lookup=False, doaj_offline_analysis=False,
+                round_monetary=False):
     """
     Enrich a single row of data and reformat it according to Open APC standards.
 
@@ -738,6 +739,8 @@ def process_row(row, row_num, column_map, num_required_columns,
         doaj_offline_analysis: If true, a local copy will be used for the DOAJ
                                lookup. Has no effect if no_doaj_lookup is set to
                                true.
+        round_monetary: If true, monetary values with more than 2 digits behind the decimal
+                        mark will be rounded. If false, these cases will be treated as errors.
 
      Returns:
         A list of values which represents the enriched and re-arranged variant
@@ -749,12 +752,18 @@ def process_row(row, row_num, column_map, num_required_columns,
                        "differs from the number of columns (%s). Line left " +
                        "unchanged, the resulting CSV file will not be valid.",
         "locale": "Error: Could not process the monetary value '%s' in " +
-                  "column %s. This will usually have one of two reasons:\n1) " +
+                  "column %s. Usually this happens due to one of two reasons:\n1) " +
                   "The value does not represent a number.\n2) The value " +
                   "represents a number, but its format differs from your " +
                   "current system locale - the most common source of error " +
-                  "will be the decimal mark (1234.56 vs 1234,56). Try using " +
+                  "is the decimal mark (1234.56 vs 1234,56). Try using " +
                   "another locale with the -l option.",
+        "digits_error": "Monetary value %s has more than 2 digits after " +
+                        "the decimal point. If this is just a formatting issue (from automated " +
+                        "conversion for example) you may call the enrichment script with the -r " +
+                        "option to round such values to 2 digits automatically.",
+        "digits_norm": "Normalisation: Monetary value %s rounded to 2 digits after " +
+                       "decimal mark (%s -> %s)",
         "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
                  "to maintain consistency.",
         "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({}).",
@@ -793,6 +802,14 @@ def process_row(row, row_num, column_map, num_required_columns,
                     euro = locale.atof(euro_value)
                     if euro.is_integer():
                         euro = int(euro)
+                    if re.match("^\d+\.\d{3}", euro_value):
+                        if round_monetary:
+                            euro = round(euro, 2)
+                            msg = "Line %s: " + MESSAGES["digits_norm"]
+                            logging.warning(msg, row_num, euro_value, euro_value, euro)
+                        else:
+                            msg = "Line %s: " + MESSAGES["digits_error"]
+                            logging.error(msg, row_num, euro_value)
                     current_row[csv_column.column_type] = str(euro)
                 except ValueError:
                     msg = "Line %s: " + MESSAGES["locale"]
