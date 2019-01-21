@@ -110,6 +110,8 @@ ARG_HELP_STRINGS = {
                        "csv file",
     "overwrite": "Always overwrite existing data with imported data " +
                  "(instead of asking on the first conflict)",
+    "round_monetary": "Automatically round monetary values with more than two digits " +
+                      "after the decimal mark",
     "no_crossref": "Do not import metadata from crossref. Since journal ISSN " +
                    "numbers are imported from crossref, this will also make " +
                    "a DOAJ lookup impossible if no ISSN fields are present in " +
@@ -202,6 +204,8 @@ def main():
                         help=ARG_HELP_STRINGS["verbose"])
     parser.add_argument("-o", "--overwrite", action="store_true",
                         help=ARG_HELP_STRINGS["overwrite"])
+    parser.add_argument("-r", "--round_monetary", action="store_true",
+                        help=ARG_HELP_STRINGS["round_monetary"])
     parser.add_argument("--no-crossref", action="store_true",
                         help=ARG_HELP_STRINGS["no_crossref"])
     parser.add_argument("--no-pubmed", action="store_true",
@@ -562,7 +566,7 @@ def main():
         print("---Processing line number " + str(row_num) + "---")
         enriched_row = oat.process_row(row, row_num, column_map, num_columns,
                                        args.no_crossref, args.no_pubmed,
-                                       args.no_doaj, doaj_offline_analysis)
+                                       args.no_doaj, doaj_offline_analysis, args.round_monetary)
         enriched_content.append(enriched_row)
 
     csv_file.close()
