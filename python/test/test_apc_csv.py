@@ -116,7 +116,11 @@ JOURNAL_OWNER_CHANGED = {
     "1651-2235": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease
     "2575-1433": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
     "2222-1751": ["Springer Nature", "Informa UK Limited"], # Emerging Microbes & Infections
-    "0013-0133": ["Wiley-Blackwell", "Oxford University Press (OUP)"] # The Economic Journal
+    "0013-0133": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Economic Journal
+    "1358-3883": ["Informa UK Limited", "Springer Nature"], # Tertiary Education and Management
+    "1573-1936": ["Informa UK Limited", "Springer Nature"], # Tertiary Education and Management (electronic)
+    "1559-8608": ["Informa UK Limited", "Springer Nature"], # Journal of Statistical Theory and Practice
+    "1559-8616": ["Informa UK Limited", "Springer Nature"] # Journal of Statistical Theory and Practice (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
