@@ -39,11 +39,12 @@ JOURNAL_OWNER_CHANGED = {
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
     "2000-8066": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
     "1600-0889": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B
-    "1654-6628": ["Co-Action Publishing", "Informa UK Limited"], # Food & Nutrition Research (print)
-    "1654-661X": ["Co-Action Publishing", "Informa UK Limited"], # Food & Nutrition Research (electronic)
+    "1654-6628": ["Co-Action Publishing", "Informa UK Limited", "SNF Swedish Nutrition Foundation"], # Food & Nutrition Research (print)
+    "1654-661X": ["Co-Action Publishing", "Informa UK Limited", "SNF Swedish Nutrition Foundation"], # Food & Nutrition Research (electronic)
     "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
     "2162-2531": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # "Molecular Therapy-Nucleic Acids"
     "0009-9236": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics
+    "1532-6535": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics (electronic)
     "1940-0829": ["Mongabay", "SAGE Publications"], # Tropical Conservation Science, acquired by SAGE in 08/2016
     "1600-0870": ["Co-Action Publishing", "Informa UK Limited"], # Tellus A
     "0963-6897": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation
@@ -115,8 +116,7 @@ JOURNAL_OWNER_CHANGED = {
     "1651-2235": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease
     "2575-1433": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
     "2222-1751": ["Springer Nature", "Informa UK Limited"], # Emerging Microbes & Infections
-    "0013-0133": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Economic Journal
-    "1654-6628": ["Informa UK Limited", "SNF Swedish Nutrition Foundation"] # Food & Nutrition Research
+    "0013-0133": ["Wiley-Blackwell", "Oxford University Press (OUP)"] # The Economic Journal
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
