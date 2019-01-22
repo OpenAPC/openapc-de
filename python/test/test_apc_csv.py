@@ -114,7 +114,9 @@ JOURNAL_OWNER_CHANGED = {
     "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"], # Journal of Nutrition (electronic)
     "1651-2235": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease
     "2575-1433": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
-    "2222-1751": ["Springer Nature", "Informa UK Limited"] # Emerging Microbes & Infections
+    "2222-1751": ["Springer Nature", "Informa UK Limited"], # Emerging Microbes & Infections
+    "0013-0133": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Economic Journal
+    "1654-6628": ["Informa UK Limited", "SNF Swedish Nutrition Foundation"] # Food & Nutrition Research
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
