@@ -21,11 +21,11 @@ except ImportError:
           "encoding guessing will not work")
 
 # regex for detecing DOIs
-DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
+DOI_RE = re.compile(r"^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
 # regex for detecting shortDOIs
-SHORTDOI_RE = re.compile("^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", re.IGNORECASE)
+SHORTDOI_RE = re.compile(r"^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", re.IGNORECASE)
 
-ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
+ISSN_RE = re.compile(r"^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 OAI_COLLECTION_CONTENT = OrderedDict([
     ("institution", "intact:institution"),
@@ -406,8 +406,8 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
     """
     collection_xpath = ".//oai_2_0:record//oai_2_0:metadata//intact:collection"
     token_xpath = ".//oai_2_0:resumptionToken"
-    processing_regex = re.compile("'(?P<target>\w*?)':'(?P<generator>.*?)'")
-    variable_regex = re.compile("%(\w*?)%")
+    processing_regex = re.compile(r"'(?P<target>\w*?)':'(?P<generator>.*?)'")
+    variable_regex = re.compile(r"%(\w*?)%")
     #institution_xpath =
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
@@ -688,7 +688,7 @@ def get_euro_exchange_rates(currency, frequency="D"):
         A dict of date strings mapping to exchange rates (as floats). Depending on the chosen
         freqency, the date format will either be "YYYY", "YYYY-MM" or "YYYY-MM-DD".
     """
-    ISO_4217_RE = re.compile("[A-Z]{3}")
+    ISO_4217_RE = re.compile(r"[A-Z]{3}")
     FREQUENCIES = ["D", "M", "A"]
     
     URL_TEMPLATE = "http://sdw-wsrest.ecb.europa.eu/service/data/EXR/{}.{}.EUR.SP00.A?format=csvdata"
@@ -802,7 +802,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                     euro = locale.atof(euro_value)
                     if euro.is_integer():
                         euro = int(euro)
-                    if re.match("^\d+\.\d{3}", euro_value):
+                    if re.match(r"^\d+\.\d{3}", euro_value):
                         if round_monetary:
                             euro = round(euro, 2)
                             msg = "Line %s: " + MESSAGES["digits_norm"]
@@ -816,7 +816,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                     logging.error(msg, row_num, euro_value, csv_column.index)
         elif csv_column.column_type == "period":
             value = row[csv_column.index]
-            if re.match("^\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?$", value):
+            if re.match(r"^\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?$", value):
                 msg = "Line %s: " + MESSAGES["period_format"]
                 new_value = value[:4]
                 logging.warning(msg, row_num, value, new_value)
@@ -892,7 +892,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                         # Fix ISSNs without hyphen
                         elif key in ["issn", "issn_print", "issn_electronic"]:
                             new_value = value
-                            if re.match("^\d{7}[\dxX]$", value):
+                            if re.match(r"^\d{7}[\dxX]$", value):
                                 new_value = value[:4] + "-" + value[4:]
                                 msg = "Line %s: " + MESSAGES["issn_hyphen_fix"]
                                 logging.warning(msg, row_num, key, value, new_value)
@@ -940,7 +940,7 @@ def process_row(row, row_num, column_map, num_required_columns,
         for issn in issns:
             # In some cases xref delievers ISSNs without a hyphen. Add it
             # temporarily to prevent the DOAJ lookup from failing.
-            if re.match("^\d{7}[\dxX]$", issn):
+            if re.match(r"^\d{7}[\dxX]$", issn):
                 issn = issn[:4] + "-" + issn[4:]
             # look up in an offline copy of the DOAJ if requested...
             if doaj_offline_analysis:
