@@ -93,7 +93,7 @@ def main():
                 integrate_changes(articles, enriched_file_path, True)
                 if header is None:
                     # if no header was returned, an "all_harvested" file doesn't exist yet
-                    header = oat.OAI_COLLECTION_CONTENT.values()
+                    header = list(oat.OAI_COLLECTION_CONTENT.keys())
                 new_articles = [header]
                 for article_dict in new_article_dicts:
                     new_articles.append([article_dict[key] for key in header])
