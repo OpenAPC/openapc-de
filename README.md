@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 73,320 open access journal articles, amounting to € 144,546,912 and contributed by 224 institutions.
+At the moment this project provides cost data on 73,328 open access journal articles, amounting to € 144,568,881 and contributed by 224 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -305,9 +305,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 73,320 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 224 research performing institutions and research funders. 
+This dataset contains information on 73,328 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 224 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 144,546,912. The average payment was € 1,971  and the median was € 1,779.
+In total, publication fee spending covered by the Open APC initiative amounted to € 144,568,881. The average payment was € 1,972  and the median was € 1,780.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -556,7 +556,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,921 open access articles being published in hybrid journals. Total expenditure amounts to  80,060,769 €. Average  fee is 2,508 € and the median 2,452 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,929 open access articles being published in hybrid journals. Total expenditure amounts to  80,082,739 €. Average  fee is 2,508 € and the median 2,453 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -640,6 +640,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |St George's, University of London                           |       23|                67,276|   2,925 (801)|  2,756|       621 - 5,208|
 |Umeå University                                             |       23|                45,340|   1,971 (815)|  2,132|       248 - 3,040|
 |IPN                                                         |       22|                53,603|   2,437 (554)|  2,558|     1,181 - 3,540|
+|GIGA                                                        |       21|                49,204|   2,343 (479)|  2,463|       987 - 3,060|
 |Linnaeus University                                         |       19|                42,280|   2,225 (700)|  2,105|       947 - 3,404|
 |Ulm U                                                       |       17|                35,219|   2,072 (547)|  2,319|     1,308 - 2,631|
 |Aix-Marseille Université                                    |       16|                39,152|   2,447 (837)|  2,446|       450 - 3,780|
@@ -650,7 +651,6 @@ The following institutions have contributed expenditures on hybrid open access j
 |Liverpool School of Tropical Medicine                       |       14|                42,345|   3,025 (745)|  3,039|     1,299 - 4,203|
 |TiHo Hannover                                               |       14|                30,735| 2,195 (1,397)|  2,019|       267 - 5,093|
 |Virginia Tech                                               |       14|                20,480|   1,463 (575)|  1,256|       633 - 2,337|
-|GIGA                                                        |       13|                27,235|   2,095 (423)|  2,151|       987 - 2,583|
 |University of the West of England                           |       11|                26,654| 2,423 (1,365)|  2,345|        97 - 4,416|
 |University of Ulster                                        |       11|                22,566| 2,051 (1,220)|  2,193|       236 - 3,868|
 |GFZ-Potsdam                                                 |       10|                24,555| 2,455 (1,037)|  2,643|       134 - 3,795|
@@ -738,9 +738,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.77%       |
-|PubMed ID                  |  78.07%      |
-|PubMed Central ID          |  71.13%     |
-|Web of Science record ID   | 94.14%      |
+|PubMed ID                  |  78.06%      |
+|PubMed Central ID          |  71.12%     |
+|Web of Science record ID   | 94.13%      |
 
 
 
