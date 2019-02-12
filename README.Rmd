@@ -222,6 +222,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Technologique de Compiègne
 - Université Evry Val-d'Essonne
 - Université de France-Comté
+- Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
 - Université de Lorraine
