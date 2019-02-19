@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 73,664 open access journal articles, amounting to € 145,139,302 and contributed by 226 institutions.
+At the moment this project provides cost data on 73,664 open access journal articles, amounting to € 145,143,383 and contributed by 226 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -309,7 +309,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 This dataset contains information on 73,664 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 226 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 145,139,302. The average payment was € 1,970  and the median was € 1,779.
+In total, publication fee spending covered by the Open APC initiative amounted to € 145,143,383. The average payment was € 1,970  and the median was € 1,779.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -560,7 +560,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,966 open access articles being published in hybrid journals. Total expenditure amounts to  80,159,184 €. Average  fee is 2,508 € and the median 2,452 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,966 open access articles being published in hybrid journals. Total expenditure amounts to  80,163,265 €. Average  fee is 2,508 € and the median 2,452 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -620,7 +620,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |University of East Anglia                                   |       61|               138,852| 2,276 (1,075)|  2,088|       156 - 5,525|
 |Northumbria University                                      |       60|               142,681| 2,378 (1,084)|  2,240|       596 - 5,294|
 |University of Surrey                                        |       57|               146,501|   2,570 (868)|  2,462|       885 - 5,195|
-|IPN - Leibniz Kiel                                          |       54|               119,090|   2,205 (734)|  2,388|         2 - 3,540|
+|IPN - Leibniz Kiel                                          |       54|               123,170|   2,281 (592)|  2,388|     1,130 - 3,540|
 |LSE                                                         |       50|               101,974| 2,039 (1,000)|  2,067|       527 - 5,392|
 |Örebro University                                           |       46|                91,968|   1,999 (689)|  2,150|       250 - 3,870|
 |University of Calgary                                       |       46|                92,407|   2,009 (447)|  2,183|       505 - 2,665|
