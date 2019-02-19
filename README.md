@@ -534,7 +534,7 @@ The following table summarises institutional spending on articles published in f
 |BI Norwegian Business School                                    |        4|                 2,761|     690 (398)|    724|      219 -  1,094|
 |Edinburgh Napier University                                     |        4|                 6,222|   1,556 (666)|  1,297|    1,094 -  2,533|
 |Fridtjof Nansen Institute                                       |        4|                 5,062|   1,265 (214)|  1,303|    1,010 -  1,446|
-|IPN                                                             |        4|                 3,909|   977 (1,099)|    479|      330 -  2,621|
+|IPN - Leibniz Kiel                                              |        4|                 3,909|   977 (1,099)|    479|      330 -  2,621|
 |TH Wildau                                                       |        4|                 3,894|     974 (404)|  1,057|      442 -  1,338|
 |University of Salford                                           |        4|                 5,714|   1,429 (657)|  1,480|      744 -  2,010|
 |University of Ulster                                            |        4|                 4,012|   1,003 (407)|    919|      613 -  1,561|
@@ -643,7 +643,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Manchester Metropolitan University                          |       23|                51,545|   2,241 (928)|  2,412|       376 - 3,481|
 |St George's, University of London                           |       23|                67,276|   2,925 (801)|  2,756|       621 - 5,208|
 |Umeå University                                             |       23|                45,340|   1,971 (815)|  2,132|       248 - 3,040|
-|IPN                                                         |       22|                53,603|   2,437 (554)|  2,558|     1,181 - 3,540|
+|IPN - Leibniz Kiel                                          |       22|                53,603|   2,437 (554)|  2,558|     1,181 - 3,540|
 |GIGA                                                        |       21|                49,204|   2,343 (479)|  2,463|       987 - 3,060|
 |Linnaeus University                                         |       19|                42,280|   2,225 (700)|  2,105|       947 - 3,404|
 |Ulm U                                                       |       17|                35,219|   2,072 (547)|  2,319|     1,308 - 2,631|
