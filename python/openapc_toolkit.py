@@ -802,7 +802,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                     euro = locale.atof(euro_value)
                     if euro.is_integer():
                         euro = int(euro)
-                    if re.match(r"^\d+\.\d{3}", euro_value):
+                    if re.match(r"^\d+\.\d{3}", str(euro)):
                         if round_monetary:
                             euro = round(euro, 2)
                             msg = "Line %s: " + MESSAGES["digits_norm"]
