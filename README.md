@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 73,706 open access journal articles, amounting to € 145,192,258 and contributed by 226 institutions.
+At the moment this project provides cost data on 73,766 open access journal articles, amounting to € 145,271,024 and contributed by 226 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -307,9 +307,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 73,706 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 226 research performing institutions and research funders. 
+This dataset contains information on 73,766 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 226 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 145,192,258. The average payment was € 1,970  and the median was € 1,778.
+In total, publication fee spending covered by the Open APC initiative amounted to € 145,271,024. The average payment was € 1,969  and the median was € 1,777.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -323,7 +323,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-41,738 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 65,024,753, including value-added tax; the average payment was € 1,558 (median =  € 1,463, SD = € 765).
+41,798 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 65,103,518, including value-added tax; the average payment was € 1,558 (median =  € 1,463, SD = € 765).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -416,6 +416,7 @@ The following table summarises institutional spending on articles published in f
 |University of Sussex                                            |       96|               199,394| 2,077 (1,190)|  1,637|      245 -  5,350|
 |Harvard U                                                       |       94|                82,722|     880 (539)|    796|       75 -  3,139|
 |MDC                                                             |       92|               186,801| 2,030 (1,125)|  1,802|      224 -  4,662|
+|TU Berlin                                                       |       90|               118,840|   1,320 (527)|  1,382|      235 -  2,374|
 |HZDR                                                            |       83|               122,636|   1,478 (968)|  1,213|      236 -  6,512|
 |Frankfurt U                                                     |       77|               133,747|   1,737 (860)|  1,630|      109 -  4,841|
 |INRIA                                                           |       77|               118,761|   1,542 (645)|  1,538|      290 -  3,700|
@@ -465,7 +466,6 @@ The following table summarises institutional spending on articles published in f
 |Université de Caen Normandie                                    |       32|                41,815|   1,307 (462)|  1,350|      300 -  2,250|
 |Université Pierre et Marie Curie (Paris VI)                     |       32|                50,846|   1,589 (811)|  1,396|      160 -  4,275|
 |Université Claude Bernard Lyon 1                                |       31|                58,146|   1,876 (915)|  1,646|      485 -  4,485|
-|TU Berlin                                                       |       30|                40,074|   1,336 (438)|  1,392|      433 -  1,990|
 |Université de Bourgogne                                         |       29|                46,606|   1,607 (728)|  1,534|      826 -  4,485|
 |University of East Anglia                                       |       29|                47,521| 1,639 (1,053)|  1,535|      223 -  4,379|
 |Cranfield University                                            |       26|                40,286|   1,549 (624)|  1,370|      228 -  3,122|
@@ -742,8 +742,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.77%       |
-|PubMed ID                  |  78.08%      |
-|PubMed Central ID          |  71.15%     |
+|PubMed ID                  |  78.06%      |
+|PubMed Central ID          |  71.14%     |
 |Web of Science record ID   | 94.1%      |
 
 
@@ -772,7 +772,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
