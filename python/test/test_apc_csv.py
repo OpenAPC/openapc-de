@@ -120,7 +120,8 @@ JOURNAL_OWNER_CHANGED = {
     "1358-3883": ["Informa UK Limited", "Springer Nature"], # Tertiary Education and Management
     "1573-1936": ["Informa UK Limited", "Springer Nature"], # Tertiary Education and Management (electronic)
     "1559-8608": ["Informa UK Limited", "Springer Nature"], # Journal of Statistical Theory and Practice
-    "1559-8616": ["Informa UK Limited", "Springer Nature"] # Journal of Statistical Theory and Practice (electronic)
+    "1559-8616": ["Informa UK Limited", "Springer Nature"], # Journal of Statistical Theory and Practice (electronic)
+    "2199-8531": ["Springer Nature", "MDPI AG"] # Journal of Open Innovation: Technology, Market, and Complexity
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
