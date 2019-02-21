@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 73,664 open access journal articles, amounting to € 145,143,383 and contributed by 226 institutions.
+At the moment this project provides cost data on 73,681 open access journal articles, amounting to € 145,163,545 and contributed by 226 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -307,9 +307,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 73,664 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 226 research performing institutions and research funders. 
+This dataset contains information on 73,681 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 226 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 145,143,383. The average payment was € 1,970  and the median was € 1,779.
+In total, publication fee spending covered by the Open APC initiative amounted to € 145,163,545. The average payment was € 1,970  and the median was € 1,778.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -323,7 +323,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-41,698 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 64,980,118, including value-added tax; the average payment was € 1,558 (median =  € 1,464, SD = € 765).
+41,713 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 64,996,040, including value-added tax; the average payment was € 1,558 (median =  € 1,463, SD = € 765).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -477,6 +477,7 @@ The following table summarises institutional spending on articles published in f
 |Lund University                                                 |       24|                32,295|   1,346 (541)|  1,410|      397 -  2,429|
 |Université de Nantes                                            |       24|                36,474|   1,520 (651)|  1,495|      286 -  3,400|
 |IRSTEA                                                          |       21|                27,516|   1,310 (622)|  1,495|      300 -  2,175|
+|Leibniz-IGB                                                     |       21|                28,056|   1,336 (840)|  1,096|      299 -  3,700|
 |LSE                                                             |       21|                37,285|   1,775 (749)|  1,781|      496 -  3,000|
 |University of Loughborough                                      |       21|                31,453|   1,498 (771)|  1,581|      384 -  4,204|
 |Bangor University                                               |       20|                33,800|   1,690 (672)|  1,572|      429 -  3,025|
@@ -522,7 +523,6 @@ The following table summarises institutional spending on articles published in f
 |Université de Poitiers                                          |        7|                 9,691|   1,384 (541)|  1,099|      934 -  2,341|
 |Université de Toulon                                            |        7|                11,703|   1,672 (724)|  1,495|    1,058 -  3,150|
 |Chalmers University of Technology                               |        6|                 5,817|     970 (444)|  1,012|      413 -  1,650|
-|Leibniz-IGB                                                     |        6|                12,134| 2,022 (1,376)|  2,132|      299 -  3,700|
 |Nansen Environmental and Remote Sensing Center                  |        6|                 5,298|     883 (407)|    775|      582 -  1,655|
 |University College West                                         |        6|                 4,868|     811 (464)|    729|      272 -  1,677|
 |University of Portsmouth                                        |        6|                 8,489|   1,415 (403)|  1,303|      887 -  1,915|
@@ -560,7 +560,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,966 open access articles being published in hybrid journals. Total expenditure amounts to  80,163,265 €. Average  fee is 2,508 € and the median 2,452 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,968 open access articles being published in hybrid journals. Total expenditure amounts to  80,167,505 €. Average  fee is 2,508 € and the median 2,452 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -664,11 +664,11 @@ The following institutions have contributed expenditures on hybrid open access j
 |Université Paris Descartes (Paris V)                        |        9|                16,978|   1,886 (620)|  2,033|       740 - 2,641|
 |Goldsmiths                                                  |        8|                21,665|   2,708 (702)|  2,636|     1,969 - 3,985|
 |Chalmers University of Technology                           |        7|                16,723|   2,389 (323)|  2,429|     2,132 - 3,040|
+|Leibniz-IGB                                                 |        7|                14,513| 2,073 (1,098)|  2,200|       352 - 3,200|
 |INRIA                                                       |        6|                10,941|   1,823 (697)|  1,865|       846 - 2,790|
 |University of Portsmouth                                    |        6|                13,412|   2,235 (751)|  2,652|     1,193 - 2,785|
 |Hospices Civils de Lyon                                     |        5|                13,159|   2,632 (284)|  2,640|     2,202 - 3,000|
 |Institut de recherche pour le développement (IRD)           |        5|                 6,375| 1,275 (1,431)|    440|       138 - 3,136|
-|Leibniz-IGB                                                 |        5|                10,273| 2,055 (1,344)|  2,871|       352 - 3,200|
 |Université de Strasbourg                                    |        5|                14,464|   2,893 (799)|  3,000|     1,950 - 3,714|
 |Université Lille 1                                          |        5|                14,411|   2,882 (418)|  2,959|     2,200 - 3,348|
 |Université Paris Diderot (Paris VII)                        |        5|                 7,180|   1,436 (142)|  1,500|     1,215 - 1,560|
@@ -744,7 +744,7 @@ Indexing coverage
 |DOI                        |  99.77%       |
 |PubMed ID                  |  78.08%      |
 |PubMed Central ID          |  71.15%     |
-|Web of Science record ID   | 94.1%      |
+|Web of Science record ID   | 94.11%      |
 
 
 
@@ -772,7 +772,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
