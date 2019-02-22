@@ -157,7 +157,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2363-9555", # Research in Number Theory, Hybrid since 2018
     "2212-9790", # Maritime Studies, Hybrid since 2018
     "2041-4978", # Journal of Micropalaeontology, OA since 1/2018
-    "2157-6564" # STEM CELLS Translational Medicine, OA since 2017
+    "2157-6564", # STEM CELLS Translational Medicine, OA since 2017
+    "1539-1663" # Vadose Zone Journal, OA since 1/2018
 ]
 
 class RowObject(object):
