@@ -122,7 +122,9 @@ JOURNAL_OWNER_CHANGED = {
     "1559-8608": ["Informa UK Limited", "Springer Nature"], # Journal of Statistical Theory and Practice
     "1559-8616": ["Informa UK Limited", "Springer Nature"], # Journal of Statistical Theory and Practice (electronic)
     "2199-8531": ["Springer Nature", "MDPI AG"], # Journal of Open Innovation: Technology, Market, and Complexity
-    "1939-4551": ["Springer Nature", "Elsevier BV"] # World Allergy Organization Journal
+    "1939-4551": ["Springer Nature", "Elsevier BV"], # World Allergy Organization Journal
+    "1015-8987": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry
+    "1421-9778": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
