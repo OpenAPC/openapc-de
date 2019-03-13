@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 75,003 open access journal articles, amounting to € 147,083,701 and contributed by 228 institutions.
+At the moment this project provides cost data on 75,023 open access journal articles, amounting to € 147,111,772 and contributed by 228 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -312,9 +312,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 75,003 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 228 research performing institutions and research funders. 
+This dataset contains information on 75,023 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 228 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 147,083,701. The average payment was € 1,961  and the median was € 1,766.
+In total, publication fee spending covered by the Open APC initiative amounted to € 147,111,772. The average payment was € 1,961  and the median was € 1,766.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -328,7 +328,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-43,018 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 66,895,032, including value-added tax; the average payment was € 1,555 (median =  € 1,466, SD = € 760).
+43,038 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 66,923,103, including value-added tax; the average payment was € 1,555 (median =  € 1,466, SD = € 760).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -431,6 +431,7 @@ The following table summarises institutional spending on articles published in f
 |University of Warwick                                           |       74|               146,885| 1,985 (1,410)|  1,639|      442 -  9,028|
 |Université de Bordeaux                                          |       71|               105,784|   1,490 (593)|  1,347|      433 -  3,700|
 |University of Nottingham                                        |       68|               124,918|   1,837 (798)|  1,626|      803 -  5,319|
+|Hamburg TUHH                                                    |       66|                93,538|   1,417 (486)|  1,498|      257 -  2,225|
 |Institut de recherche pour le développement (IRD)               |       66|                89,007|   1,349 (498)|  1,313|       91 -  2,256|
 |Osnabrück U                                                     |       65|                90,046|   1,385 (611)|  1,553|      173 -  2,496|
 |Lancaster University                                            |       64|               101,253|   1,582 (811)|  1,499|      256 -  4,470|
@@ -449,7 +450,6 @@ The following table summarises institutional spending on articles published in f
 |Université de Rennes 1                                          |       50|                64,456|   1,289 (506)|  1,305|      225 -  2,720|
 |University of Durham                                            |       50|                95,365|   1,907 (998)|  1,719|      225 -  5,219|
 |Luleå University of Technology                                  |       48|                52,360|   1,091 (352)|  1,174|      285 -  1,805|
-|Hamburg TUHH                                                    |       46|                65,468|   1,423 (483)|  1,533|      300 -  2,225|
 |TU Wien                                                         |       45|                61,645|   1,370 (496)|  1,323|      240 -  2,288|
 |LSHTM                                                           |       44|                65,024|   1,478 (524)|  1,503|      496 -  3,445|
 |Université Toulouse III - Paul Sabatier                         |       44|                71,556|   1,626 (945)|  1,348|      500 -  4,700|
