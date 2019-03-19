@@ -226,6 +226,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
+- Université de Montpellier
 - Université de Lorraine
 - Université de Nantes
 - Université Nice-Sophia-Antipolis

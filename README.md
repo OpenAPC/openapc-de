@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 75,083 open access journal articles, amounting to € 147,229,839 and contributed by 228 institutions.
+At the moment this project provides cost data on 75,106 open access journal articles, amounting to € 147,270,956 and contributed by 229 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -202,6 +202,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
+- Université de Montpellier
 - Université de Lorraine
 - Université de Nantes
 - Université Nice-Sophia-Antipolis
@@ -312,9 +313,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 75,083 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 228 research performing institutions and research funders. 
+This dataset contains information on 75,106 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 229 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 147,229,839. The average payment was € 1,961  and the median was € 1,766.
+In total, publication fee spending covered by the Open APC initiative amounted to € 147,270,956. The average payment was € 1,961  and the median was € 1,766.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -328,7 +329,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-43,093 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 67,027,683, including value-added tax; the average payment was € 1,555 (median =  € 1,466, SD = € 760).
+43,115 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 67,065,217, including value-added tax; the average payment was € 1,555 (median =  € 1,466, SD = € 760).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -483,6 +484,7 @@ The following table summarises institutional spending on articles published in f
 |IST Austria                                                     |       25|                61,328| 2,453 (1,501)|  1,872|      562 -  5,412|
 |Lund University                                                 |       24|                32,295|   1,346 (541)|  1,410|      397 -  2,429|
 |Université de Nantes                                            |       24|                36,474|   1,520 (651)|  1,495|      286 -  3,400|
+|Université de Montpellier                                       |       22|                37,534|   1,706 (525)|  1,783|      352 -  2,400|
 |IRSTEA                                                          |       21|                27,516|   1,310 (622)|  1,495|      300 -  2,175|
 |Leibniz-IGB                                                     |       21|                28,056|   1,336 (840)|  1,096|      299 -  3,700|
 |LSE                                                             |       21|                37,285|   1,775 (749)|  1,781|      496 -  3,000|
@@ -567,7 +569,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,990 open access articles being published in hybrid journals. Total expenditure amounts to  80,202,156 €. Average  fee is 2,507 € and the median 2,451 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 31,991 open access articles being published in hybrid journals. Total expenditure amounts to  80,205,739 €. Average  fee is 2,507 € and the median 2,451 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -719,6 +721,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Université de Bourgogne                                     |        1|                 1,950|   1,950 (  0)|  1,950|     1,950 - 1,950|
 |Université de Caen Normandie                                |        1|                   750|     750 (  0)|    750|       750 -   750|
 |Université de Franche-Comté                                 |        1|                   307|     307 (  0)|    307|       307 -   307|
+|Université de Montpellier                                   |        1|                 3,583|   3,583 (  0)|  3,583|     3,583 - 3,583|
 |Université de Toulon                                        |        1|                 1,378|   1,378 (  0)|  1,378|     1,378 - 1,378|
 |Université Grenoble Alpes                                   |        1|                   350|     350 (  0)|    350|       350 -   350|
 |Université Nice-Sophia-Antipolis                            |        1|                 2,000|   2,000 (  0)|  2,000|     2,000 - 2,000|
@@ -750,7 +753,7 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.76%       |
-|PubMed ID                  |  77.98%      |
+|PubMed ID                  |  77.99%      |
 |PubMed Central ID          |  71.13%     |
 |Web of Science record ID   | 94.09%      |
 
