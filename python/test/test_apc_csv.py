@@ -125,6 +125,7 @@ JOURNAL_OWNER_CHANGED = {
     "1939-4551": ["Springer Nature", "Elsevier BV"], # World Allergy Organization Journal
     "1015-8987": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry
     "1421-9778": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry (electronic)
+    "2052-4986": ["Oxford University Press (OUP)", "Wiley-Blackwell"] # Transactions of the London Mathematical Society
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs

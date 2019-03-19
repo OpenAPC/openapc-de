@@ -215,6 +215,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
+- MINES ParisTech
 - Museum National d'Histoire Naturelle
 - Université d'Avignon et des Pays de Vaucluse
 - Université de Caen Normandie
@@ -226,11 +227,13 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
+- Université de Montpellier
 - Université de Lorraine
 - Université de Nantes
 - Université Nice-Sophia-Antipolis
 - Université de Poitiers
 - Université de Rennes 1
+- Université de La Réunion
 - Université de Strasbourg
 - Université de Toulon
 - Université Toulouse III
