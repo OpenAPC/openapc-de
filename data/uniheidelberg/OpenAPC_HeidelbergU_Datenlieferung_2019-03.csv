@@ -28,8 +28,8 @@ id;Institution;Period;Publisher;Journal;DOI;is_hybrid;Country;EURO;URL
 ;Heidelberg U;2019;MDPI;Sensors;10.3390/s19030622;FALSE;DEU;1416,99;NA
 ;Heidelberg U;2019;MDPI;Sustainability;10.3390/su11020440;FALSE;DEU;1106,5;NA
 ;Heidelberg U;2019;Copernicus;Ocean Science;10.5194/os-15-235-2019;FALSE;DEU;1191,19;NA
-;Heidelberg U;2018;BMC;BMC Ophthalmology;/10.1186/s12886-018-0978-9;FALSE;DEU;1661,24;NA
-;Heidelberg U;2018;BMC;Journal of Orthopaedic Surgery and Research;/10.1186/s13018-018-0915-x;FALSE;DEU;1988,24;NA
+;Heidelberg U;2018;BMC;BMC Ophthalmology;10.1186/s12886-018-0978-9;FALSE;DEU;1661,24;NA
+;Heidelberg U;2018;BMC;Journal of Orthopaedic Surgery and Research;10.1186/s13018-018-0915-x;FALSE;DEU;1988,24;NA
 ;Heidelberg U;2018;Wiley;Brain and Behavior;10.1002/brb3.12;FALSE;DEU;1953,98;NA
 ;Heidelberg U;2018;Wiley;ESC Heart Failure;10.1002/ehf2.12357;FALSE;DEU;1487,5;NA
 ;Heidelberg U;2018;Wiley;ESC Heart Failure;10.1002/ehf2.12384;FALSE;DEU;1487,5;NA
@@ -143,6 +143,6 @@ id;Institution;Period;Publisher;Journal;DOI;is_hybrid;Country;EURO;URL
 ;Heidelberg U;2018;MDPI;Viruses;10.3390/v10110620;FALSE;DEU;1248,94;NA
 ;Heidelberg U;2018;Avicena;Acta Informatica Medica;10.5455/aim.2018.26.180-184;FALSE;DEU;416,5;NA
 ;Heidelberg U;2018;Ivyspring Internat. Publ.;Theranostics;10.7150/thno.29223;FALSE;DEU;1984,68;NA
-;Heidelberg U;2017;BMC;BMC Medical Research Methodology;/10.1186/s12874-018-0574-y;FALSE;DEU;1661,24;NA
-;Heidelberg U;2017;BMC;BMC Surgery;/10.1186/s12893-018-0422-3;FALSE;DEU;1661,24;NA
+;Heidelberg U;2017;BMC;BMC Medical Research Methodology;10.1186/s12874-018-0574-y;FALSE;DEU;1661,24;NA
+;Heidelberg U;2017;BMC;BMC Surgery;10.1186/s12893-018-0422-3;FALSE;DEU;1661,24;NA
 ;Heidelberg U;2017;Frontiers Media SA;Frontiers in Psychology;10.3389/fpsyg.2018.02443;FALSE;DEU;1979,93;NA
