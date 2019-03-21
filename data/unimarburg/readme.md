@@ -1,1 +1,1 @@
-APCs der Universität Marburg 2016ff
+APCs der Universität Marburg 2016 ff.
