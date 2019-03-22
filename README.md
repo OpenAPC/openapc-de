@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 75,334 open access journal articles, amounting to € 147,640,205 and contributed by 231 institutions.
+At the moment this project provides cost data on 75,482 open access journal articles, amounting to € 147,881,112 and contributed by 232 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -38,6 +38,7 @@ So far, the following German universities have agreed to share information on pa
 - [Leipzig University](https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch/open-access-publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Martin-Luther-Universität Halle-Wittenberg](http://bibliothek.uni-halle.de/dbib/openaccess/publikationsfonds/)
+- [Philipps-Universität Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/publikationsfonds)
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
 - [JGU Mainz](https://www.openaccess.uni-mainz.de/publikationsfonds-der-jgu/)
 - [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oajlu-en?set_language=en)
@@ -315,9 +316,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 75,334 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 231 research performing institutions and research funders. 
+This dataset contains information on 75,482 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 232 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 147,640,205. The average payment was € 1,960  and the median was € 1,765.
+In total, publication fee spending covered by the Open APC initiative amounted to € 147,881,112. The average payment was € 1,959  and the median was € 1,764.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -331,7 +332,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-43,328 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 67,402,225, including value-added tax; the average payment was € 1,556 (median =  € 1,467, SD = € 759).
+43,476 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 67,643,131, including value-added tax; the average payment was € 1,556 (median =  € 1,469, SD = € 758).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -406,10 +407,11 @@ The following table summarises institutional spending on articles published in f
 |Brunel University                                               |      171|               237,582|   1,389 (489)|  1,336|      220 -  4,333|
 |GFZ-Potsdam                                                     |      170|               224,765|   1,322 (809)|  1,231|      137 -  4,403|
 |University of Leeds                                             |      166|               317,217|   1,911 (984)|  1,579|      332 -  4,475|
-|Bayreuth U                                                      |      165|               193,663|   1,174 (494)|  1,245|       82 -  2,112|
+|Bayreuth U                                                      |      164|               192,958|   1,177 (494)|  1,245|       82 -  2,112|
 |University of Bergen                                            |      156|               242,308|   1,553 (499)|  1,549|      333 -  5,142|
 |Virginia Tech                                                   |      153|               165,423|   1,081 (472)|  1,216|      112 -  2,484|
 |University of Exeter                                            |      152|               287,533| 1,892 (1,057)|  1,532|      225 -  5,555|
+|Marburg U                                                       |      149|               241,611|   1,622 (444)|  1,669|      357 -  3,636|
 |Rostock U                                                       |      140|               183,565|   1,311 (489)|  1,421|      117 -  2,010|
 |Hannover U                                                      |      138|               181,409|   1,315 (497)|  1,392|      124 -  2,159|
 |Université de Lorraine                                          |      135|               159,582|   1,182 (669)|  1,105|      102 -  4,176|
@@ -758,8 +760,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.76%       |
-|PubMed ID                  |  78.01%      |
-|PubMed Central ID          |  71.16%     |
+|PubMed ID                  |  78.03%      |
+|PubMed Central ID          |  71.18%     |
 |Web of Science record ID   | 94.07%      |
 
 
@@ -788,7 +790,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Kim Braun, Christoph Broschinski, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Stefanie Seeh, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
 
 ## Contact
 
