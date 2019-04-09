@@ -74,7 +74,7 @@
 "FZJ - ZB",2018,1296,"10.1080/16000889.2018.1507391",FALSE,"Informa UK Limited","Tellus B","1600-0889",NA,"1600-0889","0280-6509",NA,TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2018,1495,"10.1371/journal.pone.0200940",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30024935","PMC6053208",NA,NA,TRUE
 "FZJ - ZB",2018,1806.65,NA,TRUE,"Elsevier","  Journal of Electron Spectroscopy and Related Phenomena","0368-2048",NA,NA,"0368-2048",NA,FALSE,NA,NA,NA,NA,FALSE
-"FZJ - ZB",2018,1428,"10.1029/2018wr022692",FALSE,"American Geophysical Union (AGU)","Water Resources Research","0043-1397","0043-1397","1944-7973","0043-1397","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"FZJ - ZB",2018,1428,"10.1029/2018wr022692",TRUE,"American Geophysical Union (AGU)","Water Resources Research","0043-1397","0043-1397","1944-7973","0043-1397","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2018,2651.16,"10.1016/j.isci.2018.08.012",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by/4.0/",TRUE,"30267672","PMC6135870",NA,NA,TRUE
 "FZJ - ZB",2018,1800,"10.1038/s42005-018-0055-y",FALSE,"Springer Nature","Communications Physics","2399-3650",NA,"2399-3650","2399-3650","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2018,1290.18,"10.1371/journal.pone.0201457",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30133464","PMC6104926",NA,NA,TRUE
@@ -107,7 +107,7 @@
 "FZJ - ZB",2018,2120.93,"10.1016/j.nima.2018.07.027",TRUE,"Elsevier BV","Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment","0168-9002","0168-9002",NA,"0168-9002","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2018,1368.38,"10.1103/physrevb.98.075410",TRUE,"American Physical Society (APS)","Physical Review B","2469-9950","2469-9950","2469-9969","2469-9950","https://link.aps.org/licenses/aps-default-license",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2018,1810.78,"10.1039/c7nr06169b",TRUE,"Royal Society of Chemistry (RSC)","Nanoscale","2040-3364","2040-3364","2040-3372","2040-3364","http://creativecommons.org/licenses/by/3.0/",TRUE,"29106435",NA,NA,NA,FALSE
-"FZJ - ZB",2018,1944.19,"10.1016/j.aop.2018.07.014",FALSE,"Elsevier BV","Annals of Physics","0003-4916","0003-4916",NA,"0003-4916","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"FZJ - ZB",2018,1944.19,"10.1016/j.aop.2018.07.014",TRUE,"Elsevier BV","Annals of Physics","0003-4916","0003-4916",NA,"0003-4916","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2018,1700.74,"10.1021/acssuschemeng.8b02107",TRUE,"American Chemical Society (ACS)","ACS Sustainable Chemistry & Engineering","2168-0485","2168-0485","2168-0485","2168-0485","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2018,1370,"10.1038/s41598-018-28992-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30022129","PMC6052165",NA,NA,TRUE
 "FZJ - ZB",2018,2175,"10.5194/acp-18-5089-2018",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
