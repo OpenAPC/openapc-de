@@ -69,8 +69,8 @@
 "FZJ - ZB",2018,1560,"10.1038/s41535-018-0116-1",FALSE,"Springer Nature","npj Quantum Materials","2397-4648",NA,"2397-4648","2397-4648","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2018,1370,"10.1038/s41598-018-31806-7",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30190592","PMC6127131",NA,NA,TRUE
 "FZJ - ZB",2018,253,"10.31300/ctec.20.2018.1-13",TRUE,"Research Trends, Ltd.","Current Topics in Electrochemistry","0972-4443","0972-4443",NA,"0972-4443",NA,TRUE,NA,NA,NA,NA,FALSE
-"FZJ - ZB",2018,1309,"10.1007/s00429-018-1738-6",FALSE,"Springer Nature","Brain Structure and Function","1863-2653","1863-2653","1863-2661","1863-2653","http://creativecommons.org/licenses/by/4.0",TRUE,"30187192","PMC6267244",NA,NA,FALSE
-"FZJ - ZB",2018,2916.28,"10.1016/j.jcis.2018.09.014",FALSE,"Elsevier BV","Journal of Colloid and Interface Science","0021-9797","0021-9797",NA,"0021-9797","http://creativecommons.org/licenses/by/4.0/",TRUE,"30205252",NA,NA,NA,FALSE
+"FZJ - ZB",2018,1309,"10.1007/s00429-018-1738-6",TRUE,"Springer Nature","Brain Structure and Function","1863-2653","1863-2653","1863-2661","1863-2653","http://creativecommons.org/licenses/by/4.0",TRUE,"30187192","PMC6267244",NA,NA,FALSE
+"FZJ - ZB",2018,2916.28,"10.1016/j.jcis.2018.09.014",TRUE,"Elsevier BV","Journal of Colloid and Interface Science","0021-9797","0021-9797",NA,"0021-9797","http://creativecommons.org/licenses/by/4.0/",TRUE,"30205252",NA,NA,NA,FALSE
 "FZJ - ZB",2018,1296,"10.1080/16000889.2018.1507391",FALSE,"Informa UK Limited","Tellus B","1600-0889",NA,"1600-0889","0280-6509",NA,TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2018,1495,"10.1371/journal.pone.0200940",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30024935","PMC6053208",NA,NA,TRUE
 "FZJ - ZB",2018,1806.65,NA,TRUE,"Elsevier","  Journal of Electron Spectroscopy and Related Phenomena","0368-2048",NA,NA,"0368-2048",NA,FALSE,NA,NA,NA,NA,FALSE
@@ -126,7 +126,7 @@
 "FZJ - ZB",2018,2522.72,"10.3389/fncir.2018.00052",FALSE,"Frontiers Media SA","Frontiers in Neural Circuits","1662-5110",NA,"1662-5110","1662-5110","https://creativecommons.org/licenses/by/4.0/",TRUE,"30050415","PMC6052126",NA,NA,TRUE
 "FZJ - ZB",2018,1289.15,"10.2136/vzj2018.03.0055",FALSE,"Soil Science Society of America","Vadose Zone Journal","1539-1663",NA,"1539-1663","1539-1663",NA,TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2018,1943.93,"10.1371/journal.pcbi.1006113",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","1553-734X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29746458","PMC5963814",NA,NA,TRUE
-"FZJ - ZB",2018,1897.17,"10.1063/1.5035268",FALSE,"AIP Publishing","The Journal of Chemical Physics","0021-9606","0021-9606","1089-7690","0021-9606",NA,TRUE,"29981556",NA,NA,NA,FALSE
+"FZJ - ZB",2018,1897.17,"10.1063/1.5035268",TRUE,"AIP Publishing","The Journal of Chemical Physics","0021-9606","0021-9606","1089-7690","0021-9606",NA,TRUE,"29981556",NA,NA,NA,FALSE
 "FZJ - ZB",2018,1857.2,"10.2136/vzj2017.12.0212",FALSE,"Soil Science Society of America","Vadose Zone Journal","1539-1663",NA,"1539-1663","1539-1663",NA,TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2018,879.3,"10.3390/met8070488",FALSE,"MDPI AG","Metals","2075-4701",NA,"2075-4701","2075-4701","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2018,618.6,"10.1016/j.nme.2018.06.010",FALSE,"Elsevier BV","Nuclear Materials and Energy","2352-1791","2352-1791",NA,"2352-1791","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
