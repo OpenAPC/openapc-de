@@ -162,7 +162,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2212-9790", # Maritime Studies, Hybrid since 2018
     "2041-4978", # Journal of Micropalaeontology, OA since 1/2018
     "2157-6564", # STEM CELLS Translational Medicine, OA since 2017
-    "1539-1663" # Vadose Zone Journal, OA since 1/2018
+    "1539-1663", # Vadose Zone Journal, OA since 1/2018,
+    "1997-6690", # Journal für Gynäkologische Endokrinologie/Österreich, hybrid since 4/2017 (erroneously listed in the DOAJ)
+    "1023-6090", # Journal für Urologie und Urogynäkologie/Österreich, hybrid since 4/2017 (erroneously listed in the DOAJ)
+    "1998-7773", # Journal für Klinische Endokrinologie und Stoffwechsel, hybrid since 4/2017 (erroneously listed in the DOAJ)
+    "2412-8260" # Journal für Mineralstoffwechsel & Muskuloskelettale Erkrankungen, hybrid since 4/2017 (erroneously listed in the DOAJ)
 ]
 
 class RowObject(object):
