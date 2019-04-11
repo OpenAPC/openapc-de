@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 77,578 open access journal articles, amounting to € 151,391,601 and contributed by 234 institutions.
+At the moment this project provides cost data on 77,608 open access journal articles, amounting to € 151,439,696 and contributed by 234 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -318,9 +318,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 77,578 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 234 research performing institutions and research funders. 
+This dataset contains information on 77,608 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 234 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 151,391,601. The average payment was € 1,951  and the median was € 1,755.
+In total, publication fee spending covered by the Open APC initiative amounted to € 151,439,696. The average payment was € 1,951  and the median was € 1,755.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -334,7 +334,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-45,362 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 70,663,468, including value-added tax; the average payment was € 1,558 (median =  € 1,471, SD = € 756).
+45,392 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 70,711,563, including value-added tax; the average payment was € 1,558 (median =  € 1,472, SD = € 756).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -431,6 +431,7 @@ The following table summarises institutional spending on articles published in f
 |UFZ                                                             |       98|               119,123|   1,216 (419)|  1,258|      232 -  2,290|
 |TU Braunschweig                                                 |       97|               116,277|   1,199 (584)|  1,232|       13 -  2,142|
 |University of Sussex                                            |       96|               199,394| 2,077 (1,190)|  1,637|      245 -  5,350|
+|Osnabrück U                                                     |       95|               138,141|   1,454 (568)|  1,553|      173 -  2,608|
 |Harvard U                                                       |       94|                82,722|     880 (539)|    796|       75 -  3,139|
 |MDC                                                             |       92|               186,801| 2,030 (1,125)|  1,802|      224 -  4,662|
 |TU Berlin                                                       |       90|               118,840|   1,320 (527)|  1,382|      235 -  2,374|
@@ -441,7 +442,6 @@ The following table summarises institutional spending on articles published in f
 |University of Nottingham                                        |       68|               124,918|   1,837 (798)|  1,626|      803 -  5,319|
 |Hamburg TUHH                                                    |       66|                93,538|   1,417 (486)|  1,498|      257 -  2,225|
 |Institut de recherche pour le développement (IRD)               |       65|                87,702|   1,349 (502)|  1,316|       91 -  2,256|
-|Osnabrück U                                                     |       65|                90,046|   1,385 (611)|  1,553|      173 -  2,496|
 |Lancaster University                                            |       64|               101,253|   1,582 (811)|  1,499|      256 -  4,470|
 |Norwegian Institute of Public Health                            |       63|                84,324|   1,338 (259)|  1,418|      400 -  1,766|
 |Örebro University                                               |       63|                83,868|   1,331 (535)|  1,346|      216 -  2,808|
