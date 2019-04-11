@@ -38,6 +38,7 @@ This dataset contains information on 27,054 articles, the following table shows 
 |Erasmus MC                                                                                                                                         |      453|
 |Academic Medical Center (AMC)                                                                                                                      |      447|
 |University of Manchester                                                                                                                           |      437|
+|University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
 |VU University Amsterdam                                                                                                                            |      426|
 |Radboud University Medical Center                                                                                                                  |      397|
 |Karolinska Institute                                                                                                                               |      388|
@@ -56,7 +57,6 @@ This dataset contains information on 27,054 articles, the following table shows 
 |University of Southampton                                                                                                                          |      289|
 |Eindhoven University of Technology                                                                                                                 |      283|
 |Erasmus University                                                                                                                                 |      283|
-|University of Innsbruck and Medical University of Innsbruck                                                                                        |      283|
 |University of Nottingham                                                                                                                           |      279|
 |University of Vienna                                                                                                                               |      279|
 |Royal Institute of Technology                                                                                                                      |      272|
@@ -80,7 +80,6 @@ This dataset contains information on 27,054 articles, the following table shows 
 |University of Exeter                                                                                                                               |      172|
 |University of Reading                                                                                                                              |      167|
 |Queen's University of Belfast                                                                                                                      |      163|
-|University of Innsbruck                                                                                                                            |      153|
 |University of York                                                                                                                                 |      150|
 |Queen Mary, University of London                                                                                                                   |      148|
 |University of Bath                                                                                                                                 |      143|
