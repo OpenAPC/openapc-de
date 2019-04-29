@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 77,894 open access journal articles, amounting to € 151,874,418 and contributed by 234 institutions.
+At the moment this project provides cost data on 77,902 open access journal articles, amounting to € 151,882,462 and contributed by 234 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -318,9 +318,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 77,894 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 234 research performing institutions and research funders. 
+This dataset contains information on 77,902 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 234 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 151,874,418. The average payment was € 1,950  and the median was € 1,752.
+In total, publication fee spending covered by the Open APC initiative amounted to € 151,882,462. The average payment was € 1,950  and the median was € 1,752.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -334,7 +334,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-45,678 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,146,284, including value-added tax; the average payment was € 1,558 (median =  € 1,472, SD = € 755).
+45,686 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,154,329, including value-added tax; the average payment was € 1,557 (median =  € 1,472, SD = € 755).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -448,13 +448,13 @@ The following table summarises institutional spending on articles published in f
 |University of Agder                                             |       62|                42,571|     687 (421)|    536|       86 -  2,145|
 |Dortmund TU                                                     |       61|                75,727|   1,241 (879)|  1,426|      107 -  4,403|
 |University of Chemistry and Technology, Prague                  |       61|                70,856|   1,162 (560)|  1,202|       60 -  2,798|
+|Bamberg U                                                       |       58|                64,419|   1,111 (579)|  1,231|       90 -  2,010|
 |Northumbria University                                          |       57|                96,627|   1,695 (769)|  1,581|      144 -  4,335|
 |Swansea University                                              |       57|                99,199|   1,740 (875)|  1,419|      511 -  4,689|
 |University of Bath                                              |       57|                92,876|   1,629 (754)|  1,515|      113 -  4,186|
 |Norwegian University of Life Sciences                           |       53|                72,307|   1,364 (298)|  1,449|      481 -  1,678|
 |Queen Mary, University of London                                |       53|                89,135| 1,682 (1,041)|  1,250|      442 -  5,410|
 |University of Leicester                                         |       51|                83,750|   1,642 (682)|  1,652|      418 -  4,765|
-|Bamberg U                                                       |       50|                56,375|   1,127 (583)|  1,266|       90 -  2,010|
 |Université de Rennes 1                                          |       50|                64,456|   1,289 (506)|  1,305|      225 -  2,720|
 |University of Durham                                            |       50|                95,365|   1,907 (998)|  1,719|      225 -  5,219|
 |Luleå University of Technology                                  |       48|                52,360|   1,091 (352)|  1,174|      285 -  1,805|
