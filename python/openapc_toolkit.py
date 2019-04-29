@@ -1034,6 +1034,7 @@ def get_unified_publisher_name(publisher):
         "Wiley": "Wiley-Blackwell",
         "Bioscientifica": "BioScientifica",
         "Springer Nature America, Inc": "Springer Nature",
+        "Springer Science and Business Media LLC": "Springer Nature",
         "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd." 
     }
     return publisher_mappings.get(publisher, publisher)
