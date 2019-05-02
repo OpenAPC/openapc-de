@@ -58,6 +58,7 @@ So far, the following German universities have agreed to share information on pa
 - [Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
+- [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch/open-access-publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
