@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 78,104 open access journal articles, amounting to € 152,243,919 and contributed by 236 institutions.
+At the moment this project provides cost data on 78,130 open access journal articles, amounting to € 152,286,813 and contributed by 236 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -319,9 +319,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 78,104 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 236 research performing institutions and research funders. 
+This dataset contains information on 78,130 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 236 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 152,243,919. The average payment was € 1,949  and the median was € 1,752.
+In total, publication fee spending covered by the Open APC initiative amounted to € 152,286,813. The average payment was € 1,949  and the median was € 1,752.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -335,7 +335,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-45,847 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,440,763, including value-added tax; the average payment was € 1,558 (median =  € 1,473, SD = € 756).
+45,872 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,480,787, including value-added tax; the average payment was € 1,558 (median =  € 1,473, SD = € 756).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -434,9 +434,9 @@ The following table summarises institutional spending on articles published in f
 |TU Braunschweig                                                 |       97|               116,277|   1,199 (584)|  1,232|       13 -  2,142|
 |University of Sussex                                            |       96|               199,394| 2,077 (1,190)|  1,637|      245 -  5,350|
 |Osnabrück U                                                     |       95|               138,141|   1,454 (568)|  1,553|      173 -  2,608|
+|Université Pierre et Marie Curie (Paris VI)                     |       95|               157,421|   1,657 (793)|  1,483|      160 -  4,275|
 |Harvard U                                                       |       94|                82,722|     880 (539)|    796|       75 -  3,139|
 |TU Berlin                                                       |       90|               118,840|   1,320 (527)|  1,382|      235 -  2,374|
-|Université Pierre et Marie Curie (Paris VI)                     |       88|               146,312|   1,663 (797)|  1,465|      160 -  4,275|
 |INRIA                                                           |       77|               118,761|   1,542 (645)|  1,538|      290 -  3,700|
 |University of Warwick                                           |       74|               146,885| 1,985 (1,410)|  1,639|      442 -  9,028|
 |Université de Bordeaux                                          |       71|               105,784|   1,490 (593)|  1,347|      433 -  3,700|
@@ -462,6 +462,7 @@ The following table summarises institutional spending on articles published in f
 |PIK-Potsdam                                                     |       48|                80,429|   1,676 (684)|  1,539|      309 -  3,850|
 |TU Wien                                                         |       45|                61,645|   1,370 (496)|  1,323|      240 -  2,288|
 |LSHTM                                                           |       44|                65,024|   1,478 (524)|  1,503|      496 -  3,445|
+|Université Paris Diderot (Paris VII)                            |       44|                71,856|   1,633 (860)|  1,398|      450 -  3,700|
 |Université Toulouse III - Paul Sabatier                         |       44|                71,556|   1,626 (945)|  1,348|      500 -  4,700|
 |Aberystwyth University                                          |       42|                88,324| 2,103 (1,070)|  1,895|      664 -  5,893|
 |CIRAD                                                           |       42|                62,119|   1,479 (549)|  1,449|       94 -  2,600|
@@ -487,7 +488,6 @@ The following table summarises institutional spending on articles published in f
 |Cranfield University                                            |       26|                40,286|   1,549 (624)|  1,370|      228 -  3,122|
 |Liverpool School of Tropical Medicine                           |       26|                45,261|   1,741 (635)|  1,656|      614 -  4,046|
 |Plymouth University                                             |       26|                37,850|   1,456 (520)|  1,438|      333 -  2,716|
-|Université Paris Diderot (Paris VII)                            |       26|                42,941|   1,652 (860)|  1,440|      550 -  3,700|
 |University of Aberdeen                                          |       26|                48,895|   1,881 (695)|  1,787|      985 -  4,556|
 |IST Austria                                                     |       25|                61,328| 2,453 (1,501)|  1,872|      562 -  5,412|
 |HU Berlin                                                       |       24|                38,443|   1,602 (531)|  1,731|      400 -  2,061|
@@ -582,7 +582,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 32,257 open access articles being published in hybrid journals. Total expenditure amounts to  80,803,156 €. Average  fee is 2,505 € and the median 2,450 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 32,258 open access articles being published in hybrid journals. Total expenditure amounts to  80,806,027 €. Average  fee is 2,505 € and the median 2,450 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -671,7 +671,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Linnaeus University                                         |       19|                42,280|   2,225 (700)|  2,105|       947 - 3,404|
 |GFZ-Potsdam                                                 |       18|                44,680|   2,482 (913)|  2,618|       134 - 3,795|
 |Ulm U                                                       |       18|                37,646|   2,091 (537)|  2,319|     1,308 - 2,631|
-|Université Pierre et Marie Curie (Paris VI)                 |       17|                37,042|   2,179 (693)|  1,989|     1,208 - 3,480|
+|Université Pierre et Marie Curie (Paris VI)                 |       18|                39,912|   2,217 (692)|  2,132|     1,208 - 3,480|
 |Aix-Marseille Université                                    |       16|                39,152|   2,447 (837)|  2,446|       450 - 3,780|
 |IST Austria                                                 |       16|                49,968| 3,123 (1,280)|  3,135|       799 - 5,382|
 |Malmö University                                            |       16|                32,555|   2,035 (606)|  2,141|     1,016 - 3,000|
