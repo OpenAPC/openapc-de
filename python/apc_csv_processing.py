@@ -88,6 +88,13 @@ ARG_HELP_STRINGS = {
                 "the 5 mandatory columns defined by the OpenAPC data schema: " +
                 "institution, period, euro, doi and is_hybrid (in no " +
                 "particular order).",
+    "offsetting": 'Switch enrichment to "offsetting mode". Treats the input file as ' +
+                  'containing articles published under a transformative agreement ' +
+                  '(instead of directly paid APCS). In this mode the "euro" column ' +
+                  'becomes optional, but the name of the agreement is expected as ' +
+                  'parameter. Note that output files generated in this mode will no' +
+                  'longer conform to the OpenAPC data schema, but to the specialised ' +
+                  'offsetting data schema instead.',
     "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
     "verbose": "Be more verbose during the enrichment process.",
@@ -184,6 +191,7 @@ ARG_HELP_STRINGS = {
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
+    parser.add_argument("-O", "--offsetting_mode", help=ARG_HELP_STRINGS["offsetting"])
     parser.add_argument("-b", "--bypass-cert-verification", action="store_true",
                         help=ARG_HELP_STRINGS["bypass"])
     parser.add_argument("-d", "--offline_doaj",
@@ -232,7 +240,7 @@ def main():
                         type=int, help=ARG_HELP_STRINGS["url"])
     parser.add_argument("-start", type=int, help=ARG_HELP_STRINGS["start"])
     parser.add_argument("-end", type=int, help=ARG_HELP_STRINGS["end"])
-    parser.add_argument("-q", "--quotemask", default="tffttttttttttttttt",
+    parser.add_argument("-q", "--quotemask", default="tfftttttttttttttttt",
                         help=ARG_HELP_STRINGS["quotemask"])
     parser.add_argument("-n", "--no-openapc-quote-rules", 
                         help=ARG_HELP_STRINGS["no_openapc_quote_rules"],
@@ -337,8 +345,8 @@ def main():
         ow_strategy = CSVColumn.OW_ALWAYS
     else:
         ow_strategy = CSVColumn.OW_ASK
-
-    column_map = OrderedDict([
+        
+    openapc_column_map = OrderedDict([
         ("institution", CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column, overwrite=ow_strategy)),
         ("period", CSVColumn("period", CSVColumn.MANDATORY, args.period_column, overwrite=ow_strategy)),
         ("euro", CSVColumn("euro", CSVColumn.MANDATORY, args.euro_column, overwrite=ow_strategy)),
@@ -359,6 +367,34 @@ def main():
         ("url", CSVColumn("url", CSVColumn.OPTIONAL, args.url_column, overwrite=ow_strategy)),
         ("doaj", CSVColumn("doaj", CSVColumn.NONE, None, overwrite=ow_strategy))
     ])
+
+    offsetting_column_map = OrderedDict([
+        ("institution", CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column, overwrite=ow_strategy)),
+        ("period", CSVColumn("period", CSVColumn.MANDATORY, args.period_column, overwrite=ow_strategy)),
+        ("euro", CSVColumn("euro", CSVColumn.NONE, args.euro_column, overwrite=ow_strategy)),
+        ("doi", CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column, overwrite=ow_strategy)),
+        ("is_hybrid", CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column, overwrite=ow_strategy)),
+        ("publisher", CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column, overwrite=ow_strategy)),
+        ("journal_full_title", CSVColumn("journal_full_title", CSVColumn.OPTIONAL,
+                                         args.journal_full_title_column, overwrite=ow_strategy)),
+        ("issn", CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column, overwrite=ow_strategy)),
+        ("issn_print", CSVColumn("issn_print", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("issn_electronic", CSVColumn("issn_electronic", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("issn_l", CSVColumn("issn_l", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("license_ref", CSVColumn("license_ref", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("indexed_in_crossref", CSVColumn("indexed_in_crossref", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("pmid", CSVColumn("pmid", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("pmcid", CSVColumn("pmcid", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("ut", CSVColumn("ut", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("url", CSVColumn("url", CSVColumn.OPTIONAL, args.url_column, overwrite=ow_strategy)),
+        ("doaj", CSVColumn("doaj", CSVColumn.NONE, None, overwrite=ow_strategy)),
+        ("agreement", CSVColumn("agreement", CSVColumn.NONE, None, overwrite=ow_strategy)),
+    ])
+
+    if args.offsetting_mode:
+        column_map = offsetting_column_map
+    else:
+        column_map = openapc_column_map
 
     header = None
     if has_header:
@@ -566,7 +602,8 @@ def main():
         print("---Processing line number " + str(row_num) + "---")
         enriched_row = oat.process_row(row, row_num, column_map, num_columns,
                                        args.no_crossref, args.no_pubmed,
-                                       args.no_doaj, doaj_offline_analysis, args.round_monetary)
+                                       args.no_doaj, doaj_offline_analysis, args.round_monetary,
+                                       args.offsetting_mode)
         enriched_content.append(enriched_row)
 
     csv_file.close()
