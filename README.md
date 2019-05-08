@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 78,130 open access journal articles, amounting to € 152,286,813 and contributed by 236 institutions.
+At the moment this project provides cost data on 78,135 open access journal articles, amounting to € 152,294,675 and contributed by 236 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -319,9 +319,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 78,130 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 236 research performing institutions and research funders. 
+This dataset contains information on 78,135 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 236 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 152,286,813. The average payment was € 1,949  and the median was € 1,752.
+In total, publication fee spending covered by the Open APC initiative amounted to € 152,294,675. The average payment was € 1,949  and the median was € 1,752.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -335,7 +335,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-45,872 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,480,787, including value-added tax; the average payment was € 1,558 (median =  € 1,473, SD = € 756).
+45,873 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,482,515, including value-added tax; the average payment was € 1,558 (median =  € 1,473, SD = € 756).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -424,7 +424,7 @@ The following table summarises institutional spending on articles published in f
 |INRA                                                            |      125|               202,935|   1,623 (642)|  1,405|      282 -  3,700|
 |University of Reading                                           |      125|               196,774|   1,574 (642)|  1,543|      130 -  4,453|
 |Aix-Marseille Université                                        |      123|               181,635|   1,477 (652)|  1,305|      333 -  3,960|
-|HZDR                                                            |      115|               169,577|   1,475 (895)|  1,287|      236 -  6,512|
+|HZDR                                                            |      116|               171,305|   1,477 (897)|  1,296|      236 -  6,512|
 |Norwegian University of Science and Technology                  |      115|               162,119|   1,410 (492)|  1,420|      183 -  3,554|
 |Indiana University - Purdue University Indianapolis (IUPUI)     |      114|               166,599|   1,461 (685)|  1,362|      212 -  4,920|
 |Potsdam U                                                       |      112|               165,158|   1,475 (378)|  1,530|      224 -  2,303|
@@ -582,7 +582,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 32,258 open access articles being published in hybrid journals. Total expenditure amounts to  80,806,027 €. Average  fee is 2,505 € and the median 2,450 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 32,262 open access articles being published in hybrid journals. Total expenditure amounts to  80,812,160 €. Average  fee is 2,505 € and the median 2,450 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -690,6 +690,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Université Paris Descartes (Paris V)                        |        9|                16,978|   1,886 (620)|  2,033|       740 - 2,641|
 |Goldsmiths                                                  |        8|                21,665|   2,708 (702)|  2,636|     1,969 - 3,985|
 |Chalmers University of Technology                           |        7|                16,723|   2,389 (323)|  2,429|     2,132 - 3,040|
+|HZDR                                                        |        7|                11,538|   1,648 (601)|  1,755|       987 - 2,570|
 |Leibniz-IGB                                                 |        7|                14,513| 2,073 (1,098)|  2,200|       352 - 3,200|
 |INRIA                                                       |        6|                10,941|   1,823 (697)|  1,865|       846 - 2,790|
 |University of Portsmouth                                    |        6|                13,412|   2,235 (751)|  2,652|     1,193 - 2,785|
@@ -708,7 +709,6 @@ The following institutions have contributed expenditures on hybrid open access j
 |Université Lille 2                                          |        4|                12,659| 3,165 (1,262)|  3,089|     1,981 - 4,500|
 |University College West                                     |        4|                 8,395|   2,099 (245)|  2,022|     1,906 - 2,443|
 |ESPCI Paris                                                 |        3|                 5,574|   1,858 (846)|  2,160|       902 - 2,512|
-|HZDR                                                        |        3|                 5,405|   1,802 (746)|  1,755|     1,080 - 2,570|
 |Konstanz U                                                  |        3|                 5,556|   1,852 (525)|  1,950|     1,285 - 2,320|
 |Mines ParisTech                                             |        3|                 7,657|   2,552 (580)|  2,500|     2,000 - 3,157|
 |TU Clausthal                                                |        3|                 7,082|   2,361 (349)|  2,500|     1,964 - 2,618|
