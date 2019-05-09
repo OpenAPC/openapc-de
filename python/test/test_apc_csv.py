@@ -173,11 +173,11 @@ class RowObject(object):
     """
     A minimal container class to store contextual information along with csv rows.
     """
-    def __init__(self, file_name, line_number, row, test_apc=True):
+    def __init__(self, file_name, line_number, row, offsetting):
         self.file_name = file_name
         self.line_number = line_number
         self.row = row
-        self.test_apc = test_apc
+        self.offsetting = offsetting
 
 doi_duplicate_list = []
 apc_data = []
@@ -186,7 +186,11 @@ issn_p_dict = {}
 issn_e_dict = {}
 
 UNUSED_FIELDS = ["institution", "period", "license_ref", "pmid", "pmcid", "ut"]
-CORRECT_ROW_LENGTH = 18 - len(UNUSED_FIELDS)
+
+ROW_LENGTH = {
+    "openapc": 18 - len(UNUSED_FIELDS),
+    "offsetting": 19 - len(UNUSED_FIELDS)
+}
 
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
@@ -197,10 +201,10 @@ for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
         for row in reader:
             for field in UNUSED_FIELDS:
                 del(row[field])
-            test_apc = True
+            offsetting = False
             if file_name == "data/offsetting/offsetting.csv":
-                test_apc = False
-            apc_data.append(RowObject(file_name, line, row, test_apc))
+                offsetting = True
+            apc_data.append(RowObject(file_name, line, row, offsetting))
             doi_duplicate_list.append(row["doi"])
             
             reduced_row = {}
@@ -240,10 +244,16 @@ def in_whitelist(issn, first_publisher, second_publisher):
 
 def check_line_length(row_object):
     __tracebackhide__ = True
-    if len(row_object.row) != CORRECT_ROW_LENGTH:
+    if row_object.offsetting:
+        target_length = ROW_LENGTH["offsetting"]
+        correct_length = ROW_LENGTH["offsetting"] + len(UNUSED_FIELDS)
+    else:
+        target_length = ROW_LENGTH["openapc"]
+        correct_length = ROW_LENGTH["openapc"] + len(UNUSED_FIELDS)
+    if len(row_object.row) != target_length:
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        pytest.fail(line_str + 'Row must consist of exactly 18 items')
+        pytest.fail(line_str + 'Row must consist of exactly ' + str(correct_length) + ' items')
 
 def check_optional_identifier(row_object):
     __tracebackhide__ = True
@@ -283,8 +293,12 @@ def check_field_content(row_object):
         pytest.fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
     if len(row['journal_full_title']) != len(row['journal_full_title'].strip()):
         pytest.fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
+        
+    if row_object.offsetting:
+        if not oat.has_value(row['agreement']):
+            pytest.fail(line_str + 'the column "agreement" must not be empty')
     
-    if row_object.test_apc:
+    if not row_object.offsetting:
         try:
             euro = float(row['euro'])
             if euro <= 0:
