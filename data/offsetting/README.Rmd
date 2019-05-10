@@ -34,8 +34,19 @@ require(dplyr)
 require(ezsummary)
 my_apc <- readr::read_csv("offsetting.csv")
 ```
-This dataset contains information on `r nrow(my_apc)` articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
+This dataset contains information on `r nrow(my_apc)` articles, published at `r length(unique(my_apc$institution))` institutions under `r length(unique(my_apc$agreement))` different transformative agreements. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
+### Breakdown by agreement
+
+```{r}
+my_apc %>% select(agreement, euro) %>% 
+    group_by(agreement) %>% 
+    summarise(count = n()) %>% 
+    arrange(desc(count)) %>%
+    knitr::kable(col.names = c("Agreement", "Articles"), align = c("l","r"))
+```
+
+### Breakdown by institution
 
 ```{r}
 my_apc %>% select(institution, euro) %>% 

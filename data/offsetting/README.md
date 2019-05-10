@@ -14,8 +14,19 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 27,334 articles, the following table shows the article distribution over institutions. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
+This dataset contains information on 27,334 articles, published at 198 institutions under 4 different transformative agreements. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
+### Breakdown by agreement
+
+
+|Agreement                      | Articles|
+|:------------------------------|--------:|
+|Springer Compact               |    27010|
+|MPG RSC agreement              |      246|
+|MPG Taylor & Francis agreement |       46|
+|MPG IOP agreement              |       32|
+
+### Breakdown by institution
 
 
 |Institution                                                                                                                                        | Articles|
