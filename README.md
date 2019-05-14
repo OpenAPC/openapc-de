@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 78,195 open access journal articles, amounting to € 152,401,273 and contributed by 236 institutions.
+At the moment this project provides cost data on 78,208 open access journal articles, amounting to € 152,421,107 and contributed by 236 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -319,9 +319,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 78,195 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 236 research performing institutions and research funders. 
+This dataset contains information on 78,208 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 236 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 152,401,273. The average payment was € 1,949  and the median was € 1,751.
+In total, publication fee spending covered by the Open APC initiative amounted to € 152,421,107. The average payment was € 1,949  and the median was € 1,751.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -335,7 +335,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-45,933 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,589,113, including value-added tax; the average payment was € 1,559 (median =  € 1,474, SD = € 756).
+45,946 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,608,947, including value-added tax; the average payment was € 1,559 (median =  € 1,474, SD = € 756).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -491,6 +491,7 @@ The following table summarises institutional spending on articles published in f
 |Plymouth University                                             |       26|                37,850|   1,456 (520)|  1,438|      333 -  2,716|
 |University of Aberdeen                                          |       26|                48,895|   1,881 (695)|  1,787|      985 -  4,556|
 |IST Austria                                                     |       25|                61,328| 2,453 (1,501)|  1,872|      562 -  5,412|
+|Trier U                                                         |       25|                38,550|   1,542 (325)|  1,553|      573 -  2,212|
 |HU Berlin                                                       |       24|                38,443|   1,602 (531)|  1,731|      400 -  2,061|
 |Lund University                                                 |       24|                32,295|   1,346 (541)|  1,410|      397 -  2,429|
 |Université de Nantes                                            |       24|                36,474|   1,520 (651)|  1,495|      286 -  3,400|
@@ -521,7 +522,6 @@ The following table summarises institutional spending on articles published in f
 |IPN - Leibniz Kiel                                              |       13|                14,201|   1,092 (693)|  1,092|      195 -  2,621|
 |Nord University                                                 |       12|                14,974|   1,248 (559)|  1,126|      101 -  2,045|
 |Royal Holloway                                                  |       12|                20,914|   1,743 (904)|  1,512|      921 -  4,363|
-|Trier U                                                         |       12|                18,716|   1,560 (257)|  1,572|    1,152 -  1,963|
 |TU Clausthal                                                    |       12|                11,023|     919 (585)|    918|      181 -  2,099|
 |Akershus University Hospital                                    |       11|                15,680|   1,425 (402)|  1,290|      834 -  1,979|
 |Free University of Bozen-Bolzano                                |       11|                 8,709|     792 (647)|    561|      260 -  2,221|
