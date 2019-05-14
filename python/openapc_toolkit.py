@@ -716,7 +716,7 @@ def get_euro_exchange_rates(currency, frequency="D"):
 def process_row(row, row_num, column_map, num_required_columns,
                 no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, doaj_offline_analysis=False,
-                round_monetary=False):
+                round_monetary=False, offsetting_mode=None):
     """
     Enrich a single row of data and reformat it according to Open APC standards.
 
@@ -741,7 +741,8 @@ def process_row(row, row_num, column_map, num_required_columns,
                                true.
         round_monetary: If true, monetary values with more than 2 digits behind the decimal
                         mark will be rounded. If false, these cases will be treated as errors.
-
+        offsetting_mode: If not None, the row is assumed to originate from an offsetting file
+                         and this argument's value will be added to the 'agreement' column
      Returns:
         A list of values which represents the enriched and re-arranged variant
         of the input row. If no errors were logged during the process, this
@@ -973,6 +974,8 @@ def process_row(row, row_num, column_map, num_required_columns,
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value,
                                                                  new_value)
+    if offsetting_mode:
+        current_row["agreement"] = offsetting_mode
     return list(current_row.values())
 
 def get_column_type_from_whitelist(column_name):
