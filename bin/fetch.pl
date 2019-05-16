@@ -159,7 +159,7 @@ $csv->each(
         my $data = $_[0];
 
         die "Input file does not match required format."
-            unless keys %$data == 18;
+            unless keys %$data == 18 || keys %$data == 19;
 
         my $body = _generate_xml($data);
 
