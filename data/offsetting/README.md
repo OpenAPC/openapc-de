@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 27,334 articles, published at 198 institutions under 4 different transformative agreements. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
+This dataset contains information on 28,634 articles, published at 199 institutions under 5 different transformative agreements. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/offsetting).
 
 ### Breakdown by agreement
 
@@ -22,6 +22,7 @@ This dataset contains information on 27,334 articles, published at 198 instituti
 |Agreement                      | Articles|
 |:------------------------------|--------:|
 |Springer Compact               |    27010|
+|French EDP Sciences agreement  |     1300|
 |MPG RSC agreement              |      246|
 |MPG Taylor & Francis agreement |       46|
 |MPG IOP agreement              |       32|
@@ -31,6 +32,7 @@ This dataset contains information on 27,334 articles, published at 198 instituti
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
+|French institutions                                                                                                                                |     1300|
 |MPG                                                                                                                                                |      946|
 |University College London                                                                                                                          |      769|
 |University of Cambridge                                                                                                                            |      701|
