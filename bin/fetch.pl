@@ -2,7 +2,7 @@
 
 =head1 SYNOPSIS
 
-	perl fetch.pl --input {input_file.csv} --output {output_file.csv}
+	perl fetch.pl [--offsetting] --input {input_file.csv} --output {output_file.csv}
 
 =head1 DESCRIPTION
 
@@ -16,7 +16,7 @@ Vitali Peil, vitali.peil at uni-bielefeld.de
 
 =head1 LICENSE
 
-This software is copyright (c) 2016 by Vitali Peil.
+This software is copyright (c) 2019 by Vitali Peil.
 
 This is free software; you can redistribute it and/or modify it
 under the same terms as the Perl 5 programming language system itself.
@@ -32,10 +32,11 @@ use XML::Simple;
 use Try::Tiny;
 use Getopt::Long;
 
-my ($in_file, $out_file);
+my ($in_file, $out_file, $offsetting);
 GetOptions(
     "input=s" => \$in_file,
     "output=s" => \$out_file,
+    "offsetting" => \$offsetting,
 ) or die("Error in command line arguments\n");
 
 die "Parameters '--input' and '--output' are required." unless $in_file and $out_file;
@@ -136,15 +137,19 @@ sub _parse {
 # main
 my $csv = Catmandu::Importer::CSV->new( file => $in_file );
 
+my @fields = qw (institution period euro doi is_hybrid
+  publisher journal_full_title issn issn_print
+  issn_electronic issn_l license_ref
+  indexed_in_crossref pmid pmcid ut url doaj);
+
+push @fields, "agreement" if $offsetting;
+
 my $exporter = Catmandu::Exporter::CSV->new(
     file => $out_file,
     sep_char => ',',
     quote_char => '"',
     always_quote => 1,
-    fields => ["institution","period","euro","doi",
-      "is_hybrid","publisher","journal_full_title",
-      "issn","issn_print","issn_electronic","issn_l","license_ref",
-      "indexed_in_crossref","pmid","pmcid","ut","url","doaj"],
+    fields => \@fields,
     );
 
 my $counter = 0;
