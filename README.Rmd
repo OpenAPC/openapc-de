@@ -322,6 +322,10 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [University of Chemistry and Technology, Prague](https://www.vscht.cz/?jazyk=en)
 
+## Participating Institutions from Hungary
+
+- [University of Debrecen](https://unideb.hu/en)
+
 ## Participating Institutions from the United States:
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
