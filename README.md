@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 78,369 open access journal articles, amounting to € 152,657,170 and contributed by 237 institutions.
+At the moment this project provides cost data on 78,380 open access journal articles, amounting to € 152,684,062 and contributed by 238 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -98,6 +98,9 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
 
+## Other German Research Institutions
+
+- [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](http://www.iab.de/en/publikationen.aspx)
 
 ## Participating Austrian Institutions
 
@@ -323,9 +326,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 78,369 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 237 research performing institutions and research funders. 
+This dataset contains information on 78,380 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 238 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 152,657,170. The average payment was € 1,948  and the median was € 1,749.
+In total, publication fee spending covered by the Open APC initiative amounted to € 152,684,062. The average payment was € 1,948  and the median was € 1,749.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -339,7 +342,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-46,093 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,825,072, including value-added tax; the average payment was € 1,558 (median =  € 1,475, SD = € 756).
+46,094 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 71,826,148, including value-added tax; the average payment was € 1,558 (median =  € 1,475, SD = € 756).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -578,6 +581,7 @@ The following table summarises institutional spending on articles published in f
 |Norwegian School of Sport Sciences                              |        2|                 1,568|     784 (500)|    784|      431 -  1,137|
 |Université de La Rochelle                                       |        2|                 3,905|   1,952 (294)|  1,952|    1,745 -  2,160|
 |Université Evry Val-d'Essonne                                   |        2|                 4,237| 2,118 (1,105)|  2,118|    1,337 -  2,900|
+|Institut für Arbeitsmarkt- und Berufsforschung                  |        1|                 1,076|   1,076 (  0)|  1,076|    1,076 -  1,076|
 |Mines ParisTech                                                 |        1|                 1,260|   1,260 (  0)|  1,260|    1,260 -  1,260|
 |TIB                                                             |        1|                 1,619|   1,619 (  0)|  1,619|    1,619 -  1,619|
 |University of Stavanger                                         |        1|                   709|     709 (  0)|    709|      709 -    709|
@@ -587,7 +591,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 32,276 open access articles being published in hybrid journals. Total expenditure amounts to  80,832,098 €. Average  fee is 2,504 € and the median 2,450 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers 32,286 open access articles being published in hybrid journals. Total expenditure amounts to  80,857,914 €. Average  fee is 2,504 € and the median 2,450 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -690,6 +694,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Free University of Bozen-Bolzano                            |       12|                26,122|   2,177 (669)|  2,396|       927 - 2,915|
 |University of the West of England                           |       11|                26,654| 2,423 (1,365)|  2,345|        97 - 4,416|
 |University of Ulster                                        |       11|                22,566| 2,051 (1,220)|  2,193|       236 - 3,868|
+|Institut für Arbeitsmarkt- und Berufsforschung              |       10|                25,816|   2,582 (223)|  2,618|     2,124 - 2,975|
 |MPG                                                         |       10|                 9,179|     918 (113)|    958|       727 - 1,034|
 |Duisburg-Essen U                                            |        9|                23,845|   2,649 ( 67)|  2,618|     2,577 - 2,800|
 |INM - Leibniz-Institut für Neue Materialien                 |        9|                27,020|   3,002 (740)|  3,213|     1,785 - 3,861|
@@ -776,9 +781,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.76%       |
-|PubMed ID                  |  77.8%      |
-|PubMed Central ID          |  71.04%     |
-|Web of Science record ID   | 93.75%      |
+|PubMed ID                  |  77.79%      |
+|PubMed Central ID          |  71.03%     |
+|Web of Science record ID   | 93.74%      |
 
 
 
