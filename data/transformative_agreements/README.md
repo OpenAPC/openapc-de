@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 28,784 articles, published at 199 institutions under 5 different transformative agreements. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/transformative_agreements).
+This dataset contains information on 28,784 articles, published at 199 institutions under 5 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 

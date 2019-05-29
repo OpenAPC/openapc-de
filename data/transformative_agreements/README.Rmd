@@ -34,7 +34,7 @@ require(dplyr)
 require(ezsummary)
 my_apc <- readr::read_csv("transformative_agreements.csv")
 ```
-This dataset contains information on `r nrow(my_apc)` articles, published at `r length(unique(my_apc$institution))` institutions under `r length(unique(my_apc$agreement))` different transformative agreements. The data can also be inspected as a [treemap visualisation](http://treemaps.intact-project.org/apcdata/transformative_agreements).
+This dataset contains information on `r nrow(my_apc)` articles, published at `r length(unique(my_apc$institution))` institutions under `r length(unique(my_apc$agreement))` different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
