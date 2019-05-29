@@ -173,11 +173,11 @@ class RowObject(object):
     """
     A minimal container class to store contextual information along with csv rows.
     """
-    def __init__(self, file_name, line_number, row, offsetting):
+    def __init__(self, file_name, line_number, row, transformative_agreements):
         self.file_name = file_name
         self.line_number = line_number
         self.row = row
-        self.offsetting = offsetting
+        self.transformative_agreements = transformative_agreements
 
 doi_duplicate_list = []
 apc_data = []
@@ -189,22 +189,22 @@ UNUSED_FIELDS = ["institution", "period", "license_ref", "pmid", "pmcid", "ut"]
 
 ROW_LENGTH = {
     "openapc": 18 - len(UNUSED_FIELDS),
-    "offsetting": 19 - len(UNUSED_FIELDS)
+    "transformative_agreements": 19 - len(UNUSED_FIELDS)
 }
 
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
-for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
+for file_name in ["data/apc_de.csv", "data/transformative_agreements/transformative_agreements.csv"]:
     with open(file_name, "r") as csv_file:
         reader = DictReader(csv_file)
         line = 2
         for row in reader:
             for field in UNUSED_FIELDS:
                 del(row[field])
-            offsetting = False
-            if file_name == "data/offsetting/offsetting.csv":
-                offsetting = True
-            apc_data.append(RowObject(file_name, line, row, offsetting))
+            transformative_agreements = False
+            if file_name == "data/transformative_agreements/transformative_agreements.csv":
+                transformative_agreements = True
+            apc_data.append(RowObject(file_name, line, row, transformative_agreements))
             doi_duplicate_list.append(row["doi"])
             
             reduced_row = {}
@@ -244,9 +244,9 @@ def in_whitelist(issn, first_publisher, second_publisher):
 
 def check_line_length(row_object):
     __tracebackhide__ = True
-    if row_object.offsetting:
-        target_length = ROW_LENGTH["offsetting"]
-        correct_length = ROW_LENGTH["offsetting"] + len(UNUSED_FIELDS)
+    if row_object.transformative_agreements:
+        target_length = ROW_LENGTH["transformative_agreements"]
+        correct_length = ROW_LENGTH["transformative_agreements"] + len(UNUSED_FIELDS)
     else:
         target_length = ROW_LENGTH["openapc"]
         correct_length = ROW_LENGTH["openapc"] + len(UNUSED_FIELDS)
@@ -294,11 +294,11 @@ def check_field_content(row_object):
     if len(row['journal_full_title']) != len(row['journal_full_title'].strip()):
         pytest.fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
         
-    if row_object.offsetting:
+    if row_object.transformative_agreements:
         if not oat.has_value(row['agreement']):
             pytest.fail(line_str + 'the column "agreement" must not be empty')
     
-    if not row_object.offsetting:
+    if not row_object.transformative_agreements:
         try:
             euro = float(row['euro'])
             if euro <= 0:
