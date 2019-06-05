@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 78,778 open access journal articles, amounting to € 153,293,639 and contributed by 238 institutions.
+At the moment this project provides cost data on 78,775 open access journal articles, amounting to € 153,280,905 and contributed by 238 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -326,9 +326,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 78,778 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 238 research performing institutions and research funders. 
+This dataset contains information on 78,775 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 238 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 153,293,639. The average payment was € 1,946  and the median was € 1,745.
+In total, publication fee spending covered by the Open APC initiative amounted to € 153,280,905. The average payment was € 1,946  and the median was € 1,745.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -342,7 +342,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-46,492 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 72,435,724, including value-added tax; the average payment was € 1,558 (median =  € 1,475, SD = € 754).
+46,489 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 72,422,991, including value-added tax; the average payment was € 1,558 (median =  € 1,475, SD = € 753).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -433,9 +433,9 @@ The following table summarises institutional spending on articles published in f
 |University of Reading                                           |      125|               196,774|   1,574 (642)|  1,543|      130 -  4,453|
 |INRA                                                            |      124|               202,035|   1,629 (641)|  1,405|      282 -  3,700|
 |Aix-Marseille Université                                        |      123|               181,635|   1,477 (652)|  1,305|      333 -  3,960|
-|HZDR                                                            |      116|               171,305|   1,477 (897)|  1,296|      236 -  6,512|
 |Norwegian University of Science and Technology                  |      115|               162,119|   1,410 (492)|  1,420|      183 -  3,554|
 |Indiana University - Purdue University Indianapolis (IUPUI)     |      114|               166,599|   1,461 (685)|  1,362|      212 -  4,920|
+|HZDR                                                            |      113|               158,572|   1,403 (740)|  1,285|      236 -  4,000|
 |Oslo University Hospital                                        |      111|               149,777|   1,349 (373)|  1,392|      232 -  2,725|
 |University of Debrecen                                          |      100|               154,134|   1,541 (794)|  1,655|       69 -  3,689|
 |TU Chemnitz                                                     |       98|               113,365|   1,157 (600)|  1,249|       78 -  2,123|
