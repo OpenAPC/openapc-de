@@ -1,4 +1,4 @@
-
+﻿
 ```{r, echo = FALSE, warning = TRUE}
 
 knitr::opts_knit$set(base.url = "/")
@@ -60,43 +60,43 @@ So far, the following German universities have agreed to share information on pa
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
-- [Leipzig University](https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch/open-access-publikationsfonds/)
+- [Leipzig University](https://www.ub.uni-leipzig.de/open-science/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Martin-Luther-Universität Halle-Wittenberg](http://bibliothek.uni-halle.de/dbib/openaccess/publikationsfonds/)
 - [Philipps-Universität Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/publikationsfonds)
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
 - [JGU Mainz](https://www.openaccess.uni-mainz.de/publikationsfonds-der-jgu/)
-- [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oajlu-en?set_language=en)
+- [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
-- [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/)
+- [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en)
 - [Technische Universität Darmstadt](https://www.ulb.tu-darmstadt.de/service/elektronisches_publizieren/oa_publikationsfond/index.en.jsp)
-- [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
-- [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
-- [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
+- [Technische Universität Dortmund](https://www.ub.tu-dortmund.de/open-access/index.html.en)
+- [Technische Universität Dresden](https://www.slub-dresden.de/service/open-science-service/open-access/publikationsfonds/)
+- [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ilmedia/open-access/oa-publikationsfonds/)
 - [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
-- [University of Duisburg-Essen](https://www.uni-due.de/ub/en/openaccess_foerderung.shtml)
-- [University of Freiburg](https://www.ub.uni-freiburg.de/unterstuetzung/elektronisch-publizieren/open-access/publikationsfonds/)
+- [University of Duisburg-Essen](https://www.uni-due.de/ub/publikationsdienste/oa_foerderung.php)
+- [University of Freiburg](https://www.ub.uni-freiburg.de/en/support/electronic-publishing/open-access/open-access-publication-fund/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/finanzierung-von-publikationen/publication-fund/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
-- [University of Konstanz](https://www.kim.uni-konstanz.de/en/services/scholarly-publishing-and-open-access/open-access-publication-funds/)
-- [University of Oldenburg](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/)
+- [University of Konstanz](https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/open-access-publication-fund/)
+- [University of Oldenburg](https://uol.de/en/bis/teachingresearchingpublishing/open-access/open-access-publication-fund/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
-- [University of Rostock](https://www.ub.uni-rostock.de/wissenschaftliche-services/open-access/open-access-publizieren/)
+- [University of Rostock](https://www.ub.uni-rostock.de/en/support-for-researchers/open-access/open-access-publizieren/)
 - [University of Stuttgart](https://oa.uni-stuttgart.de/publizieren/fonds/)
 - [University of Trier](https://www.uni-trier.de/index.php?id=60802)
-- [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
+- [University of Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/open-access/open-access-publikationsfonds/)
 - [University of Veterinary Medicine Hannover, Foundation (TiHo)](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
-- [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
-- [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
+- [University of Würzburg](https://www.bibliothek.uni-wuerzburg.de/en/research-publishing/open-access/publication-fund/)
+- [Ulm University](https://www.uni-ulm.de/en/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/oap/open-access/)
 
 ## Participating Research Society Funds in Germany
 
@@ -109,27 +109,27 @@ Participating Research Organizations:
 The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 - [Fraunhofer Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html)
-- [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
+- [Forschungszentrum Jülich](https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html)
 - [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
-- [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
-- [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](http://www.igb-berlin.de/bibliothek)
-- [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?en=36297)
+- [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/en/library)
+- [INM - Leibniz Institute for New Materials](https://www.ntnm-bib.de/research-publish/oa-finanzieren/?lang=en)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
-- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/) (provides APC data for the [GFZ](https://www.gfz-potsdam.de/en/home/) and the [PIK](https://www.pik-potsdam.de))
-- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
+- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/) (provides APC data for the [GFZ](https://www.gfz-potsdam.de/en/home/) and the [PIK](https://www.pik-potsdam.de))
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
 
 ## Other German Research Institutions
 
-- [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](http://www.iab.de/en/publikationen.aspx)
+- [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
 
 ## Participating Austrian Institutions
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
-- [Institute of Science and Technology Austria](https://ist.ac.at/open-access/open-access-policy/)
+- [Institute of Science and Technology Austria](https://ist.ac.at/en/research/library/publish-communicate/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
 
 ## Participating Swiss Institutions
@@ -138,7 +138,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Participating Italian Institutions
 
-- [Free University of Bozen-Bolzano](https://www.unibz.it/)
+- [Free University of Bozen-Bolzano](https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/)
 - [Università degli Studi di Milano](http://www.unimi.it/ENG/)
 
 ## Institutions from Norway:
@@ -179,7 +179,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Participating Spanish Institutions:
 
-- [Universitat de Barcelona](http://www.ub.edu/web/ub/en/index.html)
+- [Universitat de Barcelona](http://crai.ub.edu/en/crai-services/open-access-ub)
 
 ## Institutions from Sweden (via [Open APC Sweden](https://github.com/Kungbib/openapc-se)):
 
@@ -323,7 +323,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Participating Institutions from the Czech Republic (contributed by [CzechELib](https://www.czechelib.cz/en/)):
 
-- [University of Chemistry and Technology, Prague](https://www.vscht.cz/?jazyk=en)
+- [University of Chemistry and Technology, Prague](https://www.chemtk.cz/en/)
 
 ## Participating Institutions from Hungary
 
@@ -346,7 +346,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Supranational participants
 
-- [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
+- [OpenAIRE](https://www.openaire.eu/fp7-oapilot) (FP7 Post-Grant Open Access Pilot)
 
 ## Dataset
 
