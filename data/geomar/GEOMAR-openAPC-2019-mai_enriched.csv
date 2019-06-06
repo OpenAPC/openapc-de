@@ -38,7 +38,7 @@
 "GEOMAR",2017,2116.5,"10.3389/fmicb.2017.00752",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28533766","PMC5421222","ut:000400731100001",NA,TRUE
 "GEOMAR",2017,1604,"10.3390/en10122034",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000423156900105",NA,TRUE
 "GEOMAR",2017,1782,"10.3390/md15080245",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"28767061","PMC5577600","ut:000408763400011",NA,TRUE
-"GEOMAR",2017,1782,"10.3390/md15060191",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"28635658","PMC5484141","ut:000404526900046",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "GEOMAR",2017,1490,"10.1038/s41598-017-04106-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28646231","PMC5482855","ut:000404118700020",NA,TRUE
 "GEOMAR",2017,1490,"10.1038/s41598-017-13335-x",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29042585","PMC5645364","ut:000413084800035",NA,TRUE
 "GEOMAR",2017,1490,"10.1038/ncomms15867",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"28681844","PMC5504290","ut:000404837100001",NA,TRUE
@@ -68,7 +68,7 @@
 "GEOMAR",2018,4024,"10.1126/sciadv.aat9700",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"30324135","PMC6179378","ut:000449221200048",NA,TRUE
 "GEOMAR",2018,2231,"10.1002/2017gl076410",TRUE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276",NA,NA,"0094-8276","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000423431800047",NA,FALSE
 "GEOMAR",2018,3125,"10.1029/2018gb005905",TRUE,"American Geophysical Union (AGU)","Global Biogeochemical Cycles","0886-6236",NA,NA,"0886-6236","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000447281100009",NA,FALSE
-"GEOMAR",2018,3125,"10.1002/2017gc007100",TRUE,"American Geophysical Union (AGU)","Geochemistry, Geophysics, Geosystems","1525-2027",NA,NA,"1525-2027","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000425633500010",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "GEOMAR",2018,2231,"10.1002/2017gl076662",TRUE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276",NA,NA,"0094-8276","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000427564300026",NA,FALSE
 "GEOMAR",2018,3125,"10.1029/2018jc014264",TRUE,"American Geophysical Union (AGU)","Journal of Geophysical Research: Oceans","2169-9275",NA,NA,"2169-9275","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000453907000025",NA,FALSE
 "GEOMAR",2018,3125,"10.1029/2017jd028071",TRUE,"American Geophysical Union (AGU)","Journal of Geophysical Research: Atmospheres","2169-897X",NA,NA,"2169-897X","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000439508000018",NA,FALSE
@@ -132,7 +132,7 @@
 "GEOMAR",2018,1782,"10.3390/md16080270",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"30081558","PMC6117641","ut:000456736900022",NA,TRUE
 "GEOMAR",2018,1782,"10.3390/md16060187",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"29843452","PMC6025266","ut:000436499000012",NA,TRUE
 "GEOMAR",2018,1305,"10.1038/sdata.2018.181",FALSE,"Springer Nature","Scientific Data","2052-4463",NA,"2052-4463","2052-4463",NA,TRUE,"30152813","PMC6111891","ut:000442994200001",NA,TRUE
-"GEOMAR",2018,1490,"10.1038/s41598-018-19472-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29352137","PMC5775377","ut:000422891000113",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "GEOMAR",2018,1490,"10.1038/s41598-018-22595-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"29535401","PMC5849666","ut:000427242600018",NA,TRUE
 "GEOMAR",2018,1490,"10.1038/s41598-018-34330-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30382170","PMC6208332","ut:000448813200002",NA,TRUE
 "GEOMAR",2018,1490,"10.1038/s41598-018-20904-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"29416079","PMC5803197","ut:000424318700041",NA,TRUE
