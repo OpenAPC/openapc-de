@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 79,001 open access journal articles, amounting to € 153,716,396 and contributed by 239 institutions.
+At the moment this project provides cost data on 79,003 open access journal articles, amounting to € 153,710,810 and contributed by 239 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -327,9 +327,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
-This dataset contains information on 79,001 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 239 research performing institutions and research funders. 
+This dataset contains information on 79,003 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 239 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 153,716,396. The average payment was € 1,946  and the median was € 1,745.
+In total, publication fee spending covered by the Open APC initiative amounted to € 153,710,810. The average payment was € 1,946  and the median was € 1,745.
 
 View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -343,7 +343,7 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 
 
 
-46,660 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 72,726,321, including value-added tax; the average payment was € 1,559 (median =  € 1,476, SD = € 755).
+46,662 articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € 72,720,734, including value-added tax; the average payment was € 1,558 (median =  € 1,476, SD = € 754).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -357,7 +357,7 @@ The following table summarises institutional spending on articles published in f
 |Wellcome Trust                                                  |    1,402|             2,629,403|   1,875 (917)|  1,662|      240 -  5,486|
 |FWF - Austrian Science Fund                                     |    1,393|             2,297,299|   1,649 (800)|  1,489|      100 -  5,412|
 |Goettingen U                                                    |    1,326|             1,953,026|   1,473 (599)|  1,468|      119 -  4,830|
-|TU Muenchen                                                     |    1,223|             1,662,035|   1,359 (457)|  1,479|      106 -  2,122|
+|TU Muenchen                                                     |    1,224|             1,663,430|   1,359 (457)|  1,479|      106 -  2,122|
 |Imperial College London                                         |      997|             1,911,344| 1,917 (1,025)|  1,624|      260 -  5,471|
 |INSERM                                                          |      932|             1,688,754|   1,812 (851)|  1,500|      200 -  4,650|
 |Erlangen Nuernberg U                                            |      919|             1,345,913|   1,465 (385)|  1,542|      113 -  2,286|
@@ -394,7 +394,7 @@ The following table summarises institutional spending on articles published in f
 |Cardiff University                                              |      310|               552,666|   1,783 (844)|  1,610|      204 -  5,219|
 |Bochum U                                                        |      305|               459,765|   1,507 (408)|  1,576|      100 -  2,648|
 |University of Newcastle                                         |      294|               595,458| 2,025 (1,006)|  1,717|      360 -  5,985|
-|University of Southampton                                       |      277|               513,582|   1,854 (824)|  1,598|      133 -  5,343|
+|University of Southampton                                       |      278|               515,110|   1,853 (823)|  1,595|      133 -  5,343|
 |TU Dresden                                                      |      275|               390,484|   1,420 (407)|  1,500|      200 -  2,193|
 |Stuttgart U                                                     |      272|               342,537|   1,259 (600)|  1,305|       91 -  3,320|
 |Leibniz-Fonds                                                   |      271|               435,042|   1,605 (606)|  1,572|       66 -  4,403|
@@ -424,7 +424,7 @@ The following table summarises institutional spending on articles published in f
 |University of Bergen                                            |      156|               242,308|   1,553 (499)|  1,549|      333 -  5,142|
 |University of Exeter                                            |      153|               287,837| 1,881 (1,061)|  1,531|      225 -  5,555|
 |Virginia Tech                                                   |      153|               165,423|   1,081 (472)|  1,216|      112 -  2,484|
-|GEOMAR                                                          |      152|               279,396| 1,838 (1,104)|  1,490|      342 -  9,454|
+|GEOMAR                                                          |      152|               270,887|   1,782 (915)|  1,490|      342 -  4,290|
 |Marburg U                                                       |      148|               240,888|   1,628 (439)|  1,673|      357 -  3,636|
 |UFZ                                                             |      146|               188,467|   1,291 (469)|  1,269|      180 -  2,349|
 |Rostock U                                                       |      140|               183,565|   1,311 (489)|  1,421|      117 -  2,010|
