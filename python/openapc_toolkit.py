@@ -1198,7 +1198,9 @@ def get_unified_journal_title(journal_full_title):
         "The Journal of Nutrition": "Journal of Nutrition",
         "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease",
         "The Journals of Gerontology: Series B": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
-        "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology"
+        "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
+        "CIRP Annals": "CIRP Annals - Manufacturing Technology",
+        "Environment and Planning A": "Environment and Planning A: Economy and Space"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
