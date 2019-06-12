@@ -1204,7 +1204,8 @@ def get_unified_journal_title(journal_full_title):
         "Mathematical Medicine and Biology: A Journal of the IMA": "Mathematical Medicine and Biology",
         "American Journal of Physiology-Cell Physiology": "American Journal of Physiology - Cell Physiology",
         "Geological Society of America Bulletin": "GSA Bulletin",
-        "Structural Health Monitoring: An International Journal": "Structural Health Monitoring"
+        "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
+        "Quarterly Journal of Experimental Psychology": "The Quarterly Journal of Experimental Psychology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
