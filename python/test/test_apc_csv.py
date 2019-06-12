@@ -125,7 +125,11 @@ JOURNAL_OWNER_CHANGED = {
     "1939-4551": ["Springer Nature", "Elsevier BV"], # World Allergy Organization Journal
     "1015-8987": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry
     "1421-9778": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry (electronic)
-    "2052-4986": ["Oxford University Press (OUP)", "Wiley-Blackwell"] # Transactions of the London Mathematical Society
+    "2052-4986": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Transactions of the London Mathematical Society
+    "2169-9097": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research JGR / E - Planets
+    "0048-6604": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Radio Science
+    "1747-0218": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology
+    "1747-0226": ["Informa UK Limited", "SAGE Publications"] # (The) Quarterly Journal of Experimental Psychology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs

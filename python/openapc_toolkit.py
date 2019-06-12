@@ -1196,7 +1196,16 @@ def get_unified_journal_title(journal_full_title):
         "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
         "American Journal of Physiology-Renal Physiology": "AJP: Renal Physiology",
         "The Journal of Nutrition": "Journal of Nutrition",
-        "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease"
+        "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease",
+        "The Journals of Gerontology: Series B": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+        "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
+        "CIRP Annals": "CIRP Annals - Manufacturing Technology",
+        "Environment and Planning A": "Environment and Planning A: Economy and Space",
+        "Mathematical Medicine and Biology: A Journal of the IMA": "Mathematical Medicine and Biology",
+        "American Journal of Physiology-Cell Physiology": "American Journal of Physiology - Cell Physiology",
+        "Geological Society of America Bulletin": "GSA Bulletin",
+        "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
+        "Quarterly Journal of Experimental Psychology": "The Quarterly Journal of Experimental Psychology"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
