@@ -1,12 +1,12 @@
-# Publikationskosten (brutto), finanziert durch den österreichischen Wissenschaftsfonds (FWF) #
+# Publikationskosten (brutto), finanziert durch den Ã¶sterreichischen Wissenschaftsfonds (FWF) #
 
-* APC-Kosten, die durch das Programm referierte Publikationen gefördert werden (https://www.fwf.ac.at/de/forschungsfoerderung/fwf-programme/referierte-publikationen/)
-* Daten aus den Jahren 2013 - 2018. Daten werden jeweils im Folgejahr zur Verfügung gestellt.
+* APC-Kosten, die durch das Programm referierte Publikationen gefÃ¶rdert werden (https://www.fwf.ac.at/de/forschungsfoerderung/fwf-programme/referierte-publikationen/)
+* Daten aus den Jahren 2013 - 2018. Daten werden jeweils im Folgejahr zur VerfÃ¼gung gestellt.
 
 * Nicht enthalten sind:
 * Publikationskosten, die von den AutorInnen selbst getragen wurden
-* Daten zu 0€-Artikel
-* ab 2018: Im November 2014 führte der FWF Price caps für Hybrid Open Access (EUR 1500) und für Gold Open Access (EUR 2500) ein. Diese Publikationen/Kosten sind nicht im Datensatz enthalten.  
+* Daten zu 0â‚¬-Artikel
+* ab 2018: Im November 2014 fÃ¼hrte der FWF Price caps fÃ¼r Hybrid Open Access (EUR 1500) und fÃ¼r Gold Open Access (EUR 2500) ein. Diese Publikationen/Kosten sind nicht im Datensatz enthalten.  
 
 
 * Weitere Information unter: https://www.fwf.ac.at/de/forschungsfoerderung/open-access-policy/ 
@@ -25,7 +25,7 @@
 
 * Not included:
 * APCs paid by individual authors
-* Data where value = 0€ 
+* Data where value = 0â‚¬
 * from 2018: In November 2014, the FWF introduced price caps for Hybrid Open Access (EUR 1500) and Gold Open Access (EUR 2500). These publications/costs are not included in the data set.  
 
 * Further information: https://www.fwf.ac.at/de/forschungsfoerderung/open-access-policy/ 
