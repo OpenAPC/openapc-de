@@ -380,6 +380,39 @@ p <- my_apc %>%
 
 ![](figure/boxplot_oa.png)
 
+```{r, echo=FALSE, results='asis', message = FALSE}
+
+oa_grouped <- my_apc %>%
+    filter(is_hybrid == FALSE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
+                       extra = c(
+                         min = "min(., na.rm = TRUE)",
+                         max = "max(., na.rm = TRUE)"
+                        )) %>%
+    ezmarkup('......[. - .]') %>%
+    select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'min - max')
+
+hyb_grouped <- my_apc %>%
+    filter(is_hybrid == TRUE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
+                       extra = c(
+                         min = "min(., na.rm = TRUE)",
+                         max = "max(., na.rm = TRUE)"
+                        )) %>%
+    ezmarkup('......[. - .]') %>%
+    select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'min - max')
+
+full_join(oa_grouped, hyb_grouped) %>%
+knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA min - max", "Hybrid Articles", "Hybrid mean", "Hybrid median", "Hybrid min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
+
+```
+
+
+
 ###  Fully Open Access Journals
 
 ```{r, echo=FALSE, cache = FALSE}
