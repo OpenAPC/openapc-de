@@ -20,6 +20,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 ```{r}
 require(dplyr)
+require(stringr)
 require(ggplot2)
 require(ezsummary)
 require(pander)
@@ -366,7 +367,8 @@ View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/
 ```{r, echo=FALSE}
 p <- my_apc %>%
   mutate(is_hybrid = ifelse(.$is_hybrid, "Hybrid OA journals", "Fully OA journals")) %>% 
-  ggplot(aes(factor(period), euro)) +
+  mutate(short_period = str_sub(period, 3 ,4)) %>%
+  ggplot(aes(factor(short_period), euro)) +
   geom_boxplot(outlier.size = 0.5) +
   xlab("Year") +
   ylab("Publication fee paid in Euro") +
