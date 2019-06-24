@@ -393,6 +393,12 @@ oa_grouped <- my_apc %>%
                          min = "min(., na.rm = TRUE)",
                          max = "max(., na.rm = TRUE)"
                         )) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=",")
+          ) %>%
     ezmarkup('......[. - .]') %>%
     select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'min - max')
 
@@ -405,6 +411,12 @@ hyb_grouped <- my_apc %>%
                          min = "min(., na.rm = TRUE)",
                          max = "max(., na.rm = TRUE)"
                         )) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=",")
+          ) %>%
     ezmarkup('......[. - .]') %>%
     select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'min - max')
 
