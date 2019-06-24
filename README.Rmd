@@ -20,6 +20,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 ```{r}
 require(dplyr)
+require(stringr)
 require(ggplot2)
 require(ezsummary)
 require(pander)
@@ -33,7 +34,7 @@ my_apc <- readr::read_csv("data/apc_de.csv")
 
 The aim of this repository is:
 
-- to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
+- to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
 At the moment this project provides cost data on `r nrow(my_apc)` open access journal articles, amounting to € `r sum(my_apc$euro)` and contributed by `r length(unique(my_apc$institution))` institutions.
@@ -353,20 +354,23 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [OpenAIRE](https://www.openaire.eu/fp7-oapilot) (FP7 Post-Grant Open Access Pilot)
 
-## Dataset
+## Data set
 
-This dataset contains information on `r nrow(my_apc)` open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by `r length(unique(my_apc$institution))` research performing institutions and research funders. 
+*Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
+
+This data set contains information on `r nrow(my_apc)` open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by `r length(unique(my_apc$institution))` research performing institutions and research funders. 
 
 In total, publication fee spending covered by the Open APC initiative amounted to € `r sum(my_apc$euro)`. The average payment was € `r mean(my_apc$euro)`  and the median was € `r median(my_apc$euro)`.
 
-View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
+View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
 ### Spending distribution over fully and hybrid open access journals
 
 ```{r, echo=FALSE}
 p <- my_apc %>%
   mutate(is_hybrid = ifelse(.$is_hybrid, "Hybrid OA journals", "Fully OA journals")) %>% 
-  ggplot(aes(factor(period), euro)) +
+  mutate(short_period = str_sub(period, 3 ,4)) %>%
+  ggplot(aes(factor(short_period), euro)) +
   geom_boxplot(outlier.size = 0.5) +
   xlab("Year") +
   ylab("Publication fee paid in Euro") +
@@ -378,6 +382,51 @@ p <- my_apc %>%
 
 ![](figure/boxplot_oa.png)
 
+```{r, echo=FALSE, results='asis', message = FALSE}
+
+oa_grouped <- my_apc %>%
+    filter(is_hybrid == FALSE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
+                       extra = c(
+                         min = "min(., na.rm = TRUE)",
+                         max = "max(., na.rm = TRUE)"
+                        )) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=",")
+          ) %>%
+    ezmarkup('......[. - .]') %>%
+    select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'min - max')
+
+hyb_grouped <- my_apc %>%
+    filter(is_hybrid == TRUE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
+                       extra = c(
+                         min = "min(., na.rm = TRUE)",
+                         max = "max(., na.rm = TRUE)"
+                        )) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=",")
+          ) %>%
+    ezmarkup('......[. - .]') %>%
+    select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'min - max')
+
+full_join(oa_grouped, hyb_grouped) %>%
+knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA min - max", "Hybrid Articles", "Hybrid mean", "Hybrid median", "Hybrid min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
+
+```
+
+
+
 ###  Fully Open Access Journals
 
 ```{r, echo=FALSE, cache = FALSE}
@@ -386,7 +435,7 @@ my_apc <- readr::read_csv("data/apc_de.csv") %>%
   dplyr::filter(is_hybrid == FALSE)
 ```
 
-`r nrow(my_apc)` articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € `r sum(my_apc$euro)`, including value-added tax; the average payment was € `r mean(my_apc$euro)` (median =  € `r median(my_apc$euro)`, SD = € `r sd(my_apc$euro)`).
+`r nrow(my_apc)` articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € `r sum(my_apc$euro)`, including value-added tax; the average payment was € `r mean(my_apc$euro)` (median =  € `r median(my_apc$euro)`, SD = € `r sd(my_apc$euro)`).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -417,7 +466,7 @@ my_apc <- readr::read_csv("data/apc_de.csv") %>%
   dplyr::filter(is_hybrid == TRUE)
 ```
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers `r nrow(my_apc)` open access articles being published in hybrid journals. Total expenditure amounts to  `r sum(my_apc$euro)` €. Average  fee is `r format(sum(my_apc$euro)/nrow(my_apc))` € and the median `r median(my_apc$euro)` €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers `r nrow(my_apc)` open access articles being published in hybrid journals. Total expenditure amounts to  `r sum(my_apc$euro)` €. Average  fee is `r format(sum(my_apc$euro)/nrow(my_apc))` € and the median `r median(my_apc$euro)` €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -484,13 +533,13 @@ Indexing coverage
 
 ## License
 
-The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
+The data sets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 This work is licensed under the Creative Commons Attribution 4.0 Unported License.
 
 ## How to cite?
 
-When citing this dataset, please indicate the [release](https://github.com/OpenAPC/openapc-de/releases/) you are referring to. The releases also contain information on contributors relating to the respective release.
+When citing this data set, please indicate the [release](https://github.com/OpenAPC/openapc-de/releases/) you are referring to. The releases also contain information on contributors relating to the respective release.
 
 Please do not cite the master branch of the Github repository (https://github.com/OpenAPC/openapc-de/tree/master/), but use the release numbers/tags.
 
