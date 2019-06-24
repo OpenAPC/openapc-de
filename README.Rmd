@@ -356,6 +356,8 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 ## Dataset
 
+*Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
+
 This dataset contains information on `r nrow(my_apc)` open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by `r length(unique(my_apc$institution))` research performing institutions and research funders. 
 
 In total, publication fee spending covered by the Open APC initiative amounted to € `r sum(my_apc$euro)`. The average payment was € `r mean(my_apc$euro)`  and the median was € `r median(my_apc$euro)`.
