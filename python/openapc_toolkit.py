@@ -1206,7 +1206,8 @@ def get_unified_journal_title(journal_full_title):
         "Geological Society of America Bulletin": "GSA Bulletin",
         "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
         "Quarterly Journal of Experimental Psychology": "The Quarterly Journal of Experimental Psychology",
-        "Aging and disease": "Aging and Disease"
+        "Aging and disease": "Aging and Disease",
+        "physica status solidi (RRL) – Rapid Research Letters": "physica status solidi (RRL) - Rapid Research Letters"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
