@@ -14,18 +14,21 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 28,784 articles, published at 199 institutions under 5 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 29,107 articles, published at 199 institutions under 8 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
 
-|Agreement                      | Articles|
-|:------------------------------|--------:|
-|Springer Compact               |    27160|
-|French EDP Sciences agreement  |     1300|
-|MPG RSC agreement              |      246|
-|MPG Taylor & Francis agreement |       46|
-|MPG IOP agreement              |       32|
+|Agreement                                    | Articles|
+|:--------------------------------------------|--------:|
+|Springer Compact                             |    27160|
+|French EDP Sciences agreement                |     1300|
+|MPG RSC agreement                            |      246|
+|FWF Transformative Agreement Wiley-Blackwell |      188|
+|FWF Offsetting Agreement T&F                 |       89|
+|FWF Offsetting Agreement IOP                 |       46|
+|MPG Taylor & Francis agreement               |       46|
+|MPG IOP agreement                            |       32|
 
 ### Breakdown by institution
 
@@ -34,6 +37,7 @@ This dataset contains information on 28,784 articles, published at 199 instituti
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |French institutions                                                                                                                                |     1300|
 |MPG                                                                                                                                                |      946|
+|FWF - Austrian Science Fund                                                                                                                        |      855|
 |University College London                                                                                                                          |      769|
 |University of Cambridge                                                                                                                            |      701|
 |University of Oxford                                                                                                                               |      641|
@@ -41,7 +45,6 @@ This dataset contains information on 28,784 articles, published at 199 instituti
 |Medical University of Vienna                                                                                                                       |      588|
 |Lund University                                                                                                                                    |      548|
 |University of Amsterdam                                                                                                                            |      542|
-|FWF - Austrian Science Fund                                                                                                                        |      532|
 |Utrecht University                                                                                                                                 |      527|
 |University of Groningen                                                                                                                            |      501|
 |King's College London                                                                                                                              |      486|
