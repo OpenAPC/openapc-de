@@ -173,7 +173,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2412-8260", # Journal für Mineralstoffwechsel & Muskuloskelettale Erkrankungen, hybrid since 4/2017 (erroneously listed in the DOAJ)
     "1553-040X", # Geosphere, Gold OA since 01/2018
     "1366-9516", # Diversity and Distributions, Gold OA since 2019
-    "1438-387X" # Helgoland Marine Research, Gold OA since 2016
+    "1438-387X", # Helgoland Marine Research, Gold OA since 2016
+    "1933-6950" # Channels
 ]
 
 class RowObject(object):
