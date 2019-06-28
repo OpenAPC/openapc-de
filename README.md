@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 81,304 open access journal articles, amounting to € 158,204,363 and contributed by 241 institutions.
+At the moment this project provides cost data on 81,306 open access journal articles, amounting to € 158,212,503 and contributed by 241 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -334,9 +334,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 81,304 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 241 research performing institutions and research funders. 
+This data set contains information on 81,306 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 241 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 158,204,363. The average payment was € 1,946  and the median was € 1,752.
+In total, publication fee spending covered by the Open APC initiative amounted to € 158,212,503. The average payment was € 1,946  and the median was € 1,752.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -359,7 +359,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2012   |       1,496|   1,172|     1,180|  69 -  4,498|              17|       2,277|         2,376|      997 - 2,630|
 |2013   |       2,315|   1,230|     1,186|  50 -  4,574|           1,096|       2,256|         2,260|      120 - 4,679|
 |2014   |       5,009|   1,379|     1,260|  40 -  9,028|           6,506|       2,239|         2,200|      132 - 6,000|
-|2015   |       8,203|   1,524|     1,453|  60 -  5,669|           6,679|       2,610|         2,622|      100 - 8,636|
+|2015   |       8,205|   1,525|     1,453|  60 -  5,669|           6,679|       2,610|         2,622|      100 - 8,636|
 |2016   |       9,323|   1,640|     1,534|  63 -  5,985|           7,751|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,007|   1,727|     1,561|  26 -  6,250|           9,720|       2,518|         2,447|       37 - 9,858|
 |2018   |       5,933|   1,631|     1,623|  13 - 12,000|           2,203|       2,516|         2,529|       18 - 7,847|
@@ -371,7 +371,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-47,300 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 73,852,731, including value-added tax; the average payment was € 1,561 (median =  € 1,478, SD = € 755).
+47,302 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 73,860,871, including value-added tax; the average payment was € 1,561 (median =  € 1,479, SD = € 755).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -479,8 +479,8 @@ The following table summarises institutional spending on articles published in f
 |Dortmund TU                                                          |       82|               102,584|   1,251 (795)|  1,391|      107 -  4,403|
 |INRIA                                                                |       77|               118,761|   1,542 (645)|  1,538|      290 -  3,700|
 |MLU Halle-Wittenberg                                                 |       77|               143,472|   1,863 (789)|  1,713|      405 -  4,582|
+|Commissariat à l'énergie atomique et aux énergies alternatives (CEA) |       75|               135,506|   1,807 (820)|  1,538|      300 -  4,440|
 |University of Warwick                                                |       74|               146,885| 1,985 (1,410)|  1,639|      442 -  9,028|
-|Commissariat à l'énergie atomique et aux énergies alternatives (CEA) |       73|               127,366|   1,745 (736)|  1,500|      300 -  3,700|
 |Université de Bordeaux                                               |       71|               105,784|   1,490 (593)|  1,347|      433 -  3,700|
 |University of Nottingham                                             |       68|               124,918|   1,837 (798)|  1,626|      803 -  5,319|
 |Hamburg TUHH                                                         |       66|                93,538|   1,417 (486)|  1,498|      257 -  2,225|
