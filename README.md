@@ -192,6 +192,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Bourgogne
 - Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
 - Centre national de la recherche scientifique (CNRS)
+- Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - Hospices Civils de Lyon
@@ -211,7 +212,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Clermont Auvergne
 - Université Technologique de Compiègne
 - Université Evry Val-d'Essonne
-- Université de France-Comté
+- Université de Franche-Comté
 - Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
