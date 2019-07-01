@@ -21,27 +21,34 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 
 |Year|EUR|CHF|
 |--|--|--|
-|2009|1|1.51007|
-|2010|1|1.38053|
-|2011|1|1.23355|
-|2012|1|1.20531|
-|2013|1|1.23080|
-|2014|1|1.21463|
-|2015|1|1.06811|
-|2016|1|1.09009|
-|2017|1|1.11157|
-|2018|1|1.15487|
+|2009|1|1.51007||
+|2010|1|1.38053||
+|2011|1|1.23355||
+|2012|1|1.20531||
+|2013|1|1.23080||
+|2014|1|1.21463||
+|2015|1|1.06811||
+|2016|1|1.09009||
+|2017|1|1.11157||
+|2018|1|1.15487||
+|2019|1|1.12941|[Average Jan-Juni 2019](https://data.snb.ch/de/topics/ziredev#!/cube/devkum?fromDate=2019-01&toDate=2019-07&dimSel=D0(M0),D1(EUR1)|
  
 ## Co-Funding
 
 From 2013.10-2018.03 there existed an upper limit of 3000 CHF for APCs. In cases of higher APCs the SNSF usually covered 3000 CHF and the remaining payment was rejected to the author and/or financial department of the University. The APCs of the following publications have not been paid completely by the SNSF.
 
-See [list of publication with co-funding](snsf_apc_cofunding.csv) in the snsf data folder
+See [list of publication with co-funding](snsf_apc_cofunding.csv) in the snsf data folder.
 
 
 ## Hybrid
 
 The SNSF does not support Hybrid  OA due to the issue of double dipping. Accidentally some Hybrid-OA charges have slipped trough the internal checking procedure. For the matter of transparence these Hybrid OA Charges are included here.
+
+## Related Grants
+
+In the [initial uploaded list](snsf_openapc.csv) before the enrichment by OpenAPC, there's also a column "related_snsf_grant". In cases where the APC was part of the project funding, this project is mentioned. For the new funding scheme decicated to APC's (starting in Oct 2018), the related grant(s) are selected by the author to indicate the relation.
+
+A daily updated list of all SNSF project is available here: http://p3.snf.ch/Pages/DataAndDocumentation.aspx
 
 
 ## Contact
@@ -52,5 +59,3 @@ Swiss National Science Foundation (SNSF)
 Wildhainweg 3, Postfach 8232, CH-3001 Bern
 Phone: +41 31 308 24 52
 cosi@snf.ch
-
-
