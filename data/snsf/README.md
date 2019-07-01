@@ -19,8 +19,8 @@
 
 Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAPC all amounts in CHF were converted to EUR. For the conversion, the annual average exchange rate available from the [Swiss National Bank](https://data.snb.ch/de/topics/ziredev#!/cube/devkua?fromDate=2010&toDate=2018&dimSel=D1(EUR1))) was used:
 
-|Year|EUR|CHF|
-|--|--|--|
+|Year|EUR|CHF|Remark|
+|--|--|--|--|
 |2009|1|1.51007||
 |2010|1|1.38053||
 |2011|1|1.23355||
@@ -31,8 +31,8 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 |2016|1|1.09009||
 |2017|1|1.11157||
 |2018|1|1.15487||
-|2019|1|1.12941|[Average Jan-Juni 2019](https://data.snb.ch/de/topics/ziredev#!/cube/devkum?fromDate=2019-01&toDate=2019-07&dimSel=D0(M0),D1(EUR1)|
- 
+|2019|1|1.12941|[Average Jan-Juni 2019](https://data.snb.ch/de/topics/ziredev#!/cube/devkum?fromDate=2019-01&toDate=2019-07&dimSel=D0(M0),D1(EUR1)| 
+
 ## Co-Funding
 
 From 2013.10-2018.03 there existed an upper limit of 3000 CHF for APCs. In cases of higher APCs the SNSF usually covered 3000 CHF and the remaining payment was rejected to the author and/or financial department of the University. The APCs of the following publications have not been paid completely by the SNSF.
