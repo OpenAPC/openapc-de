@@ -31,7 +31,7 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 |2016|1|1.09009||
 |2017|1|1.11157||
 |2018|1|1.15487||
-|2019|1|1.12941|[Average Jan-Juni 2019](https://data.snb.ch/de/topics/ziredev#!/cube/devkum?fromDate=2019-01&toDate=2019-07&dimSel=D0(M0),D1(EUR1)| 
+|2019|1|1.12941|[Average Jan-Juni 2019](https://data.snb.ch/de/topics/ziredev#!/cube/devkum?fromDate=2019-01&toDate=2019-07&dimSel=D0(M0),D1(EUR1))| 
 
 ## Co-Funding
 
