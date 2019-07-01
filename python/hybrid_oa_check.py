@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -8,7 +8,9 @@ import re
 from socket import error as socket_error
 import sys
 import time
-import urllib2
+from urllib.error import HTTPError, URLError
+from urllib.parse import unquote
+from urllib.request import build_opener, Request, HTTPCookieProcessor
 
 import openapc_toolkit as oat
 
@@ -40,9 +42,11 @@ class LandingPageLookup(object):
                       must produce a match for all of its expressions to
                       confirm OA status.
         publisher_aliases: An optional list of aliases, if the same publisher
-                           has different designations in the input file
+                           has different designations in the input file.
+        nonstandard_redirects: An optional list of NonstandardRedirect objects.
     """
-    def __init__(self, publisher_name, landingpage_domain, regex_groups, publisher_aliases=None):
+    def __init__(self, publisher_name, landingpage_domain, regex_groups, 
+                 publisher_aliases=None, nonstandard_redirects=None):
         self.publisher_name = publisher_name
         self.landingpage_domain = landingpage_domain
         self.regex_groups = regex_groups
@@ -50,6 +54,10 @@ class LandingPageLookup(object):
             self.publisher_aliases = []
         else:
             self.publisher_aliases = publisher_aliases
+        if nonstandard_redirects is None:
+            self.nonstandard_redirects = []
+        else:
+            self.nonstandard_redirects = nonstandard_redirects
 
     def publisher_matches(self, publisher):
         return publisher == self.publisher_name or publisher in self.publisher_aliases
@@ -61,16 +69,53 @@ class LandingPageLookup(object):
                 continue
             return link
         return None
+    
+    def get_next_redirect(self, response):
+        url = response.geturl()
+        for nsd in self.nonstandard_redirects:
+            if nsd.redirect_domain in url:
+                content = response.read().decode("utf-8")
+                return nsd.extract_target(content)
+        return None
+        
+class NonstandardRedirect(object):
+    """
+    Handles non-HTTP redirects.
+    
+    Some DOI resolve paths involve redirects which are
+    dependent on web browsers, like java script code or usage of a 
+    http-equiv="refresh" meta tag with additional url content (as seen on
+    linkinghub.elsevier.com). This class is meant to handle those cases.
+    
+    Attributes:
+        redirect_domain: Domain of the redirection service. URLs are matched
+                         against this pattern to determine if this
+                         NonstandardRedirect should be applied.
+        regex_group: A RegexGroup to extract the next redirection target from
+                     the page content.
+    """
+    
+    def __init__(self, redirect_domain, regex_group):
+        self.redirect_domain = redirect_domain
+        self.regex_group = regex_group
+        
+    def extract_target(self, content):
+        link = self.regex_group.search(content)
+        if link is not None:
+            return unquote(link)
+        return None
+    
+        
 
 class RegexGroup(object):
     """
-    A simple container class for grouping regular expressions objects.
+    A container class for grouping regular expressions objects.
 
     Instances of this class are created with an arbitrary number of
     pre-compiled regular expressions objects. Its purpose is to bundle
-    a set of expressions which must all match to confirm the OA status
+    a set of expressions which must all match to confirm the validity
     of a landing page. Exactly one of the regexes should
-    contain a group which matches the link target of the article PDF.
+    contain a group which matches a link target.
     """
     def __init__(self, *args):
         self.regexes = []
@@ -90,52 +135,57 @@ class RegexGroup(object):
 
 
 elsevier_regex_groups = [
-    # landing pages with a single pdf file
-    RegexGroup(re.compile('<a id="pdfLink".*?pdfurl="(.*?)"')),
-    # pages with more than one pdf. Note that this snippet is located
-    # in a commented section (it is transformed via js dynamically), so the href
-    # link might not be initially valid (ampersand escaping etc)
-    RegexGroup(re.compile('<a class="download-pdf-link".*?href="(.*?)"'))
+    RegexGroup(re.compile('<meta\s+name="citation_pdf_url"\s+content="(.*?)"\s*/>'),
+               re.compile('<div class="OpenAccessLabel">open access</div>'))
 ]
+
+elsevier_nsd = NonstandardRedirect("linkinghub.elsevier.com", RegexGroup(re.compile('<input\s+type="hidden"\s+name="redirectURL"\s+value="(.*?)"')))
 
 springer_regex_groups = [
     RegexGroup(re.compile('<a href="(.*?)".*?title="Download this article in PDF format"'),
-               re.compile('<span.*?class="open-access"'))
+               re.compile('<span.*?class="open-access'))
 ]
 
 wiley_regex_groups = [
-    RegexGroup(re.compile('<li class="box-actions"><a href="(.*?)" class="js-article-section__pdf-container-link article-section__pdf-container-link"')),
-    RegexGroup(re.compile('<span class="article-type article-type--open-access">.*?Open Access.*?</span>'))
+    RegexGroup(re.compile('<meta\s+name="citation_pdf_url"\s+content="(.*?)"')),
+    RegexGroup(re.compile('<div\s+class="doi-access.*?>Open Access</div>'))
 ]
 
-elsevier = LandingPageLookup("Elsevier BV", "sciencedirect.com", elsevier_regex_groups)
-springer = LandingPageLookup("Springer Nature", "link.springer.com", springer_regex_groups, ["Springer Science + Business Media"])
+elsevier = LandingPageLookup("Elsevier BV", "sciencedirect.com", elsevier_regex_groups, nonstandard_redirects=[elsevier_nsd])
+springer = LandingPageLookup("Springer Nature", "link.springer.com", springer_regex_groups, publisher_aliases=["Springer Science + Business Media"])
 wiley = LandingPageLookup("Wiley-Blackwell", "onlinelibrary.wiley.com", wiley_regex_groups)
 
 lpl_list = [elsevier, springer, wiley]
 
 def get_landingpage_content(doi, lpl):
-    url = 'http://doi.org/' + doi
-    header = {"User-Agent": "Mozilla/5.0 Firefox/45.0"}
-    req = urllib2.Request(url, None, header)
+    url = 'https://doi.org/' + doi
+    # Some publisher LPs require us to put on our magic hood
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0"}
+    req = Request(url, headers=headers)
+    opener = build_opener(HTTPCookieProcessor())
     try:
-        response = urllib2.urlopen(req)
+        response = opener.open(req)
         target = response.geturl()
-        resolve_msg = u"DOI {} resolved, led us to {}".format(doi, target)
-        if lpl.landingpage_domain not in target:
-            oat.print_y(resolve_msg)
-            landingpage_msg = (u"Journal not located at {}, " +
-                               "skipping...").format(lpl.landingpage_domain)
-            oat.print_y(landingpage_msg)
-            return None
-        oat.print_b(resolve_msg)
-        content_string = response.read()
+        resolve_msg = "DOI {} resolved, led us to {}".format(doi, target)
+        oat.print_y(resolve_msg)
+        while lpl.landingpage_domain not in target:
+            target = lpl.get_next_redirect(response)
+            if target is None:
+                msg = "Journal not located at {}, skipping..."
+                oat.print_r(msg.format(lpl.landingpage_domain))
+                return None
+            req = Request(target, headers=headers)
+            response = opener.open(req)
+            target = response.geturl()
+            redir_msg = "Non-standard redirect found, led us to {}"
+            oat.print_y(redir_msg.format(target))
+        content_string = response.read().decode("utf-8")
         return content_string
-    except urllib2.HTTPError as httpe:
+    except HTTPError as httpe:
         code = str(httpe.getcode())
         oat.print_r("HTTPError: {} - {}".format(code, httpe.reason))
         return None
-    except urllib2.URLError as urle:
+    except URLError as urle:
         oat.print_r("URLError: {}".format(urle.reason))
         return None
     except socket_error as se:
@@ -162,9 +212,8 @@ def main():
     if args.encoding:
         try:
             codec = codecs.lookup(args.encoding)
-            msg = ("Encoding '{}' found in Python's codec collection " +
-                   "as '{}'").format(args.encoding, codec.name)
-            oat.print_g(msg)
+            msg = "Encoding '{}' found in Python's codec collection as '{}'"
+            oat.print_g(msg.format(args.encoding, codec.name))
             enc = args.encoding
         except LookupError:
             msg = ("Error: '" + args.encoding + "' not found Python's " +
@@ -216,9 +265,9 @@ def main():
         time.sleep(1)
 
     if not bufferedHandler.buffer:
-        oat.print_g("\nLookup finished, all articles were accessible on sciencedirect")
+        oat.print_g("\nLookup finished, all articles were accessible")
     else:
-        oat.print_r("\nLookup finished, not all articles could be accessed on sciencedirect:\n")
+        oat.print_r("\nLookup finished, not all articles could be accessed:\n")
     # closing will implicitly flush the handler and print any buffered
     # messages to stderr
     bufferedHandler.close()

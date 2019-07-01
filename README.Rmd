@@ -1,4 +1,4 @@
-
+﻿
 ```{r, echo = FALSE, warning = TRUE}
 
 knitr::opts_knit$set(base.url = "/")
@@ -20,6 +20,7 @@ knitr::knit_hooks$set(inline = function(x) {
 
 ```{r}
 require(dplyr)
+require(stringr)
 require(ggplot2)
 require(ezsummary)
 require(pander)
@@ -33,7 +34,7 @@ my_apc <- readr::read_csv("data/apc_de.csv")
 
 The aim of this repository is:
 
-- to release datasets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
+- to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
 At the moment this project provides cost data on `r nrow(my_apc)` open access journal articles, amounting to € `r sum(my_apc$euro)` and contributed by `r length(unique(my_apc$institution))` institutions.
@@ -51,38 +52,52 @@ So far, the following German universities have agreed to share information on pa
 
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
+- [Charité - Universitätsmedizin Berlin](https://bibliothek.charite.de/publizieren/open_access)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
 - [Freie Universität Berlin](http://www.fu-berlin.de/sites/open_access/finanzierung/publikationsfonds/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
+- [Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
+- [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
-- [Leipzig University](https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch/open-access-publikationsfonds/)
+- [Leipzig University](https://www.ub.uni-leipzig.de/open-science/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
+- [Martin-Luther-Universität Halle-Wittenberg](http://bibliothek.uni-halle.de/dbib/openaccess/publikationsfonds/)
+- [Philipps-Universität Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/publikationsfonds)
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
 - [JGU Mainz](https://www.openaccess.uni-mainz.de/publikationsfonds-der-jgu/)
-- [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oajlu-en?set_language=en)
+- [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
+- [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
+- [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
+- [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en)
-- [Technische Universität Dortmund](http://www.ub.tu-dortmund.de/open-access/index.html)
-- [Technische Universität Dresden](http://www.slub-dresden.de/service/schreiben-publizieren/open-access-service/publikationsfonds/)
-- [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ub/service/open-access/oa-publikationsfonds/)
+- [Technische Universität Darmstadt](https://www.ulb.tu-darmstadt.de/service/elektronisches_publizieren/oa_publikationsfond/index.en.jsp)
+- [Technische Universität Dortmund](https://www.ub.tu-dortmund.de/open-access/index.html.en)
+- [Technische Universität Dresden](https://www.slub-dresden.de/service/open-science-service/open-access/publikationsfonds/)
+- [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ilmedia/open-access/oa-publikationsfonds/)
 - [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
-- [University of Duisburg-Essen](https://www.uni-due.de/ub/en/openaccess_foerderung.shtml)
-- [University of Freiburg](https://www.ub.uni-freiburg.de/unterstuetzung/elektronisch-publizieren/open-access/publikationsfonds/)
+- [University of Duisburg-Essen](https://www.uni-due.de/ub/publikationsdienste/oa_foerderung.php)
+- [University of Freiburg](https://www.ub.uni-freiburg.de/en/support/electronic-publishing/open-access/open-access-publication-fund/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
+- [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/finanzierung-von-publikationen/publication-fund/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
-- [University of Konstanz](https://www.kim.uni-konstanz.de/en/services/scholarly-publishing-and-open-access/open-access-publication-funds/)
-- [University of Oldenburg](http://www.bis.uni-oldenburg.de/en/teachingresearchingpublishing/publishing/openaccesspublishing/open-access-publication-fund/)
+- [University of Konstanz](https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/open-access-publication-fund/)
+- [University of Oldenburg](https://uol.de/en/bis/teachingresearchingpublishing/open-access/open-access-publication-fund/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
-- [University of Tübingen](https://www.uni-tuebingen.de/en/facilities/university-library/researching-publishing/open-access-publikationsfonds.html)
+- [University of Rostock](https://www.ub.uni-rostock.de/en/support-for-researchers/open-access/open-access-publizieren/)
+- [University of Stuttgart](https://oa.uni-stuttgart.de/publizieren/fonds/)
+- [University of Trier](https://www.uni-trier.de/index.php?id=60802)
+- [University of Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/open-access/open-access-publikationsfonds/)
 - [University of Veterinary Medicine Hannover, Foundation (TiHo)](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
-- [University of Würzburg](http://www.bibliothek.uni-wuerzburg.de/en/service0/electronic_publishing/open_access/open_access_journals/)
-- [Ulm University](https://www.uni-ulm.de/index.php?id=57202)
+- [University of Würzburg](https://www.bibliothek.uni-wuerzburg.de/en/research-publishing/open-access/publication-fund/)
+- [Ulm University](https://www.uni-ulm.de/en/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/oap/open-access/)
 
 ## Participating Research Society Funds in Germany
 
@@ -94,24 +109,38 @@ Participating Research Organizations:
 
 The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
-- [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html)
+- [Fraunhofer Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html)
+- [Forschungszentrum Jülich](https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html)
+- [GEOMAR - Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/centre/central-facilities/library/)
+- [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
-- [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?de=33573)
-- [INM - Leibniz Institute for New Materials](http://bibliothek.inm-gmbh.de/publizieren/publikationsgebuhren/)
+- [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?en=36297)
+- [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/en/library)
+- [INM - Leibniz Institute for New Materials](https://www.ntnm-bib.de/research-publish/oa-finanzieren/?lang=en)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
-- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/library-wissenschaftspark-albert-einstein/)
-- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/1161876/de/about_the_mdc/structure/administration/library)
-- [Technische Informatonsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
+- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/) (provides APC data for the [GFZ](https://www.gfz-potsdam.de/en/home/) and the [PIK](https://www.pik-potsdam.de))
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
+- [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
+- [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
+
+## Other German Research Institutions
+
+- [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
 
 ## Participating Austrian Institutions
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
-- [Institute of Science and Technology Austria](https://ist.ac.at/open-access/open-access-policy/)
+- [Institute of Science and Technology Austria](https://ist.ac.at/en/research/library/publish-communicate/)
 - [Technische Universität Wien](http://www.ub.tuwien.ac.at/eng/openaccess)
+
+## Participating Swiss Institutions
+
+- [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 
 ## Participating Italian Institutions
 
+- [Free University of Bozen-Bolzano](https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/)
 - [Università degli Studi di Milano](http://www.unimi.it/ENG/)
 
 ## Institutions from Norway:
@@ -152,23 +181,79 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 ## Participating Spanish Institutions:
 
-- [Universitat de Barcelona](http://www.ub.edu/web/ub/en/index.html)
+- [Universitat de Barcelona](http://crai.ub.edu/en/crai-services/open-access-ub)
 
 ## Institutions from Sweden (via [Open APC Sweden](https://github.com/Kungbib/openapc-se)):
 
 - Chalmers University of Technology
 - Dalarna University College
+- University of Gothenburg
+- Borås University College
+- University College West
 - Karolinska Institutet
 - KTH Royal Institute of Technology
 - Linköping University
+- Linnaeus University
 - Luleå University of Technology
 - Lund University
-- Malmö University College
-- Stockholm University
+- Malmö University
+- Örebro University
 - Swedish University of Agricultural Sciences
+- Stockholm University
 - Umeå University
-- University of Gothenburg
 - Uppsala University
+
+## Institutions from Finland:
+
+- [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
+
+## Institutions from France
+
+The [Couperin consortium](https://couperin.org) aggregates data on APC expenditures made by institutions in France:
+
+- Aix-Marseille Université
+- Université d'Angers
+- Université de Bordeaux
+- Université de Bourgogne
+- Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
+- Centre national de la recherche scientifique (CNRS)
+- Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
+- Ecole normale supérieure de Paris
+- École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
+- Hospices Civils de Lyon
+- Université Grenoble Alpes
+- Institut de recherche pour le développement (IRD)
+- Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
+- Institut national de recherche en informatique et en automatique (INRIA)
+- Institut national de la recherche agronomique (INRA)
+- Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
+- Institut national de la santé et de la recherche médicale (INSERM)
+- Institut national polytechnique de Toulouse (INPT)
+- MINES ParisTech
+- Museum National d'Histoire Naturelle
+- Université d'Avignon et des Pays de Vaucluse
+- Université de Caen Normandie
+- Université Claude Bernard Lyon 1
+- Université Clermont Auvergne
+- Université Technologique de Compiègne
+- Université Evry Val-d'Essonne
+- Université de Franche-Comté
+- Université de La Rochelle
+- Université Lille 1
+- Université Lille 2
+- Université de Montpellier
+- Université de Lorraine
+- Université de Nantes
+- Université Nice-Sophia-Antipolis
+- Université de Poitiers
+- Université de Rennes 1
+- Université de La Réunion
+- Université de Strasbourg
+- Université de Toulon
+- Université Toulouse III
+- Université Paris Descartes (Paris V)
+- Université Pierre et Marie Curie (Paris VI)
+- Université Paris Diderot (Paris VII)
 
 ## Participating Institutions from the United Kingdom:
 
@@ -180,13 +265,20 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Aberystwyth University
 - Aston University
 - Bangor University
+- Brunel University
 - Cardiff University
 - Cranfield University
+- Edinburgh Napier University
+- Glasgow Caledonian University
 - Goldsmiths
+- Heriot-Watt University
 - Imperial College London
 - Institute of Cancer Research (ICR)
 - Keele University
 - King's College London
+- Leeds Beckett University
+- Liverpool John Moores University
+- Liverpool School of Tropical Medicine
 - London School of Economics (LSE)
 - London School of Hygiene & Tropical Medicine (LSHTM)
 - Lancaster University
@@ -198,18 +290,23 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Royal Holloway
 - St George's, University of London
 - Swansea University
+- The Open University
 - University College London (UCL)
 - University of Aberdeen
 - University of Bath
 - University of Birmingham
 - University of Bristol
 - University of Cambridge
+- University of Dundee
 - University of Durham
+- University of East Anglia
 - University of Edinburgh
 - University of Exeter
 - University of Glasgow
 - University of Huddersfield
 - University of Hull
+- University of Kent
+- University of Leeds
 - University of Leicester
 - University of Liverpool
 - University of Loughborough
@@ -223,38 +320,58 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - University of Sheffield
 - University of Southampton
 - University of St Andrews
+- University of Strathclyde
 - University of Surrey
 - University of Sussex
+- University of the West of England
+- University of Ulster
 - University of Warwick
 - University of York
+
+## Participating Institutions from the Czech Republic (contributed by [CzechELib](https://www.czechelib.cz/en/)):
+
+- [University of Chemistry and Technology, Prague](https://www.chemtk.cz/en/)
+
+## Participating Institutions from Hungary
+
+- [University of Debrecen](https://unideb.hu/en)
 
 ## Participating Institutions from the United States:
 
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
+- [Indiana University - Purdue University Indianapolis (IUPUI)](http://www.ulib.iupui.edu/digitalscholarship/openaccess/oafund)
+- [University of Rhode Island](https://uri.libguides.com/oafund)
 - [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
 
 ## Participating Canadian Institutions:
 
 - [University of Calgary](http://library.ucalgary.ca/open-access-authors-fund)
 
+## Participating Institutions from Qatar:
+
+- [Qatar National Library](https://www.qnl.qa/en) 
+
 ## Supranational participants
 
-- [OpenAIRE](https://www.openaire.eu/postgrantoapilot) (FP7 Post-Grant Open Access Pilot)
+- [OpenAIRE](https://www.openaire.eu/fp7-oapilot) (FP7 Post-Grant Open Access Pilot)
 
-## Dataset
+## Data set
 
-This dataset contains information on `r nrow(my_apc)` open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by `r length(unique(my_apc$institution))` research performing institutions and research funders. 
+*Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
+
+This data set contains information on `r nrow(my_apc)` open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by `r length(unique(my_apc$institution))` research performing institutions and research funders. 
 
 In total, publication fee spending covered by the Open APC initiative amounted to € `r sum(my_apc$euro)`. The average payment was € `r mean(my_apc$euro)`  and the median was € `r median(my_apc$euro)`.
 
-View dataset on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
+View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
 ### Spending distribution over fully and hybrid open access journals
 
 ```{r, echo=FALSE}
 p <- my_apc %>%
   mutate(is_hybrid = ifelse(.$is_hybrid, "Hybrid OA journals", "Fully OA journals")) %>% 
-  ggplot(aes(factor(period), euro)) +
+  mutate(short_period = str_sub(period, 3 ,4)) %>%
+  ggplot(aes(factor(short_period), euro)) +
   geom_boxplot(outlier.size = 0.5) +
   xlab("Year") +
   ylab("Publication fee paid in Euro") +
@@ -266,6 +383,51 @@ p <- my_apc %>%
 
 ![](figure/boxplot_oa.png)
 
+```{r, echo=FALSE, results='asis', message = FALSE}
+
+oa_grouped <- my_apc %>%
+    filter(is_hybrid == FALSE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
+                       extra = c(
+                         min = "min(., na.rm = TRUE)",
+                         max = "max(., na.rm = TRUE)"
+                        )) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=",")
+          ) %>%
+    ezmarkup('......[. - .]') %>%
+    select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'min - max')
+
+hyb_grouped <- my_apc %>%
+    filter(is_hybrid == TRUE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
+                       extra = c(
+                         min = "min(., na.rm = TRUE)",
+                         max = "max(., na.rm = TRUE)"
+                        )) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=",")
+          ) %>%
+    ezmarkup('......[. - .]') %>%
+    select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'min - max')
+
+full_join(oa_grouped, hyb_grouped) %>%
+knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA min - max", "Hybrid Articles", "Hybrid mean", "Hybrid median", "Hybrid min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
+
+```
+
+
+
 ###  Fully Open Access Journals
 
 ```{r, echo=FALSE, cache = FALSE}
@@ -274,7 +436,7 @@ my_apc <- readr::read_csv("data/apc_de.csv") %>%
   dplyr::filter(is_hybrid == FALSE)
 ```
 
-`r nrow(my_apc)` articles in the dataset were published in fully open access journals. Total spending on publication fees for these articles amounts to € `r sum(my_apc$euro)`, including value-added tax; the average payment was € `r mean(my_apc$euro)` (median =  € `r median(my_apc$euro)`, SD = € `r sd(my_apc$euro)`).
+`r nrow(my_apc)` articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € `r sum(my_apc$euro)`, including value-added tax; the average payment was € `r mean(my_apc$euro)` (median =  € `r median(my_apc$euro)`, SD = € `r sd(my_apc$euro)`).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -305,7 +467,7 @@ my_apc <- readr::read_csv("data/apc_de.csv") %>%
   dplyr::filter(is_hybrid == TRUE)
 ```
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This dataset covers `r nrow(my_apc)` open access articles being published in hybrid journals. Total expenditure amounts to  `r sum(my_apc$euro)` €. Average  fee is `r format(sum(my_apc$euro)/nrow(my_apc))` € and the median `r median(my_apc$euro)` €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers `r nrow(my_apc)` open access articles being published in hybrid journals. Total expenditure amounts to  `r sum(my_apc$euro)` €. Average  fee is `r format(sum(my_apc$euro)/nrow(my_apc))` € and the median `r median(my_apc$euro)` €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -372,13 +534,13 @@ Indexing coverage
 
 ## License
 
-The datasets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
+The data sets are made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 This work is licensed under the Creative Commons Attribution 4.0 Unported License.
 
 ## How to cite?
 
-When citing this dataset, please indicate the [release](https://github.com/OpenAPC/openapc-de/releases/) you are referring to. The releases also contain information on contributors relating to the respective release.
+When citing this data set, please indicate the [release](https://github.com/OpenAPC/openapc-de/releases/) you are referring to. The releases also contain information on contributors relating to the respective release.
 
 Please do not cite the master branch of the Github repository (https://github.com/OpenAPC/openapc-de/tree/master/), but use the release numbers/tags.
 
@@ -392,7 +554,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Kim Braun, Christoph Broschinski, Dorothea Busjahn, Pablo de Castro, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Karin Eckert, Clemens Engelhardt, Inken Feldsien-Sudhaus, Fabian Franke, Claudia Frick, Agnes Geißelmann, Kai Karin Geschuhn, Uli Hahn, Kristina Hanig, Dominik Hell, Ulrich Herb, Ute Holzwarth, Christie Hurrell, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Andreas Kennecke, Robert Kiley, Stephanie Kroiss, Gerrit Kuehle, Ignasi Labastida i Juan, Stuart Lawson, Kathrin Lucht-Roussel, Frank Lützenkirchen, Anna Marini, Anja Oberländer, Vitali Peil, Dirk Pieper, Tobias Pohlmann, Markus Putnings, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Adriana Sikora, Matti Stöhr, Edith Reschke, Katharina Rieck, Florian Ruckelshausen, Ilka Rudolf, Marco Tullney, Astrid Vieler, Viola Voß, Marco Winkler, Sabine Witt, Philip Young
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Stephanie Kroiß, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Anja Oberländer, Jere Odell, Vitali Peil, Gabriele Pendorf, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young
 
 ## Contact
 

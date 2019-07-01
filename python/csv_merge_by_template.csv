@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import argparse
@@ -55,8 +55,8 @@ def main():
         if encoding:
             try:
                 codec = codecs.lookup(encoding)
-                print ("Encoding '{}' found in Python's codec collection " +
-                       "as '{}'").format(encoding, codec.name)
+                msg = "Encoding '{}' found in Python's codec collection as '{}'"
+                print(msg.format(encoding, codec.name))
             except LookupError:
                 print ("Error: '" + encoding + "' not found Python's " +
                        "codec collection. Either look for a valid name here " +
@@ -123,7 +123,7 @@ def main():
             oat.print_g(msg.format(i, old_value, new_value))
     oat.print_g(str(num_inserts) + " lines replaced.")
     
-    for key, value in merge_dict.iteritems():
+    for key, value in merge_dict.items():
         if value[1] == 0:
             oat.print_y("Warning: Key '" + key + "' did not occur in template file and wasn't mapped!")
         elif value[1] > 1:

@@ -1,93 +1,68 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 import csv
-import codecs
 from collections import OrderedDict
 import json
 import locale
 import logging
 from logging.handlers import MemoryHandler
 import re
-import ssl
 import sys
-import urllib2
+from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
+from urllib.error import HTTPError, URLError
 import xml.etree.ElementTree as ET
 
 try:
     import chardet
 except ImportError:
     chardet = None
-    print ("WARNING: 3rd party module 'chardet' not found - character " +
-           "encoding guessing will not work")
+    print("WARNING: 3rd party module 'chardet' not found - character " +
+          "encoding guessing will not work")
 
 # regex for detecing DOIs
-DOI_RE = re.compile("^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
+DOI_RE = re.compile(r"^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
 # regex for detecting shortDOIs
-SHORTDOI_RE = re.compile("^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", re.IGNORECASE)
+SHORTDOI_RE = re.compile(r"^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", re.IGNORECASE)
 
-ISSN_RE = re.compile("^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
+ISSN_RE = re.compile(r"^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
-# These classes were adopted from
-# https://docs.python.org/2/library/csv.html#examples
-class UTF8Recoder(object):
-    """
-    Iterator that reads an encoded stream and reencodes the input
-    to UTF-8
-    """
-    def __init__(self, f, encoding):
-        self.reader = codecs.getreader(encoding)(f)
+OAI_COLLECTION_CONTENT = OrderedDict([
+    ("institution", "intact:institution"),
+    ("period", "intact:period"),
+    ("euro", "intact:euro"),
+    ("doi", "intact:id_number[@type='doi']"),
+    ("is_hybrid", "intact:is_hybrid"),
+    ("publisher", "intact:publisher"),
+    ("journal_full_title", "intact:journal_full_title"),
+    ("issn", "intact:issn"),
+    ("license_ref", "intact:licence"),
+    ("pmid", "intact:id_number[@type='pubmed']"),
+    ("url", None),
+    ("local_id", "intact:id_number[@type='local']")
+])
 
-    def __iter__(self):
-        return self
-
-    def next(self):
-        return self.reader.next().encode("utf-8")
-
-class UnicodeReader(object):
-    """
-    A CSV reader which will iterate over lines in the CSV file "f",
-    which is encoded in the given encoding.
-    """
-
-    def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
-        f = UTF8Recoder(f, encoding)
-        self.reader = csv.reader(f, dialect=dialect, **kwds)
-
-    def next(self):
-        row = self.reader.next()
-        return [unicode(s, "utf-8") for s in row]
-
-    def __iter__(self):
-        return self
-
-class UnicodeDictReader(object):
-    """
-    A CSV reader which will iterate over lines in the CSV file "f",
-    which is encoded in the given encoding.
-    """
-
-    def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
-        f = UTF8Recoder(f, encoding)
-        self.reader = csv.DictReader(f, dialect=dialect, **kwds)
-
-    def next(self):
-        row = self.reader.next()
-        row_dict = {}
-        for (k, v) in row.iteritems():
-            try:
-                row_dict[unicode(k, "utf-8")] = unicode(v, "utf-8")
-            except TypeError:
-                msg = ("TypeError in UnicodeDictReader (line {}): Could not " +
-                       "coerce value in column '{}' to Unicode ({})")
-                print_r(msg.format(self.reader.line_num, k, v))
-                sys.exit()
-        return row_dict
-        #return {unicode(k, "utf-8"): unicode(v, "utf-8") for (k, v) in row.iteritems()}
-        
-
-    def __iter__(self):
-        return self
+# Do not quote the values in the 'period' and 'euro' columns
+OPENAPC_STANDARD_QUOTEMASK = [
+    True,
+    False,
+    False,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+]
 
 class OpenAPCUnicodeWriter(object):
     """
@@ -112,7 +87,7 @@ class OpenAPCUnicodeWriter(object):
                     of any quotemask.
         minimal_quotes: Quote values containing a comma even if a quotemask
                         is False for that column (Might produce a malformed
-                        csv file otherwise). 
+                        csv file otherwise).
     """
 
     def __init__(self, f, quotemask=None, openapc_quote_rules=True,
@@ -122,25 +97,23 @@ class OpenAPCUnicodeWriter(object):
         self.openapc_quote_rules = openapc_quote_rules
         self.has_header = has_header
         self.minimal_quotes = minimal_quotes
-        self.encoder = codecs.getincrementalencoder("utf-8")()
 
     def _prepare_row(self, row, use_quotemask):
         for index in range(len(row)):
-            if self.openapc_quote_rules and row[index] in [u"TRUE", u"FALSE", u"NA"]:
+            if self.openapc_quote_rules and row[index] in ["TRUE", "FALSE", "NA"]:
                 # Never quote these keywords
                 continue
             if not use_quotemask or not self.quotemask:
                 # Always quote without a quotemask
-                row[index] = u'"' + row[index] + u'"'
+                row[index] = '"' + row[index] + '"'
                 continue
             if index < len(self.quotemask):
-                if self.quotemask[index] or u"," in row[index] and self.minimal_quotes:
-                    row[index] = u'"' + row[index] + u'"'
+                if self.quotemask[index] or "," in row[index] and self.minimal_quotes:
+                    row[index] = '"' + row[index] + '"'
         return row
 
     def _write_row(self, row):
-        line = u",".join(row) + u"\n"
-        line = self.encoder.encode(line)
+        line = ",".join(row) + "\n"
         self.outfile.write(line)
 
     def write_rows(self, rows):
@@ -151,12 +124,15 @@ class OpenAPCUnicodeWriter(object):
 
 class DOAJOfflineAnalysis(object):
 
-    def __init__(self, doaj_csv_file):
+    def __init__(self, doaj_csv_file, download=False):
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
+        
+        if download:
+            doaj_csv_file = self.download_doaj_csv(doaj_csv_file)
 
         handle = open(doaj_csv_file, "r")
-        reader = UnicodeDictReader(handle)
+        reader = csv.DictReader(handle)
         for line in reader:
             journal_title = line["Journal title"]
             issn = line["Journal ISSN (print version)"]
@@ -171,9 +147,11 @@ class DOAJOfflineAnalysis(object):
             return self.doaj_issn_map[any_issn]
         elif any_issn in self.doaj_eissn_map:
             return self.doaj_eissn_map[any_issn]
-        else:
-            return None
-
+        return None
+        
+    def download_doaj_csv(self, filename):
+        result = urlretrieve("https://doaj.org/csv", filename)
+        return result[0]
 
 class CSVAnalysisResult(object):
 
@@ -225,6 +203,10 @@ class ANSIColorFormatter(logging.Formatter):
     """
     A simple logging formatter using ANSI codes to colorize messages
     """
+
+    def __init__(self):
+        super().__init__(fmt="%(levelname)s: %(message)s", datefmt=None, style="%")
+
     FORMATS = {
         logging.ERROR: "\033[91m%(levelname)s: %(message)s\033[0m",
         logging.WARNING: "\033[93m%(levelname)s: %(message)s\033[0m",
@@ -233,7 +215,7 @@ class ANSIColorFormatter(logging.Formatter):
     }
 
     def format(self, record):
-        self._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
+        self._style._fmt = self.FORMATS.get(record.levelno, self.FORMATS["DEFAULT"])
         return logging.Formatter.format(self, record)
 
 class BufferedErrorHandler(MemoryHandler):
@@ -250,11 +232,11 @@ class BufferedErrorHandler(MemoryHandler):
 
     def shouldFlush(self, record):
         return False
-        
-class NoRedirection(urllib2.HTTPErrorProcessor):
+
+class NoRedirection(HTTPErrorProcessor):
     """
     A dummy processor to suppress HTTP redirection.
-    
+
     This handler serves the simple purpose of stopping redirection for
     easy extraction of shortDOI redirect targets.
     """
@@ -274,7 +256,7 @@ def get_normalised_DOI(doi_string):
         # Extract redirect URL to obtain original DOI
         shortdoi = shortdoi_match.groupdict()["shortdoi"]
         url = "https://doi.org/" + shortdoi
-        opener = urllib2.build_opener(NoRedirection)
+        opener = build_opener(NoRedirection)
         try:
             res = opener.open(url)
             if res.code == 301:
@@ -283,7 +265,7 @@ def get_normalised_DOI(doi_string):
                     doi = doi_match.groupdict()["doi"]
                     return doi.lower()
             return None
-        except (urllib2.HTTPError, urllib2.URLError):
+        except (HTTPError, URLError):
             return None
     return None
 
@@ -315,75 +297,101 @@ def is_valid_ISSN(issn_string):
             return True
     return False
 
-
-def analyze_csv_file(file_path, line_limit=None):
+def analyze_csv_file(file_path, test_lines=1000, enc=None):
     try:
-        csv_file = open(file_path, "r")
+        csv_file = open(file_path, "rb")
     except IOError as ioe:
         error_msg = "Error: could not open file '{}': {}".format(file_path,
                                                                  ioe.strerror)
         return {"success": False, "error_msg": error_msg}
 
-    content = ""
-
+    guessed_enc = None
+    guessed_enc_confidence = None
     blanks = 0
-    lines_processed = 0
-    for line in csv_file:
-        if line.strip(): # omit blank lines
-            content += line
-            lines_processed += 1
-            if line_limit and lines_processed > line_limit:
-                break
-        else:
-            blanks += 1
-
     if chardet:
-        chardet_result = chardet.detect(content)
-        enc = chardet_result["encoding"]
-        enc_conf = chardet_result["confidence"]
+        byte_content = b"" # in python3 chardet operates on bytes
+        lines_processed = 0
+        for line in csv_file:
+            if line.strip(): # omit blank lines
+                lines_processed += 1
+                if lines_processed <= test_lines:
+                    byte_content += line
+            else:
+                blanks += 1
+        chardet_result = chardet.detect(byte_content)
+        guessed_enc = chardet_result["encoding"]
+        guessed_enc_confidence = chardet_result["confidence"]
+
+    csv_file.close()
+
+    if enc is not None:
+        used_encoding = enc
+    elif guessed_enc is not None:
+        used_encoding = guessed_enc
     else:
-        enc = None
-        enc_conf = None
+        used_encoding = locale.getpreferredencoding()
+
+    text_content = ""
+    with open(file_path, "r", encoding=used_encoding) as csv_file:
+        try:
+            lines_processed = 0
+            for line in csv_file:
+                if line.strip(): # omit blank lines
+                    lines_processed += 1
+                    text_content += line
+                    if lines_processed > test_lines:
+                        break
+        except UnicodeError as ue:
+            error = ('A UnicodeError occured while trying to read the csv ' +
+                     'file ("{}") - it seems the encoding we used ({}) is ' +
+                     'not correct.')
+            advice = ""
+            if chardet:
+                if enc is not None:
+                    advice = (" You could try to omit the encoding and let the chardet module " +
+                              "have a guess.")
+                elif guessed_enc is not None:
+                    advice = " It was auto-detected by chardet, try to specify it manually."
+            error_msg = error.format(str(ue), used_encoding) + advice
+            return {"success": False, "error_msg": error_msg}
 
     sniffer = csv.Sniffer()
     try:
-        dialect = sniffer.sniff(content)
-        has_header = sniffer.has_header(content)
+        dialect = sniffer.sniff(text_content)
+        has_header = sniffer.has_header(text_content)
     except csv.Error as csve:
         error_msg = ("Error: An error occured while analyzing the file: '" +
-                     csve.message + "'. Maybe it is no valid CSV file?")
+                     str(csve) + "'. Maybe it is no valid CSV file?")
         return {"success": False, "error_msg": error_msg}
-    result = CSVAnalysisResult(blanks, dialect, has_header, enc, enc_conf)
-    csv_file.close()
+    result = CSVAnalysisResult(blanks, dialect, has_header, guessed_enc, guessed_enc_confidence)
     return {"success": True, "data": result}
 
 def get_csv_file_content(file_name, enc=None, force_header=False):
-    result = analyze_csv_file(file_name, 500)
+    result = analyze_csv_file(file_name, enc=enc)
     if result["success"]:
         csv_analysis = result["data"]
-        print csv_analysis
+        print(csv_analysis)
     else:
-        print result["error_msg"]
+        print_r(result["error_msg"])
         sys.exit()
 
     if enc is None:
         enc = csv_analysis.enc
 
     if enc is None:
-        print ("Error: No encoding given for CSV file and automated " +
-               "detection failed. Please set the encoding manually via the " +
-               "--enc argument")
+        print("Error: No encoding given for CSV file and automated detection failed. Please set " +
+              "the encoding manually via the --enc argument")
         sys.exit()
 
     dialect = csv_analysis.dialect
 
-    csv_file = open(file_name, "r")
+    csv_file = open(file_name, "r", encoding=enc)
 
     content = []
-    reader = UnicodeReader(csv_file, dialect=dialect, encoding=enc)
+    reader = csv.reader(csv_file, dialect=dialect)
     header = []
     if csv_analysis.has_header or force_header:
-        header.append(reader.next())
+        header.append(next(reader))
     for row in reader:
         content.append(row)
     csv_file.close()
@@ -392,40 +400,14 @@ def get_csv_file_content(file_name, enc=None, force_header=False):
 def has_value(field):
     return len(field) > 0 and field != "NA"
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, selective_harvest=False):
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
     """
     Harvest OpenAPC records via OAI-PMH
     """
-    if selective_harvest:
-        # create lists of all exisiting dois, pmids and urls
-        keys = ["doi", "pmid", "url"]
-        lists = {}
-        for key in keys:
-            lists[key] = []
-        with open("../data/apc_de.csv", "r") as core_file:
-            reader = UnicodeDictReader(core_file, encoding="utf-8")
-            for line in reader:
-                for key in keys:
-                    if has_value(line[key]):
-                        lists[key].append(line[key])
     collection_xpath = ".//oai_2_0:record//oai_2_0:metadata//intact:collection"
     token_xpath = ".//oai_2_0:resumptionToken"
-    processing_regex = re.compile("'(?P<target>\w*?)':'(?P<generator>.*?)'")
-    variable_regex = re.compile("%(\w*?)%")
-    collection_content = OrderedDict([
-        ("intact:institution", "institution"),
-        ("intact:period", "period"),
-        ("intact:euro", "euro"),
-        ("intact:id_number[@type='doi']", "doi"),
-        ("intact:is_hybrid", "is_hybrid"),
-        ("intact:publisher", "publisher"),
-        ("intact:journal_full_title", "journal_full_title"),
-        ("intact:issn", "issn"),
-        ("intact:licence", "license_ref"),
-        ("intact:id_number[@type='pubmed']","pmid"),
-        ("", "url"),
-        ("intact:id_number[@type='local']", "local_id")
-    ])
+    processing_regex = re.compile(r"'(?P<target>\w*?)':'(?P<generator>.*?)'")
+    variable_regex = re.compile(r"%(\w*?)%")
     #institution_xpath =
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
@@ -446,24 +428,24 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         else:
             print_r("Error: Unable to parse processing instruction!")
             processing = None
-    articles = [collection_content.values()] # use as header
+    articles = []
     while url is not None:
         try:
-            request = urllib2.Request(url)
+            request = Request(url)
             url = None
-            response = urllib2.urlopen(request)
+            response = urlopen(request)
             content_string = response.read()
             root = ET.fromstring(content_string)
             collections = root.findall(collection_xpath, namespaces)
             counter = 0
             for collection in collections:
-                article = OrderedDict()
-                for xpath, elem in collection_content.iteritems():
-                    result = collection.find(xpath, namespaces)
-                    if result is not None and result.text is not None:
-                        article[elem] = result.text
-                    else:
-                        article[elem] = "NA"
+                article = {}
+                for elem, xpath in OAI_COLLECTION_CONTENT.items():
+                    article[elem] = "NA"
+                    if xpath is not None:
+                        result = collection.find(xpath, namespaces)
+                        if result is not None and result.text is not None:
+                            article[elem] = result.text
                 if processing:
                     target_string = generator
                     for variable in variables:
@@ -472,30 +454,24 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                 if article["euro"] in ["NA", "0"]:
                     print_r("Article skipped, no APC amount found.")
                     continue
-                elif selective_harvest:
-                    key_found = False
-                    for key in keys:
-                        if article[key] in lists[key]:
-                            print_r("Article skipped, " + key + " already in core data file.")
-                            key_found = True
-                            break
-                    if key_found:
-                        continue
-                articles.append(article.values())
+                if article["doi"] != "NA":
+                    norm_doi = get_normalised_DOI(article["doi"])
+                    if norm_doi is None:
+                        article["doi"] = "NA"
+                    else:
+                        article["doi"] = norm_doi
+                articles.append(article)
                 counter += 1
             token = root.find(token_xpath, namespaces)
-            if token is not None:
+            if token is not None and token.text is not None:
                 url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text
             print_g(str(counter) + " articles harvested.")
-        except urllib2.HTTPError as httpe:
+        except HTTPError as httpe:
             code = str(httpe.getcode())
-            print "HTTPError: {} - {}".format(code, httpe.reason)
-        except urllib2.HTTPError as httpe:
-            code = str(httpe.getcode())
-            print "HTTPError: {} - {}".format(code, httpe.reason)
-    with open("out.csv", "w") as f:
-        writer = OpenAPCUnicodeWriter(f, openapc_quote_rules=True, has_header=True)
-        writer.write_rows(articles)
+            print("HTTPError: {} - {}".format(code, httpe.reason))
+        except URLError as urle:
+            print("URLError: {}".format(urle.reason))
+    return articles
 
 def get_metadata_from_crossref(doi_string):
     """
@@ -508,7 +484,7 @@ def get_metadata_from_crossref(doi_string):
     Args:
         doi_string: A string representing a doi. 'Pure' form (10.xxx),
         DOI Handbook notation (doi:10.xxx) or crossref-style
-        (http://dx.doi.org/10.xxx) are all acceptable.
+        (https://doi.org/10.xxx) are all acceptable.
     Returns:
         A dict with a key 'success'. If data extraction was successful,
         'success' will be True and the dict will have a second entry 'data'
@@ -536,22 +512,24 @@ def get_metadata_from_crossref(doi_string):
         ".//cr_1_1:journal_metadata//cr_1_1:issn[@media_type='print']": "issn_print",
         ".//cr_1_0:journal_metadata//cr_1_0:issn[@media_type='electronic']": "issn_electronic",
         ".//cr_1_1:journal_metadata//cr_1_1:issn[@media_type='electronic']": "issn_electronic",
-        ".//ai:license_ref": "license_ref"}
+        ".//ai:license_ref": "license_ref"
+    }
     namespaces = {
         "cr_qr": "http://www.crossref.org/qrschema/3.0",
         "cr_1_1": "http://www.crossref.org/xschema/1.1",
         "cr_1_0": "http://www.crossref.org/xschema/1.0",
-        "ai": "http://www.crossref.org/AccessIndicators.xsd"}
+        "ai": "http://www.crossref.org/AccessIndicators.xsd"
+    }
     doi = get_normalised_DOI(doi_string)
     if doi is None:
-        error_msg = u"Parse Error: '{}' is no valid DOI".format(doi_string)
+        error_msg = "Parse Error: '{}' is no valid DOI".format(doi_string)
         return {"success": False, "error_msg": error_msg}
     url = 'http://data.crossref.org/' + doi
-    headers = {"Accept": "application/vnd.crossref.unixsd+xml"}
-    req = urllib2.Request(url, None, headers)
+    req = Request(url)
+    req.add_header("Accept", "application/vnd.crossref.unixsd+xml")
     ret_value = {'success': True}
     try:
-        response = urllib2.urlopen(req)
+        response = urlopen(req)
         content_string = response.read()
         root = ET.fromstring(content_string)
         doi_element = root.findall(".//cr_qr:doi", namespaces)
@@ -561,7 +539,7 @@ def get_metadata_from_crossref(doi_string):
                    "supports journal articles)")
             raise ValueError(msg)
         crossref_data = {}
-        for path, elem in xpaths.iteritems():
+        for path, elem in xpaths.items():
             if elem not in crossref_data:
                 crossref_data[elem] = None
             result = root.findall(path, namespaces)
@@ -575,11 +553,10 @@ def get_metadata_from_crossref(doi_string):
                             crossref_data[elem] = xml_elem.text
                             break
         ret_value['data'] = crossref_data
-    except urllib2.HTTPError as httpe:
+    except HTTPError as httpe:
         ret_value['success'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
-    except urllib2.URLError as urle:
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     except ET.ParseError as etpe:
@@ -591,17 +568,33 @@ def get_metadata_from_crossref(doi_string):
     return ret_value
 
 def get_metadata_from_pubmed(doi_string):
+    """
+    Look up a DOI in Europe PMC and extract Pubmed ID and Pubmed Central ID
+
+    Args:
+        doi_string: A string representing a doi. 'Pure' form (10.xxx),
+        DOI Handbook notation (doi:10.xxx) or crossref-style
+        (https://doi.org/10.xxx) are all acceptable.
+    Returns:
+        A dict with a key 'success'. If data extraction was successful,
+        'success' will be True and the dict will have a second entry 'data'
+        which contains the extracted metadata (pmid, pmcid) as another dict.
+
+        If data extraction failed, 'success' will be False and the dict will
+        contain a second entry 'error_msg' with a string value
+        stating the reason.
+    """
     doi = get_normalised_DOI(doi_string)
     if doi is None:
         return {"success": False,
-                "error_msg": u"Parse Error: '{}' is no valid DOI".format(doi_string)
+                "error_msg": "Parse Error: '{}' is no valid DOI".format(doi_string)
                }
     url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
-    req = urllib2.Request(url)
+    req = Request(url)
     ret_value = {'success': True}
     try:
-        response = urllib2.urlopen(req)
+        response = urlopen(req)
         content_string = response.read()
         root = ET.fromstring(content_string)
         pubmed_data = {}
@@ -609,23 +602,22 @@ def get_metadata_from_pubmed(doi_string):
             "pmid": ".//resultList/result/pmid",
             "pmcid": ".//resultList/result/pmcid",
         }
-        for elem, path in xpaths.iteritems():
+        for elem, path in xpaths.items():
             result = root.findall(path)
             if result:
                 pubmed_data[elem] = result[0].text
             else:
                 pubmed_data[elem] = None
         ret_value['data'] = pubmed_data
-    except urllib2.HTTPError as httpe:
+    except HTTPError as httpe:
         ret_value['success'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
-    except urllib2.URLError as urle:
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     return ret_value
 
-def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
+def lookup_journal_in_doaj(issn):
     """
     Take an ISSN and check if the corresponding journal exists in DOAJ.
 
@@ -654,16 +646,12 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
         will contain a second entry 'error_msg' with a string value
         stating the reason.
     """
-    headers = {"Accept": "application/json"}
     ret_value = {'data_received': True}
     url = "https://doaj.org/api/v1/search/journals/issn:" + issn
-    req = urllib2.Request(url, None, headers)
+    req = Request(url)
+    req.add_header("Accept", "application/json")
     try:
-        if bypass_cert_verification:
-            empty_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
-            response = urllib2.urlopen(req, context=empty_context)
-        else:
-            response = urllib2.urlopen(req)
+        response = urlopen(req)
         content_string = response.read()
         json_dict = json.loads(content_string)
         ret_data = {}
@@ -671,27 +659,64 @@ def lookup_journal_in_doaj(issn, bypass_cert_verification=False):
             ret_data["in_doaj"] = True
             # Try to extract the journal title - useful for error correction
             journal = json_dict["results"][0]
-            try:
-                ret_data["title"] = journal["bibjson"]["title"]
-            except KeyError:
-                ret_data["title"] = ""
+            ret_data["title"] = journal["bibjson"].get("title", "")
         else:
             ret_data["in_doaj"] = False
         ret_value['data'] = ret_data
-    except urllib2.HTTPError as httpe:
+    except HTTPError as httpe:
         ret_value['data_received'] = False
-        code = str(httpe.getcode())
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(code, httpe.reason)
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
     except ValueError as ve:
         ret_value['data_received'] = False
         msg = "ValueError while parsing JSON: {}"
         ret_value['error_msg'] = msg.format(ve.message)
     return ret_value
+    
+def get_euro_exchange_rates(currency, frequency="D"):
+    """
+    Obtain historical euro exchange rates against a certain currency from the European Central Bank.
+    
+    Take a currency and a frequency type (either daily, monthly average or yearly average rates) and
+    return a dict containing all data provided by the ECB for the chosen parameters.
+    
+    Args:
+        currency: A three-letter string representing a currency code according to ISO 4217
+        frequency: Must be either "D" (daily), "M" (monthly) or "A" (annual). In the last two cases
+                   the results will be average values for the given time frames.
+    
+    Returns:
+        A dict of date strings mapping to exchange rates (as floats). Depending on the chosen
+        freqency, the date format will either be "YYYY", "YYYY-MM" or "YYYY-MM-DD".
+    """
+    ISO_4217_RE = re.compile(r"[A-Z]{3}")
+    FREQUENCIES = ["D", "M", "A"]
+    
+    URL_TEMPLATE = "http://sdw-wsrest.ecb.europa.eu/service/data/EXR/{}.{}.EUR.SP00.A?format=csvdata"
+    
+    if not ISO_4217_RE.match(currency):
+        raise ValueError('"' + currency + '" is no valid currency code!')
+    if frequency not in FREQUENCIES:
+        raise ValueError("Frequency must be one of " + ", ".join(FREQUENCIES))
+    
+    url = URL_TEMPLATE.format(frequency, currency)
+    req = Request(url)
+    response = urlopen(req)
+    lines = []
+    for line in response:
+        lines.append(line.decode("utf-8"))
+    reader = csv.DictReader(lines)
+    result = {}
+    for line in reader:
+        date = line["TIME_PERIOD"]
+        value = line["OBS_VALUE"]
+        result[date] = value
+    return result
+
 
 def process_row(row, row_num, column_map, num_required_columns,
                 no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, doaj_offline_analysis=False,
-                bypass_cert_verification=False):
+                round_monetary=False, offsetting_mode=None):
     """
     Enrich a single row of data and reformat it according to Open APC standards.
 
@@ -703,48 +728,56 @@ def process_row(row, row_num, column_map, num_required_columns,
         row: A list of column values (as yielded by a UnicodeReader f.e.).
         row_num: The line number in the csv file, for logging purposes.
         column_map: An OrderedDict of CSVColumn Objects, mapping the row
-                    cells to Open APC data schema fields.
+                    cells to OpenAPC data schema fields.
         num_required_columns: An int describing the required length of the row
                               list. If not matched, an error is logged and the
                               row is returned unchanged.
         no_crossref_lookup: If true, no metadata will be imported from crossref.
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
         no_doaj_lookup: If true, journals will not be checked for being
-                        listended in the DOAJ (default).
+                        listended in the DOAJ.
         doaj_offline_analysis: If true, a local copy will be used for the DOAJ
                                lookup. Has no effect if no_doaj_lookup is set to
                                true.
-        bypass_cert_verification: If true, certificate validation will be
-                                  skipped when connecting to metadata
-                                  providers via TLS.
-
+        round_monetary: If true, monetary values with more than 2 digits behind the decimal
+                        mark will be rounded. If false, these cases will be treated as errors.
+        offsetting_mode: If not None, the row is assumed to originate from an offsetting file
+                         and this argument's value will be added to the 'agreement' column
      Returns:
         A list of values which represents the enriched and re-arranged variant
         of the input row. If no errors were logged during the process, this
         result will conform to the Open APC data schema.
     """
     MESSAGES = {
-        "num_columns": u"Syntax: The number of values in this row (%s) " +
+        "num_columns": "Syntax: The number of values in this row (%s) " +
                        "differs from the number of columns (%s). Line left " +
                        "unchanged, the resulting CSV file will not be valid.",
-        "locale": u"Error: Could not process the monetary value '%s' in " +
-                  "column %s. This will usually have one of two reasons:\n1) " +
+        "locale": "Error: Could not process the monetary value '%s' in " +
+                  "column %s. Usually this happens due to one of two reasons:\n1) " +
                   "The value does not represent a number.\n2) The value " +
                   "represents a number, but its format differs from your " +
                   "current system locale - the most common source of error " +
-                  "will be the decimal mark (1234.56 vs 1234,56). Try using " +
+                  "is the decimal mark (1234.56 vs 1234,56). Try using " +
                   "another locale with the -l option.",
-        "unify": u"Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
+        "digits_error": "Monetary value %s has more than 2 digits after " +
+                        "the decimal point. If this is just a formatting issue (from automated " +
+                        "conversion for example) you may call the enrichment script with the -r " +
+                        "option to round such values to 2 digits automatically.",
+        "digits_norm": "Normalisation: Monetary value %s rounded to 2 digits after " +
+                       "decimal mark (%s -> %s)",
+        "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
                  "to maintain consistency.",
-        "doi_norm": u"Normalisation: DOI '{}' normalised to pure form ({}).",
-        "springer_distinction": u"publisher 'Springer Nature' found " +
-                                 "for a pre-2015 article - publisher " +
-                                 "changed to '%s' based on prefix " +
-                                 "discrimination ('%s')",
-        "unknown_prefix": u"publisher 'Springer Nature' found for a " +
-                           "pre-2015 article, but discrimination was " +
-                           "not possible - unknown prefix ('%s')",
-        "issn_hyphen_fix": u"Normalisation: Added hyphen to %s value (%s -> %s)"
+        "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({}).",
+        "springer_distinction": "publisher 'Springer Nature' found " +
+                                "for a pre-2015 article - publisher " +
+                                "changed to '%s' based on prefix " +
+                                "discrimination ('%s')",
+        "unknown_prefix": "publisher 'Springer Nature' found for a " +
+                          "pre-2015 article, but discrimination was " +
+                          "not possible - unknown prefix ('%s')",
+        "issn_hyphen_fix": "Normalisation: Added hyphen to %s value (%s -> %s)",
+        "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)"
+            
     }
 
     if len(row) != num_required_columns:
@@ -761,7 +794,7 @@ def process_row(row, row_num, column_map, num_required_columns,
             # special case for monetary values: Cast to float to ensure
             # the decimal point is a dot (instead of a comma)
             euro_value = row[csv_column.index]
-            if len(euro_value) == 0:
+            if not euro_value or euro_value == "NA":
                 msg = "Line %s: Empty monetary value in column %s."
                 logging.warning(msg, row_num, csv_column.index)
                 current_row[csv_column.column_type] = "NA"
@@ -770,10 +803,27 @@ def process_row(row, row_num, column_map, num_required_columns,
                     euro = locale.atof(euro_value)
                     if euro.is_integer():
                         euro = int(euro)
+                    if re.match(r"^\d+\.\d{3}", str(euro)):
+                        if round_monetary:
+                            euro = round(euro, 2)
+                            msg = "Line %s: " + MESSAGES["digits_norm"]
+                            logging.warning(msg, row_num, euro_value, euro_value, euro)
+                        else:
+                            msg = "Line %s: " + MESSAGES["digits_error"]
+                            logging.error(msg, row_num, euro_value)
                     current_row[csv_column.column_type] = str(euro)
                 except ValueError:
                     msg = "Line %s: " + MESSAGES["locale"]
                     logging.error(msg, row_num, euro_value, csv_column.index)
+        elif csv_column.column_type == "period":
+            value = row[csv_column.index]
+            if re.match(r"^\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?$", value):
+                msg = "Line %s: " + MESSAGES["period_format"]
+                new_value = value[:4]
+                logging.warning(msg, row_num, value, new_value)
+                current_row[csv_column.column_type] = new_value
+            else:
+                current_row[csv_column.column_type] = value
         else:
             if csv_column.index is not None and len(row[csv_column.index]) > 0:
                 current_row[csv_column.column_type] = row[csv_column.index]
@@ -806,7 +856,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                 current_row["indexed_in_crossref"] = "TRUE"
                 data = crossref_result["data"]
                 prefix = data.pop("prefix")
-                for key, value in data.iteritems():
+                for key, value in data.items():
                     if value is not None:
                         if key == "journal_full_title":
                             unified_value = get_unified_journal_title(value)
@@ -843,7 +893,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                         # Fix ISSNs without hyphen
                         elif key in ["issn", "issn_print", "issn_electronic"]:
                             new_value = value
-                            if re.match("^\d{7}[\dxX]$", value):
+                            if re.match(r"^\d{7}[\dxX]$", value):
                                 new_value = value[:4] + "-" + value[4:]
                                 msg = "Line %s: " + MESSAGES["issn_hyphen_fix"]
                                 logging.warning(msg, row_num, key, value, new_value)
@@ -851,8 +901,7 @@ def process_row(row, row_num, column_map, num_required_columns,
                             new_value = value
                     else:
                         new_value = "NA"
-                        msg = (u"WARNING: Element '%s' not found in in response for " +
-                               "doi %s.")
+                        msg = "WARNING: Element '%s' not found in in response for doi %s."
                         logging.debug(msg, key, doi)
                     old_value = current_row[key]
                     current_row[key] = column_map[key].check_overwrite(old_value, new_value)
@@ -866,13 +915,12 @@ def process_row(row, row_num, column_map, num_required_columns,
             if pubmed_result["success"]:
                 logging.info("Pubmed: DOI resolved: " + doi)
                 data = pubmed_result["data"]
-                for key, value in data.iteritems():
+                for key, value in data.items():
                     if value is not None:
                         new_value = value
                     else:
                         new_value = "NA"
-                        msg = (u"WARNING: Element %s not found in in response for " +
-                               "doi %s.")
+                        msg = "WARNING: Element %s not found in in response for doi %s."
                         logging.debug(msg, key, doi)
                     old_value = current_row[key]
                     current_row[key] = column_map[key].check_overwrite(old_value, new_value)
@@ -893,44 +941,42 @@ def process_row(row, row_num, column_map, num_required_columns,
         for issn in issns:
             # In some cases xref delievers ISSNs without a hyphen. Add it
             # temporarily to prevent the DOAJ lookup from failing.
-            if re.match("^\d{7}[\dxX]$", issn):
+            if re.match(r"^\d{7}[\dxX]$", issn):
                 issn = issn[:4] + "-" + issn[4:]
             # look up in an offline copy of the DOAJ if requested...
             if doaj_offline_analysis:
                 lookup_result = doaj_offline_analysis.lookup(issn)
                 if lookup_result:
-                    msg = (u"DOAJ: Journal ISSN (%s) found in DOAJ " +
-                           "offline copy ('%s').")
+                    msg = "DOAJ: Journal ISSN (%s) found in DOAJ offline copy ('%s')."
                     logging.info(msg, issn, lookup_result)
                     new_value = "TRUE"
                     break
                 else:
-                    msg = (u"DOAJ: Journal ISSN (%s) not found in DOAJ " +
-                           "offline copy.")
+                    msg = "DOAJ: Journal ISSN (%s) not found in DOAJ offline copy."
                     new_value = "FALSE"
                     logging.info(msg, issn)
             # ...or query the online API
             else:
-                doaj_res = lookup_journal_in_doaj(issn, bypass_cert_verification)
+                doaj_res = lookup_journal_in_doaj(issn)
                 if doaj_res["data_received"]:
                     if doaj_res["data"]["in_doaj"]:
-                        msg = u"DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
+                        msg = "DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
                         logging.info(msg, issn, doaj_res["data"]["title"])
                         new_value = "TRUE"
                         break
                     else:
-                        msg = u"DOAJ: Journal ISSN (%s) not found in DOAJ."
+                        msg = "DOAJ: Journal ISSN (%s) not found in DOAJ."
                         logging.info(msg, issn)
                         new_value = "FALSE"
                 else:
-                    msg = (u"Line %s: DOAJ: Error while trying to look up " +
-                           "ISSN %s: %s")
+                    msg = "Line %s: DOAJ: Error while trying to look up ISSN %s: %s"
                     logging.error(msg, row_num, issn, doaj_res["error_msg"])
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value,
                                                                  new_value)
-    return current_row.values()
-
+    if offsetting_mode:
+        current_row["agreement"] = offsetting_mode
+    return list(current_row.values())
 
 def get_column_type_from_whitelist(column_name):
     """
@@ -949,7 +995,7 @@ def get_column_type_from_whitelist(column_name):
         "period": ["period", "jahr"],
         "is_hybrid": ["is_hybrid", "is hybrid", "hybrid"],
         "publisher": ["publisher"],
-        "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title", "journaltitle"],
+        "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title", "journaltitle", "journal_title"],
         "issn": ["issn", "issn.1", "issn0"],
         "issn_print": ["issn_print"],
         "issn_electronic": ["issn_electronic"],
@@ -962,7 +1008,7 @@ def get_column_type_from_whitelist(column_name):
         "url": ["url"],
         "doaj": ["doaj"]
     }
-    for key, whitelist in column_names.iteritems():
+    for key, whitelist in column_names.items():
         if column_name.lower() in whitelist:
             return key
     return None
@@ -988,7 +1034,11 @@ def get_unified_publisher_name(publisher):
         "Institute of Electrical &amp; Electronics Engineers (IEEE)": "Institute of Electrical & Electronics Engineers (IEEE)",
         "Hindawi Limited": "Hindawi Publishing Corporation",
         "Oxford University Press": "Oxford University Press (OUP)",
-        "Wiley": "Wiley-Blackwell"
+        "Wiley": "Wiley-Blackwell",
+        "Bioscientifica": "BioScientifica",
+        "Springer Nature America, Inc": "Springer Nature",
+        "Springer Science and Business Media LLC": "Springer Nature",
+        "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd." 
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -1023,12 +1073,10 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Elections, Public Opinion and Parties": "Journal of Elections, Public Opinion & Parties",
         "Scientific Repor.": "Scientific Reports",
         "PAIN": "Pain",
-        "Journal of the National Cancer Institute": "JNCI Journal of the National Cancer Institute",
         "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
         "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
         "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
         "PLoS Medicine": "PLOS Medicine",
-        "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
         "AJP: Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
         "Naturwissenschaften": "The Science of Nature",
         "Dalton Trans.": "Dalton Transactions",
@@ -1094,7 +1142,6 @@ def get_unified_journal_title(journal_full_title):
         "Health:: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine": "Health: An Interdisciplinary Journal for the Social Study of Health, Illness and Medicine",
         "INTERNATIONAL JOURNAL OF SYSTEMATIC AND EVOLUTIONARY MICROBIOLOGY": "International Journal of Systematic and Evolutionary Microbiology",
         "Protein Engineering Design and Selection": "Protein Engineering, Design and Selection",
-        u"European Heart Journal – Cardiovascular Imaging": "European Heart Journal - Cardiovascular Imaging",
         "The Journals of Gerontology: Series A": "The Journals of Gerontology Series A: Biological Sciences and Medical Sciences",
         "MHR: Basic science of reproductive medicine": "Molecular Human Reproduction",
         "Research on Language and Social Interaction": "Research on Language & Social Interaction",
@@ -1106,15 +1153,61 @@ def get_unified_journal_title(journal_full_title):
         "Polym. Chem.": "Polymer Chemistry",
         "Angewandte Chemie": "Angewandte Chemie International Edition",
         "ISME Journal": "The ISME Journal",
-        "European Journal of Public Health": "The European Journal of Public Health",
         "Interface": "Journal of The Royal Society Interface",
-        "The Plant Cell Online": "The Plant Cell",
         "Medical Engineering and Physics": "Medical Engineering & Physics",
         "Forensic Science, Medicine, and Pathology": "Forensic Science, Medicine and Pathology",
         "Lab Chip": "Lab on a Chip",
         "Mater. Horiz.": "Materials Horizons",
         "AoB PLANTS": "AoB Plants",
-        "Elem Sci Anth": "Elementa: Science of the Anthropocene"
+        "Elem Sci Anth": "Elementa: Science of the Anthropocene",
+        "Cell Death & Disease": "Cell Death and Disease",
+        "Scandinavian Journal of Work, Environment & Health": "Scandinavian Journal of Work Environment and Health",
+        "The Bone & Joint Journal": "Bone & Joint Journal",
+        "British Journal of Psychiatry": "The British Journal of Psychiatry",
+        "American Journal of Physiology-Heart and Circulatory Physiology": "American Journal of Physiology - Heart and Circulatory Physiology",
+        "American Journal of Physiology-Endocrinology and Metabolism": "AJP: Endocrinology and Metabolism",
+        "Milbank Quarterly": "The Milbank Quarterly",
+        "Faraday Discuss.": "Faraday Discussions",
+        "Journal of Management and Governance": "Journal of Management & Governance",
+        "Journal für Verbraucherschutz und Lebensmittelsicherheit": "Journal of Consumer Protection and Food Safety",
+        "Nanoscale Horiz.": "Nanoscale Horizons",
+        "BeitrÃ¤ge zur Algebra und Geometrie / Contributions to Algebra and Geometry": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
+        "Energy Environ. Sci.": "Energy & Environmental Science",
+        "Raumforschung und Raumordnung |  Spatial Research and Planning": "Raumforschung und Raumordnung",
+        "Mol. BioSyst.": "Molecular BioSystems",
+        "Physics in Medicine & Biology": "Physics in Medicine and Biology",
+        "Anal. Methods": "Analytical Methods",
+        "The American Journal of Clinical Nutrition": "American Journal of Clinical Nutrition",
+        "International Journal of Clinical and Experimental Pathology ": "International Journal of Clinical and Experimental Pathology",
+        "Forestry": "Forestry: An International Journal of Forest Research",
+        "BJPsych Open": "British Journal of Psychiatry Open",
+        "JOURNAL OF FORENSIC SCIENCE & CRIMINOLOGY": "Journal of Forensic Science & Criminology",
+        "New J. Chem.": "New Journal of Chemistry",
+        "The British Journal of Criminology": "British Journal of Criminology",
+        "Journal of Alzheimer's disease": "Journal of Alzheimer's Disease",
+        "Cell Death & Differentiation": "Cell Death and Differentiation",
+        "Nat. Prod. Rep.": "Natural Product Reports",
+        "Bone & Joint Research": "Bone and Joint Research",
+        "Psychology of Well-Being": "Psychology of Well-Being: Theory, Research and Practice",
+        "Genes & Immunity": "Genes and Immunity",
+        "Biomater. Sci.": "Biomaterials Science",
+        "BDJ": "British Dental Journal",
+        "QJM: An International Journal of Medicine": "QJM",
+        "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
+        "American Journal of Physiology-Renal Physiology": "AJP: Renal Physiology",
+        "The Journal of Nutrition": "Journal of Nutrition",
+        "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease",
+        "The Journals of Gerontology: Series B": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+        "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
+        "CIRP Annals": "CIRP Annals - Manufacturing Technology",
+        "Environment and Planning A": "Environment and Planning A: Economy and Space",
+        "Mathematical Medicine and Biology: A Journal of the IMA": "Mathematical Medicine and Biology",
+        "American Journal of Physiology-Cell Physiology": "American Journal of Physiology - Cell Physiology",
+        "Geological Society of America Bulletin": "GSA Bulletin",
+        "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
+        "Quarterly Journal of Experimental Psychology": "The Quarterly Journal of Experimental Psychology",
+        "Aging and disease": "Aging and Disease",
+        "physica status solidi (RRL) – Rapid Research Letters": "physica status solidi (RRL) - Rapid Research Letters"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
@@ -1122,18 +1215,19 @@ def get_corrected_issn_l(issn_l):
     issn_l_corrections = {
         "0266-7061": "1367-4803", # "Bioinformatics". 1460-2059(issn_e) -> 0266-7061, but 1367-4803(issn_p) -> 1367-4803
         "1654-6628": "1654-661X",  # "Food & Nutrition Research". 1654-6628(issn_p) -> 1654-6628, but 1654-661X(issn_e) -> 1654-661X
-        "1474-7596": "1465-6906" # "Genome Biology".  1465-6906(issn_p) -> 1465-6906, but 1474-760X(issn_e) -> 1474-7596
+        "1474-7596": "1465-6906", # "Genome Biology".  1465-6906(issn_p) -> 1465-6906, but 1474-760X(issn_e) -> 1474-7596
+        "0959-8138": "1756-1833" # BMJ. The BMJ has a bunch of ISSNs assigend, but the ISSN-L mappings are all fixed points. Unknown if this is intended. 
     }
     return issn_l_corrections.get(issn_l, issn_l)
 
 def print_b(text):
-    print "\033[94m" + text + "\033[0m"
+    print("\033[94m" + text + "\033[0m")
 
 def print_g(text):
-    print "\033[92m" + text + "\033[0m"
+    print("\033[92m" + text + "\033[0m")
 
 def print_r(text):
-    print "\033[91m" + text + "\033[0m"
+    print("\033[91m" + text + "\033[0m")
 
 def print_y(text):
-    print "\033[93m" + text + "\033[0m"
+    print("\033[93m" + text + "\033[0m")
