@@ -1,443 +1,713 @@
-"institution",period,euro,"doi","journal_full_title","publisher","is_hybrid","issn","url"
-"Swiss National Science Foundation (SNSF)",2011,896.45,"10.1371/journal.pone.0024555","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2012,929.92,"10.1371/journal.pntd.0001889","PLoS Neglected Tropical Diseases","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2012,1784.42,"10.1371/journal.ppat.1002976","PLoS Pathogens","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2012,972.18,"10.3389/fmicb.2012.00106","Frontiers in Microbiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2012,1254.45,"10.3390/ijms14010684","International Journal of Molecular Sciences","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1354.13,"10.1002/mbo3.98","MicrobiologyOpen","Wiley-Blackwell","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1958.70,"10.1007/s11356-012-1228-y","Environmental Science and Pollution Research","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2013,1351.16,"10.1016/j.emospa.2013.12.003","Emotion, Space and Society","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2013,1916.85,"10.1016/j.epsl.2013.09.017","Earth and Planetary Science Letters","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2013,1368.79,"10.1016/j.jmb.2013.12.020","Journal of Molecular Biology","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2013,674.18,"10.1186/1742-9994-10-49","Frontiers in Zoology","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1718.97,"10.1371/journal.pgen.1004027","PLoS Genetics","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1708.64,"10.1371/journal.pntd.0002475","PLoS Neglected Tropical Diseases","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,918.56,"10.1371/journal.pone.0069473","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1013.28,"10.1371/journal.pone.0072876","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,927.44,"10.1371/journal.pone.0074249","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1020.07,"10.1371/journal.pone.0082741","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1736.15,"10.3389/fnana.2013.00034","Frontiers in Neuroanatomy","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1076.55,"10.3389/fnhum.2013.00418","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1038.74,"10.3389/fnhum.2014.00381","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1155.35,"10.3390/molecules18055104","Molecules","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,710.76,"10.4172/2155-9872.S1-007","Journal of Analytical & Bioanalytical Techniques","OMICS Publishing Group","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1160.39,"10.5194/acpd-13-23325-2013","Atmospheric Chemistry and Physics Discussions","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1407.71,"10.5194/amt-6-3225-2013","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,1041.97,"10.5194/amt-6-3649-2013","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,391.09,"10.7717/peerj.188","PeerJ","PeerJ","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,2463.16,"10.1002/hbm.22599","Human Brain Mapping","Wiley-Blackwell","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,2207.83,"10.1002/qua.24686","International Journal of Quantum Chemistry","Wiley-Blackwell","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,2262.38,"10.1007/s00477-014-0906-3","Stochastic Environmental Research and Risk Assessment","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,2232.74,"10.1007/s12520-014-0221-4","Archaeological and Anthropological Sciences","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,1693.36,"10.1016/j.neuroscience.2013.12.051","Neuroscience","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,1595.59,"10.1016/j.toxlet.2014.09.004","Toxicology Letters","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,2048.45,"10.1017/S0007123413000495","British Journal of Political Science","Cambridge University Press (CUP)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,854.17,"10.1038/jcbfm.2014.112","Journal of Cerebral Blood Flow & Metabolism","SAGE Publications","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,2614.28,"10.1038/mp.2014.145","Molecular Psychiatry","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,471.02,"10.1038/sdata.2014.22","Scientific Data","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1065.68,"10.1063/1.4905265","AIP Advances","AIP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1462.98,"10.1093/gbe/evu099","Genome Biology and Evolution","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1089.49,"10.1093/nar/gku1059","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1101.75,"10.1093/nar/gku131","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1533.97,"10.1093/nar/gku537","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,2193.87,"10.1093/nar/gku759","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1306.16,"10.1093/sysbio/syv001","Systematic Biology","Oxford University Press (OUP)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,1869.76,"10.1098/rstb.2013.0592","Philosophical Transactions of the Royal Society B: Biological Sciences","The Royal Society","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,1595.95,"10.1104/pp.114.239137","PLANT PHYSIOLOGY","American Society of Plant Biologists (ASPB)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,246.82,"10.1111/ele.12242","Ecology Letters","Wiley-Blackwell","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,2061.45,"10.1111/mmi.12777","Molecular Microbiology","Wiley-Blackwell","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,2074.71,"10.1159/000366360","Cellular Physiology and Biochemistry","S. Karger AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,874.46,"10.1175/JTECH-D-13-00206.1","Journal of Atmospheric and Oceanic Technology","American Meteorological Society","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,1540.72,"10.1177/1759091414548916","ASN Neuro","SAGE Publications","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,643.69,"10.1186/1471-2407-14-46","BMC Cancer","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,675.51,"10.1186/1476-4598-13-119","Molecular Cancer","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,669.65,"10.1186/1477-7827-12-46","Reproductive Biology and Endocrinology","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1402.04,"10.1186/s40359-014-0037-0","BMC Psychology","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1426.32,"10.1364/OE.22.020871","Optics Express","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1092.33,"10.1371/journal.pone.0089743","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,893.57,"10.1371/journal.pone.0093863","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1011.42,"10.1371/journal.pone.0099883","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1092.33,"10.1371/journal.pone.0104838","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1029.12,"10.1371/journal.pone.0108648","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1054.09,"10.1371/journal.pone.0111080","PLoS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,899.45,"10.1371/journal.ppat.1004166","PLoS Pathogens","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1473.80,"10.1371/journal.ppat.1004187","PLoS Pathogens","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,3008.00,"10.15252/msb.20145247","Molecular Systems Biology","EMBO","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,388.75,"10.3189/2014JoG13J084","Journal of Glaciology","Cambridge University Press (CUP)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2014,1066.99,"10.3389/fgene.2014.00192","Frontiers in Genetics","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1728.29,"10.3389/fimmu.2014.00661","Frontiers in Immunology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1066.99,"10.3389/fmicb.2014.00324","Frontiers in Microbiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1704.22,"10.3389/fnagi.2014.00314","Frontiers in Aging Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1075.18,"10.3389/fnbeh.2014.00008","Frontiers in Behavioral Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,846.92,"10.3389/fphys.2014.00522","Frontiers in Physiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1794.40,"10.3389/fpsyg.2014.00043","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1069.98,"10.3389/fpsyg.2014.00493","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1054.36,"10.3389/fpsyg.2014.00586","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,871.38,"10.3390/ijerph110505049","International Journal of Environmental Research and Public Health","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,714.46,"10.5194/amt-10-4421-2017","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,989.68,"10.5194/gmd-7-2733-2014","Geoscientific Model Development","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1024.76,"10.5194/hess-18-3015-2014","Hydrology and Earth System Sciences","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,1449.36,"10.5194/nhess-14-2265-2014","Natural Hazards and Earth System Science","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2014,226.51,"10.5539/ijms.v6n1p31","International Journal of Marketing Studies","Canadian Center of Science and Education","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2962.00,"10.1016/j.celrep.2015.01.061","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,5000.00,"10.1016/j.celrep.2015.01.063","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,4636.00,"10.1016/j.celrep.2015.06.051","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2160.19,"10.1016/j.coldregions.2015.06.016","Cold Regions Science and Technology","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,2255.78,"10.1016/j.sna.2015.06.014","Sensors and Actuators A: Physical","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,1390.02,"10.1016/j.ydbio.2014.12.002","Developmental Biology","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,1713.30,"10.1038/celldisc.2015.49","Cell Discovery","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,3727.50,"10.1038/ncomms7646","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,3700.00,"10.1038/ncomms8494","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,3988.84,"10.1038/ncomms8751","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,4024.00,"10.1038/ncomms8837","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,3728.00,"10.1038/ncomms9141","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,3700.00,"10.1038/ncomms9675","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,3817.00,"10.1038/ncomms9757","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,4048.00,"10.1038/ncomms9892","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,372.09,"10.1038/sdata.2015.33","Scientific Data","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1307.54,"10.1038/srep07655","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1250.91,"10.1038/srep10132","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1181.67,"10.1038/srep13460","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1200.06,"10.1038/srep16181","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1181.07,"10.1038/srep16433","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1196.83,"10.1038/srep18733","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2969.72,"10.1038/tp.2015.19","Translational Psychiatry","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,447.83,"10.1051/0004-6361/201525980","Astronomy & Astrophysics","EDP Sciences","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,2063.51,"10.1063/1.4921068","APL Materials","AIP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2126.18,"10.1084/jem.20140137","The Journal of Experimental Medicine","Rockefeller University Press","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,1554.99,"10.1088/1367-2630/16/12/123013","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1370.50,"10.1088/1367-2630/16/12/123050","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1194.68,"10.1088/1367-2630/17/11/112002","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1397.03,"10.1088/1367-2630/17/11/113029","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,520.89,"10.1088/2041-8205/815/1/L11","The Astrophysical Journal","IOP Publishing","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,1935.03,"10.1093/molbev/msv270","Molecular Biology and Evolution","Oxford University Press (OUP)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,2069.33,"10.1093/nar/gku1260","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2168.86,"10.1093/nar/gkv1229","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2274.75,"10.1093/nar/gkv282","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,673.23,"10.1093/nar/gkv827","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2187.61,"10.1097/COH.0000000000000136","Current Opinion in HIV and AIDS","Ovid Technologies (Wolters Kluwer Health)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,1567.06,"10.1103/PhysRevX.5.021009","Physical Review X","American Physical Society (APS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,539.34,"10.1103/PhysRevX.5.031010","Physical Review X","American Physical Society (APS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2683.00,"10.1111/2041-210X.12427","Methods in Ecology and Evolution","Wiley-Blackwell","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,2297.74,"10.1128/mBio.00952-15","mBio","American Society for Microbiology","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1740.72,"10.1186/s12862-015-0527-6","BMC Evolutionary Biology","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1738.53,"10.1186/s12983-015-0106-0","Frontiers in Zoology","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1712.41,"10.1186/s13047-015-0095-4","Journal of Foot and Ankle Research","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,488.15,"10.1186/s40064-015-0784-2","SpringerPlus","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1711.52,"10.1364/OE.23.009109","Optics Express","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1709.79,"10.1364/OE.23.023845","Optics Express","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1772.38,"10.1364/OE.23.032158","Optics Express","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,894.33,"10.1364/OPTICA.2.000631","Optica","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2148.65,"10.1371/journal.pgen.1005565","PLOS Genetics","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,2650.65,"10.1371/journal.pmed.1001788","PLOS Medicine","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1140.47,"10.1371/journal.pone.0117744","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1137.52,"10.1371/journal.pone.0120984","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1250.01,"10.1371/journal.pone.0121238","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1365.02,"10.1371/journal.pone.0125104","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1230.17,"10.1371/journal.pone.0125603","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1263.91,"10.1371/journal.pone.0127691","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1289.19,"10.1371/journal.pone.0128108","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1225.99,"10.1371/journal.pone.0128478","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1179.65,"10.1371/journal.pone.0129384","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1223.21,"10.1371/journal.pone.0129812","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1337.72,"10.1371/journal.pone.0130177","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1337.72,"10.1371/journal.pone.0131618","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1207.36,"10.1371/journal.pone.0132574","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1251.93,"10.1371/journal.pone.0136636","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1289.19,"10.1371/journal.pone.0140223","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1284.52,"10.1371/journal.pone.0142435","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1277.05,"10.1371/journal.pone.0143293","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1300.80,"10.1371/journal.pone.0143327","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1286.69,"10.1371/journal.pone.0144363","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1864.27,"10.15252/embj.201490434","The EMBO Journal","EMBO","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,2552.13,"10.15252/emmm.201405003","EMBO Molecular Medicine","EMBO","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1571.04,"10.3189/2016AoG71A059","Annals of Glaciology","Cambridge University Press (CUP)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,1855.63,"10.3389/fcimb.2015.00076","Frontiers in Cellular and Infection Microbiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1959.56,"10.3389/feart.2015.00091","Frontiers in Earth Science","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1358.96,"10.3389/fgene.2015.00150","Frontiers in Genetics","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,490.78,"10.3389/fgene.2015.00322","Frontiers in Genetics","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1371.89,"10.3389/fimmu.2015.00297","Frontiers in Immunology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,378.38,"10.3389/fmicb.2015.00247","Frontiers in Microbiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1997.02,"10.3389/fnana.2014.00166","Frontiers in Neuroanatomy","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1529.98,"10.3389/fnint.2015.00051","Frontiers in Integrative Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1440.86,"10.3389/fpls.2015.01008","Frontiers in Plant Science","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1165.68,"10.3389/fpsyg.2014.01573","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1387.24,"10.3389/fpsyg.2015.00642","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1363.90,"10.3389/fpsyg.2015.00741","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,461.16,"10.3389/fpsyg.2015.00932","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1388.55,"10.3389/fpsyg.2015.00939","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1393.76,"10.3389/fpsyg.2015.01473","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1416.00,"10.3389/fpsyg.2015.01691","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1375.13,"10.3390/ijms16059749","International Journal of Molecular Sciences","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,734.55,"10.3402/tellusb.v67.25014","Tellus B: Chemical and Physical Meteorology","Informa UK Limited","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,4001.00,"10.3791/53188","Journal of Visualized Experiments","MyJove Corporation","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,3735.55,"10.3791/53423","Journal of Visualized Experiments","MyJove Corporation","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,3953.00,"10.3791/54193","Journal of Visualized Experiments","MyJove Corporation","TRUE",,
-"Swiss National Science Foundation (SNSF)",2015,803.85,"10.5194/acp-15-10999-2015","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1081.91,"10.5194/acp-15-11461-2015","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1225.97,"10.5194/acpd-15-15469-2015","Atmospheric Chemistry and Physics Discussions","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2015,1082.92,"10.5194/amt-8-5289-2015","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2338.64,"10.1002/2016GL071033","Geophysical Research Letters","Wiley-Blackwell","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,1573.44,"10.1002/ece3.2138","Ecology and Evolution","Wiley-Blackwell","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2419.40,"10.1007/s00010-015-0395-6","Aequationes mathematicae","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,2218.79,"10.1007/s00027-016-0465-4","Aquatic Sciences","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,983.99,"10.1016/j.atmosenv.2016.01.027","Atmospheric Environment","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,4465.78,"10.1016/j.celrep.2015.12.097","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,460.93,"10.1016/j.gdata.2016.03.004","Genomics Data","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1137.70,"10.1016/j.heliyon.2016.e00195","Heliyon","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1720.20,"10.1016/j.ijid.2016.08.028","International Journal of Infectious Diseases","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2496.84,"10.1016/j.jenvrad.2016.05.008","Journal of Environmental Radioactivity","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,2496.84,"10.1016/j.jenvrad.2016.05.009","Journal of Environmental Radioactivity","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,1814.02,"10.1016/j.molmet.2016.12.001","Molecular Metabolism","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1993.62,"10.1016/j.nima.2016.01.018","Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,903.52,"10.1016/j.pmedr.2016.03.004","Preventive Medicine Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2685.05,"10.1016/j.scitotenv.2016.06.035","Science of The Total Environment","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,3120.00,"10.1038/lsa.2016.74","Light: Science & Applications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,3771.00,"10.1038/ncomms10622","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,4096.43,"10.1038/ncomms10796","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,3750.00,"10.1038/ncomms10938","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,3307.16,"10.1038/ncomms11227","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,3832.13,"10.1038/ncomms11304","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,3675.00,"10.1038/ncomms11582","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,3869.00,"10.1038/ncomms11866","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,3868.53,"10.1038/ncomms11929","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,3768.00,"10.1038/ncomms13120","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1197.40,"10.1038/srep24780","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,351.18,"10.1038/srep25902","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1211.74,"10.1038/srep26312","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1189.40,"10.1038/srep29075","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1256.15,"10.1038/srep30088","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1182.54,"10.1038/srep30113","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1194.86,"10.1038/srep31010","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1189.40,"10.1038/srep31301","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1203.43,"10.1038/srep32896","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1202.19,"10.1038/srep33866","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1146.74,"10.1038/srep36623","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1151.55,"10.1038/srep38226","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1175.59,"10.1038/srep39229","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1148.56,"10.1038/srep40789","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2343.11,"10.1080/13639080.2016.1243234","Journal of Education and Work","Informa UK Limited","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,1814.60,"10.1088/1367-2630/18/1/013035","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1901.81,"10.1088/1367-2630/18/1/013036","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1633.14,"10.1088/1367-2630/18/3/035014","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2408.50,"10.1088/1748-0221/11/03/P03003","Journal of Instrumentation","IOP Publishing","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,1458.60,"10.1088/1748-9326/11/1/014010","Environmental Research Letters","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1395.51,"10.1088/1748-9326/11/5/054022","Environmental Research Letters","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,968.20,"10.1093/database/baw017","Database","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2592.06,"10.1093/femsec/fiw211","FEMS Microbiology Ecology","Oxford University Press (OUP)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,2156.21,"10.1093/nar/gkw313","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1931.22,"10.1098/rsob.160101","Open Biology","The Royal Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1547.49,"10.1103/PhysRevX.6.011007","Physical Review X","American Physical Society (APS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2538.24,"10.1103/PhysRevX.6.031021","Physical Review X","American Physical Society (APS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1660.49,"10.1103/PhysRevX.6.031027","Physical Review X","American Physical Society (APS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2406.36,"10.1103/PhysRevX.6.041020","Physical Review X","American Physical Society (APS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2724.00,"10.1111/jnc.13668","Journal of Neurochemistry","Wiley-Blackwell","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,2537.90,"10.1126/sciadv.1600285","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2857.00,"10.1126/sciadv.1600432","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1388.74,"10.1136/bmjopen-2015-010773","BMJ Open","BMJ","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,899.62,"10.1140/epjti/s40485-016-0032-3","EPJ Techniques and Instrumentation","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,550.18,"10.1155/2016/8536432","Journal of Electrical and Computer Engineering","Hindawi Limited","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2145.56,"10.1158/1535-7163.MCT-15-0583","Molecular Cancer Therapeutics","American Association for Cancer Research (AACR)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,3059.38,"10.1175/MWR-D-15-0419.1","Monthly Weather Review","American Meteorological Society","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,1089.43,"10.1177/0271678X16629482","Journal of Cerebral Blood Flow & Metabolism","SAGE Publications","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,733.24,"10.1177/0271678X16667525","Journal of Cerebral Blood Flow & Metabolism","SAGE Publications","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,1593.20,"10.1186/s12859-015-0776-9","BMC Bioinformatics","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1656.39,"10.1186/s12859-015-0785-8","BMC Bioinformatics","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1419.63,"10.1186/s12889-016-3589-5","BMC Public Health","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1957.76,"10.1186/s12931-015-0311-6","Respiratory Research","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,530.99,"10.1186/s13617-016-0050-5","Journal of Applied Volcanology","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1696.14,"10.1364/OE.24.010512","Optics Express","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1275.67,"10.1364/OPTICA.3.000020","Optica","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1032.74,"10.1371/journal.pcbi.1004848","PLOS Computational Biology","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2193.06,"10.1371/journal.pgen.1006056","PLOS Genetics","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2105.33,"10.1371/journal.pgen.1006160","PLOS Genetics","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1263.20,"10.1371/journal.pone.0145831","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1525.59,"10.1371/journal.pone.0150948","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1350.74,"10.1371/journal.pone.0152989","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1248.22,"10.1371/journal.pone.0155617","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1325.20,"10.1371/journal.pone.0157550","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1340.31,"10.1371/journal.pone.0160498","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1540.41,"10.1371/journal.pone.0168228","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1494.20,"10.1371/journal.pone.0168358","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1539.49,"10.1371/journal.pone.0170020","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1527.72,"10.1534/g3.116.032433","G3 - Genes|Genomes|Genetics","Genetics Society of America","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1527.72,"10.1534/g3.116.033225","G3 - Genes|Genomes|Genetics","Genetics Society of America","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1953.60,"10.1534/genetics.114.172023","Genetics","Genetics Society of America","TRUE",,
-"Swiss National Science Foundation (SNSF)",2016,2683.13,"10.18632/oncotarget.7114","Oncotarget","Impact Journals, LLC","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,837.00,"10.3389/fcell.2016.00035","Frontiers in Cell and Developmental Biology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2565.62,"10.3389/fcimb.2016.00191","Frontiers in Cellular and Infection Microbiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1805.45,"10.3389/fnhum.2016.00340","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2055.39,"10.3389/fnhum.2016.00406","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1413.98,"10.3389/fpsyg.2016.00391","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1387.04,"10.3390/polym8060208","Polymers","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1471.25,"10.5194/acp-16-15529-2016","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,986.92,"10.5194/acp-16-8341-2016","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1607.48,"10.5194/bg-13-2823-2016","Biogeosciences","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1099.73,"10.5194/cpd-11-5509-2015","Climate of the Past Discussions","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1178.42,"10.1002/asl.745","Atmospheric Science Letters","Wiley-Blackwell","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2963.95,"10.1002/joc.4974","International Journal of Climatology","Wiley-Blackwell","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,2273.03,"10.1007/s11240-017-1255-y","Plant Cell, Tissue and Organ Culture (PCTOC)","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,2870.36,"10.1016/j.ijsolstr.2016.12.029","International Journal of Solids and Structures","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,4452.37,"10.1016/j.molcel.2017.06.027","Molecular Cell","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,2914.00,"10.1038/lsa.2017.66","Light: Science & Applications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,3682.46,"10.1038/s41467-017-00509-4","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2698.89,"10.1038/s41467-017-01167-2","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,4201.00,"10.1038/s41467-017-01467-7","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1288.02,"10.1038/s41598-017-06519-y","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1385.43,"10.1038/s41598-017-12938-8","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1122.20,"10.1038/sdata.2017.76","Scientific Data","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1229.82,"10.1038/srep40938","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1288.02,"10.1038/srep43636","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1273.11,"10.1038/srep45257","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2295.96,"10.1080/13569783.2017.1329653","Research in Drama Education: The Journal of Applied Theatre and Performance","Informa UK Limited","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,2297.83,"10.1080/13636820.2016.1278397","Journal of Vocational Education & Training","Informa UK Limited","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,1482.19,"10.1088/1367-2630/aa591c","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1561.36,"10.1093/nar/gkx923","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1647.31,"10.1103/PhysRevApplied.7.044022","Physical Review Applied","American Physical Society (APS)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,2155.78,"10.1126/sciadv.1603119","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1284.40,"10.1186/s13321-017-0199-x","Journal of Cheminformatics","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1746.09,"10.1364/OE.25.011038","Optics Express","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1474.28,"10.1371/journal.pone.0170646","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,262.33,"10.3390/coatings7020020","Coatings","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,885.82,"10.5194/tc-11-217-2017","The Cryosphere","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2442.84,"10.7554/eLife.26524","eLife","eLife Sciences Organisation, Ltd.","FALSE",,
-"Swiss National Science Foundation (SNSF)",2013,838.96,,"American Journal of Nuclear Medicine and Molecular Imaging","e-Century Publishing Corporation","FALSE","2160-8407","http://ajnmmi.us/1209003A.html"
-"Swiss National Science Foundation (SNSF)",2017,1536.69,"10.1002/2016MS000778","Journal of Advances in Modeling Earth Systems","American Geophysical Union (AGU)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,984.53,"10.1002/advs.v5.6","Advanced Science","Wiley","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1421.81,"10.1002/cam4.1907","Cancer Medicine","Wiley","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2203.19,"10.1007/s11696-016-0094-3","Chemical Papers","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,4660.98,"10.1016/j.celrep.2017.08.075","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,4737.66,"10.1016/j.celrep.2017.12.020","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4554.63,"10.1016/j.celrep.2018.03.102","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4533.84,"10.1016/j.celrep.2018.04.076","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,3031.51,"10.1016/j.celrep.2018.10.088","Cell Reports","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2584.33,"10.1016/j.compositesb.2017.11.062","Composites Part B: Engineering","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2018,421.69,"10.1016/j.dib.2018.11.093","Data in Brief","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1737.86,"10.1016/j.ijpddr.2018.07.001","International Journal for Parasitology: Drugs and Drug Resistance","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2560.46,"10.1016/j.isci.2018.11.005","iScience","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1262.48,"10.1016/j.nbscr.2018.11.001","Neurobiology of Sleep and Circadian Rhythms","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2422.78,"10.1016/j.neuropsychologia.2018.08.021","Neuropsychologia","Elsevier BV","TRUE",,
-"Swiss National Science Foundation (SNSF)",2018,1482.42,"10.1016/j.nicl.2018.11.017","NeuroImage: Clinical","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,948.16,"10.1016/j.nme.2018.09.002","Nuclear Materials and Energy","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2313.84,"10.1016/j.omtm.2017.05.001","Molecular Therapy - Methods & Clinical Development","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1146.45,"10.1016/j.ssmph.2018.11.005","SSM - Population Health","Elsevier BV","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1483.28,"10.1017/aog.2018.25","Annals of Glaciology","Cambridge University Press (CUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1327.42,"10.1017/aog.2018.27","Annals of Glaciology","Cambridge University Press (CUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1493.45,"10.1017/jog.2016.38","Journal of Glaciology","Cambridge University Press (CUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1308.37,"10.1021/acs.langmuir.8b00953","Langmuir","American Chemical Society (ACS)","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,3687.58,"10.1038/ncomms11243","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,3626.87,"10.1038/ncomms16088","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,3193.43,"10.1038/s41398-018-0251-2","Translational Psychiatry","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,3189.97,"10.1038/s41398-018-0279-3","Translational Psychiatry","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2361.30,"10.1038/s41419-018-0754-z","Cell Death & Disease","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,3892.58,"10.1038/s41467-017-00823-x","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4191.81,"10.1038/s41467-018-05181-w","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,3943.30,"10.1038/s41467-018-05216-2","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4335.55,"10.1038/s41467-018-05879-x","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4484.49,"10.1038/s41467-018-05952-5","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4304.38,"10.1038/s41467-018-06025-3","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4205.67,"10.1038/s41467-018-06246-6","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4067.12,"10.1038/s41467-018-06417-5","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4084.44,"10.1038/s41467-018-07175-0","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4087.04,"10.1038/s41467-018-07238-2","Nature Communications","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,4514.79,"10.1038/s41467-018-07473-7","Nature Communications","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1279.68,"10.1038/s41598-017-00440-0","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1293.67,"10.1038/s41598-017-04263-x","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1425.01,"10.1038/s41598-017-06446-y","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1321.36,"10.1038/s41598-017-19020-3","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1413.15,"10.1038/s41598-018-20489-9","Scientific Reports","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1476.36,"10.1038/s41598-018-28728-9","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1486.75,"10.1038/s41598-018-29029-x","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1602.78,"10.1038/s41598-018-30864-1","Scientific Reports","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1448.65,"10.1038/s41598-018-35856-9","Scientific Reports","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1449.51,"10.1038/s41598-018-36499-6","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1991.57,"10.1038/s42004-018-0087-y","Communications Chemistry","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2263.46,"10.1038/s42005-018-0027-2","Communications Physics","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2371.13,"10.1038/sc.2017.100","Spinal Cord","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2018,1394.96,"10.1038/sdata.2018.270","Scientific Data","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,935.70,"10.1038/srep30724","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1265.82,"10.1038/srep43630","Scientific Reports","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,506.55,"10.1080/17445647.2018.1541196","Journal of Maps","Informa UK Limited","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1933.73,"10.1088/1361-6463/aa5b11","Journal of Physics D: Applied Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,1163.11,"10.1088/1367-2630/18/10/103027","New Journal of Physics","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2000.71,"10.1088/1748-9326/aa7416","Environmental Research Letters","IOP Publishing","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1711.02,"10.1093/gbe/evy100","Genome Biology and Evolution","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2513.70,"10.1093/nar/gky986","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1300.00,"10.1093/sysbio/syx051","Systematic Biology","Oxford University Press (OUP)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2579.51,"10.1103/PhysRevX.8.021067","Physical Review X","American Physical Society (APS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,840.79,"10.1111/jsr.12754","Journal of Sleep Research","Wiley","TRUE",,
-"Swiss National Science Foundation (SNSF)",2018,3560.57,"10.1126/sciadv.aar6297","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,3687.45,"10.1126/sciadv.aat2720","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,3804.76,"10.1126/sciadv.aat6031","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,801.02,"10.1127/metz/2016/0832","Meteorologische Zeitschrift","Schweizerbart","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2222.75,"10.1128/mBio.01231-16","mBio","American Society for Microbiology","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1589.90,"10.1136/bmjopen-2017-017369","BMJ Open","BMJ","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1618.36,"10.1136/bmjopen-2018-023532","BMJ Open","BMJ","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1200.14,"10.1136/rmdopen-2018-000678","RMD Open","BMJ","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1068.76,"10.1140/epjd/e2017-70774-9","The European Physical Journal D","Springer Nature","TRUE",,
-"Swiss National Science Foundation (SNSF)",2017,1720.09,"10.1155/2017/4627384","Journal of Immunology Research","Hindawi Limited","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1108.35,"10.1155/2018/5849047","Contrast Media & Molecular Imaging","Hindawi Limited","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1633.08,"10.1167/18.6.1","Journal of Vision","Association for Research in Vision and Ophthalmology (ARVO)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1611.44,"10.1167/18.9.19","Journal of Vision","Association for Research in Vision and Ophthalmology (ARVO)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,591.41,"10.1177/1176934318821072","Evolutionary Bioinformatics","SAGE Publication","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,618.74,"10.1177/2514183X18761146","Clinical and Translational Neuroscience","SAGE Publications","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1362.04,"10.1186/s12862-017-1073-1","BMC Evolutionary Biology","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1890.26,"10.1186/s12884-018-2150-1","BMC Pregnancy and Childbirth","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2121.45,"10.1186/s13047-018-0257-2","Journal of Foot and Ankle Research","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,690.12,"10.1186/s40623-017-0774-4","Earth, Planets and Space","Springer Nature","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1947.41,"10.1186/s41120-018-0027-z","AAPS Open","Springer Nature America, Inc","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1745.28,"10.1364/OE.25.009318","Optics Express","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1727.47,"10.1364/OE.26.028461","Optics Express","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2001.96,"10.1364/OPTICA.5.001150","Optica","The Optical Society","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2644.91,"10.1371/journal.pbio.2003467","PLOS Biology","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2563.92,"10.1371/journal.pbio.2006671","PLOS Biology","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2093.74,"10.1371/journal.pcbi.1006119","PLOS Computational Biology","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2019.67,"10.1371/journal.pgen.1007150","PLOS Genetics","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1358.53,"10.1371/journal.pone.0173433","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1290.07,"10.1371/journal.pone.0183519","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1323.00,"10.1371/journal.pone.0186109","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1310.97,"10.1371/journal.pone.0197477","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1320.49,"10.1371/journal.pone.0197731","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1283.26,"10.1371/journal.pone.0202745","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1286.72,"10.1371/journal.pone.0208175","PLOS ONE","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1989.83,"10.1371/journal.ppat.1007335","PLOS Pathogens","Public Library of Science (PLoS)","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1683.31,"10.1523/ENEURO.0167-18.2018","eneuro","Society for Neuroscience","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,3335.44,"10.15252/msb.20178102","Molecular Systems Biology","EMBO","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1142.99,"10.17645/si.v6i2.1318","Social Inclusion","Cogitatio","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,87.26,"10.22203/eCM.v036a17","European Cells and Materials","ECM Research Journal","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2358.83,"10.3389/fimmu.2017.01037","Frontiers in Immunology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2718.05,"10.3389/fimmu.2018.03040","Frontiers in Immunology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2016,2093.41,"10.3389/fmicb.2016.01475","Frontiers in Microbiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1371.58,"10.3389/fmicb.2018.02974","Frontiers in Microbiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2750.96,"10.3389/fnbeh.2018.00146","Frontiers in Behavioral Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1718.81,"10.3389/fnbeh.2018.00305","Frontiers in Behavioral Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2420.00,"10.3389/fncel.2017.00317","Frontiers in Cellular Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1106.19,"10.3389/fnhum.2017.00131","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1131.73,"10.3389/fnins.2018.00912","Frontiers in Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2419.10,"10.3389/fnmol.2017.00008","Frontiers in Molecular Neuroscience","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2743.17,"10.3389/fphys.2018.01184","Frontiers in Physiology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,2056.39,"10.3389/fpsyg.2017.02065","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2730.18,"10.3389/fpsyg.2018.02049","Frontiers in Psychology","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2077.29,"10.3389/fpsyt.2018.00649","Frontiers in Psychiatry","Frontiers Media SA","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1305.77,"10.3390/app8071069","Applied Sciences","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,978.47,"10.3390/atmos9050171","Atmosphere","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,245.05,"10.3390/cli5040096","Climate","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,522.14,"10.3390/cryst8100389","Crystals","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1457.40,"10.3390/e19070326","Entropy","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1259.02,"10.3390/nu10121826","Nutrients","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1071.98,"10.3390/polym10111188","Polymers","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,909.19,"10.3390/polym10121369","Polymers","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,839.06,"10.3390/su10103823","Sustainability","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,978.47,"10.3390/su10114001","Sustainability","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1445.18,"10.3390/v10120687","Viruses","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1398.43,"10.3390/w10070930","Water","MDPI AG","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1812.75,"10.5194/amt-10-1335-2017","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2096.34,"10.5194/se-9-167-2018","Solid Earth","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2917.21,"10.5194/se-9-191-2018","Solid Earth","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1539.57,"10.5194/tc-11-1311-2017","The Cryosphere","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,1122.74,"10.5194/tc-11-1797-2017","The Cryosphere","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,1454.71,"10.5194/tc-12-721-2018","The Cryosphere","Copernicus GmbH","FALSE",,
-"Swiss National Science Foundation (SNSF)",2017,718.80,"10.5772/65113","Raman Spectroscopy and Applications","InTech","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2188.99,"10.7554/eLife.31670","eLife","eLife Sciences Publications, Ltd","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2130.11,"10.7554/eLife.36330","eLife","eLife Sciences Publications, Ltd","FALSE",,
-"Swiss National Science Foundation (SNSF)",2018,2117.99,"10.7554/eLife.39196","eLife","eLife Sciences Publications, Ltd","FALSE",,
+"institution",period,euro,"doi","journal_full_title","publisher","is_hybrid","issn","url","related_snsf_grant",invoice_original_amount,"invoice_original_currency"
+"Swiss National Science Foundation (SNSF)",2011,896.45,"10.1371/journal.pone.0024555","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"128675",1215.00,"USD"
+"Swiss National Science Foundation (SNSF)",2012,929.92,"10.1371/journal.pntd.0001889","PLoS Neglected Tropical Diseases","Public Library of Science (PLoS)","FALSE",,,"123900",1125.00,"USD"
+"Swiss National Science Foundation (SNSF)",2012,1784.42,"10.1371/journal.ppat.1002976","PLoS Pathogens","Public Library of Science (PLoS)","FALSE",,,"141222",2250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2012,972.18,"10.3389/fmicb.2012.00106","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"123048",972.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2012,1254.45,"10.3390/ijms14010684","International Journal of Molecular Sciences","MDPI AG","FALSE",,,"122478",1512.00,"CHF"
+"Swiss National Science Foundation (SNSF)",2013,838.95,,"American Journal of Nuclear Medicine and Molecular Imaging","e-Century Publishing Corporation","FALSE","2160-8407","http://ajnmmi.us/1209003A.html","127978",980.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,1354.12,"10.1002/mbo3.98","MicrobiologyOpen","Wiley-Blackwell","FALSE",,,"131851",1320.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,1958.69,"10.1007/s11356-012-1228-y","Environmental Science and Pollution Research","Springer Nature","TRUE",,,"129618",2000.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,1351.15,"10.1016/j.emospa.2013.12.003","Emotion, Space and Society","Elsevier BV","TRUE",,,"128577",1324.89,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,1916.83,"10.1016/j.epsl.2013.09.017","Earth and Planetary Science Letters","Elsevier BV","TRUE",,,"146889",2400.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,1368.78,"10.1016/j.jmb.2013.12.020","Journal of Molecular Biology","Elsevier BV","TRUE",,,"141084",1324.89,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,674.17,"10.1186/1742-9994-10-49","Frontiers in Zoology","Springer Nature","FALSE",,,"123520",556.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2013,1718.96,"10.1371/journal.pgen.1004027","PLoS Genetics","Public Library of Science (PLoS)","FALSE",,,"149499",2250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,1708.63,"10.1371/journal.pntd.0002475","PLoS Neglected Tropical Diseases","Public Library of Science (PLoS)","FALSE",,,"135746",2250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,918.56,"10.1371/journal.pone.0069473","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"141225",1215.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,1013.28,"10.1371/journal.pone.0072876","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"123346",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,927.44,"10.1371/journal.pone.0074249","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"141067",1215.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,1020.07,"10.1371/journal.pone.0082741","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"146344",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,1736.14,"10.3389/fnana.2013.00034","Frontiers in Neuroanatomy","Frontiers Media SA","FALSE",,,"141244",1728.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,1076.54,"10.3389/fnhum.2013.00418","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,,"140060",1036.80,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,1038.74,"10.3389/fnhum.2014.00381","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,,"149315",1036.80,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,1155.35,"10.3390/molecules18055104","Molecules","MDPI AG","FALSE",,,"127978",1422.00,"CHF"
+"Swiss National Science Foundation (SNSF)",2013,710.76,"10.4172/2155-9872.S1-007","Journal of Analytical & Bioanalytical Techniques","OMICS Publishing Group","FALSE",,,"126834",919.00,"USD"
+"Swiss National Science Foundation (SNSF)",2013,1160.38,"10.5194/acpd-13-23325-2013","Atmospheric Chemistry and Physics Discussions","Copernicus GmbH","FALSE",,,"131673",1363.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,1407.70,"10.5194/amt-6-3225-2013","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,,"131673",1128.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,1041.96,"10.5194/amt-6-3649-2013","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,,"131673",1015.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2013,391.09,"10.7717/peerj.188","PeerJ","PeerJ","FALSE",,,"133598",497.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,2463.15,"10.1002/hbm.22599","Human Brain Mapping","Wiley-Blackwell","TRUE",,,"146318",3000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,2207.83,"10.1002/qua.24686","International Journal of Quantum Chemistry","Wiley-Blackwell","TRUE",,,"144458",3000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,2262.38,"10.1007/s00477-014-0906-3","Stochastic Environmental Research and Risk Assessment","Springer Nature","TRUE",,,"138104",2200.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,2232.74,"10.1007/s12520-014-0221-4","Archaeological and Anthropological Sciences","Springer Nature","TRUE",,,"149583",,
+"Swiss National Science Foundation (SNSF)",2014,1693.36,"10.1016/j.neuroscience.2013.12.051","Neuroscience","Elsevier BV","TRUE",,,"140754",1619.31,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1595.59,"10.1016/j.toxlet.2014.09.004","Toxicology Letters","Elsevier BV","TRUE",,,"135678",1607.01,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,2048.45,"10.1017/S0007123413000495","British Journal of Political Science","Cambridge University Press (CUP)","TRUE",,,"139035",2700.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,854.17,"10.1038/jcbfm.2014.112","Journal of Cerebral Blood Flow & Metabolism","SAGE Publications","TRUE",,,"145470",1134.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,2614.28,"10.1038/mp.2014.145","Molecular Psychiatry","Springer Nature","TRUE",,,"144902",2600.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,471.02,"10.1038/sdata.2014.22","Scientific Data","Springer Nature","FALSE",,,"138932",470.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1065.67,"10.1063/1.4905265","AIP Advances","AIP Publishing","FALSE",,,"153177",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,1462.98,"10.1093/gbe/evu099","Genome Biology and Evolution","Oxford University Press (OUP)","FALSE",,,"131726",1463.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1089.49,"10.1093/nar/gku1059","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"138367",1065.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1101.75,"10.1093/nar/gku131","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"138667",1065.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1533.97,"10.1093/nar/gku537","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"146331",1515.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,2193.87,"10.1093/nar/gku759","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"138367",2130.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1306.16,"10.1093/sysbio/syv001","Systematic Biology","Oxford University Press (OUP)","TRUE",,,"136820",1300.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1869.76,"10.1098/rstb.2013.0592","Philosophical Transactions of the Royal Society B: Biological Sciences","The Royal Society","TRUE",,,"140999",1440.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2014,1595.95,"10.1104/pp.114.239137","PLANT PHYSIOLOGY","American Society of Plant Biologists (ASPB)","TRUE",,,"142620",,
+"Swiss National Science Foundation (SNSF)",2014,246.82,"10.1111/ele.12242","Ecology Letters","Wiley-Blackwell","TRUE",,,"138104",242.72,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,2061.45,"10.1111/mmi.12777","Molecular Microbiology","Wiley-Blackwell","TRUE",,,"147090",2550.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,2074.71,"10.1159/000366360","Cellular Physiology and Biochemistry","S. Karger AG","FALSE",,,"155959",,
+"Swiss National Science Foundation (SNSF)",2014,874.46,"10.1175/JTECH-D-13-00206.1","Journal of Atmospheric and Oceanic Technology","American Meteorological Society","TRUE",,,"132122",1160.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,1540.72,"10.1177/1759091414548916","ASN Neuro","SAGE Publications","FALSE",,,"141185",1950.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,643.69,"10.1186/1471-2407-14-46","BMC Cancer","Springer Nature","FALSE",,,"141225",516.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2014,675.51,"10.1186/1476-4598-13-119","Molecular Cancer","Springer Nature","FALSE",,,"147697",530.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2014,669.65,"10.1186/1477-7827-12-46","Reproductive Biology and Endocrinology","Springer Nature","FALSE",,,"140947",492.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2014,1402.04,"10.1186/s40359-014-0037-0","BMC Psychology","Springer Nature","FALSE",,,"149416",1126.25,"GBP"
+"Swiss National Science Foundation (SNSF)",2014,1426.32,"10.1364/OE.22.020871","Optics Express","The Optical Society","FALSE",,,"132461",1849.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,1092.33,"10.1371/journal.pone.0089743","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"128064",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,893.57,"10.1371/journal.pone.0093863","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"141216",1215.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,1011.42,"10.1371/journal.pone.0099883","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"146265",,
+"Swiss National Science Foundation (SNSF)",2014,1092.33,"10.1371/journal.pone.0104838","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"146127",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,1029.12,"10.1371/journal.pone.0108648","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"140338",,
+"Swiss National Science Foundation (SNSF)",2014,1054.09,"10.1371/journal.pone.0111080","PLoS ONE","Public Library of Science (PLoS)","FALSE",,,"140991",,
+"Swiss National Science Foundation (SNSF)",2014,899.45,"10.1371/journal.ppat.1004166","PLoS Pathogens","Public Library of Science (PLoS)","FALSE",,,"149784",,
+"Swiss National Science Foundation (SNSF)",2014,1473.80,"10.1371/journal.ppat.1004187","PLoS Pathogens","Public Library of Science (PLoS)","FALSE",,,"149886",2025.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,3008.00,"10.15252/msb.20145247","Molecular Systems Biology","EMBO","FALSE",,,"141181",3810.00,"USD"
+"Swiss National Science Foundation (SNSF)",2014,388.75,"10.3189/2014JoG13J084","Journal of Glaciology","Cambridge University Press (CUP)","TRUE",,,"144390",2300.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2014,1066.99,"10.3389/fgene.2014.00192","Frontiers in Genetics","Frontiers Media SA","FALSE",,,"142603",1036.80,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1728.29,"10.3389/fimmu.2014.00661","Frontiers in Immunology","Frontiers Media SA","FALSE",,,"149769",,
+"Swiss National Science Foundation (SNSF)",2014,1066.99,"10.3389/fmicb.2014.00324","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"144053",,
+"Swiss National Science Foundation (SNSF)",2014,1704.22,"10.3389/fnagi.2014.00314","Frontiers in Aging Neuroscience","Frontiers Media SA","FALSE",,,"140338",,
+"Swiss National Science Foundation (SNSF)",2014,1075.18,"10.3389/fnbeh.2014.00008","Frontiers in Behavioral Neuroscience","Frontiers Media SA","FALSE",,,"142663",1036.80,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,846.92,"10.3389/fphys.2014.00522","Frontiers in Physiology","Frontiers Media SA","FALSE",,,"140957",831.60,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1794.40,"10.3389/fpsyg.2014.00043","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"140796",1728.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1069.98,"10.3389/fpsyg.2014.00493","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"140796",1036.80,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1054.36,"10.3389/fpsyg.2014.00586","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"140796",1036.80,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,871.38,"10.3390/ijerph110505049","International Journal of Environmental Research and Public Health","MDPI AG","FALSE",,,"135673",,
+"Swiss National Science Foundation (SNSF)",2014,714.46,"10.5194/amt-10-4421-2017","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,,"146388",648.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,989.68,"10.5194/gmd-7-2733-2014","Geoscientific Model Development","Copernicus GmbH","FALSE",,,"138104",960.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,1024.76,"10.5194/hess-18-3015-2014","Hydrology and Earth System Sciences","Copernicus GmbH","FALSE",,,"134614",,
+"Swiss National Science Foundation (SNSF)",2014,1449.36,"10.5194/nhess-14-2265-2014","Natural Hazards and Earth System Science","Copernicus GmbH","FALSE",,,"149285",1407.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2014,226.51,"10.5539/ijms.v6n1p31","International Journal of Marketing Studies","Canadian Center of Science and Education","FALSE",,,"143395",300.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,2962.00,"10.1016/j.celrep.2015.01.061","Cell Reports","Elsevier BV","FALSE",,,"140940",5000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,5000.00,"10.1016/j.celrep.2015.01.063","Cell Reports","Elsevier BV","FALSE",,,"147637",5000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,4636.00,"10.1016/j.celrep.2015.06.051","Cell Reports","Elsevier BV","FALSE",,,"155940",5000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,2160.20,"10.1016/j.coldregions.2015.06.016","Cold Regions Science and Technology","Elsevier BV","TRUE",,,"144392",2214.75,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,2255.79,"10.1016/j.sna.2015.06.014","Sensors and Actuators A: Physical","Elsevier BV","TRUE",,,"135496",2303.34,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1390.03,"10.1016/j.ydbio.2014.12.002","Developmental Biology","Elsevier BV","TRUE",,,"147675",1436.44,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1713.31,"10.1038/celldisc.2015.49","Cell Discovery","Springer Nature","FALSE",,,"146216",1500.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,3727.52,"10.1038/ncomms7646","Nature Communications","Springer Nature","FALSE",,,"156940",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,3700.00,"10.1038/ncomms8494","Nature Communications","Springer Nature","FALSE",,,"156764",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,3988.86,"10.1038/ncomms8751","Nature Communications","Springer Nature","FALSE",,,"146318",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,4024.00,"10.1038/ncomms8837","Nature Communications","Springer Nature","FALSE",,,"141843",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,3728.00,"10.1038/ncomms9141","Nature Communications","Springer Nature","FALSE",,,"154488",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,3700.00,"10.1038/ncomms9675","Nature Communications","Springer Nature","FALSE",,,"138068",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,3817.00,"10.1038/ncomms9757","Nature Communications","Springer Nature","FALSE",,,"150046",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,4048.00,"10.1038/ncomms9892","Nature Communications","Springer Nature","FALSE",,,"150079",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,372.09,"10.1038/sdata.2015.33","Scientific Data","Springer Nature","FALSE",,,"149128",350.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1307.54,"10.1038/srep07655","Scientific Reports","Springer Nature","FALSE",,,"130331",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1250.92,"10.1038/srep10132","Scientific Reports","Springer Nature","FALSE",,,"146127",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1181.68,"10.1038/srep13460","Scientific Reports","Springer Nature","FALSE",,,"143359",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1200.06,"10.1038/srep16181","Scientific Reports","Springer Nature","FALSE",,,"156188",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1181.08,"10.1038/srep16433","Scientific Reports","Springer Nature","FALSE",,,"159194",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1196.83,"10.1038/srep18733","Scientific Reports","Springer Nature","FALSE",,,"157420",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,2969.73,"10.1038/tp.2015.19","Translational Psychiatry","Springer Nature","FALSE",,,"155952",2600.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,447.83,"10.1051/0004-6361/201525980","Astronomy & Astrophysics","EDP Sciences","TRUE",,,"146613",400.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,2063.52,"10.1063/1.4921068","APL Materials","AIP Publishing","FALSE",,,"152800",,
+"Swiss National Science Foundation (SNSF)",2015,2126.19,"10.1084/jem.20140137","The Journal of Experimental Medicine","Rockefeller University Press","TRUE",,,"153457",,
+"Swiss National Science Foundation (SNSF)",2015,1555.00,"10.1088/1367-2630/16/12/123013","New Journal of Physics","IOP Publishing","FALSE",,,"138960",1440.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1370.50,"10.1088/1367-2630/16/12/123050","New Journal of Physics","IOP Publishing","FALSE",,,"138917",1344.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1194.68,"10.1088/1367-2630/17/11/112002","New Journal of Physics","IOP Publishing","FALSE",,,"149901",1170.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1397.04,"10.1088/1367-2630/17/11/113029","New Journal of Physics","IOP Publishing","FALSE",,,"155818",,
+"Swiss National Science Foundation (SNSF)",2015,520.89,"10.1088/2041-8205/815/1/L11","The Astrophysical Journal","IOP Publishing","TRUE",,,"146613",,
+"Swiss National Science Foundation (SNSF)",2015,1935.03,"10.1093/molbev/msv270","Molecular Biology and Evolution","Oxford University Press (OUP)","TRUE",,,"148255",1875.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,2069.34,"10.1093/nar/gku1260","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"157019",,
+"Swiss National Science Foundation (SNSF)",2015,2168.87,"10.1093/nar/gkv1229","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"149711",,
+"Swiss National Science Foundation (SNSF)",2015,2274.76,"10.1093/nar/gkv282","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"149626",,
+"Swiss National Science Foundation (SNSF)",2015,673.24,"10.1093/nar/gkv827","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"143772",,
+"Swiss National Science Foundation (SNSF)",2015,2187.62,"10.1097/COH.0000000000000136","Current Opinion in HIV and AIDS","Ovid Technologies (Wolters Kluwer Health)","TRUE",,,"146579",,
+"Swiss National Science Foundation (SNSF)",2015,1567.07,"10.1103/PhysRevX.5.021009","Physical Review X","American Physical Society (APS)","FALSE",,,"156100",1700.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,539.35,"10.1103/PhysRevX.5.031010","Physical Review X","American Physical Society (APS)","FALSE",,,"138917",504.21,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,2683.01,"10.1111/2041-210X.12427","Methods in Ecology and Evolution","Wiley-Blackwell","TRUE",,,"149741",3000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,2297.75,"10.1128/mBio.00952-15","mBio","American Society for Microbiology","FALSE",,,"140758",2440.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1740.73,"10.1186/s12862-015-0527-6","BMC Evolutionary Biology","Springer Nature","FALSE",,,"143768",1214.50,"GBP"
+"Swiss National Science Foundation (SNSF)",2015,1738.54,"10.1186/s12983-015-0106-0","Frontiers in Zoology","Springer Nature","FALSE",,,"143732",1249.50,"GBP"
+"Swiss National Science Foundation (SNSF)",2015,1712.42,"10.1186/s13047-015-0095-4","Journal of Foot and Ankle Research","Springer Nature","FALSE",,,"140928",,
+"Swiss National Science Foundation (SNSF)",2015,488.15,"10.1186/s40064-015-0784-2","SpringerPlus","Springer Nature","FALSE",,,"144090",,
+"Swiss National Science Foundation (SNSF)",2015,1711.53,"10.1364/OE.23.009109","Optics Express","The Optical Society","FALSE",,,"160113",1849.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1709.80,"10.1364/OE.23.023845","Optics Express","The Optical Society","FALSE",,,"160113",1849.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1772.38,"10.1364/OE.23.032158","Optics Express","The Optical Society","FALSE",,,"160113",1849.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,894.34,"10.1364/OPTICA.2.000631","Optica","The Optical Society","FALSE",,,"149537",1000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,2148.66,"10.1371/journal.pgen.1005565","PLOS Genetics","Public Library of Science (PLoS)","FALSE",,,"156764",2250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,2650.66,"10.1371/journal.pmed.1001788","PLOS Medicine","Public Library of Science (PLoS)","FALSE",,,"134889",,
+"Swiss National Science Foundation (SNSF)",2015,1140.47,"10.1371/journal.pone.0117744","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"140697",,
+"Swiss National Science Foundation (SNSF)",2015,1137.52,"10.1371/journal.pone.0120984","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"155942",,
+"Swiss National Science Foundation (SNSF)",2015,1250.01,"10.1371/journal.pone.0121238","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"132010",,
+"Swiss National Science Foundation (SNSF)",2015,1365.03,"10.1371/journal.pone.0125104","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"152829",,
+"Swiss National Science Foundation (SNSF)",2015,1230.17,"10.1371/journal.pone.0125603","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"144093",,
+"Swiss National Science Foundation (SNSF)",2015,1263.91,"10.1371/journal.pone.0127691","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"141228",,
+"Swiss National Science Foundation (SNSF)",2015,1289.19,"10.1371/journal.pone.0128108","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"153125",,
+"Swiss National Science Foundation (SNSF)",2015,1226.00,"10.1371/journal.pone.0128478","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"149438",,
+"Swiss National Science Foundation (SNSF)",2015,1179.65,"10.1371/journal.pone.0129384","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"152972",,
+"Swiss National Science Foundation (SNSF)",2015,1223.22,"10.1371/journal.pone.0129812","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"156073",,
+"Swiss National Science Foundation (SNSF)",2015,1337.73,"10.1371/journal.pone.0130177","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"156156",,
+"Swiss National Science Foundation (SNSF)",2015,1337.73,"10.1371/journal.pone.0131618","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"144068",,
+"Swiss National Science Foundation (SNSF)",2015,1207.37,"10.1371/journal.pone.0132574","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"153091",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1251.93,"10.1371/journal.pone.0136636","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"147104",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1289.19,"10.1371/journal.pone.0140223","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"153125",,
+"Swiss National Science Foundation (SNSF)",2015,1284.52,"10.1371/journal.pone.0142435","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"150637",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1277.06,"10.1371/journal.pone.0143293","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"159984",,
+"Swiss National Science Foundation (SNSF)",2015,1300.80,"10.1371/journal.pone.0143327","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"157207",,
+"Swiss National Science Foundation (SNSF)",2015,1286.69,"10.1371/journal.pone.0144363","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"159362",,
+"Swiss National Science Foundation (SNSF)",2015,1864.27,"10.15252/embj.201490434","The EMBO Journal","EMBO","TRUE",,,"141248",1850.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,2552.14,"10.15252/emmm.201405003","EMBO Molecular Medicine","EMBO","FALSE",,,"143898",2508.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1571.05,"10.3189/2016AoG71A059","Annals of Glaciology","Cambridge University Press (CUP)","TRUE",,,"146761",1040.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2015,1855.64,"10.3389/fcimb.2015.00076","Frontiers in Cellular and Infection Microbiology","Frontiers Media SA","FALSE",,,"156169",,
+"Swiss National Science Foundation (SNSF)",2015,1959.57,"10.3389/feart.2015.00091","Frontiers in Earth Science","Frontiers Media SA","FALSE",,,"143325",,
+"Swiss National Science Foundation (SNSF)",2015,1358.96,"10.3389/fgene.2015.00150","Frontiers in Genetics","Frontiers Media SA","FALSE",,,"141940",1382.40,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,490.78,"10.3389/fgene.2015.00322","Frontiers in Genetics","Frontiers Media SA","FALSE",,,"154773",476.93,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1371.90,"10.3389/fimmu.2015.00297","Frontiers in Immunology","Frontiers Media SA","FALSE",,,"141918",,
+"Swiss National Science Foundation (SNSF)",2015,378.38,"10.3389/fmicb.2015.00247","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"141166",,
+"Swiss National Science Foundation (SNSF)",2015,1997.03,"10.3389/fnana.2014.00166","Frontiers in Neuroanatomy","Frontiers Media SA","FALSE",,,"149499",1728.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1529.98,"10.3389/fnint.2015.00051","Frontiers in Integrative Neuroscience","Frontiers Media SA","FALSE",,,"144187",1539.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1440.86,"10.3389/fpls.2015.01008","Frontiers in Plant Science","Frontiers Media SA","FALSE",,,"136295",1539.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1165.69,"10.3389/fpsyg.2014.01573","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"128616",1036.80,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1387.24,"10.3389/fpsyg.2015.00642","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"140503",1539.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1363.90,"10.3389/fpsyg.2015.00741","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"147154",1539.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,461.16,"10.3389/fpsyg.2015.00932","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"140503",459.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1388.56,"10.3389/fpsyg.2015.00939","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"140503",1539.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1393.77,"10.3389/fpsyg.2015.01473","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"140503",1490.40,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1416.00,"10.3389/fpsyg.2015.01691","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"144187",1539.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,1375.14,"10.3390/ijms16059749","International Journal of Molecular Sciences","MDPI AG","FALSE",,,"149718",,
+"Swiss National Science Foundation (SNSF)",2015,734.55,"10.3402/tellusb.v67.25014","Tellus B: Chemical and Physical Meteorology","Informa UK Limited","FALSE",,,"140228",750.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,4001.00,"10.3791/53188","Journal of Visualized Experiments","MyJove Corporation","TRUE",,,"140230",,
+"Swiss National Science Foundation (SNSF)",2015,3735.57,"10.3791/53423","Journal of Visualized Experiments","MyJove Corporation","TRUE",,,"153122",4200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,3953.00,"10.3791/54193","Journal of Visualized Experiments","MyJove Corporation","TRUE",,,"160174",4200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2015,803.85,"10.5194/acp-15-10999-2015","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,,"160048",,
+"Swiss National Science Foundation (SNSF)",2015,1081.91,"10.5194/acp-15-11461-2015","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,,"147659",1000.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1225.98,"10.5194/acpd-15-15469-2015","Atmospheric Chemistry and Physics Discussions","Copernicus GmbH","FALSE",,,"140663",1249.50,"EUR"
+"Swiss National Science Foundation (SNSF)",2015,1082.92,"10.5194/amt-8-5289-2015","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,,"136273",1071.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,2338.64,"10.1002/2016GL071033","Geophysical Research Letters","Wiley-Blackwell","TRUE",,,"157627",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1573.44,"10.1002/ece3.2138","Ecology and Evolution","Wiley-Blackwell","FALSE",,,"152929",1530.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,2419.40,"10.1007/s00010-015-0395-6","Aequationes mathematicae","Springer Nature","TRUE",,,"146477",,
+"Swiss National Science Foundation (SNSF)",2016,2218.79,"10.1007/s00027-016-0465-4","Aquatic Sciences","Springer Nature","TRUE",,,"153091",,
+"Swiss National Science Foundation (SNSF)",2016,983.99,"10.1016/j.atmosenv.2016.01.027","Atmospheric Environment","Elsevier BV","TRUE",,,"159194",981.79,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,4465.78,"10.1016/j.celrep.2015.12.097","Cell Reports","Elsevier BV","FALSE",,,"159318",5000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,460.93,"10.1016/j.gdata.2016.03.004","Genomics Data","Elsevier BV","FALSE",,,"157528",446.27,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1137.70,"10.1016/j.heliyon.2016.e00195","Heliyon","Elsevier BV","FALSE",,,"149589",1127.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1720.20,"10.1016/j.ijid.2016.08.028","International Journal of Infectious Diseases","Elsevier BV","FALSE",,,"154730",,
+"Swiss National Science Foundation (SNSF)",2016,2496.84,"10.1016/j.jenvrad.2016.05.008","Journal of Environmental Radioactivity","Elsevier BV","TRUE",,,"146018",,
+"Swiss National Science Foundation (SNSF)",2016,2496.84,"10.1016/j.jenvrad.2016.05.009","Journal of Environmental Radioactivity","Elsevier BV","TRUE",,,"146018",,
+"Swiss National Science Foundation (SNSF)",2016,1814.02,"10.1016/j.molmet.2016.12.001","Molecular Metabolism","Elsevier BV","FALSE",,,"154499",1803.92,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1993.62,"10.1016/j.nima.2016.01.018","Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment","Elsevier BV","TRUE",,,"159754",1963.59,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,903.52,"10.1016/j.pmedr.2016.03.004","Preventive Medicine Reports","Elsevier BV","FALSE",,,"156385",,
+"Swiss National Science Foundation (SNSF)",2016,2685.05,"10.1016/j.scitotenv.2016.06.035","Science of The Total Environment","Elsevier BV","TRUE",,,"146018",,
+"Swiss National Science Foundation (SNSF)",2016,1493.45,"10.1017/jog.2016.38","Journal of Glaciology","Cambridge University Press (CUP)","FALSE",,,"156098",1642.50,"USD"
+"Swiss National Science Foundation (SNSF)",2016,3120.00,"10.1038/lsa.2016.74","Light: Science & Applications","Springer Nature","FALSE",,,"157132",3000.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,3771.00,"10.1038/ncomms10622","Nature Communications","Springer Nature","FALSE",,,"157607",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,4096.43,"10.1038/ncomms10796","Nature Communications","Springer Nature","FALSE",,,"144811",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,3750.00,"10.1038/ncomms10938","Nature Communications","Springer Nature","FALSE",,,"149390",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,3307.16,"10.1038/ncomms11227","Nature Communications","Springer Nature","FALSE",,,"152801",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,3832.13,"10.1038/ncomms11304","Nature Communications","Springer Nature","FALSE",,,"139121",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,3675.00,"10.1038/ncomms11582","Nature Communications","Springer Nature","FALSE",,,"141918",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,3869.00,"10.1038/ncomms11866","Nature Communications","Springer Nature","FALSE",,,"140869",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,3868.53,"10.1038/ncomms11929","Nature Communications","Springer Nature","FALSE",,,"139120",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,3768.00,"10.1038/ncomms13120","Nature Communications","Springer Nature","FALSE",,,"156106",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1197.40,"10.1038/srep24780","Scientific Reports","Springer Nature","FALSE",,,"147998",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,351.18,"10.1038/srep25902","Scientific Reports","Springer Nature","FALSE",,,"157187",247.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,1211.74,"10.1038/srep26312","Scientific Reports","Springer Nature","FALSE",,,"163453",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1189.40,"10.1038/srep29075","Scientific Reports","Springer Nature","FALSE",,,"142511",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1256.15,"10.1038/srep30088","Scientific Reports","Springer Nature","FALSE",,,"159714",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1182.54,"10.1038/srep30113","Scientific Reports","Springer Nature","FALSE",,,"143283",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,935.70,"10.1038/srep30724","Scientific Reports","Springer Nature","FALSE",,,"152457",932.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1194.86,"10.1038/srep31010","Scientific Reports","Springer Nature","FALSE",,,"155892",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1189.40,"10.1038/srep31301","Scientific Reports","Springer Nature","FALSE",,,"143969",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1203.43,"10.1038/srep32896","Scientific Reports","Springer Nature","FALSE",,,"141325",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1202.19,"10.1038/srep33866","Scientific Reports","Springer Nature","FALSE",,,"157627",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1146.74,"10.1038/srep36623","Scientific Reports","Springer Nature","FALSE",,,"143971",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1151.55,"10.1038/srep38226","Scientific Reports","Springer Nature","FALSE",,,"154741",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1175.59,"10.1038/srep39229","Scientific Reports","Springer Nature","FALSE",,,"162388",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1148.56,"10.1038/srep40789","Scientific Reports","Springer Nature","FALSE",,,"160760",,
+"Swiss National Science Foundation (SNSF)",2016,2343.11,"10.1080/13639080.2016.1243234","Journal of Education and Work","Informa UK Limited","TRUE",,,"159281",2150.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1814.60,"10.1088/1367-2630/18/1/013035","New Journal of Physics","IOP Publishing","FALSE",,,"156062",,
+"Swiss National Science Foundation (SNSF)",2016,1901.81,"10.1088/1367-2630/18/1/013036","New Journal of Physics","IOP Publishing","FALSE",,,"156062",,
+"Swiss National Science Foundation (SNSF)",2016,1163.11,"10.1088/1367-2630/18/10/103027","New Journal of Physics","IOP Publishing","FALSE",,,"157081",975.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,1633.14,"10.1088/1367-2630/18/3/035014","New Journal of Physics","IOP Publishing","FALSE",,,"156062",,
+"Swiss National Science Foundation (SNSF)",2016,2408.50,"10.1088/1748-0221/11/03/P03003","Journal of Instrumentation","IOP Publishing","TRUE",,,"154833",1700.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,1458.60,"10.1088/1748-9326/11/1/014010","Environmental Research Letters","IOP Publishing","FALSE",,,"159563",,
+"Swiss National Science Foundation (SNSF)",2016,1395.51,"10.1088/1748-9326/11/5/054022","Environmental Research Letters","IOP Publishing","FALSE",,,"154290",1170.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,968.20,"10.1093/database/baw017","Database","Oxford University Press (OUP)","FALSE",,,"156233",960.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,2592.06,"10.1093/femsec/fiw211","FEMS Microbiology Ecology","Oxford University Press (OUP)","TRUE",,,"148255",2600.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,2156.21,"10.1093/nar/gkw313","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"154773",2130.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1931.22,"10.1098/rsob.160101","Open Biology","The Royal Society","FALSE",,,"159995",,
+"Swiss National Science Foundation (SNSF)",2016,1547.49,"10.1103/PhysRevX.6.011007","Physical Review X","American Physical Society (APS)","FALSE",,,"153578",,
+"Swiss National Science Foundation (SNSF)",2016,2538.24,"10.1103/PhysRevX.6.031021","Physical Review X","American Physical Society (APS)","FALSE",,,"146995",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1660.49,"10.1103/PhysRevX.6.031027","Physical Review X","American Physical Society (APS)","FALSE",,,"162628",,
+"Swiss National Science Foundation (SNSF)",2016,2406.36,"10.1103/PhysRevX.6.041020","Physical Review X","American Physical Society (APS)","FALSE",,,"160084",,
+"Swiss National Science Foundation (SNSF)",2016,2724.00,"10.1111/jnc.13668","Journal of Neurochemistry","Wiley-Blackwell","TRUE",,,"144862",3000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,2537.90,"10.1126/sciadv.1600285","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"165869",,
+"Swiss National Science Foundation (SNSF)",2016,2857.00,"10.1126/sciadv.1600432","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"159820",3105.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,801.02,"10.1127/metz/2016/0832","Meteorologische Zeitschrift","Schweizerbart","FALSE",,,"143219",735.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,2222.75,"10.1128/mBio.01231-16","mBio","American Society for Microbiology","FALSE",,,"155955",2450.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1388.74,"10.1136/bmjopen-2015-010773","BMJ Open","BMJ","FALSE",,,"146980",,
+"Swiss National Science Foundation (SNSF)",2016,899.62,"10.1140/epjti/s40485-016-0032-3","EPJ Techniques and Instrumentation","Springer Nature","FALSE",,,"157874",,
+"Swiss National Science Foundation (SNSF)",2016,550.18,"10.1155/2016/8536432","Journal of Electrical and Computer Engineering","Hindawi Limited","FALSE",,,"157130",600.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,2145.56,"10.1158/1535-7163.MCT-15-0583","Molecular Cancer Therapeutics","American Association for Cancer Research (AACR)","TRUE",,,"159269",2330.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,3059.38,"10.1175/MWR-D-15-0419.1","Monthly Weather Review","American Meteorological Society","TRUE",,,"148177",3335.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1089.43,"10.1177/0271678X16629482","Journal of Cerebral Blood Flow & Metabolism","SAGE Publications","TRUE",,,"148250",806.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,733.24,"10.1177/0271678X16667525","Journal of Cerebral Blood Flow & Metabolism","SAGE Publications","TRUE",,,"148250",620.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,1593.20,"10.1186/s12859-015-0776-9","BMC Bioinformatics","Springer Nature","FALSE",,,"159941",,
+"Swiss National Science Foundation (SNSF)",2016,1656.39,"10.1186/s12859-015-0785-8","BMC Bioinformatics","Springer Nature","FALSE",,,"143768",1214.50,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,1334.75,"10.1186/s12864-016-3168-2","BMC Genomics","Springer Nature","FALSE",,,"162548",1164.50,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,1419.63,"10.1186/s12889-016-3589-5","BMC Public Health","Springer Nature","FALSE",,,"147998",1214.50,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,1957.76,"10.1186/s12931-015-0311-6","Respiratory Research","Springer Nature","FALSE",,,"147697",1422.75,"GBP"
+"Swiss National Science Foundation (SNSF)",2016,1660.41,"10.1186/s13028-016-0224-5","Acta Veterinaria Scandinavica","Springer Nature","FALSE",,,"162548",,
+"Swiss National Science Foundation (SNSF)",2016,530.99,"10.1186/s13617-016-0050-5","Journal of Applied Volcanology","Springer Nature","FALSE",,,"163152",,
+"Swiss National Science Foundation (SNSF)",2016,1696.14,"10.1364/OE.24.010512","Optics Express","The Optical Society","FALSE",,,"152967",1904.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1275.67,"10.1364/OPTICA.3.000020","Optica","The Optical Society","FALSE",,,"146823",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1032.74,"10.1371/journal.pcbi.1004848","PLOS Computational Biology","Public Library of Science (PLoS)","FALSE",,,"154736",,
+"Swiss National Science Foundation (SNSF)",2016,2193.06,"10.1371/journal.pgen.1006056","PLOS Genetics","Public Library of Science (PLoS)","FALSE",,,"147637",,
+"Swiss National Science Foundation (SNSF)",2016,2105.33,"10.1371/journal.pgen.1006160","PLOS Genetics","Public Library of Science (PLoS)","FALSE",,,"146148",2250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1263.20,"10.1371/journal.pone.0145831","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"146148",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1525.59,"10.1371/journal.pone.0150948","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"154499",,
+"Swiss National Science Foundation (SNSF)",2016,1350.74,"10.1371/journal.pone.0152989","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"139093",,
+"Swiss National Science Foundation (SNSF)",2016,1248.22,"10.1371/journal.pone.0155617","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"147998",1350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1325.20,"10.1371/journal.pone.0157550","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"159322",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1340.31,"10.1371/journal.pone.0160498","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"167733",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1540.40,"10.1371/journal.pone.0168228","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"147692",,
+"Swiss National Science Foundation (SNSF)",2016,1494.20,"10.1371/journal.pone.0168358","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"146113",,
+"Swiss National Science Foundation (SNSF)",2016,1539.49,"10.1371/journal.pone.0170020","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"147987",,
+"Swiss National Science Foundation (SNSF)",2016,1527.72,"10.1534/g3.116.032433","G3 - Genes|Genomes|Genetics","Genetics Society of America","FALSE",,,"160738",,
+"Swiss National Science Foundation (SNSF)",2016,1527.72,"10.1534/g3.116.033225","G3 - Genes|Genomes|Genetics","Genetics Society of America","FALSE",,,"160738",,
+"Swiss National Science Foundation (SNSF)",2016,1953.60,"10.1534/genetics.114.172023","Genetics","Genetics Society of America","TRUE",,,"136307",2036.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,2683.13,"10.18632/oncotarget.7114","Oncotarget","Impact Journals, LLC","FALSE",,,"147697",2850.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,837.00,"10.3389/fcell.2016.00035","Frontiers in Cell and Developmental Biology","Frontiers Media SA","FALSE",,,"141956",945.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,2565.62,"10.3389/fcimb.2016.00191","Frontiers in Cellular and Infection Microbiology","Frontiers Media SA","FALSE",,,"147603",,
+"Swiss National Science Foundation (SNSF)",2016,2093.41,"10.3389/fmicb.2016.01475","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"160345",2285.82,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1805.45,"10.3389/fnhum.2016.00340","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,,"162388",,
+"Swiss National Science Foundation (SNSF)",2016,2055.39,"10.3389/fnhum.2016.00406","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,,"159440",,
+"Swiss National Science Foundation (SNSF)",2016,1413.97,"10.3389/fpsyg.2016.00391","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"162819",1539.00,"USD"
+"Swiss National Science Foundation (SNSF)",2016,1387.04,"10.3390/polym8060208","Polymers","MDPI AG","FALSE",,,"152777",,
+"Swiss National Science Foundation (SNSF)",2016,1471.25,"10.5194/acp-16-15529-2016","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,,"147659",,
+"Swiss National Science Foundation (SNSF)",2016,986.92,"10.5194/acp-16-8341-2016","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,,"159194",990.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2016,1607.48,"10.5194/bg-13-2823-2016","Biogeosciences","Copernicus GmbH","FALSE",,,"159563",,
+"Swiss National Science Foundation (SNSF)",2016,1099.73,"10.5194/cpd-11-5509-2015","Climate of the Past Discussions","Copernicus GmbH","FALSE",,,"159563",,
+"Swiss National Science Foundation (SNSF)",2017,1536.69,"10.1002/2016MS000778","Journal of Advances in Modeling Earth Systems","American Geophysical Union (AGU)","FALSE",,,"156109",1650.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1178.42,"10.1002/asl.745","Atmospheric Science Letters","Wiley-Blackwell","FALSE",,,"158347",1200.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1388.13,"10.1002/ece3.3699","Ecology and Evolution","Wiley","FALSE",,,"172899",1224.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2963.95,"10.1002/joc.4974","International Journal of Climatology","Wiley-Blackwell","TRUE",,,"147659",,
+"Swiss National Science Foundation (SNSF)",2017,2273.03,"10.1007/s11240-017-1255-y","Plant Cell, Tissue and Organ Culture (PCTOC)","Springer Nature","TRUE",,,"138983",2200.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2203.19,"10.1007/s11696-016-0094-3","Chemical Papers","Springer Nature","TRUE",,,"152457",2200.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,4660.98,"10.1016/j.celrep.2017.08.075","Cell Reports","Elsevier BV","FALSE",,,"165834",,
+"Swiss National Science Foundation (SNSF)",2017,4737.66,"10.1016/j.celrep.2017.12.020","Cell Reports","Elsevier BV","FALSE",,,"155778",4485.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2584.33,"10.1016/j.compositesb.2017.11.062","Composites Part B: Engineering","Elsevier BV","TRUE",,,"157212",2245.65,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2870.35,"10.1016/j.ijsolstr.2016.12.029","International Journal of Solids and Structures","Elsevier BV","TRUE",,,"160577",2960.29,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,4452.37,"10.1016/j.molcel.2017.06.027","Molecular Cell","Elsevier BV","TRUE",,,"161493",4485.30,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2313.84,"10.1016/j.omtm.2017.05.001","Molecular Therapy - Methods & Clinical Development","Elsevier BV","FALSE",,,"165834",,
+"Swiss National Science Foundation (SNSF)",2017,2914.00,"10.1038/lsa.2017.66","Light: Science & Applications","Springer Nature","FALSE",,,"159916",,
+"Swiss National Science Foundation (SNSF)",2017,3687.58,"10.1038/ncomms11243","Nature Communications","Springer Nature America, Inc","FALSE",,,"165555",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,3626.87,"10.1038/ncomms16088","Nature Communications","Springer Nature","FALSE",,,"155778",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2959.78,"10.1038/s41398-017-0023-4","Translational Psychiatry","Springer Nature","FALSE",,,"170126",2800.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,3682.46,"10.1038/s41467-017-00509-4","Nature Communications","Springer Nature","FALSE",,,"165835",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,3892.58,"10.1038/s41467-017-00823-x","Nature Communications","Springer Nature","FALSE",,,"169176",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2698.89,"10.1038/s41467-017-01167-2","Nature Communications","Springer Nature","FALSE",,,"149847",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,4201.00,"10.1038/s41467-017-01467-7","Nature Communications","Springer Nature","FALSE",,,"154728",3700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1279.68,"10.1038/s41598-017-00440-0","Scientific Reports","Springer Nature","FALSE",,,"169055",1305.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1293.67,"10.1038/s41598-017-04263-x","Scientific Reports","Springer Nature","FALSE",,,"173123",,
+"Swiss National Science Foundation (SNSF)",2017,1425.01,"10.1038/s41598-017-06446-y","Scientific Reports","Springer Nature","FALSE",,,"156376",,
+"Swiss National Science Foundation (SNSF)",2017,1288.02,"10.1038/s41598-017-06519-y","Scientific Reports","Springer Nature","FALSE",,,"150637",1305.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1385.43,"10.1038/s41598-017-12938-8","Scientific Reports","Springer Nature","FALSE",,,"172899",1305.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1301.76,"10.1038/s41598-017-16069-y","Scientific Reports","Springer Nature","FALSE",,,"172899",1305.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2371.13,"10.1038/sc.2017.100","Spinal Cord","Springer Nature","TRUE",,,"153256",2400.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1122.20,"10.1038/sdata.2017.76","Scientific Data","Springer Nature","FALSE",,,"162668",,
+"Swiss National Science Foundation (SNSF)",2017,1229.82,"10.1038/srep40938","Scientific Reports","Springer Nature","FALSE",,,"159955",1165.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1265.82,"10.1038/srep43630","Scientific Reports","Springer Nature","FALSE",,,"156424",,
+"Swiss National Science Foundation (SNSF)",2017,1288.02,"10.1038/srep43636","Scientific Reports","Springer Nature","FALSE",,,"165844",1365.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1273.11,"10.1038/srep45257","Scientific Reports","Springer Nature","FALSE",,,"147659",1305.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2295.96,"10.1080/13569783.2017.1329653","Research in Drama Education: The Journal of Applied Theatre and Performance","Informa UK Limited","TRUE",,,"159671",2150.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2297.83,"10.1080/13636820.2016.1278397","Journal of Vocational Education & Training","Informa UK Limited","TRUE",,,"159281",2150.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1933.73,"10.1088/1361-6463/aa5b11","Journal of Physics D: Applied Physics","IOP Publishing","TRUE",,,"155876",1700.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2017,1482.19,"10.1088/1367-2630/aa591c","New Journal of Physics","IOP Publishing","FALSE",,,"166157",1300.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2017,2000.71,"10.1088/1748-9326/aa7416","Environmental Research Letters","IOP Publishing","FALSE",,,"143219",2080.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1561.36,"10.1093/nar/gkx923","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"161493",2130.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1300.00,"10.1093/sysbio/syx051","Systematic Biology","Oxford University Press (OUP)","TRUE",,,"154791",1300.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1647.31,"10.1103/PhysRevApplied.7.044022","Physical Review Applied","American Physical Society (APS)","TRUE",,,"165975",1800.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,2155.78,"10.1126/sciadv.1603119","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"168223",2353.65,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1589.90,"10.1136/bmjopen-2017-017369","BMJ Open","BMJ","FALSE",,,"153256",1350.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2017,1068.76,"10.1140/epjd/e2017-70774-9","The European Physical Journal D","Springer Nature","TRUE",,,"160128",1080.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1120.94,"10.1155/2017/3659784","Parkinson's Disease","Hindawi Limited","FALSE",,,"159682",1250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1720.09,"10.1155/2017/4627384","Journal of Immunology Research","Hindawi Limited","FALSE",,,"159594",1750.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,618.74,"10.1177/2514183X18761146","Clinical and Translational Neuroscience","SAGE Publications","FALSE",,,"163678",750.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1362.04,"10.1186/s12862-017-1073-1","BMC Evolutionary Biology","Springer Nature","FALSE",,,"168223",1164.50,"GBP"
+"Swiss National Science Foundation (SNSF)",2017,1284.40,"10.1186/s13321-017-0199-x","Journal of Cheminformatics","Springer Nature","FALSE",,,"159941",,
+"Swiss National Science Foundation (SNSF)",2017,1745.28,"10.1364/OE.25.009318","Optics Express","The Optical Society","FALSE",,,"165841",1904.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1746.09,"10.1364/OE.25.011038","Optics Express","The Optical Society","FALSE",,,"160078",1904.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,2644.91,"10.1371/journal.pbio.2003467","PLOS Biology","Public Library of Science (PLoS)","FALSE",,,"160345",2900.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,2019.67,"10.1371/journal.pgen.1007150","PLOS Genetics","Public Library of Science (PLoS)","FALSE",,,"170681",,
+"Swiss National Science Foundation (SNSF)",2017,1474.28,"10.1371/journal.pone.0170646","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"159440",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1358.53,"10.1371/journal.pone.0173433","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"162343",,
+"Swiss National Science Foundation (SNSF)",2017,1290.07,"10.1371/journal.pone.0183519","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"159362",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1323.00,"10.1371/journal.pone.0186109","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"169751",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,87.26,"10.22203/eCM.v036a17","European Cells and Materials","ECM Research Journal","FALSE",,,"163678",100.00,"USD"
+"Swiss National Science Foundation (SNSF)",2017,2358.83,"10.3389/fimmu.2017.01037","Frontiers in Immunology","Frontiers Media SA","FALSE",,,"173123",,
+"Swiss National Science Foundation (SNSF)",2017,2001.67,"10.3389/fimmu.2017.01184","Frontiers in Immunology","Frontiers Media SA","FALSE",,,"157476",2285.82,"USD"
+"Swiss National Science Foundation (SNSF)",2017,2420.00,"10.3389/fncel.2017.00317","Frontiers in Cellular Neuroscience","Frontiers Media SA","FALSE",,,"169548",2689.20,"USD"
+"Swiss National Science Foundation (SNSF)",2017,1106.19,"10.3389/fnhum.2017.00131","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,,"155915",,
+"Swiss National Science Foundation (SNSF)",2017,2419.10,"10.3389/fnmol.2017.00008","Frontiers in Molecular Neuroscience","Frontiers Media SA","FALSE",,,"160325",2689.20,"USD"
+"Swiss National Science Foundation (SNSF)",2017,2056.39,"10.3389/fpsyg.2017.02065","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"156527",2285.82,"USD"
+"Swiss National Science Foundation (SNSF)",2017,262.33,"10.3390/coatings7020020","Coatings","MDPI AG","FALSE",,,"143283",291.60,"CHF"
+"Swiss National Science Foundation (SNSF)",2017,1457.40,"10.3390/e19070326","Entropy","MDPI AG","FALSE",,,"156062",1620.00,"CHF"
+"Swiss National Science Foundation (SNSF)",2017,874.44,"10.3390/genes8120383","Genes","MDPI AG","FALSE",,,"162548",972.00,"CHF"
+"Swiss National Science Foundation (SNSF)",2017,1812.75,"10.5194/amt-10-1335-2017","Atmospheric Measurement Techniques","Copernicus GmbH","FALSE",,,"157210",1725.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,1122.74,"10.5194/tc-11-1797-2017","The Cryosphere","Copernicus GmbH","FALSE",,,"163287",1125.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,885.82,"10.5194/tc-11-217-2017","The Cryosphere","Copernicus GmbH","FALSE",,,"161329",900.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2017,2442.84,"10.7554/eLife.26524","eLife","eLife Sciences Publications, Ltd","FALSE",,,"155852",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,984.53,"10.1002/advs.v5.6","Advanced Science","Wiley","FALSE",,,"147172",995.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1421.81,"10.1002/cam4.1907","Cancer Medicine","Wiley","FALSE",,,"139283",1412.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1326.56,"10.1002/sctm.18-0147","STEM CELLS Translational Medicine","Wiley","FALSE",,,"156430",1352.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,3137.00,"10.1016/j.apenergy.2018.01.044","Applied Energy","Elsevier BV","TRUE",,,"173635",3137.21,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4581.47,"10.1016/j.celrep.2018.03.026","Cell Reports","Elsevier BV","FALSE",,,"165833",4418.61,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4554.63,"10.1016/j.celrep.2018.03.102","Cell Reports","Elsevier BV","FALSE",,,"166412",,
+"Swiss National Science Foundation (SNSF)",2018,4533.84,"10.1016/j.celrep.2018.04.076","Cell Reports","Elsevier BV","FALSE",,,"143390",4418.61,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4485.35,"10.1016/j.celrep.2018.05.083","Cell Reports","Elsevier BV","FALSE",,,"165860",,
+"Swiss National Science Foundation (SNSF)",2018,4380.58,"10.1016/j.celrep.2018.07.102","Cell Reports","Elsevier BV","FALSE",,,"176286",4418.61,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4416.95,"10.1016/j.celrep.2018.08.019","Cell Reports","Elsevier BV","FALSE",,,"169959",4418.61,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4465.44,"10.1016/j.celrep.2018.08.043","Cell Reports","Elsevier BV","FALSE",,,"176404",4416.61,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4330.36,"10.1016/j.celrep.2018.08.087","Cell Reports","Elsevier BV","FALSE",,,"166575",4418.61,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,3031.51,"10.1016/j.celrep.2018.10.088","Cell Reports","Elsevier BV","FALSE",,,"172809",3093.02,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4336.42,"10.1016/j.celrep.2018.10.090","Cell Reports","Elsevier BV","FALSE",,,"152875",4418.61,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4595.32,"10.1016/j.celrep.2018.12.002","Cell Reports","Elsevier BV","FALSE",,,"166490",4310.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4324.30,"10.1016/j.celrep.2018.12.044","Cell Reports","Elsevier BV","FALSE",,,"163088",,
+"Swiss National Science Foundation (SNSF)",2018,421.69,"10.1016/j.dib.2018.11.093","Data in Brief","Elsevier BV","FALSE",,,"162439",430.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1924.89,"10.1016/j.ijpddr.2018.06.004","International Journal for Parasitology: Drugs and Drug Resistance","Elsevier BV","FALSE",,,"179439",1749.35,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1737.86,"10.1016/j.ijpddr.2018.07.001","International Journal for Parasitology: Drugs and Drug Resistance","Elsevier BV","FALSE",,,"149310",1749.35,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1852.16,"10.1016/j.ijpddr.2018.10.011","International Journal for Parasitology: Drugs and Drug Resistance","Elsevier BV","FALSE",,,"179439",1712.43,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2679.96,"10.1016/j.isci.2018.05.020","iScience","Elsevier BV","FALSE",,,"166330",2651.16,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2560.46,"10.1016/j.isci.2018.11.005","iScience","Elsevier BV","FALSE",,,"173006",2590.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1262.48,"10.1016/j.nbscr.2018.11.001","Neurobiology of Sleep and Circadian Rhythms","Elsevier BV","FALSE",,,"146643",1290.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2422.78,"10.1016/j.neuropsychologia.2018.08.021","Neuropsychologia","Elsevier BV","TRUE",,,"162388",2331.83,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1482.42,"10.1016/j.nicl.2018.11.017","NeuroImage: Clinical","Elsevier BV","FALSE",,,"176984",1510.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,948.16,"10.1016/j.nme.2018.09.002","Nuclear Materials and Energy","Elsevier BV","FALSE",,,"159932",951.77,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1146.45,"10.1016/j.ssmph.2018.11.005","SSM - Population Health","Elsevier BV","FALSE",,,"147333",1163.16,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,3034.11,"10.1016/j.stemcr.2018.09.015","Stem Cell Reports","Elsevier BV","FALSE",,,"179531",3039.02,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1483.28,"10.1017/aog.2018.25","Annals of Glaciology","Cambridge University Press (CUP)","FALSE",,,"157551",1320.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2018,1327.42,"10.1017/aog.2018.27","Annals of Glaciology","Cambridge University Press (CUP)","FALSE",,,"157551",1190.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2018,1308.37,"10.1021/acs.langmuir.8b00953","Langmuir","American Chemical Society (ACS)","TRUE",,,"152457",1500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,3193.43,"10.1038/s41398-018-0251-2","Translational Psychiatry","Springer Nature America, Inc","FALSE",,,"169544",,
+"Swiss National Science Foundation (SNSF)",2018,3189.97,"10.1038/s41398-018-0279-3","Translational Psychiatry","Springer Nature America, Inc","FALSE",,,"123516;146326",3166.38,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2361.30,"10.1038/s41419-018-0754-z","Cell Death & Disease","Springer Nature","FALSE",,,"149387",2320.50,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4191.81,"10.1038/s41467-018-05181-w","Nature Communications","Springer Nature America, Inc","FALSE",,,"161329;174275",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,3943.30,"10.1038/s41467-018-05216-2","Nature Communications","Springer Nature","FALSE",,,"172774",3850.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,3943.30,"10.1038/s41467-018-05292-4","Nature Communications","Springer Nature","FALSE",,,"183615",3850.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4295.72,"10.1038/s41467-018-05410-2","Nature Communications","Springer Nature","FALSE",,,"157132",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4226.45,"10.1038/s41467-018-05709-0","Nature Communications","Springer Nature","FALSE",,,"176398",,
+"Swiss National Science Foundation (SNSF)",2018,4200.47,"10.1038/s41467-018-05715-2","Nature Communications","Springer Nature","FALSE",,,"155873",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4335.55,"10.1038/s41467-018-05879-x","Nature Communications","Springer Nature America, Inc","FALSE",,,"179024",3850.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4484.49,"10.1038/s41467-018-05952-5","Nature Communications","Springer Nature America, Inc","FALSE",,,"165138",5200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,4304.38,"10.1038/s41467-018-06025-3","Nature Communications","Springer Nature America, Inc","FALSE",,,"179024",3851.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4146.79,"10.1038/s41467-018-06040-4","Nature Communications","Springer Nature","FALSE",,,"170775",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4125.14,"10.1038/s41467-018-06160-x","Nature Communications","Springer Nature","FALSE",,,"166571",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4205.67,"10.1038/s41467-018-06246-6","Nature Communications","Springer Nature America, Inc","FALSE",,,"178846",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4067.12,"10.1038/s41467-018-06417-5","Nature Communications","Springer Nature America, Inc","FALSE",,,"159323",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,3137.00,"10.1038/s41467-018-06857-z","Nature Communications","Springer Nature","FALSE",,,"175667",4146.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4084.44,"10.1038/s41467-018-07175-0","Nature Communications","Springer Nature America, Inc","FALSE",,,"162550",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4268.88,"10.1038/s41467-018-07196-9","Nature Communications","Springer Nature","FALSE",,,"152782;172621",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4087.04,"10.1038/s41467-018-07238-2","Nature Communications","Springer Nature America, Inc","FALSE",,,"150698",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4514.79,"10.1038/s41467-018-07473-7","Nature Communications","Springer Nature","FALSE",,,"174346;161844",5200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,4058.47,"10.1038/s41467-018-07761-2","Nature Communications","Springer Nature","FALSE",,,"165158",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,4119.94,"10.1038/s41467-018-08266-8","Nature Communications","Springer Nature","FALSE",,,"189502",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1758.64,"10.1038/s41535-018-0099-y","npj Quantum Materials","Springer Science and Business Media LLC","FALSE",,,"169455",1560.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1321.36,"10.1038/s41598-017-19020-3","Scientific Reports","Springer Nature","FALSE",,,"163653",1305.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1413.15,"10.1038/s41598-018-20489-9","Scientific Reports","Springer Nature America, Inc","FALSE",,,"170681",,
+"Swiss National Science Foundation (SNSF)",2018,1381.97,"10.1038/s41598-018-27288-2","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"169206",1370.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1476.36,"10.1038/s41598-018-28728-9","Scientific Reports","Springer Nature","FALSE",,,"172761",,
+"Swiss National Science Foundation (SNSF)",2018,1486.75,"10.1038/s41598-018-29029-x","Scientific Reports","Springer Nature","FALSE",,,"149670",,
+"Swiss National Science Foundation (SNSF)",2018,1500.60,"10.1038/s41598-018-29178-z","Scientific Reports","Springer Nature","FALSE",,,"178928",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1602.78,"10.1038/s41598-018-30864-1","Scientific Reports","Springer Nature America, Inc","FALSE",,,"163163",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1448.65,"10.1038/s41598-018-35856-9","Scientific Reports","Springer Nature America, Inc","FALSE",,,"167349",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1449.51,"10.1038/s41598-018-36499-6","Scientific Reports","Springer Nature","FALSE",,,"162775",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1444.32,"10.1038/s41598-018-36977-x","Scientific Reports","Springer Nature","FALSE",,,"166543",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1436.53,"10.1038/s41598-018-37535-1","Scientific Reports","Springer Nature","FALSE",,,"174745",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1446.05,"10.1038/s41598-018-37825-8","Scientific Reports","Springer Nature","FALSE",,,"157040",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1469.43,"10.1038/s41598-019-38564-0","Scientific Reports","Springer Nature","FALSE",,,"176154",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1991.57,"10.1038/s42004-018-0087-y","Communications Chemistry","Springer Nature America, Inc","FALSE",,,"182895",1938.60,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2263.46,"10.1038/s42005-018-0027-2","Communications Physics","Springer Nature","FALSE",,,"159259",2000.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1394.96,"10.1038/sdata.2018.270","Scientific Data","Springer Nature","FALSE",,,"157040",1405.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,506.55,"10.1080/17445647.2018.1541196","Journal of Maps","Informa UK Limited","FALSE",,,"149328",495.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1711.02,"10.1093/gbe/evy100","Genome Biology and Evolution","Oxford University Press (OUP)","FALSE",,,"155955",1575.65,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1189.74,"10.1093/nar/gky351","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"163324",1147.01,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1055.53,"10.1093/nar/gky544","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"174108",807.75,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2513.70,"10.1093/nar/gky986","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"178032",2909.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1218.32,"10.1093/scan/nsy020","Social Cognitive and Affective Neuroscience","Oxford University Press (OUP)","FALSE",,,"176016",,
+"Swiss National Science Foundation (SNSF)",2018,2579.51,"10.1103/PhysRevX.8.021067","Physical Review X","American Physical Society (APS)","FALSE",,,"170591",2900.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2771.74,"10.1103/physrevx.8.031060","Physical Review X","American Physical Society (APS)","FALSE",,,"183615",3200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2790.79,"10.1103/PhysRevX.8.041018","Physical Review X","American Physical Society (APS)","FALSE",,,"179026",3200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,840.79,"10.1111/jsr.12754","Journal of Sleep Research","Wiley","TRUE",,,"162388",845.93,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,3560.57,"10.1126/sciadv.aar6297","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"165869",4183.70,"USD"
+"Swiss National Science Foundation (SNSF)",2018,3428.96,"10.1126/sciadv.aat0450","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"142628",4000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,3687.45,"10.1126/sciadv.aat2720","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"173097",3224.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,3804.76,"10.1126/sciadv.aat6031","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"172621;152782",4000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,3643.70,"10.1126/sciadv.aat9401","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"178928",4000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,3302.54,"10.1126/sciadv.aav6909","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"165285",3825.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1618.36,"10.1136/bmjopen-2018-023532","BMJ Open","BMJ","FALSE",,,"162713",1350.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2018,1200.14,"10.1136/rmdopen-2018-000678","RMD Open","BMJ","FALSE",,,"133730",1002.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2018,1108.35,"10.1155/2018/5849047","Contrast Media & Molecular Imaging","Hindawi Limited","FALSE",,,"153352",1250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1633.08,"10.1167/18.6.1","Journal of Vision","Association for Research in Vision and Ophthalmology (ARVO)","FALSE",,,"140379;161224",1850.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1611.44,"10.1167/18.9.19","Journal of Vision","Association for Research in Vision and Ophthalmology (ARVO)","FALSE",,,"163723",1850.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,591.41,"10.1177/1176934318821072","Evolutionary Bioinformatics","SAGE Publication","FALSE",,,"168490",539.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2018,1890.26,"10.1186/s12884-018-2150-1","BMC Pregnancy and Childbirth","Springer Nature","FALSE",,,"166765",1938.60,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2121.45,"10.1186/s13047-018-0257-2","Journal of Foot and Ankle Research","Springer Nature","FALSE",,,"140928",1879.37,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,690.12,"10.1186/s40623-017-0774-4","Earth, Planets and Space","Springer Nature","FALSE",,,"165516",599.25,"GBP"
+"Swiss National Science Foundation (SNSF)",2018,1947.41,"10.1186/s41120-018-0027-z","AAPS Open","Springer Nature America, Inc","FALSE",,,"164279",1922.18,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1700.62,"10.1364/OE.26.012306","Optics Express","The Optical Society","FALSE",,,"178864",1942.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2456.55,"10.1364/OE.26.014719","Optics Express","The Optical Society","FALSE",,,"162822",2812.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1727.47,"10.1364/OE.26.028461","Optics Express","The Optical Society","FALSE",,,"159931;157956;179146",1942.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1665.99,"10.1364/oe.26.028604","Optics Express","The Optical Society","FALSE",,,"162822",1942.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2197.65,"10.1364/OPTICA.5.000948","Optica","The Optical Society","FALSE",,,"178942",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2001.96,"10.1364/OPTICA.5.001150","Optica","The Optical Society","FALSE",,,"159259",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2582.97,"10.1371/journal.pbio.2005750","PLOS Biology","Public Library of Science (PLoS)","FALSE",,,"136201",2900.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2592.50,"10.1371/journal.pbio.2006012","PLOS Biology","Public Library of Science (PLoS)","FALSE",,,"143939",2900.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2563.92,"10.1371/journal.pbio.2006671","PLOS Biology","Public Library of Science (PLoS)","FALSE",,,"158669",3000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2093.74,"10.1371/journal.pcbi.1006119","PLOS Computational Biology","Public Library of Science (PLoS)","FALSE",,,"149769",2250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1937.01,"10.1371/journal.pntd.0006680","PLOS Neglected Tropical Diseases","Public Library of Science (PLoS)","FALSE",,,"160067",2250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1310.97,"10.1371/journal.pone.0197477","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"154791",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1320.49,"10.1371/journal.pone.0197731","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"149589",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1283.26,"10.1371/journal.pone.0202745","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"149587",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1286.72,"10.1371/journal.pone.0208175","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"140928",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1989.83,"10.1371/journal.ppat.1007335","PLOS Pathogens","Public Library of Science (PLoS)","FALSE",,,"166445;157699",2250.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1683.31,"10.1523/ENEURO.0167-18.2018","eneuro","Society for Neuroscience","FALSE",,,"143390",1950.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,3527.67,"10.15252/msb.20178024","Molecular Systems Biology","EMBO","FALSE",,,"172900",,
+"Swiss National Science Foundation (SNSF)",2018,3335.44,"10.15252/msb.20178102","Molecular Systems Biology","EMBO","FALSE",,,"175608",3300.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1142.99,"10.17645/si.v6i2.1318","Social Inclusion","Cogitatio","FALSE",,,"172008",1100.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1963.86,"10.2147/CMAR.S179767","Cancer Management and Research","Dove Medical Press Ltd.","FALSE",,,"157448",2310.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2060.84,"10.26508/lsa.201800170","Life Science Alliance","Life Science Alliance, LLC","FALSE",,,"159320",2400.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,145.47,"10.3097/LO.201864","Landscape Online","Landscape Online","FALSE",,,"152033",150.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1584.59,"10.3389/feart.2018.00203","Frontiers in Earth Science","Frontiers Media SA","FALSE",,,"153637",1841.67,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2512.84,"10.3389/fimmu.2018.02118","Frontiers in Immunology","Frontiers Media SA","FALSE",,,"143718",2859.44,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1750.85,"10.3389/fimmu.2018.02185","Frontiers in Immunology","Frontiers Media SA","FALSE",,,"143718",1992.45,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2718.05,"10.3389/fimmu.2018.03040","Frontiers in Immunology","Frontiers Media SA","FALSE",,,"166651",3177.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2525.83,"10.3389/fmicb.2018.02573","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"179310",2859.44,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1371.58,"10.3389/fmicb.2018.02974","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"142533",1588.58,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2750.96,"10.3389/fnbeh.2018.00146","Frontiers in Behavioral Neuroscience","Frontiers Media SA","FALSE",,,"160325",3177.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1718.81,"10.3389/fnbeh.2018.00305","Frontiers in Behavioral Neuroscience","Frontiers Media SA","FALSE",,,"169993",1992.45,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1131.73,"10.3389/fnins.2018.00912","Frontiers in Neuroscience","Frontiers Media SA","FALSE",,,"146643",1315.34,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2743.17,"10.3389/fphys.2018.01184","Frontiers in Physiology","Frontiers Media SA","FALSE",,,"167823",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1724.87,"10.3389/fpsyg.2018.01879","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"159379",1992.45,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2730.18,"10.3389/fpsyg.2018.02049","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"165481",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2361.30,"10.3389/fpsyt.2018.00573","Frontiers in Psychiatry","Frontiers Media SA","FALSE",,,"173211",2681.73,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2077.29,"10.3389/fpsyt.2018.00649","Frontiers in Psychiatry","Frontiers Media SA","FALSE",,,"122679;148493;139467",2413.56,"USD"
+"Swiss National Science Foundation (SNSF)",2018,1305.77,"10.3390/app8071069","Applied Sciences","MDPI AG","FALSE",,,"173636",1507.80,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,978.47,"10.3390/atmos9050171","Atmosphere","MDPI AG","FALSE",,,"165516",1130.85,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,245.05,"10.3390/cli5040096","Climate","MDPI AG","FALSE",,,"165516",283.50,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,522.14,"10.3390/cryst8100389","Crystals","MDPI AG","FALSE",,,"156236",603.12,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1491.94,"10.3390/en11092264","Energies","MDPI AG","FALSE",,,"173636",1723.20,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1678.11,"10.3390/ijms20010088","International Journal of Molecular Sciences","MDPI AG","FALSE",,,"160290",1938.60,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1398.43,"10.3390/nano8121065","Nanomaterials","MDPI AG","FALSE",,,"141849",1615.50,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1259.02,"10.3390/nu10121826","Nutrients","MDPI AG","FALSE",,,"133730",1453.95,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1166.37,"10.3390/nu11010062","Nutrients","MDPI AG","FALSE",,,"166765",1346.26,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1071.98,"10.3390/polym10111188","Polymers","MDPI AG","FALSE",,,"152777",1238.55,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,909.19,"10.3390/polym10121369","Polymers","MDPI AG","FALSE",,,"162631",1050.08,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1304.91,"10.3390/su10103594","Sustainability","MDPI AG","FALSE",,,"154004",1507.80,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,839.06,"10.3390/su10103823","Sustainability","MDPI AG","FALSE",,,"177592",969.30,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,978.47,"10.3390/su10114001","Sustainability","MDPI AG","FALSE",,,"152033",1130.85,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1445.18,"10.3390/v10120687","Viruses","MDPI AG","FALSE",,,"152525",1669.35,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,1398.43,"10.3390/w10070930","Water","MDPI AG","FALSE",,,"153761",1615.50,"CHF"
+"Swiss National Science Foundation (SNSF)",2018,2996.01,"10.5194/cp-14-1819-2018","Climate of the Past","Copernicus GmbH","FALSE",,,"144811;172915",2976.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1184.55,"10.5194/gmd-11-2633-2018","Geoscientific Model Development","Copernicus GmbH","FALSE",,,"169241",1155.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2096.34,"10.5194/se-9-167-2018","Solid Earth","Copernicus GmbH","FALSE",,,"146175",2880.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,2917.21,"10.5194/se-9-191-2018","Solid Earth","Copernicus GmbH","FALSE",,,"146175",2070.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1539.57,"10.5194/tc-11-1311-2017","The Cryosphere","Copernicus GmbH","FALSE",,,"169499",1606.50,"EUR"
+"Swiss National Science Foundation (SNSF)",2018,1454.71,"10.5194/tc-12-721-2018","The Cryosphere","Copernicus GmbH","FALSE",,,"156098",,
+"Swiss National Science Foundation (SNSF)",2018,2188.99,"10.7554/eLife.31670","eLife","eLife Sciences Publications, Ltd","FALSE",,,"163859",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2130.11,"10.7554/eLife.36330","eLife","eLife Sciences Publications, Ltd","FALSE",,,"159479;160589",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2018,2202.85,"10.7554/eLife.36402","eLife","eLife Sciences Publications, Ltd","FALSE",,,"177195",,
+"Swiss National Science Foundation (SNSF)",2018,2117.99,"10.7554/eLife.39196","eLife","eLife Sciences Publications, Ltd","FALSE",,,"169993",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2620.84,"10.1001/jamanetworkopen.2018.8332","JAMA Network Open","American Medical Association (AMA)","FALSE",,,"167376",3000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1549.48,"10.1002/ece3.4999","Ecology and Evolution","Wiley","FALSE",,,"179481",1530.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4439.49,"10.1016/j.celrep.2019.01.104","Cell Reports","Elsevier BV","FALSE",,,"176124",4310.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4347.40,"10.1016/j.celrep.2019.04.068","Cell Reports","Elsevier BV","FALSE",,,"150683",4310.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4263.29,"10.1016/j.celrep.2019.04.093","Cell Reports","Elsevier BV","FALSE",,,"169966",4310.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4420.89,"10.1016/j.celrep.2019.04.106","Cell Reports","Elsevier BV","FALSE",,,"173338",4310.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4288.97,"10.1016/j.celrep.2019.05.065","Cell Reports","Elsevier BV","FALSE",,,"149790;173137",4310.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4259.75,"10.1016/j.celrep.2019.05.090","Cell Reports","Elsevier BV","FALSE",,,"170085;166815",4280.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,3284.02,"10.1016/j.ebiom.2019.02.061","EBioMedicine","Elsevier BV","FALSE",,,"156818",3252.54,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,3036.10,"10.1016/j.mtbio.2019.100003","Materials Today Bio","Elsevier BV","FALSE",,,"126090",3069.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2611.98,"10.1016/j.neuroimage.2019.02.031","NeuroImage","Elsevier BV","FALSE",,,"135774",2590.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1500.78,"10.1016/j.nicl.2019.101652","NeuroImage: Clinical","Elsevier BV","FALSE",,,"146326;123516",1510.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1338.75,"10.1016/j.ssmph.2019.100425","SSM - Population Health","Elsevier BV","FALSE",,,"185901",1346.25,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,3230.01,"10.1016/j.stemcr.2019.05.026","Stem Cell Reports","Elsevier BV","FALSE",,,"154751",3280.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,564.01,"10.1017/fms.2019.12","Forum of Mathematics, Sigma","Cambridge University Press (CUP)","FALSE",,,"146223;153543",550.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,672.92,"10.1021/acsomega.9b00365","ACS Omega","American Chemical Society (ACS)","FALSE",,,"152777",750.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,4593.55,"10.1038/s41467-018-07949-6","Nature Communications","Springer Nature","FALSE",,,"166527",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4215.48,"10.1038/s41467-018-07968-3","Nature Communications","Springer Nature","FALSE",,,"178792",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4165.01,"10.1038/s41467-018-08156-z","Nature Communications","Springer Nature","FALSE",,,"159491",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4300.48,"10.1038/s41467-018-08242-2","Nature Communications","Springer Nature","FALSE",,,"169930;149630",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4240.27,"10.1038/s41467-019-08483-9","Nature Communications","Springer Nature","FALSE",,,"166888",4146.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4632.51,"10.1038/s41467-019-08634-y","Nature Communications","Springer Nature","FALSE",,,"164637;152213",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4619.23,"10.1038/s41467-019-08650-y","Nature Communications","Springer Nature","FALSE",,,"162857",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4657.30,"10.1038/s41467-019-08664-6","Nature Communications","Springer Nature","FALSE",,,"155873",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4796.31,"10.1038/s41467-019-08741-w","Nature Communications","Springer Nature","FALSE",,,"178846",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4559.90,"10.1038/s41467-019-08763-4","Nature Communications","Springer Nature","FALSE",,,"172180",5200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,4321.73,"10.1038/s41467-019-09053-9","Nature Communications","Springer Nature","FALSE",,,"176252",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4644.90,"10.1038/s41467-019-09079-z","Nature Communications","Springer Nature","FALSE",,,"173617",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4636.05,"10.1038/s41467-019-09122-z","Nature Communications","Springer Nature","FALSE",,,"144697;172927;141849",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4651.10,"10.1038/s41467-019-09164-3","Nature Communications","Springer Nature","FALSE",,,"172881",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4660.84,"10.1038/s41467-019-09189-8","Nature Communications","Springer Nature","FALSE",,,"144828",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4643.13,"10.1038/s41467-019-09413-5","Nature Communications","Springer Nature","FALSE",,,"108160",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4752.04,"10.1038/s41467-019-09431-3","Nature Communications","Springer Nature","FALSE",,,"165833",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4695.37,"10.1038/s41467-019-09486-2","Nature Communications","Springer Nature","FALSE",,,"166888",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4269.49,"10.1038/s41467-019-09673-1","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"150193",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4657.30,"10.1038/s41467-019-09728-3","Nature Communications","Springer Nature","FALSE",,,"166500;159188",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4701.57,"10.1038/s41467-019-09823-5","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"169859",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4648.44,"10.1038/s41467-019-10181-5","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"169074;149867",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4658.18,"10.1038/s41467-019-10208-x","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"160088",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4660.84,"10.1038/s41467-019-10223-y","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"155830;150683",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4427.09,"10.1038/s41467-019-10274-1","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"182833",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4592.66,"10.1038/s41467-019-10356-0","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"173333",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4609.49,"10.1038/s41467-019-10466-9","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"155778",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,4658.18,"10.1038/s41467-019-10469-6","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"169377",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,5104.44,"10.1038/s41467-019-10566-6","Nature Communications","Springer Science and Business Media LLC","FALSE",,,"162581",4620.33,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2749.22,"10.1038/s41539-019-0044-2","npj Science of Learning","Springer Science and Business Media LLC","FALSE",,,"162388",2767.89,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1485.73,"10.1038/s41598-018-37736-8","Scientific Reports","Springer Nature","FALSE",,,"175697",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1520.26,"10.1038/s41598-019-38831-0","Scientific Reports","Springer Nature","FALSE",,,"179069",1475.49,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1597.29,"10.1038/s41598-019-38917-9","Scientific Reports","Springer Nature","FALSE",,,"149794",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1777.03,"10.1038/s41598-019-39178-2","Scientific Reports","Springer Nature","FALSE",,,"174450",1548.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,1618.54,"10.1038/s41598-019-39753-7","Scientific Reports","Springer Nature","FALSE",,,"143065",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1595.52,"10.1038/s41598-019-40575-w","Scientific Reports","Springer Nature","FALSE",,,"159783",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1647.76,"10.1038/s41598-019-40723-2","Scientific Reports","Springer Nature","FALSE",,,"176154",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1591.10,"10.1038/s41598-019-42522-1","Scientific Reports","Springer Nature","FALSE",,,"149958",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1598.18,"10.1038/s41598-019-42629-5","Scientific Reports","Springer Nature","FALSE",,,"143026",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1644.22,"10.1038/s41598-019-43527-6","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"159299",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1617.66,"10.1038/s41598-019-43814-2","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"142165",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1620.32,"10.1038/s41598-019-44003-x","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"160320",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1491.04,"10.1038/s41598-019-44260-w","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"169627",1490.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1808.02,"10.1038/s41598-019-44679-1","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"169842",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1499.01,"10.1038/s41598-019-44770-7","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"146353",1490.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1590.21,"10.1038/s41598-019-45488-2","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"153889",1604.73,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1593.75,"10.1038/s41598-019-45724-9","Scientific Reports","Springer Science and Business Media LLC","FALSE",,,"174704;159491",1490.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2863.44,"10.1038/s42003-019-0428-0","Communications Biology","Springer Science and Business Media LLC","FALSE",,,"159323;175444",2767.89,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2761.62,"10.1038/s42003-019-0477-4","Communications Biology","Springer Science and Business Media LLC","FALSE",,,"176191;156998",2767.89,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2744.80,"10.1038/s42004-019-0175-7","Communications Chemistry","Springer Science and Business Media LLC","FALSE",,,"163966",2767.89,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,876.56,"10.1039/C9RA00648F","RSC Advances","Royal Society of Chemistry (RSC)","FALSE",,,"160047",750.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,742.87,"10.1039/C9RA02617G","RSC Advances","Royal Society of Chemistry (RSC)","FALSE",,,"182000",637.50,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,1059.85,"10.1057/s41599-019-0271-4","Palgrave Communications","Springer Science and Business Media LLC","FALSE",,,"164679",1066.23,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1947.92,"10.1063/1.5063530","Structural Dynamics","AIP Publishing","FALSE",,,"157956;147606",2200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1952.35,"10.1063/1.5087246","APL Materials","AIP Publishing","FALSE",,,"173641",2200.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1539.74,"10.1080/20008198.2019.1596508","European Journal of Psychotraumatology","Informa UK Limited","FALSE",,,"162661",1707.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1697.35,"10.1088/1748-9326/ab2353","Environmental Research Letters","IOP Publishing","FALSE",,,"172476",1500.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,1130.68,"10.1093/aobpla/plz023","AoB PLANTS","Oxford University Press (OUP)","FALSE",,,"156282",1145.93,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1923.13,"10.1093/conphys/coz005","Conservation Physiology","Oxford University Press (OUP)","FALSE",,,"168709",1920.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1577.81,"10.1093/gbe/evz022","Genome Biology and Evolution","Oxford University Press (OUP)","FALSE",,,"176956",1575.65,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1239.59,"10.1093/nar/gkz261","Nucleic Acids Research","Oxford University Press (OUP)","FALSE",,,"182880",1204.09,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1062.50,"10.1098/rsos.182181","Royal Society Open Science","The Royal Society","FALSE",,,"166458",900.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,1012.03,"10.1107/S2052252518017876","IUCrJ","International Union of Crystallography (IUCr)","FALSE",,,"164018",1105.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1514.95,"10.1111/eva.12767","Evolutionary Applications","Wiley","FALSE",,,"159579",1465.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,3555.84,"10.1126/sciadv.aat9953","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"131899",4000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,3488.55,"10.1126/sciadv.aav3687","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"156029;176222",4000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,3541.67,"10.1126/sciadv.aav3809","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"147674",4000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,3541.67,"10.1126/sciadv.aav3991","Science Advances","American Association for the Advancement of Science (AAAS)","FALSE",,,"166458",4000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2278.18,"10.1128/mbio.01237-19","mBio","American Society for Microbiology","FALSE",,,"147090",2620.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1360.89,"10.1128/msphere.00255-19","mSphere","American Society for Microbiology","FALSE",,,"167083",1520.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1547.71,"10.1130/L1045.1","Lithosphere","Geological Society of America","FALSE",,,"169653",1750.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1586.67,"10.1136/bmjopen-2018-027138","BMJ Open","BMJ","FALSE",,,"167349",1350.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,1580.47,"10.1136/bmjopen-2018-028336","BMJ Open","BMJ","FALSE",,,"182208",1350.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,1992.19,"10.1136/openhrt-2018-000990","Open Heart","BMJ","FALSE",,,"179382",1700.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,1770.84,"10.1140/epje/i2019-11807-x","The European Physical Journal E","Springer Nature","FALSE",,,"166556",1744.74,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1510.52,"10.1155/2019/5210404","Geofluids","Hindawi Limited","FALSE",,,"153889",1550.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1549.48,"10.1162/netn_a_00080","Network Neuroscience","MIT Press - Journals","FALSE",,,"172636",1750.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1549.48,"10.1162/netn_a_00084","Network Neuroscience","MIT Press - Journals","FALSE",,,"175506",1750.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1615.89,"10.1167/19.6.15","Journal of Vision","Association for Research in Vision and Ophthalmology (ARVO)","FALSE",,,"161224",1850.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,3515.11,"10.1172/jci.insight.126515","JCI Insight","American Society for Clinical Investigation","FALSE",,,"166490",3650.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,323.18,"10.1177/2041669519855090","i-Perception","SAGE Publications","FALSE",,,"161224",285.00,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,811.93,"10.1186/s12879-019-4057-5","BMC Infectious Diseases","Springer Science and Business Media LLC","FALSE",,,"156902",810.98,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1949.69,"10.1186/s12887-018-1380-8","BMC Pediatrics","Springer Nature","FALSE",,,"159573",1938.60,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1605.26,"10.1186/s12889-019-6568-9","BMC Public Health","Springer Nature","FALSE",,,"166214",1597.46,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1891.25,"10.1186/s12913-019-4045-x","BMC Health Services Research","Springer Nature","FALSE",,,"167376",1879.37,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1586.67,"10.1186/s12913-019-4101-6","BMC Health Services Research","Springer Science and Business Media LLC","FALSE",,,"156274",1597.46,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2279.95,"10.1186/s12916-019-1288-7","BMC Medicine","Springer Nature","FALSE",,,"175079",1977.60,"GBP"
+"Swiss National Science Foundation (SNSF)",2019,996.10,"10.1186/s12932-019-0062-2","Geochemical Transactions","Springer Science and Business Media LLC","FALSE",,,"132123;152993",1001.61,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1787.66,"10.1186/s12936-019-2718-x","Malaria Journal","Springer Nature","FALSE",,,"169842",2019.38,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1903.65,"10.1186/s12974-019-1491-7","Journal of Neuroinflammation","Springer Science and Business Media LLC","FALSE",,,"160136",1885.56,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2034.69,"10.1186/s12984-019-0488-x","Journal of NeuroEngineering and Rehabilitation","Springer Nature","FALSE",,,"160837",1960.14,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2055.06,"10.1186/s12984-019-0536-6","Journal of NeuroEngineering and Rehabilitation","Springer Science and Business Media LLC","FALSE",,,"160837",1986.53,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1932.87,"10.1186/s13063-019-3449-6","Trials","Springer Science and Business Media LLC","FALSE",,,"179158",1938.60,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2162.19,"10.1186/s13227-019-0117-6","EvoDevo","Springer Nature","FALSE",,,"169993",2148.62,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2188.75,"10.1186/s40425-019-0523-2","Journal for ImmunoTherapy of Cancer","Springer Nature","FALSE",,,"157448",2175.54,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,943.86,"10.1186/s40537-019-0177-4","Journal of Big Data","Springer Nature","FALSE",,,"167211",915.45,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1243.13,"10.1194/jlr.m089979","Journal of Lipid Research","American Society for Biochemistry & Molecular Biology (ASBMB)","FALSE",,,"159479;160589",1400.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1474.22,"10.1364/BOE.10.002784","Biomedical Optics Express","The Optical Society","FALSE",,,"159490",1665.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1755.78,"10.1364/OE.27.010854","Optics Express","The Optical Society","FALSE",,,"183615",1980.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1829.27,"10.1364/OE.27.016111","Optics Express","The Optical Society","FALSE",,,"170772;144970;179146",2015.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2714.69,"10.1364/optica.6.000518","Optica","The Optical Society","FALSE",,,"160078",2775.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2647.40,"10.1371/journal.pbio.3000142","PLOS Biology","Public Library of Science (PLoS)","FALSE",,,"176209;149585",3000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2676.62,"10.1371/journal.pbio.3000290","PLOS Biology","Public Library of Science (PLoS)","FALSE",,,"161178",3000.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2080.73,"10.1371/journal.pcbi.1006946","PLOS Computational Biology","Public Library of Science (PLoS)","FALSE",,,"160703",2350.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1412.24,"10.1371/journal.pone.0206334","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"166687",1595.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1412.24,"10.1371/journal.pone.0206336","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"153331",1595.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1420.21,"10.1371/journal.pone.0208287","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"172789",1595.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1324.59,"10.1371/journal.pone.0210784","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"145089",1495.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1418.44,"10.1371/journal.pone.0213550","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"154275",1595.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1414.01,"10.1371/journal.pone.0214088","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"166687",1595.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1418.44,"10.1371/journal.pone.0217503","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"149628",1595.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1421.98,"10.1371/journal.pone.0217800","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"182753",1595.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1399.85,"10.1371/journal.pone.0218469","PLOS ONE","Public Library of Science (PLoS)","FALSE",,,"122679;139467",1595.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2612.87,"10.1523/ENEURO.0014-19.2019","eneuro","Society for Neuroscience","FALSE",,,"163898",2925.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1916.93,"10.1534/g3.119.400223","G3 - Genes|Genomes|Genetics""","Genetics Society of America","FALSE",,,"159669",2145.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,402.87,"10.1553/eco.mont-11-1s25","eco.mont (Journal on Protected Mountain Areas Research)","Osterreichische Akademie der Wissenschaften","FALSE",,,"152785",400.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,858.86,"10.1659/MRD-JOURNAL-D-18-00024.1","Mountain Research and Development","International Mountain Society (IMS) and United Nations University","FALSE",,,"152033",970.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2267.56,"10.2196/12273","Journal of Medical Internet Research","JMIR Publications Inc.","FALSE",,,"167356",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1673.44,"10.2196/13582","JMIR Research Protocols","JMIR Publications Inc.","FALSE",,,"183434",1900.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1715.94,"10.2340/16501977-2525","Journal of Rehabilitation Medicine","Acta Dermato-Venereologica","FALSE",,,"167412",1700.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2130.32,"10.26508/lsa.201800255","Life Science Alliance","Life Science Alliance, LLC","FALSE",,,"166580",2400.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,829.64,"10.3389/fcvm.2019.00046","Frontiers in Cardiovascular Medicine","Frontiers Media SA","FALSE",,,"161521",942.38,"USD"
+"Swiss National Science Foundation (SNSF)",2019,535.68,"10.3389/feart.2019.00070","Frontiers in Earth Science","Frontiers Media SA","FALSE",,,"163008",,
+"Swiss National Science Foundation (SNSF)",2019,2833.34,"10.3389/fgene.2019.00555","Frontiers in Genetics","Frontiers Media SA","FALSE",,,"159791",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2866.98,"10.3389/fimmu.2019.01100","Frontiers in Immunology","Frontiers Media SA","FALSE",,,"166259",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,831.41,"10.3389/fmed.2019.00018","Frontiers in Medicine","Frontiers Media SA","FALSE",,,"176241",942.38,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2476.51,"10.3389/fmicb.2018.03344","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"142165",2859.44,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1528.23,"10.3389/fmicb.2019.00102","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"179297",2859.44,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2522.56,"10.3389/fmicb.2019.00124","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"149853",2859.44,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2833.34,"10.3389/fmicb.2019.00212","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"159791",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2811.20,"10.3389/fmicb.2019.00843","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"182336;149648",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1799.17,"10.3389/fmicb.2019.00921","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"173119",1992.45,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2808.55,"10.3389/fmicb.2019.01385","Frontiers in Microbiology","Frontiers Media SA","FALSE",,,"172880",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2803.23,"10.3389/fnana.2019.00050","Frontiers in Neuroanatomy","Frontiers Media SA","FALSE",,,"149643",3177.15,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2812.97,"10.3389/fncel.2019.00095","Frontiers in Cellular Neuroscience","Frontiers Media SA","FALSE",,,"163470;138429",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2375.58,"10.3389/fneur.2019.00436","Frontiers in Neurology","Frontiers Media SA","FALSE",,,"170511;167733",2681.73,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2864.33,"10.3389/fnhum.2019.00166","Frontiers in Human Neuroscience","Frontiers Media SA","FALSE",,,"153387",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2860.79,"10.3389/fnins.2019.00142","Frontiers in Neuroscience","Frontiers Media SA","FALSE",,,"125050",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1802.71,"10.3389/fnmol.2019.00115","Frontiers in Molecular Neuroscience","Frontiers Media SA","FALSE",,,"166815;170085",1992.45,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2413.65,"10.3389/fonc.2019.00385","Frontiers in Oncology","Frontiers Media SA","FALSE",,,"170898;170182",2681.73,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1884.17,"10.3389/fphar.2019.00383","Frontiers in Pharmacology","Frontiers Media SA","FALSE",,,"178648",2116.50,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1294.48,"10.3389/fpls.2019.00651","Frontiers in Plant Science","Frontiers Media SA","FALSE",,,"134204",1461.49,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2833.34,"10.3389/fpls.2019.00666","Frontiers in Plant Science","Frontiers Media SA","FALSE",,,"135778",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2511.93,"10.3389/fpsyg.2019.00020","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"162388",285.44,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2005.47,"10.3389/fpsyg.2019.00180","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"125770",2279.47,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2864.33,"10.3389/fpsyg.2019.01225","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"143573",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,811.04,"10.3389/fpsyg.2019.01338","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"160837",916.53,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1941.72,"10.3389/fpsyg.2019.01481","Frontiers in Psychology","Frontiers Media SA","FALSE",,,"185901",2192.23,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2357.87,"10.3389/fpsyt.2019.00213","Frontiers in Psychiatry","Frontiers Media SA","FALSE",,,"123516",2681.73,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2862.56,"10.3389/fpsyt.2019.00342","Frontiers in Psychiatry","Frontiers Media SA","FALSE",,,"153320",3177.15,"USD"
+"Swiss National Science Foundation (SNSF)",2019,953.60,"10.3390/agronomy9030131","Agronomy","MDPI AG","FALSE",,,"159869",1077.00,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,905.78,"10.3390/cryst9020110","Crystals","MDPI AG","FALSE",,,"162631",1023.15,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1287.40,"10.3390/e21010047","Entropy","MDPI AG","FALSE",,,"167285",1453.95,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1525.58,"10.3390/e21040432","Entropy","MDPI AG","FALSE",,,"157160",1723.20,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,943.86,"10.3390/genes10030219","Genes","MDPI AG","FALSE",,,"164474",1066.23,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1286.51,"10.3390/genes10040308","Genes","MDPI AG","FALSE",,,"165826",1453.95,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1286.51,"10.3390/genes10060426","Genes","MDPI AG","FALSE",,,"165826",1453.95,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1715.94,"10.3390/ijerph16081372","International Journal of Environmental Research and Public Health","MDPI AG","FALSE",,,"148493;139467;122679",1938.60,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,297.50,"10.3390/inorganics7010011","Inorganics","MDPI AG","FALSE",,,"182000",336.56,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,393.13,"10.3390/land8030045","Land","MDPI AG","FALSE",,,"177592",444.26,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,953.60,"10.3390/metabo9050085","Metabolites","MDPI AG","FALSE",,,"166658",1077.00,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1715.94,"10.3390/molecules24071300","Molecules","MDPI AG","FALSE",,,"173636",1938.60,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,332.92,"10.3390/su11030681","Sustainability","MDPI AG","FALSE",,,"153828",376.95,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1000.52,"10.3390/su11030851","Sustainability","MDPI AG","FALSE",,,"177592",1130.85,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1215.68,"10.3390/su11082281","Sustainability","MDPI AG","FALSE",,,"153743",1373.18,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,977.50,"10.3390/su11092674","Sustainability","MDPI AG","FALSE",,,"153743",1103.93,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,810.16,"10.3390/su11113048","Sustainability","MDPI AG","FALSE",,,"171645",915.45,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,1286.51,"10.3390/v11030220","Viruses","MDPI AG","FALSE",,,"160812",1453.95,"CHF"
+"Swiss National Science Foundation (SNSF)",2019,913.75,"10.5194/acp-19-3481-2019","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,,"170707",924.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1611.46,"10.5194/acp-19-4289-2019","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,,"165516",1617.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,953.60,"10.5194/acp-19-877-2019","Atmospheric Chemistry and Physics","Copernicus GmbH","FALSE",,,"169620",930.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1761.10,"10.5194/bg-16-1685-2019","Biogeosciences","Copernicus GmbH","FALSE",,,"155964",1767.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1290.94,"10.5194/cp-15-579-2019","Climate of the Past","Copernicus GmbH","FALSE",,,"154450",1302.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1479.53,"10.5194/cp-15-685-2019","Climate of the Past","Copernicus GmbH","FALSE",,,"164735",1488.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2401.25,"10.5194/cp-15-849-2019","Climate of the Past","Copernicus GmbH","FALSE",,,"172476",2387.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,2210.89,"10.5194/esurf-7-321-2019","Earth Surface Dynamics","Copernicus GmbH","FALSE",,,"155904",2232.00,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,1785.89,"10.5194/gmd-12-893-2019","Geoscientific Model Development","Copernicus GmbH","FALSE",,,"163223",,
+"Swiss National Science Foundation (SNSF)",2019,1480.42,"10.5194/tc-13-397-2019","The Cryosphere","Copernicus GmbH","FALSE",,,"174888",1466.08,"EUR"
+"Swiss National Science Foundation (SNSF)",2019,369.22,"10.5539/jel.v8n2p25","Journal of Education and Learning","Canadian Center of Science and Education","FALSE",,,"150320",400.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,1211.25,"10.5751/es-10857-240220","Ecology and Society","Resilience Alliance, Inc.","FALSE",,,"174966",1375.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,2269.33,"10.7554/eLife.43400","eLife","eLife Sciences Publications, Ltd","FALSE",,,"146694",2500.00,"USD"
+"Swiss National Science Foundation (SNSF)",2019,948.28,"10.7717/peerj.6280","PeerJ","PeerJ","FALSE",,,"153502",1095.00,"USD"
