@@ -1041,7 +1041,8 @@ def get_unified_publisher_name(publisher):
         "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd.",
         "Scientific and Academic Publishing": "Scientific & Academic Publishing",
         "Science and Education Publishing Co., Ltd.": "Science and Education Publishing",
-        "Horizon Research Publishing Co., Ltd.": "Horizon Research Publishing"
+        "Horizon Research Publishing Co., Ltd.": "Horizon Research Publishing",
+        "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften"
     }
     return publisher_mappings.get(publisher, publisher)
 
