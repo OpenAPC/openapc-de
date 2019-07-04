@@ -1038,7 +1038,11 @@ def get_unified_publisher_name(publisher):
         "Bioscientifica": "BioScientifica",
         "Springer Nature America, Inc": "Springer Nature",
         "Springer Science and Business Media LLC": "Springer Nature",
-        "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd." 
+        "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd.",
+        "Scientific and Academic Publishing": "Scientific & Academic Publishing",
+        "Science and Education Publishing Co., Ltd.": "Science and Education Publishing",
+        "Horizon Research Publishing Co., Ltd.": "Horizon Research Publishing",
+        "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften"
     }
     return publisher_mappings.get(publisher, publisher)
 
