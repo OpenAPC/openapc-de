@@ -12,3 +12,5 @@ python/venv/
 # Exclude python byte code
 *.pyc
 
+*.csv~
+data/.apc_de.csv.un~
