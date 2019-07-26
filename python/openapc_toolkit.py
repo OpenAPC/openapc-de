@@ -1211,7 +1211,13 @@ def get_unified_journal_title(journal_full_title):
         "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
         "Quarterly Journal of Experimental Psychology": "The Quarterly Journal of Experimental Psychology",
         "Aging and disease": "Aging and Disease",
-        "physica status solidi (RRL) – Rapid Research Letters": "physica status solidi (RRL) - Rapid Research Letters"
+        "physica status solidi (RRL) – Rapid Research Letters": "physica status solidi (RRL) - Rapid Research Letters",
+        "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH": "Journal of Clinical and Diagnostic Research",
+        "genesis": "Genesis",
+        "TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN": "Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan",
+        "Anales de PsicologÃ­a": "Anales de Psicología",
+        "jwhg": "Journal of Women's Health and Gynecology",
+        "E&amp;G Quaternary Science Journal": "E&G Quaternary Science Journal"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
