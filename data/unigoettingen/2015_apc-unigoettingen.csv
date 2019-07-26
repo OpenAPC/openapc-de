@@ -43,7 +43,7 @@ Nr.,institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn
 42,Goettingen University,2015,"1386,35",10.1038/srep10539,FALSE,,,,,,
 43,Goettingen University,2015,"1142,40",10.3389/fbioe.2015.00072,FALSE,,,,,,
 44,Goettingen University,2015,"1433,22",10.1371/journal.pone.0128019 ,FALSE,,,,,,
-45,Goettingen University,2015,"263,32",NA,FALSE,Mongabay,Tropical Conservation Science,1940-0829,NA,NA,https://tropicalconservationscience.mongabay.com/content/v8/tcs_v8i2_479-490_Hong_Dao.pdf
+45,Goettingen University,2015,"263,32",10.1177/194008291500800212,FALSE,Mongabay,Tropical Conservation Science,1940-0829,NA,NA,https://tropicalconservationscience.mongabay.com/content/v8/tcs_v8i2_479-490_Hong_Dao.pdf
 46,Goettingen University,2015,"1523,20",10.3389/fnhum.2015.00314,FALSE,,,,,,
 47,Goettingen University,2015,"876,13",10.1155/2015/278139,FALSE,,,,,,
 48,Goettingen University,2015,"1560,60",10.3389/fnbeh.2015.00147,FALSE,,,,,,
@@ -94,7 +94,7 @@ Nr.,institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn
 93,Goettingen University,2015,"1999,20",10.3389/fncel.2015.00373,FALSE,,,,,,
 94,Goettingen University,2015,"1267,35",10.1093/nar/gkv930,FALSE,,,,,,
 95,Goettingen University,2015,"1999,20",10.3389/fpls.2015.00857,FALSE,,,,,,
-96,Goettingen University,2015,"344,42",NA,FALSE,Cloud Publications,International Journal of Advanced Remote Sensing and GIS,2320-0243,NA,NA,https://www.researchgate.net/profile/Hong_Quang_Nguyen2/publication/284186683_Modeling_Surface_Runoff_and_Evapotranspiration_using_SWAT_and_BEACH_for_a_Tropical_Watershed_in_North_Vietnam_Compared_to_MODIS_Products/links/564f343108ae4988a7a80f6f.pdf?inViewer=0&pdfJsDownload=0&origin=publication_detail
+96,Goettingen University,2015,"344,42",10.23953/cloud.ijarsg.124,FALSE,Cloud Publications,International Journal of Advanced Remote Sensing and GIS,2320-0243,NA,NA,https://www.researchgate.net/profile/Hong_Quang_Nguyen2/publication/284186683_Modeling_Surface_Runoff_and_Evapotranspiration_using_SWAT_and_BEACH_for_a_Tropical_Watershed_in_North_Vietnam_Compared_to_MODIS_Products/links/564f343108ae4988a7a80f6f.pdf?inViewer=0&pdfJsDownload=0&origin=publication_detail
 97,Goettingen University,2015,"1988,04",10.3389/fncom.2015.00114,FALSE,,,,,,
 98,Goettingen University,2015,"1319,47",10.1371/JOURNAL.PONE.0139163,FALSE,,,,,,
 99,Goettingen University,2015,"1319,47",10.1371/JOURNAL.PONE.0140100,FALSE,,,,,,
