@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 81,705 open access journal articles, amounting to € 159,072,260 and contributed by 241 institutions.
+At the moment this project provides cost data on 81,706 open access journal articles, amounting to € 159,074,074 and contributed by 241 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -334,9 +334,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 81,705 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 241 research performing institutions and research funders. 
+This data set contains information on 81,706 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 241 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 159,072,260. The average payment was € 1,947  and the median was € 1,752.
+In total, publication fee spending covered by the Open APC initiative amounted to € 159,074,074. The average payment was € 1,947  and the median was € 1,752.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -360,7 +360,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2013   |       2,314|   1,231|     1,186|  50 -  4,574|           1,096|       2,256|         2,260|      120 - 4,679|
 |2014   |       5,009|   1,379|     1,260|  40 -  9,028|           6,506|       2,239|         2,200|      132 - 6,000|
 |2015   |       8,248|   1,525|     1,453|  60 -  5,669|           6,679|       2,610|         2,622|      100 - 8,636|
-|2016   |       9,325|   1,640|     1,534|  63 -  5,985|           7,750|       2,548|         2,511|        2 - 9,079|
+|2016   |       9,326|   1,640|     1,534|  63 -  5,985|           7,750|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,016|   1,727|     1,561|  26 -  6,250|           9,720|       2,518|         2,447|       37 - 9,858|
 |2018   |       6,008|   1,642|     1,629|  13 - 12,000|           2,204|       2,516|         2,529|       18 - 7,847|
 |2019   |         407|   1,925|     1,666| 279 -  5,104|              25|       2,243|         2,236|      927 - 3,400|
@@ -371,7 +371,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-47,698 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 74,713,300, including value-added tax; the average payment was € 1,566 (median =  € 1,481, SD = € 761).
+47,699 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 74,715,114, including value-added tax; the average payment was € 1,566 (median =  € 1,481, SD = € 761).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -399,7 +399,7 @@ The following table summarises institutional spending on articles published in f
 |Tuebingen U                                                          |      789|             1,114,397|   1,412 (414)|  1,442|       75 -  2,662|
 |University of Birmingham                                             |      667|             1,146,718|   1,719 (785)|  1,594|      126 -  5,669|
 |Giessen U                                                            |      655|               990,314|   1,512 (653)|  1,503|       81 -  4,582|
-|Swiss National Science Foundation (SNSF)                             |      638|             1,276,657| 2,001 (1,146)|  1,592|       87 -  5,104|
+|Swiss National Science Foundation (SNSF)                             |      639|             1,278,471| 2,001 (1,146)|  1,593|       87 -  5,104|
 |Freiburg U                                                           |      623|               871,696|   1,399 (422)|  1,449|       50 -  2,501|
 |FZJ - ZB                                                             |      569|               794,874|   1,397 (628)|  1,302|       40 -  3,850|
 |Bielefeld U                                                          |      566|               755,208|   1,334 (420)|  1,386|      140 -  4,581|
