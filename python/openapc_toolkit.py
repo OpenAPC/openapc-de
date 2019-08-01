@@ -1217,7 +1217,8 @@ def get_unified_journal_title(journal_full_title):
         "TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN": "Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan",
         "Anales de PsicologÃ­a": "Anales de Psicología",
         "jwhg": "Journal of Women's Health and Gynecology",
-        "E&amp;G Quaternary Science Journal": "E&G Quaternary Science Journal"
+        "E&amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
+        "Work, employment and society": "Work, Employment and Society"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
