@@ -1155,7 +1155,6 @@ def get_unified_journal_title(journal_full_title):
         "Tellus A: Dynamic Meteorology and Oceanography": "Tellus A",
         "International journal of methods in psychiatric research": "International Journal of Methods in Psychiatric Research",
         "Polym. Chem.": "Polymer Chemistry",
-        "Angewandte Chemie": "Angewandte Chemie International Edition",
         "ISME Journal": "The ISME Journal",
         "Interface": "Journal of The Royal Society Interface",
         "Medical Engineering and Physics": "Medical Engineering & Physics",
