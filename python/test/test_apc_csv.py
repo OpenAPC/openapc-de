@@ -132,7 +132,9 @@ JOURNAL_OWNER_CHANGED = {
     "2169-9097": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research JGR / E - Planets
     "0048-6604": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Radio Science
     "1747-0218": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology
-    "1747-0226": ["Informa UK Limited", "SAGE Publications"] # (The) Quarterly Journal of Experimental Psychology (electronic)
+    "1747-0226": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology (electronic)
+    "1461-9571": ["Informa UK Limited", "Cambridge University Press (CUP)"], # European Journal of Archaeology
+    "1741-2722": ["Informa UK Limited", "Cambridge University Press (CUP)"] # European Journal of Archaeology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
