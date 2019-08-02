@@ -187,10 +187,13 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Institutions from Sweden (via [Open APC Sweden](https://github.com/Kungbib/openapc-se)):
 
 - Chalmers University of Technology
-- Dalarna University College
+- Dalarna University
+- Swedish School of Sport and Health Sciences
 - University of Gothenburg
-- Borås University College
-- University College West
+- University of Borås
+- University of Skövde
+- University West
+- Karlstad University
 - Karolinska Institutet
 - KTH Royal Institute of Technology
 - Linköping University
@@ -203,6 +206,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - Stockholm University
 - Umeå University
 - Uppsala University
+
 
 ## Institutions from Finland:
 
