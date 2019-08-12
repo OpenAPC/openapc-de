@@ -1,0 +1,246 @@
+"institution","institution_cubes_name","institution_full_name","continent","country","state"
+Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY
+Bielefeld U,bielefeld_u,Bielefeld University,EUROPE,DEU,NW
+Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW
+FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE
+GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB
+Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW
+Leipzig U,leipzig_u,Leipzig University,EUROPE,DEU,SN
+MPG,mpg,Max Planck Digital Library,EUROPE,DEU,BY
+Regensburg U,regensburg_u,University of Regensburg,EUROPE,DEU,BY
+TU Clausthal,tu_clausthal,Clausthal University of Technology,EUROPE,DEU,NI
+Muenchen LMU,muenchen_lmu,Ludwig-Maximilians-Universität München,EUROPE,DEU,BY
+Goettingen U,goettingen_u,University of Göttingen,EUROPE,DEU,NI
+Heidelberg U,heidelberg_u,Heidelberg University,EUROPE,DEU,BW
+Hamburg TUHH,hamburg_tuhh,Hamburg University of Technology,EUROPE,DEU,HH
+Bayreuth U,bayreuth_u,Bayreuth University,EUROPE,DEU,BY
+KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW
+INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL
+MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE
+TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN
+TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN
+Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW
+Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW
+Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE
+FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW
+Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE
+TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH
+TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY
+Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI
+Wuerzburg U,wuerzburg_u,University of Würzburg,EUROPE,DEU,BY
+Leibniz-Fonds,leibnizfonds,Leibniz-Fonds,EUROPE,DEU,BE
+Potsdam U,potsdam_u,University of Potsdam,EUROPE,DEU,BB
+FWF - Austrian Science Fund,fwf,FWF - Austrian Science Fund,EUROPE,AUT,AUT-WI
+Bremen U,bremen_u,University of Bremen,EUROPE,DEU,HB
+Erlangen Nuernberg U,erlangen_nuernberg_u,Friedrich-Alexander-Universität Erlangen-Nürnberg,EUROPE,DEU,BY
+Wellcome Trust,wellcome_trust, Wellcome Trust,EUROPE,GBR,ENG
+Tuebingen U,tuebingen_u,Eberhard Karls Universität Tübingen,EUROPE,DEU,BW
+Ulm U,ulm_u,Ulm University,EUROPE,DEU,BW
+Freiburg U,freiburg_u,University of Freiburg,EUROPE,DEU,BW
+TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI
+HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN
+Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA
+Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI
+OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I
+University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB
+IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH
+UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN
+TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI
+Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25
+Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA
+Münster U,muenster_u,Münster University,EUROPE,DEU,NW
+JGU Mainz,jgu_mainz,Johannes Gutenberg University of Mainz,EUROPE,DEU,RP
+Universitat de Barcelona,barcelona_u,Universitat de Barcelona,EUROPE,ESP,ES.CT
+IST Austria,ist_austria,Institute of Science and Technology Austria,EUROPE,AUT,AUT-NO
+TIB,tib,TIB – German National Library of Science and Technology,EUROPE,DEU,NI
+Aberystwyth University,aberystwyth_u,Aberystwyth University,EUROPE,GBR,WLS
+Aston University,aston_u,Aston University,EUROPE,GBR,ENG
+Bangor University,bangor_u,Bangor University,EUROPE,GBR,WLS
+Cardiff University,cardiff_u,Cardiff University,EUROPE,GBR,WLS
+Cranfield University,cranfield_u,Cranfield University,EUROPE,GBR,ENG
+Goldsmiths,goldsmiths_u,"Goldsmiths, University of London",EUROPE,GBR,ENG
+Imperial College London,imperial_college_london,Imperial College London,EUROPE,GBR,ENG
+Institute of Cancer Research,icr,Institute of Cancer Research (ICR),EUROPE,GBR,ENG
+Keele University,keele_u,Keele University,EUROPE,GBR,ENG
+King's College London,kings_college,King's College London,EUROPE,GBR,ENG
+LSE,lse,London School of Economics (LSE),EUROPE,GBR,ENG
+LSHTM,lhstm,London School of Hygiene & Tropical Medicine (LSHTM),EUROPE,GBR,ENG
+Lancaster University,lancaster_u,Lancaster University,EUROPE,GBR,ENG
+Manchester Metropolitan University,manchester_met_u,Manchester Metropolitan University,EUROPE,GBR,ENG
+Northumbria University,northumbria_u,Northumbria University,EUROPE,GBR,ENG
+Plymouth University,plymouth_u,Plymouth University,EUROPE,GBR,ENG
+"Queen Mary, University of London",queen_mary_u,Queen Mary University of London,EUROPE,GBR,ENG
+Queen's University Belfast,belfast_u,Queen's University Belfast,EUROPE,GBR,NIR
+Royal Holloway,royal_holloway,"Royal Holloway, University of London",EUROPE,GBR,ENG
+"St George's, University of London",st_georges_u,"St George's, University of London",EUROPE,GBR,ENG
+Swansea University,swansea_u,Swansea University,EUROPE,GBR,WLS
+UCL,ucl,University College London (UCL),EUROPE,GBR,ENG
+University of Aberdeen,aberdeen_u,University of Aberdeen,EUROPE,GBR,SCT
+University of Bath,bath_u,University of Bath,EUROPE,GBR,ENG
+University of Birmingham,birgmingham_u,University of Birmingham,EUROPE,GBR,ENG
+University of Bristol,bristol_u,University of Bristol,EUROPE,GBR,ENG
+University of Cambridge,cambridge_u,University of Cambridge,EUROPE,GBR,ENG
+University of Durham,durham_u,University of Durham,EUROPE,GBR,ENG
+University of Edinburgh,edinburgh_u,University of Edinburgh,EUROPE,GBR,SCT
+University of Exeter,exeter_u,University of Exeter,EUROPE,GBR,ENG
+University of Glasgow,glasgow_u,University of Glasgow,EUROPE,GBR,SCT
+University of Huddersfield,huddersfield_u,University of Huddersfield,EUROPE,GBR,ENG
+University of Hull,hull_u,University of Hull,EUROPE,GBR,ENG
+University of Leicester,leicester_u,University of Leicester,EUROPE,GBR,ENG
+University of Liverpool,liverpool_u,University of Liverpool,EUROPE,GBR,ENG
+University of Loughborough,loughborough_u,University of Loughborough,EUROPE,GBR,ENG
+University of Manchester,manchester_u,University of Manchester,EUROPE,GBR,ENG
+University of Newcastle,newcastle_u,University of Newcastle,EUROPE,GBR,ENG
+University of Nottingham,nottingham_u,University of Nottingham,EUROPE,GBR,ENG
+University of Oxford,oxford_u,University of Oxford,EUROPE,GBR,ENG
+University of Portsmouth,portsmouth_u,University of Portsmouth,EUROPE,GBR,ENG
+University of Reading,reading_u,University of Reading,EUROPE,GBR,ENG
+University of Salford,salford_u,University of Salford,EUROPE,GBR,ENG
+University of Sheffield,sheffield_u,University of Sheffield,EUROPE,GBR,ENG
+University of Southampton,southampton_u,University of Southampton,EUROPE,GBR,ENG
+University of St Andrews,st_andrews_u,University of St Andrews,EUROPE,GBR,SCT
+University of Surrey,surrey_u,University of Surrey,EUROPE,GBR,ENG
+University of Sussex,sussex_u,University of Sussex,EUROPE,GBR,ENG
+University of Warwick,warwick_u,University of Warwick,EUROPE,GBR,ENG
+University of York,york_u,University of York,EUROPE,GBR,ENG
+Chalmers University of Technology,chalmers_u,Chalmers University of Technology,EUROPE,SWE,SE-O
+Dalarna University,dalarna_u,Dalarna University,EUROPE,SWE,SE-W
+Karolinska Institutet,karolinska,Karolinska Institutet,EUROPE,SWE,SE-AB
+KTH Royal Institute of Technology,kth,KTH Royal Institute of Technology,EUROPE,SWE,SE-AB
+Linköping University,linkoping_u,Linköping University,EUROPE,SWE,SE-E
+Luleå University of Technology,lulea_tu,Luleå University of Technology,EUROPE,SWE,SE-BD
+Lund University,lund_u,Lund University,EUROPE,SWE,SE-M
+Malmö University,malmo_u,Malmö University,EUROPE,SWE,SE-M
+Stockholm University,stockholm_u,Stockholm University,EUROPE,SWE,SE-AB
+Swedish University of Agricultural Sciences,swedish_agricultural_u,Swedish University of Agricultural Sciences,EUROPE,SWE,SE-C
+Umeå University,umea_u,Umeå University,EUROPE,SWE,SE-AC
+University of Gothenburg,gothenburg_u,University of Gothenburg,EUROPE,SWE,SE-O
+Uppsala University,uppsala_u,Uppsala University,EUROPE,SWE,SE-C
+Akershus University Hospital,akershus_uh,Akershus University Hospital,EUROPE,NOR,NO.AK
+BI Norwegian Business School,nor_business_school,BI Norwegian Business School,EUROPE,NOR,NO.OS
+Bergen University College,bergen_uc,Bergen University College,EUROPE,NOR,NO.HO
+Fridtjof Nansen Institute,fridtjof_nansen_institute,Fridtjof Nansen Institute,EUROPE,NOR,NO.AK
+GenØk - Centre for Biosafety,genok,GenØk - Centre for Biosafety,EUROPE,NOR,NO.TR
+Harstad University College,harstad_uc,Harstad University College,EUROPE,NOR,NO.TR
+Innlandet Hospital Trust,innlandet_ht,Innlandet Hospital Trust,EUROPE,NOR,NO.HE
+Institute of Marine Research,institute_of_marine_research,Institute of Marine Research,EUROPE,NOR,NO.HO
+Molde University College,molde_uc,Molde University College,EUROPE,NOR,NO.MR
+NILU - Norwegian Institute for Air Research,nilu,Norwegian Institute for Air Research,EUROPE,NOR,NO.AK
+Nansen Environmental and Remote Sensing Center,nersc,Nansen Environmental and Remote Sensing Center,EUROPE,NOR,NO.HO
+Nord University,nord_u,Nord University,EUROPE,NOR,NO.NO
+Norwegian Center for Studies on Violence and Traumatic Stress,nkvts,Norwegian Center for Studies on Violence and Traumatic Stress,EUROPE,NOR,NO.OS
+Norwegian Institute for Agricultural and Environmental Research,nor_institute_for_agricultural_and_environmental_research,Norwegian Institute for Agricultural and Environmental Research,EUROPE,NOR,NO.AK
+Norwegian Institute for Nature Research,nina,Norwegian Institute for Nature Research,EUROPE,NOR,NO.TO
+Norwegian Institute of Public Health,nor_institute_for_public_health,Norwegian Institute of Public Health,EUROPE,NOR,NO.OS
+Norwegian Institute of Water Research,nor_institute_of_water_research,Norwegian Institute of Water Research,EUROPE,NOR,NO.OS
+Norwegian School of Sport Sciences,nor_school_of_sport_sciences,Norwegian School of Sport Sciences,EUROPE,NOR,NO.OS
+Norwegian University of Life Sciences,nor_life_sciences_u,Norwegian University of Life Sciences,EUROPE,NOR,NO.AK
+Norwegian University of Science and Technology,nor_science_and_technology_u,Norwegian University of Science and Technology,EUROPE,NOR,NO.TO
+Oslo University Hospital,oslo_uh,Oslo University Hospital,EUROPE,NOR,NO.OS
+Oslo and Akershus university college,oslo_akershus_uc,Oslo and Akershus University College,EUROPE,NOR,NO.OS
+SINTEF,sintef,SINTEF (Foundation for Scientific and Industrial Research),EUROPE,NOR,NO.TO
+Sørlandet Hospital Trust,sorlandet_ht,Sørlandet Hospital Trust,EUROPE,NOR,NO.VA
+Uni Research,uni_research,Uni Research,EUROPE,NOR,NO.HO
+University College of Southeast Norway,se_norway_uc,University College of Southeast Norway,EUROPE,NOR,NO.BU
+University of Agder,agder_u,University of Agder,EUROPE,NOR,NO.VA
+University of Bergen,bergen_u,University of Bergen,EUROPE,NOR,NO.HO
+University of Oslo,oslo_u,University of Oslo,EUROPE,NOR,NO.OS
+University of Stavanger,stavanger_u,University of Stavanger,EUROPE,NOR,NO.RO
+University of Tromsø - The Arctic University of Norway,tromso_u,University of Tromsø - The Arctic University of Norway,EUROPE,NOR,NO.TR
+Vestfold Hospital Trust,vestfold_ht,Vestfold Hospital Trust,EUROPE,NOR,NO.VF
+Vestre Viken Hospital Trust,vestre_viken_ht,Vestre Viken Hospital Trust,EUROPE,NOR,NO.BU
+TU Berlin,tu_berlin,Technische Universität Berlin,EUROPE,DEU,BE
+Trier U,trier_u,University of Trier,EUROPE,DEU,RP
+Swiss National Science Foundation (SNSF),snsf,Swiss National Science Foundation (SNSF),EUROPE,CHE,CH.BE
+Osnabrück U,osnabrueck_u,Osnabrück University,EUROPE,DEU,NI
+TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI
+Stuttgart U,stuttgart_u,University of Stuttgart,EUROPE,DEU,BW
+TU Darmstadt,tu_darmstadt,Technische Universität Darmstadt,EUROPE,DEU,HE
+GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH
+Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY
+MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,ST
+Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI
+Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC
+Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC
+Hospices Civils de Lyon,hcl_u,Hospices Civils de Lyon,EUROPE,FRA,FR-ARA
+INRIA,inria,Institut national de recherche en informatique et en automatique (INRIA),EUROPE,FRA,FR-IDF
+INSERM,inserm,Institut national de la santé et de la recherche médicale (INSERM),EUROPE,FRA,FR-IDF
+Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF
+Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF
+Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE
+Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC
+Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF
+Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ
+Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA
+Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC
+Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC
+Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ
+University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O
+University West,west_u,University West,EUROPE,SWE,SE-O
+Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G
+Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T
+Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES
+CNRS,cnrs,Centre national de la recherche scientifique (CNRS),EUROPE,FRA,FR-IDF
+Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FRA,FR-ARA
+Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN
+Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE
+Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE
+Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF
+Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC
+INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF
+ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF
+Université d'Avignon et des Pays de Vaucluse,avignon_u,Université d'Avignon et des Pays de Vaucluse,EUROPE,FRA,FR-PAC
+Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR
+Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC
+Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF
+Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES
+"University of Chemistry and Technology, Prague",uct_prague_u,"University of Chemistry and Technology, Prague",EUROPE,CZE,CZ-PR
+Brunel University,brunel_u,Brunel University,EUROPE,GBR,ENG
+Edinburgh Napier University,edinburgh_napier_u,Edinburgh Napier University,EUROPE,GBR,SCT
+Glasgow Caledonian University,glasgow_caledonian_u,Glasgow Caledonian University,EUROPE,GBR,SCT
+Heriot-Watt University,heriot_watt_u,Heriot-Watt University,EUROPE,GBR,SCT
+Leeds Beckett University,leeds_beckett_u,Leeds Beckett University,EUROPE,GBR,ENG
+Liverpool John Moores University,liverpool_john_moores_u,Liverpool John Moores University,EUROPE,GBR,ENG
+Liverpool School of Tropical Medicine,liverpool_sotm,Liverpool School of Tropical Medicine,EUROPE,GBR,ENG
+The Open University,open_u,The Open University,EUROPE,GBR,ENG
+University of Dundee,dundee_u,University of Dundee,EUROPE,GBR,SCT
+University of East Anglia,east_anglia_u,University of East Anglia,EUROPE,GBR,ENG
+University of Kent,kent_u,University of Kent,EUROPE,GBR,ENG
+University of Leeds,leeds_u,University of Leeds,EUROPE,GBR,ENG
+University of Strathclyde,strathclyde_u,University of Strathclyde,EUROPE,GBR,SCT
+University of the West of England,west_of_england_u,University of the West of England,EUROPE,GBR,ENG
+University of Ulster,ulster_u,University of Ulster,EUROPE,GBR,NIR
+Université d'Angers,angers_u,Université d'Angers,EUROPE,FRA,FR-PDL
+CIRAD,cirad,Centre de coopération internationale en recherche agronomique pour le développement (CIRAD),EUROPE,FRA,FR-IDF
+Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF
+Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC
+Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA
+Université de Nantes,nantes_u,Université de Nantes,EUROPE,FRA,FR-PDL
+IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF
+IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF
+Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF
+Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF
+Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE
+Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF
+TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB
+Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE
+Université de La Rochelle,la_rochelle_u,Université de La Rochelle,EUROPE,FRA,FR-NAQ
+Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV
+Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA
+Université de La Réunion,reunion_u,Université de La Réunion,EUROPE,FRA,FR-RE
+Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF
+Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC
+Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE
+Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32
+Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV
+PIK-Potsdam,pik_potsdam,Potsdam Institute for Climate Impact Research (PIK),EUROPE,DEU,BB
+HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE
+University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE
+Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY
+GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH
+Jyväskylä U,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08
+"Commissariat à l'énergie atomique et aux énergies alternatives (CEA)",cea,"Commissariat à l'énergie atomique et aux énergies alternatives (CEA)",EUROPE,FRA,FR-IDF
+Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ
+Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB
+University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O
+Karlstad University,karlstad_u,Karlstad University,EUROPE,SWE,SE-S
