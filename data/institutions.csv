@@ -6,19 +6,19 @@ FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,fuberlin
 GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,gfz-potsdam
 Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW,unikonstanz
 Leipzig U,leipzig_u,Leipzig University,EUROPE,DEU,SN,unileipzig
-MPG,mpg,Max Planck Digital Library,EUROPE,DEU,BY,NA
-Regensburg U,regensburg_u,University of Regensburg,EUROPE,DEU,BY,NA
-TU Clausthal,tu_clausthal,Clausthal University of Technology,EUROPE,DEU,NI,NA
+MPG,mpg,Max Planck Digital Library,EUROPE,DEU,BY,mpg
+Regensburg U,regensburg_u,University of Regensburg,EUROPE,DEU,BY,unireg
+TU Clausthal,tu_clausthal,Clausthal University of Technology,EUROPE,DEU,NI,tuclausthal
 Muenchen LMU,muenchen_lmu,Ludwig-Maximilians-Universität München,EUROPE,DEU,BY,lmu
-Goettingen U,goettingen_u,University of Göttingen,EUROPE,DEU,NI,NA
-Heidelberg U,heidelberg_u,Heidelberg University,EUROPE,DEU,BW,NA
+Goettingen U,goettingen_u,University of Göttingen,EUROPE,DEU,NI,unigoettingen
+Heidelberg U,heidelberg_u,Heidelberg University,EUROPE,DEU,BW,uniheidelberg
 Hamburg TUHH,hamburg_tuhh,Hamburg University of Technology,EUROPE,DEU,HH,NA
 Bayreuth U,bayreuth_u,Bayreuth University,EUROPE,DEU,BY,NA
 KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW,kit
-INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL,NA
-MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,NA
+INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL,leibniz-INM
+MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,mdc
 TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN,NA
-TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,NA
+TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,tudresden
 Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,NA
 Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,rub
 Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,NA
@@ -26,33 +26,33 @@ FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,NA
 Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE,unikassel
 TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,NA
 TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY,tum
-Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI,NA
+Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI,unihannover
 Wuerzburg U,wuerzburg_u,University of Würzburg,EUROPE,DEU,BY,uniwuerzburg
 Leibniz-Fonds,leibnizfonds,Leibniz-Fonds,EUROPE,DEU,BE,NA
 Potsdam U,potsdam_u,University of Potsdam,EUROPE,DEU,BB,unipotsdam
 FWF - Austrian Science Fund,fwf,FWF - Austrian Science Fund,EUROPE,AUT,AUT-WI,fwf
-Bremen U,bremen_u,University of Bremen,EUROPE,DEU,HB,NA
+Bremen U,bremen_u,University of Bremen,EUROPE,DEU,HB,unibremen
 Erlangen Nuernberg U,erlangen_nuernberg_u,Friedrich-Alexander-Universität Erlangen-Nürnberg,EUROPE,DEU,BY,fau
 Wellcome Trust,wellcome_trust, Wellcome Trust,EUROPE,GBR,ENG,NA
 Tuebingen U,tuebingen_u,Eberhard Karls Universität Tübingen,EUROPE,DEU,BW,unituebingen
 Ulm U,ulm_u,Ulm University,EUROPE,DEU,BW,uniulm
-Freiburg U,freiburg_u,University of Freiburg,EUROPE,DEU,BW,NA
-TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,NA
+Freiburg U,freiburg_u,University of Freiburg,EUROPE,DEU,BW,unifreiburg
+TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien
 HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,hzdr
-Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,NA
+Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,harvard-hope
 Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,NA
 OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire
 University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA
-IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,NA
+IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn
 UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,NA
-TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI,NA
+TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI,tihohannover
 Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,unimilano
-Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,NA
+Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,virginiatech
 Münster U,muenster_u,Münster University,EUROPE,DEU,NW,unimuenster
 JGU Mainz,jgu_mainz,Johannes Gutenberg University of Mainz,EUROPE,DEU,RP,unimainz
 Universitat de Barcelona,barcelona_u,Universitat de Barcelona,EUROPE,ESP,ES.CT,unibarcelona
-IST Austria,ist_austria,Institute of Science and Technology Austria,EUROPE,AUT,AUT-NO,NA
-TIB,tib,TIB – German National Library of Science and Technology,EUROPE,DEU,NI,NA
+IST Austria,ist_austria,Institute of Science and Technology Austria,EUROPE,AUT,AUT-NO,istaustria
+TIB,tib,TIB – German National Library of Science and Technology,EUROPE,DEU,NI,tib
 Aberystwyth University,aberystwyth_u,Aberystwyth University,EUROPE,GBR,WLS,NA
 Aston University,aston_u,Aston University,EUROPE,GBR,ENG,NA
 Bangor University,bangor_u,Bangor University,EUROPE,GBR,WLS,NA
@@ -150,15 +150,15 @@ University of Tromsø - The Arctic University of Norway,tromso_u,University of T
 Vestfold Hospital Trust,vestfold_ht,Vestfold Hospital Trust,EUROPE,NOR,NO.VF,NA
 Vestre Viken Hospital Trust,vestre_viken_ht,Vestre Viken Hospital Trust,EUROPE,NOR,NO.BU,NA
 TU Berlin,tu_berlin,Technische Universität Berlin,EUROPE,DEU,BE,tuberlin
-Trier U,trier_u,University of Trier,EUROPE,DEU,RP,NA
-Swiss National Science Foundation (SNSF),snsf,Swiss National Science Foundation (SNSF),EUROPE,CHE,CH.BE,NA
+Trier U,trier_u,University of Trier,EUROPE,DEU,RP,unitrier
+Swiss National Science Foundation (SNSF),snsf,Swiss National Science Foundation (SNSF),EUROPE,CHE,CH.BE,snsf
 Osnabrück U,osnabrueck_u,Osnabrück University,EUROPE,DEU,NI,uniosnabrueck
 TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI,NA
 Stuttgart U,stuttgart_u,University of Stuttgart,EUROPE,DEU,BW,unistuttgart
-TU Darmstadt,tu_darmstadt,Technische Universität Darmstadt,EUROPE,DEU,HE,NA
+TU Darmstadt,tu_darmstadt,Technische Universität Darmstadt,EUROPE,DEU,HE,tudarmstadt
 GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,NA
 Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY,fraunhofer
-MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,ST,NA
+MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,ST,mluhalle
 Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI,NA
 Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC,NA
 Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC,NA
@@ -182,9 +182,9 @@ Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,NA
 Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES,NA
 CNRS,cnrs,Centre national de la recherche scientifique (CNRS),EUROPE,FRA,FR-IDF,NA
 Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FRA,FR-ARA,NA
-Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,NA
-Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE,NA
-Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE,NA
+Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,iupui
+Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE,igb
+Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE,wias
 Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,NA
 Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC,NA
 INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF,NA
@@ -232,15 +232,15 @@ Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,NA
 Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,NA
 Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen
-Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,NA
+Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,unigreifswald
 PIK-Potsdam,pik_potsdam,Potsdam Institute for Climate Impact Research (PIK),EUROPE,DEU,BB,pik-potsdam
 HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,huberlin
 University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unidebrecen
-Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,NA
-GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,NA
-Jyväskylä U,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,NA
+Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab
+GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,geomar
+Jyväskylä U,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,unijyväskylä
 Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,NA
-Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,NA
+Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg
 Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,NA
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,NA
 Karlstad University,karlstad_u,Karlstad University,EUROPE,SWE,SE-S,NA
