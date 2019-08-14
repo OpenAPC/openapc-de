@@ -1,11 +1,11 @@
 "institution","institution_cubes_name","institution_full_name","continent","country","state","openapc_data_dir"
 Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,NA
 Bielefeld U,bielefeld_u,Bielefeld University,EUROPE,DEU,NW,unibi
-Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,NA
-FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,NA
-GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,NA
-Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW,NA
-Leipzig U,leipzig_u,Leipzig University,EUROPE,DEU,SN,NA
+Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue
+FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,fuberlin
+GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,gfz-potsdam
+Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW,unikonstanz
+Leipzig U,leipzig_u,Leipzig University,EUROPE,DEU,SN,unileipzig
 MPG,mpg,Max Planck Digital Library,EUROPE,DEU,BY,NA
 Regensburg U,regensburg_u,University of Regensburg,EUROPE,DEU,BY,NA
 TU Clausthal,tu_clausthal,Clausthal University of Technology,EUROPE,DEU,NI,NA
