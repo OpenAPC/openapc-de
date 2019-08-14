@@ -1,4 +1,4 @@
-"institution","institution_cubes_name","institution_full_name","continent","country","state","openapc_data_dir"
+institution,institution_cubes_name,institution_full_name,continent,country,state,openapc_data_dir
 Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,NA
 Bielefeld U,bielefeld_u,Bielefeld University,EUROPE,DEU,NW,unibi
 Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue
@@ -20,7 +20,7 @@ MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,NA
 TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN,NA
 TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,NA
 Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,NA
-Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,NA
+Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,rub
 Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,NA
 FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,NA
 Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE,NA
@@ -50,7 +50,7 @@ Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,NA
 Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,NA
 Münster U,muenster_u,Münster University,EUROPE,DEU,NW,NA
 JGU Mainz,jgu_mainz,Johannes Gutenberg University of Mainz,EUROPE,DEU,RP,NA
-Universitat de Barcelona,barcelona_u,Universitat de Barcelona,EUROPE,ESP,ES.CT,NA
+Universitat de Barcelona,barcelona_u,Universitat de Barcelona,EUROPE,ESP,ES.CT,unibarcelona
 IST Austria,ist_austria,Institute of Science and Technology Austria,EUROPE,AUT,AUT-NO,NA
 TIB,tib,TIB – German National Library of Science and Technology,EUROPE,DEU,NI,NA
 Aberystwyth University,aberystwyth_u,Aberystwyth University,EUROPE,GBR,WLS,NA
@@ -194,7 +194,7 @@ Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR
 Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,NA
 Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,NA
 Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES,NA
-"University of Chemistry and Technology, Prague",uct_prague_u,"University of Chemistry and Technology, Prague",EUROPE,CZE,CZ-PR,NA
+"University of Chemistry and Technology, Prague",uct_prague_u,"University of Chemistry and Technology, Prague",EUROPE,CZE,CZ-PR,uct_prague
 Brunel University,brunel_u,Brunel University,EUROPE,GBR,ENG,NA
 Edinburgh Napier University,edinburgh_napier_u,Edinburgh Napier University,EUROPE,GBR,SCT,NA
 Glasgow Caledonian University,glasgow_caledonian_u,Glasgow Caledonian University,EUROPE,GBR,SCT,NA
@@ -220,7 +220,7 @@ IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports,
 IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,NA
 Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF,NA
 Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,NA
-Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,NA
+Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt
 Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,NA
 TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,NA
 Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,NA
@@ -239,7 +239,7 @@ University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,NA
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,NA
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,NA
 Jyväskylä U,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,NA
-"Commissariat à l'énergie atomique et aux énergies alternatives (CEA)",cea,"Commissariat à l'énergie atomique et aux énergies alternatives (CEA)",EUROPE,FRA,FR-IDF,NA
+Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,NA
 Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,NA
 Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,NA
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,NA
