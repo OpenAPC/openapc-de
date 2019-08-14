@@ -366,11 +366,12 @@ def analyze_csv_file(file_path, test_lines=1000, enc=None):
     result = CSVAnalysisResult(blanks, dialect, has_header, guessed_enc, guessed_enc_confidence)
     return {"success": True, "data": result}
 
-def get_csv_file_content(file_name, enc=None, force_header=False):
+def get_csv_file_content(file_name, enc=None, force_header=False, print_results=True):
     result = analyze_csv_file(file_name, enc=enc)
     if result["success"]:
         csv_analysis = result["data"]
-        print(csv_analysis)
+        if print_results:
+            print(csv_analysis)
     else:
         print_r(result["error_msg"])
         sys.exit()
