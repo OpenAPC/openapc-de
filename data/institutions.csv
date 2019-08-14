@@ -1,5 +1,5 @@
 institution,institution_cubes_name,institution_full_name,continent,country,state,openapc_data_dir
-Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,NA
+Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,unibamberg
 Bielefeld U,bielefeld_u,Bielefeld University,EUROPE,DEU,NW,unibi
 Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue
 FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,fuberlin
@@ -12,19 +12,19 @@ TU Clausthal,tu_clausthal,Clausthal University of Technology,EUROPE,DEU,NI,tucla
 Muenchen LMU,muenchen_lmu,Ludwig-Maximilians-Universität München,EUROPE,DEU,BY,lmu
 Goettingen U,goettingen_u,University of Göttingen,EUROPE,DEU,NI,unigoettingen
 Heidelberg U,heidelberg_u,Heidelberg University,EUROPE,DEU,BW,uniheidelberg
-Hamburg TUHH,hamburg_tuhh,Hamburg University of Technology,EUROPE,DEU,HH,NA
+Hamburg TUHH,hamburg_tuhh,Hamburg University of Technology,EUROPE,DEU,HH,tuhh
 Bayreuth U,bayreuth_u,Bayreuth University,EUROPE,DEU,BY,NA
 KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW,kit
 INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL,leibniz-INM
 MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,mdc
-TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN,NA
+TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN,tuchemnitz
 TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,tudresden
-Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,NA
+Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,tudortmund
 Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,rub
-Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,NA
-FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,NA
+Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,jlu_giessen
+FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,fzj
 Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE,unikassel
-TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,NA
+TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,tuilmenau
 TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY,tum
 Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI,unihannover
 Wuerzburg U,wuerzburg_u,University of Würzburg,EUROPE,DEU,BY,uniwuerzburg
@@ -40,11 +40,11 @@ Freiburg U,freiburg_u,University of Freiburg,EUROPE,DEU,BW,unifreiburg
 TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien
 HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,hzdr
 Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,harvard-hope
-Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,NA
+Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,unioldenburg
 OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire
 University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA
 IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn
-UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,NA
+UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,ufz
 TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI,tihohannover
 Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,unimilano
 Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,virginiatech
@@ -153,26 +153,26 @@ TU Berlin,tu_berlin,Technische Universität Berlin,EUROPE,DEU,BE,tuberlin
 Trier U,trier_u,University of Trier,EUROPE,DEU,RP,unitrier
 Swiss National Science Foundation (SNSF),snsf,Swiss National Science Foundation (SNSF),EUROPE,CHE,CH.BE,snsf
 Osnabrück U,osnabrueck_u,Osnabrück University,EUROPE,DEU,NI,uniosnabrueck
-TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI,NA
+TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI,tubraunschweig
 Stuttgart U,stuttgart_u,University of Stuttgart,EUROPE,DEU,BW,unistuttgart
 TU Darmstadt,tu_darmstadt,Technische Universität Darmstadt,EUROPE,DEU,HE,tudarmstadt
-GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,NA
+GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,giga
 Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY,fraunhofer
 MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,ST,mluhalle
-Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI,NA
+Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI,unirhodeisland
 Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC,couperin/amu
 Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC,couperin/bourgogne
 Hospices Civils de Lyon,hcl_u,Hospices Civils de Lyon,EUROPE,FRA,FR-ARA,couperin/hcl
 INRIA,inria,Institut national de recherche en informatique et en automatique (INRIA),EUROPE,FRA,FR-IDF,couperin/inria
 INSERM,inserm,Institut national de la santé et de la recherche médicale (INSERM),EUROPE,FRA,FR-IDF,couperin/inserm
 Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1
-Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,NA
-Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,NA
+Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2
+Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,couperin/rennes1
 Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon
-Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,NA
+Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc
 Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,couperin/bordeaux
 Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble
-Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,NA
+Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt
 Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,couperin/nice
 Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers
 University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,NA
@@ -212,7 +212,7 @@ University of the West of England,west_of_england_u,University of the West of En
 University of Ulster,ulster_u,University of Ulster,EUROPE,GBR,NIR,NA
 Université d'Angers,angers_u,Université d'Angers,EUROPE,FRA,FR-PDL,couperin/angers
 CIRAD,cirad,Centre de coopération internationale en recherche agronomique pour le développement (CIRAD),EUROPE,FRA,FR-IDF,couperin/cirad
-Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF,NA
+Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF,couperin/ens_paris
 Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC,couperin/ird
 Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA,couperin/lyon1
 Université de Nantes,nantes_u,Université de Nantes,EUROPE,FRA,FR-PDL,couperin/nantes
@@ -226,9 +226,9 @@ TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau
 Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite
 Université de La Rochelle,la_rochelle_u,Université de La Rochelle,EUROPE,FRA,FR-NAQ,couperin/rochelle
 Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,unirostock
-Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA,NA
+Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA,qatar_national_library
 Université de La Réunion,reunion_u,Université de La Réunion,EUROPE,FRA,FR-RE,couperin/reunion
-Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,NA
+Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,couperin/mines-paristech
 Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,couperin/montpellier
 Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen
@@ -244,4 +244,4 @@ Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg
 Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,NA
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,NA
 Karlstad University,karlstad_u,Karlstad University,EUROPE,SWE,SE-S,NA
-Mannheim U,mannheim_u,University of Mannheim,EUROPE,DEU,BW,NA
+Mannheim U,mannheim_u,University of Mannheim,EUROPE,DEU,BW,unimannheim
