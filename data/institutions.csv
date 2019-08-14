@@ -34,21 +34,21 @@ FWF - Austrian Science Fund,fwf,FWF - Austrian Science Fund,EUROPE,AUT,AUT-WI,fw
 Bremen U,bremen_u,University of Bremen,EUROPE,DEU,HB,NA
 Erlangen Nuernberg U,erlangen_nuernberg_u,Friedrich-Alexander-Universität Erlangen-Nürnberg,EUROPE,DEU,BY,fau
 Wellcome Trust,wellcome_trust, Wellcome Trust,EUROPE,GBR,ENG,NA
-Tuebingen U,tuebingen_u,Eberhard Karls Universität Tübingen,EUROPE,DEU,BW,NA
-Ulm U,ulm_u,Ulm University,EUROPE,DEU,BW,NA
+Tuebingen U,tuebingen_u,Eberhard Karls Universität Tübingen,EUROPE,DEU,BW,unituebingen
+Ulm U,ulm_u,Ulm University,EUROPE,DEU,BW,uniulm
 Freiburg U,freiburg_u,University of Freiburg,EUROPE,DEU,BW,NA
 TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,NA
-HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,NA
+HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,hzdr
 Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,NA
 Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,NA
-OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,NA
+OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire
 University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA
 IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,NA
 UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,NA
 TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI,NA
 Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,unimilano
 Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,NA
-Münster U,muenster_u,Münster University,EUROPE,DEU,NW,NA
+Münster U,muenster_u,Münster University,EUROPE,DEU,NW,unimuenster
 JGU Mainz,jgu_mainz,Johannes Gutenberg University of Mainz,EUROPE,DEU,RP,unimainz
 Universitat de Barcelona,barcelona_u,Universitat de Barcelona,EUROPE,ESP,ES.CT,unibarcelona
 IST Austria,ist_austria,Institute of Science and Technology Austria,EUROPE,AUT,AUT-NO,NA
@@ -149,15 +149,15 @@ University of Stavanger,stavanger_u,University of Stavanger,EUROPE,NOR,NO.RO,NA
 University of Tromsø - The Arctic University of Norway,tromso_u,University of Tromsø - The Arctic University of Norway,EUROPE,NOR,NO.TR,NA
 Vestfold Hospital Trust,vestfold_ht,Vestfold Hospital Trust,EUROPE,NOR,NO.VF,NA
 Vestre Viken Hospital Trust,vestre_viken_ht,Vestre Viken Hospital Trust,EUROPE,NOR,NO.BU,NA
-TU Berlin,tu_berlin,Technische Universität Berlin,EUROPE,DEU,BE,NA
+TU Berlin,tu_berlin,Technische Universität Berlin,EUROPE,DEU,BE,tuberlin
 Trier U,trier_u,University of Trier,EUROPE,DEU,RP,NA
 Swiss National Science Foundation (SNSF),snsf,Swiss National Science Foundation (SNSF),EUROPE,CHE,CH.BE,NA
-Osnabrück U,osnabrueck_u,Osnabrück University,EUROPE,DEU,NI,NA
+Osnabrück U,osnabrueck_u,Osnabrück University,EUROPE,DEU,NI,uniosnabrueck
 TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI,NA
-Stuttgart U,stuttgart_u,University of Stuttgart,EUROPE,DEU,BW,NA
+Stuttgart U,stuttgart_u,University of Stuttgart,EUROPE,DEU,BW,unistuttgart
 TU Darmstadt,tu_darmstadt,Technische Universität Darmstadt,EUROPE,DEU,HE,NA
 GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,NA
-Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY,NA
+Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY,fraunhofer
 MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,ST,NA
 Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI,NA
 Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC,NA
@@ -222,19 +222,19 @@ Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,
 Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,NA
 Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt
 Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,NA
-TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,NA
-Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,NA
+TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau
+Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite
 Université de La Rochelle,la_rochelle_u,Université de La Rochelle,EUROPE,FRA,FR-NAQ,NA
-Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,NA
+Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,unirostock
 Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA,NA
 Université de La Réunion,reunion_u,Université de La Réunion,EUROPE,FRA,FR-RE,NA
 Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,NA
 Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,NA
-Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,NA
-Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,NA
+Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg
+Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen
 Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,NA
-PIK-Potsdam,pik_potsdam,Potsdam Institute for Climate Impact Research (PIK),EUROPE,DEU,BB,NA
-HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,NA
+PIK-Potsdam,pik_potsdam,Potsdam Institute for Climate Impact Research (PIK),EUROPE,DEU,BB,pik-potsdam
+HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,huberlin
 University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unidebrecen
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,NA
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,NA
