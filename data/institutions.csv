@@ -9,12 +9,12 @@ Leipzig U,leipzig_u,Leipzig University,EUROPE,DEU,SN,unileipzig
 MPG,mpg,Max Planck Digital Library,EUROPE,DEU,BY,NA
 Regensburg U,regensburg_u,University of Regensburg,EUROPE,DEU,BY,NA
 TU Clausthal,tu_clausthal,Clausthal University of Technology,EUROPE,DEU,NI,NA
-Muenchen LMU,muenchen_lmu,Ludwig-Maximilians-Universität München,EUROPE,DEU,BY,NA
+Muenchen LMU,muenchen_lmu,Ludwig-Maximilians-Universität München,EUROPE,DEU,BY,lmu
 Goettingen U,goettingen_u,University of Göttingen,EUROPE,DEU,NI,NA
 Heidelberg U,heidelberg_u,Heidelberg University,EUROPE,DEU,BW,NA
 Hamburg TUHH,hamburg_tuhh,Hamburg University of Technology,EUROPE,DEU,HH,NA
 Bayreuth U,bayreuth_u,Bayreuth University,EUROPE,DEU,BY,NA
-KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW,NA
+KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW,kit
 INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL,NA
 MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,NA
 TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN,NA
@@ -23,16 +23,16 @@ Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,NA
 Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,rub
 Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,NA
 FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,NA
-Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE,NA
+Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE,unikassel
 TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,NA
-TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY,NA
+TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY,tum
 Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI,NA
-Wuerzburg U,wuerzburg_u,University of Würzburg,EUROPE,DEU,BY,NA
+Wuerzburg U,wuerzburg_u,University of Würzburg,EUROPE,DEU,BY,uniwuerzburg
 Leibniz-Fonds,leibnizfonds,Leibniz-Fonds,EUROPE,DEU,BE,NA
-Potsdam U,potsdam_u,University of Potsdam,EUROPE,DEU,BB,NA
-FWF - Austrian Science Fund,fwf,FWF - Austrian Science Fund,EUROPE,AUT,AUT-WI,NA
+Potsdam U,potsdam_u,University of Potsdam,EUROPE,DEU,BB,unipotsdam
+FWF - Austrian Science Fund,fwf,FWF - Austrian Science Fund,EUROPE,AUT,AUT-WI,fwf
 Bremen U,bremen_u,University of Bremen,EUROPE,DEU,HB,NA
-Erlangen Nuernberg U,erlangen_nuernberg_u,Friedrich-Alexander-Universität Erlangen-Nürnberg,EUROPE,DEU,BY,NA
+Erlangen Nuernberg U,erlangen_nuernberg_u,Friedrich-Alexander-Universität Erlangen-Nürnberg,EUROPE,DEU,BY,fau
 Wellcome Trust,wellcome_trust, Wellcome Trust,EUROPE,GBR,ENG,NA
 Tuebingen U,tuebingen_u,Eberhard Karls Universität Tübingen,EUROPE,DEU,BW,NA
 Ulm U,ulm_u,Ulm University,EUROPE,DEU,BW,NA
@@ -46,10 +46,10 @@ University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA
 IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,NA
 UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,NA
 TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI,NA
-Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,NA
+Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,unimilano
 Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,NA
 Münster U,muenster_u,Münster University,EUROPE,DEU,NW,NA
-JGU Mainz,jgu_mainz,Johannes Gutenberg University of Mainz,EUROPE,DEU,RP,NA
+JGU Mainz,jgu_mainz,Johannes Gutenberg University of Mainz,EUROPE,DEU,RP,unimainz
 Universitat de Barcelona,barcelona_u,Universitat de Barcelona,EUROPE,ESP,ES.CT,unibarcelona
 IST Austria,ist_austria,Institute of Science and Technology Austria,EUROPE,AUT,AUT-NO,NA
 TIB,tib,TIB – German National Library of Science and Technology,EUROPE,DEU,NI,NA
@@ -235,7 +235,7 @@ Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE
 Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,NA
 PIK-Potsdam,pik_potsdam,Potsdam Institute for Climate Impact Research (PIK),EUROPE,DEU,BB,NA
 HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,NA
-University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,NA
+University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unidebrecen
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,NA
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,NA
 Jyväskylä U,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,NA
