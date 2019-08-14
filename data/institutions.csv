@@ -160,40 +160,40 @@ GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,NA
 Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY,fraunhofer
 MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,ST,mluhalle
 Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI,NA
-Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC,NA
-Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC,NA
-Hospices Civils de Lyon,hcl_u,Hospices Civils de Lyon,EUROPE,FRA,FR-ARA,NA
-INRIA,inria,Institut national de recherche en informatique et en automatique (INRIA),EUROPE,FRA,FR-IDF,NA
-INSERM,inserm,Institut national de la santé et de la recherche médicale (INSERM),EUROPE,FRA,FR-IDF,NA
-Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,NA
+Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC,couperin/amu
+Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC,couperin/bourgogne
+Hospices Civils de Lyon,hcl_u,Hospices Civils de Lyon,EUROPE,FRA,FR-ARA,couperin/hcl
+INRIA,inria,Institut national de recherche en informatique et en automatique (INRIA),EUROPE,FRA,FR-IDF,couperin/inria
+INSERM,inserm,Institut national de la santé et de la recherche médicale (INSERM),EUROPE,FRA,FR-IDF,couperin/inserm
+Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1
 Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,NA
 Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,NA
-Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,NA
+Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon
 Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,NA
-Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,NA
-Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,NA
+Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,couperin/bordeaux
+Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble
 Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,NA
-Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,NA
-Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,NA
+Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,couperin/nice
+Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers
 University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,NA
 University West,west_u,University West,EUROPE,SWE,SE-O,NA
 Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,NA
 Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T,NA
-Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES,NA
-CNRS,cnrs,Centre national de la recherche scientifique (CNRS),EUROPE,FRA,FR-IDF,NA
-Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FRA,FR-ARA,NA
+Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES,couperin/lorraine
+CNRS,cnrs,Centre national de la recherche scientifique (CNRS),EUROPE,FRA,FR-IDF,couperin/cnrs
+Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FRA,FR-ARA,couperin/auvergne
 Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,iupui
 Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE,igb
 Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE,wias
-Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,NA
-Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC,NA
-INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF,NA
-ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF,NA
-Université d'Avignon et des Pays de Vaucluse,avignon_u,Université d'Avignon et des Pays de Vaucluse,EUROPE,FRA,FR-PAC,NA
-Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR,NA
-Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,NA
-Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,NA
-Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES,NA
+Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,couperin/paris-descartes
+Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC,couperin/toulouse3
+INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF,couperin/inra
+ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF,couperin/espci
+Université d'Avignon et des Pays de Vaucluse,avignon_u,Université d'Avignon et des Pays de Vaucluse,EUROPE,FRA,FR-PAC,couperin/avignon
+Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR,couperin/caen
+Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,couperin/franche-comte
+Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,couperin/paris-diderot
+Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES,couperin/strasbourg
 "University of Chemistry and Technology, Prague",uct_prague_u,"University of Chemistry and Technology, Prague",EUROPE,CZE,CZ-PR,uct_prague
 Brunel University,brunel_u,Brunel University,EUROPE,GBR,ENG,NA
 Edinburgh Napier University,edinburgh_napier_u,Edinburgh Napier University,EUROPE,GBR,SCT,NA
@@ -210,26 +210,26 @@ University of Leeds,leeds_u,University of Leeds,EUROPE,GBR,ENG,NA
 University of Strathclyde,strathclyde_u,University of Strathclyde,EUROPE,GBR,SCT,NA
 University of the West of England,west_of_england_u,University of the West of England,EUROPE,GBR,ENG,NA
 University of Ulster,ulster_u,University of Ulster,EUROPE,GBR,NIR,NA
-Université d'Angers,angers_u,Université d'Angers,EUROPE,FRA,FR-PDL,NA
-CIRAD,cirad,Centre de coopération internationale en recherche agronomique pour le développement (CIRAD),EUROPE,FRA,FR-IDF,NA
+Université d'Angers,angers_u,Université d'Angers,EUROPE,FRA,FR-PDL,couperin/angers
+CIRAD,cirad,Centre de coopération internationale en recherche agronomique pour le développement (CIRAD),EUROPE,FRA,FR-IDF,couperin/cirad
 Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF,NA
-Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC,NA
-Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA,NA
-Université de Nantes,nantes_u,Université de Nantes,EUROPE,FRA,FR-PDL,NA
-IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF,NA
-IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,NA
-Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF,NA
-Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,NA
+Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC,couperin/ird
+Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA,couperin/lyon1
+Université de Nantes,nantes_u,Université de Nantes,EUROPE,FRA,FR-PDL,couperin/nantes
+IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF,couperin/ifsttar
+IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,couperin/irstea
+Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF,couperin/evry
+Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,couperin/compiegne
 Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt
-Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,NA
+Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn
 TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau
 Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite
-Université de La Rochelle,la_rochelle_u,Université de La Rochelle,EUROPE,FRA,FR-NAQ,NA
+Université de La Rochelle,la_rochelle_u,Université de La Rochelle,EUROPE,FRA,FR-NAQ,couperin/rochelle
 Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,unirostock
 Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA,NA
-Université de La Réunion,reunion_u,Université de La Réunion,EUROPE,FRA,FR-RE,NA
+Université de La Réunion,reunion_u,Université de La Réunion,EUROPE,FRA,FR-RE,couperin/reunion
 Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,NA
-Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,NA
+Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,couperin/montpellier
 Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen
 Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,unigreifswald
@@ -239,7 +239,7 @@ University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unideb
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,geomar
 Jyväskylä U,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,unijyväskylä
-Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,NA
+Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea
 Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg
 Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,NA
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,NA
