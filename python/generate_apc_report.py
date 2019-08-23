@@ -10,7 +10,7 @@ from os import listdir
 from subprocess import run
 import sys
 
-from babel.dates import format_date 
+from babel.dates import format_date
 import openapc_toolkit as oat
 
 ARG_HELP_STRINGS = {
@@ -21,8 +21,8 @@ ARG_HELP_STRINGS = {
 }
 
 with open("report/strings.json") as f:
-        json_content = f.read()
-        LANG = json.loads(json_content)
+    json_content = f.read()
+    LANG = json.loads(json_content)
 
 def mean(sample):
     return reduce(lambda x, y: x + y, sample) / len(sample)
@@ -50,8 +50,8 @@ def get_data_dir_stats(data_dir):
         "readme": False,
         "orig_files": 0
     }
-    for f in files:
-        lower = f.lower()
+    for file_name in files:
+        lower = file_name.lower()
         if "readme" in lower:
             stats["readme"] = True
             continue
@@ -60,49 +60,50 @@ def get_data_dir_stats(data_dir):
         stats["orig_files"] += 1
     return stats
 
-def generate_header(institution, ins_content, lang):
+def generate_header(lang):
     header = LANG[lang]["front"]
     header += LANG[lang]["header"]
     header += LANG[lang]["intro"]
     return header
-    
+
 def generate_metadata_section(institution, ins_content, stats, lang):
-    md = LANG[lang]["md_header"]
+    markdown = LANG[lang]["md_header"]
     ins_line = None
     for line in ins_content:
         if line[0] == institution:
-             ins_line = line
-             break
+            ins_line = line
+            break
     else:
         oat.print_r("ERROR: Entry " + institution + " not found in institutions file!")
         sys.exit()
     locale_date = format_date(date.today(), locale=lang)
-    md += "* " + LANG[lang]["md_date"] + ": " + locale_date + "\n"
+    markdown += "* " + LANG[lang]["md_date"] + ": " + locale_date + "\n"
     git_rev = run(["git", "describe", "--tags", "--abbrev=0"], capture_output=True).stdout.decode()
     git_rev = git_rev.replace("\n", "")
     rev_url = "https://github.com/OpenAPC/openapc-de/tree/" + git_rev
-    md += "* " + LANG[lang]["md_rev"] + ": [" + git_rev + "](" + rev_url + ")\n"
-    md += "* " + LANG[lang]["md_ins"] + ": " + ins_line[2] + "\n"
-    md += "* " + LANG[lang]["md_ins_apc"] + ": " + ins_line[0] + "\n"
-    treemap_url = "<https://treemaps.intact-project.org/apcdata/" + ins_line[1].replace("_", "-") + ">"
-    md += "* " + LANG[lang]["md_treemap"] + ": " + treemap_url + "\n"
+    markdown += "* " + LANG[lang]["md_rev"] + ": [" + git_rev + "](" + rev_url + ")\n"
+    markdown += "* " + LANG[lang]["md_ins"] + ": " + ins_line[2] + "\n"
+    markdown += "* " + LANG[lang]["md_ins_apc"] + ": " + ins_line[0] + "\n"
+    url = "https://treemaps.intact-project.org/apcdata/"
+    treemap_url = "<" + url + ins_line[1].replace("_", "-") + ">"
+    markdown += "* " + LANG[lang]["md_treemap"] + ": " + treemap_url + "\n"
     data_dir = ins_line[6]
     if oat.has_value(data_dir):
         stats = get_data_dir_stats(data_dir)
         data_url = "https://github.com/OpenAPC/openapc-de/tree/master/data/" + data_dir
-        md += "* " + LANG[lang]["md_data_dir"] + ": [" + data_dir + "](" + data_url + ")\n"
-        md += "* " + LANG[lang]["md_num_files"] +  ": " + str(stats["orig_files"]) + "\n"
-        md += "* " + LANG[lang]["md_readme"] +  ": "
+        markdown += "* " + LANG[lang]["md_data_dir"] + ": [" + data_dir + "](" + data_url + ")\n"
+        markdown += "* " + LANG[lang]["md_num_files"] +  ": " + str(stats["orig_files"]) + "\n"
+        markdown += "* " + LANG[lang]["md_readme"] +  ": "
         if stats["readme"]:
-            md += LANG[lang]["md_readme_yes"]
+            markdown += LANG[lang]["md_readme_yes"]
         else:
-            md += LANG[lang]["md_readme_no"]
-        md += "\n"
+            markdown += LANG[lang]["md_readme_no"]
+        markdown += "\n"
     else:
         oat.print_y("WARNING: No data dir entry found for " + institution + "!")
-    md += "\n"
-    return md
-    
+    markdown += "\n"
+    return markdown
+
 def generate_duplicates_section(institution, dup_content, ins_content, lang):
     duplicates = {}
     for line in dup_content:
@@ -115,9 +116,9 @@ def generate_duplicates_section(institution, dup_content, ins_content, lang):
         doi = line[3]
         if doi in duplicates and line not in duplicates[doi]:
             duplicates[doi].append(line)
-    md = LANG[lang]["dup_header"]
-    md += LANG[lang]["dup_intro"]
-    md += LANG[lang]["dup_intro_2"]
+    markdown = LANG[lang]["dup_header"]
+    markdown += LANG[lang]["dup_intro"]
+    markdown += LANG[lang]["dup_intro_2"]
     count = 1
     for doi, articles in duplicates.items():
         dup_case = str(count) + ") " + LANG[lang]["dup_case"].format(articles[0][3])
@@ -129,17 +130,17 @@ def generate_duplicates_section(institution, dup_content, ins_content, lang):
                     pair = "* " + institution + " (" + line[2] + ")"
                     institutions.append(pair)
         dup_case += "\n".join(institutions) + "\n\n"
-        md += dup_case
-        md += LANG[lang]["dup_th"]
+        markdown += dup_case
+        markdown += LANG[lang]["dup_th"]
         for article in articles:
             row = "|"
             for index in [0, 1, 2, 6]:
                 row += article[index] + "|"
-            md += row + "\n"
-        md += "\n"
+            markdown += row + "\n"
+        markdown += "\n"
         count += 1
-    return md
-    
+    return markdown
+
 def generate_apc_deviaton_section(institution, articles, stats, lang):
     md_content = ""
     journal_dict = {}
@@ -172,12 +173,11 @@ def generate_apc_deviaton_section(institution, articles, stats, lang):
             md_content += row
         md_content += "\n\n"
     md_content += LANG[lang]["ad_stats_header"].format(institution)
-    md_content += "* " + LANG[lang]["ad_stats_articles"] + ": " + str(stats["articles"]) + "\n"
-    md_content += "* " + LANG[lang]["ad_stats_not_checked"] + ": " + str(stats["not_checked"]) + "\n"
-    md_content += "* " + LANG[lang]["ad_stats_within_limits"] + ": " + str(stats["within_limits"]) + "\n"
-    md_content += "* " + LANG[lang]["ad_stats_significant"] + ": " + str(stats["significant"]) + "\n"
+    for stat in ["articles", "not_checked", "within_limits", "significant"]:
+        md_content += "* " + LANG[lang]["ad_stats_" + stat]
+        md_content += ": " + str(stats[stat]) + "\n"
     return md_content
-        
+
 def find_significant_apc_differences(apc_content, institution, verbose=False):
     titles = {}
     articles = []
@@ -222,7 +222,8 @@ def find_significant_apc_differences(apc_content, institution, verbose=False):
             rounded_stddev = round(titles[title]["stddev"], 2)
             diff = round(float(apc) - rounded_mean, 2)
             if verbose:
-                msg = 'Article {}, journal "{}": Cost ({}€) differs more than 2 standard deviations (2 * {}€) from mean APC ({}€)'
+                msg = ('Article {}, journal "{}": Cost ({}€) differs more than 2 standard ' +
+                       'deviations (2 * {}€) from mean APC ({}€)')
                 oat.print_y(msg.format(doi, title, apc, rounded_stddev, rounded_mean))
             stats["significant"] += 1
             article.append(rounded_mean)
@@ -232,29 +233,31 @@ def find_significant_apc_differences(apc_content, institution, verbose=False):
             sig_articles.append(article)
         else:
             if verbose:
-                msg = 'Article {}, journal "{}": No significant cost difference ({}€, mean APC is {}€)'
+                msg = ('Article {}, journal "{}": No significant cost difference ({}€, mean ' +
+                       'APC is {}€)')
                 oat.print_g(msg.format(doi, title, apc, round(titles[title]["mean"], 2)))
             stats["within_limits"] += 1
     if verbose:
         oat.print_g("\nAnalysis finished, results:")
-        for k, v in stats.items():
-            oat.print_g(k + ": " + str(v))
+        for key, value in stats.items():
+            oat.print_g(key + ": " + str(value))
     return sig_articles, stats
-    
+
 def main():
     args = parse()
     _, apc_content = oat.get_csv_file_content("../data/apc_de.csv", "utf-8", True)
     _, ins_content = oat.get_csv_file_content("../data/institutions.csv", "utf-8", True)
     _, dup_content = oat.get_csv_file_content("../data/unresolved_duplicates.csv", "utf-8", True)
-    
-    sig_articles, stats = find_significant_apc_differences(apc_content, args.institution, args.verbose)
-    
+
+    sig_articles, stats = find_significant_apc_differences(apc_content, args.institution,
+                                                           args.verbose)
+
     report = ""
-    report += generate_header(args.institution, ins_content, args.lang)
+    report += generate_header(args.lang)
     report += generate_metadata_section(args.institution, ins_content, stats, args.lang)
     report += generate_duplicates_section(args.institution, dup_content, ins_content, args.lang)
     report += generate_apc_deviaton_section(args.institution, sig_articles, stats, args.lang)
-    
+
     ins = args.institution.lower().replace(" ", "_")
     today = format_date(date.today(), format="dd_MM_yy")
     file_name = "report_" + ins + "_" + today + ".pdf"
