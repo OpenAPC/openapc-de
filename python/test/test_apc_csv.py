@@ -134,7 +134,9 @@ JOURNAL_OWNER_CHANGED = {
     "1747-0218": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology
     "1747-0226": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology (electronic)
     "1461-9571": ["Informa UK Limited", "Cambridge University Press (CUP)"], # European Journal of Archaeology
-    "1741-2722": ["Informa UK Limited", "Cambridge University Press (CUP)"] # European Journal of Archaeology (electronic)
+    "1741-2722": ["Informa UK Limited", "Cambridge University Press (CUP)"], # European Journal of Archaeology (electronic)
+    "1179-1349": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Clinical Epidemiology
+    "1179-1322": ["Dove Medical Press Ltd.", "Informa UK Limited"] # Cancer Management and Research
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
