@@ -183,7 +183,7 @@ def find_significant_apc_differences(apc_content, institution, verbose=False):
     articles = []
     # 1st run: Find all journals the institution has published articles in
     for line in apc_content:
-        if line[0] != institution or not oat.has_value(line[3]):
+        if line[0] != institution:
             continue
         title = line[6]
         if title not in titles:
