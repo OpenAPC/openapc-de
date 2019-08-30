@@ -137,7 +137,8 @@ JOURNAL_OWNER_CHANGED = {
     "1741-2722": ["Informa UK Limited", "Cambridge University Press (CUP)"], # European Journal of Archaeology (electronic)
     "1179-1349": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Clinical Epidemiology
     "1179-1322": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Cancer Management and Research
-    "1178-7090": ["Dove Medical Press Ltd.", "Informa UK Limited"] # Journal of Pain Research
+    "1178-7090": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Journal of Pain Research
+    "1179-1608": ["Dove Medical Press Ltd.", "Informa UK Limited"] #  Nature and Science of Sleep
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
