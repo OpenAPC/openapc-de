@@ -1,7 +1,23 @@
 import pytest
+from pytest import fail
 from csv import DictReader
 
-from .. import openapc_toolkit as oat
+CORE_FILE_PATH = "data/apc_de.csv"
+TRANSAGREE_FILE_PATH = "data/transformative_agreements/transformative_agreements.csv"
+
+if __name__ == '__main__':
+    from sys import path
+    from os.path import dirname, join
+    path.append(dirname(path[0]))
+    import openapc_toolkit as oat
+    CORE_FILE_PATH = join("..", "..", CORE_FILE_PATH)
+    TRANSAGREE_FILE_PATH = join("..", "..", TRANSAGREE_FILE_PATH)
+    
+    def fail(msg):
+        oat.print_r(msg)
+        
+else:
+    from .. import openapc_toolkit as oat
 
 # A whitelist for denoting publisher identity (Possible consequence of business buy outs or fusions)
 # If one publisher name is stored in the left list of an entry and another in the right one,
@@ -211,7 +227,7 @@ ROW_LENGTH = {
 
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
-for file_name in ["data/apc_de.csv", "data/transformative_agreements/transformative_agreements.csv"]:
+for file_name in [CORE_FILE_PATH, TRANSAGREE_FILE_PATH]:
     with open(file_name, "r") as csv_file:
         reader = DictReader(csv_file)
         line = 2
@@ -219,7 +235,7 @@ for file_name in ["data/apc_de.csv", "data/transformative_agreements/transformat
             for field in UNUSED_FIELDS:
                 del(row[field])
             transformative_agreements = False
-            if file_name == "data/transformative_agreements/transformative_agreements.csv":
+            if file_name == TRANSAGREE_FILE_PATH:
                 transformative_agreements = True
             apc_data.append(RowObject(file_name, line, row, transformative_agreements))
             doi_duplicate_list.append(row["doi"])
@@ -270,7 +286,7 @@ def check_line_length(row_object):
     if len(row_object.row) != target_length:
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        pytest.fail(line_str + 'Row must consist of exactly ' + str(correct_length) + ' items')
+        fail(line_str + 'Row must consist of exactly ' + str(correct_length) + ' items')
 
 def check_optional_identifier(row_object):
     __tracebackhide__ = True
@@ -279,7 +295,7 @@ def check_optional_identifier(row_object):
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
         if not oat.has_value(row['url']):
-            pytest.fail(line_str + 'if no DOI is given, the column "url" ' +
+            fail(line_str + 'if no DOI is given, the column "url" ' +
                         'must not be empty')
 
 def check_field_content(row_object):
@@ -287,41 +303,41 @@ def check_field_content(row_object):
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
     if not oat.has_value(row['publisher']):
-        pytest.fail(line_str + 'the column "publisher" must not be empty')
+        fail(line_str + 'the column "publisher" must not be empty')
     if not oat.has_value(row['journal_full_title']):
-        pytest.fail(line_str + 'the column "journal_full_title" must not be empty')
+        fail(line_str + 'the column "journal_full_title" must not be empty')
     if not oat.has_value(row['issn']):
-        pytest.fail(line_str + 'the column "issn" must not be empty')
+        fail(line_str + 'the column "issn" must not be empty')
     if row['doaj'] not in ["TRUE", "FALSE"]:
-        pytest.fail(line_str + 'value in row "doaj" must either be TRUE or FALSE')
+        fail(line_str + 'value in row "doaj" must either be TRUE or FALSE')
     if row['indexed_in_crossref'] not in ["TRUE", "FALSE"]:
-        pytest.fail(line_str + 'value in row "indexed_in_crossref" must either be TRUE or FALSE')
+        fail(line_str + 'value in row "indexed_in_crossref" must either be TRUE or FALSE')
     if row['is_hybrid'] not in ["TRUE", "FALSE"]:
-        pytest.fail(line_str + 'value in row "is_hybrid" must either be TRUE or FALSE')
+        fail(line_str + 'value in row "is_hybrid" must either be TRUE or FALSE')
     if not row['doi'] == "NA":
         doi_norm = oat.get_normalised_DOI(row['doi'])
         if doi_norm is None:
-            pytest.fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
-        if doi_norm != row['doi']:
-            pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
+            fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
+        elif doi_norm != row['doi']:
+            fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
                                    'is not correct. It should be the simple DOI name, not ' +
                                    'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
     if len(row['publisher']) != len(row['publisher'].strip()):
-        pytest.fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
+        fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
     if len(row['journal_full_title']) != len(row['journal_full_title'].strip()):
-        pytest.fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
+        fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
         
     if row_object.transformative_agreements:
         if not oat.has_value(row['agreement']):
-            pytest.fail(line_str + 'the column "agreement" must not be empty')
+            fail(line_str + 'the column "agreement" must not be empty')
     
     if not row_object.transformative_agreements:
         try:
             euro = float(row['euro'])
             if euro <= 0:
-                pytest.fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
+                fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
         except ValueError:
-            pytest.fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
+            fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
 
 
 
@@ -332,10 +348,10 @@ def check_issns(row_object):
     for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"], row["issn_l"]]:
         if issn_column != "NA":
             if not oat.is_wellformed_ISSN(issn_column):
-                pytest.fail(line_str + 'value "' + issn_column + '" is not a ' +
+                fail(line_str + 'value "' + issn_column + '" is not a ' +
                             'well-formed ISSN')
             if not oat.is_valid_ISSN(issn_column):
-                pytest.fail(line_str + 'value "' + issn_column + '" is no valid ' +
+                fail(line_str + 'value "' + issn_column + '" is no valid ' +
                             'ISSN (check digit mismatch)')
     issn_l = row["issn_l"]
     if issn_l != "NA":
@@ -344,17 +360,17 @@ def check_issns(row_object):
         if issn != "NA":
             for reduced_row in issn_dict[issn]:
                 if reduced_row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn", issn, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn", issn, issn_l, reduced_row["issn_l"]))
         issn_p = row["issn_print"]
         if issn_p != "NA":
             for reduced_row in issn_p_dict[issn_p]:
                 if reduced_row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn_p", issn_p, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn_p", issn_p, issn_l, reduced_row["issn_l"]))
         issn_e = row["issn_electronic"]
         if issn_e != "NA":
             for reduced_row in issn_e_dict[issn_e]:
                 if reduced_row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn_e", issn_e, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn_e", issn_e, issn_l, reduced_row["issn_l"]))
 
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
@@ -364,7 +380,7 @@ def check_for_doi_duplicates(row_object):
         if doi in doi_duplicate_list:
             line_str = '{}, line {}: '.format(row_object.file_name,
                                               row_object.line_number)
-            pytest.fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
+            fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
                         'encountered more than one time')
 
 def check_hybrid_status(row_object):
@@ -378,7 +394,7 @@ def check_hybrid_status(row_object):
                                           row_object.line_number)
         msg = 'Journal "{}" ({}) is listed in the DOAJ but is marked as hybrid (DOAJ only lists fully OA journals)'
         msg = msg.format(title, issn)
-        pytest.fail(line_str + msg)
+        fail(line_str + msg)
 
 def check_name_consistency(row_object):
     __tracebackhide__ = True
@@ -401,13 +417,13 @@ def check_name_consistency(row_object):
             other_hybrid = other_row["is_hybrid"]
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
                 ret = msg.format("", issn, "publisher name", publ, other_publ)
-                pytest.fail(ret)
+                fail(ret)
             if not other_journal == journal:
                 ret = msg.format("", issn, "journal title", journal, other_journal)
-                pytest.fail(ret)
+                fail(ret)
             if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("", issn, "hybrid status", hybrid, other_hybrid)
-                pytest.fail(ret)
+                fail(ret)
     if issn_p is not None:
         same_issn_p_rows = issn_p_dict[issn_p]
         for other_row in same_issn_p_rows:
@@ -416,13 +432,13 @@ def check_name_consistency(row_object):
             other_hybrid = other_row["is_hybrid"]
             if not other_publ == publ and not in_whitelist(issn_p, publ, other_publ):
                 ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
-                pytest.fail(ret)
+                fail(ret)
             if not other_journal == journal:
                 ret = msg.format("Print ", issn_p, "journal title", journal, other_journal)
-                pytest.fail(ret)
+                fail(ret)
             if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("Print ", issn_p, "hybrid status", hybrid, other_hybrid)
-                pytest.fail(ret)
+                fail(ret)
     if issn_e is not None:
         same_issn_e_rows = issn_e_dict[issn_e]
         for other_row in same_issn_e_rows:
@@ -431,13 +447,13 @@ def check_name_consistency(row_object):
             other_hybrid = other_row["is_hybrid"]
             if not other_publ == publ and not in_whitelist(issn_e, publ, other_publ):
                 ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
-                pytest.fail(ret)
+                fail(ret)
             if not other_journal == journal:
                 ret = msg.format("Electronic ", issn_e, "journal title", journal, other_journal)
-                pytest.fail(ret)
+                fail(ret)
             if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("Electronic ", issn_e, "hybrid status", hybrid, other_hybrid)
-                pytest.fail(ret)
+                fail(ret)
 
 @pytest.mark.parametrize("row_object", apc_data)
 class TestAPCRows(object):
@@ -454,4 +470,18 @@ class TestAPCRows(object):
         check_for_doi_duplicates(row_object)
 
     def test_name_consistency(self, row_object):
+        check_name_consistency(row_object)
+        
+if __name__ == '__main__':
+    oat.print_b(str(len(apc_data)) + " entries collected, starting tests...")
+    deciles = {round((len(apc_data)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
+    for num, row_object in enumerate(apc_data):
+        if num in deciles:
+            oat.print_b(deciles[num])
+        check_line_length(row_object)
+        check_field_content(row_object)
+        check_optional_identifier(row_object)
+        check_issns(row_object)
+        check_hybrid_status(row_object)
+        check_for_doi_duplicates(row_object)
         check_name_consistency(row_object)
