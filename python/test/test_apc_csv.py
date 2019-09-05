@@ -154,7 +154,9 @@ JOURNAL_OWNER_CHANGED = {
     "1179-1349": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Clinical Epidemiology
     "1179-1322": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Cancer Management and Research
     "1178-7090": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Journal of Pain Research
-    "1179-1608": ["Dove Medical Press Ltd.", "Informa UK Limited"] #  Nature and Science of Sleep
+    "1179-1608": ["Dove Medical Press Ltd.", "Informa UK Limited"], #  Nature and Science of Sleep
+    "1178-2021": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Neuropsychiatric Disease and Treatment
+    "2155-384X": ["Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"] # Clinical and Translational Gastroenterology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
