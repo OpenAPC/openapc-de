@@ -65,7 +65,7 @@ with open("grid.json") as grid_file:
 for index, ins in enumerate(grid_list):
     deciles = {round((len(grid_list)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
     if index in deciles:
-        oat.print(deciles[index])
+        print(deciles[index])
     if ins["status"] != "active":
         continue
     grid_names = [ins["name"]]
