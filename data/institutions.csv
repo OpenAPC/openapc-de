@@ -191,11 +191,11 @@ INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF
 ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF,couperin/espci,NA
 Université d'Avignon et des Pays de Vaucluse,avignon_u,Université d'Avignon et des Pays de Vaucluse,EUROPE,FRA,FR-PAC,couperin/avignon,NA
 Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR,couperin/caen,NA
-Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,couperin/franche-comte,NA
-Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,couperin/paris-diderot,NA
+Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,couperin/franche-comte,grid.7459.f
+Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,couperin/paris-diderot,grid.7452.4
 Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES,couperin/strasbourg,NA
 "University of Chemistry and Technology, Prague",uct_prague_u,"University of Chemistry and Technology, Prague",EUROPE,CZE,CZ-PR,uct_prague,grid.448072.d
-Brunel University,brunel_u,Brunel University,EUROPE,GBR,ENG,NA,NA
+Brunel University,brunel_u,Brunel University,EUROPE,GBR,ENG,NA,grid.7728.a
 Edinburgh Napier University,edinburgh_napier_u,Edinburgh Napier University,EUROPE,GBR,SCT,NA,grid.20409.3f
 Glasgow Caledonian University,glasgow_caledonian_u,Glasgow Caledonian University,EUROPE,GBR,SCT,NA,grid.5214.2
 Heriot-Watt University,heriot_watt_u,Heriot-Watt University,EUROPE,GBR,SCT,NA,grid.9531.e
@@ -210,8 +210,8 @@ University of Leeds,leeds_u,University of Leeds,EUROPE,GBR,ENG,NA,grid.9909.9
 University of Strathclyde,strathclyde_u,University of Strathclyde,EUROPE,GBR,SCT,NA,grid.11984.35
 University of the West of England,west_of_england_u,University of the West of England,EUROPE,GBR,ENG,NA,grid.6518.a
 University of Ulster,ulster_u,University of Ulster,EUROPE,GBR,NIR,NA,grid.12641.30
-Université d'Angers,angers_u,Université d'Angers,EUROPE,FRA,FR-PDL,couperin/angers,NA
-CIRAD,cirad,Centre de coopération internationale en recherche agronomique pour le développement (CIRAD),EUROPE,FRA,FR-IDF,couperin/cirad,NA
+Université d'Angers,angers_u,Université d'Angers,EUROPE,FRA,FR-PDL,couperin/angers,grid.7252.2
+CIRAD,cirad,Centre de coopération internationale en recherche agronomique pour le développement (CIRAD),EUROPE,FRA,FR-IDF,couperin/cirad,grid.8183.2
 Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF,couperin/ens_paris,NA
 Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC,couperin/ird,grid.4399.7
 Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA,couperin/lyon1,NA
@@ -234,7 +234,7 @@ Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg,grid
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen,grid.34988.3e
 Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,unigreifswald,grid.5603.0
 PIK-Potsdam,pik_potsdam,Potsdam Institute for Climate Impact Research (PIK),EUROPE,DEU,BB,pik-potsdam,grid.4556.2
-HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,huberlin,NA
+HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,huberlin,grid.7468.d
 University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unidebrecen,grid.7122.6
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab,grid.425330.3
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,geomar,grid.15649.3f
