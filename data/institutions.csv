@@ -3,7 +3,7 @@ Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,unibamberg,grid.7359.8
 Bielefeld U,bielefeld_u,Bielefeld University,EUROPE,DEU,NW,unibi,grid.7491.b
 Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue,grid.5718.b
 FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,fuberlin,grid.14095.39
-GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,gfz-potsdam,NA
+GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,gfz-potsdam,grid.23731.34
 Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW,unikonstanz,grid.9811.1
 Leipzig U,leipzig_u,Leipzig University,EUROPE,DEU,SN,unileipzig,grid.9647.c
 MPG,mpg,Max Planck Digital Library,EUROPE,DEU,BY,mpg,grid.431460.4
@@ -24,8 +24,8 @@ Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,rub,grid.5570.7
 Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,jlu_giessen,grid.8664.c
 FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,fzj,grid.8385.6
 Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE,unikassel,grid.5155.4
-TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,tuilmenau,NA
-TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY,tum,NA
+TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,tuilmenau,grid.6553.5
+TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY,tum,grid.6936.a
 Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI,unihannover,grid.9122.8
 Wuerzburg U,wuerzburg_u,University of Würzburg,EUROPE,DEU,BY,uniwuerzburg,grid.8379.5
 Leibniz-Fonds,leibnizfonds,Leibniz-Fonds,EUROPE,DEU,BE,NA,NA
@@ -37,14 +37,14 @@ Wellcome Trust,wellcome_trust, Wellcome Trust,EUROPE,GBR,ENG,NA,grid.52788.30
 Tuebingen U,tuebingen_u,Eberhard Karls Universität Tübingen,EUROPE,DEU,BW,unituebingen,grid.10392.39
 Ulm U,ulm_u,Ulm University,EUROPE,DEU,BW,uniulm,grid.6582.9
 Freiburg U,freiburg_u,University of Freiburg,EUROPE,DEU,BW,unifreiburg,grid.5963.9
-TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien,NA
+TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien,grid.5329.d
 HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,hzdr,grid.40602.30
 Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,harvard-hope,grid.38142.3c
 Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,unioldenburg,grid.5560.6
 OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire,NA
 University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA,grid.22072.35
 IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn,grid.461789.5
-UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,ufz,NA
+UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,ufz,grid.7492.8
 TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI,tihohannover,grid.412970.9
 Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,unimilano,grid.4708.b
 Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,virginiatech,grid.438526.e
@@ -165,8 +165,8 @@ Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC,
 Hospices Civils de Lyon,hcl_u,Hospices Civils de Lyon,EUROPE,FRA,FR-ARA,couperin/hcl,grid.413852.9
 INRIA,inria,Institut national de recherche en informatique et en automatique (INRIA),EUROPE,FRA,FR-IDF,couperin/inria,grid.5328.c
 INSERM,inserm,Institut national de la santé et de la recherche médicale (INSERM),EUROPE,FRA,FR-IDF,couperin/inserm,NA
-Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1,NA
-Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2,NA
+Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1,grid.503422.2
+Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2,grid.503422.2
 Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,couperin/rennes1,grid.410368.8
 Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon,grid.12611.35
 Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc,NA
@@ -185,12 +185,12 @@ Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FR
 Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,iupui,grid.257413.6
 Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE,igb,grid.419247.d
 Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE,wias,grid.433806.a
-Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,couperin/paris-descartes,NA
-Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC,couperin/toulouse3,NA
+Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,couperin/paris-descartes,grid.10992.33
+Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC,couperin/toulouse3,grid.15781.3a
 INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF,couperin/inra,grid.424661.3
-ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF,couperin/espci,NA
-Université d'Avignon et des Pays de Vaucluse,avignon_u,Université d'Avignon et des Pays de Vaucluse,EUROPE,FRA,FR-PAC,couperin/avignon,NA
-Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR,couperin/caen,NA
+ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF,couperin/espci,grid.15736.36
+Université d'Avignon et des Pays de Vaucluse,avignon_u,Université d'Avignon et des Pays de Vaucluse,EUROPE,FRA,FR-PAC,couperin/avignon,grid.7310.5
+Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR,couperin/caen,grid.412043.0
 Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,couperin/franche-comte,grid.7459.f
 Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,couperin/paris-diderot,grid.7452.4
 Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES,couperin/strasbourg,grid.11843.3f
@@ -216,19 +216,19 @@ Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,
 Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC,couperin/ird,grid.4399.7
 Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA,couperin/lyon1,NA
 Université de Nantes,nantes_u,Université de Nantes,EUROPE,FRA,FR-PDL,couperin/nantes,grid.4817.a
-IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF,couperin/ifsttar,NA
-IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,couperin/irstea,NA
+IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF,couperin/ifsttar,grid.249503.9
+IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,couperin/irstea,grid.48142.3b
 Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF,couperin/evry,grid.8390.2
 Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,couperin/compiegne,grid.6227.1
 Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt,grid.7839.5
 Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn,NA
-TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau,NA
+TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau,grid.438275.f
 Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite,grid.6363.0
 Université de La Rochelle,la_rochelle_u,Université de La Rochelle,EUROPE,FRA,FR-NAQ,couperin/rochelle,grid.11698.37
 Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,unirostock,grid.10493.3f
 Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA,qatar_national_library,grid.483300.c
 Université de La Réunion,reunion_u,Université de La Réunion,EUROPE,FRA,FR-RE,couperin/reunion,grid.11642.30
-Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,couperin/mines-paristech,NA
+Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,couperin/mines-paristech,grid.58140.38
 Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,couperin/montpellier,grid.121334.6
 Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg,grid.10253.35
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen,grid.34988.3e
@@ -239,7 +239,7 @@ University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unideb
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab,grid.425330.3
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,geomar,grid.15649.3f
 Jyväskylä U,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,unijyväskylä,grid.9681.6
-Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea,NA
+Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea,grid.5583.b
 Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg,grid.7039.d
 Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,NA,grid.416784.8
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,NA,grid.412798.1
