@@ -88,7 +88,7 @@ University of Huddersfield,huddersfield_u,University of Huddersfield,EUROPE,GBR,
 University of Hull,hull_u,University of Hull,EUROPE,GBR,ENG,NA,grid.9481.4
 University of Leicester,leicester_u,University of Leicester,EUROPE,GBR,ENG,NA,grid.9918.9
 University of Liverpool,liverpool_u,University of Liverpool,EUROPE,GBR,ENG,NA,grid.10025.36
-University of Loughborough,loughborough_u,University of Loughborough,EUROPE,GBR,ENG,NA,NA
+University of Loughborough,loughborough_u,University of Loughborough,EUROPE,GBR,ENG,NA,grid.6571.5
 University of Manchester,manchester_u,University of Manchester,EUROPE,GBR,ENG,NA,grid.5379.8
 University of Newcastle,newcastle_u,University of Newcastle,EUROPE,GBR,ENG,NA,grid.1006.7
 University of Nottingham,nottingham_u,University of Nottingham,EUROPE,GBR,ENG,NA,grid.4563.4
@@ -128,7 +128,7 @@ Molde University College,molde_uc,Molde University College,EUROPE,NOR,NO.MR,NA,g
 NILU - Norwegian Institute for Air Research,nilu,Norwegian Institute for Air Research,EUROPE,NOR,NO.AK,NA,grid.19169.36
 Nansen Environmental and Remote Sensing Center,nersc,Nansen Environmental and Remote Sensing Center,EUROPE,NOR,NO.HO,NA,grid.425379.e
 Nord University,nord_u,Nord University,EUROPE,NOR,NO.NO,NA,grid.465487.c
-Norwegian Center for Studies on Violence and Traumatic Stress,nkvts,Norwegian Center for Studies on Violence and Traumatic Stress,EUROPE,NOR,NO.OS,NA,NA
+Norwegian Center for Studies on Violence and Traumatic Stress,nkvts,Norwegian Center for Studies on Violence and Traumatic Stress,EUROPE,NOR,NO.OS,NA,grid.504188.0
 Norwegian Institute for Agricultural and Environmental Research,nor_institute_for_agricultural_and_environmental_research,Norwegian Institute for Agricultural and Environmental Research,EUROPE,NOR,NO.AK,NA,NA
 Norwegian Institute for Nature Research,nina,Norwegian Institute for Nature Research,EUROPE,NOR,NO.TO,NA,grid.420127.2
 Norwegian Institute of Public Health,nor_institute_for_public_health,Norwegian Institute of Public Health,EUROPE,NOR,NO.OS,NA,grid.418193.6
@@ -169,11 +169,11 @@ Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lill
 Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2,grid.503422.2
 Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,couperin/rennes1,grid.410368.8
 Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon,grid.12611.35
-Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc,NA
+Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc,grid.462844.8
 Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,couperin/bordeaux,grid.412041.2
-Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble,NA
-Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt,NA
-Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,couperin/nice,NA
+Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble,grid.450307.5
+Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt,grid.15363.32
+Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,couperin/nice,grid.10737.32
 Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers,grid.11166.31
 University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,NA,grid.412442.5
 University West,west_u,University West,EUROPE,SWE,SE-O,NA,grid.412716.7
@@ -221,7 +221,7 @@ IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'
 Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF,couperin/evry,grid.8390.2
 Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,couperin/compiegne,grid.6227.1
 Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt,grid.7839.5
-Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn,NA
+Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn,grid.410350.3
 TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau,grid.438275.f
 Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite,grid.6363.0
 Université de La Rochelle,la_rochelle_u,Université de La Rochelle,EUROPE,FRA,FR-NAQ,couperin/rochelle,grid.11698.37
