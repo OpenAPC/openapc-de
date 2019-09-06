@@ -83,6 +83,10 @@ def generate_metadata_section(institution, ins_content, stats, lang):
     rev_url = "https://github.com/OpenAPC/openapc-de/tree/" + git_rev
     markdown += "* " + LANG[lang]["md_rev"] + ": [" + git_rev + "](" + rev_url + ")\n"
     markdown += "* " + LANG[lang]["md_ins"] + ": " + ins_line[2] + "\n"
+    if oat.has_value(ins_line[7]):
+        grid_id = ins_line[7]
+        grid_url = "https://www.grid.ac/institutes/" + grid_id
+        markdown += "* " + LANG[lang]["md_grid"] + ": [" + grid_id + "](" + grid_url + ")\n"
     markdown += "* " + LANG[lang]["md_ins_apc"] + ": " + ins_line[0] + "\n"
     url = "https://treemaps.intact-project.org/apcdata/"
     treemap_url = "<" + url + ins_line[1].replace("_", "-") + ">"
