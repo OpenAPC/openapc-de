@@ -14,14 +14,14 @@ Goettingen U,goettingen_u,University of Göttingen,EUROPE,DEU,NI,unigoettingen,g
 Heidelberg U,heidelberg_u,Heidelberg University,EUROPE,DEU,BW,uniheidelberg,grid.7700.0
 Hamburg TUHH,hamburg_tuhh,Hamburg University of Technology,EUROPE,DEU,HH,tuhh,grid.6884.2
 Bayreuth U,bayreuth_u,Bayreuth University,EUROPE,DEU,BY,NA,grid.7384.8
-KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW,kit,NA
+KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW,kit,grid.7892.4
 INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL,leibniz-INM,grid.425202.3
 MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,mdc,grid.419491.0
 TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN,tuchemnitz,grid.6810.f
-TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,tudresden,NA
-Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,tudortmund,NA
+TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,tudresden,grid.4488.0
+Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,tudortmund,grid.5675.1
 Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,rub,grid.5570.7
-Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,jlu_giessen,NA
+Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,jlu_giessen,grid.8664.c
 FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,fzj,grid.8385.6
 Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE,unikassel,grid.5155.4
 TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,tuilmenau,NA
@@ -46,7 +46,7 @@ University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA
 IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn,grid.461789.5
 UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,ufz,NA
 TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI,tihohannover,grid.412970.9
-Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,unimilano,NA
+Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,unimilano,grid.4708.b
 Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,virginiatech,grid.438526.e
 Münster U,muenster_u,Münster University,EUROPE,DEU,NW,unimuenster,grid.5949.1
 JGU Mainz,jgu_mainz,Johannes Gutenberg University of Mainz,EUROPE,DEU,RP,unimainz,grid.5802.f
@@ -118,10 +118,10 @@ University of Gothenburg,gothenburg_u,University of Gothenburg,EUROPE,SWE,SE-O,N
 Uppsala University,uppsala_u,Uppsala University,EUROPE,SWE,SE-C,NA,grid.8993.b
 Akershus University Hospital,akershus_uh,Akershus University Hospital,EUROPE,NOR,NO.AK,NA,grid.411279.8
 BI Norwegian Business School,nor_business_school,BI Norwegian Business School,EUROPE,NOR,NO.OS,NA,grid.413074.5
-Bergen University College,bergen_uc,Bergen University College,EUROPE,NOR,NO.HO,NA,NA
+Bergen University College,bergen_uc,Bergen University College,EUROPE,NOR,NO.HO,NA,grid.477239.c
 Fridtjof Nansen Institute,fridtjof_nansen_institute,Fridtjof Nansen Institute,EUROPE,NOR,NO.AK,NA,grid.424673.0
-GenØk - Centre for Biosafety,genok,GenØk - Centre for Biosafety,EUROPE,NOR,NO.TR,NA,NA
-Harstad University College,harstad_uc,Harstad University College,EUROPE,NOR,NO.TR,NA,NA
+GenØk - Centre for Biosafety,genok,GenØk - Centre for Biosafety,EUROPE,NOR,NO.TR,NA,grid.452322.0
+Harstad University College,harstad_uc,Harstad University College,EUROPE,NOR,NO.TR,NA,grid.10919.30
 Innlandet Hospital Trust,innlandet_ht,Innlandet Hospital Trust,EUROPE,NOR,NO.HE,NA,grid.412929.5
 Institute of Marine Research,institute_of_marine_research,Institute of Marine Research,EUROPE,NOR,NO.HO,NA,grid.10917.3e
 Molde University College,molde_uc,Molde University College,EUROPE,NOR,NO.MR,NA,grid.411834.b
@@ -168,7 +168,7 @@ INSERM,inserm,Institut national de la santé et de la recherche médicale (INSER
 Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1,NA
 Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2,NA
 Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,couperin/rennes1,grid.410368.8
-Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon,NA
+Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon,grid.12611.35
 Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc,NA
 Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,couperin/bordeaux,grid.412041.2
 Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble,NA
