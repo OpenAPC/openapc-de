@@ -12,6 +12,11 @@ import openapc_toolkit as oat
 
 MATCH_TYPES = [
     {
+        "min_ratio": 0.8,
+        "print_func": oat.print_r,
+        "name": "Weak"
+    },
+    {
         "min_ratio": 0.9,
         "print_func": oat.print_y,
         "name": "Possible"
