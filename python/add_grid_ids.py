@@ -51,7 +51,6 @@ def write_out_file(ins_header, ins_content):
     with open("out.csv", "w") as out_file:
         quote_mask = [False for x in range(7)]
         writer = oat.OpenAPCUnicodeWriter(out_file, quote_mask, False, False)
-        print(ins_content)
         writer.write_rows(ins_header + ins_content)
 
 
