@@ -26,7 +26,7 @@ FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,fzj,grid.8385.6
 Kassel U,kassel_u,University of Kassel,EUROPE,DEU,HE,unikassel,grid.5155.4
 TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,tuilmenau,NA
 TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY,tum,NA
-Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI,unihannover,NA
+Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI,unihannover,grid.9122.8
 Wuerzburg U,wuerzburg_u,University of Würzburg,EUROPE,DEU,BY,uniwuerzburg,grid.8379.5
 Leibniz-Fonds,leibnizfonds,Leibniz-Fonds,EUROPE,DEU,BE,NA,NA
 Potsdam U,potsdam_u,University of Potsdam,EUROPE,DEU,BB,unipotsdam,grid.11348.3f
@@ -140,7 +140,7 @@ Oslo University Hospital,oslo_uh,Oslo University Hospital,EUROPE,NOR,NO.OS,NA,gr
 Oslo and Akershus university college,oslo_akershus_uc,Oslo and Akershus University College,EUROPE,NOR,NO.OS,NA,NA
 SINTEF,sintef,SINTEF (Foundation for Scientific and Industrial Research),EUROPE,NOR,NO.TO,NA,grid.425838.0
 Sørlandet Hospital Trust,sorlandet_ht,Sørlandet Hospital Trust,EUROPE,NOR,NO.VA,NA,NA
-Uni Research,uni_research,Uni Research,EUROPE,NOR,NO.HO,NA,NA
+Uni Research,uni_research,Uni Research,EUROPE,NOR,NO.HO,NA,grid.426489.5
 University College of Southeast Norway,se_norway_uc,University College of Southeast Norway,EUROPE,NOR,NO.BU,NA,grid.463530.7
 University of Agder,agder_u,University of Agder,EUROPE,NOR,NO.VA,NA,grid.23048.3d
 University of Bergen,bergen_u,University of Bergen,EUROPE,NOR,NO.HO,NA,grid.7914.b
@@ -153,7 +153,7 @@ TU Berlin,tu_berlin,Technische Universität Berlin,EUROPE,DEU,BE,tuberlin,grid.6
 Trier U,trier_u,University of Trier,EUROPE,DEU,RP,unitrier,grid.12391.38
 Swiss National Science Foundation (SNSF),snsf,Swiss National Science Foundation (SNSF),EUROPE,CHE,CH.BE,snsf,grid.425888.b
 Osnabrück U,osnabrueck_u,Osnabrück University,EUROPE,DEU,NI,uniosnabrueck,grid.10854.38
-TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI,tubraunschweig,NA
+TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI,tubraunschweig,grid.6738.a
 Stuttgart U,stuttgart_u,University of Stuttgart,EUROPE,DEU,BW,unistuttgart,grid.5719.a
 TU Darmstadt,tu_darmstadt,Technische Universität Darmstadt,EUROPE,DEU,HE,tudarmstadt,grid.6546.1
 GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,giga,grid.435041.7
@@ -223,7 +223,7 @@ Université Technologique de Compiègne,compiegne_u,Université Technologique de
 Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt,grid.7839.5
 Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn,NA
 TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau,NA
-Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite,NA
+Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite,grid.6363.0
 Université de La Rochelle,la_rochelle_u,Université de La Rochelle,EUROPE,FRA,FR-NAQ,couperin/rochelle,grid.11698.37
 Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,unirostock,grid.10493.3f
 Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA,qatar_national_library,grid.483300.c
