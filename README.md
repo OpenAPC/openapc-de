@@ -369,7 +369,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2015   |       8,273|   1,524|     1,452|  60 -  5,669|           6,682|       2,609|         2,621|      100 - 8,636|
 |2016   |       9,364|   1,639|     1,534|  63 -  5,985|           7,752|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,310|   1,723|     1,561|  26 -  6,250|           9,795|       2,516|         2,444|       37 - 9,858|
-|2018   |       7,261|   1,615|     1,590|  13 - 12,000|           2,843|       2,490|         2,509|       18 - 7,847|
+|2018   |       7,260|   1,615|     1,590|  13 - 12,000|           2,844|       2,490|         2,509|       18 - 7,847|
 |2019   |         658|   1,695|     1,647| 232 -  5,104|              42|       2,220|         2,172|      287 - 4,375|
 
 
@@ -378,7 +378,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-49,571 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 77,460,012, including value-added tax; the average payment was € 1,563 (median =  € 1,481, SD = € 758).
+49,570 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 77,457,218, including value-added tax; the average payment was € 1,563 (median =  € 1,481, SD = € 758).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -476,7 +476,7 @@ The following table summarises institutional spending on articles published in f
 |Indiana University - Purdue University Indianapolis (IUPUI)          |      114|               166,599|   1,461 (685)|  1,362|      212 -  4,920|
 |HZDR                                                                 |      113|               158,572|   1,403 (740)|  1,285|      236 -  4,000|
 |Oslo University Hospital                                             |      111|               149,777|   1,349 (373)|  1,392|      232 -  2,725|
-|University of Debrecen                                               |      100|               154,134|   1,541 (794)|  1,655|       69 -  3,689|
+|University of Debrecen                                               |       99|               151,340|   1,529 (788)|  1,626|       69 -  3,689|
 |TU Chemnitz                                                          |       98|               113,365|   1,157 (600)|  1,249|       78 -  2,123|
 |TU Braunschweig                                                      |       97|               116,277|   1,199 (584)|  1,232|       13 -  2,142|
 |University of Sussex                                                 |       96|               199,394| 2,077 (1,190)|  1,637|      245 -  5,350|
@@ -636,7 +636,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 34,746 open access articles being published in hybrid journals. Total expenditure amounts to  86,110,341 €. Average  fee is 2,478 € and the median 2,436 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 34,747 open access articles being published in hybrid journals. Total expenditure amounts to  86,113,135 €. Average  fee is 2,478 € and the median 2,436 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -735,9 +735,9 @@ The following institutions have contributed expenditures on hybrid open access j
 |Aix-Marseille Université                                             |       16|                39,152|   2,447 (837)|  2,446|       450 - 3,780|
 |Liverpool School of Tropical Medicine                                |       15|                45,259|   3,017 (719)|  2,965|     1,299 - 4,203|
 |TU Muenchen                                                          |       15|                18,136|   1,209 (  0)|  1,209|     1,209 - 1,209|
+|University of Debrecen                                               |       15|                22,732|   1,515 (998)|  1,147|       210 - 3,344|
 |University of Hull                                                   |       15|                41,658|   2,777 (615)|  2,640|     1,912 - 3,997|
 |CIRAD                                                                |       14|                30,710|   2,194 (843)|  2,450|       328 - 3,229|
-|University of Debrecen                                               |       14|                19,938|   1,424 (969)|  1,138|       210 - 3,344|
 |Virginia Tech                                                        |       14|                20,480|   1,463 (575)|  1,256|       633 - 2,337|
 |TiHo Hannover                                                        |       13|                29,300| 2,254 (1,436)|  2,103|       267 - 5,093|
 |University of Ulster                                                 |       13|                27,113| 2,086 (1,117)|  2,236|       236 - 3,868|
