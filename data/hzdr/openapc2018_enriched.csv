@@ -17,7 +17,7 @@
 "HZDR",2018,1328.28,"10.3390/molecules23020444",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"29462967","PMC6017846","ut:000426436300224",NA,TRUE
 "HZDR",2018,1440,"10.1002/open.201800019",FALSE,"Wiley-Blackwell","ChemistryOpen","2191-1363",NA,NA,"2191-1363","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"29928566","PMC5987830","ut:000436797500001",NA,TRUE
 "HZDR",2018,1328.28,"10.3390/molecules23020464",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"29461507","PMC6017759","ut:000426436300244",NA,TRUE
-"HZDR",2018,2778,"10.3390/molecules23030556",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"29498659","PMC6017663","ut:000428514100047",NA,TRUE
+"HZDR",2018,1328.33,"10.3390/molecules23030556",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"29498659","PMC6017663","ut:000428514100047",NA,TRUE
 "HZDR",2018,1306.08,"10.3390/molecules23030702",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"29558382","PMC6017399","ut:000428514100193",NA,TRUE
 "HZDR",2018,3007.29,"10.18632/oncotarget.24266",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"29719593","PMC5915060",NA,NA,FALSE
 "HZDR",2018,1286.57,"10.1371/journal.pone.0201903",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30089169","PMC6082562","ut:000441090300058",NA,TRUE
@@ -31,3 +31,8 @@
 "HZDR",2018,1714.66,"10.1364/oe.26.029017",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"30470070",NA,"ut:000448556300079",NA,TRUE
 "HZDR",2018,2570,"10.1038/s41528-018-0046-9",FALSE,"Springer Nature","npj Flexible Electronics","2397-4621",NA,"2397-4621","2397-4621","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "HZDR",2018,1284.9,"10.3389/fphy.2018.00155",FALSE,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X","2296-424X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000456932600001",NA,TRUE
+"HZDR",2017,2072.11,"10.1130/g39871.1",TRUE,"Geological Society of America","Geology","0091-7613","0091-7613",NA,"0091-7613",NA,TRUE,NA,NA,"ut:000427129500021",NA,FALSE
+"HZDR",2017,1950,"10.1088/1361-6463/aa5b64",TRUE,"IOP Publishing","Journal of Physics D: Applied Physics","0022-3727","0022-3727","1361-6463","0022-3727","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
+"HZDR",2017,3178.16,"10.18632/oncotarget.17480",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"28514757","PMC5564763","ut:000406232400062",NA,FALSE
+"HZDR",2017,986.76,"10.1016/j.resourpol.2017.04.008",TRUE,"Elsevier BV","Resources Policy","0301-4207","0301-4207",NA,"0301-4207","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000404305800036",NA,FALSE
+"HZDR",2017,1124.4,"10.1002/2016wr019431",TRUE,"American Geophysical Union (AGU)","Water Resources Research","0043-1397",NA,NA,"0043-1397","http://onlinelibrary.wiley.com/termsAndConditions",TRUE,NA,NA,"ut:000400160500040",NA,FALSE

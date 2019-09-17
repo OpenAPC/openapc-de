@@ -25,7 +25,7 @@ DOI_RE = re.compile(r"^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(
 # regex for detecting shortDOIs
 SHORTDOI_RE = re.compile(r"^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$", re.IGNORECASE)
 
-ISSN_RE = re.compile(r"^(?P<first_part>\d{4})-?(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
+ISSN_RE = re.compile(r"^(?P<first_part>\d{4})\-(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 OAI_COLLECTION_CONTENT = OrderedDict([
     ("institution", "intact:institution"),
@@ -366,11 +366,12 @@ def analyze_csv_file(file_path, test_lines=1000, enc=None):
     result = CSVAnalysisResult(blanks, dialect, has_header, guessed_enc, guessed_enc_confidence)
     return {"success": True, "data": result}
 
-def get_csv_file_content(file_name, enc=None, force_header=False):
+def get_csv_file_content(file_name, enc=None, force_header=False, print_results=True):
     result = analyze_csv_file(file_name, enc=enc)
     if result["success"]:
         csv_analysis = result["data"]
-        print(csv_analysis)
+        if print_results:
+            print(csv_analysis)
     else:
         print_r(result["error_msg"])
         sys.exit()
@@ -716,7 +717,7 @@ def get_euro_exchange_rates(currency, frequency="D"):
 def process_row(row, row_num, column_map, num_required_columns,
                 no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, doaj_offline_analysis=False,
-                round_monetary=False):
+                round_monetary=False, offsetting_mode=None):
     """
     Enrich a single row of data and reformat it according to Open APC standards.
 
@@ -741,7 +742,8 @@ def process_row(row, row_num, column_map, num_required_columns,
                                true.
         round_monetary: If true, monetary values with more than 2 digits behind the decimal
                         mark will be rounded. If false, these cases will be treated as errors.
-
+        offsetting_mode: If not None, the row is assumed to originate from an offsetting file
+                         and this argument's value will be added to the 'agreement' column
      Returns:
         A list of values which represents the enriched and re-arranged variant
         of the input row. If no errors were logged during the process, this
@@ -973,6 +975,8 @@ def process_row(row, row_num, column_map, num_required_columns,
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value,
                                                                  new_value)
+    if offsetting_mode:
+        current_row["agreement"] = offsetting_mode
     return list(current_row.values())
 
 def get_column_type_from_whitelist(column_name):
@@ -1034,7 +1038,12 @@ def get_unified_publisher_name(publisher):
         "Wiley": "Wiley-Blackwell",
         "Bioscientifica": "BioScientifica",
         "Springer Nature America, Inc": "Springer Nature",
-        "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd." 
+        "Springer Science and Business Media LLC": "Springer Nature",
+        "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd.",
+        "Scientific and Academic Publishing": "Scientific & Academic Publishing",
+        "Science and Education Publishing Co., Ltd.": "Science and Education Publishing",
+        "Horizon Research Publishing Co., Ltd.": "Horizon Research Publishing",
+        "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -1147,7 +1156,6 @@ def get_unified_journal_title(journal_full_title):
         "Tellus A: Dynamic Meteorology and Oceanography": "Tellus A",
         "International journal of methods in psychiatric research": "International Journal of Methods in Psychiatric Research",
         "Polym. Chem.": "Polymer Chemistry",
-        "Angewandte Chemie": "Angewandte Chemie International Edition",
         "ISME Journal": "The ISME Journal",
         "Interface": "Journal of The Royal Society Interface",
         "Medical Engineering and Physics": "Medical Engineering & Physics",
@@ -1192,7 +1200,25 @@ def get_unified_journal_title(journal_full_title):
         "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
         "American Journal of Physiology-Renal Physiology": "AJP: Renal Physiology",
         "The Journal of Nutrition": "Journal of Nutrition",
-        "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease"
+        "Microbial Ecology in Health and Disease": "Microbial Ecology in Health & Disease",
+        "The Journals of Gerontology: Series B": "The Journals of Gerontology Series B: Psychological Sciences and Social Sciences",
+        "American Journal of Physiology-Lung Cellular and Molecular Physiology": "American Journal of Physiology - Lung Cellular and Molecular Physiology",
+        "CIRP Annals": "CIRP Annals - Manufacturing Technology",
+        "Environment and Planning A": "Environment and Planning A: Economy and Space",
+        "Mathematical Medicine and Biology: A Journal of the IMA": "Mathematical Medicine and Biology",
+        "American Journal of Physiology-Cell Physiology": "American Journal of Physiology - Cell Physiology",
+        "Geological Society of America Bulletin": "GSA Bulletin",
+        "Structural Health Monitoring: An International Journal": "Structural Health Monitoring",
+        "Quarterly Journal of Experimental Psychology": "The Quarterly Journal of Experimental Psychology",
+        "Aging and disease": "Aging and Disease",
+        "physica status solidi (RRL) – Rapid Research Letters": "physica status solidi (RRL) - Rapid Research Letters",
+        "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH": "Journal of Clinical and Diagnostic Research",
+        "genesis": "Genesis",
+        "TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN": "Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan",
+        "Anales de PsicologÃ­a": "Anales de Psicología",
+        "jwhg": "Journal of Women's Health and Gynecology",
+        "E&amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
+        "Work, employment and society": "Work, Employment and Society"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

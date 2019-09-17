@@ -1,7 +1,23 @@
 import pytest
+from pytest import fail
 from csv import DictReader
 
-from .. import openapc_toolkit as oat
+CORE_FILE_PATH = "data/apc_de.csv"
+TRANSAGREE_FILE_PATH = "data/transformative_agreements/transformative_agreements.csv"
+
+if __name__ == '__main__':
+    from sys import path
+    from os.path import dirname, join
+    path.append(dirname(path[0]))
+    import openapc_toolkit as oat
+    CORE_FILE_PATH = join("..", "..", CORE_FILE_PATH)
+    TRANSAGREE_FILE_PATH = join("..", "..", TRANSAGREE_FILE_PATH)
+    
+    def fail(msg):
+        oat.print_r(msg)
+        
+else:
+    from .. import openapc_toolkit as oat
 
 # A whitelist for denoting publisher identity (Possible consequence of business buy outs or fusions)
 # If one publisher name is stored in the left list of an entry and another in the right one,
@@ -73,9 +89,11 @@ JOURNAL_OWNER_CHANGED = {
     "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
     "0197-6729": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation
     "0094-8276": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters"
+    "1944-8007": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters (electronic)"
     "8755-1209": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics
     "0161-0457": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Scanning
     "2169-9380": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics
+    "2169-9402": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics (electronic)
     "1542-7390": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Space Weather
     "2169-897X": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Atmospheres
     "1525-2027": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Geochemistry, Geophysics, Geosystems
@@ -111,6 +129,7 @@ JOURNAL_OWNER_CHANGED = {
     "2041-8213": ["IOP Publishing", "American Astronomical Society"], # The Astrophysical Journal
     "0024-6107": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society
     "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth
+    "2169-9356": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth (electronic)
     "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)"],# Journal of Nutrition
     "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"], # Journal of Nutrition (electronic)
     "1651-2235": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease
@@ -125,7 +144,19 @@ JOURNAL_OWNER_CHANGED = {
     "1939-4551": ["Springer Nature", "Elsevier BV"], # World Allergy Organization Journal
     "1015-8987": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry
     "1421-9778": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry (electronic)
-    "2052-4986": ["Oxford University Press (OUP)", "Wiley-Blackwell"] # Transactions of the London Mathematical Society
+    "2052-4986": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Transactions of the London Mathematical Society
+    "2169-9097": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research JGR / E - Planets
+    "0048-6604": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Radio Science
+    "1747-0218": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology
+    "1747-0226": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology (electronic)
+    "1461-9571": ["Informa UK Limited", "Cambridge University Press (CUP)"], # European Journal of Archaeology
+    "1741-2722": ["Informa UK Limited", "Cambridge University Press (CUP)"], # European Journal of Archaeology (electronic)
+    "1179-1349": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Clinical Epidemiology
+    "1179-1322": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Cancer Management and Research
+    "1178-7090": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Journal of Pain Research
+    "1179-1608": ["Dove Medical Press Ltd.", "Informa UK Limited"], #  Nature and Science of Sleep
+    "1178-2021": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Neuropsychiatric Disease and Treatment
+    "2155-384X": ["Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"] # Clinical and Translational Gastroenterology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -162,18 +193,26 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2212-9790", # Maritime Studies, Hybrid since 2018
     "2041-4978", # Journal of Micropalaeontology, OA since 1/2018
     "2157-6564", # STEM CELLS Translational Medicine, OA since 2017
-    "1539-1663" # Vadose Zone Journal, OA since 1/2018
+    "1539-1663", # Vadose Zone Journal, OA since 1/2018,
+    "1997-6690", # Journal für Gynäkologische Endokrinologie/Österreich, hybrid since 4/2017 (erroneously listed in the DOAJ)
+    "1023-6090", # Journal für Urologie und Urogynäkologie/Österreich, hybrid since 4/2017 (erroneously listed in the DOAJ)
+    "1998-7773", # Journal für Klinische Endokrinologie und Stoffwechsel, hybrid since 4/2017 (erroneously listed in the DOAJ)
+    "2412-8260", # Journal für Mineralstoffwechsel & Muskuloskelettale Erkrankungen, hybrid since 4/2017 (erroneously listed in the DOAJ)
+    "1553-040X", # Geosphere, Gold OA since 01/2018
+    "1366-9516", # Diversity and Distributions, Gold OA since 2019
+    "1438-387X", # Helgoland Marine Research, Gold OA since 2016
+    "1933-6950" # Channels
 ]
 
 class RowObject(object):
     """
     A minimal container class to store contextual information along with csv rows.
     """
-    def __init__(self, file_name, line_number, row, test_apc=True):
+    def __init__(self, file_name, line_number, row, transformative_agreements):
         self.file_name = file_name
         self.line_number = line_number
         self.row = row
-        self.test_apc = test_apc
+        self.transformative_agreements = transformative_agreements
 
 doi_duplicate_list = []
 apc_data = []
@@ -182,21 +221,25 @@ issn_p_dict = {}
 issn_e_dict = {}
 
 UNUSED_FIELDS = ["institution", "period", "license_ref", "pmid", "pmcid", "ut"]
-CORRECT_ROW_LENGTH = 18 - len(UNUSED_FIELDS)
+
+ROW_LENGTH = {
+    "openapc": 18 - len(UNUSED_FIELDS),
+    "transformative_agreements": 19 - len(UNUSED_FIELDS)
+}
 
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
-for file_name in ["data/apc_de.csv", "data/offsetting/offsetting.csv"]:
+for file_name in [CORE_FILE_PATH, TRANSAGREE_FILE_PATH]:
     with open(file_name, "r") as csv_file:
         reader = DictReader(csv_file)
         line = 2
         for row in reader:
             for field in UNUSED_FIELDS:
                 del(row[field])
-            test_apc = True
-            if file_name == "data/offsetting/offsetting.csv":
-                test_apc = False
-            apc_data.append(RowObject(file_name, line, row, test_apc))
+            transformative_agreements = False
+            if file_name == TRANSAGREE_FILE_PATH:
+                transformative_agreements = True
+            apc_data.append(RowObject(file_name, line, row, transformative_agreements))
             doi_duplicate_list.append(row["doi"])
             
             reduced_row = {}
@@ -236,10 +279,16 @@ def in_whitelist(issn, first_publisher, second_publisher):
 
 def check_line_length(row_object):
     __tracebackhide__ = True
-    if len(row_object.row) != CORRECT_ROW_LENGTH:
+    if row_object.transformative_agreements:
+        target_length = ROW_LENGTH["transformative_agreements"]
+        correct_length = ROW_LENGTH["transformative_agreements"] + len(UNUSED_FIELDS)
+    else:
+        target_length = ROW_LENGTH["openapc"]
+        correct_length = ROW_LENGTH["openapc"] + len(UNUSED_FIELDS)
+    if len(row_object.row) != target_length:
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
-        pytest.fail(line_str + 'Row must consist of exactly 18 items')
+        fail(line_str + 'Row must consist of exactly ' + str(correct_length) + ' items')
 
 def check_optional_identifier(row_object):
     __tracebackhide__ = True
@@ -248,7 +297,7 @@ def check_optional_identifier(row_object):
         line_str = '{}, line {}: '.format(row_object.file_name,
                                           row_object.line_number)
         if not oat.has_value(row['url']):
-            pytest.fail(line_str + 'if no DOI is given, the column "url" ' +
+            fail(line_str + 'if no DOI is given, the column "url" ' +
                         'must not be empty')
 
 def check_field_content(row_object):
@@ -256,37 +305,41 @@ def check_field_content(row_object):
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
     if not oat.has_value(row['publisher']):
-        pytest.fail(line_str + 'the column "publisher" must not be empty')
+        fail(line_str + 'the column "publisher" must not be empty')
     if not oat.has_value(row['journal_full_title']):
-        pytest.fail(line_str + 'the column "journal_full_title" must not be empty')
+        fail(line_str + 'the column "journal_full_title" must not be empty')
     if not oat.has_value(row['issn']):
-        pytest.fail(line_str + 'the column "issn" must not be empty')
+        fail(line_str + 'the column "issn" must not be empty')
     if row['doaj'] not in ["TRUE", "FALSE"]:
-        pytest.fail(line_str + 'value in row "doaj" must either be TRUE or FALSE')
+        fail(line_str + 'value in row "doaj" must either be TRUE or FALSE')
     if row['indexed_in_crossref'] not in ["TRUE", "FALSE"]:
-        pytest.fail(line_str + 'value in row "indexed_in_crossref" must either be TRUE or FALSE')
+        fail(line_str + 'value in row "indexed_in_crossref" must either be TRUE or FALSE')
     if row['is_hybrid'] not in ["TRUE", "FALSE"]:
-        pytest.fail(line_str + 'value in row "is_hybrid" must either be TRUE or FALSE')
+        fail(line_str + 'value in row "is_hybrid" must either be TRUE or FALSE')
     if not row['doi'] == "NA":
         doi_norm = oat.get_normalised_DOI(row['doi'])
         if doi_norm is None:
-            pytest.fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
-        if doi_norm != row['doi']:
-            pytest.fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
+            fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
+        elif doi_norm != row['doi']:
+            fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
                                    'is not correct. It should be the simple DOI name, not ' +
                                    'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
     if len(row['publisher']) != len(row['publisher'].strip()):
-        pytest.fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
+        fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
     if len(row['journal_full_title']) != len(row['journal_full_title'].strip()):
-        pytest.fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
+        fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
+        
+    if row_object.transformative_agreements:
+        if not oat.has_value(row['agreement']):
+            fail(line_str + 'the column "agreement" must not be empty')
     
-    if row_object.test_apc:
+    if not row_object.transformative_agreements:
         try:
             euro = float(row['euro'])
             if euro <= 0:
-                pytest.fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
+                fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
         except ValueError:
-            pytest.fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
+            fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
 
 
 
@@ -297,10 +350,10 @@ def check_issns(row_object):
     for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"], row["issn_l"]]:
         if issn_column != "NA":
             if not oat.is_wellformed_ISSN(issn_column):
-                pytest.fail(line_str + 'value "' + issn_column + '" is not a ' +
+                fail(line_str + 'value "' + issn_column + '" is not a ' +
                             'well-formed ISSN')
             if not oat.is_valid_ISSN(issn_column):
-                pytest.fail(line_str + 'value "' + issn_column + '" is no valid ' +
+                fail(line_str + 'value "' + issn_column + '" is no valid ' +
                             'ISSN (check digit mismatch)')
     issn_l = row["issn_l"]
     if issn_l != "NA":
@@ -309,17 +362,17 @@ def check_issns(row_object):
         if issn != "NA":
             for reduced_row in issn_dict[issn]:
                 if reduced_row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn", issn, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn", issn, issn_l, reduced_row["issn_l"]))
         issn_p = row["issn_print"]
         if issn_p != "NA":
             for reduced_row in issn_p_dict[issn_p]:
                 if reduced_row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn_p", issn_p, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn_p", issn_p, issn_l, reduced_row["issn_l"]))
         issn_e = row["issn_electronic"]
         if issn_e != "NA":
             for reduced_row in issn_e_dict[issn_e]:
                 if reduced_row["issn_l"] != issn_l:
-                    pytest.fail(msg.format("issn_e", issn_e, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn_e", issn_e, issn_l, reduced_row["issn_l"]))
 
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
@@ -329,7 +382,7 @@ def check_for_doi_duplicates(row_object):
         if doi in doi_duplicate_list:
             line_str = '{}, line {}: '.format(row_object.file_name,
                                               row_object.line_number)
-            pytest.fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
+            fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
                         'encountered more than one time')
 
 def check_hybrid_status(row_object):
@@ -343,7 +396,7 @@ def check_hybrid_status(row_object):
                                           row_object.line_number)
         msg = 'Journal "{}" ({}) is listed in the DOAJ but is marked as hybrid (DOAJ only lists fully OA journals)'
         msg = msg.format(title, issn)
-        pytest.fail(line_str + msg)
+        fail(line_str + msg)
 
 def check_name_consistency(row_object):
     __tracebackhide__ = True
@@ -366,13 +419,13 @@ def check_name_consistency(row_object):
             other_hybrid = other_row["is_hybrid"]
             if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
                 ret = msg.format("", issn, "publisher name", publ, other_publ)
-                pytest.fail(ret)
+                fail(ret)
             if not other_journal == journal:
                 ret = msg.format("", issn, "journal title", journal, other_journal)
-                pytest.fail(ret)
+                fail(ret)
             if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("", issn, "hybrid status", hybrid, other_hybrid)
-                pytest.fail(ret)
+                fail(ret)
     if issn_p is not None:
         same_issn_p_rows = issn_p_dict[issn_p]
         for other_row in same_issn_p_rows:
@@ -381,13 +434,13 @@ def check_name_consistency(row_object):
             other_hybrid = other_row["is_hybrid"]
             if not other_publ == publ and not in_whitelist(issn_p, publ, other_publ):
                 ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
-                pytest.fail(ret)
+                fail(ret)
             if not other_journal == journal:
                 ret = msg.format("Print ", issn_p, "journal title", journal, other_journal)
-                pytest.fail(ret)
+                fail(ret)
             if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("Print ", issn_p, "hybrid status", hybrid, other_hybrid)
-                pytest.fail(ret)
+                fail(ret)
     if issn_e is not None:
         same_issn_e_rows = issn_e_dict[issn_e]
         for other_row in same_issn_e_rows:
@@ -396,13 +449,13 @@ def check_name_consistency(row_object):
             other_hybrid = other_row["is_hybrid"]
             if not other_publ == publ and not in_whitelist(issn_e, publ, other_publ):
                 ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
-                pytest.fail(ret)
+                fail(ret)
             if not other_journal == journal:
                 ret = msg.format("Electronic ", issn_e, "journal title", journal, other_journal)
-                pytest.fail(ret)
+                fail(ret)
             if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("Electronic ", issn_e, "hybrid status", hybrid, other_hybrid)
-                pytest.fail(ret)
+                fail(ret)
 
 @pytest.mark.parametrize("row_object", apc_data)
 class TestAPCRows(object):
@@ -419,4 +472,18 @@ class TestAPCRows(object):
         check_for_doi_duplicates(row_object)
 
     def test_name_consistency(self, row_object):
+        check_name_consistency(row_object)
+        
+if __name__ == '__main__':
+    oat.print_b(str(len(apc_data)) + " entries collected, starting tests...")
+    deciles = {round((len(apc_data)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
+    for num, row_object in enumerate(apc_data):
+        if num in deciles:
+            oat.print_b(deciles[num])
+        check_line_length(row_object)
+        check_field_content(row_object)
+        check_optional_identifier(row_object)
+        check_issns(row_object)
+        check_hybrid_status(row_object)
+        check_for_doi_duplicates(row_object)
         check_name_consistency(row_object)
