@@ -1219,7 +1219,9 @@ def get_unified_journal_title(journal_full_title):
         "jwhg": "Journal of Women's Health and Gynecology",
         "E&amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
         "Work, employment and society": "Work, Employment and Society",
-        "Software and Systems Modeling": "Software & Systems Modeling"
+        "Software and Systems Modeling": "Software & Systems Modeling",
+        "Photochem. Photobiol. Sci.": "Photochemical & Photobiological Sciences",
+        "Statistical Modelling: An International Journal": "Statistical Modelling"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
