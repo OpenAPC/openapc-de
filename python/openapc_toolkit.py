@@ -1218,7 +1218,8 @@ def get_unified_journal_title(journal_full_title):
         "Anales de PsicologÃ­a": "Anales de Psicología",
         "jwhg": "Journal of Women's Health and Gynecology",
         "E&amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
-        "Work, employment and society": "Work, Employment and Society"
+        "Work, employment and society": "Work, Employment and Society",
+        "Software and Systems Modeling": "Software & Systems Modeling"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
