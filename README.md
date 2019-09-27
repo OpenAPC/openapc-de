@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 84,378 open access journal articles, amounting to € 163,659,639 and contributed by 247 institutions.
+At the moment this project provides cost data on 84,412 open access journal articles, amounting to € 163,704,001 and contributed by 247 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -341,9 +341,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 84,378 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 247 research performing institutions and research funders. 
+This data set contains information on 84,412 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 247 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 163,659,639. The average payment was € 1,940  and the median was € 1,744.
+In total, publication fee spending covered by the Open APC initiative amounted to € 163,704,001. The average payment was € 1,939  and the median was € 1,744.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -368,8 +368,8 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2014   |       5,020|   1,378|     1,260|  40 -  9,028|           6,509|       2,239|         2,200|      132 - 6,000|
 |2015   |       8,273|   1,524|     1,452|  60 -  5,669|           6,682|       2,609|         2,621|      100 - 8,636|
 |2016   |       9,364|   1,639|     1,534|  63 -  5,985|           7,752|       2,548|         2,511|        2 - 9,079|
-|2017   |      13,310|   1,723|     1,561|  26 -  6,250|           9,795|       2,516|         2,444|       37 - 9,858|
-|2018   |       7,311|   1,612|     1,585|  13 - 12,000|           2,854|       2,491|         2,511|       18 - 7,847|
+|2017   |      13,311|   1,723|     1,561|  26 -  6,250|           9,795|       2,516|         2,444|       37 - 9,858|
+|2018   |       7,344|   1,611|     1,584|  13 - 12,000|           2,854|       2,491|         2,511|       18 - 7,847|
 |2019   |         658|   1,695|     1,647| 232 -  5,104|              42|       2,220|         2,172|      287 - 4,375|
 
 
@@ -378,7 +378,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-49,621 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 77,518,941, including value-added tax; the average payment was € 1,562 (median =  € 1,480, SD = € 758).
+49,655 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 77,563,303, including value-added tax; the average payment was € 1,562 (median =  € 1,480, SD = € 758).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -487,6 +487,7 @@ The following table summarises institutional spending on articles published in f
 |Örebro University                                                    |       93|               128,190|   1,378 (527)|  1,350|      216 -  2,808|
 |TU Berlin                                                            |       90|               118,840|   1,320 (527)|  1,382|      235 -  2,374|
 |Dortmund TU                                                          |       82|               102,584|   1,251 (795)|  1,391|      107 -  4,403|
+|TU Wien                                                              |       79|               106,006|   1,342 (544)|  1,333|      227 -  2,722|
 |INRIA                                                                |       77|               118,761|   1,542 (645)|  1,538|      290 -  3,700|
 |MLU Halle-Wittenberg                                                 |       77|               143,472|   1,863 (789)|  1,713|      405 -  4,582|
 |Commissariat à l'énergie atomique et aux énergies alternatives (CEA) |       75|               135,506|   1,807 (820)|  1,538|      300 -  4,440|
@@ -515,7 +516,6 @@ The following table summarises institutional spending on articles published in f
 |University of Durham                                                 |       50|                95,365|   1,907 (998)|  1,719|      225 -  5,219|
 |PIK-Potsdam                                                          |       48|                80,429|   1,676 (684)|  1,539|      309 -  3,850|
 |Université Paris Diderot (Paris VII)                                 |       46|                75,507|   1,641 (841)|  1,398|      450 -  3,700|
-|TU Wien                                                              |       45|                61,645|   1,370 (496)|  1,323|      240 -  2,288|
 |LSHTM                                                                |       44|                65,024|   1,478 (524)|  1,503|      496 -  3,445|
 |Université Toulouse III - Paul Sabatier                              |       44|                71,556|   1,626 (945)|  1,348|      500 -  4,700|
 |Aberystwyth University                                               |       42|                88,324| 2,103 (1,070)|  1,895|      664 -  5,893|
@@ -834,8 +834,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.8%       |
-|PubMed ID                  |  76.91%      |
-|PubMed Central ID          |  70.31%     |
+|PubMed ID                  |  76.9%      |
+|PubMed Central ID          |  70.3%     |
 |Web of Science record ID   | 94.47%      |
 
 
