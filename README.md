@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 84,440 open access journal articles, amounting to € 163,745,791 and contributed by 247 institutions.
+At the moment this project provides cost data on 84,440 open access journal articles, amounting to € 163,745,802 and contributed by 247 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -343,7 +343,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 This data set contains information on 84,440 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 247 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 163,745,791. The average payment was € 1,939  and the median was € 1,743.
+In total, publication fee spending covered by the Open APC initiative amounted to € 163,745,802. The average payment was € 1,939  and the median was € 1,743.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -378,7 +378,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-49,682 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 77,602,363, including value-added tax; the average payment was € 1,562 (median =  € 1,480, SD = € 758).
+49,682 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 77,602,374, including value-added tax; the average payment was € 1,562 (median =  € 1,480, SD = € 758).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -464,7 +464,7 @@ The following table summarises institutional spending on articles published in f
 |GEOMAR                                                               |      151|               269,463|   1,785 (918)|  1,490|      342 -  4,290|
 |University of Turku                                                  |      150|               255,830|   1,706 (843)|  1,615|      131 -  4,588|
 |Marburg U                                                            |      148|               240,888|   1,628 (439)|  1,673|      357 -  3,636|
-|UFZ                                                                  |      146|               188,467|   1,291 (469)|  1,269|      180 -  2,349|
+|UFZ                                                                  |      145|               187,249|   1,291 (471)|  1,270|      180 -  2,349|
 |Rostock U                                                            |      140|               183,565|   1,311 (489)|  1,421|      117 -  2,010|
 |Kassel U                                                             |      130|               145,386|   1,118 (550)|  1,105|       65 -  2,440|
 |MDC                                                                  |      127|               272,861| 2,149 (1,152)|  1,936|      224 -  4,662|
@@ -543,9 +543,9 @@ The following table summarises institutional spending on articles published in f
 |Plymouth University                                                  |       26|                37,850|   1,456 (520)|  1,438|      333 -  2,716|
 |Trier U                                                              |       26|                40,483|   1,557 (328)|  1,572|      573 -  2,212|
 |University of Aberdeen                                               |       26|                48,895|   1,881 (695)|  1,787|      985 -  4,556|
+|HU Berlin                                                            |       24|                38,443|   1,602 (531)|  1,731|      400 -  2,061|
 |Lund University                                                      |       24|                32,295|   1,346 (541)|  1,410|      397 -  2,429|
 |Université de Nantes                                                 |       24|                36,474|   1,520 (651)|  1,495|      286 -  3,400|
-|HU Berlin                                                            |       23|                37,215|   1,618 (537)|  1,831|      400 -  2,061|
 |Université de La Réunion                                             |       23|                32,398|   1,409 (696)|  1,389|      277 -  3,600|
 |Université de Montpellier                                            |       22|                37,534|   1,706 (525)|  1,783|      352 -  2,400|
 |IRSTEA                                                               |       21|                27,516|   1,310 (622)|  1,495|      300 -  2,175|
