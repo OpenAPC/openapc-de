@@ -1221,7 +1221,9 @@ def get_unified_journal_title(journal_full_title):
         "Work, employment and society": "Work, Employment and Society",
         "Software and Systems Modeling": "Software & Systems Modeling",
         "Photochem. Photobiol. Sci.": "Photochemical & Photobiological Sciences",
-        "Statistical Modelling: An International Journal": "Statistical Modelling"
+        "Statistical Modelling: An International Journal": "Statistical Modelling",
+        "ael": "Agricultural & Environmental Letters",
+        "ua": "Urban Agriculture & Regional Food Systems"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
