@@ -834,7 +834,7 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.8%       |
+|DOI                        |  99.81%       |
 |PubMed ID                  |  76.88%      |
 |PubMed Central ID          |  70.29%     |
 |Web of Science record ID   | 94.46%      |
