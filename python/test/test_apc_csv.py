@@ -33,7 +33,8 @@ PUBLISHER_IDENTITY = [
     (["International Scientific Literature"], ["International Scientific Information, Inc."]),
     (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"]),
     (["Schattauer GmbH"], ["Georg Thieme Verlag KG"]), # Schattauer bought up by Thieme (1/1/2017)
-    (["Johns Hopkins University Press"], ["Project Muse"])
+    (["Johns Hopkins University Press"], ["Project Muse"]),
+    (["Informa UK Limited"], ["Dove Medical Press Ltd."]) # DMP bought up by T&F in 2017
 ]
 
 
