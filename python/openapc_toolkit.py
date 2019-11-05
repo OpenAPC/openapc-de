@@ -1044,7 +1044,9 @@ def get_unified_publisher_name(publisher):
         "Scientific and Academic Publishing": "Scientific & Academic Publishing",
         "Science and Education Publishing Co., Ltd.": "Science and Education Publishing",
         "Horizon Research Publishing Co., Ltd.": "Horizon Research Publishing",
-        "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften"
+        "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften",
+        "Element d.o.o.": "Ele-Math",
+        "Element": "Ele-Math"
     }
     return publisher_mappings.get(publisher, publisher)
 
