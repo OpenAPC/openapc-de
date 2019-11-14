@@ -915,7 +915,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2017,1711.98,"10.1371/journal.pone.0167436",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28118366","PMC5261620","ut:000396160500054",NA,TRUE
 "Cardiff University",2017,553.51,"10.3892/ijo.2017.3884",TRUE,"Spandidos Publications","International Journal of Oncology","1019-6439","1019-6439","1791-2423","1019-6439","CC BY",TRUE,"28259897","PMC5363875","ut:000398139500008",NA,FALSE
 "Cardiff University",2017,3868.19,"10.1002/adfm.201604676",TRUE,"Wiley-Blackwell","Advanced Functional Materials","1616-301X",NA,NA,"1616-301X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000394680200010",NA,FALSE
-"Cardiff University",2017,1647.75,"10.1111/hex.12544",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28186384","PMC5600225","ut:000410820400025",NA,FALSE
+"Cardiff University",2017,1647.75,"10.1111/hex.12544",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28186384","PMC5600225","ut:000410820400025",NA,FALSE
 "Cardiff University",2017,1967.78,"10.1186/s12860-017-0128-x",FALSE,"Springer Nature","BMC Cell Biology","1471-2121",NA,"1471-2121","1471-2121","CC BY",TRUE,"28148303","PMC5288874","ut:000396936400001",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2017,3195.15,"10.1002/anie.201609557",TRUE,"Wiley-Blackwell","Angewandte Chemie International Edition","1433-7851",NA,NA,"1433-7851","http://creativecommons.org/licenses/by/4.0/",TRUE,"28294491","PMC5396139","ut:000397599500050",NA,FALSE
@@ -1040,7 +1040,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2017,2321.61,"10.3847/1538-4357/aa6c47",TRUE,"American Astronomical Society","The Astrophysical Journal","1538-4357",NA,"1538-4357","0004-637X","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000402310800023",NA,FALSE
 "Cardiff University",2017,3880.9,"10.1016/j.gloenvcha.2017.03.005",TRUE,"Elsevier BV","Global Environmental Change","0959-3780","0959-3780",NA,"0959-3780","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000405250800006",NA,FALSE
-"Cardiff University",2017,1556.49,"10.1111/hex.12570",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28779512","PMC5689238","ut:000415370300013",NA,FALSE
+"Cardiff University",2017,1556.49,"10.1111/hex.12570",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28779512","PMC5689238","ut:000415370300013",NA,FALSE
 "Cardiff University",2017,2903.46,"10.1038/cddis.2017.199",FALSE,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889","CC BY",TRUE,"28492545","PMC5520719","ut:000402195700051",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -1239,7 +1239,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2017,2760.62,"10.1364/oe.25.023634",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","CC BY",TRUE,"29041314",NA,"ut:000412048500020",NA,TRUE
 "Cardiff University",2017,2105.19,"10.1021/jacs.7b06358",TRUE,"American Chemical Society (ACS)","Journal of the American Chemical Society","0002-7863","0002-7863","1520-5126","0002-7863","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"28820585",NA,"ut:000411659000030",NA,FALSE
-"Cardiff University",2017,1593.37,"10.1111/hex.12629",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28960699","PMC5750740","ut:000419120600035",NA,FALSE
+"Cardiff University",2017,1593.37,"10.1111/hex.12629",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28960699","PMC5750740","ut:000419120600035",NA,FALSE
 "Cardiff University",2017,1830.56,"10.1039/c7cp04144f",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","CC BY",TRUE,"28926035",NA,"ut:000413290500005",NA,FALSE
 "Cardiff University",2017,2737.62,"10.1111/imm.12829",TRUE,"Wiley-Blackwell","Immunology","0019-2805",NA,NA,"0019-2805","http://creativecommons.org/licenses/by/4.0/",TRUE,"28869761","PMC5721250","ut:000417762800001",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -1252,7 +1252,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2017,1111.03,"10.1016/j.ijdrr.2017.09.018",TRUE,"Elsevier BV","International Journal of Disaster Risk Reduction","2212-4209","2212-4209",NA,"2212-4209","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000413937300014",NA,FALSE
 "Cardiff University",2017,2007.6,"10.1016/j.ejor.2017.11.065",TRUE,"Elsevier BV","European Journal of Operational Research","0377-2217","0377-2217",NA,"0377-2217","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000431164000021",NA,FALSE
 "Cardiff University",2017,3110.89,"10.1016/j.expneurol.2017.09.007",TRUE,"Elsevier BV","Experimental Neurology","0014-4886","0014-4886",NA,"0014-4886","http://creativecommons.org/licenses/by/4.0/",TRUE,"28911883","PMC5703168","ut:000416297400009",NA,FALSE
-"Cardiff University",2017,1592.01,"10.1111/hex.12634",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28960624","PMC5750735","ut:000419120600039",NA,FALSE
+"Cardiff University",2017,1592.01,"10.1111/hex.12634",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28960624","PMC5750735","ut:000419120600039",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2017,3124.32,"10.1523/jneurosci.3530-16.2017",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474","CC BY",TRUE,"29229707","PMC5815455","ut:000424987700011",NA,FALSE
 "Cardiff University",2017,3666.4,"10.1016/j.apenergy.2017.09.075",TRUE,"Elsevier BV","Applied Energy","0306-2619","0306-2619",NA,"0306-2619","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000416300400057",NA,FALSE
@@ -2479,7 +2479,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2017,1691.04,"10.1136/bmjresp-2017-000198",FALSE,"BMJ","BMJ Open Respiratory Research","2052-4439",NA,"2052-4439","2052-4439","CC BY-NC",TRUE,"29071074","PMC5652477",NA,NA,TRUE
 "Imperial College London",2017,1989.46,"10.1136/heartjnl-2017-311274",TRUE,"BMJ","Heart","1355-6037","1355-6037","1468-201X","1355-6037","CC BY",TRUE,"28684436","PMC5749347","ut:000417703500009",NA,FALSE
 "Imperial College London",2017,2977.69,"10.1002/adhm.201700385",TRUE,"Wiley-Blackwell","Advanced Healthcare Materials","2192-2640",NA,NA,"2192-2640","http://creativecommons.org/licenses/by/4.0/",TRUE,"28699219","PMC5590711","ut:000409410500002",NA,FALSE
-"Imperial College London",2017,1769.54,"10.1111/hex.12604",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28732138","PMC5750690","ut:000419120600022",NA,FALSE
+"Imperial College London",2017,1769.54,"10.1111/hex.12604",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28732138","PMC5750690","ut:000419120600022",NA,FALSE
 "Imperial College London",2017,1850.03,"10.1039/c7se00206h",TRUE,"Royal Society of Chemistry (RSC)","Sustainable Energy & Fuels","2398-4902",NA,"2398-4902","2398-4902","CC BY",TRUE,NA,NA,"ut:000422788400007",NA,FALSE
 "Imperial College London",2017,1652.1,"10.1186/s12879-017-2432-7",FALSE,"Springer Nature","BMC Infectious Diseases","1471-2334",NA,"1471-2334","1471-2334","CC BY",TRUE,"28494805","PMC5425986","ut:000401861100002",NA,TRUE
 "Imperial College London",2017,1525.25,"10.1302/2046-3758.68.bjr-2017-0067.r1",FALSE,"British Editorial Society of Bone & Joint Surgery","Bone and Joint Research","2046-3758",NA,"2046-3758","2046-3758","CC BY",TRUE,"28855192","PMC5579314","ut:000408621300008",NA,TRUE
@@ -3819,7 +3819,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2017,3676.56,"10.1016/j.tins.2016.08.004",TRUE,"Elsevier BV","Trends in Neurosciences","0166-2236","0166-2236",NA,"0166-2236","http://creativecommons.org/licenses/by/4.0/",TRUE,"27637565","PMC5236059","ut:000385601500006",NA,FALSE
 "King's College London",2017,1623.6,"10.1186/s12889-016-3974-0",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","CC BY",TRUE,"28148236","PMC5288998","ut:000393625100001",NA,TRUE
 "King's College London",2017,629.8,"10.1080/13600818.2017.1283009",TRUE,"Informa UK Limited","Oxford Development Studies","1360-0818","1360-0818","1469-9966","1360-0818","CC BY-NC-ND",TRUE,NA,NA,"ut:000423959900004",NA,FALSE
-"King's College London",2017,1627.24,"10.1111/hex.12584",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28618140","PMC5689242","ut:000415370300024",NA,FALSE
+"King's College London",2017,1627.24,"10.1111/hex.12584",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28618140","PMC5689242","ut:000415370300024",NA,FALSE
 "King's College London",2017,3110.89,"10.1016/j.psyneuen.2017.09.021",TRUE,"Elsevier BV","Psychoneuroendocrinology","0306-4530","0306-4530",NA,"0306-4530","http://creativecommons.org/licenses/by/4.0/",TRUE,"28982048",NA,"ut:000415781300023",NA,FALSE
 "King's College London",2017,1497.93,"10.1038/s41598-017-15212-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29116192","PMC5677091","ut:000414565700005",NA,TRUE
 "King's College London",2017,1787.97,"10.3389/fmolb.2017.00012",FALSE,"Frontiers Media SA","Frontiers in Molecular Biosciences","2296-889X",NA,"2296-889X","2296-889X","CC BY",TRUE,"28349052","PMC5346568",NA,NA,TRUE
@@ -4616,7 +4616,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Lancaster University",2017,1303.79,"10.1111/hex.12688",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"29696740","PMC6250886","ut:000450950200004",NA,FALSE
+"Lancaster University",2017,1303.79,"10.1111/hex.12688",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"29696740","PMC6250886","ut:000450950200004",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -9190,11 +9190,11 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2017,1044.76,"10.1002/mbo3.567",FALSE,"Wiley-Blackwell","MicrobiologyOpen","2045-8827",NA,NA,"2045-8827","http://creativecommons.org/licenses/by/4.0/",TRUE,"29250936","PMC6011840","ut:000435947200007",NA,TRUE
 "UCL",2017,1056.08,"10.1002/cam4.1146",FALSE,"Wiley-Blackwell","Cancer Medicine","2045-7634",NA,NA,"2045-7634","http://creativecommons.org/licenses/by/4.0/",TRUE,"28834325","PMC5633548","ut:000412646000003",NA,TRUE
-"UCL",2017,1091.3,"10.1111/hex.12524",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"27933711","PMC5600270","ut:000410820400007",NA,FALSE
+"UCL",2017,1091.3,"10.1111/hex.12524",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"27933711","PMC5600270","ut:000410820400007",NA,FALSE
 "UCL",2017,1335.26,"10.1002/mbo3.455",FALSE,"Wiley-Blackwell","MicrobiologyOpen","2045-8827",NA,NA,"2045-8827","http://creativecommons.org/licenses/by/4.0/",TRUE,"28244230","PMC5552959","ut:000407573700007",NA,TRUE
-"UCL",2017,1309.48,"10.1111/hex.12619",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28898930","PMC5750749","ut:000419120600004",NA,FALSE
-"UCL",2017,1349.19,"10.1111/hex.12593",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28640487","PMC5750695","ut:000419120600012",NA,FALSE
-"UCL",2017,1366.66,"10.1111/hex.12500",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"27670148","PMC5512998","ut:000405862500017",NA,FALSE
+"UCL",2017,1309.48,"10.1111/hex.12619",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28898930","PMC5750749","ut:000419120600004",NA,FALSE
+"UCL",2017,1349.19,"10.1111/hex.12593",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28640487","PMC5750695","ut:000419120600012",NA,FALSE
+"UCL",2017,1366.66,"10.1111/hex.12500",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"27670148","PMC5512998","ut:000405862500017",NA,FALSE
 "UCL",2017,1371.48,"10.1111/jcmm.13394",FALSE,"Wiley-Blackwell","Journal of Cellular and Molecular Medicine","1582-1838",NA,NA,"1582-1838","http://creativecommons.org/licenses/by/4.0/",TRUE,"29159980","PMC5783840","ut:000423361500022",NA,FALSE
 "UCL",2017,1613,"10.1002/acn3.511",FALSE,"Wiley-Blackwell","Annals of Clinical and Translational Neurology","2328-9503",NA,NA,"2328-9503","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29376097","PMC5771320","ut:000422664400011",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -9393,7 +9393,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bath",2017,2138.76,"10.1002/2017ja024811",TRUE,"American Geophysical Union (AGU)","Journal of Geophysical Research: Space Physics","2169-9380",NA,NA,"2169-9380","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000430125300044",NA,FALSE
 "University of Bath",2017,1711.01,"10.1111/adb.12624",TRUE,"Wiley-Blackwell","Addiction Biology","1355-6215",NA,NA,"1355-6215","http://creativecommons.org/licenses/by/4.0/",TRUE,"29667304",NA,NA,NA,FALSE
 "University of Bath",2017,2167.85,"10.1111/febs.14421",TRUE,"Wiley-Blackwell","FEBS Journal","1742-464X",NA,NA,"1742-464X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29476645","PMC5947662","ut:000430691000008",NA,FALSE
-"University of Bath",2017,2566.52,"10.1002/cnma.201700378",FALSE,"Wiley-Blackwell","ChemNanoMat","2199-692X",NA,NA,"2199-692X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29938196","PMC5993288","ut:000429416200006",NA,FALSE
+"University of Bath",2017,2566.52,"10.1002/cnma.201700378",TRUE,"Wiley-Blackwell","ChemNanoMat","2199-692X",NA,NA,"2199-692X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29938196","PMC5993288","ut:000429416200006",NA,FALSE
 "University of Bath",2017,2138.76,"10.1002/2016rs006239",TRUE,"American Geophysical Union (AGU)","Radio Science","0048-6604",NA,NA,"0048-6604","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000411178900001",NA,FALSE
 "University of Bath",2017,1255.88,"10.1002/open.201700193",FALSE,"Wiley-Blackwell","ChemistryOpen","2191-1363",NA,NA,"2191-1363","http://creativecommons.org/licenses/by/4.0/",TRUE,"29531891","PMC5838390","ut:000428990700008",NA,TRUE
 "University of Bath",2017,1255.88,"10.1002/open.201700184",FALSE,"Wiley-Blackwell","ChemistryOpen","2191-1363",NA,NA,"2191-1363","http://creativecommons.org/licenses/by/4.0/",TRUE,"29435400","PMC5792830","ut:000426495300004",NA,TRUE
@@ -13602,7 +13602,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2017,3867.84,"10.1002/adma.201605598",TRUE,"Wiley-Blackwell","Advanced Materials","0935-9648",NA,NA,"0935-9648","http://creativecommons.org/licenses/by/4.0/",TRUE,"28295639",NA,"ut:000401170600006",NA,FALSE
 "University of Exeter",2017,2384.49,"10.1088/1361-6528/aa5ec0",TRUE,"IOP Publishing","Nanotechnology","0957-4484","0957-4484","1361-6528","0957-4484","http://creativecommons.org/licenses/by/3.0/",TRUE,"28233763",NA,"ut:000395893900001",NA,FALSE
 "University of Exeter",2017,3352.65,"10.1371/journal.pmed.1002259",FALSE,"Public Library of Science (PLoS)","PLOS Medicine","1549-1676",NA,"1549-1676","1549-1277","http://creativecommons.org/licenses/by/4.0/",TRUE,"28323829","PMC5360216","ut:000397906100013",NA,TRUE
-"University of Exeter",2017,2124.34,"10.1111/hex.12637",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"29090494","PMC5867326","ut:000428402700007",NA,FALSE
+"University of Exeter",2017,2124.34,"10.1111/hex.12637",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"29090494","PMC5867326","ut:000428402700007",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2017,3481.65,"10.1111/imm.12724",TRUE,"Wiley-Blackwell","Immunology","0019-2805",NA,NA,"0019-2805","http://creativecommons.org/licenses/by/4.0/",TRUE,"28190261","PMC5418461","ut:000400816800008",NA,FALSE
 "University of Exeter",2017,2945.54,"10.1038/hdy.2017.14",TRUE,"Springer Nature","Heredity","0018-067X","0018-067X","1365-2540","0018-067X","http://www.springer.com/tdm",TRUE,"28295035","PMC5520136","ut:000405397800005",NA,FALSE
@@ -17894,7 +17894,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2017,1990.08,"10.1161/jaha.116.004834",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980","CC BY",TRUE,"28473402","PMC5524063","ut:000404098600012",NA,TRUE
 "University of Manchester",2017,1471.11,"10.1161/jaha.116.004603",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980","CC BY-NC",TRUE,"28400366","PMC5532992","ut:000404098500011",NA,TRUE
 "University of Manchester",2017,3899.02,"10.1017/jfm.2017.41",TRUE,"Cambridge University Press (CUP)","Journal of Fluid Mechanics","0022-1120","0022-1120","1469-7645","0022-1120","CC BY",TRUE,NA,NA,"ut:000395426400005",NA,FALSE
-"University of Manchester",2017,1349.81,"10.1111/hex.12590",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28640480","PMC5750753","ut:000419120600010",NA,FALSE
+"University of Manchester",2017,1349.81,"10.1111/hex.12590",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"28640480","PMC5750753","ut:000419120600010",NA,FALSE
 "University of Manchester",2017,2489.7,"10.1016/s2468-2667(17)30031-2",FALSE,"Elsevier BV","The Lancet Public Health","2468-2667","2468-2667",NA,"2468-2667","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000425585500010",NA,TRUE
 "University of Manchester",2017,1674.06,"10.1371/journal.pone.0172955",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28257480","PMC5336271","ut:000396021100046",NA,TRUE
 "University of Manchester",2017,2558.99,"10.1093/medlaw/fww016",TRUE,"Oxford University Press (OUP)","Medical Law Review","0967-0742","0967-0742","1464-3790","0967-0742","CC BY",TRUE,"28007807","PMC5178317","ut:000393171400003",NA,FALSE
