@@ -1226,7 +1226,11 @@ def get_unified_journal_title(journal_full_title):
         "Photochem. Photobiol. Sci.": "Photochemical & Photobiological Sciences",
         "Statistical Modelling: An International Journal": "Statistical Modelling",
         "ael": "Agricultural & Environmental Letters",
-        "ua": "Urban Agriculture & Regional Food Systems"
+        "ua": "Urban Agriculture & Regional Food Systems",
+        "Journal of Orthopaedic Research®": "Journal of Orthopaedic Research",
+        "BJPscyh Advances": "BJPsych Advances",
+        "Clinical Orthopaedics and Related Research®": "Clinical Orthopaedics and Related Research",
+        "Essays In Biochemistry": "Essays in Biochemistry"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

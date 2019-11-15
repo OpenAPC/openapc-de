@@ -157,7 +157,9 @@ JOURNAL_OWNER_CHANGED = {
     "1178-7090": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Journal of Pain Research
     "1179-1608": ["Dove Medical Press Ltd.", "Informa UK Limited"], #  Nature and Science of Sleep
     "1178-2021": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Neuropsychiatric Disease and Treatment
-    "2155-384X": ["Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"] # Clinical and Translational Gastroenterology
+    "2155-384X": ["Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical and Translational Gastroenterology
+    "0009-921X": ["Springer Science + Business Media", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical Orthopaedics and Related Research®
+    "1179-5549": ["Libertas Academica, Ltd.", "SAGE Publications"] # Clinical Medicine Insights: Oncology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -202,7 +204,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1553-040X", # Geosphere, Gold OA since 01/2018
     "1366-9516", # Diversity and Distributions, Gold OA since 2019
     "1438-387X", # Helgoland Marine Research, Gold OA since 2016
-    "1933-6950" # Channels
+    "1933-6950", # Channels
+    "0264-1275" # Materials & Design, Gold OA since 2019
 ]
 
 class RowObject(object):
@@ -353,7 +356,7 @@ def check_issns(row_object):
             if not oat.is_wellformed_ISSN(issn_column):
                 fail(line_str + 'value "' + issn_column + '" is not a ' +
                             'well-formed ISSN')
-            if not oat.is_valid_ISSN(issn_column):
+            elif not oat.is_valid_ISSN(issn_column):
                 fail(line_str + 'value "' + issn_column + '" is no valid ' +
                             'ISSN (check digit mismatch)')
     issn_l = row["issn_l"]
