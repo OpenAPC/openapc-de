@@ -2,7 +2,7 @@
 "Wellcome Trust",2018,2034.36,"10.1002/mds.27177",TRUE,"Wiley-Blackwell","Movement Disorders","0885-3185",NA,NA,"0885-3185","http://creativecommons.org/licenses/by/4.0/",TRUE,"28976022","PMC5813201","ut:000419963500018",NA,FALSE
 "Wellcome Trust",2018,1858.33,"10.3390/ijms18122631",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"29211002","PMC5751234","ut:000418896700135",NA,TRUE
 "Wellcome Trust",2018,4063.3,"10.1212/wnl.0000000000004691",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Neurology","0028-3878","0028-3878","1526-632X","0028-3878",NA,TRUE,"29079685","PMC5705250","ut:000417678300013",NA,FALSE
-"Wellcome Trust",2018,914.23,"10.1097/j.pain.0000000000000732",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Pain","0304-3959","0304-3959",NA,"0304-3959",NA,TRUE,"27984524","PMC5175998","ut:000392233400013",NA,FALSE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2365.59,"10.1016/j.ydbio.2017.11.017",TRUE,"Elsevier BV","Developmental Biology","0012-1606","0012-1606",NA,"0012-1606","http://creativecommons.org/licenses/by/4.0/",TRUE,"29229250","PMC5814753","ut:000426025300013",NA,FALSE
 "Wellcome Trust",2018,2577,"10.3389/fmicb.2017.02238",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"29184547","PMC5694484","ut:000415034500001",NA,TRUE
 "Wellcome Trust",2018,264.04,"10.1016/j.dib.2018.01.005",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"29876429","PMC5988223","ut:000449763000073",NA,TRUE
@@ -34,7 +34,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2018,447.73,"10.1007/s00426-017-0885-3",TRUE,"Springer Nature","Psychological Research","0340-0727","0340-0727","1430-2772","0340-0727","http://creativecommons.org/licenses/by/4.0",TRUE,"28756514","PMC6132632","ut:000444304000005",NA,FALSE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -279,7 +279,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2383.59,"10.1093/hmg/ddy237",TRUE,"Oxford University Press (OUP)","Human Molecular Genetics","0964-6906","0964-6906","1460-2083","0964-6906","http://creativecommons.org/licenses/by/4.0/",TRUE,"29931343","PMC6097157","ut:000444202300012",NA,FALSE
 "Wellcome Trust",2018,2383.59,"10.1093/hmg/ddy210",TRUE,"Oxford University Press (OUP)","Human Molecular Genetics","0964-6906","0964-6906","1460-2083","0964-6906","http://creativecommons.org/licenses/by/4.0/",TRUE,"29893838","PMC6121186","ut:000444203500014",NA,FALSE
 "Wellcome Trust",2018,1729.21,"10.1098/rstb.2017.0335",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society B: Biological Sciences","0962-8436","0962-8436","1471-2970","0962-8436",NA,TRUE,"30249781","PMC6158203","ut:000445405000014",NA,FALSE
-"Wellcome Trust",2018,3989.5,"10.1242/dev.153528",TRUE,"The Company of Biologists","Development","0950-1991","0950-1991","1477-9129","0950-1991","http://creativecommons.org/licenses/by/3.0",TRUE,"28684625","PMC5560048","ut:000406673600012",NA,FALSE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2542.95,"10.1002/oby.22313",TRUE,"Wiley-Blackwell","Obesity","1930-7381","1930-7381","1930-739X","1930-7381","http://creativecommons.org/licenses/by/4.0/",TRUE,"30358150","PMC6334168","ut:000448285800022",NA,FALSE
 "Wellcome Trust",2018,3386.21,"10.1089/ars.2017.7294",TRUE,"Mary Ann Liebert Inc","Antioxidants & Redox Signaling","1523-0864","1523-0864","1557-7716","1523-0864","http://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/",TRUE,"28762752","PMC6080119","ut:000440947200005",NA,FALSE
 "Wellcome Trust",2018,2909.27,"10.1093/ije/dyy204",TRUE,"Oxford University Press (OUP)","International Journal of Epidemiology","0300-5771","0300-5771","1464-3685","0300-5771","http://creativecommons.org/licenses/by/4.0/",TRUE,"30462199","PMC6659360","ut:000486642400011",NA,FALSE
@@ -993,20 +993,20 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,1505.43,"10.1038/s41598-017-14809-8",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29093551","PMC5665994","ut:000414233700044",NA,TRUE
 "Wellcome Trust",2018,2247.97,"10.1136/heartjnl-2017-312193",TRUE,"BMJ","Heart","1355-6037","1355-6037","1468-201X","1355-6037",NA,TRUE,"29101266","PMC5861383","ut:000423985100015",NA,FALSE
 "Wellcome Trust",2018,3115.28,"10.1093/ntr/ntx245",TRUE,"Oxford University Press (OUP)","Nicotine & Tobacco Research","1462-2203","1462-2203","1469-994X","1462-2203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29126149","PMC6302351","ut:000470029900011",NA,FALSE
-"Wellcome Trust",2018,4272.16,"10.1038/s41467-017-01427-1",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"29116089","PMC5676842","ut:000414534700007",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2448.01,"10.1186/s13059-017-1337-5",FALSE,"Springer Nature","Genome Biology","1474-760X",NA,"1474-760X","1465-6906",NA,TRUE,"29115978","PMC5678748","ut:000414666200001",NA,TRUE
 "Wellcome Trust",2018,3458.41,"10.1136/bmj.j4788",TRUE,"BMJ","BMJ","0959-8138","0959-8138","1756-1833","1756-1833","http://www.bmj.org/licenses/tdm/1.0/terms-and-conditions.html",TRUE,"29114078","PMC5683043","ut:000415198800001",NA,FALSE
-"Wellcome Trust",2018,2420.89,"10.2217/rme-2017-0065",TRUE,"Future Medicine Ltd","Regenerative Medicine","1746-0751","1746-0751","1746-076X","1746-0751",NA,TRUE,"29119870","PMC5985499","ut:000417041100012",NA,FALSE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,1949.2,"10.1074/jbc.ra117.000160",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X","0021-9258",NA,TRUE,"29123029","PMC5787795","ut:000423515000005",NA,FALSE
 "Wellcome Trust",2018,3302.74,"10.1016/j.diff.2017.11.004",TRUE,"Elsevier BV","Differentiation","0301-4681","0301-4681",NA,"0301-4681","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29156254","PMC5726894","ut:000417864500007",NA,FALSE
 "Wellcome Trust",2018,2610.76,"10.1093/medlaw/fwx052",TRUE,"Oxford University Press (OUP)","Medical Law Review","0967-0742","0967-0742","1464-3790","0967-0742","http://creativecommons.org/licenses/by/4.0/",TRUE,"29140477","PMC6093478","ut:000441805300001",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,962.93,"10.1093/nar/gkx1121",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"29149325","PMC5753190","ut:000419550700157",NA,TRUE
-"Wellcome Trust",2018,4272.16,"10.1038/s41467-017-00859-z",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"29146913","PMC5691083","ut:000415323000010",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2379.07,"10.1042/bst20170013",TRUE,"Portland Press Ltd.","Biochemical Society Transactions","0300-5127","0300-5127","1470-8752","0300-5127","https://creativecommons.org/licenses/by/4.0/",TRUE,"29150527","PMC5730942","ut:000418440200009",NA,FALSE
 "Wellcome Trust",2018,1829.57,"10.1186/s12939-017-0698-4",FALSE,"Springer Nature","International Journal for Equity in Health","1475-9276",NA,"1475-9276","1475-9276",NA,TRUE,"29166913","PMC5700527","ut:000416047100001",NA,TRUE
 "Wellcome Trust",2018,2419.76,"10.1017/s0033291717003415",TRUE,"Cambridge University Press (CUP)","Psychological Medicine","0033-2917","0033-2917","1469-8978","0033-2917","http://creativecommons.org/licenses/by/4.0/",TRUE,"29183409","PMC6088772","ut:000440180100015",NA,FALSE
-"Wellcome Trust",2018,3254.98,"10.1038/s41398-017-0010-9",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","http://creativecommons.org/licenses/by/4.0",TRUE,"29187746","PMC5802488","ut:000417257200004",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2247.97,"10.1136/heartjnl-2017-312257",TRUE,"BMJ","Heart","1355-6037","1355-6037","1468-201X","1355-6037",NA,TRUE,"29196542","PMC6031261","ut:000438038400011",NA,FALSE
 "Wellcome Trust",2018,3858.41,"10.1242/dmm.031435",FALSE,"The Company of Biologists","Disease Models & Mechanisms","1754-8403","1754-8403","1754-8411","1754-8403","http://www.biologists.com/user-licence-1-1",TRUE,"29196443","PMC5894940","ut:000426106000004",NA,TRUE
 "Wellcome Trust",2018,1556.29,"10.1136/bmjopen-2017-017771",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"29229653","PMC5778287","ut:000423826700076",NA,TRUE
@@ -1019,14 +1019,14 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2435.49,"10.1101/gr.225615.117",TRUE,"Cold Spring Harbor Laboratory Press","Genome Research","1088-9051","1088-9051","1549-5469","1088-9051",NA,TRUE,"29254943","PMC5793784","ut:000424537000006",NA,FALSE
 "Wellcome Trust",2018,1505.43,"10.1038/s41598-017-17664-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29259218","PMC5736761","ut:000418359600075",NA,TRUE
 "Wellcome Trust",2018,1826.2,"10.1534/genetics.117.300527",TRUE,"Genetics Society of America","Genetics","0016-6731","0016-6731","1943-2631","0016-6731",NA,TRUE,"29259000","PMC5788524","ut:000423563400010",NA,FALSE
-"Wellcome Trust",2018,1556.29,"10.1136/bmjopen-2017-017929",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"29273656","PMC5988126","ut:000423826700088",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,3840.97,"10.1161/hypertensionaha.115.07031",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Hypertension","0194-911X","0194-911X","1524-4563","0194-911X",NA,TRUE,"28028193","PMC5222555","ut:000392405500012",NA,FALSE
-"Wellcome Trust",2018,1765.15,"10.1186/s13063-017-2355-z",FALSE,"Springer Nature","Trials","1745-6215",NA,"1745-6215","1745-6215",NA,TRUE,"29282142","PMC5745698","ut:000419147400006",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,1765.15,"10.1186/s12910-017-0240-7",FALSE,"Springer Nature","BMC Medical Ethics","1472-6939",NA,"1472-6939","1472-6939",NA,TRUE,"29282045","PMC5745812","ut:000418809800001",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,1765.15,"10.1186/s12989-017-0237-x",FALSE,"Springer Nature","Particle and Fibre Toxicology","1743-8977",NA,"1743-8977","1743-8977",NA,TRUE,"29298690","PMC5753450","ut:000419213900001",NA,TRUE
 "Wellcome Trust",2018,2457.07,"10.1160/th17-02-0138",TRUE,"Georg Thieme Verlag KG","Thrombosis and Haemostasis","0340-6245","0340-6245","2567-689X","0340-6245","https://creativecommons.org/licenses/by/4.0/",TRUE,"29304526","PMC6260116","ut:000424093100007",NA,FALSE
-"Wellcome Trust",2018,3254.98,"10.1038/s41398-017-0034-1",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","http://creativecommons.org/licenses/by/4.0",TRUE,"29317602","PMC5802463","ut:000424024100009",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,1361.89,"10.1242/bio.030189",FALSE,"The Company of Biologists","Biology Open","2046-6390",NA,"2046-6390","2046-6390","http://www.biologists.com/user-licence-1-1",TRUE,"29330350","PMC5829504","ut:000424081100019",NA,TRUE
 "Wellcome Trust",2018,2075.05,"10.1098/rstb.2016.0444",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society B: Biological Sciences","0962-8436","0962-8436","1471-2970","0962-8436",NA,TRUE,"29335368","PMC5784064","ut:000422904900009",NA,FALSE
 "Wellcome Trust",2018,2061.21,"10.1080/15563650.2017.1422510",TRUE,"Informa UK Limited","Clinical Toxicology","1556-3650","1556-3650","1556-9519","1556-3650",NA,TRUE,"29334816","PMC6021765","ut:000436077000007",NA,FALSE
@@ -1486,7 +1486,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,3077.03,"10.1158/1078-0432.ccr-16-3142",TRUE,"American Association for Cancer Research (AACR)","Clinical Cancer Research","1078-0432","1078-0432","1557-3265","1078-0432",NA,TRUE,"28972045","PMC6175041","ut:000418193400013",NA,FALSE
 "Wellcome Trust",2018,2639.02,"10.1007/s00330-017-4972-z",TRUE,"Springer Nature","European Radiology","0938-7994","0938-7994","1432-1084","0938-7994","http://creativecommons.org/licenses/by/4.0",TRUE,"28956113","PMC5811587","ut:000424997600025",NA,FALSE
 "Wellcome Trust",2018,2590.42,"10.1186/s13058-017-0908-4",FALSE,"Springer Nature","Breast Cancer Research","1465-542X",NA,"1465-542X","1465-5411",NA,TRUE,"29162146","PMC5698948","ut:000416042100001",NA,TRUE
-"Wellcome Trust",2018,1358.95,"10.1186/s40658-017-0190-7",FALSE,"Springer Nature","EJNMMI Physics","2197-7364",NA,"2197-7364","2197-7364","http://creativecommons.org/licenses/by/4.0",TRUE,"28924696","PMC5603471","ut:000411036800002",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2240.32,"10.1016/j.ijrobp.2017.10.016",TRUE,"Elsevier BV","International Journal of Radiation Oncology*Biology*Physics","0360-3016","0360-3016",NA,"0360-3016","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29229323","PMC5777665","ut:000423097500010",NA,FALSE
 "Wellcome Trust",2018,2639.02,"10.1007/s00330-017-5083-6",TRUE,"Springer Nature","European Radiology","0938-7994","0938-7994","1432-1084","0938-7994","http://creativecommons.org/licenses/by/4.0",TRUE,"29038934","PMC5834566","ut:000426645600033",NA,FALSE
 "Wellcome Trust",2018,4272.16,"10.1038/s41467-017-01864-y",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"29192207","PMC5709387","ut:000416895400007",NA,TRUE
@@ -1894,14 +1894,14 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2898.96,"10.1002/humu.23615",TRUE,"Wiley-Blackwell","Human Mutation","1059-7794",NA,NA,"1059-7794","http://creativecommons.org/licenses/by/4.0/",TRUE,"30129167","PMC6282708","ut:000451204000001",NA,FALSE
 "Wellcome Trust",2018,4294.5,"10.1001/jamaophthalmol.2018.1248",TRUE,"American Medical Association (AMA)","JAMA Ophthalmology","2168-6165","2168-6165",NA,"2168-6165",NA,TRUE,"29800941","PMC6542654","ut:000435359100021",NA,FALSE
 "Wellcome Trust",2018,3091.82,"10.1111/jcpp.12849",TRUE,"Wiley-Blackwell","Journal of Child Psychology and Psychiatry","0021-9630",NA,NA,"0021-9630","http://creativecommons.org/licenses/by/4.0/",TRUE,"29197107","PMC6001631","ut:000433335100007",NA,FALSE
-"Wellcome Trust",2018,1925.86,"10.1093/nar/gkx1042",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"29121237","PMC5753192","ut:000419550700156",NA,TRUE
-"Wellcome Trust",2018,2468.42,"10.18632/aging.101305",FALSE,"Impact Journals, LLC","Aging","1945-4589",NA,"1945-4589","1945-4589",NA,TRUE,"29064820","PMC5680559","ut:000414179600014",NA,FALSE
-"Wellcome Trust",2018,1983.5,"10.1136/annrheumdis-2017-212141",TRUE,"BMJ","Annals of the Rheumatic Diseases","0003-4967","0003-4967","1468-2060","0003-4967",NA,TRUE,"29084729","PMC5816738","ut:000423879600018",NA,FALSE
-"Wellcome Trust",2018,3115.28,"10.1093/cid/cix903",TRUE,"Oxford University Press (OUP)","Clinical Infectious Diseases","1058-4838","1058-4838","1537-6591","1058-4838","http://creativecommons.org/licenses/by/4.0/",TRUE,"29045699","PMC5850564","ut:000426819800008",NA,FALSE
-"Wellcome Trust",2018,2481.92,"10.1186/s13073-017-0480-7",FALSE,"Springer Nature","Genome Medicine","1756-994X",NA,"1756-994X","1756-994X",NA,TRUE,"29084588","PMC5663059","ut:000413969100001",NA,TRUE
-"Wellcome Trust",2018,1505.43,"10.1038/s41598-017-14650-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29089527","PMC5663855","ut:000414231000044",NA,TRUE
-"Wellcome Trust",2018,2039.57,"10.1534/genetics.117.300119",TRUE,"Genetics Society of America","Genetics","0016-6731","0016-6731","1943-2631","0016-6731",NA,TRUE,"28951527","PMC5676223","ut:000414265000015",NA,FALSE
-"Wellcome Trust",2018,2911.04,"10.18632/oncotarget.22292",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"29262536","PMC5732702","ut:000419562500019",NA,FALSE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2712.48,"10.1093/jac/dkx507",TRUE,"Oxford University Press (OUP)","Journal of Antimicrobial Chemotherapy","0305-7453","0305-7453","1460-2091","0305-7453","http://creativecommons.org/licenses/by/4.0/",TRUE,"29309634","PMC5890695","ut:000429019600024",NA,FALSE
 "Wellcome Trust",2018,3797.47,"10.1038/s41388-017-0092-0",TRUE,"Springer Nature","Oncogene","0950-9232","0950-9232","1476-5594","0950-9232","http://creativecommons.org/licenses/by/4.0",TRUE,"29429988","PMC5916918","ut:000431100200009",NA,FALSE
 "Wellcome Trust",2018,1501.61,"10.1371/journal.pone.0190256",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29287122","PMC5747462","ut:000419096600038",NA,TRUE
@@ -1962,7 +1962,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,2542.95,"10.1093/femspd/ftx050",TRUE,"Oxford University Press (OUP)","Pathogens and Disease","2049-632X",NA,"2049-632X","2049-632X",NA,TRUE,"28472466","PMC5808645","ut:000407245300011",NA,FALSE
 "Wellcome Trust",2018,2712.48,"10.1038/bjc.2017.295",TRUE,"Springer Nature","British Journal of Cancer","0007-0920","0007-0920","1532-1827","0007-0920","https://creativecommons.org/licenses/by/4.0",TRUE,"28859056","PMC5672924","ut:000413527300017",NA,FALSE
 "Wellcome Trust",2018,1490.51,"10.2147/clep.s146757",FALSE,"Informa UK Limited","Clinical Epidemiology","1179-1349",NA,"1179-1349","1179-1349","http://creativecommons.org/licenses/by/4.0/",TRUE,"29430198","PMC5796801","ut:000423554600001",NA,TRUE
-"Wellcome Trust",2018,2751.52,"10.1007/s11136-017-1649-7",TRUE,"Springer Nature","Quality of Life Research","0962-9343","0962-9343","1573-2649","0962-9343","http://creativecommons.org/licenses/by/4.0",TRUE,"28712003","PMC5681970","ut:000415280000024",NA,FALSE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,1373.19,"10.1136/bmjopen-2017-018153",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"29150471","PMC5701996","ut:000422898800174",NA,TRUE
 "Wellcome Trust",2018,1017.18,"10.1136/bmjopen-2017-016604",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"29197834","PMC5719321","ut:000423826700030",NA,TRUE
 "Wellcome Trust",2018,1925.86,"10.1186/s12888-017-1516-7",FALSE,"Springer Nature","BMC Psychiatry","1471-244X",NA,"1471-244X","1471-244X",NA,TRUE,"29084529","PMC5661919","ut:000414179900001",NA,TRUE
@@ -2078,7 +2078,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,1989.14,"10.1016/j.epidem.2018.05.008",FALSE,"Elsevier BV","Epidemics","1755-4365","1755-4365",NA,"1878-0067","http://creativecommons.org/licenses/by/4.0/",TRUE,"30054196","PMC6227246","ut:000449741100009",NA,TRUE
 "Wellcome Trust",2018,4068.72,"10.1136/bmjgh-2018-000809",FALSE,"BMJ","BMJ Global Health","2059-7908",NA,"2059-7908","2059-7908",NA,TRUE,"30057798","PMC6058168","ut:000446081800014",NA,TRUE
 "Wellcome Trust",2018,2536.17,"10.1017/gheg.2018.11",FALSE,"Cambridge University Press (CUP)","Global Health, Epidemiology and Genomics","2054-4200",NA,"2054-4200","2054-4200","http://creativecommons.org/licenses/by/4.0/",TRUE,"30263137","PMC6152489","ut:000436810400001",NA,TRUE
-"Wellcome Trust",2018,3575.52,"10.1016/s2542-5196(17)30001-3",FALSE,"Elsevier BV","The Lancet Planetary Health","2542-5196","2542-5196",NA,"2542-5196","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2018,3062.39,"10.1093/ije/dyy146",TRUE,"Oxford University Press (OUP)","International Journal of Epidemiology","0300-5771","0300-5771","1464-3685","0300-5771","http://creativecommons.org/licenses/by/4.0/",TRUE,"30085113","PMC6208271","ut:000450177900033",NA,FALSE
 "Wellcome Trust",2018,1830.92,"10.1136/bmjopen-2018-022768",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30056393","PMC6067400","ut:000446181900217",NA,TRUE
 "Wellcome Trust",2018,4068.72,"10.1136/bmjgh-2017-000695",FALSE,"BMJ","BMJ Global Health","2059-7908",NA,"2059-7908","2059-7908",NA,TRUE,"29988988","PMC6035508","ut:000441508100007",NA,TRUE
