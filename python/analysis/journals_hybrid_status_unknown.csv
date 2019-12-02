@@ -1,4 +1,4 @@
-publisher,journal_full_title,issn,count,is_hybrid
+ï»¿publisher,journal_full_title,issn,count,is_hybrid
 BMJ,BMJ,1756-1833,17,TRUE
 Wiley-Blackwell,Area,0004-0894,10,TRUE
 Elsevier BV,Political Geography,0962-6298,10,TRUE
@@ -178,7 +178,7 @@ IOP Publishing,Journal of Micromechanics and Microengineering,0960-1317,2,TRUE
 BioScientifica,Journal of Molecular Endocrinology,0952-5041,2,NA
 SPIE-Intl Soc Optical Eng,Journal of Nanophotonics,1934-2608,2,TRUE
 Cambridge University Press (CUP),Journal of Navigation,0373-4633,2,TRUE
-Wiley-Blackwell,Journal of Orthopaedic Research®,0736-0266,2,TRUE
+Wiley-Blackwell,Journal of Orthopaedic ResearchÂ®,0736-0266,2,TRUE
 American Psychological Association (APA),Journal of Personality and Social Psychology,1939-1315,2,NA
 IOP Publishing,Journal of Physics G: Nuclear and Particle Physics,0954-3899,2,TRUE
 Elsevier BV,Journal of Physics and Chemistry of Solids,0022-3697,2,TRUE
@@ -443,8 +443,8 @@ Cambridge University Press (CUP),Business History Review,0007-6805,1,NA
 Ovid Technologies (Wolters Kluwer Health),CIN: Computers, Informatics, Nursing,1538-2931,1,NA
 Cambridge University Press (CUP),CNS Spectrums,1092-8529,1,NA
 Informa UK Limited,Cambridge Review of International Affairs,0955-7571,1,NA
-Informa UK Limited,Canadian Journal of African Studies / Revue canadienne des études africaines,0008-3968,1,NA
-Informa UK Limited,Canadian Journal of Development Studies/Revue canadienne d'études du développement,0225-5189,1,NA
+Informa UK Limited,Canadian Journal of African Studies / Revue canadienne des Ã©tudes africaines,0008-3968,1,NA
+Informa UK Limited,Canadian Journal of Development Studies/Revue canadienne d'Ã©tudes du dÃ©veloppement,0225-5189,1,NA
 Canadian Science Publishing,Canadian Journal of Fisheries and Aquatic Sciences,0706-652X,1,NA
 Elsevier BV,Canadian Journal of Ophthalmology,0008-4182,1,NA
 Cambridge University Press (CUP),Canadian Journal of Political Science,0008-4239,1,NA
@@ -616,7 +616,7 @@ Wiley-Blackwell,Environmental Policy and Governance,1756-932X,1,NA
 Cambridge University Press (CUP),Ergodic Theory and Dynamical Systems,0143-3857,1,NA
 Informa UK Limited,Ergonomics,0014-0139,1,NA
 Oxford University Press (OUP),Essays in Criticism,0014-0856,1,NA
-Informa UK Limited,Estudios de Psicología,0210-9395,1,NA
+Informa UK Limited,Estudios de PsicologÃ­a,0210-9395,1,NA
 SAGE Publications,Ethnography,1466-1381,1,NA
 Informa UK Limited,Ethnomusicology Forum,1741-1912,1,NA
 Informa UK Limited,Eurasian Geography and Economics,1538-7216,1,NA
@@ -840,13 +840,13 @@ Oxford University Press (OUP),International Studies Review,1521-9488,1,NA
 Informa UK Limited,International Studies in the Philosophy of Science,0269-8595,1,NA
 Cambridge University Press (CUP),International and Comparative Law Quarterly,0020-5893,1,NA
 Informa UK Limited,Interventions,1369-801X,1,NA
-Informa UK Limited,Islam and Christian–Muslim Relations,0959-6410,1,NA
+Informa UK Limited,Islam and Christianâ€“Muslim Relations,0959-6410,1,NA
 American Medical Association (AMA),JAMA Cardiology,2380-6583,1,NA
 American Medical Association (AMA),JAMA Neurology,2168-6149,1,NA
 JMIR Publications Inc.,JMIR Cancer,2369-1999,1,NA
 Wiley-Blackwell,JOR Spine,2572-1143,1,NA
 Vilnius Gediminas Technical University,JOURNAL OF CIVIL ENGINEERING AND MANAGEMENT,1392-3730,1,NA
-Elsevier BV,Journal de Mathématiques Pures et Appliquées,0021-7824,1,NA
+Elsevier BV,Journal de MathÃ©matiques Pures et AppliquÃ©es,0021-7824,1,NA
 Informa UK Limited,Journal for Cultural Research,1479-7585,1,NA
 Human Kinetics,Journal for the Measurement of Physical Behaviour,2575-6605,1,NA
 SAGE Publications,Journal for the Study of the New Testament,0142-064X,1,NA
@@ -1064,7 +1064,7 @@ Cambridge University Press (CUP),Language and Cognition,1866-9808,1,NA
 Wiley-Blackwell,Language and Linguistics Compass,1749-818X,1,NA
 Cambridge University Press (CUP),Laser and Particle Beams,0263-0346,1,NA
 Wiley-Blackwell,Law & Social Inquiry,0897-6546,1,NA
-Brepols Publishers NV,Le Moyen Français,0226-0174,1,NA
+Brepols Publishers NV,Le Moyen FranÃ§ais,0226-0174,1,NA
 SAGE Publications,Leadership,1742-7150,1,NA
 Elsevier BV,Learning, Culture and Social Interaction,2210-6561,1,NA
 Informa UK Limited,Learning, Media and Technology,1743-9884,1,NA
@@ -1272,7 +1272,7 @@ Informa UK Limited,Review of International Political Economy,0969-2290,1,NA
 Wiley-Blackwell,Reviews in Aquaculture,1753-5123,1,NA
 Walter de Gruyter GmbH,Reviews in the Neurosciences,2191-0200,1,NA
 American Physical Society (APS),Reviews of Modern Physics,0034-6861,1,NA
-Brepols Publishers NV,Revue Bénédictine,0035-0893,1,NA
+Brepols Publishers NV,Revue BÃ©nÃ©dictine,0035-0893,1,NA
 Springer Nature,Robotics and Biomimetics,2197-3768,1,NA
 Wiley-Blackwell,Rural Sociology,0036-0112,1,NA
 Informa UK Limited,Russian Journal of Communication,1940-9419,1,NA
@@ -1436,7 +1436,7 @@ SAGE Publications,Written Communication,0741-0883,1,NA
 SAGE Publications,YOUNG,1103-3088,1,NA
 Informa UK Limited,Youth Theatre Journal,0892-9092,1,NA
 Wiley-Blackwell,Zoo Biology,0733-3188,1,NA
-Wiley-Blackwell,Zygon®,0591-2385,1,NA
+Wiley-Blackwell,ZygonÂ®,0591-2385,1,NA
 Elsevier BV,iScience,2589-0042,1,NA
 Springer Nature,npj Digital Medicine,2398-6352,1,NA
 Springer Nature,npj Science of Food,2396-8370,1,NA
