@@ -8,7 +8,7 @@
 "Charles University",2016,255.64,"10.5114/pjp.2016.63782",FALSE,"Termedia Sp. z.o.o.","Polish Journal of Pathology","1233-9687","1233-9687",NA,"1233-9687",NA,TRUE,"28155979",NA,"ut:000389170800014",NA,TRUE
 "Charles University",2016,2163.61,"10.4172/2168-9431.1000139",FALSE,"OMICS Publishing Group","Single Cell Biology","2168-9431",NA,"2168-9431","2168-9431",NA,TRUE,NA,NA,NA,NA,FALSE
 "Charles University",2016,560.88,"10.4172/2167-0420.1000e121",FALSE,"OMICS Publishing Group","Journal of Women's Health Care","2167-0420",NA,"2167-0420","2167-0420",NA,TRUE,NA,NA,NA,NA,FALSE
-"Charles University",2016,490.88,"10.4103/0973-1296.204558",TRUE,"Medknow","Pharmacognosy Magazine","0973-1296","0973-1296",NA,"0973-1296",NA,TRUE,"28539718","PMC5421423","ut:000406871700011",NA,FALSE
+"Charles University",2016,490.88,"10.4103/0973-1296.204558",FALSE,"Medknow","Pharmacognosy Magazine","0973-1296","0973-1296",NA,"0973-1296",NA,TRUE,"28539718","PMC5421423","ut:000406871700011",NA,FALSE
 "Charles University",2016,326.7,"10.3897/zookeys.619.8145",FALSE,"Pensoft Publishers","ZooKeys","1313-2970","1313-2989","1313-2970","1313-2970","http://creativecommons.org/licenses/by/4.0/",TRUE,"27829788","PMC5090161","ut:000385363300003",NA,TRUE
 "Charles University",2016,1124.26,"10.3897/zookeys.577.7301",FALSE,"Pensoft Publishers","ZooKeys","1313-2970","1313-2989","1313-2970","1313-2970","http://creativecommons.org/licenses/by/4.0/",TRUE,"27110190","PMC4829885","ut:000373371500005",NA,TRUE
 "Charles University",2016,467.33,"10.3897/phytokeys.75.9780",FALSE,"Pensoft Publishers","PhytoKeys","1314-2003","1314-2011","1314-2003","1314-2003","http://creativecommons.org/licenses/by/4.0/",TRUE,"28127245","PMC5234538","ut:000397907700002",NA,TRUE
@@ -305,7 +305,7 @@
 "Charles University",2017,1427.09,NA,FALSE,"Medical Science International","Archives of Budo","1643-8698",NA,NA,"1643-8698",NA,FALSE,NA,NA,NA,"http://files.4medicine.pl/download.php?cfs_id=2089",FALSE
 "Charles University",2017,305.76,NA,FALSE,"Mediterranean Council for Burns and Fire Disasters","Annals of Burns and Fire Disasters","1592-9558",NA,NA,"1592-9558",NA,FALSE,NA,NA,NA,"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446910/",FALSE
 "Charles University",2017,306.45,NA,FALSE,"Polskie Towarzystwo Farmaceutyczne","Acta Poloniae Pharmaceutica","2353-5288",NA,NA,"0001-6837",NA,FALSE,NA,NA,NA,"https://www.ptfarm.pl/wydawnictwa/czasopisma/acta-poloniae-pharmaceutica/110/-/27111",FALSE
-"Charles University",2017,842.73,NA,FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","0862-8408  ",NA,NA,NA,NA,FALSE,NA,NA,NA,"http://www.biomed.cas.cz/physiolres/pdf/66/66_833.pdf",FALSE
+"Charles University",2017,842.73,NA,FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","0862-8408",NA,NA,"0862-8408",NA,FALSE,NA,NA,NA,"http://www.biomed.cas.cz/physiolres/pdf/66/66_833.pdf",FALSE
 "Charles University",2017,646.14,NA,FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","0862-8408",NA,NA,"0862-8408",NA,FALSE,NA,NA,NA,"http://www.biomed.cas.cz/physiolres/pdf/66/66_959.pdf",TRUE
 "Charles University",2017,433.96,NA,FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","0862-8408",NA,NA,"0862-8408",NA,FALSE,NA,NA,NA,"http://www.biomed.cas.cz/physiolres/pdf/66/66_987.pdf",TRUE
 "Charles University",2017,629.16,NA,FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973",NA,NA,"0862-8408",NA,FALSE,NA,NA,NA,"http://www.biomed.cas.cz/physiolres/pdf/66/66_653.pdf",TRUE
