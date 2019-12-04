@@ -205,7 +205,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1366-9516", # Diversity and Distributions, Gold OA since 2019
     "1438-387X", # Helgoland Marine Research, Gold OA since 2016
     "1933-6950", # Channels
-    "0264-1275" # Materials & Design, Gold OA since 2019
+    "0264-1275", # Materials & Design, Gold OA since 2019
+    "1934-8630", # Biointerphases. Seems to have flipped to hybrid after moving from Springer to AVS in 2013
+    "1559-4106" # Biointerphases (electronic)
 ]
 
 class RowObject(object):
