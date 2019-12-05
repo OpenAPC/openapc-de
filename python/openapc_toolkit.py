@@ -1046,7 +1046,8 @@ def get_unified_publisher_name(publisher):
         "Horizon Research Publishing Co., Ltd.": "Horizon Research Publishing",
         "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften",
         "Element d.o.o.": "Ele-Math",
-        "Element": "Ele-Math"
+        "Element": "Ele-Math",
+        "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca"
     }
     return publisher_mappings.get(publisher, publisher)
 
