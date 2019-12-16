@@ -261,7 +261,7 @@ def calculate_euro_value(line, jisc_format):
             _print("g", msg)
         else:
             year = line["period"]
-            if int(year) >= datetime.datetime.now().year:
+            if int(year) > datetime.datetime.now().year:
                 del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
                 delete_line(line, del_msg)
                 return
