@@ -58,6 +58,22 @@ FIELDNAMES = {
         "period",
         "is_hybrid",
         "euro"
+    ],
+    "2018": [
+        "Institution",
+        "Date of acceptance",
+        "PubMed ID",
+        "DOI",
+        "Publisher",
+        "Journal",
+        "Type of publication",
+        "Article title",
+        "Date of publication",
+        "Date of APC payment",
+        "APC paid (£) including VAT if charged",
+        "period",
+        "is_hybrid",
+        "euro"
     ]
 }
 
@@ -70,7 +86,17 @@ PUBLICATION_TYPES_BL = [
     "Monograph"
 ]
 
-DATE_DAY_RE = re.compile("(?P<year>[0-9]{4})-?(?P<month>[0-9]{2})?-?(?P<day>[0-9]{2})?")
+DATE_DAY_RE = {
+    "2014_16": re.compile("(?P<year>[0-9]{4})-?(?P<month>[0-9]{2})?-?(?P<day>[0-9]{2})?"),
+    "2017": re.compile("(?P<year>[0-9]{4})-?(?P<month>[0-9]{2})?-?(?P<day>[0-9]{2})?"),
+    "2018": re.compile("(?P<month>[0-9]{1,2})/(?P<day>[0-9]{1,2})/(?P<year>[0-9]{4})")
+}
+
+DATE_STRPTIME = {
+    "2014_16": "%Y-%m-%d",
+    "2017": "%Y-%m-%d",
+    "2018": "%m/%d/%Y"
+}
 
 PERIOD_FIELD_SOURCE = {
     "2014_16": [
@@ -83,6 +109,11 @@ PERIOD_FIELD_SOURCE = {
         "Date of APC payment",
         "Period of APC payment",
         "TCO year"
+    ],
+    "2018": [
+        "Date of APC payment",
+        "Date of publication",
+        "Date of acceptance"
     ]
 }
 
@@ -139,7 +170,7 @@ def _print(color, s):
         print(s)
         
 
-def get_exchange_rate(currency, frequency, date):
+def get_exchange_rate(currency, frequency, date, jisc_format):
     if currency not in EXCHANGE_RATES_CACHE:
         EXCHANGE_RATES_CACHE[currency] = {}
     if frequency not in EXCHANGE_RATES_CACHE[currency]:
@@ -160,7 +191,7 @@ def get_exchange_rate(currency, frequency, date):
     if frequency == "D":
         # The ECB does not report exchange rate for all dates due to weekends/holidays. We have
         # consider some days in advance to find the next possible data in some cases.
-        day = datetime.datetime.strptime(date, "%Y-%m-%d")
+        day = datetime.datetime.strptime(date, DATE_STRPTIME[jisc_format])
         for i in range(6):
             future_day = day + datetime.timedelta(days=i)
             search_day = future_day.strftime("%Y-%m-%d")
@@ -177,8 +208,8 @@ def get_exchange_rate(currency, frequency, date):
         
 def calculate_euro_value(line, jisc_format):
     payment_date = line["Date of APC payment"]
-    date_match = DATE_DAY_RE.match(payment_date)
-    if jisc_format == "2017":
+    date_match = DATE_DAY_RE[jisc_format].match(payment_date)
+    if jisc_format in ["2017", "2018"]:
         apc_pound = line["APC paid (£) including VAT if charged"]
         field_used_for_pound_value = "APC paid (£) including VAT if charged"
     elif jisc_format == "2014_16":
@@ -198,7 +229,7 @@ def calculate_euro_value(line, jisc_format):
                 _print("g", msg.format(apc_orig))
             elif len(currency) == 3:
                 if date_match and is_valid_date(date_match):
-                    rate = get_exchange_rate(currency, "D", payment_date)
+                    rate = get_exchange_rate(currency, "D", payment_date, jisc_format)
                     euro_value = round(float(apc_orig) / float(rate), 2)
                     line["euro"] = str(euro_value)
                     msg = "   - Created euro field ('{}') by dividing the value in 'APC paid (actual currency) including VAT if charged' ({}) by {} (EUR -> {} conversion rate on {}) [ECB]"
@@ -211,7 +242,7 @@ def calculate_euro_value(line, jisc_format):
                         delete_line(line, del_msg)
                         return
                     try:
-                        rate = get_exchange_rate(currency, "A", year)
+                        rate = get_exchange_rate(currency, "A", year, jisc_format)
                     except KeyError:
                         _print("r", "KeyError: An average yearly conversion rate is missing (" + currency + ", " + year + ")")
                         shutdown()
@@ -222,7 +253,7 @@ def calculate_euro_value(line, jisc_format):
                     _print("g", msg)
     if line["euro"] == "" and is_money_value(apc_pound):
         if date_match and is_valid_date(date_match):
-            rate = get_exchange_rate("GBP", "D", payment_date)
+            rate = get_exchange_rate("GBP", "D", payment_date, jisc_format)
             euro_value = round(float(apc_pound) / float(rate), 2)
             line["euro"] = str(euro_value)
             msg = "   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (EUR -> GBP conversion rate on {}) [ECB]"
@@ -235,7 +266,7 @@ def calculate_euro_value(line, jisc_format):
                 delete_line(line, del_msg)
                 return
             try:
-                rate = get_exchange_rate("GBP", "A", year)
+                rate = get_exchange_rate("GBP", "A", year, jisc_format)
             except KeyError:
                 _print("r", "KeyError: An average yearly conversion rate is missing (GBP, " + year + ")")
                 shutdown()
@@ -286,7 +317,7 @@ def main():
             modified_content.append(line_as_list(line))
             continue
         # Drop checking
-        if line["Drop?"] == "1":
+        if "Drop?" in FIELDNAMES[FORMAT] and line["Drop?"] == "1":
             delete_line(line, "Drop mark found")
             modified_content.append(line_as_list(line))
             continue
@@ -299,7 +330,7 @@ def main():
         # period field generation
         for source_field in PERIOD_FIELD_SOURCE[FORMAT]:
             content = line[source_field].strip()
-            match = DATE_DAY_RE.match(content)
+            match = DATE_DAY_RE[FORMAT].match(content)
             if match:
                 year = match.groupdict()["year"]
                 if int(year) > datetime.datetime.now().year:
@@ -309,8 +340,9 @@ def main():
                 _print("g", msg)
                 break
         else:
-            _print("r", "ERROR: period column could not be created for line:\n" + str(line))
-            shutdown()
+            delete_line(line, "Unable to determine payment date for period column")
+            modified_content.append(line_as_list(line))
+            continue
         # euro field generation
         calculate_euro_value(line, FORMAT)
         modified_content.append(line_as_list(line))
