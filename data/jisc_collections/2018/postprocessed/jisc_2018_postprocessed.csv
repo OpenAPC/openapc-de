@@ -3452,7 +3452,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2019,1041.22,"10.1049/htl.2018.5034",TRUE,"Institution of Engineering and Technology (IET)","Healthcare Technology Letters","2053-3713",NA,"2053-3713","2053-3713",NA,TRUE,"31119037","PMC6498402",NA,NA,TRUE
+"UCL",2019,1041.22,"10.1049/htl.2018.5034",FALSE,"Institution of Engineering and Technology (IET)","Healthcare Technology Letters","2053-3713",NA,"2053-3713","2053-3713",NA,TRUE,"31119037","PMC6498402",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2018,1547.57,"10.1038/s41598-018-36721-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30659226","PMC6338786",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -4559,7 +4559,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1829.53,"10.1016/j.jeconom.2018.06.016",TRUE,"Elsevier BV","Journal of Econometrics","0304-4076","0304-4076",NA,"0304-4076","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of York",2018,3663.14,"10.5194/acp-18-9297-2018",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of York",2018,2403.94,"10.5194/acp-18-9329-2018",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Oxford",2018,1053.4,"10.1049/htl.2018.5019",TRUE,"Institution of Engineering and Technology (IET)","Healthcare Technology Letters","2053-3713",NA,"2053-3713","2053-3713",NA,TRUE,"30881695","PMC6407448",NA,NA,TRUE
+"University of Oxford",2018,1053.4,"10.1049/htl.2018.5019",FALSE,"Institution of Engineering and Technology (IET)","Healthcare Technology Letters","2053-3713",NA,"2053-3713","2053-3713",NA,TRUE,"30881695","PMC6407448",NA,NA,TRUE
 "University of Strathclyde",2018,1154.81,"10.3390/app8122676",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2018,2713.6,"10.3389/fnins.2018.00245",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X","1662-453X","https://creativecommons.org/licenses/by/4.0/",TRUE,"29887794","PMC5981095",NA,NA,TRUE
