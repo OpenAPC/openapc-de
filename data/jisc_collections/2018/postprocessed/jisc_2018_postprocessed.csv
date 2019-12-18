@@ -99,7 +99,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Queen's University Belfast",2018,1304.03,"10.1186/s12909-018-1291-2",FALSE,"Springer Nature","BMC Medical Education","1472-6920",NA,"1472-6920","1472-6920","http://creativecommons.org/licenses/by/4.0/",TRUE,"30107801","PMC6092812",NA,NA,TRUE
 "University of Birmingham",2018,606.3,"10.1080/04353684.2018.1481725",NA,"Informa UK Limited","Geografiska Annaler: Series B, Human Geography","0435-3684","0435-3684","1468-0467","0435-3684","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "University of Cambridge",2018,271.28,"10.5334/joh.8",FALSE,"Ubiquity Press, Ltd.","Journal of Open Hardware","2514-1708",NA,"2514-1708","2514-1708","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
-"University of York",2018,1923.6,"10.1167/iovs.17-23692",NA,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by/4.0/",TRUE,"30193309",NA,NA,NA,FALSE
+"University of York",2018,1923.6,"10.1167/iovs.17-23692",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by/4.0/",TRUE,"30193309",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Strathclyde",2019,2322.02,"10.1364/oe.27.010296",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"31045173",NA,NA,NA,TRUE
 "University of Birmingham",2018,4389.72,"10.1016/j.jaut.2018.05.010",TRUE,"Elsevier BV","Journal of Autoimmunity","0896-8411","0896-8411",NA,"0896-8411","http://creativecommons.org/licenses/by/4.0/",TRUE,"29891135","PMC6066611",NA,NA,FALSE
@@ -167,7 +167,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,2934.04,"10.1093/ije/dyy107",TRUE,"Oxford University Press (OUP)","International Journal of Epidemiology","0300-5771","0300-5771","1464-3685","0300-5771","http://creativecommons.org/licenses/by/4.0/",TRUE,"29912384","PMC6208282",NA,NA,FALSE
 "University of Newcastle",2018,2040.26,"10.1371/journal.pone.0195484",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29649240","PMC5896950",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2018,1152.93,"10.1680/jgere.18.00027",NA,"Thomas Telford Ltd.","Geotechnical Research","2052-6156",NA,"2052-6156","2052-6156",NA,TRUE,NA,NA,NA,NA,TRUE
+"University of Cambridge",2018,1152.93,"10.1680/jgere.18.00027",FALSE,"Thomas Telford Ltd.","Geotechnical Research","2052-6156",NA,"2052-6156","2052-6156",NA,TRUE,NA,NA,NA,NA,TRUE
 "UCL",2018,1234.55,"10.3390/en11040802",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Nottingham",2018,2874.13,"10.1016/j.buildenv.2018.10.005",TRUE,"Elsevier BV","Building and Environment","0360-1323","0360-1323",NA,"0360-1323","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Cambridge",2018,2514.88,"10.1371/journal.pcbi.1006516",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","1553-734X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30481170","PMC6258510",NA,NA,TRUE
@@ -342,7 +342,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2018,1710.77,"10.1111/area.12507",TRUE,"Wiley-Blackwell","Area","0004-0894","0004-0894","1475-4762","0004-0894","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Oxford",2018,1095.01,"10.1088/1367-2630/aad8df",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of St Andrews",2019,909.86,"10.1098/rsos.181735",FALSE,"The Royal Society","Royal Society Open Science","2054-5703","2054-5703","2054-5703","2054-5703",NA,TRUE,"30891285","PMC6408396",NA,NA,TRUE
-"Queen Mary, University of London",2018,1285.03,"10.1002/lrh2.10189",NA,"Wiley-Blackwell","Learning Health Systems","2379-6146","2379-6146","2379-6146","2379-6146","http://creativecommons.org/licenses/by/4.0/",TRUE,"31641685","PMC6802533",NA,NA,TRUE
+"Queen Mary, University of London",2018,1285.03,"10.1002/lrh2.10189",FALSE,"Wiley-Blackwell","Learning Health Systems","2379-6146","2379-6146","2379-6146","2379-6146","http://creativecommons.org/licenses/by/4.0/",TRUE,"31641685","PMC6802533",NA,NA,TRUE
 "Heriot-Watt University",2018,1340.59,"10.3390/w10091247",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -374,7 +374,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Nottingham",2018,2704.29,"10.1111/mec.14772",TRUE,"Wiley-Blackwell","Molecular Ecology","0962-1083",NA,NA,"0962-1083","http://creativecommons.org/licenses/by/4.0/",TRUE,"29924437","PMC6221044",NA,NA,FALSE
 "University of Oxford",2019,4871.58,"10.1038/s41467-019-08993-6",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"30833571","PMC6399342",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Cardiff University",2019,1643.36,"10.1167/iovs.18-25597",NA,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30721303","PMC6363377",NA,NA,FALSE
+"Cardiff University",2019,1643.36,"10.1167/iovs.18-25597",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30721303","PMC6363377",NA,NA,FALSE
 "University of Dundee",2018,1682.27,"10.1111/aos.13769",TRUE,"Wiley-Blackwell","Acta Ophthalmologica","1755-375X",NA,NA,"1755-375X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30178632","PMC6263819",NA,NA,FALSE
 "University of Edinburgh",2018,1876.55,"10.1534/g3.118.200063",FALSE,"Genetics Society of America","G3: Genes|Genomes|Genetics","2160-1836",NA,"2160-1836","2160-1836",NA,TRUE,"29764960","PMC6027875",NA,NA,TRUE
 "University of Oxford",2018,952.67,"10.1099/mgen.0.000222",NA,"Microbiology Society","Microbial Genomics","2057-5858",NA,"2057-5858","2057-5858",NA,TRUE,"30251949","PMC6321871",NA,NA,TRUE
@@ -608,7 +608,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2019,2159.17,"10.1155/2019/6041981",FALSE,"Hindawi Publishing Corporation","Complexity","1076-2787","1076-2787","1099-0526","1076-2787","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Manchester",2019,1675.77,"10.5194/gmd-11-3261-2018",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603","1991-959X","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "UCL",2019,2044.01,"10.1177/2041731419830264",FALSE,"SAGE Publications","Journal of Tissue Engineering","2041-7314","2041-7314","2041-7314","2041-7314","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"30858965","PMC6402060",NA,NA,TRUE
-"UCL",2018,2518.16,"10.1038/s41514-018-0025-3",NA,"Springer Nature","npj Aging and Mechanisms of Disease","2056-3973",NA,"2056-3973","2056-3973","https://creativecommons.org/licenses/by/4.0",TRUE,"29928508","PMC5998035",NA,NA,TRUE
+"UCL",2018,2518.16,"10.1038/s41514-018-0025-3",FALSE,"Springer Nature","npj Aging and Mechanisms of Disease","2056-3973",NA,"2056-3973","2056-3973","https://creativecommons.org/licenses/by/4.0",TRUE,"29928508","PMC5998035",NA,NA,TRUE
 "Heriot-Watt University",2018,2428.28,"10.1016/j.coastaleng.2017.09.006",TRUE,"Elsevier BV","Coastal Engineering","0378-3839","0378-3839",NA,"0378-3839","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "King's College London",2018,1023.17,"10.1186/s40478-018-0651-9",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960","2051-5960","http://creativecommons.org/licenses/by/4.0/",TRUE,"30606258","PMC6318896",NA,NA,TRUE
 "University of Manchester",2018,3916.94,"10.1111/pcmr.12741",TRUE,"Wiley-Blackwell","Pigment Cell & Melanoma Research","1755-1471","1755-1471","1755-148X","1755-1471","http://creativecommons.org/licenses/by/4.0/",TRUE,"30277012","PMC6392120",NA,NA,FALSE
@@ -930,7 +930,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2018,2048.71,"10.1152/ajprenal.00249.2018",TRUE,"American Physiological Society","AJP: Renal Physiology","1931-857X","1931-857X","1522-1466","1522-1466",NA,TRUE,"30110566","PMC6293301",NA,NA,FALSE
 "UCL",2018,2078.37,"10.1029/2018jb016255",TRUE,"American Geophysical Union (AGU)","Journal of Geophysical Research: Solid Earth","2169-9313",NA,NA,"2169-9313","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Oxford",2018,3448.91,"10.1038/s41398-018-0199-2",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","https://creativecommons.org/licenses/by/4.0",TRUE,"30108203","PMC6092338",NA,NA,TRUE
-"King's College London",2018,1880.67,"10.1093/ijnp/pyw045",NA,"Oxford University Press (OUP)","International Journal of Neuropsychopharmacology","1461-1457","1461-1457","1469-5111","1461-1457",NA,TRUE,"27207917","PMC5091822",NA,NA,TRUE
+"King's College London",2018,1880.67,"10.1093/ijnp/pyw045",FALSE,"Oxford University Press (OUP)","International Journal of Neuropsychopharmacology","1461-1457","1461-1457","1469-5111","1461-1457",NA,TRUE,"27207917","PMC5091822",NA,NA,TRUE
 "University of Oxford",2018,2186.13,"10.1186/s40168-018-0491-7",FALSE,"Springer Nature","Microbiome","2049-2618",NA,"2049-2618","2049-2618","http://creativecommons.org/licenses/by/4.0/",TRUE,"29921326","PMC6009823",NA,NA,TRUE
 "University of Edinburgh",2018,5368.21,"10.1016/s1474-4422(18)30253-9",TRUE,"Elsevier BV","The Lancet Neurology","1474-4422","1474-4422",NA,"1474-4422","http://creativecommons.org/licenses/by/4.0/",TRUE,"30120039",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -953,7 +953,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2019,2752.77,"10.3399/bjgp19x701309",TRUE,"Royal College of General Practitioners","British Journal of General Practice","0960-1643","0960-1643","1478-5242","0960-1643",NA,TRUE,"30745354","PMC6617541",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2018,686.73,"10.1039/c8ra03174f",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"UCL",2018,686.73,"10.1039/c8ra03174f",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Oxford",2019,516.47,"10.1177/2043808719837811",TRUE,"SAGE Publications","Journal of Experimental Psychopathology","2043-8087","2043-8087","2043-8087","2043-8087","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,TRUE
 "Imperial College London",2018,1701.36,"10.1098/rspa.2018.0080",TRUE,"The Royal Society","Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences","1364-5021","1364-5021","1471-2946","1364-5021",NA,TRUE,"30220867","PMC6127398",NA,NA,FALSE
 "Cardiff University",2019,1726.71,"10.1111/irj.12243",TRUE,"Wiley-Blackwell","Industrial Relations Journal","0019-8692","0019-8692","1468-2338","0019-8692","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -996,7 +996,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1749.61,"10.1371/journal.pone.0204057",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30240421","PMC6150489",NA,NA,TRUE
-"University of Birmingham",2019,1615.63,"10.1167/iovs.18-26449",NA,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31022296",NA,NA,NA,FALSE
+"University of Birmingham",2019,1615.63,"10.1167/iovs.18-26449",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31022296",NA,NA,NA,FALSE
 "University of Oxford",2018,3048.73,"10.3389/fimmu.2018.01419",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"29973940","PMC6019444",NA,NA,TRUE
 "Cardiff University",2018,1883.02,"10.1186/s40814-018-0275-7",FALSE,"Springer Nature","Pilot and Feasibility Studies","2055-5784",NA,"2055-5784","2055-5784","http://creativecommons.org/licenses/by/4.0/",TRUE,"29992037","PMC5994651",NA,NA,TRUE
 "Imperial College London",2019,5191.56,"10.1016/s1473-3099(18)30753-9",TRUE,"Elsevier BV","The Lancet Infectious Diseases","1473-3099","1473-3099",NA,"1473-3099","http://creativecommons.org/licenses/by/4.0/",TRUE,"30910427",NA,NA,NA,FALSE
@@ -1076,7 +1076,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Brunel University",2018,502.4,"10.3390/aerospace5030091",FALSE,"MDPI AG","Aerospace","2226-4310",NA,"2226-4310","2226-4310","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2018,4374.35,"10.1016/j.sbi.2018.07.010",TRUE,"Elsevier BV","Current Opinion in Structural Biology","0959-440X","0959-440X",NA,"0959-440X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30125772","PMC6302071",NA,NA,FALSE
-"Cardiff University",2018,684.31,"10.1039/c8ra03406k",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Cardiff University",2018,684.31,"10.1039/c8ra03406k",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Newcastle",2018,1992.74,"10.1042/ebc20170113",TRUE,"Portland Press Ltd.","Essays in Biochemistry","0071-1365","0071-1365","1744-1358","0071-1365","http://creativecommons.org/licenses/by/4.0/",TRUE,"29950320","PMC6056713",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2018,1997.7,"10.5194/gmd-11-4417-2018",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603","1991-959X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -1112,7 +1112,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1725.23,"10.1002/jbmr.3627",TRUE,"Wiley-Blackwell","Journal of Bone and Mineral Research","0884-0431","0884-0431","1523-4681","0884-0431","http://creativecommons.org/licenses/by/4.0/",TRUE,"30496618","PMC6446733",NA,NA,FALSE
 "University of Birmingham",2018,2090.32,"10.1371/journal.pcbi.1006304",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","1553-734X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29979685","PMC6051643",NA,NA,TRUE
 "University of Dundee",2018,3670.31,"10.1016/j.neurobiolaging.2018.05.007",TRUE,"Elsevier BV","Neurobiology of Aging","0197-4580","0197-4580",NA,"0197-4580","http://creativecommons.org/licenses/by/4.0/",TRUE,"29860205","PMC6075472",NA,NA,FALSE
-"King's College London",2018,1840.32,"10.1111/acel.12931",NA,"Wiley-Blackwell","Aging Cell","1474-9718","1474-9718","1474-9726","1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30854802","PMC6516154",NA,NA,TRUE
+"King's College London",2018,1840.32,"10.1111/acel.12931",FALSE,"Wiley-Blackwell","Aging Cell","1474-9718","1474-9718","1474-9726","1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30854802","PMC6516154",NA,NA,TRUE
 "University of Huddersfield",2018,3747.22,"10.1016/j.socscimed.2018.07.009",TRUE,"Elsevier BV","Social Science & Medicine","0277-9536","0277-9536",NA,"0277-9536","http://creativecommons.org/licenses/by/4.0/",TRUE,"30031982",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Birmingham",2019,1206.96,"10.1080/23311916.2019.1565630",FALSE,"Informa UK Limited","Cogent Engineering","2331-1916",NA,"2331-1916","2331-1916","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -1251,7 +1251,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1634.8,"10.1186/s40545-018-0147-9",FALSE,"Springer Nature","Journal of Pharmaceutical Policy and Practice","2052-3211",NA,"2052-3211","2052-3211","http://creativecommons.org/licenses/by/4.0/",TRUE,"30186611","PMC6120071",NA,NA,TRUE
-"King's College London",2018,2378.87,"10.1200/jgo.18.00045",NA,"American Society of Clinical Oncology (ASCO)","Journal of Global Oncology","2378-9506",NA,"2378-9506","2378-9506",NA,TRUE,"30084699","PMC6223507",NA,NA,TRUE
+"King's College London",2018,2378.87,"10.1200/jgo.18.00045",FALSE,"American Society of Clinical Oncology (ASCO)","Journal of Global Oncology","2378-9506",NA,"2378-9506","2378-9506",NA,TRUE,"30084699","PMC6223507",NA,NA,TRUE
 "University of Newcastle",2018,3255.12,"10.7554/elife.39304",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30674417","PMC6345566",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Manchester Metropolitan University",2018,2543.57,"10.1016/j.clnu.2018.11.007",TRUE,"Elsevier BV","Clinical Nutrition","0261-5614","0261-5614",NA,"0261-5614","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30502975",NA,NA,NA,FALSE
@@ -1296,7 +1296,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bath",2018,3143.31,"10.1021/jacs.8b08457",TRUE,"American Chemical Society (ACS)","Journal of the American Chemical Society","0002-7863","0002-7863","1520-5126","0002-7863","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"30277762",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2019,3327.23,"10.1242/jcs.226969",TRUE,"The Company of Biologists","Journal of Cell Science","0021-9533","0021-9533","1477-9137","0021-9533","http://creativecommons.org/licenses/by/4.0",TRUE,"30674555","PMC6451416",NA,NA,FALSE
-"Cardiff University",2019,1643.36,"10.1167/iovs.18-25092",NA,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30721275",NA,NA,NA,FALSE
+"Cardiff University",2019,1643.36,"10.1167/iovs.18-25092",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30721275",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2019,1878.58,"10.1016/j.rbms.2018.06.003",FALSE,"Elsevier BV","Reproductive Biomedicine & Society Online","2405-6618","2405-6618",NA,"2405-6618","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30186978","PMC6123060",NA,NA,TRUE
 "UCL",2018,1413.94,"10.3390/ijerph15112456",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","1660-4601","https://creativecommons.org/licenses/by/4.0/",TRUE,"30400368","PMC6266594",NA,NA,TRUE
@@ -1535,7 +1535,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2018,409.04,"10.5334/aa.164",NA,"Ubiquity Press, Ltd.","Ancient Asia","2042-5937",NA,"2042-5937","2042-5937",NA,TRUE,NA,NA,NA,NA,TRUE
+"UCL",2018,409.04,"10.5334/aa.164",FALSE,"Ubiquity Press, Ltd.","Ancient Asia","2042-5937",NA,"2042-5937","2042-5937",NA,TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,749.44,"10.5334/ai.354",FALSE,"Ubiquity Press, Ltd.","Archaeology International","2048-4194","1463-1725","2048-4194","1463-1725",NA,TRUE,NA,NA,NA,NA,TRUE
 "University of Manchester",2018,1599.73,"10.1038/s41598-018-26170-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"29785040","PMC5962585",NA,NA,TRUE
@@ -1637,13 +1637,13 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Newcastle",2019,4876.57,"10.1038/s41467-019-09331-6",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30944320","PMC6447573",NA,NA,TRUE
 "University of Cambridge",2018,1703.91,"10.1371/journal.pone.0207709",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30557368","PMC6296508",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Huddersfield",2019,478.69,"10.3390/pharmacy7010016",NA,"MDPI AG","Pharmacy","2226-4787",NA,"2226-4787","2226-4787","https://creativecommons.org/licenses/by/4.0/",TRUE,"30704103","PMC6473239",NA,NA,TRUE
+"University of Huddersfield",2019,478.69,"10.3390/pharmacy7010016",FALSE,"MDPI AG","Pharmacy","2226-4787",NA,"2226-4787","2226-4787","https://creativecommons.org/licenses/by/4.0/",TRUE,"30704103","PMC6473239",NA,NA,TRUE
 "University of Manchester",2018,2828.47,"10.1002/cpp.2301",NA,"Wiley-Blackwell","Clinical Psychology & Psychotherapy","1063-3995",NA,NA,"1063-3995","http://creativecommons.org/licenses/by/4.0/",TRUE,"29882228","PMC6221013",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2019,2176.55,"10.1109/jbhi.2019.2898273",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Journal of Biomedical and Health Informatics","2168-2194","2168-2194","2168-2208","2168-2194",NA,TRUE,"30951480",NA,NA,NA,FALSE
-"University of Loughborough",2018,1409.79,"10.1016/j.wri.2018.10.002",NA,"Elsevier BV","Water Resources and Industry","2212-3717","2212-3717",NA,"2212-3717","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Loughborough",2018,1409.79,"10.1016/j.wri.2018.10.002",FALSE,"Elsevier BV","Water Resources and Industry","2212-3717","2212-3717",NA,"2212-3717","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Imperial College London",2018,1656.79,"10.2147/hiv.s157685",NA,"Informa UK Limited","HIV/AIDS - Research and Palliative Care","1179-1373",NA,"1179-1373","1179-1373","http://creativecommons.org/licenses/by/4.0/",TRUE,"30538583","PMC6251355",NA,NA,TRUE
+"Imperial College London",2018,1656.79,"10.2147/hiv.s157685",FALSE,"Informa UK Limited","HIV/AIDS - Research and Palliative Care","1179-1373",NA,"1179-1373","1179-1373","http://creativecommons.org/licenses/by/4.0/",TRUE,"30538583","PMC6251355",NA,NA,TRUE
 "University of Edinburgh",2018,1507.17,"10.1186/s12711-018-0416-8",FALSE,"Springer Nature","Genetics Selection Evolution","1297-9686",NA,"1297-9686","0999-193X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30223768","PMC6142395",NA,NA,TRUE
 "University of Nottingham",2018,2134.32,"10.1111/jth.13773",TRUE,"Wiley-Blackwell","Journal of Thrombosis and Haemostasis","1538-7933",NA,NA,"1538-7836","http://creativecommons.org/licenses/by/4.0/",TRUE,"28688220","PMC5638086",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -1799,7 +1799,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2019,4890.35,"10.1038/s41467-019-09231-9",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30874553","PMC6420627",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2019,2856.39,"10.1016/j.psychres.2019.03.039",TRUE,"Elsevier BV","Psychiatry Research","0165-1781","0165-1781",NA,"0165-1781","http://creativecommons.org/licenses/by/4.0/",TRUE,"30928724","PMC6525183",NA,NA,FALSE
-"University of Newcastle",2018,761.55,"10.1177/2152656718764233",NA,"SAGE Publications","Allergy & Rhinology","2152-6567","2152-6567","2152-6567","2152-6567","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"29977656","PMC6028164",NA,NA,TRUE
+"University of Newcastle",2018,761.55,"10.1177/2152656718764233",FALSE,"SAGE Publications","Allergy & Rhinology","2152-6567","2152-6567","2152-6567","2152-6567","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"29977656","PMC6028164",NA,NA,TRUE
 "Queen Mary, University of London",2018,2571.62,"10.1109/tvt.2018.2822776",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Vehicular Technology","0018-9545","0018-9545","1939-9359","0018-9545",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Aberdeen",2018,636.8,"10.1080/23335777.2018.1499673",NA,"Informa UK Limited","Cyber-Physical Systems","2333-5777","2333-5777","2333-5785","2333-5777","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "Heriot-Watt University",2019,2199.98,"10.1364/oe.27.009578",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"31045107",NA,NA,NA,TRUE
@@ -2066,7 +2066,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Birmingham",2019,1659.57,"10.1186/s12984-019-0513-0",FALSE,"Springer Nature","Journal of NeuroEngineering and Rehabilitation","1743-0003",NA,"1743-0003","1743-0003","http://creativecommons.org/licenses/by/4.0/",TRUE,"30894192","PMC6425657",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Oxford",2018,1669.81,"10.2147/hp.s174655",NA,"Informa UK Limited","Hypoxia","2324-1128",NA,"2324-1128","2324-1128","http://creativecommons.org/licenses/by/4.0/",TRUE,"30519597","PMC6235002",NA,NA,TRUE
+"University of Oxford",2018,1669.81,"10.2147/hp.s174655",FALSE,"Informa UK Limited","Hypoxia","2324-1128",NA,"2324-1128","2324-1128","http://creativecommons.org/licenses/by/4.0/",TRUE,"30519597","PMC6235002",NA,NA,TRUE
 "University of Cambridge",2018,1980.99,"10.1021/jacs.8b02411",TRUE,"American Chemical Society (ACS)","Journal of the American Chemical Society","0002-7863","0002-7863","1520-5126","0002-7863","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"29685030","PMC5991782",NA,NA,FALSE
 "UCL",2018,1670.91,"10.1371/journal.pone.0199074",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29902283","PMC6001959",NA,NA,TRUE
 "University of Oxford",2018,2858.71,"10.1016/j.jtbi.2018.11.016",TRUE,"Elsevier BV","Journal of Theoretical Biology","0022-5193","0022-5193",NA,"0022-5193","http://creativecommons.org/licenses/by/4.0/",TRUE,"30465777","PMC6333917",NA,NA,FALSE
@@ -2085,7 +2085,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2018,2565.75,"10.3389/fpsyg.2018.02003",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"30410458","PMC6209651",NA,NA,TRUE
 "Imperial College London",2018,4405.54,"10.1002/hbm.24420",TRUE,"Wiley-Blackwell","Human Brain Mapping","1065-9471","1065-9471","1097-0193","1065-9471","http://creativecommons.org/licenses/by/4.0/",TRUE,"30378206","PMC6387619",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Liverpool",2018,688.96,"10.1039/c8ra01944d",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Liverpool",2018,688.96,"10.1039/c8ra01944d",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of St Andrews",2018,2455.09,"10.1371/journal.ppat.1007326",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","1553-7366","http://creativecommons.org/licenses/by/4.0/",TRUE,"30346997","PMC6211773",NA,NA,TRUE
 "University of Cambridge",2018,2792.5,"10.1016/j.exphem.2018.04.004",TRUE,"Elsevier BV","Experimental Hematology","0301-472X","0301-472X",NA,"0301-472X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29705267","PMC6052250",NA,NA,FALSE
 "Cardiff University",2018,466.02,"10.5539/res.v10n4p164",NA,"Canadian Center of Science and Education","Review of European Studies","1918-7181","1918-7173","1918-7181","1918-7173","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
@@ -2165,7 +2165,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2018,1275.55,"10.1038/s41598-018-25793-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"29743545","PMC5943305",NA,NA,TRUE
 "University of Liverpool",2019,3467.37,"10.1038/s41398-019-0406-9",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","http://creativecommons.org/licenses/by/4.0",TRUE,"30741941","PMC6370839",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Edinburgh",2018,1707.1,"10.1017/aog.2018.28",NA,"Cambridge University Press (CUP)","Annals of Glaciology","0260-3055","0260-3055","1727-5644","0260-3055","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Edinburgh",2018,1707.1,"10.1017/aog.2018.28",FALSE,"Cambridge University Press (CUP)","Annals of Glaciology","0260-3055","0260-3055","1727-5644","0260-3055","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Queen's University Belfast",2019,4002.04,"10.1172/jci.insight.122442",FALSE,"American Society for Clinical Investigation","JCI Insight","2379-3708",NA,"2379-3708","2379-3708",NA,TRUE,"30721154","PMC6482993",NA,NA,FALSE
 "University of Exeter",2018,1713.81,"10.1098/rspb.2018.1386",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452",NA,TRUE,"30185636","PMC6158535",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -2267,7 +2267,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Strathclyde",2018,2963.43,"10.1364/optica.5.001406",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536","2334-2536",NA,TRUE,NA,NA,NA,NA,TRUE
 "UCL",2018,3116.22,"10.1016/j.ijthermalsci.2018.06.017",NA,"Elsevier BV","International Journal of Thermal Sciences","1290-0729","1290-0729",NA,"1290-0729","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Cambridge",2018,2075.27,"10.1680/jgeen.17.00166",NA,"Thomas Telford Ltd.","Proceedings of the Institution of Civil Engineers - Geotechnical Engineering","1353-2618","1353-2618","1751-8563","1353-2618",NA,TRUE,NA,NA,NA,NA,FALSE
-"University of Birmingham",2018,1567.23,"10.1167/iovs.18-24045",NA,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30193318",NA,NA,NA,FALSE
+"University of Birmingham",2018,1567.23,"10.1167/iovs.18-24045",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30193318",NA,NA,NA,FALSE
 "Heriot-Watt University",2019,3292.15,"10.1016/j.cageo.2018.12.012",TRUE,"Elsevier BV","Computers & Geosciences","0098-3004","0098-3004",NA,"0098-3004","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "SOAS",2018,2035.85,"10.1016/j.worlddev.2018.06.003",TRUE,"Elsevier BV","World Development","0305-750X","0305-750X",NA,"0305-750X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Kent",2018,1171.77,"10.1111/1467-8551.12312",TRUE,"Wiley-Blackwell","British Journal of Management","1045-3172","1045-3172","1467-8551","1045-3172","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -2526,7 +2526,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2019,2243.16,"10.1096/fj.201800026rr",TRUE,"FASEB","The FASEB Journal","0892-6638","0892-6638","1530-6860","0892-6638",NA,TRUE,"29965797","PMC6355062",NA,NA,FALSE
 "University of Strathclyde",2018,2146.2,"10.1016/j.neures.2018.08.003",NA,"Elsevier BV","Neuroscience Research","0168-0102","0168-0102",NA,"0168-0102","http://creativecommons.org/licenses/by/4.0/",TRUE,"30118737","PMC6403104",NA,NA,FALSE
 "UCL",2019,1136.42,"10.3390/su11020423",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"UCL",2018,4618.91,"10.1172/jci121960",NA,"American Society for Clinical Investigation","Journal of Clinical
+"UCL",2018,4618.91,"10.1172/jci121960",FALSE,"American Society for Clinical Investigation","Journal of Clinical
                     Investigation","0021-9738","0021-9738","1558-8238","0021-9738",NA,TRUE,"30091725","PMC6159997",NA,NA,FALSE
 "UCL",2018,3404.33,"10.1038/s41416-018-0132-8",TRUE,"Springer Nature","British Journal of Cancer","0007-0920","0007-0920","1532-1827","0007-0920","https://creativecommons.org/licenses/by/4.0",TRUE,"29925934","PMC6035166",NA,NA,FALSE
 "Imperial College London",2018,3055.34,"10.1136/bmj.k4981",TRUE,"BMJ","BMJ","0959-8138","0959-8138","1756-1833","1756-1833","http://www.bmj.com/company/legal-information/terms-conditions/legal-information/tdm-licencepolicy",TRUE,"30606716","PMC6315896",NA,NA,FALSE
@@ -2561,7 +2561,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2018,2461.12,"10.1111/sed.12538",TRUE,"Wiley-Blackwell","Sedimentology","0037-0746","0037-0746","1365-3091","0037-0746","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,NA,NA,FALSE
 "Cardiff University",2019,2677.38,"10.1093/beheco/arz007",TRUE,"Oxford University Press (OUP)","Behavioral Ecology","1045-2249","1045-2249","1465-7279","1045-2249","http://creativecommons.org/licenses/by/4.0/",TRUE,"31210720","PMC6562305",NA,NA,FALSE
 "University of Cambridge",2018,4476.06,"10.1038/s41467-018-07558-3",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"30568160","PMC6300598",NA,NA,TRUE
-"UCL",2018,1894.11,"10.1121/1.5053218",NA,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"30424655",NA,NA,NA,FALSE
+"UCL",2018,1894.11,"10.1121/1.5053218",FALSE,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"30424655",NA,NA,NA,FALSE
 "Imperial College London",2018,4973.86,"10.1161/circresaha.118.313705",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Circulation Research","0009-7330","0009-7330","1524-4571","0009-7330",NA,TRUE,"30582444","PMC6325770",NA,NA,FALSE
 "University of Manchester",2019,2218.6,"10.1111/papt.12200",TRUE,"Wiley-Blackwell","Psychology and Psychotherapy: Theory, Research and Practice","1476-0835","1476-0835","2044-8341","1476-0835","http://creativecommons.org/licenses/by/4.0/",TRUE,"30371982",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -2891,7 +2891,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2019,1583.96,"10.1038/s41598-018-38294-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30783126","PMC6381178",NA,NA,TRUE
 "UCL",2018,3022.18,"10.1016/j.bja.2018.05.066",TRUE,"Elsevier BV","British Journal of Anaesthesia","0007-0912","0007-0912",NA,"0007-0912","http://creativecommons.org/licenses/by/4.0/",TRUE,"30115262","PMC6200113",NA,NA,FALSE
-"University of Durham",2018,676.82,"10.1039/c8ra01257a",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Durham",2018,676.82,"10.1039/c8ra01257a",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -3475,7 +3475,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of York",2019,1923.14,"10.1136/openhrt-2018-000866",FALSE,"BMJ","Open Heart","2053-3624",NA,"2053-3624","2053-3624",NA,TRUE,"30997119","PMC6443134",NA,NA,TRUE
 "UCL",2018,3384.09,"10.1038/s41416-018-0160-4",TRUE,"Springer Nature","British Journal of Cancer","0007-0920","0007-0920","1532-1827","0007-0920","https://creativecommons.org/licenses/by/4.0",TRUE,"29991698","PMC6048170",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Imperial College London",2019,652.03,"10.1039/c8ra06794e",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Imperial College London",2019,652.03,"10.1039/c8ra06794e",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1985.07,"10.1002/cctc.201801299",TRUE,"Wiley-Blackwell","ChemCatChem","1867-3880","1867-3880","1867-3899","1867-3880","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -3668,7 +3668,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2019,272.73,"10.1177/0038038518818405",TRUE,"SAGE Publications","Sociology","0038-0385","0038-0385","1469-8684","0038-0385","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,FALSE
 "University of Glasgow",2018,3183.99,"10.1016/j.jneuroim.2018.07.004",TRUE,"Elsevier BV","Journal of Neuroimmunology","0165-5728","0165-5728",NA,"0165-5728","http://creativecommons.org/licenses/by/4.0/",TRUE,"30196830","PMC6134133",NA,NA,FALSE
 "University of Nottingham",2018,1599.91,"10.1038/s41598-018-25581-8",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"29740093","PMC5940779",NA,NA,TRUE
-"University of Liverpool",2018,1581.66,"10.1167/iovs.18-24037",NA,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30098195","PMC6735649",NA,NA,FALSE
+"University of Liverpool",2018,1581.66,"10.1167/iovs.18-24037",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30098195","PMC6735649",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,2078.78,"10.3389/fimmu.2018.00903",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"29755473","PMC5934482",NA,NA,TRUE
 "University of Oxford",2019,1706.72,"10.1111/joa.12974",TRUE,"Wiley-Blackwell","Journal of Anatomy","0021-8782","0021-8782","1469-7580","0021-8782","http://creativecommons.org/licenses/by/4.0/",TRUE,"30901089","PMC6704270",NA,NA,FALSE
@@ -3976,9 +3976,9 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2018,2336.39,"10.1073/pnas.1719169115",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","http://creativecommons.org/licenses/by/4.0/",TRUE,"30404917","PMC6275525",NA,NA,FALSE
 "University of Birmingham",2019,2918.42,"10.1111/fwb.13259",TRUE,"Wiley-Blackwell","Freshwater Biology","0046-5070","0046-5070","1365-2427","0046-5070","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,NA,NA,FALSE
 "University of Edinburgh",2018,1738.88,"10.1021/acs.bioconjchem.8b00481",TRUE,"American Chemical Society (ACS)","Bioconjugate Chemistry","1043-1802","1043-1802","1520-4812","1043-1802","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30122043",NA,NA,NA,FALSE
-"UCL",2018,1878.45,"10.1111/acel.12626",NA,"Wiley-Blackwell","Aging Cell","1474-9718",NA,NA,"1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"28620943","PMC5595691",NA,NA,TRUE
+"UCL",2018,1878.45,"10.1111/acel.12626",FALSE,"Wiley-Blackwell","Aging Cell","1474-9718",NA,NA,"1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"28620943","PMC5595691",NA,NA,TRUE
 "University of Liverpool",2018,2691.25,"10.1093/jac/dky281",TRUE,"Oxford University Press (OUP)","Journal of Antimicrobial Chemotherapy","0305-7453","0305-7453","1460-2091","0305-7453","http://creativecommons.org/licenses/by/4.0/",TRUE,"30032305","PMC6198639",NA,NA,FALSE
-"Imperial College London",2019,7683.92,"10.1007/s40119-018-0121-2",NA,"Springer Nature","Cardiology and Therapy","2193-8261","2193-8261","2193-6544","2193-6544",NA,TRUE,"30368735","PMC6251821",NA,NA,TRUE
+"Imperial College London",2019,7683.92,"10.1007/s40119-018-0121-2",FALSE,"Springer Nature","Cardiology and Therapy","2193-8261","2193-8261","2193-6544","2193-6544",NA,TRUE,"30368735","PMC6251821",NA,NA,TRUE
 "University of Nottingham",2017,3272.26,"10.1089/scd.2017.0172",TRUE,"Mary Ann Liebert Inc","Stem Cells and Development","1547-3287","1547-3287","1557-8534","1547-3287","https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/",TRUE,"28992755","PMC5706629",NA,NA,FALSE
 "University of Liverpool",2018,3693.75,"10.1093/bjc/azy041",TRUE,"Oxford University Press (OUP)","British Journal of Criminology","0007-0955","0007-0955","1464-3529","0007-0955","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -4149,7 +4149,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Reading",2018,2225.01,"10.1002/jsfa.8991",TRUE,"Wiley-Blackwell","Journal of the Science of Food and Agriculture","0022-5142",NA,NA,"0022-5142","http://creativecommons.org/licenses/by/4.0/",TRUE,"29508404","PMC6032839",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,2879.24,"10.1038/s41430-018-0174-2",TRUE,"Springer Nature","European Journal of Clinical Nutrition","0954-3007","0954-3007","1476-5640","0954-3007","https://creativecommons.org/licenses/by/4.0",TRUE,"29849178","PMC5988645",NA,NA,FALSE
-"University of Nottingham",2018,688.86,"10.1039/c8ra01491d",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Nottingham",2018,688.86,"10.1039/c8ra01491d",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Manchester",2019,2847.69,"10.1016/j.expthermflusci.2018.04.016",TRUE,"Elsevier BV","Experimental Thermal and Fluid Science","0894-1777","0894-1777",NA,"0894-1777","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Cambridge",2018,1610.42,"10.3390/rs10050659",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "UCL",2018,3426.12,"10.1038/s41398-018-0206-7",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","https://creativecommons.org/licenses/by/4.0",TRUE,"30115911","PMC6095858",NA,NA,TRUE
@@ -4181,7 +4181,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,5289.38,"10.1016/s0140-6736(18)31133-4",TRUE,"Elsevier BV","The Lancet","0140-6736","0140-6736",NA,"0140-6736","http://creativecommons.org/licenses/by/4.0/",TRUE,"30017552",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2018,674.36,"10.1039/c8ra04361b",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"UCL",2018,674.36,"10.1039/c8ra04361b",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Nottingham",2018,1408.76,"10.1111/scs.12622",TRUE,"Wiley-Blackwell","Scandinavian Journal of Caring Sciences","0283-9318","0283-9318","1471-6712","0283-9318","http://creativecommons.org/licenses/by/4.0/",TRUE,"30329166",NA,NA,NA,FALSE
 "Queen Mary, University of London",2018,2435.52,"10.1016/j.bbrc.2018.03.203",TRUE,"Elsevier BV","Biochemical and Biophysical Research Communications","0006-291X","0006-291X",NA,"0006-291X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29601813","PMC5916510",NA,NA,FALSE
@@ -4253,7 +4253,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2018,1676.6,"10.1016/j.ajpath.2018.04.008",TRUE,"Elsevier BV","The American Journal of Pathology","0002-9440","0002-9440",NA,"0002-9440","http://creativecommons.org/licenses/by/4.0/",TRUE,"29803833","PMC6063996",NA,NA,FALSE
 "University of Strathclyde",2018,3137.38,"10.1016/j.pmatsci.2018.04.001",TRUE,"Elsevier BV","Progress in Materials Science","0079-6425","0079-6425",NA,"0079-6425","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Imperial College London",2018,1826.17,"10.1103/physrevb.98.134104",TRUE,"American Physical Society (APS)","Physical Review B","2469-9950","2469-9950","2469-9969","2469-9950","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Imperial College London",2019,1019.22,"10.1039/c8ra09396b",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"Imperial College London",2019,1019.22,"10.1039/c8ra09396b",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of York",2018,2842.64,"10.1002/hec.3799",TRUE,"Wiley-Blackwell","Health Economics","1057-9230",NA,NA,"1057-9230","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"30033581","PMC6221064",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -4330,7 +4330,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2018,4351.42,"10.1037/per0000313",NA,"American Psychological Association (APA)","Personality Disorders: Theory, Research, and Treatment","1949-2723","1949-2715","1949-2723","1949-2723","http://creativecommons.org/licenses/by/3.0/",TRUE,"30507237","PMC6602524",NA,NA,FALSE
 "University of Liverpool",2018,1527.48,"10.1371/journal.pone.0202058",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30102721","PMC6089415",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of York",2018,1515.03,"10.1017/hpl.2018.21",NA,"Cambridge University Press (CUP)","High Power Laser Science and Engineering","2095-4719","2095-4719","2052-3289","2052-3289","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of York",2018,1515.03,"10.1017/hpl.2018.21",FALSE,"Cambridge University Press (CUP)","High Power Laser Science and Engineering","2095-4719","2095-4719","2052-3289","2052-3289","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Edinburgh",2018,274.06,"10.1177/0038038518767075",TRUE,"SAGE Publications","Sociology","0038-0385","0038-0385","1469-8684","0038-0385","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,FALSE
 "University of Nottingham",2019,2588.06,"10.1016/j.tust.2019.02.016",TRUE,"Elsevier BV","Tunnelling and Underground Space Technology","0886-7798","0886-7798",NA,"0886-7798","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -4408,7 +4408,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2018,2937.34,"10.1364/oe.26.033565",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"30650789",NA,NA,NA,TRUE
 "UCL",2018,2819.59,"10.1016/j.cortex.2018.08.032",TRUE,"Elsevier BV","Cortex","0010-9452","0010-9452",NA,"0010-9452","http://creativecommons.org/licenses/by/4.0/",TRUE,"30312781","PMC6259587",NA,NA,FALSE
 "University of Oxford",2019,3440.74,"10.1038/s41398-019-0476-8",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","https://creativecommons.org/licenses/by/4.0",TRUE,"30996249","PMC6470159",NA,NA,TRUE
-"University of Nottingham",2018,682.24,"10.1039/c8ra05929b",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Nottingham",2018,682.24,"10.1039/c8ra05929b",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "UCL",2018,1225.29,"10.1039/c8tc01929k",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry C","2050-7526","2050-7526","2050-7534","2050-7526","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Queen's University Belfast",2019,1049.26,"10.1002/stem.2936",TRUE,"Wiley-Blackwell","STEM CELLS","1066-5099",NA,NA,"1066-5099","http://creativecommons.org/licenses/by/4.0/",TRUE,"30372556","PMC6392130",NA,NA,FALSE
@@ -4553,7 +4553,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,908.24,"10.1186/s13021-018-0098-0",FALSE,"Springer Nature","Carbon Balance and Management","1750-0680",NA,"1750-0680","1750-0680","https://creativecommons.org/licenses/by/4.0",TRUE,"29943069","PMC6020103",NA,NA,TRUE
 "King's College London",2019,1566.16,"10.1038/s41598-018-37714-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30718699","PMC6362021",NA,NA,TRUE
 "University of Bath",2019,2205.61,"10.1016/j.envint.2018.12.048",TRUE,"Elsevier BV","Environment International","0160-4120","0160-4120",NA,"0160-4120","http://creativecommons.org/licenses/by/4.0/",TRUE,"30690427",NA,NA,NA,TRUE
-"University of Nottingham",2018,966.07,"10.1167/iovs.18-24674",NA,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by/4.0/",TRUE,"30452594",NA,NA,NA,FALSE
+"University of Nottingham",2018,966.07,"10.1167/iovs.18-24674",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by/4.0/",TRUE,"30452594",NA,NA,NA,FALSE
 "Queen Mary, University of London",2018,471.62,"10.7567/apex.11.061601",TRUE,"Japan Society of Applied Physics","Applied Physics Express","1882-0778","1882-0778","1882-0786","1882-0778","http://iopscience.iop.org/page/copyright",TRUE,NA,NA,NA,NA,FALSE
 "UCL",2018,1584.84,"10.1186/s12874-018-0522-x",FALSE,"Springer Nature","BMC Medical Research Methodology","1471-2288",NA,"1471-2288","1471-2288","http://creativecommons.org/licenses/by/4.0/",TRUE,"29945571","PMC6020319",NA,NA,TRUE
 "UCL",2018,1639.33,"10.3389/fphys.2018.00989",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X","https://creativecommons.org/licenses/by/4.0/",TRUE,"30245632","PMC6137139",NA,NA,TRUE
@@ -4826,7 +4826,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Edinburgh",2018,1548.41,"10.1136/bmjopen-2018-021614",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30787073","PMC6398686",NA,NA,TRUE
 "University of Exeter",2019,4027.76,"10.1016/j.watres.2018.11.025",TRUE,"Elsevier BV","Water Research","0043-1354","0043-1354",NA,"0043-1354","http://creativecommons.org/licenses/by/4.0/",TRUE,"30472547",NA,NA,NA,FALSE
 "University of Manchester",2018,2835.58,"10.1002/pds.4649",TRUE,"Wiley-Blackwell","Pharmacoepidemiology and Drug Safety","1053-8569",NA,NA,"1053-8569","http://creativecommons.org/licenses/by/4.0/",TRUE,"30264875","PMC6492099",NA,NA,FALSE
-"University of Birmingham",2018,678.19,"10.1039/c8ra02449a",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Birmingham",2018,678.19,"10.1039/c8ra02449a",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Newcastle",2018,2735.38,"10.3389/fimmu.2018.02217",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"30319656","PMC6170658",NA,NA,TRUE
 "King's College London",2018,2874.19,"10.1016/j.tox.2018.04.001",TRUE,"Elsevier BV","Toxicology","0300-483X","0300-483X",NA,"0300-483X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29649501","PMC6593260",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -4890,7 +4890,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2018,3007.54,"10.1016/j.jaac.2018.04.016",TRUE,"Elsevier BV","Journal of the American Academy of Child & Adolescent Psychiatry","0890-8567","0890-8567",NA,"0890-8567","http://creativecommons.org/licenses/by/4.0/",TRUE,"30071977","PMC6081050",NA,NA,FALSE
 "Cardiff University",2018,1506.91,"10.1002/open.201800064",FALSE,"Wiley-Blackwell","ChemistryOpen","2191-1363",NA,NA,"2191-1363","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30083492","PMC6070678",NA,NA,TRUE
-"University of Liverpool",2018,685.97,"10.1039/c7ra13553j",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,"30009019","PMC6003547",NA,NA,TRUE
+"University of Liverpool",2018,685.97,"10.1039/c7ra13553j",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,"30009019","PMC6003547",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Queen's University Belfast",2018,1289.09,"10.1186/s12904-018-0382-5",FALSE,"Springer Nature","BMC Palliative Care","1472-684X",NA,"1472-684X","1472-684X",NA,TRUE,"30572859","PMC6302509",NA,NA,TRUE
 "UCL",2019,1372.32,"10.1111/hex.12891",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513","1369-6513","1369-7625","1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"31012214","PMC6737841",NA,NA,TRUE
@@ -5441,7 +5441,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2018,2612.17,"10.1007/s00127-018-1599-6",TRUE,"Springer Nature","Social Psychiatry and Psychiatric Epidemiology","0933-7954","0933-7954","1433-9285","0933-7954","https://creativecommons.org/licenses/by/4.0",TRUE,"30255382","PMC6252120",NA,NA,FALSE
 "University of York",2019,1931.31,"10.1016/j.ijlp.2018.12.001",TRUE,"Elsevier BV","International Journal of Law and Psychiatry","0160-2527","0160-2527",NA,"0160-2527","http://creativecommons.org/licenses/by/4.0/",TRUE,"30616847","PMC6338674",NA,NA,FALSE
 "University of Edinburgh",2018,2061.42,"10.5194/tc-12-2461-2018",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Cambridge",2019,1807.6,"10.1017/jog.2018.94",NA,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Cambridge",2019,1807.6,"10.1017/jog.2018.94",FALSE,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Birmingham",2018,3344.93,"10.5194/tc-12-2175-2018",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Cambridge",2018,2064.03,"10.1021/acs.jpcb.7b10105",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry B","1520-6106","1520-6106","1520-5207","1520-5207","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"29498523",NA,NA,NA,FALSE
 "Cardiff University",2018,1998.64,"10.2147/ppa.s167080",FALSE,"Informa UK Limited","Patient Preference and Adherence","1177-889X",NA,"1177-889X","1177-889X","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"30100708","PMC6065593",NA,NA,TRUE
@@ -5525,7 +5525,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2019,1906.96,"10.3390/cancers11030319",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"30845739","PMC6468385",NA,NA,TRUE
 "University of Manchester",2018,3463.33,"10.1016/j.solmat.2018.08.002",TRUE,"Elsevier BV","Solar Energy Materials and Solar Cells","0927-0248","0927-0248",NA,"0927-0248","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Exeter",2018,2467.79,"10.1016/j.bbrc.2018.09.029",TRUE,"Elsevier BV","Biochemical and Biophysical Research Communications","0006-291X","0006-291X",NA,"0006-291X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30213629",NA,NA,NA,FALSE
-"University of Manchester",2018,688.52,"10.1039/c8ra02567c",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Manchester",2018,688.52,"10.1039/c8ra02567c",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Cambridge",2018,1844.68,"10.1039/c8nr02177e",TRUE,"Royal Society of Chemistry (RSC)","Nanoscale","2040-3364","2040-3364","2040-3372","2040-3364","http://creativecommons.org/licenses/by/3.0/",TRUE,"29917033","PMC6034157",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,4449.44,"10.1038/s41467-018-06037-z",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30206216","PMC6133990",NA,NA,TRUE
@@ -5723,7 +5723,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2018,1409.13,"10.1002/pola.29067",TRUE,"Wiley-Blackwell","Journal of Polymer Science Part A: Polymer Chemistry","0887-624X",NA,NA,"0887-624X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30333680","PMC6175008",NA,NA,FALSE
 "Queen's University Belfast",2019,4378.29,"10.1126/sciadv.aav0129",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"31187056","PMC6555632",NA,NA,TRUE
 "Queen Mary, University of London",2019,1652.99,"10.1093/nar/gky295",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"29718325","PMC6007231",NA,NA,TRUE
-"UCL",2018,667.97,"10.1039/c8ra03947j",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"UCL",2018,667.97,"10.1039/c8ra03947j",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "Brunel University",2018,1570.03,"10.1038/s41598-018-31416-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30190578","PMC6127330",NA,NA,TRUE
 "UCL",2018,2958.18,"10.1093/infdis/jiy358",TRUE,"Oxford University Press (OUP)","Journal of Infectious Diseases","0022-1899","0022-1899","1537-6613","0022-1899","http://creativecommons.org/licenses/by/4.0/",TRUE,"29986093","PMC6173578",NA,NA,FALSE
 "University of Manchester",2018,2046.28,"10.1021/acs.inorgchem.8b01607",TRUE,"American Chemical Society (ACS)","Inorganic Chemistry","0020-1669","0020-1669","1520-510X","0020-1669","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30230330","PMC6168839",NA,NA,FALSE
@@ -5991,7 +5991,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2018,5150.3,"10.1200/jco.2018.78.8414",TRUE,"American Society of Clinical Oncology (ASCO)","Journal of Clinical Oncology","0732-183X","0732-183X","1527-7755","0732-183X",NA,TRUE,"30153096","PMC6269131",NA,NA,FALSE
 "Heriot-Watt University",2018,2674.16,"10.1088/1751-8121/aac597",TRUE,"IOP Publishing","Journal of Physics A: Mathematical and Theoretical","1751-8113","1751-8113","1751-8121","1751-8113","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "Queen's University Belfast",2019,2708.3,"10.1096/fj.201802056r",TRUE,"FASEB","The FASEB Journal","0892-6638","0892-6638","1530-6860","0892-6638",NA,TRUE,"30649987","PMC6436662",NA,NA,FALSE
-"University of Manchester",2018,1960.47,"10.1121/1.5036629",NA,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"29857758",NA,NA,NA,FALSE
+"University of Manchester",2018,1960.47,"10.1121/1.5036629",FALSE,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"29857758",NA,NA,NA,FALSE
 "University of Newcastle",2019,3885.17,"10.1172/jci99296",FALSE,"American Society for Clinical Investigation","Journal of Clinical Investigation","0021-9738","0021-9738","1558-8238","0021-9738","http://creativecommons.org/licenses/by/4.0/",TRUE,"30714990","PMC6391106",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2019,1590.62,"10.1038/s41598-018-38296-7",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30783136","PMC6381101",NA,NA,TRUE
@@ -6021,7 +6021,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,2126.93,"10.1007/s00221-018-5461-6",TRUE,"Springer Nature","Experimental Brain Research","0014-4819","0014-4819","1432-1106","0014-4819","https://creativecommons.org/licenses/by/4.0",TRUE,"30826847","PMC6477810",NA,NA,FALSE
 "UCL",2019,2061.21,"10.3389/fpsyg.2019.00075",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"30804827","PMC6370696",NA,NA,TRUE
 "UCL",2018,3205.1,"10.1093/cercor/bhy322",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","http://creativecommons.org/licenses/by/4.0/",TRUE,"30615116","PMC6373696",NA,NA,FALSE
-"University of Edinburgh",2018,1811.52,"10.1017/jog.2018.44",NA,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Edinburgh",2018,1811.52,"10.1017/jog.2018.44",FALSE,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Liverpool",2018,1697.89,"10.1002/jqs.3057",TRUE,"Wiley-Blackwell","Journal of Quaternary Science","0267-8179",NA,NA,"0267-8179","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Durham",2018,3146.45,"10.1016/j.quascirev.2018.08.010",TRUE,"Elsevier BV","Quaternary Science Reviews","0277-3791","0277-3791",NA,"0277-3791","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Liverpool",2018,4249.48,"10.1021/jacs.8b08796",TRUE,"American Chemical Society (ACS)","Journal of the American Chemical Society","0002-7863","0002-7863","1520-5126","0002-7863","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30371076","PMC6257628",NA,NA,FALSE
@@ -6358,7 +6358,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Birmingham",2018,2441.49,"10.1111/psyp.13277",TRUE,"Wiley-Blackwell","Psychophysiology","0048-5772","0048-5772","1469-8986","0048-5772","http://creativecommons.org/licenses/by/4.0/",TRUE,"30132921","PMC6849591",NA,NA,FALSE
 "University of Edinburgh",2018,1817.41,"10.1111/pim.12566",TRUE,"Wiley-Blackwell","Parasite Immunology","0141-9838",NA,NA,"0141-9838","http://creativecommons.org/licenses/by/4.0/",TRUE,"29920694","PMC6099414",NA,NA,FALSE
 "University of Manchester",2018,1976.34,"10.1161/jaha.118.009972",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980",NA,"2047-9980","2047-9980",NA,TRUE,"30520673","PMC6405564",NA,NA,TRUE
-"Brunel University",2018,400.49,"10.5334/snr.102",NA,"Ubiquity Press, Ltd.","Secularism and Nonreligion","2053-6712",NA,"2053-6712","2053-6712","http://creativecommons.org/licenses/by/3.0",TRUE,NA,NA,NA,NA,TRUE
+"Brunel University",2018,400.49,"10.5334/snr.102",FALSE,"Ubiquity Press, Ltd.","Secularism and Nonreligion","2053-6712",NA,"2053-6712","2053-6712","http://creativecommons.org/licenses/by/3.0",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2018,1352.21,"10.1093/rap/rky035",NA,"Oxford University Press (OUP)","Rheumatology Advances in Practice","2514-1775",NA,"2514-1775","2514-1775","http://creativecommons.org/licenses/by/4.0/",TRUE,"31431976","PMC6649983",NA,NA,TRUE
@@ -6395,7 +6395,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2018,1971.4,"10.1155/2019/5464096",FALSE,"Hindawi Publishing Corporation","Neural Plasticity","2090-5904","2090-5904","1687-5443","1687-5443","http://creativecommons.org/licenses/by/4.0/",TRUE,"30915111","PMC6402197",NA,NA,TRUE
 "University of Newcastle",2018,3135.67,"10.1111/mmi.14082",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950-382X",NA,NA,"0950-382X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30044025","PMC6220978",NA,NA,FALSE
 "University of Dundee",2018,1594.38,"10.1038/s41598-018-26303-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"29785042","PMC5962531",NA,NA,TRUE
-"University of Reading",2018,674.69,"10.1039/c8ra09597c",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Reading",2018,674.69,"10.1039/c8ra09597c",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Oxford",2018,2599.74,"10.1016/j.vaccine.2018.07.035",TRUE,"Elsevier BV","Vaccine","0264-410X","0264-410X",NA,"0264-410X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30097220","PMC6143486",NA,NA,FALSE
 "Cardiff University",2018,2369.28,"10.1371/journal.ppat.1007017",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","1553-7366","http://creativecommons.org/licenses/by/4.0/",TRUE,"29772011","PMC5957346",NA,NA,TRUE
 "UCL",2018,1763.07,"10.1016/j.eneco.2018.12.005",TRUE,"Elsevier BV","Energy Economics","0140-9883","0140-9883",NA,"0140-9883","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -6404,7 +6404,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Loughborough",2018,1967.23,"10.1016/j.seta.2018.07.001",TRUE,"Elsevier BV","Sustainable Energy Technologies and Assessments","2213-1388","2213-1388",NA,"2213-1388","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2018,672.04,"10.1039/c8ra04707c",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"UCL",2018,672.04,"10.1039/c8ra04707c",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of York",2018,1853.7,"10.1039/c8re00027a",TRUE,"Royal Society of Chemistry (RSC)","Reaction Chemistry & Engineering","2058-9883",NA,"2058-9883","2058-9883","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Cambridge",2019,680.96,"10.1080/1081602x.2019.1580601",TRUE,"Informa UK Limited","The History of the Family","1081-602X","1081-602X","1873-5398","1081-602X","http://creativecommons.org/licenses/by/4.0/",TRUE,"31058272","PMC6474727",NA,NA,FALSE
 "UCL",2018,2038.69,"10.3389/fnagi.2018.00332",FALSE,"Frontiers Media SA","Frontiers in Aging Neuroscience","1663-4365",NA,"1663-4365","1663-4365","https://creativecommons.org/licenses/by/4.0/",TRUE,"30405400","PMC6204357",NA,NA,TRUE
@@ -6503,7 +6503,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2019,4199.66,"10.1016/j.bcp.2018.12.011",TRUE,"Elsevier BV","Biochemical Pharmacology","0006-2952","0006-2952",NA,"0006-2952","http://creativecommons.org/licenses/by/4.0/",TRUE,"30557554","PMC6372069",NA,NA,FALSE
 "UCL",2018,2403.88,"10.1093/hmg/ddy149",TRUE,"Oxford University Press (OUP)","Human Molecular Genetics","0964-6906","0964-6906","1460-2083","0964-6906","http://creativecommons.org/licenses/by/4.0/",TRUE,"29701772","PMC6005141",NA,NA,FALSE
 "University of Birmingham",2018,3794.27,"10.1016/j.ces.2018.05.017",TRUE,"Elsevier BV","Chemical Engineering Science","0009-2509","0009-2509",NA,"0009-2509","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"University of Loughborough",2018,1410.39,"10.1016/j.wri.2018.08.003",NA,"Elsevier BV","Water Resources and Industry","2212-3717","2212-3717",NA,"2212-3717","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Loughborough",2018,1410.39,"10.1016/j.wri.2018.08.003",FALSE,"Elsevier BV","Water Resources and Industry","2212-3717","2212-3717",NA,"2212-3717","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Edinburgh",2018,1797.13,"10.1021/acs.jproteome.8b00600",TRUE,"American Chemical Society (ACS)","Journal of Proteome Research","1535-3893","1535-3893","1535-3907","1535-3893","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30293428","PMC6279313",NA,NA,FALSE
 "University of Oxford",2018,1701.2,"10.1002/ece3.4698",FALSE,"Wiley-Blackwell","Ecology and Evolution","2045-7758","2045-7758","2045-7758","2045-7758","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"30619575","PMC6308876",NA,NA,TRUE
 "University of Oxford",2019,1706.72,"10.1002/eap.1851",TRUE,"Wiley-Blackwell","Ecological Applications","1051-0761","1051-0761","1939-5582","1051-0761","http://creativecommons.org/licenses/by/4.0/",TRUE,"30656770","PMC6850168",NA,NA,FALSE
@@ -6657,7 +6657,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Newcastle",2018,3164.54,"10.1016/j.abb.2018.06.015",TRUE,"Elsevier BV","Archives of Biochemistry and Biophysics","0003-9861","0003-9861",NA,"0003-9861","http://creativecommons.org/licenses/by/4.0/",TRUE,"29958897","PMC6094152",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2019,1843.26,"10.1136/bmjopen-2018-025621",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30904864","PMC6475136",NA,NA,TRUE
-"University of Nottingham",2019,1015.92,"10.1039/c8ra09089k",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,"30774937","PMC6350623",NA,NA,TRUE
+"University of Nottingham",2019,1015.92,"10.1039/c8ra09089k",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,"30774937","PMC6350623",NA,NA,TRUE
 "University of Liverpool",2018,2244.03,"10.1113/jp275879",TRUE,"Wiley-Blackwell","The Journal of Physiology","0022-3751",NA,NA,"0022-3751","http://creativecommons.org/licenses/by/4.0/",TRUE,"29717784","PMC6023832",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Newcastle",2018,1539.84,"10.1371/journal.pone.0200068",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29969498","PMC6029803",NA,NA,TRUE
@@ -6682,7 +6682,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bath",2019,1352.52,"10.3390/molecules24030641",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"30759754","PMC6384661",NA,NA,TRUE
 "University of Edinburgh",2019,3635.31,"10.15252/embj.2018100554",TRUE,"EMBO","The EMBO Journal","0261-4189","0261-4189","1460-2075","0261-4189","http://creativecommons.org/licenses/by/4.0/",TRUE,"30936093","PMC6484409",NA,NA,FALSE
 "University of Oxford",2018,4447.44,"10.1038/s41467-018-05961-4",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30158572","PMC6115413",NA,NA,TRUE
-"University of Strathclyde",2018,686.89,"10.1039/c8ra01998c",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Strathclyde",2018,686.89,"10.1039/c8ra01998c",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "Cardiff University",2018,992.8,"10.1080/21650020.2018.1463867",FALSE,"Informa UK Limited","Urban, Planning and Transport Research","2165-0020",NA,"2165-0020","2165-0020","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "University of Manchester",2018,637.7,"10.1080/23299460.2018.1495033",TRUE,"Informa UK Limited","Journal of Responsible Innovation","2329-9460","2329-9460","2329-9037","2329-9037","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6701,7 +6701,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2019,3087.74,"10.3389/fphys.2019.00259",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X","https://creativecommons.org/licenses/by/4.0/",TRUE,"30967788","PMC6430739",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,3564,"10.1128/aac.01068-18",NA,"American Society for Microbiology","Antimicrobial Agents and Chemotherapy","0066-4804","0066-4804","1098-6596","0066-4804",NA,TRUE,"30150462","PMC6201091",NA,NA,FALSE
-"University of Exeter",2019,748.75,"10.1177/1178221819836726",NA,"SAGE Publications","Substance Abuse: Research and Treatment","1178-2218","1178-2218","1178-2218","1178-2218","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"31043786","PMC6446438",NA,NA,TRUE
+"University of Exeter",2019,748.75,"10.1177/1178221819836726",FALSE,"SAGE Publications","Substance Abuse: Research and Treatment","1178-2218","1178-2218","1178-2218","1178-2218","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"31043786","PMC6446438",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1597.98,"10.1186/s12889-018-5995-3",FALSE,"Springer Nature","BMC Public Health","1471-2458",NA,"1471-2458","1471-2458","http://creativecommons.org/licenses/by/4.0/",TRUE,"30301472","PMC6178254",NA,NA,TRUE
 "UCL",2018,2320.78,"10.3389/fpsyg.2018.02389",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"30618906","PMC6307457",NA,NA,TRUE
@@ -6732,7 +6732,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Birmingham",2018,1012.26,"10.3390/app8071148",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,2229.61,"10.3389/fnhum.2018.00371",FALSE,"Frontiers Media SA","Frontiers in Human Neuroscience","1662-5161",NA,"1662-5161","1662-5161","https://creativecommons.org/licenses/by/4.0/",TRUE,"30333736","PMC6176492",NA,NA,TRUE
-"UCL",2019,1949.03,"10.1121/1.5093306",NA,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"31067926",NA,NA,NA,FALSE
+"UCL",2019,1949.03,"10.1121/1.5093306",FALSE,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"31067926",NA,NA,NA,FALSE
 "University of Birmingham",2018,2611.17,"10.3389/fphys.2018.01300",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X","https://creativecommons.org/licenses/by/4.0/",TRUE,"30294280","PMC6158746",NA,NA,TRUE
 "University of Oxford",2019,3353.85,"10.1038/s41398-019-0403-z",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","http://creativecommons.org/licenses/by/4.0",TRUE,"30814485","PMC6393421",NA,NA,TRUE
 "University of Exeter",2018,3792.04,"10.1016/j.apenergy.2018.07.040",TRUE,"Elsevier BV","Applied Energy","0306-2619","0306-2619",NA,"0306-2619","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -7050,7 +7050,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Edinburgh",2018,3359.81,"10.1089/soro.2018.0058",NA,"Mary Ann Liebert Inc","Soft Robotics","2169-5172","2169-5172","2169-5180","2169-5172","https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/",TRUE,"30566034","PMC6486669",NA,NA,FALSE
 "University of Dundee",2018,333.12,"10.1242/dev.164319",TRUE,"The Company of Biologists","Development","0950-1991","0950-1991","1477-9129","0950-1991","http://creativecommons.org/licenses/by/3.0",TRUE,"30201686","PMC6198475",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Birmingham",2018,678.19,"10.1039/c8ra05475d",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,"30713683","PMC6333254",NA,NA,TRUE
+"University of Birmingham",2018,678.19,"10.1039/c8ra05475d",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,"30713683","PMC6333254",NA,NA,TRUE
 "University of St Andrews",2018,2141.86,"10.1021/acs.biochem.8b01099",TRUE,"American Chemical Society (ACS)","Biochemistry","0006-2960","0006-2960","1520-4995","0006-2960","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30472832","PMC6300308",NA,NA,FALSE
 "UCL",2018,2796.7,"10.1103/physrevlett.120.167701",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","https://creativecommons.org/licenses/by/4.0/",TRUE,"29756909",NA,NA,NA,FALSE
 "University of Edinburgh",2018,4438.47,"10.1038/s41467-018-05822-0",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30120244","PMC6098115",NA,NA,TRUE
@@ -7209,7 +7209,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,4136.44,"10.1021/acs.nanolett.8b02718",TRUE,"American Chemical Society (ACS)","Nano Letters","1530-6984","1530-6984","1530-6992","1530-6984","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30257093",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2019,3672.67,"10.1016/j.jaci.2018.12.985",TRUE,"Elsevier BV","Journal of Allergy and Clinical Immunology","0091-6749","0091-6749",NA,"0091-6749","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30579850",NA,NA,NA,FALSE
-"London South Bank University",2018,1474.79,"10.1177/1559325818819946",NA,"SAGE Publications","Dose-Response","1559-3258","1559-3258","1559-3258","1559-3258","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"30670936","PMC6327349",NA,NA,TRUE
+"London South Bank University",2018,1474.79,"10.1177/1559325818819946",FALSE,"SAGE Publications","Dose-Response","1559-3258","1559-3258","1559-3258","1559-3258","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"30670936","PMC6327349",NA,NA,TRUE
 "University of Cambridge",2018,6808.12,"10.1016/j.cell.2018.09.049",TRUE,"Elsevier BV","Cell","0092-8674","0092-8674",NA,"0092-8674","http://creativecommons.org/licenses/by/4.0/",TRUE,"30343897","PMC6269166",NA,NA,FALSE
 "UCL",2019,1284.57,"10.1029/2018gl081271",TRUE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276","0094-8276","1944-8007","0094-8276","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Oxford",2019,4273.14,"10.1021/acsnano.8b04713",TRUE,"American Chemical Society (ACS)","ACS Nano","1936-0851","1936-0851","1936-086X","1936-0851","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30114902",NA,NA,NA,FALSE
@@ -7651,7 +7651,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Strathclyde",2019,1301.26,"10.1088/1367-2630/aafb89",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Edinburgh",2018,3992.84,"10.1016/j.ijggc.2018.10.008",TRUE,"Elsevier BV","International Journal of Greenhouse Gas Control","1750-5836","1750-5836",NA,"1878-0148","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Nottingham",2018,3913.49,"10.1016/j.carbon.2018.07.066",TRUE,"Elsevier BV","Carbon","0008-6223","0008-6223",NA,"0008-6223","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"University of Loughborough",2019,869.93,"10.1039/c8ra09762c",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Loughborough",2019,869.93,"10.1039/c8ra09762c",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "Cardiff University",2018,1594.43,"10.1038/s41598-018-32110-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30213993","PMC6137159",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Queen Mary, University of London",2018,1450.59,"10.1109/lpt.2018.2814684",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Photonics Technology Letters","1041-1135","1041-1135","1941-0174","1041-1135",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -7862,7 +7862,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2019,2714.5,"10.3389/fpsyg.2018.01721",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"30369890","PMC6194345",NA,NA,TRUE
 "University of Birmingham",2018,2611.17,"10.3389/fimmu.2018.02904",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"30631321","PMC6315190",NA,NA,TRUE
 "University of Edinburgh",2018,1556.78,"10.3390/rs10111693",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Birmingham",2018,678.19,"10.1039/c8ra04382e",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Birmingham",2018,678.19,"10.1039/c8ra04382e",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Hull",2018,2540.5,"10.1130/b31839.1",TRUE,"Geological Society of America","GSA Bulletin","0016-7606","0016-7606",NA,"0016-7606",NA,TRUE,NA,NA,NA,NA,FALSE
 "Manchester Metropolitan University",2018,2534.77,"10.3389/fphys.2018.00867",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X","https://creativecommons.org/licenses/by/4.0/",TRUE,"30079026","PMC6063341",NA,NA,TRUE
 "UCL",2019,1587.95,"10.1186/s12862-018-1342-7",FALSE,"Springer Nature","BMC Evolutionary Biology","1471-2148",NA,"1471-2148","1471-2148",NA,TRUE,"30669965","PMC6343317",NA,NA,TRUE
@@ -7896,7 +7896,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2019,1804.72,"10.1038/s41598-019-40075-x",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30842481","PMC6403335",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2019,276.48,"10.1177/0309132519830511",TRUE,"SAGE Publications","Progress in Human Geography","0309-1325","0309-1325","1477-0288","0309-1325","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,FALSE
-"UCL",2019,2622.87,"10.1038/s41531-019-0076-6",NA,"Springer Nature","npj Parkinson's Disease","2373-8057",NA,"2373-8057","2373-8057","https://creativecommons.org/licenses/by/4.0",TRUE,"31016231","PMC6470136",NA,NA,TRUE
+"UCL",2019,2622.87,"10.1038/s41531-019-0076-6",FALSE,"Springer Nature","npj Parkinson's Disease","2373-8057",NA,"2373-8057","2373-8057","https://creativecommons.org/licenses/by/4.0",TRUE,"31016231","PMC6470136",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2018,2343.62,"10.1111/spol.12481",TRUE,"Wiley-Blackwell","Social Policy & Administration","0144-5596",NA,NA,"0144-5596","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Queen Mary, University of London",2018,5624.27,"10.1096/fj.201701274rr",TRUE,"FASEB","The FASEB Journal","0892-6638","0892-6638","1530-6860","0892-6638",NA,TRUE,"29879378","PMC6181639",NA,NA,FALSE
@@ -7986,7 +7986,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2019,2437.39,"10.1007/s11229-019-02115-x",TRUE,"Springer Nature","Synthese","0039-7857","0039-7857","1573-0964","0039-7857","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "University of Edinburgh",2018,3772.02,"10.1016/j.memsci.2018.08.049",TRUE,"Elsevier BV","Journal of Membrane Science","0376-7388","0376-7388",NA,"0376-7388","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Strathclyde",2018,2630.95,"10.1016/j.apt.2018.09.003",NA,"Elsevier BV","Advanced Powder Technology","0921-8831","0921-8831",NA,"0921-8831","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"UCL",2018,427.88,"10.1121/1.5042759",NA,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"29960438","PMC6018061",NA,NA,FALSE
+"UCL",2018,427.88,"10.1121/1.5042759",FALSE,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"29960438","PMC6018061",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2019,2981.72,"10.1103/physrevx.8.041035",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","2160-3308","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Cambridge",2019,2600.77,"10.1016/j.bbrc.2019.02.045",TRUE,"Elsevier BV","Biochemical and Biophysical Research Communications","0006-291X","0006-291X",NA,"0006-291X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30773262","PMC6405440",NA,NA,FALSE
@@ -8294,7 +8294,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,3241.33,"10.1371/journal.pbio.2005479",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","1544-9173","http://creativecommons.org/licenses/by/4.0/",TRUE,"29965966","PMC6044544",NA,NA,TRUE
 "University of St Andrews",2018,4478.37,"10.1038/s41467-018-07248-0",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30446665","PMC6240115",NA,NA,TRUE
 "UCL",2018,1131.78,"10.1109/jiot.2018.2825098",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Internet of Things Journal","2327-4662",NA,"2327-4662","2327-4662",NA,TRUE,NA,NA,NA,NA,FALSE
-"Brunel University",2018,594.06,"10.1177/1756829318822327",NA,"SAGE Publications","International Journal of Micro Air Vehicles","1756-8293","1756-8293","1756-8307","1756-8293","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,TRUE
+"Brunel University",2018,594.06,"10.1177/1756829318822327",FALSE,"SAGE Publications","International Journal of Micro Air Vehicles","1756-8293","1756-8293","1756-8307","1756-8293","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,TRUE
 "University of Edinburgh",2018,2199.74,"10.3389/fncel.2018.00481",FALSE,"Frontiers Media SA","Frontiers in Cellular Neuroscience","1662-5102",NA,"1662-5102","1662-5102","https://creativecommons.org/licenses/by/4.0/",TRUE,"30581379","PMC6292960",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -8328,7 +8328,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Nottingham",2019,2616.09,"10.3389/fmicb.2018.02355",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X","https://creativecommons.org/licenses/by/4.0/",TRUE,"30349511","PMC6186996",NA,NA,TRUE
 "University of Newcastle",2019,1816.3,"10.1038/s41598-019-41483-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30911037","PMC6434145",NA,NA,TRUE
 "Imperial College London",2019,3152.97,"10.1210/er.2017-00236",TRUE,"The Endocrine Society","Endocrine Reviews","0163-769X","0163-769X","1945-7189","0163-769X","https://creativecommons.org/licenses/by/4.0/",TRUE,"29982525","PMC6173475",NA,NA,FALSE
-"University of Birmingham",2018,678.19,"10.1039/c8ra05533e",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Birmingham",2018,678.19,"10.1039/c8ra05533e",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Durham",2018,4379.54,"10.1021/acsmedchemlett.8b00420",TRUE,"American Chemical Society (ACS)","ACS Medicinal Chemistry Letters","1948-5875","1948-5875","1948-5875","1948-5875","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30613343","PMC6295855",NA,NA,FALSE
 "University of Cambridge",2018,2586.61,"10.7554/elife.35783",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30028294","PMC6092120",NA,NA,TRUE
@@ -8556,7 +8556,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2019,1988.72,"10.3389/fnsyn.2019.00005",FALSE,"Frontiers Media SA","Frontiers in Synaptic Neuroscience","1663-3563",NA,"1663-3563","1663-3563","https://creativecommons.org/licenses/by/4.0/",TRUE,"30886576","PMC6409341",NA,NA,TRUE
 "University of Nottingham",2018,2373.67,"10.1002/jrs.5450",TRUE,"Wiley-Blackwell","Journal of Raman Spectroscopy","0377-0486",NA,NA,"0377-0486","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of York",2018,681.51,"10.1039/c8ra02075b",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of York",2018,681.51,"10.1039/c8ra02075b",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "King's College London",2018,1465.73,"10.1161/jaha.118.010279",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980",NA,"2047-9980","2047-9980",NA,TRUE,"30371265","PMC6474982",NA,NA,TRUE
 "University of Manchester",2018,1530.91,"10.1021/jacs.8b08504",TRUE,"American Chemical Society (ACS)","Journal of the American Chemical Society","0002-7863","0002-7863","1520-5126","0002-7863","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"30285424","PMC6301758",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -8726,7 +8726,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1110.39,"10.1109/tvt.2018.2849263",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Vehicular Technology","0018-9545","0018-9545","1939-9359","0018-9545",NA,TRUE,NA,NA,NA,NA,FALSE
 "Imperial College London",2018,2789.1,"10.3389/fphys.2018.01302",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X","https://creativecommons.org/licenses/by/4.0/",TRUE,"30283354","PMC6157487",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Edinburgh",2018,1533.6,"10.1111/acel.12877",NA,"Wiley-Blackwell","Aging Cell","1474-9718",NA,NA,"1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30450724","PMC6351826",NA,NA,TRUE
+"University of Edinburgh",2018,1533.6,"10.1111/acel.12877",FALSE,"Wiley-Blackwell","Aging Cell","1474-9718",NA,NA,"1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30450724","PMC6351826",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2018,2576.35,"10.1017/jfm.2018.345",TRUE,"Cambridge University Press (CUP)","Journal of Fluid Mechanics","0022-1120","0022-1120","1469-7645","0022-1120","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Cambridge",2019,3331.63,"10.1089/dia.2018.0306",TRUE,"Mary Ann Liebert Inc","Diabetes Technology & Therapeutics","1520-9156","1520-9156","1557-8593","1520-9156","https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/",TRUE,"30720338","PMC6434584",NA,NA,FALSE
@@ -8826,13 +8826,13 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2018,1548.56,"10.1371/journal.pone.0206218",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30412590","PMC6226165",NA,NA,TRUE
 "University of Newcastle",2018,4450.79,"10.1038/s41467-018-06698-w",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30315163","PMC6185947",NA,NA,TRUE
 "Plymouth University",2018,2287.56,"10.1098/rspb.2018.0638",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954","0962-8452",NA,TRUE,"30089623","PMC6111183",NA,NA,FALSE
-"University of Huddersfield",2019,459.81,"10.1121/1.5096424",NA,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"31046329",NA,NA,NA,FALSE
+"University of Huddersfield",2019,459.81,"10.1121/1.5096424",FALSE,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"31046329",NA,NA,NA,FALSE
 "UCL",2018,1713.99,"10.2147/oajc.s165827",FALSE,"Informa UK Limited","Open Access Journal of Contraception","1179-1527",NA,"1179-1527","1179-1527","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"30140161","PMC6054767",NA,NA,TRUE
 "University of Oxford",2018,3367.83,"10.1080/24748706.2018.1535206",NA,"Informa UK Limited","Structural Heart","2474-8706","2474-8706","2474-8714","2474-8706",NA,TRUE,"31392296","PMC6643640",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2018,1569.74,"10.1371/journal.pone.0203712",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30286113","PMC6172016",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of York",2018,328.35,"10.3390/jsan7020018",NA,"MDPI AG","Journal of Sensor and Actuator Networks","2224-2708",NA,"2224-2708","2224-2708","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of York",2018,328.35,"10.3390/jsan7020018",FALSE,"MDPI AG","Journal of Sensor and Actuator Networks","2224-2708",NA,"2224-2708","2224-2708","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Heriot-Watt University",2019,1580.04,"10.1109/access.2019.2895731",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Access","2169-3536",NA,"2169-3536","2169-3536",NA,TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Newcastle",2019,1842.49,"10.1109/access.2019.2891815",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Access","2169-3536",NA,"2169-3536","2169-3536",NA,TRUE,NA,NA,NA,NA,TRUE
@@ -8899,7 +8899,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Liverpool School of Tropical Medicine",2018,2749.36,"10.1128/aac.00634-18",NA,"American Society for Microbiology","Antimicrobial Agents and Chemotherapy","0066-4804","0066-4804","1098-6596","0066-4804",NA,TRUE,"29784846","PMC6105794",NA,NA,FALSE
 "University of Newcastle",2018,1199.45,"10.1042/bsr20180242",FALSE,"Portland Press Ltd.","Bioscience Reports","0144-8463","0144-8463","1573-4935","0144-8463","http://creativecommons.org/licenses/by/4.0/",TRUE,"29654166","PMC5938427",NA,NA,TRUE
-"University of Newcastle",2019,2530.65,"10.1111/acel.12945",NA,"Wiley-Blackwell","Aging Cell","1474-9718","1474-9718","1474-9726","1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30920115","PMC6516151",NA,NA,TRUE
+"University of Newcastle",2019,2530.65,"10.1111/acel.12945",FALSE,"Wiley-Blackwell","Aging Cell","1474-9718","1474-9718","1474-9726","1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30920115","PMC6516151",NA,NA,TRUE
 "University of Edinburgh",2018,2753.13,"10.1128/aac.02268-17",NA,"American Society for Microbiology","Antimicrobial Agents and Chemotherapy","0066-4804","0066-4804","1098-6596","0066-4804",NA,TRUE,"29914945","PMC6125517",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -9024,7 +9024,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2019,2981.67,"10.1016/j.ijhydene.2018.10.240",TRUE,"Elsevier BV","International Journal of Hydrogen Energy","0360-3199","0360-3199",NA,"0360-3199","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Cardiff University",2019,3292.53,"10.1093/cercor/bhy347",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","http://creativecommons.org/licenses/by/4.0/",TRUE,"30668659","PMC6418869",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Birmingham",2018,678.19,"10.1039/c8ra07315e",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,"30713685","PMC6333253",NA,NA,TRUE
+"University of Birmingham",2018,678.19,"10.1039/c8ra07315e",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,"30713685","PMC6333253",NA,NA,TRUE
 "Swansea University",2018,4428.82,"10.1016/j.jclepro.2018.08.125",TRUE,"Elsevier BV","Journal of Cleaner Production","0959-6526","0959-6526",NA,"0959-6526","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Nottingham",2019,2294.26,"10.1111/mice.12427",TRUE,"Wiley-Blackwell","Computer-Aided Civil and Infrastructure Engineering","1093-9687","1093-9687","1467-8667","1093-9687","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -9201,7 +9201,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2019,4949.98,"10.1161/circinterventions.118.007577",NA,"Ovid Technologies (Wolters Kluwer Health)","Circulation: Cardiovascular Interventions","1941-7640","1941-7640","1941-7632","1941-7640",NA,TRUE,"30722688","PMC6794156",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2018,972.87,"10.1140/epjds/s13688-018-0142-z",FALSE,"Springer Nature","EPJ Data Science","2193-1127",NA,"2193-1127","2193-1127","https://creativecommons.org/licenses/by/4.0",TRUE,"31008012","PMC6448359",NA,NA,TRUE
-"University of Oxford",2018,1572.33,"10.1093/ijnp/pyy069",NA,"Oxford University Press (OUP)","International Journal of Neuropsychopharmacology","1461-1457","1461-1457","1469-5111","1461-1457","http://creativecommons.org/licenses/by/4.0/",TRUE,"30124867","PMC6209854",NA,NA,TRUE
+"University of Oxford",2018,1572.33,"10.1093/ijnp/pyy069",FALSE,"Oxford University Press (OUP)","International Journal of Neuropsychopharmacology","1461-1457","1461-1457","1469-5111","1461-1457","http://creativecommons.org/licenses/by/4.0/",TRUE,"30124867","PMC6209854",NA,NA,TRUE
 "University of Edinburgh",2018,640.58,"10.1080/23273798.2018.1552008",TRUE,"Informa UK Limited","Language, Cognition and Neuroscience","2327-3798","2327-3798","2327-3801","2327-3798","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of the West of England",2018,2127.75,"10.1016/j.jth.2018.05.014",TRUE,"Elsevier BV","Journal of Transport & Health","2214-1405","2214-1405",NA,"2214-1405","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "King's College London",2018,3181.24,"10.1016/j.scitotenv.2018.08.122",TRUE,"Elsevier BV","Science of The Total Environment","0048-9697","0048-9697",NA,"0048-9697","http://creativecommons.org/licenses/by/4.0/",TRUE,"30114591","PMC6234108",NA,NA,FALSE
@@ -9442,7 +9442,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2019,1560.16,"10.1136/bmjopen-2018-025265",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30833321","PMC6443051",NA,NA,TRUE
 "UCL",2018,1544.24,"10.1136/bmjopen-2018-022035",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30127051","PMC6104763",NA,NA,TRUE
 "University of Dundee",2019,696.67,"10.1051/0004-6361/201834284",TRUE,"EDP Sciences","Astronomy & Astrophysics","0004-6361","0004-6361","1432-0746","0004-6361",NA,TRUE,NA,NA,NA,NA,FALSE
-"Cardiff University",2018,1806.57,"10.1017/jog.2018.76",NA,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"Cardiff University",2018,1806.57,"10.1017/jog.2018.76",FALSE,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Edinburgh",2018,4814.65,"10.1093/restud/rdy059",NA,"Oxford University Press (OUP)","The Review of Economic Studies","0034-6527","0034-6527","1467-937X","0034-6527","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Manchester",2018,1466.31,"10.1080/17482631.2018.1490623",FALSE,"Informa UK Limited","International Journal of Qualitative Studies on Health and Well-being","1748-2631",NA,"1748-2631","1748-2623","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"29989497","PMC6041821",NA,NA,TRUE
 "UCL",2019,2270.16,"10.1136/jnnp-2018-320151",TRUE,"BMJ","Journal of Neurology, Neurosurgery & Psychiatry","0022-3050","0022-3050","1468-330X","0022-3050",NA,TRUE,"30867224","PMC6585258",NA,NA,FALSE
@@ -9454,7 +9454,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2018,1595.16,"10.1038/s41598-018-26656-2",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"29844496","PMC5974271",NA,NA,TRUE
 "King's College London",2018,421.15,"10.3389/fpsyt.2018.00293",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","1664-0640","https://creativecommons.org/licenses/by/4.0/",TRUE,"30018574","PMC6038671",NA,NA,TRUE
-"Imperial College London",2019,1579.51,"10.1093/nc/niz003",NA,"Oxford University Press (OUP)","Neuroscience of Consciousness","2057-2107",NA,"2057-2107","2057-2107","http://creativecommons.org/licenses/by/4.0/",TRUE,"31024740","PMC6475593",NA,NA,TRUE
+"Imperial College London",2019,1579.51,"10.1093/nc/niz003",FALSE,"Oxford University Press (OUP)","Neuroscience of Consciousness","2057-2107",NA,"2057-2107","2057-2107","http://creativecommons.org/licenses/by/4.0/",TRUE,"31024740","PMC6475593",NA,NA,TRUE
 "Cardiff University",2018,3364.11,"10.1038/s41398-018-0339-8",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","http://creativecommons.org/licenses/by/4.0",TRUE,"30664628","PMC6341088",NA,NA,TRUE
 "King's College London",2018,2529.02,"10.1017/s2045796018000537",TRUE,"Cambridge University Press (CUP)","Epidemiology and Psychiatric Sciences","2045-7960","2045-7960","2045-7979","2045-7960","http://creativecommons.org/licenses/by/4.0/",TRUE,"30196801","PMC6330078",NA,NA,FALSE
 "University of Exeter",2019,826.63,"10.1080/13607863.2019.1566811",TRUE,"Informa UK Limited","Aging & Mental Health","1360-7863","1360-7863","1364-6915","1360-7863","http://creativecommons.org/licenses/by/4.0/",TRUE,"30836765",NA,NA,NA,FALSE
@@ -9507,7 +9507,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2018,4116.7,"10.1097/rli.0000000000000470",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Investigative Radiology","0020-9996","0020-9996",NA,"0020-9996",NA,TRUE,"29969108",NA,NA,NA,FALSE
 "University of Newcastle",2018,1827.02,"10.1029/2017wr022421",TRUE,"American Geophysical Union (AGU)","Water Resources Research","0043-1397",NA,NA,"0043-1397","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Edinburgh",2019,2610.38,"10.1016/j.jalz.2019.01.013",TRUE,"Elsevier BV","Alzheimer's & Dementia","1552-5260","1552-5260",NA,"1552-5260","http://creativecommons.org/licenses/by/4.0/",TRUE,"31031101","PMC6565805",NA,NA,FALSE
-"University of York",2018,1756.92,"10.1017/jog.2018.71",NA,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of York",2018,1756.92,"10.1017/jog.2018.71",FALSE,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Manchester",2018,2540.63,"10.1093/bioinformatics/btx630",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059","1367-4803","http://creativecommons.org/licenses/by/4.0/",TRUE,"29091994","PMC5860625",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2018,2215.26,"10.1016/j.concog.2018.08.009",TRUE,"Elsevier BV","Consciousness and Cognition","1053-8100","1053-8100",NA,"1053-8100","http://creativecommons.org/licenses/by/4.0/",TRUE,"30219289","PMC6204883",NA,NA,FALSE
@@ -9531,7 +9531,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Newcastle",2019,5191.87,"10.1016/j.celrep.2019.01.010",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by/4.0/",TRUE,"30655224","PMC6513570",NA,NA,TRUE
 "University of Oxford",2019,4765.16,"10.1038/s41467-019-08893-9",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"30816109","PMC6395764",NA,NA,TRUE
 "University of St Andrews",2019,1773.95,"10.1038/s41598-019-40773-6",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30867486","PMC6416353",NA,NA,TRUE
-"UCL",2018,512.26,"10.3390/diagnostics8030049",NA,"MDPI AG","Diagnostics","2075-4418",NA,"2075-4418","2075-4418","https://creativecommons.org/licenses/by/4.0/",TRUE,"30060509","PMC6163663",NA,NA,TRUE
+"UCL",2018,512.26,"10.3390/diagnostics8030049",FALSE,"MDPI AG","Diagnostics","2075-4418",NA,"2075-4418","2075-4418","https://creativecommons.org/licenses/by/4.0/",TRUE,"30060509","PMC6163663",NA,NA,TRUE
 "University of Birmingham",2017,3137.63,"10.1210/jc.2017-01481",TRUE,"The Endocrine Society","The Journal of Clinical Endocrinology & Metabolism","0021-972X","0021-972X","1945-7197","0021-972X","https://creativecommons.org/licenses/by/4.0/",TRUE,"29165577","PMC6018658",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2019,2282.87,"10.1111/resp.13485",TRUE,"Wiley-Blackwell","Respirology","1323-7799","1323-7799","1440-1843","1323-7799","http://creativecommons.org/licenses/by/4.0/",TRUE,"30786325","PMC6519024",NA,NA,FALSE
@@ -9638,7 +9638,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1334.66,"10.1109/tuffc.2017.2748886",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control","0885-3010","0885-3010","1525-8955","0885-3010",NA,TRUE,"28880170",NA,NA,NA,FALSE
 "Aberystwyth University",2018,1658.93,"10.3389/feart.2018.00047",FALSE,"Frontiers Media SA","Frontiers in Earth Science","2296-6463",NA,"2296-6463","2296-6463","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Nottingham",2018,2340.2,"10.1016/j.optlaseng.2018.08.018",NA,"Elsevier BV","Optics and Lasers in Engineering","0143-8166","0143-8166",NA,"0143-8166","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"University of Cambridge",2019,3618.16,"10.1038/s41378-019-0072-3",NA,"Springer Nature","Microsystems & Nanoengineering","2055-7434",NA,"2055-7434","2055-7434","https://creativecommons.org/licenses/by/4.0",TRUE,"31636924","PMC6799820",NA,NA,TRUE
+"University of Cambridge",2019,3618.16,"10.1038/s41378-019-0072-3",FALSE,"Springer Nature","Microsystems & Nanoengineering","2055-7434",NA,"2055-7434","2055-7434","https://creativecommons.org/licenses/by/4.0",TRUE,"31636924","PMC6799820",NA,NA,TRUE
 "Aberystwyth University",2019,1200.23,"10.1007/s11306-019-1501-x",TRUE,"Springer Nature","Metabolomics","1573-3882","1573-3882","1573-3890","1573-3882","https://creativecommons.org/licenses/by/4.0",TRUE,"30868357","PMC6476850",NA,NA,FALSE
 "University of Cambridge",2019,3288.77,"10.1523/jneurosci.1934-18.2019",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474",NA,TRUE,"30850511","PMC6520503",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -9724,7 +9724,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Queen's University Belfast",2018,1603.93,"10.1088/1367-2630/aaecee",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Liverpool",2018,1274.5,"10.1029/2018gl077849",TRUE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276",NA,NA,"0094-8276","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Edinburgh",2018,1546.68,"10.1111/acel.12868",NA,"Wiley-Blackwell","Aging Cell","1474-9718",NA,NA,"1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30456818","PMC6352320",NA,NA,TRUE
+"University of Edinburgh",2018,1546.68,"10.1111/acel.12868",FALSE,"Wiley-Blackwell","Aging Cell","1474-9718",NA,NA,"1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30456818","PMC6352320",NA,NA,TRUE
 "UCL",2018,4432.51,"10.1038/s41467-018-05873-3",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30158519","PMC6115433",NA,NA,TRUE
 "University of Liverpool",2018,1577.41,"10.1111/hex.12853",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513","1369-6513","1369-7625","1369-6513","http://creativecommons.org/licenses/by/4.0/",TRUE,"30478979","PMC6543140",NA,NA,TRUE
 "University of Exeter",2018,2866.04,"10.1364/oe.26.025567",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","http://creativecommons.org/licenses/by/4.0/",TRUE,"30469657",NA,NA,NA,TRUE
@@ -9752,7 +9752,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of York",2018,2610.97,"10.1016/j.worlddev.2018.05.006",TRUE,"Elsevier BV","World Development","0305-750X","0305-750X",NA,"0305-750X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,2308.48,"10.1098/rsta.2018.0268",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences","1364-503X","1364-503X","1471-2962","1364-503X",NA,TRUE,"30967073","PMC6335285",NA,NA,FALSE
-"Cardiff University",2018,1697.59,"10.1097/md.0000000000013238",NA,"Ovid Technologies (Wolters Kluwer Health)","Medicine","0025-7974","0025-7974",NA,"0025-7974",NA,TRUE,"30544383","PMC6310498",NA,NA,TRUE
+"Cardiff University",2018,1697.59,"10.1097/md.0000000000013238",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Medicine","0025-7974","0025-7974",NA,"0025-7974",NA,TRUE,"30544383","PMC6310498",NA,NA,TRUE
 "University of Oxford",2018,1863.78,"10.1016/j.bpj.2018.03.028",TRUE,"Elsevier BV","Biophysical Journal","0006-3495","0006-3495",NA,"0006-3495","http://creativecommons.org/licenses/by/4.0/",TRUE,"29680157","PMC6050715",NA,NA,FALSE
 "University of Oxford",2019,2326.45,"10.1080/09537287.2018.1540055",TRUE,"Informa UK Limited","Production Planning & Control","0953-7287","0953-7287","1366-5871","0953-7287","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "UCL",2018,4584.73,"10.1016/j.devcel.2018.05.003",TRUE,"Elsevier BV","Developmental Cell","1534-5807","1534-5807",NA,"1534-5807","http://creativecommons.org/licenses/by/4.0/",TRUE,"29870718","PMC5988567",NA,NA,FALSE
@@ -9796,7 +9796,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bath",2018,1534.79,"10.1093/gbe/evy075",FALSE,"Oxford University Press (OUP)","Genome Biology and Evolution","1759-6653",NA,"1759-6653","1759-6653","http://creativecommons.org/licenses/by/4.0/",TRUE,"29617761","PMC5909447",NA,NA,TRUE
 "University of Liverpool",2019,631.75,"10.1080/14615517.2018.1560667",NA,"Informa UK Limited","Impact Assessment and Project Appraisal","1461-5517","1461-5517","1471-5465","1461-5517","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Manchester",2018,1773.3,"10.1098/rspa.2017.0864",TRUE,"The Royal Society","Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences","1364-5021","1364-5021","1471-2946","1364-5021",NA,TRUE,"29740262","PMC5938676",NA,NA,FALSE
-"University of Strathclyde",2018,1491.43,"10.1017/hpl.2018.63",NA,"Cambridge University Press (CUP)","High Power Laser Science and Engineering","2095-4719","2095-4719","2052-3289","2052-3289","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Strathclyde",2018,1491.43,"10.1017/hpl.2018.63",FALSE,"Cambridge University Press (CUP)","High Power Laser Science and Engineering","2095-4719","2095-4719","2052-3289","2052-3289","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,2545.33,"10.7554/elife.34817",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30019672","PMC6078492",NA,NA,TRUE
 "Queen's University Belfast",2018,717.34,"10.3389/fcvm.2018.00109",FALSE,"Frontiers Media SA","Frontiers in Cardiovascular Medicine","2297-055X",NA,"2297-055X","2297-055X","https://creativecommons.org/licenses/by/4.0/",TRUE,"30177971","PMC6109758",NA,NA,TRUE
@@ -9880,7 +9880,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Nottingham",2019,3504.63,"10.1021/acsami.8b22075",TRUE,"American Chemical Society (ACS)","ACS Applied Materials & Interfaces","1944-8244","1944-8244","1944-8252","1944-8244","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30735349",NA,NA,NA,FALSE
 "University of Nottingham",2018,3519.65,"10.1016/j.scitotenv.2018.11.330",TRUE,"Elsevier BV","Science of The Total Environment","0048-9697","0048-9697",NA,"0048-9697","http://creativecommons.org/licenses/by/4.0/",TRUE,"30577107",NA,NA,NA,FALSE
 "University of Manchester",2019,1765.97,"10.3390/s19010190",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"30621077","PMC6338981",NA,NA,TRUE
-"Imperial College London",2019,1648.01,"10.1017/aog.2019.4",NA,"Cambridge University Press (CUP)","Annals of Glaciology","0260-3055","0260-3055","1727-5644","0260-3055","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"Imperial College London",2019,1648.01,"10.1017/aog.2019.4",FALSE,"Cambridge University Press (CUP)","Annals of Glaciology","0260-3055","0260-3055","1727-5644","0260-3055","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2018,1475.32,"10.2147/imcrj.s178816",FALSE,"Informa UK Limited","International Medical Case Reports Journal","1179-142X",NA,"1179-142X","1179-142X","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"30568516","PMC6267697",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -9930,7 +9930,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2019,1847.81,"10.1080/10486801.2015.1049819",NA,"Informa UK Limited","Contemporary Theatre Review","1048-6801","1048-6801","1477-2264","1048-6801","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Imperial College London",2019,4640.11,"10.1038/s41467-019-08689-x",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"30770826","PMC6377644",NA,NA,TRUE
 "University of Exeter",2019,3092.68,"10.1016/j.coastaleng.2019.03.008",TRUE,"Elsevier BV","Coastal Engineering","0378-3839","0378-3839",NA,"0378-3839","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"University of Cambridge",2018,1626.57,"10.1017/jog.2018.54",NA,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Cambridge",2018,1626.57,"10.1017/jog.2018.54",FALSE,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2018,680.02,"10.1088/2399-6528/aae86a",FALSE,"IOP Publishing","Journal of Physics Communications","2399-6528",NA,"2399-6528","2399-6528","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "Cardiff University",2018,2763.61,"10.1364/ol.43.001978",TRUE,"Optical Society of America (OSA)","Optics Letters","0146-9592","0146-9592","1539-4794","0146-9592",NA,TRUE,"29714725",NA,NA,NA,FALSE
@@ -9943,7 +9943,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2018,2674.37,"10.1093/afraf/ady010",TRUE,"Oxford University Press (OUP)","African Affairs","0001-9909","0001-9909","1468-2621","0001-9909","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Liverpool",2019,2199.97,"10.1103/physreve.99.022217",TRUE,"American Physical Society (APS)","Physical Review E","2470-0045","2470-0045","2470-0053","2470-0045","https://creativecommons.org/licenses/by/4.0/",TRUE,"30934367",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2019,1802.25,"10.1017/jog.2019.18",NA,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Cambridge",2019,1802.25,"10.1017/jog.2019.18",FALSE,"Cambridge University Press (CUP)","Journal of Glaciology","0022-1430","0022-1430","1727-5652","0022-1430","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Oxford",2018,2159.48,"10.1103/physreve.98.063111",TRUE,"American Physical Society (APS)","Physical Review E","2470-0045","2470-0045","2470-0053","2470-0045","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Brunel University",2019,394.98,"10.3390/pr7030125",FALSE,"MDPI AG","Processes","2227-9717",NA,"2227-9717","2227-9717","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -9980,7 +9980,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Oxford",2018,4605.87,"10.1172/jci96138",NA,"American Society for Clinical Investigation","Journal of Clinical
+"University of Oxford",2018,4605.87,"10.1172/jci96138",FALSE,"American Society for Clinical Investigation","Journal of Clinical
                     Investigation","0021-9738","0021-9738","1558-8238","0021-9738",NA,TRUE,"30179226","PMC6160001",NA,NA,FALSE
 "University of Edinburgh",2018,2981.94,"10.1038/s41380-018-0292-1",TRUE,"Springer Nature","Molecular Psychiatry","1359-4184","1359-4184","1476-5578","1359-4184","https://creativecommons.org/licenses/by/4.0",TRUE,"30401811","PMC6344377",NA,NA,FALSE
 "University of Oxford",2019,2855.58,"10.1016/j.ijhydene.2019.01.144",TRUE,"Elsevier BV","International Journal of Hydrogen Energy","0360-3199","0360-3199",NA,"0360-3199","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -10092,7 +10092,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Edinburgh",2019,3517.99,"10.1242/dmm.037804",FALSE,"The Company of Biologists","Disease Models & Mechanisms","1754-8403","1754-8403","1754-8411","1754-8403","http://creativecommons.org/licenses/by/4.0",TRUE,"31028034","PMC6505480",NA,NA,TRUE
 "University of Cambridge",2019,3150.32,"10.1016/j.ajpath.2018.10.015",TRUE,"Elsevier BV","The American Journal of Pathology","0002-9440","0002-9440",NA,"0002-9440","http://creativecommons.org/licenses/by/4.0/",TRUE,"30448406","PMC6360351",NA,NA,FALSE
 "Imperial College London",2018,1704.12,"10.3390/ijms19103028",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"30287763","PMC6213383",NA,NA,TRUE
-"University of Strathclyde",2018,1469.82,"10.1017/hpl.2018.75",NA,"Cambridge University Press (CUP)","High Power Laser Science and Engineering","2095-4719","2095-4719","2052-3289","2052-3289","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Strathclyde",2018,1469.82,"10.1017/hpl.2018.75",FALSE,"Cambridge University Press (CUP)","High Power Laser Science and Engineering","2095-4719","2095-4719","2052-3289","2052-3289","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Edinburgh",2019,4355.15,"10.1016/j.ceb.2019.03.007",TRUE,"Elsevier BV","Current Opinion in Cell Biology","0955-0674","0955-0674",NA,"0955-0674","http://creativecommons.org/licenses/by/4.0/",TRUE,"31009871","PMC6694202",NA,NA,FALSE
 "University of Newcastle",2019,3506.54,"10.1016/j.jenvman.2018.11.141",TRUE,"Elsevier BV","Journal of Environmental Management","0301-4797","0301-4797",NA,"0301-4797","http://creativecommons.org/licenses/by/4.0/",TRUE,"30771680",NA,NA,NA,FALSE
 "University of Birmingham",2018,772.26,"10.3389/fbuil.2018.00030",FALSE,"Frontiers Media SA","Frontiers in Built Environment","2297-3362",NA,"2297-3362","2297-3362","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -10481,7 +10481,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2018,4435.73,"10.1038/s41467-018-06397-6",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30323298","PMC6189196",NA,NA,TRUE
 "UCL",2018,1107.84,"10.1109/jlt.2018.2864145",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","Journal of Lightwave Technology","0733-8724","0733-8724","1558-2213","0733-8724",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Loughborough",2018,1684.11,"10.1111/ijac.13012",NA,"Wiley-Blackwell","International Journal of Applied Ceramic Technology","1546-542X",NA,NA,"1546-542X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"UCL",2019,664.36,"10.1039/c8ra09338e",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"UCL",2019,664.36,"10.1039/c8ra09338e",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -11034,7 +11034,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Manchester Metropolitan University",2018,3203.46,"10.1016/j.jelekin.2018.02.009",TRUE,"Elsevier BV","Journal of Electromyography and Kinesiology","1050-6411","1050-6411",NA,"1050-6411","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29506007",NA,NA,NA,FALSE
 "University of Edinburgh",2018,1101.47,"10.5194/acp-18-14787-2018",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Queen's University Belfast",2019,2083.38,"10.1371/journal.pntd.0007087",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"30657764","PMC6355031",NA,NA,TRUE
-"University of Exeter",2018,689.24,"10.1039/c8ra07952h",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Exeter",2018,689.24,"10.1039/c8ra07952h",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Nottingham",2018,2617.75,"10.1088/1361-6463/aaf849",TRUE,"IOP Publishing","Journal of Physics D: Applied Physics","0022-3727","0022-3727","1361-6463","0022-3727","http://creativecommons.org/licenses/by/3.0/",TRUE,"30867618","PMC6380809",NA,NA,FALSE
 "University of Dundee",2018,2207.6,"10.1021/acs.jmedchem.8b00842",TRUE,"American Chemical Society (ACS)","Journal of Medicinal Chemistry","0022-2623","0022-2623","1520-4804","0022-2623","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30040896","PMC6109845",NA,NA,FALSE
@@ -11071,7 +11071,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Manchester Metropolitan University",2018,4317.04,"10.1016/j.jclepro.2018.10.078",TRUE,"Elsevier BV","Journal of Cleaner Production","0959-6526","0959-6526",NA,"0959-6526","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Swansea University",2018,3444.86,"10.1016/j.energy.2018.10.053",TRUE,"Elsevier BV","Energy","0360-5442","0360-5442",NA,"0360-5442","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Edinburgh",2018,1276.64,"10.1371/journal.pone.0193766",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29570702","PMC5865708",NA,NA,TRUE
-"University of Liverpool",2018,667.11,"10.1039/c8ra04446e",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Liverpool",2018,667.11,"10.1039/c8ra04446e",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2018,4393.41,"10.1038/s41467-018-07632-w",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30518870","PMC6281590",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -11113,7 +11113,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Newcastle",2018,3504.12,"10.1016/j.msec.2018.04.101",TRUE,"Elsevier BV","Materials Science and Engineering: C","0928-4931","0928-4931",NA,"0928-4931","http://creativecommons.org/licenses/by/4.0/",TRUE,"30033251",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,1763.72,"10.1021/acs.chemmater.8b04056",TRUE,"American Chemical Society (ACS)","Chemistry of Materials","0897-4756","0897-4756","1520-5002","0897-4756","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,NA,NA,NA,NA,FALSE
-"University of Manchester",2018,661.67,"10.1039/c8ra04917c",NA,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"University of Manchester",2018,661.67,"10.1039/c8ra04917c",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Durham",2018,2850.04,"10.1016/j.jfluchem.2018.06.006",TRUE,"Elsevier BV","Journal of Fluorine Chemistry","0022-1139","0022-1139",NA,"0022-1139","http://creativecommons.org/licenses/by/4.0/",TRUE,"30078911","PMC6039762",NA,NA,FALSE
 "UCL",2019,1203.74,"10.1039/c8ce01778f",TRUE,"Royal Society of Chemistry (RSC)","CrystEngComm","1466-8033",NA,"1466-8033","1466-8033","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -11170,7 +11170,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2018,2969.89,"10.1038/s41522-018-0056-3",FALSE,"Springer Nature","npj Biofilms and Microbiomes","2055-5008",NA,"2055-5008","2055-5008","https://creativecommons.org/licenses/by/4.0",TRUE,"29977590","PMC6026129",NA,NA,TRUE
 "University of Cambridge",2018,2373.67,"10.1042/cs20171285",TRUE,"Portland Press Ltd.","Clinical Science","0143-5221","0143-5221","1470-8736","0143-5221","http://creativecommons.org/licenses/by/4.0/",TRUE,"29222092","PMC6365593",NA,NA,FALSE
-"University of Cambridge",2019,1228.81,"10.1093/rb/rbz015",NA,"Oxford University Press (OUP)","Regenerative Biomaterials","2056-3418","2056-3418","2056-3426","2056-3426","http://creativecommons.org/licenses/by/4.0/",TRUE,"31616565","PMC6783698",NA,NA,TRUE
+"University of Cambridge",2019,1228.81,"10.1093/rb/rbz015",FALSE,"Oxford University Press (OUP)","Regenerative Biomaterials","2056-3418","2056-3418","2056-3426","2056-3426","http://creativecommons.org/licenses/by/4.0/",TRUE,"31616565","PMC6783698",NA,NA,TRUE
 "University of Oxford",2019,538.2,"10.3390/cancers11020268",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"30823564","PMC6406485",NA,NA,TRUE
 "Cardiff University",2018,3616.83,"10.1016/j.biopsych.2018.08.022",TRUE,"Elsevier BV","Biological Psychiatry","0006-3223","0006-3223",NA,"0006-3223","http://creativecommons.org/licenses/by/4.0/",TRUE,"30420267","PMC6428681",NA,NA,FALSE
 "University of Oxford",2019,5222.51,"10.1021/acsami.8b17162",TRUE,"American Chemical Society (ACS)","ACS Applied Materials & Interfaces","1944-8244","1944-8244","1944-8252","1944-8244","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30688055","PMC6385080",NA,NA,FALSE
@@ -11383,7 +11383,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of York",2018,2673.58,"10.1136/tobaccocontrol-2018-054264",TRUE,"BMJ","Tobacco Control","0964-4563","0964-4563","1468-3318","0964-4563",NA,TRUE,"29941544","PMC6317438",NA,NA,FALSE
 "UCL",2018,749.44,"10.5334/ai.356",FALSE,"Ubiquity Press, Ltd.","Archaeology International","2048-4194","1463-1725","2048-4194","1463-1725",NA,TRUE,NA,NA,NA,NA,TRUE
 "University of Nottingham",2018,2357.36,"10.1002/biot.201700711",TRUE,"Wiley-Blackwell","Biotechnology Journal","1860-6768",NA,NA,"1860-6768","http://creativecommons.org/licenses/by/4.0/",TRUE,"29660854",NA,NA,NA,FALSE
-"University of Newcastle",2018,1838.91,"10.1111/acel.12848",NA,"Wiley-Blackwell","Aging Cell","1474-9718",NA,NA,"1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30462359","PMC6351849",NA,NA,TRUE
+"University of Newcastle",2018,1838.91,"10.1111/acel.12848",FALSE,"Wiley-Blackwell","Aging Cell","1474-9718",NA,NA,"1474-9718","http://creativecommons.org/licenses/by/4.0/",TRUE,"30462359","PMC6351849",NA,NA,TRUE
 "University of Cambridge",2018,1542.77,"10.1371/journal.pone.0198273",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30052646","PMC6063395",NA,NA,TRUE
 "University of Birmingham",2018,3627.76,"10.1128/mbio.00966-18",FALSE,"American Society for Microbiology","mBio","2150-7511",NA,"2150-7511","2150-7511","https://creativecommons.org/licenses/by/4.0/",TRUE,"29991587","PMC6050953",NA,NA,TRUE
 "Cardiff University",2018,2540.53,"10.1111/bioe.12446",TRUE,"Wiley-Blackwell","Bioethics","0269-9702",NA,NA,"0269-9702","http://creativecommons.org/licenses/by/4.0/",TRUE,"29676501","PMC5947612",NA,NA,FALSE
@@ -12037,7 +12037,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,2463.5,"10.1186/s13075-018-1649-1",FALSE,"Springer Nature","Arthritis Research & Therapy","1478-6362",NA,"1478-6362","1478-6354","http://creativecommons.org/licenses/by/4.0/",TRUE,"30053827","PMC6062988",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2018,2028.21,"10.1332/174426418x15378681544353",TRUE,"Bristol University Press","Evidence & Policy: A Journal of Research, Debate and Practice","1744-2648","1744-2648",NA,"1744-2648",NA,TRUE,NA,NA,NA,NA,FALSE
-"Queen's University Belfast",2019,1903.78,"10.1080/20004214.2019.1568791",NA,"Informa UK Limited","Journal of Aesthetics & Culture","2000-4214",NA,"2000-4214","2000-4214","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"Queen's University Belfast",2019,1903.78,"10.1080/20004214.2019.1568791",FALSE,"Informa UK Limited","Journal of Aesthetics & Culture","2000-4214",NA,"2000-4214","2000-4214","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Nottingham",2019,1775.53,"10.1038/s41598-019-41140-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30886197","PMC6423048",NA,NA,TRUE
 "King's College London",2018,3320.97,"10.1038/s41386-018-0289-0",TRUE,"Springer Nature","Neuropsychopharmacology","0893-133X","0893-133X","1740-634X","0893-133X","http://creativecommons.org/licenses/by/4.0",TRUE,"30559463","PMC6372618",NA,NA,FALSE
 "University of Cambridge",2018,676.5,"10.1080/00076791.2018.1534959",TRUE,"Informa UK Limited","Business History","0007-6791","0007-6791","1743-7938","0007-6791","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -12127,7 +12127,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2018,1541.93,"10.1074/jbc.ra117.000881",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X","0021-9258",NA,TRUE,"29259125","PMC5818171",NA,NA,FALSE
 "King's College London",2018,2929.1,"10.1093/carcin/bgy058",TRUE,"Oxford University Press (OUP)","Carcinogenesis","0143-3334","0143-3334","1460-2180","0143-3334","http://creativecommons.org/licenses/by/4.0/",TRUE,"29726902","PMC6124610",NA,NA,FALSE
 "University of Liverpool",2018,2994.86,"10.1097/spc.0000000000000391",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Current Opinion in Supportive and Palliative Care","1751-4258","1751-4258",NA,"1751-4258",NA,TRUE,"30300154","PMC6221434",NA,NA,FALSE
-"University of Edinburgh",2018,807.92,"10.1186/s40104-018-0270-0",NA,"Springer Nature","Journal of Animal Science and Biotechnology","2049-1891",NA,"2049-1891","1674-9782","http://creativecommons.org/licenses/by/4.0/",TRUE,"30128149","PMC6091159",NA,NA,TRUE
+"University of Edinburgh",2018,807.92,"10.1186/s40104-018-0270-0",FALSE,"Springer Nature","Journal of Animal Science and Biotechnology","2049-1891",NA,"2049-1891","1674-9782","http://creativecommons.org/licenses/by/4.0/",TRUE,"30128149","PMC6091159",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2018,1400.66,"10.1186/s12960-018-0305-9",FALSE,"Springer Nature","Human Resources for Health","1478-4491",NA,"1478-4491","1478-4491","http://creativecommons.org/licenses/by/4.0/",TRUE,"30176899","PMC6122658",NA,NA,TRUE
 "UCL",2019,2412.65,"10.3389/fpsyg.2019.00560",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"30930822","PMC6428744",NA,NA,TRUE
@@ -12361,7 +12361,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,3565.64,"10.1016/j.chroma.2018.06.054",TRUE,"Elsevier BV","Journal of Chromatography A","0021-9673","0021-9673",NA,"0021-9673","http://creativecommons.org/licenses/by/4.0/",TRUE,"29970222",NA,NA,NA,FALSE
 "University of Manchester",2018,2313.58,"10.1088/1361-6420/aac51e",TRUE,"IOP Publishing","Inverse Problems","0266-5611","0266-5611","1361-6420","0266-5611","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
-"UCL",2018,1945.9,"10.1121/1.5057109",NA,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"30404490",NA,NA,NA,FALSE
+"UCL",2018,1945.9,"10.1121/1.5057109",FALSE,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"30404490",NA,NA,NA,FALSE
 "University of Newcastle",2018,3061.2,"10.1124/dmd.118.081844",TRUE,"American Society for Pharmacology & Experimental Therapeutics (ASPET)","Drug Metabolism and Disposition","0090-9556","0090-9556","1521-009X","0090-9556",NA,TRUE,"29884651",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,3618.47,"10.1016/j.cej.2018.09.137",TRUE,"Elsevier BV","Chemical Engineering Journal","1385-8947","1385-8947",NA,"1385-8947","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -12412,7 +12412,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Birmingham",2018,1580.19,"10.1038/s41598-018-30342-8",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30097636","PMC6086878",NA,NA,TRUE
 "University of Manchester",2018,4842.96,"10.1084/jem.20180019",TRUE,"Rockefeller University Press","The Journal of Experimental Medicine","0022-1007","0022-1007","1540-9538","0022-1007","https://creativecommons.org/licenses/by/4.0/",TRUE,"29789388","PMC5987925",NA,NA,FALSE
 "University of Edinburgh",2018,2628.33,"10.1016/j.isci.2018.11.031",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30529950","PMC6287089",NA,NA,TRUE
-"UCL",2018,2553.63,"10.1038/s41514-018-0024-4",NA,"Springer Nature","npj Aging and Mechanisms of Disease","2056-3973",NA,"2056-3973","2056-3973","https://creativecommons.org/licenses/by/4.0",TRUE,"29675265","PMC5904217",NA,NA,TRUE
+"UCL",2018,2553.63,"10.1038/s41514-018-0024-4",FALSE,"Springer Nature","npj Aging and Mechanisms of Disease","2056-3973",NA,"2056-3973","2056-3973","https://creativecommons.org/licenses/by/4.0",TRUE,"29675265","PMC5904217",NA,NA,TRUE
 "Queen's University Belfast",2019,2773.62,"10.1093/hwj/dbz003",TRUE,"Oxford University Press (OUP)","History Workshop Journal","1363-3554","1363-3554","1477-4569","1363-3554","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,3000.92,"10.1038/s41419-018-1131-7",FALSE,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889","https://creativecommons.org/licenses/by/4.0",TRUE,"30356039","PMC6200809",NA,NA,TRUE
@@ -12493,7 +12493,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,2030.46,"10.1016/j.proci.2018.06.106",TRUE,"Elsevier BV","Proceedings of the Combustion Institute","1540-7489","1540-7489",NA,"1540-7489","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Oxford",2019,2671.92,"10.1093/infdis/jiz085",TRUE,"Oxford University Press (OUP)","Journal of Infectious Diseases","0022-1899","0022-1899","1537-6613","0022-1899","http://creativecommons.org/licenses/by/4.0/",TRUE,"30805610","PMC6581889",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Dundee",2018,2553.19,"10.1111/pbi.12997",NA,"Wiley-Blackwell","Plant Biotechnology Journal","1467-7644",NA,NA,"1467-7644","http://creativecommons.org/licenses/by/4.0/",TRUE,"30107090","PMC6335062",NA,NA,FALSE
+"University of Dundee",2018,2553.19,"10.1111/pbi.12997",FALSE,"Wiley-Blackwell","Plant Biotechnology Journal","1467-7644",NA,NA,"1467-7644","http://creativecommons.org/licenses/by/4.0/",TRUE,"30107090","PMC6335062",NA,NA,FALSE
 "University of Oxford",2019,2381.56,"10.1093/rpd/ncy300",TRUE,"Oxford University Press (OUP)","Radiation Protection Dosimetry","0144-8420","0144-8420","1742-3406","0144-8420","http://creativecommons.org/licenses/by/4.0/",TRUE,"30726978","PMC6525335",NA,NA,FALSE
 "University of Liverpool",2018,3106.53,"10.3389/fnins.2018.00910",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X","1662-453X","https://creativecommons.org/licenses/by/4.0/",TRUE,"30618548","PMC6306680",NA,NA,TRUE
 "King's College London",2018,2864.36,"10.1016/j.neuroimage.2018.05.080",TRUE,"Elsevier BV","NeuroImage","1053-8119","1053-8119",NA,"1053-8119","http://creativecommons.org/licenses/by/4.0/",TRUE,"29890323","PMC6057276",NA,NA,FALSE
@@ -12887,7 +12887,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Queen Mary, University of London",2018,2405.06,"10.1111/1755-0998.12943",TRUE,"Wiley-Blackwell","Molecular Ecology Resources","1755-098X","1755-098X","1755-0998","1755-098X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30225935",NA,NA,NA,FALSE
 "University of York",2018,3700.11,"10.1016/j.scitotenv.2018.10.344",TRUE,"Elsevier BV","Science of The Total Environment","0048-9697","0048-9697",NA,"0048-9697","http://creativecommons.org/licenses/by/4.0/",TRUE,"30759588",NA,NA,NA,FALSE
 "UCL",2019,1511.22,"10.3389/feart.2019.00006",FALSE,"Frontiers Media SA","Frontiers in Earth Science","2296-6463",NA,"2296-6463","2296-6463","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Bath",2018,1746.63,"10.1152/advan.00065.2018",NA,"American Physiological Society","Advances in Physiology Education","1043-4046","1043-4046","1522-1229","1043-4046",NA,TRUE,"30035631",NA,NA,NA,FALSE
+"University of Bath",2018,1746.63,"10.1152/advan.00065.2018",FALSE,"American Physiological Society","Advances in Physiology Education","1043-4046","1043-4046","1522-1229","1043-4046",NA,TRUE,"30035631",NA,NA,NA,FALSE
 "Swansea University",2019,1411.89,"10.1136/bmjopen-2018-023232",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30940752","PMC6500195",NA,NA,TRUE
 "University of Edinburgh",2018,1820.92,"10.3389/fphys.2018.00545",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X","https://creativecommons.org/licenses/by/4.0/",TRUE,"29867581","PMC5966630",NA,NA,TRUE
 "University of Birmingham",2019,1630.27,"10.5194/hess-23-1725-2019",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
