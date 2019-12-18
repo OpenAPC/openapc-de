@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 87,929 open access journal articles, amounting to € 171,849,739 and contributed by 251 institutions.
+At the moment this project provides cost data on 87,937 open access journal articles, amounting to € 171,860,120 and contributed by 251 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -348,9 +348,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 87,929 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 251 research performing institutions and research funders. 
+This data set contains information on 87,937 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 251 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 171,849,739. The average payment was € 1,954  and the median was € 1,755.
+In total, publication fee spending covered by the Open APC initiative amounted to € 171,860,120. The average payment was € 1,954  and the median was € 1,755.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -377,7 +377,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,576|   1,635|     1,532|  63 -  5,985|           7,775|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,567|   1,714|     1,557|  26 -  6,250|           9,800|       2,516|         2,445|       37 - 9,858|
 |2018   |       8,561|   1,675|     1,603|  13 - 12,000|           4,349|       2,670|         2,611|       18 - 8,272|
-|2019   |         768|   1,654|     1,611|  62 -  5,220|              85|       2,127|         2,164|      237 - 4,375|
+|2019   |         776|   1,651|     1,608|  62 -  5,220|              85|       2,127|         2,164|      237 - 4,375|
 
 
 
@@ -385,7 +385,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-51,591 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 81,019,481, including value-added tax; the average payment was € 1,570 (median =  € 1,484, SD = € 773).
+51,599 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 81,029,862, including value-added tax; the average payment was € 1,570 (median =  € 1,484, SD = € 772).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -585,6 +585,7 @@ The following table summarises institutional spending on articles published in f
 |Mannheim U                                                           |       12|                20,618|   1,718 (436)|  1,971|      727 -  2,006|
 |Nord University                                                      |       12|                14,974|   1,248 (559)|  1,126|      101 -  2,045|
 |Royal Holloway                                                       |       12|                20,914|   1,743 (904)|  1,512|      921 -  4,363|
+|TH Wildau                                                            |       12|                14,275|   1,190 (311)|  1,288|      442 -  1,500|
 |TU Clausthal                                                         |       12|                11,023|     919 (585)|    918|      181 -  2,099|
 |Akershus University Hospital                                         |       11|                15,680|   1,425 (402)|  1,290|      834 -  1,979|
 |Bern University of Applied Sciences                                  |       11|                16,386|   1,490 (412)|  1,364|      979 -  2,284|
@@ -620,7 +621,6 @@ The following table summarises institutional spending on articles published in f
 |BI Norwegian Business School                                         |        4|                 2,761|     690 (398)|    724|      219 -  1,094|
 |Edinburgh Napier University                                          |        4|                 6,222|   1,556 (666)|  1,297|    1,094 -  2,533|
 |Fridtjof Nansen Institute                                            |        4|                 5,062|   1,265 (214)|  1,303|    1,010 -  1,446|
-|TH Wildau                                                            |        4|                 3,894|     974 (404)|  1,057|      442 -  1,338|
 |University of Salford                                                |        4|                 5,714|   1,429 (657)|  1,480|      744 -  2,010|
 |University of Ulster                                                 |        4|                 4,012|   1,003 (407)|    919|      613 -  1,561|
 |Vestfold Hospital Trust                                              |        4|                 6,134|   1,533 (286)|  1,532|    1,241 -  1,828|
