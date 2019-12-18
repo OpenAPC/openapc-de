@@ -4550,7 +4550,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Edinburgh",2018,713,"10.1175/jcli-d-17-0717.1",TRUE,"American Meteorological Society","Journal of Climate","0894-8755","0894-8755","1520-0442","0894-8755","http://www.ametsoc.org/PUBSReuseLicenses",TRUE,NA,NA,NA,NA,FALSE
 "UCL",2018,908.24,"10.1186/s13021-018-0098-0",FALSE,"Springer Nature","Carbon Balance and Management","1750-0680",NA,"1750-0680","1750-0680","https://creativecommons.org/licenses/by/4.0",TRUE,"29943069","PMC6020103",NA,NA,TRUE
 "King's College London",2019,1566.16,"10.1038/s41598-018-37714-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30718699","PMC6362021",NA,NA,TRUE
-"University of Bath",2019,2205.61,"10.1016/j.envint.2018.12.048",TRUE,"Elsevier BV","Environment International","0160-4120","0160-4120",NA,"0160-4120","http://creativecommons.org/licenses/by/4.0/",TRUE,"30690427",NA,NA,NA,TRUE
+"University of Bath",2019,2205.61,"10.1016/j.envint.2018.12.048",FALSE,"Elsevier BV","Environment International","0160-4120","0160-4120",NA,"0160-4120","http://creativecommons.org/licenses/by/4.0/",TRUE,"30690427",NA,NA,NA,TRUE
 "University of Nottingham",2018,966.07,"10.1167/iovs.18-24674",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by/4.0/",TRUE,"30452594",NA,NA,NA,FALSE
 "Queen Mary, University of London",2018,471.62,"10.7567/apex.11.061601",TRUE,"Japan Society of Applied Physics","Applied Physics Express","1882-0778","1882-0778","1882-0786","1882-0778","http://iopscience.iop.org/page/copyright",TRUE,NA,NA,NA,NA,FALSE
 "UCL",2018,1584.84,"10.1186/s12874-018-0522-x",FALSE,"Springer Nature","BMC Medical Research Methodology","1471-2288",NA,"1471-2288","1471-2288","http://creativecommons.org/licenses/by/4.0/",TRUE,"29945571","PMC6020319",NA,NA,TRUE
@@ -4985,7 +4985,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,2243.41,"10.1080/01402382.2018.1521673",TRUE,"Informa UK Limited","West European Politics","0140-2382","0140-2382","1743-9655","0140-2382",NA,TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2018,3432.38,"10.1242/dmm.035832",FALSE,"The Company of Biologists","Disease Models & Mechanisms","1754-8403","1754-8403","1754-8411","1754-8403","http://creativecommons.org/licenses/by/3.0",TRUE,"30158284","PMC6262809",NA,NA,TRUE
-"Imperial College London",2019,2110.28,"10.1016/j.envint.2018.10.060",TRUE,"Elsevier BV","Environment International","0160-4120","0160-4120",NA,"0160-4120","http://creativecommons.org/licenses/by/4.0/",TRUE,"30472002",NA,NA,NA,TRUE
+"Imperial College London",2019,2110.28,"10.1016/j.envint.2018.10.060",FALSE,"Elsevier BV","Environment International","0160-4120","0160-4120",NA,"0160-4120","http://creativecommons.org/licenses/by/4.0/",TRUE,"30472002",NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2018,2405.2,"10.1364/boe.9.004649",FALSE,"Optical Society of America (OSA)","Biomedical Optics Express","2156-7085","2156-7085","2156-7085","2156-7085",NA,TRUE,"30319893","PMC6179396",NA,NA,TRUE
@@ -12731,7 +12731,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of the West of England",2019,1935.27,"10.1016/j.trf.2019.01.005",TRUE,"Elsevier BV","Transportation Research Part F: Traffic Psychology and Behaviour","1369-8478","1369-8478",NA,"1369-8478","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Edinburgh",2018,1552.95,"10.1136/bmjopen-2018-025230",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30552283","PMC6303568",NA,NA,TRUE
 "University of Oxford",2018,2026.43,"10.1016/j.jrurstud.2018.08.010",TRUE,"Elsevier BV","Journal of Rural Studies","0743-0167","0743-0167",NA,"0743-0167","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"University of Newcastle",2019,1837.45,"10.1016/j.envint.2019.01.034",TRUE,"Elsevier BV","Environment International","0160-4120","0160-4120",NA,"0160-4120","http://creativecommons.org/licenses/by/4.0/",TRUE,"30700387",NA,NA,NA,TRUE
+"University of Newcastle",2019,1837.45,"10.1016/j.envint.2019.01.034",FALSE,"Elsevier BV","Environment International","0160-4120","0160-4120",NA,"0160-4120","http://creativecommons.org/licenses/by/4.0/",TRUE,"30700387",NA,NA,NA,TRUE
 "Cardiff University",2019,1659.85,"10.1186/s12884-018-2156-8",FALSE,"Springer Nature","BMC Pregnancy and Childbirth","1471-2393",NA,"1471-2393","1471-2393",NA,TRUE,"30744581","PMC6371518",NA,NA,TRUE
 "UCL",2019,1601.37,"10.1186/s12913-019-3970-z",FALSE,"Springer Nature","BMC Health Services Research","1472-6963",NA,"1472-6963","1472-6963","http://creativecommons.org/licenses/by/4.0/",TRUE,"30849986","PMC6408812",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
