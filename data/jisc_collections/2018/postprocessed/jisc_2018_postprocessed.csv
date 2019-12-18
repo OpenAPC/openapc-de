@@ -954,7 +954,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2019,2752.77,"10.3399/bjgp19x701309",TRUE,"Royal College of General Practitioners","British Journal of General Practice","0960-1643","0960-1643","1478-5242","0960-1643",NA,TRUE,"30745354","PMC6617541",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,686.73,"10.1039/c8ra03174f",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Oxford",2019,516.47,"10.1177/2043808719837811",TRUE,"SAGE Publications","Journal of Experimental Psychopathology","2043-8087","2043-8087","2043-8087","2043-8087","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,TRUE
+"University of Oxford",2019,516.47,"10.1177/2043808719837811",FALSE,"SAGE Publications","Journal of Experimental Psychopathology","2043-8087","2043-8087","2043-8087","2043-8087","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,TRUE
 "Imperial College London",2018,1701.36,"10.1098/rspa.2018.0080",TRUE,"The Royal Society","Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences","1364-5021","1364-5021","1471-2946","1364-5021",NA,TRUE,"30220867","PMC6127398",NA,NA,FALSE
 "Cardiff University",2019,1726.71,"10.1111/irj.12243",TRUE,"Wiley-Blackwell","Industrial Relations Journal","0019-8692","0019-8692","1468-2338","0019-8692","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -8638,7 +8638,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bath",2018,2539.54,"10.1093/oep/gpy060",TRUE,"Oxford University Press (OUP)","Oxford Economic Papers","0030-7653","0030-7653","1464-3812","0030-7653","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"University of Reading",2019,504.9,"10.1177/2043808719834451",TRUE,"SAGE Publications","Journal of Experimental Psychopathology","2043-8087","2043-8087","2043-8087","2043-8087","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,TRUE
+"University of Reading",2019,504.9,"10.1177/2043808719834451",FALSE,"SAGE Publications","Journal of Experimental Psychopathology","2043-8087","2043-8087","2043-8087","2043-8087","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Liverpool",2018,3008.69,"10.1136/bmj.k3802",TRUE,"BMJ","BMJ","0959-8138","0959-8138","1756-1833","1756-1833","http://www.bmj.com/company/legal-information/terms-conditions/legal-information/tdm-licencepolicy",TRUE,"30266736","PMC6161807",NA,NA,FALSE
