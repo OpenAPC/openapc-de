@@ -1966,7 +1966,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2018,851.77,"10.1186/s40494-018-0191-4",FALSE,"Springer Nature","Heritage Science","2050-7445",NA,"2050-7445","2050-7445","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Aberdeen",2018,1123.25,"10.5194/se-9-1051-2018",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","1869-9529","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Cambridge",2018,999.41,"10.1117/1.jbo.24.3.031009",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"30358334",NA,NA,NA,TRUE
+"University of Cambridge",2018,999.41,"10.1117/1.jbo.24.3.031009",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"30358334",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Nottingham",2019,2864.94,"10.1016/j.mce.2019.01.018",TRUE,"Elsevier BV","Molecular and Cellular Endocrinology","0303-7207","0303-7207",NA,"0303-7207","http://creativecommons.org/licenses/by/4.0/",TRUE,"30738950","PMC6406023",NA,NA,FALSE
 "King's College London",2018,9072.83,"10.1161/circresaha.118.312945",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Circulation Research","0009-7330","0009-7330","1524-4571","0009-7330",NA,TRUE,"29980568","PMC6092110",NA,NA,FALSE
@@ -1992,7 +1992,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Manchester",2019,2204.16,"10.1021/acsnano.8b04123",TRUE,"American Chemical Society (ACS)","ACS Nano","1936-0851","1936-0851","1936-086X","1936-0851","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30605324",NA,NA,NA,FALSE
 "University of St Andrews",2018,2680.71,"10.1016/j.bioorg.2018.11.037",TRUE,"Elsevier BV","Bioorganic Chemistry","0045-2068","0045-2068",NA,"0045-2068","http://creativecommons.org/licenses/by/4.0/",TRUE,"30500524","PMC6369240",NA,NA,FALSE
 "King's College London",2018,2097.58,"10.3389/fpsyt.2018.00327",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","1664-0640","https://creativecommons.org/licenses/by/4.0/",TRUE,"30093869","PMC6070624",NA,NA,TRUE
-"Cardiff University",2019,1831.91,"10.1117/1.jbo.24.5.051412",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"30816030",NA,NA,NA,TRUE
+"Cardiff University",2019,1831.91,"10.1117/1.jbo.24.5.051412",FALSE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"30816030",NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Edinburgh",2018,2867.87,"10.1093/biolre/ioy231",TRUE,"Oxford University Press (OUP)","Biology of Reproduction","0006-3363","0006-3363","1529-7268","0006-3363","http://creativecommons.org/licenses/by/4.0/",TRUE,"30388215",NA,NA,NA,FALSE
@@ -4539,7 +4539,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,1513.11,"10.1371/journal.pone.0197257",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29795586","PMC5967835",NA,NA,TRUE
 "University of Aberdeen",2018,2146.75,"10.1038/s41467-018-04423-1",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"29895846","PMC5997736",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2018,819.87,"10.1117/1.jbo.23.7.076007",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"29992796",NA,NA,NA,TRUE
+"UCL",2018,819.87,"10.1117/1.jbo.23.7.076007",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"29992796",NA,NA,NA,FALSE
 "University of Edinburgh",2018,1676.76,"10.1111/jeb.13376",TRUE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010-061X",NA,NA,"1010-061X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30230082","PMC6334283",NA,NA,FALSE
 "UCL",2018,1274.79,"10.5194/tc-12-3551-2018",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -7200,7 +7200,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Swansea University",2018,3383.97,"10.1016/j.matlet.2018.10.118",TRUE,"Elsevier BV","Materials Letters","0167-577X","0167-577X",NA,"0167-577X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Queen Mary, University of London",2018,1720.39,"10.1109/lwc.2018.2810231",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Wireless Communications Letters","2162-2337","2162-2337","2162-2345","2162-2337",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Loughborough",2019,1747.38,"10.1038/s41598-019-38882-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"30783150","PMC6381210",NA,NA,TRUE
-"University of Edinburgh",2018,839.31,"10.1117/1.jbo.23.7.076005",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"29992799",NA,NA,NA,TRUE
+"University of Edinburgh",2018,839.31,"10.1117/1.jbo.23.7.076005",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"29992799",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cardiff University",2019,1736.83,"10.3390/en12040611",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Loughborough",2018,2444.13,"10.1016/j.msea.2018.12.084",TRUE,"Elsevier BV","Materials Science and Engineering: A","0921-5093","0921-5093",NA,"0921-5093","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -7614,7 +7614,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "UCL",2019,1862.59,"10.1039/c8cp07796g",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by/3.0/",TRUE,"30801077",NA,NA,NA,FALSE
 "University of Manchester",2019,3579.13,"10.1016/j.compositesa.2018.04.014",TRUE,"Elsevier BV","Composites Part A: Applied Science and Manufacturing","1359-835X","1359-835X",NA,"1359-835X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"UCL",2019,1301.95,"10.1117/1.jbo.24.2.020502",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"30770678","PMC6498868",NA,NA,TRUE
+"UCL",2019,1301.95,"10.1117/1.jbo.24.2.020502",FALSE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"30770678","PMC6498868",NA,NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2018,4867.1,"10.1002/anie.201809872",TRUE,"Wiley-Blackwell","Angewandte Chemie International Edition","1433-7851",NA,NA,"1433-7851","http://creativecommons.org/licenses/by/4.0/",TRUE,"30171657","PMC6334230",NA,NA,FALSE
 "Imperial College London",2018,1523.68,"10.1038/s41598-018-32706-6",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30258167","PMC6158193",NA,NA,TRUE
@@ -11238,7 +11238,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of York",2018,3367.83,"10.1038/s41396-018-0276-9",TRUE,"Springer Nature","The ISME Journal","1751-7362","1751-7362","1751-7370","1751-7362","https://creativecommons.org/licenses/by/4.0",TRUE,"30209344","PMC6330079",NA,NA,FALSE
 "University of Strathclyde",2018,1134.35,"10.3390/ma11091671",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"30205619","PMC6164150",NA,NA,TRUE
 "Liverpool School of Tropical Medicine",2019,1792.91,"10.1038/s41598-019-43634-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"31089196","PMC6517445",NA,NA,TRUE
-"Cardiff University",2018,1826.07,"10.1117/1.jbo.24.5.051404",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"30516036",NA,NA,NA,TRUE
+"Cardiff University",2018,1826.07,"10.1117/1.jbo.24.5.051404",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,"30516036",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Exeter",2019,1063.65,"10.5343/bms.2018.0064",TRUE,"Bulletin of Marine Science","Bulletin of Marine Science","0007-4977","0007-4977",NA,"0007-4977",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Manchester",2019,632.28,"10.1080/14742837.2018.1548965",TRUE,"Informa UK Limited","Social Movement Studies","1474-2837","1474-2837","1474-2829","1474-2829","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -12686,7 +12686,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of York",2018,1810.42,"10.1109/tuffc.2018.2881456",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control","0885-3010","0885-3010","1525-8955","0885-3010",NA,TRUE,"30475717",NA,NA,NA,FALSE
 "University of Durham",2018,3432.38,"10.1088/2058-9565/aaee35",TRUE,"IOP Publishing","Quantum Science and Technology","2058-9565",NA,"2058-9565","2058-9565","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Oxford",2018,2915.2,"10.1364/oe.26.030716",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"30469964",NA,NA,NA,TRUE
-"UCL",2018,1127.61,"10.1117/1.jbo.23.12.126502",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,NA,NA,NA,NA,TRUE
+"UCL",2018,1127.61,"10.1117/1.jbo.23.12.126502",TRUE,"SPIE-Intl Soc Optical Eng","Journal of Biomedical Optics","1083-3668",NA,NA,"1083-3668",NA,TRUE,NA,NA,NA,NA,FALSE
 "Cardiff University",2018,2195.67,"10.1039/c7nr07843a",TRUE,"Royal Society of Chemistry (RSC)","Nanoscale","2040-3364","2040-3364","2040-3372","2040-3364","http://creativecommons.org/licenses/by/3.0/",TRUE,"29770815",NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Bath",2018,2486.42,"10.1002/jbio.201800239",TRUE,"Wiley-Blackwell","Journal of Biophotonics","1864-063X",NA,NA,"1864-063X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30353666",NA,NA,NA,FALSE
