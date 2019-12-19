@@ -1241,7 +1241,8 @@ def get_unified_journal_title(journal_full_title):
         "Med. Chem. Commun.": "MedChemComm",
         "Notes and Records: the Royal Society Journal of the History of Science": "Notes and Records of the Royal Society",
         "Journal of Web Semantics": "Web Semantics: Science, Services and Agents on the World Wide Web",
-        "The Review of Financial Studies": "Review of Financial Studies"
+        "The Review of Financial Studies": "Review of Financial Studies",
+        "Raumforschung und Raumordnung Spatial Research and Planning": "Raumforschung und Raumordnung"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
