@@ -374,9 +374,9 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2013   |       2,359|   1,230|     1,180|  50 -  4,574|           1,098|       2,257|         2,260|      120 - 4,679|
 |2014   |       5,082|   1,375|     1,257|  40 -  9,028|           6,518|       2,239|         2,200|      132 - 6,000|
 |2015   |       8,268|   1,524|     1,452|  60 -  5,669|           6,685|       2,609|         2,621|      100 - 8,636|
-|2016   |       9,578|   1,635|     1,532|  63 -  5,985|           7,777|       2,547|         2,511|        2 - 9,079|
-|2017   |      13,572|   1,712|     1,557|   9 -  6,250|           9,806|       2,517|         2,445|       37 - 9,858|
-|2018   |      11,102|   1,730|     1,604|  13 - 12,000|           7,956|       2,571|         2,543|       18 - 9,073|
+|2016   |       9,581|   1,635|     1,532|  63 -  5,985|           7,774|       2,548|         2,511|        2 - 9,079|
+|2017   |      13,573|   1,712|     1,557|   9 -  6,250|           9,805|       2,517|         2,445|       37 - 9,858|
+|2018   |      11,104|   1,730|     1,604|  13 - 12,000|           7,954|       2,571|         2,543|       18 - 9,073|
 |2019   |       1,985|   1,941|     1,713|  62 -  7,684|           1,762|       2,614|         2,569|      160 - 7,745|
 
 
@@ -385,7 +385,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-55,355 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 88,460,023, including value-added tax; the average payment was € 1,598 (median =  € 1,503, SD = € 799).
+55,361 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 88,470,618, including value-added tax; the average payment was € 1,598 (median =  € 1,503, SD = € 799).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -394,8 +394,8 @@ The following table summarises institutional spending on articles published in f
 |Institution                                                          | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:--------------------------------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |MPG                                                                  |    3,674|             4,987,088|   1,357 (507)|  1,207|       69 -  7,419|
-|UCL                                                                  |    3,254|             5,652,069|   1,737 (906)|  1,593|       41 -  5,721|
-|Wellcome Trust                                                       |    1,847|             3,671,740| 1,988 (1,018)|  1,687|      240 -  7,183|
+|UCL                                                                  |    3,256|             5,655,855|   1,737 (906)|  1,594|       41 -  5,721|
+|Wellcome Trust                                                       |    1,850|             3,676,969| 1,988 (1,017)|  1,687|      240 -  7,183|
 |FWF - Austrian Science Fund                                          |    1,797|             3,060,336|   1,703 (815)|  1,566|      100 -  7,140|
 |CNRS                                                                 |    1,479|             2,367,891|   1,601 (827)|  1,368|       31 -  5,606|
 |Goettingen U                                                         |    1,326|             1,953,026|   1,473 (599)|  1,468|      119 -  4,830|
@@ -409,7 +409,7 @@ The following table summarises institutional spending on articles published in f
 |Erlangen Nuernberg U                                                 |      919|             1,345,913|   1,465 (385)|  1,542|      113 -  2,286|
 |University of Calgary                                                |      883|               993,318|   1,125 (447)|  1,145|       50 -  4,632|
 |Heidelberg U                                                         |      874|             1,316,640|   1,506 (383)|  1,658|       60 -  2,108|
-|University of Edinburgh                                              |      857|             1,598,349|   1,865 (911)|  1,606|      210 -  5,467|
+|University of Edinburgh                                              |      858|             1,599,930|   1,865 (910)|  1,604|      210 -  5,467|
 |KIT                                                                  |      833|             1,136,712|   1,365 (509)|  1,386|       62 -  3,731|
 |Regensburg U                                                         |      827|             1,263,410|   1,528 (646)|  1,522|       77 -  4,582|
 |Wuerzburg U                                                          |      813|             1,162,219|   1,430 (464)|  1,476|      103 -  2,533|
@@ -650,21 +650,21 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,631 open access articles being published in hybrid journals. Total expenditure amounts to  104,125,716 €. Average  fee is 2,501 € and the median 2,454 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,625 open access articles being published in hybrid journals. Total expenditure amounts to  104,115,120 €. Average  fee is 2,501 € and the median 2,454 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                                          | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:--------------------------------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|UCL                                                                  |    5,176|            11,370,449|   2,197 (976)|  2,098|       157 - 5,701|
-|Wellcome Trust                                                       |    4,361|            11,668,993|   2,676 (974)|  2,611|       194 - 8,247|
+|UCL                                                                  |    5,174|            11,366,664|   2,197 (976)|  2,100|       157 - 5,701|
+|Wellcome Trust                                                       |    4,358|            11,663,763|   2,676 (974)|  2,611|       194 - 8,247|
 |FWF - Austrian Science Fund                                          |    4,197|            10,385,212|   2,474 (842)|  2,618|       120 - 7,847|
 |University of Cambridge                                              |    2,637|             7,354,408| 2,789 (1,118)|  2,671|        80 - 8,273|
 |University of Oxford                                                 |    2,496|             7,258,366| 2,908 (1,157)|  2,669|        37 - 9,070|
 |University of Manchester                                             |    1,935|             4,762,177| 2,461 (1,006)|  2,397|       169 - 7,133|
 |Imperial College London                                              |    1,786|             4,903,130|   2,745 (944)|  2,675|       134 - 6,511|
-|University of Edinburgh                                              |    1,311|             3,345,651| 2,552 (1,066)|  2,453|       183 - 5,624|
+|University of Edinburgh                                              |    1,310|             3,344,070| 2,553 (1,066)|  2,453|       183 - 5,624|
 |King's College London                                                |    1,233|             3,354,770| 2,721 (1,046)|  2,648|       266 - 9,073|
 |Cardiff University                                                   |    1,044|             2,591,509|   2,482 (969)|  2,545|       261 - 5,709|
 |University of Birmingham                                             |    1,034|             2,634,038| 2,547 (1,023)|  2,531|       271 - 8,619|
