@@ -34,7 +34,8 @@ PUBLISHER_IDENTITY = [
     (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"]),
     (["Schattauer GmbH"], ["Georg Thieme Verlag KG"]), # Schattauer bought up by Thieme (1/1/2017)
     (["Johns Hopkins University Press"], ["Project Muse"]),
-    (["Informa UK Limited"], ["Dove Medical Press Ltd."]) # DMP bought up by T&F in 2017
+    (["Informa UK Limited"], ["Dove Medical Press Ltd."]), # DMP bought up by T&F in 2017
+    (["Bristol University Press"], ["The Policy Press"]) # Policy Press is an imprint of BUP
 ]
 
 
@@ -154,12 +155,16 @@ JOURNAL_OWNER_CHANGED = {
     "1741-2722": ["Informa UK Limited", "Cambridge University Press (CUP)"], # European Journal of Archaeology (electronic)
     "1179-1349": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Clinical Epidemiology
     "1179-1322": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Cancer Management and Research
-    "1178-7090": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Journal of Pain Research
+    "1178-7090": ["Dove Med,ical Press Ltd.", "Informa UK Limited"], # Journal of Pain Research
     "1179-1608": ["Dove Medical Press Ltd.", "Informa UK Limited"], #  Nature and Science of Sleep
     "1178-2021": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Neuropsychiatric Disease and Treatment
     "2155-384X": ["Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical and Translational Gastroenterology
     "0009-921X": ["Springer Science + Business Media", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical Orthopaedics and Related Research®
-    "1179-5549": ["Libertas Academica, Ltd.", "SAGE Publications"] # Clinical Medicine Insights: Oncology
+    "1179-5549": ["Libertas Academica, Ltd.", "SAGE Publications"], # Clinical Medicine Insights: Oncology
+    "0141-8955": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Inherited Metabolic Disease
+    "0261-3875": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Legal Studies
+    "1748-121X": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Legal Studies (electronic)
+    "2045-824X": ["Springer Science + Business Media", "Publiverse Online S.R.L"] # Vascular Cell
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -207,7 +212,13 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1933-6950", # Channels
     "0264-1275", # Materials & Design, Gold OA since 2019
     "1934-8630", # Biointerphases. Seems to have flipped to hybrid after moving from Springer to AVS in 2013
-    "1559-4106" # Biointerphases (electronic)
+    "1559-4106", # Biointerphases (electronic)
+    "2043-8087", # Journal of Experimental Psychopathology
+    "1083-3668", # Journal of Biomedical Optics, Gold OA since 1/2019
+    "0160-4120", # Environment International, Gold OA since 1/2019
+    "2053-3713", # Healthcare Technology Letters, Gold OA since 2017
+    "2329-423X", # Neurophotonics, Gold OA since 1/2019
+    "1388-2481" # Electrochemistry Communications, Gold OA since 1/2019
 ]
 
 class RowObject(object):

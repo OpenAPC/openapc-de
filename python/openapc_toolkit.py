@@ -1047,7 +1047,9 @@ def get_unified_publisher_name(publisher):
         "Osterreichische Akademie der Wissenschaften": "Österreichische Akademie der Wissenschaften",
         "Element d.o.o.": "Ele-Math",
         "Element": "Ele-Math",
-        "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca"
+        "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca",
+        "Future Science Ltd": "Future Science, LTD",
+        "Edinburgh University Global Health Society": "International Global Health Society"
     }
     return publisher_mappings.get(publisher, publisher)
 
@@ -1142,7 +1144,6 @@ def get_unified_journal_title(journal_full_title):
         "Learning and Individual Differences": "Learning & Individual Differences",
         "Water Science and Technology": "Water Science & Technology",
         "Antimicrobial Resistance & Infection Control": "Antimicrobial Resistance and Infection Control",
-        "MedChemComm": "Med. Chem. Commun.",
         "European Journal of Public Health": "The European Journal of Public Health",
         "Journal of Vacuum Science & Technology B, Nanotechnology and Microelectronics: Materials, Processing, Measurement, and Phenomena": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
         "Briefings In Bioinformatics": "Briefings in Bioinformatics",
@@ -1231,7 +1232,16 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Orthopaedic Research®": "Journal of Orthopaedic Research",
         "BJPscyh Advances": "BJPsych Advances",
         "Clinical Orthopaedics and Related Research®": "Clinical Orthopaedics and Related Research",
-        "Essays In Biochemistry": "Essays in Biochemistry"
+        "Essays In Biochemistry": "Essays in Biochemistry",
+        "Chemistry – A European Journal": "Chemistry - A European Journal",
+        "Proceedings of the Institution of Civil Engineers - Geotechnical Engineering": "Proceedings of the ICE - Geotechnical Engineering",
+        "BJS": "British Journal of Surgery",
+        "Annals of Clinical Biochemistry: International Journal of Laboratory Medicine": "Annals of Clinical Biochemistry: An international journal of biochemistry and laboratory medicine",
+        "The British Journal of Social Work": "British Journal of Social Work",
+        "Med. Chem. Commun.": "MedChemComm",
+        "Notes and Records: the Royal Society Journal of the History of Science": "Notes and Records of the Royal Society",
+        "Journal of Web Semantics": "Web Semantics: Science, Services and Agents on the World Wide Web",
+        "The Review of Financial Studies": "Review of Financial Studies"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
