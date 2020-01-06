@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 97,251 open access journal articles, amounting to € 193,006,489 and contributed by 254 institutions.
+At the moment this project provides cost data on 97,255 open access journal articles, amounting to € 193,013,666 and contributed by 254 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -348,9 +348,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 97,251 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 254 research performing institutions and research funders. 
+This data set contains information on 97,255 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 254 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 193,006,489. The average payment was € 1,985  and the median was € 1,789.
+In total, publication fee spending covered by the Open APC initiative amounted to € 193,013,666. The average payment was € 1,985  and the median was € 1,789.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -377,7 +377,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,581|   1,635|     1,532|  63 -  5,985|           7,774|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,574|   1,712|     1,557|   9 -  6,250|           9,805|       2,517|         2,445|       37 - 9,858|
 |2018   |      11,153|   1,730|     1,606|  13 - 12,000|           7,954|       2,571|         2,543|       18 - 9,073|
-|2019   |       2,200|   1,902|     1,704|  62 -  7,684|           1,762|       2,614|         2,569|      160 - 7,745|
+|2019   |       2,204|   1,902|     1,704|  62 -  7,684|           1,762|       2,614|         2,569|      160 - 7,745|
 
 
 
@@ -385,7 +385,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-55,626 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 88,891,369, including value-added tax; the average payment was € 1,598 (median =  € 1,504, SD = € 797).
+55,630 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 88,898,546, including value-added tax; the average payment was € 1,598 (median =  € 1,504, SD = € 797).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -576,6 +576,7 @@ The following table summarises institutional spending on articles published in f
 |Norwegian Institute for Nature Research                              |       18|                23,241|   1,291 (390)|  1,264|      640 -  2,186|
 |Université de Franche-Comté                                          |       18|                21,696|   1,205 (436)|  1,184|      300 -  2,160|
 |Ecole normale supérieure de Paris                                    |       16|                35,538| 2,221 (1,135)|  2,027|      339 -  3,700|
+|Mannheim U                                                           |       16|                27,795|   1,737 (393)|  1,971|      727 -  2,020|
 |Greifswald U                                                         |       15|                21,880|   1,459 (474)|  1,588|      390 -  2,023|
 |University of Hull                                                   |       15|                22,353| 1,490 (1,104)|  1,437|      527 -  4,856|
 |University of Skövde                                                 |       15|                20,489|   1,366 (413)|  1,329|      836 -  2,277|
@@ -585,7 +586,6 @@ The following table summarises institutional spending on articles published in f
 |Bergen University College                                            |       13|                19,984|   1,537 (511)|  1,713|      184 -  2,120|
 |Goldsmiths                                                           |       13|                21,491|   1,653 (720)|  1,519|      608 -  3,175|
 |IPN - Leibniz Kiel                                                   |       13|                14,201|   1,092 (693)|  1,092|      195 -  2,621|
-|Mannheim U                                                           |       12|                20,618|   1,718 (436)|  1,971|      727 -  2,006|
 |Nord University                                                      |       12|                14,974|   1,248 (559)|  1,126|      101 -  2,045|
 |Royal Holloway                                                       |       12|                20,914|   1,743 (904)|  1,512|      921 -  4,363|
 |TH Wildau                                                            |       12|                14,275|   1,190 (311)|  1,288|      442 -  1,500|
@@ -857,7 +857,7 @@ Indexing coverage
 |DOI                        |  99.79%       |
 |PubMed ID                  |  76.76%      |
 |PubMed Central ID          |  69.87%     |
-|Web of Science record ID   | 94.35%      |
+|Web of Science record ID   | 94.36%      |
 
 
 
