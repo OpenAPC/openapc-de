@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 97,255 open access journal articles, amounting to € 193,013,666 and contributed by 254 institutions.
+At the moment this project provides cost data on 97,414 open access journal articles, amounting to € 193,248,215 and contributed by 255 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -188,6 +188,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 ## Institutions from Finland:
 
 - [Tampere University](https://libguides.tuni.fi/openaccess)
+- [University of Eastern Finland](https://www.uef.fi/en/etusivu)
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
 - [University of Turku](https://utuguides.fi/openaccess)
 
@@ -348,9 +349,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 97,255 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 254 research performing institutions and research funders. 
+This data set contains information on 97,414 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 255 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 193,013,666. The average payment was € 1,985  and the median was € 1,789.
+In total, publication fee spending covered by the Open APC initiative amounted to € 193,248,215. The average payment was € 1,984  and the median was € 1,788.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -376,8 +377,8 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2015   |       8,267|   1,524|     1,452|  60 -  5,669|           6,686|       2,609|         2,621|      100 - 8,636|
 |2016   |       9,581|   1,635|     1,532|  63 -  5,985|           7,774|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,574|   1,712|     1,557|   9 -  6,250|           9,805|       2,517|         2,445|       37 - 9,858|
-|2018   |      11,153|   1,730|     1,606|  13 - 12,000|           7,954|       2,571|         2,543|       18 - 9,073|
-|2019   |       2,204|   1,902|     1,704|  62 -  7,684|           1,762|       2,614|         2,569|      160 - 7,745|
+|2018   |      11,153|   1,730|     1,606|  13 - 12,000|           7,953|       2,571|         2,543|       18 - 9,073|
+|2019   |       2,326|   1,875|     1,696|  22 -  7,684|           1,800|       2,596|         2,553|      160 - 7,745|
 
 
 
@@ -385,7 +386,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-55,629 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 88,895,946, including value-added tax; the average payment was € 1,598 (median =  € 1,504, SD = € 797).
+55,751 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 89,064,008, including value-added tax; the average payment was € 1,598 (median =  € 1,503, SD = € 797).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -481,6 +482,7 @@ The following table summarises institutional spending on articles published in f
 |MDC                                                                  |      127|               272,861| 2,149 (1,152)|  1,936|      224 -  4,662|
 |INRA                                                                 |      124|               202,035|   1,629 (641)|  1,405|      282 -  3,700|
 |Luleå University of Technology                                       |      123|               138,566|   1,127 (414)|  1,185|      281 -  2,200|
+|University of Eastern Finland                                        |      122|               168,063|   1,378 (754)|  1,454|       22 -  4,290|
 |University of Sussex                                                 |      121|               249,836| 2,065 (1,223)|  1,588|      243 -  5,454|
 |Norwegian University of Science and Technology                       |      115|               162,119|   1,410 (492)|  1,420|      183 -  3,554|
 |Indiana University - Purdue University Indianapolis (IUPUI)          |      114|               166,599|   1,461 (685)|  1,362|      212 -  4,920|
@@ -650,7 +652,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,626 open access articles being published in hybrid journals. Total expenditure amounts to  104,117,720 €. Average  fee is 2,501 € and the median 2,454 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,663 open access articles being published in hybrid journals. Total expenditure amounts to  104,184,207 €. Average  fee is 2,501 € and the median 2,454 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -701,7 +703,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Queen's University Belfast                                           |      140|               333,910| 2,385 (1,141)|  2,162|       269 - 5,701|
 |Cranfield University                                                 |      131|               377,858|   2,884 (826)|  3,231|       633 - 4,114|
 |FZJ - ZB                                                             |      127|               261,027|   2,055 (797)|  2,000|       190 - 4,165|
-|University of Turku                                                  |      122|               272,079| 2,230 (1,278)|  2,140|        89 - 6,198|
+|University of Turku                                                  |      121|               270,260| 2,234 (1,282)|  2,153|        89 - 6,198|
 |LSE                                                                  |      110|               234,968|   2,136 (908)|  1,963|       274 - 5,425|
 |University of Leicester                                              |      110|               283,437| 2,577 (1,044)|  2,326|       685 - 5,414|
 |Aston University                                                     |       97|               214,016|   2,206 (804)|  2,237|       338 - 4,399|
@@ -733,6 +735,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Lund University                                                      |       39|                77,850|   1,996 (635)|  2,132|       248 - 3,040|
 |MDC                                                                  |       39|               110,838| 2,842 (1,411)|  2,778|       491 - 6,296|
 |University of the West of England                                    |       39|                91,371| 2,343 (1,010)|  2,128|        97 - 4,416|
+|University of Eastern Finland                                        |       38|                68,305|   1,797 (801)|  1,754|       185 - 3,500|
 |Milano U                                                             |       36|                74,777|   2,077 (936)|  2,200|        90 - 4,000|
 |Liverpool School of Tropical Medicine                                |       33|                91,829|   2,783 (778)|  2,945|       875 - 4,203|
 |Jyväskylä U                                                          |       31|                32,655|   1,053 (639)|    860|       860 - 3,500|
@@ -855,9 +858,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.79%       |
-|PubMed ID                  |  76.76%      |
-|PubMed Central ID          |  69.87%     |
-|Web of Science record ID   | 94.36%      |
+|PubMed ID                  |  76.73%      |
+|PubMed Central ID          |  69.83%     |
+|Web of Science record ID   | 94.33%      |
 
 
 
@@ -885,7 +888,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Viola Voß, Roland Wagner, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Philip Young, Philipp Zumstein
 
 ## Contact
 
