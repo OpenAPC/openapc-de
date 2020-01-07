@@ -373,7 +373,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2012   |       1,534|   1,172|     1,180|  69 -  4,498|              19|       2,298|         2,376|      997 - 2,700|
 |2013   |       2,359|   1,230|     1,180|  50 -  4,574|           1,098|       2,257|         2,260|      120 - 4,679|
 |2014   |       5,082|   1,375|     1,257|  40 -  9,028|           6,518|       2,239|         2,200|      132 - 6,000|
-|2015   |       8,268|   1,524|     1,452|  60 -  5,669|           6,685|       2,609|         2,621|      100 - 8,636|
+|2015   |       8,267|   1,524|     1,452|  60 -  5,669|           6,686|       2,609|         2,621|      100 - 8,636|
 |2016   |       9,581|   1,635|     1,532|  63 -  5,985|           7,774|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,574|   1,712|     1,557|   9 -  6,250|           9,805|       2,517|         2,445|       37 - 9,858|
 |2018   |      11,153|   1,730|     1,606|  13 - 12,000|           7,954|       2,571|         2,543|       18 - 9,073|
@@ -385,7 +385,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-55,630 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 88,898,546, including value-added tax; the average payment was € 1,598 (median =  € 1,504, SD = € 797).
+55,629 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 88,895,946, including value-added tax; the average payment was € 1,598 (median =  € 1,504, SD = € 797).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -394,7 +394,7 @@ The following table summarises institutional spending on articles published in f
 |Institution                                                          | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:--------------------------------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
 |MPG                                                                  |    3,674|             4,987,088|   1,357 (507)|  1,207|       69 -  7,419|
-|UCL                                                                  |    3,256|             5,655,855|   1,737 (906)|  1,594|       41 -  5,721|
+|UCL                                                                  |    3,255|             5,653,255|   1,737 (906)|  1,594|       41 -  5,721|
 |Wellcome Trust                                                       |    1,850|             3,676,969| 1,988 (1,017)|  1,687|      240 -  7,183|
 |FWF - Austrian Science Fund                                          |    1,797|             3,060,336|   1,703 (815)|  1,566|      100 -  7,140|
 |CNRS                                                                 |    1,479|             2,367,891|   1,601 (827)|  1,368|       31 -  5,606|
@@ -650,14 +650,14 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,625 open access articles being published in hybrid journals. Total expenditure amounts to  104,115,120 €. Average  fee is 2,501 € and the median 2,454 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,626 open access articles being published in hybrid journals. Total expenditure amounts to  104,117,720 €. Average  fee is 2,501 € and the median 2,454 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
 
 |Institution                                                          | Articles| Spending total (in €)|     Mean (SD)| Median| Minimum - Maximum|
 |:--------------------------------------------------------------------|--------:|---------------------:|-------------:|------:|-----------------:|
-|UCL                                                                  |    5,174|            11,366,664|   2,197 (976)|  2,100|       157 - 5,701|
+|UCL                                                                  |    5,175|            11,369,264|   2,197 (976)|  2,100|       157 - 5,701|
 |Wellcome Trust                                                       |    4,358|            11,663,763|   2,676 (974)|  2,611|       194 - 8,247|
 |FWF - Austrian Science Fund                                          |    4,197|            10,385,212|   2,474 (842)|  2,618|       120 - 7,847|
 |University of Cambridge                                              |    2,637|             7,354,408| 2,789 (1,118)|  2,671|        80 - 8,273|
