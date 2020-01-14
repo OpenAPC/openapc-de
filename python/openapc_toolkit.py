@@ -1244,7 +1244,8 @@ def get_unified_journal_title(journal_full_title):
         "The Review of Financial Studies": "Review of Financial Studies",
         "Raumforschung und Raumordnung Spatial Research and Planning": "Raumforschung und Raumordnung",
         "Journal Of Environmental Law": "Journal of Environmental Law",
-        "Eurasia Journal of Mathematics, Science and Technology Education": "EURASIA Journal of Mathematics, Science and Technology Education"
+        "Eurasia Journal of Mathematics, Science and Technology Education": "EURASIA Journal of Mathematics, Science and Technology Education",
+        "Journal of Vacuum Science & Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
