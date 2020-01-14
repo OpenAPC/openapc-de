@@ -205,6 +205,7 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - Malmö University
 - Örebro University
 - Swedish University of Agricultural Sciences
+- Södertörns University
 - Stockholm University
 - Umeå University
 - Uppsala University
