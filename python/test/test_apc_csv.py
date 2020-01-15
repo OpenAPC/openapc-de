@@ -35,7 +35,8 @@ PUBLISHER_IDENTITY = [
     (["Schattauer GmbH"], ["Georg Thieme Verlag KG"]), # Schattauer bought up by Thieme (1/1/2017)
     (["Johns Hopkins University Press"], ["Project Muse"]),
     (["Informa UK Limited"], ["Dove Medical Press Ltd."]), # DMP bought up by T&F in 2017
-    (["Bristol University Press"], ["The Policy Press"]) # Policy Press is an imprint of BUP
+    (["Bristol University Press"], ["The Policy Press"]), # Policy Press is an imprint of BUP
+    (["Anticancer Research USA Inc."], ["International Institute of Anticancer Research"])
 ]
 
 
