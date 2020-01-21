@@ -9,6 +9,9 @@ from math import sqrt, nan
 from os import listdir
 from subprocess import run
 import sys
+from time import sleep
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 from babel.dates import format_date
 import openapc_toolkit as oat
@@ -17,7 +20,10 @@ ARG_HELP_STRINGS = {
     "institution": ('The institution to create an analysis for. Must be a designation occuring ' +
                     'in the "institution" column of the core data file'),
     "verbose": "Be more verbose during APC analysis",
-    "lang": "The report language"
+    "lang": "The report language",
+    "no_doi_resolve_test": ("Skips the DOI resolve test which checks every single doi for a " +
+                            "given institution. Useful if time is short or there's no internet " +
+                            "connection.")
 }
 
 with open("report/strings.json") as f:
@@ -41,6 +47,8 @@ def parse():
     parser.add_argument("institution", help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("lang", help=ARG_HELP_STRINGS["lang"], choices=LANG.keys())
     parser.add_argument("-v", "--verbose", help=ARG_HELP_STRINGS["verbose"], action="store_true")
+    parser.add_argument("-d", "--no-doi-resolve-test", help=ARG_HELP_STRINGS["no_doi_resolve_test"],
+                        action="store_true")
     return parser.parse_args()
 
 def get_data_dir_stats(data_dir):
@@ -144,6 +152,40 @@ def generate_duplicates_section(institution, dup_content, ins_content, lang):
         markdown += "\n"
         count += 1
     return markdown
+    
+def generate_nonresolving_dois_section(institution, apc_content, lang):
+    articles = []
+    non_resolving_lines = []
+    for line in apc_content:
+        if line[0] == institution:
+            articles.append(line)
+    msg = "   ({}/{}) DOIs checked, {} not resolving"
+    headers = {"User-Agent": "OpenAPC DOI Tester"}
+    print("Checking DOIs...")
+    for index, line in enumerate(articles):
+        doi = line[3]
+        if doi != "NA":
+            req = Request("https://doi.org/" + doi, headers=headers)
+            try:
+                urlopen(req)
+                sleep(0.5)
+            except HTTPError as httpe:
+                non_resolving_lines.append(line)
+        print(msg.format(index, len(articles), len(non_resolving_lines)), end="\r")
+    md_content = ""
+    if non_resolving_lines:
+        md_content += LANG[lang]["nrd_header"]
+        md_content += LANG[lang]["nrd_intro"]
+        md_content += LANG[lang]["nrd_th"]
+        for line in non_resolving_lines:
+            row = "|" + line[1] + "|"
+            row += "[{}](https://doi.org/{})|".format(line[3], line[3]) 
+            for index in [5, 6]:
+                row += line[index] + "|"
+            md_content += row + "\n"
+        md_content += "\n"
+    return md_content
+
 
 def generate_apc_deviaton_section(institution, articles, stats, lang):
     md_content = ""
@@ -260,6 +302,8 @@ def main():
     report += generate_header(args.lang)
     report += generate_metadata_section(args.institution, ins_content, stats, args.lang)
     report += generate_duplicates_section(args.institution, dup_content, ins_content, args.lang)
+    if not args.no_doi_resolve_test:
+        report += generate_nonresolving_dois_section(args.institution, apc_content, args.lang)
     report += generate_apc_deviaton_section(args.institution, sig_articles, stats, args.lang)
 
     ins = args.institution.lower().replace(" ", "_")

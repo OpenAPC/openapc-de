@@ -29,7 +29,10 @@
         "dup_intro": "Beim Hinzufügen neuer Daten können Dubletten entstehen, wenn ein bereits eingelesener Artikel von einer anderen Institution ein weiteres Mal gemeldet wird. Solche Fälle sind üblicherweise auf gemeinsame Autorenschaft zurückzuführen und stellen für OpenAPC ein Problem dar, da wir im Zweifelsfall nicht sagen können, ob die Dublette auf geteilte Finanzierung zwischen den Institutionen zurückzuführen ist oder lediglich eine doppelte Meldung der vollen APC darstellt. ",
         "dup_intro_2": "Über eine Korrektur würden wir uns freuen, zum Umgang mit geteilter Finanzierung bei APCs verweisen wir an dieser Stelle noch einmal auf unsere [Richtlinien](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe#zusammensetzung-der-gemeldeten-kosten).\n\n",
         "dup_case": "Artikel: **{}**, gemeldet von:\n\n",
-        "dup_th": "|Institution|Jahr|Gemeldete Kosten|Zeitschrift\n|---|---|---|---|\n"
+        "dup_th": "|Institution|Jahr|Gemeldete Kosten|Zeitschrift\n|---|---|---|---|\n",
+        "nrd_header": "### Nicht resolvierende DOIs\n\n",
+        "nrd_intro": "Bei den folgenden Artikeln konnte die DOI über den Standard-Resolver *https://doi.org* nicht aufgelöst werden.\n\n",
+        "nrd_th": "|Jahrgang|DOI|Verlag|Zeitschrift|\n|-|----|----|----|\n"
     },
     "EN": {
         "front": "---\ngeometry:\n- top=30mm\n- left=20mm\n- right=20mm\n- heightrounded\nlinkcolor: red\nfontfamily: arev\n---\n\n![](report/openAPC_01.png){#openapc_logo width=20%}\n\n",
@@ -61,6 +64,9 @@
         "dup_intro": "In some cases article duplicates are created when an already reported article is submitted by another institution a second time. These cases are usually the result of co-authorship and they pose a problem to OpenAPC, as we cannot reliably tell if the duplicate is a consequence of cost sharing between institutions or just a case of reporting the same APC two times. ",
         "dup_intro_2": "We would be pleased if you could help us clearing up those cases. Have a look at our [OpenAPC submission guidelines](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout#definition-of-costs) on how to handle cases of shared APC costs. \n\n",
         "dup_case": "Article: **{}**, reported by:\n\n",
-        "dup_th": "|Institution|period|Reported Costs|Journal\n|---|---|---|---|\n"
+        "dup_th": "|Institution|period|Reported Costs|Journal\n|---|---|---|---|\n",
+        "nrd_header": "### Non-resolving DOIs\n\n",
+        "nrd_intro": "The following DOIs could not be resolved via the *https://doi.org* service.\n\n",
+        "nrd_th": "|Period|DOI|Publisher|Journal|\n|-|----|----|----|\n"
     }
 }
