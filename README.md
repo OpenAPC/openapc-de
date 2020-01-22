@@ -379,7 +379,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2014   |       5,082|   1,375|     1,257|   40 - 9,028|           6,518|       2,239|         2,200|      132 - 6,000|
 |2015   |       8,267|   1,524|     1,452|   60 - 5,669|           6,686|       2,609|         2,621|      100 - 8,636|
 |2016   |       9,579|   1,635|     1,532|   63 - 5,985|           7,774|       2,548|         2,511|        2 - 9,079|
-|2017   |      13,575|   1,712|     1,557|    9 - 6,250|           9,805|       2,517|         2,445|       37 - 9,858|
+|2017   |      13,574|   1,712|     1,557|    9 - 6,250|           9,806|       2,517|         2,445|       37 - 9,858|
 |2018   |      11,569|   1,722|     1,600|   13 - 8,926|           8,071|       2,570|         2,541|       18 - 9,073|
 |2019   |       2,873|   1,814|     1,666|   22 - 7,684|           1,849|       2,583|         2,538|      160 - 7,745|
 
@@ -389,7 +389,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-56,713 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 90,534,562, including value-added tax; the average payment was € 1,596 (median =  € 1,503, SD = € 795).
+56,712 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 90,532,463, including value-added tax; the average payment was € 1,596 (median =  € 1,503, SD = € 795).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -596,12 +596,12 @@ The following table summarises institutional spending on articles published in f
 |Nord University                                                      |       12|                14,974|   1,248 (559)|  1,126|       101 - 2,045|
 |Royal Holloway                                                       |       12|                20,914|   1,743 (904)|  1,512|       921 - 4,363|
 |TH Wildau                                                            |       12|                14,275|   1,190 (311)|  1,288|       442 - 1,500|
-|TU Clausthal                                                         |       12|                11,023|     919 (585)|    918|       181 - 2,099|
 |University of the West of England                                    |       12|                15,905|   1,325 (567)|  1,102|       851 - 2,606|
 |Akershus University Hospital                                         |       11|                15,680|   1,425 (402)|  1,290|       834 - 1,979|
 |Bern University of Applied Sciences                                  |       11|                16,386|   1,490 (412)|  1,364|       979 - 2,284|
 |Free University of Bozen-Bolzano                                     |       11|                 8,709|     792 (647)|    561|       260 - 2,221|
 |IFSTTAR                                                              |       11|                11,320|   1,029 (648)|    855|       296 - 2,160|
+|TU Clausthal                                                         |       11|                 8,924|     811 (474)|    900|       181 - 1,724|
 |Université Lille 1                                                   |       11|                15,099|   1,373 (453)|  1,266|       495 - 2,130|
 |ESPCI Paris                                                          |       10|                18,132| 1,813 (1,059)|  1,404|       761 - 3,700|
 |Hospices Civils de Lyon                                              |       10|                16,128|   1,613 (463)|  1,554|       977 - 2,200|
@@ -658,7 +658,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,830 open access articles being published in hybrid journals. Total expenditure amounts to  104,579,166 €. Average  fee is 2,500 € and the median 2,454 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,831 open access articles being published in hybrid journals. Total expenditure amounts to  104,581,265 €. Average  fee is 2,500 € and the median 2,454 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -797,6 +797,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Ecole normale supérieure de Paris                                    |        4|                17,077| 4,269 (3,800)|  2,909|     1,410 - 9,848|
 |Glasgow Caledonian University                                        |        4|                13,215|   3,304 (414)|  3,382|     2,771 - 3,680|
 |Hannover U                                                           |        4|                 5,824|   1,456 (180)|  1,398|     1,323 - 1,704|
+|TU Clausthal                                                         |        4|                 9,181|   2,295 (313)|  2,300|     1,964 - 2,618|
 |Université de Bordeaux                                               |        4|                 8,815|   2,204 (607)|  2,195|     1,676 - 2,750|
 |Université Lille 2                                                   |        4|                12,659| 3,165 (1,262)|  3,089|     1,981 - 4,500|
 |University of Borås                                                  |        4|                 8,003|   2,001 (757)|  2,225|       950 - 2,603|
@@ -805,7 +806,6 @@ The following institutions have contributed expenditures on hybrid open access j
 |Laurea University of Applied Sciences                                |        3|                 3,430| 1,143 (1,123)|    810|       225 - 2,395|
 |Mines ParisTech                                                      |        3|                 7,657|   2,552 (580)|  2,500|     2,000 - 3,157|
 |Swedish School of Sport and Health Sciences                          |        3|                 7,110|   2,370 (508)|  2,500|     1,810 - 2,800|
-|TU Clausthal                                                         |        3|                 7,082|   2,361 (349)|  2,500|     1,964 - 2,618|
 |Université Clermont Auvergne                                         |        3|                 5,702| 1,901 (1,245)|  2,153|       549 - 3,000|
 |Université Toulouse III - Paul Sabatier                              |        3|                 8,000|   2,667 (306)|  2,600|     2,400 - 3,000|
 |Bern University of Applied Sciences                                  |        2|                 5,160|   2,580 (538)|  2,580|     2,200 - 2,960|
