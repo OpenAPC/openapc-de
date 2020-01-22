@@ -8,10 +8,11 @@ import json
 from math import sqrt, nan
 from os import listdir
 from subprocess import run
+import ssl
 import sys
 from time import sleep
 from urllib.request import Request, urlopen
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 
 from babel.dates import format_date
 import openapc_toolkit as oat
@@ -166,11 +167,19 @@ def generate_nonresolving_dois_section(institution, apc_content, lang):
         doi = line[3]
         if doi != "NA":
             req = Request("https://doi.org/" + doi, headers=headers)
+            context = ssl.create_default_context()
+            context.check_hostname = False
+            context.verify_mode = ssl.CERT_NONE
             try:
-                urlopen(req)
+                urlopen(req, context=context)
                 sleep(0.5)
+            # we employ a conservative strategy here. Catching all HTTP/URL errors leads to
+            # many false positives which wouldn't occur in a browser (TLS stuff/User-Agent blocks)
             except HTTPError as httpe:
-                non_resolving_lines.append(line)
+                if httpe.getcode() == 404:
+                    non_resolving_lines.append(line)
+            except URLError:
+                pass
         print(msg.format(index, len(articles), len(non_resolving_lines)), end="\r")
     md_content = ""
     if non_resolving_lines:
