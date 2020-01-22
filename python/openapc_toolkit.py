@@ -1049,7 +1049,8 @@ def get_unified_publisher_name(publisher):
         "Element": "Ele-Math",
         "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca",
         "Future Science Ltd": "Future Science, LTD",
-        "Edinburgh University Global Health Society": "International Global Health Society"
+        "Edinburgh University Global Health Society": "International Global Health Society",
+        "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc."
     }
     return publisher_mappings.get(publisher, publisher)
 
