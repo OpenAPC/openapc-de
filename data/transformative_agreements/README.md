@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 33,973 articles, published at 206 institutions under 12 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 34,086 articles, published at 207 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -26,6 +26,7 @@ This dataset contains information on 33,973 articles, published at 206 instituti
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
+|DEAL Wiley Germany                           |      113|
 |FWF Offsetting Agreement T&F                 |       89|
 |FWF Offsetting Agreement IOP                 |       46|
 |MPG Taylor & Francis agreement               |       46|
@@ -123,6 +124,7 @@ This dataset contains information on 33,973 articles, published at 206 instituti
 |Brunel University                                                                                                                                  |      124|
 |Paracelsus Medical University                                                                                                                      |      116|
 |University of Dundee                                                                                                                               |      115|
+|Muenchen LMU                                                                                                                                       |      113|
 |Northumbria University                                                                                                                             |      109|
 |University of Surrey                                                                                                                               |      107|
 |Montanuniversität Leoben                                                                                                                           |      105|
