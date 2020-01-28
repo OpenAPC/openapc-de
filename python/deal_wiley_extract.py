@@ -11,10 +11,13 @@ ARG_HELP_STRINGS = {
 EMPTY_LINE_CORE = ["" for i in range(17)]
 EMPTY_LINE_TA = ["" for i in range(18)]
 
+# Wiley and imprints
+PUBLISHER_LIST = ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)"]
+
 AGREEMENT_NAME = "DEAL Wiley Germany"
 
 QUOTE_MASK = [True, False, False, True, True, True, True, True, True, True, True, True, True, True,
-              True, True, True, True]
+              True, True, True, True, True]
 
 def main():
     parser = argparse.ArgumentParser()
@@ -30,7 +33,7 @@ def main():
     print(ta_content)
     
     for line in content:
-        if line[4] == "TRUE" and line[5] == "Wiley-Blackwell":
+        if line[4] == "TRUE" and line[5] in PUBLISHER_LIST:
             core_content.append(list(EMPTY_LINE_CORE))
             ta_content.append(line + [AGREEMENT_NAME])
         else:
