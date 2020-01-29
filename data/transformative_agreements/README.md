@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 34,086 articles, published at 207 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 34,093 articles, published at 208 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -26,7 +26,7 @@ This dataset contains information on 34,086 articles, published at 207 instituti
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
-|DEAL Wiley Germany                           |      113|
+|DEAL Wiley Germany                           |      120|
 |FWF Offsetting Agreement T&F                 |       89|
 |FWF Offsetting Agreement IOP                 |       46|
 |MPG Taylor & Francis agreement               |       46|
@@ -213,6 +213,7 @@ This dataset contains information on 34,086 articles, published at 207 instituti
 |Queen Margaret University                                                                                                                          |        7|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |        7|
 |Swedish School of Sport and Health Sciences (GIH)                                                                                                  |        7|
+|TiHo Hannover                                                                                                                                      |        7|
 |Danube University Krems University for Continuing Education                                                                                        |        6|
 |Danube Universtity Krems University for Continuing Education                                                                                       |        6|
 |Netherlands Institute for Neuroscience                                                                                                             |        6|
