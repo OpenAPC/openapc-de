@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 34,093 articles, published at 208 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 34,104 articles, published at 209 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -26,7 +26,7 @@ This dataset contains information on 34,093 articles, published at 208 instituti
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
-|DEAL Wiley Germany                           |      120|
+|DEAL Wiley Germany                           |      131|
 |FWF Offsetting Agreement T&F                 |       89|
 |FWF Offsetting Agreement IOP                 |       46|
 |MPG Taylor & Francis agreement               |       46|
@@ -200,6 +200,7 @@ This dataset contains information on 34,093 articles, published at 208 instituti
 |Birmingham City University                                                                                                                         |       13|
 |Swedish Defence Research Agency                                                                                                                    |       12|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
+|Kassel U                                                                                                                                           |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |Dalarna University                                                                                                                                 |        9|
