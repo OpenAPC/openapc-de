@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 98,793 open access journal articles, amounting to € 195,524,860 and contributed by 259 institutions.
+At the moment this project provides cost data on 98,794 open access journal articles, amounting to € 195,519,714 and contributed by 259 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -353,9 +353,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 98,793 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 259 research performing institutions and research funders. 
+This data set contains information on 98,794 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 259 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 195,524,860. The average payment was € 1,979  and the median was € 1,783.
+In total, publication fee spending covered by the Open APC initiative amounted to € 195,519,714. The average payment was € 1,979  and the median was € 1,783.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -381,7 +381,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2015   |       8,267|   1,524|     1,452|   60 - 5,669|           6,686|       2,609|         2,621|      100 - 8,636|
 |2016   |       9,580|   1,635|     1,532|   63 - 5,985|           7,774|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,574|   1,712|     1,557|    9 - 6,250|           9,806|       2,517|         2,445|       37 - 9,858|
-|2018   |      11,589|   1,721|     1,600|   13 - 8,926|           8,076|       2,569|         2,541|       18 - 9,073|
+|2018   |      11,589|   1,721|     1,600|   13 - 8,926|           8,077|       2,568|         2,541|       18 - 9,073|
 |2019   |       3,091|   1,803|     1,672|   22 - 7,684|           1,855|       2,582|         2,537|      160 - 7,745|
 
 
@@ -660,7 +660,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,842 open access articles being published in hybrid journals. Total expenditure amounts to  104,600,717 €. Average  fee is 2,500 € and the median 2,454 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 41,843 open access articles being published in hybrid journals. Total expenditure amounts to  104,595,571 €. Average  fee is 2,500 € and the median 2,454 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -761,7 +761,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Umeå University                                                      |       23|                45,340|   1,971 (815)|  2,132|       248 - 3,040|
 |HU Berlin                                                            |       22|                15,929|     724 (297)|    677|       640 - 2,051|
 |GIGA                                                                 |       21|                49,204|   2,343 (479)|  2,463|       987 - 3,060|
-|TiHo Hannover                                                        |       18|                40,856| 2,270 (1,283)|  2,088|       267 - 5,093|
+|TiHo Hannover                                                        |       19|                35,710|   1,879 (907)|  1,726|       267 - 3,748|
 |Ulm U                                                                |       18|                37,646|   2,091 (537)|  2,319|     1,308 - 2,631|
 |Université Pierre et Marie Curie (Paris VI)                          |       18|                39,912|   2,217 (692)|  2,132|     1,208 - 3,480|
 |Virginia Tech                                                        |       17|                23,968|   1,410 (539)|  1,271|       633 - 2,337|
@@ -871,7 +871,7 @@ Indexing coverage
 |DOI                        |  99.78%       |
 |PubMed ID                  |  76.61%      |
 |PubMed Central ID          |  69.75%     |
-|Web of Science record ID   | 94.32%      |
+|Web of Science record ID   | 94.31%      |
 
 
 
