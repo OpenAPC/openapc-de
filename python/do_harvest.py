@@ -32,9 +32,11 @@ def integrate_changes(articles, file_path, enriched_file=False):
     enriched_blacklist = ["institution", "publisher", "journal_full_title", "issn", "license_ref", "pmid"]
     article_dict = OrderedDict()
     for article in articles:
-        doi = article["doi"]
-        if oat.has_value(doi):
-            article_dict[doi] = article
+        # This is possible because currently all repos use a local ID/record url, but it's just
+        # a workaround. We might have to change to OAI record IDs later. 
+        url = article["url"]
+        if oat.has_value(url):
+            article_dict[url] = article
     updated_lines = []
     fieldnames = None
     with open(file_path, "r") as f:
@@ -44,30 +46,24 @@ def integrate_changes(articles, file_path, enriched_file=False):
         start_msg = "Integrating changes in harvest data into existing file {}"
         oat.print_g(start_msg.format(file_path))
         for line in reader:
-            doi = line["doi"]
+            url = line["url"]
             line_num = reader.reader.line_num
-            if not oat.has_value(doi):
-                msg = "Line {}: No DOI found, change check not possible"
-                oat.print_y(msg.format(line_num))
+            msg = "Line {}: Checking for changes ({})"
+            oat.print_b(msg.format(line_num, url))
+            if url in article_dict:
+                for key, value in article_dict[url].items():
+                    if enriched_file and key in enriched_blacklist:
+                        continue
+                    if key in line and value != line[key]:
+                        update_msg = 'Updating value in column {} ("{}" -> "{}")'
+                        oat.print_g(update_msg.format(key, line[key], value))
+                        line[key] = value
+                del(article_dict[url])
                 updated_line = [line[key] for key in fieldnames]
                 updated_lines.append(updated_line)
             else:
-                msg = "Line {}: Checking for changes ({})"
-                oat.print_b(msg.format(line_num, doi))
-                if doi in article_dict:
-                    for key, value in article_dict[doi].items():
-                        if enriched_file and key in enriched_blacklist:
-                            continue
-                        if key in line and value != line[key]:
-                            update_msg = 'Updating value in column {} ("{}" -> "{}")'
-                            oat.print_g(update_msg.format(key, line[key], value))
-                            line[key] = value
-                    del(article_dict[doi])
-                    updated_line = [line[key] for key in fieldnames]
-                    updated_lines.append(updated_line)
-                else:
-                    remove_msg = "DOI {} no longer found in harvest data, removing article"
-                    oat.print_r(remove_msg.format(doi))
+                remove_msg = "URL {} no longer found in harvest data, removing article"
+                oat.print_r(remove_msg.format(url))
     with open(file_path, "w") as f:
         mask = oat.OPENAPC_STANDARD_QUOTEMASK if enriched_file else None
         writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
