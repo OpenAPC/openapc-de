@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 99,017 open access journal articles, amounting to € 195,794,753 and contributed by 259 institutions.
+At the moment this project provides cost data on 99,038 open access journal articles, amounting to € 195,824,304 and contributed by 259 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -353,9 +353,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 99,017 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 259 research performing institutions and research funders. 
+This data set contains information on 99,038 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 259 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 195,794,753. The average payment was € 1,977  and the median was € 1,781.
+In total, publication fee spending covered by the Open APC initiative amounted to € 195,824,304. The average payment was € 1,977  and the median was € 1,781.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -382,7 +382,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,580|   1,635|     1,532|   63 - 5,985|           7,774|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,577|   1,712|     1,557|    9 - 6,250|           9,806|       2,517|         2,445|       37 - 9,858|
 |2018   |      11,685|   1,715|     1,596|   13 - 8,926|           8,077|       2,568|         2,541|       18 - 9,073|
-|2019   |       3,190|   1,792|     1,666|   22 - 7,684|           1,880|       2,567|         2,514|      160 - 7,745|
+|2019   |       3,211|   1,790|     1,666|   22 - 7,684|           1,880|       2,567|         2,514|      160 - 7,745|
 
 
 
@@ -390,7 +390,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-57,149 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 91,163,040, including value-added tax; the average payment was € 1,595 (median =  € 1,503, SD = € 794).
+57,170 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 91,192,592, including value-added tax; the average payment was € 1,595 (median =  € 1,503, SD = € 794).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -512,6 +512,7 @@ The following table summarises institutional spending on articles published in f
 |CIRAD                                                                |       78|               119,540|   1,533 (552)|  1,507|        94 - 3,850|
 |INRIA                                                                |       77|               118,761|   1,542 (645)|  1,538|       290 - 3,700|
 |MLU Halle-Wittenberg                                                 |       77|               143,472|   1,863 (789)|  1,713|       405 - 4,582|
+|TU Ilmenau                                                           |       76|                96,118|   1,265 (569)|  1,418|        68 - 2,400|
 |Commissariat à l'énergie atomique et aux énergies alternatives (CEA) |       75|               135,506|   1,807 (820)|  1,538|       300 - 4,440|
 |TU Darmstadt                                                         |       75|                92,365|   1,232 (575)|  1,307|       226 - 2,166|
 |Aberystwyth University                                               |       74|               145,045|   1,960 (863)|  1,844|       664 - 5,893|
@@ -532,7 +533,6 @@ The following table summarises institutional spending on articles published in f
 |Northumbria University                                               |       57|                96,627|   1,695 (769)|  1,581|       144 - 4,335|
 |University of Aberdeen                                               |       57|               114,581|   2,010 (781)|  1,848|       985 - 4,556|
 |Tampere University                                                   |       56|                79,937|   1,427 (492)|  1,445|       265 - 2,655|
-|TU Ilmenau                                                           |       55|                66,566|   1,210 (596)|  1,285|        68 - 2,400|
 |Norwegian University of Life Sciences                                |       53|                72,307|   1,364 (298)|  1,449|       481 - 1,678|
 |Liverpool School of Tropical Medicine                                |       52|                88,727|   1,706 (563)|  1,636|       614 - 4,046|
 |University of Leicester                                              |       52|                86,831|   1,670 (716)|  1,652|       418 - 4,765|
