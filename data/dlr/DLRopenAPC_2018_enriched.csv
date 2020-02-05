@@ -51,7 +51,7 @@
 "DLR",2018,1192.58,"10.1063/1.5064457",FALSE,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","2158-3226",NA,TRUE,NA,NA,"ut:000454615100089",NA,TRUE
 "DLR",2018,150,"10.1080/22797254.2018.1551069",FALSE,"Informa UK Limited","European Journal of Remote Sensing","2279-7254",NA,"2279-7254","2279-7254","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000479062900008",NA,TRUE
 "DLR",2018,1560,"10.1088/1367-2630/aaf8d0",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000457286100003",NA,TRUE
-"DLR",2018,450,"10.1088/1742-6596/1037/5/052006",TRUE,"IOP Publishing","Journal of Physics: Conference Series","1742-6588","1742-6588","1742-6596","1742-6588","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,450,"10.1088/1742-6596/1037/5/052006",FALSE,"IOP Publishing","Journal of Physics: Conference Series","1742-6588","1742-6588","1742-6596","1742-6588","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2018,600,"10.1088/2399-6528/aaba23",FALSE,"IOP Publishing","Journal of Physics Communications","2399-6528",NA,"2399-6528","2399-6528","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000434999300015",NA,TRUE
 "DLR",2018,2774.65,"10.1103/physrevx.8.041003",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","2160-3308","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000446560000001",NA,TRUE
 "DLR",2018,1356.61,"10.1109/jstars.2018.2849363",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing","1939-1404","1939-1404","2151-1535","1939-1404",NA,TRUE,NA,NA,"ut:000443755000005",NA,FALSE
@@ -71,8 +71,8 @@
 "DLR",2018,826.19,"10.1155/2018/4761601",FALSE,"Hindawi Publishing Corporation","Journal of Electrical and Computer Engineering","2090-0147","2090-0147","2090-0155","2090-0147","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000431567600001",NA,TRUE
 "DLR",2018,3000,"10.1186/s40623-018-0934-1",FALSE,"Springer Nature","Earth, Planets and Space","1880-5981",NA,"1880-5981","1343-8832","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000446580200001",NA,TRUE
 "DLR",2018,2154.73,"10.1364/ao.57.007501",TRUE,"Optical Society of America (OSA)","Applied Optics","1559-128X","1559-128X","2155-3165","1559-128X",NA,TRUE,"30461816",NA,"ut:000444085500011",NA,FALSE
-"DLR",2018,1298.24,"10.1364/oe.26.006692",TRUE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"29609356",NA,"ut:000427900400034",NA,TRUE
-"DLR",2018,1373.62,"10.1364/oe.26.016044",TRUE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"30119441",NA,"ut:000436226800001",NA,TRUE
+"DLR",2018,1298.24,"10.1364/oe.26.006692",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"29609356",NA,"ut:000427900400034",NA,TRUE
+"DLR",2018,1373.62,"10.1364/oe.26.016044",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"30119441",NA,"ut:000436226800001",NA,TRUE
 "DLR",2018,2864.24,"10.1364/optica.5.001431",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536","2334-2536",NA,TRUE,NA,NA,"ut:000450664900010",NA,TRUE
 "DLR",2018,1407.15,"10.1371/journal.pone.0208425",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30513104","PMC6279046","ut:000452204800031",NA,TRUE
 "DLR",2018,1399.49,"10.1371/journal.pone.0209872",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30620731","PMC6324805","ut:000455161300009",NA,TRUE
