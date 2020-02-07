@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 99,233 open access journal articles, amounting to € 196,120,195 and contributed by 260 institutions.
+At the moment this project provides cost data on 99,232 open access journal articles, amounting to € 196,118,395 and contributed by 260 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -354,9 +354,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 99,233 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 260 research performing institutions and research funders. 
+This data set contains information on 99,232 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 260 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 196,120,195. The average payment was € 1,976  and the median was € 1,780.
+In total, publication fee spending covered by the Open APC initiative amounted to € 196,118,395. The average payment was € 1,976  and the median was € 1,780.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -382,7 +382,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2015   |       8,267|   1,524|     1,452|   60 - 5,669|           6,686|       2,609|         2,621|      100 - 8,636|
 |2016   |       9,580|   1,635|     1,532|   63 - 5,985|           7,774|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,577|   1,712|     1,557|    9 - 6,250|           9,805|       2,517|         2,445|       37 - 9,858|
-|2018   |      11,796|   1,711|     1,594|   13 - 8,926|           8,128|       2,563|         2,537|       18 - 9,073|
+|2018   |      11,795|   1,711|     1,594|   13 - 8,926|           8,128|       2,563|         2,537|       18 - 9,073|
 |2019   |       3,236|   1,789|     1,666|   22 - 7,684|           1,889|       2,566|         2,510|      160 - 7,745|
 
 
@@ -391,7 +391,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-57,306 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 91,373,598, including value-added tax; the average payment was € 1,594 (median =  € 1,503, SD = € 793).
+57,305 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 91,371,798, including value-added tax; the average payment was € 1,594 (median =  € 1,503, SD = € 793).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -493,8 +493,8 @@ The following table summarises institutional spending on articles published in f
 |Indiana University - Purdue University Indianapolis (IUPUI)          |      114|               166,599|   1,461 (685)|  1,362|       212 - 4,920|
 |HZDR                                                                 |      113|               158,572|   1,403 (740)|  1,285|       236 - 4,000|
 |University of Dundee                                                 |      113|               237,120| 2,098 (1,034)|  1,784|       126 - 4,908|
-|DLR                                                                  |      111|               138,088|   1,244 (622)|  1,154|       124 - 3,850|
 |Oslo University Hospital                                             |      111|               149,777|   1,349 (373)|  1,392|       232 - 2,725|
+|DLR                                                                  |      110|               136,288|   1,239 (622)|  1,154|       124 - 3,850|
 |Queen Mary, University of London                                     |      106|               204,509| 1,929 (1,101)|  1,594|       442 - 5,429|
 |University of Debrecen                                               |       99|               151,340|   1,529 (788)|  1,626|        69 - 3,689|
 |TU Chemnitz                                                          |       98|               113,365|   1,157 (600)|  1,249|        78 - 2,123|
