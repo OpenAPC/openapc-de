@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 34,115 articles, published at 210 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 34,116 articles, published at 211 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -26,7 +26,7 @@ This dataset contains information on 34,115 articles, published at 210 instituti
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
-|DEAL Wiley Germany                           |      142|
+|DEAL Wiley Germany                           |      143|
 |FWF Offsetting Agreement T&F                 |       89|
 |FWF Offsetting Agreement IOP                 |       46|
 |MPG Taylor & Francis agreement               |       46|
@@ -242,6 +242,7 @@ This dataset contains information on 34,115 articles, published at 210 instituti
 |FH Kufstein Tirol - University of Applied Sciences                                                                                                 |        1|
 |FHWien der WKW (FHW)                                                                                                                               |        1|
 |International Institute of Social History (IISH)                                                                                                   |        1|
+|IPN - Leibniz Kiel                                                                                                                                 |        1|
 |Medical University of Innsbruck                                                                                                                    |        1|
 |Meertens Institute                                                                                                                                 |        1|
 |Meertens Institute, Netherlands                                                                                                                    |        1|
