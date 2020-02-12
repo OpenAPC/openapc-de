@@ -223,7 +223,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2329-423X", # Neurophotonics, Gold OA since 1/2019
     "1388-2481", # Electrochemistry Communications, Gold OA since 1/2019
     "1869-4179", # Raumforschung und Raumordnung, Gold OA since 1/2019
-    "0265-6736" # International Journal of Hyperthermia, Gold OA since 1/2019
+    "0265-6736", # International Journal of Hyperthermia, Gold OA since 1/2019
+    "1755-5930" # CNS Neuroscience & Therapeutics, Gold OA since 2019
 ]
 
 class RowObject(object):
