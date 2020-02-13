@@ -13,7 +13,7 @@
 |2018.01| An additional form was added to the section of the financial reports in mySNF, where grantees or their financial administration can explicitly report paid APCs and make a link to the publication in the output data section.|
 |2018.01|First release of collected data to OpenAPC. Part of the data is the set of the first monitoring period 2013-2015. As this data was extracted from checking samples of financial reports it does not cover all paid APCs of this period. Through a more systematic screening for APCs, the data from 2016-2017 provides a more complete picture. However some paid APCs might have slipped through the screening process.  |
 |2018.04|For new grant applications APCs are no longer part of the research budget but can be requested independently. The existing upper limit of 3000 CHF has been temporary removed as part of the [SNSF OA2020 policy](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy).|
-|2018.10|A new workflow has been established, where grantees can apply for payment/reimbursement of APCs also for grants that already have expired.|
+|2018.10|A new workflow has been established, where grantees can request the payment/refund of APCs even for grants that have already expired.
 
 ## CHF to EUR Conversion
 
@@ -32,16 +32,15 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 |2017|1|1.11157||
 |2018|1|1.15487||
 |2019|1|1.11247||
-|2020|1|1.0764|[Average Jan 2020](https://data.snb.ch/de/topics/ziredev#!/cube/devkum?fromDate=2019-01&toDate=2020-07&dimSel=D0(M0),D1(EUR1)))| 
+|2020|1|1.0764|[Average Jan 2020](https://data.snb.ch/de/topics/ziredev#!/cube/devkum?fromDate=2019-01&toDate=2020-07&dimSel=D0(M0),D1(EUR1))| 
 
 ## Co-Funding
 
 Some APCs haven't been entirely funded by the SNSF. This applies in particular to cases between October 2013 and March 2018, when there was an upper limit of CHF 3000 per APC. In such cases during the period with the cap, the SNSF usually covered CHF 3000 and the remaining payment was returned to the author and/or the university finance department.
 
-If both paying institutions are represented at OpenAPC, the individual payments was stored in [data/apc_cofunding.csv](apc_cofunding.csv) see example 10.1038/srep25902. However, in cases where the other institutions do not yet provide data on OpenAPC, the entire amount is temporarily allocated to the SNSF. 
+If both paying institutions are represented at OpenAPC, the individual payments was stored in [snsf_apc_cofunding.csv](snsf_apc_cofunding.csv) see example 10.1038/srep25902. However, in cases where the other institutions do not yet provide data on OpenAPC, the entire amount is temporarily allocated to the SNSF. 
 
-For those publications a further list [list of publication with co-funding](snsf_apc_cofunding.csv) in the snsf data folder was created. If another insitution reports a duplicate DOI please check if it is listed here and move it to [data/apc_cofunding.csv](apc_cofunding.csv).
-
+For those publications a further list [list of publication with co-funding](snsf_apc_cofunding.csv) was created in the snsf data folder. Please get in touch if you want to claim the other part, so we can move the publication to [apc_cofunding.csv list of OpenAPC](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_cofunding.csv)
 
 ## Hybrid
 
@@ -53,7 +52,7 @@ For full transparency the [initial uploaded list](snsf_openapc.csv) contains som
 
 |name | description |
 |--|--|
-| chf | the paid amount for the APC (including VAT, discounts, transaction feeds) in Swiss Francs|
+| chf | the paid amount for the APC (including VAT, discounts, transaction fees) in Swiss Francs|
 | conversion_rate | The applied conversion rate (see above) considering the publication year|
 | invoice_original_amount | If available the original amount on the invoice (usually without transaction fees)|
 | invoice_original_currency | The currency of the invoice|
