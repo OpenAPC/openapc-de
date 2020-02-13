@@ -1,7 +1,7 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "INRA",2017,2125,"10.2527/jas.2016.0980",TRUE,"Oxford University Press (OUP)","Journal of Animal Science","0021-8812","0021-8812","1525-3163","0021-8812",NA,TRUE,NA,NA,NA,NA,FALSE
 "INRA",2017,1350,"10.1074/jbc.m117.783464",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X","0021-9258",NA,TRUE,"28476884","PMC5491770","ut:000404391000008",NA,FALSE
-"INRA",2017,1668.66,"10.1128/msystems.00186-16",FALSE,"American Society for Microbiology","mSystems","2379-5077",NA,"2379-5077","2379-5077",NA,TRUE,"28317029","PMC5350546","ut:000408195200008",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "INRA",2017,1057.5,"10.1128/msphere.00118-17",FALSE,"American Society for Microbiology","mSphere","2379-5042",NA,"2379-5042","2379-5042",NA,TRUE,"28435889","PMC5397566",NA,NA,TRUE
 "INRA",2017,675,"10.1128/genomea.00410-17",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"28684564","PMC5502845",NA,NA,FALSE
 "INRA",2017,690,"10.1128/genomea.00584-17",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287",NA,TRUE,"28663298","PMC5638282",NA,NA,FALSE
@@ -105,7 +105,7 @@
 "INRA",2017,2130,"10.1093/nar/gkx162",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"28334831","PMC5449624","ut:000402510700056",NA,TRUE
 "INRA",2017,300,"10.3897/bdj.5.e15125",FALSE,"Pensoft Publishers","Biodiversity Data Journal","1314-2828","1314-2836","1314-2828","1314-2828","http://creativecommons.org/licenses/by/4.0/",TRUE,"29308041","PMC5740413",NA,NA,TRUE
 "INRA",2017,1916.51,"10.1371/journal.pcbi.1005870",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","1553-734X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29194457","PMC5736211","ut:000418951400014",NA,TRUE
-"INRA",2017,1314.19,"10.1371/journal.pntd.0005416",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"28248955","PMC5348082","ut:000402251300025",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "INRA",2017,1254,"10.1371/journal.pone.0184015",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28886097","PMC5590879","ut:000410001100054",NA,TRUE
 "INRA",2017,550,"10.1371/journal.pone.0171104",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28187126","PMC5302804","ut:000394244300011",NA,TRUE
 "INRA",2017,2250,"10.1371/journal.pgen.1006666",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"28301472","PMC5373671","ut:000398043000028",NA,TRUE
