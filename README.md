@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 99,755 open access journal articles, amounting to € 197,289,943 and contributed by 260 institutions.
+At the moment this project provides cost data on 99,758 open access journal articles, amounting to € 197,295,481 and contributed by 260 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -354,9 +354,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 99,755 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 260 research performing institutions and research funders. 
+This data set contains information on 99,758 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 260 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 197,289,943. The average payment was € 1,978  and the median was € 1,781.
+In total, publication fee spending covered by the Open APC initiative amounted to € 197,295,481. The average payment was € 1,978  and the median was € 1,781.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -383,7 +383,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,588|   1,635|     1,532|    63 - 5,985|           7,774|       2,548|         2,511|        2 - 9,079|
 |2017   |      13,617|   1,713|     1,557|     9 - 6,250|           9,810|       2,517|         2,445|       37 - 9,858|
 |2018   |      11,875|   1,714|     1,595|    13 - 8,926|           8,134|       2,564|         2,537|       18 - 9,073|
-|2019   |       3,588|   1,830|     1,678|    22 - 7,684|           1,914|       2,569|         2,514|      160 - 7,745|
+|2019   |       3,591|   1,830|     1,679|    22 - 7,684|           1,914|       2,569|         2,514|      160 - 7,745|
 |2020   |           5|   2,631|     2,206| 1,128 - 4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -392,7 +392,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-57,791 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 92,438,856, including value-added tax; the average payment was € 1,600 (median =  € 1,504, SD = € 798).
+57,794 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 92,444,394, including value-added tax; the average payment was € 1,600 (median =  € 1,504, SD = € 798).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -423,7 +423,7 @@ The following table summarises institutional spending on articles published in f
 |Wuerzburg U                                                          |      813|             1,162,219|   1,430 (464)|  1,476|       103 - 2,533|
 |Tuebingen U                                                          |      789|             1,114,397|   1,412 (414)|  1,442|        75 - 2,662|
 |University of Manchester                                             |      727|             1,473,030|   2,026 (992)|  1,702|       199 - 5,552|
-|Bielefeld U                                                          |      663|               907,681|   1,369 (454)|  1,396|       140 - 5,105|
+|Bielefeld U                                                          |      666|               913,220|   1,371 (454)|  1,396|       140 - 5,105|
 |Giessen U                                                            |      655|               990,314|   1,512 (653)|  1,503|        81 - 4,582|
 |Muenchen LMU                                                         |      649|               955,331|   1,472 (387)|  1,529|       289 - 3,142|
 |Bremen U                                                             |      634|               946,703|   1,493 (683)|  1,428|        50 - 5,105|
