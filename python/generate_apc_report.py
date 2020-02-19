@@ -220,7 +220,10 @@ def generate_apc_deviaton_section(institution, articles, stats, lang):
             for index in [1, 3, 2, 18, 19, 20]:
                 elem = str(article[index]).replace("|", "\|")
                 if index == 3: # doi
-                    elem = "[" + elem + "](https://doi.org/" + elem + ")"
+                    if oat.has_value(elem):
+                        elem = "[" + elem + "](https://doi.org/" + elem + ")"
+                    else: # No doi, use url instead
+                        elem = "[Link](" + article[16] + ")"
                 if index in [2, 18, 19, 20]: # monetary
                     elem = elem + "€"
                 row += elem + "|"
