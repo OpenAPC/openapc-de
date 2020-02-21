@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 100,084 open access journal articles, amounting to € 197,830,655 and contributed by 261 institutions.
+At the moment this project provides cost data on 100,084 open access journal articles, amounting to € 197,829,371 and contributed by 261 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -357,7 +357,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 This data set contains information on 100,084 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 261 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 197,830,655. The average payment was € 1,977  and the median was € 1,780.
+In total, publication fee spending covered by the Open APC initiative amounted to € 197,829,371. The average payment was € 1,977  and the median was € 1,780.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -393,7 +393,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-58,097 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 92,930,357, including value-added tax; the average payment was € 1,600 (median =  € 1,504, SD = € 798).
+58,097 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 92,929,073, including value-added tax; the average payment was € 1,600 (median =  € 1,504, SD = € 798).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -477,7 +477,7 @@ The following table summarises institutional spending on articles published in f
 |University of Reading                                                |      190|               305,651|   1,609 (714)|  1,561|       130 - 4,453|
 |Université de Lorraine                                               |      186|               221,305|   1,190 (665)|  1,183|       102 - 4,176|
 |University of Tromsø - The Arctic University of Norway               |      179|               252,462|   1,410 (415)|  1,523|       496 - 2,404|
-|TU Berlin                                                            |      178|               244,715|   1,375 (626)|  1,389|       235 - 5,631|
+|TU Berlin                                                            |      178|               243,430|   1,368 (618)|  1,389|       235 - 5,631|
 |University of Turku                                                  |      177|               305,318|   1,725 (889)|  1,618|        62 - 5,220|
 |Frankfurt U                                                          |      175|               302,577|   1,729 (734)|  1,630|       109 - 4,841|
 |Potsdam U                                                            |      173|               253,313|   1,464 (416)|  1,531|       208 - 2,303|
