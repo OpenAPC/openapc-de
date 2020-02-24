@@ -180,6 +180,8 @@ def generate_nonresolving_dois_section(institution, apc_content, lang):
                     non_resolving_lines.append(line)
             except URLError:
                 pass
+            except ConnectionError:
+                pass
         print(msg.format(index, len(articles), len(non_resolving_lines)), end="\r")
     md_content = ""
     if non_resolving_lines:
