@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 100,098 open access journal articles, amounting to € 197,855,830 and contributed by 261 institutions.
+At the moment this project provides cost data on 100,148 open access journal articles, amounting to € 197,937,190 and contributed by 261 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -355,9 +355,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 100,098 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 261 research performing institutions and research funders. 
+This data set contains information on 100,148 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 261 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 197,855,830. The average payment was € 1,977  and the median was € 1,780.
+In total, publication fee spending covered by the Open APC initiative amounted to € 197,937,190. The average payment was € 1,976  and the median was € 1,780.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -368,24 +368,24 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 ![](figure/boxplot_oa.png)
 
 
-|period | OA articles| OA mean| OA median|  OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
-|:------|-----------:|-------:|---------:|-------------:|---------------:|-----------:|-------------:|----------------:|
-|2005   |           7|     858|       871|   480 - 1,350|               1|       2,983|         2,983|    2,983 - 2,983|
-|2006   |          52|   1,021|     1,095|   665 - 1,340|              NA|          NA|            NA|               NA|
-|2007   |          88|   1,081|     1,062|   870 - 1,825|              NA|          NA|            NA|               NA|
-|2008   |         205|   1,170|     1,025|   441 - 2,830|               1|       2,660|         2,660|    2,660 - 2,660|
-|2009   |         356|   1,181|     1,060|   125 - 4,386|              NA|          NA|            NA|               NA|
-|2010   |         397|   1,261|     1,139|   159 - 7,419|               2|       2,401|         2,401|    2,173 - 2,630|
-|2011   |         770|   1,158|     1,127|   105 - 4,666|               6|       1,781|         2,085|      552 - 2,631|
-|2012   |       1,534|   1,172|     1,180|    69 - 4,498|              19|       2,298|         2,376|      997 - 2,700|
-|2013   |       2,359|   1,230|     1,180|    50 - 4,574|           1,098|       2,257|         2,260|      120 - 4,679|
-|2014   |       5,082|   1,375|     1,257|    40 - 9,028|           6,518|       2,239|         2,200|      132 - 6,000|
-|2015   |       8,268|   1,524|     1,452|    60 - 5,669|           6,686|       2,609|         2,621|      100 - 8,636|
-|2016   |       9,589|   1,635|     1,532|    63 - 5,985|           7,774|       2,548|         2,511|        2 - 9,079|
-|2017   |      13,726|   1,715|     1,558|     9 - 6,250|           9,833|       2,516|         2,445|       37 - 9,858|
-|2018   |      11,871|   1,714|     1,594|    13 - 8,926|           8,134|       2,564|         2,537|       18 - 9,073|
-|2019   |       3,802|   1,808|     1,669|    22 - 7,684|           1,914|       2,569|         2,514|      160 - 7,745|
-|2020   |           5|   2,631|     2,206| 1,128 - 4,750|               1|       3,318|         3,318|    3,318 - 3,318|
+|period | OA articles| OA mean| OA median| OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
+|:------|-----------:|-------:|---------:|------------:|---------------:|-----------:|-------------:|----------------:|
+|2005   |           7|     858|       871|  480 - 1,350|               1|       2,983|         2,983|    2,983 - 2,983|
+|2006   |          52|   1,021|     1,095|  665 - 1,340|              NA|          NA|            NA|               NA|
+|2007   |          88|   1,081|     1,062|  870 - 1,825|              NA|          NA|            NA|               NA|
+|2008   |         205|   1,170|     1,025|  441 - 2,830|               1|       2,660|         2,660|    2,660 - 2,660|
+|2009   |         356|   1,181|     1,060|  125 - 4,386|              NA|          NA|            NA|               NA|
+|2010   |         397|   1,261|     1,139|  159 - 7,419|               2|       2,401|         2,401|    2,173 - 2,630|
+|2011   |         770|   1,158|     1,127|  105 - 4,666|               6|       1,781|         2,085|      552 - 2,631|
+|2012   |       1,534|   1,172|     1,180|   69 - 4,498|              19|       2,298|         2,376|      997 - 2,700|
+|2013   |       2,359|   1,230|     1,180|   50 - 4,574|           1,098|       2,257|         2,260|      120 - 4,679|
+|2014   |       5,082|   1,375|     1,257|   40 - 9,028|           6,518|       2,239|         2,200|      132 - 6,000|
+|2015   |       8,268|   1,524|     1,452|   60 - 5,669|           6,686|       2,609|         2,621|      100 - 8,636|
+|2016   |       9,589|   1,635|     1,532|   63 - 5,985|           7,774|       2,548|         2,511|        2 - 9,079|
+|2017   |      13,726|   1,715|     1,558|    9 - 6,250|           9,833|       2,516|         2,445|       37 - 9,858|
+|2018   |      11,871|   1,714|     1,594|   13 - 8,926|           8,134|       2,564|         2,537|       18 - 9,073|
+|2019   |       3,832|   1,808|     1,674|   22 - 7,684|           1,914|       2,569|         2,514|      160 - 7,745|
+|2020   |          25|   1,585|     1,502|  332 - 4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
 
@@ -393,7 +393,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-58,111 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 92,955,532, including value-added tax; the average payment was € 1,600 (median =  € 1,504, SD = € 798).
+58,161 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 93,036,892, including value-added tax; the average payment was € 1,600 (median =  € 1,504, SD = € 798).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -410,8 +410,8 @@ The following table summarises institutional spending on articles published in f
 |TU Muenchen                                                          |    1,224|             1,663,430|   1,359 (457)|  1,479|       106 - 2,122|
 |University of Oxford                                                 |    1,218|             2,857,774| 2,346 (1,203)|  1,980|        24 - 5,700|
 |Imperial College London                                              |    1,197|             2,346,549| 1,960 (1,066)|  1,646|       260 - 7,684|
+|Heidelberg U                                                         |    1,189|             1,818,750|   1,530 (391)|  1,661|        60 - 2,108|
 |University of Cambridge                                              |    1,173|             2,660,767| 2,268 (1,209)|  1,853|         9 - 6,197|
-|Heidelberg U                                                         |    1,139|             1,737,390|   1,525 (389)|  1,658|        60 - 2,108|
 |Swiss National Science Foundation (SNSF)                             |    1,125|             2,351,601| 2,090 (1,138)|  1,696|        87 - 5,104|
 |Freiburg U                                                           |      949|             1,380,528|   1,455 (414)|  1,525|        50 - 2,501|
 |University of Birmingham                                             |      944|             1,654,675|   1,753 (793)|  1,594|       126 - 5,669|
@@ -877,8 +877,8 @@ Indexing coverage
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.78%       |
 |PubMed ID                  |  76.49%      |
-|PubMed Central ID          |  69.67%     |
-|Web of Science record ID   | 94.25%      |
+|PubMed Central ID          |  69.66%     |
+|Web of Science record ID   | 94.22%      |
 
 
 
