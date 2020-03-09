@@ -1,20 +1,20 @@
 ## About
 
-This directory contains data on APC costs covered by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/how-we-work/general-information/open-access-policy). Since the original data required some preprocessing steps to make it ingestible by OpenAPC, intermediate results are provided together with the original and the final, OpenAPC-compatible version.
+This directory contains data on APC costs covered by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/how-we-work/general-information/open-access-policy). Since the original data required some preprocessing to make it ingestible by OpenAPC, intermediate results are provided together with the original and the final, OpenAPC-compatible version.
 
 ### Original
 
-File: [Gates_Open_Access_Publishing_Charges_Project_Data.csv]()
+File: [Gates_Open_Access_Publishing_Charges_Project_Data.csv](Gates_Open_Access_Publishing_Charges_Project_Data.csv)
 
 This is the original CSV file as obtained from the [UCLA Dataverse repository](https://dataverse.ucla.edu/dataset.xhtml;jsessionid=5f982d0cf8234478939c09ae6932?persistentId=doi:10.25346/S6/EEFYIP). No data was modified.
 
-File: [Gates_Report_02062020.csv]()
+File: [Gates_Report_02062020.csv](Gates_Report_02062020.csv)
 
 An additional table provided by the Gates Foundation, providing DOIs which are missing in the first file. Some columns were removed during CSV export to protect potentially sensitive author data.
 
 ### Preprocessed
 
-File: [Gates_Open_Access_Publishing_Charges_Project_Data_preprocessed.csv]()
+File: [Gates_Open_Access_Publishing_Charges_Project_Data_preprocessed.csv](Gates_Open_Access_Publishing_Charges_Project_Data_preprocessed.csv)
 
 This is a modified variant of the first original file, with the aim to make it compatible with the OpenAPC enrichment scripts. The following tasks were carried out:
 
@@ -26,22 +26,22 @@ This is a modified variant of the first original file, with the aim to make it c
 - All columns not relevant to the preprocessing or enrichment were removed. This included all other columns containing data on additional expenditures like "Color Charg" \[sic\] or "Page Charge" as those components are not part of an APC as per OpenAPC's [definition](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout#definition-of-costs).
 - Articles without a DOI or with a value of 0 in the "APC" column were removed (A line of empty values was inserted in place to keep line numbers between all processed files in sync)
 
-All steps described above were carried out by a [python preprocessing script](https://github.com/OpenAPC/openapc-de/blob/master/python/etc/preprocessing/gates_foundation/gates_foundation_preprocessing.py), its log output can be viewed [here](https://github.com/OpenAPC/openapc-de/blob/master/python/etc/preprocessing/gates_foundation/log.txt). 
+All steps described above were carried out by a [python preprocessing script](../../python/etc/preprocessing/gates_foundation/gates_foundation_preprocessing.py), its log output can be viewed [here](../../python/etc/preprocessing/gates_foundation/log.txt). 
 
 ### Enriched
 
-File: [Gates_Open_Access_Publishing_Charges_Project_Data_enriched.csv]()
+File: [Gates_Open_Access_Publishing_Charges_Project_Data_enriched.csv](Gates_Open_Access_Publishing_Charges_Project_Data_enriched.csv)
 
 This is the resulting file after runnning the OpenAPC enrichment scripts. Some more entries were dropped during this process if Crossref reported an incompatible publication type (OpenAPC only aggregates journal articles, so records belonging to types like data sets, conference papers or book chapters were removed).
 
 
 ### Postprocessed
 
-File: [Gates_Open_Access_Publishing_Charges_Project_Data_postprocessed.csv]()
+File: [Gates_Open_Access_Publishing_Charges_Project_Data_postprocessed.csv](Gates_Open_Access_Publishing_Charges_Project_Data_postprocessed.csv)
 
 The final, OpenAPC-compatible version. Two last steps had to be performed on the enriched file:
 
-- The original data did not include information on the hybrid status of the journal an article had been published in, which is mandatory for OpenAPC (there's a column "Open Access Status" in the supplement table, but we found it to be inaccurate in many cases). We solved this issue by importing the hybrid status from different sources (OpenAPC's own core data and TA data files and the remaining ones from [journalTOCs](http://www.journaltocs.hw.ac.uk/). A small remaining number of journals was looked up manually.
+- The original data did not include information on the hybrid status of the journal an article had been published in, which is mandatory for OpenAPC (there's a column "Open Access Status" in the supplement table, but we found it to be inaccurate in many cases). We solved this issue by importing the hybrid status from different sources (OpenAPC's own core data and TA data files and the remaining ones from [journalTOCs](http://www.journaltocs.hw.ac.uk/)). Only a small number of journals had to be looked up manually.
 - Some duplicates in the data had to cleared, as each DOI may only appear once in the OpenAPC data set. In most of these cases both affected lines had to be deleted, as we could not tell which one was correct in case of different APC values.
 
 ### Statistics
