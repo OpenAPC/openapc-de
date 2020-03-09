@@ -1,6 +1,6 @@
 ## About
 
-This directory contains data on APC costs covered by the [Bill and Melinda Gates Foundation](https://gatesopenresearch.org/for-authors/article-processing-charges). Since the original data required some preprocessing steps to make it ingestible by OpenAPC, intermediate results are provided together with the original and the final, OpenAPC-compatible version.
+This directory contains data on APC costs covered by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/how-we-work/general-information/open-access-policy). Since the original data required some preprocessing steps to make it ingestible by OpenAPC, intermediate results are provided together with the original and the final, OpenAPC-compatible version.
 
 ### Original
 
