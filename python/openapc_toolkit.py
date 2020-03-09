@@ -1247,7 +1247,11 @@ def get_unified_journal_title(journal_full_title):
         "Journal Of Environmental Law": "Journal of Environmental Law",
         "Eurasia Journal of Mathematics, Science and Technology Education": "EURASIA Journal of Mathematics, Science and Technology Education",
         "Journal of Vacuum Science & Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films",
-        "Nonlinear Analysis": "Nonlinear Analysis: Theory, Methods & Applications"
+        "Nonlinear Analysis": "Nonlinear Analysis: Theory, Methods & Applications",
+        "Journal of Water Sanitation and Hygiene for Development": "Journal of Water, Sanitation and Hygiene for Development",
+        "Advances in Nutrition: An International Review Journal": "Advances in Nutrition",
+        "Cellular & Molecular Immunology": "Cellular and Molecular Immunology",
+        "AFRICAN JOURNAL OF FOOD, AGRICULTURE, NUTRITION AND DEVELOPMENT": "African Journal of Food, Agriculture, Nutrition and Development"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 

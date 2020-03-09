@@ -167,7 +167,8 @@ JOURNAL_OWNER_CHANGED = {
     "1748-121X": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Legal Studies (electronic)
     "2045-824X": ["Springer Science + Business Media", "Publiverse Online S.R.L"], # Vascular Cell
     "1869-4179": ["Springer Nature", "Walter de Gruyter GmbH"], # Raumforschung und Raumordnung
-    "1552-5260": ["Elsevier BV", "Wiley-Blackwell"] # Alzheimer's & Dementia
+    "1552-5260": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia
+    "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"] # Clinics
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -224,7 +225,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1388-2481", # Electrochemistry Communications, Gold OA since 1/2019
     "1869-4179", # Raumforschung und Raumordnung, Gold OA since 1/2019
     "0265-6736", # International Journal of Hyperthermia, Gold OA since 1/2019
-    "1755-5930" # CNS Neuroscience & Therapeutics, Gold OA since 2019
+    "1755-5930", # CNS Neuroscience & Therapeutics, Gold OA since 2019,
+    "1756-8692" # International Journal of Climate Change Strategies and Management, Gold OA since 2018
 ]
 
 class RowObject(object):
