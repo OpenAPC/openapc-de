@@ -226,7 +226,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1869-4179", # Raumforschung und Raumordnung, Gold OA since 1/2019
     "0265-6736", # International Journal of Hyperthermia, Gold OA since 1/2019
     "1755-5930", # CNS Neuroscience & Therapeutics, Gold OA since 2019,
-    "1756-8692" # International Journal of Climate Change Strategies and Management, Gold OA since 2018
+    "1756-8692", # International Journal of Climate Change Strategies and Management, Gold OA since 2018
+    "1749-5024" # Social Cognitive and Affective Neuroscience, Gold OA since 2017
 ]
 
 class RowObject(object):
