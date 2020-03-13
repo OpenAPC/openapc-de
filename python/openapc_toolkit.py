@@ -1252,7 +1252,9 @@ def get_unified_journal_title(journal_full_title):
         "Advances in Nutrition: An International Review Journal": "Advances in Nutrition",
         "Cellular & Molecular Immunology": "Cellular and Molecular Immunology",
         "AFRICAN JOURNAL OF FOOD, AGRICULTURE, NUTRITION AND DEVELOPMENT": "African Journal of Food, Agriculture, Nutrition and Development",
-        "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience"
+        "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience",
+        "Chemistry – An Asian Journal": "Chemistry - An Asian Journal",
+        "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
