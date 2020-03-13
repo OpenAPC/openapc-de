@@ -12,7 +12,8 @@ EMPTY_LINE_CORE = ["" for i in range(17)]
 EMPTY_LINE_TA = ["" for i in range(18)]
 
 # Wiley and imprints
-PUBLISHER_LIST = ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)"]
+PUBLISHER_LIST = ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)",
+                  "International Union of Crystallography (IUCr)"]
 
 AGREEMENT_NAME = "DEAL Wiley Germany"
 
