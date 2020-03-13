@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 34,116 articles, published at 211 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 34,212 articles, published at 212 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,9 +24,9 @@ This dataset contains information on 34,116 articles, published at 211 instituti
 |Springer Compact                             |    31763|
 |French EDP Sciences agreement                |     1300|
 |MPG RSC agreement                            |      246|
+|DEAL Wiley Germany                           |      239|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
-|DEAL Wiley Germany                           |      143|
 |FWF Offsetting Agreement T&F                 |       89|
 |FWF Offsetting Agreement IOP                 |       46|
 |MPG Taylor & Francis agreement               |       46|
@@ -130,6 +130,7 @@ This dataset contains information on 34,116 articles, published at 211 instituti
 |Montanuniversität Leoben                                                                                                                           |      105|
 |Liverpool John Moores University                                                                                                                   |      102|
 |Heriot-Watt University                                                                                                                             |       98|
+|TU Muenchen                                                                                                                                        |       96|
 |Örebro University                                                                                                                                  |       91|
 |Royal Holloway, University of London                                                                                                               |       87|
 |City University London                                                                                                                             |       86|
