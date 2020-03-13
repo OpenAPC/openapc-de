@@ -1251,7 +1251,8 @@ def get_unified_journal_title(journal_full_title):
         "Journal of Water Sanitation and Hygiene for Development": "Journal of Water, Sanitation and Hygiene for Development",
         "Advances in Nutrition: An International Review Journal": "Advances in Nutrition",
         "Cellular & Molecular Immunology": "Cellular and Molecular Immunology",
-        "AFRICAN JOURNAL OF FOOD, AGRICULTURE, NUTRITION AND DEVELOPMENT": "African Journal of Food, Agriculture, Nutrition and Development"
+        "AFRICAN JOURNAL OF FOOD, AGRICULTURE, NUTRITION AND DEVELOPMENT": "African Journal of Food, Agriculture, Nutrition and Development",
+        "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience"
     }
     return journal_mappings.get(journal_full_title, journal_full_title)
 
