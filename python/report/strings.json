@@ -51,7 +51,7 @@
         "md_header": "### General data\n\n",
         "md_ins": "Institution",
         "md_grid": "GRID ID",
-        "md_ins_apc": "OpenAPC identifer",
+        "md_ins_apc": "OpenAPC identifier",
         "md_rev": "Data revision",
         "md_date": "Date",
         "md_data_dir": "Data directory",
