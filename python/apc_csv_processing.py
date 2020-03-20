@@ -597,8 +597,8 @@ def main():
 
     # Check for unassigned optional column types. We can continue but should
     # issue a warning as all entries will need a valid DOI in this case.
-    unassigned = filter(lambda k, v: v.requirement == CSVColumn.OPTIONAL and v.index is None,
-                        column_map.items())
+    unassigned = [k for k, v in column_map.items() if v.requirement == CSVColumn.OPTIONAL and 
+                  v.index is None]
     if unassigned:
         print ("\nWARNING: Not all optional column types could be " +
                "identified. Metadata aggregation is still possible, but " +
