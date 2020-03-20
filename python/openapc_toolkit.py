@@ -345,14 +345,7 @@ def analyze_csv_file(file_path, test_lines=1000, enc=None):
             error = ('A UnicodeError occured while trying to read the csv ' +
                      'file ("{}") - it seems the encoding we used ({}) is ' +
                      'not correct.')
-            advice = ""
-            if chardet:
-                if enc is not None:
-                    advice = (" You could try to omit the encoding and let the chardet module " +
-                              "have a guess.")
-                elif guessed_enc is not None:
-                    advice = " It was auto-detected by chardet, try to specify it manually."
-            error_msg = error.format(str(ue), used_encoding) + advice
+            error_msg = error.format(str(ue), used_encoding)
             return {"success": False, "error_msg": error_msg}
 
     sniffer = csv.Sniffer()
@@ -373,16 +366,13 @@ def get_csv_file_content(file_name, enc=None, force_header=False, print_results=
         if print_results:
             print(csv_analysis)
     else:
-        print_r(result["error_msg"])
-        sys.exit()
+        raise IOError(result["error_msg"])
 
     if enc is None:
         enc = csv_analysis.enc
 
     if enc is None:
-        print("Error: No encoding given for CSV file and automated detection failed. Please set " +
-              "the encoding manually via the --enc argument")
-        sys.exit()
+        raise IOError("No encoding given for CSV file and automated detection failed.")
 
     dialect = csv_analysis.dialect
 
