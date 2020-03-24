@@ -168,7 +168,8 @@ JOURNAL_OWNER_CHANGED = {
     "2045-824X": ["Springer Science + Business Media", "Publiverse Online S.R.L"], # Vascular Cell
     "1869-4179": ["Springer Nature", "Walter de Gruyter GmbH"], # Raumforschung und Raumordnung
     "1552-5260": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia
-    "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"] # Clinics
+    "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
+    "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"] #  Tobacco Induced Diseases, at EP since 2018
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -228,7 +229,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1755-5930", # CNS Neuroscience & Therapeutics, Gold OA since 2019,
     "1756-8692", # International Journal of Climate Change Strategies and Management, Gold OA since 2018
     "1749-5024", # Social Cognitive and Affective Neuroscience, Gold OA since 2017
-    "1464-6722" # Molecular Plant Pathology, GOLD OA since 2019
+    "1464-6722", # Molecular Plant Pathology, GOLD OA since 2019
+    "2162-3945", # Adipocyte, Gold OA since 09/2018
+    "2045-1393" # International Journal of Hematologic Oncology, Gold OA since 2018 (?)
 ]
 
 class RowObject(object):
