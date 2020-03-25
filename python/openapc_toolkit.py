@@ -1253,7 +1253,9 @@ def get_corrected_issn_l(issn_l):
         "0266-7061": "1367-4803", # "Bioinformatics". 1460-2059(issn_e) -> 0266-7061, but 1367-4803(issn_p) -> 1367-4803
         "1654-6628": "1654-661X",  # "Food & Nutrition Research". 1654-6628(issn_p) -> 1654-6628, but 1654-661X(issn_e) -> 1654-661X
         "1474-7596": "1465-6906", # "Genome Biology".  1465-6906(issn_p) -> 1465-6906, but 1474-760X(issn_e) -> 1474-7596
-        "0959-8138": "1756-1833" # BMJ. The BMJ has a bunch of ISSNs assigend, but the ISSN-L mappings are all fixed points. Unknown if this is intended. 
+        "0959-8138": "1756-1833", # BMJ. The BMJ has a bunch of ISSNs assigend, but the ISSN-L mappings are all fixed points. Unknown if this is intended.
+        "0957-5820": "NA" # 0957-5820 clearly belongs to "Process Safety and Environmental Protection". Unfortunately there's the line 0263-8762 -> 0957-5820 which
+                          # incorrectly maps the issn of "Chemical Engineering Research and Design" to the same value. We have no choice but to omit this value.
     }
     return issn_l_corrections.get(issn_l, issn_l)
 
