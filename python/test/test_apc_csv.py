@@ -26,13 +26,13 @@ PUBLISHER_IDENTITY = [
     (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Wiley-Blackwell"], ["EMBO"]),
-    (["Pion Ltd"], ["SAGE Publications"]),
+    (["SAGE Publications"], ["Pion Ltd"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
-    (["Informa Healthcare"], ["Informa UK Limited"]), # Usage very inconsistent in crossref data
-    (["GeoScienceWorld"], ["Mineralogical Society of America"]),
+    (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
+    (["Mineralogical Society of America"], ["GeoScienceWorld"]),
     (["International Scientific Literature"], ["International Scientific Information, Inc."]),
     (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"]),
-    (["Schattauer GmbH"], ["Georg Thieme Verlag KG"]), # Schattauer bought up by Thieme (1/1/2017)
+    (["Georg Thieme Verlag KG"], ["Schattauer GmbH"]), # Schattauer bought up by Thieme (1/1/2017)
     (["Johns Hopkins University Press"], ["Project Muse"]),
     (["Informa UK Limited"], ["Dove Medical Press Ltd."]), # DMP bought up by T&F in 2017
     (["Bristol University Press"], ["The Policy Press"]), # Policy Press is an imprint of BUP
