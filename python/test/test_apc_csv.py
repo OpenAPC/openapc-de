@@ -36,6 +36,7 @@ apc_data = []
 issn_dict = {}
 issn_p_dict = {}
 issn_e_dict = {}
+issn_l_dict = {}
 
 UNUSED_FIELDS = ["institution", "period", "license_ref", "pmid", "pmcid", "ut"]
 
@@ -81,6 +82,12 @@ for file_name in [CORE_FILE_PATH, TRANSAGREE_FILE_PATH]:
                     issn_e_dict[issn_e] = [reduced_row]
                 elif reduced_row not in issn_e_dict[issn_e]:
                     issn_e_dict[issn_e].append(reduced_row)
+            issn_l = row["issn_l"]
+            if oat.has_value(issn_l):
+                if issn_l not in issn_l_dict:
+                    issn_l_dict[issn_l] = [reduced_row]
+                elif reduced_row not in issn_l_dict[issn_l]:
+                    issn_l_dict[issn_l].append(reduced_row)
             line += 1
 
 def in_whitelist(issn, first_publisher, second_publisher):
@@ -221,7 +228,8 @@ def check_name_consistency(row_object):
     issn = row["issn"] if oat.has_value(row["issn"]) else None
     issn_p = row["issn_print"] if oat.has_value(row["issn_print"]) else None
     issn_e = row["issn_electronic"] if oat.has_value(row["issn_electronic"]) else None
-    hybrid_status_changed = len({issn, issn_p, issn_e}.intersection(wl.JOURNAL_HYBRID_STATUS_CHANGED)) > 0
+    issn_l = row["issn_l"] if oat.has_value(row["issn_l"]) else None
+    hybrid_status_changed = len({issn, issn_p, issn_e, issn_l}.intersection(wl.JOURNAL_HYBRID_STATUS_CHANGED)) > 0
     journal = row["journal_full_title"]
     publ = row["publisher"]
     hybrid = row["is_hybrid"]
@@ -272,6 +280,21 @@ def check_name_consistency(row_object):
                 fail(ret)
             if other_hybrid != hybrid and not hybrid_status_changed:
                 ret = msg.format("Electronic ", issn_e, "hybrid status", hybrid, other_hybrid)
+                fail(ret)
+    if issn_l is not None:
+        same_issn_l_rows = issn_l_dict[issn_l]
+        for other_row in same_issn_l_rows:
+            other_publ = other_row["publisher"]
+            other_journal = other_row["journal_full_title"]
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn_l, publ, other_publ):
+                ret = msg.format("Linking ", issn_l, "publisher name", publ, other_publ)
+                fail(ret)
+            if not other_journal == journal:
+                ret = msg.format("Linking ", issn_l, "journal title", journal, other_journal)
+                fail(ret)
+            if other_hybrid != hybrid and not hybrid_status_changed:
+                ret = msg.format("Linking ", issn_l, "hybrid status", hybrid, other_hybrid)
                 fail(ret)
 
 @pytest.mark.parametrize("row_object", apc_data)
