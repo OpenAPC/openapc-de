@@ -4,8 +4,8 @@
 # If one publisher name is stored in the left list of an entry and another in the right one,
 # they will not be treated as different by the name_consistency test.
 PUBLISHER_IDENTITY = [
-    (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
+    (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
     (["Wiley-Blackwell"], ["EMBO"]),
     (["SAGE Publications"], ["Pion Ltd"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
@@ -39,6 +39,7 @@ JOURNAL_OWNER_CHANGED = {
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
     "2000-8066": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
     "1600-0889": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B
+    "0280-6509": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B (linking)
     "1654-6628": ["Co-Action Publishing", "Informa UK Limited", "SNF Swedish Nutrition Foundation"], # Food & Nutrition Research (print)
     "1654-661X": ["Co-Action Publishing", "Informa UK Limited", "SNF Swedish Nutrition Foundation"], # Food & Nutrition Research (electronic)
     "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
@@ -47,12 +48,14 @@ JOURNAL_OWNER_CHANGED = {
     "1532-6535": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics (electronic)
     "1940-0829": ["Mongabay", "SAGE Publications"], # Tropical Conservation Science, acquired by SAGE in 08/2016
     "1600-0870": ["Co-Action Publishing", "Informa UK Limited"], # Tellus A
+    "0280-6495": ["Co-Action Publishing", "Informa UK Limited"], # Tellus A (linking)
     "0963-6897": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation
     "1555-3892": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation (electronic)
     "0021-4922": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics
     "1347-4065": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics (electronic)
     "1445-5781": ["Springer Science + Business Media", "Wiley-Blackwell"], # Reproductive Medicine and Biology
     "1538-4357": ["American Astronomical Society", "IOP Publishing"], # The Astrophysical Journal
+    "2041-8205": ["American Astronomical Society", "IOP Publishing"], # The Astrophysical Journal (linking)
     "1461-4103": ["Maney Publishing", "Informa UK Limited"], # Environmental Archaeology
     "1749-6314": ["Maney Publishing", "Informa UK Limited"], # Environmental Archaeology (electronic)
     "0039-3630": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation
@@ -68,6 +71,7 @@ JOURNAL_OWNER_CHANGED = {
     "1558-9293": ["Springer Nature", "Wiley-Blackwell"], # Journal of Surfactants and Detergents (electronic)
     "1526-9914": ["Multimed Inc.", "Wiley-Blackwell"], # Journal of Applied Clinical Medical Physics
     "1559-2448": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review
+    "1096-7508": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review (linking)
     "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine
     "1555-4309": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging
     "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
@@ -75,6 +79,7 @@ JOURNAL_OWNER_CHANGED = {
     "0094-8276": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters"
     "1944-8007": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters (electronic)"
     "8755-1209": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics
+    "1944-9208": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics (linking)
     "0161-0457": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Scanning
     "2169-9380": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics
     "2169-9402": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics (electronic)
@@ -117,6 +122,7 @@ JOURNAL_OWNER_CHANGED = {
     "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)"],# Journal of Nutrition
     "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"], # Journal of Nutrition (electronic)
     "1651-2235": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease
+    "0891-060X": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease (linking)
     "2575-1433": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
     "2222-1751": ["Springer Nature", "Informa UK Limited"], # Emerging Microbes & Infections
     "0013-0133": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Economic Journal
@@ -148,9 +154,11 @@ JOURNAL_OWNER_CHANGED = {
     "1748-121X": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Legal Studies (electronic)
     "2045-824X": ["Springer Science + Business Media", "Publiverse Online S.R.L"], # Vascular Cell
     "1869-4179": ["Springer Nature", "Walter de Gruyter GmbH"], # Raumforschung und Raumordnung
+    "0034-0111": ["Springer Nature", "Walter de Gruyter GmbH"], # Raumforschung und Raumordnung (linking)
     "1552-5260": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia
     "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
-    "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"] #  Tobacco Induced Diseases, at EP since 2018
+    "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
+    "1878-7649": ["Elsevier BV", "Springer Nature"] # European Geriatric Medicine
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
