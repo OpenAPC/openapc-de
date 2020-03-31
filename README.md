@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 104,661 open access journal articles, amounting to € 207,687,858 and contributed by 262 institutions.
+At the moment this project provides cost data on 104,697 open access journal articles, amounting to € 207,745,748 and contributed by 262 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -356,9 +356,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 104,661 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 262 research performing institutions and research funders. 
+This data set contains information on 104,697 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 262 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 207,687,858. The average payment was € 1,984  and the median was € 1,793.
+In total, publication fee spending covered by the Open APC initiative amounted to € 207,745,748. The average payment was € 1,984  and the median was € 1,793.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -385,7 +385,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,624|   1,636|     1,532|  63 -  5,985|           7,881|       2,552|         2,515|        2 - 9,079|
 |2017   |      14,116|   1,721|     1,560|   9 - 14,634|          10,467|       2,530|         2,467|       37 - 9,858|
 |2018   |      12,513|   1,718|     1,597|  13 -  8,926|           8,873|       2,576|         2,548|       18 - 9,073|
-|2019   |       5,358|   1,763|     1,672|  22 -  7,684|           2,343|       2,612|         2,582|      160 - 7,745|
+|2019   |       5,394|   1,762|     1,673|  22 -  7,684|           2,343|       2,612|         2,582|      160 - 7,745|
 |2020   |          35|   1,551|     1,594| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -394,7 +394,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-60,765 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 97,538,582, including value-added tax; the average payment was € 1,605 (median =  € 1,510, SD = € 800).
+60,801 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 97,596,472, including value-added tax; the average payment was € 1,605 (median =  € 1,510, SD = € 800).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -489,6 +489,7 @@ The following table summarises institutional spending on articles published in f
 |Marburg U                                                            |      148|               240,888|   1,628 (439)|  1,673|      357 -  3,636|
 |UFZ                                                                  |      145|               187,249|   1,291 (471)|  1,270|      180 -  2,349|
 |Rostock U                                                            |      140|               183,565|   1,311 (489)|  1,421|      117 -  2,010|
+|Osnabrück U                                                          |      131|               196,032|   1,496 (548)|  1,603|      173 -  2,608|
 |Tampere University                                                   |      131|               189,989|   1,450 (571)|  1,469|      100 -  4,290|
 |MDC                                                                  |      127|               272,861| 2,149 (1,152)|  1,936|      224 -  4,662|
 |Luleå University of Technology                                       |      123|               138,566|   1,127 (414)|  1,185|      281 -  2,200|
@@ -506,7 +507,6 @@ The following table summarises institutional spending on articles published in f
 |University of Debrecen                                               |       99|               151,340|   1,529 (788)|  1,626|       69 -  3,689|
 |TU Chemnitz                                                          |       98|               113,365|   1,157 (600)|  1,249|       78 -  2,123|
 |TU Braunschweig                                                      |       97|               116,277|   1,199 (584)|  1,232|       13 -  2,142|
-|Osnabrück U                                                          |       95|               138,141|   1,454 (568)|  1,553|      173 -  2,608|
 |Université Pierre et Marie Curie (Paris VI)                          |       95|               157,421|   1,657 (793)|  1,483|      160 -  4,275|
 |Fraunhofer-Gesellschaft Publishing Fund                              |       94|               123,235|   1,311 (499)|  1,323|      256 -  3,093|
 |Harvard U                                                            |       94|                82,722|     880 (539)|    796|       75 -  3,139|
