@@ -158,7 +158,8 @@ JOURNAL_OWNER_CHANGED = {
     "1552-5260": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia
     "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
     "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
-    "1878-7649": ["Elsevier BV", "Springer Nature"] # European Geriatric Medicine
+    "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
+    "0032-5791": ["Oxford University Press (OUP)", "Elsevier BV"] # Poultry Science
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -220,5 +221,6 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1749-5024", # Social Cognitive and Affective Neuroscience, Gold OA since 2017
     "1464-6722", # Molecular Plant Pathology, GOLD OA since 2019
     "2162-3945", # Adipocyte, Gold OA since 09/2018
-    "2045-1393" # International Journal of Hematologic Oncology, Gold OA since 2018 (?)
+    "2045-1393", # International Journal of Hematologic Oncology, Gold OA since 2018 (?)
+    "0032-5791" # Poultry Science, Gold OA since 2020
 ]
