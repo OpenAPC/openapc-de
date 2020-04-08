@@ -1,0 +1,46 @@
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"HZDR",2019,2990,"10.1007/s00262-019-02376-y",TRUE,"Springer Nature","Cancer Immunology, Immunotherapy","0340-7004","0340-7004","1432-0851","0340-7004","https://creativecommons.org/licenses/by/4.0",TRUE,"31414180","PMC6768917","ut:000489752600001",NA,FALSE
+"HZDR",2019,1355.99,"10.3390/cancers11060743",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"31142060","PMC6627450","ut:000475351200007",NA,TRUE
+"HZDR",2019,920.24,"10.3390/cancers11091281",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"31480456","PMC6769440",NA,NA,TRUE
+"HZDR",2019,4310,"10.1016/j.celrep.2019.02.096",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30917320",NA,"ut:000462490900018",NA,TRUE
+"HZDR",2019,2570,"10.1038/s42005-019-0188-7",FALSE,"Springer Nature","Communications Physics","2399-3650",NA,"2399-3650","2399-3650","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000478720300001",NA,TRUE
+"HZDR",2019,1741.72,"10.1039/c9dt01080g",TRUE,"Royal Society of Chemistry (RSC)","Dalton Transactions","1477-9226","1477-9226","1477-9234","1477-9226","http://creativecommons.org/licenses/by/3.0/",TRUE,"31441470",NA,"ut:000484986900034",NA,FALSE
+"HZDR",2019,1343.26,"10.3390/en12101950",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000471016700129",NA,TRUE
+"HZDR",2019,1900,"10.1016/j.hedp.2019.05.002",TRUE,"Elsevier BV","High Energy Density Physics","1574-1818","1574-1818",NA,"1574-1818","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000484661300009",NA,FALSE
+"HZDR",2019,1712.04,"10.1017/hpl.2019.9",FALSE,"Cambridge University Press (CUP)","High Power Laser Science and Engineering","2095-4719","2095-4719","2052-3289","2052-3289","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000465380500001",NA,TRUE
+"HZDR",2019,2160,"10.1016/j.ijmultiphaseflow.2019.05.004",TRUE,"Elsevier BV","International Journal of Multiphase Flow","0301-9322","0301-9322",NA,"0301-9322","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000474496000012",NA,FALSE
+"HZDR",2019,1563.48,"10.7150/jca.30410",FALSE,"Ivyspring International Publisher","Journal of Cancer","1837-9664",NA,NA,"1837-9664",NA,TRUE,"31205572","PMC6548160","ut:000467948400019",NA,TRUE
+"HZDR",2019,3360,"10.1016/j.jclepro.2019.06.259",TRUE,"Elsevier BV","Journal of Cleaner Production","0959-6526","0959-6526",NA,"0959-6526","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000483406000096",NA,FALSE
+"HZDR",2019,1250,"10.1016/j.powera.2020.100004",FALSE,"Elsevier BV","Journal of Power Sources Advances","2666-2485","2666-2485",NA,"2666-2485","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"HZDR",2019,1345.3,"10.3390/ma12091491",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"31071934","PMC6539633",NA,NA,TRUE
+"HZDR",2019,1210.03,"10.3390/molecules24203807",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"31652609","PMC6832141",NA,NA,TRUE
+"HZDR",2019,4290,"10.1038/s41467-019-09071-7",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30842420","PMC6403288","ut:000460405300001",NA,TRUE
+"HZDR",2019,4290,"10.1038/s41467-019-10654-7",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31243278","PMC6595053","ut:000472840400008",NA,TRUE
+"HZDR",2019,4290,"10.1038/s41467-019-12303-5",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31562319","PMC6764954",NA,NA,TRUE
+"HZDR",2019,1786.51,"10.1364/oe.27.013108",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"31052840",NA,"ut:000466160900103",NA,TRUE
+"HZDR",2019,2281.18,"10.1364/oe.27.032360",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"31684450",NA,"ut:000492996000101",NA,TRUE
+"HZDR",2019,2998.36,"10.1103/physrevlett.123.214503",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","https://creativecommons.org/licenses/by/4.0/",TRUE,"31809136",NA,"ut:000498063200013",NA,FALSE
+"HZDR",2019,2896.45,"10.1103/physrevx.9.011046",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","2160-3308","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000461065700001",NA,TRUE
+"HZDR",2019,2896.45,"10.1103/physrevx.9.031044",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","2160-3308","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"HZDR",2019,1354.95,"10.3390/rs11010021",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000457935600021",NA,TRUE
+"HZDR",2019,835.24,"10.1039/c9ra07293d",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000490133300065",NA,TRUE
+"HZDR",2019,1490,"10.1038/s41598-019-42664-2",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"31000739","PMC6472502","ut:000465001600041",NA,TRUE
+"HZDR",2019,1490,"10.1038/s41598-019-42898-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"31068617","PMC6506597","ut:000467370000009",NA,TRUE
+"HZDR",2019,1490,"10.1038/s41598-019-45984-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"31266999","PMC6606570","ut:000473417000032",NA,TRUE
+"HZDR",2019,1490,"10.1038/s41598-019-47044-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"31332252","PMC6646371",NA,NA,TRUE
+"HZDR",2019,1490,"10.1038/s41598-019-55354-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"31827199","PMC6906299","ut:000502632200001",NA,TRUE
+"HZDR",2019,1490,"10.1038/s41598-019-40609-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30858481","PMC6411992",NA,NA,TRUE
+"HZDR",2019,1490,"10.1038/s41598-019-40782-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30862904","PMC6414497","ut:000460922200032",NA,TRUE
+"HZDR",2019,1321.08,"10.3390/s19122787",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"31234309","PMC6631011","ut:000473762500139",NA,TRUE
+"HZDR",2019,1343,"10.3390/s19102219",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"31091700","PMC6567338","ut:000471014500006",NA,TRUE
