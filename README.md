@@ -385,7 +385,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,624|   1,636|     1,532|  63 -  5,985|           7,881|       2,552|         2,515|        2 - 9,079|
 |2017   |      14,116|   1,721|     1,560|   9 - 14,634|          10,467|       2,530|         2,467|       37 - 9,858|
 |2018   |      12,514|   1,718|     1,597|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       5,501|   1,758|     1,670|  22 -  7,684|           2,349|       2,612|         2,582|      160 - 7,745|
+|2019   |       5,502|   1,758|     1,670|  22 -  7,684|           2,348|       2,613|         2,582|      160 - 7,745|
 |2020   |          35|   1,551|     1,594| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -394,7 +394,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-60,909 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 97,769,432, including value-added tax; the average payment was € 1,605 (median =  € 1,510, SD = € 800).
+60,910 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 97,770,233, including value-added tax; the average payment was € 1,605 (median =  € 1,510, SD = € 800).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -563,9 +563,9 @@ The following table summarises institutional spending on articles published in f
 |Manchester Metropolitan University                                   |       33|                59,371|   1,799 (752)|  1,646|      461 -  3,787|
 |Université de Caen Normandie                                         |       32|                41,815|   1,307 (462)|  1,350|      300 -  2,250|
 |TU Clausthal                                                         |       31|                33,085|   1,067 (534)|  1,044|      181 -  2,261|
+|University West                                                      |       31|                36,487|   1,177 (586)|  1,105|      272 -  2,457|
 |Qatar National Library                                               |       30|                49,771|   1,659 (733)|  1,411|      435 -  3,192|
 |Université Claude Bernard Lyon 1                                     |       30|                57,493|   1,916 (901)|  1,723|      485 -  4,485|
-|University West                                                      |       30|                35,686|   1,190 (592)|  1,136|      272 -  2,457|
 |Université de Bourgogne                                              |       29|                46,606|   1,607 (728)|  1,534|      826 -  4,485|
 |University of East Anglia                                            |       29|                47,521| 1,639 (1,053)|  1,535|      223 -  4,379|
 |IST Austria                                                          |       28|                72,505| 2,589 (1,459)|  1,989|      562 -  5,412|
@@ -667,7 +667,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 43,903 open access articles being published in hybrid journals. Total expenditure amounts to  110,166,965 €. Average  fee is 2,509 € and the median 2,473 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 43,902 open access articles being published in hybrid journals. Total expenditure amounts to  110,166,163 €. Average  fee is 2,509 € and the median 2,473 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -777,8 +777,8 @@ The following institutions have contributed expenditures on hybrid open access j
 |Ulm U                                                                |       18|                37,646|   2,091 (537)|  2,319|     1,308 - 2,631|
 |Université Pierre et Marie Curie (Paris VI)                          |       18|                39,912|   2,217 (692)|  2,132|     1,208 - 3,480|
 |Virginia Tech                                                        |       17|                23,968|   1,410 (539)|  1,271|       633 - 2,337|
-|University West                                                      |       16|                35,544|   2,221 (595)|  2,383|       802 - 3,093|
 |University of Debrecen                                               |       15|                22,732|   1,515 (998)|  1,147|       210 - 3,344|
+|University West                                                      |       15|                34,742|   2,316 (475)|  2,386|     1,510 - 3,093|
 |Université de Lorraine                                               |       14|                33,419|   2,387 (849)|  2,640|       600 - 3,181|
 |HZDR                                                                 |       13|                26,688|   2,053 (760)|  1,950|       987 - 3,360|
 |University of Ulster                                                 |       13|                27,113| 2,086 (1,117)|  2,236|       236 - 3,868|
