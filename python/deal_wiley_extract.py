@@ -8,8 +8,8 @@ ARG_HELP_STRINGS = {
     "enriched_file": "A fully enriched file to extract hybrid Wiley articles from"
 }
 
-EMPTY_LINE_CORE = ["" for i in range(17)]
-EMPTY_LINE_TA = ["" for i in range(18)]
+EMPTY_LINE_CORE = ["" for i in range(18)]
+EMPTY_LINE_TA = ["" for i in range(19)]
 
 # Wiley and imprints
 PUBLISHER_LIST = ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)",

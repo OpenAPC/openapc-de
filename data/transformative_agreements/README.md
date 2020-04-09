@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 34,419 articles, published at 212 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 34,444 articles, published at 213 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 34,419 articles, published at 212 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    31970|
 |French EDP Sciences agreement                |     1300|
+|DEAL Wiley Germany                           |      264|
 |MPG RSC agreement                            |      246|
-|DEAL Wiley Germany                           |      239|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
 |FWF Offsetting Agreement T&F                 |       89|
@@ -181,6 +181,7 @@ This dataset contains information on 34,419 articles, published at 212 instituti
 |University of Innsbruck                                                                                                                            |       28|
 |Blekinge Institute of Technology                                                                                                                   |       27|
 |Open University of The Netherlands                                                                                                                 |       27|
+|Bielefeld U                                                                                                                                        |       25|
 |University of Applied Sciences Upper Austria                                                                                                       |       25|
 |University of Westminster                                                                                                                          |       25|
 |Glasgow Caledonian University                                                                                                                      |       24|

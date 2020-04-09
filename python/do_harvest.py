@@ -47,6 +47,10 @@ def integrate_changes(articles, file_path, enriched_file=False):
         oat.print_g(start_msg.format(file_path))
         for line in reader:
             url = line["url"]
+            if not oat.has_value(line["institution"]):
+                # Do not change empty lines
+                updated_lines.append([line[key] for key in fieldnames])
+                continue
             line_num = reader.reader.line_num
             msg = "Line {}: Checking for changes ({})"
             oat.print_b(msg.format(line_num, url))
@@ -87,6 +91,9 @@ def main():
                 enriched_file_path = os.path.join(directory, "all_harvested_articles_enriched.csv")
                 new_article_dicts, header = integrate_changes(articles, harvest_file_path, False)
                 integrate_changes(articles, enriched_file_path, True)
+                deal_wiley_path = os.path.join(directory, "all_harvested_articles_enriched_deal_wiley.csv")
+                if os.path.isfile(deal_wiley_path):
+                    integrate_changes(articles, deal_wiley_path, True)
                 if header is None:
                     # if no header was returned, an "all_harvested" file doesn't exist yet
                     header = list(oat.OAI_COLLECTION_CONTENT.keys())
