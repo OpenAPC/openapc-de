@@ -61,7 +61,7 @@ OPENAPC_STANDARD_QUOTEMASK = [
     True,
     True,
     True,
-    True,
+    True
 ]
 
 class OpenAPCUnicodeWriter(object):
