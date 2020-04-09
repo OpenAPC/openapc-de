@@ -61,6 +61,7 @@ OPENAPC_STANDARD_QUOTEMASK = [
     True,
     True,
     True,
+    True,
     True
 ]
 
