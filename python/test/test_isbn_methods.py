@@ -1,11 +1,13 @@
 # -*- coding: UTF-8 -*-
 
 import os
+from sys import path
 from urllib.request import urlretrieve
 
 import pytest
 
-from .. import openapc_toolkit as oat
+path.append(os.path.join(path[0], "python"))
+import openapc_toolkit as oat
 
 CORRECT_ISBN_SPLITS = {
     "9782753518278": "978-2-7535-1827-8",

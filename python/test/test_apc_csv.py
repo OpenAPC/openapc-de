@@ -1,13 +1,14 @@
 import pytest
 from pytest import fail
+
 from csv import DictReader
+from os.path import dirname, join
+from sys import path
 
 CORE_FILE_PATH = "data/apc_de.csv"
 TRANSAGREE_FILE_PATH = "data/transformative_agreements/transformative_agreements.csv"
 
 if __name__ == '__main__':
-    from sys import path
-    from os.path import dirname, join
     path.append(dirname(path[0]))
     import openapc_toolkit as oat
     import whitelists as wl
@@ -16,9 +17,10 @@ if __name__ == '__main__':
     
     def fail(msg):
         oat.print_r(msg)
-        
+
 else:
-    from .. import openapc_toolkit as oat
+    path.append(join(path[0], "python"))
+    import openapc_toolkit as oat
     from . import whitelists as wl
 
 class RowObject(object):
