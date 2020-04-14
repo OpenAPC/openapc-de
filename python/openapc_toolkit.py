@@ -588,19 +588,20 @@ def get_metadata_from_crossref(doi_string):
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
 
     This method looks up a DOI in crossref and returns all metadata fields
-    relevant to OpenAPC (publisher, journal_full_title, issn, issn_print,
-    issn_electronic, license_ref) and the crossref prefix.
+    relevant to OpenAPC. The set of metadata returned depends on the crossref
+    DOI type.
 
     Args:
-        doi_string: A string representing a doi. 'Pure' form (10.xxx),
+        doi_string: A string representing a DOI. 'Pure' form (10.xxx),
         DOI Handbook notation (doi:10.xxx) or crossref-style
         (https://doi.org/10.xxx) are all acceptable.
     Returns:
         A dict with a key 'success'. If data extraction was successful,
         'success' will be True and the dict will have a second entry 'data'
-        which contains the extracted metadata as another dict:
+        which contains the extracted metadata plus the doi type as another dict:
 
-        {'publisher': 'MDPI AG',
+        {'doi_type': 'journal_article',
+         'publisher': 'MDPI AG',
          'journal_full_title': 'Chemosensors',
          [...]
         }
@@ -977,9 +978,9 @@ def process_row(row, row_num, column_map, num_required_columns,
                 logging.warning(msg, crossref_result["error_msg"])
                 crossref_result = get_metadata_from_crossref(doi)
             if crossref_result["success"]:
-                logging.info("Crossref: DOI resolved: " + doi)
-                current_row["indexed_in_crossref"] = "TRUE"
                 data = crossref_result["data"]
+                logging.info("Crossref: DOI resolved: " + doi + " [" + data.pop("doi_type") + "]")
+                current_row["indexed_in_crossref"] = "TRUE"
                 prefix = data.pop("prefix")
                 for key, value in data.items():
                     if value is not None:
