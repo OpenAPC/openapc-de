@@ -222,5 +222,6 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1464-6722", # Molecular Plant Pathology, GOLD OA since 2019
     "2162-3945", # Adipocyte, Gold OA since 09/2018
     "2045-1393", # International Journal of Hematologic Oncology, Gold OA since 2018 (?)
-    "0032-5791" # Poultry Science, Gold OA since 2020
+    "0032-5791", # Poultry Science, Gold OA since 2020
+    "0960-9776" # The Breast, Gold OA since 2020
 ]
