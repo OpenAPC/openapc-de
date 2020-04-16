@@ -22,6 +22,10 @@ except ImportError:
     print("WARNING: 3rd party module 'chardet' not found - character " +
           "encoding guessing will not work")
 
+# Identifying User Agent header for metadata API requests
+USER_AGENT = ("OpenAPC Toolkit (https://github.com/OpenAPC/openapc-de/blob/master/python/openapc_toolkit.py;"+
+              " mailto:openapc@uni-bielefeld.de)")
+
 # regex for detecing DOIs
 DOI_RE = re.compile(r"^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
 # regex for detecting shortDOIs
@@ -30,7 +34,7 @@ SHORTDOI_RE = re.compile(r"^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$",
 ISSN_RE = re.compile(r"^(?P<first_part>\d{4})\-(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
 # regex for 13-digit, unsplit ISBNs
-ISBN_RE = re.compile("^\d{13}$")
+ISBN_RE = re.compile(r"^\d{13}$")
 
 OAI_COLLECTION_CONTENT = OrderedDict([
     ("institution", "intact:institution"),
@@ -320,7 +324,7 @@ def isbn_has_valid_check_digit(isbn):
 
 def _get_range_length_from_rules(isbn_fragment, rules_element):
     value = int(isbn_fragment[:7])
-    range_re = re.compile("(?P<min>\d{7})-(?P<max>\d{7})")
+    range_re = re.compile(r"(?P<min>\d{7})-(?P<max>\d{7})")
     for rule in rules_element.findall("Rule"):
         range_text = rule.find("Range").text
         range_match = range_re.match(range_text)
@@ -582,6 +586,42 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
         except URLError as urle:
             print("URLError: {}".format(urle.reason))
     return articles
+
+def find_book_doi_in_crossref(isbn):
+    """
+    Take an ISBN and try to obtain a DOI for the book from crossref.
+
+    Args:
+        isbn: A string representing an ISBN (will not be tested for validity).
+    Returns:
+        A string representing a DOI or None if no result was found.
+    """
+    ret_value = {"success": False}
+    api_url = "https://api.crossref.org/works?filter="
+    url = api_url + "isbn:" + isbn
+    request = Request(url)
+    request.add_header("User-Agent", USER_AGENT)
+    try:
+        ret = urlopen(request)
+        content = ret.read()
+        data = json.loads(content)
+        print(json.dumps(data, indent=4))
+        if data["message"]["total-results"] == 0:
+            ret_value["success"] = True
+            ret_value["doi"] = None
+        elif data["message"]["total-results"] == 1:
+            ret_value["success"] = True
+            result = data["message"]["items"].pop()
+            ret_value["doi"] = result["DOI"]
+        else:
+            raise ValueError("Crossref response contained more than one result")
+    except HTTPError as httpe:
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except URLError as urle:
+        ret_value['error_msg'] = "URLError: {}".format(urle.reason)
+    except ValueError as ve:
+        ret_value['error_msg'] = str(ve)
+    return ret_value
 
 def get_metadata_from_crossref(doi_string):
     """

@@ -11,7 +11,7 @@ import warnings
 path.append(os.path.join(path[0], "python"))
 import openapc_toolkit as oat
 
-CROSSREF_TEST_CASES = {
+CROSSREF_METADATA_TEST_CASES = {
     "10.3390/robotics6020009": { # journal_article
         'success': True, 
         'data': {
@@ -49,7 +49,26 @@ CROSSREF_TEST_CASES = {
     }
 }
 
-@pytest.mark.parametrize("doi, expected_result", CROSSREF_TEST_CASES.items())
+CROSSREF_ISBN_LOOKUP_TEST_CASES = {
+    "9780814214121": {
+        "success": True,
+        "doi": "10.26818/9780814214121"
+    },
+    "9780472131792": {
+        "success": True,
+        "doi": "10.3998/mpub.11325807"
+    },
+    "9781501748288": {
+        "success": True,
+        "doi": None,
+    },
+    "9781912656660": {
+        "success": True,
+        "doi": None
+    }
+}
+
+@pytest.mark.parametrize("doi, expected_result", CROSSREF_METADATA_TEST_CASES.items())
 def test_crossref(doi, expected_result):
     answer = oat.get_metadata_from_crossref(doi)
     assert set(expected_result.keys()) == set(answer.keys())
@@ -65,4 +84,12 @@ def test_crossref(doi, expected_result):
                 msg = 'Crossref: Unexpected metadata content for field {}: "{}" (Expected "{}")'
                 msg = msg.format(key, answer["data"][key], expected_result["data"][key])
                 warnings.warn(UserWarning(msg))
+    sleep(1)
+
+@pytest.mark.parametrize("isbn, expected_result", CROSSREF_ISBN_LOOKUP_TEST_CASES.items())
+def test_isbn_doi_lookup(isbn, expected_result):
+    answer = oat.find_book_doi_in_crossref(isbn)
+    assert set(answer.keys()) == set(expected_result.keys())
+    if expected_result["success"] == True:
+        assert answer["doi"] == expected_result["doi"]
     sleep(1)
