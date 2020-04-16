@@ -54,19 +54,21 @@ def range_file():
     print('\nRemoving temporary RangeMessage file "' + tempfile_name + '"...')
     os.remove(tempfile_name)
 
-def test_isbn_splits(range_file):
-    for isbn, split_result in CORRECT_ISBN_SPLITS.items():
-        result = oat.split_isbn(isbn, range_file)
-        assert result["success"] == True
-        assert result["value"] == split_result
+@pytest.mark.parametrize("isbn, split_result", CORRECT_ISBN_SPLITS.items())
+def test_isbn_splits(isbn, split_result, range_file):
+    result = oat.split_isbn(isbn, range_file)
+    assert result["success"] == True
+    assert result["value"] == split_result
 
-def test_isbn_split_fails(range_file):
-    for invalid_isbn in INVALID_ISBNS:
-        result = oat.split_isbn(invalid_isbn, range_file)
-        assert result["success"] == False
-        
-def test_check_digit_verification():
-    for isbn in CORRECT_ISBN_SPLITS.keys():
-        assert oat.isbn_has_valid_check_digit(isbn)
-    for isbn in INVALID_CHECK_DIGITS:
-        assert not oat.isbn_has_valid_check_digit(isbn)
+@pytest.mark.parametrize("invalid_isbn", INVALID_ISBNS)
+def test_isbn_split_fails(invalid_isbn, range_file):
+    result = oat.split_isbn(invalid_isbn, range_file)
+    assert result["success"] == False
+
+@pytest.mark.parametrize("isbn", CORRECT_ISBN_SPLITS.keys())
+def test_valid_check_digits(isbn):
+    assert oat.isbn_has_valid_check_digit(isbn)
+      
+@pytest.mark.parametrize("isbn", INVALID_CHECK_DIGITS)
+def test_invalid_check_digits(isbn):
+    assert not oat.isbn_has_valid_check_digit(isbn)
