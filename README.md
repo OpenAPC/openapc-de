@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 105,124 open access journal articles, amounting to € 208,388,326 and contributed by 262 institutions.
+At the moment this project provides cost data on 105,128 open access journal articles, amounting to € 208,399,786 and contributed by 262 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -356,9 +356,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 105,124 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 262 research performing institutions and research funders. 
+This data set contains information on 105,128 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 262 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 208,388,326. The average payment was € 1,982  and the median was € 1,790.
+In total, publication fee spending covered by the Open APC initiative amounted to € 208,399,786. The average payment was € 1,982  and the median was € 1,790.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -385,7 +385,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,622|   1,636|     1,532|  63 -  5,985|           7,881|       2,552|         2,515|        2 - 9,079|
 |2017   |      14,114|   1,722|     1,560|   9 - 14,634|          10,467|       2,530|         2,467|       37 - 9,858|
 |2018   |      12,514|   1,718|     1,597|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       5,828|   1,738|     1,661|  22 -  7,684|           2,348|       2,613|         2,582|      160 - 7,745|
+|2019   |       5,832|   1,739|     1,661|  22 -  7,684|           2,348|       2,613|         2,582|      160 - 7,745|
 |2020   |          53|   1,615|     1,594| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -394,7 +394,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-61,222 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 98,222,163, including value-added tax; the average payment was € 1,604 (median =  € 1,510, SD = € 798).
+61,226 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 98,233,623, including value-added tax; the average payment was € 1,604 (median =  € 1,510, SD = € 798).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -414,7 +414,7 @@ The following table summarises institutional spending on articles published in f
 |Imperial College London                                              |    1,197|             2,346,549| 1,960 (1,066)|  1,646|      260 -  7,684|
 |Heidelberg U                                                         |    1,189|             1,818,750|   1,530 (391)|  1,661|       60 -  2,108|
 |University of Cambridge                                              |    1,173|             2,660,767| 2,268 (1,209)|  1,853|        9 -  6,197|
-|Erlangen Nuernberg U                                                 |    1,137|             1,671,454|   1,470 (394)|  1,542|      113 -  2,286|
+|Erlangen Nuernberg U                                                 |    1,141|             1,682,915|   1,475 (403)|  1,542|      113 -  3,963|
 |Swiss National Science Foundation (SNSF)                             |    1,125|             2,351,601| 2,090 (1,138)|  1,696|       87 -  5,104|
 |Freiburg U                                                           |      949|             1,380,528|   1,455 (414)|  1,525|       50 -  2,501|
 |University of Birmingham                                             |      944|             1,654,675|   1,753 (793)|  1,594|      126 -  5,669|
