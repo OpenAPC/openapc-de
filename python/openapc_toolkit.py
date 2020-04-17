@@ -196,7 +196,10 @@ class DOABAnalysis(object):
 class ISBNHandling(object):
 
     # regex for 13-digit, unsplit ISBNs
-    ISBN_RE = re.compile(r"^\d{13}$")
+    ISBN_RE = re.compile(r"^97[89]\d{10}$")
+
+    # regex for 13-digit ISBNs split with hyphens
+    ISBN_SPLIT_RE = re.compile(r"^97[89]\-\d{1,5}\-\d{1,7}\-\d{1,6}\-\d{1}$")
 
     def __init__(self, range_file_path, range_file_update=False):
         if not os.path.isfile(range_file_path) or range_file_update:
@@ -206,6 +209,24 @@ class ISBNHandling(object):
 
     def download_range_file(self, target):
         urlretrieve("http://www.isbn-international.org/export_rangemessage.xml", target)
+
+    def test_and_normalize_isbn(self, isbn):
+        ret = {"valid": False, "input_value": isbn}
+        isbn = isbn.strip()
+        hyphenated = False
+        if self.ISBN_SPLIT_RE.match(isbn):
+            if len(isbn) < 17:
+                msg = "Too short: {} characters (Must be 17 chars long including hyphens)"
+                ret["error_msg"] = msg.format(len(isbn))
+                return ret
+            elif len(isbn) > 17:
+                msg = "Too long: {} characters (Must be 17 chars long including hyphens)"
+                ret["error_msg"] = msg.format(len(isbn))
+                return ret
+            else:
+                hyphenated = True
+        elif self.ISBN_RE.match(isbn):
+            pass
 
     def isbn_has_valid_check_digit(self, isbn):
         """
