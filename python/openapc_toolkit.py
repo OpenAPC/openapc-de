@@ -7,6 +7,7 @@ import json
 import locale
 import logging
 from logging.handlers import MemoryHandler
+import os
 import re
 import sys
 from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
@@ -162,6 +163,38 @@ class DOAJOfflineAnalysis(object):
     def download_doaj_csv(self, filename):
         result = urlretrieve("https://doaj.org/csv", filename)
         return result[0]
+
+class DOABAnalysis(object):
+
+    def __init__(self, doab_csv_file, update=False):
+        self.isbn_map = {}
+
+        if not os.path.isfile(doab_csv_file) or update:
+            self.download_doab_csv(doab_csv_file)
+
+        lines = []
+        # The file might contain NUL bytes, we need to get rid of them before
+        # handing the lines to a DictReader
+        with open(doab_csv_file, "r") as handle:
+            for line in handle:
+                if "\x00" in line:
+                    continue
+                lines.append(line)
+        reader = csv.DictReader(lines)
+        for line in reader:
+            isbn_string = line["ISBN"]
+            while "  " in isbn_string:
+               isbn_string = isbn_string.replace("  ", " ")
+            isbns = isbn_string.split(" ")
+            for isbn in list(set(isbns)):
+                if isbn not in self.isbn_map:
+                    self.isbn_map[isbn] = line
+                else:
+                    print_r("ISBN duplicate found in DOAB: " + isbn)
+        print(len(self.isbn_map))
+
+    def download_doab_csv(self, target):
+        urlretrieve("http://www.doabooks.org/doab?func=csv", target)
 
 class CSVAnalysisResult(object):
 
@@ -1202,3 +1235,6 @@ def print_r(text):
 
 def print_y(text):
     print("\033[93m" + text + "\033[0m")
+
+def print_c(text):
+    print("\033[96m" + text + "\033[0m")
