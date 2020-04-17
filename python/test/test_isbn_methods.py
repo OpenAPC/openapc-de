@@ -42,33 +42,32 @@ INVALID_CHECK_DIGITS = [
 ]
 
 @pytest.fixture(scope="module")
-def range_file():
+def isbn_handling():
     index = 0
     tempfile_name = "TempRangeMessage.xml"
     while os.path.isfile(tempfile_name):
         index += 1
         tempfile_name = "TempRangeMessage_" + str(index) + ".xml"
-    print('\nDownloading temporary RangeMessage file to "' + tempfile_name + '"...')
-    urlretrieve("http://www.isbn-international.org/export_rangemessage.xml", tempfile_name)
-    yield tempfile_name
+    print('\nUsing temporary RangeMessage file path "' + tempfile_name + '"...')
+    yield oat.ISBNHandling(tempfile_name)
     print('\nRemoving temporary RangeMessage file "' + tempfile_name + '"...')
     os.remove(tempfile_name)
 
 @pytest.mark.parametrize("isbn, split_result", CORRECT_ISBN_SPLITS.items())
-def test_isbn_splits(isbn, split_result, range_file):
-    result = oat.split_isbn(isbn, range_file)
+def test_isbn_splits(isbn, split_result, isbn_handling):
+    result = isbn_handling.split_isbn(isbn)
     assert result["success"] == True
     assert result["value"] == split_result
 
 @pytest.mark.parametrize("invalid_isbn", INVALID_ISBNS)
-def test_isbn_split_fails(invalid_isbn, range_file):
-    result = oat.split_isbn(invalid_isbn, range_file)
+def test_isbn_split_fails(invalid_isbn, isbn_handling):
+    result = isbn_handling.split_isbn(invalid_isbn)
     assert result["success"] == False
 
 @pytest.mark.parametrize("isbn", CORRECT_ISBN_SPLITS.keys())
-def test_valid_check_digits(isbn):
-    assert oat.isbn_has_valid_check_digit(isbn)
+def test_valid_check_digits(isbn, isbn_handling):
+    assert isbn_handling.isbn_has_valid_check_digit(isbn)
       
 @pytest.mark.parametrize("isbn", INVALID_CHECK_DIGITS)
-def test_invalid_check_digits(isbn):
-    assert not oat.isbn_has_valid_check_digit(isbn)
+def test_invalid_check_digits(isbn, isbn_handling):
+    assert not isbn_handling.isbn_has_valid_check_digit(isbn)

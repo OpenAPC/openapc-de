@@ -34,9 +34,6 @@ SHORTDOI_RE = re.compile(r"^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$",
 
 ISSN_RE = re.compile(r"^(?P<first_part>\d{4})\-(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
-# regex for 13-digit, unsplit ISBNs
-ISBN_RE = re.compile(r"^\d{13}$")
-
 OAI_COLLECTION_CONTENT = OrderedDict([
     ("institution", "intact:institution"),
     ("period", "intact:period"),
@@ -196,6 +193,127 @@ class DOABAnalysis(object):
     def download_doab_csv(self, target):
         urlretrieve("http://www.doabooks.org/doab?func=csv", target)
 
+class ISBNHandling(object):
+
+    # regex for 13-digit, unsplit ISBNs
+    ISBN_RE = re.compile(r"^\d{13}$")
+
+    def __init__(self, range_file_path, range_file_update=False):
+        if not os.path.isfile(range_file_path) or range_file_update:
+            self.download_range_file(range_file_path)
+        with open(range_file_path, "r") as range_file:
+            self.range_file_content = range_file.read()
+
+    def download_range_file(self, target):
+        urlretrieve("http://www.isbn-international.org/export_rangemessage.xml", target)
+
+    def isbn_has_valid_check_digit(self, isbn):
+        """
+        Take a string representing a 13-digit ISBN (without hyphens) and test if its check digit is
+        correct.
+        """
+        if not self.ISBN_RE.match(isbn):
+            raise ValueError(str(isbn) + " is no valid 13-digit ISBN!")
+        checksum = 0
+        for index, digit in enumerate(isbn):
+            if index % 2 == 0:
+                checksum += int(digit)
+            else:
+                checksum += 3 * int(digit)
+        return checksum % 10 == 0
+
+    def _get_range_length_from_rules(self, isbn_fragment, rules_element):
+        value = int(isbn_fragment[:7])
+        range_re = re.compile(r"(?P<min>\d{7})-(?P<max>\d{7})")
+        for rule in rules_element.findall("Rule"):
+            range_text = rule.find("Range").text
+            range_match = range_re.match(range_text)
+            if int(range_match["min"]) <= value <= int(range_match["max"]):
+                length = rule.find("Length").text
+                return int(length)
+        # Shouldn't happen as the range file is meant to be comprehensive. Undefined ranges are marked
+        # with a length of 0 instead.
+        msg = ('Could not find a length definition for fragment "' + isbn_fragment + '" in the ISBN ' +
+               'range file.')
+        raise ValueError(msg)
+
+    def split_isbn(self, isbn):
+        """
+        Take an unsplit, 13-digit ISBN and insert hyphens to correctly separate its parts.
+
+        This method takes a 13-digit ISBN and returns a hyphenated variant (Example: 9782753518278 ->
+        978-2-7535-1827-8). Since the segments of an ISBN may vary in length (except for the EAN prefix
+        and the check digit), the official "RangeMessage" XML file provided by the ISBN organization is
+        needed for reference.
+
+        Args:
+            isbn: A string representing a 13-digit ISBN.
+        Returns:
+            A dict with two keys: 'success' and 'result'. If the process was successful, 'success'
+            will be True and 'result' will contain the hyphenated result string. Otherwise, 'success'
+            will be False and 'result' will contain an error message stating the reason.
+        """
+        ret_value = {
+            'success': False,
+            'value': None
+        }
+        split_isbn = ""
+        remaining_isbn = isbn
+
+        if not self.ISBN_RE.match(isbn):
+            ret_value['value'] = '"' + str(isbn) + '" is no valid 13-digit ISBN!'
+            return ret_value
+        try:
+            root = ET.fromstring(self.range_file_content)
+        except Exception as ex:
+            ret_value['value'] = "An error occured while trying to process ISBN Range file: " + str(ex)
+            return ret_value
+        ean_elements = root.findall("./EAN.UCCPrefixes/EAN.UCC")
+        for ean in ean_elements:
+            prefix = ean.find("Prefix").text
+            if remaining_isbn.startswith(prefix):
+                split_isbn += prefix
+                remaining_isbn = remaining_isbn[len(prefix):]
+                rules = ean.find("Rules")
+                length = self._get_range_length_from_rules(remaining_isbn, rules)
+                if length == 0:
+                    msg = ('Invalid ISBN: Remaining fragment "{}" for EAN prefix "{}" is inside a ' +
+                           'range which is not marked for use yet')
+                    ret_value['value'] = msg.format(remaining_isbn, prefix)
+                    return ret_value
+                group = remaining_isbn[:length]
+                split_isbn += "-" + group
+                remaining_isbn = remaining_isbn[length:]
+                break
+        else:
+            msg = 'ISBN "{}" does not seem to have a valid prefix.'
+            ret_value['value'] = msg.format(isbn)
+            return ret_value
+        groups = root.findall("./RegistrationGroups/Group")
+        for group in groups:
+            prefix = group.find("Prefix").text
+            if split_isbn == prefix:
+                rules = group.find("Rules")
+                length = self._get_range_length_from_rules(remaining_isbn, rules)
+                if length == 0:
+                    msg = ('Invalid ISBN: Remaining fragment "{}" for registration group "{}" is ' +
+                           'inside a range which is not marked for use yet')
+                    ret_value['value'] = msg.format(remaining_isbn, split_isbn)
+                    return ret_value
+                registrant = remaining_isbn[:length]
+                split_isbn += "-" + registrant
+                remaining_isbn = remaining_isbn[length:]
+                check_digit = remaining_isbn[-1:]
+                publication_number = remaining_isbn[:-1]
+                split_isbn += "-" + publication_number + "-" + check_digit
+                ret_value['success'] = True
+                ret_value['value'] = split_isbn
+                return ret_value
+        else:
+            msg = 'ISBN "{}" does not seem to have a valid registration group element.'
+            ret_value['value'] = msg.format(isbn)
+            return ret_value
+
 class CSVAnalysisResult(object):
 
     def __init__(self, blanks, dialect, has_header, enc, enc_conf):
@@ -339,119 +457,6 @@ def is_valid_ISSN(issn_string):
         if 11 - mod == check_digit:
             return True
     return False
-
-def isbn_has_valid_check_digit(isbn):
-    """
-    Take a string representing a 13-digit ISBN (without hyphens) and test if its check digit is
-    correct.
-    """
-    if not ISBN_RE.match(isbn):
-        raise ValueError(str(isbn) + " is no valid 13-digit ISBN!")
-    checksum = 0
-    for index, digit in enumerate(isbn):
-        if index % 2 == 0:
-            checksum += int(digit)
-        else:
-            checksum += 3 * int(digit)
-    return checksum % 10 == 0
-
-def _get_range_length_from_rules(isbn_fragment, rules_element):
-    value = int(isbn_fragment[:7])
-    range_re = re.compile(r"(?P<min>\d{7})-(?P<max>\d{7})")
-    for rule in rules_element.findall("Rule"):
-        range_text = rule.find("Range").text
-        range_match = range_re.match(range_text)
-        if int(range_match["min"]) <= value <= int(range_match["max"]):
-            length = rule.find("Length").text
-            return int(length)
-    # Shouldn't happen as the range file is meant to be comprehensive. Undefined ranges are marked
-    # with a length of 0 instead.
-    msg = ('Could not find a length definition for fragment "' + isbn_fragment + '" in the ISBN ' +
-           'range file.')
-    raise ValueError(msg)
-
-def split_isbn(isbn, range_file_path):
-    """
-    Take an unsplit, 13-digit ISBN and insert hyphens to correctly separate its parts.
-
-    This method takes a 13-digit ISBN and returns a hyphenated variant (Example: 9782753518278 ->
-    978-2-7535-1827-8). Since the segments of an ISBN may vary in length (except for the EAN prefix
-    and the check digit), the official "RangeMessage" XML file provided by the ISBN organization is
-    needed for reference.
-
-    Args:
-        isbn: A string representing a 13-digit ISBN.
-        range_file_path: A string representing a path to the neccessary ISBN Range file. Has to be
-                         the XML version (RangeMessage.xml) which can be obtained from the
-                         official ISBN web site
-                         (https://www.isbn-international.org/range_file_generation).
-    Returns:
-        A dict with two keys: 'success' and 'result'. If the process was successful, 'success'
-        will be True and 'result' will contain the hyphenated result string. Otherwise, 'success'
-        will be False and 'result' will contain an error message stating the reason.
-    """
-    ret_value = {
-        'success': False,
-        'value': None
-    }
-    split_isbn = ""
-    remaining_isbn = isbn
-
-    if not ISBN_RE.match(isbn):
-        ret_value['value'] = '"' + str(isbn) + '" is no valid 13-digit ISBN!'
-        return ret_value
-    try:
-        with open(range_file_path, "r") as range_file:
-            content = range_file.read()
-            root = ET.fromstring(content)
-    except Exception as ex:
-        ret_value['value'] = "An error occured while trying to process ISBN Range file: " + str(ex)
-        return ret_value
-    ean_elements = root.findall("./EAN.UCCPrefixes/EAN.UCC")
-    for ean in ean_elements:
-        prefix = ean.find("Prefix").text
-        if remaining_isbn.startswith(prefix):
-            split_isbn += prefix
-            remaining_isbn = remaining_isbn[len(prefix):]
-            rules = ean.find("Rules")
-            length = _get_range_length_from_rules(remaining_isbn, rules)
-            if length == 0:
-                msg = ('Invalid ISBN: Remaining fragment "{}" for EAN prefix "{}" is inside a ' +
-                       'range which is not marked for use yet')
-                ret_value['value'] = msg.format(remaining_isbn, prefix)
-                return ret_value
-            group = remaining_isbn[:length]
-            split_isbn += "-" + group
-            remaining_isbn = remaining_isbn[length:]
-            break
-    else:
-        msg = 'ISBN "{}" does not seem to have a valid prefix.'
-        ret_value['value'] = msg.format(isbn)
-        return ret_value
-    groups = root.findall("./RegistrationGroups/Group")
-    for group in groups:
-        prefix = group.find("Prefix").text
-        if split_isbn == prefix:
-            rules = group.find("Rules")
-            length = _get_range_length_from_rules(remaining_isbn, rules)
-            if length == 0:
-                msg = ('Invalid ISBN: Remaining fragment "{}" for registration group "{}" is ' +
-                       'inside a range which is not marked for use yet')
-                ret_value['value'] = msg.format(remaining_isbn, split_isbn)
-                return ret_value
-            registrant = remaining_isbn[:length]
-            split_isbn += "-" + registrant
-            remaining_isbn = remaining_isbn[length:]
-            check_digit = remaining_isbn[-1:]
-            publication_number = remaining_isbn[:-1]
-            split_isbn += "-" + publication_number + "-" + check_digit
-            ret_value['success'] = True
-            ret_value['value'] = split_isbn
-            return ret_value
-    else:
-        msg = 'ISBN "{}" does not seem to have a valid registration group element.'
-        ret_value['value'] = msg.format(isbn)
-        return ret_value
 
 def analyze_csv_file(file_path, test_lines=1000, enc=None):
     try:
