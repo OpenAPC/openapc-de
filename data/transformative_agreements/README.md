@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 34,444 articles, published at 213 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 34,462 articles, published at 214 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 34,444 articles, published at 213 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    31970|
 |French EDP Sciences agreement                |     1300|
-|DEAL Wiley Germany                           |      264|
+|DEAL Wiley Germany                           |      282|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -194,6 +194,7 @@ This dataset contains information on 34,444 articles, published at 213 instituti
 |Cardiff Metropolitan University                                                                                                                    |       19|
 |Fungal Biodiversity Center (CBS)                                                                                                                   |       19|
 |University of Skövde                                                                                                                               |       19|
+|Rostock U                                                                                                                                          |       18|
 |University of Bedfordshire                                                                                                                         |       18|
 |Edinburgh Napier University                                                                                                                        |       17|
 |Halmstad University                                                                                                                                |       17|
