@@ -65,7 +65,6 @@ NORMALIZATION_TESTS = {
     "978-14-780-0716-6": { # invalid split, wrong segmenation
         "valid": False,
         "input_value": "978-14-780-0716-6",
-        "normalised": "978-1-4780-0716-6",
         "error_msg": "input ISBN was split, but the segmentation is invalid"
     },
     "978-1-4780-0716-5": { # invalid split, wrong check digit

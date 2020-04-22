@@ -211,6 +211,27 @@ class ISBNHandling(object):
         urlretrieve("http://www.isbn-international.org/export_rangemessage.xml", target)
 
     def test_and_normalize_isbn(self, isbn):
+        """
+        Take a string input and try to normalize it to a 13-digit, split ISBN.
+
+        This method takes a string which is meant to represent a split or unsplit 13-digit ISBN. It
+        applies a range of tests to verify its validity and then returns a normalized, split variant.
+
+        The following tests will be applied:
+            - Syntax (Regex)
+            - Check digit calculation
+            - Re-split and segmentation comparison (if input was split already)
+
+        Args:
+            isbn: A string potentially representing a 13-digit ISBN (split or unsplit).
+        Returns:
+            A dict with 3 keys:
+                'valid': A boolean indicating if the input passed all tests.
+                'input_value': The original input value
+                'normalised': The normalised, split result. Will be present if 'valid' is True.
+                'error_msg': An error message stating why a test failed. Will be present if 'valid'
+                             is False.
+        """
         ret = {"valid": False, "input_value": str(isbn)}
         stripped_isbn = isbn.strip()
         unsplit_isbn = stripped_isbn.replace("-", "")
@@ -232,10 +253,10 @@ class ISBNHandling(object):
                 ret["error_msg"] = msg.format(unsplit_isbn[-1:])
                 return ret
             split_isbn = self.split_isbn(unsplit_isbn)["value"]
-            ret["normalised"] = split_isbn
             if split_on_input and split_isbn != stripped_isbn:
                 ret["error_msg"] = "input ISBN was split, but the segmentation is invalid"
                 return ret
+            ret["normalised"] = split_isbn
             ret["valid"] = True
             return ret
         ret["error_msg"] = "Input is neither a valid split nor a valid unsplit 13-digit ISBN"
