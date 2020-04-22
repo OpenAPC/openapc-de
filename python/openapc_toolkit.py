@@ -163,8 +163,9 @@ class DOAJOfflineAnalysis(object):
 
 class DOABAnalysis(object):
 
-    def __init__(self, doab_csv_file, update=False):
+    def __init__(self, isbn_handling, doab_csv_file, update=False):
         self.isbn_map = {}
+        self.isbn_handling = isbn_handling
 
         if not os.path.isfile(doab_csv_file) or update:
             self.download_doab_csv(doab_csv_file)
@@ -180,10 +181,20 @@ class DOABAnalysis(object):
         reader = csv.DictReader(lines)
         for line in reader:
             isbn_string = line["ISBN"]
+            # may contain multi-values split by a whitespace or a slash...
+            isbn_string = isbn_string.replace("/", " ")
             while "  " in isbn_string:
                isbn_string = isbn_string.replace("  ", " ")
             isbns = isbn_string.split(" ")
+            # ...which may also contain duplicates
             for isbn in list(set(isbns)):
+                result = self.isbn_handling.test_and_normalize_isbn(isbn)
+                if not result["valid"]:
+                    msg = "ISBN normalization failure ({}): {}"
+                    print_r(msg.format(result["input_value"], result["error_msg"]))
+                    continue
+                else:
+                    isbn = result["normalised"]
                 if isbn not in self.isbn_map:
                     self.isbn_map[isbn] = line
                 else:
@@ -205,7 +216,11 @@ class ISBNHandling(object):
         if not os.path.isfile(range_file_path) or range_file_update:
             self.download_range_file(range_file_path)
         with open(range_file_path, "r") as range_file:
-            self.range_file_content = range_file.read()
+            range_file_content = range_file.read()
+            range_file_root = ET.fromstring(range_file_content)
+            self.ean_elements = range_file_root.findall("./EAN.UCCPrefixes/EAN.UCC")
+            self.registration_groups = range_file_root.findall("./RegistrationGroups/Group")
+            
 
     def download_range_file(self, target):
         urlretrieve("http://www.isbn-international.org/export_rangemessage.xml", target)
@@ -318,13 +333,7 @@ class ISBNHandling(object):
         if not self.ISBN_RE.match(isbn):
             ret_value['value'] = '"' + str(isbn) + '" is no valid 13-digit ISBN!'
             return ret_value
-        try:
-            root = ET.fromstring(self.range_file_content)
-        except Exception as ex:
-            ret_value['value'] = "An error occured while trying to process ISBN Range file: " + str(ex)
-            return ret_value
-        ean_elements = root.findall("./EAN.UCCPrefixes/EAN.UCC")
-        for ean in ean_elements:
+        for ean in self.ean_elements:
             prefix = ean.find("Prefix").text
             if remaining_isbn.startswith(prefix):
                 split_isbn += prefix
@@ -344,8 +353,7 @@ class ISBNHandling(object):
             msg = 'ISBN "{}" does not seem to have a valid prefix.'
             ret_value['value'] = msg.format(isbn)
             return ret_value
-        groups = root.findall("./RegistrationGroups/Group")
-        for group in groups:
+        for group in self.registration_groups:
             prefix = group.find("Prefix").text
             if split_isbn == prefix:
                 rules = group.find("Rules")
