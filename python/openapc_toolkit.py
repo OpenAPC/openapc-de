@@ -211,22 +211,35 @@ class ISBNHandling(object):
         urlretrieve("http://www.isbn-international.org/export_rangemessage.xml", target)
 
     def test_and_normalize_isbn(self, isbn):
-        ret = {"valid": False, "input_value": isbn}
-        isbn = isbn.strip()
-        hyphenated = False
-        if self.ISBN_SPLIT_RE.match(isbn):
-            if len(isbn) < 17:
+        ret = {"valid": False, "input_value": str(isbn)}
+        stripped_isbn = isbn.strip()
+        unsplit_isbn = stripped_isbn.replace("-", "")
+        split_on_input = False
+        if self.ISBN_SPLIT_RE.match(stripped_isbn):
+            if len(stripped_isbn) < 17:
                 msg = "Too short: {} characters (Must be 17 chars long including hyphens)"
-                ret["error_msg"] = msg.format(len(isbn))
+                ret["error_msg"] = msg.format(len(stripped_isbn))
                 return ret
-            elif len(isbn) > 17:
+            elif len(stripped_isbn) > 17:
                 msg = "Too long: {} characters (Must be 17 chars long including hyphens)"
-                ret["error_msg"] = msg.format(len(isbn))
+                ret["error_msg"] = msg.format(len(stripped_isbn))
                 return ret
             else:
-                hyphenated = True
-        elif self.ISBN_RE.match(isbn):
-            pass
+                split_on_input = True
+        if self.ISBN_RE.match(unsplit_isbn):
+            if not self.isbn_has_valid_check_digit(unsplit_isbn):
+                msg = "ISBN check digit ({}) is incorrect"
+                ret["error_msg"] = msg.format(unsplit_isbn[-1:])
+                return ret
+            split_isbn = self.split_isbn(unsplit_isbn)["value"]
+            ret["normalised"] = split_isbn
+            if split_on_input and split_isbn != stripped_isbn:
+                ret["error_msg"] = "input ISBN was split, but the segmentation is invalid"
+                return ret
+            ret["valid"] = True
+            return ret
+        ret["error_msg"] = "Input is neither a valid split nor a valid unsplit 13-digit ISBN"
+        return ret
 
     def isbn_has_valid_check_digit(self, isbn):
         """
