@@ -13,7 +13,7 @@ Muenchen LMU,muenchen_lmu,Ludwig-Maximilians-Universität München,EUROPE,DEU,BY
 Goettingen U,goettingen_u,University of Göttingen,EUROPE,DEU,NI,unigoettingen,grid.7450.6
 Heidelberg U,heidelberg_u,Heidelberg University,EUROPE,DEU,BW,uniheidelberg,grid.7700.0
 Hamburg TUHH,hamburg_tuhh,Hamburg University of Technology,EUROPE,DEU,HH,tuhh,grid.6884.2
-Bayreuth U,bayreuth_u,Bayreuth University,EUROPE,DEU,BY,NA,grid.7384.8
+Bayreuth U,bayreuth_u,Bayreuth University,EUROPE,DEU,BY,unibayreuth,grid.7384.8
 KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW,kit,grid.7892.4
 INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL,leibniz-INM,grid.425202.3
 MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,mdc,grid.419491.0
@@ -261,3 +261,4 @@ Passau U,passau_u,University of Passau,EUROPE,DEU,BY,unipassau,grid.11046.32
 DLR,dlr,Deutsches Zentrum für Luft- und Raumfahrt,EUROPE,DEU,NW,dlr,grid.7551.6
 Institut Pasteur,institut_pasteur,Institut Pasteur,EUROPE,FRA,FR-IDF,couperin/pasteur,grid.428999.7
 Bill & Melinda Gates Foundation,gates_foundation,Bill & Melinda Gates Foundation,NORTH_AMERICA,USA,US-WA,gates_foundation,grid.418309.7
+Siegen U,siegen_u,University of Siegen,EUROPE,DEU,NW,unisiegen,grid.5836.8
