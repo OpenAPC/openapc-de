@@ -163,7 +163,7 @@ class DOAJOfflineAnalysis(object):
 
 class DOABAnalysis(object):
 
-    def __init__(self, isbn_handling, doab_csv_file, update=False):
+    def __init__(self, isbn_handling, doab_csv_file, update=False, verbose=False):
         self.isbn_map = {}
         self.isbn_handling = isbn_handling
 
@@ -178,11 +178,21 @@ class DOABAnalysis(object):
                 if "\x00" in line:
                     continue
                 lines.append(line)
+        duplicate_isbns = []
         reader = csv.DictReader(lines)
         for line in reader:
             isbn_string = line["ISBN"]
-            # may contain multi-values split by a whitespace or a slash...
+            record_type = line["Type"]
+            # ATM we focus on books only
+            if record_type != "book":
+                continue
+            # may contain multi-values split by a whitespace, tab, slash or semicolon...
             isbn_string = isbn_string.replace("/", " ")
+            isbn_string = isbn_string.replace(";", " ")
+            isbn_string = isbn_string.replace("\t", " ")
+            isbn_string = isbn_string.strip()
+            if len(isbn_string) == 0:
+                continue
             while "  " in isbn_string:
                isbn_string = isbn_string.replace("  ", " ")
             isbns = isbn_string.split(" ")
@@ -190,16 +200,22 @@ class DOABAnalysis(object):
             for isbn in list(set(isbns)):
                 result = self.isbn_handling.test_and_normalize_isbn(isbn)
                 if not result["valid"]:
-                    msg = "ISBN normalization failure ({}): {}"
-                    print_r(msg.format(result["input_value"], result["error_msg"]))
+                    if verbose:
+                        msg = "Line {}: ISBN normalization failure ({}): {}"
+                        msg = msg.format(reader.line_num, result["input_value"], result["error_msg"])
+                        print_r(msg)
                     continue
                 else:
                     isbn = result["normalised"]
                 if isbn not in self.isbn_map:
                     self.isbn_map[isbn] = line
                 else:
-                    print_r("ISBN duplicate found in DOAB: " + isbn)
-        print(len(self.isbn_map))
+                    if isbn not in duplicate_isbns:
+                        duplicate_isbns.append(isbn)
+                    print_y("ISBN duplicate found in DOAB: " + isbn)
+        for duplicate in duplicate_isbns:
+            # drop duplicates alltogether
+            del(self.isbn_map[duplicate])
 
     def download_doab_csv(self, target):
         urlretrieve("http://www.doabooks.org/doab?func=csv", target)
