@@ -72,6 +72,67 @@ OPENAPC_STANDARD_QUOTEMASK = [
     True
 ]
 
+COLUMN_SCHEMAS = {
+    "journal_article": [
+        "institution",
+        "period",
+        "euro",
+        "doi",
+        "is_hybrid",
+        "publisher",
+        "journal_full_title",
+        "issn",
+        "issn_print",
+        "issn_electronic",
+        "issn_l",
+        "license_ref",
+        "indexed_in_crossref",
+        "pmid",
+        "pmcid",
+        "ut",
+        "url",
+        "doaj"
+    ],
+    "journal_article_transagree": [
+        "institution",
+        "period",
+        "euro",
+        "doi",
+        "is_hybrid",
+        "publisher",
+        "journal_full_title",
+        "issn",
+        "issn_print",
+        "issn_electronic",
+        "issn_l",
+        "license_ref",
+        "indexed_in_crossref",
+        "pmid",
+        "pmcid",
+        "ut",
+        "url",
+        "doaj",
+        "agreement"
+    ],
+    "book_title": [
+        "institution",
+        "period",
+        "euro",
+        "doi",
+        "publisher",
+        "book_title",
+        "isbn",
+        "isbn_print",
+        "isbn_electronic",
+        "license_ref",
+        "indexed_in_crossref",
+        "pmid",
+        "pmcid",
+        "ut",
+        "doab"
+    ]
+}
+
 class OpenAPCUnicodeWriter(object):
     """
     A customized CSV Writer.
@@ -216,6 +277,16 @@ class DOABAnalysis(object):
         for duplicate in duplicate_isbns:
             # drop duplicates alltogether
             del(self.isbn_map[duplicate])
+
+    def lookup(self, isbn):
+        if isbn in self.isbn_map:
+            result = {
+                "book_title" : self.isbn_map["Title"],
+                "publisher": self.isbn_map["Publisher"],
+                "license_ref": self.isbn_map["License"]
+            }
+            return result
+        return None
 
     def download_doab_csv(self, target):
         urlretrieve("http://www.doabooks.org/doab?func=csv", target)
@@ -783,8 +854,7 @@ def get_metadata_from_crossref(doi_string):
         ".//ai:license_ref": "license_ref"
     }
     xpaths_book = {
-        ".//cr_qr:crm-item[@name='publisher-name']": "doi_publisher",
-        ".//cr_qr:crm-item[@name='prefix-name']": "doi_prefix",
+        ".//cr_qr:crm-item[@name='prefix-name']": "prefix",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:titles//cr_1_1:title": "book_title",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn": "isbn",
@@ -996,25 +1066,27 @@ def get_euro_exchange_rates(currency, frequency="D"):
     return result
 
 
-def process_row(row, row_num, column_map, num_required_columns,
+def process_row(row, row_num, column_map, num_required_columns, doab_analysis,
                 no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, doaj_offline_analysis=False,
                 round_monetary=False, offsetting_mode=None):
     """
-    Enrich a single row of data and reformat it according to Open APC standards.
+    Enrich a single row of data and reformat it according to OpenAPC standards.
 
-    Take a csv row (a list) and a column mapping (a list of CSVColumn objects)
+    Take a csv row (a list) and a column mapping (a dict of CSVColumn objects)
     and return an enriched and re-arranged version which conforms to the Open
-    APC data schema.
+    APC data schema. The method will decide on which data schema to use depending
+    on the identified publication type
 
     Args:
         row: A list of column values (as yielded by a UnicodeReader f.e.).
         row_num: The line number in the csv file, for logging purposes.
-        column_map: An OrderedDict of CSVColumn Objects, mapping the row
+        column_map: A dict of CSVColumn Objects, mapping the row
                     cells to OpenAPC data schema fields.
         num_required_columns: An int describing the required length of the row
                               list. If not matched, an error is logged and the
                               row is returned unchanged.
+        doab_analysis: A DOABanalysis object to perform an offline DOAB lookup
         no_crossref_lookup: If true, no metadata will be imported from crossref.
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
         no_doaj_lookup: If true, journals will not be checked for being
@@ -1029,7 +1101,7 @@ def process_row(row, row_num, column_map, num_required_columns,
      Returns:
         A list of values which represents the enriched and re-arranged variant
         of the input row. If no errors were logged during the process, this
-        result will conform to the Open APC data schema.
+        result will conform to the OpenAPC data schema.
     """
     MESSAGES = {
         "num_columns": "Syntax: The number of values in this row (%s) " +
@@ -1070,7 +1142,9 @@ def process_row(row, row_num, column_map, num_required_columns,
 
     doi = row[column_map["doi"].index]
 
-    current_row = OrderedDict()
+    current_row = {}
+    record_type = None
+
     # Copy content of identified columns
     for csv_column in column_map.values():
         if csv_column.column_type == "euro" and csv_column.index is not None:
@@ -1079,7 +1153,7 @@ def process_row(row, row_num, column_map, num_required_columns,
             euro_value = row[csv_column.index]
             if not euro_value or euro_value == "NA":
                 msg = "Line %s: Empty monetary value in column %s."
-                logging.warning(msg, row_num, csv_column.index)
+                logging.error(msg, row_num, csv_column.index)
                 current_row[csv_column.column_type] = "NA"
             else:
                 try:
@@ -1136,7 +1210,8 @@ def process_row(row, row_num, column_map, num_required_columns,
                 crossref_result = get_metadata_from_crossref(doi)
             if crossref_result["success"]:
                 data = crossref_result["data"]
-                logging.info("Crossref: DOI resolved: " + doi + " [" + data.pop("doi_type") + "]")
+                record_type = data.pop("doi_type")
+                logging.info("Crossref: DOI resolved: " + doi + " [" + record_type + "]")
                 current_row["indexed_in_crossref"] = "TRUE"
                 prefix = data.pop("prefix")
                 for key, value in data.items():
@@ -1144,17 +1219,13 @@ def process_row(row, row_num, column_map, num_required_columns,
                         if key == "journal_full_title":
                             unified_value = get_unified_journal_title(value)
                             if unified_value != value:
-                                msg = MESSAGES["unify"].format("journal title",
-                                                               value,
-                                                               unified_value)
+                                msg = MESSAGES["unify"].format("journal title", value, unified_value)
                                 logging.warning(msg)
                             new_value = unified_value
                         elif key == "publisher":
                             unified_value = get_unified_publisher_name(value)
                             if unified_value != value:
-                                msg = MESSAGES["unify"].format("publisher name",
-                                                               value,
-                                                               unified_value)
+                                msg = MESSAGES["unify"].format("publisher name", value, unified_value)
                                 logging.warning(msg)
                             new_value = unified_value
                             # Treat Springer Nature special case: crossref erroneously
@@ -1255,11 +1326,43 @@ def process_row(row, row_num, column_map, num_required_columns,
                     msg = "Line %s: DOAJ: Error while trying to look up ISSN %s: %s"
                     logging.error(msg, row_num, issn, doaj_res["error_msg"])
         old_value = current_row["doaj"]
-        current_row["doaj"] = column_map["doaj"].check_overwrite(old_value,
-                                                                 new_value)
+        current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
+    if record_type != "journal_article":
+        isbn = None
+        if column_map["isbn"].index is None:
+            logging.info("No ISBN found, skipping DOAJ lookup.")
+        else:
+            isbn = row[column_map["isbn"].index]
+            record_type = "book_title"
+            doab_result = doab_analysis.lookup(isbn)
+            if doab_result is None:
+                current_row["doab"] = "FALSE"
+                msg = "DOAB: ISBN %s not found in normalized DOAB"
+                logging.info(msg, isbn)
+            else:
+                current_row["doab"] = "TRUE"
+                msg = 'DOAB: ISBN %s found in normalized DOAB (%s, "%s")'
+                logging.info(msg, isbn, doab_result["publisher"], doab_result["book_title"])
+                if current_row["indexed_in_crossref"]:
+                    msg = "Book already found in Crossref via DOI, those results take precedence"
+                    logging.warning(msg, isbn, doab_result["publisher"], doab_result["book_title"])
+                else:
+                    for key in doab_result:
+                        current_row[key] = doab_result[key]
     if offsetting_mode:
         current_row["agreement"] = offsetting_mode
-    return list(current_row.values())
+        record_type = "journal_article_transagree"
+
+    if record_type is None:
+        msg = "Line %s: Could not identify record type, using default schema 'journal_article'"
+        logging.error(msg, row_num)
+        record_type = "journal_article"
+
+    result = []
+    for field in COLUMN_SCHEMAS[record_type]:
+        result.append(current_row[field])
+
+    return (record_type, result)
 
 def get_column_type_from_whitelist(column_name):
     """

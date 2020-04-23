@@ -108,6 +108,10 @@ OVERWRITE_STRATEGY = {
     "url": CSVColumn.OW_NEVER,
     "doaj": CSVColumn.OW_NEVER,
     "agreement": CSVColumn.OW_NEVER,
+    "book_title": CSVColumn.OW_NEVER,
+    "isbn": CSVColumn.OW_NEVER,
+    "isbn_print": CSVColumn.OW_NEVER,
+    "isbn_electronic": CSVColumn.OW_NEVER
 }
 
 ARG_HELP_STRINGS = {
@@ -187,6 +191,11 @@ ARG_HELP_STRINGS = {
             "index in the CSV file, with the leftmost column being 0. This " +
             "is an optional column, identifying it is required if there are " +
             "articles without a DOI in the file.",
+    "isbn": "Manually identify the 'isbn' column if the script fails to " +
+            "detect it automatically. The value is the numerical column " +
+            "index in the CSV file, with the leftmost column being 0. This " +
+            "is an optional column, identifying it is required if there are " +
+            "books without a DOI in the file.",
     "url": "Manually identify the 'url' column if the script fails to detect " +
            "it automatically. The value is the numerical column index in the " +
            "CSV file, with the leftmost column being 0. This is an optional " +
@@ -258,6 +267,8 @@ def main():
                         type=int, help=ARG_HELP_STRINGS["journal_full_title"])
     parser.add_argument("-issn", "--issn_column",
                         type=int, help=ARG_HELP_STRINGS["issn"])
+    parser.add_argument("-isbn", "--isbn_column",
+                        type=int, help=ARG_HELP_STRINGS["isbn"])
     parser.add_argument("-url", "--url_column",
                         type=int, help=ARG_HELP_STRINGS["url"])
     parser.add_argument("-start", type=int, help=ARG_HELP_STRINGS["start"])
@@ -361,54 +372,32 @@ def main():
     elif not args.update:
         for column in OVERWRITE_STRATEGY.keys():
              OVERWRITE_STRATEGY[column] = CSVColumn.OW_ASK
-        
-    openapc_column_map = OrderedDict([
-        ("institution", CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column, overwrite=OVERWRITE_STRATEGY["institution"])),
-        ("period", CSVColumn("period", CSVColumn.MANDATORY, args.period_column, overwrite=OVERWRITE_STRATEGY["period"])),
-        ("euro", CSVColumn("euro", CSVColumn.MANDATORY, args.euro_column, overwrite=OVERWRITE_STRATEGY["euro"])),
-        ("doi", CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column, overwrite=OVERWRITE_STRATEGY["doi"])),
-        ("is_hybrid", CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column, overwrite=OVERWRITE_STRATEGY["is_hybrid"])),
-        ("publisher", CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column, overwrite=OVERWRITE_STRATEGY["publisher"])),
-        ("journal_full_title", CSVColumn("journal_full_title", CSVColumn.OPTIONAL, args.journal_full_title_column, overwrite=OVERWRITE_STRATEGY["journal_full_title"])),
-        ("issn", CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column, overwrite=OVERWRITE_STRATEGY["issn"])),
-        ("issn_print", CSVColumn("issn_print", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_print"])),
-        ("issn_electronic", CSVColumn("issn_electronic", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_electronic"])),
-        ("issn_l", CSVColumn("issn_l", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_l"])),
-        ("license_ref", CSVColumn("license_ref", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["license_ref"])),
-        ("indexed_in_crossref", CSVColumn("indexed_in_crossref", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["indexed_in_crossref"])),
-        ("pmid", CSVColumn("pmid", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["pmid"])),
-        ("pmcid", CSVColumn("pmcid", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["pmcid"])),
-        ("ut", CSVColumn("ut", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["ut"])),
-        ("url", CSVColumn("url", CSVColumn.OPTIONAL, args.url_column, overwrite=OVERWRITE_STRATEGY["url"])),
-        ("doaj", CSVColumn("doaj", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["doaj"]))
-    ])
 
-    offsetting_column_map = OrderedDict([
-        ("institution", CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column, overwrite=OVERWRITE_STRATEGY["institution"])),
-        ("period", CSVColumn("period", CSVColumn.MANDATORY, args.period_column, overwrite=OVERWRITE_STRATEGY["period"])),
-        ("euro", CSVColumn("euro", CSVColumn.NONE, args.euro_column, overwrite=OVERWRITE_STRATEGY["euro"])),
-        ("doi", CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column, overwrite=OVERWRITE_STRATEGY["doi"])),
-        ("is_hybrid", CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column, overwrite=OVERWRITE_STRATEGY["is_hybrid"])),
-        ("publisher", CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column, overwrite=OVERWRITE_STRATEGY["publisher"])),
-        ("journal_full_title", CSVColumn("journal_full_title", CSVColumn.OPTIONAL, args.journal_full_title_column, overwrite=OVERWRITE_STRATEGY["journal_full_title"])),
-        ("issn", CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column, overwrite=OVERWRITE_STRATEGY["issn"])),
-        ("issn_print", CSVColumn("issn_print", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_print"])),
-        ("issn_electronic", CSVColumn("issn_electronic", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_electronic"])),
-        ("issn_l", CSVColumn("issn_l", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_l"])),
-        ("license_ref", CSVColumn("license_ref", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["license_ref"])),
-        ("indexed_in_crossref", CSVColumn("indexed_in_crossref", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["indexed_in_crossref"])),
-        ("pmid", CSVColumn("pmid", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["pmid"])),
-        ("pmcid", CSVColumn("pmcid", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["pmcid"])),
-        ("ut", CSVColumn("ut", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["ut"])),
-        ("url", CSVColumn("url", CSVColumn.OPTIONAL, args.url_column, overwrite=OVERWRITE_STRATEGY["url"])),
-        ("doaj", CSVColumn("doaj", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["doaj"])),
-        ("agreement", CSVColumn("agreement", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["agreement"])),
-    ])
-
-    if args.offsetting_mode:
-        column_map = offsetting_column_map
-    else:
-        column_map = openapc_column_map
+    column_map = {
+        "institution": CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column, overwrite=OVERWRITE_STRATEGY["institution"]),
+        "period": CSVColumn("period", CSVColumn.MANDATORY, args.period_column, overwrite=OVERWRITE_STRATEGY["period"]),
+        "euro": CSVColumn("euro", CSVColumn.NONE, args.euro_column, overwrite=OVERWRITE_STRATEGY["euro"]),
+        "doi": CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column, overwrite=OVERWRITE_STRATEGY["doi"]),
+        "is_hybrid": CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column, overwrite=OVERWRITE_STRATEGY["is_hybrid"]),
+        "publisher": CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column, overwrite=OVERWRITE_STRATEGY["publisher"]),
+        "journal_full_title": CSVColumn("journal_full_title", CSVColumn.OPTIONAL, args.journal_full_title_column, overwrite=OVERWRITE_STRATEGY["journal_full_title"]),
+        "issn": CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column, overwrite=OVERWRITE_STRATEGY["issn"]),
+        "issn_print": CSVColumn("issn_print", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_print"]),
+        "issn_electronic": CSVColumn("issn_electronic", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_electronic"]),
+        "issn_l": CSVColumn("issn_l", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_l"]),
+        "license_ref": CSVColumn("license_ref", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["license_ref"]),
+        "indexed_in_crossref": CSVColumn("indexed_in_crossref", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["indexed_in_crossref"]),
+        "pmid": CSVColumn("pmid", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["pmid"]),
+        "pmcid": CSVColumn("pmcid", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["pmcid"]),
+        "ut": CSVColumn("ut", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["ut"]),
+        "url": CSVColumn("url", CSVColumn.OPTIONAL, args.url_column, overwrite=OVERWRITE_STRATEGY["url"]),
+        "doaj": CSVColumn("doaj", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["doaj"]),
+        "agreement": CSVColumn("agreement", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["agreement"]),
+        "book_title": CSVColumn("book_title", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["book_title"]),
+        "isbn": CSVColumn("isbn", CSVColumn.OPTIONAL, args.isbn_column, overwrite=OVERWRITE_STRATEGY["isbn"]),
+        "isbn_print": CSVColumn("isbn_print", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["isbn_print"]),
+        "isbn_electronic": CSVColumn("isbn_electronic", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"])
+    }
 
     header = None
     if has_header:
@@ -591,7 +580,16 @@ def main():
 
     print("\n    *** Starting metadata aggregation ***\n")
 
-    enriched_content = []
+    enriched_content = {}
+    for record_type, fields in oat.COLUMN_SCHEMAS.items():
+        # add headers
+        enriched_content[record_type] = {
+            "count": 0,
+            "content": [list(fields)]
+        }
+
+    isbn_handling = oat.ISBNHandling("tempfiles/ISBNRangeFile.xml")
+    doab_analysis = oat.DOABAnalysis(isbn_handling, "tempfiles/DOAB.csv", verbose=False)
 
     csv_file.seek(0)
     reader = csv.reader(csv_file, dialect=dialect)
@@ -604,7 +602,6 @@ def main():
             continue # skip empty lines
         if not header_processed:
             header_processed = True
-            enriched_content.append(list(column_map.keys()))
             if has_header:
                 # If the CSV file has a header, we are currently there - skip it
                 # to get to the first data row
@@ -614,18 +611,25 @@ def main():
         if args.end and args.end < row_num:
             continue
         print("---Processing line number " + str(row_num) + "---")
-        enriched_row = oat.process_row(row, row_num, column_map, num_columns,
-                                       args.no_crossref, args.no_pubmed,
-                                       args.no_doaj, doaj_offline_analysis, args.round_monetary,
-                                       args.offsetting_mode)
-        enriched_content.append(enriched_row)
-
+        result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, doab_analysis,
+                                                    args.no_crossref, args.no_pubmed,
+                                                    args.no_doaj, doaj_offline_analysis, args.round_monetary,
+                                                    args.offsetting_mode)
+        for record_type, value in enriched_content.items():
+            if record_type == result_type:
+                value["content"].append(enriched_row)
+                value["count"] += 1
+            else:
+                empty_line = ["" for x in value["content"][0]]
+                value["content"].append(empty_line)
     csv_file.close()
 
-    with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, oat.OPENAPC_STANDARD_QUOTEMASK, 
-                                          True, True, True)
-        writer.write_rows(enriched_content)
+    for record_type, value in enriched_content.items():
+        if value["count"] > 0:
+            with open('out_' + record_type + '.csv', 'w') as out:
+                writer = oat.OpenAPCUnicodeWriter(out, oat.OPENAPC_STANDARD_QUOTEMASK, 
+                                                  True, True, True)
+                writer.write_rows(value["content"])
 
     if not bufferedHandler.buffer:
         oat.print_g("Metadata enrichment successful, no errors occured")
