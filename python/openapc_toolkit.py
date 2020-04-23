@@ -279,13 +279,16 @@ class DOABAnalysis(object):
             del(self.isbn_map[duplicate])
 
     def lookup(self, isbn):
-        if isbn in self.isbn_map:
-            result = {
-                "book_title" : self.isbn_map["Title"],
-                "publisher": self.isbn_map["Publisher"],
-                "license_ref": self.isbn_map["License"]
-            }
-            return result
+        result = self.isbn_handling.test_and_normalize_isbn(isbn)
+        if result["valid"]:
+            norm_isbn = result["normalised"]
+            if norm_isbn in self.isbn_map:
+                lookup_result =  {
+                    "book_title" : self.isbn_map[norm_isbn]["Title"],
+                    "publisher": self.isbn_map[norm_isbn]["Publisher"],
+                    "license_ref": self.isbn_map[norm_isbn]["License"]
+                }
+                return lookup_result
         return None
 
     def download_doab_csv(self, target):
@@ -1345,7 +1348,7 @@ def process_row(row, row_num, column_map, num_required_columns, doab_analysis,
                 logging.info(msg, isbn, doab_result["publisher"], doab_result["book_title"])
                 if current_row["indexed_in_crossref"]:
                     msg = "Book already found in Crossref via DOI, those results take precedence"
-                    logging.warning(msg, isbn, doab_result["publisher"], doab_result["book_title"])
+                    logging.warning(msg)
                 else:
                     for key in doab_result:
                         current_row[key] = doab_result[key]
