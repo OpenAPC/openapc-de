@@ -310,7 +310,6 @@ class ISBNHandling(object):
             range_file_root = ET.fromstring(range_file_content)
             self.ean_elements = range_file_root.findall("./EAN.UCCPrefixes/EAN.UCC")
             self.registration_groups = range_file_root.findall("./RegistrationGroups/Group")
-            
 
     def download_range_file(self, target):
         urlretrieve("http://www.isbn-international.org/export_rangemessage.xml", target)
@@ -778,34 +777,48 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             print("URLError: {}".format(urle.reason))
     return articles
 
-def find_book_doi_in_crossref(isbn):
+def find_book_dois_in_crossref(isbn_list):
     """
-    Take an ISBN and try to obtain a DOI for the book from crossref.
+    Take a list of ISBNs and try to obtain book/monograph DOIs from crossref.
 
     Args:
-        isbn: A string representing an ISBN (will not be tested for validity).
+        isbn_list: A list of strings representing ISBNs (will not be tested for validity).
     Returns:
-        A string representing a DOI or None if no result was found.
+        A dict with a key 'success'. If the lookup was successful,
+        'success' will be True and the dict will have a second entry 'dois'
+        which contains a list of obtained DOIs as strings. The list may be empty if the lookup
+        returned an empty result.
+        If an error occured during lookup, 'success' will be False and the dict will
+        contain a second entry 'error_msg' with a string value
+        stating the reason.
     """
-    ret_value = {"success": False}
+    if type(isbn_list) != type([]) or len(isbn_list) == 0:
+        raise ValueError("Parameter must be a non-empty list!")
+    filter_list = ["isbn:" + isbn for isbn in isbn_list]
+    filters = ",".join(filter_list)
     api_url = "https://api.crossref.org/works?filter="
-    url = api_url + "isbn:" + isbn
+    url = api_url + filters + "&rows=500"
     request = Request(url)
     request.add_header("User-Agent", USER_AGENT)
+    ret_value = {
+        "success": False,
+        "dois": []
+    }
     try:
         ret = urlopen(request)
         content = ret.read()
         data = json.loads(content)
-        print(json.dumps(data, indent=4))
         if data["message"]["total-results"] == 0:
             ret_value["success"] = True
-            ret_value["doi"] = None
-        elif data["message"]["total-results"] == 1:
-            ret_value["success"] = True
-            result = data["message"]["items"].pop()
-            ret_value["doi"] = result["DOI"]
         else:
-            raise ValueError("Crossref response contained more than one result")
+            for item in data["message"]["items"]:
+                if item["type"] in ["monograph", "book"] and item["DOI"] not in ret_value["dois"]:
+                    ret_value["dois"].append(item["DOI"])
+            if len(ret_value["dois"]) == 0:
+                msg = "No monograph/book DOI type found in  Crossref ISBN search result ({})!"
+                raise ValueError(msg.format(url))
+            else:
+                ret_value["success"] = True
     except HTTPError as httpe:
         ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
     except URLError as urle:
