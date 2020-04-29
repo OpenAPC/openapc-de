@@ -49,6 +49,37 @@ OAI_COLLECTION_CONTENT = OrderedDict([
     ("local_id", "intact:id_number[@type='local']")
 ])
 
+MESSAGES = {
+    "num_columns": "Syntax: The number of values in this row (%s) " +
+                   "differs from the number of columns (%s). Line left " +
+                   "unchanged, the resulting CSV file will not be valid.",
+    "locale": "Error: Could not process the monetary value '%s' in " +
+              "column %s. Usually this happens due to one of two reasons:\n1) " +
+              "The value does not represent a number.\n2) The value " +
+              "represents a number, but its format differs from your " +
+              "current system locale - the most common source of error " +
+              "is the decimal mark (1234.56 vs 1234,56). Try using " +
+              "another locale with the -l option.",
+    "unify": "Normalisation: Crossref-based {} changed from '{}' to '{}' " +
+             "to maintain consistency.",
+    "digits_error": "Monetary value %s has more than 2 digits after " +
+                    "the decimal point. If this is just a formatting issue (from automated " +
+                    "conversion for example) you may call the enrichment script with the -r " +
+                    "option to round such values to 2 digits automatically.",
+    "digits_norm": "Normalisation: Monetary value %s rounded to 2 digits after " +
+                   "decimal mark (%s -> %s)",
+    "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({}).",
+    "springer_distinction": "publisher 'Springer Nature' found " +
+                            "for a pre-2015 article - publisher " +
+                            "changed to '%s' based on prefix " +
+                            "discrimination ('%s')",
+    "unknown_prefix": "publisher 'Springer Nature' found for a " +
+                      "pre-2015 article, but discrimination was " +
+                      "not possible - unknown prefix ('%s')",
+    "issn_hyphen_fix": "Normalisation: Added hyphen to %s value (%s -> %s)",
+    "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)"
+}
+
 # Do not quote the values in the 'period' and 'euro' columns
 OPENAPC_STANDARD_QUOTEMASK = [
     True,
@@ -1081,6 +1112,37 @@ def get_euro_exchange_rates(currency, frequency="D"):
         result[date] = value
     return result
 
+def _process_euro_value(euro_value, round_monetary, row_num, index):
+    if not has_value(euro_value):
+        msg = "Line %s: Empty monetary value in column %s."
+        logging.error(msg, row_num, index)
+        return "NA"
+    try:
+        # Cast to float to ensure the decimal point is a dot (instead of a comma)
+        euro = locale.atof(euro_value)
+        if euro.is_integer():
+            euro = int(euro)
+        if re.match(r"^\d+\.\d{3}", str(euro)):
+            if round_monetary:
+                euro = round(euro, 2)
+                msg = "Line %s: " + MESSAGES["digits_norm"]
+                logging.warning(msg, row_num, euro_value, euro_value, euro)
+            else:
+                msg = "Line %s: " + MESSAGES["digits_error"]
+                logging.error(msg, row_num, euro_value)
+        return str(euro)
+    except ValueError:
+        msg = "Line %s: " + MESSAGES["locale"]
+        logging.error(msg, row_num, euro_value, index)
+        return "NA"
+
+def _process_period_value(period_value, row_num):
+    if re.match(r"^\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?$", period_value):
+        msg = "Line %s: " + MESSAGES["period_format"]
+        new_value = period_value[:4]
+        logging.warning(msg, row_num, period_value, new_value)
+        return new_value
+    return period_value
 
 def process_row(row, row_num, column_map, num_required_columns, doab_analysis,
                 no_crossref_lookup=False, no_pubmed_lookup=False,
@@ -1119,90 +1181,28 @@ def process_row(row, row_num, column_map, num_required_columns, doab_analysis,
         of the input row. If no errors were logged during the process, this
         result will conform to the OpenAPC data schema.
     """
-    MESSAGES = {
-        "num_columns": "Syntax: The number of values in this row (%s) " +
-                       "differs from the number of columns (%s). Line left " +
-                       "unchanged, the resulting CSV file will not be valid.",
-        "locale": "Error: Could not process the monetary value '%s' in " +
-                  "column %s. Usually this happens due to one of two reasons:\n1) " +
-                  "The value does not represent a number.\n2) The value " +
-                  "represents a number, but its format differs from your " +
-                  "current system locale - the most common source of error " +
-                  "is the decimal mark (1234.56 vs 1234,56). Try using " +
-                  "another locale with the -l option.",
-        "digits_error": "Monetary value %s has more than 2 digits after " +
-                        "the decimal point. If this is just a formatting issue (from automated " +
-                        "conversion for example) you may call the enrichment script with the -r " +
-                        "option to round such values to 2 digits automatically.",
-        "digits_norm": "Normalisation: Monetary value %s rounded to 2 digits after " +
-                       "decimal mark (%s -> %s)",
-        "unify": "Normalisation: CrossRef-based {} changed from '{}' to '{}' " +
-                 "to maintain consistency.",
-        "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({}).",
-        "springer_distinction": "publisher 'Springer Nature' found " +
-                                "for a pre-2015 article - publisher " +
-                                "changed to '%s' based on prefix " +
-                                "discrimination ('%s')",
-        "unknown_prefix": "publisher 'Springer Nature' found for a " +
-                          "pre-2015 article, but discrimination was " +
-                          "not possible - unknown prefix ('%s')",
-        "issn_hyphen_fix": "Normalisation: Added hyphen to %s value (%s -> %s)",
-        "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)"
-            
-    }
-
     if len(row) != num_required_columns:
         msg = "Line %s: " + MESSAGES["num_columns"]
         logging.error(msg, row_num, len(row), num_required_columns)
         return row
 
-    doi = row[column_map["doi"].index]
-
     current_row = {}
     record_type = None
 
-    # Copy content of identified columns
+    # Copy content of identified columns and apply special processing rules
     for csv_column in column_map.values():
-        if csv_column.column_type == "euro" and csv_column.index is not None:
-            # special case for monetary values: Cast to float to ensure
-            # the decimal point is a dot (instead of a comma)
-            euro_value = row[csv_column.index]
-            if not euro_value or euro_value == "NA":
-                msg = "Line %s: Empty monetary value in column %s."
-                logging.error(msg, row_num, csv_column.index)
-                current_row[csv_column.column_type] = "NA"
-            else:
-                try:
-                    euro = locale.atof(euro_value)
-                    if euro.is_integer():
-                        euro = int(euro)
-                    if re.match(r"^\d+\.\d{3}", str(euro)):
-                        if round_monetary:
-                            euro = round(euro, 2)
-                            msg = "Line %s: " + MESSAGES["digits_norm"]
-                            logging.warning(msg, row_num, euro_value, euro_value, euro)
-                        else:
-                            msg = "Line %s: " + MESSAGES["digits_error"]
-                            logging.error(msg, row_num, euro_value)
-                    current_row[csv_column.column_type] = str(euro)
-                except ValueError:
-                    msg = "Line %s: " + MESSAGES["locale"]
-                    logging.error(msg, row_num, euro_value, csv_column.index)
-        elif csv_column.column_type == "period":
-            value = row[csv_column.index]
-            if re.match(r"^\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?$", value):
-                msg = "Line %s: " + MESSAGES["period_format"]
-                new_value = value[:4]
-                logging.warning(msg, row_num, value, new_value)
-                current_row[csv_column.column_type] = new_value
-            else:
-                current_row[csv_column.column_type] = value
+        index, column_type = csv_column.index, csv_column.column_type
+        if column_type == "euro" and index is not None:
+            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index)
+        elif column_type == "period":
+            current_row["period"] = _process_period_value(row[index], row_num)
         else:
-            if csv_column.index is not None and len(row[csv_column.index]) > 0:
-                current_row[csv_column.column_type] = row[csv_column.index]
+            if index is not None and len(row[index]) > 0:
+                current_row[column_type] = row[index]
             else:
-                current_row[csv_column.column_type] = "NA"
+                current_row[column_type] = "NA"
 
+    doi = row[column_map["doi"].index]
     if len(doi) == 0 or doi == 'NA':
         msg = ("Line %s: No DOI found, entry could not enriched with " +
                "Crossref or Pubmed metadata.")
