@@ -1144,8 +1144,8 @@ def _process_period_value(period_value, row_num):
         return new_value
     return period_value
 
-def process_row(row, row_num, column_map, num_required_columns, doab_analysis,
-                no_crossref_lookup=False, no_pubmed_lookup=False,
+def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
+                doab_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, doaj_offline_analysis=False,
                 round_monetary=False, offsetting_mode=None):
     """
@@ -1154,7 +1154,7 @@ def process_row(row, row_num, column_map, num_required_columns, doab_analysis,
     Take a csv row (a list) and a column mapping (a dict of CSVColumn objects)
     and return an enriched and re-arranged version which conforms to the Open
     APC data schema. The method will decide on which data schema to use depending
-    on the identified publication type
+    on the identified publication type.
 
     Args:
         row: A list of column values (as yielded by a UnicodeReader f.e.).
@@ -1164,6 +1164,7 @@ def process_row(row, row_num, column_map, num_required_columns, doab_analysis,
         num_required_columns: An int describing the required length of the row
                               list. If not matched, an error is logged and the
                               row is returned unchanged.
+        additional_isbn_columns: A list of ints designating row indexes as additional ISBN sources.
         doab_analysis: A DOABanalysis object to perform an offline DOAB lookup
         no_crossref_lookup: If true, no metadata will be imported from crossref.
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.

@@ -196,6 +196,13 @@ ARG_HELP_STRINGS = {
             "index in the CSV file, with the leftmost column being 0. This " +
             "is an optional column, identifying it is required if there are " +
             "books without a DOI in the file.",
+    "additional_isbns": "Identify more optional columns containing ISBN "+
+                        "values in addition to isbn, isbn_print and isbn_electronic. " +
+                        "The value is a whitespace-separated list of numerical column " +
+                        "indexes in the CSV file, with the leftmost column being 0. " +
+                        "Providing additional ISBNs for other variants/editions of a " +
+                        "book can be helpful during metadata discovery. These columns won't " +
+                        "be mapped to the output file.",
     "url": "Manually identify the 'url' column if the script fails to detect " +
            "it automatically. The value is the numerical column index in the " +
            "CSV file, with the leftmost column being 0. This is an optional " +
@@ -269,6 +276,8 @@ def main():
                         type=int, help=ARG_HELP_STRINGS["issn"])
     parser.add_argument("-isbn", "--isbn_column",
                         type=int, help=ARG_HELP_STRINGS["isbn"])
+    parser.add_argument("-additional_isbns", "--additional_isbn_columns", type=int, nargs='+',
+                        help=ARG_HELP_STRINGS["additional_isbns"])
     parser.add_argument("-url", "--url_column",
                         type=int, help=ARG_HELP_STRINGS["url"])
     parser.add_argument("-start", type=int, help=ARG_HELP_STRINGS["start"])
@@ -373,6 +382,16 @@ def main():
         for column in OVERWRITE_STRATEGY.keys():
              OVERWRITE_STRATEGY[column] = CSVColumn.OW_ASK
 
+    additional_isbn_columns = []
+    if args.additional_isbn_columns:
+        for index in args.additional_isbn_columns:
+            if index > num_columns:
+                msg = "Error: Additional ISBN column index {} exceeds number of columns ({})."
+                oat.print_r(msg.format(index, num_columns))
+                sys.exit()
+            else:
+                additional_isbn_columns.append(index)
+
     column_map = {
         "institution": CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column, overwrite=OVERWRITE_STRATEGY["institution"]),
         "period": CSVColumn("period", CSVColumn.MANDATORY, args.period_column, overwrite=OVERWRITE_STRATEGY["period"]),
@@ -411,12 +430,16 @@ def main():
             else:
                 print("\n    *** Analyzing CSV header ***\n")
             for (index, item) in enumerate(header):
+                if index in additional_isbn_columns:
+                    msg = "Column named '{}' at index {} is designated as additional ISBN column"
+                    print(msg.format(item, index))
+                    continue
                 column_type = oat.get_column_type_from_whitelist(item)
                 if column_type is not None and column_map[column_type].index is None:
                     column_map[column_type].index = index
                     column_map[column_type].column_name = item
                     found_msg = ("Found column named '{}' at index {}, " +
-                                 "assuming this to be the {} column.")
+                                 "assuming this to be the '{}' column.")
                     print(found_msg.format(item, index, column_type))
             break
 
@@ -434,7 +457,7 @@ def main():
         }
         found_msg = "The entry in column {} looks like a potential {}: {}"
         for (index, entry) in enumerate(row):
-            if index in [csvcolumn.index for csvcolumn in column_map.values()]:
+            if index in [csvcolumn.index for csvcolumn in column_map.values()] + additional_isbn_columns:
                 # Skip columns already assigned
                 continue
             entry = entry.strip()
@@ -539,6 +562,9 @@ def main():
                 oat.print_g(msg)
             else:
                 oat.print_b(msg)
+        elif index in additional_isbn_columns:
+            msg = u"column number {} ({}) is an additional ISBN column".format(index, column_name)
+            oat.print_c(msg)
         else:
             if args.add_unknown_columns:
                 msg = (u"column number {} ({}) is an unknown column, it will be " +
@@ -611,7 +637,7 @@ def main():
         if args.end and args.end < row_num:
             continue
         print("---Processing line number " + str(row_num) + "---")
-        result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, doab_analysis,
+        result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis,
                                                     args.no_crossref, args.no_pubmed,
                                                     args.no_doaj, doaj_offline_analysis, args.round_monetary,
                                                     args.offsetting_mode)
