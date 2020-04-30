@@ -1216,7 +1216,7 @@ def _isbn_lookup(current_row, row_num, additional_isbns, isbn_handling):
         return (None, "book_title")
     elif len(cr_res["dois"]) == 0:
         msg = "Line %s: Performed Crossref ISBN lookup, no DOI found."
-        logging.info(msg, row_num, cr_res["error_msg"])
+        logging.info(msg, row_num)
         return (None, "book_title")
     elif len(cr_res["dois"]) > 1:
         msg = "Line %s: Performed Crossref ISBN lookup, more than one DOI found (%s) -> Used first in list."
@@ -1414,10 +1414,11 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
     if record_type != "journal_article":
         isbn = None
-        if column_map["isbn"].index is None:
+        if current_row["isbn"] is None:
             logging.info("No ISBN found, skipping DOAJ lookup.")
+            current_row["doab"] = "NA"
         else:
-            isbn = row[column_map["isbn"].index]
+            isbn = current_row["isbn"]
             record_type = "book_title"
             doab_result = doab_analysis.lookup(isbn)
             if doab_result is None:
