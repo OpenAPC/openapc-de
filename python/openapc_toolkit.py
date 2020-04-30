@@ -1186,6 +1186,47 @@ def _process_crossref_results(current_row, row_num, prefix, key, value):
             new_value = value
     return new_value
 
+def _isbn_lookup(current_row, row_num, additional_isbns, isbn_handling):
+    collected_isbns = []
+    for isbn_field in ["isbn", "isbn_print", "isbn_electronic"]:
+        if has_value(current_row[isbn_field]):
+            collected_isbns.append(current_row[isbn_field])
+    for isbn in additional_isbns:
+        if has_value(isbn):
+            collected_isbns.append(isbn)
+    if len(collected_isbns) == 0:
+        msg = ("Line %s: Neither a DOI nor an ISBN found, assuming default record type " +
+               "journal_article")
+        logging.warning(msg, row_num)
+        return (None, "journal_article")
+    query_isbns = []
+    for isbn in collected_isbns:
+        res = isbn_handling.test_and_normalize_isbn(isbn)
+        if not res["valid"]:
+            msg = "Invalid ISBN {}: {}".format(isbn, res["error_msg"])
+            logging.info(msg)
+        else:
+            query_isbns.append(res["input_value"])
+            if res["input_value"] != res["normalised"]:
+                query_isbns.append(res["normalised"])
+    cr_res = find_book_dois_in_crossref(query_isbns)
+    if not cr_res["success"]:
+        msg = "Line %s: Error while trying to look up ISBNs in Crossref: %s"
+        logging.error(msg, row_num, cr_res["error_msg"])
+        return (None, "book_title")
+    elif len(cr_res["dois"]) == 0:
+        msg = "Line %s: Performed Crossref ISBN lookup, no DOI found."
+        logging.info(msg, row_num, cr_res["error_msg"])
+        return (None, "book_title")
+    elif len(cr_res["dois"]) > 1:
+        msg = "Line %s: Performed Crossref ISBN lookup, more than one DOI found (%s) -> Used first in list."
+        logging.warning(msg, row_num, str(cr_res["dois"]))
+        return (cr_res["dois"][0], None)
+    else:
+        msg = "Line %s: Performed Crossref ISBN lookup, DOI found (%s)."
+        logging.info(msg, row_num, cr_res["dois"][0])
+        return (cr_res["dois"][0], None)
+
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, doaj_offline_analysis=False,
@@ -1245,19 +1286,32 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             else:
                 current_row[column_type] = "NA"
 
-    doi = row[column_map["doi"].index]
+    doi = current_row["doi"]
     if len(doi) == 0 or doi == 'NA':
-        msg = ("Line %s: No DOI found, entry could not enriched with " +
-               "Crossref or Pubmed metadata.")
-        logging.warning(msg, row_num)
+        # lookup ISBNs in crossref
+        msg = ("Line %s: No DOI found")
+        logging.info(msg, row_num)
         current_row["indexed_in_crossref"] = "FALSE"
-    else:
+        additional_isbns = [row[i] for i in additional_isbn_columns]
+        doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
+        if r_type is not None:
+            record_type = r_type
+        if doi is not None:
+            # integrate DOI into row and restart
+            logging.info("New DOI integrated, restarting enrichment for current line.")
+            index = column_map["doi"].index
+            row[index] = doi
+            return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
+                doab_analysis, no_crossref_lookup, no_pubmed_lookup, no_doaj_lookup, doaj_offline_analysis,
+                round_monetary, offsetting_mode)
+    doi = current_row["doi"]
+    if has_value(doi):
         # Normalise DOI
         norm_doi = get_normalised_DOI(doi)
         if norm_doi is not None and norm_doi != doi:
             current_row["doi"] = norm_doi
             msg = MESSAGES["doi_norm"].format(doi, norm_doi)
-            logging.warning(msg)
+            logging.info(msg)
             doi = norm_doi
         # include crossref metadata
         if not no_crossref_lookup:
@@ -1281,6 +1335,19 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 msg = "Line %s: Crossref: Error while trying to resolve DOI %s: %s"
                 logging.error(msg, row_num, doi, crossref_result["error_msg"])
                 current_row["indexed_in_crossref"] = "FALSE"
+                # lookup ISBNs in crossref and try to find a correct DOI
+                additional_isbns = [row[i] for i in additional_isbn_columns]
+                doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
+                if r_type is not None:
+                    record_type = r_type
+                if doi is not None:
+                    # integrate DOI into row and restart
+                    logging.info("New DOI integrated, restarting enrichment for current line.")
+                    index = column_map["doi"].index
+                    row[index] = doi
+                    return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
+                                       doab_analysis, no_crossref_lookup, no_pubmed_lookup, no_doaj_lookup, doaj_offline_analysis,
+                                       round_monetary, offsetting_mode)
         # include pubmed metadata
         if not no_pubmed_lookup:
             pubmed_result = get_metadata_from_pubmed(doi)
