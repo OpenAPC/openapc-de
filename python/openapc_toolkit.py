@@ -1144,6 +1144,48 @@ def _process_period_value(period_value, row_num):
         return new_value
     return period_value
 
+def _process_crossref_results(current_row, row_num, prefix, key, value):
+    new_value = "NA"
+    if value is not None:
+        if key == "journal_full_title":
+            unified_value = get_unified_journal_title(value)
+            if unified_value != value:
+                msg = MESSAGES["unify"].format("journal title", value, unified_value)
+                logging.warning(msg)
+            new_value = unified_value
+        elif key == "publisher":
+            unified_value = get_unified_publisher_name(value)
+            if unified_value != value:
+                msg = MESSAGES["unify"].format("publisher name", value, unified_value)
+                logging.warning(msg)
+            new_value = unified_value
+            # Treat Springer Nature special case: crossref erroneously
+            # reports publisher "Springer Nature" even for articles
+            # published before 2015 (publishers fusioned only then)
+            if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
+                publisher = None
+                if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag", "Springer - Psychonomic Society"]:
+                    publisher = "Springer Science + Business Media"
+                elif prefix in ["Nature Publishing Group", "Nature Publishing Group - Macmillan Publishers"]:
+                    publisher = "Nature Publishing Group"
+                if publisher:
+                    msg = "Line %s: " + MESSAGES["springer_distinction"]
+                    logging.warning(msg, row_num, publisher, prefix)
+                    new_value = publisher
+                else:
+                    msg = "Line %s: " + MESSAGES["unknown_prefix"]
+                    logging.error(msg, row_num, prefix)
+        # Fix ISSNs without hyphen
+        elif key in ["issn", "issn_print", "issn_electronic"]:
+            new_value = value
+            if re.match(r"^\d{7}[\dxX]$", value):
+                new_value = value[:4] + "-" + value[4:]
+                msg = "Line %s: " + MESSAGES["issn_hyphen_fix"]
+                logging.warning(msg, row_num, key, value, new_value)
+        else:
+            new_value = value
+    return new_value
+
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, doaj_offline_analysis=False,
@@ -1232,48 +1274,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 current_row["indexed_in_crossref"] = "TRUE"
                 prefix = data.pop("prefix")
                 for key, value in data.items():
-                    if value is not None:
-                        if key == "journal_full_title":
-                            unified_value = get_unified_journal_title(value)
-                            if unified_value != value:
-                                msg = MESSAGES["unify"].format("journal title", value, unified_value)
-                                logging.warning(msg)
-                            new_value = unified_value
-                        elif key == "publisher":
-                            unified_value = get_unified_publisher_name(value)
-                            if unified_value != value:
-                                msg = MESSAGES["unify"].format("publisher name", value, unified_value)
-                                logging.warning(msg)
-                            new_value = unified_value
-                            # Treat Springer Nature special case: crossref erroneously
-                            # reports publisher "Springer Nature" even for articles
-                            # published before 2015 (publishers fusioned only then)
-                            if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
-                                publisher = None
-                                if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag", "Springer - Psychonomic Society"]:
-                                    publisher = "Springer Science + Business Media"
-                                elif prefix in ["Nature Publishing Group", "Nature Publishing Group - Macmillan Publishers"]:
-                                    publisher = "Nature Publishing Group"
-                                if publisher:
-                                    msg = "Line %s: " + MESSAGES["springer_distinction"]
-                                    logging.warning(msg, row_num, publisher, prefix)
-                                    new_value = publisher
-                                else:
-                                    msg = "Line %s: " + MESSAGES["unknown_prefix"]
-                                    logging.error(msg, row_num, prefix)
-                        # Fix ISSNs without hyphen
-                        elif key in ["issn", "issn_print", "issn_electronic"]:
-                            new_value = value
-                            if re.match(r"^\d{7}[\dxX]$", value):
-                                new_value = value[:4] + "-" + value[4:]
-                                msg = "Line %s: " + MESSAGES["issn_hyphen_fix"]
-                                logging.warning(msg, row_num, key, value, new_value)
-                        else:
-                            new_value = value
-                    else:
-                        new_value = "NA"
-                        msg = "WARNING: Element '%s' not found in in response for doi %s."
-                        logging.debug(msg, key, doi)
+                    new_value = _process_crossref_results(current_row, row_num, prefix, key, value)
                     old_value = current_row[key]
                     current_row[key] = column_map[key].check_overwrite(old_value, new_value)
             else:
