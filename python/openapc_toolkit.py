@@ -304,7 +304,8 @@ class DOABAnalysis(object):
                 else:
                     if isbn not in duplicate_isbns:
                         duplicate_isbns.append(isbn)
-                    print_y("ISBN duplicate found in DOAB: " + isbn)
+                        if verbose:
+                            print_y("ISBN duplicate found in DOAB: " + isbn)
         for duplicate in duplicate_isbns:
             # drop duplicates alltogether
             del(self.isbn_map[duplicate])
@@ -1140,7 +1141,7 @@ def _process_period_value(period_value, row_num):
     if re.match(r"^\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?$", period_value):
         msg = "Line %s: " + MESSAGES["period_format"]
         new_value = period_value[:4]
-        logging.warning(msg, row_num, period_value, new_value)
+        logging.info(msg, row_num, period_value, new_value)
         return new_value
     return period_value
 
@@ -1204,7 +1205,7 @@ def _isbn_lookup(current_row, row_num, additional_isbns, isbn_handling):
         res = isbn_handling.test_and_normalize_isbn(isbn)
         if not res["valid"]:
             msg = "Invalid ISBN {}: {}".format(isbn, res["error_msg"])
-            logging.info(msg)
+            logging.warning(msg)
         else:
             query_isbns.append(res["input_value"])
             if res["input_value"] != res["normalised"]:
@@ -1293,18 +1294,17 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         logging.info(msg, row_num)
         current_row["indexed_in_crossref"] = "FALSE"
         additional_isbns = [row[i] for i in additional_isbn_columns]
-        doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
+        found_doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
         if r_type is not None:
             record_type = r_type
-        if doi is not None:
+        if found_doi is not None:
             # integrate DOI into row and restart
             logging.info("New DOI integrated, restarting enrichment for current line.")
             index = column_map["doi"].index
-            row[index] = doi
+            row[index] = found_doi
             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, no_crossref_lookup, no_pubmed_lookup, no_doaj_lookup, doaj_offline_analysis,
                 round_monetary, offsetting_mode)
-    doi = current_row["doi"]
     if has_value(doi):
         # Normalise DOI
         norm_doi = get_normalised_DOI(doi)
@@ -1337,14 +1337,14 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 current_row["indexed_in_crossref"] = "FALSE"
                 # lookup ISBNs in crossref and try to find a correct DOI
                 additional_isbns = [row[i] for i in additional_isbn_columns]
-                doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
+                found_doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
                 if r_type is not None:
                     record_type = r_type
-                if doi is not None:
+                if found_doi is not None:
                     # integrate DOI into row and restart
                     logging.info("New DOI integrated, restarting enrichment for current line.")
                     index = column_map["doi"].index
-                    row[index] = doi
+                    row[index] = found_doi
                     return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                                        doab_analysis, no_crossref_lookup, no_pubmed_lookup, no_doaj_lookup, doaj_offline_analysis,
                                        round_monetary, offsetting_mode)
@@ -1413,28 +1413,37 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
     if record_type != "journal_article":
-        isbn = None
-        if current_row["isbn"] is None:
-            logging.info("No ISBN found, skipping DOAJ lookup.")
+        collected_isbns = []
+        for isbn_field in ["isbn", "isbn_print", "isbn_electronic"]:
+            if has_value(current_row[isbn_field]):
+                collected_isbns.append(current_row[isbn_field])
+        additional_isbns = [row[i] for i in additional_isbn_columns]
+        for isbn in additional_isbns:
+            if has_value(isbn):
+                collected_isbns.append(isbn)
+        if len(collected_isbns) == 0:
+            logging.info("No ISBN found, skipping DOAB lookup.")
             current_row["doab"] = "NA"
         else:
-            isbn = current_row["isbn"]
             record_type = "book_title"
-            doab_result = doab_analysis.lookup(isbn)
-            if doab_result is None:
-                current_row["doab"] = "FALSE"
-                msg = "DOAB: ISBN %s not found in normalized DOAB"
-                logging.info(msg, isbn)
+            logging.info("Trying a DOAB lookup with the following values: " + str(collected_isbns))
+            for isbn in collected_isbns:
+                doab_result = doab_analysis.lookup(isbn)
+                if doab_result is not None:
+                    current_row["doab"] = "TRUE"
+                    msg = 'DOAB: ISBN %s found in normalized DOAB (%s, "%s")'
+                    logging.info(msg, isbn, doab_result["publisher"], doab_result["book_title"])
+                    if current_row["indexed_in_crossref"] == "TRUE":
+                        msg = "Book already found in Crossref via DOI, those results take precedence"
+                        logging.info(msg)
+                    else:
+                        for key in doab_result:
+                            current_row[key] = doab_result[key]
+                    break
             else:
-                current_row["doab"] = "TRUE"
-                msg = 'DOAB: ISBN %s found in normalized DOAB (%s, "%s")'
-                logging.info(msg, isbn, doab_result["publisher"], doab_result["book_title"])
-                if current_row["indexed_in_crossref"]:
-                    msg = "Book already found in Crossref via DOI, those results take precedence"
-                    logging.warning(msg)
-                else:
-                    for key in doab_result:
-                        current_row[key] = doab_result[key]
+                current_row["doab"] = "FALSE"
+                msg = "DOAB: None of the ISBNs found DOAB"
+                logging.info(msg)
     if offsetting_mode:
         current_row["agreement"] = offsetting_mode
         record_type = "journal_article_transagree"
