@@ -9,6 +9,7 @@ import logging
 from logging.handlers import MemoryHandler
 import os
 import re
+from shutil import copyfileobj
 import sys
 from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
 from urllib.error import HTTPError, URLError
@@ -222,13 +223,13 @@ class OpenAPCUnicodeWriter(object):
         for row in rows:
             self._write_row(self._prepare_row(row, True))
 
-class DOAJOfflineAnalysis(object):
+class DOAJAnalysis(object):
 
-    def __init__(self, doaj_csv_file, download=False):
+    def __init__(self, doaj_csv_file, update=False):
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
         
-        if download:
+        if not os.path.isfile(doaj_csv_file) or update :
             doaj_csv_file = self.download_doaj_csv(doaj_csv_file)
 
         handle = open(doaj_csv_file, "r")
@@ -250,8 +251,12 @@ class DOAJOfflineAnalysis(object):
         return None
         
     def download_doaj_csv(self, filename):
-        result = urlretrieve("https://doaj.org/csv", filename)
-        return result[0]
+        request = Request("https://doaj.org/csv")
+        request.add_header("User-Agent", USER_AGENT)
+        with urlopen(request) as source:
+            with open(filename, "wb") as dest:
+                copyfileobj(source, dest)
+        return filename
 
 class DOABAnalysis(object):
 
@@ -1018,61 +1023,6 @@ def get_metadata_from_pubmed(doi_string):
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     return ret_value
 
-def lookup_journal_in_doaj(issn):
-    """
-    Take an ISSN and check if the corresponding journal exists in DOAJ.
-
-    This method looks up an ISSN in the Directory of Open Access Journals
-    (DOAJ, https://doaj.org). This is a simple existence check and will not
-    return any additional metadata (except for the journal title).
-    It is also important to note that there is no additional effort to test
-    the validity of the given ISSN - if a negative result is returned, the ISSN
-    might be invalid, but it might also belong to a journal which is not
-    registered in DOAJ.
-
-    Args:
-        issn: A string representing an issn
-     Returns:
-        A dict with a key 'data_received'. If data was received from DOAJ,
-        this key will have the value True and the dict will have a second
-        entry 'data' which contains the lookup result:
-
-        {'in_doaj': True,
-         'title': 'Frontiers in Human Neuroscience',
-        }
-        or
-        {'in_doaj': False}
-
-        If data extraction failed, 'data_received' will be False and the dict
-        will contain a second entry 'error_msg' with a string value
-        stating the reason.
-    """
-    ret_value = {'data_received': True}
-    url = "https://doaj.org/api/v1/search/journals/issn:" + issn
-    req = Request(url)
-    req.add_header("Accept", "application/json")
-    try:
-        response = urlopen(req)
-        content_string = response.read()
-        json_dict = json.loads(content_string)
-        ret_data = {}
-        if "results" in json_dict and len(json_dict["results"]) > 0:
-            ret_data["in_doaj"] = True
-            # Try to extract the journal title - useful for error correction
-            journal = json_dict["results"][0]
-            ret_data["title"] = journal["bibjson"].get("title", "")
-        else:
-            ret_data["in_doaj"] = False
-        ret_value['data'] = ret_data
-    except HTTPError as httpe:
-        ret_value['data_received'] = False
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
-    except ValueError as ve:
-        ret_value['data_received'] = False
-        msg = "ValueError while parsing JSON: {}"
-        ret_value['error_msg'] = msg.format(ve.message)
-    return ret_value
-    
 def get_euro_exchange_rates(currency, frequency="D"):
     """
     Obtain historical euro exchange rates against a certain currency from the European Central Bank.
@@ -1229,9 +1179,8 @@ def _isbn_lookup(current_row, row_num, additional_isbns, isbn_handling):
         return (cr_res["dois"][0], None)
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                doab_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, doaj_offline_analysis=False,
-                round_monetary=False, offsetting_mode=None):
+                doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
+                no_doaj_lookup=False, round_monetary=False, offsetting_mode=None):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
 
@@ -1250,13 +1199,11 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                               row is returned unchanged.
         additional_isbn_columns: A list of ints designating row indexes as additional ISBN sources.
         doab_analysis: A DOABanalysis object to perform an offline DOAB lookup
+        doaj_analysis: A DOAJAnalysis object to perform offline DOAJ lookups
         no_crossref_lookup: If true, no metadata will be imported from crossref.
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
         no_doaj_lookup: If true, journals will not be checked for being
                         listended in the DOAJ.
-        doaj_offline_analysis: If true, a local copy will be used for the DOAJ
-                               lookup. Has no effect if no_doaj_lookup is set to
-                               true.
         round_monetary: If true, monetary values with more than 2 digits behind the decimal
                         mark will be rounded. If false, these cases will be treated as errors.
         offsetting_mode: If not None, the row is assumed to originate from an offsetting file
@@ -1303,8 +1250,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             index = column_map["doi"].index
             row[index] = found_doi
             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                doab_analysis, no_crossref_lookup, no_pubmed_lookup, no_doaj_lookup, doaj_offline_analysis,
-                round_monetary, offsetting_mode)
+                doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
+                no_doaj_lookup, round_monetary, offsetting_mode)
     if has_value(doi):
         # Normalise DOI
         norm_doi = get_normalised_DOI(doi)
@@ -1346,8 +1293,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     index = column_map["doi"].index
                     row[index] = found_doi
                     return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                                       doab_analysis, no_crossref_lookup, no_pubmed_lookup, no_doaj_lookup, doaj_offline_analysis,
-                                       round_monetary, offsetting_mode)
+                                       doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
+                                       no_doaj_lookup, round_monetary, offsetting_mode)
         # include pubmed metadata
         if not no_pubmed_lookup:
             pubmed_result = get_metadata_from_pubmed(doi)
@@ -1378,38 +1325,16 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         if current_row["issn_print"] != "NA":
             issns.append(current_row["issn_print"])
         for issn in issns:
-            # In some cases xref delievers ISSNs without a hyphen. Add it
-            # temporarily to prevent the DOAJ lookup from failing.
-            if re.match(r"^\d{7}[\dxX]$", issn):
-                issn = issn[:4] + "-" + issn[4:]
-            # look up in an offline copy of the DOAJ if requested...
-            if doaj_offline_analysis:
-                lookup_result = doaj_offline_analysis.lookup(issn)
-                if lookup_result:
-                    msg = "DOAJ: Journal ISSN (%s) found in DOAJ offline copy ('%s')."
-                    logging.info(msg, issn, lookup_result)
-                    new_value = "TRUE"
-                    break
-                else:
-                    msg = "DOAJ: Journal ISSN (%s) not found in DOAJ offline copy."
-                    new_value = "FALSE"
-                    logging.info(msg, issn)
-            # ...or query the online API
+            lookup_result = doaj_offline_analysis.lookup(issn)
+            if lookup_result:
+                msg = "DOAJ: Journal ISSN (%s) found in DOAJ offline copy ('%s')."
+                logging.info(msg, issn, lookup_result)
+                new_value = "TRUE"
+                break
             else:
-                doaj_res = lookup_journal_in_doaj(issn)
-                if doaj_res["data_received"]:
-                    if doaj_res["data"]["in_doaj"]:
-                        msg = "DOAJ: Journal ISSN (%s) found in DOAJ ('%s')."
-                        logging.info(msg, issn, doaj_res["data"]["title"])
-                        new_value = "TRUE"
-                        break
-                    else:
-                        msg = "DOAJ: Journal ISSN (%s) not found in DOAJ."
-                        logging.info(msg, issn)
-                        new_value = "FALSE"
-                else:
-                    msg = "Line %s: DOAJ: Error while trying to look up ISSN %s: %s"
-                    logging.error(msg, row_num, issn, doaj_res["error_msg"])
+                msg = "DOAJ: Journal ISSN (%s) not found in DOAJ offline copy."
+                new_value = "FALSE"
+                logging.info(msg, issn)
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
     if record_type != "journal_article":

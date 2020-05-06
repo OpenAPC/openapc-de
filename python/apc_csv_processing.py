@@ -208,15 +208,6 @@ ARG_HELP_STRINGS = {
            "CSV file, with the leftmost column being 0. This is an optional " +
            "column, identifying it is required if there are articles without " +
            "a DOI in the file.",
-    "offline_doaj": "Use an offline copy of the DOAJ database. This might " +
-                    "be useful when processing large files as the DOAJ API " +
-                    "is not too responsive at times and might pose a " +
-                    "bottleneck. This option expects the CSV you can usually " +
-                    "download at https://doaj.org/csv as argument. " +
-                    "Obviously, this copy should be as up-to-date as possible.",
-    "offline_doaj_download": "Like -d, but will downloaded the needed csv file " +
-                             "automatically. Expects a file name which does not " +
-                             "exist already.",
     "start": "Do not process the whole file, but start from this line " +
              "number. May be used together with '-end' to select a specific " +
              "segment.",
@@ -230,10 +221,6 @@ def main():
     parser.add_argument("-O", "--offsetting_mode", help=ARG_HELP_STRINGS["offsetting"])
     parser.add_argument("-b", "--bypass-cert-verification", action="store_true",
                         help=ARG_HELP_STRINGS["bypass"])
-    parser.add_argument("-d", "--offline_doaj",
-                        help=ARG_HELP_STRINGS["offline_doaj"])
-    parser.add_argument("-D", "--offline_doaj_download",
-                        help=ARG_HELP_STRINGS["offline_doaj_download"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-f", "--force", action="store_true",
                         help=ARG_HELP_STRINGS["force"])
@@ -292,10 +279,6 @@ def main():
     logging.root.addHandler(handler)
     logging.root.addHandler(bufferedHandler)
     logging.root.setLevel(logging.INFO)
-    
-    if args.offline_doaj and args.offline_doaj_download:
-        oat.print_r("Error: Either use the -d or the -D option, not both.")
-        sys.exit()
 
     if args.locale:
         norm = locale.normalize(args.locale)
@@ -346,20 +329,6 @@ def main():
               "detection failed. Please set the encoding manually via the " +
               "--enc argument")
         sys.exit()
-
-    doaj_offline_analysis = None
-    if args.offline_doaj:
-        if os.path.isfile(args.offline_doaj):
-            doaj_offline_analysis = oat.DOAJOfflineAnalysis(args.offline_doaj)
-        else:
-            oat.print_r("Error: " + args.offline_doaj + " does not seem "
-                        "to be a file!")
-            sys.exit()
-    elif args.offline_doaj_download:
-        if os.path.isfile(args.offline_doaj_download):
-            oat.print_r("Error: Target file '" + args.offline_doaj_download + "' already exists!")
-            sys.exit()
-        doaj_offline_analysis = oat.DOAJOfflineAnalysis(args.offline_doaj_download, download=True)
 
     csv_file = open(args.csv_file, "r", encoding=enc)
     reader = csv.reader(csv_file, dialect=dialect)
@@ -614,8 +583,11 @@ def main():
             "content": [list(fields)]
         }
 
+    if not os.path.isdir("tempfiles"):
+        os.mkdir("tempfiles")
     isbn_handling = oat.ISBNHandling("tempfiles/ISBNRangeFile.xml")
     doab_analysis = oat.DOABAnalysis(isbn_handling, "tempfiles/DOAB.csv", verbose=False)
+    doaj_analysis = oat.DOAJAnalysis("tempfiles/DOAJ.csv")
 
     csv_file.seek(0)
     reader = csv.reader(csv_file, dialect=dialect)
@@ -637,9 +609,9 @@ def main():
         if args.end and args.end < row_num:
             continue
         print("---Processing line number " + str(row_num) + "---")
-        result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis,
+        result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
                                                     args.no_crossref, args.no_pubmed,
-                                                    args.no_doaj, doaj_offline_analysis, args.round_monetary,
+                                                    args.no_doaj, args.round_monetary,
                                                     args.offsetting_mode)
         for record_type, value in enriched_content.items():
             if record_type == result_type:
