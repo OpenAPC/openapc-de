@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 105,597 open access journal articles, amounting to € 209,123,769 and contributed by 263 institutions.
+At the moment this project provides cost data on 105,646 open access journal articles, amounting to € 209,188,122 and contributed by 263 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -357,9 +357,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 105,597 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
+This data set contains information on 105,646 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 209,123,769. The average payment was € 1,980  and the median was € 1,787.
+In total, publication fee spending covered by the Open APC initiative amounted to € 209,188,122. The average payment was € 1,980  and the median was € 1,787.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -386,7 +386,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,622|   1,636|     1,532|  63 -  5,985|           7,881|       2,552|         2,515|        2 - 9,079|
 |2017   |      14,119|   1,721|     1,560|   9 - 14,634|          10,469|       2,530|         2,467|       37 - 9,858|
 |2018   |      12,588|   1,718|     1,596|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       6,214|   1,726|     1,661|  22 -  7,684|           2,352|       2,612|         2,582|      112 - 7,745|
+|2019   |       6,263|   1,723|     1,661|  22 -  7,684|           2,352|       2,612|         2,582|      112 - 7,745|
 |2020   |          55|   1,637|     1,634| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -395,7 +395,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-61,689 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 98,945,691, including value-added tax; the average payment was € 1,604 (median =  € 1,510, SD = € 798).
+61,738 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 99,010,044, including value-added tax; the average payment was € 1,604 (median =  € 1,510, SD = € 798).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -534,6 +534,7 @@ The following table summarises institutional spending on articles published in f
 |Hamburg TUHH                                                         |       66|                93,538|   1,417 (486)|  1,498|      257 -  2,225|
 |Institut de recherche pour le développement (IRD)                    |       65|                87,702|   1,349 (502)|  1,316|       91 -  2,256|
 |Lancaster University                                                 |       65|               102,557|   1,578 (806)|  1,492|      256 -  4,470|
+|Greifswald U                                                         |       64|                86,233|   1,347 (624)|  1,622|      238 -  2,026|
 |Norwegian Institute of Public Health                                 |       63|                84,324|   1,338 (259)|  1,418|      400 -  1,766|
 |University of Jyväskylä                                              |       63|               104,810|   1,664 (582)|  1,636|      265 -  3,016|
 |University of Agder                                                  |       62|                42,571|     687 (421)|    536|       86 -  2,145|
@@ -596,7 +597,6 @@ The following table summarises institutional spending on articles published in f
 |Ecole normale supérieure de Paris                                    |       16|                35,538| 2,221 (1,135)|  2,027|      339 -  3,700|
 |Mannheim U                                                           |       16|                27,795|   1,737 (393)|  1,971|      727 -  2,020|
 |Siegen U                                                             |       16|                21,283|   1,330 (626)|  1,361|      186 -  2,510|
-|Greifswald U                                                         |       15|                21,880|   1,459 (474)|  1,588|      390 -  2,023|
 |University of Hull                                                   |       15|                22,353| 1,490 (1,104)|  1,437|      527 -  4,856|
 |University of Skövde                                                 |       15|                20,489|   1,366 (413)|  1,329|      836 -  2,277|
 |University of Surrey                                                 |       15|                26,803| 1,787 (1,129)|  1,349|      674 -  4,305|
@@ -884,7 +884,7 @@ Indexing coverage
 |DOI                        |  99.79%       |
 |PubMed ID                  |  76.73%      |
 |PubMed Central ID          |  70.08%     |
-|Web of Science record ID   | 93.93%      |
+|Web of Science record ID   | 93.91%      |
 
 
 
