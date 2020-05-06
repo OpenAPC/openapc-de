@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 105,560 open access journal articles, amounting to € 209,045,218 and contributed by 263 institutions.
+At the moment this project provides cost data on 105,597 open access journal articles, amounting to € 209,123,769 and contributed by 263 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -357,9 +357,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 105,560 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
+This data set contains information on 105,597 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 209,045,218. The average payment was € 1,980  and the median was € 1,787.
+In total, publication fee spending covered by the Open APC initiative amounted to € 209,123,769. The average payment was € 1,980  and the median was € 1,787.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -386,7 +386,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,622|   1,636|     1,532|  63 -  5,985|           7,881|       2,552|         2,515|        2 - 9,079|
 |2017   |      14,119|   1,721|     1,560|   9 - 14,634|          10,469|       2,530|         2,467|       37 - 9,858|
 |2018   |      12,588|   1,718|     1,596|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       6,179|   1,724|     1,661|  22 -  7,684|           2,350|       2,612|         2,582|      112 - 7,745|
+|2019   |       6,214|   1,726|     1,661|  22 -  7,684|           2,352|       2,612|         2,582|      112 - 7,745|
 |2020   |          55|   1,637|     1,634| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -395,7 +395,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-61,654 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 98,872,564, including value-added tax; the average payment was € 1,604 (median =  € 1,510, SD = € 797).
+61,689 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 98,945,691, including value-added tax; the average payment was € 1,604 (median =  € 1,510, SD = € 798).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -515,6 +515,7 @@ The following table summarises institutional spending on articles published in f
 |Örebro University                                                    |       93|               128,190|   1,378 (527)|  1,350|      216 -  2,808|
 |University of Bath                                                   |       92|               163,360|   1,776 (785)|  1,574|      113 -  4,470|
 |University of Strathclyde                                            |       86|               139,977|   1,628 (871)|  1,513|      155 -  4,914|
+|PIK-Potsdam                                                          |       83|               153,556|   1,850 (955)|  1,560|      222 -  4,779|
 |Dortmund TU                                                          |       82|               102,584|   1,251 (795)|  1,391|      107 -  4,403|
 |Université Clermont Auvergne                                         |       81|               134,931|   1,666 (881)|  1,370|       71 -  3,850|
 |TU Wien                                                              |       79|               106,006|   1,342 (544)|  1,333|      227 -  2,722|
@@ -548,7 +549,6 @@ The following table summarises institutional spending on articles published in f
 |Linnaeus University                                                  |       51|                77,058|   1,511 (646)|  1,424|      174 -  3,631|
 |Dalarna University                                                   |       50|                70,423|   1,408 (550)|  1,493|      283 -  2,400|
 |Université de Rennes 1                                               |       50|                64,456|   1,289 (506)|  1,305|      225 -  2,720|
-|PIK-Potsdam                                                          |       48|                80,429|   1,676 (684)|  1,539|      309 -  3,850|
 |Université Paris Diderot (Paris VII)                                 |       46|                75,507|   1,641 (841)|  1,398|      450 -  3,700|
 |LSHTM                                                                |       44|                65,024|   1,478 (524)|  1,503|      496 -  3,445|
 |Université Toulouse III - Paul Sabatier                              |       44|                71,556|   1,626 (945)|  1,348|      500 -  4,700|
@@ -669,7 +669,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 43,906 open access articles being published in hybrid journals. Total expenditure amounts to  110,172,654 €. Average  fee is 2,509 € and the median 2,473 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 43,908 open access articles being published in hybrid journals. Total expenditure amounts to  110,178,078 €. Average  fee is 2,509 € and the median 2,473 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -819,6 +819,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |ESPCI Paris                                                          |        3|                 5,574|   1,858 (846)|  2,160|       902 - 2,512|
 |Laurea University of Applied Sciences                                |        3|                 3,430| 1,143 (1,123)|    810|       225 - 2,395|
 |Mines ParisTech                                                      |        3|                 7,657|   2,552 (580)|  2,500|     2,000 - 3,157|
+|PIK-Potsdam                                                          |        3|                 7,574|   2,525 (336)|  2,624|     2,150 - 2,800|
 |Swedish School of Sport and Health Sciences                          |        3|                 7,110|   2,370 (508)|  2,500|     1,810 - 2,800|
 |Université Clermont Auvergne                                         |        3|                 5,702| 1,901 (1,245)|  2,153|       549 - 3,000|
 |Université Toulouse III - Paul Sabatier                              |        3|                 8,000|   2,667 (306)|  2,600|     2,400 - 3,000|
@@ -843,7 +844,6 @@ The following institutions have contributed expenditures on hybrid open access j
 |KIT                                                                  |        1|                 2,000|   2,000 (  0)|  2,000|     2,000 - 2,000|
 |London South Bank University                                         |        1|                 2,459|   2,459 (  0)|  2,459|     2,459 - 2,459|
 |OpenAIRE                                                             |        1|                 2,000|   2,000 (  0)|  2,000|     2,000 - 2,000|
-|PIK-Potsdam                                                          |        1|                 2,150|   2,150 (  0)|  2,150|     2,150 - 2,150|
 |Salzburg U                                                           |        1|                 2,396|   2,396 (  0)|  2,396|     2,396 - 2,396|
 |TU Chemnitz                                                          |        1|                   100|     100 (  0)|    100|       100 -   100|
 |Université de Bourgogne                                              |        1|                 1,950|   1,950 (  0)|  1,950|     1,950 - 1,950|
@@ -882,9 +882,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.79%       |
-|PubMed ID                  |  76.75%      |
-|PubMed Central ID          |  70.1%     |
-|Web of Science record ID   | 93.92%      |
+|PubMed ID                  |  76.73%      |
+|PubMed Central ID          |  70.08%     |
+|Web of Science record ID   | 93.93%      |
 
 
 
