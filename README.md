@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 106,348 open access journal articles, amounting to € 210,292,532 and contributed by 263 institutions.
+At the moment this project provides cost data on 106,349 open access journal articles, amounting to € 210,294,191 and contributed by 263 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -357,9 +357,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 106,348 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
+This data set contains information on 106,349 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 210,292,532. The average payment was € 1,977  and the median was € 1,785.
+In total, publication fee spending covered by the Open APC initiative amounted to € 210,294,191. The average payment was € 1,977  and the median was € 1,785.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -386,7 +386,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,623|   1,636|     1,532|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
 |2017   |      14,119|   1,721|     1,560|   9 - 14,634|          10,469|       2,530|         2,467|       37 - 9,858|
 |2018   |      12,847|   1,714|     1,597|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       6,698|   1,714|     1,661|  22 -  7,684|           2,360|       2,609|         2,582|      112 - 7,745|
+|2019   |       6,700|   1,714|     1,661|  22 -  7,684|           2,359|       2,610|         2,582|      112 - 7,745|
 |2020   |          55|   1,637|     1,634| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -395,7 +395,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-62,434 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 100,103,094, including value-added tax; the average payment was € 1,603 (median =  € 1,512, SD = € 794).
+62,436 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 100,105,853, including value-added tax; the average payment was € 1,603 (median =  € 1,512, SD = € 794).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -436,7 +436,7 @@ The following table summarises institutional spending on articles published in f
 |Swedish University of Agricultural Sciences                          |      590|               791,488|   1,342 (469)|  1,338|      124 -  3,850|
 |King's College London                                                |      589|             1,210,026| 2,054 (1,015)|  1,642|      136 -  8,926|
 |JGU Mainz                                                            |      584|               842,285|   1,442 (511)|  1,491|       95 -  4,403|
-|Münster U                                                            |      570|               760,385|   1,334 (459)|  1,273|      168 -  2,380|
+|Münster U                                                            |      571|               762,043|   1,335 (459)|  1,273|      168 -  2,380|
 |FZJ - ZB                                                             |      569|               794,874|   1,397 (628)|  1,302|       40 -  3,850|
 |Leipzig U                                                            |      566|               834,928|   1,475 (355)|  1,568|      178 -  2,097|
 |Universitat de Barcelona                                             |      563|               538,552|     957 (469)|    942|       55 -  2,000|
@@ -452,7 +452,7 @@ The following table summarises institutional spending on articles published in f
 |Bochum U                                                             |      418|               647,090|   1,548 (418)|  1,661|      100 -  2,648|
 |Aix-Marseille Université                                             |      406|               568,668|   1,401 (646)|  1,276|      114 -  4,550|
 |University of Newcastle                                              |      398|               830,390| 2,086 (1,028)|  1,804|      360 -  5,985|
-|Milano U                                                             |      387|               558,746|   1,444 (782)|  1,483|       87 -  4,539|
+|Milano U                                                             |      388|               559,846|   1,443 (781)|  1,483|       87 -  4,539|
 |Oldenburg U                                                          |      381|               525,014|   1,378 (520)|  1,453|       63 -  2,041|
 |TiHo Hannover                                                        |      326|               491,027|   1,506 (544)|  1,518|       89 -  5,258|
 |Queen's University Belfast                                           |      320|               504,471|   1,576 (725)|  1,377|      418 -  5,060|
@@ -669,7 +669,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 43,914 open access articles being published in hybrid journals. Total expenditure amounts to  110,189,438 €. Average  fee is 2,509 € and the median 2,473 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 43,913 open access articles being published in hybrid journals. Total expenditure amounts to  110,188,338 €. Average  fee is 2,509 € and the median 2,473 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -740,7 +740,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Tampere University                                                   |       67|               131,256|   1,959 (766)|  2,205|       237 - 3,500|
 |Heriot-Watt University                                               |       62|               147,648|   2,381 (777)|  2,394|       606 - 3,799|
 |Luleå University of Technology                                       |       61|               125,485|   2,057 (868)|  2,260|        59 - 3,548|
-|Milano U                                                             |       60|               127,908|   2,132 (908)|  2,182|        90 - 4,000|
+|Milano U                                                             |       59|               126,808|   2,149 (906)|  2,200|        90 - 4,000|
 |Örebro University                                                    |       58|               118,124|   2,037 (722)|  2,150|       250 - 3,870|
 |University of Jyväskylä                                              |       56|                68,797|   1,229 (772)|    860|       488 - 3,500|
 |Charles University                                                   |       54|               111,515|   2,065 (819)|  2,292|        66 - 3,508|
