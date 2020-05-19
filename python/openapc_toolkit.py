@@ -1340,8 +1340,21 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
     if record_type != "journal_article":
         collected_isbns = []
         for isbn_field in ["isbn", "isbn_print", "isbn_electronic"]:
+            # test and split all ISBNs
             if has_value(current_row[isbn_field]):
-                collected_isbns.append(current_row[isbn_field])
+                # handle a potential white-space split
+                isbn = current_row[isbn_field].replace(" ", "")
+                norm_res = doab_analysis.isbn_handling.test_and_normalize_isbn(isbn)
+                if norm_res["valid"]:
+                    current_row[isbn_field] = norm_res["normalised"]
+                    collected_isbns.append(current_row[isbn_field])
+                    if norm_res["normalised"] != norm_res["input_value"]:
+                        msg = "Line %s: Normalisation: %s value tested and split (%s -> %s)"
+                        logging.info(msg, row_num, isbn_field, norm_res["input_value"], norm_res["normalised"])
+                else:
+                    current_row[isbn_field] = "NA"
+                    msg = "Line %s: Invalid %s value (%s), set to NA (reason: %s)"
+                    logging.warning(msg, row_num, isbn_field, norm_res["input_value"], norm_res["error_msg"])
         additional_isbns = [row[i] for i in additional_isbn_columns]
         for isbn in additional_isbns:
             if has_value(isbn):
