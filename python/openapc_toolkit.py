@@ -299,7 +299,8 @@ class DOABAnalysis(object):
                 if not result["valid"]:
                     if verbose:
                         msg = "Line {}: ISBN normalization failure ({}): {}"
-                        msg = msg.format(reader.line_num, result["input_value"], result["error_msg"])
+                        msg = msg.format(reader.line_num, result["input_value"],
+                                         ISBNHandling.ISBN_ERRORS[res["error_type"]])
                         print_r(msg)
                     continue
                 else:
@@ -339,6 +340,14 @@ class ISBNHandling(object):
     # regex for 13-digit ISBNs split with hyphens
     ISBN_SPLIT_RE = re.compile(r"^97[89]\-\d{1,5}\-\d{1,7}\-\d{1,6}\-\d{1}$")
 
+    ISBN_ERRORS = {
+        0: "Input is neither a valid split nor a valid unsplit 13-digit ISBN",
+        1: "Too short (Must be 17 chars long including hyphens)",
+        2: "Too long (Must be 17 chars long including hyphens)",
+        3: "ISBN check digit is incorrect",
+        4: "Input ISBN was split, but the segmentation is invalid"
+    }
+
     def __init__(self, range_file_path, range_file_update=False):
         if not os.path.isfile(range_file_path) or range_file_update:
             self.download_range_file(range_file_path)
@@ -370,8 +379,8 @@ class ISBNHandling(object):
                 'valid': A boolean indicating if the input passed all tests.
                 'input_value': The original input value
                 'normalised': The normalised, split result. Will be present if 'valid' is True.
-                'error_msg': An error message stating why a test failed. Will be present if 'valid'
-                             is False.
+                'error_type': An int indicating why a test failed. Will be present if 'valid'
+                              is False. Corresponds to a key in the ISBN_ERRORS dict.
         """
         ret = {"valid": False, "input_value": str(isbn)}
         stripped_isbn = isbn.strip()
@@ -379,28 +388,25 @@ class ISBNHandling(object):
         split_on_input = False
         if self.ISBN_SPLIT_RE.match(stripped_isbn):
             if len(stripped_isbn) < 17:
-                msg = "Too short: {} characters (Must be 17 chars long including hyphens)"
-                ret["error_msg"] = msg.format(len(stripped_isbn))
+                ret["error_type"] = 1
                 return ret
             elif len(stripped_isbn) > 17:
-                msg = "Too long: {} characters (Must be 17 chars long including hyphens)"
-                ret["error_msg"] = msg.format(len(stripped_isbn))
+                ret["error_type"] = 2
                 return ret
             else:
                 split_on_input = True
         if self.ISBN_RE.match(unsplit_isbn):
             if not self.isbn_has_valid_check_digit(unsplit_isbn):
-                msg = "ISBN check digit ({}) is incorrect"
-                ret["error_msg"] = msg.format(unsplit_isbn[-1:])
+                ret["error_type"] = 3
                 return ret
             split_isbn = self.split_isbn(unsplit_isbn)["value"]
             if split_on_input and split_isbn != stripped_isbn:
-                ret["error_msg"] = "input ISBN was split, but the segmentation is invalid"
+                ret["error_type"] = 4
                 return ret
             ret["normalised"] = split_isbn
             ret["valid"] = True
             return ret
-        ret["error_msg"] = "Input is neither a valid split nor a valid unsplit 13-digit ISBN"
+        ret["error_type"] = 0
         return ret
 
     def isbn_has_valid_check_digit(self, isbn):
@@ -1154,7 +1160,7 @@ def _isbn_lookup(current_row, row_num, additional_isbns, isbn_handling):
     for isbn in collected_isbns:
         res = isbn_handling.test_and_normalize_isbn(isbn)
         if not res["valid"]:
-            msg = "Invalid ISBN {}: {}".format(isbn, res["error_msg"])
+            msg = "Invalid ISBN {}: {}".format(isbn, ISBNHandling.ISBN_ERRORS[res["error_type"]])
             logging.warning(msg)
         else:
             query_isbns.append(res["input_value"])
@@ -1352,9 +1358,18 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                         msg = "Line %s: Normalisation: %s value tested and split (%s -> %s)"
                         logging.info(msg, row_num, isbn_field, norm_res["input_value"], norm_res["normalised"])
                 else:
-                    current_row[isbn_field] = "NA"
-                    msg = "Line %s: Invalid %s value (%s), set to NA (reason: %s)"
-                    logging.warning(msg, row_num, isbn_field, norm_res["input_value"], norm_res["error_msg"])
+                    # in case of an invalid split: Use the correct one. In all other cases: Drop the value
+                    if norm_res["error_type"] == 4:
+                        unsplit_isbn = isbn.replace("-", "")
+                        new_res = doab_analysis.isbn_handling.test_and_normalize_isbn(unsplit_isbn)
+                        current_row[isbn_field] = new_res["normalised"]
+                        msg = "Line %s: %s value had an invalid split, used the correct one (%s -> %s)"
+                        logging.info(msg, row_num, isbn_field, isbn, new_res["normalised"])
+                    else:
+                        current_row[isbn_field] = "NA"
+                        msg = "Line %s: Invalid %s value (%s), set to NA (reason: %s)"
+                        logging.warning(msg, row_num, isbn_field, norm_res["input_value"],
+                                        ISBNHandling.ISBN_ERRORS[norm_res["error_type"]])
         additional_isbns = [row[i] for i in additional_isbn_columns]
         for isbn in additional_isbns:
             if has_value(isbn):
