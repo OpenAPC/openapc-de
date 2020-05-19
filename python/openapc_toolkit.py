@@ -1184,6 +1184,31 @@ def _isbn_lookup(current_row, row_num, additional_isbns, isbn_handling):
         logging.info(msg, row_num, cr_res["dois"][0])
         return (cr_res["dois"][0], None)
 
+def _process_isbn(row_num, isbn, isbn_handling):
+    if not has_value(isbn):
+        return "NA"
+    # handle a potential white-space split
+    isbn = isbn.replace(" ", "")
+    norm_res = isbn_handling.test_and_normalize_isbn(isbn)
+    if norm_res["valid"]:
+        if norm_res["normalised"] != norm_res["input_value"]:
+            msg = "Line %s: Normalisation: ISBN value tested and split (%s -> %s)"
+            logging.info(msg, row_num, norm_res["input_value"], norm_res["normalised"])
+        return norm_res["normalised"]
+    else:
+        # in case of an invalid split: Use the correct one. In all other cases: Drop the value
+        if norm_res["error_type"] == 4:
+            unsplit_isbn = isbn.replace("-", "")
+            new_res = isbn_handling.test_and_normalize_isbn(unsplit_isbn)
+            msg = "Line %s: ISBN value had an invalid split, used the correct one (%s -> %s)"
+            logging.info(msg, row_num, isbn, new_res["normalised"])
+            return new_res["normalised"]
+        else:
+            msg = "Line %s: Invalid ISBN value (%s), set to NA (reason: %s)"
+            logging.warning(msg, row_num, norm_res["input_value"],
+                            ISBNHandling.ISBN_ERRORS[norm_res["error_type"]])
+            return "NA"
+
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, round_monetary=False, offsetting_mode=None):
@@ -1347,33 +1372,14 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         collected_isbns = []
         for isbn_field in ["isbn", "isbn_print", "isbn_electronic"]:
             # test and split all ISBNs
+            current_row[isbn_field] = _process_isbn(row_num, current_row[isbn_field], doab_analysis.isbn_handling)
             if has_value(current_row[isbn_field]):
-                # handle a potential white-space split
-                isbn = current_row[isbn_field].replace(" ", "")
-                norm_res = doab_analysis.isbn_handling.test_and_normalize_isbn(isbn)
-                if norm_res["valid"]:
-                    current_row[isbn_field] = norm_res["normalised"]
-                    collected_isbns.append(current_row[isbn_field])
-                    if norm_res["normalised"] != norm_res["input_value"]:
-                        msg = "Line %s: Normalisation: %s value tested and split (%s -> %s)"
-                        logging.info(msg, row_num, isbn_field, norm_res["input_value"], norm_res["normalised"])
-                else:
-                    # in case of an invalid split: Use the correct one. In all other cases: Drop the value
-                    if norm_res["error_type"] == 4:
-                        unsplit_isbn = isbn.replace("-", "")
-                        new_res = doab_analysis.isbn_handling.test_and_normalize_isbn(unsplit_isbn)
-                        current_row[isbn_field] = new_res["normalised"]
-                        msg = "Line %s: %s value had an invalid split, used the correct one (%s -> %s)"
-                        logging.info(msg, row_num, isbn_field, isbn, new_res["normalised"])
-                    else:
-                        current_row[isbn_field] = "NA"
-                        msg = "Line %s: Invalid %s value (%s), set to NA (reason: %s)"
-                        logging.warning(msg, row_num, isbn_field, norm_res["input_value"],
-                                        ISBNHandling.ISBN_ERRORS[norm_res["error_type"]])
+                collected_isbns.append(current_row[isbn_field])
         additional_isbns = [row[i] for i in additional_isbn_columns]
         for isbn in additional_isbns:
-            if has_value(isbn):
-                collected_isbns.append(isbn)
+            result = _process_isbn(row_num, isbn, doab_analysis.isbn_handling)
+            if has_value(result):
+                collected_isbns.append(result)
         if len(collected_isbns) == 0:
             logging.info("No ISBN found, skipping DOAB lookup.")
             current_row["doab"] = "NA"
@@ -1392,6 +1398,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     else:
                         for key in doab_result:
                             current_row[key] = doab_result[key]
+                    if not has_value(current_row["isbn"]):
+                        current_row["isbn"] = isbn
                     break
             else:
                 current_row["doab"] = "FALSE"
