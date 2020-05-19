@@ -159,7 +159,8 @@ JOURNAL_OWNER_CHANGED = {
     "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
     "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
     "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
-    "0032-5791": ["Oxford University Press (OUP)", "Elsevier BV"] # Poultry Science
+    "0032-5791": ["Oxford University Press (OUP)", "Elsevier BV"], # Poultry Science
+    "2050-490X": ["Springer Science + Business Media", "EDP Sciences"] # Regenerative Medicine Research
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
