@@ -186,6 +186,11 @@ ARG_HELP_STRINGS = {
                           "CSV file, with the leftmost column being 0. This " +
                           "is an optional column, identifying it is required " +
                           "if there are articles without a DOI in the file.",
+    "book_title": "Manually identify the 'book_title' column if the script fails " +
+                  "to detect it automatically. The value is the numerical column " +
+                  "index in the CSV file, with the leftmost column being 0. This " +
+                  "is a non-reqired column, identifying it may be helpful for cases " +
+                  "where both Crossref and DOAB lookup provide no results",
     "issn": "Manually identify the 'issn' column if the script fails to " +
             "detect it automatically. The value is the numerical column " +
             "index in the CSV file, with the leftmost column being 0. This " +
@@ -259,6 +264,8 @@ def main():
                         help=ARG_HELP_STRINGS["publisher"])
     parser.add_argument("-journal_full_title", "--journal_full_title_column",
                         type=int, help=ARG_HELP_STRINGS["journal_full_title"])
+    parser.add_argument("-book_title", "--book_title_column",
+                        type=int, help=ARG_HELP_STRINGS["book_title"])
     parser.add_argument("-issn", "--issn_column",
                         type=int, help=ARG_HELP_STRINGS["issn"])
     parser.add_argument("-isbn", "--isbn_column",
@@ -381,7 +388,7 @@ def main():
         "url": CSVColumn("url", CSVColumn.OPTIONAL, args.url_column, overwrite=OVERWRITE_STRATEGY["url"]),
         "doaj": CSVColumn("doaj", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["doaj"]),
         "agreement": CSVColumn("agreement", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["agreement"]),
-        "book_title": CSVColumn("book_title", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["book_title"]),
+        "book_title": CSVColumn("book_title", CSVColumn.NONE, args.book_title_column, overwrite=OVERWRITE_STRATEGY["book_title"]),
         "isbn": CSVColumn("isbn", CSVColumn.OPTIONAL, args.isbn_column, overwrite=OVERWRITE_STRATEGY["isbn"]),
         "isbn_print": CSVColumn("isbn_print", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["isbn_print"]),
         "isbn_electronic": CSVColumn("isbn_electronic", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"])
