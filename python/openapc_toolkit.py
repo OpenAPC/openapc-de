@@ -206,10 +206,12 @@ class OpenAPCUnicodeWriter(object):
                 continue
             if not use_quotemask or not self.quotemask:
                 # Always quote without a quotemask
+                row[index] = row[index].replace('"', '""')
                 row[index] = '"' + row[index] + '"'
                 continue
             if index < len(self.quotemask):
                 if self.quotemask[index] or "," in row[index] and self.minimal_quotes:
+                    row[index] = row[index].replace('"', '""')
                     row[index] = '"' + row[index] + '"'
         return row
 
