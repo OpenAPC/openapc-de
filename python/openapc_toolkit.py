@@ -916,11 +916,26 @@ def get_metadata_from_crossref(doi_string):
     }
     xpaths_book = {
         ".//cr_qr:crm-item[@name='prefix-name']": "prefix",
+        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:publisher//cr_1_0:publisher_name": "publisher",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
+        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:publisher//cr_1_0:publisher_name": "publisher",
+        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
+        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:titles//cr_1_0:title": "book_title",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:titles//cr_1_1:title": "book_title",
+        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:titles//cr_1_0:title": "book_title",
+        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:titles//cr_1_1:title": "book_title",
+        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:isbn": "isbn",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn": "isbn",
+        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:isbn": "isbn",
+        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:isbn": "isbn",
+        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:isbn[@media_type='print']": "isbn_print",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn[@media_type='print']": "isbn_print",
+        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:isbn[@media_type='print']": "isbn_print",
+        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:isbn[@media_type='print']": "isbn_print",
+        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:isbn[@media_type='electronic']": "isbn_electronic",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn[@media_type='electronic']": "isbn_electronic",
+        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:isbn[@media_type='electronic']": "isbn_electronic",
+        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:isbn[@media_type='electronic']": "isbn_electronic",
         ".//ai:license_ref": "license_ref"
     }
     namespaces = {
