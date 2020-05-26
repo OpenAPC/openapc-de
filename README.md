@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 106,911 open access journal articles, amounting to € 211,161,461 and contributed by 263 institutions.
+At the moment this project provides cost data on 106,916 open access journal articles, amounting to € 211,169,031 and contributed by 263 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -357,9 +357,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 106,911 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
+This data set contains information on 106,916 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 211,161,461. The average payment was € 1,975  and the median was € 1,782.
+In total, publication fee spending covered by the Open APC initiative amounted to € 211,169,031. The average payment was € 1,975  and the median was € 1,782.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -385,8 +385,8 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2015   |       8,269|   1,524|     1,452|  60 -  5,669|           6,685|       2,610|         2,621|      100 - 8,636|
 |2016   |       9,623|   1,636|     1,532|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
 |2017   |      14,119|   1,721|     1,560|   9 - 14,634|          10,469|       2,530|         2,467|       37 - 9,858|
-|2018   |      12,847|   1,714|     1,597|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       7,262|   1,700|     1,661|  22 -  7,684|           2,359|       2,610|         2,582|      112 - 7,745|
+|2018   |      12,848|   1,714|     1,598|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
+|2019   |       7,266|   1,700|     1,661|  22 -  7,684|           2,359|       2,610|         2,582|      112 - 7,745|
 |2020   |          55|   1,637|     1,634| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -395,7 +395,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-62,998 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 100,973,123, including value-added tax; the average payment was € 1,603 (median =  € 1,512, SD = € 792).
+63,003 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 100,980,693, including value-added tax; the average payment was € 1,603 (median =  € 1,512, SD = € 792).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -411,7 +411,7 @@ The following table summarises institutional spending on articles published in f
 |Goettingen U                                                         |    1,673|             2,490,535|   1,489 (601)|  1,483|      119 -  5,105|
 |CNRS                                                                 |    1,478|             2,365,566|   1,601 (827)|  1,365|       31 -  5,606|
 |Bill & Melinda Gates Foundation                                      |    1,394|             2,633,915| 1,889 (1,018)|  1,741|       85 - 14,634|
-|Tuebingen U                                                          |    1,336|             1,978,062|   1,481 (420)|  1,534|       75 -  2,913|
+|Tuebingen U                                                          |    1,341|             1,985,632|   1,481 (419)|  1,536|       75 -  2,913|
 |University of Oxford                                                 |    1,218|             2,857,774| 2,346 (1,203)|  1,980|       24 -  5,700|
 |Imperial College London                                              |    1,197|             2,346,549| 1,960 (1,066)|  1,646|      260 -  7,684|
 |Heidelberg U                                                         |    1,189|             1,818,750|   1,530 (391)|  1,661|       60 -  2,108|
