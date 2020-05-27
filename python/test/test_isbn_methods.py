@@ -55,27 +55,27 @@ NORMALIZATION_TESTS = {
     "978-10-4780-0716-6": { # invalid split, too long
         "valid": False,
         "input_value": "978-10-4780-0716-6",
-        "error_msg": "Too long: 18 characters (Must be 17 chars long including hyphens)"
+        "error_type": 2
     },
     "978-1-478-0716-6": { # invalid split, too short
         "valid": False,
         "input_value": "978-1-478-0716-6",
-        "error_msg": "Too short: 16 characters (Must be 17 chars long including hyphens)"
+        "error_type": 1
     },
     "978-14-780-0716-6": { # invalid split, wrong segmenation
         "valid": False,
         "input_value": "978-14-780-0716-6",
-        "error_msg": "input ISBN was split, but the segmentation is invalid"
+        "error_type": 4
     },
     "978-1-4780-0716-5": { # invalid split, wrong check digit
         "valid": False,
         "input_value": "978-1-4780-0716-5",
-        "error_msg": "ISBN check digit (5) is incorrect"
+        "error_type": 3
     },
     "97838487605109": { # invalid unsplit, too long
         "valid": False,
         "input_value": "97838487605109",
-        "error_msg": "Input is neither a valid split nor a valid unsplit 13-digit ISBN"
+        "error_type": 0
     },
 }
 
