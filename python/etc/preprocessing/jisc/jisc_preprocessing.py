@@ -18,29 +18,50 @@ ARG_HELP_STRINGS = {
 }
 
 FIELDNAMES = {
-    "2014_16": [
-        "APC paid (actual currency) including VAT if charged",
-        "APC paid (£) including VAT (calculated)",
-        "APC paid (£) including VAT if charged",
-        "Currency of APC",
-        "DOI",
-        "Date of APC payment",
-        "Date of initial application by author",
-        "ISSN0",
-        "Institution",
-        "Journal",
-        "Licence",
-        "PubMed Central (PMC) ID",
-        "PubMed ID",
-        "Publisher",
-        "TCO year",
-        "Type of publication",
-        "Drop?",
-        "Year of publication",
-        "period",
-        "is_hybrid",
-        "euro"
-    ],
+    "2014_16": {
+        "article": [
+            "APC paid (actual currency) including VAT if charged",
+            "APC paid (£) including VAT (calculated)",
+            "APC paid (£) including VAT if charged",
+            "Currency of APC",
+            "DOI",
+            "Date of APC payment",
+            "Date of initial application by author",
+            "ISSN0",
+            "Institution",
+            "Journal",
+            "Licence",
+            "PubMed Central (PMC) ID",
+            "PubMed ID",
+            "Publisher",
+            "TCO year",
+            "Type of publication",
+            "Drop?",
+            "Year of publication",
+            "period",
+            "is_hybrid",
+            "euro"
+        ],
+        "book": [
+            "APC paid (actual currency) including VAT if charged",
+            "APC paid (£) including VAT (calculated)",
+            "APC paid (£) including VAT if charged",
+            "Article title",
+            "Currency of APC",
+            "DOI",
+            "Date of APC payment",
+            "Date of initial application by author",
+            "Institution",
+            "Journal",
+            "Licence",
+            "Publisher",
+            "TCO year",
+            "Type of publication",
+            "Year of publication",
+            "period",
+            "euro"
+        ],
+    },
     "2017": [
         "APC paid (£) including VAT if charged",
         "DOI",
@@ -77,11 +98,14 @@ FIELDNAMES = {
 }
 
 PUBLICATION_TYPES_BL = [
-    "Book",
     "Book chapter",
     "Book edited",
     "Conference Paper/Proceeding/Abstract",
-    "Letter",
+    "Letter"
+]
+
+PUBLICATION_TYPES_BOOKS = [
+    "Book",
     "Monograph"
 ]
 
@@ -132,8 +156,8 @@ def delete_line(line_dict, reason):
     for key in line_dict:
         line_dict[key] = ""
 
-def line_as_list(line_dict):
-    return [line_dict[field] for field in FIELDNAMES[FORMAT]]
+def line_as_list(line_dict, pub_type):
+    return [line_dict[field] for field in FIELDNAMES[FORMAT][pub_type]]
 
 def is_money_value(string):
     try:
@@ -301,30 +325,38 @@ def main():
     f = open(args.source_file, "r", encoding="utf-8")
     reader = csv.DictReader(f)
 
-    modified_content = [list(FIELDNAMES[FORMAT])]
-    line_num = 1
+    article_content = [list(FIELDNAMES[FORMAT]["article"])]
+    book_content = [list(FIELDNAMES[FORMAT]["book"])]
+    empty_article_line = ["" for i in range(len(FIELDNAMES[FORMAT]["article"]))]
+    empty_book_line = ["" for i in range(len(FIELDNAMES[FORMAT]["book"]))]
     for line in reader:
-        line_num += 1
         line["period"] = ""
-        line["is_hybrid"] = ""
         line["euro"] = ""
         line["Journal"] = line["Journal"].replace("\n", " ")
-        _print("b", "--- Analysing line " + str(line_num) + " ---")
+        _print("b", "--- Analysing line " + str(reader.line_num) + " ---")
+        is_book = False
+        pub_type = line["Type of publication"]
+        if pub_type in PUBLICATION_TYPES_BOOKS:
+            is_book = True
+        else:
+            line["is_hybrid"] = ""
+        # Publication blacklist checking
+        if pub_type in PUBLICATION_TYPES_BL and not is_book:
+            delete_line(line, "Blacklisted pub type ('" + pub_type + "')")
+            article_content.append(line_as_list(line, "article"))
+            book_content.append(list(empty_book_line))
+            continue
         # DOI checking
-        if len(line["DOI"].strip()) == 0:
+        if len(line["DOI"].strip()) == 0 and not is_book:
             delete_line(line, "Empty DOI")
-            modified_content.append(line_as_list(line))
+            article_content.append(line_as_list(line, "article"))
+            book_content.append(list(empty_book_line))
             continue
         # Drop checking
-        if "Drop?" in FIELDNAMES[FORMAT] and line["Drop?"] == "1":
+        if "Drop?" in FIELDNAMES[FORMAT] and line["Drop?"] == "1" and not is_book:
             delete_line(line, "Drop mark found")
-            modified_content.append(line_as_list(line))
-            continue
-        # Publication blacklist checking
-        pub_type = line["Type of publication"]
-        if pub_type in PUBLICATION_TYPES_BL:
-            delete_line(line, "Blacklisted pub type ('" + pub_type + "')")
-            modified_content.append(line_as_list(line))
+            article_content.append(line_as_list(line, "article"))
+            book_content.append(list(empty_book_line))
             continue
         # period field generation
         for source_field in PERIOD_FIELD_SOURCE[FORMAT]:
@@ -340,15 +372,23 @@ def main():
                 break
         else:
             delete_line(line, "Unable to determine payment date for period column")
-            modified_content.append(line_as_list(line))
+            article_content.append(list(empty_article_line))
+            book_content.append(list(empty_book_line))
             continue
         # euro field generation
         calculate_euro_value(line, FORMAT)
-        modified_content.append(line_as_list(line))
-
+        if is_book:
+            book_content.append(line_as_list(line, "book"))
+            article_content.append(list(empty_article_line))
+        else:
+            article_content.append(line_as_list(line, "article"))
+            book_content.append(list(empty_book_line))
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, None, False, True)
-        writer.write_rows(modified_content)
+        writer.write_rows(article_content)
+    with open('out_books.csv', 'w') as out:
+        writer = oat.OpenAPCUnicodeWriter(out, None, False, True)
+        writer.write_rows(book_content)
 
     print("\n\nPreprocessing finished, deleted articles overview:")
 
