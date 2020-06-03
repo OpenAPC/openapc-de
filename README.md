@@ -12,7 +12,7 @@ The aim of this repository is:
 - to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 107,275 open access journal articles, amounting to € 211,658,342 and contributed by 263 institutions.
+At the moment this project provides cost data on 107,507 open access journal articles, amounting to € 211,988,002 and contributed by 263 institutions.
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -357,9 +357,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on 107,275 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
+This data set contains information on 107,507 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 211,658,342. The average payment was € 1,973  and the median was € 1,780.
+In total, publication fee spending covered by the Open APC initiative amounted to € 211,988,002. The average payment was € 1,972  and the median was € 1,778.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
@@ -386,7 +386,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,623|   1,636|     1,532|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
 |2017   |      14,119|   1,722|     1,560|   9 - 14,634|          10,469|       2,530|         2,467|       37 - 9,858|
 |2018   |      12,848|   1,714|     1,598|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       7,625|   1,684|     1,661|  22 -  7,684|           2,359|       2,610|         2,582|      112 - 7,745|
+|2019   |       7,857|   1,677|     1,661|  22 -  7,684|           2,359|       2,610|         2,582|      112 - 7,745|
 |2020   |          55|   1,637|     1,634| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -395,7 +395,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-63,362 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 101,470,004, including value-added tax; the average payment was € 1,601 (median =  € 1,512, SD = € 791).
+63,594 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 101,799,664, including value-added tax; the average payment was € 1,601 (median =  € 1,512, SD = € 790).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -418,13 +418,13 @@ The following table summarises institutional spending on articles published in f
 |University of Cambridge                                              |    1,173|             2,660,767| 2,268 (1,209)|  1,853|        9 -  6,197|
 |Erlangen Nuernberg U                                                 |    1,141|             1,682,915|   1,475 (403)|  1,542|      113 -  3,963|
 |Swiss National Science Foundation (SNSF)                             |    1,125|             2,351,601| 2,090 (1,138)|  1,696|       87 -  5,104|
+|KIT                                                                  |    1,065|             1,466,372|   1,377 (501)|  1,424|       62 -  3,731|
 |Freiburg U                                                           |      949|             1,380,528|   1,455 (414)|  1,525|       50 -  2,501|
 |University of Birmingham                                             |      943|             1,652,959|   1,753 (793)|  1,594|      126 -  5,669|
 |INSERM                                                               |      932|             1,688,754|   1,812 (851)|  1,500|      200 -  4,650|
 |University of Calgary                                                |      883|               993,318|   1,125 (447)|  1,145|       50 -  4,632|
 |Regensburg U                                                         |      870|             1,338,144|   1,538 (657)|  1,525|       77 -  5,129|
 |University of Edinburgh                                              |      858|             1,599,930|   1,865 (910)|  1,604|      210 -  5,467|
-|KIT                                                                  |      833|             1,136,712|   1,365 (509)|  1,386|       62 -  3,731|
 |Wuerzburg U                                                          |      813|             1,162,219|   1,430 (464)|  1,476|      103 -  2,533|
 |Leipzig U                                                            |      784|             1,177,556|   1,502 (374)|  1,621|      178 -  2,106|
 |University of Manchester                                             |      727|             1,473,030|   2,026 (992)|  1,702|      199 -  5,552|
@@ -882,8 +882,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.79%       |
-|PubMed ID                  |  76.82%      |
-|PubMed Central ID          |  70.23%     |
+|PubMed ID                  |  76.76%      |
+|PubMed Central ID          |  70.19%     |
 |Web of Science record ID   | 93.86%      |
 
 
