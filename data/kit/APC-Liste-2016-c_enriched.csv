@@ -1,0 +1,118 @@
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"KIT",2016,1210.5,"10.1063/1.4953845",FALSE,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","2158-3226","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000379041400035",NA,TRUE
+"KIT",2016,1839.28,"10.1103/physrevx.6.031013",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","2160-3308","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000381472400001",NA,TRUE
+"KIT",2016,708,"10.1186/s13705-016-0073-0",FALSE,"Springer Nature","Energy, Sustainability and Society","2192-0567",NA,"2192-0567","2192-0567",NA,TRUE,NA,NA,"ut:000387952300001",NA,TRUE
+"KIT",2016,1396,"10.1186/s40462-016-0074-9",FALSE,"Springer Nature","Movement Ecology","2051-3933",NA,"2051-3933","2051-3933",NA,TRUE,"27087978","PMC4832482","ut:000381932300001",NA,TRUE
+"KIT",2016,1816,"10.1186/s12915-016-0278-x",FALSE,"Springer Nature","BMC Biology","1741-7007",NA,"1741-7007","1741-7007",NA,TRUE,"27380628","PMC4932719","ut:000379776800002",NA,TRUE
+"KIT",2016,744,"10.1186/s40508-016-0053-x",FALSE,"Springer Nature","Sustainable Chemical Processes","2043-7129",NA,"2043-7129","2043-7129",NA,TRUE,NA,NA,NA,NA,TRUE
+"KIT",2016,744,"10.1186/s13705-016-0090-z",FALSE,"Springer Nature","Energy, Sustainability and Society","2192-0567",NA,"2192-0567","2192-0567","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000387954000001",NA,TRUE
+"KIT",2016,1808.8,"10.3402/tellusb.v68.29751",FALSE,"Informa UK Limited","Tellus B","1600-0889",NA,"1600-0889","0280-6509",NA,TRUE,NA,NA,"ut:000370195700001",NA,FALSE
+"KIT",2016,1713.6,"10.3402/tellusb.v68.29250",FALSE,"Informa UK Limited","Tellus B","1600-0889",NA,"1600-0889","0280-6509",NA,TRUE,NA,NA,"ut:000375875800001",NA,FALSE
+"KIT",2016,1760.01,"10.5194/bg-13-3359-2016",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","1726-4170","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000379425100011",NA,TRUE
+"KIT",2016,1799.28,"10.5194/acp-16-12059-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000385376400002",NA,TRUE
+"KIT",2016,1656.48,"10.5194/acp-16-11671-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000384461500002",NA,TRUE
+"KIT",2016,1627.92,"10.5194/acp-16-9201-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000381213300025",NA,TRUE
+"KIT",2016,1884.96,"10.5194/acp-16-14563-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000388699500005",NA,TRUE
+"KIT",2016,1113.84,"10.5194/acp-16-14357-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000387980100002",NA,TRUE
+"KIT",2016,2000,"10.5194/acp-16-11477-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000384251700001",NA,TRUE
+"KIT",2016,2000,"10.5194/acp-16-9505-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000381213300040",NA,TRUE
+"KIT",2016,2000,"10.5194/acp-16-11649-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000384461500001",NA,TRUE
+"KIT",2016,2000,"10.5194/acp-16-8791-2016",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000381213300005",NA,TRUE
+"KIT",2016,1138.83,"10.5194/amt-9-2303-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000377855300022",NA,TRUE
+"KIT",2016,1456.56,"10.5194/amt-9-2223-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000377855300017",NA,TRUE
+"KIT",2016,1760.01,"10.5194/amt-9-4843-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000385378300003",NA,TRUE
+"KIT",2016,1449.42,"10.5194/amt-9-4673-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000384462300002",NA,TRUE
+"KIT",2016,1449.42,"10.5194/amt-9-3131-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000381094100010",NA,TRUE
+"KIT",2016,1656.48,"10.5194/amt-9-5331-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000387116400002",NA,TRUE
+"KIT",2016,2000,"10.5194/amt-9-2845-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000379417200006",NA,TRUE
+"KIT",2016,2000,"10.5194/amt-9-3817-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000383790000002",NA,TRUE
+"KIT",2016,1570.8,"10.5194/esd-7-745-2016",FALSE,"Copernicus GmbH","Earth System Dynamics","2190-4987",NA,"2190-4987","2190-4987","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000384252200001",NA,TRUE
+"KIT",2016,2000,"10.5194/gmd-9-4313-2016",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603","1991-959X","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000389212200001",NA,TRUE
+"KIT",2016,1656.48,"10.5194/hess-20-3511-2016",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000383893800001",NA,TRUE
+"KIT",2016,1627.92,"10.5194/hess-20-3745-2016",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000384243500002",NA,TRUE
+"KIT",2016,1370.88,"10.5194/nhess-2016-275",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences Discussions","2195-9269",NA,"2195-9269","2195-9269","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
+"KIT",2016,971.04,"10.5194/npg-23-375-2016",FALSE,"Copernicus GmbH","Nonlinear Processes in Geophysics","1607-7946",NA,"1607-7946","1023-5809","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000387552000001",NA,TRUE
+"KIT",2016,2000,"10.1126/sciadv.1501585",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"27051871","PMC4820388","ut:000379620200039",NA,TRUE
+"KIT",2016,1713.6,"10.5194/se-7-1109-2016",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","1869-9529","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000381217200009",NA,TRUE
+"KIT",2016,1190,"10.1515/nanoph-2016-0005",FALSE,"Walter de Gruyter GmbH","Nanophotonics","2192-8614","2192-8606","2192-8614","2192-8614","http://creativecommons.org/licenses/by-nc-nd/3.0",TRUE,NA,NA,"ut:000388792600002",NA,TRUE
+"KIT",2016,446.27,"10.1016/j.dib.2016.05.007",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"27274534","PMC4885013",NA,NA,TRUE
+"KIT",2016,1424.17,"10.3389/fcell.2016.00065",FALSE,"Frontiers Media SA","Frontiers in Cell and Developmental Biology","2296-634X",NA,"2296-634X","2296-634X",NA,TRUE,"27595096","PMC4999517",NA,NA,TRUE
+"KIT",2016,2000,"10.3389/fmicb.2016.00891",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"27445993","PMC4914491","ut:000378116000001",NA,TRUE
+"KIT",2016,2000,"10.3389/fmicb.2016.01978",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28018312","PMC5145850","ut:000389547800001",NA,TRUE
+"KIT",2016,2000,"10.3389/fmicb.2016.02059",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28066378","PMC5177650","ut:000390655300001",NA,TRUE
+"KIT",2016,2000,"10.3389/fmicb.2016.01539",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,NA,NA,"ut:000388515800001",NA,TRUE
+"KIT",2016,2000,"10.3389/fmicb.2016.00682",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"27242709","PMC4860496","ut:000375404100001",NA,TRUE
+"KIT",2016,2000,"10.3389/fpls.2016.00487",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"27148312","PMC4830831","ut:000373971900001",NA,TRUE
+"KIT",2016,2000,"10.3389/fpsyg.2016.00918",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078",NA,TRUE,"27445891","PMC4919351","ut:000378382200001",NA,TRUE
+"KIT",2016,2000,"10.3389/fpsyg.2016.00291",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078",NA,TRUE,"27014116","PMC4786560",NA,NA,TRUE
+"KIT",2016,2000,"10.3389/fpsyg.2016.00677",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078",NA,TRUE,"27242591","PMC4860507",NA,NA,TRUE
+"KIT",2016,1676.39,"10.1155/2017/6258180",FALSE,"Hindawi Publishing Corporation","Advances in Meteorology","1687-9309","1687-9309","1687-9317","1687-9309","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000392577000001",NA,TRUE
+"KIT",2016,2000,"10.1155/2016/5340574",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","2314-6133","http://creativecommons.org/licenses/by/4.0/",TRUE,"28070511","PMC5187596","ut:000390532400001",NA,TRUE
+"KIT",2016,2000,"10.18632/oncotarget.14051",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553","1949-2553",NA,TRUE,"28008157","PMC5351623","ut:000393289000066",NA,FALSE
+"KIT",2016,1170,"10.1088/1367-2630/18/2/023006",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,"ut:000372453300001",NA,TRUE
+"KIT",2016,1392.3,"10.1088/1367-2630/18/5/053005",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,"ut:000377190100001",NA,TRUE
+"KIT",2016,1392.3,"10.1088/1367-2630/18/5/053026",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://iopscience.iop.org/info/page/text-and-data-mining",TRUE,NA,NA,"ut:000377192100001",NA,TRUE
+"KIT",2016,189.37,"10.3390/a9040072",FALSE,"MDPI AG","Algorithms","1999-4893",NA,"1999-4893","1999-4893",NA,TRUE,NA,NA,"ut:000391624500011",NA,TRUE
+"KIT",2016,939.36,"10.3390/catal6120207",FALSE,"MDPI AG","Catalysts","2073-4344",NA,"2073-4344","2073-4344",NA,TRUE,NA,NA,"ut:000392482900026",NA,TRUE
+"KIT",2016,1296.01,"10.3390/en9040292",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073",NA,TRUE,NA,NA,"ut:000375209400069",NA,TRUE
+"KIT",2016,1303.23,"10.3390/en9070563",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073",NA,TRUE,NA,NA,"ut:000381497300085",NA,TRUE
+"KIT",2016,1299.86,"10.3390/e18090310",FALSE,"MDPI AG","Entropy","1099-4300",NA,"1099-4300","1099-4300",NA,TRUE,NA,NA,"ut:000382259200003",NA,TRUE
+"KIT",2016,1468.98,"10.3390/ijms17050670",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067",NA,TRUE,"27153066","PMC4881496","ut:000378791400064",NA,TRUE
+"KIT",2016,1093.13,"10.3390/ma9070506",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944",NA,TRUE,NA,NA,"ut:000380761500008",NA,TRUE
+"KIT",2016,1108,"10.3390/ma9120965",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944",NA,TRUE,NA,NA,"ut:000390953400011",NA,TRUE
+"KIT",2016,1313.2,"10.3390/ma9120971",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944",NA,TRUE,NA,NA,"ut:000390953400017",NA,TRUE
+"KIT",2016,1320.4,"10.3390/ma10010025",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944",NA,TRUE,NA,NA,"ut:000394838800025",NA,TRUE
+"KIT",2016,740.95,"10.3390/metabo6030027",FALSE,"MDPI AG","Metabolites","2218-1989",NA,"2218-1989","2218-1989",NA,TRUE,"27598217","PMC5041126","ut:000384265100008",NA,TRUE
+"KIT",2016,739.36,"10.3390/metabo6030029",FALSE,"MDPI AG","Metabolites","2218-1989",NA,"2218-1989","2218-1989",NA,TRUE,"27657148","PMC5041128","ut:000384265100010",NA,TRUE
+"KIT",2016,635.39,"10.3390/met6120295",FALSE,"MDPI AG","Metals","2075-4701",NA,"2075-4701","2075-4701",NA,TRUE,NA,NA,"ut:000389600600001",NA,TRUE
+"KIT",2016,914.09,"10.3390/mi7050085",FALSE,"MDPI AG","Micromachines","2072-666X",NA,"2072-666X","2072-666X",NA,TRUE,NA,NA,"ut:000377983700013",NA,TRUE
+"KIT",2016,276.76,"10.3390/plants5010015",FALSE,"MDPI AG","Plants","2223-7747",NA,"2223-7747","2223-7747",NA,TRUE,"27135235","PMC4844424",NA,NA,TRUE
+"KIT",2016,1103,"10.3390/polym8110390",FALSE,"MDPI AG","Polymers","2073-4360",NA,"2073-4360","2073-4360",NA,TRUE,NA,NA,"ut:000390106600013",NA,TRUE
+"KIT",2016,1464.43,"10.3390/rs8050410",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292",NA,TRUE,NA,NA,"ut:000378406400054",NA,TRUE
+"KIT",2016,1441.02,"10.1364/optica.3.000741",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536","2334-2536",NA,TRUE,NA,NA,"ut:000381736100013",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.004331",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"26907079",NA,"ut:000371433700103",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.000966",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"26832479",NA,"ut:000369066300062",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.025154",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27828454",NA,"ut:000388413400046",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.0a1597",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"28059323",NA,"ut:000390809100010",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.006063",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27136800",NA,"ut:000373395700062",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.001573",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"26832535",NA,"ut:000369066300118",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.025432",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27828482",NA,"ut:000388413400074",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.009168",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27137533",NA,"ut:000375259600005",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.009651",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27137578",NA,"ut:000375259600050",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.019638",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27557242",NA,"ut:000385227100077",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.011694",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","https://www.osapublishing.org/submit/licenses/license_v1.cfm#vor",TRUE,"27410095",NA,"ut:000377467800037",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.009389",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27137555",NA,"ut:000375259600027",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.010880",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27409908",NA,"ut:000376380700089",NA,FALSE
+"KIT",2016,2000,"10.1364/oe.24.00a898",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"27409962",NA,"ut:000376380700015",NA,FALSE
+"KIT",2016,655.35,"10.7717/peerj.2781",FALSE,"PeerJ","PeerJ","2167-8359",NA,"2167-8359","2167-8359","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000390052400006",NA,TRUE
+"KIT",2016,1559.39,"10.1371/journal.pone.0152081",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"27116220","PMC4846085","ut:000374973600014",NA,TRUE
+"KIT",2016,1452.24,"10.1371/journal.pone.0158823",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"27410969","PMC4943676","ut:000379508300035",NA,TRUE
+"KIT",2016,1676.86,"10.1371/journal.pone.0165180",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"27764213","PMC5072585","ut:000386204500128",NA,TRUE
+"KIT",2016,2000,"10.1371/journal.pgen.1006394",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"27760121","PMC5070779","ut:000386683300052",NA,TRUE
+"KIT",2016,1687,"10.1127/metz/2016/0684",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,"0941-2948",NA,TRUE,NA,NA,"ut:000378327800003",NA,TRUE
+"KIT",2016,1806,"10.1127/metz/2016/0701",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,"0941-2948",NA,TRUE,NA,NA,"ut:000378327800005",NA,TRUE
+"KIT",2016,2000,"10.1127/metz/2016/0728",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,"0941-2948",NA,TRUE,NA,NA,"ut:000394368900007",NA,TRUE
+"KIT",2016,1050,"10.1186/s40064-016-2629-z",FALSE,"Springer Nature","SpringerPlus","2193-1801",NA,"2193-1801","2193-1801","http://creativecommons.org/licenses/by/4.0",TRUE,"27386348","PMC4923005","ut:000378925700012",NA,TRUE
+"KIT",2016,2000,"10.1038/cddis.2016.342",FALSE,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889",NA,TRUE,"27831556","PMC5260879","ut:000391815400015",NA,TRUE
+"KIT",2016,1467.27,"10.1038/ncomms12843",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"27687782","PMC5056430","ut:000385363000011",NA,TRUE
+"KIT",2016,2000,"10.1038/ncomms11844",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"27296868","PMC4911634","ut:000378678700001",NA,TRUE
+"KIT",2016,2000,"10.1038/ncomms10864",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"26949229","PMC4786640","ut:000371718600001",NA,TRUE
+"KIT",2016,2000,"10.1038/ncomms13991",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"28071661","PMC5234075","ut:000391641700001",NA,TRUE
+"KIT",2016,2000,"10.1038/ncomms12875",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"27641898","PMC5031802","ut:000385384100009",NA,TRUE
+"KIT",2016,2000,"10.1038/ncomms13872",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"27996002","PMC5187437","ut:000389973800001",NA,TRUE
+"KIT",2016,2000,"10.1038/ncomms13672",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,TRUE,"27901024","PMC5141382","ut:000388873200001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep23585",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27026069","PMC4812302","ut:000373028400001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep23768",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27029555","PMC4815012","ut:000373165200001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep23786",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27030167","PMC4815015","ut:000373166000001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep25046",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27141993","PMC4855227","ut:000375400900001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep31733",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27557544","PMC4997610","ut:000381855700003",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep31367",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27506726","PMC4979208","ut:000381106300001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep31135",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27507165","PMC4979026","ut:000381126900001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep33498",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27653975","PMC5031965","ut:000383711300001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep39970",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322",NA,TRUE,"28051163","PMC5209693","ut:000391444000001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep36204",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://www.springer.com/tdm",TRUE,"27805005","PMC5090330","ut:000387137000001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep39951",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322",NA,TRUE,"28079117","PMC5227693","ut:000392114300001",NA,TRUE
+"KIT",2016,1386.35,"10.1038/srep40643",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322",NA,TRUE,"28079161","PMC5228033","ut:000391666400001",NA,TRUE
+"KIT",2016,1735.02,"10.1111/gcbb.12367",FALSE,"Wiley-Blackwell","GCB Bioenergy","1757-1693",NA,NA,"1757-1693","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,NA,NA,FALSE
+"KIT",2016,2000,"10.1002/advs.201600202",FALSE,"Wiley-Blackwell","Advanced Science","2198-3844",NA,NA,"2198-3844","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"28105395","PMC5238741","ut:000392400200007",NA,TRUE
+"KIT",2016,1799.99,"10.1002/open.201600109",FALSE,"Wiley-Blackwell","ChemistryOpen","2191-1363",NA,NA,"2191-1363","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"28032020","PMC5167400","ut:000393071500006",NA,TRUE

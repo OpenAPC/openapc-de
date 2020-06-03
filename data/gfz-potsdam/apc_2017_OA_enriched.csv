@@ -1,0 +1,49 @@
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"GFZ-Potsdam",2017,931.77,"10.5194/amt-9-5965-2016",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000391279600001",NA,TRUE
+"GFZ-Potsdam",2017,1967.07,"10.5194/hess-20-4605-2016",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000387868100001",NA,TRUE
+"GFZ-Potsdam",2017,821.1,"10.5194/angeo-34-901-2016",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","0992-7689","http://creativecommons.org/licenses/by/3.0/",TRUE,"29056833","PMC5648076","ut:000386772400001",NA,TRUE
+"GFZ-Potsdam",2017,2056.32,"10.5194/hess-20-4283-2016",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000386773200001",NA,TRUE
+"GFZ-Potsdam",2017,1132.23,"10.3390/w9010055",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441",NA,TRUE,NA,NA,"ut:000392939900054",NA,TRUE
+"GFZ-Potsdam",2017,1519.09,"10.3390/rs9020170",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292",NA,TRUE,NA,NA,"ut:000397013700072",NA,TRUE
+"GFZ-Potsdam",2017,628.95,"10.3390/ijgi6040114",FALSE,"MDPI AG","ISPRS International Journal of Geo-Information","2220-9964",NA,"2220-9964","2220-9964",NA,TRUE,NA,NA,"ut:000404525000023",NA,TRUE
+"GFZ-Potsdam",2017,2798.7,"10.3389/fmicb.2017.00677",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28469614","PMC5395617","ut:000399528600001",NA,TRUE
+"GFZ-Potsdam",2017,331.28,"10.3390/geosciences7020028",FALSE,"MDPI AG","Geosciences","2076-3263",NA,"2076-3263","2076-3263",NA,TRUE,NA,NA,"ut:000410296200011",NA,TRUE
+"GFZ-Potsdam",2017,1627.92,"10.5194/hess-21-1611-2017",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000396741700001",NA,TRUE
+"GFZ-Potsdam",2017,1456.56,"10.5194/hess-21-821-2017",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000395097400002",NA,TRUE
+"GFZ-Potsdam",2017,1627.92,"10.5194/tc-11-247-2017",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000395181000003",NA,TRUE
+"GFZ-Potsdam",2017,3962.7,"10.5194/se-8-45-2017",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","1869-9529","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000394058400001",NA,TRUE
+"GFZ-Potsdam",2017,1713.6,"10.5194/amt-10-15-2017",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000391281600001",NA,TRUE
+
+"GFZ-Potsdam",2017,1293.26,"10.3390/w9050313",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441",NA,TRUE,NA,NA,"ut:000404558100013",NA,TRUE
+"GFZ-Potsdam",2017,1391.13,"10.3390/en10060739",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073",NA,TRUE,NA,NA,"ut:000404384000005",NA,TRUE
+"GFZ-Potsdam",2017,1552.95,"10.1038/s41598-017-05783-2",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28725016","PMC5517603","ut:000405894200046",NA,TRUE
+"GFZ-Potsdam",2017,1656.48,"10.5194/hess-21-3167-2017",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000404657100004",NA,TRUE
+"GFZ-Potsdam",2017,1863.54,"10.5194/bg-14-3111-2017",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","1726-4170","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000404352400001",NA,TRUE
+"GFZ-Potsdam",2017,1428,"10.5194/esurf-5-311-2017",FALSE,"Copernicus GmbH","Earth Surface Dynamics","2196-632X",NA,"2196-632X","2196-632X","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000403924300001",NA,TRUE
+"GFZ-Potsdam",2017,2598.04,"10.3389/fmicb.2017.01339",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28769904","PMC5513909","ut:000406234700001",NA,TRUE
+"GFZ-Potsdam",2017,1466.46,"10.3390/rs9070676",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292",NA,TRUE,NA,NA,"ut:000406676800039",NA,TRUE
+"GFZ-Potsdam",2017,1603.75,"10.3390/s17081857",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220",NA,TRUE,"28800111","PMC5579726","ut:000408576900160",NA,TRUE
+"GFZ-Potsdam",2017,1366.35,"10.1002/2017ms000951",FALSE,"Wiley-Blackwell","Journal of Advances in Modeling Earth Systems","1942-2466",NA,NA,"1942-2466","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000407429900008",NA,TRUE
+"GFZ-Potsdam",2017,1499.4,"10.5194/amt-10-2183-2017",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000403358300001",NA,TRUE
+"GFZ-Potsdam",2017,1860.76,"10.1002/2017ef000606",FALSE,"Wiley-Blackwell","Earth's Future","2328-4277",NA,NA,"2328-4277","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000415124900002",NA,TRUE
+"GFZ-Potsdam",2017,1411.39,"10.3390/rs9090943",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292",NA,TRUE,NA,NA,"ut:000414138700073",NA,TRUE
+"GFZ-Potsdam",2017,4403,"10.1038/s41467-017-01256-2",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"29062023","PMC5653657","ut:000413404800008",NA,TRUE
+"GFZ-Potsdam",2017,1320.03,"10.3390/en10101559",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073",NA,TRUE,NA,NA,"ut:000414578400114",NA,TRUE
+"GFZ-Potsdam",2017,1313.97,"10.3390/en10101643",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073",NA,TRUE,NA,NA,"ut:000414578400198",NA,TRUE
+"GFZ-Potsdam",2017,476,"10.5194/gi-6-345-2017",FALSE,"Copernicus GmbH","Geoscientific Instrumentation, Methods and Data Systems","2193-0864",NA,"2193-0864","2193-0856","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000411256200001",NA,TRUE
+"GFZ-Potsdam",2017,999.6,"10.5194/esurf-5-557-2017",FALSE,"Copernicus GmbH","Earth Surface Dynamics","2196-632X",NA,"2196-632X","2196-632X","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000419313900001",NA,TRUE
+"GFZ-Potsdam",2017,1874.25,"10.5194/se-8-921-2017",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","1869-9529","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000413194100001",NA,TRUE
+"GFZ-Potsdam",2017,1213.8,"10.5194/esurf-5-511-2017",FALSE,"Copernicus GmbH","Earth Surface Dynamics","2196-632X",NA,"2196-632X","2196-632X","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000419313400001",NA,TRUE
+"GFZ-Potsdam",2017,1370.88,"10.5194/amt-10-3117-2017",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000408725200001",NA,TRUE
+
+"GFZ-Potsdam",2017,2070.6,"10.5194/hess-21-3991-2017",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000407335600001",NA,TRUE
+"GFZ-Potsdam",2017,1884.96,"10.5194/hess-21-3727-2017",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000406249700002",NA,TRUE
+"GFZ-Potsdam",2017,1456.56,"10.5194/nhess-17-1159-2017",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","1561-8633","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000405382800004",NA,TRUE
+"GFZ-Potsdam",2017,1760.01,"10.5194/cp-13-741-2017",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","1814-9324","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000404776700001",NA,TRUE
+"GFZ-Potsdam",2017,1564.29,"10.3390/s17102400",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220",NA,TRUE,"29053608","PMC5676652","ut:000414931500242",NA,TRUE
+"GFZ-Potsdam",2017,1552.95,"10.1038/s41598-017-14980-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29089629","PMC5665900","ut:000414231800003",NA,TRUE
+"GFZ-Potsdam",2017,1218.95,"10.3390/w9120913",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441",NA,TRUE,NA,NA,"ut:000419225500008",NA,TRUE
+"GFZ-Potsdam",2017,2491.68,"10.3389/fmicb.2017.02446",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"29321765","PMC5732176","ut:000417577100001",NA,TRUE
+"GFZ-Potsdam",2017,714.38,"10.3390/sym9120292",FALSE,"MDPI AG","Symmetry","2073-8994",NA,"2073-8994","2073-8994",NA,TRUE,NA,NA,"ut:000419227200004",NA,TRUE
+"GFZ-Potsdam",2017,1389.87,"10.3390/rs9121317",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292",NA,TRUE,NA,NA,"ut:000419235700112",NA,TRUE
+"GFZ-Potsdam",2017,4403,"10.1038/s41467-017-00586-5",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","http://creativecommons.org/licenses/by/4.0",TRUE,"28931817","PMC5606986","ut:000411316500004",NA,TRUE

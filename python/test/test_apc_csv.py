@@ -1,87 +1,331 @@
 import pytest
-import re
+from pytest import fail
 
-import openapc_toolkit as oat
+from csv import DictReader
+from os.path import dirname, join
+from sys import path
 
-# A whitelist for denoting publisher identity (Possible consequence of business buy outs or fusions)
-# If one publisher name is stored in the left list of an entry and another in the right one,
-# they will not be treated as different by the name_consistency test.
-PUBLISHER_IDENTITY = [
-    (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
-    (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
-    (["Wiley-Blackwell"], ["EMBO"]),
-    (["Pion Ltd"], ["SAGE Publications"])
-]
+CORE_FILE_PATH = "data/apc_de.csv"
+TRANSAGREE_FILE_PATH = "data/transformative_agreements/transformative_agreements.csv"
 
+if __name__ == '__main__':
+    path.append(dirname(path[0]))
+    import openapc_toolkit as oat
+    import whitelists as wl
+    CORE_FILE_PATH = join("..", "..", CORE_FILE_PATH)
+    TRANSAGREE_FILE_PATH = join("..", "..", TRANSAGREE_FILE_PATH)
+    
+    def fail(msg):
+        oat.print_r(msg)
 
-# A whitelist for denoting changes in journal ownership. 
-JOURNAL_OWNER_CHANGED = {
-    "1744-8069": ["SAGE Publications", "Springer Science + Business Media"]
+else:
+    path.append(join(path[0], "python"))
+    import openapc_toolkit as oat
+    from . import whitelists as wl
+
+class RowObject(object):
+    """
+    A minimal container class to store contextual information along with csv rows.
+    """
+    def __init__(self, file_name, line_number, row, transformative_agreements):
+        self.file_name = file_name
+        self.line_number = line_number
+        self.row = row
+        self.transformative_agreements = transformative_agreements
+
+doi_duplicate_list = []
+apc_data = []
+issn_dict = {}
+issn_p_dict = {}
+issn_e_dict = {}
+issn_l_dict = {}
+
+UNUSED_FIELDS = ["institution", "period", "license_ref", "pmid", "pmcid", "ut"]
+
+ROW_LENGTH = {
+    "openapc": 18 - len(UNUSED_FIELDS),
+    "transformative_agreements": 19 - len(UNUSED_FIELDS)
 }
 
+ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
-csv_file = open("data/apc_de.csv", "r")
-reader = oat.UnicodeDictReader(csv_file)
-apc_data = []
-doi_list = []
-for row in reader:
-    apc_data.append(row)
-    doi_list.append(row["doi"])
+for file_name in [CORE_FILE_PATH, TRANSAGREE_FILE_PATH]:
+    with open(file_name, "r") as csv_file:
+        reader = DictReader(csv_file)
+        line = 2
+        for row in reader:
+            for field in UNUSED_FIELDS:
+                del(row[field])
+            transformative_agreements = False
+            if file_name == TRANSAGREE_FILE_PATH:
+                transformative_agreements = True
+            apc_data.append(RowObject(file_name, line, row, transformative_agreements))
+            doi_duplicate_list.append(row["doi"])
+            
+            reduced_row = {}
+            for field in ISSN_DICT_FIELDS:
+                reduced_row[field] = row[field]
+            
+            issn = row["issn"]
+            if oat.has_value(issn):
+                if issn not in issn_dict:
+                    issn_dict[issn] = [reduced_row]
+                elif reduced_row not in issn_dict[issn]:
+                    issn_dict[issn].append(reduced_row)
+            issn_p = row["issn_print"]
+            if oat.has_value(issn_p):
+                if issn_p not in issn_p_dict:
+                    issn_p_dict[issn_p] = [reduced_row]
+                elif reduced_row not in issn_p_dict[issn_p]:
+                    issn_p_dict[issn_p].append(reduced_row)
+            issn_e = row["issn_electronic"]
+            if oat.has_value(issn_e):
+                if issn_e not in issn_e_dict:
+                    issn_e_dict[issn_e] = [reduced_row]
+                elif reduced_row not in issn_e_dict[issn_e]:
+                    issn_e_dict[issn_e].append(reduced_row)
+            issn_l = row["issn_l"]
+            if oat.has_value(issn_l):
+                if issn_l not in issn_l_dict:
+                    issn_l_dict[issn_l] = [reduced_row]
+                elif reduced_row not in issn_l_dict[issn_l]:
+                    issn_l_dict[issn_l].append(reduced_row)
+            line += 1
 
-def has_value(field):
-    return len(field) > 0 and field != "NA"
-    
 def in_whitelist(issn, first_publisher, second_publisher):
-    for entry in PUBLISHER_IDENTITY:
+    for entry in wl.PUBLISHER_IDENTITY:
         if first_publisher in entry[0] and second_publisher in entry[1]:
             return True
         if first_publisher in entry[1] and second_publisher in entry[0]:
             return True
-    if issn in JOURNAL_OWNER_CHANGED:
-        return first_publisher in JOURNAL_OWNER_CHANGED[issn] and second_publisher in JOURNAL_OWNER_CHANGED[issn]
+    if issn in wl.JOURNAL_OWNER_CHANGED:
+        return (first_publisher in wl.JOURNAL_OWNER_CHANGED[issn] and
+                second_publisher in wl.JOURNAL_OWNER_CHANGED[issn])
     return False
 
-@pytest.mark.parametrize("row", apc_data)
-class TestAPCRows(object):
-    
-    # Set of tests to run on every single row
-    def test_row_format(self, row):
-        assert len(row) == 17, 'row must consist of exactly 17 items'
-        assert row['doaj'] in ["TRUE", "FALSE"], 'value in row "doaj" must either be TRUE or FALSE'
-        assert row['indexed_in_crossref'] in ["TRUE", "FALSE"], 'value in row "indexed_in_crossref" must either be TRUE or FALSE'
-        assert row['is_hybrid'] in ["TRUE", "FALSE"], 'value in row "is_hybrid" must either be TRUE or FALSE'
-        assert oat.is_wellformed_DOI(row['doi']) or row['doi'] == "NA", 'value in row "doi" must either be NA or represent a valid DOI'
-        if row['doi'] == "NA":
-            assert has_value(row['publisher']), 'if no DOI is given, the column "publisher" must not be empty'
-            assert has_value(row['journal_full_title']), 'if no DOI is given, the column "journal_full_title" must not be empty'
-            assert has_value(row['issn']), 'if no DOI is given, the column "issn" must not be empty'
-            assert has_value(row['url']), 'if no DOI is given, the column "url" must not be empty'
-        for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"]]:
-            if issn_column != "NA":
-                issn_strings = issn_column.split(";")
-                for issn in issn_strings:
-                    assert oat.is_wellformed_ISSN(issn), 'value "' + issn + '" is not a well-formed ISSN' 
-                    assert oat.is_valid_ISSN(issn), 'value "' + issn + '" is no valid ISSN (check digit mismatch)'
+def check_line_length(row_object):
+    __tracebackhide__ = True
+    if row_object.transformative_agreements:
+        target_length = ROW_LENGTH["transformative_agreements"]
+        correct_length = ROW_LENGTH["transformative_agreements"] + len(UNUSED_FIELDS)
+    else:
+        target_length = ROW_LENGTH["openapc"]
+        correct_length = ROW_LENGTH["openapc"] + len(UNUSED_FIELDS)
+    if len(row_object.row) != target_length:
+        line_str = '{}, line {}: '.format(row_object.file_name,
+                                          row_object.line_number)
+        fail(line_str + 'Row must consist of exactly ' + str(correct_length) + ' items')
 
-    def test_doi_duplicates(self, row):
-        doi = row["doi"]
-        if doi and doi != "NA":
-            doi_list.remove(doi)
-            assert doi not in doi_list, 'Duplicate: A DOI was encountered more than one time'
-            
-    def test_name_consistency(self, row):
-        issn = row["issn"] if has_value(row["issn"]) else None
-        issn_p = row["issn_print"] if has_value(row["issn_print"]) else None
-        issn_e = row["issn_electronic"] if has_value(row["issn_electronic"]) else None
-        journal_full_title = row["journal_full_title"]
-        publisher = row["publisher"]
-        for other_row in apc_data:
-            if issn is not None and other_row["issn"] == issn:
-                assert other_row["publisher"] == publisher or in_whitelist(issn, publisher, other_row["publisher"]), 'Two entries share a common ISSN, but the publisher name differs'
-                assert other_row["journal_full_title"] == journal_full_title, 'Two entries share a common ISSN, but the journal title differs'
-            elif issn_p is not None and other_row["issn_print"] == issn_p:
-                assert other_row["publisher"] == publisher or in_whitelist(issn, publisher, other_row["publisher"]), 'Two entries share a common Print ISSN, but the publisher name differs'
-                assert other_row["journal_full_title"] == journal_full_title, 'Two entries share a common Print ISSN, but the journal title differs'
-            elif issn_e is not None and other_row["issn_electronic"] == issn_e:
-                assert other_row["publisher"] == publisher or in_whitelist(issn, publisher, other_row["publisher"]), 'Two entries share a common Electronic ISSN, but the publisher name differs'
-                assert other_row["journal_full_title"] == journal_full_title, 'Two entries share a common Electronic ISSN, but the journal title differs'
+def check_optional_identifier(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    if row['doi'] == "NA":
+        line_str = '{}, line {}: '.format(row_object.file_name,
+                                          row_object.line_number)
+        if not oat.has_value(row['url']):
+            fail(line_str + 'if no DOI is given, the column "url" ' +
+                        'must not be empty')
+
+def check_field_content(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    if not oat.has_value(row['publisher']):
+        fail(line_str + 'the column "publisher" must not be empty')
+    if not oat.has_value(row['journal_full_title']):
+        fail(line_str + 'the column "journal_full_title" must not be empty')
+    if not oat.has_value(row['issn']):
+        fail(line_str + 'the column "issn" must not be empty')
+    if row['doaj'] not in ["TRUE", "FALSE"]:
+        fail(line_str + 'value in row "doaj" must either be TRUE or FALSE')
+    if row['indexed_in_crossref'] not in ["TRUE", "FALSE"]:
+        fail(line_str + 'value in row "indexed_in_crossref" must either be TRUE or FALSE')
+    if row['is_hybrid'] not in ["TRUE", "FALSE"]:
+        fail(line_str + 'value in row "is_hybrid" must either be TRUE or FALSE')
+    if not row['doi'] == "NA":
+        doi_norm = oat.get_normalised_DOI(row['doi'])
+        if doi_norm is None:
+            fail(line_str + 'value in row "doi" must either be NA or represent a valid DOI')
+        elif doi_norm != row['doi']:
+            fail(line_str + 'value in row "doi" contains a valid DOI, but the format ' +
+                                   'is not correct. It should be the simple DOI name, not ' +
+                                   'handbook notation (doi:...) or a HTTP URI (http://dx.doi.org/...)')
+    if len(row['publisher']) != len(row['publisher'].strip()):
+        fail(line_str + 'publisher name (' + row['publisher'] + ') has leading or trailing whitespaces')
+    if len(row['journal_full_title']) != len(row['journal_full_title'].strip()):
+        fail(line_str + 'journal title (' + row['journal_full_title'] + ') has leading or trailing whitespaces')
+        
+    if row_object.transformative_agreements:
+        if not oat.has_value(row['agreement']):
+            fail(line_str + 'the column "agreement" must not be empty')
+    
+    if not row_object.transformative_agreements:
+        try:
+            euro = float(row['euro'])
+            if euro <= 0:
+                fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
+        except ValueError:
+            fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
+
+
+
+def check_issns(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    for issn_column in [row["issn"], row["issn_print"], row["issn_electronic"], row["issn_l"]]:
+        if issn_column != "NA":
+            if not oat.is_wellformed_ISSN(issn_column):
+                fail(line_str + 'value "' + issn_column + '" is not a ' +
+                            'well-formed ISSN')
+            elif not oat.is_valid_ISSN(issn_column):
+                fail(line_str + 'value "' + issn_column + '" is no valid ' +
+                            'ISSN (check digit mismatch)')
+    issn_l = row["issn_l"]
+    if issn_l != "NA":
+        msg = line_str + "Two entries share a common {} ({}), but the issn_l differs ({} vs {})"
+        issn = row["issn"]
+        if issn != "NA":
+            for reduced_row in issn_dict[issn]:
+                if reduced_row["issn_l"] != issn_l:
+                    fail(msg.format("issn", issn, issn_l, reduced_row["issn_l"]))
+        issn_p = row["issn_print"]
+        if issn_p != "NA":
+            for reduced_row in issn_p_dict[issn_p]:
+                if reduced_row["issn_l"] != issn_l:
+                    fail(msg.format("issn_p", issn_p, issn_l, reduced_row["issn_l"]))
+        issn_e = row["issn_electronic"]
+        if issn_e != "NA":
+            for reduced_row in issn_e_dict[issn_e]:
+                if reduced_row["issn_l"] != issn_l:
+                    fail(msg.format("issn_e", issn_e, issn_l, reduced_row["issn_l"]))
+
+def check_for_doi_duplicates(row_object):
+    __tracebackhide__ = True
+    doi = row_object.row["doi"]
+    if doi and doi != "NA":
+        doi_duplicate_list.remove(doi)
+        if doi in doi_duplicate_list:
+            line_str = '{}, line {}: '.format(row_object.file_name,
+                                              row_object.line_number)
+            fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
+                        'encountered more than one time')
+
+def check_hybrid_status(row_object):
+    __tracebackhide__ = True
+    doaj = row_object.row["doaj"]
+    is_hybrid = row_object.row["is_hybrid"]
+    issn = row_object.row["issn"]
+    title = row_object.row["journal_full_title"]
+    if doaj == "TRUE" and is_hybrid == "TRUE" and issn not in wl.JOURNAL_HYBRID_STATUS_CHANGED:
+        line_str = '{}, line {}: '.format(row_object.file_name,
+                                          row_object.line_number)
+        msg = 'Journal "{}" ({}) is listed in the DOAJ but is marked as hybrid (DOAJ only lists fully OA journals)'
+        msg = msg.format(title, issn)
+        fail(line_str + msg)
+
+def check_name_consistency(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    issn = row["issn"] if oat.has_value(row["issn"]) else None
+    issn_p = row["issn_print"] if oat.has_value(row["issn_print"]) else None
+    issn_e = row["issn_electronic"] if oat.has_value(row["issn_electronic"]) else None
+    issn_l = row["issn_l"] if oat.has_value(row["issn_l"]) else None
+    hybrid_status_changed = len({issn, issn_p, issn_e, issn_l}.intersection(wl.JOURNAL_HYBRID_STATUS_CHANGED)) > 0
+    journal = row["journal_full_title"]
+    publ = row["publisher"]
+    hybrid = row["is_hybrid"]
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    msg = (u'' + line_str + 'Two entries share a common {}ISSN ({}), but the ' +
+           '{} differs ("{}" vs "{}")')
+    if issn is not None:
+        same_issn_rows = issn_dict[issn]
+        for other_row in same_issn_rows:
+            other_publ = other_row["publisher"]
+            other_journal = other_row["journal_full_title"]
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
+                ret = msg.format("", issn, "publisher name", publ, other_publ)
+                fail(ret)
+            if not other_journal == journal:
+                ret = msg.format("", issn, "journal title", journal, other_journal)
+                fail(ret)
+            if other_hybrid != hybrid and not hybrid_status_changed:
+                ret = msg.format("", issn, "hybrid status", hybrid, other_hybrid)
+                fail(ret)
+    if issn_p is not None:
+        same_issn_p_rows = issn_p_dict[issn_p]
+        for other_row in same_issn_p_rows:
+            other_publ = other_row["publisher"]
+            other_journal = other_row["journal_full_title"]
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn_p, publ, other_publ):
+                ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
+                fail(ret)
+            if not other_journal == journal:
+                ret = msg.format("Print ", issn_p, "journal title", journal, other_journal)
+                fail(ret)
+            if other_hybrid != hybrid and not hybrid_status_changed:
+                ret = msg.format("Print ", issn_p, "hybrid status", hybrid, other_hybrid)
+                fail(ret)
+    if issn_e is not None:
+        same_issn_e_rows = issn_e_dict[issn_e]
+        for other_row in same_issn_e_rows:
+            other_publ = other_row["publisher"]
+            other_journal = other_row["journal_full_title"]
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn_e, publ, other_publ):
+                ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
+                fail(ret)
+            if not other_journal == journal:
+                ret = msg.format("Electronic ", issn_e, "journal title", journal, other_journal)
+                fail(ret)
+            if other_hybrid != hybrid and not hybrid_status_changed:
+                ret = msg.format("Electronic ", issn_e, "hybrid status", hybrid, other_hybrid)
+                fail(ret)
+    if issn_l is not None:
+        same_issn_l_rows = issn_l_dict[issn_l]
+        for other_row in same_issn_l_rows:
+            other_publ = other_row["publisher"]
+            other_journal = other_row["journal_full_title"]
+            other_hybrid = other_row["is_hybrid"]
+            if not other_publ == publ and not in_whitelist(issn_l, publ, other_publ):
+                ret = msg.format("Linking ", issn_l, "publisher name", publ, other_publ)
+                fail(ret)
+            if not other_journal == journal:
+                ret = msg.format("Linking ", issn_l, "journal title", journal, other_journal)
+                fail(ret)
+            if other_hybrid != hybrid and not hybrid_status_changed:
+                ret = msg.format("Linking ", issn_l, "hybrid status", hybrid, other_hybrid)
+                fail(ret)
+
+@pytest.mark.parametrize("row_object", apc_data)
+class TestAPCRows(object):
+
+    # Set of tests to run on every single row
+    def test_row_format(self, row_object):
+        check_line_length(row_object)
+        check_field_content(row_object)
+        check_optional_identifier(row_object)
+        check_issns(row_object)
+        check_hybrid_status(row_object)
+
+    def test_doi_duplicates(self, row_object):
+        check_for_doi_duplicates(row_object)
+
+    def test_name_consistency(self, row_object):
+        check_name_consistency(row_object)
+        
+if __name__ == '__main__':
+    oat.print_b(str(len(apc_data)) + " entries collected, starting tests...")
+    deciles = {round((len(apc_data)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
+    for num, row_object in enumerate(apc_data):
+        if num in deciles:
+            oat.print_b(deciles[num])
+        check_line_length(row_object)
+        check_field_content(row_object)
+        check_optional_identifier(row_object)
+        check_issns(row_object)
+        check_hybrid_status(row_object)
+        check_for_doi_duplicates(row_object)
+        check_name_consistency(row_object)

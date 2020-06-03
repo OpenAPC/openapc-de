@@ -1,0 +1,3 @@
+"active","directory","basic_url","metadata_prefix","oai_set","processing"
+TRUE,"data/unireg","http://epub.uni-regensburg.de/cgi/oai2","OpenAPC","6F615F747970653D676F6C645F70616964","'url':'http://epub.uni-regensburg.de/%local_id%/'"
+FALSE,"data/unibi","https://pub.uni-bielefeld.de/oai","OpenAPC","","'url':'https://pub.uni-bielefeld.de/publication/%local_id%'"

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 """
@@ -18,10 +18,10 @@ def main():
 
     res = gmfp(args.doi)
     if res["success"]:
-        for key, value in res["data"].iteritems():
-            print key, ":", value
+        for key, value in res["data"].items():
+            print(key, ":", value)
     else:
-        print res["error_msg"]
+        print(res["error_msg"])
 
 if __name__ == '__main__':
     main()

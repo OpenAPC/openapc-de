@@ -1,0 +1,5 @@
+"S/N","Publisher","Journal abbreviation","Journal title","DOI","institution","YEAR of APC payment","Invoice (month only)","Currency","Total Discount  Amount Applied","USD/ Article Net Price","Issued amount","euro","is_hybrid"
+0001,"PLOS",,"PLOS  ONE","10.1371/JOURNAL.PONE.0201247","Qatar National Library",2018,"AUG","USD",0.00,"1,495.00","1,495.00","1,288.50",FALSE
+0002,"PLOS",,"PLOS  ONE","10.1371/JOURNAL.PONE.0183705","Qatar National Library",2018,"AUG","USD",0.00,"1,495.00","1,495.00","1,288.50",FALSE
+0003,"PLOS",,"PLOS  ONE","10.1371/journal.pone.0203148","Qatar National Library",2018,"SEP","USD",0.00,"1,495.00","1,495.00","1,288.50",FALSE
+0004,"PLOS",,"PLOS  ONE","10.1371/JOURNAL.PONE.0181215","Qatar National Library",2018,"JUL","USD",0.00,"1,495.00","1,495.00","1,288.50",FALSE

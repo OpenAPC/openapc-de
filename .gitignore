@@ -4,10 +4,15 @@
 .Rhistory
 .idea
 .cache
+.pytest_cache
 # Exclude generated files
 python/out.csv
 # Exclude python virtual env
 python/venv/
+# Exclude downloaded ISSN-L tables
+python/issnltables/
+# Exclude old reports
+python/old_reports/
 # Exclude python byte code
 *.pyc
 
