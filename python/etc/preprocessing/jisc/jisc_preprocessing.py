@@ -43,6 +43,7 @@ FIELDNAMES = {
             "euro"
         ],
         "book": [
+            "Line number",
             "APC paid (actual currency) including VAT if charged",
             "APC paid (£) including VAT (calculated)",
             "APC paid (£) including VAT if charged",
@@ -337,6 +338,7 @@ def main():
         is_book = False
         pub_type = line["Type of publication"]
         if pub_type in PUBLICATION_TYPES_BOOKS:
+            line["Line number"] = str(reader.line_num)
             is_book = True
         else:
             line["is_hybrid"] = ""
@@ -344,19 +346,16 @@ def main():
         if pub_type in PUBLICATION_TYPES_BL and not is_book:
             delete_line(line, "Blacklisted pub type ('" + pub_type + "')")
             article_content.append(line_as_list(line, "article"))
-            book_content.append(list(empty_book_line))
             continue
         # DOI checking
         if len(line["DOI"].strip()) == 0 and not is_book:
             delete_line(line, "Empty DOI")
             article_content.append(line_as_list(line, "article"))
-            book_content.append(list(empty_book_line))
             continue
         # Drop checking
         if "Drop?" in FIELDNAMES[FORMAT] and line["Drop?"] == "1" and not is_book:
             delete_line(line, "Drop mark found")
             article_content.append(line_as_list(line, "article"))
-            book_content.append(list(empty_book_line))
             continue
         # period field generation
         for source_field in PERIOD_FIELD_SOURCE[FORMAT]:
@@ -373,7 +372,6 @@ def main():
         else:
             delete_line(line, "Unable to determine payment date for period column")
             article_content.append(list(empty_article_line))
-            book_content.append(list(empty_book_line))
             continue
         # euro field generation
         calculate_euro_value(line, FORMAT)
@@ -382,7 +380,6 @@ def main():
             article_content.append(list(empty_article_line))
         else:
             article_content.append(line_as_list(line, "article"))
-            book_content.append(list(empty_book_line))
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, None, False, True)
         writer.write_rows(article_content)
