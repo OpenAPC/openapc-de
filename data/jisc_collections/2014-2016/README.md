@@ -17,30 +17,31 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
 
 1. All columns not relevant to OpenAPC were removed, reducing the file to the following items (The interim result of this step is the "columns_removed" file):
 
-| JISC column                                         | Used in                   | Usage                                           |  
-|:----------------------------------------------------|---------------------------|------------------------------------------------:|
-| APC paid (actual currency) including VAT if charged | preprocessing             | generation of 'euro' column                     |
-| APC paid (£) including VAT (calculated)             | preprocessing             | generation of 'euro' column                     |
-| APC paid (£) including VAT if charged               | preprocessing             | generation of 'euro' column                     |
-| Currency of APC                                     | preprocessing             | generation of 'euro' column                     |
-| DOI                                                 | preprocessing, enrichment | mapped to column "doi", record deletion         |
-| Date of APC payment                                 | preprocessing             | generation of 'period' column                   |
-| Date of initial application by author               | preprocessing             | generation of 'period' column                   |
-| ISSN0                                               | enrichment                | mapped to column "issn"                         |
-| Institution                                         | enrichment                | mapped to column "institution"                  |
-| Journal                                             | enrichment                | mapped to column "journal_full_title"           |
-| Licence                                             | enrichment                | mapped to column "license_ref"                  |
-| PubMed Central (PMC) ID                             | enrichment                | mapped to column "pmcid"                        |
-| PubMed ID                                           | enrichment                | mapped to column "pmid"                         |
-| Publisher                                           | enrichment                | mapped to column "publisher"                    |
-| TCO year                                            | preprocessing             | generation of 'period' column                   |
-| Type of publication                                 | preprocessing             | record deletion                                 |
-| Drop?                                               | preprocessing             | record deletion                                 |
-| Year of publication                                 | preprocessing             | generation of 'period' column                   |
+| JISC column                                         | Used in                    | Usage                                           |  
+|:----------------------------------------------------|----------------------------|------------------------------------------------:|
+| APC paid (actual currency) including VAT if charged | preprocessing              | generation of 'euro' column                     |
+| APC paid (£) including VAT (calculated)             | preprocessing              | generation of 'euro' column                     |
+| APC paid (£) including VAT if charged               | preprocessing              | generation of 'euro' column                     |
+| Article title                                       | preprocessing (books only) | book metadata lookup (manual)                   |
+| Currency of APC                                     | preprocessing              | generation of 'euro' column                     |
+| DOI                                                 | preprocessing, enrichment  | mapped to column "doi", record deletion         |
+| Date of APC payment                                 | preprocessing              | generation of 'period' column                   |
+| Date of initial application by author               | preprocessing              | generation of 'period' column                   |
+| ISSN0                                               | enrichment                 | mapped to column "issn"                         |
+| Institution                                         | enrichment                 | mapped to column "institution"                  |
+| Journal                                             | enrichment                 | mapped to column "journal_full_title"           |
+| Licence                                             | enrichment                 | mapped to column "license_ref"                  |
+| PubMed Central (PMC) ID                             | enrichment                 | mapped to column "pmcid"                        |
+| PubMed ID                                           | enrichment                 | mapped to column "pmid"                         |
+| Publisher                                           | enrichment                 | mapped to column "publisher"                    |
+| TCO year                                            | preprocessing              | generation of 'period' column                   |
+| Type of publication                                 | preprocessing              | record deletion                                 |
+| Drop?                                               | preprocessing              | record deletion                                 |
+| Year of publication                                 | preprocessing              | generation of 'period' column                   |
  
 2. All rows without a valid entry in the 'DOI' column were removed (Note that for this and every following row removal steps the line in question was replaced by a comma sequence, so line numbers in the preprocessed file still correspond to their counterpart in the original file).
 3. All rows with a '1' in the 'Drop?' column were removed, these entries were identified as [removable duplicates](https://nbviewer.jupyter.org/github/kshamash/Article-processing-charges/blob/master/Autogenerate%20APC%20report.ipynb#De-duplication) by JISC. Note that JISC's de-duplication rules, although being compatible with OpenAPC's, do not resolve every duplicate case, so this would require additional efforts on our side later on (OpenAPC enforces a strict [no-duplicate](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing#interdependent-tests) policy on DOIs in its datasets).
-4. All rows containing one of the following RIOXX terms in the 'Type of publication' column were removed: 'Book', 'Book chapter', 'Book edited', 'Conference Paper/Proceeding/Abstract', 'Letter', 'Monograph'.
+4. All rows containing one of the following RIOXX terms in the 'Type of publication' column were removed: 'Book chapter', 'Book edited', 'Conference Paper/Proceeding/Abstract', 'Letter'. If the term 'book' or 'monograph' was encountered, the line was extracted and stored in a dedicated output file for OA books (see below). 
 5. The 'period' column was added. Since its definition by the OpenAPC data schema is 'Year of APC payment', the value was copied from one of the 'date' columns using the following order (We took the value from the highest ranking non-empty column, optionally formatted as YYYY):
     - Date of APC payment
     - Year of publication
@@ -59,6 +60,8 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
     3. otherwise, remove the entry.
 
 Steps 2-7 were executed by an custom python [preprocessing script](https://github.com/OpenAPC/openapc-de/blob/master/python/etc/preprocessing/jisc/jisc_preprocessing.py). The script's [output log](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/preprocessed/preprocessing.log) was added to the directory along with the resulting file for reference.
+
+
 
 8. Rows with DOIs unsuited for enrichment (non-resolving, not listed in crossref or wrong crossref publication type) were removed.
 9. Inconsistent institutional names were normalised: 
@@ -98,6 +101,8 @@ This is the final file as it was added to the OpenAPC core data. The following s
 #### Statistics
 
 The processing reduced the net increase in articles to OpenAPC by a large margin. The following table gives an overview on how many articles were removed for what reason.
+
+*Note*: This calculation is no longer accurate since the retroactive extraction of book/monograph data in 2020.
 
 Articles in original report: *35698*
 
