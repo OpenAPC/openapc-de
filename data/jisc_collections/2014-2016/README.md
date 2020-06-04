@@ -60,8 +60,10 @@ Preprocessed variants of the original files. As OpenAPC data files require 5 spe
     3. otherwise, remove the entry.
 
 Steps 2-7 were executed by an custom python [preprocessing script](https://github.com/OpenAPC/openapc-de/blob/master/python/etc/preprocessing/jisc/jisc_preprocessing.py). The script's [output log](https://github.com/OpenAPC/openapc-de/blob/master/data/jisc_collections/preprocessed/preprocessing.log) was added to the directory along with the resulting file for reference.
-
-
+Records identified as books or monographs (Step 4) were extracted to a separate output file (books_preprocessed.csv), which differs from the regular preprocessed file in some points:
+- The file does not correspond linewise to the "columns_removed" file, instead it has a "Line number" column to indicate each record's position in the input file.
+- the "is_hybrid" column was removed.
+- "ISBN" (initially empty) and "Article title" were added.
 
 8. Rows with DOIs unsuited for enrichment (non-resolving, not listed in crossref or wrong crossref publication type) were removed.
 9. Inconsistent institutional names were normalised: 
@@ -102,7 +104,7 @@ This is the final file as it was added to the OpenAPC core data. The following s
 
 The processing reduced the net increase in articles to OpenAPC by a large margin. The following table gives an overview on how many articles were removed for what reason.
 
-*Note*: This calculation is no longer accurate since the retroactive extraction of book/monograph data in 2020.
+*Note*: This calculation is no longer accurate due to the retroactive extraction of book/monograph data in 2020.
 
 Articles in original report: *35698*
 
