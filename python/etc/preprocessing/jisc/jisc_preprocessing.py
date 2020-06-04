@@ -125,6 +125,7 @@ FIELDNAMES = {
             "Publisher",
             "Journal",
             "Type of publication",
+            "Article title",
             "Date of publication",
             "Date of APC payment",
             "APC paid (£) including VAT if charged",
