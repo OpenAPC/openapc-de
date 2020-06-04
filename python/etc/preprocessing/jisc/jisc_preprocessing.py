@@ -60,42 +60,79 @@ FIELDNAMES = {
             "Type of publication",
             "Year of publication",
             "period",
+            "euro",
+            "ISBN"
+        ]
+    },
+    "2017": {
+        "article": [
+            "APC paid (£) including VAT if charged",
+            "DOI",
+            "Date of APC payment",
+            "ISSN0",
+            "Institution",
+            "Journal",
+            "Licence",
+            "PubMed ID",
+            "Publisher",
+            "TCO year",
+            "Type of publication",
+            "Drop?",
+            "Period of APC payment",
+            "period",
+            "is_hybrid",
             "euro"
         ],
+        "book": [
+            "Line number",
+            "APC paid (£) including VAT if charged",
+            "Article title",
+            "DOI",
+            "Date of APC payment",
+            "Institution",
+            "Journal",
+            "Licence",
+            "Publisher",
+            "TCO year",
+            "Type of publication",
+            "Period of APC payment",
+            "period",
+            "euro",
+            "ISBN"
+        ]
     },
-    "2017": [
-        "APC paid (£) including VAT if charged",
-        "DOI",
-        "Date of APC payment",
-        "ISSN0",
-        "Institution",
-        "Journal",
-        "Licence",
-        "PubMed ID",
-        "Publisher",
-        "TCO year",
-        "Type of publication",
-        "Drop?",
-        "Period of APC payment",
-        "period",
-        "is_hybrid",
-        "euro"
-    ],
-    "2018": [
-        "Institution",
-        "Date of acceptance",
-        "PubMed ID",
-        "DOI",
-        "Publisher",
-        "Journal",
-        "Type of publication",
-        "Date of publication",
-        "Date of APC payment",
-        "APC paid (£) including VAT if charged",
-        "period",
-        "is_hybrid",
-        "euro"
-    ]
+    "2018": {
+        "article": [
+            "Institution",
+            "Date of acceptance",
+            "PubMed ID",
+            "DOI",
+            "Publisher",
+            "Journal",
+            "Type of publication",
+            "Date of publication",
+            "Date of APC payment",
+            "APC paid (£) including VAT if charged",
+            "period",
+            "is_hybrid",
+            "euro"
+        ],
+        "book": [
+            "Line number",
+            "Institution",
+            "Date of acceptance",
+            "DOI",
+            "Publisher",
+            "Journal",
+            "Type of publication",
+            "Date of publication",
+            "Date of APC payment",
+            "APC paid (£) including VAT if charged",
+            "period",
+            "euro",
+            "ISBN"
+        ]
+    }
 }
 
 PUBLICATION_TYPES_BL = [
@@ -339,6 +376,7 @@ def main():
         pub_type = line["Type of publication"]
         if pub_type in PUBLICATION_TYPES_BOOKS:
             line["Line number"] = str(reader.line_num)
+            line["ISBN"] = ""
             is_book = True
         else:
             line["is_hybrid"] = ""
@@ -376,7 +414,8 @@ def main():
         # euro field generation
         calculate_euro_value(line, FORMAT)
         if is_book:
-            book_content.append(line_as_list(line, "book"))
+            if line["Line number"] != "":
+                book_content.append(line_as_list(line, "book"))
             article_content.append(list(empty_article_line))
         else:
             article_content.append(line_as_list(line, "article"))
