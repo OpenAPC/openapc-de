@@ -183,6 +183,9 @@ EXCHANGE_RATES_CACHE_FILE = None
 
 DELETE_REASONS = {}
 
+CURRENT_YEAR = 2017
+#CURRENT_YEAR = datetime.datetime.now().year
+
 NO_DECORATIONS = False
 
 def delete_line(line_dict, reason):
@@ -298,7 +301,7 @@ def calculate_euro_value(line, jisc_format):
                     _print("g", msg)
                 else:
                     year = line["period"]
-                    if int(year) >= datetime.datetime.now().year:
+                    if int(year) >= CURRENT_YEAR:
                         del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
                         delete_line(line, del_msg)
                         return
@@ -322,7 +325,7 @@ def calculate_euro_value(line, jisc_format):
             _print("g", msg)
         else:
             year = line["period"]
-            if int(year) > datetime.datetime.now().year:
+            if int(year) > CURRENT_YEAR:
                 del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
                 delete_line(line, del_msg)
                 return
@@ -383,17 +386,17 @@ def main():
         # Publication blacklist checking
         if pub_type in PUBLICATION_TYPES_BL and not is_book:
             delete_line(line, "Blacklisted pub type ('" + pub_type + "')")
-            article_content.append(line_as_list(line, "article"))
+            article_content.append(list(empty_article_line))
             continue
         # DOI checking
         if len(line["DOI"].strip()) == 0 and not is_book:
             delete_line(line, "Empty DOI")
-            article_content.append(line_as_list(line, "article"))
+            article_content.append(list(empty_article_line))
             continue
         # Drop checking
-        if "Drop?" in FIELDNAMES[FORMAT] and line["Drop?"] == "1" and not is_book:
+        if "Drop?" in FIELDNAMES[FORMAT]["article"] and line["Drop?"] == "1":
             delete_line(line, "Drop mark found")
-            article_content.append(line_as_list(line, "article"))
+            article_content.append(list(empty_article_line))
             continue
         # period field generation
         for source_field in PERIOD_FIELD_SOURCE[FORMAT]:
@@ -401,7 +404,7 @@ def main():
             match = DATE_DAY_RE[FORMAT].match(content)
             if match:
                 year = match.groupdict()["year"]
-                if int(year) > datetime.datetime.now().year:
+                if int(year) > CURRENT_YEAR:
                     continue
                 line["period"] = year
                 msg = "   - Created period field ('{}') by parsing value '{}' in column '{}'".format(year, content, source_field)
@@ -416,6 +419,7 @@ def main():
         if is_book:
             if line["Line number"] != "":
                 book_content.append(line_as_list(line, "book"))
+                delete_line(line, "Book content (extracted to separate file)")
             article_content.append(list(empty_article_line))
         else:
             article_content.append(line_as_list(line, "article"))
