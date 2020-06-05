@@ -160,7 +160,9 @@ JOURNAL_OWNER_CHANGED = {
     "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
     "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
     "0032-5791": ["Oxford University Press (OUP)", "Elsevier BV"], # Poultry Science
-    "2050-490X": ["Springer Science + Business Media", "EDP Sciences"] # Regenerative Medicine Research
+    "2050-490X": ["Springer Science + Business Media", "EDP Sciences"], # Regenerative Medicine Research
+    "1438-3896": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology
+    "1438-390X": ["Springer Nature", "Wiley-Blackwell"] # Population Ecology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
