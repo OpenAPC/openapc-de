@@ -111,7 +111,8 @@ OVERWRITE_STRATEGY = {
     "book_title": CSVColumn.OW_NEVER,
     "isbn": CSVColumn.OW_NEVER,
     "isbn_print": CSVColumn.OW_NEVER,
-    "isbn_electronic": CSVColumn.OW_NEVER
+    "isbn_electronic": CSVColumn.OW_NEVER,
+    "backlist_oa": CSVColumn.OW_NEVER
 }
 
 ARG_HELP_STRINGS = {
@@ -389,6 +390,7 @@ def main():
         "doaj": CSVColumn("doaj", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["doaj"]),
         "agreement": CSVColumn("agreement", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["agreement"]),
         "book_title": CSVColumn("book_title", CSVColumn.NONE, args.book_title_column, overwrite=OVERWRITE_STRATEGY["book_title"]),
+        "backlist_oa": CSVColumn("backlist_oa", CSVColumn.MANDATORY, args.backlist_oa_column, overwrite=OVERWRITE_STRATEGY["backlist_oa"]),
         "isbn": CSVColumn("isbn", CSVColumn.OPTIONAL, args.isbn_column, overwrite=OVERWRITE_STRATEGY["isbn"]),
         "isbn_print": CSVColumn("isbn_print", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["isbn_print"]),
         "isbn_electronic": CSVColumn("isbn_electronic", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"])

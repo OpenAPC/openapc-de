@@ -151,6 +151,7 @@ COLUMN_SCHEMAS = {
         "period",
         "euro",
         "doi",
+        "backlist_oa",
         "publisher",
         "book_title",
         "isbn",
@@ -158,9 +159,6 @@ COLUMN_SCHEMAS = {
         "isbn_electronic",
         "license_ref",
         "indexed_in_crossref",
-        "pmid",
-        "pmcid",
-        "ut",
         "doab"
     ]
 }
