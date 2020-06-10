@@ -386,7 +386,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 |2016   |       9,623|   1,636|     1,532|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
 |2017   |      14,119|   1,722|     1,560|   9 - 14,634|          10,469|       2,530|         2,467|       37 - 9,858|
 |2018   |      12,848|   1,714|     1,598|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       7,930|   1,676|     1,661|  22 -  7,684|           2,375|       2,607|         2,582|      112 - 7,745|
+|2019   |       7,931|   1,676|     1,661|  22 -  7,684|           2,374|       2,607|         2,582|      112 - 7,745|
 |2020   |          55|   1,637|     1,634| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
 
 
@@ -395,7 +395,7 @@ View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data
 
 
 
-63,667 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 101,914,759, including value-added tax; the average payment was € 1,601 (median =  € 1,512, SD = € 790).
+63,668 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 101,916,671, including value-added tax; the average payment was € 1,601 (median =  € 1,512, SD = € 790).
 
 The following table summarises institutional spending on articles published in fully open access journals.
 
@@ -412,7 +412,7 @@ The following table summarises institutional spending on articles published in f
 |CNRS                                                                 |    1,478|             2,365,566|   1,601 (827)|  1,365|       31 -  5,606|
 |Bill & Melinda Gates Foundation                                      |    1,394|             2,633,915| 1,889 (1,018)|  1,741|       85 - 14,634|
 |Tuebingen U                                                          |    1,341|             1,985,632|   1,481 (419)|  1,536|       75 -  2,913|
-|University of Oxford                                                 |    1,218|             2,857,774| 2,346 (1,203)|  1,980|       24 -  5,700|
+|University of Oxford                                                 |    1,219|             2,859,685| 2,346 (1,203)|  1,977|       24 -  5,700|
 |Imperial College London                                              |    1,197|             2,346,549| 1,960 (1,066)|  1,646|      260 -  7,684|
 |Heidelberg U                                                         |    1,189|             1,818,750|   1,530 (391)|  1,661|       60 -  2,108|
 |University of Cambridge                                              |    1,173|             2,660,767| 2,268 (1,209)|  1,853|        9 -  6,197|
@@ -669,7 +669,7 @@ The following table summarises institutional spending on articles published in f
 
 
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 43,929 open access articles being published in hybrid journals. Total expenditure amounts to  110,222,846 €. Average  fee is 2,509 € and the median 2,473 €.
+Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers 43,928 open access articles being published in hybrid journals. Total expenditure amounts to  110,220,935 €. Average  fee is 2,509 € and the median 2,473 €.
 
 The following institutions have contributed expenditures on hybrid open access journal articles.
 
@@ -680,7 +680,7 @@ The following institutions have contributed expenditures on hybrid open access j
 |Wellcome Trust                                                       |    4,355|            11,658,244|   2,677 (974)|  2,611|       194 - 8,247|
 |FWF - Austrian Science Fund                                          |    4,197|            10,385,212|   2,474 (842)|  2,618|       120 - 7,847|
 |University of Cambridge                                              |    2,637|             7,354,408| 2,789 (1,118)|  2,671|        80 - 8,273|
-|University of Oxford                                                 |    2,496|             7,258,366| 2,908 (1,157)|  2,669|        37 - 9,070|
+|University of Oxford                                                 |    2,495|             7,256,454| 2,908 (1,157)|  2,669|        37 - 9,070|
 |University of Manchester                                             |    1,935|             4,762,177| 2,461 (1,006)|  2,397|       169 - 7,133|
 |Bill & Melinda Gates Foundation                                      |    1,846|             5,116,200|   2,772 (862)|  2,648|       242 - 6,884|
 |Imperial College London                                              |    1,786|             4,903,130|   2,745 (944)|  2,675|       134 - 6,511|
