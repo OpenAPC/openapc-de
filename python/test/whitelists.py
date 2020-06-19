@@ -227,5 +227,6 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2045-1393", # International Journal of Hematologic Oncology, Gold OA since 2018 (?)
     "0032-5791", # Poultry Science, Gold OA since 2020
     "0960-9776", # The Breast, Gold OA since 2020
-    "1662-811X" # Journal of Innate Immunity, Gold OA since 2019
+    "1662-811X", # Journal of Innate Immunity, Gold OA since 2019
+    "1727-9232" # Corporate Ownership & Control, Gold OA since 2018
 ]
