@@ -216,7 +216,8 @@ JOURNAL_MAPPINGS = {
     "AFRICAN JOURNAL OF FOOD, AGRICULTURE, NUTRITION AND DEVELOPMENT": "African Journal of Food, Agriculture, Nutrition and Development",
     "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience",
     "Chemistry – An Asian Journal": "Chemistry - An Asian Journal",
-    "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+    "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science",
+    "Corporate Ownership and Control": "Corporate Ownership & Control"
 }
 
 COLUMN_NAMES = {
