@@ -9,16 +9,31 @@
 
 The aim of this repository is:
 
-- to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
+- to release data sets on fees paid for Open Access journal articles and monographs by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on 106,911 open access journal articles, amounting to € 211,160,561 and contributed by 263 institutions.
+At the moment this project provides the following cost data:
+
+| publication type | count           | aggregated sum (€)      | contributing institutions              |
+|------------------|-----------------|-------------------------|----------------------------------------|
+| articles         |106,911 | 211,160,561    | 263 |
+| monographs       |927 | 4,042,561    | 1 |
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
+## How to access the data?
+
+There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.intact-project.org/) for a visual data exploration.
+
+| data set         | CSV file                                                                      | OLAP cube                                                               | treemap                                                               |
+|------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| articles         | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) | [APC cube](https://olap.intact-project.org/cube/openapc/aggregate)      | [APC treemap](https://treemaps.intact-project.org/apcdata/openapc/)   |
+| monographs       | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv)    | [BPC cube](https://olap.intact-project.org/cube/bpc/aggregate)          | [BPC treemap](https://treemaps.intact-project.org/apcdata/bpc/)       |
+
+
 ## How to contribute?
 
-Any academic institution or research funder paying for Article Process Charges (APCs) can contribute to OpenAPC, no formal registration is required.
+Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
 This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
 
 ## Participating German Universities
@@ -353,13 +368,15 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [OpenAIRE](https://www.openaire.eu/fp7-oapilot) (FP7 Post-Grant Open Access Pilot)
 
-## Data set
+## Data sets
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
+### Articles
+
 This data set contains information on 106,911 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
 
-In total, publication fee spending covered by the Open APC initiative amounted to € 211,160,561. The average payment was € 1,975  and the median was € 1,782.
+In total, publication fee spending covered by the OpenAPC initiative amounted to € 211,160,561. The average payment was € 1,975 and the median was € 1,782.
 
 View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
 
