@@ -479,16 +479,88 @@ knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA 
 
 ```
 
+### Books (BPCs)
+
+The book data set contains information on `r nrow(my_bpc)` open access books. Publication fees were supported financially by `r length(unique(my_bpc$institution))` research performing institutions and funders. 
+
+In total, book processing charges covered by the OpenAPC initiative amounted to € `r sum(my_bpc$euro)`. The average payment was € `r mean(my_bpc$euro)` and the median was € `r median(my_bpc$euro)`.
+
+Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
+
+#### Spending distribution over frontlist and backlist OA books
+
+```{r, echo=FALSE}
+p <- my_bpc %>%
+  mutate(backlist_oa = ifelse(.$backlist_oa, "Backlist OA", "Frontlist OA")) %>% 
+  mutate(short_period = str_sub(period, 3 ,4)) %>%
+  ggplot(aes(factor(short_period), euro)) +
+  geom_boxplot(outlier.size = 0.5) +
+  xlab("Year") +
+  ylab("Publication fee paid in Euro") +
+  scale_y_continuous(limits = c(0,12000)) + 
+  facet_grid(~backlist_oa) +
+  theme_bw()
+  ggsave(p, path = "figure/", filename = "boxplot_bpcs.png", width=9, height=4.5, units="in", device = "png")
+```
+
+![](figure/boxplot_bpcs.png)
+
+#### Spending distribution details
+
+```{r, echo=FALSE, results='asis', message = FALSE}
+
+frontlist_grouped <- my_bpc %>%
+    filter(backlist_oa == FALSE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
+                       extra = c(
+                         min = "min(., na.rm = TRUE)",
+                         max = "max(., na.rm = TRUE)"
+                        )) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=",")
+          ) %>%
+    ezmarkup('......[. - .]') %>%
+    select(period,frontlist_n = n,frontlist_mean = mean,frontlist_median = median,frontlist_min_max = 'min - max')
+
+backlist_grouped <- my_bpc %>%
+    filter(backlist_oa == TRUE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
+                       extra = c(
+                         min = "min(., na.rm = TRUE)",
+                         max = "max(., na.rm = TRUE)"
+                        )) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=",")
+          ) %>%
+    ezmarkup('......[. - .]') %>%
+    select(period, backlist_n = n, backlist_mean = mean, backlist_median = median, backlist_min_max = 'min - max')
+
+full_join(frontlist_grouped, backlist_grouped) %>%
+knitr::kable(col.names = c("period", "Frontlist books", "mean BPC", "median BPC", "BPC min - max", "Backlist books", "mean BPC", "median BPC", "BPC min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
+
+```
+
 
 ## Use of external sources
 
-Metadata representing journals or publishers were obtained from Crossref in order to avoid extensive validation of the records. Case where we don't re-use information from Crossref to disambiguate the spending metadata are documented [here](python/test/test_apc_csv.py). Moreover, indexing coverage in Europe PMC and the Web of science is automatically checked.
+Metadata representing publication titles or publisher names is obtained from Crossref in order to avoid extensive validation of records. Cases where we don't re-use information from Crossref to disambiguate the spending metadata are documented [here](python/test/test_apc_csv.py). Moreover, indexing coverage in Europe PMC and the Web of science is automatically checked.
 
+### Articles 
 
 |Source     |Variable  |Description                     |
 |:--------------|:---------|:-----------------------------------------------|
 |CrossRef   |`publisher` |Title of Publisher             |
-|CrossRef   |`journal_full_title` |Full Title of Journal  |
+|CrossRef   |`journal_full_title` |Full title of the journal  |
 |CrossRef   |`issn` |International Standard Serial Numbers (collapsed) |
 |CrossRef   |`issn_print` |ISSN print |
 |CrossRef   |`issn_electronic`  |ISSN electronic        |
@@ -498,6 +570,20 @@ Metadata representing journals or publishers were obtained from Crossref in orde
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
 |DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
+
+### Books
+
+|Source     |Variable  |Description                     |
+|:--------------|:---------|:-----------------------------------------------|
+|CrossRef   |`publisher` |Title of Publisher             |
+|CrossRef   |`book_title` |Full Title of a Book  |
+|CrossRef   |`isbn` |International Standard Book Number |
+|CrossRef   |`isbn_print` |ISBN print |
+|CrossRef   |`isbn_electronic`  |ISBN electronic        |
+|CrossRef   |`license_ref`  |License of the article     |
+|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |
+|DOAB           |`doab` |Is the book indexed in the DOAB? (logical)    |
+
 
 ```{r, echo=FALSE, cache = FALSE}
 
