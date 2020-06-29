@@ -14,21 +14,21 @@ The aim of this repository is:
 
 At the moment this project provides the following cost data:
 
-| publication type | count           | aggregated sum (€)      | contributing institutions              |
+| Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| articles         |106,911 | 211,160,561    | 263 |
-| monographs       |927 | 4,042,561    | 1 |
+| Articles         |108,493 | 213,677,494    | 263 |
+| Monographs       |927 | 4,042,561    | 1 |
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
 ## How to access the data?
 
-There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.intact-project.org/) for a visual data exploration.
+There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.intact-project.org/) for visual data exploration.
 
-| data set         | CSV file                                                                      | OLAP cube                                                               | treemap                                                               |
-|------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| articles         | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) | [APC cube](https://olap.intact-project.org/cube/openapc/aggregate)      | [APC treemap](https://treemaps.intact-project.org/apcdata/openapc/)   |
-| monographs       | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv)    | [BPC cube](https://olap.intact-project.org/cube/bpc/aggregate)          | [BPC treemap](https://treemaps.intact-project.org/apcdata/bpc/)       |
+| Dataset         | CSV File                                                                                                                                                         | OLAP Cube                                                               | Treemap                                                               |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set) | [APC cube](https://olap.intact-project.org/cube/openapc/aggregate)      | [APC treemap](https://treemaps.intact-project.org/apcdata/openapc/)   |
+| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)        | [BPC cube](https://olap.intact-project.org/cube/bpc/aggregate)          | [BPC treemap](https://treemaps.intact-project.org/apcdata/bpc/)       |
 
 
 ## How to contribute?
@@ -118,9 +118,10 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
 
-## Other German Research Institutions
+## Other German Institutions
 
 - [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
+- [Knowledge Unlatched](https://www.knowledgeunlatched.org/)
 
 ## Participating Austrian Institutions
 
@@ -376,13 +377,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 106,911 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
+The article data set contains information on 108,493 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 263 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 211,160,561. The average payment was € 1,975 and the median was € 1,782.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 213,677,494. The average payment was € 1,970 and the median was € 1,776.
 
-62,998 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 100,972,223, including value-added tax; the average payment was € 1,603 (median =  € 1,512, SD = € 792).
+64,417 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 103,102,807, including value-added tax; the average payment was € 1,601 (median =  € 1,514, SD = € 789).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 43,913 articles in the data set were published in hybrid journals. Total expenditure amounts to 110,188,338 €; the average fee was € 2,509 (median =  € 2,473, SD = € 1,003).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 44,076 articles in the data set were published in hybrid journals. Total expenditure amounts to 110,574,687 €; the average fee was € 2,509 (median =  € 2,476, SD = € 1,004).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -390,7 +391,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 ![](figure/boxplot_oa.png)
 
-#### Spending distribution over years
+#### Spending distribution details
 
 
 |period | OA articles| OA mean| OA median| OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
@@ -407,21 +408,46 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2014   |       5,076|   1,375|     1,257|  40 -  9,028|           6,518|       2,239|         2,200|      132 - 6,000|
 |2015   |       8,269|   1,524|     1,452|  60 -  5,669|           6,685|       2,610|         2,621|      100 - 8,636|
 |2016   |       9,623|   1,636|     1,532|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
-|2017   |      14,119|   1,721|     1,560|   9 - 14,634|          10,469|       2,530|         2,467|       37 - 9,858|
-|2018   |      12,847|   1,714|     1,597|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
-|2019   |       7,262|   1,700|     1,661|  22 -  7,684|           2,359|       2,610|         2,582|      112 - 7,745|
-|2020   |          55|   1,637|     1,634| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
+|2017   |      14,119|   1,722|     1,560|   9 - 14,634|          10,469|       2,530|         2,467|       37 - 9,858|
+|2018   |      12,920|   1,713|     1,597|  13 -  8,926|           8,874|       2,576|         2,548|       18 - 9,073|
+|2019   |       8,501|   1,669|     1,661|  22 -  7,684|           2,522|       2,594|         2,596|      112 - 7,745|
+|2020   |         162|   1,672|     1,710| 117 -  4,750|               1|       3,318|         3,318|    3,318 - 3,318|
+
+### Books (BPCs)
+
+The book data set contains information on 927 open access books. Publication fees were supported financially by 1 research performing institutions and funders. 
+
+In total, book processing charges covered by the OpenAPC initiative amounted to € 4,042,561. The average payment was € 4,361 and the median was € 1,981.
+
+Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
+
+#### Spending distribution over frontlist and backlist OA books
+
+
+
+![](figure/boxplot_bpcs.png)
+
+#### Spending distribution details
+
+
+|period | Frontlist books| mean BPC| median BPC| BPC min - max| Backlist books| mean BPC| median BPC| BPC min - max|
+|:------|---------------:|--------:|----------:|-------------:|--------------:|--------:|----------:|-------------:|
+|2017   |             141|    8,780|      8,780| 8,780 - 8,780|            195|    1,981|      1,981| 1,981 - 1,981|
+|2018   |             105|    8,275|      8,250| 8,250 - 8,780|            191|    1,875|      1,875| 1,875 - 1,875|
+|2019   |              92|    8,256|      8,250| 8,250 - 8,780|            194|    1,876|      1,875| 1,875 - 1,981|
+|2020   |               8|    8,250|      8,250| 8,250 - 8,250|              1|    1,875|      1,875| 1,875 - 1,875|
 
 
 ## Use of external sources
 
-Metadata representing journals or publishers were obtained from Crossref in order to avoid extensive validation of the records. Case where we don't re-use information from Crossref to disambiguate the spending metadata are documented [here](python/test/test_apc_csv.py). Moreover, indexing coverage in Europe PMC and the Web of science is automatically checked.
+Metadata representing publication titles or publisher names is obtained from Crossref in order to avoid extensive validation of records. Cases where we don't re-use information from Crossref to disambiguate the spending metadata are documented [here](python/test/test_apc_csv.py). Moreover, indexing coverage in Europe PMC and the Web of science is automatically checked.
 
+### Articles 
 
 |Source     |Variable  |Description                     |
 |:--------------|:---------|:-----------------------------------------------|
 |CrossRef   |`publisher` |Title of Publisher             |
-|CrossRef   |`journal_full_title` |Full Title of Journal  |
+|CrossRef   |`journal_full_title` |Full title of the journal  |
 |CrossRef   |`issn` |International Standard Serial Numbers (collapsed) |
 |CrossRef   |`issn_print` |ISSN print |
 |CrossRef   |`issn_electronic`  |ISSN electronic        |
@@ -432,16 +458,30 @@ Metadata representing journals or publishers were obtained from Crossref in orde
 |Web of Science |`ut` |Web of Science record ID             |
 |DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
 
+### Books
+
+|Source     |Variable  |Description                     |
+|:--------------|:---------|:-----------------------------------------------|
+|CrossRef   |`publisher` |Title of Publisher             |
+|CrossRef   |`book_title` |Full Title of a Book  |
+|CrossRef   |`isbn` |International Standard Book Number |
+|CrossRef   |`isbn_print` |ISBN print |
+|CrossRef   |`isbn_electronic`  |ISBN electronic        |
+|CrossRef   |`license_ref`  |License of the article     |
+|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |
+|DOAB           |`doab` |Is the book indexed in the DOAB? (logical)    |
+
+
 
 
 Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.79%       |
-|PubMed ID                  |  76.81%      |
-|PubMed Central ID          |  70.21%     |
-|Web of Science record ID   | 93.86%      |
+|DOI                        |  99.77%       |
+|PubMed ID                  |  76.69%      |
+|PubMed Central ID          |  70.13%     |
+|Web of Science record ID   | 93.8%      |
 
 
 
@@ -469,7 +509,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Birgit Hablizel, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Qingbo Xu, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Birgit Hablizel, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Max Mosterd, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Qingbo Xu, Philip Young, Philipp Zumstein
 
 ## Contact
 
