@@ -226,7 +226,7 @@ COLUMN_NAMES = {
     "euro": ["apc", "kosten", "cost", "euro", "eur"],
     "period": ["period", "jahr"],
     "is_hybrid": ["is_hybrid", "is hybrid", "hybrid"],
-    "publisher": ["publisher"],
+    "publisher": ["publisher", "PublisherName"],
     "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title", "journaltitle", "journal_title"],
     "issn": ["issn", "issn.1", "issn0"],
     "issn_print": ["issn_print"],
@@ -238,7 +238,11 @@ COLUMN_NAMES = {
     "pmcid": ["pmcid", "pubmed central (pmc) id"],
     "ut": ["ut"],
     "url": ["url"],
-    "doaj": ["doaj"]
+    "doaj": ["doaj"],
+    "book_title": ["book_title"],
+    "isbn": ["isbn"],
+    "isbn_print": ["isbn_print"],
+    "isbn_electronic": ["isbn_electronic"]
 }
 
 ISSN_L_CORRECTIONS = {
