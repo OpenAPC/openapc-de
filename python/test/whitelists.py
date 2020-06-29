@@ -160,7 +160,9 @@ JOURNAL_OWNER_CHANGED = {
     "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
     "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
     "0032-5791": ["Oxford University Press (OUP)", "Elsevier BV"], # Poultry Science
-    "2050-490X": ["Springer Science + Business Media", "EDP Sciences"] # Regenerative Medicine Research
+    "2050-490X": ["Springer Science + Business Media", "EDP Sciences"], # Regenerative Medicine Research
+    "1438-3896": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology
+    "1438-390X": ["Springer Nature", "Wiley-Blackwell"] # Population Ecology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -224,5 +226,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2162-3945", # Adipocyte, Gold OA since 09/2018
     "2045-1393", # International Journal of Hematologic Oncology, Gold OA since 2018 (?)
     "0032-5791", # Poultry Science, Gold OA since 2020
-    "0960-9776" # The Breast, Gold OA since 2020
+    "0960-9776", # The Breast, Gold OA since 2020
+    "1662-811X", # Journal of Innate Immunity, Gold OA since 2019
+    "1727-9232" # Corporate Ownership & Control, Gold OA since 2018
 ]
