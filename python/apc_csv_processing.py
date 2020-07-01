@@ -15,9 +15,10 @@ import openapc_toolkit as oat
 
 class CSVColumn(object):
 
-    MANDATORY = "mandatory"
-    OPTIONAL = "optional"
-    NONE = "non-required"
+    MANDATORY = {"text": "mandatory", "color": "green"}
+    BACKUP = {"text": "backup", "color": "blue"}
+    RECOMMENDED = {"text": "recommended", "color": "cyan"}
+    NONE = {"text": "not required", "color": "yellow"}
 
     OW_ALWAYS = 0
     OW_ASK = 1
@@ -32,14 +33,30 @@ class CSVColumn(object):
                "\033[93m{ov}\033[0m by \033[93m{nv}\033[0m in this " +
                "column\n6) No, and never overwrite in this column\n>")
 
-    def __init__(self, column_type, requirement, index=None, column_name="", overwrite=OW_ASK):
+    def __init__(self, column_type, requirement=None, index=None, column_name="", overwrite=OW_ASK):
         self.column_type = column_type
-        self.requirement = requirement
+        if requirement is None:
+            self.requirement = {
+                "articles": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            }
+        else:
+            self.requirement = requirement
         self.index = index
         self.column_name = column_name
         self.overwrite = overwrite
         self.overwrite_whitelist = {}
         self.overwrite_blacklist = {}
+
+    def get_req_description(self, colored=True):
+        requirements = []
+        for pub_type, required in self.requirement.items():
+            if colored:
+                requirement = oat.colorize(required["text"] + " for " + pub_type, required["color"])
+            else:
+                requirement = required["text"] + " for " + pub_type
+            requirements.append(requirement)
+        return ", ".join(requirements)
 
     def check_overwrite(self, old_value, new_value):
         if old_value == new_value:
@@ -202,6 +219,10 @@ ARG_HELP_STRINGS = {
             "index in the CSV file, with the leftmost column being 0. This " +
             "is an optional column, identifying it is required if there are " +
             "books without a DOI in the file.",
+    "backlist_oa": "Manually identify the 'backlist_oa' column if the script " +
+                   "fails to detect it automatically. The value is the " +
+                   "numerical column index in the CSV file, with the leftmost " +
+                   "column being 0.",
     "additional_isbns": "Identify more optional columns containing ISBN "+
                         "values in addition to isbn, isbn_print and isbn_electronic. " +
                         "The value is a whitespace-separated list of numerical column " +
@@ -271,6 +292,8 @@ def main():
                         type=int, help=ARG_HELP_STRINGS["issn"])
     parser.add_argument("-isbn", "--isbn_column",
                         type=int, help=ARG_HELP_STRINGS["isbn"])
+    parser.add_argument("-backlist_oa", "--backlist_oa_column",
+                        type=int, help=ARG_HELP_STRINGS["backlist_oa"])
     parser.add_argument("-additional_isbns", "--additional_isbn_columns", type=int, nargs='+',
                         help=ARG_HELP_STRINGS["additional_isbns"])
     parser.add_argument("-url", "--url_column",
@@ -370,30 +393,30 @@ def main():
                 additional_isbn_columns.append(index)
 
     column_map = {
-        "institution": CSVColumn("institution", CSVColumn.MANDATORY, args.institution_column, overwrite=OVERWRITE_STRATEGY["institution"]),
-        "period": CSVColumn("period", CSVColumn.MANDATORY, args.period_column, overwrite=OVERWRITE_STRATEGY["period"]),
-        "euro": CSVColumn("euro", CSVColumn.NONE, args.euro_column, overwrite=OVERWRITE_STRATEGY["euro"]),
-        "doi": CSVColumn("doi", CSVColumn.MANDATORY, args.doi_column, overwrite=OVERWRITE_STRATEGY["doi"]),
-        "is_hybrid": CSVColumn("is_hybrid", CSVColumn.MANDATORY, args.is_hybrid_column, overwrite=OVERWRITE_STRATEGY["is_hybrid"]),
-        "publisher": CSVColumn("publisher", CSVColumn.OPTIONAL, args.publisher_column, overwrite=OVERWRITE_STRATEGY["publisher"]),
-        "journal_full_title": CSVColumn("journal_full_title", CSVColumn.OPTIONAL, args.journal_full_title_column, overwrite=OVERWRITE_STRATEGY["journal_full_title"]),
-        "issn": CSVColumn("issn", CSVColumn.OPTIONAL, args.issn_column, overwrite=OVERWRITE_STRATEGY["issn"]),
-        "issn_print": CSVColumn("issn_print", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_print"]),
-        "issn_electronic": CSVColumn("issn_electronic", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_electronic"]),
-        "issn_l": CSVColumn("issn_l", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["issn_l"]),
-        "license_ref": CSVColumn("license_ref", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["license_ref"]),
-        "indexed_in_crossref": CSVColumn("indexed_in_crossref", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["indexed_in_crossref"]),
-        "pmid": CSVColumn("pmid", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["pmid"]),
-        "pmcid": CSVColumn("pmcid", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["pmcid"]),
-        "ut": CSVColumn("ut", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["ut"]),
-        "url": CSVColumn("url", CSVColumn.OPTIONAL, args.url_column, overwrite=OVERWRITE_STRATEGY["url"]),
-        "doaj": CSVColumn("doaj", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["doaj"]),
-        "agreement": CSVColumn("agreement", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["agreement"]),
-        "book_title": CSVColumn("book_title", CSVColumn.NONE, args.book_title_column, overwrite=OVERWRITE_STRATEGY["book_title"]),
-        "backlist_oa": CSVColumn("backlist_oa", CSVColumn.MANDATORY, args.backlist_oa_column, overwrite=OVERWRITE_STRATEGY["backlist_oa"]),
-        "isbn": CSVColumn("isbn", CSVColumn.OPTIONAL, args.isbn_column, overwrite=OVERWRITE_STRATEGY["isbn"]),
-        "isbn_print": CSVColumn("isbn_print", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["isbn_print"]),
-        "isbn_electronic": CSVColumn("isbn_electronic", CSVColumn.NONE, None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"])
+        "institution": CSVColumn("institution", {"articles": CSVColumn.MANDATORY, "books": CSVColumn.MANDATORY}, args.institution_column, overwrite=OVERWRITE_STRATEGY["institution"]),
+        "period": CSVColumn("period",{"articles": CSVColumn.MANDATORY, "books": CSVColumn.MANDATORY}, args.period_column, overwrite=OVERWRITE_STRATEGY["period"]),
+        "euro": CSVColumn("euro", {"articles": CSVColumn.MANDATORY, "books": CSVColumn.MANDATORY}, args.euro_column, overwrite=OVERWRITE_STRATEGY["euro"]),
+        "doi": CSVColumn("doi", {"articles": CSVColumn.MANDATORY, "books": CSVColumn.MANDATORY}, args.doi_column, overwrite=OVERWRITE_STRATEGY["doi"]),
+        "is_hybrid": CSVColumn("is_hybrid", {"articles": CSVColumn.MANDATORY, "books": CSVColumn.NONE}, args.is_hybrid_column, overwrite=OVERWRITE_STRATEGY["is_hybrid"]),
+        "publisher": CSVColumn("publisher", {"articles": CSVColumn.BACKUP, "books": CSVColumn.NONE}, args.publisher_column, overwrite=OVERWRITE_STRATEGY["publisher"]),
+        "journal_full_title": CSVColumn("journal_full_title", {"articles": CSVColumn.BACKUP, "books": CSVColumn.NONE}, args.journal_full_title_column, overwrite=OVERWRITE_STRATEGY["journal_full_title"]),
+        "issn": CSVColumn("issn", {"articles": CSVColumn.BACKUP, "books": CSVColumn.NONE}, args.issn_column, overwrite=OVERWRITE_STRATEGY["issn"]),
+        "issn_print": CSVColumn("issn_print", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["issn_print"]),
+        "issn_electronic": CSVColumn("issn_electronic", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["issn_electronic"]),
+        "issn_l": CSVColumn("issn_l", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["issn_l"]),
+        "license_ref": CSVColumn("license_ref", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE} , None, overwrite=OVERWRITE_STRATEGY["license_ref"]),
+        "indexed_in_crossref": CSVColumn("indexed_in_crossref", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["indexed_in_crossref"]),
+        "pmid": CSVColumn("pmid", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["pmid"]),
+        "pmcid": CSVColumn("pmcid", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["pmcid"]),
+        "ut": CSVColumn("ut", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["ut"]),
+        "url": CSVColumn("url", {"articles": CSVColumn.BACKUP, "books": CSVColumn.NONE}, args.url_column, overwrite=OVERWRITE_STRATEGY["url"]),
+        "doaj": CSVColumn("doaj", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["doaj"]),
+        "agreement": CSVColumn("agreement", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["agreement"]),
+        "book_title": CSVColumn("book_title", {"articles": CSVColumn.NONE, "books": CSVColumn.RECOMMENDED}, args.book_title_column, overwrite=OVERWRITE_STRATEGY["book_title"]),
+        "backlist_oa": CSVColumn("backlist_oa", {"articles": CSVColumn.NONE, "books": CSVColumn.MANDATORY}, args.backlist_oa_column, overwrite=OVERWRITE_STRATEGY["backlist_oa"]),
+        "isbn": CSVColumn("isbn", {"articles": CSVColumn.NONE, "books": CSVColumn.BACKUP}, args.isbn_column, overwrite=OVERWRITE_STRATEGY["isbn"]),
+        "isbn_print": CSVColumn("isbn_print", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["isbn_print"]),
+        "isbn_electronic": CSVColumn("isbn_electronic", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"])
     }
 
     header = None
@@ -498,18 +521,73 @@ def main():
                 column_map[column_type].index = index
         break
 
-    # Wrap up: Check if there any mandatory column types left which have not
-    # yet been identified - we cannot continue in that case (unless forced).
-    unassigned = [x for x in iter(column_map.items()) if x[1].requirement == CSVColumn.MANDATORY and x[1].index is None]
-    if unassigned:
-        for item in unassigned:
-            print("The {} column is still unidentified.".format(item[0]))
+    print("\n    *** CSV file analysis summary ***\n")
+
+    index_dict = {csvc.index: csvc for csvc in column_map.values()}
+
+    for index in range(num_columns):
+        column_name = ""
         if header:
-            print("The CSV header is:\n" + dialect.delimiter.join(header))
+            column_name = header[index]
+        if index in index_dict:
+            column = index_dict[index]
+            msg = u"column number {} ({}) is the '{}' column ({})".format(
+                index, column_name, column.column_type, column.get_req_description())
+            print(msg)
+        elif index in additional_isbn_columns:
+            msg = u"column number {} ({}) is an additional ISBN column".format(index, column_name)
+            oat.print_c(msg)
+        else:
+            if args.add_unknown_columns:
+                msg = (u"column number {} ({}) is an unknown column, it will be " +
+                       "appended to the generated CSV file")
+                print(msg.format(index, column_name))
+                if not column_name:
+                    # Use a generic name
+                    column_name = "unknown"
+                while column_name in column_map.keys():
+                    # TODO: Replace by a numerical, increasing suffix
+                    column_name += "_"
+                column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
+            else:
+                msg = (u"column number {} ({}) is an unknown column, it will be " +
+                       "ignored")
+                print(msg.format(index, column_name))
+
+    print()
+    for column in column_map.values():
+        if column.index is None:
+            msg = "The '{}' column could not be identified ({})"
+            print(msg.format(column.column_type, column.get_req_description()))
+    print()
+
+    article_mand_missing = [x.column_type for x in column_map.values() if x.requirement["articles"] == CSVColumn.MANDATORY and x.index is None]
+    article_back_missing = [x.column_type for x in column_map.values() if x.requirement["articles"] == CSVColumn.BACKUP and x.index is None]
+    book_mand_missing = [x.column_type for x in column_map.values() if x.requirement["books"] == CSVColumn.MANDATORY and x.index is None]
+    book_back_missing = [x.column_type for x in column_map.values() if x.requirement["books"] == CSVColumn.BACKUP and x.index is None]
+
+    if article_mand_missing:
+        msg = "Article enrichment is not possible - mandatory columns are missing ({})"
+        oat.print_y(msg.format(", ".join(article_mand_missing)))
+    elif article_back_missing:
+        msg = "Article enrichment is possible, but backup columns are missing ({}) - each record will need a valid DOI"
+        oat.print_b(msg.format(", ".join(article_back_missing)))
+    else:
+        oat.print_g("Article enrichment is possible with all backup columns in place")
+    if book_mand_missing:
+        msg = "Book enrichment is not possible - mandatory columns are missing ({})"
+        oat.print_y(msg.format(", ".join(book_mand_missing)))
+    elif book_back_missing:
+        msg = "Book enrichment is possible, but backup columns are missing ({}) - each record will need a valid DOI"
+        oat.print_b(msg.format(", ".join(book_back_missing)))
+    else:
+        oat.print_g("Book enrichment is possible with all backup columns in place")
+    print()
+
+    if article_mand_missing and book_mand_missing:
         if not args.force:
-            print("ERROR: We cannot continue because not all mandatory " +
-                  "column types in the CSV file could be automatically " +
-                  "identified. There are 2 ways to fix this:")
+            oat.print_r("ERROR: Could not detect the minimum mandatory data set for any " + 
+                  "publication type. There are 2 ways to fix this:")
             if not header:
                 print("1) Add a header row to your file and identify the " +
                       "column(s) by assigning them an appropiate column name.")
@@ -521,60 +599,8 @@ def main():
                   "to identify the missing columns (use -h for help) ")
             sys.exit()
         else:
-            print("WARNING: Not all mandatory column types in the CSV file " +
-                  "could be automatically identified - forced to continue.")
-
-    print("\n    *** CSV file analysis summary ***\n")
-
-    index_dict = {csvc.index: csvc for csvc in column_map.values()}
-
-    for index in range(num_columns):
-        column_name = ""
-        if header:
-            column_name = header[index]
-        if index in index_dict:
-            column = index_dict[index]
-            msg = u"column number {} ({}) is the {} column '{}'".format(
-                index, column_name, column.requirement, column.column_type)
-            if column.requirement in [CSVColumn.MANDATORY, CSVColumn.OPTIONAL]:
-                oat.print_g(msg)
-            else:
-                oat.print_b(msg)
-        elif index in additional_isbn_columns:
-            msg = u"column number {} ({}) is an additional ISBN column".format(index, column_name)
-            oat.print_c(msg)
-        else:
-            if args.add_unknown_columns:
-                msg = (u"column number {} ({}) is an unknown column, it will be " +
-                       "appended to the generated CSV file")
-                oat.print_y(msg.format(index, column_name))
-                if not column_name:
-                    # Use a generic name
-                    column_name = "unknown"
-                while column_name in column_map.keys():
-                    # TODO: Replace by a numerical, increasing suffix
-                    column_name += "_"
-                column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
-            else:
-                msg = (u"column number {} ({}) is an unknown column, it will be " +
-                       "ignored")
-                oat.print_y(msg.format(index, column_name))
-
-    print()
-    for column in column_map.values():
-        if column.index is None:
-            msg = "The {} column '{}' could not be identified."
-            print(msg.format(column.requirement, column.column_type))
-
-
-    # Check for unassigned optional column types. We can continue but should
-    # issue a warning as all entries will need a valid DOI in this case.
-    unassigned = [k for k, v in column_map.items() if v.requirement == CSVColumn.OPTIONAL and 
-                  v.index is None]
-    if unassigned:
-        print ("\nWARNING: Not all optional column types could be " +
-               "identified. Metadata aggregation is still possible, but " +
-               "every entry in the CSV file will need a valid DOI.")
+            oat.print_y("WARNING: Could not detect the minimum mandatory data set for any " + 
+                  "publication type - forced to continue.")
 
     start = input("\nStart metadata aggregation? (y/n):")
     while start not in ["y", "n"]:
