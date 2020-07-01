@@ -1481,18 +1481,28 @@ def get_unified_journal_title(journal_full_title):
 
 def get_corrected_issn_l(issn_l):
     return mappings.ISSN_L_CORRECTIONS.get(issn_l, issn_l)
+    
+def colorize(text, color):
+    ANSI_COLORS = {
+        "red": "\033[91m",
+        "green": "\033[92m",
+        "yellow": "\033[93m",
+        "blue": "\033[94m",
+        "cyan": "\033[96m"
+    }
+    return ANSI_COLORS[color] + text + "\033[0m"
 
 def print_b(text):
-    print("\033[94m" + text + "\033[0m")
+    print(colorize(text, "blue"))
 
 def print_g(text):
-    print("\033[92m" + text + "\033[0m")
+    print(colorize(text, "green"))
 
 def print_r(text):
-    print("\033[91m" + text + "\033[0m")
+    print(colorize(text, "red"))
 
 def print_y(text):
-    print("\033[93m" + text + "\033[0m")
+    print(colorize(text, "yellow"))
 
 def print_c(text):
-    print("\033[96m" + text + "\033[0m")
+    print(colorize(text, "cyan"))
