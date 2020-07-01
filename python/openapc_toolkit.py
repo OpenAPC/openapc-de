@@ -1371,7 +1371,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         if current_row["issn_print"] != "NA":
             issns.append(current_row["issn_print"])
         for issn in issns:
-            lookup_result = doaj_offline_analysis.lookup(issn)
+            lookup_result = doaj_analysis.lookup(issn)
             if lookup_result:
                 msg = "DOAJ: Journal ISSN (%s) found in DOAJ offline copy ('%s')."
                 logging.info(msg, issn, lookup_result)
