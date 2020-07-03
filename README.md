@@ -58,7 +58,6 @@ So far, the following German universities have agreed to share information on pa
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
 - [JGU Mainz](https://www.openaccess.uni-mainz.de/publikationsfonds-der-jgu/)
 - [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
-- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
@@ -92,31 +91,39 @@ So far, the following German universities have agreed to share information on pa
 - [University of Würzburg](https://www.bibliothek.uni-wuerzburg.de/en/research-publishing/open-access/publication-fund/)
 - [Ulm University](https://www.uni-ulm.de/en/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/oap/open-access/)
 
-## Participating Research Society Funds in Germany
+## Participating German Research Organisations
 
-Dataset on funds that are supported by research societies under its Open-Access Publishing Programme.
+### Fraunhofer Society
 
-Participating Research Organizations:
+- [Fraunhofer Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html)
 
-- [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
-
-The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
+### Helmholtz Association
 
 - [DLR - Deutsches Zentrum für Luft- und Raumfahrt](https://www.dlr.de/zb/en/desktopdefault.aspx/tabid-8234/)
-- [Fraunhofer Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html)
 - [Forschungszentrum Jülich](https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html)
 - [GEOMAR - Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/centre/central-facilities/library/)
-- [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?en=36297)
+- [GFZ German Research Centre for Geosciences](https://www.gfz-potsdam.de/en/home/) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
+- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
+
+### Leibniz Association
+
+- [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/en/library)
 - [INM - Leibniz Institute for New Materials](https://www.ntnm-bib.de/research-publish/oa-finanzieren/?lang=en)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
-- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/) (provides APC data for the [GFZ](https://www.gfz-potsdam.de/en/home/) and the [PIK](https://www.pik-potsdam.de))
-- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
+- [Potsdam Institute for Climate Impact Research](https://www.pik-potsdam.de) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
+
+### Max Planck Society
+
+- [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
+
+The data content covers APCs as paid for by the central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of the data. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
 
 ## Other German Institutions
 
