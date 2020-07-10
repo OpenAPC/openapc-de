@@ -309,11 +309,7 @@ class TestAPCRows(object):
         check_optional_identifier(row_object)
         check_issns(row_object)
         check_hybrid_status(row_object)
-
-    def test_doi_duplicates(self, row_object):
         check_for_doi_duplicates(row_object)
-
-    def test_name_consistency(self, row_object):
         check_name_consistency(row_object)
         
 if __name__ == '__main__':
