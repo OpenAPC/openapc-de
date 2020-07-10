@@ -217,7 +217,9 @@ JOURNAL_MAPPINGS = {
     "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience",
     "Chemistry – An Asian Journal": "Chemistry - An Asian Journal",
     "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science",
-    "Corporate Ownership and Control": "Corporate Ownership & Control"
+    "Corporate Ownership and Control": "Corporate Ownership & Control",
+    "Immunology & Cell Biology": "Immunology and Cell Biology",
+    "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures"
 }
 
 COLUMN_NAMES = {
