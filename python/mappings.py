@@ -242,6 +242,7 @@ COLUMN_NAMES = {
     "url": ["url"],
     "doaj": ["doaj"],
     "book_title": ["book_title"],
+    "backlist_oa": ["backlist_oa"],
     "isbn": ["isbn"],
     "isbn_print": ["isbn_print"],
     "isbn_electronic": ["isbn_electronic"]

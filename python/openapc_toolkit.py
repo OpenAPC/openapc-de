@@ -837,7 +837,7 @@ def find_book_dois_in_crossref(isbn_list):
     """
     if type(isbn_list) != type([]) or len(isbn_list) == 0:
         raise ValueError("Parameter must be a non-empty list!")
-    filter_list = ["isbn:" + isbn for isbn in isbn_list]
+    filter_list = ["isbn:" + isbn.strip() for isbn in isbn_list]
     filters = ",".join(filter_list)
     api_url = "https://api.crossref.org/works?filter="
     url = api_url + filters + "&rows=500"
@@ -918,14 +918,20 @@ def get_metadata_from_crossref(doi_string):
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
         ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:publisher//cr_1_0:publisher_name": "publisher",
         ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
+        ".//cr_1_0:book//cr_1_0:book_set_metadata//cr_1_0:publisher//cr_1_0:publisher_name": "publisher",
+        ".//cr_1_1:book//cr_1_1:book_set_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
         ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:titles//cr_1_0:title": "book_title",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:titles//cr_1_1:title": "book_title",
         ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:titles//cr_1_0:title": "book_title",
         ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:titles//cr_1_1:title": "book_title",
+        ".//cr_1_0:book//cr_1_0:book_set_metadata/cr_1_0:titles//cr_1_0:title": "book_title",
+        ".//cr_1_1:book//cr_1_1:book_set_metadata/cr_1_1:titles//cr_1_1:title": "book_title",
         ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:isbn": "isbn",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn": "isbn",
         ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:isbn": "isbn",
         ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:isbn": "isbn",
+        ".//cr_1_0:book//cr_1_0:book_set_metadata//cr_1_0:isbn": "isbn",
+        ".//cr_1_1:book//cr_1_1:book_set_metadata//cr_1_1:isbn": "isbn",
         ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:isbn[@media_type='print']": "isbn_print",
         ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn[@media_type='print']": "isbn_print",
         ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:isbn[@media_type='print']": "isbn_print",
