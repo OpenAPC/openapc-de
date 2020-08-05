@@ -163,7 +163,8 @@ JOURNAL_OWNER_CHANGED = {
     "2050-490X": ["Springer Science + Business Media", "EDP Sciences"], # Regenerative Medicine Research
     "1438-3896": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology
     "1438-390X": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology (electronic)
-    "1440-1711": ["Nature Publishing Group", "Springer Nature", "Wiley-Blackwell"] # Immunology and Cell Biology 
+    "1440-1711": ["Nature Publishing Group", "Springer Nature", "Wiley-Blackwell"], # Immunology and Cell Biology 
+    "1616-5047": ["Elsevier BV", "Springer Nature"] # Mammalian Biology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
