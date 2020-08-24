@@ -2,7 +2,7 @@
 
 =head1 SYNOPSIS
 
-	perl fetch.pl [--offsetting] --input {input_file.csv} --output {output_file.csv}
+	perl fetch.pl [--offsetting] [--refresh] --input {input_file.csv} --output {output_file.csv}
 
 =head1 DESCRIPTION
 
@@ -32,11 +32,12 @@ use XML::Simple;
 use Try::Tiny;
 use Getopt::Long;
 
-my ($in_file, $out_file, $offsetting);
+my ($in_file, $out_file, $offsetting, $refresh);
 GetOptions(
     "input=s" => \$in_file,
     "output=s" => \$out_file,
     "offsetting" => \$offsetting,
+    "refresh" => \$refresh,
 ) or die("Error in command line arguments\n");
 
 die "Parameters '--input' and '--output' are required." unless $in_file and $out_file;
@@ -164,10 +165,17 @@ $csv->each(
         my $body = _generate_xml($data);
 
         my $ut;
-        if ($body && $data && $data->{ut} eq 'NA') {
+        unless ($refresh) {
+           if ($data->{ut} ne 'NA') {
+             next;
+           }
+        }
+        
+        if ($body) {
             $ut = _parse( _do_request($body) );
             $data->{ut} = $ut ? "ut:$ut" : 'NA';
         }
+        
         print "Processed $counter records...\n" if $counter % 100 == 0;
         $exporter->add($data);
     }
