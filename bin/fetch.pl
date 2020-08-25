@@ -2,7 +2,7 @@
 
 =head1 SYNOPSIS
 
-	perl fetch.pl [--offsetting] --input {input_file.csv} --output {output_file.csv}
+	perl fetch.pl [--offsetting] [--refresh] --input {input_file.csv} --output {output_file.csv}
 
 =head1 DESCRIPTION
 
@@ -32,14 +32,16 @@ use XML::Simple;
 use Try::Tiny;
 use Getopt::Long;
 
-my ($in_file, $out_file, $offsetting);
+my ($in_file, $out_file, $offsetting, $refresh);
 GetOptions(
-    "input=s" => \$in_file,
-    "output=s" => \$out_file,
+    "input=s"    => \$in_file,
+    "output=s"   => \$out_file,
     "offsetting" => \$offsetting,
+    "refresh"    => \$refresh,
 ) or die("Error in command line arguments\n");
 
-die "Parameters '--input' and '--output' are required." unless $in_file and $out_file;
+die "Parameters '--input' and '--output' are required."
+    unless $in_file and $out_file;
 
 my $wosURL = 'http://apps.webofknowledge.com/';
 
@@ -47,13 +49,11 @@ sub _do_request {
     my $body = shift;
 
     sleep 0.5;
-    my $ua       = LWP::UserAgent->new;
-    my $response = $ua->post( 'http://ws.isiknowledge.com/cps/xrpc',
-        Content => $body, );
+    my $ua = LWP::UserAgent->new;
+    my $response
+        = $ua->post('http://ws.isiknowledge.com/cps/xrpc', Content => $body,);
 
-    ( $response->is_success )
-        ? ( return $response->{_content} )
-        : ( return 0 );
+    ($response->is_success) ? (return $response->{_content}) : (return 0);
 }
 
 sub _filter_xml {
@@ -92,16 +92,16 @@ sub _generate_xml {
 <map>
 XML
 
-    if ( $data->{doi} && $data->{doi} ne 'NA' ) {
-        my $s = _filter_xml( $data->{doi} );
+    if ($data->{doi} && $data->{doi} ne 'NA') {
+        my $s = _filter_xml($data->{doi});
         $body .= <<XML3;
 <map name="1">
 	<val name="doi">$s</val>
 </map>
 XML3
     }
-    elsif ( $data->{pmid} && $data->{pmid} ne 'NA' ) {
-        my $s = _filter_xml( $data->{pmid} );
+    elsif ($data->{pmid} && $data->{pmid} ne 'NA') {
+        my $s = _filter_xml($data->{pmid});
         $body .= <<XML4;
 <map name="1">
 	<val name="pmid">$s</val>
@@ -135,22 +135,22 @@ sub _parse {
 }
 
 # main
-my $csv = Catmandu::Importer::CSV->new( file => $in_file );
+my $csv = Catmandu::Importer::CSV->new(file => $in_file);
 
 my @fields = qw (institution period euro doi is_hybrid
-  publisher journal_full_title issn issn_print
-  issn_electronic issn_l license_ref
-  indexed_in_crossref pmid pmcid ut url doaj);
+    publisher journal_full_title issn issn_print
+    issn_electronic issn_l license_ref
+    indexed_in_crossref pmid pmcid ut url doaj);
 
 push @fields, "agreement" if $offsetting;
 
 my $exporter = Catmandu::Exporter::CSV->new(
-    file => $out_file,
-    sep_char => ',',
-    quote_char => '"',
+    file         => $out_file,
+    sep_char     => ',',
+    quote_char   => '"',
     always_quote => 1,
-    fields => \@fields,
-    );
+    fields       => \@fields,
+);
 
 my $counter = 0;
 $csv->each(
@@ -164,10 +164,17 @@ $csv->each(
         my $body = _generate_xml($data);
 
         my $ut;
-        if ($body && $data && $data->{ut} eq 'NA') {
-            $ut = _parse( _do_request($body) );
+        unless ($refresh) {
+            if ($data->{ut} ne 'NA') {
+                next;
+            }
+        }
+
+        if ($body) {
+            $ut = _parse(_do_request($body));
             $data->{ut} = $ut ? "ut:$ut" : 'NA';
         }
+
         print "Processed $counter records...\n" if $counter % 100 == 0;
         $exporter->add($data);
     }
