@@ -32,7 +32,10 @@ PUBLISHER_MAPPINGS = {
     "DE GRUYTER SAUR": "De Gruyter",
     "De Gruyter Oldenbourg": "De Gruyter",
     "De Gruyter Mouton": "De Gruyter",
-    "De Gruyter Saur": "De Gruyter"
+    "De Gruyter Saur": "De Gruyter",
+    "BRILL": "Brill",
+    "Brill | Nijhoff": "Brill",
+    "Peter Lang UK": "Peter Lang"
 }
 
 JOURNAL_MAPPINGS = {
