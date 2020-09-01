@@ -14,31 +14,37 @@ DATA_FILES = {
         "unused_fields": ["institution", "period", "license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
         "row_length": 18,
-        "has_issn": True
+        "has_issn": True,
+        "has_isbn": False
     },
     "ta": {
         "file_path": "data/transformative_agreements/transformative_agreements.csv",
         "unused_fields": ["institution", "period", "license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
         "row_length": 19,
-        "has_issn": True
+        "has_issn": True,
+        "has_isbn": False
     },
     "bpc": {
         "file_path": "data/bpc.csv",
         "unused_fields": ["institution", "period", "license_ref"],
         "target_file": BPC_DATA,
         "row_length": 13,
-        "has_issn": False
+        "has_issn": False,
+        "has_isbn": True
     }
 }
+
+ISBNHANDLING = None
 
 if __name__ == '__main__':
     path.append(dirname(path[0]))
     import openapc_toolkit as oat
     import whitelists as wl
+    ISBNHANDLING = oat.ISBNHandling("ISBNRangeFile.xml")
     for data_file, metadata in DATA_FILES.items():
         metadata["file_path"] = join("..", "..", metadata["file_path"])
-    
+
     def fail(msg):
         oat.print_r(msg)
 
@@ -46,6 +52,7 @@ else:
     path.append(join(path[0], "python"))
     import openapc_toolkit as oat
     from . import whitelists as wl
+    ISBNHANDLING = oat.ISBNHandling("python/test/ISBNRangeFile.xml")
 
 class RowObject(object):
     """
@@ -57,11 +64,21 @@ class RowObject(object):
         self.row = row
         self.origin = origin
 
+def _get_isbn_group_publisher(isbn):
+    if ISBNHANDLING.ISBN_SPLIT_RE.match(isbn):
+        parts = isbn.split("-")
+        group_and_publisher = parts[1:3]
+        key = ("-").join(group_and_publisher)
+        return key
+    return None
+
 doi_duplicate_list = []
 issn_dict = {}
 issn_p_dict = {}
 issn_e_dict = {}
 issn_l_dict = {}
+
+isbn_dict = {}
 
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
@@ -74,12 +91,12 @@ for data_file, metadata in DATA_FILES.items():
                 del(row[field])
             metadata["target_file"].append(RowObject(metadata["file_path"], line, row, data_file))
             doi_duplicate_list.append(row["doi"])
-            
+
             if metadata["has_issn"]:
                 reduced_row = {}
                 for field in ISSN_DICT_FIELDS:
                     reduced_row[field] = row[field]
-                
+
                 issn = row["issn"]
                 if oat.has_value(issn):
                     if issn not in issn_dict:
@@ -104,6 +121,18 @@ for data_file, metadata in DATA_FILES.items():
                         issn_l_dict[issn_l] = [reduced_row]
                     elif reduced_row not in issn_l_dict[issn_l]:
                         issn_l_dict[issn_l].append(reduced_row)
+
+            if metadata["has_isbn"]:
+                isbn = row["isbn"]
+                if oat.has_value(isbn):
+                    key = _get_isbn_group_publisher(isbn)
+                    print(key)
+                    if key is not None:
+                        publisher = row["publisher"]
+                        if key not in isbn_dict:
+                            isbn_dict[key] = [publisher]
+                        elif publisher not in isbn_dict[key]:
+                            isbn_dict[key].append(publisher)
             line += 1
 
 def in_whitelist(issn, first_publisher, second_publisher):
@@ -221,6 +250,27 @@ def check_issns(row_object):
                 if reduced_row["issn_l"] != issn_l:
                     fail(msg.format("issn_e", issn_e, issn_l, reduced_row["issn_l"]))
 
+def check_isbns(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    isbn = row["isbn"]
+    publisher = row["publisher"]
+    if not oat.has_value(isbn):
+        fail(line_str + 'The isbn column may not be empty')
+        return
+    test_result = ISBNHANDLING.test_and_normalize_isbn(isbn)
+    if not test_result["valid"]:
+        error = ISBNHANDLING.ISBN_ERRORS[test_result["error_type"]]
+        fail(line_str + 'The isbn is invalid: ' + error)
+        return
+    group_and_publisher = _get_isbn_group_publisher(isbn)
+    for other_publisher in isbn_dict[group_and_publisher]:
+        if other_publisher != publisher:
+            msg = line_str + ('Two book entries share a common group-publisher combination in ' +
+                              'their ISBNs ({}), but the publisher name differs ("{}" vs "{})"')
+            fail(msg.format(group_and_publisher, publisher, other_publisher))
+
 def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
     doi = row_object.row["doi"]
@@ -326,7 +376,8 @@ class TestAPCRows(object):
     # Set of tests to run on all APC data
     def test_row_format(self, row_object):
         check_line_length(row_object)
-        check_field_content(row_object)
+        check_common_field_content(row_object)
+        check_apc_field_content(row_object)
         check_optional_identifier(row_object)
         check_issns(row_object)
         check_hybrid_status(row_object)
@@ -334,11 +385,14 @@ class TestAPCRows(object):
         check_name_consistency(row_object)
         
 @pytest.mark.parametrize("row_object", BPC_DATA)
-class TestAPCRows(object):
+class TestBPCRows(object):
 
     # Set of tests to run on all BPC data
     def test_row_format(self, row_object):
         check_line_length(row_object)
+        check_common_field_content(row_object)
+        check_bpc_field_content(row_object)
+        check_isbns(row_object)
 
 if __name__ == '__main__':
     oat.print_b(str(len(APC_DATA)) + " APC records collected, starting tests...")
@@ -362,3 +416,4 @@ if __name__ == '__main__':
         check_line_length(row_object)
         check_common_field_content(row_object)
         check_bpc_field_content(row_object)
+        check_isbns(row_object)
