@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 PUBLISHER_MAPPINGS = {
+    # Journals
     "The Optical Society": "Optical Society of America (OSA)",
     "Impact Journals": "Impact Journals LLC",
     "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
@@ -25,7 +26,9 @@ PUBLISHER_MAPPINGS = {
     "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca",
     "Future Science Ltd": "Future Science, LTD",
     "Edinburgh University Global Health Society": "International Global Health Society",
-    "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc."
+    "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
+    # books
+    "DE GRUYTER": "De Gruyter"
 }
 
 JOURNAL_MAPPINGS = {
