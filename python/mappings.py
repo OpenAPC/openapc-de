@@ -28,7 +28,11 @@ PUBLISHER_MAPPINGS = {
     "Edinburgh University Global Health Society": "International Global Health Society",
     "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
     # books
-    "DE GRUYTER": "De Gruyter"
+    "DE GRUYTER": "De Gruyter",
+    "DE GRUYTER SAUR": "De Gruyter",
+    "De Gruyter Oldenbourg": "De Gruyter",
+    "De Gruyter Mouton": "De Gruyter",
+    "De Gruyter Saur": "De Gruyter"
 }
 
 JOURNAL_MAPPINGS = {
