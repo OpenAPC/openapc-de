@@ -33,6 +33,7 @@ PUBLISHER_MAPPINGS = {
     "De Gruyter Oldenbourg": "De Gruyter",
     "De Gruyter Mouton": "De Gruyter",
     "De Gruyter Saur": "De Gruyter",
+    "Walter de Gruyter – K. G. Saur": "De Gruyter",
     "BRILL": "Brill",
     "Brill | Nijhoff": "Brill",
     "Peter Lang UK": "Peter Lang",
@@ -43,7 +44,12 @@ PUBLISHER_MAPPINGS = {
     "Bloomsbury Academic": "Bloomsbury Publishing",
     "Bloomsbury Publishing Plc": "Bloomsbury Publishing",
     "T&T Clark": "Bloomsbury Publishing",
-    "Bloomsbury T & T Clark": "Bloomsbury Publishing"
+    "Bloomsbury T & T Clark": "Bloomsbury Publishing",
+    "Bloomsbury T&T Clark": "Bloomsbury Publishing",
+    "Bloomsbury Visual Arts": "Bloomsbury Publishing",
+    "Bloomsbury Publishing Inc": "Bloomsbury Publishing",
+    "University of Hawai'i / Hawai‘i Press": "University of Hawaii Press",
+    
 }
 
 JOURNAL_MAPPINGS = {
