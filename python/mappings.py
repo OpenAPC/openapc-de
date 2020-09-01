@@ -35,7 +35,11 @@ PUBLISHER_MAPPINGS = {
     "De Gruyter Saur": "De Gruyter",
     "BRILL": "Brill",
     "Brill | Nijhoff": "Brill",
-    "Peter Lang UK": "Peter Lang"
+    "Peter Lang UK": "Peter Lang",
+    "Peter Lang D": "Peter Lang",
+    "PETER LANG LTD International Academic Publishers": "Peter Lang",
+    "Intellect Books": "Intellect",
+    "Intellect Ltd": "Intellect"
 }
 
 JOURNAL_MAPPINGS = {
