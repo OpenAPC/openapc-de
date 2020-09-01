@@ -48,11 +48,15 @@ PUBLISHER_MAPPINGS = {
     "Bloomsbury T&T Clark": "Bloomsbury Publishing",
     "Bloomsbury Visual Arts": "Bloomsbury Publishing",
     "Bloomsbury Publishing Inc": "Bloomsbury Publishing",
+    "Continuum International Publishing Group": "Bloomsbury Publishing",
     "University of Hawai'i / Hawai‘i Press": "University of Hawaii Press",
     "University of Hawai'i Press": "University of Hawaii Press",
     "Tectum – ein Verlag in der Nomos Verlagsgesellschaft": "Tectum Wissenschaftsverlag",
     "Amsterdam university Press": "Amsterdam University Press",
-    "NUS Press Pte Ltd": "NUS Press"
+    "NUS Press Pte Ltd": "NUS Press",
+    "The Ohio State University Press": "Ohio State University Press",
+    "University of Ottawa Press / Les Presses de l’Université d’Ottawa": "University of Ottawa Press",
+    "Verlag der österreichischen Akademie der Wissenschaften": "Verlag der Österreichischen Akademie der Wissenschaften"
 }
 
 JOURNAL_MAPPINGS = {
