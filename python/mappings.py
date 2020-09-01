@@ -49,7 +49,10 @@ PUBLISHER_MAPPINGS = {
     "Bloomsbury Visual Arts": "Bloomsbury Publishing",
     "Bloomsbury Publishing Inc": "Bloomsbury Publishing",
     "University of Hawai'i / Hawai‘i Press": "University of Hawaii Press",
-    
+    "University of Hawai'i Press": "University of Hawaii Press",
+    "Tectum – ein Verlag in der Nomos Verlagsgesellschaft": "Tectum Wissenschaftsverlag",
+    "Amsterdam university Press": "Amsterdam University Press",
+    "NUS Press Pte Ltd": "NUS Press"
 }
 
 JOURNAL_MAPPINGS = {
