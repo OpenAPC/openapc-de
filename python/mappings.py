@@ -56,7 +56,8 @@ PUBLISHER_MAPPINGS = {
     "NUS Press Pte Ltd": "NUS Press",
     "The Ohio State University Press": "Ohio State University Press",
     "University of Ottawa Press / Les Presses de l’Université d’Ottawa": "University of Ottawa Press",
-    "Verlag der österreichischen Akademie der Wissenschaften": "Verlag der Österreichischen Akademie der Wissenschaften"
+    "Verlag der österreichischen Akademie der Wissenschaften": "Verlag der Österreichischen Akademie der Wissenschaften",
+    "Policy Press": "The Policy Press"
 }
 
 JOURNAL_MAPPINGS = {
