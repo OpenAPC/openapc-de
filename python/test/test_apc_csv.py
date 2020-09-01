@@ -135,12 +135,17 @@ for data_file, metadata in DATA_FILES.items():
                             isbn_dict[key].append(publisher)
             line += 1
 
-def in_whitelist(issn, first_publisher, second_publisher):
+def publisher_identity(first_publisher, second_publisher):
     for entry in wl.PUBLISHER_IDENTITY:
         if first_publisher in entry[0] and second_publisher in entry[1]:
             return True
         if first_publisher in entry[1] and second_publisher in entry[0]:
             return True
+    return False
+
+def in_whitelist(issn, first_publisher, second_publisher):
+    if publisher_identity(first_publisher, second_publisher):
+        return True
     if issn in wl.JOURNAL_OWNER_CHANGED:
         return (first_publisher in wl.JOURNAL_OWNER_CHANGED[issn] and
                 second_publisher in wl.JOURNAL_OWNER_CHANGED[issn])
@@ -266,9 +271,9 @@ def check_isbns(row_object):
         return
     group_and_publisher = _get_isbn_group_publisher(isbn)
     for other_publisher in isbn_dict[group_and_publisher]:
-        if other_publisher != publisher:
+        if other_publisher != publisher and not publisher_identity(publisher, other_publisher):
             msg = line_str + ('Two book entries share a common group-publisher combination in ' +
-                              'their ISBNs ({}), but the publisher name differs ("{}" vs "{})"')
+                              'their ISBNs ({}), but the publisher name differs ("{}" vs "{}")')
             fail(msg.format(group_and_publisher, publisher, other_publisher))
 
 def check_for_doi_duplicates(row_object):
