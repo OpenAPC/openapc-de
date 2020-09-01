@@ -39,7 +39,11 @@ PUBLISHER_MAPPINGS = {
     "Peter Lang D": "Peter Lang",
     "PETER LANG LTD International Academic Publishers": "Peter Lang",
     "Intellect Books": "Intellect",
-    "Intellect Ltd": "Intellect"
+    "Intellect Ltd": "Intellect",
+    "Bloomsbury Academic": "Bloomsbury Publishing",
+    "Bloomsbury Publishing Plc": "Bloomsbury Publishing",
+    "T&T Clark": "Bloomsbury Publishing",
+    "Bloomsbury T & T Clark": "Bloomsbury Publishing"
 }
 
 JOURNAL_MAPPINGS = {
