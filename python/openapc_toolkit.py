@@ -1424,7 +1424,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     break
             else:
                 current_row["doab"] = "FALSE"
-                msg = "DOAB: None of the ISBNs found DOAB"
+                msg = "DOAB: None of the ISBNs found in DOAB"
                 logging.info(msg)
     if offsetting_mode:
         current_row["agreement"] = offsetting_mode
