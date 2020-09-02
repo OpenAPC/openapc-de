@@ -126,7 +126,6 @@ for data_file, metadata in DATA_FILES.items():
                 isbn = row["isbn"]
                 if oat.has_value(isbn):
                     key = _get_isbn_group_publisher(isbn)
-                    print(key)
                     if key is not None:
                         publisher = row["publisher"]
                         if key not in isbn_dict:
