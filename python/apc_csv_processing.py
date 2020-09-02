@@ -164,6 +164,8 @@ ARG_HELP_STRINGS = {
               "cert store of the OS)",
     "unknown_columns": "Attach any unidentified columns to the generated " +
                        "csv file",
+    "dialect": "Ignore results of the automated CSV dialect sniffing and use " +
+               "a built-in dialect instead",
     "overwrite": "Always overwrite existing data with imported data " +
                  "(instead of asking on the first conflict)",
     "update": "Enforce the OpenAPC update strategy on imported data. This mode is " +
@@ -258,6 +260,8 @@ def main():
     parser.add_argument("-l", "--locale", help=ARG_HELP_STRINGS["locale"])
     parser.add_argument("-a", "--add-unknown-columns", action="store_true",
                         help=ARG_HELP_STRINGS["unknown_columns"])
+    parser.add_argument("-d", "--dialect", choices=["excel", "excel-tab", "unix"],
+                        help=ARG_HELP_STRINGS["dialect"])
     parser.add_argument("-v", "--verbose", action="store_true",
                         help=ARG_HELP_STRINGS["verbose"])
     parser.add_argument("-o", "--overwrite", action="store_true",
@@ -350,9 +354,14 @@ def main():
         print(result["error_msg"])
         sys.exit()
 
+    if args.dialect:
+        dialect = args.dialect
+        oat.print_g('Dialect sniffing results ignored, using built-in CSV dialect "' + dialect + '"')
+    else:
+        dialect = csv_analysis.dialect
+
     if enc is None:
         enc = csv_analysis.enc
-    dialect = csv_analysis.dialect
     has_header = csv_analysis.has_header or args.force_header
 
     if enc is None:
