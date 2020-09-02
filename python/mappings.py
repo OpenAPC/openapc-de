@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 PUBLISHER_MAPPINGS = {
+    # Journals
     "The Optical Society": "Optical Society of America (OSA)",
     "Impact Journals": "Impact Journals LLC",
     "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
@@ -25,7 +26,38 @@ PUBLISHER_MAPPINGS = {
     "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca",
     "Future Science Ltd": "Future Science, LTD",
     "Edinburgh University Global Health Society": "International Global Health Society",
-    "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc."
+    "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
+    # books
+    "DE GRUYTER": "De Gruyter",
+    "DE GRUYTER SAUR": "De Gruyter",
+    "De Gruyter Oldenbourg": "De Gruyter",
+    "De Gruyter Mouton": "De Gruyter",
+    "De Gruyter Saur": "De Gruyter",
+    "Walter de Gruyter – K. G. Saur": "De Gruyter",
+    "BRILL": "Brill",
+    "Brill | Nijhoff": "Brill",
+    "Peter Lang UK": "Peter Lang",
+    "Peter Lang D": "Peter Lang",
+    "PETER LANG LTD International Academic Publishers": "Peter Lang",
+    "Intellect Books": "Intellect",
+    "Intellect Ltd": "Intellect",
+    "Bloomsbury Academic": "Bloomsbury Publishing",
+    "Bloomsbury Publishing Plc": "Bloomsbury Publishing",
+    "T&T Clark": "Bloomsbury Publishing",
+    "Bloomsbury T & T Clark": "Bloomsbury Publishing",
+    "Bloomsbury T&T Clark": "Bloomsbury Publishing",
+    "Bloomsbury Visual Arts": "Bloomsbury Publishing",
+    "Bloomsbury Publishing Inc": "Bloomsbury Publishing",
+    "Continuum International Publishing Group": "Bloomsbury Publishing",
+    "University of Hawai'i / Hawai‘i Press": "University of Hawaii Press",
+    "University of Hawai'i Press": "University of Hawaii Press",
+    "Tectum – ein Verlag in der Nomos Verlagsgesellschaft": "Tectum Wissenschaftsverlag",
+    "Amsterdam university Press": "Amsterdam University Press",
+    "NUS Press Pte Ltd": "NUS Press",
+    "The Ohio State University Press": "Ohio State University Press",
+    "University of Ottawa Press / Les Presses de l’Université d’Ottawa": "University of Ottawa Press",
+    "Verlag der österreichischen Akademie der Wissenschaften": "Verlag der Österreichischen Akademie der Wissenschaften",
+    "Policy Press": "The Policy Press"
 }
 
 JOURNAL_MAPPINGS = {

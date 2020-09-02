@@ -2,7 +2,7 @@
 
 # A whitelist for denoting publisher identity (Possible consequence of business buy outs or fusions)
 # If one publisher name is stored in the left list of an entry and another in the right one,
-# they will not be treated as different by the name_consistency test.
+# they will not be treated as different by the name_consistency and check_isbns tests.
 PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
@@ -17,7 +17,8 @@ PUBLISHER_IDENTITY = [
     (["Johns Hopkins University Press"], ["Project Muse"]),
     (["Informa UK Limited"], ["Dove Medical Press Ltd."]), # DMP bought up by T&F in 2017
     (["Bristol University Press"], ["The Policy Press"]), # Policy Press is an imprint of BUP
-    (["Anticancer Research USA Inc."], ["International Institute of Anticancer Research"])
+    (["Anticancer Research USA Inc."], ["International Institute of Anticancer Research"]),
+    (["Brandeis University Press"], ["Dartmouth College Press"]) # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
 ]
 
 

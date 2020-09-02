@@ -26,6 +26,12 @@ ARG_HELP_STRINGS = {
                            "will take precedence."
 }
 
+CORRECTION_SCHEMAS = {
+    "journal_article": [("publisher", 5), ("journal_full_title", 6)],
+    "journal_article_transagree":  [("publisher", 5), ("journal_full_title", 6)],
+    "book_title": [("publisher", 5)]
+}
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
@@ -64,21 +70,34 @@ def main():
         mask = [True if x == "t" else False for x in args.quotemask]
     
     header, content = oat.get_csv_file_content(args.csv_file, enc)
+    correction_schema = None
+    for schema_type, schema in oat.COLUMN_SCHEMAS.items():
+        if header[0] == schema:
+            oat.print_g("Schema autodetection: " + schema_type)
+            correction_schema = CORRECTION_SCHEMAS[schema_type]
+            break
+    else:
+        oat.print_r("Error: CSV header does not match any known OpenAPC data schema")
 
     line_num = 1
     for line in content:
-        publisher = line[5]
-        journal = line[6]
-        journal_new = oat.get_unified_journal_title(journal)
-        publisher_new = oat.get_unified_publisher_name(publisher)
-        if publisher_new != publisher:
-            line[5] = publisher_new
-            msg = u"Line {}: Updated publisher name ({} -> {})"
-            oat.print_g(msg.format(line_num, publisher, publisher_new))
-        if journal_new != journal:
-            line[6] = journal_new
-            msg = u"Line {}: Updated journal_full_title ({} -> {})"
-            oat.print_g(msg.format(line_num, journal, journal_new))
+        for tup in correction_schema:
+            if tup[0] == "publisher":
+                index = tup[1]
+                publisher = line[index]
+                publisher_new = oat.get_unified_publisher_name(publisher)
+                if publisher_new != publisher:
+                    line[index] = publisher_new
+                    msg = u"Line {}: Updated publisher name ({} -> {})"
+                    oat.print_g(msg.format(line_num, publisher, publisher_new))
+            if tup[0] == "journal_full_title":
+                index = tup[1]
+                journal = line[index]
+                journal_new = oat.get_unified_journal_title(journal)
+                if journal_new != journal:
+                    line[index] = journal_new
+                    msg = u"Line {}: Updated journal_full_title ({} -> {})"
+                    oat.print_g(msg.format(line_num, journal, journal_new))
         line_num += 1
     
     with open('out.csv', 'w') as out:
