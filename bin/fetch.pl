@@ -2,7 +2,7 @@
 
 =head1 SYNOPSIS
 
-	perl fetch.pl [--offsetting] [--refresh] --input {input_file.csv} --output {output_file.csv}
+    perl fetch.pl [--refresh] --input {input_file.csv} --output {output_file.csv}
 
 =head1 DESCRIPTION
 
@@ -16,7 +16,7 @@ Vitali Peil, vitali.peil at uni-bielefeld.de
 
 =head1 LICENSE
 
-This software is copyright (c) 2019 by Vitali Peil.
+This software is copyright (c) 2020 by Vitali Peil.
 
 This is free software; you can redistribute it and/or modify it
 under the same terms as the Perl 5 programming language system itself.
@@ -27,157 +27,150 @@ use Catmandu::Sane;
 use Catmandu;
 use Catmandu::Importer::CSV;
 use Catmandu::Exporter::CSV;
-use LWP::UserAgent;
-use XML::Simple;
-use Try::Tiny;
 use Getopt::Long;
+use LWP::UserAgent;
+use Try::Tiny;
+use XML::Writer;
+use XML::Simple;
+use Data::Dumper;
 
-my ($in_file, $out_file, $offsetting, $refresh);
+my ($in_file, $out_file, $refresh);
 GetOptions(
-    "input=s"    => \$in_file,
-    "output=s"   => \$out_file,
-    "offsetting" => \$offsetting,
-    "refresh"    => \$refresh,
+    "input=s"  => \$in_file,
+    "output=s" => \$out_file,
+    "refresh"  => \$refresh,
 ) or die("Error in command line arguments\n");
 
 die "Parameters '--input' and '--output' are required."
     unless $in_file and $out_file;
 
-my $wosURL = 'http://apps.webofknowledge.com/';
+sub generate_xml {
+    my (@data) = @_;
 
-sub _do_request {
-    my $body = shift;
+    my $xml = XML::Writer->new(OUTPUT => 'self', ENCODING => 'UTF-8');
+    $xml->xmlDecl;
+    $xml->startTag('request', 'xmlns' => 'http://www.isinet.com/xrpc41');
 
-    sleep 0.5;
-    my $ua = LWP::UserAgent->new;
-    my $response
-        = $ua->post('http://ws.isiknowledge.com/cps/xrpc', Content => $body,);
+    $xml->startTag('fn', 'name' => 'LinksAMR.retrieve');
+    $xml->startTag('list');
+    $xml->emptyTag('map');
 
-    ($response->is_success) ? (return $response->{_content}) : (return 0);
+    $xml->startTag('map');
+    $xml->startTag('list', 'name' => 'WOS');
+    $xml->dataElement('val', 'ut');
+    $xml->dataElement('val', 'doi');
+    $xml->dataElement('val', 'pmid');
+    $xml->endTag('list');
+    $xml->endTag('map');
+
+    $xml->startTag('map');
+
+    foreach my $d (@data) {
+        next if $d->{doi} eq "NA";
+
+        $xml->startTag('map', 'name' => $d->{doi});
+        foreach my $f (qw(ut doi pmid)) {
+            if ($d->{$f}) {
+                $xml->dataElement('val', $d->{$f}, 'name' => $f);
+                last;
+            }
+        }
+        $xml->endTag('map');
+    }
+
+    $xml->endTag('map');
+
+    $xml->endTag('list');
+    $xml->endTag('fn');
+    $xml->endTag('request');
+
+    return $xml->to_string();
 }
 
-sub _filter_xml {
-    my $text = shift;
+sub do_request {
+    my $content = shift;
 
-    for ($text) {
-        s/&/&amp;/go;
-        s/</&lt;/go;
-        s/>/&gt;/go;
-        s/"/&quot;/go;
-        s/'/&apos;/go;
+    my $ua       = LWP::UserAgent->new;
+    my $response = $ua->post('http://ws.isiknowledge.com/cps/xrpc',
+        Content => $content,);
 
-        # remove control characters
-        s/[^\x09\x0A\x0D\x20-\x{D7FF}\x{E000}-\x{FFFD}\x{10000}-\x{10FFFF}]//go;
-    }
-    $text;
+    $response->is_success ? return $response->{_content} : return 0;
 }
 
-sub _generate_xml {
-    my $data = shift;
+sub parse_xml {
+    my $xml = shift;
 
-    my $body = <<XML;
-<?xml version="1.0" encoding="UTF-8" ?>
-<request xmlns="http://www.isinet.com/xrpc41">
-<fn name="LinksAMR.retrieve">
-<list>
-<map>
-</map>
-<map>
-  <list name="WOS">
-    <val>ut</val>
-    <val>doi</val>
-    <val>pmid</val>
-  </list>
-</map>
-<map>
-XML
+    return unless $xml;
 
-    if ($data->{doi} && $data->{doi} ne 'NA') {
-        my $s = _filter_xml($data->{doi});
-        $body .= <<XML3;
-<map name="1">
-	<val name="doi">$s</val>
-</map>
-XML3
-    }
-    elsif ($data->{pmid} && $data->{pmid} ne 'NA') {
-        my $s = _filter_xml($data->{pmid});
-        $body .= <<XML4;
-<map name="1">
-	<val name="pmid">$s</val>
-</map>
-XML4
-    }
-    else {
-        return 0;
-    }
-
-    $body .= '</map></list></fn></request>';
-
-    return $body;
-}
-
-sub _parse {
-    my $f = shift;
-    return if !$f;
-    my $xml;
     try {
-        $xml = XMLin($f);
-        return if exists $xml->{error};
-        my $node = $xml->{fn}->{map}->{map}->{map}->{val};
+        my $xml_data = XMLin($xml);
 
-        my $ut = $node->{ut}->{content} ||= '';
-        return $ut;
+        return if exists $xml_data->{error};
+        my $items = $xml_data->{fn}->{map}->{map};
+
+        my $result;
+        foreach my $id (keys %$items) {
+            next if ref $items ne 'HASH';
+
+            my $tmp  = $items->{$id}->{map}->{val};
+            my $data = {
+                ut   => $tmp->{ut}->{content}   || '',
+                doi  => $tmp->{doi}->{content}  || '',
+                pmid => $tmp->{pmid}->{content} || '',
+            };
+            push @$result, $data unless $data->{ut} eq '';
+        }
+
+        return $result;
+
     }
     catch {
-        print STDERR "ERROR: $_";
+        print STDERR "Error: $_";
     }
 }
 
 # main
 my $csv = Catmandu::Importer::CSV->new(file => $in_file);
 
-my @fields = qw (institution period euro doi is_hybrid
-    publisher journal_full_title issn issn_print
-    issn_electronic issn_l license_ref
-    indexed_in_crossref pmid pmcid ut url doaj);
-
-push @fields, "agreement" if $offsetting;
-
 my $exporter = Catmandu::Exporter::CSV->new(
     file         => $out_file,
     sep_char     => ',',
     quote_char   => '"',
     always_quote => 1,
-    fields       => \@fields,
+    fields       => ["doi", "ut", "pmid"],
 );
 
-my $counter = 0;
+my @data;
 $csv->each(
     sub {
-        $counter++;
-        my $data = $_[0];
-
-        die "Input file does not match required format."
-            unless keys %$data == 18 || keys %$data == 19;
-
-        my $body = _generate_xml($data);
-
-        my $ut;
-        unless ($refresh) {
-            if ($data->{ut} ne 'NA') {
-                next;
+        my $rec = $_[0];
+        if ($refresh) {
+            push @data, $rec unless $rec->{doi} eq "NA";
+        }
+        else {
+            if ($rec->{doi} ne "NA" && $rec->{ut} eq "NA") {
+                push @data, $rec;
             }
         }
-
-        if ($body) {
-            $ut = _parse(_do_request($body));
-            $data->{ut} = $ut ? "ut:$ut" : 'NA';
-        }
-
-        print "Processed $counter records...\n" if $counter % 100 == 0;
-        $exporter->add($data);
     }
 );
+
+my $counter;
+while (my @chunks = splice(@data, 0, 50)) {
+
+    my $request_body = generate_xml(@chunks);
+
+    try {
+        my $response    = do_request($request_body);
+        my $parsed_data = parse_xml($response);
+        $exporter->add_many($parsed_data) if $parsed_data;
+        $counter++;
+        print "Processed " . 50 * $counter . " records...\n"
+            if $counter % 10 == 0;
+    }
+    catch {
+        print STDERR "Error: $_";
+    }
+}
 
 $exporter->commit;
