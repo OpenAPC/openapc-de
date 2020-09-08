@@ -281,6 +281,11 @@ COLUMN_NAMES = {
     "isbn_electronic": ["isbn_electronic"]
 }
 
+HYBRID_STATUS = {
+    "TRUE": ["true", "hybrid"],
+    "FALSE": ["false", "full open"]
+}
+
 ISSN_L_CORRECTIONS = {
     "0266-7061": "1367-4803", # "Bioinformatics". 1460-2059(issn_e) -> 0266-7061, but 1367-4803(issn_p) -> 1367-4803
     "1654-6628": "1654-661X",  # "Food & Nutrition Research". 1654-6628(issn_p) -> 1654-6628, but 1654-661X(issn_e) -> 1654-661X

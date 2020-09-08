@@ -78,7 +78,10 @@ MESSAGES = {
                       "pre-2015 article, but discrimination was " +
                       "not possible - unknown prefix ('%s')",
     "issn_hyphen_fix": "Normalisation: Added hyphen to %s value (%s -> %s)",
-    "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)"
+    "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)",
+    "unknown_hybrid_identifier": "Unknown identifier in 'is_hybrid' column ('%s').",
+    "hybrid_normalisation": "Normalisation: is_hybrid status changed from '%s' to '%s'.",
+    "no_hybrid_identifier": "Empty value in 'is_hybrid' column."
 }
 
 # Do not quote the values in the 'period' and 'euro' columns
@@ -1122,6 +1125,22 @@ def _process_period_value(period_value, row_num):
         return new_value
     return period_value
 
+def _process_hybrid_status(hybrid_status, row_num):
+    if not has_value(hybrid_status):
+        msg = "Line %s: " + MESSAGES["no_hybrid_identifier"]
+        logging.error(msg, row_num)
+        return "NA"
+    norm_value = get_hybrid_status_from_whitelist(hybrid_status)
+    if norm_value is None:
+        msg = "Line %s: " + MESSAGES["unknown_hybrid_identifier"]
+        logging.error(msg, row_num, hybrid_status)
+        return hybrid_status
+    if norm_value != hybrid_status:
+        msg = "Line %s: " + MESSAGES["hybrid_normalisation"]
+        logging.warning(msg, row_num, hybrid_status, norm_value)
+        return norm_value
+    return hybrid_status
+
 def _process_crossref_results(current_row, row_num, prefix, key, value):
     new_value = "NA"
     if value is not None:
@@ -1280,6 +1299,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index)
         elif column_type == "period":
             current_row["period"] = _process_period_value(row[index], row_num)
+        elif column_type == "is_hybrid" and index is not None:
+            current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
@@ -1440,6 +1461,21 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         result.append(current_row[field])
 
     return (record_type, result)
+
+def get_hybrid_status_from_whitelist(hybrid_status):
+    """
+    Obtain a boolean identifier for journal hybrid status by looking up possible
+    synonyms in a whitelist.
+    Args:
+        hybrid status: A string describing the hybrid status of a journal.
+    Returns:
+        An OpenAPC-normalised boolean identifer (TRUE/FALSE) if the designation was found
+        in a whitelist.
+    """
+    for boolean_value, whitelist in mappings.HYBRID_STATUS.items():
+        if hybrid_status.strip().lower() in whitelist:
+            return boolean_value
+    return None
 
 def get_column_type_from_whitelist(column_name):
     """
