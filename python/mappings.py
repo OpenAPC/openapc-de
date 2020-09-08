@@ -252,7 +252,8 @@ JOURNAL_MAPPINGS = {
     "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science",
     "Corporate Ownership and Control": "Corporate Ownership & Control",
     "Immunology & Cell Biology": "Immunology and Cell Biology",
-    "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures"
+    "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
+    "Phytopathology®": "Phytopathology"
 }
 
 COLUMN_NAMES = {
