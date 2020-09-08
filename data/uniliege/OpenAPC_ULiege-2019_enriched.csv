@@ -26,12 +26,12 @@
 "University of Liège",2019,1675.86,"10.5194/bg-16-3801-2019",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","1726-4170","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Liège",2019,1575.42,"10.5194/hess-23-1567-2019",FALSE,"Copernicus GmbH","Hydrology and Earth System Sciences","1607-7938",NA,"1607-7938","1027-5606","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Liège",2019,500,"10.5194/nhess-19-775-2019",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","1561-8633","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Liège",2019,500,"10.5194/nhess-19-775-2019",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","1561-8633","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "University of Liège",2019,1155,"10.5194/os-15-291-2019?",FALSE,"Copernicus GmbH","Ocean Science","1812-0792",NA,"1812-0792","1812-0784","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Liège",2019,1211.21,"10.5194/tc-12-3827-2018",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Liège",2019,652.96,"10.5194/tc-13-3405-2019",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Liège",2019,2955.77,"10.1094/phyto-02-18-0067-r",TRUE,"Scientific Societies","Phytopathology®","0031-949X","0031-949X","1943-7684","0031-949X",NA,TRUE,"30070618",NA,NA,NA,FALSE
-"University of Liège",2019,1776.61,"10.1094/phyto-11-17-0367-r",TRUE,"Scientific Societies","Phytopathology®","0031-949X","0031-949X","1943-7684","0031-949X",NA,TRUE,"30161014",NA,NA,NA,FALSE
+"University of Liège",2019,2955.77,"10.1094/phyto-02-18-0067-r",TRUE,"Scientific Societies","Phytopathology","0031-949X","0031-949X","1943-7684","0031-949X",NA,TRUE,"30070618",NA,NA,NA,FALSE
+"University of Liège",2019,1776.61,"10.1094/phyto-11-17-0367-r",TRUE,"Scientific Societies","Phytopathology","0031-949X","0031-949X","1943-7684","0031-949X",NA,TRUE,"30161014",NA,NA,NA,FALSE
 "University of Liège",2019,295.86,"10.32479/irmm.8857",FALSE,"EconJournals","International Review of Management and Marketing","2146-4405",NA,"2146-4405","2146-4405",NA,TRUE,NA,NA,NA,NA,TRUE
 "University of Liège",2019,2289.6,"10.1016/j.clinph.2019.11.011",TRUE,"Elsevier BV","Clinical Neurophysiology","1388-2457","1388-2457",NA,"1388-2457","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31843502",NA,NA,NA,FALSE
 "University of Liège",2019,2745.4,"10.1016/j.freeradbiomed.2019.05.007",TRUE,"Elsevier BV","Free Radical Biology and Medicine","0891-5849","0891-5849",NA,"0891-5849","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31078731","PMC6880289",NA,NA,FALSE
@@ -39,7 +39,7 @@
 "University of Liège",2019,3133.9,"10.1016/j.isci.2018.12.017",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by/4.0/",TRUE,"30639848","PMC6327856",NA,NA,TRUE
 "University of Liège",2019,2830.2,"10.1016/j.jclinepi.2019.06.014",TRUE,"Elsevier BV","Journal of Clinical Epidemiology","0895-4356","0895-4356",NA,"0895-4356","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31254618",NA,NA,NA,FALSE
 "University of Liège",2019,603.95,"10.1016/j.mex.2018.12.014",FALSE,"Elsevier BV","MethodsX","2215-0161","2215-0161",NA,"2215-0161","http://creativecommons.org/licenses/by/4.0/",TRUE,"30619727","PMC6312789",NA,NA,TRUE
-"University of Liège",2019,2374.4,"10.1016/j.nicl.2019.101879",TRUE,"Elsevier BV","NeuroImage: Clinical","2213-1582","2213-1582",NA,"2213-1582","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31176293","PMC6555891",NA,NA,TRUE
+"University of Liège",2019,2374.4,"10.1016/j.nicl.2019.101879",FALSE,"Elsevier BV","NeuroImage: Clinical","2213-1582","2213-1582",NA,"2213-1582","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31176293","PMC6555891",NA,NA,TRUE
 "University of Liège",2019,2850,"10.1016/j.precamres.2018.12.024",TRUE,"Elsevier BV","Precambrian Research","0301-9268","0301-9268",NA,"0301-9268","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Liège",2019,3448.5,"10.1016/j.precamres.2019.105410",TRUE,"Elsevier BV","Precambrian Research","0301-9268","0301-9268",NA,"0301-9268","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "University of Liège",2019,1187.2,"10.1016/j.talanta.2019.06.044",TRUE,"Elsevier BV","Talanta","0039-9140","0039-9140",NA,"0039-9140","http://creativecommons.org/licenses/by/4.0/",TRUE,"31357327",NA,NA,NA,FALSE
@@ -68,8 +68,8 @@
 "University of Liège",2019,1696,"10.1088/1367-2630/ab5025",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Liège",2019,4054.6,"10.1001/jamacardio.2019.1189",TRUE,"American Medical Association (AMA)","JAMA Cardiology","2380-6583","2380-6583",NA,"2380-6583",NA,TRUE,"31066863","PMC6506905",NA,NA,FALSE
 "University of Liège",2019,735.27,"10.1089/sysm.2019.0003",FALSE,"Mary Ann Liebert Inc","Systems Medicine","2573-3370",NA,"2573-3370","2573-3370","https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/",TRUE,NA,NA,NA,NA,FALSE
-"University of Liège",2019,750,"10.3390/w11112202",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Liège",2019,387.25,"10.3390/w11112202",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "University of Liège",2019,1185.03,"10.3390/ani10010135",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"31952116","PMC7023424",NA,NA,TRUE
 "University of Liège",2019,1496.3,"10.3390/app9010197",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "University of Liège",2019,1505.46,"10.3390/atmos10010034",FALSE,"MDPI AG","Atmosphere","2073-4433",NA,"2073-4433","2073-4433","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
