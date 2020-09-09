@@ -118,7 +118,7 @@ sub parse_xml {
 
             my $tmp  = $items->{$id}->{map}->{val};
             my $data = {
-                ut   => $tmp->{ut}->{content}      || '',
+                ut   => $tmp->{ut}->{content} ? "ut:" . $tmp->{ut}->{content} : '',
                 doi  => lc($tmp->{doi}->{content}) || '',
                 pmid => $tmp->{pmid}->{content}    || '',
             };
