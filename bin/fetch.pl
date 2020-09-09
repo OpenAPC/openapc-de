@@ -32,7 +32,11 @@ use LWP::UserAgent;
 use Try::Tiny;
 use XML::Writer;
 use XML::Simple;
-use Data::Dumper;
+
+local $SIG{__WARN__} = sub {
+
+    # silent warnings
+};
 
 my ($in_file, $out_file, $refresh);
 GetOptions(
@@ -70,7 +74,7 @@ sub generate_xml {
 
         $xml->startTag('map', 'name' => $d->{doi});
         foreach my $f (qw(ut doi pmid)) {
-            if ($d->{$f}) {
+            if ($d->{$f} && $d->{$f} ne "NA") {
                 $xml->dataElement('val', $d->{$f}, 'name' => $f);
                 last;
             }
@@ -114,9 +118,9 @@ sub parse_xml {
 
             my $tmp  = $items->{$id}->{map}->{val};
             my $data = {
-                ut   => $tmp->{ut}->{content}   || '',
-                doi  => $tmp->{doi}->{content}  || '',
-                pmid => $tmp->{pmid}->{content} || '',
+                ut   => $tmp->{ut}->{content}      || '',
+                doi  => lc($tmp->{doi}->{content}) || '',
+                pmid => $tmp->{pmid}->{content}    || '',
             };
             push @$result, $data unless $data->{ut} eq '';
         }
@@ -144,20 +148,19 @@ my @data;
 $csv->each(
     sub {
         my $rec = $_[0];
+        next if $rec->{doi} eq "NA";
         if ($refresh) {
-            push @data, $rec unless $rec->{doi} eq "NA";
+            delete $rec->{ut};
+            push @data, $rec;
         }
         else {
-            if ($rec->{doi} ne "NA" && $rec->{ut} eq "NA") {
-                push @data, $rec;
-            }
+            push @data, $rec if $rec->{ut} eq "NA";
         }
     }
 );
 
 my $counter;
 while (my @chunks = splice(@data, 0, 50)) {
-
     my $request_body = generate_xml(@chunks);
 
     try {
