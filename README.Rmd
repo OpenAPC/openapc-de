@@ -458,36 +458,40 @@ oa_grouped <- my_apc %>%
     filter(is_hybrid == FALSE) %>%
     select(period, euro) %>%
     group_by(period) %>%
-    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
-                       extra = c(
-                         min = "min(., na.rm = TRUE)",
-                         max = "max(., na.rm = TRUE)"
-                        )) %>%
+    summarise(
+        n = n(),
+        mean = mean(euro),
+        median = median(euro),
+        min = min(euro),
+        max = max(euro)
+    ) %>%
     mutate(n = format(n, big.mark=","), 
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
            max = format(max, big.mark=",")
-          ) %>%
-    ezmarkup('......[. - .]') %>%
+    ) %>%
+    ezmarkup('....[. - .]') %>%
     select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'min - max')
 
 hyb_grouped <- my_apc %>%
     filter(is_hybrid == TRUE) %>%
     select(period, euro) %>%
     group_by(period) %>%
-    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
-                       extra = c(
-                         min = "min(., na.rm = TRUE)",
-                         max = "max(., na.rm = TRUE)"
-                        )) %>%
+    summarise(
+        n = n(),
+        mean = mean(euro),
+        median = median(euro),
+        min = min(euro),
+        max = max(euro)
+    ) %>%
     mutate(n = format(n, big.mark=","), 
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
            max = format(max, big.mark=",")
-          ) %>%
-    ezmarkup('......[. - .]') %>%
+    ) %>%
+    ezmarkup('....[. - .]') %>%
     select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'min - max')
 
 full_join(oa_grouped, hyb_grouped) %>%
@@ -529,36 +533,40 @@ frontlist_grouped <- my_bpc %>%
     filter(backlist_oa == FALSE) %>%
     select(period, euro) %>%
     group_by(period) %>%
-    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
-                       extra = c(
-                         min = "min(., na.rm = TRUE)",
-                         max = "max(., na.rm = TRUE)"
-                        )) %>%
+    summarise(
+        n = n(),
+        mean = mean(euro),
+        median = median(euro),
+        min = min(euro),
+        max = max(euro)
+    ) %>%
     mutate(n = format(n, big.mark=","), 
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
            max = format(max, big.mark=",")
-          ) %>%
-    ezmarkup('......[. - .]') %>%
+    ) %>%
+    ezmarkup('....[. - .]') %>%
     select(period,frontlist_n = n,frontlist_mean = mean,frontlist_median = median,frontlist_min_max = 'min - max')
 
 backlist_grouped <- my_bpc %>%
     filter(backlist_oa == TRUE) %>%
     select(period, euro) %>%
     group_by(period) %>%
-    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
-                       extra = c(
-                         min = "min(., na.rm = TRUE)",
-                         max = "max(., na.rm = TRUE)"
-                        )) %>%
+   summarise(
+        n = n(),
+        mean = mean(euro),
+        median = median(euro),
+        min = min(euro),
+        max = max(euro)
+    ) %>%
     mutate(n = format(n, big.mark=","), 
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
            max = format(max, big.mark=",")
-          ) %>%
-    ezmarkup('......[. - .]') %>%
+    ) %>%
+    ezmarkup('....[. - .]') %>%
     select(period, backlist_n = n, backlist_mean = mean, backlist_median = median, backlist_min_max = 'min - max')
 
 full_join(frontlist_grouped, backlist_grouped) %>%
