@@ -148,7 +148,7 @@ my @data;
 $csv->each(
     sub {
         my $rec = $_[0];
-        next if $rec->{doi} eq "NA";
+        next if $rec->{doi} eq "NA" or $rec->{doi} eq "";
         if ($refresh) {
             delete $rec->{ut};
             push @data, $rec;
