@@ -22,8 +22,6 @@ knitr::knit_hooks$set(inline = function(x) {
 require(dplyr)
 require(stringr)
 require(ggplot2)
-require(ezsummary)
-require(pander)
 ```
 
 ```{r, echo=FALSE, cache = FALSE}
@@ -469,10 +467,10 @@ oa_grouped <- my_apc %>%
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
-           max = format(max, big.mark=",")
+           max = format(max, big.mark=","),
+           minmax = str_c(min, " - ", max)
     ) %>%
-    ezmarkup('....[. - .]') %>%
-    select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'min - max')
+    select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'minmax')
 
 hyb_grouped <- my_apc %>%
     filter(is_hybrid == TRUE) %>%
@@ -489,10 +487,10 @@ hyb_grouped <- my_apc %>%
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
-           max = format(max, big.mark=",")
+           max = format(max, big.mark=","),
+           minmax = str_c(min, " - ", max)
     ) %>%
-    ezmarkup('....[. - .]') %>%
-    select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'min - max')
+    select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'minmax')
 
 full_join(oa_grouped, hyb_grouped) %>%
 knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA min - max", "Hybrid Articles", "Hybrid mean", "Hybrid median", "Hybrid min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
@@ -544,10 +542,10 @@ frontlist_grouped <- my_bpc %>%
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
-           max = format(max, big.mark=",")
+           max = format(max, big.mark=","),
+           minmax = str_c(min, " - ", max)
     ) %>%
-    ezmarkup('....[. - .]') %>%
-    select(period,frontlist_n = n,frontlist_mean = mean,frontlist_median = median,frontlist_min_max = 'min - max')
+    select(period,frontlist_n = n,frontlist_mean = mean,frontlist_median = median,frontlist_min_max = minmax)
 
 backlist_grouped <- my_bpc %>%
     filter(backlist_oa == TRUE) %>%
@@ -564,10 +562,10 @@ backlist_grouped <- my_bpc %>%
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
-           max = format(max, big.mark=",")
+           max = format(max, big.mark=","),
+           minmax = str_c(min, " - ", max)
     ) %>%
-    ezmarkup('....[. - .]') %>%
-    select(period, backlist_n = n, backlist_mean = mean, backlist_median = median, backlist_min_max = 'min - max')
+    select(period, backlist_n = n, backlist_mean = mean, backlist_median = median, backlist_min_max = minmax)
 
 full_join(frontlist_grouped, backlist_grouped) %>%
 knitr::kable(col.names = c("period", "Frontlist books", "mean BPC", "median BPC", "BPC min - max", "Backlist books", "mean BPC", "median BPC", "BPC min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
