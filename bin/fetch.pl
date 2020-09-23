@@ -118,7 +118,7 @@ sub parse_xml {
 
             my $tmp  = $items->{$id}->{map}->{val};
             my $data = {
-                ut   => $tmp->{ut}->{content}      || '',
+                ut   => $tmp->{ut}->{content} ? "ut:" . $tmp->{ut}->{content} : '',
                 doi  => lc($tmp->{doi}->{content}) || '',
                 pmid => $tmp->{pmid}->{content}    || '',
             };
@@ -148,7 +148,7 @@ my @data;
 $csv->each(
     sub {
         my $rec = $_[0];
-        next if $rec->{doi} eq "NA";
+        next if $rec->{doi} eq "NA" or $rec->{doi} eq "";
         if ($refresh) {
             delete $rec->{ut};
             push @data, $rec;
