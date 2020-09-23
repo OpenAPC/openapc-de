@@ -36,6 +36,9 @@ def get_ut(input,output,refresh):
     with cd(openapc_dir):
         run("perl fetch.pl " + refresh_param + "--input " + in_file + " --output doi_ut_mapping.csv")
         get("doi_ut_mapping.csv", "doi_ut_mapping.csv")
+        if refresh_param == "--refresh ":
+            local("python/csv_column_modification.py -e utf8 -o -q tfftttttttttttttttttt " + input + " delete 15")
+            local("python/csv_column_modification.py -e utf8 -o -q tfftttttttttttttttttt " + input + " insert 15 ut NA")
         local("python/csv_value_copy.py -e utf8 -e2 utf8 -f -o -q tfftttttttttttttttttt doi_ut_mapping.csv 0 1 " + input + " 3 15")
         local("rm doi_ut_mapping.csv")
         local("mv out.csv " + output)
