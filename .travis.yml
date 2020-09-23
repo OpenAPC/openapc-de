@@ -1,8 +1,17 @@
 language: python
 python:
-- '3.6.4'
+- '3.7.3'
 install: pip install pytest
-script: py.test
+
+jobs:
+  include:
+    - name: Data tests
+      script: pytest python/test/test_apc_csv.py
+    - name: Toolchain tests 
+      script: pytest python/test/test_metadata_apis.py python/test/test_isbn_methods.py
+  allow_failures:
+    - name: Toolchain tests
+
 notifications:
   slack:
     secure: GyOO/Tfdtc/2JMCRisOCY2kMfy0OXlFFuzr6W2yHAo+d6aL4j4+RxH3V3NYE7F94AbRrzbHE2KE8HyakFYF5OYKdfxbYP+EprZ5KMvuiVu0os+uX+QmVyLLBwYpY1sInIpPZ0NAIfsbMbcUM3sQM8SL5JHbR41Y1KF+4zpOKYFw=
