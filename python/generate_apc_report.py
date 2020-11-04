@@ -97,7 +97,7 @@ def generate_metadata_section(institution, ins_content, stats, lang):
         grid_url = "https://www.grid.ac/institutes/" + grid_id
         markdown += "* " + LANG[lang]["md_grid"] + ": [" + grid_id + "](" + grid_url + ")\n"
     markdown += "* " + LANG[lang]["md_ins_apc"] + ": " + ins_line[0] + "\n"
-    url = "https://treemaps.intact-project.org/apcdata/"
+    url = "https://treemaps.openapc.net/apcdata/"
     treemap_url = "<" + url + ins_line[1].replace("_", "-") + ">"
     markdown += "* " + LANG[lang]["md_treemap"] + ": " + treemap_url + "\n"
     data_dir = ins_line[6]
