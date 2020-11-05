@@ -143,7 +143,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Bern University of Applied Sciences](http://www.bfh.ch/)
 - [University of Zurich](https://www.uzh.ch/cmsssl/en/outreach/libraries/openaccess.html)
-- [Lucerne University of Applied Sciences and Arts](https://www.zhbluzern.ch/dienstleistungen/forschen-publizieren/#WzU1MzgsNTU0MF0=/)
+- [Lucerne University of Applied Sciences and Arts](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
 
 ## Participating Italian Institutions
 
