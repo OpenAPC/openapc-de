@@ -231,5 +231,6 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0032-5791", # Poultry Science, Gold OA since 2020
     "0960-9776", # The Breast, Gold OA since 2020
     "1662-811X", # Journal of Innate Immunity, Gold OA since 2019
-    "1727-9232" # Corporate Ownership & Control, Gold OA since 2018
+    "1727-9232", # Corporate Ownership & Control, Gold OA since 2018
+    "2165-5979" # Bioengineered, Gold OA since 2018 (?)
 ]
