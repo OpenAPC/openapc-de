@@ -47,12 +47,12 @@ At the moment this project provides the following cost data:
 
 ## How to access the data?
 
-There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.intact-project.org/) for visual data exploration.
+There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.openapc.net/) for visual data exploration.
 
 | Dataset         | CSV File                                                                                                                                                         | OLAP Cube                                                               | Treemap                                                               |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set) | [APC cube](https://olap.intact-project.org/cube/openapc/aggregate)      | [APC treemap](https://treemaps.intact-project.org/apcdata/openapc/)   |
-| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)        | [BPC cube](https://olap.intact-project.org/cube/bpc/aggregate)          | [BPC treemap](https://treemaps.intact-project.org/apcdata/bpc/)       |
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set) | [APC cube](https://olap.openapc.net/cube/openapc/aggregate)             | [APC treemap](https://treemaps.openapc.net/apcdata/openapc/)          |
+| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)        | [BPC cube](https://olap.openapc.net/cube/bpc/aggregate)                 | [BPC treemap](https://treemaps.openapc.net/apcdata/bpc/)              |
 
 
 ## How to contribute?
