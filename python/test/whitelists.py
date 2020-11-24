@@ -232,5 +232,6 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0960-9776", # The Breast, Gold OA since 2020
     "1662-811X", # Journal of Innate Immunity, Gold OA since 2019
     "1727-9232", # Corporate Ownership & Control, Gold OA since 2018
-    "2165-5979" # Bioengineered, Gold OA since 2018 (?)
+    "2165-5979", # Bioengineered, Gold OA since 2018 (?)
+    "0287-4547" # Dental Materials Journal, Now Gold OA (2020), flipping unknown
 ]
