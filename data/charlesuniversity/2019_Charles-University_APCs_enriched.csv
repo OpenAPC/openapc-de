@@ -1,6 +1,6 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Charles University",2019,391.22,"10.3390/su11133664",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000477051900159",NA,TRUE
-"Charles University",2019,410.34,"10.32383/appdr/102487",FALSE,"Polish Pharmaceutical Society","Acta Poloniae Pharmaceutica - Drug Research","0001-6837","0001-6837",NA,"0001-6837",NA,TRUE,NA,NA,"ut:000468126500017",NA,FALSE
+"Charles University",2019,410.34,"10.32383/appdr/102487",FALSE,"Polskie Towarzystwo Farmaceutyczne","Acta Poloniae Pharmaceutica","0001-6837","0001-6837",NA,"0001-6837",NA,TRUE,NA,NA,"ut:000468126500017",NA,FALSE
 "Charles University",2019,2668.13,"10.1007/s00228-018-2603-5",TRUE,"Springer Nature","European Journal of Clinical Pharmacology","0031-6970","0031-6970","1432-1041","0031-6970","https://creativecommons.org/licenses/by/4.0",TRUE,"30610276",NA,"ut:000462155900002",NA,FALSE
 "Charles University",2019,1804.94,"10.1038/s41598-019-40928-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30872754","PMC6418109","ut:000461159600001",NA,TRUE
 "Charles University",2019,350.59,"10.2478/acph-2020-0011",FALSE,"Walter de Gruyter GmbH","Acta Pharmaceutica","1846-9558",NA,"1846-9558","1330-0075","http://creativecommons.org/licenses/by-nc-nd/3.0",TRUE,"31677370",NA,"ut:000499655300005",NA,TRUE
@@ -81,7 +81,7 @@
 "Charles University",2019,2357.91,"10.12659/msm.915360",FALSE,"International Scientific Information, Inc.","Medical Science Monitor","1643-3750",NA,"1643-3750","1234-1010",NA,TRUE,"31302661","PMC6647923","ut:000475316400003",NA,FALSE
 "Charles University",2019,2235.89,"10.12659/msm.914225",FALSE,"International Scientific Information, Inc.","Medical Science Monitor","1643-3750",NA,"1643-3750","1234-1010",NA,TRUE,"31129679","PMC6556068","ut:000469780700003",NA,FALSE
 "Charles University",2019,2252.84,"10.12659/msm.914205",FALSE,"International Scientific Information, Inc.","Medical Science Monitor","1643-3750",NA,"1643-3750","1234-1010",NA,TRUE,"31274132","PMC6626498","ut:000475306500002",NA,FALSE
-"Charles University",2019,434.71,NA,FALSE,"Charles University","Folia Biologica","2533-7602",NA,NA,"0015-5500",NA,FALSE,NA,NA,NA,"https://fb.cuni.cz/file/5913/fb2019a0028.pdf",FALSE
+"Charles University",2019,434.71,NA,FALSE,"Univerzita Karlova, 1. lékaøská fakulta","Folia Biologica","2533-7602",NA,NA,"0015-5500",NA,FALSE,NA,NA,NA,"https://fb.cuni.cz/file/5913/fb2019a0028.pdf",FALSE
 "Charles University",2019,1185.58,"10.33549/physiolres.934356",FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973","0862-8408","1802-9973","0862-8408",NA,TRUE,"31928039",NA,"ut:000507463300003",NA,TRUE
 "Charles University",2019,711.35,"10.33549/physiolres.934348",FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973","0862-8408","1802-9973","0862-8408",NA,TRUE,"31928053",NA,"ut:000507463300017",NA,TRUE
 "Charles University",2019,1184.69,"10.33549/physiolres.934361",FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973","0862-8408","1802-9973","0862-8408",NA,TRUE,"31928055",NA,"ut:000507463300019",NA,TRUE
@@ -92,10 +92,10 @@
 "Charles University",2019,916.18,"10.33549/physiolres.934127",FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973","0862-8408","1802-9973","0862-8408",NA,TRUE,"31424260",NA,"ut:000493949900006",NA,TRUE
 "Charles University",2019,449.83,"10.33549/physiolres.934325",FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973","0862-8408","1802-9973","0862-8408",NA,TRUE,"31755291",NA,"ut:000499085100007",NA,TRUE
 "Charles University",2019,744.88,"10.33549/physiolres.934117",FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973","0862-8408","1802-9973","0862-8408",NA,TRUE,"31177797",NA,"ut:000483374200008",NA,TRUE
-"Charles University",2019,363.09,"10.35198/01-2019-001-0005",FALSE,"SCAN, z.s.","ADIKTOLOGIE Journal",NA,NA,NA,NA,NA,TRUE,NA,NA,NA,NA,NA
+"Charles University",2019,363.09,"10.35198/01-2019-001-0005",FALSE,"SCAN, z.s.","ADIKTOLOGIE Journal","1213-3841",NA,NA,NA,NA,TRUE,NA,NA,NA,NA,FALSE
 "Charles University",2019,392.02,"10.5507/bp.2019.029",FALSE,"Palacky University Olomouc","Biomedical Papers","1213-8118","1213-8118","1804-7521","1213-8118","https://creativecommons.org/licenses/by/4.0/",TRUE,"31219103",NA,NA,NA,TRUE
 "Charles University",2019,385.86,"10.5507/bp.2019.036",FALSE,"Palacky University Olomouc","Biomedical Papers","1213-8118","1213-8118","1804-7521","1213-8118",NA,TRUE,"31435074",NA,NA,NA,TRUE
-"Charles University",2019,435.21,NA,FALSE,"Charles University","Folia Biologica","2533-7602",NA,NA,"0015-5500",NA,FALSE,NA,NA,NA,"https://fb.cuni.cz/file/5916/fb2020a0002.pdf",FALSE
+"Charles University",2019,435.21,NA,FALSE,"Univerzita Karlova, 1. lékaøská fakulta","Folia Biologica","2533-7602",NA,NA,"0015-5500",NA,FALSE,NA,NA,NA,"https://fb.cuni.cz/file/5916/fb2020a0002.pdf",FALSE
 "Charles University",2019,509.81,"10.33549/physiolres.934068",FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973","0862-8408","1802-9973","0862-8408",NA,TRUE,"31852195",NA,"ut:000514830600002",NA,TRUE
 "Charles University",2019,1297.8,"10.33549/physiolres.934234",FALSE,"Academia Scientiarum Bohemoslovaca","Physiological Research","1802-9973","0862-8408","1802-9973","0862-8408",NA,TRUE,"31852194",NA,"ut:000514830600013",NA,TRUE
 "Charles University",2019,388.62,"10.5507/bp.2019.017",FALSE,"Palacky University Olomouc","Biomedical Papers","1213-8118","1213-8118","1804-7521","1213-8118","https://creativecommons.org/licenses/by/4.0/",TRUE,"31025659",NA,"ut:000542635800010",NA,TRUE
