@@ -165,7 +165,10 @@ JOURNAL_OWNER_CHANGED = {
     "1438-3896": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology
     "1438-390X": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology (electronic)
     "1440-1711": ["Nature Publishing Group", "Springer Nature", "Wiley-Blackwell"], # Immunology and Cell Biology 
-    "1616-5047": ["Elsevier BV", "Springer Nature"] # Mammalian Biology
+    "1616-5047": ["Elsevier BV", "Springer Nature"], # Mammalian Biology
+    "0892-6638": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal
+    "1530-6860": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal (electronic)
+    "0935-1221": ["Schweizerbart", "Copernicus GmbH"] # European Journal of Mineralogy (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -233,5 +236,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1662-811X", # Journal of Innate Immunity, Gold OA since 2019
     "1727-9232", # Corporate Ownership & Control, Gold OA since 2018
     "2165-5979", # Bioengineered, Gold OA since 2018 (?)
-    "0287-4547" # Dental Materials Journal, Now Gold OA (2020), flipping unknown
+    "0287-4547", # Dental Materials Journal, Now Gold OA (2020), flipping unknown
+    "1065-9471", # Human Brain Mapping, Gold OA since 2020
+    "1664-2376", # Swiss Journal of Palaeontology, Gold OA since 2020
+    "1661-8726", # Swiss Journal of Geosicences, Gold OA since 2020
+    "2162-402X", # OncoImmunology, Gold OA since 2020
+    "1053-8119", # NeuroImage, Gold OA since 2020
+    "1049-8931", # International Journal of Methods in Psychiatric Research, Gold OA since 2020
+    "0935-1221" # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
 ]
