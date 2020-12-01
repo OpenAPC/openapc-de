@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 35,504 articles, published at 215 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 35,537 articles, published at 215 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 35,504 articles, published at 215 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32351|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      298|
+|DEAL Wiley Germany                           |      331|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -120,6 +120,7 @@ This dataset contains information on 35,504 articles, published at 215 instituti
 |Swansea University                                                                                                                                 |      142|
 |University of Aberdeen                                                                                                                             |      142|
 |Johannes Kepler University Linz                                                                                                                    |      130|
+|TU Muenchen                                                                                                                                        |      129|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
 |Paracelsus Medical University                                                                                                                      |      116|
@@ -131,7 +132,6 @@ This dataset contains information on 35,504 articles, published at 215 instituti
 |Örebro University                                                                                                                                  |      105|
 |Liverpool John Moores University                                                                                                                   |      102|
 |Heriot-Watt University                                                                                                                             |       98|
-|TU Muenchen                                                                                                                                        |       96|
 |Linnaeus University                                                                                                                                |       95|
 |Royal Holloway, University of London                                                                                                               |       87|
 |City University London                                                                                                                             |       86|
