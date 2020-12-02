@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 35,544 articles, published at 216 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 35,546 articles, published at 216 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 35,544 articles, published at 216 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32351|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      338|
+|DEAL Wiley Germany                           |      340|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -202,11 +202,11 @@ This dataset contains information on 35,544 articles, published at 216 instituti
 |Stockholm School of Economics                                                                                                                      |       16|
 |Birmingham City University                                                                                                                         |       13|
 |Swedish Defence Research Agency                                                                                                                    |       13|
+|TU Clausthal                                                                                                                                       |       13|
 |Dalarna University                                                                                                                                 |       11|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
 |Kassel U                                                                                                                                           |       11|
 |RISE Research Institutes of Sweden                                                                                                                 |       11|
-|TU Clausthal                                                                                                                                       |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       10|
