@@ -168,7 +168,9 @@ JOURNAL_OWNER_CHANGED = {
     "1616-5047": ["Elsevier BV", "Springer Nature"], # Mammalian Biology
     "0892-6638": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal
     "1530-6860": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal (electronic)
-    "0935-1221": ["Schweizerbart", "Copernicus GmbH"] # European Journal of Mineralogy (linking)
+    "0935-1221": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy (linking)
+    "2049-6958": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine
+    "1828-695X": ["Springer Nature", "PAGEPress Publications"] # Multidisciplinary Respiratory Medicine (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs

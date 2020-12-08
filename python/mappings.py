@@ -253,7 +253,8 @@ JOURNAL_MAPPINGS = {
     "Corporate Ownership and Control": "Corporate Ownership & Control",
     "Immunology & Cell Biology": "Immunology and Cell Biology",
     "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
-    "Phytopathology®": "Phytopathology"
+    "Phytopathology®": "Phytopathology",
+    "Journal of General Physiology": "The Journal of General Physiology"
 }
 
 COLUMN_NAMES = {
