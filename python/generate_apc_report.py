@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import argparse
+import csv
 from datetime import date
 from functools import reduce
 import json
@@ -24,7 +25,9 @@ ARG_HELP_STRINGS = {
     "lang": "The report language",
     "no_doi_resolve_test": ("Skips the DOI resolve test which checks every single doi for a " +
                             "given institution. Useful if time is short or there's no internet " +
-                            "connection.")
+                            "connection."),
+    "csv_output": ('Write the APC deviation data to a CSV file ("report.csv") in addition to regular ' +
+                   'report generation')
 }
 
 with open("report/strings.json") as f:
@@ -49,6 +52,8 @@ def parse():
     parser.add_argument("lang", help=ARG_HELP_STRINGS["lang"], choices=LANG.keys())
     parser.add_argument("-v", "--verbose", help=ARG_HELP_STRINGS["verbose"], action="store_true")
     parser.add_argument("-d", "--no-doi-resolve-test", help=ARG_HELP_STRINGS["no_doi_resolve_test"],
+                        action="store_true")
+    parser.add_argument("-c", "--csv_output", help=ARG_HELP_STRINGS["csv_output"],
                         action="store_true")
     return parser.parse_args()
 
@@ -198,7 +203,9 @@ def generate_nonresolving_dois_section(institution, apc_content, lang):
     return md_content
 
 
-def generate_apc_deviaton_section(institution, articles, stats, lang):
+def generate_apc_deviaton_section(institution, articles, stats, lang, csv_output=False):
+    if csv_output:
+        csv_content = [["Journal", "Publisher", "Journal Articles in OpenAPC", "Period", "DOI", "Reported Costs", "OpenAPC Mean Value", "OpenAPC Standard Deviation", "Difference (absolute)", "Difference (Standard Deviations)"]]
     md_content = ""
     journal_dict = {}
     for article in articles:
@@ -214,7 +221,7 @@ def generate_apc_deviaton_section(institution, articles, stats, lang):
     md_content += LANG[lang]["ad_disc"]
     for journal in journals:
         publisher = journal_dict[journal][0][5]
-        num_articles = journal_dict[journal][0][21]
+        num_articles = journal_dict[journal][0][22]
         md_content += LANG[lang]["ad_table_header"].format(journal, publisher, num_articles)
         md_content += LANG[lang]["ad_th"]
         for article in journal_dict[journal]:
@@ -231,11 +238,20 @@ def generate_apc_deviaton_section(institution, articles, stats, lang):
                 row += elem + "|"
             row += "\n"
             md_content += row
+            if csv_output:
+                line = []
+                for index in [6, 5, 22, 1, 3, 2, 18, 19, 20, 21]:
+                    line.append(str(article[index]))
+                csv_content.append(line)
         md_content += "\n\n"
     md_content += LANG[lang]["ad_stats_header"].format(institution)
     for stat in ["articles", "not_checked", "within_limits", "significant"]:
         md_content += "* " + LANG[lang]["ad_stats_" + stat]
         md_content += ": " + str(stats[stat]) + "\n"
+    if csv_output:
+        with open("report.csv", "w") as out:
+            csv_writer = csv.writer(out)
+            csv_writer.writerows(csv_content)
     return md_content
 
 def find_significant_apc_differences(apc_content, institution, verbose=False):
@@ -280,7 +296,8 @@ def find_significant_apc_differences(apc_content, institution, verbose=False):
         if abs(float(apc) - titles[title]["mean"]) > 2 * titles[title]["stddev"]:
             rounded_mean = round(titles[title]["mean"], 2)
             rounded_stddev = round(titles[title]["stddev"], 2)
-            diff = round(float(apc) - rounded_mean, 2)
+            diff_absolute = round(float(apc) - rounded_mean, 2)
+            diff_times_stddev = round(diff_absolute / rounded_stddev, 2)
             if verbose:
                 msg = ('Article {}, journal "{}": Cost ({}€) differs more than 2 standard ' +
                        'deviations (2 * {}€) from mean APC ({}€)')
@@ -288,7 +305,8 @@ def find_significant_apc_differences(apc_content, institution, verbose=False):
             stats["significant"] += 1
             article.append(rounded_mean)
             article.append(rounded_stddev)
-            article.append(diff)
+            article.append(diff_absolute)
+            article.append(diff_times_stddev)
             article.append(titles[title]["count"])
             sig_articles.append(article)
         else:
@@ -318,7 +336,7 @@ def main():
     report += generate_duplicates_section(args.institution, dup_content, ins_content, args.lang)
     if not args.no_doi_resolve_test:
         report += generate_nonresolving_dois_section(args.institution, apc_content, args.lang)
-    report += generate_apc_deviaton_section(args.institution, sig_articles, stats, args.lang)
+    report += generate_apc_deviaton_section(args.institution, sig_articles, stats, args.lang, args.csv_output)
 
     ins = args.institution.lower().replace(" ", "_")
     today = format_date(date.today(), format="dd_MM_yy")
