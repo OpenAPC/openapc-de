@@ -170,7 +170,9 @@ JOURNAL_OWNER_CHANGED = {
     "1530-6860": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal (electronic)
     "0935-1221": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy (linking)
     "2049-6958": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine
-    "1828-695X": ["Springer Nature", "PAGEPress Publications"] # Multidisciplinary Respiratory Medicine (linking)
+    "1828-695X": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine (linking)
+    "0924-9338": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry
+    "1778-3585": ["Elsevier BV", "Royal College of Psychiatrists"] # European Psychiatry (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -245,5 +247,6 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2162-402X", # OncoImmunology, Gold OA since 2020
     "1053-8119", # NeuroImage, Gold OA since 2020
     "1049-8931", # International Journal of Methods in Psychiatric Research, Gold OA since 2020
-    "0935-1221" # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
+    "0935-1221", # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
+    "0924-9338" # European Psychiatry, GOLD OA since 2020
 ]
