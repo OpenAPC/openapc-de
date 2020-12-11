@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 35,560 articles, published at 217 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 35,569 articles, published at 218 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 35,560 articles, published at 217 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32351|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      354|
+|DEAL Wiley Germany                           |      363|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -211,6 +211,7 @@ This dataset contains information on 35,560 articles, published at 217 instituti
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       10|
+|Mannheim U                                                                                                                                         |        9|
 |Scotland's Rural College                                                                                                                           |        8|
 |University of Abertay Dundee                                                                                                                       |        8|
 |University of Northampton                                                                                                                          |        8|
