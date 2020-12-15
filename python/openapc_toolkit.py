@@ -303,7 +303,7 @@ class DOABAnalysis(object):
                     if verbose:
                         msg = "Line {}: ISBN normalization failure ({}): {}"
                         msg = msg.format(reader.line_num, result["input_value"],
-                                         ISBNHandling.ISBN_ERRORS[res["error_type"]])
+                                         ISBNHandling.ISBN_ERRORS[result["error_type"]])
                         print_r(msg)
                     continue
                 else:
@@ -347,8 +347,7 @@ class ISBNHandling(object):
         0: "Input is neither a valid split nor a valid unsplit 13-digit ISBN",
         1: "Too short (Must be 17 chars long including hyphens)",
         2: "Too long (Must be 17 chars long including hyphens)",
-        3: "ISBN check digit is incorrect",
-        4: "Input ISBN was split, but the segmentation is invalid"
+        3: "Input ISBN was split, but the segmentation is invalid"
     }
 
     def __init__(self, range_file_path, range_file_update=False):
@@ -372,7 +371,6 @@ class ISBNHandling(object):
 
         The following tests will be applied:
             - Syntax (Regex)
-            - Check digit calculation
             - Re-split and segmentation comparison (if input was split already)
 
         Args:
@@ -399,12 +397,9 @@ class ISBNHandling(object):
             else:
                 split_on_input = True
         if self.ISBN_RE.match(unsplit_isbn):
-            if not self.isbn_has_valid_check_digit(unsplit_isbn):
-                ret["error_type"] = 3
-                return ret
             split_isbn = self.split_isbn(unsplit_isbn)["value"]
             if split_on_input and split_isbn != stripped_isbn:
-                ret["error_type"] = 4
+                ret["error_type"] = 3
                 return ret
             ret["normalised"] = split_isbn
             ret["valid"] = True
