@@ -266,7 +266,9 @@ JOURNAL_MAPPINGS = {
     "Immunology & Cell Biology": "Immunology and Cell Biology",
     "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
     "Phytopathology®": "Phytopathology",
-    "Journal of General Physiology": "The Journal of General Physiology"
+    "Journal of General Physiology": "The Journal of General Physiology",
+    "Journal of Environment Quality": "Journal of Environmental Quality",
+    "TAXON": "Taxon"
 }
 
 COLUMN_NAMES = {
