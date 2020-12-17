@@ -33,6 +33,8 @@ PUBLISHER_MAPPINGS = {
     "De Gruyter Oldenbourg": "De Gruyter",
     "De Gruyter Mouton": "De Gruyter",
     "De Gruyter Saur": "De Gruyter",
+    "WALTER DE GRUYTER": "De Gruyter",
+    "Verlag Walter de Gruyter GmbH": "De Gruyter",
     "Walter de Gruyter – K. G. Saur": "De Gruyter",
     "BRILL": "Brill",
     "Brill | Nijhoff": "Brill",
@@ -57,8 +59,18 @@ PUBLISHER_MAPPINGS = {
     "The Ohio State University Press": "Ohio State University Press",
     "University of Ottawa Press / Les Presses de l’Université d’Ottawa": "University of Ottawa Press",
     "Verlag der österreichischen Akademie der Wissenschaften": "Verlag der Österreichischen Akademie der Wissenschaften",
+    "VERLAG DER ÖSTERREICHISCHEN AKADEMIE DER WISSENSCHAFTEN (ÖAW)": "Verlag der Österreichischen Akademie der Wissenschaften",
     "Policy Press": "The Policy Press",
-    "transcript-Verlag": "transcript Verlag"
+    "transcript-Verlag": "transcript Verlag",
+    "Transcript Verlag": "transcript Verlag",
+    "Böhlau Verlag": "Böhlau",
+    "BÖHLAU VERLAG": "Böhlau",
+    "Hollitzer Verlag": "Hollitzer",
+    "Verlag Holzhausen GmbH": "Holzhausen",
+    "Verlag Holzhausen": "Holzhausen",
+    "VERLAG TURIA UND KANT ": "Turia und Kant",
+    "WAXMANN VERLAG": "Waxmann Verlag",
+    "WALLSTEIN VERLAG": "Wallstein Verlag"
 }
 
 JOURNAL_MAPPINGS = {
@@ -254,7 +266,9 @@ JOURNAL_MAPPINGS = {
     "Immunology & Cell Biology": "Immunology and Cell Biology",
     "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
     "Phytopathology®": "Phytopathology",
-    "Journal of General Physiology": "The Journal of General Physiology"
+    "Journal of General Physiology": "The Journal of General Physiology",
+    "Journal of Environment Quality": "Journal of Environmental Quality",
+    "TAXON": "Taxon"
 }
 
 COLUMN_NAMES = {

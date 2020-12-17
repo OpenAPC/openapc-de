@@ -172,7 +172,10 @@ JOURNAL_OWNER_CHANGED = {
     "2049-6958": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine
     "1828-695X": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine (linking)
     "0924-9338": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry
-    "1778-3585": ["Elsevier BV", "Royal College of Psychiatrists"] # European Psychiatry (electronic)
+    "1778-3585": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry (electronic)
+    "0090-5992": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers
+    "1465-3923": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers (electronic)
+    "1460-244X": ["Oxford University Press (OUP)", "Wiley-Blackwell"] # Proceedings of the London Mathematical Society
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
