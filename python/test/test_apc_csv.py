@@ -73,6 +73,7 @@ def _get_isbn_group_publisher(isbn):
     return None
 
 doi_duplicate_list = []
+isbn_duplicate_list = []
 issn_dict = {}
 issn_p_dict = {}
 issn_e_dict = {}
@@ -132,6 +133,12 @@ for data_file, metadata in DATA_FILES.items():
                             isbn_dict[key] = [publisher]
                         elif publisher not in isbn_dict[key]:
                             isbn_dict[key].append(publisher)
+                isbn_list = []
+                for isbn in [row["isbn"], row["isbn_print"], row["isbn_electronic"]]:
+                    # clear row-internal duplicates
+                    if oat.has_value(isbn) and isbn not in isbn_list and isbn not in wl.NON_DUPLICATE_ISBNS:
+                        isbn_list.append(isbn)
+                isbn_duplicate_list += isbn_list
             line += 1
 
 def publisher_identity(first_publisher, second_publisher):
@@ -286,6 +293,22 @@ def check_for_doi_duplicates(row_object):
             fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
                         'encountered more than one time')
 
+def check_for_isbn_duplicates(row_object):
+    __tracebackhide__ = True
+    isbn_list = []
+    # prepare a deduplicated list
+    for isbn_type in ["isbn", "isbn_print", "isbn_electronic"]:
+        isbn = row_object.row[isbn_type]
+        if oat.has_value(isbn) and isbn not in isbn_list and isbn not in wl.NON_DUPLICATE_ISBNS:
+            isbn_list.append(isbn)
+    for isbn in isbn_list:
+        isbn_duplicate_list.remove(isbn)
+        if isbn in isbn_duplicate_list:
+            line_str = '{}, line {}: '.format(row_object.file_name,
+                                              row_object.line_number)
+            fail(line_str + 'Duplicate: ISBN "' + isbn + '" was ' +
+                 'encountered more than one time')
+
 def check_hybrid_status(row_object):
     __tracebackhide__ = True
     doaj = row_object.row["doaj"]
@@ -397,6 +420,8 @@ class TestBPCRows(object):
         check_common_field_content(row_object)
         check_bpc_field_content(row_object)
         check_isbns(row_object)
+        check_for_isbn_duplicates(row_object)
+        check_for_doi_duplicates(row_object)
 
 if __name__ == '__main__':
     oat.print_b(str(len(APC_DATA)) + " APC records collected, starting tests...")
@@ -421,3 +446,5 @@ if __name__ == '__main__':
         check_common_field_content(row_object)
         check_bpc_field_content(row_object)
         check_isbns(row_object)
+        check_for_isbn_duplicates(row_object)
+        check_for_doi_duplicates(row_object)
