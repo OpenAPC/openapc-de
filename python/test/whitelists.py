@@ -257,5 +257,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
 # multivolumed books where each volume has the same ISBN but is listed separately.
 NON_DUPLICATE_ISBNS = [
-    "978-3-205-79673-2" # Enzyklopädie der slowen. Kulturgeschichte in Kärnten, Vol 1-3
+    "978-3-205-79673-2", # Enzyklopädie der slowen. Kulturgeschichte in Kärnten, Vol 1-3
+    "978-3-205-79545-2", # Erica Tietze-Conrat, Tagebücher, Vol 1 + 2,3
+    "978-3-7065-5326-1" # Regesten zur Geschichte der Juden in Österreich, Vol 3-4
 ]
