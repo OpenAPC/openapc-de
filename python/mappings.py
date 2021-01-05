@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 PUBLISHER_MAPPINGS = {
+    # Journals
     "The Optical Society": "Optical Society of America (OSA)",
     "Impact Journals": "Impact Journals LLC",
     "American Society for Biochemistry &amp; Molecular Biology (ASBMB)": "American Society for Biochemistry & Molecular Biology (ASBMB)",
@@ -25,7 +26,51 @@ PUBLISHER_MAPPINGS = {
     "Institute of Physiology of the Czech Academy of Sciences": "Academia Scientiarum Bohemoslovaca",
     "Future Science Ltd": "Future Science, LTD",
     "Edinburgh University Global Health Society": "International Global Health Society",
-    "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc."
+    "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
+    # books
+    "DE GRUYTER": "De Gruyter",
+    "DE GRUYTER SAUR": "De Gruyter",
+    "De Gruyter Oldenbourg": "De Gruyter",
+    "De Gruyter Mouton": "De Gruyter",
+    "De Gruyter Saur": "De Gruyter",
+    "WALTER DE GRUYTER": "De Gruyter",
+    "Verlag Walter de Gruyter GmbH": "De Gruyter",
+    "Walter de Gruyter – K. G. Saur": "De Gruyter",
+    "BRILL": "Brill",
+    "Brill | Nijhoff": "Brill",
+    "Peter Lang UK": "Peter Lang",
+    "Peter Lang D": "Peter Lang",
+    "PETER LANG LTD International Academic Publishers": "Peter Lang",
+    "Intellect Books": "Intellect",
+    "Intellect Ltd": "Intellect",
+    "Bloomsbury Academic": "Bloomsbury Publishing",
+    "Bloomsbury Publishing Plc": "Bloomsbury Publishing",
+    "T&T Clark": "Bloomsbury Publishing",
+    "Bloomsbury T & T Clark": "Bloomsbury Publishing",
+    "Bloomsbury T&T Clark": "Bloomsbury Publishing",
+    "Bloomsbury Visual Arts": "Bloomsbury Publishing",
+    "Bloomsbury Publishing Inc": "Bloomsbury Publishing",
+    "Continuum International Publishing Group": "Bloomsbury Publishing",
+    "University of Hawai'i / Hawai‘i Press": "University of Hawaii Press",
+    "University of Hawai'i Press": "University of Hawaii Press",
+    "Tectum – ein Verlag in der Nomos Verlagsgesellschaft": "Tectum Wissenschaftsverlag",
+    "Amsterdam university Press": "Amsterdam University Press",
+    "NUS Press Pte Ltd": "NUS Press",
+    "The Ohio State University Press": "Ohio State University Press",
+    "University of Ottawa Press / Les Presses de l’Université d’Ottawa": "University of Ottawa Press",
+    "Verlag der österreichischen Akademie der Wissenschaften": "Verlag der Österreichischen Akademie der Wissenschaften",
+    "VERLAG DER ÖSTERREICHISCHEN AKADEMIE DER WISSENSCHAFTEN (ÖAW)": "Verlag der Österreichischen Akademie der Wissenschaften",
+    "Policy Press": "The Policy Press",
+    "transcript-Verlag": "transcript Verlag",
+    "Transcript Verlag": "transcript Verlag",
+    "Böhlau Verlag": "Böhlau",
+    "BÖHLAU VERLAG": "Böhlau",
+    "Hollitzer Verlag": "Hollitzer",
+    "Verlag Holzhausen GmbH": "Holzhausen",
+    "Verlag Holzhausen": "Holzhausen",
+    "VERLAG TURIA UND KANT ": "Turia und Kant",
+    "WAXMANN VERLAG": "Waxmann Verlag",
+    "WALLSTEIN VERLAG": "Wallstein Verlag"
 }
 
 JOURNAL_MAPPINGS = {
@@ -216,7 +261,14 @@ JOURNAL_MAPPINGS = {
     "AFRICAN JOURNAL OF FOOD, AGRICULTURE, NUTRITION AND DEVELOPMENT": "African Journal of Food, Agriculture, Nutrition and Development",
     "Journal of Psychiatry and Neuroscience": "Journal of Psychiatry & Neuroscience",
     "Chemistry – An Asian Journal": "Chemistry - An Asian Journal",
-    "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+    "WIREs Computational Molecular Science": "Wiley Interdisciplinary Reviews: Computational Molecular Science",
+    "Corporate Ownership and Control": "Corporate Ownership & Control",
+    "Immunology & Cell Biology": "Immunology and Cell Biology",
+    "Journal of Vacuum Science & Technology B": "Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures",
+    "Phytopathology®": "Phytopathology",
+    "Journal of General Physiology": "The Journal of General Physiology",
+    "Journal of Environment Quality": "Journal of Environmental Quality",
+    "TAXON": "Taxon"
 }
 
 COLUMN_NAMES = {
@@ -225,7 +277,7 @@ COLUMN_NAMES = {
     "euro": ["apc", "kosten", "cost", "euro", "eur"],
     "period": ["period", "jahr"],
     "is_hybrid": ["is_hybrid", "is hybrid", "hybrid"],
-    "publisher": ["publisher"],
+    "publisher": ["publisher", "PublisherName"],
     "journal_full_title": ["journal_full_title", "journal", "journal title", "journal full title", "journaltitle", "journal_title"],
     "issn": ["issn", "issn.1", "issn0"],
     "issn_print": ["issn_print"],
@@ -237,7 +289,17 @@ COLUMN_NAMES = {
     "pmcid": ["pmcid", "pubmed central (pmc) id"],
     "ut": ["ut"],
     "url": ["url"],
-    "doaj": ["doaj"]
+    "doaj": ["doaj"],
+    "book_title": ["book_title"],
+    "backlist_oa": ["backlist_oa"],
+    "isbn": ["isbn"],
+    "isbn_print": ["isbn_print"],
+    "isbn_electronic": ["isbn_electronic"]
+}
+
+HYBRID_STATUS = {
+    "TRUE": ["true", "hybrid"],
+    "FALSE": ["false", "full open"]
 }
 
 ISSN_L_CORRECTIONS = {

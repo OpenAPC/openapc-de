@@ -2,7 +2,7 @@
 
 # A whitelist for denoting publisher identity (Possible consequence of business buy outs or fusions)
 # If one publisher name is stored in the left list of an entry and another in the right one,
-# they will not be treated as different by the name_consistency test.
+# they will not be treated as different by the name_consistency and check_isbns tests.
 PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
@@ -17,7 +17,8 @@ PUBLISHER_IDENTITY = [
     (["Johns Hopkins University Press"], ["Project Muse"]),
     (["Informa UK Limited"], ["Dove Medical Press Ltd."]), # DMP bought up by T&F in 2017
     (["Bristol University Press"], ["The Policy Press"]), # Policy Press is an imprint of BUP
-    (["Anticancer Research USA Inc."], ["International Institute of Anticancer Research"])
+    (["Anticancer Research USA Inc."], ["International Institute of Anticancer Research"]),
+    (["Brandeis University Press"], ["Dartmouth College Press"]) # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
 ]
 
 
@@ -159,7 +160,22 @@ JOURNAL_OWNER_CHANGED = {
     "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
     "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
     "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
-    "0032-5791": ["Oxford University Press (OUP)", "Elsevier BV"] # Poultry Science
+    "0032-5791": ["Oxford University Press (OUP)", "Elsevier BV"], # Poultry Science
+    "2050-490X": ["Springer Science + Business Media", "EDP Sciences"], # Regenerative Medicine Research
+    "1438-3896": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology
+    "1438-390X": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology (electronic)
+    "1440-1711": ["Nature Publishing Group", "Springer Nature", "Wiley-Blackwell"], # Immunology and Cell Biology 
+    "1616-5047": ["Elsevier BV", "Springer Nature"], # Mammalian Biology
+    "0892-6638": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal
+    "1530-6860": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal (electronic)
+    "0935-1221": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy (linking)
+    "2049-6958": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine
+    "1828-695X": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine (linking)
+    "0924-9338": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry
+    "1778-3585": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry (electronic)
+    "0090-5992": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers
+    "1465-3923": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers (electronic)
+    "1460-244X": ["Oxford University Press (OUP)", "Wiley-Blackwell"] # Proceedings of the London Mathematical Society
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -223,5 +239,25 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2162-3945", # Adipocyte, Gold OA since 09/2018
     "2045-1393", # International Journal of Hematologic Oncology, Gold OA since 2018 (?)
     "0032-5791", # Poultry Science, Gold OA since 2020
-    "0960-9776" # The Breast, Gold OA since 2020
+    "0960-9776", # The Breast, Gold OA since 2020
+    "1662-811X", # Journal of Innate Immunity, Gold OA since 2019
+    "1727-9232", # Corporate Ownership & Control, Gold OA since 2018
+    "2165-5979", # Bioengineered, Gold OA since 2018 (?)
+    "0287-4547", # Dental Materials Journal, Now Gold OA (2020), flipping unknown
+    "1065-9471", # Human Brain Mapping, Gold OA since 2020
+    "1664-2376", # Swiss Journal of Palaeontology, Gold OA since 2020
+    "1661-8726", # Swiss Journal of Geosicences, Gold OA since 2020
+    "2162-402X", # OncoImmunology, Gold OA since 2020
+    "1053-8119", # NeuroImage, Gold OA since 2020
+    "1049-8931", # International Journal of Methods in Psychiatric Research, Gold OA since 2020
+    "0935-1221", # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
+    "0924-9338" # European Psychiatry, GOLD OA since 2020
+]
+
+# A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
+# multivolumed books where each volume has the same ISBN but is listed separately.
+NON_DUPLICATE_ISBNS = [
+    "978-3-205-79673-2", # Enzyklopädie der slowen. Kulturgeschichte in Kärnten, Vol 1-3
+    "978-3-205-79545-2", # Erica Tietze-Conrat, Tagebücher, Vol 1 + 2,3
+    "978-3-7065-5326-1" # Regesten zur Geschichte der Juden in Österreich, Vol 3-4
 ]

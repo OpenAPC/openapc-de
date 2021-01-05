@@ -22,28 +22,42 @@ knitr::knit_hooks$set(inline = function(x) {
 require(dplyr)
 require(stringr)
 require(ggplot2)
-require(ezsummary)
-require(pander)
 ```
 
 ```{r, echo=FALSE, cache = FALSE}
 my_apc <- readr::read_csv("data/apc_de.csv")
+my_bpc <- readr::read_csv("data/bpc.csv")
 ```
 
 ## About
 
 The aim of this repository is:
 
-- to release data sets on fees paid for Open Access journal articles by Universities and Research Society Funds under an Open Database License
+- to release data sets on fees paid for Open Access journal articles and monographs by Universities and Research Society Funds under an Open Database License
 - to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides cost data on `r nrow(my_apc)` open access journal articles, amounting to € `r sum(my_apc$euro)` and contributed by `r length(unique(my_apc$institution))` institutions.
+At the moment this project provides the following cost data:
+
+| Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
+|------------------|-----------------|-------------------------|----------------------------------------|
+| Articles         |`r nrow(my_apc)` | `r sum(my_apc$euro)`    | `r length(unique(my_apc$institution))` |
+| Monographs       |`r nrow(my_bpc)` | `r sum(my_bpc$euro)`    | `r length(unique(my_bpc$institution))` |
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
+## How to access the data?
+
+There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.openapc.net/) for visual data exploration.
+
+| Dataset         | CSV File                                                                                                                                                         | OLAP Cube                                                               | Treemap                                                               |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set) | [APC cube](https://olap.openapc.net/cube/openapc/aggregate)             | [APC treemap](https://treemaps.openapc.net/apcdata/openapc/)          |
+| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)        | [BPC cube](https://olap.openapc.net/cube/bpc/aggregate)                 | [BPC treemap](https://treemaps.openapc.net/apcdata/bpc/)              |
+
+
 ## How to contribute?
 
-Any academic institution or research funder paying for Article Process Charges (APCs) can contribute to OpenAPC, no formal registration is required.
+Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
 This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
 
 ## Participating German Universities
@@ -68,9 +82,9 @@ So far, the following German universities have agreed to share information on pa
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
 - [JGU Mainz](https://www.openaccess.uni-mainz.de/publikationsfonds-der-jgu/)
 - [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
-- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
+- [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php)
@@ -80,6 +94,7 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Dresden](https://www.slub-dresden.de/service/open-science-service/open-access/publikationsfonds/)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/ilmedia/open-access/oa-publikationsfonds/)
 - [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
+- [University of Applied Sciences Bielefeld](https://www.fh-bielefeld.de/open-access/publikationsfonds)
 - [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/publikationsdienste/oa_foerderung.php)
@@ -102,35 +117,44 @@ So far, the following German universities have agreed to share information on pa
 - [University of Würzburg](https://www.bibliothek.uni-wuerzburg.de/en/research-publishing/open-access/publication-fund/)
 - [Ulm University](https://www.uni-ulm.de/en/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/oap/open-access/)
 
-## Participating Research Society Funds in Germany
+## Participating German Research Organisations
 
-Dataset on funds that are supported by research societies under its Open-Access Publishing Programme.
+### Fraunhofer Society
 
-Participating Research Organizations:
+- [Fraunhofer Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html)
 
-- [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
-
-The data content covers APCs as paid for by our central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of this data set. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
+### Helmholtz Association
 
 - [DLR - Deutsches Zentrum für Luft- und Raumfahrt](https://www.dlr.de/zb/en/desktopdefault.aspx/tabid-8234/)
-- [Fraunhofer Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html)
 - [Forschungszentrum Jülich](https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html)
 - [GEOMAR - Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/centre/central-facilities/library/)
-- [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?en=36297)
+- [GFZ German Research Centre for Geosciences](https://www.gfz-potsdam.de/en/home/) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
+- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
+
+### Leibniz Association
+
+- [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
 - [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/en/library)
 - [INM - Leibniz Institute for New Materials](https://www.ntnm-bib.de/research-publish/oa-finanzieren/?lang=en)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz Association's Open Access Publishing Fund](http://www.leibniz-gemeinschaft.de/en/infrastructures/open-access/open-access-publishing-fund/)
-- [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/) (provides APC data for the [GFZ](https://www.gfz-potsdam.de/en/home/) and the [PIK](https://www.pik-potsdam.de))
-- [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
+- [Potsdam Institute for Climate Impact Research](https://www.pik-potsdam.de) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
 - [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
 
-## Other German Research Institutions
+### Max Planck Society
+
+- [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
+
+The data content covers APCs as paid for by the central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of the data. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
+
+## Other German Institutions
 
 - [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
+- [Knowledge Unlatched](https://www.knowledgeunlatched.org/)
 
 ## Participating Austrian Institutions
 
@@ -143,11 +167,16 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 
 - [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Bern University of Applied Sciences](http://www.bfh.ch/)
+- [University of Zurich](https://www.uzh.ch/cmsssl/en/outreach/libraries/openaccess.html)
+- [Lucerne University of Applied Sciences and Arts](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
+- [University of Teacher Education Lucerne](https://www.phlu.ch/)
+- [University of Lucerne](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
 
 ## Participating Italian Institutions
 
 - [Free University of Bozen-Bolzano](https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/)
 - [Università degli Studi di Milano](http://www.unimi.it/ENG/)
+- [Veneto Institute of Oncology IOV IRCCS](https://www.ioveneto.it/ricerca/biblioteca/)
 
 ## Institutions from Norway:
 
@@ -206,9 +235,11 @@ The data content covers APCs as paid for by our central budget for the Max Planc
 - Luleå University of Technology
 - Lund University
 - Malmö University
+- Mälardalen University
 - Örebro University
 - Swedish University of Agricultural Sciences
 - Södertörns University
+- Stockholm School of Economics
 - Stockholm University
 - Umeå University
 - Uppsala University
@@ -349,6 +380,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [Charles University](https://cuni.cz/UKEN-1.html)
 - [University of Chemistry and Technology, Prague](https://www.chemtk.cz/en/)
+- [Technical University of Ostrava](https://www.vsb.cz/en)
 
 ## Participating Institutions from Hungary
 
@@ -357,6 +389,10 @@ Jisc Collections released data on APC payments made by UK higher education insti
 ## Participating Institutions from Serbia
 
 - [University of Belgrade](http://bg.ac.rs/en/)
+
+## Participating Institutions from Belgium
+
+- [University of Liège](https://www.uliege.be/cms/c_8699436/en/uliege)
 
 ## Participating Institutions from the United States:
 
@@ -378,17 +414,28 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [OpenAIRE](https://www.openaire.eu/fp7-oapilot) (FP7 Post-Grant Open Access Pilot)
 
-## Data set
+## Data sets
 
 *Note: The following numbers and plots are always based on the [latest revision](https://github.com/OpenAPC/openapc-de/releases/latest) of the OpenAPC data set. The underlying code can be found in the associated [R Markdown template](README.Rmd).*
 
-This data set contains information on `r nrow(my_apc)` open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by `r length(unique(my_apc$institution))` research performing institutions and research funders. 
+### Articles (APCs)
 
-In total, publication fee spending covered by the Open APC initiative amounted to € `r sum(my_apc$euro)`. The average payment was € `r mean(my_apc$euro)`  and the median was € `r median(my_apc$euro)`.
+```{r, echo=FALSE}
 
-View data set on [GitHub](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) or take a look at our [treemap visualisations](http://treemaps.intact-project.org).
+fully_oa <- my_apc %>% filter(is_hybrid == FALSE)
+hybrid <- my_apc %>% filter(is_hybrid == TRUE)
 
-### Spending distribution over fully and hybrid open access journals
+```
+
+The article data set contains information on `r nrow(my_apc)` open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by `r length(unique(my_apc$institution))` research performing institutions and research funders. 
+
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € `r sum(my_apc$euro)`. The average payment was € `r mean(my_apc$euro)` and the median was € `r median(my_apc$euro)`.
+
+`r nrow(fully_oa)` articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € `r sum(fully_oa$euro)`, including value-added tax; the average payment was € `r mean(fully_oa$euro)` (median =  € `r median(fully_oa$euro)`, SD = € `r sd(fully_oa$euro)`).
+
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. `r nrow(hybrid)` articles in the data set were published in hybrid journals. Total expenditure amounts to `r sum(hybrid$euro)` €; the average fee was € `r mean(hybrid$euro)` (median =  € `r median(hybrid$euro)`, SD = € `r sd(hybrid$euro)`).
+
+#### Spending distribution over fully and hybrid open access journals
 
 ```{r, echo=FALSE}
 p <- my_apc %>%
@@ -406,122 +453,141 @@ p <- my_apc %>%
 
 ![](figure/boxplot_oa.png)
 
+#### Spending distribution details
+
 ```{r, echo=FALSE, results='asis', message = FALSE}
 
 oa_grouped <- my_apc %>%
     filter(is_hybrid == FALSE) %>%
     select(period, euro) %>%
     group_by(period) %>%
-    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
-                       extra = c(
-                         min = "min(., na.rm = TRUE)",
-                         max = "max(., na.rm = TRUE)"
-                        )) %>%
+    summarise(
+        n = n(),
+        mean = mean(euro),
+        median = median(euro),
+        min = min(euro),
+        max = max(euro)
+    ) %>%
     mutate(n = format(n, big.mark=","), 
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
-           max = format(max, big.mark=",")
-          ) %>%
-    ezmarkup('......[. - .]') %>%
-    select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'min - max')
+           max = format(max, big.mark=","),
+           minmax = str_c(min, " - ", max)
+    ) %>%
+    select(period, oa_n = n, oa_mean = mean, oa_median = median, oa_min_max = 'minmax')
 
 hyb_grouped <- my_apc %>%
     filter(is_hybrid == TRUE) %>%
     select(period, euro) %>%
     group_by(period) %>%
-    ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE, mean = TRUE,
-                       extra = c(
-                         min = "min(., na.rm = TRUE)",
-                         max = "max(., na.rm = TRUE)"
-                        )) %>%
+    summarise(
+        n = n(),
+        mean = mean(euro),
+        median = median(euro),
+        min = min(euro),
+        max = max(euro)
+    ) %>%
     mutate(n = format(n, big.mark=","), 
            mean = format(mean, big.mark=","),
            median = format(median, big.mark=","),
            min = format(min, big.mark=","),
-           max = format(max, big.mark=",")
-          ) %>%
-    ezmarkup('......[. - .]') %>%
-    select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'min - max')
+           max = format(max, big.mark=","),
+           minmax = str_c(min, " - ", max)
+    ) %>%
+    select(period, hyb_n = n, hyb_mean = mean, hyb_median = median, hyb_min_max = 'minmax')
 
 full_join(oa_grouped, hyb_grouped) %>%
 knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA min - max", "Hybrid Articles", "Hybrid mean", "Hybrid median", "Hybrid min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
 
 ```
 
+### Books (BPCs)
 
+The book data set contains information on `r nrow(my_bpc)` open access books. Publication fees were supported financially by `r length(unique(my_bpc$institution))` research performing institutions and funders. 
 
-###  Fully Open Access Journals
+In total, book processing charges covered by the OpenAPC initiative amounted to € `r sum(my_bpc$euro)`. The average payment was € `r mean(my_bpc$euro)` and the median was € `r median(my_bpc$euro)`.
 
-```{r, echo=FALSE, cache = FALSE}
-my.apc <- my_apc
-my_apc <- readr::read_csv("data/apc_de.csv") %>% 
-  dplyr::filter(is_hybrid == FALSE)
+Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
+
+#### Spending distribution over frontlist and backlist OA books
+
+```{r, echo=FALSE}
+p <- my_bpc %>%
+  mutate(backlist_oa = ifelse(.$backlist_oa, "Backlist OA", "Frontlist OA")) %>% 
+  mutate(short_period = str_sub(period, 3 ,4)) %>%
+  ggplot(aes(factor(short_period), euro)) +
+  geom_boxplot(outlier.size = 0.5) +
+  xlab("Year") +
+  ylab("Publication fee paid in Euro") +
+  scale_y_continuous(limits = c(0,12000)) + 
+  facet_grid(~backlist_oa) +
+  theme_bw()
+  ggsave(p, path = "figure/", filename = "boxplot_bpcs.png", width=9, height=4.5, units="in", device = "png")
 ```
 
-`r nrow(my_apc)` articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € `r sum(my_apc$euro)`, including value-added tax; the average payment was € `r mean(my_apc$euro)` (median =  € `r median(my_apc$euro)`, SD = € `r sd(my_apc$euro)`).
+![](figure/boxplot_bpcs.png)
 
-The following table summarises institutional spending on articles published in fully open access journals.
-
+#### Spending distribution details
 
 ```{r, echo=FALSE, results='asis', message = FALSE}
-my_apc %>% select(institution, euro) %>% 
-  group_by(institution) %>% 
-  ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE,
-                       extra = c(
-                         sum = "sum(., na.rm = TRUE)",
-                         min = "min(., na.rm = TRUE)",
-                         max = "max(., na.rm = TRUE)"
-                         )) %>%
-  mutate_all(format, big.mark=',') %>%
-  ezsummary::ezmarkup('...[. (.)]..[. - .]') %>%
-#> get rid of blanks
-  mutate(`mean (sd)` = gsub("\\(  ", "(", .$`mean (sd)`)) %>% 
-  select(institution, n, sum, `mean (sd)`, median, `min - max`) %>%
-  arrange(desc(n)) %>%
-  knitr::kable(col.names = c("Institution", "Articles", "Spending total (in €)", "Mean (SD)", "Median", "Minimum - Maximum"), align = c("l","r", "r", "r", "r", "r"))
-```
 
+frontlist_grouped <- my_bpc %>%
+    filter(backlist_oa == FALSE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+    summarise(
+        n = n(),
+        mean = mean(euro),
+        median = median(euro),
+        min = min(euro),
+        max = max(euro)
+    ) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=","),
+           minmax = str_c(min, " - ", max)
+    ) %>%
+    select(period,frontlist_n = n,frontlist_mean = mean,frontlist_median = median,frontlist_min_max = minmax)
 
-### Articles published in hybrid open access journals
+backlist_grouped <- my_bpc %>%
+    filter(backlist_oa == TRUE) %>%
+    select(period, euro) %>%
+    group_by(period) %>%
+   summarise(
+        n = n(),
+        mean = mean(euro),
+        median = median(euro),
+        min = min(euro),
+        max = max(euro)
+    ) %>%
+    mutate(n = format(n, big.mark=","), 
+           mean = format(mean, big.mark=","),
+           median = format(median, big.mark=","),
+           min = format(min, big.mark=","),
+           max = format(max, big.mark=","),
+           minmax = str_c(min, " - ", max)
+    ) %>%
+    select(period, backlist_n = n, backlist_mean = mean, backlist_median = median, backlist_min_max = minmax)
 
-```{r, echo=FALSE, cache = FALSE}
-my_apc <- readr::read_csv("data/apc_de.csv") %>% 
-  dplyr::filter(is_hybrid == TRUE)
-```
+full_join(frontlist_grouped, backlist_grouped) %>%
+knitr::kable(col.names = c("period", "Frontlist books", "mean BPC", "median BPC", "BPC min - max", "Backlist books", "mean BPC", "median BPC", "BPC min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
 
-Hybrid open access journals, which allow articles to be published immediately as open access after a charge was paid, rely on both publication fees and subscriptions as revenue source. This data set covers `r nrow(my_apc)` open access articles being published in hybrid journals. Total expenditure amounts to  `r sum(my_apc$euro)` €. Average  fee is `r format(sum(my_apc$euro)/nrow(my_apc))` € and the median `r median(my_apc$euro)` €.
-
-The following institutions have contributed expenditures on hybrid open access journal articles.
-
-```{r, echo=FALSE, cache = FALSE}
-my_apc %>% select(institution, euro) %>% 
-  group_by(institution) %>% 
-  ezsummary::ezsummary(n = TRUE, digits= 0, median = TRUE,
-                       extra = c(
-                         sum = "sum(., na.rm = TRUE)",
-                         min = "min(., na.rm = TRUE)",
-                         max = "max(., na.rm = TRUE)"
-                         )) %>% 
-  mutate_all(format, big.mark=',') %>%
-  ezsummary::ezmarkup('...[. (.)]..[. - .]') %>% 
-#> get rid of blanks
-  mutate(`mean (sd)` = gsub("\\(  ", "(", .$`mean (sd)`)) %>% 
-  select(institution, n, sum, `mean (sd)`, median, `min - max`) %>%
-  arrange(desc(n)) %>%
-  knitr::kable(col.names = c("Institution", "Articles", "Spending total (in €)", "Mean (SD)", "Median", "Minimum - Maximum"), align = c("l","r", "r", "r", "r", "r"))
 ```
 
 
 ## Use of external sources
 
-Metadata representing journals or publishers were obtained from Crossref in order to avoid extensive validation of the records. Case where we don't re-use information from Crossref to disambiguate the spending metadata are documented [here](python/test/test_apc_csv.py). Moreover, indexing coverage in Europe PMC and the Web of science is automatically checked.
+Metadata representing publication titles or publisher names is obtained from Crossref in order to avoid extensive validation of records. Cases where we don't re-use information from Crossref to disambiguate the spending metadata are documented [here](python/test/test_apc_csv.py). Moreover, indexing coverage in Europe PMC and the Web of science is automatically checked.
 
+### Articles 
 
 |Source     |Variable  |Description                     |
 |:--------------|:---------|:-----------------------------------------------|
 |CrossRef   |`publisher` |Title of Publisher             |
-|CrossRef   |`journal_full_title` |Full Title of Journal  |
+|CrossRef   |`journal_full_title` |Full title of the journal  |
 |CrossRef   |`issn` |International Standard Serial Numbers (collapsed) |
 |CrossRef   |`issn_print` |ISSN print |
 |CrossRef   |`issn_electronic`  |ISSN electronic        |
@@ -531,6 +597,20 @@ Metadata representing journals or publishers were obtained from Crossref in orde
 |EuropePMC    |`pmcid` |PubMed Central ID         |
 |Web of Science |`ut` |Web of Science record ID             |
 |DOAJ           |`doaj` |Is the journal indexed in the DOAJ? (logical)    |
+
+### Books
+
+|Source     |Variable  |Description                     |
+|:--------------|:---------|:-----------------------------------------------|
+|CrossRef   |`publisher` |Title of Publisher             |
+|CrossRef   |`book_title` |Full Title of a Book  |
+|CrossRef   |`isbn` |International Standard Book Number |
+|CrossRef   |`isbn_print` |ISBN print |
+|CrossRef   |`isbn_electronic`  |ISBN electronic        |
+|CrossRef   |`license_ref`  |License of the article     |
+|CrossRef   |`indexed_in_crossref`  |Is the article metadata registered with CrossRef? (logical)    |
+|DOAB           |`doab` |Is the book indexed in the DOAB? (logical)    |
+
 
 ```{r, echo=FALSE, cache = FALSE}
 
@@ -577,7 +657,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Steffi Grimm, Birgit Hablizel, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Florian Ruckelshausen, Ilka Rudolf, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Qingbo Xu, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Ulrich Herb, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Max Mosterd, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Ilka Rudolf, Pavla Rygelová, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Philipp Zumstein
 
 ## Contact
 

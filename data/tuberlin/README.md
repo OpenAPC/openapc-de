@@ -1,6 +1,6 @@
 ## About
 
-APC costs payed by TU Berlin Publication Fund for articles in open access journals. Since 2018 TU Berlin Publication Fund is supported by Deutsche Forschungsgemeinschaft (DFG). 
+APC costs payed by TU Berlin Publication Fund for articles in open access journals. Since 2017 TU Berlin Publication Fund is supported by Deutsche Forschungsgemeinschaft (DFG). 
 
 Before 2017 TU Berlin  TU Berlin has already concluded a prepay membership with BMC: APCs for BMC are not paid from the DFG fund. APCs for BMC prepay membership 2017 were reported retrospectively.
 

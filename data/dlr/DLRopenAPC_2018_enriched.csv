@@ -69,7 +69,6 @@
 "DLR",2018,1217.65,"10.1127/metz/2018/0910",FALSE,"Schweizerbart","Meteorologische Zeitschrift","0941-2948",NA,NA,"0941-2948",NA,TRUE,NA,NA,"ut:000451577500001",NA,TRUE
 "DLR",2018,1215.91,"10.1155/2018/1645475",FALSE,"Hindawi Publishing Corporation","Journal of Advanced Transportation","0197-6729","0197-6729","2042-3195","0197-6729","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000437947500001",NA,TRUE
 "DLR",2018,826.19,"10.1155/2018/4761601",FALSE,"Hindawi Publishing Corporation","Journal of Electrical and Computer Engineering","2090-0147","2090-0147","2090-0155","2090-0147","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000431567600001",NA,TRUE
-"DLR",2018,3000,"10.1186/s40623-018-0934-1",FALSE,"Springer Nature","Earth, Planets and Space","1880-5981",NA,"1880-5981","1343-8832","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000446580200001",NA,TRUE
 "DLR",2018,2154.73,"10.1364/ao.57.007501",TRUE,"Optical Society of America (OSA)","Applied Optics","1559-128X","1559-128X","2155-3165","1559-128X",NA,TRUE,"30461816",NA,"ut:000444085500011",NA,FALSE
 "DLR",2018,1298.24,"10.1364/oe.26.006692",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"29609356",NA,"ut:000427900400034",NA,TRUE
 "DLR",2018,1373.62,"10.1364/oe.26.016044",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"30119441",NA,"ut:000436226800001",NA,TRUE
@@ -151,8 +150,6 @@
 "DLR",2018,1050,"10.5194/amt-11-3801-2018",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000436612600001",NA,TRUE
 "DLR",2018,1725,"10.5194/amt-11-5237-2018",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000444985600002",NA,TRUE
 "DLR",2018,720,"10.5194/amt-11-939-2018",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000425465500002",NA,TRUE
-"DLR",2018,1001,"10.5194/amt-12-457-2019",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000456792100002",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
 "DLR",2018,600,"10.5194/angeo-36-577-2018",FALSE,"Copernicus GmbH","Annales Geophysicae","1432-0576",NA,"1432-0576","0992-7689","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000429050600004",NA,TRUE
 "DLR",2018,182,"10.5194/ars-16-149-2018",FALSE,"Copernicus GmbH","Advances in Radio Science","1684-9973",NA,"1684-9973","1684-9965","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000450178400018",NA,TRUE
 "DLR",2018,124,"10.5194/asr-15-11-2018",FALSE,"Copernicus GmbH","Advances in Science and Research","1992-0636",NA,"1992-0636","1992-0628","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -161,3 +158,15 @@
 "DLR",2018,1653,"10.5194/tc-12-1347-2018",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000430450400002",NA,TRUE
 "DLR",2018,825,"10.5194/tc-12-2969-2018",FALSE,"Copernicus GmbH","The Cryosphere","1994-0424",NA,"1994-0424","1994-0416","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000445043700001",NA,TRUE
 "DLR",2018,966,"10.5194/wes-3-461-2018",FALSE,"Copernicus GmbH","Wind Energy Science","2366-7451",NA,"2366-7451","2366-7443","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000437785000001",NA,TRUE
+"DLR",2018,2200,"10.1007/s12567-018-0222-8",TRUE,"Springer Nature","CEAS Space Journal","1868-2502","1868-2502","1868-2510","1868-2502","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,2111.65,"10.1016/j.actaastro.2018.05.057",TRUE,"Elsevier BV","Acta Astronautica","0094-5765","0094-5765",NA,"0094-5765","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,2606.98,"10.1016/j.actaastro.2018.08.002",TRUE,"Elsevier BV","Acta Astronautica","0094-5765","0094-5765",NA,"0094-5765","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,2562.79,"10.1016/j.icarus.2018.09.033",TRUE,"Elsevier BV","Icarus","0019-1035","0019-1035",NA,"0019-1035","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,2160,"10.1016/j.isprsjprs.2018.10.006",TRUE,"Elsevier BV","ISPRS Journal of Photogrammetry and Remote Sensing","0924-2716","0924-2716",NA,"0924-2716","http://creativecommons.org/licenses/by/4.0/",TRUE,"30774220","PMC6360532",NA,NA,FALSE
+"DLR",2018,1680,"10.1016/j.trd.2018.12.016",TRUE,"Elsevier BV","Transportation Research Part D: Transport and Environment","1361-9209","1361-9209",NA,"1361-9209","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,1170.61,"10.1109/jstsp.2018.2877497",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Journal of Selected Topics in Signal Processing","1932-4553","1932-4553","1941-0484","1932-4553",NA,TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,1180.59,"10.1109/lgrs.2018.2878486",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Geoscience and Remote Sensing Letters","1545-598X","1545-598X","1558-0571","1545-598X",NA,TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,1157.49,"10.1109/tgrs.2018.2863224",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Geoscience and Remote Sensing","0196-2892","0196-2892","1558-0644","0196-2892",NA,TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,1147.69,"10.1109/tgrs.2018.2864716",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Geoscience and Remote Sensing","0196-2892","0196-2892","1558-0644","0196-2892",NA,TRUE,NA,NA,NA,NA,FALSE
+"DLR",2018,1192.97,"10.1109/tip.2018.2878958",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Image Processing","1057-7149","1057-7149","1941-0042","1057-7149",NA,TRUE,"30418901",NA,NA,NA,FALSE
+"DLR",2018,1339.27,"10.3390/rs10121894",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE

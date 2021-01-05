@@ -29,8 +29,7 @@ CROSSREF_METADATA_TEST_CASES = {
         'success': True,
         'data': {
             'doi_type': 'book_title',
-            'doi_publisher': 'University of Michigan Library',
-            'doi_prefix': 'University of Michigan Library',
+            'prefix': 'University of Michigan Library',
             'publisher': 'University of Michigan Press',
             'book_title': "Kafka's Zoopoetics",
             'isbn': '9780472131792',
@@ -49,24 +48,24 @@ CROSSREF_METADATA_TEST_CASES = {
     }
 }
 
-CROSSREF_ISBN_LOOKUP_TEST_CASES = {
-    "9780814214121": {
+CROSSREF_ISBN_LOOKUP_TEST_CASES = [
+    (["9780814214121"], {
         "success": True,
-        "doi": "10.26818/9780814214121"
-    },
-    "9780472131792": {
+        "dois": ["10.26818/9780814214121"]
+    }),
+    (["9780472131792"], {
         "success": True,
-        "doi": "10.3998/mpub.11325807"
-    },
-    "9781501748288": {
+        "dois": ["10.3998/mpub.11325807"]
+    }),
+    (["9781501748288"], {
         "success": True,
-        "doi": None,
-    },
-    "9781912656660": {
+        "dois": []
+    }),
+    (["9781912656660"], {
         "success": True,
-        "doi": None
-    }
-}
+        "dois": []
+    })
+]
 
 @pytest.mark.parametrize("doi, expected_result", CROSSREF_METADATA_TEST_CASES.items())
 def test_crossref(doi, expected_result):
@@ -86,10 +85,10 @@ def test_crossref(doi, expected_result):
                 warnings.warn(UserWarning(msg))
     sleep(1)
 
-@pytest.mark.parametrize("isbn, expected_result", CROSSREF_ISBN_LOOKUP_TEST_CASES.items())
-def test_isbn_doi_lookup(isbn, expected_result):
-    answer = oat.find_book_doi_in_crossref(isbn)
+@pytest.mark.parametrize("isbn_list, expected_result", CROSSREF_ISBN_LOOKUP_TEST_CASES)
+def test_isbn_doi_lookup(isbn_list, expected_result):
+    answer = oat.find_book_dois_in_crossref(isbn_list)
     assert set(answer.keys()) == set(expected_result.keys())
     if expected_result["success"] == True:
-        assert answer["doi"] == expected_result["doi"]
+        assert answer["dois"] == expected_result["dois"]
     sleep(1)

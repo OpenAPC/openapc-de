@@ -13,6 +13,8 @@ python/venv/
 python/issnltables/
 # Exclude old reports
 python/old_reports/
+# Exclude temp files
+python/tempfiles/
 # Exclude python byte code
 *.pyc
 

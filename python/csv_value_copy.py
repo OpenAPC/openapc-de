@@ -150,7 +150,7 @@ def main():
         line_num += 1
     
     with open('out.csv', 'w') as out:
-        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, False)
+        writer = oat.OpenAPCUnicodeWriter(out, mask, quote_rules, True)
         writer.write_rows(target_header + modified_content)
 
 
