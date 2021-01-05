@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |115,057 | 225,745,427    | 273 |
+| Articles         |115,060 | 225,749,983    | 274 |
 | Monographs       |1,194 | 7,410,741    | 5 |
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -146,6 +146,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - [University of Zurich](https://www.uzh.ch/cmsssl/en/outreach/libraries/openaccess.html)
 - [Lucerne University of Applied Sciences and Arts](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
 - [University of Teacher Education Lucerne](https://www.phlu.ch/)
+- [University of Lucerne](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
 
 ## Participating Italian Institutions
 
@@ -397,13 +398,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 115,057 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 273 research performing institutions and research funders. 
+The article data set contains information on 115,060 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 274 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 225,745,427. The average payment was € 1,962 and the median was € 1,773.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 225,749,983. The average payment was € 1,962 and the median was € 1,773.
 
 69,079 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 111,009,562, including value-added tax; the average payment was € 1,607 (median =  € 1,519, SD = € 794).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 45,978 articles in the data set were published in hybrid journals. Total expenditure amounts to 114,735,865 €; the average fee was € 2,495 (median =  € 2,453, SD = € 999).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 45,981 articles in the data set were published in hybrid journals. Total expenditure amounts to 114,740,421 €; the average fee was € 2,495 (median =  € 2,453, SD = € 999).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -431,7 +432,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2017   |      14,198|   1,721|     1,560|   9 - 14,634|          10,578|       2,532|         2,474|       37 - 9,858|
 |2018   |      13,236|   1,704|     1,594|  13 -  8,926|           8,998|       2,567|         2,545|       18 - 9,073|
 |2019   |      11,511|   1,658|     1,648|  22 -  7,684|           4,143|       2,423|         2,326|       75 - 7,745|
-|2020   |       1,378|   1,938|     1,743|   2 -  5,832|              51|       2,629|         2,601|      500 - 5,317|
+|2020   |       1,378|   1,938|     1,743|   2 -  5,832|              54|       2,567|         2,463|      500 - 5,317|
 
 ### Books (BPCs)
 
