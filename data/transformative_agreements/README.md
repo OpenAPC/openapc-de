@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 35,651 articles, published at 219 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 35,689 articles, published at 220 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 35,651 articles, published at 219 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32351|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      415|
+|DEAL Wiley Germany                           |      453|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -170,6 +170,7 @@ This dataset contains information on 35,651 articles, published at 219 instituti
 |University of Bradford                                                                                                                             |       39|
 |University of Greenwich                                                                                                                            |       39|
 |Aberystwyth University                                                                                                                             |       38|
+|FZJ - ZB                                                                                                                                           |       38|
 |Mid Sweden University                                                                                                                              |       36|
 |Robert Gordon University                                                                                                                           |       36|
 |Bielefeld U                                                                                                                                        |       35|
