@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 35,569 articles, published at 218 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 35,621 articles, published at 219 institutions under 13 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 35,569 articles, published at 218 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32351|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      363|
+|DEAL Wiley Germany                           |      415|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -154,6 +154,7 @@ This dataset contains information on 35,569 articles, published at 218 instituti
 |Keele University                                                                                                                                   |       54|
 |Malmö University                                                                                                                                   |       54|
 |Karlstad University                                                                                                                                |       53|
+|TU Berlin                                                                                                                                          |       52|
 |University of Klagenfurt                                                                                                                           |       51|
 |Vienna University of Economics and Business (WU)                                                                                                   |       49|
 |Jönköping University                                                                                                                               |       48|
