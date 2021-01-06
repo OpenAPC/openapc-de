@@ -251,7 +251,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1053-8119", # NeuroImage, Gold OA since 2020
     "1049-8931", # International Journal of Methods in Psychiatric Research, Gold OA since 2020
     "0935-1221", # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
-    "0924-9338" # European Psychiatry, GOLD OA since 2020
+    "0924-9338", # European Psychiatry, GOLD OA since 2020
+    "1618-0240" # Engineering in Life Sciences, GOLD OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
