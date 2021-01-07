@@ -175,7 +175,8 @@ JOURNAL_OWNER_CHANGED = {
     "1778-3585": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry (electronic)
     "0090-5992": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers
     "1465-3923": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers (electronic)
-    "1460-244X": ["Oxford University Press (OUP)", "Wiley-Blackwell"] # Proceedings of the London Mathematical Society
+    "1460-244X": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
+    "0860-021X": ["Index Copernicus", "Termedia Sp. z.o.o."] # Biology of Sport
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -252,7 +253,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1049-8931", # International Journal of Methods in Psychiatric Research, Gold OA since 2020
     "0935-1221", # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
     "0924-9338", # European Psychiatry, GOLD OA since 2020
-    "1618-0240" # Engineering in Life Sciences, GOLD OA since 2020
+    "1618-0240", # Engineering in Life Sciences, GOLD OA since 2020
+    "1939-1404" # IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
