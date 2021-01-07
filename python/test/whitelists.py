@@ -254,7 +254,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0935-1221", # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
     "0924-9338", # European Psychiatry, GOLD OA since 2020
     "1618-0240", # Engineering in Life Sciences, GOLD OA since 2020
-    "1939-1404" # IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Gold OA since 2020
+    "1939-1404", # IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Gold OA since 2020
+    "0906-7590" # Ecography, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
