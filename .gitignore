@@ -6,7 +6,7 @@
 .cache
 .pytest_cache
 # Exclude generated files
-python/out.csv
+python/out*.csv
 # Exclude python virtual env
 python/venv/
 # Exclude downloaded ISSN-L tables
@@ -17,4 +17,3 @@ python/old_reports/
 python/tempfiles/
 # Exclude python byte code
 *.pyc
-
