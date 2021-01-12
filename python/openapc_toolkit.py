@@ -749,7 +749,9 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
     """
     Harvest OpenAPC records via OAI-PMH
     """
-    collection_xpath = ".//oai_2_0:record//oai_2_0:metadata//intact:collection"
+    collection_xpath = ".//oai_2_0:metadata//intact:collection"
+    record_xpath = ".//oai_2_0:record"
+    identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
     token_xpath = ".//oai_2_0:resumptionToken"
     processing_regex = re.compile(r"'(?P<target>\w*?)':'(?P<generator>.*?)'")
     variable_regex = re.compile(r"%(\w*?)%")
@@ -773,6 +775,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
         else:
             print_r("Error: Unable to parse processing instruction!")
             processing = None
+    print_b("Harvesting from " + url)
     articles = []
     while url is not None:
         try:
@@ -781,10 +784,13 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             response = urlopen(request)
             content_string = response.read()
             root = ET.fromstring(content_string)
-            collections = root.findall(collection_xpath, namespaces)
+            records = root.findall(record_xpath, namespaces)
             counter = 0
-            for collection in collections:
+            for record in records:
                 article = {}
+                identifier = record.find(identifier_xpath, namespaces)
+                article["identifier"] = identifier.text
+                collection = record.find(collection_xpath, namespaces)
                 for elem, xpath in OAI_COLLECTION_CONTENT.items():
                     article[elem] = "NA"
                     if xpath is not None:
