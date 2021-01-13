@@ -791,6 +791,9 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
                 identifier = record.find(identifier_xpath, namespaces)
                 article["identifier"] = identifier.text
                 collection = record.find(collection_xpath, namespaces)
+                if collection is None:
+                    # Might happen with deleted records
+                    continue
                 for elem, xpath in OAI_COLLECTION_CONTENT.items():
                     article[elem] = "NA"
                     if xpath is not None:
