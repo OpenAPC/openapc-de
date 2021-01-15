@@ -1097,10 +1097,13 @@ def get_euro_exchange_rates(currency, frequency="D"):
         result[date] = value
     return result
 
-def _process_euro_value(euro_value, round_monetary, row_num, index):
+def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_mode):
     if not has_value(euro_value):
         msg = "Line %s: Empty monetary value in column %s."
-        logging.error(msg, row_num, index)
+        if offsetting_mode is None:
+            logging.error(msg, row_num, index)
+        else:
+            logging.warning(msg, row_num, index)
         return "NA"
     try:
         # Cast to float to ensure the decimal point is a dot (instead of a comma)
@@ -1115,6 +1118,12 @@ def _process_euro_value(euro_value, round_monetary, row_num, index):
             else:
                 msg = "Line %s: " + MESSAGES["digits_error"]
                 logging.error(msg, row_num, euro_value)
+        if euro == 0:
+            msg = "Line %s: Euro value is 0"
+            if offsetting_mode is None:
+                logging.error(msg, row_num)
+            else:
+                logging.warning(msg, row_num)
         return str(euro)
     except ValueError:
         msg = "Line %s: " + MESSAGES["locale"]
@@ -1255,7 +1264,7 @@ def _process_isbn(row_num, isbn, isbn_handling):
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, round_monetary=False, offsetting_mode=None):
+                no_doaj_lookup=False, round_monetary=False, offsetting_mode=None, crossref_max_retries=3):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
 
@@ -1283,6 +1292,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                         mark will be rounded. If false, these cases will be treated as errors.
         offsetting_mode: If not None, the row is assumed to originate from an offsetting file
                          and this argument's value will be added to the 'agreement' column
+        crossref_max_retries: Max number of attempts to query the crossref API if a 504 error
+                              is received.
      Returns:
         A list of values which represents the enriched and re-arranged variant
         of the input row. If no errors were logged during the process, this
@@ -1300,7 +1311,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
     for csv_column in column_map.values():
         index, column_type = csv_column.index, csv_column.column_type
         if column_type == "euro" and index is not None:
-            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index)
+            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, offsetting_mode)
         elif column_type == "period":
             current_row["period"] = _process_period_value(row[index], row_num)
         elif column_type == "is_hybrid" and index is not None:
@@ -1340,10 +1351,14 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         # include crossref metadata
         if not no_crossref_lookup:
             crossref_result = get_metadata_from_crossref(doi)
+            retries = 0
             while not crossref_result["success"] and crossref_result["error_msg"].startswith("HTTPError: 504"):
+                if retries >= crossref_max_retries:
+                    break
                 # retry on gateway timeouts, crossref API is quite busy sometimes
                 msg = "%s, retrying..."
                 logging.warning(msg, crossref_result["error_msg"])
+                retries += 1
                 crossref_result = get_metadata_from_crossref(doi)
             if crossref_result["success"]:
                 data = crossref_result["data"]

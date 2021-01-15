@@ -176,6 +176,9 @@ ARG_HELP_STRINGS = {
                    "numbers are imported from crossref, this will also make " +
                    "a DOAJ lookup impossible if no ISSN fields are present in " +
                    "the input data.",
+    "unindexed_only": "Skip a line if the article has been found in crossref already. " +
+                      "This mode is meant to work with already enriched APC files " +
+                      "as it relies on the 'indexed_in_crossref' column",
     "no_pubmed": "Do not import metadata from pubmed.",
     "no_doaj": "Do not look up journals for being listended in the DOAJ.",
     "institution": "Manually identify the 'institution' column if the script " +
@@ -232,6 +235,9 @@ ARG_HELP_STRINGS = {
                         "Providing additional ISBNs for other variants/editions of a " +
                         "book can be helpful during metadata discovery. These columns won't " +
                         "be mapped to the output file.",
+    "crossref_max_retries": "Maximum number of attempts to retry a crossref " +
+                            "query for a single line if a 504 Error (Gateway " +
+                            "Timeout) is encountered",
     "url": "Manually identify the 'url' column if the script fails to detect " +
            "it automatically. The value is the numerical column index in the " +
            "CSV file, with the leftmost column being 0. This is an optional " +
@@ -268,6 +274,8 @@ def main():
                         help=ARG_HELP_STRINGS["overwrite"])
     parser.add_argument("-u", "--update", action="store_true",
                         help=ARG_HELP_STRINGS["update"])
+    parser.add_argument("-U", "--unindexed_only", action="store_true",
+                        help=ARG_HELP_STRINGS["unindexed_only"])
     parser.add_argument("-r", "--round_monetary", action="store_true",
                         help=ARG_HELP_STRINGS["round_monetary"])
     parser.add_argument("--no-crossref", action="store_true",
@@ -302,6 +310,8 @@ def main():
                         help=ARG_HELP_STRINGS["additional_isbns"])
     parser.add_argument("-url", "--url_column",
                         type=int, help=ARG_HELP_STRINGS["url"])
+    parser.add_argument("-c", "--crossref_max_retries", type=int, default=3,
+                        help=ARG_HELP_STRINGS["crossref_max_retries"])
     parser.add_argument("-start", type=int, help=ARG_HELP_STRINGS["start"])
     parser.add_argument("-end", type=int, help=ARG_HELP_STRINGS["end"])
 
@@ -611,6 +621,10 @@ def main():
             oat.print_y("WARNING: Could not detect the minimum mandatory data set for any " + 
                   "publication type - forced to continue.")
 
+    if args.unindexed_only and column_map["indexed_in_crossref"].index is None:
+        oat.print_r("ERROR: Unindexed update mode (-U) requires the 'indexed_in_crossref' column!")
+        sys.exit()
+
     start = input("\nStart metadata aggregation? (y/n):")
     while start not in ["y", "n"]:
         start = input("Please type 'y' or 'n':")
@@ -653,10 +667,18 @@ def main():
         if args.end and args.end < row_num:
             continue
         print("---Processing line number " + str(row_num) + "---")
+        no_crossref = args.no_crossref
+        no_pubmed = args.no_pubmed
+        if args.unindexed_only:
+            indexed = row[column_map["indexed_in_crossref"].index]
+            if indexed == "TRUE":
+                logging.info("Record already looked up in crossref, skipping...")
+                no_crossref = True
+                no_pubmed = True
         result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
-                                                    args.no_crossref, args.no_pubmed,
+                                                    no_crossref, no_pubmed,
                                                     args.no_doaj, args.round_monetary,
-                                                    args.offsetting_mode)
+                                                    args.offsetting_mode, args.crossref_max_retries)
         for record_type, value in enriched_content.items():
             if record_type == result_type:
                 value["content"].append(enriched_row)
