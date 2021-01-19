@@ -268,7 +268,8 @@ JOURNAL_MAPPINGS = {
     "Phytopathology®": "Phytopathology",
     "Journal of General Physiology": "The Journal of General Physiology",
     "Journal of Environment Quality": "Journal of Environmental Quality",
-    "TAXON": "Taxon"
+    "TAXON": "Taxon",
+    "Journal of Applied Poultry Research": "The Journal of Applied Poultry Research"
 }
 
 COLUMN_NAMES = {
