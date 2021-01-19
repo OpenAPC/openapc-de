@@ -176,7 +176,8 @@ JOURNAL_OWNER_CHANGED = {
     "0090-5992": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers
     "1465-3923": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers (electronic)
     "1460-244X": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
-    "0860-021X": ["Index Copernicus", "Termedia Sp. z.o.o."] # Biology of Sport
+    "0860-021X": ["Index Copernicus", "Termedia Sp. z.o.o."], # Biology of Sport
+    "1056-6171": ["Oxford University Press (OUP)", "Elsevier BV"] # Journal of Applied Poultry Research
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -255,7 +256,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0924-9338", # European Psychiatry, GOLD OA since 2020
     "1618-0240", # Engineering in Life Sciences, GOLD OA since 2020
     "1939-1404", # IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Gold OA since 2020
-    "0906-7590" # Ecography, Gold OA since 2020
+    "0906-7590", # Ecography, Gold OA since 2020
+    "1056-6171" # Journal of Applied Poultry Research, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
