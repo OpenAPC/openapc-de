@@ -1472,7 +1472,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
 
     if record_type is None:
         msg = "Line %s: Could not identify record type, using default schema 'journal_article'"
-        logging.error(msg, row_num)
+        logging.warning(msg, row_num)
         record_type = "journal_article"
 
     result = []

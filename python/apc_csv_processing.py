@@ -669,15 +669,17 @@ def main():
         print("---Processing line number " + str(row_num) + "---")
         no_crossref = args.no_crossref
         no_pubmed = args.no_pubmed
+        no_doaj = args.no_doaj
         if args.unindexed_only:
             indexed = row[column_map["indexed_in_crossref"].index]
             if indexed == "TRUE":
                 logging.info("Record already looked up in crossref, skipping...")
                 no_crossref = True
                 no_pubmed = True
+                no_doaj = True
         result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
                                                     no_crossref, no_pubmed,
-                                                    args.no_doaj, args.round_monetary,
+                                                    no_doaj, args.round_monetary,
                                                     args.offsetting_mode, args.crossref_max_retries)
         for record_type, value in enriched_content.items():
             if record_type == result_type:
