@@ -403,9 +403,9 @@ The article data set contains information on 115,798 open access journal article
 
 In total, article publication fee spending covered by the OpenAPC initiative amounted to € 227,027,245. The average payment was € 1,961 and the median was € 1,773.
 
-69,751 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 112,108,135, including value-added tax; the average payment was € 1,607 (median =  € 1,519, SD = € 792).
+69,753 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 112,112,021, including value-added tax; the average payment was € 1,607 (median =  € 1,519, SD = € 792).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 46,047 articles in the data set were published in hybrid journals. Total expenditure amounts to 114,919,110 €; the average fee was € 2,496 (median =  € 2,454, SD = € 999).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 46,045 articles in the data set were published in hybrid journals. Total expenditure amounts to 114,915,224 €; the average fee was € 2,496 (median =  € 2,454, SD = € 999).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -433,7 +433,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2017   |      14,195|   1,721|     1,560|   9 - 14,634|          10,582|       2,532|         2,475|       37 - 9,858|
 |2018   |      13,235|   1,704|     1,594|  13 -  8,926|           8,999|       2,567|         2,545|       18 - 9,073|
 |2019   |      11,739|   1,656|     1,642|  22 -  7,684|           4,199|       2,426|         2,326|       75 - 7,745|
-|2020   |       1,815|   1,887|     1,773|   2 -  5,832|              56|       2,545|         2,415|      500 - 5,317|
+|2020   |       1,817|   1,887|     1,773|   2 -  5,832|              54|       2,567|         2,463|      500 - 5,317|
 |2021   |          14|   1,628|     1,691| 625 -  2,634|              NA|          NA|            NA|               NA|
 
 ### Books (BPCs)
@@ -505,7 +505,7 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.76%       |
-|PubMed ID                  |  76.33%      |
+|PubMed ID                  |  76.34%      |
 |PubMed Central ID          |  69.7%     |
 |Web of Science record ID   | 93.51%      |
 
