@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 36,276 articles, published at 220 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 36,280 articles, published at 220 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 36,276 articles, published at 220 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32938|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      453|
+|DEAL Wiley Germany                           |      457|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -204,6 +204,7 @@ This dataset contains information on 36,276 articles, published at 220 instituti
 |Edinburgh Napier University                                                                                                                        |       17|
 |RISE Research Institutes of Sweden                                                                                                                 |       16|
 |Stockholm School of Economics                                                                                                                      |       16|
+|Kassel U                                                                                                                                           |       15|
 |Swedish Defence Research Agency                                                                                                                    |       14|
 |TU Chemnitz                                                                                                                                        |       14|
 |Birmingham City University                                                                                                                         |       13|
@@ -211,7 +212,6 @@ This dataset contains information on 36,276 articles, published at 220 instituti
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       13|
 |TU Clausthal                                                                                                                                       |       13|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
-|Kassel U                                                                                                                                           |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |Mannheim U                                                                                                                                         |        9|
