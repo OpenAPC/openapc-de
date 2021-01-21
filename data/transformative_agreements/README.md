@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 36,280 articles, published at 220 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 36,357 articles, published at 221 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 36,280 articles, published at 220 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32938|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      457|
+|DEAL Wiley Germany                           |      534|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -139,6 +139,7 @@ This dataset contains information on 36,280 articles, published at 220 instituti
 |Sheffield Hallam University                                                                                                                        |       82|
 |TU Berlin                                                                                                                                          |       82|
 |University of Portsmouth                                                                                                                           |       78|
+|Charité - Universitätsmedizin Berlin                                                                                                               |       77|
 |Royal Botanic Gardens                                                                                                                              |       76|
 |Cranfield University                                                                                                                               |       75|
 |Bangor University                                                                                                                                  |       72|
