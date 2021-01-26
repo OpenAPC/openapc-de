@@ -166,6 +166,9 @@ COLUMN_SCHEMAS = {
     ]
 }
 
+INSTITUTIONS_FILE = "../data/institutions.csv"
+INSTITUTIONS_MAP = None
+
 class OpenAPCUnicodeWriter(object):
     """
     A customized CSV Writer.
@@ -1262,9 +1265,31 @@ def _process_isbn(row_num, isbn, isbn_handling):
                             ISBNHandling.ISBN_ERRORS[norm_res["error_type"]])
             return "NA"
 
+def _process_institution_value(institution, row_num, orig_file_path, offsetting_mode):
+    global INSTITUTIONS_MAP
+    if offsetting_mode:
+        return institution
+    if INSTITUTIONS_MAP is None:
+        with open(INSTITUTIONS_FILE, "r") as ins_file:
+            reader = csv.DictReader(ins_file)
+            INSTITUTIONS_MAP = {}
+            for line in reader:
+                path = line["openapc_data_dir"]
+                if has_value(path):
+                    INSTITUTIONS_MAP[path] = line["institution"]
+    path = os.path.dirname(orig_file_path)
+    data_path = path.split("data/").pop()
+    if data_path in INSTITUTIONS_MAP:
+        new_value = INSTITUTIONS_MAP[data_path]
+        msg = "Line %s: Normalisation: Institution name replaced via mapping file ('%s' -> '%s')"
+        logging.warning(msg, row_num, institution, new_value)
+        return new_value
+    return institution
+
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, round_monetary=False, offsetting_mode=None, crossref_max_retries=3):
+                no_doaj_lookup=False, round_monetary=False, offsetting_mode=None, crossref_max_retries=3,
+                orig_file_path=None):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
 
@@ -1294,6 +1319,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                          and this argument's value will be added to the 'agreement' column
         crossref_max_retries: Max number of attempts to query the crossref API if a 504 error
                               is received.
+        orig_file_path: Path of the csv file this row originates from, can be used for
+                        automated institution name lookup.
      Returns:
         A list of values which represents the enriched and re-arranged variant
         of the input row. If no errors were logged during the process, this
@@ -1316,6 +1343,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             current_row["period"] = _process_period_value(row[index], row_num)
         elif column_type == "is_hybrid" and index is not None:
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
+        elif column_type == "institution" and index is not None:
+            current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path, offsetting_mode)
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]

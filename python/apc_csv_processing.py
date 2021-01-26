@@ -680,7 +680,7 @@ def main():
         result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
                                                     no_crossref, no_pubmed,
                                                     no_doaj, args.round_monetary,
-                                                    args.offsetting_mode, args.crossref_max_retries)
+                                                    args.offsetting_mode, args.crossref_max_retries, args.csv_file)
         for record_type, value in enriched_content.items():
             if record_type == result_type:
                 value["content"].append(enriched_row)
