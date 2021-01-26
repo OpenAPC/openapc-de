@@ -18,59 +18,147 @@ ARG_HELP_STRINGS = {
 }
 
 FIELDNAMES = {
-    "2014_16": [
-        "APC paid (actual currency) including VAT if charged",
-        "APC paid (£) including VAT (calculated)",
-        "APC paid (£) including VAT if charged",
-        "Currency of APC",
-        "DOI",
-        "Date of APC payment",
-        "Date of initial application by author",
-        "ISSN0",
-        "Institution",
-        "Journal",
-        "Licence",
-        "PubMed Central (PMC) ID",
-        "PubMed ID",
-        "Publisher",
-        "TCO year",
-        "Type of publication",
-        "Drop?",
-        "Year of publication",
-        "period",
-        "is_hybrid",
-        "euro"
-    ],
-    "2017": [
-        "APC paid (£) including VAT if charged",
-        "DOI",
-        "Date of APC payment",
-        "ISSN0",
-        "Institution",
-        "Journal",
-        "Licence",
-        "PubMed ID",
-        "Publisher",
-        "TCO year",
-        "Type of publication",
-        "Drop?",
-        "Period of APC payment",
-        "period",
-        "is_hybrid",
-        "euro"
-    ]
+    "2014_16": {
+        "article": [
+            "APC paid (actual currency) including VAT if charged",
+            "APC paid (£) including VAT (calculated)",
+            "APC paid (£) including VAT if charged",
+            "Currency of APC",
+            "DOI",
+            "Date of APC payment",
+            "Date of initial application by author",
+            "ISSN0",
+            "Institution",
+            "Journal",
+            "Licence",
+            "PubMed Central (PMC) ID",
+            "PubMed ID",
+            "Publisher",
+            "TCO year",
+            "Type of publication",
+            "Drop?",
+            "Year of publication",
+            "period",
+            "is_hybrid",
+            "euro"
+        ],
+        "book": [
+            "Line number",
+            "APC paid (actual currency) including VAT if charged",
+            "APC paid (£) including VAT (calculated)",
+            "APC paid (£) including VAT if charged",
+            "Article title",
+            "Currency of APC",
+            "DOI",
+            "Date of APC payment",
+            "Date of initial application by author",
+            "Institution",
+            "Journal",
+            "Licence",
+            "Publisher",
+            "TCO year",
+            "Type of publication",
+            "Year of publication",
+            "period",
+            "euro",
+            "ISBN"
+        ]
+    },
+    "2017": {
+        "article": [
+            "APC paid (£) including VAT if charged",
+            "DOI",
+            "Date of APC payment",
+            "ISSN0",
+            "Institution",
+            "Journal",
+            "Licence",
+            "PubMed ID",
+            "Publisher",
+            "TCO year",
+            "Type of publication",
+            "Drop?",
+            "Period of APC payment",
+            "period",
+            "is_hybrid",
+            "euro"
+        ],
+        "book": [
+            "Line number",
+            "APC paid (£) including VAT if charged",
+            "Article title",
+            "DOI",
+            "Date of APC payment",
+            "Institution",
+            "Journal",
+            "Licence",
+            "Publisher",
+            "TCO year",
+            "Type of publication",
+            "Period of APC payment",
+            "period",
+            "euro",
+            "ISBN"
+        ]
+    },
+    "2018": {
+        "article": [
+            "Institution",
+            "Date of acceptance",
+            "PubMed ID",
+            "DOI",
+            "Publisher",
+            "Journal",
+            "Type of publication",
+            "Date of publication",
+            "Date of APC payment",
+            "APC paid (£) including VAT if charged",
+            "period",
+            "is_hybrid",
+            "euro"
+        ],
+        "book": [
+            "Line number",
+            "Institution",
+            "Date of acceptance",
+            "DOI",
+            "Publisher",
+            "Journal",
+            "Type of publication",
+            "Article title",
+            "Date of publication",
+            "Date of APC payment",
+            "APC paid (£) including VAT if charged",
+            "period",
+            "euro",
+            "ISBN"
+        ]
+    }
 }
 
 PUBLICATION_TYPES_BL = [
-    "Book",
     "Book chapter",
     "Book edited",
     "Conference Paper/Proceeding/Abstract",
-    "Letter",
+    "Letter"
+]
+
+PUBLICATION_TYPES_BOOKS = [
+    "Book",
     "Monograph"
 ]
 
-DATE_DAY_RE = re.compile("(?P<year>[0-9]{4})-?(?P<month>[0-9]{2})?-?(?P<day>[0-9]{2})?")
+DATE_DAY_RE = {
+    "2014_16": re.compile("(?P<year>[0-9]{4})-?(?P<month>[0-9]{2})?-?(?P<day>[0-9]{2})?"),
+    "2017": re.compile("(?P<year>[0-9]{4})-?(?P<month>[0-9]{2})?-?(?P<day>[0-9]{2})?"),
+    "2018": re.compile("(?P<month>[0-9]{1,2})/(?P<day>[0-9]{1,2})/(?P<year>[0-9]{4})")
+}
+
+DATE_STRPTIME = {
+    "2014_16": "%Y-%m-%d",
+    "2017": "%Y-%m-%d",
+    "2018": "%m/%d/%Y"
+}
 
 PERIOD_FIELD_SOURCE = {
     "2014_16": [
@@ -83,6 +171,11 @@ PERIOD_FIELD_SOURCE = {
         "Date of APC payment",
         "Period of APC payment",
         "TCO year"
+    ],
+    "2018": [
+        "Date of APC payment",
+        "Date of publication",
+        "Date of acceptance"
     ]
 }
 
@@ -90,6 +183,9 @@ EXCHANGE_RATES_CACHE = {}
 EXCHANGE_RATES_CACHE_FILE = None
 
 DELETE_REASONS = {}
+
+CURRENT_YEAR = 2017
+#CURRENT_YEAR = datetime.datetime.now().year
 
 NO_DECORATIONS = False
 
@@ -102,8 +198,8 @@ def delete_line(line_dict, reason):
     for key in line_dict:
         line_dict[key] = ""
 
-def line_as_list(line_dict):
-    return [line_dict[field] for field in FIELDNAMES[FORMAT]]
+def line_as_list(line_dict, pub_type):
+    return [line_dict[field] for field in FIELDNAMES[FORMAT][pub_type]]
 
 def is_money_value(string):
     try:
@@ -139,7 +235,7 @@ def _print(color, s):
         print(s)
         
 
-def get_exchange_rate(currency, frequency, date):
+def get_exchange_rate(currency, frequency, date, jisc_format):
     if currency not in EXCHANGE_RATES_CACHE:
         EXCHANGE_RATES_CACHE[currency] = {}
     if frequency not in EXCHANGE_RATES_CACHE[currency]:
@@ -160,7 +256,7 @@ def get_exchange_rate(currency, frequency, date):
     if frequency == "D":
         # The ECB does not report exchange rate for all dates due to weekends/holidays. We have
         # consider some days in advance to find the next possible data in some cases.
-        day = datetime.datetime.strptime(date, "%Y-%m-%d")
+        day = datetime.datetime.strptime(date, DATE_STRPTIME[jisc_format])
         for i in range(6):
             future_day = day + datetime.timedelta(days=i)
             search_day = future_day.strftime("%Y-%m-%d")
@@ -177,8 +273,8 @@ def get_exchange_rate(currency, frequency, date):
         
 def calculate_euro_value(line, jisc_format):
     payment_date = line["Date of APC payment"]
-    date_match = DATE_DAY_RE.match(payment_date)
-    if jisc_format == "2017":
+    date_match = DATE_DAY_RE[jisc_format].match(payment_date)
+    if jisc_format in ["2017", "2018"]:
         apc_pound = line["APC paid (£) including VAT if charged"]
         field_used_for_pound_value = "APC paid (£) including VAT if charged"
     elif jisc_format == "2014_16":
@@ -198,7 +294,7 @@ def calculate_euro_value(line, jisc_format):
                 _print("g", msg.format(apc_orig))
             elif len(currency) == 3:
                 if date_match and is_valid_date(date_match):
-                    rate = get_exchange_rate(currency, "D", payment_date)
+                    rate = get_exchange_rate(currency, "D", payment_date, jisc_format)
                     euro_value = round(float(apc_orig) / float(rate), 2)
                     line["euro"] = str(euro_value)
                     msg = "   - Created euro field ('{}') by dividing the value in 'APC paid (actual currency) including VAT if charged' ({}) by {} (EUR -> {} conversion rate on {}) [ECB]"
@@ -206,12 +302,12 @@ def calculate_euro_value(line, jisc_format):
                     _print("g", msg)
                 else:
                     year = line["period"]
-                    if int(year) >= datetime.datetime.now().year:
+                    if int(year) >= CURRENT_YEAR:
                         del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
                         delete_line(line, del_msg)
                         return
                     try:
-                        rate = get_exchange_rate(currency, "A", year)
+                        rate = get_exchange_rate(currency, "A", year, jisc_format)
                     except KeyError:
                         _print("r", "KeyError: An average yearly conversion rate is missing (" + currency + ", " + year + ")")
                         shutdown()
@@ -222,7 +318,7 @@ def calculate_euro_value(line, jisc_format):
                     _print("g", msg)
     if line["euro"] == "" and is_money_value(apc_pound):
         if date_match and is_valid_date(date_match):
-            rate = get_exchange_rate("GBP", "D", payment_date)
+            rate = get_exchange_rate("GBP", "D", payment_date, jisc_format)
             euro_value = round(float(apc_pound) / float(rate), 2)
             line["euro"] = str(euro_value)
             msg = "   - Created euro field ('{}') by dividing the value in '{}' ({}) by {} (EUR -> GBP conversion rate on {}) [ECB]"
@@ -230,12 +326,12 @@ def calculate_euro_value(line, jisc_format):
             _print("g", msg)
         else:
             year = line["period"]
-            if int(year) >= datetime.datetime.now().year:
+            if int(year) > CURRENT_YEAR:
                 del_msg = "period ({}) too recent to determine average yearly conversion rate".format(year)
                 delete_line(line, del_msg)
                 return
             try:
-                rate = get_exchange_rate("GBP", "A", year)
+                rate = get_exchange_rate("GBP", "A", year, jisc_format)
             except KeyError:
                 _print("r", "KeyError: An average yearly conversion rate is missing (GBP, " + year + ")")
                 shutdown()
@@ -271,53 +367,69 @@ def main():
     f = open(args.source_file, "r", encoding="utf-8")
     reader = csv.DictReader(f)
 
-    modified_content = [list(FIELDNAMES[FORMAT])]
-    line_num = 1
+    article_content = [list(FIELDNAMES[FORMAT]["article"])]
+    book_content = [list(FIELDNAMES[FORMAT]["book"])]
+    empty_article_line = ["" for i in range(len(FIELDNAMES[FORMAT]["article"]))]
+    empty_book_line = ["" for i in range(len(FIELDNAMES[FORMAT]["book"]))]
     for line in reader:
-        line_num += 1
         line["period"] = ""
-        line["is_hybrid"] = ""
         line["euro"] = ""
         line["Journal"] = line["Journal"].replace("\n", " ")
-        _print("b", "--- Analysing line " + str(line_num) + " ---")
+        _print("b", "--- Analysing line " + str(reader.line_num) + " ---")
+        is_book = False
+        pub_type = line["Type of publication"]
+        if pub_type in PUBLICATION_TYPES_BOOKS:
+            line["Line number"] = str(reader.line_num)
+            line["ISBN"] = ""
+            is_book = True
+        else:
+            line["is_hybrid"] = ""
+        # Publication blacklist checking
+        if pub_type in PUBLICATION_TYPES_BL and not is_book:
+            delete_line(line, "Blacklisted pub type ('" + pub_type + "')")
+            article_content.append(list(empty_article_line))
+            continue
         # DOI checking
-        if len(line["DOI"].strip()) == 0:
+        if len(line["DOI"].strip()) == 0 and not is_book:
             delete_line(line, "Empty DOI")
-            modified_content.append(line_as_list(line))
+            article_content.append(list(empty_article_line))
             continue
         # Drop checking
-        if line["Drop?"] == "1":
+        if "Drop?" in FIELDNAMES[FORMAT]["article"] and line["Drop?"] == "1":
             delete_line(line, "Drop mark found")
-            modified_content.append(line_as_list(line))
-            continue
-        # Publication blacklist checking
-        pub_type = line["Type of publication"]
-        if pub_type in PUBLICATION_TYPES_BL:
-            delete_line(line, "Blacklisted pub type ('" + pub_type + "')")
-            modified_content.append(line_as_list(line))
+            article_content.append(list(empty_article_line))
             continue
         # period field generation
         for source_field in PERIOD_FIELD_SOURCE[FORMAT]:
             content = line[source_field].strip()
-            match = DATE_DAY_RE.match(content)
+            match = DATE_DAY_RE[FORMAT].match(content)
             if match:
                 year = match.groupdict()["year"]
-                if int(year) > datetime.datetime.now().year:
+                if int(year) > CURRENT_YEAR:
                     continue
                 line["period"] = year
                 msg = "   - Created period field ('{}') by parsing value '{}' in column '{}'".format(year, content, source_field)
                 _print("g", msg)
                 break
         else:
-            _print("r", "ERROR: period column could not be created for line:\n" + str(line))
-            shutdown()
+            delete_line(line, "Unable to determine payment date for period column")
+            article_content.append(list(empty_article_line))
+            continue
         # euro field generation
         calculate_euro_value(line, FORMAT)
-        modified_content.append(line_as_list(line))
-
+        if is_book:
+            if line["Line number"] != "":
+                book_content.append(line_as_list(line, "book"))
+                delete_line(line, "Book content (extracted to separate file)")
+            article_content.append(list(empty_article_line))
+        else:
+            article_content.append(line_as_list(line, "article"))
     with open('out.csv', 'w') as out:
         writer = oat.OpenAPCUnicodeWriter(out, None, False, True)
-        writer.write_rows(modified_content)
+        writer.write_rows(article_content)
+    with open('out_books.csv', 'w') as out:
+        writer = oat.OpenAPCUnicodeWriter(out, None, False, True)
+        writer.write_rows(book_content)
 
     print("\n\nPreprocessing finished, deleted articles overview:")
 

@@ -2,13 +2,18 @@
 # -*- coding: UTF-8 -*-
 
 import argparse
+import csv
 from datetime import date
 from functools import reduce
 import json
 from math import sqrt, nan
 from os import listdir
 from subprocess import run
+import ssl
 import sys
+from time import sleep
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 from babel.dates import format_date
 import openapc_toolkit as oat
@@ -17,7 +22,12 @@ ARG_HELP_STRINGS = {
     "institution": ('The institution to create an analysis for. Must be a designation occuring ' +
                     'in the "institution" column of the core data file'),
     "verbose": "Be more verbose during APC analysis",
-    "lang": "The report language"
+    "lang": "The report language",
+    "no_doi_resolve_test": ("Skips the DOI resolve test which checks every single doi for a " +
+                            "given institution. Useful if time is short or there's no internet " +
+                            "connection."),
+    "csv_output": ('Write the APC deviation data to a CSV file ("report.csv") in addition to regular ' +
+                   'report generation')
 }
 
 with open("report/strings.json") as f:
@@ -41,6 +51,10 @@ def parse():
     parser.add_argument("institution", help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("lang", help=ARG_HELP_STRINGS["lang"], choices=LANG.keys())
     parser.add_argument("-v", "--verbose", help=ARG_HELP_STRINGS["verbose"], action="store_true")
+    parser.add_argument("-d", "--no-doi-resolve-test", help=ARG_HELP_STRINGS["no_doi_resolve_test"],
+                        action="store_true")
+    parser.add_argument("-c", "--csv_output", help=ARG_HELP_STRINGS["csv_output"],
+                        action="store_true")
     return parser.parse_args()
 
 def get_data_dir_stats(data_dir):
@@ -88,7 +102,7 @@ def generate_metadata_section(institution, ins_content, stats, lang):
         grid_url = "https://www.grid.ac/institutes/" + grid_id
         markdown += "* " + LANG[lang]["md_grid"] + ": [" + grid_id + "](" + grid_url + ")\n"
     markdown += "* " + LANG[lang]["md_ins_apc"] + ": " + ins_line[0] + "\n"
-    url = "https://treemaps.intact-project.org/apcdata/"
+    url = "https://treemaps.openapc.net/apcdata/"
     treemap_url = "<" + url + ins_line[1].replace("_", "-") + ">"
     markdown += "* " + LANG[lang]["md_treemap"] + ": " + treemap_url + "\n"
     data_dir = ins_line[6]
@@ -144,8 +158,54 @@ def generate_duplicates_section(institution, dup_content, ins_content, lang):
         markdown += "\n"
         count += 1
     return markdown
+    
+def generate_nonresolving_dois_section(institution, apc_content, lang):
+    articles = []
+    non_resolving_lines = []
+    for line in apc_content:
+        if line[0] == institution:
+            articles.append(line)
+    msg = "   ({}/{}) DOIs checked, {} not resolving"
+    headers = {"User-Agent": "OpenAPC DOI Tester"}
+    print("Checking DOIs...")
+    for index, line in enumerate(articles):
+        doi = line[3]
+        if doi != "NA":
+            req = Request("https://doi.org/" + doi, headers=headers)
+            context = ssl.create_default_context()
+            context.check_hostname = False
+            context.verify_mode = ssl.CERT_NONE
+            try:
+                urlopen(req, context=context)
+                sleep(0.5)
+            # we employ a conservative strategy here. Catching all HTTP/URL errors leads to
+            # many false positives which wouldn't occur in a browser (TLS stuff/User-Agent blocks)
+            except HTTPError as httpe:
+                if httpe.getcode() == 404:
+                    non_resolving_lines.append(line)
+            except URLError:
+                pass
+            except ConnectionError:
+                pass
+        print(msg.format(index, len(articles), len(non_resolving_lines)), end="\r")
+    md_content = ""
+    if non_resolving_lines:
+        md_content += LANG[lang]["nrd_header"]
+        md_content += LANG[lang]["nrd_intro"]
+        md_content += LANG[lang]["nrd_th"]
+        for line in non_resolving_lines:
+            row = "|" + line[1] + "|"
+            row += "[{}](https://doi.org/{})|".format(line[3], line[3]) 
+            for index in [5, 6]:
+                row += line[index] + "|"
+            md_content += row + "\n"
+        md_content += "\n"
+    return md_content
 
-def generate_apc_deviaton_section(institution, articles, stats, lang):
+
+def generate_apc_deviaton_section(institution, articles, stats, lang, csv_output=False):
+    if csv_output:
+        csv_content = [["Journal", "Publisher", "Journal Articles in OpenAPC", "Period", "DOI", "Reported Costs", "OpenAPC Mean Value", "OpenAPC Standard Deviation", "Difference (absolute)", "Difference (Standard Deviations)"]]
     md_content = ""
     journal_dict = {}
     for article in articles:
@@ -161,7 +221,7 @@ def generate_apc_deviaton_section(institution, articles, stats, lang):
     md_content += LANG[lang]["ad_disc"]
     for journal in journals:
         publisher = journal_dict[journal][0][5]
-        num_articles = journal_dict[journal][0][21]
+        num_articles = journal_dict[journal][0][22]
         md_content += LANG[lang]["ad_table_header"].format(journal, publisher, num_articles)
         md_content += LANG[lang]["ad_th"]
         for article in journal_dict[journal]:
@@ -169,17 +229,29 @@ def generate_apc_deviaton_section(institution, articles, stats, lang):
             for index in [1, 3, 2, 18, 19, 20]:
                 elem = str(article[index]).replace("|", "\|")
                 if index == 3: # doi
-                    elem = "[" + elem + "](https://doi.org/" + elem + ")"
+                    if oat.has_value(elem):
+                        elem = "[" + elem + "](https://doi.org/" + elem + ")"
+                    else: # No doi, use url instead
+                        elem = "[Link](" + article[16] + ")"
                 if index in [2, 18, 19, 20]: # monetary
                     elem = elem + "€"
                 row += elem + "|"
             row += "\n"
             md_content += row
+            if csv_output:
+                line = []
+                for index in [6, 5, 22, 1, 3, 2, 18, 19, 20, 21]:
+                    line.append(str(article[index]))
+                csv_content.append(line)
         md_content += "\n\n"
     md_content += LANG[lang]["ad_stats_header"].format(institution)
     for stat in ["articles", "not_checked", "within_limits", "significant"]:
         md_content += "* " + LANG[lang]["ad_stats_" + stat]
         md_content += ": " + str(stats[stat]) + "\n"
+    if csv_output:
+        with open("report.csv", "w") as out:
+            csv_writer = csv.writer(out)
+            csv_writer.writerows(csv_content)
     return md_content
 
 def find_significant_apc_differences(apc_content, institution, verbose=False):
@@ -224,7 +296,8 @@ def find_significant_apc_differences(apc_content, institution, verbose=False):
         if abs(float(apc) - titles[title]["mean"]) > 2 * titles[title]["stddev"]:
             rounded_mean = round(titles[title]["mean"], 2)
             rounded_stddev = round(titles[title]["stddev"], 2)
-            diff = round(float(apc) - rounded_mean, 2)
+            diff_absolute = round(float(apc) - rounded_mean, 2)
+            diff_times_stddev = round(diff_absolute / rounded_stddev, 2)
             if verbose:
                 msg = ('Article {}, journal "{}": Cost ({}€) differs more than 2 standard ' +
                        'deviations (2 * {}€) from mean APC ({}€)')
@@ -232,7 +305,8 @@ def find_significant_apc_differences(apc_content, institution, verbose=False):
             stats["significant"] += 1
             article.append(rounded_mean)
             article.append(rounded_stddev)
-            article.append(diff)
+            article.append(diff_absolute)
+            article.append(diff_times_stddev)
             article.append(titles[title]["count"])
             sig_articles.append(article)
         else:
@@ -260,7 +334,9 @@ def main():
     report += generate_header(args.lang)
     report += generate_metadata_section(args.institution, ins_content, stats, args.lang)
     report += generate_duplicates_section(args.institution, dup_content, ins_content, args.lang)
-    report += generate_apc_deviaton_section(args.institution, sig_articles, stats, args.lang)
+    if not args.no_doi_resolve_test:
+        report += generate_nonresolving_dois_section(args.institution, apc_content, args.lang)
+    report += generate_apc_deviaton_section(args.institution, sig_articles, stats, args.lang, args.csv_output)
 
     ins = args.institution.lower().replace(" ", "_")
     today = format_date(date.today(), format="dd_MM_yy")

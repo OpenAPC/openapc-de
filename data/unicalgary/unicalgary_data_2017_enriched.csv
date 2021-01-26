@@ -1,6 +1,6 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 
-"University of Calgary",2016,1450.6,"10.1161/JAHA.116.004289",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,NA,NA,"ut:000386748500052",NA,TRUE
+"University of Calgary",2016,1450.6,"10.1161/JAHA.116.004289",FALSE,"Wiley-Blackwell","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,NA,NA,"ut:000386748500052",NA,TRUE
 "University of Calgary",2016,2706.12,"10.1182/bloodadvances.2016000836",FALSE,"American Society of Hematology","Blood Advances","2473-9529","2473-9529","2473-9537",NA,NA,TRUE,NA,NA,NA,NA,FALSE
 
 
@@ -763,7 +763,7 @@
 "University of Calgary",2015,106.24,"10.4172/2376-0249.1000296",FALSE,"OMICS Publishing Group","International Journal of Clinical & Medical Imaging","23760249",NA,"23760249","2376-0249",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Calgary",2015,106.24,"10.4172/2376-0249.1000297",FALSE,"OMICS Publishing Group","International Journal of Clinical & Medical Imaging","23760249",NA,"23760249","2376-0249",NA,TRUE,NA,NA,NA,NA,FALSE
 "University of Calgary",2015,651.37,"10.4172/2165-7912.1000261",FALSE,"OMICS Publishing Group","Journal of Mass Communication and Journalism","21657912",NA,"21657912","2165-7912",NA,TRUE,NA,NA,NA,NA,FALSE
-"University of Calgary",2014,92.89,NA,FALSE,"OMICS Publishing Group","International Journal of Clinical & Medical Imaging","2376-0249",NA,NA,"2376-0249",NA,FALSE,NA,NA,NA,"http://imagejournals.org/acanthosis-nigricans.php?image_id=169",FALSE
+"University of Calgary",2014,92.89,"10.4172/ijcmi.1000259",FALSE,"OMICS Publishing Group","International Journal of Clinical & Medical Imaging","2376-0249",NA,NA,"2376-0249",NA,FALSE,NA,NA,NA,"http://imagejournals.org/acanthosis-nigricans.php?image_id=169",FALSE
 
 "University of Calgary",2014,1174.43,NA,FALSE,"Open Medicine Publications","Open Medicine","1911-2092",NA,NA,"1911-2092",NA,FALSE,NA,"4242789",NA,"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4242789/",FALSE
 "University of Calgary",2011,1328.48,"10.1364/OE.19.003004",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"21369125",NA,"ut:000288860000021",NA,FALSE
@@ -919,13 +919,13 @@
 "University of Calgary",2013,1115.12,"10.1002/phy2.178",FALSE,"Wiley-Blackwell","Physiological Reports","2051817X",NA,NA,"2051-817X",NA,TRUE,"24744857","PMC3970734",NA,NA,FALSE
 "University of Calgary",2014,2154.88,"10.1111/j.1365-2206.2012.00894.x",TRUE,"Wiley-Blackwell","Child & Family Social Work","13567500",NA,NA,"1356-7500","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,NA,NA,"ut:000331612900009",NA,FALSE
 "University of Calgary",2013,2272.51,"10.1111/cch.12128",TRUE,"Wiley-Blackwell","Child: Care, Health and Development","03051862",NA,NA,"0305-1862","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24387638",NA,"ut:000346180700017",NA,FALSE
-"University of Calgary",2014,1224.17,"10.1161/JAHA.114.000875",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980",NA,"2047-9980","2047-9980",NA,TRUE,"24815497","PMC4309085","ut:000336848800032",NA,TRUE
+"University of Calgary",2014,1224.17,"10.1161/JAHA.114.000875",FALSE,"Wiley-Blackwell","Journal of the American Heart Association","2047-9980",NA,"2047-9980","2047-9980",NA,TRUE,"24815497","PMC4309085","ut:000336848800032",NA,TRUE
 "University of Calgary",2014,1492.53,"10.1002/ece3.1051",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"2045-7758","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25360269","PMC4203281","ut:000337738800001",NA,FALSE
 "University of Calgary",2014,2172.44,"10.1111/een.12108",TRUE,"Wiley-Blackwell","Ecological Entomology","03076946",NA,NA,"0307-6946","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25400320","PMC4207193","ut:000335751300004",NA,FALSE
 "University of Calgary",2014,1129.6,"10.14814/phy2.12027",FALSE,"Wiley-Blackwell","Physiological Reports","2051-817X",NA,"2051-817X","2051-817X",NA,TRUE,"24872358","PMC4098750",NA,NA,TRUE
 "University of Calgary",2014,2182.03,"10.1111/xen.12115",TRUE,"Wiley-Blackwell","Xenotransplantation","0908665X",NA,NA,"0908-665X","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25040337","PMC4283710","ut:000346151800001",NA,FALSE
 "University of Calgary",2014,2201.58,"10.1002/hec.3075",TRUE,"Wiley-Blackwell","Health Economics","10579230",NA,NA,"1057-9230","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24990225",NA,"ut:000357337000005",NA,FALSE
-"University of Calgary",2014,1487.3,"10.1161/JAHA.114.000997",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980",NA,"2047-9980","2047-9980",NA,TRUE,"25213565","PMC4323783","ut:000341861200007",NA,TRUE
+"University of Calgary",2014,1487.3,"10.1161/JAHA.114.000997",FALSE,"Wiley-Blackwell","Journal of the American Heart Association","2047-9980",NA,"2047-9980","2047-9980",NA,TRUE,"25213565","PMC4323783","ut:000341861200007",NA,TRUE
 "University of Calgary",2015,1602.63,"10.1002/cam4.420",FALSE,"Wiley-Blackwell","Cancer Medicine","20457634",NA,NA,"2045-7634","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25773971","PMC4472212","ut:000355988000012",NA,FALSE
 "University of Calgary",2015,1476.38,"10.14814/phy2.12349",FALSE,"Wiley-Blackwell","Physiological Reports","2051-817X",NA,"2051-817X","2051-817X",NA,TRUE,"25902783","PMC4425957",NA,NA,TRUE
 "University of Calgary",2015,1396.26,"10.14814/phy2.12378",FALSE,"Wiley-Blackwell","Physiological Reports","2051-817X",NA,"2051-817X","2051-817X",NA,TRUE,"25907789","PMC4425980",NA,NA,TRUE

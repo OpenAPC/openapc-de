@@ -3241,7 +3241,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "",,,"","","","","","","","","","","","","","",""
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Wellcome Trust",2016,1721.55,"10.1002/clc.22507",TRUE,"Wiley-Blackwell","Clinical Cardiology","0160-9289",NA,NA,"0160-9289","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"26807534","PMC4864751","ut:000371415400002",NA,FALSE
+"Wellcome Trust",2016,1721.55,"10.1002/clc.22507",FALSE,"Wiley-Blackwell","Clinical Cardiology","0160-9289",NA,NA,"0160-9289","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"26807534","PMC4864751","ut:000371415400002",NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -3302,7 +3302,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
-"Wellcome Trust",2016,1152.29,"10.1111/hex.12481",TRUE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"27397651",NA,NA,NA,FALSE
+"Wellcome Trust",2016,1152.29,"10.1111/hex.12481",FALSE,"Wiley-Blackwell","Health Expectations","1369-6513",NA,NA,"1369-6513","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"27397651",NA,NA,NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -3387,12 +3387,12 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2016,1721.55,"10.1111/jgs.13975",TRUE,"Wiley-Blackwell","Journal of the American Geriatrics Society","0002-8614",NA,NA,"0002-8614","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"26889851","PMC4855682","ut:000371159000032",NA,FALSE
 "Wellcome Trust",2016,1721.55,"10.1111/jgs.14255",TRUE,"Wiley-Blackwell","Journal of the American Geriatrics Society","0002-8614",NA,NA,"0002-8614","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"27351127","PMC5031211","ut:000387017800043",NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
-"Wellcome Trust",2016,2231.55,"10.1161/jaha.115.002822",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,"26908407","PMC4802443","ut:000378131100013",NA,TRUE
+"Wellcome Trust",2016,2231.55,"10.1161/jaha.115.002822",FALSE,"Wiley-Blackwell","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,"26908407","PMC4802443","ut:000378131100013",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
-"Wellcome Trust",2016,1106.38,"10.1161/jaha.115.002365",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,FALSE,"26873682","PMC4802439","ut:000378131100024",NA,TRUE
-"Wellcome Trust",2016,1430.68,"10.1161/jaha.115.001926",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,FALSE,"26289347","PMC4599457","ut:000364150900009",NA,TRUE
-"Wellcome Trust",2016,914.72,"10.1161/jaha.116.003555",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,"27402229","PMC5015393","ut:000386713800045",NA,TRUE
+"Wellcome Trust",2016,1106.38,"10.1161/jaha.115.002365",FALSE,"Wiley-Blackwell","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,FALSE,"26873682","PMC4802439","ut:000378131100024",NA,TRUE
+"Wellcome Trust",2016,1430.68,"10.1161/jaha.115.001926",FALSE,"Wiley-Blackwell","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,FALSE,"26289347","PMC4599457","ut:000364150900009",NA,TRUE
+"Wellcome Trust",2016,914.72,"10.1161/jaha.116.003555",FALSE,"Wiley-Blackwell","Journal of the American Heart Association","2047-9980","2047-9980","2047-9980","2047-9980",NA,TRUE,"27402229","PMC5015393","ut:000386713800045",NA,TRUE
 "Wellcome Trust",2016,2754.48,"10.1111/jth.13189",TRUE,"Wiley-Blackwell","Journal of Thrombosis and Haemostasis","1538-7933",NA,NA,"1538-7836","http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26559391","PMC4737436","ut:000370661100021",NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2016,1418.56,"10.1111/jvim.13917",FALSE,"Wiley-Blackwell","Journal of Veterinary Internal Medicine","0891-6640",NA,NA,"0891-6640","http://doi.wiley.com/10.1002/tdm_license_1.1",TRUE,"26948860","PMC4864943","ut:000372981500014",NA,FALSE

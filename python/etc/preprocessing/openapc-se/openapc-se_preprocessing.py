@@ -51,7 +51,7 @@ def main():
             DUPLICATES_DOIS.append(doi)
     oat.print_b("Done, " + str(len(DUPLICATES_DOIS)) + " unique DOIs extracted from unresolved duplicates file.")
 
-    apc_se_header, apc_se_content = oat.get_csv_file_content(args.apc_se_file, "utf-8", True)
+    apc_se_header, apc_se_content = oat.get_csv_file_content(args.apc_se_file, "latin1", True)
     stats = {
         "offsetting_duplicates": 0,
         "unresolved_duplicates": 0,

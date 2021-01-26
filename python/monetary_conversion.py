@@ -3,6 +3,7 @@
 
 import argparse
 import codecs
+import datetime
 import locale
 from os import path
 import re
@@ -50,6 +51,11 @@ def get_frequency(date_string):
         return "D"
     else:
         return None
+
+def get_next_day(date_string):
+    day = datetime.datetime.strptime(date_string, "%Y-%m-%d")
+    next_day = day + datetime.timedelta(days=1)
+    return next_day.strftime("%Y-%m-%d")
 
 def main():
     parser = argparse.ArgumentParser()
@@ -140,6 +146,12 @@ def main():
             modified_content.append(line)
             continue
         currency = line[args.currency_column]
+        if currency == "EUR":
+            msg = "WARNING: Currency in line {} is already EUR, skipping..."
+            oat.print_y(msg.format(line_num))
+            line[args.target_column] = line[args.source_column]
+            modified_content.append(line)
+            continue
         if not oat.has_value(currency):
             msg = "WARNING: Could not extract a valid currency indicator from currency column in line {} ('{}'), skipping..."
             oat.print_y(msg.format(line_num, currency))
@@ -157,13 +169,24 @@ def main():
             oat.print_b(msg.format(frequency, currency))
             rates = oat.get_euro_exchange_rates(currency, frequency)
             EXCHANGE_RATES[frequency][currency] = rates
-        try:
-            rate = EXCHANGE_RATES[frequency][currency][period]
-        except KeyError:
-            msg = "ERROR: No conversion rate found for currency {} for period {} (line {}), aborting..."
-            oat.print_r(msg.format(currency, period, line_num))
-            sys.exit()
-        
+        rate = EXCHANGE_RATES[frequency][currency].get(period)
+        if rate is None:
+            if frequency != "D":
+                msg = "Warning: No conversion rate found for currency {} for period {} (line {}), aborting..."
+                oat.print_r(msg.format(currency, period, line_num))
+                sys.exit()
+            day_retries = 0
+            while rate is None:
+                msg = "Warning: No conversion rate found for currency {} for period {} (line {}), trying next day..."
+                oat.print_y(msg.format(currency, period, line_num))
+                period = get_next_day(period)
+                rate = EXCHANGE_RATES[frequency][currency].get(period)
+                day_retries += 1
+                if day_retries > 5:
+                    msg = "Error: Look-ahead limit for days exceeded, aborting..."
+                    oat.print_r(msg)
+                    sys.exit()
+
         euro_value = round(monetary_value/float(rate), 2)
         line[args.target_column] = str(euro_value)
         

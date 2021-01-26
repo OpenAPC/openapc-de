@@ -1,6 +1,6 @@
 # Diese Daten #
 * APC-Kosten, die aus dem Open-Access-Publikationsfonds der Universität Potsdam bezahlt worden sind.
-* Daten aus den Publikationsjahren 2015 bis 2018
+* Daten aus den Publikationsjahren 2015 bis 2019
 * Der Fonds wird mit Unterstüzung der *Deutschen Forschungsgemeinschaft* (DFG) angeboten. 
 * Auch Daten von APCs, die aus den Eigenanteilen des Fonds finanziert wurden, sind enthalten.
 * Alle APC-Kosten sind Brutto-Preise.
@@ -9,7 +9,7 @@
  
 # this data #
 * APC costs that the open access fund of  University of Potsdam has paid for
-* data from 2015 to 2018
+* data from 2015 to 2019
 * fund supported by *Deutsche Forschungsgemeinschaft* (DFG)
 * APCs costs funded by own contributions are also listed
 * All APCs are pre-tax prices
