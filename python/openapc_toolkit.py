@@ -3,6 +3,7 @@
 
 import csv
 from collections import OrderedDict
+from http.client import RemoteDisconnected
 import json
 import locale
 import logging
@@ -81,7 +82,8 @@ MESSAGES = {
     "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)",
     "unknown_hybrid_identifier": "Unknown identifier in 'is_hybrid' column ('%s').",
     "hybrid_normalisation": "Normalisation: is_hybrid status changed from '%s' to '%s'.",
-    "no_hybrid_identifier": "Empty value in 'is_hybrid' column."
+    "no_hybrid_identifier": "Empty value in 'is_hybrid' column.",
+    "empty_row": "Row is empty."
 }
 
 # Do not quote the values in the 'period' and 'euro' columns
@@ -999,6 +1001,9 @@ def get_metadata_from_crossref(doi_string):
     except HTTPError as httpe:
         ret_value['success'] = False
         ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except RemoteDisconnected as rd:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "Remote Disconnected: {}".format(str(rd))
     except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
@@ -1331,15 +1336,27 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         logging.error(msg, row_num, len(row), num_required_columns)
         return row
 
+    empty_row = True
+    for elem in row:
+        if has_value(elem):
+            empty_row = False
+            break
+    else:
+        msg = "Line %s: " + MESSAGES["empty_row"]
+        logging.warning(msg, row_num)
+
     current_row = {}
     record_type = None
 
     # Copy content of identified columns and apply special processing rules
     for csv_column in column_map.values():
         index, column_type = csv_column.index, csv_column.column_type
+        if empty_row:
+            current_row[column_type] = ""
+            continue
         if column_type == "euro" and index is not None:
             current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, offsetting_mode)
-        elif column_type == "period":
+        elif column_type == "period" and index is not None:
             current_row["period"] = _process_period_value(row[index], row_num)
         elif column_type == "is_hybrid" and index is not None:
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
@@ -1352,7 +1369,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 current_row[column_type] = "NA"
 
     doi = current_row["doi"]
-    if len(doi) == 0 or doi == 'NA':
+    if not has_value(doi) and not empty_row:
         # lookup ISBNs in crossref
         msg = ("Line %s: No DOI found")
         logging.info(msg, row_num)
@@ -1436,7 +1453,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.error(msg, row_num, doi, pubmed_result["error_msg"])
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
-    if not no_doaj_lookup:
+    if not no_doaj_lookup and not empty_row:
         issns = []
         new_value = "NA"
         if current_row["issn_electronic"] != "NA":
@@ -1458,7 +1475,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.info(msg, issn)
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
-    if record_type != "journal_article":
+    if record_type != "journal_article" and not empty_row:
         collected_isbns = []
         for isbn_field in ["isbn", "isbn_print", "isbn_electronic"]:
             # test and split all ISBNs
