@@ -269,7 +269,14 @@ JOURNAL_MAPPINGS = {
     "Journal of General Physiology": "The Journal of General Physiology",
     "Journal of Environment Quality": "Journal of Environmental Quality",
     "TAXON": "Taxon",
-    "Journal of Applied Poultry Research": "The Journal of Applied Poultry Research"
+    "Journal of Applied Poultry Research": "The Journal of Applied Poultry Research",
+    "Journal of Experimental Medicine": "The Journal of Experimental Medicine",
+    "Journal of Cell Biology": "The Journal of Cell Biology",
+    "Gerontology and Geriatric Medicine": "Gerontology & Geriatric Medicine",
+    "Information & Computer Security": "Information and Computer Security",
+    "SLAS DISCOVERY: Advancing the Science of Drug Discovery": "SLAS DISCOVERY: Advancing Life Sciences R&D",
+    "Ear & Hearing": "Ear and Hearing",
+    "CORROSION": "Corrosion"
 }
 
 COLUMN_NAMES = {
