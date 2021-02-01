@@ -1004,6 +1004,9 @@ def get_metadata_from_crossref(doi_string):
     except RemoteDisconnected as rd:
         ret_value['success'] = False
         ret_value['error_msg'] = "Remote Disconnected: {}".format(str(rd))
+    except ConnectionResetError as cre:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "Connection Reset: {}".format(str(cre))
     except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
@@ -1286,9 +1289,10 @@ def _process_institution_value(institution, row_num, orig_file_path, offsetting_
     data_path = path.split("data/").pop()
     if data_path in INSTITUTIONS_MAP:
         new_value = INSTITUTIONS_MAP[data_path]
-        msg = "Line %s: Normalisation: Institution name replaced via mapping file ('%s' -> '%s')"
-        logging.warning(msg, row_num, institution, new_value)
-        return new_value
+        if new_value != institution:
+            msg = "Line %s: Normalisation: Institution name replaced via mapping file ('%s' -> '%s')"
+            logging.warning(msg, row_num, institution, new_value)
+            return new_value
     return institution
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
