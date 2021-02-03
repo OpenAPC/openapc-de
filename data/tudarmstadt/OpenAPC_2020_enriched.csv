@@ -40,7 +40,7 @@
 "TU Darmstadt",2020,1951.96,"10.3390/w12061740",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000553897000001",NA,TRUE
 "TU Darmstadt",2020,533.1,"10.1016/j.softx.2020.100476",FALSE,"Elsevier BV","SoftwareX","2352-7110","2352-7110",NA,"2352-7110","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000549937400020",NA,TRUE
 "TU Darmstadt",2020,1812.22,"10.3390/w12061676",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000550743200001",NA,TRUE
-"TU Darmstadt",2020,1865.82,"10.1109/tap.2018.2878281",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Antennas and Propagation","0018-926X","0018-926X","1558-2221","0018-926X",NA,TRUE,NA,NA,"ut:000456478400025",NA,FALSE
+"TU Darmstadt",2020,1865.82,"10.1109/tap.2018.2878281",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Antennas and Propagation","0018-926X","0018-926X","1558-2221","0018-926X",NA,TRUE,NA,NA,"ut:000456478400025",NA,FALSE
 "TU Darmstadt",2020,1938.89,"10.3390/ma13143222",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"32698372","PMC7412470","ut:000557912400001",NA,TRUE
 "TU Darmstadt",2020,756,"10.3897/zookeys.948.48701",FALSE,"Pensoft Publishers","ZooKeys","1313-2970","1313-2989","1313-2970","1313-2970","http://creativecommons.org/licenses/by/4.0/",TRUE,"32765172","PMC7381719","ut:000573110100003",NA,TRUE
 "TU Darmstadt",2020,485.19,"10.1016/j.ohx.2020.e00166",FALSE,"Elsevier BV","HardwareX","2468-0672","2468-0672",NA,"2468-0672","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -75,7 +75,7 @@
 "TU Darmstadt",2020,1746.79,"10.3390/app10175972",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "TU Darmstadt",2020,1751.77,"10.2196/19578",FALSE,"JMIR Publications Inc.","JMIR Public Health and Surveillance","2369-2960",NA,"2369-2960","2369-2960",NA,TRUE,"32877347","PMC7486000",NA,NA,TRUE
 "TU Darmstadt",2020,1746.79,"10.3390/en13184665",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"TU Darmstadt",2020,1746.79,"10.3390/app10175972",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "TU Darmstadt",2020,1746.79,"10.3390/en13174405",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "TU Darmstadt",2020,1741.13,"10.3390/en13184606",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "TU Darmstadt",2020,1934.58,"10.3390/molecules25184127",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"32917011","PMC7570821",NA,NA,TRUE
