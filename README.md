@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |113,398 | 222,511,667    | 272 |
-| Monographs       |950 | 4,177,963    | 4 |
+| Articles         |116,956 | 229,203,382    | 276 |
+| Monographs       |1,194 | 7,410,741    | 5 |
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -143,8 +143,11 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 
 - [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Bern University of Applied Sciences](http://www.bfh.ch/)
+- [University of Bern](https://www.unibe.ch/university/services/university_library/services/open_science/open_access/index_eng.html)
 - [University of Zurich](https://www.uzh.ch/cmsssl/en/outreach/libraries/openaccess.html)
 - [Lucerne University of Applied Sciences and Arts](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
+- [University of Teacher Education Lucerne](https://www.phlu.ch/)
+- [University of Lucerne](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
 
 ## Participating Italian Institutions
 
@@ -396,13 +399,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 113,398 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 272 research performing institutions and research funders. 
+The article data set contains information on 116,956 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 276 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 222,511,667. The average payment was € 1,962 and the median was € 1,773.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 229,203,382. The average payment was € 1,960 and the median was € 1,773.
 
-68,319 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 109,605,650, including value-added tax; the average payment was € 1,604 (median =  € 1,517, SD = € 794).
+70,475 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 113,197,554, including value-added tax; the average payment was € 1,606 (median =  € 1,519, SD = € 792).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 45,079 articles in the data set were published in hybrid journals. Total expenditure amounts to 112,906,018 €; the average fee was € 2,505 (median =  € 2,475, SD = € 1,002).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 46,481 articles in the data set were published in hybrid journals. Total expenditure amounts to 116,005,828 €; the average fee was € 2,496 (median =  € 2,454, SD = € 998).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -424,19 +427,20 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2011   |         770|   1,157|     1,127| 105 -  4,666|               6|       1,781|         2,085|      552 - 2,631|
 |2012   |       1,532|   1,174|     1,180|  69 -  4,498|              20|       2,308|         2,412|      997 - 2,700|
 |2013   |       2,349|   1,229|     1,180|  50 -  4,574|           1,098|       2,257|         2,260|      120 - 4,679|
-|2014   |       5,085|   1,375|     1,256|  40 -  9,028|           6,518|       2,239|         2,200|      132 - 6,000|
-|2015   |       8,281|   1,524|     1,452|  59 -  5,669|           6,683|       2,610|         2,622|      127 - 8,636|
-|2016   |       9,634|   1,635|     1,531|  63 -  5,985|           7,879|       2,552|         2,516|        2 - 9,079|
-|2017   |      14,198|   1,721|     1,560|   9 - 14,634|          10,578|       2,532|         2,474|       37 - 9,858|
-|2018   |      13,236|   1,704|     1,594|  13 -  8,926|           8,998|       2,567|         2,545|       18 - 9,073|
-|2019   |      10,902|   1,647|     1,644|  22 -  7,684|           3,245|       2,530|         2,532|       75 - 7,745|
-|2020   |       1,227|   1,953|     1,727|   2 -  5,832|              50|       2,647|         2,660|      500 - 5,317|
+|2014   |       5,085|   1,375|     1,257|  40 -  9,028|           6,517|       2,238|         2,200|      132 - 6,000|
+|2015   |       8,279|   1,523|     1,452|  59 -  5,669|           6,685|       2,610|         2,622|      127 - 8,636|
+|2016   |       9,634|   1,635|     1,531|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
+|2017   |      14,198|   1,720|     1,560|   9 - 14,634|          10,580|       2,532|         2,475|       37 - 9,858|
+|2018   |      13,237|   1,704|     1,594|  13 -  8,926|           8,998|       2,567|         2,545|       18 - 9,073|
+|2019   |      12,283|   1,645|     1,623|  22 -  7,684|           4,581|       2,427|         2,359|       75 - 7,745|
+|2020   |       1,989|   1,877|     1,756|   2 -  5,832|             112|       2,687|         2,725|      498 - 5,317|
+|2021   |          14|   1,628|     1,691| 625 -  2,634|              NA|          NA|            NA|               NA|
 
 ### Books (BPCs)
 
-The book data set contains information on 950 open access books. Publication fees were supported financially by 4 research performing institutions and funders. 
+The book data set contains information on 1,194 open access books. Publication fees were supported financially by 5 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 4,177,963. The average payment was € 4,398 and the median was € 1,981.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 7,410,741. The average payment was € 6,207 and the median was € 6,264.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -451,9 +455,12 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 
 |period | Frontlist books| mean BPC| median BPC|  BPC min - max| Backlist books| mean BPC| median BPC| BPC min - max|
 |:------|---------------:|--------:|----------:|--------------:|--------------:|--------:|----------:|-------------:|
-|2017   |             142|    8,726|      8,780| 1,075 -  8,780|            195|    1,981|      1,981| 1,981 - 1,981|
-|2018   |             107|    8,245|      8,250| 6,486 -  8,780|            191|    1,875|      1,875| 1,875 - 1,875|
-|2019   |             107|    7,964|      8,250| 2,975 - 14,813|            194|    1,876|      1,875| 1,875 - 1,981|
+|2014   |              61|   15,263|     16,000| 7,714 - 20,000|             NA|       NA|         NA|            NA|
+|2015   |              44|   14,676|     14,000| 8,000 - 20,000|             NA|       NA|         NA|            NA|
+|2016   |              38|   13,517|     14,000| 6,860 - 22,000|             NA|       NA|         NA|            NA|
+|2017   |             183|    9,294|      8,780| 1,075 - 21,000|            195|    1,981|      1,981| 1,981 - 1,981|
+|2018   |             140|    9,090|      8,250| 6,486 - 18,000|            191|    1,875|      1,875| 1,875 - 1,875|
+|2019   |             134|    8,525|      8,250| 2,975 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |              13|    7,261|      8,250| 1,473 -  9,413|              1|    1,875|      1,875| 1,875 - 1,875|
 
 
@@ -497,10 +504,10 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.75%       |
-|PubMed ID                  |  76.32%      |
-|PubMed Central ID          |  69.68%     |
-|Web of Science record ID   | 93.73%      |
+|DOI                        |  99.73%       |
+|PubMed ID                  |  76.14%      |
+|PubMed Central ID          |  69.48%     |
+|Web of Science record ID   | 93.52%      |
 
 
 
@@ -528,7 +535,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Ulrich Herb, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Max Mosterd, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Ilka Rudolf, Pavla Rygelová, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Ulrich Herb, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Max Mosterd, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Edith Reschke, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Ilka Rudolf, Pavla Rygelová, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Philipp Zumstein
 
 ## Contact
 

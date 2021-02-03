@@ -3,6 +3,7 @@
 
 import csv
 from collections import OrderedDict
+from http.client import RemoteDisconnected
 import json
 import locale
 import logging
@@ -81,7 +82,8 @@ MESSAGES = {
     "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)",
     "unknown_hybrid_identifier": "Unknown identifier in 'is_hybrid' column ('%s').",
     "hybrid_normalisation": "Normalisation: is_hybrid status changed from '%s' to '%s'.",
-    "no_hybrid_identifier": "Empty value in 'is_hybrid' column."
+    "no_hybrid_identifier": "Empty value in 'is_hybrid' column.",
+    "empty_row": "Row is empty."
 }
 
 # Do not quote the values in the 'period' and 'euro' columns
@@ -165,6 +167,9 @@ COLUMN_SCHEMAS = {
         "doab"
     ]
 }
+
+INSTITUTIONS_FILE = "../data/institutions.csv"
+INSTITUTIONS_MAP = None
 
 class OpenAPCUnicodeWriter(object):
     """
@@ -303,7 +308,7 @@ class DOABAnalysis(object):
                     if verbose:
                         msg = "Line {}: ISBN normalization failure ({}): {}"
                         msg = msg.format(reader.line_num, result["input_value"],
-                                         ISBNHandling.ISBN_ERRORS[res["error_type"]])
+                                         ISBNHandling.ISBN_ERRORS[result["error_type"]])
                         print_r(msg)
                     continue
                 else:
@@ -347,8 +352,7 @@ class ISBNHandling(object):
         0: "Input is neither a valid split nor a valid unsplit 13-digit ISBN",
         1: "Too short (Must be 17 chars long including hyphens)",
         2: "Too long (Must be 17 chars long including hyphens)",
-        3: "ISBN check digit is incorrect",
-        4: "Input ISBN was split, but the segmentation is invalid"
+        3: "Input ISBN was split, but the segmentation is invalid"
     }
 
     def __init__(self, range_file_path, range_file_update=False):
@@ -372,7 +376,6 @@ class ISBNHandling(object):
 
         The following tests will be applied:
             - Syntax (Regex)
-            - Check digit calculation
             - Re-split and segmentation comparison (if input was split already)
 
         Args:
@@ -399,12 +402,9 @@ class ISBNHandling(object):
             else:
                 split_on_input = True
         if self.ISBN_RE.match(unsplit_isbn):
-            if not self.isbn_has_valid_check_digit(unsplit_isbn):
-                ret["error_type"] = 3
-                return ret
             split_isbn = self.split_isbn(unsplit_isbn)["value"]
             if split_on_input and split_isbn != stripped_isbn:
-                ret["error_type"] = 4
+                ret["error_type"] = 3
                 return ret
             ret["normalised"] = split_isbn
             ret["valid"] = True
@@ -754,7 +754,9 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
     """
     Harvest OpenAPC records via OAI-PMH
     """
-    collection_xpath = ".//oai_2_0:record//oai_2_0:metadata//intact:collection"
+    collection_xpath = ".//oai_2_0:metadata//intact:collection"
+    record_xpath = ".//oai_2_0:record"
+    identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
     token_xpath = ".//oai_2_0:resumptionToken"
     processing_regex = re.compile(r"'(?P<target>\w*?)':'(?P<generator>.*?)'")
     variable_regex = re.compile(r"%(\w*?)%")
@@ -778,6 +780,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
         else:
             print_r("Error: Unable to parse processing instruction!")
             processing = None
+    print_b("Harvesting from " + url)
     articles = []
     while url is not None:
         try:
@@ -786,10 +789,16 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             response = urlopen(request)
             content_string = response.read()
             root = ET.fromstring(content_string)
-            collections = root.findall(collection_xpath, namespaces)
+            records = root.findall(record_xpath, namespaces)
             counter = 0
-            for collection in collections:
+            for record in records:
                 article = {}
+                identifier = record.find(identifier_xpath, namespaces)
+                article["identifier"] = identifier.text
+                collection = record.find(collection_xpath, namespaces)
+                if collection is None:
+                    # Might happen with deleted records
+                    continue
                 for elem, xpath in OAI_COLLECTION_CONTENT.items():
                     article[elem] = "NA"
                     if xpath is not None:
@@ -992,6 +1001,12 @@ def get_metadata_from_crossref(doi_string):
     except HTTPError as httpe:
         ret_value['success'] = False
         ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except RemoteDisconnected as rd:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "Remote Disconnected: {}".format(str(rd))
+    except ConnectionResetError as cre:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "Connection Reset: {}".format(str(cre))
     except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
@@ -1093,10 +1108,13 @@ def get_euro_exchange_rates(currency, frequency="D"):
         result[date] = value
     return result
 
-def _process_euro_value(euro_value, round_monetary, row_num, index):
+def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_mode):
     if not has_value(euro_value):
         msg = "Line %s: Empty monetary value in column %s."
-        logging.error(msg, row_num, index)
+        if offsetting_mode is None:
+            logging.error(msg, row_num, index)
+        else:
+            logging.warning(msg, row_num, index)
         return "NA"
     try:
         # Cast to float to ensure the decimal point is a dot (instead of a comma)
@@ -1111,6 +1129,12 @@ def _process_euro_value(euro_value, round_monetary, row_num, index):
             else:
                 msg = "Line %s: " + MESSAGES["digits_error"]
                 logging.error(msg, row_num, euro_value)
+        if euro == 0:
+            msg = "Line %s: Euro value is 0"
+            if offsetting_mode is None:
+                logging.error(msg, row_num)
+            else:
+                logging.warning(msg, row_num)
         return str(euro)
     except ValueError:
         msg = "Line %s: " + MESSAGES["locale"]
@@ -1249,9 +1273,32 @@ def _process_isbn(row_num, isbn, isbn_handling):
                             ISBNHandling.ISBN_ERRORS[norm_res["error_type"]])
             return "NA"
 
+def _process_institution_value(institution, row_num, orig_file_path, offsetting_mode):
+    global INSTITUTIONS_MAP
+    if offsetting_mode:
+        return institution
+    if INSTITUTIONS_MAP is None:
+        with open(INSTITUTIONS_FILE, "r") as ins_file:
+            reader = csv.DictReader(ins_file)
+            INSTITUTIONS_MAP = {}
+            for line in reader:
+                path = line["openapc_data_dir"]
+                if has_value(path):
+                    INSTITUTIONS_MAP[path] = line["institution"]
+    path = os.path.dirname(orig_file_path)
+    data_path = path.split("data/").pop()
+    if data_path in INSTITUTIONS_MAP:
+        new_value = INSTITUTIONS_MAP[data_path]
+        if new_value != institution:
+            msg = "Line %s: Normalisation: Institution name replaced via mapping file ('%s' -> '%s')"
+            logging.warning(msg, row_num, institution, new_value)
+            return new_value
+    return institution
+
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, round_monetary=False, offsetting_mode=None):
+                no_doaj_lookup=False, round_monetary=False, offsetting_mode=None, crossref_max_retries=3,
+                orig_file_path=None):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
 
@@ -1279,6 +1326,10 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                         mark will be rounded. If false, these cases will be treated as errors.
         offsetting_mode: If not None, the row is assumed to originate from an offsetting file
                          and this argument's value will be added to the 'agreement' column
+        crossref_max_retries: Max number of attempts to query the crossref API if a 504 error
+                              is received.
+        orig_file_path: Path of the csv file this row originates from, can be used for
+                        automated institution name lookup.
      Returns:
         A list of values which represents the enriched and re-arranged variant
         of the input row. If no errors were logged during the process, this
@@ -1289,18 +1340,32 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         logging.error(msg, row_num, len(row), num_required_columns)
         return row
 
+    empty_row = True
+    for elem in row:
+        if has_value(elem):
+            empty_row = False
+            break
+    else:
+        msg = "Line %s: " + MESSAGES["empty_row"]
+        logging.warning(msg, row_num)
+
     current_row = {}
     record_type = None
 
     # Copy content of identified columns and apply special processing rules
     for csv_column in column_map.values():
         index, column_type = csv_column.index, csv_column.column_type
+        if empty_row:
+            current_row[column_type] = ""
+            continue
         if column_type == "euro" and index is not None:
-            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index)
-        elif column_type == "period":
+            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, offsetting_mode)
+        elif column_type == "period" and index is not None:
             current_row["period"] = _process_period_value(row[index], row_num)
         elif column_type == "is_hybrid" and index is not None:
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
+        elif column_type == "institution" and index is not None:
+            current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path, offsetting_mode)
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
@@ -1308,7 +1373,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 current_row[column_type] = "NA"
 
     doi = current_row["doi"]
-    if len(doi) == 0 or doi == 'NA':
+    if not has_value(doi) and not empty_row:
         # lookup ISBNs in crossref
         msg = ("Line %s: No DOI found")
         logging.info(msg, row_num)
@@ -1336,10 +1401,14 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         # include crossref metadata
         if not no_crossref_lookup:
             crossref_result = get_metadata_from_crossref(doi)
+            retries = 0
             while not crossref_result["success"] and crossref_result["error_msg"].startswith("HTTPError: 504"):
+                if retries >= crossref_max_retries:
+                    break
                 # retry on gateway timeouts, crossref API is quite busy sometimes
                 msg = "%s, retrying..."
                 logging.warning(msg, crossref_result["error_msg"])
+                retries += 1
                 crossref_result = get_metadata_from_crossref(doi)
             if crossref_result["success"]:
                 data = crossref_result["data"]
@@ -1388,7 +1457,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.error(msg, row_num, doi, pubmed_result["error_msg"])
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
-    if not no_doaj_lookup:
+    if not no_doaj_lookup and not empty_row:
         issns = []
         new_value = "NA"
         if current_row["issn_electronic"] != "NA":
@@ -1410,7 +1479,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.info(msg, issn)
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
-    if record_type != "journal_article":
+    if record_type != "journal_article" and not empty_row:
         collected_isbns = []
         for isbn_field in ["isbn", "isbn_print", "isbn_electronic"]:
             # test and split all ISBNs
@@ -1453,7 +1522,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
 
     if record_type is None:
         msg = "Line %s: Could not identify record type, using default schema 'journal_article'"
-        logging.error(msg, row_num)
+        logging.warning(msg, row_num)
         record_type = "journal_article"
 
     result = []

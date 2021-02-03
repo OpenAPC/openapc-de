@@ -170,7 +170,14 @@ JOURNAL_OWNER_CHANGED = {
     "1530-6860": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal (electronic)
     "0935-1221": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy (linking)
     "2049-6958": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine
-    "1828-695X": ["Springer Nature", "PAGEPress Publications"] # Multidisciplinary Respiratory Medicine (linking)
+    "1828-695X": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine (linking)
+    "0924-9338": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry
+    "1778-3585": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry (electronic)
+    "0090-5992": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers
+    "1465-3923": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers (electronic)
+    "1460-244X": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
+    "0860-021X": ["Index Copernicus", "Termedia Sp. z.o.o."], # Biology of Sport
+    "1056-6171": ["Oxford University Press (OUP)", "Elsevier BV"] # Journal of Applied Poultry Research
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -245,5 +252,18 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2162-402X", # OncoImmunology, Gold OA since 2020
     "1053-8119", # NeuroImage, Gold OA since 2020
     "1049-8931", # International Journal of Methods in Psychiatric Research, Gold OA since 2020
-    "0935-1221" # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
+    "0935-1221", # European Journal of Mineralogy, Gold OA since 2020 (moved to Copernicus)
+    "0924-9338", # European Psychiatry, GOLD OA since 2020
+    "1618-0240", # Engineering in Life Sciences, GOLD OA since 2020
+    "1939-1404", # IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Gold OA since 2020
+    "0906-7590", # Ecography, Gold OA since 2020
+    "1056-6171" # Journal of Applied Poultry Research, Gold OA since 2020
+]
+
+# A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
+# multivolumed books where each volume has the same ISBN but is listed separately.
+NON_DUPLICATE_ISBNS = [
+    "978-3-205-79673-2", # Enzyklopädie der slowen. Kulturgeschichte in Kärnten, Vol 1-3
+    "978-3-205-79545-2", # Erica Tietze-Conrat, Tagebücher, Vol 1 + 2,3
+    "978-3-7065-5326-1" # Regesten zur Geschichte der Juden in Österreich, Vol 3-4
 ]
