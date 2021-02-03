@@ -258,7 +258,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1939-1404", # IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Gold OA since 2020
     "0906-7590", # Ecography, Gold OA since 2020
     "1056-6171", # Journal of Applied Poultry Research, Gold OA since 2020
-    "0005-9366" # Berliner und Münchener Tierärztliche Wochenschrift, Gold OA since July 2020
+    "0005-9366", # Berliner und Münchener Tierärztliche Wochenschrift, Gold OA since July 2020
+    "0950-2688", # Epidemiology and Infection, Gold OA since 2019
+    "0969-9961" # Neurobiology of Disease, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
