@@ -28,7 +28,7 @@ TU Ilmenau,tu_ilmenau,Technische Universität Ilmenau,EUROPE,DEU,TH,tuilmenau,gr
 TU Muenchen,tu_muenchen,Technische Universität München,EUROPE,DEU,BY,tum,grid.6936.a,https://ror.org/02kkvpp62
 Hannover U,hannover_u,Leibniz Universität Hannover,EUROPE,DEU,NI,unihannover,grid.9122.8,https://ror.org/0304hq317
 Wuerzburg U,wuerzburg_u,University of Würzburg,EUROPE,DEU,BY,uniwuerzburg,grid.8379.5,https://ror.org/00fbnyb24
-Leibniz-Fonds,leibnizfonds,Leibniz-Fonds,EUROPE,DEU,BE,leibnizfonds,NA,
+Leibniz-Fonds,leibnizfonds,Leibniz-Fonds,EUROPE,DEU,BE,leibnizfonds,NA,NA
 Potsdam U,potsdam_u,University of Potsdam,EUROPE,DEU,BB,unipotsdam,grid.11348.3f,https://ror.org/03bnmw459
 FWF - Austrian Science Fund,fwf,FWF - Austrian Science Fund,EUROPE,AUT,AUT-WI,fwf,grid.25111.36,https://ror.org/013tf3c58
 Bremen U,bremen_u,University of Bremen,EUROPE,DEU,HB,unibremen,grid.7704.4,https://ror.org/04ers2y35
@@ -41,7 +41,7 @@ TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien,grid.5329.
 HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,hzdr,grid.40602.30,https://ror.org/01zy2cs03
 Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,harvard-hope,grid.38142.3c,https://ror.org/03vek6s52
 Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,unioldenburg,grid.5560.6,https://ror.org/033n9gh91
-OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire,NA,
+OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire,NA,NA
 University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA,grid.22072.35,https://ror.org/03yjb2x39
 IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn,grid.461789.5,https://ror.org/008n8dd57
 UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,ufz,grid.7492.8,https://ror.org/000h6jb29
@@ -140,8 +140,8 @@ Norwegian University of Life Sciences,nor_life_sciences_u,Norwegian University o
 Norwegian University of Science and Technology,nor_science_and_technology_u,Norwegian University of Science and Technology,EUROPE,NOR,NO.TO,NA,grid.5947.f,https://ror.org/05xg72x27
 Oslo University Hospital,oslo_uh,Oslo University Hospital,EUROPE,NOR,NO.OS,NA,grid.55325.34,https://ror.org/00j9c2840
 Oslo and Akershus university college,oslo_akershus_uc,Oslo and Akershus University College,EUROPE,NOR,NO.OS,NA,grid.412414.6,https://ror.org/04q12yn84
-SINTEF,sintef,SINTEF (Foundation for Scientific and Industrial Research),EUROPE,NOR,NO.TO,NA,grid.425838.0,
-Sørlandet Hospital Trust,sorlandet_ht,Sørlandet Hospital Trust,EUROPE,NOR,NO.VA,NA,NA,
+SINTEF,sintef,SINTEF (Foundation for Scientific and Industrial Research),EUROPE,NOR,NO.TO,NA,grid.4319.f,https://ror.org/01f677e56
+Sørlandet Hospital Trust,sorlandet_ht,Sørlandet Hospital Trust,EUROPE,NOR,NO.VA,NA,NA,NA
 Uni Research,uni_research,Uni Research,EUROPE,NOR,NO.HO,NA,grid.426489.5,https://ror.org/016tr2j79
 University College of Southeast Norway,se_norway_uc,University College of Southeast Norway,EUROPE,NOR,NO.BU,NA,grid.463530.7,https://ror.org/05ecg5h20
 University of Agder,agder_u,University of Agder,EUROPE,NOR,NO.VA,NA,grid.23048.3d,https://ror.org/03x297z98
@@ -149,7 +149,7 @@ University of Bergen,bergen_u,University of Bergen,EUROPE,NOR,NO.HO,NA,grid.7914
 University of Oslo,oslo_u,University of Oslo,EUROPE,NOR,NO.OS,NA,grid.5510.1,https://ror.org/01xtthb56
 University of Stavanger,stavanger_u,University of Stavanger,EUROPE,NOR,NO.RO,NA,grid.18883.3a,https://ror.org/02qte9q33
 University of Tromsø - The Arctic University of Norway,tromso_u,University of Tromsø - The Arctic University of Norway,EUROPE,NOR,NO.TR,NA,grid.10919.30,https://ror.org/00wge5k78
-Vestfold Hospital Trust,vestfold_ht,Vestfold Hospital Trust,EUROPE,NOR,NO.VF,NA,NA,
+Vestfold Hospital Trust,vestfold_ht,Vestfold Hospital Trust,EUROPE,NOR,NO.VF,NA,NA,NA
 Vestre Viken Hospital Trust,vestre_viken_ht,Vestre Viken Hospital Trust,EUROPE,NOR,NO.BU,NA,grid.459157.b,https://ror.org/03wgsrq67
 TU Berlin,tu_berlin,Technische Universität Berlin,EUROPE,DEU,BE,tuberlin,grid.6734.6,https://ror.org/03v4gjf40
 Trier U,trier_u,University of Trier,EUROPE,DEU,RP,unitrier,grid.12391.38,https://ror.org/02778hg05
@@ -159,7 +159,7 @@ TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,
 Stuttgart U,stuttgart_u,University of Stuttgart,EUROPE,DEU,BW,unistuttgart,grid.5719.a,https://ror.org/04vnq7t77
 TU Darmstadt,tu_darmstadt,Technische Universität Darmstadt,EUROPE,DEU,HE,tudarmstadt,grid.6546.1,https://ror.org/05n911h24
 GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,giga,grid.435041.7,https://ror.org/00681ts17
-Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY,fraunhofer,NA,
+Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY,fraunhofer,NA,NA
 MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,ST,mluhalle,grid.9018.0,https://ror.org/05gqaka33
 Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI,unirhodeisland,grid.20431.34,https://ror.org/013ckk937
 Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC,couperin/amu,grid.5399.6,https://ror.org/035xkbk20
@@ -175,7 +175,7 @@ Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Cu
 Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,couperin/bordeaux,grid.412041.2,https://ror.org/057qpr032
 Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble,grid.450307.5,https://ror.org/02rx3b187
 Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt,grid.15363.32,https://ror.org/033p9g875
-Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,couperin/nice,grid.10737.32,
+Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,couperin/nice,grid.10737.32,NA
 Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers,grid.11166.31,https://ror.org/04xhy8q59
 University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,NA,grid.412442.5,https://ror.org/01fdxwh83
 University West,west_u,University West,EUROPE,SWE,SE-O,NA,grid.412716.7,https://ror.org/0257kt353
@@ -187,14 +187,14 @@ Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FR
 Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,iupui,grid.257413.6,https://ror.org/05gxnyn08
 Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE,igb,grid.419247.d,https://ror.org/01nftxb06
 Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE,wias,grid.433806.a,https://ror.org/00h1x4t21
-Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,couperin/paris-descartes,grid.10992.33,
+Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,couperin/paris-descartes,grid.10992.33,NA
 Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC,couperin/toulouse3,grid.15781.3a,https://ror.org/02v6kpv12
 INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF,couperin/inra,grid.424661.3,https://ror.org/05y503v71
 ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF,couperin/espci,grid.15736.36,https://ror.org/03zx86w41
 Université d'Avignon et des Pays de Vaucluse,avignon_u,Université d'Avignon et des Pays de Vaucluse,EUROPE,FRA,FR-PAC,couperin/avignon,grid.7310.5,https://ror.org/00mfpxb84
 Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR,couperin/caen,grid.412043.0,https://ror.org/051kpcy16
 Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,couperin/franche-comte,grid.7459.f,https://ror.org/03pcc9z86
-Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,couperin/paris-diderot,grid.7452.4,
+Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,couperin/paris-diderot,grid.7452.4,NA
 Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES,couperin/strasbourg,grid.11843.3f,https://ror.org/00pg6eq24
 "University of Chemistry and Technology, Prague",uct_prague_u,"University of Chemistry and Technology, Prague",EUROPE,CZE,CZ-PR,uct_prague,grid.448072.d,https://ror.org/05ggn0a85
 Brunel University,brunel_u,Brunel University,EUROPE,GBR,ENG,NA,grid.7728.a,https://ror.org/00dn4t376
@@ -221,8 +221,8 @@ Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,
 Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC,couperin/ird,grid.4399.7,https://ror.org/05q3vnk25
 Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA,couperin/lyon1,grid.7849.2,https://ror.org/029brtt94
 Université de Nantes,nantes_u,Université de Nantes,EUROPE,FRA,FR-PDL,couperin/nantes,grid.4817.a,https://ror.org/03gnr7b55
-IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF,couperin/ifsttar,grid.249503.9,
-IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,couperin/irstea,grid.48142.3b,
+IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF,couperin/ifsttar,grid.249503.9,NA
+IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,couperin/irstea,grid.48142.3b,NA
 Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF,couperin/evry,grid.8390.2,https://ror.org/00e96v939
 Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,couperin/compiegne,grid.6227.1,https://ror.org/04y5kwa70
 Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt,grid.7839.5,https://ror.org/04cvxnb49
@@ -269,7 +269,7 @@ Saarland U,saarland_u,Saarland University,EUROPE,DEU,SL,unisaarland,grid.11749.3
 University of Zurich,zurich_u,University of Zurich,EUROPE,CHE,CH.ZH,unizuerich,grid.7400.3,https://ror.org/02crff812
 University of Liège,liege_u,University of Liège,EUROPE,BEL,BE-WLG,uniliege,grid.4861.b,https://ror.org/00afp2z80
 Hochschule Luzern,hs_luzern,Hochschule Luzern,EUROPE,CHE,CH.LU,hsluzern,grid.425064.1,https://ror.org/04nd0xd48
-Veneto Institute of Oncology IOV IRCCS,iov_ircss,Veneto Institute of Oncology (IOV IRCCS),EUROPE,ITA,IT-34,iov-irccs,grid.419546.b ,
+Veneto Institute of Oncology IOV IRCCS,iov_ircss,Veneto Institute of Oncology (IOV IRCCS),EUROPE,ITA,IT-34,iov-irccs,grid.419546.b ,https://ror.org/01xcjmy57
 Bielefeld FH,bielefeld_fh,University of Applied Sciences Bielefeld,EUROPE,DEU,NW,fhbielefeld,grid.434083.8,https://ror.org/00edvg943
 Pädagogische Hochschule Luzern,ph_luzern,Pädagogische Hochschule Luzern,EUROPE,CHE,CH.LU,phluzern,grid.465965.d,https://ror.org/0235ynq74
 Universität Luzern,luzern_u,Universität Luzern,EUROPE,CHE,CH.LU,uniluzern,grid.449852.6,https://ror.org/00kgrkn83
