@@ -276,7 +276,8 @@ JOURNAL_MAPPINGS = {
     "Information & Computer Security": "Information and Computer Security",
     "SLAS DISCOVERY: Advancing the Science of Drug Discovery": "SLAS DISCOVERY: Advancing Life Sciences R&D",
     "Ear & Hearing": "Ear and Hearing",
-    "CORROSION": "Corrosion"
+    "CORROSION": "Corrosion",
+    "Mathematical Biosciences and Engineering": "Mathematical Biosciences and Engineering (MBE)"
 }
 
 COLUMN_NAMES = {
