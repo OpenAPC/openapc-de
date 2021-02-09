@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 36,423 articles, published at 222 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 36,438 articles, published at 222 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 36,423 articles, published at 222 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32938|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      600|
+|DEAL Wiley Germany                           |      615|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -122,12 +122,12 @@ This dataset contains information on 36,423 articles, published at 222 instituti
 |University of Aberdeen                                                                                                                             |      142|
 |Johannes Kepler University Linz                                                                                                                    |      130|
 |TU Muenchen                                                                                                                                        |      129|
+|Muenchen LMU                                                                                                                                       |      128|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
 |Örebro University                                                                                                                                  |      118|
 |Paracelsus Medical University                                                                                                                      |      116|
 |University of Dundee                                                                                                                               |      115|
-|Muenchen LMU                                                                                                                                       |      113|
 |Linnaeus University                                                                                                                                |      110|
 |Northumbria University                                                                                                                             |      109|
 |University of Surrey                                                                                                                               |      107|
