@@ -145,10 +145,15 @@ my $exporter = Catmandu::Exporter::CSV->new(
 );
 
 my @data;
+my @doi_checker;
 $csv->each(
     sub {
         my $rec = $_[0];
         next if $rec->{doi} eq "NA" or $rec->{doi} eq "";
+
+        next if grep {/$rec->{doi}/} @doi_checker;
+        push @doi_checker, $rec->{doi};
+
         if ($refresh) {
             delete $rec->{ut};
             push @data, $rec;
