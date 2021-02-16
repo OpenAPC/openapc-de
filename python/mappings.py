@@ -277,7 +277,8 @@ JOURNAL_MAPPINGS = {
     "SLAS DISCOVERY: Advancing the Science of Drug Discovery": "SLAS DISCOVERY: Advancing Life Sciences R&D",
     "Ear & Hearing": "Ear and Hearing",
     "CORROSION": "Corrosion",
-    "Mathematical Biosciences and Engineering": "Mathematical Biosciences and Engineering (MBE)"
+    "Mathematical Biosciences and Engineering": "Mathematical Biosciences and Engineering (MBE)",
+    "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development"
 }
 
 COLUMN_NAMES = {
