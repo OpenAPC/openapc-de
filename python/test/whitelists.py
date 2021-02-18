@@ -260,7 +260,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1056-6171", # Journal of Applied Poultry Research, Gold OA since 2020
     "0005-9366", # Berliner und Münchener Tierärztliche Wochenschrift, Gold OA since July 2020
     "0950-2688", # Epidemiology and Infection, Gold OA since 2019
-    "0969-9961" # Neurobiology of Disease, Gold OA since 2020
+    "0969-9961", # Neurobiology of Disease, Gold OA since 2020
+    "1753-318X" # Journal of Flood Risk Management, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
