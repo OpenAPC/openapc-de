@@ -17,7 +17,7 @@ At the moment this project provides the following cost data:
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
 | Articles         |118,247 | 231,503,679    | 278 |
-| Monographs       |1,194 | 7,410,741    | 5 |
+| Monographs       |1,205 | 7,460,609    | 6 |
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -440,9 +440,9 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 ### Books (BPCs)
 
-The book data set contains information on 1,194 open access books. Publication fees were supported financially by 5 research performing institutions and funders. 
+The book data set contains information on 1,205 open access books. Publication fees were supported financially by 6 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 7,410,741. The average payment was € 6,207 and the median was € 6,264.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 7,460,609. The average payment was € 6,191 and the median was € 6,000.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -459,11 +459,11 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |:------|---------------:|--------:|----------:|--------------:|--------------:|--------:|----------:|-------------:|
 |2014   |              61|   15,263|     16,000| 7,714 - 20,000|             NA|       NA|         NA|            NA|
 |2015   |              44|   14,676|     14,000| 8,000 - 20,000|             NA|       NA|         NA|            NA|
-|2016   |              38|   13,517|     14,000| 6,860 - 22,000|             NA|       NA|         NA|            NA|
-|2017   |             183|    9,294|      8,780| 1,075 - 21,000|            195|    1,981|      1,981| 1,981 - 1,981|
-|2018   |             140|    9,090|      8,250| 6,486 - 18,000|            191|    1,875|      1,875| 1,875 - 1,875|
-|2019   |             134|    8,525|      8,250| 2,975 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
-|2020   |              13|    7,261|      8,250| 1,473 -  9,413|              1|    1,875|      1,875| 1,875 - 1,875|
+|2016   |              41|   12,668|     14,000| 1,190 - 22,000|             NA|       NA|         NA|            NA|
+|2017   |             184|    9,250|      8,780| 1,075 - 21,000|            195|    1,981|      1,981| 1,981 - 1,981|
+|2018   |             142|    9,051|      8,250| 3,000 - 18,000|            191|    1,875|      1,875| 1,875 - 1,875|
+|2019   |             137|    8,512|      8,250| 1,190 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
+|2020   |              15|    6,728|      8,250| 1,473 -  9,413|              1|    1,875|      1,875| 1,875 - 1,875|
 
 
 ## Use of external sources
