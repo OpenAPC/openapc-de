@@ -70,6 +70,8 @@ PUBLISHER_MAPPINGS = {
     "Verlag Holzhausen": "Holzhausen",
     "VERLAG TURIA UND KANT ": "Turia und Kant",
     "WAXMANN VERLAG": "Waxmann Verlag",
+    "Waxmann Verlag GmbH": "Waxmann Verlag",
+    "Waxmann": "Waxmann Verlag",
     "WALLSTEIN VERLAG": "Wallstein Verlag"
 }
 
