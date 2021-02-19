@@ -31,7 +31,7 @@ use Getopt::Long;
 use LWP::UserAgent;
 use Try::Tiny;
 use XML::Writer;
-use XML::Simple;
+use XML::LibXML;
 
 local $SIG{__WARN__} = sub {
 
@@ -106,27 +106,30 @@ sub parse_xml {
 
     return unless $xml;
 
+    my $parser = XML::LibXML->new();
+    my $dom = $parser->load_xml(string => $xml);
+
     try {
-        my $xml_data = XMLin($xml);
-
-        return if exists $xml_data->{error};
-        my $items = $xml_data->{fn}->{map}->{map};
-
         my $result;
-        foreach my $id (keys %$items) {
-            next if ref $items ne 'HASH';
+        my $dom = $parser->load_xml(string => $xml);
 
-            my $tmp  = $items->{$id}->{map}->{val};
-            my $data = {
-                ut   => $tmp->{ut}->{content} ? "ut:" . $tmp->{ut}->{content} : '',
-                doi  => lc($tmp->{doi}->{content}) || '',
-                pmid => $tmp->{pmid}->{content}    || '',
-            };
-            push @$result, $data unless $data->{ut} eq '';
+        my @maps = $dom->getElementsByTagName("map");
+        foreach my $m (@maps){
+            next unless $m->hasAttributes();
+            my @children = $m->getChildrenByTagName("val");
+            if (@children){
+                my $data;
+                foreach my $child (@children){
+                  if ($child->getAttribute("name") eq "ut") { $data->{ut} = "ut:" . $child->textContent;}
+                  if ($child->getAttribute("name") eq "doi") {$data->{doi} = $child->textContent;}
+                  if ($child->getAttribute("name") eq "pmid") {$data->{pmid} = $child->textContent;}
+                }
+
+                push @$result, $data unless $data->{ut} eq '';
+            }
         }
 
         return $result;
-
     }
     catch {
         print STDERR "Error: $_";
