@@ -297,6 +297,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Nantes
 - Université Nice-Sophia-Antipolis
 - Université de Poitiers
+- Université de Reims Champagne Ardenne
 - Université de Rennes 1
 - Université de La Réunion
 - Université de Strasbourg
