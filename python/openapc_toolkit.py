@@ -268,6 +268,13 @@ class DOAJAnalysis(object):
 
 class DOABAnalysis(object):
 
+    # Mappings from DOAB fields to OpenAPC values
+    MAPPINGS = {
+        "dc.title": "book_title",
+        "oapen.relation.isPublishedBy_publisher.name": "publisher",
+        "BITSTREAM License": "license_ref"
+    }
+
     def __init__(self, isbn_handling, doab_csv_file, update=False, verbose=False):
         self.isbn_map = {}
         self.isbn_handling = isbn_handling
@@ -286,15 +293,14 @@ class DOABAnalysis(object):
         duplicate_isbns = []
         reader = csv.DictReader(lines)
         for line in reader:
-            isbn_string = line["ISBN"]
-            record_type = line["Type"]
+            isbn_string = line["oapen.relation.isbn"]
+            record_type = line["dc.type"]
             # ATM we focus on books only
             if record_type != "book":
                 continue
-            # may contain multi-values split by a whitespace, tab, slash or semicolon...
-            isbn_string = isbn_string.replace("/", " ")
+            # may contain multi-values split by a whitespace, semicolon or double vbar...
             isbn_string = isbn_string.replace(";", " ")
-            isbn_string = isbn_string.replace("\t", " ")
+            isbn_string = isbn_string.replace("||", " ")
             isbn_string = isbn_string.strip()
             if len(isbn_string) == 0:
                 continue
@@ -314,7 +320,8 @@ class DOABAnalysis(object):
                 else:
                     isbn = result["normalised"]
                 if isbn not in self.isbn_map:
-                    self.isbn_map[isbn] = line
+                    new_line = self._reduce_line(line)
+                    self.isbn_map[isbn] = new_line
                 else:
                     if isbn not in duplicate_isbns:
                         duplicate_isbns.append(isbn)
@@ -324,21 +331,22 @@ class DOABAnalysis(object):
             # drop duplicates alltogether
             del(self.isbn_map[duplicate])
 
+    def _reduce_line(self, line):
+        new_line = {}
+        for key, value in line.items():
+            if key in self.MAPPINGS:
+                new_line[self.MAPPINGS[key]] = value
+        return new_line
+
     def lookup(self, isbn):
         result = self.isbn_handling.test_and_normalize_isbn(isbn)
         if result["valid"]:
             norm_isbn = result["normalised"]
-            if norm_isbn in self.isbn_map:
-                lookup_result =  {
-                    "book_title" : self.isbn_map[norm_isbn]["Title"],
-                    "publisher": self.isbn_map[norm_isbn]["Publisher"],
-                    "license_ref": self.isbn_map[norm_isbn]["License"]
-                }
-                return lookup_result
+            return self.isbn_map.get(norm_isbn)
         return None
 
     def download_doab_csv(self, target):
-        urlretrieve("http://www.doabooks.org/doab?func=csv", target)
+        urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
 
 class ISBNHandling(object):
 
