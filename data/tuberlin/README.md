@@ -8,6 +8,7 @@ Before 2017 TU Berlin  TU Berlin has already concluded a prepay membership with 
 
 2019 report: The data reported for the funding period 2019 include both APCs paid by the TU Berlin DFG fund and by other open access funds of TU Berlin. APCs resulting from BMC prepay membership and Wiley-DEAL (gold OA journals) are included. The report includes APCs for 2 articles that were funded in 2018, but not included in 2018 report (period=2018).
 
+2020 report: The data reported for the funding period 2020 include both APCs paid by the TU Berlin DFG fund and by other open access funds of TU Berlin. APCs resulting from BMC prepay membership (until July 2020), Wiley-DEAL (gold OA journals) and Springer-DEAL (gold OA journals) are included. 
 
 
 Website: https://www.ub.tu-berlin.de/publikationsfonds/
