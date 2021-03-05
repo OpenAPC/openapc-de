@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 36,502 articles, published at 223 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 36,517 articles, published at 224 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 36,502 articles, published at 223 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32938|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      679|
+|DEAL Wiley Germany                           |      694|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -207,6 +207,7 @@ This dataset contains information on 36,502 articles, published at 223 instituti
 |Edinburgh Napier University                                                                                                                        |       17|
 |RISE Research Institutes of Sweden                                                                                                                 |       16|
 |Stockholm School of Economics                                                                                                                      |       16|
+|Hamburg TUHH                                                                                                                                       |       15|
 |Kassel U                                                                                                                                           |       15|
 |Swedish Defence Research Agency                                                                                                                    |       14|
 |TU Chemnitz                                                                                                                                        |       14|
