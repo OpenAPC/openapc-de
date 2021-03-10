@@ -280,7 +280,8 @@ JOURNAL_MAPPINGS = {
     "Ear & Hearing": "Ear and Hearing",
     "CORROSION": "Corrosion",
     "Mathematical Biosciences and Engineering": "Mathematical Biosciences and Engineering (MBE)",
-    "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development"
+    "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development",
+    "WIREs Water": "Wiley Interdisciplinary Reviews: Water"
 }
 
 COLUMN_NAMES = {
