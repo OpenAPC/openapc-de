@@ -31,7 +31,7 @@
 "GEOMAR",2020,1469.5,"10.1130/ges02103.1",FALSE,"Geological Society of America","Geosphere","1553-040X",NA,"1553-040X","1553-040X",NA,TRUE,NA,NA,NA,NA,TRUE
 "GEOMAR",2020,1470,"10.3391/ai.2020.15.2.06",FALSE,"Regional Euro-Asian Biological Invasions Centre Oy (REABIC)","Aquatic Invasions","1818-5487",NA,"1818-5487","1818-5487",NA,TRUE,NA,NA,"ut:000548002800006",NA,TRUE
 "GEOMAR",2020,1490,"10.1016/j.oneear.2020.05.013",TRUE,"Elsevier BV","One Earth","2590-3322","2590-3322",NA,"2590-3322","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"GEOMAR",2020,1520.64,"10.3390/md18060281",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"32466545","PMC7344976","ut:000551180900051",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "GEOMAR",2020,1565.9,"10.3390/md18010047",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"31940767","PMC7024310","ut:000513184600030",NA,TRUE
 "GEOMAR",2020,1570,"10.1038/s41598-020-72898-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33028852","PMC7542466","ut:000577449800015",NA,TRUE
 "GEOMAR",2020,1570,"10.1038/s41598-020-77645-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33244136","PMC7692504","ut:000596325700008",NA,TRUE
@@ -42,7 +42,7 @@
 "GEOMAR",2020,1575,"10.5194/acp-20-6541-2020",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000538583100004",NA,TRUE
 "GEOMAR",2020,1575.09,"10.3390/s20185200",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"32933090","PMC7570861","ut:000580160000001",NA,TRUE
 "GEOMAR",2020,1597.24,"10.3390/md18020128",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"32098306","PMC7074149","ut:000518664600059",NA,TRUE
-"GEOMAR",2020,1598.53,"10.3390/md18020107",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"32054048","PMC7074271","ut:000518664600038",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "GEOMAR",2020,1620,"10.5194/bg-17-4919-2020",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","1726-4170","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000582044900002",NA,TRUE
 "GEOMAR",2020,1620,"10.5194/acp-20-753-2020",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000508615500003",NA,TRUE
 "GEOMAR",2020,1650,"10.5194/gmd-13-4691-2020",FALSE,"Copernicus GmbH","Geoscientific Model Development","1991-9603",NA,"1991-9603","1991-959X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000577142700002",NA,TRUE
@@ -77,8 +77,8 @@
 "GEOMAR",2020,2116.5,"10.3389/fmars.2019.00808",FALSE,"Frontiers Media SA","Frontiers in Marine Science","2296-7745",NA,"2296-7745","2296-7745","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000508597400001",NA,TRUE
 "GEOMAR",2020,2126.22,"10.3389/fmicb.2020.542372",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X","https://creativecommons.org/licenses/by/4.0/",TRUE,"33101224","PMC7554337","ut:000579135900001",NA,TRUE
 "GEOMAR",2020,2202.9,"10.3389/fimmu.2020.01251",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"32612612","PMC7308585","ut:000546112400001",NA,TRUE
-
-
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "GEOMAR",2020,2290,"10.1038/s41612-020-0123-3",FALSE,"Springer Nature","npj Climate and Atmospheric Science","2397-3722",NA,"2397-3722","2397-3722","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000533075000001",NA,TRUE
 "GEOMAR",2020,2400,"10.1099/ijsem.0.004290",TRUE,"Microbiology Society","International Journal of Systematic and Evolutionary Microbiology","1466-5026","1466-5026","1466-5034","1466-5026",NA,TRUE,"32579104",NA,"ut:000560646100032",NA,FALSE
 "GEOMAR",2020,2500,"10.1111/nph.16806",TRUE,"Wiley-Blackwell","New Phytologist","0028-646X","0028-646X","1469-8137","0028-646X","http://creativecommons.org/licenses/by/4.0/",TRUE,"32654139",NA,"ut:000579878200001",NA,FALSE
