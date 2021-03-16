@@ -180,7 +180,9 @@ JOURNAL_OWNER_CHANGED = {
     "1056-6171": ["Oxford University Press (OUP)", "Elsevier BV"], # Journal of Applied Poultry Research
     "1341-9145": ["Japanese Association of Industrial Health", "Wiley-Blackwell"], # Journal of Occupational Health
     "1348-9585": ["Japanese Association of Industrial Health", "Wiley-Blackwell"], # Journal of Occupational Health (electronic)
-    "2059-7029": ["BMJ", "Elsevier BV"] # ESMO Open
+    "2059-7029": ["BMJ", "Elsevier BV"], # ESMO Open
+    "2001-1326": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Medicine
+    "2050-0068": ["Springer Nature", "Wiley-Blackwell"] # Clinical & Translational Immunology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
