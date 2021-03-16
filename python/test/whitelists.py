@@ -266,7 +266,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0969-9961", # Neurobiology of Disease, Gold OA since 2020
     "1753-318X", # Journal of Flood Risk Management, Gold OA since 2020
     "1949-0976", # Gut Microbes, Gold OA since 2020
-    "0010-440X" # Comprehensive Psychiatry, Gold OA since 2019
+    "0010-440X", # Comprehensive Psychiatry, Gold OA since 2019
+    "1933-6896" # Prion, Gold OA since 2019
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
