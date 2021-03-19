@@ -182,7 +182,9 @@ JOURNAL_OWNER_CHANGED = {
     "1348-9585": ["Japanese Association of Industrial Health", "Wiley-Blackwell"], # Journal of Occupational Health (electronic)
     "2059-7029": ["BMJ", "Elsevier BV"], # ESMO Open
     "2001-1326": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Medicine
-    "2050-0068": ["Springer Nature", "Wiley-Blackwell"] # Clinical & Translational Immunology
+    "2050-0068": ["Springer Nature", "Wiley-Blackwell"], # Clinical & Translational Immunology
+    "1757-448X": ["IOS Press", "IMR Press"], #  Journal of Integrative Neuroscience
+    "0219-6352": ["IOS Press", "IMR Press"] #  Journal of Integrative Neuroscience (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -269,7 +271,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1753-318X", # Journal of Flood Risk Management, Gold OA since 2020
     "1949-0976", # Gut Microbes, Gold OA since 2020
     "0010-440X", # Comprehensive Psychiatry, Gold OA since 2019
-    "1933-6896" # Prion, Gold OA since 2019
+    "1933-6896", # Prion, Gold OA since 2019
+    "1757-448X" # Journal of Integrative Neuroscience, Gold OA since 2018
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
