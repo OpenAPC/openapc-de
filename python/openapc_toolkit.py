@@ -758,7 +758,7 @@ def get_csv_file_content(file_name, enc=None, force_header=False, print_results=
 def has_value(field):
     return len(field) > 0 and field != "NA"
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None):
     """
     Harvest OpenAPC records via OAI-PMH
     """
@@ -790,12 +790,15 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             processing = None
     print_b("Harvesting from " + url)
     articles = []
+    file_output = ""
     while url is not None:
         try:
             request = Request(url)
             url = None
             response = urlopen(request)
             content_string = response.read()
+            if out_file_suffix:
+                file_output += content_string.decode()
             root = ET.fromstring(content_string)
             records = root.findall(record_xpath, namespaces)
             counter = 0
@@ -838,6 +841,9 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             print("HTTPError: {} - {}".format(code, httpe.reason))
         except URLError as urle:
             print("URLError: {}".format(urle.reason))
+    if out_file_suffix:
+        with open("raw_harvest_data_" + out_file_suffix, "w") as out:
+            out.write(file_output)
     return articles
 
 def find_book_dois_in_crossref(isbn_list):
