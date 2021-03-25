@@ -70,6 +70,8 @@ PUBLISHER_MAPPINGS = {
     "Verlag Holzhausen": "Holzhausen",
     "VERLAG TURIA UND KANT ": "Turia und Kant",
     "WAXMANN VERLAG": "Waxmann Verlag",
+    "Waxmann Verlag GmbH": "Waxmann Verlag",
+    "Waxmann": "Waxmann Verlag",
     "WALLSTEIN VERLAG": "Wallstein Verlag"
 }
 
@@ -269,7 +271,17 @@ JOURNAL_MAPPINGS = {
     "Journal of General Physiology": "The Journal of General Physiology",
     "Journal of Environment Quality": "Journal of Environmental Quality",
     "TAXON": "Taxon",
-    "Journal of Applied Poultry Research": "The Journal of Applied Poultry Research"
+    "Journal of Applied Poultry Research": "The Journal of Applied Poultry Research",
+    "Journal of Experimental Medicine": "The Journal of Experimental Medicine",
+    "Journal of Cell Biology": "The Journal of Cell Biology",
+    "Gerontology and Geriatric Medicine": "Gerontology & Geriatric Medicine",
+    "Information & Computer Security": "Information and Computer Security",
+    "SLAS DISCOVERY: Advancing the Science of Drug Discovery": "SLAS DISCOVERY: Advancing Life Sciences R&D",
+    "Ear & Hearing": "Ear and Hearing",
+    "CORROSION": "Corrosion",
+    "Mathematical Biosciences and Engineering": "Mathematical Biosciences and Engineering (MBE)",
+    "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development",
+    "WIREs Water": "Wiley Interdisciplinary Reviews: Water"
 }
 
 COLUMN_NAMES = {
@@ -299,8 +311,8 @@ COLUMN_NAMES = {
 }
 
 HYBRID_STATUS = {
-    "TRUE": ["true", "hybrid"],
-    "FALSE": ["false", "full open"]
+    "TRUE": ["true", "hybrid", "wahr", "yes"],
+    "FALSE": ["false", "full open", "falsch", "no", "gold_paid"]
 }
 
 ISSN_L_CORRECTIONS = {

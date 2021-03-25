@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 36,423 articles, published at 222 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 36,528 articles, published at 225 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 36,423 articles, published at 222 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32938|
 |French EDP Sciences agreement                |     1945|
-|DEAL Wiley Germany                           |      600|
+|DEAL Wiley Germany                           |      705|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -122,12 +122,12 @@ This dataset contains information on 36,423 articles, published at 222 instituti
 |University of Aberdeen                                                                                                                             |      142|
 |Johannes Kepler University Linz                                                                                                                    |      130|
 |TU Muenchen                                                                                                                                        |      129|
+|Muenchen LMU                                                                                                                                       |      128|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
 |Örebro University                                                                                                                                  |      118|
 |Paracelsus Medical University                                                                                                                      |      116|
 |University of Dundee                                                                                                                               |      115|
-|Muenchen LMU                                                                                                                                       |      113|
 |Linnaeus University                                                                                                                                |      110|
 |Northumbria University                                                                                                                             |      109|
 |University of Surrey                                                                                                                               |      107|
@@ -150,6 +150,7 @@ This dataset contains information on 36,423 articles, published at 222 instituti
 |Frankfurt U                                                                                                                                        |       66|
 |University of Stirling                                                                                                                             |       66|
 |Malmö University                                                                                                                                   |       65|
+|Bonn U                                                                                                                                             |       64|
 |Manchester Metropolitan University                                                                                                                 |       64|
 |The Open University                                                                                                                                |       60|
 |University of Huddersfield                                                                                                                         |       60|
@@ -206,6 +207,7 @@ This dataset contains information on 36,423 articles, published at 222 instituti
 |Edinburgh Napier University                                                                                                                        |       17|
 |RISE Research Institutes of Sweden                                                                                                                 |       16|
 |Stockholm School of Economics                                                                                                                      |       16|
+|Hamburg TUHH                                                                                                                                       |       15|
 |Kassel U                                                                                                                                           |       15|
 |Swedish Defence Research Agency                                                                                                                    |       14|
 |TU Chemnitz                                                                                                                                        |       14|
@@ -214,6 +216,7 @@ This dataset contains information on 36,423 articles, published at 222 instituti
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       13|
 |TU Clausthal                                                                                                                                       |       13|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
+|Leibniz-IGB                                                                                                                                        |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |Mannheim U                                                                                                                                         |        9|

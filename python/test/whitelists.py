@@ -177,7 +177,14 @@ JOURNAL_OWNER_CHANGED = {
     "1465-3923": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers (electronic)
     "1460-244X": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
     "0860-021X": ["Index Copernicus", "Termedia Sp. z.o.o."], # Biology of Sport
-    "1056-6171": ["Oxford University Press (OUP)", "Elsevier BV"] # Journal of Applied Poultry Research
+    "1056-6171": ["Oxford University Press (OUP)", "Elsevier BV"], # Journal of Applied Poultry Research
+    "1341-9145": ["Japanese Association of Industrial Health", "Wiley-Blackwell"], # Journal of Occupational Health
+    "1348-9585": ["Japanese Association of Industrial Health", "Wiley-Blackwell"], # Journal of Occupational Health (electronic)
+    "2059-7029": ["BMJ", "Elsevier BV"], # ESMO Open
+    "2001-1326": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Medicine
+    "2050-0068": ["Springer Nature", "Wiley-Blackwell"], # Clinical & Translational Immunology
+    "1757-448X": ["IOS Press", "IMR Press"], #  Journal of Integrative Neuroscience
+    "0219-6352": ["IOS Press", "IMR Press"] #  Journal of Integrative Neuroscience (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -257,7 +264,15 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1618-0240", # Engineering in Life Sciences, GOLD OA since 2020
     "1939-1404", # IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Gold OA since 2020
     "0906-7590", # Ecography, Gold OA since 2020
-    "1056-6171" # Journal of Applied Poultry Research, Gold OA since 2020
+    "1056-6171", # Journal of Applied Poultry Research, Gold OA since 2020
+    "0005-9366", # Berliner und Münchener Tierärztliche Wochenschrift, Gold OA since July 2020
+    "0950-2688", # Epidemiology and Infection, Gold OA since 2019
+    "0969-9961", # Neurobiology of Disease, Gold OA since 2020
+    "1753-318X", # Journal of Flood Risk Management, Gold OA since 2020
+    "1949-0976", # Gut Microbes, Gold OA since 2020
+    "0010-440X", # Comprehensive Psychiatry, Gold OA since 2019
+    "1933-6896", # Prion, Gold OA since 2019
+    "1757-448X" # Journal of Integrative Neuroscience, Gold OA since 2018
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

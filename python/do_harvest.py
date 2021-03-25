@@ -10,9 +10,14 @@ from csv import DictReader
 
 import openapc_toolkit as oat
 
+ARG_HELP_STRINGS = {
+    "integrate": ('Integrate changes in harvested data into existing ' +
+                  'collected files ("all_harvested_articles.csv" and '+
+                  '"all_harvested_articles_enriched.csv")'),
+    "output": 'Write raw harvested data to disk',
+}
 
-
-def integrate_changes(articles, file_path, enriched_file=False):
+def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
     '''
     Update existing entries in a previously created harvest file.
     
@@ -21,19 +26,36 @@ def integrate_changes(articles, file_path, enriched_file=False):
         file_path: Path to the CSV file the new values should be integrated into.
         enriched_file: If true, columns which are overwritten during enrichment
                        will not be updated
+        dry_run: Do not make any changes to the file (but still report changes and
+                 return the list of unencountered articles)
     Returns:
         A tuple. The first element is a reduced list of article dicts, containing
         those which did not find a matching DOI in the file (Order preserved).
         The second element is the list of column headers encountered in the harvest 
         file.
     '''
+
+    messages = {
+        'wet': {
+            'start': 'Integrating changes in harvest data into existing file {}',
+            'line_change': 'Line {}: Updating value in column {} ("{}" -> "{}")',
+            'remove': 'PID {} no longer found in harvest data, removing article',
+        },
+        'dry': {
+            'start': 'Dry Run: Comparing harvest data to existing file {}',
+            'line_change': 'Line {} ({}): Change in column {} ("{}" -> "{}")',
+            'remove': 'PID {} no longer found in harvest data, article would be removed',
+        }
+    }
+
+    messages = messages['dry'] if dry_run else messages['wet']
+
     if not os.path.isfile(file_path):
         return (articles, None)
     enriched_blacklist = ["institution", "publisher", "journal_full_title", "issn", "license_ref", "pmid"]
     article_dict = OrderedDict()
     for article in articles:
-        # This is possible because currently all repos use a local ID/record url, but it's just
-        # a workaround. We might have to change to OAI record IDs later. 
+        # Harvested articles use OAI record IDs in the url field as PID.
         url = article["url"]
         if oat.has_value(url):
             article_dict[url] = article
@@ -43,8 +65,7 @@ def integrate_changes(articles, file_path, enriched_file=False):
         reader = DictReader(f)
         fieldnames = reader.fieldnames
         updated_lines.append(list(fieldnames)) #header
-        start_msg = "Integrating changes in harvest data into existing file {}"
-        oat.print_g(start_msg.format(file_path))
+        oat.print_y(messages["start"].format(file_path))
         for line in reader:
             url = line["url"]
             if not oat.has_value(line["institution"]):
@@ -52,30 +73,32 @@ def integrate_changes(articles, file_path, enriched_file=False):
                 updated_lines.append([line[key] for key in fieldnames])
                 continue
             line_num = reader.reader.line_num
-            msg = "Line {}: Checking for changes ({})"
-            oat.print_b(msg.format(line_num, url))
             if url in article_dict:
                 for key, value in article_dict[url].items():
                     if enriched_file and key in enriched_blacklist:
                         continue
                     if key in line and value != line[key]:
-                        update_msg = 'Updating value in column {} ("{}" -> "{}")'
-                        oat.print_g(update_msg.format(key, line[key], value))
+                        oat.print_g(messages["line_change"].format(line_num, line["url"], key, line[key], value))
                         line[key] = value
                 del(article_dict[url])
                 updated_line = [line[key] for key in fieldnames]
                 updated_lines.append(updated_line)
             else:
-                remove_msg = "URL {} no longer found in harvest data, removing article"
-                oat.print_r(remove_msg.format(url))
-    with open(file_path, "w") as f:
-        mask = oat.OPENAPC_STANDARD_QUOTEMASK if enriched_file else None
-        writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
-        writer.write_rows(updated_lines)
+                oat.print_r(messages["remove"].format(url))
+    if not dry_run:
+        with open(file_path, "w") as f:
+            mask = oat.OPENAPC_STANDARD_QUOTEMASK if enriched_file else None
+            writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
+            writer.write_rows(updated_lines)
     return (article_dict.values(), fieldnames)
     
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-i", "--integrate", help=ARG_HELP_STRINGS["integrate"], action="store_true")
+    parser.add_argument("-o", "--output", help=ARG_HELP_STRINGS["output"], action="store_true")
+    args = parser.parse_args()
+
     with open("harvest_list.csv", "r") as harvest_list:
         reader = DictReader(harvest_list)
         for line in reader:
@@ -86,14 +109,12 @@ def main():
                 prefix = line["metadata_prefix"] if len(line["metadata_prefix"]) > 0 else None
                 processing = line["processing"] if len(line["processing"]) > 0 else None
                 directory = os.path.join("..", line["directory"])
-                articles = oat.oai_harvest(basic_url, prefix, oai_set, processing)
+                out_file_suffix = os.path.basename(line["directory"]) if args.output else None
+                articles = oat.oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix)
                 harvest_file_path = os.path.join(directory, "all_harvested_articles.csv")
                 enriched_file_path = os.path.join(directory, "all_harvested_articles_enriched.csv")
-                new_article_dicts, header = integrate_changes(articles, harvest_file_path, False)
-                integrate_changes(articles, enriched_file_path, True)
-                deal_wiley_path = os.path.join(directory, "all_harvested_articles_enriched_deal_wiley.csv")
-                if os.path.isfile(deal_wiley_path):
-                    integrate_changes(articles, deal_wiley_path, True)
+                new_article_dicts, header = integrate_changes(articles, harvest_file_path, False, not args.integrate)
+                integrate_changes(articles, enriched_file_path, True, not args.integrate)
                 if header is None:
                     # if no header was returned, an "all_harvested" file doesn't exist yet
                     header = list(oat.OAI_COLLECTION_CONTENT.keys())

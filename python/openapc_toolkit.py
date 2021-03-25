@@ -3,6 +3,7 @@
 
 import csv
 from collections import OrderedDict
+from http.client import RemoteDisconnected
 import json
 import locale
 import logging
@@ -81,7 +82,8 @@ MESSAGES = {
     "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)",
     "unknown_hybrid_identifier": "Unknown identifier in 'is_hybrid' column ('%s').",
     "hybrid_normalisation": "Normalisation: is_hybrid status changed from '%s' to '%s'.",
-    "no_hybrid_identifier": "Empty value in 'is_hybrid' column."
+    "no_hybrid_identifier": "Empty value in 'is_hybrid' column.",
+    "empty_row": "Row is empty."
 }
 
 # Do not quote the values in the 'period' and 'euro' columns
@@ -266,6 +268,13 @@ class DOAJAnalysis(object):
 
 class DOABAnalysis(object):
 
+    # Mappings from DOAB fields to OpenAPC values
+    MAPPINGS = {
+        "dc.title": "book_title",
+        "oapen.relation.isPublishedBy_publisher.name": "publisher",
+        "BITSTREAM License": "license_ref"
+    }
+
     def __init__(self, isbn_handling, doab_csv_file, update=False, verbose=False):
         self.isbn_map = {}
         self.isbn_handling = isbn_handling
@@ -284,15 +293,14 @@ class DOABAnalysis(object):
         duplicate_isbns = []
         reader = csv.DictReader(lines)
         for line in reader:
-            isbn_string = line["ISBN"]
-            record_type = line["Type"]
+            isbn_string = line["oapen.relation.isbn"]
+            record_type = line["dc.type"]
             # ATM we focus on books only
             if record_type != "book":
                 continue
-            # may contain multi-values split by a whitespace, tab, slash or semicolon...
-            isbn_string = isbn_string.replace("/", " ")
+            # may contain multi-values split by a whitespace, semicolon or double vbar...
             isbn_string = isbn_string.replace(";", " ")
-            isbn_string = isbn_string.replace("\t", " ")
+            isbn_string = isbn_string.replace("||", " ")
             isbn_string = isbn_string.strip()
             if len(isbn_string) == 0:
                 continue
@@ -312,7 +320,8 @@ class DOABAnalysis(object):
                 else:
                     isbn = result["normalised"]
                 if isbn not in self.isbn_map:
-                    self.isbn_map[isbn] = line
+                    new_line = self._reduce_line(line)
+                    self.isbn_map[isbn] = new_line
                 else:
                     if isbn not in duplicate_isbns:
                         duplicate_isbns.append(isbn)
@@ -322,21 +331,22 @@ class DOABAnalysis(object):
             # drop duplicates alltogether
             del(self.isbn_map[duplicate])
 
+    def _reduce_line(self, line):
+        new_line = {}
+        for key, value in line.items():
+            if key in self.MAPPINGS:
+                new_line[self.MAPPINGS[key]] = value
+        return new_line
+
     def lookup(self, isbn):
         result = self.isbn_handling.test_and_normalize_isbn(isbn)
         if result["valid"]:
             norm_isbn = result["normalised"]
-            if norm_isbn in self.isbn_map:
-                lookup_result =  {
-                    "book_title" : self.isbn_map[norm_isbn]["Title"],
-                    "publisher": self.isbn_map[norm_isbn]["Publisher"],
-                    "license_ref": self.isbn_map[norm_isbn]["License"]
-                }
-                return lookup_result
+            return self.isbn_map.get(norm_isbn)
         return None
 
     def download_doab_csv(self, target):
-        urlretrieve("http://www.doabooks.org/doab?func=csv", target)
+        urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
 
 class ISBNHandling(object):
 
@@ -748,7 +758,7 @@ def get_csv_file_content(file_name, enc=None, force_header=False, print_results=
 def has_value(field):
     return len(field) > 0 and field != "NA"
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None):
     """
     Harvest OpenAPC records via OAI-PMH
     """
@@ -780,12 +790,15 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             processing = None
     print_b("Harvesting from " + url)
     articles = []
+    file_output = ""
     while url is not None:
         try:
             request = Request(url)
             url = None
             response = urlopen(request)
             content_string = response.read()
+            if out_file_suffix:
+                file_output += content_string.decode()
             root = ET.fromstring(content_string)
             records = root.findall(record_xpath, namespaces)
             counter = 0
@@ -828,6 +841,9 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None):
             print("HTTPError: {} - {}".format(code, httpe.reason))
         except URLError as urle:
             print("URLError: {}".format(urle.reason))
+    if out_file_suffix:
+        with open("raw_harvest_data_" + out_file_suffix, "w") as out:
+            out.write(file_output)
     return articles
 
 def find_book_dois_in_crossref(isbn_list):
@@ -999,6 +1015,12 @@ def get_metadata_from_crossref(doi_string):
     except HTTPError as httpe:
         ret_value['success'] = False
         ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except RemoteDisconnected as rd:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "Remote Disconnected: {}".format(str(rd))
+    except ConnectionResetError as cre:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "Connection Reset: {}".format(str(cre))
     except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
@@ -1281,9 +1303,10 @@ def _process_institution_value(institution, row_num, orig_file_path, offsetting_
     data_path = path.split("data/").pop()
     if data_path in INSTITUTIONS_MAP:
         new_value = INSTITUTIONS_MAP[data_path]
-        msg = "Line %s: Normalisation: Institution name replaced via mapping file ('%s' -> '%s')"
-        logging.warning(msg, row_num, institution, new_value)
-        return new_value
+        if new_value != institution:
+            msg = "Line %s: Normalisation: Institution name replaced via mapping file ('%s' -> '%s')"
+            logging.warning(msg, row_num, institution, new_value)
+            return new_value
     return institution
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
@@ -1331,15 +1354,27 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         logging.error(msg, row_num, len(row), num_required_columns)
         return row
 
+    empty_row = True
+    for elem in row:
+        if has_value(elem):
+            empty_row = False
+            break
+    else:
+        msg = "Line %s: " + MESSAGES["empty_row"]
+        logging.warning(msg, row_num)
+
     current_row = {}
     record_type = None
 
     # Copy content of identified columns and apply special processing rules
     for csv_column in column_map.values():
         index, column_type = csv_column.index, csv_column.column_type
+        if empty_row:
+            current_row[column_type] = ""
+            continue
         if column_type == "euro" and index is not None:
             current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, offsetting_mode)
-        elif column_type == "period":
+        elif column_type == "period" and index is not None:
             current_row["period"] = _process_period_value(row[index], row_num)
         elif column_type == "is_hybrid" and index is not None:
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
@@ -1352,7 +1387,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 current_row[column_type] = "NA"
 
     doi = current_row["doi"]
-    if len(doi) == 0 or doi == 'NA':
+    if not has_value(doi) and not empty_row:
         # lookup ISBNs in crossref
         msg = ("Line %s: No DOI found")
         logging.info(msg, row_num)
@@ -1436,7 +1471,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.error(msg, row_num, doi, pubmed_result["error_msg"])
 
     # lookup in DOAJ. try the EISSN first, then ISSN and finally print ISSN
-    if not no_doaj_lookup:
+    if not no_doaj_lookup and not empty_row:
         issns = []
         new_value = "NA"
         if current_row["issn_electronic"] != "NA":
@@ -1458,7 +1493,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.info(msg, issn)
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
-    if record_type != "journal_article":
+    if record_type != "journal_article" and not empty_row:
         collected_isbns = []
         for isbn_field in ["isbn", "isbn_print", "isbn_electronic"]:
             # test and split all ISBNs
