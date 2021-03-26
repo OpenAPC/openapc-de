@@ -2,26 +2,26 @@
 
 enthält:
 * APC-Kosten, die an der Bibliothek verwaltet wurden
-* Daten aus den Rechnungsjahren 2015-2018. Daten werden jeweils im Folgejahr zur Verfügung gestellt
+* Daten aus den Rechnungsjahren 2015-2020. Daten werden jeweils im Folgejahr zur Verfügung gestellt
 * alle APC-Kosten inkl. Steuer; beträgt in Österreich 20%
 
-enthält	nicht: 
-* Publikationskosten, die von den AutorInnen selbst getragen wurden
+enthält	nicht:
+* Publikationskosten, die von den Autor_innen selbst getragen wurden
 * Daten aus Read&Publish- bzw. Offsetting-Verträgen
 
 
 ## Sonderkonditionen:
 * BioMedCentral: 20% Rabatt auf APC
-* IEEE: 15% Rabatt auf APC
+* IEEE: 0-15% Rabatt auf APC
 * Frontiers: 10% Rabatt auf APC
 * MDPI: 10% Rabatt auf APC
 
 ## Offsetting-Daten
-* Springer-Compact-Daten siehe Bereich [Offsetting](https://treemaps.intact-project.org/apcdata/offsetting)
+* Springer-Compact-Daten siehe Bereich [Transformative Agreements](https://treemaps.intact-project.org/apcdata/springer-compact-coverage/)
 
 ## Weitere Informationen
-* unter: <http://www.ub.tuwien.ac.at/publizieren/>
-* Kontakt: [Magdalena Andrae](mailto:open-access@ub.tuwien.ac.at)
+* unter: <https://www.tuwien.at/bibliothek/forschen-und-publizieren>
+* Kontakt: [Magdalena Andrae](mailto:openaccess@tuwien.ac.at)
 
 # APC gross costs, financed by the library of the Technische Universität Wien (TU Wien)
 
@@ -32,18 +32,18 @@ included:
 
 not included:
 * APCs paid by individual authors
-* Data from other offsetting / read & publish deals
+* Data from offsetting / read & publish deals
 
 
 ## Special Terms
 * BioMedCentral: 20% discount
-* IEEE: 15% discount
+* IEEE: 0-15% discount
 * Frontiers: 10% discount
 * MDPI: 10% discount
 
 ## Offsetting data
-* Data for the Springer Compact Deal is published in [Offsetting](https://treemaps.intact-project.org/apcdata/offsetting)
+* Data for the Springer Compact Deal is published in [Transformative Agreements](https://treemaps.intact-project.org/apcdata/springer-compact-coverage/)
 
 ## More information
-* <http://www.ub.tuwien.ac.at/publizieren/>
-* Contact: [Magdalena Andrae](mailto:open-access@ub.tuwien.ac.at)
+* <https://www.tuwien.at/en/library/research-and-publishing>
+* Contact: [Magdalena Andrae](mailto:openaccess@tuwien.ac.at)
