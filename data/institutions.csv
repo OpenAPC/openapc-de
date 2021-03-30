@@ -281,3 +281,7 @@ Université de Reims Champagne Ardenne,reims_u,Université de Reims Champagne Ar
 Bonn U,bonn_u,Rheinische Friedrich-Wilhelms-Universität Bonn,EUROPE,DEU,NW,unibonn,grid.10388.32,https://ror.org/041nas322
 Eawag - Swiss Federal Institute of Aquatic Science and Technology,eawag,Eawag - Swiss Federal Institute of Aquatic Science and Technology,EUROPE,CHE,CH.ZH,NA,grid.418656.8,https://ror.org/00pc48d59
 Empa - Swiss Federal Laboratories for Materials Science and Technology,empa,Empa - Swiss Federal Laboratories for Materials Science and Technology,EUROPE,CHE,CH.ZH,NA,grid.7354.5,https://ror.org/02x681a42
+ANSM,ansm,Agence nationale de sécurité du médicament et des produits de santé,EUROPE,FRA,FR-IDF,couperin/ansm,grid.483743.f,https://ror.org/01g80gk13
+Institut Laue-Langevin,laue_langevin,Institut Laue-Langevin,EUROPE,FRA,FR-ARA,couperin/ill,grid.156520.5,https://ror.org/01xtjs520
+ISARA,isara,Institut supérieur d'agriculture Rhône-Alpes,EUROPE,FRA,FR-ARA,couperin/isara,grid.434913.8,https://ror.org/03xsqa235
+Université Paris-Est Marne-la-Vallée,paris_est_u,Université Paris-Est Marne-la-Vallée,EUROPE,FRA,FR-IDF,couperin/upem,grid.10594.39,NA
