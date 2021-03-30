@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |121,724 | 237,160,502    | 282 |
+| Articles         |121,729 | 237,167,731    | 282 |
 | Monographs       |1,230 | 7,629,999    | 7 |
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -405,11 +405,11 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 121,724 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 282 research performing institutions and research funders. 
+The article data set contains information on 121,729 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 282 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 237,160,502. The average payment was € 1,948 and the median was € 1,770.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 237,167,731. The average payment was € 1,948 and the median was € 1,770.
 
-74,963 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 120,439,841, including value-added tax; the average payment was € 1,607 (median =  € 1,523, SD = € 781).
+74,968 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 120,447,069, including value-added tax; the average payment was € 1,607 (median =  € 1,523, SD = € 781).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 46,761 articles in the data set were published in hybrid journals. Total expenditure amounts to 116,720,661 €; the average fee was € 2,496 (median =  € 2,458, SD = € 998).
 
@@ -432,12 +432,12 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2010   |         397|   1,261|     1,139| 159 -  7,419|               2|       2,401|         2,401|    2,173 - 2,630|
 |2011   |         770|   1,157|     1,127| 105 -  4,666|               6|       1,781|         2,085|      552 - 2,631|
 |2012   |       1,567|   1,172|     1,175|  69 -  4,498|              20|       2,308|         2,412|      997 - 2,700|
-|2013   |       2,454|   1,229|     1,178|  50 -  4,574|           1,098|       2,257|         2,260|      120 - 4,679|
+|2013   |       2,455|   1,229|     1,178|  50 -  4,574|           1,098|       2,257|         2,260|      120 - 4,679|
 |2014   |       5,178|   1,374|     1,255|  40 -  9,028|           6,517|       2,238|         2,200|      132 - 6,000|
 |2015   |       8,428|   1,521|     1,448|  59 -  5,669|           6,685|       2,610|         2,622|      127 - 8,636|
 |2016   |       9,780|   1,634|     1,530|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
-|2017   |      14,396|   1,718|     1,559|   9 - 14,634|          10,581|       2,532|         2,475|       37 - 9,858|
-|2018   |      13,505|   1,700|     1,592|  13 -  8,926|           9,000|       2,567|         2,545|       18 - 9,073|
+|2017   |      14,397|   1,718|     1,559|   9 - 14,634|          10,581|       2,532|         2,475|       37 - 9,858|
+|2018   |      13,508|   1,700|     1,592|  13 -  8,926|           9,000|       2,567|         2,545|       18 - 9,073|
 |2019   |      12,857|   1,645|     1,623|  22 -  7,684|           4,597|       2,429|         2,360|       75 - 9,500|
 |2020   |       4,845|   1,755|     1,736|   0 -  5,832|             373|       2,588|         2,890|      360 - 5,317|
 |2021   |          78|   1,722|     1,774| 309 -  3,004|              NA|          NA|            NA|               NA|
