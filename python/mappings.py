@@ -281,7 +281,9 @@ JOURNAL_MAPPINGS = {
     "CORROSION": "Corrosion",
     "Mathematical Biosciences and Engineering": "Mathematical Biosciences and Engineering (MBE)",
     "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development",
-    "WIREs Water": "Wiley Interdisciplinary Reviews: Water"
+    "WIREs Water": "Wiley Interdisciplinary Reviews: Water",
+    "Clinical Orthopaedics & Related Research": "Clinical Orthopaedics and Related Research",
+    "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France"
 }
 
 COLUMN_NAMES = {
