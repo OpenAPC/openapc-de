@@ -272,7 +272,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1949-0976", # Gut Microbes, Gold OA since 2020
     "0010-440X", # Comprehensive Psychiatry, Gold OA since 2019
     "1933-6896", # Prion, Gold OA since 2019
-    "1757-448X" # Journal of Integrative Neuroscience, Gold OA since 2018
+    "1757-448X", # Journal of Integrative Neuroscience, Gold OA since 2018,
+    "0303-2434" # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
