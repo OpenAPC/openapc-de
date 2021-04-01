@@ -283,7 +283,8 @@ JOURNAL_MAPPINGS = {
     "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development",
     "WIREs Water": "Wiley Interdisciplinary Reviews: Water",
     "Clinical Orthopaedics & Related Research": "Clinical Orthopaedics and Related Research",
-    "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France"
+    "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France",
+    "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water"
 }
 
 COLUMN_NAMES = {
