@@ -184,7 +184,8 @@ JOURNAL_OWNER_CHANGED = {
     "2001-1326": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Medicine
     "2050-0068": ["Springer Nature", "Wiley-Blackwell"], # Clinical & Translational Immunology
     "1757-448X": ["IOS Press", "IMR Press"], #  Journal of Integrative Neuroscience
-    "0219-6352": ["IOS Press", "IMR Press"] #  Journal of Integrative Neuroscience (linking)
+    "0219-6352": ["IOS Press", "IMR Press"], #  Journal of Integrative Neuroscience (linking)
+    "1539-1663": ["Soil Science Society of America", "Wiley-Blackwell"] # Vadose Zone Journal
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -273,7 +274,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0010-440X", # Comprehensive Psychiatry, Gold OA since 2019
     "1933-6896", # Prion, Gold OA since 2019
     "1757-448X", # Journal of Integrative Neuroscience, Gold OA since 2018,
-    "0303-2434" # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
+    "0303-2434", # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
+    "1350-4827" # Meteorological Applications, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
