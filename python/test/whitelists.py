@@ -186,7 +186,8 @@ JOURNAL_OWNER_CHANGED = {
     "1757-448X": ["IOS Press", "IMR Press"], #  Journal of Integrative Neuroscience
     "0219-6352": ["IOS Press", "IMR Press"], #  Journal of Integrative Neuroscience (linking)
     "1539-1663": ["Soil Science Society of America", "Wiley-Blackwell"], # Vadose Zone Journal
-    "2352-8737": ["Elsevier BV", "Wiley-Blackwell"] # Alzheimer's & Dementia : Translational Research and Clinical Interventions
+    "2352-8737": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia : Translational Research and Clinical Interventions
+    "2414-6641": ["Universitaet Innsbruck - Innsbruck University Press", "University of Bern"] # Current Issues in Sport Science (CISS)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
