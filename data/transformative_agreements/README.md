@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 36,628 articles, published at 229 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 37,332 articles, published at 229 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -22,7 +22,7 @@ This dataset contains information on 36,628 articles, published at 229 instituti
 |Agreement                                    | Articles|
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32938|
-|French EDP Sciences agreement                |     1945|
+|French EDP Sciences agreement                |     2649|
 |DEAL Wiley Germany                           |      805|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
@@ -41,7 +41,7 @@ This dataset contains information on 36,628 articles, published at 229 instituti
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|French institutions                                                                                                                                |     1945|
+|French institutions                                                                                                                                |     2649|
 |University College London                                                                                                                          |     1022|
 |MPG                                                                                                                                                |      946|
 |University of Cambridge                                                                                                                            |      912|
