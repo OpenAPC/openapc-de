@@ -274,10 +274,12 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
 - Centre national de la recherche scientifique (CNRS)
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
+- Conservatoire national des arts et métiers
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
+- IMT Atlantique
 - Institut de recherche pour le développement (IRD)
 - Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
 - Institut Laue-Langevin
