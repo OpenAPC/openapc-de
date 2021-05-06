@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 37,332 articles, published at 229 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 37,338 articles, published at 230 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 37,332 articles, published at 229 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32938|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |      805|
+|DEAL Wiley Germany                           |      811|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -238,6 +238,7 @@ This dataset contains information on 37,332 articles, published at 229 instituti
 |Danube Universtity Krems University for Continuing Education                                                                                       |        6|
 |Netherlands Institute for Neuroscience                                                                                                             |        6|
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                                                                                         |        6|
+|Osnabrück U                                                                                                                                        |        6|
 |Trier U                                                                                                                                            |        6|
 |University of Roehampton                                                                                                                           |        6|
 |University of Worcester                                                                                                                            |        5|
