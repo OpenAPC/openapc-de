@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 37,338 articles, published at 230 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 37,376 articles, published at 231 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 37,338 articles, published at 230 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    32938|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |      811|
+|DEAL Wiley Germany                           |      849|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -176,6 +176,7 @@ This dataset contains information on 37,338 articles, published at 230 instituti
 |University of Greenwich                                                                                                                            |       39|
 |Aberystwyth University                                                                                                                             |       38|
 |FZJ - ZB                                                                                                                                           |       38|
+|Greifswald U                                                                                                                                       |       38|
 |Robert Gordon University                                                                                                                           |       36|
 |Bielefeld U                                                                                                                                        |       35|
 |Netherlands Institute of Ecology                                                                                                                   |       35|
