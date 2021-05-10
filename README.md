@@ -417,9 +417,9 @@ The article data set contains information on 124,216 open access journal article
 
 In total, article publication fee spending covered by the OpenAPC initiative amounted to € 241,259,328. The average payment was € 1,942 and the median was € 1,762.
 
-77,222 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 124,100,458, including value-added tax; the average payment was € 1,607 (median =  € 1,527, SD = € 778).
+77,223 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 124,102,304, including value-added tax; the average payment was € 1,607 (median =  € 1,527, SD = € 778).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 46,994 articles in the data set were published in hybrid journals. Total expenditure amounts to 117,158,870 €; the average fee was € 2,493 (median =  € 2,454, SD = € 998).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 46,993 articles in the data set were published in hybrid journals. Total expenditure amounts to 117,157,024 €; the average fee was € 2,493 (median =  € 2,454, SD = € 998).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -447,7 +447,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2017   |      14,399|   1,718|     1,559|   9 - 14,634|          10,584|       2,532|         2,475|       37 - 9,858|
 |2018   |      13,558|   1,699|     1,591|  13 -  8,926|           9,008|       2,567|         2,545|       18 - 9,073|
 |2019   |      13,069|   1,643|     1,621|  22 -  7,684|           4,658|       2,428|         2,368|       75 - 9,500|
-|2020   |       6,827|   1,721|     1,714|   0 -  5,832|             533|       2,318|         2,495|      260 - 5,317|
+|2020   |       6,828|   1,721|     1,714|   0 -  5,832|             532|       2,319|         2,497|      260 - 5,317|
 |2021   |          86|   1,701|     1,730| 309 -  3,004|               1|       1,244|         1,244|    1,244 - 1,244|
 
 ### Books (BPCs)
