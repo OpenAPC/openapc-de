@@ -190,7 +190,8 @@ JOURNAL_OWNER_CHANGED = {
     "2414-6641": ["Universitaet Innsbruck - Innsbruck University Press", "University of Bern"], # Current Issues in Sport Science (CISS)
     "0003-021X": ["Springer Nature", "Wiley-Blackwell"], # Journal of the American Oil Chemists' Society
     "1558-9331": ["Springer Nature", "Wiley-Blackwell"], # Journal of the American Oil Chemists' Society (electronic)
-    "1995-8692": ["Bern Open Publishing", "University of Bern"] # Journal of Eye Movement Research
+    "1995-8692": ["Bern Open Publishing", "University of Bern"], # Journal of Eye Movement Research
+    "2051-1426": ["Springer Nature", "BMJ"] # Journal for ImmunoTherapy of Cancer
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
