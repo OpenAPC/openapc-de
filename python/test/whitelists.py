@@ -189,7 +189,8 @@ JOURNAL_OWNER_CHANGED = {
     "2352-8737": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia : Translational Research and Clinical Interventions
     "2414-6641": ["Universitaet Innsbruck - Innsbruck University Press", "University of Bern"], # Current Issues in Sport Science (CISS)
     "0003-021X": ["Springer Nature", "Wiley-Blackwell"], # Journal of the American Oil Chemists' Society
-    "1558-9331": ["Springer Nature", "Wiley-Blackwell"] # Journal of the American Oil Chemists' Society (electronic)
+    "1558-9331": ["Springer Nature", "Wiley-Blackwell"], # Journal of the American Oil Chemists' Society (electronic)
+    "1995-8692": ["Bern Open Publishing", "University of Bern"] # Journal of Eye Movement Research
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
