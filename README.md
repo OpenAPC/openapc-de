@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |124,000 | 240,829,684    | 290 |
+| Articles         |124,000 | 240,828,077    | 290 |
 | Monographs       |1,239 | 7,669,857    | 9 |
 
 [![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -415,9 +415,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 The article data set contains information on 124,000 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 290 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 240,829,684. The average payment was € 1,942 and the median was € 1,762.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 240,828,077. The average payment was € 1,942 and the median was € 1,761.
 
-77,006 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 123,670,815, including value-added tax; the average payment was € 1,606 (median =  € 1,526, SD = € 777).
+77,006 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 123,669,208, including value-added tax; the average payment was € 1,606 (median =  € 1,526, SD = € 777).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 46,994 articles in the data set were published in hybrid journals. Total expenditure amounts to 117,158,870 €; the average fee was € 2,493 (median =  € 2,454, SD = € 998).
 
