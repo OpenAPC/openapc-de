@@ -1233,7 +1233,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Edinburgh",2018,2316.77,"10.3389/fphys.2018.00655",FALSE,"Frontiers Media SA","Frontiers in Physiology","1664-042X",NA,"1664-042X","1664-042X","https://creativecommons.org/licenses/by/4.0/",TRUE,"29928235","PMC5997817","ut:000434296000001",NA,TRUE
 "UCL",2019,1877.06,"10.1016/j.dadm.2018.12.006",FALSE,"Elsevier BV","Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring","2352-8729","2352-8729",NA,"2352-8729","http://creativecommons.org/licenses/by/4.0/",TRUE,"30788410","PMC6369146",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2019,1562.67,"10.1016/j.jappgeo.2019.02.003",FALSE,"Elsevier BV","Journal of Applied Geophysics","0926-9851","0926-9851",NA,"0926-9851","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000469306900001",NA,FALSE
+"UCL",2019,1562.67,"10.1016/j.jappgeo.2019.02.003",TRUE,"Elsevier BV","Journal of Applied Geophysics","0926-9851","0926-9851",NA,"0926-9851","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000469306900001",NA,FALSE
 "Queen's University Belfast",2019,1263.11,"10.1098/rsos.181461",FALSE,"The Royal Society","Royal Society Open Science","2054-5703","2054-5703","2054-5703","2054-5703",NA,TRUE,"31032005","PMC6458398","ut:000465470300022",NA,TRUE
 "University of Cambridge",2018,1844.68,"10.1039/c7ta11181a",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry A","2050-7488","2050-7488","2050-7496","2050-7496","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000445218000027",NA,FALSE
 "University of Manchester",2019,1840.91,"10.1136/bmjopen-2018-021891",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30782675","PMC6340434","ut:000471116800027",NA,TRUE
@@ -3091,7 +3091,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Queen's University Belfast",2019,3304.42,"10.1016/j.rcim.2018.12.009",TRUE,"Elsevier BV","Robotics and Computer-Integrated Manufacturing","0736-5845","0736-5845",NA,"0736-5845","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000459525400036",NA,FALSE
 "University of Manchester",2019,3619.86,"10.1016/j.jaip.2018.12.020",TRUE,"Elsevier BV","The Journal of Allergy and Clinical Immunology: In Practice","2213-2198","2213-2198",NA,"2213-2198","http://creativecommons.org/licenses/by/4.0/",TRUE,"30610923","PMC6619487","ut:000473777600042",NA,FALSE
 "UCL",2018,1576.96,"10.1136/bmjopen-2017-021251",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055",NA,TRUE,"30018096","PMC6059338","ut:000446181900116",NA,TRUE
-"University of Strathclyde",2018,1408.2,"10.1016/j.jappgeo.2018.06.015",FALSE,"Elsevier BV","Journal of Applied Geophysics","0926-9851","0926-9851",NA,"0926-9851","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000440116100017",NA,FALSE
+"University of Strathclyde",2018,1408.2,"10.1016/j.jappgeo.2018.06.015",TRUE,"Elsevier BV","Journal of Applied Geophysics","0926-9851","0926-9851",NA,"0926-9851","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000440116100017",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Edinburgh",2018,599.44,"10.1080/18918131.2018.1507871",TRUE,"Informa UK Limited","Nordic Journal of Human Rights","1891-8131","1891-8131","1891-814X","1891-814X","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000446636900002",NA,FALSE
