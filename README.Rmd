@@ -276,6 +276,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Centre national de la recherche scientifique (CNRS)
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
 - Conservatoire national des arts et métiers
+- École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - Hospices Civils de Lyon
@@ -313,6 +314,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de La Réunion
 - Université de Strasbourg
 - Université de Toulon
+- Université des Antilles
 - Université Toulouse III
 - Université Paris Descartes (Paris V)
 - Université Paris-Est Marne-la-Vallée
