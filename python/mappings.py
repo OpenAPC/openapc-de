@@ -27,6 +27,7 @@ PUBLISHER_MAPPINGS = {
     "Future Science Ltd": "Future Science, LTD",
     "Edinburgh University Global Health Society": "International Global Health Society",
     "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
+    "CMA Joule Inc.": "Joule Inc.",
     # books
     "DE GRUYTER": "De Gruyter",
     "DE GRUYTER SAUR": "De Gruyter",
