@@ -285,7 +285,8 @@ JOURNAL_MAPPINGS = {
     "WIREs Water": "Wiley Interdisciplinary Reviews: Water",
     "Clinical Orthopaedics & Related Research": "Clinical Orthopaedics and Related Research",
     "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France",
-    "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water"
+    "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water",
+    "ZDM – Mathematics Education": "ZDM" 
 }
 
 COLUMN_NAMES = {
