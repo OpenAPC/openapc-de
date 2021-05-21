@@ -254,14 +254,21 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - Uppsala University
 
 
-## Institutions from Finland:
+## Institutions from Finland (Some of them reported by the [CSC](https://www.csc.fi/en/-/virta-publication-information-service)):
 
+- Haaga-Helia University of Applied Sciences
+- Häme University of Applied Sciences
 - [Hanken School of Economics](https://www.hanken.fi/en)
+- JAMK University of Applied Sciences
 - [Laurea University of Applied Sciences](https://www.laurea.fi/en/)
+- Natural Resources Institute Finland
+- Satakunta University of Applied Sciences (SAMK)
 - [Tampere University](https://libguides.tuni.fi/openaccess)
+- University of Applied Sciences Savonia
 - [University of Eastern Finland](https://www.uef.fi/en/etusivu)
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
 - [University of Turku](https://utuguides.fi/openaccess)
+- VTT Technical Research Centre of Finland Ltd
 
 ## Institutions from France
 

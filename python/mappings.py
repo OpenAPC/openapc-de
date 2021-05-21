@@ -286,7 +286,8 @@ JOURNAL_MAPPINGS = {
     "Clinical Orthopaedics & Related Research": "Clinical Orthopaedics and Related Research",
     "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France",
     "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water",
-    "ZDM – Mathematics Education": "ZDM" 
+    "ZDM – Mathematics Education": "ZDM",
+    "Risk Governance and Control: Financial Markets and Institutions": "Risk Governance and Control: Financial Markets & Institutions" 
 }
 
 COLUMN_NAMES = {
