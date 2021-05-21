@@ -193,7 +193,8 @@ JOURNAL_OWNER_CHANGED = {
     "1995-8692": ["Bern Open Publishing", "University of Bern"], # Journal of Eye Movement Research
     "2051-1426": ["Springer Nature", "BMJ"], # Journal for ImmunoTherapy of Cancer
     "1474-905X": ["Royal Society of Chemistry (RSC)", "Springer Nature"], # Photochemical & Photobiological Sciences
-    "1474-9092": ["Royal Society of Chemistry (RSC)", "Springer Nature"] # Photochemical & Photobiological Sciences (electronic)
+    "1474-9092": ["Royal Society of Chemistry (RSC)", "Springer Nature"], # Photochemical & Photobiological Sciences (electronic)
+    "2245-0157": ["Aarhus University Library", "Det Kgl. Bibliotek/Royal Danish Library"] # Nordic Journal of Working Life Studies
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -285,7 +286,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0303-2434", # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
     "1350-4827", # Meteorological Applications, Gold OA since 2020
     "1751-8792", # IET Radar, Sonar & Navigation, Gold OA since 2021
-    "1566-7367" # Catalysis Communications, Gold OA since 2021
+    "1566-7367", # Catalysis Communications, Gold OA since 2021
+    "0142-9418" # Polymer Testing, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
