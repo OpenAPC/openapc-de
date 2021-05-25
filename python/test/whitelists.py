@@ -287,7 +287,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1350-4827", # Meteorological Applications, Gold OA since 2020
     "1751-8792", # IET Radar, Sonar & Navigation, Gold OA since 2021
     "1566-7367", # Catalysis Communications, Gold OA since 2021
-    "0142-9418" # Polymer Testing, Gold OA since 2021
+    "0142-9418", # Polymer Testing, Gold OA since 2021
+    "1025-6164" # Myrmecological News
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
