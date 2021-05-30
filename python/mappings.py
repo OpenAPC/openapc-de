@@ -287,7 +287,8 @@ JOURNAL_MAPPINGS = {
     "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France",
     "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water",
     "ZDM – Mathematics Education": "ZDM",
-    "Risk Governance and Control: Financial Markets and Institutions": "Risk Governance and Control: Financial Markets & Institutions" 
+    "Risk Governance and Control: Financial Markets and Institutions": "Risk Governance and Control: Financial Markets & Institutions",
+    "Raumforschung und Raumordnung | Spatial Research and Planning": "Raumforschung und Raumordnung"
 }
 
 COLUMN_NAMES = {
