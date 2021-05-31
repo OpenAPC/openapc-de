@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 37,895 articles, published at 233 institutions under 14 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 37,899 articles, published at 233 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -35,6 +35,7 @@ This dataset contains information on 37,895 articles, published at 233 instituti
 |TIB RSC Journals Read & Publish              |       30|
 |Austrian Consortium Emerald agreement        |       23|
 |Austrian Consortium Sage agreement           |       16|
+|DEAL Springer Nature Germany                 |        4|
 
 ### Breakdown by institution
 
@@ -222,6 +223,7 @@ This dataset contains information on 37,895 articles, published at 233 instituti
 |TU Clausthal                                                                                                                                       |       13|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
 |Leibniz-IGB                                                                                                                                        |       11|
+|MDC                                                                                                                                                |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |Mannheim U                                                                                                                                         |        9|
@@ -233,7 +235,6 @@ This dataset contains information on 37,895 articles, published at 233 instituti
 |Academisch Centrum Tandheelkunde Amsterdam (ACTA)                                                                                                  |        7|
 |Anglia Ruskin University                                                                                                                           |        7|
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
-|MDC                                                                                                                                                |        7|
 |Queen Margaret University                                                                                                                          |        7|
 |TiHo Hannover                                                                                                                                      |        7|
 |Danube University Krems University for Continuing Education                                                                                        |        6|
