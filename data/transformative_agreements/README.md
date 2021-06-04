@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 37,899 articles, published at 233 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 38,220 articles, published at 234 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,6 +24,7 @@ This dataset contains information on 37,899 articles, published at 233 instituti
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
 |DEAL Wiley Germany                           |      898|
+|DEAL Springer Nature Germany                 |      325|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -35,7 +36,6 @@ This dataset contains information on 37,899 articles, published at 233 instituti
 |TIB RSC Journals Read & Publish              |       30|
 |Austrian Consortium Emerald agreement        |       23|
 |Austrian Consortium Sage agreement           |       16|
-|DEAL Springer Nature Germany                 |        4|
 
 ### Breakdown by institution
 
@@ -86,6 +86,7 @@ This dataset contains information on 37,899 articles, published at 233 instituti
 |Linköping University                                                                                                                               |      340|
 |Cardiff University                                                                                                                                 |      339|
 |University of Warwick                                                                                                                              |      332|
+|Ludwig-Maximilians-Universität München                                                                                                             |      321|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |Radboud University                                                                                                                                 |      309|
 |University of Twente                                                                                                                               |      297|
