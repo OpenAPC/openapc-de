@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 38,220 articles, published at 234 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 38,220 articles, published at 233 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -64,6 +64,7 @@ This dataset contains information on 38,220 articles, published at 234 instituti
 |Wageningen University                                                                                                                              |      482|
 |Leiden University                                                                                                                                  |      461|
 |Erasmus MC                                                                                                                                         |      453|
+|Muenchen LMU                                                                                                                                       |      449|
 |Academic Medical Center (AMC)                                                                                                                      |      447|
 |Royal Institute of Technology                                                                                                                      |      446|
 |University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
@@ -86,7 +87,6 @@ This dataset contains information on 38,220 articles, published at 234 instituti
 |Linköping University                                                                                                                               |      340|
 |Cardiff University                                                                                                                                 |      339|
 |University of Warwick                                                                                                                              |      332|
-|Ludwig-Maximilians-Universität München                                                                                                             |      321|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |Radboud University                                                                                                                                 |      309|
 |University of Twente                                                                                                                               |      297|
@@ -125,7 +125,6 @@ This dataset contains information on 38,220 articles, published at 234 instituti
 |Örebro University                                                                                                                                  |      133|
 |Johannes Kepler University Linz                                                                                                                    |      130|
 |TU Muenchen                                                                                                                                        |      129|
-|Muenchen LMU                                                                                                                                       |      128|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
 |Linnaeus University                                                                                                                                |      118|
