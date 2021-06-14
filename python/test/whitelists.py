@@ -290,7 +290,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0142-9418", # Polymer Testing, Gold OA since 2021
     "1025-6164", # Myrmecological News
     "1095-4244", # Wind Energy , Gold OA since 2021
-    "2053-1591" # Materials Research Express, OA since 7/2020
+    "2053-1591", # Materials Research Express, OA since 7/2020
+    "1542-7390" # Space Weather
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
