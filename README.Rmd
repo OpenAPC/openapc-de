@@ -299,8 +299,12 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national polytechnique de Toulouse (INPT)
 - Institut supérieur d'agriculture Rhône-Alpes (ISARA)
 - Institut Pasteur
+- Laboratoire national d'essais (LNE)
+- Le Mans Université
 - MINES ParisTech
 - Museum National d'Histoire Naturelle
+- Office National d'Etudes et de Recherches Aérospatiales (ONERA)
+- Paris 8 Vincennes - Saint-Denis
 - Université d'Avignon et des Pays de Vaucluse
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
@@ -311,22 +315,27 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
+- Université de Lille
 - Université de Montpellier
 - Université de Lorraine
 - Université de Nantes
 - Université Nice-Sophia-Antipolis
+- Université de Nouvelle Calédonie
 - Université de Poitiers
 - Université de Reims Champagne Ardenne
 - Université de Rennes 1
 - Université de La Réunion
 - Université de Strasbourg
 - Université de Toulon
+- Université de Tours
 - Université des Antilles
+- Université du Littoral Côte d'Opale
 - Université Toulouse III
 - Université Paris Descartes (Paris V)
 - Université Paris-Est Marne-la-Vallée
 - Université Pierre et Marie Curie (Paris VI)
 - Université Paris Diderot (Paris VII)
+- Université Savoie Mont Blanc
 
 ## Participating Institutions from the United Kingdom:
 
