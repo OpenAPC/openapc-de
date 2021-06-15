@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 38,513 articles, published at 234 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 38,516 articles, published at 234 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 38,513 articles, published at 234 instituti
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
 |DEAL Wiley Germany                           |      923|
-|DEAL Springer Nature Germany                 |      593|
+|DEAL Springer Nature Germany                 |      596|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -227,6 +227,7 @@ This dataset contains information on 38,513 articles, published at 234 instituti
 |MDC                                                                                                                                                |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
+|TiHo Hannover                                                                                                                                      |       10|
 |Mannheim U                                                                                                                                         |        9|
 |Swedish School of Sport and Health Sciences (GIH)                                                                                                  |        9|
 |Scotland's Rural College                                                                                                                           |        8|
@@ -237,7 +238,6 @@ This dataset contains information on 38,513 articles, published at 234 instituti
 |Anglia Ruskin University                                                                                                                           |        7|
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
 |Queen Margaret University                                                                                                                          |        7|
-|TiHo Hannover                                                                                                                                      |        7|
 |Danube University Krems University for Continuing Education                                                                                        |        6|
 |Danube Universtity Krems University for Continuing Education                                                                                       |        6|
 |Netherlands Institute for Neuroscience                                                                                                             |        6|
