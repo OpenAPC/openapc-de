@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 38,516 articles, published at 234 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 38,536 articles, published at 234 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 38,516 articles, published at 234 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |      923|
+|DEAL Wiley Germany                           |      943|
 |DEAL Springer Nature Germany                 |      596|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
@@ -188,6 +188,7 @@ This dataset contains information on 38,516 articles, published at 234 instituti
 |University of Central Lancashire                                                                                                                   |       32|
 |University of Gävle                                                                                                                                |       32|
 |University of West of Scotland                                                                                                                     |       31|
+|TiHo Hannover                                                                                                                                      |       30|
 |University of Boras                                                                                                                                |       30|
 |Goldsmiths, University of London                                                                                                                   |       29|
 |International Institute for Applied Systems Analysis (IIASA)                                                                                       |       29|
@@ -227,7 +228,6 @@ This dataset contains information on 38,516 articles, published at 234 instituti
 |MDC                                                                                                                                                |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
-|TiHo Hannover                                                                                                                                      |       10|
 |Mannheim U                                                                                                                                         |        9|
 |Swedish School of Sport and Health Sciences (GIH)                                                                                                  |        9|
 |Scotland's Rural College                                                                                                                           |        8|
