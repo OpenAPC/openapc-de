@@ -318,7 +318,7 @@ COLUMN_NAMES = {
 }
 
 HYBRID_STATUS = {
-    "TRUE": ["true", "hybrid", "wahr", "yes", "ja"],
+    "TRUE": ["true", "hybrid", "hybride", "wahr", "yes", "ja"],
     "FALSE": ["false", "full open", "falsch", "no", "gold_paid", "nein"]
 }
 
