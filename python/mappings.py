@@ -288,7 +288,8 @@ JOURNAL_MAPPINGS = {
     "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water",
     "ZDM – Mathematics Education": "ZDM",
     "Risk Governance and Control: Financial Markets and Institutions": "Risk Governance and Control: Financial Markets & Institutions",
-    "Raumforschung und Raumordnung | Spatial Research and Planning": "Raumforschung und Raumordnung"
+    "Raumforschung und Raumordnung | Spatial Research and Planning": "Raumforschung und Raumordnung",
+    "Journal of Occupational & Environmental Medicine": "Journal of Occupational and Environmental Medicine"
 }
 
 COLUMN_NAMES = {
