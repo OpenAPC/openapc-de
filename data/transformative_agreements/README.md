@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 38,645 articles, published at 234 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 38,648 articles, published at 235 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 38,645 articles, published at 234 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     1024|
-|DEAL Springer Nature Germany                 |      624|
+|DEAL Wiley Germany                           |     1026|
+|DEAL Springer Nature Germany                 |      625|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -254,6 +254,7 @@ This dataset contains information on 38,645 articles, published at 234 instituti
 |Medical Products Agency                                                                                                                            |        3|
 |Public Health Agency of Sweden                                                                                                                     |        3|
 |Scottish Agricultural College (SRUC)                                                                                                               |        3|
+|TH Wildau                                                                                                                                          |        3|
 |FH Joanneum - University of Applied Sciences                                                                                                       |        2|
 |Hubrecht Institute for Developmental Biology and Stem Cell Resea                                                                                   |        2|
 |Institute Mittag-Leffler                                                                                                                           |        2|
