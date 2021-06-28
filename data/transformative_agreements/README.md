@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 38,648 articles, published at 235 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 38,686 articles, published at 235 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 38,648 articles, published at 235 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     1026|
-|DEAL Springer Nature Germany                 |      625|
+|DEAL Wiley Germany                           |     1041|
+|DEAL Springer Nature Germany                 |      648|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -168,6 +168,7 @@ This dataset contains information on 38,648 articles, published at 235 instituti
 |Giessen U                                                                                                                                          |       49|
 |Vienna University of Economics and Business (WU)                                                                                                   |       49|
 |St George's, University of London                                                                                                                  |       48|
+|Mannheim U                                                                                                                                         |       47|
 |Fraunhofer-Gesellschaft Publishing Fund                                                                                                            |       46|
 |Natural History Museum                                                                                                                             |       44|
 |Leeds Beckett University                                                                                                                           |       43|
@@ -228,7 +229,6 @@ This dataset contains information on 38,648 articles, published at 235 instituti
 |MDC                                                                                                                                                |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
-|Mannheim U                                                                                                                                         |        9|
 |Swedish School of Sport and Health Sciences (GIH)                                                                                                  |        9|
 |Scotland's Rural College                                                                                                                           |        8|
 |University of Abertay Dundee                                                                                                                       |        8|
