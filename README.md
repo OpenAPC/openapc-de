@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |127,733 | 247,286,630    | 309 |
+| Articles         |127,733 | 247,286,327    | 309 |
 | Monographs       |1,247 | 7,729,853    | 12 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -434,9 +434,9 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 The article data set contains information on 127,733 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 309 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 247,286,630. The average payment was € 1,936 and the median was € 1,756.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 247,286,327. The average payment was € 1,936 and the median was € 1,756.
 
-80,375 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 129,328,085, including value-added tax; the average payment was € 1,609 (median =  € 1,531, SD = € 775).
+80,375 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 129,327,782, including value-added tax; the average payment was € 1,609 (median =  € 1,531, SD = € 775).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 47,358 articles in the data set were published in hybrid journals. Total expenditure amounts to 117,958,545 €; the average fee was € 2,491 (median =  € 2,453, SD = € 998).
 
