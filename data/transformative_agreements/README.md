@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 38,686 articles, published at 235 institutions under 15 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 38,819 articles, published at 240 institutions under 16 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -28,6 +28,7 @@ This dataset contains information on 38,686 articles, published at 235 instituti
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
+|Swiss Consortium RSC agreement               |      133|
 |FWF Offsetting Agreement T&F                 |       89|
 |FWF Offsetting Agreement IOP                 |       46|
 |MPG Taylor & Francis agreement               |       46|
@@ -141,6 +142,7 @@ This dataset contains information on 38,686 articles, published at 235 instituti
 |City University London                                                                                                                             |       86|
 |Sheffield Hallam University                                                                                                                        |       82|
 |TU Berlin                                                                                                                                          |       82|
+|ETH Zurich                                                                                                                                         |       81|
 |University of Portsmouth                                                                                                                           |       78|
 |Charité - Universitätsmedizin Berlin                                                                                                               |       77|
 |Royal Botanic Gardens                                                                                                                              |       76|
@@ -216,6 +218,7 @@ This dataset contains information on 38,686 articles, published at 235 instituti
 |Rostock U                                                                                                                                          |       18|
 |University of Bedfordshire                                                                                                                         |       18|
 |Edinburgh Napier University                                                                                                                        |       17|
+|University of Basel                                                                                                                                |       17|
 |Dalarna University                                                                                                                                 |       16|
 |Stockholm School of Economics                                                                                                                      |       16|
 |Hamburg TUHH                                                                                                                                       |       15|
@@ -224,11 +227,14 @@ This dataset contains information on 38,686 articles, published at 235 instituti
 |Birmingham City University                                                                                                                         |       13|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       13|
 |TU Clausthal                                                                                                                                       |       13|
+|University of Bern                                                                                                                                 |       13|
+|University of Geneva                                                                                                                               |       12|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
 |Leibniz-IGB                                                                                                                                        |       11|
 |MDC                                                                                                                                                |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
+|University of Zurich                                                                                                                               |       10|
 |Swedish School of Sport and Health Sciences (GIH)                                                                                                  |        9|
 |Scotland's Rural College                                                                                                                           |        8|
 |University of Abertay Dundee                                                                                                                       |        8|
