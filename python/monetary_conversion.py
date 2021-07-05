@@ -52,6 +52,27 @@ def get_frequency(date_string):
     else:
         return None
 
+# calculate a preliminary average for the current year
+def _calulate_preliminary_annual_average(year, currency):
+    if currency not in EXCHANGE_RATES["D"]:
+        msg = 'No daily exchange rates found for currency "{}", querying ECB data warehouse...'
+        oat.print_b(msg.format(currency))
+        rates = oat.get_euro_exchange_rates(currency, "D")
+        EXCHANGE_RATES["D"][currency] = rates
+    rates = []
+    for day, rate in EXCHANGE_RATES["D"][currency].items():
+        if day.startswith(year):
+            rates.append(float(rate))
+    if rates:
+        result = sum(rates)/len(rates)
+        msg = "Calculated a preliminary average for year {} ({}) using {} daily values"
+        oat.print_b(msg.format(year, result, len(rates)))
+        return result
+    else:
+        msg = "Could not calculate a preliminary average for year {}"
+        oat.print_r(msg.format(year))
+        return None
+
 def get_next_day(date_string):
     day = datetime.datetime.strptime(date_string, "%Y-%m-%d")
     next_day = day + datetime.timedelta(days=1)
@@ -170,9 +191,13 @@ def main():
             rates = oat.get_euro_exchange_rates(currency, frequency)
             EXCHANGE_RATES[frequency][currency] = rates
         rate = EXCHANGE_RATES[frequency][currency].get(period)
+        if rate is None and frequency == "A":
+            rate = _calulate_preliminary_annual_average(period, currency)
+            if rate:
+                EXCHANGE_RATES[frequency][currency][period] = rate
         if rate is None:
             if frequency != "D":
-                msg = "Warning: No conversion rate found for currency {} for period {} (line {}), aborting..."
+                msg = "Error: No conversion rate found for currency {} for period {} (line {}), aborting..."
                 oat.print_r(msg.format(currency, period, line_num))
                 sys.exit()
             day_retries = 0
