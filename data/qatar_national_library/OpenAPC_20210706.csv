@@ -991,7 +991,7 @@
 "Qatar National Library",2020,FALSE,"https://doi.org/10.1111/issj.12247",1874.70
 "Qatar National Library",2020,TRUE,"10.1080/09669582.2020.1818086",3032.54
 "Qatar National Library",2020,FALSE,"10.1002/ccr3.3345",713.00
-"Qatar National Library",2020,FALSE,"DOI: 10.1002/ccr3.3421 ",713.00
+"Qatar National Library",2020,FALSE,"10.1002/ccr3.3421",713.00
 "Qatar National Library",2020,TRUE,"10.1007/s40368-020-00560-8",2295.00
 "Qatar National Library",2020,FALSE,"10.1109/ACCESS.2020.3021003",1516.27
 "Qatar National Library",2020,TRUE,"10.1002/sd.2134",2625.30
@@ -1203,7 +1203,7 @@
 "Qatar National Library",2020,FALSE,"https://doi.org/10.2147/IMCRJ.S286335",1441.76
 "Qatar National Library",2020,FALSE,"10.1097/MD.0000000000023088",1689.56
 "Qatar National Library",2020,FALSE,"https://doi.org/10.1016/j.rmcr.2020.101265",519.86
-"Qatar National Library",2020,FALSE,"https://doi.org/10.22541/au.160315119.95452201/v1.",713.00
+"Qatar National Library",2020,FALSE,"10.1002/ccr3.3550",713.00
 "Qatar National Library",2020,TRUE,"10.1080/07391102.2020.1832919",3032.54
 "Qatar National Library",2020,FALSE,"http://dx.doi.org/10.1016/j.rmcr.2020.101269",519.86
 "Qatar National Library",2020,TRUE,"http://dx.doi.org/10.1016/j.snb.2020.129058",2919.90
@@ -1279,9 +1279,9 @@
 "Qatar National Library",2020,TRUE,"https://doi.org/10.1016/j.commatsci.2020.110186",2010.14
 "Qatar National Library",2020,TRUE,"http://dx.doi.org/10.1016/j.ijbiomac.2020.08.080",2599.32
 "Qatar National Library",2020,TRUE,"http://dx.doi.org/10.1016/j.jclinepi.2020.09.023",2772.61
-"Qatar National Library",2020,TRUE,"https://www.sciencedirect.com/science/article/pii/S0022510X20303166?via%3Dihub",2815.93
-"Qatar National Library",2020,TRUE,"https://www.jclinepi.com/article/S0895-4356(20)31138-0/fulltext",2772.61
-"Qatar National Library",2020,TRUE,"https://www.sciencedirect.com/science/article/pii/S2215017X20306093?via%3Dihub",1767.54
+"Qatar National Library",2020,TRUE,"10.1016/j.jns.2020.116979",2815.93
+"Qatar National Library",2020,TRUE,"10.1016/j.jclinepi.2020.09.044",2772.61
+"Qatar National Library",2020,TRUE,"10.1016/j.btre.2020.e00563",1767.54
 "Qatar National Library",2020,TRUE,"http://dx.doi.org/10.1016/j.ejogrb.2020.10.032",2166.10
 "Qatar National Library",2020,TRUE,"https://doi.org/10.1016/j.jsv.2020.115647",2659.97
 "Qatar National Library",2020,FALSE,"10.1111/ijlh.13420",2565.00
@@ -1378,7 +1378,7 @@
 "Qatar National Library",2020,TRUE,"10.1002/qre.2829",2774.70
 "Qatar National Library",2020,FALSE,"10.1002/ccr3.4347",765.00
 "Qatar National Library",2020,FALSE,"10.1109/ACCESS.2020.3046192",1516.27
-"Qatar National Library",2020,FALSE,"DOI 10.1109/ACCESS.2020.3045732",1516.27
+"Qatar National Library",2020,FALSE,"10.1109/ACCESS.2020.3045732",1516.27
 "Qatar National Library",2020,FALSE,"10.1111/cup.13943",2324.70
 "Qatar National Library",2021,FALSE,"https://doi.org/10.3390/en14030609",1138.03
 "Qatar National Library",2020,TRUE,"https://doi.org/10.1016/j.molstruc.2020.129799",2252.74
@@ -1500,7 +1500,7 @@
 "Qatar National Library",2020,TRUE,"http://dx.doi.org/10.1016/j.desal.2020.114663",2815.93
 "Qatar National Library",2020,FALSE,"http://dx.doi.org/10.1016/j.biopha.2021.111351",2304.73
 "Qatar National Library",2020,TRUE,"http://dx.doi.org/10.1016/j.apsusc.2021.149164",2469.35
-"Qatar National Library",2020,FALSE,"https://www.sciencedirect.com/science/article/pii/S2352340921000834?via%3Dihub",433.22
+"Qatar National Library",2020,FALSE,"10.1016/j.dib.2021.106799",433.22
 "Qatar National Library",2021,TRUE,"https://doi.org/10.1016/j.tranpol.2021.01.018",1732.88
 "Qatar National Library",2020,FALSE,"10.1002/ccr3.3889",765.00
 "Qatar National Library",2020,TRUE,"10.1111/jcpe.13435",3240.00
@@ -1575,7 +1575,7 @@
 "Qatar National Library",2020,TRUE,"10.1016/j.jenvman.2021.112245",2859.25
 "Qatar National Library",2021,FALSE,"10.1109/ACCESS.2021.3062776",1516.27
 "Qatar National Library",2021,TRUE,"	10.1007/s11042-021-10695-5",2341.00
-"Qatar National Library",2021,TRUE,"0.1016/j.fuel.2021.120557",3171.17
+"Qatar National Library",2021,TRUE,"10.1016/j.fuel.2021.120557",3171.17
 "Qatar National Library",2020,TRUE,"10.1111/joim.13204	",3150.00
 "Qatar National Library",2021,FALSE,"https://doi.org/10.3390/nu13030836",2059.30
 "Qatar National Library",2021,FALSE,"https://doi.org/10.3390/designs5010018",632.24
@@ -1698,7 +1698,7 @@
 "Qatar National Library",2021,FALSE,"https://doi.org/10.3390/polym13101644",171.61
 "Qatar National Library",2021,FALSE,"10.1038/s41598-021-89827-8",1690.00
 "Qatar National Library",2021,TRUE,"10.1002/joc.7160",2385.00
-"Qatar National Library",2021,FALSE,"ttps://doi.org/10.1038/s41598-021-89752-w",1690.00
+"Qatar National Library",2021,FALSE,"https://doi.org/10.1038/s41598-021-89752-w",1690.00
 "Qatar National Library",2021,TRUE,"10.1007/s10796-021-10140-w",2341.00
 "Qatar National Library",2021,FALSE,"10.1109/ACCESS.2021.3077358",1516.27
 "Qatar National Library",2021,FALSE,"10.1109/ACCESS.2021.3077055",1516.27
