@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |129,908 | 251,179,062    | 312 |
+| Articles         |129,907 | 251,142,004    | 312 |
 | Monographs       |1,247 | 7,729,853    | 12 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -435,13 +435,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 129,908 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 312 research performing institutions and research funders. 
+The article data set contains information on 129,907 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 312 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 251,179,062. The average payment was € 1,934 and the median was € 1,756.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 251,142,004. The average payment was € 1,933 and the median was € 1,756.
 
 81,682 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 131,111,451, including value-added tax; the average payment was € 1,605 (median =  € 1,528, SD = € 773).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 48,226 articles in the data set were published in hybrid journals. Total expenditure amounts to 120,067,611 €; the average fee was € 2,490 (median =  € 2,449, SD = € 1,005).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 48,225 articles in the data set were published in hybrid journals. Total expenditure amounts to 120,030,554 €; the average fee was € 2,489 (median =  € 2,449, SD = € 993).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -454,23 +454,23 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 |period | OA articles| OA mean| OA median| OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
 |:------|-----------:|-------:|---------:|------------:|---------------:|-----------:|-------------:|----------------:|
-|2005   |           7|     858|       871| 480 -  1,350|               1|       2,983|         2,983|   2,983 -  2,983|
+|2005   |           7|     858|       871| 480 -  1,350|               1|       2,983|         2,983|    2,983 - 2,983|
 |2006   |          52|   1,021|     1,095| 665 -  1,340|              NA|          NA|            NA|               NA|
 |2007   |          88|   1,081|     1,062| 870 -  1,825|              NA|          NA|            NA|               NA|
-|2008   |         205|   1,170|     1,025| 441 -  2,830|               1|       2,660|         2,660|   2,660 -  2,660|
+|2008   |         205|   1,170|     1,025| 441 -  2,830|               1|       2,660|         2,660|    2,660 - 2,660|
 |2009   |         356|   1,181|     1,060| 125 -  4,386|              NA|          NA|            NA|               NA|
-|2010   |         397|   1,261|     1,139| 159 -  7,419|               2|       2,401|         2,401|   2,173 -  2,630|
-|2011   |         770|   1,157|     1,127| 105 -  4,666|               6|       1,781|         2,085|     552 -  2,631|
-|2012   |       1,567|   1,172|     1,175|  69 -  4,498|              20|       2,308|         2,412|     997 -  2,700|
-|2013   |       2,455|   1,229|     1,178|  50 -  4,574|           1,098|       2,257|         2,260|     120 -  4,679|
-|2014   |       5,178|   1,374|     1,255|  40 -  9,028|           6,517|       2,238|         2,200|     132 -  6,000|
-|2015   |       8,427|   1,520|     1,448|  59 -  5,669|           6,686|       2,611|         2,622|     127 -  8,636|
-|2016   |       9,780|   1,634|     1,530|  63 -  5,985|           7,880|       2,552|         2,516|       2 -  9,079|
-|2017   |      14,430|   1,716|     1,557|   9 - 14,634|          10,591|       2,532|         2,474|      37 -  9,858|
-|2018   |      14,177|   1,704|     1,590|  13 -  8,926|           9,126|       2,565|         2,545|      18 -  9,073|
-|2019   |      13,701|   1,631|     1,605|  11 -  7,684|           4,817|       2,417|         2,326|      75 -  9,500|
-|2020   |       9,714|   1,679|     1,691|   0 -  5,832|           1,305|       2,361|         2,339|     130 - 37,058|
-|2021   |         378|   1,506|     1,516| 120 -  5,617|             176|       2,394|         2,341|     769 -  3,645|
+|2010   |         397|   1,261|     1,139| 159 -  7,419|               2|       2,401|         2,401|    2,173 - 2,630|
+|2011   |         770|   1,157|     1,127| 105 -  4,666|               6|       1,781|         2,085|      552 - 2,631|
+|2012   |       1,567|   1,172|     1,175|  69 -  4,498|              20|       2,308|         2,412|      997 - 2,700|
+|2013   |       2,455|   1,229|     1,178|  50 -  4,574|           1,098|       2,257|         2,260|      120 - 4,679|
+|2014   |       5,178|   1,374|     1,255|  40 -  9,028|           6,517|       2,238|         2,200|      132 - 6,000|
+|2015   |       8,427|   1,520|     1,448|  59 -  5,669|           6,686|       2,611|         2,622|      127 - 8,636|
+|2016   |       9,780|   1,634|     1,530|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
+|2017   |      14,430|   1,716|     1,557|   9 - 14,634|          10,591|       2,532|         2,474|       37 - 9,858|
+|2018   |      14,177|   1,704|     1,590|  13 -  8,926|           9,126|       2,565|         2,545|       18 - 9,073|
+|2019   |      13,701|   1,631|     1,605|  11 -  7,684|           4,817|       2,417|         2,326|       75 - 9,500|
+|2020   |       9,714|   1,679|     1,691|   0 -  5,832|           1,304|       2,334|         2,339|      130 - 5,317|
+|2021   |         378|   1,506|     1,516| 120 -  5,617|             176|       2,394|         2,341|      769 - 3,645|
 
 ### Books (BPCs)
 
