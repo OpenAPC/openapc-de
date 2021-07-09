@@ -194,7 +194,10 @@ JOURNAL_OWNER_CHANGED = {
     "2051-1426": ["Springer Nature", "BMJ"], # Journal for ImmunoTherapy of Cancer
     "1474-905X": ["Royal Society of Chemistry (RSC)", "Springer Nature"], # Photochemical & Photobiological Sciences
     "1474-9092": ["Royal Society of Chemistry (RSC)", "Springer Nature"], # Photochemical & Photobiological Sciences (electronic)
-    "2245-0157": ["Aarhus University Library", "Det Kgl. Bibliotek/Royal Danish Library"] # Nordic Journal of Working Life Studies
+    "2245-0157": ["Aarhus University Library", "Det Kgl. Bibliotek/Royal Danish Library"], # Nordic Journal of Working Life Studies
+    "0884-2914": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR)
+    "2044-5326": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR) (electronic)
+    "0884-1616": ["Cambridge University Press (CUP)", "Springer Nature"] # Journal of Materials Research (JMR) (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
