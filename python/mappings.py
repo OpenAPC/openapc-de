@@ -289,7 +289,9 @@ JOURNAL_MAPPINGS = {
     "ZDM – Mathematics Education": "ZDM",
     "Risk Governance and Control: Financial Markets and Institutions": "Risk Governance and Control: Financial Markets & Institutions",
     "Raumforschung und Raumordnung | Spatial Research and Planning": "Raumforschung und Raumordnung",
-    "Journal of Occupational & Environmental Medicine": "Journal of Occupational and Environmental Medicine"
+    "Journal of Occupational & Environmental Medicine": "Journal of Occupational and Environmental Medicine",
+    "Chemical Engineering and Processing - Process Intensification": "Chemical Engineering and Processing: Process Intensification",
+    "Informatik Spektrum": "Informatik-Spektrum"
 }
 
 COLUMN_NAMES = {
