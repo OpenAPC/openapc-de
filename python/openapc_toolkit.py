@@ -12,6 +12,7 @@ import os
 import re
 from shutil import copyfileobj
 import sys
+from urllib.parse import quote_plus, urlencode
 from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
 from urllib.error import HTTPError, URLError
 import xml.etree.ElementTree as ET
@@ -24,6 +25,12 @@ except ImportError:
     chardet = None
     print("WARNING: 3rd party module 'chardet' not found - character " +
           "encoding guessing will not work")
+try:
+    import Levenshtein
+except ImportError:
+    chardet = None
+    print("WARNING: 3rd party module 'Levenshtein' not found - title " +
+          "search in Crossref will not work")
 
 # Identifying User Agent header for metadata API requests
 USER_AGENT = ("OpenAPC Toolkit (https://github.com/OpenAPC/openapc-de/blob/master/python/openapc_toolkit.py;"+
@@ -612,6 +619,20 @@ class NoRedirection(HTTPErrorProcessor):
 
     https_response = http_response
 
+class UnsupportedDoiTypeError(ValueError):
+    """
+    An exception indicating an unsupported DOI type while looking up Crossref metadata
+
+    Its main purpose is to store already obtained Crossref data (type + title)
+    for later error handling, avoiding double lookups
+    """
+    def __init__(self, doi_type, unsupported_doi_types, crossref_title):
+        self.doi_type = doi_type
+        self.crossref_title = crossref_title
+        msg = ('Unsupported DOI type "{}" (OpenAPC only supports the following types: {})')
+        msg = msg.format(doi_type, ", ".join(unsupported_doi_types))
+        super().__init__(msg)
+
 def get_normalised_DOI(doi_string):
     doi_string = doi_string.strip()
     doi_match = DOI_RE.match(doi_string)
@@ -896,6 +917,62 @@ def find_book_dois_in_crossref(isbn_list):
         ret_value['error_msg'] = str(ve)
     return ret_value
 
+def preprint_lookup(lookup_title):
+    api_url = "https://api.crossref.org/works?"
+    empty_result = {
+        "found_title": "",
+        "similarity": 0,
+        "doi": ""
+    }
+    params = {"rows": "8", "query.bibliographic": lookup_title}
+    url = api_url + urlencode(params, quote_via=quote_plus)
+    request = Request(url)
+    request.add_header("User-Agent", USER_AGENT)
+    try:
+        ret = urlopen(request)
+        content = ret.read()
+        data = json.loads(content)
+        items = data["message"]["items"]
+        most_similar = empty_result
+        for item in items:
+            if "title" not in item:
+                continue
+            if "type" not in item or item["type"] != "journal-article":
+                continue
+            title = item["title"].pop()
+            result = {
+                "found_title": title,
+                "similarity": Levenshtein.ratio(title.lower(), params["query.bibliographic"].lower()),
+                "doi": item["DOI"]
+            }
+            if most_similar["similarity"] < result["similarity"]:
+                most_similar = result
+    except HTTPError as httpe:
+        error_msg = "An HTTPError occured during preprint lookup: {} - {}".format(httpe.code, httpe.reason)
+        print_r(error_msg)
+        return None
+    if most_similar["doi"]:
+        similarity = most_similar["similarity"]
+        msg = "{} match for a final version found in Crossref (similarity: {}):"
+        if similarity == 1.0:
+            print_c(msg.format("Perfect", most_similar["similarity"]))
+        elif similarity >= 0.9:
+            print_g(msg.format("Good", most_similar["similarity"]))
+        elif similarity >= 0.8:
+            print_y(msg.format("Possible", most_similar["similarity"]))
+        else:
+            print_r(msg.format("No good", most_similar["similarity"]))
+        msg_old = "    '{}' [title for existing DOI]"
+        print(msg_old.format(lookup_title))
+        msg_new = "    '{}' [title for discovered doi {}]"
+        print(msg_new.format(most_similar["found_title"], most_similar["doi"]))
+        answer = input("Do you want to accept the new DOI? (y/n)")
+        while answer not in ["y", "n"]:
+            answer = input("Please type 'y' or 'n':")
+        if answer == "y":
+            return most_similar["doi"]
+        return None
+
 def get_metadata_from_crossref(doi_string):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
@@ -922,8 +999,8 @@ def get_metadata_from_crossref(doi_string):
         be retreived will have a None value.
 
         If data extraction failed, 'success' will be False and the dict will
-        contain a second entry 'error_msg' with a string value
-        stating the reason.
+        contain both an entry 'error_msg' with a string value
+        stating the reason and an entry 'exception' holding the exception object.
     """
     xpaths_article = {
         ".//cr_qr:crm-item[@name='publisher-name']": "publisher",
@@ -993,9 +1070,13 @@ def get_metadata_from_crossref(doi_string):
         doi_element = root.findall(".//cr_qr:doi", namespaces)
         doi_type = doi_element[0].attrib['type']
         if doi_type not in doi_types:
-            msg = ('Unsupported DOI type "{}" (OpenAPC only supports the following types: {}')
-            msg = msg.format(doi_type, ", ".join(doi_types.keys()))
-            raise ValueError(msg)
+            title = root.findall(".//cr_1_1:title", namespaces)
+            if not title:
+                title = root.findall(".//cr_1_0:title", namespaces)
+            title_string = ""
+            if title:
+                title_string = title[0].text
+            raise UnsupportedDoiTypeError(doi_type, doi_types.keys(), title_string)
         crossref_data = {"doi_type": doi_type}
         xpaths = doi_types[doi_type]
         for path, elem in xpaths.items():
@@ -1015,21 +1096,27 @@ def get_metadata_from_crossref(doi_string):
     except HTTPError as httpe:
         ret_value['success'] = False
         ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+        ret_value['exception'] = httpe
     except RemoteDisconnected as rd:
         ret_value['success'] = False
         ret_value['error_msg'] = "Remote Disconnected: {}".format(str(rd))
+        ret_value['exception'] = rd
     except ConnectionResetError as cre:
         ret_value['success'] = False
         ret_value['error_msg'] = "Connection Reset: {}".format(str(cre))
+        ret_value['exception'] = cre
     except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
+        ret_value['exception'] = urle
     except ET.ParseError as etpe:
         ret_value['success'] = False
         ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(etpe))
-    except ValueError as ve:
+        ret_value['exception'] = etpe
+    except UnsupportedDoiTypeError as udte:
         ret_value['success'] = False
-        ret_value['error_msg'] = str(ve)
+        ret_value['error_msg'] = str(udte)
+        ret_value['exception'] = udte
     return ret_value
 
 def get_metadata_from_pubmed(doi_string):
@@ -1311,8 +1398,8 @@ def _process_institution_value(institution, row_num, orig_file_path, offsetting_
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, round_monetary=False, offsetting_mode=None, crossref_max_retries=3,
-                orig_file_path=None):
+                no_doaj_lookup=False, no_preprint_lookup=False, round_monetary=False,
+                offsetting_mode=None, orig_file_path=None, crossref_max_retries=3):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
 
@@ -1336,6 +1423,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
         no_doaj_lookup: If true, journals will not be checked for being
                         listended in the DOAJ.
+        no_preprint_lookup: If true, preprint DOIs will not be looked up
         round_monetary: If true, monetary values with more than 2 digits behind the decimal
                         mark will be rounded. If false, these cases will be treated as errors.
         offsetting_mode: If not None, the row is assumed to originate from an offsetting file
@@ -1403,7 +1491,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             row[index] = found_doi
             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
-                no_doaj_lookup, round_monetary, offsetting_mode)
+                no_doaj_lookup, no_preprint_lookup, round_monetary, offsetting_mode, orig_file_path)
     if has_value(doi):
         # Normalise DOI
         norm_doi = get_normalised_DOI(doi)
@@ -1424,6 +1512,25 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.warning(msg, crossref_result["error_msg"])
                 retries += 1
                 crossref_result = get_metadata_from_crossref(doi)
+            if not crossref_result["success"]:
+                exc = crossref_result["exception"]
+                # check if a preprint lookup is possible
+                if not no_preprint_lookup and type(exc) == UnsupportedDoiTypeError and exc.doi_type == "posted_content":
+                    msg = ("Line %s: Found a DOI with type 'posted_content' (%s). This might " +
+                           "be a case of a preprint DOI, trying to find the final version of the article...")
+                    logging.info(msg, row_num, doi)
+                    if not exc.crossref_title:
+                        msg = "Line %s: Preprint lookup failed, no title could be extracted."
+                        logging.warning(msg, row_num)
+                    else:
+                        article_doi = preprint_lookup(exc.crossref_title)
+                        if article_doi:
+                            logging.info("New DOI integrated, restarting enrichment for current line...")
+                            index = column_map["doi"].index
+                            row[index] = article_doi
+                            return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
+                                doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
+                                no_doaj_lookup, no_preprint_lookup, round_monetary, offsetting_mode, orig_file_path)
             if crossref_result["success"]:
                 data = crossref_result["data"]
                 record_type = data.pop("doi_type")
@@ -1450,7 +1557,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     row[index] = found_doi
                     return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                                        doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
-                                       no_doaj_lookup, round_monetary, offsetting_mode)
+                                       no_doaj_lookup, no_preprint_lookup, round_monetary, offsetting_mode, orig_file_path)
         # include pubmed metadata
         if not no_pubmed_lookup:
             pubmed_result = get_metadata_from_pubmed(doi)

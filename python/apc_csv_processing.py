@@ -238,6 +238,8 @@ ARG_HELP_STRINGS = {
     "crossref_max_retries": "Maximum number of attempts to retry a crossref " +
                             "query for a single line if a 504 Error (Gateway " +
                             "Timeout) is encountered",
+    "no_preprint_lookup" : "Do not try to discover DOIs for final versions of " +
+                           "preprint papers automatically",
     "url": "Manually identify the 'url' column if the script fails to detect " +
            "it automatically. The value is the numerical column index in the " +
            "CSV file, with the leftmost column being 0. This is an optional " +
@@ -278,6 +280,8 @@ def main():
                         help=ARG_HELP_STRINGS["unindexed_only"])
     parser.add_argument("-r", "--round_monetary", action="store_true",
                         help=ARG_HELP_STRINGS["round_monetary"])
+    parser.add_argument("-p", "--no-preprint-lookup", action="store_true",
+                        help=ARG_HELP_STRINGS["no_preprint_lookup"])
     parser.add_argument("--no-crossref", action="store_true",
                         help=ARG_HELP_STRINGS["no_crossref"])
     parser.add_argument("--no-pubmed", action="store_true",
@@ -679,8 +683,8 @@ def main():
                 no_doaj = True
         result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
                                                     no_crossref, no_pubmed,
-                                                    no_doaj, args.round_monetary,
-                                                    args.offsetting_mode, args.crossref_max_retries, args.csv_file)
+                                                    no_doaj, args.no_preprint_lookup, args.round_monetary,
+                                                    args.offsetting_mode, args.csv_file, args.crossref_max_retries)
         for record_type, value in enriched_content.items():
             if record_type == result_type:
                 value["content"].append(enriched_row)
