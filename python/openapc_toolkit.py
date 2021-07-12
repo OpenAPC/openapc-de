@@ -1058,7 +1058,7 @@ def get_metadata_from_crossref(doi_string):
     doi = get_normalised_DOI(doi_string)
     if doi is None:
         error_msg = "Parse Error: '{}' is no valid DOI".format(doi_string)
-        return {"success": False, "error_msg": error_msg}
+        return {"success": False, "error_msg": error_msg, "exception": None}
     url = 'http://data.crossref.org/' + doi
     req = Request(url)
     req.add_header("Accept", "application/vnd.crossref.unixsd+xml")
