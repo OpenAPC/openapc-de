@@ -197,7 +197,9 @@ JOURNAL_OWNER_CHANGED = {
     "2245-0157": ["Aarhus University Library", "Det Kgl. Bibliotek/Royal Danish Library"], # Nordic Journal of Working Life Studies
     "0884-2914": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR)
     "2044-5326": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR) (electronic)
-    "0884-1616": ["Cambridge University Press (CUP)", "Springer Nature"] # Journal of Materials Research (JMR) (linking)
+    "0884-1616": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR) (linking)
+    "0024-4201": ["Springer Nature", "Wiley-Blackwell"], # Lipids
+    "1558-9307": ["Springer Nature", "Wiley-Blackwell"] # Lipids (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
