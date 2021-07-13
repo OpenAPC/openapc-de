@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 39,129 articles, published at 241 institutions under 16 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 39,186 articles, published at 241 institutions under 16 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 39,129 articles, published at 241 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     1209|
-|DEAL Springer Nature Germany                 |      790|
+|DEAL Wiley Germany                           |     1244|
+|DEAL Springer Nature Germany                 |      812|
 |MPG RSC agreement                            |      246|
 |FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
@@ -150,6 +150,7 @@ This dataset contains information on 39,129 articles, published at 241 instituti
 |Royal Botanic Gardens                                                                                                                              |       76|
 |Cranfield University                                                                                                                               |       75|
 |Bangor University                                                                                                                                  |       72|
+|Hamburg TUHH                                                                                                                                       |       72|
 |Paris Lodron University of Salzburg                                                                                                                |       72|
 |University of Hull                                                                                                                                 |       72|
 |University of Ulster                                                                                                                               |       72|
@@ -223,7 +224,6 @@ This dataset contains information on 39,129 articles, published at 241 instituti
 |University of Basel                                                                                                                                |       17|
 |Dalarna University                                                                                                                                 |       16|
 |Stockholm School of Economics                                                                                                                      |       16|
-|Hamburg TUHH                                                                                                                                       |       15|
 |Kassel U                                                                                                                                           |       15|
 |Swedish Defence Research Agency                                                                                                                    |       15|
 |Birmingham City University                                                                                                                         |       13|
