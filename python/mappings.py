@@ -28,6 +28,7 @@ PUBLISHER_MAPPINGS = {
     "Edinburgh University Global Health Society": "International Global Health Society",
     "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
     "CMA Joule Inc.": "Joule Inc.",
+    "Academic Conferences and Publishing International Limited": "Academic Conferences International Ltd",
     # books
     "DE GRUYTER": "De Gruyter",
     "DE GRUYTER SAUR": "De Gruyter",
@@ -96,6 +97,7 @@ JOURNAL_MAPPINGS = {
     "Scientific Repor.": "Scientific Reports",
     "PAIN": "Pain",
     "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
+    "G3 Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
     "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
     "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
     "PLoS Medicine": "PLOS Medicine",
@@ -291,7 +293,9 @@ JOURNAL_MAPPINGS = {
     "Raumforschung und Raumordnung | Spatial Research and Planning": "Raumforschung und Raumordnung",
     "Journal of Occupational & Environmental Medicine": "Journal of Occupational and Environmental Medicine",
     "Chemical Engineering and Processing - Process Intensification": "Chemical Engineering and Processing: Process Intensification",
-    "Informatik Spektrum": "Informatik-Spektrum"
+    "Informatik Spektrum": "Informatik-Spektrum",
+    "BMJ Global health": "BMJ Global Health",
+    "Electronic Journal of e-Government": "The Electronic Journal of e-Government"
 }
 
 COLUMN_NAMES = {
