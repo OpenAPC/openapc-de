@@ -199,7 +199,11 @@ JOURNAL_OWNER_CHANGED = {
     "2044-5326": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR) (electronic)
     "0884-1616": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR) (linking)
     "0024-4201": ["Springer Nature", "Wiley-Blackwell"], # Lipids
-    "1558-9307": ["Springer Nature", "Wiley-Blackwell"] # Lipids (electronic)
+    "1558-9307": ["Springer Nature", "Wiley-Blackwell"], # Lipids (electronic)
+    "0021-9258": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Journal of Biological Chemistry
+    "2160-1836": ["Genetics Society of America", "Oxford University Press (OUP)"], # G3: Genes|Genomes|Genetics
+    "1661-8564": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (electronic)
+    "1661-8556": ["Springer Nature", "Frontiers Media SA"] # International Journal of Public Health (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -296,7 +300,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1025-6164", # Myrmecological News
     "1095-4244", # Wind Energy , Gold OA since 2021
     "2053-1591", # Materials Research Express, OA since 7/2020
-    "1542-7390" # Space Weather
+    "1542-7390", # Space Weather
+    "0021-9258", # Journal of Biological Chemistry, Gold OA since 2021
+    "1661-8564" # International Journal of Public Health, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
