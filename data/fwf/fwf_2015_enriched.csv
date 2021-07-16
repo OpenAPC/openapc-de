@@ -105,7 +105,7 @@
 "FWF - Austrian Science Fund",2015,1991.47,"10.1063/1.4927851",TRUE,"AIP Publishing","Applied Physics Letters","0003-6951","0003-6951","1077-3118","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,1982.81,"10.1063/1.4929501",TRUE,"AIP Publishing","Applied Physics Letters","0003-6951","0003-6951","1077-3118","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,1901.71,"10.1063/1.4906802",TRUE,"AIP Publishing","Applied Physics Letters","0003-6951","0003-6951","1077-3118","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2015,974.12,"10.1116/1.4907937 ",FALSE,"American Vacuum Society","Biointerphases","1934-8630","1934-8630","1559-4106",NA,TRUE,"25711334","PMC4841387",NA,NA,FALSE
+"FWF - Austrian Science Fund",2015,974.12,"10.1116/1.4907937",TRUE,"American Vacuum Society","Biointerphases","1934-8630","1934-8630","1559-4106",NA,TRUE,"25711334","PMC4841387",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2142.51,"10.1063/1.4898379",TRUE,"AIP Publishing","The Journal of Chemical Physics","0021-9606","0021-9606","1089-7690","http://creativecommons.org/licenses/by/3.0/",TRUE,"25399198",NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2323.66,"10.1063/1.4932182",TRUE,"AIP Publishing","The Journal of Chemical Physics","0021-9606","0021-9606","1089-7690","http://creativecommons.org/licenses/by/3.0/",TRUE,"26450307",NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,3820.27,"10.1175/BAMS-D-13-00155.1",TRUE,"American Meteorological Society","Bulletin of the American Meteorological Society","0003-0007","0003-0007","1520-0477",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -143,12 +143,20 @@
 "FWF - Austrian Science Fund",2015,2550.51,"10.1128/MCB.01346-14",TRUE,"American Society for Microbiology","Molecular and Cellular Biology","0270-7306","0270-7306","1098-5549",NA,TRUE,"25918245","PMC4456442",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,1934,"10.1182/blood-2014-08-595397",TRUE,"American Society of Hematology","Blood","0006-4971","0006-4971","1528-0020",NA,TRUE,"25745186","PMC4375718",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2182.19,"10.1104/pp.114.250720",TRUE,"American Society of Plant Biologists (ASPB)","Plant Physiology","0032-0889","0032-0889","1532-2548",NA,TRUE,"25355867",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2015,1134.4,"10.1145/2714572",TRUE,"Association for Computing Machinery (ACM)","ACM Transactions on Graphics","07300301","07300301",NA,"http://www.acm.org/publications/policies/copyright_policy#Background",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2015,308.37,"10.1167/iovs.14-15037",TRUE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,NA,TRUE,"25352116",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2015,1146.79,"10.2174/1567205012666150710114256",TRUE,"Bentham Science Publishers Ltd.","Current Alzheimer Research","15672050","15672050",NA,NA,TRUE,"26159193","PMC4589156",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,1824.31,"10.2174/0929867322666150716114625",TRUE,"Bentham Science Publishers Ltd.","Current Medicinal Chemistry","09298673","09298673",NA,NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2829.26,"10.2174/1567202612666150102124703",TRUE,"Bentham Science Publishers Ltd.","Current Neurovascular Research","15672026","15672026",NA,NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,3160.23,"10.2174/138920101604150218112656",TRUE,"Bentham Science Publishers Ltd.","Current Pharmaceutical Biotechnology","13892010","13892010",NA,NA,TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2015,1975.06,"10.1186/s13068-015-0298-8",FALSE,"Springer Nature","Biotechnology for Biofuels","1754-6834",NA,"1754-6834",NA,TRUE,"26246855","PMC4526299",NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,2076,"10.1186/s12859-015-0562-8",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105",NA,TRUE,"25888443","PMC4404568",NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,1522,"10.1186/1741-7007-10-100",FALSE,"Springer Nature","BMC Biology","1741-7007","1741-7007",NA,NA,TRUE,"23216925","PMC3534634",NA,NA,TRUE
@@ -530,7 +538,7 @@
 "FWF - Austrian Science Fund",2015,1653.47,"10.1155/2015/797421",FALSE,"Hindawi Publishing Corporation","Journal of Immunology Research","2314-8861","2314-8861","2314-7156","http://creativecommons.org/licenses/by/3.0/",TRUE,"26557723","PMC4628660",NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,1230.16,"10.1155/2014/140419",FALSE,"Hindawi Publishing Corporation","Neural Plasticity","2090-5904","2090-5904","1687-5443","http://creativecommons.org/licenses/by/3.0/",TRUE,"25544900","PMC4269319",NA,NA,TRUE
 "FWF - Austrian Science Fund",2015,1227.16,"10.1680/bbn.14.00009",TRUE,"Thomas Telford Ltd.","Bioinspired, Biomimetic and Nanobiomaterials","2045-9858","2045-9858","2045-9866",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2015,2532.11,NA,FALSE,"Impact Journals, LLC","Aging","1945-4589",NA,NA,NA,FALSE,NA,NA,NA,"http://www.impactaging.com/papers/v7/n6/full/100755.html",FALSE
+"FWF - Austrian Science Fund",2015,2532.11,"10.18632/aging.100755",FALSE,"Impact Journals, LLC","Aging","1945-4589",NA,"1945-4589",NA,TRUE,"26143532","PMC4505166","ut:000357373500015","http://www.impactaging.com/papers/v7/n6/full/100755.html",FALSE
 "FWF - Austrian Science Fund",2015,992.54,"10.18632/oncotarget.2465",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2599.26,"10.18632/oncotarget.3586",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,3002.69,"10.18632/oncotarget.3368",FALSE,"Impact Journals, LLC","OncoTarget","1949-2553",NA,"1949-2553",NA,TRUE,NA,NA,NA,NA,FALSE
@@ -1016,7 +1024,7 @@
 "FWF - Austrian Science Fund",2015,2086.9,"10.1098/rspb.2012.2498",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954",NA,TRUE,"23222449","PMC3574310",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,3252.82,"10.1098/rspb.2015.0220",TRUE,"The Royal Society","Proceedings of the Royal Society B: Biological Sciences","0962-8452","0962-8452","1471-2954",NA,TRUE,"25904666","PMC4424647",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2856,"10.1111/jeb.12608",TRUE,"Wiley-Blackwell","Journal of Evolutionary Biology","1010061X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25705852",NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2015,1980,"10.1553/BRGOE2014-1s64",TRUE,"Osterreichische Akademie der Wissenschaften","Beiträge zur Rechtsgeschichte Österreichs","2221-8890","2221-8890","2224-4905",NA,TRUE,NA,NA,NA,NA,FALSE
+"FWF - Austrian Science Fund",2015,1980,"10.1553/BRGOE2014-1s64",TRUE,"Österreichische Akademie der Wissenschaften","Beiträge zur Rechtsgeschichte Österreichs","2221-8890","2221-8890","2224-4905",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,300,NA,FALSE,"National Institute R and D of Materials Physics","Digest Journal of Nanomaterials and Biostructures","1842-3582",NA,NA,NA,FALSE,NA,NA,NA,"http://www.chalcogen.ro/941_Rusu.pdf",FALSE
 "FWF - Austrian Science Fund",2015,2160,"10.3920/BM2014.0104",TRUE,"Wageningen Academic Publishers","Beneficial Microbes","1876-2883","1876-2883","1876-2891",NA,TRUE,"25609655",NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,882.35,"10.1107/S1399004714010311",TRUE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section D Biological Crystallography","1399-0047",NA,"1399-0047",NA,TRUE,"25004977","PMC4089490",NA,NA,FALSE
@@ -1076,6 +1084,7 @@
 "FWF - Austrian Science Fund",2015,1652.4,"10.1002/ece3.1856",FALSE,"Wiley-Blackwell","Ecology and Evolution","20457758",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26811772","PMC4716499",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,3225.11,"10.1111/ele.12441",TRUE,"Wiley-Blackwell","Ecology Letters","1461023X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25960088","PMC4676298",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,2872.11,"10.1111/ele.12269",TRUE,"Wiley-Blackwell","Ecology Letters","1461023X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"24628731","PMC4315898",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2015,1344,"10.15252/embr.201438932",TRUE,"EMBO","EMBO reports","1469-221X","1469-221X","1469-3178",NA,TRUE,"24968893","PMC4197043",NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,3903.35,"10.1111/1462-2920.12861",TRUE,"Wiley-Blackwell","Environmental Microbiology","14622912",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25847810",NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2015,3864.43,"10.1111/1462-2920.12913",TRUE,"Wiley-Blackwell","Environmental Microbiology","14622912",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26013911",NA,NA,NA,FALSE

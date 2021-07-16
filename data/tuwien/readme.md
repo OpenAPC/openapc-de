@@ -1,36 +1,49 @@
-# Publikationskosten (brutto), finanziert durch die Universit‰tsbibliothek der TU Wien #
+# Publikationskosten (brutto), finanziert durch die TU Wien Bibliothek
 
+enth√§lt:
 * APC-Kosten, die an der Bibliothek verwaltet wurden
-* Daten aus dem Rechnungsjahr 2015 + 2016. Daten werden jeweils im Folgejahr zur Verf¸gung gestellt.
+* Daten aus den Rechnungsjahren 2015-2020. Daten werden jeweils im Folgejahr zur Verf√ºgung gestellt
+* alle APC-Kosten inkl. Steuer; betr√§gt in √ñsterreich 20%
 
-* Nicht enthalten sind:
-* Publikationskosten, die von den AutorInnen selbst getragen wurden
-* Daten zum Springer Compact Deal (siehe Offsetting)
-* Daten zu 0Ä-Artikel (RSC Gold 4 Gold Voucher)
-
-
-* Weitere Information unter: <http://www.ub.tuwien.ac.at/publizieren/>
-
-* Kontakt: MMag. Magdalena Andrae <mailto: open-access@ub.tuwien.ac.at>
+enth√§lt	nicht:
+* Publikationskosten, die von den Autor_innen selbst getragen wurden
+* Daten aus Read&Publish- bzw. Offsetting-Vertr√§gen
 
 
+## Sonderkonditionen:
+* BioMedCentral: 20% Rabatt auf APC
+* IEEE: 0-15% Rabatt auf APC
+* Frontiers: 10% Rabatt auf APC
+* MDPI: 10% Rabatt auf APC
 
-# APC gross costs, financed by the library of the Technischen Universit‰t Wien (TU Wien) #
+## Offsetting-Daten
+* Springer-Compact-Daten siehe Bereich [Transformative Agreements](https://treemaps.intact-project.org/apcdata/springer-compact-coverage/)
+
+## Weitere Informationen
+* unter: <https://www.tuwien.at/bibliothek/forschen-und-publizieren>
+* Kontakt: [Magdalena Andrae](mailto:openaccess@tuwien.ac.at)
+
+# APC gross costs, financed by the library of the Technische Universit√§t Wien (TU Wien)
+
+included:
+* Data covers APCs that were either covered by our publication fund or by deals that were negotiated between publishers and library staff
+* Data for the years 2015-2018. 2019 et seq. will be provided in the following year.
+* APCs including VAT (20% in Austria)
+
+not included:
+* APCs paid by individual authors
+* Data from offsetting / read & publish deals
 
 
-* Data covers only APCs that are either covered by our publication fund or deals that were negotiated between publishers and library staff.
-* Data from 2015 + 2016. 2017 et seq. will be provided in the following year.
+## Special Terms
+* BioMedCentral: 20% discount
+* IEEE: 0-15% discount
+* Frontiers: 10% discount
+* MDPI: 10% discount
 
+## Offsetting data
+* Data for the Springer Compact Deal is published in [Transformative Agreements](https://treemaps.intact-project.org/apcdata/springer-compact-coverage/)
 
-* Not included:
-* APCs paid by the individual author
-* Data covering the Springer Compact deal (Read & publish deal)
-* Data where value = 0Ä (RSC Gold 4 Gold Voucher)
-
-
-* Further information: <http://www.ub.tuwien.ac.at/publizieren/>
-
-* Contact: MMag. Magdalena Andrae <mailto: open-access@ub.tuwien.ac.at>
-
-
-
+## More information
+* <https://www.tuwien.at/en/library/research-and-publishing>
+* Contact: [Magdalena Andrae](mailto:openaccess@tuwien.ac.at)

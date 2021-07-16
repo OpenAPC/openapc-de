@@ -10,20 +10,29 @@ an error message otherwise.
 """
 
 import argparse
+from urllib.request import urlopen, Request
 
 from openapc_toolkit import get_metadata_from_crossref as gmfc
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("doi", help="A DOI to look up in crossref.")
+    parser.add_argument("-r", "--raw", action="store_true", help="Print the raw Crossref XML.")
     args = parser.parse_args()
-
-    res = gmfc(args.doi)
-    if res["success"]:
-        for key, value in res["data"].items():
-            print(key, ":", value)
+    if args.raw:
+        url = 'https://data.crossref.org/' + args.doi
+        req = Request(url)
+        req.add_header("Accept", "application/vnd.crossref.unixsd+xml")
+        response = urlopen(req)
+        content_string = response.read()
+        print(content_string.decode("utf-8"))
     else:
-        print(res["error_msg"])
+        res = gmfc(args.doi)
+        if res["success"]:
+            for key, value in res["data"].items():
+                print(key, ":", value)
+        else:
+            print(res["error_msg"])
 
 if __name__ == '__main__':
     main()

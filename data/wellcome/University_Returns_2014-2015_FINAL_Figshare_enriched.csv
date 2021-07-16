@@ -2060,7 +2060,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "",,,"","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","",""
-"Wellcome Trust",2015,1138.52,"10.3233/JAD-141512",TRUE,"IOS Press","Journal of Alzheimer's disease","1875-8908",NA,NA,NA,FALSE,"25114083","PMC4337967",NA,NA,FALSE
+"Wellcome Trust",2015,1138.52,"10.3233/JAD-141512",TRUE,"IOS Press","Journal of Alzheimer's Disease","1875-8908",NA,NA,NA,FALSE,"25114083","PMC4337967",NA,NA,FALSE
 "Wellcome Trust",2015,1375.78,"10.2217/fca.14.67",TRUE,"Future Medicine Ltd","Future Cardiology","1479-6678","1479-6678","1744-8298",NA,TRUE,"25606706","PMC4374150",NA,NA,FALSE
 "",,,"","","","","","","","","","","","","",""
 "Wellcome Trust",2015,1578.1,"10.1002/mgg3.164",FALSE,"Wiley-Blackwell","Molecular Genetics & Genomic Medicine","23249269",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"26740946","PMC4694127",NA,NA,FALSE
@@ -2137,7 +2137,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "",,,"","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","",""
 "Wellcome Trust",2015,2023.2,"10.1002/cyto.a.22616",TRUE,"Wiley-Blackwell","Cytometry Part A","15524922",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25523156","PMC4440390",NA,NA,FALSE
-"Wellcome Trust",2015,2023.2,"10.1002/clc.22401",TRUE,"Wiley-Blackwell","Clinical Cardiology","01609289",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25990305","PMC4489325",NA,NA,FALSE
+"Wellcome Trust",2015,2023.2,"10.1002/clc.22401",FALSE,"Wiley-Blackwell","Clinical Cardiology","01609289",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25990305","PMC4489325",NA,NA,FALSE
 "",,,"","","","","","","","","","","","","",""
 "Wellcome Trust",2015,2083.44,"10.1016/j.joca.2015.01.010",TRUE,"Elsevier BV","Osteoarthritis and Cartilage","10634584","10634584",NA,"http://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"25623624","PMC4459966",NA,NA,FALSE
 "",,,"","","","","","","","","","","","","",""
@@ -2492,7 +2492,7 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Wellcome Trust",2015,2023.2,"10.1111/mmi.12979",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950382X",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25708978","PMC4755147",NA,NA,FALSE
 "",,,"","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","",""
-"Wellcome Trust",2015,2023.2,"10.1111/hex.12357",TRUE,"Wiley-Blackwell","Health Expectations","13696513",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25728262","PMC4737095",NA,NA,FALSE
+"Wellcome Trust",2015,2023.2,"10.1111/hex.12357",FALSE,"Wiley-Blackwell","Health Expectations","13696513",NA,NA,"http://doi.wiley.com/10.1002/tdm_license_1",TRUE,"25728262","PMC4737095",NA,NA,FALSE
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "",,,"","","","","","","","","","","","","",""

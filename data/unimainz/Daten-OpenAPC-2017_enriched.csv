@@ -1,5 +1,4 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"JGU Mainz",2017,1110.66,"10.1038/oncsis.2017.23",FALSE,"Springer Nature","Oncogenesis","2157-9024",NA,"2157-9024","2157-9024",NA,TRUE,"28553931","PMC5523058","ut:000406046800001",NA,TRUE
 "JGU Mainz",2017,1512.13,"10.1371/journal.pone.0187411",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29088301","PMC5663513","ut:000414088900081",NA,TRUE
 "JGU Mainz",2017,1411.07,"10.1063/1.4990694",FALSE,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","2158-3226",NA,TRUE,NA,NA,"ut:000404621200074",NA,TRUE
 "JGU Mainz",2017,931.57,"10.7717/peerj.3569",FALSE,"PeerJ","PeerJ","2167-8359",NA,"2167-8359","2167-8359","http://creativecommons.org/licenses/by/4.0/",TRUE,"28761782","PMC5530999",NA,NA,TRUE
@@ -19,7 +18,7 @@
 "JGU Mainz",2017,127.73,"10.1107/s2414314617015504",FALSE,"International Union of Crystallography (IUCr)","IUCrData","2414-3146",NA,"2414-3146","2414-3146","http://creativecommons.org/licenses/by/2.0/uk/legalcode",TRUE,NA,NA,NA,NA,TRUE
 "JGU Mainz",2017,126.2,"10.1107/s2414314617013943",FALSE,"International Union of Crystallography (IUCr)","IUCrData","2414-3146",NA,"2414-3146","2414-3146","http://creativecommons.org/licenses/by/2.0/uk/legalcode",TRUE,NA,NA,NA,NA,TRUE
 "JGU Mainz",2017,1334.11,"10.1371/journal.pone.0179738",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28617842","PMC5472314","ut:000403364600057",NA,TRUE
-"JGU Mainz",2017,231.17,"10.13189/saj.2017.050102",FALSE,"Horizon Research Publishing Co., Ltd.","International Journal of Human Movement and Sports Sciences","2381-4381","2381-4381","2381-4403","2381-4381",NA,TRUE,NA,NA,NA,NA,FALSE
+"JGU Mainz",2017,231.17,"10.13189/saj.2017.050102",FALSE,"Horizon Research Publishing","International Journal of Human Movement and Sports Sciences","2381-4381","2381-4381","2381-4403","2381-4381",NA,TRUE,NA,NA,NA,NA,FALSE
 "JGU Mainz",2017,1895.81,"10.3389/fpsyg.2017.01000",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078",NA,TRUE,"28676772","PMC5476772","ut:000403750900001",NA,TRUE
 "JGU Mainz",2017,2142,"10.1186/s12871-017-0343-1",FALSE,"Springer Nature","BMC Anesthesiology","1471-2253",NA,"1471-2253","1471-2253",NA,TRUE,"28376745","PMC5379493","ut:000398733200001",NA,TRUE
 "JGU Mainz",2017,1164.97,"10.1155/2017/4353462",FALSE,"Hindawi Publishing Corporation","Oxidative Medicine and Cellular Longevity","1942-0900","1942-0900","1942-0994","1942-0994","http://creativecommons.org/licenses/by/4.0/",TRUE,"28337251","PMC5350298","ut:000397850100001",NA,TRUE
@@ -87,7 +86,7 @@
 "JGU Mainz",2017,1812.37,"10.3390/md15030063",FALSE,"MDPI AG","Marine Drugs","1660-3397",NA,"1660-3397","1660-3397","https://creativecommons.org/licenses/by/4.0/",TRUE,"28273803","PMC5367020","ut:000398720300012",NA,TRUE
 "JGU Mainz",2017,1552.95,"10.1038/srep43534",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322",NA,TRUE,"28272493","PMC5341092","ut:000395680200001",NA,TRUE
 "JGU Mainz",2017,1606.5,"10.5194/bg-14-1577-2017",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","1726-4170","https://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000398193300003",NA,TRUE
-"JGU Mainz",2017,493.85,NA,FALSE,"Scientia Socialis","Journal of Baltic Science Education","1648-3898",NA,NA,"1648-3898",NA,FALSE,NA,NA,NA,"http://oaji.net/articles/2017/987-1503905462.pdf",FALSE
+"JGU Mainz",2017,493.85,NA,FALSE,"Scientia Socialis Ltd","Journal of Baltic Science Education","2538-7138","1648-3898","2538-7138","1648-3898",NA,FALSE,NA,NA,NA,"http://oaji.net/articles/2017/987-1503905462.pdf",FALSE
 "JGU Mainz",2017,1392.3,"10.1088/1367-2630/aa9545",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000424849700001",NA,TRUE
 "JGU Mainz",2017,1552.95,"10.1038/s41598-017-17106-6",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29213089","PMC5719089","ut:000417135200011",NA,TRUE
 "JGU Mainz",2017,200,"10.15203/ciss_2017.009",FALSE,"Universitaet Innsbruck - Innsbruck University Press","Current Issues in Sport Science (CISS)","2414-6641",NA,"2414-6641","2414-6641",NA,FALSE,NA,NA,NA,NA,FALSE
@@ -98,3 +97,9 @@
 "JGU Mainz",2017,223.82,"10.1107/s2056989017011732",FALSE,"International Union of Crystallography (IUCr)","Acta Crystallographica Section E Crystallographic Communications","2056-9890",NA,"2056-9890","2056-9890","http://creativecommons.org/licenses/by/2.0/uk/legalcode",TRUE,"28932470","PMC5588576","ut:000409413600019",NA,TRUE
 "JGU Mainz",2017,1820.7,"10.1002/ece3.2713",FALSE,"Wiley-Blackwell","Ecology and Evolution","2045-7758",NA,NA,"2045-7758","http://creativecommons.org/licenses/by/4.0/",TRUE,"28168034","PMC5288247","ut:000394504100019",NA,TRUE
 "JGU Mainz",2017,1552.95,"10.1038/s41598-017-13905-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29084988","PMC5662568","ut:000414131700041",NA,TRUE
+"JGU Mainz",2017,1110.66,"10.1038/oncsis.2017.23",FALSE,"Springer Nature","Oncogenesis","2157-9024",NA,"2157-9024","2157-9024",NA,TRUE,"28553931","PMC5523058","ut:000406046800001",NA,TRUE
+"JGU Mainz",2017,1305,"10.1038/s41598-017-12525-x",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28951587","PMC5615047","ut:000411677500003",NA,TRUE
+"JGU Mainz",2017,1400,"10.3389/fpls.2017.01665",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"29056939","PMC5635696","ut:000412408600001",NA,TRUE
+"JGU Mainz",2017,1508.18,"10.1371/journal.pone.0189532",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29240839","PMC5730185","ut:000417905600044",NA,TRUE
+"JGU Mainz",2017,2142,"10.1186/s12862-017-1078-9",FALSE,"Springer Nature","BMC Evolutionary Biology","1471-2148",NA,"1471-2148","1471-2148",NA,TRUE,"29202686","PMC5715652","ut:000416933600001",NA,TRUE
+"JGU Mainz",2017,2502.62,"10.3389/fpls.2017.01939",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"29184562","PMC5694442","ut:000415039800001",NA,TRUE

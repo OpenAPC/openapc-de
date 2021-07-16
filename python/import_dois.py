@@ -7,6 +7,7 @@ import json
 from math import inf
 import random
 import sys
+from time import sleep
 from urllib.error import HTTPError
 from urllib.parse import quote_plus, urlencode
 from urllib.request import urlopen, Request
@@ -156,8 +157,9 @@ def main():
 
 def crossref_query_title(title):
     api_url = "https://api.crossref.org/works?"
-    params = {"rows": "5", "query.title": title}
+    params = {"rows": "5", "query.bibliographic": title}
     url = api_url + urlencode(params, quote_via=quote_plus)
+    print(url)
     request = Request(url)
     request.add_header("User-Agent", "OpenAPC DOI Importer (https://github.com/OpenAPC/openapc-de/blob/master/python/import_dois.py; mailto:openapc@uni-bielefeld.de)")
     try:
@@ -167,10 +169,12 @@ def crossref_query_title(title):
         items = data["message"]["items"]
         most_similar = EMPTY_RESULT
         for item in items:
+            if "title" not in item:
+                continue
             title = item["title"].pop()
             result = {
                 "crossref_title": title,
-                "similarity": ratio(title.lower(), params["query.title"].lower()),
+                "similarity": ratio(title.lower(), params["query.bibliographic"].lower()),
                 "doi": item["DOI"]
             }
             if most_similar["similarity"] < result["similarity"]:
@@ -178,6 +182,7 @@ def crossref_query_title(title):
         return {"success": True, "result": most_similar}
     except HTTPError as httpe:
         return {"success": False, "result": EMPTY_RESULT, "exception": httpe}
+    time.sleep(1)
     
 def colorise(text, color):
     return colorise_text_segment(text, 0, len(text), color)
