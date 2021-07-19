@@ -38,7 +38,7 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
     messages = {
         'wet': {
             'start': 'Integrating changes in harvest data into existing file {}',
-            'line_change': 'Line {}: Updating value in column {} ("{}" -> "{}")',
+            'line_change': 'Line {} ({}): Updating value in column {} ("{}" -> "{}")',
             'remove': 'PID {} no longer found in harvest data, removing article',
         },
         'dry': {
