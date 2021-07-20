@@ -303,7 +303,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2053-1591", # Materials Research Express, OA since 7/2020
     "1542-7390", # Space Weather
     "0021-9258", # Journal of Biological Chemistry, Gold OA since 2021
-    "1661-8564" # International Journal of Public Health, Gold OA since 2021
+    "1661-8564", # International Journal of Public Health, Gold OA since 2021
+    "1935-861X" # Brain Stimulation, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
