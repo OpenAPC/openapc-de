@@ -969,7 +969,7 @@ def title_lookup(lookup_title, acccepted_doi_types):
         print_r(error_msg)
         return None
     if skipped_stats:
-        msg = "Some search were ignored due to non-accepted DOI types: "
+        msg = "Some search results were ignored due to non-accepted DOI types: "
         for name, count in skipped_stats.items():
             msg += "'" + name + "': " + str(count) + ", "
         print_y(msg[:-2])
@@ -993,7 +993,9 @@ def title_lookup(lookup_title, acccepted_doi_types):
             answer = input("Please type 'y' or 'n':")
         if answer == "y":
             return most_similar["doi"]
-    return None
+    else:
+        print_r("Could not obtain a result with an accepted DOI type.")
+        return None
 
 def get_metadata_from_crossref(doi_string):
     """
