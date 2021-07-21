@@ -18,7 +18,8 @@ PUBLISHER_IDENTITY = [
     (["Informa UK Limited"], ["Dove Medical Press Ltd."]), # DMP bought up by T&F in 2017
     (["Bristol University Press"], ["The Policy Press"]), # Policy Press is an imprint of BUP
     (["Anticancer Research USA Inc."], ["International Institute of Anticancer Research"]),
-    (["Brandeis University Press"], ["Dartmouth College Press"]) # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
+    (["Brandeis University Press"], ["Dartmouth College Press"]), # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
+    (["Böhlau"], ["Vandenhoeck & Ruprecht"]) # Böhlau acquired by V&R in 2017 
 ]
 
 
@@ -204,7 +205,8 @@ JOURNAL_OWNER_CHANGED = {
     "2160-1836": ["Genetics Society of America", "Oxford University Press (OUP)"], # G3: Genes|Genomes|Genetics
     "1661-8564": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (electronic)
     "1661-8556": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (linking)
-    "2474-9842": ["Wiley-Blackwell", "Oxford University Press (OUP)"] # BJS Open
+    "2474-9842": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # BJS Open
+    "1573-2665": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"] # Journal of Inherited Metabolic Disease
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -303,7 +305,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2053-1591", # Materials Research Express, OA since 7/2020
     "1542-7390", # Space Weather
     "0021-9258", # Journal of Biological Chemistry, Gold OA since 2021
-    "1661-8564" # International Journal of Public Health, Gold OA since 2021
+    "1661-8564", # International Journal of Public Health, Gold OA since 2021
+    "1935-861X" # Brain Stimulation, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

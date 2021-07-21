@@ -295,7 +295,8 @@ JOURNAL_MAPPINGS = {
     "Chemical Engineering and Processing - Process Intensification": "Chemical Engineering and Processing: Process Intensification",
     "Informatik Spektrum": "Informatik-Spektrum",
     "BMJ Global health": "BMJ Global Health",
-    "Electronic Journal of e-Government": "The Electronic Journal of e-Government"
+    "Electronic Journal of e-Government": "The Electronic Journal of e-Government",
+    "WIREs Developmental Biology": "Wiley Interdisciplinary Reviews: Developmental Biology"
 }
 
 COLUMN_NAMES = {
