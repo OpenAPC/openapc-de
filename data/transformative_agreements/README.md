@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 39,321 articles, published at 241 institutions under 16 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 40,023 articles, published at 241 institutions under 18 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -25,12 +25,14 @@ This dataset contains information on 39,321 articles, published at 241 instituti
 |French EDP Sciences agreement                |     2649|
 |DEAL Wiley Germany                           |     1379|
 |DEAL Springer Nature Germany                 |      812|
+|FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
-|FWF Transformative Agreement Wiley-Blackwell |      188|
 |Austrian Consortium RSC agreement            |      179|
+|FWF Offsetting Agreement T&F                 |      175|
+|FWF Transformative Agreement Springer Nature |      159|
+|FWF Transformative Agreement ACS             |      145|
 |Swiss Consortium RSC agreement               |      133|
-|FWF Offsetting Agreement T&F                 |       89|
-|FWF Offsetting Agreement IOP                 |       46|
+|FWF Offsetting Agreement IOP                 |       82|
 |MPG Taylor & Francis agreement               |       46|
 |Austrian Consortium IOP agreement            |       45|
 |MPG IOP agreement                            |       32|
@@ -44,12 +46,12 @@ This dataset contains information on 39,321 articles, published at 241 instituti
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |French institutions                                                                                                                                |     2649|
+|FWF - Austrian Science Fund                                                                                                                        |     1559|
 |University College London                                                                                                                          |     1022|
 |MPG                                                                                                                                                |      946|
 |University of Cambridge                                                                                                                            |      912|
 |University of Oxford                                                                                                                               |      883|
 |Lund University                                                                                                                                    |      858|
-|FWF - Austrian Science Fund                                                                                                                        |      857|
 |Imperial College London                                                                                                                            |      771|
 |Karolinska Institute                                                                                                                               |      748|
 |King's College London                                                                                                                              |      652|
