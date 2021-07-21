@@ -204,7 +204,8 @@ JOURNAL_OWNER_CHANGED = {
     "2160-1836": ["Genetics Society of America", "Oxford University Press (OUP)"], # G3: Genes|Genomes|Genetics
     "1661-8564": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (electronic)
     "1661-8556": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (linking)
-    "2474-9842": ["Wiley-Blackwell", "Oxford University Press (OUP)"] # BJS Open
+    "2474-9842": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # BJS Open
+    "1573-2665": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"] # Journal of Inherited Metabolic Disease
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
