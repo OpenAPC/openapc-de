@@ -917,17 +917,18 @@ def find_book_dois_in_crossref(isbn_list):
         ret_value['error_msg'] = str(ve)
     return ret_value
 
-def preprint_lookup(lookup_title):
+def title_lookup(lookup_title, acccepted_doi_types):
     api_url = "https://api.crossref.org/works?"
     empty_result = {
         "found_title": "",
         "similarity": 0,
         "doi": ""
     }
-    params = {"rows": "8", "query.bibliographic": lookup_title}
+    params = {"rows": "100", "query.bibliographic": lookup_title}
     url = api_url + urlencode(params, quote_via=quote_plus)
     request = Request(url)
     request.add_header("User-Agent", USER_AGENT)
+    skipped_stats = {}
     try:
         ret = urlopen(request)
         content = ret.read()
@@ -937,7 +938,13 @@ def preprint_lookup(lookup_title):
         for item in items:
             if "title" not in item:
                 continue
-            if "type" not in item or item["type"] != "journal-article":
+            if "type" not in item:
+                continue
+            if item["type"] not in acccepted_doi_types:
+                if item["type"] not in skipped_stats:
+                    skipped_stats[item["type"]] = 1
+                else:
+                    skipped_stats[item["type"]] += 1
                 continue
             title = item["title"].pop()
             result = {
@@ -947,10 +954,25 @@ def preprint_lookup(lookup_title):
             }
             if most_similar["similarity"] < result["similarity"]:
                 most_similar = result
+            # Also try a title: subtitle combination, can be helpful for books
+            if "subtitle" in item:
+                full_title = title + ": " + item["subtitle"].pop()
+                result = {
+                    "found_title": full_title,
+                    "similarity": Levenshtein.ratio(full_title.lower(), params["query.bibliographic"].lower()),
+                    "doi": item["DOI"]
+                }
+                if most_similar["similarity"] < result["similarity"]:
+                    most_similar = result
     except HTTPError as httpe:
-        error_msg = "An HTTPError occured during preprint lookup: {} - {}".format(httpe.code, httpe.reason)
+        error_msg = "An HTTPError occured during title lookup: {} - {}".format(httpe.code, httpe.reason)
         print_r(error_msg)
         return None
+    if skipped_stats:
+        msg = "Some search were ignored due to non-accepted DOI types: "
+        for name, count in skipped_stats.items():
+            msg += "'" + name + "': " + str(count) + ", "
+        print_y(msg[:-2])
     if most_similar["doi"]:
         similarity = most_similar["similarity"]
         msg = "{} match for a final version found in Crossref (similarity: {}):"
@@ -971,7 +993,7 @@ def preprint_lookup(lookup_title):
             answer = input("Please type 'y' or 'n':")
         if answer == "y":
             return most_similar["doi"]
-        return None
+    return None
 
 def get_metadata_from_crossref(doi_string):
     """
@@ -1398,7 +1420,7 @@ def _process_institution_value(institution, row_num, orig_file_path, offsetting_
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, no_preprint_lookup=False, round_monetary=False,
+                no_doaj_lookup=False, no_title_lookup=False, round_monetary=False,
                 offsetting_mode=None, orig_file_path=None, crossref_max_retries=3):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
@@ -1423,7 +1445,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
         no_doaj_lookup: If true, journals will not be checked for being
                         listended in the DOAJ.
-        no_preprint_lookup: If true, preprint DOIs will not be looked up
+        no_title_lookup: If true, titles will not be looked up in Crossref
         round_monetary: If true, monetary values with more than 2 digits behind the decimal
                         mark will be rounded. If false, these cases will be treated as errors.
         offsetting_mode: If not None, the row is assumed to originate from an offsetting file
@@ -1476,10 +1498,10 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
 
     doi = current_row["doi"]
     if not has_value(doi) and not empty_row:
-        # lookup ISBNs in crossref
         msg = ("Line %s: No DOI found")
         logging.info(msg, row_num)
         current_row["indexed_in_crossref"] = "FALSE"
+        # lookup ISBNs in crossref
         additional_isbns = [row[i] for i in additional_isbn_columns]
         found_doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
         if r_type is not None:
@@ -1491,7 +1513,20 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             row[index] = found_doi
             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
-                no_doaj_lookup, no_preprint_lookup, round_monetary, offsetting_mode, orig_file_path)
+                no_doaj_lookup, no_title_lookup, round_monetary, offsetting_mode, orig_file_path)
+        # lookup the book title in Crossref
+        lookup_title = current_row["book_title"]
+        if has_value(lookup_title):
+            msg = ("Line %s: Trying to look up the book title ('%s') in Crossref...")
+            logging.info(msg, row_num, lookup_title)
+            book_doi = title_lookup(lookup_title, ["book", "monograph", "reference-book"])
+            if book_doi:
+                logging.info("New DOI integrated, restarting enrichment for current line.")
+                index = column_map["doi"].index
+                row[index] = book_doi
+                return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
+                    doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
+                    no_doaj_lookup, no_title_lookup, round_monetary, offsetting_mode, orig_file_path)
     if has_value(doi):
         # Normalise DOI
         norm_doi = get_normalised_DOI(doi)
@@ -1515,7 +1550,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             if not crossref_result["success"]:
                 exc = crossref_result["exception"]
                 # check if a preprint lookup is possible
-                if not no_preprint_lookup and type(exc) == UnsupportedDoiTypeError and exc.doi_type == "posted_content":
+                if not no_title_lookup and type(exc) == UnsupportedDoiTypeError and exc.doi_type == "posted_content":
                     msg = ("Line %s: Found a DOI with type 'posted_content' (%s). This might " +
                            "be a case of a preprint DOI, trying to find the final version of the article...")
                     logging.info(msg, row_num, doi)
@@ -1523,14 +1558,14 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                         msg = "Line %s: Preprint lookup failed, no title could be extracted."
                         logging.warning(msg, row_num)
                     else:
-                        article_doi = preprint_lookup(exc.crossref_title)
+                        article_doi = title_lookup(exc.crossref_title, ["journal-article"])
                         if article_doi:
                             logging.info("New DOI integrated, restarting enrichment for current line...")
                             index = column_map["doi"].index
                             row[index] = article_doi
                             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                                 doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
-                                no_doaj_lookup, no_preprint_lookup, round_monetary, offsetting_mode, orig_file_path)
+                                no_doaj_lookup, no_title_lookup, round_monetary, offsetting_mode, orig_file_path)
             if crossref_result["success"]:
                 data = crossref_result["data"]
                 record_type = data.pop("doi_type")
@@ -1557,9 +1592,9 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     row[index] = found_doi
                     return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                                        doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
-                                       no_doaj_lookup, no_preprint_lookup, round_monetary, offsetting_mode, orig_file_path)
+                                       no_doaj_lookup, no_title_lookup, round_monetary, offsetting_mode, orig_file_path)
         # include pubmed metadata
-        if not no_pubmed_lookup:
+        if not no_pubmed_lookup and record_type == "journal_article":
             pubmed_result = get_metadata_from_pubmed(doi)
             if pubmed_result["success"]:
                 logging.info("Pubmed: DOI resolved: " + doi)
