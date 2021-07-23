@@ -1,53 +1,53 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"FWF - Austrian Science Fund",2020,1500,"10.1158/1078-0432.ccr-16-2082",TRUE,"American Association for Cancer Research (AACR)","Clinical Cancer Research","1078-0432","1078-0432","1557-3265","1078-0432",NA,TRUE,"28228384","PMC5528137",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,4336.85,"10.1158/1078-0432.ccr-18-1548",TRUE,"American Association for Cancer Research (AACR)","Clinical Cancer Research","1078-0432","1078-0432","1557-3265","1078-0432",NA,TRUE,"30487125",NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2020,1390.91,"10.1126/sciadv.abb2012",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548","https://creativecommons.org/licenses/by/4.0/",TRUE,"32695880","PMC7351478","ut:000548735600028",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1126/sciadv.aaz4354",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"32494615","PMC7159927","ut:000528276800033",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1126/sciadv.aba0365",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"32523996","PMC7259959","ut:000537238200031",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.4049/jimmunol.1701649",TRUE,"The American Association of Immunologists","The Journal of Immunology","0022-1767","0022-1767","1550-6606","0022-1767",NA,TRUE,"30718299","PMC6398083","ut:000461015600010",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.3847/1538-4357/ab94a0",TRUE,"American Astronomical Society","The Astrophysical Journal","1538-4357",NA,"1538-4357","0004-637X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000548353200001",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,917.61,"10.1021/acssensors.8b01599",TRUE,"American Chemical Society (ACS)","ACS Sensors","2379-3694","2379-3694","2379-3694","2379-3694","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"30864782","PMC6488996","ut:000466442500013",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1021/acs.jcim.9b00395",TRUE,"American Chemical Society (ACS)","Journal of Chemical Information and Modeling","1549-9596","1549-9596","1549-960X","1549-9596","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"31566975","PMC7032848","ut:000503918200017",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1743.03,"10.1021/acsomega.0c03209",FALSE,"American Chemical Society (ACS)","ACS Omega","2470-1343","2470-1343","2470-1343","2470-1343","http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html",TRUE,"33073112","PMC7557941","ut:000580943000039",NA,TRUE
 "FWF - Austrian Science Fund",2020,4310.74,"10.1021/acs.chemmater.9b01405",TRUE,"American Chemical Society (ACS)","Chemistry of Materials","0897-4756","0897-4756","1520-5002","0897-4756","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"32565617","PMC7297463","ut:000485830300003",NA,FALSE
 "FWF - Austrian Science Fund",2020,1234.97,"10.1063/1.5095616",FALSE,"AIP Publishing","APL Photonics","2378-0967",NA,"2378-0967","2378-0967",NA,TRUE,NA,NA,"ut:000489024000002",NA,TRUE
 "FWF - Austrian Science Fund",2020,1388.36,"10.1103/physrevb.101.235447",TRUE,"American Physical Society (APS)","Physical Review B","2469-9950","2469-9950","2469-9969","2469-9950","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1063/1.5123218",TRUE,"AIP Publishing","The Journal of Chemical Physics","0021-9606","0021-9606","1089-7690","0021-9606",NA,TRUE,"31615254",NA,"ut:000500356200027",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1103/physrevb.100.235425",TRUE,"American Physical Society (APS)","Physical Review B","2469-9950","2469-9950","2469-9969","2469-9950","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1063/1.5139881",TRUE,"AIP Publishing","Applied Physics Letters","0003-6951","0003-6951","1077-3118","0003-6951",NA,TRUE,NA,NA,"ut:000519602100001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1063/5.0015397",TRUE,"AIP Publishing","Journal of Applied Physics","0021-8979","0021-8979","1089-7550","0021-8979",NA,TRUE,NA,NA,"ut:000568878900003",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1063/5.0011255",TRUE,"AIP Publishing","The Journal of Chemical Physics","0021-9606","0021-9606","1089-7690","0021-9606",NA,TRUE,"32640815",NA,"ut:000547553700002",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1063/5.0027994",TRUE,"AIP Publishing","The Journal of Chemical Physics","0021-9606","0021-9606","1089-7690","0021-9606",NA,TRUE,"33291900",NA,"ut:000597329300002",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1063/1.5143495",TRUE,"AIP Publishing","The Journal of Chemical Physics","0021-9606","0021-9606","1089-7690","0021-9606",NA,TRUE,"32199418",NA,"ut:000521365400001",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,3827.42,"10.1063/1.5131719",TRUE,"AIP Publishing","Journal of Applied Physics","0021-8979","0021-8979","1089-7550","0021-8979",NA,TRUE,NA,NA,"ut:000515698500006",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1001/jamadermatol.2018.5905",TRUE,"American Medical Association (AMA)","JAMA Dermatology","2168-6068","2168-6068",NA,"2168-6068",NA,TRUE,"30892603","PMC6506892","ut:000467501100005",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1171.29,"10.1175/jcli-d-19-0998.1",TRUE,"American Meteorological Society","Journal of Climate","0894-8755","0894-8755","1520-0442","0894-8755",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2020,1206.41,"10.1103/physreva.101.052326",TRUE,"American Physical Society (APS)","Physical Review A","2469-9926","2469-9926","2469-9934","2469-9926","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2020,1269.67,"10.1103/physreva.102.012809",TRUE,"American Physical Society (APS)","Physical Review A","2469-9926","2469-9926","2469-9934","2469-9926","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2020,1313.09,"10.1103/physrevapplied.14.034005",TRUE,"American Physical Society (APS)","Physical Review Applied","2331-7019",NA,"2331-7019","2331-7019","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1103/physrevb.100.214305",TRUE,"American Physical Society (APS)","Physical Review B","2469-9950","2469-9950","2469-9969","2469-9950","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1103/physrevlett.123.243902",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","https://creativecommons.org/licenses/by/4.0/",TRUE,"31922862",NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1103/physrevb.102.054402",TRUE,"American Physical Society (APS)","Physical Review B","2469-9950","2469-9950","2469-9969","2469-9950","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1103/physrevlett.124.023901",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","https://creativecommons.org/licenses/by/4.0/",TRUE,"32004013",NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1103/physrevlett.124.108102",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","https://creativecommons.org/licenses/by/4.0/",TRUE,"32216409","PMC7115998",NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1152/ajplung.00128.2019",TRUE,"American Physiological Society","American Journal of Physiology - Lung Cellular and Molecular Physiology","1040-0605","1040-0605","1522-1504","1040-0605",NA,TRUE,"32023084","PMC7189793","ut:000522393300010",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1578.18,"10.1094/pbiomes-04-19-0023-r",FALSE,"Scientific Societies","Phytobiomes Journal","2471-2906","2471-2906","2471-2906","2471-2906",NA,TRUE,NA,NA,NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1074/jbc.ra119.008713",TRUE,"Elsevier BV","Journal of Biological Chemistry","0021-9258","0021-9258",NA,"0021-9258","http://creativecommons.org/licenses/by/4.0/",TRUE,"31406020","PMC6768651",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1074/jbc.ra119.009954",TRUE,"Elsevier BV","Journal of Biological Chemistry","0021-9258","0021-9258",NA,"0021-9258","http://creativecommons.org/licenses/by/4.0/",TRUE,"31362986","PMC6755811",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1074/jbc.ra120.014478",TRUE,"Elsevier BV","Journal of Biological Chemistry","0021-9258","0021-9258",NA,"0021-9258","http://creativecommons.org/licenses/by/4.0/",TRUE,"32719006","PMC7489914",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1074/jbc.ra120.013222",TRUE,"Elsevier BV","Journal of Biological Chemistry","0021-9258","0021-9258",NA,"0021-9258","http://creativecommons.org/licenses/by/4.0/",TRUE,"32611771","PMC7443507",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1194/jlr.ra119000516",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","The Journal of Lipid Research","0022-2275","0022-2275",NA,"0022-2275","http://creativecommons.org/licenses/by/4.0/",TRUE,"32350080","PMC7328040",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,805.97,"10.1128/genomea.01242-17",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287","https://creativecommons.org/licenses/by/4.0/",TRUE,"29097475","PMC5668551",NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1128/aem.00390-19",TRUE,"American Society for Microbiology","Applied and Environmental Microbiology","0099-2240","0099-2240","1098-5336","0099-2240","https://creativecommons.org/licenses/by/4.0/",TRUE,"31028028","PMC6581175",NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1128/aac.00275-20",TRUE,"American Society for Microbiology","Antimicrobial Agents and Chemotherapy","0066-4804","0066-4804","1098-6596","0066-4804","https://creativecommons.org/licenses/by/4.0/",TRUE,"32340985","PMC7318006",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2457.24,"10.1128/msystems.00334-20",FALSE,"American Society for Microbiology","mSystems","2379-5077",NA,"2379-5077","2379-5077","https://creativecommons.org/licenses/by/4.0/",TRUE,"32518196","PMC7289590",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1124/jpet.117.247213",TRUE,"American Society for Pharmacology & Experimental Therapeutics (ASPET)","Journal of Pharmacology and Experimental Therapeutics","0022-3565","0022-3565","1521-0103","0022-3565",NA,TRUE,"29540563",NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1200/jco.18.02132",TRUE,"American Society of Clinical Oncology (ASCO)","Journal of Clinical Oncology","0732-183X","0732-183X","1527-7755","0732-183X",NA,TRUE,"32903140",NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,2500,"10.1182/bloodadvances.2020001786",FALSE,"American Society of Hematology","Blood Advances","2473-9529","2473-9529","2473-9537","2473-9529",NA,TRUE,"32841338","PMC7448586","ut:000562892100019",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,3283.02,"10.1182/blood.2019000973",TRUE,"American Society of Hematology","Blood","0006-4971","0006-4971","1528-0020","0006-4971",NA,TRUE,"31537531","PMC6895374","ut:000496936100008",NA,FALSE
 "FWF - Austrian Science Fund",2020,3309.15,"10.1182/bloodadvances.2018026385",FALSE,"American Society of Hematology","Blood Advances","2473-9529","2473-9529","2473-9537","2473-9529",NA,TRUE,"31270081","PMC6616266","ut:000474653700008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1116/1.5132390",TRUE,"American Vacuum Society","Biointerphases","1934-8630","1934-8630","1559-4106","1559-4106",NA,TRUE,"31948239","PMC7116081","ut:000517430800001",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1340.57,"10.1167/iovs.18-24992",TRUE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30640970",NA,"ut:000456092300014",NA,TRUE
@@ -81,9 +81,9 @@
 "FWF - Austrian Science Fund",2020,2160,"10.1186/s12864-019-5960-2",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164","1471-2164","http://creativecommons.org/licenses/by/4.0/",TRUE,"31324144","PMC6642603","ut:000476480500002",NA,TRUE
 "FWF - Austrian Science Fund",2020,2465.1,"10.1186/s40478-020-00953-2",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960","2051-5960","https://creativecommons.org/licenses/by/4.0",TRUE,"32493453","PMC7268320","ut:000540258300004",NA,TRUE
 "FWF - Austrian Science Fund",2020,2465.1,"10.1186/s12964-020-00591-0",FALSE,"Springer Nature","Cell Communication and Signaling","1478-811X",NA,"1478-811X","1478-811X","https://creativecommons.org/licenses/by/4.0",TRUE,"32576205","PMC7310537","ut:000544883600003",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1186/s40478-020-00920-x",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960","2051-5960","http://creativecommons.org/licenses/by/4.0/",TRUE,"32293546","PMC7160927","ut:000615216800003",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1186/s12964-019-0454-z",FALSE,"Springer Nature","Cell Communication and Signaling","1478-811X",NA,"1478-811X","1478-811X","http://creativecommons.org/licenses/by/4.0/",TRUE,"31937317","PMC6961368","ut:000513594300001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1186/s13229-019-0310-4",FALSE,"Springer Nature","Molecular Autism","2040-2392",NA,"2040-2392","2040-2392","http://creativecommons.org/licenses/by/4.0/",TRUE,"31921405","PMC6950833","ut:000512088300001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2544.3,"10.1186/s12916-020-01569-y",FALSE,"Springer Nature","BMC Medicine","1741-7015",NA,"1741-7015","1741-7015","https://creativecommons.org/licenses/by/4.0",TRUE,"32393256","PMC7216424","ut:000534299500001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2670,"10.1186/s13293-019-0267-1",FALSE,"Springer Nature","Biology of Sex Differences","2042-6410",NA,"2042-6410","2042-6410","http://creativecommons.org/licenses/by/4.0/",TRUE,"31806023","PMC6896328","ut:000517257100001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2861.1,"10.1186/s12916-020-01703-w",FALSE,"Springer Nature","BMC Medicine","1741-7015",NA,"1741-7015","1741-7015","http://creativecommons.org/licenses/by/4.0/",TRUE,"32878631","PMC7469292","ut:000568388200001",NA,TRUE
@@ -93,19 +93,19 @@
 "FWF - Austrian Science Fund",2020,3999.6,"10.1186/s13059-020-02100-5",FALSE,"Springer Nature","Genome Biology","1474-760X",NA,"1474-760X","1465-6906","http://creativecommons.org/licenses/by/4.0/",TRUE,"32746932","PMC7397672","ut:000560394600001",NA,TRUE
 "FWF - Austrian Science Fund",2020,1824.87,"10.1655/herpetologica-d-19-00010.1",TRUE,"Herpetologists League","Herpetologica","0018-0831",NA,NA,"0018-0831",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2020,600,"10.1136/esmoopen-2019-000647",FALSE,"Elsevier BV","ESMO Open","2059-7029","2059-7029",NA,"2059-7029","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"32424065","PMC7239522","ut:000573888700004",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1163/15691640-12341412",TRUE,"Brill","Research in Phenomenology","0085-5553",NA,"0085-5553","0085-5553","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000478010800006",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1730.9,"10.1017/rdc.2019.131",TRUE,"Cambridge University Press (CUP)","Radiocarbon","0033-8222","0033-8222","1945-5755","0033-8222","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2020,3438.14,"10.1192/bjp.2018.224",TRUE,"Royal College of Psychiatrists","The British Journal of Psychiatry","0007-1250","0007-1250","1472-1465","0007-1250","http://creativecommons.org/licenses/by/4.0/",TRUE,"30442205","PMC6383756","ut:000459029200008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1261/rna.074047.119",TRUE,"Cold Spring Harbor Laboratory Press","RNA","1355-8382","1355-8382","1469-9001","1355-8382",NA,TRUE,"32424019","PMC7430671","ut:000560922400011",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1897.2,"10.5194/esurf-8-69-2020",FALSE,"Copernicus GmbH","Earth Surface Dynamics","2196-632X",NA,"2196-632X","2196-632X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000510382400001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2120.4,"10.5194/amt-13-1447-2020",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000522823700001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2454,"10.5194/cp-16-29-2020",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","1814-9324","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000506334800001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.5194/amt-13-2547-2020",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000537211300001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1089.4,"10.7189/jogh.09.010435",FALSE,"International Global Health Society","Journal of Global Health","2047-2978","2047-2978","2047-2986","2047-2978",NA,TRUE,"31217962","PMC6571112","ut:000476640500060",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.7554/elife.48876",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"31789593","PMC6919977",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.7554/elife.52443",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"32314956","PMC7176400",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.7554/elife.53730",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"32579108","PMC7314542",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.7554/elife.58246",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"32744498","PMC7449699",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,516,"10.1016/j.softx.2020.100454",FALSE,"Elsevier BV","SoftwareX","2352-7110","2352-7110",NA,"2352-7110","http://creativecommons.org/licenses/by/4.0/",TRUE,"32607406","PMC7326605","ut:000549937400021",NA,TRUE
 "FWF - Austrian Science Fund",2020,624,"10.1016/j.dib.2019.104645",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"31687446","PMC6820083","ut:000501988200104",NA,TRUE
 "FWF - Austrian Science Fund",2020,624,"10.1016/j.dib.2020.105279",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"32123710","PMC7038457","ut:000664459200022",NA,TRUE
@@ -114,95 +114,95 @@
 "FWF - Austrian Science Fund",2020,1140.51,"10.1016/j.rinp.2020.103062",FALSE,"Elsevier BV","Results in Physics","2211-3797","2211-3797",NA,"2211-3797","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000548696600003",NA,TRUE
 "FWF - Austrian Science Fund",2020,1452,"10.1016/j.aeaoa.2019.100054",FALSE,"Elsevier BV","Atmospheric Environment: X","2590-1621","2590-1621",NA,"2590-1621","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000530646700004",NA,TRUE
 "FWF - Austrian Science Fund",2020,1464.1,"10.1016/j.aeaoa.2019.100059",FALSE,"Elsevier BV","Atmospheric Environment: X","2590-1621","2590-1621",NA,"2590-1621","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000530646700008",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.addr.2018.10.008",TRUE,"Elsevier BV","Advanced Drug Delivery Reviews","0169-409X","0169-409X",NA,"0169-409X","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30321620",NA,"ut:000451499400004",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.atherosclerosis.2019.09.003",TRUE,"Elsevier BV","Atherosclerosis","0021-9150","0021-9150",NA,"0021-9150","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31557676",NA,"ut:000494832600004",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bbalip.2019.06.007",TRUE,"Elsevier BV","Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids","1388-1981","1388-1981",NA,"1388-1981","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31185305",NA,"ut:000480664300002",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bbapap.2019.07.002",TRUE,"Elsevier BV","Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics","1570-9639","1570-9639",NA,"1570-9639","http://creativecommons.org/licenses/by/4.0/",TRUE,"31295557",NA,"ut:000503094800008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.biocon.2019.07.005",TRUE,"Elsevier BV","Biological Conservation","0006-3207","0006-3207",NA,"0006-3207","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000488314700033",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.calphad.2019.101723",TRUE,"Elsevier BV","Calphad","0364-5916","0364-5916",NA,"0364-5916","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000521509200043",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.ccell.2018.11.018",TRUE,"Elsevier BV","Cancer Cell","1535-6108","1535-6108",NA,"1535-6108","http://creativecommons.org/licenses/by/4.0/",TRUE,"30645971","PMC6335503","ut:000455719400013",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.cub.2019.07.028",TRUE,"Elsevier BV","Current Biology","0960-9822","0960-9822",NA,"0960-9822","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31430467",NA,"ut:000481587900034",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.euroecorev.2019.103309",TRUE,"Elsevier BV","European Economic Review","0014-2921","0014-2921",NA,"0014-2921","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000500047600008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.yfrne.2019.100796",TRUE,"Elsevier BV","Frontiers in Neuroendocrinology","0091-3022","0091-3022",NA,"0091-3022","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31580837","PMC7115954","ut:000496504800015",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.im.2019.103174",TRUE,"Elsevier BV","Information & Management","0378-7206","0378-7206",NA,"0378-7206","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000515208300008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.ijindorg.2019.102527",TRUE,"Elsevier BV","International Journal of Industrial Organization","0167-7187","0167-7187",NA,"0167-7187","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000537132800011",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jaci.2019.05.002",TRUE,"Elsevier BV","Journal of Allergy and Clinical Immunology","0091-6749","0091-6749",NA,"0091-6749","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31082458",NA,"ut:000485222300021",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jebo.2019.09.015",TRUE,"Elsevier BV","Journal of Economic Behavior & Organization","0167-2681","0167-2681",NA,"0167-2681","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000505643400006",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jinorgbio.2019.03.009",TRUE,"Elsevier BV","Journal of Inorganic Biochemistry","0162-0134","0162-0134",NA,"0162-0134","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30925402","PMC6517287","ut:000469408500007",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jid.2018.10.024",TRUE,"Elsevier BV","Journal of Investigative Dermatology","0022-202X","0022-202X",NA,"0022-202X","http://www.elsevier.com/open-access/userlicense/1.0/",TRUE,"30399362",NA,"ut:000461840300021",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jmaa.2019.04.005",TRUE,"Elsevier BV","Journal of Mathematical Analysis and Applications","0022-247X","0022-247X",NA,"0022-247X","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000466259600021",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.neuint.2018.09.008",TRUE,"Elsevier BV","Neurochemistry International","0197-0186","0197-0186",NA,"0197-0186","http://creativecommons.org/licenses/by/4.0/",TRUE,"30248432",NA,"ut:000499952000002",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.neuropharm.2019.03.015",TRUE,"Elsevier BV","Neuropharmacology","0028-3908","0028-3908",NA,"0028-3908","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"30885608",NA,"ut:000506474500011",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.neulet.2019.134401",TRUE,"Elsevier BV","Neuroscience Letters","0304-3940","0304-3940",NA,"0304-3940","http://creativecommons.org/licenses/by/4.0/",TRUE,"31349018",NA,"ut:000491300500025",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.nbt.2019.01.001",TRUE,"Elsevier BV","New Biotechnology","1871-6784","1871-6784",NA,"1871-6784","http://creativecommons.org/licenses/by/4.0/",TRUE,"30630093",NA,"ut:000460066600003",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.palaeo.2019.109425",TRUE,"Elsevier BV","Palaeogeography, Palaeoclimatology, Palaeoecology","0031-0182","0031-0182",NA,"0031-0182","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000508745600009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.polymertesting.2019.106035",TRUE,"Elsevier BV","Polymer Testing","0142-9418","0142-9418",NA,"0142-9418","https://www.elsevier.com/tdm/userlicense/1.0/",TRUE,NA,NA,"ut:000499945200027",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.pscychresns.2019.08.007",TRUE,"Elsevier BV","Psychiatry Research: Neuroimaging","0925-4927","0925-4927",NA,"0925-4927","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31472416",NA,"ut:000487578100002",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.psyneuen.2019.104378",TRUE,"Elsevier BV","Psychoneuroendocrinology","0306-4530","0306-4530",NA,"0306-4530","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31382169",NA,"ut:000498331200005",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.semcdb.2019.05.025",TRUE,"Elsevier BV","Seminars in Cell & Developmental Biology","1084-9521","1084-9521",NA,"1084-9521","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31145995",NA,"ut:000507938200022",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.synthmet.2019.06.004",TRUE,"Elsevier BV","Synthetic Metals","0379-6779","0379-6779",NA,"0379-6779","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000476551000015",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.vaccine.2019.07.001",TRUE,"Elsevier BV","Vaccine","0264-410X","0264-410X",NA,"0264-410X","http://creativecommons.org/licenses/by/4.0/",TRUE,"31300289",NA,"ut:000496858100017",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.actbio.2020.02.010",TRUE,"Elsevier BV","Acta Biomaterialia","1742-7061","1742-7061",NA,"1742-7061","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32058078","PMC7311197","ut:000527368300003",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.actamat.2019.10.030",TRUE,"Elsevier BV","Acta Materialia","1359-6454","1359-6454",NA,"1359-6454","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000501655200021",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.actamat.2020.04.024",TRUE,"Elsevier BV","Acta Materialia","1359-6454","1359-6454",NA,"1359-6454","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000542971400029",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.actamat.2020.05.056",TRUE,"Elsevier BV","Acta Materialia","1359-6454","1359-6454",NA,"1359-6454","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000552116400039",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.anbehav.2020.03.007",TRUE,"Elsevier BV","Animal Behaviour","0003-3472","0003-3472",NA,"0003-3472","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.anbehav.2020.03.015",TRUE,"Elsevier BV","Animal Behaviour","0003-3472","0003-3472",NA,"0003-3472","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000539211900005",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bbalip.2020.158737",TRUE,"Elsevier BV","Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids","1388-1981","1388-1981",NA,"1388-1981","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32404277","PMC7397471","ut:000552710900007",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bbalip.2020.158686",TRUE,"Elsevier BV","Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids","1388-1981","1388-1981",NA,"1388-1981","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32171907",NA,"ut:000527947900006",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bpj.2020.06.032",TRUE,"Elsevier BV","Biophysical Journal","0006-3495","0006-3495",NA,"0006-3495","http://creativecommons.org/licenses/by/4.0/",TRUE,"32697976","PMC7399559","ut:000557759900016",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bpj.2019.06.033",TRUE,"Elsevier BV","Biophysical Journal","0006-3495","0006-3495",NA,"0006-3495","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31409481","PMC7036697","ut:000515535500008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bpj.2020.04.005",TRUE,"Elsevier BV","Biophysical Journal","0006-3495","0006-3495",NA,"0006-3495","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32353256","PMC7231924","ut:000535494500023",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bandl.2020.104814",TRUE,"Elsevier BV","Brain and Language","0093-934X","0093-934X",NA,"0093-934X","http://creativecommons.org/licenses/by/4.0/",TRUE,"32502896",NA,"ut:000545681400003",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.bbi.2020.05.070",TRUE,"Elsevier BV","Brain, Behavior, and Immunity","0889-1591","0889-1591",NA,"0889-1591","http://creativecommons.org/licenses/by/4.0/",TRUE,"32479993",NA,"ut:000582897600011",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.catena.2020.104827",TRUE,"Elsevier BV","CATENA","0341-8162","0341-8162",NA,"0341-8162","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000583955200016",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.cemconres.2019.105890",TRUE,"Elsevier BV","Cement and Concrete Research","0008-8846","0008-8846",NA,"0008-8846","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000521509500017",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.conbuildmat.2020.119451",TRUE,"Elsevier BV","Construction and Building Materials","0950-0618","0950-0618",NA,"0950-0618","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000571168700015",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.ceb.2019.12.010",TRUE,"Elsevier BV","Current Opinion in Cell Biology","0955-0674","0955-0674",NA,"0955-0674","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32109733",NA,"ut:000551271600006",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.devcel.2020.09.002",TRUE,"Elsevier BV","Developmental Cell","1534-5807","1534-5807",NA,"1534-5807","http://creativecommons.org/licenses/by/4.0/",TRUE,"33002421","PMC7704111","ut:000592931700010",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.dr.2020.100909",TRUE,"Elsevier BV","Developmental Review","0273-2297","0273-2297",NA,"0273-2297","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000536897900002",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.ejor.2020.02.019",TRUE,"Elsevier BV","European Journal of Operational Research","0377-2217","0377-2217",NA,"0377-2217","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000528798100019",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.expthermflusci.2020.110063",TRUE,"Elsevier BV","Experimental Thermal and Fluid Science","0894-1777","0894-1777",NA,"0894-1777","http://creativecommons.org/licenses/by/4.0/",TRUE,"32983285","PMC7116115","ut:000527294400005",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.flora.2019.151504",TRUE,"Elsevier BV","Flora","0367-2530","0367-2530",NA,"0367-2530","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000514173000006",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.flora.2019.151497",TRUE,"Elsevier BV","Flora","0367-2530","0367-2530",NA,"0367-2530","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000514173000005",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.flora.2020.151555",TRUE,"Elsevier BV","Flora","0367-2530","0367-2530",NA,"0367-2530","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000520017800009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.ygeno.2019.10.007",TRUE,"Elsevier BV","Genomics","0888-7543","0888-7543",NA,"0888-7543","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31629878","PMC7032948","ut:000514071600069",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.gca.2020.02.032",TRUE,"Elsevier BV","Geochimica et Cosmochimica Acta","0016-7037","0016-7037",NA,"0016-7037","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000525416100016",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.gloplacha.2020.103254",TRUE,"Elsevier BV","Global and Planetary Change","0921-8181","0921-8181",NA,"0921-8181","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000579856400002",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.gloplacha.2020.103255",TRUE,"Elsevier BV","Global and Planetary Change","0921-8181","0921-8181",NA,"0921-8181","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000551998100017",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.gloenvcha.2020.102034",TRUE,"Elsevier BV","Global Environmental Change","0959-3780","0959-3780",NA,"0959-3780","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000527300300006",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jaci.2019.07.008",TRUE,"Elsevier BV","Journal of Allergy and Clinical Immunology","0091-6749","0091-6749",NA,"0091-6749","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31330220","PMC7115912","ut:000512887400027",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jaci.2019.11.032",TRUE,"Elsevier BV","Journal of Allergy and Clinical Immunology","0091-6749","0091-6749",NA,"0091-6749","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31812575",NA,"ut:000518756700020",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jaci.2020.02.001",TRUE,"Elsevier BV","Journal of Allergy and Clinical Immunology","0091-6749","0091-6749",NA,"0091-6749","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32081759",NA,"ut:000539157800005",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jchromb.2019.121937",TRUE,"Elsevier BV","Journal of Chromatography B","1570-0232","1570-0232",NA,"1570-0232","http://creativecommons.org/licenses/by/4.0/",TRUE,"31958565",NA,"ut:000515445300009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.cola.2020.100959",TRUE,"Elsevier BV","Journal of Computer Languages","2590-1184","2590-1184",NA,"2590-1184","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000537545200009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jecp.2019.104756",TRUE,"Elsevier BV","Journal of Experimental Child Psychology","0022-0965","0022-0965",NA,"0022-0965","http://creativecommons.org/licenses/by/4.0/",TRUE,"31865246","PMC7104353","ut:000514245400018",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jhep.2020.01.026",TRUE,"Elsevier BV","Journal of Hepatology","0168-8278","0168-8278",NA,"0168-8278","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32061870",NA,"ut:000563494500015",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jmb.2020.02.032",TRUE,"Elsevier BV","Journal of Molecular Biology","0022-2836","0022-2836",NA,"0022-2836","http://creativecommons.org/licenses/by/4.0/",TRUE,"32135192",NA,"ut:000534598900008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jnt.2019.07.023",TRUE,"Elsevier BV","Journal of Number Theory","0022-314X","0022-314X",NA,"0022-314X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000499759700008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jpubeco.2019.104076",TRUE,"Elsevier BV","Journal of Public Economics","0047-2727","0047-2727",NA,"0047-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000520945200007",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jpaa.2020.106430",TRUE,"Elsevier BV","Journal of Pure and Applied Algebra","0022-4049","0022-4049",NA,"0022-4049","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000545485400006",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jsv.2020.115480",TRUE,"Elsevier BV","Journal of Sound and Vibration","0022-460X","0022-460X",NA,"0022-460X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000547338600009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.jeurceramsoc.2020.05.051",TRUE,"Elsevier BV","Journal of the European Ceramic Society","0955-2219","0955-2219",NA,"0955-2219","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000541150000037",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.landusepol.2020.104876",TRUE,"Elsevier BV","Land Use Policy","0264-8377","0264-8377",NA,"0264-8377","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000594483900001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.mtla.2020.100760",TRUE,"Elsevier BV","Materialia","2589-1529","2589-1529",NA,"2589-1529","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000559328600007",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.mad.2020.111284",TRUE,"Elsevier BV","Mechanisms of Ageing and Development","0047-6374","0047-6374",NA,"0047-6374","http://creativecommons.org/licenses/by/4.0/",TRUE,"32574647","PMC7116474","ut:000569391600001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.microc.2019.104449",TRUE,"Elsevier BV","Microchemical Journal","0026-265X","0026-265X",NA,"0026-265X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000503315300101",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.molp.2020.02.012",TRUE,"Elsevier BV","Molecular Plant","1674-2052","1674-2052",NA,"1674-2052","http://creativecommons.org/licenses/by/4.0/",TRUE,"32087370",NA,"ut:000531032700009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.neuroscience.2020.02.032",TRUE,"Elsevier BV","Neuroscience","0306-4522","0306-4522",NA,"0306-4522","http://creativecommons.org/licenses/by/4.0/",TRUE,"32112913","PMC7100012","ut:000522084600010",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.neulet.2019.134676",TRUE,"Elsevier BV","Neuroscience Letters","0304-3940","0304-3940",NA,"0304-3940","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31811897",NA,"ut:000509614400029",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.na.2019.111616",TRUE,"Elsevier BV","Nonlinear Analysis: Theory, Methods & Applications","0362-546X","0362-546X",NA,"0362-546X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000496186500029",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.optcom.2019.124972",TRUE,"Elsevier BV","Optics Communications","0030-4018","0030-4018",NA,"0030-4018","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000505990000044",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.psyneuen.2019.104480",TRUE,"Elsevier BV","Psychoneuroendocrinology","0306-4530","0306-4530",NA,"0306-4530","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31707294",NA,"ut:000503085600019",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.resconrec.2020.104960",TRUE,"Elsevier BV","Resources, Conservation and Recycling","0921-3449","0921-3449",NA,"0921-3449","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000569610400055",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.scitotenv.2020.137620",TRUE,"Elsevier BV","Science of The Total Environment","0048-9697","0048-9697",NA,"0048-9697","http://creativecommons.org/licenses/by/4.0/",TRUE,"32182457",NA,"ut:000535469100001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.scriptamat.2020.05.014",TRUE,"Elsevier BV","Scripta Materialia","1359-6462","1359-6462",NA,"1359-6462","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000543035500040",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.specom.2020.07.001",TRUE,"Elsevier BV","Speech Communication","0167-6393","0167-6393",NA,"0167-6393","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000571221800008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.thromres.2020.01.002",TRUE,"Elsevier BV","Thrombosis Research","0049-3848","0049-3848",NA,"0049-3848","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31945589","PMC7212083","ut:000514557200002",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.tourman.2020.104103",TRUE,"Elsevier BV","Tourism Management","0261-5177","0261-5177",NA,"0261-5177","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000534283200013",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.molmed.2020.07.007",TRUE,"Elsevier BV","Trends in Molecular Medicine","1471-4914","1471-4914",NA,"1471-4914","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32828702",NA,"ut:000580074800004",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.tips.2020.04.006",TRUE,"Elsevier BV","Trends in Pharmacological Sciences","0165-6147","0165-6147",NA,"0165-6147","http://creativecommons.org/licenses/by/4.0/",TRUE,"32471654","PMC7610661","ut:000540827500004",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1016/j.triboint.2020.106498",TRUE,"Elsevier BV","Tribology International","0301-679X","0301-679X",NA,"0301-679X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000580595400071",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1572,"10.1016/j.orp.2020.100152",FALSE,"Elsevier BV","Operations Research Perspectives","2214-7160","2214-7160",NA,"2214-7160","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000605217100006",NA,TRUE
 "FWF - Austrian Science Fund",2020,1704,"10.1016/j.gecco.2020.e01083",FALSE,"Elsevier BV","Global Ecology and Conservation","2351-9894","2351-9894",NA,"2351-9894","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000568733800017",NA,TRUE
 "FWF - Austrian Science Fund",2020,1823.08,"10.14336/ad.2020.0222",FALSE,"Aging and Disease","Aging and Disease","2152-5250","2152-5250",NA,"2152-5250",NA,TRUE,"32765949","PMC7390515",NA,NA,TRUE
@@ -218,14 +218,14 @@
 "FWF - Austrian Science Fund",2020,2280,"10.1016/j.ejor.2020.03.061",TRUE,"Elsevier BV","European Journal of Operational Research","0377-2217","0377-2217",NA,"0377-2217","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000536062000013",NA,FALSE
 "FWF - Austrian Science Fund",2020,2361.6,"10.1016/j.redox.2019.101393",FALSE,"Elsevier BV","Redox Biology","2213-2317","2213-2317",NA,"2213-2317","http://creativecommons.org/licenses/by/4.0/",TRUE,"31805502","PMC6909106","ut:000506181200006",NA,TRUE
 "FWF - Austrian Science Fund",2020,2395.8,"10.1016/j.ijadhadh.2019.102507",TRUE,"Elsevier BV","International Journal of Adhesion and Adhesives","0143-7496","0143-7496",NA,"0143-7496","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000518868400007",NA,FALSE
-"FWF - Austrian Science Fund",2020,2500,"10.1016/j.csbj.2019.04.004",FALSE,"Elsevier BV","Computational and Structural Biotechnology Journal","2001-0370","2001-0370",NA,"2001-0370","http://creativecommons.org/licenses/by/4.0/",TRUE,"31049165","PMC6479272","ut:000504205700053",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1016/j.ebiom.2019.11.004",FALSE,"Elsevier BV","EBioMedicine","2352-3964","2352-3964",NA,"2352-3964","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31761618","PMC6921367","ut:000503226300017",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1016/j.ebiom.2019.11.006",FALSE,"Elsevier BV","EBioMedicine","2352-3964","2352-3964",NA,"2352-3964","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31786130","PMC6921329","ut:000503226300043",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1016/j.isci.2019.04.018",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31082735","PMC6515155","ut:000470104600022",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1016/j.isci.2019.04.026",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31079025","PMC6515114","ut:000470104600019",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1016/j.celrep.2020.02.115",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32209484",NA,"ut:000521989500028",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1016/j.celrep.2019.12.102",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32023473",NA,"ut:000511294400027",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1016/j.molmet.2020.101026",FALSE,"Elsevier BV","Molecular Metabolism","2212-8778","2212-8778",NA,"2212-8778","http://creativecommons.org/licenses/by/4.0/",TRUE,"32473405","PMC7322099","ut:000572965200003",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2545.12,"10.1016/j.worlddev.2018.06.014",TRUE,"Elsevier BV","World Development","0305-750X","0305-750X",NA,"0305-750X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000449310800016",NA,FALSE
 "FWF - Austrian Science Fund",2020,2592,"10.1016/j.bpj.2019.10.021",TRUE,"Elsevier BV","Biophysical Journal","0006-3495","0006-3495",NA,"0006-3495","http://creativecommons.org/licenses/by/4.0/",TRUE,"31706565","PMC7031773","ut:000497815800008",NA,FALSE
 "FWF - Austrian Science Fund",2020,2613.6,"10.1016/j.bpj.2019.10.022",TRUE,"Elsevier BV","Biophysical Journal","0006-3495","0006-3495",NA,"0006-3495","http://creativecommons.org/licenses/by/4.0/",TRUE,"31703802","PMC7031808","ut:000497815800009",NA,FALSE
@@ -303,14 +303,14 @@
 "FWF - Austrian Science Fund",2020,2399.47,"10.3389/fmolb.2020.00097",FALSE,"Frontiers Media SA","Frontiers in Molecular Biosciences","2296-889X",NA,"2296-889X","2296-889X","https://creativecommons.org/licenses/by/4.0/",TRUE,"32528974","PMC7253707","ut:000539463500001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2428.55,"10.3389/fpsyt.2020.549903",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","1664-0640","https://creativecommons.org/licenses/by/4.0/",TRUE,"33101078","PMC7507577","ut:000573950800001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2435.42,"10.3389/fchem.2020.00346",FALSE,"Frontiers Media SA","Frontiers in Chemistry","2296-2646",NA,"2296-2646","2296-2646","https://creativecommons.org/licenses/by/4.0/",TRUE,"32426328","PMC7212365","ut:000533280800001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.3389/fimmu.2019.01607",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"31354740","PMC6637296","ut:000475417400001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.3389/fimmu.2020.01368",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"32733455","PMC7358538","ut:000553410900001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.3389/fneur.2020.00093",FALSE,"Frontiers Media SA","Frontiers in Neurology","1664-2295",NA,"1664-2295","1664-2295","https://creativecommons.org/licenses/by/4.0/",TRUE,"32153492","PMC7045343","ut:000524561700001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.3389/fneur.2020.00432",FALSE,"Frontiers Media SA","Frontiers in Neurology","1664-2295",NA,"1664-2295","1664-2295","https://creativecommons.org/licenses/by/4.0/",TRUE,"32582002","PMC7280487","ut:000543187300001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.3389/fpls.2020.00680",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X","https://creativecommons.org/licenses/by/4.0/",TRUE,"32528512","PMC7253699","ut:000539463700001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.3389/fpsyg.2020.00962",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"32547446","PMC7273972","ut:000542179000001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.3389/fpsyg.2020.01369",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"32714243","PMC7344323","ut:000553067300001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.3389/fpsyg.2020.00785",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"32395114","PMC7197371","ut:000533863400001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2618.31,"10.3389/fendo.2020.607011",FALSE,"Frontiers Media SA","Frontiers in Endocrinology","1664-2392",NA,"1664-2392","1664-2392","https://creativecommons.org/licenses/by/4.0/",TRUE,"33362721","PMC7756077","ut:000600938300001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2618.31,"10.3389/fimmu.2020.613194",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"33391284","PMC7775509","ut:000603976900001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2618.31,"10.3389/fimmu.2020.565869",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"33519798","PMC7843371","ut:000612533300001",NA,TRUE
@@ -401,19 +401,19 @@
 "FWF - Austrian Science Fund",2020,2969.12,"10.3389/fpls.2020.00362",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X","https://creativecommons.org/licenses/by/4.0/",TRUE,"32296454","PMC7136903","ut:000528744300001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2969.12,"10.3389/fmicb.2019.02796",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X","https://creativecommons.org/licenses/by/4.0/",TRUE,"31866971","PMC6906140","ut:000503494500001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2969.12,"10.3389/fnins.2020.00252",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X","1662-453X","https://creativecommons.org/licenses/by/4.0/",TRUE,"32269510","PMC7111429","ut:000525064400001",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1130/g47210.1",TRUE,"Geological Society of America","Geology","0091-7613","0091-7613","1943-2682","0091-7613",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,2500,"10.1026/1612-5010/a000273",TRUE,"Hogrefe Publishing Group","Zeitschrift für Sportpsychologie","1612-5010","1612-5010","2190-6300","1612-5010",NA,TRUE,"32273834","PMC7145442","ut:000503192500001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1109/tse.2019.2944604",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Software Engineering","0098-5589","0098-5589","1939-3520","0098-5589",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1109/taes.2019.2941104",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Aerospace and Electronic Systems","0018-9251","0018-9251","1557-9603","0018-9251",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1109/ted.2020.3000749",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Electron Devices","0018-9383","0018-9383","1557-9646","0018-9383",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1109/tgrs.2020.2967364",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Geoscience and Remote Sensing","0196-2892","0196-2892","1558-0644","0196-2892",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1109/tsipn.2020.2995967",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Signal and Information Processing over Networks","2373-776X",NA,"2373-776X","2373-776X",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1109/tvcg.2020.2975583",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Visualization and Computer Graphics","1077-2626","1077-2626","1941-0506","1077-2626",NA,TRUE,"32092008",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1646.44,"10.1109/access.2020.2970059",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Access","2169-3536",NA,"2169-3536","2169-3536",NA,TRUE,NA,NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2020,1971.96,"10.1109/tdmr.2019.2909993",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Device and Materials Reliability","1530-4388","1530-4388","1558-2574","1530-4388",NA,TRUE,NA,NA,NA,NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
-"FWF - Austrian Science Fund",2020,1500,"10.1107/s1600576719003029",TRUE,"International Union of Crystallography (IUCr)","Journal of Applied Crystallography","1600-5767",NA,"1600-5767","0021-8898","http://creativecommons.org/licenses/by/4.0/legalcode",TRUE,"30996719","PMC6448685",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1349.66,"10.1088/2399-6528/ab6fb4",FALSE,"IOP Publishing","Journal of Physics Communications","2399-6528",NA,"2399-6528","2399-6528","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000534358800003",NA,TRUE
 "FWF - Austrian Science Fund",2020,1889.53,"10.1088/1367-2630/ab6d42",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000537571500003",NA,TRUE
 "FWF - Austrian Science Fund",2020,1889.53,"10.1088/1367-2630/ab783c",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000523462900001",NA,TRUE
@@ -436,7 +436,7 @@
 "FWF - Austrian Science Fund",2020,2523.87,"10.1088/2040-8986/ab6303",TRUE,"IOP Publishing","Journal of Optics","2040-8978","2040-8978","2040-8986","2040-8978","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000507876700001",NA,FALSE
 "FWF - Austrian Science Fund",2020,1846.57,"10.7150/thno.46719",FALSE,"Ivyspring International Publisher","Theranostics","1838-7640",NA,NA,"1838-7640",NA,TRUE,"32929378","PMC7482799","ut:000566786000010",NA,TRUE
 "FWF - Austrian Science Fund",2020,2094.18,"10.7150/thno.33758",FALSE,"Ivyspring International Publisher","Theranostics","1838-7640",NA,NA,"1838-7640",NA,TRUE,"31410190","PMC6691393","ut:000474898900006",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.3791/61147",TRUE,"MyJove Corporation","Journal of Visualized Experiments","1940-087X",NA,"1940-087X","1940-087X",NA,TRUE,"32449730",NA,"ut:000546406600043",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1785,"10.33594/000000005",FALSE,"Cell Physiol Biochem Press GmbH and Co KG","Cellular Physiology and Biochemistry","1015-8987","1015-8987","1421-9778","1015-8987",NA,TRUE,"30790505","PMC6459368",NA,NA,TRUE
 "FWF - Austrian Science Fund",2020,1785,"10.33594/000000158",FALSE,"Cell Physiol Biochem Press GmbH and Co KG","Cellular Physiology and Biochemistry","1015-8987","1015-8987","1421-9778","1015-8987",NA,TRUE,"31529929",NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2020,668.99,"10.1212/nxi.0000000000000763",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Neurology: Neuroimmunology & Neuroinflammation","2332-7812",NA,"2332-7812","2332-7812",NA,TRUE,"32487720","PMC7286658",NA,NA,TRUE
@@ -708,16 +708,16 @@
 "FWF - Austrian Science Fund",2020,1963.09,"10.3390/cancers12092493",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"32899157","PMC7564761","ut:000587293200001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2050.26,"10.3390/ijerph17239003",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","1660-4601","https://creativecommons.org/licenses/by/4.0/",TRUE,"33287188","PMC7731212","ut:000597497700001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2052.34,"10.3390/ijerph17196994",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","1660-4601","https://creativecommons.org/licenses/by/4.0/",TRUE,"32987877","PMC7579167","ut:000587227800001",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1073/pnas.2002630117",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32482863","PMC7306800","ut:000548656500020",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1284.06,"10.1073/pnas.1921425117",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31937661","PMC7007539","ut:000512340900003",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1073/pnas.1817317116",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by/4.0/",TRUE,"31332019","PMC6689959","ut:000478971900049",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1073/pnas.1910262116",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by/4.0/",TRUE,"31843923","PMC6969523","ut:000508976200047",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1073/pnas.1911203117",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by/4.0/",TRUE,"32127487","PMC7084103","ut:000520011000049",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1073/pnas.1913970117",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by/4.0/",TRUE,"32321835","PMC7211993","ut:000531067600046",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1073/pnas.1917461117",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by/4.0/",TRUE,"32209662","PMC7149458","ut:000524486300039",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,5128.54,"10.1073/pnas.1918944117",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32234784","PMC7165476","ut:000526871700043",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1038/s41386-019-0435-3",TRUE,"Springer Nature","Neuropsychopharmacology","0893-133X","0893-133X","1740-634X","0893-133X","https://creativecommons.org/licenses/by/4.0",TRUE,"31195407","PMC6785086","ut:000485776700005",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1038/s41418-020-0503-6",TRUE,"Springer Nature","Cell Death and Differentiation","1350-9047","1350-9047","1476-5403","1350-9047","https://creativecommons.org/licenses/by/4.0",TRUE,"32015503","PMC7370223","ut:000510821900001",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1668,"10.1038/s41597-019-0327-8",FALSE,"Springer Nature","Scientific Data","2052-4463",NA,"2052-4463","2052-4463","https://creativecommons.org/licenses/by/4.0",TRUE,"31819060","PMC6901520","ut:000501897100001",NA,TRUE
 "FWF - Austrian Science Fund",2020,1727,"10.1038/s41598-020-70493-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32796875","PMC7427800","ut:000573281600007",NA,TRUE
 "FWF - Austrian Science Fund",2020,1788,"10.1038/s41598-019-39865-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30824760","PMC6397226","ut:000459983900094",NA,TRUE
@@ -744,21 +744,21 @@
 "FWF - Austrian Science Fund",2020,1884,"10.1038/s41598-020-59400-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32051498","PMC7016124","ut:000562869200008",NA,TRUE
 "FWF - Austrian Science Fund",2020,1884,"10.1038/s41598-020-59381-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32066776","PMC7026079","ut:000563055400018",NA,TRUE
 "FWF - Austrian Science Fund",2020,2150,"10.1038/s41375-020-0759-3",TRUE,"Springer Nature","Leukemia","0887-6924","0887-6924","1476-5551","0887-6924","https://creativecommons.org/licenses/by/4.0",TRUE,"32086446","PMC7449868","ut:000514941400001",NA,FALSE
-"FWF - Austrian Science Fund",2020,2500,"10.1018/s41419-019-2172-2",FALSE,"Springer Nature","Cell Death and Disease","2041-4889",NA,"2041-4889","2041-4889",NA,FALSE,NA,NA,NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s42003-019-0697-7",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"31872071","PMC6895197","ut:000502372900001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.10138/s41467-019-13302-2",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723",NA,FALSE,NA,NA,NA,NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
-"FWF - Austrian Science Fund",2020,2500,"10.1186/s40478-020-00989-4",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960","2051-5960","http://creativecommons.org/licenses/by/4.0/",TRUE,"32771067","PMC7414992","ut:000561383500002",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s42003-020-01317-1",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"33067550","PMC7567817","ut:000583305400009",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s42003-020-01319-z",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"33082531","PMC7576833","ut:000585176000001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s42003-020-1039-5",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"32561887","PMC7305198","ut:000543368100001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s42003-020-1098-7",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"32678279","PMC7366924","ut:000552372600004",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-019-13696-z",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31911582","PMC6946665","ut:000511956100008",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-019-14064-7",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31937778","PMC6959239","ut:000528906300002",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-019-14077-2",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31924768","PMC6954230","ut:000551459000005",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41524-020-00361-z",FALSE,"Springer Nature","npj Computational Materials","2057-3960",NA,"2057-3960","2057-3960","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000552673800001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41536-020-00100-4",FALSE,"Springer Nature","npj Regenerative Medicine","2057-3995",NA,"2057-3995","2057-3995","https://creativecommons.org/licenses/by/4.0",TRUE,"32983575","PMC7486930","ut:000568295100001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41398-018-0308-2",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","https://creativecommons.org/licenses/by/4.0",TRUE,"30664620","PMC6341100","ut:000474690200001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,3216,"10.1038/s42003-020-01269-6",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"32994533","PMC7525237","ut:000576945700003",NA,TRUE
 "FWF - Austrian Science Fund",2020,3402,"10.1038/s12276-019-0358-4",FALSE,"Springer Nature","Experimental & Molecular Medicine","1226-3613","1226-3613","2092-6413","1226-3613","https://creativecommons.org/licenses/by/4.0",TRUE,"31956273","PMC7000701","ut:000510803800005",NA,TRUE
 "FWF - Austrian Science Fund",2020,3528,"10.1038/s41398-018-0227-2",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","https://creativecommons.org/licenses/by/4.0",TRUE,"30242221","PMC6155094","ut:000446263600003",NA,TRUE
@@ -766,38 +766,38 @@
 "FWF - Austrian Science Fund",2020,5148,"10.1038/s41467-019-13543-1",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31797871","PMC6892858","ut:000500508100001",NA,TRUE
 "FWF - Austrian Science Fund",2020,948,"10.33265/polar.v38.3539",FALSE,"Norwegian Polar Institute","Polar Research","0800-0395","0800-0395","1751-8369","0800-0395",NA,TRUE,NA,NA,"ut:000504022000001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2981.07,"10.15761/brcp.1000189",FALSE,"Open Access Text Pvt, Ltd.","Biomedical Research and Clinical Practice","2397-9631",NA,"2397-9631","2397-9631",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1364/optica.6.000890",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536","2334-2536","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1991.83,"10.1364/josab.396074",TRUE,"Optical Society of America (OSA)","Journal of the Optical Society of America B","0740-3224","0740-3224","1520-8540","0740-3224",NA,TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2020,2067.5,"10.1364/oe.387650",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"32225871",NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2020,2402.2,"10.1364/boe.375678",FALSE,"Optical Society of America (OSA)","Biomedical Optics Express","2156-7085","2156-7085","2156-7085","2156-7085",NA,TRUE,"32206395","PMC7041438",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1364/optica.6.001334",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536","2334-2536","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1364/oe.27.035290",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"31878701",NA,NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1364/boe.379941",FALSE,"Optical Society of America (OSA)","Biomedical Optics Express","2156-7085","2156-7085","2156-7085","2156-7085",NA,TRUE,"32133234","PMC7041474",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1364/optica.390788",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536","2334-2536",NA,TRUE,NA,NA,NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1364/optica.397685",FALSE,"Optical Society of America (OSA)","Optica","2334-2536",NA,"2334-2536","2334-2536",NA,TRUE,NA,NA,NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1364/oe.394543",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"32672183",NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1278,"10.1093/nar/gkz902",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"31612955","PMC6868383","ut:000501735200018",NA,TRUE
 "FWF - Austrian Science Fund",2020,1440,"10.1093/bioinformatics/btz879",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059","1367-4803","http://creativecommons.org/licenses/by/4.0/",TRUE,"31755900","PMC7141848","ut:000536489400041",NA,FALSE
 "FWF - Austrian Science Fund",2020,1440,"10.1093/ijnp/pyz059",FALSE,"Oxford University Press (OUP)","International Journal of Neuropsychopharmacology","1461-1457","1461-1457","1469-5111","1461-1457","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"31740958","PMC7064047","ut:000532191400003",NA,TRUE
 "FWF - Austrian Science Fund",2020,1448.4,"10.1093/ijnp/pyz030",FALSE,"Oxford University Press (OUP)","International Journal of Neuropsychopharmacology","1461-1457","1461-1457","1469-5111","1461-1457","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"31175352","PMC6672627","ut:000499134000005",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/cercor/bhz140",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"31403679","PMC7132978","ut:000535899500009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/cercor/bhz170",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"31368487","PMC7132951","ut:000535899500036",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/molbev/msz279",TRUE,"Oxford University Press (OUP)","Molecular Biology and Evolution","0737-4038","0737-4038","1537-1719","0737-4038","http://creativecommons.org/licenses/by/4.0/",TRUE,"31822906","PMC7086170","ut:000522248100004",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/protein/gzaa004",TRUE,"Oxford University Press (OUP)","Protein Engineering, Design and Selection","1741-0126","1741-0126","1741-0134","1741-0126","http://creativecommons.org/licenses/by/4.0/",TRUE,"32129452","PMC7098879","ut:000536506800003",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/rfs/hhz093",TRUE,"Oxford University Press (OUP)","Review of Financial Studies","0893-9454","0893-9454","1465-7368","0893-9454","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,"ut:000536040500008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/bioinformatics/btaa611",TRUE,"Oxford University Press (OUP)","Bioinformatics","1367-4803","1367-4803","1460-2059","1367-4803","http://creativecommons.org/licenses/by/4.0/",TRUE,"32614448","PMC7751015","ut:000606794400020",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/brain/awaa012",TRUE,"Oxford University Press (OUP)","Brain","0006-8950","0006-8950","1460-2156","0006-8950","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"32203580","PMC7092749","ut:000522641900031",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/cje/bez059",TRUE,"Oxford University Press (OUP)","Cambridge Journal of Economics","0309-166X","0309-166X","1464-3545","0309-166X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000580618000008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/cvr/cvz119",TRUE,"Oxford University Press (OUP)","Cardiovascular Research","0008-6363","0008-6363","1755-3245","0008-6363","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"31166588","PMC7338219","ut:000515095600019",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/gji/ggaa304",TRUE,"Oxford University Press (OUP)","Geophysical Journal International","0956-540X","0956-540X","1365-246X","0956-540X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000582304600009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1093/molbev/msaa076",TRUE,"Oxford University Press (OUP)","Molecular Biology and Evolution","0737-4038","0737-4038","1537-1719","0737-4038","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"32181804","PMC7403626","ut:000574381000005",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1512,"10.1093/nar/gkaa025",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"31956894","PMC7102943","ut:000525957500040",NA,TRUE
 "FWF - Austrian Science Fund",2020,1755.6,"10.1093/gbe/evz253",FALSE,"Oxford University Press (OUP)","Genome Biology and Evolution","1759-6653",NA,"1759-6653","1759-6653","http://creativecommons.org/licenses/by/4.0/",TRUE,"31742335","PMC7145553","ut:000514900600009",NA,TRUE
 "FWF - Austrian Science Fund",2020,2415.96,"10.1093/nar/gkz317",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"31062022","PMC6648895","ut:000490556600037",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1093/nar/gkz407",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"31114895","PMC6602475","ut:000475901600094",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1093/nar/gkz791",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"31535128","PMC6847712","ut:000501735500040",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1093/nar/gkaa353",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by/4.0/",TRUE,"32392304","PMC7293042","ut:000574284500032",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,3087.6,"10.1093/glycob/cwx102",TRUE,"Oxford University Press (OUP)","Glycobiology","0959-6658","0959-6658","1460-2423","0959-6658","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"29309573","PMC5993097","ut:000426834200004",NA,FALSE
 "FWF - Austrian Science Fund",2020,3175.2,"10.1093/monist/ony023",TRUE,"Oxford University Press (OUP)","The Monist","0026-9662","0026-9662","2153-3601","0026-9662","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,"ut:000482405700005",NA,FALSE
 "FWF - Austrian Science Fund",2020,3566.4,"10.1093/plankt/fbz061",TRUE,"Oxford University Press (OUP)","Journal of Plankton Research","0142-7873","0142-7873","1464-3774","0142-7873","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"31920209","PMC6946086","ut:000508115500008",NA,FALSE
@@ -818,44 +818,44 @@
 "FWF - Austrian Science Fund",2020,1758.59,"10.1371/journal.pone.0220732",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"31381605","PMC6681971","ut:000484993600033",NA,TRUE
 "FWF - Austrian Science Fund",2020,1797.14,"10.1371/journal.pone.0232073",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"32343731","PMC7188291","ut:000536661300031",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
-"FWF - Austrian Science Fund",2020,2500,"10.1371/journal.pgen.1008514",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"31815942","PMC6922451","ut:000512336600025",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1371/journal.pcbi.1007494",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","1553-734X","http://creativecommons.org/licenses/by/4.0/",TRUE,"31951609","PMC6968837","ut:000510916500025",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1371/journal.pgen.1008625",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"32176688","PMC7176149","ut:000524758200038",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2523.69,"10.1371/journal.ppat.1007533",FALSE,"Public Library of Science (PLoS)","PLOS Pathogens","1553-7374",NA,"1553-7374","1553-7366","http://creativecommons.org/licenses/by/4.0/",TRUE,"30768644","PMC6395001","ut:000459972100012",NA,TRUE
 "FWF - Austrian Science Fund",2020,2819.4,"10.1371/journal.pbio.3000700",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","1544-9173","https://creativecommons.org/publicdomain/zero/1.0/",TRUE,"32330125","PMC7202670","ut:000531804900008",NA,TRUE
 "FWF - Austrian Science Fund",2020,504,"10.3391/bir.2019.8.4.01",FALSE,"Regional Euro-Asian Biological Invasions Centre Oy (REABIC)","BioInvasions Records","2242-1300",NA,"2242-1300","2242-1300",NA,TRUE,NA,NA,"ut:000498658800001",NA,TRUE
 "FWF - Austrian Science Fund",2020,504,"10.3391/bir.2020.9.2.25",FALSE,"Regional Euro-Asian Biological Invasions Centre Oy (REABIC)","BioInvasions Records","2242-1300",NA,"2242-1300","2242-1300",NA,TRUE,NA,NA,"ut:000531866100025",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1085/jgp.201912359",TRUE,"Rockefeller University Press","The Journal of General Physiology","0022-1295","0022-1295","1540-7748","0022-1295","https://creativecommons.org/licenses/by/4.0/",TRUE,"31511304","PMC6785732","ut:000489119700008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1085/jgp.201912318",TRUE,"Rockefeller University Press","The Journal of General Physiology","0022-1295","0022-1295","1540-7748","0022-1295","http://www.rupress.org/terms/",TRUE,"31270129","PMC6683666","ut:000478792500008",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1003.71,"10.1039/c9ra09935b",TRUE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000516549000014",NA,TRUE
 "FWF - Austrian Science Fund",2020,1157.15,"10.1039/d0cc05478j",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"33048066",NA,"ut:000585555100009",NA,FALSE
 "FWF - Austrian Science Fund",2020,1168.31,"10.1039/d0cc01686a",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","http://creativecommons.org/licenses/by/3.0/",TRUE,"32329757",NA,"ut:000537959100001",NA,FALSE
 "FWF - Austrian Science Fund",2020,1466.12,"10.1039/c9ta14177d",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry A","2050-7488","2050-7488","2050-7496","2050-7496","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000560225400033",NA,FALSE
 "FWF - Austrian Science Fund",2020,1466.12,"10.1039/d0cp04349d",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by/3.0/",TRUE,"33057510",NA,"ut:000646815600047",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0cc01926g",TRUE,"Royal Society of Chemistry (RSC)","Chemical Communications","1359-7345","1359-7345","1364-548X","1359-7345","http://creativecommons.org/licenses/by/3.0/",TRUE,"32510075",NA,"ut:000545820900026",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0dt03315d",TRUE,"Royal Society of Chemistry (RSC)","Dalton Transactions","1477-9226","1477-9226","1477-9234","1477-9226","http://creativecommons.org/licenses/by/3.0/",TRUE,"33185633",NA,"ut:000599093600016",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0em00267d",TRUE,"Royal Society of Chemistry (RSC)","Environmental Science: Processes & Impacts","2050-7887","2050-7887","2050-7895","2050-7887","http://creativecommons.org/licenses/by/3.0/",TRUE,"32803213",NA,"ut:000571971400008",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0ja00051e",TRUE,"Royal Society of Chemistry (RSC)","Journal of Analytical Atomic Spectrometry","0267-9477","0267-9477","1364-5544","0267-9477","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000534352700014",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/c9ta13020a",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry A","2050-7488","2050-7488","2050-7496","2050-7496","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000530495500043",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0ta07032g",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry A","2050-7488","2050-7488","2050-7496","2050-7496","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000589418400041",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0qm00690d",TRUE,"Royal Society of Chemistry (RSC)","Materials Chemistry Frontiers","2052-1537",NA,"2052-1537","2052-1537","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000592651100024",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/c9nr10087c",TRUE,"Royal Society of Chemistry (RSC)","Nanoscale","2040-3364","2040-3364","2040-3372","2040-3364","http://creativecommons.org/licenses/by/3.0/",TRUE,"32103229",NA,"ut:000520487300010",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/c9nr10353h",TRUE,"Royal Society of Chemistry (RSC)","Nanoscale","2040-3364","2040-3364","2040-3372","2040-3364","http://creativecommons.org/licenses/by/3.0/",TRUE,"32319978",NA,"ut:000545599900050",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0ob02152k",TRUE,"Royal Society of Chemistry (RSC)","Organic & Biomolecular Chemistry","1477-0520","1477-0520","1477-0539","1477-0520","http://creativecommons.org/licenses/by/3.0/",TRUE,"33211788","PMC7116657","ut:000607351800011",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0ob00520g",TRUE,"Royal Society of Chemistry (RSC)","Organic & Biomolecular Chemistry","1477-0520","1477-0520","1477-0539","1477-0520","http://creativecommons.org/licenses/by/3.0/",TRUE,"32428053",NA,"ut:000538169500018",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/c9cp06040e",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by/3.0/",TRUE,"31993599",NA,"ut:000518624400005",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0cp00272k",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by/3.0/",TRUE,"32421138","PMC7116335","ut:000540513500022",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0cp03440a",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"32804174",NA,"ut:000646815600009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0se00770f",TRUE,"Royal Society of Chemistry (RSC)","Sustainable Energy & Fuels","2398-4902",NA,"2398-4902","2398-4902","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000552930600039",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0cy01736a",TRUE,"Royal Society of Chemistry (RSC)","Catalysis Science & Technology","2044-4753","2044-4753","2044-4761","2044-4753","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000609012400001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1039/d0tc03878d",TRUE,"Royal Society of Chemistry (RSC)","Journal of Materials Chemistry C","2050-7526","2050-7526","2050-7534","2050-7526","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000612717600034",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1756.42,"10.1039/d0cp00727g",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"32319988",NA,"ut:000541863900048",NA,FALSE
 "FWF - Austrian Science Fund",2020,1981.54,"10.1039/c9cp04735b",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by/3.0/",TRUE,"32044894",NA,"ut:000518624400053",NA,FALSE
 "FWF - Austrian Science Fund",2020,2905.9,"10.1039/c9cp02953b",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by/3.0/",TRUE,"31556899",NA,"ut:000495070100050",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1177/2053019619895034",TRUE,"SAGE Publications","The Anthropocene Review","2053-0196","2053-0196","2053-020X","2053-0196","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000506749300001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1523/jneurosci.0231-20.2020",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474",NA,TRUE,"32753515","PMC7470925",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2388.27,"10.1523/eneuro.0533-19.2020",FALSE,"Society for Neuroscience","eNeuro","2373-2822",NA,"2373-2822","2373-2822",NA,TRUE,"32381648","PMC7266140",NA,NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1190/geo2019-0251.1",TRUE,"Society of Exploration Geophysicists","GEOPHYSICS","0016-8033","0016-8033","1942-2156","0016-8033","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1163.77,"10.1117/1.nph.7.1.015006",FALSE,"SPIE-Intl Soc Optical Eng","Neurophotonics","2329-423X",NA,NA,"2329-423X",NA,TRUE,"32042855","PMC6999077",NA,NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
@@ -866,14 +866,14 @@
 "FWF - Austrian Science Fund",2020,1410.76,"10.1186/s40658-020-00306-x",FALSE,"Springer Nature","EJNMMI Physics","2197-7364",NA,"2197-7364","2197-7364","https://creativecommons.org/licenses/by/4.0",TRUE,"32504254","PMC7275104","ut:000540281800003",NA,TRUE
 "FWF - Austrian Science Fund",2020,1410.76,"10.1186/s40658-020-00307-w",FALSE,"Springer Nature","EJNMMI Physics","2197-7364",NA,"2197-7364","2197-7364","https://creativecommons.org/licenses/by/4.0",TRUE,"32607664","PMC7326848","ut:000545834700001",NA,TRUE
 "FWF - Austrian Science Fund",2020,1440,"10.1186/s13068-020-01721-z",FALSE,"Springer Nature","Biotechnology for Biofuels","1754-6834",NA,"1754-6834","1754-6834","http://creativecommons.org/licenses/by/4.0/",TRUE,"32391081","PMC7201606","ut:000533891700001",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1007/s00277-019-03680-4",TRUE,"Springer Nature","Annals of Hematology","0939-5555","0939-5555","1432-0584","0939-5555","https://creativecommons.org/licenses/by/4.0",TRUE,"30941510","PMC6647597","ut:000475694100031",NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
-"FWF - Austrian Science Fund",2020,1500,"10.1038/s41380-019-0461-x",TRUE,"Springer Nature","Molecular Psychiatry","1359-4184","1359-4184","1476-5578","1359-4184","https://creativecommons.org/licenses/by/4.0",TRUE,"31383926","PMC7910214","ut:000622346900024",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1038/s41380-017-0009-x",TRUE,"Springer Nature","Molecular Psychiatry","1359-4184","1359-4184","1476-5578","1359-4184","https://creativecommons.org/licenses/by-sa/4.0",TRUE,"29422521","PMC6756007","ut:000465499600009",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1007/s00277-020-03920-y",TRUE,"Springer Nature","Annals of Hematology","0939-5555","0939-5555","1432-0584","0939-5555","https://creativecommons.org/licenses/by/4.0",TRUE,"32002654","PMC7060155","ut:000510311400003",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1007/s43638-020-00009-1",TRUE,"Springer Nature","cultura & psyché","2730-5732",NA,"2730-5732","2730-5732","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1038/s41396-020-00735-7",TRUE,"Springer Nature","The ISME Journal","1751-7362","1751-7362","1751-7370","1751-7362","https://creativecommons.org/licenses/by/4.0",TRUE,"32770119","PMC7784676","ut:000557137700003",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1007/s11064-020-03017-y",TRUE,"Springer Nature","Neurochemical Research","0364-3190","0364-3190","1573-6903","0364-3190","https://creativecommons.org/licenses/by/4.0",TRUE,"32248400","PMC7297817","ut:000523395700001",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1566,"10.1038/s41598-017-11982-8",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28928396","PMC5605524","ut:000411165100078",NA,TRUE
 "FWF - Austrian Science Fund",2020,1727,"10.1038/s41598-020-57822-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"31974511","PMC6978324","ut:000562833600007",NA,TRUE
 "FWF - Austrian Science Fund",2020,1727,"10.1038/s41598-020-62530-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32221355","PMC7101422","ut:000560409100007",NA,TRUE
@@ -897,21 +897,21 @@
 "FWF - Austrian Science Fund",2020,1884,"10.1038/s41598-020-69908-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32747622","PMC7400577","ut:000556394300001",NA,TRUE
 "FWF - Austrian Science Fund",2020,1884,"10.1038/s41598-020-72452-2",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32968138","PMC7511942","ut:000573849300047",NA,TRUE
 "FWF - Austrian Science Fund",2020,1980,"10.1186/s12864-020-6587-z",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164","1471-2164","http://creativecommons.org/licenses/by/4.0/",TRUE,"32357832","PMC7195740","ut:000531292400001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1186/s12964-019-0466-8",FALSE,"Springer Nature","Cell Communication and Signaling","1478-811X",NA,"1478-811X","1478-811X","http://creativecommons.org/licenses/by/4.0/",TRUE,"31694643","PMC6836476","ut:000495597000002",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-018-07948-7",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30622255","PMC6325117","ut:000455102900014",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-019-08864-0",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"30814504","PMC6393488","ut:000459803500004",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-019-12745-x",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31641111","PMC6805947","ut:000491306200005",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1186/s40478-020-00910-z",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960","2051-5960","http://creativecommons.org/licenses/by/4.0/",TRUE,"32197664","PMC7082933","ut:000521959600003",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s42004-020-0291-4",FALSE,"Springer Nature","Communications Chemistry","2399-3669",NA,"2399-3669","2399-3669","https://creativecommons.org/licenses/by/4.0",TRUE,"34136662","PMC8204736","ut:000524333200002",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s43246-020-0027-0",FALSE,"Springer Nature","Communications Materials","2662-4443",NA,"2662-4443","2662-4443","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000610143900001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-020-14285-1",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31969567","PMC6976629","ut:000511464000010",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-020-15148-5",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"32170062","PMC7070085","ut:000563552900001",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41467-020-18726-9",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"33020470","PMC7536177","ut:000578444900008",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41534-020-0254-8",FALSE,"Springer Nature","npj Quantum Information","2056-6387",NA,"2056-6387","2056-6387","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000514916900001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41398-020-00942-y",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","https://creativecommons.org/licenses/by/4.0",TRUE,"32732969","PMC7393101","ut:000559791600001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41398-019-0681-5",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","https://creativecommons.org/licenses/by/4.0",TRUE,"32066718","PMC7026156","ut:000514257300001",NA,TRUE
-"FWF - Austrian Science Fund",2020,2500,"10.1038/s41534-019-0236-x",FALSE,"Springer Nature","npj Quantum Information","2056-6387",NA,"2056-6387","2056-6387","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000511334200001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2640,"10.1007/s11482-018-9688-y",TRUE,"Springer Nature","Applied Research in Quality of Life","1871-2584","1871-2584","1871-2576","1871-2576","https://creativecommons.org/licenses/by/4.0",TRUE,"32457813","PMC7250648","ut:000534793600001",NA,FALSE
 "FWF - Austrian Science Fund",2020,5148,"10.1038/s41467-019-11692-x",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"31427612","PMC6700202","ut:000481607000002",NA,TRUE
 "FWF - Austrian Science Fund",2020,5256,"10.1038/s41467-020-15620-2",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"32327640","PMC7181837","ut:000530276800001",NA,TRUE
@@ -925,22 +925,22 @@
 "FWF - Austrian Science Fund",2020,2095.8,"10.1080/02757206.2020.1848821",TRUE,"Informa UK Limited","History and Anthropology","0275-7206","0275-7206","1477-2612","0275-7206","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000607436500001",NA,FALSE
 "FWF - Austrian Science Fund",2020,2179.8,"10.1080/2162402x.2020.1776059",FALSE,"Informa UK Limited","OncoImmunology","2162-402X",NA,"2162-402X","2162-4011","http://creativecommons.org/licenses/by/4.0/",TRUE,"32923137","PMC7458617",NA,NA,TRUE
 "FWF - Austrian Science Fund",2020,1296,"10.1098/rsos.191056",FALSE,"The Royal Society","Royal Society Open Science","2054-5703",NA,"2054-5703","2054-5703","http://creativecommons.org/licenses/by/4.0/",TRUE,"32537186","PMC7277283","ut:000535889000001",NA,TRUE
-"FWF - Austrian Science Fund",2020,1500,"10.1098/rsta.2019.0342",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences","1364-503X","1364-503X","1471-2962","1364-503X","http://creativecommons.org/licenses/by/4.0/",TRUE,"32448067","PMC7287328","ut:000537137000014",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1728,"10.1098/rsob.200019",FALSE,"The Royal Society","Open Biology","2046-2441",NA,"2046-2441","2046-2441","http://creativecommons.org/licenses/by/4.0/",TRUE,"32543352","PMC7333891","ut:000542801600001",NA,TRUE
 "FWF - Austrian Science Fund",2020,2448,"10.1098/rsbl.2020.0094",TRUE,"The Royal Society","Biology Letters","1744-9561","1744-9561","1744-957X","1744-9561","http://creativecommons.org/licenses/by/4.0/",TRUE,"32396784","PMC7280039","ut:000535684800005",NA,FALSE
 "FWF - Austrian Science Fund",2020,1044,"10.5334/ijc.1007",FALSE,"Ubiquity Press, Ltd.","International Journal of the Commons","1875-0281",NA,"1875-0281","1875-0281","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000605348900008",NA,TRUE
 "FWF - Austrian Science Fund",2020,1780.96,"10.3368/le.96.3.366",TRUE,"University of Wisconsin Press","Land Economics","0023-7639","0023-7639","1543-8325","0023-7639",NA,TRUE,NA,NA,"ut:000543432400004",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1515/commun-2019-2054",TRUE,"Walter de Gruyter GmbH","Communications","1613-4087","0341-2059","1613-4087","0341-2059","http://creativecommons.org/licenses/by-nc-nd/4.0",TRUE,NA,NA,"ut:000601398900008",NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2000,"10.1515/hsz-2020-0132",TRUE,"Walter de Gruyter GmbH","Biological Chemistry","1437-4315","1431-6730","1437-4315","1431-6730","http://creativecommons.org/licenses/by/4.0",TRUE,"32229688",NA,"ut:000560516600008",NA,FALSE
 "FWF - Austrian Science Fund",2020,2380,"10.1515/mopp-2018-0060",TRUE,"Walter de Gruyter GmbH","Moral Philosophy and Politics","2194-5624","2194-5616","2194-5624","2194-5624","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000626968700005",NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
-"FWF - Austrian Science Fund",2020,1500,"10.1111/brv.12384",TRUE,"Wiley-Blackwell","Biological Reviews","1464-7931",NA,NA,"0006-3231","http://creativecommons.org/licenses/by/4.0/",TRUE,"29119723","PMC5947171","ut:000429699100018",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1111/cgf.13214",TRUE,"Wiley-Blackwell","Computer Graphics Forum","0167-7055","0167-7055","1467-8659","0167-7055","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000404881200053",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1002/anie.201809928",TRUE,"Wiley-Blackwell","Angewandte Chemie International Edition","1433-7851","1433-7851","1521-3773","1433-7851","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"30549167","PMC6637381","ut:000458826800012",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1002/widm.1303",TRUE,"Wiley-Blackwell","WIREs Data Mining and Knowledge Discovery","1942-4787","1942-4787","1942-4795","1942-4795","http://creativecommons.org/licenses/by/4.0/",TRUE,"31656552","PMC6777486","ut:000481516700001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1029/2019gl084480",TRUE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276","0094-8276","1944-8007","0094-8276","http://creativecommons.org/licenses/by/4.0/",TRUE,"32713971","PMC7374945",NA,NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1002/hbe2.179",TRUE,"Wiley-Blackwell","Human Behavior and Emerging Technologies","2578-1863","2578-1863","2578-1863","2578-1863","http://creativecommons.org/licenses/by/4.0/",TRUE,"31894206","PMC6919332","ut:000647617800007",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1029/2020gl087574",TRUE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276","0094-8276","1944-8007","0094-8276","http://creativecommons.org/licenses/by/4.0/",TRUE,"32999512","PMC7507125",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,1512,"10.1002/ecs2.3360",FALSE,"Wiley-Blackwell","Ecosphere","2150-8925","2150-8925","2150-8925","2150-8925","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000623677800010",NA,TRUE
 "FWF - Austrian Science Fund",2020,1576.8,"10.1002/prp2.572",FALSE,"Wiley-Blackwell","Pharmacology Research & Perspectives","2052-1707","2052-1707","2052-1707","2052-1707","http://creativecommons.org/licenses/by/4.0/",TRUE,"32232949","PMC7105846","ut:000530342100010",NA,TRUE
 "FWF - Austrian Science Fund",2020,1772.4,"10.1002/brb3.1790",FALSE,"Wiley-Blackwell","Brain and Behavior","2162-3279","2162-3279","2162-3279","2162-3279","http://creativecommons.org/licenses/by/4.0/",TRUE,"32816400","PMC7559625","ut:000564203000001",NA,TRUE
@@ -951,6 +951,6 @@
 "FWF - Austrian Science Fund",2020,3073.37,"10.1103/physrevlett.123.235101",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","https://creativecommons.org/licenses/by/4.0/",TRUE,"31868466",NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2020,3600,"10.1111/cea.13695",TRUE,"Wiley-Blackwell","Clinical & Experimental Allergy","0954-7894","0954-7894","1365-2222","0954-7894","http://creativecommons.org/licenses/by/4.0/",TRUE,"32578253","PMC7540519","ut:000548127100001",NA,FALSE
 "FWF - Austrian Science Fund",2020,4500,"10.1111/ele.13622",TRUE,"Wiley-Blackwell","Ecology Letters","1461-023X","1461-023X","1461-0248","1461-023X","http://creativecommons.org/licenses/by/4.0/",TRUE,"33051978","PMC7756857","ut:000578750700001",NA,FALSE
-"FWF - Austrian Science Fund",2020,1500,"10.1097/j.pain.0000000000001474",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Pain","0304-3959","0304-3959","1872-6623","0304-3959",NA,TRUE,"30601242","PMC6430418","ut:000480759700019",NA,FALSE
-"FWF - Austrian Science Fund",2020,2500,"10.1212/nxg.0000000000000393",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Neurology Genetics","2376-7839",NA,"2376-7839","2376-7839",NA,TRUE,"32042921","PMC6975175",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2020,2276.24,"10.1142/s1793042120500876",TRUE,"World Scientific Pub Co Pte Lt","International Journal of Number Theory","1793-0421","1793-0421","1793-7310","1793-7310",NA,TRUE,NA,NA,NA,NA,FALSE
