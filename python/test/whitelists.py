@@ -316,3 +316,20 @@ NON_DUPLICATE_ISBNS = [
     "978-3-205-79545-2", # Erica Tietze-Conrat, Tagebücher, Vol 1 + 2,3
     "978-3-7065-5326-1" # Regesten zur Geschichte der Juden in Österreich, Vol 3-4
 ]
+
+
+def publisher_identity(first_publisher, second_publisher):
+    for entry in PUBLISHER_IDENTITY:
+        if first_publisher in entry[0] and second_publisher in entry[1]:
+            return True
+        if first_publisher in entry[1] and second_publisher in entry[0]:
+            return True
+    return False
+
+def in_whitelist(issn, first_publisher, second_publisher):
+    if publisher_identity(first_publisher, second_publisher):
+        return True
+    if issn in JOURNAL_OWNER_CHANGED:
+        return (first_publisher in JOURNAL_OWNER_CHANGED[issn] and
+                second_publisher in JOURNAL_OWNER_CHANGED[issn])
+    return False
