@@ -36,6 +36,7 @@ JOURNAL_OWNER_CHANGED = {
     "1654-9880": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
     "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"], # Evolutionary Bioinformatics
     "1574-7891": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology
+    "1878-0261": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology (electronic)
     "0020-7292": ["Wiley-Blackwell", "Elsevier BV"], # "International Journal of Gynecology & Obstetrics"
     "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Molecular Therapy
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
@@ -106,6 +107,7 @@ JOURNAL_OWNER_CHANGED = {
     "1532-4796": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine (electronic)
     "0013-0095": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography
     "2157-6564": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine
+    "2157-6580": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine (electronic)
     "0002-9122": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany
     "1537-2197": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany (electronic)
     "0024-6115": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
@@ -206,7 +208,8 @@ JOURNAL_OWNER_CHANGED = {
     "1661-8564": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (electronic)
     "1661-8556": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (linking)
     "2474-9842": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # BJS Open
-    "1573-2665": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"] # Journal of Inherited Metabolic Disease
+    "1573-2665": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Inherited Metabolic Disease
+    "2352-8729": ["Elsevier BV", "Wiley-Blackwell"] # Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
