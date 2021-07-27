@@ -281,6 +281,8 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université d'Angers
 - Université de Bordeaux
 - Université de Bourgogne
+- Université de Bretagne Occidentale
+- Université de Bretagne-Sud
 - Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
 - Centre national de la recherche scientifique (CNRS)
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
@@ -288,9 +290,11 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
+- ENS Lyon
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - IMT Atlantique
+- INSA Strasbourg
 - Institut de recherche pour le développement (IRD)
 - Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
 - Institut Laue-Langevin
@@ -323,6 +327,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Nantes
 - Université Nice-Sophia-Antipolis
 - Université de Nouvelle Calédonie
+- Université de Pau et des Pays de l'Adour
 - Université de Poitiers
 - Université de Reims Champagne Ardenne
 - Université de Rennes 1
@@ -330,6 +335,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Strasbourg
 - Université de Toulon
 - Université de Tours
+- Université de Versailles-Saint-Quentin-en-Yvelines
 - Université des Antilles
 - Université du Littoral Côte d'Opale
 - Université Toulouse III
