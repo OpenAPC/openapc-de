@@ -294,6 +294,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - IMT Atlantique
+- INSA de Lyon
 - INSA Strasbourg
 - Institut de recherche pour le développement (IRD)
 - Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
@@ -311,6 +312,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Museum National d'Histoire Naturelle
 - Office National d'Etudes et de Recherches Aérospatiales (ONERA)
 - Paris 8 Vincennes - Saint-Denis
+- Sorbonne Université
 - Université d'Avignon et des Pays de Vaucluse
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
