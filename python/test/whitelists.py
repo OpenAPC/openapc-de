@@ -18,7 +18,8 @@ PUBLISHER_IDENTITY = [
     (["Informa UK Limited"], ["Dove Medical Press Ltd."]), # DMP bought up by T&F in 2017
     (["Bristol University Press"], ["The Policy Press"]), # Policy Press is an imprint of BUP
     (["Anticancer Research USA Inc."], ["International Institute of Anticancer Research"]),
-    (["Brandeis University Press"], ["Dartmouth College Press"]) # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
+    (["Brandeis University Press"], ["Dartmouth College Press"]), # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
+    (["Böhlau"], ["Vandenhoeck & Ruprecht"]) # Böhlau acquired by V&R in 2017 
 ]
 
 
@@ -35,6 +36,7 @@ JOURNAL_OWNER_CHANGED = {
     "1654-9880": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
     "1176-9343": ["Libertas Academica, Ltd.", "SAGE Publications"], # Evolutionary Bioinformatics
     "1574-7891": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology
+    "1878-0261": ["Wiley-Blackwell", "Elsevier BV"], # Molecular Oncology (electronic)
     "0020-7292": ["Wiley-Blackwell", "Elsevier BV"], # "International Journal of Gynecology & Obstetrics"
     "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Molecular Therapy
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
@@ -105,6 +107,7 @@ JOURNAL_OWNER_CHANGED = {
     "1532-4796": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine (electronic)
     "0013-0095": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography
     "2157-6564": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine
+    "2157-6580": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine (electronic)
     "0002-9122": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany
     "1537-2197": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany (electronic)
     "0024-6115": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
@@ -184,7 +187,31 @@ JOURNAL_OWNER_CHANGED = {
     "2001-1326": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Medicine
     "2050-0068": ["Springer Nature", "Wiley-Blackwell"], # Clinical & Translational Immunology
     "1757-448X": ["IOS Press", "IMR Press"], #  Journal of Integrative Neuroscience
-    "0219-6352": ["IOS Press", "IMR Press"] #  Journal of Integrative Neuroscience (linking)
+    "0219-6352": ["IOS Press", "IMR Press"], #  Journal of Integrative Neuroscience (linking)
+    "1539-1663": ["Soil Science Society of America", "Wiley-Blackwell"], # Vadose Zone Journal
+    "2352-8737": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia : Translational Research and Clinical Interventions
+    "2414-6641": ["Universitaet Innsbruck - Innsbruck University Press", "University of Bern"], # Current Issues in Sport Science (CISS)
+    "0003-021X": ["Springer Nature", "Wiley-Blackwell"], # Journal of the American Oil Chemists' Society
+    "1558-9331": ["Springer Nature", "Wiley-Blackwell"], # Journal of the American Oil Chemists' Society (electronic)
+    "1995-8692": ["Bern Open Publishing", "University of Bern"], # Journal of Eye Movement Research
+    "2051-1426": ["Springer Nature", "BMJ"], # Journal for ImmunoTherapy of Cancer
+    "1474-905X": ["Royal Society of Chemistry (RSC)", "Springer Nature"], # Photochemical & Photobiological Sciences
+    "1474-9092": ["Royal Society of Chemistry (RSC)", "Springer Nature"], # Photochemical & Photobiological Sciences (electronic)
+    "2245-0157": ["Aarhus University Library", "Det Kgl. Bibliotek/Royal Danish Library"], # Nordic Journal of Working Life Studies
+    "0884-2914": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR)
+    "2044-5326": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR) (electronic)
+    "0884-1616": ["Cambridge University Press (CUP)", "Springer Nature"], # Journal of Materials Research (JMR) (linking)
+    "0024-4201": ["Springer Nature", "Wiley-Blackwell"], # Lipids
+    "1558-9307": ["Springer Nature", "Wiley-Blackwell"], # Lipids (electronic)
+    "0021-9258": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Journal of Biological Chemistry
+    "2160-1836": ["Genetics Society of America", "Oxford University Press (OUP)"], # G3: Genes|Genomes|Genetics
+    "1661-8564": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (electronic)
+    "1661-8556": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (linking)
+    "2474-9842": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # BJS Open
+    "1573-2665": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Inherited Metabolic Disease
+    "2352-8729": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring
+    "1617-4011": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy 
+    "0935-1221": ["Schweizerbart", "Copernicus GmbH"] # European Journal of Mineralogy (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -272,7 +299,20 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1949-0976", # Gut Microbes, Gold OA since 2020
     "0010-440X", # Comprehensive Psychiatry, Gold OA since 2019
     "1933-6896", # Prion, Gold OA since 2019
-    "1757-448X" # Journal of Integrative Neuroscience, Gold OA since 2018
+    "1757-448X", # Journal of Integrative Neuroscience, Gold OA since 2018,
+    "0303-2434", # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
+    "1350-4827", # Meteorological Applications, Gold OA since 2020
+    "1751-8792", # IET Radar, Sonar & Navigation, Gold OA since 2021
+    "1566-7367", # Catalysis Communications, Gold OA since 2021
+    "0142-9418", # Polymer Testing, Gold OA since 2021
+    "1025-6164", # Myrmecological News
+    "1095-4244", # Wind Energy , Gold OA since 2021
+    "2053-1591", # Materials Research Express, OA since 7/2020
+    "1542-7390", # Space Weather
+    "0021-9258", # Journal of Biological Chemistry, Gold OA since 2021
+    "1661-8564", # International Journal of Public Health, Gold OA since 2021
+    "1935-861X", # Brain Stimulation, Gold OA since 2020
+    "1617-4011" # European Journal of Mineralogy, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
@@ -282,3 +322,20 @@ NON_DUPLICATE_ISBNS = [
     "978-3-205-79545-2", # Erica Tietze-Conrat, Tagebücher, Vol 1 + 2,3
     "978-3-7065-5326-1" # Regesten zur Geschichte der Juden in Österreich, Vol 3-4
 ]
+
+
+def publisher_identity(first_publisher, second_publisher):
+    for entry in PUBLISHER_IDENTITY:
+        if first_publisher in entry[0] and second_publisher in entry[1]:
+            return True
+        if first_publisher in entry[1] and second_publisher in entry[0]:
+            return True
+    return False
+
+def in_whitelist(issn, first_publisher, second_publisher):
+    if publisher_identity(first_publisher, second_publisher):
+        return True
+    if issn in JOURNAL_OWNER_CHANGED:
+        return (first_publisher in JOURNAL_OWNER_CHANGED[issn] and
+                second_publisher in JOURNAL_OWNER_CHANGED[issn])
+    return False

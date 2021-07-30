@@ -273,7 +273,7 @@ Veneto Institute of Oncology IOV IRCCS,iov_ircss,Veneto Institute of Oncology (I
 Bielefeld FH,bielefeld_fh,University of Applied Sciences Bielefeld,EUROPE,DEU,NW,fhbielefeld,grid.434083.8,https://ror.org/00edvg943
 Pädagogische Hochschule Luzern,ph_luzern,Pädagogische Hochschule Luzern,EUROPE,CHE,CH.LU,phluzern,grid.465965.d,https://ror.org/0235ynq74
 Universität Luzern,luzern_u,Universität Luzern,EUROPE,CHE,CH.LU,uniluzern,grid.449852.6,https://ror.org/00kgrkn83
-Universität Bern,bern_u,Universität Bern,EUROPE,CHE,CH.BE,unibern,grid.5734.5,https://ror.org/02k7v4d05
+University of Bern,bern_u,University of Bern,EUROPE,CHE,CH.BE,unibern,grid.5734.5,https://ror.org/02k7v4d05
 ETH Zurich,ethz,ETH Zürich,EUROPE,CHE,CH.ZH,ethz,grid.5801.c,https://ror.org/05a28rw58
 University of Gävle,gavle_u,University of Gävle,EUROPE,SWE,SE-X,NA,grid.69292.36,https://ror.org/043fje207
 Kiel U,kiel_u,Christian-Albrechts-Universität zu Kiel,EUROPE,DEU,SH,unikiel,grid.9764.c,https://ror.org/04v76ef78
@@ -286,3 +286,36 @@ Institut Laue-Langevin,laue_langevin,Institut Laue-Langevin,EUROPE,FRA,FR-ARA,co
 ISARA,isara,Institut supérieur d'agriculture Rhône-Alpes,EUROPE,FRA,FR-ARA,couperin/isara,grid.434913.8,https://ror.org/03xsqa235
 Université Paris-Est Marne-la-Vallée,paris_est_u,Université Paris-Est Marne-la-Vallée,EUROPE,FRA,FR-IDF,couperin/upem,grid.10594.39,NA
 DIPF,dipf,DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation,EUROPE,DEU,HE,dipf,grid.461683.e,https://ror.org/0327sr118
+University of Basel,basel_u,University of Basel,EUROPE,CHE,CH.BS,unibasel,grid.6612.3,https://ror.org/02s6k3f65
+CNAM,cnam,Conservatoire national des arts et métiers,EUROPE,FRA,FR-IDF,couperin/cnam,grid.36823.3c,https://ror.org/0175hh227
+IMT Atlantique,imt_atlantique,IMT Atlantique Bretagne Pays de la Loire,EUROPE,FRA,FR-BRE,couperin/imt,grid.486295.4,https://ror.org/030hj3061
+HS Düsseldorf,hs_duesseldorf,Hochschule Düsseldorf,EUROPE,DEU,NW,hsduesseldorf,grid.440973.d,https://ror.org/00ftx0026
+Université des Antilles,antilles_u,Université des Antilles,EUROPE,FRA,FR-GP,couperin/antilles,grid.412130.5,https://ror.org/02ryfmr77
+ENSICAEN,ensicaen,École nationale supérieure d'ingénieurs de Caen,EUROE,FRA,FR-NOR,couperin/ensicaen,grid.424453.0,https://ror.org/01fpqqe90
+Natural Resources Institute Finland,nri_finland,Natural Resources Institute Finland,EUROPE,FIN,FI-18,NA,grid.22642.30,https://ror.org/02hb7bm88
+University of Applied Sciences Savonia,savonia_uas,University of Applied Sciences Savonia,EUROPE,FIN,FI-15,NA,grid.449606.9,https://ror.org/0238fqd79
+SAMK Satakunta University of Applied Sciences,satakunta_uas,Satakunta University of Applied Sciences,EUROPE,FIN,FI-17,NA,grid.449591.4,https://ror.org/008wzdf98
+JAMK University of Applied Sciences,jamk_uas,JAMK University of Applied Sciences,EUROPE,FIN,FI-08,NA,grid.449368.4,https://ror.org/01dn2ng71
+Haaga-Helia University of Applied Sciences,haaga_helia_uas,Haaga-Helia University of Applied Sciences,EUROPE,FIN,FI-18,NA,grid.445601.2,https://ror.org/05cqf4668
+VTT Technical Research Centre of Finland Ltd,vtt,VTT Technical Research Centre of Finland,EUROPE,FIN,FI-18,NA,grid.6324.3,https://ror.org/04b181w54
+Häme University of Applied Sciences,hame_uas,Häme University of Applied Sciences,EUROPE,FIN,FI-06,NA,grid.448972.4,https://ror.org/01eg9n443
+Université du Littoral Côte d'Opale,ulco,Université du Littoral Côte d'Opale,EUROPE,FRA,FR-HDF,couperin/ulco,grid.440918.0,https://ror.org/02gdcg342
+Université de Tours,tours_u,Université de Tours,EUROPE,FRA,FR-CVL,couperin/tours,grid.12366.30,https://ror.org/02wwzvj46
+Université Savoie Mont Blanc,savoie_u,Université Savoie Mont Blanc,EUROPE,FRA,FR-ARA,couperin/savoie,grid.5388.6,https://ror.org/04gqg1a07
+Paris 8 Vincennes - Saint-Denis,paris_8_u,Paris 8 Vincennes - Saint-Denis,EUROPE,FRA,FR-IDF,couperin/paris-8,grid.15878.33,https://ror.org/04wez5e68
+ONERA,onera,Office National d'Etudes et de Recherches Aérospatiales (ONERA),EUROPE,FRA,FR-IDF,couperin/onera,grid.4365.4,https://ror.org/005y2ap84
+Université de Nouvelle Calédonie,nouvelle_caledonie_u,Université de Nouvelle Calédonie,EUROPE,FRA,NA,couperin/nouvelle-caledonie,grid.449988.0,https://ror.org/02jrgcx64
+Le Mans Université,le_mans_u,Le Mans Université,EUROPE,FRA,FR-PDL,couperin/le-mans,grid.449623.e,Université Nantes Angers Le Mans
+Laboratoire national d'essais (LNE),lne,Laboratoire national d'essais (LNE),EUROPE,FRA,FR-IDF,couperin/lne,grid.22040.34,https://ror.org/01ph39d13
+Université de Lille,lille_u,Université de Lille,EUROPE,FRA,FR-HDF,couperin/lille,grid.503422.2,https://ror.org/02kzqn938
+MHB Fontane,mhb_fontane,Medizinische Hochschule Brandenburg Theodor Fontane,EUROPE,DEU,BB,mhbfontane,grid.473452.3,https://ror.org/04839sh14
+HTW Dresden,htw_dresden,Hochschule für Technik und Wirtschaft Dresden,EUROPE,DEU,SN,htwdresden,grid.434947.9,https://ror.org/05q5pk319
+Thomas Jefferson University,jefferson_u,Thomas Jefferson University,NORTH_AMERICA,USA,US-PA,unijefferson,grid.265008.9,https://ror.org/00ysqcn41
+ENS Lyon,ens_lyon,ENS Lyon,EUROPE,FRA,FR-ARA,couperin/ens_lyon,grid.15140.31,https://ror.org/04zmssz18
+INSA Strasbourg,insa_strasbourg,Institut National des Sciences Appliquées de Strasbourg,EUROPE,FRA,FR-GES,couperin/insa-strasbourg,grid.435015.6,https://ror.org/001nta019
+Université de Pau et des Pays de l'Adour,pau_u,Université de Pau et des Pays de l'Adour,EUROPE,FRA,FR-NAQ,couperin/pau,grid.5571.6,https://ror.org/01frn9647
+Université de Bretagne Occidentale,bretagne_u,Université de Bretagne Occidentale,EUROPE,FRA,FR-BRE,couperin/ubo,grid.6289.5,https://ror.org/01b8h3982
+Université de Versailles-Saint-Quentin-en-Yvelines,uvsq,Université de Versailles-Saint-Quentin-en-Yvelines,EUROPE,FRA,FR-IDF,couperin/uvsq,grid.12832.3a,https://ror.org/03mkjjy25
+Université de Bretagne-Sud,bretagne_sud_u,Université de Bretagne-Sud,EUROPE,FRA,FR-BRE,couperin/ubs,grid.267180.a,https://ror.org/04ed7fw48
+Sorbonne Université,sorbonne_u,Sorbonne Université,EUROPE,FRA,FR-IDF,couperin/sorbonne-universite,grid.462844.8,https://ror.org/02en5vm52
+INSA de Lyon,insa_lyon,INSA de Lyon,EUROPE,FRA,FR-ARA,couperin/insa-lyon,grid.15399.37,https://ror.org/050jn9y42

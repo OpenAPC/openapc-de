@@ -16,10 +16,10 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |122,003 | 237,675,523    | 287 |
-| Monographs       |1,233 | 7,640,176    | 8 |
+| Articles         |136,357 | 263,287,759    | 320 |
+| Monographs       |1,287 | 8,161,352    | 12 |
 
-[![Build Status](https://travis-ci.org/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.org/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
+[![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
 ## How to access the data?
 
@@ -50,12 +50,15 @@ So far, the following German universities have agreed to share information on pa
 - [Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
+- [Hochschule Düsseldorf](https://bib.hs-duesseldorf.de/en)
+- [Hochschule für Technik und Wirtschaft Dresden](https://www.htw-dresden.de/oa)
 - [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-science/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Martin-Luther-Universität Halle-Wittenberg](http://bibliothek.uni-halle.de/dbib/openaccess/publikationsfonds/)
 - [Philipps-Universität Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/publikationsfonds)
+- [Medizinische Hochschule Brandenburg Theodor Fontane](https://www.mhb-fontane.de/open-access-publikationsfonds-482.html)
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
 - [JGU Mainz](https://www.openaccess.uni-mainz.de/publikationsfonds-der-jgu/)
 - [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
@@ -146,6 +149,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 
 - [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Bern University of Applied Sciences](http://www.bfh.ch/)
+- [University of Basel](https://www.unibas.ch/en/University/Administration-Services/Vice-President-for-Research/Grants-Office/Grants-Office-News/Grants-Office-Newsletter-2020-12/Open-Access.html)
 - [University of Bern](https://www.unibe.ch/university/services/university_library/services/open_science/open_access/index_eng.html)
 - [Eawag - Swiss Federal Institute of Aquatic Science and Technology](https://www.eawag.ch/en/) (via [Lib4RI](https://www.lib4ri.ch/services/open-access.html))
 - [Empa - Swiss Federal Laboratories for Materials Science and Technology](https://www.empa.ch/) (via [Lib4RI](https://www.lib4ri.ch/services/open-access.html))
@@ -228,14 +232,21 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - Uppsala University
 
 
-## Institutions from Finland:
+## Institutions from Finland (Some of them reported by the [CSC](https://www.csc.fi/en/-/virta-publication-information-service)):
 
+- Haaga-Helia University of Applied Sciences
+- Häme University of Applied Sciences
 - [Hanken School of Economics](https://www.hanken.fi/en)
+- JAMK University of Applied Sciences
 - [Laurea University of Applied Sciences](https://www.laurea.fi/en/)
+- Natural Resources Institute Finland
+- Satakunta University of Applied Sciences (SAMK)
 - [Tampere University](https://libguides.tuni.fi/openaccess)
+- University of Applied Sciences Savonia
 - [University of Eastern Finland](https://www.uef.fi/en/etusivu)
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
 - [University of Turku](https://utuguides.fi/openaccess)
+- VTT Technical Research Centre of Finland Ltd
 
 ## Institutions from France
 
@@ -246,13 +257,21 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université d'Angers
 - Université de Bordeaux
 - Université de Bourgogne
+- Université de Bretagne Occidentale
+- Université de Bretagne-Sud
 - Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
 - Centre national de la recherche scientifique (CNRS)
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
+- Conservatoire national des arts et métiers
+- École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
+- ENS Lyon
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
+- IMT Atlantique
+- INSA de Lyon
+- INSA Strasbourg
 - Institut de recherche pour le développement (IRD)
 - Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
 - Institut Laue-Langevin
@@ -263,8 +282,13 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut national polytechnique de Toulouse (INPT)
 - Institut supérieur d'agriculture Rhône-Alpes (ISARA)
 - Institut Pasteur
+- Laboratoire national d'essais (LNE)
+- Le Mans Université
 - MINES ParisTech
 - Museum National d'Histoire Naturelle
+- Office National d'Etudes et de Recherches Aérospatiales (ONERA)
+- Paris 8 Vincennes - Saint-Denis
+- Sorbonne Université
 - Université d'Avignon et des Pays de Vaucluse
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
@@ -275,21 +299,29 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
+- Université de Lille
 - Université de Montpellier
 - Université de Lorraine
 - Université de Nantes
 - Université Nice-Sophia-Antipolis
+- Université de Nouvelle Calédonie
+- Université de Pau et des Pays de l'Adour
 - Université de Poitiers
 - Université de Reims Champagne Ardenne
 - Université de Rennes 1
 - Université de La Réunion
 - Université de Strasbourg
 - Université de Toulon
+- Université de Tours
+- Université de Versailles-Saint-Quentin-en-Yvelines
+- Université des Antilles
+- Université du Littoral Côte d'Opale
 - Université Toulouse III
 - Université Paris Descartes (Paris V)
 - Université Paris-Est Marne-la-Vallée
 - Université Pierre et Marie Curie (Paris VI)
 - Université Paris Diderot (Paris VII)
+- Université Savoie Mont Blanc
 
 ## Participating Institutions from the United Kingdom:
 
@@ -388,6 +420,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
 - [Indiana University - Purdue University Indianapolis (IUPUI)](http://www.ulib.iupui.edu/digitalscholarship/openaccess/oafund)
 - [University of Rhode Island](https://uri.libguides.com/oafund)
+- [Thomas Jefferson University](https://library.jefferson.edu/pub/open_access.cfm)
 - [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
 
 ## Participating Canadian Institutions:
@@ -410,13 +443,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 122,003 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 287 research performing institutions and research funders. 
+The article data set contains information on 136,357 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 320 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 237,675,523. The average payment was € 1,948 and the median was € 1,769.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 263,287,759. The average payment was € 1,931 and the median was € 1,753.
 
-75,137 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 120,708,304, including value-added tax; the average payment was € 1,607 (median =  € 1,523, SD = € 782).
+86,916 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 140,336,112, including value-added tax; the average payment was € 1,615 (median =  € 1,536, SD = € 775).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 46,866 articles in the data set were published in hybrid journals. Total expenditure amounts to 116,967,218 €; the average fee was € 2,496 (median =  € 2,458, SD = € 997).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 49,441 articles in the data set were published in hybrid journals. Total expenditure amounts to 122,951,647 €; the average fee was € 2,487 (median =  € 2,447, SD = € 993).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -438,20 +471,20 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2011   |         770|   1,157|     1,127| 105 -  4,666|               6|       1,781|         2,085|      552 - 2,631|
 |2012   |       1,567|   1,172|     1,175|  69 -  4,498|              20|       2,308|         2,412|      997 - 2,700|
 |2013   |       2,455|   1,229|     1,178|  50 -  4,574|           1,098|       2,257|         2,260|      120 - 4,679|
-|2014   |       5,178|   1,374|     1,255|  40 -  9,028|           6,517|       2,238|         2,200|      132 - 6,000|
-|2015   |       8,428|   1,521|     1,448|  59 -  5,669|           6,685|       2,610|         2,622|      127 - 8,636|
-|2016   |       9,780|   1,634|     1,530|  63 -  5,985|           7,880|       2,552|         2,516|        2 - 9,079|
-|2017   |      14,398|   1,718|     1,559|   9 - 14,634|          10,584|       2,532|         2,475|       37 - 9,858|
-|2018   |      13,540|   1,700|     1,591|  13 -  8,926|           9,007|       2,567|         2,545|       18 - 9,073|
-|2019   |      12,910|   1,644|     1,623|  22 -  7,684|           4,652|       2,429|         2,368|       75 - 9,500|
-|2020   |       4,926|   1,753|     1,733|   0 -  5,832|             412|       2,564|         2,857|      266 - 5,317|
-|2021   |          80|   1,710|     1,774| 309 -  3,004|               1|       1,054|         1,054|    1,054 - 1,054|
+|2014   |       5,177|   1,374|     1,255|  40 -  9,028|           6,518|       2,239|         2,200|      132 - 6,000|
+|2015   |       8,425|   1,520|     1,448|  59 -  5,669|           6,687|       2,610|         2,622|      127 - 8,636|
+|2016   |       9,778|   1,634|     1,530|  63 -  5,985|           7,882|       2,552|         2,516|        2 - 9,079|
+|2017   |      14,467|   1,716|     1,557|   9 - 14,634|          10,595|       2,531|         2,473|       37 - 9,858|
+|2018   |      14,438|   1,703|     1,589|  13 -  8,926|           9,159|       2,564|         2,544|       18 - 9,073|
+|2019   |      14,543|   1,649|     1,609|  11 -  7,684|           4,920|       2,417|         2,326|       75 - 9,500|
+|2020   |      13,140|   1,681|     1,674|   0 -  8,906|           2,324|       2,365|         2,383|      130 - 7,384|
+|2021   |       1,051|   1,815|     1,692| 117 -  5,617|             228|       2,451|         2,341|      169 - 5,059|
 
 ### Books (BPCs)
 
-The book data set contains information on 1,233 open access books. Publication fees were supported financially by 8 research performing institutions and funders. 
+The book data set contains information on 1,287 open access books. Publication fees were supported financially by 12 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 7,640,176. The average payment was € 6,196 and the median was € 6,281.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 8,161,352. The average payment was € 6,341 and the median was € 7,333.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -471,8 +504,8 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2016   |              41|   12,668|     14,000| 1,190 - 22,000|             NA|       NA|         NA|            NA|
 |2017   |             184|    9,250|      8,780| 1,075 - 21,000|            195|    1,981|      1,981| 1,981 - 1,981|
 |2018   |             143|    8,991|      8,250|   476 - 18,000|            191|    1,875|      1,875| 1,875 - 1,875|
-|2019   |             144|    8,396|      8,250| 1,190 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
-|2020   |              35|    6,777|      7,144| 1,473 -  9,901|              1|    1,875|      1,875| 1,875 - 1,875|
+|2019   |             147|    8,338|      8,250| 1,190 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
+|2020   |              85|    8,600|      8,500|   190 - 19,200|              1|    1,875|      1,875| 1,875 - 1,875|
 
 
 ## Use of external sources
@@ -515,10 +548,10 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.72%       |
-|PubMed ID                  |  75.8%      |
-|PubMed Central ID          |  69.28%     |
-|Web of Science record ID   | 93.27%      |
+|DOI                        |  99.73%       |
+|PubMed ID                  |  74.83%      |
+|PubMed Central ID          |  68.38%     |
+|Web of Science record ID   | 92.08%      |
 
 
 
@@ -546,7 +579,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Christina Hemme, Ulrich Herb, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Max Mosterd, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Ilka Rudolf, Pavla Rygelová, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Philipp Zumstein
+Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Christina Hemme, Ulrich Herb, Elfi Hesse, Larissa Gordon, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Max Mosterd, Marcel Nieme, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Ilka Rudolf, Pavla Rygelová, Annette Scheiner, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Kálmán Szőke, Linda Thomas, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Philipp Zumstein
 
 ## Contact
 

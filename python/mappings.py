@@ -27,6 +27,8 @@ PUBLISHER_MAPPINGS = {
     "Future Science Ltd": "Future Science, LTD",
     "Edinburgh University Global Health Society": "International Global Health Society",
     "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
+    "CMA Joule Inc.": "Joule Inc.",
+    "Academic Conferences and Publishing International Limited": "Academic Conferences International Ltd",
     # books
     "DE GRUYTER": "De Gruyter",
     "DE GRUYTER SAUR": "De Gruyter",
@@ -95,6 +97,7 @@ JOURNAL_MAPPINGS = {
     "Scientific Repor.": "Scientific Reports",
     "PAIN": "Pain",
     "G3&amp;#58; Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
+    "G3 Genes|Genomes|Genetics": "G3: Genes|Genomes|Genetics",
     "Transactions of the Royal Society of Tropical Medicine and Hygiene": "Transactions of The Royal Society of Tropical Medicine and Hygiene",
     "Org. Biomol. Chem.": "Organic & Biomolecular Chemistry",
     "PLoS Medicine": "PLOS Medicine",
@@ -283,7 +286,17 @@ JOURNAL_MAPPINGS = {
     "The African Journal of Food, Agriculture, Nutrition and Development": "African Journal of Food, Agriculture, Nutrition and Development",
     "WIREs Water": "Wiley Interdisciplinary Reviews: Water",
     "Clinical Orthopaedics & Related Research": "Clinical Orthopaedics and Related Research",
-    "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France"
+    "BSGF - Earth Sciences Bulletin": "Bulletin de la Société géologique de France",
+    "CLEAN – Soil, Air, Water": "CLEAN - Soil, Air, Water",
+    "ZDM – Mathematics Education": "ZDM",
+    "Risk Governance and Control: Financial Markets and Institutions": "Risk Governance and Control: Financial Markets & Institutions",
+    "Raumforschung und Raumordnung | Spatial Research and Planning": "Raumforschung und Raumordnung",
+    "Journal of Occupational & Environmental Medicine": "Journal of Occupational and Environmental Medicine",
+    "Chemical Engineering and Processing - Process Intensification": "Chemical Engineering and Processing: Process Intensification",
+    "Informatik Spektrum": "Informatik-Spektrum",
+    "BMJ Global health": "BMJ Global Health",
+    "Electronic Journal of e-Government": "The Electronic Journal of e-Government",
+    "WIREs Developmental Biology": "Wiley Interdisciplinary Reviews: Developmental Biology"
 }
 
 COLUMN_NAMES = {
@@ -313,7 +326,7 @@ COLUMN_NAMES = {
 }
 
 HYBRID_STATUS = {
-    "TRUE": ["true", "hybrid", "wahr", "yes", "ja"],
+    "TRUE": ["true", "hybrid", "hybride", "wahr", "yes", "ja"],
     "FALSE": ["false", "full open", "falsch", "no", "gold_paid", "nein"]
 }
 

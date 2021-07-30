@@ -141,22 +141,6 @@ for data_file, metadata in DATA_FILES.items():
                 isbn_duplicate_list += isbn_list
             line += 1
 
-def publisher_identity(first_publisher, second_publisher):
-    for entry in wl.PUBLISHER_IDENTITY:
-        if first_publisher in entry[0] and second_publisher in entry[1]:
-            return True
-        if first_publisher in entry[1] and second_publisher in entry[0]:
-            return True
-    return False
-
-def in_whitelist(issn, first_publisher, second_publisher):
-    if publisher_identity(first_publisher, second_publisher):
-        return True
-    if issn in wl.JOURNAL_OWNER_CHANGED:
-        return (first_publisher in wl.JOURNAL_OWNER_CHANGED[issn] and
-                second_publisher in wl.JOURNAL_OWNER_CHANGED[issn])
-    return False
-
 def check_line_length(row_object):
     __tracebackhide__ = True
     correct_length = DATA_FILES[row_object.origin]["row_length"]
@@ -277,7 +261,7 @@ def check_isbns(row_object):
         return
     group_and_publisher = _get_isbn_group_publisher(isbn)
     for other_publisher in isbn_dict[group_and_publisher]:
-        if other_publisher != publisher and not publisher_identity(publisher, other_publisher):
+        if other_publisher != publisher and not wl.publisher_identity(publisher, other_publisher):
             msg = line_str + ('Two book entries share a common group-publisher combination in ' +
                               'their ISBNs ({}), but the publisher name differs ("{}" vs "{}")')
             fail(msg.format(group_and_publisher, publisher, other_publisher))
@@ -342,7 +326,7 @@ def check_name_consistency(row_object):
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
             other_hybrid = other_row["is_hybrid"]
-            if not other_publ == publ and not in_whitelist(issn, publ, other_publ):
+            if not other_publ == publ and not wl.in_whitelist(issn, publ, other_publ):
                 ret = msg.format("", issn, "publisher name", publ, other_publ)
                 fail(ret)
             if not other_journal == journal:
@@ -357,7 +341,7 @@ def check_name_consistency(row_object):
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
             other_hybrid = other_row["is_hybrid"]
-            if not other_publ == publ and not in_whitelist(issn_p, publ, other_publ):
+            if not other_publ == publ and not wl.in_whitelist(issn_p, publ, other_publ):
                 ret = msg.format("Print ", issn_p, "publisher name", publ, other_publ)
                 fail(ret)
             if not other_journal == journal:
@@ -372,7 +356,7 @@ def check_name_consistency(row_object):
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
             other_hybrid = other_row["is_hybrid"]
-            if not other_publ == publ and not in_whitelist(issn_e, publ, other_publ):
+            if not other_publ == publ and not wl.in_whitelist(issn_e, publ, other_publ):
                 ret = msg.format("Electronic ", issn_e, "publisher name", publ, other_publ)
                 fail(ret)
             if not other_journal == journal:
@@ -387,7 +371,7 @@ def check_name_consistency(row_object):
             other_publ = other_row["publisher"]
             other_journal = other_row["journal_full_title"]
             other_hybrid = other_row["is_hybrid"]
-            if not other_publ == publ and not in_whitelist(issn_l, publ, other_publ):
+            if not other_publ == publ and not wl.in_whitelist(issn_l, publ, other_publ):
                 ret = msg.format("Linking ", issn_l, "publisher name", publ, other_publ)
                 fail(ret)
             if not other_journal == journal:
