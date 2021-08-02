@@ -19,7 +19,8 @@ PUBLISHER_IDENTITY = [
     (["Bristol University Press"], ["The Policy Press"]), # Policy Press is an imprint of BUP
     (["Anticancer Research USA Inc."], ["International Institute of Anticancer Research"]),
     (["Brandeis University Press"], ["Dartmouth College Press"]), # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
-    (["Böhlau"], ["Vandenhoeck & Ruprecht"]) # Böhlau acquired by V&R in 2017 
+    (["Böhlau"], ["Vandenhoeck & Ruprecht"]), # Böhlau acquired by V&R in 2017 
+    (["Nomos Verlagsgesellschaft mbH & Co. KG"], ["Velbrück Wissenschaft"]) # Velbrück uses the Nomos eLibrary to publish its OA books
 ]
 
 
