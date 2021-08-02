@@ -367,12 +367,17 @@ class EZBSrcaping(object):
 
 class DOABAnalysis(object):
 
-    # Mappings from DOAB fields to OpenAPC values
+    # Priority mappings from DOAB fields to OpenAPC values. Unfortuately, the current DOAB CSV file is a real mess...
     MAPPINGS = {
-        "dc.title": "book_title",
-        "oapen.relation.isPublishedBy_publisher.name": "publisher",
-        "BITSTREAM License": "license_ref"
+        "book_title": ["dc.title", "dc.subject.other"],
+        "publisher": ["oapen.relation.isPublishedBy_publisher.name", "oapen.relation.isPublishedBy", "oapen.relation.isPartOfBook_dc.title", "oapen.imprint"],
+        "license_ref": ["BITSTREAM License"]
     }
+    ISBN_FIELDS = ["oapen.relation.isPublishedBy_publisher.name",
+                   "oapen.relation.isPublisherOf",
+                   "oapen.relation.isbn"]
+
+    DOAB_ISBN_RE = re.compile(r"97[89]\d{10}")
 
     def __init__(self, isbn_handling, doab_csv_file, update=False, verbose=False):
         self.isbn_map = {}
@@ -392,11 +397,10 @@ class DOABAnalysis(object):
         duplicate_isbns = []
         reader = csv.DictReader(lines)
         for line in reader:
-            isbn_string = line["oapen.relation.isbn"]
-            record_type = line["dc.type"]
             # ATM we focus on books only
-            if record_type != "book":
+            if line["dc.type"] != "book" and line["dc.title.alternative"] != "book":
                 continue
+            isbn_string = " ".join([line[field] for field in self.ISBN_FIELDS])
             # may contain multi-values split by a whitespace, semicolon or double vbar...
             isbn_string = isbn_string.replace(";", " ")
             isbn_string = isbn_string.replace("||", " ")
@@ -419,7 +423,12 @@ class DOABAnalysis(object):
                 else:
                     isbn = result["normalised"]
                 if isbn not in self.isbn_map:
-                    new_line = self._reduce_line(line)
+                    new_line = self._extract_line_data(line)
+                    if verbose:
+                        for field in ["publisher", "book_title"]:
+                            if not has_value(new_line[field]):
+                                msg = "Line {}: No '{}' value found for ISBN {}" 
+                                print_r(msg.format(reader.line_num, field, isbn))
                     self.isbn_map[isbn] = new_line
                 else:
                     if isbn not in duplicate_isbns:
@@ -429,12 +438,16 @@ class DOABAnalysis(object):
         for duplicate in duplicate_isbns:
             # drop duplicates alltogether
             del(self.isbn_map[duplicate])
+        if verbose:
+            print_b("ISBN map created, contains " + str(len(self.isbn_map)) + " entries")
 
-    def _reduce_line(self, line):
-        new_line = {}
-        for key, value in line.items():
-            if key in self.MAPPINGS:
-                new_line[self.MAPPINGS[key]] = value
+    def _extract_line_data(self, line):
+        new_line = {key: "" for key in self.MAPPINGS.keys()}
+        for key, prio_list in self.MAPPINGS.items():
+            for field in prio_list:
+                if has_value(line[field]) and not self.DOAB_ISBN_RE.search(line[field]):
+                    new_line[key] = line[field]
+                    break
         return new_line
 
     def lookup(self, isbn):
