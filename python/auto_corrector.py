@@ -43,7 +43,7 @@ CORRECT_MSG = ("How do you want to proceed?\n" +
                "5) Get additional information from the EZB\n> ")
 
 QUOTE_MASK = [True, False, False, True, True, True, True, True, True, True, True,
-              True, True, True, True, True, True, True]
+              True, True, True, True, True, True, True, True]
             
 
 EZBS = oat.EZBSrcaping()
