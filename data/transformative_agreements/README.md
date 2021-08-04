@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 41,843 articles, published at 261 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 41,915 articles, published at 262 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 41,843 articles, published at 261 instituti
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
 |Swiss Consortium Elsevier agreement          |     1820|
-|DEAL Wiley Germany                           |     1379|
+|DEAL Wiley Germany                           |     1451|
 |DEAL Springer Nature Germany                 |      812|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -161,6 +161,7 @@ This dataset contains information on 41,843 articles, published at 261 instituti
 |Royal Botanic Gardens                                                                                                                              |       76|
 |Cranfield University                                                                                                                               |       75|
 |Bangor University                                                                                                                                  |       72|
+|Bochum U                                                                                                                                           |       72|
 |Hamburg TUHH                                                                                                                                       |       72|
 |Paris Lodron University of Salzburg                                                                                                                |       72|
 |University of Hull                                                                                                                                 |       72|
