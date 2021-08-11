@@ -212,7 +212,9 @@ JOURNAL_OWNER_CHANGED = {
     "1573-2665": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Inherited Metabolic Disease
     "2352-8729": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring
     "1617-4011": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy 
-    "0935-1221": ["Schweizerbart", "Copernicus GmbH"] # European Journal of Mineralogy (linking)
+    "0935-1221": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy (linking)
+    "2211-8179": ["Elsevier BV", "Ubiquity Press, Ltd."], # Global Heart
+    "2211-8160": ["Elsevier BV", "Ubiquity Press, Ltd."] # Global Heart (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -316,7 +318,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1617-4011", # European Journal of Mineralogy, Gold OA since 2020
     "1470-160X", # Ecological Indicators, Gold OA since 2021
     "2213-7165", # Journal of Global Antimicrobial Resistance, Gold OA since 2020
-    "0965-2299" # Complementary Therapies in Medicine, Gold OA since 2021
+    "0965-2299", # Complementary Therapies in Medicine, Gold OA since 2021
+    "2211-8160" # Global Heart, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
