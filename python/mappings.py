@@ -29,6 +29,7 @@ PUBLISHER_MAPPINGS = {
     "Scientific Research Publishing, Inc,": "Scientific Research Publishing, Inc.",
     "CMA Joule Inc.": "Joule Inc.",
     "Academic Conferences and Publishing International Limited": "Academic Conferences International Ltd",
+    "Modestum Publishing Ltd": "Modestum Limited",
     # books
     "DE GRUYTER": "De Gruyter",
     "DE GRUYTER SAUR": "De Gruyter",
