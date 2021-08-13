@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 41,915 articles, published at 262 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 41,997 articles, published at 263 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 41,915 articles, published at 262 instituti
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
 |Swiss Consortium Elsevier agreement          |     1820|
-|DEAL Wiley Germany                           |     1451|
-|DEAL Springer Nature Germany                 |      812|
+|DEAL Wiley Germany                           |     1494|
+|DEAL Springer Nature Germany                 |      851|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
 |Austrian Consortium RSC agreement            |      179|
@@ -154,6 +154,7 @@ This dataset contains information on 41,915 articles, published at 262 instituti
 |Royal Holloway, University of London                                                                                                               |       87|
 |City University London                                                                                                                             |       86|
 |Sheffield Hallam University                                                                                                                        |       82|
+|Siegen U                                                                                                                                           |       82|
 |TU Berlin                                                                                                                                          |       82|
 |PSI - Paul Scherrer Institute                                                                                                                      |       78|
 |University of Portsmouth                                                                                                                           |       78|
