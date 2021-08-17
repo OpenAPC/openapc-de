@@ -11,8 +11,9 @@ python/out*.csv
 python/venv/
 # Exclude downloaded ISSN-L tables
 python/issnltables/
-# Exclude old reports
+# Exclude old reports + report temp files
 python/old_reports/
+python/report.*
 # Exclude temp files
 python/tempfiles/
 # Exclude python byte code
