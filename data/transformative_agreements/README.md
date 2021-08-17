@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 41,997 articles, published at 263 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 42,086 articles, published at 264 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 41,997 articles, published at 263 instituti
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
 |Swiss Consortium Elsevier agreement          |     1820|
-|DEAL Wiley Germany                           |     1494|
-|DEAL Springer Nature Germany                 |      851|
+|DEAL Wiley Germany                           |     1560|
+|DEAL Springer Nature Germany                 |      874|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
 |Austrian Consortium RSC agreement            |      179|
@@ -151,6 +151,7 @@ This dataset contains information on 41,997 articles, published at 263 instituti
 |Liverpool John Moores University                                                                                                                   |      102|
 |Heriot-Watt University                                                                                                                             |       98|
 |TU Chemnitz                                                                                                                                        |       93|
+|GFZ-Potsdam                                                                                                                                        |       89|
 |Royal Holloway, University of London                                                                                                               |       87|
 |City University London                                                                                                                             |       86|
 |Sheffield Hallam University                                                                                                                        |       82|
