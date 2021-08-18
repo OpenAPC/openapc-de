@@ -16,6 +16,7 @@ import sys
 from urllib.parse import quote_plus, urlencode
 from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
 from urllib.error import HTTPError, URLError
+import requests
 import xml.etree.ElementTree as ET
 
 import mappings
@@ -1272,12 +1273,10 @@ def get_metadata_from_pubmed(doi_string):
                }
     url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=doi:"
     url += doi
-    req = Request(url)
     ret_value = {'success': True}
     try:
-        response = urlopen(req)
-        content_string = response.read()
-        root = ET.fromstring(content_string)
+        request = requests.get(url)
+        root = ET.fromstring(request.text)
         pubmed_data = {}
         xpaths = {
             "pmid": ".//resultList/result/pmid",
