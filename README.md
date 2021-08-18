@@ -158,7 +158,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - [Lucerne University of Applied Sciences and Arts](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
 - [University of Teacher Education Lucerne](https://www.phlu.ch/)
 - [University of Lucerne](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
-- [Zurich University of Applied Sciences](https://www.zhaw.ch/en/library/writing-publishing/publishing-and-open-access/oa-at-the-zhaw/#c112481)
+- [ZHAW Zurich University of Applied Sciences](https://www.zhaw.ch/en/library/writing-publishing/publishing-and-open-access/oa-at-the-zhaw/#c112481)
 
 ## Participating Italian Institutions
 
