@@ -180,8 +180,10 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - [ETH Zurich](https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/open-access-at-eth-zurich/eth-zurich-s-open-access-policy.html)
 - [University of Zurich](https://www.uzh.ch/cmsssl/en/outreach/libraries/openaccess.html)
 - [Lucerne University of Applied Sciences and Arts](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
+- [PSI - Paul Scherrer Institute](https://www.psi.ch/en)
 - [University of Teacher Education Lucerne](https://www.phlu.ch/)
 - [University of Lucerne](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
+- [WSL - Swiss Federal Institute for Forest, Snow and Landscape Research](https://www.wsl.ch/en/index.html)
 - [ZHAW Zurich University of Applied Sciences](https://www.zhaw.ch/en/library/writing-publishing/publishing-and-open-access/oa-at-the-zhaw/#c112481)
 
 ## Participating Italian Institutions
