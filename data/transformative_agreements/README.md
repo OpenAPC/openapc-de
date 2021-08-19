@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 42,086 articles, published at 264 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 42,087 articles, published at 264 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 42,086 articles, published at 264 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|Swiss Consortium Elsevier agreement          |     1820|
+|Swiss Consortium Elsevier agreement          |     1821|
 |DEAL Wiley Germany                           |     1560|
 |DEAL Springer Nature Germany                 |      874|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
@@ -121,7 +121,7 @@ This dataset contains information on 42,086 articles, published at 264 instituti
 |Graz University of Technology                                                                                                                      |      176|
 |Durham University                                                                                                                                  |      175|
 |Loughborough University                                                                                                                            |      173|
-|University of Bern                                                                                                                                 |      172|
+|University of Bern                                                                                                                                 |      173|
 |University of St Andrews                                                                                                                           |      168|
 |University of Sussex                                                                                                                               |      168|
 |London School of Economics and Political Science                                                                                                   |      166|
