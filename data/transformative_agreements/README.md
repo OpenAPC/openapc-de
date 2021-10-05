@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 42,114 articles, published at 265 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 42,485 articles, published at 265 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 42,114 articles, published at 265 instituti
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Wiley Germany                           |     1587|
-|DEAL Springer Nature Germany                 |      874|
+|DEAL Wiley Germany                           |     1749|
+|DEAL Springer Nature Germany                 |     1083|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
 |Austrian Consortium RSC agreement            |      179|
@@ -70,6 +70,7 @@ This dataset contains information on 42,114 articles, published at 265 instituti
 |Erasmus MC                                                                                                                                         |      453|
 |ETH Zurich                                                                                                                                         |      453|
 |Muenchen LMU                                                                                                                                       |      449|
+|Charité - Universitätsmedizin Berlin                                                                                                               |      448|
 |Academic Medical Center (AMC)                                                                                                                      |      447|
 |Royal Institute of Technology                                                                                                                      |      446|
 |University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
@@ -159,7 +160,6 @@ This dataset contains information on 42,114 articles, published at 265 instituti
 |TU Berlin                                                                                                                                          |       82|
 |PSI - Paul Scherrer Institute                                                                                                                      |       78|
 |University of Portsmouth                                                                                                                           |       78|
-|Charité - Universitätsmedizin Berlin                                                                                                               |       77|
 |Royal Botanic Gardens                                                                                                                              |       76|
 |Cranfield University                                                                                                                               |       75|
 |Bangor University                                                                                                                                  |       72|
