@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 42,110 articles, published at 264 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 42,114 articles, published at 265 institutions under 19 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 42,110 articles, published at 264 instituti
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Wiley Germany                           |     1583|
+|DEAL Wiley Germany                           |     1587|
 |DEAL Springer Nature Germany                 |      874|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -276,6 +276,7 @@ This dataset contains information on 42,110 articles, published at 264 instituti
 |Trier U                                                                                                                                            |        6|
 |University of Roehampton                                                                                                                           |        6|
 |University of Worcester                                                                                                                            |        5|
+|Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        4|
 |Carinthia University of Applied Sciences (CUAS)                                                                                                    |        3|
 |FH Campus Wien - University of Applied Sciences                                                                                                    |        3|
 |FH Vorarlberg - University of Applied Sciences                                                                                                     |        3|
