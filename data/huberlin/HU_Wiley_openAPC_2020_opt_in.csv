@@ -1,4 +1,4 @@
-institution_name,period,euro,doi,is_hybrid,initial_opt-out,
+institution_name,period,euro,doi,is_hybrid,initial_opt-out
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/adfm.202003364,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/chem.202001627,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/cne.25073,TRUE,optin
@@ -10,7 +10,6 @@ Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/pce.13787,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/lsq.12283,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/jrs.5965,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/theo.12243,TRUE,optin
-Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/jopy.12592,TRUE,optout
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/aab.12576,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/1462-2920.15216,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/celc.202000181,TRUE,optin
@@ -44,10 +43,7 @@ Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/jomf.12707,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/chem.202000877,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/anie.201915882,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/1469-8676.12843,TRUE,optin
-Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/sta4.277,TRUE,optout
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/cbic.202000173,TRUE,optin
-Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/adfm.202000435,TRUE,optout
-Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/sjos.12501,TRUE,optout
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/slct.202002370,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/celc.202001040,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/admi.201902114,TRUE,optin
@@ -85,4 +81,4 @@ Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/pssa.202000354,TRUE,opt
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/ejic.202000895,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/risa.13564,TRUE,optin
 Humboldt-Universität zu Berlin,2020,2985,433333,10.1002/acp.3764,TRUE,optin
-Humboldt-Universität zu Berlin,2020,2985,433333,10.1111/psyp.13675,TRUE,optout
+
