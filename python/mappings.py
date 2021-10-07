@@ -75,7 +75,8 @@ PUBLISHER_MAPPINGS = {
     "WAXMANN VERLAG": "Waxmann Verlag",
     "Waxmann Verlag GmbH": "Waxmann Verlag",
     "Waxmann": "Waxmann Verlag",
-    "WALLSTEIN VERLAG": "Wallstein Verlag"
+    "WALLSTEIN VERLAG": "Wallstein Verlag",
+    "Nomos Verlagsgesellschaft mbH & Co.- KG": "Nomos Verlagsgesellschaft mbH & Co. KG"
 }
 
 JOURNAL_MAPPINGS = {
