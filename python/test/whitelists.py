@@ -321,7 +321,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2213-7165", # Journal of Global Antimicrobial Resistance, Gold OA since 2020
     "0965-2299", # Complementary Therapies in Medicine, Gold OA since 2021
     "2211-8160", # Global Heart, Gold OA since 2020
-    "1742-4801" #  International Wound Journal, Gold OA since 2021
+    "1742-4801", # International Wound Journal, Gold OA since 2021
+    "1537-1719" # Molecular Biology and Evolution
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
