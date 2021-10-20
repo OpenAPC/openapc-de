@@ -322,7 +322,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0965-2299", # Complementary Therapies in Medicine, Gold OA since 2021
     "2211-8160", # Global Heart, Gold OA since 2020
     "1742-4801", # International Wound Journal, Gold OA since 2021
-    "1537-1719" # Molecular Biology and Evolution
+    "1537-1719", # Molecular Biology and Evolution
+    "1740-8695" # Maternal & Child Nutrition
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
