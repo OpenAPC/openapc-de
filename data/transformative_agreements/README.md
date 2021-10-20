@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 43,349 articles, published at 274 institutions under 20 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 43,679 articles, published at 274 institutions under 20 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 43,349 articles, published at 274 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     1831|
+|DEAL Wiley Germany                           |     2014|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1172|
+|DEAL Springer Nature Germany                 |     1319|
 |Swiss Consortium Springer Compact agreement  |      693|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -81,6 +81,7 @@ This dataset contains information on 43,349 articles, published at 274 instituti
 |Stockholm University                                                                                                                               |      405|
 |University of Southampton                                                                                                                          |      398|
 |Radboud University Medical Center                                                                                                                  |      397|
+|Bonn U                                                                                                                                             |      394|
 |University of Sheffield                                                                                                                            |      387|
 |Maastricht University                                                                                                                              |      382|
 |University of Bristol                                                                                                                              |      378|
@@ -173,7 +174,6 @@ This dataset contains information on 43,349 articles, published at 274 instituti
 |Bournemouth University                                                                                                                             |       71|
 |Malmö University                                                                                                                                   |       71|
 |University of Stirling                                                                                                                             |       66|
-|Bonn U                                                                                                                                             |       64|
 |Manchester Metropolitan University                                                                                                                 |       64|
 |Jönköping University                                                                                                                               |       63|
 |Karlstad University                                                                                                                                |       62|
