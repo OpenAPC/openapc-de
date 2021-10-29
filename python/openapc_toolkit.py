@@ -1077,7 +1077,7 @@ def title_lookup(lookup_title, acccepted_doi_types):
     if skipped_stats:
         msg = "Some search results were ignored due to non-accepted DOI types: "
         for name, count in skipped_stats.items():
-            msg += "'" + name + "': " + str(count) + ", "
+            msg += "'" + str(name) + "': " + str(count) + ", "
         print_y(msg[:-2])
     if most_similar["doi"]:
         similarity = most_similar["similarity"]
