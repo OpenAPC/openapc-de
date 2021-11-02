@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |139,134 | 268,499,813    | 328 |
+| Articles         |139,937 | 269,901,775    | 338 |
 | Monographs       |1,330 | 8,417,923    | 15 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -261,6 +261,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 The [Couperin consortium](https://couperin.org) aggregates data on APC expenditures made by institutions in France:
 
 - Agence nationale de sécurité du médicament et des produits de santé (ANSM)
+- AgroParisTech
 - Aix-Marseille Université
 - Université d'Angers
 - Université de Bordeaux
@@ -271,10 +272,12 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Centre national de la recherche scientifique (CNRS)
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
 - Conservatoire national des arts et métiers
+- École nationale du génie de l'eau et de l'environnement de Strasbourg (ENGEES)
 - École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - ENS de Lyon
+- ENSTA Bretagne
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - IMT Atlantique
@@ -282,6 +285,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - INSA Strasbourg
 - Institut de recherche pour le développement (IRD)
 - Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
+- Institut Français de Recherche pour l'Exploitation de la Mer (IFREMER)
 - Institut Laue-Langevin
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la recherche agronomique (INRA)
@@ -296,6 +300,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Museum National d'Histoire Naturelle
 - Office National d'Etudes et de Recherches Aérospatiales (ONERA)
 - Paris 8 Vincennes - Saint-Denis
+- Sciences Po Paris
 - Sorbonne Université
 - Université d'Avignon et des Pays de Vaucluse
 - Université de Caen Normandie
@@ -304,6 +309,8 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Technologique de Compiègne
 - Université Evry Val-d'Essonne
 - Université de Franche-Comté
+- Université de Haute-Alsace
+- Université du Havre
 - Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
@@ -314,6 +321,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Nice-Sophia-Antipolis
 - Université de Nouvelle Calédonie
 - Université de Pau et des Pays de l'Adour
+- Université de Perpignan - Via Domitia
 - Université de Poitiers
 - Université de Reims Champagne Ardenne
 - Université de Rennes 1
@@ -325,8 +333,10 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université des Antilles
 - Université du Littoral Côte d'Opale
 - Université Toulouse III
+- Université Paris 1 Panthéon-Sorbonne
 - Université Paris Descartes (Paris V)
 - Université Paris-Est Marne-la-Vallée
+- Université Paris Nanterre
 - Université Pierre et Marie Curie (Paris VI)
 - Université Paris Diderot (Paris VII)
 - Université Savoie Mont Blanc
@@ -451,13 +461,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 139,134 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 328 research performing institutions and research funders. 
+The article data set contains information on 139,937 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 338 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 268,499,813. The average payment was € 1,930 and the median was € 1,753.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 269,901,775. The average payment was € 1,929 and the median was € 1,752.
 
-89,200 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 144,457,071, including value-added tax; the average payment was € 1,619 (median =  € 1,542, SD = € 775).
+89,896 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 145,591,988, including value-added tax; the average payment was € 1,620 (median =  € 1,542, SD = € 776).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 49,934 articles in the data set were published in hybrid journals. Total expenditure amounts to 124,042,742 €; the average fee was € 2,484 (median =  € 2,444, SD = € 993).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 50,041 articles in the data set were published in hybrid journals. Total expenditure amounts to 124,309,787 €; the average fee was € 2,484 (median =  € 2,444, SD = € 994).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -470,23 +480,23 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 |period | OA articles| OA mean| OA median| OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
 |:------|-----------:|-------:|---------:|------------:|---------------:|-----------:|-------------:|----------------:|
-|2005   |           7|     858|       871| 480 -  1,350|               1|       2,983|         2,983|    2,983 - 2,983|
+|2005   |           7|     858|       871| 480 -  1,350|               1|       2,983|         2,983|   2,983 -  2,983|
 |2006   |          52|   1,021|     1,095| 665 -  1,340|              NA|          NA|            NA|               NA|
 |2007   |          88|   1,081|     1,062| 870 -  1,825|              NA|          NA|            NA|               NA|
-|2008   |         205|   1,170|     1,025| 441 -  2,830|               1|       2,660|         2,660|    2,660 - 2,660|
+|2008   |         205|   1,170|     1,025| 441 -  2,830|               1|       2,660|         2,660|   2,660 -  2,660|
 |2009   |         356|   1,181|     1,060| 125 -  4,386|              NA|          NA|            NA|               NA|
-|2010   |         397|   1,261|     1,139| 159 -  7,419|               2|       2,401|         2,401|    2,173 - 2,630|
-|2011   |         770|   1,157|     1,127| 105 -  4,666|               6|       1,781|         2,085|      552 - 2,631|
-|2012   |       1,567|   1,172|     1,175|  69 -  4,498|              20|       2,308|         2,412|      997 - 2,700|
-|2013   |       2,455|   1,229|     1,178|  50 -  4,574|           1,098|       2,257|         2,260|      120 - 4,679|
-|2014   |       5,180|   1,374|     1,255|  40 -  9,028|           6,515|       2,239|         2,200|      132 - 6,000|
-|2015   |       8,426|   1,520|     1,448|  59 -  5,669|           6,686|       2,611|         2,622|      127 - 8,636|
-|2016   |       9,779|   1,634|     1,530|  63 -  5,985|           7,881|       2,552|         2,516|        2 - 9,079|
-|2017   |      14,468|   1,716|     1,557|   9 - 14,634|          10,593|       2,531|         2,474|       37 - 9,858|
-|2018   |      14,466|   1,702|     1,589|  13 -  8,926|           9,162|       2,564|         2,544|       18 - 9,073|
-|2019   |      14,649|   1,647|     1,607|  11 -  7,684|           5,014|       2,406|         2,321|       75 - 9,500|
-|2020   |      14,999|   1,702|     1,683|   0 -  8,906|           2,700|       2,359|         2,354|      130 - 7,384|
-|2021   |       1,336|   1,781|     1,690| 108 -  5,617|             255|       2,391|         2,341|      169 - 5,059|
+|2010   |         397|   1,261|     1,139| 159 -  7,419|               2|       2,401|         2,401|   2,173 -  2,630|
+|2011   |         770|   1,157|     1,127| 105 -  4,666|               6|       1,781|         2,085|     552 -  2,631|
+|2012   |       1,567|   1,172|     1,175|  69 -  4,498|              20|       2,308|         2,412|     997 -  2,700|
+|2013   |       2,455|   1,229|     1,178|  50 -  4,574|           1,098|       2,257|         2,260|     120 -  4,679|
+|2014   |       5,180|   1,374|     1,255|  40 -  9,028|           6,515|       2,239|         2,200|     132 -  6,000|
+|2015   |       8,426|   1,520|     1,448|  59 -  5,669|           6,686|       2,611|         2,622|     127 -  8,636|
+|2016   |       9,782|   1,634|     1,530|  63 -  5,985|           7,880|       2,552|         2,516|       2 -  9,079|
+|2017   |      14,504|   1,715|     1,557|   9 - 14,634|          10,596|       2,531|         2,473|      37 -  9,858|
+|2018   |      14,609|   1,700|     1,588|  13 -  8,926|           9,188|       2,564|         2,543|      18 - 13,975|
+|2019   |      14,884|   1,647|     1,605|  11 -  7,684|           5,050|       2,405|         2,321|      75 -  9,500|
+|2020   |      15,277|   1,703|     1,682|   0 -  8,906|           2,743|       2,363|         2,360|     130 -  7,384|
+|2021   |       1,337|   1,781|     1,690| 108 -  5,617|             255|       2,391|         2,341|     169 -  5,059|
 
 ### Books (BPCs)
 
@@ -558,9 +568,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.73%       |
-|PubMed ID                  |  74.72%      |
-|PubMed Central ID          |  68.3%     |
-|Web of Science record ID   | 92.02%      |
+|PubMed ID                  |  74.71%      |
+|PubMed Central ID          |  68.29%     |
+|Web of Science record ID   | 91.85%      |
 
 
 
