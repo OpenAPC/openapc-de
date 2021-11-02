@@ -285,6 +285,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 The [Couperin consortium](https://couperin.org) aggregates data on APC expenditures made by institutions in France:
 
 - Agence nationale de sécurité du médicament et des produits de santé (ANSM)
+- AgroParisTech
 - Aix-Marseille Université
 - Université d'Angers
 - Université de Bordeaux
@@ -295,10 +296,12 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Centre national de la recherche scientifique (CNRS)
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
 - Conservatoire national des arts et métiers
+- École nationale du génie de l'eau et de l'environnement de Strasbourg (ENGEES)
 - École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - ENS de Lyon
+- ENSTA Bretagne
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - IMT Atlantique
@@ -306,6 +309,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - INSA Strasbourg
 - Institut de recherche pour le développement (IRD)
 - Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
+- Institut Français de Recherche pour l'Exploitation de la Mer (IFREMER)
 - Institut Laue-Langevin
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la recherche agronomique (INRA)
@@ -320,6 +324,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Museum National d'Histoire Naturelle
 - Office National d'Etudes et de Recherches Aérospatiales (ONERA)
 - Paris 8 Vincennes - Saint-Denis
+- Sciences Po Paris
 - Sorbonne Université
 - Université d'Avignon et des Pays de Vaucluse
 - Université de Caen Normandie
@@ -328,6 +333,8 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Technologique de Compiègne
 - Université Evry Val-d'Essonne
 - Université de Franche-Comté
+- Université de Haute-Alsace
+- Université du Havre
 - Université de La Rochelle
 - Université Lille 1
 - Université Lille 2
@@ -338,6 +345,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Nice-Sophia-Antipolis
 - Université de Nouvelle Calédonie
 - Université de Pau et des Pays de l'Adour
+- Université de Perpignan - Via Domitia
 - Université de Poitiers
 - Université de Reims Champagne Ardenne
 - Université de Rennes 1
@@ -349,8 +357,10 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université des Antilles
 - Université du Littoral Côte d'Opale
 - Université Toulouse III
+- Université Paris 1 Panthéon-Sorbonne
 - Université Paris Descartes (Paris V)
 - Université Paris-Est Marne-la-Vallée
+- Université Paris Nanterre
 - Université Pierre et Marie Curie (Paris VI)
 - Université Paris Diderot (Paris VII)
 - Université Savoie Mont Blanc
