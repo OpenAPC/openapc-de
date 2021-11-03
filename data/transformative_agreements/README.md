@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 43,679 articles, published at 274 institutions under 20 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 43,912 articles, published at 274 institutions under 20 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 43,679 articles, published at 274 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2014|
+|DEAL Wiley Germany                           |     2118|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1319|
+|DEAL Springer Nature Germany                 |     1422|
 |Swiss Consortium Springer Compact agreement  |      693|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -35,10 +35,10 @@ This dataset contains information on 43,679 articles, published at 274 instituti
 |FWF Transformative Agreement ACS             |      145|
 |Swiss Consortium RSC agreement               |      133|
 |FWF Offsetting Agreement IOP                 |       82|
+|TIB RSC Journals Read & Publish              |       56|
 |MPG Taylor & Francis agreement               |       46|
 |Austrian Consortium IOP agreement            |       45|
 |MPG IOP agreement                            |       32|
-|TIB RSC Journals Read & Publish              |       30|
 |Austrian Consortium Emerald agreement        |       23|
 |Austrian Consortium Sage agreement           |       16|
 
@@ -98,6 +98,7 @@ This dataset contains information on 43,679 articles, published at 274 instituti
 |Cardiff University                                                                                                                                 |      339|
 |University of Warwick                                                                                                                              |      332|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
+|TU Berlin                                                                                                                                          |      315|
 |Radboud University                                                                                                                                 |      309|
 |University of Twente                                                                                                                               |      297|
 |University of Liverpool                                                                                                                            |      289|
@@ -161,7 +162,6 @@ This dataset contains information on 43,679 articles, published at 274 instituti
 |PSI - Paul Scherrer Institute                                                                                                                      |       85|
 |Sheffield Hallam University                                                                                                                        |       82|
 |Siegen U                                                                                                                                           |       82|
-|TU Berlin                                                                                                                                          |       82|
 |University of Portsmouth                                                                                                                           |       78|
 |Royal Botanic Gardens                                                                                                                              |       76|
 |Cranfield University                                                                                                                               |       75|
