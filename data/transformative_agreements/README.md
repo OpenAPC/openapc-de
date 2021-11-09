@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 43,912 articles, published at 274 institutions under 20 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 44,084 articles, published at 274 institutions under 20 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 43,912 articles, published at 274 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2118|
+|DEAL Wiley Germany                           |     2197|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1422|
+|DEAL Springer Nature Germany                 |     1515|
 |Swiss Consortium Springer Compact agreement  |      693|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -117,6 +117,7 @@ This dataset contains information on 43,912 articles, published at 274 instituti
 |Queen's University of Belfast                                                                                                                      |      217|
 |Tilburg University                                                                                                                                 |      208|
 |University of Lausanne                                                                                                                             |      208|
+|Bielefeld U                                                                                                                                        |      207|
 |University of York                                                                                                                                 |      205|
 |Hannover U und TIB                                                                                                                                 |      202|
 |University of Basel                                                                                                                                |      201|
@@ -207,7 +208,6 @@ This dataset contains information on 43,912 articles, published at 274 instituti
 |Greifswald U                                                                                                                                       |       38|
 |Leibniz-IGB                                                                                                                                        |       36|
 |Robert Gordon University                                                                                                                           |       36|
-|Bielefeld U                                                                                                                                        |       35|
 |Netherlands Institute of Ecology                                                                                                                   |       35|
 |Kingston University                                                                                                                                |       34|
 |Blekinge Institute of Technology                                                                                                                   |       33|
