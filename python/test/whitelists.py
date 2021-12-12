@@ -325,6 +325,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1537-1719", # Molecular Biology and Evolution
     "1740-8695", # Maternal & Child Nutrition
     "1880-6546", # The Journal of Physiological Sciences, Gold OA since 2020
+    "2523-3963", # SN Applied Sciences, Gold OA since 2021
+    "2045-7960" # Epidemiology and Psychiatric Sciences, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
