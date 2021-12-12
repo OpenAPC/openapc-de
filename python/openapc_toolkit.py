@@ -80,13 +80,6 @@ MESSAGES = {
     "digits_norm": "Normalisation: Monetary value %s rounded to 2 digits after " +
                    "decimal mark (%s -> %s)",
     "doi_norm": "Normalisation: DOI '{}' normalised to pure form ({}).",
-    "springer_distinction": "publisher 'Springer Nature' found " +
-                            "for a pre-2015 article - publisher " +
-                            "changed to '%s' based on prefix " +
-                            "discrimination ('%s')",
-    "unknown_prefix": "publisher 'Springer Nature' found for a " +
-                      "pre-2015 article, but discrimination was " +
-                      "not possible - unknown prefix ('%s')",
     "issn_hyphen_fix": "Normalisation: Added hyphen to %s value (%s -> %s)",
     "period_format": "Normalisation: Date format in period column changed to year only (%s -> %s)",
     "unknown_hybrid_identifier": "Unknown identifier in 'is_hybrid' column ('%s').",
@@ -119,7 +112,7 @@ OPENAPC_STANDARD_QUOTEMASK = [
 ]
 
 COLUMN_SCHEMAS = {
-    "journal_article": [
+    "journal-article": [
         "institution",
         "period",
         "euro",
@@ -139,7 +132,7 @@ COLUMN_SCHEMAS = {
         "url",
         "doaj"
     ],
-    "journal_article_transagree": [
+    "journal-article_transagree": [
         "institution",
         "period",
         "euro",
@@ -160,7 +153,7 @@ COLUMN_SCHEMAS = {
         "doaj",
         "agreement"
     ],
-    "book_title": [
+    "book": [
         "institution",
         "period",
         "euro",
@@ -732,11 +725,17 @@ class UnsupportedDoiTypeError(ValueError):
     Its main purpose is to store already obtained Crossref data (type + title)
     for later error handling, avoiding double lookups
     """
-    def __init__(self, doi_type, unsupported_doi_types, crossref_title):
+    def __init__(self, doi_type, doi_types, crossref_title):
         self.doi_type = doi_type
         self.crossref_title = crossref_title
+        supported_types = []
+        for valid_doi_type, content in doi_types.items():
+            doi_type_str = valid_doi_type
+            if content['aliases']:
+                doi_type_str += ' (alias: ' + ", ".join(content['aliases']) + ')'
+            supported_types.append(doi_type_str)
         msg = ('Unsupported DOI type "{}" (OpenAPC only supports the following types: {})')
-        msg = msg.format(doi_type, ", ".join(unsupported_doi_types))
+        msg = msg.format(doi_type, ", ".join(supported_types))
         super().__init__(msg)
 
 def get_normalised_DOI(doi_string):
@@ -1103,6 +1102,42 @@ def title_lookup(lookup_title, acccepted_doi_types):
         print_r("Could not obtain a result with an accepted DOI type.")
         return None
 
+
+def _extract_crossref_license(crossref_data):
+    """
+    Helper function to extract license information from a crossref JSON object
+    """
+    ret = None
+    if 'message' in crossref_data:
+        if 'license' in crossref_data['message']:
+            for lic in crossref_data['message']['license']:
+                 # Use the first license found unless there's a 'vor' version
+                if ret is None:
+                    ret = lic['URL']
+                elif 'content-version' in lic and lic['content-version'] == 'vor':
+                    ret = lic['URL']
+    return ret
+
+def _extract_crossref_isxn(crossref_data, identifier_type, representation_type):
+    """
+    Helper function to extract electronic/print ISSNs and ISBNS from a crossref JSON object
+    """
+    valid_identifier_types = ['issn', 'isbn']
+    valid_representation_types = ['print', 'electronic']
+    if identifier_type not in valid_identifier_types:
+        raise ValueError('identifier_type must be one of ' + str(valid_identifier_types))
+    if representation_type not in valid_representation_types:
+        raise ValueError('identifier_type must be one of ' + str(valid_representation_types))
+    ret = None
+    id_type_key = identifier_type + '-type'
+    if 'message' in crossref_data:
+        if id_type_key in crossref_data['message']:
+            for identifier in crossref_data['message'][id_type_key]:
+                if identifier['type'] == representation_type:
+                    ret = identifier['value']
+                    break
+    return ret
+
 def get_metadata_from_crossref(doi_string):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
@@ -1120,7 +1155,7 @@ def get_metadata_from_crossref(doi_string):
         'success' will be True and the dict will have a second entry 'data'
         which contains the extracted metadata plus the doi type as another dict:
 
-        {'doi_type': 'journal_article',
+        {'doi_type': 'journal-article',
          'publisher': 'MDPI AG',
          'journal_full_title': 'Chemosensors',
          [...]
@@ -1132,116 +1167,131 @@ def get_metadata_from_crossref(doi_string):
         contain both an entry 'error_msg' with a string value
         stating the reason and an entry 'exception' holding the exception object.
     """
-    xpaths_article = {
-        ".//cr_qr:crm-item[@name='publisher-name']": "publisher",
-        ".//cr_qr:crm-item[@name='prefix-name']": "prefix",
-        ".//cr_1_0:journal_metadata//cr_1_0:full_title": "journal_full_title",
-        ".//cr_1_1:journal_metadata//cr_1_1:full_title": "journal_full_title",
-        ".//cr_1_0:journal_metadata//cr_1_0:issn": "issn",
-        ".//cr_1_1:journal_metadata//cr_1_1:issn": "issn",
-        ".//cr_1_0:journal_metadata//cr_1_0:issn[@media_type='print']": "issn_print",
-        ".//cr_1_1:journal_metadata//cr_1_1:issn[@media_type='print']": "issn_print",
-        ".//cr_1_0:journal_metadata//cr_1_0:issn[@media_type='electronic']": "issn_electronic",
-        ".//cr_1_1:journal_metadata//cr_1_1:issn[@media_type='electronic']": "issn_electronic",
-        ".//ai:license_ref": "license_ref"
-    }
-    xpaths_book = {
-        ".//cr_qr:crm-item[@name='prefix-name']": "prefix",
-        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:publisher//cr_1_0:publisher_name": "publisher",
-        ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
-        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:publisher//cr_1_0:publisher_name": "publisher",
-        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
-        ".//cr_1_0:book//cr_1_0:book_set_metadata//cr_1_0:publisher//cr_1_0:publisher_name": "publisher",
-        ".//cr_1_1:book//cr_1_1:book_set_metadata//cr_1_1:publisher//cr_1_1:publisher_name": "publisher",
-        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:titles//cr_1_0:title": "book_title",
-        ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:titles//cr_1_1:title": "book_title",
-        ".//cr_1_0:book//cr_1_0:book_series_metadata/cr_1_0:titles/cr_1_0:title": "book_title",
-        ".//cr_1_1:book//cr_1_1:book_series_metadata/cr_1_1:titles/cr_1_1:title": "book_title",
-        ".//cr_1_0:book//cr_1_0:book_set_metadata/cr_1_0:titles//cr_1_0:title": "book_title",
-        ".//cr_1_1:book//cr_1_1:book_set_metadata/cr_1_1:titles//cr_1_1:title": "book_title",
-        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:isbn": "isbn",
-        ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn": "isbn",
-        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:isbn": "isbn",
-        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:isbn": "isbn",
-        ".//cr_1_0:book//cr_1_0:book_set_metadata//cr_1_0:isbn": "isbn",
-        ".//cr_1_1:book//cr_1_1:book_set_metadata//cr_1_1:isbn": "isbn",
-        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:isbn[@media_type='print']": "isbn_print",
-        ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn[@media_type='print']": "isbn_print",
-        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:isbn[@media_type='print']": "isbn_print",
-        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:isbn[@media_type='print']": "isbn_print",
-        ".//cr_1_0:book//cr_1_0:book_metadata//cr_1_0:isbn[@media_type='electronic']": "isbn_electronic",
-        ".//cr_1_1:book//cr_1_1:book_metadata//cr_1_1:isbn[@media_type='electronic']": "isbn_electronic",
-        ".//cr_1_0:book//cr_1_0:book_series_metadata//cr_1_0:isbn[@media_type='electronic']": "isbn_electronic",
-        ".//cr_1_1:book//cr_1_1:book_series_metadata//cr_1_1:isbn[@media_type='electronic']": "isbn_electronic",
-        ".//ai:license_ref": "license_ref"
-    }
-    namespaces = {
-        "cr_qr": "http://www.crossref.org/qrschema/3.0",
-        "cr_1_1": "http://www.crossref.org/xschema/1.1",
-        "cr_1_0": "http://www.crossref.org/xschema/1.0",
-        "ai": "http://www.crossref.org/AccessIndicators.xsd"
-    }
     doi_types = {
-        "journal_article": xpaths_article,
-        "book_title": xpaths_book
+        'journal-article': {
+            'aliases': [],
+            'data_fields': {
+                'publisher': {
+                    'access': 'path',
+                    'path_elements': ['message', 'publisher']
+                },
+                'journal_full_title': {
+                     'access': 'path',
+                     'path_elements':  ['message', 'container-title', 0]
+                },
+                'issn': {
+                    'access': 'path',
+                    'path_elements':  ['message', 'ISSN', 0]
+                },
+                'license_ref': {
+                    'access': 'function',
+                    'func_name': '_extract_crossref_license',
+                    'additional_params': []
+                },
+                'issn_print': {
+                    'access': 'function',
+                    'func_name': '_extract_crossref_isxn',
+                    'additional_params': ['issn', 'print']
+                },
+                'issn_electronic': {
+                    'access': 'function',
+                    'func_name': '_extract_crossref_isxn',
+                    'additional_params': ['issn', 'electronic']
+                }
+            }
+        },
+        'book': {
+            'aliases': ['monograph'],
+            'data_fields': {
+                'publisher': {
+                    'access': 'path',
+                    'path_elements': ['message', 'publisher']
+                },
+                'book_title': {
+                    'access': 'path',
+                    'path_elements':  ['message', 'title', 0]
+                },
+                'isbn': {
+                    'access': 'path',
+                    'path_elements':  ['message', 'ISBN', 0]
+                },
+                'license_ref': {
+                    'access': 'function',
+                    'func_name': '_extract_crossref_license',
+                    'additional_params': []
+                },
+                'isbn_print': {
+                    'access': 'function',
+                    'func_name': '_extract_crossref_isxn',
+                    'additional_params': ['isbn', 'print']
+                },
+                'isbn_electronic': {
+                    'access': 'function',
+                    'func_name': '_extract_crossref_isxn',
+                    'additional_params': ['isbn', 'electronic']
+                }
+            }
+        }
     }
     doi = get_normalised_DOI(doi_string)
     if doi is None:
-        error_msg = "Parse Error: '{}' is no valid DOI".format(doi_string)
-        return {"success": False, "error_msg": error_msg, "exception": None}
-    url = 'http://data.crossref.org/' + doi
+        error_msg = 'Parse Error: "{}" is no valid DOI'.format(doi_string)
+        return {'success': False, 'error_msg': error_msg, 'exception': None}
+
+    url = 'http://api.crossref.org/works/' + doi
     req = Request(url)
-    req.add_header("Accept", "application/vnd.crossref.unixsd+xml")
+    req.add_header('User-Agent', USER_AGENT)
     ret_value = {'success': True}
     try:
         response = urlopen(req)
         content_string = response.read()
-        root = ET.fromstring(content_string)
-        doi_element = root.findall(".//cr_qr:doi", namespaces)
-        doi_type = doi_element[0].attrib['type']
-        if doi_type not in doi_types:
-            title = root.findall(".//cr_1_1:title", namespaces)
-            if not title:
-                title = root.findall(".//cr_1_0:title", namespaces)
-            title_string = ""
-            if title:
-                title_string = title[0].text
-            raise UnsupportedDoiTypeError(doi_type, doi_types.keys(), title_string)
-        crossref_data = {"doi_type": doi_type}
-        xpaths = doi_types[doi_type]
-        for path, elem in xpaths.items():
-            if elem not in crossref_data:
-                crossref_data[elem] = None
-            result = root.findall(path, namespaces)
-            if result:
-                crossref_data[elem] = result[0].text
-                if elem == 'license_ref':
-                    # If there's more than one license_ref element, prefer
-                    # the one with the attribute applies_to="vor"
-                    for xml_elem in result:
-                        if xml_elem.get("applies_to") == "vor":
-                            crossref_data[elem] = xml_elem.text
-                            break
+        data = json.loads(content_string)
+        data_doi_type = data['message']['type']
+        normalized_doi_type = None
+        for doi_type, content in doi_types.items():
+            if data_doi_type == doi_type or data_doi_type in content['aliases']:
+                normalized_doi_type = doi_type
+                break
+        if normalized_doi_type is None:
+            title = data['message']['title'][0]
+            raise UnsupportedDoiTypeError(data_doi_type, doi_types, title)
+        crossref_data = {'doi_type': normalized_doi_type}
+        data_fields = doi_types[normalized_doi_type]['data_fields']
+        for field, access_method in data_fields.items():
+            if access_method['access'] == 'path':
+                position = data
+                for element in access_method['path_elements']:
+                    try:
+                        position = position[element]
+                    except (KeyError, IndexError):
+                        crossref_data[field] = None
+                        break
+                else:
+                    crossref_data[field] = position
+            elif access_method['access'] == 'function':
+                function = globals()[access_method['func_name']]
+                params = [data] + access_method['additional_params']
+                crossref_data[field] = function(*params)
         ret_value['data'] = crossref_data
     except HTTPError as httpe:
         ret_value['success'] = False
-        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+        ret_value['error_msg'] = 'HTTPError: {} - {}'.format(httpe.code, httpe.reason)
         ret_value['exception'] = httpe
     except RemoteDisconnected as rd:
         ret_value['success'] = False
-        ret_value['error_msg'] = "Remote Disconnected: {}".format(str(rd))
+        ret_value['error_msg'] = 'Remote Disconnected: {}'.format(str(rd))
         ret_value['exception'] = rd
     except ConnectionResetError as cre:
         ret_value['success'] = False
-        ret_value['error_msg'] = "Connection Reset: {}".format(str(cre))
+        ret_value['error_msg'] = 'Connection Reset: {}'.format(str(cre))
         ret_value['exception'] = cre
     except URLError as urle:
         ret_value['success'] = False
-        ret_value['error_msg'] = "URLError: {}".format(urle.reason)
+        ret_value['error_msg'] = 'URLError: {}'.format(urle.reason)
         ret_value['exception'] = urle
     except ET.ParseError as etpe:
         ret_value['success'] = False
-        ret_value['error_msg'] = "ElementTree ParseError: {}".format(str(etpe))
+        ret_value['error_msg'] = 'ElementTree ParseError: {}'.format(str(etpe))
         ret_value['exception'] = etpe
     except UnsupportedDoiTypeError as udte:
         ret_value['success'] = False
@@ -1394,7 +1444,7 @@ def _process_hybrid_status(hybrid_status, row_num):
         return norm_value
     return hybrid_status
 
-def _process_crossref_results(current_row, row_num, prefix, key, value):
+def _process_crossref_results(current_row, row_num, key, value):
     new_value = "NA"
     if value is not None:
         if key == "journal_full_title":
@@ -1409,22 +1459,6 @@ def _process_crossref_results(current_row, row_num, prefix, key, value):
                 msg = MESSAGES["unify"].format("publisher name", value, unified_value)
                 logging.warning(msg)
             new_value = unified_value
-            # Treat Springer Nature special case: crossref erroneously
-            # reports publisher "Springer Nature" even for articles
-            # published before 2015 (publishers fusioned only then)
-            if int(current_row["period"]) < 2015 and new_value == "Springer Nature":
-                publisher = None
-                if prefix in ["Springer (Biomed Central Ltd.)", "Springer-Verlag", "Springer - Psychonomic Society"]:
-                    publisher = "Springer Science + Business Media"
-                elif prefix in ["Nature Publishing Group", "Nature Publishing Group - Macmillan Publishers"]:
-                    publisher = "Nature Publishing Group"
-                if publisher:
-                    msg = "Line %s: " + MESSAGES["springer_distinction"]
-                    logging.warning(msg, row_num, publisher, prefix)
-                    new_value = publisher
-                else:
-                    msg = "Line %s: " + MESSAGES["unknown_prefix"]
-                    logging.error(msg, row_num, prefix)
         # Fix ISSNs without hyphen
         elif key in ["issn", "issn_print", "issn_electronic"]:
             new_value = value
@@ -1446,9 +1480,9 @@ def _isbn_lookup(current_row, row_num, additional_isbns, isbn_handling):
             collected_isbns.append(isbn)
     if len(collected_isbns) == 0:
         msg = ("Line %s: Neither a DOI nor an ISBN found, assuming default record type " +
-               "journal_article")
+               "journal-article")
         logging.warning(msg, row_num)
-        return (None, "journal_article")
+        return (None, "journal-article")
     query_isbns = []
     for isbn in collected_isbns:
         res = isbn_handling.test_and_normalize_isbn(isbn)
@@ -1677,9 +1711,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 record_type = data.pop("doi_type")
                 logging.info("Crossref: DOI resolved: " + doi + " [" + record_type + "]")
                 current_row["indexed_in_crossref"] = "TRUE"
-                prefix = data.pop("prefix")
                 for key, value in data.items():
-                    new_value = _process_crossref_results(current_row, row_num, prefix, key, value)
+                    new_value = _process_crossref_results(current_row, row_num, key, value)
                     old_value = current_row[key]
                     current_row[key] = column_map[key].check_overwrite(old_value, new_value)
             else:
@@ -1700,7 +1733,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                                        doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
                                        no_doaj_lookup, no_title_lookup, round_monetary, offsetting_mode, orig_file_path)
         # include pubmed metadata
-        if not no_pubmed_lookup and record_type == "journal_article":
+        if not no_pubmed_lookup and record_type == "journal-article":
             pubmed_result = get_metadata_from_pubmed(doi)
             if pubmed_result["success"]:
                 logging.info("Pubmed: DOI resolved: " + doi)
@@ -1741,7 +1774,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.info(msg, issn)
         old_value = current_row["doaj"]
         current_row["doaj"] = column_map["doaj"].check_overwrite(old_value, new_value)
-    if record_type != "journal_article" and not empty_row:
+    if record_type != "journal-article" and not empty_row:
         collected_isbns = []
         for isbn_field in ["isbn", "isbn_print", "isbn_electronic"]:
             # test and split all ISBNs
@@ -1757,7 +1790,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             logging.info("No ISBN found, skipping DOAB lookup.")
             current_row["doab"] = "NA"
         else:
-            record_type = "book_title"
+            record_type = "book"
             logging.info("Trying a DOAB lookup with the following values: " + str(collected_isbns))
             for isbn in collected_isbns:
                 doab_result = doab_analysis.lookup(isbn)
@@ -1780,12 +1813,12 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.info(msg)
     if offsetting_mode:
         current_row["agreement"] = offsetting_mode
-        record_type = "journal_article_transagree"
+        record_type = "journal-article_transagree"
 
     if record_type is None:
-        msg = "Line %s: Could not identify record type, using default schema 'journal_article'"
+        msg = "Line %s: Could not identify record type, using default schema 'journal-article'"
         logging.warning(msg, row_num)
-        record_type = "journal_article"
+        record_type = "journal-article"
 
     result = []
     for field in COLUMN_SCHEMAS[record_type]:
