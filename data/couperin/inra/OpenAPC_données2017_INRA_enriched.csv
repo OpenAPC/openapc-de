@@ -11,7 +11,7 @@
 "INRA",2017,2250,"10.1371/journal.pgen.1006666",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"28301472","PMC5373671","ut:000398043000028",NA,TRUE
 "INRA",2017,1254,"10.1371/journal.pone.0184015",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28886097","PMC5590879","ut:000410001100054",NA,TRUE
 "INRA",2017,1127.06,"10.4236/fns.2017.84029",FALSE,"Scientific Research Publishing, Inc.","Food and Nutrition Sciences","2157-944X","2157-944X","2157-9458","2157-944X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"INRA",2017,2867,"10.1105/tpc.16.00435",TRUE,"Oxford University Press (OUP)","The Plant Cell","1040-4651","1040-4651","1532-298X","1040-4651",NA,TRUE,"28087830",NA,"ut:000394129700013",NA,FALSE
+"INRA",2017,2867,"10.1105/tpc.16.00435",TRUE,"American Society of Plant Biologists (ASPB)","The Plant Cell","1040-4651","1040-4651","1532-298X","1040-4651",NA,TRUE,"28087830",NA,"ut:000394129700013",NA,FALSE
 "INRA",2017,2500,"10.1111/1744-7917.12469",TRUE,"Wiley-Blackwell","Insect Science","1672-9609","1672-9609",NA,"1672-9609","http://creativecommons.org/licenses/by/4.0/",TRUE,"28421675","PMC5724696","ut:000423298700007",NA,FALSE
 "INRA",2017,1403.36,"10.1371/journal.pone.0174398",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28467423","PMC5414972","ut:000400647000005",NA,TRUE
 "INRA",2017,2141.4,"10.3389/fpls.2017.00265",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X",NA,TRUE,"28293247","PMC5329020","ut:000394892400002",NA,TRUE
@@ -32,8 +32,8 @@
 "INRA",2017,2007.8,"10.3389/fmicb.2017.00359",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X",NA,TRUE,"28337182","PMC5340753","ut:000395681500001",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-17212-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"29259180","PMC5736637","ut:000418359600088",NA,TRUE
 "INRA",2017,550,"10.1371/journal.pone.0171104",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"28187126","PMC5302804","ut:000394244300011",NA,TRUE
-"INRA",2017,1363.06,"10.1104/pp.16.00621",TRUE,"Oxford University Press (OUP)","Plant Physiology","0032-0889","0032-0889","1532-2548","0032-0889",NA,TRUE,"27436830",NA,"ut:000391147700011",NA,FALSE
-"INRA",2017,2431.8,"10.1104/pp.17.00698",TRUE,"Oxford University Press (OUP)","Plant Physiology","0032-0889","0032-0889","1532-2548","0032-0889","http://aspb.org/publications/aspb-journals/open-articles",TRUE,"28899961",NA,"ut:000414052500009",NA,FALSE
+"INRA",2017,1363.06,"10.1104/pp.16.00621",TRUE,"American Society of Plant Biologists (ASPB)","Plant Physiology","0032-0889","0032-0889","1532-2548","0032-0889",NA,TRUE,"27436830",NA,"ut:000391147700011",NA,FALSE
+"INRA",2017,2431.8,"10.1104/pp.17.00698",TRUE,"American Society of Plant Biologists (ASPB)","Plant Physiology","0032-0889","0032-0889","1532-2548","0032-0889","http://aspb.org/publications/aspb-journals/open-articles",TRUE,"28899961",NA,"ut:000414052500009",NA,FALSE
 "INRA",2017,2184,"10.1186/s13007-017-0246-7",FALSE,"Springer Nature","Plant Methods","1746-4811",NA,"1746-4811","1746-4811",NA,TRUE,"29176999","PMC5688816","ut:000414783300004",NA,TRUE
 "INRA",2017,1820,"10.1186/s13007-017-0248-5",FALSE,"Springer Nature","Plant Methods","1746-4811",NA,"1746-4811","1746-4811",NA,TRUE,"29151844","PMC5678554","ut:000414783300006",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
@@ -81,7 +81,7 @@
 "",,,"","","","","","","","","","","","","","",""
 "INRA",2017,1615,"10.3389/fendo.2017.00065",FALSE,"Frontiers Media SA","Frontiers in Endocrinology","1664-2392",NA,"1664-2392","1664-2392",NA,TRUE,"28443064","PMC5385335","ut:000398629100001",NA,TRUE
 "INRA",2017,1373.18,"10.3389/fendo.2017.00216",FALSE,"Frontiers Media SA","Frontiers in Endocrinology","1664-2392",NA,"1664-2392","1664-2392",NA,TRUE,"28900415","PMC5581815","ut:000408501000001",NA,TRUE
-"INRA",2017,1973.53,"10.1016/j.ijpara.2017.08.001",FALSE,"Elsevier BV","International Journal for Parasitology","0020-7519","0020-7519",NA,"0020-7519","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28893638",NA,"ut:000413058100003",NA,FALSE
+"INRA",2017,1973.53,"10.1016/j.ijpara.2017.08.001",TRUE,"Elsevier BV","International Journal for Parasitology","0020-7519","0020-7519",NA,"0020-7519","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"28893638",NA,"ut:000413058100003",NA,FALSE
 "INRA",2017,1648.79,"10.1016/j.ijpddr.2017.10.007",FALSE,"Elsevier BV","International Journal for Parasitology: Drugs and Drug Resistance","2211-3207","2211-3207",NA,"2211-3207","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29149701","PMC5727347","ut:000417355700017",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-03724-7",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28611405","PMC5469773","ut:000403140000112",NA,TRUE
 "INRA",2017,675,"10.1128/genomea.00410-17",FALSE,"American Society for Microbiology","Genome Announcements","2169-8287",NA,"2169-8287","2169-8287","http://creativecommons.org/licenses/by/4.0/",TRUE,"28684564","PMC5502845",NA,NA,FALSE
@@ -142,4 +142,4 @@
 "INRA",2017,2870.59,"10.1016/j.soilbio.2017.09.009",TRUE,"Elsevier BV","Soil Biology and Biochemistry","0038-0717","0038-0717",NA,"0038-0717","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29200510","PMC5666291","ut:000414880000040",NA,FALSE
 "INRA",2017,1916.51,"10.1371/journal.pcbi.1005870",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","1553-734X","http://creativecommons.org/licenses/by/4.0/",TRUE,"29194457","PMC5736211","ut:000418951400014",NA,TRUE
 "INRA",2017,1305,"10.1038/s41598-017-04556-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","http://creativecommons.org/licenses/by/4.0",TRUE,"28667273","PMC5493662","ut:000404451300008",NA,TRUE
-"INRA",2017,1481.48,"10.1104/pp.16.01484",TRUE,"Oxford University Press (OUP)","Plant Physiology","0032-0889","0032-0889","1532-2548","0032-0889",NA,TRUE,"27852950",NA,"ut:000394135800033",NA,FALSE
+"INRA",2017,1481.48,"10.1104/pp.16.01484",TRUE,"American Society of Plant Biologists (ASPB)","Plant Physiology","0032-0889","0032-0889","1532-2548","0032-0889",NA,TRUE,"27852950",NA,"ut:000394135800033",NA,FALSE
