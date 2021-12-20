@@ -1,7 +1,7 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "FZJ - ZB",2020,1678,"10.1111/1751-7915.13288",FALSE,"Wiley-Blackwell","Microbial Biotechnology","1751-7915","1751-7915","1751-7915","1751-7915","http://creativecommons.org/licenses/by/4.0/",TRUE,"29943398","PMC6922532","ut:000596580200005",NA,TRUE
 "FZJ - ZB",2020,1980,"10.1016/j.ijadhadh.2019.102473",TRUE,"Elsevier BV","International Journal of Adhesion and Adhesives","0143-7496","0143-7496",NA,"0143-7496","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000518868400036",NA,FALSE
-"FZJ - ZB",2020,2160,"10.1002/hbm.24855",FALSE,"Wiley-Blackwell","Human Brain Mapping","1065-9471","1065-9471","1097-0193","1065-9471","http://creativecommons.org/licenses/by/4.0/",TRUE,"31680379","PMC7268022","ut:000493799800001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "FZJ - ZB",2020,2786,"10.1111/mmi.14226",TRUE,"Wiley-Blackwell","Molecular Microbiology","0950-382X","0950-382X","1365-2958","0950-382X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30767351","PMC6850329","ut:000466177100017",NA,FALSE
 "FZJ - ZB",2020,2240,"10.1016/j.nicl.2019.101915",FALSE,"Elsevier BV","NeuroImage: Clinical","2213-1582","2213-1582",NA,"2213-1582","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31491825","PMC6627029","ut:000485804400116",NA,TRUE
 "FZJ - ZB",2020,1440,"10.1002/open.201900167",FALSE,"Wiley-Blackwell","ChemistryOpen","2191-1363","2191-1363","2191-1363","2191-1363","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31367507","PMC6643301","ut:000477965100019",NA,TRUE
