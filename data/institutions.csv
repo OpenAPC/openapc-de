@@ -291,7 +291,7 @@ CNAM,cnam,Conservatoire national des arts et métiers,EUROPE,FRA,FR-IDF,couperin
 IMT Atlantique,imt_atlantique,IMT Atlantique Bretagne Pays de la Loire,EUROPE,FRA,FR-BRE,couperin/imt,grid.486295.4,https://ror.org/030hj3061
 HS Düsseldorf,hs_duesseldorf,Hochschule Düsseldorf,EUROPE,DEU,NW,hsduesseldorf,grid.440973.d,https://ror.org/00ftx0026
 Université des Antilles,antilles_u,Université des Antilles,EUROPE,FRA,FR-GP,couperin/antilles,grid.412130.5,https://ror.org/02ryfmr77
-ENSICAEN,ensicaen,École nationale supérieure d'ingénieurs de Caen,EUROE,FRA,FR-NOR,couperin/ensicaen,grid.424453.0,https://ror.org/01fpqqe90
+ENSICAEN,ensicaen,École nationale supérieure d'ingénieurs de Caen,EUROPE,FRA,FR-NOR,couperin/ensicaen,grid.424453.0,https://ror.org/01fpqqe90
 Natural Resources Institute Finland,nri_finland,Natural Resources Institute Finland,EUROPE,FIN,FI-18,NA,grid.22642.30,https://ror.org/02hb7bm88
 University of Applied Sciences Savonia,savonia_uas,University of Applied Sciences Savonia,EUROPE,FIN,FI-15,NA,grid.449606.9,https://ror.org/0238fqd79
 SAMK Satakunta University of Applied Sciences,satakunta_uas,Satakunta University of Applied Sciences,EUROPE,FIN,FI-17,NA,grid.449591.4,https://ror.org/008wzdf98
@@ -305,7 +305,7 @@ Université Savoie Mont Blanc,savoie_u,Université Savoie Mont Blanc,EUROPE,FRA,
 Paris 8 Vincennes - Saint-Denis,paris_8_u,Paris 8 Vincennes - Saint-Denis,EUROPE,FRA,FR-IDF,couperin/paris-8,grid.15878.33,https://ror.org/04wez5e68
 ONERA,onera,Office National d'Etudes et de Recherches Aérospatiales (ONERA),EUROPE,FRA,FR-IDF,couperin/onera,grid.4365.4,https://ror.org/005y2ap84
 Université de Nouvelle Calédonie,nouvelle_caledonie_u,Université de Nouvelle Calédonie,EUROPE,FRA,NA,couperin/nouvelle-caledonie,grid.449988.0,https://ror.org/02jrgcx64
-Le Mans Université,le_mans_u,Le Mans Université,EUROPE,FRA,FR-PDL,couperin/le-mans,grid.449623.e,Université Nantes Angers Le Mans
+Le Mans Université,le_mans_u,Le Mans Université,EUROPE,FRA,FR-PDL,couperin/le-mans,grid.449623.e,https://ror.org/0406t3m57
 Laboratoire national d'essais (LNE),lne,Laboratoire national d'essais (LNE),EUROPE,FRA,FR-IDF,couperin/lne,grid.22040.34,https://ror.org/01ph39d13
 Université de Lille,lille_u,Université de Lille,EUROPE,FRA,FR-HDF,couperin/lille,grid.503422.2,https://ror.org/02kzqn938
 MHB Fontane,mhb_fontane,Medizinische Hochschule Brandenburg Theodor Fontane,EUROPE,DEU,BB,mhbfontane,grid.473452.3,https://ror.org/04839sh14
@@ -322,7 +322,7 @@ INSA de Lyon,insa_lyon,INSA de Lyon,EUROPE,FRA,FR-ARA,couperin/insa-lyon,grid.15
 Aalto University,aalto_u,Aalto University,EUROPE,FIN,FI-18,NA,grid.5373.2,https://ror.org/020hwjq30
 ZHAW Zurich University of Applied Sciences,zhaw,ZHAW Zurich University of Applied Sciences,EUROPE,CHE,CH.ZH,zhaw,grid.19739.35,https://ror.org/05pmsvm27
 "WSL - Swiss Federal Institute for Forest, Snow and Landscape Research",wsl,"WSL - Swiss Federal Institute for Forest, Snow and Landscape Research",EUROPE,CHE,CH.ZH,NA,grid.419754.a,https://ror.org/04bs5yc70
-PSI - Paul Scherrer Institute,psi,PSI - Paul Scherrer Institute,EUROPE,CHE,CH.AG,grid.5991.4,https://ror.org/03eh3y714
+PSI - Paul Scherrer Institute,psi,PSI - Paul Scherrer Institute,EUROPE,CHE,CH.AG,NA,grid.5991.4,https://ror.org/03eh3y714
 Zurich University of the Arts,zhdk,Zurich University of the Arts,EUROPE,CHE,CH.ZH,zhdk,grid.449912.3,https://ror.org/05r0ap620
 Johannes Kepler University Linz,linz_u,Johannes Kepler University Linz,EUROPE,AUT,AUT-OO,unilinz,grid.9970.7,https://ror.org/052r2xn60
 Paul-Drude-Institut für Festkörperelektronik,pdi,Paul-Drude-Institut für Festkörperelektronik,EUROPE,DEU,BE,pdi,grid.420187.8,https://ror.org/01mk1hj86
@@ -331,7 +331,7 @@ AgroParisTech,aggroparistech,AgroParisTech,EUROPE,FRA,FR-IDF,couperin/agroparist
 ENGEES,engees,École nationale du génie de l'eau et de l'environnement de Strasbourg,EUROPE,FRA,FR-GES,couperin/engees,grid.466385.a,https://ror.org/02jhjzd11
 ENSTA Bretagne,ensta_bretagne,ENSTA Bretagne,EUROPE,FRA,FR-BRE,couperin/ensta-bretagne,grid.462182.b,https://ror.org/059n54003
 Université de Haute-Alsace,haute_alsace_u,Université de Haute-Alsace,EUROPE,FRA,FR-GES,couperin/haute-alsace,grid.9156.b,https://ror.org/04k8k6n84
-IFREMER,ifremer,IFREMER,Institut Français de Recherche pour l'Exploitation de la Mer,EUROPE,FRA,FR-BRE,couperin/ifremer,grid.4825.b,https://ror.org/044jxhp58
+IFREMER,ifremer,Institut Français de Recherche pour l'Exploitation de la Mer,EUROPE,FRA,FR-BRE,couperin/ifremer,grid.4825.b,https://ror.org/044jxhp58
 Université du Havre,havre_u,Université du Havre,EUROPE,FRA,FR-NOR,couperin/le-havre,grid.9916.7,https://ror.org/05v509s40
 Université Paris 1 Panthéon-Sorbonne,paris_1_u,Université Paris 1 Panthéon-Sorbonne,EUROPE,FRA,FR-IDF,couperin/paris-1,grid.10988.38,https://ror.org/002t25c44
 Université Paris Nanterre,paris_nanterre_u,Université Paris Nanterre,EUROPE,FRA,FR-IDF,couperin/paris-nanterre,grid.7902.c,https://ror.org/013bkhk48
@@ -341,6 +341,6 @@ Université de technologie de Troyes,troyes_u,Université de technologie de Troy
 Université Gustave Eiffel,gustave_eiffel_u,Université Gustave Eiffel,EUROPE,FRA,FR-IDF,couperin/gustave_eiffel,grid.509737.f,https://ror.org/03x42jk29
 CHU de Rennes,rennes_chu,CHU de Rennes,EUROPE,FRA,FR-BRE,couperin/chu-rennes,grid.411154.4,https://ror.org/05qec5a53
 Université Polytechnique Hauts-de-France,up_hauts_de_france,Université Polytechnique Hauts-de-France,EUROPE,FRA,FR-HDF,couperin/polytechnique-hdf,grid.12810.3a,https://ror.org/02ezch769
-INRAE,inrae,Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE),EUROPE,FRA,FR-IDF,couperin/inrae,grid.507621.7,https://ror.org/003vg9w96
+INRAE,inrae,"Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)",EUROPE,FRA,FR-IDF,couperin/inrae,grid.507621.7,https://ror.org/003vg9w96
 European Synchrotron Radiation Facility (ESRF),esrf,European Synchrotron Radiation Facility (ESRF),EUROPE,FRA,FR-ARA,couperin/esrf,grid.5398.7,https://ror.org/02550n020
 Ecole centrale de Lyon,centrale_lyon,Ecole centrale de Lyon,EUROPE,FRA,FR-ARA,couperin/centrale-lyon,grid.15401.31,https://ror.org/05s6rge65
