@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |141,869 | 273,157,206    | 341 |
+| Articles         |142,921 | 275,008,584    | 345 |
 | Monographs       |1,332 | 8,443,649    | 15 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -273,12 +273,14 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - CHU de Rennes
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
 - Conservatoire national des arts et métiers
+- Ecole centrale de Lyon
 - École nationale du génie de l'eau et de l'environnement de Strasbourg (ENGEES)
 - École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - ENS de Lyon
 - ENSTA Bretagne
+- European Synchrotron Radiation Facility (ESRF)
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - IMT Atlantique
@@ -290,6 +292,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut Laue-Langevin
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la recherche agronomique (INRA)
+- Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
 - Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
@@ -342,6 +345,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Paris Nanterre
 - Université Pierre et Marie Curie (Paris VI)
 - Université Paris Diderot (Paris VII)
+- Université Polytechnique Hauts-de-France
 - Université Savoie Mont Blanc
 
 ## Participating Institutions from the United Kingdom:
@@ -464,13 +468,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 141,869 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 341 research performing institutions and research funders. 
+The article data set contains information on 142,921 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 345 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 273,157,206. The average payment was € 1,925 and the median was € 1,749.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 275,008,584. The average payment was € 1,924 and the median was € 1,748.
 
-91,484 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 147,981,161, including value-added tax; the average payment was € 1,618 (median =  € 1,542, SD = € 775).
+92,357 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 149,430,627, including value-added tax; the average payment was € 1,618 (median =  € 1,542, SD = € 774).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 50,385 articles in the data set were published in hybrid journals. Total expenditure amounts to 125,176,046 €; the average fee was € 2,484 (median =  € 2,445, SD = € 993).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 50,564 articles in the data set were published in hybrid journals. Total expenditure amounts to 125,577,957 €; the average fee was € 2,484 (median =  € 2,444, SD = € 993).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -495,10 +499,10 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2014   |       5,180|   1,374|     1,255|  40 -  9,028|           6,515|       2,239|         2,200|     132 -  6,000|
 |2015   |       8,426|   1,520|     1,448|  59 -  5,669|           6,686|       2,611|         2,622|     127 -  8,636|
 |2016   |       9,782|   1,634|     1,530|  63 -  5,985|           7,880|       2,552|         2,516|       2 -  9,079|
-|2017   |      14,508|   1,714|     1,556|   9 - 14,634|          10,597|       2,531|         2,473|      37 -  9,858|
-|2018   |      14,626|   1,700|     1,587|  13 -  8,926|           9,189|       2,564|         2,543|      18 - 13,975|
-|2019   |      14,924|   1,647|     1,605|  11 -  7,684|           5,054|       2,405|         2,321|      75 -  9,500|
-|2020   |      16,623|   1,688|     1,675|   0 -  8,906|           2,887|       2,372|         2,383|     130 -  7,384|
+|2017   |      14,528|   1,714|     1,556|   9 - 14,634|          10,600|       2,531|         2,473|      37 -  9,858|
+|2018   |      14,872|   1,698|     1,586|  13 -  8,926|           9,240|       2,561|         2,543|      18 - 13,975|
+|2019   |      15,203|   1,648|     1,603|  11 -  7,684|           5,110|       2,405|         2,325|      75 -  9,500|
+|2020   |      16,951|   1,689|     1,674|   0 -  8,906|           2,956|       2,369|         2,381|     130 -  7,384|
 |2021   |       1,518|   1,736|     1,670| 101 -  5,617|             449|       2,449|         2,341|     169 -  5,059|
 
 ### Books (BPCs)
@@ -571,8 +575,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.73%       |
-|PubMed ID                  |  74.57%      |
-|PubMed Central ID          |  68.16%     |
+|PubMed ID                  |  74.6%      |
+|PubMed Central ID          |  68.2%     |
 |Web of Science record ID   | 91.74%      |
 
 

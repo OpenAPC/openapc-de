@@ -297,12 +297,14 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - CHU de Rennes
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
 - Conservatoire national des arts et métiers
+- Ecole centrale de Lyon
 - École nationale du génie de l'eau et de l'environnement de Strasbourg (ENGEES)
 - École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - ENS de Lyon
 - ENSTA Bretagne
+- European Synchrotron Radiation Facility (ESRF)
 - Hospices Civils de Lyon
 - Université Grenoble Alpes
 - IMT Atlantique
@@ -314,6 +316,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut Laue-Langevin
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la recherche agronomique (INRA)
+- Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
 - Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national polytechnique de Toulouse (INPT)
@@ -366,6 +369,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université Paris Nanterre
 - Université Pierre et Marie Curie (Paris VI)
 - Université Paris Diderot (Paris VII)
+- Université Polytechnique Hauts-de-France
 - Université Savoie Mont Blanc
 
 ## Participating Institutions from the United Kingdom:
