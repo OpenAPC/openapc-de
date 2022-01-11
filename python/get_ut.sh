@@ -2,8 +2,8 @@
 
 cd ..
 if [ "$1" = "refresh" ]; then
-    fab -R pub get_ut:python/out.csv,python/out.csv,true
+    fab2 get-ut python/out.csv python/out.csv true
 else
-    fab -R pub get_ut:python/out.csv,python/out.csv,false
+    fab2 --prompt-for-passphrase --prompt-for-login-password get-ut python/out.csv python/out.csv false
 fi
 cd python

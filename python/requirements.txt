@@ -1,5 +1,5 @@
 chardet==3.0.4
-Fabric3==1.14.post1
+fabric2==2.6.0
 pytest==4.0.1
 python-Levenshtein>=0.12.0
 requests>=2.26.0

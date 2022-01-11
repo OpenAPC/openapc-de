@@ -1,28 +1,24 @@
 #!/usr/bin/env python3
 
 import csv
-from fabric.api import *
 import sys
 import os
 
-# USAGE: $ fab -R pub get_ut:input={input_file},output={output_file},refresh={true,false}
+from fabric2 import task
 
-env.roledefs = {
-    'pub': ['bup@pub']
-}
+# USAGE: $ fab2 get_ut {input_file} {output_file} {true,false}
 
 openapc_dir = "/home/openapc/openapc/"
+host = ["bup@pub"]
 
-def prepare():
-    local("git pull origin master")
-
-def get_ut(input,output,refresh):
-    if input == '' or output == '':
-        sys.exit("Input file and output file are required.")
-    if os.path.isfile(input):
-        in_file = os.path.basename(input)
+@task(hosts=host)
+def get_ut(con, input_file, output_file, refresh):
+    if input_file == '' or output_file == '':
+        sys.exit("input_file file and output_file file are required.")
+    if os.path.isfile(input_file):
+        in_file = os.path.basename(input_file)
     else:
-        sys.exit("Input file is no valid file.")
+        sys.exit("input_file file is no valid file.")
     if refresh.lower().strip() == "true":
         refresh_param = "--refresh "
     elif refresh.lower().strip() == "false":
@@ -30,15 +26,16 @@ def get_ut(input,output,refresh):
     else:
         sys.exit("Refresh parameter must either be true or false.")
         
-    put("bin/fetch.pl", openapc_dir + "fetch.pl")
-    put(input, openapc_dir + in_file)
+    con.put("bin/fetch.pl", openapc_dir + "fetch.pl")
+    con.put(input_file, openapc_dir + in_file)
 
-    with cd(openapc_dir):
-        run("perl fetch.pl " + refresh_param + "--input " + in_file + " --output doi_ut_mapping.csv")
-        get("doi_ut_mapping.csv", "doi_ut_mapping.csv")
-        if refresh_param == "--refresh ":
-            local("python/csv_column_modification.py -e utf8 -o -q tfftttttttttttttttttt " + input + " delete 15")
-            local("python/csv_column_modification.py -e utf8 -o -q tfftttttttttttttttttt " + input + " insert 15 ut NA")
-        local("python/csv_value_copy.py -e utf8 -e2 utf8 -f -o -q tfftttttttttttttttttt doi_ut_mapping.csv 0 1 " + input + " 3 15")
-        local("rm doi_ut_mapping.csv")
-        local("mv out.csv " + output)
+    perl_cmd = "cd {} && perl fetch.pl {}--input {} --output doi_ut_mapping.csv".format(openapc_dir, refresh_param, in_file)
+    print(perl_cmd)
+    con.run(perl_cmd)
+    con.get("doi_ut_mapping.csv", "doi_ut_mapping.csv")
+    if refresh_param == "--refresh ":
+        con.local("python/csv_column_modification.py -e utf8 -o -q tfftttttttttttttttttt " + input_file + " delete 15")
+        con.local("python/csv_column_modification.py -e utf8 -o -q tfftttttttttttttttttt " + input_file + " insert 15 ut NA")
+    con.local("python/csv_value_copy.py -e utf8 -e2 utf8 -f -o -q tfftttttttttttttttttt doi_ut_mapping.csv 0 1 " + input_file + " 3 15")
+    con.local("rm doi_ut_mapping.csv")
+    con.local("mv out.csv " + output_file)
