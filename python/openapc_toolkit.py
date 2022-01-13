@@ -987,18 +987,19 @@ def find_book_dois_in_crossref(isbn_list):
         contain a second entry 'error_msg' with a string value
         stating the reason.
     """
+    ret_value = {
+        "success": False,
+        "dois": []
+    }
     if type(isbn_list) != type([]) or len(isbn_list) == 0:
-        raise ValueError("Parameter must be a non-empty list!")
+        ret_value['error_msg'] = "Parameter must be a non-empty list!"
+        return ret_value
     filter_list = ["isbn:" + isbn.strip() for isbn in isbn_list]
     filters = ",".join(filter_list)
     api_url = "https://api.crossref.org/works?filter="
     url = api_url + filters + "&rows=500"
     request = Request(url)
     request.add_header("User-Agent", USER_AGENT)
-    ret_value = {
-        "success": False,
-        "dois": []
-    }
     try:
         ret = urlopen(request)
         content = ret.read()
@@ -1497,11 +1498,11 @@ def _isbn_lookup(current_row, row_num, additional_isbns, isbn_handling):
     if not cr_res["success"]:
         msg = "Line %s: Error while trying to look up ISBNs in Crossref: %s"
         logging.error(msg, row_num, cr_res["error_msg"])
-        return (None, "book_title")
+        return (None, "book")
     elif len(cr_res["dois"]) == 0:
         msg = "Line %s: Performed Crossref ISBN lookup, no DOI found."
         logging.info(msg, row_num)
-        return (None, "book_title")
+        return (None, "book")
     elif len(cr_res["dois"]) > 1:
         msg = "Line %s: Performed Crossref ISBN lookup, more than one DOI found (%s) -> Used first in list."
         logging.warning(msg, row_num, str(cr_res["dois"]))
