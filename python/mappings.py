@@ -300,6 +300,8 @@ JOURNAL_MAPPINGS = {
     "Electronic Journal of e-Government": "The Electronic Journal of e-Government",
     "WIREs Developmental Biology": "Wiley Interdisciplinary Reviews: Developmental Biology",
     "Sustainability Management Forum | NachhaltigkeitsManagementForum": "NachhaltigkeitsManagementForum | Sustainability Management Forum",
+    "Animal": "animal",
+    "Molecular Plant-Microbe Interactions®": "Molecular Plant-Microbe Interactions"
 }
 
 COLUMN_NAMES = {

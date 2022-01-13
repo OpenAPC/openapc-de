@@ -216,7 +216,8 @@ JOURNAL_OWNER_CHANGED = {
     "0935-1221": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy (linking)
     "2211-8179": ["Elsevier BV", "Ubiquity Press, Ltd."], # Global Heart
     "2211-8160": ["Elsevier BV", "Ubiquity Press, Ltd."], # Global Heart (linking)
-    "1940-3372": ["Crop Science Society of America", "Wiley-Blackwell"] # The Plant Genome
+    "1940-3372": ["Crop Science Society of America", "Wiley-Blackwell"], # The Plant Genome
+    "1751-7311": ["Cambridge University Press (CUP)", "Elsevier BV"] # Animal
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -328,7 +329,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1880-6546", # The Journal of Physiological Sciences, Gold OA since 2020
     "2523-3963", # SN Applied Sciences, Gold OA since 2021
     "2045-7960", # Epidemiology and Psychiatric Sciences, Gold OA since 2020
-    "2468-2330" # The Cell surface, Gold OA since 2019
+    "2468-2330", # The Cell surface, Gold OA since 2019
+    "1751-7311", # Animal, Gold OA since 2021
+    "0894-0282" # Molecular Plant-Microbe Interactions, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
