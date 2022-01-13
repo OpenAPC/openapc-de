@@ -29,10 +29,9 @@ def get_ut(con, input_file, output_file, refresh):
     con.put("bin/fetch.pl", openapc_dir + "fetch.pl")
     con.put(input_file, openapc_dir + in_file)
 
-    perl_cmd = "cd {} && perl fetch.pl {}--input {} --output doi_ut_mapping.csv".format(openapc_dir, refresh_param, in_file)
-    print(perl_cmd)
+    perl_cmd = "cd {} && perl -I/home/bup/pub/LibreCat/local/lib/perl5/ fetch.pl {}--input {} --output doi_ut_mapping.csv".format(openapc_dir, refresh_param, in_file)
     con.run(perl_cmd)
-    con.get("doi_ut_mapping.csv", "doi_ut_mapping.csv")
+    con.get(openapc_dir + "doi_ut_mapping.csv", "doi_ut_mapping.csv")
     if refresh_param == "--refresh ":
         con.local("python/csv_column_modification.py -e utf8 -o -q tfftttttttttttttttttt " + input_file + " delete 15")
         con.local("python/csv_column_modification.py -e utf8 -o -q tfftttttttttttttttttt " + input_file + " insert 15 ut NA")
