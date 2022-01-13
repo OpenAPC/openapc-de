@@ -271,9 +271,12 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - Häme University of Applied Sciences
 - [Hanken School of Economics](https://www.hanken.fi/en)
 - JAMK University of Applied Sciences
+- Lapin ammattikorkeakoulu (Lapland University of Applied Sciences)
 - [Laurea University of Applied Sciences](https://www.laurea.fi/en/)
 - Natural Resources Institute Finland
 - Satakunta University of Applied Sciences (SAMK)
+- Seinäjoki University of Applied Sciences
+- South-Eastern Finland University of Applied Sciences (Xamk)
 - [Tampere University](https://libguides.tuni.fi/openaccess)
 - University of Applied Sciences Savonia
 - [University of Eastern Finland](https://www.uef.fi/en/etusivu)
