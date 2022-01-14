@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 44,084 articles, published at 274 institutions under 20 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 44,401 articles, published at 275 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -29,11 +29,13 @@ This dataset contains information on 44,084 articles, published at 274 instituti
 |Swiss Consortium Springer Compact agreement  |      693|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
+|University of Milan - Springer               |      192|
 |Austrian Consortium RSC agreement            |      179|
 |FWF Offsetting Agreement T&F                 |      175|
 |FWF Transformative Agreement Springer Nature |      159|
 |FWF Transformative Agreement ACS             |      145|
 |Swiss Consortium RSC agreement               |      133|
+|University of Milan - Wiley                  |       98|
 |FWF Offsetting Agreement IOP                 |       82|
 |TIB RSC Journals Read & Publish              |       56|
 |MPG Taylor & Francis agreement               |       46|
@@ -41,6 +43,8 @@ This dataset contains information on 44,084 articles, published at 274 instituti
 |MPG IOP agreement                            |       32|
 |Austrian Consortium Emerald agreement        |       23|
 |Austrian Consortium Sage agreement           |       16|
+|University of Milan - De Gruyter             |       15|
+|University of Milan - ACS                    |       12|
 
 ### Breakdown by institution
 
@@ -97,6 +101,7 @@ This dataset contains information on 44,084 articles, published at 274 instituti
 |Linköping University                                                                                                                               |      340|
 |Cardiff University                                                                                                                                 |      339|
 |University of Warwick                                                                                                                              |      332|
+|University of Milan                                                                                                                                |      317|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |TU Berlin                                                                                                                                          |      315|
 |Radboud University                                                                                                                                 |      309|
