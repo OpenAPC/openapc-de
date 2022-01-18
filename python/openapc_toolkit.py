@@ -1691,7 +1691,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             if not crossref_result["success"]:
                 exc = crossref_result["exception"]
                 # check if a preprint lookup is possible
-                if not no_title_lookup and type(exc) == UnsupportedDoiTypeError and exc.doi_type == "posted_content":
+                if not no_title_lookup and type(exc) == UnsupportedDoiTypeError and exc.doi_type == "posted-content":
                     msg = ("Line %s: Found a DOI with type 'posted_content' (%s). This might " +
                            "be a case of a preprint DOI, trying to find the final version of the article...")
                     logging.info(msg, row_num, doi)
