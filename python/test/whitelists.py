@@ -219,7 +219,8 @@ JOURNAL_OWNER_CHANGED = {
     "1940-3372": ["Crop Science Society of America", "Wiley-Blackwell"], # The Plant Genome
     "1751-7311": ["Cambridge University Press (CUP)", "Elsevier BV"], # Animal
     "0042-4900": ["BMJ", "Wiley-Blackwell"], # Veterinary Record
-    "2042-7670": ["BMJ", "Wiley-Blackwell"] # Veterinary Record (electronic)
+    "2042-7670": ["BMJ", "Wiley-Blackwell"], # Veterinary Record (electronic)
+    "2052-6113": ["BMJ", "Wiley-Blackwell"] # Veterinary Record Open
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
