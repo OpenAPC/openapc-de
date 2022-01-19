@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 44,401 articles, published at 275 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 44,597 articles, published at 275 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 44,401 articles, published at 275 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2197|
+|DEAL Wiley Germany                           |     2289|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1515|
+|DEAL Springer Nature Germany                 |     1619|
 |Swiss Consortium Springer Compact agreement  |      693|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -115,6 +115,7 @@ This dataset contains information on 44,401 articles, published at 275 instituti
 |University of Geneva                                                                                                                               |      275|
 |University Medical Center Groningen (UMCG)                                                                                                         |      270|
 |University of Exeter                                                                                                                               |      262|
+|Giessen U                                                                                                                                          |      245|
 |TU Darmstadt                                                                                                                                       |      234|
 |TU Wien (TUW)                                                                                                                                      |      231|
 |University of Reading                                                                                                                              |      226|
@@ -193,7 +194,6 @@ This dataset contains information on 44,401 articles, published at 275 instituti
 |Keele University                                                                                                                                   |       54|
 |University of Fribourg                                                                                                                             |       53|
 |University of Klagenfurt                                                                                                                           |       51|
-|Giessen U                                                                                                                                          |       49|
 |Vienna University of Economics and Business (WU)                                                                                                   |       49|
 |St George's, University of London                                                                                                                  |       48|
 |Eawag - Swiss Federal Institute of Aquatic Science and Technology                                                                                  |       47|
