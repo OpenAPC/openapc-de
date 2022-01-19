@@ -334,7 +334,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2045-7960", # Epidemiology and Psychiatric Sciences, Gold OA since 2020
     "2468-2330", # The Cell surface, Gold OA since 2019
     "1751-7311", # Animal, Gold OA since 2021
-    "0894-0282" # Molecular Plant-Microbe Interactions, Gold OA since 2021
+    "0894-0282", # Molecular Plant-Microbe Interactions, Gold OA since 2021
+    "0001-6918" # Acta Psychologica, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
