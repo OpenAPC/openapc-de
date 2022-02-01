@@ -32,6 +32,7 @@ JOURNAL_OWNER_CHANGED = {
     "1755-7682": ["Springer Science + Business Media", "International Medical Publisher (Fundacion de Neurociencias)"], # International Archives of Medicine
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
     "0024-4066": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society
+    "1095-8312": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society (electronic)
     "0024-4074": ["Wiley-Blackwell", "Oxford University Press (OUP)"], #  Botanical Journal of the Linnean Society
     "1087-2981": ["Co-Action Publishing", "Informa UK Limited"], # Medical Education Online
     "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action (print)
@@ -79,8 +80,10 @@ JOURNAL_OWNER_CHANGED = {
     "1096-7508": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review (linking)
     "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine
     "1555-4309": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging
+    "1555-4317": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging (electronic)
     "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
     "0197-6729": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation
+    "2042-3195": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation (electronic)
     "0094-8276": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters"
     "1944-8007": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters (electronic)"
     "8755-1209": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics
@@ -90,16 +93,22 @@ JOURNAL_OWNER_CHANGED = {
     "2169-9402": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics (electronic)
     "1542-7390": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Space Weather
     "2169-897X": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Atmospheres
+    "2169-8996": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Atmospheres (electronic)
     "1525-2027": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Geochemistry, Geophysics, Geosystems
     "2328-4277": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Earth's Future
     "1942-2466": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Advances in Modeling Earth Systems
     "0043-1397": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Water Resources Research
+    "1944-7973": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Water Resources Research (electronic)
     "0886-6236": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Global Biogeochemical Cycles
+    "1944-9224": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Global Biogeochemical Cycles (electronic)
     "2169-9003": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Earth Surface
+    "2169-9011": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Earth Surface (electronic)
     "2169-9275": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Oceans
+    "2169-9291": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Oceans (electronic)
     "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
     "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition (electronic)
     "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology
+    "1938-3673": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology (electronic)
     "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
     "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology
     "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology (electronic)
@@ -119,7 +128,8 @@ JOURNAL_OWNER_CHANGED = {
     "1869-6716": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine
     "1613-9860": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine (electronic)
     "0883-8305": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography
-    "1076-2787": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Complexity
+    "1099-0526": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Complexity
+    "1076-2787": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Complexity (print)
     "2333-5084": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Earth and Space Science
     "2041-8213": ["IOP Publishing", "American Astronomical Society"], # The Astrophysical Journal
     "0024-6107": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society
@@ -132,6 +142,7 @@ JOURNAL_OWNER_CHANGED = {
     "2575-1433": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
     "2222-1751": ["Springer Nature", "Informa UK Limited"], # Emerging Microbes & Infections
     "0013-0133": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Economic Journal
+    "1468-0297": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Economic Journal (electronic)
     "1358-3883": ["Informa UK Limited", "Springer Nature"], # Tertiary Education and Management
     "1573-1936": ["Informa UK Limited", "Springer Nature"], # Tertiary Education and Management (electronic)
     "1559-8608": ["Informa UK Limited", "Springer Nature"], # Journal of Statistical Theory and Practice
@@ -143,6 +154,7 @@ JOURNAL_OWNER_CHANGED = {
     "2052-4986": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Transactions of the London Mathematical Society
     "2169-9097": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research JGR / E - Planets
     "0048-6604": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Radio Science
+    "1944-799X": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Radio Science (electronic)
     "1747-0218": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology
     "1747-0226": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology (electronic)
     "1461-9571": ["Informa UK Limited", "Cambridge University Press (CUP)"], # European Journal of Archaeology
@@ -162,6 +174,7 @@ JOURNAL_OWNER_CHANGED = {
     "1869-4179": ["Springer Nature", "Walter de Gruyter GmbH"], # Raumforschung und Raumordnung
     "0034-0111": ["Springer Nature", "Walter de Gruyter GmbH"], # Raumforschung und Raumordnung (linking)
     "1552-5260": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia
+    "1552-5279": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia (electronic)
     "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
     "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
     "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
@@ -220,7 +233,12 @@ JOURNAL_OWNER_CHANGED = {
     "1751-7311": ["Cambridge University Press (CUP)", "Elsevier BV"], # Animal
     "0042-4900": ["BMJ", "Wiley-Blackwell"], # Veterinary Record
     "2042-7670": ["BMJ", "Wiley-Blackwell"], # Veterinary Record (electronic)
-    "2052-6113": ["BMJ", "Wiley-Blackwell"] # Veterinary Record Open
+    "2052-6113": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Open
+    "0022-2275": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # The Journal of Lipid Research
+    "1535-9476": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Molecular & Cellular Proteomics
+    "1535-9484": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Molecular & Cellular Proteomics (electronic)
+    "0950-3471": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Historical Research
+    "1468-2281": ["Wiley-Blackwell", "Oxford University Press (OUP)"] # Historical Research (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -335,7 +353,13 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2468-2330", # The Cell surface, Gold OA since 2019
     "1751-7311", # Animal, Gold OA since 2021
     "0894-0282", # Molecular Plant-Microbe Interactions, Gold OA since 2021
-    "0001-6918" # Acta Psychologica, Gold OA since 2021
+    "0001-6918", # Acta Psychologica, Gold OA since 2021
+    "1463-4236", # Primary Health Care Research & Development, Gold OA since 2019
+    "1479-1641", # Diabetes and Vascular Disease Research, Gold OA since 2020
+    "0022-2275", # The Journal of Lipid Research, Gold OA since 2021
+    "1535-9476", # Molecular & Cellular Proteomics, Gold OA since 2021
+    "1759-4685", # Journal of Molecular Cell Biology
+    "0355-3140" # Scandinavian Journal of Work, Environment & Health, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

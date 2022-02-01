@@ -241,6 +241,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 
 - Chalmers University of Technology
 - Dalarna University
+- Halmstad University
 - Swedish School of Sport and Health Sciences
 - University of Gothenburg
 - University of Borås
