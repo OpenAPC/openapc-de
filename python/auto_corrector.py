@@ -27,6 +27,7 @@ ISSN_DICTS = {
 }
 
 MISMATCH_MSG = ('Line {}: Detected a mismatch in the {} field for {} {}:\n' +
+                '  period             : {}\n' +
                 '  is_hybrid          : {}\n' +
                 '  publisher          : {}\n' +
                 '  journal_full_title : {}\n' +
@@ -105,7 +106,7 @@ def main():
                         new_value = line[field_type]
                         established_value = ISSN_DICTS[issn_type][issn][field_type]
                         if new_value != established_value and not is_whitelisted(field_type, new_value, established_value, line["issn"], line["issn_print"], line["issn_electronic"], line["issn_l"]):
-                            msg = MISMATCH_MSG.format(reader.line_num, oat.colorize(field_type, "cyan"), issn_type, issn, line["is_hybrid"],
+                            msg = MISMATCH_MSG.format(reader.line_num, oat.colorize(field_type, "cyan"), issn_type, issn, line["period"], line["is_hybrid"],
                                                       line["publisher"], line["journal_full_title"], oat.colorize(str(ISSN_DICTS[issn_type][issn]["count"]), "cyan"),
                                                       ISSN_DICTS[issn_type][issn]["is_hybrid"], ISSN_DICTS[issn_type][issn]["publisher"],
                                                       ISSN_DICTS[issn_type][issn]["journal_full_title"])
