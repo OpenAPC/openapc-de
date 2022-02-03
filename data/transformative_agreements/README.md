@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 44,597 articles, published at 275 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 44,721 articles, published at 275 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 44,597 articles, published at 275 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    33408|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2289|
+|DEAL Wiley Germany                           |     2340|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1619|
+|DEAL Springer Nature Germany                 |     1692|
 |Swiss Consortium Springer Compact agreement  |      693|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -148,6 +148,7 @@ This dataset contains information on 44,597 articles, published at 275 instituti
 |University of Graz                                                                                                                                 |      144|
 |Swansea University                                                                                                                                 |      142|
 |University of Aberdeen                                                                                                                             |      142|
+|Kassel U                                                                                                                                           |      139|
 |Örebro University                                                                                                                                  |      133|
 |Johannes Kepler University Linz                                                                                                                    |      130|
 |Empa - Swiss Federal Laboratories for Materials Science and Technology                                                                             |      129|
@@ -253,7 +254,6 @@ This dataset contains information on 44,597 articles, published at 275 instituti
 |Edinburgh Napier University                                                                                                                        |       17|
 |Dalarna University                                                                                                                                 |       16|
 |Stockholm School of Economics                                                                                                                      |       16|
-|Kassel U                                                                                                                                           |       15|
 |Swedish Defence Research Agency                                                                                                                    |       15|
 |Birmingham City University                                                                                                                         |       13|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       13|
