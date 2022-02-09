@@ -171,8 +171,8 @@ JOURNAL_OWNER_CHANGED = {
     "0261-3875": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Legal Studies
     "1748-121X": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Legal Studies (electronic)
     "2045-824X": ["Springer Science + Business Media", "Publiverse Online S.R.L"], # Vascular Cell
-    "1869-4179": ["Springer Nature", "Walter de Gruyter GmbH"], # Raumforschung und Raumordnung
-    "0034-0111": ["Springer Nature", "Walter de Gruyter GmbH"], # Raumforschung und Raumordnung (linking)
+    "1869-4179": ["Springer Nature", "Walter de Gruyter GmbH", "Oekom Publishers GmbH"], # Raumforschung und Raumordnung
+    "0034-0111": ["Springer Nature", "Walter de Gruyter GmbH", "Oekom Publishers GmbH"], # Raumforschung und Raumordnung (linking)
     "1552-5260": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia
     "1552-5279": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia (electronic)
     "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
