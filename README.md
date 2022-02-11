@@ -87,7 +87,7 @@ So far, the following German universities have agreed to share information on pa
 - [University of Konstanz](https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/open-access-publication-fund/)
 - [University of Mannheim](https://www.bib.uni-mannheim.de/en/open-access-publishing-fund/)
 - [University of Oldenburg](https://uol.de/en/bis/teachingresearchingpublishing/open-access/open-access-publication-fund/)
-- [University of Passau](https://www.ub.uni-passau.de/publizieren/open-access/publikationsfonds-der-ub-passau/)
+- [University of Passau](https://www.ub.uni-passau.de/publizieren/open-access/publikationsfonds/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
 - [University of Rostock](https://www.ub.uni-rostock.de/en/support-for-researchers/open-access/open-access-publizieren/)
