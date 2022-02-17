@@ -239,7 +239,9 @@ JOURNAL_OWNER_CHANGED = {
     "1535-9484": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Molecular & Cellular Proteomics (electronic)
     "0950-3471": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Historical Research
     "1468-2281": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Historical Research (electronic)
-    "1875-6883": ["Springer Nature", "Atlantis Press"] # International Journal of Computational Intelligence Systems
+    "1875-6883": ["Springer Nature", "Atlantis Press"], # International Journal of Computational Intelligence Systems
+    "0032-0889": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"], # Plant Physiology
+    "1532-2548": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"] # Plant Physiology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
