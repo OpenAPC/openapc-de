@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 45,657 articles, published at 277 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 45,650 articles, published at 276 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 45,657 articles, published at 277 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2342|
+|DEAL Wiley Germany                           |     2340|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1697|
+|DEAL Springer Nature Germany                 |     1692|
 |Swiss Consortium Springer Compact agreement  |      693|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -274,7 +274,6 @@ This dataset contains information on 45,657 articles, published at 277 instituti
 |Anglia Ruskin University                                                                                                                           |        7|
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
 |Queen Margaret University                                                                                                                          |        7|
-|Wuerzburg-Schweinfurt FH                                                                                                                           |        7|
 |Danube University Krems University for Continuing Education                                                                                        |        6|
 |Danube Universtity Krems University for Continuing Education                                                                                       |        6|
 |Netherlands Institute for Neuroscience                                                                                                             |        6|
