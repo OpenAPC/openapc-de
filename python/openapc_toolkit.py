@@ -1539,7 +1539,7 @@ def _process_isbn(row_num, isbn, isbn_handling):
 
 def _process_institution_value(institution, row_num, orig_file_path, offsetting_mode):
     global INSTITUTIONS_MAP
-    if offsetting_mode:
+    if offsetting_mode or not os.path.isfile(INSTITUTIONS_FILE):
         return institution
     if INSTITUTIONS_MAP is None:
         with open(INSTITUTIONS_FILE, "r") as ins_file:
