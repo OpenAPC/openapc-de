@@ -2,7 +2,7 @@
 
 # OpenAPC Data SNSF
 
-## History of APCs at the SNSF
+## History of APC handling at the SNSF
 
 | Date |Event  |
 |--|--|
@@ -13,7 +13,9 @@
 |2018.01| An additional form was added to the section of the financial reports in mySNF, where grantees or their financial administration can explicitly report paid APCs and make a link to the publication in the output data section.|
 |2018.01|First release of collected data to OpenAPC. Part of the data is the set of the first monitoring period 2013-2015. As this data was extracted from checking samples of financial reports it does not cover all paid APCs of this period. Through a more systematic screening for APCs, the data from 2016-2017 provides a more complete picture. However some paid APCs might have slipped through the screening process.  |
 |2018.04|For new grant applications APCs are no longer part of the research budget but can be requested independently. The existing upper limit of 3000 CHF has been temporary removed as part of the [SNSF OA2020 policy](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy).|
-|2018.10|A [new workflow](https://oa100.snf.ch/en/funding/journal-articles/) has been established, where grantees can request the payment/refund of APCs even for grants that have already expired.
+|2018.10|A [new workflow](https://oa100.snf.ch/en/funding/journal-articles/) has been established, where grantees can request the payment/refund of APCs even for grants that have already expired.|
+|2021.06| [The SNSF has launched a pilot project: researchers will be able to publish their open access articles via the ChronosHub](https://www.snf.ch/en/3Vpw3ybQfivruCDi/news/open-access-simple-and-efficient-publishing-with-chronoshub) platform. The existing path to apply for OA publication grants at the SNSF continues to exist. The latest data delivery (2022-02-24) does include APCs from both ChronosHub and SNSF OA grants, the origin is distinguishable via  the variable `origin`.|
+|2021.07| It was decided that the SNSF does only provide publications that do have a DOI. Publications without a DOI can be provided, when they have a title, a journal name, a journal ISSN, a publisher, and a link to a full-text available. Due to inavailability of all this data, around 15% of the SNSF's APC are not reported for publications without a DOI. 
 
 ## CHF to EUR Conversion
 
@@ -33,7 +35,8 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 |2018|1|1.15487||
 |2019|1|1.11247||
 |2020|1|1.07055||
-|2021|1|1.09400|Average January-June 2021|
+|2021|1|1.09400|Average January-June 2021, delivery 2021-06-03|
+|2021|1|1.0810|Whole 2021, delivery 2022-02-24|
 
 ## Co-Funding
 
@@ -45,21 +48,24 @@ For those publications a further list [list of publication with co-funding](snsf
 
 ## Hybrid
 
-The SNSF does not support Hybrid  OA due to the issue of double dipping. Accidentally some Hybrid-OA charges have slipped trough the internal checking procedure. For the matter of transparence these Hybrid OA Charges are included here.
+The SNSF does not support Hybrid OA due to the issue of double dipping. Accidentally some Hybrid-OA charges have slipped trough the internal checking procedure. For the matter of transparency, these Hybrid OA Charges are included here.
 
 ## Additional "local" information
 
-For full transparency the [initial uploaded list](snsf_openapc.csv) contains some additional columns:
+For full transparency the initial uploaded lists (without "enriched" in the file name) contains some additional columns:
 
 |name | description |
 |--|--|
-| chf | the paid amount for the APC (including VAT, discounts, transaction fees) in Swiss Francs|
-| conversion_rate | The applied conversion rate (see above) considering the publication year|
-| invoice_original_amount | If available the original amount on the invoice (usually without transaction fees)|
-| invoice_original_currency | The currency of the invoice|
-| snsf_voucher_number | The voucher number of the SNSF internal accounting system (SAGE) used for the payment to the publisher or for the reimbursement. Only available for APCs which have been handled through the funding scheme for APCs (since October 2018). Since January 2020 the number of the new accounting system Abacus is used. |
-| grant_snsf |The application in which the APC was processed. For "older" grants this is identical to "grant_snsf_related". Yet with the new funding scheme especially for APCs, this is the number for the APC-grant.|
-| grant_snsf_related | In cases where the APC was part of the project funding, this project is mentioned. For the new funding scheme dedicated to APC's, the related grant(s) are selected by the author to indicate the relation. A daily updated list of all SNSF projects is available and can be used to join other project information: http://p3.snf.ch/Pages/DataAndDocumentation.aspx |
+| `chf` | the paid amount for the APC (including VAT, discounts, transaction fees) in Swiss Francs|
+| `conversion_rate` | The applied conversion rate (see above) considering the publication year|
+| `invoice_original_amount` | If available the original amount on the invoice (usually without transaction fees)|
+| `invoice_original_currency` | The currency of the invoice|
+| `snsf_voucher_number` | The voucher number of the SNSF internal accounting system (SAGE) used for the payment to the publisher or for the reimbursement. Only available for APCs which have been handled through the funding scheme for APCs (since October 2018). Since January 2020 the number of the new accounting system Abacus is used. For APCs handled by Chronoshub, we provide the Chronoshub Payment Id in this field (payment dates 2021+). |
+| `grant_snsf` |The application in which the APC was processed. For "older" grants this is identical to `grant_snsf_related`. Yet with the new funding scheme especially for APCs, this is the number for the APC-grant. When the field has an `NA` value, the APC was handled via Chronoshub and has no SNSF grant number.|
+| `grant_snsf_related` | In cases where the APC was part of the funding scheme "project funding"", the respective project number is mentioned. For the funding scheme dedicated to APCs introduced in 2018, the related grant(s) are selected by the authors to indicate the relation. For APCs being handled by Chronoshub, this field contains the SNSF grant numbers as provided by Chronoshub, that is: the origin grants where the research funds come from. A daily updated list of all SNSF projects is available and can be used to join other project information: https://data.snf.ch/Exportcsv/Grant.csv |
+| `title` | (Period 2021+) Title of the publication as 1) entered by the author or 2) as provided through Chronoshub. If we don't have any title available through 1) or 2), we query Crossref and provide the title in Crossref for this DOI.|
+| `payment_date` | (Period 2021+) Exact date of the payment.|
+| `origin` | (Period 2021+) Whether this APC was payed by the SNSF directly over `SNSF-OA-Grants` or whether it was payed indirectly over `Chronoshub`.|
 
 
 ## Contact
