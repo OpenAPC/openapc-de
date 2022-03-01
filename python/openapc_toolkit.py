@@ -1254,7 +1254,9 @@ def get_metadata_from_crossref(doi_string):
                 normalized_doi_type = doi_type
                 break
         if normalized_doi_type is None:
-            title = data['message']['title'][0]
+            title = ''
+            if 'title' in data['message'] and data['message']['title']:
+                title = data['message']['title'][0]
             raise UnsupportedDoiTypeError(data_doi_type, doi_types, title)
         crossref_data = {'doi_type': normalized_doi_type}
         data_fields = doi_types[normalized_doi_type]['data_fields']
