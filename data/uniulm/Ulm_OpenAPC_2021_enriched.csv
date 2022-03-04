@@ -1,8 +1,8 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Ulm U",2021,2042.06,"10.3390/cells9102169",FALSE,"MDPI AG","Cells","2073-4409",NA,"2073-4409","2073-4409","https://creativecommons.org/licenses/by/4.0/",TRUE,"32992967","PMC7599799","ut:000584233800001",NA,TRUE
 "Ulm U",2021,3763.68,"10.1126/sciadv.aba6038",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"32998895","PMC7527221","ut:000579157800012",NA,TRUE
-"Ulm U",2021,960.45,"10.22203/ecm.v039a16",FALSE,"European Cells and Materials","European Cells and Materials",NA,NA,NA,NA,NA,TRUE,"32602932",NA,NA,NA,NA
-"Ulm U",2021,729.13,"10.22203/ecm.v040a11",FALSE,"European Cells and Materials","European Cells and Materials",NA,NA,NA,NA,NA,TRUE,"33119886",NA,NA,NA,NA
+"Ulm U",2021,960.45,"10.22203/ecm.v039a16",FALSE,"European Cells and Materials","European Cells and Materials","1473-2262",NA,NA,"1473-2262",NA,TRUE,"32602932",NA,NA,NA,TRUE
+"Ulm U",2021,729.13,"10.22203/ecm.v040a11",FALSE,"European Cells and Materials","European Cells and Materials","1473-2262",NA,NA,"1473-2262",NA,TRUE,"33119886",NA,NA,NA,TRUE
 "Ulm U",2021,1381.98,"10.1371/journal.pone.0245090",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"33400702","PMC7785246","ut:000607070700028",NA,TRUE
 "Ulm U",2021,1950.05,"10.3389/fimmu.2020.628287",FALSE,"Frontiers Media SA","Frontiers in Immunology","1664-3224",NA,"1664-3224","1664-3224","https://creativecommons.org/licenses/by/4.0/",TRUE,"33679723","PMC7927427","ut:000624632000001",NA,TRUE
 "Ulm U",2021,1950.05,"10.3389/fpsyg.2020.577961",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"33633621","PMC7900538","ut:000620585200001",NA,TRUE
@@ -150,7 +150,7 @@
 "Ulm U",2021,2680.68,"10.2196/27093",FALSE,"JMIR Publications Inc.","Journal of Medical Internet Research","1438-8871",NA,"1438-8871","1438-8871",NA,TRUE,"34591025","PMC8517811","ut:000702302900003",NA,TRUE
 "Ulm U",2021,1728.7,"10.1371/journal.pone.0253378",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"34143827","PMC8213152","ut:000671690700056",NA,TRUE
 "Ulm U",2021,1291.75,"10.1088/1367-2630/ac0575",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000664725600001",NA,TRUE
-"Ulm U",2021,713.85,"10.22203/ecm.v042a01",FALSE,"European Cells and Materials","European Cells and Materials",NA,NA,NA,NA,NA,TRUE,"34235715",NA,NA,NA,NA
+"Ulm U",2021,713.85,"10.22203/ecm.v042a01",FALSE,"European Cells and Materials","European Cells and Materials","1473-2262",NA,NA,"1473-2262",NA,TRUE,"34235715",NA,NA,NA,TRUE
 "Ulm U",2021,3808,"10.1093/nar/gkab526",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"34165573","PMC8287946","ut:000685211300024",NA,TRUE
 "Ulm U",2021,1480.07,"10.1371/journal.pone.0253913",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"34170963","PMC8232409","ut:000671694400058",NA,TRUE
 "Ulm U",2021,2026.56,"10.3389/fpsyg.2021.709805",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"34531797","PMC8438112","ut:000697824000001",NA,TRUE
