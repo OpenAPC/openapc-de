@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 45,650 articles, published at 276 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 45,651 articles, published at 277 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -25,7 +25,7 @@ This dataset contains information on 45,650 articles, published at 276 instituti
 |French EDP Sciences agreement                |     2649|
 |DEAL Wiley Germany                           |     2340|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1692|
+|DEAL Springer Nature Germany                 |     1693|
 |Swiss Consortium Springer Compact agreement  |      693|
 |FWF Transformative Agreement Wiley-Blackwell |      464|
 |MPG RSC agreement                            |      246|
@@ -310,6 +310,7 @@ This dataset contains information on 45,650 articles, published at 276 instituti
 |FH Kufstein Tirol - University of Applied Sciences                                                                                                 |        1|
 |FHWien der WKW (FHW)                                                                                                                               |        1|
 |Forschungsinstitut für biologischen Landbau FiBL                                                                                                   |        1|
+|Hochschule Hannover                                                                                                                                |        1|
 |International Institute of Social History (IISH)                                                                                                   |        1|
 |IPN - Leibniz Kiel                                                                                                                                 |        1|
 |Medical University of Innsbruck                                                                                                                    |        1|
