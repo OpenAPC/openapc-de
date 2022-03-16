@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |147,498 | 283,491,462    | 352 |
+| Articles         |147,660 | 283,766,678    | 353 |
 | Monographs       |1,359 | 8,612,318    | 17 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -299,6 +299,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut Laue-Langevin
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la recherche agronomique (INRA)
+- Institut de radioprotection et de sûreté nucléaire (IRSN)
 - Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
 - Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de la santé et de la recherche médicale (INSERM)
@@ -317,6 +318,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
 - Université Clermont Auvergne
+- Université de Côte d'Azur
 - Université Technologique de Compiègne
 - Université Evry Val-d'Essonne
 - Université Gustave Eiffel
@@ -330,7 +332,6 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Montpellier
 - Université de Lorraine
 - Université de Nantes
-- Université Nice-Sophia-Antipolis
 - Université de Nouvelle Calédonie
 - Université de Pau et des Pays de l'Adour
 - Université de Perpignan - Via Domitia
@@ -475,13 +476,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 147,498 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 352 research performing institutions and research funders. 
+The article data set contains information on 147,660 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 353 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 283,491,462. The average payment was € 1,922 and the median was € 1,750.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 283,766,678. The average payment was € 1,922 and the median was € 1,749.
 
-96,513 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 156,826,709, including value-added tax; the average payment was € 1,625 (median =  € 1,553, SD = € 774).
+96,656 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 157,056,635, including value-added tax; the average payment was € 1,625 (median =  € 1,553, SD = € 775).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 50,985 articles in the data set were published in hybrid journals. Total expenditure amounts to 126,664,753 €; the average fee was € 2,484 (median =  € 2,446, SD = € 993).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 51,004 articles in the data set were published in hybrid journals. Total expenditure amounts to 126,710,043 €; the average fee was € 2,484 (median =  € 2,446, SD = € 993).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -504,13 +505,13 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2012   |       1,577|   1,173|     1,175|    69 -  4,498|              20|       2,308|         2,412|     997 -  2,700|
 |2013   |       2,472|   1,229|     1,178|    50 -  4,574|           1,098|       2,257|         2,260|     120 -  4,679|
 |2014   |       5,197|   1,374|     1,255|    40 -  9,028|           6,515|       2,239|         2,200|     132 -  6,000|
-|2015   |       8,446|   1,520|     1,448|    59 -  5,669|           6,686|       2,611|         2,622|     127 -  8,636|
+|2015   |       8,445|   1,520|     1,448|    59 -  5,669|           6,686|       2,611|         2,622|     127 -  8,636|
 |2016   |       9,819|   1,634|     1,530|    63 -  5,985|           7,884|       2,552|         2,515|       2 -  9,079|
-|2017   |      14,585|   1,713|     1,555|     9 - 14,634|          10,610|       2,531|         2,472|      37 -  9,858|
-|2018   |      14,919|   1,698|     1,585|    13 -  8,926|           9,248|       2,561|         2,543|      18 - 13,975|
-|2019   |      15,238|   1,648|     1,603|    11 -  7,684|           5,122|       2,404|         2,326|      75 -  9,500|
-|2020   |      17,707|   1,683|     1,674|     0 -  8,906|           3,073|       2,373|         2,383|     130 -  7,416|
-|2021   |       4,663|   1,812|     1,738|    50 -  6,417|             718|       2,533|         2,475|     100 -  5,059|
+|2017   |      14,600|   1,713|     1,555|     9 - 14,634|          10,612|       2,530|         2,472|      37 -  9,858|
+|2018   |      14,944|   1,698|     1,585|    13 -  8,926|           9,249|       2,561|         2,543|      18 - 13,975|
+|2019   |      15,261|   1,647|     1,603|    11 -  7,684|           5,130|       2,404|         2,324|      75 -  9,500|
+|2020   |      17,742|   1,683|     1,674|     0 -  8,906|           3,079|       2,374|         2,384|     130 -  7,416|
+|2021   |       4,709|   1,810|     1,738|    50 -  6,417|             720|       2,534|         2,475|     100 -  5,059|
 |2022   |           1|   2,606|     2,606| 2,606 -  2,606|              NA|          NA|            NA|               NA|
 
 ### Books (BPCs)
@@ -583,9 +584,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.69%       |
-|PubMed ID                  |  74.46%      |
-|PubMed Central ID          |  68.14%     |
-|Web of Science record ID   | 91.49%      |
+|PubMed ID                  |  74.45%      |
+|PubMed Central ID          |  68.13%     |
+|Web of Science record ID   | 91.48%      |
 
 
 
