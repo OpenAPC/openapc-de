@@ -323,6 +323,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Institut Laue-Langevin
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la recherche agronomique (INRA)
+- Institut de radioprotection et de sûreté nucléaire (IRSN)
 - Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
 - Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de la santé et de la recherche médicale (INSERM)
@@ -341,6 +342,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
 - Université Clermont Auvergne
+- Université de Côte d'Azur
 - Université Technologique de Compiègne
 - Université Evry Val-d'Essonne
 - Université Gustave Eiffel
@@ -354,7 +356,6 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Montpellier
 - Université de Lorraine
 - Université de Nantes
-- Université Nice-Sophia-Antipolis
 - Université de Nouvelle Calédonie
 - Université de Pau et des Pays de l'Adour
 - Université de Perpignan - Via Domitia
