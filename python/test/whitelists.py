@@ -363,7 +363,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1535-9476", # Molecular & Cellular Proteomics, Gold OA since 2021
     "1759-4685", # Journal of Molecular Cell Biology
     "0355-3140", # Scandinavian Journal of Work, Environment & Health, Gold OA since 2021
-    "1015-6305" # Brain Pathology
+    "1015-6305", # Brain Pathology
+    "1751-8687", # IET Generation, Transmission & Distribution, Gold OA since 2021
+    "1751-8725" # IET Microwaves, Antennas & Propagation, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
