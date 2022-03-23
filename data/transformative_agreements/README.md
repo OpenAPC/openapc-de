@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 45,651 articles, published at 277 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 45,706 articles, published at 278 institutions under 24 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 45,651 articles, published at 277 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2340|
+|DEAL Wiley Germany                           |     2395|
 |Swiss Consortium Elsevier agreement          |     1821|
 |DEAL Springer Nature Germany                 |     1693|
 |Swiss Consortium Springer Compact agreement  |      693|
@@ -192,6 +192,7 @@ This dataset contains information on 45,651 articles, published at 277 instituti
 |Aston University                                                                                                                                   |       58|
 |University of Lincoln                                                                                                                              |       57|
 |University of West of England                                                                                                                      |       56|
+|DLR                                                                                                                                                |       55|
 |Keele University                                                                                                                                   |       54|
 |Mid Sweden University                                                                                                                              |       54|
 |University of Fribourg                                                                                                                             |       53|
