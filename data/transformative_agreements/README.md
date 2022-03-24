@@ -37,7 +37,7 @@ This dataset contains information on 45,706 articles, published at 278 instituti
 |Swiss Consortium RSC agreement               |      133|
 |University of Milan - Wiley                  |       98|
 |FWF Offsetting Agreement IOP                 |       82|
-|TIB RSC Journals Read & Publish              |       56|
+|TIB RSC Journals R&P - TU Berlin             |       56|
 |MPG Taylor & Francis agreement               |       46|
 |Austrian Consortium IOP agreement            |       45|
 |MPG IOP agreement                            |       32|
