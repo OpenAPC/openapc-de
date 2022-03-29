@@ -370,7 +370,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1751-8687", # IET Generation, Transmission & Distribution, Gold OA since 2021
     "1751-8725", # IET Microwaves, Antennas & Propagation, Gold OA since 2021
     "1532-2807", # Pathology and Oncology Research, Gold OA since 2021
-    "1365-2060" # Annals of Medicine, Gold OA since 2021
+    "1365-2060", # Annals of Medicine, Gold OA since 2021
+    "1460-4582" # Health Informatics Journal, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
