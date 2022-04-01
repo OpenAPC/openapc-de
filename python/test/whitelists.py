@@ -125,6 +125,7 @@ JOURNAL_OWNER_CHANGED = {
     "0160-5682": ["Nature Publishing Group", "Springer Nature", "Informa UK Limited"], # Journal of the Operational Research Society
     "1476-9360": ["Nature Publishing Group", "Springer Nature", "Informa UK Limited"], # Journal of the Operational Research Society (electronic)
     "1078-0998": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"], # Inflammatory Bowel Diseases
+    "1536-4844": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"], # Inflammatory Bowel Diseases (electronic)
     "1869-6716": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine
     "1613-9860": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine (electronic)
     "0883-8305": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography
@@ -178,13 +179,15 @@ JOURNAL_OWNER_CHANGED = {
     "1552-5279": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia (electronic)
     "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
     "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
-    "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
+    "1878-7657": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
+    "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine (linking)
     "0032-5791": ["Oxford University Press (OUP)", "Elsevier BV"], # Poultry Science
     "2050-490X": ["Springer Science + Business Media", "EDP Sciences"], # Regenerative Medicine Research
     "1438-3896": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology
     "1438-390X": ["Springer Nature", "Wiley-Blackwell"], # Population Ecology (electronic)
     "1440-1711": ["Nature Publishing Group", "Springer Nature", "Wiley-Blackwell"], # Immunology and Cell Biology 
     "1616-5047": ["Elsevier BV", "Springer Nature"], # Mammalian Biology
+    "1618-1476": ["Elsevier BV", "Springer Nature"], # Mammalian Biology (electronic)
     "0892-6638": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal
     "1530-6860": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal (electronic)
     "0935-1221": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy (linking)
@@ -244,7 +247,38 @@ JOURNAL_OWNER_CHANGED = {
     "0032-0889": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"], # Plant Physiology
     "1532-2548": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"], # Plant Physiology (electronic)
     "1532-2807": ["Springer Nature", "Frontiers Media SA"], # Pathology and Oncology Research
-    "1219-4956": ["Springer Nature", "Frontiers Media SA"] # Pathology and Oncology Research (linking)
+    "1219-4956": ["Springer Nature", "Frontiers Media SA"], # Pathology and Oncology Research (linking)
+    "1044-0305": ["Springer Science + Business Media", "Springer Nature", "American Chemical Society (ACS)"], # Journal of the American Society for Mass Spectrometry
+    "1879-1123": ["Springer Science + Business Media", "Springer Nature", "American Chemical Society (ACS)"], # Journal of the American Society for Mass Spectrometry (electronic)
+    "2047-4873": ["SAGE Publications", "Oxford University Press (OUP)"], # European Journal of Preventive Cardiology
+    "2047-4881": ["SAGE Publications", "Oxford University Press (OUP)"], # European Journal of Preventive Cardiology (electronic)
+    "0007-1323": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # British Journal of Surgery
+    "1365-2168": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # British Journal of Surgery (electronic)
+    "0009-9147": ["American Association for Clinical Chemistry (AACC)", "Oxford University Press (OUP)"], # Clinical Chemistry
+    "1530-8561": ["American Association for Clinical Chemistry (AACC)", "Oxford University Press (OUP)"], # Clinical Chemistry (electronic)
+    "1943-2631": ["Genetics Society of America", "Oxford University Press (OUP)"], # Genetics
+    "0016-6731": ["Genetics Society of America", "Oxford University Press (OUP)"], # Genetics (linking)
+    "1046-560X": ["Springer Nature", "Informa UK Limited"], # Journal of Science Teacher Education
+    "1573-1847": ["Springer Nature", "Informa UK Limited"], # Journal of Science Teacher Education (electronic)
+    "0912-3814": ["Springer Nature", "Wiley-Blackwell"], # Ecological Research
+    "1440-1703": ["Springer Nature", "Wiley-Blackwell"], # Ecological Research (electronic)
+    "0047-2425": ["American Society of Agronomy", "Wiley-Blackwell"], # Journal of Environmental Quality
+    "1537-2537": ["American Society of Agronomy", "Wiley-Blackwell"], # Journal of Environmental Quality (electronic)
+    "1751-956X": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Intelligent Transport Systems
+    "1751-9578": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Intelligent Transport Systems (electronic)
+    "2001-3078": ["Informa UK Limited", "Wiley-Blackwell"], # Journal of Extracellular Vesicles
+    "1751-8687": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Generation, Transmission & Distribution
+    "1751-8695": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Generation, Transmission & Distribution (electronic)
+    "1752-1416": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Renewable Power Generation
+    "1752-1424": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Renewable Power Generation (electronic)
+    "1751-8784": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Radar, Sonar & Navigation
+    "1751-8792": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Radar, Sonar & Navigation (electronic)
+    "2051-3305": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # The Journal of Engineering
+    "0013-5194": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # Electronics Letters
+    "1350-911X": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # Electronics Letters (electronic)
+    "2045-7022": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Allergy
+    "1755-4535": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics
+    "1755-4543": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"] # IET Power Electronics (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -371,7 +405,13 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1751-8725", # IET Microwaves, Antennas & Propagation, Gold OA since 2021
     "1532-2807", # Pathology and Oncology Research, Gold OA since 2021
     "1365-2060", # Annals of Medicine, Gold OA since 2021
-    "1460-4582" # Health Informatics Journal, Gold OA since 2020
+    "1460-4582", # Health Informatics Journal, Gold OA since 2020
+    "2047-2501", # Health Information Science and Systems, Hybrid OA since 2017
+    "1534-4320", # IEEE Transactions on Neural Systems and Rehabilitation Engineering, Gold OA since 2021
+    "1751-956X", # IET Intelligent Transport Systems, Gold OA since 2021
+    "1752-1416", # IET Renewable Power Generation, Gold OA since 2021
+    "1524-6175", # The Journal of Clinical Hypertension
+    "1755-4535" # IET Power Electronics, Gold OA since 2021 
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
