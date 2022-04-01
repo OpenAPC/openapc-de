@@ -1441,7 +1441,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "King's College London",2018,3035.43,"10.1016/j.psyneuen.2018.06.017",TRUE,"Elsevier BV","Psychoneuroendocrinology","0306-4530","0306-4530",NA,"0306-4530","http://creativecommons.org/licenses/by/4.0/",TRUE,"30033161","PMC6215770","ut:000450381100027",NA,FALSE
 "University of Manchester",2018,1572.95,"10.1371/journal.pone.0206533",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30395584","PMC6218043","ut:000449291400031",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"University of Cambridge",2018,813.83,"10.1177/2398212818779646",TRUE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"30246156","PMC6109941",NA,NA,FALSE
+"University of Cambridge",2018,813.83,"10.1177/2398212818779646",FALSE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"30246156","PMC6109941",NA,NA,FALSE
 "University of York",2018,3276.27,"10.1016/j.neuroimage.2018.06.035",TRUE,"Elsevier BV","NeuroImage","1053-8119","1053-8119",NA,"1053-8119","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"29902588",NA,"ut:000438467800062",NA,FALSE
 "Cardiff University",2018,4248.37,"10.1037/bne0000265",TRUE,"American Psychological Association (APA)","Behavioral Neuroscience","1939-0084","0735-7044","1939-0084","0735-7044","http://creativecommons.org/licenses/by/3.0/",TRUE,"30321027","PMC6188468","ut:000447157200006",NA,FALSE
 "University of York",2018,3651.43,"10.1016/j.scitotenv.2018.08.180",TRUE,"Elsevier BV","Science of The Total Environment","0048-9697","0048-9697",NA,"0048-9697","http://creativecommons.org/licenses/by/4.0/",TRUE,"30170212",NA,"ut:000446076500002",NA,FALSE
@@ -4176,7 +4176,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Dundee",2018,1897.89,"10.1371/journal.pgen.1007310",FALSE,"Public Library of Science (PLoS)","PLOS Genetics","1553-7404",NA,"1553-7404","1553-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,"29641602","PMC5919673","ut:000431115700021",NA,TRUE
 "University of Oxford",2019,1982.13,"10.1186/s13063-019-3279-6",FALSE,"Springer Nature","Trials","1745-6215",NA,"1745-6215","1745-6215","http://creativecommons.org/licenses/by/4.0/",TRUE,"30940164","PMC6444886","ut:000463681800002",NA,TRUE
 "University of Manchester",2018,1357.51,"10.3390/ma11091736",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"30223545","PMC6164494","ut:000446395200252",NA,TRUE
-"University of Cambridge",2018,819.14,"10.1177/2398212818772962",TRUE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"31168482","PMC6546594",NA,NA,FALSE
+"University of Cambridge",2018,819.14,"10.1177/2398212818772962",FALSE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"31168482","PMC6546594",NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Oxford",2018,5289.38,"10.1016/s0140-6736(18)31133-4",TRUE,"Elsevier BV","The Lancet","0140-6736","0140-6736",NA,"0140-6736","http://creativecommons.org/licenses/by/4.0/",TRUE,"30017552",NA,"ut:000440597100020",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -6982,7 +6982,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Queen's University Belfast",2019,1379.22,"10.1371/journal.pone.0209495",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"30586394","PMC6306209","ut:000454416400066",NA,TRUE
 "University of Durham",2018,1622.95,"10.3389/fphy.2018.00040",FALSE,"Frontiers Media SA","Frontiers in Physics","2296-424X",NA,"2296-424X","2296-424X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000431773100001",NA,TRUE
-"Cardiff University",2018,823.77,"10.1177/2398212818811235",TRUE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,FALSE
+"Cardiff University",2018,823.77,"10.1177/2398212818811235",FALSE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
@@ -12346,7 +12346,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Swansea University",2018,3820.55,"10.1002/adma.201801357",TRUE,"Wiley-Blackwell","Advanced Materials","0935-9648",NA,NA,"0935-9648","http://creativecommons.org/licenses/by/4.0/",TRUE,"29931697",NA,"ut:000443807400005",NA,FALSE
 "Queen Mary, University of London",2018,1416.39,"10.1111/j.1740-9713.2018.01126.x",TRUE,"Wiley-Blackwell","Significance","1740-9705",NA,NA,"1740-9705","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2018,816.02,"10.1177/2398212818810591",TRUE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"30542659","PMC6238228",NA,NA,FALSE
+"UCL",2018,816.02,"10.1177/2398212818810591",FALSE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"30542659","PMC6238228",NA,NA,FALSE
 "University of Nottingham",2018,1853.56,"10.1016/j.cogpsych.2018.11.001",TRUE,"Elsevier BV","Cognitive Psychology","0010-0285","0010-0285",NA,"0010-0285","http://creativecommons.org/licenses/by/4.0/",TRUE,"30544029",NA,"ut:000456765900002",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Imperial College London",2018,3532.78,"10.1016/j.compscitech.2018.07.027",TRUE,"Elsevier BV","Composites Science and Technology","0266-3538","0266-3538",NA,"0266-3538","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000449137200014",NA,FALSE
@@ -12520,7 +12520,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2018,3396.27,"10.1242/jcs.217034",TRUE,"The Company of Biologists","Journal of Cell Science","0021-9533","0021-9533","1477-9137","0021-9533","http://creativecommons.org/licenses/by/3.0",TRUE,"29930080","PMC6080606","ut:000443435600012",NA,FALSE
 "University of Birmingham",2018,1388.89,"10.1371/journal.pone.0196877",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"29746546","PMC5944928","ut:000431851700045",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"UCL",2018,804.89,"10.1177/2398212818818070",TRUE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,FALSE
+"UCL",2018,804.89,"10.1177/2398212818818070",FALSE,"SAGE Publications","Brain and Neuroscience Advances","2398-2128","2398-2128","2398-2128","2398-2128","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,NA,NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "University of Cambridge",2018,3587.57,"10.1016/j.stemcr.2018.11.001",FALSE,"Elsevier BV","Stem Cell Reports","2213-6711","2213-6711",NA,"2213-6711","http://creativecommons.org/licenses/by/4.0/",TRUE,"30503262","PMC6294717","ut:000452898300017",NA,TRUE
 "University of York",2018,609.27,"10.1080/21541264.2018.1475806",TRUE,"Informa UK Limited","Transcription","2154-1264","2154-1264","2154-1272","2154-1272","http://creativecommons.org/licenses/by/4.0",TRUE,"29895219","PMC6150617","ut:000449538400004",NA,FALSE
