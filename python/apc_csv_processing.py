@@ -571,7 +571,7 @@ def main():
                 while column_name in column_map.keys():
                     # TODO: Replace by a numerical, increasing suffix
                     column_name += "_"
-                column_map[column_name] = CSVColumn(column_name, CSVColumn.NONE, index)
+                column_map[column_name] = CSVColumn("added_unknown_column", None, index, column_name)
             else:
                 msg = (u"column number {} ({}) is an unknown column, it will be " +
                        "ignored")
@@ -579,7 +579,7 @@ def main():
 
     print()
     for column in column_map.values():
-        if column.index is None:
+        if column.index is None and column.column_type != "unknown_column":
             msg = "The '{}' column could not be identified ({})"
             print(msg.format(column.column_type, column.get_req_description()))
     print()
@@ -640,9 +640,13 @@ def main():
     enriched_content = {}
     for record_type, fields in oat.COLUMN_SCHEMAS.items():
         # add headers
+        header = list(fields)
+        for _, column in column_map.items():
+            if column.column_type == "added_unknown_column":
+                header.append(column.column_name)
         enriched_content[record_type] = {
             "count": 0,
-            "content": [list(fields)]
+            "content": [header]
         }
 
     if not os.path.isdir("tempfiles"):
@@ -693,7 +697,6 @@ def main():
                 empty_line = ["" for x in value["content"][0]]
                 value["content"].append(empty_line)
     csv_file.close()
-
     for record_type, value in enriched_content.items():
         if value["count"] > 0:
             with open('out_' + record_type + '.csv', 'w') as out:

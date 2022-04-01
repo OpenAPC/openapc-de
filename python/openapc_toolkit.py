@@ -1827,6 +1827,10 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
     for field in COLUMN_SCHEMAS[record_type]:
         result.append(current_row[field])
 
+    for _, column in column_map.items():
+        if column.column_type == "added_unknown_column":
+            result.append(row[column.index])
+
     return (record_type, result)
 
 def get_hybrid_status_from_whitelist(hybrid_status):
