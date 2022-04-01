@@ -27,9 +27,9 @@ ARG_HELP_STRINGS = {
 }
 
 CORRECTION_SCHEMAS = {
-    "journal_article": [("publisher", 5), ("journal_full_title", 6)],
-    "journal_article_transagree":  [("publisher", 5), ("journal_full_title", 6)],
-    "book_title": [("publisher", 5)]
+    "journal-article": [("publisher", 5), ("journal_full_title", 6)],
+    "journal-article_transagree":  [("publisher", 5), ("journal_full_title", 6)],
+    "book": [("publisher", 5)]
 }
 
 def main():
