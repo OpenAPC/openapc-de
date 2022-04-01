@@ -153,6 +153,7 @@ JOURNAL_OWNER_CHANGED = {
     "1421-9778": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry (electronic)
     "2052-4986": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Transactions of the London Mathematical Society
     "2169-9097": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research JGR / E - Planets
+    "2169-9100": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research JGR / E - Planets (electronic)
     "0048-6604": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Radio Science
     "1944-799X": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Radio Science (electronic)
     "1747-0218": ["Informa UK Limited", "SAGE Publications"], # (The) Quarterly Journal of Experimental Psychology
@@ -241,7 +242,9 @@ JOURNAL_OWNER_CHANGED = {
     "1468-2281": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Historical Research (electronic)
     "1875-6883": ["Springer Nature", "Atlantis Press"], # International Journal of Computational Intelligence Systems
     "0032-0889": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"], # Plant Physiology
-    "1532-2548": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"] # Plant Physiology (electronic)
+    "1532-2548": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"], # Plant Physiology (electronic)
+    "1532-2807": ["Springer Nature", "Frontiers Media SA"], # Pathology and Oncology Research
+    "1219-4956": ["Springer Nature", "Frontiers Media SA"] # Pathology and Oncology Research (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -363,7 +366,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1535-9476", # Molecular & Cellular Proteomics, Gold OA since 2021
     "1759-4685", # Journal of Molecular Cell Biology
     "0355-3140", # Scandinavian Journal of Work, Environment & Health, Gold OA since 2021
-    "1015-6305" # Brain Pathology
+    "1015-6305", # Brain Pathology
+    "1751-8687", # IET Generation, Transmission & Distribution, Gold OA since 2021
+    "1751-8725", # IET Microwaves, Antennas & Propagation, Gold OA since 2021
+    "1532-2807", # Pathology and Oncology Research, Gold OA since 2021
+    "1365-2060", # Annals of Medicine, Gold OA since 2021
+    "1460-4582" # Health Informatics Journal, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
