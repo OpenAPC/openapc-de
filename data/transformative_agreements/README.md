@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 50,790 articles, published at 315 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 50,791 articles, published at 315 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 50,790 articles, published at 315 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2423|
+|DEAL Wiley Germany                           |     2424|
 |Swiss Consortium Elsevier agreement          |     1821|
 |DEAL Springer Nature Germany                 |     1701|
 |FinELib Elsevier agreement                   |     1616|
@@ -313,11 +313,11 @@ This dataset contains information on 50,790 articles, published at 315 instituti
 |Osnabrück U                                                                                                                                        |        6|
 |Trier U                                                                                                                                            |        6|
 |University of Roehampton                                                                                                                           |        6|
+|Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        5|
 |University of Worcester                                                                                                                            |        5|
 |European Organization for Nuclear Research                                                                                                         |        4|
 |Häme University of Applied Sciences                                                                                                                |        4|
 |Metropolia University of Applied Sciences                                                                                                          |        4|
-|Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        4|
 |VATT Institute for Economic Research                                                                                                               |        4|
 |Arcada University of Applied Sciences                                                                                                              |        3|
 |Carinthia University of Applied Sciences (CUAS)                                                                                                    |        3|
