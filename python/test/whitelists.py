@@ -278,7 +278,8 @@ JOURNAL_OWNER_CHANGED = {
     "1350-911X": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # Electronics Letters (electronic)
     "2045-7022": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Allergy
     "1755-4535": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics
-    "1755-4543": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"] # IET Power Electronics (electronic)
+    "1755-4543": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics (electronic)
+    "2197-1927": ["Springer Nature", "Brill"] # Triple Helix
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
