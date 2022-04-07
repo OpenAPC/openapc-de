@@ -412,7 +412,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1751-956X", # IET Intelligent Transport Systems, Gold OA since 2021
     "1752-1416", # IET Renewable Power Generation, Gold OA since 2021
     "1524-6175", # The Journal of Clinical Hypertension
-    "1755-4535" # IET Power Electronics, Gold OA since 2021 
+    "1755-4535", # IET Power Electronics, Gold OA since 2021 
+    "1751-8601" # IET Computers & Digital Techniques, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
