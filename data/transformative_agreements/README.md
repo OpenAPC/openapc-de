@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 50,791 articles, published at 315 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 50,807 articles, published at 316 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 50,791 articles, published at 315 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2424|
+|DEAL Wiley Germany                           |     2432|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1701|
+|DEAL Springer Nature Germany                 |     1709|
 |FinELib Elsevier agreement                   |     1616|
 |FinELib Springer Compact agreement           |      895|
 |FinELib Wiley agreement                      |      790|
@@ -284,6 +284,7 @@ This dataset contains information on 50,791 articles, published at 315 instituti
 |Edinburgh Napier University                                                                                                                        |       17|
 |Stockholm School of Economics                                                                                                                      |       17|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       17|
+|Bielefeld FH                                                                                                                                       |       16|
 |Geological Survey of Finland                                                                                                                       |       16|
 |Birmingham City University                                                                                                                         |       13|
 |TU Clausthal                                                                                                                                       |       13|
