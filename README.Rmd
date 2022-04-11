@@ -167,6 +167,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 
 - [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
 - [Knowledge Unlatched](https://www.knowledgeunlatched.org/)
+- [OA-Monofonds Brandenburg](https://open-access-brandenburg.de/fonds/)
 
 ## Participating Austrian Institutions
 
