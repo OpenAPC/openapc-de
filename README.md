@@ -17,7 +17,7 @@ At the moment this project provides the following cost data:
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
 | Articles         |150,336 | 288,439,946    | 355 |
-| Monographs       |1,361 | 8,614,341    | 18 |
+| Monographs       |1,362 | 8,619,097    | 19 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -143,6 +143,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 
 - [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
 - [Knowledge Unlatched](https://www.knowledgeunlatched.org/)
+- [OA-Monofonds Brandenburg](https://open-access-brandenburg.de/fonds/)
 
 ## Participating Austrian Institutions
 
@@ -518,9 +519,9 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 ### Books (BPCs)
 
-The book data set contains information on 1,361 open access books. Publication fees were supported financially by 18 research performing institutions and funders. 
+The book data set contains information on 1,362 open access books. Publication fees were supported financially by 19 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 8,614,341. The average payment was € 6,329 and the median was € 6,789.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 8,619,097. The average payment was € 6,328 and the median was € 6,787.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -542,7 +543,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2018   |             144|    9,075|      8,250|   476 - 21,104|            191|    1,875|      1,875| 1,875 - 1,875|
 |2019   |             158|    8,118|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |             119|    7,988|      8,120|   190 - 19,200|              1|    1,875|      1,875| 1,875 - 1,875|
-|2021   |              28|    5,550|      6,000| 1,190 - 13,229|             NA|       NA|         NA|            NA|
+|2021   |              29|    5,523|      6,000| 1,190 - 13,229|             NA|       NA|         NA|            NA|
 
 
 ## Use of external sources
