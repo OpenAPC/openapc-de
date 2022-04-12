@@ -30,7 +30,7 @@ PUBLISHER_MAPPINGS = {
     "CMA Joule Inc.": "Joule Inc.",
     "Academic Conferences and Publishing International Limited": "Academic Conferences International Ltd",
     "Modestum Publishing Ltd": "Modestum Limited",
-    "Verlag irena regener": "Berlin Regener Publishing House"
+    "Verlag irena regener": "Berlin Regener Publishing House",
     # books
     "DE GRUYTER": "De Gruyter",
     "DE GRUYTER SAUR": "De Gruyter",
@@ -370,7 +370,16 @@ JOURNAL_MAPPINGS = {
     "IET Generation, Transmission &amp; Distribution": "IET Generation, Transmission & Distribution",
     "Maternal &amp; Child Nutrition": "Maternal & Child Nutrition",
     "Molecular Genetics &amp; Genomic Medicine": "Molecular Genetics & Genomic Medicine",
-    "IET Radar, Sonar &amp; Navigation": "IET Radar, Sonar & Navigation"
+    "IET Radar, Sonar &amp; Navigation": "IET Radar, Sonar & Navigation",
+    "Materials &amp; Design": "Materials & Design",
+    "Cell &amp; Bioscience": "Cell & Bioscience",
+    "Arthritis Research &amp; Therapy": "Arthritis Research & Therapy",
+    "Investigative Opthalmology &amp; Visual Science": "Investigative Opthalmology & Visual Science",
+    "Pharmacology Research &amp; Perspectives": "Pharmacology Research & Perspectives",
+    "Diabetology &amp; Metabolic Syndrome": "Diabetology & Metabolic Syndrome",
+    "Journal of Otolaryngology - Head &amp; Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
+    "Antimicrobial Resistance &amp; Infection Control": "Antimicrobial Resistance and Infection Control",
+    "Light: Science &amp; Applications": "Light: Science & Applications"
 }
 
 COLUMN_NAMES = {
