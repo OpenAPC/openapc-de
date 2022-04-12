@@ -30,6 +30,7 @@ PUBLISHER_MAPPINGS = {
     "CMA Joule Inc.": "Joule Inc.",
     "Academic Conferences and Publishing International Limited": "Academic Conferences International Ltd",
     "Modestum Publishing Ltd": "Modestum Limited",
+    "Verlag irena regener": "Berlin Regener Publishing House"
     # books
     "DE GRUYTER": "De Gruyter",
     "DE GRUYTER SAUR": "De Gruyter",
