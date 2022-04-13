@@ -30,6 +30,7 @@ PUBLISHER_MAPPINGS = {
     "CMA Joule Inc.": "Joule Inc.",
     "Academic Conferences and Publishing International Limited": "Academic Conferences International Ltd",
     "Modestum Publishing Ltd": "Modestum Limited",
+    "Verlag irena regener": "Berlin Regener Publishing House",
     # books
     "DE GRUYTER": "De Gruyter",
     "DE GRUYTER SAUR": "De Gruyter",
@@ -369,7 +370,16 @@ JOURNAL_MAPPINGS = {
     "IET Generation, Transmission &amp; Distribution": "IET Generation, Transmission & Distribution",
     "Maternal &amp; Child Nutrition": "Maternal & Child Nutrition",
     "Molecular Genetics &amp; Genomic Medicine": "Molecular Genetics & Genomic Medicine",
-    "IET Radar, Sonar &amp; Navigation": "IET Radar, Sonar & Navigation"
+    "IET Radar, Sonar &amp; Navigation": "IET Radar, Sonar & Navigation",
+    "Materials &amp; Design": "Materials & Design",
+    "Cell &amp; Bioscience": "Cell & Bioscience",
+    "Arthritis Research &amp; Therapy": "Arthritis Research & Therapy",
+    "Investigative Opthalmology &amp; Visual Science": "Investigative Opthalmology & Visual Science",
+    "Pharmacology Research &amp; Perspectives": "Pharmacology Research & Perspectives",
+    "Diabetology &amp; Metabolic Syndrome": "Diabetology & Metabolic Syndrome",
+    "Journal of Otolaryngology - Head &amp; Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
+    "Antimicrobial Resistance &amp; Infection Control": "Antimicrobial Resistance and Infection Control",
+    "Light: Science &amp; Applications": "Light: Science & Applications"
 }
 
 COLUMN_NAMES = {
@@ -408,6 +418,6 @@ ISSN_L_CORRECTIONS = {
     "1654-6628": "1654-661X",  # "Food & Nutrition Research". 1654-6628(issn_p) -> 1654-6628, but 1654-661X(issn_e) -> 1654-661X
     "1474-7596": "1465-6906", # "Genome Biology".  1465-6906(issn_p) -> 1465-6906, but 1474-760X(issn_e) -> 1474-7596
     "0959-8138": "1756-1833", # BMJ. The BMJ has a bunch of ISSNs assigend, but the ISSN-L mappings are all fixed points. Unknown if this is intended.
-    "0957-5820": "NA" # 0957-5820 clearly belongs to "Process Safety and Environmental Protection". Unfortunately there's the line 0263-8762 -> 0957-5820 which
-                      # incorrectly maps the issn of "Chemical Engineering Research and Design" to the same value. We have no choice but to omit this value.
+    "0957-5820": "NA", # 0957-5820 clearly belongs to "Process Safety and Environmental Protection". Unfortunately there's the line 0263-8762 -> 0957-5820 which incorrectly maps the issn of "Chemical Engineering Research and Design" to the same value. We have no choice but to omit this value.
+    "2058-5888": "NA" # 2058-5888 (issn_e for "Environmental Epigenetics") maps to 1674-5507 (issn_l for "Current Zoology")
 }
