@@ -279,7 +279,9 @@ JOURNAL_OWNER_CHANGED = {
     "2045-7022": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Allergy
     "1755-4535": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics
     "1755-4543": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics (electronic)
-    "2197-1927": ["Springer Nature", "Brill"] # Triple Helix
+    "2197-1927": ["Springer Nature", "Brill"], # Triple Helix 
+    "1718-7729": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (electronic)
+    "1198-0052": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -413,7 +415,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1752-1416", # IET Renewable Power Generation, Gold OA since 2021
     "1524-6175", # The Journal of Clinical Hypertension
     "1755-4535", # IET Power Electronics, Gold OA since 2021 
-    "1751-8601" # IET Computers & Digital Techniques, Gold OA since 2021
+    "1751-8601", # IET Computers & Digital Techniques, Gold OA since 2021
+    "1350-4177", # Ultrasonics Sonochemistry, Gold OA since 2021
+    "0957-4530", # Journal of Materials Science: Materials in Medicine, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
