@@ -379,7 +379,8 @@ JOURNAL_MAPPINGS = {
     "Diabetology &amp; Metabolic Syndrome": "Diabetology & Metabolic Syndrome",
     "Journal of Otolaryngology - Head &amp; Neck Surgery": "Journal of Otolaryngology - Head & Neck Surgery",
     "Antimicrobial Resistance &amp; Infection Control": "Antimicrobial Resistance and Infection Control",
-    "Light: Science &amp; Applications": "Light: Science & Applications"
+    "Light: Science &amp; Applications": "Light: Science & Applications",
+    "Scandinavian Journal of Work, Environment &amp; Health": "Scandinavian Journal of Work Environment and Health"
 }
 
 COLUMN_NAMES = {
