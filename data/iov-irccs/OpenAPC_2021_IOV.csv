@@ -1,4 +1,4 @@
-Institution,Period,Total Amount (includes VAT and additional fee) (euro),DOI,Is_hybrid (TRUE/FALSE),Publisher,journal_full_title,ISSN,DOAJ (true/false),payment description
+Institution,Period,Total Amount (includes VAT and additional fee) (euro),DOI,Is_hybrid,Publisher,journal_full_title,ISSN,DOAJ (true/false),payment description
 Veneto Institute of Oncology IOV IRCCS,2021,"1.335,90",10.1038/s41523-021-00223-x,false ,NATURE PUBLISHING GROUP,Immune Microenvironment and intrinsic subtyping in hormone receptor-positive/HER2- negative brest cancer,2374-4677,true,APC
 Veneto Institute of Oncology IOV IRCCS,2021,"2.039,00",10.3390/cells10020223,false ,MDPI,Immune infiltrates in breast cancer: recent updates and clinical implications,2073-4409,true,APC
 Veneto Institute of Oncology IOV IRCCS,2021,"2.667,46",10.3389/fonc.2021.627527,false ,Frontiers,"Melanoma of unknown primary (MUP): evaluation of the characteristics, treatments strategies, prognostic factors in a monocentric retrospective study",2234-943X,true,APC
