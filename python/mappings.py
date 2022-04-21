@@ -382,7 +382,18 @@ JOURNAL_MAPPINGS = {
     "Light: Science &amp; Applications": "Light: Science & Applications",
     "Scandinavian Journal of Work, Environment &amp; Health": "Scandinavian Journal of Work Environment and Health",
     "Journal of Experimental &amp; Clinical Cancer Research": "Journal of Experimental & Clinical Cancer Research",
-    "Cellular &amp; Molecular Immunology": "Cellular and Molecular Immunology"
+    "Cellular &amp; Molecular Immunology": "Cellular and Molecular Immunology",
+    "Translational Vision Science &amp; Technology": "Translational Vision Science & Technology",
+    "Stem Cell Research &amp; Therapy": "Stem Cell Research & Therapy",
+    "Biomedicine &amp; Pharmacotherapy": "Biomedicine & Pharmacotherapy",
+    "Astronomy &amp; Astrophysics": "Astronomy & Astrophysics",
+    "Molecular Therapy - Methods &amp; Clinical Development": "Molecular Therapy - Methods & Clinical Development",
+    "Allergy &amp; Rhinology": "Allergy & Rhinology",
+    "Leukemia &amp; Lymphoma": "Leukemia & Lymphoma",
+    "Clinical Pharmacology &amp; Therapeutics": "Clinical Pharmacology & Therapeutics",
+    "Plant, Cell &amp; Environment": "Plant, Cell & Environment",
+    "Cancer Diagnosis &amp; Prognosis": "Cancer Diagnosis & Prognosis",
+    "Music &amp; Science": "Music & Science"
 }
 
 COLUMN_NAMES = {
