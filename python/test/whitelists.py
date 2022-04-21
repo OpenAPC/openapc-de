@@ -282,6 +282,8 @@ JOURNAL_OWNER_CHANGED = {
     "2197-1927": ["Springer Nature", "Brill"], # Triple Helix 
     "1718-7729": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (electronic)
     "1198-0052": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (linking)
+    "0894-0282": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions
+    "1943-7706": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
