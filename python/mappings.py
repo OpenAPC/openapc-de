@@ -393,7 +393,8 @@ JOURNAL_MAPPINGS = {
     "Clinical Pharmacology &amp; Therapeutics": "Clinical Pharmacology & Therapeutics",
     "Plant, Cell &amp; Environment": "Plant, Cell & Environment",
     "Cancer Diagnosis &amp; Prognosis": "Cancer Diagnosis & Prognosis",
-    "Music &amp; Science": "Music & Science"
+    "Music &amp; Science": "Music & Science",
+    "Experimental Hematology &amp; Oncology": "Experimental Hematology & Oncology"
 }
 
 COLUMN_NAMES = {
