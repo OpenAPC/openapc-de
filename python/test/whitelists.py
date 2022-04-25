@@ -284,6 +284,9 @@ JOURNAL_OWNER_CHANGED = {
     "1198-0052": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (linking)
     "0894-0282": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions
     "1943-7706": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions (electronic)
+    "2379-1381": ["Grapho, LLC", "MDPI AG"], # Tomography
+    "2379-139X": ["Grapho, LLC", "MDPI AG"], # Tomography
+    
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs

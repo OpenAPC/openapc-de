@@ -394,7 +394,14 @@ JOURNAL_MAPPINGS = {
     "Plant, Cell &amp; Environment": "Plant, Cell & Environment",
     "Cancer Diagnosis &amp; Prognosis": "Cancer Diagnosis & Prognosis",
     "Music &amp; Science": "Music & Science",
-    "Experimental Hematology &amp; Oncology": "Experimental Hematology & Oncology"
+    "Experimental Hematology &amp; Oncology": "Experimental Hematology & Oncology",
+    "Disease Models &amp; Mechanisms": "Disease Models & Mechanisms",
+    "Primary Health Care Research &amp; Development": "Primary Health Care Research & Development",
+    "BMJ Open Sport &amp; Exercise Medicine": "BMJ Open Sport & Exercise Medicine",
+    "Contrast Media &amp; Molecular Imaging": "Contrast Media & Molecular Imaging",
+    "Ear, Nose &amp; Throat Journal": "Ear, Nose & Throat Journal",
+    "American Journal of Alzheimer's Disease &amp; Other Dementias®": "American Journal of Alzheimer's Disease & Other Dementiasr",
+    "Reproductive Biomedicine &amp; Society Online": "Reproductive Biomedicine & Society Online"
 }
 
 COLUMN_NAMES = {
