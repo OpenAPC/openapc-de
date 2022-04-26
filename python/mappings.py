@@ -401,7 +401,8 @@ JOURNAL_MAPPINGS = {
     "Contrast Media &amp; Molecular Imaging": "Contrast Media & Molecular Imaging",
     "Ear, Nose &amp; Throat Journal": "Ear, Nose & Throat Journal",
     "American Journal of Alzheimer's Disease &amp; Other Dementias®": "American Journal of Alzheimer's Disease & Other Dementiasr",
-    "Reproductive Biomedicine &amp; Society Online": "Reproductive Biomedicine & Society Online"
+    "Reproductive Biomedicine &amp; Society Online": "Reproductive Biomedicine & Society Online",
+    "Adsorption Science &amp; Technology": "Adsorption Science & Technology"
 }
 
 COLUMN_NAMES = {
