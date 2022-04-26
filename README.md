@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |152,429 | 292,302,134    | 357 |
+| Articles         |152,720 | 292,794,907    | 357 |
 | Monographs       |1,362 | 8,619,097    | 19 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -481,13 +481,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 152,429 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 357 research performing institutions and research funders. 
+The article data set contains information on 152,720 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 357 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 292,302,134. The average payment was € 1,918 and the median was € 1,752.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 292,794,907. The average payment was € 1,917 and the median was € 1,752.
 
-101,058 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 164,708,228, including value-added tax; the average payment was € 1,630 (median =  € 1,559, SD = € 769).
+101,346 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 165,197,276, including value-added tax; the average payment was € 1,630 (median =  € 1,560, SD = € 769).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 51,371 articles in the data set were published in hybrid journals. Total expenditure amounts to 127,593,906 €; the average fee was € 2,484 (median =  € 2,445, SD = € 994).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 51,374 articles in the data set were published in hybrid journals. Total expenditure amounts to 127,597,630 €; the average fee was € 2,484 (median =  € 2,445, SD = € 994).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -516,7 +516,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2018   |      15,013|   1,697|     1,585|  13 -  8,926|           9,257|       2,560|         2,543|      18 - 13,975|
 |2019   |      15,383|   1,649|     1,603|  11 -  7,684|           5,137|       2,402|         2,322|      75 -  9,500|
 |2020   |      18,041|   1,685|     1,677|   0 -  8,906|           3,110|       2,374|         2,389|     130 -  7,416|
-|2021   |       8,554|   1,776|     1,753|  27 -  6,417|           1,038|       2,510|         2,426|     100 -  7,600|
+|2021   |       8,842|   1,773|     1,758|  27 -  6,417|           1,041|       2,507|         2,426|     100 -  7,600|
 |2022   |          72|   1,899|     1,931| 421 -  4,006|              NA|          NA|            NA|               NA|
 
 ### Books (BPCs)
@@ -589,8 +589,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.69%       |
-|PubMed ID                  |  74.03%      |
-|PubMed Central ID          |  67.83%     |
+|PubMed ID                  |  74.04%      |
+|PubMed Central ID          |  67.85%     |
 |Web of Science record ID   | 91.38%      |
 
 

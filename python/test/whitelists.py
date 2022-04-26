@@ -110,8 +110,8 @@ JOURNAL_OWNER_CHANGED = {
     "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology
     "1938-3673": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology (electronic)
     "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
-    "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology
-    "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology (electronic)
+    "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications", "IOS Press"], # Tumor Biology
+    "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications", "IOS Press"], # Tumor Biology (electronic)
     "1530-9932": ["American Association of Pharmaceutical Scientists (AAPS)", "Springer Nature"], # AAPS PharmSciTech
     "1869-6716": ["Springer Science + Business Media", "Oxford University Press (OUP)"], # Translational Behavioral Medicine
     "0883-6612": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine
@@ -285,7 +285,7 @@ JOURNAL_OWNER_CHANGED = {
     "0894-0282": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions
     "1943-7706": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions (electronic)
     "2379-1381": ["Grapho, LLC", "MDPI AG"], # Tomography
-    "2379-139X": ["Grapho, LLC", "MDPI AG"], # Tomography
+    "2379-139X": ["Grapho, LLC", "MDPI AG"], # Tomography (electronic)
     
 }
 
