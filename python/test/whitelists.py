@@ -423,6 +423,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1751-8601", # IET Computers & Digital Techniques, Gold OA since 2021
     "1350-4177", # Ultrasonics Sonochemistry, Gold OA since 2021
     "0957-4530", # Journal of Materials Science: Materials in Medicine, Gold OA since 2021
+    "2210-4968", # Semantic Web, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
