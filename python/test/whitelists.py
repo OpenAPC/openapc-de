@@ -286,6 +286,7 @@ JOURNAL_OWNER_CHANGED = {
     "1943-7706": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions (electronic)
     "2379-1381": ["Grapho, LLC", "MDPI AG"], # Tomography
     "2379-139X": ["Grapho, LLC", "MDPI AG"], # Tomography (electronic)
+    "2397-1835": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Glossa: a journal of general linguistics
     
 }
 
