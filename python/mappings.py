@@ -402,7 +402,8 @@ JOURNAL_MAPPINGS = {
     "Ear, Nose &amp; Throat Journal": "Ear, Nose & Throat Journal",
     "American Journal of Alzheimer's Disease &amp; Other Dementias®": "American Journal of Alzheimer's Disease & Other Dementias",
     "Reproductive Biomedicine &amp; Society Online": "Reproductive Biomedicine & Society Online",
-    "Adsorption Science &amp; Technology": "Adsorption Science & Technology"
+    "Adsorption Science &amp; Technology": "Adsorption Science & Technology",
+    "IEEE Communications Surveys &amp; Tutorials": "IEEE Communications Surveys & Tutorials"
 }
 
 COLUMN_NAMES = {
