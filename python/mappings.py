@@ -400,7 +400,7 @@ JOURNAL_MAPPINGS = {
     "BMJ Open Sport &amp; Exercise Medicine": "BMJ Open Sport & Exercise Medicine",
     "Contrast Media &amp; Molecular Imaging": "Contrast Media & Molecular Imaging",
     "Ear, Nose &amp; Throat Journal": "Ear, Nose & Throat Journal",
-    "American Journal of Alzheimer's Disease &amp; Other Dementias®": "American Journal of Alzheimer's Disease & Other Dementiasr",
+    "American Journal of Alzheimer's Disease &amp; Other Dementias®": "American Journal of Alzheimer's Disease & Other Dementias",
     "Reproductive Biomedicine &amp; Society Online": "Reproductive Biomedicine & Society Online",
     "Adsorption Science &amp; Technology": "Adsorption Science & Technology"
 }
