@@ -10,7 +10,7 @@
 "kth",2021,1148.92,"10.1145/3462448",TRUE,"Association for Computing Machinery (ACM)","ACM Transactions on Computer-Human Interaction","1073-0516","1073-0516","1557-7325","1073-0516",NA,TRUE,NA,NA,"ut:000734831300004",NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
 "kth",2021,754.05,"10.1039/d1ra05448a",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000711116800001",NA,TRUE
-"kth",2021,757.33,"10.1121/10.0004852",TRUE,"Acoustical Society of America (ASA)","JASA Express Letters","2691-1191",NA,"2691-1191","2691-1191",NA,TRUE,NA,NA,"ut:000648565700001",NA,FALSE
+"kth",2021,757.33,"10.1121/10.0004852",FALSE,"Acoustical Society of America (ASA)","JASA Express Letters","2691-1191",NA,"2691-1191","2691-1191",NA,TRUE,NA,NA,"ut:000648565700001",NA,FALSE
 "kth",2021,764.44,"10.1039/d1ra03575d",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"35480736","PMC9037834","ut:000694655300013",NA,TRUE
 "kth",2021,764.45,"10.1039/d1ra06878d",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000728816200001",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
@@ -30,7 +30,7 @@
 "kth",2021,1637.7,"10.1109/toh.2020.3044682",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Haptics","1939-1412","1939-1412","2329-4051","1939-1412","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,"33315572",NA,NA,NA,FALSE
 "kth",2021,1651.06,"10.1353/ghs.2020.0005",TRUE,"Project Muse","Ghana Studies","2333-7168",NA,"2333-7168","1536-5514",NA,TRUE,NA,NA,NA,NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
-"kth",2021,1665.16,"10.1364/boe.438400",TRUE,"Optical Society of America (OSA)","Biomedical Optics Express","2156-7085","2156-7085","2156-7085","2156-7085","https://doi.org/10.1364/OA_License_v1#CCBY",TRUE,"35003843","PMC8713693",NA,NA,TRUE
+"kth",2021,1665.16,"10.1364/boe.438400",FALSE,"Optical Society of America (OSA)","Biomedical Optics Express","2156-7085","2156-7085","2156-7085","2156-7085","https://doi.org/10.1364/OA_License_v1#CCBY",TRUE,"35003843","PMC8713693",NA,NA,TRUE
 "kth",2021,1666.9,"10.1364/oe.417175",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","https://doi.org/10.1364/OA_License_v1#VOR-OA",TRUE,"33726276",NA,NA,NA,TRUE
 "kth",2021,1671.29,"10.1364/jocn.409704",TRUE,"Optical Society of America (OSA)","Journal of Optical Communications and Networking","1943-0620","1943-0620","1943-0639","1943-0620","https://doi.org/10.1364/OA_License_v1#VOR-OA",TRUE,NA,NA,NA,NA,FALSE
 "kth",2021,1716.86,"10.1364/ol.436288",TRUE,"Optical Society of America (OSA)","Optics Letters","0146-9592","0146-9592","1539-4794","0146-9592","https://doi.org/10.1364/OA_License_v1#VOR-OA",TRUE,"34780433",NA,NA,NA,FALSE
@@ -50,7 +50,7 @@
 "kth",2021,1893.45,"10.1121/10.0003824",TRUE,"Acoustical Society of America (ASA)","The Journal of the Acoustical Society of America","0001-4966","0001-4966",NA,"0001-4966",NA,TRUE,"33765808",NA,"ut:000632890100003",NA,FALSE
 "kth",2021,2012.41,"10.1155/2021/6620900",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6141","2314-6133","2314-6141","2314-6133","https://creativecommons.org/licenses/by/4.0/",TRUE,"33604378","PMC7872763","ut:000620153700004",NA,TRUE
 "kth",2021,2058.08,"10.1155/2021/4944682",FALSE,"Hindawi Publishing Corporation","Shock and Vibration","1875-9203","1070-9622","1875-9203","1070-9622","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000781908400006",NA,TRUE
-"kth",2021,1824.85,"10.1364/prj.441215",TRUE,"Optical Society of America (OSA)","Photonics Research","2327-9125",NA,"2327-9125","2327-9125",NA,TRUE,NA,NA,NA,NA,FALSE
+"kth",2021,1824.85,"10.1364/prj.441215",FALSE,"Optical Society of America (OSA)","Photonics Research","2327-9125",NA,"2327-9125","2327-9125",NA,TRUE,NA,NA,NA,NA,FALSE
 "kth",2021,2082.76,"10.1155/2021/6495700",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6141","2314-6133","2314-6141","2314-6133","https://creativecommons.org/licenses/by/4.0/",TRUE,"34692839","PMC8528586",NA,NA,TRUE
 "kth",2021,2088.35,"10.1155/2021/3538462",FALSE,"Hindawi Publishing Corporation","Journal of Advanced Transportation","2042-3195","0197-6729","2042-3195","0197-6729","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000697297200001",NA,TRUE
 "kth",2021,2092.78,"10.7554/elife.66921",FALSE,"eLife Sciences Publications, Ltd","eLife","2050-084X",NA,"2050-084X","2050-084X","http://creativecommons.org/licenses/by/4.0/",TRUE,"33972017","PMC8186902",NA,NA,TRUE
@@ -78,7 +78,7 @@
 "kth",2021,3588.2,"10.1016/j.applthermaleng.2021.117559",TRUE,"Elsevier BV","Applied Thermal Engineering","1359-4311","1359-4311",NA,"1359-4311","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000712101800001",NA,FALSE
 "kth",2021,3837.12,"10.1126/sciadv.abh2169",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"34321199","PMC8318366","ut:000678723800005",NA,TRUE
 "kth",2021,3907.45,"10.1038/s41396-021-00985-z",TRUE,"Springer Nature","The ISME Journal","1751-7362","1751-7362","1751-7370","1751-7362","https://creativecommons.org/licenses/by/4.0",TRUE,"33953362","PMC8443644","ut:000647533200002",NA,FALSE
-"kth",2021,4227.08,"10.1085/jgp.202012676",FALSE,"Rockefeller University Press","The Journal of General Physiology","0022-1295","0022-1295","1540-7748","0022-1295","https://creativecommons.org/licenses/by/4.0/",TRUE,"33683319","PMC7944402","ut:000630187200001",NA,FALSE
+"kth",2021,4227.08,"10.1085/jgp.202012676",TRUE,"Rockefeller University Press","The Journal of General Physiology","0022-1295","0022-1295","1540-7748","0022-1295","https://creativecommons.org/licenses/by/4.0/",TRUE,"33683319","PMC7944402","ut:000630187200001",NA,FALSE
 "kth",2021,4385.49,"10.1002/adfm.201902581",TRUE,"Wiley-Blackwell","Advanced Functional Materials","1616-301X","1616-301X","1616-3028","1616-301X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000486591100001",NA,FALSE
 "kth",2021,908.12,"10.17645/up.v6i2.3974",FALSE,"Cogitatio","Urban Planning","2183-7635",NA,"2183-7635","2183-7635","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000659966600008",NA,TRUE
 "kth",2021,1555.83,"10.3390/su13063371",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000646053500001",NA,TRUE
@@ -89,7 +89,7 @@
 "kth",2021,2584.55,"10.1353/tech.2022.0000",TRUE,"Project Muse","Technology and Culture","1097-3729",NA,"1097-3729","0040-165X",NA,TRUE,"35000957",NA,NA,NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
-"kth",2021,613.53,"10.1109/comst.2021.3063980",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Communications Surveys &amp; Tutorials","1553-877X",NA,"1553-877X","1553-877X","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"kth",2021,613.53,"10.1109/comst.2021.3063980",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Communications Surveys & Tutorials","1553-877X",NA,"1553-877X","1553-877X","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
@@ -142,7 +142,7 @@
 "kth",2021,1225.95,"10.1109/jphot.2021.3050114",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Photonics Journal","1943-0655",NA,"1943-0655","1943-0647","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,TRUE
 "kth",2021,1225.95,"10.1109/access.2021.3052893",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Access","2169-3536",NA,"2169-3536","2169-3536","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,TRUE
 "kth",2021,1225.95,"10.1109/ojcoms.2021.3050333",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Open Journal of the Communications Society","2644-125X",NA,"2644-125X","2644-125X","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,TRUE
-"kth",2021,1225.95,"10.1109/twc.2021.3096800",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Wireless Communications","1536-1276","1536-1276","1558-2248","1536-1276","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,FALSE
+"kth",2021,1225.95,"10.1109/twc.2021.3096800",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Wireless Communications","1536-1276","1536-1276","1558-2248","1536-1276","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,FALSE
 "kth",2021,1225.95,"10.1109/jiot.2021.3094930",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Internet of Things Journal","2327-4662",NA,"2327-4662","2327-4662","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,FALSE
 "kth",2021,1225.95,"10.1109/tpwrs.2021.3101834",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Power Systems","0885-8950","0885-8950","1558-0679","0885-8950","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,FALSE
 "kth",2021,1225.95,"10.1109/temc.2021.3102875",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Electromagnetic Compatibility","0018-9375","0018-9375","1558-187X","0018-9375","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,FALSE
