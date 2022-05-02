@@ -403,7 +403,11 @@ JOURNAL_MAPPINGS = {
     "American Journal of Alzheimer's Disease &amp; Other Dementias®": "American Journal of Alzheimer's Disease & Other Dementias",
     "Reproductive Biomedicine &amp; Society Online": "Reproductive Biomedicine & Society Online",
     "Adsorption Science &amp; Technology": "Adsorption Science & Technology",
-    "IEEE Communications Surveys &amp; Tutorials": "IEEE Communications Surveys & Tutorials"
+    "IEEE Communications Surveys &amp; Tutorials": "IEEE Communications Surveys & Tutorials",
+    "Bone &amp; Joint Research": "Bone and Joint Research",
+    "Head &amp; Face Medicine": "Head & Face Medicine",
+    "Clinical &amp; Translational Immunology": "Clinical & Translational Immunology",
+    "Bioengineering &amp; Translational Medicine": "Bioengineering & Translational Medicine"
 }
 
 COLUMN_NAMES = {
