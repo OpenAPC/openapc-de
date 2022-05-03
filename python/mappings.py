@@ -407,7 +407,8 @@ JOURNAL_MAPPINGS = {
     "Bone &amp; Joint Research": "Bone and Joint Research",
     "Head &amp; Face Medicine": "Head & Face Medicine",
     "Clinical &amp; Translational Immunology": "Clinical & Translational Immunology",
-    "Bioengineering &amp; Translational Medicine": "Bioengineering & Translational Medicine"
+    "Bioengineering &amp; Translational Medicine": "Bioengineering & Translational Medicine",
+    "Food Science &amp; Nutrition": "Food Science & Nutrition"
 }
 
 COLUMN_NAMES = {
