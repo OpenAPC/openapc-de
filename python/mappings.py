@@ -408,7 +408,11 @@ JOURNAL_MAPPINGS = {
     "Head &amp; Face Medicine": "Head & Face Medicine",
     "Clinical &amp; Translational Immunology": "Clinical & Translational Immunology",
     "Bioengineering &amp; Translational Medicine": "Bioengineering & Translational Medicine",
-    "Food Science &amp; Nutrition": "Food Science & Nutrition"
+    "Food Science &amp; Nutrition": "Food Science & Nutrition",
+    "ACS Sustainable Chemistry &amp; Engineering": "ACS Sustainable Chemistry & Engineering",
+    "ACS Applied Materials &amp; Interfaces": "ACS Applied Materials & Interfaces",
+    "ACS Pharmacology &amp; Translational Science": "ACS Pharmacology & Translational Science",
+    "Energy &amp; Environmental Science": "Energy & Environmental Science"
 }
 
 COLUMN_NAMES = {
