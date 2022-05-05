@@ -412,7 +412,8 @@ JOURNAL_MAPPINGS = {
     "ACS Sustainable Chemistry &amp; Engineering": "ACS Sustainable Chemistry & Engineering",
     "ACS Applied Materials &amp; Interfaces": "ACS Applied Materials & Interfaces",
     "ACS Pharmacology &amp; Translational Science": "ACS Pharmacology & Translational Science",
-    "Energy &amp; Environmental Science": "Energy & Environmental Science"
+    "Energy &amp; Environmental Science": "Energy & Environmental Science",
+    "Parasites &amp; Vectors": "Parasites & Vectors"
 }
 
 COLUMN_NAMES = {
