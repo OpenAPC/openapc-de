@@ -91,7 +91,17 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
             writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
             writer.write_rows(updated_lines)
     return (article_dict.values(), fieldnames)
-    
+
+def _calculate_header(articles):
+    header = list(oat.OAI_COLLECTION_CONTENT.keys())
+    # start with the standard header, then append additional fields in alphabetical order
+    unknown_fields = []
+    for article in articles:
+        for field in article.keys():
+            if field not in header and field not in unknown_fields:
+                 unknown_fields.append(field)
+    unknown_fields.sort()
+    return header + unknown_fields
 
 def main():
     parser = argparse.ArgumentParser()
@@ -117,10 +127,10 @@ def main():
                 integrate_changes(articles, enriched_file_path, True, not args.integrate)
                 if header is None:
                     # if no header was returned, an "all_harvested" file doesn't exist yet
-                    header = list(oat.OAI_COLLECTION_CONTENT.keys())
+                    header = _calculate_header(new_article_dicts)
                 new_articles = [header]
                 for article_dict in new_article_dicts:
-                    new_articles.append([article_dict[key] for key in header])
+                    new_articles.append([article_dict.get(key, "") for key in header])
                 now = datetime.datetime.now()
                 date_string = now.strftime("%Y_%m_%d")
                 file_name = "new_articles_" + date_string + ".csv"
