@@ -413,7 +413,8 @@ JOURNAL_MAPPINGS = {
     "ACS Applied Materials &amp; Interfaces": "ACS Applied Materials & Interfaces",
     "ACS Pharmacology &amp; Translational Science": "ACS Pharmacology & Translational Science",
     "Energy &amp; Environmental Science": "Energy & Environmental Science",
-    "Parasites &amp; Vectors": "Parasites & Vectors"
+    "Parasites &amp; Vectors": "Parasites & Vectors",
+    "Molecular &amp; Cellular Proteomics": "Molecular & Cellular Proteomics"
 }
 
 COLUMN_NAMES = {
