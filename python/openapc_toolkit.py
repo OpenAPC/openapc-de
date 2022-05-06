@@ -884,6 +884,28 @@ def get_csv_file_content(file_name, enc=None, force_header=False, print_results=
 def has_value(field):
     return len(field) > 0 and field != "NA"
 
+def _process_oai_invoice(invoice_elem, namespaces):
+    invoice_xpaths = {
+        'fee_type': 'intact:fee_type',
+        'amount': 'intact:ammount',
+        'currency': 'intact:currency'
+    }
+    data = {}
+    for elem, xpath in invoice_xpaths.items():
+        result = invoice_elem.find(xpath, namespaces)
+        if result is not None and result.text is not None:
+            data[elem] = result.text
+        else:
+            msg = 'Could not process invoice data: Element "{}" not found!'
+            print_r(msg.format(elem))
+            return None
+    if data['currency'] != 'EUR':
+        # TODO: Try auto conversion
+        msg = 'Could not process invoice data: Currency is {}'
+        print_r(msg.format(data['currency']))
+        return None
+    return data
+
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None):
     """
     Harvest OpenAPC records via OAI-PMH
@@ -892,6 +914,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
     record_xpath = ".//oai_2_0:record"
     identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
     token_xpath = ".//oai_2_0:resumptionToken"
+    invoice_xpath = "intact:invoice"
     processing_regex = re.compile(r"'(?P<target>\w*?)':'(?P<generator>.*?)'")
     variable_regex = re.compile(r"%(\w*?)%")
     #institution_xpath =
@@ -942,14 +965,29 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                         result = collection.find(xpath, namespaces)
                         if result is not None and result.text is not None:
                             article[elem] = result.text
+                invoices = collection.findall(invoice_xpath, namespaces)
+                for invoice in invoices:
+                    invoice_data = _process_oai_invoice(invoice, namespaces)
+                    if invoice_data:
+                        if invoice_data['fee_type'] not in article:
+                            article[invoice_data['fee_type']] = invoice_data['amount']
+                        else:
+                            old_amount = float(article[invoice_data['fee_type']])
+                            new_amount = float(invoice_data['amount'])
+                            article[invoice_data['fee_type']] = str(old_amount + new_amount)
+                if article['euro'] == 'NA':
+                    if 'APC' in article:
+                        article['euro'] = article['APC']
+                    elif 'Hybrid-OA' in article:
+                        article['euro'] = article['Hybrid-OA']
                 if processing:
                     target_string = generator
                     for variable in variables:
                         target_string = target_string.replace("%" + variable + "%", article[variable])
                     article[target] = target_string
-                if article["euro"] in ["NA", "0"]:
-                    print_r("Article skipped, no APC amount found.")
-                    continue
+                #if article["euro"] in ["NA", "0"]:
+                #    print_r("Article skipped, no APC amount found.")
+                #    continue
                 if article["doi"] != "NA":
                     norm_doi = get_normalised_DOI(article["doi"])
                     if norm_doi is None:
