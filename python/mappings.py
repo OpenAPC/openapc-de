@@ -414,7 +414,9 @@ JOURNAL_MAPPINGS = {
     "ACS Pharmacology &amp; Translational Science": "ACS Pharmacology & Translational Science",
     "Energy &amp; Environmental Science": "Energy & Environmental Science",
     "Parasites &amp; Vectors": "Parasites & Vectors",
-    "Molecular &amp; Cellular Proteomics": "Molecular & Cellular Proteomics"
+    "Molecular &amp; Cellular Proteomics": "Molecular & Cellular Proteomics",
+    "Cancer Causes &amp; Control": "Cancer Causes & Control",
+    "European Child &amp; Adolescent Psychiatry": "European Child & Adolescent Psychiatry"
 }
 
 COLUMN_NAMES = {
