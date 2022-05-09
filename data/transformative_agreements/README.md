@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 50,947 articles, published at 317 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 50,972 articles, published at 317 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -46,8 +46,8 @@ This dataset contains information on 50,947 articles, published at 317 instituti
 |FinELib Emerald agreement                    |      118|
 |University of Milan - Wiley                  |       98|
 |FWF Offsetting Agreement IOP                 |       82|
+|TIB RSC Journals R&P - TU Berlin             |       81|
 |FinELib RSC agreement                        |       60|
-|TIB RSC Journals R&P - TU Berlin             |       56|
 |MPG Taylor & Francis agreement               |       46|
 |Austrian Consortium IOP agreement            |       45|
 |MPG IOP agreement                            |       32|
@@ -115,12 +115,12 @@ This dataset contains information on 50,947 articles, published at 317 instituti
 |VU University Medical Center (VUmc)                                                                                                                |      363|
 |University of Vienna                                                                                                                               |      356|
 |University of Birmingham                                                                                                                           |      355|
+|TU Berlin                                                                                                                                          |      340|
 |Cardiff University                                                                                                                                 |      339|
 |University of Jyväskylä                                                                                                                            |      336|
 |University of Warwick                                                                                                                              |      332|
 |University of Milan                                                                                                                                |      317|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
-|TU Berlin                                                                                                                                          |      315|
 |Radboud University                                                                                                                                 |      309|
 |University of Twente                                                                                                                               |      297|
 |University of Liverpool                                                                                                                            |      289|

@@ -416,7 +416,8 @@ JOURNAL_MAPPINGS = {
     "Parasites &amp; Vectors": "Parasites & Vectors",
     "Molecular &amp; Cellular Proteomics": "Molecular & Cellular Proteomics",
     "Cancer Causes &amp; Control": "Cancer Causes & Control",
-    "European Child &amp; Adolescent Psychiatry": "European Child & Adolescent Psychiatry"
+    "European Child &amp; Adolescent Psychiatry": "European Child & Adolescent Psychiatry",
+    "Food &amp; Function": "Food & Function"
 }
 
 COLUMN_NAMES = {
