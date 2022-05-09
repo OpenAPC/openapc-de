@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 50,807 articles, published at 316 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 50,947 articles, published at 317 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 50,807 articles, published at 316 instituti
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
 |DEAL Wiley Germany                           |     2432|
+|DEAL Springer Nature Germany                 |     1849|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1709|
 |FinELib Elsevier agreement                   |     1616|
 |FinELib Springer Compact agreement           |      895|
 |FinELib Wiley agreement                      |      790|
@@ -168,6 +168,7 @@ This dataset contains information on 50,807 articles, published at 316 instituti
 |University of Graz                                                                                                                                 |      144|
 |Swansea University                                                                                                                                 |      142|
 |University of Aberdeen                                                                                                                             |      142|
+|JGU Mainz                                                                                                                                          |      140|
 |Kassel U                                                                                                                                           |      139|
 |Linnaeus University                                                                                                                                |      133|
 |Johannes Kepler University Linz                                                                                                                    |      130|
