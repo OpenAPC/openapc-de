@@ -110,8 +110,8 @@ JOURNAL_OWNER_CHANGED = {
     "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology
     "1938-3673": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology (electronic)
     "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
-    "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology
-    "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Tumor Biology (electronic)
+    "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications", "IOS Press"], # Tumor Biology
+    "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications", "IOS Press"], # Tumor Biology (electronic)
     "1530-9932": ["American Association of Pharmaceutical Scientists (AAPS)", "Springer Nature"], # AAPS PharmSciTech
     "1869-6716": ["Springer Science + Business Media", "Oxford University Press (OUP)"], # Translational Behavioral Medicine
     "0883-6612": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine
@@ -282,6 +282,12 @@ JOURNAL_OWNER_CHANGED = {
     "2197-1927": ["Springer Nature", "Brill"], # Triple Helix 
     "1718-7729": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (electronic)
     "1198-0052": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (linking)
+    "0894-0282": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions
+    "1943-7706": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions (electronic)
+    "2379-1381": ["Grapho, LLC", "MDPI AG"], # Tomography
+    "2379-139X": ["Grapho, LLC", "MDPI AG"], # Tomography (electronic)
+    "2397-1835": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Glossa: a journal of general linguistics
+    
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -418,6 +424,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1751-8601", # IET Computers & Digital Techniques, Gold OA since 2021
     "1350-4177", # Ultrasonics Sonochemistry, Gold OA since 2021
     "0957-4530", # Journal of Materials Science: Materials in Medicine, Gold OA since 2021
+    "2210-4968", # Semantic Web, Gold OA since 2020
+    "2192-4406", # EURO Journal on Computational Optimization, Gold OA since 2021
+    "0341-2687", # Schmalenbach Journal of Business Research, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

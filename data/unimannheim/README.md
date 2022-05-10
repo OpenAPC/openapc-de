@@ -1,9 +1,9 @@
 # APC and PAR data from the University of Mannheim
 
-The University of Mannheim has an Open Access Publishing Fonds which is managed by the Mannheim University Library. The open access publishing fund is financed by the Ministry of Science, Research and the Arts Baden-Württemberg, the Mannheim Centre for European Social Research (MZES) and the university library.
+The reported **APCs** are paid centrally by the Open Access Publishing Fund, which is administrated by the University Library and the Mannheim Centre for European Social Research (MZES). Since 2022 the fund is additionally supported by the German Research Foundation (DFG). In the previous years (2017–2021) the publishing fund has been supported by the Ministry of Science, Research and the Arts Baden-Württemberg (MWK).
 
 More information:
-- 🇺🇸 https://www.bib.uni-mannheim.de/en/open-access-publishing-fund/
-- 🇩🇪 https://www.bib.uni-mannheim.de/open-access-publikationsfonds/
+- 🇺🇸 https://www.bib.uni-mannheim.de/en/teaching-and-research/publishing-and-open-access/open-access-publishing-fund/
+- 🇩🇪 https://www.bib.uni-mannheim.de/lehren-und-forschen/publizieren-und-open-access/open-access-publikationsfonds/
 
-Additionally, the calculated PAR fees from the Wiley-DEAL from 2019 are also part of these data.
+Additionally, the calculated **PAR fees** from the DEAL contracts with Wiley and Springer are also part of these data.

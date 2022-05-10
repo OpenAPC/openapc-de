@@ -1,5 +1,5 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"",,,"","","","","","","","","","","","","","",""
+"CIRAD",2020,500.94,"10.5897/jvmah2019.0817",FALSE,"Academic Journals","Journal of Veterinary Medicine and Animal Health (JVMAH)","2141-2529",NA,"2141-2529","2141-2529",NA,FALSE,NA,NA,NA,NA,FALSE
 "CIRAD",2020,502.77,"10.4102/ojvr.v87i1.1731",FALSE,"AOSIS","Onderstepoort Journal of Veterinary Research","2219-0635","0030-2465","2219-0635","0030-2465","https://creativecommons.org/licenses/by-nd/4.0",TRUE,"32370521","PMC7203192","ut:000526891600001",NA,TRUE
 "CIRAD",2020,1746.5,"10.1186/s12284-020-0366-y",FALSE,"Springer Nature","Rice","1939-8425","1939-8425","1939-8433","1939-8425","https://creativecommons.org/licenses/by/4.0",TRUE,"31993780","PMC6987269","ut:000520145400001",NA,TRUE
 "CIRAD",2020,1800,"10.1186/s12870-020-2238-4",FALSE,"Springer Nature","BMC Plant Biology","1471-2229",NA,"1471-2229","1471-2229","http://creativecommons.org/licenses/by/4.0/",TRUE,"31941456","PMC6961272","ut:000513707200001",NA,TRUE
@@ -8,11 +8,10 @@
 "CIRAD",2020,1746.5,"10.1186/s13071-020-04335-4",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305","1756-3305","https://creativecommons.org/licenses/by/4.0",TRUE,"32912306","PMC7488159","ut:000571777800003",NA,TRUE
 "CIRAD",2020,905,"10.1186/s40309-020-00167-8",FALSE,"Springer Nature","European Journal of Futures Research","2195-4194","2195-4194","2195-2248","2195-2248","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000583054500001",NA,TRUE
 "CIRAD",2020,1746.5,"10.1186/s40462-020-00232-8",FALSE,"Springer Nature","Movement Ecology","2051-3933",NA,"2051-3933","2051-3933","http://creativecommons.org/licenses/by/4.0/",TRUE,"33292573","PMC7652672","ut:000592067100002",NA,TRUE
-"CIRAD",2020,1746.5,"10.3390/v12030300",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915","1999-4915","https://creativecommons.org/licenses/by/4.0/",TRUE,"32168820","PMC7150827","ut:000525486800036",NA,TRUE
 "CIRAD",2020,1746.5,"10.1186/s13071-020-04522-3",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305","1756-3305","http://creativecommons.org/licenses/by/4.0/",TRUE,"33536057","PMC7860033","ut:000616753900001",NA,TRUE
 "CIRAD",2020,1927.93,"10.1128/mra.00185-20",FALSE,"American Society for Microbiology","Microbiology Resource Announcements","2576-098X",NA,"2576-098X","2576-098X","https://creativecommons.org/licenses/by/4.0/",TRUE,"32327506","PMC7180279",NA,NA,FALSE
 "CIRAD",2020,3359.51,"10.1021/acs.est.0c02721",TRUE,"American Chemical Society (ACS)","Environmental Science & Technology","0013-936X","0013-936X","1520-5851","0013-936X","http://pubs.acs.org/page/policy/authorchoice_ccbyncnd_termsofuse.html",TRUE,"32852945",NA,"ut:000580444600041",NA,FALSE
-NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+"CIRAD",2020,1929.6,"10.1534/g3.119.400873",FALSE,"Genetics Society of America","G3: Genes|Genomes|Genetics","2160-1836",NA,"2160-1836","2160-1836","https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model",TRUE,"31862786","PMC7003078","ut:000511961200016",NA,TRUE
 "CIRAD",2020,425.44,"10.1094/pdis-04-20-0697-pdn",TRUE,"Scientific Societies","Plant Disease","0191-2917","0191-2917","1943-7692","0191-2917",NA,TRUE,NA,NA,NA,NA,FALSE
 "CIRAD",2020,3880,"10.1016/j.aqrep.2020.100349",FALSE,"Elsevier BV","Aquaculture Reports","2352-5134","2352-5134",NA,"2352-5134","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000544614500012",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
@@ -86,5 +85,6 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "CIRAD",2020,1871.58,"10.1111/ijfs.14707",TRUE,"Wiley-Blackwell","International Journal of Food Science & Technology","0950-5423","0950-5423","1365-2621","0950-5423","http://creativecommons.org/licenses/by/4.0/",TRUE,"33776245","PMC7983907","ut:000563848400001",NA,FALSE
 "CIRAD",2020,1871.58,"10.1111/ijfs.14769",TRUE,"Wiley-Blackwell","International Journal of Food Science & Technology","0950-5423","0950-5423","1365-2621","0950-5423","http://creativecommons.org/licenses/by/4.0/",TRUE,"33776230","PMC7984030","ut:000563753000001",NA,FALSE
 "CIRAD",2020,1871.58,"10.1111/ijfs.14765",TRUE,"Wiley-Blackwell","International Journal of Food Science & Technology","0950-5423","0950-5423","1365-2621","0950-5423","http://creativecommons.org/licenses/by/4.0/",TRUE,"33776227","PMC7984083","ut:000563750400001",NA,FALSE
-NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+"CIRAD",2020,397.5,"10.1016/j.dib.2020.105890",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32613047","PMC7322121","ut:000569214200018",NA,TRUE
 "CIRAD",2020,783.55,"10.1094/mpmi-02-20-0026-a",TRUE,"Scientific Societies","Molecular Plant-Microbe Interactions","0894-0282","0894-0282","1943-7706","0894-0282",NA,TRUE,"32240065",NA,NA,NA,FALSE
+"CIRAD",2020,1990,"10.1186/s13071-020-04253-5",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305","1756-3305","https://creativecommons.org/licenses/by/4.0",TRUE,"32758286","PMC7404916","ut:000561056400001",NA,TRUE

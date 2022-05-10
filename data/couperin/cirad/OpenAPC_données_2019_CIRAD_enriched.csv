@@ -1,5 +1,4 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"CIRAD",2019,2058.51,"10.1111/1365-2664.13323",TRUE,"Wiley-Blackwell","Journal of Applied Ecology","0021-8901","0021-8901","1365-2664","0021-8901","http://onlinelibrary.wiley.com/termsAndConditions#vor",TRUE,NA,NA,"ut:000467989500017",NA,FALSE
 "CIRAD",2019,430,"10.1016/j.dib.2018.12.063",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"30671512","PMC6327737","ut:000458114600091",NA,TRUE
 "CIRAD",2019,1586.93,"10.3390/rs11091024",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000469763600032",NA,TRUE
 "CIRAD",2019,1831,"10.1111/eva.12788",FALSE,"Wiley-Blackwell","Evolutionary Applications","1752-4571","1752-4571","1752-4571","1752-4571","http://creativecommons.org/licenses/by/4.0/",TRUE,"31462912","PMC6708428","ut:000484471100003",NA,TRUE
@@ -49,5 +48,4 @@
 "CIRAD",2019,430,"10.1016/j.dib.2019.103876",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"30993156","PMC6449772","ut:000483993000058",NA,TRUE
 "CIRAD",2019,430,"10.1016/j.dib.2018.12.080",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"30766900","PMC6362868","ut:000458114600108",NA,TRUE
 "CIRAD",2019,1790,"10.1186/s12898-019-0261-9",FALSE,"Springer Nature","BMC Ecology","1472-6785",NA,"1472-6785","1472-6785","http://creativecommons.org/licenses/by/4.0/",TRUE,"31676006","PMC6825335","ut:000494427400001",NA,TRUE
-"CIRAD",2019,1845.9,"10.1186/s13071-019-3642-1",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305","1756-3305","http://creativecommons.org/licenses/by/4.0/",TRUE,"31387649","PMC6683357","ut:000479212300001",NA,TRUE
-"CIRAD",2019,1845.9,"10.1186/s13071-019-3343-9",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305","1756-3305","http://creativecommons.org/licenses/by/4.0/",TRUE,"30867033","PMC6417241","ut:000461285800002",NA,TRUE
+"CIRAD",2019,2058.51,"10.1371/journal.pcbi.1006847",FALSE,"Public Library of Science (PLoS)","PLOS Computational Biology","1553-7358",NA,"1553-7358","1553-734X","http://creativecommons.org/licenses/by/4.0/",TRUE,"30908487","PMC6448907","ut:000463877900042",NA,TRUE
