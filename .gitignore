@@ -18,4 +18,3 @@ python/report.*
 python/tempfiles/
 # Exclude python byte code
 *.pyc
-openapc-de.Rproj
