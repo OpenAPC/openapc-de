@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 50,972 articles, published at 317 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 50,983 articles, published at 318 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 50,972 articles, published at 317 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2432|
-|DEAL Springer Nature Germany                 |     1849|
+|DEAL Wiley Germany                           |     2434|
+|DEAL Springer Nature Germany                 |     1858|
 |Swiss Consortium Elsevier agreement          |     1821|
 |FinELib Elsevier agreement                   |     1616|
 |FinELib Springer Compact agreement           |      895|
@@ -292,6 +292,7 @@ This dataset contains information on 50,972 articles, published at 317 instituti
 |Bern University of Applied Sciences                                                                                                                |       12|
 |University of Applied Sciences and Arts of Southern Switzerland                                                                                    |       12|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
+|HAW Hamburg                                                                                                                                        |       11|
 |MDC                                                                                                                                                |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
