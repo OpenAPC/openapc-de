@@ -417,7 +417,8 @@ JOURNAL_MAPPINGS = {
     "Molecular &amp; Cellular Proteomics": "Molecular & Cellular Proteomics",
     "Cancer Causes &amp; Control": "Cancer Causes & Control",
     "European Child &amp; Adolescent Psychiatry": "European Child & Adolescent Psychiatry",
-    "Food &amp; Function": "Food & Function"
+    "Food &amp; Function": "Food & Function",
+    "Sound&amp;Vibration": "Sound & Vibration"
 }
 
 COLUMN_NAMES = {
