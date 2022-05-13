@@ -418,7 +418,17 @@ JOURNAL_MAPPINGS = {
     "Cancer Causes &amp; Control": "Cancer Causes & Control",
     "European Child &amp; Adolescent Psychiatry": "European Child & Adolescent Psychiatry",
     "Food &amp; Function": "Food & Function",
-    "Sound&amp;Vibration": "Sound & Vibration"
+    "Sound&amp;Vibration": "Sound & Vibration",
+    "Cell Death &amp; Disease": "Cell Death and Disease",
+    "Cognitive, Affective, &amp; Behavioral Neuroscience": "Cognitive, Affective, & Behavioral Neuroscience",
+    "Business &amp; Information Systems Engineering": "Business & Information Systems Engineering",
+    "Psychonomic Bulletin &amp; Review": "Psychonomic Bulletin & Review",
+    "Biology &amp; Philosophy": "Biology & Philosophy",
+    "Memory &amp; Cognition": "Memory & Cognition",
+    "Cell Death &amp; Differentiation": "Cell Death & Differentiation",
+    "Philosophy &amp; Technology": "Philosophy & Technology",
+    "Clinical &amp; Experimental Metastasis": "Clinical & Experimental Metastasis",
+    "Journal of Economics &amp; Management Strategy": "Journal of Economics & Management Strategy"
 }
 
 COLUMN_NAMES = {
