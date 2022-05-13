@@ -427,7 +427,8 @@ JOURNAL_MAPPINGS = {
     "Memory &amp; Cognition": "Memory & Cognition",
     "Cell Death &amp; Differentiation": "Cell Death & Differentiation",
     "Philosophy &amp; Technology": "Philosophy & Technology",
-    "Clinical &amp; Experimental Metastasis": "Clinical & Experimental Metastasis"
+    "Clinical &amp; Experimental Metastasis": "Clinical & Experimental Metastasis",
+    "Journal of Economics &amp; Management Strategy": "Journal of Economics & Management Strategy"
 }
 
 COLUMN_NAMES = {
