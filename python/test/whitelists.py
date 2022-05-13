@@ -287,6 +287,8 @@ JOURNAL_OWNER_CHANGED = {
     "2379-1381": ["Grapho, LLC", "MDPI AG"], # Tomography
     "2379-139X": ["Grapho, LLC", "MDPI AG"], # Tomography (electronic)
     "2397-1835": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Glossa: a journal of general linguistics
+    "1367-5435": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology
+    "1476-5535": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology (electronic)
     
 }
 
@@ -427,6 +429,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2210-4968", # Semantic Web, Gold OA since 2020
     "2192-4406", # EURO Journal on Computational Optimization, Gold OA since 2021
     "0341-2687", # Schmalenbach Journal of Business Research, Gold OA since 2021
+    "1438-4221", # International Journal of Medical Microbiology, Gold OA since 2020
+    "1367-5435" # Journal of Industrial Microbiology and Biotechnology, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
