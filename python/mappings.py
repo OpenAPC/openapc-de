@@ -418,7 +418,8 @@ JOURNAL_MAPPINGS = {
     "Cancer Causes &amp; Control": "Cancer Causes & Control",
     "European Child &amp; Adolescent Psychiatry": "European Child & Adolescent Psychiatry",
     "Food &amp; Function": "Food & Function",
-    "Sound&amp;Vibration": "Sound & Vibration"
+    "Sound&amp;Vibration": "Sound & Vibration",
+    "Cell Death &amp; Disease": "Cell Death and Disease"
 }
 
 COLUMN_NAMES = {
