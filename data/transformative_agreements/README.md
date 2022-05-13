@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 50,983 articles, published at 318 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 51,198 articles, published at 319 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 50,983 articles, published at 318 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2434|
-|DEAL Springer Nature Germany                 |     1858|
+|DEAL Wiley Germany                           |     2517|
+|DEAL Springer Nature Germany                 |     1990|
 |Swiss Consortium Elsevier agreement          |     1821|
 |FinELib Elsevier agreement                   |     1616|
 |FinELib Springer Compact agreement           |      895|
@@ -139,6 +139,7 @@ This dataset contains information on 50,983 articles, published at 318 instituti
 |Lulea University of Technology                                                                                                                     |      225|
 |Medical University of Graz                                                                                                                         |      222|
 |Queen's University of Belfast                                                                                                                      |      217|
+|HHU Düsseldorf                                                                                                                                     |      215|
 |Tilburg University                                                                                                                                 |      208|
 |University of Lausanne                                                                                                                             |      208|
 |Bielefeld U                                                                                                                                        |      207|
