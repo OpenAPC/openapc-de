@@ -429,7 +429,8 @@ JOURNAL_MAPPINGS = {
     "Philosophy &amp; Technology": "Philosophy & Technology",
     "Clinical &amp; Experimental Metastasis": "Clinical & Experimental Metastasis",
     "Journal of Economics &amp; Management Strategy": "Journal of Economics & Management Strategy",
-    "Tijdschrift voor Economische en Sociale Geografie": "Tijdschrift voor economische en sociale geografie"
+    "Tijdschrift voor Economische en Sociale Geografie": "Tijdschrift voor economische en sociale geografie",
+    "Communicative &amp; Integrative Biology": "Communicative & Integrative Biology"
 }
 
 COLUMN_NAMES = {

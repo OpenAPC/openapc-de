@@ -10,7 +10,7 @@ PUBLISHER_IDENTITY = [
     (["SAGE Publications"], ["Pion Ltd"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
     (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
-    (["Mineralogical Society of America"], ["GeoScienceWorld"]),
+    (["Mineralogical Society of America", "Geological Society of America"], ["GeoScienceWorld"]),
     (["International Scientific Literature"], ["International Scientific Information, Inc."]),
     (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"]),
     (["Georg Thieme Verlag KG"], ["Schattauer GmbH"]), # Schattauer bought up by Thieme (1/1/2017)
@@ -430,7 +430,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2192-4406", # EURO Journal on Computational Optimization, Gold OA since 2021
     "0341-2687", # Schmalenbach Journal of Business Research, Gold OA since 2021
     "1438-4221", # International Journal of Medical Microbiology, Gold OA since 2020
-    "1367-5435" # Journal of Industrial Microbiology and Biotechnology, Gold OA since 2020
+    "1367-5435", # Journal of Industrial Microbiology and Biotechnology, Gold OA since 2020
+    "1525-2027" # Geochemistry, Geophysics, Geosystems, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
