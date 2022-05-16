@@ -430,7 +430,12 @@ JOURNAL_MAPPINGS = {
     "Clinical &amp; Experimental Metastasis": "Clinical & Experimental Metastasis",
     "Journal of Economics &amp; Management Strategy": "Journal of Economics & Management Strategy",
     "Tijdschrift voor Economische en Sociale Geografie": "Tijdschrift voor economische en sociale geografie",
-    "Communicative &amp; Integrative Biology": "Communicative & Integrative Biology"
+    "Communicative &amp; Integrative Biology": "Communicative & Integrative Biology",
+    "Journal of Neurology, Neurosurgery &amp; Psychiatry": "Journal of Neurology, Neurosurgery & Psychiatry",
+    "Cancer Epidemiology, Biomarkers &amp; Prevention": "Cancer Epidemiology Biomarkers & Prevention",
+    "Evidence &amp; Policy: A Journal of Research, Debate and Practice": "Evidence & Policy: A Journal of Research, Debate and Practice",
+    "Current Opinion in Allergy &amp; Clinical Immunology": "Current Opinion in Allergy and Clinical Immunology",
+    "Alzheimer's Research &amp; Therapy": "Alzheimer's Research & Therapy"
 }
 
 COLUMN_NAMES = {
