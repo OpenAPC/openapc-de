@@ -21,7 +21,8 @@ PUBLISHER_IDENTITY = [
     (["Brandeis University Press"], ["Dartmouth College Press"]), # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
     (["Böhlau"], ["Vandenhoeck & Ruprecht"]), # Böhlau acquired by V&R in 2017 
     (["Nomos Verlagsgesellschaft mbH & Co. KG"], ["Velbrück Wissenschaft"]), # Velbrück uses the Nomos eLibrary to publish its OA books
-    (["Birkhäuser"], ["De Gruyter"]) # Birkhäuser is an imprint of De Gruyter
+    (["Birkhäuser"], ["De Gruyter"]), # Birkhäuser is an imprint of De Gruyter
+    (["OMICS Publishing Group"], ["Hilaris"])
 ]
 
 
