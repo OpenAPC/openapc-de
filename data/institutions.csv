@@ -105,7 +105,7 @@ University of Warwick,warwick_u,University of Warwick,EUROPE,GBR,ENG,NA,grid.737
 University of York,york_u,University of York,EUROPE,GBR,ENG,NA,grid.5685.e,https://ror.org/04m01e293
 Chalmers University of Technology,chalmers_u,Chalmers University of Technology,EUROPE,SWE,SE-O,NA,grid.5371.0,https://ror.org/040wg7k59
 Dalarna University,dalarna_u,Dalarna University,EUROPE,SWE,SE-W,natlibswe/univ_dalarna,grid.411953.b,https://ror.org/000hdh770
-Karolinska Institutet,karolinska,Karolinska Institutet,EUROPE,SWE,SE-AB,NA,grid.4714.6,https://ror.org/056d84691
+Karolinska Institutet,karolinska,Karolinska Institutet,EUROPE,SWE,SE-AB,natlibswe/karolinska_institute,grid.4714.6,https://ror.org/056d84691
 KTH Royal Institute of Technology,kth,KTH Royal Institute of Technology,EUROPE,SWE,SE-AB,natlibswe/royal_inst_technology,grid.5037.1,https://ror.org/026vcq606
 Linköping University,linkoping_u,Linköping University,EUROPE,SWE,SE-E,NA,grid.5640.7,https://ror.org/05ynxx418
 Luleå University of Technology,lulea_tu,Luleå University of Technology,EUROPE,SWE,SE-BD,NA,grid.6926.b,https://ror.org/016st3p78
@@ -247,7 +247,7 @@ University of Jyväskylä,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08
 Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea,grid.5583.b,https://ror.org/00jjx8s55
 Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg,grid.7039.d,https://ror.org/05gs8cd61
 Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,NA,grid.416784.8,https://ror.org/046hach49
-University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,NA,grid.412798.1,https://ror.org/051mrsz47
+University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,natlibswe/univ_skovde,grid.412798.1,https://ror.org/051mrsz47
 Karlstad University,karlstad_u,Karlstad University,EUROPE,SWE,SE-S,NA,grid.20258.3d,https://ror.org/05s754026
 Mannheim U,mannheim_u,University of Mannheim,EUROPE,DEU,BW,unimannheim,grid.5601.2,https://ror.org/031bsb921
 University of Turku,turku_u,University of Turku,EUROPE,FIN,FI-19,uniturku,grid.1374.1,https://ror.org/05vghhr25
