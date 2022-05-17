@@ -290,6 +290,7 @@ JOURNAL_OWNER_CHANGED = {
     "2397-1835": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Glossa: a journal of general linguistics
     "1367-5435": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology
     "1476-5535": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology (electronic)
+    "2192-1962": ["Springer Nature", "KIPS-CSWRG"], # Human-Centric Computing and Information Sciences
     
 }
 

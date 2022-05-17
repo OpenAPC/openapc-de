@@ -435,7 +435,8 @@ JOURNAL_MAPPINGS = {
     "Cancer Epidemiology, Biomarkers &amp; Prevention": "Cancer Epidemiology Biomarkers & Prevention",
     "Evidence &amp; Policy: A Journal of Research, Debate and Practice": "Evidence & Policy: A Journal of Research, Debate and Practice",
     "Current Opinion in Allergy &amp; Clinical Immunology": "Current Opinion in Allergy and Clinical Immunology",
-    "Alzheimer's Research &amp; Therapy": "Alzheimer's Research & Therapy"
+    "Alzheimer's Research &amp; Therapy": "Alzheimer's Research & Therapy",
+    "Computers &amp; Mathematics with Applications": "Computers & Mathematics with Applications"
 }
 
 COLUMN_NAMES = {
