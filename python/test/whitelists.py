@@ -10,7 +10,7 @@ PUBLISHER_IDENTITY = [
     (["SAGE Publications"], ["Pion Ltd"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
     (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
-    (["Mineralogical Society of America"], ["GeoScienceWorld"]),
+    (["Mineralogical Society of America", "Geological Society of America"], ["GeoScienceWorld"]),
     (["International Scientific Literature"], ["International Scientific Information, Inc."]),
     (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"]),
     (["Georg Thieme Verlag KG"], ["Schattauer GmbH"]), # Schattauer bought up by Thieme (1/1/2017)
@@ -21,7 +21,8 @@ PUBLISHER_IDENTITY = [
     (["Brandeis University Press"], ["Dartmouth College Press"]), # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
     (["Böhlau"], ["Vandenhoeck & Ruprecht"]), # Böhlau acquired by V&R in 2017 
     (["Nomos Verlagsgesellschaft mbH & Co. KG"], ["Velbrück Wissenschaft"]), # Velbrück uses the Nomos eLibrary to publish its OA books
-    (["Birkhäuser"], ["De Gruyter"]) # Birkhäuser is an imprint of De Gruyter
+    (["Birkhäuser"], ["De Gruyter"]), # Birkhäuser is an imprint of De Gruyter
+    (["OMICS Publishing Group"], ["Hilaris"])
 ]
 
 
@@ -287,6 +288,10 @@ JOURNAL_OWNER_CHANGED = {
     "2379-1381": ["Grapho, LLC", "MDPI AG"], # Tomography
     "2379-139X": ["Grapho, LLC", "MDPI AG"], # Tomography (electronic)
     "2397-1835": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Glossa: a journal of general linguistics
+    "1367-5435": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology
+    "1476-5535": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology (electronic)
+    "2192-1962": ["Springer Nature", "KIPS-CSWRG"], # Human-Centric Computing and Information Sciences
+    "2523-3548": ["Springer Nature", "Wiley-Blackwell"], # Cancer Communications
     
 }
 
@@ -425,6 +430,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1350-4177", # Ultrasonics Sonochemistry, Gold OA since 2021
     "0957-4530", # Journal of Materials Science: Materials in Medicine, Gold OA since 2021
     "2210-4968", # Semantic Web, Gold OA since 2020
+    "2192-4406", # EURO Journal on Computational Optimization, Gold OA since 2021
+    "0341-2687", # Schmalenbach Journal of Business Research, Gold OA since 2021
+    "1438-4221", # International Journal of Medical Microbiology, Gold OA since 2020
+    "1367-5435", # Journal of Industrial Microbiology and Biotechnology, Gold OA since 2020
+    "1525-2027" # Geochemistry, Geophysics, Geosystems, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

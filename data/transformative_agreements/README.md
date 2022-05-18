@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 50,807 articles, published at 316 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 51,313 articles, published at 319 institutions under 34 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 50,807 articles, published at 316 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2432|
+|DEAL Wiley Germany                           |     2632|
+|DEAL Springer Nature Germany                 |     1990|
 |Swiss Consortium Elsevier agreement          |     1821|
-|DEAL Springer Nature Germany                 |     1709|
 |FinELib Elsevier agreement                   |     1616|
 |FinELib Springer Compact agreement           |      895|
 |FinELib Wiley agreement                      |      790|
@@ -46,8 +46,8 @@ This dataset contains information on 50,807 articles, published at 316 instituti
 |FinELib Emerald agreement                    |      118|
 |University of Milan - Wiley                  |       98|
 |FWF Offsetting Agreement IOP                 |       82|
+|TIB RSC Journals R&P - TU Berlin             |       81|
 |FinELib RSC agreement                        |       60|
-|TIB RSC Journals R&P - TU Berlin             |       56|
 |MPG Taylor & Francis agreement               |       46|
 |Austrian Consortium IOP agreement            |       45|
 |MPG IOP agreement                            |       32|
@@ -115,12 +115,12 @@ This dataset contains information on 50,807 articles, published at 316 instituti
 |VU University Medical Center (VUmc)                                                                                                                |      363|
 |University of Vienna                                                                                                                               |      356|
 |University of Birmingham                                                                                                                           |      355|
+|TU Berlin                                                                                                                                          |      340|
 |Cardiff University                                                                                                                                 |      339|
 |University of Jyväskylä                                                                                                                            |      336|
 |University of Warwick                                                                                                                              |      332|
 |University of Milan                                                                                                                                |      317|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
-|TU Berlin                                                                                                                                          |      315|
 |Radboud University                                                                                                                                 |      309|
 |University of Twente                                                                                                                               |      297|
 |University of Liverpool                                                                                                                            |      289|
@@ -132,6 +132,7 @@ This dataset contains information on 50,807 articles, published at 316 instituti
 |University of Geneva                                                                                                                               |      275|
 |University Medical Center Groningen (UMCG)                                                                                                         |      270|
 |University of Exeter                                                                                                                               |      262|
+|JGU Mainz                                                                                                                                          |      255|
 |Giessen U                                                                                                                                          |      245|
 |TU Darmstadt                                                                                                                                       |      234|
 |TU Wien (TUW)                                                                                                                                      |      231|
@@ -139,6 +140,7 @@ This dataset contains information on 50,807 articles, published at 316 instituti
 |Lulea University of Technology                                                                                                                     |      225|
 |Medical University of Graz                                                                                                                         |      222|
 |Queen's University of Belfast                                                                                                                      |      217|
+|HHU Düsseldorf                                                                                                                                     |      215|
 |Tilburg University                                                                                                                                 |      208|
 |University of Lausanne                                                                                                                             |      208|
 |Bielefeld U                                                                                                                                        |      207|
@@ -291,6 +293,7 @@ This dataset contains information on 50,807 articles, published at 316 instituti
 |Bern University of Applied Sciences                                                                                                                |       12|
 |University of Applied Sciences and Arts of Southern Switzerland                                                                                    |       12|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
+|HAW Hamburg                                                                                                                                        |       11|
 |MDC                                                                                                                                                |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
