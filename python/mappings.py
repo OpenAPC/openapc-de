@@ -438,7 +438,29 @@ JOURNAL_MAPPINGS = {
     "Alzheimer's Research &amp; Therapy": "Alzheimer's Research & Therapy",
     "Computers &amp; Mathematics with Applications": "Computers & Mathematics with Applications",
     "Communications Earth &amp; Environment": "Communications Earth & Environment",
-    "Energy Science &amp; Engineering": "Energy Science & Engineering"
+    "Energy Science &amp; Engineering": "Energy Science & Engineering",
+    "Food Additives &amp; Contaminants: Part A": "Food Additives & Contaminants: Part A",
+    "Higher Education Research &amp; Development": "Higher Education Research & Development",
+    "Regional &amp; Federal Studies": "Regional & Federal Studies",
+    "Journal of Travel &amp; Tourism Marketing": "Journal of Travel & Tourism Marketing",
+    "Consumption Markets &amp; Culture": "Consumption Markets & Culture",
+    "Research in Science &amp; Technological Education": "Research in Science & Technological Education",
+    "Disability &amp; Society": "Disability & Society",
+    "Emerging Microbes &amp; Infections": "Emerging Microbes & Infections",
+    "Anxiety, Stress, &amp; Coping": "Anxiety, Stress, & Coping",
+    "Assessment in Education: Principles, Policy &amp; Practice": "Assessment in Education: Principles, Policy & Practice",
+    "British Journal of Guidance &amp; Counselling": "British Journal of Guidance & Counselling",
+    "Journal of Vocational Education &amp; Training": "Journal of Vocational Education & Training",
+    "Anthropology &amp; Medicine": "Anthropology & Medicine",
+    "Journal of Immigrant &amp; Refugee Studies": "Journal of Immigrant & Refugee Studies",
+    "Work &amp; Stress": "Work & Stress",
+    "Psychology &amp; Health": "Psychology & Health",
+    "Defense &amp; Security Analysis": "Defense & Security Analysis",
+    "Biological Agriculture &amp; Horticulture": "Biological Agriculture & Horticulture",
+    "Gender &amp; Development": "Gender & Development",
+    "Conflict, Security &amp; Development": "Conflict, Security & Development",
+    "Journal of Trauma &amp; Dissociation": "Journal of Trauma & Dissociation",
+    "Victims &amp; Offenders": "Victims & Offenders"
 }
 
 COLUMN_NAMES = {
