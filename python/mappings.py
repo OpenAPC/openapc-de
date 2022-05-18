@@ -436,7 +436,9 @@ JOURNAL_MAPPINGS = {
     "Evidence &amp; Policy: A Journal of Research, Debate and Practice": "Evidence & Policy: A Journal of Research, Debate and Practice",
     "Current Opinion in Allergy &amp; Clinical Immunology": "Current Opinion in Allergy and Clinical Immunology",
     "Alzheimer's Research &amp; Therapy": "Alzheimer's Research & Therapy",
-    "Computers &amp; Mathematics with Applications": "Computers & Mathematics with Applications"
+    "Computers &amp; Mathematics with Applications": "Computers & Mathematics with Applications",
+    "Communications Earth &amp; Environment": "Communications Earth & Environment",
+    "Energy Science &amp; Engineering": "Energy Science & Engineering"
 }
 
 COLUMN_NAMES = {
