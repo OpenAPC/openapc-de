@@ -291,6 +291,7 @@ JOURNAL_OWNER_CHANGED = {
     "1367-5435": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology
     "1476-5535": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology (electronic)
     "2192-1962": ["Springer Nature", "KIPS-CSWRG"], # Human-Centric Computing and Information Sciences
+    "2523-3548": ["Springer Nature", "Wiley-Blackwell"], # Cancer Communications
     
 }
 
