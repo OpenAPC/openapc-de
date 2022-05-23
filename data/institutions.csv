@@ -116,7 +116,7 @@ Stockholm School of Economics,stockholm_se,Stockholm School of Economics,EUROPE,
 Stockholm University,stockholm_u,Stockholm University,EUROPE,SWE,SE-AB,NA,grid.10548.38,https://ror.org/05f0yaq80
 Swedish University of Agricultural Sciences,swedish_agricultural_u,Swedish University of Agricultural Sciences,EUROPE,SWE,SE-C,NA,grid.6341.0,https://ror.org/02yy8x990
 Umeå University,umea_u,Umeå University,EUROPE,SWE,SE-AC,NA,grid.12650.30,https://ror.org/05kb8h459
-University of Gothenburg,gothenburg_u,University of Gothenburg,EUROPE,SWE,SE-O,NA,grid.8761.8,https://ror.org/01tm6cn81
+University of Gothenburg,gothenburg_u,University of Gothenburg,EUROPE,SWE,SE-O,natlibswe/univ_goteborg,grid.8761.8,https://ror.org/01tm6cn81
 Uppsala University,uppsala_u,Uppsala University,EUROPE,SWE,SE-C,NA,grid.8993.b,https://ror.org/048a87296
 Akershus University Hospital,akershus_uh,Akershus University Hospital,EUROPE,NOR,NO.AK,NA,grid.411279.8,https://ror.org/0331wat71
 BI Norwegian Business School,nor_business_school,BI Norwegian Business School,EUROPE,NOR,NO.OS,NA,grid.413074.5,https://ror.org/03ez40v33
@@ -178,7 +178,7 @@ Institut national polytechnique de Toulouse,inpt,Institut national polytechnique
 Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,couperin/nice,grid.10737.32,NA
 Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers,grid.11166.31,https://ror.org/04xhy8q59
 University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,NA,grid.412442.5,https://ror.org/01fdxwh83
-University West,west_u,University West,EUROPE,SWE,SE-O,NA,grid.412716.7,https://ror.org/0257kt353
+University West,west_u,University West,EUROPE,SWE,SE-O,natlibswe/univ_vast,grid.412716.7,https://ror.org/0257kt353
 Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,NA,grid.8148.5,https://ror.org/00j9qag85
 Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T,NA,grid.15895.30,https://ror.org/05kytsw45
 Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES,couperin/lorraine,grid.29172.3f,https://ror.org/04vfs2w97
@@ -360,3 +360,4 @@ Friedrich-Schiller-Universität Jena,fsu_jena,Friedrich-Schiller-Universität Je
 University of Helsinki,helsinki_u,University of Helsinki,EUROPE,FIN,FI-18,unihelsinki,grid.7737.4,https://ror.org/040af2s02
 HAW Hamburg,haw_hamburg,Hamburg University of Applied Sciences,EUROPE,DEU,HH,haw_hamburg,grid.11500.35,https://ror.org/00fkqwx76
 HHU Düsseldorf,hhu_duesseldorf,Heinrich-Heine-Universität Düsseldorf,EUROPE,DEU,NW,hhu_duesseldorf,grid.411327.2,https://ror.org/024z2rq82
+BTH Blekinge Institute of Technology,bth,BTH Blekinge Institute of Technology,EUROPE,SWE,SE-K,natlibswe/blekinge_inst_technology,grid.418400.9,https://ror.org/0093a8w51
