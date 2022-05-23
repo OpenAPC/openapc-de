@@ -460,7 +460,9 @@ JOURNAL_MAPPINGS = {
     "Gender &amp; Development": "Gender & Development",
     "Conflict, Security &amp; Development": "Conflict, Security & Development",
     "Journal of Trauma &amp; Dissociation": "Journal of Trauma & Dissociation",
-    "Victims &amp; Offenders": "Victims & Offenders"
+    "Victims &amp; Offenders": "Victims & Offenders",
+    "Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring": "Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring",
+    "Current Opinion in Colloid &amp; Interface Science": "Current Opinion in Colloid & Interface Science"
 }
 
 COLUMN_NAMES = {
