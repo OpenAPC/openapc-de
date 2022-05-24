@@ -247,6 +247,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 
 ## Institutions from Sweden (via [Open APC Sweden](https://github.com/Kungbib/openapc-se)):
 
+- BTH Blekinge Institute of Technology
 - Chalmers University of Technology
 - Dalarna University
 - Halmstad University
