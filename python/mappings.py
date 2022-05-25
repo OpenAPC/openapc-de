@@ -462,7 +462,10 @@ JOURNAL_MAPPINGS = {
     "Journal of Trauma &amp; Dissociation": "Journal of Trauma & Dissociation",
     "Victims &amp; Offenders": "Victims & Offenders",
     "Alzheimer's &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring": "Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring",
-    "Current Opinion in Colloid &amp; Interface Science": "Current Opinion in Colloid & Interface Science"
+    "Current Opinion in Colloid &amp; Interface Science": "Current Opinion in Colloid & Interface Science",
+    "Theory, Culture &amp; Society": "Theory, Culture & Society",
+    "Physics in Medicine &amp; Biology": "Physics in Medicine and Biology",
+    "Epigenetics &amp; Chromatin": "Epigenetics & Chromatin"
 }
 
 COLUMN_NAMES = {
