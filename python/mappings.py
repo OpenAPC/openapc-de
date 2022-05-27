@@ -465,7 +465,12 @@ JOURNAL_MAPPINGS = {
     "Current Opinion in Colloid &amp; Interface Science": "Current Opinion in Colloid & Interface Science",
     "Theory, Culture &amp; Society": "Theory, Culture & Society",
     "Physics in Medicine &amp; Biology": "Physics in Medicine and Biology",
-    "Epigenetics &amp; Chromatin": "Epigenetics & Chromatin"
+    "Epigenetics &amp; Chromatin": "Epigenetics & Chromatin",
+    "Reaction Chemistry &amp; Engineering": "Reaction Chemistry & Engineering",
+    "Sustainable Energy &amp; Fuels": "Sustainable Energy & Fuels",
+    "Environmental Science: Processes &amp; Impacts": "Environmental Science: Processes & Impacts",
+    "Environmental Science: Water Research &amp; Technology": "Environmental Science: Water Research & Technology",
+    "Molecular Systems Design &amp; Engineering": "Molecular Systems Design & Engineering"
 }
 
 COLUMN_NAMES = {
