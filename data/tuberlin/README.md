@@ -1,4 +1,4 @@
-## About
+## APC data
 
 APC costs payed by TU Berlin Publication Fund for articles in open access journals. Since 2017 TU Berlin Publication Fund is supported by Deutsche Forschungsgemeinschaft (DFG). 
 
@@ -27,7 +27,13 @@ For 2019 52 articles were published open access as part of this agreement (47 "r
 
 For 2020 104 articles were published open access as part of this agreement (97 "regular" articles + 7 articles in German Ed. of Angewandte Chemie); 3 opt-out articles are reported. Hence, data for 107 articles are included; the "equivalent APC" amounts to 2.402,03 EUR.
 
-### Contact
+
+## BPC data
+
+In March 2018, the central publication funds was introduced to fund Book Processing Charges for OA books (monographs or anthologies), when members of TU Berlin are corresponding author(s) or editor(s). Partial funding and combination with other funding streams is possible. There's a maximum funding sum; applicants need to cover exceeding costs themselves. The full OA costs are reported to OpenBPC.
+
+
+## Contact
 
 Website: https://www.tu.berlin/go5066/
 Contact: openaccess@ub.tu-berlin.de
