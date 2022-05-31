@@ -1,6 +1,2 @@
-BPC (Book Processing Charges, Books/Monographs (no single chapters));;;;;;;;;;;;
-;;;;;;;;;;;;
-;;;;;;;;;;;;
-institution;period               ;euro;doi;backlist_oa;publisher;book_title;isbn;isbn_print;isbn_electronic;licence_ref;indexed_in_crossref;doab
-;;;;;;;;;;;;
-Catholic University of Eichstätt-Ingolstadt;2020;1803.80;10.23780/9783960915669;FALSE ;AVM;POPULISMUS – Kontroversen und Perspektiven;;;;;;
+institution;period;euro;doi;backlist_oa;publisher;book_title;isbn;isbn_print;isbn_electronic;licence_ref;indexed_in_crossref;doab
+Catholic University of Eichstätt-Ingolstadt;2020;1803.80;10.23780/9783960915669;FALSE;AVM;POPULISMUS – Kontroversen und Perspektiven;;;;;;
