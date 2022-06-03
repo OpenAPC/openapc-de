@@ -470,7 +470,10 @@ JOURNAL_MAPPINGS = {
     "Sustainable Energy &amp; Fuels": "Sustainable Energy & Fuels",
     "Environmental Science: Processes &amp; Impacts": "Environmental Science: Processes & Impacts",
     "Environmental Science: Water Research &amp; Technology": "Environmental Science: Water Research & Technology",
-    "Molecular Systems Design &amp; Engineering": "Molecular Systems Design & Engineering"
+    "Molecular Systems Design &amp; Engineering": "Molecular Systems Design & Engineering",
+    "Acta Agriculturae Scandinavica, Section B — Soil &amp; Plant Science": "Acta Agriculturae Scandinavica, Section B — Soil & Plant Science",
+    "BMJ Open Diabetes Research &amp; Care": "BMJ Open Diabetes Research & Care",
+    "GM Crops &amp; Food": "GM Crops & Food"
 }
 
 COLUMN_NAMES = {

@@ -114,7 +114,7 @@ Malmö University,malmo_u,Malmö University,EUROPE,SWE,SE-M,NA,grid.32995.34,htt
 Mälardalen University,malardalen_u,Mälardalen University,EUROPE,SWE,SE-U,natlibswe/univ_malardalen,grid.411579.f,https://ror.org/033vfbz75
 Stockholm School of Economics,stockholm_se,Stockholm School of Economics,EUROPE,SWE,SE-AB,NA,grid.419684.6,https://ror.org/01s5jzh92
 Stockholm University,stockholm_u,Stockholm University,EUROPE,SWE,SE-AB,NA,grid.10548.38,https://ror.org/05f0yaq80
-Swedish University of Agricultural Sciences,swedish_agricultural_u,Swedish University of Agricultural Sciences,EUROPE,SWE,SE-C,NA,grid.6341.0,https://ror.org/02yy8x990
+Swedish University of Agricultural Sciences,swedish_agricultural_u,Swedish University of Agricultural Sciences,EUROPE,SWE,SE-C,natlibswe/swe_univ_agr_sci,grid.6341.0,https://ror.org/02yy8x990
 Umeå University,umea_u,Umeå University,EUROPE,SWE,SE-AC,NA,grid.12650.30,https://ror.org/05kb8h459
 University of Gothenburg,gothenburg_u,University of Gothenburg,EUROPE,SWE,SE-O,natlibswe/univ_goteborg,grid.8761.8,https://ror.org/01tm6cn81
 Uppsala University,uppsala_u,Uppsala University,EUROPE,SWE,SE-C,NA,grid.8993.b,https://ror.org/048a87296
@@ -256,7 +256,7 @@ Tampere University,tampere_u,Tampere University,EUROPE,FIN,FI-11,unitampere,grid
 Charles University,charles_u,Charles University,EUROPE,CZE,CZ-PR,charlesuniversity,grid.4491.8,https://ror.org/024d6js02
 Bern University of Applied Sciences,bfh,Bern University of Applied Sciences,EUROPE,CHE,CH.BE,bfh,grid.424060.4,https://ror.org/02bnkt322
 University of Eastern Finland,eastern_finland_u,University of Eastern Finland,EUROPE,FIN,FI-15,unieasternfinland,grid.9668.1,https://ror.org/00cyydd11
-Södertörns University,sodertorns_u,Södertörns University,EUROPE,SWE,SE-AB,NA,grid.412654.0,https://ror.org/00d973h41
+Södertörns University,sodertorns_u,Södertörns University,EUROPE,SWE,SE-AB,natlibswe/univ_sodertorn,grid.412654.0,https://ror.org/00d973h41
 Laurea University of Applied Sciences,laurea_uas,Laurea University of Applied Sciences,EUROPE,FIN,FI-18,laurea_uas,grid.436211.3,https://ror.org/05h664633
 Hanken School of Economics,hanken_soe,Hanken School of Economics,EUROPE,FIN,FI-18,hanken,grid.445604.7,https://ror.org/026086s92
 Passau U,passau_u,University of Passau,EUROPE,DEU,BY,unipassau,grid.11046.32,https://ror.org/05ydjnb78
