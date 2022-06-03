@@ -434,7 +434,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0341-2687", # Schmalenbach Journal of Business Research, Gold OA since 2021
     "1438-4221", # International Journal of Medical Microbiology, Gold OA since 2020
     "1367-5435", # Journal of Industrial Microbiology and Biotechnology, Gold OA since 2020
-    "1525-2027" # Geochemistry, Geophysics, Geosystems, Gold OA since 2022
+    "1525-2027", # Geochemistry, Geophysics, Geosystems, Gold OA since 2022
+    "0906-4710" # Acta Agriculturae Scandinavica, Section B — Soil & Plant Science, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
