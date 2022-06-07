@@ -292,6 +292,15 @@ JOURNAL_OWNER_CHANGED = {
     "1476-5535": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology (electronic)
     "2192-1962": ["Springer Nature", "KIPS-CSWRG"], # Human-Centric Computing and Information Sciences
     "2523-3548": ["Springer Nature", "Wiley-Blackwell"], # Cancer Communications
+    "0045-5091": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Canadian Journal of Philosophy
+    "1911-0820": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Canadian Journal of Philosophy (electronic)
+    "0391-3988": ["Wichtig Publishing, SRL", "SAGE Publications"], # The International Journal of Artificial Organs
+    "1724-6040": ["Wichtig Publishing, SRL", "SAGE Publications"], # The International Journal of Artificial Organs (electronic)
+    "0890-2070": ["Wiley-Blackwell", "SAGE Publications"], # European Journal of Personality
+    "1099-0984": ["Wiley-Blackwell", "SAGE Publications"], # European Journal of Personality (electronic)
+    "1465-3125": ["Informa UK Limited", "SAGE Publications"], # Journal of Orthodontics
+    "1465-3133": ["Informa UK Limited", "SAGE Publications"], # Journal of Orthodontics (electronic)
+    "2052-6121": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Case Reports
     
 }
 
