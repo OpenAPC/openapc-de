@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 53,073 articles, published at 325 institutions under 38 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 53,135 articles, published at 325 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -51,6 +51,7 @@ This dataset contains information on 53,073 articles, published at 325 instituti
 |University of Milan - Wiley                  |       98|
 |FWF Offsetting Agreement IOP                 |       82|
 |TIB RSC Journals R&P - TU Berlin             |       81|
+|Swiss Consortium Karger agreement            |       62|
 |FinELib RSC agreement                        |       60|
 |MPG Taylor & Francis agreement               |       46|
 |Austrian Consortium IOP agreement            |       45|
@@ -73,9 +74,9 @@ This dataset contains information on 53,073 articles, published at 325 instituti
 |MPG                                                                                                                                                |      946|
 |University of Cambridge                                                                                                                            |      912|
 |University of Oxford                                                                                                                               |      883|
-|ETH Zurich                                                                                                                                         |      867|
+|ETH Zurich                                                                                                                                         |      868|
 |Karolinska Institute                                                                                                                               |      860|
-|University of Zurich                                                                                                                               |      797|
+|University of Zurich                                                                                                                               |      822|
 |Imperial College London                                                                                                                            |      771|
 |Uppsala University                                                                                                                                 |      723|
 |University of Gothenburg                                                                                                                           |      682|
@@ -106,12 +107,12 @@ This dataset contains information on 53,073 articles, published at 325 instituti
 |University of Bern                                                                                                                                 |      409|
 |Swedish University of Agricultural Sciences                                                                                                        |      400|
 |University of Eastern Finland                                                                                                                      |      398|
+|University of Lausanne                                                                                                                             |      398|
 |University of Southampton                                                                                                                          |      398|
 |Radboud University Medical Center                                                                                                                  |      397|
 |Linköping University                                                                                                                               |      396|
 |Bonn U                                                                                                                                             |      394|
 |Chalmers University of Technology                                                                                                                  |      391|
-|University of Lausanne                                                                                                                             |      388|
 |University of Sheffield                                                                                                                            |      387|
 |Umea University                                                                                                                                    |      384|
 |Maastricht University                                                                                                                              |      382|
@@ -122,11 +123,11 @@ This dataset contains information on 53,073 articles, published at 325 instituti
 |VU University Medical Center (VUmc)                                                                                                                |      363|
 |University of Vienna                                                                                                                               |      356|
 |University of Birmingham                                                                                                                           |      355|
+|University of Basel                                                                                                                                |      344|
 |TU Berlin                                                                                                                                          |      340|
 |Cardiff University                                                                                                                                 |      339|
 |University of Jyväskylä                                                                                                                            |      336|
 |University of Warwick                                                                                                                              |      332|
-|University of Basel                                                                                                                                |      320|
 |University of Milan                                                                                                                                |      317|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |Radboud University                                                                                                                                 |      309|
@@ -193,7 +194,7 @@ This dataset contains information on 53,073 articles, published at 325 instituti
 |Natural Resources Institute Finland                                                                                                                |       98|
 |PSI - Paul Scherrer Institute                                                                                                                      |       94|
 |TU Chemnitz                                                                                                                                        |       93|
-|University of Fribourg                                                                                                                             |       90|
+|University of Fribourg                                                                                                                             |       91|
 |Royal Holloway, University of London                                                                                                               |       87|
 |City University London                                                                                                                             |       86|
 |Sheffield Hallam University                                                                                                                        |       82|
@@ -237,8 +238,8 @@ This dataset contains information on 53,073 articles, published at 325 instituti
 |Fraunhofer-Gesellschaft Publishing Fund                                                                                                            |       46|
 |University of St.Gallen                                                                                                                            |       46|
 |Natural History Museum                                                                                                                             |       44|
+|Università della Svizzera italiana                                                                                                                 |       44|
 |Leeds Beckett University                                                                                                                           |       43|
-|Università della Svizzera italiana                                                                                                                 |       43|
 |University of Veterinary Medicine Vienna                                                                                                           |       43|
 |Hanken School of Economics                                                                                                                         |       41|
 |University of Salford                                                                                                                              |       40|
