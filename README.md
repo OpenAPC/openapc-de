@@ -489,9 +489,9 @@ The article data set contains information on 157,206 open access journal article
 
 In total, article publication fee spending covered by the OpenAPC initiative amounted to € 300,807,392. The average payment was € 1,913 and the median was € 1,752.
 
-105,332 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 171,944,716, including value-added tax; the average payment was € 1,632 (median =  € 1,566, SD = € 763).
+105,331 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 171,942,933, including value-added tax; the average payment was € 1,632 (median =  € 1,566, SD = € 763).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 51,874 articles in the data set were published in hybrid journals. Total expenditure amounts to 128,862,676 €; the average fee was € 2,484 (median =  € 2,445, SD = € 997).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 51,875 articles in the data set were published in hybrid journals. Total expenditure amounts to 128,864,459 €; the average fee was € 2,484 (median =  € 2,445, SD = € 997).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -515,7 +515,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2013   |       2,472|   1,229|     1,178|  50.00 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
 |2014   |       5,194|   1,374|     1,255|  40.00 -  9,028|           6,518|       2,239|         2,200|   132.3 -  6,000|
 |2015   |       8,444|   1,521|     1,448|  59.00 -  5,669|           6,687|       2,610|         2,622|   126.6 -  8,636|
-|2016   |       9,818|   1,634|     1,530|  62.51 -  5,985|           7,885|       2,552|         2,515|     2.3 -  9,079|
+|2016   |       9,817|   1,634|     1,530|  62.51 -  5,985|           7,886|       2,552|         2,515|     2.3 -  9,079|
 |2017   |      14,602|   1,712|     1,555|   8.71 - 14,634|          10,611|       2,531|         2,472|    36.9 -  9,858|
 |2018   |      15,021|   1,697|     1,585|  13.00 -  8,926|           9,257|       2,560|         2,543|    17.7 - 13,975|
 |2019   |      15,398|   1,649|     1,603|  10.72 -  7,684|           5,153|       2,400|         2,317|    75.3 -  9,500|
