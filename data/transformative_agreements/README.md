@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 53,135 articles, published at 325 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 53,131 articles, published at 325 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 53,135 articles, published at 325 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |French EDP Sciences agreement                |     2649|
-|DEAL Wiley Germany                           |     2632|
+|DEAL Wiley Germany                           |     2628|
 |DEAL Springer Nature Germany                 |     1990|
 |Swiss Consortium Elsevier agreement          |     1821|
 |FinELib Elsevier agreement                   |     1616|
@@ -252,13 +252,13 @@ This dataset contains information on 53,135 articles, published at 325 instituti
 |Aberystwyth University                                                                                                                             |       38|
 |Agroscope                                                                                                                                          |       38|
 |FZJ - ZB                                                                                                                                           |       38|
-|Greifswald U                                                                                                                                       |       38|
 |Blekinge Institute of Technology                                                                                                                   |       37|
 |HZDR                                                                                                                                               |       36|
 |Leibniz-IGB                                                                                                                                        |       36|
 |Robert Gordon University                                                                                                                           |       36|
 |Netherlands Institute of Ecology                                                                                                                   |       35|
 |Graduate Institute of International and Development Studies                                                                                        |       34|
+|Greifswald U                                                                                                                                       |       34|
 |Kingston University                                                                                                                                |       34|
 |Södertörn University                                                                                                                               |       33|
 |University of Central Lancashire                                                                                                                   |       32|
