@@ -513,7 +513,13 @@ JOURNAL_MAPPINGS = {
     "American Journal of Rhinology &amp; Allergy": "American Journal of Rhinology & Allergy",
     "Law &amp; Social Inquiry": "Law & Social Inquiry",
     "Infection Control &amp; Hospital Epidemiology": "Infection Control & Hospital Epidemiology",
-    "The Journal of Laryngology &amp; Otology": "The Journal of Laryngology & Otology"
+    "The Journal of Laryngology &amp; Otology": "The Journal of Laryngology & Otology",
+    "European Journal of Clinical Microbiology &amp; Infectious Diseases": "European Journal of Clinical Microbiology & Infectious Diseases",
+    "AI &amp; SOCIETY": "AI & SOCIETY",
+    "Attention, Perception, &amp; Psychophysics": "Attention, Perception, & Psychophysics",
+    "Cell Death & Differentiation": "Cell Death and Differentiation",
+    "Clinical and Experimental Immunology": "Clinical & Experimental Immunology",
+    "Molecular Nutrition &amp; Food Research": "Molecular Nutrition & Food Research"
 }
 
 COLUMN_NAMES = {
