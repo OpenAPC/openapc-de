@@ -519,7 +519,8 @@ JOURNAL_MAPPINGS = {
     "Attention, Perception, &amp; Psychophysics": "Attention, Perception, & Psychophysics",
     "Cell Death & Differentiation": "Cell Death and Differentiation",
     "Clinical and Experimental Immunology": "Clinical & Experimental Immunology",
-    "Molecular Nutrition &amp; Food Research": "Molecular Nutrition & Food Research"
+    "Molecular Nutrition &amp; Food Research": "Molecular Nutrition & Food Research",
+    "Social Politics: International Studies in Gender, State &amp; Society": "Social Politics: International Studies in Gender, State & Society"
 }
 
 COLUMN_NAMES = {
