@@ -15,6 +15,7 @@ PUBLISHER_MAPPINGS = {
     "Bioscientifica": "BioScientifica",
     "Springer Nature America, Inc": "Springer Nature",
     "Springer Science and Business Media LLC": "Springer Nature",
+    "Springer Fachmedien Wiesbaden GmbH": "Springer Nature",
     "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd.",
     "F1000 Research Ltd": "F1000 Research, Ltd.",
     "Scientific and Academic Publishing": "Scientific & Academic Publishing",
@@ -520,7 +521,17 @@ JOURNAL_MAPPINGS = {
     "Cell Death & Differentiation": "Cell Death and Differentiation",
     "Clinical and Experimental Immunology": "Clinical & Experimental Immunology",
     "Molecular Nutrition &amp; Food Research": "Molecular Nutrition & Food Research",
-    "Social Politics: International Studies in Gender, State &amp; Society": "Social Politics: International Studies in Gender, State & Society"
+    "Social Politics: International Studies in Gender, State &amp; Society": "Social Politics: International Studies in Gender, State & Society",
+    "Regulation &amp; Governance": "Regulation & Governance",
+    "Alzheimer's &amp; Dementia": "Alzheimer's & Dementia",
+    "Chemistry &amp; Biodiversity": "Chemistry & Biodiversity",
+    "Neurogastroenterology &amp; Motility": "Neurogastroenterology & Motility",
+    "Science &amp; Education": "Science & Education",
+    "Rendiconti Lincei. Scienze Fisiche e Naturali": "Rendiconti Lincei",
+    "Wirtschaftsinformatik &amp; Management": "Wirtschaftsinformatik & Management",
+    "Information Technology &amp; Tourism": "Information Technology & Tourism",
+    "Discrete &amp; Computational Geometry": "Discrete & Computational Geometry",
+    "Cell Death & Differentiation": "Cell Death and Differentiation"
 }
 
 COLUMN_NAMES = {
