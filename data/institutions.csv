@@ -110,10 +110,10 @@ KTH Royal Institute of Technology,kth,KTH Royal Institute of Technology,EUROPE,S
 Linköping University,linkoping_u,Linköping University,EUROPE,SWE,SE-E,NA,grid.5640.7,https://ror.org/05ynxx418
 Luleå University of Technology,lulea_tu,Luleå University of Technology,EUROPE,SWE,SE-BD,NA,grid.6926.b,https://ror.org/016st3p78
 Lund University,lund_u,Lund University,EUROPE,SWE,SE-M,natlibswe/univ_lund,grid.4514.4,https://ror.org/012a77v79
-Malmö University,malmo_u,Malmö University,EUROPE,SWE,SE-M,NA,grid.32995.34,https://ror.org/05wp7an13
+Malmö University,malmo_u,Malmö University,EUROPE,SWE,SE-M,natlibswe/univ_malmo,grid.32995.34,https://ror.org/05wp7an13
 Mälardalen University,malardalen_u,Mälardalen University,EUROPE,SWE,SE-U,natlibswe/univ_malardalen,grid.411579.f,https://ror.org/033vfbz75
 Stockholm School of Economics,stockholm_se,Stockholm School of Economics,EUROPE,SWE,SE-AB,NA,grid.419684.6,https://ror.org/01s5jzh92
-Stockholm University,stockholm_u,Stockholm University,EUROPE,SWE,SE-AB,NA,grid.10548.38,https://ror.org/05f0yaq80
+Stockholm University,stockholm_u,Stockholm University,EUROPE,SWE,SE-AB,natlibswe/univ_stockholm,grid.10548.38,https://ror.org/05f0yaq80
 Swedish University of Agricultural Sciences,swedish_agricultural_u,Swedish University of Agricultural Sciences,EUROPE,SWE,SE-C,natlibswe/swe_univ_agr_sci,grid.6341.0,https://ror.org/02yy8x990
 Umeå University,umea_u,Umeå University,EUROPE,SWE,SE-AC,NA,grid.12650.30,https://ror.org/05kb8h459
 University of Gothenburg,gothenburg_u,University of Gothenburg,EUROPE,SWE,SE-O,natlibswe/univ_goteborg,grid.8761.8,https://ror.org/01tm6cn81
@@ -180,7 +180,7 @@ Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,cou
 University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,NA,grid.412442.5,https://ror.org/01fdxwh83
 University West,west_u,University West,EUROPE,SWE,SE-O,natlibswe/univ_vast,grid.412716.7,https://ror.org/0257kt353
 Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,NA,grid.8148.5,https://ror.org/00j9qag85
-Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T,NA,grid.15895.30,https://ror.org/05kytsw45
+Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T,natlibswe/univ_orebro,grid.15895.30,https://ror.org/05kytsw45
 Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES,couperin/lorraine,grid.29172.3f,https://ror.org/04vfs2w97
 CNRS,cnrs,Centre national de la recherche scientifique (CNRS),EUROPE,FRA,FR-IDF,couperin/cnrs,grid.423788.2,https://ror.org/00675rp98
 Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FRA,FR-ARA,couperin/auvergne,grid.494717.8,https://ror.org/01a8ajp46
