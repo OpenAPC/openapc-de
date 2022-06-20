@@ -531,7 +531,12 @@ JOURNAL_MAPPINGS = {
     "Wirtschaftsinformatik &amp; Management": "Wirtschaftsinformatik & Management",
     "Information Technology &amp; Tourism": "Information Technology & Tourism",
     "Discrete &amp; Computational Geometry": "Discrete & Computational Geometry",
-    "Cell Death & Differentiation": "Cell Death and Differentiation"
+    "Cell Death & Differentiation": "Cell Death and Differentiation",
+    "Clinical Orthopaedics &amp; Related Research": "Clinical Orthopaedics and Related Research",
+    "Environmental Science &amp; Technology": "Environmental Science & Technology",
+    "Random Structures &amp; Algorithms": "Random Structures & Algorithms",
+    "International Journal of Environmental Sciences &amp; Natural Resources": "International Journal of Environmental Sciences & Natural Resources",
+    "Social Theory &amp; Health": "Social Theory & Health"
 }
 
 COLUMN_NAMES = {
