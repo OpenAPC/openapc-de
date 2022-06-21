@@ -576,7 +576,8 @@ JOURNAL_MAPPINGS = {
     "Technical Innovations &amp; Patient Support in Radiation Oncology": "Technical Innovations & Patient Support in Radiation Oncology",
     "Chaos, Solitons &amp; Fractals": "Chaos, Solitons & Fractals",
     "Data &amp; Knowledge Engineering": "Data & Knowledge Engineering",
-    "Comparative Biochemistry and Physiology Part A: Molecular &amp; Integrative Physiology": "Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology"
+    "Comparative Biochemistry and Physiology Part A: Molecular &amp; Integrative Physiology": "Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology",
+    "Nutrition &amp; Metabolism": "Nutrition & Metabolism"
 }
 
 COLUMN_NAMES = {
