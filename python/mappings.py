@@ -619,3 +619,8 @@ ISSN_L_CORRECTIONS = {
     "0957-5820": "NA", # 0957-5820 clearly belongs to "Process Safety and Environmental Protection". Unfortunately there's the line 0263-8762 -> 0957-5820 which incorrectly maps the issn of "Chemical Engineering Research and Design" to the same value. We have no choice but to omit this value.
     "2058-5888": "NA" # 2058-5888 (issn_e for "Environmental Epigenetics") maps to 1674-5507 (issn_l for "Current Zoology")
 }
+
+AGREEMENT_PUBLISHERS = {
+    "DEAL Springer Nature Germany": ["Springer Nature"],
+    "DEAL Wiley Germany": ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)", "International Union of Crystallography (IUCr)"]
+}
