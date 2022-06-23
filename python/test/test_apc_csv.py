@@ -40,6 +40,7 @@ ISBNHANDLING = None
 if __name__ == '__main__':
     path.append(dirname(path[0]))
     import openapc_toolkit as oat
+    import mappings
     import whitelists as wl
     ISBNHANDLING = oat.ISBNHandling("ISBNRangeFile.xml")
     for data_file, metadata in DATA_FILES.items():
@@ -51,6 +52,7 @@ if __name__ == '__main__':
 else:
     path.append(join(path[0], "python"))
     import openapc_toolkit as oat
+    import mappings
     from . import whitelists as wl
     ISBNHANDLING = oat.ISBNHandling("python/test/ISBNRangeFile.xml")
 
@@ -381,6 +383,19 @@ def check_name_consistency(row_object):
                 ret = msg.format("Linking ", issn_l, "hybrid status", hybrid, other_hybrid)
                 fail(ret)
 
+def check_ta_data(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    if "agreement" in row:
+        agreement = row["agreement"]
+        publisher = row["publisher"]
+        if agreement in mappings.AGREEMENT_PUBLISHERS:
+            if publisher not in mappings.AGREEMENT_PUBLISHERS[agreement]:
+                msg = '"{}" is no valid publisher name for the agreement "{}"'
+                ret = line_str + msg.format(publisher, agreement)
+                fail(ret)
+
 @pytest.mark.parametrize("row_object", APC_DATA)
 class TestAPCRows(object):
 
@@ -394,6 +409,7 @@ class TestAPCRows(object):
         check_hybrid_status(row_object)
         check_for_doi_duplicates(row_object)
         check_name_consistency(row_object)
+        check_ta_data(row_object)
         
 @pytest.mark.parametrize("row_object", BPC_DATA)
 class TestBPCRows(object):
@@ -421,6 +437,7 @@ if __name__ == '__main__':
         check_hybrid_status(row_object)
         check_for_doi_duplicates(row_object)
         check_name_consistency(row_object)
+        check_ta_data(row_object)
     oat.print_b(str(len(BPC_DATA)) + " BPC records collected, starting tests...")
     deciles = {round((len(BPC_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
     for num, row_object in enumerate(BPC_DATA):
