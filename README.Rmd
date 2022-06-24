@@ -399,6 +399,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Aberystwyth University
 - Aston University
 - Bangor University
+- Birkbeck College
 - Brunel University
 - Cardiff University
 - Cranfield University
@@ -422,6 +423,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Queen Mary, University of London
 - Queen's University Belfast
 - Royal Holloway
+- Royal Veterinary College
 - St George's, University of London
 - Swansea University
 - The Open University
@@ -496,6 +498,18 @@ Jisc Collections released data on APC payments made by UK higher education insti
 ## Participating Institutions from Qatar:
 
 - [Qatar National Library](https://www.qnl.qa/en) 
+
+## Participating Institutions from Malawi:
+
+- Malawi-Liverpool-Wellcome Clinical Research-Programme
+
+## Participating Institutions from Thailand:
+
+- Mahidol Oxford Tropical Medicine Research Unit
+
+## Participating Institutions from Vietnam:
+
+- Oxford University Clinical Research Unit
 
 ## Supranational participants
 
