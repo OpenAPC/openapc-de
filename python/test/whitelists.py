@@ -10,7 +10,7 @@ PUBLISHER_IDENTITY = [
     (["SAGE Publications"], ["Pion Ltd"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
     (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
-    (["Mineralogical Society of America"], ["GeoScienceWorld"]),
+    (["Mineralogical Society of America", "Geological Society of America"], ["GeoScienceWorld"]),
     (["International Scientific Literature"], ["International Scientific Information, Inc."]),
     (["Georg Thieme Verlag KG"], ["Thieme Publishing Group"]),
     (["Georg Thieme Verlag KG"], ["Schattauer GmbH"]), # Schattauer bought up by Thieme (1/1/2017)
@@ -21,7 +21,8 @@ PUBLISHER_IDENTITY = [
     (["Brandeis University Press"], ["Dartmouth College Press"]), # BUP and DCP were both part of the University Press of New England consortium, which was dissolved in 2018
     (["Böhlau"], ["Vandenhoeck & Ruprecht"]), # Böhlau acquired by V&R in 2017 
     (["Nomos Verlagsgesellschaft mbH & Co. KG"], ["Velbrück Wissenschaft"]), # Velbrück uses the Nomos eLibrary to publish its OA books
-    (["Birkhäuser"], ["De Gruyter"]) # Birkhäuser is an imprint of De Gruyter
+    (["Birkhäuser"], ["De Gruyter"]), # Birkhäuser is an imprint of De Gruyter
+    (["OMICS Publishing Group"], ["Hilaris"])
 ]
 
 
@@ -168,6 +169,7 @@ JOURNAL_OWNER_CHANGED = {
     "1178-2021": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Neuropsychiatric Disease and Treatment
     "2155-384X": ["Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical and Translational Gastroenterology
     "0009-921X": ["Springer Science + Business Media", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical Orthopaedics and Related Research®
+    "1528-1132": ["Springer Science + Business Media", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical Orthopaedics and Related Research® (electronic)
     "1179-5549": ["Libertas Academica, Ltd.", "SAGE Publications"], # Clinical Medicine Insights: Oncology
     "0141-8955": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Inherited Metabolic Disease
     "0261-3875": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Legal Studies
@@ -287,6 +289,19 @@ JOURNAL_OWNER_CHANGED = {
     "2379-1381": ["Grapho, LLC", "MDPI AG"], # Tomography
     "2379-139X": ["Grapho, LLC", "MDPI AG"], # Tomography (electronic)
     "2397-1835": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Glossa: a journal of general linguistics
+    "1367-5435": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology
+    "1476-5535": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology (electronic)
+    "2192-1962": ["Springer Nature", "KIPS-CSWRG"], # Human-Centric Computing and Information Sciences
+    "2523-3548": ["Springer Nature", "Wiley-Blackwell"], # Cancer Communications
+    "0045-5091": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Canadian Journal of Philosophy
+    "1911-0820": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Canadian Journal of Philosophy (electronic)
+    "0391-3988": ["Wichtig Publishing, SRL", "SAGE Publications"], # The International Journal of Artificial Organs
+    "1724-6040": ["Wichtig Publishing, SRL", "SAGE Publications"], # The International Journal of Artificial Organs (electronic)
+    "0890-2070": ["Wiley-Blackwell", "SAGE Publications"], # European Journal of Personality
+    "1099-0984": ["Wiley-Blackwell", "SAGE Publications"], # European Journal of Personality (electronic)
+    "1465-3125": ["Informa UK Limited", "SAGE Publications"], # Journal of Orthodontics
+    "1465-3133": ["Informa UK Limited", "SAGE Publications"], # Journal of Orthodontics (electronic)
+    "2052-6121": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Case Reports
     
 }
 
@@ -427,6 +442,13 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2210-4968", # Semantic Web, Gold OA since 2020
     "2192-4406", # EURO Journal on Computational Optimization, Gold OA since 2021
     "0341-2687", # Schmalenbach Journal of Business Research, Gold OA since 2021
+    "1438-4221", # International Journal of Medical Microbiology, Gold OA since 2020
+    "1367-5435", # Journal of Industrial Microbiology and Biotechnology, Gold OA since 2020
+    "1525-2027", # Geochemistry, Geophysics, Geosystems, Gold OA since 2022
+    "0906-4710", # Acta Agriculturae Scandinavica, Section B — Soil & Plant Science, Gold OA since 2022
+    "2468-2942", # Cancer Treatment and Research Communications, Gold OA since 2020
+    "0001-6349", # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022
+    "1600-0412" # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022 (electronic)
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

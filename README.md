@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |154,446 | 295,950,613    | 358 |
-| Monographs       |1,401 | 8,860,639    | 19 |
+| Articles         |160,263 | 307,984,736    | 369 |
+| Monographs       |1,404 | 8,879,340    | 22 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
 
@@ -43,6 +43,7 @@ So far, the following German universities have agreed to share information on pa
 - [Bauhaus-Universität Weimar](https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/)
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
+- [Catholic University of Eichstätt-Ingolstadt](https://www.ku.de/bibliothek/forschen-und-publizieren/open-access)
 - [Charité - Universitätsmedizin Berlin](https://bibliothek.charite.de/publizieren/open_access)
 - [Christian-Albrechts-Universität zu Kiel](https://www.ub.uni-kiel.de/en/open-access-publishing/open-access)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
@@ -53,6 +54,7 @@ So far, the following German universities have agreed to share information on pa
 - [Hamburg University of Applied Sciences](https://www.haw-hamburg.de/hibs/publizieren/publikationsfonds/)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
+- [Heinrich-Heine-Universität Düsseldorf](https://www.ulb.hhu.de/en/reseach-teaching-publishing/open-access/hhus-open-access-fund)
 - [Hochschule Düsseldorf](https://bib.hs-duesseldorf.de/en)
 - [Hochschule Hannover](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/)
 - [Hochschule für Technik und Wirtschaft Dresden](https://www.htw-dresden.de/oa)
@@ -222,6 +224,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 
 ## Institutions from Sweden (via [Open APC Sweden](https://github.com/Kungbib/openapc-se)):
 
+- BTH Blekinge Institute of Technology
 - Chalmers University of Technology
 - Dalarna University
 - Halmstad University
@@ -372,6 +375,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Aberystwyth University
 - Aston University
 - Bangor University
+- Birkbeck College
 - Brunel University
 - Cardiff University
 - Cranfield University
@@ -395,6 +399,7 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - Queen Mary, University of London
 - Queen's University Belfast
 - Royal Holloway
+- Royal Veterinary College
 - St George's, University of London
 - Swansea University
 - The Open University
@@ -470,6 +475,18 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 - [Qatar National Library](https://www.qnl.qa/en) 
 
+## Participating Institutions from Malawi:
+
+- Malawi-Liverpool-Wellcome Clinical Research-Programme
+
+## Participating Institutions from Thailand:
+
+- Mahidol Oxford Tropical Medicine Research Unit
+
+## Participating Institutions from Vietnam:
+
+- Oxford University Clinical Research Unit
+
 ## Supranational participants
 
 - [OpenAIRE](https://www.openaire.eu/fp7-oapilot) (FP7 Post-Grant Open Access Pilot)
@@ -482,13 +499,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 154,446 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 358 research performing institutions and research funders. 
+The article data set contains information on 160,263 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 369 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 295,950,613. The average payment was € 1,916 and the median was € 1,752.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 307,984,736. The average payment was € 1,922 and the median was € 1,760.
 
-102,840 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 167,746,260, including value-added tax; the average payment was € 1,631 (median =  € 1,563, SD = € 766).
+107,138 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 175,474,823, including value-added tax; the average payment was € 1,638 (median =  € 1,570, SD = € 768).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 51,606 articles in the data set were published in hybrid journals. Total expenditure amounts to 128,204,353 €; the average fee was € 2,484 (median =  € 2,445, SD = € 997).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 53,125 articles in the data set were published in hybrid journals. Total expenditure amounts to 132,509,913 €; the average fee was € 2,494 (median =  € 2,455, SD = € 1,002).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -499,32 +516,32 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 #### Spending distribution details
 
 
-|period | OA articles| OA mean| OA median| OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
-|:------|-----------:|-------:|---------:|------------:|---------------:|-----------:|-------------:|----------------:|
-|2005   |           7|     858|       871| 480 -  1,350|               1|       2,983|         2,983|   2,983 -  2,983|
-|2006   |          52|   1,021|     1,095| 665 -  1,340|              NA|          NA|            NA|               NA|
-|2007   |          88|   1,081|     1,062| 870 -  1,825|              NA|          NA|            NA|               NA|
-|2008   |         205|   1,170|     1,025| 441 -  2,830|               1|       2,660|         2,660|   2,660 -  2,660|
-|2009   |         359|   1,185|     1,060| 125 -  4,386|              NA|          NA|            NA|               NA|
-|2010   |         401|   1,261|     1,139| 159 -  7,419|               3|       2,318|         2,173|   2,152 -  2,630|
-|2011   |         777|   1,158|     1,127| 105 -  4,666|               6|       1,781|         2,085|     552 -  2,631|
-|2012   |       1,577|   1,173|     1,175|  69 -  4,498|              20|       2,308|         2,412|     997 -  2,700|
-|2013   |       2,472|   1,229|     1,178|  50 -  4,574|           1,098|       2,257|         2,260|     120 -  4,679|
-|2014   |       5,195|   1,374|     1,255|  40 -  9,028|           6,517|       2,239|         2,200|     132 -  6,000|
-|2015   |       8,444|   1,521|     1,448|  59 -  5,669|           6,687|       2,610|         2,622|     127 -  8,636|
-|2016   |       9,818|   1,634|     1,530|  63 -  5,985|           7,885|       2,552|         2,515|       2 -  9,079|
-|2017   |      14,602|   1,712|     1,555|   9 - 14,634|          10,611|       2,531|         2,472|      37 -  9,858|
-|2018   |      15,015|   1,697|     1,585|  13 -  8,926|           9,257|       2,560|         2,543|      18 - 13,975|
-|2019   |      15,387|   1,649|     1,603|  11 -  7,684|           5,152|       2,400|         2,317|      75 -  9,500|
-|2020   |      18,056|   1,685|     1,677|   0 -  8,906|           3,110|       2,374|         2,389|     130 -  7,416|
-|2021   |      10,312|   1,765|     1,753|  27 -  6,417|           1,258|       2,537|         2,434|     100 -  8,341|
-|2022   |          73|   1,884|     1,931| 421 -  4,006|              NA|          NA|            NA|               NA|
+|period | OA articles| OA mean| OA median|    OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
+|:------|-----------:|-------:|---------:|---------------:|---------------:|-----------:|-------------:|----------------:|
+|2005   |           7|     858|       871| 480.00 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
+|2006   |          52|   1,021|     1,095| 665.00 -  1,340|              NA|          NA|            NA|               NA|
+|2007   |          88|   1,081|     1,062| 870.00 -  1,825|              NA|          NA|            NA|               NA|
+|2008   |         205|   1,170|     1,025| 440.80 -  2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
+|2009   |         359|   1,185|     1,060| 124.63 -  4,386|              NA|          NA|            NA|               NA|
+|2010   |         401|   1,261|     1,139| 158.79 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
+|2011   |         777|   1,158|     1,127| 104.85 -  4,666|               6|       1,781|         2,085|   552.0 -  2,631|
+|2012   |       1,577|   1,173|     1,175|  69.00 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
+|2013   |       2,472|   1,229|     1,178|  50.00 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
+|2014   |       5,194|   1,374|     1,255|  40.00 -  9,028|           6,518|       2,239|         2,200|   132.3 -  6,000|
+|2015   |       8,444|   1,521|     1,448|  59.00 -  5,669|           6,687|       2,610|         2,622|   126.6 -  8,636|
+|2016   |       9,817|   1,634|     1,530|  62.51 -  5,985|           7,886|       2,552|         2,515|     2.3 -  9,079|
+|2017   |      14,601|   1,712|     1,555|   8.71 - 14,634|          10,611|       2,531|         2,472|    36.9 -  9,858|
+|2018   |      15,110|   1,696|     1,584|  13.00 -  8,926|           9,264|       2,560|         2,543|    17.7 - 13,975|
+|2019   |      16,373|   1,683|     1,623|  10.72 -  7,684|           6,286|       2,506|         2,447|    75.3 -  9,500|
+|2020   |      18,469|   1,684|     1,677|   0.01 -  8,906|           3,132|       2,370|         2,384|   130.0 -  7,416|
+|2021   |      13,107|   1,746|     1,738|  27.03 -  6,417|           1,612|       2,515|         2,434|    30.2 -  8,341|
+|2022   |          85|   1,910|     1,931| 421.26 -  4,006|              NA|          NA|            NA|               NA|
 
 ### Books (BPCs)
 
-The book data set contains information on 1,401 open access books. Publication fees were supported financially by 19 research performing institutions and funders. 
+The book data set contains information on 1,404 open access books. Publication fees were supported financially by 22 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 8,860,639. The average payment was € 6,325 and the median was € 6,860.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 8,879,340. The average payment was € 6,324 and the median was € 6,825.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -545,7 +562,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2017   |             184|    9,250|      8,780| 1,075 - 21,000|            195|    1,981|      1,981| 1,981 - 1,981|
 |2018   |             144|    9,075|      8,250|   476 - 21,104|            191|    1,875|      1,875| 1,875 - 1,875|
 |2019   |             163|    7,995|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
-|2020   |             140|    7,848|      7,500|   190 - 19,200|              1|    1,875|      1,875| 1,875 - 1,875|
+|2020   |             141|    7,805|      7,500|   190 - 19,200|              1|    1,875|      1,875| 1,875 - 1,875|
 |2021   |              42|    5,547|      6,000| 1,190 - 13,229|             NA|       NA|         NA|            NA|
 
 
@@ -589,10 +606,10 @@ Indexing coverage
 
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.69%       |
-|PubMed ID                  |  73.88%      |
-|PubMed Central ID          |  67.7%     |
-|Web of Science record ID   | 91.31%      |
+|DOI                        |  99.7%       |
+|PubMed ID                  |  74.02%      |
+|PubMed Central ID          |  67.93%     |
+|Web of Science record ID   | 91.12%      |
 
 
 
@@ -620,7 +637,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Florian Hagen, Christina Hemme, Ulrich Herb, Elfi Hesse, Dana Horch, Larissa Gordon, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Roland Wagner, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Philipp Zumstein
+Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Florian Hagen, Christina Hemme, Ulrich Herb, Elfi Hesse, Dana Horch, Larissa Gordon, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Philipp Zumstein
 
 ## Contact
 
