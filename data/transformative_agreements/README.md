@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 57,142 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 57,145 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -27,7 +27,7 @@ This dataset contains information on 57,142 articles, published at 326 instituti
 |French EDP Sciences agreement                |     2649|
 |DEAL Springer Nature Germany                 |     2504|
 |FinELib Elsevier agreement                   |     1616|
-|Swiss Consortium Wiley agreement             |      962|
+|Swiss Consortium Wiley agreement             |      963|
 |FinELib Springer Compact agreement           |      895|
 |FinELib Wiley agreement                      |      790|
 |Swiss Consortium Springer Compact agreement  |      693|
@@ -38,7 +38,7 @@ This dataset contains information on 57,142 articles, published at 326 instituti
 |FinELib SAGE agreement                       |      286|
 |Swiss Consortium RSC agreement               |      258|
 |MPG RSC agreement                            |      246|
-|Swiss Consortium SAGE agreement              |      234|
+|Swiss Consortium SAGE agreement              |      236|
 |FinELib OUP agreement                        |      207|
 |University of Milan - Springer               |      192|
 |FinELib ACS agreement                        |      184|
@@ -69,7 +69,7 @@ This dataset contains information on 57,142 articles, published at 326 instituti
 |French institutions                                                                                                                                |     2649|
 |FWF - Austrian Science Fund                                                                                                                        |     1559|
 |ETH Zurich                                                                                                                                         |     1445|
-|University of Zurich                                                                                                                               |     1241|
+|University of Zurich                                                                                                                               |     1242|
 |University of Helsinki                                                                                                                             |     1233|
 |University College London                                                                                                                          |     1022|
 |Lund University                                                                                                                                    |      995|
@@ -97,7 +97,7 @@ This dataset contains information on 57,142 articles, published at 326 instituti
 |University of Oulu                                                                                                                                 |      503|
 |University of Groningen                                                                                                                            |      501|
 |University of Edinburgh                                                                                                                            |      495|
-|École Polytechnique Fédérale de Lausanne                                                                                                           |      489|
+|École Polytechnique Fédérale de Lausanne                                                                                                           |      490|
 |Delft University of Technology                                                                                                                     |      484|
 |Wageningen University                                                                                                                              |      482|
 |Stockholm University                                                                                                                               |      468|
@@ -173,8 +173,8 @@ This dataset contains information on 57,142 articles, published at 326 instituti
 |University of East Anglia                                                                                                                          |      164|
 |Lappeenranta-Lahti University of Technology LUT                                                                                                    |      162|
 |Lancaster University                                                                                                                               |      155|
+|University of Fribourg                                                                                                                             |      155|
 |Nottingham Trent University                                                                                                                        |      154|
-|University of Fribourg                                                                                                                             |      154|
 |University of Strathclyde                                                                                                                          |      151|
 |University of Leicester                                                                                                                            |      146|
 |University of Graz                                                                                                                                 |      144|
