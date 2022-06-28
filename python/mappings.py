@@ -577,7 +577,13 @@ JOURNAL_MAPPINGS = {
     "Chaos, Solitons &amp; Fractals": "Chaos, Solitons & Fractals",
     "Data &amp; Knowledge Engineering": "Data & Knowledge Engineering",
     "Comparative Biochemistry and Physiology Part A: Molecular &amp; Integrative Physiology": "Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology",
-    "Nutrition &amp; Metabolism": "Nutrition & Metabolism"
+    "Nutrition &amp; Metabolism": "Nutrition & Metabolism",
+    "Cellular &amp; Molecular Biology Letters": "Cellular & Molecular Biology Letters",
+    "Journal of Occupational &amp; Environmental Medicine": "Journal of Occupational and Environmental Medicine",
+    "Clocks &amp; Sleep": "Clocks & Sleep",
+    "Journal of Bone and Joint Surgery": "The Journal of Bone and Joint Surgery",
+    "Genes &amp; Immunity": "Genes and Immunity",
+    "Journal of Vacuum Science &amp; Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films"
 }
 
 COLUMN_NAMES = {
