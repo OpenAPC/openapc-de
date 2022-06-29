@@ -583,7 +583,10 @@ JOURNAL_MAPPINGS = {
     "Clocks &amp; Sleep": "Clocks & Sleep",
     "Journal of Bone and Joint Surgery": "The Journal of Bone and Joint Surgery",
     "Genes &amp; Immunity": "Genes and Immunity",
-    "Journal of Vacuum Science &amp; Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films"
+    "Journal of Vacuum Science &amp; Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films",
+    "Photochemical &amp; Photobiological Sciences": "Photochemical & Photobiological Sciences",
+    "Immunology &amp; Cell Biology": "Immunology and Cell Biology",
+    "Clinical &amp; Experimental Allergy": "Clinical & Experimental Allergy"
 }
 
 COLUMN_NAMES = {
