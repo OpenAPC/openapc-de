@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 57,145 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 57,146 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -22,7 +22,7 @@ This dataset contains information on 57,145 articles, published at 326 instituti
 |Agreement                                    | Articles|
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
-|Swiss Consortium Elsevier agreement          |     4835|
+|Swiss Consortium Elsevier agreement          |     4836|
 |DEAL Wiley Germany                           |     3111|
 |French EDP Sciences agreement                |     2649|
 |DEAL Springer Nature Germany                 |     2504|
@@ -264,7 +264,7 @@ This dataset contains information on 57,145 articles, published at 326 instituti
 |Greifswald U                                                                                                                                       |       34|
 |Kingston University                                                                                                                                |       34|
 |Södertörn University                                                                                                                               |       33|
-|University of Applied Sciences and Arts of Southern Switzerland                                                                                    |       32|
+|University of Applied Sciences and Arts of Southern Switzerland                                                                                    |       33|
 |University of Central Lancashire                                                                                                                   |       32|
 |University of West of Scotland                                                                                                                     |       31|
 |RISE Research Institutes of Sweden                                                                                                                 |       30|
