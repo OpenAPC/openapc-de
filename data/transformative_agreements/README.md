@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 57,787 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 57,875 articles, published at 327 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 57,787 articles, published at 326 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     3377|
-|DEAL Springer Nature Germany                 |     2879|
+|DEAL Wiley Germany                           |     3414|
+|DEAL Springer Nature Germany                 |     2930|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
 |Swiss Consortium Wiley agreement             |      963|
@@ -200,6 +200,7 @@ This dataset contains information on 57,787 articles, published at 326 instituti
 |Natural Resources Institute Finland                                                                                                                |       98|
 |TU Chemnitz                                                                                                                                        |       93|
 |University of Applied Sciences and Arts Western Switzerland                                                                                        |       90|
+|Universität Siegen                                                                                                                                 |       88|
 |Royal Holloway, University of London                                                                                                               |       87|
 |University of St.Gallen                                                                                                                            |       87|
 |City University London                                                                                                                             |       86|
