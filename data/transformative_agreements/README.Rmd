@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
   fig.width = 9,
   fig.height = 6
 )
-options(scipen = 999, digits = 0)
+options(scipen = 999, digits = 2)
 knitr::knit_hooks$set(inline = function(x) {
   prettyNum(x, big.mark = ",")
 })
