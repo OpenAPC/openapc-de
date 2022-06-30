@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 57,875 articles, published at 327 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 57,875 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -165,6 +165,7 @@ This dataset contains information on 57,875 articles, published at 327 instituti
 |Graz University of Technology                                                                                                                      |      176|
 |Durham University                                                                                                                                  |      175|
 |Loughborough University                                                                                                                            |      173|
+|Siegen U                                                                                                                                           |      170|
 |Abo Akademi University                                                                                                                             |      169|
 |University of St Andrews                                                                                                                           |      168|
 |University of Sussex                                                                                                                               |      168|
@@ -200,12 +201,10 @@ This dataset contains information on 57,875 articles, published at 327 instituti
 |Natural Resources Institute Finland                                                                                                                |       98|
 |TU Chemnitz                                                                                                                                        |       93|
 |University of Applied Sciences and Arts Western Switzerland                                                                                        |       90|
-|Universität Siegen                                                                                                                                 |       88|
 |Royal Holloway, University of London                                                                                                               |       87|
 |University of St.Gallen                                                                                                                            |       87|
 |City University London                                                                                                                             |       86|
 |Sheffield Hallam University                                                                                                                        |       82|
-|Siegen U                                                                                                                                           |       82|
 |Malmö University                                                                                                                                   |       81|
 |Jönköping University                                                                                                                               |       80|
 |University of Portsmouth                                                                                                                           |       78|
