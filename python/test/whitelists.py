@@ -448,7 +448,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0906-4710", # Acta Agriculturae Scandinavica, Section B — Soil & Plant Science, Gold OA since 2022
     "2468-2942", # Cancer Treatment and Research Communications, Gold OA since 2020
     "0001-6349", # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022
-    "1600-0412" # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022 (electronic)
+    "1600-0412", # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022 (electronic)
+    "2329-9037" # Journal of Responsible Innovation, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
