@@ -587,7 +587,8 @@ JOURNAL_MAPPINGS = {
     "Photochemical &amp; Photobiological Sciences": "Photochemical & Photobiological Sciences",
     "Immunology &amp; Cell Biology": "Immunology and Cell Biology",
     "Clinical &amp; Experimental Allergy": "Clinical & Experimental Allergy",
-    "IET Microwaves, Antennas &amp; Propagation": "IET Microwaves, Antennas & Propagation"
+    "IET Microwaves, Antennas &amp; Propagation": "IET Microwaves, Antennas & Propagation",
+    "Biomedical Journal of Scientific &amp; Technical Research": "Biomedical Journal of Scientific & Technical Research"
 }
 
 COLUMN_NAMES = {
@@ -628,7 +629,8 @@ ISSN_L_CORRECTIONS = {
     "0959-8138": "1756-1833", # BMJ. The BMJ has a bunch of ISSNs assigend, but the ISSN-L mappings are all fixed points. Unknown if this is intended.
     "0957-5820": "NA", # 0957-5820 clearly belongs to "Process Safety and Environmental Protection". Unfortunately there's the line 0263-8762 -> 0957-5820 which incorrectly maps the issn of "Chemical Engineering Research and Design" to the same value. We have no choice but to omit this value.
     "2058-5888": "NA", # 2058-5888 (issn_e for "Environmental Epigenetics") maps to 1674-5507 (issn_l for "Current Zoology")
-    "1573-0565": "0885-6125" # "Machine Learning". 1573-0565(issn_e) -> 1573-0565, but 0885-6125(issn_p) -> 0885-6125
+    "1573-0565": "0885-6125", # "Machine Learning". 1573-0565(issn_e) -> 1573-0565, but 0885-6125(issn_p) -> 0885-6125
+    "2041-7136": "2041-7136" # "Pastoralism" 
 }
 
 AGREEMENT_PUBLISHERS = {
