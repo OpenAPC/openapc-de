@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 57,875 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 57,878 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 57,875 articles, published at 326 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     3414|
+|DEAL Wiley Germany                           |     3417|
 |DEAL Springer Nature Germany                 |     2930|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
@@ -107,7 +107,7 @@ This dataset contains information on 57,875 articles, published at 326 instituti
 |Charité - Universitätsmedizin Berlin                                                                                                               |      448|
 |Academic Medical Center (AMC)                                                                                                                      |      447|
 |University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
-|Tuebingen U                                                                                                                                        |      428|
+|Tuebingen U                                                                                                                                        |      431|
 |University of Leeds                                                                                                                                |      428|
 |VU University Amsterdam                                                                                                                            |      426|
 |Swedish University of Agricultural Sciences                                                                                                        |      400|
