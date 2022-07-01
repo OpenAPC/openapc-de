@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 57,787 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 57,875 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 57,787 articles, published at 326 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     3377|
-|DEAL Springer Nature Germany                 |     2879|
+|DEAL Wiley Germany                           |     3414|
+|DEAL Springer Nature Germany                 |     2930|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
 |Swiss Consortium Wiley agreement             |      963|
@@ -165,6 +165,7 @@ This dataset contains information on 57,787 articles, published at 326 instituti
 |Graz University of Technology                                                                                                                      |      176|
 |Durham University                                                                                                                                  |      175|
 |Loughborough University                                                                                                                            |      173|
+|Siegen U                                                                                                                                           |      170|
 |Abo Akademi University                                                                                                                             |      169|
 |University of St Andrews                                                                                                                           |      168|
 |University of Sussex                                                                                                                               |      168|
@@ -204,7 +205,6 @@ This dataset contains information on 57,787 articles, published at 326 instituti
 |University of St.Gallen                                                                                                                            |       87|
 |City University London                                                                                                                             |       86|
 |Sheffield Hallam University                                                                                                                        |       82|
-|Siegen U                                                                                                                                           |       82|
 |Malmö University                                                                                                                                   |       81|
 |Jönköping University                                                                                                                               |       80|
 |University of Portsmouth                                                                                                                           |       78|
