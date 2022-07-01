@@ -1,0 +1,3 @@
+"Top-level organisation which covered the reported costs, e.g. ""Bielefeld University""";Year of APC payment (YYYY);The amount that was paid in EURO. Includes VAT and additional fees;Digital Object Identifier;Determines if the article has been published in a hybrid journal (TRUE) or in fully/Gold OA journal (FALSE);Name of the publication house that has charged the fee;Full name of periodical that contains the article;International Standard Serial Number;;;
+institution;period;euro;doi;backlist_oa;publisher;book_title;isbn;isbn_hardcover;isbn_softcover;isbn_electronic
+èbo Akademi University;2021;16120;https://link.springer.com/book/9783030946906;FALSE;Springer Cham;The Diversity of Worldviews Among Young Adults;978-3-030-94690-6;;978-3-030-94693-7;
