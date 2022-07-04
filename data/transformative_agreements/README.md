@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 57,885 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 57,886 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -27,7 +27,7 @@ This dataset contains information on 57,885 articles, published at 326 instituti
 |DEAL Springer Nature Germany                 |     2937|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
-|Swiss Consortium Wiley agreement             |      963|
+|Swiss Consortium Wiley agreement             |      964|
 |FinELib Springer Compact agreement           |      895|
 |FinELib Wiley agreement                      |      790|
 |Swiss Consortium Springer Compact agreement  |      693|
@@ -70,7 +70,7 @@ This dataset contains information on 57,885 articles, published at 326 instituti
 |FWF - Austrian Science Fund                                                                                                                        |     1559|
 |ETH Zurich                                                                                                                                         |     1445|
 |TU Muenchen                                                                                                                                        |     1339|
-|University of Zurich                                                                                                                               |     1242|
+|University of Zurich                                                                                                                               |     1243|
 |University of Helsinki                                                                                                                             |     1233|
 |University College London                                                                                                                          |     1022|
 |Lund University                                                                                                                                    |      995|
