@@ -1,7 +1,7 @@
 
 ## About
 
-This directory contains APC data from the Wellcome Trust/Charity Open Access Fund from 2013 to 2018. There are 3 different files for each period (fiscal year running from 1st October to 30th September):
+This directory contains APC data from the Wellcome Trust/Charity Open Access Fund from 2013 to 2019. There are 3 different files for each period (fiscal year running from 1st October to 30th September):
 
 ### Original files
 
@@ -10,17 +10,18 @@ This directory contains APC data from the Wellcome Trust/Charity Open Access Fun
 - COAF_All_institutes_full_data_combined_v2_FIGSHARE_2015-2016.csv
 - COAF_Institutes_16_17_Data_FIGSHAREv2.csv
 - COAF_2017_18.csv
+- COAF_2018_19.csv
 
-These are simple CSV exports from the original Excel spreadsheets provided by the Wellcome Trust on figshare ([2013-14](http://dx.doi.org/10.6084/M9.FIGSHARE.1321361), [2014-15](https://dx.doi.org/10.6084/m9.figshare.3118936.v1), [2015-16](https://doi.org/10.6084/m9.figshare.4765999.v2), [2016-17](https://doi.org/10.6084/m9.figshare.6205376) and [2017-18](https://doi.org/10.6084/m9.figshare.8010617.v1)). No data was changed.
+These are simple CSV exports from the original Excel spreadsheets provided by the Wellcome Trust on figshare ([2013-14](http://dx.doi.org/10.6084/M9.FIGSHARE.1321361), [2014-15](https://dx.doi.org/10.6084/m9.figshare.3118936.v1), [2015-16](https://doi.org/10.6084/m9.figshare.4765999.v2), [2016-17](https://doi.org/10.6084/m9.figshare.6205376), [2017-18](https://doi.org/10.6084/m9.figshare.8010617.v1) and [2018-19](https://doi.org/10.6084/m9.figshare.12301160.v1)). Data was usually left unchanged, in the 2018-19 case the "notes" and "provenance" columns were excluded to avoid cluttering the CSV export.
 
 ### Preprocessed files
 
 Preprocessed variants of the aforementioned files are indicated by a "_preprocessed" suffix. The following steps were carried out to make the files processable by the OpenAPC enrichment routines:
 
 - All columns not relevant to the OpenAPC data schema were removed.
-- An 'institution' column was added, default value 'Wellcome Trust'.
+- An 'institution' column was added, default value 'Wellcome Trust'. For the 2018/19 file, the "University" column was used, with the institution names being normalised to match OpenAPC identifiers.
 - A 'period' column was added, defaulting to the second year of each file. Note that this is slightly incorrect as the data time frames run from 1st October to 30th September of the following year (Wellcome Trust financial year). However, there is no means to adress this issue at the moment.
-- The 'cost' column was normalised. Pound signs and decimal marks were removed. Rows with malformed monetary values (like '491625' in line 22 of the 2014-15 file, which originates from an already malformed value '491.625' in the original spreadsheet) were removed.
+- The 'cost' column was normalised. Pound signs and decimal marks were removed. Rows with malformed monetary values (like '491625' in line 22 of the 2014-15 file, which originates from an already malformed value '491.625' in the original spreadsheet) were removed. In case of the 2017_18 and 2018_19 files, the 'APC paid (£) including VAT if charged' was used as source column.
 - The values in the 'cost' column were converted from Pound Sterling to Euro. This was done using the average exchange rate for the reported timeframes as provided by the [ECB](https://www.ecb.europa.eu/stats/exchange/eurofxref/html/eurofxref-graph-gbp.en.html). The column was renamed to 'euro'.
 
 |file                                                                          | time frame                 | exchange rate (1 GBP =)     | 
@@ -29,9 +30,10 @@ Preprocessed variants of the aforementioned files are indicated by a "_preproces
 |University_Returns_2014-2015_FINAL_Figshare_preprocessed.csv                  | 01-10-2014 till 30-09-2015 | 1.3488 EUR                  |
 |COAF_All_institutes_full_data_combined_v2_FIGSHARE_2015-2016_preprocessed.csv | 01-10-2015 till 30-09-2016 | 1.1477 EUR                  |
 |COAF_Institutes_16_17_Data_FIGSHAREv2_preprocessed.csv                        | 01-10-2016 till 30-09-2017 | 1.1405 EUR                  |
-|COAF_2017_18_preprocessed.csv                                                 | 01-10-2017 till 30-09-2018 | 1.1302 EUR
+|COAF_2017_18_preprocessed.csv                                                 | 01-10-2017 till 30-09-2018 | 1.1302 EUR                  |
+|COAF_2018_19_preprocessed.csv                                                 | 01-10-2018 till 30-09-2019 | 1.1313 EUR                  |
 
-- The 'Journal Type' column was renamed to 'is_hybrid'. Values were converted accordingly: 'oa' was mapped to 'FALSE', 'hybrid' to TRUE (in case of 2016/17: Column 'Fully Open Access Journal', '0' mapped to TRUE, '1' mapped to FALSE. In 2017/18: Same mapping for column 'Open Access?').
+- The 'Journal Type' column was renamed to 'is_hybrid'. Values were converted accordingly: 'oa' was mapped to 'FALSE', 'hybrid' to TRUE (in case of 2016/17: Column 'Fully Open Access Journal', '0' mapped to TRUE, '1' mapped to FALSE. In 2017/18: Same mapping for column 'Open Access?'. In 2018/19: Column 'Open Access' used directly, with reversed values).
 - All rows without a DOI or a cost value of 0 were removed.
 
 In all cases of rows removed, an empty line (sequence of semicolons) was inserted instead, so rows in the preprocessed files can still be assigned to their counterpart in the original file by line numbers.

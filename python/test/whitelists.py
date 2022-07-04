@@ -169,6 +169,7 @@ JOURNAL_OWNER_CHANGED = {
     "1178-2021": ["Dove Medical Press Ltd.", "Informa UK Limited"], # Neuropsychiatric Disease and Treatment
     "2155-384X": ["Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical and Translational Gastroenterology
     "0009-921X": ["Springer Science + Business Media", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical Orthopaedics and Related Research®
+    "1528-1132": ["Springer Science + Business Media", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # Clinical Orthopaedics and Related Research® (electronic)
     "1179-5549": ["Libertas Academica, Ltd.", "SAGE Publications"], # Clinical Medicine Insights: Oncology
     "0141-8955": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Inherited Metabolic Disease
     "0261-3875": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Legal Studies
@@ -444,7 +445,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1438-4221", # International Journal of Medical Microbiology, Gold OA since 2020
     "1367-5435", # Journal of Industrial Microbiology and Biotechnology, Gold OA since 2020
     "1525-2027", # Geochemistry, Geophysics, Geosystems, Gold OA since 2022
-    "0906-4710" # Acta Agriculturae Scandinavica, Section B — Soil & Plant Science, Gold OA since 2022
+    "0906-4710", # Acta Agriculturae Scandinavica, Section B — Soil & Plant Science, Gold OA since 2022
+    "2468-2942", # Cancer Treatment and Research Communications, Gold OA since 2020
+    "0001-6349", # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022
+    "1600-0412", # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022 (electronic)
+    "2329-9037" # Journal of Responsible Innovation, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

@@ -15,6 +15,7 @@ PUBLISHER_MAPPINGS = {
     "Bioscientifica": "BioScientifica",
     "Springer Nature America, Inc": "Springer Nature",
     "Springer Science and Business Media LLC": "Springer Nature",
+    "Springer Fachmedien Wiesbaden GmbH": "Springer Nature",
     "F1000 ( Faculty of 1000 Ltd)": "F1000 Research, Ltd.",
     "F1000 Research Ltd": "F1000 Research, Ltd.",
     "Scientific and Academic Publishing": "Scientific & Academic Publishing",
@@ -520,7 +521,74 @@ JOURNAL_MAPPINGS = {
     "Cell Death & Differentiation": "Cell Death and Differentiation",
     "Clinical and Experimental Immunology": "Clinical & Experimental Immunology",
     "Molecular Nutrition &amp; Food Research": "Molecular Nutrition & Food Research",
-    "Social Politics: International Studies in Gender, State &amp; Society": "Social Politics: International Studies in Gender, State & Society"
+    "Social Politics: International Studies in Gender, State &amp; Society": "Social Politics: International Studies in Gender, State & Society",
+    "Regulation &amp; Governance": "Regulation & Governance",
+    "Alzheimer's &amp; Dementia": "Alzheimer's & Dementia",
+    "Chemistry &amp; Biodiversity": "Chemistry & Biodiversity",
+    "Neurogastroenterology &amp; Motility": "Neurogastroenterology & Motility",
+    "Science &amp; Education": "Science & Education",
+    "Rendiconti Lincei. Scienze Fisiche e Naturali": "Rendiconti Lincei",
+    "Wirtschaftsinformatik &amp; Management": "Wirtschaftsinformatik & Management",
+    "Information Technology &amp; Tourism": "Information Technology & Tourism",
+    "Discrete &amp; Computational Geometry": "Discrete & Computational Geometry",
+    "Cell Death & Differentiation": "Cell Death and Differentiation",
+    "Clinical Orthopaedics &amp; Related Research": "Clinical Orthopaedics and Related Research",
+    "Environmental Science &amp; Technology": "Environmental Science & Technology",
+    "Random Structures &amp; Algorithms": "Random Structures & Algorithms",
+    "International Journal of Environmental Sciences &amp; Natural Resources": "International Journal of Environmental Sciences & Natural Resources",
+    "Social Theory &amp; Health": "Social Theory & Health",
+    "Information &amp; Management": "Information & Management",
+    "Environmental Science &amp; Policy": "Environmental Science & Policy",
+    "Statistics &amp; Probability Letters": "Statistics & Probability Letters",
+    "Computers &amp; Industrial Engineering": "Computers & Industrial Engineering",
+    "Computational Statistics &amp; Data Analysis": "Computational Statistics & Data Analysis",
+    "Reliability Engineering &amp; System Safety": "Reliability Engineering & System Safety",
+    "Trends in Food Science &amp; Technology": "Trends in Food Science & Technology",
+    "Environmental Modelling &amp; Software": "Environmental Modelling & Software",
+    "Computers &amp; Fluids": "Computers & Fluids",
+    "Best Practice &amp; Research Clinical Anaesthesiology": "Best Practice & Research Clinical Anaesthesiology",
+    "Computers &amp; Operations Research": "Computers & Operations Research",
+    "Neuroscience &amp; Biobehavioral Reviews": "Neuroscience & Biobehavioral Reviews",
+    "Science &amp; Justice": "Science & Justice",
+    "Child Abuse &amp; Neglect": "Child Abuse & Neglect",
+    "Journal of Economic Behavior &amp; Organization": "Journal of Economic Behavior & Organization",
+    "Orthopaedics &amp; Traumatology: Surgery &amp; Research": "Orthopaedics & Traumatology: Surgery & Research",
+    "Wilderness &amp; Environmental Medicine": "Wilderness & Environmental Medicine",
+    "Journal of Banking &amp; Finance": "Journal of Banking & Finance",
+    "Computers &amp; Graphics": "Computers & Graphics",
+    "Physiology &amp; Behavior": "Physiology & Behavior",
+    "Urban Forestry &amp; Urban Greening": "Urban Forestry & Urban Greening",
+    "Gait &amp; Posture": "Gait & Posture",
+    "Computer Speech &amp; Language": "Computer Speech & Language",
+    "Computers &amp; Structures": "Computers & Structures",
+    "Computers &amp; Chemical Engineering": "Computers & Chemical Engineering",
+    "Innovative Food Science &amp; Emerging Technologies": "Innovative Food Science & Emerging Technologies",
+    "Current Opinion in Genetics &amp; Development": "Current Opinion in Genetics & Development",
+    "Journal of Clinical &amp; Translational Endocrinology": "Journal of Clinical & Translational Endocrinology",
+    "Epilepsy &amp; Behavior": "Epilepsy & Behavior",
+    "Best Practice &amp; Research Clinical Endocrinology &amp; Metabolism": "Best Practice & Research Clinical Endocrinology & Metabolism",
+    "European Journal of Obstetrics &amp; Gynecology and Reproductive Biology": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
+    "Health &amp; Place": "Health & Place",
+    "IJC Heart &amp; Vasculature": "IJC Heart & Vasculature",
+    "Cytokine &amp; Growth Factor Reviews": "Cytokine & Growth Factor Reviews",
+    "Seminars in Cell &amp; Developmental Biology": "Seminars in Cell & Developmental Biology",
+    "The International Journal of Biochemistry &amp; Cell Biology": "The International Journal of Biochemistry & Cell Biology",
+    "Technical Innovations &amp; Patient Support in Radiation Oncology": "Technical Innovations & Patient Support in Radiation Oncology",
+    "Chaos, Solitons &amp; Fractals": "Chaos, Solitons & Fractals",
+    "Data &amp; Knowledge Engineering": "Data & Knowledge Engineering",
+    "Comparative Biochemistry and Physiology Part A: Molecular &amp; Integrative Physiology": "Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology",
+    "Nutrition &amp; Metabolism": "Nutrition & Metabolism",
+    "Cellular &amp; Molecular Biology Letters": "Cellular & Molecular Biology Letters",
+    "Journal of Occupational &amp; Environmental Medicine": "Journal of Occupational and Environmental Medicine",
+    "Clocks &amp; Sleep": "Clocks & Sleep",
+    "Journal of Bone and Joint Surgery": "The Journal of Bone and Joint Surgery",
+    "Genes &amp; Immunity": "Genes and Immunity",
+    "Journal of Vacuum Science &amp; Technology A": "Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films",
+    "Photochemical &amp; Photobiological Sciences": "Photochemical & Photobiological Sciences",
+    "Immunology &amp; Cell Biology": "Immunology and Cell Biology",
+    "Clinical &amp; Experimental Allergy": "Clinical & Experimental Allergy",
+    "IET Microwaves, Antennas &amp; Propagation": "IET Microwaves, Antennas & Propagation",
+    "Biomedical Journal of Scientific &amp; Technical Research": "Biomedical Journal of Scientific & Technical Research"
 }
 
 COLUMN_NAMES = {
@@ -560,5 +628,12 @@ ISSN_L_CORRECTIONS = {
     "1474-7596": "1465-6906", # "Genome Biology".  1465-6906(issn_p) -> 1465-6906, but 1474-760X(issn_e) -> 1474-7596
     "0959-8138": "1756-1833", # BMJ. The BMJ has a bunch of ISSNs assigend, but the ISSN-L mappings are all fixed points. Unknown if this is intended.
     "0957-5820": "NA", # 0957-5820 clearly belongs to "Process Safety and Environmental Protection". Unfortunately there's the line 0263-8762 -> 0957-5820 which incorrectly maps the issn of "Chemical Engineering Research and Design" to the same value. We have no choice but to omit this value.
-    "2058-5888": "NA" # 2058-5888 (issn_e for "Environmental Epigenetics") maps to 1674-5507 (issn_l for "Current Zoology")
+    "2058-5888": "NA", # 2058-5888 (issn_e for "Environmental Epigenetics") maps to 1674-5507 (issn_l for "Current Zoology")
+    "1573-0565": "0885-6125", # "Machine Learning". 1573-0565(issn_e) -> 1573-0565, but 0885-6125(issn_p) -> 0885-6125
+    "2041-7136": "2041-7136" # "Pastoralism" 
+}
+
+AGREEMENT_PUBLISHERS = {
+    "DEAL Springer Nature Germany": ["Springer Nature"],
+    "DEAL Wiley Germany": ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)", "International Union of Crystallography (IUCr)"]
 }
