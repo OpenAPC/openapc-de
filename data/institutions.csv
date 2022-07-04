@@ -112,7 +112,7 @@ Luleå University of Technology,lulea_tu,Luleå University of Technology,EUROPE,
 Lund University,lund_u,Lund University,EUROPE,SWE,SE-M,natlibswe/univ_lund,https://ror.org/012a77v79
 Malmö University,malmo_u,Malmö University,EUROPE,SWE,SE-M,natlibswe/univ_malmo,https://ror.org/05wp7an13
 Mälardalen University,malardalen_u,Mälardalen University,EUROPE,SWE,SE-U,natlibswe/univ_malardalen,https://ror.org/033vfbz75
-Stockholm School of Economics,stockholm_se,Stockholm School of Economics,EUROPE,SWE,SE-AB,NA,https://ror.org/01s5jzh92
+Stockholm School of Economics,stockholm_se,Stockholm School of Economics,EUROPE,SWE,SE-AB,natlibswe/sthlm_school_economics,https://ror.org/01s5jzh92
 Stockholm University,stockholm_u,Stockholm University,EUROPE,SWE,SE-AB,natlibswe/univ_stockholm,https://ror.org/05f0yaq80
 Swedish University of Agricultural Sciences,swedish_agricultural_u,Swedish University of Agricultural Sciences,EUROPE,SWE,SE-C,natlibswe/swe_univ_agr_sci,https://ror.org/02yy8x990
 Umeå University,umea_u,Umeå University,EUROPE,SWE,SE-AC,NA,https://ror.org/05kb8h459
@@ -177,7 +177,7 @@ Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-A
 Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt,https://ror.org/033p9g875
 Université Nice-Sophia-Antipolis,nice_u,Université Nice-Sophia-Antipolis,EUROPE,FRA,FR-PAC,couperin/nice,NA
 Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers,https://ror.org/04xhy8q59
-University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,NA,https://ror.org/01fdxwh83
+University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,natlibswe/univ_boras,https://ror.org/01fdxwh83
 University West,west_u,University West,EUROPE,SWE,SE-O,natlibswe/univ_vast,https://ror.org/0257kt353
 Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,NA,https://ror.org/00j9qag85
 Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T,natlibswe/univ_orebro,https://ror.org/05kytsw45
@@ -246,7 +246,7 @@ GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,ge
 University of Jyväskylä,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,unijyväskylä,https://ror.org/05n3dz165
 Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea,https://ror.org/00jjx8s55
 Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg,https://ror.org/05gs8cd61
-Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,NA,https://ror.org/046hach49
+Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,natlibswe/swe_school_sports_health_sciences,https://ror.org/046hach49
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,natlibswe/univ_skovde,https://ror.org/051mrsz47
 Karlstad University,karlstad_u,Karlstad University,EUROPE,SWE,SE-S,natlibswe/univ_karlstad,https://ror.org/05s754026
 Mannheim U,mannheim_u,University of Mannheim,EUROPE,DEU,BW,unimannheim,https://ror.org/031bsb921
