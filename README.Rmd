@@ -349,7 +349,7 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Paris 8 Vincennes - Saint-Denis
 - Sciences Po Paris
 - Sorbonne Université
-- Université d'Avignon et des Pays de Vaucluse
+- Avignon Université
 - Université de Caen Normandie
 - Université Claude Bernard Lyon 1
 - Université Clermont Auvergne
