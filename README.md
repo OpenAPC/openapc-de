@@ -539,6 +539,24 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2021   |      13,809|   1,742|     1,738|  27.03 -  6,417|           1,764|       2,519|         2,470|    30.2 -  9,590|
 |2022   |          91|   1,927|     1,931| 421.26 -  4,066|               9|       2,065|         1,956| 1,489.5 -  2,850|
 
+#### Additional costs
+
+OpenAPC also aggregates data on additional costs linked to OA publishing:
+
+
+|Cost Type      | Total| Occurence| Median|
+|:--------------|-----:|---------:|------:|
+|Colour charges |  6741|         6|   1084|
+|Cover          |  1695|         2|    848|
+|Other          | 10572|        78|     25|
+|Page charges   |  7604|        14|    456|
+|Reprint        |   724|         1|    724|
+
+
+
+![](figure/additional_avg_costs.png)
+
+
 ### Books (BPCs)
 
 The book data set contains information on 1,412 open access books. Publication fees were supported financially by 25 research performing institutions and funders. 
