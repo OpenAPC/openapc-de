@@ -34,42 +34,45 @@ There are several options. You may simply download the the raw data sets in CSV 
 ## How to contribute?
 
 Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
-This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
+This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details. The following institutions have contributed to OpenAPC so far:
 
-## Participating German Universities
+## Institutions from Germany 
 
-So far, the following German universities have agreed to share information on paid author processing charges (APC):
+###  Higher education institutions 
 
+- [Bamberg University](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [Bauhaus-Universität Weimar](https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/)
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
+- [Carl von Ossietzky Universität Oldenburg](https://uol.de/en/bis/research-publishing/open-access/open-access-publication-fund)
 - [Catholic University of Eichstätt-Ingolstadt](https://www.ku.de/bibliothek/forschen-und-publizieren/open-access)
 - [Charité - Universitätsmedizin Berlin](https://bibliothek.charite.de/publizieren/open_access)
 - [Christian-Albrechts-Universität zu Kiel](https://www.ub.uni-kiel.de/en/open-access-publishing/open-access)
 - [Clausthal University of Technology](http://www.ub.tu-clausthal.de/en/angebote-fuer-wissenschaftlerinnen/elektronisches-publizieren/publikationsfonds/)
+- [Eberhard Karls Universität Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/publishing/open-access-publication-fund/)
 - [Freie Universität Berlin](http://www.fu-berlin.de/sites/open_access/finanzierung/publikationsfonds/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
 - [Friedrich-Schiller-Universität Jena](https://www.thulb.uni-jena.de/Kontakt+_+Service/Elektronisches+Publizieren+_+Open+Access.html)
-- [Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Hamburg University of Applied Sciences](https://www.haw-hamburg.de/hibs/publizieren/publikationsfonds/)
 - [Hamburg University of Technology](https://www.tub.tu-harburg.de/publizieren/openaccess/)
 - [Heidelberg University](http://www.ub.uni-heidelberg.de/Englisch/service/openaccess/publikationsfonds.html)
 - [Heinrich-Heine-Universität Düsseldorf](https://www.ulb.hhu.de/en/reseach-teaching-publishing/open-access/hhus-open-access-fund)
 - [Hochschule Düsseldorf](https://bib.hs-duesseldorf.de/en)
-- [Hochschule Hannover](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/)
 - [Hochschule für Technik und Wirtschaft Dresden](https://www.htw-dresden.de/oa)
+- [Hochschule Hannover](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/)
 - [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de)
+- [JLU Gießen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
+- [Johann Wolfgang Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
+- [Johannes Gutenberg University of Mainz](https://www.ub.uni-mainz.de/de/open-access/foerderkriterien-open-access)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-science/publikationsfonds/)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
-- [Martin-Luther-Universität Halle-Wittenberg](https://bibliothek.uni-halle.de/dbib/openaccess/)
-- [Philipps-Universität Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds)
+- [Martin Luther Universität Halle-Wittenberg](https://bibliothek.uni-halle.de/dbib/openaccess/)
 - [Medizinische Hochschule Brandenburg Theodor Fontane](https://www.mhb-fontane.de/open-access-publikationsfonds-482.html)
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
-- [JGU Mainz](https://www.ub.uni-mainz.de/de/open-access/foerderkriterien-open-access)
-- [JLU Giessen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Otto-von-Guericke-Universität Magdeburg](https://www.ub.ovgu.de/en/Publication+_+Open+Access/Open+Access/Publication+Fund+for+Articles.html)
+- [Philipps University of Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds)
 - [Rheinische Friedrich-Wilhelms-Universität Bonn](https://www.open-access.uni-bonn.de/de)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
@@ -82,18 +85,17 @@ So far, the following German universities have agreed to share information on pa
 - [Technische Universität Dresden](https://www.slub-dresden.de/veroeffentlichen/open-access-finanzieren)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/universitaet/quicklinks/universitaetsbibliothek/forschen-publizieren/open-access/open-access-finanzierung/open-access-publikationsfonds)
 - [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
+- [Ulm University](https://www.uni-ulm.de/en/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/open-access/open-access/)
+- [Universität Erfurt](https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren/open-access)
 - [University of Applied Sciences Bielefeld](https://www.fh-bielefeld.de/open-access/publikationsfonds)
-- [University of Bamberg](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
 - [University of Duisburg-Essen](https://www.uni-due.de/ub/publikationsdienste/oa_foerderung.php)
-- [University of Erfurt](https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren/open-access)
 - [University of Freiburg](https://www.ub.uni-freiburg.de/en/support/electronic-publishing/open-access/open-access-publication-fund/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
 - [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/finanzierung-von-publikationen/publication-fund/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/funding-open-access/)
 - [University of Mannheim](https://www.bib.uni-mannheim.de/en/open-access-publishing-fund/)
-- [University of Oldenburg](https://uol.de/en/bis/research-publishing/open-access/open-access-publication-fund)
 - [University of Passau](https://www.ub.uni-passau.de/publizieren/open-access/publikationsfonds/)
 - [University of Potsdam](https://publishup.uni-potsdam.de/home/index/help/content/publication_fund)
 - [University of Regensburg](http://oa.uni-regensburg.de/)
@@ -101,112 +103,108 @@ So far, the following German universities have agreed to share information on pa
 - [University of Siegen](https://www.ub.uni-siegen.de/index.php?id=1510&L=1)
 - [University of Stuttgart](https://oa.uni-stuttgart.de/publizieren/fonds/)
 - [University of Trier](https://www.uni-trier.de/index.php?id=60802)
-- [University of Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/publishing/open-access-publication-fund/)
-- [University of Veterinary Medicine Hannover, Foundation (TiHo)](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
+- [University of Veterinary Medicine Hannover, Foundation](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
 - [University of Würzburg](https://www.bibliothek.uni-wuerzburg.de/en/research-publishing/open-access/publication-fund/)
-- [Ulm University](https://www.uni-ulm.de/en/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/open-access/open-access/)
 
-## Participating German Research Organisations
+###  Research institutes 
 
-### Fraunhofer Society
+####  Fraunhofer Society 
 
-- [Fraunhofer Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html)
+- [Fraunhofer-Gesellschaft Publishing Fund](https://www.openaccess.fraunhofer.de/en/open-access-strategy.html)
 
-### Helmholtz Association
+####  Helmholtz Association 
 
-- [DLR - Deutsches Zentrum für Luft- und Raumfahrt](https://www.dlr.de/zb/en/desktopdefault.aspx/tabid-8234/)
+- [Deutsches Zentrum für Luft- und Raumfahrt](https://www.dlr.de/zb/en/desktopdefault.aspx/tabid-8234/)
 - [Forschungszentrum Jülich](https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html)
 - [GEOMAR - Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/centre/central-facilities/bibliothek/author-services/publication-costs)
-- [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
-- [Helmholtz-Zentrum für Umweltforschung - UFZ](https://www.ufz.de/index.php?en=36297)
 - [GFZ German Research Centre for Geosciences](https://www.gfz-potsdam.de/en/home/) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
+- [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
+- [Helmholtz-Zentrum für Umweltforschung – UFZ](https://www.ufz.de/index.php?en=36297)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
 
-### Leibniz Association
+####  Leibniz Association 
 
-- [DIPF | Leibniz Institute for Research and Information in Education](https://www.dipf.de/en/knowledge-resources/dipfdocs-open-access?set_language=en)
+- [DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation](https://www.dipf.de/en/knowledge-resources/dipfdocs-open-access?set_language=en)
 - [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/en/giga-open-access-guidelines)
-- [IFW - Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden](https://www.ifw-dresden.de/about-us/library)
 - [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/en/library)
 - [INM - Leibniz Institute for New Materials](https://www.ntnm-bib.de/open-access/publikationsfonds/)
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
-- [Leibniz Association's Open Access Publishing Fund](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access)
-- [Paul-Drude-Institut für Festkörperelektronik](http://www.pdi-berlin.de/home/) 
-- [Potsdam Institute for Climate Impact Research](https://www.pik-potsdam.de) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
-- [Technische Informationsbibliothek (TIB) - German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
+- [Leibniz-Fonds](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access)
+- [Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden](https://www.ifw-dresden.de/about-us/library)
+- [Paul-Drude-Institut für Festkörperelektronik](http://www.pdi-berlin.de/home/)
+- [Potsdam Institute for Climate Impact Research (PIK)](https://www.pik-potsdam.de) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
+- [TIB – German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
 - [WIAS - Weierstrass Institute for Applied Analysis and Stochastics](https://www.wias-berlin.de/services/library/)
 
-### Max Planck Society
+####  Max Planck Society 
 
-- [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html)
+- [Max Planck Digital Library](http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html) (The data content covers APCs as paid for by the central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of the data. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.)
 
-The data content covers APCs as paid for by the central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of the data. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
-
-## Other German Institutions
+###  Other institutions 
 
 - [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
-- [Knowledge Unlatched](https://www.knowledgeunlatched.org/)
-- [OA-Monofonds Brandenburg](https://open-access-brandenburg.de/fonds/)
 - [SWP - German Institute for International and Security Affairs](https://www.swp-berlin.org/en/)
 
-## Participating Austrian Institutions
+- Hochschule für Angewandte Wissenschaften Würzburg-Schweinfurt
+
+## Institutions from Austria 
 
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Institute of Science and Technology Austria](https://ist.ac.at/en/research/library/publish-communicate/)
 - [Johannes Kepler University Linz](https://www.jku.at/en/library/service/bibliometrics-and-publication-support/open-access-publishing/publication-fund/)
-- [University of Salzburg](https://www.plus.ac.at/university-library/services/open-access/open-access-policy/?lang=en)
 - [Technische Universität Wien](https://www.tuwien.at/en/library/research-and-publishing/funding)
+- [University of Salzburg](https://www.plus.ac.at/university-library/services/open-access/open-access-policy/?lang=en)
 
-## Participating Swiss Institutions
+## Institutions from Switzerland 
 
-- [SNSF - Swiss National Science Foundation](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Bern University of Applied Sciences](http://www.bfh.ch/)
-- [University of Basel](https://www.unibas.ch/en/University/Administration-Services/Vice-President-for-Research/Grants-Office/Grants-Office-News/Grants-Office-Newsletter-2020-12/Open-Access.html)
-- [University of Bern](https://www.ub.unibe.ch/services/open_science/open_access/oa_fonds/index_eng.html)
 - [Eawag - Swiss Federal Institute of Aquatic Science and Technology](https://www.eawag.ch/en/) (via [Lib4RI](https://www.lib4ri.ch/services/open-access.html))
 - [Empa - Swiss Federal Laboratories for Materials Science and Technology](https://www.empa.ch/) (via [Lib4RI](https://www.lib4ri.ch/services/open-access.html))
-- [ETH Zurich](https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/publishing-in-open-access-journals.html)
-- [University of Zurich](https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access/Open-Access-an-der-UZH.html)
-- [Lucerne University of Applied Sciences and Arts](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
+- [ETH Zürich](https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/publishing-in-open-access-journals.html)
+- [Hochschule Luzern](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
+- [Pädagogische Hochschule Luzern](https://www.phlu.ch/)
 - [Pädagogische Hochschule Zürich](https://phzh.ch/de/Forschung/grundsatze/open-access/)
 - [PSI - Paul Scherrer Institute](https://www.psi.ch/en)
-- [University of Teacher Education Lucerne](https://www.phlu.ch/)
-- [University of Lucerne](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
+- [Swiss National Science Foundation (SNSF)](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
+- [Universität Luzern](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
+- [University of Basel](https://www.unibas.ch/en/University/Administration-Services/Vice-President-for-Research/Grants-Office/Grants-Office-News/Grants-Office-Newsletter-2020-12/Open-Access.html)
+- [University of Bern](https://www.ub.unibe.ch/services/open_science/open_access/oa_fonds/index_eng.html)
+- [University of Zurich](https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access/Open-Access-an-der-UZH.html)
 - [WSL - Swiss Federal Institute for Forest, Snow and Landscape Research](https://www.wsl.ch/en/index.html)
 - [ZHAW Zurich University of Applied Sciences](https://www.zhaw.ch/en/library/writing-publishing/publishing-and-open-access/oa-at-the-zhaw/#c112481)
-- [Zurich University of the Arts ZHdK](https://www.zhdk.ch/miz/miz-oa)
+- [Zurich University of the Arts](https://www.zhdk.ch/miz/miz-oa)
 
-## Participating Italian Institutions
+## Institutions from Italy 
 
 - [Free University of Bozen-Bolzano](https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/)
 - [Università degli Studi di Milano](http://www.unimi.it/ENG/)
-- [Veneto Institute of Oncology IOV IRCCS](https://www.ioveneto.it/ricerca/biblioteca/)
+- [Veneto Institute of Oncology (IOV IRCCS)](https://www.ioveneto.it/ricerca/biblioteca/)
 
-## Institutions from Norway:
+## Institutions from Norway 
 
 - Akershus University Hospital
-- BI Norwegian Business School
 - Bergen University College
+- BI Norwegian Business School
 - Fridtjof Nansen Institute
 - GenØk - Centre for Biosafety
 - Harstad University College
 - Innlandet Hospital Trust
 - Institute of Marine Research
 - Molde University College
-- NILU - Norwegian Institute for Air Research
 - Nansen Environmental and Remote Sensing Center
 - Nord University
 - Norwegian Center for Studies on Violence and Traumatic Stress
 - Norwegian Institute for Agricultural and Environmental Research
+- Norwegian Institute for Air Research
 - Norwegian Institute for Nature Research
 - Norwegian Institute of Public Health
 - Norwegian Institute of Water Research
 - Norwegian School of Sport Sciences
 - Norwegian University of Life Sciences
 - Norwegian University of Science and Technology
+- Oslo and Akershus University College
 - Oslo University Hospital
-- Oslo and Akershus university college
 - SINTEF (Foundation for Scientific and Industrial Research)
 - Sørlandet Hospital Trust
 - Uni Research
@@ -219,21 +217,17 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - Vestfold Hospital Trust
 - Vestre Viken Hospital Trust
 
-## Participating Spanish Institutions:
+## Institutions from Spain 
 
 - [Universitat de Barcelona](http://crai.ub.edu/en/crai-services/open-access-ub)
 
-## Institutions from Sweden (via [Open APC Sweden](https://github.com/Kungbib/openapc-se)):
+## Institutions from Sweden 
 
 - BTH Blekinge Institute of Technology
 - Chalmers University of Technology
 - Dalarna University
 - Halmstad University
-- Swedish School of Sport and Health Sciences
-- University of Gothenburg
-- University of Borås
-- University of Skövde
-- University West
+- Jönköping University
 - Karlstad University
 - Karolinska Institutet
 - KTH Royal Institute of Technology
@@ -241,20 +235,26 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - Linnaeus University
 - Luleå University of Technology
 - Lund University
-- Malmö University
 - Mälardalen University
+- Malmö University
 - Örebro University
-- Swedish University of Agricultural Sciences
 - Södertörns University
 - Stockholm School of Economics
 - Stockholm University
+- Swedish School of Sport and Health Sciences
+- Swedish University of Agricultural Sciences
 - Umeå University
+- University of Borås
+- University of Gävle
+- University of Gothenburg
+- University of Skövde
+- University West
 - Uppsala University
 
-
-## Institutions from Finland (Some of them reported by the [CSC](https://www.csc.fi/en/-/virta-publication-information-service)):
+## Institutions from Finland 
 
 - Aalto University
+- Åbo Akademi University
 - Haaga-Helia University of Applied Sciences
 - Häme University of Applied Sciences
 - [Hanken School of Economics](https://www.hanken.fi/en)
@@ -262,7 +262,7 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - Lapin ammattikorkeakoulu (Lapland University of Applied Sciences)
 - [Laurea University of Applied Sciences](https://www.laurea.fi/en/)
 - Natural Resources Institute Finland
-- Satakunta University of Applied Sciences (SAMK)
+- Satakunta University of Applied Sciences
 - Seinäjoki University of Applied Sciences
 - South-Eastern Finland University of Applied Sciences (Xamk)
 - [Tampere University](https://libguides.tuni.fi/open-access/introduction)
@@ -272,51 +272,45 @@ The data content covers APCs as paid for by the central budget for the Max Planc
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
 - [University of Turku](https://utuguides.fi/openaccess)
 - [University of Vaasa](https://www.uwasa.fi/en)
-- VTT Technical Research Centre of Finland Ltd
+- VTT Technical Research Centre of Finland
 
-## Institutions from France
+## Institutions from France 
 
-The [Couperin consortium](https://couperin.org) aggregates data on APC expenditures made by institutions in France:
-
-- Agence nationale de sécurité du médicament et des produits de santé (ANSM)
+- Agence nationale de sécurité du médicament et des produits de santé
 - AgroParisTech
 - Aix-Marseille Université
-- Université d'Angers
-- Université de Bordeaux
-- Université de Bourgogne
-- Université de Bretagne Occidentale
-- Université de Bretagne-Sud
 - Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
 - Centre national de la recherche scientifique (CNRS)
 - CHU de Rennes
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
 - Conservatoire national des arts et métiers
 - Ecole centrale de Lyon
-- École nationale du génie de l'eau et de l'environnement de Strasbourg (ENGEES)
-- École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
+- École Nationale de l'Aviation Civile
+- École nationale du génie de l'eau et de l'environnement de Strasbourg
+- École nationale supérieure d'ingénieurs de Caen
 - Ecole normale supérieure de Paris
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - ENS de Lyon
 - ENSTA Bretagne
+- EURECOM
 - European Synchrotron Radiation Facility (ESRF)
 - Hospices Civils de Lyon
-- Université Grenoble Alpes
-- IMT Atlantique
+- IMT Atlantique Bretagne Pays de la Loire
 - INSA de Lyon
-- INSA Strasbourg
+- Institut de radioprotection et de sûreté nucléaire
 - Institut de recherche pour le développement (IRD)
+- Institut Français de Recherche pour l'Exploitation de la Mer
 - Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
-- Institut Français de Recherche pour l'Exploitation de la Mer (IFREMER)
 - Institut Laue-Langevin
-- Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de la recherche agronomique (INRA)
-- Institut de radioprotection et de sûreté nucléaire (IRSN)
-- Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
-- Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de la santé et de la recherche médicale (INSERM)
-- Institut national polytechnique de Toulouse (INPT)
-- Institut supérieur d'agriculture Rhône-Alpes (ISARA)
+- Institut national de recherche en informatique et en automatique (INRIA)
+- Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
+- Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
+- Institut National des Sciences Appliquées de Strasbourg
+- Institut national polytechnique de Toulouse(INPT)
 - Institut Pasteur
+- Institut supérieur d'agriculture Rhône-Alpes
 - Laboratoire national d'essais (LNE)
 - Le Mans Université
 - MINES ParisTech
@@ -325,23 +319,23 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Paris 8 Vincennes - Saint-Denis
 - Sciences Po Paris
 - Sorbonne Université
-- Université d'Avignon et des Pays de Vaucluse
-- Université de Caen Normandie
 - Université Claude Bernard Lyon 1
 - Université Clermont Auvergne
+- Université d'Angers
+- Université d'Avignon et des Pays de Vaucluse
+- Université de Bordeaux
+- Université de Bourgogne
+- Université de Bretagne Occidentale
+- Université de Bretagne-Sud
+- Université de Caen Normandie
 - Université de Côte d'Azur
-- Université Technologique de Compiègne
-- Université Evry Val-d'Essonne
-- Université Gustave Eiffel
 - Université de Franche-Comté
 - Université de Haute-Alsace
-- Université du Havre
+- Université de La Réunion
 - Université de La Rochelle
-- Université Lille 1
-- Université Lille 2
 - Université de Lille
-- Université de Montpellier
 - Université de Lorraine
+- Université de Montpellier
 - Université de Nantes
 - Université de Nouvelle Calédonie
 - Université de Pau et des Pays de l'Adour
@@ -349,59 +343,65 @@ The [Couperin consortium](https://couperin.org) aggregates data on APC expenditu
 - Université de Poitiers
 - Université de Reims Champagne Ardenne
 - Université de Rennes 1
-- Université de La Réunion
 - Université de Strasbourg
+- Université de technologie de Troyes
 - Université de Toulon
 - Université de Tours
 - Université de Versailles-Saint-Quentin-en-Yvelines
 - Université des Antilles
+- Université du Havre
 - Université du Littoral Côte d'Opale
-- Université Toulouse III
-- Université de technologie de Troyes
+- Université Evry Val-d'Essonne
+- Université Grenoble Alpes
+- Université Gustave Eiffel
+- Université Jean Moulin - Lyon III
+- Université Lille 1
+- Université Lille 2
+- Université Nice-Sophia-Antipolis
 - Université Paris 1 Panthéon-Sorbonne
 - Université Paris Descartes (Paris V)
-- Université Paris-Est Marne-la-Vallée
-- Université Paris Nanterre
-- Université Pierre et Marie Curie (Paris VI)
 - Université Paris Diderot (Paris VII)
+- Université Paris Nanterre
+- Université Paris-Est Marne-la-Vallée
+- Université Pierre et Marie Curie (Paris VI)
 - Université Polytechnique Hauts-de-France
 - Université Savoie Mont Blanc
+- Université Technologique de Compiègne
+- Université Toulouse III
 
-## Participating Institutions from the United Kingdom:
-
-- [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
-- [JISC](https://www.jisc.ac.uk/reports/apcs-and-subscriptions)
-
-Jisc Collections released data on APC payments made by UK higher education institutions (HEIs):
+## Institutions from the United Kingdom 
 
 - Aberystwyth University
 - Aston University
 - Bangor University
-- Birkbeck College
+- Birkbeck, University of London
 - Brunel University
 - Cardiff University
 - Cranfield University
 - Edinburgh Napier University
 - Glasgow Caledonian University
-- Goldsmiths
+- Goldsmiths, University of London
 - Heriot-Watt University
 - Imperial College London
 - Institute of Cancer Research (ICR)
 - Keele University
 - King's College London
+- Lancaster University
 - Leeds Beckett University
 - Liverpool John Moores University
 - Liverpool School of Tropical Medicine
 - London School of Economics (LSE)
 - London School of Hygiene & Tropical Medicine (LSHTM)
-- Lancaster University
+- London South Bank University
 - Manchester Metropolitan University
 - Northumbria University
+- Oxford Brookes University
 - Plymouth University
-- Queen Mary, University of London
+- Queen Mary University of London
 - Queen's University Belfast
-- Royal Holloway
+- Royal Holloway, University of London
 - Royal Veterinary College
+- SOAS University of London
 - St George's, University of London
 - Swansea University
 - The Open University
@@ -441,57 +441,58 @@ Jisc Collections released data on APC payments made by UK higher education insti
 - University of Ulster
 - University of Warwick
 - University of York
+- [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
 
-## Participating Institutions from the Czech Republic:
+## Institutions from the Czech Republic 
 
 - [Charles University](https://cuni.cz/UKEN-1.html)
 - [University of Chemistry and Technology, Prague](https://www.chemtk.cz/en/)
-- [Technical University of Ostrava](https://www.vsb.cz/en)
+- [VSB - Technical University of Ostrava](https://www.vsb.cz/en)
 
-## Participating Institutions from Hungary
+## Institutions from Hungary 
 
 - [University of Debrecen](https://unideb.hu/en)
 
-## Participating Institutions from Serbia
+## Institutions from Serbia 
 
 - [University of Belgrade](http://bg.ac.rs/en/)
 
-## Participating Institutions from Belgium
+## Institutions from Belgium 
 
 - [University of Liège](https://www.uliege.be/cms/c_8699436/en/uliege)
 
-## Participating Institutions from the United States:
+## Institutions from the United States 
 
 - [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/how-we-work/general-information/open-access-policy)
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
 - [Indiana University - Purdue University Indianapolis (IUPUI)](http://www.ulib.iupui.edu/digitalscholarship/openaccess/oafund)
-- [University of Rhode Island](https://uri.libguides.com/oafund)
 - [Thomas Jefferson University](https://library.jefferson.edu/pub/open_access.cfm)
+- [University of Rhode Island](https://uri.libguides.com/oafund)
 - [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
 
-## Participating Canadian Institutions:
+## Institutions from Canada 
 
 - [University of Calgary](https://library.ucalgary.ca/oa/)
 
-## Participating Institutions from Qatar:
+## Institutions from Qatar 
 
-- [Qatar National Library](https://www.qnl.qa/en) 
+- [Qatar National Library](https://www.qnl.qa/en)
 
-## Participating Institutions from Malawi:
+## Institutions from Malawi 
 
 - Malawi-Liverpool-Wellcome Clinical Research-Programme
 
-## Participating Institutions from Thailand:
+## Institutions from Thailand 
 
 - Mahidol Oxford Tropical Medicine Research Unit
 
-## Participating Institutions from Vietnam:
+## Institutions from Vietnam 
 
 - Oxford University Clinical Research Unit
 
-## Supranational participants
+## Institutions from Greece 
 
-- [OpenAIRE](https://www.openaire.eu/fp7-oapilot) (FP7 Post-Grant Open Access Pilot)
+- [OpenAIRE (FP7 Post-Grant OA Pilot)](https://www.openaire.eu/fp7-oapilot)
 
 ## Data sets
 
