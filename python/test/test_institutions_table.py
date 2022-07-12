@@ -5,6 +5,7 @@ import os
 import sys
 
 import pytest
+import requests
 
 from .test_apc_csv import RowObject
 
@@ -43,3 +44,14 @@ def test_data_dirs(row_object):
             msg = MSG_HEAD + "Directory '{}' does not exist."
             msg = msg.format(row_object.file_name, row_object.line_number, data_dir)
             pytest.fail(msg)
+
+@pytest.mark.parametrize("row_object", INSTITUTIONS_DATA)
+def test_urls(row_object):
+    url = row_object.row[10]
+    if not oat.has_value(url):
+        return
+    response = requests.get(url)
+    if response.status_code != 200:
+        msg = MSG_HEAD + "HTTP request to '{}' returned status code {}"
+        msg = msg.format(row_object.file_name, row_object.line_number, url, response.status_code)
+        pytest.fail(msg)
