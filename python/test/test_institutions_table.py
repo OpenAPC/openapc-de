@@ -9,13 +9,14 @@ import threading
 import pytest
 import requests
 
-from .test_apc_csv import RowObject
+from .test_apc_csv import RowObject, DATA_FILES
 
 sys.path.append(os.path.join(sys.path[0], "python"))
 import openapc_toolkit as oat
 
 INSTITUTIONS_FILE_PATH = "data/institutions.csv" 
 INSTITUTIONS_DATA = []
+APC_INSTITUTIONS = []
 
 THREAD_POOL_SIZE = 10
 THREAD_POOL = []
@@ -64,9 +65,15 @@ def run_url_threads():
         _cleanup_thread_pool()
         time.sleep(0.5)
 
-with open(INSTITUTIONS_FILE_PATH, "r") as f:
+with open(DATA_FILES["apc"]["file_path"], "r") as f:
     reader = csv.reader(f)
     reader.__next__() # skip the header
+    for row in reader:
+        if row[0] not in APC_INSTITUTIONS:
+            APC_INSTITUTIONS.append(row[0])
+with open(INSTITUTIONS_FILE_PATH, "r") as f:
+    reader = csv.reader(f)
+    reader.__next__()
     for row in reader:
         # Use RowObject to store contextual information along with CSV rows for better error messages
         row_object = RowObject("institutions.csv", reader.line_num, row, None)
@@ -94,4 +101,22 @@ def test_info_urls(thread):
     if thread.status_code is not None:
         msg = MSG_HEAD + "HTTP request to '{}' returned status code {}"
         msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.url, thread.status_code)
+        pytest.fail(msg)
+
+@pytest.mark.parametrize("row_object", INSTITUTIONS_DATA)
+def test_institution_file_identifiers(row_object):
+    institution = row_object.row[0]
+    if institution not in APC_INSTITUTIONS:
+        msg = MSG_HEAD + "Institution identifier '{}' does not occur in APC data set."
+        msg = msg.format(row_object.file_name, row_object.line_number, institution)
+        pytest.fail(msg)
+
+@pytest.mark.parametrize("institution", APC_INSTITUTIONS)
+def test_apc_file_identifiers(institution):
+    for row_object in INSTITUTIONS_DATA:
+        if institution == row_object.row[0]:
+            break
+    else:
+        msg = "APC data identifier '{}' does not occur in institution file."
+        msg = msg.format(institution)
         pytest.fail(msg)
