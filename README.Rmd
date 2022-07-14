@@ -615,13 +615,13 @@ OpenAPC also aggregates data on additional costs linked to OA publishing:
 ```{r, echo=FALSE, results='asis', message = FALSE}
 
 my_cost_types <- my_costs %>%
-  select(colour_charges, cover, other, page_charges, reprint)
+  select("Colour charges","Cover","Other","Page charges","Permission","Publication charges","Reprint","Submission fee")
   
 costs_summary <- tibble(
-  type = c("Colour charges", "Cover", "Other", "Page charges", "Reprint"),
-  total = vector("double", 5),
-  count = vector("integer", 5),
-  median = vector("double", 5)
+  type = c("Colour charges","Cover","Other","Page charges","Permission","Publication charges","Reprint","Submission fee"),
+  total = vector("double", 8),
+  count = vector("integer", 8),
+  median = vector("double", 8)
 )
 for (i in seq_along(my_cost_types)) {
   costs_summary$total[[i]] <- sum(my_cost_types[[i]], na.rm = TRUE)
@@ -634,17 +634,22 @@ knitr::kable(costs_summary, col.names = c("Cost Type", "Total", "Occurence", "Me
 
 ```{r, echo=FALSE}
 
-p <- my_costs %>% 
-  left_join(my_apc) %>% 
-  select(publisher, euro, colour_charges, cover, other, page_charges, reprint) %>%
-  pivot_longer(., cols=c(euro, colour_charges, cover, other, page_charges, reprint), values_drop_na = TRUE) %>%
+p <- my_apc %>% 
+  inner_join(my_costs) %>% 
+  select(publisher,euro,"Colour charges","Cover","Other","Page charges","Permission","Publication charges","Reprint","Submission fee") %>%
+  filter(publisher %in% c("IOP Publishing", "Springer Nature", "MDPI AG", "Wiley-Blackwell", "AIP Publishing", "Elsevier BV", "Frontiers Media SA", "Public Library of Science (PLoS)", "Oxford University Press (OUP)", "American Chemical Society (ACS)")) %>%
+  pivot_longer(., cols=c(euro,"Colour charges","Cover","Other","Page charges","Permission","Publication charges","Reprint","Submission fee"), values_drop_na = TRUE) %>%
   ggplot(aes(publisher, value, fill = name)) +
   geom_bar(stat="identity") +
+  xlab("Publisher") +
+  ylab("Euro") +
   coord_flip()
-  ggsave(p, path = "figure/", filename = "additional_avg_costs.png", width=9, height=4.5, units="in", device = "png")
+  ggsave(p, path = "figure/", filename = "juelich_additional_costs.png", width=9, height=4.5, units="in", device = "png")
 ```
 
-![](figure/additional_avg_costs.png)
+#### Example Data: FZ Jülich
+
+![](figure/juelich_additional_costs.png)
 
 
 ### Books (BPCs)
