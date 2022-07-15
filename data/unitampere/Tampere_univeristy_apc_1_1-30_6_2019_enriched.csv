@@ -1,4 +1,4 @@
-"institution",period,euro,"doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Tampere University",2019,2395,"10.1080/23802014.2019.1636713",TRUE,"Informa UK Limited","Third World Thematics: A TWQ Journal","2380-2014","2380-2014","2379-9978","2379-9978","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Tampere University",2019,1442.25,"10.3390/rs11111340",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000472648000083",NA,TRUE
 "Tampere University",2019,1246.04,"10.1364/oe.27.018456",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087",NA,TRUE,"31252789",NA,"ut:000472621000087",NA,TRUE
@@ -45,7 +45,7 @@
 "Tampere University",2019,2500,"10.1002/asi.24216",TRUE,"Wiley-Blackwell","Journal of the Association for Information Science and Technology","2330-1635",NA,NA,"2330-1635","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Tampere University",2019,1370.46,"10.1016/j.conengprac.2018.12.013",TRUE,"Elsevier BV","Control Engineering Practice","0967-0661","0967-0661",NA,"0967-0661","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000463312400017",NA,FALSE
 "Tampere University",2019,1237.83,"10.1016/j.surfcoat.2018.10.097",TRUE,"Elsevier BV","Surface and Coatings Technology","0257-8972","0257-8972",NA,"0257-8972","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000472694300026",NA,FALSE
-"Tampere University",2019,1236.52,"10.3390/ma12030430",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"30708947","PMC6384850","ut:000460768000099",NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Tampere University",2019,1357.76,"10.1038/s41598-019-39618-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30872616","PMC6418193","ut:000461151800070",NA,TRUE
 "Tampere University",2019,1036.09,"10.3390/catal9020137",FALSE,"MDPI AG","Catalysts","2073-4344",NA,"2073-4344","2073-4344","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000460702200031",NA,TRUE
 "Tampere University",2019,3068.05,"10.1074/jbc.ra118.007015",TRUE,"American Society for Biochemistry & Molecular Biology (ASBMB)","Journal of Biological Chemistry","0021-9258","0021-9258","1083-351X","0021-9258",NA,TRUE,"30635398","PMC6433063","ut:000462969500005",NA,FALSE
