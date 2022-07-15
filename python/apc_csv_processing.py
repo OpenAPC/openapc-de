@@ -161,6 +161,10 @@ ARG_HELP_STRINGS = {
                             "Timeout) is encountered",
     "no_preprint_lookup" : "Do not try to discover DOIs for final versions of " +
                            "preprint papers automatically",
+    "preprint_auto_accept": "When a match is found during preprint lookup, accept " +
+                            "the DOI automatically if the title similarity is at " +
+                            "least 0.9 ('good' matches). Can not be used together with " +
+                            "no_preprint_lookup",
     "url": "Manually identify the 'url' column if the script fails to detect " +
            "it automatically. The value is the numerical column index in the " +
            "CSV file, with the leftmost column being 0. This is an optional " +
@@ -203,6 +207,8 @@ def main():
                         help=ARG_HELP_STRINGS["round_monetary"])
     parser.add_argument("-p", "--no-preprint-lookup", action="store_true",
                         help=ARG_HELP_STRINGS["no_preprint_lookup"])
+    parser.add_argument("-P", "--preprint_auto_accept", action="store_true",
+                        help=ARG_HELP_STRINGS["preprint_auto_accept"])
     parser.add_argument("--no-crossref", action="store_true",
                         help=ARG_HELP_STRINGS["no_crossref"])
     parser.add_argument("--no-pubmed", action="store_true",
@@ -325,6 +331,10 @@ def main():
     elif not args.update:
         for column in OVERWRITE_STRATEGY.keys():
              OVERWRITE_STRATEGY[column] = CSVColumn.OW_ASK
+
+    if args.no_preprint_lookup and args.preprint_auto_accept:
+        oat.print_r("Error: Either use the -P or the -p option, not both.")
+        sys.exit()
 
     additional_isbn_columns = []
     if args.additional_isbn_columns:
@@ -616,7 +626,7 @@ def main():
                 no_doaj = True
         enriched_rows = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
                                         no_crossref, no_pubmed,
-                                        no_doaj, args.no_preprint_lookup, args.round_monetary,
+                                        no_doaj, args.no_preprint_lookup, args.preprint_auto_accept, args.round_monetary,
                                         args.offsetting_mode, args.csv_file, args.crossref_max_retries)
         for record_type, value in enriched_content.items():
             if record_type in enriched_rows:
