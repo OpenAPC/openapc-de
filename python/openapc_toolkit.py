@@ -1023,7 +1023,7 @@ def find_book_dois_in_crossref(isbn_list):
         ret_value['error_msg'] = str(ve)
     return ret_value
 
-def title_lookup(lookup_title, acccepted_doi_types):
+def title_lookup(lookup_title, acccepted_doi_types, auto_accept=False):
     api_url = "https://api.crossref.org/works?"
     empty_result = {
         "found_title": "",
@@ -1094,6 +1094,9 @@ def title_lookup(lookup_title, acccepted_doi_types):
         print(msg_old.format(lookup_title))
         msg_new = "    '{}' [title for discovered doi {}]"
         print(msg_new.format(most_similar["found_title"], most_similar["doi"]))
+        if auto_accept and similarity >= 0.9:
+            print_g("Result auto-accepted since the match similarity is sufficicent (>=0.9)")
+            return most_similar["doi"]
         answer = input("Do you want to accept the new DOI? (y/n)")
         while answer not in ["y", "n"]:
             answer = input("Please type 'y' or 'n':")
@@ -1563,8 +1566,8 @@ def _process_institution_value(institution, row_num, orig_file_path, offsetting_
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
-                no_doaj_lookup=False, no_title_lookup=False, round_monetary=False,
-                offsetting_mode=None, orig_file_path=None, crossref_max_retries=3):
+                no_doaj_lookup=False, no_title_lookup=False, preprint_auto_accept=False, 
+                round_monetary=False, offsetting_mode=None, orig_file_path=None, crossref_max_retries=3):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
 
@@ -1589,6 +1592,9 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         no_doaj_lookup: If true, journals will not be checked for being
                         listended in the DOAJ.
         no_title_lookup: If true, titles will not be looked up in Crossref
+        preprint_auto_accept: If true, DOIs for preprint lookups will be automatically accepted
+                              if the match quality is high enough (title similarity => 0.9). Only
+                              has an effect if no_title_lookup is False.
         round_monetary: If true, monetary values with more than 2 digits behind the decimal
                         mark will be rounded. If false, these cases will be treated as errors.
         offsetting_mode: If not None, the row is assumed to originate from an offsetting file
@@ -1701,7 +1707,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                         msg = "Line %s: Preprint lookup failed, no title could be extracted."
                         logging.warning(msg, row_num)
                     else:
-                        article_doi = title_lookup(exc.crossref_title, ["journal-article"])
+                        article_doi = title_lookup(exc.crossref_title, ["journal-article"], preprint_auto_accept)
                         if article_doi:
                             logging.info("New DOI integrated, restarting enrichment for current line...")
                             index = column_map["doi"].index
