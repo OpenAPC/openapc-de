@@ -22,7 +22,8 @@ PUBLISHER_IDENTITY = [
     (["Böhlau"], ["Vandenhoeck & Ruprecht"]), # Böhlau acquired by V&R in 2017 
     (["Nomos Verlagsgesellschaft mbH & Co. KG"], ["Velbrück Wissenschaft"]), # Velbrück uses the Nomos eLibrary to publish its OA books
     (["Birkhäuser"], ["De Gruyter"]), # Birkhäuser is an imprint of De Gruyter
-    (["OMICS Publishing Group"], ["Hilaris"])
+    (["OMICS Publishing Group"], ["Hilaris"]),
+    (["Optical Society of America (OSA)"], ["Optica Publishing Group"])
 ]
 
 
