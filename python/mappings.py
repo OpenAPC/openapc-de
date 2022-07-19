@@ -592,7 +592,9 @@ JOURNAL_MAPPINGS = {
     "Quality &amp; Quantity": "Quality & Quantity",
     "e &amp; i Elektrotechnik und Informationstechnik": "e & i Elektrotechnik und Informationstechnik",
     "Fatigue &amp; Fracture of Engineering Materials &amp; Structures": "Fatigue & Fracture of Engineering Materials & Structures",
-    "Journal of Chemical Technology &amp; Biotechnology": "Journal of Chemical Technology & Biotechnology"
+    "Journal of Chemical Technology &amp; Biotechnology": "Journal of Chemical Technology & Biotechnology",
+    "eBioMedicine": "EBioMedicine",
+    "Schmalenbach Journal of Business Research": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung"
 }
 
 COLUMN_NAMES = {
