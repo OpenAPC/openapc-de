@@ -41,6 +41,12 @@ class URLRequestThread(threading.Thread):
         row_object: A test_apc_csv.RowObject which encapsulates information
         on a single row from the institutions table.
     """
+
+    # spoof the user agent to avoid being rejected by some sites
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
+    }
+
     def __init__(self, row_object):
         # assigning a name is not strictly necessary, but can useful for debugging purposes
         super().__init__(name = row_object.row[1] + "_thread")
@@ -49,7 +55,7 @@ class URLRequestThread(threading.Thread):
         self.status_code = None
 
     def run(self):
-        response = requests.get(self.url, timeout=10)
+        response = requests.get(self.url, timeout=10, headers=URLRequestThread.headers)
         # Are there other codes besides 200 which indicate a success? Wait and see.
         if response.status_code != 200:
             self.status_code = response.status_code
