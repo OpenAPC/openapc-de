@@ -311,7 +311,8 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Institut national polytechnique de Toulouse(INPT)
 - Institut Pasteur
 - Institut supérieur d'agriculture Rhône-Alpes
-- Laboratoire national d'essais (LNE)
+- La Rochelle Université
+- Laboratoire national de métrologie et d'essais - LNE
 - Le Mans Université
 - MINES ParisTech
 - Museum National d'Histoire Naturelle
@@ -331,7 +332,6 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Université de Franche-Comté
 - Université de Haute-Alsace
 - Université de La Réunion
-- Université de La Rochelle
 - Université de Lille
 - Université de Lorraine
 - Université de Montpellier
