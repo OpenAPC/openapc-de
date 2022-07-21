@@ -3,6 +3,7 @@
 import csv
 import os
 import sys
+import re
 import time
 import threading
 
@@ -145,8 +146,24 @@ def test_info_urls(thread):
         pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", INSTITUTIONS_DATA)
+def test_cube_names(row_object):
+    cube_name = row_object.row[1]
+    if not oat.has_value(cube_name):
+        msg = MSG_HEAD + "Cube name is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
+    if re.compile(r"\s").search(cube_name):
+        msg = MSG_HEAD + "Cube name '{}' contains whitespace characters."
+        msg = msg.format(row_object.file_name, row_object.line_number, cube_name)
+        pytest.fail(msg)
+
+@pytest.mark.parametrize("row_object", INSTITUTIONS_DATA)
 def test_institution_file_identifiers(row_object):
     institution = row_object.row[0]
+    if not oat.has_value(institution):
+        msg = MSG_HEAD + "Institution identifier is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
     if institution not in APC_INSTITUTIONS:
         msg = MSG_HEAD + "Institution identifier '{}' does not occur in APC data set."
         msg = msg.format(row_object.file_name, row_object.line_number, institution)
