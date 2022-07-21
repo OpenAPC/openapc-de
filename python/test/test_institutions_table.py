@@ -169,6 +169,24 @@ def test_institution_file_identifiers(row_object):
         msg = msg.format(row_object.file_name, row_object.line_number, institution)
         pytest.fail(msg)
 
+@pytest.mark.parametrize("row_object", INSTITUTIONS_DATA)
+def test_geo_data(row_object):
+    continent = row_object.row[3]
+    country = row_object.row[4]
+    state = row_object.row[5]
+    if not oat.has_value(continent):
+        msg = MSG_HEAD + "Continent column is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
+    if not oat.has_value(country):
+        msg = MSG_HEAD + "Country column is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
+    if not oat.has_value(state):
+        msg = MSG_HEAD + "State column is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
+
 @pytest.mark.parametrize("institution", APC_INSTITUTIONS)
 def test_apc_file_identifiers(institution):
     for row_object in INSTITUTIONS_DATA:
