@@ -3,6 +3,7 @@
 import csv
 import os
 import sys
+import re
 import time
 import threading
 
@@ -14,9 +15,14 @@ from .test_apc_csv import RowObject, DATA_FILES
 sys.path.append(os.path.join(sys.path[0], "python"))
 import openapc_toolkit as oat
 
-INSTITUTIONS_FILE_PATH = "data/institutions.csv"
-# List of all rows in the institutions table, encapsulated as RowObject
-INSTITUTIONS_DATA = []
+# Contains list of rows in the institutions and translation files, encapsulated as RowObject
+DATA = {
+    "institutions": [],
+    "translation_countries": [],
+    "translation_institution_groups": [],
+    "translation_institution_types": []
+}
+
 # List of all institution identifiers in the APC data set (as strings)
 APC_INSTITUTIONS = []
 
@@ -41,6 +47,12 @@ class URLRequestThread(threading.Thread):
         row_object: A test_apc_csv.RowObject which encapsulates information
         on a single row from the institutions table.
     """
+
+    # spoof the user agent to avoid being rejected by some sites
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
+    }
+
     def __init__(self, row_object):
         # assigning a name is not strictly necessary, but can useful for debugging purposes
         super().__init__(name = row_object.row[1] + "_thread")
@@ -49,7 +61,7 @@ class URLRequestThread(threading.Thread):
         self.status_code = None
 
     def run(self):
-        response = requests.get(self.url, timeout=10)
+        response = requests.get(self.url, timeout=10, headers=URLRequestThread.headers)
         # Are there other codes besides 200 which indicate a success? Wait and see.
         if response.status_code != 200:
             self.status_code = response.status_code
@@ -86,7 +98,7 @@ def run_url_threads():
     reports.
     """
     global THREAD_POOL
-    for row_object in INSTITUTIONS_DATA:
+    for row_object in DATA["institutions"]:
         if oat.has_value(row_object.row[10]):
             thread = URLRequestThread(row_object)
             while len(THREAD_POOL) >= THREAD_POOL_SIZE:
@@ -106,23 +118,25 @@ with open(DATA_FILES["apc"]["file_path"], "r") as f:
     for row in reader:
         if row[0] not in APC_INSTITUTIONS:
             APC_INSTITUTIONS.append(row[0])
-with open(INSTITUTIONS_FILE_PATH, "r") as f:
-    reader = csv.reader(f)
-    reader.__next__()
-    for row in reader:
-        # Use RowObject to store contextual information along with CSV rows for better error messages
-        row_object = RowObject("institutions.csv", reader.line_num, row, None)
-        INSTITUTIONS_DATA.append(row_object)
-    run_url_threads()
+for base_name, data in DATA.items():
+    file_path = os.path.join("data", base_name + ".csv")
+    with open(file_path, "r") as f:
+        reader = csv.reader(f)
+        reader.__next__()
+        for row in reader:
+            # Use RowObject to store contextual information along with CSV rows for better error messages
+            row_object = RowObject(base_name, reader.line_num, row, None)
+            data.append(row_object)
+run_url_threads()
 
-@pytest.mark.parametrize("row_object", INSTITUTIONS_DATA)
+@pytest.mark.parametrize("row_object", DATA["institutions"])
 def test_data_format(row_object):
     if len(row_object.row) != EXP_ROW_LENGTH:
         msg = MSG_HEAD + "Row does not consist of {} columns."
         msg = msg.format(row_object.file_name, row_object.line_number, EXP_ROW_LENGTH)
         pytest.fail(msg)
 
-@pytest.mark.parametrize("row_object", INSTITUTIONS_DATA)
+@pytest.mark.parametrize("row_object", DATA["institutions"])
 def test_data_dirs(row_object):
     data_dir = row_object.row[6]
     if oat.has_value(data_dir):
@@ -138,17 +152,81 @@ def test_info_urls(thread):
         msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.url, thread.status_code)
         pytest.fail(msg)
 
-@pytest.mark.parametrize("row_object", INSTITUTIONS_DATA)
+@pytest.mark.parametrize("row_object", DATA["institutions"])
+def test_cube_names(row_object):
+    cube_name = row_object.row[1]
+    if not oat.has_value(cube_name):
+        msg = MSG_HEAD + "Cube name is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
+    if re.compile(r"\s").search(cube_name):
+        msg = MSG_HEAD + "Cube name '{}' contains whitespace characters."
+        msg = msg.format(row_object.file_name, row_object.line_number, cube_name)
+        pytest.fail(msg)
+
+@pytest.mark.parametrize("row_object", DATA["institutions"])
 def test_institution_file_identifiers(row_object):
     institution = row_object.row[0]
+    if not oat.has_value(institution):
+        msg = MSG_HEAD + "Institution identifier is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
     if institution not in APC_INSTITUTIONS:
         msg = MSG_HEAD + "Institution identifier '{}' does not occur in APC data set."
         msg = msg.format(row_object.file_name, row_object.line_number, institution)
         pytest.fail(msg)
 
+@pytest.mark.parametrize("row_object", DATA["institutions"])
+def test_geo_data(row_object):
+    continent = row_object.row[3]
+    country = row_object.row[4]
+    state = row_object.row[5]
+    if not oat.has_value(continent):
+        msg = MSG_HEAD + "Continent column is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
+    if not oat.has_value(country):
+        msg = MSG_HEAD + "Country column is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
+    if not oat.has_value(state):
+        msg = MSG_HEAD + "State column is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number)
+        pytest.fail(msg)
+
+@pytest.mark.parametrize("row_object", DATA["institutions"])
+def test_translations(row_object):
+    country = row_object.row[4]
+    ins_type = row_object.row[8]
+    ins_group = row_object.row[9]
+    if oat.has_value(country):
+        for row_object in DATA["translation_countries"]:
+            if row_object.row and country == row_object.row[0]:
+                break
+        else:
+            msg = "country '{}' does not have an entry in the translation_countries file."
+            msg = msg.format(country)
+            pytest.fail(msg)
+    if oat.has_value(ins_type):
+        for row_object in DATA["translation_institution_types"]:
+            if row_object.row and ins_type == row_object.row[0]:
+                break
+        else:
+            msg = "type '{}' does not have an entry in the translation_institution_types file."
+            msg = msg.format(ins_type)
+            pytest.fail(msg)
+    if oat.has_value(ins_group):
+        for row_object in DATA["translation_institution_groups"]:
+            if row_object.row and ins_group == row_object.row[0]:
+                break
+        else:
+            msg = "group '{}' does not have an entry in the translation_institution_groups file."
+            msg = msg.format(ins_group)
+            pytest.fail(msg)
+
 @pytest.mark.parametrize("institution", APC_INSTITUTIONS)
 def test_apc_file_identifiers(institution):
-    for row_object in INSTITUTIONS_DATA:
+    for row_object in DATA["institutions"]:
         # There are more efficient ways to do this (f.e. assert set() == set()),
         # but those would not produce easily readable error messages
         if institution == row_object.row[0]:
