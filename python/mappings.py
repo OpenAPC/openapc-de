@@ -604,7 +604,8 @@ JOURNAL_MAPPINGS = {
     "Antioxidants &amp; Redox Signaling": "Antioxidants & Redox Signaling",
     "Computers, Materials &amp; Continua": "Computers, Materials & Continua",
     "Big Data &amp; Society": "Big Data & Society",
-    "Microsystems &amp; Nanoengineering": "Microsystems & Nanoengineering"
+    "Microsystems &amp; Nanoengineering": "Microsystems & Nanoengineering",
+    "Veterinary Radiology &amp; Ultrasound": "Veterinary Radiology & Ultrasound"
 }
 
 COLUMN_NAMES = {
