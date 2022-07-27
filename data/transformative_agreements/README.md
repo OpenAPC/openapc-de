@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 57,949 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 57,976 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 57,949 articles, published at 326 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     3439|
-|DEAL Springer Nature Germany                 |     2978|
+|DEAL Wiley Germany                           |     3456|
+|DEAL Springer Nature Germany                 |     2988|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
 |Swiss Consortium Wiley agreement             |      964|
@@ -229,6 +229,7 @@ This dataset contains information on 57,949 articles, published at 326 instituti
 |The Open University                                                                                                                                |       60|
 |University of Huddersfield                                                                                                                         |       60|
 |Aston University                                                                                                                                   |       58|
+|TiHo Hannover                                                                                                                                      |       57|
 |University of Lincoln                                                                                                                              |       57|
 |University of West of England                                                                                                                      |       56|
 |DLR                                                                                                                                                |       55|
@@ -268,7 +269,6 @@ This dataset contains information on 57,949 articles, published at 326 instituti
 |University of Central Lancashire                                                                                                                   |       32|
 |University of West of Scotland                                                                                                                     |       31|
 |RISE Research Institutes of Sweden                                                                                                                 |       30|
-|TiHo Hannover                                                                                                                                      |       30|
 |University of Boras                                                                                                                                |       30|
 |Goldsmiths, University of London                                                                                                                   |       29|
 |International Institute for Applied Systems Analysis (IIASA)                                                                                       |       29|
