@@ -602,7 +602,9 @@ JOURNAL_MAPPINGS = {
     "Journal of the American Academy of Child &amp; Adolescent Psychiatry": "Journal of the American Academy of Child & Adolescent Psychiatry",
     "Current Opinion in Nephrology &amp; Hypertension": " Current Opinion in Nephrology & Hypertension",
     "Antioxidants &amp; Redox Signaling": "Antioxidants & Redox Signaling",
-    "Computers, Materials &amp; Continua": "Computers, Materials & Continua"
+    "Computers, Materials &amp; Continua": "Computers, Materials & Continua",
+    "Big Data &amp; Society": "Big Data & Society",
+    "Microsystems &amp; Nanoengineering": "Microsystems & Nanoengineering"
 }
 
 COLUMN_NAMES = {
