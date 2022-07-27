@@ -594,7 +594,15 @@ JOURNAL_MAPPINGS = {
     "Fatigue &amp; Fracture of Engineering Materials &amp; Structures": "Fatigue & Fracture of Engineering Materials & Structures",
     "Journal of Chemical Technology &amp; Biotechnology": "Journal of Chemical Technology & Biotechnology",
     "eBioMedicine": "EBioMedicine",
-    "Schmalenbach Journal of Business Research": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung"
+    "Schmalenbach Journal of Business Research": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung",
+    "Journal of Hematology &amp; Oncology": "Journal of Hematology & Oncology",
+    "Clinics In Surgery": "Clinics in Surgery",
+    "Acta Dermato-Venereologica": "Acta Dermato Venereologica",
+    "Alzheimer's &amp; Dementia: Translational Research &amp; Clinical Interventions": "Alzheimer's & Dementia: Translational Research & Clinical Interventions",
+    "Journal of the American Academy of Child &amp; Adolescent Psychiatry": "Journal of the American Academy of Child & Adolescent Psychiatry",
+    "Current Opinion in Nephrology &amp; Hypertension": " Current Opinion in Nephrology & Hypertension",
+    "Antioxidants &amp; Redox Signaling": "Antioxidants & Redox Signaling",
+    "Computers, Materials &amp; Continua": "Computers, Materials & Continua"
 }
 
 COLUMN_NAMES = {

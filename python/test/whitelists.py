@@ -304,7 +304,8 @@ JOURNAL_OWNER_CHANGED = {
     "1465-3133": ["Informa UK Limited", "SAGE Publications"], # Journal of Orthodontics (electronic)
     "2052-6121": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Case Reports
     "0031-8884": ["International Phycological Society", "Informa UK Limited"], # Phycologia
-    "2330-2968": ["International Phycological Society", "Informa UK Limited"] # Phycologia (electronic)
+    "2330-2968": ["International Phycological Society", "Informa UK Limited"], # Phycologia (electronic)
+    "0923-7534": ["Oxford University Press (OUP)", "Elsevier BV"] # Annals of Oncology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -452,7 +453,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0001-6349", # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022
     "1600-0412", # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022 (electronic)
     "2329-9037", # Journal of Responsible Innovation, Gold OA since 2021
-    "0022-0302" # Journal of Dairy Science, Gold OA since 2022
+    "0022-0302", # Journal of Dairy Science, Gold OA since 2022
+    "1942-0862" # mAbs, Gold OA since 2020
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
