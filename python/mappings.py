@@ -605,7 +605,8 @@ JOURNAL_MAPPINGS = {
     "Computers, Materials &amp; Continua": "Computers, Materials & Continua",
     "Big Data &amp; Society": "Big Data & Society",
     "Microsystems &amp; Nanoengineering": "Microsystems & Nanoengineering",
-    "Veterinary Radiology &amp; Ultrasound": "Veterinary Radiology & Ultrasound"
+    "Veterinary Radiology &amp; Ultrasound": "Veterinary Radiology & Ultrasound",
+    "Child &amp; Youth Care Forum": "Child & Youth Care Forum"
 }
 
 COLUMN_NAMES = {
