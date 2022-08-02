@@ -23,7 +23,8 @@ PUBLISHER_IDENTITY = [
     (["Nomos Verlagsgesellschaft mbH & Co. KG"], ["Velbrück Wissenschaft"]), # Velbrück uses the Nomos eLibrary to publish its OA books
     (["Birkhäuser"], ["De Gruyter"]), # Birkhäuser is an imprint of De Gruyter
     (["OMICS Publishing Group"], ["Hilaris"]),
-    (["Optical Society of America (OSA)"], ["Optica Publishing Group"])
+    (["Optical Society of America (OSA)"], ["Optica Publishing Group"]),
+    (["Wiley-Blackwell"], ["British Institute of Radiology"])
 ]
 
 
@@ -305,7 +306,8 @@ JOURNAL_OWNER_CHANGED = {
     "2052-6121": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Case Reports
     "0031-8884": ["International Phycological Society", "Informa UK Limited"], # Phycologia
     "2330-2968": ["International Phycological Society", "Informa UK Limited"], # Phycologia (electronic)
-    "0923-7534": ["Oxford University Press (OUP)", "Elsevier BV"] # Annals of Oncology
+    "0923-7534": ["Oxford University Press (OUP)", "Elsevier BV"], # Annals of Oncology
+    "1139-6709": ["Spanish Society for Microbiology", "Springer Nature"] # International Microbiology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -454,7 +456,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1600-0412", # Acta Obstetricia et Gynecologica Scandinavica, Gold OA since 2022 (electronic)
     "2329-9037", # Journal of Responsible Innovation, Gold OA since 2021
     "0022-0302", # Journal of Dairy Science, Gold OA since 2022
-    "1942-0862" # mAbs, Gold OA since 2020
+    "1942-0862", # mAbs, Gold OA since 2020
+    "1139-6709" # International Microbiology, Hybrid since 2018 (?), published with Springer since 2018
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

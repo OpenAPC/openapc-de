@@ -606,7 +606,8 @@ JOURNAL_MAPPINGS = {
     "Big Data &amp; Society": "Big Data & Society",
     "Microsystems &amp; Nanoengineering": "Microsystems & Nanoengineering",
     "Veterinary Radiology &amp; Ultrasound": "Veterinary Radiology & Ultrasound",
-    "Child &amp; Youth Care Forum": "Child & Youth Care Forum"
+    "Child &amp; Youth Care Forum": "Child & Youth Care Forum",
+    "Journal of Child &amp; Adolescent Trauma": "Journal of Child & Adolescent Trauma"
 }
 
 COLUMN_NAMES = {
