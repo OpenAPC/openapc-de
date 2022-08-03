@@ -607,7 +607,11 @@ JOURNAL_MAPPINGS = {
     "Microsystems &amp; Nanoengineering": "Microsystems & Nanoengineering",
     "Veterinary Radiology &amp; Ultrasound": "Veterinary Radiology & Ultrasound",
     "Child &amp; Youth Care Forum": "Child & Youth Care Forum",
-    "Journal of Child &amp; Adolescent Trauma": "Journal of Child & Adolescent Trauma"
+    "Journal of Child &amp; Adolescent Trauma": "Journal of Child & Adolescent Trauma",
+    "Lupus Science &amp; Medicine": "Lupus Science & Medicine",
+    "Therapeutic Innovation &amp; Regulatory Science": "Therapeutic Innovation & Regulatory Science",
+    "Health Information &amp; Libraries Journal": "Health Information & Libraries Journal",
+    "Stem Cells": "STEM CELLS"
 }
 
 COLUMN_NAMES = {
