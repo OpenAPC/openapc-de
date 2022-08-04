@@ -307,7 +307,9 @@ JOURNAL_OWNER_CHANGED = {
     "0031-8884": ["International Phycological Society", "Informa UK Limited"], # Phycologia
     "2330-2968": ["International Phycological Society", "Informa UK Limited"], # Phycologia (electronic)
     "0923-7534": ["Oxford University Press (OUP)", "Elsevier BV"], # Annals of Oncology
-    "1139-6709": ["Spanish Society for Microbiology", "Springer Nature"] # International Microbiology
+    "1139-6709": ["Spanish Society for Microbiology", "Springer Nature"], # International Microbiology
+    "2045-8940": ["SAGE Publications", "Wiley-Blackwell"], # Pulmonary Circulation
+    "2045-8932": ["SAGE Publications", "Wiley-Blackwell"] # Pulmonary Circulation (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs

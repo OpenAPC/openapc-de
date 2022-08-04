@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 58,482 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 58,741 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 58,482 articles, published at 326 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     3646|
-|DEAL Springer Nature Germany                 |     3304|
+|DEAL Wiley Germany                           |     3750|
+|DEAL Springer Nature Germany                 |     3459|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
 |Swiss Consortium Wiley agreement             |      964|
@@ -101,6 +101,7 @@ This dataset contains information on 58,482 articles, published at 326 instituti
 |École Polytechnique Fédérale de Lausanne                                                                                                           |      490|
 |Delft University of Technology                                                                                                                     |      484|
 |Wageningen University                                                                                                                              |      482|
+|HHU Düsseldorf                                                                                                                                     |      474|
 |Stockholm University                                                                                                                               |      468|
 |Leiden University                                                                                                                                  |      461|
 |Erasmus MC                                                                                                                                         |      453|
@@ -152,7 +153,6 @@ This dataset contains information on 58,482 articles, published at 326 instituti
 |Lulea University of Technology                                                                                                                     |      225|
 |Medical University of Graz                                                                                                                         |      222|
 |Queen's University of Belfast                                                                                                                      |      217|
-|HHU Düsseldorf                                                                                                                                     |      215|
 |Tilburg University                                                                                                                                 |      208|
 |Bielefeld U                                                                                                                                        |      207|
 |University of York                                                                                                                                 |      205|
