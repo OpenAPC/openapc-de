@@ -1,6 +1,6 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "KIT",2021,1644.68,"10.3390/polym14010210",NA,"MDPI AG","Polymers","2073-4360",NA,"2073-4360","2073-4360","https://creativecommons.org/licenses/by/4.0/",TRUE,"35012231","PMC8747590","ut:000741716900001",NA,TRUE
-"KIT",2021,1865.99,"10.2196/25886",NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+"",,,"","","","","","","","","","","","","","",""
 "KIT",2021,440,"10.1016/j.dib.2021.107775",NA,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"35028347","PMC8741479","ut:000787646200009",NA,TRUE
 "KIT",2021,1000,"10.18564/jasss.4767",NA,"Journal of Artificial Societies and Social Simulation","Journal of Artificial Societies and Social Simulation","1460-7425",NA,"1460-7425","1460-7425",NA,TRUE,NA,NA,"ut:000752538900005",NA,TRUE
 "KIT",2021,1532.91,"10.3390/polym14010019",NA,"MDPI AG","Polymers","2073-4360",NA,"2073-4360","2073-4360","https://creativecommons.org/licenses/by/4.0/",TRUE,"35012043","PMC8747319","ut:000752235000001",NA,TRUE
@@ -280,7 +280,7 @@
 "KIT",2021,3391.5,"10.1038/s41377-021-00486-w",NA,"Springer Nature","Light: Science & Applications","2047-7538",NA,"2047-7538","2047-7538","https://creativecommons.org/licenses/by/4.0",TRUE,"33767136","PMC7994412","ut:000632908900001",NA,TRUE
 "KIT",2021,928.25,"10.3390/chemosensors9020031",NA,"MDPI AG","Chemosensors","2227-9040",NA,"2227-9040","2227-9040","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000622374300001",NA,TRUE
 "KIT",2021,1566.68,"10.3390/pr9030455",NA,"MDPI AG","Processes","2227-9717",NA,"2227-9717","2227-9717","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000634214500001",NA,TRUE
-"KIT",2021,1764.32,"10.1109/access.2017.doi",NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+"",,,"","","","","","","","","","","","","","",""
 "KIT",2021,1872.63,"10.3390/foods10030485",NA,"MDPI AG","Foods","2304-8158",NA,"2304-8158","2304-8158","https://creativecommons.org/licenses/by/4.0/",TRUE,"33668342","PMC7996331","ut:000633678000001",NA,TRUE
 "KIT",2021,1874.25,"10.5194/acp-21-35-2021",NA,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000606750900001",NA,TRUE
 "KIT",2021,1494.78,"10.3390/coatings11010108",NA,"MDPI AG","Coatings","2079-6412",NA,"2079-6412","2079-6412","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000610044000001",NA,TRUE
