@@ -459,7 +459,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2329-9037", # Journal of Responsible Innovation, Gold OA since 2021
     "0022-0302", # Journal of Dairy Science, Gold OA since 2022
     "1942-0862", # mAbs, Gold OA since 2020
-    "1139-6709" # International Microbiology, Hybrid since 2018 (?), published with Springer since 2018
+    "1139-6709", # International Microbiology, Hybrid since 2018 (?), published with Springer since 2018
+    "1751-8660" # IET Electric Power Applications, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
