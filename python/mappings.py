@@ -611,7 +611,12 @@ JOURNAL_MAPPINGS = {
     "Lupus Science &amp; Medicine": "Lupus Science & Medicine",
     "Therapeutic Innovation &amp; Regulatory Science": "Therapeutic Innovation & Regulatory Science",
     "Health Information &amp; Libraries Journal": "Health Information & Libraries Journal",
-    "Stem Cells": "STEM CELLS"
+    "Stem Cells": "STEM CELLS",
+    "Cancer &amp; Metabolism": "Cancer & Metabolism",
+    "Molecular Diagnosis &amp; Therapy": "Molecular Diagnosis & Therapy",
+    "Organisms Diversity &amp; Evolution": "Organisms Diversity & Evolution",
+    "Child Psychiatry &amp; Human Development": "Child Psychiatry & Human Development",
+    "Alimentary Pharmacology &amp; Therapeutics": "Alimentary Pharmacology & Therapeutics"
 }
 
 COLUMN_NAMES = {
