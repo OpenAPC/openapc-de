@@ -55,12 +55,12 @@
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,580.43,"10.1145/3430524.3446071",TRUE,"ASSOCIATION FOR COMPUTING MACHINERY (ACM)","TEI '21: Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"FWF - Austrian Science Fund",2021,584.83,"10.1145/3412841.3442021",TRUE,"ASSOCIATION FOR COMPUTING MACHINERY (ACM)","SAC '21: Proceedings of the 36th Annual ACM Symposium on Applied Computing",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"FWF - Austrian Science Fund",2021,591.38,"10.1145/3411764.3445191",TRUE,"ASSOCIATION FOR COMPUTING MACHINERY (ACM)","CHI '21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"FWF - Austrian Science Fund",2021,727.56,"10.1145/3340531.3412026",TRUE,"ASSOCIATION FOR COMPUTING MACHINERY (ACM)","CIKM '20: Proceedings of the 29th ACM International Conference on Information & Knowledge Management",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"FWF - Austrian Science Fund",2021,729.7,"10.1145/3437992.3439918",TRUE,"ASSOCIATION FOR COMPUTING MACHINERY (ACM)","CPP 2021: Proceedings of the 10th ACM SIGPLAN International Conference on Certified Programs and Proofs",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"FWF - Austrian Science Fund",2021,1028.35,"10.1145/3385412.3385980",TRUE,"ASSOCIATION FOR COMPUTING MACHINERY (ACM)","Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI) / 1996-2011, 1994",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2021,1518.88,"10.1167/iovs.61.14.31",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Investigative Opthalmology & Visual Science","1552-5783","1552-5783",NA,"0146-0404","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"33369640","PMC7774060","ut:000604213900025",NA,TRUE
 "FWF - Austrian Science Fund",2021,266.4,NA,FALSE,"Berlin Regener Publishing House","conflict & communication online","1618-0747",NA,NA,"1618-0747",NA,FALSE,NA,NA,NA,"https://regener-online.de/journalcco/2021_2/pdf/ackerl-konstantin2021.pdf",TRUE
 "FWF - Austrian Science Fund",2021,1044,"10.16910/jemr.13.2.10",FALSE,"University of Bern","Journal of Eye Movement Research","1995-8692",NA,"1995-8692","1995-8692","https://creativecommons.org/licenses/by/4.0/",TRUE,"33828790","PMC7962791","ut:000627393200003",NA,TRUE
@@ -438,7 +438,7 @@
 "FWF - Austrian Science Fund",2021,1900.52,"10.1109/jphot.2020.3021464",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Photonics Journal","1943-0655",NA,"1943-0655","1943-0647","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,TRUE
 "FWF - Austrian Science Fund",2021,2025.67,"10.1109/tmag.2019.2954480",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Magnetics","0018-9464","0018-9464","1941-0069","0018-9464","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,FALSE
 "FWF - Austrian Science Fund",2021,1104.56,"10.3150/20-bej1257",TRUE,"Bernoulli Society for Mathematical Statistics and Probability","Bernoulli","1350-7265","1350-7265",NA,"1350-7265",NA,TRUE,NA,NA,NA,NA,FALSE
-"FWF - Austrian Science Fund",2021,426.51,"10.5772/intechopen.96653",TRUE,"INTECH","Spinocerebellar Ataxia - Concepts, Particularities and Generalities",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2021,1395.76,"10.1088/2399-6528/ac26aa",FALSE,"IOP Publishing","Journal of Physics Communications","2399-6528",NA,"2399-6528","2399-6528","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000703269300001",NA,TRUE
 "FWF - Austrian Science Fund",2021,1453.89,"10.1088/2399-6528/ac2c32",FALSE,"IOP Publishing","Journal of Physics Communications","2399-6528",NA,"2399-6528","2399-6528","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000739502800001",NA,TRUE
 "FWF - Austrian Science Fund",2021,1497.88,"10.1088/2515-7620/abedd8",FALSE,"IOP Publishing","Environmental Research Communications","2515-7620",NA,"2515-7620","2515-7620","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000648715900001",NA,TRUE
@@ -841,9 +841,9 @@
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,684,"10.1007/978-3-030-54832-2_5",TRUE,"SPRINGER NATURE","Advances in Databases and Information Systems",NA,NA,NA,NA,NA,FALSE,NA,"PMC7703798",NA,NA,NA
-"FWF - Austrian Science Fund",2021,806.4,"10.1007/978-3-030-29436-6_20",TRUE,"SPRINGER NATURE","CADE 2019: Automated Deduction – CADE 27",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"FWF - Austrian Science Fund",2021,820.8,"10.1007/978-3-030-55754-6_14",TRUE,"SPRINGER NATURE","NFM 2020: NASA Formal Methods",NA,NA,NA,NA,NA,FALSE,NA,"PMC7705985",NA,NA,NA
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2021,1116,"10.1038/s41514-020-0042-x",FALSE,"Springer Nature","npj Aging and Mechanisms of Disease","2056-3973",NA,"2056-3973","2056-3973","https://creativecommons.org/licenses/by/4.0",TRUE,"32194977","PMC7060247","ut:000518367300001",NA,TRUE
 "FWF - Austrian Science Fund",2021,1507.2,"10.1038/s41598-020-69885-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32732894","PMC7393497","ut:000559797100062",NA,TRUE
 "FWF - Austrian Science Fund",2021,1570,"10.1038/s41598-021-81030-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33619328","PMC7900123","ut:000621915000001",NA,TRUE
@@ -922,8 +922,8 @@
 "FWF - Austrian Science Fund",2021,2179.8,"10.1080/2162402x.2021.1965319",FALSE,"Informa UK Limited","OncoImmunology","2162-402X",NA,"2162-402X","2162-4011","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"34527428","PMC8437460",NA,NA,TRUE
 "FWF - Austrian Science Fund",2021,2599.8,"10.1080/19420862.2021.2024118",FALSE,"Informa UK Limited","mAbs","1942-0862","1942-0862","1942-0870","1942-0862","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"35090383","PMC8803122","ut:000748384700001",NA,TRUE
 "FWF - Austrian Science Fund",2021,1108.8,"10.1080/19475705.2020.1736190",FALSE,"Informa UK Limited","Geomatics, Natural Hazards and Risk","1947-5705","1947-5705","1947-5713","1947-5705","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000521835100001",NA,TRUE
-"FWF - Austrian Science Fund",2021,1354.86,"10.4324/9780429288296-6",TRUE,"TAYLOR & FRANCIS","Epistolary Poetry in Byzantium and Beyond",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"FWF - Austrian Science Fund",2021,1373.17,"10.4324/9780429288296-5",TRUE,"TAYLOR & FRANCIS","Epistolary Poetry in Byzantium and Beyond",NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FWF - Austrian Science Fund",2021,2095.8,"10.1080/10652469.2020.1806261",TRUE,"Informa UK Limited","Integral Transforms and Special Functions","1065-2469","1065-2469","1476-8291","1065-2469","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000669193200011",NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
