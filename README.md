@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |165,055 | 317,492,091    | 376 |
+| Articles         |165,055 | 317,491,723    | 376 |
 | Monographs       |1,466 | 9,476,513    | 27 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -507,9 +507,9 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 The article data set contains information on 165,055 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 376 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 317,492,091. The average payment was € 1,924 and the median was € 1,764.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 317,491,723. The average payment was € 1,924 and the median was € 1,764.
 
-111,516 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 183,883,523, including value-added tax; the average payment was € 1,649 (median =  € 1,577, SD = € 771).
+111,516 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 183,883,156, including value-added tax; the average payment was € 1,649 (median =  € 1,577, SD = € 771).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 53,539 articles in the data set were published in hybrid journals. Total expenditure amounts to 133,608,568 €; the average fee was € 2,496 (median =  € 2,459, SD = € 1,002).
 
