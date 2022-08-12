@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 59,415 articles, published at 326 institutions under 39 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 60,325 articles, published at 326 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -31,35 +31,38 @@ This dataset contains information on 59,415 articles, published at 326 instituti
 |FinELib Springer Compact agreement           |      895|
 |FinELib Wiley agreement                      |      790|
 |Swiss Consortium Springer Compact agreement  |      693|
+|FWF Transformative Agreement Wiley-Blackwell |      684|
 |FinELib Taylor & Francis agreement           |      579|
-|FWF Transformative Agreement Wiley-Blackwell |      464|
+|FWF Transformative Agreement Springer Nature |      370|
 |FinELib IEEE agreement                       |      313|
 |Swiss Consortium T&F agreement               |      307|
+|FWF Transformative Agreement ACS             |      298|
 |FinELib SAGE agreement                       |      286|
 |Swiss Consortium RSC agreement               |      258|
 |MPG RSC agreement                            |      246|
 |Swiss Consortium SAGE agreement              |      236|
+|FWF Transformative Agreement T&F             |      234|
 |FinELib OUP agreement                        |      207|
 |University of Milan - Springer               |      192|
+|FWF Transformative Agreement Elsevier        |      186|
 |FinELib ACS agreement                        |      184|
 |Austrian Consortium RSC agreement            |      179|
-|FWF Offsetting Agreement T&F                 |      175|
-|FWF Transformative Agreement Springer Nature |      159|
-|FWF Transformative Agreement ACS             |      145|
+|FWF Transformative Agreement IOP             |      133|
 |Swiss Consortium CUP agreement               |      132|
 |FinELib Emerald agreement                    |      118|
 |University of Milan - Wiley                  |       98|
-|FWF Offsetting Agreement IOP                 |       82|
 |TIB RSC Journals R&P - TU Berlin             |       81|
 |Swiss Consortium Karger agreement            |       62|
 |FinELib RSC agreement                        |       60|
 |MPG Taylor & Francis agreement               |       46|
 |Austrian Consortium IOP agreement            |       45|
 |MPG IOP agreement                            |       32|
+|FWF Transformative Agreement RSC             |       24|
 |Austrian Consortium Emerald agreement        |       23|
 |Austrian Consortium Sage agreement           |       16|
 |University of Milan - De Gruyter             |       15|
 |University of Milan - ACS                    |       12|
+|FWF Transformative Agreement Sage            |        6|
 
 ### Breakdown by institution
 
@@ -67,7 +70,7 @@ This dataset contains information on 59,415 articles, published at 326 instituti
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |French institutions                                                                                                                                |     2649|
-|FWF - Austrian Science Fund                                                                                                                        |     1559|
+|FWF - Austrian Science Fund                                                                                                                        |     2469|
 |ETH Zurich                                                                                                                                         |     1445|
 |TU Muenchen                                                                                                                                        |     1339|
 |University of Zurich                                                                                                                               |     1243|

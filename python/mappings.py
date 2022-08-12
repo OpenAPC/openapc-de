@@ -616,7 +616,14 @@ JOURNAL_MAPPINGS = {
     "Molecular Diagnosis &amp; Therapy": "Molecular Diagnosis & Therapy",
     "Organisms Diversity &amp; Evolution": "Organisms Diversity & Evolution",
     "Child Psychiatry &amp; Human Development": "Child Psychiatry & Human Development",
-    "Alimentary Pharmacology &amp; Therapeutics": "Alimentary Pharmacology & Therapeutics"
+    "Alimentary Pharmacology &amp; Therapeutics": "Alimentary Pharmacology & Therapeutics",
+    "Experimental &amp; Molecular Medicine": "Experimental & Molecular Medicine",
+    "CS Biomaterials Science &amp; Engineering": "CS Biomaterials Science & Engineering",
+    "Crystal Growth &amp; Design": "Crystal Growth & Design",
+    "Computer Law &amp; Security Review": "Computer Law & Security Review",
+    "Learning &amp; Behavior": "Learning & Behavior",
+    "Water, Air, &amp; Soil Pollution": "Water, Air, & Soil Pollution",
+    "Journal of Business &amp; Economic Statistics": "Journal of Business & Economic Statistics"
 }
 
 COLUMN_NAMES = {
