@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 60,325 articles, published at 326 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 60,330 articles, published at 327 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 60,325 articles, published at 326 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     4079|
-|DEAL Springer Nature Germany                 |     3804|
+|DEAL Wiley Germany                           |     4080|
+|DEAL Springer Nature Germany                 |     3808|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
 |Swiss Consortium Wiley agreement             |      964|
@@ -335,6 +335,7 @@ This dataset contains information on 60,325 articles, published at 326 instituti
 |University of Roehampton                                                                                                                           |        6|
 |European Organization for Nuclear Research                                                                                                         |        5|
 |Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        5|
+|SWP - German Institute for International and Security Affairs                                                                                      |        5|
 |University of Worcester                                                                                                                            |        5|
 |Häme University of Applied Sciences                                                                                                                |        4|
 |Metropolia University of Applied Sciences                                                                                                          |        4|
