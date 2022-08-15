@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 60,330 articles, published at 327 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 60,331 articles, published at 327 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 60,330 articles, published at 327 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     4080|
+|DEAL Wiley Germany                           |     4081|
 |DEAL Springer Nature Germany                 |     3808|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
@@ -105,7 +105,7 @@ This dataset contains information on 60,330 articles, published at 327 instituti
 |École Polytechnique Fédérale de Lausanne                                                                                                           |      490|
 |Delft University of Technology                                                                                                                     |      484|
 |Wageningen University                                                                                                                              |      482|
-|HHU Düsseldorf                                                                                                                                     |      474|
+|HHU Düsseldorf                                                                                                                                     |      475|
 |Stockholm University                                                                                                                               |      468|
 |Leiden University                                                                                                                                  |      461|
 |Erasmus MC                                                                                                                                         |      453|
