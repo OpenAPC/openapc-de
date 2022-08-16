@@ -623,7 +623,9 @@ JOURNAL_MAPPINGS = {
     "Computer Law &amp; Security Review": "Computer Law & Security Review",
     "Learning &amp; Behavior": "Learning & Behavior",
     "Water, Air, &amp; Soil Pollution": "Water, Air, & Soil Pollution",
-    "Journal of Business &amp; Economic Statistics": "Journal of Business & Economic Statistics"
+    "Journal of Business &amp; Economic Statistics": "Journal of Business & Economic Statistics",
+    "Journal of Business Finance &amp; Accounting": "Journal of Business Finance & Accounting",
+    "Social Policy &amp; Administration": "Social Policy & Administration"
 }
 
 COLUMN_NAMES = {
