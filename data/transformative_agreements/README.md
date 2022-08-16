@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 60,331 articles, published at 327 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 60,392 articles, published at 327 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 60,331 articles, published at 327 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     4081|
-|DEAL Springer Nature Germany                 |     3808|
+|DEAL Wiley Germany                           |     4103|
+|DEAL Springer Nature Germany                 |     3847|
 |French EDP Sciences agreement                |     2649|
 |FinELib Elsevier agreement                   |     1616|
 |Swiss Consortium Wiley agreement             |      964|
@@ -197,6 +197,7 @@ This dataset contains information on 60,331 articles, published at 327 instituti
 |GFZ-Potsdam                                                                                                                                        |      112|
 |University of Neuchatel                                                                                                                            |      112|
 |Northumbria University                                                                                                                             |      109|
+|Mannheim U                                                                                                                                         |      108|
 |University of Surrey                                                                                                                               |      107|
 |VTT Technical Research Centre of Finland                                                                                                           |      106|
 |Montanuniversität Leoben                                                                                                                           |      105|
@@ -244,7 +245,6 @@ This dataset contains information on 60,331 articles, published at 327 instituti
 |Vienna University of Economics and Business (WU)                                                                                                   |       49|
 |Bern University of Applied Sciences                                                                                                                |       48|
 |St George's, University of London                                                                                                                  |       48|
-|Mannheim U                                                                                                                                         |       47|
 |University of Applied Sciences and Arts Northwestern Switzerland                                                                                   |       47|
 |Fraunhofer-Gesellschaft Publishing Fund                                                                                                            |       46|
 |Graduate Institute of International and Development Studies                                                                                        |       44|
