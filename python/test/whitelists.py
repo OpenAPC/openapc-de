@@ -311,7 +311,8 @@ JOURNAL_OWNER_CHANGED = {
     "2045-8940": ["SAGE Publications", "Wiley-Blackwell"], # Pulmonary Circulation
     "2045-8932": ["SAGE Publications", "Wiley-Blackwell"], # Pulmonary Circulation (linking)
     "2047-4938": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Biometrics
-    "2047-4946": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"] # IET Biometrics (electronic)
+    "2047-4946": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Biometrics (electronic)
+    "2035-8377": ["PAGEPress Publications", "MDPI AG"] # Neurology International
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -463,7 +464,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1942-0862", # mAbs, Gold OA since 2020
     "1139-6709", # International Microbiology, Hybrid since 2018 (?), published with Springer since 2018
     "1751-8660", # IET Electric Power Applications, Gold OA since 2021
-    "2047-4938" # IET Biometrics, Gold OA since 2021
+    "2047-4938", # IET Biometrics, Gold OA since 2021
+    "1699-5848" # Histology and Histopathology, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
