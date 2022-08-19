@@ -625,7 +625,14 @@ JOURNAL_MAPPINGS = {
     "Water, Air, &amp; Soil Pollution": "Water, Air, & Soil Pollution",
     "Journal of Business &amp; Economic Statistics": "Journal of Business & Economic Statistics",
     "Journal of Business Finance &amp; Accounting": "Journal of Business Finance & Accounting",
-    "Social Policy &amp; Administration": "Social Policy & Administration"
+    "Social Policy &amp; Administration": "Social Policy & Administration",
+    "Allergy, Asthma &amp; Clinical Immunology": "Allergy, Asthma & Clinical Immunology",
+    "Immunity &amp; Ageing": "Immunity & Ageing",
+    "Nutrition &amp; Diabetes": "Nutrition & Diabetes",
+    "Clinical Reviews in Allergy &amp; Immunology": "Clinical Reviews in Allergy & Immunology",
+    "Drugs &amp; Aging": "Drugs & Aging",
+    "Journal of Exposure Science &amp; Environmental Epidemiology": "Journal of Exposure Science & Environmental Epidemiology",
+    "Arthritis &amp; Rheumatology": "Arthritis & Rheumatology"
 }
 
 COLUMN_NAMES = {
