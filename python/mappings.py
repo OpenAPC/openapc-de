@@ -632,7 +632,16 @@ JOURNAL_MAPPINGS = {
     "Clinical Reviews in Allergy &amp; Immunology": "Clinical Reviews in Allergy & Immunology",
     "Drugs &amp; Aging": "Drugs & Aging",
     "Journal of Exposure Science &amp; Environmental Epidemiology": "Journal of Exposure Science & Environmental Epidemiology",
-    "Arthritis &amp; Rheumatology": "Arthritis & Rheumatology"
+    "Arthritis &amp; Rheumatology": "Arthritis & Rheumatology",
+    "Environmental Modeling &amp; Assessment": "Environmental Modeling & Assessment",
+    "Applied Mathematics &amp; Optimization": "Applied Mathematics & Optimization",
+    "Medical &amp; Biological Engineering &amp; Computing": "Medical & Biological Engineering & Computing",
+    "Air Quality, Atmosphere & Health": "Air Quality, Atmosphere & Health",
+    "Science China Physics, Mechanics &amp; Astronomy": "Science China Physics, Mechanics & Astronomy",
+    "SN Business &amp; Economics": "SN Business & Economics",
+    "Journal of Frailty &amp; Aging": "The Journal of Frailty & Aging",
+    "European Journal of Orthopaedic Surgery &amp; Traumatology": "European Journal of Orthopaedic Surgery & Traumatology",
+    "The journal of nutrition, health &amp; aging": "The journal of nutrition, health & aging"
 }
 
 COLUMN_NAMES = {
