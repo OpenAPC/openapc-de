@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 62,286 articles, published at 332 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 62,287 articles, published at 332 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 62,286 articles, published at 332 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     4250|
+|DEAL Wiley Germany                           |     4251|
 |DEAL Springer Nature Germany                 |     4112|
 |French EDP Sciences agreement                |     2649|
 |Swiss Consortium Springer Compact agreement  |     2175|
@@ -75,7 +75,7 @@ This dataset contains information on 62,286 articles, published at 332 instituti
 |University of Zurich                                                                                                                               |     1549|
 |TU Muenchen                                                                                                                                        |     1339|
 |University of Helsinki                                                                                                                             |     1233|
-|Muenchen LMU                                                                                                                                       |     1123|
+|Muenchen LMU                                                                                                                                       |     1124|
 |University College London                                                                                                                          |     1022|
 |Lund University                                                                                                                                    |      995|
 |MPG                                                                                                                                                |      946|
