@@ -641,7 +641,10 @@ JOURNAL_MAPPINGS = {
     "SN Business &amp; Economics": "SN Business & Economics",
     "Journal of Frailty &amp; Aging": "The Journal of Frailty & Aging",
     "European Journal of Orthopaedic Surgery &amp; Traumatology": "European Journal of Orthopaedic Surgery & Traumatology",
-    "The journal of nutrition, health &amp; aging": "The journal of nutrition, health & aging"
+    "The journal of nutrition, health &amp; aging": "The journal of nutrition, health & aging",
+    "Text &amp; Talk": "Text & Talk",
+    "Medicine &amp; Science in Sports &amp; Exercise": "Medicine & Science in Sports & Exercise",
+    "Ear &amp; Hearing": "Ear & Hearing"
 }
 
 COLUMN_NAMES = {
