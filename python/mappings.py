@@ -644,7 +644,9 @@ JOURNAL_MAPPINGS = {
     "The journal of nutrition, health &amp; aging": "The journal of nutrition, health & aging",
     "Text &amp; Talk": "Text & Talk",
     "Medicine &amp; Science in Sports &amp; Exercise": "Medicine & Science in Sports & Exercise",
-    "Ear &amp; Hearing": "Ear & Hearing"
+    "Ear &amp; Hearing": "Ear & Hearing",
+    "Cancer Biology &amp; Therapy": "Cancer Biology & Therapy",
+    "Journal of Microbiology &amp; Biology Education": "Journal of Microbiology & Biology Education"
 }
 
 COLUMN_NAMES = {
