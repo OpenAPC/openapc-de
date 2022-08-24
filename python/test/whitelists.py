@@ -466,7 +466,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1139-6709", # International Microbiology, Hybrid since 2018 (?), published with Springer since 2018
     "1751-8660", # IET Electric Power Applications, Gold OA since 2021
     "2047-4938", # IET Biometrics, Gold OA since 2021
-    "1699-5848" # Histology and Histopathology, Gold OA since 2021
+    "1699-5848", # Histology and Histopathology, Gold OA since 2021
+    "1538-4047" # Cancer Biology & Therapy, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
