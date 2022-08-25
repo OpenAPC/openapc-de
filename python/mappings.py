@@ -650,7 +650,7 @@ JOURNAL_MAPPINGS = {
 }
 
 COLUMN_NAMES = {
-    "institution": ["institution"],
+    "institution": ["institution", "institution_name"],
     "doi": ["doi"],
     "euro": ["apc", "kosten", "cost", "euro", "eur"],
     "period": ["period", "jahr"],
