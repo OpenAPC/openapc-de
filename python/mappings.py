@@ -646,7 +646,13 @@ JOURNAL_MAPPINGS = {
     "Medicine &amp; Science in Sports &amp; Exercise": "Medicine & Science in Sports & Exercise",
     "Ear &amp; Hearing": "Ear & Hearing",
     "Cancer Biology &amp; Therapy": "Cancer Biology & Therapy",
-    "Journal of Microbiology &amp; Biology Education": "Journal of Microbiology & Biology Education"
+    "Journal of Microbiology &amp; Biology Education": "Journal of Microbiology & Biology Education",
+    "Biomedical Physics &amp; Engineering Express": "Biomedical Physics & Engineering Express",
+    "Computers &amp; Security": "Computers & Security",
+    "Planning Practice &amp; Research": "Planning Practice & Research",
+    "Nordic Pulp &amp; Paper Research Journal": "Nordic Pulp & Paper Research Journal",
+    "Economics &amp; Human Biology": "Economics & Human Biology",
+    "Journal of Industrial Microbiology and Biotechnology": "Journal of Industrial Microbiology & Biotechnology"
 }
 
 COLUMN_NAMES = {
