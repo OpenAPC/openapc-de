@@ -1,5 +1,4 @@
 doi,euro,institution_name,is_hybrid,opt_out,period
-10.1111/hith.12195,4685,"Universität Bielefeld",TRUE,TRUE,2021
 10.1002/anie.202017078,4685,"Universität Bielefeld",TRUE,FALSE,2021
 10.1002/ejoc.202101222,4685,"Universität Bielefeld",TRUE,FALSE,2021
 10.1002/cplu.202100454,4685,"Universität Bielefeld",TRUE,FALSE,2021
@@ -28,7 +27,6 @@ doi,euro,institution_name,is_hybrid,opt_out,period
 10.1002/ange.202016455,4685,"Universität Bielefeld",TRUE,FALSE,2021
 10.1002/chem.202103353,4685,"Universität Bielefeld",TRUE,FALSE,2021
 10.1002/chem.202005191,4685,"Universität Bielefeld",TRUE,FALSE,2021
-10.1111/jopy.12632,4685,"Universität Bielefeld",TRUE,TRUE,2021
 10.1002/mnfr.202100200,4685,"Universität Bielefeld",TRUE,FALSE,2021
 10.1002/cplu.202000814,4685,"Universität Bielefeld",TRUE,FALSE,2021
 10.1111/spc3.12624,4685,"Universität Bielefeld",TRUE,FALSE,2021
