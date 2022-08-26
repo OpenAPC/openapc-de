@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 62,462 articles, published at 332 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 62,673 articles, published at 332 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 62,462 articles, published at 332 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     4311|
-|DEAL Springer Nature Germany                 |     4226|
+|DEAL Wiley Germany                           |     4403|
+|DEAL Springer Nature Germany                 |     4345|
 |French EDP Sciences agreement                |     2649|
 |Swiss Consortium Springer Compact agreement  |     2175|
 |FinELib Elsevier agreement                   |     1616|
@@ -115,6 +115,7 @@ This dataset contains information on 62,462 articles, published at 332 instituti
 |Tuebingen U                                                                                                                                        |      431|
 |University of Leeds                                                                                                                                |      428|
 |VU University Amsterdam                                                                                                                            |      426|
+|Hannover U und TIB                                                                                                                                 |      413|
 |Swedish University of Agricultural Sciences                                                                                                        |      400|
 |University of Eastern Finland                                                                                                                      |      398|
 |University of Southampton                                                                                                                          |      398|
@@ -159,7 +160,6 @@ This dataset contains information on 62,462 articles, published at 332 instituti
 |Queen's University of Belfast                                                                                                                      |      217|
 |Tilburg University                                                                                                                                 |      208|
 |University of York                                                                                                                                 |      205|
-|Hannover U und TIB                                                                                                                                 |      202|
 |University of Bath                                                                                                                                 |      199|
 |HU Berlin                                                                                                                                          |      196|
 |Queen Mary, University of London                                                                                                                   |      192|
