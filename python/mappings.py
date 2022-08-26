@@ -654,7 +654,9 @@ JOURNAL_MAPPINGS = {
     "Economics &amp; Human Biology": "Economics & Human Biology",
     "Journal of Industrial Microbiology and Biotechnology": "Journal of Industrial Microbiology & Biotechnology",
     "Environmental Technology &amp; Innovation": "Environmental Technology & Innovation",
-    "Accident Analysis &amp; Prevention": "Accident Analysis & Prevention"
+    "Accident Analysis &amp; Prevention": "Accident Analysis & Prevention",
+    "NAVIGATION": "Navigation",
+    "Statistical Methods &amp; Applications": "Statistical Methods & Applications"
 }
 
 COLUMN_NAMES = {
