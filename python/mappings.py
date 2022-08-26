@@ -652,7 +652,9 @@ JOURNAL_MAPPINGS = {
     "Planning Practice &amp; Research": "Planning Practice & Research",
     "Nordic Pulp &amp; Paper Research Journal": "Nordic Pulp & Paper Research Journal",
     "Economics &amp; Human Biology": "Economics & Human Biology",
-    "Journal of Industrial Microbiology and Biotechnology": "Journal of Industrial Microbiology & Biotechnology"
+    "Journal of Industrial Microbiology and Biotechnology": "Journal of Industrial Microbiology & Biotechnology",
+    "Environmental Technology &amp; Innovation": "Environmental Technology & Innovation",
+    "Accident Analysis &amp; Prevention": "Accident Analysis & Prevention"
 }
 
 COLUMN_NAMES = {
