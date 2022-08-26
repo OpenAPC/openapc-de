@@ -327,7 +327,6 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1474-9718", # Aging Cell
     "1555-8932", # Genes & Nutrition
     "1756-1833", # BMJ (fully OA status disputed, "added value" content not OA)
-    "1461-1457", # International Journal of Neuropsychopharmacology
     "1552-5783", # Investigative Opthalmology & Visual Science, OA since 01/2016
     "0001-4966", # The Journal of the Acoustical Society of America, archives hybrid and non-hybrid sub-journals
     "0887-0446", # Psychology & Health, status unclear -> Possible mistake in Konstanz U data
@@ -344,7 +343,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1749-5016", # Social Cognitive and Affective Neuroscience, Gold OA since 2017
     "0161-0457", # Scanning, Gold OA since 2017
     "2300-3235", # Bulletin of the Veterinary Institute in Puławy, Gold OA since 2016
-    "1461-1457", # International Journal of Neuropsychopharmacology, Gold OA since 2015,
+    "1461-1457", # International Journal of Neuropsychopharmacology, Gold OA since 2015
     "1010-4283", # Tumor Biology, Gold OA since 2017
     "2363-9555", # Research in Number Theory, Hybrid since 2018
     "2212-9790", # Maritime Studies, Hybrid since 2018
