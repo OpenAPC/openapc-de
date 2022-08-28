@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 62,673 articles, published at 332 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 62,762 articles, published at 332 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 62,673 articles, published at 332 instituti
 |:--------------------------------------------|--------:|
 |Springer Compact                             |    34337|
 |Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Wiley Germany                           |     4403|
-|DEAL Springer Nature Germany                 |     4345|
+|DEAL Wiley Germany                           |     4433|
+|DEAL Springer Nature Germany                 |     4404|
 |French EDP Sciences agreement                |     2649|
 |Swiss Consortium Springer Compact agreement  |     2175|
 |FinELib Elsevier agreement                   |     1616|
@@ -165,6 +165,7 @@ This dataset contains information on 62,673 articles, published at 332 instituti
 |Queen Mary, University of London                                                                                                                   |      192|
 |Maastricht University Medical Center (UMC+)                                                                                                        |      189|
 |PSI - Paul Scherrer Institute                                                                                                                      |      188|
+|TU Chemnitz                                                                                                                                        |      182|
 |University of Natural Resources and Life Sciences Vienna (BOKU)                                                                                    |      181|
 |Graz University of Technology                                                                                                                      |      176|
 |Durham University                                                                                                                                  |      175|
@@ -207,7 +208,6 @@ This dataset contains information on 62,673 articles, published at 332 instituti
 |Heriot-Watt University                                                                                                                             |       98|
 |Natural Resources Institute Finland                                                                                                                |       98|
 |ZHAW Zurich University of Applied Sciences                                                                                                         |       95|
-|TU Chemnitz                                                                                                                                        |       93|
 |Università della Svizzera italiana                                                                                                                 |       90|
 |Royal Holloway, University of London                                                                                                               |       87|
 |City University London                                                                                                                             |       86|
