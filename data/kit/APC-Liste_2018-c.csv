@@ -1,5 +1,5 @@
 Institution;Period;Euro;Publisher;Journal;ISSN;DOI;is_hybrid
-KIT;2018;2000,00;American Association for the Advancement of Science;Science Advances;2375-2548;10.1126/sciadv.aau9160;FALSE
+KIT;2018;2998,24;American Association for the Advancement of Science;Science Advances;2375-2548;10.1126/sciadv.aau9160;FALSE
 KIT;2018;764,25;American Chemical Society;ACS Omega;2470-1343;10.1021/acsomega.8b00637;FALSE
 KIT;2018;913,15;Bentham Science;Open Sports Sciences Journal;1875-399X;10.2174/1875399X01811010078;FALSE
 KIT;2018;1661,24;Biomed Central;AMB Express;2191-0855;10.1186/s13568-018-0676-2;FALSE
@@ -18,8 +18,8 @@ KIT;2018;1661,24;Biomed Central;Parasites and Vectors;1756-3305;10.1186/s13071-0
 KIT;2018;1303,87;Cogent OA;cogent engineering;2331-1916;10.1080/23311916.2018.1449428;FALSE
 KIT;2018;1199,52;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-17-14105-2017;FALSE
 KIT;2018;1627,92;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-18-6393-2018;FALSE
-KIT;2018;2000,00;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-18-1217-2018;FALSE
-KIT;2018;2000,00;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-18-1115-2018;FALSE
+KIT;2018;2381,19;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-18-1217-2018;FALSE
+KIT;2018;2827,44;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-18-1115-2018;FALSE
 KIT;2018;1199,52;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-18-10025-2018;FALSE
 KIT;2018;1963,50;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-18-9767-2018;FALSE
 KIT;2018;1656,48;Copernicus;Atmospheric Chemistry and Physics;1680-7324;10.5194/acp-18-2883-2018;FALSE
@@ -45,37 +45,37 @@ KIT;2018;1799,28;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.519
 KIT;2018;1242,36;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-3143-2018;FALSE
 KIT;2018;1345,89;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-4281-2018;FALSE
 KIT;2018;1760,01;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-3807-2018;FALSE
-KIT;2018;2000,00;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-3663-2018;FALSE
-KIT;2018;2000,00;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-3639-2018;FALSE
-KIT;2018;2000,00;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-4981-2018;FALSE
-KIT;2018;2000,00;Copernicus;Atmospheric Measurement Techniques;1867-8548;10.5194/amt-11-4981-2018;FALSE
-KIT;2018;2000,00;Copernicus;Atmospheric Measurement Techniques;1867-8548;10.5194/amt-11-4435-2018;FALSE
+KIT;2018;2277,66;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-3663-2018;FALSE
+KIT;2018;2056,32;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-3639-2018;FALSE
+KIT;2018;2142,00;Copernicus;Hydrology and Earth System Sciences;1607-7938;10.5194/hess-22-4981-2018;FALSE
+KIT;2018;2227,68;Copernicus;Atmospheric Measurement Techniques;1867-8548;10.5194/amt-11-4981-2018;FALSE
+KIT;2018;2588,25;Copernicus;Atmospheric Measurement Techniques;1867-8548;10.5194/amt-11-4435-2018;FALSE
 KIT;2018;1309,00;Elsevier;Computational and Structural Biotechnology Journal;2001-0370;10.1016/j.csbj.2018.01.002;FALSE
 KIT;2018;525,81;Elsevier;Data in Brief;2352-3409;10.1016/j.dib.2018.08.188 ;FALSE
 KIT;2018;824,99;Frontiers;Frontiers in Bioengineering and Biotechnology;2296-4185;10.3389/fbioe.2018.00006;FALSE
 KIT;2018;1791,41;Frontiers;Frontiers in Bioengineering and Biotechnology;2296-4185;10.3389/fbioe.2018.00189;FALSE
 KIT;2018;1791,41;Frontiers;Frontiers in Chemistry;2296-2646;10.3389/fchem.2018.00024;FALSE
-KIT;2018;2000,00;Frontiers;Frontiers in Chemistry;2296-2646;10.3389/fchem.2018.00190;FALSE
+KIT;2018;1522,70;Frontiers;Frontiers in Chemistry;2296-2646;10.3389/fchem.2018.00190;FALSE
 KIT;2018;1522,70;Frontiers;Frontiers in Chemistry;2296-2646;10.3389/fchem.2018.00421;FALSE
-KIT;2018;2000,00;Frontiers;Frontiers in Forests and Global Change;2624-893;10.3389/ffgc.2018.00008;FALSE
-KIT;2018;2000,00;Frontiers;Frontiers in Microbiology;1664-302X;10.3389/fmicb.2018.01213;FALSE
-KIT;2018;2000,00;Frontiers;Frontiers in Microbiology;1664-302X;10.3389/fmicb.2018.01313;FALSE
-KIT;2018;2000,00;Frontiers;Frontiers in Microbiology;1664-302X;10.3389/fmicb.2018.02068;FALSE
-KIT;2018;2000,00;Frontiers;Frontiers in Microbiology;1664-302X;10.3389/fmicb.2018.02599;FALSE
+KIT;2018;755,52;Frontiers;Frontiers in Forests and Global Change;2624-893;10.3389/ffgc.2018.00008;FALSE
+KIT;2018;2626,88;Frontiers;Frontiers in Microbiology;1664-302X;10.3389/fmicb.2018.01213;FALSE
+KIT;2018;2626,88;Frontiers;Frontiers in Microbiology;1664-302X;10.3389/fmicb.2018.01313;FALSE
+KIT;2018;2364,20;Frontiers;Frontiers in Microbiology;1664-302X;10.3389/fmicb.2018.02068;FALSE
+KIT;2018;2364,20;Frontiers;Frontiers in Microbiology;1664-302X;10.3389/fmicb.2018.02599;FALSE
 KIT;2018;1691,88;Frontiers;Frontiers in Molecular Biosciences;2296-889X;10.3389/fmolb.2017.00094;FALSE
-KIT;2018;2000,00;Frontiers;Frontiers in Physiology;1664-042X;10.3389/fphys.2018.01126;FALSE
-KIT;2018;2000,00;Frontiers;Frontiers in Physiology;1664-042X;10.3389/fphys.2018.01251;FALSE
+KIT;2018;2364,20;Frontiers;Frontiers in Physiology;1664-042X;10.3389/fphys.2018.01126;FALSE
+KIT;2018;2364,20;Frontiers;Frontiers in Physiology;1664-042X;10.3389/fphys.2018.01251;FALSE
 KIT;2018;1690,70;Frontiers;Frontiers in Plant Science;1664-462X;10.3389/fpls.2018.01451;FALSE
 KIT;2018;1883,35;Frontiers;Frontiers in Plant Science;1664-462X;10.3389/fpls.2018.01859 ;FALSE
 KIT;2018;755,52;Frontiers;Frontiers in Psychology;1664-1078;10.3389/fpsyg.2018.00268;FALSE
 KIT;2018;1925,60;Hindawi;Bio Med Research International;1110-7251;10.1155/2018/7231818;FALSE
 KIT;2018;1936,62;Hindawi;Journal of Advanced Transportation;2042-3195;10.1155/2018/8647607;FALSE
 KIT;2018;765,86;Hindawi;Journal of Energy;2314-615X;10.1155/2018/2420439;FALSE
-KIT;2018;2000,00;IOP;Environmental Research Letters;1748-9326;10.1088/1748-9326/aaea0b;FALSE
+KIT;2018;2142,00;IOP;Environmental Research Letters;1748-9326;10.1088/1748-9326/aaea0b;FALSE
 KIT;2018;1428,00;IOP;Journal of Physics Communications;2399-6528;10.1088/2399-6528/aada25;FALSE
 KIT;2018;1392,30;IOP;New Journal of Physics;1367-2630;10.1088/1367-2630/aaa7c3;FALSE
 KIT;2018;1392,30;IOP;New Journal of Physics;1367-2630;10.1088/1367-2630/aad92b;FALSE
-KIT;2018;2000,00;JMIR Publications;Journal of Medical Internet Research;1438-8871;10.2196/10041;FALSE
+KIT;2018;2841,46;JMIR Publications;Journal of Medical Internet Research;1438-8871;10.2196/10041;FALSE
 KIT;2018;473,47;MDPI;Aerospace;2226-4310;10.3390/aerospace5020058;FALSE
 KIT;2018;479,47;MDPI;Aerospace;2226-4310;10.3390/aerospace5030082;FALSE
 KIT;2018;1256,72;MDPI;Applied Sciences;2076-3417;10.3390/app8101738;FALSE
@@ -115,8 +115,8 @@ KIT;2018;1234,74;MDPI;Sustainability;2071-1050;10.3390/su10103798;FALSE
 KIT;2018;861,56;MDPI;Symmetry;2073-8994;10.3390/sym10010029;FALSE
 KIT;2018;645,92;MDPI;Symmetry;2073-8994;10.3390/sym10100504;FALSE
 KIT;2018;962,37;MDPI;Water;2073-4441;10.3390/w10080996;FALSE
-KIT;2018;2000,00;Public Library of Science;PLOS Computational Biology;1553-7358;10.1371/journal.pcbi.1006128;FALSE
-KIT;2018;2000,00;Public Library of Science;PLOS Genetics;1553-7404;10.1371/journal.pgen.1007674;FALSE
+KIT;2018;2260,93;Public Library of Science;PLOS Computational Biology;1553-7358;10.1371/journal.pcbi.1006128;FALSE
+KIT;2018;2475,94;Public Library of Science;PLOS Genetics;1553-7404;10.1371/journal.pgen.1007674;FALSE
 KIT;2018;1454,55;Public Library of Science;PLOS One;1932-6203;10.1371/journal.pone.0189254;FALSE
 KIT;2018;1459,72;Public Library of Science;PLOS One;1932-6203;10.1371/journal.pone.0193826;FALSE
 KIT;2018;1554,04;Public Library of Science;PLOS One;1932-6203;10.1371/journal.pone.0202052;FALSE
@@ -130,17 +130,17 @@ KIT;2018;664,98;Royal Society of Chemistry;RSC Advances;2046-2069;10.1039/C8RA09
 KIT;2018;183,76;Sage;Socius;2378-0231;10.1177/2378023118818740;FALSE
 KIT;2018;1925,00;Schweizerbart;Meteorologische Zeitschrift;1610-1227;10.1127/metz/2018/0900;FALSE
 KIT;2018;467,74;Science Publ. Group;American Journal of Sports Science;2330-8540;10.11648/j.ajss.20180602.13;FALSE
-KIT;2018;2000,00;Soil Science Society of America;Vadose Zone Journal;1539-1663;10.2136/vzj2018.03.0060;FALSE
-KIT;2018;2000,00;SpringerNature;Light: Science & Applications;2047-7538;10.1038/s41377-018-0106-x;FALSE
-KIT;2018;2000,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-03240-w;FALSE
-KIT;2018;2000,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-03784-x;FALSE
-KIT;2018;2000,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-04153-4;FALSE
-KIT;2018;2000,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-05234-0;FALSE
-KIT;2018;2000,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-05774-5;FALSE
-KIT;2018;2000,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-06829-3;FALSE
-KIT;2018;2000,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-05654-y;FALSE
-KIT;2018;2000,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-07484-4;FALSE
-KIT;2018;2000,00;SpringerNature;npj Flexible Electronics;2397-4621;10.1038/s41528-018-0047-8;FALSE
+KIT;2018;2075,00;Soil Science Society of America;Vadose Zone Journal;1539-1663;10.2136/vzj2018.03.0060;FALSE
+KIT;2018;3570,00;SpringerNature;Light: Science & Applications;2047-7538;10.1038/s41377-018-0106-x;FALSE
+KIT;2018;4403,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-03240-w;FALSE
+KIT;2018;4403,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-03784-x;FALSE
+KIT;2018;4403,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-04153-4;FALSE
+KIT;2018;3808,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-05234-0;FALSE
+KIT;2018;3850,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-05774-5;FALSE
+KIT;2018;4169,33;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-06829-3;FALSE
+KIT;2018;4169,33;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-05654-y;FALSE
+KIT;2018;3850,00;SpringerNature;Nature Communications;2041-1723;10.1038/s41467-018-07484-4;FALSE
+KIT;2018;3058,30;SpringerNature;npj Flexible Electronics;2397-4621;10.1038/s41528-018-0047-8;FALSE
 KIT;2018;1856,40;SpringerNature;npj Quantum Materials;2397-4648;10.1038/s41535-018-0098-z;FALSE
 KIT;2018;1552,95;SpringerNature;Scientific reports;2045-2322;10.1038/s41598-017-19061-8;FALSE
 KIT;2018;1630,30;SpringerNature;Scientific Reports;2045-2322;10.1038/s41598-018-21628-y;FALSE
