@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |166,373 | 320,177,031    | 377 |
+| Articles         |167,045 | 321,611,444    | 381 |
 | Monographs       |1,466 | 9,476,513    | 27 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -283,6 +283,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - AgroParisTech
 - Aix-Marseille Université
 - Avignon Université
+- CentraleSupélec
 - Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
 - Centre national de la recherche scientifique (CNRS)
 - CHU de Rennes
@@ -293,6 +294,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - École nationale du génie de l'eau et de l'environnement de Strasbourg
 - École nationale supérieure d'ingénieurs de Caen
 - Ecole normale supérieure de Paris
+- Ecole polytechnique
 - École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - ENS de Lyon
 - ENSTA Bretagne
@@ -344,6 +346,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Université de Nouvelle Calédonie
 - Université de Pau et des Pays de l'Adour
 - Université de Perpignan - Via Domitia
+- Université de Picardie Jules Verne
 - Université de Poitiers
 - Université de Reims Champagne Ardenne
 - Université de Rennes 1
@@ -363,6 +366,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Université Lille 1
 - Université Lille 2
 - Université Paris 1 Panthéon-Sorbonne
+- Université Paris Dauphine-PSL
 - Université Paris Descartes (Paris V)
 - Université Paris Diderot (Paris VII)
 - Université Paris Nanterre
@@ -506,13 +510,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 166,373 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 377 research performing institutions and research funders. 
+The article data set contains information on 167,045 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 381 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 320,177,031. The average payment was € 1,924 and the median was € 1,766.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 321,611,444. The average payment was € 1,925 and the median was € 1,767.
 
-112,739 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 186,372,531, including value-added tax; the average payment was € 1,653 (median =  € 1,580, SD = € 773).
+113,306 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 187,511,767, including value-added tax; the average payment was € 1,655 (median =  € 1,581, SD = € 774).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 53,634 articles in the data set were published in hybrid journals. Total expenditure amounts to 133,804,500 €; the average fee was € 2,495 (median =  € 2,458, SD = € 1,003).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 53,739 articles in the data set were published in hybrid journals. Total expenditure amounts to 134,099,677 €; the average fee was € 2,495 (median =  € 2,458, SD = € 1,005).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -537,12 +541,12 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2014   |       5,192|   1,375|     1,255|  40.00 -  9,028|           6,521|       2,238|         2,200|   132.3 -  6,000|
 |2015   |       8,444|   1,522|     1,448|  59.00 -  5,669|           6,688|       2,610|         2,622|   126.6 -  8,636|
 |2016   |       9,817|   1,637|     1,530|  62.51 -  5,985|           7,885|       2,552|         2,515|     2.3 -  9,079|
-|2017   |      14,600|   1,714|     1,555|   8.71 - 14,634|          10,611|       2,531|         2,472|    36.9 -  9,858|
-|2018   |      15,135|   1,698|     1,584|  13.00 -  8,926|           9,266|       2,560|         2,543|    17.7 - 13,975|
-|2019   |      16,387|   1,685|     1,623|  10.72 -  7,684|           6,292|       2,507|         2,448|    75.3 -  9,500|
-|2020   |      18,518|   1,685|     1,677|   0.01 -  8,906|           3,125|       2,373|         2,389|   130.0 -  7,416|
-|2021   |      18,267|   1,798|     1,767|  27.03 -  6,417|           2,081|       2,518|         2,480|    30.2 -  9,590|
-|2022   |         441|   1,872|     1,924|  45.00 -  5,267|              36|       2,320|         2,430|   204.0 -  5,800|
+|2017   |      14,602|   1,714|     1,555|   8.71 - 14,634|          10,612|       2,531|         2,472|    36.9 -  9,858|
+|2018   |      15,134|   1,698|     1,584|  13.00 -  8,926|           9,266|       2,560|         2,543|    17.7 - 13,975|
+|2019   |      16,389|   1,685|     1,623|  10.72 -  7,684|           6,292|       2,507|         2,448|    75.3 -  9,500|
+|2020   |      18,522|   1,685|     1,677|   0.01 -  8,906|           3,126|       2,373|         2,389|   130.0 -  7,416|
+|2021   |      18,826|   1,804|     1,771|  27.03 -  6,417|           2,184|       2,533|         2,487|    30.2 - 11,400|
+|2022   |         442|   1,870|     1,923|  45.00 -  5,267|              36|       2,320|         2,430|   204.0 -  5,800|
 
 ### Books (BPCs)
 
@@ -614,9 +618,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.71%       |
-|PubMed ID                  |  74.05%      |
-|PubMed Central ID          |  68.06%     |
-|Web of Science record ID   | 91.07%      |
+|PubMed ID                  |  74.07%      |
+|PubMed Central ID          |  68.08%     |
+|Web of Science record ID   | 91.04%      |
 
 
 

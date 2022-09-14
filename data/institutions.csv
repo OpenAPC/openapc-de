@@ -361,7 +361,7 @@ HHU Düsseldorf,hhu_duesseldorf,Heinrich-Heine-Universität Düsseldorf,EUROPE,D
 BTH Blekinge Institute of Technology,bth,BTH Blekinge Institute of Technology,EUROPE,SWE,SE-K,natlibswe/blekinge_inst_technology,https://ror.org/0093a8w51,NA,NA,NA,NA
 Jönköping University,jonkoping_u,Jönköping University,EUROPE,SWE,SE-F,natlibswe/univ_jonkoping,https://ror.org/03t54am93,NA,NA,NA,NA
 Catholic University of Eichstätt-Ingolstadt,kuei,Catholic University of Eichstätt-Ingolstadt,EUROPE,DEU,BY,ku_eichstaett_ingolstadt,https://ror.org/00mx91s63,HEI,NA,https://www.ku.de/bibliothek/forschen-und-publizieren/open-access,NA
-Université Jean Moulin - Lyon III,lyon3_u,Université Jean Moulin - Lyon III,EUROPE,FRA,FR-ARA,couperin/lyon1,https://ror.org/05b5c0584,NA,NA,NA,NA
+Université Jean Moulin - Lyon III,lyon3_u,Université Jean Moulin - Lyon III,EUROPE,FRA,FR-ARA,couperin/lyon3,https://ror.org/05b5c0584,NA,NA,NA,NA
 EURECOM,eurecom,EURECOM,EUROPE,FRA,FR-PAC,couperin/eurecom,https://ror.org/00sse7z02,NA,NA,NA,NA
 Birkbeck College,birkbeck_u,"Birkbeck, University of London",EUROPE,GBR,ENG,NA,https://ror.org/02mb95055,NA,NA,NA,NA
 Malawi Liverpool Wellcome,mlw,Malawi-Liverpool-Wellcome Clinical Research-Programme,EASTERN_AFRICA,MWI,MW-BL,NA,https://ror.org/03tebt685,NA,NA,NA,NA
@@ -376,3 +376,7 @@ Finnish Environment Institute,finnish_environment_institute,Finnish Environment 
 Université de Rennes 2,rennes2_u,Université de Rennes 2,EUROPE,FRA,FR-BRE,couperin/rennes2,https://ror.org/01m84wm78,NA,NA,NA,NA
 Université de Nîmes,nimes_u,Université de Nîmes,EUROPE,FRA,FR-OCC,couperin/nimes,https://ror.org/044t4x544,NA,NA,NA,NA
 The National Defence University,ndu,The National Defence University Finland,EUROPE,FIN,FI-18,NA,https://ror.org/01js4x705,NA,NA,NA,NA
+Ecole polytechnique,ecole_polytechnique,Ecole polytechnique,EUROPE,FRA,FR_IDF,couperin/polytechnique-saclay,https://ror.org/05hy3tk52,NA,NA,NA,NA
+Université de Picardie Jules Verne,picardie_u,Université de Picardie Jules Verne,EUROPE,FRA,FR-HDF,couperin/picardie,https://ror.org/01gyxrk03,NA,NA,NA,NA
+Université Paris Dauphine-PSL,paris_dauphine_u,Université Paris Dauphine-PSL,EUROPE,FRA,FR_IDF,couperin/paris-dauphine,https://ror.org/052bz7812,NA,NA,NA,NA
+CentraleSupélec,centrale_supelec,CentraleSupélec,EUROPE,FRA,FR_IDF,couperin/centrale-supelec,https://ror.org/019tcpt25,NA,NA,NA,NA
