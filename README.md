@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |161,350 | 309,999,624    | 374 |
+| Articles         |161,471 | 310,221,618    | 374 |
 | Monographs       |1,412 | 8,922,210    | 25 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -35,6 +35,28 @@ There are several options. You may simply download the the raw data sets in CSV 
 
 Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
 This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
+
+## Additional costs
+
+OpenAPC also aggregates data on additional costs linked to OA publishing:
+
+
+|Cost Type           | Total| Occurence| Median|
+|:-------------------|-----:|---------:|------:|
+|cover               | 14887|        12|   1206|
+|colour_charges      | 70167|        37|   1960|
+|page_charges        | 62547|        60|    838|
+|other               | 13230|       100|     27|
+|permission          |  1098|         6|    125|
+|publication_charges | 18958|        15|   1143|
+|reprint             |  2111|         5|    399|
+|submission_fee      |   768|        10|     68|
+
+
+
+#### Example Data: FZ Jülich
+
+![](figure/opencost_publishers.png)
 
 ## Participating German Universities
 
@@ -501,13 +523,13 @@ Jisc Collections released data on APC payments made by UK higher education insti
 
 
 
-The article data set contains information on 161,350 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 374 research performing institutions and research funders. 
+The article data set contains information on 161,471 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 374 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 309,999,624. The average payment was € 1,921 and the median was € 1,760.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 310,221,618. The average payment was € 1,921 and the median was € 1,759.
 
-107,939 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 176,852,292, including value-added tax; the average payment was € 1,638 (median =  € 1,570, SD = € 768).
+108,020 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 176,992,817, including value-added tax; the average payment was € 1,639 (median =  € 1,570, SD = € 768).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 53,411 articles in the data set were published in hybrid journals. Total expenditure amounts to 133,147,332 €; the average fee was € 2,493 (median =  € 2,454, SD = € 1,003).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 53,451 articles in the data set were published in hybrid journals. Total expenditure amounts to 133,228,801 €; the average fee was € 2,493 (median =  € 2,454, SD = € 1,003).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -528,39 +550,16 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2010   |         401|   1,261|     1,139| 158.79 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
 |2011   |         777|   1,158|     1,127| 104.85 -  4,666|               6|       1,781|         2,085|   552.0 -  2,631|
 |2012   |       1,578|   1,174|     1,175|  69.00 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
-|2013   |       2,473|   1,229|     1,178|  50.00 -  4,574|           1,099|       2,258|         2,260|   120.2 -  4,679|
-|2014   |       5,173|   1,375|     1,255|  40.00 -  9,028|           6,530|       2,237|         2,200|   132.3 -  6,000|
-|2015   |       8,449|   1,521|     1,448|  59.00 -  5,669|           6,713|       2,608|         2,621|   126.6 -  8,636|
+|2013   |       2,477|   1,229|     1,178|  50.00 -  4,574|           1,099|       2,258|         2,260|   120.2 -  4,679|
+|2014   |       5,191|   1,374|     1,255|  40.00 -  9,028|           6,530|       2,237|         2,200|   132.3 -  6,000|
+|2015   |       8,466|   1,520|     1,447|  59.00 -  5,669|           6,713|       2,608|         2,621|   126.6 -  8,636|
 |2016   |       9,832|   1,635|     1,531|  40.00 -  5,985|           7,896|       2,549|         2,512|     2.3 -  9,079|
-|2017   |      14,628|   1,713|     1,554|   8.71 - 14,634|          10,612|       2,530|         2,470|    36.9 -  9,858|
-|2018   |      15,123|   1,697|     1,585|  13.00 -  8,926|           9,272|       2,559|         2,543|    17.7 - 13,975|
-|2019   |      16,421|   1,684|     1,623|  10.72 -  7,684|           6,315|       2,502|         2,439|    75.3 -  9,500|
-|2020   |      18,537|   1,684|     1,677|   0.01 -  8,906|           3,141|       2,368|         2,383|   130.0 -  7,416|
-|2021   |      13,723|   1,741|     1,738|  27.03 -  6,417|           1,771|       2,523|         2,475|    30.2 -  9,590|
-|2022   |         113|   1,991|     1,931| 285.46 -  4,066|              31|       2,348|         2,380|   855.0 -  3,578|
-
-#### Additional costs
-
-OpenAPC also aggregates data on additional costs linked to OA publishing:
-
-
-|Cost Type           | Total| Occurence| Median|
-|:-------------------|-----:|---------:|------:|
-|Colour charges      | 61046|        30|   2011|
-|Cover               | 13192|        10|   1206|
-|Other               |  2658|        22|     86|
-|Page charges        | 54943|        46|    936|
-|Permission          |  1098|         6|    125|
-|Publication charges | 18958|        15|   1143|
-|Reprint             |  1035|         3|    399|
-|Submission fee      |   768|        10|     68|
-
-
-
-#### Example Data: FZ Jülich
-
-![](figure/juelich_additional_costs.png)
-
+|2017   |      14,631|   1,712|     1,554|   8.71 - 14,634|          10,612|       2,530|         2,470|    36.9 -  9,858|
+|2018   |      15,122|   1,697|     1,585|  13.00 -  8,926|           9,274|       2,558|         2,543|    17.7 - 13,975|
+|2019   |      16,407|   1,683|     1,623|  10.72 -  7,684|           6,329|       2,500|         2,437|    75.3 -  9,500|
+|2020   |      18,542|   1,684|     1,677|   0.01 -  8,906|           3,143|       2,368|         2,382|   130.0 -  7,416|
+|2021   |      13,728|   1,742|     1,738|  27.03 -  6,417|           1,782|       2,518|         2,474|    30.2 -  9,590|
+|2022   |         157|   1,979|     1,931| 285.46 -  4,689|              42|       2,444|         2,527|   855.0 -  3,578|
 
 ### Books (BPCs)
 
@@ -632,8 +631,8 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.7%       |
-|PubMed ID                  |  73.95%      |
-|PubMed Central ID          |  67.82%     |
+|PubMed ID                  |  73.92%      |
+|PubMed Central ID          |  67.8%     |
 |Web of Science record ID   | 91.11%      |
 
 
