@@ -976,18 +976,27 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                             new_amount = float(invoice_data['amount'])
                             article[invoice_data['fee_type']] = str(old_amount + new_amount)
                 if article['euro'] == 'NA':
+                    if 'APC' in article and 'Hybrid-OA' in article:
+                        print_r('Both "APC" and "Hybrid-OA" invoice found. Something is wrong here, skipping article...')
+                        articles.append({key: "" for key, _ in article.items()})
+                        continue
                     if 'APC' in article:
                         article['euro'] = article['APC']
                     elif 'Hybrid-OA' in article:
                         article['euro'] = article['Hybrid-OA']
+                    else:
+                        print_r('Neither an "APC" nor a "Hybrid-OA" invoice was found. This is probably a closed access article, skipping article...')
+                        articles.append({key: "" for key, _ in article.items()})
+                        continue
+                if float(article["euro"]) == 0.0:
+                    print_r("Total APC amount is 0, skipping...")
+                    articles.append({key: "" for key, _ in article.items()})
+                    continue
                 if processing:
                     target_string = generator
                     for variable in variables:
                         target_string = target_string.replace("%" + variable + "%", article[variable])
                     article[target] = target_string
-                #if article["euro"] in ["NA", "0"]:
-                #    print_r("Article skipped, no APC amount found.")
-                #    continue
                 if article["doi"] != "NA":
                     norm_doi = get_normalised_DOI(article["doi"])
                     if norm_doi is None:
