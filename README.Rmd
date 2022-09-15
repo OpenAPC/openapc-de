@@ -28,7 +28,8 @@ require(ggplot2)
 ```{r, echo=FALSE, cache = FALSE}
 my_apc <- readr::read_csv("data/apc_de.csv")
 my_bpc <- readr::read_csv("data/bpc.csv")
-my_costs <- readr::read_csv("data/apc_additional_costs.csv")
+my_costs <- readr::read_csv("data/opencost/opencost.csv")
+my_apc_opencost <- readr::read_csv("data/opencost/apc_de_opencost.csv")
 
 ```
 
@@ -62,6 +63,54 @@ There are several options. You may simply download the the raw data sets in CSV 
 
 Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
 This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
+
+## Additional costs
+
+OpenAPC also aggregates data on additional costs linked to OA publishing:
+
+```{r, echo=FALSE, results='asis', message = FALSE}
+
+my_cost_types <- my_costs %>%
+  select("cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee")
+  
+costs_summary <- tibble(
+  type = c("cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee"),
+  total = vector("double", 8),
+  count = vector("integer", 8),
+  median = vector("double", 8)
+)
+for (i in seq_along(my_cost_types)) {
+  costs_summary$total[[i]] <- sum(my_cost_types[[i]], na.rm = TRUE)
+  costs_summary$count[[i]] <- sum(!is.na(my_cost_types[[i]]))
+  costs_summary$median[[i]] <- median(my_cost_types[[i]], na.rm = TRUE)
+}
+
+knitr::kable(costs_summary, col.names = c("Cost Type", "Total", "Occurence", "Median"))
+```
+
+```{r, echo=FALSE}
+
+pub_selected <- c("Royal Society of Chemistry (RSC)","Oxford University Press (OUP)","American Physical Society (APS)","International Union of Crystallography (IUCr)","AIP Publishing","Optical Society of America (OSA)","American Chemical Society (ACS)","IOP Publishing","Public Library of Science (PLoS)","Wiley-Blackwell","Frontiers Media SA","Copernicus GmbH","Elsevier BV","MDPI AG","Springer Nature")
+
+
+p <- my_apc_opencost %>% 
+  inner_join(my_costs) %>% 
+  select(institution,publisher,euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee") %>%
+  filter(publisher %in% pub_selected) %>%
+  pivot_longer(., cols=c(euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee"), values_drop_na = TRUE) %>%
+  ggplot(aes(publisher, value, fill = name)) +
+  geom_bar(stat="identity") +
+  scale_fill_hue(labels = (c("Colour Charges", "Cover", "APC", "Other", "Page Charges", "Permission", "Publication Charges", "Reprint", "Submission Fee"))) +
+  guides(fill = guide_legend(title = "Cost type")) +
+  xlab("Publisher") +
+  ylab("Euro") +
+  coord_flip()
+  ggsave(p, path = "figure/", filename = "opencost_publishers.png", width=9, height=4.5, units="in", device = "png")
+```
+
+#### Example Data: FZ Jülich
+
+![](figure/opencost_publishers.png)
 
 ## Participating German Universities
 
@@ -607,50 +656,6 @@ full_join(oa_grouped, hyb_grouped) %>%
 knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA min - max", "Hybrid Articles", "Hybrid mean", "Hybrid median", "Hybrid min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
 
 ```
-
-#### Additional costs
-
-OpenAPC also aggregates data on additional costs linked to OA publishing:
-
-```{r, echo=FALSE, results='asis', message = FALSE}
-
-my_cost_types <- my_costs %>%
-  select("Colour charges","Cover","Other","Page charges","Permission","Publication charges","Reprint","Submission fee")
-  
-costs_summary <- tibble(
-  type = c("Colour charges","Cover","Other","Page charges","Permission","Publication charges","Reprint","Submission fee"),
-  total = vector("double", 8),
-  count = vector("integer", 8),
-  median = vector("double", 8)
-)
-for (i in seq_along(my_cost_types)) {
-  costs_summary$total[[i]] <- sum(my_cost_types[[i]], na.rm = TRUE)
-  costs_summary$count[[i]] <- sum(!is.na(my_cost_types[[i]]))
-  costs_summary$median[[i]] <- median(my_cost_types[[i]], na.rm = TRUE)
-}
-
-knitr::kable(costs_summary, col.names = c("Cost Type", "Total", "Occurence", "Median"))
-```
-
-```{r, echo=FALSE}
-
-p <- my_apc %>% 
-  inner_join(my_costs) %>% 
-  select(publisher,euro,"Colour charges","Cover","Other","Page charges","Permission","Publication charges","Reprint","Submission fee") %>%
-  filter(publisher %in% c("IOP Publishing", "Springer Nature", "MDPI AG", "Wiley-Blackwell", "AIP Publishing", "Elsevier BV", "Frontiers Media SA", "Public Library of Science (PLoS)", "Oxford University Press (OUP)", "American Chemical Society (ACS)")) %>%
-  pivot_longer(., cols=c(euro,"Colour charges","Cover","Other","Page charges","Permission","Publication charges","Reprint","Submission fee"), values_drop_na = TRUE) %>%
-  ggplot(aes(publisher, value, fill = name)) +
-  geom_bar(stat="identity") +
-  xlab("Publisher") +
-  ylab("Euro") +
-  coord_flip()
-  ggsave(p, path = "figure/", filename = "juelich_additional_costs.png", width=9, height=4.5, units="in", device = "png")
-```
-
-#### Example Data: FZ Jülich
-
-![](figure/juelich_additional_costs.png)
-
 
 ### Books (BPCs)
 
