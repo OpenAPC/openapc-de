@@ -614,7 +614,15 @@ COLUMN_NAMES = {
     "backlist_oa": ["backlist_oa"],
     "isbn": ["isbn"],
     "isbn_print": ["isbn_print"],
-    "isbn_electronic": ["isbn_electronic"]
+    "isbn_electronic": ["isbn_electronic"],
+    "colour_charges": ["colour_charges", "colour charges", "color_charges", "color charges"],
+    "cover": ["cover"],
+    "page_charges": ["page_charges", "page charges"],
+    "other": ["other"],
+    "permission": ["permission"],
+    "publication_charges": ["publication_charges", "publication charges"],
+    "reprint": ["reprint"],
+    "submission_fee": ["submission_fee", "submission fee"]
 }
 
 HYBRID_STATUS = {
