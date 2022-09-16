@@ -70,14 +70,14 @@ OpenAPC also aggregates data on additional costs linked to OA publishing:
 
 ```{r, echo=FALSE, results='asis', message = FALSE}
 
-my_cost_types <- my_costs %>%
-  select("cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee")
+my_cost_types <- my_apc_opencost %>% inner_join(my_costs) %>%
+  select("euro","cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee")
   
 costs_summary <- tibble(
-  type = c("cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee"),
-  total = vector("double", 8),
-  count = vector("integer", 8),
-  median = vector("double", 8)
+  type = c("APC", "Cover","Colour Charges", "Page Charges", "Other", "Permission", "Publication Charges", "Reprint", "Submission Fee"),
+  count = vector("integer", 9),
+  median = vector("double", 9),
+  total = vector("double", 9),
 )
 for (i in seq_along(my_cost_types)) {
   costs_summary$total[[i]] <- sum(my_cost_types[[i]], na.rm = TRUE)
@@ -85,7 +85,7 @@ for (i in seq_along(my_cost_types)) {
   costs_summary$median[[i]] <- median(my_cost_types[[i]], na.rm = TRUE)
 }
 
-knitr::kable(costs_summary, col.names = c("Kostenart", "Total", "Vorkommen", "Median"))
+knitr::kable(costs_summary, col.names = c("Kostenart", "Vorkommen", "Median", "Gesamtsumme"))
 ```
 
 ```{r, echo=FALSE}
