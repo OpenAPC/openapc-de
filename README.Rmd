@@ -85,32 +85,58 @@ for (i in seq_along(my_cost_types)) {
   costs_summary$median[[i]] <- median(my_cost_types[[i]], na.rm = TRUE)
 }
 
-knitr::kable(costs_summary, col.names = c("Cost Type", "Total", "Occurence", "Median"))
+knitr::kable(costs_summary, col.names = c("Kostenart", "Total", "Vorkommen", "Median"))
 ```
 
 ```{r, echo=FALSE}
 
 pub_selected <- c("Royal Society of Chemistry (RSC)","Oxford University Press (OUP)","American Physical Society (APS)","International Union of Crystallography (IUCr)","AIP Publishing","Optical Society of America (OSA)","American Chemical Society (ACS)","IOP Publishing","Public Library of Science (PLoS)","Wiley-Blackwell","Frontiers Media SA","Copernicus GmbH","Elsevier BV","MDPI AG","Springer Nature")
 
+factor_levels <- c("euro", "cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee")
 
 p <- my_apc_opencost %>% 
   inner_join(my_costs) %>% 
   select(institution,publisher,euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee") %>%
   filter(publisher %in% pub_selected) %>%
   pivot_longer(., cols=c(euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee"), values_drop_na = TRUE) %>%
-  ggplot(aes(publisher, value, fill = name)) +
+  ggplot(aes(publisher, value, fill = factor(name, levels = factor_levels))) +
   geom_bar(stat="identity") +
-  scale_fill_hue(labels = (c("Colour Charges", "Cover", "APC", "Other", "Page Charges", "Permission", "Publication Charges", "Reprint", "Submission Fee"))) +
-  guides(fill = guide_legend(title = "Cost type")) +
+  guides(fill = guide_legend(title = "Kostenart")) +
   xlab("Publisher") +
   ylab("Euro") +
+    scale_fill_manual(
+    values = c("darkolivegreen3", "red", "orange", "darkslategray", "magenta2", "darkgreen", "blue", "yellow", "cyan"),
+    labels = c("APC", "Cover", "Colour Charges", "Page Charges", "Other", "Permission", "Publication Charges", "Reprint", "Submission Fee")
+  ) + 
   coord_flip()
   ggsave(p, path = "figure/", filename = "opencost_publishers.png", width=9, height=4.5, units="in", device = "png")
+  
+q <- my_apc_opencost %>% 
+  inner_join(my_costs) %>% 
+  select(is_hybrid,euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee") %>%
+  mutate(is_hybrid_str = ifelse(is_hybrid == "TRUE", "Hybrid OA", "Gold OA")) %>%
+  pivot_longer(., cols=c(euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee"), values_drop_na = TRUE) %>%
+  ggplot(aes(is_hybrid_str, value, fill = factor(name, levels = factor_levels))) +
+  geom_col(position = position_stack(reverse = TRUE)) +
+  geom_bar(stat="identity") +
+  guides(fill = guide_legend(title = "Kostenart")) +
+  xlab("OA-Typ") +
+  ylab("Euro") +
+  scale_fill_manual(
+    values = c("darkolivegreen3", "red", "orange", "darkslategray", "magenta2", "darkgreen", "blue", "yellow", "cyan"),
+    labels = c("APC", "Cover", "Colour Charges", "Page Charges", "Other", "Permission", "Publication Charges", "Reprint", "Submission Fee")
+  ) + 
+  coord_flip()
+  ggsave(q, path = "figure/", filename = "opencost_hybrids.png", width=9, height=4.5, units="in", device = "png")
 ```
 
-#### Example Data: FZ Jülich
+#### Example Data: Additional costs per publisher
 
 ![](figure/opencost_publishers.png)
+
+#### Example Data: Additional costs per hybrid status
+
+![](figure/opencost_hybrids.png)
 
 ## Participating German Universities
 

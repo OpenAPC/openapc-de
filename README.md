@@ -41,7 +41,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 OpenAPC also aggregates data on additional costs linked to OA publishing:
 
 
-|Cost Type           | Total| Occurence| Median|
+|Kostenart           | Total| Vorkommen| Median|
 |:-------------------|-----:|---------:|------:|
 |cover               | 14887|        12|   1206|
 |colour_charges      | 70167|        37|   1960|
@@ -54,9 +54,13 @@ OpenAPC also aggregates data on additional costs linked to OA publishing:
 
 
 
-#### Example Data: FZ Jülich
+#### Example Data: Additional costs per publisher
 
 ![](figure/opencost_publishers.png)
+
+#### Example Data: Additional costs per hybrid status
+
+![](figure/opencost_hybrids.png)
 
 ## Participating German Universities
 
