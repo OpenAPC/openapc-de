@@ -656,7 +656,10 @@ JOURNAL_MAPPINGS = {
     "Environmental Technology &amp; Innovation": "Environmental Technology & Innovation",
     "Accident Analysis &amp; Prevention": "Accident Analysis & Prevention",
     "NAVIGATION": "Navigation",
-    "Statistical Methods &amp; Applications": "Statistical Methods & Applications"
+    "Statistical Methods &amp; Applications": "Statistical Methods & Applications",
+    "Air Quality, Atmosphere &amp; Health": "Air Quality, Atmosphere & Health",
+    "Cognition, Technology &amp; Work": "Cognition, Technology & Work",
+    "Journal of Intelligent &amp; Robotic Systems": "Journal of Intelligent & Robotic Systems"
 }
 
 COLUMN_NAMES = {
