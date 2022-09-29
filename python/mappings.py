@@ -659,7 +659,13 @@ JOURNAL_MAPPINGS = {
     "Statistical Methods &amp; Applications": "Statistical Methods & Applications",
     "Air Quality, Atmosphere &amp; Health": "Air Quality, Atmosphere & Health",
     "Cognition, Technology &amp; Work": "Cognition, Technology & Work",
-    "Journal of Intelligent &amp; Robotic Systems": "Journal of Intelligent & Robotic Systems"
+    "Journal of Intelligent &amp; Robotic Systems": "Journal of Intelligent & Robotic Systems",
+    "Clinical Linguistics &amp; Phonetics": "Clinical Linguistics & Phonetics",
+    "Cogent Mathematics &amp; Statistics": "Cogent Mathematics & Statistics",
+    "Soccer &amp; Society": "Soccer & Society",
+    "Systems Science &amp; Control Engineering": "Systems Science & Control Engineering",
+    "Cogent Economics &amp; Finance": "Cogent Economics & Finance",
+    "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies"
 }
 
 COLUMN_NAMES = {

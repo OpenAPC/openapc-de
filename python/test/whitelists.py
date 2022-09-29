@@ -467,7 +467,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2047-4938", # IET Biometrics, Gold OA since 2021
     "1699-5848", # Histology and Histopathology, Gold OA since 2021
     "1538-4047", # Cancer Biology & Therapy, Gold OA since 2022
-    "0013-5194" # Electronics Letters, Gold OA since 2021
+    "0013-5194", # Electronics Letters, Gold OA since 2021
+    "2352-1864", # Environmental Technology & Innovation, Gold OA since 2022
+    "2192-8959", # Case Reports in Perinatal Medicine, Gold OA since 2022
+    "1368-5538", # The Aging Male, Gold OA since 2021
+    "0803-7051" # Blood Pressure, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
