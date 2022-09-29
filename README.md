@@ -43,9 +43,9 @@ OpenAPC also aggregates data on additional costs linked to OA publishing:
 
 |Kostenart           | Vorkommen| Median| Gesamtsumme|
 |:-------------------|---------:|------:|-----------:|
-|APC                 |      1880|   1570|     3395899|
+|APC                 |      1912|   1572|     3468788|
 |Cover               |        12|   1206|       14887|
-|Colour Charges      |        36|   1818|       67787|
+|Colour Charges      |        38|   1643|       69974|
 |Page Charges        |        60|    838|       62547|
 |Other               |       100|     27|       13230|
 |Permission          |         6|    125|        1098|
@@ -62,6 +62,10 @@ OpenAPC also aggregates data on additional costs linked to OA publishing:
 #### Example Data: Additional costs per hybrid status
 
 ![](figure/opencost_hybrids.png)
+
+#### Example Data: Additional costs per Institution
+
+![](figure/opencost_institutions.png)
 
 ## Participating German Universities
 

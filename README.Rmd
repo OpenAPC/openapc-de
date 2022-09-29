@@ -128,6 +128,23 @@ q <- my_apc_opencost %>%
   ) + 
   coord_flip()
   ggsave(q, path = "figure/", filename = "opencost_hybrids.png", width=9, height=4.5, units="in", device = "png")
+  
+r <- my_apc_opencost %>% 
+  inner_join(my_costs) %>% 
+  select(institution,euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee") %>%
+  pivot_longer(., cols=c(euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee"), values_drop_na = TRUE) %>%
+  ggplot(aes(institution, value, fill = factor(name, levels = factor_levels))) +
+  geom_col(position = position_stack(reverse = TRUE)) +
+  geom_bar(stat="identity") +
+  guides(fill = guide_legend(title = "Kostenart")) +
+  xlab("Institution") +
+  ylab("Euro") +
+  scale_fill_manual(
+    values = c("darkolivegreen3", "red", "orange", "darkslategray", "magenta2", "darkgreen", "blue", "yellow", "cyan"),
+    labels = c("APC", "Cover", "Colour Charges", "Page Charges", "Other", "Permission", "Publication Charges", "Reprint", "Submission Fee")
+  ) + 
+  coord_flip()
+  ggsave(r, path = "figure/", filename = "opencost_institutions.png", width=9, height=4.5, units="in", device = "png")
 ```
 
 #### Example Data: Additional costs per publisher
@@ -137,6 +154,10 @@ q <- my_apc_opencost %>%
 #### Example Data: Additional costs per hybrid status
 
 ![](figure/opencost_hybrids.png)
+
+#### Example Data: Additional costs per Institution
+
+![](figure/opencost_institutions.png)
 
 ## Participating German Universities
 
