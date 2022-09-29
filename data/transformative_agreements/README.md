@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 63,204 articles, published at 332 institutions under 42 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 63,714 articles, published at 333 institutions under 49 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -43,6 +43,7 @@ This dataset contains information on 63,204 articles, published at 332 instituti
 |Swiss Consortium SAGE agreement              |      236|
 |FWF Transformative Agreement T&F             |      234|
 |FinELib OUP agreement                        |      207|
+|QNL Elsevier Agreement                       |      194|
 |University of Milan - Springer               |      192|
 |FWF Transformative Agreement Elsevier        |      186|
 |FinELib ACS agreement                        |      184|
@@ -50,19 +51,25 @@ This dataset contains information on 63,204 articles, published at 332 instituti
 |FWF Transformative Agreement IOP             |      133|
 |Swiss Consortium CUP agreement               |      132|
 |FinELib Emerald agreement                    |      118|
+|QNL Springer Nature Agreement                |      103|
 |University of Milan - Wiley                  |       98|
+|QNL Wiley Agreement                          |       92|
+|QNL T&F Agreement                            |       85|
 |TIB RSC Journals R&P - TU Berlin             |       81|
 |Swiss Consortium Karger agreement            |       62|
 |FinELib RSC agreement                        |       60|
 |MPG Taylor & Francis agreement               |       46|
 |Austrian Consortium IOP agreement            |       45|
 |MPG IOP agreement                            |       32|
+|QNL IEEE Agreement                           |       31|
 |FWF Transformative Agreement RSC             |       24|
 |Austrian Consortium Emerald agreement        |       23|
 |Austrian Consortium Sage agreement           |       16|
 |University of Milan - De Gruyter             |       15|
 |University of Milan - ACS                    |       12|
 |FWF Transformative Agreement Sage            |        6|
+|QNL OVID Agreement                           |        3|
+|QNL De Gruyter Agreement                     |        2|
 
 ### Breakdown by institution
 
@@ -102,6 +109,7 @@ This dataset contains information on 63,204 articles, published at 332 instituti
 |Tampere University                                                                                                                                 |      536|
 |Utrecht University                                                                                                                                 |      527|
 |Royal Institute of Technology                                                                                                                      |      521|
+|Qatar National Library                                                                                                                             |      510|
 |University of Oulu                                                                                                                                 |      503|
 |University of Groningen                                                                                                                            |      501|
 |University of Edinburgh                                                                                                                            |      495|
