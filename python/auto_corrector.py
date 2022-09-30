@@ -31,10 +31,12 @@ MISMATCH_MSG = ('Line {}: Detected a mismatch in the {} field for {} {}:\n' +
                 '  is_hybrid          : {}\n' +
                 '  publisher          : {}\n' +
                 '  journal_full_title : {}\n' +
+                '  ISSN-L             : {}\n' +
                 'The journal occurs {} times in all OpenAPC collections with the following metadata:\n' +
                 '  is_hybrid          : {}\n' +
                 '  publisher          : {}\n' +
-                '  journal_full_title : {}\n')
+                '  journal_full_title : {}\n' +
+                '  ISSN-L             : {}\n')
 
 CORRECT_MSG = ("How do you want to proceed?\n" +
                "1) Correct {} to {}\n" +
@@ -76,6 +78,7 @@ def main():
                     "journal_full_title": line["journal_full_title"],
                     "publisher": line["publisher"],
                     "is_hybrid": line["is_hybrid"],
+                    "issn_l": line["issn_l"],
                     "count": 1
                 }
                 for issn_type in ISSN_DICTS.keys():
@@ -102,14 +105,14 @@ def main():
                 if not oat.has_value(issn):
                     continue
                 if issn in ISSN_DICTS[issn_type]:
-                    for field_type in ["is_hybrid", "publisher", "journal_full_title"]:
+                    for field_type in ["is_hybrid", "publisher", "journal_full_title", "issn_l"]:
                         new_value = line[field_type]
                         established_value = ISSN_DICTS[issn_type][issn][field_type]
                         if new_value != established_value and not is_whitelisted(field_type, new_value, established_value, line["issn"], line["issn_print"], line["issn_electronic"], line["issn_l"]):
                             msg = MISMATCH_MSG.format(reader.line_num, oat.colorize(field_type, "cyan"), issn_type, issn, line["period"], line["is_hybrid"],
-                                                      line["publisher"], line["journal_full_title"], oat.colorize(str(ISSN_DICTS[issn_type][issn]["count"]), "cyan"),
+                                                      line["publisher"], line["journal_full_title"], line["issn_l"], oat.colorize(str(ISSN_DICTS[issn_type][issn]["count"]), "cyan"),
                                                       ISSN_DICTS[issn_type][issn]["is_hybrid"], ISSN_DICTS[issn_type][issn]["publisher"],
-                                                      ISSN_DICTS[issn_type][issn]["journal_full_title"])
+                                                      ISSN_DICTS[issn_type][issn]["journal_full_title"], ISSN_DICTS[issn_type][issn]["issn_l"])
                             print(msg)
                             ask_msg = CORRECT_MSG.format(field_type, oat.colorize(established_value, "green"), 
                                                          field_type, oat.colorize(established_value, "green"))
