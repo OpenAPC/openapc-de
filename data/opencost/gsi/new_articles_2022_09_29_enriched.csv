@@ -1,11 +1,11 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"gsi",2012,1373.83,"10.1007/s00340-012-4934-8",FALSE,"Springer Nature","Applied Physics B","0946-2171","0946-2171","1432-0649","0946-2171",NA,TRUE,NA,NA,"ut:000302946600002","oai:repository.gsi.de:50191",FALSE
+"gsi",2012,1373.83,"10.1007/s00340-012-4934-8",TRUE,"Springer Nature","Applied Physics B","0946-2171","0946-2171","1432-0649","0946-2171",NA,TRUE,NA,NA,"ut:000302946600002","oai:repository.gsi.de:50191",FALSE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "gsi",2016,1264.43,"10.3389/fonc.2016.00005",FALSE,"Frontiers Media SA","Frontiers in Oncology","2234-943X",NA,"2234-943X","2234-943X","CCBY4",TRUE,"26835420","PMC4718996","ut:000368645100002","oai:repository.gsi.de:184466",TRUE
 "gsi",2016,1264.43,"10.3389/fonc.2016.00028",FALSE,"Frontiers Media SA","Frontiers in Oncology","2234-943X",NA,"2234-943X","2234-943X","CCBYNV",TRUE,"26904506","PMC4751252","ut:000370599000001","oai:repository.gsi.de:184707",TRUE
 "gsi",2016,1253.27,"10.1088/1367-2630/18/2/023044",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000372470800001","oai:repository.gsi.de:185777",TRUE
-"gsi",2016,2193.16,"10.1118/1.4944593",FALSE,"Wiley-Blackwell","Medical Physics","0094-2405","0094-2405",NA,"0094-2405","http://creativecommons.org/licenses/by/4.0/",TRUE,"27036594",NA,"ut:000373711000038","oai:repository.gsi.de:186465",FALSE
+"gsi",2016,2193.16,"10.1118/1.4944593",TRUE,"Wiley-Blackwell","Medical Physics","0094-2405","0094-2405",NA,"0094-2405","http://creativecommons.org/licenses/by/4.0/",TRUE,"27036594",NA,"ut:000373711000038","oai:repository.gsi.de:186465",FALSE
 "gsi",2016,1611.00,"10.1038/srep27651",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"27282667","PMC4901340","ut:000377685300001","oai:repository.gsi.de:200573",TRUE
 "gsi",2017,2864,"10.1089/scd.2016.0277",TRUE,"Mary Ann Liebert Inc","Stem Cells and Development","1547-3287","1547-3287","1557-8534","1547-3287","https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/",TRUE,"27937745",NA,"ut:000394588800004","oai:repository.gsi.de:200723",FALSE
 "",,,"","","","","","","","","","","","","","",""
@@ -34,9 +34,9 @@
 "gsi",2019,1370,"10.1038/s41598-019-38501-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"30742029","PMC6370773","ut:000458295900015","oai:repository.gsi.de:218580",TRUE
 "",,,"","","","","","","","","","","","","","",""
 "gsi",2019,1404,"10.1088/1367-2630/ab1047",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000465988400001","oai:repository.gsi.de:218805",TRUE
-"gsi",2019,1989.56,"10.1103/physreva.99.052702",FALSE,"American Physical Society (APS)","Physical Review A","2469-9926","2469-9926","2469-9934","2469-9926","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,"oai:repository.gsi.de:218825",FALSE
+"gsi",2019,1989.56,"10.1103/physreva.99.052702",TRUE,"American Physical Society (APS)","Physical Review A","2469-9926","2469-9926","2469-9934","2469-9926","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,"oai:repository.gsi.de:218825",FALSE
 "gsi",2019,2888.58,"10.1103/physrevx.9.021029",FALSE,"American Physical Society (APS)","Physical Review X","2160-3308",NA,"2160-3308","2160-3308","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,"oai:repository.gsi.de:218912",TRUE
-"gsi",2019,1620.00,"10.1140/epja/i2019-12718-2",FALSE,"Springer Nature","The European Physical Journal A","1434-6001","1434-6001","1434-601X","1434-6001","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000462672600001","oai:repository.gsi.de:218929",FALSE
+"gsi",2019,1620.00,"10.1140/epja/i2019-12718-2",TRUE,"Springer Nature","The European Physical Journal A","1434-6001","1434-6001","1434-601X","1434-6001","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000462672600001","oai:repository.gsi.de:218929",FALSE
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "gsi",2019,1490,"10.1038/s41598-019-53587-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"31748554","PMC6868211","ut:000497712000014","oai:repository.gsi.de:220800",TRUE
@@ -50,4 +50,4 @@
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "gsi",2021,1956.00,"10.1088/1367-2630/abe79d",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000630462600001","oai:repository.gsi.de:237743",TRUE
-"gsi",2021,2400.00,"10.1016/j.radonc.2021.06.031",FALSE,"Elsevier BV","Radiotherapy and Oncology","0167-8140","0167-8140",NA,"0167-8140","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34214612",NA,"ut:000704336600009","oai:repository.gsi.de:238909",FALSE
+"gsi",2021,2400.00,"10.1016/j.radonc.2021.06.031",TRUE,"Elsevier BV","Radiotherapy and Oncology","0167-8140","0167-8140",NA,"0167-8140","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34214612",NA,"ut:000704336600009","oai:repository.gsi.de:238909",FALSE
