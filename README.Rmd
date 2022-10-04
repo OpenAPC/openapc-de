@@ -85,7 +85,7 @@ for (i in seq_along(my_cost_types)) {
   costs_summary$median[[i]] <- median(my_cost_types[[i]], na.rm = TRUE)
 }
 
-knitr::kable(costs_summary, col.names = c("Kostenart", "Vorkommen", "Median", "Gesamtsumme"))
+knitr::kable(costs_summary, col.names = c("Cost type", "Occurence", "Median", "Sum"))
 ```
 
 ```{r, echo=FALSE}
@@ -101,7 +101,7 @@ p <- my_apc_opencost %>%
   pivot_longer(., cols=c(euro,"cover","colour_charges","page_charges","other","permission","publication_charges","reprint","submission_fee"), values_drop_na = TRUE) %>%
   ggplot(aes(publisher, value, fill = factor(name, levels = factor_levels))) +
   geom_bar(stat="identity") +
-  guides(fill = guide_legend(title = "Kostenart")) +
+  guides(fill = guide_legend(title = "Cost type")) +
   xlab("Publisher") +
   ylab("Euro") +
     scale_fill_manual(
@@ -119,7 +119,7 @@ q <- my_apc_opencost %>%
   ggplot(aes(is_hybrid_str, value, fill = factor(name, levels = factor_levels))) +
   geom_col(position = position_stack(reverse = TRUE)) +
   geom_bar(stat="identity") +
-  guides(fill = guide_legend(title = "Kostenart")) +
+  guides(fill = guide_legend(title = "Cost type")) +
   xlab("OA-Typ") +
   ylab("Euro") +
   scale_fill_manual(
@@ -136,7 +136,7 @@ r <- my_apc_opencost %>%
   ggplot(aes(institution, value, fill = factor(name, levels = factor_levels))) +
   geom_col(position = position_stack(reverse = TRUE)) +
   geom_bar(stat="identity") +
-  guides(fill = guide_legend(title = "Kostenart")) +
+  guides(fill = guide_legend(title = "Cost type")) +
   xlab("Institution") +
   ylab("Euro") +
   scale_fill_manual(

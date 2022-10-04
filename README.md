@@ -41,17 +41,17 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 OpenAPC also aggregates data on additional costs linked to OA publishing:
 
 
-|Kostenart           | Vorkommen| Median| Gesamtsumme|
-|:-------------------|---------:|------:|-----------:|
-|APC                 |      1933|   1570|     3501770|
-|Cover               |        12|   1206|       14887|
-|Colour Charges      |        41|   1960|       77114|
-|Page Charges        |        60|    838|       62547|
-|Other               |       100|     27|       13230|
-|Permission          |         6|    125|        1098|
-|Publication Charges |        15|   1143|       18958|
-|Reprint             |         5|    399|        2111|
-|Submission Fee      |        10|     68|         768|
+|Cost type           | Occurence| Median|     Sum|
+|:-------------------|---------:|------:|-------:|
+|APC                 |      1933|   1570| 3501770|
+|Cover               |        12|   1206|   14887|
+|Colour Charges      |        41|   1960|   77114|
+|Page Charges        |        60|    838|   62547|
+|Other               |       100|     27|   13230|
+|Permission          |         6|    125|    1098|
+|Publication Charges |        15|   1143|   18958|
+|Reprint             |         5|    399|    2111|
+|Submission Fee      |        10|     68|     768|
 
 
 
