@@ -24,7 +24,8 @@ PUBLISHER_IDENTITY = [
     (["Birkhäuser"], ["De Gruyter"]), # Birkhäuser is an imprint of De Gruyter
     (["OMICS Publishing Group"], ["Hilaris"]),
     (["Optical Society of America (OSA)"], ["Optica Publishing Group"]),
-    (["Wiley-Blackwell"], ["British Institute of Radiology"])
+    (["Wiley-Blackwell"], ["British Institute of Radiology"]),
+    (["jovis Verlag"], ["De Gruyter"]) # jovis is an imprint of De Gruyter
 ]
 
 
