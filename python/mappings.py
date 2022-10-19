@@ -665,7 +665,10 @@ JOURNAL_MAPPINGS = {
     "Soccer &amp; Society": "Soccer & Society",
     "Systems Science &amp; Control Engineering": "Systems Science & Control Engineering",
     "Cogent Economics &amp; Finance": "Cogent Economics & Finance",
-    "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies"
+    "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies",
+    "Wood Material Science & Engineering": "Wood Material Science and Engineering",
+    "Computer Modeling in Engineering &amp; Sciences": "Computer Modeling in Engineering & Sciences",
+    "R&amp;D Management": "R&D Management"
 }
 
 COLUMN_NAMES = {
