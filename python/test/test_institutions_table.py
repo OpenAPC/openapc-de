@@ -23,8 +23,8 @@ DATA = {
     "translation_institution_types": []
 }
 
-# List of all institution identifiers in the APC data set (as strings)
-APC_INSTITUTIONS = []
+# List of all OpenAPC institutional identifiers (as strings)
+INSTITUTIONS = []
 
 # Holds all currently active URLRequestThreads
 THREAD_POOL = []
@@ -82,7 +82,6 @@ def _cleanup_thread_pool():
             FINISHED_THREADS.append(thread)
     THREAD_POOL = still_running
 
-
 def run_url_threads():
     """
     Create parallel URLRequestThreads for all info_urls and start them.
@@ -112,12 +111,13 @@ def run_url_threads():
         time.sleep(0.2)
 
 # Prepare the test data
-with open(DATA_FILES["apc"]["file_path"], "r") as f:
-    reader = csv.reader(f)
-    reader.__next__() # skip the header
-    for row in reader:
-        if row[0] not in APC_INSTITUTIONS:
-            APC_INSTITUTIONS.append(row[0])
+for data_file, metadata in DATA_FILES.items():
+    with open(metadata["file_path"], "r") as f:
+        reader = csv.reader(f)
+        reader.__next__() # skip the header
+        for row in reader:
+            if row[0] not in INSTITUTIONS:
+                INSTITUTIONS.append(row[0])
 for base_name, data in DATA.items():
     file_path = os.path.join("data", base_name + ".csv")
     with open(file_path, "r") as f:
@@ -171,7 +171,7 @@ def test_institution_file_identifiers(row_object):
         msg = MSG_HEAD + "Institution identifier is empty."
         msg = msg.format(row_object.file_name, row_object.line_number)
         pytest.fail(msg)
-    if institution not in APC_INSTITUTIONS:
+    if institution not in INSTITUTIONS:
         msg = MSG_HEAD + "Institution identifier '{}' does not occur in APC data set."
         msg = msg.format(row_object.file_name, row_object.line_number, institution)
         pytest.fail(msg)
@@ -224,7 +224,7 @@ def test_translations(row_object):
             msg = msg.format(ins_group)
             pytest.fail(msg)
 
-@pytest.mark.parametrize("institution", APC_INSTITUTIONS)
+@pytest.mark.parametrize("institution", INSTITUTIONS)
 def test_apc_file_identifiers(institution):
     for row_object in DATA["institutions"]:
         # There are more efficient ways to do this (f.e. assert set() == set()),
@@ -232,6 +232,6 @@ def test_apc_file_identifiers(institution):
         if institution == row_object.row[0]:
             break
     else:
-        msg = "APC data identifier '{}' does not occur in institution file."
+        msg = "institutional identifier '{}' does not occur in institution file."
         msg = msg.format(institution)
         pytest.fail(msg)
