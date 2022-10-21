@@ -183,7 +183,7 @@ Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,natlibswe/uni
 Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES,couperin/lorraine,https://ror.org/04vfs2w97,NA,NA,NA,NA
 CNRS,cnrs,Centre national de la recherche scientifique (CNRS),EUROPE,FRA,FR-IDF,couperin/cnrs,https://ror.org/00675rp98,NA,NA,NA,NA
 Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FRA,FR-ARA,couperin/auvergne,https://ror.org/01a8ajp46,NA,NA,NA,NA
-Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,iupui,https://ror.org/05gxnyn08,NA,NA,http://www.ulib.iupui.edu/digitalscholarship/openaccess/oafund,NA
+Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,iupui,https://ror.org/05gxnyn08,NA,NA,https://ulib.iupui.edu/digitalscholarship/openaccess/oafund,NA
 Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE,igb,https://ror.org/01nftxb06,INS,WGL,https://www.igb-berlin.de/en/library,NA
 Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE,wias,https://ror.org/00h1x4t21,INS,WGL,https://www.wias-berlin.de/services/library/,NA
 Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,couperin/paris-descartes,NA,NA,NA,NA,NA
@@ -391,3 +391,7 @@ City University London,NA,City University London,NA,GBR,NA,NA,https://ror.org/04
 Edge Hill University,NA,Edge Hill University,NA,GBR,NA,NA,https://ror.org/028ndzd53,NA,NA,https://www.edgehill.ac.uk/,NA
 Kingston University,NA,Kingston University,NA,GBR,NA,NA,https://ror.org/05bbqza97,NA,NA,https://www.kingston.ac.uk/,NA
 Natural History Museum,NA,Natural History Museum,NA,GBR,NA,NA,https://ror.org/039zvsn29,NA,NA,https://www.nhm.ac.uk/,NA
+Nottingham Trent University,NA,Nottingham Trent University,NA,GBR,NA,NA,https://ror.org/04xyxjd90,NA,NA,https://www.ntu.ac.uk/,NA
+Robert Gordon University,NA,Robert Gordon University,NA,GBR,NA,NA,https://ror.org/04f0qj703,NA,NA,https://www.rgu.ac.uk/,NA
+Scotland's Rural College,NA,Scotland's Rural College,NA,GBR,NA,NA,https://ror.org/044e2ja82,NA,NA,https://www.sruc.ac.uk/,NA
+Sheffield Hallam University,NA,Sheffield Hallam University,NA,GBR,NA,NA,https://ror.org/019wt1929,NA,NA,https://www.shu.ac.uk/,NA
