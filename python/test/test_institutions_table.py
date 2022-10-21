@@ -9,6 +9,7 @@ import threading
 
 import pytest
 import requests
+from warnings import warn
 
 from .test_apc_csv import RowObject, DATA_FILES
 
@@ -25,6 +26,9 @@ DATA = {
 
 # List of all OpenAPC institutional identifiers (as strings)
 INSTITUTIONS = []
+
+# List of all institutional identifiers (as strings) in the apc_de file
+INSTITUTIONS_APC_DE = []
 
 # Holds all currently active URLRequestThreads
 THREAD_POOL = []
@@ -118,6 +122,8 @@ for data_file, metadata in DATA_FILES.items():
         for row in reader:
             if row[0] not in INSTITUTIONS:
                 INSTITUTIONS.append(row[0])
+            if data_file == "apc" and row[0] not in INSTITUTIONS_APC_DE:
+                INSTITUTIONS_APC_DE.append(row[0])
 for base_name, data in DATA.items():
     file_path = os.path.join("data", base_name + ".csv")
     with open(file_path, "r") as f:
@@ -150,18 +156,23 @@ def test_info_urls(thread):
     if thread.status_code is not None:
         msg = MSG_HEAD + "HTTP request to '{}' returned status code {}"
         msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.url, thread.status_code)
-        pytest.fail(msg)
+        warn(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
-def test_cube_names(row_object):
-    cube_name = row_object.row[1]
-    if not oat.has_value(cube_name):
-        msg = MSG_HEAD + "Cube name is empty."
-        msg = msg.format(row_object.file_name, row_object.line_number)
+def test_cubes_names(row_object):
+    institution = row_object.row[0]
+    cubes_name = row_object.row[1]
+    if not oat.has_value(cubes_name) and institution in INSTITUTIONS_APC_DE:
+        msg = MSG_HEAD + "Institution '{}' occurs in the apc_de file, but the cubes name is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number, institution)
         pytest.fail(msg)
-    if re.compile(r"\s").search(cube_name):
+    if oat.has_value(cubes_name) and not institution in INSTITUTIONS_APC_DE:
+        msg = MSG_HEAD + "A cubes name was assigned for institution '{}', but it has no entries in the apc_de file."
+        msg = msg.format(row_object.file_name, row_object.line_number, institution)
+        pytest.fail(msg)
+    if re.compile(r"\s").search(cubes_name):
         msg = MSG_HEAD + "Cube name '{}' contains whitespace characters."
-        msg = msg.format(row_object.file_name, row_object.line_number, cube_name)
+        msg = msg.format(row_object.file_name, row_object.line_number, cubes_name)
         pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
@@ -172,7 +183,7 @@ def test_institution_file_identifiers(row_object):
         msg = msg.format(row_object.file_name, row_object.line_number)
         pytest.fail(msg)
     if institution not in INSTITUTIONS:
-        msg = MSG_HEAD + "Institution identifier '{}' does not occur in APC data set."
+        msg = MSG_HEAD + "Institution identifier '{}' does not occur in any data set."
         msg = msg.format(row_object.file_name, row_object.line_number, institution)
         pytest.fail(msg)
 
@@ -181,18 +192,20 @@ def test_geo_data(row_object):
     continent = row_object.row[3]
     country = row_object.row[4]
     state = row_object.row[5]
-    if not oat.has_value(continent):
-        msg = MSG_HEAD + "Continent column is empty."
-        msg = msg.format(row_object.file_name, row_object.line_number)
-        pytest.fail(msg)
+    cubes_name = row_object.row[1]
     if not oat.has_value(country):
         msg = MSG_HEAD + "Country column is empty."
         msg = msg.format(row_object.file_name, row_object.line_number)
         pytest.fail(msg)
-    if not oat.has_value(state):
-        msg = MSG_HEAD + "State column is empty."
-        msg = msg.format(row_object.file_name, row_object.line_number)
-        pytest.fail(msg)
+    if oat.has_value(cubes_name):
+        if not oat.has_value(continent):
+            msg = MSG_HEAD + "A cubes name was assigned ({}), but the continent column is empty."
+            msg = msg.format(row_object.file_name, row_object.line_number, cubes_name)
+            pytest.fail(msg)
+        if not oat.has_value(state):
+            msg = MSG_HEAD + "A cubes name was assigned ({}), but the state column is empty."
+            msg = msg.format(row_object.file_name, row_object.line_number, cubes_name)
+            pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
 def test_translations(row_object):
