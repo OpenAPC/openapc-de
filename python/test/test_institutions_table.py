@@ -30,6 +30,11 @@ INSTITUTIONS = []
 # List of all institutional identifiers (as strings) in the apc_de file
 INSTITUTIONS_APC_DE = []
 
+# List of all ROR IDs
+ROR_IDS = []
+
+ROR_ID_REGEX = re.compile(r"https:\/\/ror.org\/[a-z0-9]{9}")
+
 # Holds all currently active URLRequestThreads
 THREAD_POOL = []
 # Maximum number of parallel threads
@@ -174,6 +179,22 @@ def test_cubes_names(row_object):
         msg = MSG_HEAD + "Cube name '{}' contains whitespace characters."
         msg = msg.format(row_object.file_name, row_object.line_number, cubes_name)
         pytest.fail(msg)
+
+@pytest.mark.parametrize("row_object", DATA["institutions"])
+def test_ror_ids(row_object):
+    global ROR_IDS
+    ror_id = row_object.row[7]
+    if oat.has_value(ror_id):
+        if not ROR_ID_REGEX.match(ror_id):
+            msg = MSG_HEAD + "ROR ID '{}' is not well-formed."
+            msg = msg.format(row_object.file_name, row_object.line_number, ror_id)
+            pytest.fail(msg)
+        if ror_id not in ROR_IDS:
+            ROR_IDS.append(ror_id)
+        else:
+            msg = MSG_HEAD + "ROR ID '{}' occurs more than once."
+            msg = msg.format(row_object.file_name, row_object.line_number, ror_id)
+            pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
 def test_institution_file_identifiers(row_object):
