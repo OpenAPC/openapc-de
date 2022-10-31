@@ -123,7 +123,7 @@ BI Norwegian Business School,nor_business_school,BI Norwegian Business School,EU
 Bergen University College,bergen_uc,Bergen University College,EUROPE,NOR,NO.HO,NA,https://ror.org/05phns765,NA,NA,NA,NA
 Fridtjof Nansen Institute,fridtjof_nansen_institute,Fridtjof Nansen Institute,EUROPE,NOR,NO.AK,NA,https://ror.org/04ep2t954,NA,NA,NA,NA
 GenØk - Centre for Biosafety,genok,GenØk - Centre for Biosafety,EUROPE,NOR,NO.TR,NA,https://ror.org/027arfy53,NA,NA,NA,NA
-Harstad University College,harstad_uc,Harstad University College,EUROPE,NOR,NO.TR,NA,https://ror.org/00wge5k78,NA,NA,NA,NA
+Harstad University College,harstad_uc,Harstad University College,EUROPE,NOR,NO.TR,NA,NA,NA,NA,NA,NA
 Innlandet Hospital Trust,innlandet_ht,Innlandet Hospital Trust,EUROPE,NOR,NO.HE,NA,https://ror.org/02kn5wf75,NA,NA,NA,NA
 Institute of Marine Research,institute_of_marine_research,Institute of Marine Research,EUROPE,NOR,NO.HO,NA,https://ror.org/05vg74d16,NA,NA,NA,NA
 Molde University College,molde_uc,Molde University College,EUROPE,NOR,NO.MR,NA,https://ror.org/00kxjcd28,NA,NA,NA,NA
@@ -167,11 +167,11 @@ Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC,
 Hospices Civils de Lyon,hcl_u,Hospices Civils de Lyon,EUROPE,FRA,FR-ARA,couperin/hcl,https://ror.org/01502ca60,NA,NA,NA,NA
 INRIA,inria,Institut national de recherche en informatique et en automatique (INRIA),EUROPE,FRA,FR-IDF,couperin/inria,https://ror.org/02kvxyf05,NA,NA,NA,NA
 INSERM,inserm,Institut national de la santé et de la recherche médicale (INSERM),EUROPE,FRA,FR-IDF,couperin/inserm,https://ror.org/02vjkv261,NA,NA,NA,NA
-Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1,https://ror.org/02kzqn938,NA,NA,NA,NA
-Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2,https://ror.org/02kzqn938,NA,NA,NA,NA
+Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1,NA,NA,NA,NA,NA
+Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2,NA,NA,NA,NA,NA
 Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,couperin/rennes1,https://ror.org/015m7wh34,NA,NA,NA,NA
 Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon,https://ror.org/02m9kbe37,NA,NA,NA,NA
-Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc,https://ror.org/02en5vm52,NA,NA,NA,NA
+Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc,NA,NA,NA,NA,NA
 Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,couperin/bordeaux,https://ror.org/057qpr032,NA,NA,NA,NA
 Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble,https://ror.org/02rx3b187,NA,NA,NA,NA
 Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt,https://ror.org/033p9g875,NA,NA,NA,NA
