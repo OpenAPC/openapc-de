@@ -228,6 +228,7 @@ JOURNAL_OWNER_CHANGED = {
     "0024-4201": ["Springer Nature", "Wiley-Blackwell"], # Lipids
     "1558-9307": ["Springer Nature", "Wiley-Blackwell"], # Lipids (electronic)
     "0021-9258": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Journal of Biological Chemistry
+    "1083-351X": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Journal of Biological Chemistry (electronic)
     "2160-1836": ["Genetics Society of America", "Oxford University Press (OUP)"], # G3: Genes|Genomes|Genetics
     "1661-8564": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (electronic)
     "1661-8556": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (linking)
