@@ -628,7 +628,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 - [OpenAIRE (FP7 Post-Grant OA Pilot)](https://www.openaire.eu/fp7-oapilot)
 
-## Institutions from Netherlands 
+## Institutions from the Netherlands 
 
 - [Academic Medical Center (AMC)](https://www.amc.nl/web/home.htm)
 - [Academisch Centrum Tandheelkunde Amsterdam (ACTA)](https://acta.nl/en/)
