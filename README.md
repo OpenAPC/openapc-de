@@ -147,30 +147,94 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 ###  Other institutions 
 
 - [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
+- [Knowledge Unlatched](http://www.knowledgeunlatched.org/)
+- [OA-Monofonds Brandenburg](https://open-access-brandenburg.de/fonds/)
 - [SWP - German Institute for International and Security Affairs](https://www.swp-berlin.org/en/)
+
+- Hannover U und TIB
 
 ## Institutions from Austria 
 
+- [AC2T Research GmbH](https://www.ac2t.at/en/)
+- [Carinthia University of Applied Sciences (CUAS)](https://www.fh-kaernten.at/en/)
+- [Danube University Krems University for Continuing Education](https://www.donau-uni.ac.at/en.html)
+- [Ferdinand Porsche FernFH](https://www.fernfh.ac.at/en)
+- [FH Campus Wien - University of Applied Sciences](https://www.fh-campuswien.ac.at/en)
+- [FH Joanneum - University of Applied Sciences](https://www.fh-joanneum.at/en/)
+- [FH Kufstein Tirol - University of Applied Sciences](https://www.fh-kufstein.ac.at/eng/)
+- [FH Salzburg - University of Applied Sciences](https://www.fh-salzburg.ac.at/en/)
+- [FH St. Pölten - University of Applied Sciences](https://www.fhstp.ac.at/en)
+- [FH Vorarlberg - University of Applied Sciences](https://www.fhv.at/en/)
+- [FHWien der WKW (FHW)](https://www.fh-wien.ac.at/en/)
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
+- [Graz University of Technology](https://www.tugraz.at/en/home)
+- [Institute for Advanced Studies Vienna](https://www.ihs.ac.at/)
 - [Institute of Science and Technology Austria](https://ist.ac.at/en/research/library/publish-communicate/)
+- [International Institute for Applied Systems Analysis (IIASA)](https://iiasa.ac.at/)
 - [Johannes Kepler University Linz](https://www.jku.at/en/library/service/bibliometrics-and-publication-support/open-access-publishing/publication-fund/)
+- [Medical University of Graz](https://www.medunigraz.at/en/)
+- [Medical University of Innsbruck](https://www.i-med.ac.at/mypoint/index.xml.en)
+- [Medical University of Vienna](https://www.meduniwien.ac.at/web/en/)
+- [Modul University Vienna (MUVIENNA)](https://www.modul.ac.at/)
+- [Montanuniversität Leoben](https://www.unileoben.ac.at/en/)
+- [Paracelsus Medical University](https://www.pmu.ac.at/en/home.html)
+- Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology
 - [Technische Universität Wien](https://www.tuwien.at/en/library/research-and-publishing/funding)
+- [University of Applied Sciences Burgenland](https://www.fh-burgenland.at/en/)
+- [University of Applied Sciences Upper Austria](https://www.fh-ooe.at/en/)
+- [University of Applied Sciences Wiener Neustadt for Business and Engineering](https://www.fhwn.ac.at/en/)
+- [University of Graz](https://www.uni-graz.at/en/)
+- [University of Innsbruck](https://www.uibk.ac.at/en/)
+- University of Innsbruck and Medical University of Innsbruck
+- [University of Klagenfurt](https://www.aau.at/en/)
+- [University of Natural Resources and Life Sciences Vienna (BOKU)](https://boku.ac.at/en/)
 - [University of Salzburg](https://www.plus.ac.at/university-library/services/open-access/open-access-policy/?lang=en)
+- [University of Veterinary Medicine Vienna](https://www.vetmeduni.ac.at/en/)
+- [University of Vienna](https://www.univie.ac.at/en/)
+- [Vienna University of Economics and Business (WU)](https://www.wu.ac.at/en/)
 
 ## Institutions from Switzerland 
 
+- [Agroscope](https://www.agroscope.admin.ch/agroscope/en/home.html)
 - [Bern University of Applied Sciences](http://www.bfh.ch/)
 - [Eawag - Swiss Federal Institute of Aquatic Science and Technology](https://www.eawag.ch/en/) (via [Lib4RI](https://www.lib4ri.ch/services/open-access.html))
+- [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/en/)
 - [Empa - Swiss Federal Laboratories for Materials Science and Technology](https://www.empa.ch/) (via [Lib4RI](https://www.lib4ri.ch/services/open-access.html))
 - [ETH Zürich](https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/publishing-in-open-access-journals.html)
+- [European Organization for Nuclear Research](https://home.web.cern.ch/)
+- [Forschungsinstitut für biologischen Landbau FiBL](https://www.fibl.org/en)
+- [Graduate Institute of International and Development Studies](http://graduateinstitute.ch/home.html)
+- [Haute École Pédagogique BEJUNE](https://www.hep-bejune.ch/)
+- [Haute École Pédagogique du Canton de Vaud](https://www.hepl.ch/accueil.html)
+- [Haute École Pédagogique Fribourg](https://hepfr.ch/)
 - [Hochschule Luzern](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
+- [Medicines for Malaria Venture](https://www.mmv.org/)
+- [OST University of Applied Science of Eastern Switzerland](https://www.ost.ch/en/)
+- [Pädagogische Hochschule Bern](https://www.phbern.ch/)
 - [Pädagogische Hochschule Luzern](https://www.phlu.ch/)
+- [Pädagogische Hochschule Thurgau](https://www.phtg.ch/)
 - [Pädagogische Hochschule Zürich](https://phzh.ch/de/Forschung/grundsatze/open-access/)
 - [PSI - Paul Scherrer Institute](https://www.psi.ch/en)
+- [Schwyz University of Teacher Education](https://www.phsz.ch/en/)
+- [St.Gallen University of Teacher Education](https://www.phsg.ch/en)
+- [Swiss Federal University for Vocational Education and Training](https://www.sfuvet.swiss/)
 - [Swiss National Science Foundation (SNSF)](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
+- [Swiss Ornithological Institute](https://www.vogelwarte.ch/de/home/)
+- [Università della Svizzera italiana](https://www.usi.ch/en)
 - [Universität Luzern](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
+- [University of Applied Sciences and Arts Northwestern Switzerland](https://www.fhnw.ch/en)
+- [University of Applied Sciences and Arts of Southern Switzerland](https://www.supsi.ch/home_en.html)
+- [University of Applied Sciences and Arts Western Switzerland](https://www.hes-so.ch/en/homepage)
+- [University of Applied Sciences in Business Administration Zurich](https://fh-hwz.ch/english/)
+- [University of Applied Sciences of the Grisons](https://www.fhgr.ch/en/)
 - [University of Basel](https://ub.unibas.ch/de/digitale-dienste/open-access/)
 - [University of Bern](https://www.ub.unibe.ch/services/open_science/open_access/oa_fonds/index_eng.html)
+- [University of Fribourg](https://www.unifr.ch/home/en/)
+- [University of Geneva](https://www.unige.ch/)
+- [University of Lausanne](https://www.unil.ch/central/en/home.html)
+- [University of Neuchatel](https://www.unine.ch/)
+- [University of St.Gallen](https://www.unisg.ch/)
+- [University of Teacher Education Zug](https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug)
 - [University of Zurich](https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access/Open-Access-an-der-UZH.html)
 - [WSL - Swiss Federal Institute for Forest, Snow and Landscape Research](https://www.wsl.ch/en/index.html)
 - [ZHAW Zurich University of Applied Sciences](https://www.zhaw.ch/en/library/writing-publishing/publishing-and-open-access/oa-at-the-zhaw/#c112481)
@@ -228,9 +292,11 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Chalmers University of Technology
 - Dalarna University
 - Halmstad University
+- [Institute Mittag-Leffler](http://www.mittag-leffler.se/)
 - Jönköping University
 - Karlstad University
 - Karolinska Institutet
+- [Kristianstad University](https://www.hkr.se/en/)
 - KTH Royal Institute of Technology
 - Linköping University
 - Linnaeus University
@@ -238,12 +304,21 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Lund University
 - Mälardalen University
 - Malmö University
+- [Medical Products Agency](https://www.lakemedelsverket.se/en)
+- [Mid Sweden University](https://www.miun.se/en)
 - Örebro University
+- [Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/)
+- [RISE Research Institutes of Sweden](https://www.ri.se/en)
 - Södertörns University
+- [Sophiahemmet University College](https://www.shh.se/en/)
 - Stockholm School of Economics
 - Stockholm University
+- [Swedish Defence Research Agency](https://www.foi.se/en/foi.html)
+- [Swedish Museum of Natural History](https://www.nrm.se/en/16.html)
+- [Swedish National Road and Transport Research Institute (VTI)](https://www.vti.se/en/)
 - Swedish School of Sport and Health Sciences
 - Swedish University of Agricultural Sciences
+- [The Swedish Environmental Protection Agency](https://www.naturvardsverket.se/en)
 - Umeå University
 - University of Borås
 - University of Gävle
@@ -256,26 +331,44 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 - Aalto University
 - Åbo Akademi University
+- [Arcada University of Applied Sciences](https://www.arcada.fi/en)
 - Finnish Environment Institute
+- [Finnish Food Authority](https://www.ruokavirasto.fi/)
+- [Finnish Government](https://valtioneuvosto.fi/en/frontpage)
+- [Finnish Institute for Health and Welfare](https://thl.fi/en/web/thlfi-en)
+- [Finnish Institute of Occupational Health](https://www.ttl.fi/en)
+- [Finnish Meteorological Institute](https://en.ilmatieteenlaitos.fi/)
+- [Geological Survey of Finland](https://www.gtk.fi/en/)
 - Haaga-Helia University of Applied Sciences
 - Häme University of Applied Sciences
 - [Hanken School of Economics](https://www.hanken.fi/en)
 - JAMK University of Applied Sciences
 - Lapin ammattikorkeakoulu (Lapland University of Applied Sciences)
+- [Lappeenranta-Lahti University of Technology LUT](https://www.lut.fi/en)
 - [Laurea University of Applied Sciences](https://www.laurea.fi/en/)
+- [Metropolia University of Applied Sciences](https://www.metropolia.fi/en)
+- [National Land Survey of Finland](https://www.maanmittauslaitos.fi/en)
 - Natural Resources Institute Finland
+- [Novia University of Applied Sciences](https://www.novia.fi/novia-uas/)
+- [Oulu University of Applied Sciences](https://www.oamk.fi/en/)
 - Satakunta University of Applied Sciences
 - Seinäjoki University of Applied Sciences
+- [Social Insurance Institution of Finland](https://www.kela.fi/web/en)
 - South-Eastern Finland University of Applied Sciences (Xamk)
 - [Tampere University](https://libguides.tuni.fi/open-access/introduction)
+- [Tampere University of Applied Sciences](https://www.tuni.fi/fi/tutustu-meihin/tamk)
 - The National Defence University Finland
+- [Turku University of Applied Sciences](https://www.tuas.fi/en/)
 - University of Applied Sciences Savonia
 - [University of Eastern Finland](https://www.uef.fi/en/etusivu)
 - [University of Helsinki](https://www.helsinki.fi/en)
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
+- [University of Lapland](https://www.ulapland.fi/InEnglish)
 - [University of Oulu](https://www.oulu.fi/en)
 - [University of Turku](https://utuguides.fi/openaccess)
 - [University of Vaasa](https://www.uwasa.fi/en)
+- [VAMK University of Applied Sciences](https://www.vamk.fi/en/)
+- [VATT Institute for Economic Research](https://vatt.fi/etusivu)
 - VTT Technical Research Centre of Finland
 
 ## Institutions from France 
@@ -301,6 +394,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - ENSTA Bretagne
 - EURECOM
 - European Synchrotron Radiation Facility (ESRF)
+- French institutions
 - Hospices Civils de Lyon
 - IMT Atlantique Bretagne Pays de la Loire
 - INSA de Lyon
@@ -381,12 +475,18 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 ## Institutions from the United Kingdom 
 
 - Aberystwyth University
+- [Anglia Ruskin University](https://www.aru.ac.uk/)
 - Aston University
 - Bangor University
 - Birkbeck, University of London
+- [Birmingham City University](https://www.bcu.ac.uk/)
+- [Bournemouth University](https://www.bournemouth.ac.uk/)
 - Brunel University
+- [Cardiff Metropolitan University](https://www.cardiffmet.ac.uk/Pages/default.aspx)
 - Cardiff University
+- [City University London](https://www.city.ac.uk/)
 - Cranfield University
+- [Edge Hill University](https://www.edgehill.ac.uk/)
 - Edinburgh Napier University
 - Glasgow Caledonian University
 - Goldsmiths, University of London
@@ -395,6 +495,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Institute of Cancer Research (ICR)
 - Keele University
 - King's College London
+- [Kingston University](https://www.kingston.ac.uk/)
 - Lancaster University
 - Leeds Beckett University
 - Liverpool John Moores University
@@ -403,52 +504,76 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - London School of Hygiene & Tropical Medicine (LSHTM)
 - London South Bank University
 - Manchester Metropolitan University
+- [Natural History Museum](https://www.nhm.ac.uk/)
 - Northumbria University
+- [Nottingham Trent University](https://www.ntu.ac.uk/)
 - Oxford Brookes University
 - Plymouth University
+- [Queen Margaret University](https://www.qmu.ac.uk/)
 - Queen Mary University of London
 - Queen's University Belfast
+- [Robert Gordon University](https://www.rgu.ac.uk/)
+- [Royal Botanic Gardens](https://www.kew.org/)
 - Royal Holloway, University of London
 - Royal Veterinary College
+- [Scotland's Rural College](https://www.sruc.ac.uk/)
+- [Sheffield Hallam University](https://www.shu.ac.uk/)
 - SOAS University of London
 - St George's, University of London
 - Swansea University
 - The Open University
+- [University Campus Suffolk](https://www.uos.ac.uk/)
 - University College London (UCL)
 - University of Aberdeen
+- [University of Abertay Dundee](https://www.abertay.ac.uk/)
 - University of Bath
+- [University of Bedfordshire](https://www.beds.ac.uk/)
 - University of Birmingham
+- [University of Bradford](https://www.bradford.ac.uk/external/)
 - University of Bristol
 - University of Cambridge
+- [University of Central Lancashire](https://www.uclan.ac.uk/)
+- [University of Chester](https://www1.chester.ac.uk/)
+- [University of Derby](https://www.derby.ac.uk/)
 - University of Dundee
 - University of Durham
 - University of East Anglia
 - University of Edinburgh
 - University of Exeter
 - University of Glasgow
+- [University of Greenwich](https://www.gre.ac.uk/)
 - University of Huddersfield
 - University of Hull
 - University of Kent
 - University of Leeds
 - University of Leicester
+- [University of Lincoln](http://www.lincoln.ac.uk/home/)
 - University of Liverpool
 - University of Loughborough
 - University of Manchester
 - University of Newcastle
+- [University of Northampton](https://www.northampton.ac.uk/)
 - University of Nottingham
 - University of Oxford
 - University of Portsmouth
 - University of Reading
+- [University of Roehampton](https://www.roehampton.ac.uk/)
 - University of Salford
 - University of Sheffield
 - University of Southampton
 - University of St Andrews
+- [University of Stirling](https://www.stir.ac.uk/)
 - University of Strathclyde
 - University of Surrey
 - University of Sussex
+- [University of the Highlands and Islands](https://www.uhi.ac.uk/en/)
 - University of the West of England
 - University of Ulster
+- [University of Wales Trinity St David](https://www.uwtsd.ac.uk/)
 - University of Warwick
+- [University of West of Scotland](https://www.uws.ac.uk/home/)
+- [University of Westminster](https://www.westminster.ac.uk/)
+- [University of Worcester](https://www.worcester.ac.uk/)
 - University of York
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
 
@@ -474,7 +599,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 - [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/how-we-work/general-information/open-access-policy)
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
-- [Indiana University - Purdue University Indianapolis (IUPUI)](http://www.ulib.iupui.edu/digitalscholarship/openaccess/oafund)
+- [Indiana University - Purdue University Indianapolis (IUPUI)](https://ulib.iupui.edu/digitalscholarship/openaccess/oafund)
 - [Thomas Jefferson University](https://library.jefferson.edu/pub/open_access.cfm)
 - [University of Rhode Island](https://uri.libguides.com/oafund)
 - [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
@@ -502,6 +627,46 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 ## Institutions from Greece 
 
 - [OpenAIRE (FP7 Post-Grant OA Pilot)](https://www.openaire.eu/fp7-oapilot)
+
+## Institutions from Netherlands 
+
+- [Academic Medical Center (AMC)](https://www.amc.nl/web/home.htm)
+- [Academisch Centrum Tandheelkunde Amsterdam (ACTA)](https://acta.nl/en/)
+- [Delft University of Technology](https://www.tudelft.nl/en/)
+- [Eindhoven University of Technology](https://www.tue.nl/en/)
+- [Erasmus University Medical Center](https://www.erasmusmc.nl/en/)
+- [Erasmus University Rotterdam](https://www.eur.nl/en)
+- [Hubrecht Institute for Developmental Biology and Stem Cell Research](https://www.hubrecht.eu/)
+- [International Institute of Social History (IISH)](https://iisg.amsterdam/en)
+- [Leiden University](https://www.universiteitleiden.nl/en)
+- [Leiden University Medical Center (LUMC)](https://www.lumc.nl/)
+- [Maastricht University](https://www.maastrichtuniversity.nl/)
+- [Maastricht University Medical Center (UMC+)](https://www.mumc.nl/en)
+- [Meertens Institute](https://meertens.knaw.nl/en/)
+- [Netherlands Institute for Advanced Study in the Humanities and Social Sciences (NIAS)](https://nias.knaw.nl/)
+- [Netherlands Institute for Neuroscience](https://nin.nl/)
+- [Netherlands Institute of Ecology](https://nioo.knaw.nl/en)
+- [Netherlands Interdisciplinary Demographic Institute (NIDI)](https://nidi.nl/en/)
+- [Open University of The Netherlands](https://www.ou.nl/en/)
+- [Radboud University](https://www.ru.nl/en)
+- [Radboud University Medical Center](https://www.radboudumc.nl/en/research)
+- [Rathenau Institute](https://www.rathenau.nl/en)
+- [Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau)](https://www.knaw.nl/en)
+- [Tilburg University](https://www.tilburguniversity.edu/)
+- [University Medical Center Groningen (UMCG)](https://www.umcg.nl/)
+- [University Medical Center Utrecht](https://www.umcutrecht.nl/en)
+- [University of Amsterdam](https://www.uva.nl/en)
+- [University of Groningen](https://www.rug.nl/)
+- [University of Twente](https://www.utwente.nl/en/)
+- [Utrecht University](https://www.uu.nl/en)
+- [VU University Amsterdam](https://vu.nl/en)
+- [VU University Medical Center (VUmc)](https://www.vumc.nl/)
+- [Wageningen University and Research Centre](https://www.wur.nl/en.htm)
+- [Westerdijk Fungal Biodiversity Center (CBS)](https://wi.knaw.nl/)
+
+## Institutions from Liechtenstein 
+
+- [University of Liechtenstein](https://www.uni.li/study/de/)
 
 ## Data sets
 
