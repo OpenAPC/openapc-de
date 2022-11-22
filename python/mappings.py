@@ -668,7 +668,11 @@ JOURNAL_MAPPINGS = {
     "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies",
     "Wood Material Science & Engineering": "Wood Material Science and Engineering",
     "Computer Modeling in Engineering &amp; Sciences": "Computer Modeling in Engineering & Sciences",
-    "R&amp;D Management": "R&D Management"
+    "R&amp;D Management": "R&D Management",
+    "Hepatobiliary Surgery and Nutrition": "HepatoBiliary Surgery and Nutrition",
+    "E&amp;amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
+    "Journal of BUON (J BUON)": "Journal of Balkan Union of Oncology",
+    "eClinicalMedicine": "EClinicalMedicine"
 }
 
 COLUMN_NAMES = {
