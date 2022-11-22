@@ -315,7 +315,8 @@ JOURNAL_OWNER_CHANGED = {
     "2047-4938": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Biometrics
     "2047-4946": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Biometrics (electronic)
     "2035-8377": ["PAGEPress Publications", "MDPI AG"], # Neurology International
-    "2521-3555": ["International Cardiovascular Forum Journal", "Wiley-Blackwell"] # JCSM Clinical Reports
+    "2521-3555": ["International Cardiovascular Forum Journal", "Wiley-Blackwell"], # JCSM Clinical Reports
+    "1107-0625": ["Zerbinis Medical Publications", "BAKIS Productions"] # Journal of BUON (J BUON)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
