@@ -75,7 +75,7 @@ def main():
     
     oat.print_g("Preparing mapping table...")
     itself = other = 0
-    issn_l_re = re.compile("^(?P<issn>\d{4}-\d{3}[\dxX])\t(?P<issn_l>\d{4}-\d{3}[\dxX])$")
+    issn_l_re = re.compile("^(?P<issn>\d{4}-\d{3}[\dxX])\t(?P<issn_l>\d{4}-\d{3}[\dxX])")
     issn_l_file = open(args.issn_l_file, "r")
     issn_l_dict = {}
     for i, line in enumerate(issn_l_file):
