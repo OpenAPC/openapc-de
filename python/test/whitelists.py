@@ -474,7 +474,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2352-1864", # Environmental Technology & Innovation, Gold OA since 2022
     "2192-8959", # Case Reports in Perinatal Medicine, Gold OA since 2022
     "1368-5538", # The Aging Male, Gold OA since 2021
-    "0803-7051" # Blood Pressure, Gold OA since 2022
+    "0803-7051", # Blood Pressure, Gold OA since 2022
+    "1559-2324" # Plant Signaling & Behavior, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

@@ -672,7 +672,8 @@ JOURNAL_MAPPINGS = {
     "Hepatobiliary Surgery and Nutrition": "HepatoBiliary Surgery and Nutrition",
     "E&amp;amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
     "Journal of BUON (J BUON)": "Journal of Balkan Union of Oncology",
-    "eClinicalMedicine": "EClinicalMedicine"
+    "eClinicalMedicine": "EClinicalMedicine",
+    "Plant Signaling &amp; Behavior": "Plant Signaling & Behavior"
 }
 
 COLUMN_NAMES = {
