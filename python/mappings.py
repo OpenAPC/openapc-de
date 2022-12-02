@@ -673,7 +673,10 @@ JOURNAL_MAPPINGS = {
     "E&amp;amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
     "Journal of BUON (J BUON)": "Journal of Balkan Union of Oncology",
     "eClinicalMedicine": "EClinicalMedicine",
-    "Plant Signaling &amp; Behavior": "Plant Signaling & Behavior"
+    "Plant Signaling &amp; Behavior": "Plant Signaling & Behavior",
+    "Energy &amp; Fuels": "Energy & Fuels",
+    "Industrial &amp; Engineering Chemistry Research": "Industrial & Engineering Chemistry Research",
+    "ACS Food Science &amp; Technology": "ACS Food Science & Technology"
 }
 
 COLUMN_NAMES = {
