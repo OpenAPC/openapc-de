@@ -676,7 +676,8 @@ JOURNAL_MAPPINGS = {
     "Plant Signaling &amp; Behavior": "Plant Signaling & Behavior",
     "Energy &amp; Fuels": "Energy & Fuels",
     "Industrial &amp; Engineering Chemistry Research": "Industrial & Engineering Chemistry Research",
-    "ACS Food Science &amp; Technology": "ACS Food Science & Technology"
+    "ACS Food Science &amp; Technology": "ACS Food Science & Technology",
+    "Pediatric Infectious Disease Journal": "The Pediatric Infectious Disease Journal"
 }
 
 COLUMN_NAMES = {
