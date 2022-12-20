@@ -68,12 +68,16 @@ class URLRequestThread(threading.Thread):
         self.row_object = row_object
         self.url = row_object.row[10]
         self.status_code = None
+        self.error_msg = None
 
     def run(self):
-        response = requests.get(self.url, timeout=10, headers=URLRequestThread.headers)
-        # Are there other codes besides 200 which indicate a success? Wait and see.
-        if response.status_code != 200:
-            self.status_code = response.status_code
+        try:
+            response = requests.get(self.url, timeout=10, headers=URLRequestThread.headers)
+            if response.status_code != 200:
+                self.status_code = response.status_code
+                # Are there other codes besides 200 which indicate a success? Wait and see.
+        except Exception as e:
+            self.error_msg = str(e)
 
 def _cleanup_thread_pool():
     """
@@ -161,6 +165,10 @@ def test_info_urls(thread):
     if thread.status_code is not None:
         msg = MSG_HEAD + "HTTP request to '{}' returned status code {}"
         msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.url, thread.status_code)
+        warn(msg)
+    elif thread.error_msg is not None:
+        msg = MSG_HEAD + "HTTP request to '{}' led to an exception: {}"
+        msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.url, thread.error_msg)
         warn(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
