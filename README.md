@@ -43,7 +43,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 ###  Higher education institutions 
 
-- [Bamberg University](http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/)
+- [Bamberg University](https://www.uni-bamberg.de/en/library/publishing/oa-publishing/)
 - [Bauhaus-Universität Weimar](https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/)
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
@@ -93,10 +93,10 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [University Medical Center Hamburg-Eppendorf](https://www.uke.de/forschung/open-science/publikationsfoerderung/index.html)
 - [University of Applied Sciences Bielefeld](https://www.fh-bielefeld.de/open-access/publikationsfonds)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
-- [University of Duisburg-Essen](https://www.uni-due.de/ub/publikationsdienste/oa_foerderung.php)
+- University of Duisburg-Essen
 - [University of Freiburg](https://www.ub.uni-freiburg.de/en/support/electronic-publishing/open-access/open-access-publication-fund/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
-- [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/finanzierung-von-publikationen/publication-fund/)
+- [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/funding-open-access/)
 - [University of Mannheim](https://www.bib.uni-mannheim.de/en/open-access-publishing-fund/)
@@ -147,7 +147,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 ###  Other institutions 
 
-- [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://www.iab.de/de/informationsservice/open-access-im-iab.aspx)
+- [Institut für Arbeitsmarkt- und Berufsforschung (IAB)](https://iab.de/en/the-iab/aufgaben-und-leitlinien-en/open-access/)
 - [Knowledge Unlatched](http://www.knowledgeunlatched.org/)
 - [OA-Monofonds Brandenburg](https://open-access-brandenburg.de/fonds/)
 - [SWP - German Institute for International and Security Affairs](https://www.swp-berlin.org/en/)
@@ -222,7 +222,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Swiss National Science Foundation (SNSF)](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Swiss Ornithological Institute](https://www.vogelwarte.ch/de/home/)
 - [Università della Svizzera italiana](https://www.usi.ch/en)
-- [Universität Luzern](https://www.unilu.ch/en/university/services/gs/research-information-system-fis/)
+- [Universität Luzern](https://www.zhbluzern.ch/en/services/research-publish#WzU1Mzhd/)
 - [University of Applied Sciences and Arts Northwestern Switzerland](https://www.fhnw.ch/en)
 - [University of Applied Sciences and Arts of Southern Switzerland](https://www.supsi.ch/home_en.html)
 - [University of Applied Sciences and Arts Western Switzerland](https://www.hes-so.ch/en/homepage)
@@ -355,7 +355,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Oulu University of Applied Sciences](https://www.oamk.fi/en/)
 - Satakunta University of Applied Sciences
 - Seinäjoki University of Applied Sciences
-- [Social Insurance Institution of Finland](https://www.kela.fi/web/en)
+- [Social Insurance Institution of Finland](https://www.kela.fi/about-kela-library)
 - South-Eastern Finland University of Applied Sciences (Xamk)
 - [Tampere University](https://libguides.tuni.fi/open-access/introduction)
 - [Tampere University of Applied Sciences](https://www.tuni.fi/fi/tutustu-meihin/tamk)
@@ -365,7 +365,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [University of Eastern Finland](https://www.uef.fi/en/etusivu)
 - [University of Helsinki](https://www.helsinki.fi/en)
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
-- [University of Lapland](https://www.ulapland.fi/InEnglish)
+- [University of Lapland](https://lib.luc.fi/research)
 - [University of Oulu](https://www.oulu.fi/en)
 - [University of Turku](https://utuguides.fi/openaccess)
 - [University of Vaasa](https://www.uwasa.fi/en)
@@ -519,7 +519,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Royal Holloway, University of London
 - Royal Veterinary College
 - [Scotland's Rural College](https://www.sruc.ac.uk/)
-- [Sheffield Hallam University](https://www.shu.ac.uk/)
+- [Sheffield Hallam University](https://libguides.shu.ac.uk/OpenAccess/)
 - SOAS University of London
 - St George's, University of London
 - Swansea University

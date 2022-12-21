@@ -1,7 +1,7 @@
 institution,institution_cubes_name,institution_full_name,continent,country,state,openapc_data_dir,ror_id,institution_type,institution_group,info_url,comment
-Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,unibamberg,https://ror.org/01c1w6d29,HEI,NA,http://www.uni-bamberg.de/en/ub/publishing/open-access-publishing/open-access-funds/,NA
+Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,unibamberg,https://ror.org/01c1w6d29,HEI,NA,https://www.uni-bamberg.de/en/library/publishing/oa-publishing/,NA
 Bielefeld U,bielefeld_u,Bielefeld University,EUROPE,DEU,NW,unibi,https://ror.org/02hpadn98,HEI,NA,http://oa.uni-bielefeld.de/publikationsfonds.html,NA
-Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue,https://ror.org/04mz5ra38,HEI,NA,https://www.uni-due.de/ub/publikationsdienste/oa_foerderung.php,NA
+Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue,https://ror.org/04mz5ra38,HEI,NA,NA,NA
 FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,fuberlin,https://ror.org/046ak2485,HEI,NA,http://www.fu-berlin.de/sites/open_access/finanzierung/publikationsfonds/index.html,NA
 GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,gfz-potsdam,https://ror.org/04z8jg394,INS,HGF,https://www.gfz-potsdam.de/en/home/,data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/)
 Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW,unikonstanz,https://ror.org/0546hnb39,HEI,NA,https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/funding-open-access/,NA
@@ -236,11 +236,11 @@ Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,couperin/mines-paristech
 Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,couperin/montpellier,https://ror.org/051escj72,NA,NA,NA,NA
 Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg,https://ror.org/01rdrb571,HEI,NA,https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds,NA
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen,https://ror.org/012ajp527,NA,NA,https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/,NA
-Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,unigreifswald,https://ror.org/00r1edq15,HEI,NA,https://ub.uni-greifswald.de/en/service/for-academics/open-access/finanzierung-von-publikationen/publication-fund/,NA
+Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,unigreifswald,https://ror.org/00r1edq15,HEI,NA,https://ub.uni-greifswald.de/en/service/for-academics/open-access/funding/,NA
 PIK-Potsdam,pik_potsdam,Potsdam Institute for Climate Impact Research (PIK),EUROPE,DEU,BB,pik-potsdam,https://ror.org/03e8s1d88,INS,WGL,https://www.pik-potsdam.de,data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/)
 HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,huberlin,https://ror.org/01hcx6992,HEI,NA,https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de,NA
 University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unidebrecen,https://ror.org/02xf66n48,NA,NA,https://unideb.hu/en,NA
-Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab,https://ror.org/02qcqwf93,OTH,NA,https://www.iab.de/de/informationsservice/open-access-im-iab.aspx,NA
+Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab,https://ror.org/02qcqwf93,OTH,NA,https://iab.de/en/the-iab/aufgaben-und-leitlinien-en/open-access/,NA
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,geomar,https://ror.org/02h2x0161,INS,HGF,https://www.geomar.de/en/centre/central-facilities/bibliothek/author-services/publication-costs,NA
 University of Jyväskylä,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,unijyväskylä,https://ror.org/05n3dz165,NA,NA,https://openscience.jyu.fi/en/open-access-publishing,NA
 Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea,https://ror.org/00jjx8s55,NA,NA,NA,NA
@@ -271,7 +271,7 @@ Hochschule Luzern,hs_luzern,Hochschule Luzern,EUROPE,CHE,CH.LU,hsluzern,https://
 Veneto Institute of Oncology IOV IRCCS,iov_ircss,Veneto Institute of Oncology (IOV IRCCS),EUROPE,ITA,IT-34,iov-irccs,https://ror.org/01xcjmy57,NA,NA,https://www.ioveneto.it/unit/gestione-documentazione-scientifica/,NA
 Bielefeld FH,bielefeld_fh,University of Applied Sciences Bielefeld,EUROPE,DEU,NW,fhbielefeld,https://ror.org/00edvg943,HEI,NA,https://www.fh-bielefeld.de/open-access/publikationsfonds,NA
 Pädagogische Hochschule Luzern,ph_luzern,Pädagogische Hochschule Luzern,EUROPE,CHE,CH.LU,phluzern,https://ror.org/0235ynq74,NA,NA,https://www.phlu.ch/,NA
-Universität Luzern,luzern_u,Universität Luzern,EUROPE,CHE,CH.LU,uniluzern,https://ror.org/00kgrkn83,NA,NA,https://www.unilu.ch/en/university/services/gs/research-information-system-fis/,NA
+Universität Luzern,luzern_u,Universität Luzern,EUROPE,CHE,CH.LU,uniluzern,https://ror.org/00kgrkn83,NA,NA,https://www.zhbluzern.ch/en/services/research-publish#WzU1Mzhd/,NA
 University of Bern,bern_u,University of Bern,EUROPE,CHE,CH.BE,unibern,https://ror.org/02k7v4d05,NA,NA,https://www.ub.unibe.ch/services/open_science/open_access/oa_fonds/index_eng.html,NA
 ETH Zurich,ethz,ETH Zürich,EUROPE,CHE,CH.ZH,ethz,https://ror.org/05a28rw58,NA,NA,https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/publishing-in-open-access-journals.html,NA
 University of Gävle,gavle_u,University of Gävle,EUROPE,SWE,SE-X,natlibswe/univ_gavle,https://ror.org/043fje207,NA,NA,NA,NA
@@ -394,7 +394,7 @@ Natural History Museum,NA,Natural History Museum,NA,GBR,NA,NA,https://ror.org/03
 Nottingham Trent University,NA,Nottingham Trent University,NA,GBR,NA,NA,https://ror.org/04xyxjd90,NA,NA,https://www.ntu.ac.uk/,NA
 Robert Gordon University,NA,Robert Gordon University,NA,GBR,NA,NA,https://ror.org/04f0qj703,NA,NA,https://www.rgu.ac.uk/,NA
 Scotland's Rural College,NA,Scotland's Rural College,NA,GBR,NA,NA,https://ror.org/044e2ja82,NA,NA,https://www.sruc.ac.uk/,NA
-Sheffield Hallam University,NA,Sheffield Hallam University,NA,GBR,NA,NA,https://ror.org/019wt1929,NA,NA,https://www.shu.ac.uk/,NA
+Sheffield Hallam University,NA,Sheffield Hallam University,NA,GBR,NA,NA,https://ror.org/019wt1929,NA,NA,https://libguides.shu.ac.uk/OpenAccess/,NA
 University of Abertay Dundee,NA,University of Abertay Dundee,NA,GBR,NA,NA,https://ror.org/04mwwnx67,NA,NA,https://www.abertay.ac.uk/,NA
 University of Bedfordshire,NA,University of Bedfordshire,NA,GBR,NA,NA,https://ror.org/0400avk24,NA,NA,https://www.beds.ac.uk/,NA
 University of Bradford,NA,University of Bradford,NA,GBR,NA,NA,https://ror.org/00vs8d940,NA,NA,https://www.bradford.ac.uk/external/,NA
@@ -472,8 +472,8 @@ Oulu University of Applied Sciences,NA,Oulu University of Applied Sciences,NA,FI
 Turku University of Applied Sciences,NA,Turku University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/04s0yt949,NA,NA,https://www.tuas.fi/en/,NA
 VATT Institute for Economic Research,NA,VATT Institute for Economic Research,NA,FIN,NA,NA,https://ror.org/017qjec28,NA,NA,https://vatt.fi/etusivu,NA
 Metropolia University of Applied Sciences,NA,Metropolia University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/03hdaef25,NA,NA,https://www.metropolia.fi/en,NA
-University of Lapland,NA,University of Lapland,NA,FIN,NA,NA,https://ror.org/05jzt8766,NA,NA,https://www.ulapland.fi/InEnglish,NA
-Social Insurance Institution of Finland,NA,Social Insurance Institution of Finland,NA,FIN,NA,NA,https://ror.org/057yw0190,NA,NA,https://www.kela.fi/web/en,NA
+University of Lapland,NA,University of Lapland,NA,FIN,NA,NA,https://ror.org/05jzt8766,NA,NA,https://lib.luc.fi/research,NA
+Social Insurance Institution of Finland,NA,Social Insurance Institution of Finland,NA,FIN,NA,NA,https://ror.org/057yw0190,NA,NA,https://www.kela.fi/about-kela-library,NA
 Finnish Food Authority,NA,Finnish Food Authority,NA,FIN,NA,NA,https://ror.org/00dpnza76,NA,NA,https://www.ruokavirasto.fi/,NA
 Medical University of Vienna,NA,Medical University of Vienna,NA,AUT,NA,NA,https://ror.org/05n3x4p02,NA,NA,https://www.meduniwien.ac.at/web/en/,NA
 Paracelsus Medical University,NA,Paracelsus Medical University,NA,AUT,NA,NA,https://ror.org/03z3mg085,NA,NA,https://www.pmu.ac.at/en/home.html,NA
