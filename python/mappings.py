@@ -677,7 +677,12 @@ JOURNAL_MAPPINGS = {
     "Energy &amp; Fuels": "Energy & Fuels",
     "Industrial &amp; Engineering Chemistry Research": "Industrial & Engineering Chemistry Research",
     "ACS Food Science &amp; Technology": "ACS Food Science & Technology",
-    "Pediatric Infectious Disease Journal": "The Pediatric Infectious Disease Journal"
+    "Pediatric Infectious Disease Journal": "The Pediatric Infectious Disease Journal",
+    "Journal of Environmental Policy &amp; Planning": "Journal of Environmental Policy & Planning",
+    "Geophysical &amp; Astrophysical Fluid Dynamics": "Geophysical & Astrophysical Fluid Dynamics",
+    "Timing &amp; Time Perception": "Timing & Time Perception",
+    "Journal of Transport &amp; Health": "Journal of Transport & Health",
+    "Journal of Chemical &amp; Engineering Data": "Journal of Chemical & Engineering Data"
 }
 
 COLUMN_NAMES = {
