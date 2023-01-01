@@ -665,7 +665,24 @@ JOURNAL_MAPPINGS = {
     "Soccer &amp; Society": "Soccer & Society",
     "Systems Science &amp; Control Engineering": "Systems Science & Control Engineering",
     "Cogent Economics &amp; Finance": "Cogent Economics & Finance",
-    "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies"
+    "Journal of Vibration Engineering &amp; Technologies": "Journal of Vibration Engineering & Technologies",
+    "Wood Material Science & Engineering": "Wood Material Science and Engineering",
+    "Computer Modeling in Engineering &amp; Sciences": "Computer Modeling in Engineering & Sciences",
+    "R&amp;D Management": "R&D Management",
+    "Hepatobiliary Surgery and Nutrition": "HepatoBiliary Surgery and Nutrition",
+    "E&amp;amp;G Quaternary Science Journal": "E&G Quaternary Science Journal",
+    "Journal of BUON (J BUON)": "Journal of Balkan Union of Oncology",
+    "eClinicalMedicine": "EClinicalMedicine",
+    "Plant Signaling &amp; Behavior": "Plant Signaling & Behavior",
+    "Energy &amp; Fuels": "Energy & Fuels",
+    "Industrial &amp; Engineering Chemistry Research": "Industrial & Engineering Chemistry Research",
+    "ACS Food Science &amp; Technology": "ACS Food Science & Technology",
+    "Pediatric Infectious Disease Journal": "The Pediatric Infectious Disease Journal",
+    "Journal of Environmental Policy &amp; Planning": "Journal of Environmental Policy & Planning",
+    "Geophysical &amp; Astrophysical Fluid Dynamics": "Geophysical & Astrophysical Fluid Dynamics",
+    "Timing &amp; Time Perception": "Timing & Time Perception",
+    "Journal of Transport &amp; Health": "Journal of Transport & Health",
+    "Journal of Chemical &amp; Engineering Data": "Journal of Chemical & Engineering Data"
 }
 
 COLUMN_NAMES = {

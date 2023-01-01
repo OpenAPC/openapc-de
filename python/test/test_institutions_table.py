@@ -9,6 +9,7 @@ import threading
 
 import pytest
 import requests
+from warnings import warn
 
 from .test_apc_csv import RowObject, DATA_FILES
 
@@ -23,8 +24,16 @@ DATA = {
     "translation_institution_types": []
 }
 
-# List of all institution identifiers in the APC data set (as strings)
-APC_INSTITUTIONS = []
+# List of all OpenAPC institutional identifiers (as strings)
+INSTITUTIONS = []
+
+# List of all institutional identifiers (as strings) in the apc_de file
+INSTITUTIONS_APC_DE = []
+
+# List of all ROR IDs
+ROR_IDS = []
+
+ROR_ID_REGEX = re.compile(r"https:\/\/ror.org\/[a-z0-9]{9}")
 
 # Holds all currently active URLRequestThreads
 THREAD_POOL = []
@@ -59,12 +68,16 @@ class URLRequestThread(threading.Thread):
         self.row_object = row_object
         self.url = row_object.row[10]
         self.status_code = None
+        self.error_msg = None
 
     def run(self):
-        response = requests.get(self.url, timeout=10, headers=URLRequestThread.headers)
-        # Are there other codes besides 200 which indicate a success? Wait and see.
-        if response.status_code != 200:
-            self.status_code = response.status_code
+        try:
+            response = requests.get(self.url, timeout=10, headers=URLRequestThread.headers)
+            if response.status_code != 200:
+                self.status_code = response.status_code
+                # Are there other codes besides 200 which indicate a success? Wait and see.
+        except Exception as e:
+            self.error_msg = str(e)
 
 def _cleanup_thread_pool():
     """
@@ -81,7 +94,6 @@ def _cleanup_thread_pool():
         else:
             FINISHED_THREADS.append(thread)
     THREAD_POOL = still_running
-
 
 def run_url_threads():
     """
@@ -112,12 +124,15 @@ def run_url_threads():
         time.sleep(0.2)
 
 # Prepare the test data
-with open(DATA_FILES["apc"]["file_path"], "r") as f:
-    reader = csv.reader(f)
-    reader.__next__() # skip the header
-    for row in reader:
-        if row[0] not in APC_INSTITUTIONS:
-            APC_INSTITUTIONS.append(row[0])
+for data_file, metadata in DATA_FILES.items():
+    with open(metadata["file_path"], "r") as f:
+        reader = csv.reader(f)
+        reader.__next__() # skip the header
+        for row in reader:
+            if row[0] not in INSTITUTIONS:
+                INSTITUTIONS.append(row[0])
+            if data_file == "apc" and row[0] not in INSTITUTIONS_APC_DE:
+                INSTITUTIONS_APC_DE.append(row[0])
 for base_name, data in DATA.items():
     file_path = os.path.join("data", base_name + ".csv")
     with open(file_path, "r") as f:
@@ -150,19 +165,44 @@ def test_info_urls(thread):
     if thread.status_code is not None:
         msg = MSG_HEAD + "HTTP request to '{}' returned status code {}"
         msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.url, thread.status_code)
+        warn(msg)
+    elif thread.error_msg is not None:
+        msg = MSG_HEAD + "HTTP request to '{}' led to an exception: {}"
+        msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.url, thread.error_msg)
+        warn(msg)
+
+@pytest.mark.parametrize("row_object", DATA["institutions"])
+def test_cubes_names(row_object):
+    institution = row_object.row[0]
+    cubes_name = row_object.row[1]
+    if not oat.has_value(cubes_name) and institution in INSTITUTIONS_APC_DE:
+        msg = MSG_HEAD + "Institution '{}' occurs in the apc_de file, but the cubes name is empty."
+        msg = msg.format(row_object.file_name, row_object.line_number, institution)
+        pytest.fail(msg)
+    if oat.has_value(cubes_name) and not institution in INSTITUTIONS_APC_DE:
+        msg = MSG_HEAD + "A cubes name was assigned for institution '{}', but it has no entries in the apc_de file."
+        msg = msg.format(row_object.file_name, row_object.line_number, institution)
+        pytest.fail(msg)
+    if re.compile(r"\s").search(cubes_name):
+        msg = MSG_HEAD + "Cube name '{}' contains whitespace characters."
+        msg = msg.format(row_object.file_name, row_object.line_number, cubes_name)
         pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
-def test_cube_names(row_object):
-    cube_name = row_object.row[1]
-    if not oat.has_value(cube_name):
-        msg = MSG_HEAD + "Cube name is empty."
-        msg = msg.format(row_object.file_name, row_object.line_number)
-        pytest.fail(msg)
-    if re.compile(r"\s").search(cube_name):
-        msg = MSG_HEAD + "Cube name '{}' contains whitespace characters."
-        msg = msg.format(row_object.file_name, row_object.line_number, cube_name)
-        pytest.fail(msg)
+def test_ror_ids(row_object):
+    global ROR_IDS
+    ror_id = row_object.row[7]
+    if oat.has_value(ror_id):
+        if not ROR_ID_REGEX.match(ror_id):
+            msg = MSG_HEAD + "ROR ID '{}' is not well-formed."
+            msg = msg.format(row_object.file_name, row_object.line_number, ror_id)
+            pytest.fail(msg)
+        if ror_id not in ROR_IDS:
+            ROR_IDS.append(ror_id)
+        else:
+            msg = MSG_HEAD + "ROR ID '{}' occurs more than once."
+            msg = msg.format(row_object.file_name, row_object.line_number, ror_id)
+            pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
 def test_institution_file_identifiers(row_object):
@@ -171,8 +211,8 @@ def test_institution_file_identifiers(row_object):
         msg = MSG_HEAD + "Institution identifier is empty."
         msg = msg.format(row_object.file_name, row_object.line_number)
         pytest.fail(msg)
-    if institution not in APC_INSTITUTIONS:
-        msg = MSG_HEAD + "Institution identifier '{}' does not occur in APC data set."
+    if institution not in INSTITUTIONS:
+        msg = MSG_HEAD + "Institution identifier '{}' does not occur in any data set."
         msg = msg.format(row_object.file_name, row_object.line_number, institution)
         pytest.fail(msg)
 
@@ -181,18 +221,20 @@ def test_geo_data(row_object):
     continent = row_object.row[3]
     country = row_object.row[4]
     state = row_object.row[5]
-    if not oat.has_value(continent):
-        msg = MSG_HEAD + "Continent column is empty."
-        msg = msg.format(row_object.file_name, row_object.line_number)
-        pytest.fail(msg)
+    cubes_name = row_object.row[1]
     if not oat.has_value(country):
         msg = MSG_HEAD + "Country column is empty."
         msg = msg.format(row_object.file_name, row_object.line_number)
         pytest.fail(msg)
-    if not oat.has_value(state):
-        msg = MSG_HEAD + "State column is empty."
-        msg = msg.format(row_object.file_name, row_object.line_number)
-        pytest.fail(msg)
+    if oat.has_value(cubes_name):
+        if not oat.has_value(continent):
+            msg = MSG_HEAD + "A cubes name was assigned ({}), but the continent column is empty."
+            msg = msg.format(row_object.file_name, row_object.line_number, cubes_name)
+            pytest.fail(msg)
+        if not oat.has_value(state):
+            msg = MSG_HEAD + "A cubes name was assigned ({}), but the state column is empty."
+            msg = msg.format(row_object.file_name, row_object.line_number, cubes_name)
+            pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
 def test_translations(row_object):
@@ -224,7 +266,7 @@ def test_translations(row_object):
             msg = msg.format(ins_group)
             pytest.fail(msg)
 
-@pytest.mark.parametrize("institution", APC_INSTITUTIONS)
+@pytest.mark.parametrize("institution", INSTITUTIONS)
 def test_apc_file_identifiers(institution):
     for row_object in DATA["institutions"]:
         # There are more efficient ways to do this (f.e. assert set() == set()),
@@ -232,6 +274,6 @@ def test_apc_file_identifiers(institution):
         if institution == row_object.row[0]:
             break
     else:
-        msg = "APC data identifier '{}' does not occur in institution file."
+        msg = "institutional identifier '{}' does not occur in institution file."
         msg = msg.format(institution)
         pytest.fail(msg)

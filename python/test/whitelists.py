@@ -228,6 +228,7 @@ JOURNAL_OWNER_CHANGED = {
     "0024-4201": ["Springer Nature", "Wiley-Blackwell"], # Lipids
     "1558-9307": ["Springer Nature", "Wiley-Blackwell"], # Lipids (electronic)
     "0021-9258": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Journal of Biological Chemistry
+    "1083-351X": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Journal of Biological Chemistry (electronic)
     "2160-1836": ["Genetics Society of America", "Oxford University Press (OUP)"], # G3: Genes|Genomes|Genetics
     "1661-8564": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (electronic)
     "1661-8556": ["Springer Nature", "Frontiers Media SA"], # International Journal of Public Health (linking)
@@ -314,7 +315,8 @@ JOURNAL_OWNER_CHANGED = {
     "2047-4938": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Biometrics
     "2047-4946": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Biometrics (electronic)
     "2035-8377": ["PAGEPress Publications", "MDPI AG"], # Neurology International
-    "2521-3555": ["International Cardiovascular Forum Journal", "Wiley-Blackwell"] # JCSM Clinical Reports
+    "2521-3555": ["International Cardiovascular Forum Journal", "Wiley-Blackwell"], # JCSM Clinical Reports
+    "1107-0625": ["Zerbinis Medical Publications", "BAKIS Productions"] # Journal of BUON (J BUON)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -472,7 +474,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2352-1864", # Environmental Technology & Innovation, Gold OA since 2022
     "2192-8959", # Case Reports in Perinatal Medicine, Gold OA since 2022
     "1368-5538", # The Aging Male, Gold OA since 2021
-    "0803-7051" # Blood Pressure, Gold OA since 2022
+    "0803-7051", # Blood Pressure, Gold OA since 2022
+    "1559-2324" # Plant Signaling & Behavior, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

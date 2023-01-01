@@ -1351,6 +1351,9 @@ def get_metadata_from_pubmed(doi_string):
     except URLError as urle:
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
+    except ET.ParseError as etpe:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "ElementTree Parse Error: {}".format(etpe.msg)
     return ret_value
 
 def get_euro_exchange_rates(currency, frequency="D"):
