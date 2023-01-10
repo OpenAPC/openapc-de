@@ -683,7 +683,11 @@ JOURNAL_MAPPINGS = {
     "Geophysical &amp; Astrophysical Fluid Dynamics": "Geophysical & Astrophysical Fluid Dynamics",
     "Timing &amp; Time Perception": "Timing & Time Perception",
     "Journal of Transport &amp; Health": "Journal of Transport & Health",
-    "Journal of Chemical &amp; Engineering Data": "Journal of Chemical & Engineering Data"
+    "Journal of Chemical &amp; Engineering Data": "Journal of Chemical & Engineering Data",
+    "Molecular &amp; Cellular Oncology": "Molecular & Cellular Oncology",
+    "Trends in Ecology &amp; Evolution": "Trends in Ecology & Evolution",
+    "Cell Host &amp; Microbe": "Cell Host & Microbe",
+    "Genes &amp; Development": "Genes & Development"
 }
 
 COLUMN_NAMES = {
