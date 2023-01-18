@@ -687,7 +687,9 @@ JOURNAL_MAPPINGS = {
     "Molecular &amp; Cellular Oncology": "Molecular & Cellular Oncology",
     "Trends in Ecology &amp; Evolution": "Trends in Ecology & Evolution",
     "Cell Host &amp; Microbe": "Cell Host & Microbe",
-    "Genes &amp; Development": "Genes & Development"
+    "Genes &amp; Development": "Genes & Development",
+    "CPT: Pharmacometrics &amp; Systems Pharmacology": "CPT: Pharmacometrics & Systems Pharmacology",
+    "BMJ Quality &amp; Safety": "BMJ Quality & Safety"
 }
 
 COLUMN_NAMES = {
