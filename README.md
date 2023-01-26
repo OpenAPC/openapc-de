@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |171,792 | 330,989,287    | 388 |
+| Articles         |172,206 | 331,465,686    | 389 |
 | Monographs       |1,530 | 9,800,957    | 31 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -78,6 +78,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Philipps University of Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds)
 - [Rheinische Friedrich-Wilhelms-Universität Bonn](https://www.open-access.uni-bonn.de/de)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
+- [RWTH Aachen](https://www.ub.rwth-aachen.de/cms/ub/Forschung/Wissenschaftliches-Publizieren/~iigq/Open-Access-Die-neue-Art-zu-publizieren/)
 - [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
@@ -683,13 +684,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 171,792 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 388 research performing institutions and research funders. 
+The article data set contains information on 172,206 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 389 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 330,989,287. The average payment was € 1,927 and the median was € 1,771.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 331,465,686. The average payment was € 1,925 and the median was € 1,770.
 
-117,148 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 194,536,097, including value-added tax; the average payment was € 1,661 (median =  € 1,588, SD = € 775).
+117,559 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 195,007,034, including value-added tax; the average payment was € 1,659 (median =  € 1,587, SD = € 776).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 54,644 articles in the data set were published in hybrid journals. Total expenditure amounts to 136,453,190 €; the average fee was € 2,497 (median =  € 2,463, SD = € 1,006).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 54,647 articles in the data set were published in hybrid journals. Total expenditure amounts to 136,458,652 €; the average fee was € 2,497 (median =  € 2,463, SD = € 1,006).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -712,14 +713,14 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2012   |       1,577|   1,173|     1,175|  69.00 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
 |2013   |       2,472|   1,229|     1,178|  50.00 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
 |2014   |       5,192|   1,375|     1,255|  40.00 -  9,028|           6,521|       2,238|         2,200|   132.3 -  6,000|
-|2015   |       8,444|   1,522|     1,448|  59.00 -  5,669|           6,688|       2,610|         2,622|   126.6 -  8,636|
-|2016   |       9,817|   1,637|     1,530|  62.51 -  5,985|           7,885|       2,552|         2,515|     2.3 -  9,079|
-|2017   |      14,590|   1,715|     1,555|   8.71 - 14,634|          10,608|       2,531|         2,472|    36.9 -  9,858|
-|2018   |      16,021|   1,702|     1,582|  13.00 -  8,926|           9,424|       2,555|         2,540|    17.7 - 13,975|
+|2015   |       8,445|   1,522|     1,448|  59.00 -  5,669|           6,688|       2,610|         2,622|   126.6 -  8,636|
+|2016   |       9,825|   1,636|     1,529|  62.51 -  5,985|           7,886|       2,552|         2,515|     2.3 -  9,079|
+|2017   |      14,890|   1,700|     1,553|   8.71 - 14,634|          10,608|       2,531|         2,472|    36.9 -  9,858|
+|2018   |      16,047|   1,700|     1,581|  13.00 -  8,926|           9,425|       2,555|         2,540|     1.8 - 13,975|
 |2019   |      16,393|   1,685|     1,623|  10.72 -  7,684|           6,293|       2,507|         2,448|    75.3 -  9,500|
 |2020   |      18,616|   1,685|     1,677|   0.01 -  8,906|           3,265|       2,377|         2,384|   130.0 -  7,416|
 |2021   |      21,097|   1,804|     1,776|  27.03 -  6,417|           2,594|       2,506|         2,480|    30.2 - 11,400|
-|2022   |       1,040|   1,938|     1,939|  45.00 -  5,579|             237|       3,244|         3,148|   204.0 -  5,800|
+|2022   |       1,116|   1,936|     1,931|  45.00 -  5,579|             238|       3,242|         3,148|   204.0 -  5,800|
 
 ### Books (BPCs)
 
@@ -792,9 +793,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.7%       |
-|PubMed ID                  |  73.89%      |
-|PubMed Central ID          |  67.9%     |
-|Web of Science record ID   | 90.94%      |
+|PubMed ID                  |  73.85%      |
+|PubMed Central ID          |  67.88%     |
+|Web of Science record ID   | 90.9%      |
 
 
 
