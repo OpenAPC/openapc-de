@@ -903,7 +903,7 @@ def _process_oai_invoice(invoice_elem, namespaces, period=None):
             msg = 'Could not process invoice data: Element "{}" not found!'
             print_r(msg.format(elem))
             return None
-    if data['fee_type'] != 'APC':
+    if data['fee_type'] not in ['APC', 'Hybrid-OA']:
         msg = 'Could not process invoice data: Unknown fee_type "{}"'
         print_r(msg.format(data['fee_type']))
         return None
@@ -917,12 +917,17 @@ def _process_oai_invoice(invoice_elem, namespaces, period=None):
             try:
                 EXCHANGE_RATES[cur] = get_euro_exchange_rates(cur, "A")
             except ValueError as ve:
-                msg = 'Could not process invoice data: Error while obtaining exchange rates for automated conversion: {}'
+                msg = 'Could not process invoice data: Error while obtaining exchange rates for automated conversion: {}.'
                 print_r(msg.format(str(ve)))
                 return None
-        exchange_rate = EXCHANGE_RATES[cur][period]
+        try:
+            exchange_rate = EXCHANGE_RATES[cur][period]
+        except KeyError as ke:
+            msg = 'Could not process invoice data: No annual exchange rate available for currency {} and period {}.'
+            print_r(msg.format(cur, period))
+            return None
         euro_amount = round(float(data['amount'])/float(exchange_rate), 2)
-        msg = 'Automated conversion: {} {} -> {} EUR ((period: {}))'
+        msg = 'Automated conversion: {} {} -> {} EUR (period: {})'
         msg = msg.format(data['amount'], cur, euro_amount, period)
         print_b(msg)
         data['currency'] = 'EUR'
@@ -990,9 +995,18 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                             article[elem] = result.text
                 # JOIN2 institutions make use of the invoice variant
                 invoices = collection.findall(invoice_xpath, namespaces)
+                invoice_fee_type = None
                 for invoice in invoices:
                     invoice_data = _process_oai_invoice(invoice, namespaces, article['period'])
                     if invoice_data:
+                        # check for consistent fee types
+                        if invoice_fee_type is None:
+                            invoice_fee_type = invoice_data['fee_type']
+                        elif invoice_fee_type != invoice_data['fee_type']:
+                            msg = "Error: Record {} contains invoices with different OA fee types!"
+                            print_r(msg.format(article['identifier']))
+                            article['euro'] = 'NA'
+                            break
                         if not has_value(article['euro']):
                             article['euro'] = invoice_data['amount']
                         else:
@@ -1001,8 +1015,6 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                             article['euro'] = str(old_amount + new_amount)
                             msg = "More than one APC amount found, adding values ({} + {} = {})."
                             print_b(msg.format(old_amount, new_amount, old_amount + new_amount))
-                    else:
-                        print(article['identifier'])
                 if processing:
                     target_string = generator
                     for variable in variables:
@@ -1012,7 +1024,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                     print_r("Article skipped, no APC amount found.")
                     continue
                 if float(article["euro"]) <= 0.0:
-                    msg = "Article skipped, non-positive APC amount found {}."
+                    msg = "Article skipped, non-positive APC amount found ({})."
                     print_r(msg.format(article['euro']))
                     continue
                 if article["doi"] != "NA":
