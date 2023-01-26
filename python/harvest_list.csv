@@ -2,4 +2,5 @@
 FALSE,"data/unireg","http://epub.uni-regensburg.de/cgi/oai2","OpenAPC","6F615F747970653D676F6C645F70616964","'url':'%identifier%'"
 FALSE,"data/unibi","https://pub.uni-bielefeld.de/oai","OpenAPC","","'url':'%identifier%'"
 FALSE,"data/unisaarland","https://publikationen.sulb.uni-saarland.de/oai/request","openapc","openapc","'url':'%identifier%'"
-TRUE,"data/rwth","https://publications.rwth-aachen.de/oai2d","OpenAPC","OpenAPC","'url':'%identifier%'"
+FALSE,"data/rwth","https://publications.rwth-aachen.de/oai2d","OpenAPC","OpenAPC","'url':'%identifier%'"
+TRUE,"data/desy","https://bib-pubdb1.desy.de/oai2d","OpenAPC","OpenAPC","'url':'%identifier%'"
