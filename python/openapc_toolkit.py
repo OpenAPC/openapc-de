@@ -45,6 +45,8 @@ SHORTDOI_RE = re.compile(r"^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$",
 
 ISSN_RE = re.compile(r"^(?P<first_part>\d{4})\-(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
+
+
 OAI_COLLECTION_CONTENT = OrderedDict([
     ("institution", "intact:institution"),
     ("period", "intact:period"),
@@ -934,6 +936,23 @@ def _process_oai_invoice(invoice_elem, namespaces, period=None):
         data['amount'] = str(euro_amount)
     return data
 
+def _auto_atof(str_value):
+    """
+    string to float conversion with best guessing of locale
+    """
+    str_value = str_value.strip()
+    old_locale = locale.getlocale(locale.LC_NUMERIC)
+    if re.compile('\d+\.\d+').match(str_value):
+        locale.setlocale(locale.LC_NUMERIC, locale.normalize('en.utf-8'))
+        float_value = locale.atof(str_value)
+    elif re.compile('\d+\,\d+').match(str_value):
+        locale.setlocale(locale.LC_NUMERIC, locale.normalize('de.utf-8'))
+        float_value = locale.atof(str_value)
+    else:
+        float_value = float(str_value)
+    locale.setlocale(locale.LC_NUMERIC, old_locale)
+    return float_value
+
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None):
     """
     Harvest OpenAPC records via OAI-PMH
@@ -1010,8 +1029,8 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                         if not has_value(article['euro']):
                             article['euro'] = invoice_data['amount']
                         else:
-                            old_amount = float(article['euro'])
-                            new_amount = float(invoice_data['amount'])
+                            old_amount = _auto_atof(article['euro'])
+                            new_amount = _auto_atof(invoice_data['amount'])
                             article['euro'] = str(old_amount + new_amount)
                             msg = "More than one APC amount found, adding values ({} + {} = {})."
                             print_b(msg.format(old_amount, new_amount, old_amount + new_amount))
@@ -1023,7 +1042,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                 if article["euro"] == 'NA':
                     print_r("Article skipped, no APC amount found.")
                     continue
-                if float(article["euro"]) <= 0.0:
+                if _auto_atof(article["euro"]) <= 0.0:
                     msg = "Article skipped, non-positive APC amount found ({})."
                     print_r(msg.format(article['euro']))
                     continue
