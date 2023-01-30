@@ -468,11 +468,11 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Université Lille 1
 - Université Lille 2
 - Université Paris 1 Panthéon-Sorbonne
+- [Université Paris Cité](https://u-paris.fr/en/)
 - Université Paris Dauphine-PSL
 - Université Paris Descartes (Paris V)
 - Université Paris Diderot (Paris VII)
 - Université Paris Nanterre
-- [Université Paris-Cité](https://u-paris.fr/en/)
 - Université Paris-Est Marne-la-Vallée
 - Université Pierre et Marie Curie (Paris VI)
 - Université Polytechnique Hauts-de-France
