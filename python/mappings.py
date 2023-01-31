@@ -689,7 +689,11 @@ JOURNAL_MAPPINGS = {
     "Cell Host &amp; Microbe": "Cell Host & Microbe",
     "Genes &amp; Development": "Genes & Development",
     "CPT: Pharmacometrics &amp; Systems Pharmacology": "CPT: Pharmacometrics & Systems Pharmacology",
-    "BMJ Quality &amp; Safety": "BMJ Quality & Safety"
+    "BMJ Quality &amp; Safety": "BMJ Quality & Safety",
+    "EPJ Nuclear Sciences &amp; Technologies": "EPJ Nuclear Sciences & Technologies",
+    "Matériaux &amp; Techniques": "Matériaux & Techniques",
+    "Mechanics &amp; Industry": "Mechanics & Industry",
+    "Metallurgical Research &amp; Technology": "Metallurgical Research & Technology"
 }
 
 COLUMN_NAMES = {
