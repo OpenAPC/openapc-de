@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 65,102 articles, published at 327 institutions under 49 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 65,783 articles, published at 327 institutions under 49 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -25,7 +25,7 @@ This dataset contains information on 65,102 articles, published at 327 instituti
 |Swiss Consortium Elsevier agreement          |     4836|
 |DEAL Springer Nature Germany                 |     4685|
 |DEAL Wiley Germany                           |     4594|
-|French EDP Sciences agreement                |     2649|
+|French EDP Sciences agreement                |     3330|
 |Swiss Consortium Springer Compact agreement  |     2175|
 |FinELib Elsevier agreement                   |     1616|
 |Swiss Consortium Wiley agreement             |      964|
@@ -76,7 +76,7 @@ This dataset contains information on 65,102 articles, published at 327 instituti
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|French institutions                                                                                                                                |     2649|
+|French institutions                                                                                                                                |     3330|
 |FWF - Austrian Science Fund                                                                                                                        |     2470|
 |ETH Zurich                                                                                                                                         |     1660|
 |University of Zurich                                                                                                                               |     1549|
