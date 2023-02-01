@@ -693,7 +693,8 @@ JOURNAL_MAPPINGS = {
     "EPJ Nuclear Sciences &amp; Technologies": "EPJ Nuclear Sciences & Technologies",
     "Matériaux &amp; Techniques": "Matériaux & Techniques",
     "Mechanics &amp; Industry": "Mechanics & Industry",
-    "Metallurgical Research &amp; Technology": "Metallurgical Research & Technology"
+    "Metallurgical Research &amp; Technology": "Metallurgical Research & Technology",
+    "Cogent Business &amp; Management": "Cogent Business & Management"
 }
 
 COLUMN_NAMES = {
