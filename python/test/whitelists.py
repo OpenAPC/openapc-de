@@ -25,7 +25,8 @@ PUBLISHER_IDENTITY = [
     (["OMICS Publishing Group"], ["Hilaris"]),
     (["Optical Society of America (OSA)"], ["Optica Publishing Group"]),
     (["Wiley-Blackwell"], ["British Institute of Radiology"]),
-    (["jovis Verlag"], ["De Gruyter"]) # jovis is an imprint of De Gruyter
+    (["jovis Verlag"], ["De Gruyter"]), # jovis is an imprint of De Gruyter
+    (["Joule Inc."], ["CMA Impact Inc."])
 ]
 
 
@@ -320,7 +321,11 @@ JOURNAL_OWNER_CHANGED = {
     "1536-0121": ["Hindawi Publishing Corporation", "SAGE Publications"], # Molecular Imaging
     "1535-3508": ["Hindawi Publishing Corporation", "SAGE Publications"], # Molecular Imaging (linking)
     "1756-591X": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"], # Metallomics
-    "1756-5901": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"] # Metallomics (linking)
+    "1756-5901": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"], # Metallomics (linking)
+    "1745-3682": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica
+    "1745-3674": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica (linking)
+    "1432-2277": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International
+    "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"] # Transplant International (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -482,7 +487,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1559-2324", # Plant Signaling & Behavior, Gold OA since 2022
     "1600-5775", # Journal of Synchrotron Radiation, Gold OA since 2022
     "0004-637X", # The Astrophysical Journal, Gold OA since 2022
-    "2041-8205" # The Astrophysical Journal Letters, Gold OA since 2022
+    "2041-8205", # The Astrophysical Journal Letters, Gold OA since 2022
+    "1432-2277", # Transplant International, Gold OA since 2022
+    "0934-0874" # Transplant International, Gold OA since 2022 (linking)
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
