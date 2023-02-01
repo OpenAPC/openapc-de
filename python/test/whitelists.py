@@ -318,7 +318,9 @@ JOURNAL_OWNER_CHANGED = {
     "2521-3555": ["International Cardiovascular Forum Journal", "Wiley-Blackwell"], # JCSM Clinical Reports
     "1107-0625": ["Zerbinis Medical Publications", "BAKIS Productions"], # Journal of BUON (J BUON)
     "1536-0121": ["Hindawi Publishing Corporation", "SAGE Publications"], # Molecular Imaging
-    "1535-3508": ["Hindawi Publishing Corporation", "SAGE Publications"] # Molecular Imaging (linking)
+    "1535-3508": ["Hindawi Publishing Corporation", "SAGE Publications"], # Molecular Imaging (linking)
+    "1756-591X": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"], # Metallomics
+    "1756-5901": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"] # Metallomics (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -477,7 +479,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2192-8959", # Case Reports in Perinatal Medicine, Gold OA since 2022
     "1368-5538", # The Aging Male, Gold OA since 2021
     "0803-7051", # Blood Pressure, Gold OA since 2022
-    "1559-2324" # Plant Signaling & Behavior, Gold OA since 2022
+    "1559-2324", # Plant Signaling & Behavior, Gold OA since 2022
+    "1600-5775", # Journal of Synchrotron Radiation, Gold OA since 2022
+    "0004-637X", # The Astrophysical Journal, Gold OA since 2022
+    "2041-8205" # The Astrophysical Journal Letters, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
