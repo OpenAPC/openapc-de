@@ -122,8 +122,8 @@ JOURNAL_OWNER_CHANGED = {
     "0883-6612": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine
     "1532-4796": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine (electronic)
     "0013-0095": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography
-    "2157-6564": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine
-    "2157-6580": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine (electronic)
+    "2157-6564": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine
+    "2157-6580": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine (electronic)
     "0002-9122": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany
     "1537-2197": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany (electronic)
     "0024-6115": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
@@ -326,9 +326,7 @@ JOURNAL_OWNER_CHANGED = {
     "1745-3682": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica
     "1745-3674": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica (linking)
     "1432-2277": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International
-    "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International (linking)
-    "2157-6564": ["Alphamed Press", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine
-    "2157-6580": ["Alphamed Press", "Oxford University Press (OUP)"] # STEM CELLS Translational Medicine (electronic)
+    "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"] # Transplant International (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
