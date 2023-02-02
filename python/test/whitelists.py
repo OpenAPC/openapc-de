@@ -244,7 +244,8 @@ JOURNAL_OWNER_CHANGED = {
     "1751-7311": ["Cambridge University Press (CUP)", "Elsevier BV"], # Animal
     "0042-4900": ["BMJ", "Wiley-Blackwell"], # Veterinary Record
     "2042-7670": ["BMJ", "Wiley-Blackwell"], # Veterinary Record (electronic)
-    "2052-6113": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Open
+    "2399-2050": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Open
+    "2052-6113": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Open (electronic)
     "0022-2275": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # The Journal of Lipid Research
     "1535-9476": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Molecular & Cellular Proteomics
     "1535-9484": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Molecular & Cellular Proteomics (electronic)
@@ -325,7 +326,9 @@ JOURNAL_OWNER_CHANGED = {
     "1745-3682": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica
     "1745-3674": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica (linking)
     "1432-2277": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International
-    "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"] # Transplant International (linking)
+    "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International (linking)
+    "2157-6564": ["Alphamed Press", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine
+    "2157-6580": ["Alphamed Press", "Oxford University Press (OUP)"] # STEM CELLS Translational Medicine (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -489,7 +492,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0004-637X", # The Astrophysical Journal, Gold OA since 2022
     "2041-8205", # The Astrophysical Journal Letters, Gold OA since 2022
     "1432-2277", # Transplant International, Gold OA since 2022
-    "0934-0874" # Transplant International, Gold OA since 2022 (linking)
+    "0934-0874", # Transplant International, Gold OA since 2022 (linking)
+    "2164-5515", # Human Vaccines & Immunotherapeutics, Gold OA since 2022
+    "2164-554X", # Human Vaccines & Immunotherapeutics, Gold OA since 2022 (electronic)
+    "0888-7543", # Genomics, Gold OA since 2022
+    "0023-6438", # LWT, Gold OA since 2022
+    "2215-0382" # Colloid and Interface Science Communications, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
