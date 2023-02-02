@@ -14,62 +14,66 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 65,783 articles, published at 327 institutions under 49 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 66,168 articles, published at 327 institutions under 53 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
 
-|Agreement                                    | Articles|
-|:--------------------------------------------|--------:|
-|Springer Compact                             |    35725|
-|Swiss Consortium Elsevier agreement          |     4836|
-|DEAL Springer Nature Germany                 |     4685|
-|DEAL Wiley Germany                           |     4594|
-|French EDP Sciences agreement                |     3330|
-|Swiss Consortium Springer Compact agreement  |     2175|
-|FinELib Elsevier agreement                   |     1616|
-|Swiss Consortium Wiley agreement             |      964|
-|FinELib Springer Compact agreement           |      895|
-|FinELib Wiley agreement                      |      790|
-|FWF Transformative Agreement Wiley-Blackwell |      684|
-|FinELib Taylor & Francis agreement           |      579|
-|FWF Transformative Agreement Springer Nature |      371|
-|FinELib IEEE agreement                       |      313|
-|Swiss Consortium T&F agreement               |      307|
-|FWF Transformative Agreement ACS             |      298|
-|FinELib SAGE agreement                       |      286|
-|Swiss Consortium RSC agreement               |      258|
-|MPG RSC agreement                            |      246|
-|Swiss Consortium SAGE agreement              |      236|
-|FWF Transformative Agreement T&F             |      234|
-|FinELib OUP agreement                        |      207|
-|QNL Elsevier Agreement                       |      194|
-|University of Milan - Springer               |      192|
-|FWF Transformative Agreement Elsevier        |      186|
-|FinELib ACS agreement                        |      184|
-|Austrian Consortium RSC agreement            |      179|
-|FWF Transformative Agreement IOP             |      133|
-|Swiss Consortium CUP agreement               |      132|
-|FinELib Emerald agreement                    |      118|
-|QNL Springer Nature Agreement                |      103|
-|University of Milan - Wiley                  |       98|
-|QNL Wiley Agreement                          |       92|
-|QNL T&F Agreement                            |       85|
-|TIB RSC Journals R&P - TU Berlin             |       81|
-|Swiss Consortium Karger agreement            |       62|
-|FinELib RSC agreement                        |       60|
-|MPG Taylor & Francis agreement               |       46|
-|Austrian Consortium IOP agreement            |       45|
-|MPG IOP agreement                            |       32|
-|QNL IEEE Agreement                           |       31|
-|FWF Transformative Agreement RSC             |       24|
-|Austrian Consortium Emerald agreement        |       23|
-|Austrian Consortium Sage agreement           |       16|
-|University of Milan - De Gruyter             |       15|
-|University of Milan - ACS                    |       12|
-|FWF Transformative Agreement Sage            |        6|
-|QNL OVID Agreement                           |        3|
-|QNL De Gruyter Agreement                     |        2|
+|Agreement                                        | Articles|
+|:------------------------------------------------|--------:|
+|Springer Compact                                 |    35725|
+|Swiss Consortium Elsevier agreement              |     4836|
+|DEAL Springer Nature Germany                     |     4685|
+|DEAL Wiley Germany                               |     4594|
+|French EDP Sciences agreement                    |     3330|
+|Swiss Consortium Springer Compact agreement      |     2175|
+|FinELib Elsevier agreement                       |     1616|
+|Swiss Consortium Wiley agreement                 |      964|
+|FinELib Springer Compact agreement               |      895|
+|FinELib Wiley agreement                          |      790|
+|FWF Transformative Agreement Wiley-Blackwell     |      684|
+|FinELib Taylor & Francis agreement               |      579|
+|University of Milan - Springer                   |      395|
+|FWF Transformative Agreement Springer Nature     |      371|
+|FinELib IEEE agreement                           |      313|
+|Swiss Consortium T&F agreement                   |      307|
+|FWF Transformative Agreement ACS                 |      298|
+|FinELib SAGE agreement                           |      286|
+|Swiss Consortium RSC agreement                   |      258|
+|MPG RSC agreement                                |      246|
+|Swiss Consortium SAGE agreement                  |      236|
+|FWF Transformative Agreement T&F                 |      234|
+|FinELib OUP agreement                            |      207|
+|University of Milan - Wiley                      |      196|
+|QNL Elsevier Agreement                           |      194|
+|FWF Transformative Agreement Elsevier            |      186|
+|FinELib ACS agreement                            |      184|
+|Austrian Consortium RSC agreement                |      179|
+|FWF Transformative Agreement IOP                 |      133|
+|Swiss Consortium CUP agreement                   |      132|
+|FinELib Emerald agreement                        |      118|
+|QNL Springer Nature Agreement                    |      103|
+|QNL Wiley Agreement                              |       92|
+|QNL T&F Agreement                                |       85|
+|TIB RSC Journals R&P - TU Berlin                 |       81|
+|Swiss Consortium Karger agreement                |       62|
+|FinELib RSC agreement                            |       60|
+|MPG Taylor & Francis agreement                   |       46|
+|Austrian Consortium IOP agreement                |       45|
+|University of Milan - De Gruyter                 |       34|
+|MPG IOP agreement                                |       32|
+|University of Milan - ACS                        |       32|
+|QNL IEEE Agreement                               |       31|
+|University of Milan - Cambridge University Press |       25|
+|FWF Transformative Agreement RSC                 |       24|
+|Austrian Consortium Emerald agreement            |       23|
+|Austrian Consortium Sage agreement               |       16|
+|University of Milan - Royal Society of Chemistry |       12|
+|FWF Transformative Agreement Sage                |        6|
+|University of Milan - IEEE                       |        6|
+|QNL OVID Agreement                               |        3|
+|QNL De Gruyter Agreement                         |        2|
+|University of Milan - Lippincott                 |        2|
 
 ### Breakdown by institution
 
@@ -97,6 +101,7 @@ This dataset contains information on 65,783 articles, published at 327 instituti
 |Frankfurt U                                                                                                                                        |      777|
 |Imperial College London                                                                                                                            |      771|
 |University of Lausanne                                                                                                                             |      733|
+|Milano U                                                                                                                                           |      702|
 |University of Basel                                                                                                                                |      694|
 |King's College London                                                                                                                              |      652|
 |Aalto University                                                                                                                                   |      619|
@@ -145,7 +150,6 @@ This dataset contains information on 65,783 articles, published at 327 instituti
 |Cardiff University                                                                                                                                 |      339|
 |University of Jyväskylä                                                                                                                            |      336|
 |University of Warwick                                                                                                                              |      332|
-|Milano U                                                                                                                                           |      317|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |Radboud University                                                                                                                                 |      309|
 |University of Twente                                                                                                                               |      297|
