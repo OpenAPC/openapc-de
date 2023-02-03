@@ -110,6 +110,8 @@ JOURNAL_OWNER_CHANGED = {
     "2169-9011": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Earth Surface (electronic)
     "2169-9275": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Oceans
     "2169-9291": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Oceans (electronic)
+    "2572-4517": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography and Paleoclimatology
+    "2572-4525": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography and Paleoclimatology (electronic)
     "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
     "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition (electronic)
     "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology
@@ -122,8 +124,8 @@ JOURNAL_OWNER_CHANGED = {
     "0883-6612": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine
     "1532-4796": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine (electronic)
     "0013-0095": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography
-    "2157-6564": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine
-    "2157-6580": ["Alphamed Press", "Wiley-Blackwell"], # STEM CELLS Translational Medicine (electronic)
+    "2157-6564": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine
+    "2157-6580": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine (electronic)
     "0002-9122": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany
     "1537-2197": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany (electronic)
     "0024-6115": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
@@ -244,7 +246,8 @@ JOURNAL_OWNER_CHANGED = {
     "1751-7311": ["Cambridge University Press (CUP)", "Elsevier BV"], # Animal
     "0042-4900": ["BMJ", "Wiley-Blackwell"], # Veterinary Record
     "2042-7670": ["BMJ", "Wiley-Blackwell"], # Veterinary Record (electronic)
-    "2052-6113": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Open
+    "2399-2050": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Open
+    "2052-6113": ["BMJ", "Wiley-Blackwell"], # Veterinary Record Open (electronic)
     "0022-2275": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # The Journal of Lipid Research
     "1535-9476": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Molecular & Cellular Proteomics
     "1535-9484": ["American Society for Biochemistry & Molecular Biology (ASBMB)", "Elsevier BV"], # Molecular & Cellular Proteomics (electronic)
@@ -489,7 +492,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0004-637X", # The Astrophysical Journal, Gold OA since 2022
     "2041-8205", # The Astrophysical Journal Letters, Gold OA since 2022
     "1432-2277", # Transplant International, Gold OA since 2022
-    "0934-0874" # Transplant International, Gold OA since 2022 (linking)
+    "0934-0874", # Transplant International, Gold OA since 2022 (linking)
+    "2164-5515", # Human Vaccines & Immunotherapeutics, Gold OA since 2022
+    "2164-554X", # Human Vaccines & Immunotherapeutics, Gold OA since 2022 (electronic)
+    "0888-7543", # Genomics, Gold OA since 2022
+    "0023-6438", # LWT, Gold OA since 2022
+    "2215-0382" # Colloid and Interface Science Communications, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
