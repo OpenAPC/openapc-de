@@ -328,7 +328,8 @@ JOURNAL_OWNER_CHANGED = {
     "1745-3682": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica
     "1745-3674": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica (linking)
     "1432-2277": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International
-    "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"] # Transplant International (linking)
+    "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International (linking)
+    "0022-0302": ["American Dairy Science Association", "Elsevier BV"] # Journal of Dairy Science
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -497,7 +498,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2164-554X", # Human Vaccines & Immunotherapeutics, Gold OA since 2022 (electronic)
     "0888-7543", # Genomics, Gold OA since 2022
     "0023-6438", # LWT, Gold OA since 2022
-    "2215-0382" # Colloid and Interface Science Communications, Gold OA since 2022
+    "2215-0382", # Colloid and Interface Science Communications, Gold OA since 2022
+    "2376-9637", # Forest Products Journal, Gold OA since 2022
+    "0015-7473", # Forest Products Journal, Gold OA since 2022 (linking)
+    "0022-0302" # Journal of Dairy Science, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
