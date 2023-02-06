@@ -696,7 +696,8 @@ JOURNAL_MAPPINGS = {
     "Metallurgical Research &amp; Technology": "Metallurgical Research & Technology",
     "Cogent Business &amp; Management": "Cogent Business & Management",
     "Waste Management &amp; Research: The Journal for a Sustainable Circular Economy": "Waste Management & Research",
-    "Journal of Nonprofit &amp; Public Sector Marketing": "Journal of Nonprofit & Public Sector Marketing"
+    "Journal of Nonprofit &amp; Public Sector Marketing": "Journal of Nonprofit & Public Sector Marketing",
+    "IET Computers &amp; Digital Techniques": "IET Computers & Digital Techniques"
 }
 
 COLUMN_NAMES = {
