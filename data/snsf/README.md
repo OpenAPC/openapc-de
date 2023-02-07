@@ -1,5 +1,3 @@
-
-
 # OpenAPC Data SNSF
 
 ## History of APC handling at the SNSF
@@ -16,6 +14,7 @@
 |2018.10|A [new workflow](https://oa100.snf.ch/en/funding/journal-articles/) has been established, where grantees can request the payment/refund of APCs even for grants that have already expired.|
 |2021.06| [The SNSF has launched a pilot project: researchers will be able to publish their open access articles via the ChronosHub](https://www.snf.ch/en/3Vpw3ybQfivruCDi/news/open-access-simple-and-efficient-publishing-with-chronoshub) platform. The existing path to apply for OA publication grants at the SNSF continues to exist. The latest data delivery (2022-02-24) does include APCs from both ChronosHub and SNSF OA grants, the origin is distinguishable via  the variable `origin`.|
 |2021.07| It was decided that the SNSF does only provide publications that do have a DOI. Publications without a DOI can be provided, when they have a title, a journal name, a journal ISSN, a publisher, and a link to a full-text available. Due to inavailability of all this data, around 15% of the SNSF's APC are not reported for publications without a DOI. 
+|2023.02| All APC handling of the SNSF is now done by Chronoshub, therefore, the data delivery consists only of APC data of completed payments over Chronoshub. All APCs handled by Chronoshub do have a DOI. 
 
 ## CHF to EUR Conversion
 
@@ -36,7 +35,8 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 |2019|1|1.11247||
 |2020|1|1.07055||
 |2021|1|1.09400|Average January-June 2021, delivery 2021-06-03|
-|2021|1|1.0810|Whole 2021, delivery 2022-02-24|
+|2021|1|1.0810|Whole publication year of 2021, delivery 2022-02-24|
+|2022|1|1.0048|Whole publication year of 2022, delivery 2023-02-06|
 
 ## Co-Funding
 
@@ -52,7 +52,7 @@ The SNSF does not support Hybrid OA due to the issue of double dipping. Accident
 
 ## Additional "local" information
 
-For full transparency the initial uploaded lists (without "enriched" in the file name) contains some additional columns:
+For full transparency the initial uploaded lists (without "enriched" in the file name) contain some additional columns:
 
 |name | description |
 |--|--|
