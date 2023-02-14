@@ -506,7 +506,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2041-210X", # Methods in Ecology and Evolution, Gold OA since 2023
     "1538-4365", # The Astrophysical Journal Supplement Series, Gold OA since 2022
     "0908-8857", # Journal of Avian Biology, Gold OA since 2022
-    "1368-9800" # Public Health Nutrition, Gold OA since 2022
+    "1368-9800", # Public Health Nutrition, Gold OA since 2022
+    "0890-8575" # Natural Resource Modeling, Gold OA since 2021
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
