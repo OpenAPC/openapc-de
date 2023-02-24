@@ -697,7 +697,8 @@ JOURNAL_MAPPINGS = {
     "Cogent Business &amp; Management": "Cogent Business & Management",
     "Waste Management &amp; Research: The Journal for a Sustainable Circular Economy": "Waste Management & Research",
     "Journal of Nonprofit &amp; Public Sector Marketing": "Journal of Nonprofit & Public Sector Marketing",
-    "IET Computers &amp; Digital Techniques": "IET Computers & Digital Techniques"
+    "IET Computers &amp; Digital Techniques": "IET Computers & Digital Techniques",
+    "Geriatric Orthopaedic Surgery &amp; Rehabilitation": "Geriatric Orthopaedic Surgery & Rehabilitation"
 }
 
 COLUMN_NAMES = {
