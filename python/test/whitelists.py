@@ -330,7 +330,9 @@ JOURNAL_OWNER_CHANGED = {
     "1432-2277": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International
     "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International (linking)
     "0022-0302": ["American Dairy Science Association", "Elsevier BV"], # Journal of Dairy Science
-    "2279-9036": ["PAGEPress Publications", "SAGE Publications"] # Journal of Public Health Research
+    "2279-9036": ["PAGEPress Publications", "SAGE Publications"], # Journal of Public Health Research
+    "2295-8010": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"], # Tropicultura
+    "0771-3312": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"] # Tropicultura (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
