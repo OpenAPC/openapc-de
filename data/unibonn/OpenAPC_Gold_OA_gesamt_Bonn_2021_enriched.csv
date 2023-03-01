@@ -1,37 +1,37 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Bonn U",2021,1924.24,"10.3390/ijms22010375",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"33396484","PMC7795371","ut:000606079600001",NA,TRUE
 "Bonn U",2021,1453.58,"10.3389/fcell.2021.648313",FALSE,"Frontiers Media SA","Frontiers in Cell and Developmental Biology","2296-634X",NA,"2296-634X","2296-634X","https://creativecommons.org/licenses/by/4.0/",TRUE,"33708774","PMC7940384","ut:000626482300001",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
+"Bonn U",2021,1241.2,"10.1002/hsr2.236",FALSE,"Wiley-Blackwell","Health Science Reports","2398-8835","2398-8835","2398-8835","2398-8835","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"33532599","PMC7837675","ut:000672475300019",NA,TRUE
+"Bonn U",2021,735.44,"10.1002/ccr3.3779",FALSE,"Wiley-Blackwell","Clinical Case Reports","2050-0904","2050-0904","2050-0904","2050-0904","http://creativecommons.org/licenses/by/4.0/",TRUE,"33768852","PMC7981625","ut:000614567600001",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-73054-8",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33004857","PMC7530673","ut:000577143400085",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-78899-7",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33318564","PMC7736584","ut:000600105700020",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-75258-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33139776","PMC7608557","ut:000589618700029",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-79495-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33372188","PMC7769972","ut:000603610400007",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-71084-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32873854","PMC7463265","ut:000571222300039",NA,TRUE
+"Bonn U",2021,1735.36,"10.1186/s12879-020-05429-1",FALSE,"Springer Nature","BMC Infectious Diseases","1471-2334",NA,"1471-2334","1471-2334","https://creativecommons.org/licenses/by/4.0",TRUE,"32993515","PMC7526136","ut:000576933500006",NA,TRUE
+"Bonn U",2021,1512.64,"10.1186/s13321-020-00473-0",FALSE,"Springer Nature","Journal of Cheminformatics","1758-2946",NA,"1758-2946","1758-2946","http://creativecommons.org/licenses/by/4.0/",TRUE,"33292554","PMC7654024","ut:000588094900001",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-74451-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33060723","PMC7566456","ut:000582705900037",NA,TRUE
+"Bonn U",2021,1661.12,"10.1186/s12875-020-01345-0",FALSE,"Springer Nature","BMC Family Practice","1471-2296",NA,"1471-2296","1471-2296","http://creativecommons.org/licenses/by/4.0/",TRUE,"33297967","PMC7726861","ut:000597267100001",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-78015-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33273595","PMC7713299","ut:000615394300104",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-70751-2",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32839497","PMC7445751","ut:000568833100022",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-70943-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32839521","PMC7445273","ut:000568833100004",NA,TRUE
+"Bonn U",2021,1735.36,"10.1186/s13005-020-00244-0",FALSE,"Springer Nature","Head & Face Medicine","1746-160X",NA,"1746-160X","1746-160X","http://creativecommons.org/licenses/by/4.0/",TRUE,"33190638","PMC7667774","ut:000594332600001",NA,TRUE
+"Bonn U",2021,1095.04,"10.1186/s12895-020-00113-y",FALSE,"Springer Nature","BMC Dermatology","1471-5945",NA,"1471-5945","1471-5945","http://creativecommons.org/licenses/by/4.0/",TRUE,"33167971","PMC7653834","ut:000588091800001",NA,FALSE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-77801-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33244180","PMC7692482","ut:000596329600038",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-78013-x",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33273534","PMC7712914","ut:000615394300171",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-74225-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33051570","PMC7553936","ut:000582694000007",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-75384-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33116251","PMC7595157","ut:000587650700041",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-73865-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33057048","PMC7560705","ut:000582678400021",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-79159-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33361774","PMC7759581","ut:000603064300002",NA,TRUE
+"Bonn U",2021,1846.72,"10.1186/s12870-020-02616-9",FALSE,"Springer Nature","BMC Plant Biology","1471-2229",NA,"1471-2229","1471-2229","https://creativecommons.org/licenses/by/4.0",TRUE,"32938380","PMC7493341","ut:000573077600001",NA,TRUE
+"Bonn U",2021,983.68,"10.1186/s42155-020-00178-3",FALSE,"Springer Nature","CVIR Endovascular","2520-8934",NA,"2520-8934","2520-8934","https://creativecommons.org/licenses/by/4.0",TRUE,"33210190","PMC7674537","ut:000703852500001",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-72706-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"32978452","PMC7519046","ut:000577252400055",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-73724-7",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33033283","PMC7545178","ut:000577475100078",NA,TRUE
+"Bonn U",2021,1730.14,"10.1038/s41598-020-73938-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33033361","PMC7545160","ut:000577475100054",NA,TRUE
 "Bonn U",2021,1601.48,"10.3389/frvir.2021.656788",FALSE,"Frontiers Media SA","Frontiers in Virtual Reality","2673-4192",NA,"2673-4192","2673-4192","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Bonn U",2021,1931.47,"10.3390/agronomy11071319",FALSE,"MDPI AG","Agronomy","2073-4395",NA,"2073-4395","2073-4395","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000686157500001",NA,TRUE
 "Bonn U",2021,1408.96,"10.1007/s42452-021-04314-z",FALSE,"Springer Nature","SN Applied Sciences","2523-3963","2523-3963","2523-3971","2523-3963","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000618980600010",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
+"Bonn U",2021,1842.55,"10.1186/s12882-021-02287-0",FALSE,"Springer Nature","BMC Nephrology","1471-2369",NA,"1471-2369","1471-2369","http://creativecommons.org/licenses/by/4.0/",TRUE,"33706697","PMC7953776","ut:000627773800001",NA,TRUE
 "Bonn U",2021,1837,"10.1038/s41598-021-85226-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33750919","PMC7970893","ut:000630479700039",NA,TRUE
 "Bonn U",2021,1837,"10.1038/s41598-021-85217-2",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33727566","PMC7966399","ut:000630512100004",NA,TRUE
 "Bonn U",2021,942.48,"10.1007/s43621-021-00026-x",FALSE,"Springer Nature","Discover Sustainability","2662-9984",NA,"2662-9984","2662-9984","https://creativecommons.org/licenses/by/4.0",TRUE,"35425922","PMC7967781","ut:000908288900015",NA,TRUE
@@ -50,71 +50,71 @@
 "Bonn U",2021,1960.79,"10.1186/s12888-021-03098-1",FALSE,"Springer Nature","BMC Psychiatry","1471-244X",NA,"1471-244X","1471-244X","http://creativecommons.org/licenses/by/4.0/",TRUE,"33618700","PMC7898747","ut:000621834500003",NA,TRUE
 "Bonn U",2021,1558.9,"10.1016/j.actpsy.2021.103364",FALSE,"Elsevier BV","Acta Psychologica","0001-6918","0001-6918",NA,"0001-6918","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34245980",NA,"ut:000691776700019",NA,TRUE
 "Bonn U",2021,1727.59,"10.3390/ijerph18189458",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","1660-4601","https://creativecommons.org/licenses/by/4.0/",TRUE,"34574383","PMC8466539","ut:000699709600001",NA,TRUE
-"Bonn U",2021,1931.47,"10.3390/en14206484",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"Bonn U",2021,1931.47,"10.3390/en14206484",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000711908800001",NA,TRUE
 "Bonn U",2021,1904,"10.1049/itr2.12080",FALSE,"Institution of Engineering and Technology (IET)","IET Intelligent Transport Systems","1751-956X","1751-956X","1751-9578","1751-956X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000652363400001",NA,TRUE
-"Bonn U",2021,1790.95,"10.1002/iid3.445",FALSE,"Wiley-Blackwell","Immunity, Inflammation and Disease","2050-4527","2050-4527","2050-4527","2050-4527","http://creativecommons.org/licenses/by/4.0/",TRUE,"33945673","PMC8342217",NA,NA,TRUE
+"Bonn U",2021,1790.95,"10.1002/iid3.445",FALSE,"Wiley-Blackwell","Immunity, Inflammation and Disease","2050-4527","2050-4527","2050-4527","2050-4527","http://creativecommons.org/licenses/by/4.0/",TRUE,"33945673","PMC8342217","ut:000646815200001",NA,TRUE
 "Bonn U",2021,1475.6,"10.1002/ecs2.3688",FALSE,"Wiley-Blackwell","Ecosphere","2150-8925","2150-8925","2150-8925","2150-8925","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000689453800004",NA,TRUE
-"Bonn U",2021,1523.2,"10.1111/nrm.12320",FALSE,"Wiley-Blackwell","Natural Resource Modeling","0890-8575","0890-8575","1939-7445","0890-8575","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bonn U",2021,1523.2,"10.1111/nrm.12320",FALSE,"Wiley-Blackwell","Natural Resource Modeling","0890-8575","0890-8575","1939-7445","0890-8575","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000662970900001",NA,FALSE
 "Bonn U",2021,1666,"10.1002/bco2.89",FALSE,"Wiley-Blackwell","BJUI Compass","2688-4526","2688-4526","2688-4526","2688-4526","http://creativecommons.org/licenses/by/4.0/",TRUE,"35474700","PMC8988738",NA,NA,TRUE
-"Bonn U",2021,1044.44,"10.1186/s40850-021-00075-9",FALSE,"Springer Nature","BMC Zoology","2056-3132",NA,"2056-3132","2056-3132","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Bonn U",2021,1271.81,"10.1038/s41392-021-00655-8",FALSE,"Springer Nature","Signal Transduction and Targeted Therapy","2059-3635",NA,"2059-3635","2059-3635","https://creativecommons.org/licenses/by/4.0",TRUE,"34112757","PMC8192947",NA,NA,TRUE
+"Bonn U",2021,1044.44,"10.1186/s40850-021-00075-9",FALSE,"Springer Nature","BMC Zoology","2056-3132",NA,"2056-3132","2056-3132","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000646554600001",NA,TRUE
+"Bonn U",2021,1271.81,"10.1038/s41392-021-00655-8",FALSE,"Springer Nature","Signal Transduction and Targeted Therapy","2059-3635",NA,"2059-3635","2059-3635","https://creativecommons.org/licenses/by/4.0",TRUE,"34112757","PMC8192947","ut:000663555200003",NA,TRUE
 "Bonn U",2021,1836.17,"10.1038/s41598-021-88082-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33888808","PMC8062529","ut:000642742500103",NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-87042-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33846469","PMC8042106",NA,NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-90577-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34045558","PMC8159933",NA,NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-92434-2",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34188106","PMC8242067",NA,NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-87042-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33846469","PMC8042106","ut:000640430100004",NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-90577-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34045558","PMC8159933","ut:000658389400021",NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-92434-2",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34188106","PMC8242067","ut:000671779700025",NA,TRUE
 "Bonn U",2021,1842.55,"10.1186/s12864-021-07693-0",FALSE,"Springer Nature","BMC Genomics","1471-2164",NA,"1471-2164","1471-2164","https://creativecommons.org/licenses/by/4.0",TRUE,"34082721","PMC8176733",NA,NA,TRUE
-"Bonn U",2021,1799.28,"10.1186/s12862-021-01859-w",FALSE,"Springer Nature","BMC Ecology and Evolution","2730-7182",NA,"2730-7182","2730-7182","https://creativecommons.org/licenses/by/4.0",TRUE,"34154535","PMC8215774",NA,NA,FALSE
-"Bonn U",2021,1837,"10.1038/s41598-021-87032-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33846432","PMC8042037",NA,NA,TRUE
+"Bonn U",2021,1799.28,"10.1186/s12862-021-01859-w",FALSE,"Springer Nature","BMC Ecology and Evolution","2730-7182",NA,"2730-7182","2730-7182","https://creativecommons.org/licenses/by/4.0",TRUE,"34154535","PMC8215774","ut:000664657300001",NA,FALSE
+"Bonn U",2021,1837,"10.1038/s41598-021-87032-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33846432","PMC8042037","ut:000640434400039",NA,TRUE
 "Bonn U",2021,1837,"10.1038/s41598-021-91940-7",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34135383","PMC8209060","ut:000665151400004",NA,TRUE
-"Bonn U",2021,1732.64,"10.1007/s10856-021-06515-9",FALSE,"Springer Nature","Journal of Materials Science: Materials in Medicine","0957-4530","0957-4530","1573-4838","0957-4530","https://creativecommons.org/licenses/by/4.0",TRUE,"33792782","PMC8016773",NA,NA,TRUE
-"Bonn U",2021,1894.48,"10.1186/s12880-021-00598-0",FALSE,"Springer Nature","BMC Medical Imaging","1471-2342",NA,"1471-2342","1471-2342","http://creativecommons.org/licenses/by/4.0/",TRUE,"33827475","PMC8028226",NA,NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-88294-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33888835","PMC8062484",NA,NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-92232-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34135452","PMC8209054",NA,NA,TRUE
-"Bonn U",2021,1970.28,"10.1186/s12885-021-08141-8",FALSE,"Springer Nature","BMC Cancer","1471-2407",NA,"1471-2407","1471-2407","http://creativecommons.org/licenses/by/4.0/",TRUE,"33971845","PMC8108356",NA,NA,TRUE
-"Bonn U",2021,1894.48,"10.1186/s12887-021-02748-3",FALSE,"Springer Nature","BMC Pediatrics","1471-2431",NA,"1471-2431","1471-2431","https://creativecommons.org/licenses/by/4.0",TRUE,"34126946","PMC8201820",NA,NA,TRUE
-"Bonn U",2021,1836.17,"10.1038/s41598-021-90900-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34075122","PMC8169779",NA,NA,TRUE
-"Bonn U",2021,1285.2,"10.1002/aps3.11444",FALSE,"Wiley-Blackwell","Applications in Plant Sciences","2168-0450","2168-0450","2168-0450","2168-0450","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34504737","PMC8419396",NA,NA,TRUE
-"Bonn U",2021,809.2,"10.1002/ccr3.4782",FALSE,"Wiley-Blackwell","Clinical Case Reports","2050-0904","2050-0904","2050-0904","2050-0904","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34504700","PMC8418679",NA,NA,TRUE
+"Bonn U",2021,1732.64,"10.1007/s10856-021-06515-9",FALSE,"Springer Nature","Journal of Materials Science: Materials in Medicine","0957-4530","0957-4530","1573-4838","0957-4530","https://creativecommons.org/licenses/by/4.0",TRUE,"33792782","PMC8016773","ut:000636356200004",NA,TRUE
+"Bonn U",2021,1894.48,"10.1186/s12880-021-00598-0",FALSE,"Springer Nature","BMC Medical Imaging","1471-2342",NA,"1471-2342","1471-2342","http://creativecommons.org/licenses/by/4.0/",TRUE,"33827475","PMC8028226","ut:000638034000004",NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-88294-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33888835","PMC8062484","ut:000642742500029",NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-92232-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34135452","PMC8209054","ut:000665149200009",NA,TRUE
+"Bonn U",2021,1970.28,"10.1186/s12885-021-08141-8",FALSE,"Springer Nature","BMC Cancer","1471-2407",NA,"1471-2407","1471-2407","http://creativecommons.org/licenses/by/4.0/",TRUE,"33971845","PMC8108356","ut:000655590700001",NA,TRUE
+"Bonn U",2021,1894.48,"10.1186/s12887-021-02748-3",FALSE,"Springer Nature","BMC Pediatrics","1471-2431",NA,"1471-2431","1471-2431","https://creativecommons.org/licenses/by/4.0",TRUE,"34126946","PMC8201820","ut:000664111700002",NA,TRUE
+"Bonn U",2021,1836.17,"10.1038/s41598-021-90900-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34075122","PMC8169779","ut:000660845500001",NA,TRUE
+"Bonn U",2021,1285.2,"10.1002/aps3.11444",FALSE,"Wiley-Blackwell","Applications in Plant Sciences","2168-0450","2168-0450","2168-0450","2168-0450","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34504737","PMC8419396","ut:000690749200001",NA,TRUE
+"Bonn U",2021,809.2,"10.1002/ccr3.4782",FALSE,"Wiley-Blackwell","Clinical Case Reports","2050-0904","2050-0904","2050-0904","2050-0904","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34504700","PMC8418679","ut:000700003300003",NA,TRUE
 "Bonn U",2021,240.38,"10.1002/ccr3.4926",FALSE,"Wiley-Blackwell","Clinical Case Reports","2050-0904","2050-0904","2050-0904","2050-0904","http://creativecommons.org/licenses/by/4.0/",TRUE,"34667605","PMC8512183","ut:000724731500118",NA,TRUE
-"Bonn U",2021,1522.01,"10.1002/iid3.499",FALSE,"Wiley-Blackwell","Immunity, Inflammation and Disease","2050-4527","2050-4527","2050-4527","2050-4527","http://creativecommons.org/licenses/by/4.0/",TRUE,"34324242","PMC8589377",NA,NA,TRUE
+"Bonn U",2021,1522.01,"10.1002/iid3.499",FALSE,"Wiley-Blackwell","Immunity, Inflammation and Disease","2050-4527","2050-4527","2050-4527","2050-4527","http://creativecommons.org/licenses/by/4.0/",TRUE,"34324242","PMC8589377","ut:000678755700001",NA,TRUE
 "Bonn U",2021,1837,"10.1038/s41598-021-93567-0",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34239009","PMC8266893","ut:000674513600032",NA,TRUE
-"Bonn U",2021,1910.55,"10.1038/s41529-021-00182-5",FALSE,"Springer Nature","npj Materials Degradation","2397-2106",NA,"2397-2106","2397-2106","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
-"Bonn U",2021,980.56,"10.1186/s40100-021-00190-8",FALSE,"Springer Nature","Agricultural and Food Economics","2193-7532",NA,"2193-7532","2193-7532","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
-"Bonn U",2021,1842.55,"10.1186/s12936-021-03851-7",FALSE,"Springer Nature","Malaria Journal","1475-2875",NA,"1475-2875","1475-2875","https://creativecommons.org/licenses/by/4.0",TRUE,"34281554","PMC8287558",NA,NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-93771-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34244588","PMC8270985",NA,NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-94799-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34321519","PMC8319294",NA,NA,TRUE
-"Bonn U",2021,1989.68,"10.1186/s13287-021-02395-6",FALSE,"Springer Nature","Stem Cell Research & Therapy","1757-6512",NA,"1757-6512","1757-6512","https://creativecommons.org/licenses/by/4.0",TRUE,"34315534","PMC8314642",NA,NA,TRUE
-"Bonn U",2021,1269.53,"10.1038/s41392-021-00684-3",FALSE,"Springer Nature","Signal Transduction and Targeted Therapy","2059-3635",NA,"2059-3635","2059-3635","https://creativecommons.org/licenses/by/4.0",TRUE,"34244470","PMC8270980",NA,NA,TRUE
+"Bonn U",2021,1910.55,"10.1038/s41529-021-00182-5",FALSE,"Springer Nature","npj Materials Degradation","2397-2106",NA,"2397-2106","2397-2106","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000672635800001",NA,TRUE
+"Bonn U",2021,980.56,"10.1186/s40100-021-00190-8",FALSE,"Springer Nature","Agricultural and Food Economics","2193-7532",NA,"2193-7532","2193-7532","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000672558800001",NA,TRUE
+"Bonn U",2021,1842.55,"10.1186/s12936-021-03851-7",FALSE,"Springer Nature","Malaria Journal","1475-2875",NA,"1475-2875","1475-2875","https://creativecommons.org/licenses/by/4.0",TRUE,"34281554","PMC8287558","ut:000675819800002",NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-93771-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34244588","PMC8270985","ut:000674491200022",NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-94799-w",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34321519","PMC8319294","ut:000683351600020",NA,TRUE
+"Bonn U",2021,1989.68,"10.1186/s13287-021-02395-6",FALSE,"Springer Nature","Stem Cell Research & Therapy","1757-6512",NA,"1757-6512","1757-6512","https://creativecommons.org/licenses/by/4.0",TRUE,"34315534","PMC8314642","ut:000678749700003",NA,TRUE
+"Bonn U",2021,1269.53,"10.1038/s41392-021-00684-3",FALSE,"Springer Nature","Signal Transduction and Targeted Therapy","2059-3635",NA,"2059-3635","2059-3635","https://creativecommons.org/licenses/by/4.0",TRUE,"34244470","PMC8270980","ut:000674328900001",NA,TRUE
 "Bonn U",2021,1989.68,"10.1186/s12893-021-01311-2",FALSE,"Springer Nature","BMC Surgery","1471-2482",NA,"1471-2482","1471-2482","https://creativecommons.org/licenses/by/4.0",TRUE,"34330242","PMC8325198","ut:000679722400001",NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-94386-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34294787","PMC8298422",NA,NA,TRUE
-"Bonn U",2021,1933.69,"10.1038/s41598-021-96169-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34404868","PMC8371126",NA,NA,TRUE
-"Bonn U",2021,1933.69,"10.1038/s41598-021-96285-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34413398","PMC8376893",NA,NA,TRUE
-"Bonn U",2021,1269.53,"10.1038/s41392-021-00693-2",FALSE,"Springer Nature","Signal Transduction and Targeted Therapy","2059-3635",NA,"2059-3635","2059-3635","https://creativecommons.org/licenses/by/4.0",TRUE,"34285185","PMC8292414",NA,NA,TRUE
-"Bonn U",2021,1894.48,"10.1186/s12883-021-02362-x",FALSE,"Springer Nature","BMC Neurology","1471-2377",NA,"1471-2377","1471-2377","https://creativecommons.org/licenses/by/4.0",TRUE,"34488658","PMC8420011",NA,NA,TRUE
-"Bonn U",2021,1933.69,"10.1038/s41598-021-94775-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34344918","PMC8333250",NA,NA,TRUE
-"Bonn U",2021,1842.55,"10.1186/s13005-021-00287-x",FALSE,"Springer Nature","Head & Face Medicine","1746-160X",NA,"1746-160X","1746-160X","https://creativecommons.org/licenses/by/4.0",TRUE,"34479596","PMC8414668",NA,NA,TRUE
-"Bonn U",2021,1894.48,"10.1186/s12870-021-03087-2",FALSE,"Springer Nature","BMC Plant Biology","1471-2229",NA,"1471-2229","1471-2229","https://creativecommons.org/licenses/by/4.0",TRUE,"34225654","PMC8256493",NA,NA,TRUE
-"Bonn U",2021,1837,"10.1038/s41598-021-93952-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34257395","PMC8277825",NA,NA,TRUE
-"Bonn U",2021,1763.72,"10.1186/s12859-021-04340-z",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105","1471-2105","https://creativecommons.org/licenses/by/4.0",TRUE,"34530737","PMC8447543",NA,NA,TRUE
-"Bonn U",2021,1461.47,"10.1186/s41747-021-00233-1",FALSE,"Springer Nature","European Radiology Experimental","2509-9280",NA,"2509-9280","2509-9280","https://creativecommons.org/licenses/by/4.0",TRUE,"34368913","PMC8349945",NA,NA,TRUE
-"Bonn U",2021,1450.88,"10.1038/s41525-021-00220-w",FALSE,"Springer Nature","npj Genomic Medicine","2056-7944",NA,"2056-7944","2056-7944","https://creativecommons.org/licenses/by/4.0",TRUE,"34210994","PMC8249618",NA,NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-94386-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34294787","PMC8298422","ut:000682802200016",NA,TRUE
+"Bonn U",2021,1933.69,"10.1038/s41598-021-96169-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34404868","PMC8371126","ut:000686690900043",NA,TRUE
+"Bonn U",2021,1933.69,"10.1038/s41598-021-96285-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34413398","PMC8376893","ut:000686768700049",NA,TRUE
+"Bonn U",2021,1269.53,"10.1038/s41392-021-00693-2",FALSE,"Springer Nature","Signal Transduction and Targeted Therapy","2059-3635",NA,"2059-3635","2059-3635","https://creativecommons.org/licenses/by/4.0",TRUE,"34285185","PMC8292414","ut:000674914500001",NA,TRUE
+"Bonn U",2021,1894.48,"10.1186/s12883-021-02362-x",FALSE,"Springer Nature","BMC Neurology","1471-2377",NA,"1471-2377","1471-2377","https://creativecommons.org/licenses/by/4.0",TRUE,"34488658","PMC8420011","ut:000693242300002",NA,TRUE
+"Bonn U",2021,1933.69,"10.1038/s41598-021-94775-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34344918","PMC8333250","ut:000684194100009",NA,TRUE
+"Bonn U",2021,1842.55,"10.1186/s13005-021-00287-x",FALSE,"Springer Nature","Head & Face Medicine","1746-160X",NA,"1746-160X","1746-160X","https://creativecommons.org/licenses/by/4.0",TRUE,"34479596","PMC8414668","ut:000694214900002",NA,TRUE
+"Bonn U",2021,1894.48,"10.1186/s12870-021-03087-2",FALSE,"Springer Nature","BMC Plant Biology","1471-2229",NA,"1471-2229","1471-2229","https://creativecommons.org/licenses/by/4.0",TRUE,"34225654","PMC8256493","ut:000672470400001",NA,TRUE
+"Bonn U",2021,1837,"10.1038/s41598-021-93952-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"34257395","PMC8277825","ut:000675274800020",NA,TRUE
+"Bonn U",2021,1763.72,"10.1186/s12859-021-04340-z",FALSE,"Springer Nature","BMC Bioinformatics","1471-2105",NA,"1471-2105","1471-2105","https://creativecommons.org/licenses/by/4.0",TRUE,"34530737","PMC8447543","ut:000696540200001",NA,TRUE
+"Bonn U",2021,1461.47,"10.1186/s41747-021-00233-1",FALSE,"Springer Nature","European Radiology Experimental","2509-9280",NA,"2509-9280","2509-9280","https://creativecommons.org/licenses/by/4.0",TRUE,"34368913","PMC8349945","ut:000684562000001",NA,TRUE
+"Bonn U",2021,1450.88,"10.1038/s41525-021-00220-w",FALSE,"Springer Nature","npj Genomic Medicine","2056-7944",NA,"2056-7944","2056-7944","https://creativecommons.org/licenses/by/4.0",TRUE,"34210994","PMC8249618","ut:000671812500002",NA,TRUE
 "Bonn U",2021,1960.79,"10.1186/s13071-021-04893-1",FALSE,"Springer Nature","Parasites & Vectors","1756-3305",NA,"1756-3305","1756-3305","https://creativecommons.org/licenses/by/4.0",TRUE,"34380554","PMC8359580","ut:000684232400002",NA,TRUE
-"Bonn U",2021,1757.62,"10.3389/fmed.2021.793140",FALSE,"Frontiers Media SA","Frontiers in Medicine","2296-858X",NA,"2296-858X","2296-858X","https://creativecommons.org/licenses/by/4.0/",TRUE,"34977094","PMC8718671",NA,NA,TRUE
+"Bonn U",2021,1757.62,"10.3389/fmed.2021.793140",FALSE,"Frontiers Media SA","Frontiers in Medicine","2296-858X",NA,"2296-858X","2296-858X","https://creativecommons.org/licenses/by/4.0/",TRUE,"34977094","PMC8718671","ut:000738816500001",NA,TRUE
 "Bonn U",2021,1950.05,"10.3389/fmed.2021.800100",FALSE,"Frontiers Media SA","Frontiers in Medicine","2296-858X",NA,"2296-858X","2296-858X","https://creativecommons.org/licenses/by/4.0/",TRUE,"35083250","PMC8785417","ut:000757375000001",NA,TRUE
 "Bonn U",2021,1716.86,"10.3390/diagnostics12010058",FALSE,"MDPI AG","Diagnostics","2075-4418",NA,"2075-4418","2075-4418","https://creativecommons.org/licenses/by/4.0/",TRUE,"35054225","PMC8774481","ut:000746517800001",NA,TRUE
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","",""
+"Bonn U",2021,2013.76,"10.1186/s13023-020-01542-1",FALSE,"Springer Nature","Orphanet Journal of Rare Diseases","1750-1172",NA,"1750-1172","1750-1172","http://creativecommons.org/licenses/by/4.0/",TRUE,"33203450","PMC7672863","ut:000595257000002",NA,TRUE
+"Bonn U",2021,2384.96,"10.1186/s13229-020-00383-w",FALSE,"Springer Nature","Molecular Autism","2040-2392",NA,"2040-2392","2040-2392","http://creativecommons.org/licenses/by/4.0/",TRUE,"33308283","PMC7733257","ut:000599863200003",NA,TRUE
+"Bonn U",2021,2310.72,"10.1186/s40478-020-01001-9",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960","2051-5960","https://creativecommons.org/licenses/by/4.0",TRUE,"32887649","PMC7650280","ut:000568425000001",NA,TRUE
+"Bonn U",2021,2013.76,"10.1186/s12968-020-00661-9",FALSE,"Springer Nature","Journal of Cardiovascular Magnetic Resonance","1532-429X",NA,"1532-429X","1097-6647","https://creativecommons.org/licenses/by/4.0",TRUE,"32892751","PMC7487526","ut:000568433500001",NA,TRUE
+"Bonn U",2021,3364,"10.1038/s41467-020-18673-5",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"32973178","PMC7518282","ut:000573753900006",NA,TRUE
+"Bonn U",2021,3364,"10.1038/s41467-020-17701-8",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"32764578","PMC7413387","ut:000561120500006",NA,TRUE
+"Bonn U",2021,2013.76,"10.1186/s13023-020-01576-5",FALSE,"Springer Nature","Orphanet Journal of Rare Diseases","1750-1172",NA,"1750-1172","1750-1172","http://creativecommons.org/licenses/by/4.0/",TRUE,"33129321","PMC7603763","ut:000583228700001",NA,TRUE
+"Bonn U",2021,3364,"10.1038/s41467-020-19509-y",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"33203887","PMC7672059","ut:000594728700006",NA,TRUE
+"Bonn U",2021,2125.12,"10.1186/s13756-020-00835-1",FALSE,"Springer Nature","Antimicrobial Resistance and Infection Control","2047-2994",NA,"2047-2994","2047-2994","http://creativecommons.org/licenses/by/4.0/",TRUE,"33168085","PMC7652580","ut:000591863700002",NA,TRUE
+"Bonn U",2021,2032.32,"10.1002/acn3.51263",FALSE,"Wiley-Blackwell","Annals of Clinical and Translational Neurology","2328-9503","2328-9503","2328-9503","2328-9503","http://creativecommons.org/licenses/by/4.0/",TRUE,"33263942","PMC7818082","ut:000594865100001",NA,TRUE
+"Bonn U",2021,3572.8,"10.15252/emmm.202012724",FALSE,"EMBO","EMBO Molecular Medicine","1757-4676","1757-4676","1757-4684","1757-4676","http://creativecommons.org/licenses/by/4.0/",TRUE,"33332729","PMC7799361","ut:000599446300001",NA,TRUE
+"Bonn U",2021,2041.6,"10.1111/mcn.13123",FALSE,"Wiley-Blackwell","Maternal & Child Nutrition","1740-8695","1740-8695","1740-8709","1740-8695","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"34241954","PMC8269146","ut:000672049600010",NA,TRUE
+"Bonn U",2021,2041.6,"10.1002/epi4.12459",FALSE,"Wiley-Blackwell","Epilepsia Open","2470-9239","2470-9239","2470-9239","2470-9239","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"33681659","PMC7918306","ut:000648553600018",NA,TRUE
 "Bonn U",2021,3451,"10.1038/s41398-021-01283-0",FALSE,"Springer Nature","Translational Psychiatry","2158-3188",NA,"2158-3188","2158-3188","https://creativecommons.org/licenses/by/4.0",TRUE,"33723234","PMC7961142","ut:000629648400005",NA,TRUE
 "Bonn U",2021,3029.74,"10.1038/s42003-021-01654-9",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"33514883","PMC7846585","ut:000616759700004",NA,TRUE
 "Bonn U",2021,3381.49,"10.1038/s41534-020-00338-2",FALSE,"Springer Nature","npj Quantum Information","2056-6387",NA,"2056-6387","2056-6387","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000612933500002",NA,TRUE
