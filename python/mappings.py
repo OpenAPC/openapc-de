@@ -698,7 +698,8 @@ JOURNAL_MAPPINGS = {
     "Waste Management &amp; Research: The Journal for a Sustainable Circular Economy": "Waste Management & Research",
     "Journal of Nonprofit &amp; Public Sector Marketing": "Journal of Nonprofit & Public Sector Marketing",
     "IET Computers &amp; Digital Techniques": "IET Computers & Digital Techniques",
-    "Geriatric Orthopaedic Surgery &amp; Rehabilitation": "Geriatric Orthopaedic Surgery & Rehabilitation"
+    "Geriatric Orthopaedic Surgery &amp; Rehabilitation": "Geriatric Orthopaedic Surgery & Rehabilitation",
+    "Economics &amp; Sociology": "Economics & Sociology"
 }
 
 COLUMN_NAMES = {
