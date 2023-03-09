@@ -334,7 +334,8 @@ JOURNAL_OWNER_CHANGED = {
     "2295-8010": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"], # Tropicultura
     "0771-3312": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"], # Tropicultura (linking)
     "1863-2521": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"], # Journal of Children's Orthopaedics
-    "1863-2548": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"] # Journal of Children's Orthopaedics (electronic)
+    "1863-2548": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"], # Journal of Children's Orthopaedics (electronic)
+    "1686-4360": ["Informa UK Limited", "CAD Solutions, LLC"] # Computer-Aided Design and Applications
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -513,7 +514,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0908-8857", # Journal of Avian Biology, Gold OA since 2022
     "1368-9800", # Public Health Nutrition, Gold OA since 2022
     "0890-8575", # Natural Resource Modeling, Gold OA since 2021
-    "1286-4560" # Annals of Forest Science, Gold OA since 2022
+    "1286-4560", # Annals of Forest Science, Gold OA since 2022
+    "1686-4360" # Computer-Aided Design and Applications, Gold OA since 2019
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
