@@ -332,7 +332,9 @@ JOURNAL_OWNER_CHANGED = {
     "0022-0302": ["American Dairy Science Association", "Elsevier BV"], # Journal of Dairy Science
     "2279-9036": ["PAGEPress Publications", "SAGE Publications"], # Journal of Public Health Research
     "2295-8010": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"], # Tropicultura
-    "0771-3312": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"] # Tropicultura (linking)
+    "0771-3312": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"], # Tropicultura (linking)
+    "1863-2521": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"], # Journal of Children's Orthopaedics
+    "1863-2548": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"] # Journal of Children's Orthopaedics (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
