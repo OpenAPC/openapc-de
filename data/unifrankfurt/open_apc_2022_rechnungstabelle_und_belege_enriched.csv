@@ -1,5 +1,5 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"Frankfurt U",2021,1674,"10.5194/se-13-1243-2022",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","1869-9529","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000835747600001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2022,1832.6,"10.1016/j.ejro.2022.100405",FALSE,"Elsevier BV","European Journal of Radiology Open","2352-0477","2352-0477",NA,"2352-0477","http://creativecommons.org/licenses/by/4.0/",TRUE,"35242887","PMC8873550","ut:000777759900006",NA,TRUE
 "Frankfurt U",2022,864.83,"10.3389/feduc.2022.868729",FALSE,"Frontiers Media SA","Frontiers in Education","2504-284X",NA,"2504-284X","2504-284X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000835074400001",NA,TRUE
 "Frankfurt U",2022,1833.11,"10.1371/journal.pone.0264343",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"35213615","PMC8880753","ut:000787811000078",NA,TRUE
@@ -112,7 +112,7 @@
 "Frankfurt U",2022,1999.2,"10.1136/bmjopen-2021-059525",FALSE,"BMJ","BMJ Open","2044-6055","2044-6055","2044-6055","2044-6055","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"36123076","PMC9486184","ut:000860227200052",NA,TRUE
 "Frankfurt U",2022,2110.54,"10.3389/fped.2022.852185",FALSE,"Frontiers Media SA","Frontiers in Pediatrics","2296-2360",NA,"2296-2360","2296-2360","https://creativecommons.org/licenses/by/4.0/",TRUE,"35911825","PMC9333359","ut:000833957000001",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
-"Frankfurt U",2022,1770.72,"10.5194/se-13-1243-2022",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","1869-9529","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000835747600001",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2022,800,"10.3205/zma001571",FALSE,"German Medical Science","GMS Journal for Medical Education","2366-5017",NA,"2366-5017","2366-5017",NA,FALSE,"36540562","PMC9733482","ut:000915951400003",NA,TRUE
 "Frankfurt U",2022,1968.49,"10.3389/fonc.2022.1019057",FALSE,"Frontiers Media SA","Frontiers in Oncology","2234-943X",NA,"2234-943X","2234-943X","https://creativecommons.org/licenses/by/4.0/",TRUE,"36300101","PMC9589884","ut:000876168800001",NA,TRUE
 "Frankfurt U",2022,2032.52,"10.1371/journal.pone.0266478",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"35385564","PMC8986003","ut:000804836900084",NA,TRUE
