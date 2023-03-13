@@ -699,7 +699,8 @@ JOURNAL_MAPPINGS = {
     "Journal of Nonprofit &amp; Public Sector Marketing": "Journal of Nonprofit & Public Sector Marketing",
     "IET Computers &amp; Digital Techniques": "IET Computers & Digital Techniques",
     "Geriatric Orthopaedic Surgery &amp; Rehabilitation": "Geriatric Orthopaedic Surgery & Rehabilitation",
-    "Economics &amp; Sociology": "Economics & Sociology"
+    "Economics &amp; Sociology": "Economics & Sociology",
+    "Genes &amp; Nutrition": "Genes & Nutrition"
 }
 
 COLUMN_NAMES = {
