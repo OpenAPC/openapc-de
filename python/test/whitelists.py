@@ -515,7 +515,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1368-9800", # Public Health Nutrition, Gold OA since 2022
     "0890-8575", # Natural Resource Modeling, Gold OA since 2021
     "1286-4560", # Annals of Forest Science, Gold OA since 2022
-    "1686-4360" # Computer-Aided Design and Applications, Gold OA since 2019
+    "1686-4360", # Computer-Aided Design and Applications, Gold OA since 2019
+    "2768-6701", # Frontiers in Bioscience-Landmark, Gold OA since 2021
+    "2768-6698", # Frontiers in Bioscience-Landmark, Gold OA since 2021 (linking)
+    "0219-6352" # Journal of Integrative Neuroscience, Gold OA since 2018
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
