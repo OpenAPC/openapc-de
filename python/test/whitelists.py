@@ -33,7 +33,7 @@ PUBLISHER_IDENTITY = [
 # A whitelist for denoting changes in journal ownership.
 JOURNAL_OWNER_CHANGED = {
     "1744-8069": ["SAGE Publications", "Springer Science + Business Media"],
-    "1990-2573": ["European Optical Society", "Springer Nature"],
+    "1990-2573": ["EDP Sciences", "European Optical Society", "Springer Nature"], # Journal of the European Optical Society: Rapid Publications
     "1755-7682": ["Springer Science + Business Media", "International Medical Publisher (Fundacion de Neurociencias)"], # International Archives of Medicine
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
     "0024-4066": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society

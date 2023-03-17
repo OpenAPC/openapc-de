@@ -700,7 +700,9 @@ JOURNAL_MAPPINGS = {
     "IET Computers &amp; Digital Techniques": "IET Computers & Digital Techniques",
     "Geriatric Orthopaedic Surgery &amp; Rehabilitation": "Geriatric Orthopaedic Surgery & Rehabilitation",
     "Economics &amp; Sociology": "Economics & Sociology",
-    "Genes &amp; Nutrition": "Genes & Nutrition"
+    "Genes &amp; Nutrition": "Genes & Nutrition",
+    "Pedagogy, Culture &amp; Society": "Pedagogy, Culture & Society",
+    "Review of European, Comparative &amp; International Environmental Law": "Review of European, Comparative & International Environmental Law"
 }
 
 COLUMN_NAMES = {
