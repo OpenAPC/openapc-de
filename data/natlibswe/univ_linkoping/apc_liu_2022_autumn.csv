@@ -1,0 +1,72 @@
+institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn_print,issn_electronic,url
+liu,2022,1905.90,10.1126/sciadv.abn4117,TRUE,American Association for the Advancement of Science (AAAS),Science Advances,,,,https://www.science.org/doi/10.1126/sciadv.abn4117
+liu,2022,2337.07,10.2514/1.I011153,TRUE,American Institute of Aeronautics and Astronautics,Journal of Aerospace Information Systems,,,,https://arc.aiaa.org/doi/10.2514/1.I011153
+liu,2022,2961.33,10.1128/mbio.01387-22,FALSE,American Society for Microbiology,mBio,,,,https://journals.asm.org/doi/10.1128/mbio.01387-22
+liu,2022,  18.44,10.1044/2022_JSLHR-21-00675,TRUE,ASHA,"Journal of Speech, Language, and Hearing Research",,,,https://pubs.asha.org/doi/10.1044/2022_JSLHR-21-00675
+liu,2022,1781.69,10.1044/2022_JSLHR-21-00674,TRUE,ASHA,"Journal of Speech, Language, and Hearing Research",,,,https://pubs.asha.org/doi/10.1044/2022_JSLHR-21-00674
+liu,2022,2181.14,10.1186/s12891-022-05642-w,FALSE,BMC,BMC Musculoskeletal Disorders,,,,https://link.springer.com/article/10.1186/s12891-022-05642-w
+liu,2022,2428.91,10.1515/nanoph-2022-0400,FALSE,De Gruyter,Nanophotonics,,,,https://www.degruyter.com/document/doi/10.1515/nanoph-2022-0400/html
+liu,2022,3325.87,10.1016/j.invent.2022.100583,FALSE,Elsevier,Internet Interventions,,,,https://www.sciencedirect.com/science/article/pii/S2214782922000902?via%3Dihub
+liu,2022, 689.56,10.3389/fnimg.2022.958680,FALSE,Frontiers,Frontiers in Neuroimaging-Brain Imaging Methods,,,,https://www.frontiersin.org/articles/10.3389/fnimg.2022.958680/full
+liu,2022, 842.48,10.3389/feduc.2022.933087,FALSE,Frontiers,Frontiers in Education-STEM Education,,,,https://www.frontiersin.org/articles/10.3389/feduc.2022.933087/full
+liu,2022,1295.00,10.3389/fnhum.2022.767276,FALSE,Frontiers,Frontiers in Human Neuroscience,,,,https://www.frontiersin.org/articles/10.3389/fnhum.2022.767276/full
+liu,2022,1355.60,10.3389/fimmu.2022.949787,FALSE,Frontiers,Frontiers in Immunology-Viral Immunology,,,,https://www.frontiersin.org/articles/10.3389/fimmu.2022.949787/full
+liu,2022,1656.35,10.3389/fbinf.2022.959160,FALSE,Frontiers,Frontiers in Bioinformatics-Protein Bioinfomiatics,,,,https://www.frontiersin.org/articles/10.3389/fbinf.2022.959160/full
+liu,2022,1768.89,10.3389/frhs.2022.951879,FALSE,Frontiers,Frontiers in Health Services-Implementation Science,,,,https://www.frontiersin.org/articles/10.3389/frhs.2022.951879/full
+liu,2022,2008.66,10.3389/frhs.2022.958659,FALSE,Frontiers,Frontiers in Health Services-Implementation Science,,,,https://www.frontiersin.org/articles/10.3389/frhs.2022.958659/full
+liu,2022,2180.39,10.3389/fcvm.2022.960403,FALSE,Frontiers,Frontiers in Cardiovascular Medicine-Cardiovascular Imaging,,,,https://www.frontiersin.org/articles/10.3389/fcvm.2022.960403/full
+liu,2022,2183.59,10.3389/fevo.2022.983982,FALSE,Frontiers,Frontiers in Ecology and Evolution,,,,https://www.frontiersin.org/articles/10.3389/fevo.2022.983982/abstract
+liu,2022,2208.15,10.3389/fcvm.2022.813427,FALSE,Frontiers,Frontiers in Cardiovascular Medicine-Cardiovascular Imaging,,,,https://www.frontiersin.org/articles/10.3389/fcvm.2022.813427/full
+liu,2022,2324.83,10.3389/fpls.2022.916120,FALSE,Frontiers,Frontiers in Plant Science,,,,https://www.frontiersin.org/articles/10.3389/fpls.2022.916120/full
+liu,2022,2571.66,10.3389/fnins.2022.972730,FALSE,Frontiers,Frontiers in Neuroscience-Auditory Cognitive Neuroscience,,,,https://www.frontiersin.org/articles/10.3389/fnins.2022.972730/full
+liu,2022,2571.66,10.3389/fpsyg.2022.967260,FALSE,Frontiers,Frontiers in Psychology-Auditory Cognitive Neuroscience,,,,https://www.frontiersin.org/articles/10.3389/fpsyg.2022.967260/full
+liu,2022,2571.66,10.3389/fmolb.2022.916128,FALSE,Frontiers,Frontiers in Molecular Biosciences-Metabolomics,,,,https://www.frontiersin.org/articles/10.3389/fmolb.2022.916128/full
+liu,2022,2583.23,10.3389/fimmu.2022.790276,FALSE,Frontiers,Frontiers in Immunology-Viral Immunology,,,,https://www.frontiersin.org/articles/10.3389/fimmu.2022.790276/full
+liu,2022,2583.23,10.3389/fimmu.2022.931039,FALSE,Frontiers,Frontiers in Immunology-Viral Immunology,,,,https://www.frontiersin.org/articles/10.3389/fimmu.2022.931039/full
+liu,2022,2609.39,10.3389/fpsyg.2022.801150/,FALSE,Frontiers,Frontiers in Psychology,,,,https://www.frontiersin.org/articles/10.3389/fpsyg.2022.801150/full
+liu,2022,2755.34,10.3389/fimmu.2022.930947,FALSE,Frontiers,Frontiers in Immunology-Immunological Tolerance and Regulation,,,,https://www.frontiersin.org/articles/10.3389/fimmu.2022.930947/full
+liu,2022,2893.20,10.3389/fpubh.2022.1018399,FALSE,Frontiers,"Frontiers in Public Health-Infectious Diseases - Surveillance, Prevention and Treatmen",,,,https://www.frontiersin.org/articles/10.3389/fpubh.2022.1018399/full
+liu,2022,2963.96,10.3389/fnins.2022.1030805,FALSE,Frontiers,Frontiers in Neuroscience-Neural Technology,,,,https://www.frontiersin.org/articles/10.3389/fnins.2022.1030805/full
+liu,2022,2963.96,10.3389/fmed.2022.1019230,FALSE,Frontiers,"Frontiers in Medicine-Infectious Diseases - Surveillance, Prevention and Treatment",,,,https://www.frontiersin.org/articles/10.3389/fmed.2022.1019230/full
+liu,2022,2981.75,10.3389/fpsyg.2022.815383,FALSE,Frontiers,Frontiers in Psychology,,,,https://www.frontiersin.org/articles/10.3389/fpsyg.2022.815383/full
+liu,2022,3130.90,10.3389/fmed.2022.1081814,FALSE,Frontiers,Frontiers in Medicine-Rheumatology,,,,https://www.frontiersin.org/articles/10.3389/fmed.2022.1081814/full
+liu,2022,3161.29,10.3389/fnbeh.2022.1046097,FALSE,Frontiers,Frontiers in Behavioral Neuroscience-Individual and Social Behaviors,,,,https://www.frontiersin.org/articles/10.3389/fnbeh.2022.1046097/full
+liu,2022,3161.29,10.3389/fimmu.2022.1082912,FALSE,Frontiers,Frontiers in Immunology-Viral Immunology,,,,https://www.frontiersin.org/articles/10.3389/fimmu.2022.1082912/full
+liu,2022,3302.82,10.3389/fnana.2022.1048261,FALSE,Frontiers,Frontiers in Neuroanatomy,,,,https://www.frontiersin.org/articles/10.3389/fnana.2022.1048261/full
+liu,2022, 852.83,10.1109/OJCOMS.2022.3188579,FALSE,IEEE,IEEE Open Journal of the Communications Society,,,,https://ieeexplore.ieee.org/abstract/document/9826791
+liu,2022,1899.41,10.1109/ACCESS.2022.3202181,FALSE,IEEE,IEEE Access,,,,https://ieeexplore.ieee.org/abstract/document/9868776
+liu,2022,1757.79,10.1075/jlp.22030.fri,TRUE,John Benjamins Publishing Company,Journal of Languages and Politics,,,,https://www.jbe-platform.com/content/journals/10.1075/jlp.22030.fri
+liu,2022,2933.00,10.1353/tae.2021.0024.,TRUE,Johns Hopkins,Theory & Event,,,,https://muse.jhu.edu/pub/1/article/788243
+liu,2022,3848.78,10.26508/lsa.202201530,FALSE,Life Science Alliance,Life Science Alliance,,,,https://www.life-science-alliance.org/content/5/11/e202201530
+liu,2022,1723.54,10.1097/PR9.0000000000001042,FALSE,Lippincott Williams & Wilkins,Pain Reports,,,,https://journals.lww.com/painrpts/Fulltext/2022/12000/Fibromyalgia_in_women__association_of_inflammatory.3.aspx
+liu,2022,2209.66,10.1097/PR9.0000000000001036,FALSE,Lippincott Williams & Wilkins,Pain Reports,,,,https://journals.lww.com/painrpts/Fulltext/2022/10000/Differences_in_plasma_lipoprotein_profiles_between.16.aspx
+liu,2022,3331.52,10.1097/HP.0000000000001564,TRUE,Lippincott Williams & Wilkins,Health Physics,,,,https://journals.lww.com/health-physics/Fulltext/2022/07000/Particle_Size_dependent_Dissolution_of_Uranium.2.aspx
+liu,2022,3298.02,10.1097/ADM.0000000000001091,TRUE,Lippincott Williams & Wilkins,Journal of addiction medicine,,,,https://journals.lww.com/journaladdictionmedicine/Fulltext/9900/Assessing_Childhood_Maltreatment_Exposure_in.110.aspx
+liu,2022,3623.13,10.1089/ars.2022.0049,TRUE,Mary Ann Liebert,Antioxidants and redox signaling,,,,https://www.liebertpub.com/doi/10.1089/ars.2022.0049?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+liu,2022, 804.46,10.3390/electronics11182901,FALSE,MDPI,Electronics,,,,https://www.mdpi.com/2079-9292/11/18/2901
+liu,2022, 958.78,10.3390/v14071350,FALSE,MDPI,Viruses,,,,https://www.mdpi.com/1999-4915/14/7/1350/review_report
+liu,2022,1036.04,10.3390/cryst12121790,FALSE,MDPI,Crystals,,,,https://www.mdpi.com/2073-4352/12/12/1790
+liu,2022,1451.68,10.3390/aerospace9100598,FALSE,MDPI,Aerospace,,,,https://www.mdpi.com/2226-4310/9/10/598
+liu,2022,1488.57,10.3390/cli10110174,FALSE,MDPI,Climate,,,,https://www.mdpi.com/2225-1154/10/11/174
+liu,2022,1637.62,10.3390/cancers14123028,FALSE,MDPI,Cancers,,,,https://www.mdpi.com/2072-6694/14/12/3028
+liu,2022,1749.51,10.3390/su141912290,FALSE,MDPI,Sustainability,,,,https://www.mdpi.com/2071-1050/14/19/12290
+liu,2022,1801.73,10.3390/su141811244,FALSE,MDPI,Sustainability,,,,https://www.mdpi.com/2071-1050/14/18/11244
+liu,2022,1878.14,10.3390/en15155574,FALSE,MDPI,Energies,,,,https://www.mdpi.com/1996-1073/15/15/5574
+liu,2022,1902.04,10.3390/v14081708,FALSE,MDPI,Viruses,,,,https://www.mdpi.com/1999-4915/14/8/1708
+liu,2022,2151.60,10.3390/ijms232315257,FALSE,MDPI,International Journal of Molecular Science,,,,https://www.mdpi.com/1422-0067/23/23/15257
+liu,2022,2201.66,10.3390/cancers14194844,FALSE,MDPI,Cancers,,,,https://www.mdpi.com/2072-6694/14/19/4844
+liu,2022,2223.11,10.3390/ijerph192114022,FALSE,MDPI,International Journal of Environmental Research and Public Health,,,,https://www.mdpi.com/1660-4601/19/21/14022
+liu,2022,2249.65,10.3390/cancers14246166,FALSE,MDPI,Cancers,,,,https://www.mdpi.com/2072-6694/14/24/6166
+liu,2022,1728.62,10.3390/ma15248925,FALSE,MDPI,Materials,,,,https://www.mdpi.com/1996-1944/15/24/8925
+liu,2022,1928.39,10.3390/pr10112254 ,FALSE,MDPI,Processes,,,,https://www.mdpi.com/2227-9717/10/11/2254
+liu,2022,2378.38,10.1073/pnas.2122562119,TRUE,National Academy of Science,Proceedings of the National Academy of Sciences,,,,https://www.pnas.org/doi/10.1073/pnas.2122562119
+liu,2022, 196.48,10.23865/barn.v40.5070,FALSE,Norsk Senter for Barneforskning,Barn,,,,https://tidsskriftetbarn.no/index.php/barn/article/view/5070/7897
+liu,2022, 196.48,10.23865/barn.v40.5074,FALSE,Norsk Senter for Barneforskning,Barn,,,,https://tidsskriftetbarn.no/index.php/barn/article/view/5074
+liu,2022, 196.57,10.23865/barn.v40.5069,FALSE,Norsk Senter for Barneforskning,Barn,,,,https://tidsskriftetbarn.no/index.php/barn/article/view/5069
+liu,2022, 196.57,10.23865/barn.v40.5075,FALSE,Norsk Senter for Barneforskning,Barn,,,,https://tidsskriftetbarn.no/index.php/barn/article/view/5075
+liu,2022,1826.01,10.1364/OME.462668,FALSE,Optica,Optical Materials Express,,,,https://opg.optica.org/ome/fulltext.cfm?uri=ome-12-8-3284&id=486912
+liu,2022, 159.41,10.1039/D2NA00278G,FALSE,Royal Society of Chemistry,Nanoscale Advances,,,,https://pubs.rsc.org/en/content/articlelanding/2022/na/d2na00278g
+liu,2022,1561.50,10.1039/D2NA00373B,FALSE,Royal Society of Chemistry,Nanoscale Advances,,,,https://pubs.rsc.org/en/content/articlehtml/2022/na/d2na00373b
+liu,2022, 213.80,10.1177/23780231221135523,FALSE,SAGE,Socius,,,,https://journals.sagepub.com/doi/full/10.1177/23780231221135523
+liu,2022,3457.05,10.1002/admi.202101973,TRUE,Wiley,Advanced Materials Interfaces,,,,https://onlinelibrary.wiley.com/doi/10.1002/admi.202101973
+liu,2022,2854.43,10.1097/HC9.0000000000000003,FALSE,Lippincott Williams & Wilkins,Hepatology Communications,,,,https://journals.lww.com/hepcomm/fulltext/2023/01010/moderate_alcohol_consumption_is_associated_with.12.aspx
