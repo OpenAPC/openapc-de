@@ -58,8 +58,8 @@ JOURNAL_OWNER_CHANGED = {
     "0009-9236": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics
     "1532-6535": ["Nature Publishing Group", "Wiley-Blackwell"], # Clinical Pharmacology & Therapeutics (electronic)
     "1940-0829": ["Mongabay", "SAGE Publications"], # Tropical Conservation Science, acquired by SAGE in 08/2016
-    "1600-0870": ["Co-Action Publishing", "Informa UK Limited"], # Tellus A
-    "0280-6495": ["Co-Action Publishing", "Informa UK Limited"], # Tellus A (linking)
+    "1600-0870": ["Co-Action Publishing", "Informa UK Limited", "Stockholm University Press"], # Tellus A
+    "0280-6495": ["Co-Action Publishing", "Informa UK Limited", "Stockholm University Press"], # Tellus A (linking)
     "0963-6897": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation
     "1555-3892": ["Cognizant Electronic Publishing", "SAGE Publications"], # Cell Transplantation (electronic)
     "0021-4922": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics
@@ -335,7 +335,9 @@ JOURNAL_OWNER_CHANGED = {
     "0771-3312": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"], # Tropicultura (linking)
     "1863-2521": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"], # Journal of Children's Orthopaedics
     "1863-2548": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"], # Journal of Children's Orthopaedics (electronic)
-    "1686-4360": ["Informa UK Limited", "CAD Solutions, LLC"] # Computer-Aided Design and Applications
+    "1686-4360": ["Informa UK Limited", "CAD Solutions, LLC"], # Computer-Aided Design and Applications
+    "2535-5449": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden
+    "0800-1669": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"] # BARN - Forskning om barn og barndom i Norden (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
