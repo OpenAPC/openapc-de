@@ -1,5 +1,5 @@
 Open Access Publikationsfonds der Technischen Universität Dortmund
 
-<http://www.ub.tu-dortmund.de/open-access/index.html>
+<https://ub.tu-dortmund.de/forschen-publizieren/open-access/>
 
 Contact: Dr. Kathrin Höhner <mailto:open-access@ub.tu-dortmund.de>
