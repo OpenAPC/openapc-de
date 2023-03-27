@@ -176,7 +176,7 @@ Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,cou
 Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble,https://ror.org/02rx3b187,NA,NA,NA,NA
 Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt,https://ror.org/033p9g875,NA,NA,NA,NA
 Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers,https://ror.org/04xhy8q59,NA,NA,NA,NA
-University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,NA,https://ror.org/01fdxwh83,NA,NA,NA,NA
+University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,natlibswe/univ_boras,https://ror.org/01fdxwh83,NA,NA,NA,NA
 University West,west_u,University West,EUROPE,SWE,SE-O,natlibswe/univ_vast,https://ror.org/0257kt353,NA,NA,NA,NA
 Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,natlibswe/univ_linne,https://ror.org/00j9qag85,NA,NA,NA,NA
 Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T,natlibswe/univ_orebro,https://ror.org/05kytsw45,NA,NA,NA,NA
@@ -245,7 +245,7 @@ GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,ge
 University of Jyväskylä,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,unijyväskylä,https://ror.org/05n3dz165,NA,NA,https://openscience.jyu.fi/en/open-access-publishing,NA
 Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea,https://ror.org/00jjx8s55,NA,NA,NA,NA
 Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg,https://ror.org/05gs8cd61,NA,NA,https://www.plus.ac.at/university-library/services/open-access/open-access-policy/?lang=en,NA
-Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,NA,https://ror.org/046hach49,NA,NA,NA,NA
+Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,natlibswe/swe_school_sports_health_sciences,https://ror.org/046hach49,NA,NA,NA,NA
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,natlibswe/univ_skovde,https://ror.org/051mrsz47,NA,NA,NA,NA
 Karlstad University,karlstad_u,Karlstad University,EUROPE,SWE,SE-S,natlibswe/univ_karlstad,https://ror.org/05s754026,NA,NA,NA,NA
 Mannheim U,mannheim_u,University of Mannheim,EUROPE,DEU,BW,unimannheim,https://ror.org/031bsb921,HEI,NA,https://www.bib.uni-mannheim.de/en/open-access-publishing-fund/,NA

@@ -702,7 +702,8 @@ JOURNAL_MAPPINGS = {
     "Economics &amp; Sociology": "Economics & Sociology",
     "Genes &amp; Nutrition": "Genes & Nutrition",
     "Pedagogy, Culture &amp; Society": "Pedagogy, Culture & Society",
-    "Review of European, Comparative &amp; International Environmental Law": "Review of European, Comparative & International Environmental Law"
+    "Review of European, Comparative &amp; International Environmental Law": "Review of European, Comparative & International Environmental Law",
+    "Journal of Religion, Spirituality &amp; Aging": "Journal of Religion, Spirituality & Aging"
 }
 
 COLUMN_NAMES = {
