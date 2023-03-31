@@ -12,6 +12,8 @@ For 2020 the University Library is unaware of opt-out articles, 26 articles were
 
 For 2021 the University Library is unaware of opt-out articles, 25 articles were published open access in 2021 as part of this agreement. TU Berlin paid 70.628,61 EUR (incl. VAT) in total, hence the "equivalent APC" amounts to 2.825,14 EUR.
 
+For 2022 the University Library is unaware of opt-out articles (1 article was transitioned to OA after first publication). 14 articles were published open access in 2022 as part of this agreement. TU Berlin paid 80.061,82 EUR (incl. VAT) in total, hence the "equivalent APC" amounts to 5.718,70 EUR.
+
 
 ### Contact
 
