@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 66,837 articles, published at 327 institutions under 54 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 66,851 articles, published at 327 institutions under 54 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -53,9 +53,9 @@ This dataset contains information on 66,837 articles, published at 327 instituti
 |Swiss Consortium CUP agreement                   |      132|
 |FinELib Emerald agreement                        |      118|
 |QNL Springer Nature Agreement                    |      103|
+|TIB RSC Journals R&P - TU Berlin                 |       95|
 |QNL Wiley Agreement                              |       92|
 |QNL T&F Agreement                                |       85|
-|TIB RSC Journals R&P - TU Berlin                 |       81|
 |Swiss Consortium Karger agreement                |       62|
 |FinELib RSC agreement                            |       60|
 |MPG Taylor & Francis agreement                   |       46|
@@ -108,9 +108,9 @@ This dataset contains information on 66,837 articles, published at 327 instituti
 |King's College London                                                                                                                              |      652|
 |Aalto University                                                                                                                                   |      619|
 |Medical University of Vienna                                                                                                                       |      591|
+|TU Berlin                                                                                                                                          |      591|
 |KTH Royal Institute of Technology                                                                                                                  |      590|
 |University of Manchester                                                                                                                           |      585|
-|TU Berlin                                                                                                                                          |      577|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |      567|
 |Stockholm University                                                                                                                               |      559|
 |University of Turku                                                                                                                                |      552|
