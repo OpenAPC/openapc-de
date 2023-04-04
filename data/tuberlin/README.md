@@ -10,7 +10,10 @@ Before 2017 TU Berlin  TU Berlin has already concluded a prepay membership with 
 
 2020 report: The data reported for the funding period 2020 include both APCs paid by the TU Berlin DFG fund and by other open access funds of TU Berlin. APCs resulting from BMC prepay membership (until July 2020), Wiley-DEAL (gold OA journals) and Springer-DEAL (gold OA journals) are included.
 
-2021 report: The data reported for the funding period 2021 include both APCs paid by the TU Berlin DFG fund and by other open access funds of TU Berlin. APCs resulting from Wiley-DEAL (gold OA journals) and Springer-DEAL (gold OA journals) are included. Data for the DFG-supported fund are still incomplete due to outstanding billing issues (as of May 2022).
+2021 report: The data reported for the funding period 2021 include both APCs paid by the TU Berlin DFG fund and by other open access funds of TU Berlin. APCs resulting from Wiley-DEAL (gold OA journals) and Springer-DEAL (gold OA journals) are included.
+
+2022 report: The data reported for the funding period 2022 include both APCs paid by the TU Berlin DFG fund and by other open access funds of TU Berlin (Gold OA). APCs resulting from Wiley-DEAL (gold OA journals) and Springer-DEAL (gold OA journals) are included.
+
 
 ### Springer Nature DEAL
 
