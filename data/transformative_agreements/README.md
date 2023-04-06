@@ -288,7 +288,7 @@ This dataset contains information on 67,017 articles, published at 328 instituti
 |Kingston University                                                                                                                                |       34|
 |University of Borås                                                                                                                                |       34|
 |University of Central Lancashire                                                                                                                   |       32|
-|Lib4RI - Library for the Research Institutes within the ETH Domain: Eawag, Empa, PSI & WSL                                                         |       31|
+|Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL                                                          |       31|
 |University of West of Scotland                                                                                                                     |       31|
 |University of Skövde                                                                                                                               |       30|
 |Goldsmiths                                                                                                                                         |       29|
