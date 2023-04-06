@@ -337,7 +337,12 @@ JOURNAL_OWNER_CHANGED = {
     "1863-2548": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"], # Journal of Children's Orthopaedics (electronic)
     "1686-4360": ["Informa UK Limited", "CAD Solutions, LLC"], # Computer-Aided Design and Applications
     "2535-5449": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden
-    "0800-1669": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"] # BARN - Forskning om barn og barndom i Norden (linking)
+    "0800-1669": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden (linking)
+    "1651-2081": ["Acta Dermato-Venereologica", "Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine
+    "1650-1977": ["Acta Dermato-Venereologica", "Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine (linking)
+    "1083-7159": [ "Wiley-Blackwell", "Oxford University Press (OUP)"], # The Oncologist
+    "1549-490X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Oncologist (electronic)
+    "1178-2234": ["Libertas Academica, Ltd.", "SAGE Publications"] # Breast Cancer: Basic and Clinical Research
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -520,7 +525,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1686-4360", # Computer-Aided Design and Applications, Gold OA since 2019
     "2768-6701", # Frontiers in Bioscience-Landmark, Gold OA since 2021
     "2768-6698", # Frontiers in Bioscience-Landmark, Gold OA since 2021 (linking)
-    "0219-6352" # Journal of Integrative Neuroscience, Gold OA since 2018
+    "0219-6352", # Journal of Integrative Neuroscience, Gold OA since 2018
+    "1083-7159", # The Oncologist, Gold OA since 2022
+    "1549-490X", # The Oncologist, Gold OA since 2022 (electronic)
+    "1457-4969", # Scandinavian Journal of Surgery
+    "1799-7267" # Scandinavian Journal of Surgery (electronic)
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
