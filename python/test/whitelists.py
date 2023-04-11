@@ -342,7 +342,11 @@ JOURNAL_OWNER_CHANGED = {
     "1650-1977": ["Acta Dermato-Venereologica", "Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine (linking)
     "1083-7159": [ "Wiley-Blackwell", "Oxford University Press (OUP)"], # The Oncologist
     "1549-490X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Oncologist (electronic)
-    "1178-2234": ["Libertas Academica, Ltd.", "SAGE Publications"] # Breast Cancer: Basic and Clinical Research
+    "1178-2234": ["Libertas Academica, Ltd.", "SAGE Publications"], # Breast Cancer: Basic and Clinical Research
+    "2048-8726": ["SAGE Publications", "Oxford University Press (OUP)"], # European Heart Journal. Acute Cardiovascular Care
+    "2048-8734": ["SAGE Publications", "Oxford University Press (OUP)"], # European Heart Journal: Acute Cardiovascular Care (electronic)
+    "0070-3370": ["Springer Nature", "Duke University Press"], # Demography
+    "1533-7790": ["Springer Nature", "Duke University Press"] # Demography (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -529,7 +533,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1083-7159", # The Oncologist, Gold OA since 2022
     "1549-490X", # The Oncologist, Gold OA since 2022 (electronic)
     "1457-4969", # Scandinavian Journal of Surgery
-    "1799-7267" # Scandinavian Journal of Surgery (electronic)
+    "1799-7267", # Scandinavian Journal of Surgery (electronic)
+    "2328-8604", # Health Systems & Reform, Gold OA since 2020
+    "2328-8620", # Health Systems & Reform, Gold OA since 2020 (electronic)
+    "0070-3370", # Demography, Gold OA since 2021
+    "1533-7790" # Demography, Gold OA since 2021 (electronic)
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
