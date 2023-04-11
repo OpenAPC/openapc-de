@@ -704,7 +704,10 @@ JOURNAL_MAPPINGS = {
     "Pedagogy, Culture &amp; Society": "Pedagogy, Culture & Society",
     "Review of European, Comparative &amp; International Environmental Law": "Review of European, Comparative & International Environmental Law",
     "Journal of Religion, Spirituality &amp; Aging": "Journal of Religion, Spirituality & Aging",
-    "Bioinspiration &amp; Biomimetics": "Bioinspiration & Biomimetics"
+    "Bioinspiration &amp; Biomimetics": "Bioinspiration & Biomimetics",
+    "Health Systems &amp; Reform": "Health Systems & Reform",
+    "Ophthalmic Plastic &amp; Reconstructive Surgery": "Ophthalmic Plastic and Reconstructive Surgery",
+    "Current Opinion in Supportive &amp; Palliative Care": "Current Opinion in Supportive and Palliative Care"
 }
 
 COLUMN_NAMES = {
