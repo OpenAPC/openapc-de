@@ -707,7 +707,8 @@ JOURNAL_MAPPINGS = {
     "Bioinspiration &amp; Biomimetics": "Bioinspiration & Biomimetics",
     "Health Systems &amp; Reform": "Health Systems & Reform",
     "Ophthalmic Plastic &amp; Reconstructive Surgery": "Ophthalmic Plastic and Reconstructive Surgery",
-    "Current Opinion in Supportive &amp; Palliative Care": "Current Opinion in Supportive and Palliative Care"
+    "Current Opinion in Supportive &amp; Palliative Care": "Current Opinion in Supportive and Palliative Care",
+    "Annals of Medicine &amp; Surgery": "Annals of Medicine & Surgery"
 }
 
 COLUMN_NAMES = {
