@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 67,017 articles, published at 328 institutions under 55 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 67,034 articles, published at 329 institutions under 55 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -22,8 +22,8 @@ This dataset contains information on 67,017 articles, published at 328 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     5037|
-|DEAL Wiley Germany                               |     4867|
+|DEAL Springer Nature Germany                     |     5047|
+|DEAL Wiley Germany                               |     4874|
 |Swiss Consortium Elsevier agreement              |     4836|
 |French EDP Sciences agreement                    |     3330|
 |Swiss Consortium Springer Compact agreement      |     2175|
@@ -316,6 +316,7 @@ This dataset contains information on 67,017 articles, published at 328 instituti
 |Swedish Defence Research Agency                                                                                                                    |       18|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       18|
 |University of Bedfordshire                                                                                                                         |       18|
+|Aachen FH                                                                                                                                          |       17|
 |Edinburgh Napier University                                                                                                                        |       17|
 |Bielefeld FH                                                                                                                                       |       16|
 |Geological Survey of Finland                                                                                                                       |       16|
