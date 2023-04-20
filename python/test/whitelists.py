@@ -540,6 +540,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1533-7790" # Demography, Gold OA since 2021 (electronic)
 ]
 
+# A whitelist to identify titles which belong to more than one journal. The list
+# contains the involved linking ISSNs which are excluded from tests.
+AMBIGUOUS_JOURNAL_TITLES = {
+    "Journal of Public Health": ["1741-3842", "0943-1853"]  # OUP / Springer 
+}
+
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
 # multivolumed books where each volume has the same ISBN but is listed separately.
 NON_DUPLICATE_ISBNS = [
@@ -554,6 +560,12 @@ def publisher_identity(first_publisher, second_publisher):
         if first_publisher in entry[0] and second_publisher in entry[1]:
             return True
         if first_publisher in entry[1] and second_publisher in entry[0]:
+            return True
+    return False
+
+def is_ambiguous_title(title, issn_l, other_issn_l):
+    if title in AMBIGUOUS_JOURNAL_TITLES:
+        if issn_l in AMBIGUOUS_JOURNAL_TITLES[title] and other_issn_l in AMBIGUOUS_JOURNAL_TITLES[title]:
             return True
     return False
 
