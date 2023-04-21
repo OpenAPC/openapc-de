@@ -289,7 +289,8 @@ JOURNAL_OWNER_CHANGED = {
     "2045-7022": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Allergy
     "1755-4535": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics
     "1755-4543": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics (electronic)
-    "2197-1927": ["Springer Nature", "Brill"], # Triple Helix 
+    "2590-0366": ["Springer Nature", "Brill"], # Triple Helix 
+    "2197-1927": ["Springer Nature", "Brill"], # Triple Helix (electronic)
     "1718-7729": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (electronic)
     "1198-0052": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (linking)
     "0894-0282": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions
@@ -346,7 +347,9 @@ JOURNAL_OWNER_CHANGED = {
     "2048-8726": ["SAGE Publications", "Oxford University Press (OUP)"], # European Heart Journal. Acute Cardiovascular Care
     "2048-8734": ["SAGE Publications", "Oxford University Press (OUP)"], # European Heart Journal: Acute Cardiovascular Care (electronic)
     "0070-3370": ["Springer Nature", "Duke University Press"], # Demography
-    "1533-7790": ["Springer Nature", "Duke University Press"] # Demography (electronic)
+    "1533-7790": ["Springer Nature", "Duke University Press"], # Demography (electronic)
+    "0236-8722": ["Walter de Gruyter GmbH", "Institute of Agrophysics Polish Academy of Sciences"], # International Agrophysics
+    "2300-8725": ["Walter de Gruyter GmbH", "Institute of Agrophysics Polish Academy of Sciences"] # International Agrophysics (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
