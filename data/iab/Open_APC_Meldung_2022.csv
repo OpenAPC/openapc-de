@@ -1,34 +1,34 @@
-"DOI","Hybrid","APC","Verlag"
-"10.1177/23780231221117910","nein"," €732.09 ","SAGE"
-"10.1186/s40878-022-00289-x","nein"," €945.91 ","Springer"
-"10.1177/23780231221136487","nein"," €1,016.30 ","SAGE"
-"10.17645/si.v10i2.5104","nein"," €1,071.00 ","Cogitatio Press"
-"10.17645/si.v10i2.5103","nein"," €1,071.00 ","Cogitatio Press"
-"10.3389/frai.2022.868789","nein"," €1,238.12 ","Frontiers Media SA"
-"10.1016/j.jpolmod.2022.05.006","ja"," €1,249.50 ","Elsevier"
-"10.3233/WOR-205046","ja"," €1,487.50 ","IOS Press"
-"10.3790/sfo.2022.00.0000.Berhard_Roehrer_Senghaas","ja"," €1,605.00 ","Duncker & Humblot"
-"10.1016/j.jeconom.2022.03.004","ja"," €1,999.20 ","Elsevier"
-"10.1016/j.euroecorev.2022.104332","ja"," €2,034.90 ","Elsevier"
-"10.1016/j.ssmph.2022.101054","nein"," €2,046.80 ","Elsevier"
-"10.1332/175795921X16643819920960","ja"," €2,080.91 ","Bristol University Press"
-"10.1186/s12889-021-12370-8","nein"," €2,138.14 ","Springer Nature"
-"10.1515/zsr-2022-0005","ja"," €2,380.00 ","De Gruyter"
-"10.3368/jhr.0720-11051R1","ja"," €2,410.01 ","University of Wisconsin Press"
-"10.3368/jhr.0920-11159R1","ja"," €2,481.04 ","University of Wisconsin Press"
-"10.1080/00036846.2022.2108751","ja"," €2,677.50 ","Taylor & Francis"
-"10.1016/j.ssresearch.2022.102839","ja"," €2,701.30 ","Elsevier"
-"10.1086/720391","ja"," €2,828.75 ","University of Chicago Press"
-"10.3390/ijerph19127409","nein"," €2,863.56 ","MDPI"
-"10.1016/j.socscimed.2022.115304","ja"," €3,213.00 ","Elsevier"
-"10.1080/14616696.2022.2096915","ja"," €3,248.70 ","Taylor & Francis"
-"10.1093/jssam/smac002","ja"," €3,346.28 ","Oxford University Press"
-"10.5771/0038-6073-2021-4-415","ja"," €3,391.50 ","Nomos"
-"https://doi.org/10.1108/IJSSP-04-2022-0101","ja"," €3,427.20 ","Emerald"
-"10.3389/fpsyg.2022.909558","nein"," €3,436.61 ","Frontiers Media SA"
-"10.1093/jssam/smac023","ja"," €3,446.24 ","Oxford Univ. Press"
-"10.1080/1369183X.2022.2058918","ja"," €3,796.10 ","Taylor & Francis"
-"10.1093/esr/jcab046","ja"," €3,896.06 ","Oxford University Press"
-"10.5771/0038-6073-2022-2-266","ja"," €3,927.00 ","Nomos"
-"10.1093/jeg/lbac026","ja"," €4,138.82 ","Oxford Univ. Press"
-"10.1093/jeea/jvac004","ja"," €4,524.38 ","Oxford University Press"
+"DOI","Hybrid","APC","Verlag","period","institution"
+"10.1177/23780231221117910","nein","732.09 ","SAGE",2022,IAB
+"10.1186/s40878-022-00289-x","nein","945.91 ","Springer",2022,IAB
+"10.1177/23780231221136487","nein","1,016.30 ","SAGE",2022,IAB
+"10.17645/si.v10i2.5104","nein","1,071.00 ","Cogitatio Press",2022,IAB
+"10.17645/si.v10i2.5103","nein","1,071.00 ","Cogitatio Press",2022,IAB
+"10.3389/frai.2022.868789","nein","1,238.12 ","Frontiers Media SA",2022,IAB
+"10.1016/j.jpolmod.2022.05.006","ja","1,249.50 ","Elsevier",2022,IAB
+"10.3233/WOR-205046","ja","1,487.50 ","IOS Press",2022,IAB
+"10.3790/sfo.2022.00.0000.Berhard_Roehrer_Senghaas","ja","1,605.00 ","Duncker & Humblot",2022,IAB
+"10.1016/j.jeconom.2022.03.004","ja","1,999.20 ","Elsevier",2022,IAB
+"10.1016/j.euroecorev.2022.104332","ja","2,034.90 ","Elsevier",2022,IAB
+"10.1016/j.ssmph.2022.101054","nein","2,046.80 ","Elsevier",2022,IAB
+"10.1332/175795921X16643819920960","ja","2,080.91 ","Bristol University Press",2022,IAB
+"10.1186/s12889-021-12370-8","nein","2,138.14 ","Springer Nature",2022,IAB
+"10.1515/zsr-2022-0005","ja","2,380.00 ","De Gruyter",2022,IAB
+"10.3368/jhr.0720-11051R1","ja","2,410.01 ","University of Wisconsin Press",2022,IAB
+"10.3368/jhr.0920-11159R1","ja","2,481.04 ","University of Wisconsin Press",2022,IAB
+"10.1080/00036846.2022.2108751","ja","2,677.50 ","Taylor & Francis",2022,IAB
+"10.1016/j.ssresearch.2022.102839","ja","2,701.30 ","Elsevier",2022,IAB
+"10.1086/720391","ja","2,828.75 ","University of Chicago Press",2022,IAB
+"10.3390/ijerph19127409","nein","2,863.56 ","MDPI",2022,IAB
+"10.1016/j.socscimed.2022.115304","ja","3,213.00 ","Elsevier",2022,IAB
+"10.1080/14616696.2022.2096915","ja","3,248.70 ","Taylor & Francis",2022,IAB
+"10.1093/jssam/smac002","ja","3,346.28 ","Oxford University Press",2022,IAB
+"10.5771/0038-6073-2021-4-415","ja","3,391.50 ","Nomos",2022,IAB
+"https://doi.org/10.1108/IJSSP-04-2022-0101","ja","3,427.20 ","Emerald",2022,IAB
+"10.3389/fpsyg.2022.909558","nein","3,436.61 ","Frontiers Media SA",2022,IAB
+"10.1093/jssam/smac023","ja","3,446.24 ","Oxford Univ. Press",2022,IAB
+"10.1080/1369183X.2022.2058918","ja","3,796.10 ","Taylor & Francis",2022,IAB
+"10.1093/esr/jcab046","ja","3,896.06 ","Oxford University Press",2022,IAB
+"10.5771/0038-6073-2022-2-266","ja","3,927.00 ","Nomos",2022,IAB
+"10.1093/jeg/lbac026","ja","4,138.82 ","Oxford Univ. Press",2022,IAB
+"10.1093/jeea/jvac004","ja","4,524.38 ","Oxford University Press",2022,IAB
