@@ -349,7 +349,9 @@ JOURNAL_OWNER_CHANGED = {
     "0070-3370": ["Springer Nature", "Duke University Press"], # Demography
     "1533-7790": ["Springer Nature", "Duke University Press"], # Demography (electronic)
     "0236-8722": ["Walter de Gruyter GmbH", "Institute of Agrophysics Polish Academy of Sciences"], # International Agrophysics
-    "2300-8725": ["Walter de Gruyter GmbH", "Institute of Agrophysics Polish Academy of Sciences"] # International Agrophysics (electronic)
+    "2300-8725": ["Walter de Gruyter GmbH", "Institute of Agrophysics Polish Academy of Sciences"], # International Agrophysics (electronic)
+    "2662-6810": ["Springer Nature", "Oxford University Press (OUP)"], # Horticulture Research 
+    "2052-7276": ["Springer Nature", "Oxford University Press (OUP)"], # Horticulture Research (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -540,7 +542,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2328-8604", # Health Systems & Reform, Gold OA since 2020
     "2328-8620", # Health Systems & Reform, Gold OA since 2020 (electronic)
     "0070-3370", # Demography, Gold OA since 2021
-    "1533-7790" # Demography, Gold OA since 2021 (electronic)
+    "1533-7790", # Demography, Gold OA since 2021 (electronic)
+    "1758-3004", # Carbon Management, Gold OA since 2022
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
