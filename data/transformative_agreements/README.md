@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 67,034 articles, published at 329 institutions under 55 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 67,169 articles, published at 329 institutions under 55 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -34,12 +34,12 @@ This dataset contains information on 67,034 articles, published at 329 instituti
 |FWF Transformative Agreement Wiley-Blackwell     |      684|
 |FinELib Taylor & Francis agreement               |      579|
 |University of Milan - Springer                   |      395|
+|Swiss Consortium RSC agreement                   |      393|
 |FWF Transformative Agreement Springer Nature     |      371|
 |FinELib IEEE agreement                           |      313|
 |Swiss Consortium T&F agreement                   |      307|
 |FWF Transformative Agreement ACS                 |      298|
 |FinELib SAGE agreement                           |      286|
-|Swiss Consortium RSC agreement                   |      258|
 |MPG RSC agreement                                |      246|
 |Swiss Consortium SAGE agreement                  |      236|
 |FWF Transformative Agreement T&F                 |      234|
@@ -84,16 +84,16 @@ This dataset contains information on 67,034 articles, published at 329 instituti
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |French institutions                                                                                                                                |     3330|
 |FWF - Austrian Science Fund                                                                                                                        |     2470|
-|ETH Zurich                                                                                                                                         |     1722|
-|University of Zurich                                                                                                                               |     1561|
+|ETH Zurich                                                                                                                                         |     1797|
+|University of Zurich                                                                                                                               |     1574|
 |TU Muenchen                                                                                                                                        |     1339|
 |University of Helsinki                                                                                                                             |     1233|
 |Lund University                                                                                                                                    |     1177|
 |Muenchen LMU                                                                                                                                       |     1124|
 |Karolinska Institutet                                                                                                                              |     1061|
 |UCL                                                                                                                                                |     1022|
-|University of Geneva                                                                                                                               |      952|
-|University of Bern                                                                                                                                 |      949|
+|University of Geneva                                                                                                                               |      964|
+|University of Bern                                                                                                                                 |      959|
 |MPG                                                                                                                                                |      946|
 |University of Cambridge                                                                                                                            |      912|
 |University of Oxford                                                                                                                               |      883|
@@ -104,7 +104,7 @@ This dataset contains information on 67,034 articles, published at 329 instituti
 |Imperial College London                                                                                                                            |      771|
 |Bonn U                                                                                                                                             |      743|
 |University of Lausanne                                                                                                                             |      733|
-|University of Basel                                                                                                                                |      706|
+|University of Basel                                                                                                                                |      720|
 |Milano U                                                                                                                                           |      702|
 |King's College London                                                                                                                              |      652|
 |Aalto University                                                                                                                                   |      619|
@@ -182,11 +182,11 @@ This dataset contains information on 67,034 articles, published at 329 instituti
 |Maastricht University Medical Center (UMC+)                                                                                                        |      189|
 |PSI - Paul Scherrer Institute                                                                                                                      |      188|
 |TU Chemnitz                                                                                                                                        |      182|
+|University of Fribourg                                                                                                                             |      182|
 |University of Natural Resources and Life Sciences Vienna (BOKU)                                                                                    |      181|
 |Graz University of Technology                                                                                                                      |      176|
 |University of Durham                                                                                                                               |      175|
 |University of Loughborough                                                                                                                         |      173|
-|University of Fribourg                                                                                                                             |      171|
 |Siegen U                                                                                                                                           |      170|
 |Åbo Akademi University                                                                                                                             |      169|
 |University of St Andrews                                                                                                                           |      168|
