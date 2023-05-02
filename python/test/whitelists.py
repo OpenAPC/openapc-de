@@ -439,7 +439,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0010-440X", # Comprehensive Psychiatry, Gold OA since 2019
     "1933-6896", # Prion, Gold OA since 2019
     "1757-448X", # Journal of Integrative Neuroscience, Gold OA since 2018,
-    "0303-2434", # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
+    "1569-8432", # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
     "1350-4827", # Meteorological Applications, Gold OA since 2020
     "1751-8792", # IET Radar, Sonar & Navigation, Gold OA since 2021
     "1566-7367", # Catalysis Communications, Gold OA since 2021
