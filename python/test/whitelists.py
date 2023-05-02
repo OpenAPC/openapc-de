@@ -544,6 +544,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0070-3370", # Demography, Gold OA since 2021
     "1533-7790", # Demography, Gold OA since 2021 (electronic)
     "1758-3004", # Carbon Management, Gold OA since 2022
+    "1973-9087", # European Journal of Physical and Rehabilitation Medicine
 ]
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
