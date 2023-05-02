@@ -1632,7 +1632,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cranfield University",2016,1971.86,"10.1016/j.scitotenv.2016.04.135",TRUE,"Elsevier BV","Science of The Total Environment","0048-9697","0048-9697",NA,"0048-9697","http://creativecommons.org/licenses/by/4.0/",TRUE,"27151500",NA,"ut:000377792800046",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Cranfield University",2016,2310.29,"10.1364/ao.55.006797",TRUE,"Optical Society of America (OSA)","Applied Optics","0003-6935","0003-6935","1539-4522","0003-6935","CC BY-NC-ND",TRUE,"27607251",NA,"ut:000383994600003",NA,FALSE
+"Cranfield University",2016,2310.29,"10.1364/ao.55.006797",TRUE,"Optical Society of America (OSA)","Applied Optics","1559-128X","1559-128X","2155-3165","1559-128X","CC BY-NC-ND",TRUE,"27607251",NA,"ut:000383994600003",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Cranfield University",2017,2381.31,"10.1364/oe.24.022345",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","CC BY",TRUE,"27828306",NA,"ut:000387543000002",NA,TRUE
 "Cranfield University",2016,2670.75,"10.3389/fpls.2017.00357",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X","CC BY",TRUE,"28373878","PMC5357653","ut:000396760200001",NA,TRUE
@@ -1895,8 +1895,8 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "Heriot-Watt University",2017,2488.26,"10.1364/oe.24.022144",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","CC BY",TRUE,"27661949",NA,"ut:000387537600084",NA,TRUE
 "Heriot-Watt University",2017,3242.35,"10.1364/oe.25.011932",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","CC BY",TRUE,"28788750",NA,"ut:000402733200106",NA,TRUE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
-"Heriot-Watt University",2017,2372.9,"10.1364/ao.56.004873",TRUE,"Optical Society of America (OSA)","Applied Optics","0003-6935","0003-6935","1539-4522","0003-6935","CC BY",TRUE,"29047628",NA,"ut:000402579600043",NA,FALSE
-"Heriot-Watt University",2017,1697.87,"10.1364/ao.56.005407",TRUE,"Optical Society of America (OSA)","Applied Optics","0003-6935","0003-6935","1539-4522","0003-6935","CC BY",TRUE,"29047497",NA,"ut:000404745800038",NA,FALSE
+"Heriot-Watt University",2017,2372.9,"10.1364/ao.56.004873",TRUE,"Optical Society of America (OSA)","Applied Optics","1559-128X","1559-128X","2155-3165","1559-128X","CC BY",TRUE,"29047628",NA,"ut:000402579600043",NA,FALSE
+"Heriot-Watt University",2017,1697.87,"10.1364/ao.56.005407",TRUE,"Optical Society of America (OSA)","Applied Optics","1559-128X","1559-128X","2155-3165","1559-128X","CC BY",TRUE,"29047497",NA,"ut:000404745800038",NA,FALSE
 "Heriot-Watt University",2017,2372.9,"10.1364/ol.42.002243",TRUE,"Optical Society of America (OSA)","Optics Letters","0146-9592","0146-9592","1539-4794","0146-9592","CC BY",TRUE,"28614322",NA,"ut:000403536800001",NA,FALSE
 "Heriot-Watt University",2017,1706.69,"10.1364/oe.25.014910",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","CC BY",TRUE,"28789073",NA,"ut:000404189800092",NA,TRUE
 "Heriot-Watt University",2017,2385.69,"10.1364/oe.25.015216",FALSE,"Optical Society of America (OSA)","Optics Express","1094-4087",NA,"1094-4087","1094-4087","CC BY",TRUE,"28788951",NA,"ut:000404189800117",NA,TRUE
@@ -6516,7 +6516,7 @@ NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "The Open University",2017,273.76,"10.1177/0957154x17702316",TRUE,"SAGE Publications","History of Psychiatry","0957-154X","0957-154X","1740-2360","0957-154X","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,"28391708","PMC5546420","ut:000407178100001",NA,FALSE
 "The Open University",2017,2925.09,"10.1016/j.epsl.2017.03.018",TRUE,"Elsevier BV","Earth and Planetary Science Letters","0012-821X","0012-821X",NA,"0012-821X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000401385500006",NA,FALSE
 "The Open University",2017,1916.33,"10.1111/maps.12818",TRUE,"Wiley-Blackwell","Meteoritics & Planetary Science","1086-9379",NA,NA,"1086-9379","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000400591600006",NA,FALSE
-"The Open University",2017,3466.98,"10.1364/ao.56.002771",TRUE,"Optical Society of America (OSA)","Applied Optics","0003-6935","0003-6935","1539-4522","0003-6935","CC BY",TRUE,"28375240",NA,"ut:000398174500026",NA,FALSE
+"The Open University",2017,3466.98,"10.1364/ao.56.002771",TRUE,"Optical Society of America (OSA)","Applied Optics","1559-128X","1559-128X","2155-3165","1559-128X","CC BY",TRUE,"28375240",NA,"ut:000398174500026",NA,FALSE
 "The Open University",2017,273.76,"10.1177/1468794117696029",TRUE,"SAGE Publications","Qualitative Research","1468-7941","1468-7941","1741-3109","1468-7941","http://journals.sagepub.com/page/policies/text-and-data-mining-license",TRUE,NA,NA,"ut:000401370500004",NA,FALSE
 NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "The Open University",2017,611.86,"10.1080/01419870.2017.1317825",TRUE,"Informa UK Limited","Ethnic and Racial Studies","0141-9870","0141-9870","1466-4356","0141-9870","CC BY",TRUE,NA,NA,"ut:000424420500004",NA,FALSE
