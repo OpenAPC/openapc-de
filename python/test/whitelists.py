@@ -544,6 +544,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0070-3370", # Demography, Gold OA since 2021
     "1533-7790", # Demography, Gold OA since 2021 (electronic)
     "1758-3004", # Carbon Management, Gold OA since 2022
+    "1973-9087", # European Journal of Physical and Rehabilitation Medicine
 ]
 
 # A whitelist to identify titles which belong to more than one journal. The list
