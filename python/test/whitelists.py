@@ -440,7 +440,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0010-440X", # Comprehensive Psychiatry, Gold OA since 2019
     "1933-6896", # Prion, Gold OA since 2019
     "1757-448X", # Journal of Integrative Neuroscience, Gold OA since 2018,
-    "0303-2434", # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
+    "1569-8432", # International Journal of Applied Earth Observation and Geoinformation, Gold OA since 2020
     "1350-4827", # Meteorological Applications, Gold OA since 2020
     "1751-8792", # IET Radar, Sonar & Navigation, Gold OA since 2021
     "1566-7367", # Catalysis Communications, Gold OA since 2021
@@ -548,6 +548,16 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1973-9087", # European Journal of Physical and Rehabilitation Medicine
 ]
 
+# A whitelist to identify titles which a shared by multiple journals. The list
+# contains the involved linking ISSNs which are excluded from tests.
+AMBIGUOUS_JOURNAL_TITLES = {
+    "Journal of Public Health": ["1741-3842", "0943-1853"],  # OUP / Springer
+    "Open Medicine": ["1911-2092", "2391-5463"], # Open Medicine Publications / de Gruyter
+    "Medicine": ["1357-3039", "0025-7974"], # Elsevier / Ovid Technologies
+    "Medicinal Chemistry": ["2161-0444", "1573-4064"], # OMICS / Bentham
+    "Journal of Optics": ["0974-6900", "2040-8978"], # Springer Nature / IOP Publishing
+}
+
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
 # multivolumed books where each volume has the same ISBN but is listed separately.
 NON_DUPLICATE_ISBNS = [
@@ -562,6 +572,12 @@ def publisher_identity(first_publisher, second_publisher):
         if first_publisher in entry[0] and second_publisher in entry[1]:
             return True
         if first_publisher in entry[1] and second_publisher in entry[0]:
+            return True
+    return False
+
+def is_ambiguous_title(title, issn_l, other_issn_l):
+    if title in AMBIGUOUS_JOURNAL_TITLES:
+        if issn_l in AMBIGUOUS_JOURNAL_TITLES[title] and other_issn_l in AMBIGUOUS_JOURNAL_TITLES[title]:
             return True
     return False
 
