@@ -553,6 +553,7 @@ AMBIGUOUS_JOURNAL_TITLES = {
     "Journal of Public Health": ["1741-3842", "0943-1853"],  # OUP / Springer
     "Open Medicine": ["1911-2092", "2391-5463"], # Open Medicine Publications / de Gruyter
     "Medicine": ["1357-3039", "0025-7974"], # Elsevier / Ovid Technologies
+    "Medicinal Chemistry": ["2161-0444", "1573-4064"], # OMICS / Bentham
 }
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
