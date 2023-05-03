@@ -352,6 +352,7 @@ JOURNAL_OWNER_CHANGED = {
     "2300-8725": ["Walter de Gruyter GmbH", "Institute of Agrophysics Polish Academy of Sciences"], # International Agrophysics (electronic)
     "2662-6810": ["Springer Nature", "Oxford University Press (OUP)"], # Horticulture Research 
     "2052-7276": ["Springer Nature", "Oxford University Press (OUP)"], # Horticulture Research (electronic)
+    "1997-5902": ["African Journals Online (AJOL)", "Elewa Biosciences Journals"], # Journal of Applied Biosciences
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -545,6 +546,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1533-7790", # Demography, Gold OA since 2021 (electronic)
     "1758-3004", # Carbon Management, Gold OA since 2022
     "1973-9087", # European Journal of Physical and Rehabilitation Medicine
+    "1439-1791", # Basic and Applied Ecology, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
