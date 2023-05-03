@@ -546,6 +546,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1533-7790", # Demography, Gold OA since 2021 (electronic)
     "1758-3004", # Carbon Management, Gold OA since 2022
     "1973-9087", # European Journal of Physical and Rehabilitation Medicine
+    "1439-1791", # Basic and Applied Ecology, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list

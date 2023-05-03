@@ -709,7 +709,9 @@ JOURNAL_MAPPINGS = {
     "Ophthalmic Plastic &amp; Reconstructive Surgery": "Ophthalmic Plastic and Reconstructive Surgery",
     "Current Opinion in Supportive &amp; Palliative Care": "Current Opinion in Supportive and Palliative Care",
     "Annals of Medicine &amp; Surgery": "Annals of Medicine & Surgery",
-    "Social Sciences &amp; Humanities Open": "Social Sciences & Humanities Open"
+    "Social Sciences &amp; Humanities Open": "Social Sciences & Humanities Open",
+    "Agriculture &amp; Food Security": "Agriculture & Food Security",
+    "Ocean &amp; Coastal Management": "Ocean & Coastal Management"
 }
 
 COLUMN_NAMES = {
