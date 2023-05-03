@@ -81,6 +81,8 @@ issn_p_dict = {}
 issn_e_dict = {}
 issn_l_dict = {}
 
+title_dict = {}
+
 isbn_dict = {}
 
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
@@ -230,22 +232,29 @@ def check_issns(row_object):
                             'ISSN (check digit mismatch)')
     issn_l = row["issn_l"]
     if issn_l != "NA":
-        msg = line_str + "Two entries share a common {} ({}), but the issn_l differs ({} vs {})"
+        msg = line_str + "Two entries share a common {} ({}), but the {} differs ({} vs {})"
         issn = row["issn"]
         if issn != "NA":
             for reduced_row in issn_dict[issn]:
                 if reduced_row["issn_l"] != issn_l:
-                    fail(msg.format("issn", issn, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn", issn, "issn_l", issn_l, reduced_row["issn_l"]))
         issn_p = row["issn_print"]
         if issn_p != "NA":
             for reduced_row in issn_p_dict[issn_p]:
                 if reduced_row["issn_l"] != issn_l:
-                    fail(msg.format("issn_p", issn_p, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn_p", issn_p, "issn_l", issn_l, reduced_row["issn_l"]))
         issn_e = row["issn_electronic"]
         if issn_e != "NA":
             for reduced_row in issn_e_dict[issn_e]:
                 if reduced_row["issn_l"] != issn_l:
-                    fail(msg.format("issn_e", issn_e, issn_l, reduced_row["issn_l"]))
+                    fail(msg.format("issn_e", issn_e, "issn_l", issn_l, reduced_row["issn_l"]))
+        title = reduced_row["journal_full_title"]
+        if title not in title_dict:
+            title_dict[title] = issn_l
+        else:
+            other_issn_l = title_dict[title]
+            if other_issn_l != issn_l and not wl.is_ambiguous_title(title, issn_l, other_issn_l):
+                fail(msg.format("journal_full_title", title, "issn_l", issn_l, other_issn_l))
 
 def check_isbns(row_object):
     __tracebackhide__ = True
