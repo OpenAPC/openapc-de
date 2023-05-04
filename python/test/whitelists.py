@@ -352,7 +352,9 @@ JOURNAL_OWNER_CHANGED = {
     "2300-8725": ["Walter de Gruyter GmbH", "Institute of Agrophysics Polish Academy of Sciences"], # International Agrophysics (electronic)
     "2662-6810": ["Springer Nature", "Oxford University Press (OUP)"], # Horticulture Research 
     "2052-7276": ["Springer Nature", "Oxford University Press (OUP)"], # Horticulture Research (electronic)
-    "1997-5902": ["African Journals Online (AJOL)", "Elewa Biosciences Journals"], # Journal of Applied Biosciences
+    "1997-5902": ["African Journals Online (AJOL)", "Elewa Biosciences Journals"], # Journal of Applied Biosciences,
+    "1868-6354": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Laboratory Phonology 
+    "1868-6346": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Laboratory Phonology (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
