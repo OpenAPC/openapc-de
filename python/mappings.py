@@ -711,7 +711,8 @@ JOURNAL_MAPPINGS = {
     "Annals of Medicine &amp; Surgery": "Annals of Medicine & Surgery",
     "Social Sciences &amp; Humanities Open": "Social Sciences & Humanities Open",
     "Agriculture &amp; Food Security": "Agriculture & Food Security",
-    "Ocean &amp; Coastal Management": "Ocean & Coastal Management"
+    "Ocean &amp; Coastal Management": "Ocean & Coastal Management",
+    "Autism &amp; Developmental Language Impairments": "Autism & Developmental Language Impairments"
 }
 
 COLUMN_NAMES = {
