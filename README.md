@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |182,791 | 352,973,089    | 397 |
+| Articles         |183,190 | 353,724,702    | 398 |
 | Monographs       |1,600 | 10,209,544    | 35 |
 
 [![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
@@ -253,6 +253,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Consiglio Nazionale Delle Ricerche (CNR)](https://www.cnr.it/en/cnr-open-access)
 - [Free University of Bozen-Bolzano](https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/)
 - [Università degli Studi di Milano](https://www.unimi.it/en)
+- [Università degli Studi di Modena e Reggio Emilia](https://international.unimore.it/)
 - [Veneto Institute of Oncology (IOV IRCCS)](https://www.ioveneto.it/unit/gestione-documentazione-scientifica/)
 
 ## Institutions from Norway 
@@ -692,13 +693,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 182,791 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 397 research performing institutions and research funders. 
+The article data set contains information on 183,190 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 398 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 352,973,089. The average payment was € 1,931 and the median was € 1,780.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 353,724,702. The average payment was € 1,931 and the median was € 1,780.
 
-127,059 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 213,799,970, including value-added tax; the average payment was € 1,683 (median =  € 1,608, SD = € 789).
+127,424 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 214,456,794, including value-added tax; the average payment was € 1,683 (median =  € 1,609, SD = € 789).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 55,732 articles in the data set were published in hybrid journals. Total expenditure amounts to 139,173,119 €; the average fee was € 2,497 (median =  € 2,463, SD = € 1,010).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 55,766 articles in the data set were published in hybrid journals. Total expenditure amounts to 139,267,908 €; the average fee was € 2,497 (median =  € 2,463, SD = € 1,010).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -726,8 +727,8 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2017   |      14,906|   1,700|     1,553|   8.71 - 14,634|          10,618|       2,530|         2,470|    36.9 -  9,858|
 |2018   |      16,173|   1,701|     1,581|  13.00 -  8,926|           9,468|       2,550|         2,538|     1.8 -  9,073|
 |2019   |      16,451|   1,685|     1,623|  10.72 -  7,684|           6,326|       2,502|         2,443|    75.3 -  9,500|
-|2020   |      18,754|   1,685|     1,676|   0.01 -  8,906|           3,285|       2,377|         2,383|   130.0 -  7,416|
-|2021   |      22,669|   1,803|     1,776|  27.03 -  6,417|           2,856|       2,492|         2,475|    30.2 - 11,400|
+|2020   |      18,896|   1,685|     1,676|   0.01 -  8,906|           3,305|       2,378|         2,384|   130.0 -  7,416|
+|2021   |      22,892|   1,803|     1,776|  27.03 -  6,417|           2,870|       2,494|         2,475|    30.2 - 11,400|
 |2022   |       8,580|   2,022|     1,946|  12.36 -  6,000|             919|       2,842|         2,871|     5.0 - 11,988|
 |2023   |         101|   2,049|     2,001| 297.50 -  5,579|              20|       2,686|         2,625| 1,000.0 -  4,000|
 
@@ -802,9 +803,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.71%       |
-|PubMed ID                  |  73.6%      |
-|PubMed Central ID          |  67.71%     |
-|Web of Science record ID   | 90.39%      |
+|PubMed ID                  |  73.61%      |
+|PubMed Central ID          |  67.72%     |
+|Web of Science record ID   | 90.38%      |
 
 
 
