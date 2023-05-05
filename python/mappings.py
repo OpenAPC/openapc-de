@@ -712,7 +712,9 @@ JOURNAL_MAPPINGS = {
     "Social Sciences &amp; Humanities Open": "Social Sciences & Humanities Open",
     "Agriculture &amp; Food Security": "Agriculture & Food Security",
     "Ocean &amp; Coastal Management": "Ocean & Coastal Management",
-    "Autism &amp; Developmental Language Impairments": "Autism & Developmental Language Impairments"
+    "Autism &amp; Developmental Language Impairments": "Autism & Developmental Language Impairments",
+    "Endocrinology, Diabetes &amp; Metabolism Case Reports": "Endocrinology, Diabetes & Metabolism Case Reports",
+    "BMJ Supportive &amp; Palliative Care": "BMJ Supportive & Palliative Care"
 }
 
 COLUMN_NAMES = {
