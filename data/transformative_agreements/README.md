@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 67,175 articles, published at 330 institutions under 55 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 67,178 articles, published at 331 institutions under 55 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -22,8 +22,8 @@ This dataset contains information on 67,175 articles, published at 330 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     5049|
-|DEAL Wiley Germany                               |     4878|
+|DEAL Springer Nature Germany                     |     5051|
+|DEAL Wiley Germany                               |     4879|
 |Swiss Consortium Elsevier agreement              |     4836|
 |French EDP Sciences agreement                    |     3330|
 |Swiss Consortium Springer Compact agreement      |     2175|
@@ -367,6 +367,7 @@ This dataset contains information on 67,175 articles, published at 330 instituti
 |Institut für Arbeitsmarkt- und Berufsforschung                                                                                                     |        3|
 |Institute for Advanced Studies Vienna                                                                                                              |        3|
 |Medical Products Agency                                                                                                                            |        3|
+|Potsdam FH                                                                                                                                         |        3|
 |Public Health Agency of Sweden                                                                                                                     |        3|
 |Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology |        3|
 |Social Insurance Institution of Finland                                                                                                            |        3|
