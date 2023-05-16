@@ -43,14 +43,14 @@ OpenAPC also aggregates data on additional costs linked to OA publishing:
 
 |Cost type           | Occurence| Median|     Sum|
 |:-------------------|---------:|------:|-------:|
-|APC                 |      1933|   1570| 3501770|
-|Cover               |        12|   1206|   14887|
-|Colour Charges      |        41|   1960|   77114|
-|Page Charges        |        60|    838|   62547|
-|Other               |       100|     27|   13230|
-|Permission          |         6|    125|    1098|
+|APC                 |      2320|   1632| 4350527|
+|Cover               |         9|   1295|   12704|
+|Colour Charges      |        40|   1643|   72757|
+|Page Charges        |        63|    831|   63271|
+|Other               |       114|     28|    5900|
+|Permission          |         9|    189|    1660|
 |Publication Charges |        15|   1143|   18958|
-|Reprint             |         5|    399|    2111|
+|Reprint             |         7|    399|   10450|
 |Submission Fee      |        10|     68|     768|
 
 
