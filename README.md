@@ -19,8 +19,6 @@ At the moment this project provides the following cost data:
 | Articles         |183,575 | 354,507,611    | 399 |
 | Monographs       |1,600 | 10,209,544    | 35 |
 
-[![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
-
 ## How to access the data?
 
 There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.openapc.net/) for visual data exploration.

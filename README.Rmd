@@ -43,8 +43,6 @@ At the moment this project provides the following cost data:
 | Articles         |`r nrow(my_apc)` | `r sum(my_apc$euro)`    | `r length(unique(my_apc$institution))` |
 | Monographs       |`r nrow(my_bpc)` | `r sum(my_bpc$euro)`    | `r length(unique(my_bpc$institution))` |
 
-[![Build Status](https://api.travis-ci.com/OpenAPC/openapc-de.svg?branch=master)](https://travis-ci.com/OpenAPC/openapc-de)&nbsp;&nbsp;([What's this?](https://github.com/OpenAPC/openapc-de/wiki/Data-Integrity-Testing))
-
 ## How to access the data?
 
 There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.openapc.net/) for visual data exploration.
