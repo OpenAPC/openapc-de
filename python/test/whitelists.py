@@ -72,6 +72,7 @@ JOURNAL_OWNER_CHANGED = {
     "0039-3630": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation
     "2047-0584": ["Maney Publishing", "Informa UK Limited"], # Studies in Conservation (electronic)
     "0148-396X": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"], # Neurosurgery
+    "1524-4040": ["Ovid Technologies (Wolters Kluwer Health)", "Oxford University Press (OUP)"], # Neurosurgery (electronic)
     "2047-217X": ["Springer Nature", "Oxford University Press (OUP)"], # GigaScience
     "0007-0912": ["Oxford University Press (OUP)", "Elsevier BV"], # British Journal of Anaesthesia
     "0003-598X": ["Antiquity Publications", "Cambridge University Press (CUP)"], # Antiquity
@@ -141,6 +142,7 @@ JOURNAL_OWNER_CHANGED = {
     "2333-5084": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Earth and Space Science
     "2041-8213": ["IOP Publishing", "American Astronomical Society"], # The Astrophysical Journal
     "0024-6107": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society
+    "1469-7750": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society (electronic)
     "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth
     "2169-9356": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth (electronic)
     "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)"],# Journal of Nutrition
@@ -355,6 +357,17 @@ JOURNAL_OWNER_CHANGED = {
     "1997-5902": ["African Journals Online (AJOL)", "Elewa Biosciences Journals"], # Journal of Applied Biosciences,
     "1868-6354": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Laboratory Phonology 
     "1868-6346": ["Ubiquity Press, Ltd.", "Open Library of the Humanities"], # Laboratory Phonology (linking)
+    "1094-7159": ["Wiley-Blackwell", "Elsevier BV"], # Neuromodulation: Technology at the Neural Interface
+    "0009-9104": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical & Experimental Immunology 
+    "1365-2249": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical & Experimental Immunology (electronic)
+    "1066-5099": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS 
+    "1549-4918": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS (electronic)
+    "0021-8529": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Journal of Aesthetics and Art Criticism 
+    "1540-6245": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Journal of Aesthetics and Art Criticism (electronic)
+    "0047-2778": ["Wiley-Blackwell", "Informa UK Limited"], # Journal of Small Business Management 
+    "1540-627X": ["Wiley-Blackwell", "Informa UK Limited"], # Journal of Small Business Management (electronic)
+    "0140-1971": ["Elsevier BV", "Wiley-Blackwell"], # Journal of Adolescence 
+    "1095-9254": ["Elsevier BV", "Wiley-Blackwell"], # Journal of Adolescence (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -549,6 +562,20 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1758-3004", # Carbon Management, Gold OA since 2022
     "1973-9087", # European Journal of Physical and Rehabilitation Medicine
     "1439-1791", # Basic and Applied Ecology, Gold OA since 2022
+    "0928-0987", # European Journal of Pharmaceutical Sciences, Gold OA since 2022
+    "0016-7061", # Geoderma, Gold OA since 2023
+    "1385-1101", # Journal of Sea Research, Gold OA since 2022
+    "2196-7350", # Advanced Materials Interfaces, Gold OA since 2023
+    "0094-8276", # Geophysical Research Letters, Gold OA since 2023
+    "0905-6947", # Indoor Air, Gold OA since 2023
+    "1059-7794", # Human Mutation, Gold OA since 2023
+    "0001-6314", # Acta Neurologica Scandinavica, Gold OA since 2023
+    "1473-2130", # Journal of Cosmetic Dermatology, Gold OA since 2023
+    "0303-4569", # Andrologia, Gold OA since 2023
+    "0966-0429", # Journal of Nursing Management, Gold OA since 2023
+    "0958-0670", # Experimental Physiology, Gold OA since 2023
+    "2199-160X", # Advanced Electronic Materials, Gold OA since 2023
+    "1399-543X", # Pediatric Diabetes, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
@@ -559,6 +586,7 @@ AMBIGUOUS_JOURNAL_TITLES = {
     "Medicine": ["1357-3039", "0025-7974"], # Elsevier / Ovid Technologies
     "Medicinal Chemistry": ["2161-0444", "1573-4064"], # OMICS / Bentham
     "Journal of Optics": ["0974-6900", "2040-8978"], # Springer Nature / IOP Publishing
+    "Educational Studies": ["0013-1946", "0305-5698"] # Both T&F. 0013-1946 with subtitle "A Journal of the American Educational Studies Association"
 }
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
