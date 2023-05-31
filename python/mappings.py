@@ -715,7 +715,9 @@ JOURNAL_MAPPINGS = {
     "Autism &amp; Developmental Language Impairments": "Autism & Developmental Language Impairments",
     "Endocrinology, Diabetes &amp; Metabolism Case Reports": "Endocrinology, Diabetes & Metabolism Case Reports",
     "BMJ Supportive &amp; Palliative Care": "BMJ Supportive & Palliative Care",
-    "Diabetes Technology &amp; Therapeutics": "Diabetes Technology & Therapeutics"
+    "Diabetes Technology &amp; Therapeutics": "Diabetes Technology & Therapeutics",
+    "Evolution &amp; Development": "Evolution & Development",
+    "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology"
 }
 
 COLUMN_NAMES = {
