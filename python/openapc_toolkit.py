@@ -3,6 +3,7 @@
 
 import csv
 from collections import OrderedDict
+import datetime
 from html import unescape
 from http.client import RemoteDisconnected
 import json
@@ -11,7 +12,7 @@ import logging
 from logging.handlers import MemoryHandler
 import os
 import re
-from shutil import copyfileobj
+from shutil import copyfileobj, copy2
 import sys
 from urllib.parse import quote_plus, urlencode
 from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
@@ -240,12 +241,34 @@ class OpenAPCUnicodeWriter(object):
 
 class DOAJAnalysis(object):
 
-    def __init__(self, doaj_csv_file, update=False):
+    MSGS = {
+        "not_found": 'DOAJ offline copy not found at "{}", downloading ' +
+                      'a fresh copy...',
+        "forced": 'Forced download of a fresh DOAJ offline copy to "{}"...',
+        "max_mdays": 'Your DOAJ offline copy at "{}" is {} days old. ' +
+                     'The limit is {} days, downloading a fresh copy...',
+        "backup": 'The previous offline copy was backed up as "{}".'
+    }
+
+    def __init__(self, doaj_csv_file, force_update=False, max_mdays=None,
+                 backup=True, verbose=False):
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
         
-        if not os.path.isfile(doaj_csv_file) or update :
-            doaj_csv_file = self.download_doaj_csv(doaj_csv_file)
+        if not os.path.isfile(doaj_csv_file):
+            if verbose:
+                print_c(self.MSGS['not_found'].format(doaj_csv_file))
+            doaj_csv_file = self.download_doaj_csv(doaj_csv_file, False, verbose)
+        elif force_update:
+            if verbose:
+                print_c(self.MSGS['forced'].format(doaj_csv_file))
+            doaj_csv_file = self.download_doaj_csv(doaj_csv_file, backup, verbose)
+        elif max_mdays is not None:
+            file_mdays = self.get_file_mdate_days(doaj_csv_file)
+            if file_mdays > max_mdays:
+                if verbose:
+                    print_c(self.MSGS['max_mdays'].format(doaj_csv_file, file_mdays, max_mdays))
+                doaj_csv_file = self.download_doaj_csv(doaj_csv_file, backup, verbose)
 
         handle = open(doaj_csv_file, "r")
         reader = csv.DictReader(handle)
@@ -258,19 +281,37 @@ class DOAJAnalysis(object):
             if eissn:
                 self.doaj_eissn_map[eissn] = journal_title
 
+    def get_file_mdate_days(self, csv_file):
+        now = datetime.datetime.now()
+        then = datetime.datetime.fromtimestamp(os.path.getmtime(csv_file))
+        timediff = now - then
+        return timediff.days
+
     def lookup(self, any_issn):
         if any_issn in self.doaj_issn_map:
             return self.doaj_issn_map[any_issn]
         elif any_issn in self.doaj_eissn_map:
             return self.doaj_eissn_map[any_issn]
         return None
-        
-    def download_doaj_csv(self, filename):
+
+    def download_doaj_csv(self, filename, make_backup=False, verbose=False):
+        backup_msg = None
+        if make_backup and os.path.isfile(filename):
+            then = datetime.datetime.fromtimestamp(os.path.getmtime(filename))
+            mdate = then.strftime("%Y_%m_%d_%H_%M_%S")
+            backup_target = "tempfiles/DOAJ_" + mdate + ".csv"
+            if verbose:
+                backup_msg = self.MSGS['backup'].format(backup_target)
+            copy2(filename, backup_target)
         request = Request("https://doaj.org/csv")
         request.add_header("User-Agent", USER_AGENT)
         with urlopen(request) as source:
             with open(filename, "wb") as dest:
                 copyfileobj(source, dest)
+        if verbose:
+            print_c("...Done!")
+            if backup_msg:
+                print_c(backup_msg)
         return filename
 
 class EZBSrcaping(object):
@@ -1554,6 +1595,7 @@ def _process_crossref_results(current_row, row_num, key, value):
     if value is not None:
         if key == "journal_full_title":
             unified_value = get_unified_journal_title(value)
+            unified_value = unified_value.replace("&amp;", "&")
             if unified_value != value:
                 msg = MESSAGES["unify"].format("journal title", value, unified_value)
                 logging.warning(msg)
