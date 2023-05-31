@@ -353,6 +353,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Häme University of Applied Sciences
 - [Hanken School of Economics](https://www.hanken.fi/en)
 - JAMK University of Applied Sciences
+- [LAB University of Applied Sciences](https://www.lab.fi/en)
 - Lapin ammattikorkeakoulu (Lapland University of Applied Sciences)
 - [Lappeenranta-Lahti University of Technology LUT](https://www.lut.fi/en)
 - [Laurea University of Applied Sciences](https://www.laurea.fi/en/)
