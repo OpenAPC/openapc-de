@@ -663,7 +663,7 @@ def main():
         os.mkdir("tempfiles")
     isbn_handling = oat.ISBNHandling("tempfiles/ISBNRangeFile.xml")
     doab_analysis = oat.DOABAnalysis(isbn_handling, "tempfiles/DOAB.csv", verbose=False)
-    doaj_analysis = oat.DOAJAnalysis("tempfiles/DOAJ.csv")
+    doaj_analysis = oat.DOAJAnalysis("tempfiles/DOAJ.csv", force_update=False, max_mdays=30, backup=True, verbose=True)
 
     csv_file.seek(0)
     reader = csv.reader(csv_file, dialect=dialect)
