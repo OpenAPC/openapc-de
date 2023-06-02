@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 72,983 articles, published at 334 institutions under 60 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 73,219 articles, published at 335 institutions under 67 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -60,10 +60,14 @@ This dataset contains information on 72,983 articles, published at 334 instituti
 |QNL Wiley Agreement                              |       92|
 |QNL T&F Agreement                                |       85|
 |FinELib Wolters Kluwer Lippincott agreement      |       81|
+|EISZ agreement Springer Nature                   |       79|
+|EISZ agreement Elsevier                          |       64|
 |Swiss Consortium Karger agreement                |       62|
+|EISZ agreement Akadémiai Kiadó                   |       54|
 |MPG Taylor & Francis agreement                   |       46|
 |Austrian Consortium IOP agreement                |       45|
 |Swiss Consortium IEEE agreement                  |       44|
+|EISZ agreement Wiley                             |       35|
 |University of Milan - De Gruyter                 |       34|
 |MPG IOP agreement                                |       32|
 |University of Milan - ACS                        |       32|
@@ -79,8 +83,11 @@ This dataset contains information on 72,983 articles, published at 334 instituti
 |FWF Transformative Agreement Sage                |        6|
 |University of Milan - IEEE                       |        6|
 |QNL OVID Agreement                               |        3|
+|EISZ agreement Cambridge University Press        |        2|
 |QNL De Gruyter Agreement                         |        2|
 |University of Milan - Lippincott                 |        2|
+|EISZ agreement DeGruyter                         |        1|
+|EISZ agreement Lippincott Williams and Wilkins   |        1|
 
 ### Breakdown by institution
 
@@ -175,6 +182,7 @@ This dataset contains information on 72,983 articles, published at 334 instituti
 |DLR                                                                                                                                                |      260|
 |Giessen U                                                                                                                                          |      245|
 |Kassel U                                                                                                                                           |      241|
+|University of Debrecen                                                                                                                             |      236|
 |TU Darmstadt                                                                                                                                       |      234|
 |TU Wien                                                                                                                                            |      231|
 |University of Reading                                                                                                                              |      226|

@@ -368,6 +368,9 @@ JOURNAL_OWNER_CHANGED = {
     "1540-627X": ["Wiley-Blackwell", "Informa UK Limited"], # Journal of Small Business Management (electronic)
     "0140-1971": ["Elsevier BV", "Wiley-Blackwell"], # Journal of Adolescence 
     "1095-9254": ["Elsevier BV", "Wiley-Blackwell"], # Journal of Adolescence (electronic)
+    "1903-220X": ["Wildlife Biology", "Wiley-Blackwell"], # Wildlife Biology 
+	"0909-6396": ["Wildlife Biology", "Wiley-Blackwell"], # Wildlife Biology (linking)
+
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -576,6 +579,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0958-0670", # Experimental Physiology, Gold OA since 2023
     "2199-160X", # Advanced Electronic Materials, Gold OA since 2023
     "1399-543X", # Pediatric Diabetes, Gold OA since 2023
+    "0032-7786", # Preslia, Gold OA since 2022
+    "0169-1368", # Ore Geology Reviews, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
