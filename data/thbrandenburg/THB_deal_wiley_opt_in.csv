@@ -1,5 +1,5 @@
-"institution,""period"",""euro"",""doi"",""is_hybrid"",""opt_out"""
-"Technische Hochschule Brandenburg,2022,""967.65"",""10.1002/piuz.202201637"",""TRUE"",""FALSE"""
-"Technische Hochschule Brandenburg,2021,""967.65"",""10.1002/piuz.202001589"",""TRUE"",""FALSE"""
-"Technische Hochschule Brandenburg,2020,""803,19"",""10.1002/piuz.201901551"",""TRUE"",""FALSE"" "
-"Technische Hochschule Brandenburg,2019,""1821.46"",""10.1002/piuz.201901539"",""TRUE"",""FALSE"""
+institution,period,euro,doi,is_hybrid,opt_out
+Technische Hochschule Brandenburg,2022,967.65,10.1002/piuz.202201637,TRUE,FALSE
+Technische Hochschule Brandenburg,2021,967.65,10.1002/piuz.202001589,TRUE,FALSE
+Technische Hochschule Brandenburg,2020,803.19,10.1002/piuz.201901551,TRUE,FALSE
+Technische Hochschule Brandenburg,2019,1821.46,10.1002/piuz.201901539,TRUE,FALSE
