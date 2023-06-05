@@ -1,0 +1,155 @@
+﻿id;institution;period;euro;doi;is_hybrid;publisher;journal_full_title
+1;Martin Luther Universitaet Halle-Wittenberg;2022;2665,6;10.1002/cam4.4981;false;Wiley;Cancer_Medicine
+2;Martin Luther Universitaet Halle-Wittenberg;2022;2475,2;10.1002/ctm2.934;false;Wiley;Clinical_and_Translational_Medicine
+3;Martin Luther Universitaet Halle-Wittenberg;2022;1370,88;10.1002/ece3.8590;false;Wiley;Ecology_and_Evolution
+4;Martin Luther Universitaet Halle-Wittenberg;2022;1370,88;10.1002/ece3.9196;false;Wiley;Ecology_and_Evolution
+5;Martin Luther Universitaet Halle-Wittenberg;2022;1618,4;10.1002/ecs2.4244;false;Wiley;Ecosphere
+6;Martin Luther Universitaet Halle-Wittenberg;2022;2142;10.1002/mbo3.1312;false;Wiley;"	Microbiology_Open"
+7;Martin Luther Universitaet Halle-Wittenberg;2022;2094,4;10.1002/ppp3.10251;false;Wiley; Plants_People_Planet
+8;Martin Luther Universitaet Halle-Wittenberg;2022;1180,48;10.1007/s40955-022-00211-z;false;Springer_Nature;Zeitschrift_für_Weiterbildungsforschung
+9;Martin Luther Universitaet Halle-Wittenberg;2022;1962,83;10.1016/j.gecco.2021.e01949;false;Elsevier_BV;Global_Ecology_and_Conservation
+10;Martin Luther Universitaet Halle-Wittenberg;2022;1079,57;10.1016/j.inat.2021.101437;false;Elsevier_BV;Interdiciplinary_Neurosurgery
+11;Martin Luther Universitaet Halle-Wittenberg;2022;1071;10.1016/j.inat.2021.101452;false;Elsevier_BV;Interdisciplinary_Neurosurgery
+12;Martin Luther Universitaet Halle-Wittenberg;2022;5166,05;10.1016/j.xcrm.2022.100663;false;Elsevier_BV;Cell_Reports_Medicine 
+13;Martin Luther Universitaet Halle-Wittenberg;2022;1303,35;10.1021/acsomega.1c05897;false;ACS Omega;ACS_Omega
+14;Martin Luther Universitaet Halle-Wittenberg;2022;1383,11;10.1038/s41392-022-00929-9;false;Springer_Nature;Signal_Transduction_and_Targeted_Therapy
+15;Martin Luther Universitaet Halle-Wittenberg;2022;1383,11;10.1038/s41392-022-01143-3;false;Springer_Nature;Signal_Transduction_and_Targeted_Therapy
+16;Martin Luther Universitaet Halle-Wittenberg;2022;4391,1;10.1038/s41408-022-00615-7;false;Springer_Nature;Blood_Cancer_Journal
+17;Martin Luther Universitaet Halle-Wittenberg;2022;5390,7;10.1038/s41467-021-27287-4;false;Springer_Nature;Nature_Communications
+18;Martin Luther Universitaet Halle-Wittenberg;2022;5390,7;10.1038/s41467-021-27752-0;false;Springer_Nature;Nature_Communications
+19;Martin Luther Universitaet Halle-Wittenberg;2022;5579,37;10.1038/s41467-022-32063-z;false;Springer_Nature;Nature_Communications
+20;Martin Luther Universitaet Halle-Wittenberg;2022;5579,32;10.1038/s41467-022-32224-0;false;Springer_Nature;Nature_Communications
+21;Martin Luther Universitaet Halle-Wittenberg;2022;2766,23;10.1038/s41524-022-00811-w;false;Springer_Nature;npj_Computational_Materials
+22;Martin Luther Universitaet Halle-Wittenberg;2022;2766,23;10.1038/s41524-022-00817-4;false;Springer_Nature;npj_Computational_Materials
+23;Martin Luther Universitaet Halle-Wittenberg;2022;2001,37;10.1038/s41597-022-01177-w;false;Springer_Nature;Scientific_Data
+24;Martin Luther Universitaet Halle-Wittenberg;2022;1933,69;10.1038/s41598-021-03900-w;false;Springer_Nature;Scientific_Reports
+25;Martin Luther Universitaet Halle-Wittenberg;2022;1933,69;10.1038/s41598-021-99799-4;false;Springer_Nature;Scientific_Reports
+26;Martin Luther Universitaet Halle-Wittenberg;2022;1933,69;10.1038/s41598-021-99858-w;false;Springer_Nature;Scientific_Reports
+27;Martin Luther Universitaet Halle-Wittenberg;2022;2001,37;10.1038/s41598-022-16377-y;false;Springer_Nature;Scientific_Reports
+28;Martin Luther Universitaet Halle-Wittenberg;2022;3300,82;10.1038/s42003-022-03478-7;false;Springer_Nature;Communications_Biology
+29;Martin Luther Universitaet Halle-Wittenberg;2022;3189,2;10.1038/s43856-021-00036-w;false;Springer_Nature;Communications_Medicine
+30;Martin Luther Universitaet Halle-Wittenberg;2022;1680,67;10.1039/D2NA00561A;false;Royal Society of Chemistry;Nanoscale_advances
+31;Martin Luther Universitaet Halle-Wittenberg;2022;2754,85;10.1088/1748-9326/ac30f7;false;Institute of Physics Publishing;Environmental_Research_Letters
+32;Martin Luther Universitaet Halle-Wittenberg;2022;3108,46;10.3389/fimmu.2022.876306;false;Frontiers_MEDIA_SA;Frontiers_in_Immunology
+33;Martin Luther Universitaet Halle-Wittenberg;2022;469,21;10.1107/S2056989021013050;false;IUCr;Acta_Crystallographica_Section_E
+34;Martin Luther Universitaet Halle-Wittenberg;2022;594,9;10.1107/S2056989022010556;false;IUCr;Acta_Crystallographica_Section_E
+35;Martin Luther Universitaet Halle-Wittenberg;2022;"	592,28";10.1107/S2056989022010842;false;IUCr;Acta_Crystallographica_Section_E
+36;Martin Luther Universitaet Halle-Wittenberg;2022;353,5;10.1107/S2414314622010355;false;IUCr;IUCrData
+37;Martin Luther Universitaet Halle-Wittenberg;2022;1623,16;10.1111/conl.12848;false;Wiley;Conservation_Letters
+38;Martin Luther Universitaet Halle-Wittenberg;2022;2189,6;10.1111/ddi.13634;false;Wiley;Diversity_and_Distributions
+39;Martin Luther Universitaet Halle-Wittenberg;2022;2237,2;10.1111/ecog.06292;false;Wiley;"	Ecography"
+40;Martin Luther Universitaet Halle-Wittenberg;2022;4341,12;10.1128/AAC.02106-20;true;American Society for Microbiolog;Antimicrobial_Agents_and_Chemotherapy
+41;Martin Luther Universitaet Halle-Wittenberg;2022;3098,82;10.1136/bmjopen-2021-051383;false;BMJ_publishing;BMJ_open
+42;Martin Luther Universitaet Halle-Wittenberg;2022;2856;10.1161/JAHA.121.025119;false;Wiley;Journal_of_the_American_Heart_Association
+43;Martin Luther Universitaet Halle-Wittenberg;2022;2315,74;10.1161/JAHA.122.027146;false;Wiley;Journal_of_the_American_Heart_Association
+44;Martin Luther Universitaet Halle-Wittenberg;2022;1862,25;10.1186/s12862-022-02048-z;false;Springer_Nature;BMC_Ecology_and_Evolution
+45;Martin Luther Universitaet Halle-Wittenberg;2022;1842,55;10.1186/s12864-021-08210-z;false;Springer_Nature;BMC_Genomics
+46;Martin Luther Universitaet Halle-Wittenberg;2022;2010,05;10.1186/s12874-021-01429-0;false;Springer_Nature;BMC_Medical_Research_Methodology
+47;Martin Luther Universitaet Halle-Wittenberg;2022;1825,45;10.1186/s12875-022-01643-9;false;Springer_Nature;BMC_Primary_Care
+48;Martin Luther Universitaet Halle-Wittenberg;2022;1825,45;10.1186/s12875-022-01818-4;false;Springer_Nature;BMC_Primary_Care
+49;Martin Luther Universitaet Halle-Wittenberg;2022;1969,65;10.1186/s12885-021-08900-7;false;Springer_Nature;BMC_Cancer
+50;Martin Luther Universitaet Halle-Wittenberg;2022;2038,59;10.1186/s12885-022-09677-z;false;Springer_Nature;BMC_Cancer
+51;Martin Luther Universitaet Halle-Wittenberg;2022;2059,32;10.1186/s12893-022-01511-4;false;Springer_Nature;BMC_Surgery
+52;Martin Luther Universitaet Halle-Wittenberg;2022;1907,03;10.1186/s12903-022-02064-x;false;Springer_Nature;BMC_Oral_Health
+53;Martin Luther Universitaet Halle-Wittenberg;2022;1825,45;10.1186/s12905-022-01672-7;false;Springer_Nature;BMC_Women's_Health
+54;Martin Luther Universitaet Halle-Wittenberg;2022;1763,72;10.1186/s12909-022-03470-z;false;Springer_Nature;BMC_Medical_Education
+55;Martin Luther Universitaet Halle-Wittenberg;2022;1825,45;10.1186/s12912-022-00810-8;false;Springer_Nature;BMC_Nursing
+56;Martin Luther Universitaet Halle-Wittenberg;2022;1825,45;10.1186/s12912-022-00959-2;false;Springer_Nature;BMC_Nursing
+57;Martin Luther Universitaet Halle-Wittenberg;2022;1825,45;10.1186/s12912-022-00963-6;false;Springer_Nature;BMC_Nursing
+58;Martin Luther Universitaet Halle-Wittenberg;2022;2010,05;10.1186/s12913-021-07377-1;false;Springer_Nature;BMC_Health_Services_Research
+59;Martin Luther Universitaet Halle-Wittenberg;2022;2080,41;10.1186/s12913-022-08229-2;false;Springer_Nature;BMC_Health_Services_Research
+60;Martin Luther Universitaet Halle-Wittenberg;2022;2080,41;10.1186/s12995-022-00358-y;false;Springer_Nature;Journal_of_Occupational_Medicine_and_Toxicology
+61;Martin Luther Universitaet Halle-Wittenberg;2022;1295,15;10.1186/s13104-022-05975-8;false;Springer_Nature;BMC_Research_Notes
+62;Martin Luther Universitaet Halle-Wittenberg;2022;1280,92;10.1186/s40645-022-00472-9;false;Springer_Nature;Progress_in_Earth_and_Planetary_Science
+63;Martin Luther Universitaet Halle-Wittenberg;2022;240,38;10.1186/s41687-022-00478-3;false;Springer_Nature;Journal_of_Patient-Reported_Outcomes
+64;Martin Luther Universitaet Halle-Wittenberg;2022;3160,64;10.1371/journal.pcbi.1008941;false;Public_Library_of_Science (PLoS);PLOS_Computational_Biology
+65;Martin Luther Universitaet Halle-Wittenberg;2022;1971,45;10.1371/journal.pone.0247517;false;Public_Library_of_Science (PLoS);PLOS_ONE
+66;Martin Luther Universitaet Halle-Wittenberg;2022;1986,38;10.1371/journal.pone.0248992;false;Public_Library_of_Science (PLoS);PLOS_ONE
+67;Martin Luther Universitaet Halle-Wittenberg;2022;1871,22;10.1371/journal.pone.0263559;false;Public_Library_of_Science (PLoS);PLOS_ONE
+68;Martin Luther Universitaet Halle-Wittenberg;2022;1823,64;10.1371/journal.pone.0263739;false;Public_Library_of_Science (PLoS);PLOS_ONE
+69;Martin Luther Universitaet Halle-Wittenberg;2022;1735;10.1515/9783110753554;false;de Gruyter;Monografie
+70;Martin Luther Universitaet Halle-Wittenberg;2022;2001,37;10.21203/rs.3.rs-1214720/v1;false;Springer_Nature;Scientific_Reports
+71;Martin Luther Universitaet Halle-Wittenberg;2022;1963,5;10.2340/jrm.v53.1408;false;Foundation for Rehabilitation Information;Journal_of_Rehabilitation_Medicine
+72;Martin Luther Universitaet Halle-Wittenberg;2022;833;10.23855/preslia.2022.607;false;Czech Botanical Society;Preslia
+73;Martin Luther Universitaet Halle-Wittenberg;2022;3436,87;10.3389/fcell.2022.899917;false;Frontiers_MEDIA_SA;Frontiers_in_Cell_and_Developmental_Biology
+74;Martin Luther Universitaet Halle-Wittenberg;2022;3288,4;10.3389/fchem.2022.961787;false;Frontiers_MEDIA_SA;Frontiers_in_Chemistry
+75;Martin Luther Universitaet Halle-Wittenberg;2022;2395,72;10.3389/fcvm.2022.798149;false;Frontiers_MEDIA_SA;Frontiers_in_Cardiovascular_Medicine
+76;Martin Luther Universitaet Halle-Wittenberg;2022;2623,76;10.3389/fcvm.2022.897263;false;Frontiers_MEDIA_SA;Frontiers_in_Cardiovascular_Medicine
+77;Martin Luther Universitaet Halle-Wittenberg;2022;2763,62;10.3389/fcvm.2022.956041;false;Frontiers_MEDIA_SA;Frontiers_in_Cardiovascular_Medicine
+78;Martin Luther Universitaet Halle-Wittenberg;2022;3366,05;10.3389/fendo.2022.983793 ;false;Frontiers_MEDIA_SA;Frontiers_in_Endocrinology
+79;Martin Luther Universitaet Halle-Wittenberg;2022;383,44;10.3389/fevo.2022.889236;false;Frontiers_MEDIA_SA;Frontiers_in_Ecology_and_Evolution
+80;Martin Luther Universitaet Halle-Wittenberg;2022;3183,96;10.3389/fgene.2022.859595;false;Frontiers_MEDIA_SA;Frontiers_in_Genetics
+81;Martin Luther Universitaet Halle-Wittenberg;2022;2395,72;10.3389/fimmu.2022.806906;false;Frontiers_MEDIA_SA;Frontiers_in_Immunology
+82;Martin Luther Universitaet Halle-Wittenberg;2022;2395,72;10.3389/fimmu.2022.811200;false;Frontiers_MEDIA_SA;Frontiers_in_Immunology
+83;Martin Luther Universitaet Halle-Wittenberg;2022;2395,72;10.3389/fimmu.2022.826074;false;Frontiers_MEDIA_SA;Frontiers_in_Immunology
+84;Martin Luther Universitaet Halle-Wittenberg;2022;3108,46;10.3389/fimmu.2022.883639;false;Frontiers_MEDIA_SA;Frontiers_in_Immunology
+85;Martin Luther Universitaet Halle-Wittenberg;2022;3274,17;10.3389/fimmu.2022.910595;false;Frontiers_MEDIA_SA;Frontiers_in_Immunology
+86;Martin Luther Universitaet Halle-Wittenberg;2022;3330,36;10.3389/fmed.2022.852187;false;Frontiers_MEDIA_SA;Frontiers_in_Medicine
+87;Martin Luther Universitaet Halle-Wittenberg;2022;3366,05;10.3389/fmed.2022.971726;false;Frontiers_MEDIA_SA;Frontiers_in_Medicine
+88;Martin Luther Universitaet Halle-Wittenberg;2022;3142,05;10.3389/fmicb.2022.872581;false;Frontiers_MEDIA_SA;Frontiers_in_Microbiology
+89;Martin Luther Universitaet Halle-Wittenberg;2022;3672,57;10.3389/fnagi.2022.1031189;false;Frontiers_MEDIA_SA;Frontiers_in_Aging_Neuroscience 
+90;Martin Luther Universitaet Halle-Wittenberg;2022;3108,46;10.3389/fnagi.2022.863598;false;Frontiers_MEDIA_SA;Frontiers_in_Aging_Neuroscience 
+91;Martin Luther Universitaet Halle-Wittenberg;2022;2167,95;10.3389/fnetp.2022.937130;false;Frontiers_MEDIA_SA;Frontiers_in_Network_Physiology
+92;Martin Luther Universitaet Halle-Wittenberg;2022;2424,55;10.3389/fneur.2021.739906;false;Frontiers_MEDIA_SA;Frontiers_in_Neurology
+93;Martin Luther Universitaet Halle-Wittenberg;2022;2424,55;10.3389/fneur.2021.801470;false;Frontiers_MEDIA_SA;Frontiers_in_Neurology
+94;Martin Luther Universitaet Halle-Wittenberg;2022;2259,75;10.3389/fneur.2022.846999;false;Frontiers_MEDIA_SA;Frontiers_in_Neurology
+95;Martin Luther Universitaet Halle-Wittenberg;2022;3288,4;10.3389/fneur.2022.934627;false;Frontiers_MEDIA_SA;Frontiers_in_Neurology
+96;Martin Luther Universitaet Halle-Wittenberg;2022;3359,41;10.3389/fnhum.2022.996989;false;Frontiers_MEDIA_SA;Frontiers_in_Human_Neuroscience
+97;Martin Luther Universitaet Halle-Wittenberg;2022;3366,05;10.3389/fnins.2022.892777;false;Frontiers_MEDIA_SA;Frontiers_in_Neuroscience
+98;Martin Luther Universitaet Halle-Wittenberg;2022;2748,87;10.3389/fnut.2021.711824;false;Frontiers_MEDIA_SA;Frontiers_in_Nutrition
+99;Martin Luther Universitaet Halle-Wittenberg;2022;2763,62;10.3389/fnut.2022.948264;false;Frontiers_MEDIA_SA;Frontiers_in_Nutrition
+100;Martin Luther Universitaet Halle-Wittenberg;2022;3288,4;10.3389/fonc.2022.935816;false;Frontiers_MEDIA_SA;Frontiers_in_Oncology
+101;Martin Luther Universitaet Halle-Wittenberg;2022;3288,4;10.3389/fonc.2022.941666;false;Frontiers_MEDIA_SA;Frontiers_in_Oncology
+102;Martin Luther Universitaet Halle-Wittenberg;2022;2445,57;10.3389/fphar.2020.627838;false;Frontiers_MEDIA_SA;Frontiers_in_Pharmacology
+103;Martin Luther Universitaet Halle-Wittenberg;2022;2674,5;10.3389/fpls.2022.1069842;false;Frontiers_MEDIA_SA;Frontiers_in_Plant_Science
+104;Martin Luther Universitaet Halle-Wittenberg;2022;3274,17;10.3389/fpls.2022.955776;false;Frontiers_MEDIA_SA;Frontiers_in_Plant_Science
+105;Martin Luther Universitaet Halle-Wittenberg;2022;1094,8;10.3389/fpos.2021.708881;false;Frontiers_MEDIA_SA;Frontiers_in_Political_Science
+106;Martin Luther Universitaet Halle-Wittenberg;2022;2121,91;10.3389/fpsyg.2022.1060091;false;Frontiers_MEDIA_SA;Frontiers_in_Psychology
+107;Martin Luther Universitaet Halle-Wittenberg;2022;3142,05;10.3389/fpsyg.2022.867785;false;Frontiers_MEDIA_SA;Frontiers_in_Psychology
+108;Martin Luther Universitaet Halle-Wittenberg;2022;2110,91;10.3389/fpsyg.2022.935009;false;Frontiers_MEDIA_SA;Frontiers_in_Psychology
+109;Martin Luther Universitaet Halle-Wittenberg;2022;3436,87;10.3389/fpsyg.2022.953068;false;Frontiers_MEDIA_SA;Frontiers_in_Psychology
+110;Martin Luther Universitaet Halle-Wittenberg;2022;2445,57;10.3389/fpsyt.2021.743158;false;Frontiers_MEDIA_SA;Frontiers_in_Psychology
+111;Martin Luther Universitaet Halle-Wittenberg;2022;1996,72;10.3389/fvets.2022.882102;false;Frontiers_MEDIA_SA;Frontiers_in_Veterinary_Science 
+112;Martin Luther Universitaet Halle-Wittenberg;2022;1738,33;10.3390/agronomy11122474;false;MDPI_Basel;Agronomy
+113;Martin Luther Universitaet Halle-Wittenberg;2022;1738,33;10.3390/ani12020202;false;MDPI_Basel;Animals
+114;Martin Luther Universitaet Halle-Wittenberg;2022;1989,68;10.1186/s12877-021-02630-y;false;Springer_Nature;BMC_Geriatrics
+115;Martin Luther Universitaet Halle-Wittenberg;2022;1478,8;10.3390/antibiotics11101381;false;MDPI_Basel;Antibiotics
+116;Martin Luther Universitaet Halle-Wittenberg;2022;2448,4;10.3390/app11083492;false;MDPI_Basel;Applied_Sciences
+117;Martin Luther Universitaet Halle-Wittenberg;2022;1931,47;10.3390/app12031298;false;MDPI_Basel;Applied_Sciences
+118;Martin Luther Universitaet Halle-Wittenberg;2022;1337,11;10.3390/brainsci12081071;false;MDPI_Basel;Brain_Sciences
+119;Martin Luther Universitaet Halle-Wittenberg;2022;1550,76;10.3390/bs12090346;false;MDPI_Basel;Behavioral_Sciences
+120;Martin Luther Universitaet Halle-Wittenberg;2022;2317,76;10.3390/cancers14112599;false;MDPI_Basel;Cancers 
+121;Martin Luther Universitaet Halle-Wittenberg;2022;2025,51;10.3390/cancers14184429;false;MDPI_Basel;Cancers 
+122;Martin Luther Universitaet Halle-Wittenberg;2022;2356,2;10.3390/catal12090990;false;MDPI_Basel;Catalysts
+123;Martin Luther Universitaet Halle-Wittenberg;2022;1931,47;10.3390/cells10123499;false;MDPI_Basel;Cells
+124;Martin Luther Universitaet Halle-Wittenberg;2022;1019,39;10.3390/cells11010147;false;MDPI_Basel;Cells
+125;Martin Luther Universitaet Halle-Wittenberg;2022;2438,49;10.3390/cells11162583;false;MDPI_Basel;Cells 
+126;Martin Luther Universitaet Halle-Wittenberg;2022;1990,93;10.3390/diagnostics12102527;false;MDPI_Basel;Diagnostics
+127;Martin Luther Universitaet Halle-Wittenberg;2022;1352,03;10.3390/educsci12030167;false;MDPI_Basel;education sciences
+128;Martin Luther Universitaet Halle-Wittenberg;2022;1931,47;10.3390/foods10123142;false;MDPI_Basel;foods
+129;Martin Luther Universitaet Halle-Wittenberg;2022;1545,18;10.3390/healthcare9091198;false;MDPI_Basel;Healthcare
+130;Martin Luther Universitaet Halle-Wittenberg;2022;1541,61;10.3390/healthcare9121752;false;MDPI_Basel;Healthcare
+131;Martin Luther Universitaet Halle-Wittenberg;2022;2221,2;10.3390/ijerph19031138;false;MDPI_Basel;International_Journal_of_Environmental_Research_and_Public_Health
+132;Martin Luther Universitaet Halle-Wittenberg;2022;2883,67;10.3390/ijerph19031349;false;MDPI_Basel;International_Journal_of_Environmental_Research_and_Public_Health
+133;Martin Luther Universitaet Halle-Wittenberg;2022;1931,47;10.3390/ijms23063144;false;MDPI_Basel;International_Journal_of_Molecular_Sciences
+134;Martin Luther Universitaet Halle-Wittenberg;2022;2221,3;10.3390/ijms23105780;false;MDPI_Basel;International_Journal_of_Molecular_Sciences
+135;Martin Luther Universitaet Halle-Wittenberg;2022;1916,07;10.3390/ijms232314533;false;MDPI_Basel;International_Journal_of_Molecular_Sciences
+136;Martin Luther Universitaet Halle-Wittenberg;2022;1667,82;10.3390/insects13110972;false;MDPI_Basel;Insects
+137;Martin Luther Universitaet Halle-Wittenberg;2022;1996,38;10.3390/jcdd9100339;false;MDPI_Basel;Journal_of_Cardiovascular_Development_and_Disease
+138;Martin Luther Universitaet Halle-Wittenberg;2022;2317,76;10.3390/jcm11051187;false;MDPI_Basel;Journal_of_Clinical_Medicine
+139;Martin Luther Universitaet Halle-Wittenberg;2022;2583,65;10.3390/jcm11144105;false;MDPI_Basel;Journal_of_Clinical_Medicine
+140;Martin Luther Universitaet Halle-Wittenberg;2022;1545,18;10.3390/life11101081;false;MDPI_Basel;Life
+141;Martin Luther Universitaet Halle-Wittenberg;2022;1716,86;10.3390/microorganisms10010111;false;MDPI_Basel;Microorganisms
+142;Martin Luther Universitaet Halle-Wittenberg;2022;2038,77;10.3390/molecules26206179;false;MDPI_Basel;Molecules
+143;Martin Luther Universitaet Halle-Wittenberg;2022;1931,47;10.3390/molecules26247473;false;MDPI_Basel;Molecules
+144;Martin Luther Universitaet Halle-Wittenberg;2022;1931,47;10.3390/molecules27010061;false;MDPI_Basel;Molecules
+145;Martin Luther Universitaet Halle-Wittenberg;2022;1680,67;10.3390/ph15091138;false;MDPI_Basel;Pharmaceuticals
+146;Martin Luther Universitaet Halle-Wittenberg;2022;2360,67;10.3390/pharmaceutics13101546;false;MDPI_Basel;Pharmaceutics
+147;Martin Luther Universitaet Halle-Wittenberg;2022;2124,62;10.3390/pharmaceutics14020301;false;MDPI_Basel;Pharmaceutics
+148;Martin Luther Universitaet Halle-Wittenberg;2022;1761,39;10.3390/proteomes10030028;false;MDPI_Basel;Proteomes
+149;Martin Luther Universitaet Halle-Wittenberg;2022;1802,71;10.3390/rs14020393;false;MDPI_Basel;Remote_Sensing
+150;Martin Luther Universitaet Halle-Wittenberg;2022;1352,03;10.3390/sports9030034;false;MDPI_Basel;Sports
+151;Martin Luther Universitaet Halle-Wittenberg;2022;2610,3;10.3390/toxins14080508;false;MDPI_Basel;Toxins
+152;Martin Luther Universitaet Halle-Wittenberg;2022;2463,12;10.3390/vaccines10081350;false;MDPI_Basel;Vaccines
+153;Martin Luther Universitaet Halle-Wittenberg;2022;856,8;10.5334/ijc.1100;false;ubiquity_press;International_Journal_of_the_Commons
+154;Martin Luther Universitaet Halle-Wittenberg;2022;1419,37;10.5751/ES-13489-270316;false;Resilience_Alliance;Ecology_and_Society
