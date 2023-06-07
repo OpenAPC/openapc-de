@@ -35,6 +35,17 @@ DATA_FILES = {
     }
 }
 
+KNOWN_DUPLICATES = {
+    "apc": {
+        "file_path": "data/unresolved_duplicates.csv",
+        "doi_list": [],
+    },
+    "bpc": {
+        "file_path": "data/unresolved_bpc_duplicates.csv",
+        "doi_list": [],
+    }
+}
+
 ISBNHANDLING = None
 
 if __name__ == '__main__':
@@ -44,6 +55,8 @@ if __name__ == '__main__':
     import whitelists as wl
     ISBNHANDLING = oat.ISBNHandling("ISBNRangeFile.xml")
     for data_file, metadata in DATA_FILES.items():
+        metadata["file_path"] = join("..", "..", metadata["file_path"])
+    for _, metadata in KNOWN_DUPLICATES.items():
         metadata["file_path"] = join("..", "..", metadata["file_path"])
 
     def fail(msg):
@@ -74,8 +87,12 @@ def _get_isbn_group_publisher(isbn):
         return key
     return None
 
-doi_duplicate_list = []
-isbn_duplicate_list = []
+global_doi_list = []
+global_isbn_list = []
+
+known_doi_duplicates = []
+known_isbn_duplicates = []
+
 issn_dict = {}
 issn_p_dict = {}
 issn_e_dict = {}
@@ -95,7 +112,7 @@ for data_file, metadata in DATA_FILES.items():
             for field in metadata["unused_fields"]:
                 del(row[field])
             metadata["target_file"].append(RowObject(metadata["file_path"], line, row, data_file))
-            doi_duplicate_list.append(row["doi"])
+            global_doi_list.append(row["doi"])
 
             if metadata["has_issn"]:
                 reduced_row = {}
@@ -142,8 +159,15 @@ for data_file, metadata in DATA_FILES.items():
                     # clear row-internal duplicates
                     if oat.has_value(isbn) and isbn not in isbn_list and isbn not in wl.NON_DUPLICATE_ISBNS:
                         isbn_list.append(isbn)
-                isbn_duplicate_list += isbn_list
+                global_isbn_list += isbn_list
             line += 1
+
+for _, metadata in KNOWN_DUPLICATES.items():
+    with open(metadata["file_path"], "r") as csv_file:
+        reader = DictReader(csv_file)
+        for row in reader:
+            if row["doi"] not in metadata["doi_list"]:
+                metadata["doi_list"].append(row["doi"])
 
 def check_line_length(row_object):
     __tracebackhide__ = True
@@ -281,12 +305,17 @@ def check_for_doi_duplicates(row_object):
     __tracebackhide__ = True
     doi = row_object.row["doi"]
     if doi and doi != "NA":
-        doi_duplicate_list.remove(doi)
-        if doi in doi_duplicate_list:
-            line_str = '{}, line {}: '.format(row_object.file_name,
-                                              row_object.line_number)
+        line_str = '{}, line {}: '.format(row_object.file_name,
+                                          row_object.line_number)
+        global_doi_list.remove(doi)
+        if doi in global_doi_list:
             fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
                         'encountered more than one time')
+        for origin in ["apc", "bpc"]:
+            if row_object.origin == origin and doi in KNOWN_DUPLICATES[origin]["doi_list"]:
+                msg = 'DOI "{}" is listed in {} and should not appear in {}'
+                msg = msg.format(doi, KNOWN_DUPLICATES[origin]["file_path"], DATA_FILES[origin]["file_path"])
+                fail(line_str + msg)
 
 def check_for_isbn_duplicates(row_object):
     __tracebackhide__ = True
@@ -297,8 +326,8 @@ def check_for_isbn_duplicates(row_object):
         if oat.has_value(isbn) and isbn not in isbn_list and isbn not in wl.NON_DUPLICATE_ISBNS:
             isbn_list.append(isbn)
     for isbn in isbn_list:
-        isbn_duplicate_list.remove(isbn)
-        if isbn in isbn_duplicate_list:
+        global_isbn_list.remove(isbn)
+        if isbn in global_isbn_list:
             line_str = '{}, line {}: '.format(row_object.file_name,
                                               row_object.line_number)
             fail(line_str + 'Duplicate: ISBN "' + isbn + '" was ' +
