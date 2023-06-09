@@ -369,8 +369,11 @@ JOURNAL_OWNER_CHANGED = {
     "0140-1971": ["Elsevier BV", "Wiley-Blackwell"], # Journal of Adolescence 
     "1095-9254": ["Elsevier BV", "Wiley-Blackwell"], # Journal of Adolescence (electronic)
     "1903-220X": ["Wildlife Biology", "Wiley-Blackwell"], # Wildlife Biology 
-	"0909-6396": ["Wildlife Biology", "Wiley-Blackwell"], # Wildlife Biology (linking)
-
+    "0909-6396": ["Wildlife Biology", "Wiley-Blackwell"], # Wildlife Biology (linking)
+    "0028-1522": ["Wiley-Blackwell", "Institute of Navigation"], # NAVIGATION: Journal of the Institute of Navigation 
+    "2161-4296": ["Wiley-Blackwell", "Institute of Navigation"], # NAVIGATION: Journal of the Institute of Navigation (electronic)
+    "1896-0596": ["Exeley, Inc.", "Silesian University of Technology"], # Transport Problems 
+    "2300-861X": ["Exeley, Inc.", "Silesian University of Technology"], # Transport Problems (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -581,6 +584,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1399-543X", # Pediatric Diabetes, Gold OA since 2023
     "0032-7786", # Preslia, Gold OA since 2022
     "0169-1368", # Ore Geology Reviews, Gold OA since 2022
+    "0004-6256", # The Astronomical Journal, Gold OA since 2022
+    "0028-1522", # NAVIGATION: Journal of the Institute of Navigation, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
