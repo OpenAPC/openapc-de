@@ -586,6 +586,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0169-1368", # Ore Geology Reviews, Gold OA since 2022
     "0004-6256", # The Astronomical Journal, Gold OA since 2022
     "0028-1522", # NAVIGATION: Journal of the Institute of Navigation, Gold OA since 2022
+    "1567-1348", # Infection, Genetics and Evolution, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
