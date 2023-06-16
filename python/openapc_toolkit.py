@@ -1145,7 +1145,7 @@ def find_book_dois_in_crossref(isbn_list):
             ret_value["success"] = True
         else:
             for item in data["message"]["items"]:
-                if item["type"] in ["monograph", "book"] and item["DOI"] not in ret_value["dois"]:
+                if item["type"] in ["monograph", "book", "edited-book"] and item["DOI"] not in ret_value["dois"]:
                     ret_value["dois"].append(item["DOI"])
             if len(ret_value["dois"]) == 0:
                 msg = "No monograph/book DOI type found in  Crossref ISBN search result ({})!"
@@ -1342,7 +1342,7 @@ def get_metadata_from_crossref(doi_string):
             }
         },
         'book': {
-            'aliases': ['monograph'],
+            'aliases': ['monograph', 'edited-book'],
             'data_fields': {
                 'publisher': {
                     'access': 'path',
