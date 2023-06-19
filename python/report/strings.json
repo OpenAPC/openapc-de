@@ -1,6 +1,6 @@
 {
     "DE": {
-        "front": "---\ngeometry:\n- top=30mm\n- left=20mm\n- right=20mm\n- heightrounded\nlinkcolor: red\nfontfamily: arev\n---\n\n![](report/openAPC_01.png){#openapc_logo width=20%}\n\n",
+        "front": "---\ngeometry:\n- top=30mm\n- left=20mm\n- right=20mm\n- heightrounded\nlinkcolor: red\n---\n\n![](report/openAPC_01.png){#openapc_logo width=20%}\n\n",
         "header": "# Datenanalyse\n\n",
         "intro": "### Vorbemerkung\n\n Dies ist eine automatisch erstellte Auswertung sämtlicher Daten, die ihre Institution bereits an OpenAPC gemeldet hat. Ziel dieser Analyse ist es, Anhaltspunkte für mögliche Fehler in den übermittelten Daten aufzuspüren. Dieser Bericht soll dabei ausdrücklich nur als optionale Dienstleistung für OpenAPC-Teilnehmer verstanden werden - wir erwarten keinesfalls, dass sie darauf antworten oder gar zu jedem aufgeführten Punkt Stellung beziehen. Falls die Ergebnisse aber dazu beitragen sollten, tatsächlich Fehler in den gemeldeten Daten zu finden, würden wir uns natürlich sehr über eine Korrekturmeldung freuen.\n\n",
         "ad_th": "|Jahrgang|Artikel|Gemeldete Kosten|MW|SD|Differenz\n|--|----|-|-|-|-|\n",
