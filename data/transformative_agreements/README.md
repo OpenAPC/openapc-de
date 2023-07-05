@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 74,538 articles, published at 337 institutions under 67 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 74,609 articles, published at 337 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -62,6 +62,7 @@ This dataset contains information on 74,538 articles, published at 337 instituti
 |QNL T&F Agreement                                |       85|
 |FinELib Wolters Kluwer Lippincott agreement      |       81|
 |EISZ agreement Springer Nature                   |       79|
+|Swiss Consortium Ovid LWW agreement              |       71|
 |EISZ agreement Elsevier                          |       64|
 |EISZ agreement Akadémiai Kiadó                   |       54|
 |MPG Taylor & Francis agreement                   |       46|
@@ -98,14 +99,14 @@ This dataset contains information on 74,538 articles, published at 337 instituti
 |University of Helsinki                                                                                                                             |     3028|
 |FWF - Austrian Science Fund                                                                                                                        |     2470|
 |ETH Zurich                                                                                                                                         |     1999|
-|University of Zurich                                                                                                                               |     1858|
+|University of Zurich                                                                                                                               |     1879|
 |TU Muenchen                                                                                                                                        |     1339|
 |Lund University                                                                                                                                    |     1177|
 |Aalto University                                                                                                                                   |     1164|
 |Muenchen LMU                                                                                                                                       |     1124|
-|University of Bern                                                                                                                                 |     1098|
+|University of Bern                                                                                                                                 |     1118|
+|University of Geneva                                                                                                                               |     1088|
 |Tampere University                                                                                                                                 |     1081|
-|University of Geneva                                                                                                                               |     1079|
 |Karolinska Institutet                                                                                                                              |     1061|
 |University of Turku                                                                                                                                |     1054|
 |UCL                                                                                                                                                |     1022|
@@ -115,9 +116,9 @@ This dataset contains information on 74,538 articles, published at 337 instituti
 |University of Oxford                                                                                                                               |      883|
 |Uppsala University                                                                                                                                 |      869|
 |Tuebingen U                                                                                                                                        |      867|
+|University of Lausanne                                                                                                                             |      864|
 |Charité - Universitätsmedizin Berlin                                                                                                               |      860|
-|University of Lausanne                                                                                                                             |      855|
-|University of Basel                                                                                                                                |      831|
+|University of Basel                                                                                                                                |      843|
 |University of Gothenburg                                                                                                                           |      820|
 |University of Eastern Finland                                                                                                                      |      793|
 |Frankfurt U                                                                                                                                        |      777|
