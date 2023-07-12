@@ -1,9 +1,9 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Bonn U",2022,2360.69,"10.3390/w14030405",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Bonn U",2022,2308.6,"10.1016/j.wdp.2022.100395",FALSE,"Elsevier BV","World Development Perspectives","2452-2929","2452-2929",NA,"2452-2929","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Bonn U",2022,833,"10.1016/j.landusepol.2021.105950",FALSE,"Elsevier BV","Land Use Policy","0264-8377","0264-8377",NA,"0264-8377","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bonn U",2022,2308.6,"10.1016/j.wdp.2022.100395",TRUE,"Elsevier BV","World Development Perspectives","2452-2929","2452-2929",NA,"2452-2929","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bonn U",2022,833,"10.1016/j.landusepol.2021.105950",TRUE,"Elsevier BV","Land Use Policy","0264-8377","0264-8377",NA,"0264-8377","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Bonn U",2022,1552.95,"10.1016/j.japr.2022.100237",FALSE,"Elsevier BV","The Journal of Applied Poultry Research","1056-6171","1056-6171",NA,"1056-6171","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Bonn U",2022,3248.7,"10.1080/08853134.2022.2037436",FALSE,"Informa UK Limited","Journal of Personal Selling & Sales Management","0885-3134","0885-3134","1557-7813","0885-3134","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bonn U",2022,3248.7,"10.1080/08853134.2022.2037436",TRUE,"Informa UK Limited","Journal of Personal Selling & Sales Management","0885-3134","0885-3134","1557-7813","0885-3134","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Bonn U",2022,2215.96,"10.3390/su14042447",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Bonn U",2022,5308.63,"10.1038/s41467-021-26935-z",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"34785661","PMC8595372",NA,NA,TRUE
 "Bonn U",2022,1793.45,"10.1038/s41598-020-79159-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"33361774","PMC7759581",NA,NA,TRUE
@@ -40,9 +40,9 @@
 "Bonn U",2022,2330.01,"10.1111/eva.13331",FALSE,"Wiley-Blackwell","Evolutionary Applications","1752-4571","1752-4571","1752-4571","1752-4571","http://creativecommons.org/licenses/by/4.0/",TRUE,"35126652","PMC8792473",NA,NA,TRUE
 "Bonn U",2022,2877.42,"10.5194/bg-19-1933-2022",FALSE,"Copernicus GmbH","Biogeosciences","1726-4189",NA,"1726-4189","1726-4170","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Bonn U",2022,2146.08,"10.3390/su14105749",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Bonn U",2022,3464.93,"10.1177/10731911221089193",FALSE,"SAGE Publications","Assessment","1073-1911","1073-1911","1552-3489","1073-1911","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"35435010","PMC10248306",NA,NA,FALSE
+"Bonn U",2022,3464.93,"10.1177/10731911221089193",TRUE,"SAGE Publications","Assessment","1073-1911","1073-1911","1552-3489","1073-1911","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"35435010","PMC10248306",NA,NA,FALSE
 "Bonn U",2022,2251.68,"10.3390/w14111697",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Bonn U",2022,831.38,"10.1016/j.agrformet.2022.109020",FALSE,"Elsevier BV","Agricultural and Forest Meteorology","0168-1923","0168-1923",NA,"0168-1923","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bonn U",2022,831.38,"10.1016/j.agrformet.2022.109020",TRUE,"Elsevier BV","Agricultural and Forest Meteorology","0168-1923","0168-1923",NA,"0168-1923","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Bonn U",2022,1931.47,"10.3390/su14106295",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Bonn U",2022,832.68,"10.3390/molecules27123792",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"35744918","PMC9231011",NA,NA,TRUE
 "Bonn U",2022,3531.05,"10.3389/fpsyt.2022.928145",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","1664-0640","https://creativecommons.org/licenses/by/4.0/",TRUE,"35923453","PMC9339709",NA,NA,TRUE
@@ -61,7 +61,7 @@
 "Bonn U",2022,809.2,"10.1002/ccr3.5931",FALSE,"Wiley-Blackwell","Clinical Case Reports","2050-0904","2050-0904","2050-0904","2050-0904","http://creativecommons.org/licenses/by/4.0/",TRUE,"35662778","PMC9163478",NA,NA,TRUE
 "Bonn U",2022,2198.95,"10.3390/agriculture12081186",FALSE,"MDPI AG","Agriculture","2077-0472",NA,"2077-0472","2077-0472","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Bonn U",2022,2227.44,"10.3390/ma15155285",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"35955220","PMC9369520",NA,NA,TRUE
-"Bonn U",2022,701.95,"10.1103/physrevapplied.18.044039",FALSE,"American Physical Society (APS)","Physical Review Applied","2331-7019",NA,"2331-7019","2331-7019","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bonn U",2022,701.95,"10.1103/physrevapplied.18.044039",TRUE,"American Physical Society (APS)","Physical Review Applied","2331-7019",NA,"2331-7019","2331-7019","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Bonn U",2022,1682.29,"10.3390/hydrology9090158",FALSE,"MDPI AG","Hydrology","2306-5338",NA,"2306-5338","2306-5338","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Bonn U",2022,1155.72,"10.3390/jfb13030143",FALSE,"MDPI AG","Journal of Functional Biomaterials","2079-4983",NA,"2079-4983","2079-4983","https://creativecommons.org/licenses/by/4.0/",TRUE,"36135578","PMC9503392",NA,NA,TRUE
 "Bonn U",2022,833,"10.1093/nar/gkac752",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","https://creativecommons.org/licenses/by/4.0/",TRUE,"36107771","PMC9508816",NA,NA,TRUE
@@ -131,8 +131,8 @@
 "Bonn U",2022,4141.2,"10.1002/advs.202105336",FALSE,"Wiley-Blackwell","Advanced Science","2198-3844","2198-3844","2198-3844","2198-3844","http://creativecommons.org/licenses/by/4.0/",TRUE,"35343102","PMC9131432",NA,NA,TRUE
 "Bonn U",2022,2522.8,"10.1002/clt2.12185",FALSE,"Wiley-Blackwell","Clinical and Translational Allergy","2045-7022","2045-7022","2045-7022","2045-7022","http://creativecommons.org/licenses/by/4.0/",TRUE,"36225264","PMC9533217",NA,NA,TRUE
 "Bonn U",2022,2427.6,"10.1002/acn3.51620",FALSE,"Wiley-Blackwell","Annals of Clinical and Translational Neurology","2328-9503","2328-9503","2328-9503","2328-9503","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35776784","PMC9380176",NA,NA,TRUE
-"Bonn U",2022,833,"10.1016/j.biocon.2022.109666",FALSE,"Elsevier BV","Biological Conservation","0006-3207","0006-3207",NA,"0006-3207","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Bonn U",2022,2264.9,"10.1136/jmg-2022-108738",FALSE,"BMJ","Journal of Medical Genetics","0022-2593","0022-2593","1468-6244","0022-2593","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"36379543","PMC10262053",NA,NA,FALSE
+"Bonn U",2022,833,"10.1016/j.biocon.2022.109666",TRUE,"Elsevier BV","Biological Conservation","0006-3207","0006-3207",NA,"0006-3207","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"Bonn U",2022,2264.9,"10.1136/jmg-2022-108738",TRUE,"BMJ","Journal of Medical Genetics","0022-2593","0022-2593","1468-6244","0022-2593","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"36379543","PMC10262053",NA,NA,FALSE
 "Bonn U",2022,2378.39,"10.3390/w14203254",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Bonn U",2022,2998.8,"10.1111/pbi.13936",FALSE,"Wiley-Blackwell","Plant Biotechnology Journal","1467-7644","1467-7644","1467-7652","1467-7644","http://creativecommons.org/licenses/by/4.0/",TRUE,"36165983","PMC9829395",NA,NA,TRUE
 "Bonn U",2022,1888.53,"10.1002/pld3.438",FALSE,"Wiley-Blackwell","Plant Direct","2475-4455","2475-4455","2475-4455","2475-4455","http://creativecommons.org/licenses/by/4.0/",TRUE,"36091876","PMC9440346",NA,NA,TRUE
@@ -142,7 +142,7 @@
 "Bonn U",2022,3284.4,"10.1002/1878-0261.13300",FALSE,"Wiley-Blackwell","Molecular Oncology","1574-7891","1574-7891","1878-0261","1574-7891","http://creativecommons.org/licenses/by/4.0/",TRUE,"35973936","PMC9580888",NA,NA,TRUE
 "Bonn U",2022,1808.8,"10.1002/lio2.919",FALSE,"Wiley-Blackwell","Laryngoscope Investigative Otolaryngology","2378-8038","2378-8038","2378-8038","2378-8038","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"36258852","PMC9575114",NA,NA,TRUE
 "Bonn U",2022,1566.22,"10.21037/jgo-22-632",FALSE,"AME Publishing Company","Journal of Gastrointestinal Oncology","2078-6891","2078-6891","2219-679X","2078-6891",NA,TRUE,"36915455","PMC10007927",NA,NA,FALSE
-"Bonn U",2022,4581.5,"10.1016/j.cpr.2022.102213",FALSE,"Elsevier BV","Clinical Psychology Review","0272-7358","0272-7358",NA,"0272-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"36356351",NA,NA,NA,FALSE
+"Bonn U",2022,4581.5,"10.1016/j.cpr.2022.102213",TRUE,"Elsevier BV","Clinical Psychology Review","0272-7358","0272-7358",NA,"0272-7358","http://creativecommons.org/licenses/by/4.0/",TRUE,"36356351",NA,NA,NA,FALSE
 "Bonn U",2022,1383.16,"10.1038/s41392-022-01162-0",FALSE,"Springer Nature","Signal Transduction and Targeted Therapy","2059-3635",NA,"2059-3635","2059-3635","https://creativecommons.org/licenses/by/4.0",TRUE,"36138014","PMC9500050",NA,NA,TRUE
 "Bonn U",2022,2001.37,"10.1038/s41597-022-01506-z",FALSE,"Springer Nature","Scientific Data","2052-4463",NA,"2052-4463","2052-4463","https://creativecommons.org/licenses/by/4.0",TRUE,"35882865","PMC9325750",NA,NA,TRUE
 "Bonn U",2022,3300.82,"10.1038/s42003-022-03741-x",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"35933562","PMC9357034",NA,NA,TRUE
@@ -175,4 +175,4 @@
 "Bonn U",2022,9044,"10.1016/j.celrep.2022.111766",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by/4.0/",TRUE,"36476872",NA,NA,NA,TRUE
 "Bonn U",2022,2278.23,"10.3390/su142114491",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Bonn U",2022,2342.96,"10.3389/fvets.2022.954607",FALSE,"Frontiers Media SA","Frontiers in Veterinary Science","2297-1769",NA,"2297-1769","2297-1769","https://creativecommons.org/licenses/by/4.0/",TRUE,"36686168","PMC9853183",NA,NA,TRUE
-"Bonn U",2022,1785,"10.3920/jiff2022.0151",FALSE,"Wageningen Academic Publishers","Journal of Insects as Food and Feed","2352-4588",NA,"2352-4588","2352-4588",NA,TRUE,NA,NA,NA,NA,FALSE
+"Bonn U",2022,1785,"10.3920/jiff2022.0151",TRUE,"Wageningen Academic Publishers","Journal of Insects as Food and Feed","2352-4588",NA,"2352-4588","2352-4588",NA,TRUE,NA,NA,NA,NA,FALSE
