@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 75,202 articles, published at 337 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 75,595 articles, published at 337 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -34,6 +34,7 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |FinELib Elsevier agreement                       |     1616|
 |FinELib Taylor & Francis agreement               |     1043|
 |FinELib IEEE agreement                           |      705|
+|Swiss Consortium T&F agreement                   |      700|
 |FWF Transformative Agreement Wiley-Blackwell     |      684|
 |FinELib SAGE agreement                           |      588|
 |University of Milan - Springer                   |      395|
@@ -42,7 +43,6 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |FWF Transformative Agreement Springer Nature     |      371|
 |FinELib ACS agreement                            |      367|
 |Swiss Consortium CUP agreement                   |      317|
-|Swiss Consortium T&F agreement                   |      307|
 |FWF Transformative Agreement ACS                 |      298|
 |FinELib Emerald agreement                        |      267|
 |MPG RSC agreement                                |      246|
@@ -98,15 +98,15 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |French institutions                                                                                                                                |     3330|
 |University of Helsinki                                                                                                                             |     3028|
 |FWF - Austrian Science Fund                                                                                                                        |     2470|
-|ETH Zurich                                                                                                                                         |     1999|
-|University of Zurich                                                                                                                               |     1879|
+|ETH Zurich                                                                                                                                         |     2067|
+|University of Zurich                                                                                                                               |     1947|
 |TU Muenchen                                                                                                                                        |     1339|
 |Lund University                                                                                                                                    |     1177|
 |Aalto University                                                                                                                                   |     1164|
+|University of Geneva                                                                                                                               |     1140|
 |Bonn U                                                                                                                                             |     1124|
 |Muenchen LMU                                                                                                                                       |     1124|
 |University of Bern                                                                                                                                 |     1118|
-|University of Geneva                                                                                                                               |     1088|
 |Tampere University                                                                                                                                 |     1081|
 |Karolinska Institutet                                                                                                                              |     1061|
 |University of Turku                                                                                                                                |     1054|
@@ -114,17 +114,17 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |University of Oulu                                                                                                                                 |      988|
 |MPG                                                                                                                                                |      946|
 |University of Cambridge                                                                                                                            |      912|
+|University of Lausanne                                                                                                                             |      910|
 |University of Oxford                                                                                                                               |      883|
+|University of Basel                                                                                                                                |      870|
 |Uppsala University                                                                                                                                 |      869|
 |Tuebingen U                                                                                                                                        |      867|
-|University of Lausanne                                                                                                                             |      864|
 |Charité - Universitätsmedizin Berlin                                                                                                               |      860|
-|University of Basel                                                                                                                                |      843|
 |University of Gothenburg                                                                                                                           |      820|
 |University of Eastern Finland                                                                                                                      |      793|
 |Frankfurt U                                                                                                                                        |      777|
 |Imperial College London                                                                                                                            |      771|
-|École Polytechnique Fédérale de Lausanne                                                                                                           |      718|
+|École Polytechnique Fédérale de Lausanne                                                                                                           |      731|
 |Milano U                                                                                                                                           |      702|
 |University of Jyväskylä                                                                                                                            |      671|
 |King's College London                                                                                                                              |      652|
@@ -185,11 +185,11 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |Giessen U                                                                                                                                          |      245|
 |Kassel U                                                                                                                                           |      241|
 |University of Debrecen                                                                                                                             |      236|
+|University of Fribourg                                                                                                                             |      234|
 |TU Wien                                                                                                                                            |      231|
 |University of Reading                                                                                                                              |      226|
 |Medical University of Graz                                                                                                                         |      222|
 |Queen's University Belfast                                                                                                                         |      217|
-|University of Fribourg                                                                                                                             |      217|
 |Tilburg University                                                                                                                                 |      208|
 |University of York                                                                                                                                 |      205|
 |Örebro University                                                                                                                                  |      200|
@@ -201,13 +201,13 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |VTT Technical Research Centre of Finland Ltd                                                                                                       |      184|
 |TU Chemnitz                                                                                                                                        |      182|
 |University of Natural Resources and Life Sciences Vienna (BOKU)                                                                                    |      181|
+|University of Neuchatel                                                                                                                            |      180|
 |Graz University of Technology                                                                                                                      |      176|
 |University of Durham                                                                                                                               |      175|
 |University of Loughborough                                                                                                                         |      173|
 |Siegen U                                                                                                                                           |      170|
 |University of St Andrews                                                                                                                           |      168|
 |University of Sussex                                                                                                                               |      168|
-|University of Neuchatel                                                                                                                            |      167|
 |University of Vaasa                                                                                                                                |      167|
 |LSE                                                                                                                                                |      166|
 |University of East Anglia                                                                                                                          |      164|
@@ -223,22 +223,22 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |Swansea University                                                                                                                                 |      142|
 |University of Aberdeen                                                                                                                             |      142|
 |Hamburg TUHH                                                                                                                                       |      135|
+|University of St.Gallen                                                                                                                            |      135|
 |Johannes Kepler University Linz                                                                                                                    |      130|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
-|University of St.Gallen                                                                                                                            |      121|
+|University of Applied Sciences and Arts Western Switzerland                                                                                        |      123|
 |Paracelsus Medical University                                                                                                                      |      116|
 |University of Dundee                                                                                                                               |      115|
 |GFZ-Potsdam                                                                                                                                        |      112|
-|University of Applied Sciences and Arts Western Switzerland                                                                                        |      110|
 |Northumbria University                                                                                                                             |      109|
+|ZHAW Zurich University of Applied Sciences                                                                                                         |      109|
 |Mannheim U                                                                                                                                         |      108|
 |University of Surrey                                                                                                                               |      107|
 |Montanuniversität Leoben                                                                                                                           |      105|
-|ZHAW Zurich University of Applied Sciences                                                                                                         |      105|
+|Università della Svizzera italiana                                                                                                                 |      103|
 |Jönköping University                                                                                                                               |      102|
 |Liverpool John Moores University                                                                                                                   |      102|
-|Università della Svizzera italiana                                                                                                                 |      100|
 |Heriot-Watt University                                                                                                                             |       98|
 |Finnish Institute for Health and Welfare                                                                                                           |       96|
 |Malmö University                                                                                                                                   |       93|
@@ -246,6 +246,7 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |Hanken School of Economics                                                                                                                         |       90|
 |Royal Holloway                                                                                                                                     |       87|
 |City University London                                                                                                                             |       86|
+|Graduate Institute of International and Development Studies                                                                                        |       85|
 |Finnish Environment Institute                                                                                                                      |       82|
 |Karlstad University                                                                                                                                |       82|
 |Sheffield Hallam University                                                                                                                        |       82|
@@ -254,19 +255,18 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |Royal Botanic Gardens                                                                                                                              |       76|
 |Cranfield University                                                                                                                               |       75|
 |Mälardalen University                                                                                                                              |       74|
+|University of Applied Sciences and Arts Northwestern Switzerland                                                                                   |       73|
 |Bangor University                                                                                                                                  |       72|
 |Bochum U                                                                                                                                           |       72|
 |Salzburg U                                                                                                                                         |       72|
 |University of Hull                                                                                                                                 |       72|
 |University of Ulster                                                                                                                               |       72|
 |Bournemouth University                                                                                                                             |       71|
-|Graduate Institute of International and Development Studies                                                                                        |       69|
+|Bern University of Applied Sciences                                                                                                                |       68|
 |Mid Sweden University                                                                                                                              |       67|
 |University of Stirling                                                                                                                             |       66|
-|Bern University of Applied Sciences                                                                                                                |       65|
 |University of Lapland                                                                                                                              |       65|
 |Manchester Metropolitan University                                                                                                                 |       64|
-|University of Applied Sciences and Arts Northwestern Switzerland                                                                                   |       64|
 |The Open University                                                                                                                                |       60|
 |University of Huddersfield                                                                                                                         |       60|
 |Aston University                                                                                                                                   |       58|
@@ -277,9 +277,9 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |BTH Blekinge Institute of Technology                                                                                                               |       52|
 |RISE Research Institutes of Sweden                                                                                                                 |       51|
 |University of Klagenfurt                                                                                                                           |       51|
+|University of Applied Sciences and Arts of Southern Switzerland                                                                                    |       50|
 |Vienna University of Economics and Business (WU)                                                                                                   |       49|
 |St George's, University of London                                                                                                                  |       48|
-|University of Applied Sciences and Arts of Southern Switzerland                                                                                    |       47|
 |Fraunhofer-Gesellschaft Publishing Fund                                                                                                            |       46|
 |University of Gävle                                                                                                                                |       45|
 |European Organization for Nuclear Research                                                                                                         |       44|
@@ -293,7 +293,9 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |University of Greenwich                                                                                                                            |       39|
 |Aberystwyth University                                                                                                                             |       38|
 |FZJ - ZB                                                                                                                                           |       38|
+|Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL                                                          |       38|
 |Swedish Museum of Natural History                                                                                                                  |       38|
+|Universität Luzern                                                                                                                                 |       37|
 |HZDR                                                                                                                                               |       36|
 |Leibniz-IGB                                                                                                                                        |       36|
 |Robert Gordon University                                                                                                                           |       36|
@@ -301,14 +303,12 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |Greifswald U                                                                                                                                       |       34|
 |Kingston University                                                                                                                                |       34|
 |University of Borås                                                                                                                                |       34|
+|Hochschule Luzern                                                                                                                                  |       33|
 |University of Central Lancashire                                                                                                                   |       32|
-|Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL                                                          |       31|
 |University of West of Scotland                                                                                                                     |       31|
-|Hochschule Luzern                                                                                                                                  |       30|
 |University of Skövde                                                                                                                               |       30|
 |Goldsmiths                                                                                                                                         |       29|
 |International Institute for Applied Systems Analysis (IIASA)                                                                                       |       29|
-|Universität Luzern                                                                                                                                 |       29|
 |University of Derby                                                                                                                                |       29|
 |Finnish Institute of Occupational Health                                                                                                           |       28|
 |Halmstad University                                                                                                                                |       28|
@@ -322,10 +322,10 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |University of Westminster                                                                                                                          |       25|
 |Glasgow Caledonian University                                                                                                                      |       24|
 |Dalarna University                                                                                                                                 |       22|
+|Forschungsinstitut für biologischen Landbau FiBL                                                                                                   |       21|
 |London South Bank University                                                                                                                       |       20|
 |Stockholm School of Economics                                                                                                                      |       20|
 |Cardiff Metropolitan University                                                                                                                    |       19|
-|Forschungsinstitut für biologischen Landbau FiBL                                                                                                   |       19|
 |Westerdijk Fungal Biodiversity Center (CBS)                                                                                                        |       19|
 |HAW Hamburg                                                                                                                                        |       18|
 |Rostock U                                                                                                                                          |       18|
@@ -339,11 +339,11 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |National Land Survey of Finland                                                                                                                    |       15|
 |Swiss Ornithological Institute                                                                                                                     |       15|
 |Birmingham City University                                                                                                                         |       13|
+|OST University of Applied Science of Eastern Switzerland                                                                                           |       13|
 |TU Clausthal                                                                                                                                       |       13|
 |Danube University Krems University for Continuing Education                                                                                        |       12|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
 |MDC                                                                                                                                                |       11|
-|OST University of Applied Science of Eastern Switzerland                                                                                           |       11|
 |Scotland's Rural College                                                                                                                           |       11|
 |Swedish School of Sport and Health Sciences                                                                                                        |       11|
 |University of Chester                                                                                                                              |       11|
@@ -356,6 +356,7 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
 |Häme University of Applied Sciences                                                                                                                |        7|
 |Haute École Pédagogique du Canton de Vaud                                                                                                          |        7|
+|Pädagogische Hochschule Zürich                                                                                                                     |        7|
 |Queen Margaret University                                                                                                                          |        7|
 |Social Insurance Institution of Finland                                                                                                            |        7|
 |Swiss Federal University for Vocational Education and Training                                                                                     |        7|
@@ -370,7 +371,6 @@ This dataset contains information on 75,202 articles, published at 337 instituti
 |University of Roehampton                                                                                                                           |        6|
 |VATT Institute for Economic Research                                                                                                               |        6|
 |Metropolia University of Applied Sciences                                                                                                          |        5|
-|Pädagogische Hochschule Zürich                                                                                                                     |        5|
 |Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        5|
 |SWP - German Institute for International and Security Affairs                                                                                      |        5|
 |University of Worcester                                                                                                                            |        5|
