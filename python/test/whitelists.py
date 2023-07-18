@@ -588,6 +588,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0028-1522", # NAVIGATION: Journal of the Institute of Navigation, Gold OA since 2022
     "1567-1348", # Infection, Genetics and Evolution, Gold OA since 2022
     "1648-715X", # International Journal of Strategic Property Management, Gold OA since 2018
+    "1747-423X", # Journal of Land Use Science, Gold OA since 2022
+    "1548-1603", # GIScience & Remote Sensing, Gold OA since 2022
+    "1744-1692", # Global Public Health, Gold OA since 2023
+    "1541-2555", # COPD: Journal of Chronic Obstructive Pulmonary Disease, Gold OA sinc2 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
