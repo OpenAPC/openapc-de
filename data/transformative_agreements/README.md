@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 75,601 articles, published at 337 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 75,602 articles, published at 337 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -34,7 +34,7 @@ This dataset contains information on 75,601 articles, published at 337 instituti
 |FinELib Elsevier agreement                       |     1616|
 |FinELib Taylor & Francis agreement               |     1043|
 |FinELib IEEE agreement                           |      705|
-|Swiss Consortium T&F agreement                   |      700|
+|Swiss Consortium T&F agreement                   |      701|
 |FWF Transformative Agreement Wiley-Blackwell     |      684|
 |FinELib SAGE agreement                           |      588|
 |University of Milan - Springer                   |      395|
@@ -231,8 +231,8 @@ This dataset contains information on 75,601 articles, published at 337 instituti
 |Paracelsus Medical University                                                                                                                      |      116|
 |University of Dundee                                                                                                                               |      115|
 |GFZ-Potsdam                                                                                                                                        |      112|
+|ZHAW Zurich University of Applied Sciences                                                                                                         |      110|
 |Northumbria University                                                                                                                             |      109|
-|ZHAW Zurich University of Applied Sciences                                                                                                         |      109|
 |Mannheim U                                                                                                                                         |      108|
 |University of Surrey                                                                                                                               |      107|
 |Montanuniversität Leoben                                                                                                                           |      105|
