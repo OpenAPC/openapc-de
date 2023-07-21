@@ -84,7 +84,8 @@ JOURNAL_OWNER_CHANGED = {
     "1526-9914": ["Multimed Inc.", "Wiley-Blackwell"], # Journal of Applied Clinical Medical Physics
     "1559-2448": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review
     "1096-7508": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review (linking)
-    "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine
+    "1528-3658": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine 
+    "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine (linking)
     "1555-4309": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging
     "1555-4317": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging (electronic)
     "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
@@ -591,7 +592,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1747-423X", # Journal of Land Use Science, Gold OA since 2022
     "1548-1603", # GIScience & Remote Sensing, Gold OA since 2022
     "1744-1692", # Global Public Health, Gold OA since 2023
-    "1541-2555", # COPD: Journal of Chronic Obstructive Pulmonary Disease, Gold OA sinc2 2022
+    "1541-2555", # COPD: Journal of Chronic Obstructive Pulmonary Disease, Gold OA since 2022
+    "1098-612X", # Journal of Feline Medicine and Surgery, Gold OA since 2023
+    "0361-9230", # Brain Research Bulletin, Gold OA since 2023
+    "1871-6784", # New Biotechnology, Gold OA since 2022
+    "2035-648X", # European Journal of Paediatric Dentistry
+    "1591-996X", # European Journal of Paediatric Dentistry (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
