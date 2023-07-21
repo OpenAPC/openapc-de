@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 75,595 articles, published at 337 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 75,601 articles, published at 337 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -52,7 +52,7 @@ This dataset contains information on 75,595 articles, published at 337 instituti
 |QNL Elsevier Agreement                           |      194|
 |FWF Transformative Agreement Elsevier            |      186|
 |Austrian Consortium RSC agreement                |      179|
-|Swiss Consortium IOP agreement                   |      166|
+|Swiss Consortium IOP agreement                   |      172|
 |FinELib RSC agreement                            |      144|
 |FWF Transformative Agreement IOP                 |      133|
 |Swiss Consortium Karger agreement                |      118|
@@ -98,15 +98,15 @@ This dataset contains information on 75,595 articles, published at 337 instituti
 |French institutions                                                                                                                                |     3330|
 |University of Helsinki                                                                                                                             |     3028|
 |FWF - Austrian Science Fund                                                                                                                        |     2470|
-|ETH Zurich                                                                                                                                         |     2067|
-|University of Zurich                                                                                                                               |     1947|
+|ETH Zurich                                                                                                                                         |     2069|
+|University of Zurich                                                                                                                               |     1948|
 |TU Muenchen                                                                                                                                        |     1339|
 |Lund University                                                                                                                                    |     1177|
 |Aalto University                                                                                                                                   |     1164|
 |University of Geneva                                                                                                                               |     1140|
+|University of Bern                                                                                                                                 |     1126|
 |Bonn U                                                                                                                                             |     1124|
 |Muenchen LMU                                                                                                                                       |     1124|
-|University of Bern                                                                                                                                 |     1118|
 |Tampere University                                                                                                                                 |     1081|
 |Karolinska Institutet                                                                                                                              |     1061|
 |University of Turku                                                                                                                                |     1054|
@@ -116,15 +116,15 @@ This dataset contains information on 75,595 articles, published at 337 instituti
 |University of Cambridge                                                                                                                            |      912|
 |University of Lausanne                                                                                                                             |      910|
 |University of Oxford                                                                                                                               |      883|
-|University of Basel                                                                                                                                |      870|
 |Uppsala University                                                                                                                                 |      869|
 |Tuebingen U                                                                                                                                        |      867|
+|University of Basel                                                                                                                                |      863|
 |Charité - Universitätsmedizin Berlin                                                                                                               |      860|
 |University of Gothenburg                                                                                                                           |      820|
 |University of Eastern Finland                                                                                                                      |      793|
 |Frankfurt U                                                                                                                                        |      777|
 |Imperial College London                                                                                                                            |      771|
-|École Polytechnique Fédérale de Lausanne                                                                                                           |      731|
+|École Polytechnique Fédérale de Lausanne                                                                                                           |      732|
 |Milano U                                                                                                                                           |      702|
 |University of Jyväskylä                                                                                                                            |      671|
 |King's College London                                                                                                                              |      652|
@@ -289,11 +289,11 @@ This dataset contains information on 75,595 articles, published at 337 instituti
 |University of Veterinary Medicine Vienna                                                                                                           |       43|
 |University of Salford                                                                                                                              |       40|
 |Edge Hill University                                                                                                                               |       39|
+|Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL                                                          |       39|
 |University of Bradford                                                                                                                             |       39|
 |University of Greenwich                                                                                                                            |       39|
 |Aberystwyth University                                                                                                                             |       38|
 |FZJ - ZB                                                                                                                                           |       38|
-|Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL                                                          |       38|
 |Swedish Museum of Natural History                                                                                                                  |       38|
 |Universität Luzern                                                                                                                                 |       37|
 |HZDR                                                                                                                                               |       36|
