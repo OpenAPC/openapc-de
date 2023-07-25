@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |187,082 | 361,165,550    | 401 |
+| Articles         |187,090 | 361,174,915    | 402 |
 | Monographs       |1,623 | 10,386,043    | 40 |
 
 ## How to access the data?
@@ -141,6 +141,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [IPN - Leibniz Institute for Science and Mathematics Education](http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access)
 - [Leibniz-Fonds](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access)
 - [Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden](https://www.ifw-dresden.de/about-us/library)
+- [Leibniz-Institut für Raumbezogene Sozialforschung (IRS)](https://leibniz-irs.de/en/research/publications/open-access)
 - [Paul-Drude-Institut für Festkörperelektronik](http://www.pdi-berlin.de/home/)
 - [Potsdam Institute for Climate Impact Research (PIK)](https://www.pik-potsdam.de) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
 - [TIB – German National Library of Science and Technology](https://www.tib.eu/en/service/tib-open-access-policy/)
@@ -695,13 +696,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 187,082 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 401 research performing institutions and research funders. 
+The article data set contains information on 187,090 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 402 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 361,165,550. The average payment was € 1,931 and the median was € 1,783.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 361,174,915. The average payment was € 1,930 and the median was € 1,783.
 
-131,077 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 221,320,299, including value-added tax; the average payment was € 1,688 (median =  € 1,618, SD = € 789).
+131,083 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 221,325,614, including value-added tax; the average payment was € 1,688 (median =  € 1,618, SD = € 789).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 56,005 articles in the data set were published in hybrid journals. Total expenditure amounts to 139,845,251 €; the average fee was € 2,497 (median =  € 2,462, SD = € 1,010).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 56,007 articles in the data set were published in hybrid journals. Total expenditure amounts to 139,849,301 €; the average fee was € 2,497 (median =  € 2,462, SD = € 1,010).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -730,8 +731,8 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2018   |      16,175|   1,701|     1,581|  13.00 -  8,926|           9,469|       2,550|         2,538|     1.8 -  9,073|
 |2019   |      16,451|   1,685|     1,623|  10.72 -  7,684|           6,328|       2,502|         2,443|    75.3 -  9,500|
 |2020   |      18,897|   1,685|     1,676|   0.01 -  8,906|           3,306|       2,378|         2,384|   130.0 -  7,416|
-|2021   |      23,618|   1,803|     1,780|  27.03 -  6,417|           2,871|       2,493|         2,475|    30.2 - 11,400|
-|2022   |      11,295|   1,990|     1,931|  12.36 -  9,044|           1,119|       2,760|         2,730|     2.1 - 11,988|
+|2021   |      23,621|   1,803|     1,780|  27.03 -  6,417|           2,872|       2,493|         2,475|    30.2 - 11,400|
+|2022   |      11,298|   1,989|     1,931|  12.36 -  9,044|           1,120|       2,759|         2,730|     2.1 - 11,988|
 |2023   |         306|   2,052|     2,012| 297.50 -  5,579|              52|       2,782|         2,948|   860.0 -  5,536|
 
 ### Books (BPCs)
@@ -807,8 +808,8 @@ Indexing coverage
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.7%       |
 |PubMed ID                  |  73.5%      |
-|PubMed Central ID          |  67.68%     |
-|Web of Science record ID   | 89.01%      |
+|PubMed Central ID          |  67.67%     |
+|Web of Science record ID   | 89%      |
 
 
 
