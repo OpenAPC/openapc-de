@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 75,602 articles, published at 337 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 75,604 articles, published at 338 institutions under 68 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 75,602 articles, published at 337 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |DEAL Springer Nature Germany                     |     5656|
-|DEAL Wiley Germany                               |     5309|
+|DEAL Wiley Germany                               |     5311|
 |Swiss Consortium Elsevier agreement              |     4836|
 |French EDP Sciences agreement                    |     3330|
 |Swiss Consortium Springer Compact agreement      |     2175|
@@ -394,6 +394,7 @@ This dataset contains information on 75,602 articles, published at 337 instituti
 |Finnish Food Authority                                                                                                                             |        2|
 |Hubrecht Institute for Developmental Biology and Stem Cell Research                                                                                |        2|
 |Institute Mittag-Leffler                                                                                                                           |        2|
+|IRS                                                                                                                                                |        2|
 |LAB University of Applied Sciences                                                                                                                 |        2|
 |Laurea University of Applied Sciences                                                                                                              |        2|
 |Marie Cederschiöld University                                                                                                                      |        2|
