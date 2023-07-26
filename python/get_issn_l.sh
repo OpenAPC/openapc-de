@@ -18,6 +18,6 @@ if ! [[ -f $DIR"/"$LATEST_FILE ]] ; then
     cd ..
 fi
 
-./issn_l_enrichment.py -e utf8 -o -q tffttttttttttttttt out_journal-article.csv $DIR"/"$LATEST_FILE
+./issn_l_enrichment.py -e utf8 -o -q tfftttttttttttttttt out_journal-article.csv $DIR"/"$LATEST_FILE
 
 
