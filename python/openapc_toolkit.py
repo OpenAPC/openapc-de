@@ -71,6 +71,7 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("euro", None),
     ("doi", "opencost:primary_identifier//opencost:doi"),
     ("is_hybrid", None),
+    ("type", "opencost:type"),
     ("gold-oa", None),
     ("vat", None),
     ("colour charge", None),
