@@ -598,6 +598,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1871-6784", # New Biotechnology, Gold OA since 2022
     "2035-648X", # European Journal of Paediatric Dentistry
     "1591-996X", # European Journal of Paediatric Dentistry (linking)
+    "1547-6286", # RNA Biology, Gold OA since 2022
+    "1555-8584", # RNA Biology, Gold OA since 2022 (electronic)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
