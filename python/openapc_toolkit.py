@@ -1167,7 +1167,11 @@ def _process_opencost_cost_data(cost_data_element, namespaces):
         'multiple_vats': 'Encountered more than one cost_type "vat". Data ' +
                          'might be ambiguous, please check manually. ',
         'no_date': 'No date value found, could not extract any content ' +
-                   'for the period field.'
+                   'for the period field.',
+        'add_amounts_paid': 'Cost type {} occurs more than once in the same ' +
+                       'invoice, adding amounts ({} + {} = {})',
+        'add_amounts_invoices': 'Cost type {} occurs in more than one invoice, ' +
+                                'adding amounts ({} + {} = {})'
     }
 
     cost_data_xpaths = {
@@ -1193,6 +1197,7 @@ def _process_opencost_cost_data(cost_data_element, namespaces):
                     continue
                 # Apply processing rules depending on field type
                 if field in ["date_paid", "date_invoice"]:
+                    target_field = field
                     if re.match(r"\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?", result.text):
                         value = result.txt[:4]
                     else:
@@ -1202,10 +1207,13 @@ def _process_opencost_cost_data(cost_data_element, namespaces):
                     cost_type = result.attrib["type"]
                     value = _auto_atof(result.text)
                     if cur != "EUR":
-                        if "period" not in data:
+                        if "date_paid" in data:
+                            period = data["date_paid"]
+                        elif "date_invoice" in data:
+                            period = data["date_invoice"]
+                        else:
                             ret["error_msg"] = msgs["conv_no_period"]
                             return ret
-                        period = data["period"]
                         if cur not in EXCHANGE_RATES:
                             try:
                                 EXCHANGE_RATES[cur] = get_euro_exchange_rates(cur, "A")
@@ -1219,18 +1227,22 @@ def _process_opencost_cost_data(cost_data_element, namespaces):
                             return ret
                         euro_value = round(value/float(exchange_rate), 2)
                         msg = 'Automated conversion: {} {} -> {} EUR (period: {})'
-                        msg = msg.format(value, cur, euro_amount, period)
-                        print_b(msg)
+                        msg = msg.format(value, cur, euro_value, period)
+                        print_c(msg)
                         value = euro_value
                     # Add monetary values of the same cost type
-                    field = cost_type
-                    if field in data:
+                    target_field = cost_type
+                    if target_field in data:
                         # special case VAT, needs to be solved later
-                        if field == 'vat':
+                        if target_field == 'vat':
                             ret["error_msg"] = msgs["multiple_vats"]
                             return ret
-                        value = data[field] + value
-                data[field] = value
+                        old_value = data[target_field]
+                        msg = msgs["add_amounts_paid"]
+                        msg = msg.format(target_field, old_value, value, old_value + value)
+                        print_c(msg)
+                        value = old_value + value
+                data[target_field] = value
         invoices_data.append(data)
 
     final_data = {}
@@ -1245,13 +1257,18 @@ def _process_opencost_cost_data(cost_data_element, namespaces):
                 continue
             # Otherwise we have to apply special rules on how
             # to combine data from multiple invoices
-            if field  in ["date_paid", "date_invoice"]:
-                if value != data[field]:
-                    ret["error_msg"] = msgs["date_inconsistent"]
+            if field in ["date_paid", "date_invoice"]:
+                if value != final_data[field]:
+                    msg = msgs["date_inconsistent"].format(field)
+                    ret["error_msg"] = msg
                     return ret
-                else:
-                    # Monetary values can be simply added
-                    final_data[field] += value
+            else:
+                # Monetary values can be simply added
+                msg = msgs["add_amounts_invoices"]
+                old_value = final_data[field]
+                msg = msg.format(field, old_value, value, old_value + value)
+                print_c(msg)
+                final_data[field] += value
     # Final consistency checks + hybrid status extraction
     if "gold-oa" in final_data and "hybrid-oa" in final_data:
         ret["error_msg"] = msgs["gold_hybrid_mix"]
@@ -1303,8 +1320,11 @@ def process_opencost_xml(xml_content):
         cost_data_element = record.find(cost_data_xpath, namespaces)
         cost_data_extract = _process_opencost_cost_data(cost_data_element, namespaces)
         if not cost_data_extract["success"]:
-            print_r(cost_data_extract["error_msg"])
-            articles.append(publication)
+            prefix = "Error: "
+            if "doi" in publication:
+                prefix = "Error (" +  publication["doi"] + "): "
+            print_r(prefix + cost_data_extract["error_msg"])
+            articles.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
             continue
         for field, value in cost_data_extract["data"].items():
             if field in publication:

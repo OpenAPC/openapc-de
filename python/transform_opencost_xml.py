@@ -24,13 +24,13 @@ with open(oat.INSTITUTIONS_FILE, "r") as ins_file:
 
 for article in articles:
     ror_id = article["institution_ror"]
-    if ror_id not in ror_map:
+    if oat.has_value(ror_id) and ror_id not in ror_map:
         ror_request = oat.get_metadata_from_ror(ror_id)
         if ror_request["success"]:
             ror_map[ror_id] = ror_request["data"]["institution"]
         else:
             oat.print_r(ror_request["error_msg"])
-    article["institution"] = ror_map.get(ror_id, "NA")
+    article["institution"] = ror_map.get(ror_id, "")
 
 fieldnames = ["institution"] + list(oat.OPENCOST_EXTRACTION_FIELDS.keys())
 with open("out.csv", "w") as out:
