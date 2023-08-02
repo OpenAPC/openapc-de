@@ -63,6 +63,26 @@ OAI_COLLECTION_CONTENT = OrderedDict([
     ("local_id", "intact:id_number[@type='local']")
 ])
 
+OPENCOST_EXTRACTION_FIELDS = OrderedDict([
+    ("institution_ror", "opencost:institution//opencost:institution_id[@type='ror']"),
+    ("period", None),
+    ("euro", None),
+    ("doi", "opencost:primary_identifier//opencost:doi"),
+    ("is_hybrid", None),
+    ("gold-oa", None),
+    ("vat", None),
+    ("colour charge", None),
+    ("cover charge", None),
+    ("hybrid-oa", None),
+    ("other", None),
+    ("page charge", None),
+    ("permission", None),
+    ("publication charge", None),
+    ("reprint", None),
+    ("submission fee", None),
+    ("payment fee", None),
+])
+
 MESSAGES = {
     "num_columns": "Syntax: The number of values in this row (%s) " +
                    "differs from the number of columns (%s). Line left " +
@@ -1107,6 +1127,186 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
     if out_file_suffix:
         with open("raw_harvest_data_" + out_file_suffix, "w") as out:
             out.write(file_output)
+    return articles
+
+def _process_opencost_cost_data(cost_data_element, namespaces):
+    """
+    Extract date and cost data from an openCost cost_data element
+
+    Takes an openCost cost_data element (as ElementTree) and extracts
+    both cost data (APCs and additional costs) and a date value. This
+    is a complex task as we have to take several preprocessing rules
+    into account as well as the possibility of multiple occurrences. The
+    whole process consists of 3 steps:
+
+    1) Aggregate date and cost data for each individual invoice, taking
+    into account that amount_paid may occur more than once. Convert
+    foreign currencies to EUR and format dates to YYYY. Use simple
+    addition for identical cost types in case of multi-occurence.
+    2) Merge data from all invoices into one data structure. Check
+    different dates for compatibility, again add identical
+    cost types in case of multi-occurence.
+    3) Map extracted values to OpenAPC fields euro, period and is_hybrid
+    """
+    global EXCHANGE_RATES
+    # We ignore part_of_contract at the moment
+
+    msgs = {
+        'date_inconsistent': 'Multiple {} elements encountered, content ' +
+                     'differs.',
+        'conv_no_period': 'Automated conversion to EUR failed - no period ' +
+                          'value found.',
+        'conv_failed': 'Automated conversion to EUR failed - {}',
+        'conv_no_rate': 'Automated conversion to EUR failed - No annual ' +
+                        'exchange rate available for currency {} and period {}.',
+        'gold_hybrid_mix': 'Encountered cost types "gold-oa" and "hybrid-oa" ' +
+                           'for the same publication.',
+        'multiple_vats': 'Encountered more than one cost_type "vat". Data ' +
+                         'might be ambiguous, please check manually. ',
+        'no_date': 'No date value found, could not extract any content ' +
+                   'for the period field.'
+    }
+
+    cost_data_xpaths = {
+        "date_paid": "opencost:dates//opencost:date_paid",
+        "date_invoice": "opencost:dates//opencost:date_invoice",
+        "amount_paid": "opencost:amounts_paid//opencost:amount_paid"
+    }
+
+    ret = {
+        "success": False,
+        "data": None,
+        "error_msg": None
+    }
+
+    invoices = cost_data_element.findall("opencost:invoice", namespaces)
+    invoices_data = []
+    for invoice in invoices:
+        data = {}
+        for field, xpath in cost_data_xpaths.items():
+            results = invoice.findall(xpath, namespaces)
+            for result in results:
+                if result is None or result.text is None:
+                    continue
+                # Apply processing rules depending on field type
+                if field in ["date_paid", "date_invoice"]:
+                    if re.match(r"\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?", result.text):
+                        value = result.txt[:4]
+                    else:
+                        value = result.text
+                elif field == "amount_paid":
+                    cur = result.attrib["currency"]
+                    cost_type = result.attrib["type"]
+                    value = _auto_atof(result.text)
+                    if cur != "EUR":
+                        if "period" not in data:
+                            ret["error_msg"] = msgs["conv_no_period"]
+                            return ret
+                        period = data["period"]
+                        if cur not in EXCHANGE_RATES:
+                            try:
+                                EXCHANGE_RATES[cur] = get_euro_exchange_rates(cur, "A")
+                            except ValueError as ve:
+                                ret["error_msg"] = msgs["conv_failed"].format(str(ve))
+                                return ret
+                        try:
+                            exchange_rate = EXCHANGE_RATES[cur][period]
+                        except KeyError as ke:
+                            ret["error_msg"] = msgs["conv_no_rate"].format(cur, period)
+                            return ret
+                        euro_value = round(value/float(exchange_rate), 2)
+                        msg = 'Automated conversion: {} {} -> {} EUR (period: {})'
+                        msg = msg.format(value, cur, euro_amount, period)
+                        print_b(msg)
+                        value = euro_value
+                    # Add monetary values of the same cost type
+                    field = cost_type
+                    if field in data:
+                        # special case VAT, needs to be solved later
+                        if field == 'vat':
+                            ret["error_msg"] = msgs["multiple_vats"]
+                            return ret
+                        value = data[field] + value
+                data[field] = value
+        invoices_data.append(data)
+
+    final_data = {}
+    for invoice_data in invoices_data:
+        # If there are multiple invoices, we have to merge the data in a
+        # meaningful way
+        for field, value in invoice_data.items():
+            if field not in final_data:
+                 # If we have not encountered this type of field yet,
+                # we can safely add it
+                final_data[field] = value
+                continue
+            # Otherwise we have to apply special rules on how
+            # to combine data from multiple invoices
+            if field  in ["date_paid", "date_invoice"]:
+                if value != data[field]:
+                    ret["error_msg"] = msgs["date_inconsistent"]
+                    return ret
+                else:
+                    # Monetary values can be simply added
+                    final_data[field] += value
+    # Final consistency checks + hybrid status extraction
+    if "gold-oa" in final_data and "hybrid-oa" in final_data:
+        ret["error_msg"] = msgs["gold_hybrid_mix"]
+        return ret
+    if "gold-oa" in final_data:
+        final_data["euro"] = final_data["gold-oa"]
+        if "vat" in final_data:
+            final_data["euro"] += final_data["vat"]
+        final_data["is_hybrid"] = "FALSE"
+    if "hybrid-oa" in final_data:
+        final_data["euro"] = final_data["hybrid-oa"]
+        if "vat" in final_data:
+            final_data["euro"] += final_data["vat"]
+        final_data["is_hybrid"] = "TRUE"
+    if "date_paid" in final_data:
+        final_data["period"] =  final_data["date_paid"]
+    elif "date_invoice" in final_data:
+        final_data["period"] =  final_data["date_invoice"]
+    else:
+        ret["error_msg"] = msgs["no_date"]
+        return ret
+    ret["success"] = True
+    ret["data"] = final_data
+    return ret
+
+def process_opencost_xml(xml_content):
+    """
+    Extract OpenAPC compatible field content from openCost XML
+    """
+    namespaces = {
+        "opencost": "https://opencost.de"
+    }
+
+    record_xpath = "opencost:publication"
+    cost_data_xpath = "opencost:cost_data"
+    articles = []
+
+    root = ET.fromstring(xml_content)
+    records = root.findall(record_xpath, namespaces)
+
+    for record in records:
+        publication = {}
+        for field, xpath in OPENCOST_EXTRACTION_FIELDS.items():
+            publication[field] = "NA"
+            if xpath is not None:
+                result = record.find(xpath, namespaces)
+                if result is not None and result.text is not None:
+                    publication[field] = result.text
+        cost_data_element = record.find(cost_data_xpath, namespaces)
+        cost_data_extract = _process_opencost_cost_data(cost_data_element, namespaces)
+        if not cost_data_extract["success"]:
+            print_r(cost_data_extract["error_msg"])
+            articles.append(publication)
+            continue
+        for field, value in cost_data_extract["data"].items():
+            if field in publication:
+                publication[field] = value
+        articles.append(publication)
     return articles
 
 def find_book_dois_in_crossref(isbn_list):
