@@ -46,6 +46,8 @@ SHORTDOI_RE = re.compile(r"^(https?://)?(dx.)?doi.org/(?P<shortdoi>[a-z0-9]+)$",
 
 ISSN_RE = re.compile(r"^(?P<first_part>\d{4})\-(?P<second_part>\d{3})(?P<check_digit>[\dxX])$")
 
+# regex for ROR IDs, see also https://ror.readme.io/docs/ror-identifier-pattern
+ROR_RE = re.compile(r"^((https?://)?ror.org/)?0[a-z0-9]{6}[0-9]{2}$")
 
 
 OAI_COLLECTION_CONTENT = OrderedDict([
@@ -1641,6 +1643,31 @@ def get_metadata_from_crossref(doi_string):
         ret_value['error_msg'] = str(udte)
         ret_value['exception'] = udte
     return ret_value
+
+def get_metadata_from_ror(ror_id):
+    """
+    Look up a ROR ID and extract metadata relevant to OpenAPC
+    """
+    ret = {"success": False}
+    ror_id = ror_id.strip()
+    if not ROR_RE.match(ror_id):
+        msg = "Regex mismatch: {} does not seem to be a valid ROR ID."
+        ret["error_msg"] = msg.format(ror_id)
+        return ret
+    url = "https://api.ror.org/organizations/"
+    url += ror_id
+    data = {}
+    try:
+        req = Request(url)
+        response = urlopen(req)
+        content_string = response.read()
+        ror_data = json.loads(content_string)
+        data["institution"] = ror_data["name"]
+    except HTTPError as httpe:
+        ret_value['error_msg'] = 'HTTPError: {} - {}'.format(httpe.code, httpe.reason)
+    ret["data"] = data
+    ret["success"] = True
+    return ret
 
 def get_metadata_from_pubmed(doi_string):
     """
