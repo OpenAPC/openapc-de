@@ -760,7 +760,8 @@ ISSN_L_CORRECTIONS = {
     "2058-5888": "NA", # 2058-5888 (issn_e for "Environmental Epigenetics") maps to 1674-5507 (issn_l for "Current Zoology")
     "1573-0565": "0885-6125", # "Machine Learning". 1573-0565(issn_e) -> 1573-0565, but 0885-6125(issn_p) -> 0885-6125
     "2041-7128": "2041-7136", # "Pastoralism" 
-    "2035-8385": "2035-8377" # "Neurology International". 2035-8385(issn_p) -> 2035-8385, but 2035-8377(issn_e) -> 2035-8377
+    "2035-8385": "2035-8377", # "Neurology International". 2035-8385(issn_p) -> 2035-8385, but 2035-8377(issn_e) -> 2035-8377
+    "0016-9420": "0018-9855" # "IIC - International Review of Intellectual Property and Competition Law"
 }
 
 AGREEMENT_PUBLISHERS = {
