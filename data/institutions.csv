@@ -2,8 +2,8 @@ institution,institution_cubes_name,institution_full_name,continent,country,state
 Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,unibamberg,https://ror.org/01c1w6d29,HEI,NA,https://www.uni-bamberg.de/en/library/publishing/oa-publishing/,NA
 Bielefeld U,bielefeld_u,Bielefeld University,EUROPE,DEU,NW,unibi,https://ror.org/02hpadn98,HEI,NA,http://oa.uni-bielefeld.de/publikationsfonds.html,NA
 Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue,https://ror.org/04mz5ra38,HEI,NA,NA,NA
-FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,fuberlin,https://ror.org/046ak2485,HEI,NA,http://www.fu-berlin.de/sites/open_access/finanzierung/publikationsfonds/index.html,NA
-GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,gfz-potsdam,https://ror.org/04z8jg394,INS,HGF,https://www.gfz-potsdam.de/en/home/,data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/)
+FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,fuberlin,https://ror.org/046ak2485,HEI,NA,https://www.fu-berlin.de/sites/open_access/finanzierung-oa/zeitschriftenartikel/publikationsfonds_zeitschriften/index.html,NA
+GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,gfz-potsdam,https://ror.org/04z8jg394,INS,HGF,https://www.gfz-potsdam.de/en,data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/)
 Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW,unikonstanz,https://ror.org/0546hnb39,HEI,NA,https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/funding-open-access/,NA
 Leipzig U,leipzig_u,Leipzig University,EUROPE,DEU,SN,unileipzig,https://ror.org/03s7gtk40,HEI,NA,https://www.ub.uni-leipzig.de/open-science/publikationsfonds/,NA
 MPG,mpg,Max Planck Digital Library,EUROPE,DEU,BY,mpg,https://ror.org/0061msm67,INS,MPG,http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html,The data content covers APCs as paid for by the central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of the data. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
@@ -19,7 +19,7 @@ INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New
 MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,mdc,https://ror.org/04p5ggc03,INS,HGF,https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI,NA
 TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN,tuchemnitz,https://ror.org/00a208s56,HEI,NA,https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en,NA
 TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,tudresden,https://ror.org/042aqky30,HEI,NA,https://www.slub-dresden.de/veroeffentlichen/open-access-finanzieren,NA
-Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,tudortmund,https://ror.org/01k97gp34,HEI,NA,https://www.ub.tu-dortmund.de/open-access/index.html.en,NA
+Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,tudortmund,https://ror.org/01k97gp34,HEI,NA,https://ub.tu-dortmund.de/forschen-publizieren/open-access/,NA
 Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,rub,https://ror.org/04tsk2644,HEI,NA,http://www.ruhr-uni-bochum.de/oa/,NA
 Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,jlu_giessen,https://ror.org/033eqas34,HEI,NA,https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en,NA
 FZJ - ZB,fzj_fb,Forschungszentrum Jülich,EUROPE,DEU,NW,fzj,https://ror.org/02nv7yv05,INS,HGF,https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html,NA
@@ -41,7 +41,7 @@ TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien,https://ro
 HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,hzdr,https://ror.org/01zy2cs03,INS,HGF,http://www.hzdr.de/db/Cms?pNid=73,NA
 Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,harvard-hope,https://ror.org/03vek6s52,NA,NA,https://osc.hul.harvard.edu/programs/hope/,NA
 Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,unioldenburg,https://ror.org/033n9gh91,HEI,NA,https://uol.de/en/bis/research-publishing/open-access/open-access-publication-fund,NA
-OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire,NA,NA,NA,https://www.openaire.eu/fp7-oapilot,NA
+OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire,NA,NA,NA,https://digital-strategy.ec.europa.eu/en/news/results-fp7-post-grant-open-access-pilot,NA
 University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA,https://ror.org/03yjb2x39,NA,NA,https://library.ucalgary.ca/oa/,NA
 IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn,https://ror.org/008n8dd57,INS,WGL,http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access,NA
 UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,ufz,https://ror.org/000h6jb29,INS,HGF,https://www.ufz.de/index.php?en=36297,NA
@@ -152,7 +152,7 @@ University of Tromsø - The Arctic University of Norway,tromso_u,University of T
 Vestfold Hospital Trust,vestfold_ht,Vestfold Hospital Trust,EUROPE,NOR,NO.VF,NA,NA,NA,NA,NA,NA
 Vestre Viken Hospital Trust,vestre_viken_ht,Vestre Viken Hospital Trust,EUROPE,NOR,NO.BU,NA,https://ror.org/03wgsrq67,NA,NA,NA,NA
 TU Berlin,tu_berlin,Technische Universität Berlin,EUROPE,DEU,BE,tuberlin,https://ror.org/03v4gjf40,HEI,NA,http://www.ub.tu-berlin.de/publikationsfonds/,NA
-Trier U,trier_u,University of Trier,EUROPE,DEU,RP,unitrier,https://ror.org/02778hg05,HEI,NA,https://www.uni-trier.de/index.php?id=60802,NA
+Trier U,trier_u,University of Trier,EUROPE,DEU,RP,unitrier,https://ror.org/02778hg05,HEI,NA,https://www.uni-trier.de/bibliothek/forschen-publizieren/open-access/open-access-publikationsfonds,NA
 Swiss National Science Foundation (SNSF),snsf,Swiss National Science Foundation (SNSF),EUROPE,CHE,CH.BE,snsf,https://ror.org/00yjd3n13,NA,NA,http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy,NA
 Osnabrück U,osnabrueck_u,Osnabrück University,EUROPE,DEU,NI,uniosnabrueck,https://ror.org/04qmmjx98,HEI,NA,https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html,NA
 TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI,tubraunschweig,https://ror.org/010nsgg66,HEI,NA,https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php,NA
@@ -238,7 +238,7 @@ Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg,http
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen,https://ror.org/012ajp527,NA,NA,https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/,NA
 Greifswald U,greifswald_u,University of Greifswald,EUROPE,DEU,MV,unigreifswald,https://ror.org/00r1edq15,HEI,NA,https://ub.uni-greifswald.de/en/service/for-academics/open-access/funding/,NA
 PIK-Potsdam,pik_potsdam,Potsdam Institute for Climate Impact Research (PIK),EUROPE,DEU,BB,pik-potsdam,https://ror.org/03e8s1d88,INS,WGL,https://www.pik-potsdam.de,data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/)
-HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,huberlin,https://ror.org/01hcx6992,HEI,NA,https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de,NA
+HU Berlin,hu_berlin,Humboldt-Universität zu Berlin,EUROPE,DEU,BE,huberlin,https://ror.org/01hcx6992,HEI,NA,https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/finanzierung/publikationsfonds-zeitschriftenartikel,NA
 University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unidebrecen,https://ror.org/02xf66n48,NA,NA,https://unideb.hu/en,NA
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab,https://ror.org/02qcqwf93,OTH,NA,https://iab.de/en/the-iab/aufgaben-und-leitlinien-en/open-access/,NA
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,geomar,https://ror.org/02h2x0161,INS,HGF,https://www.geomar.de/en/centre/central-facilities/bibliothek/author-services/publication-costs,NA
@@ -265,7 +265,7 @@ Bill & Melinda Gates Foundation,gates_foundation,Bill & Melinda Gates Foundation
 Siegen U,siegen_u,University of Siegen,EUROPE,DEU,NW,unisiegen,https://ror.org/02azyry73,HEI,NA,https://www.ub.uni-siegen.de/index.php?id=1510&L=1,NA
 VSB - Technical University of Ostrava,tu_ostrava,VSB - Technical University of Ostrava,EUROPE,CZE,CZ-MO,tu_ostrava,https://ror.org/05x8mcb75,NA,NA,https://www.vsb.cz/en,NA
 Saarland U,saarland_u,Saarland University,EUROPE,DEU,SL,unisaarland,https://ror.org/01jdpyv68,HEI,NA,https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/,NA
-University of Zurich,zurich_u,University of Zurich,EUROPE,CHE,CH.ZH,unizuerich,https://ror.org/02crff812,NA,NA,https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access/Open-Access-an-der-UZH.html,NA
+University of Zurich,zurich_u,University of Zurich,EUROPE,CHE,CH.ZH,unizuerich,https://ror.org/02crff812,NA,NA,https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access.html,NA
 University of Liège,liege_u,University of Liège,EUROPE,BEL,BE-WLG,uniliege,https://ror.org/00afp2z80,NA,NA,https://www.uliege.be/cms/c_8699436/en/uliege,NA
 Hochschule Luzern,hs_luzern,Hochschule Luzern,EUROPE,CHE,CH.LU,hsluzern,https://ror.org/04nd0xd48,NA,NA,https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/,NA
 Veneto Institute of Oncology IOV IRCCS,iov_ircss,Veneto Institute of Oncology (IOV IRCCS),EUROPE,ITA,IT-34,iov-irccs,https://ror.org/01xcjmy57,NA,NA,https://www.ioveneto.it/unit/gestione-documentazione-scientifica/,NA
@@ -308,7 +308,7 @@ Le Mans Université,le_mans_u,Le Mans Université,EUROPE,FRA,FR-PDL,couperin/le-
 Laboratoire national de métrologie et d'essais - LNE,lne,Laboratoire national de métrologie et d'essais - LNE,EUROPE,FRA,FR-IDF,couperin/lne,https://ror.org/01ph39d13,NA,NA,NA,NA
 Université de Lille,lille_u,Université de Lille,EUROPE,FRA,FR-HDF,couperin/lille,https://ror.org/02kzqn938,NA,NA,NA,NA
 MHB Fontane,mhb_fontane,Medizinische Hochschule Brandenburg Theodor Fontane,EUROPE,DEU,BB,mhbfontane,https://ror.org/04839sh14,HEI,NA,https://www.mhb-fontane.de/open-access-publikationsfonds-482.html,NA
-HTW Dresden,htw_dresden,Hochschule für Technik und Wirtschaft Dresden,EUROPE,DEU,SN,htwdresden,https://ror.org/05q5pk319,HEI,NA,https://www.htw-dresden.de/oa,NA
+HTW Dresden,htw_dresden,Hochschule für Technik und Wirtschaft Dresden,EUROPE,DEU,SN,htwdresden,https://ror.org/05q5pk319,HEI,NA,https://www.htw-dresden.de/open-access,NA
 Thomas Jefferson University,jefferson_u,Thomas Jefferson University,NORTH_AMERICA,USA,US-PA,unijefferson,https://ror.org/00ysqcn41,NA,NA,https://library.jefferson.edu/pub/open_access.cfm,NA
 ENS de Lyon,ens_lyon,ENS de Lyon,EUROPE,FRA,FR-ARA,couperin/ens_lyon,https://ror.org/04zmssz18,NA,NA,NA,NA
 INSA Strasbourg,insa_strasbourg,Institut National des Sciences Appliquées de Strasbourg,EUROPE,FRA,FR-GES,couperin/insa-strasbourg,https://ror.org/001nta019,NA,NA,NA,NA
