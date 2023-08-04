@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |187,874 | 362,954,606    | 402 |
+| Articles         |188,186 | 363,668,098    | 402 |
 | Monographs       |1,663 | 10,882,595    | 40 |
 
 ## How to access the data?
@@ -214,6 +214,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Haute École Pédagogique Fribourg](https://hepfr.ch/)
 - [Haute École Pédagogique du Canton de Vaud](https://www.hepl.ch/accueil.html)
 - [Hochschule Luzern](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
+- [Kalaidos University of Applied Sciences](https://www.kalaidos-fh.ch/de-CH/)
 - [Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL](https://www.lib4ri.ch/services/open-access.html)
 - [Medicines for Malaria Venture](https://www.mmv.org/)
 - [OST University of Applied Science of Eastern Switzerland](https://www.ost.ch/en/)
@@ -240,6 +241,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [University of Neuchatel](https://www.unine.ch/)
 - [University of St.Gallen](https://www.unisg.ch/)
 - [University of Teacher Education Zug](https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug)
+- [University of Teacher Education in Special Needs](https://www.hfh.ch/en)
 - [University of Zurich](https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access/Open-Access-an-der-UZH.html)
 - [Università della Svizzera italiana](https://www.usi.ch/en)
 - [Universität Luzern](https://www.zhbluzern.ch/en/services/research-publish#WzU1Mzhd/)
@@ -696,13 +698,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 187,874 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 402 research performing institutions and research funders. 
+The article data set contains information on 188,186 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 402 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 362,954,606. The average payment was € 1,932 and the median was € 1,785.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 363,668,098. The average payment was € 1,932 and the median was € 1,785.
 
-131,827 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 223,026,221, including value-added tax; the average payment was € 1,692 (median =  € 1,622, SD = € 791).
+132,138 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 223,735,595, including value-added tax; the average payment was € 1,693 (median =  € 1,623, SD = € 792).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 56,047 articles in the data set were published in hybrid journals. Total expenditure amounts to 139,928,385 €; the average fee was € 2,497 (median =  € 2,462, SD = € 1,010).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 56,048 articles in the data set were published in hybrid journals. Total expenditure amounts to 139,932,503 €; the average fee was € 2,497 (median =  € 2,462, SD = € 1,010).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -733,7 +735,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2019   |      16,451|   1,685|     1,623|  10.72 -  7,684|           6,328|       2,502|         2,443|    75.3 -  9,500|
 |2020   |      18,897|   1,685|     1,676|   0.01 -  8,906|           3,306|       2,378|         2,384|   130.0 -  7,416|
 |2021   |      23,621|   1,803|     1,780|  27.03 -  6,417|           2,872|       2,493|         2,475|    30.2 - 11,400|
-|2022   |      12,042|   2,008|     1,934|  12.36 -  9,044|           1,160|       2,732|         2,730|     2.1 - 11,988|
+|2022   |      12,353|   2,015|     1,942|  12.36 -  9,044|           1,161|       2,733|         2,730|     2.1 - 11,988|
 |2023   |         306|   2,052|     2,012| 297.50 -  5,579|              52|       2,782|         2,948|   860.0 -  5,536|
 
 
@@ -813,9 +815,9 @@ Indexing coverage
 |Identifier                 | Coverage                                                          |
 |:--------------------------|:------------------------------------------------------------------|
 |DOI                        |  99.7%       |
-|PubMed ID                  |  73.51%      |
-|PubMed Central ID          |  67.71%     |
-|Web of Science record ID   | 88.63%      |
+|PubMed ID                  |  73.54%      |
+|PubMed Central ID          |  67.74%     |
+|Web of Science record ID   | 88.49%      |
 
 
 

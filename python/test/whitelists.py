@@ -600,6 +600,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1591-996X", # European Journal of Paediatric Dentistry (linking)
     "1547-6286", # RNA Biology, Gold OA since 2022
     "1555-8584", # RNA Biology, Gold OA since 2022 (electronic)
+    "0031-7144", # Die Pharmazie - An International Journal of Pharmaceutical Sciences, Gold OA since 2020
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
