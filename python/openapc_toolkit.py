@@ -1685,7 +1685,8 @@ def get_metadata_from_ror(ror_id):
         ror_data = json.loads(content_string)
         data["institution"] = ror_data["name"]
     except HTTPError as httpe:
-        ret_value['error_msg'] = 'HTTPError: {} - {}'.format(httpe.code, httpe.reason)
+        ret['error_msg'] = 'HTTPError: {} - {}'.format(httpe.code, httpe.reason)
+        return ret
     ret["data"] = data
     ret["success"] = True
     return ret

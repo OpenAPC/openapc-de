@@ -52,7 +52,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Christian-Albrechts-Universität zu Kiel](https://www.ub.uni-kiel.de/en/open-access-publishing/open-access)
 - [Clausthal University of Technology](https://www.ub.tu-clausthal.de/publizieren-open-access/open-access-publizieren/publikationsfonds)
 - [Eberhard Karls Universität Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/publishing/open-access-publication-fund/)
-- [Freie Universität Berlin](http://www.fu-berlin.de/sites/open_access/finanzierung/publikationsfonds/index.html)
+- [Freie Universität Berlin](https://www.fu-berlin.de/sites/open_access/finanzierung-oa/zeitschriftenartikel/publikationsfonds_zeitschriften/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
 - [Friedrich-Schiller-Universität Jena](https://www.thulb.uni-jena.de/services/forschung-/-lehre/open-access-/-elektronisches-publizieren#c3516)
 - [Hamburg University of Applied Sciences](https://www.haw-hamburg.de/hibs/publizieren/publikationsfonds/)
@@ -61,9 +61,9 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Heinrich-Heine-Universität Düsseldorf](https://www.ulb.hhu.de/en/reseach-teaching-publishing/open-access/hhus-open-access-fund)
 - [Hochschule Bonn-Rhein-Sieg](https://www.h-brs.de/en/bib/publication-fund)
 - [Hochschule Düsseldorf](https://bib.hs-duesseldorf.de/en)
+- [Hochschule für Technik und Wirtschaft Dresden](https://www.htw-dresden.de/open-access)
 - [Hochschule Hannover](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/)
-- [Hochschule für Technik und Wirtschaft Dresden](https://www.htw-dresden.de/oa)
-- [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/foerdermoeglichkeiten/finanzierung/publikationsfonds?set_language=de)
+- [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/finanzierung/publikationsfonds-zeitschriftenartikel)
 - [JLU Gießen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
 - [Johann Wolfgang Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Johannes Gutenberg University of Mainz](https://www.ub.uni-mainz.de/de/open-access/foerderkriterien-open-access)
@@ -76,30 +76,31 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Otto-von-Guericke-Universität Magdeburg](https://www.ub.ovgu.de/en/Publication+_+Open+Access/Open+Access/Publication+Fund+for+Articles.html)
 - [Philipps University of Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds)
-- [RWTH Aachen](https://www.ub.rwth-aachen.de/cms/ub/Forschung/Wissenschaftliches-Publizieren/~iigq/Open-Access-Die-neue-Art-zu-publizieren/)
 - [Rheinische Friedrich-Wilhelms-Universität Bonn](https://www.open-access.uni-bonn.de/de)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
+- [RWTH Aachen](https://www.ub.rwth-aachen.de/cms/ub/Forschung/Wissenschaftliches-Publizieren/~iigq/Open-Access-Die-neue-Art-zu-publizieren/)
 - [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
-- TU Bergakademie Freiberg
 - [Technische Hochschule Brandenburg](https://bibliothek.th-brandenburg.de/open-access-und-publizieren/open-access/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en)
 - [Technische Universität Darmstadt](https://www.ulb.tu-darmstadt.de/service/elektronisches_publizieren/oa_publikationsfond/index.en.jsp)
-- [Technische Universität Dortmund](https://www.ub.tu-dortmund.de/open-access/index.html.en)
+- [Technische Universität Dortmund](https://ub.tu-dortmund.de/forschen-publizieren/open-access/)
 - [Technische Universität Dresden](https://www.slub-dresden.de/veroeffentlichen/open-access-finanzieren)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/universitaet/quicklinks/universitaetsbibliothek/forschen-publizieren/open-access/open-access-finanzierung/open-access-publikationsfonds)
 - [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
+- TU Bergakademie Freiberg
 - [Ulm University](https://www.uni-ulm.de/en/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/open-access/open-access/)
+- [Universität Erfurt](https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren-1/open-access-publikationsfonds)
 - [University Medical Center Hamburg-Eppendorf](https://www.uke.de/forschung/open-science/publikationsfoerderung/index.html)
 - [University of Applied Sciences Bielefeld](https://www.fh-bielefeld.de/open-access/publikationsfonds)
 - [University of Applied Sciences Potsdam](https://www.fh-potsdam.de/campus-services/bibliothek/open-access-publizieren#section-18181)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
 - University of Duisburg-Essen
 - [University of Freiburg](https://www.ub.uni-freiburg.de/en/support/electronic-publishing/open-access/open-access-publication-fund/)
-- [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/funding/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
+- [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/funding/)
 - [University of Kassel](http://www.uni-kassel.de/go/publikationsfonds)
 - [University of Konstanz](https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/funding-open-access/)
 - [University of Mannheim](https://www.bib.uni-mannheim.de/en/open-access-publishing-fund/)
@@ -109,10 +110,9 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [University of Rostock](https://www.ub.uni-rostock.de/en/wissenschaftliche-services/open-access/open-access-foerdermoeglichkeiten/open-access-publikationsfonds-der-universitaet-rostock/)
 - [University of Siegen](https://www.ub.uni-siegen.de/index.php?id=1510&L=1)
 - [University of Stuttgart](https://oa.uni-stuttgart.de/publizieren/fonds/)
-- [University of Trier](https://www.uni-trier.de/index.php?id=60802)
+- [University of Trier](https://www.uni-trier.de/bibliothek/forschen-publizieren/open-access/open-access-publikationsfonds)
 - [University of Veterinary Medicine Hannover, Foundation](http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/)
 - [University of Würzburg](https://www.bibliothek.uni-wuerzburg.de/en/research-publishing/open-access/publication-fund/)
-- [Universität Erfurt](https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren-1/open-access-publikationsfonds)
 
 ###  Research institutes 
 
@@ -126,7 +126,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Deutsches Zentrum für Luft- und Raumfahrt](https://www.dlr.de/zb/en/desktopdefault.aspx/tabid-8234/)
 - [Forschungszentrum Jülich](https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html)
 - [GEOMAR - Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/centre/central-facilities/bibliothek/author-services/publication-costs)
-- [GFZ German Research Centre for Geosciences](https://www.gfz-potsdam.de/en/home/) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
+- [GFZ German Research Centre for Geosciences](https://www.gfz-potsdam.de/en) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung – UFZ](https://www.ufz.de/index.php?en=36297)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
@@ -165,6 +165,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [AC2T Research GmbH](https://www.ac2t.at/en/)
 - [Carinthia University of Applied Sciences (CUAS)](https://www.fh-kaernten.at/en/)
 - [Danube University Krems University for Continuing Education](https://www.donau-uni.ac.at/en.html)
+- [Ferdinand Porsche FernFH](https://www.fernfh.ac.at/en)
 - [FH Campus Wien - University of Applied Sciences](https://www.fh-campuswien.ac.at/en)
 - [FH Joanneum - University of Applied Sciences](https://www.fh-joanneum.at/en/)
 - [FH Kufstein Tirol - University of Applied Sciences](https://www.fh-kufstein.ac.at/eng/)
@@ -173,7 +174,6 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [FH Vorarlberg - University of Applied Sciences](https://www.fhv.at/en/)
 - [FHWien der WKW (FHW)](https://www.fh-wien.ac.at/en/)
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
-- [Ferdinand Porsche FernFH](https://www.fernfh.ac.at/en)
 - [Graz University of Technology](https://www.tugraz.at/en/home)
 - [Institute for Advanced Studies Vienna](https://www.ihs.ac.at/)
 - [Institute of Science and Technology Austria](https://ist.ac.at/en/research/library/publish-communicate/)
@@ -204,33 +204,36 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 - [Agroscope](https://www.agroscope.admin.ch/agroscope/en/home.html)
 - [Bern University of Applied Sciences](http://www.bfh.ch/)
-- [ETH Zürich](https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/publishing-in-open-access-journals.html)
 - [Eawag - Swiss Federal Institute of Aquatic Science and Technology](https://www.eawag.ch/en/) (via [Lib4RI](https://www.lib4ri.ch/services/open-access.html))
+- [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/en/)
 - [Empa - Swiss Federal Laboratories for Materials Science and Technology](https://www.empa.ch/) (via [Lib4RI](https://www.lib4ri.ch/services/open-access.html))
+- [ETH Zürich](https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/publishing-in-open-access-journals.html)
 - [European Organization for Nuclear Research](https://home.web.cern.ch/)
 - [Forschungsinstitut für biologischen Landbau FiBL](https://www.fibl.org/en)
 - [Graduate Institute of International and Development Studies](http://graduateinstitute.ch/home.html)
 - [Haute École Pédagogique BEJUNE](https://www.hep-bejune.ch/)
-- [Haute École Pédagogique Fribourg](https://hepfr.ch/)
 - [Haute École Pédagogique du Canton de Vaud](https://www.hepl.ch/accueil.html)
+- [Haute École Pédagogique Fribourg](https://hepfr.ch/)
 - [Hochschule Luzern](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
 - [Kalaidos University of Applied Sciences](https://www.kalaidos-fh.ch/de-CH/)
 - [Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL](https://www.lib4ri.ch/services/open-access.html)
 - [Medicines for Malaria Venture](https://www.mmv.org/)
 - [OST University of Applied Science of Eastern Switzerland](https://www.ost.ch/en/)
-- [PSI - Paul Scherrer Institute](https://www.psi.ch/en)
 - [Pädagogische Hochschule Bern](https://www.phbern.ch/)
 - [Pädagogische Hochschule Luzern](https://www.phlu.ch/)
 - [Pädagogische Hochschule Thurgau](https://www.phtg.ch/)
 - [Pädagogische Hochschule Zürich](https://phzh.ch/de/Forschung/grundsatze/open-access/)
+- [PSI - Paul Scherrer Institute](https://www.psi.ch/en)
 - [Schwyz University of Teacher Education](https://www.phsz.ch/en/)
 - [St.Gallen University of Teacher Education](https://www.phsg.ch/en)
 - [Swiss Federal University for Vocational Education and Training](https://www.sfuvet.swiss/)
 - [Swiss National Science Foundation (SNSF)](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Swiss Ornithological Institute](https://www.vogelwarte.ch/de/home/)
+- [Università della Svizzera italiana](https://www.usi.ch/en)
+- [Universität Luzern](https://www.zhbluzern.ch/en/services/research-publish#WzU1Mzhd/)
 - [University of Applied Sciences and Arts Northwestern Switzerland](https://www.fhnw.ch/en)
-- [University of Applied Sciences and Arts Western Switzerland](https://www.hes-so.ch/en/homepage)
 - [University of Applied Sciences and Arts of Southern Switzerland](https://www.supsi.ch/home_en.html)
+- [University of Applied Sciences and Arts Western Switzerland](https://www.hes-so.ch/en/homepage)
 - [University of Applied Sciences in Business Administration Zurich](https://fh-hwz.ch/english/)
 - [University of Applied Sciences of the Grisons](https://www.fhgr.ch/en/)
 - [University of Basel](https://ub.unibas.ch/de/digitale-dienste/open-access/)
@@ -240,15 +243,12 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [University of Lausanne](https://www.unil.ch/openscience/en/home/menuinst/open-access/open-access-a-lunil/soutien-360/voie-doree/gold-open-access-fund-unil.html)
 - [University of Neuchatel](https://www.unine.ch/)
 - [University of St.Gallen](https://www.unisg.ch/)
-- [University of Teacher Education Zug](https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug)
 - [University of Teacher Education in Special Needs](https://www.hfh.ch/en)
-- [University of Zurich](https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access/Open-Access-an-der-UZH.html)
-- [Università della Svizzera italiana](https://www.usi.ch/en)
-- [Universität Luzern](https://www.zhbluzern.ch/en/services/research-publish#WzU1Mzhd/)
+- [University of Teacher Education Zug](https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug)
+- [University of Zurich](https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access.html)
 - [WSL - Swiss Federal Institute for Forest, Snow and Landscape Research](https://www.wsl.ch/en/index.html)
 - [ZHAW Zurich University of Applied Sciences](https://www.zhaw.ch/en/library/writing-publishing/publishing-and-open-access/oa-at-the-zhaw/#c112481)
 - [Zurich University of the Arts](https://www.zhdk.ch/miz/miz-oa)
-- [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/en/)
 
 ## Institutions from Italy 
 
@@ -261,8 +261,8 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 ## Institutions from Norway 
 
 - Akershus University Hospital
-- BI Norwegian Business School
 - Bergen University College
+- BI Norwegian Business School
 - Fridtjof Nansen Institute
 - GenØk - Centre for Biosafety
 - Harstad University College
@@ -280,8 +280,8 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Norwegian School of Sport Sciences
 - Norwegian University of Life Sciences
 - Norwegian University of Science and Technology
-- Oslo University Hospital
 - Oslo and Akershus University College
+- Oslo University Hospital
 - SINTEF (Foundation for Scientific and Industrial Research)
 - Sørlandet Hospital Trust
 - Uni Research
@@ -306,21 +306,23 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Halmstad University
 - [Institute Mittag-Leffler](http://www.mittag-leffler.se/)
 - Jönköping University
-- KTH Royal Institute of Technology
 - Karlstad University
 - Karolinska Institutet
 - [Kristianstad University](https://www.hkr.se/en/)
+- KTH Royal Institute of Technology
 - Linköping University
 - Linnaeus University
 - Luleå University of Technology
 - Lund University
+- Mälardalen University
 - Malmö University
 - [Marie Cederschiöld University](https://www.mchs.se/)
 - [Medical Products Agency](https://www.lakemedelsverket.se/en)
 - [Mid Sweden University](https://www.miun.se/en)
-- Mälardalen University
+- Örebro University
 - [Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/)
 - [RISE Research Institutes of Sweden](https://www.ri.se/en)
+- Södertörns University
 - [Sophiahemmet University College](https://www.shh.se/en/)
 - Stockholm School of Economics
 - Stockholm University
@@ -329,20 +331,19 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Swedish National Road and Transport Research Institute (VTI)](https://www.vti.se/en/)
 - Swedish School of Sport and Health Sciences
 - Swedish University of Agricultural Sciences
-- Södertörns University
 - [The Swedish Environmental Protection Agency](https://www.naturvardsverket.se/en)
 - Umeå University
-- University West
 - University of Borås
-- University of Gothenburg
 - University of Gävle
+- University of Gothenburg
 - University of Skövde
+- University West
 - Uppsala University
-- Örebro University
 
 ## Institutions from Finland 
 
 - Aalto University
+- Åbo Akademi University
 - [Arcada University of Applied Sciences](https://www.arcada.fi/en)
 - Finnish Environment Institute
 - [Finnish Food Authority](https://www.ruokavirasto.fi/)
@@ -352,8 +353,8 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Finnish Meteorological Institute](https://en.ilmatieteenlaitos.fi/)
 - [Geological Survey of Finland](https://www.gtk.fi/en/)
 - Haaga-Helia University of Applied Sciences
-- [Hanken School of Economics](https://www.hanken.fi/en)
 - Häme University of Applied Sciences
+- [Hanken School of Economics](https://www.hanken.fi/en)
 - JAMK University of Applied Sciences
 - [LAB University of Applied Sciences](https://www.lab.fi/en)
 - Lapin ammattikorkeakoulu (Lapland University of Applied Sciences)
@@ -378,13 +379,12 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [University of Jyväskylä](https://openscience.jyu.fi/en/open-access-publishing)
 - [University of Lapland](https://lib.luc.fi/research)
 - [University of Oulu](https://www.oulu.fi/en)
+- [University of the Arts Helsinki](https://www.uniarts.fi/en/)
 - [University of Turku](https://utuguides.fi/openaccess)
 - [University of Vaasa](https://www.uwasa.fi/en)
-- [University of the Arts Helsinki](https://www.uniarts.fi/en/)
 - [VAMK University of Applied Sciences](https://www.vamk.fi/en/)
 - [VATT Institute for Economic Research](https://vatt.fi/etusivu)
 - VTT Technical Research Centre of Finland
-- Åbo Akademi University
 
 ## Institutions from France 
 
@@ -393,36 +393,42 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - AgroParisTech
 - Aix-Marseille Université
 - Avignon Université
-- CHU de Rennes
 - CentraleSupélec
 - Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
 - Centre national de la recherche scientifique (CNRS)
+- CHU de Rennes
 - Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
 - Conservatoire national des arts et métiers
+- Ecole centrale de Lyon
+- [École des Hautes Etudes en Santé Publique (EHESP)](https://www.ehesp.fr/en/)
+- École Nationale de l'Aviation Civile
+- École nationale du génie de l'eau et de l'environnement de Strasbourg
+- École nationale supérieure d'ingénieurs de Caen
+- [École nationale vétérinaire d'Alfort (EnvA)](https://www.vet-alfort.fr/)
+- Ecole normale supérieure de Paris
+- Ecole polytechnique
+- École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 - ENS de Lyon
 - ENSTA Bretagne
 - EURECOM
-- Ecole centrale de Lyon
-- Ecole normale supérieure de Paris
-- Ecole polytechnique
 - European Synchrotron Radiation Facility (ESRF)
 - French institutions
 - Hospices Civils de Lyon
 - IMT Atlantique Bretagne Pays de la Loire
 - INSA de Lyon
-- Institut Français de Recherche pour l'Exploitation de la Mer
-- Institut Laue-Langevin
-- Institut National des Sciences Appliquées de Strasbourg
-- Institut Pasteur
 - Institut de radioprotection et de sûreté nucléaire
 - Institut de recherche pour le développement (IRD)
+- Institut Français de Recherche pour l'Exploitation de la Mer
 - Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
+- Institut Laue-Langevin
 - Institut national de la recherche agronomique (INRA)
 - Institut national de la santé et de la recherche médicale (INSERM)
 - Institut national de recherche en informatique et en automatique (INRIA)
 - Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
 - Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
+- Institut National des Sciences Appliquées de Strasbourg
 - Institut national polytechnique de Toulouse(INPT)
+- Institut Pasteur
 - Institut supérieur d'agriculture Rhône-Alpes
 - La Rochelle Université
 - Laboratoire national de métrologie et d'essais - LNE
@@ -435,6 +441,39 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Sorbonne Université
 - Université Claude Bernard Lyon 1
 - Université Clermont Auvergne
+- Université d'Angers
+- Université d'Orléans
+- Université de Bordeaux
+- Université de Bordeaux Montaigne
+- Université de Bourgogne
+- Université de Bretagne Occidentale
+- Université de Bretagne-Sud
+- Université de Caen Normandie
+- Université de Côte d'Azur
+- Université de Franche-Comté
+- Université de Haute-Alsace
+- Université de La Réunion
+- Université de Lille
+- Université de Lorraine
+- Université de Montpellier
+- Université de Nantes
+- Université de Nîmes
+- Université de Nouvelle Calédonie
+- Université de Pau et des Pays de l'Adour
+- Université de Perpignan - Via Domitia
+- Université de Picardie Jules Verne
+- Université de Poitiers
+- Université de Reims Champagne Ardenne
+- Université de Rennes 1
+- Université de Rennes 2
+- Université de Strasbourg
+- Université de technologie de Troyes
+- Université de Toulon
+- Université de Tours
+- Université de Versailles-Saint-Quentin-en-Yvelines
+- Université des Antilles
+- Université du Havre
+- Université du Littoral Côte d'Opale
 - Université Evry Val-d'Essonne
 - Université Grenoble Alpes
 - Université Gustave Eiffel
@@ -454,45 +493,6 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Université Savoie Mont Blanc
 - Université Technologique de Compiègne
 - Université Toulouse III
-- Université d'Angers
-- Université d'Orléans
-- Université de Bordeaux
-- Université de Bordeaux Montaigne
-- Université de Bourgogne
-- Université de Bretagne Occidentale
-- Université de Bretagne-Sud
-- Université de Caen Normandie
-- Université de Côte d'Azur
-- Université de Franche-Comté
-- Université de Haute-Alsace
-- Université de La Réunion
-- Université de Lille
-- Université de Lorraine
-- Université de Montpellier
-- Université de Nantes
-- Université de Nouvelle Calédonie
-- Université de Nîmes
-- Université de Pau et des Pays de l'Adour
-- Université de Perpignan - Via Domitia
-- Université de Picardie Jules Verne
-- Université de Poitiers
-- Université de Reims Champagne Ardenne
-- Université de Rennes 1
-- Université de Rennes 2
-- Université de Strasbourg
-- Université de Toulon
-- Université de Tours
-- Université de Versailles-Saint-Quentin-en-Yvelines
-- Université de technologie de Troyes
-- Université des Antilles
-- Université du Havre
-- Université du Littoral Côte d'Opale
-- École Nationale de l'Aviation Civile
-- [École des Hautes Etudes en Santé Publique (EHESP)](https://www.ehesp.fr/en/)
-- École nationale du génie de l'eau et de l'environnement de Strasbourg
-- École nationale supérieure d'ingénieurs de Caen
-- [École nationale vétérinaire d'Alfort (EnvA)](https://www.vet-alfort.fr/)
-- École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 
 ## Institutions from the United Kingdom 
 
@@ -538,9 +538,9 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Royal Botanic Gardens](https://www.kew.org/)
 - Royal Holloway, University of London
 - Royal Veterinary College
-- SOAS University of London
 - [Scotland's Rural College](https://www.sruc.ac.uk/)
 - [Sheffield Hallam University](https://libguides.shu.ac.uk/OpenAccess/)
+- SOAS University of London
 - St George's, University of London
 - Swansea University
 - The Open University
@@ -588,6 +588,8 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - University of Strathclyde
 - University of Surrey
 - University of Sussex
+- [University of the Highlands and Islands](https://www.uhi.ac.uk/en/)
+- University of the West of England
 - University of Ulster
 - [University of Wales Trinity St David](https://www.uwtsd.ac.uk/)
 - University of Warwick
@@ -595,8 +597,6 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [University of Westminster](https://www.westminster.ac.uk/)
 - [University of Worcester](https://www.worcester.ac.uk/)
 - University of York
-- [University of the Highlands and Islands](https://www.uhi.ac.uk/en/)
-- University of the West of England
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
 
 ## Institutions from the Czech Republic 
@@ -648,7 +648,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 ## Institutions from Greece 
 
-- [OpenAIRE (FP7 Post-Grant OA Pilot)](https://www.openaire.eu/fp7-oapilot)
+- [OpenAIRE (FP7 Post-Grant OA Pilot)](https://digital-strategy.ec.europa.eu/en/news/results-fp7-post-grant-open-access-pilot)
 
 ## Institutions from the Netherlands 
 
@@ -715,7 +715,6 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 #### Spending distribution details
 
 
-
 |period | OA articles| OA mean| OA median|    OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
 |:------|-----------:|-------:|---------:|---------------:|---------------:|-----------:|-------------:|----------------:|
 |2005   |           7|     858|       871| 480.00 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
@@ -738,8 +737,6 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2022   |      12,353|   2,015|     1,942|  12.36 -  9,044|           1,161|       2,733|         2,730|     2.1 - 11,988|
 |2023   |         306|   2,052|     2,012| 297.50 -  5,579|              52|       2,782|         2,948|   860.0 -  5,536|
 
-
-
 ### Books (BPCs)
 
 The book data set contains information on 1,663 open access books. Publication fees were supported financially by 40 research performing institutions and funders. 
@@ -757,7 +754,6 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 #### Spending distribution details
 
 
-
 |period | Frontlist books| mean BPC| median BPC|  BPC min - max| Backlist books| mean BPC| median BPC| BPC min - max|
 |:------|---------------:|--------:|----------:|--------------:|--------------:|--------:|----------:|-------------:|
 |2014   |              62|   15,043|     16,000| 1,663 - 20,000|             NA|       NA|         NA|            NA|
@@ -770,8 +766,6 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2021   |             111|    5,585|      5,355|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |              68|    6,603|      6,000| 1,190 - 15,500|              1|    3,467|      3,467| 3,467 - 3,467|
 |2023   |               1|    6,000|      6,000| 6,000 -  6,000|             NA|       NA|         NA|            NA|
-
-
 
 
 ## Use of external sources

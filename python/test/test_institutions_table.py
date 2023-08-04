@@ -33,14 +33,15 @@ INSTITUTIONS_APC_DE = []
 # List of all ROR IDs
 ROR_IDS = []
 
-ROR_ID_REGEX = re.compile(r"https:\/\/ror.org\/[a-z0-9]{9}")
-
-# Holds all currently active URLRequestThreads
+# Holds all currently active Threads
 THREAD_POOL = []
 # Maximum number of parallel threads
-THREAD_POOL_SIZE = 10
+THREAD_POOL_SIZE = 15
 
-FINISHED_THREADS = []
+FINISHED_THREADS = {
+    "URLRequestThread": [],
+    "RORRequestThread": []
+}
 
 # Prefix for all error messages
 MSG_HEAD = "{}, line {}: "
@@ -64,7 +65,7 @@ class URLRequestThread(threading.Thread):
 
     def __init__(self, row_object):
         # assigning a name is not strictly necessary, but can useful for debugging purposes
-        super().__init__(name = row_object.row[1] + "_thread")
+        super().__init__(name = row_object.row[1] + "_url_request_thread")
         self.row_object = row_object
         self.url = row_object.row[10]
         self.status_code = None
@@ -76,6 +77,30 @@ class URLRequestThread(threading.Thread):
             if response.status_code != 200:
                 self.status_code = response.status_code
                 # Are there other codes besides 200 which indicate a success? Wait and see.
+        except Exception as e:
+            self.error_msg = str(e)
+
+class RORRequestThread(threading.Thread):
+    """
+    Make a threaded request to the ROR Api to test if the ROR ID exists
+
+    Args:
+        row_object: A test_apc_csv.RowObject which encapsulates information
+        on a single row from the institutions table.
+    """
+
+    def __init__(self, row_object):
+        # assigning a name is not strictly necessary, but can useful for debugging purposes
+        super().__init__(name = row_object.row[1] + "_ror_request_thread")
+        self.row_object = row_object
+        self.ror_id = row_object.row[7]
+        self.success = None
+        self.error_msg = None
+
+    def run(self):
+        try:
+            response = oat.get_metadata_from_ror(self.ror_id)
+            self.success = response["success"]
         except Exception as e:
             self.error_msg = str(e)
 
@@ -92,12 +117,12 @@ def _cleanup_thread_pool():
         if thread.is_alive():
             still_running.append(thread)
         else:
-            FINISHED_THREADS.append(thread)
+            FINISHED_THREADS[type(thread).__name__].append(thread)
     THREAD_POOL = still_running
 
 def run_url_threads():
     """
-    Create parallel URLRequestThreads for all info_urls and start them.
+    Create parallel URLRequestThreads/RORRequestThreads and start them.
 
     Fill up the THREAD_POOL with threads, then clean them up in regular
     intervals and add new ones whenever there's room.
@@ -111,17 +136,23 @@ def run_url_threads():
     """
     global THREAD_POOL
     for row_object in DATA["institutions"]:
+        threads_waiting = []
         if oat.has_value(row_object.row[10]):
-            thread = URLRequestThread(row_object)
-            while len(THREAD_POOL) >= THREAD_POOL_SIZE:
-                _cleanup_thread_pool()
-                time.sleep(0.2)
+            threads_waiting.append(URLRequestThread(row_object))
+        if oat.has_value(row_object.row[7]):
+            threads_waiting.append(RORRequestThread(row_object))
+        while len(THREAD_POOL) > THREAD_POOL_SIZE - 1:
+            _cleanup_thread_pool()
+            time.sleep(0.2)
+        for thread in threads_waiting:
             THREAD_POOL.append(thread)
             thread.start()
     # Wait until all threads have finished
     while len(THREAD_POOL) > 0:
         _cleanup_thread_pool()
         time.sleep(0.2)
+    for rrt in FINISHED_THREADS["RORRequestThread"]:
+        print(rrt.success)
 
 # Prepare the test data
 for data_file, metadata in DATA_FILES.items():
@@ -160,7 +191,7 @@ def test_data_dirs(row_object):
             msg = msg.format(row_object.file_name, row_object.line_number, data_dir)
             pytest.fail(msg)
 
-@pytest.mark.parametrize("thread", FINISHED_THREADS)
+@pytest.mark.parametrize("thread", FINISHED_THREADS["URLRequestThread"])
 def test_info_urls(thread):
     if thread.status_code is not None:
         msg = MSG_HEAD + "HTTP request to '{}' returned status code {}"
@@ -169,6 +200,17 @@ def test_info_urls(thread):
     elif thread.error_msg is not None:
         msg = MSG_HEAD + "HTTP request to '{}' led to an exception: {}"
         msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.url, thread.error_msg)
+        warn(msg)
+
+@pytest.mark.parametrize("thread", FINISHED_THREADS["RORRequestThread"])
+def test_ror_ids(thread):
+    if not thread.success:
+        msg = MSG_HEAD + "Unable to resolve ROR ID '{}'"
+        msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.ror_id)
+        warn(msg)
+    elif thread.error_msg is not None:
+        msg = MSG_HEAD + "Querying ROR ID '{}' led to an exception: {}"
+        msg = msg.format(thread.row_object.file_name, thread.row_object.line_number, thread.ror_id, thread.error_msg)
         warn(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
@@ -189,14 +231,10 @@ def test_cubes_names(row_object):
         pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
-def test_ror_ids(row_object):
+def test_ror_duplicates(row_object):
     global ROR_IDS
     ror_id = row_object.row[7]
     if oat.has_value(ror_id):
-        if not ROR_ID_REGEX.match(ror_id):
-            msg = MSG_HEAD + "ROR ID '{}' is not well-formed."
-            msg = msg.format(row_object.file_name, row_object.line_number, ror_id)
-            pytest.fail(msg)
         if ror_id not in ROR_IDS:
             ROR_IDS.append(ror_id)
         else:
