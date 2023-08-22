@@ -1,70 +1,70 @@
 "institution","period","euro","doi","backlist_oa","publisher","book_title","isbn","isbn_print","isbn_electronic","license_ref","indexed_in_crossref","doab"
-"FWF - Austrian Science Fund",2021,9500,"10.14361/9783839459775",NA,"transcript Verlag","Sexuelle Bildung ermöglichen","978-3-8376-5977-1","978-3-8376-5977-1","978-3-8394-5977-5","https://creativecommons.org/licenses/by/4.0/",TRUE,FALSE
-"FWF - Austrian Science Fund",2021,8000,"10.14361/9783839460740",NA,"transcript Verlag","Living in Refuge","978-3-8376-6074-6","978-3-8376-6074-6","978-3-8394-6074-0","https://creativecommons.org/licenses/by/4.0/",TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,"10.14361/9783839461037",NA,"transcript Verlag","Spectatoriale Geschlechterkonstruktionen","978-3-8376-6103-3","978-3-8376-6103-3","978-3-8394-6103-7","https://creativecommons.org/licenses/by/4.0/",TRUE,TRUE
-"FWF - Austrian Science Fund",2021,10000,"10.1515/9783110592153",NA,"De Gruyter","Kritische Edition der sahidischen Version des Johannesevangeliums","978-3-11-059215-3",NA,"978-3-11-059215-3","http://creativecommons.org/licenses/by/4.0",TRUE,TRUE
-"FWF - Austrian Science Fund",2021,10000,"10.1515/9783110722055",NA,"De Gruyter","Der Zweite Weltkrieg in postsozialistischen Gedenkmuseen","978-3-11-072205-5",NA,"978-3-11-072205-5","http://creativecommons.org/licenses/by/4.0",TRUE,TRUE
-"FWF - Austrian Science Fund",2021,10000,"10.1515/9783110724127",NA,"De Gruyter","Österreichs Skisport im Nationalsozialismus","978-3-11-072412-7",NA,"978-3-11-072412-7","http://creativecommons.org/licenses/by/4.0",TRUE,FALSE
+"FWF - Austrian Science Fund",2021,9500,"10.14361/9783839459775",FALSE,"transcript Verlag","Sexuelle Bildung ermöglichen","978-3-8376-5977-1","978-3-8376-5977-1","978-3-8394-5977-5","https://creativecommons.org/licenses/by/4.0/",TRUE,FALSE
+"FWF - Austrian Science Fund",2021,8000,"10.14361/9783839460740",FALSE,"transcript Verlag","Living in Refuge","978-3-8376-6074-6","978-3-8376-6074-6","978-3-8394-6074-0","https://creativecommons.org/licenses/by/4.0/",TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,"10.14361/9783839461037",FALSE,"transcript Verlag","Spectatoriale Geschlechterkonstruktionen","978-3-8376-6103-3","978-3-8376-6103-3","978-3-8394-6103-7","https://creativecommons.org/licenses/by/4.0/",TRUE,TRUE
+"FWF - Austrian Science Fund",2021,10000,"10.1515/9783110592153",FALSE,"De Gruyter","Kritische Edition der sahidischen Version des Johannesevangeliums","978-3-11-059215-3",NA,"978-3-11-059215-3","http://creativecommons.org/licenses/by/4.0",TRUE,TRUE
+"FWF - Austrian Science Fund",2021,10000,"10.1515/9783110722055",FALSE,"De Gruyter","Der Zweite Weltkrieg in postsozialistischen Gedenkmuseen","978-3-11-072205-5",NA,"978-3-11-072205-5","http://creativecommons.org/licenses/by/4.0",TRUE,TRUE
+"FWF - Austrian Science Fund",2021,10000,"10.1515/9783110724127",FALSE,"De Gruyter","Österreichs Skisport im Nationalsozialismus","978-3-11-072412-7",NA,"978-3-11-072412-7","http://creativecommons.org/licenses/by/4.0",TRUE,FALSE
 "",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,8000,"10.15661/tyche/supplement.14.kurpios",NA,"Holzhausen","Tyche Supplementband 14","978-3-903207-53-0","978-3-903207-53-0",NA,NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,"10.46499/1554",NA,"Wochenschau Verlag","Geschichtsunterricht vor der Frage nach dem Sinn","978-3-7344-1395-7",NA,"978-3-7344-1395-7",NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,"10.46499/1555",NA,"Wochenschau Verlag","Konzepte historischen Denkens und ihre Entwicklungslogik","978-3-7344-1397-1",NA,"978-3-7344-1397-1",NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214885",NA,"Böhlau","Diplomatische Studien zu den St. Galler Privaturkunden des frühen Mittelalters (ca. 720-980)","978-3-205-21487-8","978-3-205-21487-8","978-3-205-21488-5",NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,"10.7788/9783412524142",NA,"Böhlau","Das ‚Königliche Gerichtsbuch‘ des Michael von Pfullendorf aus den Jahren 1442 bis 1451 – Zu den Anfängen des Kammergerichts am römisch-deutschen Königshof","978-3-412-52413-5","978-3-412-52413-5","978-3-412-52414-2",NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,14000,"10.1553/978oeaw84614",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Forschungen im Bereich des Theaters von Aigeira 2011 bis 2018","978-3-7001-8461-4","978-3-7001-8461-4",NA,NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,"10.1553/978oeaw86878",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Akustische Phonetik und ihre multidisziplinären Aspekte","978-3-7001-8687-8","978-3-7001-8687-8",NA,NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,8000,"10.15661/tyche/supplement.14.kurpios",FALSE,"Holzhausen","Tyche Supplementband 14","978-3-903207-53-0","978-3-903207-53-0",NA,NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,"10.46499/1554",FALSE,"Wochenschau Verlag","Geschichtsunterricht vor der Frage nach dem Sinn","978-3-7344-1395-7",NA,"978-3-7344-1395-7",NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,"10.46499/1555",FALSE,"Wochenschau Verlag","Konzepte historischen Denkens und ihre Entwicklungslogik","978-3-7344-1397-1",NA,"978-3-7344-1397-1",NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214885",FALSE,"Böhlau","Diplomatische Studien zu den St. Galler Privaturkunden des frühen Mittelalters (ca. 720-980)","978-3-205-21487-8","978-3-205-21487-8","978-3-205-21488-5",NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,"10.7788/9783412524142",FALSE,"Böhlau","Das ‚Königliche Gerichtsbuch‘ des Michael von Pfullendorf aus den Jahren 1442 bis 1451 – Zu den Anfängen des Kammergerichts am römisch-deutschen Königshof","978-3-412-52413-5","978-3-412-52413-5","978-3-412-52414-2",NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,14000,"10.1553/978oeaw84614",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Forschungen im Bereich des Theaters von Aigeira 2011 bis 2018","978-3-7001-8461-4","978-3-7001-8461-4",NA,NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,"10.1553/978oeaw86878",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Akustische Phonetik und ihre multidisziplinären Aspekte","978-3-7001-8687-8","978-3-7001-8687-8",NA,NA,TRUE,FALSE
 "",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,10000,NA,NA,"transcript Verlag","Beyond Ethnic Chick Lit","978-3-8376-6201-6",NA,NA,NA,FALSE,FALSE
-"FWF - Austrian Science Fund",2021,14000,"10.1553/978oeaw87103",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Çukuriçi Höyük 3","978-3-7001-8710-3","978-3-7001-8710-3",NA,NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,14000,"10.1553/0x0038b7e4",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Çukuriçi Höyük 2","978-3-7001-8207-8","978-3-7001-8207-8",NA,NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,14000,"10.1553/0x0025257b",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Das laténezeitliche Gräberfeld von Mannersdorf im Leithagebirge, Flur Reinthal Süd, Niederösterreich","978-3-7001-6720-4","978-3-7001-6720-4",NA,NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,11300,NA,NA,"Böhlau","Die Korrespondenz des Ministers für Cultus und Unterricht Leo Thun-Hohenstein (1849-1860)","978-3-205-21600-1",NA,NA,NA,FALSE,FALSE
-"FWF - Austrian Science Fund",2021,14000,"10.1553/978oeaw89275",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Habsburgs going global","978-3-7001-8927-5","978-3-7001-8927-5","978-3-7001-9015-8",NA,FALSE,FALSE
-"",,,"","","","","","","","","",""
-"",,,"","","","","","","","","",""
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214397",NA,"Böhlau","Diplomatie aus dem Untergrund","978-3-205-21438-0","978-3-205-21438-0","978-3-205-21439-7",NA,TRUE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,13000,"10.4324/9780429342844",NA,"Routledge","Early Printed Music and Material Culture in Central and Western Europe","978-0-429-34284-4",NA,"978-0-429-34284-4",NA,TRUE,TRUE
-"FWF - Austrian Science Fund",2021,18000,"10.1553/978oeaw87776",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Early West Tibetan Buddhist Monuments","978-3-7001-8777-6","978-3-7001-8777-6",NA,NA,TRUE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,10000,"10.5771/9783967075731",NA,"edition text + kritik","Eduard Steuermann. Musiker und Virtuose","978-3-96707-573-1","978-3-96707-573-1","978-3-96707-573-1",NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214632",NA,"Böhlau","Ein Fürstenleben zwischen Alltag und Aufruhr","978-3-205-21462-5","978-3-205-21462-5","978-3-205-21463-2",NA,TRUE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214861",NA,"Böhlau","Eine ‚unmögliche‘ Ästhetik – Elfriede Jelinek im literarischen Feld","978-3-205-21485-4","978-3-205-21485-4","978-3-205-21486-1",NA,TRUE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,18000,"10.14361/9783839461051",NA,"transcript Verlag","Expanded Choreographies – Choreographic Histories","978-3-8376-6105-7","978-3-8376-6105-7","978-3-8394-6105-1","https://creativecommons.org/licenses/by/4.0/",TRUE,FALSE
-"FWF - Austrian Science Fund",2021,18000,"10.1553/978oeaw87141",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Experimental, Acquisitional and Corpus linguistic Approaches to the Study of Morphonotactics","978-3-7001-8714-1","978-3-7001-8714-1",NA,NA,TRUE,FALSE
-"",,,"","","","","","","","","",""
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,7692,NA,NA,"Verlag Karl Alber","Führt Moral unumgänglich zur Religion?: Zur Kritik der Kantischen Religionsphilosophie bei Jürgen Habermas – eine Entgegnung","978-3-495-49215-4","978-3-495-49215-4","978-3-495-82540-2","https://creativecommons.org/licenses/by/4.0/",FALSE,FALSE
-"FWF - Austrian Science Fund",2021,12000,NA,NA,"Hollitzer","Georgij Efron. Tagebücher Bd. 1 (1940-1941)","978-3-99012-938-8",NA,NA,NA,FALSE,FALSE
-"FWF - Austrian Science Fund",2021,10000,NA,NA,"Hollitzer","Georgij Efron. Tagebücher Bd. 2 (1941-1943)","978-3-99012-940-1",NA,NA,NA,FALSE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,14000,"10.1553/978oeaw87448",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Die illuminierten Handschriften der Universitätsbibliothek Graz 1225‒1300","978-3-7001-8744-8","978-3-7001-8744-8",NA,NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,NA,NA,"Böhlau","Internierung und Militärdienst.","978-3-205-21599-8",NA,NA,NA,FALSE,FALSE
-"FWF - Austrian Science Fund",2021,9843,"10.1515/9783110732887",NA,"De Gruyter","Forensische Verfahren in den zeitgenössischen Künsten","978-3-11-073288-7",NA,"978-3-11-073288-7","http://creativecommons.org/licenses/by/4.0",TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214342",NA,"Böhlau","Literatur in Österreich 1938-1945","978-3-205-21433-5","978-3-205-21433-5","978-3-205-21434-2",NA,TRUE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,10000,"10.1553/978oeaw88612",NA,"Verlag der Österreichischen Akademie der Wissenschaften","Mitteleuropäische Schulen VII (ca. 1400‒1500)","978-3-7001-8861-2","978-3-7001-8861-2",NA,NA,TRUE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,12500,NA,NA,"Hollitzer","Motetten am Hof Maximilians II. (1527–1576)","978-3-99012-998-2",NA,NA,NA,FALSE,FALSE
-"FWF - Austrian Science Fund",2021,17000,NA,NA,"Brill","New Perspectives on Imagology","978-90-04-45012-7","978-90-04-45012-7","978-90-04-51315-0",NA,FALSE,FALSE
-"FWF - Austrian Science Fund",2021,10000,NA,NA,"Wehrhahn Verlag","Ökonomien der Parodie am Wiener Vorstadttheater","978-3-86525-933-2",NA,NA,"http://creativecommons.org/licenses/by/4.0",FALSE,FALSE
-"",,,"","","","","","","","","",""
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,10950,NA,NA,"Holzhausen","Psalterium Demetrii Sinaitici et Folia Medicinalia.Band 2","978-3-902868-80-0",NA,NA,"CC BY",FALSE,FALSE
-"",,,"","","","","","","","","",""
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,17000,10.5771/9783748902720,NA,"Nomos Verlagsgesellschaft mbH & Co. KG","Regularisierungen irregulär aufhältiger Migrantinnen und Migranten","978-3-7489-0272-0","978-3-7489-0272-0",NA,"http://creativecommons.org/licenses/by/4.0",TRUE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,10000,10.1553/978oeaw88063,NA,"Verlag der Österreichischen Akademie der Wissenschaften","Die sprachliche Analyse der niedergermanischen Votivformulare und Dedikantennamen","978-3-7001-8806-3","978-3-7001-8806-3",NA,NA,TRUE,FALSE
-"",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,14000,NA,NA,"Böhlau","Theatrum Sabaudiae. Das Kupferstichwerk der Herzöge von Savoyen","978-3-205-21464-9","978-3-205-21464-9","978-3-205-21467-0",NA,TRUE,FALSE
-"FWF - Austrian Science Fund",2021,10000,NA,NA,"De Gruyter","Theorie der Klassik. Eine kulturelle Praxis von Goethe bis Grandmaster Flash","978-3-11-075559-6","978-3-11-075559-6",NA,NA,FALSE,FALSE
+"FWF - Austrian Science Fund",2021,10000,NA,FALSE,"transcript Verlag","Beyond Ethnic Chick Lit","978-3-8376-6201-6",NA,NA,NA,FALSE,FALSE
+"FWF - Austrian Science Fund",2021,14000,"10.1553/978oeaw87103",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Çukuriçi Höyük 3","978-3-7001-8710-3","978-3-7001-8710-3",NA,NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,14000,"10.1553/0x0038b7e4",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Çukuriçi Höyük 2","978-3-7001-8207-8","978-3-7001-8207-8",NA,NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,14000,"10.1553/0x0025257b",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Das laténezeitliche Gräberfeld von Mannersdorf im Leithagebirge, Flur Reinthal Süd, Niederösterreich","978-3-7001-6720-4","978-3-7001-6720-4",NA,NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,11300,NA,FALSE,"Böhlau","Die Korrespondenz des Ministers für Cultus und Unterricht Leo Thun-Hohenstein (1849-1860)","978-3-205-21600-1",NA,NA,NA,FALSE,FALSE
+"FWF - Austrian Science Fund",2021,14000,"10.1553/978oeaw89275",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Habsburgs going global","978-3-7001-8927-5","978-3-7001-8927-5","978-3-7001-9015-8",NA,FALSE,FALSE
 "",,,"","","","","","","","","",""
 "",,,"","","","","","","","","",""
 "",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214397",FALSE,"Böhlau","Diplomatie aus dem Untergrund","978-3-205-21438-0","978-3-205-21438-0","978-3-205-21439-7",NA,TRUE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,13000,"10.4324/9780429342844",FALSE,"Routledge","Early Printed Music and Material Culture in Central and Western Europe","978-0-429-34284-4",NA,"978-0-429-34284-4",NA,TRUE,TRUE
+"FWF - Austrian Science Fund",2021,18000,"10.1553/978oeaw87776",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Early West Tibetan Buddhist Monuments","978-3-7001-8777-6","978-3-7001-8777-6",NA,NA,TRUE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,10000,"10.5771/9783967075731",FALSE,"edition text + kritik","Eduard Steuermann. Musiker und Virtuose","978-3-96707-573-1","978-3-96707-573-1","978-3-96707-573-1",NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214632",FALSE,"Böhlau","Ein Fürstenleben zwischen Alltag und Aufruhr","978-3-205-21462-5","978-3-205-21462-5","978-3-205-21463-2",NA,TRUE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214861",FALSE,"Böhlau","Eine ‚unmögliche‘ Ästhetik – Elfriede Jelinek im literarischen Feld","978-3-205-21485-4","978-3-205-21485-4","978-3-205-21486-1",NA,TRUE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,18000,"10.14361/9783839461051",FALSE,"transcript Verlag","Expanded Choreographies – Choreographic Histories","978-3-8376-6105-7","978-3-8376-6105-7","978-3-8394-6105-1","https://creativecommons.org/licenses/by/4.0/",TRUE,FALSE
+"FWF - Austrian Science Fund",2021,18000,"10.1553/978oeaw87141",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Experimental, Acquisitional and Corpus linguistic Approaches to the Study of Morphonotactics","978-3-7001-8714-1","978-3-7001-8714-1",NA,NA,TRUE,FALSE
 "",,,"","","","","","","","","",""
 "",,,"","","","","","","","","",""
-"FWF - Austrian Science Fund",2021,8000,"10.1553/9783700183358_bkga097",NA,"Verlag der Österreichischen Akademie der Wissenschaften","The Roar of a Tibetan Lion","978-3-7001-8335-8","978-3-7001-8335-8",NA,NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,7692,NA,FALSE,"Verlag Karl Alber","Führt Moral unumgänglich zur Religion?: Zur Kritik der Kantischen Religionsphilosophie bei Jürgen Habermas – eine Entgegnung","978-3-495-49215-4","978-3-495-49215-4","978-3-495-82540-2","https://creativecommons.org/licenses/by/4.0/",FALSE,FALSE
+"FWF - Austrian Science Fund",2021,12000,NA,FALSE,"Hollitzer","Georgij Efron. Tagebücher Bd. 1 (1940-1941)","978-3-99012-938-8",NA,NA,NA,FALSE,FALSE
+"FWF - Austrian Science Fund",2021,10000,NA,FALSE,"Hollitzer","Georgij Efron. Tagebücher Bd. 2 (1941-1943)","978-3-99012-940-1",NA,NA,NA,FALSE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,14000,"10.1553/978oeaw87448",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Die illuminierten Handschriften der Universitätsbibliothek Graz 1225‒1300","978-3-7001-8744-8","978-3-7001-8744-8",NA,NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,NA,FALSE,"Böhlau","Internierung und Militärdienst.","978-3-205-21599-8",NA,NA,NA,FALSE,FALSE
+"FWF - Austrian Science Fund",2021,9843,"10.1515/9783110732887",FALSE,"De Gruyter","Forensische Verfahren in den zeitgenössischen Künsten","978-3-11-073288-7",NA,"978-3-11-073288-7","http://creativecommons.org/licenses/by/4.0",TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,"10.7767/9783205214342",FALSE,"Böhlau","Literatur in Österreich 1938-1945","978-3-205-21433-5","978-3-205-21433-5","978-3-205-21434-2",NA,TRUE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,10000,"10.1553/978oeaw88612",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Mitteleuropäische Schulen VII (ca. 1400‒1500)","978-3-7001-8861-2","978-3-7001-8861-2",NA,NA,TRUE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,12500,NA,FALSE,"Hollitzer","Motetten am Hof Maximilians II. (1527–1576)","978-3-99012-998-2",NA,NA,NA,FALSE,FALSE
+"FWF - Austrian Science Fund",2021,17000,NA,FALSE,"Brill","New Perspectives on Imagology","978-90-04-45012-7","978-90-04-45012-7","978-90-04-51315-0",NA,FALSE,FALSE
+"FWF - Austrian Science Fund",2021,10000,NA,FALSE,"Wehrhahn Verlag","Ökonomien der Parodie am Wiener Vorstadttheater","978-3-86525-933-2",NA,NA,"http://creativecommons.org/licenses/by/4.0",FALSE,FALSE
+"",,,"","","","","","","","","",""
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,10950,NA,FALSE,"Holzhausen","Psalterium Demetrii Sinaitici et Folia Medicinalia.Band 2","978-3-902868-80-0",NA,NA,"CC BY",FALSE,FALSE
+"",,,"","","","","","","","","",""
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,17000,10.5771/9783748902720,FALSE,"Nomos Verlagsgesellschaft mbH & Co. KG","Regularisierungen irregulär aufhältiger Migrantinnen und Migranten","978-3-7489-0272-0","978-3-7489-0272-0",NA,"http://creativecommons.org/licenses/by/4.0",TRUE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,10000,10.1553/978oeaw88063,FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","Die sprachliche Analyse der niedergermanischen Votivformulare und Dedikantennamen","978-3-7001-8806-3","978-3-7001-8806-3",NA,NA,TRUE,FALSE
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,14000,NA,FALSE,"Böhlau","Theatrum Sabaudiae. Das Kupferstichwerk der Herzöge von Savoyen","978-3-205-21464-9","978-3-205-21464-9","978-3-205-21467-0",NA,TRUE,FALSE
+"FWF - Austrian Science Fund",2021,10000,NA,FALSE,"De Gruyter","Theorie der Klassik. Eine kulturelle Praxis von Goethe bis Grandmaster Flash","978-3-11-075559-6","978-3-11-075559-6",NA,NA,FALSE,FALSE
+"",,,"","","","","","","","","",""
+"",,,"","","","","","","","","",""
+"",,,"","","","","","","","","",""
+"",,,"","","","","","","","","",""
+"",,,"","","","","","","","","",""
+"FWF - Austrian Science Fund",2021,8000,"10.1553/9783700183358_bkga097",FALSE,"Verlag der Österreichischen Akademie der Wissenschaften","The Roar of a Tibetan Lion","978-3-7001-8335-8","978-3-7001-8335-8",NA,NA,TRUE,FALSE
