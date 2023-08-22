@@ -241,6 +241,10 @@ def check_bpc_field_content(row_object):
         fail(line_str + 'the column "book_title" must not be empty')
     if len(row['book_title']) != len(row['book_title'].strip()):
         fail(line_str + 'book title (' + row['book_title'] + ') has leading or trailing whitespaces')
+    if row['backlist_oa'] not in ["TRUE", "FALSE"]:
+        fail(line_str + 'value in row "backlist_oa" must either be TRUE or FALSE')
+    if row['doab'] not in ["TRUE", "FALSE"]:
+        fail(line_str + 'value in row "doab" must either be TRUE or FALSE')
 
 def check_issns(row_object):
     __tracebackhide__ = True
