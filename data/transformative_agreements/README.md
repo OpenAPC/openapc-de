@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 78,491 articles, published at 340 institutions under 71 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 79,126 articles, published at 340 institutions under 71 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 78,491 articles, published at 340 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     5871|
-|DEAL Wiley Germany                               |     5449|
+|DEAL Springer Nature Germany                     |     6236|
+|DEAL Wiley Germany                               |     5719|
 |Swiss Consortium Elsevier agreement              |     4836|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |French EDP Sciences agreement                    |     3330|
@@ -107,7 +107,7 @@ This dataset contains information on 78,491 articles, published at 340 instituti
 |University of Helsinki                                                                                                                             |     3028|
 |University of Zurich                                                                                                                               |     2271|
 |ETH Zurich                                                                                                                                         |     2264|
-|TU Muenchen                                                                                                                                        |     1339|
+|TU Muenchen                                                                                                                                        |     1974|
 |University of Bern                                                                                                                                 |     1334|
 |University of Geneva                                                                                                                               |     1265|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1213|
