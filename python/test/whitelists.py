@@ -602,6 +602,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1555-8584", # RNA Biology, Gold OA since 2022 (electronic)
     "0031-7144", # Die Pharmazie - An International Journal of Pharmaceutical Sciences, Gold OA since 2020
     "1438-7492", # Macromolecular Materials and Engineering, Gold OA since 2023
+    "1101-1262", # The European Journal of Public Health, Gold OA since 2022
+    "1751-8768", # IET Optoelectronics, Gold OA since 2021
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
