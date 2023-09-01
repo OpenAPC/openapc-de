@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 79,141 articles, published at 340 institutions under 71 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 79,142 articles, published at 340 institutions under 71 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -40,7 +40,7 @@ This dataset contains information on 79,141 articles, published at 340 instituti
 |FinELib SAGE agreement                           |      588|
 |FWF Transformative Agreement Springer Nature     |      556|
 |FWF Transformative Agreement Elsevier            |      498|
-|FWF Transformative Agreement ACS                 |      443|
+|FWF Transformative Agreement ACS                 |      444|
 |University of Milan - Springer                   |      395|
 |Swiss Consortium RSC agreement                   |      393|
 |FinELib OUP agreement                            |      388|
@@ -102,7 +102,7 @@ This dataset contains information on 79,141 articles, published at 340 instituti
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|FWF - Austrian Science Fund                                                                                                                        |     3476|
+|FWF - Austrian Science Fund                                                                                                                        |     3477|
 |French institutions                                                                                                                                |     3330|
 |University of Helsinki                                                                                                                             |     3028|
 |University of Zurich                                                                                                                               |     2271|
