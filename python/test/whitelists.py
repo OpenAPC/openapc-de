@@ -375,6 +375,9 @@ JOURNAL_OWNER_CHANGED = {
     "2161-4296": ["Wiley-Blackwell", "Institute of Navigation"], # NAVIGATION: Journal of the Institute of Navigation (electronic)
     "1896-0596": ["Exeley, Inc.", "Silesian University of Technology"], # Transport Problems 
     "2300-861X": ["Exeley, Inc.", "Silesian University of Technology"], # Transport Problems (electronic)
+    "2472-5552": ["SAGE Publications", "Elsevier BV"], # SLAS Discovery
+    "2153-3539": ["Medknow", "Elsevier BV"], # Journal of Pathology Informatics 
+    "1933-0219": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Mucosal Immunology 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -604,6 +607,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1438-7492", # Macromolecular Materials and Engineering, Gold OA since 2023
     "1101-1262", # The European Journal of Public Health, Gold OA since 2022
     "1751-8768", # IET Optoelectronics, Gold OA since 2021
+    "2472-5552", # SLAS Discovery, Gold OA since 2022
+    "1933-0219", # Mucosal Immunology, Gold OA since 2023
+    "1477-8939", # Travel Medicine and Infectious Disease, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
