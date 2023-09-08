@@ -378,6 +378,12 @@ JOURNAL_OWNER_CHANGED = {
     "2472-5552": ["SAGE Publications", "Elsevier BV"], # SLAS Discovery
     "2153-3539": ["Medknow", "Elsevier BV"], # Journal of Pathology Informatics 
     "1933-0219": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Mucosal Immunology 
+    "1355-5502": ["Informa UK Limited", "Oxford University Press (OUP)"], # Journal of Victorian Culture
+    "1750-0133": ["Informa UK Limited", "Oxford University Press (OUP)"], # Journal of Victorian Culture (electronic)
+    "1059-7700": ["Springer Nature", "Wiley-Blackwell"], # Journal of Genetic Counseling 
+    "1573-3599": ["Springer Nature", "Wiley-Blackwell"], # Journal of Genetic Counseling (electronic)
+
+
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
