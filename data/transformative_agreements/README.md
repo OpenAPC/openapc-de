@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 84,051 articles, published at 351 institutions under 89 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 84,053 articles, published at 351 institutions under 89 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 84,051 articles, published at 351 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|Swiss Consortium Elsevier agreement              |     7925|
+|Swiss Consortium Elsevier agreement              |     7927|
 |DEAL Springer Nature Germany                     |     6249|
 |DEAL Wiley Germany                               |     5721|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -128,7 +128,7 @@ This dataset contains information on 84,051 articles, published at 351 instituti
 |TU Muenchen                                                                                                                                        |     1974|
 |University of Bern                                                                                                                                 |     1671|
 |University of Geneva                                                                                                                               |     1537|
-|University of Lausanne                                                                                                                             |     1260|
+|University of Lausanne                                                                                                                             |     1261|
 |University of Basel                                                                                                                                |     1225|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1213|
 |Lund University                                                                                                                                    |     1177|
@@ -270,9 +270,9 @@ This dataset contains information on 84,051 articles, published at 351 instituti
 |University of Surrey                                                                                                                               |      107|
 |Montanuniversität Leoben                                                                                                                           |      105|
 |University of Applied Sciences and Arts Northwestern Switzerland                                                                                   |      105|
+|Bern University of Applied Sciences                                                                                                                |      102|
 |Jönköping University                                                                                                                               |      102|
 |Liverpool John Moores University                                                                                                                   |      102|
-|Bern University of Applied Sciences                                                                                                                |      101|
 |Maynooth University                                                                                                                                |       99|
 |Heriot-Watt University                                                                                                                             |       98|
 |Finnish Institute for Health and Welfare                                                                                                           |       96|
