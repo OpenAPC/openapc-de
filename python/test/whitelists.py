@@ -382,6 +382,7 @@ JOURNAL_OWNER_CHANGED = {
     "1750-0133": ["Informa UK Limited", "Oxford University Press (OUP)"], # Journal of Victorian Culture (electronic)
     "1059-7700": ["Springer Nature", "Wiley-Blackwell"], # Journal of Genetic Counseling 
     "1573-3599": ["Springer Nature", "Wiley-Blackwell"], # Journal of Genetic Counseling (electronic)
+    "2152-7806": ["Medknow", "Scientific Scholar"], # Surgical Neurology International
 
 
 }
@@ -616,6 +617,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2472-5552", # SLAS Discovery, Gold OA since 2022
     "1933-0219", # Mucosal Immunology, Gold OA since 2023
     "1477-8939", # Travel Medicine and Infectious Disease, Gold OA since 2023
+    "1745-2759", # Virtual and Physical Prototyping, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
