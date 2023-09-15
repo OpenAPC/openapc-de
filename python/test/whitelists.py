@@ -618,6 +618,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1933-0219", # Mucosal Immunology, Gold OA since 2023
     "1477-8939", # Travel Medicine and Infectious Disease, Gold OA since 2023
     "1745-2759", # Virtual and Physical Prototyping, Gold OA since 2023
+    "1877-959X", # Ticks and Tick-borne Diseases, Gold OA since 2023
+    "0378-3774", # Agricultural Water Management, Gold OA since 2023
+    "0168-1702", # Virus Research, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
