@@ -1,10 +1,10 @@
-institution;apc;period;doi;currency;is_hybrid
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;01/01/2023;10.1063/5.0137380;USD;TRUE
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;02/01/2023;10.1063/5.0136870;USD;TRUE
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;03/01/2023;10.1063/5.0136492;USD;TRUE
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;04/01/2023;10.1063/5.0135251;USD;TRUE
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;05/01/2023;10.1063/5.0142109;USD;TRUE
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;06/01/2023;10.1063/5.0145433;USD;TRUE
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;07/01/2023;10.1063/5.0147427;USD;TRUE
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;08/01/2023;10.1063/5.0153745;USD;TRUE
-Consejo Superior de Investigaciones Cientificas (CSIC);3500;09/01/2023;10.1063/5.0157994;USD;TRUE
+institution;apc;period;doi;currency;is_hybrid;euro
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0137380;USD;TRUE;
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0136870;USD;TRUE;
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0136492;USD;TRUE;
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0135251;USD;TRUE;
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0142109;USD;TRUE;
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0145433;USD;TRUE;
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0147427;USD;TRUE;
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0153745;USD;TRUE;
+Consejo Superior de Investigaciones Cientificas (CSIC);3500;2023;10.1063/5.0157994;USD;TRUE;
