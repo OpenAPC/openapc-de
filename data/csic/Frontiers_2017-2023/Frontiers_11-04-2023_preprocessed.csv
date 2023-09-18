@@ -1,5 +1,5 @@
-institution;apc;doi;period;is_hybrid;currency
-Consejo Superior de Investigaciones Cientificas (CSIC);3225;10.3389/fmars.2023.1062151;01/01/2023;FALSE;USD
-Consejo Superior de Investigaciones Cientificas (CSIC);3225;10.3389/fpls.2023.1010669;01/01/2023;FALSE;USD
-Consejo Superior de Investigaciones Cientificas (CSIC);3225;10.3389/fmars.2023.1062078;01/01/2023;FALSE;USD
-Consejo Superior de Investigaciones Cientificas (CSIC);2950;10.3389/fpls.2023.999887;01/01/2023;FALSE;USD
+institution;apc;doi;period;is_hybrid;currency;euro
+Consejo Superior de Investigaciones Cientificas (CSIC);3225;10.3389/fmars.2023.1062151;2023;FALSE;USD;
+Consejo Superior de Investigaciones Cientificas (CSIC);3225;10.3389/fpls.2023.1010669;2023;FALSE;USD;
+Consejo Superior de Investigaciones Cientificas (CSIC);3225;10.3389/fmars.2023.1062078;2023;FALSE;USD;
+Consejo Superior de Investigaciones Cientificas (CSIC);2950;10.3389/fpls.2023.999887;2023;FALSE;USD;
