@@ -1,8 +1,8 @@
-institution;apc;period;doi;currency;is_hybrid
-Consejo Superior de Investigaciones Cientificas (CSIC);1805;01/01/2023;10.1371/journal.pone.0280391;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);2655;01/01/2023;10.1371/journal.ppat.1011136;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);1805;01/01/2023;10.1371/journal.pone.0283088;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);1805;01/01/2023;10.1371/journal.pone.0283852;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);2495;01/01/2023;10.1371/journal.pntd.0010936;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);2655;01/01/2023;10.1371/journal.ppat.1011373;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);1805;01/01/2023;10.1371/journal.pone.0282178;USD;FALSE
+institution;apc;period;doi;currency;is_hybrid;euro
+Consejo Superior de Investigaciones Cientificas (CSIC);1805;2023;10.1371/journal.pone.0280391;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);2655;2023;10.1371/journal.ppat.1011136;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);1805;2023;10.1371/journal.pone.0283088;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);1805;2023;10.1371/journal.pone.0283852;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);2495;2023;10.1371/journal.pntd.0010936;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);2655;2023;10.1371/journal.ppat.1011373;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);1805;2023;10.1371/journal.pone.0282178;USD;FALSE;
