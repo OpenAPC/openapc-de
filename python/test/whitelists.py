@@ -629,6 +629,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0378-3774", # Agricultural Water Management, Gold OA since 2023
     "0168-1702", # Virus Research, Gold OA since 2023
     "1367-4811", # Bioinformatics, Gold OA since 2023
+    "1367-4803", # Bioinformatics, Gold OA since 2023 (linking)
     "0909-752X", # Skin Research and Technology, Gold OA since 2022
 ]
 
