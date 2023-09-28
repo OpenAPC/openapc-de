@@ -14,10 +14,9 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 85,039 articles, published at 352 institutions under 93 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 84,053 articles, published at 351 institutions under 89 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
-
 
 
 |Agreement                                        | Articles|
@@ -47,10 +46,7 @@ This dataset contains information on 85,039 articles, published at 352 instituti
 |FinELib OUP agreement                            |      388|
 |FinELib ACS agreement                            |      366|
 |IReL T&F Agreement                               |      356|
-|CSIC RSC agreement                               |      332|
-|CSIC ACS agreement                               |      319|
 |Swiss Consortium CUP agreement                   |      317|
-|CSIC Springer agreement                          |      311|
 |FWF Transformative Agreement T&F                 |      306|
 |FinELib Emerald agreement                        |      267|
 |IReL Springer Agreement                          |      251|
@@ -90,7 +86,6 @@ This dataset contains information on 85,039 articles, published at 352 instituti
 |University of Milan - ACS                        |       32|
 |QNL IEEE Agreement                               |       31|
 |University of Milan - Cambridge University Press |       25|
-|CSIC PeerJ agreement                             |       24|
 |Austrian Consortium Emerald agreement            |       23|
 |IReL RIA Agreement                               |       23|
 |IReL IOP Agreement                               |       22|
@@ -116,10 +111,7 @@ This dataset contains information on 85,039 articles, published at 352 instituti
 |EISZ agreement DeGruyter                         |        1|
 |EISZ agreement Lippincott Williams and Wilkins   |        1|
 
-
-
 ### Breakdown by institution
-
 
 
 |Institution                                                                                                                                        | Articles|
@@ -145,7 +137,6 @@ This dataset contains information on 85,039 articles, published at 352 instituti
 |University of Turku                                                                                                                                |     1054|
 |UCL                                                                                                                                                |     1022|
 |University of Oulu                                                                                                                                 |      988|
-|Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |      986|
 |MPG                                                                                                                                                |      946|
 |University of Cambridge                                                                                                                            |      912|
 |University of Oxford                                                                                                                               |      883|
@@ -476,6 +467,4 @@ This dataset contains information on 85,039 articles, published at 352 instituti
 |University of Applied Sciences Wiener Neustadt for Business and Engineering                                                                        |        1|
 |VAMK University of Applied Sciences                                                                                                                |        1|
 |Zurich University of the Arts                                                                                                                      |        1|
-
-
 
