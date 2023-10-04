@@ -1,11 +1,9 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "INRAE",2021,3122.1,"10.1093/jas/skab130",TRUE,"Oxford University Press (OUP)","Journal of Animal Science","0021-8812","0021-8812","1525-3163","0021-8812","http://creativecommons.org/licenses/by/4.0/",TRUE,"34196701","PMC8248043","ut:000758360800003",NA,FALSE
 "INRAE",2021,2915.65,"10.1097/mco.0000000000000708",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Current Opinion in Clinical Nutrition &amp; Metabolic Care","1363-1950","1363-1950","1473-6519","1363-1950",NA,TRUE,"33093304","PMC7752214",NA,NA,FALSE
-"INRAE",2021,1762.97,"10.3390/land10121320",FALSE,"MDPI AG","Land","2073-445X",NA,"2073-445X","2073-445X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000737769000001",NA,TRUE
 "INRAE",2021,1520,"10.1002/2688-8319.12086",FALSE,"Wiley-Blackwell","Ecological Solutions and Evidence","2688-8319","2688-8319","2688-8319","2688-8319","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000798745300009",NA,TRUE
 "INRAE",2021,2750,"10.1002/bse.2725",TRUE,"Wiley-Blackwell","Business Strategy and the Environment","0964-4733","0964-4733","1099-0836","0964-4733","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000606808400001",NA,FALSE
 "INRAE",2021,1440,"10.1002/ece3.7886",FALSE,"Wiley-Blackwell","Ecology and Evolution","2045-7758","2045-7758","2045-7758","2045-7758","http://creativecommons.org/licenses/by/4.0/",TRUE,"34429896","PMC8366861","ut:000675059400001",NA,TRUE
-"INRAE",2021,1400,"10.1002/ecs2.3420",FALSE,"Wiley-Blackwell","Ecosphere","2150-8925","2150-8925","2150-8925","2150-8925","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000636318200013",NA,TRUE
 "INRAE",2021,1968,"10.1002/edn3.195",FALSE,"Wiley-Blackwell","Environmental DNA","2637-4943","2637-4943","2637-4943","2637-4943","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "INRAE",2021,2454,"10.1002/fee.2417",TRUE,"Wiley-Blackwell","Frontiers in Ecology and the Environment","1540-9295","1540-9295","1540-9309","1540-9295","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"35873359","PMC9292669","ut:000703615600001",NA,FALSE
 "INRAE",2021,1560,"10.1002/fsn3.2171",FALSE,"Wiley-Blackwell","Food Science & Nutrition","2048-7177","2048-7177","2048-7177","2048-7177","http://creativecommons.org/licenses/by/4.0/",TRUE,"34026062","PMC8116856","ut:000632949500001",NA,TRUE
@@ -59,7 +57,6 @@
 "INRAE",2021,330,"10.1016/j.dib.2021.107392",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34611536","PMC8477133","ut:000702923300017",NA,TRUE
 "INRAE",2021,397.5,"10.1016/j.dib.2021.107475",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34712752","PMC8529085","ut:000743794900022",NA,TRUE
 "INRAE",2021,440,"10.1016/j.dib.2021.107516",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"34765707","PMC8572865","ut:000718134700008",NA,TRUE
-"INRAE",2021,1642.5,"10.1016/j.ecolind.2021.108233",FALSE,"Elsevier BV","Ecological Indicators","1470-160X","1470-160X",NA,"1470-160X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000704587500001",NA,TRUE
 "INRAE",2021,1642.5,"10.1016/j.ecolind.2021.108321",FALSE,"Elsevier BV","Ecological Indicators","1470-160X","1470-160X",NA,"1470-160X","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000714763200003",NA,TRUE
 "INRAE",2021,1822.5,"10.1016/j.ecolmodel.2021.109799",TRUE,"Elsevier BV","Ecological Modelling","0304-3800","0304-3800",NA,"0304-3800","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000728786900007",NA,FALSE
 "INRAE",2021,2235,"10.1016/j.energy.2021.120508",TRUE,"Elsevier BV","Energy","0360-5442","0360-5442",NA,"0360-5442","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000652609200005",NA,FALSE
@@ -443,7 +440,6 @@
 "INRAE",2021,1442.74,"10.3390/microorganisms9081607",FALSE,"MDPI AG","Microorganisms","2076-2607",NA,"2076-2607","2076-2607","https://creativecommons.org/licenses/by/4.0/",TRUE,"34442685","PMC8398850","ut:000689553300001",NA,TRUE
 "INRAE",2021,1442.74,"10.3390/microorganisms9081621",FALSE,"MDPI AG","Microorganisms","2076-2607",NA,"2076-2607","2076-2607","https://creativecommons.org/licenses/by/4.0/",TRUE,"34442701","PMC8399136","ut:000689417900001",NA,TRUE
 "INRAE",2021,1262.4,"10.3390/microorganisms9091852",FALSE,"MDPI AG","Microorganisms","2076-2607",NA,"2076-2607","2076-2607","https://creativecommons.org/licenses/by/4.0/",TRUE,"34576747","PMC8472381","ut:000701147500001",NA,TRUE
-"INRAE",2021,1136.16,"10.3390/microorganisms9112324",FALSE,"MDPI AG","Microorganisms","2076-2607",NA,"2076-2607","2076-2607","https://creativecommons.org/licenses/by/4.0/",TRUE,"34835451","PMC8622124","ut:000725212500001",NA,TRUE
 "INRAE",2021,1442.74,"10.3390/molecules26154393",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"34361547","PMC8347475","ut:000682335100001",NA,TRUE
 "INRAE",2021,2164.11,"10.3390/nu13051542",FALSE,"MDPI AG","Nutrients","2072-6643",NA,"2072-6643","2072-6643","https://creativecommons.org/licenses/by/4.0/",TRUE,"34063614","PMC8147652","ut:000662437800001",NA,TRUE
 "INRAE",2021,2164.11,"10.3390/nu13093075",FALSE,"MDPI AG","Nutrients","2072-6643",NA,"2072-6643","2072-6643","https://creativecommons.org/licenses/by/4.0/",TRUE,"34578953","PMC8468499","ut:000701069700001",NA,TRUE
@@ -465,7 +461,6 @@
 "INRAE",2021,1947.7,"10.3390/rs13091616",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000650739500001",NA,TRUE
 "INRAE",2021,1082.06,"10.3390/rs13112120",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000660614700001",NA,TRUE
 "INRAE",2021,1082.06,"10.3390/rs13112148",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000660611100001",NA,TRUE
-"INRAE",2021,216.45,"10.3390/rs13245115",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000743079600001",NA,TRUE
 "INRAE",2021,1667.75,"10.3390/su12239831",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000597486200001",NA,TRUE
 "INRAE",2021,1675.75,"10.3390/su122410457",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000603257700001",NA,TRUE
 "INRAE",2021,663.53,"10.3390/su13041718",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000624801000001",NA,TRUE
