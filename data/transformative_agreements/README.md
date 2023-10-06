@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 84,325 articles, published at 351 institutions under 89 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 84,649 articles, published at 351 institutions under 89 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -26,8 +26,8 @@ This dataset contains information on 84,325 articles, published at 351 instituti
 |Swiss Consortium Elsevier agreement              |     7927|
 |DEAL Springer Nature Germany                     |     6249|
 |DEAL Wiley Germany                               |     5721|
+|French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
-|French EDP Sciences agreement                    |     3330|
 |Swiss Consortium Wiley agreement                 |     2036|
 |FinELib Springer Compact agreement               |     1778|
 |FinELib Elsevier SD Freedom agreement            |     1757|
@@ -120,8 +120,8 @@ This dataset contains information on 84,325 articles, published at 351 instituti
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
+|French institutions                                                                                                                                |     3654|
 |FWF - Austrian Science Fund                                                                                                                        |     3477|
-|French institutions                                                                                                                                |     3330|
 |University of Helsinki                                                                                                                             |     3028|
 |ETH Zurich                                                                                                                                         |     2876|
 |University of Zurich                                                                                                                               |     2764|
