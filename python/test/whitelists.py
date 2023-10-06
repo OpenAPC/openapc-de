@@ -631,6 +631,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1367-4811", # Bioinformatics, Gold OA since 2023
     "1367-4803", # Bioinformatics, Gold OA since 2023 (linking)
     "0909-752X", # Skin Research and Technology, Gold OA since 2022
+    "0004-6361", # Astronomy & Astrophysics, Subscribe to Open (S2O) in 2022
+    "1262-3377", # ESAIM: Control, Optimisation and Calculus of Variations, Subscribe to Open (S2O) in 2021
+    "2804-7214", # ESAIM: Mathematical Modelling and Numerical Analysis, Subscribe to Open (S2O) in 2021
+    "0973-5348", # Mathematical Modelling of Natural Phenomena, Subscribe to Open (S2O) in 2020
+    "1262-3318", # ESAIM: Probability and Statistics, Subscribe to Open (S2O) in 2021
+    "2257-7777", # Mechanics & Industry, Gold OA since 2021
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
