@@ -326,16 +326,21 @@ my.apc_doi <- my.apc[!is.na(my.apc$doi), ]
 my.apc_pmid <- my.apc[!is.na(my.apc$pmid), ]
 my.apc_pmcid <- my.apc[!is.na(my.apc$pmcid), ]
 my.apc_ut <- my.apc[!is.na(my.apc$ut), ]
+
+my.bpc <- readr::read_csv("data/bpc.csv")
+
+my.bpc_doi <- my.bpc[!is.na(my.bpc$doi), ]
+
 ```
 
-Indexing coverage
+### Indexing coverage
 
-|Identifier                 | Coverage                                                          |
-|:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  `r format(nrow(my.apc_doi)*100/nrow(my.apc), digits = 4)`%       |
-|PubMed ID                  |  `r format(nrow(my.apc_pmid)*100/nrow(my.apc), digits = 4)`%      |
-|PubMed Central ID          |  `r format(nrow(my.apc_pmcid)*100/nrow(my.apc), digits = 4)`%     |
-|Web of Science record ID   | `r format(nrow(my.apc_ut)*100/nrow(my.apc), digits = 4)`%      |
+|Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
+|:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
+|DOI                        |  `r format(nrow(my.apc_doi)*100/nrow(my.apc), digits = 4)`%       |`r format(nrow(my.bpc_doi)*100/nrow(my.bpc), digits = 4)`%   |
+|PubMed ID                  |  `r format(nrow(my.apc_pmid)*100/nrow(my.apc), digits = 4)`%      | NA                                                          |
+|PubMed Central ID          |  `r format(nrow(my.apc_pmcid)*100/nrow(my.apc), digits = 4)`%     | NA                                                          |
+|Web of Science record ID   | `r format(nrow(my.apc_ut)*100/nrow(my.apc), digits = 4)`%         | NA                                                          |
 
 
 

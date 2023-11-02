@@ -730,7 +730,6 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 #### Spending distribution details
 
 
-
 |period | OA articles| OA mean| OA median|    OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
 |:------|-----------:|-------:|---------:|---------------:|---------------:|-----------:|-------------:|----------------:|
 |2005   |           7|     858|       871| 480.00 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
@@ -753,8 +752,6 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2022   |      14,644|   2,023|     1,953|  12.36 -  9,044|           1,342|       2,706|         2,692|     2.1 - 11,988|
 |2023   |         341|   2,025|     2,001|  50.00 -  5,579|              52|       2,782|         2,948|   860.0 -  5,536|
 
-
-
 ### Books (BPCs)
 
 The book data set contains information on 1,701 open access books. Publication fees were supported financially by 42 research performing institutions and funders. 
@@ -772,7 +769,6 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 #### Spending distribution details
 
 
-
 |period | Frontlist books| mean BPC| median BPC|  BPC min - max| Backlist books| mean BPC| median BPC| BPC min - max|
 |:------|---------------:|--------:|----------:|--------------:|--------------:|--------:|----------:|-------------:|
 |2014   |              62|   15,043|     16,000| 1,663 - 20,000|             NA|       NA|         NA|            NA|
@@ -785,8 +781,6 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2021   |             164|    7,131|      6,746|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             136|    8,375|      7,006| 1,190 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
 |2023   |               9|    5,388|      5,355| 2,678 -  7,140|             NA|       NA|         NA|            NA|
-
-
 
 
 ## Use of external sources
@@ -825,14 +819,14 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 
 
-Indexing coverage
+### Indexing coverage
 
-|Identifier                 | Coverage                                                          |
-|:--------------------------|:------------------------------------------------------------------|
-|DOI                        |  99.71%       |
-|PubMed ID                  |  73.52%      |
-|PubMed Central ID          |  67.75%     |
-|Web of Science record ID   | 87.28%      |
+|Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
+|:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
+|DOI                        |  99.71%       |87.18%   |
+|PubMed ID                  |  73.52%      | NA                                                          |
+|PubMed Central ID          |  67.75%     | NA                                                          |
+|Web of Science record ID   | 87.28%         | NA                                                          |
 
 
 
