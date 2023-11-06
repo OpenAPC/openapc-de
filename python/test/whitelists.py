@@ -391,6 +391,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1435-0653": ["Crop Science Society of America", "Wiley-Blackwell"], # Crop Science (electronic)
 	"1365-2095": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Nutrition 
 	"1353-5773": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Nutrition (print)
+	"2475-0387": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Theoretical Social Psychology
+	"1365-2109": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research 
+	"1355-557X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research (print)
 
 
 
@@ -641,6 +644,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1262-3318", # ESAIM: Probability and Statistics, Subscribe to Open (S2O) in 2021
     "2257-7777", # Mechanics & Industry, Gold OA since 2021
     "1365-2095", # Aquaculture Nutrition, Gold OA since 2022
+    "0030-6053", # Oryx, Gold OA since 2021
+    "1365-2109", # Aquaculture Research, Gold OA since 2023
+    "1355-557X", # Aquaculture Research, Gold OA since 2023 (linking)
+    "2475-0387", # Journal of Theoretical Social Psychology, Gold OA since 2022
+    "1478-6451", # International Journal of Sustainable Energy, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
