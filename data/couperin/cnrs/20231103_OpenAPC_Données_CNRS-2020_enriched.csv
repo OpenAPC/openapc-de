@@ -15,7 +15,7 @@
 "CNRS",2020,674.58,"10.1021/acsomega.9b04034",FALSE,"American Chemical Society (ACS)","ACS Omega","2470-1343","2470-1343","2470-1343","2470-1343","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"32039339","PMC7003513",NA,NA,TRUE
 "CNRS",2020,3688,"10.1021/acsphotonics.9b01749",TRUE,"American Chemical Society (ACS)","ACS Photonics","2330-4022","2330-4022","2330-4022","2330-4022","http://pubs.acs.org/page/policy/authorchoice_ccbyncnd_termsofuse.html",TRUE,"33335947","PMC7735018",NA,NA,FALSE
 "CNRS",2020,1925,"10.1186/s40478-019-0859-3",FALSE,"Springer Nature","Acta Neuropathologica Communications","2051-5960",NA,"2051-5960","2051-5960","http://creativecommons.org/licenses/by/4.0/",TRUE,"31888771","PMC6937797",NA,NA,TRUE
-"CNRS",2020,250,"10.4467/16890027ap.19.012.11421",FALSE,"Uniwersytet Jagiellonski - Wydawnictwo Uniwersytetu Jagiellonskiego","Acta Protozoologica","0065-1583","0065-1583","1689-0027","0065-1583",NA,TRUE,NA,NA,NA,NA,FALSE
+"CNRS",2020,250,"10.4467/16890027ap.19.012.11421",FALSE,"Jagiellonian University","Acta Protozoologica","0065-1583","0065-1583","1689-0027","0065-1583",NA,TRUE,NA,NA,NA,NA,FALSE
 "CNRS",2020,4163,"10.1002/advs.202003049",FALSE,"Wiley-Blackwell","Advanced Science","2198-3844","2198-3844","2198-3844","2198-3844","http://creativecommons.org/licenses/by/4.0/",TRUE,"33552868","PMC7856896",NA,NA,TRUE
 "CNRS",2020,840,"10.1080/23746149.2019.1710252",FALSE,"Informa UK Limited","Advances in Physics: X","2374-6149",NA,"2374-6149","2374-6149","http://creativecommons.org/licenses/by/4.0/",TRUE,"33154977","PMC7116320",NA,NA,TRUE
 "CNRS",2020,2240,"10.1016/j.asr.2020.02.001",TRUE,"Elsevier BV","Advances in Space Research","0273-1177","0273-1177",NA,"0273-1177","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -116,8 +116,8 @@
 "CNRS",2020,770,"10.3391/bir.2020.9.3.03",FALSE,"Regional Euro-Asian Biological Invasions Centre Oy (REABIC)","BioInvasions Records","2242-1300",NA,"2242-1300","2242-1300",NA,TRUE,NA,NA,NA,NA,TRUE
 "CNRS",2020,2930,"10.1016/j.biocon.2019.03.041",TRUE,"Elsevier BV","Biological Conservation","0006-3207","0006-3207",NA,"0006-3207","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "CNRS",2020,1389.79,"10.3390/biology9090299",FALSE,"MDPI AG","Biology","2079-7737",NA,"2079-7737","2079-7737","https://creativecommons.org/licenses/by/4.0/",TRUE,"32962157","PMC7563214",NA,NA,TRUE
-"CNRS",2020,683,"10.1093/biomethods/bpaa012",TRUE,"Oxford University Press (OUP)","Biology Methods and Protocols","2396-8923",NA,"2396-8923","2396-8923","http://creativecommons.org/licenses/by/4.0/",TRUE,"32913896","PMC7474861",NA,NA,TRUE
-"CNRS",2020,751,"10.1093/biomethods/bpaa023",TRUE,"Oxford University Press (OUP)","Biology Methods and Protocols","2396-8923",NA,"2396-8923","2396-8923","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"33324759","PMC7723759",NA,NA,TRUE
+"CNRS",2020,683,"10.1093/biomethods/bpaa012",FALSE,"Oxford University Press (OUP)","Biology Methods and Protocols","2396-8923",NA,"2396-8923","2396-8923","http://creativecommons.org/licenses/by/4.0/",TRUE,"32913896","PMC7474861",NA,NA,TRUE
+"CNRS",2020,751,"10.1093/biomethods/bpaa023",FALSE,"Oxford University Press (OUP)","Biology Methods and Protocols","2396-8923",NA,"2396-8923","2396-8923","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"33324759","PMC7723759",NA,NA,TRUE
 "CNRS",2020,2500,"10.1111/boc.201900105",TRUE,"Wiley-Blackwell","Biology of the Cell","0248-4900","0248-4900","1768-322X","0248-4900","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"32602944",NA,NA,NA,FALSE
 "CNRS",2020,1300,"10.1242/bio.051268",FALSE,"The Company of Biologists","Biology Open","2046-6390",NA,"2046-6390","2046-6390","http://creativecommons.org/licenses/by/4.0",TRUE,"32994186","PMC7657476",NA,NA,TRUE
 "CNRS",2020,2028.4,"10.1155/2020/2701345",FALSE,"Hindawi Publishing Corporation","BioMed Research International","2314-6133","2314-6133","2314-6141","2314-6133","http://creativecommons.org/licenses/by/4.0/",TRUE,"32351987","PMC7174938",NA,NA,FALSE
@@ -214,7 +214,7 @@
 "CNRS",2020,1482.44,"10.3390/cells9112410",FALSE,"MDPI AG","Cells","2073-4409",NA,"2073-4409","2073-4409","https://creativecommons.org/licenses/by/4.0/",TRUE,"33158165","PMC7694207",NA,NA,TRUE
 "CNRS",2020,3060,"10.1007/s00018-020-03622-8",TRUE,"Springer Nature","Cellular and Molecular Life Sciences","1420-682X","1420-682X","1420-9071","1420-682X","https://creativecommons.org/licenses/by/4.0",TRUE,"32920696","PMC7897608",NA,NA,FALSE
 "CNRS",2020,1500,"10.33594/000000033",FALSE,"Cell Physiol Biochem Press GmbH and Co KG","Cellular Physiology and Biochemistry","1015-8987","1015-8987","1421-9778","1015-8987",NA,TRUE,"30873821",NA,NA,NA,TRUE
-"CNRS",2020,2400,"10.1093/texcom/tgaa017",TRUE,"Oxford University Press (OUP)","Cerebral Cortex Communications","2632-7376",NA,"2632-7376","2632-7376","http://creativecommons.org/licenses/by/4.0/",TRUE,"34296095","PMC8152857",NA,NA,TRUE
+"CNRS",2020,2400,"10.1093/texcom/tgaa017",FALSE,"Oxford University Press (OUP)","Cerebral Cortex Communications","2632-7376",NA,"2632-7376","2632-7376","http://creativecommons.org/licenses/by/4.0/",TRUE,"34296095","PMC8152857",NA,NA,TRUE
 "CNRS",2020,2912,"10.1021/acs.chemrev.9b00288",TRUE,"American Chemical Society (ACS)","Chemical Reviews","0009-2665","0009-2665","1520-6890","0009-2665","http://pubs.acs.org/page/policy/authorchoice_ccbyncnd_termsofuse.html",TRUE,"31869214",NA,NA,NA,FALSE
 "CNRS",2020,3360,"10.1021/acs.chemrev.9b00395",TRUE,"American Chemical Society (ACS)","Chemical Reviews","0009-2665","0009-2665","1520-6890","0009-2665","http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",TRUE,"31809038",NA,NA,NA,FALSE
 "CNRS",2020,473.69,"10.3390/chemistry2020014",FALSE,"MDPI AG","Chemistry","2624-8549",NA,"2624-8549","2624-8549","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -347,7 +347,7 @@
 "CNRS",2020,520,"10.5194/ejm-32-623-2020",FALSE,"Copernicus GmbH","European Journal of Mineralogy","1617-4011",NA,"1617-4011","0935-1221","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "CNRS",2020,2590,"10.1016/j.ejpb.2019.06.019",TRUE,"Elsevier BV","European Journal of Pharmaceutics and Biopharmaceutics","0939-6411","0939-6411",NA,"0939-6411","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31228557",NA,NA,NA,FALSE
 "CNRS",2020,2392.5,"10.1016/j.eurpolymj.2020.110033",TRUE,"Elsevier BV","European Polymer Journal","0014-3057","0014-3057",NA,"0014-3057","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"CNRS",2020,1623,"10.1002/evl3.201",FALSE,"Oxford University Press (OUP)","Evolution Letters","2056-3744",NA,"2056-3744","2056-3744","http://creativecommons.org/licenses/by/4.0/",TRUE,"33312683","PMC7719553",NA,NA,TRUE
+"CNRS",2020,1623,"10.1002/evl3.201",FALSE,"Wiley-Blackwell","Evolution Letters","2056-3744",NA,"2056-3744","2056-3744","http://creativecommons.org/licenses/by/4.0/",TRUE,"33312683","PMC7719553",NA,NA,TRUE
 "CNRS",2020,3150,"10.1002/evan.21856",TRUE,"Wiley-Blackwell","Evolutionary Anthropology: Issues, News, and Reviews","1060-1538","1060-1538","1520-6505","1060-1538","http://creativecommons.org/licenses/by/4.0/",TRUE,"32687672","PMC7689778",NA,NA,FALSE
 "CNRS",2020,2640,"10.1111/eva.12951",FALSE,"Wiley-Blackwell","Evolutionary Applications","1752-4571","1752-4571","1752-4571","1752-4571","http://creativecommons.org/licenses/by/4.0/",TRUE,"32821280","PMC7428821",NA,NA,TRUE
 "CNRS",2020,1260,"10.1002/2211-5463.12950",FALSE,"Wiley-Blackwell","FEBS Open Bio","2211-5463","2211-5463","2211-5463","2211-5463","http://creativecommons.org/licenses/by/4.0/",TRUE,"33410599","PMC7780102",NA,NA,TRUE
@@ -585,7 +585,7 @@
 "CNRS",2020,2590,"10.1016/j.isci.2019.100809",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"31927482","PMC6957872",NA,NA,TRUE
 "CNRS",2020,2590,"10.1016/j.isci.2020.100828",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32000126","PMC7033635",NA,NA,TRUE
 "CNRS",2020,2590,"10.1016/j.isci.2020.100849",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32058961","PMC6997860",NA,NA,TRUE
-"CNRS",2020,308.43,"10.4102/jamba.v12i1.864",FALSE,"AOSIS","Jàmbá: Journal of Disaster Risk Studies","1996-1421","2072-845X","1996-1421","1996-1421","https://creativecommons.org/licenses/by/4.0",TRUE,"33101599","PMC7565098",NA,NA,TRUE
+"CNRS",2020,308.43,"10.4102/jamba.v12i1.864",FALSE,"AOSIS","Jàmbá Journal of Disaster Risk Studies","1996-1421","2072-845X","1996-1421","1996-1421","https://creativecommons.org/licenses/by/4.0",TRUE,"33101599","PMC7565098",NA,NA,TRUE
 "CNRS",2020,1625,"10.1029/2020ms002070",FALSE,"American Geophysical Union (AGU)","Journal of Advances in Modeling Earth Systems","1942-2466","1942-2466","1942-2466","1942-2466","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"32999705","PMC7507753",NA,NA,TRUE
 "CNRS",2020,1625,"10.1029/2020ms002078",FALSE,"American Geophysical Union (AGU)","Journal of Advances in Modeling Earth Systems","1942-2466","1942-2466","1942-2466","1942-2466","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "CNRS",2020,1625,"10.1029/2020ms002106",FALSE,"American Geophysical Union (AGU)","Journal of Advances in Modeling Earth Systems","1942-2466","1942-2466","1942-2466","1942-2466","http://creativecommons.org/licenses/by/4.0/",TRUE,"32999707","PMC7507762",NA,NA,TRUE
@@ -696,7 +696,7 @@
 "CNRS",2020,3580,"10.1038/s41380-020-0728-2",TRUE,"Springer Nature","Molecular Psychiatry","1359-4184","1359-4184","1476-5578","1359-4184","https://creativecommons.org/licenses/by/4.0",TRUE,"32327736","PMC8159765",NA,NA,FALSE
 "CNRS",2020,2600,"10.15252/msb.20209524",FALSE,"EMBO","Molecular Systems Biology","1744-4292","1744-4292","1744-4292","1744-4292","http://creativecommons.org/licenses/by/4.0/",TRUE,"32618424","PMC7333348",NA,NA,TRUE
 "CNRS",2020,3850,"10.15252/msb.20209569",FALSE,"EMBO","Molecular Systems Biology","1744-4292","1744-4292","1744-4292","1744-4292","http://creativecommons.org/licenses/by/4.0/",TRUE,"32816370","PMC7440042",NA,NA,TRUE
-"CNRS",2020,2502.07,"10.1016/j.omtn.2020.05.014",TRUE,"Elsevier BV","Molecular Therapy - Nucleic Acids","2162-2531","2162-2531",NA,"2162-2531","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32505001","PMC7270507",NA,NA,TRUE
+"CNRS",2020,2502.07,"10.1016/j.omtn.2020.05.014",FALSE,"Elsevier BV","Molecular Therapy - Nucleic Acids","2162-2531","2162-2531",NA,"2162-2531","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"32505001","PMC7270507",NA,NA,TRUE
 "CNRS",2020,1643.04,"10.3390/molecules24244599",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"31888204","PMC6943490",NA,NA,TRUE
 "CNRS",2020,471.02,"10.3390/molecules25051070",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"32121002","PMC7179149",NA,NA,TRUE
 "CNRS",2020,1689.7,"10.3390/molecules25051193",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"32155779","PMC7179456",NA,NA,TRUE
@@ -1160,7 +1160,7 @@
 "CNRS",2020,1621.42,"10.3390/v12101121",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915","1999-4915","https://creativecommons.org/licenses/by/4.0/",TRUE,"33023227","PMC7650723",NA,NA,TRUE
 "CNRS",2020,463.26,"10.3390/v12121351",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915","1999-4915","https://creativecommons.org/licenses/by/4.0/",TRUE,"33255892","PMC7760109",NA,NA,TRUE
 "CNRS",2020,1853.05,"10.3390/v13050766",FALSE,"MDPI AG","Viruses","1999-4915",NA,"1999-4915","1999-4915","https://creativecommons.org/licenses/by/4.0/",TRUE,"33925452","PMC8145447",NA,NA,TRUE
-"CNRS",2020,1522.5,"10.1016/j.visres.2020.07.009",FALSE,"Elsevier BV","Vision Research","0042-6989","0042-6989",NA,"0042-6989","http://creativecommons.org/licenses/by/4.0/",TRUE,"32771554",NA,NA,NA,FALSE
+"CNRS",2020,1522.5,"10.1016/j.visres.2020.07.009",TRUE,"Elsevier BV","Vision Research","0042-6989","0042-6989",NA,"0042-6989","http://creativecommons.org/licenses/by/4.0/",TRUE,"32771554",NA,NA,NA,FALSE
 "CNRS",2020,1460.48,"10.3390/w11122637",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "CNRS",2020,1705.3,"10.3390/w12040987",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "CNRS",2020,1540.22,"10.3390/w12051230",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
