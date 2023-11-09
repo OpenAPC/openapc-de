@@ -394,6 +394,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2475-0387": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Theoretical Social Psychology
 	"1365-2109": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research 
 	"1355-557X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research (print)
+	"2095-9273": ["Springer Nature", "Elsevier BV"], # Science Bulletin 
 
 
 
@@ -649,6 +650,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1355-557X", # Aquaculture Research, Gold OA since 2023 (linking)
     "2475-0387", # Journal of Theoretical Social Psychology, Gold OA since 2022
     "1478-6451", # International Journal of Sustainable Energy, Gold OA since 2023
+    "0067-0049", # The Astrophysical Journal Supplement Series, Gold OA since 2022
+    "0737-4038", # Molecular Biology and Evolution, Gold OA since 2021
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
