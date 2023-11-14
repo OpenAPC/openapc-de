@@ -1199,7 +1199,7 @@ def _process_opencost_cost_data(cost_data_element, namespaces):
                 if field in ["date_paid", "date_invoice"]:
                     target_field = field
                     if re.match(r"\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?", result.text):
-                        value = result.txt[:4]
+                        value = result.text[:4]
                     else:
                         value = result.text
                 elif field == "amount_paid":
