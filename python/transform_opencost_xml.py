@@ -7,14 +7,17 @@ import csv
 import openapc_toolkit as oat
 
 parser = argparse.ArgumentParser()
-parser.add_argument("xml_file", help="An openCost XML file which should validate against the official openCost XSD schema")
+parser.add_argument("xml_files", nargs="+", help="One or more openCost XML files which should validate against the official openCost XSD schema")
 args = parser.parse_args()
 
-articles = None
+xml_content_strings = []
 
-with open(args.xml_file) as f:
-    content = f.read()
-    articles = oat.process_opencost_xml(content)
+for path in args.xml_files:
+    with open(path) as f:
+        content = f.read()
+        xml_content_strings.append(content)
+
+articles = oat.process_opencost_xml(*xml_content_strings)
 
 ror_map = {}
 with open(oat.INSTITUTIONS_FILE, "r") as ins_file:
@@ -28,6 +31,7 @@ for article in articles:
         ror_request = oat.get_metadata_from_ror(ror_id)
         if ror_request["success"]:
             ror_map[ror_id] = ror_request["data"]["institution"]
+            print("{};{}".format(ror_id, ror_request["data"]["institution"]))
         else:
             oat.print_r(ror_request["error_msg"])
     article["institution"] = ror_map.get(ror_id, "")
