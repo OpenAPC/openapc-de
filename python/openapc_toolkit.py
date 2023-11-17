@@ -1346,13 +1346,18 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
                         "period ({} vs {}).",
         "no_invoice_id": "A contract invoice has no invoice_id (data dump: {}).",
         "from_or_to_missing": "Invoice '{}': The 'from' or 'to' element " +
-                              "is missing (or both)."
+                              "is missing (or both).",
+        "date_invoice_only": "Warning: Period for invoice '{}' could only " +
+                             "be inferred from the date_invoice element, which " +
+                             "might be inaccurate (should be extracted from " +
+                             "'from' and 'to instead')"
     }
 
     invoice_xpaths = {
         "invoice_id": "opencost:invoice_id",
         "from": "opencost:invoice_period//opencost:from",
-        "to": "opencost:invoice_period//opencost:to"
+        "to": "opencost:invoice_period//opencost:to",
+        "date_invoice": "opencost:dates//opencost:date_invoice"
     }
 
     ret = {
@@ -1375,7 +1380,7 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
                 if result is None or result.text is None:
                     continue
                 # Apply processing rules
-                if field in ["from", "to"]:
+                if field in ["from", "to", "date_invoice"]:
                     if re.match(r"\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?", result.text):
                         value = result.text[:4]
                     else:
@@ -1400,6 +1405,10 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
                 msg = msgs["from_to_diff"].format(invoice_id, data["from"], data["to"])
                 ret["error_msg"] = msg
                 return ret
+        elif "date_invoice" in data:
+            msg = msgs["date_invoice_only"]
+            print_y(msg.format(invoice_id))
+            data["invoice_period"] = data["date_invoice"]
         else:
             msg = msgs["from_or_to_missing"].format(invoice_id)
             ret["error_msg"] = msg
