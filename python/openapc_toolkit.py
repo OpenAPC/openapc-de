@@ -1471,6 +1471,7 @@ def _apply_contract_data(extracted_records, extracted_invoices):
         for record in extracted_records:
             if "target_invoice_id" in record and record["target_invoice_id"] == invoice_id:
                 record["euro"] = record_costs
+                record["period"] = invoice["invoice_period"]
                 # DEAL - might need adjustments for other TAs.
                 record["is_hybrid"] = "TRUE"
                 del(record["target_invoice_id"])
