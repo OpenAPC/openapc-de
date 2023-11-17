@@ -517,7 +517,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1479-1641", # Diabetes and Vascular Disease Research, Gold OA since 2020
     "0022-2275", # The Journal of Lipid Research, Gold OA since 2021
     "1535-9476", # Molecular & Cellular Proteomics, Gold OA since 2021
-    "1759-4685", # Journal of Molecular Cell Biology
+    "1759-4685", # Journal of Molecular Cell Biology, Gold OA since 2019
     "0355-3140", # Scandinavian Journal of Work, Environment & Health, Gold OA since 2021
     "1015-6305", # Brain Pathology
     "1751-8687", # IET Generation, Transmission & Distribution, Gold OA since 2021
