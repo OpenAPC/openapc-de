@@ -53,12 +53,18 @@ with open(all_articles_path, "w") as out:
     main_writer = csv.DictWriter(out, fieldnames)
     main_writer.writeheader()
     for article in articles:
+        main_writer.writerow(article)
         institution = article["institution"]
-        invoice_id = article["contract_invoice_id"]
+        esac_id = article["contract_primary_identifier"]
         pub_type = article["type"]
         ins_name = institution.lower().replace(" ", "_")
-        if oat.has_value(invoice_id):
-            ins_name += "_DEAL"
+        if esac_id == "sn2020deal":
+            ins_name += "_DEAL_Springer"
+        elif esac_id == "wiley2019deal":
+            ins_name += "_DEAL_Wiley"
+        elif oat.has_value(esac_id):
+            # Skip contracts other than DEAL
+            continue
         elif pub_type == "book":
             ins_name += "_BPC"
         if ins_name not in csv_writers:
@@ -68,7 +74,6 @@ with open(all_articles_path, "w") as out:
             csv_writers[ins_name] = csv.DictWriter(handle, fieldnames)
             csv_writers[ins_name].writeheader()
         csv_writers[ins_name].writerow(article)
-        main_writer.writerow(article)
 
 for handle in handles:
     handle.close()
