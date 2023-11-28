@@ -1,9 +1,9 @@
-institution;apc;period;doi;currency;is_hybrid;euro
-Consejo Superior de Investigaciones Cientificas (CSIC);995;2021;10.7717/peerj.10872;USD;FALSE;
-Consejo Superior de Investigaciones Cientificas (CSIC);995;2021;10.7717/peerj.10865;USD;FALSE;
-Consejo Superior de Investigaciones Cientificas (CSIC);995;2021;10.7717/peerj.11014;USD;FALSE;
-Consejo Superior de Investigaciones Cientificas (CSIC);995;2021;10.7717/peerj.11139;USD;FALSE;
-Consejo Superior de Investigaciones Cientificas (CSIC);995;2021;10.7717/peerj.11386;USD;FALSE;
-Consejo Superior de Investigaciones Cientificas (CSIC);1095;2021;10.7717/peerj.11673;USD;FALSE;
-Consejo Superior de Investigaciones Cientificas (CSIC);1095;2021;10.7717/peerj.11725;USD;FALSE;
-Consejo Superior de Investigaciones Cientificas (CSIC);1095;2021;10.7717/peerj.12515;USD;FALSE;
+"institution","apc","period","doi","currency","is_hybrid","euro"
+"Consejo Superior de Investigaciones Cientificas (CSIC)","995","2021","10.7717/peerj.10872","USD","FALSE","841.27"
+"Consejo Superior de Investigaciones Cientificas (CSIC)","995","2021","10.7717/peerj.10865","USD","FALSE","841.27"
+"Consejo Superior de Investigaciones Cientificas (CSIC)","995","2021","10.7717/peerj.11014","USD","FALSE","841.27"
+"Consejo Superior de Investigaciones Cientificas (CSIC)","995","2021","10.7717/peerj.11139","USD","FALSE","841.27"
+"Consejo Superior de Investigaciones Cientificas (CSIC)","995","2021","10.7717/peerj.11386","USD","FALSE","841.27"
+"Consejo Superior de Investigaciones Cientificas (CSIC)","1095","2021","10.7717/peerj.11673","USD","FALSE","925.82"
+"Consejo Superior de Investigaciones Cientificas (CSIC)","1095","2021","10.7717/peerj.11725","USD","FALSE","925.82"
+"Consejo Superior de Investigaciones Cientificas (CSIC)","1095","2021","10.7717/peerj.12515","USD","FALSE","925.82"
