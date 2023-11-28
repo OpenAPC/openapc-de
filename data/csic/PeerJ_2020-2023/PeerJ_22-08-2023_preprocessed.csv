@@ -1,6 +1,6 @@
-institution;apc;period;doi;currency;is_hybrid
-Consejo Superior de Investigaciones Cientificas (CSIC);1095;01/01/2023;10.7717/peerj.15002;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);1495;01/01/2023;10.7717/peerj.15336;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);1495;01/01/2023;10.7717/peerj.15520;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);1495;01/01/2023;10.7717/peerj-cs.1568;USD;FALSE
-Consejo Superior de Investigaciones Cientificas (CSIC);1495;01/01/2023;10.7717/peerj.16079;USD;FALSE
+institution;apc;period;doi;currency;is_hybrid;euro
+Consejo Superior de Investigaciones Cientificas (CSIC);1095;2023;10.7717/peerj.15002;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);1495;2023;10.7717/peerj.15336;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);1495;2023;10.7717/peerj.15520;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);1495;2023;10.7717/peerj-cs.1568;USD;FALSE;
+Consejo Superior de Investigaciones Cientificas (CSIC);1495;2023;10.7717/peerj.16079;USD;FALSE;
