@@ -39,6 +39,7 @@ JOURNAL_OWNER_CHANGED = {
     "0024-4066": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society
     "1095-8312": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society (electronic)
     "0024-4074": ["Wiley-Blackwell", "Oxford University Press (OUP)"], #  Botanical Journal of the Linnean Society
+    "1095-8339": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society (electronic)
     "1087-2981": ["Co-Action Publishing", "Informa UK Limited"], # Medical Education Online
     "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action (print)
     "1654-9880": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
@@ -395,7 +396,10 @@ JOURNAL_OWNER_CHANGED = {
 	"1365-2109": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research 
 	"1355-557X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research (print)
 	"2095-9273": ["Springer Nature", "Elsevier BV"], # Science Bulletin 
-
+	"0014-3820": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution 
+	"1558-5646": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution (electronic)
+	"0004-8038": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology 
+	"2732-4613": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology (electronic)
 
 
 
@@ -652,6 +656,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1478-6451", # International Journal of Sustainable Energy, Gold OA since 2023
     "0067-0049", # The Astrophysical Journal Supplement Series, Gold OA since 2022
     "0737-4038", # Molecular Biology and Evolution, Gold OA since 2021
+    "1054-3139", # ICES Journal of Marine Science, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
