@@ -10,6 +10,7 @@ an error message otherwise.
 """
 
 import argparse
+import json
 from urllib.request import urlopen, Request
 
 from openapc_toolkit import get_metadata_from_crossref as gmfc
@@ -20,12 +21,12 @@ def main():
     parser.add_argument("-r", "--raw", action="store_true", help="Print the raw Crossref XML.")
     args = parser.parse_args()
     if args.raw:
-        url = 'https://data.crossref.org/' + args.doi
+        url = 'https://api.crossref.org/works/' + args.doi
         req = Request(url)
-        req.add_header("Accept", "application/vnd.crossref.unixsd+xml")
         response = urlopen(req)
-        content_string = response.read()
-        print(content_string.decode("utf-8"))
+        content = response.read()
+        data = json.loads(content)
+        print(json.dumps(data, indent = 2))
     else:
         res = gmfc(args.doi)
         if res["success"]:
