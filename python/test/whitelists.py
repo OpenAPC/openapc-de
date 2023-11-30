@@ -318,7 +318,8 @@ JOURNAL_OWNER_CHANGED = {
     "0031-8884": ["International Phycological Society", "Informa UK Limited"], # Phycologia
     "2330-2968": ["International Phycological Society", "Informa UK Limited"], # Phycologia (electronic)
     "0923-7534": ["Oxford University Press (OUP)", "Elsevier BV"], # Annals of Oncology
-    "1139-6709": ["Spanish Society for Microbiology", "Springer Nature"], # International Microbiology
+    "1618-1905": ["Spanish Society for Microbiology", "Springer Nature"], # International Microbiology
+    "1139-6709": ["Spanish Society for Microbiology", "Springer Nature"], # International Microbiology (linking)
     "2045-8940": ["SAGE Publications", "Wiley-Blackwell"], # Pulmonary Circulation
     "2045-8932": ["SAGE Publications", "Wiley-Blackwell"], # Pulmonary Circulation (linking)
     "2047-4938": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Biometrics
@@ -400,7 +401,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1558-5646": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution (electronic)
 	"0004-8038": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology 
 	"2732-4613": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology (electronic)
-
+	"1865-1682": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases 
+	"1865-1674": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases (print)
 
 
 }
@@ -657,6 +659,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0067-0049", # The Astrophysical Journal Supplement Series, Gold OA since 2022
     "0737-4038", # Molecular Biology and Evolution, Gold OA since 2021
     "1054-3139", # ICES Journal of Marine Science, Gold OA since 2023
+    "2196-0216", # ChemElectroChem, Gold OA since 2023
+    "1865-1682", # Transboundary and Emerging Diseases, Gold OA since 2023
+    "1865-1674", # Transboundary and Emerging Diseases, Gold OA since 2023 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
