@@ -1,5 +1,5 @@
 institution,period,euro,doi,is_hybrid,publisher,journal_full_title,issn,issn_print,issn_electronic,issn_l,license_ref,indexed_in_crossref,pmid,pmcid,ut,url,doaj,agreement
-National University of Ireland Galway,2020,,10.1145/3441501.3441515,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
+University of Galway,2020,,10.1145/3441501.3441515,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
 University College Dublin,2020,,10.1145/3405755.3406118,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
 University College Dublin,2020,,10.1145/3405755.3406132,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
 University College Dublin,2020,,10.1145/3405755.3406136,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
@@ -30,13 +30,13 @@ University College Dublin,2020,,10.1145/3411762,TRUE,,,,,,,,,,,,,,IReL ACM Agree
 University College Dublin,2020,,10.1145/3407023.3407081,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
 University College Dublin,2020,,10.1145/3407023.3407068,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
 University College Dublin,2020,,10.1145/3436997,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
-National University of Ireland Galway,2020,,10.1145/3372278.3390722,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
-National University of Ireland Galway,2020,,10.1145/3372278.3391936,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
-National University of Ireland Galway,2020,,10.1145/3410992.3411005,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
-National University of Ireland Galway,2020,,10.1145/3410992.3411014,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
-National University of Ireland Galway,2020,,10.1145/3340531.3412009,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
-National University of Ireland Galway,2020,,10.1145/3423423.3423433,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
-National University of Ireland Galway,2020,,10.1145/3391274.3393635,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
+University of Galway,2020,,10.1145/3372278.3390722,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
+University of Galway,2020,,10.1145/3372278.3391936,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
+University of Galway,2020,,10.1145/3410992.3411005,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
+University of Galway,2020,,10.1145/3410992.3411014,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
+University of Galway,2020,,10.1145/3340531.3412009,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
+University of Galway,2020,,10.1145/3423423.3423433,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
+University of Galway,2020,,10.1145/3391274.3393635,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
 University of Limerick,2020,,10.1145/3387904.3389284,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
 University of Limerick,2020,,10.1145/3394979,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
 University of Limerick,2020,,10.1145/3377930.3390167,TRUE,,,,,,,,,,,,,,IReL ACM Agreement
@@ -103,7 +103,7 @@ Trinity College Dublin,2020,,10.1063/5.0014106,TRUE,,,,,,,,,,,,,,IReL AIP Agreem
 University College Dublin,2020,,10.1063/5.0011510,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
 Trinity College Dublin,2020,,10.1063/5.0011890,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
 Technological University Dublin,2020,,10.1063/1.5129363,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
-National University of Ireland Galway,2020,,10.1063/1.5132628,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
+University of Galway,2020,,10.1063/1.5132628,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
 University of Limerick,2020,,10.1063/1.5128233,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
 University College Cork,2020,,10.1063/5.0003852,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
 University College Cork,2020,,10.1101/gr.257352.119,TRUE,,,,,,,,,,,,,,IReL CSHL Agreement
@@ -172,13 +172,13 @@ Technological University Dublin,2021,,10.1021/acsaelm.1c00018,TRUE,,,,,,,,,,,,,,
 Technological University Dublin,2021,,10.1021/acsestwater.0c00125,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
 Maynooth University,2021,,10.1021/acs.bioconjchem.1c00115,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
 Maynooth University,2021,,10.1021/acs.jpcb.1c00304,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
-National University of Ireland Galway,2021,,10.1021/acs.cgd.0c01717,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
-National University of Ireland Galway,2021,,10.1021/acs.cgd.1c00217,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
-National University of Ireland Galway,2021,,10.1021/acs.jpca.1c03168,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
-National University of Ireland Galway,2021,,10.1021/acsami.1c07083,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
-National University of Ireland Galway,2021,,10.1021/acsnano.1c03800,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
-National University of Ireland Galway,2021,,10.1021/jacs.0c10697,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
-National University of Ireland Galway,2021,,10.1021/jacs.1c06557,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
+University of Galway,2021,,10.1021/acs.cgd.0c01717,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
+University of Galway,2021,,10.1021/acs.cgd.1c00217,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
+University of Galway,2021,,10.1021/acs.jpca.1c03168,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
+University of Galway,2021,,10.1021/acsami.1c07083,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
+University of Galway,2021,,10.1021/acsnano.1c03800,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
+University of Galway,2021,,10.1021/jacs.0c10697,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
+University of Galway,2021,,10.1021/jacs.1c06557,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
 Royal College of Surgeons in Ireland,2021,,10.1021/acs.joc.1c00778,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
 Royal College of Surgeons in Ireland,2021,,10.1021/acsnano.1c03677,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
 Trinity College Dublin,2021,,10.1021/acsanm.1c00040,TRUE,,,,,,,,,,,,,,IReL ACS Agreement
@@ -274,27 +274,27 @@ University College Cork,2021,,10.1063/5.0011383,TRUE,,,,,,,,,,,,,,IReL AIP Agree
 University College Cork,2021,,10.1063/5.0030296,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
 University College Cork,2021,,10.1116/6.0001614,TRUE,,,,,,,,,,,,,,IReL AIP Agreement
 Trinity College Dublin,2021,,10.1136/medethics-2020-107099,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
-National University of Ireland Galway,2021,,10.1136/neurintsurg-2021-017316,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
+University of Galway,2021,,10.1136/neurintsurg-2021-017316,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
 Royal College of Surgeons in Ireland,2021,,10.1136/bmjqs-2020-012751,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
 Trinity College Dublin,2021,,10.1136/jnnp-2020-324992,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
 University of Limerick,2021,,10.1136/medhum-2021-012178,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
 Trinity College Dublin,2021,,10.1136/jnnp-2021-326854,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
-National University of Ireland Galway,2021,,10.1136/neurintsurg-2021-017310,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
+University of Galway,2021,,10.1136/neurintsurg-2021-017310,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
 Royal College of Surgeons in Ireland,2021,,10.1136/gutjnl-2021-325193,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
 University College Cork,2021,,10.1136/ebmental-2021-300291,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
-National University of Ireland Galway,2021,,10.1136/bmjebm-2020-111603,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
+University of Galway,2021,,10.1136/bmjebm-2020-111603,TRUE,,,,,,,,,,,,,,IReL BMJ Agreement
 Dublin City University,2021,,10.1017/S0022278X21000252,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 Dublin City University,2021,,10.1017/S1474746421000695,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 Dublin City University,2021,,10.1017/bch.2021.19,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 Dublin City University,2021,,10.1017/S1744137421000576,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 Dublin City University,2021,,10.1017/S1743923X21000209,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 Dublin City University,2021,,10.1017/S088571562100021X,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
-National University of Ireland Galway,2021,,10.1017/ipm.2021.37,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
-National University of Ireland Galway,2021,,10.1017/S0144686X21001501,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
-National University of Ireland Galway,2021,,10.1017/S0144686X21001355,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
-National University of Ireland Galway,2021,,10.1017/ipm.2021.30,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
-National University of Ireland Galway,2021,,10.1017/ipm.2021.32,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
-National University of Ireland Galway,2021,,10.1017/ipm.2021.24,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
+University of Galway,2021,,10.1017/ipm.2021.37,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
+University of Galway,2021,,10.1017/S0144686X21001501,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
+University of Galway,2021,,10.1017/S0144686X21001355,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
+University of Galway,2021,,10.1017/ipm.2021.30,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
+University of Galway,2021,,10.1017/ipm.2021.32,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
+University of Galway,2021,,10.1017/ipm.2021.24,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 Maynooth University,2021,,10.1192/j.eurpsy.2021.2239,FALSE,,,,,,,,,,,,,,IReL CUP Agreement
 Maynooth University,2021,,10.1017/ipm.2021.52,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 Maynooth University,2021,,10.1017/lst.2021.49,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
@@ -373,7 +373,7 @@ University of Limerick,2021,,10.1017/iop.2021.90,TRUE,,,,,,,,,,,,,,IReL CUP Agre
 University of Limerick,2021,,10.1017/jfm.2021.664,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 University of Limerick,2021,,10.1017/S0022029921000431,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
 University of Limerick,2021,,10.1017/jfm.2021.289,TRUE,,,,,,,,,,,,,,IReL CUP Agreement
-National University of Ireland Galway,2021,,10.1101/gad.348234.121,TRUE,,,,,,,,,,,,,,IReL CSHL Agreement
+University of Galway,2021,,10.1101/gad.348234.121,TRUE,,,,,,,,,,,,,,IReL CSHL Agreement
 Trinity College Dublin,2021,,10.1149/2162-8777/abe981,TRUE,,,,,,,,,,,,,,IReL ECS Agreement
 Trinity College Dublin,2021,,10.1149/2162-8777/abeb52,TRUE,,,,,,,,,,,,,,IReL ECS Agreement
 University College Cork,2021,,10.1149/2162-8777/ac19c5,TRUE,,,,,,,,,,,,,,IReL ECS Agreement
@@ -385,10 +385,10 @@ Dublin City University,2021,,10.1108/SL-02-2021-0016,TRUE,,,,,,,,,,,,,,IReL Emer
 Dublin City University,2021,,10.1108/SL-04-2021-0038,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
 Dublin City University,2021,,10.1108/SL-05-2021-0051,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
 Dublin City University,2021,,10.1108/QRAM-03-2021-0042,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
-National University of Ireland Galway,2021,,10.1108/AAM-01-2021-0001,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
-National University of Ireland Galway,2021,,10.1108/IJLSS-11-2020-0194,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
-National University of Ireland Galway,2021,,10.1108/IJOPM-12-2020-0871,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
-National University of Ireland Galway,2021,,10.1108/JSOCM-10-2020-0200,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
+University of Galway,2021,,10.1108/AAM-01-2021-0001,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
+University of Galway,2021,,10.1108/IJLSS-11-2020-0194,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
+University of Galway,2021,,10.1108/IJOPM-12-2020-0871,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
+University of Galway,2021,,10.1108/JSOCM-10-2020-0200,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
 Maynooth University,2021,,10.1108/JAOC-11-2020-0186,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
 Technological University Dublin,2021,,10.1108/DAT-10-2020-0064,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
 Technological University Dublin,2021,,10.1108/IJSHE-03-2021-0120,TRUE,,,,,,,,,,,,,,IReL Emerald Agreement
@@ -420,8 +420,8 @@ University College Dublin,2021,,10.1088/1361-6552/ac4145,TRUE,,,,,,,,,,,,,,IReL 
 University College Dublin,2021,,10.1088/1361-6455/ac42da,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
 Dublin City University,2021,,10.1088/1361-6463/ac360c,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
 Dublin City University,2021,,10.1088/1752-7163/abf20a,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
-National University of Ireland Galway,2021,,10.1088/1361-6463/ac3e91,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
-National University of Ireland Galway,2021,,10.1088/1361-6463/abe2c6,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
+University of Galway,2021,,10.1088/1361-6463/ac3e91,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
+University of Galway,2021,,10.1088/1361-6463/abe2c6,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
 Trinity College Dublin,2021,,10.1088/1741-2552/abd829,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
 Trinity College Dublin,2021,,10.1088/1758-5090/ac04f7,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
 University College Cork,2021,,10.1088/1361-6560/ac0683,TRUE,,,,,,,,,,,,,,IReL IOP Agreement
@@ -448,8 +448,8 @@ Dublin City University,2021,,10.1093/teamat/hrab018,TRUE,,,,,,,,,,,,,,IReL OUP A
 Dublin City University,2021,,10.1093/jhuman/huab035,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Dublin City University,2021,,10.1093/hrlr/ngab031,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Dublin City University,2021,,10.1093/erae/jbab050,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/bjs/znab103,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/eurheartj/ehab441,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/bjs/znab103,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/eurheartj/ehab441,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Maynooth University,2021,,10.1093/teamat/hrab006,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Maynooth University,2021,,10.1093/teamat/hrab017,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Maynooth University,2021,,10.1093/jiplp/jpab016,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
@@ -459,26 +459,26 @@ Maynooth University,2021,,10.1093/llc/fqab041,TRUE,,,,,,,,,,,,,,IReL OUP Agreeme
 Maynooth University,2021,,10.1093/cdj/bsab034,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 University College Cork,2021,,10.1093/ptj/pzab307,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 University College Cork,2021,,10.1093/eurpub/ckab082,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/bjsw/bcab009,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/bjsw/bcab099,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/schbul/sbab033,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/icesjms/fsab040,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/mnras/stab608,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/fampra/cmab040,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/pm/pnab122,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/zoolinnean/zlab069,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/eurheartj/ehab537,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/fampra/cmab109,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/icesjms/fsab030,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/intqhc/mzab013,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/intqhc/mzab117,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/intqhc/mzab138,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/eurheartj/ehab738,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/bjsw/bcab009,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/bjsw/bcab099,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/schbul/sbab033,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/icesjms/fsab040,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/mnras/stab608,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/fampra/cmab040,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/pm/pnab122,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/zoolinnean/zlab069,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/eurheartj/ehab537,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/fampra/cmab109,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/icesjms/fsab030,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/intqhc/mzab013,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/intqhc/mzab117,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/intqhc/mzab138,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/eurheartj/ehab738,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Royal College of Surgeons in Ireland,2021,,10.1093/ageing/afab033,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Royal College of Surgeons in Ireland,2021,,10.1093/bjs/znab137,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Trinity College Dublin,2021,,10.1093/qjmed/hcab141,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Trinity College Dublin,2021,,10.1093/qjmed/hcab048,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/ehjcr/ytab203,FALSE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/ehjcr/ytab203,FALSE,,,,,,,,,,,,,,IReL OUP Agreement
 Trinity College Dublin,2021,,10.1093/ageing/afab010,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Trinity College Dublin,2021,,10.1093/qjmed/hcab015,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Teagasc,2021,,10.1093/jas/skab070,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
@@ -554,7 +554,7 @@ University of Limerick,2021,,10.1093/sf/soab006,TRUE,,,,,,,,,,,,,,IReL OUP Agree
 University of Limerick,2021,,10.1093/imamat/hxab003,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 University of Limerick,2021,,10.1093/eurpub/ckab178,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 University of Limerick,2021,,10.1093/teamat/hrab029,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
-National University of Ireland Galway,2021,,10.1093/ehjacc/zuab033,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
+University of Galway,2021,,10.1093/ehjacc/zuab033,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 Trinity College Dublin,2021,,10.1093/brain/awab322,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 University College Cork,2021,,10.1093/cdj/bsab002,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
 University College Cork,2021,,10.1093/hisres/htab011,TRUE,,,,,,,,,,,,,,IReL OUP Agreement
@@ -568,8 +568,8 @@ Dublin City University,2021,,https://doi.org/10.3318/isia.2021.32b.29,TRUE,,,,,,
 Dublin City University,2021,,https://doi.org/10.3318/isia.2021.32b.38,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
 Maynooth University,2021,,https://doi.org/10.3318/isia.2021.32b.45,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
 Maynooth University,2021,,10.1353/ria.2022.0016,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
-National University of Ireland Galway,2021,,https://doi.org/10.3318/ISIA.2021.32.05,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
-National University of Ireland Galway,2021,,https://doi.org/10.3318/ISIA.2021.32.08,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
+University of Galway,2021,,https://doi.org/10.3318/ISIA.2021.32.05,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
+University of Galway,2021,,https://doi.org/10.3318/ISIA.2021.32.08,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
 Trinity College Dublin,2021,,https://doi.org/10.3318/IJES.2021.39.3,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
 Trinity College Dublin,2021,,https://doi.org/10.3318/isia.2021.32b.22,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
 Trinity College Dublin,2021,,10.3318/PRIAC.2021.121.09,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
@@ -584,10 +584,10 @@ University College Dublin,2021,,10.3318/PRIA.2021.121.03,TRUE,,,,,,,,,,,,,,IReL 
 University of Limerick,2021,,doi.org/10.3318/ISIA.2021.32.01,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
 University of Limerick,2021,,10.3318/PRIAC.2021.121.06,TRUE,,,,,,,,,,,,,,IReL RIA Agreement
 Dublin City University,2021,,10.1098/rsos.211308,FALSE,,,,,,,,,,,,,,IReL RS Agreement
-National University of Ireland Galway,2021,,10.1098/rsos.201958,FALSE,,,,,,,,,,,,,,IReL RS Agreement
-National University of Ireland Galway,2021,,10.1098/rspa.2021.0086,TRUE,,,,,,,,,,,,,,IReL RS Agreement
-National University of Ireland Galway,2021,,10.1098/rsob.210107,FALSE,,,,,,,,,,,,,,IReL RS Agreement
-National University of Ireland Galway,2021,,10.1098/rsif.2021.0673,TRUE,,,,,,,,,,,,,,IReL RS Agreement
+University of Galway,2021,,10.1098/rsos.201958,FALSE,,,,,,,,,,,,,,IReL RS Agreement
+University of Galway,2021,,10.1098/rspa.2021.0086,TRUE,,,,,,,,,,,,,,IReL RS Agreement
+University of Galway,2021,,10.1098/rsob.210107,FALSE,,,,,,,,,,,,,,IReL RS Agreement
+University of Galway,2021,,10.1098/rsif.2021.0673,TRUE,,,,,,,,,,,,,,IReL RS Agreement
 Trinity College Dublin,2021,,10.1098/rsbl.2021.0222,TRUE,,,,,,,,,,,,,,IReL RS Agreement
 University College Cork,2021,,10.1098/rsbl.2021.0226,TRUE,,,,,,,,,,,,,,IReL RS Agreement
 University College Cork,2021,,10.1098/rspb.2021.1509,TRUE,,,,,,,,,,,,,,IReL RS Agreement
@@ -635,23 +635,23 @@ Maynooth University,2021,,10.1177/15423166211052832,TRUE,,,,,,,,,,,,,,IReL Sage 
 Maynooth University,2021,,10.1177/15413446211063834,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Maynooth University,2021,,10.1177/17488958211067912,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Maynooth University,2021,,10.1177/14773708211070215,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/17446295211022124,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/10778012211024269,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/13591053211008203,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/19427786211014680,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/23969873211024777,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/07916035211030374,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/17571774211033351,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/13591053211037736,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/10547738211038365,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/07916035211038250,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/13634593211038525,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/03324893211039207,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/19322968211059217,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/02761467211062504,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/10547738211064739,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/08943184211070602,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/17579759211013766,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/17446295211022124,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/10778012211024269,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/13591053211008203,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/19427786211014680,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/23969873211024777,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/07916035211030374,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/17571774211033351,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/13591053211037736,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/10547738211038365,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/07916035211038250,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/13634593211038525,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/03324893211039207,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/19322968211059217,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/02761467211062504,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/10547738211064739,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/08943184211070602,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/17579759211013766,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Maynooth University,2021,,10.1177/09571558211027062,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Maynooth University,2021,,10.1177/14624745211040652,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Maynooth University,2021,,10.1177/14614448211045969,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
@@ -659,9 +659,9 @@ Maynooth University,2021,,10.1177/00953997211050924,TRUE,,,,,,,,,,,,,,IReL Sage 
 Maynooth University,2021,,10.1177/14733250211039076,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Maynooth University,2021,,10.1177/07916035211068430,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Maynooth University,2021,,10.1177/07334648211056230,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/03631990211020347,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/09240519211015557,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
-National University of Ireland Galway,2021,,10.1177/13505084211051049,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/03631990211020347,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/09240519211015557,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
+University of Galway,2021,,10.1177/13505084211051049,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Trinity College Dublin,2021,,10.1177/0957154X211062513,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Technological University Dublin,2021,,10.1177/17479541211016269,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
 Technological University Dublin,2021,,10.1177/14771535211044665,TRUE,,,,,,,,,,,,,,IReL Sage Agreement
@@ -811,38 +811,38 @@ Dublin City University,2021,,10.1007/s40839-021-00152-8,TRUE,,,,,,,,,,,,,,IReL S
 Dublin City University,2021,,10.1007/s00023-021-01115-3,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
 Dublin City University,2021,,10.1007/s10462-021-10030-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
 Dublin City University,2021,,10.1007/s11227-021-03907-0,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10586-021-03347-8,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s40489-021-00257-8,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s11845-021-02619-x,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10659-021-09835-7,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s11886-021-01568-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s40489-021-00267-6,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s00223-021-00868-7,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s11195-021-09698-9,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s40489-021-00271-w,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10508-021-02059-9,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s42979-021-00723-4,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s00170-021-07404-9,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10803-021-05138-x,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10796-021-10156-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s12142-021-00626-0,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s11069-021-04906-3,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s40489-021-00279-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s11695-021-05573-w,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s12187-021-09842-z,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s00262-021-03028-w,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10796-021-10183-z,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10443-021-09967-y,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s00415-021-10758-5,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10237-021-01514-9,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s00244-021-00887-3,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10790-021-09854-6,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s11869-021-01098-4,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s13278-021-00819-y,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s11845-021-02789-8,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s41465-021-00227-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s11845-021-02709-w,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
-National University of Ireland Galway,2021,,10.1007/s10579-021-09555-3,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10586-021-03347-8,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s40489-021-00257-8,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s11845-021-02619-x,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10659-021-09835-7,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s11886-021-01568-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s40489-021-00267-6,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s00223-021-00868-7,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s11195-021-09698-9,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s40489-021-00271-w,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10508-021-02059-9,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s42979-021-00723-4,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s00170-021-07404-9,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10803-021-05138-x,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10796-021-10156-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s12142-021-00626-0,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s11069-021-04906-3,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s40489-021-00279-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s11695-021-05573-w,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s12187-021-09842-z,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s00262-021-03028-w,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10796-021-10183-z,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10443-021-09967-y,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s00415-021-10758-5,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10237-021-01514-9,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s00244-021-00887-3,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10790-021-09854-6,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s11869-021-01098-4,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s13278-021-00819-y,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s11845-021-02789-8,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s41465-021-00227-2,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s11845-021-02709-w,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
+University of Galway,2021,,10.1007/s10579-021-09555-3,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
 Maynooth University,2021,,10.1007/s10113-021-01778-y,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
 Maynooth University,2021,,10.1057/s41295-021-00245-6,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
 Maynooth University,2021,,10.1007/s13162-021-00199-8,TRUE,,,,,,,,,,,,,,IReL Springer Agreement
@@ -1119,54 +1119,54 @@ Dublin City University,2021,,10.1080/03004279.2021.2002382,TRUE,,,,,,,,,,,,,,IRe
 Dublin City University,2021,,10.1080/03323315.2021.2022517,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
 Dublin City University,2021,,10.1080/15305058.2021.1916505,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
 Maynooth University,2021,,10.1080/23322373.2021.1934800,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/02687038.2021.1875733,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/01434632.2021.1877720,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/07907184.2021.1877897,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/02619768.2021.1890709,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/2158379X.2021.1878411,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/11038128.2021.1882561,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/14767724.2021.1889361,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03323315.2021.1899020,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/2158379X.2021.1890316,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/07448481.2021.1891083,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/08929092.2021.1891166,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/14781700.2021.1893805,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/04308778.2021.1896178,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/17518423.2021.1898058,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/24705314.2021.1906091,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/13814788.2021.1900109,FALSE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/24705314.2021.1906090,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03323315.2021.1910971,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/09638180.2021.1919539,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/19490976.2021.1915673,FALSE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03323315.2021.1916561,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03323315.2021.1915839,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03323315.2021.1916558,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03323315.2021.1915840,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/17518423.2021.1917717,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/13575279.2021.1920367,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/02687038.2021.1923948,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/00144940.2021.1920354,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/17518423.2021.1922529,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/09620214.2021.1927144,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/17518423.2021.1941373,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/13215906.2021.1944902,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/00207543.2021.1946614,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/0020174X.2021.1947593,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/01434632.2021.1955893,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/09546553.2021.1962308,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/17518423.2021.1964005,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/00036811.2021.1965588,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03044181.2021.1975645,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/0020739X.2021.1986160,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/15299732.2021.1989114,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/17512786.2021.1991437,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/19434472.2021.2004197,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/17518423.2021.2011456,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03323315.2021.2019083,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/14767333.2021.2020723,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/03323315.2021.2022514,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
-National University of Ireland Galway,2021,,10.1080/02688697.2021.1902477,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/02687038.2021.1875733,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/01434632.2021.1877720,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/07907184.2021.1877897,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/02619768.2021.1890709,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/2158379X.2021.1878411,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/11038128.2021.1882561,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/14767724.2021.1889361,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03323315.2021.1899020,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/2158379X.2021.1890316,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/07448481.2021.1891083,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/08929092.2021.1891166,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/14781700.2021.1893805,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/04308778.2021.1896178,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/17518423.2021.1898058,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/24705314.2021.1906091,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/13814788.2021.1900109,FALSE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/24705314.2021.1906090,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03323315.2021.1910971,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/09638180.2021.1919539,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/19490976.2021.1915673,FALSE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03323315.2021.1916561,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03323315.2021.1915839,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03323315.2021.1916558,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03323315.2021.1915840,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/17518423.2021.1917717,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/13575279.2021.1920367,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/02687038.2021.1923948,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/00144940.2021.1920354,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/17518423.2021.1922529,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/09620214.2021.1927144,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/17518423.2021.1941373,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/13215906.2021.1944902,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/00207543.2021.1946614,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/0020174X.2021.1947593,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/01434632.2021.1955893,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/09546553.2021.1962308,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/17518423.2021.1964005,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/00036811.2021.1965588,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03044181.2021.1975645,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/0020739X.2021.1986160,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/15299732.2021.1989114,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/17512786.2021.1991437,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/19434472.2021.2004197,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/17518423.2021.2011456,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03323315.2021.2019083,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/14767333.2021.2020723,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/03323315.2021.2022514,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
+University of Galway,2021,,10.1080/02688697.2021.1902477,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
 Maynooth University,2021,,10.1080/02626667.2021.1874612,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
 Maynooth University,2021,,10.1080/17483107.2021.1878297,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
 Maynooth University,2021,,10.1080/02723638.2021.1878439,TRUE,,,,,,,,,,,,,,IReL T&F Agreement
@@ -1404,8 +1404,8 @@ University of Limerick,2021,,10.1080/13669877.2021.1900337,TRUE,,,,,,,,,,,,,,IRe
 University College Dublin,2021,,10.1002/ca.23758,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/mrd.23521,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1002/acp.3851,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1029/2020JD033851,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/ors.12671,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1029/2020JD033851,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/ors.12671,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1002/elan.202060141,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1002/pon.5694,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1111/jpm.12775,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1462,51 +1462,51 @@ Royal College of Surgeons in Ireland,2021,,10.1111/1754-9485.13329,TRUE,,,,,,,,,
 Royal College of Surgeons in Ireland,2021,,10.1002/ajmg.a.62505,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1002/ccr3.4187,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/ski2.80,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/ejic.202100120,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/ejic.202100120,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1002/gps.5550,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/advs.202103189,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/advs.202103189,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1002/hrdq.21423,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/bit.27694,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/bit.27694,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1002/icd.2246,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/1755-0998.13453,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1259/bjr.20210907,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/1755-0998.13453,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1259/bjr.20210907,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1002/ijfe.2575,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/ijgo.13939,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/bjh.17805,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/bjh.17805,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1002/jbio.202000486,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/agec.12666,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/dme.14602,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/wrr.12930,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/bjhp.12531,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/sdr.1693,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/cepa.1508,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/ecs2.3959,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/lno.11890,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/bjhp.12568,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/agec.12666,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/dme.14602,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/wrr.12930,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/bjhp.12531,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/sdr.1693,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/cepa.1508,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/ecs2.3959,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/lno.11890,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/bjhp.12568,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1002/jbm.a.37282,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/bjhp.12569,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/1365-2664.13990,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/adma.202008788,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/phn.12993,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/phn.13000,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/jgc4.1436,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/bjhp.12569,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/1365-2664.13990,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/adma.202008788,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/phn.12993,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/phn.13000,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/jgc4.1436,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1002/jbm.b.34820,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1107/S1600576721008529,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/ffe.13471,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/ccd.29721,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/ccd.29772,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1107/S1600576721008529,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/ffe.13471,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/ccd.29721,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/ccd.29772,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1002/jctb.6904,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/tcr.202100221,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1002/chem.202103025,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/tcr.202100221,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1002/chem.202103025,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/joom.1155,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/soru.12355,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/phn.12994,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/dme.14540,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/dme.14700,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/1471-0528.16825,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/1471-0528.16842,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/dme.14614,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/jfd.13356,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/soru.12355,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/phn.12994,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/dme.14540,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/dme.14700,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/1471-0528.16825,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/1471-0528.16842,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/dme.14614,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/jfd.13356,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1002/nau.24678,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/oby.23305,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/pon.5790,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1540,7 +1540,7 @@ Royal College of Surgeons in Ireland,2021,,10.1002/ejoc.202100502,TRUE,,,,,,,,,,
 Royal College of Surgeons in Ireland,2021,,10.1111/medu.14564,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1111/hae.14379,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1111/medu.14588,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/1462-2920.15560,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/1462-2920.15560,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1111/iwj.13671,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1111/iwj.13733,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1111/jnc.15347,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1617,7 +1617,7 @@ Trinity College Dublin,2021,,10.1002/ejp.1780,TRUE,,,,,,,,,,,,,,IReL Wiley Agree
 Trinity College Dublin,2021,,10.1002/lno.11733,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1002/gps.5564,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1111/1471-0528.16844,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/anu.13252,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/anu.13252,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1111/kykl.12268,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1002/lary.29900,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1111/coa.13832,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1645,7 +1645,7 @@ Trinity College Dublin,2021,,10.1111/jop.13172,TRUE,,,,,,,,,,,,,,IReL Wiley Agre
 Trinity College Dublin,2021,,10.1111/edt.12713,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1111/ced.14679,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1002/gps.5591,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/chso.12461,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/chso.12461,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1002/ejoc.202100751,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1002/rth2.12602,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1111/dmcn.14929,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1654,7 +1654,7 @@ Trinity College Dublin,2021,,10.1111/inm.12919,TRUE,,,,,,,,,,,,,,IReL Wiley Agre
 Trinity College Dublin,2021,,10.1002/aps.1732,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1111/ffe.13563,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1002/pds.5247,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/dme.14590,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/dme.14590,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Trinity College Dublin,2021,,10.1111/1460-6984.12654,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1111/ecc.13525,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/ehr.13106,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1729,7 +1729,7 @@ University College Cork,2021,,10.1002/ccr3.5015,FALSE,,,,,,,,,,,,,,IReL Wiley Ag
 University College Cork,2021,,10.1111/hsc.13487,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1111/jam.15250,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1111/1462-2920.15722,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/ijmr.12269,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/ijmr.12269,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1111/ced.14809,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Royal College of Surgeons in Ireland,2021,,10.1002/lio2.613,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 Maynooth University,2021,,10.1111/ijmr.12271,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1747,7 +1747,7 @@ University College Dublin,2021,,10.1002/smtd.202100552,TRUE,,,,,,,,,,,,,,IReL Wi
 University College Dublin,2021,,10.1111/1365-2478.13086,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/prot.26144,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/age.13148,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/ijn.13024,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/ijn.13024,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/hex.13305,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/irel.12285,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/ijpo.12820,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1777,7 +1777,7 @@ University College Dublin,2021,,10.1111/eip.13234,TRUE,,,,,,,,,,,,,,IReL Wiley A
 University College Cork,2021,,10.1111/jan.14954,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/vrc2.152,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1111/jcal.12577,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/jcpp.13391,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/jcpp.13391,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1002/mnfr.202001183,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/1467-8675.12551,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1111/jfir.12238,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1819,7 +1819,7 @@ University College Dublin,2021,,10.1111/1751-7915.13879,FALSE,,,,,,,,,,,,,,IReL 
 University College Dublin,2021,,10.1111/jpn.13614,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1111/mafi.12329,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/jonm.13403,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/medu.14594,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/medu.14594,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1111/medu.14678,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/obr.13371,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/vru.13028,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1832,7 +1832,7 @@ University of Limerick,2021,,10.1111/1460-6984.12680,TRUE,,,,,,,,,,,,,,IReL Wile
 University of Limerick,2021,,10.1111/jar.12897,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1111/tmi.13643,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1113/EP089557,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/roiw.12512,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/roiw.12512,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1049/itr2.12143,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1111/rmir.12168,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1002/hrdq.21437,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1853,7 +1853,7 @@ University of Limerick,2021,,10.1002/casp.2510,TRUE,,,,,,,,,,,,,,IReL Wiley Agre
 University of Limerick,2021,,10.1111/1748-8583.12404,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1111/psyp.13783,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1002/adfm.202100884,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/tbj.14217,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/tbj.14217,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1111/nana.12795,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/tran.12438,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University of Limerick,2021,,10.1002/adma.202105917,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
@@ -1862,7 +1862,7 @@ University College Dublin,2021,,10.1111/vsu.13729,TRUE,,,,,,,,,,,,,,IReL Wiley A
 Royal College of Surgeons in Ireland,2021,,10.1111/wvn.12545,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1111/mcn.13234,FALSE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Dublin,2021,,10.1111/bjd.20399,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
-National University of Ireland Galway,2021,,10.1111/xen.12683,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
+University of Galway,2021,,10.1111/xen.12683,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 University College Cork,2021,,10.1113/EP089854,TRUE,,,,,,,,,,,,,,IReL Wiley Agreement
 Dublin City University,2021,,10.1109/ACCESS.2021.3115701,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
 Dublin City University,2021,,10.1109/ACCESS.2021.3130421,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
@@ -1876,12 +1876,12 @@ Dublin City University,2021,,10.1109/TITS.2021.3052840,TRUE,,,,,,,,,,,,,,IReL IE
 Dublin City University,2021,,10.1109/TWC.2021.3116881,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
 Dublin City University,2021,,10.1109/ACCESS.2021.3139729,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
 University College Dublin,2021,,10.1109/JSSC.2021.3086621,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
-National University of Ireland Galway,2021,,10.1109/MIC.2021.3053711,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
-National University of Ireland Galway,2021,,10.1109/ACCESS.2021.3124978,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
-National University of Ireland Galway,2021,,10.1109/ACCESS.2021.3129150,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
-National University of Ireland Galway,2021,,10.1109/JIOT.2021.3089931,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
-National University of Ireland Galway,2021,,10.1109/TCBB.2021.3092879,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
-National University of Ireland Galway,2021,,10.1109/TTS.2021.3120303,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
+University of Galway,2021,,10.1109/MIC.2021.3053711,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
+University of Galway,2021,,10.1109/ACCESS.2021.3124978,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
+University of Galway,2021,,10.1109/ACCESS.2021.3129150,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
+University of Galway,2021,,10.1109/JIOT.2021.3089931,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
+University of Galway,2021,,10.1109/TCBB.2021.3092879,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
+University of Galway,2021,,10.1109/TTS.2021.3120303,TRUE,,,,,,,,,,,,,,IReL IEEE Agreement
 Maynooth University,2021,,10.1109/ACCESS.2021.3125600,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
 Dublin City University,2021,,10.1109/ACCESS.2021.3080133,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
 Technological University Dublin,2021,,10.1109/ACCESS.2021.3133285,FALSE,,,,,,,,,,,,,,IReL IEEE Agreement
