@@ -403,6 +403,10 @@ JOURNAL_OWNER_CHANGED = {
 	"2732-4613": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology (electronic)
 	"1865-1682": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases 
 	"1865-1674": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases (print)
+	"0961-7671": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice 
+	"2042-7174": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice (electronic)
+	"0307-6938": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology 
+	"1365-2230": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology (electronic)
 
 
 }
@@ -662,6 +666,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2196-0216", # ChemElectroChem, Gold OA since 2023
     "1865-1682", # Transboundary and Emerging Diseases, Gold OA since 2023
     "1865-1674", # Transboundary and Emerging Diseases, Gold OA since 2023 (linking)
+    "1876-3413", # International Health, Gold OA since 2020
+    "1946-3138", # International Journal of Urban Sustainable Development, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
