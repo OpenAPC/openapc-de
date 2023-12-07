@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 91,248 articles, published at 353 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 91,272 articles, published at 353 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 91,248 articles, published at 353 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     6263|
-|DEAL Wiley Germany                               |     5724|
+|DEAL Springer Nature Germany                     |     6269|
+|DEAL Wiley Germany                               |     5742|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -310,6 +310,7 @@ This dataset contains information on 91,248 articles, published at 353 instituti
 |Finnish Environment Institute                                                                                                                      |       82|
 |Karlstad University                                                                                                                                |       82|
 |Sheffield Hallam University                                                                                                                        |       82|
+|TiHo Hannover                                                                                                                                      |       81|
 |University West                                                                                                                                    |       80|
 |University of Portsmouth                                                                                                                           |       78|
 |Royal Botanic Gardens                                                                                                                              |       76|
@@ -330,7 +331,6 @@ This dataset contains information on 91,248 articles, published at 353 instituti
 |University of Huddersfield                                                                                                                         |       60|
 |Universität Luzern                                                                                                                                 |       60|
 |Aston University                                                                                                                                   |       58|
-|TiHo Hannover                                                                                                                                      |       57|
 |University of Lincoln                                                                                                                              |       57|
 |University of the West of England                                                                                                                  |       56|
 |Hochschule Luzern                                                                                                                                  |       54|
