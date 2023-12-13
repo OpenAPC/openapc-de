@@ -11,6 +11,7 @@ TARGET_DIR = "opencost_out"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("xml_files", nargs="+", help="One or more openCost XML files which should validate against the official openCost XSD schema")
+parser.add_argument("-p", "--prefix", default="", help="An optional prefix for generated file names")
 args = parser.parse_args()
 
 xml_content_strings = []
@@ -68,7 +69,7 @@ with open(all_articles_path, "w") as out:
         elif pub_type == "book":
             ins_name += "_BPC"
         if ins_name not in csv_writers:
-            path = os.path.join(TARGET_DIR, ins_name + ".csv")
+            path = os.path.join(TARGET_DIR, args.prefix + ins_name + ".csv")
             handle = open(path, "w")
             handles.append(handle)
             csv_writers[ins_name] = csv.DictWriter(handle, fieldnames)
