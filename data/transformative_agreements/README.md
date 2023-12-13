@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 91,272 articles, published at 353 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 91,395 articles, published at 353 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 91,272 articles, published at 353 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     6269|
-|DEAL Wiley Germany                               |     5742|
+|DEAL Springer Nature Germany                     |     6352|
+|DEAL Wiley Germany                               |     5782|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -211,6 +211,7 @@ This dataset contains information on 91,272 articles, published at 353 instituti
 |Radboud University Medical Center                                                                                                                  |      397|
 |Dublin City University                                                                                                                             |      392|
 |University of Sheffield                                                                                                                            |      387|
+|DLR                                                                                                                                                |      383|
 |Maastricht University                                                                                                                              |      382|
 |Bielefeld U                                                                                                                                        |      381|
 |University of Bristol                                                                                                                              |      378|
@@ -237,7 +238,6 @@ This dataset contains information on 91,272 articles, published at 353 instituti
 |University Medical Center Groningen (UMCG)                                                                                                         |      270|
 |Luleå University of Technology                                                                                                                     |      269|
 |University of Exeter                                                                                                                               |      262|
-|DLR                                                                                                                                                |      260|
 |Giessen U                                                                                                                                          |      245|
 |Kassel U                                                                                                                                           |      241|
 |University of Debrecen                                                                                                                             |      236|
