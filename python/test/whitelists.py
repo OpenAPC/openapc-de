@@ -407,6 +407,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2042-7174": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice (electronic)
 	"0307-6938": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology 
 	"1365-2230": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology (electronic)
+	"1640-5544": ["Walter de Gruyter GmbH", "Termedia Sp. z.o.o."], # Journal of Human Kinetics 
+	"1899-7562": ["Walter de Gruyter GmbH", "Termedia Sp. z.o.o."], # Journal of Human Kinetics (electronic)
 
 
 }
@@ -668,6 +670,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1865-1674", # Transboundary and Emerging Diseases, Gold OA since 2023 (linking)
     "1876-3413", # International Health, Gold OA since 2020
     "1946-3138", # International Journal of Urban Sustainable Development, Gold OA since 2022
+    "0171-9335", # European Journal of Cell Biology, Gold OA since 2021
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
