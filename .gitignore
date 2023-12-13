@@ -2,11 +2,13 @@
 .Rproj.user
 .Rproj
 .Rhistory
+.RData
 .idea
 .cache
 .pytest_cache
 # Exclude generated files
 python/out*.csv
+python/del.csv
 # Exclude python virtual env
 python/venv/
 # Exclude downloaded ISSN-L tables
