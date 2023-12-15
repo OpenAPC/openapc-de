@@ -671,6 +671,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1876-3413", # International Health, Gold OA since 2020
     "1946-3138", # International Journal of Urban Sustainable Development, Gold OA since 2022
     "0171-9335", # European Journal of Cell Biology, Gold OA since 2021
+    "0147-6513", # Ecotoxicology and Environmental Safety, Gold OA since 2021
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
