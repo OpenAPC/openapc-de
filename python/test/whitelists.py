@@ -409,6 +409,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1365-2230": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology (electronic)
 	"1640-5544": ["Walter de Gruyter GmbH", "Termedia Sp. z.o.o."], # Journal of Human Kinetics 
 	"1899-7562": ["Walter de Gruyter GmbH", "Termedia Sp. z.o.o."], # Journal of Human Kinetics (electronic)
+	"2206-3552": ["Ivyspring International Publisher", "Copernicus GmbH"], # Journal of Bone and Joint Infection
 
 
 }
