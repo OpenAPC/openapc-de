@@ -410,6 +410,20 @@ JOURNAL_OWNER_CHANGED = {
 	"1640-5544": ["Walter de Gruyter GmbH", "Termedia Sp. z.o.o."], # Journal of Human Kinetics 
 	"1899-7562": ["Walter de Gruyter GmbH", "Termedia Sp. z.o.o."], # Journal of Human Kinetics (electronic)
 	"2206-3552": ["Ivyspring International Publisher", "Copernicus GmbH"], # Journal of Bone and Joint Infection
+	"0962-7286": ["Universities Federation for Animal Welfare", "Cambridge University Press (CUP)"], # Animal Welfare 
+	"2054-1538": ["Universities Federation for Animal Welfare", "Cambridge University Press (CUP)"], # Animal Welfare (electronic)
+	"0964-1998": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series A: Statistics in Society 
+	"1467-985X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series A: Statistics in Society (electronic)
+	"1472-765X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Letters in Applied Microbiology 
+	"0266-8254": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Letters in Applied Microbiology (linking)
+	"1431-9276": ["Cambridge University Press (CUP)", "Oxford University Press (OUP)"], # Microscopy and Microanalysis 
+	"1435-8115": ["Cambridge University Press (CUP)", "Oxford University Press (OUP)"], # Microscopy and Microanalysis (electronic)
+	"0007-0963": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # British Journal of Dermatology 
+	"1365-2133": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # British Journal of Dermatology (electronic)
+	"0022-3573": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Pharmacy and Pharmacology 
+	"2042-7158": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Pharmacy and Pharmacology (electronic)
+	"0309-8249": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education 
+	"1467-9752": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education (electronic)
 
 
 }
@@ -673,6 +687,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1946-3138", # International Journal of Urban Sustainable Development, Gold OA since 2022
     "0171-9335", # European Journal of Cell Biology, Gold OA since 2021
     "0147-6513", # Ecotoxicology and Environmental Safety, Gold OA since 2021
+    "1476-7058", # The Journal of Maternal-Fetal & Neonatal Medicine, Gold OA since 2023
+    "0144-3615", # Journal of Obstetrics and Gynaecology, Gold OA since 2023
+    "1947-5683", # Annals of GIS, Gold OA since 2019
+    "0031-1820", # Parasitology, Gold OA since 2023
+    "0962-7286", # Animal Welfare, Gold OA since 2023
+    "2154-1248", # Small GTPases, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
