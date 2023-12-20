@@ -696,6 +696,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0962-7286", # Animal Welfare, Gold OA since 2023
     "2154-1248", # Small GTPases, Gold OA since 2023
     "1742-1241", # International Journal of Clinical Practice, Gold OA since 2022
+    "1368-5031", # International Journal of Clinical Practice, Gold OA since 2022 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
