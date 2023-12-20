@@ -424,6 +424,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2042-7158": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Pharmacy and Pharmacology (electronic)
 	"0309-8249": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education 
 	"1467-9752": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education (electronic)
+	"1742-1241": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice 
+	"1368-5031": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice (print)
 
 
 }
@@ -693,6 +695,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0031-1820", # Parasitology, Gold OA since 2023
     "0962-7286", # Animal Welfare, Gold OA since 2023
     "2154-1248", # Small GTPases, Gold OA since 2023
+    "1742-1241", # International Journal of Clinical Practice, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
