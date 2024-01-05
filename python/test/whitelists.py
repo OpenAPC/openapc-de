@@ -698,6 +698,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1742-1241", # International Journal of Clinical Practice, Gold OA since 2022
     "1368-5031", # International Journal of Clinical Practice, Gold OA since 2022 (linking)
     "2372-3556", # Molecular & Cellular Oncology, Gold OA since 2022
+    "1025-3890", # Stress, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
