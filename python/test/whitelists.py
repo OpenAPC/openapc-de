@@ -702,6 +702,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2372-3556", # Molecular & Cellular Oncology, Gold OA since 2022
     "1025-3890", # Stress, Gold OA since 2022
     "1544-0478", # Journal of Natural Fibers, Gold OA since 2023
+    "0300-9483", # Boreas, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
