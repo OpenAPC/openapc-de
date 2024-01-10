@@ -428,6 +428,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1368-5031": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice (print)
 	"2241-5793": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki 
 	"1790-045X": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki (linking)
+	"0025-5300": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing 
+	"2195-8572": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing (electronic)
 
 
 }
