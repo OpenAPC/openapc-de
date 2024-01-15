@@ -430,7 +430,10 @@ JOURNAL_OWNER_CHANGED = {
 	"1790-045X": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki (linking)
 	"0025-5300": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing 
 	"2195-8572": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing (electronic)
-
+	"1755-0238": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research 
+	"1322-7130": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research (print)
+	"1524-4741": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal 
+	"1075-122X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal (print)
 
 }
 
@@ -706,6 +709,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1544-0478", # Journal of Natural Fibers, Gold OA since 2023
     "0300-9483", # Boreas, Gold OA since 2022
     "1753-0393", # Journal of Diabetes, Gold OA since 2022
+    "1755-0238", # Australian Journal of Grape and Wine Research, Gold OA since 2022
+    "1524-4741", # The Breast Journal, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
