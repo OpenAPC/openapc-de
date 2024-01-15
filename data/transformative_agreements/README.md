@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 93,433 articles, published at 360 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 93,536 articles, published at 361 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 93,433 articles, published at 360 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     6352|
-|DEAL Wiley Germany                               |     5782|
+|DEAL Springer Nature Germany                     |     6424|
+|DEAL Wiley Germany                               |     5813|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -297,6 +297,7 @@ This dataset contains information on 93,433 articles, published at 360 instituti
 |University of Surrey                                                                                                                               |      107|
 |Montanuniversität Leoben                                                                                                                           |      105|
 |Bern University of Applied Sciences                                                                                                                |      104|
+|Augsburg U                                                                                                                                         |      103|
 |Jönköping University                                                                                                                               |      102|
 |Liverpool John Moores University                                                                                                                   |      102|
 |Heriot-Watt University                                                                                                                             |       98|
