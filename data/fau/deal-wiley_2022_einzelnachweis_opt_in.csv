@@ -1,5 +1,4 @@
 pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-out
-1;Friedrich-Alexander-Universität Erlangen-Nürnberg;SMALL;1613-6829;10.1002/smll.202104996;https://doi.org/10.1002/smll.202104996;02.01.2022;2750;optout
 2;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED ENGINEERING MATERIALS;1527-2648;10.1002/adem.202101768;https://doi.org/10.1002/adem.202101768;09.03.2022;2750;optin
 3;Friedrich-Alexander-Universität Erlangen-Nürnberg;MACROMOLECULAR BIOSCIENCE;1616-5195;10.1002/mabi.202200113;https://doi.org/10.1002/mabi.202200113;01.06.2022;2750;optin
 4;Friedrich-Alexander-Universität Erlangen-Nürnberg;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202200511;https://doi.org/10.1002/anie.202200511;01.02.2022;2750;optin
@@ -20,12 +19,10 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 19;Friedrich-Alexander-Universität Erlangen-Nürnberg;PROCEEDINGS IN APPLIED MATHEMATICS & MECHANICS;1617-7061;10.1002/pamm.202200245;https://doi.org/10.1002/pamm.202200245;01.11.2022;2750;optin
 20;Friedrich-Alexander-Universität Erlangen-Nürnberg;PROCEEDINGS IN APPLIED MATHEMATICS & MECHANICS;1617-7061;10.1002/pamm.202200036;https://doi.org/10.1002/pamm.202200036;10.11.2022;2750;optin
 21;Friedrich-Alexander-Universität Erlangen-Nürnberg;THE EMBO JOURNAL;1460-2075;10.15252/embj.2021110409;https://doi.org/10.15252/embj.2021110409;29.03.2022;2750;optin
-22;Friedrich-Alexander-Universität Erlangen-Nürnberg;EXPERIMENTAL DERMATOLOGY;1600-0625;10.1111/exd.14529;https://doi.org/10.1111/exd.14529;09.01.2022;2750;optout
 23;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202205730;https://doi.org/10.1002/adfm.202205730;16.06.2022;2750;optin
 24;Friedrich-Alexander-Universität Erlangen-Nürnberg;JOURNAL OF CELLULAR BIOCHEMISTRY;1097-4644;10.1002/jcb.30248;https://doi.org/10.1002/jcb.30248;17.03.2022;2750;optin
 25;Friedrich-Alexander-Universität Erlangen-Nürnberg;JOURNAL OF MICROSCOPY;1365-2818;10.1111/jmi.13125;https://doi.org/10.1111/jmi.13125;21.05.2022;2750;optin
 26;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMELECTROCHEM;2196-0216;10.1002/celc.202200706;https://doi.org/10.1002/celc.202200706;21.08.2022;2750;optin
-27;Friedrich-Alexander-Universität Erlangen-Nürnberg;JOURNAL OF BONE AND MINERAL RESEARCH;1523-4681;10.1002/jbmr.4733;https://doi.org/10.1002/jbmr.4733;28.10.2022;2750;optout
 28;Friedrich-Alexander-Universität Erlangen-Nürnberg;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202117455;https://doi.org/10.1002/anie.202117455;06.02.2022;2750;optin
 29;Friedrich-Alexander-Universität Erlangen-Nürnberg;SMALL;1613-6829;10.1002/smll.202107511;https://doi.org/10.1002/smll.202107511;13.01.2022;2750;optin
 30;Friedrich-Alexander-Universität Erlangen-Nürnberg;MOLECULAR MICROBIOLOGY;1365-2958;10.1111/mmi.15002;https://doi.org/10.1111/mmi.15002;06.11.2022;2750;optin
@@ -38,7 +35,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 37;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED ENGINEERING MATERIALS;1527-2648;10.1002/adem.202201025;https://doi.org/10.1002/adem.202201025;31.08.2022;2750;optin
 38;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED ENERGY MATERIALS;1614-6840;10.1002/aenm.202203313;https://doi.org/10.1002/aenm.202203313;22.11.2022;2750;optin
 39;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202201196;https://doi.org/10.1002/admi.202201196;06.09.2022;2750;optin
-40;Friedrich-Alexander-Universität Erlangen-Nürnberg;MEDICAL PHYSICS;2473-4209;10.1002/mp.15909;https://doi.org/10.1002/mp.15909;17.07.2022;2750;optout
 41;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202112260;https://doi.org/10.1002/adfm.202112260;26.01.2022;2750;optin
 42;Friedrich-Alexander-Universität Erlangen-Nürnberg;NETWORKS;1097-0037;10.1002/net.22117;https://doi.org/10.1002/net.22117;24.06.2022;2750;optin
 43;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMISTRY & BIODIVERSITY;1612-1880;10.1002/cbdv.202200411;https://doi.org/10.1002/cbdv.202200411;05.09.2022;2750;optin
@@ -57,7 +53,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 56;Friedrich-Alexander-Universität Erlangen-Nürnberg;PHYSICA STATUS SOLIDI (B) BASIC SOLID STATE PHYSICS;1521-3951;10.1002/pssb.202200094;https://doi.org/10.1002/pssb.202200094;11.05.2022;2750;optin
 57;Friedrich-Alexander-Universität Erlangen-Nürnberg;MEDICAL PHYSICS;2473-4209;10.1002/mp.15617;https://doi.org/10.1002/mp.15617;05.03.2022;2750;optin
 58;Friedrich-Alexander-Universität Erlangen-Nürnberg;POLYMER ENGINEERING & SCIENCE;1548-2634;10.1002/pen.25926;https://doi.org/10.1002/pen.25926;27.01.2022;2750;optin
-59;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMICAL ENGINEERING & TECHNOLOGY;1521-4125;10.1002/ceat.202200067;https://doi.org/10.1002/ceat.202200067;03.05.2022;2750;optout
 60;Friedrich-Alexander-Universität Erlangen-Nürnberg;INDOOR AIR;1600-0668;10.1111/ina.13014;https://doi.org/10.1111/ina.13014;24.02.2022;2750;optin
 61;Friedrich-Alexander-Universität Erlangen-Nürnberg;ZEITSCHRIFT FUR ANORGANISCHE UND ALLGEMEINE CHEMIE;1521-3749;10.1002/zaac.202200035;https://doi.org/10.1002/zaac.202200035;22.02.2022;2750;optin
 62;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMPHYSCHEM;1439-7641;10.1002/cphc.202200391;https://doi.org/10.1002/cphc.202200391;24.09.2022;2750;optin
@@ -87,7 +82,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 86;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202201414;https://doi.org/10.1002/chem.202201414;29.06.2022;2750;optin
 87;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202203373;https://doi.org/10.1002/chem.202203373;01.11.2022;2750;optin
 88;Friedrich-Alexander-Universität Erlangen-Nürnberg;JOURNAL OF BIOPHOTONICS;1864-0648;10.1002/jbio.202200073;https://doi.org/10.1002/jbio.202200073;19.05.2022;2750;optin
-89;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202200642;https://doi.org/10.1002/admi.202200642;01.04.2022;2750;optout
 90;Friedrich-Alexander-Universität Erlangen-Nürnberg;EUROPEAN JOURNAL OF ORGANIC CHEMISTRY;1099-0690;10.1002/ejoc.202200994;https://doi.org/10.1002/ejoc.202200994;18.09.2022;2750;optin
 91;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED MATERIALS;1521-4095;10.1002/adma.202206569;https://doi.org/10.1002/adma.202206569;06.11.2022;2750;optin
 92;Friedrich-Alexander-Universität Erlangen-Nürnberg;MEDICAL PHYSICS;2473-4209;10.1002/mp.15643;https://doi.org/10.1002/mp.15643;21.03.2022;2750;optin
@@ -132,7 +126,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 131;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202206790;https://doi.org/10.1002/adfm.202206790;21.08.2022;2750;optin
 132;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMCATCHEM;1867-3899;10.1002/cctc.202200058;https://doi.org/10.1002/cctc.202200058;26.04.2022;2750;optin
 133;Friedrich-Alexander-Universität Erlangen-Nürnberg;MEDICAL PHYSICS;2473-4209;10.1002/mp.15787;https://doi.org/10.1002/mp.15787;17.05.2022;2750;optin
-134;Friedrich-Alexander-Universität Erlangen-Nürnberg;ENERGY TECHNOLOGY;2194-4296;10.1002/ente.202200072;https://doi.org/10.1002/ente.202200072;17.05.2022;2750;optout
 135;Friedrich-Alexander-Universität Erlangen-Nürnberg;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202208475;https://doi.org/10.1002/anie.202208475;28.06.2022;2750;optin
 136;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202202565;https://doi.org/10.1002/chem.202202565;28.09.2022;2750;optin
 137;Friedrich-Alexander-Universität Erlangen-Nürnberg;INDOOR AIR;1600-0668;10.1111/ina.13112;https://doi.org/10.1111/ina.13112;30.08.2022;2750;optin
@@ -146,7 +139,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 145;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202202032;https://doi.org/10.1002/admi.202202032;27.11.2022;2750;optin
 146;Friedrich-Alexander-Universität Erlangen-Nürnberg;JOURNAL DER DEUTSCHEN DERMATOLOGISCHEN GESELLSCHAFT;1610-0387;10.1111/ddg.14818;https://doi.org/10.1111/ddg.14818;18.04.2022;2750;optin
 147;Friedrich-Alexander-Universität Erlangen-Nürnberg;CHEMMEDCHEM;1860-7187;10.1002/cmdc.202200005;https://doi.org/10.1002/cmdc.202200005;17.02.2022;2750;optin
-148;Friedrich-Alexander-Universität Erlangen-Nürnberg;SOLAR RRL;2367-198X;10.1002/solr.202200527;https://doi.org/10.1002/solr.202200527;24.07.2022;2750;optout
 149;Friedrich-Alexander-Universität Erlangen-Nürnberg;CONTACT DERMATITIS;1600-0536;10.1111/cod.14236;https://doi.org/10.1111/cod.14236;11.10.2022;2750;optin
 150;Friedrich-Alexander-Universität Erlangen-Nürnberg;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202200342;https://doi.org/10.1002/admi.202200342;20.03.2022;2750;optin
 151;Friedrich-Alexander-Universität Erlangen-Nürnberg;JOURNAL OF THE AMERICAN CERAMIC SOCIETY;1551-2916;10.1111/jace.18917;https://doi.org/10.1111/jace.18917;11.11.2022;2750;optin
@@ -208,7 +200,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 207;Universitätsklinikum Erlangen;ARTHRITIS & RHEUMATOLOGY;2326-5205;10.1002/art.42378;https://doi.org/10.1002/art.42378;10.09.2022;2750;optin
 208;Universitätsklinikum Erlangen;JOURNAL OF CARDIAC SURGERY;1540-8191;10.1111/jocs.16813;https://doi.org/10.1111/jocs.16813;12.07.2022;2750;optin
 209;Universitätsklinikum Erlangen;ANDROLOGY;2047-2927;10.1111/andr.13368;https://doi.org/10.1111/andr.13368;12.12.2022;2750;optin
-210;Universitätsklinikum Erlangen;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202101808;https://doi.org/10.1002/admi.202101808;04.01.2022;2750;optout
 211;Universitätsklinikum Erlangen;GENES, CHROMOSOMES AND CANCER;1098-2264;10.1002/gcc.23082;https://doi.org/10.1002/gcc.23082;19.06.2022;2750;optin
 212;Universitätsklinikum Erlangen;NMR IN BIOMEDICINE;1099-1492;10.1002/nbm.4840;https://doi.org/10.1002/nbm.4840;22.09.2022;2750;optin
 213;Universitätsklinikum Erlangen;JOURNAL OF CARDIAC SURGERY;1540-8191;10.1111/jocs.17221;https://doi.org/10.1111/jocs.17221;30.10.2022;2750;optin
