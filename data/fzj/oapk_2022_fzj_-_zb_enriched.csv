@@ -134,7 +134,7 @@
 "FZJ - ZB",2022,2098.32,"10.3390/s22239443",FALSE,"MDPI AG","Sensors","1424-8220",NA,"1424-8220","1424-8220","https://creativecommons.org/licenses/by/4.0/",TRUE,"36502141","PMC9740991",NA,NA,TRUE
 "FZJ - ZB",2022,2121.95,"10.5194/amt-15-2503-2022",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2022,2138.77,"10.1523/eneuro.0505-21.2022",FALSE,"Society for Neuroscience","eNeuro","2373-2822",NA,"2373-2822","2373-2822","https://creativecommons.org/licenses/by-nc-sa/4.0/",TRUE,"35584914","PMC9186111",NA,NA,TRUE
-"FZJ - ZB",2022,2143.51,"10.1162/netn_a_00275",FALSE,"MIT Press","Network Neuroscience","2472-1751",NA,"2472-1751","2472-1751","https://creativecommons.org/licenses/by/4.0/",TRUE,"37339286","PMC10270720",NA,NA,TRUE
+"FZJ - ZB",2022,2143.51,"10.1162/netn_a_00275",FALSE,"MIT Press - Journals","Network Neuroscience","2472-1751",NA,"2472-1751","2472-1751","https://creativecommons.org/licenses/by/4.0/",TRUE,"37339286","PMC10270720",NA,NA,TRUE
 "FZJ - ZB",2022,2202.78,"10.1016/j.btre.2021.e00698",FALSE,"Elsevier BV","Biotechnology Reports","2215-017X","2215-017X",NA,"2215-017X","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35036337","PMC8749122",NA,NA,TRUE
 "FZJ - ZB",2022,2212.63,"10.1093/bioadv/vbac053",FALSE,"Oxford University Press (OUP)","Bioinformatics Advances","2635-0041",NA,"2635-0041","2635-0041","https://creativecommons.org/licenses/by/4.0/",TRUE,"36699390","PMC9710621",NA,NA,TRUE
 "FZJ - ZB",2022,2212.89,"10.1016/j.jbc.2022.102430",FALSE,"Elsevier BV","Journal of Biological Chemistry","0021-9258","0021-9258",NA,"0021-9258","http://creativecommons.org/licenses/by/4.0/",TRUE,"36037966","PMC9513279",NA,NA,TRUE
@@ -193,7 +193,7 @@
 "FZJ - ZB",2021,2642.33,"10.3389/fncel.2021.815279",FALSE,"Frontiers Media SA","Frontiers in Cellular Neuroscience","1662-5102",NA,"1662-5102","1662-5102","https://creativecommons.org/licenses/by/4.0/",TRUE,"35087380","PMC8787812",NA,NA,TRUE
 "FZJ - ZB",2022,2647.53,"10.1103/physrevresearch.4.043143",FALSE,"American Physical Society (APS)","Physical Review Research","2643-1564",NA,"2643-1564","2643-1564","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2022,2652.73,"10.1063/5.0097559",FALSE,"AIP Publishing","APL Materials","2166-532X",NA,"2166-532X","2166-532X",NA,TRUE,NA,NA,NA,NA,TRUE
-"FZJ - ZB",2021,2699.47,"10.1007/s10489-021-02808-2",FALSE,"Springer Nature","Applied Intelligence","0924-669X","0924-669X","1573-7497","0924-669X","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
+"FZJ - ZB",2021,2699.47,"10.1007/s10489-021-02808-2",TRUE,"Springer Nature","Applied Intelligence","0924-669X","0924-669X","1573-7497","0924-669X","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2022,2708.01,"10.1038/s42005-021-00798-8",FALSE,"Springer Nature","Communications Physics","2399-3650",NA,"2399-3650","2399-3650","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2022,2763.67,"10.1103/physrevresearch.4.043046",FALSE,"American Physical Society (APS)","Physical Review Research","2643-1564",NA,"2643-1564","2643-1564","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2022,2788.84,"10.1016/j.revip.2022.100078",FALSE,"Elsevier BV","Reviews in Physics","2405-4283","2405-4283",NA,"2405-4283","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -243,7 +243,7 @@
 "FZJ - ZB",2022,1432.82,"10.1088/1741-4326/ac4776",TRUE,"IOP Publishing","Nuclear Fusion","0029-5515","0029-5515","1741-4326","0029-5515","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
 "FZJ - ZB",2021,288.44,"10.1098/rsta.2021.0064",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences","1364-503X","1364-503X","1471-2962","1364-503X","https://royalsociety.org/journals/ethics-policies/data-sharing-mining/",TRUE,"34923836","PMC8685612",NA,NA,FALSE
-"FZJ - ZB",2022,591.11,"10.1103/physrevresearch.4.023027",TRUE,"American Physical Society (APS)","Physical Review Research","2643-1564",NA,"2643-1564","2643-1564","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"FZJ - ZB",2022,591.11,"10.1103/physrevresearch.4.023027",FALSE,"American Physical Society (APS)","Physical Review Research","2643-1564",NA,"2643-1564","2643-1564","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2022,863.93,"10.1149/1945-7111/ac5348",TRUE,"The Electrochemical Society","Journal of The Electrochemical Society","0013-4651","0013-4651","1945-7111","0013-4651","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2022,1515.68,"10.1149/1945-7111/ac6e8b",TRUE,"The Electrochemical Society","Journal of The Electrochemical Society","0013-4651","0013-4651","1945-7111","0013-4651","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2022,1616.72,"10.3233/jad-210261",TRUE,"IOS Press","Journal of Alzheimer's Disease","1387-2877","1387-2877","1875-8908","1387-2877",NA,TRUE,"35068451",NA,NA,NA,FALSE
@@ -295,7 +295,7 @@
 "FZJ - ZB",2022,3984.2,"10.1093/cercor/bhac212",TRUE,"Oxford University Press (OUP)","Cerebral Cortex","1047-3211","1047-3211","1460-2199","1047-3211","https://creativecommons.org/licenses/by/4.0/",TRUE,"35732315","PMC9977369",NA,NA,FALSE
 "FZJ - ZB",2022,4001.38,"10.1016/j.biopsych.2022.09.014",TRUE,"Elsevier BV","Biological Psychiatry","0006-3223","0006-3223",NA,"0006-3223","http://creativecommons.org/licenses/by/4.0/",TRUE,"36567226",NA,NA,NA,FALSE
 "FZJ - ZB",2022,4304.52,"10.1016/j.ymben.2022.06.004",TRUE,"Elsevier BV","Metabolic Engineering","1096-7176","1096-7176",NA,"1096-7176","http://creativecommons.org/licenses/by/4.0/",TRUE,"35750243",NA,NA,NA,FALSE
-"FZJ - ZB",2022,4425.77,"10.1016/s2589-7500(22)00144-3",TRUE,"Elsevier BV","The Lancet Digital Health","2589-7500","2589-7500",NA,"2589-7500","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"FZJ - ZB",2022,4425.77,"10.1016/s2589-7500(22)00144-3",FALSE,"Elsevier BV","The Lancet Digital Health","2589-7500","2589-7500",NA,"2589-7500","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FZJ - ZB",2022,4497.41,"10.1021/acs.chemrev.1c00854",TRUE,"American Chemical Society (ACS)","Chemical Reviews","0009-2665","0009-2665","1520-6890","0009-2665","https://creativecommons.org/licenses/by/4.0/",TRUE,"35442645","PMC9284563",NA,NA,FALSE
 "FZJ - ZB",2022,4616.59,"10.1021/acs.chemmater.2c02043",TRUE,"American Chemical Society (ACS)","Chemistry of Materials","0897-4756","0897-4756","1520-5002","0897-4756","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FZJ - ZB",2022,4718.01,"10.1021/acs.jpcc.2c04131",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry C","1932-7447","1932-7447","1932-7455","1932-7447","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
