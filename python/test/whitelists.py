@@ -711,6 +711,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1753-0393", # Journal of Diabetes, Gold OA since 2022
     "1755-0238", # Australian Journal of Grape and Wine Research, Gold OA since 2022
     "1524-4741", # The Breast Journal, Gold OA since 2022
+    "1753-8947", # International Journal of Digital Earth, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
