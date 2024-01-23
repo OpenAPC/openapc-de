@@ -1,6 +1,5 @@
 pos;institution_name;journal_title;eissn;doi;url;accepted;initial_opt-out
 1;Georg-August-Universität Göttingen;CONTACT DERMATITIS;1600-0536;10.1111/cod.14268;https://doi.org/10.1111/cod.14268;2022-12-12;optin
-2;Georg-August-Universität Göttingen;JOURNAL DER DEUTSCHEN DERMATOLOGISCHEN GESELLSCHAFT;1610-0387;10.1111/ddg.14802;https://doi.org/10.1111/ddg.14802;2022-03-29;optout
 3;Georg-August-Universität Göttingen;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202203966;https://doi.org/10.1002/chem.202203966;2022-12-20;optin
 4;Georg-August-Universität Göttingen;ZEITSCHRIFT FUR ANORGANISCHE UND ALLGEMEINE CHEMIE;1521-3749;10.1002/zaac.202200119;https://doi.org/10.1002/zaac.202200119;2022-05-23;optin
 5;Georg-August-Universität Göttingen;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200913;https://doi.org/10.1002/chem.202200913;2022-03-30;optin
@@ -10,7 +9,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;initial_opt-out
 9;Georg-August-Universität Göttingen;HEALTH ECONOMICS;1099-1050;10.1002/hec.4511;https://doi.org/10.1002/hec.4511;2022-03-14;optin
 10;Georg-August-Universität Göttingen;THE JOURNAL OF COMPARATIVE NEUROLOGY;1096-9861;10.1002/cne.25335;https://doi.org/10.1002/cne.25335;2022-04-12;optin
 11;Georg-August-Universität Göttingen;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200648;https://doi.org/10.1002/chem.202200648;2022-03-22;optin
-12;Georg-August-Universität Göttingen;JOURNAL DER DEUTSCHEN DERMATOLOGISCHEN GESELLSCHAFT;1610-0387;10.1111/ddg.14844;https://doi.org/10.1111/ddg.14844;2022-06-05;optout
 13;Georg-August-Universität Göttingen;THE LARYNGOSCOPE;1531-4995;10.1002/lary.30390;https://doi.org/10.1002/lary.30390;2022-08-23;optin
 14;Georg-August-Universität Göttingen;JOURNAL OF PEPTIDE SCIENCE;1099-1387;10.1002/psc.3466;https://doi.org/10.1002/psc.3466;2022-11-30;optin
 15;Georg-August-Universität Göttingen;THE PLANT JOURNAL;1365-313X;10.1111/tpj.15964;https://doi.org/10.1111/tpj.15964;2022-08-25;optin
@@ -66,7 +64,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;initial_opt-out
 65;Georg-August-Universität Göttingen;JOURNAL OF AGRICULTURAL ECONOMICS;1477-9552;10.1111/1477-9552.12481;https://doi.org/10.1111/1477-9552.12481;2022-01-25;optin
 66;Georg-August-Universität Göttingen;LITERATURE COMPASS;1741-4113;10.1111/lic3.12681;https://doi.org/10.1111/lic3.12681;2022-08-13;optin
 67;Georg-August-Universität Göttingen;CANADIAN JOURNAL OF ECONOMICS;1540-5982;10.1111/caje.12587;https://doi.org/10.1111/caje.12587;2022-03-01;optin
-68;Georg-August-Universität Göttingen;SMALL;1613-6829;10.1002/smll.202205739;https://doi.org/10.1002/smll.202205739;2022-12-11;optout
 69;Georg-August-Universität Göttingen;AQUACULTURE RESEARCH;1365-2109;10.1111/are.15925;https://doi.org/10.1111/are.15925;2022-05-19;optin
 70;Georg-August-Universität Göttingen;BIOLOGICAL REVIEWS;1469-185X;10.1111/brv.12832;https://doi.org/10.1111/brv.12832;2022-01-04;optin
 71;Georg-August-Universität Göttingen;PLANT BREEDING;1439-0523;10.1111/pbr.13039;https://doi.org/10.1111/pbr.13039;2022-03-28;optin
@@ -91,7 +88,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;initial_opt-out
 90;Georg-August-Universität Göttingen;INSECT CONSERVATION AND DIVERSITY;1752-4598;10.1111/icad.12580;https://doi.org/10.1111/icad.12580;2022-04-02;optin
 91;Georg-August-Universität Göttingen;EUROPEAN EATING DISORDERS REVIEW;1099-0968;10.1002/erv.2943;https://doi.org/10.1002/erv.2943;2022-07-04;optin
 92;Georg-August-Universität Göttingen;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202216661;https://doi.org/10.1002/anie.202216661;2022-12-28;optin
-93;Georg-August-Universität Göttingen;JOURNAL DER DEUTSCHEN DERMATOLOGISCHEN GESELLSCHAFT;1610-0387;10.1111/ddg.14864;https://doi.org/10.1111/ddg.14864;2022-07-03;optout
 94;Georg-August-Universität Göttingen;PEST MANAGEMENT SCIENCE;1526-4998;10.1002/ps.7090;https://doi.org/10.1002/ps.7090;2022-07-17;optin
 95;Georg-August-Universität Göttingen;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202207450;https://doi.org/10.1002/anie.202207450;2022-06-16;optin
 96;Georg-August-Universität Göttingen;ALLERGY;1398-9995;10.1111/all.15373;https://doi.org/10.1111/all.15373;2022-05-10;optin

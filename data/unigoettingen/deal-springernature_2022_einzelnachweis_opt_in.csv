@@ -11,7 +11,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 10;Georg-August-Universität Göttingen;Landscape Ecology;1572-9761;10.1007/s10980-022-01469-x;https://doi.org/10.1007/s10980-022-01469-x;2022-06-03;2750;optin
 11;Georg-August-Universität Göttingen;Neurotherapeutics;1878-7479;10.1007/s13311-022-01220-z;https://doi.org/10.1007/s13311-022-01220-z;2022-03-10;2750;optin
 12;Georg-August-Universität Göttingen;Cellular and Molecular Life Sciences;1420-9071;10.1007/s00018-022-04638-y;https://doi.org/10.1007/s00018-022-04638-y;2022-11-16;2750;optin
-13;Georg-August-Universität Göttingen;Internal and Emergency Medicine;1970-9366;10.1007/s11739-022-03152-0;https://doi.org/10.1007/s11739-022-03152-0;2022-11-03;2750;optout
 14;Georg-August-Universität Göttingen;Natur und Recht;1439-0515;10.1007/s10357-022-3985-9;https://doi.org/10.1007/s10357-022-3985-9;;2750;optin
 15;Georg-August-Universität Göttingen;Asian Business & Management;1476-9328;10.1057/s41291-022-00209-y;https://doi.org/10.1057/s41291-022-00209-y;2022-10-20;917;optin
 16;Georg-August-Universität Göttingen;Administration and Policy in Mental Health and Mental Health Services Research;1573-3289;10.1007/s10488-022-01205-2;https://doi.org/10.1007/s10488-022-01205-2;2022-06-03;2750;optin
@@ -60,7 +59,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 59;Georg-August-Universität Göttingen;Journal of Orofacial Orthopedics / Fortschritte der Kieferorthopädie;1615-6714;10.1007/s00056-022-00382-x;https://doi.org/10.1007/s00056-022-00382-x;2022-01-17;2750;optin
 60;Georg-August-Universität Göttingen;Journal of Clinical Monitoring and Computing;1573-2614;10.1007/s10877-022-00851-z;https://doi.org/10.1007/s10877-022-00851-z;2022-03-16;2750;optin
 61;Georg-August-Universität Göttingen;Research in Number Theory;2363-9555;10.1007/s40993-022-00310-3;https://doi.org/10.1007/s40993-022-00310-3;2022-01-13;2750;optin
-62;Georg-August-Universität Göttingen;Neurosurgical Review;1437-2320;10.1007/s10143-022-01803-6;https://doi.org/10.1007/s10143-022-01803-6;2022-04-28;2750;optout
 63;Georg-August-Universität Göttingen;Algorithmica;1432-0541;10.1007/s00453-021-00908-6;https://doi.org/10.1007/s00453-021-00908-6;2021-11-27;2750;optin
 64;Georg-August-Universität Göttingen;Asian Business & Management;1476-9328;10.1057/s41291-022-00186-2;https://doi.org/10.1057/s41291-022-00186-2;2022-05-31;2750;optin
 65;Georg-August-Universität Göttingen;Zeitschrift für Literaturwissenschaft und Linguistik;2365-953X;10.1007/s41244-022-00256-0;https://doi.org/10.1007/s41244-022-00256-0;2022-01-24;2750;optin
@@ -86,7 +84,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 85;Georg-August-Universität Göttingen;Intensive Care Medicine;1432-1238;10.1007/s00134-022-06698-x;https://doi.org/10.1007/s00134-022-06698-x;2022-04-06;917;optin
 86;Georg-August-Universität Göttingen;Zeitschrift für Religion, Gesellschaft und Politik;2510-1226;10.1007/s41682-022-00118-z;https://doi.org/10.1007/s41682-022-00118-z;2022-04-12;2750;optin
 87;Georg-August-Universität Göttingen;HNO;1433-0458;10.1007/s00106-022-01222-5;https://doi.org/10.1007/s00106-022-01222-5;2022-08-08;2750;optin
-88;Georg-August-Universität Göttingen;Arthropod-Plant Interactions;1872-8847;10.1007/s11829-022-09941-w;https://doi.org/10.1007/s11829-022-09941-w;2022-12-13;2750;optout
 89;Georg-August-Universität Göttingen;Translational Stroke Research;1868-601X;10.1007/s12975-021-00960-y;https://doi.org/10.1007/s12975-021-00960-y;2021-10-26;2750;optin
 90;Georg-August-Universität Göttingen;Adaptive Human Behavior and Physiology;2198-7335;10.1007/s40750-022-00208-5;https://doi.org/10.1007/s40750-022-00208-5;2022-12-19;2750;optin
 91;Georg-August-Universität Göttingen;Environmental Earth Sciences;1866-6299;10.1007/s12665-022-10483-w;https://doi.org/10.1007/s12665-022-10483-w;2022-06-02;2750;optin
@@ -185,7 +182,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 184;Georg-August-Universität Göttingen;Translational Stroke Research;1868-601X;10.1007/s12975-021-00979-1;https://doi.org/10.1007/s12975-021-00979-1;2021-12-14;2750;optin
 185;Georg-August-Universität Göttingen;Intensive Care Medicine;1432-1238;10.1007/s00134-022-06748-4;https://doi.org/10.1007/s00134-022-06748-4;2022-05-16;2750;optin
 186;Georg-August-Universität Göttingen;Analysis and Mathematical Physics;1664-235X;10.1007/s13324-022-00665-x;https://doi.org/10.1007/s13324-022-00665-x;2022-02-14;2750;optin
-187;Georg-August-Universität Göttingen;Molecular Neurobiology;1559-1182;10.1007/s12035-022-02891-7;https://doi.org/10.1007/s12035-022-02891-7;2022-05-18;2750;optout
 188;Georg-August-Universität Göttingen;Die Urologie;2731-7072;10.1007/s00120-022-01924-2;https://doi.org/10.1007/s00120-022-01924-2;2022-07-11;2750;optin
 189;Georg-August-Universität Göttingen;Der Nervenarzt;1433-0407;10.1007/s00115-022-01360-9;https://doi.org/10.1007/s00115-022-01360-9;2022-06-21;2750;optin
 190;Georg-August-Universität Göttingen;Environmental Earth Sciences;1866-6299;10.1007/s12665-022-10446-1;https://doi.org/10.1007/s12665-022-10446-1;2022-05-10;2750;optin
