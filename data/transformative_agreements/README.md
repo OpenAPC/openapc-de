@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 94,172 articles, published at 362 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 94,182 articles, published at 363 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 94,172 articles, published at 362 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     6695|
-|DEAL Wiley Germany                               |     6046|
+|DEAL Springer Nature Germany                     |     6699|
+|DEAL Wiley Germany                               |     6052|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -413,6 +413,7 @@ This dataset contains information on 94,172 articles, published at 362 instituti
 |Swedish School of Sport and Health Sciences                                                                                                        |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
+|Hertie School                                                                                                                                      |       10|
 |Haute École Pédagogique du Canton de Vaud                                                                                                          |        9|
 |Munster Technological University                                                                                                                   |        9|
 |St.Gallen University of Teacher Education                                                                                                          |        9|
