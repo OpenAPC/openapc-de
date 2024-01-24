@@ -20,3 +20,5 @@ python/report.*
 python/tempfiles/
 # Exclude python byte code
 *.pyc
+# Exclude secret token
+python/crossref_plus_token
