@@ -22,8 +22,6 @@ pos	institution_name	journal_title	eissn	doi	initial_opt-out
 21	Technische Universität Chemnitz	Selecta Mathematica	1420-9020	10.1007/s00029-022-00767-1	optin
 22	Technische Universität Chemnitz	Educational Technology Research and Development	1556-6501	10.1007/s11423-022-10083-2	optin
 23	Technische Universität Chemnitz	Journal of Intelligent Manufacturing	1572-8145	10.1007/s10845-021-01906-9	optin
-24	Technische Universität Chemnitz	Journal of Nanoparticle Research	1572-896X	10.1007/s11051-022-05650-w	optout
-25	Technische Universität Chemnitz	Earth Science Informatics	1865-0481	10.1007/s12145-022-00883-8	optout
 26	Technische Universität Chemnitz	The International Journal of Advanced Manufacturing Technology	1433-3015	10.1007/s00170-022-09349-z	optin
 27	Technische Universität Chemnitz	Journal of Materials Engineering and Performance	1544-1024	10.1007/s11665-022-07070-2	optin
 28	Technische Universität Chemnitz	KZfSS Kölner Zeitschrift für Soziologie und Sozialpsychologie	1861-891X	10.1007/s11577-022-00855-2	optin
@@ -34,7 +32,6 @@ pos	institution_name	journal_title	eissn	doi	initial_opt-out
 33	Technische Universität Chemnitz	Journal of Thermal Spray Technology	1544-1016	10.1007/s11666-022-01417-w	optin
 34	Technische Universität Chemnitz	Numerical Algorithms	1572-9265	10.1007/s11075-022-01389-6	optin
 35	Technische Universität Chemnitz	Production Engineering	1863-7353	10.1007/s11740-021-01101-y	optin
-36	Technische Universität Chemnitz	Prävention und Gesundheitsförderung	1861-6763	10.1007/s11553-022-00995-5	optout
 37	Technische Universität Chemnitz	Sampling Theory, Signal Processing, and Data Analysis	2730-5724	10.1007/s43670-022-00039-1	optin
 38	Technische Universität Chemnitz	Journal of Solid State Electrochemistry	1433-0768	10.1007/s10008-022-05128-8	optin
 39	Technische Universität Chemnitz	Zeitschrift für Vergleichende Politikwissenschaft	1865-2654	10.1007/s12286-022-00539-3	optin
