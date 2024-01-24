@@ -39,6 +39,9 @@ except ImportError:
 USER_AGENT = ("OpenAPC Toolkit (https://github.com/OpenAPC/openapc-de/blob/master/python/openapc_toolkit.py;"+
               " mailto:openapc@uni-bielefeld.de)")
 
+# Optional token for Crossref Metadata Plus Service (loaded lazily)
+CROSSREF_PLUS_TOKEN = 'unset'
+
 # regex for detecing DOIs
 DOI_RE = re.compile(r"^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
 # regex for detecting shortDOIs
@@ -1563,10 +1566,8 @@ def find_book_dois_in_crossref(isbn_list):
         return ret_value
     filter_list = ["isbn:" + isbn.strip() for isbn in isbn_list]
     filters = ",".join(filter_list)
-    api_url = "https://api.crossref.org/works?filter="
-    url = api_url + filters + "&rows=500"
-    request = Request(url)
-    request.add_header("User-Agent", USER_AGENT)
+    route = "?filter=" + filters + "&rows=500"
+    request = _build_crossref_request(route)
     try:
         ret = urlopen(request)
         content = ret.read()
@@ -1591,16 +1592,15 @@ def find_book_dois_in_crossref(isbn_list):
     return ret_value
 
 def title_lookup(lookup_title, acccepted_doi_types, auto_accept=False):
-    api_url = "https://api.crossref.org/works?"
     empty_result = {
         "found_title": "",
         "similarity": 0,
         "doi": ""
     }
     params = {"rows": "100", "query.bibliographic": lookup_title}
-    url = api_url + urlencode(params, quote_via=quote_plus)
-    request = Request(url)
-    request.add_header("User-Agent", USER_AGENT)
+    route = "?" + urlencode(params, quote_via=quote_plus)
+    request = _build_crossref_request(route)
+
     skipped_stats = {}
     try:
         ret = urlopen(request)
@@ -1709,6 +1709,25 @@ def _extract_crossref_isxn(crossref_data, identifier_type, representation_type):
                     break
     return ret
 
+def _build_crossref_request(api_route):
+    global CROSSREF_PLUS_TOKEN
+    if CROSSREF_PLUS_TOKEN == "unset":
+        if os.path.isfile("crossref_plus_token"):
+            with open("crossref_plus_token", "r") as f:
+                token = f.read()
+                CROSSREF_PLUS_TOKEN = token.strip()
+                print_c("API Key for Crossref Plus successfully loaded.")
+        else:
+            CROSSREF_PLUS_TOKEN = None
+            print_y('Did not find a file "crossref_plus_token" with ' +
+                    'an API key - the public Crossref API will be used.')
+    url = 'https://api.crossref.org/works/' + api_route
+    req = Request(url)
+    req.add_header('User-Agent', USER_AGENT)
+    if CROSSREF_PLUS_TOKEN is not None and CROSSREF_PLUS_TOKEN != "unset":
+        req.add_header('Crossref-Plus-API-Token', CROSSREF_PLUS_TOKEN)
+    return req
+
 def get_metadata_from_crossref(doi_string):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
@@ -1809,9 +1828,7 @@ def get_metadata_from_crossref(doi_string):
         error_msg = 'Parse Error: "{}" is no valid DOI'.format(doi_string)
         return {'success': False, 'error_msg': error_msg, 'exception': None}
 
-    url = 'http://api.crossref.org/works/' + doi
-    req = Request(url)
-    req.add_header('User-Agent', USER_AGENT)
+    req = _build_crossref_request(doi)
     ret_value = {'success': True}
     try:
         response = urlopen(req)
