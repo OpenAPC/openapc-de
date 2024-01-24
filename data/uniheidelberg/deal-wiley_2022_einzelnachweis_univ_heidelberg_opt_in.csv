@@ -38,7 +38,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 37;Ruprecht-Karls-Universität Heidelberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202104016;https://doi.org/10.1002/chem.202104016;20.01.2022;2750;optin
 38;Ruprecht-Karls-Universität Heidelberg;BRITISH JOURNAL OF CLINICAL PHARMACOLOGY;1365-2125;10.1111/bcp.15553;https://doi.org/10.1111/bcp.15553;26.09.2022;2750;optin
 39;Ruprecht-Karls-Universität Heidelberg;JOURNAL OF THE LONDON MATHEMATICAL SOCIETY;1469-7750;10.1112/jlms.12602;https://doi.org/10.1112/jlms.12602;05.01.2022;2750;optin
-40;Ruprecht-Karls-Universität Heidelberg;BIOTECHNOLOGY PROGRESS;1520-6033;10.1002/btpr.3256;https://doi.org/10.1002/btpr.3256;03.04.2022;2750;optout
 41;Ruprecht-Karls-Universität Heidelberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200249;https://doi.org/10.1002/chem.202200249;17.02.2022;2750;optin
 42;Ruprecht-Karls-Universität Heidelberg;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202117735;https://doi.org/10.1002/ange.202117735;23.01.2022;1375;optin
 43;Ruprecht-Karls-Universität Heidelberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202201816;https://doi.org/10.1002/chem.202201816;13.06.2022;2750;optin
@@ -60,10 +59,8 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 59;Ruprecht-Karls-Universität Heidelberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202201339;https://doi.org/10.1002/chem.202201339;13.06.2022;2750;optin
 60;Ruprecht-Karls-Universität Heidelberg;JOURNAL OF GEOPHYSICAL RESEARCH: SOLID EARTH;2169-9356;10.1029/2022JB024814;https://doi.org/10.1029/2022JB024814;11.08.2022;2750;optin
 61;Ruprecht-Karls-Universität Heidelberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202104535;https://doi.org/10.1002/chem.202104535;09.03.2022;2750;optin
-62;Ruprecht-Karls-Universität Heidelberg;ACTA OPHTHALMOLOGICA;1755-3768;10.1111/aos.15131;https://doi.org/10.1111/aos.15131;11.03.2022;2750;optout
 63;Ruprecht-Karls-Universität Heidelberg;MAGNETIC RESONANCE IN MEDICINE;1522-2594;10.1002/mrm.29382;https://doi.org/10.1002/mrm.29382;17.06.2022;2750;optin
 64;Ruprecht-Karls-Universität Heidelberg;TIJDSCHRIFT VOOR ECONOMISCHE EN SOCIALE GEOGRAFIE;1467-9663;10.1111/tesg.12532;https://doi.org/10.1111/tesg.12532;07.06.2022;2750;optin
-65;Ruprecht-Karls-Universität Heidelberg;JOURNAL OF METAMORPHIC GEOLOGY;1525-1314;10.1111/jmg.12683;https://doi.org/10.1111/jmg.12683;18.05.2022;2750;optout
 66;Ruprecht-Karls-Universität Heidelberg;WATER RESOURCES RESEARCH;1944-7973;10.1029/2021WR031776;https://doi.org/10.1029/2021WR031776;15.05.2022;2750;optin
 67;Ruprecht-Karls-Universität Heidelberg;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202201916;https://doi.org/10.1002/chem.202201916;08.08.2022;2750;optin
 68;Ruprecht-Karls-Universität Heidelberg;FEBS LETTERS;1873-3468;10.1002/1873-3468.14435;https://doi.org/10.1002/1873-3468.14435;12.06.2022;2750;optin
@@ -81,8 +78,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 80;Ruprecht-Karls-Universität Heidelberg;MAGNETIC RESONANCE IN MEDICINE;1522-2594;10.1002/mrm.29302;https://doi.org/10.1002/mrm.29302;24.04.2022;2750;optin
 81;Ruprecht-Karls-Universität Heidelberg;DRUG TESTING AND ANALYSIS;1942-7611;10.1002/dta.3386;https://doi.org/10.1002/dta.3386;09.10.2022;2750;optin
 82;Ruprecht-Karls-Universität Heidelberg;EMBO REPORTS;1469-3178;10.15252/embr.202254857;https://doi.org/10.15252/embr.202254857;07.04.2022;2750;optin
-83;Ruprecht-Karls-Universität Heidelberg;BULLETIN OF THE LONDON MATHEMATICAL SOCIETY;1469-2120;10.1112/blms.12692;https://doi.org/10.1112/blms.12692;26.04.2022;2750;optout
-84;Ruprecht-Karls-Universität Heidelberg;ACTA OPHTHALMOLOGICA;1755-3768;10.1111/aos.15145;https://doi.org/10.1111/aos.15145;14.03.2022;2750;optout
 85;Ruprecht-Karls-Universität Heidelberg;JOURNAL OF ECONOMIC SURVEYS;1467-6419;10.1111/joes.12542;https://doi.org/10.1111/joes.12542;08.11.2022;2750;optin
 86;Ruprecht-Karls-Universität Heidelberg;BIOESSAYS;1521-1878;10.1002/bies.202200087;https://doi.org/10.1002/bies.202200087;13.06.2022;2750;optin
 87;Ruprecht-Karls-Universität Heidelberg;GEOARCHAEOLOGY;1520-6548;10.1002/gea.21946;https://doi.org/10.1002/gea.21946;07.09.2022;2750;optin
@@ -120,7 +115,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 119;Universitätsklinikum Heidelberg;BRITISH JOURNAL OF CLINICAL PHARMACOLOGY;1365-2125;10.1111/bcp.15570;https://doi.org/10.1111/bcp.15570;03.10.2022;2750;optin
 120;Universitätsklinikum Heidelberg;NEUROPATHOLOGY AND APPLIED NEUROBIOLOGY;1365-2990;10.1111/nan.12847;https://doi.org/10.1111/nan.12847;04.08.2022;2750;optin
 121;Universitätsklinikum Heidelberg;HLA: IMMUNE RESPONSE GENETICS;2059-2310;10.1111/tan.14846;https://doi.org/10.1111/tan.14846;06.10.2022;2750;optin
-122;Universitätsklinikum Heidelberg;THE INTERNATIONAL JOURNAL OF HEALTH PLANNING AND MANAGEMENT;1099-1751;10.1002/hpm.3465;https://doi.org/10.1002/hpm.3465;09.03.2022;2750;optout
 123;Universitätsklinikum Heidelberg;INTERNATIONAL JOURNAL OF CANCER;1097-0215;10.1002/ijc.34344;https://doi.org/10.1002/ijc.34344;14.10.2022;2750;optin
 124;Universitätsklinikum Heidelberg;LIVER INTERNATIONAL;1478-3231;10.1111/liv.15392;https://doi.org/10.1111/liv.15392;07.08.2022;2750;optin
 125;Universitätsklinikum Heidelberg;JOURNAL OF HEPATO-BILIARY-PANCREATIC SCIENCES;1868-6982;10.1002/jhbp.1296;https://doi.org/10.1002/jhbp.1296;27.11.2022;2750;optin
@@ -136,7 +130,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 135;Universitätsklinikum Heidelberg;PEDIATRIC PULMONOLOGY;1099-0496;10.1002/ppul.26263;https://doi.org/10.1002/ppul.26263;25.11.2022;2750;optin
 136;Universitätsklinikum Heidelberg;AMERICAN JOURNAL OF TRANSPLANTATION;1600-6143;10.1111/ajt.17060;https://doi.org/10.1111/ajt.17060;06.04.2022;2750;optin
 137;Universitätsklinikum Heidelberg;EARLY INTERVENTION IN PSYCHIATRY;1751-7893;10.1111/eip.13358;https://doi.org/10.1111/eip.13358;17.09.2022;2750;optin
-138;Universitätsklinikum Heidelberg;INTERNATIONAL JOURNAL OF DERMATOLOGY;1365-4632;10.1111/ijd.16116;https://doi.org/10.1111/ijd.16116;08.01.2022;2750;optout
 139;Universitätsklinikum Heidelberg;JOURNAL OF INHERITED METABOLIC DISEASE;1573-2665;10.1002/jimd.12508;https://doi.org/10.1002/jimd.12508;27.04.2022;2750;optin
 140;Universitätsklinikum Heidelberg;JOURNAL OF INHERITED METABOLIC DISEASE;1573-2665;10.1002/jimd.12544;https://doi.org/10.1002/jimd.12544;08.08.2022;2750;optin
 141;Universitätsklinikum Heidelberg;JOURNAL OF INHERITED METABOLIC DISEASE;1573-2665;10.1002/jimd.12572;https://doi.org/10.1002/jimd.12572;18.10.2022;2750;optin
@@ -184,7 +177,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 183;Medizinische Fakultät Mannheim der Universität Heidelberg;INTERNATIONAL JOURNAL OF CANCER;1097-0215;10.1002/ijc.34017;https://doi.org/10.1002/ijc.34017;07.03.2022;2750;optin
 184;Medizinische Fakultät Mannheim der Universität Heidelberg;CHEMMEDCHEM;1860-7187;10.1002/cmdc.202200495;https://doi.org/10.1002/cmdc.202200495;17.10.2022;2750;optin
 185;Medizinische Fakultät Mannheim der Universität Heidelberg;CHEMMEDCHEM;1860-7187;10.1002/cmdc.202100739;https://doi.org/10.1002/cmdc.202100739;07.02.2022;2750;optin
-186;Medizinische Fakultät Mannheim der Universität Heidelberg;INTERNATIONAL JOURNAL OF CANCER;1097-0215;10.1002/ijc.34243;https://doi.org/10.1002/ijc.34243;07.08.2022;2750;optout
 187;Medizinische Fakultät Heidelberg der Universität Heidelberg;THE JOURNAL OF PATHOLOGY;1096-9896;10.1002/path.5889;https://doi.org/10.1002/path.5889;23.02.2022;2750;optin
 188;Medizinische Fakultät Heidelberg der Universität Heidelberg;JOURNAL OF PERIODONTAL RESEARCH;1600-0765;10.1111/jre.13056;https://doi.org/10.1111/jre.13056;06.09.2022;2750;optin
 189;Medizinische Fakultät Heidelberg der Universität Heidelberg;JOURNAL OF SLEEP RESEARCH;1365-2869;10.1111/jsr.13777;https://doi.org/10.1111/jsr.13777;17.10.2022;2750;optin
