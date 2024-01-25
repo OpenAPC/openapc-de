@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 95,524 articles, published at 367 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 95,955 articles, published at 368 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 95,524 articles, published at 367 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     7442|
-|DEAL Wiley Germany                               |     6651|
+|DEAL Springer Nature Germany                     |     7586|
+|DEAL Wiley Germany                               |     6938|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -208,6 +208,7 @@ This dataset contains information on 95,524 articles, published at 367 instituti
 |TU Darmstadt                                                                                                                                       |      445|
 |Erlangen Nuernberg U                                                                                                                               |      439|
 |University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
+|KIT                                                                                                                                                |      431|
 |University of Leeds                                                                                                                                |      428|
 |VU University Amsterdam                                                                                                                            |      426|
 |Hannover U und TIB                                                                                                                                 |      413|
