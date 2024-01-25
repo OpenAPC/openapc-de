@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 95,362 articles, published at 366 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 95,524 articles, published at 367 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 95,362 articles, published at 366 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     7382|
-|DEAL Wiley Germany                               |     6549|
+|DEAL Springer Nature Germany                     |     7442|
+|DEAL Wiley Germany                               |     6651|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -279,6 +279,7 @@ This dataset contains information on 95,362 articles, published at 366 instituti
 |LSE                                                                                                                                                |      166|
 |University of East Anglia                                                                                                                          |      164|
 |Natural Resources Institute Finland                                                                                                                |      163|
+|Bayreuth U                                                                                                                                         |      162|
 |Università della Svizzera italiana                                                                                                                 |      162|
 |Lancaster University                                                                                                                               |      155|
 |Agroscope                                                                                                                                          |      154|
