@@ -9,7 +9,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 8;Karlsruher Institut für Technologie (KIT);ENERGY TECHNOLOGY;2194-4296;10.1002/ente.202201186;https://doi.org/10.1002/ente.202201186;13.12.2022;2750;optin
 9;Karlsruher Institut für Technologie (KIT);ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202111829;https://doi.org/10.1002/adfm.202111829;06.02.2022;2750;optin
 10;Karlsruher Institut für Technologie (KIT);CHEMICAL ENGINEERING & TECHNOLOGY;1521-4125;10.1002/ceat.202200434;https://doi.org/10.1002/ceat.202200434;25.10.2022;2750;optin
-11;Karlsruher Institut für Technologie (KIT);ENERGY TECHNOLOGY;2194-4296;10.1002/ente.202200437;https://doi.org/10.1002/ente.202200437;08.06.2022;2750;optout
 12;Karlsruher Institut für Technologie (KIT);ENERGY TECHNOLOGY;2194-4296;10.1002/ente.202200441;https://doi.org/10.1002/ente.202200441;06.07.2022;2750;optin
 13;Karlsruher Institut für Technologie (KIT);JOURNAL OF APPLIED CRYSTALLOGRAPHY;1600-5767;10.1107/S1600576722003089;https://doi.org/10.1107/S1600576722003089;20.03.2022;2750;optin
 14;Karlsruher Institut für Technologie (KIT);ADVANCED MATERIALS;1521-4095;10.1002/adma.202200350;https://doi.org/10.1002/adma.202200350;27.03.2022;2750;optin
@@ -137,7 +136,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 136;Karlsruher Institut für Technologie (KIT);ADVANCED MATERIALS TECHNOLOGIES;2365-709X;10.1002/admt.202101400;https://doi.org/10.1002/admt.202101400;01.01.2022;2750;optin
 137;Karlsruher Institut für Technologie (KIT);CHEMSUSCHEM;1864-564X;10.1002/cssc.202201720;https://doi.org/10.1002/cssc.202201720;17.11.2022;2750;optin
 138;Karlsruher Institut für Technologie (KIT);CHEMPHYSCHEM;1439-7641;10.1002/cphc.202200227;https://doi.org/10.1002/cphc.202200227;27.04.2022;2750;optin
-139;Karlsruher Institut für Technologie (KIT);CHEMICAL ENGINEERING & TECHNOLOGY;1521-4125;10.1002/ceat.202200132;https://doi.org/10.1002/ceat.202200132;16.05.2022;2750;optout
 140;Karlsruher Institut für Technologie (KIT);CONCURRENCY AND COMPUTATION: PRACTICE AND EXPERIENCE;1532-0634;10.1002/cpe.7509;https://doi.org/10.1002/cpe.7509;23.10.2022;2750;optin
 141;Karlsruher Institut für Technologie (KIT);CHEMIE INGENIEUR TECHNIK;1522-2640;10.1002/cite.202100197;https://doi.org/10.1002/cite.202100197;19.01.2022;2750;optin
 142;Karlsruher Institut für Technologie (KIT);GEOPHYSICAL RESEARCH LETTERS;1944-8007;10.1029/2022GL098643;https://doi.org/10.1029/2022GL098643;14.07.2022;2750;optin
@@ -159,10 +157,8 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 158;Karlsruher Institut für Technologie (KIT);ZEITSCHRIFT FUR ANORGANISCHE UND ALLGEMEINE CHEMIE;1521-3749;10.1002/zaac.202200062;https://doi.org/10.1002/zaac.202200062;19.03.2022;2750;optin
 159;Karlsruher Institut für Technologie (KIT);ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202200772;https://doi.org/10.1002/adfm.202200772;21.03.2022;2750;optin
 160;Karlsruher Institut für Technologie (KIT);CE/PAPERS;2509-7075;10.1002/cepa.1878;https://doi.org/10.1002/cepa.1878;30.08.2022;2750;optin
-161;Karlsruher Institut für Technologie (KIT);JOURNAL OF ECOLOGY;1365-2745;10.1111/1365-2745.13960;https://doi.org/10.1111/1365-2745.13960;02.06.2022;2750;optout
 162;Karlsruher Institut für Technologie (KIT);JOURNAL OF INDUSTRIAL ECOLOGY;1530-9290;10.1111/jiec.13344;https://doi.org/10.1111/jiec.13344;17.08.2022;2750;optin
 163;Karlsruher Institut für Technologie (KIT);PROCEEDINGS IN APPLIED MATHEMATICS & MECHANICS;1617-7061;10.1002/pamm.202200145;https://doi.org/10.1002/pamm.202200145;23.11.2022;2750;optin
-164;Karlsruher Institut für Technologie (KIT);GEOPHYSICAL RESEARCH LETTERS;1944-8007;10.1029/2022GL100973;https://doi.org/10.1029/2022GL100973;11.12.2022;2750;optout
 165;Karlsruher Institut für Technologie (KIT);SMALL;1613-6829;10.1002/smll.202202704;https://doi.org/10.1002/smll.202202704;20.07.2022;2750;optin
 166;Karlsruher Institut für Technologie (KIT);ADVANCED MATERIALS;1521-4095;10.1002/adma.202207155;https://doi.org/10.1002/adma.202207155;25.09.2022;2750;optin
 167;Karlsruher Institut für Technologie (KIT);ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202214880;https://doi.org/10.1002/anie.202214880;20.12.2022;2750;optin
@@ -194,7 +190,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 193;Karlsruher Institut für Technologie (KIT);ENERGY TECHNOLOGY;2194-4296;10.1002/ente.202200785;https://doi.org/10.1002/ente.202200785;12.09.2022;2750;optin
 194;Karlsruher Institut für Technologie (KIT);CHEMIE INGENIEUR TECHNIK;1522-2640;10.1002/cite.202200082;https://doi.org/10.1002/cite.202200082;04.08.2022;2750;optin
 195;Karlsruher Institut für Technologie (KIT);MACROMOLECULAR CHEMISTRY AND PHYSICS;1521-3935;10.1002/macp.202200403;https://doi.org/10.1002/macp.202200403;27.11.2022;2750;optin
-196;Karlsruher Institut für Technologie (KIT);CHEMPHYSCHEM;1439-7641;10.1002/cphc.202200215;https://doi.org/10.1002/cphc.202200215;22.06.2022;2750;optout
 197;Karlsruher Institut für Technologie (KIT);EUROPEAN JOURNAL OF SOIL SCIENCE;1365-2389;10.1111/ejss.13289;https://doi.org/10.1111/ejss.13289;13.07.2022;2750;optin
 198;Karlsruher Institut für Technologie (KIT);NUMERICAL METHODS FOR PARTIAL DIFFERENTIAL EQUATIONS;1098-2426;10.1002/num.22954;https://doi.org/10.1002/num.22954;27.09.2022;2750;optin
 199;Karlsruher Institut für Technologie (KIT);VAKUUM IN FORSCHUNG UND PRAXIS;1522-2454;10.1002/vipr.202200796;https://doi.org/10.1002/vipr.202200796;24.11.2022;2750;optin
