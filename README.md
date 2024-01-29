@@ -17,7 +17,7 @@ At the moment this project provides the following cost data:
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
 | Articles         |202,605 | 394,563,579    | 425 |
-| Monographs       |1,779 | 11,554,208    | 50 |
+| Monographs       |1,797 | 11,657,041    | 50 |
 
 ## How to access the data?
 
@@ -788,9 +788,9 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 ### Books (BPCs)
 
-The book data set contains information on 1,779 open access books. Publication fees were supported financially by 50 research performing institutions and funders. 
+The book data set contains information on 1,797 open access books. Publication fees were supported financially by 50 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 11,554,208. The average payment was € 6,495 and the median was € 6,790.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 11,657,041. The average payment was € 6,487 and the median was € 6,747.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -815,7 +815,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2020   |             162|    7,449|      7,353|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             172|    6,950|      6,349|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             184|    7,823|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |              25|    4,852|      4,980| 2,000 -  8,330|             NA|       NA|         NA|            NA|
+|2023   |              43|    5,212|      5,652| 2,000 -  8,330|             NA|       NA|         NA|            NA|
 
 
 
@@ -860,7 +860,7 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.72%       |87.63%   |
+|DOI                        |  99.72%       |87.76%   |
 |PubMed ID                  |  73.6%      | NA                                                          |
 |PubMed Central ID          |  67.99%     | NA                                                          |
 |Web of Science record ID   | 82.18%         | NA                                                          |
