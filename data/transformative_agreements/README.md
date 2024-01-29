@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 95,955 articles, published at 368 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 96,120 articles, published at 369 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 95,955 articles, published at 368 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     7586|
-|DEAL Wiley Germany                               |     6938|
+|DEAL Springer Nature Germany                     |     7669|
+|DEAL Wiley Germany                               |     7020|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -278,6 +278,7 @@ This dataset contains information on 95,955 articles, published at 368 instituti
 |University of Sussex                                                                                                                               |      168|
 |University of Vaasa                                                                                                                                |      167|
 |LSE                                                                                                                                                |      166|
+|Dortmund TU                                                                                                                                        |      165|
 |University of East Anglia                                                                                                                          |      164|
 |Natural Resources Institute Finland                                                                                                                |      163|
 |Bayreuth U                                                                                                                                         |      162|
