@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 96,188 articles, published at 370 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 96,306 articles, published at 371 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 96,188 articles, published at 370 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     7712|
-|DEAL Wiley Germany                               |     7045|
+|DEAL Springer Nature Germany                     |     7763|
+|DEAL Wiley Germany                               |     7112|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -296,6 +296,7 @@ This dataset contains information on 96,188 articles, published at 370 instituti
 |Johannes Kepler University Linz                                                                                                                    |      130|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
+|Konstanz U                                                                                                                                         |      118|
 |Paracelsus Medical University                                                                                                                      |      116|
 |University of Dundee                                                                                                                               |      115|
 |GFZ-Potsdam                                                                                                                                        |      112|
