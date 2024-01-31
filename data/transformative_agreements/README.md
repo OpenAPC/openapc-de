@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 96,134 articles, published at 370 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 96,188 articles, published at 370 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 96,134 articles, published at 370 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     7678|
-|DEAL Wiley Germany                               |     7025|
+|DEAL Springer Nature Germany                     |     7712|
+|DEAL Wiley Germany                               |     7045|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -282,6 +282,7 @@ This dataset contains information on 96,134 articles, published at 370 instituti
 |University of East Anglia                                                                                                                          |      164|
 |Natural Resources Institute Finland                                                                                                                |      163|
 |Bayreuth U                                                                                                                                         |      162|
+|Mannheim U                                                                                                                                         |      162|
 |Università della Svizzera italiana                                                                                                                 |      162|
 |Lancaster University                                                                                                                               |      155|
 |Agroscope                                                                                                                                          |      154|
@@ -300,7 +301,6 @@ This dataset contains information on 96,134 articles, published at 370 instituti
 |GFZ-Potsdam                                                                                                                                        |      112|
 |University of Applied Sciences and Arts Northwestern Switzerland                                                                                   |      111|
 |Northumbria University                                                                                                                             |      109|
-|Mannheim U                                                                                                                                         |      108|
 |University of Surrey                                                                                                                               |      107|
 |Montanuniversität Leoben                                                                                                                           |      105|
 |Bern University of Applied Sciences                                                                                                                |      104|
