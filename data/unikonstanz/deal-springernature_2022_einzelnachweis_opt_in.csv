@@ -1,0 +1,52 @@
+pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;article_type;article_group;initial_opt-out
+1;Universität Konstanz;Annali di Matematica Pura ed Applicata (1923 -);1618-1891;10.1007/s10231-022-01293-9;https://doi.org/10.1007/s10231-022-01293-9;29.12.2022;25.11.2022;2750;originalpaper;Research Article;optin
+2;Universität Konstanz;Formal Methods in System Design;1572-8102;10.1007/s10703-022-00397-5;https://doi.org/10.1007/s10703-022-00397-5;05.10.2022;13.09.2022;2750;originalpaper;Research Article;optin
+3;Universität Konstanz;Synthese;1573-0964;10.1007/s11229-022-03888-4;https://doi.org/10.1007/s11229-022-03888-4;03.10.2022;04.09.2022;2750;originalpaper;Research Article;optin
+4;Universität Konstanz;The ISME Journal;1751-7370;10.1038/s41396-022-01226-7;https://doi.org/10.1038/s41396-022-01226-7;20.04.2022;14.03.2022;2750;originalpaper;Research Article;optin
+5;Universität Konstanz;Colloid and Polymer Science;1435-1536;10.1007/s00396-022-05000-1;https://doi.org/10.1007/s00396-022-05000-1;30.06.2022;16.06.2022;2750;originalpaper;Research Article;optin
+6;Universität Konstanz;Jahresbericht der Deutschen Mathematiker-Vereinigung;1869-7135;10.1365/s13291-022-00245-9;https://doi.org/10.1365/s13291-022-00245-9;27.01.2022;12.01.2022;917;bookreview;Non Research Article;optin
+7;Universität Konstanz;Computational Optimization and Applications;1573-2894;10.1007/s10589-022-00390-y;https://doi.org/10.1007/s10589-022-00390-y;28.08.2022;17.06.2022;2750;originalpaper;Research Article;optin
+8;Universität Konstanz;Coral Reefs;1432-0975;10.1007/s00338-022-02233-y;https://doi.org/10.1007/s00338-022-02233-y;22.03.2022;31.01.2022;2750;originalpaper;Research Article;optin
+9;Universität Konstanz;Vietnam Journal of Mathematics;2305-2228;10.1007/s10013-022-00549-4;https://doi.org/10.1007/s10013-022-00549-4;24.02.2022;17.11.2021;2750;originalpaper;Research Article;optin
+10;Universität Konstanz;Numerische Mathematik;0945-3245;10.1007/s00211-021-01264-x;https://doi.org/10.1007/s00211-021-01264-x;09.01.2022;13.12.2021;2750;originalpaper;Research Article;optin
+11;Universität Konstanz;Discrete & Computational Geometry;1432-0444;10.1007/s00454-022-00385-w;https://doi.org/10.1007/s00454-022-00385-w;15.04.2022;24.11.2021;2750;originalpaper;Research Article;optin
+12;Universität Konstanz;Positivity;1572-9281;10.1007/s11117-022-00948-4;https://doi.org/10.1007/s11117-022-00948-4;20.10.2022;06.10.2022;2750;originalpaper;Research Article;optin
+13;Universität Konstanz;BioSpektrum;1868-6249;10.1007/s12268-022-1764-z;https://doi.org/10.1007/s12268-022-1764-z;21.05.2022;;2750;reviewpaper;Research Article;optin
+14;Universität Konstanz;Motivation and Emotion;1573-6644;10.1007/s11031-022-09943-4;https://doi.org/10.1007/s11031-022-09943-4;15.06.2022;19.04.2022;2750;originalpaper;Research Article;optin
+15;Universität Konstanz;Zeitschrift für Ethik und Moralphilosophie;2522-0071;10.1007/s42048-022-00120-3;https://doi.org/10.1007/s42048-022-00120-3;02.05.2022;05.04.2022;2750;briefcommunication;Research Article;optin
+16;Universität Konstanz;The ISME Journal;1751-7370;10.1038/s41396-022-01283-y;https://doi.org/10.1038/s41396-022-01283-y;15.07.2022;28.06.2022;2750;originalpaper;Research Article;optin
+17;Universität Konstanz;Symbiosis;1878-7665;10.1007/s13199-022-00841-4;https://doi.org/10.1007/s13199-022-00841-4;27.05.2022;30.04.2022;2750;originalpaper;Research Article;optin
+18;Universität Konstanz;Minds and Machines;1572-8641;10.1007/s11023-022-09619-5;https://doi.org/10.1007/s11023-022-09619-5;29.12.2022;13.12.2022;2750;originalpaper;Research Article;optin
+19;Universität Konstanz;Law and Philosophy;1573-0522;10.1007/s10982-022-09446-w;https://doi.org/10.1007/s10982-022-09446-w;30.06.2022;25.02.2022;2750;originalpaper;Research Article;optin
+20;Universität Konstanz;Computational Economics;1572-9974;10.1007/s10614-022-10250-w;https://doi.org/10.1007/s10614-022-10250-w;08.04.2022;23.02.2022;2750;originalpaper;Research Article;optin
+21;Universität Konstanz;Synthese;1573-0964;10.1007/s11229-022-03565-6;https://doi.org/10.1007/s11229-022-03565-6;07.03.2022;26.12.2021;2750;originalpaper;Research Article;optin
+22;Universität Konstanz;Asian Business & Management;1476-9328;10.1057/s41291-022-00181-7;https://doi.org/10.1057/s41291-022-00181-7;21.05.2022;27.04.2022;2750;originalpaper;Research Article;optin
+23;Universität Konstanz;The European Journal of Health Economics;1618-7601;10.1007/s10198-022-01447-9;https://doi.org/10.1007/s10198-022-01447-9;17.03.2022;11.02.2022;2750;originalpaper;Research Article;optin
+24;Universität Konstanz;cultura & psyché;2730-5732;10.1007/s43638-021-00029-5;https://doi.org/10.1007/s43638-021-00029-5;10.01.2022;22.11.2021;2750;originalpaper;Research Article;optin
+25;Universität Konstanz;Calculus of Variations and Partial Differential Equations;1432-0835;10.1007/s00526-022-02326-0;https://doi.org/10.1007/s00526-022-02326-0;08.10.2022;21.09.2022;2750;originalpaper;Research Article;optin
+26;Universität Konstanz;ZDM – Mathematics Education;1863-9704;10.1007/s11858-022-01425-8;https://doi.org/10.1007/s11858-022-01425-8;26.10.2022;16.08.2022;2750;originalpaper;Research Article;optin
+27;Universität Konstanz;BioSpektrum;1868-6249;10.1007/s12268-022-1811-9;https://doi.org/10.1007/s12268-022-1811-9;30.08.2022;;917;letter;Non Research Article;optin
+28;Universität Konstanz;Erkenntnis;1572-8420;10.1007/s10670-022-00600-3;https://doi.org/10.1007/s10670-022-00600-3;19.08.2022;10.07.2022;2750;originalpaper;Research Article;optin
+29;Universität Konstanz;Axiomathes;1572-8390;10.1007/s10516-022-09637-z;https://doi.org/10.1007/s10516-022-09637-z;13.10.2022;09.09.2022;2750;originalpaper;Research Article;optin
+30;Universität Konstanz;Potential Analysis;1572-929X;10.1007/s11118-022-09985-w;https://doi.org/10.1007/s11118-022-09985-w;27.01.2022;05.01.2022;2750;originalpaper;Research Article;optin
+31;Universität Konstanz;Synthese;1573-0964;10.1007/s11229-022-03905-6;https://doi.org/10.1007/s11229-022-03905-6;12.10.2022;16.08.2022;2750;originalpaper;Research Article;optin
+32;Universität Konstanz;Behavior Research Methods;1554-3528;10.3758/s13428-021-01776-2;https://doi.org/10.3758/s13428-021-01776-2;01.03.2022;15.12.2021;2750;originalpaper;Research Article;optin
+33;Universität Konstanz;Interest Groups & Advocacy;2047-7422;10.1057/s41309-022-00172-1;https://doi.org/10.1057/s41309-022-00172-1;15.11.2022;19.10.2022;2750;originalpaper;Research Article;optin
+34;Universität Konstanz;Synthese;1573-0964;10.1007/s11229-022-03819-3;https://doi.org/10.1007/s11229-022-03819-3;19.08.2022;18.07.2022;2750;originalpaper;Research Article;optin
+35;Universität Konstanz;Cell Biology and Toxicology;1573-6822;10.1007/s10565-022-09739-9;https://doi.org/10.1007/s10565-022-09739-9;01.07.2022;20.06.2022;2750;originalpaper;Research Article;optin
+36;Universität Konstanz;German Journal of Exercise and Sport Research;2509-3150;10.1007/s12662-021-00795-7;https://doi.org/10.1007/s12662-021-00795-7;24.01.2022;23.12.2021;2750;briefcommunication;Research Article;optin
+37;Universität Konstanz;Politische Vierteljahresschrift;1862-2860;10.1007/s11615-022-00377-8;https://doi.org/10.1007/s11615-022-00377-8;22.02.2022;18.01.2022;2750;originalpaper;Research Article;optin
+38;Universität Konstanz;Journal of Low Temperature Physics;1573-7357;10.1007/s10909-022-02763-3;https://doi.org/10.1007/s10909-022-02763-3;15.06.2022;02.06.2022;917;editorialnotes;Non Research Article;optin
+39;Universität Konstanz;Zeitschrift für Vergleichende Politikwissenschaft;1865-2654;10.1007/s12286-021-00513-5;https://doi.org/10.1007/s12286-021-00513-5;13.01.2022;17.12.2021;2750;originalpaper;Research Article;optin
+40;Universität Konstanz;cultura & psyché;2730-5732;10.1007/s43638-022-00036-0;https://doi.org/10.1007/s43638-022-00036-0;16.04.2022;23.03.2022;917;editorialnotes;Non Research Article;optin
+41;Universität Konstanz;Applied Mathematics & Optimization;1432-0606;10.1007/s00245-022-09900-0;https://doi.org/10.1007/s00245-022-09900-0;14.09.2022;09.07.2022;2750;originalpaper;Research Article;optin
+42;Universität Konstanz;Biology & Philosophy;1572-8404;10.1007/s10539-022-09872-z;https://doi.org/10.1007/s10539-022-09872-z;11.09.2022;14.08.2022;2750;originalpaper;Research Article;optin
+43;Universität Konstanz;Dialectical Anthropology;1573-0786;10.1007/s10624-022-09666-5;https://doi.org/10.1007/s10624-022-09666-5;23.08.2022;03.08.2022;2750;originalpaper;Research Article;optin
+44;Universität Konstanz;Studies in Comparative International Development;1936-6167;10.1007/s12116-022-09363-y;https://doi.org/10.1007/s12116-022-09363-y;05.08.2022;24.05.2022;2750;originalpaper;Research Article;optin
+45;Universität Konstanz;Journal of Child and Family Studies;1573-2843;10.1007/s10826-022-02343-9;https://doi.org/10.1007/s10826-022-02343-9;02.07.2022;13.06.2022;2750;originalpaper;Research Article;optin
+46;Universität Konstanz;Integral Equations and Operator Theory;1420-8989;10.1007/s00020-022-02722-3;https://doi.org/10.1007/s00020-022-02722-3;15.12.2022;23.11.2022;2750;originalpaper;Research Article;optin
+47;Universität Konstanz;Vocations and Learning;1874-7868;10.1007/s12186-021-09282-4;https://doi.org/10.1007/s12186-021-09282-4;24.01.2022;11.12.2021;2750;originalpaper;Research Article;optin
+48;Universität Konstanz;cultura & psyché;2730-5732;10.1007/s43638-022-00040-4;https://doi.org/10.1007/s43638-022-00040-4;20.10.2022;03.09.2022;2750;originalpaper;Research Article;optin
+49;Universität Konstanz;International Politics;1740-3898;10.1057/s41311-022-00389-6;https://doi.org/10.1057/s41311-022-00389-6;12.04.2022;11.03.2022;2750;originalpaper;Research Article;optin
+50;Universität Konstanz;Social Indicators Research;1573-0921;10.1007/s11205-022-02890-0;https://doi.org/10.1007/s11205-022-02890-0;14.03.2022;23.01.2022;2750;originalpaper;Research Article;optin
+51;Universität Konstanz;Higher Education;1573-174X;10.1007/s10734-022-00866-0;https://doi.org/10.1007/s10734-022-00866-0;19.05.2022;27.04.2022;2750;originalpaper;Research Article;optin

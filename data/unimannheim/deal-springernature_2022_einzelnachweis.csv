@@ -1,0 +1,35 @@
+pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;article_type;article_group;initial_opt-out
+1;Universität Mannheim;Medizinrecht;1433-8629;10.1007/s00350-022-6196-8;https://doi.org/10.1007/s00350-022-6196-8;03.05.2022;;2750;originalpaper;Research Article;optin
+2;Universität Mannheim;TechTrends;1559-7075;10.1007/s11528-022-00777-y;https://doi.org/10.1007/s11528-022-00777-y;15.09.2022;02.09.2022;2750;originalpaper;Research Article;optin
+3;Universität Mannheim;Small Business Economics;1573-0913;10.1007/s11187-021-00584-4;https://doi.org/10.1007/s11187-021-00584-4;12.02.2022;13.10.2021;2750;originalpaper;Research Article;optin
+4;Universität Mannheim;Quality & Quantity;1573-7845;10.1007/s11135-022-01333-9;https://doi.org/10.1007/s11135-022-01333-9;16.02.2022;24.01.2022;2750;originalpaper;Research Article;optin
+5;Universität Mannheim;Medizinrecht;1433-8629;10.1007/s00350-022-6134-9;https://doi.org/10.1007/s00350-022-6134-9;14.03.2022;;2750;originalpaper;Research Article;optin
+6;Universität Mannheim;Journal of Business Ethics;1573-0697;10.1007/s10551-022-05071-8;https://doi.org/10.1007/s10551-022-05071-8;28.02.2022;06.02.2022;2750;originalpaper;Research Article;optin
+7;Universität Mannheim;Advances in Computational Mathematics;1572-9044;10.1007/s10444-022-09993-9;https://doi.org/10.1007/s10444-022-09993-9;10.11.2022;18.10.2022;2750;originalpaper;Research Article;optin
+8;Universität Mannheim;Technology, Knowledge and Learning;2211-1670;10.1007/s10758-022-09591-0;https://doi.org/10.1007/s10758-022-09591-0;22.02.2022;06.01.2022;2750;originalpaper;Research Article;optin
+9;Universität Mannheim;Entrepreneurship Education;2520-8152;10.1007/s41959-022-00064-0;https://doi.org/10.1007/s41959-022-00064-0;31.03.2022;04.03.2022;2750;originalpaper;Research Article;optin
+10;Universität Mannheim;Occupational Health Science;2367-0142;10.1007/s41542-022-00134-8;https://doi.org/10.1007/s41542-022-00134-8;23.12.2022;19.11.2022;2750;originalpaper;Research Article;optin
+11;Universität Mannheim;Social Psychology of Education;1573-1928;10.1007/s11218-022-09733-3;https://doi.org/10.1007/s11218-022-09733-3;08.11.2022;04.10.2022;2750;originalpaper;Research Article;optin
+12;Universität Mannheim;Politische Vierteljahresschrift;1862-2860;10.1007/s11615-022-00403-9;https://doi.org/10.1007/s11615-022-00403-9;13.06.2022;18.05.2022;2750;originalpaper;Research Article;optin
+13;Universität Mannheim;Vocations and Learning;1874-7868;10.1007/s12186-022-09301-y;https://doi.org/10.1007/s12186-022-09301-y;12.09.2022;27.08.2022;2750;originalpaper;Research Article;optin
+14;Universität Mannheim;Medizinrecht;1433-8629;10.1007/s00350-022-6311-x;https://doi.org/10.1007/s00350-022-6311-x;17.10.2022;;2750;originalpaper;Research Article;optin
+15;Universität Mannheim;Medizinrecht;1433-8629;10.1007/s00350-022-6271-1;https://doi.org/10.1007/s00350-022-6271-1;02.08.2022;;2750;originalpaper;Research Article;optin
+16;Universität Mannheim;Information Systems and e-Business Management;1617-9854;10.1007/s10257-022-00554-7;https://doi.org/10.1007/s10257-022-00554-7;18.04.2022;21.03.2022;2750;originalpaper;Research Article;optin
+17;Universität Mannheim;Vocations and Learning;1874-7868;10.1007/s12186-022-09303-w;https://doi.org/10.1007/s12186-022-09303-w;10.11.2022;06.10.2022;2750;originalpaper;Research Article;optin
+18;Universität Mannheim;Gruppe. Interaktion. Organisation. Zeitschrift für Angewandte Organisationspsychologie (GIO);2366-6218;10.1007/s11612-022-00657-2;https://doi.org/10.1007/s11612-022-00657-2;15.11.2022;04.07.2022;917;report;Non Research Article;optin
+19;Universität Mannheim;Politische Vierteljahresschrift;1862-2860;10.1007/s11615-022-00417-3;https://doi.org/10.1007/s11615-022-00417-3;10.08.2022;04.07.2022;2750;originalpaper;Research Article;optin
+20;Universität Mannheim;Education and Information Technologies;1573-7608;10.1007/s10639-022-11004-9;https://doi.org/10.1007/s10639-022-11004-9;18.04.2022;14.03.2022;2750;originalpaper;Research Article;optin
+21;Universität Mannheim;Behavior Research Methods;1554-3528;10.3758/s13428-021-01769-1;https://doi.org/10.3758/s13428-021-01769-1;09.05.2022;08.12.2021;2750;originalpaper;Research Article;optin
+22;Universität Mannheim;Information Retrieval Journal;1573-7659;10.1007/s10791-022-09406-x;https://doi.org/10.1007/s10791-022-09406-x;07.03.2022;05.02.2022;2750;originalpaper;Research Article;optin
+23;Universität Mannheim;Queueing Systems;1572-9443;10.1007/s11134-022-09759-6;https://doi.org/10.1007/s11134-022-09759-6;27.03.2022;28.02.2022;917;letter;Non Research Article;optin
+24;Universität Mannheim;Publizistik;1862-2569;10.1007/s11616-021-00712-w;https://doi.org/10.1007/s11616-021-00712-w;11.01.2022;22.12.2021;917;bookreview;Non Research Article;optin
+25;Universität Mannheim;Politische Vierteljahresschrift;1862-2860;10.1007/s11615-022-00404-8;https://doi.org/10.1007/s11615-022-00404-8;13.06.2022;18.05.2022;2750;originalpaper;Research Article;optin
+26;Universität Mannheim;Business & Information Systems Engineering;1867-0202;10.1007/s12599-022-00750-2;https://doi.org/10.1007/s12599-022-00750-2;22.04.2022;28.02.2022;2750;originalpaper;Research Article;optin
+27;Universität Mannheim;Politische Vierteljahresschrift;1862-2860;10.1007/s11615-022-00414-6;https://doi.org/10.1007/s11615-022-00414-6;11.08.2022;21.06.2022;2750;originalpaper;Research Article;optin
+28;Universität Mannheim;Journal of Algebraic Combinatorics;1572-9192;10.1007/s10801-022-01138-x;https://doi.org/10.1007/s10801-022-01138-x;09.05.2022;11.04.2022;2750;originalpaper;Research Article;optin
+29;Universität Mannheim;Philosophia;1574-9274;10.1007/s11406-022-00511-1;https://doi.org/10.1007/s11406-022-00511-1;20.04.2022;21.03.2022;917;bookreview;Non Research Article;optin
+30;Universität Mannheim;Erkenntnis;1572-8420;10.1007/s10670-022-00618-7;https://doi.org/10.1007/s10670-022-00618-7;18.11.2022;10.08.2022;2750;originalpaper;Research Article;optin
+31;Universität Mannheim;Synthese;1573-0964;10.1007/s11229-022-03634-w;https://doi.org/10.1007/s11229-022-03634-w;11.04.2022;21.02.2022;2750;originalpaper;Research Article;optin
+32;Universität Mannheim;Journal of the Academy of Marketing Science;1552-7824;10.1007/s11747-022-00858-7;https://doi.org/10.1007/s11747-022-00858-7;20.04.2022;03.03.2022;2750;originalpaper;Research Article;optin
+33;Universität Mannheim;Educational Psychology Review;1573-336X;10.1007/s10648-021-09650-5;https://doi.org/10.1007/s10648-021-09650-5;06.01.2022;28.11.2021;2750;originalpaper;Research Article;optin
+34;Universität Mannheim;Quality & Quantity;1573-7845;10.1007/s11135-022-01517-3;https://doi.org/10.1007/s11135-022-01517-3;07.09.2022;11.08.2022;2750;originalpaper;Research Article;optin

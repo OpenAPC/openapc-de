@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 95,362 articles, published at 366 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 96,306 articles, published at 371 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 95,362 articles, published at 366 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     7382|
-|DEAL Wiley Germany                               |     6549|
+|DEAL Springer Nature Germany                     |     7763|
+|DEAL Wiley Germany                               |     7112|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -208,6 +208,7 @@ This dataset contains information on 95,362 articles, published at 366 instituti
 |TU Darmstadt                                                                                                                                       |      445|
 |Erlangen Nuernberg U                                                                                                                               |      439|
 |University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
+|KIT                                                                                                                                                |      431|
 |University of Leeds                                                                                                                                |      428|
 |VU University Amsterdam                                                                                                                            |      426|
 |Hannover U und TIB                                                                                                                                 |      413|
@@ -277,8 +278,11 @@ This dataset contains information on 95,362 articles, published at 366 instituti
 |University of Sussex                                                                                                                               |      168|
 |University of Vaasa                                                                                                                                |      167|
 |LSE                                                                                                                                                |      166|
+|Dortmund TU                                                                                                                                        |      165|
 |University of East Anglia                                                                                                                          |      164|
 |Natural Resources Institute Finland                                                                                                                |      163|
+|Bayreuth U                                                                                                                                         |      162|
+|Mannheim U                                                                                                                                         |      162|
 |Università della Svizzera italiana                                                                                                                 |      162|
 |Lancaster University                                                                                                                               |      155|
 |Agroscope                                                                                                                                          |      154|
@@ -292,12 +296,12 @@ This dataset contains information on 95,362 articles, published at 366 instituti
 |Johannes Kepler University Linz                                                                                                                    |      130|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
+|Konstanz U                                                                                                                                         |      118|
 |Paracelsus Medical University                                                                                                                      |      116|
 |University of Dundee                                                                                                                               |      115|
 |GFZ-Potsdam                                                                                                                                        |      112|
 |University of Applied Sciences and Arts Northwestern Switzerland                                                                                   |      111|
 |Northumbria University                                                                                                                             |      109|
-|Mannheim U                                                                                                                                         |      108|
 |University of Surrey                                                                                                                               |      107|
 |Montanuniversität Leoben                                                                                                                           |      105|
 |Bern University of Applied Sciences                                                                                                                |      104|
@@ -405,6 +409,7 @@ This dataset contains information on 95,362 articles, published at 366 instituti
 |Finnish Meteorological Institute                                                                                                                   |       17|
 |Bielefeld FH                                                                                                                                       |       16|
 |National Land Survey of Finland                                                                                                                    |       15|
+|Leibniz-IPK                                                                                                                                        |       14|
 |Swiss Federal University for Vocational Education and Training                                                                                     |       14|
 |Birmingham City University                                                                                                                         |       13|
 |TU Clausthal                                                                                                                                       |       13|
