@@ -712,6 +712,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1755-0238", # Australian Journal of Grape and Wine Research, Gold OA since 2022
     "1524-4741", # The Breast Journal, Gold OA since 2022
     "1753-8947", # International Journal of Digital Earth, Gold OA since 2022
+    "2510-2036", # Computing and Software for Big Science, Gold OA since 2023
+    "2510-2044", # Computing and Software for Big Science, Gold OA since 2023 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
