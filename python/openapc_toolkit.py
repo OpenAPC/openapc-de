@@ -1111,10 +1111,15 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
                 if article["euro"] == 'NA':
                     print_r("Article skipped, no APC amount found.")
                     continue
-                if _auto_atof(article["euro"]) <= 0.0:
+                euro_float = _auto_atof(article["euro"])
+                if euro_float <= 0.0:
                     msg = "Article skipped, non-positive APC amount found ({})."
                     print_r(msg.format(article['euro']))
                     continue
+                if euro_float.is_integer():
+                     article["euro"] = str(int(euro_float))
+                else:
+                    article["euro"] = str(euro_float)
                 if article["doi"] != "NA":
                     norm_doi = get_normalised_DOI(article["doi"])
                     if norm_doi is None:
