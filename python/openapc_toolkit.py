@@ -1022,7 +1022,7 @@ def _auto_atof(str_value):
     locale.setlocale(locale.LC_NUMERIC, old_locale)
     return float_value
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None):
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, print_record_links=False):
     """
     Harvest OpenAPC records via OAI-PMH
     """
@@ -1053,6 +1053,9 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         else:
             print_r("Error: Unable to parse processing instruction!")
             processing = None
+    record_url = basic_url + "?verb=GetRecord"
+    if metadata_prefix:
+        record_url += "&metadataPrefix=" + metadata_prefix
     print_b("Harvesting from " + url)
     articles = []
     file_output = ""
@@ -1070,6 +1073,9 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
             for record in records:
                 article = {}
                 identifier = record.find(identifier_xpath, namespaces)
+                if print_record_links:
+                    link = record_url + "&identifier=" + identifier.text
+                    print_c("[" + link + "]")
                 article["identifier"] = identifier.text
                 collection = record.find(collection_xpath, namespaces)
                 if collection is None:
