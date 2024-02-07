@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 96,306 articles, published at 371 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 96,322 articles, published at 372 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 96,306 articles, published at 371 instituti
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Springer Nature Germany                     |     7763|
-|DEAL Wiley Germany                               |     7112|
+|DEAL Springer Nature Germany                     |     7773|
+|DEAL Wiley Germany                               |     7118|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -408,6 +408,7 @@ This dataset contains information on 96,306 articles, published at 371 instituti
 |Fachhochschule Südwestfalen                                                                                                                        |       17|
 |Finnish Meteorological Institute                                                                                                                   |       17|
 |Bielefeld FH                                                                                                                                       |       16|
+|GESIS                                                                                                                                              |       16|
 |National Land Survey of Finland                                                                                                                    |       15|
 |Leibniz-IPK                                                                                                                                        |       14|
 |Swiss Federal University for Vocational Education and Training                                                                                     |       14|
