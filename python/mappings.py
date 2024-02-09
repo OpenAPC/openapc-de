@@ -747,8 +747,8 @@ COLUMN_NAMES = {
 }
 
 HYBRID_STATUS = {
-    "TRUE": ["true", "hybrid", "hybride", "wahr", "yes", "ja", "1"],
-    "FALSE": ["false", "full open", "falsch", "no", "gold_paid", "nein", "0"]
+    "TRUE": ["true", "hybrid", "hybride", "wahr", "yes", "ja", "1", "vero"],
+    "FALSE": ["false", "full open", "falsch", "no", "gold_paid", "nein", "0", "falso"]
 }
 
 ISSN_L_CORRECTIONS = {
