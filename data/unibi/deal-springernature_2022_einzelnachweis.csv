@@ -1,0 +1,100 @@
+pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;article_type;article_group;initial_opt-out
+1;Universität Bielefeld;Discrete & Computational Geometry;1432-0444;10.1007/s00454-022-00387-8;https://doi.org/10.1007/s00454-022-00387-8;11.05.2022;03.12.2021;2750;originalpaper;Research Article;optin
+2;Universität Bielefeld;Philosophical Studies;1573-0883;10.1007/s11098-022-01850-1;https://doi.org/10.1007/s11098-022-01850-1;25.08.2022;30.05.2022;2750;originalpaper;Research Article;optin
+3;Universität Bielefeld;KI - Künstliche Intelligenz;1610-1987;10.1007/s13218-022-00773-7;https://doi.org/10.1007/s13218-022-00773-7;09.09.2022;03.08.2022;917;editorialnotes;Non Research Article;optout
+4;Universität Bielefeld;Herzschrittmachertherapie + Elektrophysiologie;1435-1544;10.1007/s00399-022-00872-w;https://doi.org/10.1007/s00399-022-00872-w;28.06.2022;30.05.2022;2750;reviewpaper;Research Article;optin
+5;Universität Bielefeld;Numerische Mathematik;0945-3245;10.1007/s00211-022-01343-7;https://doi.org/10.1007/s00211-022-01343-7;31.12.2022;11.12.2022;2750;originalpaper;Research Article;optin
+6;Universität Bielefeld;Positivity;1572-9281;10.1007/s11117-022-00930-0;https://doi.org/10.1007/s11117-022-00930-0;26.07.2022;27.06.2022;2750;originalpaper;Research Article;optin
+7;Universität Bielefeld;Applied Categorical Structures;1572-9095;10.1007/s10485-022-09707-8;https://doi.org/10.1007/s10485-022-09707-8;27.12.2022;28.10.2022;2750;originalpaper;Research Article;optout
+8;Universität Bielefeld;Algebras and Representation Theory;1572-9079;10.1007/s10468-022-10120-x;https://doi.org/10.1007/s10468-022-10120-x;24.03.2022;23.01.2022;2750;originalpaper;Research Article;optin
+9;Universität Bielefeld;Journal of Evolution Equations;1424-3202;10.1007/s00028-022-00807-5;https://doi.org/10.1007/s00028-022-00807-5;06.06.2022;21.04.2022;2750;originalpaper;Research Article;optin
+10;Universität Bielefeld;Empirical Economics;1435-8921;10.1007/s00181-022-02284-8;https://doi.org/10.1007/s00181-022-02284-8;12.08.2022;11.07.2022;2750;originalpaper;Research Article;optin
+11;Universität Bielefeld;Cognitive Processing;1612-4790;10.1007/s10339-022-01078-1;https://doi.org/10.1007/s10339-022-01078-1;28.02.2022;25.01.2022;2750;originalpaper;Research Article;optin
+12;Universität Bielefeld;Behavior Research Methods;1554-3528;10.3758/s13428-022-01902-8;https://doi.org/10.3758/s13428-022-01902-8;24.08.2022;03.06.2022;2750;originalpaper;Research Article;optin
+13;Universität Bielefeld;Journal of Comparative Physiology A;1432-1351;10.1007/s00359-022-01564-z;https://doi.org/10.1007/s00359-022-01564-z;20.08.2022;02.08.2022;2750;originalpaper;Research Article;optin
+14;Universität Bielefeld;Archiv der Mathematik;1420-8938;10.1007/s00013-022-01800-7;https://doi.org/10.1007/s00013-022-01800-7;09.12.2022;06.10.2022;2750;originalpaper;Research Article;optin
+15;Universität Bielefeld;Natur und Recht;1439-0515;10.1007/s10357-021-3944-x;https://doi.org/10.1007/s10357-021-3944-x;19.01.2022;;2750;originalpaper;Research Article;optin
+16;Universität Bielefeld;Colloid and Polymer Science;1435-1536;10.1007/s00396-022-04950-w;https://doi.org/10.1007/s00396-022-04950-w;21.02.2022;13.01.2022;2750;originalpaper;Research Article;optin
+17;Universität Bielefeld;German Journal of Exercise and Sport Research;2509-3150;10.1007/s12662-022-00801-6;https://doi.org/10.1007/s12662-022-00801-6;18.03.2022;15.02.2022;2750;originalpaper;Research Article;optin
+18;Universität Bielefeld;Neural Processing Letters;1573-773X;10.1007/s11063-022-10826-5;https://doi.org/10.1007/s11063-022-10826-5;04.05.2022;04.04.2022;2750;originalpaper;Research Article;optin
+19;Universität Bielefeld;Numerische Mathematik;0945-3245;10.1007/s00211-022-01303-1;https://doi.org/10.1007/s00211-022-01303-1;30.06.2022;15.06.2022;2750;originalpaper;Research Article;optin
+20;Universität Bielefeld;Partial Differential Equations and Applications;2662-2971;10.1007/s42985-022-00213-z;https://doi.org/10.1007/s42985-022-00213-z;24.10.2022;02.10.2022;2750;originalpaper;Research Article;optin
+21;Universität Bielefeld;Forum Kinder- und Jugendsport;2730-7220;10.1007/s43594-022-00061-0;https://doi.org/10.1007/s43594-022-00061-0;29.03.2022;07.12.2021;2750;originalpaper;Research Article;optin
+22;Universität Bielefeld;Synthese;1573-0964;10.1007/s11229-022-03551-y;https://doi.org/10.1007/s11229-022-03551-y;11.04.2022;06.01.2022;2750;originalpaper;Research Article;optin
+23;Universität Bielefeld;BioSpektrum;1868-6249;10.1007/s12268-022-1849-8;https://doi.org/10.1007/s12268-022-1849-8;11.10.2022;;917;editorialnotes;Non Research Article;optin
+24;Universität Bielefeld;Behavior Genetics;1573-3297;10.1007/s10519-022-10125-8;https://doi.org/10.1007/s10519-022-10125-8;03.11.2022;22.10.2022;2750;originalpaper;Research Article;optin
+25;Universität Bielefeld;The Journal of Geometric Analysis;1559-002X;10.1007/s12220-022-01051-6;https://doi.org/10.1007/s12220-022-01051-6;23.09.2022;17.08.2022;2750;originalpaper;Research Article;optin
+26;Universität Bielefeld;Synthese;1573-0964;10.1007/s11229-022-03838-0;https://doi.org/10.1007/s11229-022-03838-0;22.08.2022;29.07.2022;2750;originalpaper;Research Article;optin
+27;Universität Bielefeld;Inventiones Mathematicae;1432-1297;10.1007/s00222-021-01086-6;https://doi.org/10.1007/s00222-021-01086-6;31.01.2022;16.09.2021;2750;originalpaper;Research Article;optin
+28;Universität Bielefeld;Probability Theory and Related Fields;1432-2064;10.1007/s00440-022-01144-x;https://doi.org/10.1007/s00440-022-01144-x;17.06.2022;07.05.2022;2750;originalpaper;Research Article;optin
+29;Universität Bielefeld;Soziale Passagen;1867-0199;10.1007/s12592-022-00422-8;https://doi.org/10.1007/s12592-022-00422-8;09.08.2022;07.07.2022;917;editorialnotes;Non Research Article;optin
+30;Universität Bielefeld;Social Psychiatry and Psychiatric Epidemiology;1433-9285;10.1007/s00127-021-02214-6;https://doi.org/10.1007/s00127-021-02214-6;18.01.2022;05.12.2021;2750;originalpaper;Research Article;optin
+31;Universität Bielefeld;Journal of Evolutionary Economics;1432-1386;10.1007/s00191-022-00803-5;https://doi.org/10.1007/s00191-022-00803-5;27.12.2022;15.11.2022;2750;originalpaper;Research Article;optin
+32;Universität Bielefeld;Soziale Passagen;1867-0199;10.1007/s12592-022-00421-9;https://doi.org/10.1007/s12592-022-00421-9;15.08.2022;07.07.2022;917;editorialnotes;Non Research Article;optin
+33;Universität Bielefeld;Current Psychology;1936-4733;10.1007/s12144-022-03578-x;https://doi.org/10.1007/s12144-022-03578-x;10.08.2022;26.07.2022;2750;originalpaper;Research Article;optin
+34;Universität Bielefeld;Herzschrittmachertherapie + Elektrophysiologie;1435-1544;10.1007/s00399-022-00906-3;https://doi.org/10.1007/s00399-022-00906-3;25.10.2022;23.09.2022;2750;reviewpaper;Research Article;optin
+35;Universität Bielefeld;Ethik in der Medizin;1437-1618;10.1007/s00481-022-00688-9;https://doi.org/10.1007/s00481-022-00688-9;04.04.2022;09.03.2022;917;report;Non Research Article;optin
+36;Universität Bielefeld;Synthese;1573-0964;10.1007/s11229-022-03943-0;https://doi.org/10.1007/s11229-022-03943-0;17.12.2022;19.10.2022;2750;originalpaper;Research Article;optout
+37;Universität Bielefeld;PharmacoEconomics;1179-2027;10.1007/s40273-022-01143-9;https://doi.org/10.1007/s40273-022-01143-9;23.05.2022;21.03.2022;2750;originalpaper;Research Article;optin
+38;Universität Bielefeld;Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz;1437-1588;10.1007/s00103-022-03614-y;https://doi.org/10.1007/s00103-022-03614-y;29.11.2022;14.10.2022;2750;originalpaper;Research Article;optin
+39;Universität Bielefeld;Ethik in der Medizin;1437-1618;10.1007/s00481-022-00734-6;https://doi.org/10.1007/s00481-022-00734-6;01.12.2022;26.10.2022;2750;originalpaper;Research Article;optin
+40;Universität Bielefeld;KI - Künstliche Intelligenz;1610-1987;10.1007/s13218-022-00788-0;https://doi.org/10.1007/s13218-022-00788-0;02.12.2022;23.11.2022;917;editorialnotes;Non Research Article;optin
+41;Universität Bielefeld;Journal of Religion and Health;1573-6571;10.1007/s10943-022-01632-3;https://doi.org/10.1007/s10943-022-01632-3;20.08.2022;05.08.2022;2750;originalpaper;Research Article;optin
+42;Universität Bielefeld;Dynamic Games and Applications;2153-0793;10.1007/s13235-022-00474-8;https://doi.org/10.1007/s13235-022-00474-8;05.09.2022;07.08.2022;2750;originalpaper;Research Article;optin
+43;Universität Bielefeld;Natur und Recht;1439-0515;10.1007/s10357-022-4101-x;https://doi.org/10.1007/s10357-022-4101-x;16.12.2022;;2750;originalpaper;Research Article;optin
+44;Universität Bielefeld;Fractional Calculus and Applied Analysis;1314-2224;10.1007/s13540-021-00001-3;https://doi.org/10.1007/s13540-021-00001-3;07.02.2022;06.10.2021;2750;reviewpaper;Research Article;optin
+45;Universität Bielefeld;Systems Microbiology and Biomanufacturing;2662-7663;10.1007/s43393-022-00141-4;https://doi.org/10.1007/s43393-022-00141-4;14.10.2022;30.09.2022;2750;reviewpaper;Research Article;optin
+46;Universität Bielefeld;Heredity;1365-2540;10.1038/s41437-022-00558-6;https://doi.org/10.1038/s41437-022-00558-6;02.09.2022;28.07.2022;2750;originalpaper;Research Article;optin
+47;Universität Bielefeld;Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz;1437-1588;10.1007/s00103-022-03546-7;https://doi.org/10.1007/s00103-022-03546-7;30.05.2022;05.05.2022;2750;originalpaper;Research Article;optin
+48;Universität Bielefeld;Zeitschrift für Friedens- und Konfliktforschung;2524-6976;10.1007/s42597-022-00072-w;https://doi.org/10.1007/s42597-022-00072-w;14.04.2022;30.03.2022;917;letter;Non Research Article;optin
+49;Universität Bielefeld;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00796-x;https://doi.org/10.1007/s11613-022-00796-x;05.12.2022;30.09.2022;2750;originalpaper;Research Article;optin
+50;Universität Bielefeld;Mathematische Annalen;1432-1807;10.1007/s00208-022-02405-9;https://doi.org/10.1007/s00208-022-02405-9;06.05.2022;05.04.2022;2750;originalpaper;Research Article;optin
+51;Universität Bielefeld;Journal of Economic Interaction and Coordination;1860-7128;10.1007/s11403-022-00369-2;https://doi.org/10.1007/s11403-022-00369-2;28.10.2022;07.09.2022;2750;originalpaper;Research Article;optin
+52;Universität Bielefeld;Applied Microbiology and Biotechnology;1432-0614;10.1007/s00253-022-11861-x;https://doi.org/10.1007/s00253-022-11861-x;21.03.2022;26.02.2022;2750;originalpaper;Research Article;optin
+53;Universität Bielefeld;Mathematische Annalen;1432-1807;10.1007/s00208-022-02369-w;https://doi.org/10.1007/s00208-022-02369-w;21.02.2022;25.01.2022;2750;originalpaper;Research Article;optin
+54;Universität Bielefeld;Zeitschrift für Grundschulforschung;2523-3181;10.1007/s42278-022-00152-z;https://doi.org/10.1007/s42278-022-00152-z;10.06.2022;25.05.2022;917;editorialnotes;Non Research Article;optin
+55;Universität Bielefeld;ZDM – Mathematics Education;1863-9704;10.1007/s11858-022-01361-7;https://doi.org/10.1007/s11858-022-01361-7;29.04.2022;30.03.2022;2750;originalpaper;Research Article;optin
+56;Universität Bielefeld;Zeitschrift für Religion, Gesellschaft und Politik;2510-1226;10.1007/s41682-022-00129-w;https://doi.org/10.1007/s41682-022-00129-w;23.09.2022;05.08.2022;2750;originalpaper;Research Article;optin
+57;Universität Bielefeld;Die Anaesthesiologie;2731-6866;10.1007/s00101-022-01204-w;https://doi.org/10.1007/s00101-022-01204-w;27.09.2022;28.08.2022;2750;reviewpaper;Research Article;optin
+58;Universität Bielefeld;Communications in Mathematical Physics;1432-0916;10.1007/s00220-022-04414-w;https://doi.org/10.1007/s00220-022-04414-w;16.06.2022;02.05.2022;2750;originalpaper;Research Article;optout
+59;Universität Bielefeld;Experimental Brain Research;1432-1106;10.1007/s00221-022-06491-8;https://doi.org/10.1007/s00221-022-06491-8;25.10.2022;14.10.2022;2750;originalpaper;Research Article;optin
+60;Universität Bielefeld;Sexuality Research and Social Policy;1553-6610;10.1007/s13178-022-00705-y;https://doi.org/10.1007/s13178-022-00705-y;29.03.2022;25.02.2022;2750;originalpaper;Research Article;optin
+61;Universität Bielefeld;Vietnam Journal of Mathematics;2305-2228;10.1007/s10013-022-00577-0;https://doi.org/10.1007/s10013-022-00577-0;15.09.2022;05.04.2022;2750;originalpaper;Research Article;optin
+62;Universität Bielefeld;Child Psychiatry & Human Development;1573-3327;10.1007/s10578-022-01324-9;https://doi.org/10.1007/s10578-022-01324-9;03.03.2022;30.01.2022;2750;originalpaper;Research Article;optin
+63;Universität Bielefeld;Higher Education;1573-174X;10.1007/s10734-022-00928-3;https://doi.org/10.1007/s10734-022-00928-3;05.10.2022;12.09.2022;2750;originalpaper;Research Article;optin
+64;Universität Bielefeld;Metacognition and Learning;1556-1631;10.1007/s11409-022-09307-w;https://doi.org/10.1007/s11409-022-09307-w;08.06.2022;16.05.2022;2750;originalpaper;Research Article;optin
+65;Universität Bielefeld;Prävention und Gesundheitsförderung;1861-6763;10.1007/s11553-022-00978-6;https://doi.org/10.1007/s11553-022-00978-6;14.09.2022;14.08.2022;2750;originalpaper;Research Article;optin
+66;Universität Bielefeld;Zeitschrift für Gerontologie und Geriatrie;1435-1269;10.1007/s00391-022-02132-5;https://doi.org/10.1007/s00391-022-02132-5;07.11.2022;17.10.2022;2750;originalpaper;Research Article;optin
+67;Universität Bielefeld;Natur und Recht;1439-0515;10.1007/s10357-021-3947-7;https://doi.org/10.1007/s10357-021-3947-7;19.01.2022;;2750;originalpaper;Research Article;optin
+68;Universität Bielefeld;Neural Computing and Applications;1433-3058;10.1007/s00521-022-08115-2;https://doi.org/10.1007/s00521-022-08115-2;16.12.2022;23.11.2022;2750;originalpaper;Research Article;optin
+69;Universität Bielefeld;Journal of Scientific Computing;1573-7691;10.1007/s10915-022-01892-x;https://doi.org/10.1007/s10915-022-01892-x;04.07.2022;11.05.2022;2750;originalpaper;Research Article;optin
+70;Universität Bielefeld;Journal of International Migration and Integration;1874-6365;10.1007/s12134-022-00958-x;https://doi.org/10.1007/s12134-022-00958-x;26.04.2022;07.04.2022;2750;originalpaper;Research Article;optin
+71;Universität Bielefeld;Annals of Operations Research;1572-9338;10.1007/s10479-022-04921-y;https://doi.org/10.1007/s10479-022-04921-y;27.08.2022;02.08.2022;2750;originalpaper;Research Article;optin
+72;Universität Bielefeld;Journal of Statistical Physics;1572-9613;10.1007/s10955-022-02879-6;https://doi.org/10.1007/s10955-022-02879-6;25.01.2022;01.01.2022;2750;originalpaper;Research Article;optin
+73;Universität Bielefeld;World Journal of Microbiology and Biotechnology;1573-0972;10.1007/s11274-022-03242-3;https://doi.org/10.1007/s11274-022-03242-3;18.02.2022;30.01.2022;2750;reviewpaper;Research Article;optin
+74;Universität Bielefeld;Calculus of Variations and Partial Differential Equations;1432-0835;10.1007/s00526-022-02364-8;https://doi.org/10.1007/s00526-022-02364-8;14.10.2022;01.10.2022;2750;originalpaper;Research Article;optin
+75;Universität Bielefeld;Journal of Chemical Ecology;1573-1561;10.1007/s10886-022-01392-0;https://doi.org/10.1007/s10886-022-01392-0;19.11.2022;07.11.2022;2750;originalpaper;Research Article;optin
+76;Universität Bielefeld;AI and Ethics;2730-5961;10.1007/s43681-022-00172-6;https://doi.org/10.1007/s43681-022-00172-6;30.05.2022;06.05.2022;2750;originalpaper;Research Article;optin
+77;Universität Bielefeld;Informatik Spektrum;1432-122X;10.1007/s00287-022-01449-0;https://doi.org/10.1007/s00287-022-01449-0;11.04.2022;14.11.2021;2750;originalpaper;Research Article;optin
+78;Universität Bielefeld;Child Indicators Research;1874-8988;10.1007/s12187-022-09914-8;https://doi.org/10.1007/s12187-022-09914-8;18.01.2022;07.01.2022;2750;originalpaper;Research Article;optin
+79;Universität Bielefeld;Zeitschrift für Grundschulforschung;2523-3181;10.1007/s42278-021-00128-5;https://doi.org/10.1007/s42278-021-00128-5;21.01.2022;19.04.2021;2750;originalpaper;Research Article;optin
+80;Universität Bielefeld;Potential Analysis;1572-929X;10.1007/s11118-021-09976-3;https://doi.org/10.1007/s11118-021-09976-3;10.01.2022;02.12.2021;2750;originalpaper;Research Article;optin
+81;Universität Bielefeld;Probability Theory and Related Fields;1432-2064;10.1007/s00440-022-01137-w;https://doi.org/10.1007/s00440-022-01137-w;13.05.2022;16.04.2022;2750;originalpaper;Research Article;optout
+82;Universität Bielefeld;Metascience;1467-9981;10.1007/s11016-022-00789-7;https://doi.org/10.1007/s11016-022-00789-7;11.08.2022;25.07.2022;917;bookreview;Non Research Article;optin
+83;Universität Bielefeld;Soziale Passagen;1867-0199;10.1007/s12592-022-00427-3;https://doi.org/10.1007/s12592-022-00427-3;30.09.2022;18.08.2022;2750;originalpaper;Research Article;optin
+84;Universität Bielefeld;Forum Kinder- und Jugendsport;2730-7220;10.1007/s43594-022-00071-y;https://doi.org/10.1007/s43594-022-00071-y;16.09.2022;20.06.2022;2750;originalpaper;Research Article;optin
+85;Universität Bielefeld;Economics of Governance;1435-8131;10.1007/s10101-022-00275-0;https://doi.org/10.1007/s10101-022-00275-0;07.07.2022;16.06.2022;2750;originalpaper;Research Article;optin
+86;Universität Bielefeld;European Journal of Psychology of Education;1878-5174;10.1007/s10212-022-00604-1;https://doi.org/10.1007/s10212-022-00604-1;05.03.2022;02.02.2022;2750;originalpaper;Research Article;optin
+87;Universität Bielefeld;Theory and Society;1573-7853;10.1007/s11186-022-09503-2;https://doi.org/10.1007/s11186-022-09503-2;21.10.2022;23.08.2022;2750;originalpaper;Research Article;optin
+88;Universität Bielefeld;Review of World Economics;1610-2886;10.1007/s10290-022-00461-6;https://doi.org/10.1007/s10290-022-00461-6;27.06.2022;26.02.2022;2750;originalpaper;Research Article;optin
+89;Universität Bielefeld;Metacognition and Learning;1556-1631;10.1007/s11409-021-09288-2;https://doi.org/10.1007/s11409-021-09288-2;20.01.2022;06.12.2021;2750;originalpaper;Research Article;optin
+90;Universität Bielefeld;Journal of Statistical Physics;1572-9613;10.1007/s10955-022-03005-2;https://doi.org/10.1007/s10955-022-03005-2;31.10.2022;24.09.2022;2750;originalpaper;Research Article;optin
+91;Universität Bielefeld;Die Ophthalmologie;2731-7218;10.1007/s00347-022-01652-0;https://doi.org/10.1007/s00347-022-01652-0;25.05.2022;23.04.2022;2750;briefcommunication;Research Article;optin
+92;Universität Bielefeld;Current Oncology Reports;1534-6269;10.1007/s11912-022-01263-7;https://doi.org/10.1007/s11912-022-01263-7;26.03.2022;30.01.2022;2750;reviewpaper;Research Article;optin
+93;Universität Bielefeld;Potential Analysis;1572-929X;10.1007/s11118-022-10044-7;https://doi.org/10.1007/s11118-022-10044-7;30.09.2022;17.09.2022;2750;originalpaper;Research Article;optin
+94;Universität Bielefeld;Berliner Journal für Soziologie;1862-2593;10.1007/s11609-022-00484-8;https://doi.org/10.1007/s11609-022-00484-8;26.10.2022;05.09.2022;2750;briefcommunication;Research Article;optin
+95;Universität Bielefeld;European Journal for Philosophy of Science;1879-4920;10.1007/s13194-022-00502-9;https://doi.org/10.1007/s13194-022-00502-9;13.12.2022;26.11.2022;2750;originalpaper;Research Article;optin
+96;Universität Bielefeld;KI - Künstliche Intelligenz;1610-1987;10.1007/s13218-022-00786-2;https://doi.org/10.1007/s13218-022-00786-2;07.12.2022;21.11.2022;2750;originalpaper;Research Article;optin
+97;Universität Bielefeld;Experimental Brain Research;1432-1106;10.1007/s00221-022-06443-2;https://doi.org/10.1007/s00221-022-06443-2;17.09.2022;13.08.2022;2750;originalpaper;Research Article;optin
+98;Universität Bielefeld;Zeitschrift für Erziehungswissenschaft;1862-5215;10.1007/s11618-022-01129-5;https://doi.org/10.1007/s11618-022-01129-5;12.10.2022;12.07.2022;2750;originalpaper;Research Article;optin
+99;Universität Bielefeld;Soziale Passagen;1867-0199;10.1007/s12592-022-00419-3;https://doi.org/10.1007/s12592-022-00419-3;09.08.2022;22.06.2022;2750;originalpaper;Research Article;optin
