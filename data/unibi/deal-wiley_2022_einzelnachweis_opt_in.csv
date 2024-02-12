@@ -3,10 +3,8 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 2;Universität Bielefeld;EUROPEAN JOURNAL OF INORGANIC CHEMISTRY;1099-0682;10.1002/ejic.202101083;https://doi.org/10.1002/ejic.202101083;01.03.2022;2750;optin
 3;Universität Bielefeld;ACTA CRYSTALLOGRAPHICA SECTION D: STRUCTURAL BIOLOGY;2059-7983;10.1107/S2059798322000432;https://doi.org/10.1107/S2059798322000432;11.01.2022;2750;optin
 4;Universität Bielefeld;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202201065;https://doi.org/10.1002/admi.202201065;12.09.2022;2750;optin
-5;Universität Bielefeld;ETHOLOGY;1439-0310;10.1111/eth.13341;https://doi.org/10.1111/eth.13341;03.10.2022;2750;optout
 6;Universität Bielefeld;WILEY INTERDISCIPLINARY REVIEWS: COGNITIVE SCIENCE;1939-5086;10.1002/wcs.1617;https://doi.org/10.1002/wcs.1617;02.07.2022;2750;optin
 7;Universität Bielefeld;JOURNAL OF ZOOLOGY;1469-7998;10.1111/jzo.13039;https://doi.org/10.1111/jzo.13039;10.11.2022;2750;optin
-8;Universität Bielefeld;CHEMISTRY & BIODIVERSITY;1612-1880;10.1002/cbdv.202101033;https://doi.org/10.1002/cbdv.202101033;16.05.2022;2750;optout
 9;Universität Bielefeld;NEW PHYTOLOGIST;1469-8137;10.1111/nph.18075;https://doi.org/10.1111/nph.18075;09.02.2022;2750;optin
 10;Universität Bielefeld;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202215093;https://doi.org/10.1002/anie.202215093;12.12.2022;2750;optin
 11;Universität Bielefeld;EUROPEAN JOURNAL OF ORGANIC CHEMISTRY;1099-0690;10.1002/ejoc.202101035;https://doi.org/10.1002/ejoc.202101035;03.01.2022;2750;optin
@@ -57,7 +55,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 56;Universität Bielefeld;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202203476;https://doi.org/10.1002/chem.202203476;30.11.2022;2750;optin
 57;Universität Bielefeld;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202213056;https://doi.org/10.1002/anie.202213056;05.10.2022;2750;optin
 58;Universität Bielefeld;SMALL;1613-6829;10.1002/smll.202205602;https://doi.org/10.1002/smll.202205602;27.11.2022;2750;optin
-59;Universität Bielefeld;SOCIOLOGICAL FORUM;1573-7861;10.1111/socf.12805;https://doi.org/10.1111/socf.12805;07.02.2022;2750;optout
 60;Universität Bielefeld;ADVANCED ELECTRONIC MATERIALS;2199-160X;10.1002/aelm.202200082;https://doi.org/10.1002/aelm.202200082;20.04.2022;2750;optin
 61;Universität Bielefeld;JOURNAL OF SLEEP RESEARCH;1365-2869;10.1111/jsr.13591;https://doi.org/10.1111/jsr.13591;08.03.2022;2750;optin
 62;Universität Bielefeld;JOURNAL OF APPLIED POLYMER SCIENCE;1097-4628;10.1002/app.53313;https://doi.org/10.1002/app.53313;27.09.2022;2750;optin
