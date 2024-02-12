@@ -37,12 +37,20 @@ DATA_FILES = {
 
 KNOWN_DUPLICATES = {
     "apc": {
-        "file_path": "data/unresolved_duplicates.csv",
-        "doi_list": [],
+		"unresolved_duplicates": {
+			"file_path": "data/unresolved_duplicates.csv",
+			"doi_list": [],
+		},
+        "apc_cofunding": {
+			"file_path": "data/apc_cofunding.csv",
+			"doi_list": [],
+        },
     },
     "bpc": {
-        "file_path": "data/unresolved_bpc_duplicates.csv",
-        "doi_list": [],
+		"unresolved_bpc_duplicates": {
+			"file_path": "data/unresolved_bpc_duplicates.csv",
+			"doi_list": [],
+		},
     }
 }
 
@@ -56,8 +64,9 @@ if __name__ == '__main__':
     ISBNHANDLING = oat.ISBNHandling("ISBNRangeFile.xml")
     for data_file, metadata in DATA_FILES.items():
         metadata["file_path"] = join("..", "..", metadata["file_path"])
-    for _, metadata in KNOWN_DUPLICATES.items():
-        metadata["file_path"] = join("..", "..", metadata["file_path"])
+    for _, file_dict in KNOWN_DUPLICATES.items():
+        for _, metadata in file_dict.items():
+            metadata["file_path"] = join("..", "..", metadata["file_path"])
 
     def fail(msg):
         oat.print_r(msg)
@@ -162,12 +171,13 @@ for data_file, metadata in DATA_FILES.items():
                 global_isbn_list += isbn_list
             line += 1
 
-for _, metadata in KNOWN_DUPLICATES.items():
-    with open(metadata["file_path"], "r") as csv_file:
-        reader = DictReader(csv_file)
-        for row in reader:
-            if row["doi"] not in metadata["doi_list"]:
-                metadata["doi_list"].append(row["doi"])
+for _, file_dict in KNOWN_DUPLICATES.items():
+    for _, metadata in file_dict.items():
+        with open(metadata["file_path"], "r") as csv_file:
+            reader = DictReader(csv_file)
+            for row in reader:
+                if row["doi"] not in metadata["doi_list"]:
+                    metadata["doi_list"].append(row["doi"])
 
 def check_line_length(row_object):
     __tracebackhide__ = True
@@ -315,11 +325,12 @@ def check_for_doi_duplicates(row_object):
         if doi in global_doi_list:
             fail(line_str + 'Duplicate: DOI "' + doi + '" was ' +
                         'encountered more than one time')
-        for origin in ["apc", "bpc"]:
-            if row_object.origin == origin and doi in KNOWN_DUPLICATES[origin]["doi_list"]:
-                msg = 'DOI "{}" is listed in {} and should not appear in {}'
-                msg = msg.format(doi, KNOWN_DUPLICATES[origin]["file_path"], DATA_FILES[origin]["file_path"])
-                fail(line_str + msg)
+        if row_object.origin in KNOWN_DUPLICATES:
+            for dup_file_name, file_dict in KNOWN_DUPLICATES[row_object.origin].items():
+                if doi in file_dict["doi_list"]:
+                    msg = 'DOI "{}" is listed in {} and should not appear in {}'
+                    msg = msg.format(doi, dup_file_name, DATA_FILES[row_object.origin]["file_path"])
+                    fail(line_str + msg)
 
 def check_for_isbn_duplicates(row_object):
     __tracebackhide__ = True

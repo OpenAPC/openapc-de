@@ -15,6 +15,8 @@ ARG_HELP_STRINGS = {
                   'collected files ("all_harvested_articles.csv" and '+
                   '"all_harvested_articles_enriched.csv")'),
     "output": 'Write raw harvested data to disk',
+    "links": "Print OAI GetRecord links for all harvested articles, useful " +
+             "for inspecting and debugging the original data"
 }
 
 def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
@@ -97,6 +99,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--integrate", help=ARG_HELP_STRINGS["integrate"], action="store_true")
     parser.add_argument("-o", "--output", help=ARG_HELP_STRINGS["output"], action="store_true")
+    parser.add_argument("-l", "--print_record_links", help=ARG_HELP_STRINGS["links"], action="store_true")
     args = parser.parse_args()
 
     with open("harvest_list.csv", "r") as harvest_list:
@@ -110,7 +113,7 @@ def main():
                 processing = line["processing"] if len(line["processing"]) > 0 else None
                 directory = os.path.join("..", line["directory"])
                 out_file_suffix = os.path.basename(line["directory"]) if args.output else None
-                articles = oat.oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix)
+                articles = oat.oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, args.print_record_links)
                 harvest_file_path = os.path.join(directory, "all_harvested_articles.csv")
                 enriched_file_path = os.path.join(directory, "all_harvested_articles_enriched.csv")
                 new_article_dicts, header = integrate_changes(articles, harvest_file_path, False, not args.integrate)
