@@ -1,5 +1,4 @@
 pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-out
-1;Gottfried Wilhelm Leibniz Universität Hannover;PROCEEDINGS IN APPLIED MATHEMATICS & MECHANICS;1617-7061;10.1002/pamm.202200219;https://doi.org/10.1002/pamm.202200219;06.12.2022;2750;optout
 2;Gottfried Wilhelm Leibniz Universität Hannover;INTERNATIONAL JOURNAL FOR NUMERICAL METHODS IN ENGINEERING;1097-0207;10.1002/nme.7092;https://doi.org/10.1002/nme.7092;01.08.2022;2750;optin
 3;Gottfried Wilhelm Leibniz Universität Hannover;EARTHQUAKE ENGINEERING & STRUCTURAL DYNAMICS;1096-9845;10.1002/eqe.3752;https://doi.org/10.1002/eqe.3752;20.09.2022;2750;optin
 4;Gottfried Wilhelm Leibniz Universität Hannover;STRUCTURAL CONTROL AND HEALTH MONITORING;1545-2263;10.1002/stc.3077;https://doi.org/10.1002/stc.3077;04.08.2022;2750;optin
@@ -8,14 +7,12 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 7;Gottfried Wilhelm Leibniz Universität Hannover;INTERNATIONAL REVIEW OF HYDROBIOLOGY;1522-2632;10.1002/iroh.202002080;https://doi.org/10.1002/iroh.202002080;01.02.2022;2750;optin
 8;Gottfried Wilhelm Leibniz Universität Hannover;WILEY INTERDISCIPLINARY REVIEWS: DATA MINING AND KNOWLEDGE DISCOVERY;1942-4795;10.1002/widm.1452;https://doi.org/10.1002/widm.1452;24.01.2022;2750;optin
 9;Gottfried Wilhelm Leibniz Universität Hannover;REVIEW OF FINANCIAL ECONOMICS;1873-5924;10.1002/rfe.1170;https://doi.org/10.1002/rfe.1170;14.06.2022;2750;optin
-10;Gottfried Wilhelm Leibniz Universität Hannover;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202206152;https://doi.org/10.1002/anie.202206152;28.06.2022;2750;optout
 11;Gottfried Wilhelm Leibniz Universität Hannover;INTERNATIONAL JOURNAL OF QUANTUM CHEMISTRY;1097-461X;10.1002/qua.26902;https://doi.org/10.1002/qua.26902;24.02.2022;2750;optin
 12;Gottfried Wilhelm Leibniz Universität Hannover;AGRICULTURAL AND FOREST ENTOMOLOGY;1461-9563;10.1111/afe.12539;https://doi.org/10.1111/afe.12539;08.09.2022;2750;optin
 13;Gottfried Wilhelm Leibniz Universität Hannover;PROCEEDINGS IN APPLIED MATHEMATICS & MECHANICS;1617-7061;10.1002/pamm.202200328;https://doi.org/10.1002/pamm.202200328;20.12.2022;2750;optin
 14;Gottfried Wilhelm Leibniz Universität Hannover;PHYSIK IN UNSERER ZEIT;1521-3943;10.1002/piuz.202201658;https://doi.org/10.1002/piuz.202201658;04.10.2022;2750;optin
 15;Gottfried Wilhelm Leibniz Universität Hannover;MACROMOLECULAR CHEMISTRY AND PHYSICS;1521-3935;10.1002/macp.202200046;https://doi.org/10.1002/macp.202200046;11.04.2022;2750;optin
 16;Gottfried Wilhelm Leibniz Universität Hannover;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202201126;https://doi.org/10.1002/adfm.202201126;22.02.2022;2750;optin
-17;Gottfried Wilhelm Leibniz Universität Hannover;CHEMIE INGENIEUR TECHNIK;1522-2640;10.1002/cite.202100118;https://doi.org/10.1002/cite.202100118;27.02.2022;2750;optout
 18;Gottfried Wilhelm Leibniz Universität Hannover;CHEMIE INGENIEUR TECHNIK;1522-2640;10.1002/cite.202200166;https://doi.org/10.1002/cite.202200166;30.11.2022;2750;optin
 19;Gottfried Wilhelm Leibniz Universität Hannover;JOURNAL OF APPLIED ENTOMOLOGY;1439-0418;10.1111/jen.13078;https://doi.org/10.1111/jen.13078;31.08.2022;2750;optin
 20;Gottfried Wilhelm Leibniz Universität Hannover;KYKLOS;1467-6435;10.1111/kykl.12301;https://doi.org/10.1111/kykl.12301;31.01.2022;2750;optin
@@ -32,7 +29,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 31;Gottfried Wilhelm Leibniz Universität Hannover;CE/PAPERS;2509-7075;10.1002/cepa.1804;https://doi.org/10.1002/cepa.1804;25.08.2022;2750;optin
 32;Gottfried Wilhelm Leibniz Universität Hannover;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202112621;https://doi.org/10.1002/adfm.202112621;13.02.2022;2750;optin
 33;Gottfried Wilhelm Leibniz Universität Hannover;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202200055;https://doi.org/10.1002/admi.202200055;30.01.2022;2750;optin
-34;Gottfried Wilhelm Leibniz Universität Hannover;MATHEMATISCHE NACHRICHTEN;1522-2616;10.1002/mana.202100223;https://doi.org/10.1002/mana.202100223;06.03.2022;2750;optout
 35;Gottfried Wilhelm Leibniz Universität Hannover;MATERIALWISSENSCHAFT UND WERKSTOFFTECHNIK;1521-4052;10.1002/mawe.202200013;https://doi.org/10.1002/mawe.202200013;26.06.2022;2750;optin
 36;Gottfried Wilhelm Leibniz Universität Hannover;EUROPEAN JOURNAL OF PHILOSOPHY;1468-0378;10.1111/ejop.12790;https://doi.org/10.1111/ejop.12790;13.04.2022;2750;optin
 37;Gottfried Wilhelm Leibniz Universität Hannover;FLAVOUR AND FRAGRANCE JOURNAL;1099-1026;10.1002/ffj.3700;https://doi.org/10.1002/ffj.3700;29.04.2022;2750;optin
