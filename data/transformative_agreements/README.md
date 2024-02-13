@@ -407,8 +407,8 @@ This dataset contains information on 96,499 articles, published at 373 instituti
 |Edinburgh Napier University                                                                                                                        |       17|
 |Fachhochschule Südwestfalen                                                                                                                        |       17|
 |Finnish Meteorological Institute                                                                                                                   |       17|
-|Bielefeld FH                                                                                                                                       |       16|
 |GESIS                                                                                                                                              |       16|
+|HS Bielefeld                                                                                                                                       |       16|
 |Leibniz-IZW                                                                                                                                        |       15|
 |National Land Survey of Finland                                                                                                                    |       15|
 |Leibniz-IPK                                                                                                                                        |       14|
