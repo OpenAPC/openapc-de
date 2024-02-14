@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 96,689 articles, published at 373 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 96,701 articles, published at 374 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 96,689 articles, published at 373 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     7995|
+|DEAL Springer Nature Germany                     |     8004|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Wiley Germany                               |     7263|
+|DEAL Wiley Germany                               |     7266|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -416,6 +416,7 @@ This dataset contains information on 96,689 articles, published at 373 instituti
 |Birmingham City University                                                                                                                         |       13|
 |TU Clausthal                                                                                                                                       |       13|
 |Danube University Krems University for Continuing Education                                                                                        |       12|
+|Leibniz-ZMT                                                                                                                                        |       12|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
 |MDC                                                                                                                                                |       11|
 |Pädagogische Hochschule Zürich                                                                                                                     |       11|
