@@ -6,6 +6,7 @@ import csv
 import os
 
 import openapc_toolkit as oat
+import opencost_toolkit as octk
 
 TARGET_DIR = "opencost_out"
 
@@ -21,7 +22,7 @@ for path in args.xml_files:
         content = f.read()
         xml_content_strings.append(content)
 
-articles = oat.process_opencost_xml(*xml_content_strings)
+articles = octk.process_opencost_xml(*xml_content_strings)
 
 ror_map = {}
 with open(oat.INSTITUTIONS_FILE, "r") as ins_file:
@@ -40,7 +41,7 @@ for article in articles:
             oat.print_r(ror_request["error_msg"])
     article["institution"] = ror_map.get(ror_id, "")
 
-fieldnames = ["institution"] + list(oat.OPENCOST_EXTRACTION_FIELDS.keys())
+fieldnames = ["institution"] + list(octk.OPENCOST_EXTRACTION_FIELDS.keys())
 
 if not os.path.isdir(TARGET_DIR):
     os.mkdir(TARGET_DIR)
