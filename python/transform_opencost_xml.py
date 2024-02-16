@@ -6,21 +6,28 @@ import csv
 import os
 
 import openapc_toolkit as oat
-import opencost_toolkit as octk
 
 TARGET_DIR = "opencost_out"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("xml_files", nargs="+", help="One or more openCost XML files which should validate against the official openCost XSD schema")
+parser.add_argument("-v", "--version", choices=["v1", "v2"], default="v1")
 parser.add_argument("-p", "--prefix", default="", help="An optional prefix for generated file names")
+
 args = parser.parse_args()
+
+if args.version == "v1":
+    import opencost_toolkit as octk
+else:
+    import opencost_toolkit_v2 as octk
 
 xml_content_strings = []
 
 for path in args.xml_files:
-    with open(path) as f:
-        content = f.read()
-        xml_content_strings.append(content)
+    if os.path.isfile(path):
+        with open(path) as f:
+            content = f.read()
+            xml_content_strings.append(content)
 
 articles = octk.process_opencost_xml(*xml_content_strings)
 
