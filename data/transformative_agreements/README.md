@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 96,810 articles, published at 374 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 96,951 articles, published at 374 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 96,810 articles, published at 374 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     8079|
+|DEAL Springer Nature Germany                     |     8135|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Wiley Germany                               |     7300|
+|DEAL Wiley Germany                               |     7385|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -269,6 +269,7 @@ This dataset contains information on 96,810 articles, published at 374 instituti
 |VTT Technical Research Centre of Finland Ltd                                                                                                       |      184|
 |ZHAW Zurich University of Applied Sciences                                                                                                         |      182|
 |University of Natural Resources and Life Sciences Vienna (BOKU)                                                                                    |      181|
+|FZJ - ZB                                                                                                                                           |      179|
 |Technological University Dublin                                                                                                                    |      177|
 |Graz University of Technology                                                                                                                      |      176|
 |University of Durham                                                                                                                               |      175|
@@ -363,7 +364,6 @@ This dataset contains information on 96,810 articles, published at 374 instituti
 |University of Bradford                                                                                                                             |       39|
 |University of Greenwich                                                                                                                            |       39|
 |Aberystwyth University                                                                                                                             |       38|
-|FZJ - ZB                                                                                                                                           |       38|
 |Swedish Museum of Natural History                                                                                                                  |       38|
 |HZDR                                                                                                                                               |       36|
 |Leibniz-IGB                                                                                                                                        |       36|
