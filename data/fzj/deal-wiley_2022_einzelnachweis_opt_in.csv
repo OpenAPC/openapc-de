@@ -28,7 +28,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 27;Forschungszentrum Jülich GmbH;SOLAR RRL;2367-198X;10.1002/solr.202200857;https://doi.org/10.1002/solr.202200857;27.11.2022;2750;optin
 28;Forschungszentrum Jülich GmbH;ADVANCED ENERGY MATERIALS;1614-6840;10.1002/aenm.202201680;https://doi.org/10.1002/aenm.202201680;03.08.2022;2750;optin
 29;Forschungszentrum Jülich GmbH;CHEMIE INGENIEUR TECHNIK;1522-2640;10.1002/cite.202200178;https://doi.org/10.1002/cite.202200178;14.12.2022;2750;optin
-30;Forschungszentrum Jülich GmbH;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202202022;https://doi.org/10.1002/admi.202202022;22.12.2022;2750;optout
 31;Forschungszentrum Jülich GmbH;INTERNATIONAL JOURNAL OF APPLIED CERAMIC TECHNOLOGY;1744-7402;10.1111/ijac.14288;https://doi.org/10.1111/ijac.14288;29.10.2022;2750;optin
 32;Forschungszentrum Jülich GmbH;PROGRESS IN PHOTOVOLTAICS: RESEARCH AND APPLICATIONS;1099-159X;10.1002/pip.3621;https://doi.org/10.1002/pip.3621;25.08.2022;2750;optin
 33;Forschungszentrum Jülich GmbH;BIOTECHNOLOGY AND BIOENGINEERING;1097-0290;10.1002/bit.28261;https://doi.org/10.1002/bit.28261;08.10.2022;2750;optin
@@ -47,7 +46,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 46;Forschungszentrum Jülich GmbH;QUARTERLY JOURNAL OF THE ROYAL METEOROLOGICAL SOCIETY;1477-870X;10.1002/qj.4413;https://doi.org/10.1002/qj.4413;23.11.2022;2750;optin
 47;Forschungszentrum Jülich GmbH;CHEMSUSCHEM;1864-564X;10.1002/cssc.202202189;https://doi.org/10.1002/cssc.202202189;14.12.2022;2750;optin
 48;Forschungszentrum Jülich GmbH;JOURNAL OF INDUSTRIAL ECOLOGY;1530-9290;10.1111/jiec.13292;https://doi.org/10.1111/jiec.13292;17.03.2022;2750;optin
-49;Forschungszentrum Jülich GmbH;ENERGY & ENVIRONMENTAL MATERIALS;2575-0356;10.1002/eem2.12469;https://doi.org/10.1002/eem2.12469;15.05.2022;2750;optout
 50;Forschungszentrum Jülich GmbH;ACTA CRYSTALLOGRAPHICA SECTION D: STRUCTURAL BIOLOGY;2059-7983;10.1107/S2059798322008701;https://doi.org/10.1107/S2059798322008701;29.08.2022;2750;optin
 51;Forschungszentrum Jülich GmbH;CORPORATE SOCIAL RESPONSIBILITY AND ENVIRONMENTAL MANAGEMENT;1535-3966;10.1002/csr.2392;https://doi.org/10.1002/csr.2392;20.09.2022;2750;optin
 52;Forschungszentrum Jülich GmbH;PROTEINS: STRUCTURE, FUNCTION, AND BIOINFORMATICS;1097-0134;10.1002/prot.26352;https://doi.org/10.1002/prot.26352;19.04.2022;2750;optin
@@ -77,7 +75,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 76;Forschungszentrum Jülich GmbH;CHEMELECTROCHEM;2196-0216;10.1002/celc.202200469;https://doi.org/10.1002/celc.202200469;01.05.2022;2750;optin
 77;Forschungszentrum Jülich GmbH;BATTERIES & SUPERCAPS;2566-6223;10.1002/batt.202200327;https://doi.org/10.1002/batt.202200327;25.08.2022;2750;optin
 78;Forschungszentrum Jülich GmbH;MOVEMENT DISORDERS;1531-8257;10.1002/mds.29266;https://doi.org/10.1002/mds.29266;02.10.2022;2750;optin
-79;Forschungszentrum Jülich GmbH;CHEMELECTROCHEM;2196-0216;10.1002/celc.202200991;https://doi.org/10.1002/celc.202200991;10.11.2022;2750;optout
 80;Forschungszentrum Jülich GmbH;GEOPHYSICAL RESEARCH LETTERS;1944-8007;10.1029/2022GL098626;https://doi.org/10.1029/2022GL098626;10.05.2022;2750;optin
 81;Forschungszentrum Jülich GmbH;ADVANCED ENGINEERING MATERIALS;1527-2648;10.1002/adem.202200660;https://doi.org/10.1002/adem.202200660;12.07.2022;2750;optin
 82;Forschungszentrum Jülich GmbH;THE PLANT JOURNAL;1365-313X;10.1111/tpj.15876;https://doi.org/10.1111/tpj.15876;21.06.2022;2750;optin
