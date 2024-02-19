@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 96,963 articles, published at 375 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 96,977 articles, published at 375 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 96,963 articles, published at 375 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     8139|
+|DEAL Springer Nature Germany                     |     8150|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Wiley Germany                               |     7393|
+|DEAL Wiley Germany                               |     7396|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -409,6 +409,7 @@ This dataset contains information on 96,963 articles, published at 375 instituti
 |Finnish Meteorological Institute                                                                                                                   |       17|
 |GESIS                                                                                                                                              |       16|
 |HS Bielefeld                                                                                                                                       |       16|
+|Hochschule Hannover                                                                                                                                |       15|
 |Leibniz-IZW                                                                                                                                        |       15|
 |National Land Survey of Finland                                                                                                                    |       15|
 |Leibniz-IPK                                                                                                                                        |       14|
@@ -499,7 +500,6 @@ This dataset contains information on 96,963 articles, published at 375 instituti
 |Ferdinand Porsche FernFH                                                                                                                           |        1|
 |Finnish Government                                                                                                                                 |        1|
 |Haute École Pédagogique BEJUNE                                                                                                                     |        1|
-|Hochschule Hannover                                                                                                                                |        1|
 |IPN - Leibniz Kiel                                                                                                                                 |        1|
 |Institute of Art, Design + Technology                                                                                                              |        1|
 |International Institute of Social History (IISH)                                                                                                   |        1|
