@@ -434,6 +434,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1322-7130": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research (print)
 	"1524-4741": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal 
 	"1075-122X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal (print)
+	"2056-3744": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution Letters 
 
 }
 
