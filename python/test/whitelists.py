@@ -435,6 +435,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1524-4741": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal 
 	"1075-122X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal (print)
 	"2056-3744": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution Letters 
+	"1545-2263": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring 
+	"1545-2255": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring (print)
 
 }
 
@@ -715,6 +717,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1753-8947", # International Journal of Digital Earth, Gold OA since 2022
     "2510-2036", # Computing and Software for Big Science, Gold OA since 2023
     "2510-2044", # Computing and Software for Big Science, Gold OA since 2023 (linking)
+    "1545-2263", # Structural Control and Health Monitoring, Gold OA since 2023
+    "1545-2255", # Structural Control and Health Monitoring, Gold OA since 2023 (linking)
+    "2688-4062", # Small Structures, Gold OA since 2023
+    "1758-2229", # Environmental Microbiology Reports, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
