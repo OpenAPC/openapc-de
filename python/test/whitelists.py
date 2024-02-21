@@ -437,6 +437,11 @@ JOURNAL_OWNER_CHANGED = {
 	"2056-3744": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution Letters 
 	"1545-2263": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring 
 	"1545-2255": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring (print)
+	"1365-2524": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Health & Social Care in the Community 
+	"0966-0410": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Health & Social Care in the Community (linking)
+	"2471-254X": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology Communications 
+	"2375-1916": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives 
+	"2375-1924": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives (electronic)
 
 }
 
@@ -721,6 +726,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1545-2255", # Structural Control and Health Monitoring, Gold OA since 2023 (linking)
     "2688-4062", # Small Structures, Gold OA since 2023
     "1758-2229", # Environmental Microbiology Reports, Gold OA since 2023
+    "1365-2524", # Health & Social Care in the Community, Gold OA since 2023
+    "0966-0410", # Health & Social Care in the Community, Gold OA since 2023 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
