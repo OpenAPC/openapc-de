@@ -76,7 +76,10 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
             elif field == "amount_paid":
                 cur = result.find("opencost:currency", namespaces).text
                 cost_type = result.find("opencost:cost_type", namespaces).text
-                value = oat._auto_atof(result.find("opencost:amount", namespaces).text)
+                amount = result.find("opencost:amount", namespaces).text
+                value = 0.0
+                if amount is not None:
+                    value = oat._auto_atof(amount)
                 if cur != "EUR":
                     if "date_paid" in data:
                         period = data["date_paid"]
@@ -218,50 +221,51 @@ def process_opencost_xml(*xml_content_strings):
         "opencost": "https://opencost.de"
     }
 
-    record_xpath = "opencost:publication"
+    data_xpath = ".//opencost:data"
+    publication_xpath = "opencost:publication"
     contract_xpath = "opencost:contract"
     cost_data_xpath = "opencost:cost_data"
 
-    extracted_records = []
+    extracted_publications = []
     extracted_invoices = []
 
     for xml_content in xml_content_strings:
         root = ET.fromstring(xml_content)
-        records = root.findall(record_xpath, namespaces)
-        for record in records:
-            publication = {}
-            for field, xpath in OPENCOST_EXTRACTION_FIELDS.items():
-                publication[field] = "NA"
-                if xpath is not None:
-                    result = record.find(xpath, namespaces)
-                    if result is not None and result.text is not None:
-                        publication[field] = result.text
-            cost_data_element = record.find(cost_data_xpath, namespaces)
-            cost_data_extract = _process_oc_publication_cost_data(cost_data_element, namespaces)
-            if not cost_data_extract["success"]:
-                prefix = "Error: "
-                if "doi" in publication:
-                    prefix = "Error (" +  publication["doi"] + "): "
-                print_r(prefix + cost_data_extract["error_msg"])
-                extracted_records.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
-                continue
-            for field, value in cost_data_extract["data"].items():
-                if field in publication:
-                    publication[field] = value
-            extracted_records.append(publication)
+        data_elements = root.findall(data_xpath, namespaces)
+        for data_element in data_elements:
+            publications = data_element.findall(publication_xpath, namespaces)
+            for publication in publications:
+                publication_data = {}
+                for field, xpath in OPENCOST_EXTRACTION_FIELDS.items():
+                    publication_data[field] = "NA"
+                    if xpath is not None:
+                        result = publication.find(xpath, namespaces)
+                        if result is not None and result.text is not None:
+                            publication_data[field] = result.text
+                cost_data_element = publication.find(cost_data_xpath, namespaces)
+                cost_data_extract = _process_oc_publication_cost_data(cost_data_element, namespaces)
+                if not cost_data_extract["success"]:
+                    prefix = "Error: "
+                    if "doi" in publication_data:
+                        prefix = "Error (" +  publication_data["doi"] + "): "
+                    oat.print_r(prefix + cost_data_extract["error_msg"])
+                    extracted_publications.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
+                    continue
+                for field, value in cost_data_extract["data"].items():
+                    if field in publication_data:
+                        publication_data[field] = value
+                extracted_publications.append(publication_data)
+            contracts = data_element.findall(contract_xpath, namespaces)
+            for contract in contracts:
+                cost_data_element = contract.find(cost_data_xpath, namespaces)
+                invoices_extract = _process_oc_contract_cost_data(cost_data_element, namespaces)
+                if not invoices_extract["success"]:
+                    oat.print_r("Error: " + invoices_extract["error_msg"])
+                    continue
+                extracted_invoices += invoices_extract["data"]
 
-        contracts = root.findall(contract_xpath, namespaces)
-        for contract in contracts:
-            cost_data_element = contract.find(cost_data_xpath, namespaces)
-            invoices_extract = _process_oc_contract_cost_data(cost_data_element, namespaces)
-            if not invoices_extract["success"]:
-                print_r("Error: " + invoices_extract["error_msg"])
-                continue
-            extracted_invoices += invoices_extract["data"]
-
-    extracted_records = _apply_contract_data(extracted_records, extracted_invoices)
-
-    return extracted_records
+    extracted_publications = _apply_contract_data(extracted_publications, extracted_invoices)
+    return extracted_publications
 
 def _process_oc_publication_cost_data(cost_data_element, namespaces):
     """
@@ -400,7 +404,7 @@ def _apply_contract_data(extracted_records, extracted_invoices):
         if invoice_id not in invoice_dict:
             invoice_dict[invoice_id] = invoice
         else:
-            print_r(msgs["invoice_id_dup"].format(invoice_id))
+            oat.print_r(msgs["invoice_id_dup"].format(invoice_id))
             sys.exit()
     for invoice_id, invoice in invoice_dict.items():
         record_count = 0

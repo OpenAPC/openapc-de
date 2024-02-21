@@ -999,130 +999,82 @@ def _auto_atof(str_value):
     locale.setlocale(locale.LC_NUMERIC, old_locale)
     return float_value
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, print_record_links=False):
-    """
-    Harvest OpenAPC records via OAI-PMH
-    """
+def process_intact_xml(*xml_content_strings):
     collection_xpath = ".//oai_2_0:metadata//intact:collection"
     record_xpath = ".//oai_2_0:record"
     identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
-    token_xpath = ".//oai_2_0:resumptionToken"
     invoice_xpath = "intact:invoice"
-    processing_regex = re.compile(r"'(?P<target>\w*?)':'(?P<generator>.*?)'")
-    variable_regex = re.compile(r"%(\w*?)%")
-    #institution_xpath =
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
         "intact": "http://intact-project.org"
     }
-    url = basic_url + "?verb=ListRecords"
-    if metadata_prefix:
-        url += "&metadataPrefix=" + metadata_prefix
-    if oai_set:
-        url += "&set=" + oai_set
-    if processing:
-        match = processing_regex.match(processing)
-        if match:
-            groupdict = match.groupdict()
-            target = groupdict["target"]
-            generator = groupdict["generator"]
-            variables = variable_regex.search(generator).groups()
-        else:
-            print_r("Error: Unable to parse processing instruction!")
-            processing = None
-    record_url = basic_url + "?verb=GetRecord"
-    if metadata_prefix:
-        record_url += "&metadataPrefix=" + metadata_prefix
-    print_b("Harvesting from " + url)
     articles = []
-    file_output = ""
-    while url is not None:
-        try:
-            request = Request(url)
-            url = None
-            response = urlopen(request)
-            content_string = response.read()
-            if out_file_suffix:
-                file_output += content_string.decode()
-            root = ET.fromstring(content_string)
-            records = root.findall(record_xpath, namespaces)
-            counter = 0
-            for record in records:
-                article = {}
-                identifier = record.find(identifier_xpath, namespaces)
-                if print_record_links:
-                    link = record_url + "&identifier=" + identifier.text
-                    print_c("[" + link + "]")
-                article["identifier"] = identifier.text
-                collection = record.find(collection_xpath, namespaces)
-                if collection is None:
-                    # Might happen with deleted records
-                    continue
-                for elem, xpath in OAI_COLLECTION_CONTENT.items():
-                    article[elem] = "NA"
-                    if xpath is not None:
-                        result = collection.find(xpath, namespaces)
-                        if result is not None and result.text is not None:
-                            article[elem] = result.text
-                # JOIN2 institutions make use of the invoice variant
-                invoices = collection.findall(invoice_xpath, namespaces)
-                invoice_fee_type = None
-                for invoice in invoices:
-                    invoice_data = _process_oai_invoice(invoice, namespaces, article['period'])
-                    if invoice_data:
-                        # check for consistent fee types
-                        if invoice_fee_type is None:
-                            invoice_fee_type = invoice_data['fee_type']
-                        elif invoice_fee_type != invoice_data['fee_type']:
-                            msg = "Error: Record {} contains invoices with different OA fee types!"
-                            print_r(msg.format(article['identifier']))
-                            article['euro'] = 'NA'
-                            break
-                        if not has_value(article['euro']):
-                            article['euro'] = invoice_data['amount']
-                        else:
-                            old_amount = _auto_atof(article['euro'])
-                            new_amount = _auto_atof(invoice_data['amount'])
-                            article['euro'] = str(old_amount + new_amount)
-                            msg = "More than one APC amount found, adding values ({} + {} = {})."
-                            print_b(msg.format(old_amount, new_amount, old_amount + new_amount))
-                if processing:
-                    target_string = generator
-                    for variable in variables:
-                        target_string = target_string.replace("%" + variable + "%", article[variable])
-                    article[target] = target_string
-                if article["euro"] == 'NA':
-                    print_r("Article skipped, no APC amount found.")
-                    continue
-                euro_float = _auto_atof(article["euro"])
-                if euro_float <= 0.0:
-                    msg = "Article skipped, non-positive APC amount found ({})."
-                    print_r(msg.format(article['euro']))
-                    continue
-                if euro_float.is_integer():
-                     article["euro"] = str(int(euro_float))
-                else:
-                    article["euro"] = str(euro_float)
-                if article["doi"] != "NA":
-                    norm_doi = get_normalised_DOI(article["doi"])
-                    if norm_doi is None:
-                        article["doi"] = "NA"
+    for content_string in xml_content_strings:
+        root = ET.fromstring(content_string)
+        records = root.findall(record_xpath, namespaces)
+        counter = 0
+        for record in records:
+            article = {}
+            identifier = record.find(identifier_xpath, namespaces)
+            article["identifier"] = identifier.text
+            collection = record.find(collection_xpath, namespaces)
+            if collection is None:
+                # Might happen with deleted records
+                continue
+            for elem, xpath in OAI_COLLECTION_CONTENT.items():
+                article[elem] = "NA"
+                if xpath is not None:
+                    result = collection.find(xpath, namespaces)
+                    if result is not None and result.text is not None:
+                        article[elem] = result.text
+            # JOIN2 institutions make use of the invoice variant
+            invoices = collection.findall(invoice_xpath, namespaces)
+            invoice_fee_type = None
+            for invoice in invoices:
+                invoice_data = _process_oai_invoice(invoice, namespaces, article['period'])
+                if invoice_data:
+                    # check for consistent fee types
+                    if invoice_fee_type is None:
+                        invoice_fee_type = invoice_data['fee_type']
+                    elif invoice_fee_type != invoice_data['fee_type']:
+                        msg = "Error: Record {} contains invoices with different OA fee types!"
+                        print_r(msg.format(article['identifier']))
+                        article['euro'] = 'NA'
+                        break
+                    if not has_value(article['euro']):
+                        article['euro'] = invoice_data['amount']
                     else:
-                        article["doi"] = norm_doi
-                articles.append(article)
-                counter += 1
-            token = root.find(token_xpath, namespaces)
-            if token is not None and token.text is not None:
-                url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text
-            print_g(str(counter) + " articles harvested.")
-        except HTTPError as httpe:
-            code = str(httpe.getcode())
-            print("HTTPError: {} - {}".format(code, httpe.reason))
-        except URLError as urle:
-            print("URLError: {}".format(urle.reason))
-    if out_file_suffix:
-        with open("raw_harvest_data_" + out_file_suffix, "w") as out:
-            out.write(file_output)
+                        old_amount = _auto_atof(article['euro'])
+                        new_amount = _auto_atof(invoice_data['amount'])
+                        article['euro'] = str(old_amount + new_amount)
+                        msg = "More than one APC amount found, adding values ({} + {} = {})."
+                        print_b(msg.format(old_amount, new_amount, old_amount + new_amount))
+            if processing:
+                target_string = generator
+                for variable in variables:
+                    target_string = target_string.replace("%" + variable + "%", article[variable])
+                article[target] = target_string
+            if article["euro"] == 'NA':
+                print_r("Article skipped, no APC amount found.")
+                continue
+            euro_float = _auto_atof(article["euro"])
+            if euro_float <= 0.0:
+                msg = "Article skipped, non-positive APC amount found ({})."
+                print_r(msg.format(article['euro']))
+                continue
+            if euro_float.is_integer():
+                 article["euro"] = str(int(euro_float))
+            else:
+                article["euro"] = str(euro_float)
+            if article["doi"] != "NA":
+                norm_doi = get_normalised_DOI(article["doi"])
+                if norm_doi is None:
+                    article["doi"] = "NA"
+                else:
+                    article["doi"] = norm_doi
+            articles.append(article)
+            counter += 1
+        print_g(str(counter) + " articles harvested.")
     return articles
 
 def find_book_dois_in_crossref(isbn_list):
