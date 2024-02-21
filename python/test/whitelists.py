@@ -727,6 +727,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2688-4062", # Small Structures, Gold OA since 2023
     "1758-2229", # Environmental Microbiology Reports, Gold OA since 2023
     "1365-2524", # Health & Social Care in the Community, Gold OA since 2023
+    "0966-0410", # Health & Social Care in the Community, Gold OA since 2023 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
