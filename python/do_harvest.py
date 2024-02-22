@@ -4,17 +4,24 @@
 import argparse
 import datetime
 import os
+import re
+import xml.etree.ElementTree as ET
 
 from collections import OrderedDict
 from csv import DictReader
+from urllib.error import HTTPError, URLError
+from urllib.request import urlopen, Request
 
 import openapc_toolkit as oat
+import opencost_toolkit_v2 as octk
 
 ARG_HELP_STRINGS = {
     "integrate": ('Integrate changes in harvested data into existing ' +
                   'collected files ("all_harvested_articles.csv" and '+
                   '"all_harvested_articles_enriched.csv")'),
     "output": 'Write raw harvested data to disk',
+    "links": "Print OAI GetRecord links for all harvested articles, useful " +
+             "for inspecting and debugging the original data"
 }
 
 def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
@@ -91,12 +98,71 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
             writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
             writer.write_rows(updated_lines)
     return (article_dict.values(), fieldnames)
-    
+
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact"):
+    """
+    Harvest records via OAI-PMH
+    """
+    namespaces = {
+        "opencost": "https://opencost.de",
+        "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
+        "intact": "http://intact-project.org"
+    }
+    processing_regex = re.compile(r"'(?P<target>\w*?)':'(?P<generator>.*?)'")
+    variable_regex = re.compile(r"%(\w*?)%")
+    token_xpath = ".//oai_2_0:resumptionToken"
+    url = basic_url + "?verb=ListRecords"
+    if metadata_prefix:
+        url += "&metadataPrefix=" + metadata_prefix
+    if oai_set:
+        url += "&set=" + oai_set
+    if processing:
+        match = processing_regex.match(processing)
+        if match:
+            groupdict = match.groupdict()
+            target = groupdict["target"]
+            generator = groupdict["generator"]
+            variables = variable_regex.search(generator).groups()
+        else:
+            print_r("Error: Unable to parse processing instruction!")
+            processing = None
+    record_url = basic_url + "?verb=GetRecord"
+    if metadata_prefix:
+        record_url += "&metadataPrefix=" + metadata_prefix
+    oat.print_b("Harvesting from " + url)
+    file_output = ""
+    xml_content_strings = []
+    while url is not None:
+        try:
+            request = Request(url)
+            url = None
+            response = urlopen(request)
+            content_string = response.read()
+            xml_content_strings.append(content_string)
+            root = ET.fromstring(content_string)
+            if out_file_suffix:
+                file_output += content_string.decode()
+            token = root.find(token_xpath, namespaces)
+            if token is not None and token.text is not None:
+                url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text
+        except HTTPError as httpe:
+            code = str(httpe.getcode())
+            print("HTTPError: {} - {}".format(code, httpe.reason))
+        except URLError as urle:
+            print("URLError: {}".format(urle.reason))
+    if out_file_suffix:
+        with open("raw_harvest_data_" + out_file_suffix, "w") as out:
+            out.write(file_output)
+    if data_type == "intact":
+        return oat.process_intact_xml(*xml_content_strings)
+    elif data_type == "opencost":
+        return octk.process_opencost_xml(*xml_content_strings)
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--integrate", help=ARG_HELP_STRINGS["integrate"], action="store_true")
     parser.add_argument("-o", "--output", help=ARG_HELP_STRINGS["output"], action="store_true")
+    parser.add_argument("-l", "--print_record_links", help=ARG_HELP_STRINGS["links"], action="store_true")
     args = parser.parse_args()
 
     with open("harvest_list.csv", "r") as harvest_list:
@@ -108,9 +174,10 @@ def main():
                 oai_set = line["oai_set"] if len(line["oai_set"]) > 0 else None
                 prefix = line["metadata_prefix"] if len(line["metadata_prefix"]) > 0 else None
                 processing = line["processing"] if len(line["processing"]) > 0 else None
+                repo_type = line["type"]
                 directory = os.path.join("..", line["directory"])
                 out_file_suffix = os.path.basename(line["directory"]) if args.output else None
-                articles = oat.oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix)
+                articles = oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type)
                 harvest_file_path = os.path.join(directory, "all_harvested_articles.csv")
                 enriched_file_path = os.path.join(directory, "all_harvested_articles_enriched.csv")
                 new_article_dicts, header = integrate_changes(articles, harvest_file_path, False, not args.integrate)
@@ -130,7 +197,6 @@ def main():
                     writer.write_rows(new_articles)
             else:
                 oat.print_y("Skipping inactive source " + basic_url)
-            
-    
+
 if __name__ == '__main__':
     main()

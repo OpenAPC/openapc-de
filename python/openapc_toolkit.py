@@ -39,6 +39,9 @@ except ImportError:
 USER_AGENT = ("OpenAPC Toolkit (https://github.com/OpenAPC/openapc-de/blob/master/python/openapc_toolkit.py;"+
               " mailto:openapc@uni-bielefeld.de)")
 
+# Optional token for Crossref Metadata Plus Service (loaded lazily)
+CROSSREF_PLUS_TOKEN = 'unset'
+
 # regex for detecing DOIs
 DOI_RE = re.compile(r"^(((https?://)?(dx.)?doi.org/)|(doi:))?(?P<doi>10\.[0-9]+(\.[0-9]+)*\/\S+)", re.IGNORECASE)
 # regex for detecting shortDOIs
@@ -63,27 +66,6 @@ OAI_COLLECTION_CONTENT = OrderedDict([
     ("pmid", "intact:id_number[@type='pubmed']"),
     ("url", None),
     ("local_id", "intact:id_number[@type='local']")
-])
-
-OPENCOST_EXTRACTION_FIELDS = OrderedDict([
-    ("institution_ror", "opencost:institution//opencost:institution_id[@type='ror']"),
-    ("period", None),
-    ("euro", None),
-    ("doi", "opencost:primary_identifier//opencost:doi"),
-    ("is_hybrid", None),
-    ("type", "opencost:type"),
-    ("gold-oa", None),
-    ("vat", None),
-    ("colour charge", None),
-    ("cover charge", None),
-    ("hybrid-oa", None),
-    ("other", None),
-    ("page charge", None),
-    ("permission", None),
-    ("publication charge", None),
-    ("reprint", None),
-    ("submission fee", None),
-    ("payment fee", None),
 ])
 
 MESSAGES = {
@@ -1017,319 +999,82 @@ def _auto_atof(str_value):
     locale.setlocale(locale.LC_NUMERIC, old_locale)
     return float_value
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None):
-    """
-    Harvest OpenAPC records via OAI-PMH
-    """
+def process_intact_xml(*xml_content_strings):
     collection_xpath = ".//oai_2_0:metadata//intact:collection"
     record_xpath = ".//oai_2_0:record"
     identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
-    token_xpath = ".//oai_2_0:resumptionToken"
     invoice_xpath = "intact:invoice"
-    processing_regex = re.compile(r"'(?P<target>\w*?)':'(?P<generator>.*?)'")
-    variable_regex = re.compile(r"%(\w*?)%")
-    #institution_xpath =
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
         "intact": "http://intact-project.org"
     }
-    url = basic_url + "?verb=ListRecords"
-    if metadata_prefix:
-        url += "&metadataPrefix=" + metadata_prefix
-    if oai_set:
-        url += "&set=" + oai_set
-    if processing:
-        match = processing_regex.match(processing)
-        if match:
-            groupdict = match.groupdict()
-            target = groupdict["target"]
-            generator = groupdict["generator"]
-            variables = variable_regex.search(generator).groups()
-        else:
-            print_r("Error: Unable to parse processing instruction!")
-            processing = None
-    print_b("Harvesting from " + url)
     articles = []
-    file_output = ""
-    while url is not None:
-        try:
-            request = Request(url)
-            url = None
-            response = urlopen(request)
-            content_string = response.read()
-            if out_file_suffix:
-                file_output += content_string.decode()
-            root = ET.fromstring(content_string)
-            records = root.findall(record_xpath, namespaces)
-            counter = 0
-            for record in records:
-                article = {}
-                identifier = record.find(identifier_xpath, namespaces)
-                article["identifier"] = identifier.text
-                collection = record.find(collection_xpath, namespaces)
-                if collection is None:
-                    # Might happen with deleted records
-                    continue
-                for elem, xpath in OAI_COLLECTION_CONTENT.items():
-                    article[elem] = "NA"
-                    if xpath is not None:
-                        result = collection.find(xpath, namespaces)
-                        if result is not None and result.text is not None:
-                            article[elem] = result.text
-                # JOIN2 institutions make use of the invoice variant
-                invoices = collection.findall(invoice_xpath, namespaces)
-                invoice_fee_type = None
-                for invoice in invoices:
-                    invoice_data = _process_oai_invoice(invoice, namespaces, article['period'])
-                    if invoice_data:
-                        # check for consistent fee types
-                        if invoice_fee_type is None:
-                            invoice_fee_type = invoice_data['fee_type']
-                        elif invoice_fee_type != invoice_data['fee_type']:
-                            msg = "Error: Record {} contains invoices with different OA fee types!"
-                            print_r(msg.format(article['identifier']))
-                            article['euro'] = 'NA'
-                            break
-                        if not has_value(article['euro']):
-                            article['euro'] = invoice_data['amount']
-                        else:
-                            old_amount = _auto_atof(article['euro'])
-                            new_amount = _auto_atof(invoice_data['amount'])
-                            article['euro'] = str(old_amount + new_amount)
-                            msg = "More than one APC amount found, adding values ({} + {} = {})."
-                            print_b(msg.format(old_amount, new_amount, old_amount + new_amount))
-                if processing:
-                    target_string = generator
-                    for variable in variables:
-                        target_string = target_string.replace("%" + variable + "%", article[variable])
-                    article[target] = target_string
-                if article["euro"] == 'NA':
-                    print_r("Article skipped, no APC amount found.")
-                    continue
-                if _auto_atof(article["euro"]) <= 0.0:
-                    msg = "Article skipped, non-positive APC amount found ({})."
-                    print_r(msg.format(article['euro']))
-                    continue
-                if article["doi"] != "NA":
-                    norm_doi = get_normalised_DOI(article["doi"])
-                    if norm_doi is None:
-                        article["doi"] = "NA"
-                    else:
-                        article["doi"] = norm_doi
-                articles.append(article)
-                counter += 1
-            token = root.find(token_xpath, namespaces)
-            if token is not None and token.text is not None:
-                url = basic_url + "?verb=ListRecords&resumptionToken=" + token.text
-            print_g(str(counter) + " articles harvested.")
-        except HTTPError as httpe:
-            code = str(httpe.getcode())
-            print("HTTPError: {} - {}".format(code, httpe.reason))
-        except URLError as urle:
-            print("URLError: {}".format(urle.reason))
-    if out_file_suffix:
-        with open("raw_harvest_data_" + out_file_suffix, "w") as out:
-            out.write(file_output)
-    return articles
-
-def _process_opencost_cost_data(cost_data_element, namespaces):
-    """
-    Extract date and cost data from an openCost cost_data element
-
-    Takes an openCost cost_data element (as ElementTree) and extracts
-    both cost data (APCs and additional costs) and a date value. This
-    is a complex task as we have to take several preprocessing rules
-    into account as well as the possibility of multiple occurrences. The
-    whole process consists of 3 steps:
-
-    1) Aggregate date and cost data for each individual invoice, taking
-    into account that amount_paid may occur more than once. Convert
-    foreign currencies to EUR and format dates to YYYY. Use simple
-    addition for identical cost types in case of multi-occurence.
-    2) Merge data from all invoices into one data structure. Check
-    different dates for compatibility, again add identical
-    cost types in case of multi-occurence.
-    3) Map extracted values to OpenAPC fields euro, period and is_hybrid
-    """
-    global EXCHANGE_RATES
-    # We ignore part_of_contract at the moment
-
-    msgs = {
-        'date_inconsistent': 'Multiple {} elements encountered, content ' +
-                     'differs.',
-        'conv_no_period': 'Automated conversion to EUR failed - no period ' +
-                          'value found.',
-        'conv_failed': 'Automated conversion to EUR failed - {}',
-        'conv_no_rate': 'Automated conversion to EUR failed - No annual ' +
-                        'exchange rate available for currency {} and period {}.',
-        'gold_hybrid_mix': 'Encountered cost types "gold-oa" and "hybrid-oa" ' +
-                           'for the same publication.',
-        'multiple_vats': 'Encountered more than one cost_type "vat". Data ' +
-                         'might be ambiguous, please check manually. ',
-        'no_date': 'No date value found, could not extract any content ' +
-                   'for the period field.',
-        'add_amounts_paid': 'Cost type {} occurs more than once in the same ' +
-                       'invoice, adding amounts ({} + {} = {})',
-        'add_amounts_invoices': 'Cost type {} occurs in more than one invoice, ' +
-                                'adding amounts ({} + {} = {})'
-    }
-
-    cost_data_xpaths = {
-        "date_paid": "opencost:dates//opencost:date_paid",
-        "date_invoice": "opencost:dates//opencost:date_invoice",
-        "amount_paid": "opencost:amounts_paid//opencost:amount_paid"
-    }
-
-    ret = {
-        "success": False,
-        "data": None,
-        "error_msg": None
-    }
-
-    invoices = cost_data_element.findall("opencost:invoice", namespaces)
-    invoices_data = []
-    for invoice in invoices:
-        data = {}
-        for field, xpath in cost_data_xpaths.items():
-            results = invoice.findall(xpath, namespaces)
-            for result in results:
-                if result is None or result.text is None:
-                    continue
-                # Apply processing rules depending on field type
-                if field in ["date_paid", "date_invoice"]:
-                    target_field = field
-                    if re.match(r"\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?", result.text):
-                        value = result.txt[:4]
-                    else:
-                        value = result.text
-                elif field == "amount_paid":
-                    cur = result.attrib["currency"]
-                    cost_type = result.attrib["type"]
-                    value = _auto_atof(result.text)
-                    if cur != "EUR":
-                        if "date_paid" in data:
-                            period = data["date_paid"]
-                        elif "date_invoice" in data:
-                            period = data["date_invoice"]
-                        else:
-                            ret["error_msg"] = msgs["conv_no_period"]
-                            return ret
-                        if cur not in EXCHANGE_RATES:
-                            try:
-                                EXCHANGE_RATES[cur] = get_euro_exchange_rates(cur, "A")
-                            except ValueError as ve:
-                                ret["error_msg"] = msgs["conv_failed"].format(str(ve))
-                                return ret
-                        try:
-                            exchange_rate = EXCHANGE_RATES[cur][period]
-                        except KeyError as ke:
-                            ret["error_msg"] = msgs["conv_no_rate"].format(cur, period)
-                            return ret
-                        euro_value = round(value/float(exchange_rate), 2)
-                        msg = 'Automated conversion: {} {} -> {} EUR (period: {})'
-                        msg = msg.format(value, cur, euro_value, period)
-                        print_c(msg)
-                        value = euro_value
-                    # Add monetary values of the same cost type
-                    target_field = cost_type
-                    if target_field in data:
-                        # special case VAT, needs to be solved later
-                        if target_field == 'vat':
-                            ret["error_msg"] = msgs["multiple_vats"]
-                            return ret
-                        old_value = data[target_field]
-                        msg = msgs["add_amounts_paid"]
-                        msg = msg.format(target_field, old_value, value, old_value + value)
-                        print_c(msg)
-                        value = old_value + value
-                data[target_field] = value
-        invoices_data.append(data)
-
-    final_data = {}
-    for invoice_data in invoices_data:
-        # If there are multiple invoices, we have to merge the data in a
-        # meaningful way
-        for field, value in invoice_data.items():
-            if field not in final_data:
-                 # If we have not encountered this type of field yet,
-                # we can safely add it
-                final_data[field] = value
+    for content_string in xml_content_strings:
+        root = ET.fromstring(content_string)
+        records = root.findall(record_xpath, namespaces)
+        counter = 0
+        for record in records:
+            article = {}
+            identifier = record.find(identifier_xpath, namespaces)
+            article["identifier"] = identifier.text
+            collection = record.find(collection_xpath, namespaces)
+            if collection is None:
+                # Might happen with deleted records
                 continue
-            # Otherwise we have to apply special rules on how
-            # to combine data from multiple invoices
-            if field in ["date_paid", "date_invoice"]:
-                if value != final_data[field]:
-                    msg = msgs["date_inconsistent"].format(field)
-                    ret["error_msg"] = msg
-                    return ret
+            for elem, xpath in OAI_COLLECTION_CONTENT.items():
+                article[elem] = "NA"
+                if xpath is not None:
+                    result = collection.find(xpath, namespaces)
+                    if result is not None and result.text is not None:
+                        article[elem] = result.text
+            # JOIN2 institutions make use of the invoice variant
+            invoices = collection.findall(invoice_xpath, namespaces)
+            invoice_fee_type = None
+            for invoice in invoices:
+                invoice_data = _process_oai_invoice(invoice, namespaces, article['period'])
+                if invoice_data:
+                    # check for consistent fee types
+                    if invoice_fee_type is None:
+                        invoice_fee_type = invoice_data['fee_type']
+                    elif invoice_fee_type != invoice_data['fee_type']:
+                        msg = "Error: Record {} contains invoices with different OA fee types!"
+                        print_r(msg.format(article['identifier']))
+                        article['euro'] = 'NA'
+                        break
+                    if not has_value(article['euro']):
+                        article['euro'] = invoice_data['amount']
+                    else:
+                        old_amount = _auto_atof(article['euro'])
+                        new_amount = _auto_atof(invoice_data['amount'])
+                        article['euro'] = str(old_amount + new_amount)
+                        msg = "More than one APC amount found, adding values ({} + {} = {})."
+                        print_b(msg.format(old_amount, new_amount, old_amount + new_amount))
+            if processing:
+                target_string = generator
+                for variable in variables:
+                    target_string = target_string.replace("%" + variable + "%", article[variable])
+                article[target] = target_string
+            if article["euro"] == 'NA':
+                print_r("Article skipped, no APC amount found.")
+                continue
+            euro_float = _auto_atof(article["euro"])
+            if euro_float <= 0.0:
+                msg = "Article skipped, non-positive APC amount found ({})."
+                print_r(msg.format(article['euro']))
+                continue
+            if euro_float.is_integer():
+                 article["euro"] = str(int(euro_float))
             else:
-                # Monetary values can be simply added
-                msg = msgs["add_amounts_invoices"]
-                old_value = final_data[field]
-                msg = msg.format(field, old_value, value, old_value + value)
-                print_c(msg)
-                final_data[field] += value
-    # Final consistency checks + hybrid status extraction
-    if "gold-oa" in final_data and "hybrid-oa" in final_data:
-        ret["error_msg"] = msgs["gold_hybrid_mix"]
-        return ret
-    if "gold-oa" in final_data:
-        final_data["euro"] = final_data["gold-oa"]
-        if "vat" in final_data:
-            final_data["euro"] += final_data["vat"]
-        final_data["is_hybrid"] = "FALSE"
-    if "hybrid-oa" in final_data:
-        final_data["euro"] = final_data["hybrid-oa"]
-        if "vat" in final_data:
-            final_data["euro"] += final_data["vat"]
-        final_data["is_hybrid"] = "TRUE"
-    if "date_paid" in final_data:
-        final_data["period"] =  final_data["date_paid"]
-    elif "date_invoice" in final_data:
-        final_data["period"] =  final_data["date_invoice"]
-    else:
-        ret["error_msg"] = msgs["no_date"]
-        return ret
-    ret["success"] = True
-    ret["data"] = final_data
-    return ret
-
-def process_opencost_xml(xml_content):
-    """
-    Extract OpenAPC compatible field content from openCost XML
-    """
-    namespaces = {
-        "opencost": "https://opencost.de"
-    }
-
-    record_xpath = "opencost:publication"
-    cost_data_xpath = "opencost:cost_data"
-    articles = []
-
-    root = ET.fromstring(xml_content)
-    records = root.findall(record_xpath, namespaces)
-
-    for record in records:
-        publication = {}
-        for field, xpath in OPENCOST_EXTRACTION_FIELDS.items():
-            publication[field] = "NA"
-            if xpath is not None:
-                result = record.find(xpath, namespaces)
-                if result is not None and result.text is not None:
-                    publication[field] = result.text
-        cost_data_element = record.find(cost_data_xpath, namespaces)
-        cost_data_extract = _process_opencost_cost_data(cost_data_element, namespaces)
-        if not cost_data_extract["success"]:
-            prefix = "Error: "
-            if "doi" in publication:
-                prefix = "Error (" +  publication["doi"] + "): "
-            print_r(prefix + cost_data_extract["error_msg"])
-            articles.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
-            continue
-        for field, value in cost_data_extract["data"].items():
-            if field in publication:
-                publication[field] = value
-        articles.append(publication)
+                article["euro"] = str(euro_float)
+            if article["doi"] != "NA":
+                norm_doi = get_normalised_DOI(article["doi"])
+                if norm_doi is None:
+                    article["doi"] = "NA"
+                else:
+                    article["doi"] = norm_doi
+            articles.append(article)
+            counter += 1
+        print_g(str(counter) + " articles harvested.")
     return articles
 
 def find_book_dois_in_crossref(isbn_list):
@@ -1356,10 +1101,8 @@ def find_book_dois_in_crossref(isbn_list):
         return ret_value
     filter_list = ["isbn:" + isbn.strip() for isbn in isbn_list]
     filters = ",".join(filter_list)
-    api_url = "https://api.crossref.org/works?filter="
-    url = api_url + filters + "&rows=500"
-    request = Request(url)
-    request.add_header("User-Agent", USER_AGENT)
+    route = "?filter=" + filters + "&rows=500"
+    request = _build_crossref_request(route)
     try:
         ret = urlopen(request)
         content = ret.read()
@@ -1384,16 +1127,15 @@ def find_book_dois_in_crossref(isbn_list):
     return ret_value
 
 def title_lookup(lookup_title, acccepted_doi_types, auto_accept=False):
-    api_url = "https://api.crossref.org/works?"
     empty_result = {
         "found_title": "",
         "similarity": 0,
         "doi": ""
     }
     params = {"rows": "100", "query.bibliographic": lookup_title}
-    url = api_url + urlencode(params, quote_via=quote_plus)
-    request = Request(url)
-    request.add_header("User-Agent", USER_AGENT)
+    route = "?" + urlencode(params, quote_via=quote_plus)
+    request = _build_crossref_request(route)
+
     skipped_stats = {}
     try:
         ret = urlopen(request)
@@ -1502,6 +1244,25 @@ def _extract_crossref_isxn(crossref_data, identifier_type, representation_type):
                     break
     return ret
 
+def _build_crossref_request(api_route):
+    global CROSSREF_PLUS_TOKEN
+    if CROSSREF_PLUS_TOKEN == "unset":
+        if os.path.isfile("crossref_plus_token"):
+            with open("crossref_plus_token", "r") as f:
+                token = f.read()
+                CROSSREF_PLUS_TOKEN = token.strip()
+                print_c("API Key for Crossref Plus successfully loaded.")
+        else:
+            CROSSREF_PLUS_TOKEN = None
+            print_y('Did not find a file "crossref_plus_token" with ' +
+                    'an API key - the public Crossref API will be used.')
+    url = 'https://api.crossref.org/works/' + api_route
+    req = Request(url)
+    req.add_header('User-Agent', USER_AGENT)
+    if CROSSREF_PLUS_TOKEN is not None and CROSSREF_PLUS_TOKEN != "unset":
+        req.add_header('Crossref-Plus-API-Token', CROSSREF_PLUS_TOKEN)
+    return req
+
 def get_metadata_from_crossref(doi_string):
     """
     Take a DOI and extract metadata relevant to OpenAPC from crossref.
@@ -1602,9 +1363,7 @@ def get_metadata_from_crossref(doi_string):
         error_msg = 'Parse Error: "{}" is no valid DOI'.format(doi_string)
         return {'success': False, 'error_msg': error_msg, 'exception': None}
 
-    url = 'http://api.crossref.org/works/' + doi
-    req = Request(url)
-    req.add_header('User-Agent', USER_AGENT)
+    req = _build_crossref_request(doi)
     ret_value = {'success': True}
     try:
         response = urlopen(req)

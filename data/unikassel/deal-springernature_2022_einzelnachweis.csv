@@ -1,0 +1,76 @@
+pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;article_type;article_group;initial_opt-out
+1;Universität Kassel;Construction Robotics;2509-8780;10.1007/s41693-022-00067-2;https://doi.org/10.1007/s41693-022-00067-2;25.03.2022;25.02.2022;2750;originalpaper;Research Article;optin
+2;Universität Kassel;Computational Mechanics;1432-0924;10.1007/s00466-022-02225-3;https://doi.org/10.1007/s00466-022-02225-3;21.09.2022;16.08.2022;2750;originalpaper;Research Article;optin
+3;Universität Kassel;Journal of Elasticity;1573-2681;10.1007/s10659-021-09873-1;https://doi.org/10.1007/s10659-021-09873-1;03.01.2022;09.12.2021;2750;briefcommunication;Research Article;optin
+4;Universität Kassel;Shape Memory and Superelasticity;2199-3858;10.1007/s40830-022-00400-2;https://doi.org/10.1007/s40830-022-00400-2;30.11.2022;24.10.2022;2750;reviewpaper;Research Article;optin
+5;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-021-00750-3;https://doi.org/10.1007/s11613-021-00750-3;05.01.2022;;917;editorialnotes;Non Research Article;optin
+6;Universität Kassel;Multimedia Tools and Applications;1573-7721;10.1007/s11042-022-12368-3;https://doi.org/10.1007/s11042-022-12368-3;21.04.2022;18.01.2022;2750;originalpaper;Research Article;optin
+7;Universität Kassel;Nonlinear Dynamics;1573-269X;10.1007/s11071-022-07407-5;https://doi.org/10.1007/s11071-022-07407-5;29.04.2022;25.03.2022;2750;originalpaper;Research Article;optin
+8;Universität Kassel;Multimedia Tools and Applications;1573-7721;10.1007/s11042-022-13779-y;https://doi.org/10.1007/s11042-022-13779-y;30.09.2022;05.09.2022;2750;originalpaper;Research Article;optin
+9;Universität Kassel;Microsystem Technologies;1432-1858;10.1007/s00542-022-05361-1;https://doi.org/10.1007/s00542-022-05361-1;20.08.2022;03.08.2022;2750;originalpaper;Research Article;optin
+10;Universität Kassel;Metallurgical and Materials Transactions A;1543-1940;10.1007/s11661-022-06827-7;https://doi.org/10.1007/s11661-022-06827-7;04.10.2022;10.09.2022;2750;briefcommunication;Research Article;optin
+11;Universität Kassel;Information Systems Frontiers;1572-9419;10.1007/s10796-021-10237-2;https://doi.org/10.1007/s10796-021-10237-2;22.01.2022;22.12.2021;2750;originalpaper;Research Article;optin
+12;Universität Kassel;Scientometrics;1588-2861;10.1007/s11192-021-04216-2;https://doi.org/10.1007/s11192-021-04216-2;11.01.2022;16.11.2021;2750;originalpaper;Research Article;optin
+13;Universität Kassel;Zeitschrift für Arbeitswissenschaft;2366-4681;10.1007/s41449-022-00299-6;https://doi.org/10.1007/s41449-022-00299-6;24.01.2022;01.09.2021;2750;originalpaper;Research Article;optin
+14;Universität Kassel;Zeitschrift für Arbeitswissenschaft;2366-4681;10.1007/s41449-022-00320-y;https://doi.org/10.1007/s41449-022-00320-y;10.06.2022;25.05.2022;917;editorialnotes;Non Research Article;optin
+15;Universität Kassel;Current Psychology;1936-4733;10.1007/s12144-022-03237-1;https://doi.org/10.1007/s12144-022-03237-1;14.06.2022;15.05.2022;2750;originalpaper;Research Article;optin
+16;Universität Kassel;Journal of Marketing Analytics;2050-3326;10.1057/s41270-022-00202-6;https://doi.org/10.1057/s41270-022-00202-6;05.12.2022;19.11.2022;2750;originalpaper;Research Article;optin
+17;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00776-1;https://doi.org/10.1007/s11613-022-00776-1;26.07.2022;09.07.2022;917;editorialnotes;Non Research Article;optin
+18;Universität Kassel;Agroforestry Systems;1572-9680;10.1007/s10457-022-00771-6;https://doi.org/10.1007/s10457-022-00771-6;10.10.2022;22.09.2022;2750;originalpaper;Research Article;optin
+19;Universität Kassel;Applicable Algebra in Engineering, Communication and Computing;1432-0622;10.1007/s00200-022-00569-0;https://doi.org/10.1007/s00200-022-00569-0;25.06.2022;17.05.2022;2750;originalpaper;Research Article;optin
+20;Universität Kassel;Contemporary political theory;1476-9336;10.1057/s41296-022-00598-x;https://doi.org/10.1057/s41296-022-00598-x;07.11.2022;18.10.2022;917;bookreview;Non Research Article;optin
+21;Universität Kassel;Learning Environments Research;1573-1855;10.1007/s10984-022-09437-7;https://doi.org/10.1007/s10984-022-09437-7;21.11.2022;28.10.2022;2750;originalpaper;Research Article;optin
+22;Universität Kassel;Journal für Mathematik-Didaktik;1869-2699;10.1007/s13138-022-00216-8;https://doi.org/10.1007/s13138-022-00216-8;02.12.2022;03.11.2022;2750;originalpaper;Research Article;optin
+23;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00757-4;https://doi.org/10.1007/s11613-022-00757-4;18.03.2022;17.02.2022;2750;originalpaper;Research Article;optin
+24;Universität Kassel;Gruppe. Interaktion. Organisation. Zeitschrift für Angewandte Organisationspsychologie (GIO);2366-6218;10.1007/s11612-021-00616-3;https://doi.org/10.1007/s11612-021-00616-3;24.01.2022;09.12.2021;2750;originalpaper;Research Article;optin
+25;Universität Kassel;Computer Supported Cooperative Work (CSCW);1573-7551;10.1007/s10606-021-09420-5;https://doi.org/10.1007/s10606-021-09420-5;12.01.2022;07.11.2021;2750;originalpaper;Research Article;optin
+26;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00795-y;https://doi.org/10.1007/s11613-022-00795-y;17.11.2022;09.09.2022;2750;originalpaper;Research Article;optin
+27;Universität Kassel;Welding in the World;1878-6669;10.1007/s40194-022-01412-3;https://doi.org/10.1007/s40194-022-01412-3;16.11.2022;08.11.2022;2750;originalpaper;Research Article;optin
+28;Universität Kassel;Zeitschrift für Psychodrama und Soziometrie;1862-2526;10.1007/s11620-022-00672-x;https://doi.org/10.1007/s11620-022-00672-x;27.06.2022;24.05.2022;2750;originalpaper;Research Article;optin
+29;Universität Kassel;Food Security;1876-4525;10.1007/s12571-022-01259-y;https://doi.org/10.1007/s12571-022-01259-y;22.03.2022;12.01.2022;2750;originalpaper;Research Article;optin
+30;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00778-z;https://doi.org/10.1007/s11613-022-00778-z;01.08.2022;14.07.2022;917;bookreview;Non Research Article;optin
+31;Universität Kassel;Welding in the World;1878-6669;10.1007/s40194-022-01398-y;https://doi.org/10.1007/s40194-022-01398-y;26.10.2022;11.10.2022;2750;originalpaper;Research Article;optin
+32;Universität Kassel;Journal of Plant Diseases and Protection;1861-3837;10.1007/s41348-022-00646-z;https://doi.org/10.1007/s41348-022-00646-z;09.08.2022;26.06.2022;2750;originalpaper;Research Article;optin
+33;Universität Kassel;Journal für Mathematik-Didaktik;1869-2699;10.1007/s13138-022-00206-w;https://doi.org/10.1007/s13138-022-00206-w;12.05.2022;19.04.2022;2750;originalpaper;Research Article;optin
+34;Universität Kassel;Operations Management Research;1936-9743;10.1007/s12063-022-00275-7;https://doi.org/10.1007/s12063-022-00275-7;01.06.2022;28.04.2022;2750;originalpaper;Research Article;optin
+35;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00779-y;https://doi.org/10.1007/s11613-022-00779-y;01.08.2022;14.07.2022;917;bookreview;Non Research Article;optin
+36;Universität Kassel;Annals of Mathematics and Artificial Intelligence;1573-7470;10.1007/s10472-022-09790-6;https://doi.org/10.1007/s10472-022-09790-6;20.04.2022;24.02.2022;2750;originalpaper;Research Article;optin
+37;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00798-9;https://doi.org/10.1007/s11613-022-00798-9;05.12.2022;10.10.2022;2750;originalpaper;Research Article;optin
+38;Universität Kassel;Sozial Extra;1863-8953;10.1007/s12054-022-00531-x;https://doi.org/10.1007/s12054-022-00531-x;06.12.2022;25.10.2022;2750;originalpaper;Research Article;optin
+39;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00768-1;https://doi.org/10.1007/s11613-022-00768-1;27.06.2022;30.06.2022;2750;originalpaper;Research Article;optin
+40;Universität Kassel;Plant and Soil;1573-5036;10.1007/s11104-021-05292-2;https://doi.org/10.1007/s11104-021-05292-2;01.03.2022;26.12.2021;2750;originalpaper;Research Article;optin
+41;Universität Kassel;Journal of Materials Research;2044-5326;10.1557/s43578-022-00838-1;https://doi.org/10.1557/s43578-022-00838-1;07.12.2022;14.11.2022;2750;originalpaper;Research Article;optin
+42;Universität Kassel;Sozial Extra;1863-8953;10.1007/s12054-022-00501-3;https://doi.org/10.1007/s12054-022-00501-3;02.08.2022;23.05.2022;2750;originalpaper;Research Article;optin
+43;Universität Kassel;Mediterranean Journal of Mathematics;1660-5454;10.1007/s00009-022-02207-y;https://doi.org/10.1007/s00009-022-02207-y;03.12.2022;06.11.2022;2750;originalpaper;Research Article;optin
+44;Universität Kassel;Multimedia Tools and Applications;1573-7721;10.1007/s11042-022-13175-6;https://doi.org/10.1007/s11042-022-13175-6;26.04.2022;11.04.2022;2750;originalpaper;Research Article;optin
+45;Universität Kassel;Euphytica;1573-5060;10.1007/s10681-022-03072-2;https://doi.org/10.1007/s10681-022-03072-2;03.09.2022;11.07.2022;2750;originalpaper;Research Article;optin
+46;Universität Kassel;Zeitschrift für Grundschulforschung;2523-3181;10.1007/s42278-022-00148-9;https://doi.org/10.1007/s42278-022-00148-9;30.05.2022;21.04.2022;2750;originalpaper;Research Article;optin
+47;Universität Kassel;SN Computer Science;2661-8907;10.1007/s42979-022-01442-0;https://doi.org/10.1007/s42979-022-01442-0;21.11.2022;07.10.2022;2750;originalpaper;Research Article;optin
+48;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-021-00747-y;https://doi.org/10.1007/s11613-021-00747-y;10.01.2022;29.10.2021;2750;originalpaper;Research Article;optin
+49;Universität Kassel;Scientometrics;1588-2861;10.1007/s11192-022-04529-w;https://doi.org/10.1007/s11192-022-04529-w;11.10.2022;12.09.2022;2750;originalpaper;Research Article;optin
+50;Universität Kassel;Unterrichtswissenschaft;2520-873X;10.1007/s42010-022-00152-z;https://doi.org/10.1007/s42010-022-00152-z;03.08.2022;07.07.2022;2750;originalpaper;Research Article;optin
+51;Universität Kassel;Empirical Economics;1435-8921;10.1007/s00181-021-02185-2;https://doi.org/10.1007/s00181-021-02185-2;03.02.2022;06.12.2021;2750;originalpaper;Research Article;optin
+52;Universität Kassel;Politische Vierteljahresschrift;1862-2860;10.1007/s11615-022-00426-2;https://doi.org/10.1007/s11615-022-00426-2;28.09.2022;05.09.2022;917;bookreview;Non Research Article;optin
+53;Universität Kassel;Sustainability Science;1862-4057;10.1007/s11625-022-01111-4;https://doi.org/10.1007/s11625-022-01111-4;22.03.2022;08.02.2022;2750;originalpaper;Research Article;optin
+54;Universität Kassel;Archive of Applied Mechanics;1432-0681;10.1007/s00419-022-02153-x;https://doi.org/10.1007/s00419-022-02153-x;16.04.2022;24.03.2022;2750;originalpaper;Research Article;optin
+55;Universität Kassel;Human Studies;1572-851X;10.1007/s10746-022-09629-3;https://doi.org/10.1007/s10746-022-09629-3;15.06.2022;06.05.2022;2750;originalpaper;Research Article;optin
+56;Universität Kassel;German Journal of Exercise and Sport Research;2509-3150;10.1007/s12662-022-00803-4;https://doi.org/10.1007/s12662-022-00803-4;18.03.2022;15.02.2022;2750;originalpaper;Research Article;optin
+57;Universität Kassel;Journal of Business Economics;1861-8928;10.1007/s11573-022-01117-5;https://doi.org/10.1007/s11573-022-01117-5;25.10.2022;02.10.2022;2750;originalpaper;Research Article;optin
+58;Universität Kassel;Phenomenology and the Cognitive Sciences;1572-8676;10.1007/s11097-022-09853-3;https://doi.org/10.1007/s11097-022-09853-3;22.10.2022;04.09.2022;2750;originalpaper;Research Article;optin
+59;Universität Kassel;Social Psychology of Education;1573-1928;10.1007/s11218-022-09742-2;https://doi.org/10.1007/s11218-022-09742-2;05.12.2022;16.11.2022;2750;originalpaper;Research Article;optin
+60;Universität Kassel;Social Psychology of Education;1573-1928;10.1007/s11218-022-09700-y;https://doi.org/10.1007/s11218-022-09700-y;04.07.2022;06.05.2022;2750;originalpaper;Research Article;optin
+61;Universität Kassel;Sustainability Science;1862-4057;10.1007/s11625-022-01164-5;https://doi.org/10.1007/s11625-022-01164-5;21.06.2022;19.04.2022;2750;originalpaper;Research Article;optin
+62;Universität Kassel;Electronic Markets;1422-8890;10.1007/s12525-022-00597-1;https://doi.org/10.1007/s12525-022-00597-1;20.10.2022;19.09.2022;2750;originalpaper;Research Article;optin
+63;Universität Kassel;Social Justice Research;1573-6725;10.1007/s11211-022-00388-1;https://doi.org/10.1007/s11211-022-00388-1;17.02.2022;28.01.2022;2750;originalpaper;Research Article;optin
+64;Universität Kassel;The Journal of Membrane Biology;1432-1424;10.1007/s00232-022-00238-w;https://doi.org/10.1007/s00232-022-00238-w;13.05.2022;05.04.2022;2750;originalpaper;Research Article;optin
+65;Universität Kassel;Biology and Fertility of Soils;1432-0789;10.1007/s00374-022-01656-7;https://doi.org/10.1007/s00374-022-01656-7;10.08.2022;21.07.2022;2750;originalpaper;Research Article;optin
+66;Universität Kassel;Instructional Science;1573-1952;10.1007/s11251-022-09583-8;https://doi.org/10.1007/s11251-022-09583-8;19.04.2022;20.02.2022;2750;originalpaper;Research Article;optin
+67;Universität Kassel;NTM Zeitschrift für Geschichte der Wissenschaften, Technik und Medizin;1420-9144;10.1007/s00048-022-00344-9;https://doi.org/10.1007/s00048-022-00344-9;25.08.2022;02.08.2022;917;bookreview;Non Research Article;optin
+68;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00791-2;https://doi.org/10.1007/s11613-022-00791-2;10.11.2022;28.09.2022;917;editorialnotes;Non Research Article;optin
+69;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00772-5;https://doi.org/10.1007/s11613-022-00772-5;12.07.2022;20.06.2022;2750;originalpaper;Research Article;optin
+70;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00785-0;https://doi.org/10.1007/s11613-022-00785-0;05.09.2022;01.08.2022;2750;originalpaper;Research Article;optin
+71;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00759-2;https://doi.org/10.1007/s11613-022-00759-2;30.03.2022;25.02.2022;2750;originalpaper;Research Article;optin
+72;Universität Kassel;Organisationsberatung, Supervision, Coaching;1862-2577;10.1007/s11613-022-00755-6;https://doi.org/10.1007/s11613-022-00755-6;18.03.2022;23.02.2022;2750;originalpaper;Research Article;optin
+73;Universität Kassel;Social Psychology of Education;1573-1928;10.1007/s11218-021-09681-4;https://doi.org/10.1007/s11218-021-09681-4;04.01.2022;20.11.2021;2750;originalpaper;Research Article;optin
+74;Universität Kassel;Medizinrecht;1433-8629;10.1007/s00350-022-6332-5;https://doi.org/10.1007/s00350-022-6332-5;30.11.2022;;2750;originalpaper;Research Article;optin
+75;Universität Kassel;Medizinrecht;1433-8629;10.1007/s00350-022-6356-x;https://doi.org/10.1007/s00350-022-6356-x;22.12.2022;;2750;originalpaper;Research Article;optin

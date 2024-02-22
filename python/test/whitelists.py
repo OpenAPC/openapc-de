@@ -39,6 +39,7 @@ JOURNAL_OWNER_CHANGED = {
     "0024-4066": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society
     "1095-8312": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society (electronic)
     "0024-4074": ["Wiley-Blackwell", "Oxford University Press (OUP)"], #  Botanical Journal of the Linnean Society
+    "1095-8339": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biological Journal of the Linnean Society (electronic)
     "1087-2981": ["Co-Action Publishing", "Informa UK Limited"], # Medical Education Online
     "1654-9716": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action (print)
     "1654-9880": ["Co-Action Publishing", "Informa UK Limited"], # Global Health Action
@@ -317,7 +318,8 @@ JOURNAL_OWNER_CHANGED = {
     "0031-8884": ["International Phycological Society", "Informa UK Limited"], # Phycologia
     "2330-2968": ["International Phycological Society", "Informa UK Limited"], # Phycologia (electronic)
     "0923-7534": ["Oxford University Press (OUP)", "Elsevier BV"], # Annals of Oncology
-    "1139-6709": ["Spanish Society for Microbiology", "Springer Nature"], # International Microbiology
+    "1618-1905": ["Spanish Society for Microbiology", "Springer Nature"], # International Microbiology
+    "1139-6709": ["Spanish Society for Microbiology", "Springer Nature"], # International Microbiology (linking)
     "2045-8940": ["SAGE Publications", "Wiley-Blackwell"], # Pulmonary Circulation
     "2045-8932": ["SAGE Publications", "Wiley-Blackwell"], # Pulmonary Circulation (linking)
     "2047-4938": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Biometrics
@@ -391,9 +393,55 @@ JOURNAL_OWNER_CHANGED = {
 	"1435-0653": ["Crop Science Society of America", "Wiley-Blackwell"], # Crop Science (electronic)
 	"1365-2095": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Nutrition 
 	"1353-5773": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Nutrition (print)
-
-
-
+	"2475-0387": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Theoretical Social Psychology
+	"1365-2109": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research 
+	"1355-557X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research (print)
+	"2095-9273": ["Springer Nature", "Elsevier BV"], # Science Bulletin 
+	"0014-3820": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution 
+	"1558-5646": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution (electronic)
+	"0004-8038": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology 
+	"2732-4613": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology (electronic)
+	"1865-1682": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases 
+	"1865-1674": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases (print)
+	"0961-7671": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice 
+	"2042-7174": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice (electronic)
+	"0307-6938": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology 
+	"1365-2230": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology (electronic)
+	"1640-5544": ["Walter de Gruyter GmbH", "Termedia Sp. z.o.o."], # Journal of Human Kinetics 
+	"1899-7562": ["Walter de Gruyter GmbH", "Termedia Sp. z.o.o."], # Journal of Human Kinetics (electronic)
+	"2206-3552": ["Ivyspring International Publisher", "Copernicus GmbH"], # Journal of Bone and Joint Infection
+	"0962-7286": ["Universities Federation for Animal Welfare", "Cambridge University Press (CUP)"], # Animal Welfare 
+	"2054-1538": ["Universities Federation for Animal Welfare", "Cambridge University Press (CUP)"], # Animal Welfare (electronic)
+	"0964-1998": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series A: Statistics in Society 
+	"1467-985X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series A: Statistics in Society (electronic)
+	"1472-765X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Letters in Applied Microbiology 
+	"0266-8254": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Letters in Applied Microbiology (linking)
+	"1431-9276": ["Cambridge University Press (CUP)", "Oxford University Press (OUP)"], # Microscopy and Microanalysis 
+	"1435-8115": ["Cambridge University Press (CUP)", "Oxford University Press (OUP)"], # Microscopy and Microanalysis (electronic)
+	"0007-0963": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # British Journal of Dermatology 
+	"1365-2133": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # British Journal of Dermatology (electronic)
+	"0022-3573": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Pharmacy and Pharmacology 
+	"2042-7158": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Pharmacy and Pharmacology (electronic)
+	"0309-8249": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education 
+	"1467-9752": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education (electronic)
+	"1742-1241": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice 
+	"1368-5031": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice (print)
+	"2241-5793": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki 
+	"1790-045X": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki (linking)
+	"0025-5300": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing 
+	"2195-8572": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing (electronic)
+	"1755-0238": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research 
+	"1322-7130": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research (print)
+	"1524-4741": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal 
+	"1075-122X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal (print)
+	"2056-3744": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution Letters 
+	"1545-2263": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring 
+	"1545-2255": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring (print)
+	"1365-2524": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Health & Social Care in the Community 
+	"0966-0410": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Health & Social Care in the Community (linking)
+	"2471-254X": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology Communications 
+	"2375-1916": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives 
+	"2375-1924": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives (electronic)
 
 }
 
@@ -513,7 +561,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1479-1641", # Diabetes and Vascular Disease Research, Gold OA since 2020
     "0022-2275", # The Journal of Lipid Research, Gold OA since 2021
     "1535-9476", # Molecular & Cellular Proteomics, Gold OA since 2021
-    "1759-4685", # Journal of Molecular Cell Biology
+    "1759-4685", # Journal of Molecular Cell Biology, Gold OA since 2019
     "0355-3140", # Scandinavian Journal of Work, Environment & Health, Gold OA since 2021
     "1015-6305", # Brain Pathology
     "1751-8687", # IET Generation, Transmission & Distribution, Gold OA since 2021
@@ -641,6 +689,45 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1262-3318", # ESAIM: Probability and Statistics, Subscribe to Open (S2O) in 2021
     "2257-7777", # Mechanics & Industry, Gold OA since 2021
     "1365-2095", # Aquaculture Nutrition, Gold OA since 2022
+    "0030-6053", # Oryx, Gold OA since 2021
+    "1365-2109", # Aquaculture Research, Gold OA since 2023
+    "1355-557X", # Aquaculture Research, Gold OA since 2023 (linking)
+    "2475-0387", # Journal of Theoretical Social Psychology, Gold OA since 2022
+    "1478-6451", # International Journal of Sustainable Energy, Gold OA since 2023
+    "0067-0049", # The Astrophysical Journal Supplement Series, Gold OA since 2022
+    "0737-4038", # Molecular Biology and Evolution, Gold OA since 2021
+    "1054-3139", # ICES Journal of Marine Science, Gold OA since 2023
+    "2196-0216", # ChemElectroChem, Gold OA since 2023
+    "1865-1682", # Transboundary and Emerging Diseases, Gold OA since 2023
+    "1865-1674", # Transboundary and Emerging Diseases, Gold OA since 2023 (linking)
+    "1876-3413", # International Health, Gold OA since 2020
+    "1946-3138", # International Journal of Urban Sustainable Development, Gold OA since 2022
+    "0171-9335", # European Journal of Cell Biology, Gold OA since 2021
+    "0147-6513", # Ecotoxicology and Environmental Safety, Gold OA since 2021
+    "1476-7058", # The Journal of Maternal-Fetal & Neonatal Medicine, Gold OA since 2023
+    "0144-3615", # Journal of Obstetrics and Gynaecology, Gold OA since 2023
+    "1947-5683", # Annals of GIS, Gold OA since 2019
+    "0031-1820", # Parasitology, Gold OA since 2023
+    "0962-7286", # Animal Welfare, Gold OA since 2023
+    "2154-1248", # Small GTPases, Gold OA since 2023
+    "1742-1241", # International Journal of Clinical Practice, Gold OA since 2022
+    "1368-5031", # International Journal of Clinical Practice, Gold OA since 2022 (linking)
+    "2372-3556", # Molecular & Cellular Oncology, Gold OA since 2022
+    "1025-3890", # Stress, Gold OA since 2022
+    "1544-0478", # Journal of Natural Fibers, Gold OA since 2023
+    "0300-9483", # Boreas, Gold OA since 2022
+    "1753-0393", # Journal of Diabetes, Gold OA since 2022
+    "1755-0238", # Australian Journal of Grape and Wine Research, Gold OA since 2022
+    "1524-4741", # The Breast Journal, Gold OA since 2022
+    "1753-8947", # International Journal of Digital Earth, Gold OA since 2022
+    "2510-2036", # Computing and Software for Big Science, Gold OA since 2023
+    "2510-2044", # Computing and Software for Big Science, Gold OA since 2023 (linking)
+    "1545-2263", # Structural Control and Health Monitoring, Gold OA since 2023
+    "1545-2255", # Structural Control and Health Monitoring, Gold OA since 2023 (linking)
+    "2688-4062", # Small Structures, Gold OA since 2023
+    "1758-2229", # Environmental Microbiology Reports, Gold OA since 2023
+    "1365-2524", # Health & Social Care in the Community, Gold OA since 2023
+    "0966-0410", # Health & Social Care in the Community, Gold OA since 2023 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
