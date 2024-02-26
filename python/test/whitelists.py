@@ -728,6 +728,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1758-2229", # Environmental Microbiology Reports, Gold OA since 2023
     "1365-2524", # Health & Social Care in the Community, Gold OA since 2023
     "0966-0410", # Health & Social Care in the Community, Gold OA since 2023 (linking)
+    "1083-3021", # Journal of Mammary Gland Biology and Neoplasia, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
