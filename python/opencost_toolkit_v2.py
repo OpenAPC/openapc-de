@@ -10,6 +10,7 @@ import openapc_toolkit as oat
 
 OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("institution_ror", "opencost:institution//opencost:id[opencost:type='ror']//opencost:value"),
+    ("institution", "opencost:institution//opencost:name[opencost:type='short']//opencost:value"),
     ("period", None),
     ("euro", None),
     ("doi", "opencost:primary_identifier//opencost:doi"),
@@ -29,7 +30,34 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("reprint", None),
     ("submission fee", None),
     ("payment fee", None),
+    ("url", None)
 ])
+
+# Do not quote the values in 'period' and all cost columns
+OPENCOST_STANDARD_QUOTEMASK = [
+    True,
+    True,
+    False,
+    False,
+    True,
+    True,
+    True,
+    True,
+    True,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False
+]
 
 def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
     """
@@ -204,6 +232,44 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
     ret["data"] = extracted_invoices
     return ret
 
+def process_opencost_oai_records(processing_instructions=None, *xml_content_strings):
+    namespaces = {
+        "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
+        "opencost": "https://opencost.de"
+    }
+    record_xpath = ".//oai_2_0:record"
+    data_xpath = ".//opencost:data"
+    identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
+
+    extracted_publications = []
+    for xml_content in xml_content_strings:
+        root = ET.fromstring(xml_content)
+        records = root.findall(record_xpath, namespaces)
+        for record in records:
+            data_element = record.find(data_xpath, namespaces)
+            data_element_xml = ET.tostring(data_element)
+            publications = process_opencost_xml(data_element_xml)
+            identifier = record.find(identifier_xpath, namespaces)
+            for publication in publications: # Should only be one
+                publication["identifier"] = identifier.text
+                if processing_instructions:
+                    target_string = processing_instructions["generator"]
+                    for variable in processing_instructions["variables"]:
+                        target_string = target_string.replace("%" + variable + "%", publication[variable])
+                    publication[processing_instructions["target"]] = target_string
+                for key in list(publication.keys()):
+                    # postprocessing
+                    if publication[key] is not None:
+                        publication[key] = str(publication[key])
+                        if key == "doi":
+                            norm_doi = oat.get_normalised_DOI(publication["doi"])
+                            if norm_doi is None:
+                                publication["doi"] = "NA"
+                            else:
+                                publication["doi"] = norm_doi
+            extracted_publications += publications
+    return extracted_publications
+
 def process_opencost_xml(*xml_content_strings):
     """
     Extract OpenAPC compatible field content from openCost XML
@@ -217,10 +283,10 @@ def process_opencost_xml(*xml_content_strings):
     both and calculate cost data/periods for publications published
     under an agreement using the invoice id.
     """
+
     namespaces = {
         "opencost": "https://opencost.de"
     }
-
     data_xpath = ".//opencost:data"
     publication_xpath = "opencost:publication"
     contract_xpath = "opencost:contract"
@@ -231,39 +297,36 @@ def process_opencost_xml(*xml_content_strings):
 
     for xml_content in xml_content_strings:
         root = ET.fromstring(xml_content)
-        data_elements = root.findall(data_xpath, namespaces)
-        for data_element in data_elements:
-            publications = data_element.findall(publication_xpath, namespaces)
-            for publication in publications:
-                publication_data = {}
-                for field, xpath in OPENCOST_EXTRACTION_FIELDS.items():
-                    publication_data[field] = "NA"
-                    if xpath is not None:
-                        result = publication.find(xpath, namespaces)
-                        if result is not None and result.text is not None:
-                            publication_data[field] = result.text
-                cost_data_element = publication.find(cost_data_xpath, namespaces)
-                cost_data_extract = _process_oc_publication_cost_data(cost_data_element, namespaces)
-                if not cost_data_extract["success"]:
-                    prefix = "Error: "
-                    if "doi" in publication_data:
-                        prefix = "Error (" +  publication_data["doi"] + "): "
-                    oat.print_r(prefix + cost_data_extract["error_msg"])
-                    extracted_publications.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
-                    continue
-                for field, value in cost_data_extract["data"].items():
-                    if field in publication_data:
-                        publication_data[field] = value
-                extracted_publications.append(publication_data)
-            contracts = data_element.findall(contract_xpath, namespaces)
-            for contract in contracts:
-                cost_data_element = contract.find(cost_data_xpath, namespaces)
-                invoices_extract = _process_oc_contract_cost_data(cost_data_element, namespaces)
-                if not invoices_extract["success"]:
-                    oat.print_r("Error: " + invoices_extract["error_msg"])
-                    continue
-                extracted_invoices += invoices_extract["data"]
-
+        publications = root.findall(publication_xpath, namespaces)
+        for publication in publications:
+            publication_data = {}
+            for field, xpath in OPENCOST_EXTRACTION_FIELDS.items():
+                publication_data[field] = "NA"
+                if xpath is not None:
+                    result = publication.find(xpath, namespaces)
+                    if result is not None and result.text is not None:
+                        publication_data[field] = result.text
+            cost_data_element = publication.find(cost_data_xpath, namespaces)
+            cost_data_extract = _process_oc_publication_cost_data(cost_data_element, namespaces)
+            if not cost_data_extract["success"]:
+                prefix = "Error: "
+                if "doi" in publication_data:
+                    prefix = "Error (" +  publication_data["doi"] + "): "
+                oat.print_r(prefix + cost_data_extract["error_msg"])
+                extracted_publications.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
+                continue
+            for field, value in cost_data_extract["data"].items():
+                if field in publication_data:
+                    publication_data[field] = value
+            extracted_publications.append(publication_data)
+        contracts = root.findall(contract_xpath, namespaces)
+        for contract in contracts:
+            cost_data_element = contract.find(cost_data_xpath, namespaces)
+            invoices_extract = _process_oc_contract_cost_data(cost_data_element, namespaces)
+            if not invoices_extract["success"]:
+                oat.print_r("Error: " + invoices_extract["error_msg"])
+                continue
+            extracted_invoices += invoices_extract["data"]
     extracted_publications = _apply_contract_data(extracted_publications, extracted_invoices)
     return extracted_publications
 
@@ -305,7 +368,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     }
 
     part_of_contract_xpaths = {
-        "contract_primary_identifier": "opencost:primary_identifier",
+        "contract_primary_identifier": "opencost:primary_identifier/opencost:value",
         "contract_invoice_id": "opencost:invoice_id"
     }
 
