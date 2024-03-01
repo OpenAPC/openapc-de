@@ -56,7 +56,7 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
     messages = messages['dry'] if dry_run else messages['wet']
 
     if not os.path.isfile(file_path):
-        return (articles, None)
+        return articles
     enriched_blacklist = ["institution", "publisher", "journal_full_title", "issn", "license_ref", "pmid"]
     article_dict = OrderedDict()
     for article in articles:
@@ -114,7 +114,7 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
             mask = oat.OPENAPC_STANDARD_QUOTEMASK if enriched_file else None
             writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
             writer.write_rows(updated_lines)
-    return article_dict.values()
+    return list(article_dict.values())
 
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact"):
     """
