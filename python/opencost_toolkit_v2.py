@@ -267,7 +267,17 @@ def process_opencost_oai_records(processing_instructions=None, *xml_content_stri
                                 publication["doi"] = "NA"
                             else:
                                 publication["doi"] = norm_doi
-            extracted_publications += publications
+                        if key == "euro":
+                            if not oat.has_value(publication["euro"]):
+                                oat.print_r("Article skipped, no APC amount found.")
+                                break
+                            euro_float = oat._auto_atof(publication["euro"])
+                            if euro_float is not None and euro_float <= 0.0:
+                                msg = "Article skipped, non-positive APC amount found ({})."
+                                oat.print_r(msg.format(publication['euro']))
+                                break
+                else:
+                    extracted_publications += publications
     return extracted_publications
 
 def process_opencost_xml(*xml_content_strings):
