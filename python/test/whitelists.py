@@ -442,7 +442,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2471-254X": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology Communications 
 	"2375-1916": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives 
 	"2375-1924": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives (electronic)
-	"1550-2783": ["Springer Nature", "Informa UK Limited"], # Journal of the International Society of Sports Nutrition
+	"1550-2783": ["Springer Science + Business Media", "Springer Nature", "Informa UK Limited"], # Journal of the International Society of Sports Nutrition
 
 }
 
