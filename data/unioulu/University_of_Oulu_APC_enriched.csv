@@ -1,81 +1,81 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"University of Oulu",2022,3150,"10.1016/j.redox.2022.102243",FALSE,"Elsevier BV","Redox Biology","2213-2317","2213-2317",NA,"2213-2317","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35074541","PMC8792260","ut:000788269000002",NA,TRUE
-"University of Oulu",2022,1140,"10.1016/j.jmrt.2022.01.022",FALSE,"Elsevier BV","Journal of Materials Research and Technology","2238-7854","2238-7854",NA,"2238-7854","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000779145400003",NA,TRUE
-"University of Oulu",2022,2264.15,"10.3389/fenrg.2022.845303",FALSE,"Frontiers Media SA","Frontiers in Energy Research","2296-598X",NA,"2296-598X","2296-598X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000763449600001",NA,TRUE
-"University of Oulu",2022,1790,"10.1038/s41598-022-05801-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"35102239","PMC8803843","ut:000749168300057",NA,TRUE
-"University of Oulu",2022,1803.43,"10.3390/app12031232",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000756030100001",NA,TRUE
-"University of Oulu",2022,2700.45,"10.3389/fpsyt.2022.784995",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","1664-0640","https://creativecommons.org/licenses/by/4.0/",TRUE,"35321229","PMC8936173","ut:000773607500001",NA,TRUE
-"University of Oulu",2022,1440,"10.1016/j.jmrt.2022.01.073",FALSE,"Elsevier BV","Journal of Materials Research and Technology","2238-7854","2238-7854",NA,"2238-7854","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000779142100001",NA,TRUE
-"University of Oulu",2022,1602.53,"10.1371/journal.pone.0263458",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"35130332","PMC8820641","ut:000805530700032",NA,TRUE
-"University of Oulu",2022,4587.94,"10.1523/jneurosci.0934-21.2022",TRUE,"Society for Neuroscience","Journal of Neuroscience","0270-6474","0270-6474","1529-2401","0270-6474",NA,TRUE,"35135852","PMC8944230",NA,NA,FALSE
-"University of Oulu",2022,2656.41,"10.3389/fnins.2022.836378",FALSE,"Frontiers Media SA","Frontiers in Neuroscience","1662-453X",NA,"1662-453X","1662-453X","https://creativecommons.org/licenses/by/4.0/",TRUE,"35185462","PMC8853630","ut:000759939400001",NA,TRUE
-"University of Oulu",2022,1803.43,"10.3390/ma15030714",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"35160657","PMC8836694","ut:000756359000001",NA,TRUE
-"University of Oulu",2022,614.49,"10.1109/tgcn.2021.3138792",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Green Communications and Networking","2473-2400",NA,"2473-2400","2473-2400","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,FALSE
-"University of Oulu",2022,874.73,"10.3389/frcmn.2021.710781",FALSE,"Frontiers Media SA","Frontiers in Communications and Networks","2673-530X",NA,"2673-530X","2673-530X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Oulu",2022,811.54,"10.3390/d14020118",FALSE,"MDPI AG","Diversity","1424-2818",NA,"1424-2818","1424-2818","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000764021000001",NA,TRUE
-"University of Oulu",2022,1088.19,"10.3390/w14050755",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Oulu",2022,2254.28,"10.3390/ijerph19052775",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","1660-4601","https://creativecommons.org/licenses/by/4.0/",TRUE,"35270466","PMC8910666","ut:000819940400001",NA,TRUE
-"University of Oulu",2022,1463,"10.5194/acp-22-2669-2022",FALSE,"Copernicus GmbH","Atmospheric Chemistry and Physics","1680-7324",NA,"1680-7324","1680-7316","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000763303000001",NA,TRUE
-"University of Oulu",2022,2000,"10.1515/npprj-2021-0046",TRUE,"Walter de Gruyter GmbH","Nordic Pulp & Paper Research Journal","2000-0669","0283-2631","2000-0669","0283-2631","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000753958400001",NA,FALSE
-"University of Oulu",2022,1154.19,"10.3390/life12040588",FALSE,"MDPI AG","Life","2075-1729",NA,"2075-1729","2075-1729","https://creativecommons.org/licenses/by/4.0/",TRUE,"35455079","PMC9028050","ut:000785467300001",NA,TRUE
-"University of Oulu",2022,1800,"10.1098/rsob.210365",FALSE,"The Royal Society","Open Biology","2046-2441",NA,"2046-2441","2046-2441","https://royalsociety.org/journals/ethics-policies/data-sharing-mining/",TRUE,"35317661","PMC8941426","ut:000773769000001",NA,TRUE
-"University of Oulu",2022,1752,"10.1016/j.jbc.2022.101721",FALSE,"Elsevier BV","Journal of Biological Chemistry","0021-9258","0021-9258",NA,"0021-9258","http://creativecommons.org/licenses/by/4.0/",TRUE,"35151685","PMC8914383","ut:000789394500008",NA,TRUE
-"University of Oulu",2022,1818.93,"10.2196/34987",FALSE,"JMIR Publications Inc.","JMIR Research Protocols","1929-0748",NA,"1929-0748","1929-0748",NA,TRUE,"35436229","PMC9052026","ut:000832961700028",NA,TRUE
-"University of Oulu",2022,1589.5,"10.1186/s13063-022-06004-6",FALSE,"Springer Nature","Trials","1745-6215",NA,"1745-6215","1745-6215","https://creativecommons.org/licenses/by/4.0",TRUE,"35042563","PMC8764771","ut:000743933400001",NA,TRUE
-"University of Oulu",2022,1899.5,"10.1186/s40035-022-00297-y",FALSE,"Springer Nature","Translational Neurodegeneration","2047-9158",NA,"2047-9158","2047-9158","https://creativecommons.org/licenses/by/4.0",TRUE,"35418104","PMC9006459","ut:000782422700001",NA,TRUE
-"University of Oulu",2022,1470,"10.1016/j.toxrep.2022.03.046",FALSE,"Elsevier BV","Toxicology Reports","2214-7500","2214-7500",NA,"2214-7500","http://creativecommons.org/licenses/by/4.0/",TRUE,"35399214","PMC8989696",NA,NA,TRUE
-"University of Oulu",2022,1470,"10.1016/j.toxrep.2022.03.030",FALSE,"Elsevier BV","Toxicology Reports","2214-7500","2214-7500",NA,"2214-7500","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Oulu",2022,2170,"10.2166/nh.2022.120",FALSE,"IWA Publishing","Hydrology Research","0029-1277","0029-1277","2224-7955","0029-1277","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000787776000001",NA,TRUE
-"University of Oulu",2022,2746.51,"10.3389/fmats.2022.877160",FALSE,"Frontiers Media SA","Frontiers in Materials","2296-8016",NA,"2296-8016","2296-8016","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000808060400001",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
-"University of Oulu",2022,1803.43,"10.3390/min12030386",FALSE,"MDPI AG","Minerals","2075-163X",NA,"2075-163X","2075-163X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000778239600001",NA,TRUE
-"University of Oulu",2022,1397.6,"10.3390/met12030522",FALSE,"MDPI AG","Metals","2075-4701",NA,"2075-4701","2075-4701","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000774145100001",NA,TRUE
-"University of Oulu",2022,2730.6,"10.3389/fpls.2022.800161",FALSE,"Frontiers Media SA","Frontiers in Plant Science","1664-462X",NA,"1664-462X","1664-462X","https://creativecommons.org/licenses/by/4.0/",TRUE,"35574107","PMC9100816","ut:000795699700001",NA,TRUE
-"University of Oulu",2022,1065.16,"10.3389/frai.2022.844817",FALSE,"Frontiers Media SA","Frontiers in Artificial Intelligence","2624-8212",NA,"2624-8212","2624-8212","https://creativecommons.org/licenses/by/4.0/",TRUE,"35558170","PMC9087902",NA,NA,TRUE
-"University of Oulu",2022,1752,"10.1016/j.jbc.2022.101787",FALSE,"Elsevier BV","Journal of Biological Chemistry","0021-9258","0021-9258",NA,"0021-9258","http://creativecommons.org/licenses/by/4.0/",TRUE,"35247391","PMC8988008","ut:000793617400006",NA,TRUE
-"University of Oulu",2022,1824.96,"10.1186/s13578-022-00790-x",FALSE,"Springer Nature","Cell & Bioscience","2045-3701",NA,"2045-3701","2045-3701","https://creativecommons.org/licenses/by/4.0",TRUE,"35505422","PMC9066845","ut:000790237200002",NA,TRUE
-"University of Oulu",2022,984,"10.1016/j.ocarto.2022.100250",FALSE,"Elsevier BV","Osteoarthritis and Cartilage Open","2665-9131","2665-9131",NA,"2665-9131","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Oulu",2022,1082.06,"10.3390/app12084024",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000785147600001",NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
-"University of Oulu",2022,1310,"10.1016/j.imu.2022.100941",FALSE,"Elsevier BV","Informatics in Medicine Unlocked","2352-9148","2352-9148",NA,"2352-9148","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35399333","PMC8985417",NA,NA,TRUE
-"University of Oulu",2022,885.53,"10.3389/feduc.2022.865161",FALSE,"Frontiers Media SA","Frontiers in Education","2504-284X",NA,"2504-284X","2504-284X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000793826800001",NA,TRUE
-"University of Oulu",2022,1790,"10.1038/s41598-022-09653-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"35393492","PMC8990013","ut:000779768200058",NA,TRUE
-"University of Oulu",2022,1452.96,"10.1098/rsos.220292",FALSE,"The Royal Society","Royal Society Open Science","2054-5703",NA,"2054-5703","2054-5703","https://royalsociety.org/journals/ethics-policies/data-sharing-mining/",TRUE,"35719877","PMC9198510","ut:000811819800006",NA,TRUE
-"University of Oulu",2022,1713.25,"10.3390/atmos13050789",FALSE,"MDPI AG","Atmosphere","2073-4433",NA,"2073-4433","2073-4433","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000802491400001",NA,TRUE
-"University of Oulu",2022,2280,"10.1080/07853890.2022.2075915",FALSE,"Informa UK Limited","Annals of Medicine","0785-3890","0785-3890","1365-2060","0785-3890","http://creativecommons.org/licenses/by/4.0/",TRUE,"35594302","PMC9132486","ut:000798326600001",NA,TRUE
-"University of Oulu",2022,1244.36,"10.3390/ma15103517",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"35629543","PMC9144251","ut:000801852800001",NA,TRUE
-"University of Oulu",2022,1790,"10.1038/s41598-022-12198-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"35597771","PMC9124207","ut:000798485300020",NA,TRUE
-"University of Oulu",2022,2668.74,"10.1177/0271678x221099703",TRUE,"SAGE Publications","Journal of Cerebral Blood Flow & Metabolism","0271-678X","0271-678X","1559-7016","0271-678X","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"35570730","PMC9536129",NA,NA,FALSE
-"University of Oulu",2022,2238.49,"10.1155/2022/2606916",FALSE,"Hindawi Publishing Corporation","Mediators of Inflammation","1466-1861","0962-9351","1466-1861","0962-9351","https://creativecommons.org/licenses/by/4.0/",TRUE,"35693109","PMC9175097","ut:000810982800001",NA,TRUE
-"University of Oulu",2022,1651.98,"10.1021/acs.jpclett.2c01442",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry Letters","1948-7185","1948-7185","1948-7185","1948-7185","https://creativecommons.org/licenses/by/4.0/",TRUE,"35861312","PMC9340809","ut:000835043400001",NA,FALSE
-"University of Oulu",2022,2448.63,"10.1016/j.isci.2022.104568",FALSE,"Elsevier BV","iScience","2589-0042","2589-0042",NA,"2589-0042","http://creativecommons.org/licenses/by/4.0/",TRUE,"35769879","PMC9234695","ut:000834851400006",NA,TRUE
-"University of Oulu",2022,2224.79,"10.3390/rs14133169",FALSE,"MDPI AG","Remote Sensing","2072-4292",NA,"2072-4292","2072-4292","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000825638400001",NA,TRUE
-"University of Oulu",2022,2230,"10.1016/j.identj.2022.06.018",FALSE,"Elsevier BV","International Dental Journal","0020-6539","0020-6539",NA,"0020-6539","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35918206",NA,NA,NA,TRUE
-"University of Oulu",2022,1857.4,"10.3390/biom12070903",FALSE,"MDPI AG","Biomolecules","2218-273X",NA,"2218-273X","2218-273X","https://creativecommons.org/licenses/by/4.0/",TRUE,"35883459","PMC9313036","ut:000832319300001",NA,TRUE
-"University of Oulu",2022,1945,"10.1038/s41598-022-14350-3",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"35690671","PMC9188595","ut:000809588300023",NA,TRUE
-"University of Oulu",2022,1840,"10.1038/s41529-022-00263-z",FALSE,"Springer Nature","npj Materials Degradation","2397-2106",NA,"2397-2106","2397-2106","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000819798300001",NA,TRUE
-"University of Oulu",2022,2865.44,"10.3389/fcell.2022.886569",FALSE,"Frontiers Media SA","Frontiers in Cell and Developmental Biology","2296-634X",NA,"2296-634X","2296-634X","https://creativecommons.org/licenses/by/4.0/",TRUE,"35874837","PMC9301336","ut:000831695400001",NA,TRUE
-"University of Oulu",2022,150,"10.47989/irpaper932",FALSE,"University of Boras, Faculty of Librarianship, Information, Education and IT","Information Research: an international electronic journal","1368-1613",NA,"1368-1613","1368-1613",NA,TRUE,NA,NA,"ut:000817179500005",NA,TRUE
-"University of Oulu",2022,910,"10.1080/21650020.2022.2087730",FALSE,"Informa UK Limited","Urban, Planning and Transport Research","2165-0020",NA,"2165-0020","2165-0020","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "",,,"","","","","","","","","","","","","","",""
-"University of Oulu",2022,1803.43,"10.3390/met12050709",FALSE,"MDPI AG","Metals","2075-4701",NA,"2075-4701","2075-4701","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000803475500001",NA,TRUE
-"University of Oulu",2022,1659.35,"10.1039/d2na00313a",FALSE,"Royal Society of Chemistry (RSC)","Nanoscale Advances","2516-0230",NA,"2516-0230","2516-0230","http://creativecommons.org/licenses/by/3.0/",TRUE,"36132819","PMC9417830","ut:000823934400001",NA,TRUE
-"University of Oulu",2022,999.29,"10.3390/min12070868",FALSE,"MDPI AG","Minerals","2075-163X",NA,"2075-163X","2075-163X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000834400100001",NA,TRUE
-"University of Oulu",2022,2010.31,"10.3390/su14148647",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000833317600001",NA,TRUE
-"University of Oulu",2022,2498.23,"10.3390/ijerph19148790",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","1660-4601","https://creativecommons.org/licenses/by/4.0/",TRUE,"35886638","PMC9316622","ut:000833628000001",NA,TRUE
-"University of Oulu",2022,1752,"10.1016/j.jbc.2022.102222",FALSE,"Elsevier BV","Journal of Biological Chemistry","0021-9258","0021-9258",NA,"0021-9258","http://creativecommons.org/licenses/by/4.0/",TRUE,"35787374","PMC9352911","ut:000860550600004",NA,TRUE
-"University of Oulu",2022,1140,"10.1016/j.jmrt.2022.07.085",FALSE,"Elsevier BV","Journal of Materials Research and Technology","2238-7854","2238-7854",NA,"2238-7854","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000848588000001",NA,TRUE
-"University of Oulu",2022,3008.36,"10.3389/fonc.2022.981009",FALSE,"Frontiers Media SA","Frontiers in Oncology","2234-943X",NA,"2234-943X","2234-943X","https://creativecommons.org/licenses/by/4.0/",TRUE,"36003785","PMC9393502",NA,NA,TRUE
-"University of Oulu",2022,2604,"10.3897/dez.69.84080",FALSE,"Pensoft Publishers","Deutsche Entomologische Zeitschrift","1860-1324","1435-1951","1860-1324","1435-1951","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000835139500001",NA,TRUE
-"University of Oulu",2022,2276.84,"10.3390/w14162560",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000845168700001",NA,TRUE
-"University of Oulu",2022,1166.61,"10.3389/fcomp.2022.971793",FALSE,"Frontiers Media SA","Frontiers in Computer Science","2624-9898",NA,"2624-9898","2624-9898","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000856008600001",NA,TRUE
-"University of Oulu",2022,1600,"10.5194/cp-18-1867-2022",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","1814-9324","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000840717000001",NA,TRUE
-"University of Oulu",2022,693.47,"10.3389/feduc.2022.817284",FALSE,"Frontiers Media SA","Frontiers in Education","2504-284X",NA,"2504-284X","2504-284X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,"ut:000861510600001",NA,TRUE
-"University of Oulu",2022,1916.5,"10.1186/s12890-022-02098-5",FALSE,"Springer Nature","BMC Pulmonary Medicine","1471-2466",NA,"1471-2466","1471-2466","https://creativecommons.org/licenses/by/4.0",TRUE,"35941624","PMC9358815","ut:000837690500003",NA,TRUE
-"University of Oulu",2022,2566.64,"10.1530/ec-21-0632",FALSE,"BioScientifica","Endocrine Connections","2049-3614",NA,"2049-3614","2049-3614","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"35900772","PMC9422255",NA,NA,TRUE
-"University of Oulu",2022,2080.08,"10.3390/antiox11101920",FALSE,"MDPI AG","Antioxidants","2076-3921",NA,"2076-3921","2076-3921","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"University of Oulu",2022,2745,"10.1038/s43856-022-00187-4",FALSE,"Springer Nature","Communications Medicine","2730-664X",NA,"2730-664X","2730-664X","https://creativecommons.org/licenses/by/4.0",TRUE,"36193214","PMC9525269",NA,NA,TRUE
-"University of Oulu",2022,2596.8,"10.3390/ijerph191811260",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","1660-4601","https://creativecommons.org/licenses/by/4.0/",TRUE,"36141528","PMC9517571","ut:000860151700001",NA,TRUE
-"University of Oulu",2022,1206.75,"10.1186/s13638-022-02174-8",FALSE,"Springer Nature","EURASIP Journal on Wireless Communications and Networking","1687-1499",NA,"1687-1499","1687-1472","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,"ut:000853848900001",NA,TRUE
-"University of Oulu",2022,850.38,"10.1039/d2ra04456k",FALSE,"Royal Society of Chemistry (RSC)","RSC Advances","2046-2069",NA,"2046-2069","2046-2069","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,"ut:000852670000001",NA,TRUE
-"University of Oulu",2022,1140,"10.1016/j.jmrt.2022.08.160",FALSE,"Elsevier BV","Journal of Materials Research and Technology","2238-7854","2238-7854",NA,"2238-7854","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,"ut:000858717400002",NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
