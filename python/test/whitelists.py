@@ -442,6 +442,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2471-254X": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology Communications 
 	"2375-1916": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives 
 	"2375-1924": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives (electronic)
+	"1550-2783": ["Springer Nature", "Informa UK Limited"], # Journal of the International Society of Sports Nutrition
 
 }
 
@@ -729,6 +730,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1365-2524", # Health & Social Care in the Community, Gold OA since 2023
     "0966-0410", # Health & Social Care in the Community, Gold OA since 2023 (linking)
     "1083-3021", # Journal of Mammary Gland Biology and Neoplasia, Gold OA since 2023
+    "1473-5903", # International Journal of Agricultural Sustainability, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
