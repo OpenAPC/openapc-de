@@ -37,6 +37,7 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 |2021|1|1.09400|Average January-June 2021, delivery 2021-06-03|
 |2021|1|1.0810|Whole publication year of 2021, delivery 2022-02-24|
 |2022|1|1.0048|Whole publication year of 2022, delivery 2023-02-06|
+|2023|1|0.9717|Whole publication year of 2023, delivery 2024-03-05 (as provided by Chronoshub on 2024-01-31)|
 
 ## Co-Funding
 
@@ -58,8 +59,8 @@ For full transparency the initial uploaded lists (without "enriched" in the file
 |--|--|
 | `chf` | the paid amount for the APC (including VAT, discounts, transaction fees) in Swiss Francs|
 | `conversion_rate` | The applied conversion rate (see above) considering the publication year|
-| `invoice_original_amount` | If available the original amount on the invoice (usually without transaction fees)|
-| `invoice_original_currency` | The currency of the invoice|
+| `invoice_original_amount` | If available the original amount on the invoice (usually without transaction fees) (for datasets up to 2020-11-25)|
+| `invoice_original_currency` | The currency of the invoice (for datasets up to 2020-11-25)|
 | `snsf_voucher_number` | The voucher number of the SNSF internal accounting system (SAGE) used for the payment to the publisher or for the reimbursement. Only available for APCs which have been handled through the funding scheme for APCs (since October 2018). Since January 2020 the number of the new accounting system Abacus is used. For APCs handled by Chronoshub, we provide the Chronoshub Payment Id in this field (payment dates 2021+). |
 | `grant_snsf` |The application in which the APC was processed. For "older" grants this is identical to `grant_snsf_related`. Yet with the new funding scheme especially for APCs, this is the number for the APC-grant. When the field has an `NA` value, the APC was handled via Chronoshub and has no SNSF grant number.|
 | `grant_snsf_related` | In cases where the APC was part of the funding scheme "project funding"", the respective project number is mentioned. For the funding scheme dedicated to APCs introduced in 2018, the related grant(s) are selected by the authors to indicate the relation. For APCs being handled by Chronoshub, this field contains the SNSF grant numbers as provided by Chronoshub, that is: the origin grants where the research funds come from. A daily updated list of all SNSF projects is available and can be used to join other project information: https://data.snf.ch/Exportcsv/Grant.csv |
