@@ -29,17 +29,15 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
     Update existing entries in a previously created harvest file.
     
     Args:
-        articles: A list of article dicts, as retured by openapc_toolkit.oai_harvest()
+        articles: A list of article dicts, as retured by oai_harvest()
         file_path: Path to the CSV file the new values should be integrated into.
         enriched_file: If true, columns which are overwritten during enrichment
                        will not be updated
         dry_run: Do not make any changes to the file (but still report changes and
                  return the list of unencountered articles)
     Returns:
-        A tuple. The first element is a reduced list of article dicts, containing
-        those which did not find a matching DOI in the file (Order preserved).
-        The second element is the list of column headers encountered in the harvest 
-        file.
+        A reduced list of article dicts, containing those which did not
+        find a matching DOI in the file (Order preserved).
     '''
 
     messages = {
@@ -58,7 +56,7 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
     messages = messages['dry'] if dry_run else messages['wet']
 
     if not os.path.isfile(file_path):
-        return (articles, None)
+        return articles
     enriched_blacklist = ["institution", "publisher", "journal_full_title", "issn", "license_ref", "pmid"]
     article_dict = OrderedDict()
     for article in articles:
@@ -68,6 +66,7 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
             article_dict[url] = article
     updated_lines = []
     fieldnames = None
+    unmatched_keys = []
     with open(file_path, "r") as f:
         reader = DictReader(f)
         fieldnames = reader.fieldnames
@@ -82,8 +81,18 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
             line_num = reader.reader.line_num
             if url in article_dict:
                 for key, value in article_dict[url].items():
+                    if key not in line:
+                        if key not in unmatched_keys:
+                            unmatched_keys.append(key)
+                        continue
                     if enriched_file and key in enriched_blacklist:
                         continue
+                    if key == "euro":
+                        old_euro = oat._auto_atof(line[key])
+                        new_euro = oat._auto_atof(value)
+                        if old_euro is not None and new_euro is not None:
+                            if old_euro == new_euro:
+                                continue
                     if key in line and value != line[key]:
                         oat.print_g(messages["line_change"].format(line_num, line["url"], key, line[key], value))
                         line[key] = value
@@ -92,12 +101,20 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
                 updated_lines.append(updated_line)
             else:
                 oat.print_r(messages["remove"].format(url))
+    if unmatched_keys:
+        msg = ("WARNING: There were unmatched keys in the harvested " +
+               "data which do not exist in the all_harvested_articles " +
+               "file: {}\nThis might occur if the repo switched to " +
+               "another data format (e.g. from intact to opencost), in " +
+               "this case you should delete the old all_harvested files " +
+               "and start new ones.")
+        oat.print_y(msg.format(unmatched_keys))
     if not dry_run:
         with open(file_path, "w") as f:
             mask = oat.OPENAPC_STANDARD_QUOTEMASK if enriched_file else None
             writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
             writer.write_rows(updated_lines)
-    return (article_dict.values(), fieldnames)
+    return list(article_dict.values())
 
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact"):
     """
@@ -116,6 +133,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         url += "&metadataPrefix=" + metadata_prefix
     if oai_set:
         url += "&set=" + oai_set
+    processing_instructions = None
     if processing:
         match = processing_regex.match(processing)
         if match:
@@ -123,9 +141,13 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
             target = groupdict["target"]
             generator = groupdict["generator"]
             variables = variable_regex.search(generator).groups()
+            processing_instructions = {
+                "generator": generator,
+                "variables": variables,
+                "target": target
+            }
         else:
             print_r("Error: Unable to parse processing instruction!")
-            processing = None
     record_url = basic_url + "?verb=GetRecord"
     if metadata_prefix:
         record_url += "&metadataPrefix=" + metadata_prefix
@@ -154,9 +176,9 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         with open("raw_harvest_data_" + out_file_suffix, "w") as out:
             out.write(file_output)
     if data_type == "intact":
-        return oat.process_intact_xml(*xml_content_strings)
+        return oat.process_intact_xml(processing_instructions, *xml_content_strings)
     elif data_type == "opencost":
-        return octk.process_opencost_xml(*xml_content_strings)
+        return octk.process_opencost_oai_records(processing_instructions, *xml_content_strings)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -180,11 +202,12 @@ def main():
                 articles = oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type)
                 harvest_file_path = os.path.join(directory, "all_harvested_articles.csv")
                 enriched_file_path = os.path.join(directory, "all_harvested_articles_enriched.csv")
-                new_article_dicts, header = integrate_changes(articles, harvest_file_path, False, not args.integrate)
+                new_article_dicts = integrate_changes(articles, harvest_file_path, False, not args.integrate)
                 integrate_changes(articles, enriched_file_path, True, not args.integrate)
-                if header is None:
-                    # if no header was returned, an "all_harvested" file doesn't exist yet
+                if repo_type == 'intact':
                     header = list(oat.OAI_COLLECTION_CONTENT.keys())
+                elif repo_type == 'opencost':
+                    header = list(octk.OPENCOST_EXTRACTION_FIELDS.keys())
                 new_articles = [header]
                 for article_dict in new_article_dicts:
                     new_articles.append([article_dict[key] for key in header])

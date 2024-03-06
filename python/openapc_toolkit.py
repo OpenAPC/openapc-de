@@ -995,11 +995,14 @@ def _auto_atof(str_value):
         locale.setlocale(locale.LC_NUMERIC, locale.normalize('de.utf-8'))
         float_value = locale.atof(str_value)
     else:
-        float_value = float(str_value)
+        try:
+            float_value = float(str_value)
+        except ValueError as ve:
+            return None
     locale.setlocale(locale.LC_NUMERIC, old_locale)
     return float_value
 
-def process_intact_xml(*xml_content_strings):
+def process_intact_xml(processing_instructions=None, *xml_content_strings):
     collection_xpath = ".//oai_2_0:metadata//intact:collection"
     record_xpath = ".//oai_2_0:record"
     identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
@@ -1049,15 +1052,19 @@ def process_intact_xml(*xml_content_strings):
                         article['euro'] = str(old_amount + new_amount)
                         msg = "More than one APC amount found, adding values ({} + {} = {})."
                         print_b(msg.format(old_amount, new_amount, old_amount + new_amount))
-            if processing:
-                target_string = generator
-                for variable in variables:
+            if processing_instructions:
+                target_string = processing_instructions["generator"]
+                for variable in processing_instructions["variables"]:
                     target_string = target_string.replace("%" + variable + "%", article[variable])
-                article[target] = target_string
+                article[processing_instructions["target"]] = target_string
             if article["euro"] == 'NA':
                 print_r("Article skipped, no APC amount found.")
                 continue
             euro_float = _auto_atof(article["euro"])
+            if euro_float is None:
+                msg = "Article skipped, invalid value found in euro field ({})."
+                print_r(msg.format(article['euro']))
+                continue
             if euro_float <= 0.0:
                 msg = "Article skipped, non-positive APC amount found ({})."
                 print_r(msg.format(article['euro']))
