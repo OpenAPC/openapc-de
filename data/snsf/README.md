@@ -14,7 +14,7 @@
 |2018.10|A [new workflow](https://oa100.snf.ch/en/funding/journal-articles/) has been established, where grantees can request the payment/refund of APCs even for grants that have already expired.|
 |2021.06| [The SNSF has launched a pilot project: researchers will be able to publish their open access articles via the ChronosHub](https://www.snf.ch/en/3Vpw3ybQfivruCDi/news/open-access-simple-and-efficient-publishing-with-chronoshub) platform. The existing path to apply for OA publication grants at the SNSF continues to exist. The latest data delivery (2022-02-24) does include APCs from both ChronosHub and SNSF OA grants, the origin is distinguishable via  the variable `origin`.|
 |2021.07| It was decided that the SNSF does only provide publications that do have a DOI. Publications without a DOI can be provided, when they have a title, a journal name, a journal ISSN, a publisher, and a link to a full-text available. Due to inavailability of all this data, around 15% of the SNSF's APC are not reported for publications without a DOI. 
-|2023.02| All APC handling of the SNSF is now done by Chronoshub, therefore, the data delivery consists only of APC data of completed payments over Chronoshub. All APCs handled by Chronoshub do have a DOI. 
+|2023.02| All APC handling of the SNSF is now done by Chronoshub, therefore, the data delivery consists only of APC data of completed payments over Chronoshub. All APCs handled by Chronoshub do have a DOI.
 
 ## CHF to EUR Conversion
 
@@ -68,6 +68,9 @@ For full transparency the initial uploaded lists (without "enriched" in the file
 | `payment_date` | (Period 2021+) Exact date of the payment.|
 | `origin` | (Period 2021+) Whether this APC was payed by the SNSF directly over `SNSF-OA-Grants` or whether it was payed indirectly over `Chronoshub`.|
 
+## Check for missing APCs
+
+Starting from March 2024, yearly delivery includes a check for APCs that were not included in past deliveries. For instance, this might happen when publication charges are paid for an accepted paper for which there was no registered DOI yet at the time of preparing the delivery. These data are named using the following convention: `snsf_openapc_undelivered_update_*.csv`.
 
 ## Contact
 
