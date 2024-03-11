@@ -3,7 +3,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 2;RWTH Aachen University;European Journal of Nuclear Medicine and Molecular Imaging;1619-7089;10.1007/s00259-022-06066-3;https://doi.org/10.1007/s00259-022-06066-3;09.12.2022;28.11.2022;2750;originalpaper;Research Article;optin
 3;RWTH Aachen University;Applied Composite Materials;1573-4897;10.1007/s10443-022-10011-w;https://doi.org/10.1007/s10443-022-10011-w;03.03.2022;07.01.2022;2750;originalpaper;Research Article;optin
 4;RWTH Aachen University;International Journal on Software Tools for Technology Transfer;1433-2787;10.1007/s10009-022-00670-2;https://doi.org/10.1007/s10009-022-00670-2;07.10.2022;29.08.2022;2750;originalpaper;Research Article;optin
-5;RWTH Aachen University;Applied Intelligence;1573-7497;10.1007/s10489-022-03335-4;https://doi.org/10.1007/s10489-022-03335-4;07.03.2022;02.02.2022;2750;originalpaper;Research Article;optout
 6;RWTH Aachen University;Flow, Turbulence and Combustion;1573-1987;10.1007/s10494-022-00353-7;https://doi.org/10.1007/s10494-022-00353-7;12.08.2022;22.07.2022;2750;originalpaper;Research Article;optin
 7;RWTH Aachen University;Natural Hazards;1573-0840;10.1007/s11069-022-05367-y;https://doi.org/10.1007/s11069-022-05367-y;16.05.2022;11.04.2022;2750;reviewpaper;Research Article;optin
 8;RWTH Aachen University;CEAS Aeronautical Journal;1869-5590;10.1007/s13272-022-00604-3;https://doi.org/10.1007/s13272-022-00604-3;27.07.2022;12.07.2022;2750;originalpaper;Research Article;optin
@@ -110,7 +109,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 109;RWTH Aachen University;Annales Henri Poincaré;1424-0661;10.1007/s00023-021-01150-0;https://doi.org/10.1007/s00023-021-01150-0;29.01.2022;21.12.2021;2750;originalpaper;Research Article;optin
 110;RWTH Aachen University;Software and Systems Modeling;1619-1374;10.1007/s10270-022-01001-4;https://doi.org/10.1007/s10270-022-01001-4;07.04.2022;23.03.2022;917;editorialnotes;Non Research Article;optin
 111;RWTH Aachen University;Journal of Fourier Analysis and Applications;1531-5851;10.1007/s00041-022-09929-3;https://doi.org/10.1007/s00041-022-09929-3;29.03.2022;26.02.2022;2750;originalpaper;Research Article;optin
-112;RWTH Aachen University;Journal of Sustainable Metallurgy;2199-3831;10.1007/s40831-022-00572-2;https://doi.org/10.1007/s40831-022-00572-2;01.08.2022;15.07.2022;2750;originalpaper;Research Article;optout
 113;RWTH Aachen University;Progress in Artificial Intelligence;2192-6360;10.1007/s13748-022-00282-6;https://doi.org/10.1007/s13748-022-00282-6;25.06.2022;03.05.2022;2750;originalpaper;Research Article;optin
 114;RWTH Aachen University;European Journal of Trauma and Emergency Surgery;1863-9941;10.1007/s00068-022-01954-7;https://doi.org/10.1007/s00068-022-01954-7;11.04.2022;11.03.2022;917;editorialnotes;Non Research Article;optin
 115;RWTH Aachen University;Tissue Engineering and Regenerative Medicine;2212-5469;10.1007/s13770-022-00482-0;https://doi.org/10.1007/s13770-022-00482-0;06.10.2022;20.07.2022;2750;originalpaper;Research Article;optin
@@ -219,7 +217,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 218;RWTH Aachen University;Drug Delivery and Translational Research;2190-3948;10.1007/s13346-022-01204-8;https://doi.org/10.1007/s13346-022-01204-8;11.07.2022;22.06.2022;2750;originalpaper;Research Article;optin
 219;RWTH Aachen University;European Journal of Trauma and Emergency Surgery;1863-9941;10.1007/s00068-022-02155-y;https://doi.org/10.1007/s00068-022-02155-y;07.11.2022;21.10.2022;2750;reviewpaper;Research Article;optin
 220;RWTH Aachen University;CNS Drugs;1179-1934;10.1007/s40263-022-00935-z;https://doi.org/10.1007/s40263-022-00935-z;13.07.2022;06.06.2022;2750;reviewpaper;Research Article;optin
-221;RWTH Aachen University;Metabolic Brain Disease;1573-7365;10.1007/s11011-022-01083-5;https://doi.org/10.1007/s11011-022-01083-5;26.10.2022;06.09.2022;2750;originalpaper;Research Article;optout
 222;RWTH Aachen University;Computational Particle Mechanics;2196-4386;10.1007/s40571-022-00465-x;https://doi.org/10.1007/s40571-022-00465-x;01.04.2022;07.02.2022;2750;originalpaper;Research Article;optin
 223;RWTH Aachen University;Heat and Mass Transfer;1432-1181;10.1007/s00231-022-03203-4;https://doi.org/10.1007/s00231-022-03203-4;25.03.2022;14.03.2022;2750;originalpaper;Research Article;optin
 224;RWTH Aachen University;European Archives of Psychiatry and Clinical Neuroscience;1433-8491;10.1007/s00406-022-01462-0;https://doi.org/10.1007/s00406-022-01462-0;30.07.2022;01.07.2022;2750;originalpaper;Research Article;optin
@@ -251,7 +248,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 250;RWTH Aachen University;Mathematical Geosciences;1874-8953;10.1007/s11004-022-10017-x;https://doi.org/10.1007/s11004-022-10017-x;23.09.2022;27.07.2022;2750;originalpaper;Research Article;optin
 251;RWTH Aachen University;Journal of Global Optimization;1573-2916;10.1007/s10898-022-01265-6;https://doi.org/10.1007/s10898-022-01265-6;24.12.2022;13.12.2022;2750;originalpaper;Research Article;optin
 252;RWTH Aachen University;Environmental Monitoring and Assessment;1573-2959;10.1007/s10661-022-09989-4;https://doi.org/10.1007/s10661-022-09989-4;20.04.2022;19.03.2022;2750;originalpaper;Research Article;optin
-253;RWTH Aachen University;Annals of Operations Research;1572-9338;10.1007/s10479-022-04529-2;https://doi.org/10.1007/s10479-022-04529-2;12.01.2022;03.01.2022;2750;originalpaper;Research Article;optout
 254;RWTH Aachen University;Transformation Groups;1531-586X;10.1007/s00031-022-09725-9;https://doi.org/10.1007/s00031-022-09725-9;31.03.2022;13.05.2021;2750;originalpaper;Research Article;optin
 255;RWTH Aachen University;CEAS Aeronautical Journal;1869-5590;10.1007/s13272-022-00629-8;https://doi.org/10.1007/s13272-022-00629-8;15.12.2022;21.11.2022;2750;originalpaper;Research Article;optin
 256;RWTH Aachen University;Journal of Cardiovascular Translational Research;1937-5395;10.1007/s12265-022-10281-6;https://doi.org/10.1007/s12265-022-10281-6;06.06.2022;20.05.2022;2750;briefcommunication;Research Article;optin
