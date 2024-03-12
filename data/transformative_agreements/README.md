@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 97,540 articles, published at 376 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 97,596 articles, published at 377 institutions under 117 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -109,9 +109,11 @@ This dataset contains information on 97,540 articles, published at 376 instituti
 |IReL ACM Agreement                               |       24|
 |Austrian Consortium Emerald agreement            |       23|
 |IReL APA Agreement                               |       21|
+|Crui-CARE ACS Agreement                          |       19|
 |FWF Transformative Agreement Sage                |       17|
 |FinELib Nature Research agreement                |       17|
 |Austrian Consortium Sage agreement               |       16|
+|Crui-CARE Springer Agreement                     |       16|
 |FWF Transformative Agreement IEEE                |       16|
 |FinELib Elsevier Cell Press agreement            |       16|
 |IReL ECS Agreement                               |       14|
@@ -119,11 +121,15 @@ This dataset contains information on 97,540 articles, published at 376 instituti
 |University of Milan - Royal Society of Chemistry |       12|
 |CSIC-Company of biologists                       |       11|
 |FinELib ACM agreement                            |       10|
+|Crui-CARE Elsevier Agreement                     |        8|
 |CSIC-Brill                                       |        7|
 |CSIC-Portland Press                              |        7|
+|Crui-CARE Wiley Agreement                        |        7|
 |University of Milan - IEEE                       |        6|
 |IReL Company of Biologists Agreement             |        5|
 |IReL CSHL Agreement                              |        4|
+|Crui-CARE AIP Agreement                          |        3|
+|Crui-CARE CUP Agreement                          |        3|
 |QNL OVID Agreement                               |        3|
 |Swiss Consortium ACM agreement                   |        3|
 |CSIC-De Gruyter                                  |        2|
@@ -344,6 +350,7 @@ This dataset contains information on 97,540 articles, published at 376 instituti
 |Aston University                                                                                                                                   |       58|
 |Teagasc                                                                                                                                            |       58|
 |University of Lincoln                                                                                                                              |       57|
+|Scuola Normale Superiore                                                                                                                           |       56|
 |University of the West of England                                                                                                                  |       56|
 |Hochschule Luzern                                                                                                                                  |       54|
 |Keele University                                                                                                                                   |       54|
