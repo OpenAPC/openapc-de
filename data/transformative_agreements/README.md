@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 97,530 articles, published at 376 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 97,540 articles, published at 376 institutions under 111 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 97,530 articles, published at 376 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     8434|
+|DEAL Springer Nature Germany                     |     8441|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Wiley Germany                               |     7665|
+|DEAL Wiley Germany                               |     7668|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -388,6 +388,7 @@ This dataset contains information on 97,530 articles, published at 376 instituti
 |Mary Immaculate College                                                                                                                            |       27|
 |Open University of The Netherlands                                                                                                                 |       27|
 |Geological Survey of Finland                                                                                                                       |       26|
+|HS Bielefeld                                                                                                                                       |       26|
 |TU Braunschweig                                                                                                                                    |       26|
 |University of Applied Sciences Upper Austria                                                                                                       |       25|
 |University of Westminster                                                                                                                          |       25|
@@ -409,7 +410,6 @@ This dataset contains information on 97,530 articles, published at 376 instituti
 |Fachhochschule Südwestfalen                                                                                                                        |       17|
 |Finnish Meteorological Institute                                                                                                                   |       17|
 |GESIS                                                                                                                                              |       16|
-|HS Bielefeld                                                                                                                                       |       16|
 |Hochschule Hannover                                                                                                                                |       15|
 |Leibniz-IZW                                                                                                                                        |       15|
 |National Land Survey of Finland                                                                                                                    |       15|
