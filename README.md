@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |205,886 | 401,502,559    | 426 |
-| Monographs       |1,809 | 11,733,781    | 54 |
+| Articles         |205,877 | 401,481,316    | 426 |
+| Monographs       |1,811 | 11,742,725    | 56 |
 
 ## How to access the data?
 
@@ -415,111 +415,111 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 ## Institutions from France 
 
-- Agence nationale de sécurité du médicament et des produits de santé
-- [Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail (ANSES)](https://www.anses.fr/en)
+- [ANSES - Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail](https://www.anses.fr/en)
+- ANSM - Agence Nationale de Sécurité des Médicaments et des produits de santé
 - AgroParisTech
 - Aix-Marseille Université
 - Avignon Université
-- CHU de Rennes
+- CEA - Commissariat à l'énergie atomique et aux énergies alternatives
+- CIRAD - Centre de coopération internationale en recherche agronomique pour le développement
+- CNAM - Conservatoire national des arts et métiers
+- CNRS - Centre national de la recherche scientifique
 - CentraleSupélec
-- Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
-- Centre national de la recherche scientifique (CNRS)
-- Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
-- Conservatoire national des arts et métiers
-- ENS de Lyon
-- ENSTA Bretagne
+- Centre Hospitalier Universitaire de Rennes
+- [EHESP - Ecole des hautes études en santé publique](https://www.ehesp.fr/en/)
+- ENAC - Ecole Nationale de l'Aviation Civile
+- ENGEES - Ecole nationale du Génie de l'Eau et de l'Environnement de Strasbourg
+- ENS Lyon - Ecole normale supérieure de Lyon
+- ENS Paris - Ecole normale supérieure de Paris
+- ENSICAEN - Ecole nationale supérieure de Caen
+- ENSTA Bretagne - Ecole nationale supérieure de techniques avancées - Bretagne
+- ESPCI - Ecole supérieure de physique et de chimie industrielles
+- ESRF - European Synchrotron Radiation Facility
 - EURECOM
 - Ecole centrale de Lyon
-- Ecole normale supérieure de Paris
 - Ecole polytechnique
-- European Synchrotron Radiation Facility (ESRF)
+- [EnvA - Ecole nationale vétérinaire d'Alfort](https://www.vet-alfort.fr/)
 - French institutions
-- Hospices Civils de Lyon
-- IMT Atlantique Bretagne Pays de la Loire
-- INSA de Lyon
-- Institut Français de Recherche pour l'Exploitation de la Mer
-- Institut Laue-Langevin
-- Institut National des Sciences Appliquées de Strasbourg
+- HCL - Hospices civils de Lyon
+- IFREMER - Institut Français de Recherche pour l'Exploitation de la Mer
+- IFSTTAR - Institut Français des Sciences et Technologies des Transports, de l’aménagement et des Réseaux
+- ILL - Institut Laue-Langevin
+- IMT Atlantique Bretagne - Pays de la Loire
+- INRA - Institut National de la Recherche Agronomique
+- INRAE - Institut national de recherche pour l’agriculture, l’alimentation et l’environnement
+- INRIA - Institut National de Recherche en Informatique et en Automatique
+- INSA Lyon - Institut National des Sciences Appliquées de Lyon
+- INSA Strasbourg - Institut National des Sciences Appliquées de Strasbourg
+- INSERM - Institut National de la Santé et de la Recherche Médicale
+- IRD - Institut de Recherche pour le Développement
+- IRSN - Institut de Radioprotection et de Sûreté Nucléaire
+- IRSTEA - Institut de Recherche en Sciences et Technologies pour l'Environnement et l'Agriculture
+- ISARA - Institut Supérieur d'Agriculture et d'Agroalimentaire Rhône-Alpes
 - Institut Pasteur
-- Institut de radioprotection et de sûreté nucléaire
-- Institut de recherche pour le développement (IRD)
-- Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
-- Institut national de la recherche agronomique (INRA)
-- Institut national de la santé et de la recherche médicale (INSERM)
-- Institut national de recherche en informatique et en automatique (INRIA)
-- Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
-- Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
-- Institut national polytechnique de Toulouse(INPT)
-- Institut supérieur d'agriculture Rhône-Alpes
+- LNE - Laboratoire National de Métrologie et d'Essais
 - La Rochelle Université
-- Laboratoire national de métrologie et d'essais - LNE
 - Le Mans Université
-- MINES ParisTech
-- Museum National d'Histoire Naturelle
-- Office National d'Etudes et de Recherches Aérospatiales (ONERA)
-- Paris 8 Vincennes - Saint-Denis
-- Sciences Po Paris
+- MNHN - Muséum National d'Histoire Naturelle
+- Mines Paris - Ecole nationale supérieure des Mines de Paris
+- ONERA - Office National d'Etudes et de Recherches Aérospatiales - The French Aerospace Lab
+- Sciences Po Paris - Institut d'Etudes Politiques de Paris
 - Sorbonne Université
-- Université Claude Bernard Lyon 1
+- Toulouse INP - Institut National Polytechnique de Toulouse
+- Université Bordeaux Montaigne
+- Université Claude Bernard - Lyon I
 - Université Clermont Auvergne
-- Université Evry Val-d'Essonne
+- Université Côte d'Azur - UCA
 - Université Grenoble Alpes
 - Université Gustave Eiffel
 - Université Jean Moulin - Lyon III
-- Université Lille 1
-- Université Lille 2
-- Université Louis Lumière - Lyon II
-- Université Paris 1 Panthéon-Sorbonne
+- Université Le Havre Normandie
+- Université Lumière - Lyon II
+- Université Panthéon-Sorbonne - Paris I
 - [Université Paris Cité](https://u-paris.fr/en/)
-- Université Paris Dauphine-PSL
-- Université Paris Descartes (Paris V)
-- Université Paris Diderot (Paris VII)
-- Université Paris Nanterre
+- Université Paris Descartes - Paris V
+- Université Paris Diderot - Paris VII
+- Université Paris-Dauphine - Paris IX
 - Université Paris-Est Marne-la-Vallée
-- Université Pierre et Marie Curie (Paris VI)
+- Université Pierre et Marie Curie - Paris VI
 - Université Polytechnique Hauts-de-France
 - Université Savoie Mont Blanc
-- Université Technologique de Compiègne
 - Université Toulouse III
+- Université Vincennes-Saint Denis - Paris VIII
 - Université d'Angers
+- Université d'Evry-Val-d'Essonne
 - Université d'Orléans
 - Université de Bordeaux
-- Université de Bordeaux Montaigne
 - Université de Bourgogne
-- Université de Bretagne Occidentale
-- Université de Bretagne-Sud
+- Université de Bretagne Occidentale - UBO
+- Université de Bretagne Sud - UBS
 - Université de Caen Normandie
-- Université de Côte d'Azur
 - Université de Franche-Comté
 - Université de Haute-Alsace
 - Université de La Réunion
 - Université de Lille
+- Université de Lille I Sciences et technologies
+- Université de Lille II Droit et Santé
 - Université de Lorraine
 - Université de Montpellier
 - Université de Nantes
-- Université de Nouvelle Calédonie
 - Université de Nîmes
-- Université de Pau et des Pays de l'Adour
-- Université de Perpignan - Via Domitia
+- Université de Paris Ouest Nanterre La Défense - Paris X
+- Université de Pau et des Pays de l'Adour - UPPA
+- Université de Perpignan Via Domitia
 - Université de Picardie Jules Verne
 - Université de Poitiers
-- Université de Reims Champagne Ardenne
-- Université de Rennes 1
-- Université de Rennes 2
+- Université de Reims Champagne-Ardenne
+- Université de Rennes
+- Université de Rennes II Haute-Bretagne
 - Université de Strasbourg
+- Université de Technologie de Compiègne
 - Université de Toulon
 - Université de Tours
-- Université de Versailles-Saint-Quentin-en-Yvelines
+- Université de Versailles Saint-Quentin-en-Yvelines
+- Université de la Nouvelle-Calédonie
 - Université de technologie de Troyes
 - Université des Antilles
-- Université du Havre
 - Université du Littoral Côte d'Opale
-- École Nationale de l'Aviation Civile
-- [École des Hautes Etudes en Santé Publique (EHESP)](https://www.ehesp.fr/en/)
-- École nationale du génie de l'eau et de l'environnement de Strasbourg
-- École nationale supérieure d'ingénieurs de Caen
-- [École nationale vétérinaire d'Alfort (EnvA)](https://www.vet-alfort.fr/)
-- École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 
 ## Institutions from the United Kingdom 
 
@@ -745,13 +745,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 205,886 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 426 research performing institutions and research funders. 
+The article data set contains information on 205,877 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 426 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 401,502,559. The average payment was € 1,950 and the median was € 1,810.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 401,481,316. The average payment was € 1,950 and the median was € 1,810.
 
-148,673 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 258,487,722, including value-added tax; the average payment was € 1,739 (median =  € 1,661, SD = € 812).
+148,669 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 258,479,924, including value-added tax; the average payment was € 1,739 (median =  € 1,661, SD = € 812).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 57,213 articles in the data set were published in hybrid journals. Total expenditure amounts to 143,014,838 €; the average fee was € 2,500 (median =  € 2,465, SD = € 1,018).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 57,208 articles in the data set were published in hybrid journals. Total expenditure amounts to 143,001,392 €; the average fee was € 2,500 (median =  € 2,465, SD = € 1,018).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -781,18 +781,18 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2018   |      16,241|   1,702|     1,583|  13.00 -  8,926|           9,475|       2,550|         2,538|     1.8 -  9,073|
 |2019   |      16,657|   1,687|     1,623|  10.72 -  7,684|           6,335|       2,501|         2,440|    75.3 -  9,500|
 |2020   |      20,080|   1,700|     1,678|   0.01 -  8,906|           3,510|       2,389|         2,395|   130.0 -  7,416|
-|2021   |      24,378|   1,807|     1,785|  27.03 -  6,417|           2,879|       2,490|         2,475|    30.2 - 11,400|
+|2021   |      24,374|   1,807|     1,785|  27.03 -  6,417|           2,875|       2,490|         2,475|    30.2 - 11,400|
 |2022   |      23,883|   2,068|     1,990|  12.36 -  9,044|           1,852|       2,697|         2,674|     2.1 - 14,607|
-|2023   |       2,951|   2,139|     2,118|  50.00 -  6,332|             293|       2,832|         2,843|   481.0 - 11,895|
+|2023   |       2,951|   2,139|     2,118|  50.00 -  6,332|             292|       2,830|         2,836|   481.0 - 11,895|
 |2024   |          39|   2,263|     2,283| 179.00 -  3,337|               5|       3,079|         3,170| 2,142.0 -  4,138|
 
 
 
 ### Books (BPCs)
 
-The book data set contains information on 1,809 open access books. Publication fees were supported financially by 54 research performing institutions and funders. 
+The book data set contains information on 1,811 open access books. Publication fees were supported financially by 56 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 11,733,781. The average payment was € 6,486 and the median was € 6,737.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 11,742,725. The average payment was € 6,484 and the median was € 6,728.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -813,10 +813,10 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2016   |              42|   12,449|     14,000| 1,190 - 22,000|             NA|       NA|         NA|            NA|
 |2017   |             184|    9,250|      8,780| 1,075 - 21,000|            195|    1,981|      1,981| 1,981 - 1,981|
 |2018   |             149|    8,925|      8,250|   476 - 21,104|            191|    1,875|      1,875| 1,875 - 1,875|
-|2019   |             172|    7,814|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
+|2019   |             173|    7,794|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |             162|    7,449|      7,353|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             172|    6,950|      6,349|   595 - 18,000|             NA|       NA|         NA|            NA|
-|2022   |             187|    7,793|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
+|2022   |             188|    7,775|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
 |2023   |              51|    5,428|      5,950|   580 - 13,702|             NA|       NA|         NA|            NA|
 |2024   |               1|    6,335|      6,335| 6,335 -  6,335|             NA|       NA|         NA|            NA|
 
@@ -863,7 +863,7 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.72%       |87.84%   |
+|DOI                        |  99.72%       |87.85%   |
 |PubMed ID                  |  73.51%      | NA                                                          |
 |PubMed Central ID          |  67.94%     | NA                                                          |
 |Web of Science record ID   | 80.27%         | NA                                                          |
