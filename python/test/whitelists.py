@@ -733,6 +733,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1473-5903", # International Journal of Agricultural Sustainability, Gold OA since 2023
     "0168-6577", # European Journal of Population, Gold OA since 2023
     "2470-8542", # International Journal of Standardization Research, Gold OA since 2019
+    "1350-0872", # Microbiology, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
