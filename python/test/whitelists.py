@@ -50,8 +50,8 @@ JOURNAL_OWNER_CHANGED = {
     "1525-0016": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Molecular Therapy
     "2000-8198": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology (print)
     "2000-8066": ["Co-Action Publishing", "Informa UK Limited"], # European Journal of Psychotraumatology
-    "1600-0889": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B
-    "0280-6509": ["Co-Action Publishing", "Informa UK Limited"], # Tellus B (linking)
+    "1600-0889": ["Co-Action Publishing", "Informa UK Limited", "Stockholm University Press"], # Tellus B
+    "0280-6509": ["Co-Action Publishing", "Informa UK Limited", "Stockholm University Press"], # Tellus B (linking)
     "1654-6628": ["Co-Action Publishing", "Informa UK Limited", "SNF Swedish Nutrition Foundation"], # Food & Nutrition Research (print)
     "1654-661X": ["Co-Action Publishing", "Informa UK Limited", "SNF Swedish Nutrition Foundation"], # Food & Nutrition Research (electronic)
     "0038-0261": ["Wiley-Blackwell", "SAGE Publications"], # The Sociological Review
@@ -443,6 +443,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2375-1916": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives 
 	"2375-1924": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives (electronic)
 	"1550-2783": ["Springer Science + Business Media", "Springer Nature", "Informa UK Limited"], # Journal of the International Society of Sports Nutrition
+	"1755-0793": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the Institution of Civil Engineers - Urban Design and Planning 
+	"1755-0807": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the Institution of Civil Engineers - Urban Design and Planning (electronic)
 
 }
 
