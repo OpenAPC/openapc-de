@@ -1,5 +1,4 @@
 pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;article_type;article_group;initial_opt-out
-1;Bergische Universität Wuppertal;4OR;1614-2411;10.1007/s10288-022-00503-7;https://doi.org/10.1007/s10288-022-00503-7;24.02.2022;03.02.2022;2750;originalpaper;Research Article;optout
 2;Bergische Universität Wuppertal;Review of Managerial Science;1863-6691;10.1007/s11846-022-00578-w;https://doi.org/10.1007/s11846-022-00578-w;30.08.2022;01.08.2022;2750;originalpaper;Research Article;optin
 3;Bergische Universität Wuppertal;Bulletin of Mathematical Biology;1522-9602;10.1007/s11538-022-00994-9;https://doi.org/10.1007/s11538-022-00994-9;17.02.2022;12.01.2022;2750;originalpaper;Research Article;optin
 4;Bergische Universität Wuppertal;Neue Politische Literatur;2197-6082;10.1007/s42520-022-00435-w;https://doi.org/10.1007/s42520-022-00435-w;05.05.2022;26.04.2022;917;bookreview;Non Research Article;optin
@@ -50,7 +49,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 49;Bergische Universität Wuppertal;Social Psychology of Education;1573-1928;10.1007/s11218-022-09685-8;https://doi.org/10.1007/s11218-022-09685-8;02.03.2022;17.01.2022;2750;originalpaper;Research Article;optin
 50;Bergische Universität Wuppertal;International Economics and Economic Policy;1612-4812;10.1007/s10368-022-00538-5;https://doi.org/10.1007/s10368-022-00538-5;24.06.2022;03.05.2022;2750;originalpaper;Research Article;optin
 51;Bergische Universität Wuppertal;KZfSS Kölner Zeitschrift für Soziologie und Sozialpsychologie;1861-891X;10.1007/s11577-022-00864-1;https://doi.org/10.1007/s11577-022-00864-1;22.12.2022;18.11.2022;2750;originalpaper;Research Article;optin
-52;Bergische Universität Wuppertal;OR Spectrum;1436-6304;10.1007/s00291-022-00680-1;https://doi.org/10.1007/s00291-022-00680-1;11.05.2022;14.04.2022;2750;originalpaper;Research Article;optout
 53;Bergische Universität Wuppertal;Scientometrics;1588-2861;10.1007/s11192-022-04356-z;https://doi.org/10.1007/s11192-022-04356-z;09.04.2022;14.03.2022;2750;originalpaper;Research Article;optin
 54;Bergische Universität Wuppertal;Jahresbericht der Deutschen Mathematiker-Vereinigung;1869-7135;10.1365/s13291-022-00254-8;https://doi.org/10.1365/s13291-022-00254-8;17.05.2022;28.04.2022;2750;originalpaper;Research Article;optin
 55;Bergische Universität Wuppertal;Unterrichtswissenschaft;2520-873X;10.1007/s42010-022-00146-x;https://doi.org/10.1007/s42010-022-00146-x;20.04.2022;04.04.2022;2750;originalpaper;Research Article;optin
