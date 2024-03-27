@@ -738,6 +738,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1350-0872", # Microbiology, Gold OA since 2023
     "2472-6303", # SLAS Technology, Gold OA since 2022
     "0029-5515", # Nuclear Fusion, Gold OA since 2023
+    "0014-312X", # European Surgical Research, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
