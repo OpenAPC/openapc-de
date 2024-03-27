@@ -1,57 +1,57 @@
-institution;doi;is_hybrid;agreement
-University Hospital of Bern;https://doi.org/10.1159/000533505;TRUE;Swiss Consortium Karger agreement
-University Hospital of Bern;https://doi.org/10.1159/000534177;FALSE;Swiss Consortium Karger agreement
-University Hospital of Bern;https://doi.org/10.1159/000536099;TRUE;Swiss Consortium Karger agreement
-University Hospital of Bern;https://doi.org/10.1159/000529293;TRUE;Swiss Consortium Karger agreement
-University Hospital of Bern;https://doi.org/10.1159/000529306;TRUE;Swiss Consortium Karger agreement
-University Hospital of Bern;https://doi.org/10.1159/000530082;FALSE;Swiss Consortium Karger agreement
-University Hospital of Bern;https://doi.org/10.1159/000530240;TRUE;Swiss Consortium Karger agreement
-Università della Svizzera Italiana;https://doi.org/10.1159/000531007;FALSE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000532057;TRUE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000533474;TRUE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000535276;FALSE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000535938;TRUE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000529411;TRUE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000530266;FALSE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000530418;FALSE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000530748;FALSE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000530800;FALSE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000530810;FALSE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000530940;TRUE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000531071;TRUE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000531175;TRUE;Swiss Consortium Karger agreement
-University of Basel;https://doi.org/10.1159/000531704;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000533181;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000533436;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000533560;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000534130;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000534595;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000535097;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000535864;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000536015;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000536071;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000529020;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000529511;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000530002;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000530312;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000530353;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000530405;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000530931;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000530958;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000531179;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000531315;FALSE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000531332;TRUE;Swiss Consortium Karger agreement
-University of Zurich;https://doi.org/10.1159/000531708;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000533327;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000534572;FALSE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000535085;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000535455;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000536036;FALSE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000529166;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000529388;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000529844;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000529896;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000529910;TRUE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000530111;FALSE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000530566;FALSE;Swiss Consortium Karger agreement
-University of Lausanne;https://doi.org/10.1159/000530643;TRUE;Swiss Consortium Karger agreement
+institution;doi;is_hybrid;agreement;period
+University Hospital of Bern;https://doi.org/10.1159/000533505;TRUE;Swiss Consortium Karger agreement;2023
+University Hospital of Bern;https://doi.org/10.1159/000534177;FALSE;Swiss Consortium Karger agreement;2023
+University Hospital of Bern;https://doi.org/10.1159/000536099;TRUE;Swiss Consortium Karger agreement;2023
+University Hospital of Bern;https://doi.org/10.1159/000529293;TRUE;Swiss Consortium Karger agreement;2023
+University Hospital of Bern;https://doi.org/10.1159/000529306;TRUE;Swiss Consortium Karger agreement;2023
+University Hospital of Bern;https://doi.org/10.1159/000530082;FALSE;Swiss Consortium Karger agreement;2023
+University Hospital of Bern;https://doi.org/10.1159/000530240;TRUE;Swiss Consortium Karger agreement;2023
+Università della Svizzera Italiana;https://doi.org/10.1159/000531007;FALSE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000532057;TRUE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000533474;TRUE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000535276;FALSE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000535938;TRUE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000529411;TRUE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000530266;FALSE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000530418;FALSE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000530748;FALSE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000530800;FALSE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000530810;FALSE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000530940;TRUE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000531071;TRUE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000531175;TRUE;Swiss Consortium Karger agreement;2023
+University of Basel;https://doi.org/10.1159/000531704;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000533181;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000533436;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000533560;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000534130;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000534595;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000535097;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000535864;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000536015;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000536071;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000529020;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000529511;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000530002;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000530312;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000530353;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000530405;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000530931;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000530958;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000531179;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000531315;FALSE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000531332;TRUE;Swiss Consortium Karger agreement;2023
+University of Zurich;https://doi.org/10.1159/000531708;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000533327;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000534572;FALSE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000535085;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000535455;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000536036;FALSE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000529166;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000529388;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000529844;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000529896;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000529910;TRUE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000530111;FALSE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000530566;FALSE;Swiss Consortium Karger agreement;2023
+University of Lausanne;https://doi.org/10.1159/000530643;TRUE;Swiss Consortium Karger agreement;2023
