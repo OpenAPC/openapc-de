@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 98,134 articles, published at 378 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 98,134 articles, published at 379 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -156,7 +156,7 @@ This dataset contains information on 98,134 articles, published at 378 instituti
 |ETH Zurich                                                                                                                                         |     3024|
 |University of Zurich                                                                                                                               |     2815|
 |TU Muenchen                                                                                                                                        |     1974|
-|University of Bern                                                                                                                                 |     1709|
+|University of Bern                                                                                                                                 |     1702|
 |University of Geneva                                                                                                                               |     1600|
 |University College Dublin                                                                                                                          |     1443|
 |University of Lausanne                                                                                                                             |     1320|
@@ -450,6 +450,7 @@ This dataset contains information on 98,134 articles, published at 378 instituti
 |Häme University of Applied Sciences                                                                                                                |        7|
 |Queen Margaret University                                                                                                                          |        7|
 |Social Insurance Institution of Finland                                                                                                            |        7|
+|University Hospital of Bern                                                                                                                        |        7|
 |Atlantic Technological University                                                                                                                  |        6|
 |HS Düsseldorf                                                                                                                                      |        6|
 |Haaga-Helia University of Applied Sciences                                                                                                         |        6|
