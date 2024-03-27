@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 97,857 articles, published at 377 institutions under 117 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 97,940 articles, published at 378 institutions under 117 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 97,857 articles, published at 377 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     8441|
+|DEAL Springer Nature Germany                     |     8495|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Wiley Germany                               |     7668|
+|DEAL Wiley Germany                               |     7697|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -324,6 +324,7 @@ This dataset contains information on 97,857 articles, published at 377 instituti
 |Royal Holloway                                                                                                                                     |       87|
 |City University London                                                                                                                             |       86|
 |University of Applied Sciences and Arts of Southern Switzerland                                                                                    |       86|
+|Wuppertal U                                                                                                                                        |       83|
 |Finnish Environment Institute                                                                                                                      |       82|
 |Karlstad University                                                                                                                                |       82|
 |Sheffield Hallam University                                                                                                                        |       82|
