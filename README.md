@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |209,027 | 409,060,112    | 427 |
-| Monographs       |1,812 | 11,758,225    | 56 |
+| Articles         |209,107 | 409,233,948    | 427 |
+| Monographs       |1,816 | 11,804,006    | 56 |
 
 ## How to access the data?
 
@@ -747,13 +747,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 209,027 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 427 research performing institutions and research funders. 
+The article data set contains information on 209,107 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 427 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 409,060,112. The average payment was € 1,957 and the median was € 1,818.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 409,233,948. The average payment was € 1,957 and the median was € 1,818.
 
-151,583 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 265,412,329, including value-added tax; the average payment was € 1,751 (median =  € 1,661, SD = € 824).
+151,655 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 265,564,679, including value-added tax; the average payment was € 1,751 (median =  € 1,661, SD = € 825).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 57,444 articles in the data set were published in hybrid journals. Total expenditure amounts to 143,647,783 €; the average fee was € 2,501 (median =  € 2,466, SD = € 1,020).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 57,452 articles in the data set were published in hybrid journals. Total expenditure amounts to 143,669,269 €; the average fee was € 2,501 (median =  € 2,466, SD = € 1,020).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -784,17 +784,17 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2019   |      16,657|   1,687|     1,623|  10.72 -  7,684|           6,335|       2,501|         2,440|    75.3 -  9,500|
 |2020   |      20,080|   1,700|     1,678|   0.01 -  8,906|           3,510|       2,389|         2,395|   130.0 -  7,416|
 |2021   |      24,610|   1,807|     1,785|  27.03 -  6,417|           2,883|       2,490|         2,475|    30.2 - 11,400|
-|2022   |      25,045|   2,072|     1,990|  12.36 -  9,500|           2,022|       2,698|         2,673|     2.1 - 14,607|
-|2023   |       4,467|   2,309|     2,190|  17.43 -  6,679|             350|       2,832|         2,844|   298.8 - 11,895|
+|2022   |      25,079|   2,072|     1,990|  12.36 -  9,500|           2,026|       2,699|         2,674|     2.1 - 14,607|
+|2023   |       4,505|   2,308|     2,190|  17.43 -  6,684|             354|       2,826|         2,844|   298.8 - 11,895|
 |2024   |          39|   2,263|     2,283| 179.00 -  3,337|               5|       3,079|         3,170| 2,142.0 -  4,138|
 
 
 
 ### Books (BPCs)
 
-The book data set contains information on 1,812 open access books. Publication fees were supported financially by 56 research performing institutions and funders. 
+The book data set contains information on 1,816 open access books. Publication fees were supported financially by 56 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 11,758,225. The average payment was € 6,489 and the median was € 6,732.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 11,804,006. The average payment was € 6,500 and the median was € 6,744.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -818,8 +818,8 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2019   |             173|    7,794|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |             162|    7,449|      7,353|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             172|    6,950|      6,349|   595 - 18,000|             NA|       NA|         NA|            NA|
-|2022   |             188|    7,775|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |              52|    5,621|      5,951|   580 - 15,500|             NA|       NA|         NA|            NA|
+|2022   |             191|    7,815|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
+|2023   |              53|    5,796|      5,952|   580 - 15,500|             NA|       NA|         NA|            NA|
 |2024   |               1|    6,335|      6,335| 6,335 -  6,335|             NA|       NA|         NA|            NA|
 
 
@@ -865,10 +865,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.72%       |87.86%   |
-|PubMed ID                  |  73.53%      | NA                                                          |
-|PubMed Central ID          |  67.97%     | NA                                                          |
-|Web of Science record ID   | 79.05%         | NA                                                          |
+|DOI                        |  99.72%       |87.89%   |
+|PubMed ID                  |  73.52%      | NA                                                          |
+|PubMed Central ID          |  67.96%     | NA                                                          |
+|Web of Science record ID   | 79.02%         | NA                                                          |
 
 
 
