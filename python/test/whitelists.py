@@ -203,8 +203,8 @@ JOURNAL_OWNER_CHANGED = {
     "0892-6638": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal
     "1530-6860": ["FASEB", "Wiley-Blackwell"], # The FASEB Journal (electronic)
     "0935-1221": ["Schweizerbart", "Copernicus GmbH"], # European Journal of Mineralogy (linking)
-    "2049-6958": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine
-    "1828-695X": ["Springer Nature", "PAGEPress Publications"], # Multidisciplinary Respiratory Medicine (linking)
+    "2049-6958": ["Springer Nature", "PAGEPress Publications", "Mattioli1885"], # Multidisciplinary Respiratory Medicine
+    "1828-695X": ["Springer Nature", "PAGEPress Publications", "Mattioli1885"], # Multidisciplinary Respiratory Medicine (linking)
     "0924-9338": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry
     "1778-3585": ["Elsevier BV", "Royal College of Psychiatrists"], # European Psychiatry (electronic)
     "0090-5992": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Nationalities Papers
@@ -445,6 +445,19 @@ JOURNAL_OWNER_CHANGED = {
 	"1550-2783": ["Springer Science + Business Media", "Springer Nature", "Informa UK Limited"], # Journal of the International Society of Sports Nutrition
 	"1755-0793": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the Institution of Civil Engineers - Urban Design and Planning 
 	"1755-0807": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the Institution of Civil Engineers - Urban Design and Planning (electronic)
+	"0309-3646": ["SAGE Publications", "Ovid Technologies (Wolters Kluwer Health)"], # Prosthetics & Orthotics International 
+	"1746-1553": ["SAGE Publications", "Ovid Technologies (Wolters Kluwer Health)"], # Prosthetics & Orthotics International (electronic)
+	"0270-9139": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology
+	"1743-9159": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery
+	"2168-1813": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology 
+	"2168-1805": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology (print)
+	"1399-5448": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Pediatric Diabetes 
+	"1399-543X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Pediatric Diabetes (print)
+	"1600-0404": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica 
+	"0001-6314": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica (print)
+	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
+	"0024-1164": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia 
+	"1502-3931": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia (electronic)
 
 }
 
@@ -739,6 +752,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2472-6303", # SLAS Technology, Gold OA since 2022
     "0029-5515", # Nuclear Fusion, Gold OA since 2023
     "0014-312X", # European Surgical Research, Gold OA since 2023
+    "1743-9159", # International Journal of Surgery, Gold OA since 2023
+    "0735-6161", # Wood and Fiber Science, Gold OA since 2022
+    "2168-1813", # Scandinavian Journal of Urology, Gold OA since 2024 (Vol. 58)
+    "2000-6764", # Journal of Plastic Surgery and Hand Surgery, Gold OA since 2024 (Vol. 58)
+    "0024-1164", # Lethaia, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
