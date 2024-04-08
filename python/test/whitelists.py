@@ -458,6 +458,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
 	"0024-1164": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia 
 	"1502-3931": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia (electronic)
+	"1932-7005": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine 
+	"1932-6254": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine (linking)
 
 }
 
@@ -757,6 +759,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2168-1813", # Scandinavian Journal of Urology, Gold OA since 2024 (Vol. 58)
     "2000-6764", # Journal of Plastic Surgery and Hand Surgery, Gold OA since 2024 (Vol. 58)
     "0024-1164", # Lethaia, Gold OA since 2022
+    "1932-7005", # Journal of Tissue Engineering and Regenerative Medicine, Gold OA since 2023
+    "1932-6254", # Journal of Tissue Engineering and Regenerative Medicine, Gold OA since 2023 (linking)
+    "1613-9372", # European Journal of Ageing, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
