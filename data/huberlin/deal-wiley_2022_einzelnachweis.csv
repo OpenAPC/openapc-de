@@ -1,0 +1,73 @@
+pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-out
+1;Humboldt-Universität zu Berlin;EVOLUTION;1558-5646;10.1111/evo.14574;https://doi.org/10.1111/evo.14574;24.05.2022;2750;optin
+2;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202117000;https://doi.org/10.1002/anie.202117000;03.02.2022;2750;optin
+3;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202217076;https://doi.org/10.1002/anie.202217076;28.12.2022;2750;optin
+4;Humboldt-Universität zu Berlin;ADVANCED ENGINEERING MATERIALS;1527-2648;10.1002/adem.202201279;https://doi.org/10.1002/adem.202201279;11.09.2022;2750;optin
+5;Humboldt-Universität zu Berlin;ENERGY TECHNOLOGY;2194-4296;10.1002/ente.202101120;https://doi.org/10.1002/ente.202101120;20.02.2022;2750;optin
+6;Humboldt-Universität zu Berlin;INTERNATIONAL JOURNAL OF QUANTUM CHEMISTRY;1097-461X;10.1002/qua.27045;https://doi.org/10.1002/qua.27045;31.10.2022;2750;optin
+7;Humboldt-Universität zu Berlin;PSYCHOPHYSIOLOGY;1469-8986;10.1111/psyp.14164;https://doi.org/10.1111/psyp.14164;20.07.2022;2750;optin
+8;Humboldt-Universität zu Berlin;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202200643;https://doi.org/10.1002/admi.202200643;14.05.2022;2750;optin
+9;Humboldt-Universität zu Berlin;EUROPEAN JOURNAL OF INORGANIC CHEMISTRY;1099-0682;10.1002/ejic.202200158;https://doi.org/10.1002/ejic.202200158;03.04.2022;2750;optin
+10;Humboldt-Universität zu Berlin;BERICHTE ZUR WISSENSCHAFTSGESCHICHTE;1522-2365;10.1002/bewi.202200013;https://doi.org/10.1002/bewi.202200013;21.04.2022;2750;optout
+11;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202214074;https://doi.org/10.1002/ange.202214074;13.11.2022;1375;optin
+12;Humboldt-Universität zu Berlin;BIOMETRICS;1541-0420;10.1111/biom.13765;https://doi.org/10.1111/biom.13765;14.09.2022;2750;optin
+13;Humboldt-Universität zu Berlin;CHEMCATCHEM;1867-3899;10.1002/cctc.202200029;https://doi.org/10.1002/cctc.202200029;28.02.2022;2750;optin
+14;Humboldt-Universität zu Berlin;THE PLANT JOURNAL;1365-313X;10.1111/tpj.15865;https://doi.org/10.1111/tpj.15865;01.06.2022;2750;optin
+15;Humboldt-Universität zu Berlin;ADVANCED ENERGY MATERIALS;1614-6840;10.1002/aenm.202202377;https://doi.org/10.1002/aenm.202202377;04.10.2022;2750;optin
+16;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202212858;https://doi.org/10.1002/anie.202212858;23.10.2022;2750;optin
+17;Humboldt-Universität zu Berlin;SOLAR RRL;2367-198X;10.1002/solr.202201057;https://doi.org/10.1002/solr.202201057;29.12.2022;2750;optin
+18;Humboldt-Universität zu Berlin;JOURNAL OF POLYMER SCIENCE;2642-4169;10.1002/pol.20220120;https://doi.org/10.1002/pol.20220120;08.04.2022;2750;optin
+19;Humboldt-Universität zu Berlin;PSYCHOPHYSIOLOGY;1469-8986;10.1111/psyp.14006;https://doi.org/10.1111/psyp.14006;01.01.2022;2750;optin
+20;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202217076;https://doi.org/10.1002/ange.202217076;28.12.2022;1375;optin
+21;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202117000;https://doi.org/10.1002/ange.202117000;03.02.2022;1375;optin
+22;Humboldt-Universität zu Berlin;BIOMETRICS;1541-0420;10.1111/biom.13706;https://doi.org/10.1111/biom.13706;31.05.2022;2750;optin
+23;Humboldt-Universität zu Berlin;ENERGY TECHNOLOGY;2194-4296;10.1002/ente.202101121;https://doi.org/10.1002/ente.202101121;06.02.2022;2750;optin
+24;Humboldt-Universität zu Berlin;BATTERIES & SUPERCAPS;2566-6223;10.1002/batt.202200043;https://doi.org/10.1002/batt.202200043;13.03.2022;2750;optin
+25;Humboldt-Universität zu Berlin;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202202065;https://doi.org/10.1002/chem.202202065;11.09.2022;2750;optin
+26;Humboldt-Universität zu Berlin;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202202892;https://doi.org/10.1002/adfm.202202892;09.05.2022;2750;optin
+27;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202214074;https://doi.org/10.1002/anie.202214074;13.11.2022;2750;optin
+28;Humboldt-Universität zu Berlin;THE ANATOMICAL RECORD;1932-8494;10.1002/ar.25146;https://doi.org/10.1002/ar.25146;29.11.2022;2750;optin
+29;Humboldt-Universität zu Berlin;BIOTECHNOLOGY AND BIOENGINEERING;1097-0290;10.1002/bit.28123;https://doi.org/10.1002/bit.28123;17.04.2022;2750;optin
+30;Humboldt-Universität zu Berlin;INTEGRATIVE ZOOLOGY;1749-4877;10.1111/1749-4877.12655;https://doi.org/10.1111/1749-4877.12655;30.04.2022;2750;optin
+31;Humboldt-Universität zu Berlin;PSYCHOPHYSIOLOGY;1469-8986;10.1111/psyp.14084;https://doi.org/10.1111/psyp.14084;12.03.2022;2750;optin
+32;Humboldt-Universität zu Berlin;JOURNAL OF INDUSTRIAL ECOLOGY;1530-9290;10.1111/jiec.13343;https://doi.org/10.1111/jiec.13343;01.09.2022;2750;optin
+33;Humboldt-Universität zu Berlin;FORTSCHRITTE DER PHYSIK;1521-3978;10.1002/prop.202200004;https://doi.org/10.1002/prop.202200004;06.01.2022;2750;optin
+34;Humboldt-Universität zu Berlin;FORTSCHRITTE DER PHYSIK;1521-3978;10.1002/prop.202200003;https://doi.org/10.1002/prop.202200003;06.01.2022;2750;optin
+35;Humboldt-Universität zu Berlin;EUROPEAN JOURNAL OF INORGANIC CHEMISTRY;1099-0682;10.1002/ejic.202200668;https://doi.org/10.1002/ejic.202200668;26.10.2022;2750;optin
+36;Humboldt-Universität zu Berlin;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202202768;https://doi.org/10.1002/chem.202202768;02.11.2022;2750;optin
+37;Humboldt-Universität zu Berlin;SOLAR RRL;2367-198X;10.1002/solr.202101065;https://doi.org/10.1002/solr.202101065;27.01.2022;2750;optin
+38;Humboldt-Universität zu Berlin;APPLIED PSYCHOLOGY;1464-0597;10.1111/apps.12393;https://doi.org/10.1111/apps.12393;18.04.2022;2750;optin
+39;Humboldt-Universität zu Berlin;REVIEW OF EUROPEAN, COMPARATIVE & INTERNATIONAL ENVIRONMENTAL LAW;2050-0394;10.1111/reel.12466;https://doi.org/10.1111/reel.12466;18.09.2022;2750;optin
+40;Humboldt-Universität zu Berlin;HELVETICA CHIMICA ACTA;1522-2675;10.1002/hlca.202200156;https://doi.org/10.1002/hlca.202200156;06.12.2022;2750;optin
+41;Humboldt-Universität zu Berlin;JOURNAL OF FISH BIOLOGY;1095-8649;10.1111/jfb.15018;https://doi.org/10.1111/jfb.15018;16.02.2022;2750;optin
+42;Humboldt-Universität zu Berlin;EUROPEAN JOURNAL OF INORGANIC CHEMISTRY;1099-0682;10.1002/ejic.202200078;https://doi.org/10.1002/ejic.202200078;16.03.2022;2750;optin
+43;Humboldt-Universität zu Berlin;ADVANCED MATERIALS INTERFACES;2196-7350;10.1002/admi.202200362;https://doi.org/10.1002/admi.202200362;14.04.2022;2750;optin
+44;Humboldt-Universität zu Berlin;SOCIAL POLICY & ADMINISTRATION;1467-9515;10.1111/spol.12870;https://doi.org/10.1111/spol.12870;09.10.2022;2750;optin
+45;Humboldt-Universität zu Berlin;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200496;https://doi.org/10.1002/chem.202200496;01.03.2022;2750;optin
+46;Humboldt-Universität zu Berlin;ZEITSCHRIFT FUR ANORGANISCHE UND ALLGEMEINE CHEMIE;1521-3749;10.1002/zaac.202100310;https://doi.org/10.1002/zaac.202100310;18.01.2022;2750;optin
+47;Humboldt-Universität zu Berlin;ANALYSIS & SENSING;2629-2742;10.1002/anse.202200006;https://doi.org/10.1002/anse.202200006;09.05.2022;2750;optin
+48;Humboldt-Universität zu Berlin;PSYCHOPHYSIOLOGY;1469-8986;10.1111/psyp.14147;https://doi.org/10.1111/psyp.14147;21.06.2022;2750;optin
+49;Humboldt-Universität zu Berlin;JOURNAL OF VEGETATION SCIENCE;1654-1103;10.1111/jvs.13127;https://doi.org/10.1111/jvs.13127;17.03.2022;2750;optin
+50;Humboldt-Universität zu Berlin;JOURNAL OF ANATOMY;1469-7580;10.1111/joa.13692;https://doi.org/10.1111/joa.13692;05.05.2022;2750;optin
+51;Humboldt-Universität zu Berlin;BULLETIN OF ECONOMIC RESEARCH;1467-8586;10.1111/boer.12350;https://doi.org/10.1111/boer.12350;05.04.2022;2750;optin
+52;Humboldt-Universität zu Berlin;STRESS AND HEALTH;1532-2998;10.1002/smi.3164;https://doi.org/10.1002/smi.3164;09.05.2022;2750;optin
+53;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202204678;https://doi.org/10.1002/ange.202204678;13.04.2022;1375;optin
+54;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202204678;https://doi.org/10.1002/anie.202204678;13.04.2022;2750;optin
+55;Humboldt-Universität zu Berlin;MATHEMATICAL FINANCE;1467-9965;10.1111/mafi.12359;https://doi.org/10.1111/mafi.12359;30.04.2022;2750;optin
+56;Humboldt-Universität zu Berlin;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200626;https://doi.org/10.1002/chem.202200626;11.04.2022;2750;optin
+57;Humboldt-Universität zu Berlin;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200705;https://doi.org/10.1002/chem.202200705;10.04.2022;2750;optin
+58;Humboldt-Universität zu Berlin;JOURNAL OF SOFTWARE: EVOLUTION AND PROCESS;2047-7481;10.1002/smr.2438;https://doi.org/10.1002/smr.2438;24.01.2022;2750;optin
+59;Humboldt-Universität zu Berlin;BATTERIES & SUPERCAPS;2566-6223;10.1002/batt.202200421;https://doi.org/10.1002/batt.202200421;13.11.2022;2750;optin
+60;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202209437;https://doi.org/10.1002/anie.202209437;15.12.2022;2750;optin
+61;Humboldt-Universität zu Berlin;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202209437;https://doi.org/10.1002/ange.202209437;15.12.2022;1375;optin
+62;Humboldt-Universität zu Berlin;THE SCANDINAVIAN JOURNAL OF ECONOMICS;1467-9442;10.1111/sjoe.12486;https://doi.org/10.1111/sjoe.12486;01.03.2022;2750;optin
+63;Humboldt-Universität zu Berlin;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200404;https://doi.org/10.1002/chem.202200404;24.02.2022;2750;optin
+64;Humboldt-Universität zu Berlin;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202208980;https://doi.org/10.1002/adfm.202208980;19.10.2022;2750;optin
+65;Humboldt-Universität zu Berlin;PSYCHOPHYSIOLOGY;1469-8986;10.1111/psyp.14202;https://doi.org/10.1111/psyp.14202;22.09.2022;2750;optin
+66;Humboldt-Universität zu Berlin;CONSTELLATIONS;1467-8675;10.1111/1467-8675.12626;https://doi.org/10.1111/1467-8675.12626;20.04.2022;2750;optin
+67;Humboldt-Universität zu Berlin;BIOESSAYS;1521-1878;10.1002/bies.202100285;https://doi.org/10.1002/bies.202100285;21.03.2022;2750;optin
+68;Humboldt-Universität zu Berlin;BULLETIN OF THE LONDON MATHEMATICAL SOCIETY;1469-2120;10.1112/blms.12756;https://doi.org/10.1112/blms.12756;03.10.2022;2750;optin
+69;Humboldt-Universität zu Berlin;JOURNAL OF PEPTIDE SCIENCE;1099-1387;10.1002/psc.3477;https://doi.org/10.1002/psc.3477;26.12.2022;2750;optin
+70;Humboldt-Universität zu Berlin;THE WORLD ECONOMY;1467-9701;10.1111/twec.13278;https://doi.org/10.1111/twec.13278;27.04.2022;2750;optin
+71;Humboldt-Universität zu Berlin;ECOLOGICAL APPLICATIONS;1939-5582;10.1002/eap.2601;https://doi.org/10.1002/eap.2601;08.01.2022;2750;optin
+72;Humboldt-Universität zu Berlin;JOURNAL OF RESEARCH IN SCIENCE TEACHING;1098-2736;10.1002/tea.21830;https://doi.org/10.1002/tea.21830;02.10.2022;2750;optin
