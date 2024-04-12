@@ -7,7 +7,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 6;Universität zu Köln;Biogeochemistry;1573-515X;10.1007/s10533-022-01005-8;https://doi.org/10.1007/s10533-022-01005-8;15.12.2022;05.12.2022;2750;originalpaper;Research Article;optin
 7;Universität zu Köln;PalZ;1867-6812;10.1007/s12542-022-00645-3;https://doi.org/10.1007/s12542-022-00645-3;28.12.2022;19.10.2022;2750;originalpaper;Research Article;optin
 8;Universität zu Köln;Boundary-Layer Meteorology;1573-1472;10.1007/s10546-022-00759-w;https://doi.org/10.1007/s10546-022-00759-w;29.11.2022;21.10.2022;2750;originalpaper;Research Article;optin
-9;Universität zu Köln;Politische Vierteljahresschrift;1862-2860;10.1007/s11615-022-00413-7;https://doi.org/10.1007/s11615-022-00413-7;06.07.2022;20.06.2022;917;bookreview;Non Research Article;optout
 10;Universität zu Köln;Communications in Mathematical Physics;1432-0916;10.1007/s00220-022-04445-3;https://doi.org/10.1007/s00220-022-04445-3;25.07.2022;16.06.2022;2750;originalpaper;Research Article;optin
 11;Universität zu Köln;Empirical Economics;1435-8921;10.1007/s00181-022-02245-1;https://doi.org/10.1007/s00181-022-02245-1;05.05.2022;06.04.2022;2750;originalpaper;Research Article;optin
 12;Universität zu Köln;La Matematica;2730-9657;10.1007/s44007-022-00030-1;https://doi.org/10.1007/s44007-022-00030-1;02.11.2022;15.06.2022;2750;originalpaper;Research Article;optin
@@ -28,7 +27,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 27;Universität zu Köln;Journal of Cancer Research and Clinical Oncology;1432-1335;10.1007/s00432-022-04025-x;https://doi.org/10.1007/s00432-022-04025-x;27.04.2022;12.04.2022;2750;originalpaper;Research Article;optin
 28;Universität zu Köln;The European Physical Journal B;1434-6036;10.1140/epjb/s10051-022-00395-w;https://doi.org/10.1140/epjb/s10051-022-00395-w;20.09.2022;05.08.2022;2750;originalpaper;Research Article;optin
 29;Universität zu Köln;Erkenntnis;1572-8420;10.1007/s10670-022-00561-7;https://doi.org/10.1007/s10670-022-00561-7;10.05.2022;11.04.2022;2750;originalpaper;Research Article;optin
-30;Universität zu Köln;Mathematische Zeitschrift;1432-1823;10.1007/s00209-022-03023-6;https://doi.org/10.1007/s00209-022-03023-6;21.04.2022;16.02.2022;2750;originalpaper;Research Article;optout
 31;Universität zu Köln;International Journal of Science and Mathematics Education;1573-1774;10.1007/s10763-022-10297-z;https://doi.org/10.1007/s10763-022-10297-z;05.09.2022;12.06.2022;2750;originalpaper;Research Article;optin
 32;Universität zu Köln;Psychometrika;1860-0980;10.1007/s11336-022-09841-1;https://doi.org/10.1007/s11336-022-09841-1;05.02.2022;12.01.2022;2750;originalpaper;Research Article;optin
 33;Universität zu Köln;Data Mining and Knowledge Discovery;1573-756X;10.1007/s10618-022-00842-3;https://doi.org/10.1007/s10618-022-00842-3;18.06.2022;20.05.2022;2750;originalpaper;Research Article;optin
@@ -121,7 +119,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 120;Universitätsklinikum Köln;Archives of Gynecology and Obstetrics;1432-0711;10.1007/s00404-022-06441-3;https://doi.org/10.1007/s00404-022-06441-3;27.02.2022;09.02.2022;2750;reviewpaper;Research Article;optin
 121;Universitätsklinikum Köln;European Spine Journal;1432-0932;10.1007/s00586-021-07079-6;https://doi.org/10.1007/s00586-021-07079-6;29.01.2022;27.11.2021;2750;reviewpaper;Research Article;optin
 122;Universitätsklinikum Köln;Current Psychology;1936-4733;10.1007/s12144-022-04102-x;https://doi.org/10.1007/s12144-022-04102-x;11.12.2022;30.11.2022;2750;originalpaper;Research Article;optin
-123;Universitätsklinikum Köln;Neuroradiology;1432-1920;10.1007/s00234-022-03096-4;https://doi.org/10.1007/s00234-022-03096-4;02.12.2022;26.11.2022;2750;originalpaper;Research Article;optout
 124;Universitätsklinikum Köln;Clinical Oral Investigations;1436-3771;10.1007/s00784-022-04373-5;https://doi.org/10.1007/s00784-022-04373-5;29.01.2022;03.01.2022;2750;originalpaper;Research Article;optin
 125;Universitätsklinikum Köln;Obere Extremität;1862-6602;10.1007/s11678-022-00692-x;https://doi.org/10.1007/s11678-022-00692-x;31.05.2022;29.04.2022;2750;originalpaper;Research Article;optin
 126;Universitätsklinikum Köln;Clinical Research in Cardiology;1861-0692;10.1007/s00392-022-02095-y;https://doi.org/10.1007/s00392-022-02095-y;15.09.2022;30.08.2022;2750;originalpaper;Research Article;optin
@@ -165,7 +162,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 164;Universitätsklinikum Köln;Obere Extremität;1862-6602;10.1007/s11678-022-00721-9;https://doi.org/10.1007/s11678-022-00721-9;22.12.2022;14.10.2022;2750;briefcommunication;Research Article;optin
 165;Universitätsklinikum Köln;Medizinische Klinik - Intensivmedizin und Notfallmedizin;2193-6226;10.1007/s00063-022-00912-w;https://doi.org/10.1007/s00063-022-00912-w;11.04.2022;16.02.2022;2750;originalpaper;Research Article;optin
 166;Universitätsklinikum Köln;Archives of Orthopaedic and Trauma Surgery;1434-3916;10.1007/s00402-022-04337-0;https://doi.org/10.1007/s00402-022-04337-0;22.01.2022;01.01.2022;2750;originalpaper;Research Article;optin
-167;Universitätsklinikum Köln;Annals of Surgical Oncology;1534-4681;10.1245/s10434-022-11700-3;https://doi.org/10.1245/s10434-022-11700-3;11.04.2022;11.02.2022;2750;originalpaper;Research Article;optout
 168;Universitätsklinikum Köln;Journal of Cancer Research and Clinical Oncology;1432-1335;10.1007/s00432-022-04063-5;https://doi.org/10.1007/s00432-022-04063-5;26.05.2022;09.05.2022;2750;originalpaper;Research Article;optin
 169;Universitätsklinikum Köln;Current Atherosclerosis Reports;1534-6242;10.1007/s11883-022-01028-4;https://doi.org/10.1007/s11883-022-01028-4;04.05.2022;13.03.2022;2750;reviewpaper;Research Article;optin
 170;Universitätsklinikum Köln;Rechtsmedizin;1434-5196;10.1007/s00194-022-00568-y;https://doi.org/10.1007/s00194-022-00568-y;22.03.2022;27.11.2021;2750;originalpaper;Research Article;optin
@@ -179,10 +175,8 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 178;Universitätsklinikum Köln;Archives of Orthopaedic and Trauma Surgery;1434-3916;10.1007/s00402-022-04494-2;https://doi.org/10.1007/s00402-022-04494-2;16.06.2022;18.05.2022;2750;originalpaper;Research Article;optin
 179;Universitätsklinikum Köln;Die Ophthalmologie;2731-7218;10.1007/s00347-022-01698-0;https://doi.org/10.1007/s00347-022-01698-0;10.08.2022;11.05.2022;2750;reviewpaper;Research Article;optin
 180;Universitätsklinikum Köln;Eye;1476-5454;10.1038/s41433-021-01892-5;https://doi.org/10.1038/s41433-021-01892-5;06.01.2022;01.12.2021;2750;originalpaper;Research Article;optin
-181;Universitätsklinikum Köln;Herz;1615-6692;10.1007/s00059-022-05109-7;https://doi.org/10.1007/s00059-022-05109-7;09.04.2022;16.03.2022;2750;originalpaper;Research Article;optout
 182;Universitätsklinikum Köln;Surgical Endoscopy;1432-2218;10.1007/s00464-022-09686-w;https://doi.org/10.1007/s00464-022-09686-w;14.10.2022;25.09.2022;2750;originalpaper;Research Article;optin
 183;Universitätsklinikum Köln;Graefe's Archive for Clinical and Experimental Ophthalmology;1435-702X;10.1007/s00417-022-05613-w;https://doi.org/10.1007/s00417-022-05613-w;07.03.2022;22.02.2022;2750;originalpaper;Research Article;optin
-184;Universitätsklinikum Köln;Graefe's Archive for Clinical and Experimental Ophthalmology;1435-702X;10.1007/s00417-022-05643-4;https://doi.org/10.1007/s00417-022-05643-4;07.04.2022;21.03.2022;2750;originalpaper;Research Article;optout
 185;Universitätsklinikum Köln;Child Psychiatry & Human Development;1573-3327;10.1007/s10578-022-01462-0;https://doi.org/10.1007/s10578-022-01462-0;28.10.2022;10.10.2022;2750;originalpaper;Research Article;optin
 186;Universitätsklinikum Köln;Current Atherosclerosis Reports;1534-6242;10.1007/s11883-022-01053-3;https://doi.org/10.1007/s11883-022-01053-3;28.07.2022;28.06.2022;2750;reviewpaper;Research Article;optin
 187;Universitätsklinikum Köln;Archives of Gynecology and Obstetrics;1432-0711;10.1007/s00404-022-06416-4;https://doi.org/10.1007/s00404-022-06416-4;04.04.2022;20.01.2022;2750;originalpaper;Research Article;optin
