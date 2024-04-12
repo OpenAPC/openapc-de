@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 98,516 articles, published at 379 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 98,875 articles, published at 380 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 98,516 articles, published at 379 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     8671|
+|DEAL Springer Nature Germany                     |     8905|
+|DEAL Wiley Germany                               |     7955|
 |Swiss Consortium Elsevier agreement              |     7927|
-|DEAL Wiley Germany                               |     7830|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -233,6 +233,7 @@ This dataset contains information on 98,516 articles, published at 379 instituti
 |VU University Medical Center (VUmc)                                                                                                                |      363|
 |Goettingen U                                                                                                                                       |      362|
 |HU Berlin                                                                                                                                          |      360|
+|Koeln U                                                                                                                                            |      359|
 |University of Vienna                                                                                                                               |      356|
 |University of Birmingham                                                                                                                           |      355|
 |University of Fribourg                                                                                                                             |      354|
