@@ -460,6 +460,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1502-3931": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia (electronic)
 	"1932-7005": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine 
 	"1932-6254": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine (linking)
+	"1520-6394": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety 
+	"1091-4269": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety (print)
 
 }
 
@@ -762,6 +764,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1932-7005", # Journal of Tissue Engineering and Regenerative Medicine, Gold OA since 2023
     "1932-6254", # Journal of Tissue Engineering and Regenerative Medicine, Gold OA since 2023 (linking)
     "1613-9372", # European Journal of Ageing, Gold OA since 2023
+    "1520-6394", # Depression and Anxiety, Gold OA since 2023
+    "1091-4269", # Depression and Anxiety, Gold OA since 2023 (linking)
+    "0043-1397", # Water Resources Research, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
