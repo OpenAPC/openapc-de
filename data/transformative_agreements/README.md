@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 98,875 articles, published at 380 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 99,317 articles, published at 381 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 98,875 articles, published at 380 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     8905|
-|DEAL Wiley Germany                               |     7955|
+|DEAL Springer Nature Germany                     |     9119|
+|DEAL Wiley Germany                               |     8183|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -216,6 +216,7 @@ This dataset contains information on 98,875 articles, published at 380 instituti
 |Erasmus MC                                                                                                                                         |      453|
 |Academic Medical Center (AMC)                                                                                                                      |      447|
 |TU Darmstadt                                                                                                                                       |      445|
+|Hohenheim U                                                                                                                                        |      442|
 |Erlangen Nuernberg U                                                                                                                               |      439|
 |University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
 |KIT                                                                                                                                                |      431|
