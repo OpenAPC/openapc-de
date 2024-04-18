@@ -462,6 +462,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1932-6254": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine (linking)
 	"1520-6394": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety 
 	"1091-4269": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety (print)
+	"2516-3817": ["Elsevier", "Adjacent Digital Politics Ltd"], # Open Access Government 
 
 }
 
