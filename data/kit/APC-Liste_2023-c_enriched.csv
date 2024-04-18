@@ -15,7 +15,7 @@
 "KIT",2023,1751.77,"10.1016/j.slast.2023.11.002",FALSE,"Elsevier BV","SLAS Technology","2472-6303","2472-6303",NA,"2472-6303","http://creativecommons.org/licenses/by/4.0/",TRUE,"37981010",NA,NA,NA,TRUE
 "KIT",2023,1481.77,"10.1016/j.acags.2023.100144",FALSE,"Elsevier BV","Applied Computing and Geosciences","2590-1974","2590-1974",NA,"2590-1974","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2023,1939.28,"10.1371/journal.pone.0292275",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37967132","PMC10650979",NA,NA,TRUE
-"KIT",2023,3479.44,"10.1093/europace/euad278",TRUE,"Oxford University Press (OUP)","Europace","1099-5129","1099-5129","1532-2092","1099-5129","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"37713626","PMC10533207",NA,NA,FALSE
+"KIT",2023,3479.44,"10.1093/europace/euad278",FALSE,"Oxford University Press (OUP)","Europace","1099-5129","1099-5129","1532-2092","1099-5129","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"37713626","PMC10533207",NA,NA,FALSE
 "KIT",2023,2456.73,"10.3390/app132413268",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2023,2558.62,"10.3390/fire7010006",FALSE,"MDPI AG","Fire","2571-6255",NA,"2571-6255","2571-6255","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2023,1846.07,"10.1109/access.2023.3331819",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Access","2169-3536",NA,"2169-3536","2169-3536","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,TRUE
@@ -35,11 +35,11 @@
 "KIT",2023,4042.41,"10.1128/msystems.00998-23",FALSE,"American Society for Microbiology","mSystems","2379-5077",NA,"2379-5077","2379-5077","https://creativecommons.org/licenses/by/4.0/",TRUE,"37982643","PMC10734494",NA,NA,TRUE
 "KIT",2023,2563.55,"10.3390/pr12010009",FALSE,"MDPI AG","Processes","2227-9717",NA,"2227-9717","2227-9717","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,2782.78,"10.3390/en16247994",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"KIT",2023,2111.77,"10.1080/17452759.2023.2269898",TRUE,"Informa UK Limited","Virtual and Physical Prototyping","1745-2759","1745-2759","1745-2767","1745-2759","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"KIT",2023,2111.77,"10.1080/17452759.2023.2269898",FALSE,"Informa UK Limited","Virtual and Physical Prototyping","1745-2759","1745-2759","1745-2767","1745-2759","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2023,1127.92,"10.3390/ma16206678",FALSE,"MDPI AG","Materials","1996-1944",NA,"1996-1944","1996-1944","https://creativecommons.org/licenses/by/4.0/",TRUE,"37895660","PMC10608312",NA,NA,TRUE
 "KIT",2023,1463.7,"10.1016/j.ophoto.2023.100047",FALSE,"Elsevier BV","ISPRS Open Journal of Photogrammetry and Remote Sensing","2667-3932","2667-3932",NA,"2667-3932","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2023,1762.71,"10.1039/d3cb00131h",FALSE,"Royal Society of Chemistry (RSC)","RSC Chemical Biology","2633-0679",NA,"2633-0679","2633-0679","http://creativecommons.org/licenses/by/3.0/",TRUE,"37799577","PMC10549235",NA,NA,TRUE
-"KIT",2023,2510.9,"10.1080/17452759.2023.2271455",TRUE,"Informa UK Limited","Virtual and Physical Prototyping","1745-2759","1745-2759","1745-2767","1745-2759","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"KIT",2023,2510.9,"10.1080/17452759.2023.2271455",FALSE,"Informa UK Limited","Virtual and Physical Prototyping","1745-2759","1745-2759","1745-2767","1745-2759","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2023,1176.62,"10.3390/ijms242115945",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"37958928","PMC10648460",NA,NA,TRUE
 "KIT",2023,1055.79,"10.3390/plasma6040049",FALSE,"MDPI AG","Plasma","2571-6182",NA,"2571-6182","2571-6182","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2023,2080,"10.1002/admi.202300227",FALSE,"Wiley-Blackwell","Advanced Materials Interfaces","2196-7350","2196-7350","2196-7350","2196-7350","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
