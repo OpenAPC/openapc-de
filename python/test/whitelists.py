@@ -768,6 +768,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1520-6394", # Depression and Anxiety, Gold OA since 2023
     "1091-4269", # Depression and Anxiety, Gold OA since 2023 (linking)
     "0043-1397", # Water Resources Research, Gold OA since 2024
+    "1099-5129", # Europace, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
