@@ -117,8 +117,8 @@ JOURNAL_OWNER_CHANGED = {
     "2572-4525": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography and Paleoclimatology (electronic)
     "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
     "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition (electronic)
-    "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology
-    "1938-3673": ["Society for Leukocyte Biology", "Wiley-Blackwell"], # Journal of Leukocyte Biology (electronic)
+    "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Leukocyte Biology
+    "1938-3673": ["Society for Leukocyte Biology", "Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Leukocyte Biology (electronic)
     "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
     "1010-4283": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications", "IOS Press"], # Tumor Biology
     "1423-0380": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications", "IOS Press"], # Tumor Biology (electronic)
@@ -462,7 +462,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1932-6254": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine (linking)
 	"1520-6394": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety 
 	"1091-4269": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety (print)
-	"2516-3817": ["Elsevier", "Adjacent Digital Politics Ltd"], # Open Access Government 
+	"2516-3817": ["Elsevier", "Adjacent Digital Politics Ltd"], # Open Access Government
+	"1342-078X": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine 
+	"1347-4715": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine (electronic)
 
 }
 
@@ -769,6 +771,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1091-4269", # Depression and Anxiety, Gold OA since 2023 (linking)
     "0043-1397", # Water Resources Research, Gold OA since 2024
     "1099-5129", # Europace, Gold OA since 2023
+    "2691-199X", # Digital Government: Research and Practice
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
