@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 99,603 articles, published at 382 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 99,603 articles, published at 381 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -205,9 +205,9 @@ This dataset contains information on 99,603 articles, published at 382 instituti
 |University of Groningen                                                                                                                            |      501|
 |University of Edinburgh                                                                                                                            |      495|
 |Delft University of Technology                                                                                                                     |      484|
+|Empa - Swiss Federal Laboratories for Materials Science and Technology                                                                             |      476|
 |HHU Düsseldorf                                                                                                                                     |      475|
 |Umeå University                                                                                                                                    |      475|
-|Empa - Swiss Federal Laboratories for Materials Science and Technology                                                                             |      474|
 |Heidelberg U                                                                                                                                       |      463|
 |Leiden University                                                                                                                                  |      461|
 |Swedish University of Agricultural Sciences                                                                                                        |      461|
@@ -225,7 +225,7 @@ This dataset contains information on 99,603 articles, published at 382 instituti
 |University of Southampton                                                                                                                          |      398|
 |Radboud University Medical Center                                                                                                                  |      397|
 |University of Sheffield                                                                                                                            |      387|
-|PSI - Paul Scherrer Institute                                                                                                                      |      384|
+|PSI - Paul Scherrer Institute                                                                                                                      |      386|
 |DLR                                                                                                                                                |      383|
 |Maastricht University                                                                                                                              |      382|
 |University of Bristol                                                                                                                              |      378|
@@ -267,8 +267,8 @@ This dataset contains information on 99,603 articles, published at 382 instituti
 |University of St.Gallen                                                                                                                            |      224|
 |Medical University of Graz                                                                                                                         |      222|
 |Queen's University Belfast                                                                                                                         |      217|
+|WSL - Swiss Federal Institute for Forest, Snow and Landscape Research                                                                              |      209|
 |Tilburg University                                                                                                                                 |      208|
-|WSL - Swiss Federal Institute for Forest, Snow and Landscape Research                                                                              |      206|
 |University of York                                                                                                                                 |      205|
 |University of Applied Sciences and Arts Western Switzerland                                                                                        |      201|
 |Hamburg TUHH                                                                                                                                       |      200|
@@ -450,7 +450,6 @@ This dataset contains information on 99,603 articles, published at 382 instituti
 |Anglia Ruskin University                                                                                                                           |        7|
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
 |Häme University of Applied Sciences                                                                                                                |        7|
-|Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL                                                          |        7|
 |Queen Margaret University                                                                                                                          |        7|
 |Social Insurance Institution of Finland                                                                                                            |        7|
 |Atlantic Technological University                                                                                                                  |        6|
