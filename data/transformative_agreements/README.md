@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 99,668 articles, published at 381 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 99,882 articles, published at 382 institutions under 118 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 99,668 articles, published at 381 instituti
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     9119|
-|DEAL Wiley Germany                               |     8183|
+|DEAL Springer Nature Germany                     |     9229|
+|DEAL Wiley Germany                               |     8287|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -267,6 +267,7 @@ This dataset contains information on 99,668 articles, published at 381 instituti
 |University of St.Gallen                                                                                                                            |      224|
 |Medical University of Graz                                                                                                                         |      222|
 |Queen's University Belfast                                                                                                                         |      217|
+|Kiel U                                                                                                                                             |      214|
 |WSL - Swiss Federal Institute for Forest, Snow and Landscape Research                                                                              |      209|
 |Tilburg University                                                                                                                                 |      208|
 |University of York                                                                                                                                 |      205|
