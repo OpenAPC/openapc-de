@@ -17,7 +17,7 @@ At the moment this project provides the following cost data:
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
 | Articles         |212,284 | 416,170,415    | 428 |
-| Monographs       |1,821 | 11,846,258    | 57 |
+| Monographs       |1,871 | 12,294,915    | 61 |
 
 ## How to access the data?
 
@@ -794,9 +794,9 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 ### Books (BPCs)
 
-The book data set contains information on 1,821 open access books. Publication fees were supported financially by 57 research performing institutions and funders. 
+The book data set contains information on 1,871 open access books. Publication fees were supported financially by 61 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 11,846,258. The average payment was € 6,505 and the median was € 6,783.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 12,294,915. The average payment was € 6,571 and the median was € 6,870.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -821,7 +821,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2020   |             163|    7,453|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             172|    6,976|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             193|    7,808|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |              55|    5,867|      5,980|   580 - 15,500|             NA|       NA|         NA|            NA|
+|2023   |             102|    7,514|      6,439|   580 - 16,941|              3|    1,614|      1,464| 1,464 - 1,912|
 |2024   |               1|    6,335|      6,335| 6,335 -  6,335|             NA|       NA|         NA|            NA|
 
 

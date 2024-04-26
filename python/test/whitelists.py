@@ -26,7 +26,8 @@ PUBLISHER_IDENTITY = [
     (["Optical Society of America (OSA)"], ["Optica Publishing Group"]),
     (["Wiley-Blackwell"], ["British Institute of Radiology"]),
     (["jovis Verlag"], ["De Gruyter"]), # jovis is an imprint of De Gruyter
-    (["Joule Inc."], ["CMA Impact Inc."])
+    (["Joule Inc."], ["CMA Impact Inc."]),
+    (["CRC Press"], ["Routledge"]) # both imprints of T&F, both share a website and present their portfolio together
 ]
 
 
