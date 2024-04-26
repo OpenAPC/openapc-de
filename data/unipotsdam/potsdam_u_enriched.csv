@@ -99,9 +99,9 @@
 "Potsdam U",2022,2500,"10.2113/2022/7514691",FALSE,"GeoScienceWorld","Lithosphere","1947-4253","1941-8264","1947-4253","1947-4253","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Potsdam U",2022,583.1,"10.30844/i40m_22-2_11-14",TRUE,"GITO mbH Verlag","Industrie 4.0 Management","2364-9208","2364-9208",NA,"2364-9216",NA,TRUE,NA,NA,NA,NA,FALSE
 "Potsdam U",2022,714,"10.4017/gt.2022.21.1.483.06",TRUE,"International Society for Gerontechnology (ISG)","Gerontechnology","1569-1101","1569-1101","1569-111X","1569-1101",NA,TRUE,NA,NA,NA,NA,FALSE
-"Potsdam U",2022,NA,"10.3847/1538-4357/ac5a4b",NA,"American Astronomical Society","The Astrophysical Journal","0004-637X","0004-637X","1538-4357","0004-637X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Potsdam U",2022,NA,"10.3847/1538-4357/ac524a",NA,"American Astronomical Society","The Astrophysical Journal","0004-637X","0004-637X","1538-4357","0004-637X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Potsdam U",2022,NA,"10.3847/1538-4357/ac6032",NA,"American Astronomical Society","The Astrophysical Journal","0004-637X","0004-637X","1538-4357","0004-637X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "Potsdam U",2022,2826.25,"10.1088/1361-6455/ac3c91",TRUE,"IOP Publishing","Journal of Physics B: Atomic, Molecular and Optical Physics","0953-4075","0953-4075","1361-6455","0953-4075","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Potsdam U",2022,1490.48,"10.1088/1367-2630/ac5282",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Potsdam U",2022,1291.75,"10.1088/1367-2630/ac63d9",FALSE,"IOP Publishing","New Journal of Physics","1367-2630",NA,"1367-2630","1367-2630","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -157,7 +157,7 @@
 "Potsdam U",2022,5267.59,"10.1073/pnas.2110345118",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"34983840","PMC8740703",NA,NA,FALSE
 "Potsdam U",2022,3095.83,"10.1073/pnas.2203663119",TRUE,"Proceedings of the National Academy of Sciences","Proceedings of the National Academy of Sciences","0027-8424","0027-8424","1091-6490","0027-8424","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35939677","PMC9388074",NA,NA,FALSE
 "Potsdam U",2022,3646.16,"10.1093/braincomms/fcac018",FALSE,"Oxford University Press (OUP)","Brain Communications","2632-1297",NA,"2632-1297","2632-1297","https://creativecommons.org/licenses/by/4.0/",TRUE,"35198977","PMC8856136",NA,NA,TRUE
-"Potsdam U",2022,NA,"10.1093/gji/ggab493",NA,"Oxford University Press (OUP)","Geophysical Journal International","0956-540X","0956-540X","1365-246X","0956-540X","https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Potsdam U",2022,2390.71,"10.1093/nargab/lqab128",TRUE,"Oxford University Press (OUP)","NAR Genomics and Bioinformatics","2631-9268",NA,"2631-9268","2631-9268","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"35047818","PMC8759564",NA,NA,TRUE
 "Potsdam U",2022,3303.44,"10.1093/plphys/kiac113",TRUE,"Oxford University Press (OUP)","Plant Physiology","0032-0889","0032-0889","1532-2548","0032-0889","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35285498","PMC9157090",NA,NA,FALSE
 "Potsdam U",2022,1901.95,"10.1371/journal.pone.0262487",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"35113876","PMC8812978",NA,NA,TRUE
@@ -171,11 +171,11 @@
 "Potsdam U",2022,2087,"10.1039/d2nr03664a",TRUE,"Royal Society of Chemistry (RSC)","Nanoscale","2040-3364","2040-3364","2040-3372","2040-3364","http://creativecommons.org/licenses/by/3.0/",TRUE,"36305892","PMC9671141",NA,NA,FALSE
 "Potsdam U",2022,2290.06,"10.1039/d1na00737h",FALSE,"Royal Society of Chemistry (RSC)","Nanoscale Advances","2516-0230",NA,"2516-0230","2516-0230","http://creativecommons.org/licenses/by-nc/3.0/",TRUE,"35399325","PMC8922996",NA,NA,TRUE
 "Potsdam U",2022,1964.09,"10.1039/d1cp05420a",TRUE,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://creativecommons.org/licenses/by/3.0/",TRUE,"35288726","PMC8942076",NA,NA,FALSE
-"Potsdam U",2022,NA,"10.1039/d2cp01741e",NA,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://rsc.li/journals-terms-of-use",TRUE,"35838015",NA,NA,NA,FALSE
-"Potsdam U",2022,NA,"10.1039/d2cp00657j",NA,"Royal Society of Chemistry (RSC)","Physical Chemistry Chemical Physics","1463-9076","1463-9076","1463-9084","1463-9076","http://rsc.li/journals-terms-of-use",TRUE,"35510618",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "Potsdam U",2022,1713.6,"10.1098/rsos.210717",FALSE,"The Royal Society","Royal Society Open Science","2054-5703",NA,"2054-5703","2054-5703","https://royalsociety.org/journals/ethics-policies/data-sharing-mining/",TRUE,"35154788","PMC8826301",NA,NA,TRUE
-"Potsdam U",2022,NA,"10.1785/0120210307",NA,"Seismological Society of America (SSA)","Bulletin of the Seismological Society of America","0037-1106","0037-1106","1943-3573","0037-1106",NA,TRUE,NA,NA,NA,NA,FALSE
-"Potsdam U",2022,NA,"10.1190/geo2021-0651.1",NA,"Society of Exploration Geophysicists","GEOPHYSICS","0016-8033","0016-8033","1942-2156","0016-8033",NA,TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "Potsdam U",2022,942.48,"10.1007/s44163-022-00031-7",FALSE,"Springer Nature","Discover Artificial Intelligence","2731-0809",NA,"2731-0809","2731-0809","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "Potsdam U",2022,2671.55,"10.1186/s11556-022-00296-y",FALSE,"Springer Nature","European Review of Aging and Physical Activity","1813-7253","1813-7253","1861-6909","1813-7253","https://creativecommons.org/licenses/by/4.0",TRUE,"35840899","PMC9287128",NA,NA,TRUE
 "Potsdam U",2022,1096.29,"10.1057/s41599-022-01322-1",FALSE,"Springer Nature","Humanities and Social Sciences Communications","2662-9992",NA,"2662-9992","2662-9992","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
@@ -218,14 +218,14 @@
 "Potsdam U",2022,2012.29,"10.1080/19491034.2022.2047289",FALSE,"Informa UK Limited","Nucleus","1949-1034","1949-1034","1949-1042","1949-1042","http://creativecommons.org/licenses/by/4.0/",TRUE,"35298348","PMC8932920",NA,NA,TRUE
 "Potsdam U",2022,895.48,"10.1080/10503307.2022.2098076",TRUE,"Informa UK Limited","Psychotherapy Research","1050-3307","1050-3307","1468-4381","1050-3307","http://creativecommons.org/licenses/by/4.0/",TRUE,"35847994",NA,NA,NA,FALSE
 "Potsdam U",2022,657.48,"10.1080/09593683.2022.2027735",TRUE,"Informa UK Limited","Publications of the English Goethe Society","0959-3683","0959-3683","1749-6284","0959-3683","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Potsdam U",2022,NA,"10.1080/2201473x.2020.1761002",NA,"Informa UK Limited","Settler Colonial Studies","2201-473X","2201-473X","1838-0743","1838-0743",NA,TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Potsdam U",2022,812.18,"10.1080/02691728.2022.2076629",TRUE,"Informa UK Limited","Social Epistemology","0269-1728","0269-1728","1464-5297","0269-1728","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Potsdam U",2022,NA,"10.1055/a-1875-3635",NA,"Georg Thieme Verlag KG","Psychiatrische Praxis","0303-4259","0303-4259","1439-0876","0303-4259",NA,TRUE,"36170874",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Potsdam U",2022,4124.21,"10.1086/718473",TRUE,"University of Chicago Press","The American Naturalist","0003-0147","0003-0147","1537-5323","0003-0147",NA,TRUE,"35324382",NA,NA,NA,FALSE
-"Potsdam U",2022,NA,"10.1002/adfm.202270013",NA,"Wiley-Blackwell","Advanced Functional Materials","1616-301X","1616-301X","1616-3028","1616-301X","http://onlinelibrary.wiley.com/termsAndConditions#vor",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Potsdam U",2022,1773.1,"10.1029/2021av000641",FALSE,"American Geophysical Union (AGU)","AGU Advances","2576-604X","2576-604X","2576-604X","2576-604X","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Potsdam U",2022,NA,"10.1002/ange.202114687",NA,"Wiley-Blackwell","Angewandte Chemie","0044-8249","0044-8249","1521-3757","0044-8249","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Potsdam U",2022,NA,"10.1002/ange.202204545",NA,"Wiley-Blackwell","Angewandte Chemie","0044-8249","0044-8249","1521-3757","0044-8249","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "Potsdam U",2022,2380,"10.1002/psp4.12745",FALSE,"Wiley-Blackwell","CPT: Pharmacometrics & Systems Pharmacology","2163-8306","2163-8306","2163-8306","2163-8306","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"34779144","PMC8846635",NA,NA,TRUE
 "Potsdam U",2022,1529.15,"10.1029/2021ef002426",FALSE,"American Geophysical Union (AGU)","Earth's Future","2328-4277","2328-4277","2328-4277","2328-4277","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Potsdam U",2022,1999.2,"10.1111/ecog.05787",FALSE,"Wiley-Blackwell","Ecography","0906-7590","0906-7590","1600-0587","0906-7590","http://creativecommons.org/licenses/by/3.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -235,5 +235,5 @@
 "Potsdam U",2022,1951.6,"10.1002/hsr2.772",FALSE,"Wiley-Blackwell","Health Science Reports","2398-8835","2398-8835","2398-8835","2398-8835","http://creativecommons.org/licenses/by/4.0/",TRUE,"35957976","PMC9364332",NA,NA,TRUE
 "Potsdam U",2022,3046.4,"10.1002/hbm.26039",FALSE,"Wiley-Blackwell","Human Brain Mapping","1065-9471","1065-9471","1097-0193","1065-9471","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"36441846","PMC9704796",NA,NA,TRUE
 "Potsdam U",2022,1933.75,"10.1029/2021ms002564",FALSE,"American Geophysical Union (AGU)","Journal of Advances in Modeling Earth Systems","1942-2466","1942-2466","1942-2466","1942-2466","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"Potsdam U",2022,NA,"10.1029/2020jb020769",NA,"American Geophysical Union (AGU)","Journal of Geophysical Research: Solid Earth","2169-9313","2169-9313","2169-9356","2169-9313","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Potsdam U",2022,NA,"10.1002/marc.202270003",NA,"Wiley-Blackwell","Macromolecular Rapid Communications","1022-1336","1022-1336","1521-3927","1022-1336","http://onlinelibrary.wiley.com/termsAndConditions#vor",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
