@@ -9,7 +9,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 8;Universität Greifswald;Applied Microbiology and Biotechnology;1432-0614;10.1007/s00253-022-12071-1;https://doi.org/10.1007/s00253-022-12071-1;06.08.2022;05.07.2022;2750;originalpaper;Research Article;optin
 9;Universität Greifswald;Sustainability Science;1862-4057;10.1007/s11625-022-01106-1;https://doi.org/10.1007/s11625-022-01106-1;21.02.2022;31.01.2022;2750;originalpaper;Research Article;optin
 10;Universität Greifswald;Social Psychiatry and Psychiatric Epidemiology;1433-9285;10.1007/s00127-022-02345-4;https://doi.org/10.1007/s00127-022-02345-4;05.08.2022;19.07.2022;2750;reviewpaper;Research Article;optin
-11;Universität Greifswald;Organisms Diversity & Evolution;1618-1077;10.1007/s13127-022-00541-3;https://doi.org/10.1007/s13127-022-00541-3;26.01.2022;22.12.2021;2750;originalpaper;Research Article;optout
 12;Universität Greifswald;Annals of Combinatorics;0219-3094;10.1007/s00026-022-00627-x;https://doi.org/10.1007/s00026-022-00627-x;17.12.2022;04.12.2022;2750;originalpaper;Research Article;optin
 13;Universität Greifswald;AAPS PharmSciTech;1530-9932;10.1208/s12249-022-02347-0;https://doi.org/10.1208/s12249-022-02347-0;03.08.2022;27.06.2022;2750;originalpaper;Research Article;optin
 14;Universität Greifswald;Publizistik;1862-2569;10.1007/s11616-021-00718-4;https://doi.org/10.1007/s11616-021-00718-4;06.01.2022;22.12.2021;917;editorialnotes;Non Research Article;optin
@@ -79,7 +78,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 78;Universitätsmedizin Greifswald;Annals of Hematology;1432-0584;10.1007/s00277-022-04879-8;https://doi.org/10.1007/s00277-022-04879-8;17.06.2022;04.06.2022;917;letter;Non Research Article;optin
 79;Universitätsmedizin Greifswald;Sleep and Breathing;1522-1709;10.1007/s11325-022-02614-1;https://doi.org/10.1007/s11325-022-02614-1;29.04.2022;06.04.2022;2750;originalpaper;Research Article;optin
 80;Universitätsmedizin Greifswald;Clinical Oral Investigations;1436-3771;10.1007/s00784-022-04805-2;https://doi.org/10.1007/s00784-022-04805-2;06.12.2022;27.11.2022;2750;originalpaper;Research Article;optin
-81;Universitätsmedizin Greifswald;Der Nervenarzt;1433-0407;10.1007/s00115-022-01303-4;https://doi.org/10.1007/s00115-022-01303-4;14.05.2022;06.04.2022;2750;reviewpaper;Research Article;optout
 82;Universitätsmedizin Greifswald;Journal of Clinical Psychology in Medical Settings;1573-3572;10.1007/s10880-022-09857-w;https://doi.org/10.1007/s10880-022-09857-w;15.02.2022;18.01.2022;2750;originalpaper;Research Article;optin
 83;Universitätsmedizin Greifswald;European Archives of Psychiatry and Clinical Neuroscience;1433-8491;10.1007/s00406-022-01420-w;https://doi.org/10.1007/s00406-022-01420-w;17.05.2022;22.04.2022;2750;originalpaper;Research Article;optin
 84;Universitätsmedizin Greifswald;Acta Neurochirurgica;0942-0940;10.1007/s00701-022-05389-2;https://doi.org/10.1007/s00701-022-05389-2;27.10.2022;01.10.2022;2750;briefcommunication;Research Article;optin
