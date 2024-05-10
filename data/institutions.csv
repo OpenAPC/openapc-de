@@ -164,36 +164,36 @@ MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,
 Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI,unirhodeisland,https://ror.org/013ckk937,NA,NA,https://uri.libguides.com/oafund,NA
 Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC,couperin/amu,https://ror.org/035xkbk20,NA,NA,NA,NA
 Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC,couperin/bourgogne,https://ror.org/03k1bsr36,NA,NA,NA,NA
-Hospices Civils de Lyon,hcl_u,Hospices Civils de Lyon,EUROPE,FRA,FR-ARA,couperin/hcl,https://ror.org/01502ca60,NA,NA,NA,NA
-INRIA,inria,Institut national de recherche en informatique et en automatique (INRIA),EUROPE,FRA,FR-IDF,couperin/inria,https://ror.org/02kvxyf05,NA,NA,NA,NA
-INSERM,inserm,Institut national de la santé et de la recherche médicale (INSERM),EUROPE,FRA,FR-IDF,couperin/inserm,https://ror.org/02vjkv261,NA,NA,NA,NA
-Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1,NA,NA,NA,NA,NA
-Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2,NA,NA,NA,NA,NA
-Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,couperin/rennes1,https://ror.org/015m7wh34,NA,NA,NA,NA
+HCL - Hospices civils de Lyon,hcl_u,HCL - Hospices civils de Lyon,EUROPE,FRA,FR-ARA,couperin/hcl,https://ror.org/01502ca60,NA,NA,NA,NA
+INRIA - Institut National de Recherche en Informatique et en Automatique,inria,INRIA - Institut National de Recherche en Informatique et en Automatique,EUROPE,FRA,FR-IDF,couperin/inria,https://ror.org/02kvxyf05,NA,NA,NA,NA
+INSERM - Institut National de la Santé et de la Recherche Médicale,inserm,INSERM - Institut National de la Santé et de la Recherche Médicale,EUROPE,FRA,FR-IDF,couperin/inserm,https://ror.org/02vjkv261,NA,NA,NA,NA
+Université de Lille I Sciences et technologies,lille1_u,Université de Lille I Sciences et technologies,EUROPE,FRA,FR-HDF,couperin/lille1,NA,NA,NA,NA,NA
+Université de Lille II Droit et Santé,lille2_u,Université de Lille II Droit et Santé,EUROPE,FRA,FR-HDF,couperin/lille2,NA,NA,NA,NA,NA
+Université de Rennes,rennes1_u,Université de Rennes,EUROPE,FRA,FR-BRE,couperin/rennes1,https://ror.org/015m7wh34,NA,NA,NA,NA
 Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon,https://ror.org/02m9kbe37,NA,NA,NA,NA
-Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc,NA,NA,NA,NA,NA
+Université Pierre et Marie Curie - Paris VI,upmc,Université Pierre et Marie Curie - Paris VI,EUROPE,FRA,FR-IDF,couperin/upmc,NA,NA,NA,NA,NA
 Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,couperin/bordeaux,https://ror.org/057qpr032,NA,NA,NA,NA
 Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble,https://ror.org/02rx3b187,NA,NA,NA,NA
-Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt,https://ror.org/033p9g875,NA,NA,NA,NA
+Toulouse INP - Institut National Polytechnique de Toulouse,inpt,Toulouse INP - Institut National Polytechnique de Toulouse,EUROPE,FRA,FR-OCC,couperin/inpt,https://ror.org/033p9g875,NA,NA,NA,NA
 Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers,https://ror.org/04xhy8q59,NA,NA,NA,NA
 University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,natlibswe/univ_boras,https://ror.org/01fdxwh83,NA,NA,NA,NA
 University West,west_u,University West,EUROPE,SWE,SE-O,natlibswe/univ_vast,https://ror.org/0257kt353,NA,NA,NA,NA
 Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,natlibswe/univ_linne,https://ror.org/00j9qag85,NA,NA,NA,NA
 Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T,natlibswe/univ_orebro,https://ror.org/05kytsw45,NA,NA,NA,NA
 Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES,couperin/lorraine,https://ror.org/04vfs2w97,NA,NA,NA,NA
-CNRS,cnrs,Centre national de la recherche scientifique (CNRS),EUROPE,FRA,FR-IDF,couperin/cnrs,https://ror.org/00675rp98,NA,NA,NA,NA
+CNRS - Centre national de la recherche scientifique,cnrs,CNRS - Centre national de la recherche scientifique,EUROPE,FRA,FR-IDF,couperin/cnrs,https://ror.org/00675rp98,NA,NA,NA,NA
 Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FRA,FR-ARA,couperin/auvergne,https://ror.org/01a8ajp46,NA,NA,NA,NA
 Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,iupui,https://ror.org/05gxnyn08,NA,NA,https://ulib.iupui.edu/digitalscholarship/openaccess/oafund,NA
 Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE,igb,https://ror.org/01nftxb06,INS,WGL,https://www.igb-berlin.de/en/library,NA
 Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE,wias,https://ror.org/00h1x4t21,INS,WGL,https://www.wias-berlin.de/services/library/,NA
-Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,couperin/paris-descartes,NA,NA,NA,NA,NA
+Université Paris Descartes - Paris V,paris_descartes_u,Université Paris Descartes - Paris V,EUROPE,FRA,FR-IDF,couperin/paris-descartes,NA,NA,NA,NA,NA
 Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC,couperin/toulouse3,https://ror.org/02v6kpv12,NA,NA,NA,NA
-INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF,couperin/inra,https://ror.org/05y503v71,NA,NA,NA,NA
-ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF,couperin/espci,https://ror.org/03zx86w41,NA,NA,NA,NA
+INRA - Institut National de la Recherche Agronomique,inra,INRA - Institut National de la Recherche Agronomique,EUROPE,FRA,FR-IDF,couperin/inra,https://ror.org/05y503v71,NA,NA,NA,NA
+ESPCI - Ecole supérieure de physique et de chimie industrielles,espci,ESPCI - Ecole supérieure de physique et de chimie industrielles,EUROPE,FRA,FR-IDF,couperin/espci,https://ror.org/03zx86w41,NA,NA,NA,NA
 Avignon Université,avignon_u,Avignon Université,EUROPE,FRA,FR-PAC,couperin/avignon,https://ror.org/00mfpxb84,NA,NA,NA,NA
 Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR,couperin/caen,https://ror.org/051kpcy16,NA,NA,NA,NA
 Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,couperin/franche-comte,https://ror.org/03pcc9z86,NA,NA,NA,NA
-Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,couperin/paris-diderot,NA,NA,NA,NA,NA
+Université Paris Diderot - Paris VII,paris_diderot_u,Université Paris Diderot - Paris VII,EUROPE,FRA,FR-IDF,couperin/paris-diderot,NA,NA,NA,NA,NA
 Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES,couperin/strasbourg,https://ror.org/00pg6eq24,NA,NA,NA,NA
 "University of Chemistry and Technology, Prague",uct_prague_u,"University of Chemistry and Technology, Prague",EUROPE,CZE,CZ-PR,uct_prague,https://ror.org/05ggn0a85,NA,NA,https://www.chemtk.cz/en/,NA
 Brunel University,brunel_u,Brunel University,EUROPE,GBR,ENG,NA,https://ror.org/00dn4t376,NA,NA,NA,NA
@@ -215,24 +215,24 @@ SOAS,soas,SOAS University of London,EUROPE,GBR,ENG,NA,https://ror.org/04vrxay34,
 London South Bank University,london_south_bank_u,London South Bank University,EUROPE,GBR,ENG,NA,https://ror.org/02vwnat91,NA,NA,NA,NA
 Oxford Brookes University,oxford_brookes_u,Oxford Brookes University,EUROPE,GBR,ENG,NA,https://ror.org/04v2twj65,NA,NA,NA,NA
 Université d'Angers,angers_u,Université d'Angers,EUROPE,FRA,FR-PDL,couperin/angers,https://ror.org/04yrqp957,NA,NA,NA,NA
-CIRAD,cirad,Centre de coopération internationale en recherche agronomique pour le développement (CIRAD),EUROPE,FRA,FR-IDF,couperin/cirad,https://ror.org/05kpkpg04,NA,NA,NA,NA
-Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF,couperin/ens_paris,https://ror.org/05a0dhs15,NA,NA,NA,NA
-Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC,couperin/ird,https://ror.org/05q3vnk25,NA,NA,NA,NA
-Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA,couperin/lyon1,https://ror.org/029brtt94,NA,NA,NA,NA
-Université de Nantes,nantes_u,Université de Nantes,EUROPE,FRA,FR-PDL,couperin/nantes,https://ror.org/03gnr7b55,NA,NA,NA,NA
-IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF,couperin/ifsttar,NA,NA,NA,NA,NA
-IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,couperin/irstea,NA,NA,NA,NA,NA
-Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF,couperin/evry,https://ror.org/00e96v939,NA,NA,NA,NA
-Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,couperin/compiegne,https://ror.org/04y5kwa70,NA,NA,NA,NA
+CIRAD - Centre de coopération internationale en recherche agronomique pour le développement,cirad,CIRAD - Centre de coopération internationale en recherche agronomique pour le développement,EUROPE,FRA,FR-IDF,couperin/cirad,https://ror.org/05kpkpg04,NA,NA,NA,NA
+ENS Paris - Ecole normale supérieure de Paris,ens_paris,ENS Paris - Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF,couperin/ens_paris,https://ror.org/05a0dhs15,NA,NA,NA,NA
+IRD - Institut de Recherche pour le Développement,ird,IRD - Institut de Recherche pour le Développement,EUROPE,FRA,FR-PAC,couperin/ird,https://ror.org/05q3vnk25,NA,NA,NA,NA
+Université Claude Bernard - Lyon I,lyon1_u,Université Claude Bernard - Lyon I,EUROPE,FRA,FR-ARA,couperin/lyon1,https://ror.org/029brtt94,NA,NA,NA,NA
+Nantes Université,nantes_u,Nantes Université,EUROPE,FRA,FR-PDL,couperin/nantes,https://ror.org/03gnr7b55,NA,NA,NA,NA
+"IFSTTAR - Institut Français des Sciences et Technologies des Transports, de l’aménagement et des Réseaux",ifsttar,"IFSTTAR - Institut Français des Sciences et Technologies des Transports, de l’aménagement et des Réseaux",EUROPE,FRA,FR-IDF,couperin/ifsttar,NA,NA,NA,NA,NA
+IRSTEA - Institut de Recherche en Sciences et Technologies pour l'Environnement et l'Agriculture,irstea,IRSTEA - Institut de Recherche en Sciences et Technologies pour l'Environnement et l'Agriculture,EUROPE,FRA,FR-IDF,couperin/irstea,NA,NA,NA,NA,NA
+Université d'Evry-Val-d'Essonne,evry_u,Université d'Evry-Val-d'Essonne,EUROPE,FRA,FR-IDF,couperin/evry,https://ror.org/00e96v939,NA,NA,NA,NA
+Université de Technologie de Compiègne,compiegne_u,Université de Technologie de Compiègne,EUROPE,FRA,FR-HDF,couperin/compiegne,https://ror.org/04y5kwa70,NA,NA,NA,NA
 Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt,https://ror.org/04cvxnb49,HEI,NA,https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html,NA
-Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn,https://ror.org/03wkt5x30,NA,NA,NA,NA
+MNHN - Muséum National d'Histoire Naturelle,mnhn,MNHN - Muséum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn,https://ror.org/03wkt5x30,NA,NA,NA,NA
 TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau,https://ror.org/00k62pe27,HEI,NA,https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/,NA
 Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite,https://ror.org/001w7jn25,HEI,NA,https://bibliothek.charite.de/publizieren/open_access,NA
 La Rochelle Université,la_rochelle_u,La Rochelle Université,EUROPE,FRA,FR-NAQ,couperin/rochelle,https://ror.org/04mv1z119,NA,NA,NA,NA
 Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,unirostock,https://ror.org/03zdwsf69,HEI,NA,https://www.ub.uni-rostock.de/en/wissenschaftliche-services/open-access/open-access-foerdermoeglichkeiten/open-access-publikationsfonds-der-universitaet-rostock/,NA
 Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA,qatar_national_library,https://ror.org/02jv93662,NA,NA,https://www.qnl.qa/en,NA
 Université de La Réunion,reunion_u,Université de La Réunion,EUROPE,FRA,FR-RE,couperin/reunion,https://ror.org/005ypkf75,NA,NA,NA,NA
-Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,couperin/mines-paristech,https://ror.org/04y8cs423,NA,NA,NA,NA
+Mines Paris - Ecole nationale supérieure des Mines de Paris,mines,Mines Paris - Ecole nationale supérieure des Mines de Paris,EUROPE,FRA,FR-IDF,couperin/mines-paristech,https://ror.org/04y8cs423,NA,NA,NA,NA
 Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,couperin/montpellier,https://ror.org/051escj72,NA,NA,NA,NA
 Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg,https://ror.org/01rdrb571,HEI,NA,https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds,NA
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen,https://ror.org/012ajp527,NA,NA,https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/,NA
@@ -243,7 +243,7 @@ University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unideb
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab,https://ror.org/02qcqwf93,OTH,NA,https://iab.de/en/the-iab/aufgaben-und-leitlinien-en/open-access/,NA
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,geomar,https://ror.org/02h2x0161,INS,HGF,https://www.geomar.de/en/centre/central-facilities/bibliothek/author-services/publication-costs,NA
 University of Jyväskylä,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,unijyväskylä,https://ror.org/05n3dz165,NA,NA,https://openscience.jyu.fi/en/open-access-publishing,NA
-Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea,https://ror.org/00jjx8s55,NA,NA,NA,NA
+CEA - Commissariat à l'énergie atomique et aux énergies alternatives,cea,CEA - Commissariat à l'énergie atomique et aux énergies alternatives,EUROPE,FRA,FR-IDF,couperin/cea,https://ror.org/00jjx8s55,NA,NA,NA,NA
 Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg,https://ror.org/05gs8cd61,NA,NA,https://www.plus.ac.at/university-library/services/open-access/open-access-policy/?lang=en,NA
 Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,natlibswe/swe_school_sports_health_sciences,https://ror.org/046hach49,NA,NA,NA,NA
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,natlibswe/univ_skovde,https://ror.org/051mrsz47,NA,NA,NA,NA
@@ -276,21 +276,21 @@ University of Bern,bern_u,University of Bern,EUROPE,CHE,CH.BE,unibern,https://ro
 ETH Zurich,ethz,ETH Zürich,EUROPE,CHE,CH.ZH,ethz,https://ror.org/05a28rw58,NA,NA,https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/publishing-in-open-access-journals.html,NA
 University of Gävle,gavle_u,University of Gävle,EUROPE,SWE,SE-X,natlibswe/univ_gavle,https://ror.org/043fje207,NA,NA,NA,NA
 Kiel U,kiel_u,Christian-Albrechts-Universität zu Kiel,EUROPE,DEU,SH,unikiel,https://ror.org/04v76ef78,HEI,NA,https://www.ub.uni-kiel.de/en/open-access-publishing/open-access,NA
-Université de Reims Champagne Ardenne,reims_u,Université de Reims Champagne Ardenne,EUROPE,FRA,FR-GES,couperin/reims,https://ror.org/03hypw319,NA,NA,NA,NA
+Université de Reims Champagne-Ardenne,reims_u,Université de Reims Champagne-Ardenne,EUROPE,FRA,FR-GES,couperin/reims,https://ror.org/03hypw319,NA,NA,NA,NA
 Bonn U,bonn_u,Rheinische Friedrich-Wilhelms-Universität Bonn,EUROPE,DEU,NW,unibonn,https://ror.org/041nas322,HEI,NA,https://www.open-access.uni-bonn.de/de,NA
 Eawag - Swiss Federal Institute of Aquatic Science and Technology,eawag,Eawag - Swiss Federal Institute of Aquatic Science and Technology,EUROPE,CHE,CH.ZH,NA,https://ror.org/00pc48d59,NA,NA,https://www.eawag.ch/en/,via [Lib4RI](https://www.lib4ri.ch/services/open-access.html)
 Empa - Swiss Federal Laboratories for Materials Science and Technology,empa,Empa - Swiss Federal Laboratories for Materials Science and Technology,EUROPE,CHE,CH.ZH,NA,https://ror.org/02x681a42,NA,NA,https://www.empa.ch/,via [Lib4RI](https://www.lib4ri.ch/services/open-access.html)
-ANSM,ansm,Agence nationale de sécurité du médicament et des produits de santé,EUROPE,FRA,FR-IDF,couperin/ansm,https://ror.org/01g80gk13,NA,NA,NA,NA
-Institut Laue-Langevin,laue_langevin,Institut Laue-Langevin,EUROPE,FRA,FR-ARA,couperin/ill,https://ror.org/01xtjs520,NA,NA,NA,NA
-ISARA,isara,Institut supérieur d'agriculture Rhône-Alpes,EUROPE,FRA,FR-ARA,couperin/isara,https://ror.org/03xsqa235,NA,NA,NA,NA
+ANSM - Agence Nationale de Sécurité des Médicaments et des produits de santé,ansm,ANSM - Agence Nationale de Sécurité des Médicaments et des produits de santé,EUROPE,FRA,FR-IDF,couperin/ansm,https://ror.org/01g80gk13,NA,NA,NA,NA
+ILL - Institut Laue-Langevin,laue_langevin,ILL - Institut Laue-Langevin,EUROPE,FRA,FR-ARA,couperin/ill,https://ror.org/01xtjs520,NA,NA,NA,NA
+ISARA - Institut Supérieur d'Agriculture et d'Agroalimentaire Rhône-Alpes,isara,ISARA - Institut Supérieur d'Agriculture et d'Agroalimentaire Rhône-Alpes,EUROPE,FRA,FR-ARA,couperin/isara,https://ror.org/03xsqa235,NA,NA,NA,NA
 Université Paris-Est Marne-la-Vallée,paris_est_u,Université Paris-Est Marne-la-Vallée,EUROPE,FRA,FR-IDF,couperin/upem,NA,NA,NA,NA,NA
 DIPF,dipf,DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation,EUROPE,DEU,HE,dipf,https://ror.org/0327sr118,INS,WGL,https://www.dipf.de/en/knowledge-resources/dipfdocs-open-access?set_language=en,NA
 University of Basel,basel_u,University of Basel,EUROPE,CHE,CH.BS,unibasel,https://ror.org/02s6k3f65,NA,NA,https://ub.unibas.ch/de/digitale-dienste/open-access/,NA
-CNAM,cnam,Conservatoire national des arts et métiers,EUROPE,FRA,FR-IDF,couperin/cnam,https://ror.org/0175hh227,NA,NA,NA,NA
-IMT Atlantique,imt_atlantique,IMT Atlantique Bretagne Pays de la Loire,EUROPE,FRA,FR-BRE,couperin/imt,https://ror.org/030hj3061,NA,NA,NA,NA
+CNAM - Conservatoire national des arts et métiers,cnam,CNAM - Conservatoire national des arts et métiers,EUROPE,FRA,FR-IDF,couperin/cnam,https://ror.org/0175hh227,NA,NA,NA,NA
+IMT Atlantique Bretagne - Pays de la Loire,imt_atlantique,IMT Atlantique Bretagne - Pays de la Loire,EUROPE,FRA,FR-BRE,couperin/imt,https://ror.org/030hj3061,NA,NA,NA,NA
 HS Düsseldorf,hs_duesseldorf,Hochschule Düsseldorf,EUROPE,DEU,NW,hsduesseldorf,https://ror.org/00ftx0026,HEI,NA,https://bib.hs-duesseldorf.de/en,NA
 Université des Antilles,antilles_u,Université des Antilles,EUROPE,FRA,FR-GP,couperin/antilles,https://ror.org/02ryfmr77,NA,NA,NA,NA
-ENSICAEN,ensicaen,École nationale supérieure d'ingénieurs de Caen,EUROPE,FRA,FR-NOR,couperin/ensicaen,https://ror.org/01fpqqe90,NA,NA,NA,NA
+ENSICAEN - Ecole nationale supérieure de Caen,ensicaen,ENSICAEN - Ecole nationale supérieure de Caen,EUROPE,FRA,FR-NOR,couperin/ensicaen,https://ror.org/01fpqqe90,NA,NA,NA,NA
 Natural Resources Institute Finland,nri_finland,Natural Resources Institute Finland,EUROPE,FIN,FI-18,NA,https://ror.org/02hb7bm88,NA,NA,NA,NA
 University of Applied Sciences Savonia,savonia_uas,University of Applied Sciences Savonia,EUROPE,FIN,FI-15,NA,https://ror.org/0238fqd79,NA,NA,NA,NA
 SAMK Satakunta University of Applied Sciences,satakunta_uas,Satakunta University of Applied Sciences,EUROPE,FIN,FI-17,NA,https://ror.org/008wzdf98,NA,NA,NA,NA
@@ -301,23 +301,23 @@ Häme University of Applied Sciences,hame_uas,Häme University of Applied Scienc
 Université du Littoral Côte d'Opale,ulco,Université du Littoral Côte d'Opale,EUROPE,FRA,FR-HDF,couperin/ulco,https://ror.org/02gdcg342,NA,NA,NA,NA
 Université de Tours,tours_u,Université de Tours,EUROPE,FRA,FR-CVL,couperin/tours,https://ror.org/02wwzvj46,NA,NA,NA,NA
 Université Savoie Mont Blanc,savoie_u,Université Savoie Mont Blanc,EUROPE,FRA,FR-ARA,couperin/savoie,https://ror.org/04gqg1a07,NA,NA,NA,NA
-Paris 8 Vincennes - Saint-Denis,paris_8_u,Paris 8 Vincennes - Saint-Denis,EUROPE,FRA,FR-IDF,couperin/paris-8,https://ror.org/04wez5e68,NA,NA,NA,NA
-ONERA,onera,Office National d'Etudes et de Recherches Aérospatiales (ONERA),EUROPE,FRA,FR-IDF,couperin/onera,https://ror.org/005y2ap84,NA,NA,NA,NA
-Université de Nouvelle Calédonie,nouvelle_caledonie_u,Université de Nouvelle Calédonie,EUROPE,FRA,FR-NC,couperin/nouvelle-caledonie,https://ror.org/02jrgcx64,NA,NA,NA,NA
+Université Vincennes-Saint Denis - Paris VIII,paris_8_u,Université Vincennes-Saint Denis - Paris VIII,EUROPE,FRA,FR-IDF,couperin/paris-8,https://ror.org/04wez5e68,NA,NA,NA,NA
+ONERA - Office National d'Etudes et de Recherches Aérospatiales - The French Aerospace Lab,onera,ONERA - Office National d'Etudes et de Recherches Aérospatiales - The French Aerospace Lab,EUROPE,FRA,FR-IDF,couperin/onera,https://ror.org/005y2ap84,NA,NA,NA,NA
+Université de la Nouvelle-Calédonie,nouvelle_caledonie_u,Université de la Nouvelle-Calédonie,EUROPE,FRA,FR-NC,couperin/nouvelle-caledonie,https://ror.org/02jrgcx64,NA,NA,NA,NA
 Le Mans Université,le_mans_u,Le Mans Université,EUROPE,FRA,FR-PDL,couperin/le-mans,https://ror.org/0406t3m57,NA,NA,NA,NA
-Laboratoire national de métrologie et d'essais - LNE,lne,Laboratoire national de métrologie et d'essais - LNE,EUROPE,FRA,FR-IDF,couperin/lne,https://ror.org/01ph39d13,NA,NA,NA,NA
+LNE - Laboratoire National de Métrologie et d'Essais,lne,LNE - Laboratoire National de Métrologie et d'Essais,EUROPE,FRA,FR-IDF,couperin/lne,https://ror.org/01ph39d13,NA,NA,NA,NA
 Université de Lille,lille_u,Université de Lille,EUROPE,FRA,FR-HDF,couperin/lille,https://ror.org/02kzqn938,NA,NA,NA,NA
 MHB Fontane,mhb_fontane,Medizinische Hochschule Brandenburg Theodor Fontane,EUROPE,DEU,BB,mhbfontane,https://ror.org/04839sh14,HEI,NA,https://www.mhb-fontane.de/open-access-publikationsfonds-482.html,NA
 HTW Dresden,htw_dresden,Hochschule für Technik und Wirtschaft Dresden,EUROPE,DEU,SN,htwdresden,https://ror.org/05q5pk319,HEI,NA,https://www.htw-dresden.de/open-access,NA
 Thomas Jefferson University,jefferson_u,Thomas Jefferson University,NORTH_AMERICA,USA,US-PA,unijefferson,https://ror.org/00ysqcn41,NA,NA,https://library.jefferson.edu/pub/open_access.cfm,NA
-ENS de Lyon,ens_lyon,ENS de Lyon,EUROPE,FRA,FR-ARA,couperin/ens_lyon,https://ror.org/04zmssz18,NA,NA,NA,NA
-INSA Strasbourg,insa_strasbourg,Institut National des Sciences Appliquées de Strasbourg,EUROPE,FRA,FR-GES,couperin/insa-strasbourg,https://ror.org/001nta019,NA,NA,NA,NA
-Université de Pau et des Pays de l'Adour,pau_u,Université de Pau et des Pays de l'Adour,EUROPE,FRA,FR-NAQ,couperin/pau,https://ror.org/01frn9647,NA,NA,NA,NA
-Université de Bretagne Occidentale,bretagne_u,Université de Bretagne Occidentale,EUROPE,FRA,FR-BRE,couperin/ubo,https://ror.org/01b8h3982,NA,NA,NA,NA
-Université de Versailles-Saint-Quentin-en-Yvelines,uvsq,Université de Versailles-Saint-Quentin-en-Yvelines,EUROPE,FRA,FR-IDF,couperin/uvsq,https://ror.org/03mkjjy25,NA,NA,NA,NA
-Université de Bretagne-Sud,bretagne_sud_u,Université de Bretagne-Sud,EUROPE,FRA,FR-BRE,couperin/ubs,https://ror.org/04ed7fw48,NA,NA,NA,NA
+ENS Lyon - Ecole normale supérieure de Lyon,ens_lyon,ENS Lyon - Ecole normale supérieure de Lyon,EUROPE,FRA,FR-ARA,couperin/ens_lyon,https://ror.org/04zmssz18,NA,NA,NA,NA
+INSA Strasbourg - Institut National des Sciences Appliquées de Strasbourg,insa_strasbourg,INSA Strasbourg - Institut National des Sciences Appliquées de Strasbourg,EUROPE,FRA,FR-GES,couperin/insa-strasbourg,https://ror.org/001nta019,NA,NA,NA,NA
+Université de Pau et des Pays de l'Adour - UPPA,pau_u,Université de Pau et des Pays de l'Adour - UPPA,EUROPE,FRA,FR-NAQ,couperin/pau,https://ror.org/01frn9647,NA,NA,NA,NA
+Université de Bretagne Occidentale - UBO,bretagne_u,Université de Bretagne Occidentale - UBO,EUROPE,FRA,FR-BRE,couperin/ubo,https://ror.org/01b8h3982,NA,NA,NA,NA
+Université de Versailles Saint-Quentin-en-Yvelines,uvsq,Université de Versailles Saint-Quentin-en-Yvelines,EUROPE,FRA,FR-IDF,couperin/uvsq,https://ror.org/03mkjjy25,NA,NA,NA,NA
+Université de Bretagne Sud - UBS,bretagne_sud_u,Université de Bretagne Sud - UBS,EUROPE,FRA,FR-BRE,couperin/ubs,https://ror.org/04ed7fw48,NA,NA,NA,NA
 Sorbonne Université,sorbonne_u,Sorbonne Université,EUROPE,FRA,FR-IDF,couperin/sorbonne-universite,https://ror.org/02en5vm52,NA,NA,NA,NA
-INSA de Lyon,insa_lyon,INSA de Lyon,EUROPE,FRA,FR-ARA,couperin/insa-lyon,https://ror.org/050jn9y42,NA,NA,NA,NA
+INSA Lyon - Institut National des Sciences Appliquées de Lyon,insa_lyon,INSA Lyon - Institut National des Sciences Appliquées de Lyon,EUROPE,FRA,FR-ARA,couperin/insa-lyon,https://ror.org/050jn9y42,NA,NA,NA,NA
 Aalto University,aalto_u,Aalto University,EUROPE,FIN,FI-18,NA,https://ror.org/020hwjq30,NA,NA,NA,NA
 ZHAW Zurich University of Applied Sciences,zhaw,ZHAW Zurich University of Applied Sciences,EUROPE,CHE,CH.ZH,zhaw,https://ror.org/05pmsvm27,NA,NA,https://www.zhaw.ch/en/library/writing-publishing/publishing-and-open-access/oa-at-the-zhaw/#c112481,NA
 "WSL - Swiss Federal Institute for Forest, Snow and Landscape Research",wsl,"WSL - Swiss Federal Institute for Forest, Snow and Landscape Research",EUROPE,CHE,CH.ZH,NA,https://ror.org/04bs5yc70,NA,NA,https://www.wsl.ch/en/index.html,NA
@@ -327,21 +327,21 @@ Johannes Kepler University Linz,linz_u,Johannes Kepler University Linz,EUROPE,AU
 Paul-Drude-Institut für Festkörperelektronik,pdi,Paul-Drude-Institut für Festkörperelektronik,EUROPE,DEU,BE,pdi,https://ror.org/01mk1hj86,INS,WGL,http://www.pdi-berlin.de/home/,NA
 Magdeburg U,magdeburg_u,Otto-von-Guericke-Universität Magdeburg,EUROPE,DEU,ST,unimagdeburg,https://ror.org/00ggpsq73,HEI,NA,https://www.ub.ovgu.de/en/Publication+_+Open+Access/Open+Access/Publication+Fund+for+Articles.html,NA
 AgroParisTech,aggroparistech,AgroParisTech,EUROPE,FRA,FR-IDF,couperin/agroparistech,https://ror.org/02kbmgc12,NA,NA,NA,NA
-ENGEES,engees,École nationale du génie de l'eau et de l'environnement de Strasbourg,EUROPE,FRA,FR-GES,couperin/engees,https://ror.org/02jhjzd11,NA,NA,NA,NA
-ENSTA Bretagne,ensta_bretagne,ENSTA Bretagne,EUROPE,FRA,FR-BRE,couperin/ensta-bretagne,https://ror.org/059n54003,NA,NA,NA,NA
+ENGEES - Ecole nationale du Génie de l'Eau et de l'Environnement de Strasbourg,engees,ENGEES - Ecole nationale du Génie de l'Eau et de l'Environnement de Strasbourg,EUROPE,FRA,FR-GES,couperin/engees,https://ror.org/02jhjzd11,NA,NA,NA,NA
+ENSTA Bretagne - Ecole nationale supérieure de techniques avancées - Bretagne,ensta_bretagne,ENSTA Bretagne - Ecole nationale supérieure de techniques avancées - Bretagne,EUROPE,FRA,FR-BRE,couperin/ensta-bretagne,https://ror.org/059n54003,NA,NA,NA,NA
 Université de Haute-Alsace,haute_alsace_u,Université de Haute-Alsace,EUROPE,FRA,FR-GES,couperin/haute-alsace,https://ror.org/04k8k6n84,NA,NA,NA,NA
-IFREMER,ifremer,Institut Français de Recherche pour l'Exploitation de la Mer,EUROPE,FRA,FR-BRE,couperin/ifremer,https://ror.org/044jxhp58,NA,NA,NA,NA
-Université du Havre,havre_u,Université du Havre,EUROPE,FRA,FR-NOR,couperin/le-havre,https://ror.org/05v509s40,NA,NA,NA,NA
-Université Paris 1 Panthéon-Sorbonne,paris_1_u,Université Paris 1 Panthéon-Sorbonne,EUROPE,FRA,FR-IDF,couperin/paris-1,https://ror.org/002t25c44,NA,NA,NA,NA
-Université Paris Nanterre,paris_nanterre_u,Université Paris Nanterre,EUROPE,FRA,FR-IDF,couperin/paris-nanterre,https://ror.org/013bkhk48,NA,NA,NA,NA
-Université de Perpignan - Via Domitia,perpignan_u,Université de Perpignan - Via Domitia,EUROPE,FRA,FR-OCC,couperin/perpignan,https://ror.org/03am2jy38,NA,NA,NA,NA
-Sciences Po Paris,scpo_paris,Sciences Po Paris,EUROPE,FRA,FR-IDF,couperin/scpo-paris,https://ror.org/05fe7ax82,NA,NA,NA,NA
+IFREMER - Institut Français de Recherche pour l'Exploitation de la Mer,ifremer,IFREMER - Institut Français de Recherche pour l'Exploitation de la Mer,EUROPE,FRA,FR-BRE,couperin/ifremer,https://ror.org/044jxhp58,NA,NA,NA,NA
+Université Le Havre Normandie,havre_u,Université Le Havre Normandie,EUROPE,FRA,FR-NOR,couperin/le-havre,https://ror.org/05v509s40,NA,NA,NA,NA
+Université Panthéon-Sorbonne - Paris I,paris_1_u,Université Panthéon-Sorbonne - Paris I,EUROPE,FRA,FR-IDF,couperin/paris-1,https://ror.org/002t25c44,NA,NA,NA,NA
+Université de Paris Ouest Nanterre La Défense - Paris X,paris_nanterre_u,Université de Paris Ouest Nanterre La Défense - Paris X,EUROPE,FRA,FR-IDF,couperin/paris-nanterre,https://ror.org/013bkhk48,NA,NA,NA,NA
+Université de Perpignan Via Domitia,perpignan_u,Université de Perpignan Via Domitia,EUROPE,FRA,FR-OCC,couperin/perpignan,https://ror.org/03am2jy38,NA,NA,NA,NA
+Sciences Po Paris - Institut d'Etudes Politiques de Paris,scpo_paris,Sciences Po Paris - Institut d'Etudes Politiques de Paris,EUROPE,FRA,FR-IDF,couperin/scpo-paris,https://ror.org/05fe7ax82,NA,NA,NA,NA
 Université de technologie de Troyes,troyes_u,Université de technologie de Troyes,EUROPE,FRA,FR-GES,couperin/utt,https://ror.org/01qhqcj41,NA,NA,NA,NA
 Université Gustave Eiffel,gustave_eiffel_u,Université Gustave Eiffel,EUROPE,FRA,FR-IDF,couperin/gustave-eiffel,https://ror.org/03x42jk29,NA,NA,NA,NA
-CHU de Rennes,rennes_chu,CHU de Rennes,EUROPE,FRA,FR-BRE,couperin/chu-rennes,https://ror.org/05qec5a53,NA,NA,NA,NA
+Centre Hospitalier Universitaire de Rennes,rennes_chu,Centre Hospitalier Universitaire de Rennes,EUROPE,FRA,FR-BRE,couperin/chu-rennes,https://ror.org/05qec5a53,NA,NA,NA,NA
 Université Polytechnique Hauts-de-France,up_hauts_de_france,Université Polytechnique Hauts-de-France,EUROPE,FRA,FR-HDF,couperin/polytechnique-hdf,https://ror.org/02ezch769,NA,NA,NA,NA
-INRAE,inrae,"Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)",EUROPE,FRA,FR-IDF,couperin/inrae,https://ror.org/003vg9w96,NA,NA,NA,NA
-European Synchrotron Radiation Facility (ESRF),esrf,European Synchrotron Radiation Facility (ESRF),EUROPE,FRA,FR-ARA,couperin/esrf,https://ror.org/02550n020,NA,NA,NA,NA
+"INRAE - Institut national de recherche pour l’agriculture, l’alimentation et l’environnement",inrae,"INRAE - Institut national de recherche pour l’agriculture, l’alimentation et l’environnement",EUROPE,FRA,FR-IDF,couperin/inrae,https://ror.org/003vg9w96,NA,NA,NA,NA
+ESRF - European Synchrotron Radiation Facility,esrf,ESRF - European Synchrotron Radiation Facility,EUROPE,FRA,FR-ARA,couperin/esrf,https://ror.org/02550n020,NA,NA,NA,NA
 Ecole centrale de Lyon,centrale_lyon,Ecole centrale de Lyon,EUROPE,FRA,FR-ARA,couperin/centrale-lyon,https://ror.org/05s6rge65,NA,NA,NA,NA
 Pädagogische Hochschule Zürich,phzh,Pädagogische Hochschule Zürich,EUROPE,CHE,CH.ZH,phzh,https://ror.org/01awgk221,NA,NA,https://phzh.ch/de/Forschung/grundsatze/open-access/,NA
 South-Eastern Finland University of Applied Sciences (Xamk),xamk,South-Eastern Finland University of Applied Sciences (Xamk),EUROPE,FIN,FI-04,NA,https://ror.org/051v6v138,NA,NA,NA,NA
@@ -350,8 +350,8 @@ Lapin ammattikorkeakoulu (fi),lapin_uas,Lapin ammattikorkeakoulu (Lapland Univer
 Halmstad University,halmstad_u,Halmstad University,EUROPE,SWE,SE-N,natlibswe/univ_halmstad,https://ror.org/03h0qfp10,NA,NA,NA,NA
 IFW Dresden,ifw_dresden,Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden,EUROPE,DEU,SN,ifw-dresden,https://ror.org/04zb59n70,INS,WGL,https://www.ifw-dresden.de/about-us/library,NA
 Hochschule Hannover,hsh,Hochschule Hannover,EUROPE,DEU,NI,hshannover,https://ror.org/03m2kj587,HEI,NA,https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/,NA
-Université de Côte d'Azur,cote_azur_u,Université de Côte d'Azur,EUROPE,FRA,FR-PAC,couperin/cote-azur,https://ror.org/019tgvf94,NA,NA,NA,NA
-IRSN,irsn,Institut de radioprotection et de sûreté nucléaire,EUROPE,FRA,FR-IDF,couperin/irsn,https://ror.org/01ha22c77,NA,NA,NA,NA
+Université Côte d'Azur - UCA,cote_azur_u,Université Côte d'Azur - UCA,EUROPE,FRA,FR-PAC,couperin/cote-azur,https://ror.org/019tgvf94,NA,NA,NA,NA
+IRSN - Institut de Radioprotection et de Sûreté Nucléaire,irsn,IRSN - Institut de Radioprotection et de Sûreté Nucléaire,EUROPE,FRA,FR-IDF,couperin/irsn,https://ror.org/01ha22c77,NA,NA,NA,NA
 Bauhaus-Universität Weimar,weimar_u,Bauhaus-Universität Weimar,EUROPE,DEU,TH,uniweimar,https://ror.org/033bb5z47,HEI,NA,https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/,NA
 Universität Erfurt,erfurt_u,Universität Erfurt,EUROPE,DEU,TH,unierfurt,https://ror.org/03606hw36,HEI,NA,https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren-1/open-access-publikationsfonds,NA
 Friedrich-Schiller-Universität Jena,fsu_jena,Friedrich-Schiller-Universität Jena,EUROPE,DEU,TH,fsu,https://ror.org/05qpz1x62,HEI,NA,https://www.thulb.uni-jena.de/services/forschung-/-lehre/open-access-/-elektronisches-publizieren#c3516,NA
@@ -370,19 +370,19 @@ Oxford University Clinical Research Unit,oucru,Oxford University Clinical Resear
 Royal Veterinary College,rvc,Royal Veterinary College,EUROPE,GBR,ENG,NA,https://ror.org/01wka8n18,NA,NA,NA,NA
 SWP - German Institute for International and Security Affairs,swp,SWP - German Institute for International and Security Affairs,EUROPE,DEU,BE,swp_berlin,https://ror.org/05frkc804,OTH,NA,https://www.swp-berlin.org/en/,NA
 University of Vaasa,vaasa_u,University of Vaasa,EUROPE,FIN,FI-12,univaasa,https://ror.org/03769b225,NA,NA,https://www.uwasa.fi/en,NA
-ENAC,enac,École Nationale de l'Aviation Civile,EUROPE,FRA,FR-OCC,couperin/enac,https://ror.org/022zdgq74,NA,NA,NA,NA
+ENAC - Ecole Nationale de l'Aviation Civile,enac,ENAC - Ecole Nationale de l'Aviation Civile,EUROPE,FRA,FR-OCC,couperin/enac,https://ror.org/022zdgq74,NA,NA,NA,NA
 Åbo Akademi University,abo_akademi,Åbo Akademi University,EUROPE,FIN,FI-19,aboakademi,https://ror.org/029pk6x14,NA,NA,NA,NA
 Finnish Environment Institute,finnish_environment_institute,Finnish Environment Institute,EUROPE,FIN,FI-18,NA,https://ror.org/013nat269,NA,NA,NA,NA
-Université de Rennes 2,rennes2_u,Université de Rennes 2,EUROPE,FRA,FR-BRE,couperin/rennes2,https://ror.org/01m84wm78,NA,NA,NA,NA
+Université de Rennes II Haute-Bretagne,rennes2_u,Université de Rennes II Haute-Bretagne,EUROPE,FRA,FR-BRE,couperin/rennes2,https://ror.org/01m84wm78,NA,NA,NA,NA
 Université de Nîmes,nimes_u,Université de Nîmes,EUROPE,FRA,FR-OCC,couperin/nimes,https://ror.org/044t4x544,NA,NA,NA,NA
 The National Defence University,ndu,The National Defence University Finland,EUROPE,FIN,FI-18,NA,https://ror.org/01js4x705,NA,NA,NA,NA
 Ecole polytechnique,ecole_polytechnique,Ecole polytechnique,EUROPE,FRA,FR_IDF,couperin/polytechnique-saclay,https://ror.org/05hy3tk52,NA,NA,NA,NA
 Université de Picardie Jules Verne,picardie_u,Université de Picardie Jules Verne,EUROPE,FRA,FR-HDF,couperin/picardie,https://ror.org/01gyxrk03,NA,NA,NA,NA
-Université Paris Dauphine-PSL,paris_dauphine_u,Université Paris Dauphine-PSL,EUROPE,FRA,FR_IDF,couperin/paris-dauphine,https://ror.org/052bz7812,NA,NA,NA,NA
+Université Paris-Dauphine - Paris IX,paris_dauphine_u,Université Paris-Dauphine - Paris IX,EUROPE,FRA,FR_IDF,couperin/paris-dauphine,https://ror.org/052bz7812,NA,NA,NA,NA
 CentraleSupélec,centrale_supelec,CentraleSupélec,EUROPE,FRA,FR_IDF,couperin/centrale-supelec,https://ror.org/019tcpt25,NA,NA,NA,NA
 University of Oulu,oulu_u,University of Oulu,EUROPE,FIN,FI-14,unioulu,https://ror.org/03yj89h83,NA,NA,https://www.oulu.fi/en,NA
 OA-Monofonds Brandenburg,NA,OA-Monofonds Brandenburg,NA,DEU,NA,brandenburg_oa-monofonds,NA,OTH,NA,https://open-access-brandenburg.de/fonds/,NA
-Pädagogische Hochschule Thurgau,NA,Pädagogische Hochschule Thurgau,NA,CHE,NA,NA,https://ror.org/04bf6dq94,NA,NA,https://www.phtg.ch/,NA
+Pädagogische Hochschule Thurgau,NA,Pädagogische Hochschule Thurgau,NA,CHE,NA,phtg,https://ror.org/04bf6dq94,NA,NA,https://www.phtg.ch/,NA
 Knowledge Unlatched,NA,Knowledge Unlatched,NA,DEU,NA,NA,https://ror.org/00xgd4p18,OTH,NA,http://www.knowledgeunlatched.org/,NA
 Anglia Ruskin University,NA,Anglia Ruskin University,NA,GBR,NA,NA,https://ror.org/0009t4v78,NA,NA,https://www.aru.ac.uk/,NA
 Bournemouth University,NA,Bournemouth University,NA,GBR,NA,NA,https://ror.org/05wwcw481,NA,NA,https://www.bournemouth.ac.uk/,NA
@@ -541,10 +541,10 @@ Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau),NA,Royal Net
 Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology,NA,Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology,NA,AUT,NA,NA,NA,NA,NA,NA,NA
 University Medical Center Hamburg-Eppendorf,uke,University Medical Center Hamburg-Eppendorf,EUROPE,DEU,HH,uke,https://ror.org/01zgy1s35,HEI,NA,https://www.uke.de/forschung/open-science/publikationsfoerderung/index.html,NA
 Consiglio Nazionale Delle Ricerche (CNR),cnr,Consiglio Nazionale Delle Ricerche (CNR),EUROPE,ITA,IT-62,cnr,https://ror.org/04zaypm56,NA,NA,https://www.cnr.it/en/cnr-open-access,NA
-École nationale vétérinaire d'Alfort (EnvA),enva,École nationale vétérinaire d'Alfort (EnvA),EUROPE,FRA,FR-IDF,couperin/enva,https://ror.org/04k031t90,NA,NA,https://www.vet-alfort.fr/,NA
+EnvA - Ecole nationale vétérinaire d'Alfort,enva,EnvA - Ecole nationale vétérinaire d'Alfort,EUROPE,FRA,FR-IDF,couperin/enva,https://ror.org/04k031t90,NA,NA,https://www.vet-alfort.fr/,NA
 Marie Cederschiöld University,NA,Marie Cederschiöld University,EUROPE,SWE,NA,NA,https://ror.org/00ajvsd91,NA,NA,https://www.mchs.se/,NA
-ANSES,anses,"Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail (ANSES)",EUROPE,FRA,FR-IDF,couperin/anses,https://ror.org/0471kz689,NA,NA,https://www.anses.fr/en,NA
-EHESP,ehesp,École des Hautes Etudes en Santé Publique (EHESP),EUROPE,FRA,FR-BRE,couperin/ehesp,https://ror.org/01sc83v92,NA,NA,https://www.ehesp.fr/en/,NA
+"ANSES - Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail",anses,"ANSES - Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail",EUROPE,FRA,FR-IDF,couperin/anses,https://ror.org/0471kz689,NA,NA,https://www.anses.fr/en,NA
+EHESP - Ecole des hautes études en santé publique,ehesp,EHESP - Ecole des hautes études en santé publique,EUROPE,FRA,FR-BRE,couperin/ehesp,https://ror.org/01sc83v92,NA,NA,https://www.ehesp.fr/en/,NA
 Université Paris Cité,paris_cite_u,Université Paris Cité,EUROPE,FRA,FR-IDF,couperin/paris-cité,https://ror.org/05f82e368,NA,NA,https://u-paris.fr/en/,NA
 RWTH Aachen,rwth,RWTH Aachen,EUROPE,DEU,NW,rwth,https://ror.org/04xfq0f34,HEI,NA,https://www.ub.rwth-aachen.de/cms/ub/Forschung/Wissenschaftliches-Publizieren/~iigq/Open-Access-Die-neue-Art-zu-publizieren/,NA
 DESY,desy,Deutsches Elektronen-Synchrotron DESY,EUROPE,DEU,HH,desy,https://ror.org/01js2sh04,INS,HGF,https://library.desy.de/open_access/publishing_options_for_authors/,NA
@@ -554,12 +554,12 @@ TH Brandenburg,th_brandenburg,Technische Hochschule Brandenburg,EUROPE,DEU,BB,th
 TU Bergakademie Freiberg,tu_freiberg,TU Bergakademie Freiberg,EUROPE,DEU,SN,tufreiberg,https://ror.org/031vc2293,HEI,NA,NA,NA
 Aachen FH,aachen_fh,Aachen University of Applied Sciences,EUROPE,DEU,NW,fhaachen,https://ror.org/04tqgg260,HEI,NA,https://www.fh-aachen.de/fh-aachen/arbeiten/servicestellen-fuer-beschaeftigte/bibliotheksservices-fuer-beschaeftigte/forschen-publizieren/publikationsfonds-forschung,NA
 Uniarts Helsinki,helsinki_uniarts,University of the Arts Helsinki,EUROPE,FIN,FI-18,NA,https://ror.org/05anqtc62,NA,NA,https://www.uniarts.fi/en/,NA
-Université de Bordeaux Montaigne,bordeaux_montaigne_u,Université de Bordeaux Montaigne,EUROPE,FRA,FR-NAQ,couperin/bordeaux-montaigne,https://ror.org/03pbgwk21,NA,NA,NA,NA
+Université Bordeaux Montaigne,bordeaux_montaigne_u,Université Bordeaux Montaigne,EUROPE,FRA,FR-NAQ,couperin/bordeaux-montaigne,https://ror.org/03pbgwk21,NA,NA,NA,NA
 Università degli Studi di Modena e Reggio Emilia,modena_reggioemilia_u,Università degli Studi di Modena e Reggio Emilia,EUROPE,ITA,IT-45,unimodena,https://ror.org/02d4c4y02,NA,NA,https://international.unimore.it/,NA
 Potsdam FH,potsdam_fh,University of Applied Sciences Potsdam,EUROPE,DEU,BB,fhpotsdam,https://ror.org/012m9bp23,HEI,NA,https://www.fh-potsdam.de/campus-services/bibliothek/open-access-publizieren#section-18181,NA
 LAB University of Applied Sciences,NA,LAB University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/01qdmn762,NA,NA,https://www.lab.fi/en,NA
 Université d'Orléans,orleans_u,Université d'Orléans,EUROPE,FRA,FR-CVL,couperin/orleans,https://ror.org/014zrew76,NA,NA,NA,NA
-Université Louis Lumière - Lyon II,lyon2_u,Université Louis Lumière - Lyon II,EUROPE,FRA,FR-ARA,couperin/lyon2,https://ror.org/03rth4p18,NA,NA,NA,NA
+Université Lumière - Lyon II,lyon2_u,Université Lumière - Lyon II,EUROPE,FRA,FR-ARA,couperin/lyon2,https://ror.org/03rth4p18,NA,NA,NA,NA
 IRS,irs,Leibniz-Institut für Raumbezogene Sozialforschung (IRS),EUROPE,DEU,BB,irs,https://ror.org/01rkqb281,INS,WGL,https://leibniz-irs.de/en/research/publications/open-access,NA
 Kalaidos University of Applied Sciences,NA,Kalaidos University of Applied Sciences,NA,CHE,NA,NA,https://ror.org/049c2kr37,NA,NA,https://www.kalaidos-fh.ch/de-CH/,NA
 University of Teacher Education in Special Needs,NA,University of Teacher Education in Special Needs,NA,CHE,NA,NA,https://ror.org/00w9q2c06,NA,NA,https://www.hfh.ch/en,NA
@@ -607,3 +607,7 @@ South East Technological University,NA,South East Technological University,NA,IR
 Atlantic Technological University,NA,Atlantic Technological University,NA,IRL,NA,NA,https://ror.org/0458dap48,NA,NA,https://www.atu.ie,NA
 Dundalk Institute of Technology,NA,Dundalk Institute of Technology,NA,IRL,NA,NA,https://ror.org/01800zd49,NA,NA,https://www.dkit.ie/,NA
 Scuola Normale Superiore,sns,Scuola Normale Superiore,EUROPE,ITA,IT-52,sns,https://ror.org/03aydme10,NA,NA,https://www.sns.it/it,NA
+University Hospital of Bern,NA,University Hospital of Bern,NA,CHE,NA,NA,https://ror.org/01q9sj412,NA,NA,https://www.insel.ch/de/,NA
+Université de Limoges,limoges_u,Université de Limoges,EUROPE,FRA,FR-NAQ,couperin/limoges,https://ror.org/02cp04407,NA,NA,https://www.unilim.fr/?lang=en,NA
+Hohenheim U,hohenheim_u,Universität Hohenheim,EUROPE,DEU,BW,unihohenheim,https://ror.org/00b1c9541,HEI,NA,https://kim.uni-hohenheim.de/en/openaccess,NA
+Haute Ecole Pédagogique du Valais,NA,Haute Ecole Pédagogique du Valais,NA,CHE,NA,NA,https://ror.org/040gs8e06,NA,NA,https://hepvs.ch/,NA

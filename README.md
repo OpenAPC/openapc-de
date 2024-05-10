@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |205,116 | 399,794,205    | 426 |
-| Monographs       |1,806 | 11,703,744    | 52 |
+| Articles         |212,713 | 417,053,245    | 428 |
+| Monographs       |1,873 | 12,312,474    | 61 |
 
 ## How to access the data?
 
@@ -124,6 +124,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [University of Würzburg](https://www.bibliothek.uni-wuerzburg.de/en/research-publishing/open-access/publication-fund/)
 - [Universität Augsburg](https://www.uni-augsburg.de/de/organisation/bibliothek/publizieren-zitieren-archivieren/zuschuesse-oa/)
 - [Universität Erfurt](https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren-1/open-access-publikationsfonds)
+- [Universität Hohenheim](https://kim.uni-hohenheim.de/en/openaccess)
 - [Universität zu Köln](https://ub.uni-koeln.de/en/forschen-publizieren/publizieren/financial-support-for-open-access-publications)
 
 ###  Research institutes 
@@ -234,6 +235,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [European Organization for Nuclear Research](https://home.web.cern.ch/)
 - [Forschungsinstitut für biologischen Landbau FiBL](https://www.fibl.org/en)
 - [Graduate Institute of International and Development Studies](http://graduateinstitute.ch/home.html)
+- [Haute Ecole Pédagogique du Valais](https://hepvs.ch/)
 - [Haute École Pédagogique BEJUNE](https://www.hep-bejune.ch/)
 - [Haute École Pédagogique Fribourg](https://hepfr.ch/)
 - [Haute École Pédagogique du Canton de Vaud](https://www.hepl.ch/accueil.html)
@@ -253,6 +255,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Swiss Federal University for Vocational Education and Training](https://www.sfuvet.swiss/)
 - [Swiss National Science Foundation (SNSF)](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Swiss Ornithological Institute](https://www.vogelwarte.ch/de/home/)
+- [University Hospital of Bern](https://www.insel.ch/de/)
 - [University of Applied Sciences and Arts Northwestern Switzerland](https://www.fhnw.ch/en)
 - [University of Applied Sciences and Arts Western Switzerland](https://www.hes-so.ch/en/homepage)
 - [University of Applied Sciences and Arts of Southern Switzerland](https://www.supsi.ch/home_en.html)
@@ -415,111 +418,112 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 ## Institutions from France 
 
-- Agence nationale de sécurité du médicament et des produits de santé
-- [Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail (ANSES)](https://www.anses.fr/en)
+- [ANSES - Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail](https://www.anses.fr/en)
+- ANSM - Agence Nationale de Sécurité des Médicaments et des produits de santé
 - AgroParisTech
 - Aix-Marseille Université
 - Avignon Université
-- CHU de Rennes
+- CEA - Commissariat à l'énergie atomique et aux énergies alternatives
+- CIRAD - Centre de coopération internationale en recherche agronomique pour le développement
+- CNAM - Conservatoire national des arts et métiers
+- CNRS - Centre national de la recherche scientifique
 - CentraleSupélec
-- Centre de coopération internationale en recherche agronomique pour le développement (CIRAD)
-- Centre national de la recherche scientifique (CNRS)
-- Commissariat à l'énergie atomique et aux énergies alternatives (CEA)
-- Conservatoire national des arts et métiers
-- ENS de Lyon
-- ENSTA Bretagne
+- Centre Hospitalier Universitaire de Rennes
+- [EHESP - Ecole des hautes études en santé publique](https://www.ehesp.fr/en/)
+- ENAC - Ecole Nationale de l'Aviation Civile
+- ENGEES - Ecole nationale du Génie de l'Eau et de l'Environnement de Strasbourg
+- ENS Lyon - Ecole normale supérieure de Lyon
+- ENS Paris - Ecole normale supérieure de Paris
+- ENSICAEN - Ecole nationale supérieure de Caen
+- ENSTA Bretagne - Ecole nationale supérieure de techniques avancées - Bretagne
+- ESPCI - Ecole supérieure de physique et de chimie industrielles
+- ESRF - European Synchrotron Radiation Facility
 - EURECOM
 - Ecole centrale de Lyon
-- Ecole normale supérieure de Paris
 - Ecole polytechnique
-- European Synchrotron Radiation Facility (ESRF)
+- [EnvA - Ecole nationale vétérinaire d'Alfort](https://www.vet-alfort.fr/)
 - French institutions
-- Hospices Civils de Lyon
-- IMT Atlantique Bretagne Pays de la Loire
-- INSA de Lyon
-- Institut Français de Recherche pour l'Exploitation de la Mer
-- Institut Laue-Langevin
-- Institut National des Sciences Appliquées de Strasbourg
+- HCL - Hospices civils de Lyon
+- IFREMER - Institut Français de Recherche pour l'Exploitation de la Mer
+- IFSTTAR - Institut Français des Sciences et Technologies des Transports, de l’aménagement et des Réseaux
+- ILL - Institut Laue-Langevin
+- IMT Atlantique Bretagne - Pays de la Loire
+- INRA - Institut National de la Recherche Agronomique
+- INRAE - Institut national de recherche pour l’agriculture, l’alimentation et l’environnement
+- INRIA - Institut National de Recherche en Informatique et en Automatique
+- INSA Lyon - Institut National des Sciences Appliquées de Lyon
+- INSA Strasbourg - Institut National des Sciences Appliquées de Strasbourg
+- INSERM - Institut National de la Santé et de la Recherche Médicale
+- IRD - Institut de Recherche pour le Développement
+- IRSN - Institut de Radioprotection et de Sûreté Nucléaire
+- IRSTEA - Institut de Recherche en Sciences et Technologies pour l'Environnement et l'Agriculture
+- ISARA - Institut Supérieur d'Agriculture et d'Agroalimentaire Rhône-Alpes
 - Institut Pasteur
-- Institut de radioprotection et de sûreté nucléaire
-- Institut de recherche pour le développement (IRD)
-- Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)
-- Institut national de la recherche agronomique (INRA)
-- Institut national de la santé et de la recherche médicale (INSERM)
-- Institut national de recherche en informatique et en automatique (INRIA)
-- Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA)
-- Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)
-- Institut national polytechnique de Toulouse(INPT)
-- Institut supérieur d'agriculture Rhône-Alpes
+- LNE - Laboratoire National de Métrologie et d'Essais
 - La Rochelle Université
-- Laboratoire national de métrologie et d'essais - LNE
 - Le Mans Université
-- MINES ParisTech
-- Museum National d'Histoire Naturelle
-- Office National d'Etudes et de Recherches Aérospatiales (ONERA)
-- Paris 8 Vincennes - Saint-Denis
-- Sciences Po Paris
+- MNHN - Muséum National d'Histoire Naturelle
+- Mines Paris - Ecole nationale supérieure des Mines de Paris
+- Nantes Université
+- ONERA - Office National d'Etudes et de Recherches Aérospatiales - The French Aerospace Lab
+- Sciences Po Paris - Institut d'Etudes Politiques de Paris
 - Sorbonne Université
-- Université Claude Bernard Lyon 1
+- Toulouse INP - Institut National Polytechnique de Toulouse
+- Université Bordeaux Montaigne
+- Université Claude Bernard - Lyon I
 - Université Clermont Auvergne
-- Université Evry Val-d'Essonne
+- Université Côte d'Azur - UCA
 - Université Grenoble Alpes
 - Université Gustave Eiffel
 - Université Jean Moulin - Lyon III
-- Université Lille 1
-- Université Lille 2
-- Université Louis Lumière - Lyon II
-- Université Paris 1 Panthéon-Sorbonne
+- Université Le Havre Normandie
+- Université Lumière - Lyon II
+- Université Panthéon-Sorbonne - Paris I
 - [Université Paris Cité](https://u-paris.fr/en/)
-- Université Paris Dauphine-PSL
-- Université Paris Descartes (Paris V)
-- Université Paris Diderot (Paris VII)
-- Université Paris Nanterre
+- Université Paris Descartes - Paris V
+- Université Paris Diderot - Paris VII
+- Université Paris-Dauphine - Paris IX
 - Université Paris-Est Marne-la-Vallée
-- Université Pierre et Marie Curie (Paris VI)
+- Université Pierre et Marie Curie - Paris VI
 - Université Polytechnique Hauts-de-France
 - Université Savoie Mont Blanc
-- Université Technologique de Compiègne
 - Université Toulouse III
+- Université Vincennes-Saint Denis - Paris VIII
 - Université d'Angers
+- Université d'Evry-Val-d'Essonne
 - Université d'Orléans
 - Université de Bordeaux
-- Université de Bordeaux Montaigne
 - Université de Bourgogne
-- Université de Bretagne Occidentale
-- Université de Bretagne-Sud
+- Université de Bretagne Occidentale - UBO
+- Université de Bretagne Sud - UBS
 - Université de Caen Normandie
-- Université de Côte d'Azur
 - Université de Franche-Comté
 - Université de Haute-Alsace
 - Université de La Réunion
 - Université de Lille
+- Université de Lille I Sciences et technologies
+- Université de Lille II Droit et Santé
+- [Université de Limoges](https://www.unilim.fr/?lang=en)
 - Université de Lorraine
 - Université de Montpellier
-- Université de Nantes
-- Université de Nouvelle Calédonie
 - Université de Nîmes
-- Université de Pau et des Pays de l'Adour
-- Université de Perpignan - Via Domitia
+- Université de Paris Ouest Nanterre La Défense - Paris X
+- Université de Pau et des Pays de l'Adour - UPPA
+- Université de Perpignan Via Domitia
 - Université de Picardie Jules Verne
 - Université de Poitiers
-- Université de Reims Champagne Ardenne
-- Université de Rennes 1
-- Université de Rennes 2
+- Université de Reims Champagne-Ardenne
+- Université de Rennes
+- Université de Rennes II Haute-Bretagne
 - Université de Strasbourg
+- Université de Technologie de Compiègne
 - Université de Toulon
 - Université de Tours
-- Université de Versailles-Saint-Quentin-en-Yvelines
+- Université de Versailles Saint-Quentin-en-Yvelines
+- Université de la Nouvelle-Calédonie
 - Université de technologie de Troyes
 - Université des Antilles
-- Université du Havre
 - Université du Littoral Côte d'Opale
-- École Nationale de l'Aviation Civile
-- [École des Hautes Etudes en Santé Publique (EHESP)](https://www.ehesp.fr/en/)
-- École nationale du génie de l'eau et de l'environnement de Strasbourg
-- École nationale supérieure d'ingénieurs de Caen
-- [École nationale vétérinaire d'Alfort (EnvA)](https://www.vet-alfort.fr/)
-- École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI)
 
 ## Institutions from the United Kingdom 
 
@@ -745,13 +749,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 205,116 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 426 research performing institutions and research funders. 
+The article data set contains information on 212,713 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 428 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 399,794,205. The average payment was € 1,949 and the median was € 1,809.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 417,053,245. The average payment was € 1,961 and the median was € 1,823.
 
-147,998 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 257,029,026, including value-added tax; the average payment was € 1,737 (median =  € 1,661, SD = € 811).
+154,798 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 272,174,394, including value-added tax; the average payment was € 1,758 (median =  € 1,664, SD = € 828).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 57,118 articles in the data set were published in hybrid journals. Total expenditure amounts to 142,765,178 €; the average fee was € 2,499 (median =  € 2,465, SD = € 1,017).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 57,915 articles in the data set were published in hybrid journals. Total expenditure amounts to 144,878,851 €; the average fee was € 2,502 (median =  € 2,467, SD = € 1,022).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -773,26 +777,26 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2010   |         401|   1,261|     1,139| 158.79 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
 |2011   |         777|   1,158|     1,127| 104.85 -  4,666|               7|       1,687|         2,072|   552.0 -  2,631|
 |2012   |       1,577|   1,173|     1,175|  69.00 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
-|2013   |       2,472|   1,229|     1,178|  50.00 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
+|2013   |       2,473|   1,229|     1,178|  50.00 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
 |2014   |       5,192|   1,375|     1,255|  40.00 -  9,028|           6,521|       2,238|         2,200|   132.3 -  6,000|
 |2015   |       8,484|   1,523|     1,450|  59.00 -  5,669|           6,697|       2,609|         2,621|   126.6 -  8,636|
-|2016   |       9,868|   1,637|     1,531|  62.51 -  5,985|           7,895|       2,551|         2,513|     2.3 -  9,079|
-|2017   |      14,961|   1,701|     1,553|   8.71 - 14,634|          10,619|       2,530|         2,470|    36.9 -  9,858|
-|2018   |      16,241|   1,702|     1,583|  13.00 -  8,926|           9,472|       2,550|         2,538|     1.8 -  9,073|
-|2019   |      16,658|   1,687|     1,623|  10.72 -  7,684|           6,334|       2,501|         2,441|    75.3 -  9,500|
-|2020   |      20,080|   1,701|     1,678|   0.01 -  8,906|           3,506|       2,390|         2,396|   130.0 -  7,416|
-|2021   |      24,365|   1,807|     1,785|  27.03 -  6,417|           2,882|       2,489|         2,475|    30.2 - 11,400|
-|2022   |      23,866|   2,068|     1,990|  12.36 -  9,044|           1,847|       2,701|         2,679|     2.1 - 14,607|
-|2023   |       2,329|   2,131|     2,108|  50.00 -  6,332|             215|       2,844|         2,830|   529.6 - 11,895|
-|2024   |          16|   2,699|     2,986| 924.75 -  3,337|              NA|          NA|            NA|               NA|
+|2016   |       9,868|   1,637|     1,531|  62.51 -  5,985|           7,896|       2,550|         2,513|     2.3 -  9,079|
+|2017   |      14,961|   1,701|     1,553|   8.71 - 14,634|          10,620|       2,530|         2,470|    36.9 -  9,858|
+|2018   |      16,241|   1,702|     1,583|  13.00 -  8,926|           9,475|       2,550|         2,538|     1.8 -  9,073|
+|2019   |      16,684|   1,687|     1,623|  10.72 -  7,684|           6,342|       2,501|         2,442|    75.3 -  9,500|
+|2020   |      20,150|   1,700|     1,680|   0.01 -  8,906|           3,525|       2,388|         2,395|   130.0 -  7,416|
+|2021   |      24,695|   1,808|     1,785|  27.03 -  6,417|           2,883|       2,490|         2,475|    30.2 - 11,400|
+|2022   |      25,480|   2,070|     1,987|  12.36 -  9,500|           2,147|       2,677|         2,650|     2.1 - 14,607|
+|2023   |       7,065|   2,247|     2,139|  17.43 -  6,684|             674|       2,788|         2,782|   181.5 - 11,895|
+|2024   |          39|   2,263|     2,283| 179.00 -  3,337|               5|       3,079|         3,170| 2,142.0 -  4,138|
 
 
 
 ### Books (BPCs)
 
-The book data set contains information on 1,806 open access books. Publication fees were supported financially by 52 research performing institutions and funders. 
+The book data set contains information on 1,873 open access books. Publication fees were supported financially by 61 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 11,703,744. The average payment was € 6,480 and the median was € 6,732.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 12,312,474. The average payment was € 6,574 and the median was € 6,870.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -813,11 +817,12 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2016   |              42|   12,449|     14,000| 1,190 - 22,000|             NA|       NA|         NA|            NA|
 |2017   |             184|    9,250|      8,780| 1,075 - 21,000|            195|    1,981|      1,981| 1,981 - 1,981|
 |2018   |             149|    8,925|      8,250|   476 - 21,104|            191|    1,875|      1,875| 1,875 - 1,875|
-|2019   |             172|    7,814|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
-|2020   |             162|    7,449|      7,353|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
-|2021   |             172|    6,950|      6,349|   595 - 18,000|             NA|       NA|         NA|            NA|
-|2022   |             187|    7,793|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |              49|    5,165|      5,652|   580 -  8,330|             NA|       NA|         NA|            NA|
+|2019   |             173|    7,794|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
+|2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
+|2021   |             172|    6,976|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
+|2022   |             193|    7,808|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
+|2023   |             102|    7,514|      6,439|   580 - 16,941|              3|    1,614|      1,464| 1,464 - 1,912|
+|2024   |               1|    6,335|      6,335| 6,335 -  6,335|             NA|       NA|         NA|            NA|
 
 
 
@@ -862,10 +867,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.72%       |87.82%   |
-|PubMed ID                  |  73.52%      | NA                                                          |
-|PubMed Central ID          |  67.94%     | NA                                                          |
-|Web of Science record ID   | 81.17%         | NA                                                          |
+|DOI                        |  99.73%       |87.93%   |
+|PubMed ID                  |  73.35%      | NA                                                          |
+|PubMed Central ID          |  67.79%     | NA                                                          |
+|Web of Science record ID   | 77.68%         | NA                                                          |
 
 
 
@@ -893,7 +898,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Karina Barros Ferradás, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Micaela Crespo Quesada, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Silvia Giannini, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Florian Hagen, Christina Hemme, Ulrich Herb, Elfi Hesse, Dana Horch, Larissa Gordon, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Conrad Hübler, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Tiina Jounio, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Anne Lehto, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Vlatko Momirovski, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Martina Obst, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Ulrike Richter, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Andrea Stühn, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Agnieszka Wenninger, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Miriam Zeunert, Philipp Zumstein
+Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Karina Barros Ferradás, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Jochen Bihn, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Micaela Crespo Quesada, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Silvia Giannini, Marianna Gnoato, Larissa Gordon, Paul Gredler, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Birgit Hablizel, Florian Hagen, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Christina Hemme, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Elfi Hesse, Silke Hillmann, Kathrin Höhner, Dana Horch, Conrad Hübler, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Tiina Jounio, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Sarah Last, Stuart Lawson, Anne Lehto, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Vlatko Momirovski, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Martina Obst, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Ulrike Richter, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Andrea Stühn, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Agnieszka Wenninger, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Miriam Zeunert, Philipp Zumstein
 
 ## Contact
 
