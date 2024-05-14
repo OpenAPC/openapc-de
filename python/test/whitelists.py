@@ -67,6 +67,7 @@ JOURNAL_OWNER_CHANGED = {
     "0021-4922": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics
     "1347-4065": ["Japan Society of Applied Physics", "IOP Publishing"], # Japanese Journal of Applied Physics (electronic)
     "1445-5781": ["Springer Science + Business Media", "Wiley-Blackwell"], # Reproductive Medicine and Biology
+    "1447-0578": ["Springer Science + Business Media", "Wiley-Blackwell"], # Reproductive Medicine and Biology (electronic)
     "1538-4357": ["American Astronomical Society", "IOP Publishing"], # The Astrophysical Journal
     "2041-8205": ["American Astronomical Society", "IOP Publishing"], # The Astrophysical Journal (linking)
     "1461-4103": ["Maney Publishing", "Informa UK Limited"], # Environmental Archaeology
@@ -466,6 +467,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2516-3817": ["Elsevier", "Adjacent Digital Politics Ltd"], # Open Access Government
 	"1342-078X": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine 
 	"1347-4715": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine (electronic)
+	"2475-2991": ["Oxford University Press (OUP)", "Elsevier BV"], # Current Developments in Nutrition
+	"2161-8313": ["Oxford University Press (OUP)", "Elsevier BV"], # Advances in Nutrition
 
 }
 
@@ -773,6 +776,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0043-1397", # Water Resources Research, Gold OA since 2024
     "1099-5129", # Europace, Gold OA since 2023
     "2691-199X", # Digital Government: Research and Practice
+    "2524-7972", # Biochar, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
