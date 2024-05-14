@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |212,713 | 417,053,245    | 428 |
+| Articles         |221,872 | 440,893,645    | 428 |
 | Monographs       |1,873 | 12,312,474    | 61 |
 
 ## How to access the data?
@@ -749,13 +749,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 212,713 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 428 research performing institutions and research funders. 
+The article data set contains information on 221,872 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 428 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 417,053,245. The average payment was € 1,961 and the median was € 1,823.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 440,893,645. The average payment was € 1,987 and the median was € 1,837.
 
-154,798 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 272,174,394, including value-added tax; the average payment was € 1,758 (median =  € 1,664, SD = € 828).
+161,056 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 286,631,318, including value-added tax; the average payment was € 1,780 (median =  € 1,678, SD = € 845).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 57,915 articles in the data set were published in hybrid journals. Total expenditure amounts to 144,878,851 €; the average fee was € 2,502 (median =  € 2,467, SD = € 1,022).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 60,816 articles in the data set were published in hybrid journals. Total expenditure amounts to 154,262,327 €; the average fee was € 2,537 (median =  € 2,500, SD = € 1,085).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -780,15 +780,15 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2013   |       2,473|   1,229|     1,178|  50.00 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
 |2014   |       5,192|   1,375|     1,255|  40.00 -  9,028|           6,521|       2,238|         2,200|   132.3 -  6,000|
 |2015   |       8,484|   1,523|     1,450|  59.00 -  5,669|           6,697|       2,609|         2,621|   126.6 -  8,636|
-|2016   |       9,868|   1,637|     1,531|  62.51 -  5,985|           7,896|       2,550|         2,513|     2.3 -  9,079|
-|2017   |      14,961|   1,701|     1,553|   8.71 - 14,634|          10,620|       2,530|         2,470|    36.9 -  9,858|
-|2018   |      16,241|   1,702|     1,583|  13.00 -  8,926|           9,475|       2,550|         2,538|     1.8 -  9,073|
-|2019   |      16,684|   1,687|     1,623|  10.72 -  7,684|           6,342|       2,501|         2,442|    75.3 -  9,500|
-|2020   |      20,150|   1,700|     1,680|   0.01 -  8,906|           3,525|       2,388|         2,395|   130.0 -  7,416|
-|2021   |      24,695|   1,808|     1,785|  27.03 -  6,417|           2,883|       2,490|         2,475|    30.2 - 11,400|
-|2022   |      25,480|   2,070|     1,987|  12.36 -  9,500|           2,147|       2,677|         2,650|     2.1 - 14,607|
-|2023   |       7,065|   2,247|     2,139|  17.43 -  6,684|             674|       2,788|         2,782|   181.5 - 11,895|
-|2024   |          39|   2,263|     2,283| 179.00 -  3,337|               5|       3,079|         3,170| 2,142.0 -  4,138|
+|2016   |       9,869|   1,637|     1,531|  62.51 -  5,985|           7,895|       2,551|         2,513|     2.3 -  9,079|
+|2017   |      14,963|   1,701|     1,553|   8.71 - 14,634|          10,618|       2,530|         2,470|    36.9 -  9,858|
+|2018   |      16,248|   1,701|     1,582|  13.00 -  8,926|           9,478|       2,550|         2,538|     1.8 -  9,073|
+|2019   |      17,479|   1,702|     1,630|  10.72 -  7,684|           6,993|       2,540|         2,500|    75.3 -  9,500|
+|2020   |      21,172|   1,715|     1,683|   0.01 -  8,906|           4,439|       2,496|         2,533|    16.6 -  7,416|
+|2021   |      25,820|   1,821|     1,790|  27.03 -  8,341|           3,435|       2,554|         2,508|    30.2 - 15,921|
+|2022   |      26,998|   2,096|     1,999|  12.36 - 12,943|           2,575|       2,895|         2,730|     2.1 - 37,332|
+|2023   |       8,511|   2,295|     2,169|  17.43 -  6,684|             971|       3,210|         2,980|   181.5 - 15,287|
+|2024   |         381|   2,660|     2,471| 179.00 -  6,398|              64|       4,527|         3,496|   231.3 - 11,396|
 
 
 
@@ -867,10 +867,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.73%       |87.93%   |
-|PubMed ID                  |  73.35%      | NA                                                          |
-|PubMed Central ID          |  67.79%     | NA                                                          |
-|Web of Science record ID   | 77.68%         | NA                                                          |
+|DOI                        |  99.74%       |87.93%   |
+|PubMed ID                  |  73.98%      | NA                                                          |
+|PubMed Central ID          |  68.55%     | NA                                                          |
+|Web of Science record ID   | 74.47%         | NA                                                          |
 
 
 
