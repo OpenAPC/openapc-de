@@ -777,6 +777,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1099-5129", # Europace, Gold OA since 2023
     "2691-199X", # Digital Government: Research and Practice
     "2524-7972", # Biochar, Gold OA since 2022
+    "0175-7598", # Applied Microbiology and Biotechnology, Gold OA since 2024
+    "1573-7462", # Artificial Intelligence Review, Gold OA since 2024
+    "1359-4338", # Virtual Reality, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
