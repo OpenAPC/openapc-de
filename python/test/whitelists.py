@@ -780,6 +780,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0175-7598", # Applied Microbiology and Biotechnology, Gold OA since 2024
     "1573-7462", # Artificial Intelligence Review, Gold OA since 2024
     "1359-4338", # Virtual Reality, Gold OA since 2024
+    "0951-3590", # Gynecological Endocrinology, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
