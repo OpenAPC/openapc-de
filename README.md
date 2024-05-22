@@ -753,9 +753,9 @@ The article data set contains information on 222,270 open access journal article
 
 In total, article publication fee spending covered by the OpenAPC initiative amounted to € 441,767,353. The average payment was € 1,988 and the median was € 1,838.
 
-161,369 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 287,281,531, including value-added tax; the average payment was € 1,780 (median =  € 1,679, SD = € 845).
+161,368 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 287,272,031, including value-added tax; the average payment was € 1,780 (median =  € 1,679, SD = € 845).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 60,901 articles in the data set were published in hybrid journals. Total expenditure amounts to 154,485,821 €; the average fee was € 2,537 (median =  € 2,500, SD = € 1,085).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 60,902 articles in the data set were published in hybrid journals. Total expenditure amounts to 154,495,321 €; the average fee was € 2,537 (median =  € 2,500, SD = € 1,085).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -786,7 +786,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2019   |      17,479|   1,702|     1,630|  10.72 -  7,684|           6,993|       2,540|         2,500|    75.3 -  9,500|
 |2020   |      21,172|   1,715|     1,683|   0.01 -  8,906|           4,439|       2,496|         2,533|    16.6 -  7,416|
 |2021   |      25,820|   1,821|     1,790|  27.03 -  8,341|           3,435|       2,554|         2,508|    30.2 - 15,921|
-|2022   |      27,162|   2,096|     1,999|  12.36 - 12,943|           2,611|       2,893|         2,730|     2.1 - 37,332|
+|2022   |      27,161|   2,095|     1,999|  12.36 - 12,943|           2,612|       2,895|         2,730|     2.1 - 37,332|
 |2023   |       8,656|   2,293|     2,170|  17.43 -  6,684|           1,019|       3,178|         2,980|   181.5 - 15,287|
 |2024   |         385|   2,661|     2,474| 179.00 -  6,398|              65|       4,518|         3,496|   231.3 - 11,396|
 
