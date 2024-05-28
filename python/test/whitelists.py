@@ -469,6 +469,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1347-4715": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine (electronic)
 	"2475-2991": ["Oxford University Press (OUP)", "Elsevier BV"], # Current Developments in Nutrition
 	"2161-8313": ["Oxford University Press (OUP)", "Elsevier BV"], # Advances in Nutrition
+	"0023-6837": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Laboratory Investigation 
 
 }
 
@@ -781,6 +782,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1573-7462", # Artificial Intelligence Review, Gold OA since 2024
     "1359-4338", # Virtual Reality, Gold OA since 2024
     "0951-3590", # Gynecological Endocrinology, Gold OA since 2023
+    "1574-6941", # FEMS Microbiology Ecology, Gold OA since 2024
+    "0168-6496", # FEMS Microbiology Ecology, Gold OA since 2024 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
