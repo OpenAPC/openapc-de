@@ -17,22 +17,26 @@ Before 2017 TU Berlin  TU Berlin has already concluded a prepay membership with 
 
 ### Springer Nature DEAL
 
-TU Berlin has joined the DEAL consortium with Springer Nature (cf. [info project DEAL](https://www.projekt-deal.de/springer-nature-contract/). APC or rather PAR fee data is reported for 2019 + 2020 according to the [OpenAPC guidelines](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe-Transformationsvertr%C3%A4ge-%28DEAL-Wiley-und--Springer-Nature%29-ab-Berichtsjahr-2020)
+TU Berlin has joined the DEAL consortium with Springer Nature (cf. [info project DEAL](https://www.projekt-deal.de/springer-nature-contract/). APC or rather PAR fee data is reported according to the [OpenAPC guidelines](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe-Transformationsvertr%C3%A4ge-%28DEAL-Wiley-und--Springer-Nature%29-ab-Berichtsjahr-2020)
 
-For 2020 103 articles were published open access as part of this agreement (102 research articles + 4 non-research articles); 3 opt-out articles are reported (initially 12 opt-out articles, 9 of them were published OA retrospectiveley). Hence, data for 106 articles are included; the "equivalent APC" amounts to 1.449,67 EUR.
+For 2020 103 articles were published open access as part of this agreement (102 research articles + 4 non-research articles); 3 opt-out articles are reported (initially 12 opt-out articles, 9 of them were published OA retrospectiveley). Hence, data for 106 articles are included; the "equivalent APC" amounts to 1.799,67 EUR (after postpayment).
 
-For 2021 128 articles were published open access as part of this agreement (125 research articles + 4 non-research articles); 1 opt-out article is reported. Hence, data for 129 articles are included; the "equivalent APC" amounts to 1.243,73 EUR.
+For 2021 128 articles were published open access as part of this agreement (125 research articles + 4 non-research articles); 1 opt-out article is reported. Hence, data for 129 articles are included; the "equivalent APC" amounts to 1.661,56 EUR (after postpayment).
 
+For 2022 96 articles were published open access as part of this agreement (93 research articles + 3 non-research articles); 3 opt-out articles are reported. Hence, data for 99 articles are included; the "equivalent APC" amounts to 2.194,82 EUR (after postpayment).
 
 ### Wiley DEAL
 
-TU Berlin has joined the DEAL consortium with Wiley (cf. [info project DEAL](https://www.projekt-deal.de/wiley-contract/). APC or rather PAR fee data is reported for 2019 + 2020 according to the [OpenAPC guidelines](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe-Transformationsvertr%C3%A4ge-%28DEAL-Wiley-und--Springer-Nature%29-ab-Berichtsjahr-2020)
+TU Berlin has joined the DEAL consortium with Wiley (cf. [info project DEAL](https://www.projekt-deal.de/wiley-contract/). APC or rather PAR fee data is reported according to the [OpenAPC guidelines](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe-Transformationsvertr%C3%A4ge-%28DEAL-Wiley-und--Springer-Nature%29-ab-Berichtsjahr-2020)
 
-For 2019 52 articles were published open access as part of this agreement (47 "regular" articles + 5 articles in German Ed. of Angewandte Chemie); no opt-out articles were reported. Hence, the "equivalent APC" amounts to 2.593,21 EUR.
+For 2019 52 articles were published open access as part of this agreement (47 "regular" articles + 5 articles in German Ed. of Angewandte Chemie); no opt-out articles were reported. Hence, the "equivalent APC" amounts to 2.680,72 EUR (after postpayment).
 
-For 2020 104 articles were published open access as part of this agreement (97 "regular" articles + 7 articles in German Ed. of Angewandte Chemie); 3 opt-out articles are reported. Hence, data for 107 articles are included; the "equivalent APC" amounts to 2.402,03 EUR.
+For 2020 104 articles were published open access as part of this agreement (97 "regular" articles + 7 articles in German Ed. of Angewandte Chemie); 3 opt-out articles are reported. Hence, data for 107 articles are included; the "equivalent APC" amounts to 2.585,21 EUR (after postpayment).
 
-For 2021 108 articles were published open access as part of this agreement (102 "regular" articles + 6 articles in German Ed. of Angewandte Chemie); 2 opt-out articles are reported (initially 3 opt-out articles, 1 of them was published OA retrospectiveley). Hence, data for 111 articles are included; the "equivalent APC" amounts to 2.405,86 EUR.
+For 2021 108 articles were published open access as part of this agreement (102 "regular" articles + 6 articles in German Ed. of Angewandte Chemie); 2 opt-out articles are reported (initially 3 opt-out articles, 1 of them was published OA retrospectiveley). Hence, data for 111 articles are included; the "equivalent APC" amounts to 2.531,99 EUR (after postpayment).
+
+For 2022 105 articles were published open access as part of this agreement (101 "regular" articles + 4 articles in German Ed. of Angewandte Chemie); 1 opt-out article is reported (initially 4 opt-out articles, 3 of them were published OA retrospectiveley). Hence, data for 106 articles are included; the "equivalent APC" amounts to 2.651,42 EUR (after postpayment).
+
 
 
 ## BPC data
