@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |222,650 | 442,578,053    | 428 |
+| Articles         |222,648 | 442,575,620    | 428 |
 | Monographs       |1,874 | 12,324,474    | 62 |
 
 ## How to access the data?
@@ -211,6 +211,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Montanuniversität Leoben](https://www.unileoben.ac.at/en/)
 - [Paracelsus Medical University](https://www.pmu.ac.at/en/home.html)
 - Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology
+- [Research Institute of Molecular Pathology - IMP](https://www.imp.ac.at/)
 - [Technische Universität Wien](https://www.tuwien.at/en/library/research-and-publishing/funding)
 - [University of Applied Sciences Burgenland](https://www.fh-burgenland.at/en/)
 - [University of Applied Sciences Upper Austria](https://www.fh-ooe.at/en/)
@@ -749,13 +750,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 222,650 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 428 research performing institutions and research funders. 
+The article data set contains information on 222,648 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 428 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 442,578,053. The average payment was € 1,988 and the median was € 1,838.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 442,575,620. The average payment was € 1,988 and the median was € 1,838.
 
-161,625 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 287,770,795, including value-added tax; the average payment was € 1,780 (median =  € 1,679, SD = € 845).
+161,615 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 287,760,800, including value-added tax; the average payment was € 1,781 (median =  € 1,679, SD = € 845).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,025 articles in the data set were published in hybrid journals. Total expenditure amounts to 154,807,258 €; the average fee was € 2,537 (median =  € 2,500, SD = € 1,087).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,033 articles in the data set were published in hybrid journals. Total expenditure amounts to 154,814,820 €; the average fee was € 2,537 (median =  € 2,500, SD = € 1,087).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -778,12 +779,12 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2011   |         777|   1,158|     1,127| 104.85 -  4,666|               6|       1,781|         2,085|   552.0 -  2,631|
 |2012   |       1,577|   1,173|     1,175|  69.00 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
 |2013   |       2,473|   1,229|     1,178|  50.00 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
-|2014   |       5,192|   1,375|     1,255|  40.00 -  9,028|           6,521|       2,238|         2,200|   132.3 -  6,000|
-|2015   |       8,484|   1,523|     1,450|  59.00 -  5,669|           6,695|       2,610|         2,622|   126.6 -  8,636|
-|2016   |       9,869|   1,637|     1,531|  62.51 -  5,985|           7,895|       2,551|         2,513|     2.3 -  9,079|
-|2017   |      14,963|   1,701|     1,553|   8.71 - 14,634|          10,616|       2,530|         2,470|    36.9 -  9,858|
+|2014   |       5,190|   1,375|     1,255|  40.00 -  9,028|           6,523|       2,238|         2,200|   132.3 -  6,000|
+|2015   |       8,482|   1,523|     1,450|  59.00 -  5,669|           6,697|       2,609|         2,621|   126.6 -  8,636|
+|2016   |       9,867|   1,637|     1,531|  62.51 -  5,985|           7,897|       2,550|         2,513|     2.3 -  9,079|
+|2017   |      14,960|   1,701|     1,553|   8.71 - 14,634|          10,617|       2,530|         2,470|    36.9 -  9,858|
 |2018   |      16,248|   1,701|     1,582|  13.00 -  8,926|           9,478|       2,550|         2,538|     1.8 -  9,073|
-|2019   |      17,543|   1,702|     1,630|  10.72 -  7,684|           7,052|       2,534|         2,498|    75.3 -  9,500|
+|2019   |      17,542|   1,702|     1,630|  10.72 -  7,684|           7,053|       2,534|         2,498|    75.3 -  9,500|
 |2020   |      21,173|   1,715|     1,683|   0.01 -  8,906|           4,449|       2,494|         2,533|    16.6 -  7,416|
 |2021   |      25,820|   1,821|     1,790|  27.03 -  8,341|           3,437|       2,554|         2,506|    30.2 - 15,921|
 |2022   |      27,165|   2,095|     1,999|  12.36 - 12,943|           2,615|       2,894|         2,730|     2.1 - 37,332|
