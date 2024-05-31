@@ -1,7 +1,6 @@
 pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;article_type;article_group;initial_opt-out
 1;Ludwig-Maximilians-Universität München;Palaeobiodiversity and Palaeoenvironments;1867-1608;10.1007/s12549-022-00552-0;https://doi.org/10.1007/s12549-022-00552-0;15.11.2022;15.09.2022;2750;originalpaper;Research Article;optin
 2;Ludwig-Maximilians-Universität München;Zoomorphology;1432-234X;10.1007/s00435-022-00556-6;https://doi.org/10.1007/s00435-022-00556-6;04.04.2022;23.03.2022;2750;originalpaper;Research Article;optin
-3;Ludwig-Maximilians-Universität München;Journal of Computational Social Science;2432-2725;10.1007/s42001-022-00191-7;https://doi.org/10.1007/s42001-022-00191-7;19.12.2022;06.11.2022;2750;originalpaper;Research Article;optout
 4;Ludwig-Maximilians-Universität München;Metascience;1467-9981;10.1007/s11016-022-00814-9;https://doi.org/10.1007/s11016-022-00814-9;04.10.2022;22.09.2022;917;bookreview;Non Research Article;optin
 5;Ludwig-Maximilians-Universität München;Behavior Research Methods;1554-3528;10.3758/s13428-022-01916-2;https://doi.org/10.3758/s13428-022-01916-2;01.08.2022;20.06.2022;2750;originalpaper;Research Article;optin
 6;Ludwig-Maximilians-Universität München;Synthese;1573-0964;10.1007/s11229-022-03749-0;https://doi.org/10.1007/s11229-022-03749-0;25.06.2022;17.05.2022;2750;originalpaper;Research Article;optin
@@ -45,7 +44,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 44;Ludwig-Maximilians-Universität München;HMD Praxis der Wirtschaftsinformatik;2198-2775;10.1365/s40702-022-00870-z;https://doi.org/10.1365/s40702-022-00870-z;12.04.2022;20.03.2022;2750;originalpaper;Research Article;optin
 45;Ludwig-Maximilians-Universität München;PalZ;1867-6812;10.1007/s12542-022-00609-7;https://doi.org/10.1007/s12542-022-00609-7;18.04.2022;30.12.2021;2750;originalpaper;Research Article;optin
 46;Ludwig-Maximilians-Universität München;Ethical Theory and Moral Practice;1572-8447;10.1007/s10677-022-10314-8;https://doi.org/10.1007/s10677-022-10314-8;27.07.2022;04.07.2022;2750;reviewpaper;Research Article;optin
-47;Ludwig-Maximilians-Universität München;Zeitschrift für Außen- und Sicherheitspolitik;1866-2196;10.1007/s12399-022-00904-w;https://doi.org/10.1007/s12399-022-00904-w;19.07.2022;22.04.2022;2750;originalpaper;Research Article;optout
 48;Ludwig-Maximilians-Universität München;Zeitschrift für Grundschulforschung;2523-3181;10.1007/s42278-022-00150-1;https://doi.org/10.1007/s42278-022-00150-1;08.06.2022;17.03.2022;2750;originalpaper;Research Article;optin
 49;Ludwig-Maximilians-Universität München;Pharmaceutical Research;1573-904X;10.1007/s11095-022-03385-w;https://doi.org/10.1007/s11095-022-03385-w;15.09.2022;29.08.2022;2750;reviewpaper;Research Article;optin
 50;Ludwig-Maximilians-Universität München;AStA Advances in Statistical Analysis;1863-818X;10.1007/s10182-022-00450-y;https://doi.org/10.1007/s10182-022-00450-y;10.06.2022;19.05.2022;2750;reviewpaper;Research Article;optin
@@ -87,7 +85,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 86;Ludwig-Maximilians-Universität München;Cellular and Molecular Life Sciences;1420-9071;10.1007/s00018-022-04161-0;https://doi.org/10.1007/s00018-022-04161-0;23.02.2022;19.01.2022;2750;originalpaper;Research Article;optin
 87;Ludwig-Maximilians-Universität München;Instructional Science;1573-1952;10.1007/s11251-022-09579-4;https://doi.org/10.1007/s11251-022-09579-4;15.03.2022;03.02.2022;2750;originalpaper;Research Article;optin
 88;Ludwig-Maximilians-Universität München;Humanistic Management Journal;2366-6048;10.1007/s41463-021-00110-4;https://doi.org/10.1007/s41463-021-00110-4;26.01.2022;09.11.2021;2750;originalpaper;Research Article;optin
-89;Ludwig-Maximilians-Universität München;Annales Henri Poincaré;1424-0661;10.1007/s00023-022-01178-w;https://doi.org/10.1007/s00023-022-01178-w;09.04.2022;12.03.2022;2750;originalpaper;Research Article;optout
 90;Ludwig-Maximilians-Universität München;Synthese;1573-0964;10.1007/s11229-022-03918-1;https://doi.org/10.1007/s11229-022-03918-1;25.10.2022;30.09.2022;2750;originalpaper;Research Article;optin
 91;Ludwig-Maximilians-Universität München;Marine Biology;1432-1793;10.1007/s00227-022-04149-1;https://doi.org/10.1007/s00227-022-04149-1;12.12.2022;19.11.2022;2750;originalpaper;Research Article;optin
 92;Ludwig-Maximilians-Universität München;Ambio;1654-7209;10.1007/s13280-022-01767-3;https://doi.org/10.1007/s13280-022-01767-3;27.08.2022;05.07.2022;2750;originalpaper;Research Article;optin
@@ -111,12 +108,10 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 110;Ludwig-Maximilians-Universität München;Experimental Economics;1573-6938;10.1007/s10683-022-09762-x;https://doi.org/10.1007/s10683-022-09762-x;09.07.2022;04.06.2022;2750;originalpaper;Research Article;optin
 111;Ludwig-Maximilians-Universität München;Letters in Mathematical Physics;1573-0530;10.1007/s11005-022-01607-1;https://doi.org/10.1007/s11005-022-01607-1;10.11.2022;24.10.2022;2750;originalpaper;Research Article;optin
 112;Ludwig-Maximilians-Universität München;Synthese;1573-0964;10.1007/s11229-022-03842-4;https://doi.org/10.1007/s11229-022-03842-4;11.08.2022;01.08.2022;2750;originalpaper;Research Article;optin
-113;Ludwig-Maximilians-Universität München;Applied Intelligence;1573-7497;10.1007/s10489-022-03280-2;https://doi.org/10.1007/s10489-022-03280-2;28.04.2022;19.01.2022;2750;originalpaper;Research Article;optout
 114;Ludwig-Maximilians-Universität München;Pharmaceutical Research;1573-904X;10.1007/s11095-022-03443-3;https://doi.org/10.1007/s11095-022-03443-3;29.11.2022;18.11.2022;2750;originalpaper;Research Article;optin
 115;Ludwig-Maximilians-Universität München;Advances in Data Analysis and Classification;1862-5355;10.1007/s11634-022-00496-5;https://doi.org/10.1007/s11634-022-00496-5;17.03.2022;14.02.2022;2750;originalpaper;Research Article;optin
 116;Ludwig-Maximilians-Universität München;European Journal of Orthopaedic Surgery & Traumatology;1432-1068;10.1007/s00590-022-03266-3;https://doi.org/10.1007/s00590-022-03266-3;27.04.2022;05.04.2022;2750;originalpaper;Research Article;optin
 117;Ludwig-Maximilians-Universität München;Pflügers Archiv - European Journal of Physiology;1432-2013;10.1007/s00424-022-02698-4;https://doi.org/10.1007/s00424-022-02698-4;13.05.2022;29.04.2022;2750;reviewpaper;Research Article;optin
-118;Ludwig-Maximilians-Universität München;International Ophthalmology;1573-2630;10.1007/s10792-022-02508-x;https://doi.org/10.1007/s10792-022-02508-x;06.09.2022;28.08.2022;2750;originalpaper;Research Article;optout
 119;Ludwig-Maximilians-Universität München;Publizistik;1862-2569;10.1007/s11616-022-00724-0;https://doi.org/10.1007/s11616-022-00724-0;11.04.2022;04.03.2022;917;bookreview;Non Research Article;optin
 120;Ludwig-Maximilians-Universität München;Journal of Organization Design;2245-408X;10.1007/s41469-022-00124-8;https://doi.org/10.1007/s41469-022-00124-8;04.08.2022;25.07.2022;2750;originalpaper;Research Article;optin
 121;Ludwig-Maximilians-Universität München;Die Ophthalmologie;2731-7218;10.1007/s00347-022-01638-y;https://doi.org/10.1007/s00347-022-01638-y;02.05.2022;04.04.2022;2750;originalpaper;Research Article;optin
@@ -125,10 +120,8 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 124;Ludwig-Maximilians-Universität München;Policy Sciences;1573-0891;10.1007/s11077-022-09461-7;https://doi.org/10.1007/s11077-022-09461-7;19.05.2022;27.04.2022;2750;originalpaper;Research Article;optin
 125;Ludwig-Maximilians-Universität München;Journal of Computational Social Science;2432-2725;10.1007/s42001-022-00171-x;https://doi.org/10.1007/s42001-022-00171-x;03.06.2022;15.05.2022;2750;originalpaper;Research Article;optin
 126;Ludwig-Maximilians-Universität München;Synthese;1573-0964;10.1007/s11229-022-03502-7;https://doi.org/10.1007/s11229-022-03502-7;17.02.2022;10.11.2021;2750;originalpaper;Research Article;optin
-127;Ludwig-Maximilians-Universität München;Knee Surgery, Sports Traumatology, Arthroscopy;1433-7347;10.1007/s00167-022-06904-9;https://doi.org/10.1007/s00167-022-06904-9;24.02.2022;23.01.2022;2750;originalpaper;Research Article;optout
 128;Ludwig-Maximilians-Universität München;Publizistik;1862-2569;10.1007/s11616-022-00722-2;https://doi.org/10.1007/s11616-022-00722-2;11.04.2022;04.03.2022;917;bookreview;Non Research Article;optin
 129;Ludwig-Maximilians-Universität München;The GENEVA Risk and Insurance Review;1554-9658;10.1057/s10713-022-00074-x;https://doi.org/10.1057/s10713-022-00074-x;31.01.2022;05.01.2022;2750;originalpaper;Research Article;optin
-130;Ludwig-Maximilians-Universität München;European Journal of Nuclear Medicine and Molecular Imaging;1619-7089;10.1007/s00259-022-06075-2;https://doi.org/10.1007/s00259-022-06075-2;14.12.2022;04.12.2022;2750;originalpaper;Research Article;optout
 131;Ludwig-Maximilians-Universität München;Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz;1437-1588;10.1007/s00103-022-03492-4;https://doi.org/10.1007/s00103-022-03492-4;07.02.2022;24.01.2022;2750;reviewpaper;Research Article;optin
 132;Ludwig-Maximilians-Universität München;Publizistik;1862-2569;10.1007/s11616-021-00714-8;https://doi.org/10.1007/s11616-021-00714-8;10.01.2022;22.12.2021;917;bookreview;Non Research Article;optin
 133;Ludwig-Maximilians-Universität München;Synthese;1573-0964;10.1007/s11229-022-03586-1;https://doi.org/10.1007/s11229-022-03586-1;15.04.2022;20.01.2022;2750;originalpaper;Research Article;optin
@@ -141,8 +134,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 140;Ludwig-Maximilians-Universität München;European Journal of Pediatrics;1432-1076;10.1007/s00431-022-04587-5;https://doi.org/10.1007/s00431-022-04587-5;13.08.2022;04.08.2022;2750;originalpaper;Research Article;optin
 141;Ludwig-Maximilians-Universität München;Publizistik;1862-2569;10.1007/s11616-021-00715-7;https://doi.org/10.1007/s11616-021-00715-7;11.01.2022;22.12.2021;917;bookreview;Non Research Article;optin
 142;Ludwig-Maximilians-Universität München;Publizistik;1862-2569;10.1007/s11616-022-00773-5;https://doi.org/10.1007/s11616-022-00773-5;30.12.2022;09.12.2022;917;bookreview;Non Research Article;optin
-143;Ludwig-Maximilians-Universität München;Acta Neurochirurgica;0942-0940;10.1007/s00701-022-05132-x;https://doi.org/10.1007/s00701-022-05132-x;26.01.2022;14.01.2022;2750;originalpaper;Research Article;optout
-144;Ludwig-Maximilians-Universität München;African Archaeological Review;1572-9842;10.1007/s10437-022-09480-y;https://doi.org/10.1007/s10437-022-09480-y;11.05.2022;;917;bookreview;Non Research Article;optout
 145;Ludwig-Maximilians-Universität München;Journal of Cryptographic Engineering;2190-8516;10.1007/s13389-021-00283-6;https://doi.org/10.1007/s13389-021-00283-6;02.03.2022;24.12.2021;2750;originalpaper;Research Article;optin
 146;Ludwig-Maximilians-Universität München;Acta Neuropathologica;1432-0533;10.1007/s00401-022-02483-8;https://doi.org/10.1007/s00401-022-02483-8;17.08.2022;08.08.2022;2750;originalpaper;Research Article;optin
 147;Ludwig-Maximilians-Universität München;Zeitschrift für Arbeitswissenschaft;2366-4681;10.1007/s41449-022-00332-8;https://doi.org/10.1007/s41449-022-00332-8;01.12.2022;12.10.2022;2750;originalpaper;Research Article;optin
@@ -299,7 +290,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 298;Klinikum der Universität München;Infection;1439-0973;10.1007/s15010-022-01948-y;https://doi.org/10.1007/s15010-022-01948-y;03.11.2022;25.10.2022;2750;originalpaper;Research Article;optin
 299;Klinikum der Universität München;HNO;1433-0458;10.1007/s00106-021-01130-0;https://doi.org/10.1007/s00106-021-01130-0;20.01.2022;31.10.2021;2750;reviewpaper;Research Article;optin
 300;Klinikum der Universität München;Die Anaesthesiologie;2731-6866;10.1007/s00101-022-01217-5;https://doi.org/10.1007/s00101-022-01217-5;21.11.2022;02.10.2022;2750;briefcommunication;Research Article;optin
-301;Klinikum der Universität München;Monatsschrift Kinderheilkunde;1433-0474;10.1007/s00112-022-01546-0;https://doi.org/10.1007/s00112-022-01546-0;15.07.2022;31.05.2022;2750;reviewpaper;Research Article;optout
 302;Klinikum der Universität München;Environmental Monitoring and Assessment;1573-2959;10.1007/s10661-022-09962-1;https://doi.org/10.1007/s10661-022-09962-1;30.03.2022;19.03.2022;2750;originalpaper;Research Article;optin
 303;Klinikum der Universität München;Metabolomics;1573-3890;10.1007/s11306-022-01953-0;https://doi.org/10.1007/s11306-022-01953-0;25.11.2022;03.11.2022;2750;originalpaper;Research Article;optin
 304;Klinikum der Universität München;Skeletal Radiology;1432-2161;10.1007/s00256-022-03994-x;https://doi.org/10.1007/s00256-022-03994-x;28.02.2022;09.01.2022;2750;originalpaper;Research Article;optin

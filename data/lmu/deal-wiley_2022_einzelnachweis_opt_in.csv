@@ -1,16 +1,13 @@
 pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-out
 1;Ludwig-Maximilians-Universität München;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200492;https://doi.org/10.1002/chem.202200492;02.05.2022;2750;optin
 2;Ludwig-Maximilians-Universität München;CHEMPLUSCHEM;2192-6506;10.1002/cplu.202200186;https://doi.org/10.1002/cplu.202200186;28.06.2022;2750;optin
-3;Ludwig-Maximilians-Universität München;NORDIC JOURNAL OF BOTANY;1756-1051;10.1111/njb.03818;https://doi.org/10.1111/njb.03818;13.11.2022;2750;optout
 4;Ludwig-Maximilians-Universität München;EUROPEAN JOURNAL OF INORGANIC CHEMISTRY;1099-0682;10.1002/ejic.202200100;https://doi.org/10.1002/ejic.202200100;14.03.2022;2750;optin
 5;Ludwig-Maximilians-Universität München;WILEY INTERDISCIPLINARY REVIEWS: DATA MINING AND KNOWLEDGE DISCOVERY;1942-4795;10.1002/widm.1491;https://doi.org/10.1002/widm.1491;07.12.2022;2750;optin
 6;Ludwig-Maximilians-Universität München;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202212436;https://doi.org/10.1002/adfm.202212436;28.12.2022;2750;optin
 7;Ludwig-Maximilians-Universität München;INSECT SCIENCE;1744-7917;10.1111/1744-7917.13137;https://doi.org/10.1111/1744-7917.13137;24.10.2022;2750;optin
-8;Ludwig-Maximilians-Universität München;CANCER;1097-0142;10.1002/cncr.34161;https://doi.org/10.1002/cncr.34161;02.02.2022;2750;optout
 9;Ludwig-Maximilians-Universität München;JOURNAL OF ORAL PATHOLOGY & MEDICINE;1600-0714;10.1111/jop.13338;https://doi.org/10.1111/jop.13338;21.06.2022;2750;optin
 10;Ludwig-Maximilians-Universität München;PROPELLANTS, EXPLOSIVES, PYROTECHNICS;1521-4087;10.1002/prep.202100358;https://doi.org/10.1002/prep.202100358;16.02.2022;2750;optin
 11;Ludwig-Maximilians-Universität München;EUROPEAN JOURNAL OF ORGANIC CHEMISTRY;1099-0690;10.1002/ejoc.202101521;https://doi.org/10.1002/ejoc.202101521;16.02.2022;2750;optin
-12;Ludwig-Maximilians-Universität München;SMALL STRUCTURES;2688-4062;10.1002/sstr.202100195;https://doi.org/10.1002/sstr.202100195;02.01.2022;2750;optout
 13;Ludwig-Maximilians-Universität München;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202117047;https://doi.org/10.1002/anie.202117047;11.01.2022;2750;optin
 14;Ludwig-Maximilians-Universität München;REPRODUCTION IN DOMESTIC ANIMALS;1439-0531;10.1111/rda.14240;https://doi.org/10.1111/rda.14240;30.08.2022;2750;optin
 15;Ludwig-Maximilians-Universität München;VETERINARY DERMATOLOGY;1365-3164;10.1111/vde.13138;https://doi.org/10.1111/vde.13138;17.09.2022;2750;optin
@@ -38,7 +35,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 37;Ludwig-Maximilians-Universität München;XENOTRANSPLANTATION;1399-3089;10.1111/xen.12734;https://doi.org/10.1111/xen.12734;19.01.2022;2750;optin
 38;Ludwig-Maximilians-Universität München;JOURNAL OF COSMETIC DERMATOLOGY;1473-2165;10.1111/jocd.15563;https://doi.org/10.1111/jocd.15563;28.11.2022;2750;optin
 39;Ludwig-Maximilians-Universität München;QUARTERLY JOURNAL OF THE ROYAL METEOROLOGICAL SOCIETY;1477-870X;10.1002/qj.4295;https://doi.org/10.1002/qj.4295;18.04.2022;2750;optin
-40;Ludwig-Maximilians-Universität München;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202104240;https://doi.org/10.1002/chem.202104240;04.01.2022;2750;optout
 41;Ludwig-Maximilians-Universität München;MEDICAL PHYSICS;2473-4209;10.1002/mp.15657;https://doi.org/10.1002/mp.15657;06.03.2022;2750;optin
 42;Ludwig-Maximilians-Universität München;VETERINARY RECORD CASE REPORTS;2052-6121;10.1002/vrc2.433;https://doi.org/10.1002/vrc2.433;30.05.2022;2750;optin
 43;Ludwig-Maximilians-Universität München;WILEY INTERDISCIPLINARY REVIEWS: CLIMATE CHANGE;1757-7799;10.1002/wcc.806;https://doi.org/10.1002/wcc.806;18.09.2022;2750;optin
@@ -79,7 +75,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 78;Ludwig-Maximilians-Universität München;JOURNAL OF ESTHETIC AND RESTORATIVE DENTISTRY;1708-8240;10.1111/jerd.12938;https://doi.org/10.1111/jerd.12938;29.05.2022;2750;optin
 79;Ludwig-Maximilians-Universität München;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202210671;https://doi.org/10.1002/ange.202210671;16.08.2022;1375;optin
 80;Ludwig-Maximilians-Universität München;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202117047;https://doi.org/10.1002/ange.202117047;11.01.2022;1375;optin
-81;Ludwig-Maximilians-Universität München;GEOPHYSICAL RESEARCH LETTERS;1944-8007;10.1029/2022GL100852;https://doi.org/10.1029/2022GL100852;26.11.2022;2750;optout
 82;Ludwig-Maximilians-Universität München;CHEMCATCHEM;1867-3899;10.1002/cctc.202200734;https://doi.org/10.1002/cctc.202200734;09.06.2022;2750;optin
 83;Ludwig-Maximilians-Universität München;EUROPEAN JOURNAL OF NEUROLOGY;1468-1331;10.1111/ene.15284;https://doi.org/10.1111/ene.15284;06.02.2022;2750;optin
 84;Ludwig-Maximilians-Universität München;JOURNAL OF HETEROCYCLIC CHEMISTRY;1943-5193;10.1002/jhet.4518;https://doi.org/10.1002/jhet.4518;17.05.2022;2750;optin
@@ -90,7 +85,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 89;Ludwig-Maximilians-Universität München;JOURNAL OF EVALUATION IN CLINICAL PRACTICE;1365-2753;10.1111/jep.13697;https://doi.org/10.1111/jep.13697;27.04.2022;2750;optin
 90;Ludwig-Maximilians-Universität München;VETERINARY DERMATOLOGY;1365-3164;10.1111/vde.13142;https://doi.org/10.1111/vde.13142;02.09.2022;2750;optin
 91;Ludwig-Maximilians-Universität München;PROPELLANTS, EXPLOSIVES, PYROTECHNICS;1521-4087;10.1002/prep.202200113;https://doi.org/10.1002/prep.202200113;08.09.2022;2750;optin
-92;Ludwig-Maximilians-Universität München;ARCHAEOLOGICAL PROSPECTION;1099-0763;10.1002/arp.1870;https://doi.org/10.1002/arp.1870;09.07.2022;2750;optout
 93;Ludwig-Maximilians-Universität München;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202210491;https://doi.org/10.1002/anie.202210491;08.08.2022;2750;optin
 94;Ludwig-Maximilians-Universität München;MOLECULAR ECOLOGY;1365-294X;10.1111/mec.16406;https://doi.org/10.1111/mec.16406;13.02.2022;2750;optin
 95;Ludwig-Maximilians-Universität München;JOURNAL OF ANIMAL PHYSIOLOGY AND ANIMAL NUTRITION;1439-0396;10.1111/jpn.13762;https://doi.org/10.1111/jpn.13762;25.07.2022;2750;optin
@@ -174,7 +168,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 173;Ludwig-Maximilians-Universität München;THE FASEB JOURNAL;1530-6860;10.1096/fj.202200056R;https://doi.org/10.1096/fj.202200056R;20.12.2022;2750;optin
 174;Ludwig-Maximilians-Universität München;FAMILY RELATIONS;1741-3729;10.1111/fare.12880;https://doi.org/10.1111/fare.12880;26.12.2022;2750;optin
 175;Ludwig-Maximilians-Universität München;ZEITSCHRIFT FUR ANORGANISCHE UND ALLGEMEINE CHEMIE;1521-3749;10.1002/zaac.202200337;https://doi.org/10.1002/zaac.202200337;20.12.2022;2750;optin
-176;Ludwig-Maximilians-Universität München;PHILOSOPHICAL INVESTIGATIONS;1467-9205;10.1111/phin.12375;https://doi.org/10.1111/phin.12375;19.09.2022;2750;optout
 177;Ludwig-Maximilians-Universität München;JOURNAL OF SYSTEMATICS AND EVOLUTION;1759-6831;10.1111/jse.12921;https://doi.org/10.1111/jse.12921;14.09.2022;2750;optin
 178;Ludwig-Maximilians-Universität München;JOURNAL OF GEOPHYSICAL RESEARCH: SPACE PHYSICS;2169-9402;10.1029/2022JA030460;https://doi.org/10.1029/2022JA030460;30.07.2022;2750;optin
 179;Ludwig-Maximilians-Universität München;ADVANCED OPTICAL MATERIALS;2195-1071;10.1002/adom.202200572;https://doi.org/10.1002/adom.202200572;22.05.2022;2750;optin
@@ -234,7 +227,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 233;Ludwig-Maximilians-Universität München;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202217026;https://doi.org/10.1002/anie.202217026;26.12.2022;2750;optin
 234;Ludwig-Maximilians-Universität München;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202204556;https://doi.org/10.1002/anie.202204556;07.07.2022;2750;optin
 235;Ludwig-Maximilians-Universität München;MOLECULAR ECOLOGY;1365-294X;10.1111/mec.16814;https://doi.org/10.1111/mec.16814;04.12.2022;2750;optin
-236;Ludwig-Maximilians-Universität München;PSYCH JOURNAL;2046-0260;10.1002/pchj.539;https://doi.org/10.1002/pchj.539;23.01.2022;2750;optout
 237;Ludwig-Maximilians-Universität München;JOURNAL OF SLEEP RESEARCH;1365-2869;10.1111/jsr.13776;https://doi.org/10.1111/jsr.13776;16.10.2022;2750;optin
 238;Ludwig-Maximilians-Universität München;MACROMOLECULAR BIOSCIENCE;1616-5195;10.1002/mabi.202200409;https://doi.org/10.1002/mabi.202200409;24.11.2022;2750;optin
 239;Ludwig-Maximilians-Universität München;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202200760;https://doi.org/10.1002/chem.202200760;20.04.2022;2750;optin
@@ -242,7 +234,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 241;Ludwig-Maximilians-Universität München;CHEMISTRYSELECT;2365-6549;10.1002/slct.202202838;https://doi.org/10.1002/slct.202202838;15.08.2022;2750;optin
 242;Ludwig-Maximilians-Universität München;ZEITSCHRIFT FUR ANORGANISCHE UND ALLGEMEINE CHEMIE;1521-3749;10.1002/zaac.202200060;https://doi.org/10.1002/zaac.202200060;11.04.2022;2750;optin
 243;Ludwig-Maximilians-Universität München;ADVANCED FUNCTIONAL MATERIALS;1616-3028;10.1002/adfm.202203418;https://doi.org/10.1002/adfm.202203418;19.06.2022;2750;optin
-244;Ludwig-Maximilians-Universität München;PSYCH JOURNAL;2046-0260;10.1002/pchj.597;https://doi.org/10.1002/pchj.597;13.08.2022;2750;optout
 245;Ludwig-Maximilians-Universität München;ZEITSCHRIFT FUR ANORGANISCHE UND ALLGEMEINE CHEMIE;1521-3749;10.1002/zaac.202100389;https://doi.org/10.1002/zaac.202100389;30.01.2022;2750;optin
 246;Ludwig-Maximilians-Universität München;JOURNAL OF SLEEP RESEARCH;1365-2869;10.1111/jsr.13621;https://doi.org/10.1111/jsr.13621;09.04.2022;2750;optin
 247;Ludwig-Maximilians-Universität München;JCMS: JOURNAL OF COMMON MARKET STUDIES;1468-5965;10.1111/jcms.13373;https://doi.org/10.1111/jcms.13373;20.04.2022;2750;optin
@@ -274,14 +265,12 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 273;Ludwig-Maximilians-Universität München;ADVANCED MATERIALS;1521-4095;10.1002/adma.202106733;https://doi.org/10.1002/adma.202106733;13.02.2022;2750;optin
 274;Ludwig-Maximilians-Universität München;BULLETIN OF THE LONDON MATHEMATICAL SOCIETY;1469-2120;10.1112/blms.12695;https://doi.org/10.1112/blms.12695;03.05.2022;2750;optin
 275;Ludwig-Maximilians-Universität München;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202204556;https://doi.org/10.1002/ange.202204556;07.07.2022;1375;optin
-276;Ludwig-Maximilians-Universität München;JOURNAL OF COSMETIC DERMATOLOGY;1473-2165;10.1111/jocd.14776;https://doi.org/10.1111/jocd.14776;02.01.2022;2750;optout
 277;Ludwig-Maximilians-Universität München;EUROPEAN JOURNAL OF NEUROLOGY;1468-1331;10.1111/ene.15448;https://doi.org/10.1111/ene.15448;08.06.2022;2750;optin
 278;Ludwig-Maximilians-Universität München;EUROPEAN JOURNAL OF NEUROLOGY;1468-1331;10.1111/ene.15546;https://doi.org/10.1111/ene.15546;22.08.2022;2750;optin
 279;Ludwig-Maximilians-Universität München;HEALTH ECONOMICS;1099-1050;10.1002/hec.4491;https://doi.org/10.1002/hec.4491;17.02.2022;2750;optin
 280;Ludwig-Maximilians-Universität München;EARLY MEDIEVAL EUROPE;1468-0254;10.1111/emed.12594;https://doi.org/10.1111/emed.12594;28.01.2022;2750;optin
 281;Ludwig-Maximilians-Universität München;PROCEEDINGS IN APPLIED MATHEMATICS & MECHANICS;1617-7061;10.1002/pamm.202200174;https://doi.org/10.1002/pamm.202200174;31.10.2022;2750;optin
 282;Ludwig-Maximilians-Universität München;BUSINESS AND SOCIETY REVIEW;1467-8594;10.1111/basr.12290;https://doi.org/10.1111/basr.12290;30.04.2022;2750;optin
-283;Ludwig-Maximilians-Universität München;NEW PHYTOLOGIST;1469-8137;10.1111/nph.18089;https://doi.org/10.1111/nph.18089;03.01.2022;2750;optout
 284;Ludwig-Maximilians-Universität München;JOURNAL OF TOPOLOGY;1753-8424;10.1112/topo.12234;https://doi.org/10.1112/topo.12234;31.01.2022;2750;optin
 285;Klinikum der Universität München;JOURNAL OF THE EUROPEAN ACADEMY OF DERMATOLOGY AND VENEREOLOGY;1468-3083;10.1111/jdv.18193;https://doi.org/10.1111/jdv.18193;12.04.2022;2750;optin
 286;Klinikum der Universität München;ANNALS OF NEUROLOGY;1531-8249;10.1002/ana.26545;https://doi.org/10.1002/ana.26545;10.11.2022;2750;optin
