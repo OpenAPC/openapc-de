@@ -470,6 +470,9 @@ JOURNAL_OWNER_CHANGED = {
 	"2475-2991": ["Oxford University Press (OUP)", "Elsevier BV"], # Current Developments in Nutrition
 	"2161-8313": ["Oxford University Press (OUP)", "Elsevier BV"], # Advances in Nutrition
 	"0023-6837": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Laboratory Investigation 
+	"1747-079X": ["Wiley-Blackwell", "Computers, Materials and Continua (Tech Science Press)"], # Congenital Heart Disease 
+	"1747-0803": ["Wiley-Blackwell", "Computers, Materials and Continua (Tech Science Press)"], # Congenital Heart Disease (electronic)
+	"2043-7897": ["Informa UK Limited", "Bristol University Press"], # Global Discourse 
 
 }
 
@@ -784,6 +787,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0951-3590", # Gynecological Endocrinology, Gold OA since 2023
     "1574-6941", # FEMS Microbiology Ecology, Gold OA since 2024
     "0168-6496", # FEMS Microbiology Ecology, Gold OA since 2024 (linking)
+    "1747-079X", # Congenital Heart Disease, Gold OA since 2020
+    "1752-6981", # The Clinical Respiratory Journal, Gold OA since 2022
+    "1387-3954", # Mathematical and Computer Modelling of Dynamical Systems, Gold OA since 2021
+    "1949-1034", # Nucleus, Gold OA since 2018
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
