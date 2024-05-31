@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 101,290 articles, published at 383 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 101,967 articles, published at 383 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 101,290 articles, published at 383 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     9455|
-|DEAL Wiley Germany                               |     8458|
+|DEAL Springer Nature Germany                     |     9819|
+|DEAL Wiley Germany                               |     8771|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -158,6 +158,7 @@ This dataset contains information on 101,290 articles, published at 383 institut
 |University of Helsinki                                                                                                                             |     3028|
 |University of Zurich                                                                                                                               |     2894|
 |TU Muenchen                                                                                                                                        |     1974|
+|Muenchen LMU                                                                                                                                       |     1801|
 |University of Bern                                                                                                                                 |     1696|
 |University of Geneva                                                                                                                               |     1640|
 |University College Dublin                                                                                                                          |     1497|
@@ -168,7 +169,6 @@ This dataset contains information on 101,290 articles, published at 383 institut
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1173|
 |Aalto University                                                                                                                                   |     1163|
 |Bonn U                                                                                                                                             |     1124|
-|Muenchen LMU                                                                                                                                       |     1124|
 |Trinity College Dublin                                                                                                                             |     1116|
 |Tampere University                                                                                                                                 |     1081|
 |Karolinska Institutet                                                                                                                              |     1061|
