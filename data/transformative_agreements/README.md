@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 101,967 articles, published at 383 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,143 articles, published at 384 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 101,967 articles, published at 383 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     9819|
-|DEAL Wiley Germany                               |     8771|
+|DEAL Springer Nature Germany                     |     9904|
+|DEAL Wiley Germany                               |     8862|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -287,6 +287,7 @@ This dataset contains information on 101,967 articles, published at 383 institut
 |VTT Technical Research Centre of Finland Ltd                                                                                                       |      184|
 |Technological University Dublin                                                                                                                    |      183|
 |FZJ - ZB                                                                                                                                           |      179|
+|Marburg U                                                                                                                                          |      176|
 |University of Durham                                                                                                                               |      175|
 |University of Loughborough                                                                                                                         |      173|
 |TU Braunschweig                                                                                                                                    |      171|
