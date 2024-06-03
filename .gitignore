@@ -22,3 +22,12 @@ python/tempfiles/
 *.pyc
 # Exclude secret token
 python/crossref_plus_token
+
+openapc-de.Rproj
+
+# additions to clean up
+data/couperin/
+data/transformative_agreements/
+data/unilausanne/
+
+
