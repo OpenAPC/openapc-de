@@ -7,7 +7,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 6;Philipps-Universität Marburg;Allergo Journal International;2197-0378;10.1007/s40629-022-00214-9;https://doi.org/10.1007/s40629-022-00214-9;31.05.2022;05.04.2022;2750;reviewpaper;Research Article;optin
 7;Philipps-Universität Marburg;Infection;1439-0973;10.1007/s15010-022-01895-8;https://doi.org/10.1007/s15010-022-01895-8;29.07.2022;22.07.2022;2750;originalpaper;Research Article;optin
 8;Philipps-Universität Marburg;European Archives of Psychiatry and Clinical Neuroscience;1433-8491;10.1007/s00406-022-01454-0;https://doi.org/10.1007/s00406-022-01454-0;29.07.2022;20.06.2022;2750;originalpaper;Research Article;optin
-9;Philipps-Universität Marburg;Die Ophthalmologie;2731-7218;10.1007/s00347-022-01666-8;https://doi.org/10.1007/s00347-022-01666-8;13.06.2022;11.05.2022;2750;briefcommunication;Research Article;optout
 10;Philipps-Universität Marburg;Journal of Behavioral Medicine;1573-3521;10.1007/s10865-022-00319-0;https://doi.org/10.1007/s10865-022-00319-0;06.05.2022;03.04.2022;2750;originalpaper;Research Article;optin
 11;Philipps-Universität Marburg;Zeitschrift für Außen- und Sicherheitspolitik;1866-2196;10.1007/s12399-022-00916-6;https://doi.org/10.1007/s12399-022-00916-6;06.09.2022;18.08.2022;917;bookreview;Non Research Article;optin
 12;Philipps-Universität Marburg;BioSpektrum;1868-6249;10.1007/s12268-022-1694-9;https://doi.org/10.1007/s12268-022-1694-9;13.02.2022;;917;bookreview;Non Research Article;optin
@@ -24,7 +23,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 23;Philipps-Universität Marburg;Applied Microbiology and Biotechnology;1432-0614;10.1007/s00253-022-12303-4;https://doi.org/10.1007/s00253-022-12303-4;28.11.2022;18.11.2022;2750;originalpaper;Research Article;optin
 24;Philipps-Universität Marburg;Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz;1437-1588;10.1007/s00103-022-03489-z;https://doi.org/10.1007/s00103-022-03489-z;04.02.2022;10.01.2022;2750;reviewpaper;Research Article;optin
 25;Philipps-Universität Marburg;Current Psychiatry Reports;1535-1645;10.1007/s11920-022-01402-8;https://doi.org/10.1007/s11920-022-01402-8;19.12.2022;13.11.2022;2750;reviewpaper;Research Article;optin
-26;Philipps-Universität Marburg;Eurasian Economic Review;2147-429X;10.1007/s40822-022-00199-4;https://doi.org/10.1007/s40822-022-00199-4;22.02.2022;09.09.2021;2750;originalpaper;Research Article;optout
 27;Philipps-Universität Marburg;Die Psychotherapie;2731-717X;10.1007/s00278-022-00590-1;https://doi.org/10.1007/s00278-022-00590-1;21.04.2022;16.03.2022;2750;originalpaper;Research Article;optin
 28;Philipps-Universität Marburg;Empirical Economics;1435-8921;10.1007/s00181-022-02252-2;https://doi.org/10.1007/s00181-022-02252-2;05.08.2022;17.04.2022;2750;originalpaper;Research Article;optin
 29;Philipps-Universität Marburg;Journal of Neurology;1432-1459;10.1007/s00415-022-11136-5;https://doi.org/10.1007/s00415-022-11136-5;30.04.2022;08.04.2022;2750;originalpaper;Research Article;optin
@@ -41,12 +39,10 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 40;Philipps-Universität Marburg;Crime, Law and Social Change;1573-0751;10.1007/s10611-022-10049-8;https://doi.org/10.1007/s10611-022-10049-8;05.10.2022;12.08.2022;2750;originalpaper;Research Article;optin
 41;Philipps-Universität Marburg;Clinical Oral Investigations;1436-3771;10.1007/s00784-022-04434-9;https://doi.org/10.1007/s00784-022-04434-9;10.03.2022;22.02.2022;2750;originalpaper;Research Article;optin
 42;Philipps-Universität Marburg;Journal of Technology in Behavioral Science;2366-5963;10.1007/s41347-021-00237-z;https://doi.org/10.1007/s41347-021-00237-z;07.02.2022;10.12.2021;2750;originalpaper;Research Article;optin
-43;Philipps-Universität Marburg;Journal of Neural Transmission;1435-1463;10.1007/s00702-022-02463-y;https://doi.org/10.1007/s00702-022-02463-y;05.02.2022;11.01.2022;2750;originalpaper;Research Article;optout
 44;Philipps-Universität Marburg;Clinical Child and Family Psychology Review;1573-2827;10.1007/s10567-022-00415-2;https://doi.org/10.1007/s10567-022-00415-2;26.09.2022;16.09.2022;2750;reviewpaper;Research Article;optin
 45;Philipps-Universität Marburg;Studies in East European Thought;1573-0948;10.1007/s11212-022-09491-0;https://doi.org/10.1007/s11212-022-09491-0;03.08.2022;22.06.2022;917;editorialnotes;Non Research Article;optin
 46;Philipps-Universität Marburg;Cell Death & Differentiation;1476-5403;10.1038/s41418-022-01005-z;https://doi.org/10.1038/s41418-022-01005-z;22.04.2022;08.04.2022;2750;originalpaper;Research Article;optin
 47;Philipps-Universität Marburg;International Ophthalmology;1573-2630;10.1007/s10792-022-02535-8;https://doi.org/10.1007/s10792-022-02535-8;24.09.2022;15.09.2022;2750;originalpaper;Research Article;optin
-48;Philipps-Universität Marburg;European Journal of Applied Physiology;1439-6327;10.1007/s00421-022-05001-6;https://doi.org/10.1007/s00421-022-05001-6;18.07.2022;28.06.2022;2750;originalpaper;Research Article;optout
 49;Philipps-Universität Marburg;Ethik in der Medizin;1437-1618;10.1007/s00481-022-00714-w;https://doi.org/10.1007/s00481-022-00714-w;04.08.2022;25.05.2022;2750;originalpaper;Research Article;optin
 50;Philipps-Universität Marburg;Sozial Extra;1863-8953;10.1007/s12054-022-00536-6;https://doi.org/10.1007/s12054-022-00536-6;06.12.2022;13.10.2022;2750;originalpaper;Research Article;optin
 51;Philipps-Universität Marburg;Die Anaesthesiologie;2731-6866;10.1007/s00101-022-01118-7;https://doi.org/10.1007/s00101-022-01118-7;25.04.2022;15.03.2022;2750;reviewpaper;Research Article;optin
@@ -87,5 +83,4 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 86;Philipps-Universität Marburg;World Journal of Urology;1433-8726;10.1007/s00345-022-04017-z;https://doi.org/10.1007/s00345-022-04017-z;29.04.2022;11.04.2022;2750;originalpaper;Research Article;optin
 87;Philipps-Universität Marburg;Forensische Psychiatrie, Psychologie, Kriminologie;1862-7080;10.1007/s11757-022-00710-2;https://doi.org/10.1007/s11757-022-00710-2;14.04.2022;15.03.2022;2750;reviewpaper;Research Article;optin
 88;Philipps-Universität Marburg;Zeitschrift für Literaturwissenschaft und Linguistik;2365-953X;10.1007/s41244-022-00268-w;https://doi.org/10.1007/s41244-022-00268-w;31.10.2022;26.09.2022;917;editorialnotes;Non Research Article;optin
-89;Philipps-Universität Marburg;International Journal on Digital Libraries;1432-1300;10.1007/s00799-022-00337-y;https://doi.org/10.1007/s00799-022-00337-y;10.09.2022;05.07.2022;2750;originalpaper;Research Article;optout
 90;Philipps-Universität Marburg;Die Dermatologie;2731-7013;10.1007/s00105-022-05055-9;https://doi.org/10.1007/s00105-022-05055-9;06.09.2022;17.08.2022;2750;briefcommunication;Research Article;optin
