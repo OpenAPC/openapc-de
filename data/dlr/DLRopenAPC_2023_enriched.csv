@@ -11,7 +11,7 @@
 "DLR",2023,3750,"10.1016/j.ast.2023.108231",TRUE,"Elsevier BV","Aerospace Science and Technology","1270-9638","1270-9638",NA,"1270-9638","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,2480,"10.1016/j.atmosenv.2023.119968",TRUE,"Elsevier BV","Atmospheric Environment","1352-2310","1352-2310",NA,"1352-2310","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,3810,"10.1016/j.cej.2023.146486",TRUE,"Elsevier BV","Chemical Engineering Journal","1385-8947","1385-8947",NA,"1385-8947","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"DLR",2023,3380,"10.1016/j.compfluid.2023.105833",FALSE,"Elsevier BV","Computers & Fluids","0045-7930","0045-7930",NA,"0045-7930","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2023,3380,"10.1016/j.compfluid.2023.105833",TRUE,"Elsevier BV","Computers & Fluids","0045-7930","0045-7930",NA,"0045-7930","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,2390,"10.1016/j.ekir.2023.08.036",FALSE,"Elsevier BV","Kidney International Reports","2468-0249","2468-0249",NA,"2468-0249","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38025218","PMC10658269",NA,NA,TRUE
 "DLR",2023,3510,"10.1016/j.envsci.2023.103553",TRUE,"Elsevier BV","Environmental Science & Policy","1462-9011","1462-9011",NA,"1462-9011","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,2720,"10.1016/j.esr.2023.101156",FALSE,"Elsevier BV","Energy Strategy Reviews","2211-467X","2211-467X",NA,"2211-467X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -30,7 +30,7 @@
 "DLR",2023,2510,"10.1016/j.jechem.2023.07.030",TRUE,"Elsevier BV","Journal of Energy Chemistry","2095-4956","2095-4956",NA,"2095-4956","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,910,"10.1016/j.jesf.2023.10.003",FALSE,"Elsevier BV","Journal of Exercise Science & Fitness","1728-869X","1728-869X",NA,"1728-869X","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37965131","PMC10641229",NA,NA,TRUE
 "DLR",2023,3560,"10.1016/j.jeurceramsoc.2023.04.062",TRUE,"Elsevier BV","Journal of the European Ceramic Society","0955-2219","0955-2219",NA,"0955-2219","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"DLR",2023,1190,"10.1016/j.jmrt.2023.03.080",TRUE,"Elsevier BV","Journal of Materials Research and Technology","2238-7854","2238-7854",NA,"2238-7854","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"DLR",2023,1190,"10.1016/j.jmrt.2023.03.080",FALSE,"Elsevier BV","Journal of Materials Research and Technology","2238-7854","2238-7854",NA,"2238-7854","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2023,2660,"10.1016/j.jnnfm.2023.105133",TRUE,"Elsevier BV","Journal of Non-Newtonian Fluid Mechanics","0377-0257","0377-0257",NA,"0377-0257","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,3490,"10.1016/j.jpowsour.2023.232669",TRUE,"Elsevier BV","Journal of Power Sources","0378-7753","0378-7753",NA,"0378-7753","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,2350,"10.1016/j.jrtpm.2023.100417",TRUE,"Elsevier BV","Journal of Rail Transport Planning & Management","2210-9706","2210-9706",NA,"2210-9706","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -42,8 +42,8 @@
 "DLR",2023,3860,"10.1016/j.ndteint.2023.102885",TRUE,"Elsevier BV","NDT & E International","0963-8695","0963-8695",NA,"0963-8695","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,3920,"10.1016/j.paerosci.2023.100887",TRUE,"Elsevier BV","Progress in Aerospace Sciences","0376-0421","0376-0421",NA,"0376-0421","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,2300,"10.1016/j.physa.2023.128473",TRUE,"Elsevier BV","Physica A: Statistical Mechanics and its Applications","0378-4371","0378-4371",NA,"0378-4371","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"DLR",2023,3380,"10.1016/j.renene.2023.118995",FALSE,"Elsevier BV","Renewable Energy","0960-1481","0960-1481",NA,"0960-1481","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"DLR",2023,2570,"10.1016/j.robot.2023.104367",FALSE,"Elsevier BV","Robotics and Autonomous Systems","0921-8890","0921-8890",NA,"0921-8890","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2023,3380,"10.1016/j.renene.2023.118995",TRUE,"Elsevier BV","Renewable Energy","0960-1481","0960-1481",NA,"0960-1481","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2023,2570,"10.1016/j.robot.2023.104367",TRUE,"Elsevier BV","Robotics and Autonomous Systems","0921-8890","0921-8890",NA,"0921-8890","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,3710,"10.1016/j.rse.2023.113632",TRUE,"Elsevier BV","Remote Sensing of Environment","0034-4257","0034-4257",NA,"0034-4257","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,660,"10.1016/j.softx.2023.101322",FALSE,"Elsevier BV","SoftwareX","2352-7110","2352-7110",NA,"2352-7110","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2023,2890,"10.1016/j.solener.2022.12.016",TRUE,"Elsevier BV","Solar Energy","0038-092X","0038-092X",NA,"0038-092X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -136,7 +136,7 @@
 "DLR",2023,1924.72,"10.1186/s12942-023-00333-8",FALSE,"Springer Nature","International Journal of Health Geographics","1476-072X",NA,"1476-072X","1476-072X","https://creativecommons.org/licenses/by/4.0",TRUE,"37208713","PMC10196305",NA,NA,TRUE
 "DLR",2023,2031.16,"10.1186/s12984-023-01171-2",FALSE,"Springer Nature","Journal of NeuroEngineering and Rehabilitation","1743-0003",NA,"1743-0003","1743-0003","https://creativecommons.org/licenses/by/4.0",TRUE,"37029432","PMC10082541",NA,NA,TRUE
 "DLR",2023,960,"10.1186/s40623-023-01805-8",FALSE,"Springer Nature","Earth, Planets and Space","1880-5981",NA,"1880-5981","1343-8832","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
-"DLR",2023,576.53,"10.1186/s41072-023-00138-9",FALSE,"Springer Nature","Journal of Shipping and Trade","2364-4575",NA,"2364-4575","2364-4575","https://creativecommons.org/licenses/by/4.0",TRUE,NA,"PMC10080506",NA,NA,TRUE
+"DLR",2023,576.53,"10.1186/s41072-023-00138-9",FALSE,"Springer Nature","Journal of shipping and trade","2364-4575",NA,"2364-4575","2364-4575","https://creativecommons.org/licenses/by/4.0",TRUE,NA,"PMC10080506",NA,NA,TRUE
 "DLR",2023,650,"10.12716/1001.17.01.02",FALSE,"Faculty of Navigation","TransNav, the International Journal on Marine Navigation and Safety of Sea Transportation","2083-6473","2083-6473",NA,"2083-6473",NA,TRUE,NA,NA,NA,NA,TRUE
 "DLR",2023,1184,"10.14814/phy2.15739",FALSE,"Wiley-Blackwell","Physiological Reports","2051-817X","2051-817X","2051-817X","2051-817X","http://creativecommons.org/licenses/by/4.0/",TRUE,"37269183","PMC10238920",NA,NA,TRUE
 "DLR",2023,450,"10.22331/q-2023-07-20-1063",FALSE,"Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften","Quantum","2521-327X",NA,"2521-327X","2521-327X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -145,9 +145,9 @@
 "DLR",2023,1947.35,"10.2514/1.d0363",TRUE,"American Institute of Aeronautics and Astronautics (AIAA)","Journal of Air Transportation","2380-9450",NA,"2380-9450","2380-9450",NA,TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,2339.29,"10.2514/1.j063258",TRUE,"American Institute of Aeronautics and Astronautics (AIAA)","AIAA Journal","0001-1452","0001-1452","1533-385X","0001-1452",NA,TRUE,NA,NA,NA,NA,FALSE
 "DLR",2023,1649.41,"10.26077/c2f4-3236",FALSE,"Utah State University","Human-Wildlife Interactions","2155-3874",NA,NA,"2155-3874",NA,FALSE,NA,NA,NA,NA,TRUE
-"DLR",2023,986.49,"10.33012/navi.556",FALSE,"Institute of Navigation","NAVIGATION: Journal of the Institute of Navigation","0028-1522","0028-1522","2161-4296","0028-1522",NA,TRUE,NA,NA,NA,NA,TRUE
-"DLR",2023,1536.18,"10.33012/navi.557",FALSE,"Institute of Navigation","NAVIGATION: Journal of the Institute of Navigation","0028-1522","0028-1522","2161-4296","0028-1522",NA,TRUE,NA,NA,NA,NA,TRUE
-"DLR",2023,1366.56,"10.33012/navi.609",FALSE,"Institute of Navigation","NAVIGATION: Journal of the Institute of Navigation","0028-1522","0028-1522","2161-4296","0028-1522",NA,TRUE,NA,NA,NA,NA,TRUE
+"DLR",2023,986.49,"10.33012/navi.556",FALSE,"Institute of Navigation","Navigation","0028-1522","0028-1522","2161-4296","0028-1522",NA,TRUE,NA,NA,NA,NA,TRUE
+"DLR",2023,1536.18,"10.33012/navi.557",FALSE,"Institute of Navigation","Navigation","0028-1522","0028-1522","2161-4296","0028-1522",NA,TRUE,NA,NA,NA,NA,TRUE
+"DLR",2023,1366.56,"10.33012/navi.609",FALSE,"Institute of Navigation","Navigation","0028-1522","0028-1522","2161-4296","0028-1522",NA,TRUE,NA,NA,NA,NA,TRUE
 "DLR",2023,2600.27,"10.3389/fchem.2023.1291065",FALSE,"Frontiers Media SA","Frontiers in Chemistry","2296-2646",NA,"2296-2646","2296-2646","https://creativecommons.org/licenses/by/4.0/",TRUE,"38033471","PMC10687178",NA,NA,TRUE
 "DLR",2023,994.34,"10.3389/fcomp.2023.1154476",FALSE,"Frontiers Media SA","Frontiers in Computer Science","2624-9898",NA,"2624-9898","2624-9898","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2023,2545.03,"10.3389/fcvm.2023.1250727",FALSE,"Frontiers Media SA","Frontiers in Cardiovascular Medicine","2297-055X",NA,"2297-055X","2297-055X","https://creativecommons.org/licenses/by/4.0/",TRUE,"37953766","PMC10634666",NA,NA,TRUE
