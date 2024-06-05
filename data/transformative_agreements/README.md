@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,212 articles, published at 385 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,239 articles, published at 385 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 102,212 articles, published at 385 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |DEAL Springer Nature Germany                     |     9913|
-|DEAL Wiley Germany                               |     8866|
+|DEAL Wiley Germany                               |     8893|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -226,11 +226,11 @@ This dataset contains information on 102,212 articles, published at 385 institut
 |KIT                                                                                                                                                |      431|
 |University of Leeds                                                                                                                                |      428|
 |VU University Amsterdam                                                                                                                            |      426|
+|DLR                                                                                                                                                |      410|
 |University of Southampton                                                                                                                          |      398|
 |Radboud University Medical Center                                                                                                                  |      397|
 |University of Sheffield                                                                                                                            |      387|
 |PSI - Paul Scherrer Institute                                                                                                                      |      386|
-|DLR                                                                                                                                                |      383|
 |Maastricht University                                                                                                                              |      382|
 |University of Bristol                                                                                                                              |      378|
 |University of Nottingham                                                                                                                           |      377|
