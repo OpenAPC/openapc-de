@@ -791,6 +791,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1752-6981", # The Clinical Respiratory Journal, Gold OA since 2022
     "1387-3954", # Mathematical and Computer Modelling of Dynamical Systems, Gold OA since 2021
     "1949-1034", # Nucleus, Gold OA since 2018
+    "1010-6049", # Geocarto International, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
