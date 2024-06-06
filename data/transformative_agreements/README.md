@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,239 articles, published at 385 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,440 articles, published at 385 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 102,239 articles, published at 385 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |     9913|
-|DEAL Wiley Germany                               |     8893|
+|DEAL Springer Nature Germany                     |    10009|
+|DEAL Wiley Germany                               |     8998|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -183,6 +183,7 @@ This dataset contains information on 102,239 articles, published at 385 institut
 |Tuebingen U                                                                                                                                        |      867|
 |University of Gothenburg                                                                                                                           |      820|
 |University of Eastern Finland                                                                                                                      |      793|
+|TU Berlin                                                                                                                                          |      792|
 |Frankfurt U                                                                                                                                        |      777|
 |Imperial College London                                                                                                                            |      771|
 |University of Galway                                                                                                                               |      723|
@@ -192,7 +193,6 @@ This dataset contains information on 102,239 articles, published at 385 institut
 |King's College London                                                                                                                              |      652|
 |University of Limerick                                                                                                                             |      612|
 |Hannover U und TIB                                                                                                                                 |      603|
-|TU Berlin                                                                                                                                          |      591|
 |KTH Royal Institute of Technology                                                                                                                  |      590|
 |University of Manchester                                                                                                                           |      585|
 |Dublin City University                                                                                                                             |      564|
