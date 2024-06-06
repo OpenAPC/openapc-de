@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,440 articles, published at 385 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,483 articles, published at 386 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 102,440 articles, published at 385 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |DEAL Springer Nature Germany                     |    10009|
-|DEAL Wiley Germany                               |     8998|
+|DEAL Wiley Germany                               |     9041|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -376,6 +376,7 @@ This dataset contains information on 102,440 articles, published at 385 institut
 |Natural History Museum                                                                                                                             |       44|
 |Södertörns University                                                                                                                              |       44|
 |Leeds Beckett University                                                                                                                           |       43|
+|TU Bergakademie Freiberg                                                                                                                           |       43|
 |Forschungsinstitut für biologischen Landbau FiBL                                                                                                   |       40|
 |University of Salford                                                                                                                              |       40|
 |Edge Hill University                                                                                                                               |       39|
