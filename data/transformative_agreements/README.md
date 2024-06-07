@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,483 articles, published at 386 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,481 articles, published at 386 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -36,7 +36,7 @@ This dataset contains information on 102,483 articles, published at 386 institut
 |FinELib Wiley agreement                          |     1640|
 |FinELib Elsevier agreement                       |     1616|
 |IReL Springer Agreement                          |     1132|
-|FinELib Taylor & Francis agreement               |     1043|
+|FinELib Taylor & Francis agreement               |     1041|
 |IReL T&F Agreement                               |     1006|
 |FWF Transformative Agreement Wiley-Blackwell     |      869|
 |CSIC-Wiley                                       |      806|
@@ -170,7 +170,7 @@ This dataset contains information on 102,483 articles, published at 386 institut
 |Aalto University                                                                                                                                   |     1163|
 |Bonn U                                                                                                                                             |     1124|
 |Trinity College Dublin                                                                                                                             |     1116|
-|Tampere University                                                                                                                                 |     1081|
+|Tampere University                                                                                                                                 |     1079|
 |Karolinska Institutet                                                                                                                              |     1061|
 |University of Turku                                                                                                                                |     1054|
 |UCL                                                                                                                                                |     1022|
