@@ -792,6 +792,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1387-3954", # Mathematical and Computer Modelling of Dynamical Systems, Gold OA since 2021
     "1949-1034", # Nucleus, Gold OA since 2018
     "1010-6049", # Geocarto International, Gold OA since 2023
+    "0921-2973", # Landscape Ecology, Gold OA since 2024
+    "1432-1335", # Journal of Cancer Research and Clinical Oncology, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
