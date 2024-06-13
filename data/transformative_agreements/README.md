@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,481 articles, published at 386 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,505 articles, published at 387 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 102,481 articles, published at 386 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    10009|
-|DEAL Wiley Germany                               |     9041|
+|DEAL Springer Nature Germany                     |    10019|
+|DEAL Wiley Germany                               |     9055|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -407,6 +407,7 @@ This dataset contains information on 102,481 articles, published at 386 institut
 |Geological Survey of Finland                                                                                                                       |       26|
 |HS Bielefeld                                                                                                                                       |       26|
 |University of Westminster                                                                                                                          |       25|
+|DESY                                                                                                                                               |       24|
 |Glasgow Caledonian University                                                                                                                      |       24|
 |Medical University of Innsbruck                                                                                                                    |       24|
 |Dalarna University                                                                                                                                 |       22|
