@@ -473,7 +473,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - Université Bordeaux Montaigne
 - Université Claude Bernard - Lyon I
 - Université Clermont Auvergne
-- Université Côte d'Azur - UCA
+- Université Côte d'Azur - UniCA
 - Université Grenoble Alpes
 - Université Gustave Eiffel
 - Université Jean Moulin - Lyon III
