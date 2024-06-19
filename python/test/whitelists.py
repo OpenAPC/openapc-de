@@ -794,6 +794,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1010-6049", # Geocarto International, Gold OA since 2023
     "0921-2973", # Landscape Ecology, Gold OA since 2024
     "1432-1335", # Journal of Cancer Research and Clinical Oncology, Gold OA since 2024
+    "1359-6535", # Antiviral Therapy, Gold OA since 2022
+    "1933-6934", # Fly, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
