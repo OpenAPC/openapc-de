@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,505 articles, published at 387 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,709 articles, published at 388 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 102,505 articles, published at 387 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    10019|
-|DEAL Wiley Germany                               |     9055|
+|DEAL Springer Nature Germany                     |    10131|
+|DEAL Wiley Germany                               |     9147|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -276,6 +276,7 @@ This dataset contains information on 102,505 articles, published at 387 institut
 |WSL - Swiss Federal Institute for Forest, Snow and Landscape Research                                                                              |      209|
 |Tilburg University                                                                                                                                 |      208|
 |University of York                                                                                                                                 |      205|
+|Regensburg U                                                                                                                                       |      204|
 |University of Applied Sciences and Arts Western Switzerland                                                                                        |      203|
 |Graz University of Technology                                                                                                                      |      202|
 |Hamburg TUHH                                                                                                                                       |      200|
