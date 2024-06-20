@@ -27,7 +27,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 26;Universität Regensburg;Politische Vierteljahresschrift;1862-2860;10.1007/s11615-021-00365-4;https://doi.org/10.1007/s11615-021-00365-4;11.01.2022;08.12.2021;2750;originalpaper;Research Article;optin
 27;Universität Regensburg;Unterrichtswissenschaft;2520-873X;10.1007/s42010-022-00157-8;https://doi.org/10.1007/s42010-022-00157-8;05.09.2022;06.08.2022;2750;originalpaper;Research Article;optin
 28;Universität Regensburg;Annales Henri Poincaré;1424-0661;10.1007/s00023-022-01215-8;https://doi.org/10.1007/s00023-022-01215-8;16.09.2022;18.06.2022;2750;originalpaper;Research Article;optin
-29;Universität Regensburg;Analytical and Bioanalytical Chemistry;1618-2650;10.1007/s00216-022-04200-6;https://doi.org/10.1007/s00216-022-04200-6;30.06.2022;23.06.2022;917;editorialnotes;Non Research Article;optout
 30;Universität Regensburg;Monatshefte für Chemie - Chemical Monthly;1434-4475;10.1007/s00706-022-02943-7;https://doi.org/10.1007/s00706-022-02943-7;13.07.2022;06.06.2022;2750;originalpaper;Research Article;optin
 31;Universität Regensburg;Letters in Mathematical Physics;1573-0530;10.1007/s11005-022-01534-1;https://doi.org/10.1007/s11005-022-01534-1;07.04.2022;17.03.2022;2750;originalpaper;Research Article;optin
 32;Universität Regensburg;Pflügers Archiv - European Journal of Physiology;1432-2013;10.1007/s00424-022-02774-9;https://doi.org/10.1007/s00424-022-02774-9;08.12.2022;18.11.2022;2750;originalpaper;Research Article;optin
@@ -41,7 +40,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 40;Universität Regensburg;Zeitschrift für Grundschulforschung;2523-3181;10.1007/s42278-022-00162-x;https://doi.org/10.1007/s42278-022-00162-x;29.12.2022;25.11.2022;2750;originalpaper;Research Article;optin
 41;Universität Regensburg;Phenomenology and the Cognitive Sciences;1572-8676;10.1007/s11097-022-09841-7;https://doi.org/10.1007/s11097-022-09841-7;17.08.2022;27.06.2022;2750;originalpaper;Research Article;optin
 42;Universität Regensburg;European Archives of Oto-Rhino-Laryngology;1434-4726;10.1007/s00405-022-07496-3;https://doi.org/10.1007/s00405-022-07496-3;24.06.2022;07.06.2022;2750;originalpaper;Research Article;optin
-43;Universität Regensburg;Analytical and Bioanalytical Chemistry;1618-2650;10.1007/s00216-022-04140-1;https://doi.org/10.1007/s00216-022-04140-1;01.06.2022;17.05.2022;917;editorialnotes;Non Research Article;optout
 44;Universität Regensburg;Archives of Gynecology and Obstetrics;1432-0711;10.1007/s00404-022-06434-2;https://doi.org/10.1007/s00404-022-06434-2;17.03.2022;02.02.2022;2750;originalpaper;Research Article;optin
 45;Universität Regensburg;OR Spectrum;1436-6304;10.1007/s00291-022-00690-z;https://doi.org/10.1007/s00291-022-00690-z;11.09.2022;18.08.2022;2750;originalpaper;Research Article;optin
 46;Universität Regensburg;Biodiversity and Conservation;1572-9710;10.1007/s10531-022-02518-2;https://doi.org/10.1007/s10531-022-02518-2;30.11.2022;17.11.2022;2750;originalpaper;Research Article;optin
@@ -55,7 +53,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 54;Universität Regensburg;Zeitschrift für Vergleichende Politikwissenschaft;1865-2654;10.1007/s12286-022-00522-y;https://doi.org/10.1007/s12286-022-00522-y;20.04.2022;17.03.2022;2750;originalpaper;Research Article;optin
 55;Universität Regensburg;Archives of Gynecology and Obstetrics;1432-0711;10.1007/s00404-022-06610-4;https://doi.org/10.1007/s00404-022-06610-4;30.05.2022;01.05.2022;2750;originalpaper;Research Article;optin
 56;Universität Regensburg;Mindfulness;1868-8535;10.1007/s12671-022-02039-7;https://doi.org/10.1007/s12671-022-02039-7;22.12.2022;25.11.2022;2750;originalpaper;Research Article;optin
-57;Universität Regensburg;Journal of Psycholinguistic Research;1573-6555;10.1007/s10936-022-09891-7;https://doi.org/10.1007/s10936-022-09891-7;26.05.2022;02.05.2022;2750;originalpaper;Research Article;optout
 58;Universität Regensburg;Geometriae Dedicata;1572-9168;10.1007/s10711-022-00749-9;https://doi.org/10.1007/s10711-022-00749-9;20.12.2022;15.11.2022;2750;originalpaper;Research Article;optin
 59;Universität Regensburg;European Journal of Drug Metabolism and Pharmacokinetics;2107-0180;10.1007/s13318-022-00789-2;https://doi.org/10.1007/s13318-022-00789-2;09.08.2022;17.07.2022;2750;briefcommunication;Research Article;optin
 60;Universität Regensburg;Molecular Psychiatry;1476-5578;10.1038/s41380-022-01481-2;https://doi.org/10.1038/s41380-022-01481-2;25.03.2022;08.02.2022;2750;originalpaper;Research Article;optin
