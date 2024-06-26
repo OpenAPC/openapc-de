@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,709 articles, published at 388 institutions under 120 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,759 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -98,6 +98,8 @@ This dataset contains information on 102,709 articles, published at 388 institut
 |MPG Taylor & Francis agreement                   |       46|
 |Austrian Consortium IOP agreement                |       45|
 |IReL Optica Agreement                            |       37|
+|Crui-CARE ACS Agreement                          |       35|
+|Crui-CARE Springer Agreement                     |       35|
 |EISZ agreement Wiley                             |       35|
 |IReL BMJ Agreement                               |       35|
 |University of Milan - De Gruyter                 |       34|
@@ -112,11 +114,10 @@ This dataset contains information on 102,709 articles, published at 388 institut
 |IReL ACM Agreement                               |       24|
 |Austrian Consortium Emerald agreement            |       23|
 |IReL APA Agreement                               |       21|
-|Crui-CARE ACS Agreement                          |       19|
 |FWF Transformative Agreement Sage                |       17|
 |FinELib Nature Research agreement                |       17|
 |Austrian Consortium Sage agreement               |       16|
-|Crui-CARE Springer Agreement                     |       16|
+|Crui-CARE Wiley Agreement                        |       16|
 |FWF Transformative Agreement IEEE                |       16|
 |FinELib Elsevier Cell Press agreement            |       16|
 |IReL ECS Agreement                               |       14|
@@ -127,12 +128,12 @@ This dataset contains information on 102,709 articles, published at 388 institut
 |Crui-CARE Elsevier Agreement                     |        8|
 |CSIC-Brill                                       |        7|
 |CSIC-Portland Press                              |        7|
-|Crui-CARE Wiley Agreement                        |        7|
+|Crui-CARE CUP Agreement                          |        6|
 |University of Milan - IEEE                       |        6|
 |IReL Company of Biologists Agreement             |        5|
 |IReL CSHL Agreement                              |        4|
 |Crui-CARE AIP Agreement                          |        3|
-|Crui-CARE CUP Agreement                          |        3|
+|Crui-CARE De Gruyter Agreement                   |        3|
 |QNL OVID Agreement                               |        3|
 |Swiss Consortium ACM agreement                   |        3|
 |CSIC-De Gruyter                                  |        2|
@@ -326,6 +327,7 @@ This dataset contains information on 102,709 articles, published at 388 institut
 |Bern University of Applied Sciences                                                                                                                |      107|
 |University of Surrey                                                                                                                               |      107|
 |Graduate Institute of International and Development Studies                                                                                        |      106|
+|Scuola Normale Superiore                                                                                                                           |      106|
 |Augsburg U                                                                                                                                         |      103|
 |Jönköping University                                                                                                                               |      102|
 |Liverpool John Moores University                                                                                                                   |      102|
@@ -365,7 +367,6 @@ This dataset contains information on 102,709 articles, published at 388 institut
 |Aston University                                                                                                                                   |       58|
 |Teagasc                                                                                                                                            |       58|
 |University of Lincoln                                                                                                                              |       57|
-|Scuola Normale Superiore                                                                                                                           |       56|
 |University of the West of England                                                                                                                  |       56|
 |Keele University                                                                                                                                   |       54|
 |University of Klagenfurt                                                                                                                           |       54|
