@@ -1,4 +1,4 @@
-institution period euro,doi,is_hybrid,opt_out
+institution, period, euro,doi,is_hybrid,opt_out
 TU Bergakademie Freiberg,2021,1076,10.1029/2021JB023013,TRUE,FALSE
 TU Bergakademie Freiberg,2021,1076,10.1002/adem.202100641,TRUE,FALSE
 TU Bergakademie Freiberg,2021,1076,10.1002/adem.202100634,TRUE,FALSE
