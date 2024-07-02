@@ -796,6 +796,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1432-1335", # Journal of Cancer Research and Clinical Oncology, Gold OA since 2024
     "1359-6535", # Antiviral Therapy, Gold OA since 2022
     "1933-6934", # Fly, Gold OA since 2022
+    "1931-4361", # Journal of Wine Economics, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
