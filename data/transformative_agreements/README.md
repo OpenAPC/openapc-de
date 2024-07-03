@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,944 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 102,948 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -40,7 +40,7 @@ This dataset contains information on 102,944 articles, published at 388 institut
 |IReL T&F Agreement                               |     1006|
 |FWF Transformative Agreement Wiley-Blackwell     |      869|
 |CSIC-Wiley                                       |      806|
-|Swiss Consortium SAGE agreement                  |      794|
+|Swiss Consortium SAGE agreement                  |      798|
 |FinELib IEEE agreement                           |      705|
 |Swiss Consortium T&F agreement                   |      701|
 |FinELib SAGE agreement                           |      588|
@@ -157,14 +157,14 @@ This dataset contains information on 102,944 articles, published at 388 institut
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |ETH Zurich                                                                                                                                         |     3136|
 |University of Helsinki                                                                                                                             |     3028|
-|University of Zurich                                                                                                                               |     2937|
+|University of Zurich                                                                                                                               |     2940|
 |TU Muenchen                                                                                                                                        |     1974|
 |Muenchen LMU                                                                                                                                       |     1801|
 |University of Bern                                                                                                                                 |     1697|
 |University of Geneva                                                                                                                               |     1670|
 |University College Dublin                                                                                                                          |     1497|
 |University of Lausanne                                                                                                                             |     1378|
-|University of Basel                                                                                                                                |     1319|
+|University of Basel                                                                                                                                |     1320|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1213|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1207|
 |Lund University                                                                                                                                    |     1177|
