@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 103,267 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 103,269 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -61,7 +61,7 @@ This dataset contains information on 103,267 articles, published at 388 institut
 |Austrian Consortium T&F agreement                |      353|
 |IReL ACS Agreement                               |      345|
 |IReL OUP Agreement                               |      335|
-|Swiss Consortium IOP agreement                   |      329|
+|Swiss Consortium IOP agreement                   |      331|
 |IReL CUP Agreement                               |      328|
 |FWF Transformative Agreement T&F                 |      306|
 |CSIC-Oxford University Press                     |      276|
@@ -155,13 +155,13 @@ This dataset contains information on 103,267 articles, published at 388 institut
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4421|
 |French institutions                                                                                                                                |     3654|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
-|ETH Zurich                                                                                                                                         |     3136|
+|ETH Zurich                                                                                                                                         |     3137|
 |University of Helsinki                                                                                                                             |     3028|
 |University of Zurich                                                                                                                               |     2940|
 |TU Muenchen                                                                                                                                        |     1974|
 |Muenchen LMU                                                                                                                                       |     1801|
 |University of Bern                                                                                                                                 |     1697|
-|University of Geneva                                                                                                                               |     1670|
+|University of Geneva                                                                                                                               |     1671|
 |University College Dublin                                                                                                                          |     1497|
 |University of Lausanne                                                                                                                             |     1378|
 |University of Basel                                                                                                                                |     1320|
