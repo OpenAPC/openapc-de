@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 102,948 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 103,267 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 102,948 articles, published at 388 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    10131|
-|DEAL Wiley Germany                               |     9147|
+|DEAL Springer Nature Germany                     |    10258|
+|DEAL Wiley Germany                               |     9339|
 |Swiss Consortium Elsevier agreement              |     7927|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Springer Compact agreement      |     3583|
@@ -239,6 +239,7 @@ This dataset contains information on 102,948 articles, published at 388 institut
 |University Medical Center Utrecht                                                                                                                  |      375|
 |VU University Medical Center (VUmc)                                                                                                                |      363|
 |Goettingen U                                                                                                                                       |      362|
+|TU Bergakademie Freiberg                                                                                                                           |      362|
 |HU Berlin                                                                                                                                          |      360|
 |Koeln U                                                                                                                                            |      359|
 |University of Birmingham                                                                                                                           |      355|
@@ -378,7 +379,6 @@ This dataset contains information on 102,948 articles, published at 388 institut
 |Natural History Museum                                                                                                                             |       44|
 |Södertörns University                                                                                                                              |       44|
 |Leeds Beckett University                                                                                                                           |       43|
-|TU Bergakademie Freiberg                                                                                                                           |       43|
 |Forschungsinstitut für biologischen Landbau FiBL                                                                                                   |       40|
 |University of Salford                                                                                                                              |       40|
 |Edge Hill University                                                                                                                               |       39|
