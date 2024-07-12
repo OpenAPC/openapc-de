@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 103,269 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 103,387 articles, published at 388 institutions under 121 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -70,6 +70,7 @@ This dataset contains information on 103,269 articles, published at 388 institut
 |University of Milan - Wiley                      |      196|
 |QNL Elsevier Agreement                           |      194|
 |Swiss Consortium AIP agreement                   |      191|
+|Swiss Consortium Ovid LWW agreement              |      189|
 |Austrian Consortium RSC agreement                |      179|
 |Swiss Consortium Karger agreement                |      174|
 |FWF Transformative Agreement IOP                 |      172|
@@ -87,7 +88,6 @@ This dataset contains information on 103,269 articles, published at 388 institut
 |QNL T&F Agreement                                |       85|
 |FinELib Wolters Kluwer Lippincott agreement      |       81|
 |EISZ agreement Springer Nature                   |       79|
-|Swiss Consortium Ovid LWW agreement              |       71|
 |IReL IOP Agreement                               |       70|
 |EISZ agreement Elsevier                          |       64|
 |IReL AIP Agreement                               |       61|
@@ -157,14 +157,14 @@ This dataset contains information on 103,269 articles, published at 388 institut
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |ETH Zurich                                                                                                                                         |     3137|
 |University of Helsinki                                                                                                                             |     3028|
-|University of Zurich                                                                                                                               |     2940|
+|University of Zurich                                                                                                                               |     2976|
 |TU Muenchen                                                                                                                                        |     1974|
 |Muenchen LMU                                                                                                                                       |     1801|
-|University of Bern                                                                                                                                 |     1697|
-|University of Geneva                                                                                                                               |     1671|
+|University of Bern                                                                                                                                 |     1722|
+|University of Geneva                                                                                                                               |     1694|
 |University College Dublin                                                                                                                          |     1497|
-|University of Lausanne                                                                                                                             |     1378|
-|University of Basel                                                                                                                                |     1320|
+|University of Lausanne                                                                                                                             |     1395|
+|University of Basel                                                                                                                                |     1337|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1213|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1207|
 |Lund University                                                                                                                                    |     1177|
