@@ -161,7 +161,7 @@ JOURNAL_OWNER_CHANGED = {
     "1573-1936": ["Informa UK Limited", "Springer Nature"], # Tertiary Education and Management (electronic)
     "1559-8608": ["Informa UK Limited", "Springer Nature"], # Journal of Statistical Theory and Practice
     "1559-8616": ["Informa UK Limited", "Springer Nature"], # Journal of Statistical Theory and Practice (electronic)
-    "2199-8531": ["Springer Nature", "MDPI AG"], # Journal of Open Innovation: Technology, Market, and Complexity
+    "2199-8531": ["Springer Nature", "MDPI AG", "Elsevier BV"], # Journal of Open Innovation: Technology, Market, and Complexity
     "1939-4551": ["Springer Nature", "Elsevier BV"], # World Allergy Organization Journal
     "1015-8987": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry
     "1421-9778": ["S. Karger AG", "Cell Physiol Biochem Press GmbH and Co KG"], # Cellular Physiology and Biochemistry (electronic)
@@ -473,6 +473,14 @@ JOURNAL_OWNER_CHANGED = {
 	"1747-079X": ["Wiley-Blackwell", "Computers, Materials and Continua (Tech Science Press)"], # Congenital Heart Disease 
 	"1747-0803": ["Wiley-Blackwell", "Computers, Materials and Continua (Tech Science Press)"], # Congenital Heart Disease (electronic)
 	"2043-7897": ["Informa UK Limited", "Bristol University Press"], # Global Discourse 
+	"2475-0379": ["Wiley-Blackwell", "Elsevier BV"], # Research and Practice in Thrombosis and Haemostasis
+	"1279-7707": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # The Journal of nutrition, health & aging
+	"2474-8706": ["Informa UK Limited", "Elsevier BV"], # Structural Heart 
+	"0362-028X": ["International Association for Food Protection", "Elsevier BV"], # Journal of Food Protection 
+	"1532-429X": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance
+	"1097-6647": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance (linking)
+	"1355-8145": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Cell Stress and Chaperones
+	"1071-3581": ["Springer Nature", "Elsevier BV"], # Journal of Nuclear Cardiology 
 
 }
 
@@ -797,6 +805,13 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1359-6535", # Antiviral Therapy, Gold OA since 2022
     "1933-6934", # Fly, Gold OA since 2022
     "1931-4361", # Journal of Wine Economics, Gold OA since 2023
+    "2212-9820", # Journal of CO2 Utilization, Gold OA since 2023
+    "1279-7707", # The Journal of nutrition, health & aging, Gold OA since 2024
+    "1574-9541", # Ecological Informatics, Gold OA since 2024
+    "2474-8706", # Structural Heart, Gold OA since 2022
+    "2161-8313", # Advances in Nutrition, Gold OA since 2023
+    "0362-028X", # Journal of Food Protection, Gold OA since 2023
+    "1355-8145", # Cell Stress and Chaperones, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
