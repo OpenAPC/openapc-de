@@ -481,6 +481,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1097-6647": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance (linking)
 	"1355-8145": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Cell Stress and Chaperones
 	"1071-3581": ["Springer Nature", "Elsevier BV"], # Journal of Nuclear Cardiology 
+	"1745-4549": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation 
+	"0145-8892": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation (print)
+	"1538-7836": ["Wiley-Blackwell", "Elsevier BV"], # Journal of Thrombosis and Haemostasis
 
 }
 
@@ -812,6 +815,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2161-8313", # Advances in Nutrition, Gold OA since 2023
     "0362-028X", # Journal of Food Protection, Gold OA since 2023
     "1355-8145", # Cell Stress and Chaperones, Gold OA since 2024
+    "1745-4549", # Journal of Food Processing and Preservation, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
