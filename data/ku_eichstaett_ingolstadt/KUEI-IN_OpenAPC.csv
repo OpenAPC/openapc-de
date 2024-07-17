@@ -1,8 +1,4 @@
-APC (Journal articles);;;;;;;;
-;;;;;;;;
-;;;;;;;;
-;;;;;;;;
-institution;period               ;euro;doi;is_hybrid;publisher;journal_full_title;issn;url
+institution;period;euro;doi;is_hybrid;publisher;journal_full_title;issn;url
 Catholic University of Eichstätt-Ingolstadt;2022;1725.50;10.1080/20008198.2022.2079873;FALSE;;;;
 Catholic University of Eichstätt-Ingolstadt;2022;1297.10;10.1080/2331186X.2022.2084957;FALSE;;;;
 Catholic University of Eichstätt-Ingolstadt;2022;423.60;10.3390/jrfm15070298;FALSE;;;;
@@ -15,8 +11,7 @@ Catholic University of Eichstätt-Ingolstadt;2022;2310.62;10.3390/ijerph192013242
 Catholic University of Eichstätt-Ingolstadt;2022;2415.43;10.3390/atmos13122007;FALSE;;;;
 Catholic University of Eichstätt-Ingolstadt;2022;2713.20;10.1016/j.ecolind.2022.109685;FALSE;;;;
 Catholic University of Eichstätt-Ingolstadt;2022;3737.83;10.3389/fpubh.2022.1020007;FALSE;;;;
-Catholic University of Eichstätt-Ingolstadt;2022;900.22;"10.1162/qss_a_00163
-";FALSE;;;;
+Catholic University of Eichstätt-Ingolstadt;2022;900.22;"10.1162/qss_a_00163";FALSE;;;;
 Catholic University of Eichstätt-Ingolstadt;2022;821.10;10.1127/jgeomorphology/2022/0755;FALSE;;;;
 Catholic University of Eichstätt-Ingolstadt;2022;2339.97;10.3390/su141710469;FALSE;;;;
 Catholic University of Eichstätt-Ingolstadt;2022;3248.70;10.1080/21670811.2022.2128389;FALSE;;;;
