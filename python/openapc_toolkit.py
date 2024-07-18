@@ -327,13 +327,16 @@ class EZBSrcaping(object):
     """
 
     EZB_SEARCH_URL = ("https://ezb.uni-regensburg.de/searchres.phtml?" +
-                      "bibid=AAAAA&colors=7&lang=de&jq_type1=QS&jq_term1=")
+                      "bibid=AAAAA&colors=7&lang=de&jq_type1=QS&")
     EZB_ID_URL = ('https://ezb.uni-regensburg.de/detail.phtml?')
 
-    JOURNAL_PAGE_INDICATOR = re.compile(r'<h1\s+class="detail_heading"\s*>')
-    JOURNAL_ACCESS = re.compile(r'<h1\s+class="detail_heading"\s*>\s*<div\s+class="filter-container-mid"\s+title="(?P<access_msg>.*?)">\s*<span\s+class="filter-light\s+(?P<green>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<yellow>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<red>.*?)"\s*>')
+    JOURNAL_PAGE_INDICATOR = re.compile(r'<h1\s+class="detail_heading".*?>')
+    #JOURNAL_ACCESS = re.compile(r'<h1\s+class="detail_heading"\s*>\s*<div\s+class="filter-container-mid"\s+title="(?P<access_msg>.*?)">\s*<span\s+class="filter-light\s+(?P<green>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<yellow>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<red>.*?)"\s*>')
+    JOURNAL_ACCESS = re.compile(r'<div\s+class="filter-container-mid leftfloat"\s+title="(?P<access_msg>.*?)".*?>\s*<span\s+class="filter-light\s+(?P<green>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<yellow>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<red>.*?)"\s*>')
     JOURNAL_TITLE = re.compile(r'<dd\s+id="title"\s+class="defListContentDefinition"\s*>\s*(?P<title>.*?)\s*</dd\s*>')
     JOURNAL_REMARKS = re.compile(r'<dt\s+class="defListContentTitle"\s*>\s*Bemerkung:\s*</dt\s*>\s*<dd\s+class="defListContentDefinition"\s*>\s*(?P<remarks>.*?)\s*</dd\s*>')
+    JOURNAL_CATEGORY_LABELS = re.compile(r"<span\s+class='label\s+label-usercolor'\s+role='button'\s+tabindex='\d'\s+aria-describedby='apcDesc'\s*>(?P<category>.*?)</span>")
+    DOAJ_LINK = re.compile(r'<a\s+href="(?P<doaj_link>.*?)"\s+title=".*?"\s+target="_blank">\s*DOAJ\s*</a>')
 
     RESULT_LINKS = re.compile(r'<a\s+href="warpto.phtml\?(?P<url_params>.*?)"\s+title="Direktlink zur Zeitschrift"\s*>')
 
@@ -343,7 +346,9 @@ class EZBSrcaping(object):
             "access_msg" : None,
             "access_color": None,
             "title": None,
-            "remarks": None
+            "remarks": None,
+            "categories": [],
+            "doaj_link": None
         }
         access_mo = re.search(self.JOURNAL_ACCESS, content)
         if access_mo:
@@ -369,6 +374,13 @@ class EZBSrcaping(object):
             res["remarks"] = remarks_dict["remarks"]
         else:
             res["errors"].append("Could not scrap journal remarks information (RE 'JOURNAL_REMARKS' did not find anything)")
+        categories = re.findall(self.JOURNAL_CATEGORY_LABELS, content)
+        if categories:
+            res["categories"] = categories
+        doaj_link_mo = re.search(self.DOAJ_LINK, content)
+        if doaj_link_mo:
+            doaj_link_dict = doaj_link_mo.groupdict()
+            res["doaj_link"] = doaj_link_dict["doaj_link"]
         return res
 
     def _request_ezb_page(self, url):
@@ -388,9 +400,9 @@ class EZBSrcaping(object):
             ret_value['error_msg'] = "URLError: {}".format(urle.reason)
         return ret_value
 
-    def get_ezb_info(self, issn):
+    def get_ezb_info(self, search_term):
         ret_value = {"success": True, "data": []}
-        url = self.EZB_SEARCH_URL + issn
+        url = self.EZB_SEARCH_URL + urlencode({"jq_term1": search_term})
         answer = self._request_ezb_page(url)
         if not answer['success']:
             return answer
