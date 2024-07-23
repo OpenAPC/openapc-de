@@ -484,6 +484,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1745-4549": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation 
 	"0145-8892": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation (print)
 	"1538-7836": ["Wiley-Blackwell", "Elsevier BV"], # Journal of Thrombosis and Haemostasis
+	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
 
 }
 
