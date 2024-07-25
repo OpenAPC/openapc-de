@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 107,937 articles, published at 388 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 107,939 articles, published at 389 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 107,937 articles, published at 388 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|Swiss Consortium Elsevier agreement              |    10991|
+|Swiss Consortium Elsevier agreement              |    10993|
 |DEAL Springer Nature Germany                     |    10258|
 |DEAL Wiley Germany                               |     9339|
 |Swiss Consortium Springer Compact agreement      |     4991|
@@ -159,12 +159,12 @@ This dataset contains information on 107,937 articles, published at 388 institut
 |French institutions                                                                                                                                |     3654|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |University of Helsinki                                                                                                                             |     3028|
-|University of Bern                                                                                                                                 |     2208|
+|University of Bern                                                                                                                                 |     2204|
 |University of Geneva                                                                                                                               |     2099|
 |TU Muenchen                                                                                                                                        |     1974|
 |Muenchen LMU                                                                                                                                       |     1801|
 |University of Lausanne                                                                                                                             |     1768|
-|University of Basel                                                                                                                                |     1700|
+|University of Basel                                                                                                                                |     1702|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1549|
 |University College Dublin                                                                                                                          |     1497|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1213|
@@ -487,6 +487,7 @@ This dataset contains information on 107,937 articles, published at 388 institut
 |Research Institute of Molecular Pathology - IMP                                                                                                    |        4|
 |TH Wildau                                                                                                                                          |        4|
 |Turku University of Applied Sciences                                                                                                               |        4|
+|University Psychiatric Services Bern                                                                                                               |        4|
 |University of Applied Sciences in Business Administration Zurich                                                                                   |        4|
 |University of Teacher Education Zug                                                                                                                |        4|
 |Carinthia University of Applied Sciences (CUAS)                                                                                                    |        3|
