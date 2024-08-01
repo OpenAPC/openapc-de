@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 107,939 articles, published at 389 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 108,064 articles, published at 389 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 107,939 articles, published at 389 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10258|
-|DEAL Wiley Germany                               |     9339|
+|DEAL Springer Nature Germany                     |    10313|
+|DEAL Wiley Germany                               |     9409|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -198,6 +198,7 @@ This dataset contains information on 107,939 articles, published at 389 institut
 |Hannover U und TIB                                                                                                                                 |      603|
 |KTH Royal Institute of Technology                                                                                                                  |      590|
 |University of Manchester                                                                                                                           |      585|
+|Hohenheim U                                                                                                                                        |      567|
 |Dublin City University                                                                                                                             |      564|
 |Stockholm University                                                                                                                               |      559|
 |RWTH Aachen                                                                                                                                        |      553|
@@ -223,7 +224,6 @@ This dataset contains information on 107,939 articles, published at 389 institut
 |Academic Medical Center (AMC)                                                                                                                      |      447|
 |TU Darmstadt                                                                                                                                       |      445|
 |University of Fribourg                                                                                                                             |      444|
-|Hohenheim U                                                                                                                                        |      442|
 |Erlangen Nuernberg U                                                                                                                               |      439|
 |University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
 |Greifswald U                                                                                                                                       |      431|
