@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 108,064 articles, published at 389 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 108,688 articles, published at 389 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 108,064 articles, published at 389 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10313|
-|DEAL Wiley Germany                               |     9409|
+|DEAL Springer Nature Germany                     |    10653|
+|DEAL Wiley Germany                               |     9693|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Wiley agreement                 |     2036|
@@ -159,9 +159,9 @@ This dataset contains information on 108,064 articles, published at 389 institut
 |French institutions                                                                                                                                |     3654|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |University of Helsinki                                                                                                                             |     3028|
+|TU Muenchen                                                                                                                                        |     2598|
 |University of Bern                                                                                                                                 |     2204|
 |University of Geneva                                                                                                                               |     2099|
-|TU Muenchen                                                                                                                                        |     1974|
 |Muenchen LMU                                                                                                                                       |     1801|
 |University of Lausanne                                                                                                                             |     1768|
 |University of Basel                                                                                                                                |     1702|

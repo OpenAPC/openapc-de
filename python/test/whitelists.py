@@ -485,7 +485,8 @@ JOURNAL_OWNER_CHANGED = {
 	"0145-8892": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation (print)
 	"1538-7836": ["Wiley-Blackwell", "Elsevier BV"], # Journal of Thrombosis and Haemostasis
 	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
-
+    "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
+    "1433-7347": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
