@@ -818,6 +818,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0362-028X", # Journal of Food Protection, Gold OA since 2023
     "1355-8145", # Cell Stress and Chaperones, Gold OA since 2024
     "1745-4549", # Journal of Food Processing and Preservation, Gold OA since 2023
+    "1868-503X", # Biomolecular Concepts, Gold OA since 2018
+    "0953-7104", # Platelets, Gold OA since 2023
+    "1933-6918", # Cell Adhesion & Migration, Gold OA since 2019
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
