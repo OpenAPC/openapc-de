@@ -49,6 +49,8 @@ EXCEPTIONS_SUBDIRS = [
     "../data/offsetting",
     "../data/journalsociology",
     "../data/template",
+    "../data/opencost_oapk",
+    "../data/wellcome" # Excluded for performance reasons. Wellcome files have a lot of missing records due to deduplication with JISC.
 ]
 
 
@@ -145,29 +147,30 @@ def main():
             match = ENRICHED_RE.match(filename)
             if match:
                 # check preprocessed files first
-                orig_filenames = [match["name"] + "_preprocessed.csv", match["name"] + ".csv"]
+                orig_candidates = [match["name"] + "_preprocessed.csv", match["name"] + ".csv"]
                 match_found = False
-                for orig_filename in orig_filenames:
-                    if orig_filename in files_left:
-                        orig_path = os.path.join(path, orig_filename)
-                        if match_found:
-                            # if a preprocessed version already matched, also delete the original file
-                            files_left.remove(orig_filename)
-                            continue
-                        enriched_path = os.path.join(path, filename)
-                        try:
-                            msg = "Working on file pair '{}' <-> '{}' ..."
-                            oat.print_b(msg.format(orig_path, enriched_path))
-                            results = discover_non_article_data(orig_path, enriched_path)
-                            results_in_dir += results
-                            for r in results:
-                                oat.print_g(", ".join(r))
-                            files_left.remove(orig_filename)
-                            files_left.remove(filename)
-                            match_found = True
-                        except ValueError as ve:
-                            print(ve)
-                        pairs_found += 1
+                for candidate in orig_candidates:
+                    for leftover_filename in files_left:
+                        if leftover_filename.lower() == candidate.lower(): # Some files have a ".CSV" suffix
+                            orig_path = os.path.join(path, leftover_filename)
+                            if match_found:
+                                # if a preprocessed version already matched, also delete the original file
+                                files_left.remove(leftover_filename)
+                                continue
+                            enriched_path = os.path.join(path, filename)
+                            try:
+                                msg = "Working on file pair '{}' <-> '{}' ..."
+                                oat.print_b(msg.format(orig_path, enriched_path))
+                                results = discover_non_article_data(orig_path, enriched_path)
+                                results_in_dir += results
+                                for r in results:
+                                    oat.print_g(", ".join(r))
+                                files_left.remove(leftover_filename)
+                                files_left.remove(filename)
+                                match_found = True
+                            except ValueError as ve:
+                                print(ve)
+                            pairs_found += 1
                 if not match_found:    
                     oat.print_r("ERROR: Could not find a corresponding original for enriched file '" + filename + "'")
                     oat.print_r("Candidates were: " + ", ".join(tup[2]))
