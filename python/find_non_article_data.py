@@ -50,7 +50,8 @@ EXCEPTIONS_SUBDIRS = [
     "../data/journalsociology",
     "../data/template",
     "../data/opencost_oapk",
-    "../data/wellcome" # Excluded for performance reasons. Wellcome files have a lot of missing records due to deduplication with JISC.
+    "../data/wellcome", # Excluded for performance reasons. Wellcome files have a lot of missing records due to deduplication with JISC.
+    "../data/norwegian_apc_funds",
 ]
 
 
