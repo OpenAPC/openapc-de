@@ -821,6 +821,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1868-503X", # Biomolecular Concepts, Gold OA since 2018
     "0953-7104", # Platelets, Gold OA since 2023
     "1933-6918", # Cell Adhesion & Migration, Gold OA since 2019
+    "1355-6215", # Addiction Biology, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
