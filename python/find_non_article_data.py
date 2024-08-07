@@ -125,10 +125,13 @@ def main():
             continue
         excluded = False
         for exc in EXCEPTIONS_SUBDIRS:
-            if Path(path).is_relative_to(Path(exc)):
+            try:
+                Path(path).relative_to(Path(exc))
                 oat.print_c("Directory '" + path + "' is excluded (Rule: '" + exc + "'), skipping...")
                 excluded = True
                 break
+            except ValueError:
+                pass
         if excluded:
             continue
         files_left = list(tup[2])
