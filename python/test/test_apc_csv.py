@@ -5,6 +5,8 @@ from csv import DictReader
 from os.path import dirname, join
 from sys import path
 
+from sortedcontainers import SortedList
+
 APC_DATA = []
 BPC_DATA = []
 
@@ -96,8 +98,8 @@ def _get_isbn_group_publisher(isbn):
         return key
     return None
 
-global_doi_list = []
-global_isbn_list = []
+global_doi_list = SortedList()
+global_isbn_list = SortedList()
 
 known_doi_duplicates = []
 known_isbn_duplicates = []
@@ -121,7 +123,7 @@ for data_file, metadata in DATA_FILES.items():
             for field in metadata["unused_fields"]:
                 del(row[field])
             metadata["target_file"].append(RowObject(metadata["file_path"], line, row, data_file))
-            global_doi_list.append(row["doi"])
+            global_doi_list.add(row["doi"])
 
             if metadata["has_issn"]:
                 reduced_row = {}
@@ -168,7 +170,8 @@ for data_file, metadata in DATA_FILES.items():
                     # clear row-internal duplicates
                     if oat.has_value(isbn) and isbn not in isbn_list and isbn not in wl.NON_DUPLICATE_ISBNS:
                         isbn_list.append(isbn)
-                global_isbn_list += isbn_list
+                for entry in isbn_list:
+                    global_isbn_list.add(entry)
             line += 1
 
 for _, file_dict in KNOWN_DUPLICATES.items():
