@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 109,794 articles, published at 389 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 109,796 articles, published at 389 institutions under 123 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -138,6 +138,7 @@ This dataset contains information on 109,794 articles, published at 389 institut
 |QNL OVID Agreement                               |        3|
 |Swiss Consortium ACM agreement                   |        3|
 |CSIC-De Gruyter                                  |        2|
+|Crui-CARE IOP Agreement                          |        2|
 |EISZ agreement Cambridge University Press        |        2|
 |QNL De Gruyter Agreement                         |        2|
 |University of Milan - Lippincott                 |        2|
@@ -330,8 +331,8 @@ This dataset contains information on 109,794 articles, published at 389 institut
 |University of Dundee                                                                                                                               |      115|
 |GFZ-Potsdam                                                                                                                                        |      112|
 |Northumbria University                                                                                                                             |      109|
+|Scuola Normale Superiore                                                                                                                           |      107|
 |University of Surrey                                                                                                                               |      107|
-|Scuola Normale Superiore                                                                                                                           |      105|
 |Augsburg U                                                                                                                                         |      103|
 |Jönköping University                                                                                                                               |      102|
 |Liverpool John Moores University                                                                                                                   |      102|
