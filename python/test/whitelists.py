@@ -487,6 +487,10 @@ JOURNAL_OWNER_CHANGED = {
 	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
     "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
     "1433-7347": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy (electronic)
+    "2197-1153": ["Springer Nature", "Wiley-Blackwell"], # Journal of Experimental Orthopaedics
+    "1460-2075": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # The EMBO Journal 
+	"0261-4189": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # The EMBO Journal (linking)
+
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -824,6 +828,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1355-6215", # Addiction Biology, Gold OA since 2024
     "1351-5101", # European Journal of Neurology, Gold OA since 2024
     "1552-5260", # Alzheimer's & Dementia, Gold OA since 2024
+    "1460-2075", # The EMBO Journal, Gold OA since 2024
+    "0261-4189", # The EMBO Journal, Gold OA since 2024 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
