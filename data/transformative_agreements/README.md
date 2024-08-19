@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 109,796 articles, published at 389 institutions under 123 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 109,800 articles, published at 389 institutions under 123 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 109,796 articles, published at 389 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10653|
-|DEAL Wiley Germany                               |     9693|
+|DEAL Springer Nature Germany                     |    10654|
+|DEAL Wiley Germany                               |     9696|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Wiley agreement                 |     3142|
@@ -419,6 +419,7 @@ This dataset contains information on 109,796 articles, published at 389 institut
 |Glasgow Caledonian University                                                                                                                      |       24|
 |Medical University of Innsbruck                                                                                                                    |       24|
 |Dalarna University                                                                                                                                 |       22|
+|Fachhochschule Südwestfalen                                                                                                                        |       21|
 |London South Bank University                                                                                                                       |       20|
 |Stockholm School of Economics                                                                                                                      |       20|
 |Cardiff Metropolitan University                                                                                                                    |       19|
@@ -430,7 +431,6 @@ This dataset contains information on 109,796 articles, published at 389 institut
 |University of Bedfordshire                                                                                                                         |       18|
 |Aachen FH                                                                                                                                          |       17|
 |Edinburgh Napier University                                                                                                                        |       17|
-|Fachhochschule Südwestfalen                                                                                                                        |       17|
 |Finnish Meteorological Institute                                                                                                                   |       17|
 |Pädagogische Hochschule Zürich                                                                                                                     |       17|
 |Danube University Krems University for Continuing Education                                                                                        |       16|
