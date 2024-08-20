@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 109,800 articles, published at 389 institutions under 123 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 109,801 articles, published at 389 institutions under 123 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -70,7 +70,7 @@ This dataset contains information on 109,800 articles, published at 389 institut
 |University of Milan - Wiley                      |      196|
 |QNL Elsevier Agreement                           |      194|
 |Swiss Consortium AIP agreement                   |      191|
-|Swiss Consortium Ovid LWW agreement              |      189|
+|Swiss Consortium Ovid LWW agreement              |      190|
 |Austrian Consortium RSC agreement                |      179|
 |Swiss Consortium Karger agreement                |      174|
 |FWF Transformative Agreement IOP                 |      172|
@@ -162,7 +162,7 @@ This dataset contains information on 109,800 articles, published at 389 institut
 |University of Helsinki                                                                                                                             |     3028|
 |TU Muenchen                                                                                                                                        |     2598|
 |University of Bern                                                                                                                                 |     2347|
-|University of Geneva                                                                                                                               |     2180|
+|University of Geneva                                                                                                                               |     2181|
 |University of Lausanne                                                                                                                             |     1861|
 |Muenchen LMU                                                                                                                                       |     1801|
 |University of Basel                                                                                                                                |     1796|
