@@ -4,6 +4,7 @@ from pytest import fail
 from csv import DictReader
 from os.path import dirname, join
 from sys import path
+from urllib.parse import urlparse
 
 from sortedcontainers import SortedList
 
@@ -17,7 +18,8 @@ DATA_FILES = {
         "target_file": APC_DATA,
         "row_length": 18,
         "has_issn": True,
-        "has_isbn": False
+        "has_isbn": False,
+        "has_url": True,
     },
     "ta": {
         "file_path": "data/transformative_agreements/transformative_agreements.csv",
@@ -25,7 +27,8 @@ DATA_FILES = {
         "target_file": APC_DATA,
         "row_length": 19,
         "has_issn": True,
-        "has_isbn": False
+        "has_isbn": False,
+        "has_url": True,
     },
     "bpc": {
         "file_path": "data/bpc.csv",
@@ -33,7 +36,8 @@ DATA_FILES = {
         "target_file": BPC_DATA,
         "row_length": 13,
         "has_issn": False,
-        "has_isbn": True
+        "has_isbn": True,
+        "has_url": False,
     }
 }
 
@@ -97,12 +101,17 @@ def _get_isbn_group_publisher(isbn):
         key = ("-").join(group_and_publisher)
         return key
     return None
+    
+def _normalize_url(url_string):
+    parsed_url = urlparse(url_string.lower())
+    stripped_url = parsed_url.netloc + parsed_url.path
+    if parsed_url.query:
+        stripped_url += "?" + parsed_url.query
+    return stripped_url
 
 global_doi_list = SortedList()
 global_isbn_list = SortedList()
-
-known_doi_duplicates = []
-known_isbn_duplicates = []
+global_url_list = SortedList()
 
 issn_dict = {}
 issn_p_dict = {}
@@ -124,7 +133,8 @@ for data_file, metadata in DATA_FILES.items():
                 del(row[field])
             metadata["target_file"].append(RowObject(metadata["file_path"], line, row, data_file))
             global_doi_list.add(row["doi"])
-
+            if metadata["has_url"] and oat.has_value(row["url"]):
+                global_url_list.add(_normalize_url(row["url"]))
             if metadata["has_issn"]:
                 reduced_row = {}
                 for field in ISSN_DICT_FIELDS:
@@ -334,6 +344,19 @@ def check_for_doi_duplicates(row_object):
                     msg = 'DOI "{}" is listed in {} and should not appear in {}'
                     msg = msg.format(doi, dup_file_name, DATA_FILES[row_object.origin]["file_path"])
                     fail(line_str + msg)
+                    
+def check_for_url_duplicates(row_object):
+    __tracebackhide__ = True
+    url = row_object.row["url"]
+    if url and url != "NA":
+        line_str = '{}, line {}: '.format(row_object.file_name,
+                                          row_object.line_number)
+        norm_url = _normalize_url(url)
+        global_url_list.remove(norm_url)
+        if norm_url in global_url_list:
+            norm_string = " (Original form: '" + url + "')" if norm_url != url else ""
+            fail(line_str + 'Duplicate: Normalized URL "' + norm_url + '" was ' +
+                        'encountered more than one time' + norm_string)
 
 def check_for_isbn_duplicates(row_object):
     __tracebackhide__ = True
@@ -492,6 +515,7 @@ if __name__ == '__main__':
         check_issns(row_object)
         check_hybrid_status(row_object)
         check_for_doi_duplicates(row_object)
+        check_for_url_duplicates(row_object)
         check_name_consistency(row_object)
         check_ta_data(row_object)
     oat.print_b(str(len(BPC_DATA)) + " BPC records collected, starting tests...")
