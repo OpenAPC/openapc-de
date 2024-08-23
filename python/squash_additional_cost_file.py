@@ -10,7 +10,7 @@ import re
 
 from shutil import move
 
-EMPTY_LINE_RE = re.compile(r'^".*?",NA,NA,NA,NA,NA,NA,NA,NA$')
+EMPTY_LINE_RE = re.compile(r'^(".*?"|NA),NA,NA,NA,NA,NA,NA,NA,NA$')
 
 def main():
     parser = argparse.ArgumentParser()

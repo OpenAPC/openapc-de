@@ -2119,10 +2119,10 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
     if additional_cost_data:
         ret["additional_costs"] = []
         for field in COLUMN_SCHEMAS["additional_costs"]:
-            if field in current_row:
+            if field in current_row and has_value(current_row["euro"]):
                 ret["additional_costs"].append(current_row[field])
             else:
-                ret["additional_costs"].append("")
+                ret["additional_costs"].append("NA")
 
     return ret
 
