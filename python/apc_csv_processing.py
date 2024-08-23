@@ -638,7 +638,8 @@ def main():
     for record_type, value in enriched_content.items():
         if value["count"] > 0:
             with open('out_' + record_type + '.csv', 'w') as out:
-                writer = oat.OpenAPCUnicodeWriter(out, oat.OPENAPC_STANDARD_QUOTEMASK, 
+                quotemask = oat.ADDITIONAL_COSTS_QUOTEMASK if record_type == "additional_costs" else oat.OPENAPC_STANDARD_QUOTEMASK
+                writer = oat.OpenAPCUnicodeWriter(out, quotemask,
                                                   True, True, True)
                 writer.write_rows(value["content"])
 

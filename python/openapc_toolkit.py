@@ -119,6 +119,19 @@ OPENAPC_STANDARD_QUOTEMASK = [
     True
 ]
 
+# Only quote the doi column, all others are monetary values
+ADDITIONAL_COSTS_QUOTEMASK = [
+    True,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+]
+
 COLUMN_SCHEMAS = {
     "journal-article": [
         "institution",
