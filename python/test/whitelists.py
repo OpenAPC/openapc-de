@@ -490,6 +490,20 @@ JOURNAL_OWNER_CHANGED = {
     "2197-1153": ["Springer Nature", "Wiley-Blackwell"], # Journal of Experimental Orthopaedics
     "1460-2075": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # The EMBO Journal 
 	"0261-4189": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # The EMBO Journal (linking)
+	"0886-3350": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of Cataract & Refractive Surgery 
+	"1873-4502": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of Cataract & Refractive Surgery (electronic)
+	"0804-4643": ["BioScientifica", "Oxford University Press (OUP)"], # European Journal of Endocrinology 
+	"1479-683X": ["BioScientifica", "Oxford University Press (OUP)"], # European Journal of Endocrinology (electronic)
+	"1420-9101": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Evolutionary Biology 
+	"1010-061X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Evolutionary Biology (linking)
+	"1057-2414": ["Wiley-Blackwell", "Informa UK Limited"], # International Journal of Nautical Archaeology 
+	"1095-9270": ["Wiley-Blackwell", "Informa UK Limited"], # International Journal of Nautical Archaeology (electronic)
+	"1098-1004": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Mutation 
+	"1059-7794": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Mutation (print)
+	"1365-2834": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management 
+	"0966-0429": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management (print)
+	"2578-1863": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Behavior and Emerging Technologies
+	"1757-1146": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Foot and Ankle Research 
 
 }
 
@@ -830,6 +844,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1552-5260", # Alzheimer's & Dementia, Gold OA since 2024
     "1460-2075", # The EMBO Journal, Gold OA since 2024
     "0261-4189", # The EMBO Journal, Gold OA since 2024 (linking)
+    "0531-5565", # Experimental Gerontology, Gold OA since 2023
+    "2363-8419", # Geomechanics and Geophysics for Geo-Energy and Geo-Resources, Gold OA since 2023
+    "1874-785X", # Vocations and Learning, Gold OA since 2023
+    "2578-1863", # Human Behavior and Emerging Technologies, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
