@@ -6,7 +6,6 @@
 PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
-    (["Wiley-Blackwell"], ["EMBO"]),
     (["SAGE Publications"], ["Pion Ltd"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
     (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
@@ -488,8 +487,8 @@ JOURNAL_OWNER_CHANGED = {
     "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
     "1433-7347": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy (electronic)
     "2197-1153": ["Springer Nature", "Wiley-Blackwell"], # Journal of Experimental Orthopaedics
-    "1460-2075": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # The EMBO Journal 
-	"0261-4189": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # The EMBO Journal (linking)
+    "1460-2075": ["EMBO", "Springer Nature"], # The EMBO Journal 
+	"0261-4189": ["EMBO", "Springer Nature"], # The EMBO Journal (linking)
 	"0886-3350": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of Cataract & Refractive Surgery 
 	"1873-4502": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of Cataract & Refractive Surgery (electronic)
 	"0804-4643": ["BioScientifica", "Oxford University Press (OUP)"], # European Journal of Endocrinology 
