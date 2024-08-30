@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 115,087 articles, published at 393 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 115,100 articles, published at 394 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 115,087 articles, published at 393 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10654|
-|DEAL Wiley Germany                               |     9696|
+|DEAL Springer Nature Germany                     |    10664|
+|DEAL Wiley Germany                               |     9699|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |FinELib Elsevier agreement                       |     4939|
 |French EDP Sciences agreement                    |     3654|
@@ -441,6 +441,7 @@ This dataset contains information on 115,087 articles, published at 393 institut
 |Swiss Federal University for Vocational Education and Training                                                                                     |       14|
 |Birmingham City University                                                                                                                         |       13|
 |GSI                                                                                                                                                |       13|
+|Hochschule Bonn-Rhein-Sieg                                                                                                                         |       13|
 |St.Gallen University of Teacher Education                                                                                                          |       13|
 |TU Clausthal                                                                                                                                       |       13|
 |Häme University of Applied Sciences                                                                                                                |       12|
