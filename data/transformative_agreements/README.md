@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 115,100 articles, published at 394 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 115,103 articles, published at 394 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -97,8 +97,8 @@ This dataset contains information on 115,100 articles, published at 394 institut
 |IReL RS Agreement                                |       52|
 |MPG Taylor & Francis agreement                   |       46|
 |Austrian Consortium IOP agreement                |       45|
+|Crui-CARE ACS Agreement                          |       38|
 |IReL Optica Agreement                            |       37|
-|Crui-CARE ACS Agreement                          |       35|
 |Crui-CARE Springer Agreement                     |       35|
 |EISZ agreement Wiley                             |       35|
 |IReL BMJ Agreement                               |       35|
@@ -332,8 +332,8 @@ This dataset contains information on 115,100 articles, published at 394 institut
 |Konstanz U                                                                                                                                         |      118|
 |University of Dundee                                                                                                                               |      115|
 |GFZ-Potsdam                                                                                                                                        |      112|
+|Scuola Normale Superiore                                                                                                                           |      110|
 |Northumbria University                                                                                                                             |      109|
-|Scuola Normale Superiore                                                                                                                           |      107|
 |University of Surrey                                                                                                                               |      107|
 |Augsburg U                                                                                                                                         |      103|
 |Jönköping University                                                                                                                               |      102|
