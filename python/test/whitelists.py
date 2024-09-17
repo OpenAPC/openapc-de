@@ -116,8 +116,8 @@ JOURNAL_OWNER_CHANGED = {
     "2169-9291": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Oceans (electronic)
     "2572-4517": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography and Paleoclimatology
     "2572-4525": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography and Paleoclimatology (electronic)
-    "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
-    "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition (electronic)
+    "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)", "Elsevier BV"], # American Journal of Clinical Nutrition
+    "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)", "Elsevier BV"], # American Journal of Clinical Nutrition (electronic)
     "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Leukocyte Biology
     "1938-3673": ["Society for Leukocyte Biology", "Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Leukocyte Biology (electronic)
     "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
@@ -148,8 +148,8 @@ JOURNAL_OWNER_CHANGED = {
     "1469-7750": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society (electronic)
     "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth
     "2169-9356": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth (electronic)
-    "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)"],# Journal of Nutrition
-    "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"], # Journal of Nutrition (electronic)
+    "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)", "Elsevier BV"],# Journal of Nutrition
+    "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)", "Elsevier BV"], # Journal of Nutrition (electronic)
     "1651-2235": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease
     "0891-060X": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease (linking)
     "2575-1433": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
@@ -502,7 +502,13 @@ JOURNAL_OWNER_CHANGED = {
 	"1365-2834": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management 
 	"0966-0429": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management (print)
 	"2578-1863": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Behavior and Emerging Technologies
-	"1757-1146": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Foot and Ankle Research 
+	"1757-1146": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Foot and Ankle Research
+	"1672-0229": ["Elsevier BV", "Oxford University Press (OUP)"], # Genomics, Proteomics & Bioinformatics 
+	"2210-3244": ["Elsevier BV", "Oxford University Press (OUP)"], # Genomics, Proteomics & Bioinformatics (electronic) 
+	"1439-0426": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology 
+	"0175-8659": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology (print)
+	"1876-2883": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes 
+	"1876-2891": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes (electronic)
 
 }
 
@@ -847,6 +853,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2363-8419", # Geomechanics and Geophysics for Geo-Energy and Geo-Resources, Gold OA since 2023
     "1874-785X", # Vocations and Learning, Gold OA since 2023
     "2578-1863", # Human Behavior and Emerging Technologies, Gold OA since 2022
+    "1439-0426", # Journal of Applied Ichthyology, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
