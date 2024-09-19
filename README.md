@@ -32,6 +32,14 @@ Our latest data release can always be accessed via the following DOI:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6883472.svg)](https://doi.org/10.5281/zenodo.6883472)
 
+## Additional Costs
+
+In 2024 OpenAPC started to aggregate additional costs like page charges or submission fees, which may occur in the context of OA publishing aside from APCs. These cost types are considered optional and thus collected in a separate data file, they are linked to a main publication entry using the DOI as primary key. At the moment additional costs are only collected for journal articles.
+
+| Dataset         | Main CSV File                                                                 | Additional Costs File                                                                                       | OLAP Cube                                                             | Treemap                                                                           |
+|-----------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) | [APC additional costs](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de_additional_costs.csv)  | [APC_AC cube](https://olap.openapc.net/cube/openapc_ac/aggregate)     | [APC_AC Treemap](https://treemaps.openapc.net/apcdata/openapc/additional_costs)   |
+
 ## How to contribute?
 
 Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
@@ -799,6 +807,27 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2024   |         792|   2,501|     2,396| 179.00 -  7,723|             115|       4,269|         3,514|   231.3 - 12,554|
 
 
+
+#### Additional Costs for articles
+
+
+
+In addition to APCs, additional costs have been reported for 32 articles, totalling € 11,297. The following table shows an overview of the different cost types:
+
+
+
+|Cost Type     | Number of Articles| Total Sum (€)|
+|:-------------|------------------:|-------------:|
+|colour charge |                  1|           596|
+|other         |                 25|         3,463|
+|page charge   |                  5|         6,881|
+|reprint       |                  1|           356|
+
+
+
+This plot shows the cost distribution grouped by publishers. It includes only articles where additional reports have been reported and summarizes both additional costs and APCs for all of them:
+
+![](figure/additional_costs.png)
 
 ### Books (BPCs)
 
