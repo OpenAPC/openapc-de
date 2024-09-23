@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |226,821 | 451,865,927    | 433 |
+| Articles         |226,821 | 451,868,213    | 433 |
 | Monographs       |1,966 | 12,996,102    | 66 |
 
 ## How to access the data?
@@ -767,9 +767,9 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 The article data set contains information on 226,821 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 433 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 451,865,927. The average payment was € 1,992 and the median was € 1,843.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 451,868,213. The average payment was € 1,992 and the median was € 1,843.
 
-165,164 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 295,462,773, including value-added tax; the average payment was € 1,789 (median =  € 1,686, SD = € 850).
+165,164 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 295,465,059, including value-added tax; the average payment was € 1,789 (median =  € 1,686, SD = € 850).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,657 articles in the data set were published in hybrid journals. Total expenditure amounts to 156,403,155 €; the average fee was € 2,537 (median =  € 2,499, SD = € 1,078).
 
@@ -783,28 +783,28 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-|period | OA articles| OA mean| OA median|    OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
-|:------|-----------:|-------:|---------:|---------------:|---------------:|-----------:|-------------:|----------------:|
-|2005   |           7|     858|       871| 480.00 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
-|2006   |          52|   1,021|     1,095| 665.00 -  1,340|              NA|          NA|            NA|               NA|
-|2007   |          88|   1,081|     1,062| 870.00 -  1,825|              NA|          NA|            NA|               NA|
-|2008   |         205|   1,170|     1,025| 440.80 -  2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
-|2009   |         359|   1,185|     1,060| 124.63 -  4,386|              NA|          NA|            NA|               NA|
-|2010   |         401|   1,261|     1,139| 158.79 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
-|2011   |         777|   1,158|     1,127| 104.85 -  4,666|               6|       1,781|         2,085|   552.0 -  2,631|
-|2012   |       1,577|   1,173|     1,175|  69.00 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
-|2013   |       2,473|   1,229|     1,178|  50.00 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
-|2014   |       5,190|   1,375|     1,255|  40.00 -  9,028|           6,523|       2,238|         2,200|   132.3 -  6,000|
-|2015   |       8,482|   1,523|     1,450|  59.00 -  5,669|           6,697|       2,609|         2,621|   126.6 -  8,636|
-|2016   |       9,864|   1,637|     1,531|  62.51 -  5,985|           7,897|       2,550|         2,513|     2.3 -  9,079|
-|2017   |      14,962|   1,701|     1,553|   8.71 - 14,634|          10,625|       2,530|         2,472|    36.9 -  9,858|
-|2018   |      16,251|   1,701|     1,582|  13.00 -  8,926|           9,481|       2,550|         2,538|     1.8 -  9,073|
-|2019   |      17,548|   1,702|     1,630|  10.72 -  7,684|           7,057|       2,535|         2,500|    75.3 -  9,500|
-|2020   |      21,181|   1,716|     1,683|   0.01 -  8,906|           4,456|       2,495|         2,533|    16.6 -  7,416|
-|2021   |      25,833|   1,821|     1,790|  27.03 -  8,341|           3,444|       2,551|         2,506|    30.2 - 11,400|
-|2022   |      28,374|   2,101|     1,999|  12.36 - 11,175|           2,874|       2,870|         2,730|     2.1 - 14,607|
-|2023   |      10,748|   2,252|     2,142|  17.43 -  7,859|           1,359|       2,983|         2,800|   106.4 - 11,895|
-|2024   |         792|   2,501|     2,396| 179.00 -  7,723|             115|       4,269|         3,514|   231.3 - 12,554|
+|period | OA articles| OA mean| OA median|   OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
+|:------|-----------:|-------:|---------:|--------------:|---------------:|-----------:|-------------:|----------------:|
+|2005   |           7|     858|       871| 480.0 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
+|2006   |          52|   1,021|     1,095| 665.0 -  1,340|              NA|          NA|            NA|               NA|
+|2007   |          88|   1,081|     1,062| 870.0 -  1,825|              NA|          NA|            NA|               NA|
+|2008   |         205|   1,170|     1,025| 440.8 -  2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
+|2009   |         359|   1,185|     1,060| 124.6 -  4,386|              NA|          NA|            NA|               NA|
+|2010   |         401|   1,261|     1,139| 158.8 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
+|2011   |         777|   1,158|     1,127| 104.8 -  4,666|               6|       1,781|         2,085|   552.0 -  2,631|
+|2012   |       1,577|   1,173|     1,175|  69.0 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
+|2013   |       2,473|   1,229|     1,178|  50.0 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
+|2014   |       5,190|   1,375|     1,255|  40.0 -  9,028|           6,523|       2,238|         2,200|   132.3 -  6,000|
+|2015   |       8,482|   1,523|     1,450|  59.0 -  5,669|           6,697|       2,609|         2,621|   126.6 -  8,636|
+|2016   |       9,864|   1,637|     1,531|  62.5 -  5,985|           7,897|       2,550|         2,513|     2.3 -  9,079|
+|2017   |      14,962|   1,701|     1,553|   8.7 - 14,634|          10,625|       2,530|         2,472|    36.9 -  9,858|
+|2018   |      16,251|   1,701|     1,582|  13.0 -  8,926|           9,481|       2,550|         2,538|     1.8 -  9,073|
+|2019   |      17,549|   1,703|     1,630|  10.7 -  7,684|           7,057|       2,535|         2,500|    75.3 -  9,500|
+|2020   |      21,180|   1,716|     1,683|   0.2 -  8,906|           4,456|       2,495|         2,533|    16.6 -  7,416|
+|2021   |      25,833|   1,821|     1,790|  27.0 -  8,341|           3,444|       2,551|         2,506|    30.2 - 11,400|
+|2022   |      28,374|   2,101|     1,999|  12.4 - 11,175|           2,874|       2,870|         2,730|     2.1 - 14,607|
+|2023   |      10,748|   2,252|     2,142|  17.4 -  7,859|           1,359|       2,983|         2,800|   106.4 - 11,895|
+|2024   |         792|   2,501|     2,396| 179.0 -  7,723|             115|       4,269|         3,514|   231.3 - 12,554|
 
 
 
