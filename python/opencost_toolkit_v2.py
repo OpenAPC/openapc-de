@@ -8,6 +8,8 @@ import xml.etree.ElementTree as ET
 
 import openapc_toolkit as oat
 
+EXCHANGE_RATES = {}
+
 OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("institution_ror", "opencost:institution//opencost:id[opencost:type='ror']//opencost:value"),
     ("institution", "opencost:institution//opencost:name[opencost:type='short']//opencost:value"),
@@ -92,7 +94,7 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
     for field, xpath in cost_data_xpaths.items():
         results = invoice_element.findall(xpath, namespaces)
         for result in results:
-            if result is None or result.text is None:
+            if result is None:
                 continue
             # Apply processing rules depending on field type
             if field in ["date_paid", "date_invoice"]:
@@ -118,7 +120,7 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                         return ret
                     if cur not in EXCHANGE_RATES:
                         try:
-                            EXCHANGE_RATES[cur] = get_euro_exchange_rates(cur, "A")
+                            EXCHANGE_RATES[cur] = oat.get_euro_exchange_rates(cur, "A")
                         except ValueError as ve:
                             ret["error_msg"] = msgs["conv_failed"].format(str(ve))
                             return ret
@@ -247,6 +249,8 @@ def process_opencost_oai_records(processing_instructions=None, *xml_content_stri
         records = root.findall(record_xpath, namespaces)
         for record in records:
             data_element = record.find(data_xpath, namespaces)
+            if data_element is None:
+                continue
             data_element_xml = ET.tostring(data_element)
             publications = process_opencost_xml(data_element_xml)
             identifier = record.find(identifier_xpath, namespaces)
