@@ -371,8 +371,8 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     """
 
     msgs = {
-        'date_inconsistent': 'Multiple {} elements encountered, content ' +
-                     'differs.',
+        'date_inconsistent': 'Multiple "{}" elements encountered, content ' +
+                     'differs ({} vs {}) -> Using the earliest date.',
         'gold_hybrid_mix': 'Encountered cost types "gold-oa" and "hybrid-oa" ' +
                            'for the same publication.',
         'no_date': 'No date value found and the publication is not part ' +
@@ -423,9 +423,10 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
             # to combine data from multiple invoices
             if field in ["date_paid", "date_invoice"]:
                 if value != final_data[field]:
-                    msg = msgs["date_inconsistent"].format(field)
-                    ret["error_msg"] = msg
-                    return ret
+                    msg = msgs["date_inconsistent"].format(field, value, final_data[field])
+                    oat.print_c(msg)
+                    if value < final_data[field]:
+                        final_data[field] = value
             else:
                 # Monetary values can be simply added
                 msg = msgs["add_amounts_invoices"]
