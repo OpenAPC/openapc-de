@@ -9,35 +9,53 @@ from urllib.parse import urlparse
 from sortedcontainers import SortedList
 
 APC_DATA = []
+APC_AC_DATA = []
 BPC_DATA = []
 
 DATA_FILES = {
     "apc": {
         "file_path": "data/apc_de.csv",
+        "is_ac_file_for": None,
         "unused_fields": ["institution", "period", "license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
         "row_length": 18,
         "has_issn": True,
         "has_isbn": False,
         "has_url": True,
+        "doi_list": SortedList(),
+    },
+    "apc_ac": {
+        "file_path": "data/apc_de_additional_costs.csv",
+        "is_ac_file_for": "apc",
+        "unused_fields": [],
+        "target_file": APC_AC_DATA,
+        "row_length": 9,
+        "has_issn": False,
+        "has_isbn": False,
+        "has_url": False,
+        "doi_list": SortedList(),
     },
     "ta": {
         "file_path": "data/transformative_agreements/transformative_agreements.csv",
+        "is_ac_file_for": None,
         "unused_fields": ["institution", "period", "license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
         "row_length": 19,
         "has_issn": True,
         "has_isbn": False,
         "has_url": True,
+        "doi_list": SortedList(),
     },
     "bpc": {
         "file_path": "data/bpc.csv",
+        "is_ac_file_for": None,
         "unused_fields": ["institution", "period", "license_ref"],
         "target_file": BPC_DATA,
         "row_length": 13,
         "has_issn": False,
         "has_isbn": True,
         "has_url": False,
+        "doi_list": SortedList(),
     }
 }
 
@@ -132,7 +150,10 @@ for data_file, metadata in DATA_FILES.items():
             for field in metadata["unused_fields"]:
                 del(row[field])
             metadata["target_file"].append(RowObject(metadata["file_path"], line, row, data_file))
-            global_doi_list.add(row["doi"])
+            if oat.has_value(row["doi"]):
+                if metadata["is_ac_file_for"] is None:
+                    global_doi_list.add(row["doi"])
+                metadata["doi_list"].add(row["doi"])
             if metadata["has_url"] and oat.has_value(row["url"]):
                 global_url_list.add(_normalize_url(row["url"]))
             if metadata["has_issn"]:
@@ -256,6 +277,39 @@ def check_apc_field_content(row_object):
         except ValueError:
             fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
             
+def check_ac_field_content(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    if not oat.has_value(row['doi']):
+        fail(line_str + 'the column "doi" must not be empty')
+    cost_data_found = False
+    for cost_field in ["colour charge", "cover charge", "page charge", "permission", "reprint", "submission fee", "payment fee", "other"]:
+        if row[cost_field] is None:
+            fail(line_str + 'cost field "' + cost_field + '" not found. The row is probably malformed')
+            return
+        if oat.has_value(row[cost_field]):
+            try:
+                euro = float(row[cost_field])
+                if euro <= 0:
+                    fail(line_str + 'value in row "' + cost_field + '" (' + row[cost_field] + ') must be larger than 0')
+                else:
+                    cost_data_found = True
+            except ValueError:
+                fail(line_str + 'value in row "' + cost_field + '" (' + row[cost_field] + ') is no valid number')
+    if not cost_data_found:
+        fail(line_str + 'no valid euro amount found in any cost column')
+
+def check_ac_doi_links(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    ac_metadata = DATA_FILES[row_object.origin]
+    target_file = ac_metadata["is_ac_file_for"]
+    if row["doi"] not in DATA_FILES[target_file]["doi_list"]:
+        msg = line_str + 'DOI {} does not occur in the target primary data file ({})'
+        fail(msg.format(row["doi"], target_file))
+
 def check_bpc_field_content(row_object):
     __tracebackhide__ = True
     row = row_object.row
@@ -502,6 +556,15 @@ class TestBPCRows(object):
         check_for_isbn_duplicates(row_object)
         check_for_doi_duplicates(row_object)
 
+@pytest.mark.parametrize("row_object", BPC_DATA)
+class TestAPCACRows(object):
+
+    # Set of tests to run on all APC AC data
+    def test_row_format(self, row_object):
+        check_line_length(row_object)
+        check_ac_field_content(row_object)
+        check_ac_doi_links(row_object)
+
 if __name__ == '__main__':
     oat.print_b(str(len(APC_DATA)) + " APC records collected, starting tests...")
     deciles = {round((len(APC_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
@@ -518,6 +581,14 @@ if __name__ == '__main__':
         check_for_url_duplicates(row_object)
         check_name_consistency(row_object)
         check_ta_data(row_object)
+    oat.print_b(str(len(APC_AC_DATA)) + " APC AC records collected, starting tests...")
+    deciles = {round((len(APC_AC_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
+    for num, row_object in enumerate(APC_AC_DATA):
+        if num in deciles:
+            oat.print_b(deciles[num])
+        check_line_length(row_object)
+        check_ac_field_content(row_object)
+        check_ac_doi_links(row_object)
     oat.print_b(str(len(BPC_DATA)) + " BPC records collected, starting tests...")
     deciles = {round((len(BPC_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
     for num, row_object in enumerate(BPC_DATA):
