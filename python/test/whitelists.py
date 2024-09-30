@@ -6,7 +6,6 @@
 PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
-    (["Wiley-Blackwell"], ["EMBO"]),
     (["SAGE Publications"], ["Pion Ltd"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
     (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
@@ -117,8 +116,8 @@ JOURNAL_OWNER_CHANGED = {
     "2169-9291": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Oceans (electronic)
     "2572-4517": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography and Paleoclimatology
     "2572-4525": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography and Paleoclimatology (electronic)
-    "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition
-    "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)"], # American Journal of Clinical Nutrition (electronic)
+    "0002-9165": ["American Society for Nutrition", "Oxford University Press (OUP)", "Elsevier BV"], # American Journal of Clinical Nutrition
+    "1938-3207": ["American Society for Nutrition", "Oxford University Press (OUP)", "Elsevier BV"], # American Journal of Clinical Nutrition (electronic)
     "0741-5400": ["Society for Leukocyte Biology", "Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Leukocyte Biology
     "1938-3673": ["Society for Leukocyte Biology", "Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Leukocyte Biology (electronic)
     "2168-0450": ["Botanical Society of America", "Wiley-Blackwell"], # Applications in Plant Sciences
@@ -149,8 +148,8 @@ JOURNAL_OWNER_CHANGED = {
     "1469-7750": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society (electronic)
     "2169-9313": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth
     "2169-9356": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Solid Earth (electronic)
-    "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)"],# Journal of Nutrition
-    "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)"], # Journal of Nutrition (electronic)
+    "0022-3166": ["American Society for Nutrition", "Oxford University Press (OUP)", "Elsevier BV"],# Journal of Nutrition
+    "1541-6100": ["American Society for Nutrition", "Oxford University Press (OUP)", "Elsevier BV"], # Journal of Nutrition (electronic)
     "1651-2235": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease
     "0891-060X": ["Co-Action Publishing", "Informa UK Limited"], # Microbial Ecology in Health & Disease (linking)
     "2575-1433": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
@@ -457,7 +456,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1399-543X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Pediatric Diabetes (print)
 	"1600-0404": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica 
 	"0001-6314": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica (print)
-	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
+	"2000-656X": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
+	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery (electronic)
 	"0024-1164": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia 
 	"1502-3931": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia (electronic)
 	"1932-7005": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine 
@@ -485,6 +485,33 @@ JOURNAL_OWNER_CHANGED = {
 	"0145-8892": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation (print)
 	"1538-7836": ["Wiley-Blackwell", "Elsevier BV"], # Journal of Thrombosis and Haemostasis
 	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
+    "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
+    "1433-7347": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy (electronic)
+    "2197-1153": ["Springer Nature", "Wiley-Blackwell"], # Journal of Experimental Orthopaedics
+    "1460-2075": ["EMBO", "Springer Nature"], # The EMBO Journal 
+	"0261-4189": ["EMBO", "Springer Nature"], # The EMBO Journal (linking)
+	"0886-3350": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of Cataract & Refractive Surgery 
+	"1873-4502": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of Cataract & Refractive Surgery (electronic)
+	"0804-4643": ["BioScientifica", "Oxford University Press (OUP)"], # European Journal of Endocrinology 
+	"1479-683X": ["BioScientifica", "Oxford University Press (OUP)"], # European Journal of Endocrinology (electronic)
+	"1420-9101": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Evolutionary Biology 
+	"1010-061X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Evolutionary Biology (linking)
+	"1057-2414": ["Wiley-Blackwell", "Informa UK Limited"], # International Journal of Nautical Archaeology 
+	"1095-9270": ["Wiley-Blackwell", "Informa UK Limited"], # International Journal of Nautical Archaeology (electronic)
+	"1098-1004": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Mutation 
+	"1059-7794": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Mutation (print)
+	"1365-2834": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management 
+	"0966-0429": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management (print)
+	"2578-1863": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Behavior and Emerging Technologies
+	"1757-1146": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Foot and Ankle Research
+	"1672-0229": ["Elsevier BV", "Oxford University Press (OUP)"], # Genomics, Proteomics & Bioinformatics 
+	"2210-3244": ["Elsevier BV", "Oxford University Press (OUP)"], # Genomics, Proteomics & Bioinformatics (electronic) 
+	"1439-0426": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology 
+	"0175-8659": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology (print)
+	"1876-2883": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes 
+	"1876-2891": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes (electronic)
+	"1098-5549": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology 
+	"0270-7306": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology (linking)
 
 }
 
@@ -817,6 +844,20 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0362-028X", # Journal of Food Protection, Gold OA since 2023
     "1355-8145", # Cell Stress and Chaperones, Gold OA since 2024
     "1745-4549", # Journal of Food Processing and Preservation, Gold OA since 2023
+    "1868-503X", # Biomolecular Concepts, Gold OA since 2018
+    "0953-7104", # Platelets, Gold OA since 2023
+    "1933-6918", # Cell Adhesion & Migration, Gold OA since 2019
+    "1355-6215", # Addiction Biology, Gold OA since 2024
+    "1351-5101", # European Journal of Neurology, Gold OA since 2024
+    "1552-5260", # Alzheimer's & Dementia, Gold OA since 2024
+    "1460-2075", # The EMBO Journal, Gold OA since 2024
+    "0261-4189", # The EMBO Journal, Gold OA since 2024 (linking)
+    "0531-5565", # Experimental Gerontology, Gold OA since 2023
+    "2363-8419", # Geomechanics and Geophysics for Geo-Energy and Geo-Resources, Gold OA since 2023
+    "1874-785X", # Vocations and Learning, Gold OA since 2023
+    "2578-1863", # Human Behavior and Emerging Technologies, Gold OA since 2022
+    "1439-0426", # Journal of Applied Ichthyology, Gold OA since 2023
+    "1476-0584", # Expert Review of Vaccines, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list

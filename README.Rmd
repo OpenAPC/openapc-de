@@ -1,4 +1,4 @@
-﻿
+
 ```{r, echo = FALSE, warning = TRUE}
 
 knitr::opts_knit$set(base.url = "/")
@@ -19,7 +19,7 @@ knitr::knit_hooks$set(inline = function(x) {
 ```
 
 ```{r}
-require(dplyr)
+require(tidyverse)
 require(stringr)
 require(ggplot2)
 ```
@@ -27,6 +27,7 @@ require(ggplot2)
 ```{r, echo=FALSE, cache = FALSE}
 my_apc <- readr::read_csv("data/apc_de.csv")
 my_bpc <- readr::read_csv("data/bpc.csv")
+my_apc_ac <- readr::read_csv("data/apc_de_additional_costs.csv")
 ```
 
 ## About
@@ -55,6 +56,14 @@ There are several options. You may simply download the the raw data sets in CSV 
 Our latest data release can always be accessed via the following DOI:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6883472.svg)](https://doi.org/10.5281/zenodo.6883472)
+
+## Additional Costs
+
+In 2024 OpenAPC started to aggregate additional costs like page charges or submission fees, which may occur in the context of OA publishing aside from APCs. These cost types are considered optional and thus collected in a separate data file, they are linked to a main publication entry using the DOI as primary key. At the moment additional costs are only collected for journal articles.
+
+| Dataset         | Main CSV File                                                                 | Additional Costs File                                                                                       | OLAP Cube                                                             | Treemap                                                                           |
+|-----------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) | [APC additional costs](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de_additional_costs.csv)  | [APC_AC cube](https://olap.openapc.net/cube/openapc_ac/aggregate)     | [APC_AC Treemap](https://treemaps.openapc.net/apcdata/openapc/additional_costs)   |
 
 ## How to contribute?
 
@@ -207,6 +216,56 @@ full_join(oa_grouped, hyb_grouped) %>%
 knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA min - max", "Hybrid Articles", "Hybrid mean", "Hybrid median", "Hybrid min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
 
 ```
+
+#### Additional Costs for articles
+
+```{r, echo=FALSE, results='asis', message = FALSE}
+
+apc_de_euro_only <- my_apc %>% mutate(apc = euro) %>% select(doi, apc)
+
+apc_ac_long <- my_apc_ac %>%
+  left_join(apc_de_euro_only) %>%
+  pivot_longer(!doi, names_to = "cost_type", values_to = "value", values_drop_na = TRUE)
+
+apc_ac_grouped <- apc_ac_long %>%
+  left_join(my_apc) %>%
+  mutate(cost_type = factor(cost_type), publisher = factor(publisher)) %>%
+  group_by(cost_type, publisher) %>%
+  summarize(value = sum(value), articles = n())
+
+apc_ac_long_table <- apc_ac_long %>%
+  filter(cost_type != "apc") %>%
+  group_by(cost_type) %>%
+  summarize(count = n(), value = sum(value))
+
+p <- apc_ac %>%
+  ggplot(data = apc_ac_grouped, mapping = aes(x = publisher, y = value, fill=cost_type)) +
+  geom_col(position = position_stack(reverse = TRUE)) + 
+  xlab('Publisher') + 
+  ylab("Summarized Costs (€)") +
+  guides(fill = guide_legend(title = "Cost Type")) + 
+  scale_fill_manual(
+    values = c("darkolivegreen3", "orange", "red", "magenta2", "darkslategray", "blue", "darkgreen", "yellow", "cyan"),
+  #  labels = c("APC", "Colour Charges", "Cover Charge", "Other", "Page Charge", "Payment Fee", "Permission", "Reprint", "Submission Fee")
+  ) + 
+  coord_flip()
+  ggsave(p, path = "figure/", filename = "additional_costs.png", width=9, height=4.5, units="in", device = "png")
+
+```
+
+In addition to APCs, additional costs have been reported for `r sum(apc_ac_long_table$count)` articles, totalling € `r sum(apc_ac_long_table$value)`. The following table shows an overview of the different cost types:
+
+```{r, echo=FALSE, results='asis', message = FALSE}
+apc_ac_long_table %>%
+  mutate(count = format(count, big.mark=","), 
+         value = format(value, big.mark=",")
+        ) %>%
+  knitr::kable(col.names = c("Cost Type", "Number of Articles", "Total Sum (€)"), align = c("l","r", "r"))
+```
+
+This plot shows the cost distribution grouped by publishers. It includes only articles where additional reports have been reported and summarizes both additional costs and APCs for all of them:
+
+![](figure/additional_costs.png)
 
 ### Books (BPCs)
 

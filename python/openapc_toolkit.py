@@ -119,6 +119,19 @@ OPENAPC_STANDARD_QUOTEMASK = [
     True
 ]
 
+# Only quote the doi column, all others are monetary values
+ADDITIONAL_COSTS_QUOTEMASK = [
+    True,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+    False,
+]
+
 COLUMN_SCHEMAS = {
     "journal-article": [
         "institution",
@@ -175,6 +188,17 @@ COLUMN_SCHEMAS = {
         "license_ref",
         "indexed_in_crossref",
         "doab"
+    ],
+    "additional_costs": [
+        "doi",
+        "colour charge",
+        "cover charge",
+        "page charge",
+        "permission",
+        "reprint",
+        "submission fee",
+        "payment fee",
+        "other"
     ]
 }
 
@@ -243,6 +267,94 @@ class OpenAPCUnicodeWriter(object):
             self._write_row(self._prepare_row(rows.pop(0), False))
         for row in rows:
             self._write_row(self._prepare_row(row, True))
+
+class CSVColumn(object):
+
+    MANDATORY = {"text": "mandatory", "color": "green"}
+    BACKUP = {"text": "backup", "color": "blue"}
+    RECOMMENDED = {"text": "recommended", "color": "cyan"}
+    ADDITIONAL_COSTS = {"text": "additional_costs", "color": "magenta"}
+    NONE = {"text": "not required", "color": "yellow"}
+
+    OW_ALWAYS = 0
+    OW_ASK = 1
+    OW_NEVER = 2
+
+    _OW_MSG = (u"\033[91mConflict\033[0m: Existing non-NA value " +
+               u"\033[93m{ov}\033[0m in column \033[93m{name}\033[0m is to be " +
+               u"replaced by new value \033[93m{nv}\033[0m.\nAllow overwrite?\n" +
+               u"1) Yes\n2) Yes, and always replace \033[93m{ov}\033[0m by "+
+               "\033[93m{nv}\033[0m in this column\n3) Yes, and always " +
+               "overwrite in this column\n4) No\n5) No, and never replace " +
+               "\033[93m{ov}\033[0m by \033[93m{nv}\033[0m in this " +
+               "column\n6) No, and never overwrite in this column\n>")
+
+    def __init__(self, column_type, requirement=None, index=None, column_name="", overwrite=OW_ASK):
+        self.column_type = column_type
+        if requirement is None:
+            self.requirement = {
+                "articles": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            }
+        else:
+            self.requirement = requirement
+        self.index = index
+        self.column_name = column_name
+        self.overwrite = overwrite
+        self.overwrite_whitelist = {}
+        self.overwrite_blacklist = {}
+
+    def get_req_description(self, colored=True):
+        requirements = []
+        for pub_type, required in self.requirement.items():
+            if colored:
+                requirement = colorize(required["text"] + " for " + pub_type, required["color"])
+            else:
+                requirement = required["text"] + " for " + pub_type
+            requirements.append(requirement)
+        return ", ".join(requirements)
+
+    def check_overwrite(self, old_value, new_value):
+        if old_value == new_value:
+            return old_value
+        # Priority: Empty or NA values will always be overwritten.
+        if old_value == "NA":
+            return new_value
+        if old_value.strip() == "":
+            return new_value
+        # Do not replace an existing old value with NA
+        if new_value == "NA":
+            return old_value
+        if self.overwrite == CSVColumn.OW_ALWAYS:
+            return new_value
+        if self.overwrite == CSVColumn.OW_NEVER:
+            return old_value
+        if old_value in self.overwrite_blacklist:
+            if self.overwrite_blacklist[old_value] == new_value:
+                return old_value
+        if old_value in self.overwrite_whitelist:
+            return new_value
+        msg = CSVColumn._OW_MSG.format(ov=old_value, name=self.column_name,
+                                       nv=new_value)
+        ret = input(msg)
+        while ret not in ["1", "2", "3", "4", "5", "6"]:
+            ret = input("Please select a number between 1 and 5:")
+        if ret == "1":
+            return new_value
+        if ret == "2":
+            self.overwrite_whitelist[old_value] = new_value
+            return new_value
+        if ret == "3":
+            self.overwrite = CSVColumn.OW_ALWAYS
+            return new_value
+        if ret == "4":
+            return old_value
+        if ret == "5":
+            self.overwrite_blacklist[old_value] = new_value
+            return old_value
+        if ret == "6":
+            self.overwrite = CSVColumn.OW_NEVER
+            return old_value
 
 class DOAJAnalysis(object):
 
@@ -1560,13 +1672,14 @@ def get_euro_exchange_rates(currency, frequency="D"):
         result[date] = value
     return result
 
-def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_mode):
+def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_mode, additional_costs=False):
     if not has_value(euro_value):
-        msg = "Line %s: Empty monetary value in column %s."
-        if offsetting_mode is None:
-            logging.error(msg, row_num, index)
-        else:
-            logging.warning(msg, row_num, index)
+        if not additional_costs:
+            msg = "Line %s: Empty monetary value in column %s."
+            if offsetting_mode is None:
+                logging.error(msg, row_num, index)
+            else:
+                logging.warning(msg, row_num, index)
         return "NA"
     try:
         # Cast to float to ensure the decimal point is a dot (instead of a comma)
@@ -1582,11 +1695,12 @@ def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_m
                 msg = "Line %s: " + MESSAGES["digits_error"]
                 logging.error(msg, row_num, euro_value)
         if euro == 0:
-            msg = "Line %s: Euro value is 0"
-            if offsetting_mode is None:
-                logging.error(msg, row_num)
-            else:
-                logging.warning(msg, row_num)
+            if not additional_costs:
+                msg = "Line %s: Euro value is 0"
+                if offsetting_mode is None:
+                    logging.error(msg, row_num)
+                else:
+                    logging.warning(msg, row_num)
         return str(euro)
     except ValueError:
         msg = "Line %s: " + MESSAGES["locale"]
@@ -1800,7 +1914,9 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             current_row[column_type] = ""
             continue
         if column_type == "euro" and index is not None:
-            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, offsetting_mode)
+            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, offsetting_mode, False)
+        elif csv_column.requirement["articles"] == CSVColumn.ADDITIONAL_COSTS and index is not None:
+            current_row[column_type] = _process_euro_value(row[index], round_monetary, row_num, index, None, True)
         elif column_type == "period" and index is not None:
             current_row["period"] = _process_period_value(row[index], row_num)
         elif column_type == "is_hybrid" and index is not None:
@@ -2005,7 +2121,23 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         if column.column_type == "added_unknown_column":
             result.append(row[column.index])
 
-    return (record_type, result)
+    ret = {record_type: result}
+
+    additional_cost_data = False
+    for csv_column in column_map.values():
+        if csv_column.requirement["articles"] == CSVColumn.ADDITIONAL_COSTS:
+            additional_cost_data = True
+            break
+
+    if additional_cost_data:
+        ret["additional_costs"] = []
+        for field in COLUMN_SCHEMAS["additional_costs"]:
+            if field in current_row and has_value(current_row["euro"]):
+                ret["additional_costs"].append(current_row[field])
+            else:
+                ret["additional_costs"].append("NA")
+
+    return ret
 
 def get_hybrid_status_from_whitelist(hybrid_status):
     """
@@ -2075,7 +2207,8 @@ def colorize(text, color):
         "green": "\033[92m",
         "yellow": "\033[93m",
         "blue": "\033[94m",
-        "cyan": "\033[96m"
+        "cyan": "\033[96m",
+        "magenta": "\033[95m"
     }
     return ANSI_COLORS[color] + text + "\033[0m"
 
@@ -2093,3 +2226,6 @@ def print_y(text):
 
 def print_c(text):
     print(colorize(text, "cyan"))
+
+def print_m(text):
+    print(colorize(text, "magenta"))
