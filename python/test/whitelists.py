@@ -456,7 +456,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1399-543X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Pediatric Diabetes (print)
 	"1600-0404": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica 
 	"0001-6314": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica (print)
-	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
+	"2000-656X": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
+	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery (electronic)
 	"0024-1164": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia 
 	"1502-3931": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia (electronic)
 	"1932-7005": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine 
@@ -509,6 +510,8 @@ JOURNAL_OWNER_CHANGED = {
 	"0175-8659": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology (print)
 	"1876-2883": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes 
 	"1876-2891": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes (electronic)
+	"1098-5549": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology 
+	"0270-7306": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology (linking)
 
 }
 
@@ -854,6 +857,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1874-785X", # Vocations and Learning, Gold OA since 2023
     "2578-1863", # Human Behavior and Emerging Technologies, Gold OA since 2022
     "1439-0426", # Journal of Applied Ichthyology, Gold OA since 2023
+    "1476-0584", # Expert Review of Vaccines, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
