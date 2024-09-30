@@ -512,6 +512,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1876-2891": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes (electronic)
 	"1098-5549": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology 
 	"0270-7306": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology (linking)
+	"0007-1285": ["Wiley-Blackwell", "British Institute of Radiology", "Oxford University Press (OUP)"], # British Journal of Radiology 
+	"1748-880X": ["Wiley-Blackwell", "British Institute of Radiology", "Oxford University Press (OUP)"], # British Journal of Radiology (electronic)
 
 }
 
