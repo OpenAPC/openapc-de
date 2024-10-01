@@ -156,6 +156,8 @@ def run_url_threads():
 
 # Prepare the test data
 for data_file, metadata in DATA_FILES.items():
+    if metadata["is_ac_file_for"] is not None:
+        continue
     with open(metadata["file_path"], "r") as f:
         reader = csv.reader(f)
         reader.__next__() # skip the header

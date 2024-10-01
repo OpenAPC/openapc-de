@@ -556,7 +556,7 @@ class TestBPCRows(object):
         check_for_isbn_duplicates(row_object)
         check_for_doi_duplicates(row_object)
 
-@pytest.mark.parametrize("row_object", BPC_DATA)
+@pytest.mark.parametrize("row_object", APC_AC_DATA)
 class TestAPCACRows(object):
 
     # Set of tests to run on all APC AC data
