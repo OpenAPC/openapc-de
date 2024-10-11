@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 115,887 articles, published at 394 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 115,912 articles, published at 395 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 115,887 articles, published at 394 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10668|
-|DEAL Wiley Germany                               |     9704|
+|DEAL Springer Nature Germany                     |    10683|
+|DEAL Wiley Germany                               |     9714|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |FinELib Elsevier agreement                       |     4939|
 |French EDP Sciences agreement                    |     3654|
@@ -415,6 +415,7 @@ This dataset contains information on 115,887 articles, published at 394 institut
 |Finnish Meteorological Institute                                                                                                                   |       26|
 |HS Bielefeld                                                                                                                                       |       26|
 |Swiss Ornithological Institute                                                                                                                     |       26|
+|HafenCity Universität Hamburg                                                                                                                      |       25|
 |University of Westminster                                                                                                                          |       25|
 |DESY                                                                                                                                               |       24|
 |Glasgow Caledonian University                                                                                                                      |       24|
