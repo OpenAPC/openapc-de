@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |226,968 | 452,259,416    | 434 |
-| Monographs       |1,968 | 13,001,037    | 66 |
+| Articles         |226,990 | 452,300,485    | 435 |
+| Monographs       |1,978 | 13,023,847    | 67 |
 
 ## How to access the data?
 
@@ -101,6 +101,7 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Rheinische Friedrich-Wilhelms-Universität Bonn](https://www.open-access.uni-bonn.de/de)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
+- [TH Köln - University of Applied Sciences](https://www.th-koeln.de/hochschulbibliothek/open-access-publikationsfonds_98372.php)
 - TU Bergakademie Freiberg
 - [Technische Hochschule Brandenburg](https://bibliothek.th-brandenburg.de/open-access-und-publizieren/open-access/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
@@ -767,13 +768,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 226,968 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 434 research performing institutions and research funders. 
+The article data set contains information on 226,990 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 435 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 452,259,416. The average payment was € 1,993 and the median was € 1,843.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 452,300,485. The average payment was € 1,993 and the median was € 1,843.
 
-165,259 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 295,690,505, including value-added tax; the average payment was € 1,789 (median =  € 1,686, SD = € 850).
+165,275 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 295,716,524, including value-added tax; the average payment was € 1,789 (median =  € 1,686, SD = € 850).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,709 articles in the data set were published in hybrid journals. Total expenditure amounts to 156,568,911 €; the average fee was € 2,537 (median =  € 2,500, SD = € 1,080).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,715 articles in the data set were published in hybrid journals. Total expenditure amounts to 156,583,961 €; the average fee was € 2,537 (median =  € 2,500, SD = € 1,080).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -804,8 +805,8 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2019   |      17,548|   1,702|     1,630|  10.7 -  7,684|           7,059|       2,535|         2,500|    75.3 -  9,500|
 |2020   |      21,181|   1,716|     1,683|   0.2 -  8,906|           4,460|       2,496|         2,533|    16.6 -  7,416|
 |2021   |      25,832|   1,821|     1,790|  27.0 -  8,341|           3,445|       2,555|         2,509|    30.2 - 11,400|
-|2022   |      28,406|   2,101|     1,999|  12.4 - 11,175|           2,884|       2,870|         2,730|     2.1 - 14,607|
-|2023   |      10,779|   2,253|     2,144|  17.4 -  9,893|           1,373|       2,983|         2,790|   106.4 - 11,895|
+|2022   |      28,407|   2,101|     1,999|  12.4 - 11,175|           2,884|       2,870|         2,730|     2.1 - 14,607|
+|2023   |      10,794|   2,253|     2,142|  17.4 -  9,893|           1,379|       2,981|         2,784|   106.4 - 11,895|
 |2024   |         825|   2,493|     2,394| 179.0 -  7,723|             131|       4,165|         3,440|   231.3 - 12,554|
 
 
@@ -836,9 +837,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 1,968 open access books. Publication fees were supported financially by 66 research performing institutions and funders. 
+The book data set contains information on 1,978 open access books. Publication fees were supported financially by 67 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 13,001,037. The average payment was € 6,606 and the median was € 6,902.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 13,023,847. The average payment was € 6,584 and the median was € 6,868.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -863,7 +864,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             173|    6,980|      6,720|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             207|    7,692|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |             174|    7,537|      7,000|   265 - 22,000|              3|    1,614|      1,464| 1,464 - 1,912|
+|2023   |             180|    7,374|      6,914|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
 |2024   |               9|    6,314|      6,335| 1,300 - 10,710|             NA|       NA|         NA|            NA|
 
 
@@ -909,10 +910,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.75%       |87.91%   |
+|DOI                        |  99.75%       |87.71%   |
 |PubMed ID                  |  73.78%      | NA                                                          |
-|PubMed Central ID          |  68.33%     | NA                                                          |
-|Web of Science record ID   | 72.61%         | NA                                                          |
+|PubMed Central ID          |  68.32%     | NA                                                          |
+|Web of Science record ID   | 72.6%         | NA                                                          |
 
 
 
@@ -940,7 +941,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Karina Barros Ferradás, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Jochen Bihn, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Micaela Crespo Quesada, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Silvia Giannini, Marianna Gnoato, Larissa Gordon, Paul Gredler, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Birgit Hablizel, Florian Hagen, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Christina Hemme, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Elfi Hesse, Silke Hillmann, Kathrin Höhner, Dana Horch, Conrad Hübler, Christie Hurrell, Arto Ikonen, Simon Inselmann, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Tiina Jounio, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Sarah Last, Stuart Lawson, Anne Lehto, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Ute von Lüpke, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Vlatko Momirovski, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Martina Obst, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Ulrike Richter, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Andrea Stühn, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Agnieszka Wenninger, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Miriam Zeunert, Philipp Zumstein
+Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Karina Barros Ferradás, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Jochen Bihn, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Micaela Crespo Quesada, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Silvia Giannini, Marianna Gnoato, Larissa Gordon, Paul Gredler, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Birgit Hablizel, Florian Hagen, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Christina Hemme, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Elfi Hesse, Silke Hillmann, Kathrin Höhner, Dana Horch, Conrad Hübler, Christie Hurrell, Arto Ikonen, Simon Inselmann, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Tiina Jounio, Juho Jussila, Nadja Kalinna, Mirjam Kant, Kerstin Klein, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Sarah Last, Stuart Lawson, Anne Lehto, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Ute von Lüpke, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Vlatko Momirovski, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Martina Obst, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Ulrike Richter, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Andrea Stühn, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Agnieszka Wenninger, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Miriam Zeunert, Philipp Zumstein
 
 ## Contact
 
