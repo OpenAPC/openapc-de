@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 116,000 articles, published at 395 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 116,010 articles, published at 396 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 116,000 articles, published at 395 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10733|
-|DEAL Wiley Germany                               |     9752|
+|DEAL Springer Nature Germany                     |    10742|
+|DEAL Wiley Germany                               |     9753|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |FinELib Elsevier agreement                       |     4939|
 |French EDP Sciences agreement                    |     3654|
@@ -458,6 +458,7 @@ This dataset contains information on 116,000 articles, published at 395 institut
 |Swedish School of Sport and Health Sciences                                                                                                        |       11|
 |University of Chester                                                                                                                              |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
+|HAWK Hildesheim/Holzminden/Göttingen                                                                                                               |       10|
 |Hertie School                                                                                                                                      |       10|
 |Atlantic Technological University                                                                                                                  |        9|
 |Haaga-Helia University of Applied Sciences                                                                                                         |        9|
