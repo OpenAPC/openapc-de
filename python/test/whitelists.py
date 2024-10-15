@@ -514,7 +514,7 @@ JOURNAL_OWNER_CHANGED = {
 	"0270-7306": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology (linking)
 	"0007-1285": ["Wiley-Blackwell", "British Institute of Radiology", "Oxford University Press (OUP)"], # British Journal of Radiology 
 	"1748-880X": ["Wiley-Blackwell", "British Institute of Radiology", "Oxford University Press (OUP)"], # British Journal of Radiology (electronic)
-
+    "1452-3981": ["ESG", "Elsevier BV"], # International Journal of Electrochemical Science
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
