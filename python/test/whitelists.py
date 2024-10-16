@@ -860,6 +860,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2578-1863", # Human Behavior and Emerging Technologies, Gold OA since 2022
     "1439-0426", # Journal of Applied Ichthyology, Gold OA since 2023
     "1476-0584", # Expert Review of Vaccines, Gold OA since 2023
+    "1553-4510", # Social Influence, Gold OA since 2021
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
