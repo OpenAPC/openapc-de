@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 116,013 articles, published at 397 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 116,019 articles, published at 397 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 116,013 articles, published at 397 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10742|
+|DEAL Springer Nature Germany                     |    10748|
 |DEAL Wiley Germany                               |     9756|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |FinELib Elsevier agreement                       |     4939|
@@ -463,6 +463,7 @@ This dataset contains information on 116,013 articles, published at 397 institut
 |Atlantic Technological University                                                                                                                  |        9|
 |Haaga-Helia University of Applied Sciences                                                                                                         |        9|
 |Social Insurance Institution of Finland                                                                                                            |        9|
+|TH Köln                                                                                                                                            |        9|
 |Arcada University of Applied Sciences                                                                                                              |        8|
 |South-Eastern Finland University of Applied Sciences (Xamk)                                                                                        |        8|
 |University of Abertay Dundee                                                                                                                       |        8|
@@ -507,7 +508,6 @@ This dataset contains information on 116,013 articles, published at 397 institut
 |Public Health Agency of Sweden                                                                                                                     |        3|
 |Pädagogische Hochschule Thurgau                                                                                                                    |        3|
 |Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology |        3|
-|TH Köln                                                                                                                                            |        3|
 |Tampere University of Applied Sciences                                                                                                             |        3|
 |Technological University of the Shannon: Midlands Midwest                                                                                          |        3|
 |University of Teacher Education in Special Needs                                                                                                   |        3|
