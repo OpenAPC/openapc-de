@@ -717,7 +717,8 @@ JOURNAL_MAPPINGS = {
     "BMJ Supportive &amp; Palliative Care": "BMJ Supportive & Palliative Care",
     "Diabetes Technology &amp; Therapeutics": "Diabetes Technology & Therapeutics",
     "Evolution &amp; Development": "Evolution & Development",
-    "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology"
+    "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology",
+    "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports"
 }
 
 COLUMN_NAMES = {
