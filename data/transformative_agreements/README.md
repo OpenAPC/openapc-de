@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 116,019 articles, published at 397 institutions under 122 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 116,685 articles, published at 397 institutions under 124 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -44,6 +44,7 @@ This dataset contains information on 116,019 articles, published at 397 institut
 |CSIC-Wiley                                       |      806|
 |Swiss Consortium SAGE agreement                  |      798|
 |FinELib ACS agreement                            |      565|
+|University of Milan - Springer                   |      564|
 |IReL Sage Agreement                              |      562|
 |FinELib OUP agreement                            |      559|
 |FWF Transformative Agreement Springer Nature     |      556|
@@ -55,7 +56,6 @@ This dataset contains information on 116,019 articles, published at 397 institut
 |FWF Transformative Agreement ACS                 |      444|
 |FinELib Emerald agreement                        |      435|
 |IReL IEEE Agreement                              |      409|
-|University of Milan - Springer                   |      395|
 |IReL OUP Agreement                               |      393|
 |CSIC-ACS                                         |      359|
 |CSIC-Springer Nature                             |      357|
@@ -63,11 +63,12 @@ This dataset contains information on 116,019 articles, published at 397 institut
 |IReL ACS Agreement                               |      345|
 |IReL CUP Agreement                               |      333|
 |Swiss Consortium IOP agreement                   |      331|
+|University of Milan - Wiley                      |      310|
 |FWF Transformative Agreement T&F                 |      306|
 |CSIC-Oxford University Press                     |      276|
+|University of Milan - Elsevier                   |      276|
 |MPG RSC agreement                                |      246|
 |FinELib RSC agreement                            |      231|
-|University of Milan - Wiley                      |      196|
 |QNL Elsevier Agreement                           |      194|
 |Swiss Consortium AIP agreement                   |      191|
 |Swiss Consortium Ovid LWW agreement              |      190|
@@ -91,10 +92,12 @@ This dataset contains information on 116,019 articles, published at 397 institut
 |IReL IOP Agreement                               |       71|
 |EISZ agreement Elsevier                          |       64|
 |IReL AIP Agreement                               |       63|
+|University of Milan - ACS                        |       58|
 |CSIC-Cambridge University Press                  |       57|
 |FWF Transformative Agreement RSC                 |       55|
 |EISZ agreement Akadémiai Kiadó                   |       54|
 |IReL RS Agreement                                |       52|
+|University of Milan - Cambridge University Press |       50|
 |MPG Taylor & Francis agreement                   |       46|
 |Austrian Consortium IOP agreement                |       45|
 |Crui-CARE ACS Agreement                          |       38|
@@ -107,29 +110,29 @@ This dataset contains information on 116,019 articles, published at 397 institut
 |FinELib Nature Research agreement                |       33|
 |IReL Microbiology Society Agreement              |       32|
 |MPG IOP agreement                                |       32|
-|University of Milan - ACS                        |       32|
 |QNL IEEE Agreement                               |       31|
+|University of Milan - Royal Society of Chemistry |       31|
 |CSIC-AIP                                         |       29|
 |CSIC-Institute of Physics                        |       26|
 |CSIC-Royal Society                               |       25|
-|University of Milan - Cambridge University Press |       25|
 |IReL ACM Agreement                               |       24|
 |Austrian Consortium Emerald agreement            |       23|
 |IReL APA Agreement                               |       21|
 |IReL ECS Agreement                               |       20|
 |FWF Transformative Agreement Sage                |       17|
+|University of Milan - Lippincott                 |       17|
 |Austrian Consortium Sage agreement               |       16|
 |FWF Transformative Agreement IEEE                |       16|
 |FinELib Elsevier Cell Press agreement            |       16|
+|University of Milan - IEEE                       |       16|
 |Crui-CARE Wiley Agreement                        |       15|
 |CSIC-Microbiology Society                        |       13|
-|University of Milan - Royal Society of Chemistry |       12|
+|University of Milan - IOP                        |       12|
 |CSIC-Company of biologists                       |       11|
 |Crui-CARE Elsevier Agreement                     |        8|
 |CSIC-Brill                                       |        7|
 |CSIC-Portland Press                              |        7|
 |Crui-CARE CUP Agreement                          |        6|
-|University of Milan - IEEE                       |        6|
 |IReL Company of Biologists Agreement             |        5|
 |IReL CSHL Agreement                              |        4|
 |Crui-CARE AIP Agreement                          |        3|
@@ -140,7 +143,6 @@ This dataset contains information on 116,019 articles, published at 397 institut
 |Crui-CARE IOP Agreement                          |        2|
 |EISZ agreement Cambridge University Press        |        2|
 |QNL De Gruyter Agreement                         |        2|
-|University of Milan - Lippincott                 |        2|
 |CSIC-Rockefeller University Press                |        1|
 |EISZ agreement DeGruyter                         |        1|
 |EISZ agreement Lippincott Williams and Wilkins   |        1|
@@ -171,6 +173,7 @@ This dataset contains information on 116,019 articles, published at 397 institut
 |University of Turku                                                                                                                                |     1606|
 |University College Dublin                                                                                                                          |     1567|
 |University of Oulu                                                                                                                                 |     1550|
+|Milano U                                                                                                                                           |     1368|
 |University of Eastern Finland                                                                                                                      |     1219|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1213|
 |Trinity College Dublin                                                                                                                             |     1183|
@@ -190,7 +193,6 @@ This dataset contains information on 116,019 articles, published at 397 institut
 |Frankfurt U                                                                                                                                        |      777|
 |Imperial College London                                                                                                                            |      771|
 |University of Galway                                                                                                                               |      756|
-|Milano U                                                                                                                                           |      702|
 |Medical University of Vienna                                                                                                                       |      682|
 |Empa - Swiss Federal Laboratories for Materials Science and Technology                                                                             |      653|
 |King's College London                                                                                                                              |      652|
