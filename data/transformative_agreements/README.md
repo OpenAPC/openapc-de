@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 116,685 articles, published at 397 institutions under 124 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 116,780 articles, published at 397 institutions under 124 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 116,685 articles, published at 397 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10748|
+|DEAL Springer Nature Germany                     |    10843|
 |DEAL Wiley Germany                               |     9756|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |FinELib Elsevier agreement                       |     4939|
@@ -212,6 +212,7 @@ This dataset contains information on 116,685 articles, published at 397 institut
 |Utrecht University                                                                                                                                 |      527|
 |Qatar National Library                                                                                                                             |      510|
 |Wageningen University and Research Centre                                                                                                          |      506|
+|DLR                                                                                                                                                |      505|
 |University of Groningen                                                                                                                            |      501|
 |University of Edinburgh                                                                                                                            |      495|
 |PSI - Paul Scherrer Institute                                                                                                                      |      489|
@@ -234,7 +235,6 @@ This dataset contains information on 116,685 articles, published at 397 institut
 |KIT                                                                                                                                                |      431|
 |University of Leeds                                                                                                                                |      428|
 |VU University Amsterdam                                                                                                                            |      426|
-|DLR                                                                                                                                                |      410|
 |University of Southampton                                                                                                                          |      398|
 |Radboud University Medical Center                                                                                                                  |      397|
 |University of Sheffield                                                                                                                            |      387|
