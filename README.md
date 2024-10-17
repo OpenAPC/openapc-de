@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |227,816 | 454,059,601    | 436 |
+| Articles         |227,802 | 454,024,137    | 436 |
 | Monographs       |1,981 | 13,040,347    | 69 |
 
 ## How to access the data?
@@ -769,13 +769,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 227,816 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 436 research performing institutions and research funders. 
+The article data set contains information on 227,802 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 436 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 454,059,601. The average payment was € 1,993 and the median was € 1,843.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 454,024,137. The average payment was € 1,993 and the median was € 1,843.
 
-166,005 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 297,212,672, including value-added tax; the average payment was € 1,790 (median =  € 1,688, SD = € 851).
+165,999 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 297,199,273, including value-added tax; the average payment was € 1,790 (median =  € 1,688, SD = € 851).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,811 articles in the data set were published in hybrid journals. Total expenditure amounts to 156,846,929 €; the average fee was € 2,538 (median =  € 2,500, SD = € 1,081).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,803 articles in the data set were published in hybrid journals. Total expenditure amounts to 156,824,864 €; the average fee was € 2,537 (median =  € 2,499, SD = € 1,081).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -806,8 +806,8 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2019   |      17,548|   1,702|     1,630|  10.7 -  7,684|           7,059|       2,535|         2,500|    75.3 -  9,500|
 |2020   |      21,183|   1,716|     1,683|   0.2 -  8,906|           4,460|       2,496|         2,533|    16.6 -  7,416|
 |2021   |      25,832|   1,821|     1,790|  27.0 -  8,341|           3,447|       2,555|         2,509|    30.2 - 11,400|
-|2022   |      28,409|   2,101|     1,999|  12.4 - 11,175|           2,886|       2,870|         2,730|     2.1 - 14,607|
-|2023   |      11,520|   2,240|     2,138|  17.4 -  9,893|           1,471|       2,967|         2,760|   106.4 - 11,895|
+|2022   |      28,408|   2,101|     1,999|  12.4 - 11,175|           2,886|       2,870|         2,730|     2.1 - 14,607|
+|2023   |      11,515|   2,240|     2,138|  17.4 -  9,893|           1,463|       2,968|         2,759|   106.4 - 11,895|
 |2024   |         825|   2,493|     2,394| 179.0 -  7,723|             131|       4,165|         3,440|   231.3 - 12,554|
 
 
