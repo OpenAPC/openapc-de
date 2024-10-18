@@ -862,6 +862,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1476-0584", # Expert Review of Vaccines, Gold OA since 2023
     "1553-4510", # Social Influence, Gold OA since 2021
     "1043-6618", # Pharmacological Research, Gold OA since 2023
+    "0035-8711", # Monthly Notices of the Royal Astronomical Society, Gold OA since 2024
+    "1401-7431", # Scandinavian Cardiovascular Journal, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
