@@ -1,6 +1,7 @@
+import datetime
 import pytest
-from pytest import fail
 
+from pytest import fail
 from csv import DictReader
 from os.path import dirname, join
 from sys import path
@@ -16,7 +17,7 @@ DATA_FILES = {
     "apc": {
         "file_path": "data/apc_de.csv",
         "is_ac_file_for": None,
-        "unused_fields": ["institution", "period", "license_ref", "pmid", "pmcid", "ut"],
+        "unused_fields": ["license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
         "row_length": 18,
         "has_issn": True,
@@ -38,7 +39,7 @@ DATA_FILES = {
     "ta": {
         "file_path": "data/transformative_agreements/transformative_agreements.csv",
         "is_ac_file_for": None,
-        "unused_fields": ["institution", "period", "license_ref", "pmid", "pmcid", "ut"],
+        "unused_fields": ["license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
         "row_length": 19,
         "has_issn": True,
@@ -49,7 +50,7 @@ DATA_FILES = {
     "bpc": {
         "file_path": "data/bpc.csv",
         "is_ac_file_for": None,
-        "unused_fields": ["institution", "period", "license_ref"],
+        "unused_fields": ["license_ref"],
         "target_file": BPC_DATA,
         "row_length": 13,
         "has_issn": False,
@@ -78,6 +79,7 @@ KNOWN_DUPLICATES = {
     }
 }
 
+CURRENT_YEAR = datetime.datetime.now().year
 ISBNHANDLING = None
 
 if __name__ == '__main__':
@@ -236,6 +238,22 @@ def check_common_field_content(row_object):
     __tracebackhide__ = True
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    if not oat.has_value(row['institution']):
+        fail(line_str + 'the column "institution" must not be empty')
+    if not oat.has_value(row['period']):
+        fail(line_str + 'the column "period" must not be empty')
+    else:
+        try:
+            period_date = datetime.datetime.strptime(row['period'], "%Y")
+            if period_date.year > CURRENT_YEAR + 10:
+                msg = 'the date value in column "period" ("{}") is more than 10 years in the future'
+                fail(line_str + msg.format(row["period"]))
+            elif period_date.year < 1990:
+                msg = 'the date value in column "period" ("{}") is earlier than 1990'
+                fail(line_str + msg.format(row["period"]))
+        except ValueError:
+            msg = 'the value in column "period" ("{}") could not be parsed as a year value'
+            fail(line_str + msg.format(row["period"]))
     if not oat.has_value(row['publisher']):
         fail(line_str + 'the column "publisher" must not be empty')
     if row['indexed_in_crossref'] not in ["TRUE", "FALSE"]:
@@ -276,7 +294,7 @@ def check_apc_field_content(row_object):
                 fail(line_str + 'value in row "euro" (' + row['euro'] + ') must be larger than 0')
         except ValueError:
             fail(line_str + 'value in row "euro" (' + row['euro'] + ') is no valid number')
-            
+
 def check_ac_field_content(row_object):
     __tracebackhide__ = True
     row = row_object.row
