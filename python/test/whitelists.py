@@ -515,6 +515,12 @@ JOURNAL_OWNER_CHANGED = {
 	"0007-1285": ["Wiley-Blackwell", "British Institute of Radiology", "Oxford University Press (OUP)"], # British Journal of Radiology 
 	"1748-880X": ["Wiley-Blackwell", "British Institute of Radiology", "Oxford University Press (OUP)"], # British Journal of Radiology (electronic)
     "1452-3981": ["ESG", "Elsevier BV"], # International Journal of Electrochemical Science
+    "1369-7412": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series B: Statistical Methodology 
+    "1467-9868": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series B: Statistical Methodology (electronic)
+    "0035-9254": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series C: Applied Statistics 
+    "1467-9876": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series C: Applied Statistics (electronic)
+    "0884-0431": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Bone and Mineral Research 
+    "1523-4681": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Bone and Mineral Research (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
