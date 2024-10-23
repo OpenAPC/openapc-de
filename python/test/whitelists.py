@@ -870,6 +870,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1043-6618", # Pharmacological Research, Gold OA since 2023
     "0035-8711", # Monthly Notices of the Royal Astronomical Society, Gold OA since 2024
     "1401-7431", # Scandinavian Cardiovascular Journal, Gold OA since 2022
+    "0399-0559", # RAIRO - Operations Research, Gold OA since 2021 (S2O)
+    "0988-3754", # RAIRO - Theoretical Informatics and Applications, Gold OA since 2021 (S20)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
