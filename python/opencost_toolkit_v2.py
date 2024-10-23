@@ -3,10 +3,21 @@
 
 from collections import OrderedDict
 
+import os
 import re
+
+from io import StringIO
+from shutil import copyfileobj
+from urllib.request import urlopen, Request
 import xml.etree.ElementTree as ET
 
 import openapc_toolkit as oat
+
+try:
+    from lxml import etree
+except ImportError:
+    etree = None
+    print("WARNING: 3rd party module 'lxml' not found - optional openCost schema validation will not work")
 
 EXCHANGE_RATES = {}
 
@@ -61,6 +72,46 @@ OPENCOST_STANDARD_QUOTEMASK = [
     False
 ]
 
+class OpenCostValidator(object):
+
+    OPENCOST_XSD_URL = "https://raw.githubusercontent.com/opencost-de/opencost/refs/heads/main/doc/opencost.xsd"
+
+    def __init__(self, force_update=False):
+        if not os.path.isdir("tempfiles"):
+            os.mkdir("tempfiles")
+        filename = "tempfiles/opencost.xsd"
+        self.download_opencost_xsd(filename, force_update)
+        xsd_doc = etree.parse(filename)
+        self.schema = etree.XMLSchema(xsd_doc)
+
+    def download_opencost_xsd(self, filename, force_update=False):
+        if os.path.isfile(filename) and not force_update:
+            msg = "opencost XSD file already found at {}, using existing copy."
+            oat.print_c(msg.format(filename))
+            return
+        oat.print_c("Downloading a fresh copy of the openCost XSD file...")
+        request = Request(self.OPENCOST_XSD_URL)
+        with urlopen(request) as source:
+            with open(filename, "wb") as dest:
+                copyfileobj(source, dest)
+        msg = "...XSD file successfully written to {}!"
+        oat.print_c(msg.format(filename))
+
+    def validate_xml(self, xml_string):
+        ret = {
+            "success": True,
+            "error_msg": None
+        }
+        xml = StringIO(xml_string)
+        xml_doc = etree.parse(xml)
+        try:
+            self.schema.assertValid(xml_doc)
+            return ret
+        except etree.DocumentInvalid as invalid:
+            ret["success"] = False
+            ret["error_msg"] = str(invalid)
+            return ret
+
 def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
     """
     Extract and process payment data from an openCost invoice element.
@@ -94,7 +145,7 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
     for field, xpath in cost_data_xpaths.items():
         results = invoice_element.findall(xpath, namespaces)
         for result in results:
-            if result is None:
+            if result is None or result.text is None:
                 continue
             # Apply processing rules depending on field type
             if field in ["date_paid", "date_invoice"]:
@@ -234,7 +285,7 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
     ret["data"] = extracted_invoices
     return ret
 
-def process_opencost_oai_records(processing_instructions=None, *xml_content_strings):
+def process_opencost_oai_records(processing_instructions=None, validate_only=False, force_update=False, record_url=None, *xml_content_strings):
     namespaces = {
         "oai_2_0": "http://www.openarchives.org/OAI/2.0/",
         "opencost": "https://opencost.de"
@@ -244,6 +295,15 @@ def process_opencost_oai_records(processing_instructions=None, *xml_content_stri
     identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
 
     extracted_publications = []
+    if validate_only:
+        if etree is None:
+            oat.print_r("Error: Could not import etree. You probably need to install the python lxml package")
+            return
+        validator = OpenCostValidator(force_update)
+        validation_counts = {
+            "valid": 0,
+            "invalid": 0
+        }
     for xml_content in xml_content_strings:
         root = ET.fromstring(xml_content)
         records = root.findall(record_xpath, namespaces)
@@ -252,8 +312,22 @@ def process_opencost_oai_records(processing_instructions=None, *xml_content_stri
             if data_element is None:
                 continue
             data_element_xml = ET.tostring(data_element)
-            publications = process_opencost_xml(data_element_xml)
             identifier = record.find(identifier_xpath, namespaces)
+            if validate_only:
+                res = validator.validate_xml(data_element_xml.decode("utf-8"))
+                link = identifier.text
+                if record_url is not None:
+                    link = "[" + record_url + "&identifier=" + identifier.text + "]"
+                if res["success"]:
+                    msg = "Record {} validates against the openCost schema"
+                    oat.print_g(msg.format(link))
+                    validation_counts["valid"] += 1
+                else:
+                    msg = "Record {} does not validate against the openCost schema: {}"
+                    oat.print_r(msg.format(link, res["error_msg"]))
+                    validation_counts["invalid"] += 1
+                continue
+            publications = process_opencost_xml(data_element_xml)
             for publication in publications: # Should only be one
                 publication["identifier"] = identifier.text
                 if processing_instructions:
@@ -282,6 +356,9 @@ def process_opencost_oai_records(processing_instructions=None, *xml_content_stri
                                 break
                 else:
                     extracted_publications += publications
+    if validate_only:
+        msg = "Validation run finished.\n valid records: {}\n invalid records: {}"
+        oat.print_c(msg.format(validation_counts["valid"], validation_counts["invalid"]))
     return extracted_publications
 
 def process_opencost_xml(*xml_content_strings):
