@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 117,060 articles, published at 397 institutions under 125 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 118,404 articles, published at 397 institutions under 125 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -26,9 +26,9 @@ This dataset contains information on 117,060 articles, published at 397 institut
 |Swiss Consortium Elsevier agreement              |    10993|
 |DEAL Springer Nature Germany                     |    10843|
 |DEAL Wiley Germany                               |     9756|
+|French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4991|
 |FinELib Elsevier agreement                       |     4939|
-|French EDP Sciences agreement                    |     3654|
 |Swiss Consortium Wiley agreement                 |     3142|
 |FinELib Springer Compact agreement               |     2656|
 |FinELib Wiley agreement                          |     2656|
@@ -156,11 +156,11 @@ This dataset contains information on 117,060 articles, published at 397 institut
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
+|French institutions                                                                                                                                |     4998|
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4421|
 |University of Helsinki                                                                                                                             |     4225|
 |ETH Zurich                                                                                                                                         |     4193|
 |University of Zurich                                                                                                                               |     4042|
-|French institutions                                                                                                                                |     3654|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |TU Muenchen                                                                                                                                        |     2598|
 |University of Bern                                                                                                                                 |     2347|
