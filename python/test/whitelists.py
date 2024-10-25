@@ -449,6 +449,7 @@ JOURNAL_OWNER_CHANGED = {
 	"0309-3646": ["SAGE Publications", "Ovid Technologies (Wolters Kluwer Health)"], # Prosthetics & Orthotics International 
 	"1746-1553": ["SAGE Publications", "Ovid Technologies (Wolters Kluwer Health)"], # Prosthetics & Orthotics International (electronic)
 	"0270-9139": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology
+    "1527-3350": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology (electronic)
 	"1743-9159": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery
 	"2168-1813": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology 
 	"2168-1805": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology (print)
