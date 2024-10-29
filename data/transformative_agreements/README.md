@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 118,404 articles, published at 397 institutions under 125 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 118,402 articles, published at 397 institutions under 125 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -35,7 +35,7 @@ This dataset contains information on 118,404 articles, published at 397 institut
 |CSIC-Elsevier                                    |     1880|
 |IReL Wiley Agreement                             |     1646|
 |FinELib Taylor & Francis agreement               |     1637|
-|Swiss Consortium T&F agreement                   |     1150|
+|Swiss Consortium T&F agreement                   |     1148|
 |IReL Springer Agreement                          |     1134|
 |IReL T&F Agreement                               |     1006|
 |FinELib IEEE agreement                           |      933|
@@ -159,7 +159,7 @@ This dataset contains information on 118,404 articles, published at 397 institut
 |French institutions                                                                                                                                |     4998|
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4421|
 |University of Helsinki                                                                                                                             |     4225|
-|ETH Zurich                                                                                                                                         |     4193|
+|ETH Zurich                                                                                                                                         |     4192|
 |University of Zurich                                                                                                                               |     4042|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |TU Muenchen                                                                                                                                        |     2598|
@@ -257,7 +257,7 @@ This dataset contains information on 118,404 articles, published at 397 institut
 |University of Neuchatel                                                                                                                            |      324|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |Radboud University                                                                                                                                 |      309|
-|University of St.Gallen                                                                                                                            |      307|
+|University of St.Gallen                                                                                                                            |      306|
 |Eawag - Swiss Federal Institute of Aquatic Science and Technology                                                                                  |      304|
 |VTT Technical Research Centre of Finland Ltd                                                                                                       |      298|
 |University of Applied Sciences and Arts Western Switzerland                                                                                        |      297|
