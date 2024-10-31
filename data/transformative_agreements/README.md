@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 119,058 articles, published at 397 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 119,059 articles, published at 397 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -42,7 +42,7 @@ This dataset contains information on 119,058 articles, published at 397 institut
 |FinELib SAGE agreement                           |      879|
 |FWF Transformative Agreement Wiley-Blackwell     |      869|
 |CSIC-Wiley                                       |      806|
-|Swiss Consortium SAGE agreement                  |      798|
+|Swiss Consortium SAGE agreement                  |      799|
 |FinELib ACS agreement                            |      565|
 |University of Milan - Springer                   |      564|
 |IReL Sage Agreement                              |      562|
@@ -161,7 +161,7 @@ This dataset contains information on 119,058 articles, published at 397 institut
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4421|
 |University of Helsinki                                                                                                                             |     4225|
 |ETH Zurich                                                                                                                                         |     4192|
-|University of Zurich                                                                                                                               |     4042|
+|University of Zurich                                                                                                                               |     4043|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |TU Muenchen                                                                                                                                        |     2598|
 |University of Bern                                                                                                                                 |     2347|
