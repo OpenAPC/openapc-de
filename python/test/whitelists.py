@@ -488,7 +488,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
     "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
     "1433-7347": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy (electronic)
-    "2197-1153": ["Springer Nature", "Wiley-Blackwell"], # Journal of Experimental Orthopaedics
+    "2197-1153": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Experimental Orthopaedics
     "1460-2075": ["EMBO", "Springer Nature"], # The EMBO Journal 
 	"0261-4189": ["EMBO", "Springer Nature"], # The EMBO Journal (linking)
 	"0886-3350": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of Cataract & Refractive Surgery 
@@ -522,6 +522,8 @@ JOURNAL_OWNER_CHANGED = {
     "1467-9876": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of the Royal Statistical Society Series C: Applied Statistics (electronic)
     "0884-0431": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Bone and Mineral Research 
     "1523-4681": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Bone and Mineral Research (electronic)
+    "1746-1391": ["Informa UK Limited", "Wiley-Blackwell"], # European Journal of Sport Science 
+    "1536-7290": ["Informa UK Limited", "Wiley-Blackwell"], # European Journal of Sport Science (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -873,6 +875,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1401-7431", # Scandinavian Cardiovascular Journal, Gold OA since 2022
     "0399-0559", # RAIRO - Operations Research, Gold OA since 2021 (S2O)
     "0988-3754", # RAIRO - Theoretical Informatics and Applications, Gold OA since 2021 (S20)
+    "1746-1391", # European Journal of Sport Science, Gold OA since 2024
+    "1601-1848", # Genes, Brain and Behavior, Gold OA since 2022
+    "0031-5990", # Perspectives in Psychiatric Care, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
