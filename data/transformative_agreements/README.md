@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 119,059 articles, published at 397 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 119,066 articles, published at 398 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 119,059 articles, published at 397 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Springer Nature Germany                     |    10843|
+|DEAL Springer Nature Germany                     |    10850|
 |DEAL Wiley Germany                               |     9756|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4991|
@@ -478,6 +478,7 @@ This dataset contains information on 119,059 articles, published at 397 institut
 |Anglia Ruskin University                                                                                                                           |        7|
 |Dundalk Institute of Technology                                                                                                                    |        7|
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
+|HTWG Konstanz                                                                                                                                      |        7|
 |Institute for Advanced Studies Vienna                                                                                                              |        7|
 |Laurea University of Applied Sciences                                                                                                              |        7|
 |Metropolia University of Applied Sciences                                                                                                          |        7|
