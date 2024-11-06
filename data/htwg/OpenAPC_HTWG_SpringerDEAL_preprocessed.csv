@@ -1,8 +1,8 @@
-"Datum","Zeitschrift","ISSN","Verlag","Kostenstelle","Erschienen","DOI","FundingInfo","Bemerkung","In OPUS erfasst","Lfd. Nummer","Kostenabrechnung MPDL","euro"
-3/31/2020,"HMD Praxis der Wirtschaftinformatik","2198-2775","Springer",,2020,"https://doi.org/10.1365/s40702-020-00612-z",,"DEAL-Hybrid","Ja",1,,10106.52
-5/7/2020,"HMD Praxis der Wirtschaftsinformatik","2198-2775","Springer",,2020,"https://doi.org/10.1365/s40702-020-00622-x",,"DEAL-Hybrid","Ja",2,,10106.52
-4/5/2021,"Intern. Economics and Economic Policy","1612-4812","Springer",,2021,"https://doi.org/10.1007/s10368-020-00466-2",,"DEAL-Hybrid","Ja","+1(Nachträglich OA, nicht im Dashboard)",,21104.37
-1/12/2022,"Wirtschaftsinformatik & Management","1867-5913","Springer",,2022,"https://doi.org/10.1365/s35764-021-00380-5",,"DEAL-Hybrid","Ja",3,,21584.01
-4/17/2023,"HMD Praxis der Wirtschaftsinformatik","2198-2775","Springer",,2023,"https://doi.org/10.1365/s40702-023-00974-0",,"DEAL-Hybrid","ja",4,,7194.67
-7/4/2023,"Biomedical Engineering Letters","2093-9868","Springer",,2023,"https://doi.org/10.1007/s13534-023-00299-3",,"DEAL-Hybrid","ja",5,,7194.67
-12/6/2023,"HMD Praxis der Wirtschaftsinformatik","2198-2775","Springer",,2023,"https://doi.org/10.1365/s40702-023-01021-8",,"DEAL-Hybrid","ja",6,,7194.67
+"Datum","Zeitschrift","ISSN","Verlag","Kostenstelle","period","DOI","FundingInfo","Bemerkung","In OPUS erfasst","Lfd. Nummer","Kostenabrechnung MPDL","euro","institution","is_hybrid"
+3/31/2020,"HMD Praxis der Wirtschaftinformatik","2198-2775","Springer",,2020,"https://doi.org/10.1365/s40702-020-00612-z",,"DEAL-Hybrid","Ja",1,,10106.52,"HTWG Konstanz",TRUE
+5/7/2020,"HMD Praxis der Wirtschaftsinformatik","2198-2775","Springer",,2020,"https://doi.org/10.1365/s40702-020-00622-x",,"DEAL-Hybrid","Ja",2,,10106.52,"HTWG Konstanz",TRUE
+4/5/2021,"Intern. Economics and Economic Policy","1612-4812","Springer",,2021,"https://doi.org/10.1007/s10368-020-00466-2",,"DEAL-Hybrid","Ja","+1(Nachträglich OA, nicht im Dashboard)",,21104.37,"HTWG Konstanz",TRUE
+1/12/2022,"Wirtschaftsinformatik & Management","1867-5913","Springer",,2022,"https://doi.org/10.1365/s35764-021-00380-5",,"DEAL-Hybrid","Ja",3,,21584.01,"HTWG Konstanz",TRUE
+4/17/2023,"HMD Praxis der Wirtschaftsinformatik","2198-2775","Springer",,2023,"https://doi.org/10.1365/s40702-023-00974-0",,"DEAL-Hybrid","ja",4,,7194.67,"HTWG Konstanz",TRUE
+7/4/2023,"Biomedical Engineering Letters","2093-9868","Springer",,2023,"https://doi.org/10.1007/s13534-023-00299-3",,"DEAL-Hybrid","ja",5,,7194.67,"HTWG Konstanz",TRUE
+12/6/2023,"HMD Praxis der Wirtschaftsinformatik","2198-2775","Springer",,2023,"https://doi.org/10.1365/s40702-023-01021-8",,"DEAL-Hybrid","ja",6,,7194.67,"HTWG Konstanz",TRUE
