@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |228,559 | 455,689,996    | 439 |
-| Monographs       |1,999 | 13,147,389    | 72 |
+| Articles         |228,586 | 455,744,373    | 439 |
+| Monographs       |2,001 | 13,160,118    | 73 |
 
 ## How to access the data?
 
@@ -169,7 +169,6 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [INM - Leibniz Institute for New Materials](https://www.ntnm-bib.de/en/)
 - [IPN - Leibniz Institute for Science and Mathematics Education](https://www.leibniz-ipn.de/de/das-ipn/ueber-uns/bibliothek)
 - [Leibniz-Fonds](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access)
-- [Leibniz-Institut für Deutsche Sprache](https://www.ids-mannheim.de/bibliothek/open-access-am-ids/)
 - [Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden](https://www.ifw-dresden.de/about-us/library)
 - [Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung](https://www.ipk-gatersleben.de/en/library)
 - [Leibniz-Institut für Präventionsforschung und Epidemiologie - BIPS](https://www.bips-institut.de/en/index.html)
@@ -253,7 +252,6 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 - [Haute École Pédagogique du Canton de Vaud](https://www.hepl.ch/accueil.html)
 - [Hochschule Luzern](https://www.hslu.ch/de-ch/hochschule-luzern/campus/bibliotheken/open-access-zugang-zu-wissenschaftlichen-arbeiten/)
 - [Kalaidos University of Applied Sciences](https://www.kalaidos-fh.ch/de-CH/)
-- [Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL](https://www.lib4ri.ch/services/open-access.html)
 - [Medicines for Malaria Venture](https://www.mmv.org/)
 - [OST University of Applied Science of Eastern Switzerland](https://www.ost.ch/en/)
 - [PSI - Paul Scherrer Institute](https://www.psi.ch/en)
@@ -770,13 +768,13 @@ This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) 
 
 
 
-The article data set contains information on 228,559 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 439 research performing institutions and research funders. 
+The article data set contains information on 228,586 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 439 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 455,689,996. The average payment was € 1,994 and the median was € 1,844.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 455,744,373. The average payment was € 1,994 and the median was € 1,844.
 
-166,609 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 298,508,600, including value-added tax; the average payment was € 1,792 (median =  € 1,690, SD = € 851).
+166,634 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 298,558,977, including value-added tax; the average payment was € 1,792 (median =  € 1,690, SD = € 851).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,950 articles in the data set were published in hybrid journals. Total expenditure amounts to 157,181,396 €; the average fee was € 2,537 (median =  € 2,499, SD = € 1,082).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 61,952 articles in the data set were published in hybrid journals. Total expenditure amounts to 157,185,396 €; the average fee was € 2,537 (median =  € 2,499, SD = € 1,082).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -808,7 +806,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2020   |      21,241|   1,716|     1,683|   0.2 -  8,906|           4,474|       2,494|         2,533|    16.6 -  7,416|
 |2021   |      25,985|   1,823|     1,791|  27.0 -  8,341|           3,483|       2,549|         2,506|    30.2 - 11,400|
 |2022   |      28,599|   2,101|     1,999|  12.4 - 11,175|           2,920|       2,860|         2,727|     2.1 - 14,607|
-|2023   |      11,631|   2,241|     2,141|  17.4 -  9,893|           1,487|       2,959|         2,759|   106.4 - 11,895|
+|2023   |      11,656|   2,240|     2,139|  17.4 -  9,893|           1,489|       2,957|         2,758|   106.4 - 11,895|
 |2024   |         951|   2,432|     2,389| 179.0 -  7,723|             177|       3,885|         3,306|   231.3 - 12,554|
 
 
@@ -839,9 +837,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 1,999 open access books. Publication fees were supported financially by 72 research performing institutions and funders. 
+The book data set contains information on 2,001 open access books. Publication fees were supported financially by 73 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 13,147,389. The average payment was € 6,577 and the median was € 6,855.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 13,160,118. The average payment was € 6,577 and the median was € 6,855.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -866,7 +864,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             174|    6,974|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             218|    7,617|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |             188|    7,289|      6,789|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
+|2023   |             190|    7,280|      6,789|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
 |2024   |              10|    6,305|      6,283| 1,300 - 10,710|             NA|       NA|         NA|            NA|
 
 
@@ -912,10 +910,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.75%       |87.74%   |
+|DOI                        |  99.75%       |87.76%   |
 |PubMed ID                  |  73.76%      | NA                                                          |
-|PubMed Central ID          |  68.28%     | NA                                                          |
-|Web of Science record ID   | 72.1%         | NA                                                          |
+|PubMed Central ID          |  68.29%     | NA                                                          |
+|Web of Science record ID   | 72.09%         | NA                                                          |
 
 
 
