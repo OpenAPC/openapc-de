@@ -37,9 +37,9 @@ ARG_HELP_STRINGS = {
               "values with ',' as decimal mark character)",
 }
 
-YEARLY_RE = re.compile("^\d\d\d\d$")
-MONTHLY_RE = re.compile("^\d{4}-[0-1]{1}\d$")
-DAILY_RE = re.compile("^\d{4}-[0-1]{1}\d-[0-3]{1}\d$")
+YEARLY_RE = re.compile(r"^\d\d\d\d$")
+MONTHLY_RE = re.compile(r"^\d{4}-[0-1]{1}\d$")
+DAILY_RE = re.compile(r"^\d{4}-[0-1]{1}\d-[0-3]{1}\d$")
 
 def get_frequency(date_string):
     date_string = date_string.strip()
@@ -181,7 +181,7 @@ def main():
         period = line[args.period_column]
         frequency = get_frequency(period)
         if frequency is None:
-            msg = "WARNING: Could not extract a valid date string from period column in line {} ('{}'), skipping..."
+            msg = "WARNING: Could not extract a valid date string (YYYY, YYYY-MM or YYYY-MM-DD) from period column in line {} ('{}'), skipping..."
             oat.print_y(msg.format(line_num, period))
             modified_content.append(line)
             continue
