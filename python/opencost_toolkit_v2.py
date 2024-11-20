@@ -6,6 +6,7 @@ from collections import OrderedDict
 import logging
 import os
 import re
+import sys
 
 from io import StringIO
 from shutil import copyfileobj
@@ -31,7 +32,7 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("is_hybrid", None),
     ("type", "opencost:publication_type"),
     ("contract_primary_identifier", None),
-    ("contract_invoice_id", None),
+    ("contract_group_id", None),
     ("gold-oa", None),
     ("vat", None),
     ("colour charge", None),
@@ -235,27 +236,22 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
 
 def _process_oc_contract_cost_data(cost_data_element, namespaces):
     """
-    Process and extract invoice data from opencost contract cost_data elements
+    Process and extract invoice groups from opencost contract cost_data elements
     """
 
     msgs = {
-        "from_to_diff": "Invoice '{}': Different period values in 'from' " +
-                        "and 'to' fields, could not determine an invoice " +
+        "from_to_diff": "Group '{}': Different year values in invoices_period " +
+                        "'from' and 'to' fields, could not determine a group " +
                         "period ({} vs {}).",
-        "no_invoice_id": "A contract invoice has no invoice_id (data dump: {}).",
-        "from_or_to_missing": "Invoice '{}': The 'from' or 'to' element " +
-                              "is missing (or both).",
         "date_invoice_only": "Period for invoice '{}' could only " +
                              "be inferred from the date_invoice element, which " +
                              "might be inaccurate (should be extracted from " +
                              "'from' and 'to instead')"
     }
 
-    invoice_xpaths = {
-        "invoice_id": "opencost:invoice_id",
-        "from": "opencost:invoice_period//opencost:from",
-        "to": "opencost:invoice_period//opencost:to",
-        "date_invoice": "opencost:dates//opencost:date_invoice"
+    date_xpaths = {
+        "from": "opencost:invoices_period//opencost:from",
+        "to": "opencost:invoices_period//opencost:to",
     }
 
     ret = {
@@ -264,56 +260,42 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
         "error_msg": None
     }
 
-    extracted_invoices = []
+    extracted_invoice_groups = []
 
-    invoice_elements = cost_data_element.findall("opencost:invoice", namespaces)
-    for invoice_element in invoice_elements:
-        processed_invoice = _process_oc_invoice_data(invoice_element, namespaces, strict_vat=False)
-        if not processed_invoice["success"]:
-            return processed_invoice
-        data = processed_invoice["data"]
-        for field, xpath in invoice_xpaths.items():
-            results = invoice_element.findall(xpath, namespaces)
-            for result in results:
-                if result is None or result.text is None:
-                    continue
-                # Apply processing rules
-                if field in ["from", "to", "date_invoice"]:
-                    if re.match(r"\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?", result.text):
-                        value = result.text[:4]
-                    else:
-                        value = result.text
-                else:
-                    value = result.text
-                data[field] = value
-        invoice_id = data.get("invoice_id")
-        if invoice_id is None or not oat.has_value(invoice_id):
-            msg = msgs["no_invoice_id"].format(data)
-            ret["error_msg"] = msg
-            return ret
-        data["invoice_total"] = 0
-        for field, value in data.items():
-             # sum all payment amounts
-            if field in ["read", "publishing", "vat"]:
-                data["invoice_total"] += value
-        if "from" in data and "to" in data:
-            if data["from"] == data["to"]:
-                data["invoice_period"] = data["from"]
+    group_elements = cost_data_element.findall("opencost:invoice_group", namespaces)
+    for group_element in group_elements:
+        data = {
+            "group_total_costs": 0
+        }
+        data["group_id"] = group_element.find("opencost:group_id", namespaces).text
+        # extract and check the group period
+        years = {}
+        for field, xpath in date_xpaths.items():
+            result = group_element.find(xpath, namespaces)
+            if re.match(r"\d{4}-[0-1]{1}\d(-[0-3]{1}\d)?", result.text):
+                value = result.text[:4]
             else:
-                msg = msgs["from_to_diff"].format(invoice_id, data["from"], data["to"])
-                ret["error_msg"] = msg
-                return ret
-        elif "date_invoice" in data:
-            msg = msgs["date_invoice_only"]
-            logging.warning(msg.format(invoice_id))
-            data["invoice_period"] = data["date_invoice"]
-        else:
-            msg = msgs["from_or_to_missing"].format(invoice_id)
+                value = result.text
+            years[field] = value
+        if years["from"] != years["to"]:
+            msg = msgs["from_to_diff"].format(data["group_id"], years["from"], years["to"])
             ret["error_msg"] = msg
             return ret
-        extracted_invoices.append(data)
+        else:
+            data["period"] = years["from"]
+        invoice_elements = group_element.findall("opencost:invoice", namespaces)
+        for invoice_element in invoice_elements:
+            processed_invoice = _process_oc_invoice_data(invoice_element, namespaces, strict_vat=False)
+            if not processed_invoice["success"]:
+                return processed_invoice
+            invoice_data = processed_invoice["data"]
+            for field, value in invoice_data.items():
+                 # sum all payment amounts
+                if field in ["read", "publish", "vat"]:
+                    data["group_total_costs"] += value
+        extracted_invoice_groups.append(data)
     ret["success"] = True
-    ret["data"] = extracted_invoices
+    ret["data"] = extracted_invoice_groups
     return ret
 
 def process_opencost_oai_records(processing_instructions=None, validate_only=False, force_update=False, record_url=None, *xml_content_strings):
@@ -415,7 +397,7 @@ def process_opencost_xml(*xml_content_strings):
     cost_data_xpath = "opencost:cost_data"
 
     extracted_publications = []
-    extracted_invoices = []
+    extracted_invoice_groups = []
 
     for xml_content in xml_content_strings:
         logging.debug("Parsing new XML content chunk.")
@@ -447,12 +429,12 @@ def process_opencost_xml(*xml_content_strings):
         logging.info("{} contracts extracted.".format(len(contracts)))
         for contract in contracts:
             cost_data_element = contract.find(cost_data_xpath, namespaces)
-            invoices_extract = _process_oc_contract_cost_data(cost_data_element, namespaces)
-            if not invoices_extract["success"]:
-                logging.error("Error: " + invoices_extract["error_msg"])
+            invoice_groups_extract = _process_oc_contract_cost_data(cost_data_element, namespaces)
+            if not invoice_groups_extract["success"]:
+                logging.error("Error: " + invoice_groups_extract["error_msg"])
                 continue
-            extracted_invoices += invoices_extract["data"]
-    extracted_publications = _apply_contract_data(extracted_publications, extracted_invoices)
+            extracted_invoice_groups += invoice_groups_extract["data"]
+    extracted_publications = _apply_contract_data(extracted_publications, extracted_invoice_groups)
     return extracted_publications
 
 def _process_oc_publication_cost_data(cost_data_element, namespaces):
@@ -494,7 +476,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
 
     part_of_contract_xpaths = {
         "contract_primary_identifier": "opencost:primary_identifier/opencost:value",
-        "contract_invoice_id": "opencost:invoice_id"
+        "contract_group_id": "opencost:group_id"
     }
 
     ret = {
@@ -563,68 +545,67 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
         final_data["period"] =  final_data["date_paid"]
     elif "date_invoice" in final_data:
         final_data["period"] =  final_data["date_invoice"]
-    elif not "contract_invoice_id" in final_data:
+    elif not "contract_group_id" in final_data:
         ret["error_msg"] = msgs["no_date"]
         return ret
     ret["success"] = True
     ret["data"] = final_data
     return ret
 
-def _apply_contract_data(extracted_records, extracted_invoices):
+def _apply_contract_data(extracted_records, extracted_invoice_groups):
 
     msgs = {
-        "invoice_id_dup": "Error: invoice_id '{}' occurs more than once!",
+        "group_id_dup": "Error: group_id '{}' occurs more than once!",
         "cost_assigned": "Warning: Record ({}) has assigned non-zero " +
-                         "costs of type {} (()€), but is also linked " +
-                         "to a contract via an invoice_id ({}). Record " +
+                         "costs of type {} ({}€), but is also linked " +
+                         "to a contract via a group_id ({}). Record " +
                          "cost data was kept, please note that this record " +
                          "does not count towards the total number under " +
                          "the specific contract.",
         "no_records": "Warning: No Records were found matching the " +
-                      "contract invoice_id '{}'",
-        "cost_calculation": "Found {} records linked to invoice_id '{}'. " +
+                      "invoice group_id '{}'",
+        "cost_calculation": "Found {} records linked to group_id '{}'. " +
                             "Publication costs of {} € / {} = {} € will be " +
                             "assigned."
     }
-
-    invoice_dict = {}
-    for invoice in extracted_invoices:
-        invoice_id = invoice["invoice_id"]
-        if invoice_id not in invoice_dict:
-            invoice_dict[invoice_id] = invoice
+    group_dict = {}
+    for group in extracted_invoice_groups:
+        group_id = group["group_id"]
+        if group_id not in group_dict:
+            group_dict[group_id] = group
         else:
-            oat.print_r(msgs["invoice_id_dup"].format(invoice_id))
+            oat.print_r(msgs["group_id_dup"].format(group_id))
             sys.exit()
-    for invoice_id, invoice in invoice_dict.items():
+    for group_id, group in group_dict.items():
         record_count = 0
         for record in extracted_records:
-            if not oat.has_value(record["contract_invoice_id"]):
+            if not oat.has_value(record["contract_group_id"]):
                 continue
-            if record["contract_invoice_id"] != invoice_id:
+            if record["contract_group_id"] != group_id:
                 continue
             for cost_type in ["gold-oa", "hybrid-oa"]:
-                if oat.has_value(record[cost_type]) and record[cost_type] > 0:
+                if record[cost_type] != "NA" and record[cost_type] > 0.0:
                     msg = msgs["cost_assigned"]
                     msg = msg.format(record["doi"], cost_type, 
-                                     record[cost_type], invoice_id)
-                    oat.print_y(msg)
+                                     record[cost_type], group_id)
+                    logging.warning(msg)
                     continue
             record_count += 1
-            record["target_invoice_id"] = invoice_id
+            record["target_group_id"] = group_id
         if record_count == 0:
-            msg = msgs["no_records"].format(invoice_id)
-            oat.print_y(msg)
+            msg = msgs["no_records"].format(group_id)
+            logging.warning(msg)
             continue
-        record_costs = round(invoice["invoice_total"] / record_count, 2)
+        record_costs = round(group["group_total_costs"] / record_count, 2)
         msg = msgs["cost_calculation"]
-        msg = msg.format(record_count, invoice_id, invoice["invoice_total"],
+        msg = msg.format(record_count, group_id, group["group_total_costs"],
                          record_count, record_costs)
-        oat.print_c(msg)
+        logging.info(msg)
         for record in extracted_records:
-            if "target_invoice_id" in record and record["target_invoice_id"] == invoice_id:
+            if "target_group_id" in record and record["target_group_id"] == group_id:
                 record["euro"] = record_costs
-                record["period"] = invoice["invoice_period"]
+                record["period"] = group["period"]
                 # DEAL - might need adjustments for other TAs.
                 record["is_hybrid"] = "TRUE"
-                del(record["target_invoice_id"])
+                del(record["target_group_id"])
     return extracted_records
