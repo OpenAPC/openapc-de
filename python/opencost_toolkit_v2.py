@@ -3,6 +3,7 @@
 
 from collections import OrderedDict
 
+import logging
 import os
 import re
 
@@ -87,15 +88,15 @@ class OpenCostValidator(object):
     def download_opencost_xsd(self, filename, force_update=False):
         if os.path.isfile(filename) and not force_update:
             msg = "opencost XSD file already found at {}, using existing copy."
-            oat.print_c(msg.format(filename))
+            logging.info(msg.format(filename))
             return
-        oat.print_c("Downloading a fresh copy of the openCost XSD file...")
+        logging.info("Downloading a fresh copy of the openCost XSD file...")
         request = Request(self.OPENCOST_XSD_URL)
         with urlopen(request) as source:
             with open(filename, "wb") as dest:
                 copyfileobj(source, dest)
         msg = "...XSD file successfully written to {}!"
-        oat.print_c(msg.format(filename))
+        logging.info(msg.format(filename))
 
     def validate_xml(self, xml_string):
         ret = {
@@ -126,6 +127,8 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                         'exchange rate available for currency {} and period {}.',
         'multiple_vats': 'Encountered more than one cost_type "vat". Data ' +
                          'might be ambiguous, please check manually. ',
+        'vat_without_costs': 'Encountered a positive vat amount without costs ' +
+                             'inside an amount_paid element.',
         'add_amounts_paid': 'Cost type {} occurs more than once in the same ' +
                        'invoice, adding amounts ({} + {} = {})'
     }
@@ -158,9 +161,17 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                 cur = result.find("opencost:currency", namespaces).text
                 cost_type = result.find("opencost:cost_type", namespaces).text
                 amount = result.find("opencost:amount", namespaces).text
+                vat = result.find("opencost:vat", namespaces).text
                 value = 0.0
                 if amount is not None:
                     value = oat._auto_atof(amount)
+                if vat is not None:
+                    vat_value = oat._auto_atof(vat)
+                    if value == 0.0 and vat_value > 0.0:
+                        ret["error_msg"] = msgs["vat_without_costs"]
+                        return ret
+                    else:
+                        value += vat_value
                 if cur != "EUR":
                     if "date_paid" in data:
                         period = data["date_paid"]
@@ -183,7 +194,7 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                     euro_value = round(value/float(exchange_rate), 2)
                     msg = 'Automated conversion: {} {} -> {} EUR (period: {})'
                     msg = msg.format(value, cur, euro_value, period)
-                    oat.print_c(msg)
+                    logging.info(msg)
                     value = euro_value
                 # Add monetary values of the same cost type
                 target_field = cost_type
@@ -195,7 +206,7 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                     old_value = data[target_field]
                     msg = msgs["add_amounts_paid"]
                     msg = msg.format(target_field, old_value, value, old_value + value)
-                    oat.print_c(msg)
+                    logging.info(msg)
                     value = old_value + value
             data[target_field] = value
     ret["success"] = True
@@ -214,7 +225,7 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
         "no_invoice_id": "A contract invoice has no invoice_id (data dump: {}).",
         "from_or_to_missing": "Invoice '{}': The 'from' or 'to' element " +
                               "is missing (or both).",
-        "date_invoice_only": "Warning: Period for invoice '{}' could only " +
+        "date_invoice_only": "Period for invoice '{}' could only " +
                              "be inferred from the date_invoice element, which " +
                              "might be inaccurate (should be extracted from " +
                              "'from' and 'to instead')"
@@ -274,7 +285,7 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
                 return ret
         elif "date_invoice" in data:
             msg = msgs["date_invoice_only"]
-            oat.print_y(msg.format(invoice_id))
+            logging.warning(msg.format(invoice_id))
             data["invoice_period"] = data["date_invoice"]
         else:
             msg = msgs["from_or_to_missing"].format(invoice_id)
@@ -297,7 +308,7 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
     extracted_publications = []
     if validate_only:
         if etree is None:
-            oat.print_r("Error: Could not import etree. You probably need to install the python lxml package")
+            logging.critical("Could not import etree. You probably need to install the python lxml package")
             return
         validator = OpenCostValidator(force_update)
         validation_counts = {
@@ -320,11 +331,11 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
                     link = "[" + record_url + "&identifier=" + identifier.text + "]"
                 if res["success"]:
                     msg = "Record {} validates against the openCost schema"
-                    oat.print_g(msg.format(link))
+                    logging.info(msg.format(link))
                     validation_counts["valid"] += 1
                 else:
                     msg = "Record {} does not validate against the openCost schema: {}"
-                    oat.print_r(msg.format(link, res["error_msg"]))
+                    logging.error(msg.format(link, res["error_msg"]))
                     validation_counts["invalid"] += 1
                 continue
             publications = process_opencost_xml(data_element_xml)
@@ -347,12 +358,12 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
                                 publication["doi"] = norm_doi
                         if key == "euro":
                             if not oat.has_value(publication["euro"]):
-                                oat.print_r("Article skipped, no APC amount found.")
+                                logging.warning("Article skipped, no APC amount found.")
                                 break
                             euro_float = oat._auto_atof(publication["euro"])
                             if euro_float is not None and euro_float <= 0.0:
                                 msg = "Article skipped, non-positive APC amount found ({})."
-                                oat.print_r(msg.format(publication['euro']))
+                                logging.warning(msg.format(publication['euro']))
                                 break
                 else:
                     extracted_publications += publications
@@ -387,8 +398,10 @@ def process_opencost_xml(*xml_content_strings):
     extracted_invoices = []
 
     for xml_content in xml_content_strings:
+        logging.debug("Parsing new XML content chunk.")
         root = ET.fromstring(xml_content)
         publications = root.findall(publication_xpath, namespaces)
+        logging.info("{} publications extracted.".format(len(publications)))
         for publication in publications:
             publication_data = {}
             for field, xpath in OPENCOST_EXTRACTION_FIELDS.items():
@@ -403,7 +416,7 @@ def process_opencost_xml(*xml_content_strings):
                 prefix = "Error: "
                 if "doi" in publication_data:
                     prefix = "Error (" +  publication_data["doi"] + "): "
-                oat.print_r(prefix + cost_data_extract["error_msg"])
+                logging.error(prefix + cost_data_extract["error_msg"])
                 extracted_publications.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
                 continue
             for field, value in cost_data_extract["data"].items():
@@ -411,11 +424,12 @@ def process_opencost_xml(*xml_content_strings):
                     publication_data[field] = value
             extracted_publications.append(publication_data)
         contracts = root.findall(contract_xpath, namespaces)
+        logging.info("{} contracts extracted.".format(len(contracts)))
         for contract in contracts:
             cost_data_element = contract.find(cost_data_xpath, namespaces)
             invoices_extract = _process_oc_contract_cost_data(cost_data_element, namespaces)
             if not invoices_extract["success"]:
-                oat.print_r("Error: " + invoices_extract["error_msg"])
+                logging.error("Error: " + invoices_extract["error_msg"])
                 continue
             extracted_invoices += invoices_extract["data"]
     extracted_publications = _apply_contract_data(extracted_publications, extracted_invoices)
@@ -501,7 +515,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
             if field in ["date_paid", "date_invoice"]:
                 if value != final_data[field]:
                     msg = msgs["date_inconsistent"].format(field, value, final_data[field])
-                    oat.print_c(msg)
+                    logging.warning(msg)
                     if value < final_data[field]:
                         final_data[field] = value
             else:
@@ -509,7 +523,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
                 msg = msgs["add_amounts_invoices"]
                 old_value = final_data[field]
                 msg = msg.format(field, old_value, value, old_value + value)
-                oat.print_c(msg)
+                loggign.info(msg)
                 final_data[field] += value
     # Final consistency checks + hybrid status extraction
     if "gold-oa" in final_data and "hybrid-oa" in final_data:
