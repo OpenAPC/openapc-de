@@ -128,7 +128,13 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
         'multiple_vats': 'Encountered more than one cost_type "vat". Data ' +
                          'might be ambiguous, please check manually. ',
         'vat_without_costs': 'Encountered a positive vat amount without costs ' +
-                             'inside an amount_paid element.',
+                             'inside an "amount_paid" element.',
+        'both_vat_types': 'Encountered both a vat element inside "amount_paid" ' +
+                          'as well as a second "amount_paid" element with cost ' +
+                          'type "vat". This type of modeling is ambiguous and not '
+                          'recommended.',
+        'vat_with_vat': 'An "amount_paid" element with cost_type "vat" should not ' +
+                        'have a "vat" sub element.',
         'add_amounts_paid': 'Cost type {} occurs more than once in the same ' +
                        'invoice, adding amounts ({} + {} = {})'
     }
@@ -142,8 +148,10 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
     ret = {
         "success": False,
         "data": None,
-        "error_msg": None
+        "error_msg": None,
     }
+    local_vat_found = False
+
     data = {}
     for field, xpath in cost_data_xpaths.items():
         results = invoice_element.findall(xpath, namespaces)
@@ -161,17 +169,24 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                 cur = result.find("opencost:currency", namespaces).text
                 cost_type = result.find("opencost:cost_type", namespaces).text
                 amount = result.find("opencost:amount", namespaces).text
-                vat = result.find("opencost:vat", namespaces).text
+                possible_vat = result.find("opencost:vat", namespaces)
+                vat_text = None
+                if possible_vat is not None:
+                    vat_text = possible_vat.text
                 value = 0.0
                 if amount is not None:
                     value = oat._auto_atof(amount)
-                if vat is not None:
-                    vat_value = oat._auto_atof(vat)
+                if vat_text is not None:
+                    vat_value = oat._auto_atof(vat_text)
                     if value == 0.0 and vat_value > 0.0:
                         ret["error_msg"] = msgs["vat_without_costs"]
                         return ret
+                    elif vat_value > 0.0 and cost_type == 'vat':
+                        ret["error_msg"] = msgs["vat_with_vat"]
+                        return ret
                     else:
                         value += vat_value
+                        local_vat_found = True
                 if cur != "EUR":
                     if "date_paid" in data:
                         period = data["date_paid"]
@@ -196,10 +211,15 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                     msg = msg.format(value, cur, euro_value, period)
                     logging.info(msg)
                     value = euro_value
-                # Add monetary values of the same cost type
+                # Add monetary values of the same cost type, handle problematic VAT cases
                 target_field = cost_type
+                if target_field == 'vat' and local_vat_found:
+                    if strict_vat:
+                        ret["error_msg"] = msgs["both_vat_types"]
+                        return ret
+                    else:
+                        logging.warning(msgs["both_vat_types"])
                 if target_field in data:
-                    # special case VAT, needs to be solved later
                     if target_field == 'vat' and strict_vat:
                         ret["error_msg"] = msgs["multiple_vats"]
                         return ret
@@ -523,7 +543,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
                 msg = msgs["add_amounts_invoices"]
                 old_value = final_data[field]
                 msg = msg.format(field, old_value, value, old_value + value)
-                loggign.info(msg)
+                logging.info(msg)
                 final_data[field] += value
     # Final consistency checks + hybrid status extraction
     if "gold-oa" in final_data and "hybrid-oa" in final_data:
