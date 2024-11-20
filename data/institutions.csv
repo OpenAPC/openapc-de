@@ -563,16 +563,16 @@ IRS,irs,Leibniz-Institut für Raumbezogene Sozialforschung (IRS),EUROPE,DEU,BB,i
 Kalaidos University of Applied Sciences,kalaidos_fh,Kalaidos University of Applied Sciences,EUROPE,CHE,CH.ZH,NA,https://ror.org/049c2kr37,NA,NA,https://www.kalaidos-fh.ch/de-CH/,NA
 University of Teacher Education in Special Needs,hfh,University of Teacher Education in Special Needs,UROPE,CHE,CH.ZH,NA,https://ror.org/00w9q2c06,NA,NA,https://www.hfh.ch/en,NA
 Pädagogische Hochschule Graubünden,ph_graubuenden,Pädagogische Hochschule Graubünden,EUROPE,CHE,CH.GR,NA,https://ror.org/02fjgft97,NA,NA,https://phgr.ch/,NA
-University of Galway,galway_u,University of Galway,NA,IRL,NA,NA,https://ror.org/03bea9k73,NA,NA,https://www.universityofgalway.ie/,NA
-University College Dublin,dublin_u,University College Dublin,NA,IRL,NA,NA,https://ror.org/05m7pjf47,NA,NA,https://www.ucd.ie/,NA
-University of Limerick,limerick_u,University of Limerick,NA,IRL,NA,NA,https://ror.org/00a0n9e72,NA,NA,https://www.ul.ie/,NA
-Trinity College Dublin,dublin_trinity,Trinity College Dublin,NA,IRL,NA,NA,https://ror.org/02tyrky19,NA,NA,https://www.tcd.ie/,NA
-Technological University Dublin,dublin_tu,Technological University Dublin,NA,IRL,NA,NA,https://ror.org/04t0qbt32,NA,NA,https://www.tudublin.ie/,NA
-Dublin City University,dublin_city_u,Dublin City University,NA,IRL,NA,NA,https://ror.org/04a1a1e81,NA,NA,https://www.dcu.ie/,NA
-University College Cork,cork_uc,University College Cork,NA,IRL,NA,NA,https://ror.org/03265fv13,NA,NA,https://www.ucc.ie/en/,NA
-Maynooth University,maynooth_u,Maynooth University,NA,IRL,NA,NA,https://ror.org/048nfjm95,NA,NA,https://www.maynoothuniversity.ie/,NA
-Royal College of Surgeons in Ireland,rcsi,Royal College of Surgeons in Ireland,NA,IRL,NA,NA,https://ror.org/01hxy9878,NA,NA,https://www.rcsi.com/dublin,NA
-Teagasc,teagasc,Teagasc - The Irish Agriculture and Food Development Authority,NA,IRL,NA,NA,https://ror.org/03sx84n71,NA,NA,https://www.teagasc.ie/,NA
+University of Galway,galway_u,University of Galway,EUROPE,IRL,IE-G,NA,https://ror.org/03bea9k73,NA,NA,https://www.universityofgalway.ie/,NA
+University College Dublin,dublin_u,University College Dublin,EUROPE,IRL,IE-D,NA,https://ror.org/05m7pjf47,NA,NA,https://www.ucd.ie/,NA
+University of Limerick,limerick_u,University of Limerick,EUROPE,IRL,IE-LK,NA,https://ror.org/00a0n9e72,NA,NA,https://www.ul.ie/,NA
+Trinity College Dublin,dublin_trinity,Trinity College Dublin,EUROPE,IRL,IE-D,NA,https://ror.org/02tyrky19,NA,NA,https://www.tcd.ie/,NA
+Technological University Dublin,dublin_tu,Technological University Dublin,EUROPE,IRL,IE-D,NA,https://ror.org/04t0qbt32,NA,NA,https://www.tudublin.ie/,NA
+Dublin City University,dublin_city_u,Dublin City University,EUROPE,IRL,IE-D,NA,https://ror.org/04a1a1e81,NA,NA,https://www.dcu.ie/,NA
+University College Cork,cork_uc,University College Cork,EUROPE,IRL,IE-CO,NA,https://ror.org/03265fv13,NA,NA,https://www.ucc.ie/en/,NA
+Maynooth University,maynooth_u,Maynooth University,EUROPE,IRL,IE-KE,NA,https://ror.org/048nfjm95,NA,NA,https://www.maynoothuniversity.ie/,NA
+Royal College of Surgeons in Ireland,rcsi,Royal College of Surgeons in Ireland,EUROPE,IRL,IE-D,NA,https://ror.org/01hxy9878,NA,NA,https://www.rcsi.com/dublin,NA
+Teagasc,teagasc,Teagasc - The Irish Agriculture and Food Development Authority,EUROPE,IRL,IE-CW,NA,https://ror.org/03sx84n71,NA,NA,https://www.teagasc.ie/,NA
 Fachhochschule Südwestfalen,fh_swf,Fachhochschule Südwestfalen,EUROPE,DEU,NW,fhswf,https://ror.org/04t5phd24,HEI,NA,https://www.fh-swf.de/de/studierende/rund_ums_studium/bibliothek_1/publikationsdienstleistungen/publikationsdienstleistungen.php#absatz_container_oa_fh,NA
 Leibniz-BIPS,bips,Leibniz-Institut für Präventionsforschung und Epidemiologie - BIPS,EUROPE,DEU,HB,bips,https://ror.org/02c22vc57,INS,WGL,https://www.bips-institut.de/en/index.html,NA
 DIfE,dife,Deutsches Institut für Ernährungsforschung Potsdam-Rehbrücke,EUROPE,DEU,BB,dife,https://ror.org/05xdczy51,INS,WGL,https://www.dife.de/en/about-us/organization/science-coordination/,NA
@@ -597,13 +597,13 @@ Koeln U,koeln_u,Universität zu Köln,EUROPE,DEU,NW,unikoeln,https://ror.org/00r
 Leibniz-IÖR,ioer,Leibniz-Institut für ökologische Raumentwicklung,EUROPE,DEU,SN,ioer,https://ror.org/02t26g637,INS,WGL,https://www.ioer.de/en/,NA
 HS Neubrandenburg,hs_neubrandenburg,Hochschule Neubrandenburg,EUROPE,DEU,MV,hsneubrandenburg,https://ror.org/03b9q7371,HEI,NA,https://www.hs-nb.de/bibliothek/hauptmenue/wissenschaftliche-services/publizieren/open-access-beratung/#c1402011,NA
 Consejo Superior de Investigaciones Cientificas (CSIC),csic,Consejo Superior de Investigaciones Cientificas (CSIC),EUROPE,ESP,ES.MD,csic,https://ror.org/02gfc7t72,NA,NA,https://www.csic.es/en,NA
-Technological University of the Shannon: Midlands Midwest,tus,Technological University of the Shannon: Midlands Midwest,NA,IRL,NA,NA,https://ror.org/04efm0253,NA,NA,https://tus.ie/,NA
-Munster Technological University,munster_tu,Munster Technological University,NA,IRL,NA,NA,https://ror.org/013xpqh61,NA,NA,https://www.mtu.ie/,NA
-Mary Immaculate College,mi_college,Mary Immaculate College,NA,IRL,NA,NA,https://ror.org/009q3yg92,NA,NA,https://www.mic.ul.ie/,NA
-"Institute of Art, Design + Technology",iadt,"Dún Laoghaire Institute of Art, Design and Technology",NA,IRL,NA,NA,https://ror.org/02dk7c653,NA,NA,https://iadt.ie/,NA
-South East Technological University,south_east_tu,South East Technological University,NA,IRL,NA,NA,https://ror.org/03fgx6868,NA,NA,https://www.setu.ie/,NA
-Atlantic Technological University,atlantic_tu,Atlantic Technological University,NA,IRL,NA,NA,https://ror.org/0458dap48,NA,NA,https://www.atu.ie,NA
-Dundalk Institute of Technology,dundalk_it,Dundalk Institute of Technology,NA,IRL,NA,NA,https://ror.org/01800zd49,NA,NA,https://www.dkit.ie/,NA
+Technological University of the Shannon: Midlands Midwest,tus,Technological University of the Shannon: Midlands Midwest,EUROPE,IRL,IE-WH,NA,https://ror.org/04efm0253,NA,NA,https://tus.ie/,NA
+Munster Technological University,munster_tu,Munster Technological University,EUROPE,IRL,IE-CO,NA,https://ror.org/013xpqh61,NA,NA,https://www.mtu.ie/,NA
+Mary Immaculate College,mi_college,Mary Immaculate College,EUROPE,IRL,IE-LK,NA,https://ror.org/009q3yg92,NA,NA,https://www.mic.ul.ie/,NA
+"Institute of Art, Design + Technology",iadt,"Dún Laoghaire Institute of Art, Design and Technology",EUROPE,IRL,IE-D,NA,https://ror.org/02dk7c653,NA,NA,https://iadt.ie/,NA
+South East Technological University,south_east_tu,South East Technological University,EUROPE,IRL,IE-WD,NA,https://ror.org/03fgx6868,NA,NA,https://www.setu.ie/,NA
+Atlantic Technological University,atlantic_tu,Atlantic Technological University,EUROPE,IRL,IE-G,NA,https://ror.org/0458dap48,NA,NA,https://www.atu.ie,NA
+Dundalk Institute of Technology,dundalk_it,Dundalk Institute of Technology,EUROPE,IRL,IE-LH,NA,https://ror.org/01800zd49,NA,NA,https://www.dkit.ie/,NA
 Scuola Normale Superiore,sns,Scuola Normale Superiore,EUROPE,ITA,IT-52,sns,https://ror.org/03aydme10,NA,NA,https://www.sns.it/it,NA
 University Hospital of Bern,bern_uh,University Hospital of Bern,EUROPE,CHE,CH.BE,NA,https://ror.org/01q9sj412,NA,NA,https://www.insel.ch/de/,NA
 Université de Limoges,limoges_u,Université de Limoges,EUROPE,FRA,FR-NAQ,couperin/limoges,https://ror.org/02cp04407,NA,NA,https://www.unilim.fr/?lang=en,NA

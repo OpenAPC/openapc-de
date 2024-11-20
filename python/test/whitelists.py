@@ -878,6 +878,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1746-1391", # European Journal of Sport Science, Gold OA since 2024
     "1601-1848", # Genes, Brain and Behavior, Gold OA since 2022
     "0031-5990", # Perspectives in Psychiatric Care, Gold OA since 2023
+    "1420-682X", # Cellular and Molecular Life Sciences, Gold OA since 2024
+    "1432-1262", # International Journal of Colorectal Disease, Gold OA since 2024
+    "1471-5546", # Science and Engineering Ethics, Gold OA since 2024
+    "1720-8319", # Aging Clinical and Experimental Research, Gold OA since 2024
+    "2398-063X", # Behavioural Public Policy, Gold OA since 2024
+    "0893-8849", # Journal of the World Aquaculture Society, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
