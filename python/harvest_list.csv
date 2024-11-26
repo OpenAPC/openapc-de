@@ -7,3 +7,4 @@ FALSE,"intact","data/unisaarland","https://publikationen.sulb.uni-saarland.de/oa
 FALSE,"intact","data/rwth","https://publications.rwth-aachen.de/oai2d","OpenAPC","OpenAPC","'url':'%identifier%'"
 FALSE,"opencost","data/desy","https://bib-pubdb1.desy.de/oai2d","openCost","openCost","'url':'%identifier%'"
 FALSE,"opencost","data/unibi","https://pub.uni-bielefeld.de/oai","OpenCost","","'url':'%identifier%'"
+TRUE,"opencost","data/uniulm/opencost_test","https://oparu.uni-ulm.de/server/oai/request","opencost","opencost","'url':'%identifier%'"
