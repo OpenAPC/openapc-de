@@ -233,13 +233,24 @@ apc_ac_grouped <- apc_ac_long %>%
   group_by(cost_type, publisher) %>%
   summarize(value = sum(value), articles = n())
 
+apc_ac_biggest <- apc_ac_grouped %>%
+  group_by(publisher) %>%
+  summarize(value=sum(value)) %>%
+  arrange(desc(value))
+
+apc_ac_big_publishers <- apc_ac_biggest[1:20,] %>%
+  select(publisher)
+
+apc_ac_grouped_biggest <- apc_ac_big_publishers %>%
+  left_join(apc_ac_grouped)
+
 apc_ac_long_table <- apc_ac_long %>%
   filter(cost_type != "apc") %>%
   group_by(cost_type) %>%
   summarize(count = n(), value = sum(value))
 
 p <- apc_ac %>%
-  ggplot(data = apc_ac_grouped, mapping = aes(x = publisher, y = value, fill=cost_type)) +
+  ggplot(data = apc_ac_grouped_biggest, mapping = aes(x = factor(publisher, as.vector(apc_ac_big_publishers$publisher)), y = value, fill=cost_type)) +
   geom_col(position = position_stack(reverse = TRUE)) + 
   xlab('Publisher') + 
   ylab("Summarized Costs (€)") +
