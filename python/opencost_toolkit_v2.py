@@ -33,6 +33,7 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("type", "opencost:publication_type"),
     ("contract_primary_identifier", None),
     ("contract_group_id", None),
+    ("external_costsplitting", "opencost:external_costsplitting"),
     ("gold-oa", None),
     ("vat", None),
     ("colour charge", None),
@@ -46,6 +47,11 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("submission fee", None),
     ("payment fee", None),
     ("url", None)
+])
+
+OPENCOST_CONTRACT_EXTRACTION_FIELDS = OrderedDict([
+    ("institution_ror", "opencost:institution//opencost:id[opencost:type='ror']//opencost:value"),
+    ("contract_id", "opencost:primary_identifier[opencost:type='ESAC']//opencost:value")
 ])
 
 # Do not quote the values in 'period' and all cost columns
@@ -376,17 +382,18 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
 
 def process_opencost_xml(*xml_content_strings):
     """
-    Extract OpenAPC compatible field content from openCost XML
+    Extract field content from openCost XML which is relevant to OpenAPC
 
     Take strings containing XML (which should validate against the
-    openCost XML schema) and extract a list of dicts representing
-    the extracted publication metadata.
-
-    Note that openCost XML may contain both data on publications and
-    agreements ("publication" and "contract"). This method will extract
-    both and calculate cost data/periods for publications published
-    under an agreement using the invoice id.
+    openCost XML schema) and return a tuple containing a list of
+    publication metadata and a list of contract invoice groups.
     """
+
+    msgs = {
+        'external_costsplitting': 'Record has been flagged for external costsplitting. ' +
+                                  'The cost data probably does not represent the full ' +
+                                  'amount OpenAPC is interested in, article was omitted.'
+    }
 
     namespaces = {
         "opencost": "https://opencost.de"
@@ -395,6 +402,7 @@ def process_opencost_xml(*xml_content_strings):
     publication_xpath = "opencost:publication"
     contract_xpath = "opencost:contract"
     cost_data_xpath = "opencost:cost_data"
+
 
     extracted_publications = []
     extracted_invoice_groups = []
@@ -412,6 +420,14 @@ def process_opencost_xml(*xml_content_strings):
                     result = publication.find(xpath, namespaces)
                     if result is not None and result.text is not None:
                         publication_data[field] = result.text
+            if "external_costsplitting" in publication_data:
+                if publication_data["external_costsplitting"] in ["1", "true"]:
+                    prefix = ""
+                    if "doi" in publication_data:
+                        prefix += " (" +  publication_data["doi"] + "): "
+                    logging.warning(prefix + msgs["external_costsplitting"])
+                    extracted_publications.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
+                    continue
             cost_data_element = publication.find(cost_data_xpath, namespaces)
             cost_data_extract = _process_oc_publication_cost_data(cost_data_element, namespaces)
             if not cost_data_extract["success"]:
@@ -428,14 +444,21 @@ def process_opencost_xml(*xml_content_strings):
         contracts = root.findall(contract_xpath, namespaces)
         logging.info("{} contracts extracted.".format(len(contracts)))
         for contract in contracts:
+            contract_data = {}
+            for field, xpath in OPENCOST_CONTRACT_EXTRACTION_FIELDS.items():
+                contract_data[field] = "NA"
+                if xpath is not None:
+                    result = contract.find(xpath, namespaces)
+                    if result is not None and result.text is not None:
+                        contract_data[field] = result.text
             cost_data_element = contract.find(cost_data_xpath, namespaces)
             invoice_groups_extract = _process_oc_contract_cost_data(cost_data_element, namespaces)
             if not invoice_groups_extract["success"]:
                 logging.error("Error: " + invoice_groups_extract["error_msg"])
                 continue
-            extracted_invoice_groups += invoice_groups_extract["data"]
-    extracted_publications = _apply_contract_data(extracted_publications, extracted_invoice_groups)
-    return extracted_publications
+            invoice_groups = [{**invoice_group, **contract_data} for invoice_group in invoice_groups_extract["data"]]
+            extracted_invoice_groups += invoice_groups
+    return extracted_publications, extracted_invoice_groups
 
 def _process_oc_publication_cost_data(cost_data_element, namespaces):
     """
@@ -552,18 +575,26 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     ret["data"] = final_data
     return ret
 
-def _apply_contract_data(extracted_records, extracted_invoice_groups):
+def apply_contract_data(extracted_records, extracted_invoice_groups):
+    """
+    Distribute costs from contract invoice groups over linked publications
+
+    openCost XML may contain both data on publications and
+    agreements ("publication" and "contract"). This method will distribute
+    cost data/periods for publications published under an agreement using the
+    invoice group id. It is meant to work on data returned by process_opencost_xml()
+    """
 
     msgs = {
         "group_id_dup": "Error: group_id '{}' occurs more than once!",
-        "cost_assigned": "Warning: Record ({}) has assigned non-zero " +
+        "cost_assigned": "Record ({}) has assigned non-zero " +
                          "costs of type {} ({}€), but is also linked " +
                          "to a contract via a group_id ({}). Record " +
                          "cost data was kept, please note that this record " +
                          "does not count towards the total number under " +
                          "the specific contract.",
-        "no_records": "Warning: No Records were found matching the " +
-                      "invoice group_id '{}'",
+        "no_records": "No Records were found matching the " +
+                      "invoice group_id '{}' (contract ID: {})",
         "cost_calculation": "Found {} records linked to group_id '{}'. " +
                             "Publication costs of {} € / {} = {} € will be " +
                             "assigned."
@@ -588,12 +619,12 @@ def _apply_contract_data(extracted_records, extracted_invoice_groups):
                     msg = msgs["cost_assigned"]
                     msg = msg.format(record["doi"], cost_type, 
                                      record[cost_type], group_id)
-                    logging.warning(msg)
+                    logging.info(msg)
                     continue
             record_count += 1
             record["target_group_id"] = group_id
         if record_count == 0:
-            msg = msgs["no_records"].format(group_id)
+            msg = msgs["no_records"].format(group_id, group["contract_id"])
             logging.warning(msg)
             continue
         record_costs = round(group["group_total_costs"] / record_count, 2)
