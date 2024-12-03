@@ -614,13 +614,17 @@ def apply_contract_data(extracted_records, extracted_invoice_groups):
                 continue
             if record["contract_group_id"] != group_id:
                 continue
+            assigned_costs_found = False
             for cost_type in ["gold-oa", "hybrid-oa"]:
                 if record[cost_type] != "NA" and record[cost_type] > 0.0:
                     msg = msgs["cost_assigned"]
                     msg = msg.format(record["doi"], cost_type, 
                                      record[cost_type], group_id)
                     logging.info(msg)
-                    continue
+                    assigned_costs_found = True
+                    break
+            if assigned_costs_found:
+                continue
             record_count += 1
             record["target_group_id"] = group_id
         if record_count == 0:
