@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Potsdam U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 93145.40000000001 €. (group_id: adb0c734-7136-4ed1-9db3-ff0614679ff0)
+73 articles without publication-level costs were linked to this group id. A preliminary EAPC of 93145.40000000001 / 73 = 1275.96 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00453-022-01089-6) has an 'euro' value of 1275.96 €. ==> passed.
+
+Potsdam U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 186415.82 €. (group_id: 208eada7-cfcc-4479-9e48-bc0582205d8b)
+81 articles without publication-level costs were linked to this group id. A preliminary EAPC of 186415.82 / 81 = 2301.43 was assigned to each of them.
+CONTROL: First new article in group (10.1002/aenm.202203576) has an 'euro' value of 2301.43 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'adb0c734-7136-4ed1-9db3-ff0614679ff0', the calculated EAPC is valid.
+ ==> The data file (Potsdam U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '208eada7-cfcc-4479-9e48-bc0582205d8b', the calculated EAPC is valid.
+ ==> The data file (Potsdam U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

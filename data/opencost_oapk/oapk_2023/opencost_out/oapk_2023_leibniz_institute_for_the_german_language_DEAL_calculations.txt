@@ -1,0 +1,11 @@
+=== Overview: Contract group IDs ===
+
+Leibniz Institute for the German Language has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 10566.000000000002 €. (group_id: 30aa5998-b760-46a2-af37-b518fba14922)
+5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 10566.000000000002 / 5 = 2113.2 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10746-022-09654-2) has an 'euro' value of 2113.2 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '30aa5998-b760-46a2-af37-b518fba14922', the calculated EAPC is valid.
+ ==> The data file (Leibniz Institute for the German Language, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+

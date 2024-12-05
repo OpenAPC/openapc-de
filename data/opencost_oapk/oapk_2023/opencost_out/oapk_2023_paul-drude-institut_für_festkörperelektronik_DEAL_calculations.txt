@@ -1,0 +1,16 @@
+=== Overview: Contract group IDs ===
+
+Paul-Drude-Institut für Festkörperelektronik has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 10076.18 €. (group_id: c9d9ab30-534a-4d01-b686-f905ba17f34c)
+There were no articles without publication-level costs linked to this group id.
+
+Paul-Drude-Institut für Festkörperelektronik has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 28456.67 €. (group_id: d60ca474-5eb5-4a6b-9f89-6b1a23954e15)
+There were no articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+

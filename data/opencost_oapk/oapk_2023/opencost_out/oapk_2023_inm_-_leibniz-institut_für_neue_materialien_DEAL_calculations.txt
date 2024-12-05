@@ -1,0 +1,25 @@
+=== Overview: Contract group IDs ===
+
+INM - Leibniz-Institut für Neue Materialien has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 13145.22 €. (group_id: 08e8a717-700b-4482-b719-706b5dcdc70f)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 13145.22 / 1 = 13145.22 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s12274-023-5569-2) has an 'euro' value of 13145.22 €. ==> passed.
+
+INM - Leibniz-Institut für Neue Materialien has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 60196.72 €. (group_id: ce045f5e-3299-420c-bfb6-e98c4c86bb41)
+10 articles without publication-level costs were linked to this group id. A preliminary EAPC of 60196.72 / 10 = 6019.67 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adfm.202308269) has an 'euro' value of 6019.67 €. ==> passed.
+
+INM - Leibniz-Institut für Neue Materialien has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 4911.3 €. (group_id: 7b28e758-7bea-4588-a2f1-124a9504f598)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4911.3 / 1 = 4911.3 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.xcrp.2023.101661) has an 'euro' value of 4911.3 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '08e8a717-700b-4482-b719-706b5dcdc70f', the calculated EAPC is valid.
+ ==> The data file (INM - Leibniz-Institut für Neue Materialien, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group 'ce045f5e-3299-420c-bfb6-e98c4c86bb41', the calculated EAPC is valid.
+ ==> The data file (INM - Leibniz-Institut für Neue Materialien, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '7b28e758-7bea-4588-a2f1-124a9504f598', the calculated EAPC is valid.
+ ==> The data file (INM - Leibniz-Institut für Neue Materialien, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+

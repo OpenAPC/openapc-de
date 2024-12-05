@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+HS Reutlingen has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 23738.46 €. (group_id: d9fde31e-4db0-46d4-a6ed-a8ab5a839155)
+6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 23738.46 / 6 = 3956.41 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11618-023-01150-2) has an 'euro' value of 3956.41 €. ==> passed.
+
+HS Reutlingen has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 13547.59 €. (group_id: 73ba3031-d867-40ea-9646-277e67071664)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 13547.59 / 1 = 13547.59 was assigned to each of them.
+CONTROL: First new article in group (10.1002/jcaf.22669) has an 'euro' value of 13547.59 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'd9fde31e-4db0-46d4-a6ed-a8ab5a839155', the calculated EAPC is valid.
+ ==> The data file (HS Reutlingen, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '73ba3031-d867-40ea-9646-277e67071664', the calculated EAPC is valid.
+ ==> The data file (HS Reutlingen, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

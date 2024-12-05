@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Regensburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 321388.42 €. (group_id: dbbb79b5-78f3-43fd-bfdf-0603b106e0fb)
+115 articles without publication-level costs were linked to this group id. A preliminary EAPC of 321388.42 / 115 = 2794.68 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00028-022-00861-z) has an 'euro' value of 2794.68 €. ==> passed.
+
+Regensburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 282474.41000000003 €. (group_id: 33482625-6535-41c2-8432-32e266efc6d9)
+96 articles without publication-level costs were linked to this group id. A preliminary EAPC of 282474.41000000003 / 96 = 2942.44 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adma.202209333) has an 'euro' value of 2942.44 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'dbbb79b5-78f3-43fd-bfdf-0603b106e0fb', the calculated EAPC is valid.
+ ==> The data file (Regensburg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '33482625-6535-41c2-8432-32e266efc6d9', the calculated EAPC is valid.
+ ==> The data file (Regensburg U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

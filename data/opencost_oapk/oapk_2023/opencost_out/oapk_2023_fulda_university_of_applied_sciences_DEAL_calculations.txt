@@ -1,0 +1,22 @@
+=== Overview: Contract group IDs ===
+
+Fulda University of Applied Sciences has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 27980.35 €. (group_id: 58b04e47-f2b8-46e6-82ed-9fc05dfbd6a8)
+There were no articles without publication-level costs linked to this group id.
+
+Fulda University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 28579.82 €. (group_id: 15bc562b-023d-46b7-a3a7-4fec6606810b)
+There were no articles without publication-level costs linked to this group id.
+
+Fulda University of Applied Sciences has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 0.0 €. (group_id: 3cdbdff0-f8d9-428b-991a-8184e249d640)
+There were no articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+

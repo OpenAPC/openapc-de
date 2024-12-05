@@ -1,0 +1,11 @@
+=== Overview: Contract group IDs ===
+
+ASH Berlin has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 4218.94 €. (group_id: c974dd79-3f74-4427-b603-c3f06f802b64)
+6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4218.94 / 6 = 703.16 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11553-023-01069-w) has an 'euro' value of 703.16 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'c974dd79-3f74-4427-b603-c3f06f802b64', the calculated EAPC is valid.
+ ==> The data file (ASH Berlin, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+

@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+FU Berlin has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 229553.4 €. (group_id: df6223ff-7d50-4950-b98d-8313e72de102)
+91 articles without publication-level costs were linked to this group id. A preliminary EAPC of 229553.4 / 91 = 2522.56 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00787-023-02147-2) has an 'euro' value of 2522.56 €. ==> passed.
+
+FU Berlin has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 272525.31999999995 €. (group_id: 14191948-ab95-4ca6-8214-ce1b2bed9862)
+123 articles without publication-level costs were linked to this group id. A preliminary EAPC of 272525.31999999995 / 123 = 2215.65 was assigned to each of them.
+CONTROL: First new article in group (10.1002/anie.202300254) has an 'euro' value of 2215.65 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'df6223ff-7d50-4950-b98d-8313e72de102', the calculated EAPC is valid.
+ ==> The data file (FU Berlin, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '14191948-ab95-4ca6-8214-ce1b2bed9862', the calculated EAPC is valid.
+ ==> The data file (FU Berlin, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
