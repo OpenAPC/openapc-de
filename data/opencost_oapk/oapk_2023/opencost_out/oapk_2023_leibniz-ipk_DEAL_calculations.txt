@@ -1,0 +1,37 @@
+=== Overview: Contract group IDs ===
+
+Leibniz-IPK has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 33677.549999999996 €. (group_id: 80185b98-c821-4827-bf15-280a4d1ac089)
+7 articles without publication-level costs were linked to this group id. A preliminary EAPC of 33677.549999999996 / 7 = 4811.08 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00412-023-00785-8) has an 'euro' value of 4811.08 €. ==> passed.
+
+Leibniz-IPK has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 56727.41 €. (group_id: b33ef403-8836-4d52-ac8a-e84ebe0ef576)
+5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 56727.41 / 5 = 11345.48 was assigned to each of them.
+CONTROL: First new article in group (10.1111/nph.18871) has an 'euro' value of 11345.48 €. ==> passed.
+
+Leibniz-IPK has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -7475.0599999999995 €. (group_id: 2bad819b-8f45-4f14-ad97-f37dcac77f49)
+There were no articles without publication-level costs linked to this group id.
+IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (5 articles, EAPC: 12155.88 €). EAPC needs to be updated, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '80185b98-c821-4827-bf15-280a4d1ac089', the calculated EAPC is valid.
+ ==> The data file (Leibniz-IPK, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group 'b33ef403-8836-4d52-ac8a-e84ebe0ef576', the calculated EAPC is valid.
+ ==> The data file (Leibniz-IPK, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  2bad819b-8f45-4f14-ad97-f37dcac77f49                   0                   -7475.0599999999995
+  TA data                                                5                   60779.399999999994
+  -------------------------------------------------------------------------------------------
+  Sum                                                    5                   53304.34
+
+  New EAPC: 53304.34 / 5 = 10660.87
+
+ ==> Existing DEAL data (Leibniz-IPK, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (10660.87) as euro value (5 articles in original file(s), enriched file(s) and TA collection).
+

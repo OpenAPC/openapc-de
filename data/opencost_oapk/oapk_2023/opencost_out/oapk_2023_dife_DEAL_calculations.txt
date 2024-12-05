@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+DIfE has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 4828.74 €. (group_id: dd9d9c4f-bbe8-4278-aa0e-fb3b9ba386b3)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4828.74 / 1 = 4828.74 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11357-023-00902-6) has an 'euro' value of 4828.74 €. ==> passed.
+
+DIfE has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 9314.43 €. (group_id: 8c47b00a-6190-4db2-98cd-417f0929debf)
+3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 9314.43 / 3 = 3104.81 was assigned to each of them.
+CONTROL: First new article in group (10.1002/mnfr.202300137) has an 'euro' value of 3104.81 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'dd9d9c4f-bbe8-4278-aa0e-fb3b9ba386b3', the calculated EAPC is valid.
+ ==> The data file (DIfE, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '8c47b00a-6190-4db2-98cd-417f0929debf', the calculated EAPC is valid.
+ ==> The data file (DIfE, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

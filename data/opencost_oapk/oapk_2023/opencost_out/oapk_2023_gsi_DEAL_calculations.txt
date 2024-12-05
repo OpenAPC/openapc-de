@@ -1,0 +1,37 @@
+=== Overview: Contract group IDs ===
+
+GSI has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 22160.14 €. (group_id: 3befc636-69c8-4783-9c5c-9213c18ac142)
+8 articles without publication-level costs were linked to this group id. A preliminary EAPC of 22160.14 / 8 = 2770.02 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00066-023-02158-7) has an 'euro' value of 2770.02 €. ==> passed.
+
+GSI has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 3745.91 €. (group_id: 19248dc1-815e-46a6-bedc-489bf3faf672)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 3745.91 / 1 = 3745.91 was assigned to each of them.
+CONTROL: First new article in group (10.1002/piuz.202301674) has an 'euro' value of 3745.91 €. ==> passed.
+
+GSI has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 6555.0 €. (group_id: 415b6885-9965-45b6-ae25-1ec0237b00d6)
+There were no articles without publication-level costs linked to this group id.
+IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (4 articles, EAPC: 2385.54 €). EAPC needs to be updated, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '3befc636-69c8-4783-9c5c-9213c18ac142', the calculated EAPC is valid.
+ ==> The data file (GSI, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '19248dc1-815e-46a6-bedc-489bf3faf672', the calculated EAPC is valid.
+ ==> The data file (GSI, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  415b6885-9965-45b6-ae25-1ec0237b00d6                   0                   6555.0
+  TA data                                                4                   9542.16
+  -------------------------------------------------------------------------------------------
+  Sum                                                    4                   16097.16
+
+  New EAPC: 16097.16 / 4 = 4024.29
+
+ ==> Existing DEAL data (GSI, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4024.29) as euro value (4 articles in original file(s), enriched file(s) and TA collection).
+

@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Brandenburg University of Technology Cottbus-Senftenberg has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 129491.70000000001 €. (group_id: ac0e07cf-bf40-46b1-bdb2-3acaca1d8d9e)
+37 articles without publication-level costs were linked to this group id. A preliminary EAPC of 129491.70000000001 / 37 = 3499.78 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00103-023-03728-x) has an 'euro' value of 3499.78 €. ==> passed.
+
+Brandenburg University of Technology Cottbus-Senftenberg has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 93833.05 €. (group_id: ae2d88e3-438c-41cf-9c67-5c3348afd947)
+26 articles without publication-level costs were linked to this group id. A preliminary EAPC of 93833.05 / 26 = 3608.96 was assigned to each of them.
+CONTROL: First new article in group (10.1002/cepa.2361) has an 'euro' value of 3608.96 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'ac0e07cf-bf40-46b1-bdb2-3acaca1d8d9e', the calculated EAPC is valid.
+ ==> The data file (Brandenburg University of Technology Cottbus-Senftenberg, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group 'ae2d88e3-438c-41cf-9c67-5c3348afd947', the calculated EAPC is valid.
+ ==> The data file (Brandenburg University of Technology Cottbus-Senftenberg, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

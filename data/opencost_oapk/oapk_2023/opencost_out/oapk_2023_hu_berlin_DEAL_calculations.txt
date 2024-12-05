@@ -1,0 +1,38 @@
+=== Overview: Contract group IDs ===
+
+HU Berlin has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 316709.58 €. (group_id: c641be94-9afe-419c-8f69-17e18d02feb3)
+There were no articles without publication-level costs linked to this group id.
+
+HU Berlin has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 5976.6 €. (group_id: 26e03ffa-7735-46ad-b1f4-8e10e871cd49)
+87 articles without publication-level costs were linked to this group id. A preliminary EAPC of 5976.6 / 87 = 68.7 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00222-023-01226-0) has an 'euro' value of 68.7 €. ==> passed.
+IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (93 articles, EAPC: 3093.66 €). EAPC needs to be updated, see below.
+
+HU Berlin has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 251880.33000000002 €. (group_id: 063d069c-86e2-4658-9d80-e9b98cfcc491)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 251880.33000000002 / 1 = 251880.33 was assigned to each of them.
+CONTROL: First new article in group (10.1111/sms.14555) has an 'euro' value of 251880.33 €. ==> passed.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There is no conflicting cost data for invoice group '063d069c-86e2-4658-9d80-e9b98cfcc491', the calculated EAPC is valid.
+ ==> The data file (HU Berlin, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Springer Nature Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  26e03ffa-7735-46ad-b1f4-8e10e871cd49                   87                  5976.6
+  TA data                                                93                  287710.38
+  -------------------------------------------------------------------------------------------
+  Sum                                                    180                 293686.98
+
+  New EAPC: 293686.98 / 180 = 1631.59
+
+ ==> Existing DEAL data (HU Berlin, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (1631.59) as euro value (93 articles in original file(s), enriched file(s) and TA collection).
+ ==> New DEAL data (HU Berlin, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (1631.59) as euro value before enrichment (87 articles).
+

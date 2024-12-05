@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+GFZ-Potsdam has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 88546.4 €. (group_id: 5909e704-ce4f-4b9a-a8b0-1c0b89855c5b)
+17 articles without publication-level costs were linked to this group id. A preliminary EAPC of 88546.4 / 17 = 5208.61 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10291-023-01524-3) has an 'euro' value of 5208.61 €. ==> passed.
+
+GFZ-Potsdam has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 55846.99 €. (group_id: ff8e3e90-b105-4e31-b3a4-709046b7a8fa)
+23 articles without publication-level costs were linked to this group id. A preliminary EAPC of 55846.99 / 23 = 2428.13 was assigned to each of them.
+CONTROL: First new article in group (10.1111/ggr.12533) has an 'euro' value of 2428.13 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '5909e704-ce4f-4b9a-a8b0-1c0b89855c5b', the calculated EAPC is valid.
+ ==> The data file (GFZ-Potsdam, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group 'ff8e3e90-b105-4e31-b3a4-709046b7a8fa', the calculated EAPC is valid.
+ ==> The data file (GFZ-Potsdam, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

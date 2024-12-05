@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+TU Clausthal has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 131830.15 €. (group_id: 69e47f84-69af-4166-8fce-d75f1199b842)
+17 articles without publication-level costs were linked to this group id. A preliminary EAPC of 131830.15 / 17 = 7754.71 was assigned to each of them.
+CONTROL: First new article in group (10.1002/cite.202300085) has an 'euro' value of 7754.71 €. ==> passed.
+
+TU Clausthal has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 116315.70000000001 €. (group_id: 4ae13935-bc62-4f28-9d8f-39309c2e00d9)
+26 articles without publication-level costs were linked to this group id. A preliminary EAPC of 116315.70000000001 / 26 = 4473.68 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00521-023-08537-6) has an 'euro' value of 4473.68 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '69e47f84-69af-4166-8fce-d75f1199b842', the calculated EAPC is valid.
+ ==> The data file (TU Clausthal, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '4ae13935-bc62-4f28-9d8f-39309c2e00d9', the calculated EAPC is valid.
+ ==> The data file (TU Clausthal, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+

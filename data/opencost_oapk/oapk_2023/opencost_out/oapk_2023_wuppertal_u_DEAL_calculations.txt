@@ -1,0 +1,40 @@
+=== Overview: Contract group IDs ===
+
+Wuppertal U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 100754.5 €. (group_id: b8efed1e-43ff-464a-8d5b-4ede1747b280)
+56 articles without publication-level costs were linked to this group id. A preliminary EAPC of 100754.5 / 56 = 1799.19 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11618-022-01136-6) has an 'euro' value of 1799.19 €. ==> passed.
+
+Wuppertal U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 141352.44999999998 €. (group_id: 09eee259-095f-49a6-a695-473bff3ceb7c)
+22 articles without publication-level costs were linked to this group id. A preliminary EAPC of 141352.44999999998 / 22 = 6425.11 was assigned to each of them.
+CONTROL: First new article in group (10.1002/mnfr.202200283) has an 'euro' value of 6425.11 €. ==> passed.
+
+Wuppertal U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -8933.400000000001 €. (group_id: 62eb4687-eb5c-46f9-9914-f5672433aae1)
+2 articles without publication-level costs were linked to this group id. A preliminary EAPC of -8933.400000000001 / 2 = -4466.7 was assigned to each of them.
+CONTROL: First new article in group (10.1002/pamm.202200224) has an 'euro' value of -4466.7 €. ==> passed.
+IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (30 articles, EAPC: 4750.52 €). EAPC needs to be updated, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'b8efed1e-43ff-464a-8d5b-4ede1747b280', the calculated EAPC is valid.
+ ==> The data file (Wuppertal U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '09eee259-095f-49a6-a695-473bff3ceb7c', the calculated EAPC is valid.
+ ==> The data file (Wuppertal U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  62eb4687-eb5c-46f9-9914-f5672433aae1                   2                   -8933.400000000001
+  TA data                                                30                  142515.6
+  -------------------------------------------------------------------------------------------
+  Sum                                                    32                  133582.2
+
+  New EAPC: 133582.2 / 32 = 4174.44
+
+ ==> Existing DEAL data (Wuppertal U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4174.44) as euro value (30 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+ ==> New DEAL data (Wuppertal U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4174.44) as euro value before enrichment (2 articles).
+

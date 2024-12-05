@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Augsburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 149187.85 €. (group_id: 73cd3e82-997f-4a4a-8f8c-19cdef51e8cd)
+88 articles without publication-level costs were linked to this group id. A preliminary EAPC of 149187.85 / 88 = 1695.32 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00103-022-03650-8) has an 'euro' value of 1695.32 €. ==> passed.
+
+Augsburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 93701.37 €. (group_id: 18cc19d8-ff70-4843-90ed-9f44dcd5760d)
+19 articles without publication-level costs were linked to this group id. A preliminary EAPC of 93701.37 / 19 = 4931.65 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adbi.202200282) has an 'euro' value of 4931.65 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '73cd3e82-997f-4a4a-8f8c-19cdef51e8cd', the calculated EAPC is valid.
+ ==> The data file (Augsburg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '18cc19d8-ff70-4843-90ed-9f44dcd5760d', the calculated EAPC is valid.
+ ==> The data file (Augsburg U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

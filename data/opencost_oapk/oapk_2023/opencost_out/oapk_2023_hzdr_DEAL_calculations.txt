@@ -1,0 +1,25 @@
+=== Overview: Contract group IDs ===
+
+HZDR has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 33639.86 €. (group_id: dae369a5-26bb-40c4-b6c5-18a23dfbac7d)
+15 articles without publication-level costs were linked to this group id. A preliminary EAPC of 33639.86 / 15 = 2242.66 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s40831-023-00691-4) has an 'euro' value of 2242.66 €. ==> passed.
+
+HZDR has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 63131.96 €. (group_id: e143fe60-cd9d-4e33-b30c-cb8ba11b7441)
+21 articles without publication-level costs were linked to this group id. A preliminary EAPC of 63131.96 / 21 = 3006.28 was assigned to each of them.
+CONTROL: First new article in group (10.1002/smll.202206444) has an 'euro' value of 3006.28 €. ==> passed.
+
+HZDR has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -931.8 €. (group_id: 78c7a930-b4ca-475b-9ed5-f19097fc1ec6)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of -931.8 / 1 = -931.8 was assigned to each of them.
+CONTROL: First new article in group (10.1002/piuz.202201652) has an 'euro' value of -931.8 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'dae369a5-26bb-40c4-b6c5-18a23dfbac7d', the calculated EAPC is valid.
+ ==> The data file (HZDR, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group 'e143fe60-cd9d-4e33-b30c-cb8ba11b7441', the calculated EAPC is valid.
+ ==> The data file (HZDR, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '78c7a930-b4ca-475b-9ed5-f19097fc1ec6', the calculated EAPC is valid.
+ ==> The data file (HZDR, DEAL Wiley Germany, 2022) can be directly enriched and processed.
+

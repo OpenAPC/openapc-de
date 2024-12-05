@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Trier U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 56310.68000000001 €. (group_id: 32caad4e-a384-462f-ac44-ce790095da7f)
+38 articles without publication-level costs were linked to this group id. A preliminary EAPC of 56310.68000000001 / 38 = 1481.86 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00182-023-00866-z) has an 'euro' value of 1481.86 €. ==> passed.
+
+Trier U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 88462.22999999998 €. (group_id: 6890e7ba-3b2d-47d6-af5c-4c4b32e950e8)
+15 articles without publication-level costs were linked to this group id. A preliminary EAPC of 88462.22999999998 / 15 = 5897.48 was assigned to each of them.
+CONTROL: First new article in group (10.1002/pamm.202300012) has an 'euro' value of 5897.48 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '32caad4e-a384-462f-ac44-ce790095da7f', the calculated EAPC is valid.
+ ==> The data file (Trier U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '6890e7ba-3b2d-47d6-af5c-4c4b32e950e8', the calculated EAPC is valid.
+ ==> The data file (Trier U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

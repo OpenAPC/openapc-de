@@ -1,0 +1,32 @@
+=== Overview: Contract group IDs ===
+
+Ulm U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 188494.58 €. (group_id: dc9c6971-360b-4bb5-9350-f1cf84e7b087)
+8 articles without publication-level costs were linked to this group id. A preliminary EAPC of 188494.58 / 8 = 23561.82 was assigned to each of them.
+CONTROL: First new article in group (10.1038/s41375-022-01732-9) has an 'euro' value of 23561.82 €. ==> passed.
+
+Ulm U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 188494.58 €. (group_id: 603b3965-0d4a-4b40-89fb-4b51841ccf7e)
+66 articles without publication-level costs were linked to this group id. A preliminary EAPC of 188494.58 / 66 = 2855.98 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00167-022-07300-z) has an 'euro' value of 2855.98 €. ==> passed.
+
+Ulm U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 233945.35 €. (group_id: 7c56c3e5-f279-4032-8e01-47b612b88f83)
+24 articles without publication-level costs were linked to this group id. A preliminary EAPC of 233945.35 / 24 = 9747.72 was assigned to each of them.
+CONTROL: First new article in group (10.1002/bies.202100236) has an 'euro' value of 9747.72 €. ==> passed.
+
+Ulm U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 242094.61000000002 €. (group_id: c5019f61-f316-4edd-a035-55fa288752cb)
+94 articles without publication-level costs were linked to this group id. A preliminary EAPC of 242094.61000000002 / 94 = 2575.47 was assigned to each of them.
+CONTROL: First new article in group (10.1002/jcu.23415) has an 'euro' value of 2575.47 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'dc9c6971-360b-4bb5-9350-f1cf84e7b087', the calculated EAPC is valid.
+ ==> The data file (Ulm U, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '7c56c3e5-f279-4032-8e01-47b612b88f83', the calculated EAPC is valid.
+ ==> The data file (Ulm U, DEAL Wiley Germany, 2022) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '603b3965-0d4a-4b40-89fb-4b51841ccf7e', the calculated EAPC is valid.
+ ==> The data file (Ulm U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+4) There is no conflicting cost data for invoice group 'c5019f61-f316-4edd-a035-55fa288752cb', the calculated EAPC is valid.
+ ==> The data file (Ulm U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

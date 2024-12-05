@@ -1,0 +1,17 @@
+=== Overview: Contract group IDs ===
+
+Bayreuth U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 252922.8 €. (group_id: 9aec704a-67d8-46b3-80d6-3d06f14bfbfd)
+84 articles without publication-level costs were linked to this group id. A preliminary EAPC of 252922.8 / 84 = 3010.99 was assigned to each of them.
+CONTROL: First new article in group (10.1002/piuz.202301687) has an 'euro' value of 3010.99 €. ==> passed.
+
+Bayreuth U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 253609.54 €. (group_id: 945ce7d7-fe4e-4b2b-a35c-055fd932b19a)
+There were no articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '9aec704a-67d8-46b3-80d6-3d06f14bfbfd', the calculated EAPC is valid.
+ ==> The data file (Bayreuth U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+

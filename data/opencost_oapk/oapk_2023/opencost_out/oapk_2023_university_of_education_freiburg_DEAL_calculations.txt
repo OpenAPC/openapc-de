@@ -1,0 +1,25 @@
+=== Overview: Contract group IDs ===
+
+University of Education Freiburg has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 5590.0 €. (group_id: 3b5524e4-31e7-4f68-9627-d7851b8afd71)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 5590.0 / 1 = 5590.0 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.cedpsych.2023.102224) has an 'euro' value of 5590.0 €. ==> passed.
+
+University of Education Freiburg has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7482.3 €. (group_id: be15b2ae-9320-434b-a130-0c077d239687)
+2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 7482.3 / 2 = 3741.15 was assigned to each of them.
+CONTROL: First new article in group (10.1002/acp.4023) has an 'euro' value of 3741.15 €. ==> passed.
+
+University of Education Freiburg has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 30734.22 €. (group_id: 507cb7cf-d9fa-4bd3-b6c0-265aac67d30e)
+9 articles without publication-level costs were linked to this group id. A preliminary EAPC of 30734.22 / 9 = 3414.91 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11423-023-10213-4) has an 'euro' value of 3414.91 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '3b5524e4-31e7-4f68-9627-d7851b8afd71', the calculated EAPC is valid.
+ ==> The data file (University of Education Freiburg, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group 'be15b2ae-9320-434b-a130-0c077d239687', the calculated EAPC is valid.
+ ==> The data file (University of Education Freiburg, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '507cb7cf-d9fa-4bd3-b6c0-265aac67d30e', the calculated EAPC is valid.
+ ==> The data file (University of Education Freiburg, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+

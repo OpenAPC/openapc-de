@@ -1,0 +1,24 @@
+=== Overview: Contract group IDs ===
+
+DESY has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 11542.71 €. (group_id: 70a985df-b648-43e4-95a2-e69b845ac96c)
+There were no articles without publication-level costs linked to this group id.
+
+DESY has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 100983.75 €. (group_id: f4241b11-5714-48e8-954f-ecf785e97f05)
+5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 100983.75 / 5 = 20196.75 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11224-022-02053-4) has an 'euro' value of 20196.75 €. ==> passed.
+
+DESY has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 22676.539999999997 €. (group_id: 0e026476-3bc7-4375-be07-6dfe44690d72)
+17 articles without publication-level costs were linked to this group id. A preliminary EAPC of 22676.539999999997 / 17 = 1333.91 was assigned to each of them.
+CONTROL: First new article in group (10.1107/s2053273323000682) has an 'euro' value of 1333.91 €. ==> passed.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There is no conflicting cost data for invoice group 'f4241b11-5714-48e8-954f-ecf785e97f05', the calculated EAPC is valid.
+ ==> The data file (DESY, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '0e026476-3bc7-4375-be07-6dfe44690d72', the calculated EAPC is valid.
+ ==> The data file (DESY, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

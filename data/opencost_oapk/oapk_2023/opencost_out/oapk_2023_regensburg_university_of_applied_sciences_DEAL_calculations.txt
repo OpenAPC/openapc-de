@@ -1,0 +1,30 @@
+=== Overview: Contract group IDs ===
+
+Regensburg University of Applied Sciences has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 21533.46 €. (group_id: 183d6416-e215-4388-ae71-797d8932b025)
+7 articles without publication-level costs were linked to this group id. A preliminary EAPC of 21533.46 / 7 = 3076.21 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11044-023-09909-5) has an 'euro' value of 3588.91 €. ==> FAILED!.
+
+Regensburg University of Applied Sciences has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 18117.48 €. (group_id: 2fbfe2bf-6a09-4494-bb36-b1b2367a9247)
+There were no articles without publication-level costs linked to this group id.
+
+Regensburg University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 12187.61 €. (group_id: 749458ef-887b-44e0-932f-b710faef2c18)
+4 articles without publication-level costs were linked to this group id. A preliminary EAPC of 12187.61 / 4 = 3046.9 was assigned to each of them.
+CONTROL: First new article in group (10.1002/smr.2599) has an 'euro' value of 3046.9 €. ==> passed.
+
+Regensburg University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -1094.41 €. (group_id: 6a854d0a-0606-41ba-a04f-931e29f28ea1)
+There were no articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '183d6416-e215-4388-ae71-797d8932b025', the calculated EAPC is valid.
+ ==> The data file (Regensburg University of Applied Sciences, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '749458ef-887b-44e0-932f-b710faef2c18', the calculated EAPC is valid.
+ ==> The data file (Regensburg University of Applied Sciences, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+

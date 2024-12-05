@@ -1,0 +1,25 @@
+=== Overview: Contract group IDs ===
+
+Leibniz-ZMT has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 34020.38 €. (group_id: 5dd244d7-9f8a-4c95-a41d-41bec1141807)
+9 articles without publication-level costs were linked to this group id. A preliminary EAPC of 34020.38 / 9 = 3780.04 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00367-023-00758-x) has an 'euro' value of 3780.04 €. ==> passed.
+
+Leibniz-ZMT has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 22361.899999999998 €. (group_id: 4f55ddd3-08e8-481b-9ee8-9dd7a94bbe2b)
+5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 22361.899999999998 / 5 = 4472.38 was assigned to each of them.
+CONTROL: First new article in group (10.1029/2023jd040126) has an 'euro' value of 4472.38 €. ==> passed.
+
+Leibniz-ZMT has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 8552.7 €. (group_id: 83a1b02b-039e-4ea7-a7c1-3023bf21e167)
+3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 8552.7 / 3 = 2850.9 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.cosust.2023.101379) has an 'euro' value of 2850.9 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '5dd244d7-9f8a-4c95-a41d-41bec1141807', the calculated EAPC is valid.
+ ==> The data file (Leibniz-ZMT, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '4f55ddd3-08e8-481b-9ee8-9dd7a94bbe2b', the calculated EAPC is valid.
+ ==> The data file (Leibniz-ZMT, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '83a1b02b-039e-4ea7-a7c1-3023bf21e167', the calculated EAPC is valid.
+ ==> The data file (Leibniz-ZMT, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+

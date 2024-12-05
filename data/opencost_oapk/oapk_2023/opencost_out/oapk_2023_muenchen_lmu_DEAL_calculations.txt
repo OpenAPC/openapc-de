@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Muenchen LMU has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 569242.27 €. (group_id: 9dc207a9-0914-4b05-bdb7-98d26b428840)
+289 articles without publication-level costs were linked to this group id. A preliminary EAPC of 569242.27 / 289 = 1969.7 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00018-022-04681-9) has an 'euro' value of 1969.7 €. ==> passed.
+
+Muenchen LMU has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 493426.89 €. (group_id: 75a6272f-f6c7-42fc-afb9-c5b0928d71ea)
+231 articles without publication-level costs were linked to this group id. A preliminary EAPC of 493426.89 / 231 = 2136.05 was assigned to each of them.
+CONTROL: First new article in group (10.1002/1873-3468.14601) has an 'euro' value of 2136.05 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '9dc207a9-0914-4b05-bdb7-98d26b428840', the calculated EAPC is valid.
+ ==> The data file (Muenchen LMU, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '75a6272f-f6c7-42fc-afb9-c5b0928d71ea', the calculated EAPC is valid.
+ ==> The data file (Muenchen LMU, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
