@@ -346,7 +346,7 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
                     logging.error(msg.format(link, res["error_msg"]))
                     validation_counts["invalid"] += 1
                 continue
-            publications = process_opencost_xml(data_element_xml)
+            publications, _ = process_opencost_xml(data_element_xml)
             for publication in publications: # Should only be one
                 publication["identifier"] = identifier.text
                 if processing_instructions:
