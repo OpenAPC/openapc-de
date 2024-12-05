@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Leibniz-IGB has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 48650.94 €. (group_id: 2a819f80-e12b-4fbf-9e21-08eef89b630f)
+21 articles without publication-level costs were linked to this group id. A preliminary EAPC of 48650.94 / 21 = 2316.71 was assigned to each of them.
+CONTROL: First new article in group (10.1111/oik.09700) has an 'euro' value of 2316.71 €. ==> passed.
+
+Leibniz-IGB has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 30189.890000000003 €. (group_id: 19dc5ab1-ddad-439d-9301-d0a10c2e94d6)
+5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 30189.890000000003 / 5 = 6037.98 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10533-023-01102-2) has an 'euro' value of 6037.98 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '2a819f80-e12b-4fbf-9e21-08eef89b630f', the calculated EAPC is valid.
+ ==> The data file (Leibniz-IGB, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '19dc5ab1-ddad-439d-9301-d0a10c2e94d6', the calculated EAPC is valid.
+ ==> The data file (Leibniz-IGB, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+

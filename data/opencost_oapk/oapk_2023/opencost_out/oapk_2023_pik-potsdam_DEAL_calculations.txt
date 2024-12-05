@@ -1,0 +1,10 @@
+=== Overview: Contract group IDs ===
+
+PIK-Potsdam has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 7524.83 €. (group_id: 56f7d63c-474e-4ffa-a04d-9a68a0add07d)
+There were no articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+

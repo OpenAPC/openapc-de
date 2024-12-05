@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Frankfurt U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 452638.92 €. (group_id: d8e7e363-4641-4c7c-9def-810e12970a17)
+257 articles without publication-level costs were linked to this group id. A preliminary EAPC of 452638.92 / 257 = 1761.24 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00018-023-04806-8) has an 'euro' value of 1761.24 €. ==> passed.
+
+Frankfurt U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 445647.55 €. (group_id: f7679c3c-b3f5-42e7-9590-1b862407580d)
+152 articles without publication-level costs were linked to this group id. A preliminary EAPC of 445647.55 / 152 = 2931.89 was assigned to each of them.
+CONTROL: First new article in group (10.1002/1873-3468.14545) has an 'euro' value of 2931.89 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'd8e7e363-4641-4c7c-9def-810e12970a17', the calculated EAPC is valid.
+ ==> The data file (Frankfurt U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group 'f7679c3c-b3f5-42e7-9590-1b862407580d', the calculated EAPC is valid.
+ ==> The data file (Frankfurt U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

@@ -1,0 +1,16 @@
+=== Overview: Contract group IDs ===
+
+Nürtingen-Geislingen University of Applied Science has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 24267.84 €. (group_id: 79e44764-381c-41a7-a4e2-a6fd89e491d1)
+There were no articles without publication-level costs linked to this group id.
+
+Nürtingen-Geislingen University of Applied Science has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 8349.849999999999 €. (group_id: 50b0d05f-4f38-4b90-b824-184f3d076ed7)
+There were no articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+

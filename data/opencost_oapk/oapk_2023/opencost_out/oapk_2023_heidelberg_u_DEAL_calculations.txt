@@ -1,0 +1,25 @@
+=== Overview: Contract group IDs ===
+
+Heidelberg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 667232.89 €. (group_id: a35928da-3149-4a92-bde3-32cb5bbf2272)
+307 articles without publication-level costs were linked to this group id. A preliminary EAPC of 667232.89 / 307 = 2173.4 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10851-022-01132-9) has an 'euro' value of 2173.4 €. ==> passed.
+
+Heidelberg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 586533.73 €. (group_id: 0dfeb01e-7eb2-4987-a461-2d80ee8726be)
+190 articles without publication-level costs were linked to this group id. A preliminary EAPC of 586533.73 / 190 = 3087.02 was assigned to each of them.
+CONTROL: First new article in group (10.1002/ejoc.202201383) has an 'euro' value of 3087.02 €. ==> passed.
+
+Heidelberg U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 142545.0 €. (group_id: 539a47d5-77b4-475a-8dee-fafd53339520)
+21 articles without publication-level costs were linked to this group id. A preliminary EAPC of 142545.0 / 21 = 6787.86 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.cplett.2023.140943) has an 'euro' value of 6787.86 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'a35928da-3149-4a92-bde3-32cb5bbf2272', the calculated EAPC is valid.
+ ==> The data file (Heidelberg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '0dfeb01e-7eb2-4987-a461-2d80ee8726be', the calculated EAPC is valid.
+ ==> The data file (Heidelberg U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '539a47d5-77b4-475a-8dee-fafd53339520', the calculated EAPC is valid.
+ ==> The data file (Heidelberg U, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+

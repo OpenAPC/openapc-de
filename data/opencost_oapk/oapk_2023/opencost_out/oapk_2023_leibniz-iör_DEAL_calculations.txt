@@ -1,0 +1,31 @@
+=== Overview: Contract group IDs ===
+
+Leibniz-IÖR has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 2795.0 €. (group_id: 1b9ebcea-503a-489e-8cd4-72fbd014c8ae)
+There were no articles without publication-level costs linked to this group id.
+
+Leibniz-IÖR has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 4324.740000000001 €. (group_id: 016b6fee-d94e-45b9-bda5-53a7ccef0764)
+3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4324.740000000001 / 3 = 1441.58 was assigned to each of them.
+CONTROL: First new article in group (https://doi.org/10.1007/s11356-023-26326-5) has an 'euro' value of 1441.58 €. ==> passed.
+
+Leibniz-IÖR has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 5188.539999999999 €. (group_id: 476a1ae5-3cbb-4ba4-b72c-862d787ae87b)
+2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 5188.539999999999 / 2 = 2594.27 was assigned to each of them.
+CONTROL: First new article in group (https://doi.org/10.1111/jiec.13392) has an 'euro' value of 2594.27 €. ==> passed.
+
+Leibniz-IÖR has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 4127.13 €. (group_id: b39154ae-1f80-422b-bcd6-ac8918c9a116)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4127.13 / 1 = 4127.13 was assigned to each of them.
+CONTROL: First new article in group (https://doi.org/10.1002/rra.3921) has an 'euro' value of 4127.13 €. ==> passed.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There is no conflicting cost data for invoice group '016b6fee-d94e-45b9-bda5-53a7ccef0764', the calculated EAPC is valid.
+ ==> The data file (Leibniz-IÖR, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '476a1ae5-3cbb-4ba4-b72c-862d787ae87b', the calculated EAPC is valid.
+ ==> The data file (Leibniz-IÖR, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+4) There is no conflicting cost data for invoice group 'b39154ae-1f80-422b-bcd6-ac8918c9a116', the calculated EAPC is valid.
+ ==> The data file (Leibniz-IÖR, DEAL Wiley Germany, 2022) can be directly enriched and processed.
+

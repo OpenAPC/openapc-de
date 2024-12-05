@@ -1,0 +1,25 @@
+=== Overview: Contract group IDs ===
+
+TU Braunschweig has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 27950.0 €. (group_id: ce829438-5a77-4e97-abc1-33b2eba92d18)
+16 articles without publication-level costs were linked to this group id. A preliminary EAPC of 27950.0 / 16 = 1746.88 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.uclim.2023.101678) has an 'euro' value of 1746.88 €. ==> passed.
+
+TU Braunschweig has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 226493.52 €. (group_id: 0b98d667-0fbc-4f46-9044-1faff81b8cee)
+67 articles without publication-level costs were linked to this group id. A preliminary EAPC of 226493.52 / 67 = 3380.5 was assigned to each of them.
+CONTROL: First new article in group (10.1365/s40702-023-01024-5) has an 'euro' value of 3380.5 €. ==> passed.
+
+TU Braunschweig has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 268889.05 €. (group_id: 79039735-d387-4708-9f4e-ab639b4eff64)
+72 articles without publication-level costs were linked to this group id. A preliminary EAPC of 268889.05 / 72 = 3734.57 was assigned to each of them.
+CONTROL: First new article in group (10.1002/bit.28636) has an 'euro' value of 3734.57 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group 'ce829438-5a77-4e97-abc1-33b2eba92d18', the calculated EAPC is valid.
+ ==> The data file (TU Braunschweig, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '0b98d667-0fbc-4f46-9044-1faff81b8cee', the calculated EAPC is valid.
+ ==> The data file (TU Braunschweig, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '79039735-d387-4708-9f4e-ab639b4eff64', the calculated EAPC is valid.
+ ==> The data file (TU Braunschweig, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

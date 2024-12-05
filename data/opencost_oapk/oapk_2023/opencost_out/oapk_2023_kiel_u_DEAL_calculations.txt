@@ -1,0 +1,46 @@
+=== Overview: Contract group IDs ===
+
+Kiel U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 69875.0 €. (group_id: 33fbe913-4a63-4a00-aed3-754f2e02967e)
+There were no articles without publication-level costs linked to this group id.
+
+Kiel U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 524324.01 €. (group_id: 1c0d989c-aa24-4645-9657-4dc6022effc8)
+99 articles without publication-level costs were linked to this group id. A preliminary EAPC of 524324.01 / 99 = 5296.2 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10357-023-4153-6) has an 'euro' value of 5296.2 €. ==> passed.
+
+Kiel U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 384123.95999999996 €. (group_id: 9d663192-991b-4950-bb0c-cf397522de06)
+102 articles without publication-level costs were linked to this group id. A preliminary EAPC of 384123.95999999996 / 102 = 3765.92 was assigned to each of them.
+CONTROL: First new article in group (10.1111/mec.17143) has an 'euro' value of 3765.92 €. ==> passed.
+
+Kiel U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 427075.72 €. (group_id: bdb29cb9-5afd-43a3-8670-be38018c8bdb)
+10 articles without publication-level costs were linked to this group id. A preliminary EAPC of 427075.72 / 10 = 42707.57 was assigned to each of them.
+CONTROL: First new article in group (10.1002/ange.202202562) has an 'euro' value of 42707.57 €. ==> passed.
+IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (105 articles, EAPC: 4132.95 €). EAPC needs to be updated, see below.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There is no conflicting cost data for invoice group '1c0d989c-aa24-4645-9657-4dc6022effc8', the calculated EAPC is valid.
+ ==> The data file (Kiel U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '9d663192-991b-4950-bb0c-cf397522de06', the calculated EAPC is valid.
+ ==> The data file (Kiel U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+4) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  bdb29cb9-5afd-43a3-8670-be38018c8bdb                   10                  427075.72
+  TA data                                                105                 433959.75
+  -------------------------------------------------------------------------------------------
+  Sum                                                    115                 861035.47
+
+  New EAPC: 861035.47 / 115 = 7487.26
+
+ ==> Existing DEAL data (Kiel U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (7487.26) as euro value (105 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+ ==> New DEAL data (Kiel U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (7487.26) as euro value before enrichment (10 articles).
+
