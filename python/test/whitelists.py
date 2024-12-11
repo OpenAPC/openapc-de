@@ -524,6 +524,8 @@ JOURNAL_OWNER_CHANGED = {
     "1523-4681": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Bone and Mineral Research (electronic)
     "1746-1391": ["Informa UK Limited", "Wiley-Blackwell"], # European Journal of Sport Science 
     "1536-7290": ["Informa UK Limited", "Wiley-Blackwell"], # European Journal of Sport Science (electronic)
+    "0032-5473": ["BMJ", "Oxford University Press (OUP)"], # Postgraduate Medical Journal 
+	"1469-0756": ["BMJ", "Oxford University Press (OUP)"], # Postgraduate Medical Journal (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -884,6 +886,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1720-8319", # Aging Clinical and Experimental Research, Gold OA since 2024
     "2398-063X", # Behavioural Public Policy, Gold OA since 2024
     "0893-8849", # Journal of the World Aquaculture Society, Gold OA since 2022
+    "0025-7273", # Medical History, Gold OA since 2023
+    "0266-4623", # International Journal of Technology Assessment in Health Care, Gold OA since 2024
+    "0033-2917", # Psychological Medicine, Gold OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
