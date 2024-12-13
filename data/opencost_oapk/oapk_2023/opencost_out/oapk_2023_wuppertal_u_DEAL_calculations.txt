@@ -21,20 +21,22 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
 2) There is no conflicting cost data for invoice group '09eee259-095f-49a6-a695-473bff3ceb7c', the calculated EAPC is valid.
  ==> The data file (Wuppertal U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
  ==> EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  62eb4687-eb5c-46f9-9914-f5672433aae1                   2                   -8933.400000000001
+  62eb4687-eb5c-46f9-9914-f5672433aae1                   --                  -8933.400000000001
   TA data                                                30                  142515.6
+  New OAPK data                                          2                   --
+  Duplicates                                             -2                   --
   -------------------------------------------------------------------------------------------
-  Sum                                                    32                  133582.2
+  Sum                                                    30                  133582.2
 
-  New EAPC: 133582.2 / 32 = 4174.44
+  New EAPC: 133582.2 / 30 = 4452.74
 
- ==> Existing DEAL data (Wuppertal U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4174.44) as euro value (30 articles in original file(s), enriched file(s) and TA collection).
+ ==> Existing DEAL data (Wuppertal U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4452.74) as euro value (30 articles in original file(s), enriched file(s) and TA collection).
  IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
- ==> New DEAL data (Wuppertal U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4174.44) as euro value before enrichment (2 articles).
+ ==> New DEAL data (Wuppertal U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4452.74) as euro value before enrichment (0 articles).
 

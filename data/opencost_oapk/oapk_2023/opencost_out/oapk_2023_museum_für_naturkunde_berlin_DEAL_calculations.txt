@@ -3,10 +3,10 @@
 Museum für Naturkunde Berlin has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 10487.02 €. (group_id: 4199967f-cad6-47bf-a819-2e8b399be0ad)
 There were no articles without publication-level costs linked to this group id.
 
-Museum für Naturkunde Berlin has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 6840.9400000000005 €. (group_id: a30c2424-af06-409d-8bdc-6d5a4ba95d9e)
+Museum für Naturkunde Berlin has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 18036.980000000003 €. (group_id: a8a77905-347f-4a81-a495-ace56927b979)
 There were no articles without publication-level costs linked to this group id.
 
-Museum für Naturkunde Berlin has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 18036.980000000003 €. (group_id: a8a77905-347f-4a81-a495-ace56927b979)
+Museum für Naturkunde Berlin has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 6840.9400000000005 €. (group_id: a30c2424-af06-409d-8bdc-6d5a4ba95d9e)
 There were no articles without publication-level costs linked to this group id.
 
 Museum für Naturkunde Berlin has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 26211.18 €. (group_id: 021d2a77-649d-4b41-8085-930f3a3a931f)

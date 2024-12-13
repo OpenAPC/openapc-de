@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 Darmstadt University of Applied Sciences has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 19435.870000000003 €. (group_id: c9dedac4-840f-4231-90e6-d8930f5da6e5)
-11 articles without publication-level costs were linked to this group id. A preliminary EAPC of 19435.870000000003 / 11 = 1766.9 was assigned to each of them.
-CONTROL: First new article in group (10.1365/s40702-023-00956-2) has an 'euro' value of 1766.9 €. ==> passed.
+8 articles without publication-level costs were linked to this group id. A preliminary EAPC of 19435.870000000003 / 8 = 2429.48 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11063-023-11166-8) has an 'euro' value of 1766.9 €. ==> FAILED!.
 
 Darmstadt University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 20881.620000000003 €. (group_id: 254bb3d3-3ad3-4608-8019-5b0db471bf37)
 1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 20881.620000000003 / 1 = 20881.62 was assigned to each of them.

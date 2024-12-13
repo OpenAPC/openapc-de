@@ -5,8 +5,8 @@ Bauhaus-Universität Weimar has reported DEAL Wiley Germany cost data for the 20
 CONTROL: First new article in group (10.1002/cepa.2437) has an 'euro' value of 2343.54 €. ==> passed.
 
 Bauhaus-Universität Weimar has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 35234.780000000006 €. (group_id: 4e3f99fb-b21b-46a1-8aed-02b7c9cdf4a4)
-11 articles without publication-level costs were linked to this group id. A preliminary EAPC of 35234.780000000006 / 11 = 3203.16 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00466-023-02287-x) has an 'euro' value of 3203.16 €. ==> passed.
+10 articles without publication-level costs were linked to this group id. A preliminary EAPC of 35234.780000000006 / 10 = 3523.48 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00466-023-02287-x) has an 'euro' value of 3203.16 €. ==> FAILED!.
 
 === Update instructions ===
 

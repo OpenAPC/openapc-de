@@ -7,13 +7,13 @@ Saarland U has reported DEAL Springer Nature Germany cost data for the 2022 peri
 98 articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 98 = 3819.46 was assigned to each of them.
 CONTROL: First new article in group (10.1038/s41440-022-00931-2) has an 'euro' value of 3819.46 €. ==> passed.
 
-Saarland U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 374307.31000000006 €. (group_id: 859e255c-a6d4-4f57-ae40-c63c706ac8a2)
-118 articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 118 = 3172.1 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00229-022-01455-2) has an 'euro' value of 3172.1 €. ==> passed.
-
 Saarland U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 311801.25 €. (group_id: e0696154-9b15-439f-81fc-115bed110e8c)
 78 articles without publication-level costs were linked to this group id. A preliminary EAPC of 311801.25 / 78 = 3997.45 was assigned to each of them.
 CONTROL: First new article in group (10.1002/med.21928) has an 'euro' value of 3997.45 €. ==> passed.
+
+Saarland U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 374307.31000000006 €. (group_id: 859e255c-a6d4-4f57-ae40-c63c706ac8a2)
+118 articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 118 = 3172.1 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00229-022-01455-2) has an 'euro' value of 3172.1 €. ==> passed.
 
 Saarland U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 302207.72 €. (group_id: 100e85eb-51ce-43cb-bdc2-6a03bc1ea54f)
 68 articles without publication-level costs were linked to this group id. A preliminary EAPC of 302207.72 / 68 = 4444.23 was assigned to each of them.

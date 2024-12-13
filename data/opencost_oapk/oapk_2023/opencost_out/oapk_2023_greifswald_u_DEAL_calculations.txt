@@ -18,22 +18,41 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
 1) There is no conflicting cost data for invoice group '5d25f2b8-b966-4501-9b42-231610b9cbe9', the calculated EAPC is valid.
  ==> The data file (Greifswald U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '60cb1240-b3a0-436b-9094-224187781162', the calculated EAPC is valid.
- ==> The data file (Greifswald U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
-
-3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
  ==> EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  77bd843c-521b-4aae-b848-ec1d3e694969                   3                   -14798.44
-  TA data                                                48                  245316.48
+  60cb1240-b3a0-436b-9094-224187781162                   --                  228962.09999999998
+  New OAPK data                                          62                  --
+  Duplicates                                             -1                   --
   -------------------------------------------------------------------------------------------
-  Sum                                                    51                  230518.04
+  Sum                                                    61                  228962.09999999998
 
-  New EAPC: 230518.04 / 51 = 4519.96
+  New EAPC: 228962.09999999998 / 61 = 3753.48
 
- ==> Existing DEAL data (Greifswald U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4519.96) as euro value (48 articles in original file(s), enriched file(s) and TA collection).
- ==> New DEAL data (Greifswald U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4519.96) as euro value before enrichment (3 articles).
+ ==> New DEAL data (Greifswald U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3753.48) as euro value before enrichment (61 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1111/jcpe.13763, Greifswald U, 2023  ---- 10.1111/jcpe.13763, Greifswald U, 2022
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  77bd843c-521b-4aae-b848-ec1d3e694969                   --                  -14798.44
+  TA data                                                48                  245316.48
+  New OAPK data                                          3                   --
+  Duplicates                                             -3                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    48                  230518.04
+
+  New EAPC: 230518.04 / 48 = 4802.46
+
+ ==> Existing DEAL data (Greifswald U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4802.46) as euro value (48 articles in original file(s), enriched file(s) and TA collection).
+ ==> New DEAL data (Greifswald U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4802.46) as euro value before enrichment (0 articles).
 

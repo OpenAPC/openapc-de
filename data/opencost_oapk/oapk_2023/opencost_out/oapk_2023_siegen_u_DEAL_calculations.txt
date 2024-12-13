@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 Siegen U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 133613.13 €. (group_id: c73fa6ae-103a-4c6e-8478-84407989fedd)
-47 articles without publication-level costs were linked to this group id. A preliminary EAPC of 133613.13 / 47 = 2842.83 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00048-023-00370-1) has an 'euro' value of 2842.83 €. ==> passed.
+40 articles without publication-level costs were linked to this group id. A preliminary EAPC of 133613.13 / 40 = 3340.33 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00048-023-00370-1) has an 'euro' value of 2842.83 €. ==> FAILED!.
 
 Siegen U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 167980.84 €. (group_id: 24e212d0-2868-43e9-8e7c-781fc4dcbf1b)
 31 articles without publication-level costs were linked to this group id. A preliminary EAPC of 167980.84 / 31 = 5418.74 was assigned to each of them.

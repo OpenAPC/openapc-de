@@ -4,12 +4,12 @@ University of Education Schwaebisch Gmuend has reported DEAL Wiley Germany cost 
 1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4877.0599999999995 / 1 = 4877.06 was assigned to each of them.
 CONTROL: First new article in group (10.1111/aphw.12396) has an 'euro' value of 4877.06 €. ==> passed.
 
-University of Education Schwaebisch Gmuend has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 4337.58 €. (group_id: 5573bbbc-a377-4a17-ac00-641a6544daf5)
-There were no articles without publication-level costs linked to this group id.
-
 University of Education Schwaebisch Gmuend has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 18736.829999999998 €. (group_id: e32e1359-c1ce-4836-b467-76c5ea7384d4)
 6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 18736.829999999998 / 6 = 3122.8 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11553-022-00986-6) has an 'euro' value of 3122.8 €. ==> passed.
+
+University of Education Schwaebisch Gmuend has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 4337.58 €. (group_id: 5573bbbc-a377-4a17-ac00-641a6544daf5)
+There were no articles without publication-level costs linked to this group id.
 
 University of Education Schwaebisch Gmuend has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 8371.74 €. (group_id: f31a3a9b-9168-459f-ac28-e7273185f283)
 6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 8371.74 / 6 = 1395.29 was assigned to each of them.

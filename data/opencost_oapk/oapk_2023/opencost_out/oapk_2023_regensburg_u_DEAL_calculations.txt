@@ -13,6 +13,28 @@ CONTROL: First new article in group (10.1002/adma.202209333) has an 'euro' value
 1) There is no conflicting cost data for invoice group 'dbbb79b5-78f3-43fd-bfdf-0603b106e0fb', the calculated EAPC is valid.
  ==> The data file (Regensburg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '33482625-6535-41c2-8432-32e266efc6d9', the calculated EAPC is valid.
- ==> The data file (Regensburg U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  33482625-6535-41c2-8432-32e266efc6d9                   --                  282474.41000000003
+  New OAPK data                                          96                  --
+  Duplicates                                             -6                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    90                  282474.41000000003
+
+  New EAPC: 282474.41000000003 / 90 = 3138.6
+
+ ==> New DEAL data (Regensburg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3138.6) as euro value before enrichment (90 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1111/nph.18724, Regensburg U, 2023  ---- 10.1111/nph.18724, Regensburg U, 2022
+10.1111/eos.12913, Regensburg U, 2023  ---- 10.1111/eos.12913, Regensburg U, 2022
+10.1112/jlms.12712, Regensburg U, 2023  ---- 10.1112/jlms.12712, Regensburg U, 2022
+10.1111/eos.12916, Regensburg U, 2023  ---- 10.1111/eos.12916, Regensburg U, 2022
+10.1111/ddg.14952, Regensburg U, 2023  ---- 10.1111/ddg.14952, Regensburg U, 2022
+10.1112/topo.12275, Regensburg U, 2023  ---- 10.1112/topo.12275, Regensburg U, 2022
 

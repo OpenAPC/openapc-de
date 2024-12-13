@@ -15,25 +15,44 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '189fac53-2cb9-4298-b123-cca6dc146acb', the calculated EAPC is valid.
- ==> The data file (Mannheim U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
-
-2) There is no conflicting cost data for invoice group '0bbabf14-05c2-4d87-a587-f9e969f879a4', the calculated EAPC is valid.
- ==> The data file (Mannheim U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
-
-3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+1) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2023.
  ==> EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  2f5d1a37-7afd-4710-8eba-7d3aaf18fe0f                   4                   -18402.16
-  TA data                                                20                  156455.0
+  189fac53-2cb9-4298-b123-cca6dc146acb                   --                  149863.40999999997
+  New OAPK data                                          27                  --
+  Duplicates                                             -1                   --
   -------------------------------------------------------------------------------------------
-  Sum                                                    24                  138052.84
+  Sum                                                    26                  149863.40999999997
 
-  New EAPC: 138052.84 / 24 = 5752.2
+  New EAPC: 149863.40999999997 / 26 = 5763.98
 
- ==> Existing DEAL data (Mannheim U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (5752.2) as euro value (20 articles in original file(s), enriched file(s) and TA collection).
- ==> New DEAL data (Mannheim U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (5752.2) as euro value before enrichment (4 articles).
+ ==> New DEAL data (Mannheim U, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (5763.98) as euro value before enrichment (26 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1007/s41542-022-00134-8, Mannheim U, 2023  ---- 10.1007/s41542-022-00134-8, Mannheim U, 2022
+
+2) There is no conflicting cost data for invoice group '0bbabf14-05c2-4d87-a587-f9e969f879a4', the calculated EAPC is valid.
+ ==> The data file (Mannheim U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  2f5d1a37-7afd-4710-8eba-7d3aaf18fe0f                   --                  -18402.16
+  TA data                                                20                  156455.0
+  New OAPK data                                          4                   --
+  Duplicates                                             -4                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    20                  138052.84
+
+  New EAPC: 138052.84 / 20 = 6902.64
+
+ ==> Existing DEAL data (Mannheim U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (6902.64) as euro value (20 articles in original file(s), enriched file(s) and TA collection).
+ ==> New DEAL data (Mannheim U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (6902.64) as euro value before enrichment (0 articles).
 

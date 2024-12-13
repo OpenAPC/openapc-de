@@ -4,12 +4,12 @@ GEOMAR has reported DEAL Springer Nature Germany cost data for the 2023 period, 
 10 articles without publication-level costs were linked to this group id. A preliminary EAPC of 8158.04 / 10 = 815.8 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00216-023-04634-6) has an 'euro' value of 815.8 €. ==> passed.
 
-GEOMAR has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 17225.050000000003 €. (group_id: 3f92e2ac-d2a5-4cd5-840d-6c1da0b3b4be)
-There were no articles without publication-level costs linked to this group id.
-
 GEOMAR has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 62361.29 €. (group_id: 7dd6ffb1-a0d1-49fe-9195-bfd730cf701d)
 27 articles without publication-level costs were linked to this group id. A preliminary EAPC of 62361.29 / 27 = 2309.68 was assigned to each of them.
 CONTROL: First new article in group (10.1002/lno.12267) has an 'euro' value of 2309.68 €. ==> passed.
+
+GEOMAR has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 17225.050000000003 €. (group_id: 3f92e2ac-d2a5-4cd5-840d-6c1da0b3b4be)
+There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 

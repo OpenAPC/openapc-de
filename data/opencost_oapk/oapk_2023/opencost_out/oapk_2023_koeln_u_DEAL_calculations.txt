@@ -20,6 +20,23 @@ CONTROL: First new article in group (10.15252/embr.202357455) has an 'euro' valu
 2) There is no conflicting cost data for invoice group 'c1b9e476-9ca8-4d14-8a2d-7b69df354a51', the calculated EAPC is valid.
  ==> The data file (Koeln U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-3) There is no conflicting cost data for invoice group '496957b9-2634-4c81-8ef1-b1d6dc5e7179', the calculated EAPC is valid.
- ==> The data file (Koeln U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  496957b9-2634-4c81-8ef1-b1d6dc5e7179                   --                  427351.20999999996
+  New OAPK data                                          118                 --
+  Duplicates                                             -1                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    117                 427351.20999999996
+
+  New EAPC: 427351.20999999996 / 117 = 3652.57
+
+ ==> New DEAL data (Koeln U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3652.57) as euro value before enrichment (117 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1111/1467-9655.14008, Koeln U, 2023  ---- 10.1111/1467-9655.14008, Koeln U, 2022
 
