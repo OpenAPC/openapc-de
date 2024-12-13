@@ -16,9 +16,60 @@ CONTROL: First new article in group (10.1107/s2053273323000682) has an 'euro' va
 1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-2) There is no conflicting cost data for invoice group 'f4241b11-5714-48e8-954f-ecf785e97f05', the calculated EAPC is valid.
- ==> The data file (DESY, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2023.
+ ==> EAPC needs to be updated.
 
-3) There is no conflicting cost data for invoice group '0e026476-3bc7-4375-be07-6dfe44690d72', the calculated EAPC is valid.
- ==> The data file (DESY, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  f4241b11-5714-48e8-954f-ecf785e97f05                   --                  100983.75
+  New OAPK data                                          5                   --
+  Duplicates                                             -1                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    4                   100983.75
+
+  New EAPC: 100983.75 / 4 = 25245.94
+
+ ==> New DEAL data (DESY, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (25245.94) as euro value before enrichment (4 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1007/s11224-022-02053-4, DESY, 2023  ---- 10.1007/s11224-022-02053-4, DESY, 2022
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  0e026476-3bc7-4375-be07-6dfe44690d72                   --                  22676.539999999997
+  New OAPK data                                          17                  --
+  Duplicates                                             -1                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    16                  22676.539999999997
+
+  New EAPC: 22676.539999999997 / 16 = 1417.28
+
+ ==> New DEAL data (DESY, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (1417.28) as euro value before enrichment (16 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1107/s1600576722011748, DESY, 2023  ---- 10.1107/s1600576722011748, DESY, 2022
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  TA data                                                14                  33495.0
+  New OAPK data                                          1                   --
+  Duplicates                                             -1                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    14                  33495.0
+
+  New EAPC: 33495.0 / 14 = 2392.5
+
+ ==> Existing DEAL data (DESY, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (2392.5) as euro value (14 articles in original file(s), enriched file(s) and TA collection).
+ ==> New DEAL data (DESY, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (2392.5) as euro value before enrichment (0 articles).
 

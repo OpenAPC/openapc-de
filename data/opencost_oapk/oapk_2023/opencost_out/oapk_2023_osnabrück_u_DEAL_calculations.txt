@@ -13,8 +13,8 @@ Osnabrück U has reported DEAL Wiley Germany cost data for the 2023 period, tota
 CONTROL: First new article in group (10.1002/anie.202219050) has an 'euro' value of 9269.64 €. ==> passed.
 
 Osnabrück U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -23910.559999999998 €. (group_id: 495d300c-f0cc-4d10-a1aa-19d827cb42fd)
-12 articles without publication-level costs were linked to this group id. A preliminary EAPC of -23910.559999999998 / 12 = -1992.55 was assigned to each of them.
-CONTROL: First new article in group (10.1002/smll.202270270) has an 'euro' value of -1992.55 €. ==> passed.
+11 articles without publication-level costs were linked to this group id. A preliminary EAPC of -23910.559999999998 / 11 = -2173.69 was assigned to each of them.
+CONTROL: First new article in group (10.1111/cod.14218) has an 'euro' value of -1992.55 €. ==> FAILED!.
 
 === Update instructions ===
 

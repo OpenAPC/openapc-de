@@ -17,9 +17,65 @@ CONTROL: First new article in group (10.1002/adbi.202300428) has an 'euro' value
 1) There is no conflicting cost data for invoice group 'e3d3afd8-5e34-4184-a419-fc173dde500d', the calculated EAPC is valid.
  ==> The data file (FZJ - ZB, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '96028d7f-e331-40e4-9023-8696637775b5', the calculated EAPC is valid.
- ==> The data file (FZJ - ZB, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2023.
+ ==> EAPC needs to be updated.
 
-3) There is no conflicting cost data for invoice group 'dcc62083-fec4-4abb-ba87-5867495a754b', the calculated EAPC is valid.
- ==> The data file (FZJ - ZB, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  96028d7f-e331-40e4-9023-8696637775b5                   --                  61210.810000000005
+  New OAPK data                                          30                  --
+  Duplicates                                             -3                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    27                  61210.810000000005
+
+  New EAPC: 61210.810000000005 / 27 = 2267.07
+
+ ==> New DEAL data (FZJ - ZB, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (2267.07) as euro value before enrichment (27 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1007/s00426-021-01639-7, FZJ - ZB, 2023  ---- 10.1007/s00426-021-01639-7, FZJ - ZB, 2022
+10.1007/s11104-022-05703-y, FZJ - ZB, 2023  ---- 10.1007/s11104-022-05703-y, FZJ - ZB, 2022
+10.1007/s11249-022-01688-y, FZJ - ZB, 2023  ---- 10.1007/s11249-022-01688-y, FZJ - ZB, 2022
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  dcc62083-fec4-4abb-ba87-5867495a754b                   --                  174519.64
+  New OAPK data                                          89                  --
+  Duplicates                                             -21                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    68                  174519.64
+
+  New EAPC: 174519.64 / 68 = 2566.47
+
+ ==> New DEAL data (FZJ - ZB, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (2566.47) as euro value before enrichment (68 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1002/adem.202201027, FZJ - ZB, 2023  ---- 10.1002/adem.202201027, FZJ - ZB, 2022
+10.1002/admi.202202022, FZJ - ZB, 2023  ---- 10.1002/admi.202202022, FZJ - ZB, 2022
+10.1002/celc.202200991, FZJ - ZB, 2023  ---- 10.1002/celc.202200991, FZJ - ZB, 2022
+10.1002/aenm.202201939, FZJ - ZB, 2023  ---- 10.1002/aenm.202201939, FZJ - ZB, 2022
+10.1002/aenm.202203326, FZJ - ZB, 2023  ---- 10.1002/aenm.202203326, FZJ - ZB, 2022
+10.1002/andp.202200468, FZJ - ZB, 2023  ---- 10.1002/andp.202200468, FZJ - ZB, 2022
+10.1002/ange.202212668, FZJ - ZB, 2023  ---- 10.1002/ange.202212668, FZJ - ZB, 2022
+10.1002/bit.28261, FZJ - ZB, 2023  ---- 10.1002/bit.28261, FZJ - ZB, 2022
+10.1002/chem.202202965, FZJ - ZB, 2023  ---- 10.1002/chem.202202965, FZJ - ZB, 2022
+10.1002/cite.202200178, FZJ - ZB, 2023  ---- 10.1002/cite.202200178, FZJ - ZB, 2022
+10.1002/cssc.202202189, FZJ - ZB, 2023  ---- 10.1002/cssc.202202189, FZJ - ZB, 2022
+10.1002/eem2.12469, FZJ - ZB, 2023  ---- 10.1002/eem2.12469, FZJ - ZB, 2022
+10.1002/ente.202201366, FZJ - ZB, 2023  ---- 10.1002/ente.202201366, FZJ - ZB, 2022
+10.1002/jeq2.20424, FZJ - ZB, 2023  ---- 10.1002/jeq2.20424, FZJ - ZB, 2022
+10.1002/mds.29266, FZJ - ZB, 2023  ---- 10.1002/mds.29266, FZJ - ZB, 2022
+10.1002/pamm.202200244, FZJ - ZB, 2023  ---- 10.1002/pamm.202200244, FZJ - ZB, 2022
+10.1002/pssa.202200619, FZJ - ZB, 2023  ---- 10.1002/pssa.202200619, FZJ - ZB, 2022
+10.1002/qj.4413, FZJ - ZB, 2023  ---- 10.1002/qj.4413, FZJ - ZB, 2022
+10.1002/solr.202200593, FZJ - ZB, 2023  ---- 10.1002/solr.202200593, FZJ - ZB, 2022
+10.1002/wcms.1623, FZJ - ZB, 2023  ---- 10.1002/wcms.1623, FZJ - ZB, 2022
+10.1111/ijac.14288, FZJ - ZB, 2023  ---- 10.1111/ijac.14288, FZJ - ZB, 2022
 

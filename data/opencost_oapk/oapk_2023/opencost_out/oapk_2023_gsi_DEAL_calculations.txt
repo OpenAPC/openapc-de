@@ -20,13 +20,13 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
 2) There is no conflicting cost data for invoice group '19248dc1-815e-46a6-bedc-489bf3faf672', the calculated EAPC is valid.
  ==> The data file (GSI, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
  ==> EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  415b6885-9965-45b6-ae25-1ec0237b00d6                   0                   6555.0
+  415b6885-9965-45b6-ae25-1ec0237b00d6                   --                  6555.0
   TA data                                                4                   9542.16
   -------------------------------------------------------------------------------------------
   Sum                                                    4                   16097.16

@@ -12,13 +12,13 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
 1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2024 and no matching TA data exists.
  ==> Nothing to do here.
 
-2) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
  ==> EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  92ebbab7-0187-48c2-922d-b15f3a4bce30                   0                   -8112.0
+  92ebbab7-0187-48c2-922d-b15f3a4bce30                   --                  -8112.0
   TA data                                                71                  268041.33
   -------------------------------------------------------------------------------------------
   Sum                                                    71                  259929.33000000002

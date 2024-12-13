@@ -5,8 +5,8 @@ TU Chemnitz has reported DEAL Springer Nature Germany cost data for the 2023 per
 CONTROL: First new article in group (10.1007/s00020-023-02732-9) has an 'euro' value of 5517.74 €. ==> passed.
 
 TU Chemnitz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 123054.32 €. (group_id: ab3209b1-f325-4eaa-a0bc-c75576eb7d06)
-35 articles without publication-level costs were linked to this group id. A preliminary EAPC of 123054.32 / 35 = 3515.84 was assigned to each of them.
-CONTROL: First new article in group (10.1002/adem.202300085) has an 'euro' value of 3515.84 €. ==> passed.
+34 articles without publication-level costs were linked to this group id. A preliminary EAPC of 123054.32 / 34 = 3619.24 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adem.202300085) has an 'euro' value of 3515.84 €. ==> FAILED!.
 
 === Update instructions ===
 

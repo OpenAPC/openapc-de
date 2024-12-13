@@ -13,6 +13,36 @@ CONTROL: First new article in group (10.1002/pamm.202200219) has an 'euro' value
 1) There is no conflicting cost data for invoice group '12f4d00c-b87e-4ab9-8bf1-26a22d052159', the calculated EAPC is valid.
  ==> The data file (Hannover U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group 'c78e4da8-8e9b-4d99-8976-9a975eea84ef', the calculated EAPC is valid.
- ==> The data file (Hannover U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  c78e4da8-8e9b-4d99-8976-9a975eea84ef                   --                  394477.64
+  New OAPK data                                          113                 --
+  Duplicates                                             -14                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    99                  394477.64
+
+  New EAPC: 394477.64 / 99 = 3984.62
+
+ ==> New DEAL data (Hannover U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3984.62) as euro value before enrichment (99 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1002/pamm.202200219, Hannover U, 2023  ---- 10.1002/pamm.202200219, Hannover U und TIB, 2022
+10.1002/pamm.202200328, Hannover U, 2023  ---- 10.1002/pamm.202200328, Hannover U und TIB, 2022
+10.1002/piuz.202201658, Hannover U, 2023  ---- 10.1002/piuz.202201658, Hannover U und TIB, 2022
+10.1002/pamm.202200119, Hannover U, 2023  ---- 10.1002/pamm.202200119, Hannover U und TIB, 2022
+10.1111/socf.12881, Hannover U, 2023  ---- 10.1111/socf.12881, Hannover U und TIB, 2022
+10.1002/smll.202206818, Hannover U, 2023  ---- 10.1002/smll.202206818, Hannover U und TIB, 2022
+10.1002/pamm.202200054, Hannover U, 2023  ---- 10.1002/pamm.202200054, Hannover U und TIB, 2022
+10.1002/pamm.202200127, Hannover U, 2023  ---- 10.1002/pamm.202200127, Hannover U und TIB, 2022
+10.1002/pamm.202200045, Hannover U, 2023  ---- 10.1002/pamm.202200045, Hannover U und TIB, 2022
+10.1111/1475-6765.12583, Hannover U, 2023  ---- 10.1111/1475-6765.12583, Hannover U und TIB, 2022
+10.1002/smll.202206379, Hannover U, 2023  ---- 10.1002/smll.202206379, Hannover U und TIB, 2022
+10.1002/pamm.202200265, Hannover U, 2023  ---- 10.1002/pamm.202200265, Hannover U und TIB, 2022
+10.1002/pamm.202200010, Hannover U, 2023  ---- 10.1002/pamm.202200010, Hannover U und TIB, 2022
+10.1002/chem.201902981, Hannover U, 2023  ---- 10.1002/chem.201902981, Hannover U und TIB, 2019
 

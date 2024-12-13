@@ -4,13 +4,13 @@ Charité - Universitätsmedizin Berlin has reported DEAL Springer Nature Germany
 204 articles without publication-level costs were linked to this group id. A preliminary EAPC of 355868.61 / 204 = 1744.45 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10049-022-01078-w) has an 'euro' value of 1744.45 €. ==> passed.
 
-Charité - Universitätsmedizin Berlin has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 95100.49 €. (group_id: e8433cac-4149-4783-a202-0be280931bfb)
-There were no articles without publication-level costs linked to this group id.
-IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (224 articles, EAPC: 2013.25 €). EAPC needs to be updated, see below.
-
 Charité - Universitätsmedizin Berlin has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 385498.26 €. (group_id: 5e97c0fb-0d36-4f8c-b72b-fd1324e8ec0f)
 136 articles without publication-level costs were linked to this group id. A preliminary EAPC of 385498.26 / 136 = 2834.55 was assigned to each of them.
 CONTROL: First new article in group (10.1111/ddg.15008) has an 'euro' value of 2834.55 €. ==> passed.
+
+Charité - Universitätsmedizin Berlin has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 95100.49 €. (group_id: e8433cac-4149-4783-a202-0be280931bfb)
+There were no articles without publication-level costs linked to this group id.
+IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (224 articles, EAPC: 2013.25 €). EAPC needs to be updated, see below.
 
 === Update instructions ===
 
@@ -20,13 +20,13 @@ CONTROL: First new article in group (10.1111/ddg.15008) has an 'euro' value of 2
 2) There is no conflicting cost data for invoice group '5e97c0fb-0d36-4f8c-b72b-fd1324e8ec0f', the calculated EAPC is valid.
  ==> The data file (Charité - Universitätsmedizin Berlin, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-3) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Springer Nature Germany 2022.
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
  ==> EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  e8433cac-4149-4783-a202-0be280931bfb                   0                   95100.49
+  e8433cac-4149-4783-a202-0be280931bfb                   --                  95100.49
   TA data                                                224                 450968.0
   -------------------------------------------------------------------------------------------
   Sum                                                    224                 546068.49

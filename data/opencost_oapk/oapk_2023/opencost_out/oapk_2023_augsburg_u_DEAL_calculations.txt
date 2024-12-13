@@ -13,6 +13,25 @@ CONTROL: First new article in group (10.1002/adbi.202200282) has an 'euro' value
 1) There is no conflicting cost data for invoice group '73cd3e82-997f-4a4a-8f8c-19cdef51e8cd', the calculated EAPC is valid.
  ==> The data file (Augsburg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '18cc19d8-ff70-4843-90ed-9f44dcd5760d', the calculated EAPC is valid.
- ==> The data file (Augsburg U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  18cc19d8-ff70-4843-90ed-9f44dcd5760d                   --                  93701.37
+  New OAPK data                                          19                  --
+  Duplicates                                             -3                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    16                  93701.37
+
+  New EAPC: 93701.37 / 16 = 5856.34
+
+ ==> New DEAL data (Augsburg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (5856.34) as euro value before enrichment (16 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1002/adbi.202200282, Augsburg U, 2023  ---- 10.1002/adbi.202200282, Augsburg U, 2022
+10.1002/andp.202200519, Augsburg U, 2023  ---- 10.1002/andp.202200519, Augsburg U, 2022
+10.1111/1365-2745.14065, Augsburg U, 2023  ---- 10.1111/1365-2745.14065, Augsburg U, 2022
 

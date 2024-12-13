@@ -4,16 +4,16 @@ TU Dresden has reported DEAL Elsevier Germany cost data for the 2023 period, tot
 2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 161075.84999999998 / 2 = 80537.92 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.devcel.2023.09.009) has an 'euro' value of 80537.92 €. ==> passed.
 
-TU Dresden has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 1509.4700000000003 €. (group_id: 4b0768c3-a816-4a1d-bd92-eb6897c3c4f2)
-47 articles without publication-level costs were linked to this group id. A preliminary EAPC of 1509.4700000000003 / 47 = 32.12 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s13399-022-03580-0) has an 'euro' value of 32.12 €. ==> passed.
-
 TU Dresden has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 707573.15 €. (group_id: 084549b5-040f-42a7-81e2-ddb575f40a77)
 224 articles without publication-level costs were linked to this group id. A preliminary EAPC of 707573.15 / 224 = 3158.81 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s42853-023-00176-y) has an 'euro' value of 3158.81 €. ==> passed.
 
 TU Dresden has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 607196.15 €. (group_id: eeb71f7b-482a-4338-9bc6-81ee57efef45)
 There were no articles without publication-level costs linked to this group id.
+
+TU Dresden has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 1509.4700000000003 €. (group_id: 4b0768c3-a816-4a1d-bd92-eb6897c3c4f2)
+47 articles without publication-level costs were linked to this group id. A preliminary EAPC of 1509.4700000000003 / 47 = 32.12 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s13399-022-03580-0) has an 'euro' value of 32.12 €. ==> passed.
 
 === Update instructions ===
 

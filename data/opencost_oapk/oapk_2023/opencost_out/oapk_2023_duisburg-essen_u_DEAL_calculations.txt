@@ -7,13 +7,13 @@ Duisburg-Essen U has reported DEAL Springer Nature Germany cost data for the 202
 143 articles without publication-level costs were linked to this group id. A preliminary EAPC of 448496.69 / 143 = 3136.34 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00291-023-00728-w) has an 'euro' value of 3136.34 €. ==> passed.
 
-Duisburg-Essen U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 16078.26 €. (group_id: b883d5bf-a548-4a47-a04e-549f7040b950)
-There were no articles without publication-level costs linked to this group id.
-IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (174 articles, EAPC: 2577.57 €). EAPC needs to be updated, see below.
-
 Duisburg-Essen U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 450378.20999999996 €. (group_id: 6a086552-4da3-4a67-a18c-5ba869631214)
 92 articles without publication-level costs were linked to this group id. A preliminary EAPC of 450378.20999999996 / 92 = 4895.42 was assigned to each of them.
 CONTROL: First new article in group (10.1002/adsu.202300444) has an 'euro' value of 4895.42 €. ==> passed.
+
+Duisburg-Essen U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 16078.26 €. (group_id: b883d5bf-a548-4a47-a04e-549f7040b950)
+There were no articles without publication-level costs linked to this group id.
+IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (174 articles, EAPC: 2577.57 €). EAPC needs to be updated, see below.
 
 Duisburg-Essen U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -16078.26 €. (group_id: bf8b1087-a228-46bc-96d9-fa9bf7b801e0)
 There were no articles without publication-level costs linked to this group id.
@@ -30,13 +30,13 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
 3) There is no conflicting cost data for invoice group '6a086552-4da3-4a67-a18c-5ba869631214', the calculated EAPC is valid.
  ==> The data file (Duisburg-Essen U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-4) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Springer Nature Germany 2022.
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
  ==> EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  b883d5bf-a548-4a47-a04e-549f7040b950                   0                   16078.26
+  b883d5bf-a548-4a47-a04e-549f7040b950                   --                  16078.26
   TA data                                                174                 448497.18000000005
   -------------------------------------------------------------------------------------------
   Sum                                                    174                 464575.44000000006
@@ -46,13 +46,13 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
  ==> Existing DEAL data (Duisburg-Essen U, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2669.97) as euro value (174 articles in original file(s), enriched file(s) and TA collection).
  IMPORTANT: Please note that some articles are located in the DEAL Springer Nature Germany opt-out file, those have to be updated as well.
 
-5) There is existing TA DEAL data and/or additional invoice groups for the agreement period DEAL Wiley Germany 2022.
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
  ==> EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  bf8b1087-a228-46bc-96d9-fa9bf7b801e0                   0                   -16078.26
+  bf8b1087-a228-46bc-96d9-fa9bf7b801e0                   --                  -16078.26
   TA data                                                118                 482548.01999999996
   -------------------------------------------------------------------------------------------
   Sum                                                    118                 466469.75999999995

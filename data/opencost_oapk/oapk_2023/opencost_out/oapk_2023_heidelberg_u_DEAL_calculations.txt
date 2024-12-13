@@ -17,8 +17,28 @@ CONTROL: First new article in group (10.1016/j.cplett.2023.140943) has an 'euro'
 1) There is no conflicting cost data for invoice group 'a35928da-3149-4a92-bde3-32cb5bbf2272', the calculated EAPC is valid.
  ==> The data file (Heidelberg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '0dfeb01e-7eb2-4987-a461-2d80ee8726be', the calculated EAPC is valid.
- ==> The data file (Heidelberg U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  0dfeb01e-7eb2-4987-a461-2d80ee8726be                   --                  586533.73
+  New OAPK data                                          190                 --
+  Duplicates                                             -4                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    186                 586533.73
+
+  New EAPC: 586533.73 / 186 = 3153.41
+
+ ==> New DEAL data (Heidelberg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3153.41) as euro value before enrichment (186 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1002/ejoc.202201383, Heidelberg U, 2023  ---- 10.1002/ejoc.202201383, Heidelberg U, 2022
+10.1002/ijc.34433, Heidelberg U, 2023  ---- 10.1002/ijc.34433, Heidelberg U, 2022
+10.1002/pamm.202200169, Heidelberg U, 2023  ---- 10.1002/pamm.202200169, Heidelberg U, 2022
+10.1002/cjoc.202200754, Heidelberg U, 2023  ---- 10.1002/cjoc.202200754, Heidelberg U, 2022
 
 3) There is no conflicting cost data for invoice group '539a47d5-77b4-475a-8dee-fafd53339520', the calculated EAPC is valid.
  ==> The data file (Heidelberg U, DEAL Elsevier Germany, 2023) can be directly enriched and processed.

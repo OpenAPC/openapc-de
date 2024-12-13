@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 Universität Erfurt has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 40315.8 €. (group_id: 03f61e9c-471b-4c2b-b3fa-6ed9036fcca8)
-16 articles without publication-level costs were linked to this group id. A preliminary EAPC of 40315.8 / 16 = 2519.74 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s10936-022-09926-z) has an 'euro' value of 2519.74 €. ==> passed.
+13 articles without publication-level costs were linked to this group id. A preliminary EAPC of 40315.8 / 13 = 3101.22 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10936-022-09926-z) has an 'euro' value of 2519.74 €. ==> FAILED!.
 
 === Update instructions ===
 
