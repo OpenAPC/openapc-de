@@ -526,6 +526,8 @@ JOURNAL_OWNER_CHANGED = {
     "1536-7290": ["Informa UK Limited", "Wiley-Blackwell"], # European Journal of Sport Science (electronic)
     "0032-5473": ["BMJ", "Oxford University Press (OUP)"], # Postgraduate Medical Journal 
 	"1469-0756": ["BMJ", "Oxford University Press (OUP)"], # Postgraduate Medical Journal (electronic)
+	"1473-2262": ["European Cells and Materials", "Forum Multimedia Publishing LLC"], # European Cells and Materials
+	"2730-6151": ["Springer Nature", "Oxford University Press (OUP)"], # ISME Communications
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -899,7 +901,8 @@ AMBIGUOUS_JOURNAL_TITLES = {
     "Medicine": ["1357-3039", "0025-7974"], # Elsevier / Ovid Technologies
     "Medicinal Chemistry": ["2161-0444", "1573-4064"], # OMICS / Bentham
     "Journal of Optics": ["0974-6900", "2040-8978"], # Springer Nature / IOP Publishing
-    "Educational Studies": ["0013-1946", "0305-5698"] # Both T&F. 0013-1946 with subtitle "A Journal of the American Educational Studies Association"
+    "Educational Studies": ["0013-1946", "0305-5698"], # Both T&F. 0013-1946 with subtitle "A Journal of the American Educational Studies Association"
+    "Journal of Surgery": ["2330-0914", "2575-9760"], # Science Publishing Group / Gavin Publishers
 }
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
