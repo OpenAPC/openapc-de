@@ -1,25 +1,25 @@
 === Overview: Contract group IDs ===
 
-Dortmund TU has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 215738.61 €. (group_id: d95cf9fb-2f74-4c4e-bf1e-69a3e030d454)
+Dortmund TU has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 215738.61 €. (group_id: 01k97gp34_sn2020deal_2023)
 81 articles without publication-level costs were linked to this group id. A preliminary EAPC of 215738.61 / 81 = 2663.44 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10858-023-00424-5) has an 'euro' value of 2663.44 €. ==> passed.
 
-Dortmund TU has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 230245.77 €. (group_id: 52d79f64-84dc-4a46-9e64-dabcb1f7ddf9)
+Dortmund TU has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 230245.77 €. (group_id: 01k97gp34_wiley2019deal_2023)
 92 articles without publication-level costs were linked to this group id. A preliminary EAPC of 230245.77 / 92 = 2502.67 was assigned to each of them.
 CONTROL: First new article in group (10.1002/cepa.2060) has an 'euro' value of 2502.67 €. ==> passed.
 
-Dortmund TU has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 76974.29999999999 €. (group_id: f72435d9-3f4c-4576-99df-e3e8880940fb)
+Dortmund TU has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 76974.29999999999 €. (group_id: 01k97gp34_els2023deal_2023)
 3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 76974.29999999999 / 3 = 25658.1 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.jmathb.2023.101123) has an 'euro' value of 25658.1 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'd95cf9fb-2f74-4c4e-bf1e-69a3e030d454', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '01k97gp34_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Dortmund TU, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '52d79f64-84dc-4a46-9e64-dabcb1f7ddf9', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '01k97gp34_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Dortmund TU, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-3) There is no conflicting cost data for invoice group 'f72435d9-3f4c-4576-99df-e3e8880940fb', the calculated EAPC is valid.
+3) There is no conflicting cost data for invoice group '01k97gp34_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (Dortmund TU, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 

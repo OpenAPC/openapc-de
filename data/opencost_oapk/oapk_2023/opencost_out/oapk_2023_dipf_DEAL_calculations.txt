@@ -1,18 +1,18 @@
 === Overview: Contract group IDs ===
 
-DIPF has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 16648.800000000003 €. (group_id: fac5a376-547b-447d-9f2f-aa7b0fea20f3)
+DIPF has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 16648.800000000003 €. (group_id: 0327sr118_sn2020deal_2023)
 11 articles without publication-level costs were linked to this group id. A preliminary EAPC of 16648.800000000003 / 11 = 1513.53 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11618-023-01182-8) has an 'euro' value of 1513.53 €. ==> passed.
 
-DIPF has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 9178.0 €. (group_id: a967492a-5f3b-4cec-8632-82203da7ef2d)
+DIPF has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 9178.0 €. (group_id: 0327sr118_wiley2019deal_2023)
 6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 9178.0 / 6 = 1529.67 was assigned to each of them.
 CONTROL: First new article in group (10.1111/jcal.12802) has an 'euro' value of 1529.67 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'fac5a376-547b-447d-9f2f-aa7b0fea20f3', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '0327sr118_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (DIPF, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group 'a967492a-5f3b-4cec-8632-82203da7ef2d', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '0327sr118_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (DIPF, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 

@@ -1,9 +1,9 @@
 === Overview: Contract group IDs ===
 
-Hochschule Aalen has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 25830.729999999996 €. (group_id: 53f01215-b19f-4b6e-bc6c-962a683072e3)
+Hochschule Aalen has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 25830.729999999996 €. (group_id: 04gg60e72_sn2020deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
-Hochschule Aalen has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 9008.99 €. (group_id: 4e1ed1d5-f65f-4b00-82d0-65329add7c20)
+Hochschule Aalen has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 9008.99 €. (group_id: 04gg60e72_wiley2019deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
@@ -11,6 +11,12 @@ There were no articles without publication-level costs linked to this group id.
 1) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
- ==> Nothing to do here.
+2) There is no conflicting cost data for invoice group '04gg60e72_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Hochschule Aalen, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are 5 new articles for the agreement period DEAL Springer Nature Germany 2024, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+
+4) There are 5 new articles for the agreement period DEAL Wiley Germany 2024, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
 

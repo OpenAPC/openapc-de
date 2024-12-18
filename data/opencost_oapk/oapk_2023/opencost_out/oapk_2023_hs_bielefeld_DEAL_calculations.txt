@@ -1,18 +1,18 @@
 === Overview: Contract group IDs ===
 
-HS Bielefeld has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 4665.219999999999 €. (group_id: 7a8dd7d2-3a12-4b1c-8c6d-e91ea2180793)
+HS Bielefeld has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 4665.219999999999 €. (group_id: 00edvg943_wiley2019deal_2023)
 1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4665.219999999999 / 1 = 4665.22 was assigned to each of them.
 CONTROL: First new article in group (10.1002/appl.202200113) has an 'euro' value of 4665.22 €. ==> passed.
 
-HS Bielefeld has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 5439.09 €. (group_id: 926fa46b-f634-469f-be3a-6b42238f0c34)
+HS Bielefeld has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 5439.09 €. (group_id: 00edvg943_sn2020deal_2023)
 3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 5439.09 / 3 = 1813.03 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s12592-023-00472-6) has an 'euro' value of 1813.03 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '7a8dd7d2-3a12-4b1c-8c6d-e91ea2180793', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '00edvg943_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (HS Bielefeld, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '926fa46b-f634-469f-be3a-6b42238f0c34', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '00edvg943_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (HS Bielefeld, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 

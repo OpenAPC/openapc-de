@@ -1,31 +1,37 @@
 === Overview: Contract group IDs ===
 
-TU Dresden has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 161075.84999999998 €. (group_id: b40a8427-9ce7-4706-a8b4-5051eab5f6fa)
+TU Dresden has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 161075.84999999998 €. (group_id: 042aqky30_els2023deal_2023)
 2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 161075.84999999998 / 2 = 80537.92 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.devcel.2023.09.009) has an 'euro' value of 80537.92 €. ==> passed.
 
-TU Dresden has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 707573.15 €. (group_id: 084549b5-040f-42a7-81e2-ddb575f40a77)
+TU Dresden has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 707573.15 €. (group_id: 042aqky30_sn2020deal_2023)
 224 articles without publication-level costs were linked to this group id. A preliminary EAPC of 707573.15 / 224 = 3158.81 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s42853-023-00176-y) has an 'euro' value of 3158.81 €. ==> passed.
 
-TU Dresden has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 607196.15 €. (group_id: eeb71f7b-482a-4338-9bc6-81ee57efef45)
+TU Dresden has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 607196.15 €. (group_id: 042aqky30_wiley2019deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
-TU Dresden has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 1509.4700000000003 €. (group_id: 4b0768c3-a816-4a1d-bd92-eb6897c3c4f2)
+TU Dresden has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 1509.4700000000003 €. (group_id: 042aqky30_sn2020deal_2022)
 47 articles without publication-level costs were linked to this group id. A preliminary EAPC of 1509.4700000000003 / 47 = 32.12 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s13399-022-03580-0) has an 'euro' value of 32.12 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'b40a8427-9ce7-4706-a8b4-5051eab5f6fa', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '042aqky30_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (TU Dresden, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '084549b5-040f-42a7-81e2-ddb575f40a77', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '042aqky30_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (TU Dresden, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-4) There is no conflicting cost data for invoice group '4b0768c3-a816-4a1d-bd92-eb6897c3c4f2', the calculated EAPC is valid.
+4) There is no conflicting cost data for invoice group '042aqky30_sn2020deal_2022', the calculated EAPC is valid.
  ==> The data file (TU Dresden, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
+
+5) There are 238 new articles for the agreement period DEAL Wiley Germany 2022, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+
+6) There are 4 new articles for the agreement period DEAL Wiley Germany 2021, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
 

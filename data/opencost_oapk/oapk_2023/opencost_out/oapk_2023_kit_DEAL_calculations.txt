@@ -1,18 +1,18 @@
 === Overview: Contract group IDs ===
 
-KIT has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 462188.91 €. (group_id: be8e3c2f-5da7-4ff6-987a-66c4c102b3bd)
+KIT has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 462188.91 €. (group_id: 04t3en479_sn2020deal_2023)
 154 articles without publication-level costs were linked to this group id. A preliminary EAPC of 462188.91 / 154 = 3001.23 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00217-023-04312-y) has an 'euro' value of 2962.75 €. ==> FAILED!.
+CONTROL: First new article in group (10.1007/s13399-023-04553-7) has an 'euro' value of 2962.75 €. ==> FAILED!.
 
-KIT has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 528408.7 €. (group_id: 1523dd12-7c72-4fcb-bb03-e64dff3d699b)
+KIT has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 528408.7 €. (group_id: 04t3en479_wiley2019deal_2023)
 272 articles without publication-level costs were linked to this group id. A preliminary EAPC of 528408.7 / 272 = 1942.68 was assigned to each of them.
 CONTROL: First new article in group (10.1002/batt.202300357) has an 'euro' value of 1907.61 €. ==> FAILED!.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'be8e3c2f-5da7-4ff6-987a-66c4c102b3bd', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '04t3en479_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (KIT, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '1523dd12-7c72-4fcb-bb03-e64dff3d699b', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '04t3en479_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (KIT, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 

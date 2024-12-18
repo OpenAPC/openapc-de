@@ -1,15 +1,15 @@
 === Overview: Contract group IDs ===
 
-HTW Dresden has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 27696.199999999997 €. (group_id: e7b1c611-c366-45e6-8a65-894be228e8be)
+HTW Dresden has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 27696.199999999997 €. (group_id: 05q5pk319_sn2020deal_2023)
 4 articles without publication-level costs were linked to this group id. A preliminary EAPC of 27696.199999999997 / 4 = 6924.05 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10910-023-01447-x) has an 'euro' value of 6924.05 €. ==> passed.
 
-HTW Dresden has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7838.76 €. (group_id: d13dbf14-a002-466a-94e5-1e61f2e1b648)
+HTW Dresden has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7838.76 €. (group_id: 05q5pk319_wiley2019deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'e7b1c611-c366-45e6-8a65-894be228e8be', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '05q5pk319_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (HTW Dresden, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.

@@ -1,23 +1,23 @@
 === Overview: Contract group IDs ===
 
-JGU Mainz has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 91228.79999999999 €. (group_id: 667e555d-498e-4f6f-ae4f-295ea6f5c4d2)
+JGU Mainz has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 91228.79999999999 €. (group_id: 023b0x485_els2023deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
-JGU Mainz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 58705.06 €. (group_id: b375808c-15d1-4a8f-b629-1e136ef36d7d)
+JGU Mainz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 58705.06 €. (group_id: 023b0x485_sn2020deal_2023)
 152 articles without publication-level costs were linked to this group id. A preliminary EAPC of 58705.06 / 152 = 386.22 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10583-023-09542-y) has an 'euro' value of 386.22 €. ==> passed.
 
-JGU Mainz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7136.43 €. (group_id: 4c7ee8cb-5817-4344-be2b-231fa19bd5f5)
+JGU Mainz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7136.43 €. (group_id: 023b0x485_wiley2019deal_2023)
 103 articles without publication-level costs were linked to this group id. A preliminary EAPC of 7136.43 / 103 = 69.29 was assigned to each of them.
 CONTROL: First new article in group (10.1002/anie.202217128) has an 'euro' value of 69.29 €. ==> passed.
 
-JGU Mainz has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 182457.59999999998 €. (group_id: 09182243-896a-4ba9-b71d-f2a40d717570)
+JGU Mainz has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 182457.59999999998 €. (group_id: 023b0x485_els2023deal_2024)
 There were no articles without publication-level costs linked to this group id.
 
-JGU Mainz has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 52189.57000000001 €. (group_id: a88bd49c-ba39-453d-8f6e-6610d7efde0d)
+JGU Mainz has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 52189.57000000001 €. (group_id: 023b0x485_sn2020deal_2022)
 There were no articles without publication-level costs linked to this group id.
 
-JGU Mainz has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 41131.41 €. (group_id: 9bebd450-a2a6-4689-a04b-f8cb99a55752)
+JGU Mainz has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 41131.41 €. (group_id: 023b0x485_wiley2019deal_2022)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
@@ -25,18 +25,21 @@ There were no articles without publication-level costs linked to this group id.
 1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-2) There is no conflicting cost data for invoice group 'b375808c-15d1-4a8f-b629-1e136ef36d7d', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '023b0x485_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (JGU Mainz, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-3) There is no conflicting cost data for invoice group '4c7ee8cb-5817-4344-be2b-231fa19bd5f5', the calculated EAPC is valid.
+3) There is no conflicting cost data for invoice group '023b0x485_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (JGU Mainz, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
 4) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2024 and no matching TA data exists.
  ==> Nothing to do here.
 
-5) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+5) There are 2 new articles for the agreement period DEAL Springer Nature Germany 2024, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+
+6) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
  ==> Nothing to do here.
 
-6) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+7) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
  ==> Nothing to do here.
 

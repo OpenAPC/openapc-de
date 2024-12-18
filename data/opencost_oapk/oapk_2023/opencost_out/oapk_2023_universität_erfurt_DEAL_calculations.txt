@@ -1,11 +1,14 @@
 === Overview: Contract group IDs ===
 
-Universität Erfurt has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 40315.8 €. (group_id: 03f61e9c-471b-4c2b-b3fa-6ed9036fcca8)
+Universität Erfurt has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 40315.8 €. (group_id: 03606hw36_sn2020deal_2023)
 13 articles without publication-level costs were linked to this group id. A preliminary EAPC of 40315.8 / 13 = 3101.22 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10936-022-09926-z) has an 'euro' value of 2519.74 €. ==> FAILED!.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '03f61e9c-471b-4c2b-b3fa-6ed9036fcca8', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '03606hw36_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Universität Erfurt, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There are 3 new articles for the agreement period DEAL Wiley Germany 2023, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
 

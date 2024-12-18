@@ -1,30 +1,30 @@
 === Overview: Contract group IDs ===
 
-Leibniz-IZW has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 27529.64 €. (group_id: b2ca6653-3baa-4372-b396-f3bbaa8592fc)
+Leibniz-IZW has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 27529.64 €. (group_id: 05nywn832_wiley2019deal_2023)
 3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 27529.64 / 3 = 9176.55 was assigned to each of them.
 CONTROL: First new article in group (10.1111/1365-2656.13897) has an 'euro' value of 9176.55 €. ==> passed.
 
-Leibniz-IZW has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 11382.509999999998 €. (group_id: 5a4e2b11-5fa2-4f1f-a32d-21b690cc3fae)
+Leibniz-IZW has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 11382.509999999998 €. (group_id: 05nywn832_sn2020deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
-Leibniz-IZW has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 2795.0 €. (group_id: 46d40925-f132-4d53-80d0-29e3a7b4842f)
-2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 2795.0 / 2 = 1397.5 was assigned to each of them.
-CONTROL: First new article in group (10.1016/j.tig.2023.10.014) has an 'euro' value of 7675.5 €. ==> FAILED!.
+Leibniz-IZW has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 2795.0 €. (group_id: 05nywn832_els2023deal_2023)
+1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 2795.0 / 1 = 2795.0 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.cub.2023.09.067) has an 'euro' value of 2795.0 €. ==> passed.
 
-Leibniz-IZW has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 29694.0 €. (group_id: 586ca8f0-79df-4da1-ba33-fe82db25f6d2)
+Leibniz-IZW has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 29694.0 €. (group_id: 05nywn832_wiley2019deal_2022)
 1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 29694.0 / 1 = 29694.0 was assigned to each of them.
 CONTROL: First new article in group (10.1111/acv.12853) has an 'euro' value of 29694.0 €. ==> passed.
 IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (10 articles, EAPC: 2969.4 €). EAPC needs to be updated, see below.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'b2ca6653-3baa-4372-b396-f3bbaa8592fc', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '05nywn832_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Leibniz-IZW, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
 2) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-3) There is no conflicting cost data for invoice group '46d40925-f132-4d53-80d0-29e3a7b4842f', the calculated EAPC is valid.
+3) There is no conflicting cost data for invoice group '05nywn832_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (Leibniz-IZW, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
 4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
@@ -33,7 +33,7 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  586ca8f0-79df-4da1-ba33-fe82db25f6d2                   --                  29694.0
+  05nywn832_wiley2019deal_2022                           --                  29694.0
   TA data                                                10                  29694.0
   New OAPK data                                          1                   --
   Duplicates                                             -1                   --

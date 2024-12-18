@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Leibniz Centre for Agricultural Landscape Research has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 35918.86 €. (group_id: 01ygyzs83_sn2020deal_2023)
+16 articles without publication-level costs were linked to this group id. A preliminary EAPC of 35918.86 / 16 = 2244.93 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10745-023-00399-9) has an 'euro' value of 2244.93 €. ==> passed.
+
+Leibniz Centre for Agricultural Landscape Research has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 41564.84 €. (group_id: 01ygyzs83_wiley2019deal_2023)
+9 articles without publication-level costs were linked to this group id. A preliminary EAPC of 41564.84 / 9 = 4618.32 was assigned to each of them.
+CONTROL: First new article in group (10.1111/aje.13200) has an 'euro' value of 4618.32 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '01ygyzs83_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Leibniz Centre for Agricultural Landscape Research, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '01ygyzs83_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Leibniz Centre for Agricultural Landscape Research, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

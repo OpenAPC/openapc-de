@@ -1,24 +1,24 @@
 === Overview: Contract group IDs ===
 
-GESIS has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 5701.799999999999 €. (group_id: 22f2d397-36be-404e-a098-01fabee4b438)
+GESIS has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 5701.799999999999 €. (group_id: 018afyw53_els2023deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
-GESIS has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 740.63 €. (group_id: ec21c57a-c8ad-4e97-9be3-767c1db75d5e)
+GESIS has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 740.63 €. (group_id: 018afyw53_sn2020deal_2023)
 12 articles without publication-level costs were linked to this group id. A preliminary EAPC of 740.63 / 12 = 61.72 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11135-023-01801-w) has an 'euro' value of 56.97 €. ==> FAILED!.
 
-GESIS has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 481.04999999999995 €. (group_id: 6d2eb837-a110-449e-bc41-ebce38f15194)
+GESIS has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 481.04999999999995 €. (group_id: 018afyw53_wiley2019deal_2023)
 1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 481.04999999999995 / 1 = 481.05 was assigned to each of them.
 CONTROL: First new article in group (10.1111/nana.12985) has an 'euro' value of 481.05 €. ==> passed.
 
-GESIS has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 9978.150000000001 €. (group_id: 42d5d8ac-c04d-4238-8f4d-7e90479587bf)
+GESIS has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 9978.150000000001 €. (group_id: 018afyw53_els2023deal_2024)
 There were no articles without publication-level costs linked to this group id.
 
-GESIS has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 19908.1 €. (group_id: 79320bef-4738-45ac-9ba1-f92d1ce01a81)
+GESIS has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 19908.1 €. (group_id: 018afyw53_sn2020deal_2022)
 There were no articles without publication-level costs linked to this group id.
 IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (10 articles, EAPC: 74.06 €). EAPC needs to be updated, see below.
 
-GESIS has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 33867.18 €. (group_id: 1605440e-cb38-415f-a351-67df4787e9b7)
+GESIS has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 33867.18 €. (group_id: 018afyw53_wiley2019deal_2022)
 There were no articles without publication-level costs linked to this group id.
 IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (6 articles, EAPC: 85.9 €). EAPC needs to be updated, see below.
 
@@ -27,10 +27,10 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
 1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-2) There is no conflicting cost data for invoice group 'ec21c57a-c8ad-4e97-9be3-767c1db75d5e', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '018afyw53_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (GESIS, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-3) There is no conflicting cost data for invoice group '6d2eb837-a110-449e-bc41-ebce38f15194', the calculated EAPC is valid.
+3) There is no conflicting cost data for invoice group '018afyw53_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (GESIS, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
 4) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2024 and no matching TA data exists.
@@ -42,7 +42,7 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  79320bef-4738-45ac-9ba1-f92d1ce01a81                   --                  19908.1
+  018afyw53_sn2020deal_2022                              --                  19908.1
   TA data                                                10                  740.6
   -------------------------------------------------------------------------------------------
   Sum                                                    10                  20648.699999999997
@@ -57,7 +57,7 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  1605440e-cb38-415f-a351-67df4787e9b7                   --                  33867.18
+  018afyw53_wiley2019deal_2022                           --                  33867.18
   TA data                                                6                   515.4000000000001
   -------------------------------------------------------------------------------------------
   Sum                                                    6                   34382.58
