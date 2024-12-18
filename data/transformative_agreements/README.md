@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 121,457 articles, published at 398 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 121,459 articles, published at 398 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 121,457 articles, published at 398 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11157|
+|DEAL Springer Nature Germany                     |    11159|
 |Swiss Consortium Elsevier agreement              |    10993|
 |DEAL Wiley Germany                               |    10392|
 |French EDP Sciences agreement                    |     4998|
@@ -491,6 +491,7 @@ This dataset contains information on 121,457 articles, published at 398 institut
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                                                                                         |        6|
 |Osnabrück U                                                                                                                                        |        6|
 |TH Brandenburg                                                                                                                                     |        6|
+|TH Wildau                                                                                                                                          |        6|
 |Trier U                                                                                                                                            |        6|
 |University of Roehampton                                                                                                                           |        6|
 |Finnish Food Authority                                                                                                                             |        5|
@@ -500,7 +501,6 @@ This dataset contains information on 121,457 articles, published at 398 institut
 |Zurich University of the Arts                                                                                                                      |        5|
 |Medicines for Malaria Venture                                                                                                                      |        4|
 |Research Institute of Molecular Pathology - IMP                                                                                                    |        4|
-|TH Wildau                                                                                                                                          |        4|
 |University Psychiatric Services Bern                                                                                                               |        4|
 |University of Applied Sciences in Business Administration Zurich                                                                                   |        4|
 |University of Teacher Education Zug                                                                                                                |        4|
