@@ -29,6 +29,7 @@ INS_STR = {
     "ins_hdr": "=== Update instructions ===\n\n",
     "ins_clear": "There is no conflicting cost data for invoice group '{}', the calculated EAPC is valid.\n ==> The data file ({}, {}, {}) can be directly enriched and processed.\n\n",
     "ins_no_articles": "There are no articles linked to the cost data in all invoice groups related to {} {} and no matching TA data exists.\n ==> Nothing to do here.\n\n",
+    "ins_solitary_articles": "There are {} new articles for the agreement period {} {}, but neither related cost data nor matching TA data exists.\n ==> Generated file should be deleted.\n\n",
     "ins_not_clear": "There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period {} {}.\n ==> EAPC needs to be updated.\n\n",
     "recalc_hdr": "  data_source                                            num_articles         total_costs (€)\n",
     "recalc_hbar": "  -------------------------------------------------------------------------------------------\n",
@@ -178,13 +179,13 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                             num_duplicates += 1
                             if not _is_internal_duplicate(new_article, ta_article):
                                 non_internal_duplicates = True
-                                msg = "Found a duplicate while preparing DEAL update data and the IPA metadata is not equal.\n  New article:\n    {}\n  TA article:\n    {}"
+                                msg = "Found a duplicate while preparing DEAL update data and the IPA metadata is not equal.\n  New article:    {}\n  TA article:      {}"
                                 logging.warning(msg.format(new_article, ta_article))
                                 dup_line = "{}, {}, {}  ---- {}, {}, {}\n"
                                 dup_line = dup_line.format(new_article["doi"], new_article["institution"], new_article["period"], ta_article["doi"], ta_article["institution"], ta_article["period"])
                                 duplicates_str += dup_line
                             else:
-                                msg = "Found an internal duplicate while preparing DEAL update data.\n  New article:\n    {}\n  TA article:\n    {}"
+                                msg = "Found an internal duplicate while preparing DEAL update data.\n  New article:    {}\n  TA article:      {}"
                                 logging.warning(msg.format(new_article, ta_article))
                             for key, value in new_article.items():
                                 new_article[key] = ""
@@ -206,8 +207,11 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                     if non_internal_duplicates:
                         calc_str += duplicates_str + "\n"
                 instructions[ins_name] += str(ins_index) + ") "
+                # Decide which type of instruction to show
                 if num_total_articles == 0:
                     instructions[ins_name] += INS_STR["ins_no_articles"].format(agreement, period)
+                elif len(data["groups"]) == 0 and data["ta_data"] is None:
+                    instructions[ins_name] += INS_STR["ins_solitary_articles"].format(num_total_articles, agreement, period)
                 elif len(data["groups"]) == 1 and data["ta_data"] is None and num_duplicates == 0:
                     instructions[ins_name] += INS_STR["ins_clear"].format(data["groups"][0]["group_id"], ins_name, agreement, period)
                 else:
