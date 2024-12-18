@@ -1,18 +1,18 @@
 === Overview: Contract group IDs ===
 
-TU Chemnitz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 253815.86 €. (group_id: 5bafd2f7-3640-4262-9e3a-050e30f0a57c)
+TU Chemnitz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 253815.86 €. (group_id: 00a208s56_sn2020deal_2023)
 46 articles without publication-level costs were linked to this group id. A preliminary EAPC of 253815.86 / 46 = 5517.74 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00020-023-02732-9) has an 'euro' value of 5517.74 €. ==> passed.
 
-TU Chemnitz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 123054.32 €. (group_id: ab3209b1-f325-4eaa-a0bc-c75576eb7d06)
+TU Chemnitz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 123054.32 €. (group_id: 00a208s56_wiley2019deal_2023)
 34 articles without publication-level costs were linked to this group id. A preliminary EAPC of 123054.32 / 34 = 3619.24 was assigned to each of them.
-CONTROL: First new article in group (10.1002/adem.202300085) has an 'euro' value of 3515.84 €. ==> FAILED!.
+CONTROL: First new article in group (10.1002/adem.202300085) has an 'euro' value of 3619.24 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '5bafd2f7-3640-4262-9e3a-050e30f0a57c', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '00a208s56_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (TU Chemnitz, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group 'ab3209b1-f325-4eaa-a0bc-c75576eb7d06', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '00a208s56_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (TU Chemnitz, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 

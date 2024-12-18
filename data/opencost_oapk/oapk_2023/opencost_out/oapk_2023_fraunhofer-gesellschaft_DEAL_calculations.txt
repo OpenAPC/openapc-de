@@ -1,29 +1,29 @@
 === Overview: Contract group IDs ===
 
-Fraunhofer-Gesellschaft has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 121125.0 €. (group_id: 4ba948ed-2114-41c7-b7c5-38b957802a03)
+Fraunhofer-Gesellschaft has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 121125.0 €. (group_id: 05hkkdn48_els2023deal_2023)
 32 articles without publication-level costs were linked to this group id. A preliminary EAPC of 121125.0 / 32 = 3785.16 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.solmat.2023.112646) has an 'euro' value of 3785.16 €. ==> passed.
 
-Fraunhofer-Gesellschaft has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 307167.75 €. (group_id: 0cb57172-d086-438d-b727-54223caa7bf0)
+Fraunhofer-Gesellschaft has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 307167.75 €. (group_id: 05hkkdn48_sn2020deal_2023)
 135 articles without publication-level costs were linked to this group id. A preliminary EAPC of 307167.75 / 135 = 2275.32 was assigned to each of them.
 CONTROL: First new article in group (10.1365/s35764-023-00474-2) has an 'euro' value of 2275.32 €. ==> passed.
 
-Fraunhofer-Gesellschaft has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 279511.05000000005 €. (group_id: 3a7bc28c-529b-466d-a567-cdcb8e5b73e3)
+Fraunhofer-Gesellschaft has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 279511.05000000005 €. (group_id: 05hkkdn48_wiley2019deal_2023)
 145 articles without publication-level costs were linked to this group id. A preliminary EAPC of 279511.05000000005 / 145 = 1927.66 was assigned to each of them.
 CONTROL: First new article in group (10.1002/adem.202300212) has an 'euro' value of 1927.66 €. ==> passed.
 
-Fraunhofer-Gesellschaft has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 51423.869999999995 €. (group_id: 406cef0e-280b-463d-bf79-2af5338679bf)
+Fraunhofer-Gesellschaft has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 51423.869999999995 €. (group_id: 05hkkdn48_wiley2019deal_2022)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '4ba948ed-2114-41c7-b7c5-38b957802a03', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '05hkkdn48_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (Fraunhofer-Gesellschaft, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '0cb57172-d086-438d-b727-54223caa7bf0', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '05hkkdn48_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Fraunhofer-Gesellschaft, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-3) There is no conflicting cost data for invoice group '3a7bc28c-529b-466d-a567-cdcb8e5b73e3', the calculated EAPC is valid.
+3) There is no conflicting cost data for invoice group '05hkkdn48_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Fraunhofer-Gesellschaft, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
 4) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.

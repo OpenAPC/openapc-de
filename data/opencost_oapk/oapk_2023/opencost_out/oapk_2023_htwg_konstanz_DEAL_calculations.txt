@@ -1,6 +1,6 @@
 === Overview: Contract group IDs ===
 
-HTWG Konstanz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 21584.01 €. (group_id: 51a3d853-ec58-45a9-b58a-9f82e9aa11ed)
+HTWG Konstanz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 21584.01 €. (group_id: 051qw9f78_sn2020deal_2023)
 3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 21584.01 / 3 = 7194.67 was assigned to each of them.
 CONTROL: First new article in group (10.1365/s40702-023-00974-0) has an 'euro' value of 7194.67 €. ==> passed.
 IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (3 articles, EAPC: 7194.67 €). EAPC needs to be updated, see below.
@@ -13,7 +13,7 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  51a3d853-ec58-45a9-b58a-9f82e9aa11ed                   --                  21584.01
+  051qw9f78_sn2020deal_2023                              --                  21584.01
   TA data                                                3                   21584.010000000002
   New OAPK data                                          3                   --
   Duplicates                                             -3                   --

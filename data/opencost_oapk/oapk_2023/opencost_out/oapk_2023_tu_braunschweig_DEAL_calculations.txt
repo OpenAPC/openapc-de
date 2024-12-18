@@ -1,23 +1,23 @@
 === Overview: Contract group IDs ===
 
-TU Braunschweig has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 27950.0 €. (group_id: ce829438-5a77-4e97-abc1-33b2eba92d18)
+TU Braunschweig has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 27950.0 €. (group_id: 010nsgg66_els2023deal_2023)
 16 articles without publication-level costs were linked to this group id. A preliminary EAPC of 27950.0 / 16 = 1746.88 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.uclim.2023.101678) has an 'euro' value of 1746.88 €. ==> passed.
 
-TU Braunschweig has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 226493.52 €. (group_id: 0b98d667-0fbc-4f46-9044-1faff81b8cee)
+TU Braunschweig has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 226493.52 €. (group_id: 010nsgg66_sn2020deal_2023)
 67 articles without publication-level costs were linked to this group id. A preliminary EAPC of 226493.52 / 67 = 3380.5 was assigned to each of them.
 CONTROL: First new article in group (10.1365/s40702-023-01024-5) has an 'euro' value of 3380.5 €. ==> passed.
 
-TU Braunschweig has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 268889.05 €. (group_id: 79039735-d387-4708-9f4e-ab639b4eff64)
+TU Braunschweig has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 268889.05 €. (group_id: 010nsgg66_wiley2019deal_2023)
 72 articles without publication-level costs were linked to this group id. A preliminary EAPC of 268889.05 / 72 = 3734.57 was assigned to each of them.
 CONTROL: First new article in group (10.1002/bit.28636) has an 'euro' value of 3734.57 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'ce829438-5a77-4e97-abc1-33b2eba92d18', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '010nsgg66_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (TU Braunschweig, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '0b98d667-0fbc-4f46-9044-1faff81b8cee', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '010nsgg66_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (TU Braunschweig, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
@@ -26,7 +26,7 @@ CONTROL: First new article in group (10.1002/bit.28636) has an 'euro' value of 3
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  79039735-d387-4708-9f4e-ab639b4eff64                   --                  268889.05
+  010nsgg66_wiley2019deal_2023                           --                  268889.05
   New OAPK data                                          72                  --
   Duplicates                                             -2                   --
   -------------------------------------------------------------------------------------------
@@ -40,4 +40,39 @@ WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
 10.1111/jzo.13051, TU Braunschweig, 2023  ---- 10.1111/jzo.13051, TU Braunschweig, 2022
 10.1002/pamm.202200222, TU Braunschweig, 2023  ---- 10.1002/pamm.202200222, TU Braunschweig, 2022
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  TA data                                                64                  274656.0
+  New OAPK data                                          8                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    72                  274656.0
+
+  New EAPC: 274656.0 / 72 = 3814.67
+
+ ==> Existing DEAL data (TU Braunschweig, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (3814.67) as euro value (64 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+ ==> New DEAL data (TU Braunschweig, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (3814.67) as euro value before enrichment (8 articles).
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  TA data                                                85                  226493.55000000002
+  New OAPK data                                          3                   --
+  Duplicates                                             -3                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    85                  226493.55000000002
+
+  New EAPC: 226493.55000000002 / 85 = 2664.63
+
+ ==> Existing DEAL data (TU Braunschweig, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2664.63) as euro value (85 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Springer Nature Germany opt-out file, those have to be updated as well.
+ ==> New DEAL data (TU Braunschweig, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2664.63) as euro value before enrichment (0 articles).
 

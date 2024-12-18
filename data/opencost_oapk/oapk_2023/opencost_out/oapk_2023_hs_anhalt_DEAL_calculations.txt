@@ -1,22 +1,22 @@
 === Overview: Contract group IDs ===
 
-HS Anhalt has reported DEAL Wiley Germany cost data for the 2021 period, total costs: 5387.34 €. (group_id: 1c85441e-2ad0-4c64-8adb-f7ca16f98f5f)
+HS Anhalt has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 5189.66 €. (group_id: 0076zct58_wiley2019deal_2022)
 There were no articles without publication-level costs linked to this group id.
 
-HS Anhalt has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -197.68 €. (group_id: d6f9d25f-f142-4d5d-b7b0-ad2f96cdf7f1)
-There were no articles without publication-level costs linked to this group id.
-
-HS Anhalt has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 2850.8999999999996 €. (group_id: 442f9f4d-e546-490f-a496-e8fc9d649e48)
+HS Anhalt has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 2850.8999999999996 €. (group_id: 0076zct58_els2023deal_2024)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
-1) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2021 and no matching TA data exists.
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
  ==> Nothing to do here.
 
-2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2024 and no matching TA data exists.
  ==> Nothing to do here.
 
-3) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2024 and no matching TA data exists.
- ==> Nothing to do here.
+3) There are 2 new articles for the agreement period DEAL Springer Nature Germany 2023, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+
+4) There are 1 new articles for the agreement period DEAL Wiley Germany 2023, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
 

@@ -1,22 +1,22 @@
 === Overview: Contract group IDs ===
 
-Friedrich-Schiller-Universität Jena has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 44719.99999999999 €. (group_id: 518c4d1e-4fd3-4c3d-ada2-a5e041af700c)
+Friedrich-Schiller-Universität Jena has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 44719.99999999999 €. (group_id: 05qpz1x62_els2023deal_2023)
 16 articles without publication-level costs were linked to this group id. A preliminary EAPC of 44719.99999999999 / 16 = 2795.0 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.jcp.2023.112713) has an 'euro' value of 2795.0 €. ==> passed.
 
-Friedrich-Schiller-Universität Jena has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 404486.85 €. (group_id: 10558f2d-45df-4571-a5fc-d8a285f6ae93)
+Friedrich-Schiller-Universität Jena has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 404486.85 €. (group_id: 05qpz1x62_sn2020deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
-Friedrich-Schiller-Universität Jena has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 557685.78 €. (group_id: c398dfe1-3c85-4b66-a0fe-b45476735c71)
+Friedrich-Schiller-Universität Jena has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 557685.78 €. (group_id: 05qpz1x62_wiley2019deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
-Friedrich-Schiller-Universität Jena has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 13300.0 €. (group_id: 586f2ab5-e670-4d7b-be7b-58e3af9690bf)
+Friedrich-Schiller-Universität Jena has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 13300.0 €. (group_id: 05qpz1x62_sn2020deal_2022)
 176 articles without publication-level costs were linked to this group id. A preliminary EAPC of 13300.0 / 176 = 75.57 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11336-023-09933-6) has an 'euro' value of 75.57 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '518c4d1e-4fd3-4c3d-ada2-a5e041af700c', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '05qpz1x62_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (Friedrich-Schiller-Universität Jena, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
 2) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
@@ -25,6 +25,9 @@ CONTROL: First new article in group (10.1007/s11336-023-09933-6) has an 'euro' v
 3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-4) There is no conflicting cost data for invoice group '586f2ab5-e670-4d7b-be7b-58e3af9690bf', the calculated EAPC is valid.
+4) There is no conflicting cost data for invoice group '05qpz1x62_sn2020deal_2022', the calculated EAPC is valid.
  ==> The data file (Friedrich-Schiller-Universität Jena, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
+
+5) There are 110 new articles for the agreement period DEAL Wiley Germany 2022, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
 

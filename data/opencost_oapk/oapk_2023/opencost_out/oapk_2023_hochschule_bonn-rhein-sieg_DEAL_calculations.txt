@@ -1,22 +1,22 @@
 === Overview: Contract group IDs ===
 
-Hochschule Bonn-Rhein-Sieg has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 22548.090000000004 €. (group_id: f2daa459-9c27-4179-afea-8088db54680d)
+Hochschule Bonn-Rhein-Sieg has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 22548.090000000004 €. (group_id: 04m2anh63_wiley2019deal_2023)
 2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 22548.090000000004 / 2 = 11274.05 was assigned to each of them.
 CONTROL: First new article in group (10.1002/jssc.202200894) has an 'euro' value of 11274.05 €. ==> passed.
 
-Hochschule Bonn-Rhein-Sieg has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 12568.65 €. (group_id: 951bcd6d-3676-4214-8f4f-e0810fdcfd07)
+Hochschule Bonn-Rhein-Sieg has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 12568.65 €. (group_id: 04m2anh63_sn2020deal_2023)
 2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 12568.65 / 2 = 6284.32 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10543-023-00967-x) has an 'euro' value of 6284.32 €. ==> passed.
 
-Hochschule Bonn-Rhein-Sieg has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 0.0 €. (group_id: a94a02cc-fba2-4701-a253-0215f84db6f3)
+Hochschule Bonn-Rhein-Sieg has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 0.0 €. (group_id: 04m2anh63_els2023deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'f2daa459-9c27-4179-afea-8088db54680d', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '04m2anh63_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Hochschule Bonn-Rhein-Sieg, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '951bcd6d-3676-4214-8f4f-e0810fdcfd07', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '04m2anh63_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Hochschule Bonn-Rhein-Sieg, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 3) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.

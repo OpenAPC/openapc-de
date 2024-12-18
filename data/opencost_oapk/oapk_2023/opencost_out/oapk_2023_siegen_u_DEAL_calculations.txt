@@ -1,18 +1,36 @@
 === Overview: Contract group IDs ===
 
-Siegen U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 133613.13 €. (group_id: c73fa6ae-103a-4c6e-8478-84407989fedd)
+Siegen U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 133613.13 €. (group_id: 02azyry73_sn2020deal_2023)
 40 articles without publication-level costs were linked to this group id. A preliminary EAPC of 133613.13 / 40 = 3340.33 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00048-023-00370-1) has an 'euro' value of 2842.83 €. ==> FAILED!.
 
-Siegen U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 167980.84 €. (group_id: 24e212d0-2868-43e9-8e7c-781fc4dcbf1b)
+Siegen U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 167980.84 €. (group_id: 02azyry73_wiley2019deal_2023)
 31 articles without publication-level costs were linked to this group id. A preliminary EAPC of 167980.84 / 31 = 5418.74 was assigned to each of them.
 CONTROL: First new article in group (10.1002/aenm.202203955) has an 'euro' value of 5418.74 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'c73fa6ae-103a-4c6e-8478-84407989fedd', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '02azyry73_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Siegen U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '24e212d0-2868-43e9-8e7c-781fc4dcbf1b', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '02azyry73_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Siegen U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  TA data                                                39                  171214.28999999998
+  New OAPK data                                          5                   --
+  Duplicates                                             -5                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    39                  171214.28999999998
+
+  New EAPC: 171214.28999999998 / 39 = 4390.11
+
+ ==> Existing DEAL data (Siegen U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4390.11) as euro value (39 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+ ==> New DEAL data (Siegen U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4390.11) as euro value before enrichment (0 articles).
 

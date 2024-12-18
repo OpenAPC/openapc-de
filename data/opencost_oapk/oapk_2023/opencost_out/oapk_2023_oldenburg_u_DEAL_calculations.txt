@@ -1,32 +1,32 @@
 === Overview: Contract group IDs ===
 
-Oldenburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 174979.62 €. (group_id: 1a0abd46-66a8-4560-9ce2-b39f9747d320)
+Oldenburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 174979.62 €. (group_id: 033n9gh91_sn2020deal_2023)
 42 articles without publication-level costs were linked to this group id. A preliminary EAPC of 174979.62 / 42 = 4166.18 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00063-023-01085-w) has an 'euro' value of 4166.18 €. ==> passed.
 
-Oldenburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 228634.23 €. (group_id: 7f58ad02-46b1-4598-b317-0b76b90612c0)
+Oldenburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 228634.23 €. (group_id: 033n9gh91_wiley2019deal_2023)
 33 articles without publication-level costs were linked to this group id. A preliminary EAPC of 228634.23 / 33 = 6928.31 was assigned to each of them.
 CONTROL: First new article in group (10.1002/adfm.202312159) has an 'euro' value of 6928.31 €. ==> passed.
 
-Oldenburg U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 35636.25 €. (group_id: 19d65e8f-6b9d-4eb3-9ca1-1656122a2a8b)
+Oldenburg U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 35636.25 €. (group_id: 033n9gh91_els2023deal_2023)
 15 articles without publication-level costs were linked to this group id. A preliminary EAPC of 35636.25 / 15 = 2375.75 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.advwatres.2023.104538) has an 'euro' value of 2375.75 €. ==> passed.
 
-Oldenburg U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -21922.78 €. (group_id: fe4f09c3-ab38-40d5-b017-2a209a3f2cd0)
+Oldenburg U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -21922.78 €. (group_id: 033n9gh91_wiley2019deal_2022)
 There were no articles without publication-level costs linked to this group id.
 
-Oldenburg U has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 135417.75 €. (group_id: 056e9cdb-4273-466a-8aeb-f24ccdd03cbb)
+Oldenburg U has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 135417.75 €. (group_id: 033n9gh91_els2023deal_2024)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '1a0abd46-66a8-4560-9ce2-b39f9747d320', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '033n9gh91_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Oldenburg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '7f58ad02-46b1-4598-b317-0b76b90612c0', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '033n9gh91_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Oldenburg U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-3) There is no conflicting cost data for invoice group '19d65e8f-6b9d-4eb3-9ca1-1656122a2a8b', the calculated EAPC is valid.
+3) There is no conflicting cost data for invoice group '033n9gh91_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (Oldenburg U, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
 4) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.

@@ -1,9 +1,9 @@
 === Overview: Contract group IDs ===
 
-Bielefeld U has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 292502.33999999997 €. (group_id: 81f4a790-c094-4b0e-8a5f-83e33eb06cc6)
+Bielefeld U has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 292502.33999999997 €. (group_id: 02hpadn98_els2023deal_2024)
 There were no articles without publication-level costs linked to this group id.
 
-Bielefeld U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -8112.0 €. (group_id: 92ebbab7-0187-48c2-922d-b15f3a4bce30)
+Bielefeld U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -8112.0 €. (group_id: 02hpadn98_wiley2019deal_2022)
 There were no articles without publication-level costs linked to this group id.
 IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (71 articles, EAPC: 3775.23 €). EAPC needs to be updated, see below.
 
@@ -18,7 +18,7 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  92ebbab7-0187-48c2-922d-b15f3a4bce30                   --                  -8112.0
+  02hpadn98_wiley2019deal_2022                           --                  -8112.0
   TA data                                                71                  268041.33
   -------------------------------------------------------------------------------------------
   Sum                                                    71                  259929.33000000002
@@ -27,4 +27,10 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
 
  ==> Existing DEAL data (Bielefeld U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (3660.98) as euro value (71 articles in original file(s), enriched file(s) and TA collection).
  IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+
+3) There are 2 new articles for the agreement period DEAL Wiley Germany 2023, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
 

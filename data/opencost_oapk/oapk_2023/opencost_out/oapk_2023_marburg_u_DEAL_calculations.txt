@@ -1,25 +1,43 @@
 === Overview: Contract group IDs ===
 
-Marburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 371544.61 €. (group_id: cac1ce49-5f0d-4d40-abba-0ecdc403b4ff)
+Marburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 371544.61 €. (group_id: 01rdrb571_sn2020deal_2023)
 89 articles without publication-level costs were linked to this group id. A preliminary EAPC of 371544.61 / 89 = 4174.66 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s41244-023-00284-4) has an 'euro' value of 4174.66 €. ==> passed.
 
-Marburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 269518.34 €. (group_id: 2cb5ffb6-c875-44ac-9048-b385d72285cc)
+Marburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 269518.34 €. (group_id: 01rdrb571_wiley2019deal_2023)
 87 articles without publication-level costs were linked to this group id. A preliminary EAPC of 269518.34 / 87 = 3097.91 was assigned to each of them.
 CONTROL: First new article in group (10.1111/jpet.12669) has an 'euro' value of 3097.91 €. ==> passed.
 
-Marburg U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 53105.0 €. (group_id: 9351bab2-0598-421b-b4cc-a1f453681246)
+Marburg U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 53105.0 €. (group_id: 01rdrb571_els2023deal_2023)
 19 articles without publication-level costs were linked to this group id. A preliminary EAPC of 53105.0 / 19 = 2795.0 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.brat.2023.104455) has an 'euro' value of 2795.0 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'cac1ce49-5f0d-4d40-abba-0ecdc403b4ff', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '01rdrb571_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Marburg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '2cb5ffb6-c875-44ac-9048-b385d72285cc', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '01rdrb571_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Marburg U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-3) There is no conflicting cost data for invoice group '9351bab2-0598-421b-b4cc-a1f453681246', the calculated EAPC is valid.
+3) There is no conflicting cost data for invoice group '01rdrb571_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (Marburg U, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  TA data                                                97                  288769.97000000003
+  New OAPK data                                          2                   --
+  Duplicates                                             -2                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    97                  288769.97000000003
+
+  New EAPC: 288769.97000000003 / 97 = 2977.01
+
+ ==> Existing DEAL data (Marburg U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (2977.01) as euro value (97 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+ ==> New DEAL data (Marburg U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (2977.01) as euro value before enrichment (0 articles).
 

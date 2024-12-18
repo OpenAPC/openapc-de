@@ -1,23 +1,23 @@
 === Overview: Contract group IDs ===
 
-Koeln U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 131854.13 €. (group_id: e29483f6-3a7c-469f-a31f-99741a3085a4)
+Koeln U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 131854.13 €. (group_id: 00rcxh774_els2023deal_2023)
 29 articles without publication-level costs were linked to this group id. A preliminary EAPC of 131854.13 / 29 = 4546.69 was assigned to each of them.
 CONTROL: First new article in group (10.1053/j.seminhematol.2023.12.004) has an 'euro' value of 4546.69 €. ==> passed.
 
-Koeln U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 497087.78 €. (group_id: c1b9e476-9ca8-4d14-8a2d-7b69df354a51)
+Koeln U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 497087.78 €. (group_id: 00rcxh774_sn2020deal_2023)
 197 articles without publication-level costs were linked to this group id. A preliminary EAPC of 497087.78 / 197 = 2523.29 was assigned to each of them.
 CONTROL: First new article in group (10.3758/s13428-023-02081-w) has an 'euro' value of 2523.29 €. ==> passed.
 
-Koeln U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 427351.20999999996 €. (group_id: 496957b9-2634-4c81-8ef1-b1d6dc5e7179)
+Koeln U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 427351.20999999996 €. (group_id: 00rcxh774_wiley2019deal_2023)
 118 articles without publication-level costs were linked to this group id. A preliminary EAPC of 427351.20999999996 / 118 = 3621.62 was assigned to each of them.
 CONTROL: First new article in group (10.15252/embr.202357455) has an 'euro' value of 3621.62 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'e29483f6-3a7c-469f-a31f-99741a3085a4', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '00rcxh774_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (Koeln U, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group 'c1b9e476-9ca8-4d14-8a2d-7b69df354a51', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '00rcxh774_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Koeln U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
@@ -26,7 +26,7 @@ CONTROL: First new article in group (10.15252/embr.202357455) has an 'euro' valu
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  496957b9-2634-4c81-8ef1-b1d6dc5e7179                   --                  427351.20999999996
+  00rcxh774_wiley2019deal_2023                           --                  427351.20999999996
   New OAPK data                                          118                 --
   Duplicates                                             -1                   --
   -------------------------------------------------------------------------------------------

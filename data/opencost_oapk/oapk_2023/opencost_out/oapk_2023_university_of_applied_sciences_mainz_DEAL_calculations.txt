@@ -1,15 +1,15 @@
 === Overview: Contract group IDs ===
 
-University of Applied Sciences Mainz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: -341.01 €. (group_id: d2a5eb20-0f26-410c-aa6e-a1d0c1c135ae)
+University of Applied Sciences Mainz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: -341.01 €. (group_id: 02re32a17_wiley2019deal_2023)
 2 articles without publication-level costs were linked to this group id. A preliminary EAPC of -341.01 / 2 = -170.5 was assigned to each of them.
 CONTROL: First new article in group (https://doi.org/10.1111/caim.12554) has an 'euro' value of -170.5 €. ==> passed.
 
-University of Applied Sciences Mainz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: -491.61 €. (group_id: 95d3c64b-f384-46aa-b372-ffd4bebbf828)
+University of Applied Sciences Mainz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: -491.61 €. (group_id: 02re32a17_sn2020deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'd2a5eb20-0f26-410c-aa6e-a1d0c1c135ae', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '02re32a17_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (University of Applied Sciences Mainz, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
 2) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.

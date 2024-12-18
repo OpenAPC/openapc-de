@@ -1,17 +1,17 @@
 === Overview: Contract group IDs ===
 
-Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 28797.19 €. (group_id: a353877e-0d1e-4556-a16a-5bbbb9d0deab)
+Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 28797.19 €. (group_id: 032e6b942_wiley2019deal_2022)
 There were no articles without publication-level costs linked to this group id.
 
-Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 62427.06 €. (group_id: dfe4977f-e3b3-4368-afc6-5f56bdf60cbe)
+Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 62427.06 €. (group_id: 032e6b942_wiley2019deal_2023)
 35 articles without publication-level costs were linked to this group id. A preliminary EAPC of 62427.06 / 35 = 1783.63 was assigned to each of them.
 CONTROL: First new article in group (10.1002/aqc.3928) has an 'euro' value of 1783.63 €. ==> passed.
 
-Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 55122.68000000001 €. (group_id: 8152a582-8546-4e83-bc85-7240986cb3f7)
+Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 55122.68000000001 €. (group_id: 032e6b942_sn2020deal_2023)
 11 articles without publication-level costs were linked to this group id. A preliminary EAPC of 55122.68000000001 / 11 = 5011.15 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00216-023-04630-w) has an 'euro' value of 5011.15 €. ==> passed.
 
-Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 20669.03 €. (group_id: 0a22581d-5359-4b82-b8be-6449b1f53303)
+Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 20669.03 €. (group_id: 032e6b942_els2023deal_2023)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
@@ -19,10 +19,10 @@ There were no articles without publication-level costs linked to this group id.
 1) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
  ==> Nothing to do here.
 
-2) There is no conflicting cost data for invoice group 'dfe4977f-e3b3-4368-afc6-5f56bdf60cbe', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '032e6b942_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-3) There is no conflicting cost data for invoice group '8152a582-8546-4e83-bc85-7240986cb3f7', the calculated EAPC is valid.
+3) There is no conflicting cost data for invoice group '032e6b942_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 4) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.

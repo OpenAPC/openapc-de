@@ -1,17 +1,17 @@
 institution_ror,institution,period,euro,doi,is_hybrid,type,contract_primary_identifier,contract_group_id,external_costsplitting,gold-oa,vat,colour charge,cover charge,hybrid-oa,other,page charge,permission,publication charge,reprint,submission fee,payment fee,url
-https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,2046.8,10.1002/edn3.373,FALSE,journal article,wiley2019deal,021d2a77-649d-4b41-8085-930f3a3a931f,false,2046.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,1827.84,10.1002/ece3.10493,FALSE,journal article,wiley2019deal,021d2a77-649d-4b41-8085-930f3a3a931f,false,1827.84,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,1827.84,10.1002/ece3.10329,FALSE,journal article,wiley2019deal,021d2a77-649d-4b41-8085-930f3a3a931f,false,1827.84,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,2001.37,10.1038/s41598-022-23125-9,FALSE,journal article,sn2021gac,cef5d4ce-e945-4ca1-bd8e-84f8feb8bdb8,false,2001.37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,2046.8,10.1002/edn3.373,FALSE,journal article,wiley2019deal,052d1a351_wiley2019deal_2023,false,2046.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,1827.84,10.1002/ece3.10493,FALSE,journal article,wiley2019deal,052d1a351_wiley2019deal_2023,false,1827.84,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,1827.84,10.1002/ece3.10329,FALSE,journal article,wiley2019deal,052d1a351_wiley2019deal_2023,false,1827.84,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,2001.37,10.1038/s41598-022-23125-9,FALSE,journal article,sn2021gac,052d1a351_sn2021gac_2023,false,2001.37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,2979.1099999999997,10.3389/fevo.2023.1121400,FALSE,journal article,NA,NA,false,2979.1099999999997,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,654.5,10.3897/fr.26.99096,FALSE,journal article,NA,NA,false,654.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,5774.64,10.1038/s41467-023-36868-4,FALSE,journal article,sn2021gac,cef5d4ce-e945-4ca1-bd8e-84f8feb8bdb8,false,5774.64,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,2001.37,10.1038/s41598-022-24549-z,FALSE,journal article,wiley2019deal,021d2a77-649d-4b41-8085-930f3a3a931f,false,2001.37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,5774.64,10.1038/s41467-023-36868-4,FALSE,journal article,sn2021gac,052d1a351_sn2021gac_2023,false,5774.64,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,2001.37,10.1038/s41598-022-24549-z,FALSE,journal article,wiley2019deal,052d1a351_wiley2019deal_2023,false,2001.37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,700.0,10.3897/zse.99.90875,FALSE,journal article,NA,NA,false,700.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/052d1a351,Museum für Naturkunde Berlin,2022,700.0,10.3390/math11030569,FALSE,journal article,NA,NA,false,700.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,700.0,10.3897/zse.99.102586,FALSE,journal article,NA,NA,false,700.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,3416.35,10.1038/s42003-023-04871-6,FALSE,journal article,sn2021gac,cef5d4ce-e945-4ca1-bd8e-84f8feb8bdb8,false,3416.35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,3416.35,10.1038/s42003-023-04871-6,FALSE,journal article,sn2021gac,052d1a351_sn2021gac_2023,false,3416.35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,700.0,10.3847/psj/ace0bb,FALSE,journal article,NA,NA,false,700.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,NA,10.24425/agp.2022.143600,NA,journal article,NA,NA,false,NA,NA,NA,NA,NA,NA,NA,NA,700.0,NA,NA,NA,NA
-https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,1713.6,10.1098/rsos.230742,FALSE,journal article,NA,NA,false,1713.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,1713.6,10.1098/rsos.230742,FALSE,journal article,rsc2021tib,052d1a351_rsc2021tib_2023,false,1713.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/052d1a351,Museum für Naturkunde Berlin,2023,700.0,10.7717/peerj.16182,FALSE,journal article,NA,NA,false,700.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

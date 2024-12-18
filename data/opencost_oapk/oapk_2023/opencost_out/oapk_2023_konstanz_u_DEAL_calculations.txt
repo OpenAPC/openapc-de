@@ -1,18 +1,18 @@
 === Overview: Contract group IDs ===
 
-Konstanz U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 165692.22 €. (group_id: f233bb9a-00d5-4774-bb13-517f6a836642)
+Konstanz U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 165692.22 €. (group_id: 0546hnb39_sn2020deal_2023)
 48 articles without publication-level costs were linked to this group id. A preliminary EAPC of 165692.22 / 48 = 3451.92 was assigned to each of them.
 CONTROL: First new article in group (10.1038/s41435-023-00194-y) has an 'euro' value of 3451.92 €. ==> passed.
 
-Konstanz U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 197318.45 €. (group_id: 207d6a49-3312-4c75-976c-1c65d3663d4e)
+Konstanz U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 197318.45 €. (group_id: 0546hnb39_wiley2019deal_2023)
 57 articles without publication-level costs were linked to this group id. A preliminary EAPC of 197318.45 / 57 = 3461.73 was assigned to each of them.
 CONTROL: First new article in group (10.1111/spol.12897) has an 'euro' value of 3461.73 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'f233bb9a-00d5-4774-bb13-517f6a836642', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '0546hnb39_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Konstanz U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '207d6a49-3312-4c75-976c-1c65d3663d4e', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '0546hnb39_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Konstanz U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 

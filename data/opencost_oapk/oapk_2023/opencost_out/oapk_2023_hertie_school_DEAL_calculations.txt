@@ -1,25 +1,25 @@
 === Overview: Contract group IDs ===
 
-Hertie School has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7451.95 €. (group_id: a753c1f9-7dea-45df-a888-37cef52c56c9)
+Hertie School has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7451.95 €. (group_id: 0473a4773_wiley2019deal_2023)
 14 articles without publication-level costs were linked to this group id. A preliminary EAPC of 7451.95 / 14 = 532.28 was assigned to each of them.
 CONTROL: First new article in group (10.1111/gove.12778) has an 'euro' value of 532.28 €. ==> passed.
 
-Hertie School has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 18338.9 €. (group_id: ceb5f260-d151-4bd4-912f-83680522e718)
+Hertie School has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 18338.9 €. (group_id: 0473a4773_sn2020deal_2023)
 4 articles without publication-level costs were linked to this group id. A preliminary EAPC of 18338.9 / 4 = 4584.73 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11113-023-09756-4) has an 'euro' value of 3667.78 €. ==> FAILED!.
 
-Hertie School has reported DEAL Wiley Germany cost data for the 2024 period, total costs: 17643.96 €. (group_id: 0a0e40f9-2137-41df-b48f-2f3792f03a0b)
+Hertie School has reported DEAL Wiley Germany cost data for the 2024 period, total costs: 17643.96 €. (group_id: 0473a4773_wiley2019deal_2024)
 There were no articles without publication-level costs linked to this group id.
 
-Hertie School has reported DEAL Springer Nature Germany cost data for the 2024 period, total costs: 2351.2000000000003 €. (group_id: 74a4a1d0-132c-4074-b3d4-698f800ea37b)
+Hertie School has reported DEAL Springer Nature Germany cost data for the 2024 period, total costs: 2351.2000000000003 €. (group_id: 0473a4773_sn2020deal_2024)
 There were no articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group 'a753c1f9-7dea-45df-a888-37cef52c56c9', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '0473a4773_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Hertie School, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group 'ceb5f260-d151-4bd4-912f-83680522e718', the calculated EAPC is valid.
+2) There is no conflicting cost data for invoice group '0473a4773_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Hertie School, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2024 and no matching TA data exists.

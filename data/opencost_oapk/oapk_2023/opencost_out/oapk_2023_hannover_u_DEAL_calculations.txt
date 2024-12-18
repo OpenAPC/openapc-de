@@ -1,16 +1,16 @@
 === Overview: Contract group IDs ===
 
-Hannover U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 700025.39 €. (group_id: 12f4d00c-b87e-4ab9-8bf1-26a22d052159)
+Hannover U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 700025.39 €. (group_id: 0304hq317_sn2020deal_2023)
 128 articles without publication-level costs were linked to this group id. A preliminary EAPC of 700025.39 / 128 = 5468.95 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00013-023-01859-w) has an 'euro' value of 5468.95 €. ==> passed.
 
-Hannover U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 394477.64 €. (group_id: c78e4da8-8e9b-4d99-8976-9a975eea84ef)
+Hannover U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 394477.64 €. (group_id: 0304hq317_wiley2019deal_2023)
 113 articles without publication-level costs were linked to this group id. A preliminary EAPC of 394477.64 / 113 = 3490.95 was assigned to each of them.
 CONTROL: First new article in group (10.1002/pamm.202200219) has an 'euro' value of 3490.95 €. ==> passed.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '12f4d00c-b87e-4ab9-8bf1-26a22d052159', the calculated EAPC is valid.
+1) There is no conflicting cost data for invoice group '0304hq317_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Hannover U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
@@ -19,7 +19,7 @@ CONTROL: First new article in group (10.1002/pamm.202200219) has an 'euro' value
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  c78e4da8-8e9b-4d99-8976-9a975eea84ef                   --                  394477.64
+  0304hq317_wiley2019deal_2023                           --                  394477.64
   New OAPK data                                          113                 --
   Duplicates                                             -14                  --
   -------------------------------------------------------------------------------------------

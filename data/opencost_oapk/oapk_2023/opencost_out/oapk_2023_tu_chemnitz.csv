@@ -1,13 +1,13 @@
 institution_ror,institution,period,euro,doi,is_hybrid,type,contract_primary_identifier,contract_group_id,external_costsplitting,gold-oa,vat,colour charge,cover charge,hybrid-oa,other,page charge,permission,publication charge,reprint,submission fee,payment fee,url
-https://ror.org/00a208s56,TU Chemnitz,2023,2475.2,10.1002/admi.202300471,FALSE,journal article,wiley2019deal,ab3209b1-f325-4eaa-a0bc-c75576eb7d06,false,2475.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/00a208s56,TU Chemnitz,2023,2094.4,10.1002/nano.202300021,FALSE,journal article,wiley2019deal,ab3209b1-f325-4eaa-a0bc-c75576eb7d06,false,2094.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/00a208s56,TU Chemnitz,2023,1904.0,10.1002/open.202300032,FALSE,journal article,wiley2019deal,ab3209b1-f325-4eaa-a0bc-c75576eb7d06,false,1904.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/00a208s56,TU Chemnitz,2023,2475.2,10.1002/admi.202300471,FALSE,journal article,wiley2019deal,00a208s56_wiley2019deal_2023,false,2475.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/00a208s56,TU Chemnitz,2023,2094.4,10.1002/nano.202300021,FALSE,journal article,wiley2019deal,00a208s56_wiley2019deal_2023,false,2094.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/00a208s56,TU Chemnitz,2023,1904.0,10.1002/open.202300032,FALSE,journal article,wiley2019deal,00a208s56_wiley2019deal_2023,false,1904.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,1785.0,10.1016/j.actpsy.2023.104085,FALSE,journal article,NA,NA,false,1785.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,3070.2,10.1016/j.cirpj.2023.06.007,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,3070.2,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,NA,10.1016/j.compag.2023.107649,NA,journal article,NA,NA,false,NA,NA,NA,NA,NA,NA,NA,NA,3915.1,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,3094.0,10.1016/j.isci.2023.106599,FALSE,journal article,NA,NA,false,3094.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,2499.0,10.1016/j.jrp.2023.104383,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,2499.0,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/00a208s56,TU Chemnitz,2023,2071.41,10.1038/s41598-023-38201-x,FALSE,journal article,sn2020deal,5bafd2f7-3640-4262-9e3a-050e30f0a57c,false,2071.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/00a208s56,TU Chemnitz,2023,2071.41,10.1038/s41598-023-38201-x,FALSE,journal article,sn2020deal,00a208s56_sn2020deal_2023,false,2071.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,2942.87,10.1103/physrevb.108.045304,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,2942.87,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,NA,10.1103/physrevlett.130.236403,NA,journal article,NA,NA,false,NA,NA,NA,NA,NA,NA,NA,NA,901.85,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,543.28,10.1107/s2056989023000956,FALSE,journal article,NA,NA,false,543.28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -16,7 +16,7 @@ https://ror.org/00a208s56,TU Chemnitz,2023,NA,10.1152/jn.00011.2023,NA,journal a
 https://ror.org/00a208s56,TU Chemnitz,2023,1600.0,10.1162/artl_a_00426,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,1600.0,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,2021.3700000000001,10.1167/jov.23.8.8,FALSE,journal article,NA,NA,false,2021.3700000000001,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,1011.75,10.1177/23780231231171110,FALSE,journal article,NA,NA,false,1011.75,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/00a208s56,TU Chemnitz,2023,909.16,10.1186/s13104-023-06418-8,FALSE,journal article,sn2020deal,5bafd2f7-3640-4262-9e3a-050e30f0a57c,false,909.16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/00a208s56,TU Chemnitz,2023,909.16,10.1186/s13104-023-06418-8,FALSE,journal article,sn2020deal,00a208s56_sn2020deal_2023,false,909.16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,3213.0,10.1287/opre.2023.2470,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,3213.0,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,2895.13,10.1371/journal.pcbi.1011024,FALSE,journal article,NA,NA,false,2895.13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/00a208s56,TU Chemnitz,2023,2009.3,10.1371/journal.pone.0283565,FALSE,journal article,NA,NA,false,2009.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

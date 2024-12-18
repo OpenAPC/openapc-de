@@ -1,6 +1,6 @@
 institution_ror,institution,period,euro,doi,is_hybrid,type,contract_primary_identifier,contract_group_id,external_costsplitting,gold-oa,vat,colour charge,cover charge,hybrid-oa,other,page charge,permission,publication charge,reprint,submission fee,payment fee,url
 https://ror.org/01weqhp73,TU Ilmenau,2023,NA,10.1021/acs.nanolett.2c03952,NA,journal article,NA,NA,false,NA,NA,NA,1810.85,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,1686.82,10.1063/5.0165868,FALSE,journal article,aip2021tib,10d58374-c181-48b2-a330-c35b82a6e49b,false,1686.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,1686.82,10.1063/5.0165868,FALSE,journal article,aip2021tib,01weqhp73_aip2021tib_2023,false,1686.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,2947.63,10.1103/physrevresearch.5.033061,FALSE,journal article,NA,NA,false,2947.63,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,2957.38,10.1103/physrevresearch.5.043242,FALSE,journal article,NA,NA,false,2957.38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,3066.01,10.1103/physrevfluids.8.094606,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,3066.01,NA,NA,NA,NA,NA,NA,NA,NA
@@ -23,13 +23,23 @@ https://ror.org/01weqhp73,TU Ilmenau,2023,2284.0299999999997,10.3389/frobt.2023.
 https://ror.org/01weqhp73,TU Ilmenau,2023,1040.69,10.3389/fcomm.2023.1005603,FALSE,journal article,NA,NA,false,1040.69,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,3225.7200000000003,10.3389/fnhum.2023.1305331,FALSE,journal article,NA,NA,false,3225.7200000000003,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2022,2757.9,10.1155/2023/2237574,FALSE,journal article,NA,NA,false,2757.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/tnnls.2023.3265051,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,0.0,NA,1332.0900000000001,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/tsp.2023.3289730,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,0.0,NA,955.39,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/tgcn.2023.3296272,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,0.0,NA,241.44,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/access.2023.3245804,FALSE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/access.2023.3267968,FALSE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/access.2023.3292588,FALSE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/access.2023.3311256,FALSE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/ojsp.2023.3337729,FALSE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/ojvt.2024.3354393,FALSE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/access.2024.3395124,FALSE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/ojap.2024.3412162,FALSE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/tnnls.2023.3265051,TRUE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,NA,NA,NA,NA,0.0,NA,1332.0900000000001,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/tnsm.2023.3262401,TRUE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,NA,NA,NA,NA,0.0,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/tsp.2023.3289730,TRUE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,NA,NA,NA,NA,0.0,NA,955.39,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,0.0,10.1109/tgcn.2023.3296272,TRUE,journal article,NA,01weqhp73_IEEE (TU Ilmenau) 2023-2023_2023,false,NA,NA,NA,NA,0.0,NA,241.44,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,NA,10.1109/tap.2023.3287672,NA,journal article,NA,NA,false,NA,NA,NA,NA,NA,NA,1314.56,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2022,NA,10.1109/tsp.2022.3222737,NA,journal article,NA,NA,false,NA,NA,NA,NA,NA,NA,970.08,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,NA,10.1109/tse.2023.3269500,NA,journal article,NA,NA,false,NA,NA,NA,NA,NA,NA,490.66999999999996,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,NA,10.1109/tap.2023.3286024,NA,journal article,NA,NA,false,NA,NA,NA,NA,NA,NA,1307.81,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2022,NA,10.1088/1361-6528/ac6527,NA,journal article,iop2022tib,01weqhp73_iop2022tib_2022,false,NA,NA,NA,NA,NA,0.0,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,971.0999999999999,10.3390/fluids8070203,FALSE,journal article,NA,NA,false,971.0999999999999,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,1667.31,10.3390/met13020300,FALSE,journal article,NA,NA,false,1667.31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,1678.98,10.3390/bioengineering10030324,FALSE,journal article,NA,NA,false,1678.98,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -44,14 +54,14 @@ https://ror.org/01weqhp73,TU Ilmenau,2023,2604.79,10.3390/app132111915,FALSE,jou
 https://ror.org/01weqhp73,TU Ilmenau,2023,1740.4,10.1162/neco_a_01638,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,1740.4,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,1820.52,10.1364/ome.484157,FALSE,journal article,NA,NA,false,1820.52,NA,NA,NA,NA,38.85,160.95999999999998,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,2044.5,10.1371/journal.pone.0280822,FALSE,journal article,NA,NA,false,2044.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,1289.96,10.1186/s13634-022-00937-5,FALSE,journal article,sn2020deal,6ffc1a8c-f452-4ed5-a1c2-716cd5cc1323,false,1289.96,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,2001.37,10.1038/s41598-022-22907-5,FALSE,journal article,sn2020deal,6ffc1a8c-f452-4ed5-a1c2-716cd5cc1323,false,2001.37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,2071.41,10.1038/s41597-023-02010-8,FALSE,journal article,sn2020deal,6ffc1a8c-f452-4ed5-a1c2-716cd5cc1323,false,2071.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,3189.9700000000003,10.1038/s43246-023-00346-7,FALSE,journal article,sn2020deal,6ffc1a8c-f452-4ed5-a1c2-716cd5cc1323,false,3189.9700000000003,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2024,2071.41,10.1038/s41598-023-42732-8,FALSE,journal article,sn2020deal,NA,false,2071.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2024,1704.08,10.1186/s13321-023-00792-y,FALSE,journal article,sn2020deal,NA,false,1704.08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,1289.96,10.1186/s13634-022-00937-5,FALSE,journal article,sn2020deal,01weqhp73_sn2020deal_2023,false,1289.96,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,2001.37,10.1038/s41598-022-22907-5,FALSE,journal article,sn2020deal,01weqhp73_sn2020deal_2023,false,2001.37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,2071.41,10.1038/s41597-023-02010-8,FALSE,journal article,sn2020deal,01weqhp73_sn2020deal_2023,false,2071.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,3189.9700000000003,10.1038/s43246-023-00346-7,FALSE,journal article,sn2020deal,01weqhp73_sn2020deal_2023,false,3189.9700000000003,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2024,2071.41,10.1038/s41598-023-42732-8,FALSE,journal article,sn2020deal,01weqhp73_sn2020deal_2024,false,2071.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2024,1704.08,10.1186/s13321-023-00792-y,FALSE,journal article,sn2020deal,01weqhp73_sn2020deal_2024,false,1704.08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01weqhp73,TU Ilmenau,2023,2594.0699999999997,10.2346/tire.22.21024,TRUE,journal article,NA,NA,false,NA,NA,NA,NA,2594.0699999999997,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,3351.04,10.1002/hbm.26417,FALSE,journal article,wiley2019deal,51b70522-8d93-4610-9003-e51b425f41d2,false,3351.04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,2618.0,10.1002/sstr.202300136,FALSE,journal article,wiley2019deal,51b70522-8d93-4610-9003-e51b425f41d2,false,2618.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2023,2427.6,10.1002/eem2.12626,FALSE,journal article,wiley2019deal,51b70522-8d93-4610-9003-e51b425f41d2,false,2427.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01weqhp73,TU Ilmenau,2024,2475.2,10.1002/aelm.202300635,FALSE,journal article,wiley2019deal,NA,false,2475.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,2475.2,10.1002/aelm.202300635,FALSE,journal article,wiley2019deal,01weqhp73_wiley2019deal_2024,false,2475.2,NA,NA,1106.53,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,3351.04,10.1002/hbm.26417,FALSE,journal article,wiley2019deal,01weqhp73_wiley2019deal_2023,false,3351.04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,2618.0,10.1002/sstr.202300136,FALSE,journal article,wiley2019deal,01weqhp73_wiley2019deal_2023,false,2618.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+https://ror.org/01weqhp73,TU Ilmenau,2023,2427.6,10.1002/eem2.12626,FALSE,journal article,wiley2019deal,01weqhp73_wiley2019deal_2023,false,2427.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
