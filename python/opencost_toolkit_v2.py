@@ -638,7 +638,7 @@ def apply_contract_data(extracted_records, extracted_invoice_groups):
         logging.info(msg)
         for record in extracted_records:
             if "target_group_id" in record and record["target_group_id"] == group_id:
-                record["euro"] = record_costs
+                record["contract_euro"] = record_costs
                 record["period"] = group["period"]
                 # DEAL - might need adjustments for other TAs.
                 record["is_hybrid"] = "TRUE"

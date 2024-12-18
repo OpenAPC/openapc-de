@@ -287,7 +287,7 @@ csv_writers = {}
 all_articles_path = os.path.join(TARGET_DIR, "all_articles.csv")
 
 with open(all_articles_path, "w") as out:
-    main_writer = csv.DictWriter(out, fieldnames)
+    main_writer = csv.DictWriter(out, fieldnames, extrasaction="ignore")
     main_writer.writeheader()
     for article in articles:
         main_writer.writerow(article)
@@ -302,10 +302,16 @@ with open(all_articles_path, "w") as out:
         elif pub_type == "journal article":
             if article["is_hybrid"] == "TRUE":
                 # Skip hybrid DEAL articles with publication-level costs
-                if esac_id in ["sn2020deal", "wiley2019deal", "els2023deal"] and article["contract_group_id"] == 'NA' and article["euro"] > 0:
-                    msg = 'Found a hybrid DEAL article with publication level costs not linked to an invoice group ({}, {}, {}, {} €))'
-                    logging.warning(msg.format(article["institution"], article["period"], article["doi"], article["euro"]))
-                    continue
+                if esac_id in ["sn2020deal", "wiley2019deal", "els2023deal"]:
+                    try:
+                        euro_value = float(article["euro"])
+                        if euro_value > 0.0:
+                            msg = 'Found a hybrid DEAL article with publication level costs not linked to an invoice group ({}, {}, {}, {} €))'
+                            logging.warning(msg.format(article["institution"], article["period"], article["doi"], article["euro"]))
+                            continue
+                    except ValueError:
+                        pass
+                    article["euro"] = article.get("contract_euro", 0)
                 if esac_id == "sn2020deal":
                     ins_name += "_DEAL_Springer_" + period
                     deal_data = {
@@ -337,7 +343,7 @@ with open(all_articles_path, "w") as out:
             path = os.path.join(TARGET_DIR, args.prefix + ins_name + ".csv")
             handle = open(path, "w")
             csv_writers[ins_name] = {
-                "writer": csv.DictWriter(handle, fieldnames),
+                "writer": csv.DictWriter(handle, fieldnames, extrasaction="ignore"),
                 "handle": handle,
                 "articles": [],
                 "deal_data": deal_data
