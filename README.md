@@ -23,10 +23,11 @@ At the moment this project provides the following cost data:
 
 There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.openapc.net/) for visual data exploration.
 
-| Dataset         | CSV File                                                                                                                                                         | OLAP Cube                                                               | Treemap                                                               |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set) | [APC cube](https://olap.openapc.net/cube/openapc/aggregate)             | [APC treemap](https://treemaps.openapc.net/apcdata/openapc/)          |
-| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)        | [BPC cube](https://olap.openapc.net/cube/bpc/aggregate)                 | [BPC treemap](https://treemaps.openapc.net/apcdata/bpc/)              |
+| Dataset         | CSV File                                                                                                                                                                                                                         | OLAP Cube                                                                     | Treemap                                                                       |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set)                                                                 | [APC cube](https://olap.openapc.net/cube/openapc/aggregate)                   | [APC treemap](https://treemaps.openapc.net/apcdata/openapc/)                  |
+| TA articles     | [TA file](https://github.com/OpenAPC/openapc-de/blob/master/data/transformative_agreements/transformative_agreements.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#transformative-agreements-data-set)   | [TA cube](https://olap.openapc.net/cube/transformative_agreements/aggregate)  | [TA treemap](https://treemaps.openapc.net/apcdata/transformative-agreements/) |
+| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)                                                                        | [BPC cube](https://olap.openapc.net/cube/bpc/aggregate)                       | [BPC treemap](https://treemaps.openapc.net/apcdata/bpc/)                      |
 
 Our latest data release can always be accessed via the following DOI:
 
@@ -43,7 +44,11 @@ In 2024 OpenAPC started to aggregate additional costs like page charges or submi
 ## How to contribute?
 
 Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
-This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details. The following institutions have contributed to OpenAPC so far:
+This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
+
+Please note that OpenAPC uses internal identifiers for institutions in all its data sets to maintain backwards compatibility. Additional metadata on all participants (including ROR IDs as persistent identifier) is maintained in a separate [lookup table](https://github.com/OpenAPC/openapc-de/blob/master/data/institutions.csv).
+
+The following institutions have contributed to OpenAPC so far:
 
 ## Institutions from Germany 
 
