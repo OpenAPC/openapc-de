@@ -891,6 +891,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0025-7273", # Medical History, Gold OA since 2023
     "0266-4623", # International Journal of Technology Assessment in Health Care, Gold OA since 2024
     "0033-2917", # Psychological Medicine, Gold OA since 2025
+    "2731-9121", # Communications Psychology, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
