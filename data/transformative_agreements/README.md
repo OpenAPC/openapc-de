@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 121,459 articles, published at 398 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 121,470 articles, published at 398 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 121,459 articles, published at 398 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11159|
+|DEAL Springer Nature Germany                     |    11168|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Wiley Germany                               |    10392|
+|DEAL Wiley Germany                               |    10394|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Elsevier agreement                       |     4939|
@@ -385,6 +385,7 @@ This dataset contains information on 121,459 articles, published at 398 institut
 |Fraunhofer-Gesellschaft Publishing Fund                                                                                                            |       46|
 |University of Gävle                                                                                                                                |       45|
 |Finnish Institute of Occupational Health                                                                                                           |       44|
+|HAW Hamburg                                                                                                                                        |       44|
 |Natural History Museum                                                                                                                             |       44|
 |Södertörns University                                                                                                                              |       44|
 |Geological Survey of Finland                                                                                                                       |       43|
@@ -402,7 +403,6 @@ This dataset contains information on 121,459 articles, published at 398 institut
 |Netherlands Institute of Ecology                                                                                                                   |       35|
 |Kingston University                                                                                                                                |       34|
 |University of Borås                                                                                                                                |       34|
-|HAW Hamburg                                                                                                                                        |       33|
 |University of Central Lancashire                                                                                                                   |       32|
 |IST Austria                                                                                                                                        |       31|
 |University of West of Scotland                                                                                                                     |       31|
