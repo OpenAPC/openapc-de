@@ -22,10 +22,13 @@ INS_STR = {
     "els2023deal": "DEAL Elsevier Germany",
     "ov_hdr": "=== Overview: Contract group IDs ===\n\n",
     "ov_report": "{} has reported {} cost data for the {} period, total costs: {} €. (group_id: {})\n",
-    "ov_articles": "{} articles without publication-level costs were linked to this group id. A preliminary EAPC of {} / {} = {} was assigned to each of them.\nCONTROL: First new article in group ({}) has an 'euro' value of {} €. ==> {}.\n",
-    "ov_no_articles": "There were no articles without publication-level costs linked to this group id.\n",
-    "ov_ta_data": "IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher ({} articles, EAPC: {} €). EAPC needs to be updated, see below.\n",
-    "ov_other_group": "IMPORTANT: There is another invoice group with cost data for the given institution, period and publisher. EAPC needs to be updated, see below.\n",
+    "ov_merge_note": "NOTE: This group_id was merged during processing, meaning that it occured more than once.\n",
+    "ov_articles": "{} new articles without publication-level costs were linked to this group id. A preliminary EAPC of {} / {} = {} was assigned to each of them.\nCONTROL: First new article in group ({}) has an 'euro' value of {} €. ==> {}.\n",
+    "ov_no_articles": "There were no new articles without publication-level costs linked to this group id.\n",
+    "ov_ta_data": "NOTE: The institution has already reported TA DEAL data for the given period and publisher ({} articles, EAPC: {} €).",
+    "ov_ta_update_maybe": " The EAPC might need an update, see below.\n",
+    "ov_ta_update_necessary": " The EAPC needs to be updated, see below.\n",
+    "ov_other_group": "NOTE: There is another invoice group with cost data for the given institution, period and publisher.\n",
     "ins_hdr": "=== Update instructions ===\n\n",
     "ins_clear": "There is no conflicting cost data for invoice group '{}', the calculated EAPC is valid.\n ==> The data file ({}, {}, {}) can be directly enriched and processed.\n\n",
     "ins_no_articles": "There are no articles linked to the cost data in all invoice groups related to {} {} and no matching TA data exists.\n ==> Nothing to do here.\n\n",
@@ -125,6 +128,8 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                     group_id = group["group_id"]
                     total_cost = group["group_total_costs"]
                     ins_txt = INS_STR["ov_report"].format(ins_name, INS_STR[group["contract_id"]], period, total_cost, group_id)
+                    if group["merged"]:
+                        ins_txt += INS_STR["ov_merge_note"]
                     articles = invoice_group_dict.get(group_id, [])
                     if len(articles) > 0:
                         eapc = round(float(total_cost) / len(articles), 2)
@@ -137,6 +142,10 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                         if len(old_articles) > 0:
                             old_eapc = float(old_articles[0]["euro"])
                             ins_txt += INS_STR["ov_ta_data"].format(len(old_articles), old_eapc)
+                            if len(articles) > 0:
+                                ins_txt += INS_STR["ov_ta_update_necessary"]
+                            else:
+                                ins_txt += INS_STR["ov_ta_update_maybe"]
                     if len(data["groups"]) > 1:
                         ins_txt += INS_STR["ov_other_group"]
                     instructions[ins_name] += ins_txt + "\n"
@@ -228,6 +237,7 @@ parser.add_argument("xml_files", nargs="+", help="One or more openCost XML files
 parser.add_argument("-v", "--version", choices=["v1", "v2"], default="v1")
 parser.add_argument("-p", "--prefix", default="", help="An optional prefix for generated file names")
 parser.add_argument("-l", "--log_level", choices=["DEBUG", "INFO", "WARNING", "ERROR"], default="INFO", help="Set the log level of the underlying openCost toolkit library")
+parser.add_argument("-m", "--merge_groups", action="store_true", help="Merge invoice groups with identical group_id by adding their total costs")
 
 args = parser.parse_args()
 
@@ -256,6 +266,8 @@ logging.root.setLevel(args.log_level)
 logging.debug("Logger initialized.")
 
 articles, invoice_groups = octk.process_opencost_xml(*xml_content_strings)
+if args.merge_groups:
+    invoice_groups = octk.merge_invoice_groups(invoice_groups)
 articles = octk.apply_contract_data(articles, invoice_groups)
 
 with open(oat.INSTITUTIONS_FILE, "r") as ins_file:
@@ -303,7 +315,8 @@ with open(all_articles_path, "w") as out:
         deal_data = None
         if pub_type == "book":
             ins_name += "_BPC"
-        elif pub_type == "journal article":
+        elif pub_type in ["journal article", "other"]:
+            # "other" might designate article types like "letter to the editor"
             if article["is_hybrid"] == "TRUE":
                 # Skip hybrid DEAL articles with publication-level costs
                 if esac_id in ["sn2020deal", "wiley2019deal", "els2023deal"]:
