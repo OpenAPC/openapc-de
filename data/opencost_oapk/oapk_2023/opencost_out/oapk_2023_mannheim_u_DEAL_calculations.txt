@@ -58,7 +58,7 @@ new data --- old data
 
   New EAPC: 156455.1 / 20 = 7822.76
 
- ==> Existing DEAL data (Mannheim U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (7822.76) as euro value (20 articles in original file(s), enriched file(s) and TA collection).
+ ==> EAPC for existing DEAL data (Mannheim U, DEAL Wiley Germany, 2022) is already correct (7822.75), no changes are needed.
  ==> New DEAL data (Mannheim U, DEAL Wiley Germany, 2022) contains only duplicates. File is empty and should be deleted.
 
 4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.

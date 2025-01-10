@@ -74,5 +74,5 @@ new data --- old data
 
   New EAPC: 100394.31 / 31 = 3238.53
 
- ==> Existing DEAL data (Augsburg U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (3238.53) as euro value (31 articles in original file(s), enriched file(s) and TA collection).
+ ==> EAPC for existing DEAL data (Augsburg U, DEAL Wiley Germany, 2022) is already correct (3238.52), no changes are needed.
 

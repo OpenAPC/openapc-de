@@ -52,7 +52,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 7984.23 / 6 = 1330.7
 
- ==> Existing DEAL data (Hertie School, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (1330.7) as euro value (6 articles in original file(s), enriched file(s) and TA collection).
+ ==> EAPC for existing DEAL data (Hertie School, DEAL Wiley Germany, 2022) is already correct (1330.71), no changes are needed.
 
 6) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
  ==> Checking if EAPC needs to be updated.
