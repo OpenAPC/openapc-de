@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 Wuppertal U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 100754.5 €. (group_id: 00613ak93_sn2020deal_2023)
-56 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 100754.5 / 56 = 1799.19 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s11618-022-01136-6) has an 'euro' value of 1799.19 €. ==> passed.
+54 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 100754.5 / 54 = 1865.82 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11618-022-01136-6) has an 'euro' value of 1865.82 €. ==> passed.
 
 Wuppertal U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 141352.44999999998 €. (group_id: 00613ak93_wiley2019deal_2023)
 22 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 141352.44999999998 / 22 = 6425.11 was assigned to each of them.

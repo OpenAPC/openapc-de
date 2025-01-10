@@ -10,8 +10,8 @@ CONTROL: First new article in group (10.1007/s10583-023-09542-y) has an 'euro' v
 
 JGU Mainz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 402689.39 €. (group_id: 023b0x485_wiley2019deal_2023)
 NOTE: This group_id was merged during processing, meaning that it occured more than once.
-103 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 402689.39 / 103 = 3909.61 was assigned to each of them.
-CONTROL: First new article in group (10.1002/anie.202217128) has an 'euro' value of 3909.61 €. ==> passed.
+102 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 402689.39 / 102 = 3947.94 was assigned to each of them.
+CONTROL: First new article in group (10.1002/anie.202217128) has an 'euro' value of 3947.94 €. ==> passed.
 
 JGU Mainz has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 182457.59999999998 €. (group_id: 023b0x485_els2023deal_2024)
 There were no new articles without publication-level costs linked to this group id.

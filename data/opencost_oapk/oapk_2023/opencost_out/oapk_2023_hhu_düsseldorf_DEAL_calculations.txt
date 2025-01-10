@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 HHU Düsseldorf has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 398180.12 €. (group_id: 024z2rq82_sn2020deal_2023)
-165 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 398180.12 / 165 = 2413.21 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s11203-022-09285-5) has an 'euro' value of 2413.21 €. ==> passed.
+164 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 398180.12 / 164 = 2427.93 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11203-022-09285-5) has an 'euro' value of 2427.93 €. ==> passed.
 
 HHU Düsseldorf has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 451442.64 €. (group_id: 024z2rq82_wiley2019deal_2023)
 84 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 451442.64 / 84 = 5374.32 was assigned to each of them.

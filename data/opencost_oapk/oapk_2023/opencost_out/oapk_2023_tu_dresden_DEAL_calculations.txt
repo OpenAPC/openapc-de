@@ -5,20 +5,20 @@ TU Dresden has reported DEAL Elsevier Germany cost data for the 2023 period, tot
 CONTROL: First new article in group (10.1016/j.devcel.2023.09.009) has an 'euro' value of 80537.92 €. ==> passed.
 
 TU Dresden has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 707573.15 €. (group_id: 042aqky30_sn2020deal_2023)
-224 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 707573.15 / 224 = 3158.81 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s42853-023-00176-y) has an 'euro' value of 3158.81 €. ==> passed.
+216 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 707573.15 / 216 = 3275.8 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00107-023-02016-4) has an 'euro' value of 3275.8 €. ==> passed.
 
 TU Dresden has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 607196.15 €. (group_id: 042aqky30_wiley2019deal_2023)
 There were no new articles without publication-level costs linked to this group id.
 
 TU Dresden has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 709082.62 €. (group_id: 042aqky30_sn2020deal_2022)
 NOTE: This group_id was merged during processing, meaning that it occured more than once.
-47 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 709082.62 / 47 = 15086.86 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s13399-022-03580-0) has an 'euro' value of 15086.86 €. ==> passed.
+40 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 709082.62 / 40 = 17727.07 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00167-021-06836-w) has an 'euro' value of 17727.07 €. ==> passed.
 
 TU Dresden has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 609629.8400000001 €. (group_id: 042aqky30_wiley2019deal_2022)
-240 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 609629.8400000001 / 240 = 2540.12 was assigned to each of them.
-CONTROL: First new article in group (10.1002/smtd.202201605) has an 'euro' value of 2540.12 €. ==> passed.
+238 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 609629.8400000001 / 238 = 2561.47 was assigned to each of them.
+CONTROL: First new article in group (10.1002/pamm.202300291) has an 'euro' value of 2561.47 €. ==> passed.
 
 === Update instructions ===
 

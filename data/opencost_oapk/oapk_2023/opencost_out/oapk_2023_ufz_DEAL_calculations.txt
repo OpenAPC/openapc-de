@@ -1,12 +1,12 @@
 === Overview: Contract group IDs ===
 
 UFZ has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 140638.25 €. (group_id: 000h6jb29_sn2020deal_2023)
-30 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 140638.25 / 30 = 4687.94 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s12268-023-1944-5) has an 'euro' value of 4687.94 €. ==> passed.
+29 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 140638.25 / 29 = 4849.59 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s12268-023-1944-5) has an 'euro' value of 4849.59 €. ==> passed.
 
 UFZ has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 112452.37 €. (group_id: 000h6jb29_wiley2019deal_2023)
-34 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 112452.37 / 34 = 3307.42 was assigned to each of them.
-CONTROL: First new article in group (10.1111/sum.12881) has an 'euro' value of 3307.42 €. ==> passed.
+33 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 112452.37 / 33 = 3407.65 was assigned to each of them.
+CONTROL: First new article in group (10.1111/sum.12881) has an 'euro' value of 3407.65 €. ==> passed.
 
 UFZ has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 140638.25 €. (group_id: 000h6jb29_sn2020deal_2022)
 There were no new articles without publication-level costs linked to this group id.

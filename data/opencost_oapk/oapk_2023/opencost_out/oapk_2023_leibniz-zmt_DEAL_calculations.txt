@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 Leibniz-ZMT has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 34020.38 €. (group_id: 019w00969_sn2020deal_2023)
-9 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 34020.38 / 9 = 3780.04 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00367-023-00758-x) has an 'euro' value of 3780.04 €. ==> passed.
+8 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 34020.38 / 8 = 4252.55 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00367-023-00758-x) has an 'euro' value of 4252.55 €. ==> passed.
 
 Leibniz-ZMT has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 22361.899999999998 €. (group_id: 019w00969_wiley2019deal_2023)
 5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 22361.899999999998 / 5 = 4472.38 was assigned to each of them.

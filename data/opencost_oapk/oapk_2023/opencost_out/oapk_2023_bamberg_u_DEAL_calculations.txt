@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 Bamberg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 62400.55 €. (group_id: 01c1w6d29_sn2020deal_2023)
-35 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 62400.55 / 35 = 1782.87 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00420-023-02010-6) has an 'euro' value of 1782.87 €. ==> passed.
+26 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 62400.55 / 26 = 2400.02 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00420-023-02010-6) has an 'euro' value of 2400.02 €. ==> passed.
 
 Bamberg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 70450.73999999999 €. (group_id: 01c1w6d29_wiley2019deal_2023)
 11 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 70450.73999999999 / 11 = 6404.61 was assigned to each of them.

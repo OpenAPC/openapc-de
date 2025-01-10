@@ -12,8 +12,7 @@ WARNING: There were invoice groups which are completely identical in total costs
 There were no new articles without publication-level costs linked to this group id.
 
 Leibniz-IZW has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 2795.0 €. (group_id: 05nywn832_els2023deal_2023)
-1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 2795.0 / 1 = 2795.0 was assigned to each of them.
-CONTROL: First new article in group (10.1016/j.cub.2023.09.067) has an 'euro' value of 2795.0 €. ==> passed.
+There were no new articles without publication-level costs linked to this group id.
 
 Leibniz-IZW has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 59190.04 €. (group_id: 05nywn832_wiley2019deal_2022)
 NOTE: This group_id was merged during processing, meaning that it occured more than once.
@@ -33,8 +32,8 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 2) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-3) There is no conflicting cost data for invoice group '05nywn832_els2023deal_2023', the calculated EAPC is valid.
- ==> The data file (Leibniz-IZW, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
 
 4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
  ==> Checking if EAPC needs to be updated.

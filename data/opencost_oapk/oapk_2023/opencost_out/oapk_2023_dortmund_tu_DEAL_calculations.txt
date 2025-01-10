@@ -1,12 +1,12 @@
 === Overview: Contract group IDs ===
 
 Dortmund TU has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 215738.61 €. (group_id: 01k97gp34_sn2020deal_2023)
-81 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 215738.61 / 81 = 2663.44 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s10858-023-00424-5) has an 'euro' value of 2663.44 €. ==> passed.
+77 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 215738.61 / 77 = 2801.8 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10858-023-00424-5) has an 'euro' value of 2801.8 €. ==> passed.
 
 Dortmund TU has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 230245.77 €. (group_id: 01k97gp34_wiley2019deal_2023)
-92 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 230245.77 / 92 = 2502.67 was assigned to each of them.
-CONTROL: First new article in group (10.1002/cepa.2060) has an 'euro' value of 2502.67 €. ==> passed.
+87 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 230245.77 / 87 = 2646.5 was assigned to each of them.
+CONTROL: First new article in group (10.1002/cepa.2060) has an 'euro' value of 2646.5 €. ==> passed.
 
 Dortmund TU has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 76974.29999999999 €. (group_id: 01k97gp34_els2023deal_2023)
 3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 76974.29999999999 / 3 = 25658.1 was assigned to each of them.

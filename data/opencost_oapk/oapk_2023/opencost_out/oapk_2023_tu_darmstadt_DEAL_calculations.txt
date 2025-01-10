@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 TU Darmstadt has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 317395.57 €. (group_id: 05n911h24_sn2020deal_2023)
-9 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 317395.57 / 9 = 35266.17 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00348-023-03747-z) has an 'euro' value of 35266.17 €. ==> passed.
+8 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 317395.57 / 8 = 39674.45 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00348-023-03747-z) has an 'euro' value of 39674.45 €. ==> passed.
 
 TU Darmstadt has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 252989.39999999997 €. (group_id: 05n911h24_wiley2019deal_2023)
 There were no new articles without publication-level costs linked to this group id.

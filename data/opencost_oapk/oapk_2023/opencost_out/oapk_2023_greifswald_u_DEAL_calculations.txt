@@ -1,8 +1,8 @@
 === Overview: Contract group IDs ===
 
 Greifswald U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 227236.96000000002 €. (group_id: 00r1edq15_sn2020deal_2023)
-85 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 227236.96000000002 / 85 = 2673.38 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s10049-023-01164-7) has an 'euro' value of 2673.38 €. ==> passed.
+83 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 227236.96000000002 / 83 = 2737.79 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10049-023-01164-7) has an 'euro' value of 2737.79 €. ==> passed.
 
 Greifswald U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 228962.09999999998 €. (group_id: 00r1edq15_wiley2019deal_2023)
 62 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 228962.09999999998 / 62 = 3692.94 was assigned to each of them.

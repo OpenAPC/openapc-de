@@ -5,14 +5,13 @@ Darmstadt University of Applied Sciences has reported DEAL Springer Nature Germa
 CONTROL: First new article in group (10.1365/s40702-023-00956-2) has an 'euro' value of 1766.9 €. ==> passed.
 
 Darmstadt University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 20881.620000000003 €. (group_id: 047wbd030_wiley2019deal_2023)
-1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 20881.620000000003 / 1 = 20881.62 was assigned to each of them.
-CONTROL: First new article in group (10.1155/2023/8526857) has an 'euro' value of 20881.62 €. ==> passed.
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
 1) There is no conflicting cost data for invoice group '047wbd030_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Darmstadt University of Applied Sciences, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
-2) There is no conflicting cost data for invoice group '047wbd030_wiley2019deal_2023', the calculated EAPC is valid.
- ==> The data file (Darmstadt University of Applied Sciences, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
 

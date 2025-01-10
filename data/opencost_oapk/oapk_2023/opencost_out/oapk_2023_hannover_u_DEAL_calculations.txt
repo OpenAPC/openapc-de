@@ -1,12 +1,12 @@
 === Overview: Contract group IDs ===
 
 Hannover U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 700025.39 €. (group_id: 0304hq317_sn2020deal_2023)
-128 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 700025.39 / 128 = 5468.95 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00013-023-01859-w) has an 'euro' value of 5468.95 €. ==> passed.
+125 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 700025.39 / 125 = 5600.2 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00013-023-01859-w) has an 'euro' value of 5600.2 €. ==> passed.
 
 Hannover U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 394477.64 €. (group_id: 0304hq317_wiley2019deal_2023)
-113 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 394477.64 / 113 = 3490.95 was assigned to each of them.
-CONTROL: First new article in group (10.1002/pamm.202200219) has an 'euro' value of 3490.95 €. ==> passed.
+111 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 394477.64 / 111 = 3553.85 was assigned to each of them.
+CONTROL: First new article in group (10.1002/pamm.202200219) has an 'euro' value of 3553.85 €. ==> passed.
 
 Hannover U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 853713.9999999999 €. (group_id: 0304hq317_sn2020deal_2022)
 There were no new articles without publication-level costs linked to this group id.
@@ -26,14 +26,14 @@ There were no new articles without publication-level costs linked to this group 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   0304hq317_wiley2019deal_2023                           --                  394477.64
-  New OAPK articles                                      113                 --
+  New OAPK articles                                      111                 --
   Duplicates                                             -14                 --
   -------------------------------------------------------------------------------------------
-  Sum                                                    99                  394477.64
+  Sum                                                    97                  394477.64
 
-  New EAPC: 394477.64 / 99 = 3984.62
+  New EAPC: 394477.64 / 97 = 4066.78
 
- ==> New DEAL data (Hannover U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3984.62) as euro value before enrichment (85 articles).
+ ==> New DEAL data (Hannover U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (4066.78) as euro value before enrichment (83 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

@@ -5,8 +5,8 @@ Osnabrück U has reported DEAL Elsevier Germany cost data for the 2023 period, t
 CONTROL: First new article in group (10.1016/j.matpur.2023.12.005) has an 'euro' value of 18530.85 €. ==> passed.
 
 Osnabrück U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 181973.66999999998 €. (group_id: 04qmmjx98_sn2020deal_2023)
-46 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 181973.66999999998 / 46 = 3955.95 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s13668-023-00457-0) has an 'euro' value of 3955.95 €. ==> passed.
+45 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 181973.66999999998 / 45 = 4043.86 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s13668-023-00457-0) has an 'euro' value of 4043.86 €. ==> passed.
 
 Osnabrück U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 259549.84999999998 €. (group_id: 04qmmjx98_wiley2019deal_2023)
 28 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 259549.84999999998 / 28 = 9269.64 was assigned to each of them.
@@ -18,8 +18,8 @@ NOTE: This group_id was merged during processing, meaning that it occured more t
 CONTROL: First new article in group (10.1111/cod.14218) has an 'euro' value of 23107.14 €. ==> passed.
 
 Osnabrück U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 181973.66999999998 €. (group_id: 04qmmjx98_sn2020deal_2022)
-2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 181973.66999999998 / 2 = 90986.83 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s41358-022-00334-2) has an 'euro' value of 90986.83 €. ==> passed.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 181973.66999999998 / 1 = 181973.67 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s41358-022-00334-2) has an 'euro' value of 181973.67 €. ==> passed.
 
 === Update instructions ===
 

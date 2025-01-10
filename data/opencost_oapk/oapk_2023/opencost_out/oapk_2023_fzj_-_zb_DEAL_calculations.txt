@@ -5,12 +5,12 @@ FZJ - ZB has reported DEAL Elsevier Germany cost data for the 2023 period, total
 CONTROL: First new article in group (10.1016/j.apenergy.2023.122351) has an 'euro' value of 6710.13 €. ==> passed.
 
 FZJ - ZB has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 61210.810000000005 €. (group_id: 02nv7yv05_sn2020deal_2023)
-30 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 61210.810000000005 / 30 = 2040.36 was assigned to each of them.
-CONTROL: First new article in group (10.1038/s41467-023-37418-8) has an 'euro' value of 2040.36 €. ==> passed.
+27 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 61210.810000000005 / 27 = 2267.07 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00339-023-06478-4) has an 'euro' value of 2267.07 €. ==> passed.
 
 FZJ - ZB has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 174519.64 €. (group_id: 02nv7yv05_wiley2019deal_2023)
-89 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 174519.64 / 89 = 1960.89 was assigned to each of them.
-CONTROL: First new article in group (10.1002/adbi.202300428) has an 'euro' value of 1960.89 €. ==> passed.
+88 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 174519.64 / 88 = 1983.18 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adbi.202300428) has an 'euro' value of 1983.18 €. ==> passed.
 
 FZJ - ZB has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 162176.44 €. (group_id: 02nv7yv05_sn2020deal_2022)
 There were no new articles without publication-level costs linked to this group id.
@@ -32,14 +32,14 @@ NOTE: The institution has already reported TA DEAL data for the given period and
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   02nv7yv05_sn2020deal_2023                              --                  61210.810000000005
-  New OAPK articles                                      30                  --
+  New OAPK articles                                      27                  --
   Duplicates                                             -3                  --
   -------------------------------------------------------------------------------------------
-  Sum                                                    27                  61210.810000000005
+  Sum                                                    24                  61210.810000000005
 
-  New EAPC: 61210.810000000005 / 27 = 2267.07
+  New EAPC: 61210.810000000005 / 24 = 2550.45
 
- ==> New DEAL data (FZJ - ZB, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (2267.07) as euro value before enrichment (24 articles).
+ ==> New DEAL data (FZJ - ZB, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (2550.45) as euro value before enrichment (21 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
@@ -54,20 +54,19 @@ new data --- old data
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   02nv7yv05_wiley2019deal_2023                           --                  174519.64
-  New OAPK articles                                      89                  --
-  Duplicates                                             -21                 --
+  New OAPK articles                                      88                  --
+  Duplicates                                             -20                 --
   -------------------------------------------------------------------------------------------
   Sum                                                    68                  174519.64
 
   New EAPC: 174519.64 / 68 = 2566.47
 
- ==> New DEAL data (FZJ - ZB, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (2566.47) as euro value before enrichment (47 articles).
+ ==> New DEAL data (FZJ - ZB, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (2566.47) as euro value before enrichment (48 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
 10.1002/adem.202201027, FZJ - ZB, 2023  ---- 10.1002/adem.202201027, FZJ - ZB, 2022
 10.1002/admi.202202022, FZJ - ZB, 2023  ---- 10.1002/admi.202202022, FZJ - ZB, 2022
-10.1002/celc.202200991, FZJ - ZB, 2023  ---- 10.1002/celc.202200991, FZJ - ZB, 2022
 10.1002/aenm.202201939, FZJ - ZB, 2023  ---- 10.1002/aenm.202201939, FZJ - ZB, 2022
 10.1002/aenm.202203326, FZJ - ZB, 2023  ---- 10.1002/aenm.202203326, FZJ - ZB, 2022
 10.1002/andp.202200468, FZJ - ZB, 2023  ---- 10.1002/andp.202200468, FZJ - ZB, 2022

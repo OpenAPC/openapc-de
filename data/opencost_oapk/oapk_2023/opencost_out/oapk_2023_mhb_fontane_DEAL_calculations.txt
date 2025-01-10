@@ -1,18 +1,16 @@
 === Overview: Contract group IDs ===
 
 MHB Fontane has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 27453.11 €. (group_id: 04839sh14_sn2020deal_2023)
-13 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 27453.11 / 13 = 2111.78 was assigned to each of them.
-CONTROL: First new article in group (10.1038/s41598-023-50206-0) has an 'euro' value of 2111.78 €. ==> passed.
+There were no new articles without publication-level costs linked to this group id.
 
 MHB Fontane has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7663.699999999999 €. (group_id: 04839sh14_wiley2019deal_2023)
-2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 7663.699999999999 / 2 = 3831.85 was assigned to each of them.
-CONTROL: First new article in group (10.1111/ene.16209) has an 'euro' value of 3831.85 €. ==> passed.
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
-1) There is no conflicting cost data for invoice group '04839sh14_sn2020deal_2023', the calculated EAPC is valid.
- ==> The data file (MHB Fontane, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
 
-2) There is no conflicting cost data for invoice group '04839sh14_wiley2019deal_2023', the calculated EAPC is valid.
- ==> The data file (MHB Fontane, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
 
