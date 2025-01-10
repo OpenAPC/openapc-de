@@ -23,6 +23,7 @@ INS_STR = {
     "ov_hdr": "=== Overview: Contract group IDs ===\n\n",
     "ov_report": "{} has reported {} cost data for the {} period, total costs: {} €. (group_id: {})\n",
     "ov_merge_note": "NOTE: This group_id was merged during processing, meaning that it occured more than once.\n",
+    "ov_dup_warning": "WARNING: There were invoice groups which are completely identical in total costs. A duplicate case is likely.\n",
     "ov_articles": "{} new articles without publication-level costs were linked to this group id. A preliminary EAPC of {} / {} = {} was assigned to each of them.\nCONTROL: First new article in group ({}) has an 'euro' value of {} €. ==> {}.\n",
     "ov_no_articles": "There were no new articles without publication-level costs linked to this group id.\n",
     "ov_ta_data": "NOTE: The institution has already reported TA DEAL data for the given period and publisher ({} articles, EAPC: {} €).",
@@ -33,13 +34,16 @@ INS_STR = {
     "ins_clear": "There is no conflicting cost data for invoice group '{}', the calculated EAPC is valid.\n ==> The data file ({}, {}, {}) can be directly enriched and processed.\n\n",
     "ins_no_articles": "There are no articles linked to the cost data in all invoice groups related to {} {} and no matching TA data exists.\n ==> Nothing to do here.\n\n",
     "ins_solitary_articles": "There are {} new articles for the agreement period {} {}, but neither related cost data nor matching TA data exists.\n ==> Generated file should be deleted.\n\n",
-    "ins_not_clear": "There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period {} {}.\n ==> EAPC needs to be updated.\n\n",
+    "ins_not_clear": "There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period {} {}.\n ==> Checking if EAPC needs to be updated.\n\n",
     "recalc_hdr": "  data_source                                            num_articles         total_costs (€)\n",
     "recalc_hbar": "  -------------------------------------------------------------------------------------------\n",
+    "recalc_check_eapc": " (Total: {} , EAPC: {}, checking first TA article ({}) => {})\n",
     "recalc_res": "  New EAPC: {} / {} = {}\n\n",
     "recalc_update_ta": " ==> Existing DEAL data ({}, {}, {}) has to be updated with the new EAPC ({}) as euro value ({} articles in original file(s), enriched file(s) and TA collection).\n",
+    "recalc_no_update_ta": " ==> EAPC for existing DEAL data ({}, {}, {}) is already correct ({}), no changes are needed.\n",
     "recalc_opt_out": " IMPORTANT: Please note that some articles are located in the {} opt-out file, those have to be updated as well.\n",
     "recalc_update_new_data": " ==> New DEAL data ({}, {}, {}) has to be updated with the new EAPC ({}) as euro value before enrichment ({} articles).\n",
+    "recalc_all_duplicates": " ==> New DEAL data ({}, {}, {}) contains only duplicates. File is empty and should be deleted.\n",
     "duplicates_warn": "WARNING: Some of the removed duplicates had mismatches in period/institution:\nnew data --- old data\n",
 }
 
@@ -130,6 +134,8 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                     ins_txt = INS_STR["ov_report"].format(ins_name, INS_STR[group["contract_id"]], period, total_cost, group_id)
                     if group["merged"]:
                         ins_txt += INS_STR["ov_merge_note"]
+                    if group["possible_duplicate"]:
+                        ins_txt += INS_STR["ov_dup_warning"]
                     articles = invoice_group_dict.get(group_id, [])
                     if len(articles) > 0:
                         eapc = round(float(total_cost) / len(articles), 2)
@@ -174,13 +180,15 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                     num_ta_articles = len(ta_articles)
                     num_total_articles += num_ta_articles
                     ta_total_costs = sum([float(article["euro"]) for article in ta_articles])
-                    total_costs += ta_total_costs
-                    calc_str += "  " + "TA data".ljust(55) + str(num_ta_articles).ljust(20) + str(ta_total_costs) + "\n"
+                    ta_eapc = round(ta_total_costs / num_ta_articles, 2)
+                    calc_str += "  " + "TA data".ljust(55) + str(num_ta_articles).ljust(20) + "--   "
+                    passed_str = "passed" if float(ta_articles[0]["euro"]) == ta_eapc else "FAILED!"
+                    calc_str += INS_STR["recalc_check_eapc"].format(ta_total_costs, ta_eapc, ta_articles[0]["doi"], passed_str)
                 if data["writer_data"] is not None:
                     new_articles = data["writer_data"]["articles"]
                     num_new_articles = len(new_articles)
                     num_total_articles += num_new_articles
-                    calc_str += "  " + "New OAPK data".ljust(55) + str(num_new_articles).ljust(20) + "--" + "\n"
+                    calc_str += "  " + "New OAPK articles".ljust(55) + str(num_new_articles).ljust(20) + "--" + "\n"
                     # Find and remove duplicates
                     for new_article in list(new_articles):
                         if new_article["doi"] in ta_doi_lookup:
@@ -200,18 +208,25 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                                 new_article[key] = ""
                     if num_duplicates > 0:
                         num_total_articles -= num_duplicates
-                        calc_str += "  " + "Duplicates".ljust(55) + "-" + str(num_duplicates).ljust(20) + "--" + "\n"
+                        num_new_articles -= num_duplicates
+                        calc_str += "  " + "Duplicates".ljust(55) + "-" + str(num_duplicates).ljust(19) + "--" + "\n"
                 calc_str += INS_STR["recalc_hbar"]
                 calc_str += "  " + "Sum".ljust(55) + str(num_total_articles).ljust(20) + str(total_costs) + "\n\n"
                 if num_total_articles > 0:
                     new_eapc = round(total_costs / num_total_articles, 2)
                     calc_str += INS_STR["recalc_res"].format(total_costs, num_total_articles, new_eapc)
                     if num_ta_articles > 0:
-                        calc_str += INS_STR["recalc_update_ta"].format(ins_name, agreement, period, new_eapc, num_ta_articles)
-                        if data["ta_data"]["opt_out_articles"]:
-                            calc_str += INS_STR["recalc_opt_out"].format(agreement)
+                        old_eapc = round(ta_total_costs / num_ta_articles, 2)
+                        if old_eapc != new_eapc:
+                            calc_str += INS_STR["recalc_update_ta"].format(ins_name, agreement, period, new_eapc, num_ta_articles)
+                            if data["ta_data"]["opt_out_articles"]:
+                                calc_str += INS_STR["recalc_opt_out"].format(agreement)
+                        else:
+                            calc_str += INS_STR["recalc_no_update_ta"].format(ins_name, agreement, period, old_eapc)
                     if num_new_articles > 0:
                         calc_str += INS_STR["recalc_update_new_data"].format(ins_name, agreement, period, new_eapc, num_new_articles - num_duplicates)
+                    elif num_duplicates > 0:
+                        calc_str += INS_STR["recalc_all_duplicates"].format(ins_name, agreement, period, new_eapc)
                     calc_str += "\n"
                     if non_internal_duplicates:
                         calc_str += duplicates_str + "\n"
@@ -266,6 +281,7 @@ logging.root.setLevel(args.log_level)
 logging.debug("Logger initialized.")
 
 articles, invoice_groups = octk.process_opencost_xml(*xml_content_strings)
+invoice_groups = octk.detect_invoice_group_duplicates(invoice_groups)
 if args.merge_groups:
     invoice_groups = octk.merge_invoice_groups(invoice_groups)
 articles = octk.apply_contract_data(articles, invoice_groups)
