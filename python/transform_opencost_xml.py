@@ -217,7 +217,7 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                     calc_str += INS_STR["recalc_res"].format(total_costs, num_total_articles, new_eapc)
                     if num_ta_articles > 0:
                         old_eapc = round(ta_total_costs / num_ta_articles, 2)
-                        if old_eapc != new_eapc:
+                        if round(old_eapc, 1) != round(new_eapc, 1):
                             calc_str += INS_STR["recalc_update_ta"].format(ins_name, agreement, period, new_eapc, num_ta_articles)
                             if data["ta_data"]["opt_out_articles"]:
                                 calc_str += INS_STR["recalc_opt_out"].format(agreement)
