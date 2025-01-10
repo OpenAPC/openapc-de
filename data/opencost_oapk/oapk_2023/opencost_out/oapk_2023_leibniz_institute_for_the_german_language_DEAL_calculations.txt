@@ -1,11 +1,23 @@
 === Overview: Contract group IDs ===
 
 Leibniz Institute for the German Language has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 10566.000000000002 €. (group_id: 00hvwkt50_sn2020deal_2023)
-5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 10566.000000000002 / 5 = 2113.2 was assigned to each of them.
+5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 10566.000000000002 / 5 = 2113.2 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10746-022-09654-2) has an 'euro' value of 2113.2 €. ==> passed.
+
+Leibniz Institute for the German Language has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 10566.000000000002 €. (group_id: 00hvwkt50_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+
+Leibniz Institute for the German Language has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 2451.0299999999997 €. (group_id: 00hvwkt50_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
 1) There is no conflicting cost data for invoice group '00hvwkt50_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Leibniz Institute for the German Language, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
 

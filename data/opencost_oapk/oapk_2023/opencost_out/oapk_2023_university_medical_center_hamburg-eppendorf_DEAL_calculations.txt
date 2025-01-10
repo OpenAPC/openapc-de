@@ -1,11 +1,11 @@
 === Overview: Contract group IDs ===
 
 University Medical Center Hamburg-Eppendorf has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 246670.81 €. (group_id: 01zgy1s35_sn2020deal_2023)
-195 articles without publication-level costs were linked to this group id. A preliminary EAPC of 246670.81 / 195 = 1264.98 was assigned to each of them.
+195 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 246670.81 / 195 = 1264.98 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s42399-023-01393-4) has an 'euro' value of 1264.98 €. ==> passed.
 
 University Medical Center Hamburg-Eppendorf has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 208926.08000000002 €. (group_id: 01zgy1s35_wiley2019deal_2023)
-90 articles without publication-level costs were linked to this group id. A preliminary EAPC of 208926.08000000002 / 90 = 2321.4 was assigned to each of them.
+90 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 208926.08000000002 / 90 = 2321.4 was assigned to each of them.
 CONTROL: First new article in group (10.1002/ccd.30922) has an 'euro' value of 2321.4 €. ==> passed.
 
 === Update instructions ===

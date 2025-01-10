@@ -1,12 +1,19 @@
 === Overview: Contract group IDs ===
 
 Bochum U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 262930.88 €. (group_id: 04tsk2644_sn2020deal_2023)
-225 articles without publication-level costs were linked to this group id. A preliminary EAPC of 262930.88 / 225 = 1168.58 was assigned to each of them.
+225 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 262930.88 / 225 = 1168.58 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11557-022-01859-0) has an 'euro' value of 1168.58 €. ==> passed.
 
 Bochum U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 359327.76000000007 €. (group_id: 04tsk2644_wiley2019deal_2023)
-162 articles without publication-level costs were linked to this group id. A preliminary EAPC of 359327.76000000007 / 162 = 2218.07 was assigned to each of them.
+162 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 359327.76000000007 / 162 = 2218.07 was assigned to each of them.
 CONTROL: First new article in group (10.1002/aenm.202302177) has an 'euro' value of 2218.07 €. ==> passed.
+
+Bochum U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 262930.88 €. (group_id: 04tsk2644_sn2020deal_2022)
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 262930.88 / 6 = 43821.81 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11214-022-00914-2) has an 'euro' value of 43821.81 €. ==> passed.
+
+Bochum U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 289773.85 €. (group_id: 04tsk2644_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
@@ -16,6 +23,9 @@ CONTROL: First new article in group (10.1002/aenm.202302177) has an 'euro' value
 2) There is no conflicting cost data for invoice group '04tsk2644_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Bochum U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
-3) There are 1 new articles for the agreement period DEAL Springer Nature Germany 2022, but neither related cost data nor matching TA data exists.
- ==> Generated file should be deleted.
+3) There is no conflicting cost data for invoice group '04tsk2644_sn2020deal_2022', the calculated EAPC is valid.
+ ==> The data file (Bochum U, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
 

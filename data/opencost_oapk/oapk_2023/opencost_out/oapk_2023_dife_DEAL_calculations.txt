@@ -1,12 +1,14 @@
 === Overview: Contract group IDs ===
 
-DIfE has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 4828.74 €. (group_id: 05xdczy51_sn2020deal_2023)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4828.74 / 1 = 4828.74 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s11357-023-00902-6) has an 'euro' value of 4828.74 €. ==> passed.
+DIfE has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 17705.4 €. (group_id: 05xdczy51_sn2020deal_2023)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 17705.4 / 1 = 17705.4 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11357-023-00902-6) has an 'euro' value of 17705.4 €. ==> passed.
 
-DIfE has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 9314.43 €. (group_id: 05xdczy51_wiley2019deal_2023)
-3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 9314.43 / 3 = 3104.81 was assigned to each of them.
-CONTROL: First new article in group (10.1002/mnfr.202300137) has an 'euro' value of 3104.81 €. ==> passed.
+DIfE has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 15320.17 €. (group_id: 05xdczy51_wiley2019deal_2023)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 15320.17 / 3 = 5106.72 was assigned to each of them.
+CONTROL: First new article in group (10.1002/mnfr.202300137) has an 'euro' value of 5106.72 €. ==> passed.
 
 === Update instructions ===
 

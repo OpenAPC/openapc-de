@@ -1,18 +1,18 @@
 === Overview: Contract group IDs ===
 
 Leipzig U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 13471.0 €. (group_id: 03s7gtk40_wiley2019deal_2022)
-22 articles without publication-level costs were linked to this group id. A preliminary EAPC of 13471.0 / 22 = 612.32 was assigned to each of them.
+22 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 13471.0 / 22 = 612.32 was assigned to each of them.
 CONTROL: First new article in group (10.1111/synt.12258) has an 'euro' value of 612.32 €. ==> passed.
 
 Leipzig U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 49417.0 €. (group_id: 03s7gtk40_sn2020deal_2022)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 Leipzig U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 323869.08999999997 €. (group_id: 03s7gtk40_wiley2019deal_2023)
-123 articles without publication-level costs were linked to this group id. A preliminary EAPC of 323869.08999999997 / 123 = 2633.08 was assigned to each of them.
+123 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 323869.08999999997 / 123 = 2633.08 was assigned to each of them.
 CONTROL: First new article in group (10.1029/2022ja030887) has an 'euro' value of 2633.08 €. ==> passed.
 
 Leipzig U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 443397.62 €. (group_id: 03s7gtk40_sn2020deal_2023)
-173 articles without publication-level costs were linked to this group id. A preliminary EAPC of 443397.62 / 173 = 2562.99 was assigned to each of them.
+173 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 443397.62 / 173 = 2562.99 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00392-022-02145-5) has an 'euro' value of 2562.99 €. ==> passed.
 
 === Update instructions ===

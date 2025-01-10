@@ -1,19 +1,23 @@
 === Overview: Contract group IDs ===
 
 Leibniz-IÖR has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 2795.0 €. (group_id: 02t26g637_els2023deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 Leibniz-IÖR has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 4324.740000000001 €. (group_id: 02t26g637_sn2020deal_2023)
-3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4324.740000000001 / 3 = 1441.58 was assigned to each of them.
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 4324.740000000001 / 3 = 1441.58 was assigned to each of them.
 CONTROL: First new article in group (https://doi.org/10.1007/s11356-023-26326-5) has an 'euro' value of 1441.58 €. ==> passed.
 
 Leibniz-IÖR has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 5188.539999999999 €. (group_id: 02t26g637_wiley2019deal_2023)
-2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 5188.539999999999 / 2 = 2594.27 was assigned to each of them.
+2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 5188.539999999999 / 2 = 2594.27 was assigned to each of them.
 CONTROL: First new article in group (https://doi.org/10.1111/jiec.13392) has an 'euro' value of 2594.27 €. ==> passed.
 
 Leibniz-IÖR has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 4127.13 €. (group_id: 02t26g637_wiley2019deal_2022)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4127.13 / 1 = 4127.13 was assigned to each of them.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 4127.13 / 1 = 4127.13 was assigned to each of them.
 CONTROL: First new article in group (https://doi.org/10.1002/rra.3921) has an 'euro' value of 4127.13 €. ==> passed.
+
+Leibniz-IÖR has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 4325.740000000001 €. (group_id: 02t26g637_sn2020deal_2022)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 4325.740000000001 / 1 = 4325.74 was assigned to each of them.
+CONTROL: First new article in group (https://doi.org/10.1007/s12268-022-1803-9) has an 'euro' value of 4325.74 €. ==> passed.
 
 === Update instructions ===
 
@@ -29,6 +33,6 @@ CONTROL: First new article in group (https://doi.org/10.1002/rra.3921) has an 'e
 4) There is no conflicting cost data for invoice group '02t26g637_wiley2019deal_2022', the calculated EAPC is valid.
  ==> The data file (Leibniz-IÖR, DEAL Wiley Germany, 2022) can be directly enriched and processed.
 
-5) There are 1 new articles for the agreement period DEAL Springer Nature Germany 2022, but neither related cost data nor matching TA data exists.
- ==> Generated file should be deleted.
+5) There is no conflicting cost data for invoice group '02t26g637_sn2020deal_2022', the calculated EAPC is valid.
+ ==> The data file (Leibniz-IÖR, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
 

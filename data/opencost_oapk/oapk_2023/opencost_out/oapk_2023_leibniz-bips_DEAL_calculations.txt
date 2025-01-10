@@ -1,16 +1,21 @@
 === Overview: Contract group IDs ===
 
 Leibniz-BIPS has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 18185.07 €. (group_id: 02c22vc57_sn2020deal_2023)
-5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 18185.07 / 5 = 3637.01 was assigned to each of them.
+5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 18185.07 / 5 = 3637.01 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10182-023-00477-9) has an 'euro' value of 3637.01 €. ==> passed.
 
 Leibniz-BIPS has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 11432.19 €. (group_id: 02c22vc57_wiley2019deal_2023)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 11432.19 / 1 = 11432.19 was assigned to each of them.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 11432.19 / 1 = 11432.19 was assigned to each of them.
 CONTROL: First new article in group (10.1002/bimj.202200209) has an 'euro' value of 11432.19 €. ==> passed.
 
-Leibniz-BIPS has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 9618.73 €. (group_id: 02c22vc57_wiley2019deal_2022)
-There were no articles without publication-level costs linked to this group id.
-IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (8 articles, EAPC: 2733.44 €). EAPC needs to be updated, see below.
+Leibniz-BIPS has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 21867.51 €. (group_id: 02c22vc57_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (8 articles, EAPC: 2733.44 €). The EAPC might need an update, see below.
+
+Leibniz-BIPS has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 15598.69 €. (group_id: 02c22vc57_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (4 articles, EAPC: 3899.67 €). The EAPC might need an update, see below.
 
 === Update instructions ===
 
@@ -24,17 +29,32 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
  ==> Generated file should be deleted.
 
 4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  02c22vc57_wiley2019deal_2022                           --                  9618.73
-  TA data                                                8                   21867.52
+  02c22vc57_wiley2019deal_2022                           --                  21867.51
+  TA data                                                8                   --    (Total: 21867.52 , EAPC: 2733.44, checking first TA article (10.1002/pds.5573) => passed)
   -------------------------------------------------------------------------------------------
-  Sum                                                    8                   31486.25
+  Sum                                                    8                   21867.51
 
-  New EAPC: 31486.25 / 8 = 3935.78
+  New EAPC: 21867.51 / 8 = 2733.44
 
- ==> Existing DEAL data (Leibniz-BIPS, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (3935.78) as euro value (8 articles in original file(s), enriched file(s) and TA collection).
+ ==> EAPC for existing DEAL data (Leibniz-BIPS, DEAL Wiley Germany, 2022) is already correct (2733.44), no changes are needed.
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  02c22vc57_sn2020deal_2022                              --                  15598.69
+  TA data                                                4                   --    (Total: 15598.68 , EAPC: 3899.67, checking first TA article (10.1007/s11553-022-00967-9) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    4                   15598.69
+
+  New EAPC: 15598.69 / 4 = 3899.67
+
+ ==> EAPC for existing DEAL data (Leibniz-BIPS, DEAL Springer Nature Germany, 2022) is already correct (3899.67), no changes are needed.
 

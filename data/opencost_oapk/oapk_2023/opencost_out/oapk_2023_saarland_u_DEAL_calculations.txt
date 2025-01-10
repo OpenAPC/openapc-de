@@ -1,22 +1,22 @@
 === Overview: Contract group IDs ===
 
 Saarland U has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 117390.0 €. (group_id: 01jdpyv68_els2023deal_2024)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 Saarland U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 374307.31000000006 €. (group_id: 01jdpyv68_sn2020deal_2022)
-98 articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 98 = 3819.46 was assigned to each of them.
+98 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 98 = 3819.46 was assigned to each of them.
 CONTROL: First new article in group (10.1038/s41440-022-00931-2) has an 'euro' value of 3819.46 €. ==> passed.
 
 Saarland U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 311801.25 €. (group_id: 01jdpyv68_wiley2019deal_2022)
-78 articles without publication-level costs were linked to this group id. A preliminary EAPC of 311801.25 / 78 = 3997.45 was assigned to each of them.
+78 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 311801.25 / 78 = 3997.45 was assigned to each of them.
 CONTROL: First new article in group (10.1002/med.21928) has an 'euro' value of 3997.45 €. ==> passed.
 
 Saarland U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 374307.31000000006 €. (group_id: 01jdpyv68_sn2020deal_2023)
-118 articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 118 = 3172.1 was assigned to each of them.
+118 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 118 = 3172.1 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00229-022-01455-2) has an 'euro' value of 3172.1 €. ==> passed.
 
 Saarland U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 302207.72 €. (group_id: 01jdpyv68_wiley2019deal_2023)
-68 articles without publication-level costs were linked to this group id. A preliminary EAPC of 302207.72 / 68 = 4444.23 was assigned to each of them.
+68 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 302207.72 / 68 = 4444.23 was assigned to each of them.
 CONTROL: First new article in group (10.1111/twec.13431) has an 'euro' value of 4444.23 €. ==> passed.
 
 === Update instructions ===

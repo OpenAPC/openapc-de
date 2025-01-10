@@ -1,11 +1,11 @@
 === Overview: Contract group IDs ===
 
 Potsdam U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 93145.40000000001 €. (group_id: 03bnmw459_sn2020deal_2023)
-67 articles without publication-level costs were linked to this group id. A preliminary EAPC of 93145.40000000001 / 67 = 1390.23 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00453-022-01089-6) has an 'euro' value of 1275.96 €. ==> FAILED!.
+73 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 93145.40000000001 / 73 = 1275.96 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00453-022-01089-6) has an 'euro' value of 1275.96 €. ==> passed.
 
 Potsdam U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 186415.82 €. (group_id: 03bnmw459_wiley2019deal_2023)
-81 articles without publication-level costs were linked to this group id. A preliminary EAPC of 186415.82 / 81 = 2301.43 was assigned to each of them.
+81 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 186415.82 / 81 = 2301.43 was assigned to each of them.
 CONTROL: First new article in group (10.1002/aenm.202203576) has an 'euro' value of 2301.43 €. ==> passed.
 
 === Update instructions ===

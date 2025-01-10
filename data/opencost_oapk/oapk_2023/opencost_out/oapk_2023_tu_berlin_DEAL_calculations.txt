@@ -1,11 +1,11 @@
 === Overview: Contract group IDs ===
 
 TU Berlin has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 164087.46 €. (group_id: 03v4gjf40_sn2020deal_2023)
-116 articles without publication-level costs were linked to this group id. A preliminary EAPC of 164087.46 / 116 = 1414.55 was assigned to each of them.
+116 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 164087.46 / 116 = 1414.55 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00163-023-00421-7) has an 'euro' value of 1414.55 €. ==> passed.
 
 TU Berlin has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 249247.12 €. (group_id: 03v4gjf40_wiley2019deal_2023)
-75 articles without publication-level costs were linked to this group id. A preliminary EAPC of 249247.12 / 75 = 3323.29 was assigned to each of them.
+75 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 249247.12 / 75 = 3323.29 was assigned to each of them.
 CONTROL: First new article in group (10.1002/star.202300163) has an 'euro' value of 3323.29 €. ==> passed.
 
 === Update instructions ===

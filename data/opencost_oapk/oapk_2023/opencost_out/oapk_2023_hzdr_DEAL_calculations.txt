@@ -1,16 +1,21 @@
 === Overview: Contract group IDs ===
 
 HZDR has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 33639.86 €. (group_id: 01zy2cs03_sn2020deal_2023)
-15 articles without publication-level costs were linked to this group id. A preliminary EAPC of 33639.86 / 15 = 2242.66 was assigned to each of them.
+15 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 33639.86 / 15 = 2242.66 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s40831-023-00691-4) has an 'euro' value of 2242.66 €. ==> passed.
 
 HZDR has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 63131.96 €. (group_id: 01zy2cs03_wiley2019deal_2023)
-21 articles without publication-level costs were linked to this group id. A preliminary EAPC of 63131.96 / 21 = 3006.28 was assigned to each of them.
+21 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 63131.96 / 21 = 3006.28 was assigned to each of them.
 CONTROL: First new article in group (10.1002/smll.202206444) has an 'euro' value of 3006.28 €. ==> passed.
 
-HZDR has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -931.8 €. (group_id: 01zy2cs03_wiley2019deal_2022)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of -931.8 / 1 = -931.8 was assigned to each of them.
-CONTROL: First new article in group (10.1002/piuz.202201652) has an 'euro' value of -931.8 €. ==> passed.
+HZDR has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 63648.63999999999 €. (group_id: 01zy2cs03_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 63648.63999999999 / 1 = 63648.64 was assigned to each of them.
+CONTROL: First new article in group (10.1002/piuz.202201652) has an 'euro' value of 63648.64 €. ==> passed.
+
+HZDR has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 33639.86 €. (group_id: 01zy2cs03_sn2020deal_2022)
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 33639.86 / 3 = 11213.29 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11004-021-09992-4) has an 'euro' value of 11213.29 €. ==> passed.
 
 === Update instructions ===
 
@@ -23,6 +28,6 @@ CONTROL: First new article in group (10.1002/piuz.202201652) has an 'euro' value
 3) There is no conflicting cost data for invoice group '01zy2cs03_wiley2019deal_2022', the calculated EAPC is valid.
  ==> The data file (HZDR, DEAL Wiley Germany, 2022) can be directly enriched and processed.
 
-4) There are 3 new articles for the agreement period DEAL Springer Nature Germany 2022, but neither related cost data nor matching TA data exists.
- ==> Generated file should be deleted.
+4) There is no conflicting cost data for invoice group '01zy2cs03_sn2020deal_2022', the calculated EAPC is valid.
+ ==> The data file (HZDR, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
 

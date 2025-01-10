@@ -1,11 +1,11 @@
 === Overview: Contract group IDs ===
 
 Freiburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 471859.32 €. (group_id: 0245cg223_sn2020deal_2023)
-203 articles without publication-level costs were linked to this group id. A preliminary EAPC of 471859.32 / 203 = 2324.43 was assigned to each of them.
+203 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 471859.32 / 203 = 2324.43 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00018-023-04754-3) has an 'euro' value of 2324.43 €. ==> passed.
 
 Freiburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 469740.76999999996 €. (group_id: 0245cg223_wiley2019deal_2023)
-182 articles without publication-level costs were linked to this group id. A preliminary EAPC of 469740.76999999996 / 182 = 2580.99 was assigned to each of them.
+182 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 469740.76999999996 / 182 = 2580.99 was assigned to each of them.
 CONTROL: First new article in group (10.1002/acp.4160) has an 'euro' value of 2580.99 €. ==> passed.
 
 === Update instructions ===

@@ -1,10 +1,18 @@
 === Overview: Contract group IDs ===
 
-HS Furtwangen has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 27995.170000000002 €. (group_id: 02m11x738_sn2020deal_2023)
-There were no articles without publication-level costs linked to this group id.
+HS Furtwangen has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 55990.340000000004 €. (group_id: 02m11x738_sn2020deal_2023)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+WARNING: There were invoice groups which are completely identical in total costs. A duplicate case is likely.
+There were no new articles without publication-level costs linked to this group id.
+
+HS Furtwangen has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 27995.170000000002 €. (group_id: 02m11x738_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
 1) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
  ==> Nothing to do here.
 

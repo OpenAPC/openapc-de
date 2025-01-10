@@ -1,12 +1,20 @@
 === Overview: Contract group IDs ===
 
 Muenchen LMU has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 569242.27 €. (group_id: 05591te55_sn2020deal_2023)
-289 articles without publication-level costs were linked to this group id. A preliminary EAPC of 569242.27 / 289 = 1969.7 was assigned to each of them.
+289 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 569242.27 / 289 = 1969.7 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00018-022-04681-9) has an 'euro' value of 1969.7 €. ==> passed.
 
 Muenchen LMU has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 493426.89 €. (group_id: 05591te55_wiley2019deal_2023)
-231 articles without publication-level costs were linked to this group id. A preliminary EAPC of 493426.89 / 231 = 2136.05 was assigned to each of them.
+231 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 493426.89 / 231 = 2136.05 was assigned to each of them.
 CONTROL: First new article in group (10.1002/1873-3468.14601) has an 'euro' value of 2136.05 €. ==> passed.
+
+Muenchen LMU has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 569242.27 €. (group_id: 05591te55_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (374 articles, EAPC: 1522.04 €). The EAPC might need an update, see below.
+
+Muenchen LMU has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 448569.91000000003 €. (group_id: 05591te55_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (324 articles, EAPC: 1384.48 €). The EAPC might need an update, see below.
 
 === Update instructions ===
 
@@ -15,4 +23,34 @@ CONTROL: First new article in group (10.1002/1873-3468.14601) has an 'euro' valu
 
 2) There is no conflicting cost data for invoice group '05591te55_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Muenchen LMU, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  05591te55_sn2020deal_2022                              --                  569242.27
+  TA data                                                374                 --    (Total: 569242.96 , EAPC: 1522.04, checking first TA article (10.1007/s12549-022-00552-0) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    374                 569242.27
+
+  New EAPC: 569242.27 / 374 = 1522.04
+
+ ==> EAPC for existing DEAL data (Muenchen LMU, DEAL Springer Nature Germany, 2022) is already correct (1522.04), no changes are needed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  05591te55_wiley2019deal_2022                           --                  448569.91000000003
+  TA data                                                324                 --    (Total: 448571.52 , EAPC: 1384.48, checking first TA article (10.1002/chem.202200492) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    324                 448569.91000000003
+
+  New EAPC: 448569.91000000003 / 324 = 1384.48
+
+ ==> EAPC for existing DEAL data (Muenchen LMU, DEAL Wiley Germany, 2022) is already correct (1384.48), no changes are needed.
 

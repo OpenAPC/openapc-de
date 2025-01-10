@@ -1,15 +1,25 @@
 === Overview: Contract group IDs ===
 
 DESY has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 11542.71 €. (group_id: 01js2sh04_els2023deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 DESY has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 100983.75 €. (group_id: 01js2sh04_sn2020deal_2023)
-5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 100983.75 / 5 = 20196.75 was assigned to each of them.
+5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 100983.75 / 5 = 20196.75 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11224-022-02053-4) has an 'euro' value of 20196.75 €. ==> passed.
 
 DESY has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 22676.539999999997 €. (group_id: 01js2sh04_wiley2019deal_2023)
-17 articles without publication-level costs were linked to this group id. A preliminary EAPC of 22676.539999999997 / 17 = 1333.91 was assigned to each of them.
+17 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 22676.539999999997 / 17 = 1333.91 was assigned to each of them.
 CONTROL: First new article in group (10.1107/s2053273323000682) has an 'euro' value of 1333.91 €. ==> passed.
+
+DESY has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 10969.599999999999 €. (group_id: 01js2sh04_wiley2019deal_2022)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 10969.599999999999 / 1 = 10969.6 was assigned to each of them.
+CONTROL: First new article in group (10.1002/lpor.202200588) has an 'euro' value of 5484.8 €. ==> FAILED!.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (14 articles, EAPC: 2392.5 €). The EAPC needs to be updated, see below.
+
+DESY has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 100983.75 €. (group_id: 01js2sh04_sn2020deal_2022)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 100983.75 / 1 = 100983.75 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00220-022-04569-6) has an 'euro' value of 100983.75 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (10 articles, EAPC: 10098.38 €). The EAPC needs to be updated, see below.
 
 === Update instructions ===
 
@@ -17,78 +27,80 @@ CONTROL: First new article in group (10.1107/s2053273323000682) has an 'euro' va
  ==> Nothing to do here.
 
 2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2023.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   01js2sh04_sn2020deal_2023                              --                  100983.75
-  New OAPK data                                          5                   --
-  Duplicates                                             -1                   --
+  New OAPK articles                                      5                   --
+  Duplicates                                             -1                  --
   -------------------------------------------------------------------------------------------
   Sum                                                    4                   100983.75
 
   New EAPC: 100983.75 / 4 = 25245.94
 
- ==> New DEAL data (DESY, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (25245.94) as euro value before enrichment (4 articles).
+ ==> New DEAL data (DESY, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (25245.94) as euro value before enrichment (3 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
 10.1007/s11224-022-02053-4, DESY, 2023  ---- 10.1007/s11224-022-02053-4, DESY, 2022
 
 3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   01js2sh04_wiley2019deal_2023                           --                  22676.539999999997
-  New OAPK data                                          17                  --
-  Duplicates                                             -1                   --
+  New OAPK articles                                      17                  --
+  Duplicates                                             -1                  --
   -------------------------------------------------------------------------------------------
   Sum                                                    16                  22676.539999999997
 
   New EAPC: 22676.539999999997 / 16 = 1417.28
 
- ==> New DEAL data (DESY, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (1417.28) as euro value before enrichment (16 articles).
+ ==> New DEAL data (DESY, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (1417.28) as euro value before enrichment (15 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
 10.1107/s1600576722011748, DESY, 2023  ---- 10.1107/s1600576722011748, DESY, 2022
 
 4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  TA data                                                14                  33495.0
-  New OAPK data                                          1                   --
-  Duplicates                                             -1                   --
+  01js2sh04_wiley2019deal_2022                           --                  10969.599999999999
+  TA data                                                14                  --    (Total: 33495.0 , EAPC: 2392.5, checking first TA article (10.1002/pamm.202200239) => passed)
+  New OAPK articles                                      1                   --
+  Duplicates                                             -1                  --
   -------------------------------------------------------------------------------------------
-  Sum                                                    14                  33495.0
+  Sum                                                    14                  10969.599999999999
 
-  New EAPC: 33495.0 / 14 = 2392.5
+  New EAPC: 10969.599999999999 / 14 = 783.54
 
- ==> Existing DEAL data (DESY, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (2392.5) as euro value (14 articles in original file(s), enriched file(s) and TA collection).
- ==> New DEAL data (DESY, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (2392.5) as euro value before enrichment (0 articles).
+ ==> Existing DEAL data (DESY, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (783.54) as euro value (14 articles in original file(s), enriched file(s) and TA collection).
+ ==> New DEAL data (DESY, DEAL Wiley Germany, 2022) contains only duplicates. File is empty and should be deleted.
 
 5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  TA data                                                10                  100983.79999999999
-  New OAPK data                                          1                   --
-  Duplicates                                             -1                   --
+  01js2sh04_sn2020deal_2022                              --                  100983.75
+  TA data                                                10                  --    (Total: 100983.79999999999 , EAPC: 10098.38, checking first TA article (10.1007/s00340-021-07746-y) => passed)
+  New OAPK articles                                      1                   --
+  Duplicates                                             -1                  --
   -------------------------------------------------------------------------------------------
-  Sum                                                    10                  100983.79999999999
+  Sum                                                    10                  100983.75
 
-  New EAPC: 100983.79999999999 / 10 = 10098.38
+  New EAPC: 100983.75 / 10 = 10098.38
 
- ==> Existing DEAL data (DESY, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (10098.38) as euro value (10 articles in original file(s), enriched file(s) and TA collection).
- ==> New DEAL data (DESY, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (10098.38) as euro value before enrichment (0 articles).
+ ==> EAPC for existing DEAL data (DESY, DEAL Springer Nature Germany, 2022) is already correct (10098.38), no changes are needed.
+ ==> New DEAL data (DESY, DEAL Springer Nature Germany, 2022) contains only duplicates. File is empty and should be deleted.
 
 6) There are 1 new articles for the agreement period DEAL Wiley Germany 2024, but neither related cost data nor matching TA data exists.
  ==> Generated file should be deleted.

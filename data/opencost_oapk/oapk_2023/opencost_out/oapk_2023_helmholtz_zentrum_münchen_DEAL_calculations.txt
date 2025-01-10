@@ -1,11 +1,11 @@
 === Overview: Contract group IDs ===
 
 Helmholtz Zentrum München has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 98219.38 €. (group_id: 00cfam450_sn2020deal_2023)
-28 articles without publication-level costs were linked to this group id. A preliminary EAPC of 98219.38 / 28 = 3507.84 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00411-022-01012-1) has an 'euro' value of 3168.37 €. ==> FAILED!.
+31 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 98219.38 / 31 = 3168.37 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10654-023-00999-1) has an 'euro' value of 3168.37 €. ==> passed.
 
 Helmholtz Zentrum München has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 58210.14 €. (group_id: 00cfam450_wiley2019deal_2023)
-20 articles without publication-level costs were linked to this group id. A preliminary EAPC of 58210.14 / 20 = 2910.51 was assigned to each of them.
+20 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 58210.14 / 20 = 2910.51 was assigned to each of them.
 CONTROL: First new article in group (10.1111/febs.16991) has an 'euro' value of 2910.51 €. ==> passed.
 
 === Update instructions ===

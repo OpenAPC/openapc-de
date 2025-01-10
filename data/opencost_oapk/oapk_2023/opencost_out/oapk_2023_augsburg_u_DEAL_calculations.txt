@@ -1,12 +1,21 @@
 === Overview: Contract group IDs ===
 
 Augsburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 149187.85 €. (group_id: 03p14d497_sn2020deal_2023)
-88 articles without publication-level costs were linked to this group id. A preliminary EAPC of 149187.85 / 88 = 1695.32 was assigned to each of them.
+88 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 149187.85 / 88 = 1695.32 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00103-022-03650-8) has an 'euro' value of 1695.32 €. ==> passed.
 
 Augsburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 93701.37 €. (group_id: 03p14d497_wiley2019deal_2023)
-19 articles without publication-level costs were linked to this group id. A preliminary EAPC of 93701.37 / 19 = 4931.65 was assigned to each of them.
+19 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 93701.37 / 19 = 4931.65 was assigned to each of them.
 CONTROL: First new article in group (10.1002/adbi.202200282) has an 'euro' value of 4931.65 €. ==> passed.
+
+Augsburg U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 149187.85 €. (group_id: 03p14d497_sn2020deal_2022)
+2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 149187.85 / 2 = 74593.93 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s41471-022-00136-w) has an 'euro' value of 74593.93 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (72 articles, EAPC: 2072.05 €). The EAPC needs to be updated, see below.
+
+Augsburg U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 100394.31 €. (group_id: 03p14d497_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (31 articles, EAPC: 3238.52 €). The EAPC might need an update, see below.
 
 === Update instructions ===
 
@@ -14,20 +23,20 @@ CONTROL: First new article in group (10.1002/adbi.202200282) has an 'euro' value
  ==> The data file (Augsburg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   03p14d497_wiley2019deal_2023                           --                  93701.37
-  New OAPK data                                          19                  --
-  Duplicates                                             -3                   --
+  New OAPK articles                                      19                  --
+  Duplicates                                             -3                  --
   -------------------------------------------------------------------------------------------
   Sum                                                    16                  93701.37
 
   New EAPC: 93701.37 / 16 = 5856.34
 
- ==> New DEAL data (Augsburg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (5856.34) as euro value before enrichment (16 articles).
+ ==> New DEAL data (Augsburg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (5856.34) as euro value before enrichment (13 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
@@ -36,18 +45,34 @@ new data --- old data
 10.1111/1365-2745.14065, Augsburg U, 2023  ---- 10.1111/1365-2745.14065, Augsburg U, 2022
 
 3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
-  TA data                                                72                  149187.6
-  New OAPK data                                          1                   --
+  03p14d497_sn2020deal_2022                              --                  149187.85
+  TA data                                                72                  --    (Total: 149187.6 , EAPC: 2072.05, checking first TA article (10.1007/s11159-022-09944-y) => passed)
+  New OAPK articles                                      2                   --
   -------------------------------------------------------------------------------------------
-  Sum                                                    73                  149187.6
+  Sum                                                    74                  149187.85
 
-  New EAPC: 149187.6 / 73 = 2043.67
+  New EAPC: 149187.85 / 74 = 2016.05
 
- ==> Existing DEAL data (Augsburg U, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2043.67) as euro value (72 articles in original file(s), enriched file(s) and TA collection).
- ==> New DEAL data (Augsburg U, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2043.67) as euro value before enrichment (1 articles).
+ ==> Existing DEAL data (Augsburg U, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2016.05) as euro value (72 articles in original file(s), enriched file(s) and TA collection).
+ ==> New DEAL data (Augsburg U, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2016.05) as euro value before enrichment (2 articles).
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  03p14d497_wiley2019deal_2022                           --                  100394.31
+  TA data                                                31                  --    (Total: 100394.12 , EAPC: 3238.52, checking first TA article (10.1002/zamm.202100165) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    31                  100394.31
+
+  New EAPC: 100394.31 / 31 = 3238.53
+
+ ==> Existing DEAL data (Augsburg U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (3238.53) as euro value (31 articles in original file(s), enriched file(s) and TA collection).
 

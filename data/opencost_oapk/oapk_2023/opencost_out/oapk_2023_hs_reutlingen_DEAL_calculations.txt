@@ -1,12 +1,18 @@
 === Overview: Contract group IDs ===
 
 HS Reutlingen has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 23738.46 €. (group_id: 00q644y50_sn2020deal_2023)
-6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 23738.46 / 6 = 3956.41 was assigned to each of them.
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 23738.46 / 6 = 3956.41 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11618-023-01150-2) has an 'euro' value of 3956.41 €. ==> passed.
 
 HS Reutlingen has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 13547.59 €. (group_id: 00q644y50_wiley2019deal_2023)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 13547.59 / 1 = 13547.59 was assigned to each of them.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 13547.59 / 1 = 13547.59 was assigned to each of them.
 CONTROL: First new article in group (10.1002/jcaf.22669) has an 'euro' value of 13547.59 €. ==> passed.
+
+HS Reutlingen has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 14515.28 €. (group_id: 00q644y50_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+
+HS Reutlingen has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 23738.46 €. (group_id: 00q644y50_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
@@ -15,4 +21,10 @@ CONTROL: First new article in group (10.1002/jcaf.22669) has an 'euro' value of 
 
 2) There is no conflicting cost data for invoice group '00q644y50_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (HS Reutlingen, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
 

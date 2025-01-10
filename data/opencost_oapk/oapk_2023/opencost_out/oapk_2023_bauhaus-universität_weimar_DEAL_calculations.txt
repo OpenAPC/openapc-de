@@ -1,12 +1,12 @@
 === Overview: Contract group IDs ===
 
 Bauhaus-Universität Weimar has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 65619.04000000001 €. (group_id: 033bb5z47_wiley2019deal_2023)
-28 articles without publication-level costs were linked to this group id. A preliminary EAPC of 65619.04000000001 / 28 = 2343.54 was assigned to each of them.
+28 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 65619.04000000001 / 28 = 2343.54 was assigned to each of them.
 CONTROL: First new article in group (10.1002/cepa.2437) has an 'euro' value of 2343.54 €. ==> passed.
 
 Bauhaus-Universität Weimar has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 35234.780000000006 €. (group_id: 033bb5z47_sn2020deal_2023)
-10 articles without publication-level costs were linked to this group id. A preliminary EAPC of 35234.780000000006 / 10 = 3523.48 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s00466-023-02287-x) has an 'euro' value of 3203.16 €. ==> FAILED!.
+11 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 35234.780000000006 / 11 = 3203.16 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00466-023-02287-x) has an 'euro' value of 3203.16 €. ==> passed.
 
 === Update instructions ===
 

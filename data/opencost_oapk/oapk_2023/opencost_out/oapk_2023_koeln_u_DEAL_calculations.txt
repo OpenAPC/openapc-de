@@ -1,16 +1,24 @@
 === Overview: Contract group IDs ===
 
 Koeln U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 131854.13 €. (group_id: 00rcxh774_els2023deal_2023)
-29 articles without publication-level costs were linked to this group id. A preliminary EAPC of 131854.13 / 29 = 4546.69 was assigned to each of them.
+29 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 131854.13 / 29 = 4546.69 was assigned to each of them.
 CONTROL: First new article in group (10.1053/j.seminhematol.2023.12.004) has an 'euro' value of 4546.69 €. ==> passed.
 
 Koeln U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 497087.78 €. (group_id: 00rcxh774_sn2020deal_2023)
-197 articles without publication-level costs were linked to this group id. A preliminary EAPC of 497087.78 / 197 = 2523.29 was assigned to each of them.
+197 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 497087.78 / 197 = 2523.29 was assigned to each of them.
 CONTROL: First new article in group (10.3758/s13428-023-02081-w) has an 'euro' value of 2523.29 €. ==> passed.
 
 Koeln U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 427351.20999999996 €. (group_id: 00rcxh774_wiley2019deal_2023)
-118 articles without publication-level costs were linked to this group id. A preliminary EAPC of 427351.20999999996 / 118 = 3621.62 was assigned to each of them.
+118 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 427351.20999999996 / 118 = 3621.62 was assigned to each of them.
 CONTROL: First new article in group (10.15252/embr.202357455) has an 'euro' value of 3621.62 €. ==> passed.
+
+Koeln U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 497087.78 €. (group_id: 00rcxh774_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (240 articles, EAPC: 2071.2 €). The EAPC might need an update, see below.
+
+Koeln U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 457876.29000000004 €. (group_id: 00rcxh774_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (127 articles, EAPC: 3605.33 €). The EAPC might need an update, see below.
 
 === Update instructions ===
 
@@ -21,22 +29,52 @@ CONTROL: First new article in group (10.15252/embr.202357455) has an 'euro' valu
  ==> The data file (Koeln U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
 
 3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   00rcxh774_wiley2019deal_2023                           --                  427351.20999999996
-  New OAPK data                                          118                 --
-  Duplicates                                             -1                   --
+  New OAPK articles                                      118                 --
+  Duplicates                                             -1                  --
   -------------------------------------------------------------------------------------------
   Sum                                                    117                 427351.20999999996
 
   New EAPC: 427351.20999999996 / 117 = 3652.57
 
- ==> New DEAL data (Koeln U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3652.57) as euro value before enrichment (117 articles).
+ ==> New DEAL data (Koeln U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3652.57) as euro value before enrichment (116 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
 10.1111/1467-9655.14008, Koeln U, 2023  ---- 10.1111/1467-9655.14008, Koeln U, 2022
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00rcxh774_sn2020deal_2022                              --                  497087.78
+  TA data                                                240                 --    (Total: 497087.99999999994 , EAPC: 2071.2, checking first TA article (10.1007/s12054-022-00465-4) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    240                 497087.78
+
+  New EAPC: 497087.78 / 240 = 2071.2
+
+ ==> EAPC for existing DEAL data (Koeln U, DEAL Springer Nature Germany, 2022) is already correct (2071.2), no changes are needed.
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00rcxh774_wiley2019deal_2022                           --                  457876.29000000004
+  TA data                                                127                 --    (Total: 457876.91 , EAPC: 3605.33, checking first TA article (10.1111/ijtd.12279) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    127                 457876.29000000004
+
+  New EAPC: 457876.29000000004 / 127 = 3605.33
+
+ ==> EAPC for existing DEAL data (Koeln U, DEAL Wiley Germany, 2022) is already correct (3605.33), no changes are needed.
 

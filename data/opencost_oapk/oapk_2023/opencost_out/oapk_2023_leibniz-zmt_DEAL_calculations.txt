@@ -1,16 +1,24 @@
 === Overview: Contract group IDs ===
 
 Leibniz-ZMT has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 34020.38 €. (group_id: 019w00969_sn2020deal_2023)
-9 articles without publication-level costs were linked to this group id. A preliminary EAPC of 34020.38 / 9 = 3780.04 was assigned to each of them.
+9 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 34020.38 / 9 = 3780.04 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00367-023-00758-x) has an 'euro' value of 3780.04 €. ==> passed.
 
 Leibniz-ZMT has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 22361.899999999998 €. (group_id: 019w00969_wiley2019deal_2023)
-5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 22361.899999999998 / 5 = 4472.38 was assigned to each of them.
+5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 22361.899999999998 / 5 = 4472.38 was assigned to each of them.
 CONTROL: First new article in group (10.1029/2023jd040126) has an 'euro' value of 4472.38 €. ==> passed.
 
 Leibniz-ZMT has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 8552.7 €. (group_id: 019w00969_els2023deal_2023)
-3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 8552.7 / 3 = 2850.9 was assigned to each of them.
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 8552.7 / 3 = 2850.9 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.cosust.2023.101379) has an 'euro' value of 2850.9 €. ==> passed.
+
+Leibniz-ZMT has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 23959.18 €. (group_id: 019w00969_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (3 articles, EAPC: 7986.39 €). The EAPC might need an update, see below.
+
+Leibniz-ZMT has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 26764.449999999997 €. (group_id: 019w00969_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (9 articles, EAPC: 2973.83 €). The EAPC might need an update, see below.
 
 === Update instructions ===
 
@@ -22,4 +30,34 @@ CONTROL: First new article in group (10.1016/j.cosust.2023.101379) has an 'euro'
 
 3) There is no conflicting cost data for invoice group '019w00969_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (Leibniz-ZMT, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  019w00969_wiley2019deal_2022                           --                  23959.18
+  TA data                                                3                   --    (Total: 23959.170000000002 , EAPC: 7986.39, checking first TA article (10.1111/maec.12734) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    3                   23959.18
+
+  New EAPC: 23959.18 / 3 = 7986.39
+
+ ==> EAPC for existing DEAL data (Leibniz-ZMT, DEAL Wiley Germany, 2022) is already correct (7986.39), no changes are needed.
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  019w00969_sn2020deal_2022                              --                  26764.449999999997
+  TA data                                                9                   --    (Total: 26764.47 , EAPC: 2973.83, checking first TA article (10.1007/s13280-022-01789-x) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    9                   26764.449999999997
+
+  New EAPC: 26764.449999999997 / 9 = 2973.83
+
+ ==> EAPC for existing DEAL data (Leibniz-ZMT, DEAL Springer Nature Germany, 2022) is already correct (2973.83), no changes are needed.
 

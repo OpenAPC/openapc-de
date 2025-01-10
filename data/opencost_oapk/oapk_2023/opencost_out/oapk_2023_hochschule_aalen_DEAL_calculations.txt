@@ -1,10 +1,10 @@
 === Overview: Contract group IDs ===
 
 Hochschule Aalen has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 25830.729999999996 €. (group_id: 04gg60e72_sn2020deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 Hochschule Aalen has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 9008.99 €. (group_id: 04gg60e72_wiley2019deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 

@@ -1,27 +1,27 @@
 === Overview: Contract group IDs ===
 
 HTWG Konstanz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 21584.01 €. (group_id: 051qw9f78_sn2020deal_2023)
-3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 21584.01 / 3 = 7194.67 was assigned to each of them.
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 21584.01 / 3 = 7194.67 was assigned to each of them.
 CONTROL: First new article in group (10.1365/s40702-023-00974-0) has an 'euro' value of 7194.67 €. ==> passed.
-IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (3 articles, EAPC: 7194.67 €). EAPC needs to be updated, see below.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (3 articles, EAPC: 7194.67 €). The EAPC needs to be updated, see below.
 
 === Update instructions ===
 
 1) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2023.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   051qw9f78_sn2020deal_2023                              --                  21584.01
-  TA data                                                3                   21584.010000000002
-  New OAPK data                                          3                   --
-  Duplicates                                             -3                   --
+  TA data                                                3                   --    (Total: 21584.010000000002 , EAPC: 7194.67, checking first TA article (10.1365/s40702-023-00974-0) => passed)
+  New OAPK articles                                      3                   --
+  Duplicates                                             -3                  --
   -------------------------------------------------------------------------------------------
-  Sum                                                    3                   43168.020000000004
+  Sum                                                    3                   21584.01
 
-  New EAPC: 43168.020000000004 / 3 = 14389.34
+  New EAPC: 21584.01 / 3 = 7194.67
 
- ==> Existing DEAL data (HTWG Konstanz, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (14389.34) as euro value (3 articles in original file(s), enriched file(s) and TA collection).
- ==> New DEAL data (HTWG Konstanz, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (14389.34) as euro value before enrichment (0 articles).
+ ==> EAPC for existing DEAL data (HTWG Konstanz, DEAL Springer Nature Germany, 2023) is already correct (7194.67), no changes are needed.
+ ==> New DEAL data (HTWG Konstanz, DEAL Springer Nature Germany, 2023) contains only duplicates. File is empty and should be deleted.
 

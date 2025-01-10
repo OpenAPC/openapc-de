@@ -1,15 +1,15 @@
 === Overview: Contract group IDs ===
 
 University of Education Freiburg has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 5590.0 €. (group_id: 02rtsfd15_els2023deal_2023)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 5590.0 / 1 = 5590.0 was assigned to each of them.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 5590.0 / 1 = 5590.0 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.cedpsych.2023.102224) has an 'euro' value of 5590.0 €. ==> passed.
 
 University of Education Freiburg has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7482.3 €. (group_id: 02rtsfd15_wiley2019deal_2023)
-2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 7482.3 / 2 = 3741.15 was assigned to each of them.
+2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 7482.3 / 2 = 3741.15 was assigned to each of them.
 CONTROL: First new article in group (10.1002/acp.4023) has an 'euro' value of 3741.15 €. ==> passed.
 
 University of Education Freiburg has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 30734.22 €. (group_id: 02rtsfd15_sn2020deal_2023)
-9 articles without publication-level costs were linked to this group id. A preliminary EAPC of 30734.22 / 9 = 3414.91 was assigned to each of them.
+9 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 30734.22 / 9 = 3414.91 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11423-023-10213-4) has an 'euro' value of 3414.91 €. ==> passed.
 
 === Update instructions ===

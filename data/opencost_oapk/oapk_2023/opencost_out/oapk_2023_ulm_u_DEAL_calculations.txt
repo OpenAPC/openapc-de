@@ -1,19 +1,23 @@
 === Overview: Contract group IDs ===
 
-Ulm U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 188494.58 €. (group_id: 032000t02_sn2020deal_2022)
-8 articles without publication-level costs were linked to this group id. A preliminary EAPC of 188494.58 / 8 = 23561.82 was assigned to each of them.
-CONTROL: First new article in group (10.1038/s41375-022-01732-9) has an 'euro' value of 23561.82 €. ==> passed.
+Ulm U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 376989.16 €. (group_id: 032000t02_sn2020deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+WARNING: There were invoice groups which are completely identical in total costs. A duplicate case is likely.
+8 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 376989.16 / 8 = 47123.64 was assigned to each of them.
+CONTROL: First new article in group (10.1038/s41375-022-01732-9) has an 'euro' value of 47123.64 €. ==> passed.
 
-Ulm U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 233945.35 €. (group_id: 032000t02_wiley2019deal_2022)
-24 articles without publication-level costs were linked to this group id. A preliminary EAPC of 233945.35 / 24 = 9747.72 was assigned to each of them.
-CONTROL: First new article in group (10.1002/bies.202100236) has an 'euro' value of 9747.72 €. ==> passed.
+Ulm U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 467890.7 €. (group_id: 032000t02_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+WARNING: There were invoice groups which are completely identical in total costs. A duplicate case is likely.
+24 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 467890.7 / 24 = 19495.45 was assigned to each of them.
+CONTROL: First new article in group (10.1002/bies.202100236) has an 'euro' value of 19495.45 €. ==> passed.
 
 Ulm U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 188494.58 €. (group_id: 032000t02_sn2020deal_2023)
-66 articles without publication-level costs were linked to this group id. A preliminary EAPC of 188494.58 / 66 = 2855.98 was assigned to each of them.
+66 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 188494.58 / 66 = 2855.98 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00167-022-07300-z) has an 'euro' value of 2855.98 €. ==> passed.
 
 Ulm U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 242094.61000000002 €. (group_id: 032000t02_wiley2019deal_2023)
-94 articles without publication-level costs were linked to this group id. A preliminary EAPC of 242094.61000000002 / 94 = 2575.47 was assigned to each of them.
+94 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 242094.61000000002 / 94 = 2575.47 was assigned to each of them.
 CONTROL: First new article in group (10.1002/jcu.23415) has an 'euro' value of 2575.47 €. ==> passed.
 
 === Update instructions ===

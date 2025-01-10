@@ -1,20 +1,20 @@
 === Overview: Contract group IDs ===
 
 TiHo Hannover has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 88532.46 €. (group_id: 015qjqf64_sn2020deal_2023)
-5 articles without publication-level costs were linked to this group id. A preliminary EAPC of 88532.46 / 5 = 17706.49 was assigned to each of them.
+5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 88532.46 / 5 = 17706.49 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s12155-023-10667-7) has an 'euro' value of 17706.49 €. ==> passed.
 
 TiHo Hannover has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 136594.03999999998 €. (group_id: 015qjqf64_wiley2019deal_2023)
-24 articles without publication-level costs were linked to this group id. A preliminary EAPC of 136594.03999999998 / 24 = 5691.42 was assigned to each of them.
+24 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 136594.03999999998 / 24 = 5691.42 was assigned to each of them.
 CONTROL: First new article in group (10.1111/evj.14053) has an 'euro' value of 5691.42 €. ==> passed.
 
 TiHo Hannover has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 16770.0 €. (group_id: 015qjqf64_els2023deal_2023)
-6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 16770.0 / 6 = 2795.0 was assigned to each of them.
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 16770.0 / 6 = 2795.0 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.bbadis.2023.166947) has an 'euro' value of 2795.0 €. ==> passed.
 
 TiHo Hannover has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -14152.970000000001 €. (group_id: 015qjqf64_wiley2019deal_2022)
-There were no articles without publication-level costs linked to this group id.
-IMPORTANT: The institution has already reported TA DEAL data for the given period and publisher (19 articles, EAPC: 6957.78 €). EAPC needs to be updated, see below.
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (19 articles, EAPC: 6957.78 €). The EAPC might need an update, see below.
 
 === Update instructions ===
 
@@ -28,18 +28,18 @@ IMPORTANT: The institution has already reported TA DEAL data for the given perio
  ==> The data file (TiHo Hannover, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
 
 4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
- ==> EAPC needs to be updated.
+ ==> Checking if EAPC needs to be updated.
 
  = Recalculation = 
   data_source                                            num_articles         total_costs (€)
   -------------------------------------------------------------------------------------------
   015qjqf64_wiley2019deal_2022                           --                  -14152.970000000001
-  TA data                                                19                  132197.82
+  TA data                                                19                  --    (Total: 132197.82 , EAPC: 6957.78, checking first TA article (10.1111/vsu.13926) => passed)
   -------------------------------------------------------------------------------------------
-  Sum                                                    19                  118044.85
+  Sum                                                    19                  -14152.970000000001
 
-  New EAPC: 118044.85 / 19 = 6212.89
+  New EAPC: -14152.970000000001 / 19 = -744.89
 
- ==> Existing DEAL data (TiHo Hannover, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (6212.89) as euro value (19 articles in original file(s), enriched file(s) and TA collection).
+ ==> Existing DEAL data (TiHo Hannover, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (-744.89) as euro value (19 articles in original file(s), enriched file(s) and TA collection).
  IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
 

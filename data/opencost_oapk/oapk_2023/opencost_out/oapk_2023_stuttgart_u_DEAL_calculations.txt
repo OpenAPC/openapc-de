@@ -1,11 +1,11 @@
 === Overview: Contract group IDs ===
 
 Stuttgart U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 242691.54 €. (group_id: 04vnq7t77_sn2020deal_2023)
-102 articles without publication-level costs were linked to this group id. A preliminary EAPC of 242691.54 / 102 = 2379.33 was assigned to each of them.
+102 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 242691.54 / 102 = 2379.33 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10836-022-06038-3) has an 'euro' value of 2379.33 €. ==> passed.
 
 Stuttgart U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 282453.5 €. (group_id: 04vnq7t77_wiley2019deal_2023)
-99 articles without publication-level costs were linked to this group id. A preliminary EAPC of 282453.5 / 99 = 2853.07 was assigned to each of them.
+99 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 282453.5 / 99 = 2853.07 was assigned to each of them.
 CONTROL: First new article in group (10.1029/2022wr033660) has an 'euro' value of 2853.07 €. ==> passed.
 
 === Update instructions ===

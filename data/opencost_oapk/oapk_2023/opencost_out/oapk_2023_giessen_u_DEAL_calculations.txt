@@ -1,15 +1,19 @@
 === Overview: Contract group IDs ===
 
 Giessen U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 327457.25 €. (group_id: 033eqas34_sn2020deal_2023)
-87 articles without publication-level costs were linked to this group id. A preliminary EAPC of 327457.25 / 87 = 3763.88 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s10444-022-10005-z) has an 'euro' value of 3679.29 €. ==> FAILED!.
+89 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 327457.25 / 89 = 3679.29 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10444-022-10005-z) has an 'euro' value of 3679.29 €. ==> passed.
 
 Giessen U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 367287.77 €. (group_id: 033eqas34_wiley2019deal_2023)
-71 articles without publication-level costs were linked to this group id. A preliminary EAPC of 367287.77 / 71 = 5173.07 was assigned to each of them.
+71 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 367287.77 / 71 = 5173.07 was assigned to each of them.
 CONTROL: First new article in group (10.1002/zaac.202300213) has an 'euro' value of 5173.07 €. ==> passed.
 
-Giessen U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 3791.5699999999997 €. (group_id: 033eqas34_sn2020deal_2022)
-There were no articles without publication-level costs linked to this group id.
+Giessen U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 331248.82 €. (group_id: 033eqas34_sn2020deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+There were no new articles without publication-level costs linked to this group id.
+
+Giessen U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 393522.62 €. (group_id: 033eqas34_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
@@ -20,5 +24,8 @@ There were no articles without publication-level costs linked to this group id.
  ==> The data file (Giessen U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
 
 3) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
  ==> Nothing to do here.
 

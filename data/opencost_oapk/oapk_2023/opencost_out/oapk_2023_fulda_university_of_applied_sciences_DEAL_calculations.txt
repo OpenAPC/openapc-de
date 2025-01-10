@@ -1,13 +1,13 @@
 === Overview: Contract group IDs ===
 
 Fulda University of Applied Sciences has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 27980.35 €. (group_id: 041bz9r75_sn2020deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 Fulda University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 28579.82 €. (group_id: 041bz9r75_wiley2019deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 Fulda University of Applied Sciences has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 0.0 €. (group_id: 041bz9r75_els2023deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
@@ -20,7 +20,7 @@ There were no articles without publication-level costs linked to this group id.
 3) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
  ==> Nothing to do here.
 
-4) There are 8 new articles for the agreement period DEAL Springer Nature Germany 2024, but neither related cost data nor matching TA data exists.
+4) There are 9 new articles for the agreement period DEAL Springer Nature Germany 2024, but neither related cost data nor matching TA data exists.
  ==> Generated file should be deleted.
 
 5) There are 1 new articles for the agreement period DEAL Wiley Germany 2024, but neither related cost data nor matching TA data exists.

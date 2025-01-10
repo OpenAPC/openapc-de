@@ -1,10 +1,16 @@
 === Overview: Contract group IDs ===
 
 HS Kaiserslautern has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 6583.75 €. (group_id: 05dkqa017_sn2020deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 HS Kaiserslautern has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 5363.450000000001 €. (group_id: 05dkqa017_wiley2019deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
+
+HS Kaiserslautern has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 5746.5599999999995 €. (group_id: 05dkqa017_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+
+HS Kaiserslautern has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 6583.75 €. (group_id: 05dkqa017_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
@@ -12,5 +18,11 @@ There were no articles without publication-level costs linked to this group id.
  ==> Nothing to do here.
 
 2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
  ==> Nothing to do here.
 

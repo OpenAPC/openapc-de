@@ -1,7 +1,7 @@
 === Overview: Contract group IDs ===
 
 Research Institute for Farm Animal Biology (FBN) has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 2722.7200000000003 €. (group_id: 02n5r1g44_wiley2019deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 

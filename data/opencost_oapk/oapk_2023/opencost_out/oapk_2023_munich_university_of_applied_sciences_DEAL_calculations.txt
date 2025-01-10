@@ -1,11 +1,11 @@
 === Overview: Contract group IDs ===
 
 Munich University of Applied Sciences has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 10457.55 €. (group_id: 012k1v959_sn2020deal_2023)
-7 articles without publication-level costs were linked to this group id. A preliminary EAPC of 10457.55 / 7 = 1493.94 was assigned to each of them.
+7 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 10457.55 / 7 = 1493.94 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s12525-023-00671-2) has an 'euro' value of 1493.94 €. ==> passed.
 
 Munich University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 15790.04 €. (group_id: 012k1v959_wiley2019deal_2023)
-6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 15790.04 / 6 = 2631.67 was assigned to each of them.
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 15790.04 / 6 = 2631.67 was assigned to each of them.
 CONTROL: First new article in group (10.1111/jiec.13469) has an 'euro' value of 2631.67 €. ==> passed.
 
 === Update instructions ===

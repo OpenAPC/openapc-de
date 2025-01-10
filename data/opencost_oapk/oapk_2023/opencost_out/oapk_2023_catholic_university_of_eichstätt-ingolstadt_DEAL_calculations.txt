@@ -1,14 +1,14 @@
 === Overview: Contract group IDs ===
 
 Catholic University of Eichstätt-Ingolstadt has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 8552.7 €. (group_id: 00mx91s63_els2023deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 Catholic University of Eichstätt-Ingolstadt has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 71418.87 €. (group_id: 00mx91s63_sn2020deal_2023)
-24 articles without publication-level costs were linked to this group id. A preliminary EAPC of 71418.87 / 24 = 2975.79 was assigned to each of them.
+24 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 71418.87 / 24 = 2975.79 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11117-022-00957-3) has an 'euro' value of 2975.79 €. ==> passed.
 
 Catholic University of Eichstätt-Ingolstadt has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 64871.89 €. (group_id: 00mx91s63_wiley2019deal_2023)
-8 articles without publication-level costs were linked to this group id. A preliminary EAPC of 64871.89 / 8 = 8108.99 was assigned to each of them.
+8 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 64871.89 / 8 = 8108.99 was assigned to each of them.
 CONTROL: First new article in group (10.1002/cpp.2772) has an 'euro' value of 8108.99 €. ==> passed.
 
 === Update instructions ===

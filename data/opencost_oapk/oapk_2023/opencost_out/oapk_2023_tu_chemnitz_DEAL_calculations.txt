@@ -1,12 +1,20 @@
 === Overview: Contract group IDs ===
 
 TU Chemnitz has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 253815.86 €. (group_id: 00a208s56_sn2020deal_2023)
-46 articles without publication-level costs were linked to this group id. A preliminary EAPC of 253815.86 / 46 = 5517.74 was assigned to each of them.
+46 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 253815.86 / 46 = 5517.74 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s00020-023-02732-9) has an 'euro' value of 5517.74 €. ==> passed.
 
 TU Chemnitz has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 123054.32 €. (group_id: 00a208s56_wiley2019deal_2023)
-34 articles without publication-level costs were linked to this group id. A preliminary EAPC of 123054.32 / 34 = 3619.24 was assigned to each of them.
+34 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 123054.32 / 34 = 3619.24 was assigned to each of them.
 CONTROL: First new article in group (10.1002/adem.202300085) has an 'euro' value of 3619.24 €. ==> passed.
+
+TU Chemnitz has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 253815.86 €. (group_id: 00a208s56_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (47 articles, EAPC: 5400.34 €). The EAPC might need an update, see below.
+
+TU Chemnitz has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 131843.9 €. (group_id: 00a208s56_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (26 articles, EAPC: 5070.92 €). The EAPC might need an update, see below.
 
 === Update instructions ===
 
@@ -15,4 +23,34 @@ CONTROL: First new article in group (10.1002/adem.202300085) has an 'euro' value
 
 2) There is no conflicting cost data for invoice group '00a208s56_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (TU Chemnitz, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00a208s56_sn2020deal_2022                              --                  253815.86
+  TA data                                                47                  --    (Total: 253815.98 , EAPC: 5400.34, checking first TA article (10.1007/s00222-022-01096-y) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    47                  253815.86
+
+  New EAPC: 253815.86 / 47 = 5400.34
+
+ ==> EAPC for existing DEAL data (TU Chemnitz, DEAL Springer Nature Germany, 2022) is already correct (5400.34), no changes are needed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00a208s56_wiley2019deal_2022                           --                  131843.9
+  TA data                                                26                  --    (Total: 131843.92 , EAPC: 5070.92, checking first TA article (10.1002/anie.202206963) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    26                  131843.9
+
+  New EAPC: 131843.9 / 26 = 5070.92
+
+ ==> EAPC for existing DEAL data (TU Chemnitz, DEAL Wiley Germany, 2022) is already correct (5070.92), no changes are needed.
 

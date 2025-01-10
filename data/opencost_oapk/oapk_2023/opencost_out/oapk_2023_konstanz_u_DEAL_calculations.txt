@@ -1,12 +1,20 @@
 === Overview: Contract group IDs ===
 
 Konstanz U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 165692.22 €. (group_id: 0546hnb39_sn2020deal_2023)
-48 articles without publication-level costs were linked to this group id. A preliminary EAPC of 165692.22 / 48 = 3451.92 was assigned to each of them.
+48 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 165692.22 / 48 = 3451.92 was assigned to each of them.
 CONTROL: First new article in group (10.1038/s41435-023-00194-y) has an 'euro' value of 3451.92 €. ==> passed.
 
 Konstanz U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 197318.45 €. (group_id: 0546hnb39_wiley2019deal_2023)
-57 articles without publication-level costs were linked to this group id. A preliminary EAPC of 197318.45 / 57 = 3461.73 was assigned to each of them.
+57 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 197318.45 / 57 = 3461.73 was assigned to each of them.
 CONTROL: First new article in group (10.1111/spol.12897) has an 'euro' value of 3461.73 €. ==> passed.
+
+Konstanz U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 165692.22 €. (group_id: 0546hnb39_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (51 articles, EAPC: 3248.87 €). The EAPC might need an update, see below.
+
+Konstanz U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 211412.63 €. (group_id: 0546hnb39_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (70 articles, EAPC: 3020.18 €). The EAPC might need an update, see below.
 
 === Update instructions ===
 
@@ -15,4 +23,34 @@ CONTROL: First new article in group (10.1111/spol.12897) has an 'euro' value of 
 
 2) There is no conflicting cost data for invoice group '0546hnb39_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Konstanz U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  0546hnb39_sn2020deal_2022                              --                  165692.22
+  TA data                                                51                  --    (Total: 165692.37 , EAPC: 3248.87, checking first TA article (10.1007/s10231-022-01293-9) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    51                  165692.22
+
+  New EAPC: 165692.22 / 51 = 3248.87
+
+ ==> EAPC for existing DEAL data (Konstanz U, DEAL Springer Nature Germany, 2022) is already correct (3248.87), no changes are needed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  0546hnb39_wiley2019deal_2022                           --                  211412.63
+  TA data                                                70                  --    (Total: 211412.59999999998 , EAPC: 3020.18, checking first TA article (10.1002/pip.3663) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    70                  211412.63
+
+  New EAPC: 211412.63 / 70 = 3020.18
+
+ ==> EAPC for existing DEAL data (Konstanz U, DEAL Wiley Germany, 2022) is already correct (3020.18), no changes are needed.
 

@@ -1,15 +1,15 @@
 === Overview: Contract group IDs ===
 
 Kiel Institute for the World Economy has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 3563.63 €. (group_id: 032yym934_els2023deal_2023)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 3563.63 / 1 = 3563.63 was assigned to each of them.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 3563.63 / 1 = 3563.63 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.joep.2023.102657) has an 'euro' value of 3563.63 €. ==> passed.
 
 Kiel Institute for the World Economy has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 11506.189999999999 €. (group_id: 032yym934_sn2020deal_2023)
-3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 11506.189999999999 / 3 = 3835.4 was assigned to each of them.
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 11506.189999999999 / 3 = 3835.4 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10037-023-00188-3) has an 'euro' value of 3835.4 €. ==> passed.
 
 Kiel Institute for the World Economy has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 6889.0 €. (group_id: 032yym934_wiley2019deal_2023)
-3 articles without publication-level costs were linked to this group id. A preliminary EAPC of 6889.0 / 3 = 2296.33 was assigned to each of them.
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 6889.0 / 3 = 2296.33 was assigned to each of them.
 CONTROL: First new article in group (10.1111/gcbb.13115) has an 'euro' value of 2296.33 €. ==> passed.
 
 === Update instructions ===

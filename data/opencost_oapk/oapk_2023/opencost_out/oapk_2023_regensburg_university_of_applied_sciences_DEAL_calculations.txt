@@ -1,18 +1,18 @@
 === Overview: Contract group IDs ===
 
 Regensburg University of Applied Sciences has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 21533.46 €. (group_id: 04b9vrm74_sn2020deal_2023)
-6 articles without publication-level costs were linked to this group id. A preliminary EAPC of 21533.46 / 6 = 3588.91 was assigned to each of them.
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 21533.46 / 6 = 3588.91 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s11044-023-09909-5) has an 'euro' value of 3588.91 €. ==> passed.
 
 Regensburg University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 12187.61 €. (group_id: 04b9vrm74_wiley2019deal_2023)
-4 articles without publication-level costs were linked to this group id. A preliminary EAPC of 12187.61 / 4 = 3046.9 was assigned to each of them.
+4 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 12187.61 / 4 = 3046.9 was assigned to each of them.
 CONTROL: First new article in group (10.1002/smr.2599) has an 'euro' value of 3046.9 €. ==> passed.
 
 Regensburg University of Applied Sciences has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 18117.48 €. (group_id: 04b9vrm74_sn2020deal_2022)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 Regensburg University of Applied Sciences has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -1094.41 €. (group_id: 04b9vrm74_wiley2019deal_2022)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 

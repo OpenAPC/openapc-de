@@ -1,16 +1,22 @@
 === Overview: Contract group IDs ===
 
 INM - Leibniz-Institut für Neue Materialien has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 13145.22 €. (group_id: 00g656d67_sn2020deal_2023)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 13145.22 / 1 = 13145.22 was assigned to each of them.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 13145.22 / 1 = 13145.22 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s12274-023-5569-2) has an 'euro' value of 13145.22 €. ==> passed.
 
 INM - Leibniz-Institut für Neue Materialien has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 60196.72 €. (group_id: 00g656d67_wiley2019deal_2023)
-10 articles without publication-level costs were linked to this group id. A preliminary EAPC of 60196.72 / 10 = 6019.67 was assigned to each of them.
+10 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 60196.72 / 10 = 6019.67 was assigned to each of them.
 CONTROL: First new article in group (10.1002/adfm.202308269) has an 'euro' value of 6019.67 €. ==> passed.
 
 INM - Leibniz-Institut für Neue Materialien has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 4911.3 €. (group_id: 00g656d67_els2023deal_2023)
-1 articles without publication-level costs were linked to this group id. A preliminary EAPC of 4911.3 / 1 = 4911.3 was assigned to each of them.
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 4911.3 / 1 = 4911.3 was assigned to each of them.
 CONTROL: First new article in group (10.1016/j.xcrp.2023.101661) has an 'euro' value of 4911.3 €. ==> passed.
+
+INM - Leibniz-Institut für Neue Materialien has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 13157.119999999999 €. (group_id: 00g656d67_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+
+INM - Leibniz-Institut für Neue Materialien has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 64496.490000000005 €. (group_id: 00g656d67_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
@@ -22,4 +28,10 @@ CONTROL: First new article in group (10.1016/j.xcrp.2023.101661) has an 'euro' v
 
 3) There is no conflicting cost data for invoice group '00g656d67_els2023deal_2023', the calculated EAPC is valid.
  ==> The data file (INM - Leibniz-Institut für Neue Materialien, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+5) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
 

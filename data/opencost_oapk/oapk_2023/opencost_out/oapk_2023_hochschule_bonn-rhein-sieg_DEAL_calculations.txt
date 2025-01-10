@@ -1,15 +1,15 @@
 === Overview: Contract group IDs ===
 
 Hochschule Bonn-Rhein-Sieg has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 22548.090000000004 €. (group_id: 04m2anh63_wiley2019deal_2023)
-2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 22548.090000000004 / 2 = 11274.05 was assigned to each of them.
+2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 22548.090000000004 / 2 = 11274.05 was assigned to each of them.
 CONTROL: First new article in group (10.1002/jssc.202200894) has an 'euro' value of 11274.05 €. ==> passed.
 
 Hochschule Bonn-Rhein-Sieg has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 12568.65 €. (group_id: 04m2anh63_sn2020deal_2023)
-2 articles without publication-level costs were linked to this group id. A preliminary EAPC of 12568.65 / 2 = 6284.32 was assigned to each of them.
+2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 12568.65 / 2 = 6284.32 was assigned to each of them.
 CONTROL: First new article in group (10.1007/s10543-023-00967-x) has an 'euro' value of 6284.32 €. ==> passed.
 
 Hochschule Bonn-Rhein-Sieg has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 0.0 €. (group_id: 04m2anh63_els2023deal_2023)
-There were no articles without publication-level costs linked to this group id.
+There were no new articles without publication-level costs linked to this group id.
 
 === Update instructions ===
 
