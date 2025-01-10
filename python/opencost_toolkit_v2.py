@@ -272,7 +272,8 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
     for group_element in group_elements:
         data = {
             "group_total_costs": 0,
-            "merged": False
+            "merged": False,
+            "possible_duplicate": False
         }
         data["group_id"] = group_element.find("opencost:group_id", namespaces).text
         # extract and check the group period
@@ -576,6 +577,24 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     ret["data"] = final_data
     return ret
 
+def detect_invoice_group_duplicates(invoice_groups):
+    """
+    Check a list of invoice group dicts for possible duplicates
+    """
+    for i in range(len(invoice_groups)):
+        group = invoice_groups[i]
+        if group["possible_duplicate"]:
+            continue
+        for j in range(i + 1, len(invoice_groups)):
+            comp_group = invoice_groups[j]
+            for field in ["group_total_costs", "institution_ror", "period", "contract_id"]:
+                if group[field] != comp_group[field]:
+                    break
+            else:
+                group["possible_duplicate"] = True
+                comp_group["possible_duplicate"] = True
+    return invoice_groups
+
 def merge_invoice_groups(invoice_groups):
     """
     Merge multiple occurences of invoice_groups with the same group_id by adding their total costs
@@ -614,6 +633,8 @@ def merge_invoice_groups(invoice_groups):
         logging.info(msg)
         group_dict[group_id]["group_total_costs"] = new_costs
         group_dict[group_id]["merged"] = True
+        # Keep duplicate hint for merged object
+        group_dict[group_id]["possible_duplicate"] = group_dict[group_id]["possible_duplicate"] | group["possible_duplicate"]
     return list(group_dict.values())
 
 def apply_contract_data(extracted_records, extracted_invoice_groups):
