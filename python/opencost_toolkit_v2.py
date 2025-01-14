@@ -690,8 +690,8 @@ def apply_contract_data(extracted_records, extracted_invoice_groups):
             if assigned_costs_found:
                 continue
             if record["contract_primary_identifier"] in ["sn2020deal", "wiley2019deal", "els2023deal"]:
-                # DEAL special rule: Cost distribution only valid for hybrid articles. Might need adjustments for other TAs.
-                if record["hybrid-oa"] == "NA":
+                # DEAL special rule: Cost distribution only valid for hybrid 0€ articles. Might need adjustments for other TAs.
+                if record["hybrid-oa"] != 0.0:
                     continue
             record_count += 1
             record["target_group_id"] = group_id
