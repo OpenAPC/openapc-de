@@ -1,13 +1,7 @@
 institution_ror,institution,period,euro,doi,is_hybrid,type,contract_primary_identifier,contract_group_id,external_costsplitting,gold-oa,vat,colour charge,cover charge,hybrid-oa,other,page charge,permission,publication charge,reprint,submission fee,payment fee,url
 https://ror.org/01c1w6d29,Bamberg U,2024,1927.8,10.1002/mhs2.58,FALSE,journal article,wiley2019deal,01c1w6d29_wiley2019deal_2024,false,1927.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,0.0,10.1007/s10433-023-00761-2,FALSE,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,NA,10.1007/s10566-023-09759-4,NA,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,NA,NA,NA,NA,NA,NA,NA,NA,0.0,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,NA,10.1007/s43546-023-00508-2,NA,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,NA,NA,NA,NA,NA,NA,NA,NA,0.0,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,0.0,10.1007/s44202-023-00076-4,FALSE,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,0.0,10.1007/s44202-023-00085-3,FALSE,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,1465.66,10.1016/j.stae.2023.100039,FALSE,journal article,NA,NA,false,1465.66,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,1740.38,10.1027/2698-1866/a000054,FALSE,journal article,hogrefe2021gac,01c1w6d29_hogrefe2021gac_2023,false,1740.38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,0.0,10.1038/s41598-023-35346-7,FALSE,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,2434.62,10.1093/scan/nsad042,FALSE,journal article,NA,NA,false,2434.62,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,2135.88,10.1167/jov.23.3.10,FALSE,journal article,NA,NA,false,2135.88,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,2138.11,10.1167/jov.23.3.16,FALSE,journal article,NA,NA,false,2138.11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -16,9 +10,6 @@ https://ror.org/01c1w6d29,Bamberg U,2023,324.52,10.1177/20416695231194210,FALSE,
 https://ror.org/01c1w6d29,Bamberg U,2023,908.53,10.1177/20416695231195262,FALSE,journal article,sage2021gac,01c1w6d29_sage2021gac_2023,false,908.53,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,759.8,10.1177/20563051231186353,FALSE,journal article,sage2021gac,01c1w6d29_sage2021gac_2023,false,759.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,997.9300000000001,10.1177/21582440231180095,FALSE,journal article,sage2021gac,01c1w6d29_sage2021gac_2023,false,997.9300000000001,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,0.0,10.1186/s40359-023-01148-9,FALSE,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,0.0,10.1186/s44247-023-00041-0,FALSE,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,0.0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-https://ror.org/01c1w6d29,Bamberg U,2023,NA,10.1365/s40702-023-01017-4,NA,journal article,sn2020deal,01c1w6d29_sn2020deal_2023,false,NA,NA,NA,NA,NA,NA,NA,NA,0.0,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,1101.92,10.1525/collabra.77819,FALSE,journal article,NA,NA,false,1101.92,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,1405.21,10.3389/fcomm.2023.1194103,FALSE,journal article,NA,NA,false,1405.21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 https://ror.org/01c1w6d29,Bamberg U,2023,1430.8,10.3389/fcomm.2023.1233100,FALSE,journal article,NA,NA,false,1430.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

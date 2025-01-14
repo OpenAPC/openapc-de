@@ -12,8 +12,8 @@ DESY has reported DEAL Wiley Germany cost data for the 2023 period, total costs:
 CONTROL: First new article in group (10.1107/s2053273323000682) has an 'euro' value of 1889.71 €. ==> passed.
 
 DESY has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 10969.599999999999 €. (group_id: 01js2sh04_wiley2019deal_2022)
-1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 10969.599999999999 / 1 = 10969.6 was assigned to each of them.
-CONTROL: First new article in group (10.1002/lpor.202200588) has an 'euro' value of 5484.8 €. ==> FAILED!.
+2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 10969.599999999999 / 2 = 5484.8 was assigned to each of them.
+CONTROL: First new article in group (10.1002/lpor.202200588) has an 'euro' value of 5484.8 €. ==> passed.
 NOTE: The institution has already reported TA DEAL data for the given period and publisher (14 articles, EAPC: 2392.5 €). The EAPC needs to be updated, see below.
 
 DESY has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 100983.75 €. (group_id: 01js2sh04_sn2020deal_2022)
@@ -74,8 +74,8 @@ new data --- old data
   -------------------------------------------------------------------------------------------
   01js2sh04_wiley2019deal_2022                           --                  10969.599999999999
   TA data                                                14                  --    (Total: 33495.0 , EAPC: 2392.5, checking first TA article (10.1002/pamm.202200239) => passed)
-  New OAPK articles                                      1                   --
-  Duplicates                                             -1                  --
+  New OAPK articles                                      2                   --
+  Duplicates                                             -2                  --
   -------------------------------------------------------------------------------------------
   Sum                                                    14                  10969.599999999999
 
