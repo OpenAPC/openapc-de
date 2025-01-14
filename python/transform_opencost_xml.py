@@ -324,53 +324,68 @@ with open(all_articles_path, "w") as out:
     for article in articles:
         main_writer.writerow(article)
         institution = article["institution"]
+        if institution == '':
+            continue # Skip articles silently which have already been omitted by the oc toolkit (usually cost splitting cases)
         esac_id = article["contract_primary_identifier"]
         pub_type = article["type"]
         ins_name = institution.lower().replace(" ", "_")
         period = article["period"]
         deal_data = None
+        publication_level_costs = False
+        try:
+            euro_value = float(article["euro"])
+            if euro_value > 0.0:
+                publication_level_costs = True
+        except ValueError:
+            pass
         if pub_type == "book":
             ins_name += "_BPC"
-        elif pub_type in ["journal article", "other"]:
-            # "other" might designate article types like "letter to the editor"
+        elif oat.has_value(esac_id):
             if article["is_hybrid"] == "TRUE":
-                # Skip hybrid DEAL articles with publication-level costs
                 if esac_id in ["sn2020deal", "wiley2019deal", "els2023deal"]:
-                    try:
-                        euro_value = float(article["euro"])
-                        if euro_value > 0.0:
-                            msg = 'Found a hybrid DEAL article with publication level costs not linked to an invoice group ({}, {}, {}, {} €))'
-                            logging.warning(msg.format(article["institution"], article["period"], article["doi"], article["euro"]))
-                            continue
-                    except ValueError:
-                        pass
+                    if publication_level_costs:
+                        msg = 'Skipped a hybrid DEAL record with publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
+                        logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
+                        continue
                     article["euro"] = article.get("contract_euro", 0)
-                if esac_id == "sn2020deal":
-                    ins_name += "_DEAL_Springer_" + period
-                    deal_data = {
-                        "period": period,
-                        "institution": institution,
-                        "agreement": "DEAL Springer Nature Germany"
-                    }
-                elif esac_id == "wiley2019deal":
-                    ins_name += "_DEAL_Wiley_" + period
-                    deal_data = {
-                        "period": period,
-                        "institution": institution,
-                        "agreement": "DEAL Wiley Germany"
-                    }
-                elif esac_id == "els2023deal":
-                    ins_name += "_DEAL_Elsevier_" + period
-                    deal_data = {
-                        "period": period,
-                        "institution": institution,
-                        "agreement": "DEAL Elsevier Germany"
-                    }
-                elif oat.has_value(esac_id):
-                    # Skip contracts other than DEAL
+                    if esac_id == "sn2020deal":
+                        ins_name += "_DEAL_Springer_" + period
+                        deal_data = {
+                            "period": period,
+                            "institution": institution,
+                            "agreement": "DEAL Springer Nature Germany"
+                        }
+                    elif esac_id == "wiley2019deal":
+                        ins_name += "_DEAL_Wiley_" + period
+                        deal_data = {
+                            "period": period,
+                            "institution": institution,
+                            "agreement": "DEAL Wiley Germany"
+                        }
+                    elif esac_id == "els2023deal":
+                        ins_name += "_DEAL_Elsevier_" + period
+                        deal_data = {
+                            "period": period,
+                            "institution": institution,
+                            "agreement": "DEAL Elsevier Germany"
+                        }
+                else:
+                    # Skip hybrid articles from contracts other than DEAL
+                    msg = 'Skipped a hybrid non-DEAL record ({}, {}, {}€, {}, {}, {}, {}))'
+                    logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
                     continue
-        else:
-            # Skip other pub types
+            elif not publication_level_costs or pub_type != "journal article":
+                # Only use gold articles from contracts if they are journal articles and have costs on publication level
+                msg = 'Skipped a contract-linked gold record which had either no publication level costs or was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
+                logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
+                continue
+        elif pub_type != "journal article":
+            msg = 'Skipped a record (not linked to a contract) which was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
+            logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
+            continue
+        elif not publication_level_costs:
+            msg = 'Skipped a record (not linked to a contract) which had no publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
+            logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
             continue
         if ins_name not in csv_writers:
             path = os.path.join(TARGET_DIR, args.prefix + ins_name + ".csv")
