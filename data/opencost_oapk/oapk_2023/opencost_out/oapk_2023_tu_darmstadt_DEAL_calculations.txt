@@ -26,11 +26,12 @@ There were no new articles without publication-level costs linked to this group 
   -------------------------------------------------------------------------------------------
   Sum                                                    251                 0.0
 
-  New EAPC: 0.0 / 251 = 0.0
+  Note: There are no invoice groups related to this IPA. EAPC calculation is based on the existing TA data.
+  New EAPC: 321283.84 / 251 = 1280.02
 
- ==> Existing DEAL data (TU Darmstadt, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (0.0) as euro value (128 articles in original file(s), enriched file(s) and TA collection).
+ ==> Existing DEAL data (TU Darmstadt, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (1280.02) as euro value (128 articles in original file(s), enriched file(s) and TA collection).
  IMPORTANT: Please note that some articles are located in the DEAL Springer Nature Germany opt-out file, those have to be updated as well.
- ==> New DEAL data (TU Darmstadt, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (0.0) as euro value before enrichment (123 articles).
+ ==> New DEAL data (TU Darmstadt, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (1280.02) as euro value before enrichment (123 articles).
 
 4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
  ==> Checking if EAPC needs to be updated.
@@ -44,11 +45,12 @@ There were no new articles without publication-level costs linked to this group 
   -------------------------------------------------------------------------------------------
   Sum                                                    175                 0.0
 
-  New EAPC: 0.0 / 175 = 0.0
+  Note: There are no invoice groups related to this IPA. EAPC calculation is based on the existing TA data.
+  New EAPC: 252726.30000000002 / 175 = 1444.15
 
- ==> Existing DEAL data (TU Darmstadt, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (0.0) as euro value (90 articles in original file(s), enriched file(s) and TA collection).
+ ==> Existing DEAL data (TU Darmstadt, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (1444.15) as euro value (90 articles in original file(s), enriched file(s) and TA collection).
  IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
- ==> New DEAL data (TU Darmstadt, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (0.0) as euro value before enrichment (52 articles).
+ ==> New DEAL data (TU Darmstadt, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (1444.15) as euro value before enrichment (52 articles).
 
 5) There are 9 new articles for the agreement period DEAL Wiley Germany 2024, but neither related cost data nor matching TA data exists.
  ==> Generated file should be deleted.

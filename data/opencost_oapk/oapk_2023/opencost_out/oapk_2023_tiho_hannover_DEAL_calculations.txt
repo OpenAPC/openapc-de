@@ -38,8 +38,8 @@ NOTE: The institution has already reported TA DEAL data for the given period and
   -------------------------------------------------------------------------------------------
   Sum                                                    19                  -14152.970000000001
 
-  New EAPC: -14152.970000000001 / 19 = -744.89
+  Note: There are no invoice groups related to this IPA. EAPC calculation is based on the existing TA data.
+  New EAPC: 132197.82 / 19 = 6957.78
 
- ==> Existing DEAL data (TiHo Hannover, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (-744.89) as euro value (19 articles in original file(s), enriched file(s) and TA collection).
- IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+ ==> EAPC for existing DEAL data (TiHo Hannover, DEAL Wiley Germany, 2022) is already correct (6957.78), no changes are needed.
 

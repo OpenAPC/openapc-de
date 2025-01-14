@@ -88,8 +88,9 @@ new data --- old data
   -------------------------------------------------------------------------------------------
   Sum                                                    22                  0.0
 
-  New EAPC: 0.0 / 22 = 0.0
+  Note: There are no invoice groups related to this IPA. EAPC calculation is based on the existing TA data.
+  New EAPC: 183942.0 / 22 = 8361.0
 
- ==> Existing DEAL data (Mannheim U, DEAL Wiley Germany, 2021) has to be updated with the new EAPC (0.0) as euro value (22 articles in original file(s), enriched file(s) and TA collection).
+ ==> EAPC for existing DEAL data (Mannheim U, DEAL Wiley Germany, 2021) is already correct (8361.0), no changes are needed.
  ==> New DEAL data (Mannheim U, DEAL Wiley Germany, 2021) contains only duplicates. File is empty and should be deleted.
 
