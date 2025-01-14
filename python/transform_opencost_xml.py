@@ -166,6 +166,8 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                 total_costs = 0.0
                 num_total_articles = 0
                 num_ta_articles = 0
+                ta_total_costs = 0.0
+                ta_eapc = 0.0
                 num_new_articles = 0
                 num_duplicates = 0
                 non_internal_duplicates = False
@@ -213,8 +215,13 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                 calc_str += INS_STR["recalc_hbar"]
                 calc_str += "  " + "Sum".ljust(55) + str(num_total_articles).ljust(20) + str(total_costs) + "\n\n"
                 if num_total_articles > 0:
-                    new_eapc = round(total_costs / num_total_articles, 2)
-                    calc_str += INS_STR["recalc_res"].format(total_costs, num_total_articles, new_eapc)
+                    if total_costs > 0:
+                        new_eapc = round(total_costs / num_total_articles, 2)
+                        calc_str += INS_STR["recalc_res"].format(total_costs, num_total_articles, new_eapc)
+                    elif ta_total_costs > 0:
+                        new_eapc = round(ta_total_costs / num_total_articles, 2)
+                        calc_str += "  Note: There are no invoice groups related to this IPA. EAPC calculation is based on the existing TA data.\n"
+                        calc_str += INS_STR["recalc_res"].format(ta_total_costs, num_total_articles, new_eapc)
                     if num_ta_articles > 0:
                         old_eapc = round(ta_total_costs / num_ta_articles, 2)
                         if round(old_eapc, 1) != round(new_eapc, 1):
