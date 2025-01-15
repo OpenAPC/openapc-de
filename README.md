@@ -17,7 +17,7 @@ At the moment this project provides the following cost data:
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
 | Articles         |230,390 | 459,689,554    | 444 |
-| Monographs       |2,014 | 13,233,279    | 76 |
+| Monographs       |2,015 | 13,240,883    | 76 |
 
 ## How to access the data?
 
@@ -845,9 +845,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 2,014 open access books. Publication fees were supported financially by 76 research performing institutions and funders. 
+The book data set contains information on 2,015 open access books. Publication fees were supported financially by 76 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 13,233,279. The average payment was € 6,571 and the median was € 6,797.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 13,240,883. The average payment was € 6,571 and the median was € 6,804.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -873,7 +873,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2021   |             174|    6,974|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             219|    7,615|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
 |2023   |             196|    7,232|      6,632|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
-|2024   |              16|    5,926|      6,115| 1,300 - 10,710|             NA|       NA|         NA|            NA|
+|2024   |              17|    6,025|      6,230| 1,300 - 10,710|             NA|       NA|         NA|            NA|
 
 
 
