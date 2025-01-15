@@ -528,6 +528,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1469-0756": ["BMJ", "Oxford University Press (OUP)"], # Postgraduate Medical Journal (electronic)
 	"1473-2262": ["European Cells and Materials", "Forum Multimedia Publishing LLC"], # European Cells and Materials
 	"2730-6151": ["Springer Nature", "Oxford University Press (OUP)"], # ISME Communications
+	"0141-6790": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Art History 
+	"1467-8365": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Art History (electronic)
+
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
