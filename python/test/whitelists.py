@@ -530,6 +530,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2730-6151": ["Springer Nature", "Oxford University Press (OUP)"], # ISME Communications
 	"0141-6790": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Art History 
 	"1467-8365": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Art History (electronic)
+	"1046-6673": ["American Society of Nephrology (ASN)", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of the American Society of Nephrology 
+	"1533-3450": ["American Society of Nephrology (ASN)", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of the American Society of Nephrology (electronic)
 
 }
 
@@ -895,6 +897,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0266-4623", # International Journal of Technology Assessment in Health Care, Gold OA since 2024
     "0033-2917", # Psychological Medicine, Gold OA since 2025
     "2731-9121", # Communications Psychology, Gold OA since 2023
+    "1559-2294", # Epigenetics, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
