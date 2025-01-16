@@ -532,6 +532,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1467-8365": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Art History (electronic)
 	"1046-6673": ["American Society of Nephrology (ASN)", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of the American Society of Nephrology 
 	"1533-3450": ["American Society of Nephrology (ASN)", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of the American Society of Nephrology (electronic)
+	"1469-3178": ["EMBO", "Springer Nature"], # EMBO Reports 
+	"1469-221X": ["EMBO", "Springer Nature"], # EMBO Reports (linking)
+	"2352-4588": ["Wageningen Academic Publishers", "Brill"], # Journal of Insects as Food and Feed 
 
 }
 
@@ -898,6 +901,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0033-2917", # Psychological Medicine, Gold OA since 2025
     "2731-9121", # Communications Psychology, Gold OA since 2023
     "1559-2294", # Epigenetics, Gold OA since 2023
+    "1469-3178", # EMBO Reports, Gold OA since 2024
+    "1469-221X", # EMBO Reports, Gold OA since 2024 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
