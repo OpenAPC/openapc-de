@@ -1,0 +1,87 @@
+=== Overview: Contract group IDs ===
+
+Heidelberg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 667232.89 €. (group_id: 038t36y30_sn2020deal_2023)
+307 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 667232.89 / 307 = 2173.4 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10851-022-01132-9) has an 'euro' value of 2173.4 €. ==> passed.
+
+Heidelberg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 586533.73 €. (group_id: 038t36y30_wiley2019deal_2023)
+190 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 586533.73 / 190 = 3087.02 was assigned to each of them.
+CONTROL: First new article in group (10.1002/ejoc.202201383) has an 'euro' value of 3087.02 €. ==> passed.
+
+Heidelberg U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 142545.0 €. (group_id: 038t36y30_els2023deal_2023)
+21 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 142545.0 / 21 = 6787.86 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.cplett.2023.140943) has an 'euro' value of 6787.86 €. ==> passed.
+
+Heidelberg U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 667232.89 €. (group_id: 038t36y30_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (288 articles, EAPC: 2316.78 €). The EAPC might need an update, see below.
+
+Heidelberg U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 592620.49 €. (group_id: 038t36y30_wiley2019deal_2022)
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 592620.49 / 3 = 197540.16 was assigned to each of them.
+CONTROL: First new article in group (10.1002/ange.202214031) has an 'euro' value of 197540.16 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (189 articles, EAPC: 3135.56 €). The EAPC needs to be updated, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '038t36y30_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Heidelberg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  038t36y30_wiley2019deal_2023                           --                  586533.73
+  New OAPK articles                                      190                 --
+  Duplicates                                             -4                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    186                 586533.73
+
+  New EAPC: 586533.73 / 186 = 3153.41
+
+ ==> New DEAL data (Heidelberg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3153.41) as euro value before enrichment (182 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1002/ejoc.202201383, Heidelberg U, 2023  ---- 10.1002/ejoc.202201383, Heidelberg U, 2022
+10.1002/ijc.34433, Heidelberg U, 2023  ---- 10.1002/ijc.34433, Heidelberg U, 2022
+10.1002/pamm.202200169, Heidelberg U, 2023  ---- 10.1002/pamm.202200169, Heidelberg U, 2022
+10.1002/cjoc.202200754, Heidelberg U, 2023  ---- 10.1002/cjoc.202200754, Heidelberg U, 2022
+
+3) There is no conflicting cost data for invoice group '038t36y30_els2023deal_2023', the calculated EAPC is valid.
+ ==> The data file (Heidelberg U, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  038t36y30_sn2020deal_2022                              --                  667232.89
+  TA data                                                288                 --    (Total: 667232.64 , EAPC: 2316.78, checking first TA article (10.1007/s11609-022-00485-7) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    288                 667232.89
+
+  New EAPC: 667232.89 / 288 = 2316.78
+
+ ==> EAPC for existing DEAL data (Heidelberg U, DEAL Springer Nature Germany, 2022) is already correct (2316.78), no changes are needed.
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  038t36y30_wiley2019deal_2022                           --                  592620.49
+  TA data                                                189                 --    (Total: 592620.84 , EAPC: 3135.56, checking first TA article (10.1002/chem.202201527) => passed)
+  New OAPK articles                                      3                   --
+  Duplicates                                             -3                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    189                 592620.49
+
+  New EAPC: 592620.49 / 189 = 3135.56
+
+ ==> EAPC for existing DEAL data (Heidelberg U, DEAL Wiley Germany, 2022) is already correct (3135.56), no changes are needed.
+ ==> New DEAL data (Heidelberg U, DEAL Wiley Germany, 2022) contains only duplicates. File is empty and should be deleted.
+

@@ -1,0 +1,71 @@
+=== Overview: Contract group IDs ===
+
+Hertie School has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 14903.9 €. (group_id: 0473a4773_wiley2019deal_2023)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+WARNING: There were invoice groups which are completely identical in total costs. A duplicate case is likely.
+14 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 14903.9 / 14 = 1064.56 was assigned to each of them.
+CONTROL: First new article in group (10.1111/gove.12778) has an 'euro' value of 1064.56 €. ==> passed.
+
+Hertie School has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 18937.74 €. (group_id: 0473a4773_sn2020deal_2023)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 18937.74 / 5 = 3787.55 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11113-023-09756-4) has an 'euro' value of 3787.55 €. ==> passed.
+
+Hertie School has reported DEAL Wiley Germany cost data for the 2024 period, total costs: 17643.96 €. (group_id: 0473a4773_wiley2019deal_2024)
+There were no new articles without publication-level costs linked to this group id.
+
+Hertie School has reported DEAL Springer Nature Germany cost data for the 2024 period, total costs: 2351.2000000000003 €. (group_id: 0473a4773_sn2020deal_2024)
+There were no new articles without publication-level costs linked to this group id.
+
+Hertie School has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 7984.23 €. (group_id: 0473a4773_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (6 articles, EAPC: 1330.71 €). The EAPC might need an update, see below.
+
+Hertie School has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 598.8399999999999 €. (group_id: 0473a4773_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (4 articles, EAPC: 149.71 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '0473a4773_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Hertie School, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '0473a4773_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Hertie School, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2024 and no matching TA data exists.
+ ==> Nothing to do here.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2024 and no matching TA data exists.
+ ==> Nothing to do here.
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  0473a4773_wiley2019deal_2022                           --                  7984.23
+  TA data                                                6                   --    (Total: 7984.26 , EAPC: 1330.71, checking first TA article (10.1111/spol.12875) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    6                   7984.23
+
+  New EAPC: 7984.23 / 6 = 1330.7
+
+ ==> EAPC for existing DEAL data (Hertie School, DEAL Wiley Germany, 2022) is already correct (1330.71), no changes are needed.
+
+6) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  0473a4773_sn2020deal_2022                              --                  598.8399999999999
+  TA data                                                4                   --    (Total: 598.84 , EAPC: 149.71, checking first TA article (10.1007/s10640-022-00746-2) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    4                   598.8399999999999
+
+  New EAPC: 598.8399999999999 / 4 = 149.71
+
+ ==> EAPC for existing DEAL data (Hertie School, DEAL Springer Nature Germany, 2022) is already correct (149.71), no changes are needed.
+

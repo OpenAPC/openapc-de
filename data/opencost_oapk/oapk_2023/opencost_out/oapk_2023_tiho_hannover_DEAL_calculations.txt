@@ -1,0 +1,45 @@
+=== Overview: Contract group IDs ===
+
+TiHo Hannover has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 88532.46 €. (group_id: 015qjqf64_sn2020deal_2023)
+5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 88532.46 / 5 = 17706.49 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s12155-023-10667-7) has an 'euro' value of 17706.49 €. ==> passed.
+
+TiHo Hannover has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 136594.03999999998 €. (group_id: 015qjqf64_wiley2019deal_2023)
+24 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 136594.03999999998 / 24 = 5691.42 was assigned to each of them.
+CONTROL: First new article in group (10.1111/evj.14053) has an 'euro' value of 5691.42 €. ==> passed.
+
+TiHo Hannover has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 16770.0 €. (group_id: 015qjqf64_els2023deal_2023)
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 16770.0 / 6 = 2795.0 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.bbadis.2023.166947) has an 'euro' value of 2795.0 €. ==> passed.
+
+TiHo Hannover has reported DEAL Wiley Germany cost data for the 2022 period, total costs: -14152.970000000001 €. (group_id: 015qjqf64_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (19 articles, EAPC: 6957.78 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '015qjqf64_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (TiHo Hannover, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '015qjqf64_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (TiHo Hannover, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '015qjqf64_els2023deal_2023', the calculated EAPC is valid.
+ ==> The data file (TiHo Hannover, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  015qjqf64_wiley2019deal_2022                           --                  -14152.970000000001
+  TA data                                                19                  --    (Total: 132197.82 , EAPC: 6957.78, checking first TA article (10.1111/vsu.13926) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    19                  -14152.970000000001
+
+  Note: There are no invoice groups related to this IPA. EAPC calculation is based on the existing TA data.
+  New EAPC: 132197.82 / 19 = 6957.78
+
+ ==> EAPC for existing DEAL data (TiHo Hannover, DEAL Wiley Germany, 2022) is already correct (6957.78), no changes are needed.
+

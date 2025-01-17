@@ -1,0 +1,63 @@
+=== Overview: Contract group IDs ===
+
+Dortmund TU has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 215738.61 €. (group_id: 01k97gp34_sn2020deal_2023)
+77 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 215738.61 / 77 = 2801.8 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10858-023-00424-5) has an 'euro' value of 2801.8 €. ==> passed.
+
+Dortmund TU has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 230245.77 €. (group_id: 01k97gp34_wiley2019deal_2023)
+87 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 230245.77 / 87 = 2646.5 was assigned to each of them.
+CONTROL: First new article in group (10.1002/cepa.2060) has an 'euro' value of 2646.5 €. ==> passed.
+
+Dortmund TU has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 76974.29999999999 €. (group_id: 01k97gp34_els2023deal_2023)
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 76974.29999999999 / 3 = 25658.1 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.jmathb.2023.101123) has an 'euro' value of 25658.1 €. ==> passed.
+
+Dortmund TU has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 215738.61 €. (group_id: 01k97gp34_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (84 articles, EAPC: 2568.32 €). The EAPC might need an update, see below.
+
+Dortmund TU has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 222490.43 €. (group_id: 01k97gp34_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (84 articles, EAPC: 2648.7 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '01k97gp34_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Dortmund TU, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '01k97gp34_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Dortmund TU, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '01k97gp34_els2023deal_2023', the calculated EAPC is valid.
+ ==> The data file (Dortmund TU, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  01k97gp34_sn2020deal_2022                              --                  215738.61
+  TA data                                                84                  --    (Total: 215738.88 , EAPC: 2568.32, checking first TA article (10.1007/s12665-022-10186-2) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    84                  215738.61
+
+  New EAPC: 215738.61 / 84 = 2568.32
+
+ ==> EAPC for existing DEAL data (Dortmund TU, DEAL Springer Nature Germany, 2022) is already correct (2568.32), no changes are needed.
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  01k97gp34_wiley2019deal_2022                           --                  222490.43
+  TA data                                                84                  --    (Total: 222490.8 , EAPC: 2648.7, checking first TA article (10.1002/ange.202117565) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    84                  222490.43
+
+  New EAPC: 222490.43 / 84 = 2648.7
+
+ ==> EAPC for existing DEAL data (Dortmund TU, DEAL Wiley Germany, 2022) is already correct (2648.7), no changes are needed.
+

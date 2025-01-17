@@ -1,0 +1,56 @@
+=== Overview: Contract group IDs ===
+
+Charité - Universitätsmedizin Berlin has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 355868.61 €. (group_id: 001w7jn25_sn2020deal_2023)
+194 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 355868.61 / 194 = 1834.37 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10049-022-01078-w) has an 'euro' value of 1834.37 €. ==> passed.
+
+Charité - Universitätsmedizin Berlin has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 385498.26 €. (group_id: 001w7jn25_wiley2019deal_2023)
+128 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 385498.26 / 128 = 3011.71 was assigned to each of them.
+CONTROL: First new article in group (10.1111/ddg.15008) has an 'euro' value of 3011.71 €. ==> passed.
+
+Charité - Universitätsmedizin Berlin has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 95100.49 €. (group_id: 001w7jn25_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (224 articles, EAPC: 2013.25 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '001w7jn25_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Charité - Universitätsmedizin Berlin, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '001w7jn25_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Charité - Universitätsmedizin Berlin, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  001w7jn25_sn2020deal_2022                              --                  95100.49
+  TA data                                                224                 --    (Total: 450968.0 , EAPC: 2013.25, checking first TA article (10.1007/s00464-021-08770-x) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    224                 95100.49
+
+  New EAPC: 95100.49 / 224 = 424.56
+
+ ==> Existing DEAL data (Charité - Universitätsmedizin Berlin, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (424.56) as euro value (224 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Springer Nature Germany opt-out file, those have to be updated as well.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  TA data                                                141                 --    (Total: 385974.81 , EAPC: 2737.41, checking first TA article (10.1111/jne.13090) => passed)
+  New OAPK articles                                      12                  --
+  Duplicates                                             -12                 --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    141                 0.0
+
+  Note: There are no invoice groups related to this IPA. EAPC calculation is based on the existing TA data.
+  New EAPC: 385974.81 / 141 = 2737.41
+
+ ==> EAPC for existing DEAL data (Charité - Universitätsmedizin Berlin, DEAL Wiley Germany, 2022) is already correct (2737.41), no changes are needed.
+ ==> New DEAL data (Charité - Universitätsmedizin Berlin, DEAL Wiley Germany, 2022) contains only duplicates. File is empty and should be deleted.
+

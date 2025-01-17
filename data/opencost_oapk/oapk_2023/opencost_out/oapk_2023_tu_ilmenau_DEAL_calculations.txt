@@ -1,0 +1,21 @@
+=== Overview: Contract group IDs ===
+
+TU Ilmenau has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 145469.92 €. (group_id: 01weqhp73_sn2020deal_2023)
+28 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 145469.92 / 28 = 5195.35 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10472-022-09827-w) has an 'euro' value of 5195.35 €. ==> passed.
+
+TU Ilmenau has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 48453.619999999995 €. (group_id: 01weqhp73_wiley2019deal_2023)
+28 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 48453.619999999995 / 28 = 1730.49 was assigned to each of them.
+CONTROL: First new article in group (10.1002/admt.202300448) has an 'euro' value of 1730.49 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '01weqhp73_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (TU Ilmenau, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '01weqhp73_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (TU Ilmenau, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are 4 new articles for the agreement period DEAL Wiley Germany 2022, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+

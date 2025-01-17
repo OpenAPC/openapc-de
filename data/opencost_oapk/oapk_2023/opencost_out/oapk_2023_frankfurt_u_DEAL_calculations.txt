@@ -1,0 +1,60 @@
+=== Overview: Contract group IDs ===
+
+Frankfurt U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 452638.92 €. (group_id: 04cvxnb49_sn2020deal_2023)
+236 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 452638.92 / 236 = 1917.96 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00018-023-04806-8) has an 'euro' value of 1917.96 €. ==> passed.
+
+Frankfurt U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 445647.55 €. (group_id: 04cvxnb49_wiley2019deal_2023)
+146 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 445647.55 / 146 = 3052.38 was assigned to each of them.
+CONTROL: First new article in group (10.1002/1873-3468.14545) has an 'euro' value of 3052.38 €. ==> passed.
+
+=== Update instructions ===
+
+1) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  04cvxnb49_sn2020deal_2023                              --                  452638.92
+  New OAPK articles                                      236                 --
+  Duplicates                                             -3                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    233                 452638.92
+
+  New EAPC: 452638.92 / 233 = 1942.66
+
+ ==> New DEAL data (Frankfurt U, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (1942.66) as euro value before enrichment (230 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1007/s00112-020-01094-5, Frankfurt U, 2023  ---- 10.1007/s00112-020-01094-5, Frankfurt U, 2020
+10.1007/s10123-023-00324-6, Frankfurt U, 2023  ---- 10.1007/s10123-023-00324-6, TH Wildau, 2023
+10.1007/s10592-022-01483-1, Frankfurt U, 2023  ---- 10.1007/s10592-022-01483-1, FWF - Austrian Science Fund, 2022
+
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  04cvxnb49_wiley2019deal_2023                           --                  445647.55
+  New OAPK articles                                      146                 --
+  Duplicates                                             -1                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    145                 445647.55
+
+  New EAPC: 445647.55 / 145 = 3073.43
+
+ ==> New DEAL data (Frankfurt U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3073.43) as euro value before enrichment (144 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1111/nan.12866, Frankfurt U, 2023  ---- 10.1111/nan.12866, Charité - Universitätsmedizin Berlin, 2022
+
+3) There are 13 new articles for the agreement period DEAL Springer Nature Germany 2022, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+
+4) There are 11 new articles for the agreement period DEAL Wiley Germany 2022, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+

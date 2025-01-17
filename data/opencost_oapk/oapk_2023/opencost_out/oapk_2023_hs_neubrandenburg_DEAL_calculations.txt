@@ -1,0 +1,30 @@
+=== Overview: Contract group IDs ===
+
+HS Neubrandenburg has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 16508.99 €. (group_id: 03b9q7371_sn2020deal_2023)
+2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 16508.99 / 2 = 8254.5 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11553-023-01022-x) has an 'euro' value of 8254.5 €. ==> passed.
+
+HS Neubrandenburg has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 7434.9 €. (group_id: 03b9q7371_wiley2019deal_2023)
+There were no new articles without publication-level costs linked to this group id.
+
+HS Neubrandenburg has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 6624.15 €. (group_id: 03b9q7371_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+There were no new articles without publication-level costs linked to this group id.
+
+HS Neubrandenburg has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 16508.99 €. (group_id: 03b9q7371_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '03b9q7371_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (HS Neubrandenburg, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+

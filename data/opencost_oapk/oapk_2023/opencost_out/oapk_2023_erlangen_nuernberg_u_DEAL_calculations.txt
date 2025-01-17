@@ -1,0 +1,73 @@
+=== Overview: Contract group IDs ===
+
+Erlangen Nuernberg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 384830.68000000005 €. (group_id: 00f7hpc57_wiley2019deal_2023)
+73 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 384830.68000000005 / 73 = 5271.65 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adem.202300009) has an 'euro' value of 5271.65 €. ==> passed.
+
+Erlangen Nuernberg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 391088.61 €. (group_id: 00f7hpc57_sn2020deal_2023)
+209 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 391088.61 / 209 = 1871.24 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00021-023-00800-z) has an 'euro' value of 1871.24 €. ==> passed.
+
+Erlangen Nuernberg U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 315778.41 €. (group_id: 00f7hpc57_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (216 articles, EAPC: 1461.94 €). The EAPC might need an update, see below.
+
+Erlangen Nuernberg U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 391088.61 €. (group_id: 00f7hpc57_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (239 articles, EAPC: 1636.35 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00f7hpc57_wiley2019deal_2023                           --                  384830.68000000005
+  New OAPK articles                                      73                  --
+  Duplicates                                             -1                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    72                  384830.68000000005
+
+  New EAPC: 384830.68000000005 / 72 = 5344.87
+
+ ==> New DEAL data (Erlangen Nuernberg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (5344.87) as euro value before enrichment (71 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1002/smll.202104996, Erlangen Nuernberg U, 2023  ---- 10.1002/smll.202104996, Erlangen Nuernberg U, 2022
+
+2) There is no conflicting cost data for invoice group '00f7hpc57_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Erlangen Nuernberg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00f7hpc57_wiley2019deal_2022                           --                  315778.41
+  TA data                                                216                 --    (Total: 315779.04000000004 , EAPC: 1461.94, checking first TA article (10.1002/adem.202101768) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    216                 315778.41
+
+  New EAPC: 315778.41 / 216 = 1461.94
+
+ ==> EAPC for existing DEAL data (Erlangen Nuernberg U, DEAL Wiley Germany, 2022) is already correct (1461.94), no changes are needed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00f7hpc57_sn2020deal_2022                              --                  391088.61
+  TA data                                                239                 --    (Total: 391087.64999999997 , EAPC: 1636.35, checking first TA article (10.1007/s00401-022-02450-3) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    239                 391088.61
+
+  New EAPC: 391088.61 / 239 = 1636.35
+
+ ==> EAPC for existing DEAL data (Erlangen Nuernberg U, DEAL Springer Nature Germany, 2022) is already correct (1636.35), no changes are needed.
+

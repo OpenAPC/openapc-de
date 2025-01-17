@@ -271,7 +271,9 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
     group_elements = cost_data_element.findall("opencost:invoice_group", namespaces)
     for group_element in group_elements:
         data = {
-            "group_total_costs": 0
+            "group_total_costs": 0,
+            "merged": False,
+            "possible_duplicate": False
         }
         data["group_id"] = group_element.find("opencost:group_id", namespaces).text
         # extract and check the group period
@@ -575,6 +577,66 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     ret["data"] = final_data
     return ret
 
+def detect_invoice_group_duplicates(invoice_groups):
+    """
+    Check a list of invoice group dicts for possible duplicates
+    """
+    for i in range(len(invoice_groups)):
+        group = invoice_groups[i]
+        if group["possible_duplicate"]:
+            continue
+        for j in range(i + 1, len(invoice_groups)):
+            comp_group = invoice_groups[j]
+            for field in ["group_total_costs", "institution_ror", "period", "contract_id"]:
+                if group[field] != comp_group[field]:
+                    break
+            else:
+                group["possible_duplicate"] = True
+                comp_group["possible_duplicate"] = True
+    return invoice_groups
+
+def merge_invoice_groups(invoice_groups):
+    """
+    Merge multiple occurences of invoice_groups with the same group_id by adding their total costs
+
+    Given a list of invoice group dicts, this method will search for groups with the same
+    group_id and merge them to a single dict by adding their total costs. As a general rule
+    invoice groups should not be duplicated in openCost, but certain real world update workflows
+    might still end up with group cost data distributed over more than one element/file.
+    Note that all merge candidates still have to match in their period, contract_id and institution_ror
+    fields, otherwise the method will fail.
+
+    """
+    msgs = {
+        "merge_error": "Error while trying to merge invoice groups with " +
+                       "group_id '{}': The {} field does not match ({} vs {})",
+        "merge_info": "Duplicate invoice groups with group_id '{}' were merged, new " +
+                      "group total cost is now {} + {} = {}"
+    }
+
+    group_dict = {}
+    for group in invoice_groups:
+        group_id = group["group_id"]
+        if group_id not in group_dict:
+            group_dict[group_id] = group
+            continue
+        existing_group = group_dict[group_id]
+        for match_field in ["period", "contract_id", "institution_ror"]:
+            if existing_group[match_field] != group[match_field]:
+                msg = msgs["merge_error"].format(group_id, match_field, existing_group[match_field], group[match_field])
+                oat.print_r(msg)
+                sys.exit()
+        old_costs = group_dict[group_id]["group_total_costs"]
+        add_costs = group["group_total_costs"]
+        new_costs = old_costs + add_costs
+        msg = msgs["merge_info"].format(group_id, old_costs, add_costs, new_costs)
+        logging.info(msg)
+        group_dict[group_id]["group_total_costs"] = new_costs
+        group_dict[group_id]["merged"] = True
+        # Keep duplicate hint for merged object
+        group_dict[group_id]["possible_duplicate"] = group_dict[group_id]["possible_duplicate"] | group["possible_duplicate"]
+    return list(group_dict.values())
+
 def apply_contract_data(extracted_records, extracted_invoice_groups):
     """
     Distribute costs from contract invoice groups over linked publications
@@ -586,7 +648,9 @@ def apply_contract_data(extracted_records, extracted_invoice_groups):
     """
 
     msgs = {
-        "group_id_dup": "Error: group_id '{}' occurs more than once!",
+        "group_id_dup": "Error: group_id '{}' occurs more than once. If this is " +
+                        "a confirmed processing artifact, you may want to merge " +
+                        "the invoice groups beforehand",
         "cost_assigned": "Record ({}) has assigned non-zero " +
                          "costs of type {} ({}€), but is also linked " +
                          "to a contract via a group_id ({}). Record " +
@@ -625,6 +689,10 @@ def apply_contract_data(extracted_records, extracted_invoice_groups):
                     break
             if assigned_costs_found:
                 continue
+            if record["contract_primary_identifier"] in ["sn2020deal", "wiley2019deal", "els2023deal"]:
+                # DEAL special rule: Cost distribution only valid for hybrid 0€ articles. Might need adjustments for other TAs.
+                if record["hybrid-oa"] != 0.0:
+                    continue
             record_count += 1
             record["target_group_id"] = group_id
         if record_count == 0:
@@ -638,9 +706,7 @@ def apply_contract_data(extracted_records, extracted_invoice_groups):
         logging.info(msg)
         for record in extracted_records:
             if "target_group_id" in record and record["target_group_id"] == group_id:
-                record["euro"] = record_costs
+                record["contract_euro"] = record_costs
                 record["period"] = group["period"]
-                # DEAL - might need adjustments for other TAs.
-                record["is_hybrid"] = "TRUE"
                 del(record["target_group_id"])
     return extracted_records

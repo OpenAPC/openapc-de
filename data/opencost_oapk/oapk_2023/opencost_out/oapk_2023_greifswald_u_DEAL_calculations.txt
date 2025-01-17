@@ -1,0 +1,78 @@
+=== Overview: Contract group IDs ===
+
+Greifswald U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 227236.96000000002 €. (group_id: 00r1edq15_sn2020deal_2023)
+83 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 227236.96000000002 / 83 = 2737.79 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10049-023-01164-7) has an 'euro' value of 2737.79 €. ==> passed.
+
+Greifswald U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 228962.09999999998 €. (group_id: 00r1edq15_wiley2019deal_2023)
+62 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 228962.09999999998 / 62 = 3692.94 was assigned to each of them.
+CONTROL: First new article in group (10.1002/ejp.2153) has an 'euro' value of 3692.94 €. ==> passed.
+
+Greifswald U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 230518.09 €. (group_id: 00r1edq15_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 230518.09 / 3 = 76839.36 was assigned to each of them.
+CONTROL: First new article in group (10.1111/jcpe.13765) has an 'euro' value of 76839.36 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (48 articles, EAPC: 5110.76 €). The EAPC needs to be updated, see below.
+
+Greifswald U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 227236.96000000002 €. (group_id: 00r1edq15_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (84 articles, EAPC: 2705.2 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '00r1edq15_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Greifswald U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00r1edq15_wiley2019deal_2023                           --                  228962.09999999998
+  New OAPK articles                                      62                  --
+  Duplicates                                             -1                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    61                  228962.09999999998
+
+  New EAPC: 228962.09999999998 / 61 = 3753.48
+
+ ==> New DEAL data (Greifswald U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3753.48) as euro value before enrichment (60 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1111/jcpe.13763, Greifswald U, 2023  ---- 10.1111/jcpe.13763, Greifswald U, 2022
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00r1edq15_wiley2019deal_2022                           --                  230518.09
+  TA data                                                48                  --    (Total: 245316.48 , EAPC: 5110.76, checking first TA article (10.1002/cite.202200062) => passed)
+  New OAPK articles                                      3                   --
+  Duplicates                                             -3                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    48                  230518.09
+
+  New EAPC: 230518.09 / 48 = 4802.46
+
+ ==> Existing DEAL data (Greifswald U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (4802.46) as euro value (48 articles in original file(s), enriched file(s) and TA collection).
+ ==> New DEAL data (Greifswald U, DEAL Wiley Germany, 2022) contains only duplicates. File is empty and should be deleted.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00r1edq15_sn2020deal_2022                              --                  227236.96000000002
+  TA data                                                84                  --    (Total: 227236.8 , EAPC: 2705.2, checking first TA article (10.1007/s42860-022-00174-9) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    84                  227236.96000000002
+
+  New EAPC: 227236.96000000002 / 84 = 2705.2
+
+ ==> EAPC for existing DEAL data (Greifswald U, DEAL Springer Nature Germany, 2022) is already correct (2705.2), no changes are needed.
+

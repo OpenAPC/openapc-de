@@ -1,0 +1,120 @@
+=== Overview: Contract group IDs ===
+
+FZJ - ZB has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 20130.4 €. (group_id: 02nv7yv05_els2023deal_2023)
+3 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 20130.4 / 3 = 6710.13 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.apenergy.2023.122351) has an 'euro' value of 6710.13 €. ==> passed.
+
+FZJ - ZB has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 61210.810000000005 €. (group_id: 02nv7yv05_sn2020deal_2023)
+27 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 61210.810000000005 / 27 = 2267.07 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00339-023-06478-4) has an 'euro' value of 2267.07 €. ==> passed.
+
+FZJ - ZB has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 174519.64 €. (group_id: 02nv7yv05_wiley2019deal_2023)
+88 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 174519.64 / 88 = 1983.18 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adbi.202300428) has an 'euro' value of 1983.18 €. ==> passed.
+
+FZJ - ZB has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 162176.44 €. (group_id: 02nv7yv05_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (57 articles, EAPC: 1073.87 €). The EAPC might need an update, see below.
+
+FZJ - ZB has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 238005.26 €. (group_id: 02nv7yv05_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (88 articles, EAPC: 2630.52 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '02nv7yv05_els2023deal_2023', the calculated EAPC is valid.
+ ==> The data file (FZJ - ZB, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  02nv7yv05_sn2020deal_2023                              --                  61210.810000000005
+  New OAPK articles                                      27                  --
+  Duplicates                                             -3                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    24                  61210.810000000005
+
+  New EAPC: 61210.810000000005 / 24 = 2550.45
+
+ ==> New DEAL data (FZJ - ZB, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (2550.45) as euro value before enrichment (21 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1007/s00426-021-01639-7, FZJ - ZB, 2023  ---- 10.1007/s00426-021-01639-7, FZJ - ZB, 2022
+10.1007/s11104-022-05703-y, FZJ - ZB, 2023  ---- 10.1007/s11104-022-05703-y, FZJ - ZB, 2022
+10.1007/s11249-022-01688-y, FZJ - ZB, 2023  ---- 10.1007/s11249-022-01688-y, FZJ - ZB, 2022
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  02nv7yv05_wiley2019deal_2023                           --                  174519.64
+  New OAPK articles                                      88                  --
+  Duplicates                                             -20                 --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    68                  174519.64
+
+  New EAPC: 174519.64 / 68 = 2566.47
+
+ ==> New DEAL data (FZJ - ZB, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (2566.47) as euro value before enrichment (48 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1002/adem.202201027, FZJ - ZB, 2023  ---- 10.1002/adem.202201027, FZJ - ZB, 2022
+10.1002/admi.202202022, FZJ - ZB, 2023  ---- 10.1002/admi.202202022, FZJ - ZB, 2022
+10.1002/aenm.202201939, FZJ - ZB, 2023  ---- 10.1002/aenm.202201939, FZJ - ZB, 2022
+10.1002/aenm.202203326, FZJ - ZB, 2023  ---- 10.1002/aenm.202203326, FZJ - ZB, 2022
+10.1002/andp.202200468, FZJ - ZB, 2023  ---- 10.1002/andp.202200468, FZJ - ZB, 2022
+10.1002/ange.202212668, FZJ - ZB, 2023  ---- 10.1002/ange.202212668, FZJ - ZB, 2022
+10.1002/bit.28261, FZJ - ZB, 2023  ---- 10.1002/bit.28261, FZJ - ZB, 2022
+10.1002/chem.202202965, FZJ - ZB, 2023  ---- 10.1002/chem.202202965, FZJ - ZB, 2022
+10.1002/cite.202200178, FZJ - ZB, 2023  ---- 10.1002/cite.202200178, FZJ - ZB, 2022
+10.1002/cssc.202202189, FZJ - ZB, 2023  ---- 10.1002/cssc.202202189, FZJ - ZB, 2022
+10.1002/eem2.12469, FZJ - ZB, 2023  ---- 10.1002/eem2.12469, FZJ - ZB, 2022
+10.1002/ente.202201366, FZJ - ZB, 2023  ---- 10.1002/ente.202201366, FZJ - ZB, 2022
+10.1002/jeq2.20424, FZJ - ZB, 2023  ---- 10.1002/jeq2.20424, FZJ - ZB, 2022
+10.1002/mds.29266, FZJ - ZB, 2023  ---- 10.1002/mds.29266, FZJ - ZB, 2022
+10.1002/pamm.202200244, FZJ - ZB, 2023  ---- 10.1002/pamm.202200244, FZJ - ZB, 2022
+10.1002/pssa.202200619, FZJ - ZB, 2023  ---- 10.1002/pssa.202200619, FZJ - ZB, 2022
+10.1002/qj.4413, FZJ - ZB, 2023  ---- 10.1002/qj.4413, FZJ - ZB, 2022
+10.1002/solr.202200593, FZJ - ZB, 2023  ---- 10.1002/solr.202200593, FZJ - ZB, 2022
+10.1002/wcms.1623, FZJ - ZB, 2023  ---- 10.1002/wcms.1623, FZJ - ZB, 2022
+10.1111/ijac.14288, FZJ - ZB, 2023  ---- 10.1111/ijac.14288, FZJ - ZB, 2022
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  02nv7yv05_sn2020deal_2022                              --                  162176.44
+  TA data                                                57                  --    (Total: 61210.59 , EAPC: 1073.87, checking first TA article (10.1007/s00253-022-12017-7) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    57                  162176.44
+
+  New EAPC: 162176.44 / 57 = 2845.2
+
+ ==> Existing DEAL data (FZJ - ZB, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2845.2) as euro value (57 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Springer Nature Germany opt-out file, those have to be updated as well.
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  02nv7yv05_wiley2019deal_2022                           --                  238005.26
+  TA data                                                88                  --    (Total: 231485.76 , EAPC: 2630.52, checking first TA article (10.1002/aenm.202203326) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    88                  238005.26
+
+  New EAPC: 238005.26 / 88 = 2704.61
+
+ ==> Existing DEAL data (FZJ - ZB, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (2704.61) as euro value (88 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+

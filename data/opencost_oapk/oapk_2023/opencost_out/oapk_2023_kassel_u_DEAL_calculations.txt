@@ -1,0 +1,63 @@
+=== Overview: Contract group IDs ===
+
+Kassel U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 152111.19 €. (group_id: 04zc7p361_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+9 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 152111.19 / 9 = 16901.24 was assigned to each of them.
+CONTROL: First new article in group (10.1002/pamm.202200022) has an 'euro' value of 16901.24 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (34 articles, EAPC: 4473.86 €). The EAPC needs to be updated, see below.
+
+Kassel U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 234712.06999999998 €. (group_id: 04zc7p361_sn2020deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (75 articles, EAPC: 3129.49 €). The EAPC might need an update, see below.
+
+Kassel U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 159327.47 €. (group_id: 04zc7p361_wiley2019deal_2023)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+56 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 159327.47 / 56 = 2845.13 was assigned to each of them.
+CONTROL: First new article in group (10.1002/pamm.202200176) has an 'euro' value of 2845.13 €. ==> passed.
+
+Kassel U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 217744.61 €. (group_id: 04zc7p361_sn2020deal_2023)
+60 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 217744.61 / 60 = 3629.08 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11665-022-07745-w) has an 'euro' value of 3629.08 €. ==> passed.
+
+=== Update instructions ===
+
+1) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  04zc7p361_wiley2019deal_2022                           --                  152111.19
+  TA data                                                34                  --    (Total: 152111.24 , EAPC: 4473.86, checking first TA article (10.1002/csc2.20746) => passed)
+  New OAPK articles                                      9                   --
+  Duplicates                                             -9                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    34                  152111.19
+
+  New EAPC: 152111.19 / 34 = 4473.86
+
+ ==> EAPC for existing DEAL data (Kassel U, DEAL Wiley Germany, 2022) is already correct (4473.86), no changes are needed.
+ ==> New DEAL data (Kassel U, DEAL Wiley Germany, 2022) contains only duplicates. File is empty and should be deleted.
+
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  04zc7p361_sn2020deal_2022                              --                  234712.06999999998
+  TA data                                                75                  --    (Total: 234711.74999999997 , EAPC: 3129.49, checking first TA article (10.1007/s41693-022-00067-2) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    75                  234712.06999999998
+
+  New EAPC: 234712.06999999998 / 75 = 3129.49
+
+ ==> EAPC for existing DEAL data (Kassel U, DEAL Springer Nature Germany, 2022) is already correct (3129.49), no changes are needed.
+
+3) There is no conflicting cost data for invoice group '04zc7p361_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Kassel U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+4) There is no conflicting cost data for invoice group '04zc7p361_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Kassel U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+

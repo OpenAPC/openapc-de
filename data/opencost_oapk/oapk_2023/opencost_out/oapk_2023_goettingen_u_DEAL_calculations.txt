@@ -1,0 +1,62 @@
+=== Overview: Contract group IDs ===
+
+Goettingen U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 646443.3400000001 €. (group_id: 01y9bpm73_sn2020deal_2023)
+152 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 646443.3400000001 / 152 = 4252.92 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00041-023-09994-2) has an 'euro' value of 4252.92 €. ==> passed.
+
+Goettingen U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 853383.07 €. (group_id: 01y9bpm73_wiley2019deal_2023)
+71 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 853383.07 / 71 = 12019.48 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adfm.202310126) has an 'euro' value of 12019.48 €. ==> passed.
+
+Goettingen U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 1769429.92 €. (group_id: 01y9bpm73_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+142 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 1769429.92 / 142 = 12460.77 was assigned to each of them.
+CONTROL: First new article in group (10.1002/1873-3468.14671) has an 'euro' value of 12460.77 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (177 articles, EAPC: 4831.02 €). The EAPC needs to be updated, see below.
+
+Goettingen U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 646443.3400000001 €. (group_id: 01y9bpm73_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (193 articles, EAPC: 3349.45 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '01y9bpm73_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Goettingen U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '01y9bpm73_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Goettingen U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  01y9bpm73_wiley2019deal_2022                           --                  1769429.92
+  TA data                                                177                 --    (Total: 855090.54 , EAPC: 4831.02, checking first TA article (10.1111/cod.14268) => passed)
+  New OAPK articles                                      142                 --
+  Duplicates                                             -26                 --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    293                 1769429.92
+
+  New EAPC: 1769429.92 / 293 = 6039.01
+
+ ==> Existing DEAL data (Goettingen U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (6039.01) as euro value (177 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+ ==> New DEAL data (Goettingen U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (6039.01) as euro value before enrichment (90 articles).
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  01y9bpm73_sn2020deal_2022                              --                  646443.3400000001
+  TA data                                                193                 --    (Total: 646443.85 , EAPC: 3349.45, checking first TA article (10.1007/s40618-022-01865-9) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    193                 646443.3400000001
+
+  New EAPC: 646443.3400000001 / 193 = 3349.45
+
+ ==> EAPC for existing DEAL data (Goettingen U, DEAL Springer Nature Germany, 2022) is already correct (3349.45), no changes are needed.
+

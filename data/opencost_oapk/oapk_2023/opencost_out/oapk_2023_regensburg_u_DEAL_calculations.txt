@@ -1,0 +1,79 @@
+=== Overview: Contract group IDs ===
+
+Regensburg U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 321388.42 €. (group_id: 01eezs655_sn2020deal_2023)
+115 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 321388.42 / 115 = 2794.68 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00028-022-00861-z) has an 'euro' value of 2794.68 €. ==> passed.
+
+Regensburg U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 282474.41000000003 €. (group_id: 01eezs655_wiley2019deal_2023)
+96 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 282474.41000000003 / 96 = 2942.44 was assigned to each of them.
+CONTROL: First new article in group (10.1002/adma.202209333) has an 'euro' value of 2942.44 €. ==> passed.
+
+Regensburg U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 321388.42 €. (group_id: 01eezs655_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (115 articles, EAPC: 2794.68 €). The EAPC might need an update, see below.
+
+Regensburg U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 302651.14 €. (group_id: 01eezs655_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (93 articles, EAPC: 3249.81 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '01eezs655_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Regensburg U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  01eezs655_wiley2019deal_2023                           --                  282474.41000000003
+  New OAPK articles                                      96                  --
+  Duplicates                                             -6                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    90                  282474.41000000003
+
+  New EAPC: 282474.41000000003 / 90 = 3138.6
+
+ ==> New DEAL data (Regensburg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3138.6) as euro value before enrichment (84 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1111/nph.18724, Regensburg U, 2023  ---- 10.1111/nph.18724, Regensburg U, 2022
+10.1111/eos.12913, Regensburg U, 2023  ---- 10.1111/eos.12913, Regensburg U, 2022
+10.1112/jlms.12712, Regensburg U, 2023  ---- 10.1112/jlms.12712, Regensburg U, 2022
+10.1111/eos.12916, Regensburg U, 2023  ---- 10.1111/eos.12916, Regensburg U, 2022
+10.1111/ddg.14952, Regensburg U, 2023  ---- 10.1111/ddg.14952, Regensburg U, 2022
+10.1112/topo.12275, Regensburg U, 2023  ---- 10.1112/topo.12275, Regensburg U, 2022
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  01eezs655_sn2020deal_2022                              --                  321388.42
+  TA data                                                115                 --    (Total: 321388.19999999995 , EAPC: 2794.68, checking first TA article (10.1007/s00023-022-01236-3) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    115                 321388.42
+
+  New EAPC: 321388.42 / 115 = 2794.68
+
+ ==> EAPC for existing DEAL data (Regensburg U, DEAL Springer Nature Germany, 2022) is already correct (2794.68), no changes are needed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  01eezs655_wiley2019deal_2022                           --                  302651.14
+  TA data                                                93                  --    (Total: 302232.33 , EAPC: 3249.81, checking first TA article (10.1002/zaac.202100378) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    93                  302651.14
+
+  New EAPC: 302651.14 / 93 = 3254.31
+
+ ==> Existing DEAL data (Regensburg U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (3254.31) as euro value (93 articles in original file(s), enriched file(s) and TA collection).
+ IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
+

@@ -1,0 +1,25 @@
+=== Overview: Contract group IDs ===
+
+Rostock U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 48912.5 €. (group_id: 03zdwsf69_els2023deal_2023)
+10 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 48912.5 / 10 = 4891.25 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.cbpb.2023.110909) has an 'euro' value of 4891.25 €. ==> passed.
+
+Rostock U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 273393.94 €. (group_id: 03zdwsf69_sn2020deal_2023)
+46 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 273393.94 / 46 = 5943.35 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00068-023-02401-x) has an 'euro' value of 5943.35 €. ==> passed.
+
+Rostock U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 282588.29000000004 €. (group_id: 03zdwsf69_wiley2019deal_2023)
+50 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 282588.29000000004 / 50 = 5651.77 was assigned to each of them.
+CONTROL: First new article in group (10.1002/admt.202301157) has an 'euro' value of 5651.77 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '03zdwsf69_els2023deal_2023', the calculated EAPC is valid.
+ ==> The data file (Rostock U, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '03zdwsf69_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Rostock U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '03zdwsf69_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Rostock U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

@@ -1,0 +1,23 @@
+=== Overview: Contract group IDs ===
+
+PIK-Potsdam has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 15113.9 €. (group_id: 03e8s1d88_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+There were no new articles without publication-level costs linked to this group id.
+
+PIK-Potsdam has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 12396.510000000002 €. (group_id: 03e8s1d88_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+3) There are 9 new articles for the agreement period DEAL Springer Nature Germany 2023, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+
+4) There are 3 new articles for the agreement period DEAL Wiley Germany 2023, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+

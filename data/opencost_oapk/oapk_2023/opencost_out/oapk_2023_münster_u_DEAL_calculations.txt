@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Münster U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 328018.49 €. (group_id: 00pd74e08_sn2020deal_2023)
+171 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 328018.49 / 171 = 1918.24 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00216-022-04496-4) has an 'euro' value of 1918.24 €. ==> passed.
+
+Münster U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 339522.39 €. (group_id: 00pd74e08_wiley2019deal_2023)
+153 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 339522.39 / 153 = 2219.1 was assigned to each of them.
+CONTROL: First new article in group (10.1111/ene.16085) has an 'euro' value of 2219.1 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '00pd74e08_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Münster U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '00pd74e08_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Münster U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

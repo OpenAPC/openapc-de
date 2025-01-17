@@ -1,0 +1,60 @@
+=== Overview: Contract group IDs ===
+
+Hannover U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 700025.39 €. (group_id: 0304hq317_sn2020deal_2023)
+125 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 700025.39 / 125 = 5600.2 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00013-023-01859-w) has an 'euro' value of 5600.2 €. ==> passed.
+
+Hannover U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 394477.64 €. (group_id: 0304hq317_wiley2019deal_2023)
+111 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 394477.64 / 111 = 3553.85 was assigned to each of them.
+CONTROL: First new article in group (10.1002/pamm.202200219) has an 'euro' value of 3553.85 €. ==> passed.
+
+Hannover U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 853713.9999999999 €. (group_id: 0304hq317_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+
+Hannover U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 525278.0 €. (group_id: 0304hq317_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '0304hq317_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Hannover U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  0304hq317_wiley2019deal_2023                           --                  394477.64
+  New OAPK articles                                      111                 --
+  Duplicates                                             -14                 --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    97                  394477.64
+
+  New EAPC: 394477.64 / 97 = 4066.78
+
+ ==> New DEAL data (Hannover U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (4066.78) as euro value before enrichment (83 articles).
+
+WARNING: Some of the removed duplicates had mismatches in period/institution:
+new data --- old data
+10.1002/pamm.202200219, Hannover U, 2023  ---- 10.1002/pamm.202200219, Hannover U und TIB, 2022
+10.1002/pamm.202200328, Hannover U, 2023  ---- 10.1002/pamm.202200328, Hannover U und TIB, 2022
+10.1002/piuz.202201658, Hannover U, 2023  ---- 10.1002/piuz.202201658, Hannover U und TIB, 2022
+10.1002/pamm.202200119, Hannover U, 2023  ---- 10.1002/pamm.202200119, Hannover U und TIB, 2022
+10.1111/socf.12881, Hannover U, 2023  ---- 10.1111/socf.12881, Hannover U und TIB, 2022
+10.1002/smll.202206818, Hannover U, 2023  ---- 10.1002/smll.202206818, Hannover U und TIB, 2022
+10.1002/pamm.202200054, Hannover U, 2023  ---- 10.1002/pamm.202200054, Hannover U und TIB, 2022
+10.1002/pamm.202200127, Hannover U, 2023  ---- 10.1002/pamm.202200127, Hannover U und TIB, 2022
+10.1002/pamm.202200045, Hannover U, 2023  ---- 10.1002/pamm.202200045, Hannover U und TIB, 2022
+10.1111/1475-6765.12583, Hannover U, 2023  ---- 10.1111/1475-6765.12583, Hannover U und TIB, 2022
+10.1002/smll.202206379, Hannover U, 2023  ---- 10.1002/smll.202206379, Hannover U und TIB, 2022
+10.1002/pamm.202200265, Hannover U, 2023  ---- 10.1002/pamm.202200265, Hannover U und TIB, 2022
+10.1002/pamm.202200010, Hannover U, 2023  ---- 10.1002/pamm.202200010, Hannover U und TIB, 2022
+10.1002/chem.201902981, Hannover U, 2023  ---- 10.1002/chem.201902981, Hannover U und TIB, 2019
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Springer Nature Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2022 and no matching TA data exists.
+ ==> Nothing to do here.
+

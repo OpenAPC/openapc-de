@@ -1,0 +1,25 @@
+=== Overview: Contract group IDs ===
+
+Leibniz Institute for Baltic Sea Research has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 3493.75 €. (group_id: 03xh9nq73_els2023deal_2023)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 3493.75 / 1 = 3493.75 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.pocean.2023.103166) has an 'euro' value of 3493.75 €. ==> passed.
+
+Leibniz Institute for Baltic Sea Research has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 18291.21 €. (group_id: 03xh9nq73_sn2020deal_2023)
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 18291.21 / 6 = 3048.53 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00382-022-06628-z) has an 'euro' value of 3048.53 €. ==> passed.
+
+Leibniz Institute for Baltic Sea Research has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 4344.01 €. (group_id: 03xh9nq73_wiley2019deal_2023)
+5 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 4344.01 / 5 = 868.8 was assigned to each of them.
+CONTROL: First new article in group (10.1029/2023gl103853) has an 'euro' value of 868.8 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '03xh9nq73_els2023deal_2023', the calculated EAPC is valid.
+ ==> The data file (Leibniz Institute for Baltic Sea Research, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '03xh9nq73_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Leibniz Institute for Baltic Sea Research, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '03xh9nq73_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Leibniz Institute for Baltic Sea Research, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

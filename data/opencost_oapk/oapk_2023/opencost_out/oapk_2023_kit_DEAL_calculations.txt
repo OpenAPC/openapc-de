@@ -1,0 +1,56 @@
+=== Overview: Contract group IDs ===
+
+KIT has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 462188.91 €. (group_id: 04t3en479_sn2020deal_2023)
+156 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 462188.91 / 156 = 2962.75 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s13399-023-04553-7) has an 'euro' value of 2962.75 €. ==> passed.
+
+KIT has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 528408.7 €. (group_id: 04t3en479_wiley2019deal_2023)
+277 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 528408.7 / 277 = 1907.61 was assigned to each of them.
+CONTROL: First new article in group (10.1002/batt.202300357) has an 'euro' value of 1907.61 €. ==> passed.
+
+KIT has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 473383.24 €. (group_id: 04t3en479_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (147 articles, EAPC: 3220.29 €). The EAPC might need an update, see below.
+
+KIT has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 430186.0 €. (group_id: 04t3en479_wiley2019deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (292 articles, EAPC: 1473.24 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '04t3en479_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (KIT, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '04t3en479_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (KIT, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  04t3en479_sn2020deal_2022                              --                  473383.24
+  TA data                                                147                 --    (Total: 473382.63 , EAPC: 3220.29, checking first TA article (10.1007/s00186-022-00783-z) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    147                 473383.24
+
+  New EAPC: 473383.24 / 147 = 3220.29
+
+ ==> EAPC for existing DEAL data (KIT, DEAL Springer Nature Germany, 2022) is already correct (3220.29), no changes are needed.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  04t3en479_wiley2019deal_2022                           --                  430186.0
+  TA data                                                292                 --    (Total: 430186.08 , EAPC: 1473.24, checking first TA article (10.1002/adfm.202213916) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    292                 430186.0
+
+  New EAPC: 430186.0 / 292 = 1473.24
+
+ ==> EAPC for existing DEAL data (KIT, DEAL Wiley Germany, 2022) is already correct (1473.24), no changes are needed.
+

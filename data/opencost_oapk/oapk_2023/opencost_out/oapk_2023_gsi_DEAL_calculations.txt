@@ -1,0 +1,60 @@
+=== Overview: Contract group IDs ===
+
+GSI has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 22160.14 €. (group_id: 02k8cbn47_sn2020deal_2023)
+8 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 22160.14 / 8 = 2770.02 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00066-023-02158-7) has an 'euro' value of 2770.02 €. ==> passed.
+
+GSI has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 3745.91 €. (group_id: 02k8cbn47_wiley2019deal_2023)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 3745.91 / 1 = 3745.91 was assigned to each of them.
+CONTROL: First new article in group (10.1002/piuz.202301674) has an 'euro' value of 3745.91 €. ==> passed.
+
+GSI has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 9538.82 €. (group_id: 02k8cbn47_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (4 articles, EAPC: 2385.54 €). The EAPC might need an update, see below.
+
+GSI has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 22179.49 €. (group_id: 02k8cbn47_sn2020deal_2022)
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (9 articles, EAPC: 2464.39 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '02k8cbn47_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (GSI, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '02k8cbn47_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (GSI, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  02k8cbn47_wiley2019deal_2022                           --                  9538.82
+  TA data                                                4                   --    (Total: 9542.16 , EAPC: 2385.54, checking first TA article (10.1002/mp.15796) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    4                   9538.82
+
+  New EAPC: 9538.82 / 4 = 2384.7
+
+ ==> Existing DEAL data (GSI, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (2384.7) as euro value (4 articles in original file(s), enriched file(s) and TA collection).
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  02k8cbn47_sn2020deal_2022                              --                  22179.49
+  TA data                                                9                   --    (Total: 22179.51 , EAPC: 2464.39, checking first TA article (10.1140/epja/s10050-022-00663-4) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    9                   22179.49
+
+  New EAPC: 22179.49 / 9 = 2464.39
+
+ ==> EAPC for existing DEAL data (GSI, DEAL Springer Nature Germany, 2022) is already correct (2464.39), no changes are needed.
+
+5) There are 1 new articles for the agreement period DEAL Springer Nature Germany 2024, but neither related cost data nor matching TA data exists.
+ ==> Generated file should be deleted.
+

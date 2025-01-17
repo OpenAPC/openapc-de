@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+GIGA has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 4412.53 €. (group_id: 00681ts17_wiley2019deal_2023)
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 4412.53 / 6 = 735.42 was assigned to each of them.
+CONTROL: First new article in group (10.1111/blar.13511) has an 'euro' value of 735.42 €. ==> passed.
+
+GIGA has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 785.5899999999999 €. (group_id: 00681ts17_sn2020deal_2023)
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 785.5899999999999 / 6 = 130.93 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11366-023-09849-z) has an 'euro' value of 130.93 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '00681ts17_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (GIGA, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '00681ts17_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (GIGA, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+

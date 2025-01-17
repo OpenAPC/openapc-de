@@ -1,0 +1,38 @@
+=== Overview: Contract group IDs ===
+
+Saarland U has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 117390.0 €. (group_id: 01jdpyv68_els2023deal_2024)
+There were no new articles without publication-level costs linked to this group id.
+
+Saarland U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 374307.31000000006 €. (group_id: 01jdpyv68_sn2020deal_2022)
+96 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 96 = 3899.03 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00417-022-05762-y) has an 'euro' value of 3899.03 €. ==> passed.
+
+Saarland U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 311801.25 €. (group_id: 01jdpyv68_wiley2019deal_2022)
+77 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 311801.25 / 77 = 4049.37 was assigned to each of them.
+CONTROL: First new article in group (10.1111/lapo.12197) has an 'euro' value of 4049.37 €. ==> passed.
+
+Saarland U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 374307.31000000006 €. (group_id: 01jdpyv68_sn2020deal_2023)
+111 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 374307.31000000006 / 111 = 3372.14 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s00134-023-07090-z) has an 'euro' value of 3372.14 €. ==> passed.
+
+Saarland U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 302207.72 €. (group_id: 01jdpyv68_wiley2019deal_2023)
+66 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 302207.72 / 66 = 4578.9 was assigned to each of them.
+CONTROL: First new article in group (10.1111/cogs.13385) has an 'euro' value of 4578.9 €. ==> passed.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2024 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There is no conflicting cost data for invoice group '01jdpyv68_sn2020deal_2022', the calculated EAPC is valid.
+ ==> The data file (Saarland U, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '01jdpyv68_wiley2019deal_2022', the calculated EAPC is valid.
+ ==> The data file (Saarland U, DEAL Wiley Germany, 2022) can be directly enriched and processed.
+
+4) There is no conflicting cost data for invoice group '01jdpyv68_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Saarland U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+5) There is no conflicting cost data for invoice group '01jdpyv68_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Saarland U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

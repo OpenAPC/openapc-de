@@ -1,0 +1,40 @@
+=== Overview: Contract group IDs ===
+
+Osnabrück U has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 18530.85 €. (group_id: 04qmmjx98_els2023deal_2023)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 18530.85 / 1 = 18530.85 was assigned to each of them.
+CONTROL: First new article in group (10.1016/j.matpur.2023.12.005) has an 'euro' value of 18530.85 €. ==> passed.
+
+Osnabrück U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 181973.66999999998 €. (group_id: 04qmmjx98_sn2020deal_2023)
+45 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 181973.66999999998 / 45 = 4043.86 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s13668-023-00457-0) has an 'euro' value of 4043.86 €. ==> passed.
+
+Osnabrück U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 259549.84999999998 €. (group_id: 04qmmjx98_wiley2019deal_2023)
+28 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 259549.84999999998 / 28 = 9269.64 was assigned to each of them.
+CONTROL: First new article in group (10.1002/anie.202219050) has an 'euro' value of 9269.64 €. ==> passed.
+
+Osnabrück U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 254178.58000000002 €. (group_id: 04qmmjx98_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+11 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 254178.58000000002 / 11 = 23107.14 was assigned to each of them.
+CONTROL: First new article in group (10.1111/cod.14218) has an 'euro' value of 23107.14 €. ==> passed.
+
+Osnabrück U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 181973.66999999998 €. (group_id: 04qmmjx98_sn2020deal_2022)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 181973.66999999998 / 1 = 181973.67 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s41358-022-00334-2) has an 'euro' value of 181973.67 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '04qmmjx98_els2023deal_2023', the calculated EAPC is valid.
+ ==> The data file (Osnabrück U, DEAL Elsevier Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '04qmmjx98_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Osnabrück U, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '04qmmjx98_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Osnabrück U, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+4) There is no conflicting cost data for invoice group '04qmmjx98_wiley2019deal_2022', the calculated EAPC is valid.
+ ==> The data file (Osnabrück U, DEAL Wiley Germany, 2022) can be directly enriched and processed.
+
+5) There is no conflicting cost data for invoice group '04qmmjx98_sn2020deal_2022', the calculated EAPC is valid.
+ ==> The data file (Osnabrück U, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
+

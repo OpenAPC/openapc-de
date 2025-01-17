@@ -1,0 +1,31 @@
+=== Overview: Contract group IDs ===
+
+University of Education Schwaebisch Gmuend has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 4877.0599999999995 €. (group_id: 02g2sh456_wiley2019deal_2022)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 4877.0599999999995 / 1 = 4877.06 was assigned to each of them.
+CONTROL: First new article in group (10.1111/aphw.12396) has an 'euro' value of 4877.06 €. ==> passed.
+
+University of Education Schwaebisch Gmuend has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 18736.829999999998 €. (group_id: 02g2sh456_sn2020deal_2022)
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 18736.829999999998 / 6 = 3122.8 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11553-022-00986-6) has an 'euro' value of 3122.8 €. ==> passed.
+
+University of Education Schwaebisch Gmuend has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 4337.58 €. (group_id: 02g2sh456_wiley2019deal_2023)
+There were no new articles without publication-level costs linked to this group id.
+
+University of Education Schwaebisch Gmuend has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 8371.74 €. (group_id: 02g2sh456_sn2020deal_2023)
+6 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 8371.74 / 6 = 1395.29 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11618-023-01201-8) has an 'euro' value of 1395.29 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '02g2sh456_wiley2019deal_2022', the calculated EAPC is valid.
+ ==> The data file (University of Education Schwaebisch Gmuend, DEAL Wiley Germany, 2022) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '02g2sh456_sn2020deal_2022', the calculated EAPC is valid.
+ ==> The data file (University of Education Schwaebisch Gmuend, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
+
+3) There are no articles linked to the cost data in all invoice groups related to DEAL Wiley Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+4) There is no conflicting cost data for invoice group '02g2sh456_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (University of Education Schwaebisch Gmuend, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
