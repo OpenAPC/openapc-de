@@ -381,11 +381,15 @@ with open(all_articles_path, "w") as out:
                     msg = 'Skipped a hybrid non-DEAL record ({}, {}, {}€, {}, {}, {}, {}))'
                     logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
                     continue
-            elif not publication_level_costs or pub_type != "journal article":
-                # Only use gold articles from contracts if they are journal articles and have costs on publication level
-                msg = 'Skipped a contract-linked gold record which had either no publication level costs or was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
+            elif not publication_level_costs:
+                msg = 'Skipped a contract-linked non-hybrid record which had no publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
                 logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
                 continue
+            elif pub_type != "journal article":
+                msg = 'Skipped a contract-linked non-hybrid record which was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
+                logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
+                continue
+            # Only use gold articles from contracts if they are journal articles and have costs on publication level
         elif pub_type != "journal article":
             msg = 'Skipped a record (not linked to a contract) which was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
             logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
