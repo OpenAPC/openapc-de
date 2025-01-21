@@ -537,7 +537,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2352-4588": ["Wageningen Academic Publishers", "Brill"], # Journal of Insects as Food and Feed
 	"1751-7362": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal 
 	"1751-7370": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal (electronic) 
-
+    "1099-114X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research 
+    "0363-907X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research (print)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -906,6 +907,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1469-3178", # EMBO Reports, Gold OA since 2024
     "1469-221X", # EMBO Reports, Gold OA since 2024 (linking)
     "1751-7362", # The ISME Journal, Gold OA since 2024
+    "1099-114X", # International Journal of Energy Research, Gold OA since 2023
+
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
