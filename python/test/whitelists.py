@@ -535,8 +535,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1469-3178": ["EMBO", "Springer Nature"], # EMBO Reports 
 	"1469-221X": ["EMBO", "Springer Nature"], # EMBO Reports (linking)
 	"2352-4588": ["Wageningen Academic Publishers", "Brill"], # Journal of Insects as Food and Feed
-	"1751-7362": ["Nature Publishing Group", "Oxford University Press (OUP)"], # The ISME Journal 
-	"1751-7370": ["Nature Publishing Group", "Oxford University Press (OUP)"], # The ISME Journal (electronic) 
+	"1751-7362": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal 
+	"1751-7370": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal (electronic) 
 
 }
 
