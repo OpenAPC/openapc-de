@@ -534,7 +534,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1533-3450": ["American Society of Nephrology (ASN)", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of the American Society of Nephrology (electronic)
 	"1469-3178": ["EMBO", "Springer Nature"], # EMBO Reports 
 	"1469-221X": ["EMBO", "Springer Nature"], # EMBO Reports (linking)
-	"2352-4588": ["Wageningen Academic Publishers", "Brill"], # Journal of Insects as Food and Feed 
+	"2352-4588": ["Wageningen Academic Publishers", "Brill"], # Journal of Insects as Food and Feed
+	"1751-7362": ["Nature Publishing Group", "Oxford University Press (OUP)"], # The ISME Journal 
+	"1751-7370": ["Nature Publishing Group", "Oxford University Press (OUP)"], # The ISME Journal (electronic) 
 
 }
 
@@ -903,6 +905,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1559-2294", # Epigenetics, Gold OA since 2023
     "1469-3178", # EMBO Reports, Gold OA since 2024
     "1469-221X", # EMBO Reports, Gold OA since 2024 (linking)
+    "1751-7362", # The ISME Journal, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
