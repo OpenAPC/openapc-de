@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 121,815 articles, published at 401 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 121,816 articles, published at 401 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 121,815 articles, published at 401 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11254|
+|DEAL Springer Nature Germany                     |    11255|
 |Swiss Consortium Elsevier agreement              |    10993|
 |DEAL Wiley Germany                               |    10454|
 |French EDP Sciences agreement                    |     4998|
@@ -340,7 +340,7 @@ This dataset contains information on 121,815 articles, published at 401 institut
 |Scuola Normale Superiore                                                                                                                           |      110|
 |Northumbria University                                                                                                                             |      109|
 |University of Surrey                                                                                                                               |      107|
-|Augsburg U                                                                                                                                         |      103|
+|Augsburg U                                                                                                                                         |      104|
 |Universität Luzern                                                                                                                                 |      103|
 |Jönköping University                                                                                                                               |      102|
 |Liverpool John Moores University                                                                                                                   |      102|
