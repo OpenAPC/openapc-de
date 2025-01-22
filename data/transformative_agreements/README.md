@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 121,816 articles, published at 401 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 121,920 articles, published at 401 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 121,816 articles, published at 401 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11255|
+|DEAL Springer Nature Germany                     |    11343|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Wiley Germany                               |    10454|
+|DEAL Wiley Germany                               |    10470|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Elsevier agreement                       |     4939|
@@ -290,6 +290,7 @@ This dataset contains information on 121,816 articles, published at 401 institut
 |University of Natural Resources and Life Sciences Vienna (BOKU)                                                                                    |      219|
 |Queen's University Belfast                                                                                                                         |      217|
 |Kiel U                                                                                                                                             |      214|
+|Augsburg U                                                                                                                                         |      208|
 |Tilburg University                                                                                                                                 |      208|
 |University of York                                                                                                                                 |      205|
 |Regensburg U                                                                                                                                       |      204|
@@ -340,7 +341,6 @@ This dataset contains information on 121,816 articles, published at 401 institut
 |Scuola Normale Superiore                                                                                                                           |      110|
 |Northumbria University                                                                                                                             |      109|
 |University of Surrey                                                                                                                               |      107|
-|Augsburg U                                                                                                                                         |      104|
 |Universität Luzern                                                                                                                                 |      103|
 |Jönköping University                                                                                                                               |      102|
 |Liverpool John Moores University                                                                                                                   |      102|
