@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 121,791 articles, published at 399 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 121,804 articles, published at 400 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 121,791 articles, published at 399 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11233|
+|DEAL Springer Nature Germany                     |    11245|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Wiley Germany                               |    10451|
+|DEAL Wiley Germany                               |    10452|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Elsevier agreement                       |     4939|
@@ -454,6 +454,7 @@ This dataset contains information on 121,791 articles, published at 399 institut
 |Hochschule Bonn-Rhein-Sieg                                                                                                                         |       13|
 |St.Gallen University of Teacher Education                                                                                                          |       13|
 |TU Clausthal                                                                                                                                       |       13|
+|University of Education Schwaebisch Gmuend                                                                                                         |       13|
 |Dundalk Institute of Technology                                                                                                                    |       12|
 |Häme University of Applied Sciences                                                                                                                |       12|
 |Leibniz-BIPS                                                                                                                                       |       12|
