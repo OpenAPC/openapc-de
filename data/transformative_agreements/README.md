@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 121,804 articles, published at 400 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 121,815 articles, published at 401 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 121,804 articles, published at 400 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11245|
+|DEAL Springer Nature Germany                     |    11254|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Wiley Germany                               |    10452|
+|DEAL Wiley Germany                               |    10454|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Elsevier agreement                       |     4939|
@@ -466,6 +466,7 @@ This dataset contains information on 121,804 articles, published at 400 institut
 |Scotland's Rural College                                                                                                                           |       11|
 |Swedish School of Sport and Health Sciences                                                                                                        |       11|
 |University of Chester                                                                                                                              |       11|
+|University of Education Freiburg                                                                                                                   |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |HAWK Hildesheim/Holzminden/Göttingen                                                                                                               |       10|
 |Hertie School                                                                                                                                      |       10|
