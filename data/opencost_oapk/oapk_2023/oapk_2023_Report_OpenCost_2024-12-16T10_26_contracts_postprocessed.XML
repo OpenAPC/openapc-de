@@ -12493,8 +12493,8 @@
             <opencost:amount_paid>
               <opencost:currency>EUR</opencost:currency>
               <opencost:cost_type>publish</opencost:cost_type>
-              <opencost:amount>430.65</opencost:amount>
-              <opencost:vat>3327.49</opencost:vat>
+              <opencost:amount>3158.1</opencost:amount>
+              <opencost:vat>600.04</opencost:vat>
             </opencost:amount_paid>
           </opencost:amounts_paid>
         </opencost:invoice>
