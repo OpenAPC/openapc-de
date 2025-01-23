@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 121,926 articles, published at 402 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 122,198 articles, published at 403 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 121,926 articles, published at 402 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11349|
+|DEAL Springer Nature Germany                     |    11536|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Wiley Germany                               |    10470|
+|DEAL Wiley Germany                               |    10555|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Elsevier agreement                       |     4939|
@@ -273,6 +273,7 @@ This dataset contains information on 121,926 articles, published at 402 institut
 |TU Wien                                                                                                                                            |      283|
 |University of Vaasa                                                                                                                                |      280|
 |University of Newcastle                                                                                                                            |      275|
+|University Medical Center Hamburg-Eppendorf                                                                                                        |      272|
 |University Medical Center Groningen (UMCG)                                                                                                         |      270|
 |Luleå University of Technology                                                                                                                     |      269|
 |Natural Resources Institute Finland                                                                                                                |      269|
