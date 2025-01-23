@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 121,920 articles, published at 401 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 121,926 articles, published at 402 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 121,920 articles, published at 401 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11343|
+|DEAL Springer Nature Germany                     |    11349|
 |Swiss Consortium Elsevier agreement              |    10993|
 |DEAL Wiley Germany                               |    10470|
 |French EDP Sciences agreement                    |     4998|
@@ -489,6 +489,7 @@ This dataset contains information on 121,920 articles, published at 401 institut
 |Pädagogische Hochschule Luzern                                                                                                                     |        7|
 |Queen Margaret University                                                                                                                          |        7|
 |VATT Institute for Economic Research                                                                                                               |        7|
+|ASH Berlin                                                                                                                                         |        6|
 |HS Düsseldorf                                                                                                                                      |        6|
 |Netherlands Institute for Neuroscience                                                                                                             |        6|
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                                                                                         |        6|
