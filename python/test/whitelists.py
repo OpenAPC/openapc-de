@@ -539,6 +539,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1751-7370": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal (electronic) 
     "1099-114X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research 
     "0363-907X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research (print)
+    "2050-1161": ["Elsevier BV", "Oxford University Press (OUP)"], # Sexual Medicine
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
