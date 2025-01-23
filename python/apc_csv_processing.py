@@ -599,6 +599,8 @@ def main():
     header_processed = False
     row_num = 0
 
+    ac_value_found = False
+
     for row in reader:
         row_num += 1
         if not row:
@@ -627,6 +629,10 @@ def main():
         enriched_rows = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
                                         no_crossref, no_pubmed, no_doaj, args.no_preprint_lookup, args.preprint_auto_accept,
                                         args.round_monetary, args.offsetting_mode, args.csv_file, args.crossref_max_retries)
+        if not ac_value_found and "additional_costs" in enriched_rows:
+            for index in range(1, len(enriched_rows["additional_costs"])): # index 0 is the DOI
+                if oat.has_value(enriched_rows["additional_costs"][index]):
+                    ac_value_found = True
         for record_type, value in enriched_content.items():
             if record_type in enriched_rows:
                 value["content"].append(enriched_rows[record_type])
@@ -647,9 +653,12 @@ def main():
         oat.print_g("Metadata enrichment successful, no errors occured")
     else:
         oat.print_r("There were errors during the enrichment process:\n")
+
     # closing will implicitly flush the handler and print any buffered
     # messages to stderr
     bufferedHandler.close()
+    if ac_value_found:
+        oat.print_m("ATTENTION: Non-zero additional costs found in table - file out_additional_costs.csv should be appended and squashed.")
 
 if __name__ == '__main__':
     main()
