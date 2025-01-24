@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 122,198 articles, published at 403 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 122,235 articles, published at 404 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 122,198 articles, published at 403 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11536|
+|DEAL Springer Nature Germany                     |    11562|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Wiley Germany                               |    10555|
+|DEAL Wiley Germany                               |    10566|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Elsevier agreement                       |     4939|
@@ -399,6 +399,7 @@ This dataset contains information on 122,198 articles, published at 403 institut
 |Aberystwyth University                                                                                                                             |       38|
 |International Institute for Applied Systems Analysis (IIASA)                                                                                       |       38|
 |Swedish Museum of Natural History                                                                                                                  |       38|
+|Bamberg U                                                                                                                                          |       37|
 |HZDR                                                                                                                                               |       36|
 |Leibniz-IGB                                                                                                                                        |       36|
 |Robert Gordon University                                                                                                                           |       36|
