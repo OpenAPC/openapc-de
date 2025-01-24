@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |232,484 | 465,333,577    | 448 |
+| Articles         |232,506 | 465,364,269    | 448 |
 | Monographs       |2,015 | 13,240,883    | 76 |
 
 ## How to access the data?
@@ -780,11 +780,11 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 232,484 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 448 research performing institutions and research funders. 
+The article data set contains information on 232,506 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 448 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 465,333,577. The average payment was € 2,002 and the median was € 1,851.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 465,364,269. The average payment was € 2,002 and the median was € 1,850.
 
-169,834 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 305,995,482, including value-added tax; the average payment was € 1,802 (median =  € 1,694, SD = € 859).
+169,856 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 306,026,173, including value-added tax; the average payment was € 1,802 (median =  € 1,694, SD = € 859).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 62,650 articles in the data set were published in hybrid journals. Total expenditure amounts to 159,338,096 €; the average fee was € 2,543 (median =  € 2,500, SD = € 1,095).
 
@@ -818,8 +818,8 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2020   |      21,250|   1,716|     1,683|   0.2 -  8,906|           4,480|       2,493|         2,532|    16.6 -  7,416|
 |2021   |      26,007|   1,822|     1,791|  27.0 -  8,341|           3,485|       2,548|         2,506|    30.2 - 11,400|
 |2022   |      28,620|   2,100|     1,999|  12.4 - 11,175|           2,916|       2,863|         2,730|     2.1 - 14,607|
-|2023   |      14,539|   2,261|     2,156|  17.4 - 10,138|           2,112|       2,992|         2,790|   106.4 - 11,895|
-|2024   |       1,201|   2,401|     2,345| 139.1 -  7,723|             235|       3,773|         3,385|   231.3 - 12,554|
+|2023   |      14,560|   2,260|     2,155|  17.4 - 10,138|           2,112|       2,992|         2,790|   106.4 - 11,895|
+|2024   |       1,202|   2,401|     2,345| 139.1 -  7,723|             235|       3,773|         3,385|   231.3 - 12,554|
 
 
 
@@ -923,7 +923,7 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.75%       |87.84%   |
-|PubMed ID                  |  73.79%      | NA                                                          |
+|PubMed ID                  |  73.78%      | NA                                                          |
 |PubMed Central ID          |  68.25%     | NA                                                          |
 |Web of Science record ID   | 70.88%         | NA                                                          |
 
