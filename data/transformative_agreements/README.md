@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 122,235 articles, published at 404 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 122,251 articles, published at 405 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 122,235 articles, published at 404 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11562|
+|DEAL Springer Nature Germany                     |    11578|
 |Swiss Consortium Elsevier agreement              |    10993|
 |DEAL Wiley Germany                               |    10566|
 |French EDP Sciences agreement                    |     4998|
@@ -446,6 +446,7 @@ This dataset contains information on 122,235 articles, published at 404 institut
 |National Land Survey of Finland                                                                                                                    |       17|
 |Danube University Krems University for Continuing Education                                                                                        |       16|
 |GESIS                                                                                                                                              |       16|
+|Universität Erfurt                                                                                                                                 |       16|
 |Hochschule Hannover                                                                                                                                |       15|
 |Leibniz-IZW                                                                                                                                        |       15|
 |Leibniz-IPK                                                                                                                                        |       14|
