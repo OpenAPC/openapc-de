@@ -79,7 +79,8 @@ PUBLISHER_MAPPINGS = {
     "Waxmann": "Waxmann Verlag",
     "WALLSTEIN VERLAG": "Wallstein Verlag",
     "Nomos Verlagsgesellschaft mbH & Co.- KG": "Nomos Verlagsgesellschaft mbH & Co. KG",
-    "edition text + kritik im Richard Boorberg Verlag": "edition text + kritik"
+    "edition text + kritik im Richard Boorberg Verlag": "edition text + kritik",
+    "Springer Nature Switzerland": "Springer International Publishing",
 }
 
 JOURNAL_MAPPINGS = {

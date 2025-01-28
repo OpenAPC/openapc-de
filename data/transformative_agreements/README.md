@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 122,343 articles, published at 407 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 122,405 articles, published at 408 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 122,343 articles, published at 407 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11622|
+|DEAL Springer Nature Germany                     |    11651|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Wiley Germany                               |    10614|
+|DEAL Wiley Germany                               |    10647|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Elsevier agreement                       |     4939|
@@ -370,6 +370,7 @@ This dataset contains information on 122,343 articles, published at 407 institut
 |Mid Sweden University                                                                                                                              |       67|
 |University of Stirling                                                                                                                             |       66|
 |Manchester Metropolitan University                                                                                                                 |       64|
+|UFZ                                                                                                                                                |       62|
 |The Open University                                                                                                                                |       60|
 |University of Huddersfield                                                                                                                         |       60|
 |University of Veterinary Medicine Vienna                                                                                                           |       59|
