@@ -909,7 +909,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1469-221X", # EMBO Reports, Gold OA since 2024 (linking)
     "1751-7362", # The ISME Journal, Gold OA since 2024
     "1099-114X", # International Journal of Energy Research, Gold OA since 2023
-
+    "1590-1262", # Eating and Weight Disorders - Studies on Anorexia, Bulimia and Obesity, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list

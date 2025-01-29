@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 122,461 articles, published at 409 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 122,955 articles, published at 410 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,9 +23,9 @@ This dataset contains information on 122,461 articles, published at 409 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    11679|
+|DEAL Springer Nature Germany                     |    11935|
 |Swiss Consortium Elsevier agreement              |    10993|
-|DEAL Wiley Germany                               |    10675|
+|DEAL Wiley Germany                               |    10913|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Elsevier agreement                       |     4939|
@@ -219,6 +219,7 @@ This dataset contains information on 122,461 articles, published at 409 institut
 |University of Groningen                                                                                                                            |      501|
 |University of Fribourg                                                                                                                             |      496|
 |University of Edinburgh                                                                                                                            |      495|
+|TU Dresden                                                                                                                                         |      494|
 |PSI - Paul Scherrer Institute                                                                                                                      |      489|
 |Delft University of Technology                                                                                                                     |      484|
 |HHU Düsseldorf                                                                                                                                     |      475|
