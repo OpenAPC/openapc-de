@@ -1,0 +1,99 @@
+=== Overview: Contract group IDs ===
+
+Wuppertal U has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 100754.5 €. (group_id: 00613ak93_sn2020deal_2023)
+56 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 100754.5 / 56 = 1799.19 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11618-022-01136-6) has an 'euro' value of 1799.19 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (54 articles, EAPC: 1865.82 €). The EAPC needs to be updated, see below.
+
+Wuppertal U has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 141352.44999999998 €. (group_id: 00613ak93_wiley2019deal_2023)
+22 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 141352.44999999998 / 22 = 6425.11 was assigned to each of them.
+CONTROL: First new article in group (10.1002/mnfr.202200283) has an 'euro' value of 6425.11 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (22 articles, EAPC: 6425.11 €). The EAPC needs to be updated, see below.
+
+Wuppertal U has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 142515.65 €. (group_id: 00613ak93_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+2 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 142515.65 / 2 = 71257.82 was assigned to each of them.
+CONTROL: First new article in group (10.1002/pamm.202200224) has an 'euro' value of 71257.82 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (30 articles, EAPC: 4750.52 €). The EAPC needs to be updated, see below.
+
+Wuppertal U has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 100754.5 €. (group_id: 00613ak93_sn2020deal_2022)
+4 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 100754.5 / 4 = 25188.62 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11573-022-01130-8) has an 'euro' value of 25188.62 €. ==> passed.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (56 articles, EAPC: 1799.19 €). The EAPC needs to be updated, see below.
+
+=== Update instructions ===
+
+1) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00613ak93_sn2020deal_2023                              --                  100754.5
+  TA data                                                54                  --    (Total: 100754.28 , EAPC: 1865.82, checking first TA article (10.1007/s11618-022-01136-6) => passed)
+  New OAPK articles                                      54                  --
+  Duplicates                                             -54                 --
+  New OAPK articles (opt_out)                            2                   --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    56                  100754.5
+
+  New EAPC: 100754.5 / 56 = 1799.19
+
+ ==> Existing DEAL data (Wuppertal U, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (1799.19) as euro value (54 articles in original file(s), enriched file(s) and TA collection).
+ ==> New DEAL data (Wuppertal U, DEAL Springer Nature Germany, 2023) contains only duplicates. File is empty and should be deleted.
+ ==> EAPC for new DEAL data file (Wuppertal U, DEAL Springer Nature Germany, 2023, opt_out) is already correct (1799.19), no changes are needed.
+
+2) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2023.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00613ak93_wiley2019deal_2023                           --                  141352.44999999998
+  TA data                                                22                  --    (Total: 141352.41999999998 , EAPC: 6425.11, checking first TA article (10.1002/mnfr.202200283) => passed)
+  New OAPK articles                                      22                  --
+  Duplicates                                             -22                 --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    22                  141352.44999999998
+
+  New EAPC: 141352.44999999998 / 22 = 6425.11
+
+ ==> EAPC for existing DEAL data (Wuppertal U, DEAL Wiley Germany, 2023) is already correct (6425.11), no changes are needed.
+ ==> New DEAL data (Wuppertal U, DEAL Wiley Germany, 2023) contains only duplicates. File is empty and should be deleted.
+
+3) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00613ak93_wiley2019deal_2022                           --                  142515.65
+  TA data                                                30                  --    (Total: 142515.6 , EAPC: 4750.52, checking first TA article (10.1002/jnm.3049) => passed)
+  New OAPK articles                                      2                   --
+  Duplicates                                             -2                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    30                  142515.65
+
+  New EAPC: 142515.65 / 30 = 4750.52
+
+ ==> EAPC for existing DEAL data (Wuppertal U, DEAL Wiley Germany, 2022) is already correct (4750.52), no changes are needed.
+ ==> New DEAL data (Wuppertal U, DEAL Wiley Germany, 2022) contains only duplicates. File is empty and should be deleted.
+
+4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  00613ak93_sn2020deal_2022                              --                  100754.5
+  TA data                                                56                  --    (Total: 100754.64 , EAPC: 1799.19, checking first TA article (10.1007/s11846-022-00578-w) => passed)
+  New OAPK articles                                      4                   --
+  Duplicates                                             -4                  --
+  -------------------------------------------------------------------------------------------
+  Sum                                                    56                  100754.5
+
+  New EAPC: 100754.5 / 56 = 1799.19
+
+ ==> EAPC for existing DEAL data (Wuppertal U, DEAL Springer Nature Germany, 2022) is already correct (1799.19), no changes are needed.
+ ==> New DEAL data (Wuppertal U, DEAL Springer Nature Germany, 2022) contains only duplicates. File is empty and should be deleted.
+
