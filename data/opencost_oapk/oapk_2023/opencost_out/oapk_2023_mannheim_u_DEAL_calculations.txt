@@ -34,7 +34,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 149863.40999999997 / 26 = 5763.98
 
- ==> New DEAL data (Mannheim U, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (5763.98) as euro value before enrichment (25 articles).
+ ==> New DEAL data (Mannheim U, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (5763.98) as euro value before enrichment (26 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

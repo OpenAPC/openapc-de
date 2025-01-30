@@ -42,7 +42,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 427351.20999999996 / 117 = 3652.57
 
- ==> New DEAL data (Koeln U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3652.57) as euro value before enrichment (116 articles).
+ ==> New DEAL data (Koeln U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3652.57) as euro value before enrichment (117 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

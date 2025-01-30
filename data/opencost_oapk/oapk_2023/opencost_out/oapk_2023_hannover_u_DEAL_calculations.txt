@@ -33,7 +33,7 @@ There were no new articles without publication-level costs linked to this group 
 
   New EAPC: 394477.64 / 97 = 4066.78
 
- ==> New DEAL data (Hannover U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (4066.78) as euro value before enrichment (83 articles).
+ ==> New DEAL data (Hannover U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (4066.78) as euro value before enrichment (97 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

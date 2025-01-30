@@ -39,7 +39,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 61210.810000000005 / 24 = 2550.45
 
- ==> New DEAL data (FZJ - ZB, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (2550.45) as euro value before enrichment (21 articles).
+ ==> New DEAL data (FZJ - ZB, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (2550.45) as euro value before enrichment (24 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
@@ -61,7 +61,7 @@ new data --- old data
 
   New EAPC: 174519.64 / 68 = 2566.47
 
- ==> New DEAL data (FZJ - ZB, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (2566.47) as euro value before enrichment (48 articles).
+ ==> New DEAL data (FZJ - ZB, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (2566.47) as euro value before enrichment (68 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

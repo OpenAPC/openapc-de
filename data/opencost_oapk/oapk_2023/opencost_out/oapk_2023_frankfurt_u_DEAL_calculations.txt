@@ -24,7 +24,7 @@ CONTROL: First new article in group (10.1002/1873-3468.14545) has an 'euro' valu
 
   New EAPC: 452638.92 / 233 = 1942.66
 
- ==> New DEAL data (Frankfurt U, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (1942.66) as euro value before enrichment (230 articles).
+ ==> New DEAL data (Frankfurt U, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (1942.66) as euro value before enrichment (233 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
@@ -46,7 +46,7 @@ new data --- old data
 
   New EAPC: 445647.55 / 145 = 3073.43
 
- ==> New DEAL data (Frankfurt U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3073.43) as euro value before enrichment (144 articles).
+ ==> New DEAL data (Frankfurt U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3073.43) as euro value before enrichment (145 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

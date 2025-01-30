@@ -4,8 +4,8 @@ Catholic University of Eichstätt-Ingolstadt has reported DEAL Elsevier Germany 
 There were no new articles without publication-level costs linked to this group id.
 
 Catholic University of Eichstätt-Ingolstadt has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 71418.87 €. (group_id: 00mx91s63_sn2020deal_2023)
-23 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 71418.87 / 23 = 3105.17 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s11117-022-00957-3) has an 'euro' value of 3105.17 €. ==> passed.
+24 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 71418.87 / 24 = 2975.79 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11117-022-00957-3) has an 'euro' value of 2975.79 €. ==> passed.
 
 Catholic University of Eichstätt-Ingolstadt has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 64871.89 €. (group_id: 00mx91s63_wiley2019deal_2023)
 8 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 64871.89 / 8 = 8108.99 was assigned to each of them.
@@ -18,6 +18,7 @@ CONTROL: First new article in group (10.1002/cpp.2772) has an 'euro' value of 81
 
 2) There is no conflicting cost data for invoice group '00mx91s63_sn2020deal_2023', the calculated EAPC is valid.
  ==> The data file (Catholic University of Eichstätt-Ingolstadt, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+ ==> The data file (Catholic University of Eichstätt-Ingolstadt, DEAL Springer Nature Germany, 2023, opt_out) can be directly enriched and processed.
 
 3) There is no conflicting cost data for invoice group '00mx91s63_wiley2019deal_2023', the calculated EAPC is valid.
  ==> The data file (Catholic University of Eichstätt-Ingolstadt, DEAL Wiley Germany, 2023) can be directly enriched and processed.

@@ -31,7 +31,8 @@ INS_STR = {
     "ov_ta_update_necessary": " The EAPC needs to be updated, see below.\n",
     "ov_other_group": "NOTE: There is another invoice group with cost data for the given institution, period and publisher.\n",
     "ins_hdr": "=== Update instructions ===\n\n",
-    "ins_clear": "There is no conflicting cost data for invoice group '{}', the calculated EAPC is valid.\n ==> The data file ({}, {}, {}) can be directly enriched and processed.\n\n",
+    "ins_clear": "There is no conflicting cost data for invoice group '{}', the calculated EAPC is valid.\n",
+    "ins_clear_file": " ==> The data file ({}, {}, {}{}) can be directly enriched and processed.\n",
     "ins_no_articles": "There are no articles linked to the cost data in all invoice groups related to {} {} and no matching TA data exists.\n ==> Nothing to do here.\n\n",
     "ins_solitary_articles": "There are {} new articles for the agreement period {} {}, but neither related cost data nor matching TA data exists.\n ==> Generated file should be deleted.\n\n",
     "ins_not_clear": "There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period {} {}.\n ==> Checking if EAPC needs to be updated.\n\n",
@@ -42,8 +43,9 @@ INS_STR = {
     "recalc_update_ta": " ==> Existing DEAL data ({}, {}, {}) has to be updated with the new EAPC ({}) as euro value ({} articles in original file(s), enriched file(s) and TA collection).\n",
     "recalc_no_update_ta": " ==> EAPC for existing DEAL data ({}, {}, {}) is already correct ({}), no changes are needed.\n",
     "recalc_opt_out": " IMPORTANT: Please note that some articles are located in the {} opt-out file, those have to be updated as well.\n",
-    "recalc_update_new_data": " ==> New DEAL data ({}, {}, {}) has to be updated with the new EAPC ({}) as euro value before enrichment ({} articles).\n",
-    "recalc_all_duplicates": " ==> New DEAL data ({}, {}, {}) contains only duplicates. File is empty and should be deleted.\n",
+    "recalc_update_new_data": " ==> New DEAL data ({}, {}, {}{}) has to be updated with the new EAPC ({}) as euro value before enrichment ({} articles).\n",
+    "recalc_clear": " ==> EAPC for new DEAL data file ({}, {}, {}{}) is already correct ({}), no changes are needed.\n",
+    "recalc_all_duplicates": " ==> New DEAL data ({}, {}, {}{}) contains only duplicates. File is empty and should be deleted.\n",
     "duplicates_warn": "WARNING: Some of the removed duplicates had mismatches in period/institution:\nnew data --- old data\n",
 }
 
@@ -107,21 +109,22 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
         for period, period_data in ins_data.items():
             if period not in deal_map[ins_name]:
                 deal_map[ins_name][period] = {}
-            for agreement, writer_data in period_data.items():
+            for agreement, opt_status_dict in period_data.items():
                 if agreement not in deal_map[ins_name][period]:
                     deal_map[ins_name][period][agreement] = {
                         "groups": [],
-                        "writer_data": writer_data,
+                        "writer_data": opt_status_dict,
                         "ta_data": ta_data.get(ins_name, {}).get(period, {}).get(agreement, None)
                     }
-                deal_map[ins_name][period][agreement]["writer_data"] = writer_data
-                for article in writer_data["articles"]:
-                    group_id = article["contract_group_id"]
-                    if group_id == "NA":
-                        continue
-                    if group_id not in invoice_group_dict:
-                        invoice_group_dict[group_id] = []
-                    invoice_group_dict[group_id].append(article)
+                deal_map[ins_name][period][agreement]["writer_data"] = opt_status_dict
+                for opt_out_status, writer_data in opt_status_dict.items():
+                    for article in writer_data["articles"]:
+                        group_id = article["contract_group_id"]
+                        if group_id == "NA":
+                            continue
+                        if group_id not in invoice_group_dict:
+                            invoice_group_dict[group_id] = []
+                        invoice_group_dict[group_id].append(article)
     # Report on all invoice groups and linked new articles
     for ins_name, periods in deal_map.items():
         if ins_name not in instructions:
@@ -165,11 +168,22 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                 ins_index += 1
                 total_costs = 0.0
                 num_total_articles = 0
+                num_total_duplicates = 0
                 num_ta_articles = 0
                 ta_total_costs = 0.0
                 ta_eapc = 0.0
-                num_new_articles = 0
-                num_duplicates = 0
+                new_article_data = {
+                    "opt_in": {
+                        "num": 0,
+                        "duplicates": 0,
+                        "eapc": 0,
+                    },
+                    "opt_out": {
+                        "num": 0,
+                        "duplicates": 0,
+                        "eapc": 0,
+                    },
+                }
                 non_internal_duplicates = False
                 calc_str = INS_STR["ins_not_clear"].format(agreement, period)
                 calc_str += " = Recalculation = \n" + INS_STR["recalc_hdr"] + INS_STR["recalc_hbar"]
@@ -187,31 +201,39 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                     passed_str = "passed" if float(ta_articles[0]["euro"]) == ta_eapc else "FAILED!"
                     calc_str += INS_STR["recalc_check_eapc"].format(ta_total_costs, ta_eapc, ta_articles[0]["doi"], passed_str)
                 if data["writer_data"] is not None:
-                    new_articles = data["writer_data"]["articles"]
-                    num_new_articles = len(new_articles)
-                    num_total_articles += num_new_articles
-                    calc_str += "  " + "New OAPK articles".ljust(55) + str(num_new_articles).ljust(20) + "--" + "\n"
+                    for opt_out_status, writer in data["writer_data"].items():
+                        new_articles = writer["articles"]
+                        new_article_data[opt_out_status]["num"] += len(new_articles)
+                        new_article_data[opt_out_status]["eapc"] = new_articles[0]["euro"]
+                        num_total_articles += len(new_articles)
+                        source_str = "New OAPK articles"
+                        if opt_out_status == "opt_out":
+                            source_str += " (" + opt_out + ")"
+                        calc_str += "  " + source_str.ljust(55) + str(len(new_articles)).ljust(20) + "--" + "\n"
                     # Find and remove duplicates
-                    for new_article in list(new_articles):
-                        if new_article["doi"] in ta_doi_lookup:
-                            ta_article = ta_doi_lookup[new_article["doi"]]
-                            num_duplicates += 1
-                            if not _is_internal_duplicate(new_article, ta_article):
-                                non_internal_duplicates = True
-                                msg = "Found a duplicate while preparing DEAL update data and the IPA metadata is not equal.\n  New article:    {}\n  TA article:      {}"
-                                logging.warning(msg.format(new_article, ta_article))
-                                dup_line = "{}, {}, {}  ---- {}, {}, {}\n"
-                                dup_line = dup_line.format(new_article["doi"], new_article["institution"], new_article["period"], ta_article["doi"], ta_article["institution"], ta_article["period"])
-                                duplicates_str += dup_line
-                            else:
-                                msg = "Found an internal duplicate while preparing DEAL update data.\n  New article:    {}\n  TA article:      {}"
-                                logging.warning(msg.format(new_article, ta_article))
-                            for key, value in new_article.items():
-                                new_article[key] = ""
-                    if num_duplicates > 0:
-                        num_total_articles -= num_duplicates
-                        num_new_articles -= num_duplicates
-                        calc_str += "  " + "Duplicates".ljust(55) + "-" + str(num_duplicates).ljust(19) + "--" + "\n"
+                        for new_article in list(new_articles):
+                            if new_article["doi"] in ta_doi_lookup:
+                                ta_article = ta_doi_lookup[new_article["doi"]]
+                                new_article_data[opt_out_status]["duplicates"] += 1
+                                if not _is_internal_duplicate(new_article, ta_article):
+                                    non_internal_duplicates = True
+                                    msg = "Found a duplicate while preparing DEAL update data and the IPA metadata is not equal.\n  New article:    {}\n  TA article:      {}"
+                                    logging.warning(msg.format(new_article, ta_article))
+                                    dup_line = "{}, {}, {}  ---- {}, {}, {}\n"
+                                    dup_line = dup_line.format(new_article["doi"], new_article["institution"], new_article["period"], ta_article["doi"], ta_article["institution"], ta_article["period"])
+                                    duplicates_str += dup_line
+                                else:
+                                    msg = "Found an internal duplicate while preparing DEAL update data.\n  New article:    {}\n  TA article:      {}"
+                                    logging.warning(msg.format(new_article, ta_article))
+                                for key, value in new_article.items():
+                                    new_article[key] = ""
+                        if new_article_data[opt_out_status]["duplicates"] > 0:
+                            num_total_articles -= new_article_data[opt_out_status]["duplicates"]
+                            num_total_duplicates += new_article_data[opt_out_status]["duplicates"]
+                            source_str = "Duplicates"
+                            if opt_out_status == "opt_out":
+                                source_str += " (" + opt_out + ")"
+                            calc_str += "  " + source_str.ljust(55) + "-" + str(new_article_data[opt_out_status]["duplicates"]).ljust(19) + "--" + "\n"
                 calc_str += INS_STR["recalc_hbar"]
                 calc_str += "  " + "Sum".ljust(55) + str(num_total_articles).ljust(20) + str(total_costs) + "\n\n"
                 if num_total_articles > 0:
@@ -230,10 +252,15 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                                 calc_str += INS_STR["recalc_opt_out"].format(agreement)
                         else:
                             calc_str += INS_STR["recalc_no_update_ta"].format(ins_name, agreement, period, old_eapc)
-                    if num_new_articles > 0:
-                        calc_str += INS_STR["recalc_update_new_data"].format(ins_name, agreement, period, new_eapc, num_new_articles - num_duplicates)
-                    elif num_duplicates > 0:
-                        calc_str += INS_STR["recalc_all_duplicates"].format(ins_name, agreement, period, new_eapc)
+                    for opt_out_status, counts in new_article_data.items():
+                        opt_out_str = ", opt_out" if opt_out_status == "opt_out" else ""
+                        if counts["num"] - counts["duplicates"] > 0:
+                            if round(counts["eapc"], 1) == round(new_eapc, 1):
+                                calc_str += INS_STR["recalc_clear"].format(ins_name, agreement, period, opt_out_str, new_eapc)
+                            else:
+                                calc_str += INS_STR["recalc_update_new_data"].format(ins_name, agreement, period, opt_out_str, new_eapc, counts["num"] - counts["duplicates"])
+                        elif counts["duplicates"] > 0:
+                            calc_str += INS_STR["recalc_all_duplicates"].format(ins_name, agreement, period, opt_out_str, new_eapc)
                     calc_str += "\n"
                     if non_internal_duplicates:
                         calc_str += duplicates_str + "\n"
@@ -243,8 +270,13 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                     instructions[ins_name] += INS_STR["ins_no_articles"].format(agreement, period)
                 elif len(data["groups"]) == 0 and data["ta_data"] is None:
                     instructions[ins_name] += INS_STR["ins_solitary_articles"].format(num_total_articles, agreement, period)
-                elif len(data["groups"]) == 1 and data["ta_data"] is None and num_duplicates == 0:
-                    instructions[ins_name] += INS_STR["ins_clear"].format(data["groups"][0]["group_id"], ins_name, agreement, period)
+                elif len(data["groups"]) == 1 and data["ta_data"] is None and num_total_duplicates == 0:
+                    instructions[ins_name] += INS_STR["ins_clear"].format(data["groups"][0]["group_id"])
+                    for opt_out_status, counts in new_article_data.items():
+                        if counts["num"] > 0:
+                            opt_out_str = ", opt_out" if opt_out_status == "opt_out" else ""
+                            instructions[ins_name] += INS_STR["ins_clear_file"].format(ins_name, agreement, period, opt_out_str)
+                    instructions[ins_name] += "\n"
                 else:
                     instructions[ins_name] += calc_str
     
@@ -363,26 +395,36 @@ for article in articles:
                     logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
                     continue
                 article["euro"] = article.get("contract_euro", 0)
+                opt_out = article["publication charge"] == 0.0 
                 if esac_id == "sn2020deal":
                     ins_name += "_DEAL_Springer_" + period
+                    if opt_out:
+                        ins_name += "_opt_out"
                     deal_data = {
                         "period": period,
                         "institution": institution,
-                        "agreement": "DEAL Springer Nature Germany"
+                        "agreement": "DEAL Springer Nature Germany",
+                        "opt_out": "opt_out" if opt_out else "opt_in"
                     }
                 elif esac_id == "wiley2019deal":
                     ins_name += "_DEAL_Wiley_" + period
+                    if opt_out:
+                        ins_name += "_opt_out"
                     deal_data = {
                         "period": period,
                         "institution": institution,
-                        "agreement": "DEAL Wiley Germany"
+                        "agreement": "DEAL Wiley Germany",
+                        "opt_out": "opt_out" if opt_out else "opt_in"
                     }
                 elif esac_id == "els2023deal":
                     ins_name += "_DEAL_Elsevier_" + period
+                    if opt_out:
+                        ins_name += "_opt_out"
                     deal_data = {
                         "period": period,
                         "institution": institution,
-                        "agreement": "DEAL Elsevier Germany"
+                        "agreement": "DEAL Elsevier Germany",
+                        "opt_out": "opt_out" if opt_out else "opt_in"
                     }
             else:
                 # Skip hybrid articles from contracts other than DEAL
@@ -458,12 +500,15 @@ for _, data in csv_writers.items():
     ins = data["deal_data"]["institution"]
     period = data["deal_data"]["period"]
     agreement = data["deal_data"]["agreement"]
+    opt_out = data["deal_data"]["opt_out"]
     if ins not in new_deal_writers:
         new_deal_writers[ins] = {}
     if period not in new_deal_writers[ins]:
         new_deal_writers[ins][period] = {}
     if agreement not in new_deal_writers[ins][period]:
-        new_deal_writers[ins][period][agreement] = data
+        new_deal_writers[ins][period][agreement] = {}
+    if opt_out not in new_deal_writers[ins][period][agreement]:
+        new_deal_writers[ins][period][agreement][opt_out] = data
 
 prepare_deal_update(args, ta_deal_data, ta_doi_lookup, new_deal_writers, invoice_groups)
 

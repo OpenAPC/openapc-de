@@ -32,7 +32,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 384830.68000000005 / 72 = 5344.87
 
- ==> New DEAL data (Erlangen Nuernberg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (5344.87) as euro value before enrichment (71 articles).
+ ==> New DEAL data (Erlangen Nuernberg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (5344.87) as euro value before enrichment (72 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

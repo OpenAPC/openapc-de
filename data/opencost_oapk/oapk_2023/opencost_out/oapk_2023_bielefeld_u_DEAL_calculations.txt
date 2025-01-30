@@ -72,7 +72,7 @@ CONTROL: First new article in group (10.1002/acp.3951) has an 'euro' value of 36
 
   New EAPC: 257743.93 / 2 = 128871.96
 
- ==> New DEAL data (Bielefeld U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (128871.96) as euro value before enrichment (-67 articles).
+ ==> New DEAL data (Bielefeld U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (128871.96) as euro value before enrichment (2 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

@@ -40,7 +40,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 100983.75 / 3 = 33661.25
 
- ==> New DEAL data (DESY, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (33661.25) as euro value before enrichment (2 articles).
+ ==> New DEAL data (DESY, DEAL Springer Nature Germany, 2023) has to be updated with the new EAPC (33661.25) as euro value before enrichment (3 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
@@ -60,7 +60,7 @@ new data --- old data
 
   New EAPC: 22676.539999999997 / 11 = 2061.5
 
- ==> New DEAL data (DESY, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (2061.5) as euro value before enrichment (10 articles).
+ ==> New DEAL data (DESY, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (2061.5) as euro value before enrichment (11 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

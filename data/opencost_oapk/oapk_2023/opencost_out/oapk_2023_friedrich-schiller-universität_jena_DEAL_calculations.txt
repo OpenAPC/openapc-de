@@ -11,8 +11,8 @@ Friedrich-Schiller-Universität Jena has reported DEAL Wiley Germany cost data f
 There were no new articles without publication-level costs linked to this group id.
 
 Friedrich-Schiller-Universität Jena has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 13300.0 €. (group_id: 05qpz1x62_sn2020deal_2022)
-171 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 13300.0 / 171 = 77.78 was assigned to each of them.
-CONTROL: First new article in group (10.1007/s11336-023-09933-6) has an 'euro' value of 77.78 €. ==> passed.
+176 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 13300.0 / 176 = 75.57 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11336-023-09933-6) has an 'euro' value of 75.57 €. ==> passed.
 
 === Update instructions ===
 
@@ -27,7 +27,8 @@ CONTROL: First new article in group (10.1007/s11336-023-09933-6) has an 'euro' v
 
 4) There is no conflicting cost data for invoice group '05qpz1x62_sn2020deal_2022', the calculated EAPC is valid.
  ==> The data file (Friedrich-Schiller-Universität Jena, DEAL Springer Nature Germany, 2022) can be directly enriched and processed.
+ ==> The data file (Friedrich-Schiller-Universität Jena, DEAL Springer Nature Germany, 2022, opt_out) can be directly enriched and processed.
 
-5) There are 110 new articles for the agreement period DEAL Wiley Germany 2022, but neither related cost data nor matching TA data exists.
+5) There are 113 new articles for the agreement period DEAL Wiley Germany 2022, but neither related cost data nor matching TA data exists.
  ==> Generated file should be deleted.
 
