@@ -566,6 +566,12 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
         if "vat" in final_data:
             final_data["euro"] += final_data["vat"]
         final_data["is_hybrid"] = "TRUE"
+    # Special is_hybrid rule: DEAL opt-out
+    esac_id = final_data.get("contract_primary_identifier", "")
+    if esac_id in ["sn2020deal", "wiley2019deal", "els2023deal"]:
+        if "publication charge" in final_data and not "hybrid-oa" in final_data:
+            if final_data["publication charge"] == 0.0:
+                final_data["is_hybrid"] = "TRUE"
     if "date_paid" in final_data:
         final_data["period"] =  final_data["date_paid"]
     elif "date_invoice" in final_data:
@@ -690,8 +696,9 @@ def apply_contract_data(extracted_records, extracted_invoice_groups):
             if assigned_costs_found:
                 continue
             if record["contract_primary_identifier"] in ["sn2020deal", "wiley2019deal", "els2023deal"]:
-                # DEAL special rule: Cost distribution only valid for hybrid 0€ articles. Might need adjustments for other TAs.
-                if record["hybrid-oa"] != 0.0:
+                # DEAL special rule: Cost distribution only valid for articles with hybrid_oa == 0€ xor publication charge == 0€. The latter indicates an opt-out article.
+                # Might need adjustments for other TAs.
+                if not ((record["hybrid-oa"] == 0.0 and record["publication charge"] == 'NA') or (record["hybrid-oa"] == 'NA' and record["publication charge"] == 0.0)):
                     continue
             record_count += 1
             record["target_group_id"] = group_id
