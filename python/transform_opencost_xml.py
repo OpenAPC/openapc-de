@@ -43,9 +43,9 @@ INS_STR = {
     "recalc_update_ta": " ==> Existing DEAL data ({}, {}, {}) has to be updated with the new EAPC ({}) as euro value ({} articles in original file(s), enriched file(s) and TA collection).\n",
     "recalc_no_update_ta": " ==> EAPC for existing DEAL data ({}, {}, {}) is already correct ({}), no changes are needed.\n",
     "recalc_opt_out": " IMPORTANT: Please note that some articles are located in the {} opt-out file, those have to be updated as well.\n",
-    "recalc_update_new_data": " ==> New DEAL data ({}, {}, {}, {}) has to be updated with the new EAPC ({}) as euro value before enrichment ({} articles).\n",
-    "recalc_clear": " ==> EAPC for new DEAL data file ({}, {}, {}, {}) is already correct ({}), no changes are needed.\n",
-    "recalc_all_duplicates": " ==> New DEAL data ({}, {}, {}, {}) contains only duplicates. File is empty and should be deleted.\n",
+    "recalc_update_new_data": " ==> New DEAL data ({}, {}, {}{}) has to be updated with the new EAPC ({}) as euro value before enrichment ({} articles).\n",
+    "recalc_clear": " ==> EAPC for new DEAL data file ({}, {}, {}{}) is already correct ({}), no changes are needed.\n",
+    "recalc_all_duplicates": " ==> New DEAL data ({}, {}, {}{}) contains only duplicates. File is empty and should be deleted.\n",
     "duplicates_warn": "WARNING: Some of the removed duplicates had mismatches in period/institution:\nnew data --- old data\n",
 }
 
@@ -206,7 +206,9 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                         new_article_data[opt_out_status]["num"] += len(new_articles)
                         new_article_data[opt_out_status]["eapc"] = new_articles[0]["euro"]
                         num_total_articles += len(new_articles)
-                        source_str = "New OAPK articles (" + opt_out_status + ")"
+                        source_str = "New OAPK articles"
+                        if opt_out_status == "opt_out":
+                            source_str += " (" + opt_out + ")"
                         calc_str += "  " + source_str.ljust(55) + str(len(new_articles)).ljust(20) + "--" + "\n"
                     # Find and remove duplicates
                         for new_article in list(new_articles):
@@ -228,7 +230,9 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
                         if new_article_data[opt_out_status]["duplicates"] > 0:
                             num_total_articles -= new_article_data[opt_out_status]["duplicates"]
                             num_total_duplicates += new_article_data[opt_out_status]["duplicates"]
-                            source_str = "Duplicates (" + opt_out_status + ")"
+                            source_str = "Duplicates"
+                            if opt_out_status == "opt_out":
+                                source_str += " (" + opt_out + ")"
                             calc_str += "  " + source_str.ljust(55) + "-" + str(new_article_data[opt_out_status]["duplicates"]).ljust(19) + "--" + "\n"
                 calc_str += INS_STR["recalc_hbar"]
                 calc_str += "  " + "Sum".ljust(55) + str(num_total_articles).ljust(20) + str(total_costs) + "\n\n"
