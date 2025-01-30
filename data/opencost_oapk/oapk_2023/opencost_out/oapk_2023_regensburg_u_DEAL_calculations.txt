@@ -35,7 +35,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 282474.41000000003 / 90 = 3138.6
 
- ==> New DEAL data (Regensburg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3138.6) as euro value before enrichment (84 articles).
+ ==> New DEAL data (Regensburg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3138.6) as euro value before enrichment (90 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

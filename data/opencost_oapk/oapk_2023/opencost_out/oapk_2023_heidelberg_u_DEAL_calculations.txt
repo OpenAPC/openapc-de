@@ -40,7 +40,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 586533.73 / 186 = 3153.41
 
- ==> New DEAL data (Heidelberg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3153.41) as euro value before enrichment (182 articles).
+ ==> New DEAL data (Heidelberg U, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3153.41) as euro value before enrichment (186 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data

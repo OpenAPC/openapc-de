@@ -43,7 +43,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
  ==> Existing DEAL data (Goettingen U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (6039.01) as euro value (177 articles in original file(s), enriched file(s) and TA collection).
  IMPORTANT: Please note that some articles are located in the DEAL Wiley Germany opt-out file, those have to be updated as well.
- ==> New DEAL data (Goettingen U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (6039.01) as euro value before enrichment (90 articles).
+ ==> New DEAL data (Goettingen U, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (6039.01) as euro value before enrichment (116 articles).
 
 4) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
  ==> Checking if EAPC needs to be updated.

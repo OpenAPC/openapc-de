@@ -44,7 +44,7 @@ NOTE: The institution has already reported TA DEAL data for the given period and
 
   New EAPC: 268889.05 / 70 = 3841.27
 
- ==> New DEAL data (TU Braunschweig, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3841.27) as euro value before enrichment (68 articles).
+ ==> New DEAL data (TU Braunschweig, DEAL Wiley Germany, 2023) has to be updated with the new EAPC (3841.27) as euro value before enrichment (70 articles).
 
 WARNING: Some of the removed duplicates had mismatches in period/institution:
 new data --- old data
