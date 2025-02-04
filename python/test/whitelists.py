@@ -540,6 +540,9 @@ JOURNAL_OWNER_CHANGED = {
     "1099-114X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research 
     "0363-907X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research (print)
     "2050-1161": ["Elsevier BV", "Oxford University Press (OUP)"], # Sexual Medicine
+    "0277-2116": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Journal of Pediatric Gastroenterology and Nutrition 
+	"1536-4801": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Journal of Pediatric Gastroenterology and Nutrition (electronic)
+
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
