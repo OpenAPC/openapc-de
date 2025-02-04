@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 123,416 articles, published at 412 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 123,738 articles, published at 412 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 123,416 articles, published at 412 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    12206|
-|DEAL Wiley Germany                               |    11103|
+|DEAL Springer Nature Germany                     |    12400|
+|DEAL Wiley Germany                               |    11231|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -176,11 +176,11 @@ This dataset contains information on 123,416 articles, published at 412 institut
 |University of Turku                                                                                                                                |     1606|
 |Trinity College Dublin                                                                                                                             |     1589|
 |University of Oulu                                                                                                                                 |     1550|
+|Charité - Universitätsmedizin Berlin                                                                                                               |     1535|
 |KIT                                                                                                                                                |     1374|
 |Milano U                                                                                                                                           |     1368|
 |University College Cork                                                                                                                            |     1297|
 |University of Eastern Finland                                                                                                                      |     1219|
-|Charité - Universitätsmedizin Berlin                                                                                                               |     1213|
 |Lund University                                                                                                                                    |     1177|
 |Bonn U                                                                                                                                             |     1124|
 |University of Jyväskylä                                                                                                                            |     1067|
