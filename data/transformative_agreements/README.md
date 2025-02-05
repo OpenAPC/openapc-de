@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 123,781 articles, published at 412 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 123,790 articles, published at 413 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 123,781 articles, published at 412 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    12426|
+|DEAL Springer Nature Germany                     |    12435|
 |DEAL Wiley Germany                               |    11248|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
@@ -480,6 +480,7 @@ This dataset contains information on 123,781 articles, published at 412 institut
 |University of the Highlands and Islands                                                                                                            |       11|
 |HAWK Hildesheim/Holzminden/Göttingen                                                                                                               |       10|
 |Hertie School                                                                                                                                      |       10|
+|Darmstadt University of Applied Sciences                                                                                                           |        9|
 |Haaga-Helia University of Applied Sciences                                                                                                         |        9|
 |Social Insurance Institution of Finland                                                                                                            |        9|
 |TH Köln                                                                                                                                            |        9|
