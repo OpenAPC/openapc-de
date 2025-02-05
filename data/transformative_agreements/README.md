@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 123,738 articles, published at 412 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 123,781 articles, published at 412 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 123,738 articles, published at 412 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    12400|
-|DEAL Wiley Germany                               |    11231|
+|DEAL Springer Nature Germany                     |    12426|
+|DEAL Wiley Germany                               |    11248|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -378,6 +378,7 @@ This dataset contains information on 123,738 articles, published at 412 institut
 |University of Veterinary Medicine Vienna                                                                                                           |       59|
 |Aston University                                                                                                                                   |       58|
 |University of Lincoln                                                                                                                              |       57|
+|TU Clausthal                                                                                                                                       |       56|
 |TU Ilmenau                                                                                                                                         |       56|
 |University of the West of England                                                                                                                  |       56|
 |Mary Immaculate College                                                                                                                            |       55|
@@ -463,7 +464,6 @@ This dataset contains information on 123,738 articles, published at 412 institut
 |GSI                                                                                                                                                |       13|
 |Hochschule Bonn-Rhein-Sieg                                                                                                                         |       13|
 |St.Gallen University of Teacher Education                                                                                                          |       13|
-|TU Clausthal                                                                                                                                       |       13|
 |University of Education Schwaebisch Gmuend                                                                                                         |       13|
 |Dundalk Institute of Technology                                                                                                                    |       12|
 |Häme University of Applied Sciences                                                                                                                |       12|
