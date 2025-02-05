@@ -454,7 +454,7 @@ University of Teacher Education Zug,phzg,University of Teacher Education Zug,EUR
 University of Applied Sciences of the Grisons,fh_grisons,University of Applied Sciences of the Grisons,EUROPE,CHE,CH.GR,NA,https://ror.org/032ymzc07,NA,NA,https://www.fhgr.ch/en/,NA
 Haute École Pédagogique Fribourg,hep_fribourg,Haute École Pédagogique Fribourg,EUROPE,CHE,CH.FR,NA,https://ror.org/048gre751,NA,NA,https://hepfr.ch/,NA
 Graduate Institute of International and Development Studies,graduateinstitute_geneva,Graduate Institute of International and Development Studies,EUROPE,CHE,CH.GE,NA,https://ror.org/007ygn379,NA,NA,http://graduateinstitute.ch/home.html,NA
-University of Liechtenstein,liechtenstein_u,University of Liechtenstein,NA,LIE,NA,NA,https://ror.org/01qjrx392,NA,NA,https://www.uni.li/study/de/,NA
+University of Liechtenstein,liechtenstein_u,University of Liechtenstein,EUROPE,LIE,NA,NA,https://ror.org/01qjrx392,NA,NA,https://www.uni.li/study/de/,NA
 Pädagogische Hochschule Bern,ph_bern,Pädagogische Hochschule Bern,EUROPE,CHE,CH.BE,NA,https://ror.org/05jf1ma54,NA,NA,https://www.phbern.ch/,NA
 University of Lausanne,lausanne_u,University of Lausanne,EUROPE,CHE,CH.VD,unilausanne,https://ror.org/019whta54,NA,NA,https://www.unil.ch/openscience/en/home/menuinst/open-access/open-access-a-lunil/soutien-360/voie-doree/gold-open-access-fund-unil.html,NA
 University of Fribourg,fribourg_u,University of Fribourg,EUROPE,CHE,CH.FR,NA,https://ror.org/022fs9h90,NA,NA,https://www.unifr.ch/home/en/,NA
@@ -488,7 +488,7 @@ Graz University of Technology,tu_graz,Graz University of Technology,EUROPE,AUT,A
 International Institute for Applied Systems Analysis (IIASA),iiasa,International Institute for Applied Systems Analysis (IIASA),EUROPE,AUT,AUT-NO,NA,https://ror.org/02wfhk785,NA,NA,https://iiasa.ac.at/,NA
 University of Veterinary Medicine Vienna,vuw,University of Veterinary Medicine Vienna,EUROPE,AUT,AUT-WI,NA,https://ror.org/01w6qp003,NA,NA,https://www.vetmeduni.ac.at/en/,NA
 Institute for Advanced Studies Vienna,ihs,Institute for Advanced Studies Vienna,EUROPE,AUT,AUT-WI,NA,https://ror.org/05ag62t55,NA,NA,https://www.ihs.ac.at/,NA
-FH Vorarlberg - University of Applied Sciences,fh_vorarlberg,FH Vorarlberg - University of Applied Sciences,AUT-VO,AUT,AUT-VO,NA,https://ror.org/031wyx077,NA,NA,https://www.fhv.at/en/,NA
+FH Vorarlberg - University of Applied Sciences,fh_vorarlberg,FH Vorarlberg - University of Applied Sciences,EUROPE,AUT,AUT-VO,NA,https://ror.org/031wyx077,NA,NA,https://www.fhv.at/en/,NA
 University of Applied Sciences Upper Austria,fh_ooe,University of Applied Sciences Upper Austria,EUROPE,AUT,AUT-OO,NA,https://ror.org/03jqp6d56,NA,NA,https://www.fh-ooe.at/en/,NA
 FH St. Pölten - University of Applied Sciences,fh_st_poelten,FH St. Pölten - University of Applied Sciences,EUROPE,AUT,AUT-NO,NA,https://ror.org/039a2re55,NA,NA,https://www.fhstp.ac.at/en,NA
 Danube University Krems University for Continuing Education,krems_u,Danube University Krems University for Continuing Education,EUROPE,AUT,AUT-NO,NA,https://ror.org/03ef4a036,NA,NA,https://www.donau-uni.ac.at/en.html,NA
@@ -535,7 +535,7 @@ University of Innsbruck and Medical University of Innsbruck,innsbruck_uni_meduni
 University of Innsbruck,innsbruck_u,University of Innsbruck,EUROPE,AUT,AUT-TR,NA,https://ror.org/054pv6659,NA,NA,https://www.uibk.ac.at/en/,NA
 Medical University of Innsbruck,meduni_innsbruck,Medical University of Innsbruck,EUROPE,AUT,AUT-TR,NA,https://ror.org/03pt86f80,NA,NA,https://www.i-med.ac.at/mypoint/index.xml.en,NA
 Hannover U und TIB,hannover_u_tib,Hannover U und TIB,EUROPE,DEU,NI,NA,NA,NA,NA,NA,NA
-French institutions,french_institutions,French institutions,NA,FRA,NA,NA,NA,NA,NA,NA,NA
+French institutions,french_institutions,French institutions,EUROPE,FRA,NA,NA,NA,NA,NA,NA,NA
 National Land Survey of Finland,nls_finland,National Land Survey of Finland,EUROPE,FIN,FI-18,NA,NA,NA,NA,https://www.maanmittauslaitos.fi/en,NA
 Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau),knaw_bureau,Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau),EUROPE,NLD,NL-NH,NA,https://ror.org/043c0p156,NA,NA,https://www.knaw.nl/en,NA
 Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology,imp_imba_gmi,Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology,EUROPE,AUT,AUT-WI,NA,NA,NA,NA,NA,NA
@@ -561,7 +561,7 @@ Université d'Orléans,orleans_u,Université d'Orléans,EUROPE,FRA,FR-CVL,couper
 Université Lumière - Lyon II,lyon2_u,Université Lumière - Lyon II,EUROPE,FRA,FR-ARA,couperin/lyon2,https://ror.org/03rth4p18,NA,NA,NA,NA
 IRS,irs,Leibniz-Institut für Raumbezogene Sozialforschung (IRS),EUROPE,DEU,BB,irs,https://ror.org/01rkqb281,INS,WGL,https://leibniz-irs.de/en/research/publications/open-access,NA
 Kalaidos University of Applied Sciences,kalaidos_fh,Kalaidos University of Applied Sciences,EUROPE,CHE,CH.ZH,NA,https://ror.org/049c2kr37,NA,NA,https://www.kalaidos-fh.ch/de-CH/,NA
-University of Teacher Education in Special Needs,hfh,University of Teacher Education in Special Needs,UROPE,CHE,CH.ZH,NA,https://ror.org/00w9q2c06,NA,NA,https://www.hfh.ch/en,NA
+University of Teacher Education in Special Needs,hfh,University of Teacher Education in Special Needs,EUROPE,CHE,CH.ZH,NA,https://ror.org/00w9q2c06,NA,NA,https://www.hfh.ch/en,NA
 Pädagogische Hochschule Graubünden,ph_graubuenden,Pädagogische Hochschule Graubünden,EUROPE,CHE,CH.GR,NA,https://ror.org/02fjgft97,NA,NA,https://phgr.ch/,NA
 University of Galway,galway_u,University of Galway,EUROPE,IRL,IE-G,NA,https://ror.org/03bea9k73,NA,NA,https://www.universityofgalway.ie/,NA
 University College Dublin,dublin_u,University College Dublin,EUROPE,IRL,IE-D,NA,https://ror.org/05m7pjf47,NA,NA,https://www.ucd.ie/,NA
