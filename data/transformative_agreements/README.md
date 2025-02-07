@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 123,811 articles, published at 415 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 123,890 articles, published at 415 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 123,811 articles, published at 415 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    12447|
-|DEAL Wiley Germany                               |    11257|
+|DEAL Springer Nature Germany                     |    12492|
+|DEAL Wiley Germany                               |    11291|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -257,6 +257,7 @@ This dataset contains information on 123,811 articles, published at 415 institut
 |Kassel U                                                                                                                                           |      350|
 |Cardiff University                                                                                                                                 |      339|
 |University of Warwick                                                                                                                              |      332|
+|TU Chemnitz                                                                                                                                        |      331|
 |University of Neuchatel                                                                                                                            |      324|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |Radboud University                                                                                                                                 |      309|
@@ -283,7 +284,6 @@ This dataset contains information on 123,811 articles, published at 415 institut
 |Siegen U                                                                                                                                           |      258|
 |Agroscope                                                                                                                                          |      256|
 |Technological University Dublin                                                                                                                    |      255|
-|TU Chemnitz                                                                                                                                        |      252|
 |Medical University of Graz                                                                                                                         |      248|
 |Giessen U                                                                                                                                          |      245|
 |Università della Svizzera italiana                                                                                                                 |      239|
