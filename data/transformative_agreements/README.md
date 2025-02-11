@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 124,199 articles, published at 415 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 124,434 articles, published at 415 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 124,199 articles, published at 415 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    12636|
-|DEAL Wiley Germany                               |    11456|
+|DEAL Springer Nature Germany                     |    12779|
+|DEAL Wiley Germany                               |    11548|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -213,6 +213,7 @@ This dataset contains information on 124,199 articles, published at 415 institut
 |University of Amsterdam                                                                                                                            |      542|
 |JGU Mainz                                                                                                                                          |      531|
 |Utrecht University                                                                                                                                 |      527|
+|Duisburg-Essen U                                                                                                                                   |      520|
 |Qatar National Library                                                                                                                             |      510|
 |Wageningen University and Research Centre                                                                                                          |      506|
 |DLR                                                                                                                                                |      505|
@@ -271,7 +272,6 @@ This dataset contains information on 124,199 articles, published at 415 institut
 |WSL - Swiss Federal Institute for Forest, Snow and Landscape Research                                                                              |      292|
 |University of Liverpool                                                                                                                            |      289|
 |ZHAW Zurich University of Applied Sciences                                                                                                         |      287|
-|Duisburg-Essen U                                                                                                                                   |      285|
 |University of Glasgow                                                                                                                              |      285|
 |Eindhoven University of Technology                                                                                                                 |      283|
 |Erasmus University                                                                                                                                 |      283|
