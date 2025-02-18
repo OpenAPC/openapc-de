@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 125,370 articles, published at 417 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 125,378 articles, published at 417 institutions under 126 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 125,370 articles, published at 417 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    13320|
-|DEAL Wiley Germany                               |    11943|
+|DEAL Springer Nature Germany                     |    13326|
+|DEAL Wiley Germany                               |    11945|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -439,6 +439,7 @@ This dataset contains information on 125,370 articles, published at 417 institut
 |DESY                                                                                                                                               |       24|
 |Glasgow Caledonian University                                                                                                                      |       24|
 |Medical University of Innsbruck                                                                                                                    |       24|
+|HS Hannover                                                                                                                                        |       23|
 |Dalarna University                                                                                                                                 |       22|
 |Fachhochschule Südwestfalen                                                                                                                        |       21|
 |Pädagogische Hochschule Zürich                                                                                                                     |       21|
@@ -458,7 +459,6 @@ This dataset contains information on 125,370 articles, published at 417 institut
 |Danube University Krems University for Continuing Education                                                                                        |       16|
 |GESIS                                                                                                                                              |       16|
 |Universität Erfurt                                                                                                                                 |       16|
-|Hochschule Hannover                                                                                                                                |       15|
 |Leibniz-IZW                                                                                                                                        |       15|
 |Leibniz-IPK                                                                                                                                        |       14|
 |Swiss Federal University for Vocational Education and Training                                                                                     |       14|
