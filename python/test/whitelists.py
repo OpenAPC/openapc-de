@@ -918,6 +918,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1524-0703", # Graphical Models, Gold OA since 2023
     "1871-4757", # NanoEthics, Gold OA since 2023
     "0333-1024", # Cephalalgia, Gold OA since 2023
+    "0001-0782", # Communications of the ACM, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
