@@ -771,7 +771,8 @@ ISSN_L_CORRECTIONS = {
     "1573-0565": "0885-6125", # "Machine Learning". 1573-0565(issn_e) -> 1573-0565, but 0885-6125(issn_p) -> 0885-6125
     "2041-7128": "2041-7136", # "Pastoralism" 
     "2035-8385": "2035-8377", # "Neurology International". 2035-8385(issn_p) -> 2035-8385, but 2035-8377(issn_e) -> 2035-8377
-    "0016-9420": "0018-9855" # "IIC - International Review of Intellectual Property and Competition Law"
+    "0016-9420": "0018-9855", # "IIC - International Review of Intellectual Property and Competition Law"
+    "2054-4650": "2054-4642" # "Work, Aging and Retirement". 2054-4650(issn_e) -> 2054-4650, but 2054-4642(issn_p) -> 2054-4642
 }
 
 AGREEMENT_PUBLISHERS = {
