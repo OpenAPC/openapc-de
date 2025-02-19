@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |236,552 | 474,867,741    | 451 |
+| Articles         |236,559 | 474,879,762    | 452 |
 | Monographs       |2,052 | 13,504,472    | 80 |
 
 ## How to access the data?
@@ -73,6 +73,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Freie Universität Berlin](https://www.fu-berlin.de/sites/open_access/finanzierung-oa/zeitschriftenartikel/publikationsfonds_zeitschriften/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
 - [Friedrich-Schiller-Universität Jena](https://www.thulb.uni-jena.de/services/forschung-/-lehre/open-access-/-elektronisches-publizieren#c3516)
+- [Fulda University of Applied Sciences](https://www.hs-fulda.de/en/)
 - [HAWK Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen](https://www.hawk.de/de/hochschule/organisation-und-personen/zentrale-einrichtungen/zentrum-fuer-information-medien-und-technologie/bibliothek/openaccess)
 - [HafenCity Universität Hamburg](https://www.hcu-hamburg.de/en/library/writing-publishing/open-access-in-research)
 - [Hamburg University of Applied Sciences](https://www.haw-hamburg.de/hibs/publizieren/publikationsfonds/)
@@ -783,11 +784,11 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 236,552 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 451 research performing institutions and research funders. 
+The article data set contains information on 236,559 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 452 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 474,867,741. The average payment was € 2,007 and the median was € 1,860.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 474,879,762. The average payment was € 2,007 and the median was € 1,860.
 
-173,651 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 314,735,895, including value-added tax; the average payment was € 1,812 (median =  € 1,704, SD = € 864).
+173,658 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 314,747,916, including value-added tax; the average payment was € 1,812 (median =  € 1,704, SD = € 864).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 62,901 articles in the data set were published in hybrid journals. Total expenditure amounts to 160,131,846 €; the average fee was € 2,546 (median =  € 2,500, SD = € 1,097).
 
@@ -821,8 +822,8 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2020   |      21,250|   1,716|     1,683|   0.2 -  8,906|           4,480|       2,493|         2,532|    16.6 -  7,416|
 |2021   |      26,023|   1,824|     1,791|  27.0 -  8,341|           3,485|       2,548|         2,506|    30.2 - 11,400|
 |2022   |      28,876|   2,100|     1,999|  12.4 - 11,175|           2,939|       2,871|         2,730|     2.1 - 14,607|
-|2023   |      17,839|   2,268|     2,150|  17.4 - 10,138|           2,338|       3,001|         2,817|   106.4 - 11,895|
-|2024   |       1,446|   2,383|     2,305| 139.1 -  7,723|             237|       3,771|         3,385|   231.3 - 12,554|
+|2023   |      17,844|   2,268|     2,150|  17.4 - 10,138|           2,338|       3,001|         2,817|   106.4 - 11,895|
+|2024   |       1,448|   2,382|     2,303| 139.1 -  7,723|             237|       3,771|         3,385|   231.3 - 12,554|
 
 
 
