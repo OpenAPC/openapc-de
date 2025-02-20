@@ -349,7 +349,7 @@ Seinäjoki University of Applied Sciences,seinäjoki_uas,Seinäjoki University o
 Lapin ammattikorkeakoulu (fi),lapin_uas,Lapin ammattikorkeakoulu (Lapland University of Applied Sciences),EUROPE,FIN,FI-10,NA,https://ror.org/047h64h89,NA,NA,NA,NA
 Halmstad University,halmstad_u,Halmstad University,EUROPE,SWE,SE-N,natlibswe/univ_halmstad,https://ror.org/03h0qfp10,NA,NA,NA,NA
 IFW Dresden,ifw_dresden,Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden,EUROPE,DEU,SN,ifw-dresden,https://ror.org/04zb59n70,INS,WGL,https://www.ifw-dresden.de/about-us/library,NA
-Hochschule Hannover,hsh,Hochschule Hannover,EUROPE,DEU,NI,hshannover,https://ror.org/03m2kj587,HEI,NA,https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/,NA
+HS Hannover,hsh,Hochschule Hannover,EUROPE,DEU,NI,hshannover,https://ror.org/03m2kj587,HEI,NA,https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/,NA
 Université Côte d'Azur - UniCA,cote_azur_u,Université Côte d'Azur - UniCA,EUROPE,FRA,FR-PAC,couperin/cote-azur,https://ror.org/019tgvf94,NA,NA,NA,NA
 IRSN - Institut de Radioprotection et de Sûreté Nucléaire,irsn,IRSN - Institut de Radioprotection et de Sûreté Nucléaire,EUROPE,FRA,FR-IDF,couperin/irsn,https://ror.org/01ha22c77,NA,NA,NA,NA
 Bauhaus-Universität Weimar,weimar_u,Bauhaus-Universität Weimar,EUROPE,DEU,TH,uniweimar,https://ror.org/033bb5z47,HEI,NA,https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/,NA
@@ -632,3 +632,5 @@ University of Applied Sciences Mainz,hs_mainz,University of Applied Sciences Mai
 Universität der Bundeswehr München,uni_bw_muenchen,Universität der Bundeswehr München,EUROPE,DEU,BY,uni_bw_muenchen,https://ror.org/05kkv3f82,HEI,NA,https://www.unibw.de,NA
 Brandenburg University of Technology Cottbus-Senftenberg,btu,Brandenburg University of Technology Cottbus-Senftenberg,EUROPE,DEU,BB,btu,https://ror.org/02wxx3e24,HEI,NA,https://www.b-tu.de/en/,NA
 Darmstadt University of Applied Sciences,hs_darmstadt,Darmstadt University of Applied Sciences,EUROPE,DEU,HE,hsdarmstadt,https://ror.org/047wbd030,HEI,NA,https://h-da.de/en/,NA
+Fulda University of Applied Sciences,hs_fulda,Fulda University of Applied Sciences,EUROPE,DEU,HE,hsfulda,https://ror.org/041bz9r75,HEI,NA,https://www.hs-fulda.de/en/,NA
+Dublin Institute for Advanced Studies,dias,Dublin Institute for Advanced Studies,EUROPE,IRL,IE-D,NA,https://ror.org/051sx6d27,NA,NA,https://www.dias.ie/,NA

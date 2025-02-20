@@ -1,6 +1,6 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"Hochschule Hannover",2020,785.46,"10.3390/vetsci7010010",FALSE,"MDPI AG","Veterinary Sciences","2306-7381",NA,"2306-7381","2306-7381","https://creativecommons.org/licenses/by/4.0/",TRUE,"31968649","PMC7157569","ut:000565914800010",NA,TRUE
-"Hochschule Hannover",2020,768.62,"10.3390/ph13030035",FALSE,"MDPI AG","Pharmaceuticals","1424-8247",NA,"1424-8247","1424-8247","https://creativecommons.org/licenses/by/4.0/",TRUE,"32110980","PMC7151712","ut:000523707400015",NA,TRUE
-"Hochschule Hannover",2020,1326.18,"10.3390/pathogens9040288",FALSE,"MDPI AG","Pathogens","2076-0817",NA,"2076-0817","2076-0817","https://creativecommons.org/licenses/by/4.0/",TRUE,"32316092","PMC7238184","ut:000534051600008",NA,TRUE
-"Hochschule Hannover",2020,350,"10.12924/of2020.06010013",FALSE,"Librello","Organic Farming","2297-6485",NA,"2297-6485","2297-6485",NA,TRUE,NA,NA,NA,NA,TRUE
-"Hochschule Hannover",2020,1260.08,"10.3390/ani10112185",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"33266438","PMC7700458","ut:000592768900001",NA,TRUE
+"HS Hannover",2020,785.46,"10.3390/vetsci7010010",FALSE,"MDPI AG","Veterinary Sciences","2306-7381",NA,"2306-7381","2306-7381","https://creativecommons.org/licenses/by/4.0/",TRUE,"31968649","PMC7157569","ut:000565914800010",NA,TRUE
+"HS Hannover",2020,768.62,"10.3390/ph13030035",FALSE,"MDPI AG","Pharmaceuticals","1424-8247",NA,"1424-8247","1424-8247","https://creativecommons.org/licenses/by/4.0/",TRUE,"32110980","PMC7151712","ut:000523707400015",NA,TRUE
+"HS Hannover",2020,1326.18,"10.3390/pathogens9040288",FALSE,"MDPI AG","Pathogens","2076-0817",NA,"2076-0817","2076-0817","https://creativecommons.org/licenses/by/4.0/",TRUE,"32316092","PMC7238184","ut:000534051600008",NA,TRUE
+"HS Hannover",2020,350,"10.12924/of2020.06010013",FALSE,"Librello","Organic Farming","2297-6485",NA,"2297-6485","2297-6485",NA,TRUE,NA,NA,NA,NA,TRUE
+"HS Hannover",2020,1260.08,"10.3390/ani10112185",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"33266438","PMC7700458","ut:000592768900001",NA,TRUE
