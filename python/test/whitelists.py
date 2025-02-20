@@ -544,6 +544,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1536-4801": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Journal of Pediatric Gastroenterology and Nutrition (electronic)
 	"1733-8387": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria 
 	"1897-1695": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria (electronic)
+	"1365-2354": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care 
+	"0961-5423": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care (linking)
 
 }
 
@@ -919,6 +921,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1871-4757", # NanoEthics, Gold OA since 2023
     "0333-1024", # Cephalalgia, Gold OA since 2023
     "0001-0782", # Communications of the ACM, Gold OA since 2024
+    "1365-2354", # European Journal of Cancer Care, Gold OA since 2023
+    "0961-5423", # European Journal of Cancer Care, Gold OA since 2023 (linking)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
