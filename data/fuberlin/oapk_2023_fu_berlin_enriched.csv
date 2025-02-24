@@ -1,50 +1,50 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"FU Berlin",2023,2141.77,"10.3390/su15032221",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FU Berlin",2023,1927.6,"10.3390/cimb45010051",FALSE,"MDPI AG","Current Issues in Molecular Biology","1467-3045",NA,"1467-3045","1467-3037","https://creativecommons.org/licenses/by/4.0/",TRUE,"36661537","PMC9857935",NA,NA,TRUE
-"FU Berlin",2023,1927.6,"10.3390/children10020207",FALSE,"MDPI AG","Children","2227-9067",NA,"2227-9067","2227-9067","https://creativecommons.org/licenses/by/4.0/",TRUE,"36832336","PMC9954900",NA,NA,TRUE
-"FU Berlin",2023,1903.8,"10.3390/antibiotics12020294",FALSE,"MDPI AG","Antibiotics","2079-6382",NA,"2079-6382","2079-6382","https://creativecommons.org/licenses/by/4.0/",TRUE,"36830204","PMC9952360",NA,NA,TRUE
-"FU Berlin",2023,1613.03,"10.3390/soilsystems7010013",FALSE,"MDPI AG","Soil Systems","2571-8789",NA,"2571-8789","2571-8789","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2389.69,"10.3390/ijerph20043500",FALSE,"MDPI AG","International Journal of Environmental Research and Public Health","1660-4601",NA,"1660-4601","1660-4601","https://creativecommons.org/licenses/by/4.0/",TRUE,"36834196","PMC9960269",NA,NA,FALSE
-"FU Berlin",2023,1655.81,"10.3390/ph16030464",FALSE,"MDPI AG","Pharmaceuticals","1424-8247",NA,"1424-8247","1424-8247","https://creativecommons.org/licenses/by/4.0/",TRUE,"36986563","PMC10051286",NA,NA,TRUE
-"FU Berlin",2023,1283.86,"10.3390/molecules28073077",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"37049840","PMC10096450",NA,NA,TRUE
-"FU Berlin",2023,1956.88,"10.3390/ani13081352",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"37106915","PMC10135324",NA,NA,TRUE
-"FU Berlin",2023,1328.74,"10.3390/en16073270",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2174.31,"10.3390/brainsci13050702",FALSE,"MDPI AG","Brain Sciences","2076-3425",NA,"2076-3425","2076-3425","https://creativecommons.org/licenses/by/4.0/",TRUE,"37239174","PMC10216694",NA,NA,TRUE
-"FU Berlin",2023,2065.6,"10.3390/vetsci10050314",FALSE,"MDPI AG","Veterinary Sciences","2306-7381",NA,"2306-7381","2306-7381","https://creativecommons.org/licenses/by/4.0/",TRUE,"37235397","PMC10224474",NA,NA,TRUE
-"FU Berlin",2023,2150.15,"10.3390/w15091707",FALSE,"MDPI AG","Water","2073-4441",NA,"2073-4441","2073-4441","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FU Berlin",2023,1981.05,"10.3390/ani13101670",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"37238102","PMC10215937",NA,NA,TRUE
-"FU Berlin",2023,2445.75,"10.3390/ijms24108679",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"37240030","PMC10218185",NA,NA,FALSE
-"FU Berlin",2023,1076.13,"10.3390/su15118861",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"FU Berlin",2023,2421.29,"10.3390/su15119121",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1974.29,"10.3390/ani13121984",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"37370494","PMC10295046",NA,NA,TRUE
 "FU Berlin",2023,2193.66,"10.3390/separations10070368",FALSE,"MDPI AG","Separations","2297-8739",NA,"2297-8739","2297-8739","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2413.02,"10.3390/su15129463",FALSE,"MDPI AG","Sustainability","2071-1050",NA,"2071-1050","2071-1050","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1401.5,"10.3390/ijms241310464",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"37445646","PMC10341450",NA,NA,FALSE
-"FU Berlin",2023,1974.29,"10.3390/ani13121974",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"37370484","PMC10295209",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1608.58,"10.3390/molecules28145421",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"37513293","PMC10385047",NA,NA,TRUE
 "FU Berlin",2023,2227.26,"10.3390/ani13162558",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"37627348","PMC10451617",NA,NA,TRUE
 "FU Berlin",2023,2351,"10.3390/separations10080427",FALSE,"MDPI AG","Separations","2297-8739",NA,"2297-8739","2297-8739","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2389.13,"10.3390/app13148275",FALSE,"MDPI AG","Applied Sciences","2076-3417",NA,"2076-3417","2076-3417","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,623.46,"10.3390/journalmedia4030062",FALSE,"MDPI AG","Journalism and Media","2673-5172",NA,"2673-5172","2673-5172","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2406.58,"10.3390/cells12182248",FALSE,"MDPI AG","Cells","2073-4409",NA,"2073-4409","2073-4409","https://creativecommons.org/licenses/by/4.0/",TRUE,"37759474","PMC10527734",NA,NA,TRUE
-"FU Berlin",2023,2244.48,"10.3390/cimb45090451",FALSE,"MDPI AG","Current Issues in Molecular Biology","1467-3045",NA,"1467-3045","1467-3037","https://creativecommons.org/licenses/by/4.0/",TRUE,"37754235","PMC10527876",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1614.35,"10.5194/egqsj-72-37-2023",FALSE,"Copernicus GmbH","E&G Quaternary Science Journal","2199-9090",NA,"2199-9090","0424-7116","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2023,2289.83,"10.5194/amt-16-3437-2023",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2023,1308.48,"10.5194/nhess-23-2737-2023",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","1561-8633","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2023,2071.75,"10.5194/se-14-333-2023",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","1869-9529","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2023,2265.76,"10.5194/amt-16-3101-2023",FALSE,"Copernicus GmbH","Atmospheric Measurement Techniques","1867-8548",NA,"1867-8548","1867-1381","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2003.12,"10.1371/journal.pone.0277609",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"36374923","PMC9662725",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1923.92,"10.1371/journal.pone.0280543",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"36724183","PMC9891517",NA,NA,TRUE
 "FU Berlin",2023,1923.92,"10.1371/journal.pone.0281387",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"36920983","PMC10016721",NA,NA,TRUE
-"FU Berlin",2023,1864.23,"10.1371/journal.pone.0280759",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"36730348","PMC9894457",NA,NA,TRUE
-"FU Berlin",2023,1923.92,"10.1371/journal.pone.0284271",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37040392","PMC10089352",NA,NA,TRUE
-"FU Berlin",2023,1923.92,"10.1371/journal.pone.0284570",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37163464","PMC10171673",NA,NA,TRUE
-"FU Berlin",2023,1864.23,"10.1371/journal.pone.0283699",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"36996059","PMC10062664",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,2003.12,"10.1371/journal.pone.0286117",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37220123","PMC10204981",NA,NA,TRUE
 "FU Berlin",2023,2003.12,"10.1371/journal.pone.0283371",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37023045","PMC10079036",NA,NA,TRUE
 "FU Berlin",2023,2003.12,"10.1371/journal.pone.0281521",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37319233","PMC10270609",NA,NA,TRUE
 "FU Berlin",2023,5760.75,"10.1371/journal.pbio.3002186",FALSE,"Public Library of Science (PLoS)","PLOS Biology","1545-7885",NA,"1545-7885","1544-9173","http://creativecommons.org/licenses/by/4.0/",TRUE,"37561817","PMC10414762",NA,NA,TRUE
-"FU Berlin",2023,1942.08,"10.26508/lsa.202201826",FALSE,"Life Science Alliance, LLC","Life Science Alliance","2575-1077",NA,"2575-1077","2575-1077","https://creativecommons.org/licenses/by/4.0/",TRUE,"36543542","PMC9772828",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1740.68,"10.1038/s41598-023-30641-9",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"36882427","PMC9992384",NA,NA,TRUE
 "FU Berlin",2023,2773.8,"10.1038/s42003-022-04388-4",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"36635368","PMC9837045",NA,NA,TRUE
 "FU Berlin",2023,1809.42,"10.1186/s12985-023-01975-7",FALSE,"Springer Nature","Virology Journal","1743-422X",NA,"1743-422X","1743-422X","https://creativecommons.org/licenses/by/4.0",TRUE,"36707837","PMC9881377",NA,NA,TRUE
@@ -53,28 +53,28 @@
 "FU Berlin",2023,1809.42,"10.1186/s12913-023-09120-4",FALSE,"Springer Nature","BMC Health Services Research","1472-6963",NA,"1472-6963","1472-6963","https://creativecommons.org/licenses/by/4.0",TRUE,"36829131","PMC9960423",NA,NA,TRUE
 "FU Berlin",2023,2870.88,"10.1038/s42003-023-04587-7",FALSE,"Springer Nature","Communications Biology","2399-3642",NA,"2399-3642","2399-3642","https://creativecommons.org/licenses/by/4.0",TRUE,"36859713","PMC9977864",NA,NA,TRUE
 "FU Berlin",2023,1740.68,"10.1038/s41598-023-29098-7",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"36739319","PMC9899240",NA,NA,TRUE
-"FU Berlin",2023,2310.03,"10.3389/fpara.2023.1197956",FALSE,"Frontiers Media SA","Frontiers in Parasitology","2813-2424",NA,"2813-2424","2813-2424","https://creativecommons.org/licenses/by/4.0/",TRUE,"39816832","PMC11731630",NA,NA,TRUE
-"FU Berlin",2023,1594.6,"10.1016/j.xpro.2023.102343",FALSE,"Elsevier BV","STAR Protocols","2666-1667","2666-1667",NA,"2666-1667","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37270781","PMC10276148",NA,NA,TRUE
-"FU Berlin",2023,535.5,"10.22331/q-2023-05-15-1005",FALSE,"Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften","Quantum","2521-327X",NA,"2521-327X","2521-327X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1368.19,"10.3389/fanim.2023.1137562",FALSE,"Frontiers Media SA","Frontiers in Animal Science","2673-6225",NA,"2673-6225","2673-6225","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2380,"10.1016/j.nicl.2023.103401",FALSE,"Elsevier BV","NeuroImage: Clinical","2213-1582","2213-1582",NA,"2213-1582","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37060626","PMC10133876",NA,NA,TRUE
-"FU Berlin",2023,2327.47,"10.1128/spectrum.00764-23",FALSE,"American Society for Microbiology","Microbiology Spectrum","2165-0497",NA,"2165-0497","2165-0497","https://creativecommons.org/licenses/by/4.0/",TRUE,"36926973","PMC10100985",NA,NA,TRUE
-"FU Berlin",2023,1880.2,"10.1016/j.jik.2023.100369",FALSE,"Elsevier BV","Journal of Innovation & Knowledge","2444-569X","2444-569X",NA,"2444-569X","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1664.49,"10.3168/jds.2022-22387",FALSE,"American Dairy Science Association","Journal of Dairy Science","0022-0302","0022-0302",NA,"0022-0302","http://creativecommons.org/licenses/by/4.0/",TRUE,"36907757",NA,NA,NA,TRUE
-"FU Berlin",2023,1356.6,"10.1016/j.ijedro.2023.100238",FALSE,"Elsevier BV","International Journal of Educational Research Open","2666-3740","2666-3740",NA,"2666-3740","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,960.92,"10.3897/neobiota.83.97647",FALSE,"Pensoft Publishers","NeoBiota","1314-2488","1619-0033","1314-2488","1314-2488","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,3228.02,"10.3389/fpubh.2022.1067038",FALSE,"Frontiers Media SA","Frontiers in Public Health","2296-2565",NA,"2296-2565","2296-2565","https://creativecommons.org/licenses/by/4.0/",TRUE,"36937827","PMC10017861",NA,NA,TRUE
-"FU Berlin",2023,2383.26,"10.3389/fmicb.2023.1180128",FALSE,"Frontiers Media SA","Frontiers in Microbiology","1664-302X",NA,"1664-302X","1664-302X","https://creativecommons.org/licenses/by/4.0/",TRUE,"37333642","PMC10272739",NA,NA,TRUE
-"FU Berlin",2023,2380,"10.1093/gigascience/giad017",FALSE,"Oxford University Press (OUP)","GigaScience","2047-217X",NA,"2047-217X","2047-217X","https://creativecommons.org/licenses/by/4.0/",TRUE,"36994872","PMC10061425",NA,NA,TRUE
-"FU Berlin",2023,2197.05,"10.3389/fevo.2023.995133",FALSE,"Frontiers Media SA","Frontiers in Ecology and Evolution","2296-701X",NA,"2296-701X","2296-701X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2178.93,"10.3389/fpsyg.2023.974117",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"36844316","PMC9947787",NA,NA,TRUE
-"FU Berlin",2023,2185.39,"10.3389/fpubh.2023.1070272",FALSE,"Frontiers Media SA","Frontiers in Public Health","2296-2565",NA,"2296-2565","2296-2565","https://creativecommons.org/licenses/by/4.0/",TRUE,"36860382","PMC9969553",NA,NA,TRUE
-"FU Berlin",2023,1263.29,"10.3389/fpos.2023.1085149",FALSE,"Frontiers Media SA","Frontiers in Political Science","2673-3145",NA,"2673-3145","2673-3145","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2184.17,"10.3389/fnbeh.2023.1070957",FALSE,"Frontiers Media SA","Frontiers in Behavioral Neuroscience","1662-5153",NA,"1662-5153","1662-5153","https://creativecommons.org/licenses/by/4.0/",TRUE,"36950065","PMC10025308",NA,NA,TRUE
-"FU Berlin",2023,2195.76,"10.3389/fpsyg.2023.1097239",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"36949911","PMC10025327",NA,NA,TRUE
-"FU Berlin",2023,2235.94,"10.3389/fpsyt.2023.1130199",FALSE,"Frontiers Media SA","Frontiers in Psychiatry","1664-0640",NA,"1664-0640","1664-0640","https://creativecommons.org/licenses/by/4.0/",TRUE,"37009112","PMC10061544",NA,NA,TRUE
-"FU Berlin",2023,2217.65,"10.3389/fmars.2023.1082109",FALSE,"Frontiers Media SA","Frontiers in Marine Science","2296-7745",NA,"2296-7745","2296-7745","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2228.75,"10.3389/fpsyg.2023.1129359",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"37139001","PMC10150701",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1263.05,"10.3389/feduc.2023.1129407",FALSE,"Frontiers Media SA","Frontiers in Education","2504-284X",NA,"2504-284X","2504-284X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2023,949.02,"10.1080/19331681.2023.2250779",TRUE,"Informa UK Limited","Journal of Information Technology & Politics","1933-1681","1933-1681","1933-169X","1933-169X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FU Berlin",2023,861.26,"10.1080/1369118x.2023.2246536",TRUE,"Informa UK Limited","Information, Communication & Society","1369-118X","1369-118X","1468-4462","1369-118X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -110,34 +110,34 @@
 "FU Berlin",2023,1658.64,"10.1186/s12884-023-05680-9",FALSE,"Springer Nature","BMC Pregnancy and Childbirth","1471-2393",NA,"1471-2393","1471-2393","https://creativecommons.org/licenses/by/4.0",TRUE,"37259041","PMC10230750",NA,NA,TRUE
 "FU Berlin",2023,953.49,"10.1057/s41599-023-01848-y",FALSE,"Springer Nature","Humanities and Social Sciences Communications","2662-9992",NA,"2662-9992","2662-9992","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2023,1046.62,"10.1186/s13705-023-00399-z",FALSE,"Springer Nature","Energy, Sustainability and Society","2192-0567",NA,"2192-0567","2192-0567","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2219.98,"10.3390/ani13193110",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"37835716","PMC10572052",NA,NA,TRUE
-"FU Berlin",2023,1788.31,"10.3390/pharmaceutics15102452",FALSE,"MDPI AG","Pharmaceutics","1999-4923",NA,"1999-4923","1999-4923","https://creativecommons.org/licenses/by/4.0/",TRUE,"37896212","PMC10610414",NA,NA,TRUE
-"FU Berlin",2023,2219.98,"10.3390/molecules28207206",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"37894685","PMC10609612",NA,NA,TRUE
-"FU Berlin",2023,2355.64,"10.3390/antibiotics12111582",FALSE,"MDPI AG","Antibiotics","2079-6382",NA,"2079-6382","2079-6382","https://creativecommons.org/licenses/by/4.0/",TRUE,"37998784","PMC10668698",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,2266.51,"10.3390/ani13233681",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"38067032","PMC10705170",NA,NA,TRUE
-"FU Berlin",2023,2266.51,"10.3390/ani13223432",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"38003050","PMC10668868",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,2266.51,"10.3390/ani13233593",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"38066944","PMC10705144",NA,NA,TRUE
 "FU Berlin",2023,2430.21,"10.3390/microorganisms11122881",FALSE,"MDPI AG","Microorganisms","2076-2607",NA,"2076-2607","2076-2607","https://creativecommons.org/licenses/by/4.0/",TRUE,"38138024","PMC10746044",NA,NA,TRUE
 "FU Berlin",2023,2140.6,"10.3390/molecules28237783",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"38067513","PMC10707847",NA,NA,TRUE
-"FU Berlin",2023,2142,"10.5194/jm-42-117-2023",FALSE,"Copernicus GmbH","Journal of Micropalaeontology","2041-4978",NA,"2041-4978","0262-821X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1472.62,"10.1080/15592324.2023.2300239",FALSE,"Informa UK Limited","Plant Signaling & Behavior","1559-2324",NA,"1559-2324","1559-2316","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"38170666","PMC10766390",NA,NA,TRUE
-"FU Berlin",2023,2097.53,"10.1371/journal.pone.0290554",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37616234","PMC10449214",NA,NA,TRUE
-"FU Berlin",2023,2710.17,"10.1371/journal.pntd.0011554",FALSE,"Public Library of Science (PLoS)","PLOS Neglected Tropical Diseases","1935-2735",NA,"1935-2735","1935-2727","http://creativecommons.org/licenses/by/4.0/",TRUE,"37578991","PMC10449191",NA,NA,TRUE
-"FU Berlin",2023,2100.17,"10.1371/journal.pone.0290181",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37906582","PMC10617709",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,2100.17,"10.1371/journal.pone.0292954",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"38064464","PMC10707568",NA,NA,TRUE
-"FU Berlin",2023,2100.17,"10.1371/journal.pone.0292969",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37851658","PMC10584153",NA,NA,TRUE
-"FU Berlin",2023,1904,"10.5194/cp-19-835-2023",FALSE,"Copernicus GmbH","Climate of the Past","1814-9332",NA,"1814-9332","1814-9324","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1282.82,"10.5194/se-14-1053-2023",FALSE,"Copernicus GmbH","Solid Earth","1869-9529",NA,"1869-9529","1869-9529","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1740.97,"10.5194/nhess-23-3703-2023",FALSE,"Copernicus GmbH","Natural Hazards and Earth System Sciences","1684-9981",NA,"1684-9981","1561-8633","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2262.99,"10.3389/fvets.2023.1305873",FALSE,"Frontiers Media SA","Frontiers in Veterinary Science","2297-1769",NA,"2297-1769","2297-1769","https://creativecommons.org/licenses/by/4.0/",TRUE,"38234983","PMC10791836",NA,NA,TRUE
-"FU Berlin",2023,2262.99,"10.3389/fvets.2023.1305868",FALSE,"Frontiers Media SA","Frontiers in Veterinary Science","2297-1769",NA,"2297-1769","2297-1769","https://creativecommons.org/licenses/by/4.0/",TRUE,"38149295","PMC10750369",NA,NA,TRUE
-"FU Berlin",2023,1392.3,"10.3897/mbmg.7.110194",FALSE,"Pensoft Publishers","Metabarcoding and Metagenomics","2534-9708",NA,"2534-9708","2534-9708","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,730.97,"10.1177/20563051231199430",FALSE,"SAGE Publications","Social Media + Society","2056-3051","2056-3051","2056-3051","2056-3051","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,535.5,"10.22331/q-2023-10-24-1153",FALSE,"Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften","Quantum","2521-327X",NA,"2521-327X","2521-327X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1744.23,"10.1162/imag_a_00033",FALSE,"MIT Press","Imaging Neuroscience","2837-6056",NA,"2837-6056","2837-6056","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1130.5,"10.2376/1439-0299-2023-8",FALSE,"Schlütersche Verlagsgesellschaft","Berliner und Münchener Tierärztliche Wochenschrift","0005-9366",NA,NA,"0005-9366",NA,FALSE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2180.79,"10.1093/nar/gkad703",FALSE,"Oxford University Press (OUP)","Nucleic Acids Research","0305-1048","0305-1048","1362-4962","0305-1048","https://creativecommons.org/licenses/by/4.0/",TRUE,"37697438","PMC10602877",NA,NA,TRUE
-"FU Berlin",2023,1693.88,"10.1063/5.0161366",FALSE,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","2158-3226",NA,TRUE,NA,NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,2741.75,"10.3390/ani13243756",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"38136794","PMC10740880",NA,NA,TRUE
 "FU Berlin",2023,2741.75,"10.3390/ani13243836",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"38136873","PMC10740453",NA,NA,TRUE
 "FU Berlin",2023,2741.75,"10.3390/ani13243776",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"38136813","PMC10741069",NA,NA,TRUE
@@ -145,36 +145,36 @@
 "FU Berlin",2023,2219.35,"10.3390/ijms25010276",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"38203447","PMC10779016",NA,NA,FALSE
 "FU Berlin",2023,2787.43,"10.3390/molecules29010109",FALSE,"MDPI AG","Molecules","1420-3049",NA,"1420-3049","1420-3049","https://creativecommons.org/licenses/by/4.0/",TRUE,"38202692","PMC10780132",NA,NA,TRUE
 "FU Berlin",2023,2056.31,"10.3390/microorganisms12010098",FALSE,"MDPI AG","Microorganisms","2076-2607",NA,"2076-2607","2076-2607","https://creativecommons.org/licenses/by/4.0/",TRUE,"38257925","PMC10820294",NA,NA,TRUE
-"FU Berlin",2023,1950.98,"10.3390/ani12233315",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"36496836","PMC9737035",NA,NA,TRUE
-"FU Berlin",2023,1517.43,"10.3390/soc12060179",FALSE,"MDPI AG","Societies","2075-4698",NA,"2075-4698","2075-4698","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1732.06,"10.3390/nano13020229",FALSE,"MDPI AG","Nanomaterials","2079-4991",NA,"2079-4991","2079-4991","https://creativecommons.org/licenses/by/4.0/",TRUE,"36677982","PMC9864297",NA,NA,TRUE
-"FU Berlin",2023,1948.57,"10.3390/insects14010005",FALSE,"MDPI AG","Insects","2075-4450",NA,"2075-4450","2075-4450","https://creativecommons.org/licenses/by/4.0/",TRUE,"36661934","PMC9865934",NA,NA,TRUE
-"FU Berlin",2023,1950.98,"10.3390/ani12233391",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"36496912","PMC9740978",NA,NA,TRUE
-"FU Berlin",2023,1888.42,"10.3390/ijms24010354",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"36613799","PMC9820478",NA,NA,FALSE
-"FU Berlin",2023,1515.55,"10.3390/educsci13010056",FALSE,"MDPI AG","Education Sciences","2227-7102",NA,"2227-7102","2227-7102","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1948.57,"10.3390/ani12243580",FALSE,"MDPI AG","Animals","2076-2615",NA,"2076-2615","2076-2615","https://creativecommons.org/licenses/by/4.0/",TRUE,"36552500","PMC9774246",NA,NA,TRUE
-"FU Berlin",2023,4093.6,"10.1002/psp4.12937",FALSE,"Wiley-Blackwell","CPT: Pharmacometrics & Systems Pharmacology","2163-8306","2163-8306","2163-8306","2163-8306","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"36782356","PMC10681433",NA,NA,TRUE
-"FU Berlin",2023,3351.04,"10.1002/hbm.26303",FALSE,"Wiley-Blackwell","Human Brain Mapping","1065-9471","1065-9471","1097-0193","1065-9471","http://creativecommons.org/licenses/by/4.0/",TRUE,"37067073","PMC10203815",NA,NA,TRUE
-"FU Berlin",2023,4569.6,"10.15252/emmm.202217157",FALSE,"EMBO","EMBO Molecular Medicine","1757-4676","1757-4676","1757-4684","1757-4676","http://creativecommons.org/licenses/by/4.0/",TRUE,"36946385","PMC10165353",NA,NA,TRUE
-"FU Berlin",2023,1485.12,"10.1029/2022ea002807",FALSE,"American Geophysical Union (AGU)","Earth and Space Science","2333-5084","2333-5084","2333-5084","2333-5084","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2475.2,"10.1002/admi.202300165",FALSE,"Wiley-Blackwell","Advanced Materials Interfaces","2196-7350","2196-7350","2196-7350","2196-7350","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2189.6,"10.1029/2022gc010830",FALSE,"American Geophysical Union (AGU)","Geochemistry, Geophysics, Geosystems","1525-2027","1525-2027","1525-2027","1525-2027","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1485.12,"10.1029/2023ea003045",FALSE,"American Geophysical Union (AGU)","Earth and Space Science","2333-5084","2333-5084","2333-5084","2333-5084","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,3351.04,"10.1002/hbm.26482",FALSE,"Wiley-Blackwell","Human Brain Mapping","1065-9471","1065-9471","1097-0193","1065-9471","http://creativecommons.org/licenses/by/4.0/",TRUE,"37721377","PMC10619418",NA,NA,TRUE
-"FU Berlin",2023,1713.6,"10.1111/jvim.16611",FALSE,"Wiley-Blackwell","Journal of Veterinary Internal Medicine","0891-6640","0891-6640","1939-1676","0891-6640","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"36629833","PMC9889677",NA,NA,TRUE
-"FU Berlin",2023,2513.28,"10.1002/vms3.1276",FALSE,"Wiley-Blackwell","Veterinary Medicine and Science","2053-1095","2053-1095","2053-1095","2053-1095","http://creativecommons.org/licenses/by/4.0/",TRUE,"37725348","PMC10650360",NA,NA,TRUE
-"FU Berlin",2023,2018.24,"10.1002/pan3.10535",FALSE,"Wiley-Blackwell","People and Nature","2575-8314","2575-8314","2575-8314","2575-8314","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,1732.64,"10.1002/asl.1187",FALSE,"Wiley-Blackwell","Atmospheric Science Letters","1530-261X","1530-261X","1530-261X","1530-261X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"FU Berlin",2023,2001.37,"10.1038/s41598-022-21766-4",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"36271279","PMC9586964",NA,NA,TRUE
-"FU Berlin",2023,2001.37,"10.1038/s41598-022-26260-5",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"36566238","PMC9789975",NA,NA,TRUE
-"FU Berlin",2023,1044.44,"10.1186/s40359-022-00969-4",FALSE,"Springer Nature","BMC Psychology","2050-7283",NA,"2050-7283","2050-7283","https://creativecommons.org/licenses/by/4.0",TRUE,"36376939","PMC9664619",NA,NA,TRUE
-"FU Berlin",2023,5579.37,"10.1038/s41467-022-34603-z",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"36402768","PMC9675806",NA,NA,TRUE
-"FU Berlin",2023,1096.29,"10.1057/s41599-022-01480-2",FALSE,"Springer Nature","Humanities and Social Sciences Communications","2662-9992",NA,"2662-9992","2662-9992","https://creativecommons.org/licenses/by/4.0",TRUE,"36568508","PMC9759043",NA,NA,TRUE
-"FU Berlin",2023,5579.37,"10.1038/s41467-022-34158-z",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"36329011","PMC9633598",NA,NA,TRUE
-"FU Berlin",2023,3232.78,"10.1186/s40168-022-01399-5",FALSE,"Springer Nature","Microbiome","2049-2618",NA,"2049-2618","2049-2618","https://creativecommons.org/licenses/by/4.0",TRUE,"36527132","PMC9756626",NA,NA,TRUE
-"FU Berlin",2023,2001.37,"10.1038/s41598-022-25624-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"36513687","PMC9747970",NA,NA,TRUE
-"FU Berlin",2023,2001.37,"10.1038/s41597-022-01822-4",FALSE,"Springer Nature","Scientific Data","2052-4463",NA,"2052-4463","2052-4463","https://creativecommons.org/licenses/by/4.0",TRUE,"36418335","PMC9684144",NA,NA,TRUE
-"FU Berlin",2023,2001.37,"10.1038/s41598-022-25775-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"36517557","PMC9751113",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1060,"10.1038/s44168-023-00062-5",FALSE,"Springer Nature","npj Climate Action","2731-9814",NA,"2731-9814","2731-9814","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "FU Berlin",2023,4852.64,"10.1038/s41467-023-40378-8",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"37582954","PMC10427627",NA,NA,TRUE
 "FU Berlin",2023,1740.68,"10.1038/s41598-023-42596-y",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"37714941","PMC10504342",NA,NA,TRUE
@@ -183,11 +183,11 @@
 "FU Berlin",2023,4852.64,"10.1038/s41467-023-39381-w",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"37407571","PMC10322910",NA,NA,TRUE
 "FU Berlin",2023,4852.64,"10.1038/s41467-023-39951-y",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"37500621","PMC10374558",NA,NA,TRUE
 "FU Berlin",2023,4852.64,"10.1038/s41467-023-38413-9",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"37393275","PMC10314952",NA,NA,TRUE
-"FU Berlin",2023,2846.48,"10.1007/s10911-023-09543-z",FALSE,"Springer Nature","Journal of Mammary Gland Biology and Neoplasia","1083-3021","1083-3021","1573-7039","1083-3021","https://creativecommons.org/licenses/by/4.0",TRUE,"37402051","PMC10319705",NA,NA,FALSE
-"FU Berlin",2023,5774.64,"10.1038/s41467-023-39382-9",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"37598209","PMC10439944",NA,NA,TRUE
-"FU Berlin",2023,5774.64,"10.1038/s41467-023-41569-z",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"37758694","PMC10533548",NA,NA,TRUE
-"FU Berlin",2023,1427.73,"10.1186/s40104-023-00913-5",FALSE,"Springer Nature","Journal of Animal Science and Biotechnology","2049-1891",NA,"2049-1891","1674-9782","https://creativecommons.org/licenses/by/4.0",TRUE,"37661283","PMC10476431",NA,NA,TRUE
-"FU Berlin",2023,2071.41,"10.1038/s41598-023-42527-x",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"37709826","PMC10502030",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,2440.27,"10.1002/ange.202307091",TRUE,"Wiley-Blackwell","Angewandte Chemie","0044-8249","0044-8249","1521-3757","0044-8249","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "FU Berlin",2023,2450.98,"10.1038/s43705-023-00319-4",FALSE,"Oxford University Press (OUP)","ISME Communications","2730-6151",NA,"2730-6151","2730-6151","https://creativecommons.org/licenses/by/4.0",TRUE,"37857858","PMC10587186",NA,NA,TRUE
 "FU Berlin",2023,1601.1,"10.1186/s40813-023-00343-9",FALSE,"Springer Nature","Porcine Health Management","2055-5660",NA,"2055-5660","2055-5660","https://creativecommons.org/licenses/by/4.0",TRUE,"37885038","PMC10601234",NA,NA,TRUE
@@ -198,9 +198,9 @@
 "FU Berlin",2023,2071.41,"10.1038/s41598-023-49361-1",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"38086913","PMC10716419",NA,NA,TRUE
 "FU Berlin",2023,2071.41,"10.1038/s41598-023-45945-z",FALSE,"Springer Nature","Scientific Reports","2045-2322",NA,"2045-2322","2045-2322","https://creativecommons.org/licenses/by/4.0",TRUE,"37919373","PMC10622425",NA,NA,TRUE
 "FU Berlin",2023,1923.92,"10.1371/journal.pone.0281521",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37319233","PMC10270609",NA,NA,TRUE
-"FU Berlin",2023,2122.73,"10.1371/journal.pone.0292634",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"37797054","PMC10553836",NA,NA,TRUE
-"FU Berlin",2023,2122.73,"10.1371/journal.pone.0294933",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"38117832","PMC10732452",NA,NA,TRUE
-"FU Berlin",2023,1984.22,"10.1371/journal.pone.0295999",FALSE,"Public Library of Science (PLoS)","PLOS ONE","1932-6203",NA,"1932-6203","1932-6203","http://creativecommons.org/licenses/by/4.0/",TRUE,"38134211","PMC10745222",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "FU Berlin",2023,1538.67,"10.1002/ece3.11639",FALSE,"Wiley-Blackwell","Ecology and Evolution","2045-7758","2045-7758","2045-7758","2045-7758","http://creativecommons.org/licenses/by/4.0/",TRUE,"38962026","PMC11221068",NA,NA,TRUE
 "FU Berlin",2023,2637.04,"10.1002/vms3.1409",FALSE,"Wiley-Blackwell","Veterinary Medicine and Science","2053-1095","2053-1095","2053-1095","2053-1095","http://creativecommons.org/licenses/by/4.0/",TRUE,"38516822","PMC10958401",NA,NA,TRUE
 "FU Berlin",2023,4883.76,"10.1002/advs.202308176",FALSE,"Wiley-Blackwell","Advanced Science","2198-3844","2198-3844","2198-3844","2198-3844","http://creativecommons.org/licenses/by/4.0/",TRUE,"39024521","PMC11425281",NA,NA,TRUE
