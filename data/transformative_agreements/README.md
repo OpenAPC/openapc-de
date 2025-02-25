@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 125,996 articles, published at 419 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 126,036 articles, published at 419 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 125,996 articles, published at 419 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    13628|
-|DEAL Wiley Germany                               |    12149|
+|DEAL Springer Nature Germany                     |    13645|
+|DEAL Wiley Germany                               |    12172|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -327,6 +327,7 @@ This dataset contains information on 125,996 articles, published at 419 institut
 |Nottingham Trent University                                                                                                                        |      154|
 |Linnaeus University                                                                                                                                |      153|
 |University of Applied Sciences and Arts Northwestern Switzerland                                                                                   |      153|
+|GFZ-Potsdam                                                                                                                                        |      152|
 |University of Strathclyde                                                                                                                          |      151|
 |University of Leicester                                                                                                                            |      146|
 |University of Applied Sciences and Arts of Southern Switzerland                                                                                    |      144|
@@ -344,7 +345,6 @@ This dataset contains information on 125,996 articles, published at 419 institut
 |Salzburg U                                                                                                                                         |      119|
 |Konstanz U                                                                                                                                         |      118|
 |University of Dundee                                                                                                                               |      115|
-|GFZ-Potsdam                                                                                                                                        |      112|
 |Scuola Normale Superiore                                                                                                                           |      110|
 |Northumbria University                                                                                                                             |      109|
 |University of Surrey                                                                                                                               |      107|
