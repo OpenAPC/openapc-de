@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 126,241 articles, published at 419 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 126,292 articles, published at 419 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 126,241 articles, published at 419 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    13759|
-|DEAL Wiley Germany                               |    12244|
+|DEAL Springer Nature Germany                     |    13795|
+|DEAL Wiley Germany                               |    12259|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -382,6 +382,7 @@ This dataset contains information on 126,241 articles, published at 419 institut
 |University of Veterinary Medicine Vienna                                                                                                           |       59|
 |Aston University                                                                                                                                   |       58|
 |Mary Immaculate College                                                                                                                            |       57|
+|Trier U                                                                                                                                            |       57|
 |University of Lincoln                                                                                                                              |       57|
 |TU Clausthal                                                                                                                                       |       56|
 |TU Ilmenau                                                                                                                                         |       56|
@@ -512,7 +513,6 @@ This dataset contains information on 126,241 articles, published at 419 institut
 |Osnabrück U                                                                                                                                        |        6|
 |TH Brandenburg                                                                                                                                     |        6|
 |TH Wildau                                                                                                                                          |        6|
-|Trier U                                                                                                                                            |        6|
 |University of Roehampton                                                                                                                           |        6|
 |Finnish Food Authority                                                                                                                             |        5|
 |Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        5|
