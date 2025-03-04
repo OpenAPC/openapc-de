@@ -20,6 +20,7 @@ INS_STR = {
     "sn2020deal": "DEAL Springer Nature Germany",
     "wiley2019deal": "DEAL Wiley Germany",
     "els2023deal": "DEAL Elsevier Germany",
+    "rsc2021tib": "TIB RSC Agreement",
     "ov_hdr": "=== Overview: Contract group IDs ===\n\n",
     "ov_report": "{} has reported {} cost data for the {} period, total costs: {} €. (group_id: {})\n",
     "ov_merge_note": "NOTE: This group_id was merged during processing, meaning that it occured more than once.\n",
@@ -82,7 +83,7 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
     # Create a unified lookup structure. It contains all institution/period/agreement combos for which either at least one invoice group or new deal articles exist (or both).
     # Enrich the structure with possible existing old TA data afterwards.
     for group in invoice_groups:
-        if group["contract_id"] not in ["sn2020deal", "wiley2019deal", "els2023deal"]:
+        if group["contract_id"] not in ["sn2020deal", "wiley2019deal", "els2023deal", "rsc2021tib"]:
             continue
         group_id = group["group_id"]
         if group_id not in invoice_group_dict:
@@ -426,8 +427,26 @@ for article in articles:
                         "agreement": "DEAL Elsevier Germany",
                         "opt_out": "opt_out" if opt_out else "opt_in"
                     }
+            # Experimental: Apply EAPC principle to TU Berlin RSC agreement
+            # TODO: Parameters should be exported to a whitelist/lookup table to allow external control on which TAs to process
+            elif esac_id == "rsc2021tib" and institution == "TU Berlin":
+                if publication_level_costs:
+                    msg = 'Skipped a hybrid RSC record with publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
+                    logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
+                    continue
+                article["euro"] = article.get("contract_euro", 0)
+                opt_out = article["publication charge"] == 0.0
+                ins_name += "_RSC_" + period
+                if opt_out:
+                    ins_name += "_opt_out"
+                deal_data = {
+                    "period": period,
+                    "institution": institution,
+                    "agreement": "TIB RSC Agreement",
+                    "opt_out": "opt_out" if opt_out else "opt_in"
+                }
             else:
-                # Skip hybrid articles from contracts other than DEAL
+                # Skip hybrid articles from contracts other than DEAL/RSC
                 msg = 'Skipped a hybrid non-DEAL record ({}, {}, {}€, {}, {}, {}, {}))'
                 logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
                 continue
@@ -476,7 +495,7 @@ for source in [TA_FILE, WILEY_OPT_OUT_FILE, SPRINGER_OPT_OUT_FILE]:
             ta_doi_lookup[doi] = line
             if line["is_hybrid"] != "TRUE":
                 continue
-            if agreement not in ["DEAL Springer Nature Germany", "DEAL Wiley Germany", "DEAL Elsevier Germany"]:
+            if agreement not in ["DEAL Springer Nature Germany", "DEAL Wiley Germany", "DEAL Elsevier Germany", "TIB RSC Journals R&P - TU Berlin"]:
                 continue
             period = str(line["period"])
             if institution not in ta_deal_data:

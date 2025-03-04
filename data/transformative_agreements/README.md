@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 126,222 articles, published at 419 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 126,298 articles, published at 420 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 126,222 articles, published at 419 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    13759|
-|DEAL Wiley Germany                               |    12244|
+|DEAL Springer Nature Germany                     |    13800|
+|DEAL Wiley Germany                               |    12260|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -81,11 +81,11 @@ This dataset contains information on 126,222 articles, published at 419 institut
 |IReL RSC Agreement                               |      162|
 |Swiss Consortium ACS agreement                   |      138|
 |FinELib Wolters Kluwer Lippincott agreement      |      127|
+|TIB RSC Journals R&P - TU Berlin                 |      114|
 |CSIC-Taylor & Francis                            |      109|
 |QNL Springer Nature Agreement                    |      103|
 |IReL IOP Agreement                               |      102|
 |Swiss Consortium IEEE agreement                  |      100|
-|TIB RSC Journals R&P - TU Berlin                 |       95|
 |QNL Wiley Agreement                              |       92|
 |IReL RIA Agreement                               |       87|
 |QNL T&F Agreement                                |       85|
@@ -187,8 +187,8 @@ This dataset contains information on 126,222 articles, published at 419 institut
 |University of Jyväskylä                                                                                                                            |     1067|
 |Karolinska Institutet                                                                                                                              |     1061|
 |UCL                                                                                                                                                |     1022|
+|TU Berlin                                                                                                                                          |      997|
 |University of Galway                                                                                                                               |      982|
-|TU Berlin                                                                                                                                          |      978|
 |MPG                                                                                                                                                |      946|
 |University of Cambridge                                                                                                                            |      912|
 |University of Oxford                                                                                                                               |      883|
@@ -382,6 +382,7 @@ This dataset contains information on 126,222 articles, published at 419 institut
 |University of Veterinary Medicine Vienna                                                                                                           |       59|
 |Aston University                                                                                                                                   |       58|
 |Mary Immaculate College                                                                                                                            |       57|
+|Trier U                                                                                                                                            |       57|
 |University of Lincoln                                                                                                                              |       57|
 |TU Clausthal                                                                                                                                       |       56|
 |TU Ilmenau                                                                                                                                         |       56|
@@ -511,8 +512,8 @@ This dataset contains information on 126,222 articles, published at 419 institut
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                                                                                         |        6|
 |Osnabrück U                                                                                                                                        |        6|
 |TH Brandenburg                                                                                                                                     |        6|
+|TH Ingolstadt                                                                                                                                      |        6|
 |TH Wildau                                                                                                                                          |        6|
-|Trier U                                                                                                                                            |        6|
 |University of Roehampton                                                                                                                           |        6|
 |Finnish Food Authority                                                                                                                             |        5|
 |Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        5|
