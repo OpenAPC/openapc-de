@@ -546,7 +546,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1897-1695": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria (electronic)
 	"1365-2354": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care 
 	"0961-5423": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care (linking
-	"2641-5275": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Biomaterial Investigations in Dentistry 
+	"2641-5275": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Biomaterial Investigations in Dentistry
+	"1760-5393": ["CAIRN", "OpenEdition"], # Revue d'anthropologie des connaissances 
 
 }
 
@@ -925,6 +926,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1365-2354", # European Journal of Cancer Care, Gold OA since 2023
     "0961-5423", # European Journal of Cancer Care, Gold OA since 2023 (linking)
     "0891-6934", # Autoimmunity, Gold OA since 2023
+    "0018-442X", # HOMO, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
