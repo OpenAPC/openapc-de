@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 126,349 articles, published at 420 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 127,310 articles, published at 420 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 126,349 articles, published at 420 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    13827|
-|DEAL Wiley Germany                               |    12284|
+|DEAL Springer Nature Germany                     |    14288|
+|DEAL Wiley Germany                               |    12784|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -181,6 +181,7 @@ This dataset contains information on 126,349 articles, published at 420 institut
 |KIT                                                                                                                                                |     1374|
 |Milano U                                                                                                                                           |     1368|
 |University College Cork                                                                                                                            |     1317|
+|Friedrich-Schiller-Universität Jena                                                                                                                |     1242|
 |University of Eastern Finland                                                                                                                      |     1219|
 |Lund University                                                                                                                                    |     1177|
 |Bonn U                                                                                                                                             |     1124|
@@ -278,7 +279,6 @@ This dataset contains information on 126,349 articles, published at 420 institut
 |Eindhoven University of Technology                                                                                                                 |      283|
 |Erasmus University                                                                                                                                 |      283|
 |TU Wien                                                                                                                                            |      283|
-|Friedrich-Schiller-Universität Jena                                                                                                                |      281|
 |Fraunhofer-Gesellschaft                                                                                                                            |      280|
 |University of Vaasa                                                                                                                                |      280|
 |University of Newcastle                                                                                                                            |      275|
