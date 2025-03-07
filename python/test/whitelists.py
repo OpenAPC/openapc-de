@@ -927,6 +927,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0961-5423", # European Journal of Cancer Care, Gold OA since 2023 (linking)
     "0891-6934", # Autoimmunity, Gold OA since 2023
     "0018-442X", # HOMO, Gold OA since 2022
+    "0378-3820", # Fuel Processing Technology, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
