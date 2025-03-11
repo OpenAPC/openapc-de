@@ -929,6 +929,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0018-442X", # HOMO, Gold OA since 2022
     "0378-3820", # Fuel Processing Technology, Gold OA since 2024
     "2573-8348", # Cancer Reports, Gold OA since 2021
+    "1591-9528", # Clinical and Experimental Medicine, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
