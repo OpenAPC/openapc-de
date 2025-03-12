@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 127,484 articles, published at 420 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 127,681 articles, published at 421 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 127,484 articles, published at 420 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    14288|
-|DEAL Wiley Germany                               |    12784|
+|DEAL Springer Nature Germany                     |    14387|
+|DEAL Wiley Germany                               |    12882|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -307,6 +307,7 @@ This dataset contains information on 127,484 articles, published at 420 institut
 |Graz University of Technology                                                                                                                      |      202|
 |Örebro University                                                                                                                                  |      200|
 |University of Bath                                                                                                                                 |      199|
+|Stuttgart U                                                                                                                                        |      197|
 |Queen Mary, University of London                                                                                                                   |      192|
 |Maastricht University Medical Center (UMC+)                                                                                                        |      189|
 |FZJ - ZB                                                                                                                                           |      179|
