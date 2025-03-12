@@ -548,6 +548,8 @@ JOURNAL_OWNER_CHANGED = {
 	"0961-5423": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care (linking
 	"2641-5275": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Biomaterial Investigations in Dentistry
 	"1760-5393": ["CAIRN", "OpenEdition"], # Revue d'anthropologie des connaissances 
+	"2424-7723": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting 
+	"2424-8002": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting (electronic)
 
 }
 
