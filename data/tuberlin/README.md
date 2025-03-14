@@ -47,4 +47,4 @@ In March 2018, the central publication funds was introduced to fund Book Process
 ## Contact
 
 Website: https://www.tu.berlin/go5066/
-Contact: openaccess@ub.tu-berlin.de
+Contact: transformation@ub.tu-berlin.de 
