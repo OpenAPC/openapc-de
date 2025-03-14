@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |239,473 | 481,965,649    | 453 |
+| Articles         |239,473 | 481,965,661    | 453 |
 | Monographs       |2,068 | 13,579,287    | 80 |
 
 ## How to access the data?
@@ -788,9 +788,9 @@ The following institutions have contributed to OpenAPC so far:
 
 The article data set contains information on 239,473 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 453 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 481,965,649. The average payment was € 2,013 and the median was € 1,866.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 481,965,661. The average payment was € 2,013 and the median was € 1,866.
 
-176,179 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 320,634,317, including value-added tax; the average payment was € 1,820 (median =  € 1,712, SD = € 869).
+176,179 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 320,634,328, including value-added tax; the average payment was € 1,820 (median =  € 1,712, SD = € 869).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 63,294 articles in the data set were published in hybrid journals. Total expenditure amounts to 161,331,333 €; the average fee was € 2,549 (median =  € 2,500, SD = € 1,101).
 
@@ -824,8 +824,8 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2020   |      21,250|   1,716|     1,683|   0.2 -  8,906|           4,480|       2,493|         2,532|    16.6 -  7,416|
 |2021   |      26,023|   1,824|     1,791|  27.0 -  8,341|           3,485|       2,548|         2,506|    30.2 - 11,400|
 |2022   |      28,885|   2,100|     1,999|  12.4 - 11,175|           2,939|       2,871|         2,730|     2.1 - 14,607|
-|2023   |      20,118|   2,278|     2,153|  17.4 - 10,138|           2,711|       3,002|         2,813|   106.4 - 11,895|
-|2024   |       1,686|   2,351|     2,300| 100.0 -  8,048|             257|       3,786|         3,440|   231.3 - 12,554|
+|2023   |      20,114|   2,278|     2,153|  17.4 - 10,138|           2,711|       3,002|         2,813|   106.4 - 11,895|
+|2024   |       1,690|   2,349|     2,298| 100.0 -  8,048|             257|       3,786|         3,440|   231.3 - 12,554|
 
 
 
