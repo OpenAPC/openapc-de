@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 127,919 articles, published at 421 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 129,205 articles, published at 422 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 127,919 articles, published at 421 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    14523|
-|DEAL Wiley Germany                               |    12984|
+|DEAL Springer Nature Germany                     |    15139|
+|DEAL Wiley Germany                               |    13654|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -181,6 +181,7 @@ This dataset contains information on 127,919 articles, published at 421 institut
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1535|
 |KIT                                                                                                                                                |     1374|
 |University College Cork                                                                                                                            |     1317|
+|Wuerzburg U                                                                                                                                        |     1286|
 |Friedrich-Schiller-Universität Jena                                                                                                                |     1242|
 |University of Eastern Finland                                                                                                                      |     1219|
 |Lund University                                                                                                                                    |     1177|
