@@ -26,7 +26,8 @@ PUBLISHER_IDENTITY = [
     (["Wiley-Blackwell"], ["British Institute of Radiology"]),
     (["jovis Verlag"], ["De Gruyter"]), # jovis is an imprint of De Gruyter
     (["Joule Inc."], ["CMA Impact Inc."]),
-    (["CRC Press"], ["Routledge"]) # both imprints of T&F, both share a website and present their portfolio together
+    (["CRC Press"], ["Routledge"]), # both imprints of T&F, both share a website and present their portfolio together
+    (["edition text + kritik"], ["De Gruyter"])
 ]
 
 
