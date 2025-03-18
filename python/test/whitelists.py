@@ -551,7 +551,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1760-5393": ["CAIRN", "OpenEdition"], # Revue d'anthropologie des connaissances 
 	"2424-7723": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting 
 	"2424-8002": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting (electronic)
-
+	"2049-0801": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Annals of Medicine & Surgery
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
