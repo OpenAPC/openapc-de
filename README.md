@@ -17,7 +17,7 @@ At the moment this project provides the following cost data:
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
 | Articles         |239,865 | 483,007,174    | 453 |
-| Monographs       |2,087 | 13,682,831    | 80 |
+| Monographs       |2,087 | 13,684,231    | 80 |
 
 ## How to access the data?
 
@@ -858,7 +858,7 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 The book data set contains information on 2,087 open access books. Publication fees were supported financially by 80 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 13,682,831. The average payment was € 6,556 and the median was € 6,700.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 13,684,231. The average payment was € 6,557 and the median was € 6,720.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -883,7 +883,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             174|    6,974|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             222|    7,600|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |             239|    7,145|      6,545|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
+|2023   |             239|    7,150|      6,588|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
 |2024   |              42|    5,503|      6,000|   550 - 10,710|             NA|       NA|         NA|            NA|
 |2025   |               1|    3,450|      3,450| 3,450 -  3,450|             NA|       NA|         NA|            NA|
 
