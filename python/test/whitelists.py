@@ -933,6 +933,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0378-3820", # Fuel Processing Technology, Gold OA since 2024
     "2573-8348", # Cancer Reports, Gold OA since 2021
     "1591-9528", # Clinical and Experimental Medicine, Gold OA since 2024
+    "1742-3600", # Episteme, Gold OA since 2024
+    "1478-9515", # Palliative and Supportive Care, Gold OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
