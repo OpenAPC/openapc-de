@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 129,426 articles, published at 423 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 129,674 articles, published at 423 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 129,426 articles, published at 423 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15145|
-|DEAL Wiley Germany                               |    13660|
+|DEAL Springer Nature Germany                     |    15309|
+|DEAL Wiley Germany                               |    13744|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -201,6 +201,7 @@ This dataset contains information on 129,426 articles, published at 423 institut
 |Frankfurt U                                                                                                                                        |      777|
 |Imperial College London                                                                                                                            |      771|
 |Dublin City University                                                                                                                             |      767|
+|HHU Düsseldorf                                                                                                                                     |      723|
 |Erlangen Nuernberg U                                                                                                                               |      720|
 |Medical University of Vienna                                                                                                                       |      682|
 |TU Darmstadt                                                                                                                                       |      670|
@@ -229,7 +230,6 @@ This dataset contains information on 129,426 articles, published at 423 institut
 |Maynooth University                                                                                                                                |      492|
 |PSI - Paul Scherrer Institute                                                                                                                      |      489|
 |Delft University of Technology                                                                                                                     |      484|
-|HHU Düsseldorf                                                                                                                                     |      475|
 |Umeå University                                                                                                                                    |      475|
 |Åbo Akademi University                                                                                                                             |      470|
 |Royal College of Surgeons in Ireland                                                                                                               |      469|
