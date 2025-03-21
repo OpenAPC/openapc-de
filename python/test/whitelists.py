@@ -551,6 +551,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1760-5393": ["CAIRN", "OpenEdition"], # Revue d'anthropologie des connaissances 
 	"2424-7723": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting 
 	"2424-8002": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting (electronic)
+	"2035-8164": ["PAGEPress Publications", "Open Medical Publishing"], # Orthopedic Reviews 
 
 }
 
