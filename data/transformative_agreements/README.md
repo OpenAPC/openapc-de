@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 129,912 articles, published at 423 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 129,924 articles, published at 424 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 129,912 articles, published at 423 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15436|
+|DEAL Springer Nature Germany                     |    15448|
 |DEAL Wiley Germany                               |    13855|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
@@ -475,6 +475,7 @@ This dataset contains information on 129,912 articles, published at 423 institut
 |St.Gallen University of Teacher Education                                                                                                          |       13|
 |University of Education Schwaebisch Gmuend                                                                                                         |       13|
 |GIGA                                                                                                                                               |       12|
+|HS RheinMain                                                                                                                                       |       12|
 |Häme University of Applied Sciences                                                                                                                |       12|
 |Leibniz-BIPS                                                                                                                                       |       12|
 |Leibniz-ZMT                                                                                                                                        |       12|
