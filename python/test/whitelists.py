@@ -552,6 +552,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2424-7723": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting 
 	"2424-8002": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting (electronic)
 	"2049-0801": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Annals of Medicine & Surgery
+	"2035-8164": ["PAGEPress Publications", "Open Medical Publishing"], # Orthopedic Reviews
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -933,6 +934,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0378-3820", # Fuel Processing Technology, Gold OA since 2024
     "2573-8348", # Cancer Reports, Gold OA since 2021
     "1591-9528", # Clinical and Experimental Medicine, Gold OA since 2024
+    "1742-3600", # Episteme, Gold OA since 2024
+    "1478-9515", # Palliative and Supportive Care, Gold OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
