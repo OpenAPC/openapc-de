@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 129,816 articles, published at 423 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 129,912 articles, published at 423 institutions under 127 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 129,816 articles, published at 423 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15390|
-|DEAL Wiley Germany                               |    13805|
+|DEAL Springer Nature Germany                     |    15436|
+|DEAL Wiley Germany                               |    13855|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -347,6 +347,7 @@ This dataset contains information on 129,816 articles, published at 423 institut
 |Salzburg U                                                                                                                                         |      119|
 |Konstanz U                                                                                                                                         |      118|
 |University of Dundee                                                                                                                               |      115|
+|Rostock U                                                                                                                                          |      114|
 |Scuola Normale Superiore                                                                                                                           |      110|
 |Northumbria University                                                                                                                             |      109|
 |University of Surrey                                                                                                                               |      107|
@@ -454,7 +455,6 @@ This dataset contains information on 129,816 articles, published at 423 institut
 |Cardiff Metropolitan University                                                                                                                    |       19|
 |Westerdijk Fungal Biodiversity Center (CBS)                                                                                                        |       19|
 |Pädagogische Hochschule Bern                                                                                                                       |       18|
-|Rostock U                                                                                                                                          |       18|
 |Swedish Defence Research Agency                                                                                                                    |       18|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       18|
 |University of Bedfordshire                                                                                                                         |       18|
