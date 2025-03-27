@@ -1,6 +1,6 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "IST Austria",2021,450,"10.22331/q-2021-07-01-491",FALSE,"Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften","Quantum","2521-327X",NA,"2521-327X","2521-327X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"IST Austria",2021,655.14,"10.1364/oe.406095",FALSE,"Optica Publishing Group","Optics Express","1094-4087",NA,"1094-4087","1094-4087","https://creativecommons.org/licenses/by/4.0/",TRUE,"33726256",NA,NA,NA,TRUE
+NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FALSE,NA,NA,NA,NA,NA
 "IST Austria",2021,721.75,"10.1145/3450626.3459816",TRUE,"Association for Computing Machinery (ACM)","ACM Transactions on Graphics","0730-0301","0730-0301","1557-7368","0730-0301",NA,TRUE,NA,NA,NA,NA,FALSE
 "IST Austria",2021,800.86,"10.1103/physrevlett.126.244502",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","https://link.aps.org/licenses/aps-default-license",TRUE,"34213943",NA,NA,NA,FALSE
 "IST Austria",2021,867.18,"10.1103/physrevlett.128.014502",TRUE,"American Physical Society (APS)","Physical Review Letters","0031-9007","0031-9007","1079-7114","0031-9007","https://link.aps.org/licenses/aps-default-license",TRUE,"35061458",NA,NA,NA,FALSE
