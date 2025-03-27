@@ -129,6 +129,7 @@ JOURNAL_OWNER_CHANGED = {
     "0883-6612": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine
     "1532-4796": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine (electronic)
     "0013-0095": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography
+    "1944-8287": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography (electronic)
     "2157-6564": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine
     "2157-6580": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine (electronic)
     "0002-9122": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany
@@ -553,6 +554,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2424-8002": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting (electronic)
 	"2049-0801": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Annals of Medicine & Surgery
 	"2035-8164": ["PAGEPress Publications", "Open Medical Publishing"], # Orthopedic Reviews
+	"1897-4279": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska 
+	"0022-9032": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska (print)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -936,6 +939,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1591-9528", # Clinical and Experimental Medicine, Gold OA since 2024
     "1742-3600", # Episteme, Gold OA since 2024
     "1478-9515", # Palliative and Supportive Care, Gold OA since 2025
+    "1396-0296", # Dermatologic Therapy, Gold OA since 2023
+    "1435-9456", # Animal Cognition, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
