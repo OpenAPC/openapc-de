@@ -87,7 +87,7 @@ if __name__ == '__main__':
     import openapc_toolkit as oat
     import mappings
     import whitelists as wl
-    ISBNHANDLING = oat.ISBNHandling("ISBNRangeFile.xml")
+    ISBNHANDLING = oat.ISBNHandling(temp_file_dir="../tempfiles")
     for data_file, metadata in DATA_FILES.items():
         metadata["file_path"] = join("..", "..", metadata["file_path"])
     for _, file_dict in KNOWN_DUPLICATES.items():
@@ -102,7 +102,7 @@ else:
     import openapc_toolkit as oat
     import mappings
     from . import whitelists as wl
-    ISBNHANDLING = oat.ISBNHandling("python/test/ISBNRangeFile.xml")
+    ISBNHANDLING = oat.ISBNHandling(temp_file_dir="python/tempfiles")
 
 class RowObject(object):
     """

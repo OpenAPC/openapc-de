@@ -357,36 +357,86 @@ class CSVColumn(object):
             self.overwrite = CSVColumn.OW_NEVER
             return old_value
 
-class DOAJAnalysis(object):
+class TempFileHandling(object):
+    """
+    Handle temporary files which need to be updated in regular intervals
+    """
 
     MSGS = {
-        "not_found": 'DOAJ offline copy not found at "{}", downloading ' +
+        "not_found": '{} offline copy not found at "{}", downloading ' +
                       'a fresh copy...',
-        "forced": 'Forced download of a fresh DOAJ offline copy to "{}"...',
-        "max_mdays": 'Your DOAJ offline copy at "{}" is {} days old. ' +
+        "forced": 'Forced download of a fresh {} offline copy to "{}"...',
+        "max_mdays": 'Your {} offline copy at "{}" is {} days old. ' +
                      'The limit is {} days, downloading a fresh copy...',
         "backup": 'The previous offline copy was backed up as "{}".'
     }
 
+    def __init__(self, file_name, file_ext, url, temp_file_dir="tempfiles", max_mdays=30):
+        self.file_name = file_name
+        self.file_ext = file_ext
+        self.url = url
+        self.temp_file_dir = temp_file_dir
+        self.max_mdays = max_mdays
+        self.file_suffix = "." + file_ext if file_ext != "" else ""
+        self.file_path = os.path.join(temp_file_dir, file_name + self.file_suffix)
+        if not os.path.isdir(temp_file_dir):
+            os.mkdir(temp_file_dir)
+
+    def get_file_mdate_days(self):
+        if not os.path.isfile(self.file_path):
+            return None
+        now = datetime.datetime.now()
+        then = datetime.datetime.fromtimestamp(os.path.getmtime(self.file_path))
+        timediff = now - then
+        return timediff.days
+
+    def prepare_file(self, force_update=False, make_backup=False, verbose=False):
+        """
+        Return a path to the temporary file, downloading a fresh copy
+        and creating a backup if necessary. 
+        """
+        file_mdays = self.get_file_mdate_days()
+        if file_mdays is not None:
+            if not force_update:
+                if file_mdays <= self.max_mdays:
+                    return self.file_path
+                elif verbose:
+                    msg = self.MSGS["max_mdays"]
+                    print_c(msg.format(self.file_name, self.file_path, file_mdays, self.max_mdays))
+            elif verbose:
+                msg = self.MSGS["forced"]
+                print_c(msg.format(self.file_name, self.file_path))
+        elif verbose:
+            msg = self.MSGS["not_found"]
+            print_c(msg.format(self.file_name, self.file_path))
+        backup_msg = None
+        if make_backup and file_mdays is not None:
+            then = datetime.datetime.fromtimestamp(os.path.getmtime(self.file_path))
+            mdate = then.strftime("%Y_%m_%d_%H_%M_%S")
+            backup_target = os.path.join(self.temp_file_dir, self.file_name + "_" + mdate + self.file_suffix)
+            if verbose:
+                backup_msg = self.MSGS['backup'].format(backup_target)
+            copy2(self.file_path, backup_target)
+        request = Request(self.url)
+        request.add_header("User-Agent", USER_AGENT)
+        with urlopen(request) as source:
+            with open(self.file_path, "wb") as dest:
+                copyfileobj(source, dest)
+        if verbose:
+            print_c("...Done!")
+            if backup_msg:
+                print_c(backup_msg)
+        return self.file_path
+
+class DOAJAnalysis(TempFileHandling):
+
     def __init__(self, doaj_csv_file, force_update=False, max_mdays=None,
-                 backup=True, verbose=False):
+                 make_backup=True, verbose=False):
+        super().__init__("DOAJ", "csv", "https://doaj.org/csv", max_mdays=max_mdays)
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
         
-        if not os.path.isfile(doaj_csv_file):
-            if verbose:
-                print_c(self.MSGS['not_found'].format(doaj_csv_file))
-            doaj_csv_file = self.download_doaj_csv(doaj_csv_file, False, verbose)
-        elif force_update:
-            if verbose:
-                print_c(self.MSGS['forced'].format(doaj_csv_file))
-            doaj_csv_file = self.download_doaj_csv(doaj_csv_file, backup, verbose)
-        elif max_mdays is not None:
-            file_mdays = self.get_file_mdate_days(doaj_csv_file)
-            if file_mdays > max_mdays:
-                if verbose:
-                    print_c(self.MSGS['max_mdays'].format(doaj_csv_file, file_mdays, max_mdays))
-                doaj_csv_file = self.download_doaj_csv(doaj_csv_file, backup, verbose)
+        doaj_csv_file = self.prepare_file(force_update, make_backup, verbose)
 
         handle = open(doaj_csv_file, "r")
         reader = csv.DictReader(handle)
@@ -398,12 +448,6 @@ class DOAJAnalysis(object):
                 self.doaj_issn_map[issn] = journal_title
             if eissn:
                 self.doaj_eissn_map[eissn] = journal_title
-
-    def get_file_mdate_days(self, csv_file):
-        now = datetime.datetime.now()
-        then = datetime.datetime.fromtimestamp(os.path.getmtime(csv_file))
-        timediff = now - then
-        return timediff.days
 
     def lookup(self, any_issn):
         if any_issn in self.doaj_issn_map:
@@ -630,7 +674,7 @@ class DOABAnalysis(object):
     def download_doab_csv(self, target):
         urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
 
-class ISBNHandling(object):
+class ISBNHandling(TempFileHandling):
 
     # regex for 13-digit, unsplit ISBNs
     ISBN_RE = re.compile(r"^97[89]\d{10}$")
@@ -645,9 +689,9 @@ class ISBNHandling(object):
         3: "Input ISBN was split, but the segmentation is invalid"
     }
 
-    def __init__(self, range_file_path, range_file_update=False):
-        if not os.path.isfile(range_file_path) or range_file_update:
-            self.download_range_file(range_file_path)
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=30):
+        super().__init__("ISBNRangeFile", "xml", url="http://www.isbn-international.org/export_rangemessage.xml", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+        range_file_path = self.prepare_file(force_update, make_backup, verbose)
         with open(range_file_path, "r") as range_file:
             range_file_content = range_file.read()
             range_file_root = ET.fromstring(range_file_content)
@@ -1113,10 +1157,10 @@ def _auto_atof(str_value):
     """
     str_value = str_value.strip()
     old_locale = locale.getlocale(locale.LC_NUMERIC)
-    if re.compile('\d+\.\d+').match(str_value):
+    if re.compile(r'\d+\.\d+').match(str_value):
         locale.setlocale(locale.LC_NUMERIC, locale.normalize('en.utf-8'))
         float_value = locale.atof(str_value)
-    elif re.compile('\d+\,\d+').match(str_value):
+    elif re.compile(r'\d+\,\d+').match(str_value):
         locale.setlocale(locale.LC_NUMERIC, locale.normalize('de.utf-8'))
         float_value = locale.atof(str_value)
     else:
