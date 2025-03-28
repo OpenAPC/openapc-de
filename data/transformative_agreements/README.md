@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 130,743 articles, published at 425 institutions under 139 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
+This dataset contains information on 130,790 articles, published at 425 institutions under 139 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.intact-project.org/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -98,6 +98,7 @@ This dataset contains information on 130,743 articles, published at 425 institut
 |CzechELib OUP agreement                          |       73|
 |EISZ agreement Elsevier                          |       64|
 |IReL RS Agreement                                |       63|
+|Crui-CARE Springer Agreement                     |       58|
 |CzechELib ACS agreement                          |       58|
 |IReL BMJ Agreement                               |       58|
 |University of Milan - ACS                        |       58|
@@ -113,7 +114,6 @@ This dataset contains information on 130,743 articles, published at 425 institut
 |CzechELib CUP agreement                          |       43|
 |Crui-CARE ACS Agreement                          |       38|
 |IReL ACM Agreement                               |       36|
-|Crui-CARE Springer Agreement                     |       35|
 |EISZ agreement Wiley                             |       35|
 |FinELib ACM agreement                            |       34|
 |University of Milan - De Gruyter                 |       34|
@@ -130,6 +130,7 @@ This dataset contains information on 130,743 articles, published at 425 institut
 |IReL ECS Agreement                               |       20|
 |CzechELib IOP agreement                          |       19|
 |CzechELib SAGE agreement                         |       18|
+|Crui-CARE Elsevier Agreement                     |       17|
 |FWF Transformative Agreement Sage                |       17|
 |University of Milan - Lippincott                 |       17|
 |Austrian Consortium Sage agreement               |       16|
@@ -142,19 +143,18 @@ This dataset contains information on 130,743 articles, published at 425 institut
 |CSIC-Microbiology Society                        |       13|
 |University of Milan - IOP                        |       12|
 |CSIC-Company of biologists                       |       11|
-|Crui-CARE Elsevier Agreement                     |        8|
+|Crui-CARE CUP Agreement                          |       11|
 |CSIC-Brill                                       |        7|
 |CSIC-Portland Press                              |        7|
+|Crui-CARE AIP Agreement                          |        7|
 |IReL Company of Biologists Agreement             |        7|
-|Crui-CARE CUP Agreement                          |        6|
+|Crui-CARE De Gruyter Agreement                   |        6|
+|Crui-CARE IOP Agreement                          |        5|
 |IReL CSHL Agreement                              |        4|
-|Crui-CARE AIP Agreement                          |        3|
-|Crui-CARE De Gruyter Agreement                   |        3|
 |CzechELib ACM agreement                          |        3|
 |QNL OVID Agreement                               |        3|
 |Swiss Consortium ACM agreement                   |        3|
 |CSIC-De Gruyter                                  |        2|
-|Crui-CARE IOP Agreement                          |        2|
 |EISZ agreement Cambridge University Press        |        2|
 |IReL AmericanPhysicalSociety Agreement           |        2|
 |QNL De Gruyter Agreement                         |        2|
@@ -338,6 +338,7 @@ This dataset contains information on 130,743 articles, published at 425 institut
 |Wuppertal U                                                                                                                                        |      159|
 |Bern University of Applied Sciences                                                                                                                |      157|
 |Johannes Kepler University Linz                                                                                                                    |      157|
+|Scuola Normale Superiore                                                                                                                           |      157|
 |Lancaster University                                                                                                                               |      155|
 |Nottingham Trent University                                                                                                                        |      154|
 |Linnaeus University                                                                                                                                |      153|
@@ -361,7 +362,6 @@ This dataset contains information on 130,743 articles, published at 425 institut
 |Konstanz U                                                                                                                                         |      118|
 |University of Dundee                                                                                                                               |      115|
 |Rostock U                                                                                                                                          |      114|
-|Scuola Normale Superiore                                                                                                                           |      110|
 |Northumbria University                                                                                                                             |      109|
 |University of Surrey                                                                                                                               |      107|
 |Universität Luzern                                                                                                                                 |      103|
