@@ -17,6 +17,7 @@ import sys
 from urllib.parse import quote_plus, urlencode
 from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
 from urllib.error import HTTPError, URLError
+from time import sleep
 import requests
 import xml.etree.ElementTree as ET
 
@@ -1581,7 +1582,7 @@ def get_metadata_from_ror(ror_id):
     ret["success"] = True
     return ret
 
-def get_metadata_from_pubmed(doi_string):
+def get_metadata_from_pubmed(doi_string, retry=10):
     """
     Look up a DOI in Europe PMC and extract Pubmed ID and Pubmed Central ID
 
@@ -1589,6 +1590,9 @@ def get_metadata_from_pubmed(doi_string):
         doi_string: A string representing a doi. 'Pure' form (10.xxx),
         DOI Handbook notation (doi:10.xxx) or crossref-style
         (https://doi.org/10.xxx) are all acceptable.
+        retry: Max retries upon encountering malformed XML (PMC Rest API
+        may deliever a blank page in rare cases). Retries will occur after
+        a 3 seconds sleep interval.
     Returns:
         A dict with a key 'success'. If data extraction was successful,
         'success' will be True and the dict will have a second entry 'data'
@@ -1628,8 +1632,15 @@ def get_metadata_from_pubmed(doi_string):
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     except ET.ParseError as etpe:
-        ret_value['success'] = False
-        ret_value['error_msg'] = "ElementTree Parse Error: {}".format(etpe.msg)
+        if retry > 0:
+            msg = ("Encountered a ParseError while reading XML from Pubmed, " +
+            "retrying after 3 seconds...")
+            logging.warning(msg)
+            sleep(3)
+            return get_metadata_from_pubmed(doi_string, retry - 1)
+        else:
+            ret_value['success'] = False
+            ret_value['error_msg'] = "ElementTree Parse Error: {}".format(etpe.msg)
     return ret_value
 
 def get_euro_exchange_rates(currency, frequency="D"):
