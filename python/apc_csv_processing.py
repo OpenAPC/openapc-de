@@ -590,9 +590,9 @@ def main():
 
     if not os.path.isdir("tempfiles"):
         os.mkdir("tempfiles")
-    isbn_handling = oat.ISBNHandling("tempfiles/ISBNRangeFile.xml")
+    isbn_handling = oat.ISBNHandling()
     doab_analysis = oat.DOABAnalysis(isbn_handling, "tempfiles/DOAB.csv", verbose=False)
-    doaj_analysis = oat.DOAJAnalysis("tempfiles/DOAJ.csv", force_update=False, max_mdays=30, backup=True, verbose=True)
+    doaj_analysis = oat.DOAJAnalysis(max_mdays=30, verbose=True)
 
     csv_file.seek(0)
     reader = csv.reader(csv_file, dialect=dialect)

@@ -430,7 +430,7 @@ class TempFileHandling(object):
 
 class DOAJAnalysis(TempFileHandling):
 
-    def __init__(self, doaj_csv_file, force_update=False, max_mdays=None,
+    def __init__(self, force_update=False, max_mdays=None,
                  make_backup=True, verbose=False):
         super().__init__("DOAJ", "csv", "https://doaj.org/csv", max_mdays=max_mdays)
         self.doaj_issn_map = {}
