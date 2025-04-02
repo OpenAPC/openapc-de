@@ -593,6 +593,14 @@ def main():
     isbn_handling = oat.ISBNHandling()
     doab_analysis = oat.DOABAnalysis(isbn_handling, "tempfiles/DOAB.csv", verbose=False)
     doaj_analysis = oat.DOAJAnalysis(max_mdays=30, verbose=True)
+    issnl_handling = None
+    try:
+        issnl_handling = oat.ISSNLHandling()
+    except Exception as e:
+        msg = ("WARNING: An exception occured while trying to set up " +
+               "the ISSN-L handling: \n{}\nISSN-L enrichment during " +
+               "processing will not work.")
+        oat.print_y(msg.format(e))
 
     csv_file.seek(0)
     reader = csv.reader(csv_file, dialect=dialect)
@@ -627,7 +635,7 @@ def main():
                 no_pubmed = True
                 no_doaj = True
         enriched_rows = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
-                                        no_crossref, no_pubmed, no_doaj, args.no_preprint_lookup, args.preprint_auto_accept,
+                                        issnl_handling, no_crossref, no_pubmed, no_doaj, args.no_preprint_lookup, args.preprint_auto_accept,
                                         args.round_monetary, args.offsetting_mode, args.csv_file, args.crossref_max_retries)
         if not ac_value_found and "additional_costs" in enriched_rows:
             for index in range(1, len(enriched_rows["additional_costs"])): # index 0 is the DOI
