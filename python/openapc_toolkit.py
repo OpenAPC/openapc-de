@@ -466,8 +466,8 @@ class TempFileHandling(object):
 
 class DOAJAnalysis(TempFileHandling):
 
-    def __init__(self, force_update=False, make_backup=True, verbose=False, max_mdays=7):
-        super().__init__("DOAJ", "csv", "https://doaj.org/csv", max_mdays=max_mdays)
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=False, max_mdays=7):
+        super().__init__("DOAJ", "csv", url="https://doaj.org/csv", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
         
@@ -786,7 +786,7 @@ class ISBNHandling(TempFileHandling):
     }
 
     def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
-        super().__init__("ISBNRangeFile", "xml", url="http://www.isbn-international.org/export_rangemessage.xml", temp_file_dir=temp_file_dir)
+        super().__init__("ISBNRangeFile", "xml", url="http://www.isbn-international.org/export_rangemessage.xml", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         range_file_path = self.prepare_file(force_update, make_backup, verbose)
         with open(range_file_path, "r") as range_file:
             range_file_content = range_file.read()
