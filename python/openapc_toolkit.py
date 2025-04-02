@@ -385,7 +385,7 @@ class TempFileHandling(object):
         "zip": "_unzip"
     }
 
-    def __init__(self, file_name, file_ext, url=None, url_local_file=None, temp_file_dir="tempfiles", max_mdays=30):
+    def __init__(self, file_name, file_ext, url=None, url_local_file=None, temp_file_dir="tempfiles", max_mdays=7):
         if url is None and url_local_file is None:
             raise Exception(self.MSGS["no_url"])
         self.file_name = file_name
@@ -466,8 +466,7 @@ class TempFileHandling(object):
 
 class DOAJAnalysis(TempFileHandling):
 
-    def __init__(self, force_update=False, max_mdays=None,
-                 make_backup=True, verbose=False):
+    def __init__(self, force_update=False, make_backup=True, verbose=False, max_mdays=7):
         super().__init__("DOAJ", "csv", "https://doaj.org/csv", max_mdays=max_mdays)
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
@@ -715,7 +714,7 @@ class ISSNLHandling(TempFileHandling):
     ISSNL_FILE_PATTERN = "%Y%m%d.ISSN-to-ISSN-L.txt"
     ISSN_L_RE = re.compile(r"^(?P<issn>\d{4}-\d{3}[\dxX])\t(?P<issn_l>\d{4}-\d{3}[\dxX])")
 
-    def __init__(self, temp_file_dir="tempfiles/issnltables", force_update=False, make_backup=True, verbose=True, max_mdays=1):
+    def __init__(self, temp_file_dir="tempfiles/issnltables", force_update=False, make_backup=True, verbose=True, max_mdays=7):
         super().__init__("issnltables", "zip", url="http://www.issn.org/wp-content/uploads/2014/03/issnltables.zip", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         self.temp_file_dir = temp_file_dir
         self.verbose = verbose
@@ -786,8 +785,8 @@ class ISBNHandling(TempFileHandling):
         3: "Input ISBN was split, but the segmentation is invalid"
     }
 
-    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=30):
-        super().__init__("ISBNRangeFile", "xml", url="http://www.isbn-international.org/export_rangemessage.xml", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
+        super().__init__("ISBNRangeFile", "xml", url="http://www.isbn-international.org/export_rangemessage.xml", temp_file_dir=temp_file_dir)
         range_file_path = self.prepare_file(force_update, make_backup, verbose)
         with open(range_file_path, "r") as range_file:
             range_file_content = range_file.read()
