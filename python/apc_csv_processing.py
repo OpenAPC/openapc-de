@@ -9,6 +9,7 @@ import datetime
 import locale
 import logging
 import os
+import shutil
 import sys
 
 import openapc_toolkit as oat
@@ -649,16 +650,40 @@ def main():
                 empty_line = ["" for x in value["content"][0]]
                 value["content"].append(empty_line)
     csv_file.close()
+
+    num_different_record_types = 0
+    last_out_file_name = None
     for record_type, value in enriched_content.items():
         if value["count"] > 0:
+            if record_type != "additional_costs":
+                quotemask = oat.OPENAPC_STANDARD_QUOTEMASK
+                num_different_record_types += 1
+                last_out_file_name = 'out_' + record_type + '.csv'
+            else:
+                quotemask = oat.ADDITIONAL_COSTS_QUOTEMASK
             with open('out_' + record_type + '.csv', 'w') as out:
-                quotemask = oat.ADDITIONAL_COSTS_QUOTEMASK if record_type == "additional_costs" else oat.OPENAPC_STANDARD_QUOTEMASK
                 writer = oat.OpenAPCUnicodeWriter(out, quotemask,
                                                   True, True, True)
                 writer.write_rows(value["content"])
 
     if not bufferedHandler.buffer:
         oat.print_g("Metadata enrichment successful, no errors occured")
+        # Directly created an enriched file if there were no errors and only a single record type
+        if num_different_record_types == 1:
+            path, file_name = os.path.split(args.csv_file)
+            file_parts = file_name.split(".")
+            if file_parts[0].endswith("_postprocessed"):
+                file_parts[0] = file_parts[0][:-14]
+            file_parts[0] += "_enriched"
+            enriched_name = ".".join(file_parts)
+            enriched_path = os.path.join(path, enriched_name)
+            if not os.path.isfile(enriched_path):
+                msg = "Enriched file will be created automatically: '{}'"
+                oat.print_g(msg.format(enriched_path))
+                shutil.copy2(last_out_file_name, enriched_path)
+            else:
+                msg = "Could not create enriched file '{}' - file exists!"
+                oat.print_y(msg.format(enriched_path))
     else:
         oat.print_r("There were errors during the enrichment process:\n")
 
