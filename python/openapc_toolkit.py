@@ -20,6 +20,7 @@ from urllib.error import HTTPError, URLError
 from time import sleep
 import requests
 import xml.etree.ElementTree as ET
+import zipfile
 
 import mappings
 
@@ -368,19 +369,46 @@ class TempFileHandling(object):
         "forced": 'Forced download of a fresh {} offline copy to "{}"...',
         "max_mdays": 'Your {} offline copy at "{}" is {} days old. ' +
                      'The limit is {} days, downloading a fresh copy...',
-        "backup": 'The previous offline copy was backed up as "{}".'
+        "backup": 'The previous offline copy was backed up as "{}".',
+        "no_url": "Either a url or a path to a local file containing " +
+                  "an url must be provided",
+        "local_file": "Could not access local path '{}'. This " +
+                      "file must exist and contain the URL to " +
+                      "the download file '{}{}'"
     }
 
-    def __init__(self, file_name, file_ext, url, temp_file_dir="tempfiles", max_mdays=30):
+    def _unzip(self):
+        with zipfile.ZipFile(self.file_path, "r") as zip_file:
+            zip_file.extractall(self.temp_file_dir)
+
+    DECOMPRESSION_OPTIONS = {
+        "zip": "_unzip"
+    }
+
+    def __init__(self, file_name, file_ext, url=None, url_local_file=None, temp_file_dir="tempfiles", max_mdays=7):
+        if url is None and url_local_file is None:
+            raise Exception(self.MSGS["no_url"])
         self.file_name = file_name
         self.file_ext = file_ext
-        self.url = url
         self.temp_file_dir = temp_file_dir
         self.max_mdays = max_mdays
         self.file_suffix = "." + file_ext if file_ext != "" else ""
         self.file_path = os.path.join(temp_file_dir, file_name + self.file_suffix)
+        if url is not None:
+            self.url = url
+        else:
+            self.set_url_from_local_file(url_local_file)
         if not os.path.isdir(temp_file_dir):
             os.mkdir(temp_file_dir)
+
+    def set_url_from_local_file(self, url_local_file):
+        if not os.path.isfile(url_local_file):
+            msg = self.MSGS["local_file"].format(url_local_file,
+                                                 self.file_name,
+                                                 self.file_suffix)
+            raise Exception(msg)
+        with open(url_local_file, "r") as handle:
+            self.url = handle.read()
 
     def get_file_mdate_days(self):
         if not os.path.isfile(self.file_path):
@@ -390,11 +418,14 @@ class TempFileHandling(object):
         timediff = now - then
         return timediff.days
 
-    def prepare_file(self, force_update=False, make_backup=False, verbose=False):
+    def prepare_file(self, force_update=False, make_backup=False, verbose=False, decompress=None):
         """
         Return a path to the temporary file, downloading a fresh copy
         and creating a backup if necessary. 
         """
+        if decompress is not None and decompress not in self.DECOMPRESSION_OPTIONS:
+            error_msg = "{} is no valid decompression option. Available choices: {}"
+            raise Exception(error_msg.format(decompress, ", ".join(self.DECOMPRESSION_OPTIONS.keys())))
         file_mdays = self.get_file_mdate_days()
         if file_mdays is not None:
             if not force_update:
@@ -422,6 +453,11 @@ class TempFileHandling(object):
         with urlopen(request) as source:
             with open(self.file_path, "wb") as dest:
                 copyfileobj(source, dest)
+        if decompress is not None:
+            if verbose:
+                print_c("Extracting compressed file ({})...".format(decompress))
+            decompression_func = getattr(self, self.DECOMPRESSION_OPTIONS[decompress])
+            decompression_func()
         if verbose:
             print_c("...Done!")
             if backup_msg:
@@ -430,9 +466,8 @@ class TempFileHandling(object):
 
 class DOAJAnalysis(TempFileHandling):
 
-    def __init__(self, force_update=False, max_mdays=None,
-                 make_backup=True, verbose=False):
-        super().__init__("DOAJ", "csv", "https://doaj.org/csv", max_mdays=max_mdays)
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=False, max_mdays=7):
+        super().__init__("DOAJ", "csv", url="https://doaj.org/csv", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
         
@@ -674,6 +709,67 @@ class DOABAnalysis(object):
     def download_doab_csv(self, target):
         urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
 
+class ISSNLHandling(TempFileHandling):
+
+    ISSNL_FILE_PATTERN = "%Y%m%d.ISSN-to-ISSN-L.txt"
+    ISSN_L_RE = re.compile(r"^(?P<issn>\d{4}-\d{3}[\dxX])\t(?P<issn_l>\d{4}-\d{3}[\dxX])")
+
+    def __init__(self, temp_file_dir="tempfiles/issnltables", force_update=False, make_backup=True, verbose=True, max_mdays=7):
+        super().__init__("issnltables", "zip", url="http://www.issn.org/wp-content/uploads/2014/03/issnltables.zip", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+        self.temp_file_dir = temp_file_dir
+        self.verbose = verbose
+        self.prepare_file(force_update, make_backup, verbose, decompress="zip")
+        file_name =  self._find_latest_issnl_file()
+        self.mapping_table = self._prepare_mapping_table(file_name)
+
+    def get_issnl(self, issn):
+        if "-" not in issn:
+            issn = issn[:4] + "-"  + issn[4:]
+        issnl = self.mapping_table.get(issn)
+        if issnl is not None:
+            issnl = get_corrected_issn_l(issnl)
+        return issnl
+
+    def _find_latest_issnl_file(self):
+        latest_file_name = None
+        latest_file_date = None
+        for file_name in os.listdir(self.temp_file_dir):
+            try:
+                date = datetime.datetime.strptime(file_name, self.ISSNL_FILE_PATTERN)
+                if latest_file_date is None or date > latest_file_date:
+                    latest_file_date = date
+                    latest_file_name = file_name
+            except ValueError:
+                continue
+        if latest_file_name is None:
+            msg = "Could not find a file in {} matching the pattern {}"
+            raise Exception(msg.format(self.temp_file_dir, self.ISSNL_FILE_PATTERN))
+        if self.verbose:
+            msg = "Latest ISSN-L mapping file according to file name: {}"
+            print_c(msg.format(latest_file_name))
+        return latest_file_name
+
+    def _prepare_mapping_table(self, file_name):
+        table = {}
+        if self.verbose:
+            print_c("Preparing mapping table...")
+        itself = other = 0
+        file_path = os.path.join(self.temp_file_dir, file_name)
+        with open(file_path, "r") as handle:
+            for line in handle:
+                match = self.ISSN_L_RE.match(line)
+                if match:
+                    match_dict = match.groupdict()
+                    table[match_dict['issn']] = match_dict['issn_l']
+                    if match_dict['issn'] == match_dict['issn_l']:
+                        itself += 1
+                    else:
+                        other += 1
+        if self.verbose:
+            msg = "Done. ({} ISSNs are pointing to themselves as ISSN-L, {} to another value)"
+            print_c(msg.format(itself, other))
+        return table
+
 class ISBNHandling(TempFileHandling):
 
     # regex for 13-digit, unsplit ISBNs
@@ -689,7 +785,7 @@ class ISBNHandling(TempFileHandling):
         3: "Input ISBN was split, but the segmentation is invalid"
     }
 
-    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=30):
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
         super().__init__("ISBNRangeFile", "xml", url="http://www.isbn-international.org/export_rangemessage.xml", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         range_file_path = self.prepare_file(force_update, make_backup, verbose)
         with open(range_file_path, "r") as range_file:
@@ -1902,7 +1998,7 @@ def _process_institution_value(institution, row_num, orig_file_path, offsetting_
     return institution
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
+                doab_analysis, doaj_analysis, issnl_handling=None, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, no_title_lookup=False, preprint_auto_accept=False, 
                 round_monetary=False, offsetting_mode=None, orig_file_path=None, crossref_max_retries=3):
     """
@@ -1924,6 +2020,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         additional_isbn_columns: A list of ints designating row indexes as additional ISBN sources.
         doab_analysis: A DOABanalysis object to perform an offline DOAB lookup
         doaj_analysis: A DOAJAnalysis object to perform offline DOAJ lookups
+        issnl_handling: An ISSNLHandling object to perform ISSN-L enrichment
         no_crossref_lookup: If true, no metadata will be imported from crossref.
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
         no_doaj_lookup: If true, journals will not be checked for being
@@ -2080,6 +2177,13 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                                        doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
                                        no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
+        # include a possible ISSN-L
+        if issnl_handling is not None and record_type == "journal-article":
+            for issn_field in ["issn", "issn_print", "issn_electronic"]:
+                issnl = issnl_handling.get_issnl(current_row[issn_field])
+                if issnl is not None:
+                    current_row["issn_l"] = issnl
+                    break
         # include pubmed metadata
         if not no_pubmed_lookup and record_type == "journal-article":
             pubmed_result = get_metadata_from_pubmed(doi)
