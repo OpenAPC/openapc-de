@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |241,181 | 486,392,217    | 455 |
-| Monographs       |2,102 | 13,763,549    | 81 |
+| Articles         |241,181 | 486,392,175    | 455 |
+| Monographs       |2,102 | 13,762,954    | 81 |
 
 ## How to access the data?
 
@@ -790,9 +790,9 @@ The following institutions have contributed to OpenAPC so far:
 
 The article data set contains information on 241,181 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 455 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 486,392,217. The average payment was € 2,017 and the median was € 1,868.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 486,392,175. The average payment was € 2,017 and the median was € 1,868.
 
-177,707 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 324,376,766, including value-added tax; the average payment was € 1,825 (median =  € 1,715, SD = € 873).
+177,707 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 324,376,724, including value-added tax; the average payment was € 1,825 (median =  € 1,715, SD = € 873).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 63,474 articles in the data set were published in hybrid journals. Total expenditure amounts to 162,015,451 €; the average fee was € 2,552 (median =  € 2,500, SD = € 1,109).
 
@@ -860,7 +860,7 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 The book data set contains information on 2,102 open access books. Publication fees were supported financially by 81 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 13,763,549. The average payment was € 6,548 and the median was € 6,677.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 13,762,954. The average payment was € 6,548 and the median was € 6,664.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -886,7 +886,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2021   |             174|    6,974|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             224|    7,577|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
 |2023   |             247|    7,120|      6,545|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
-|2024   |              47|    5,337|      5,735|   550 - 10,710|             NA|       NA|         NA|            NA|
+|2024   |              47|    5,325|      5,735|   550 - 10,710|             NA|       NA|         NA|            NA|
 |2025   |               1|    3,450|      3,450| 3,450 -  3,450|             NA|       NA|         NA|            NA|
 
 
