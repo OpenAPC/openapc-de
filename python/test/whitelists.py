@@ -941,6 +941,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1478-9515", # Palliative and Supportive Care, Gold OA since 2025
     "1396-0296", # Dermatologic Therapy, Gold OA since 2023
     "1435-9456", # Animal Cognition, Gold OA since 2024
+    "1016-2291", # Pediatric Neurosurgery, Subscribe to Open (S2O) in 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
