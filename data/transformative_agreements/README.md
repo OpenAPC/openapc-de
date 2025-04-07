@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 131,390 articles, published at 425 institutions under 140 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 131,465 articles, published at 425 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -93,6 +93,7 @@ This dataset contains information on 131,390 articles, published at 425 institut
 |CzechELib Taylor & Francis agreement             |       85|
 |QNL T&F Agreement                                |       85|
 |IReL AIP Agreement                               |       84|
+|University of Milan - Cambridge University Press |       83|
 |EISZ agreement Springer Nature                   |       79|
 |Swiss Consortium Nature Transformative agreement |       78|
 |CzechELib OUP agreement                          |       73|
@@ -107,10 +108,10 @@ This dataset contains information on 131,390 articles, published at 425 institut
 |EISZ agreement Akadémiai Kiadó                   |       54|
 |IReL Optica Agreement                            |       54|
 |CzechELib RSC agreement                          |       50|
-|University of Milan - Cambridge University Press |       50|
 |IReL Microbiology Society Agreement              |       48|
 |MPG Taylor & Francis agreement                   |       46|
 |Austrian Consortium IOP agreement                |       45|
+|University of Milan - Royal Society of Chemistry |       45|
 |CzechELib CUP agreement                          |       43|
 |Crui-CARE ACS Agreement                          |       38|
 |IReL ACM Agreement                               |       36|
@@ -120,11 +121,12 @@ This dataset contains information on 131,390 articles, published at 425 institut
 |FinELib Nature Research agreement                |       33|
 |MPG IOP agreement                                |       32|
 |QNL IEEE Agreement                               |       31|
-|University of Milan - Royal Society of Chemistry |       31|
 |IReL APA Agreement                               |       30|
 |CSIC-AIP                                         |       29|
+|University of Milan - IOP                        |       27|
 |CSIC-Institute of Physics                        |       26|
 |CSIC-Royal Society                               |       25|
+|University of Milan - IEEE                       |       24|
 |Austrian Consortium Emerald agreement            |       23|
 |CzechELib Karger agreement                       |       23|
 |IReL ECS Agreement                               |       20|
@@ -137,11 +139,9 @@ This dataset contains information on 131,390 articles, published at 425 institut
 |CzechELib AIP agreement                          |       16|
 |FWF Transformative Agreement IEEE                |       16|
 |FinELib Elsevier Cell Press agreement            |       16|
-|University of Milan - IEEE                       |       16|
 |Crui-CARE Wiley Agreement                        |       15|
 |IReL Cell Press Agreement                        |       14|
 |CSIC-Microbiology Society                        |       13|
-|University of Milan - IOP                        |       12|
 |CSIC-Company of biologists                       |       11|
 |Crui-CARE CUP Agreement                          |       11|
 |Swiss Consortium BMJ agreement                   |       10|
@@ -155,10 +155,12 @@ This dataset contains information on 131,390 articles, published at 425 institut
 |CzechELib ACM agreement                          |        3|
 |QNL OVID Agreement                               |        3|
 |Swiss Consortium ACM agreement                   |        3|
+|University of Milan - BMJ                        |        3|
 |CSIC-De Gruyter                                  |        2|
 |EISZ agreement Cambridge University Press        |        2|
 |IReL AmericanPhysicalSociety Agreement           |        2|
 |QNL De Gruyter Agreement                         |        2|
+|University of Milan - ACM                        |        2|
 |CSIC-Rockefeller University Press                |        1|
 |EISZ agreement DeGruyter                         |        1|
 |EISZ agreement Lippincott Williams and Wilkins   |        1|
@@ -188,9 +190,9 @@ This dataset contains information on 131,390 articles, published at 425 institut
 |Aalto University                                                                                                                                   |     1734|
 |Tampere University                                                                                                                                 |     1702|
 |Trinity College Dublin                                                                                                                             |     1633|
+|Milano U                                                                                                                                           |     1617|
 |University of Turku                                                                                                                                |     1606|
 |University of Oulu                                                                                                                                 |     1550|
-|Milano U                                                                                                                                           |     1542|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1535|
 |KIT                                                                                                                                                |     1374|
 |University College Cork                                                                                                                            |     1350|
