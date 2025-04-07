@@ -556,6 +556,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2035-8164": ["PAGEPress Publications", "Open Medical Publishing"], # Orthopedic Reviews
 	"1897-4279": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska 
 	"0022-9032": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska (print)
+	"0392-1921": ["SAGE Publications", "Cambridge University Press (CUP)"], # Diogenes 
+	"1467-7695": ["SAGE Publications", "Cambridge University Press (CUP)"], # Diogenes (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -942,6 +944,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1396-0296", # Dermatologic Therapy, Gold OA since 2023
     "1435-9456", # Animal Cognition, Gold OA since 2024
     "1016-2291", # Pediatric Neurosurgery, Subscribe to Open (S2O) in 2023
+    "0016-7568", # Geological Magazine, Gold OA since 2024
+    "1471-0684", # Theory and Practice of Logic Programming, Gold OA since 2024
+    "1092-8529", # CNS Spectrums, Gold OA since 2024 (Nov.)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
