@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 131,465 articles, published at 425 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 131,516 articles, published at 426 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 131,465 articles, published at 425 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15448|
-|DEAL Wiley Germany                               |    13855|
+|DEAL Springer Nature Germany                     |    15479|
+|DEAL Wiley Germany                               |    13875|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -411,6 +411,7 @@ This dataset contains information on 131,465 articles, published at 425 institut
 |Forschungsinstitut für biologischen Landbau FiBL                                                                                                   |       53|
 |Universität der Bundeswehr München                                                                                                                 |       53|
 |BTH Blekinge Institute of Technology                                                                                                               |       52|
+|Helmholtz Zentrum München                                                                                                                          |       51|
 |RISE Research Institutes of Sweden                                                                                                                 |       51|
 |St George's, University of London                                                                                                                  |       48|
 |Alfred-Wegener-Institut                                                                                                                            |       46|
