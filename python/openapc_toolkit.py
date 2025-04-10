@@ -1975,9 +1975,9 @@ def _process_isbn(row_num, isbn, isbn_handling):
                             ISBNHandling.ISBN_ERRORS[norm_res["error_type"]])
             return "NA"
 
-def _process_institution_value(institution, row_num, orig_file_path, offsetting_mode):
+def _process_institution_value(institution, row_num, orig_file_path):
     global INSTITUTIONS_MAP
-    if offsetting_mode or not os.path.isfile(INSTITUTIONS_FILE):
+    if not os.path.isfile(INSTITUTIONS_FILE):
         return institution
     if INSTITUTIONS_MAP is None:
         with open(INSTITUTIONS_FILE, "r") as ins_file:
@@ -2074,7 +2074,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         elif column_type == "is_hybrid" and index is not None:
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
         elif column_type == "institution" and index is not None:
-            current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path, offsetting_mode)
+            current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path)
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
