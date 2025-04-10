@@ -17,8 +17,10 @@ import sys
 from urllib.parse import quote_plus, urlencode
 from urllib.request import build_opener, urlopen, urlretrieve, HTTPErrorProcessor, Request
 from urllib.error import HTTPError, URLError
+from time import sleep
 import requests
 import xml.etree.ElementTree as ET
+import zipfile
 
 import mappings
 
@@ -356,36 +358,120 @@ class CSVColumn(object):
             self.overwrite = CSVColumn.OW_NEVER
             return old_value
 
-class DOAJAnalysis(object):
+class TempFileHandling(object):
+    """
+    Handle temporary files which need to be updated in regular intervals
+    """
 
     MSGS = {
-        "not_found": 'DOAJ offline copy not found at "{}", downloading ' +
+        "not_found": '{} offline copy not found at "{}", downloading ' +
                       'a fresh copy...',
-        "forced": 'Forced download of a fresh DOAJ offline copy to "{}"...',
-        "max_mdays": 'Your DOAJ offline copy at "{}" is {} days old. ' +
+        "forced": 'Forced download of a fresh {} offline copy to "{}"...',
+        "max_mdays": 'Your {} offline copy at "{}" is {} days old. ' +
                      'The limit is {} days, downloading a fresh copy...',
-        "backup": 'The previous offline copy was backed up as "{}".'
+        "backup": 'The previous offline copy was backed up as "{}".',
+        "no_url": "Either a url or a path to a local file containing " +
+                  "an url must be provided",
+        "local_file": "Could not access local path '{}'. This " +
+                      "file must exist and contain the URL to " +
+                      "the download file '{}{}'"
     }
 
-    def __init__(self, doaj_csv_file, force_update=False, max_mdays=None,
-                 backup=True, verbose=False):
+    def _unzip(self):
+        with zipfile.ZipFile(self.file_path, "r") as zip_file:
+            zip_file.extractall(self.temp_file_dir)
+
+    DECOMPRESSION_OPTIONS = {
+        "zip": "_unzip"
+    }
+
+    def __init__(self, file_name, file_ext, url=None, url_local_file=None, temp_file_dir="tempfiles", max_mdays=7):
+        if url is None and url_local_file is None:
+            raise Exception(self.MSGS["no_url"])
+        self.file_name = file_name
+        self.file_ext = file_ext
+        self.temp_file_dir = temp_file_dir
+        self.max_mdays = max_mdays
+        self.file_suffix = "." + file_ext if file_ext != "" else ""
+        self.file_path = os.path.join(temp_file_dir, file_name + self.file_suffix)
+        if url is not None:
+            self.url = url
+        else:
+            self.set_url_from_local_file(url_local_file)
+        if not os.path.isdir(temp_file_dir):
+            os.mkdir(temp_file_dir)
+
+    def set_url_from_local_file(self, url_local_file):
+        if not os.path.isfile(url_local_file):
+            msg = self.MSGS["local_file"].format(url_local_file,
+                                                 self.file_name,
+                                                 self.file_suffix)
+            raise Exception(msg)
+        with open(url_local_file, "r") as handle:
+            self.url = handle.read()
+
+    def get_file_mdate_days(self):
+        if not os.path.isfile(self.file_path):
+            return None
+        now = datetime.datetime.now()
+        then = datetime.datetime.fromtimestamp(os.path.getmtime(self.file_path))
+        timediff = now - then
+        return timediff.days
+
+    def prepare_file(self, force_update=False, make_backup=False, verbose=False, decompress=None):
+        """
+        Return a path to the temporary file, downloading a fresh copy
+        and creating a backup if necessary. 
+        """
+        if decompress is not None and decompress not in self.DECOMPRESSION_OPTIONS:
+            error_msg = "{} is no valid decompression option. Available choices: {}"
+            raise Exception(error_msg.format(decompress, ", ".join(self.DECOMPRESSION_OPTIONS.keys())))
+        file_mdays = self.get_file_mdate_days()
+        if file_mdays is not None:
+            if not force_update:
+                if file_mdays <= self.max_mdays:
+                    return self.file_path
+                elif verbose:
+                    msg = self.MSGS["max_mdays"]
+                    print_c(msg.format(self.file_name, self.file_path, file_mdays, self.max_mdays))
+            elif verbose:
+                msg = self.MSGS["forced"]
+                print_c(msg.format(self.file_name, self.file_path))
+        elif verbose:
+            msg = self.MSGS["not_found"]
+            print_c(msg.format(self.file_name, self.file_path))
+        backup_msg = None
+        if make_backup and file_mdays is not None:
+            then = datetime.datetime.fromtimestamp(os.path.getmtime(self.file_path))
+            mdate = then.strftime("%Y_%m_%d_%H_%M_%S")
+            backup_target = os.path.join(self.temp_file_dir, self.file_name + "_" + mdate + self.file_suffix)
+            if verbose:
+                backup_msg = self.MSGS['backup'].format(backup_target)
+            copy2(self.file_path, backup_target)
+        request = Request(self.url)
+        request.add_header("User-Agent", USER_AGENT)
+        with urlopen(request) as source:
+            with open(self.file_path, "wb") as dest:
+                copyfileobj(source, dest)
+        if decompress is not None:
+            if verbose:
+                print_c("Extracting compressed file ({})...".format(decompress))
+            decompression_func = getattr(self, self.DECOMPRESSION_OPTIONS[decompress])
+            decompression_func()
+        if verbose:
+            print_c("...Done!")
+            if backup_msg:
+                print_c(backup_msg)
+        return self.file_path
+
+class DOAJAnalysis(TempFileHandling):
+
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=False, max_mdays=7):
+        super().__init__("DOAJ", "csv", url="https://doaj.org/csv", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         self.doaj_issn_map = {}
         self.doaj_eissn_map = {}
         
-        if not os.path.isfile(doaj_csv_file):
-            if verbose:
-                print_c(self.MSGS['not_found'].format(doaj_csv_file))
-            doaj_csv_file = self.download_doaj_csv(doaj_csv_file, False, verbose)
-        elif force_update:
-            if verbose:
-                print_c(self.MSGS['forced'].format(doaj_csv_file))
-            doaj_csv_file = self.download_doaj_csv(doaj_csv_file, backup, verbose)
-        elif max_mdays is not None:
-            file_mdays = self.get_file_mdate_days(doaj_csv_file)
-            if file_mdays > max_mdays:
-                if verbose:
-                    print_c(self.MSGS['max_mdays'].format(doaj_csv_file, file_mdays, max_mdays))
-                doaj_csv_file = self.download_doaj_csv(doaj_csv_file, backup, verbose)
+        doaj_csv_file = self.prepare_file(force_update, make_backup, verbose)
 
         handle = open(doaj_csv_file, "r")
         reader = csv.DictReader(handle)
@@ -397,12 +483,6 @@ class DOAJAnalysis(object):
                 self.doaj_issn_map[issn] = journal_title
             if eissn:
                 self.doaj_eissn_map[eissn] = journal_title
-
-    def get_file_mdate_days(self, csv_file):
-        now = datetime.datetime.now()
-        then = datetime.datetime.fromtimestamp(os.path.getmtime(csv_file))
-        timediff = now - then
-        return timediff.days
 
     def lookup(self, any_issn):
         if any_issn in self.doaj_issn_map:
@@ -629,7 +709,68 @@ class DOABAnalysis(object):
     def download_doab_csv(self, target):
         urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
 
-class ISBNHandling(object):
+class ISSNLHandling(TempFileHandling):
+
+    ISSNL_FILE_PATTERN = "%Y%m%d.ISSN-to-ISSN-L.txt"
+    ISSN_L_RE = re.compile(r"^(?P<issn>\d{4}-\d{3}[\dxX])\t(?P<issn_l>\d{4}-\d{3}[\dxX])")
+
+    def __init__(self, temp_file_dir="tempfiles/issnltables", force_update=False, make_backup=True, verbose=True, max_mdays=7):
+        super().__init__("issnltables", "zip", url="http://www.issn.org/wp-content/uploads/2014/03/issnltables.zip", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+        self.temp_file_dir = temp_file_dir
+        self.verbose = verbose
+        self.prepare_file(force_update, make_backup, verbose, decompress="zip")
+        file_name =  self._find_latest_issnl_file()
+        self.mapping_table = self._prepare_mapping_table(file_name)
+
+    def get_issnl(self, issn):
+        if "-" not in issn:
+            issn = issn[:4] + "-"  + issn[4:]
+        issnl = self.mapping_table.get(issn)
+        if issnl is not None:
+            issnl = get_corrected_issn_l(issnl)
+        return issnl
+
+    def _find_latest_issnl_file(self):
+        latest_file_name = None
+        latest_file_date = None
+        for file_name in os.listdir(self.temp_file_dir):
+            try:
+                date = datetime.datetime.strptime(file_name, self.ISSNL_FILE_PATTERN)
+                if latest_file_date is None or date > latest_file_date:
+                    latest_file_date = date
+                    latest_file_name = file_name
+            except ValueError:
+                continue
+        if latest_file_name is None:
+            msg = "Could not find a file in {} matching the pattern {}"
+            raise Exception(msg.format(self.temp_file_dir, self.ISSNL_FILE_PATTERN))
+        if self.verbose:
+            msg = "Latest ISSN-L mapping file according to file name: {}"
+            print_c(msg.format(latest_file_name))
+        return latest_file_name
+
+    def _prepare_mapping_table(self, file_name):
+        table = {}
+        if self.verbose:
+            print_c("Preparing mapping table...")
+        itself = other = 0
+        file_path = os.path.join(self.temp_file_dir, file_name)
+        with open(file_path, "r") as handle:
+            for line in handle:
+                match = self.ISSN_L_RE.match(line)
+                if match:
+                    match_dict = match.groupdict()
+                    table[match_dict['issn']] = match_dict['issn_l']
+                    if match_dict['issn'] == match_dict['issn_l']:
+                        itself += 1
+                    else:
+                        other += 1
+        if self.verbose:
+            msg = "Done. ({} ISSNs are pointing to themselves as ISSN-L, {} to another value)"
+            print_c(msg.format(itself, other))
+        return table
+
+class ISBNHandling(TempFileHandling):
 
     # regex for 13-digit, unsplit ISBNs
     ISBN_RE = re.compile(r"^97[89]\d{10}$")
@@ -644,9 +785,9 @@ class ISBNHandling(object):
         3: "Input ISBN was split, but the segmentation is invalid"
     }
 
-    def __init__(self, range_file_path, range_file_update=False):
-        if not os.path.isfile(range_file_path) or range_file_update:
-            self.download_range_file(range_file_path)
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
+        super().__init__("ISBNRangeFile", "xml", url="http://www.isbn-international.org/export_rangemessage.xml", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+        range_file_path = self.prepare_file(force_update, make_backup, verbose)
         with open(range_file_path, "r") as range_file:
             range_file_content = range_file.read()
             range_file_root = ET.fromstring(range_file_content)
@@ -1112,10 +1253,10 @@ def _auto_atof(str_value):
     """
     str_value = str_value.strip()
     old_locale = locale.getlocale(locale.LC_NUMERIC)
-    if re.compile('\d+\.\d+').match(str_value):
+    if re.compile(r'\d+\.\d+').match(str_value):
         locale.setlocale(locale.LC_NUMERIC, locale.normalize('en.utf-8'))
         float_value = locale.atof(str_value)
-    elif re.compile('\d+\,\d+').match(str_value):
+    elif re.compile(r'\d+\,\d+').match(str_value):
         locale.setlocale(locale.LC_NUMERIC, locale.normalize('de.utf-8'))
         float_value = locale.atof(str_value)
     else:
@@ -1581,7 +1722,7 @@ def get_metadata_from_ror(ror_id):
     ret["success"] = True
     return ret
 
-def get_metadata_from_pubmed(doi_string):
+def get_metadata_from_pubmed(doi_string, retry=10):
     """
     Look up a DOI in Europe PMC and extract Pubmed ID and Pubmed Central ID
 
@@ -1589,6 +1730,9 @@ def get_metadata_from_pubmed(doi_string):
         doi_string: A string representing a doi. 'Pure' form (10.xxx),
         DOI Handbook notation (doi:10.xxx) or crossref-style
         (https://doi.org/10.xxx) are all acceptable.
+        retry: Max retries upon encountering malformed XML (PMC Rest API
+        may deliever a blank page in rare cases). Retries will occur after
+        a 3 seconds sleep interval.
     Returns:
         A dict with a key 'success'. If data extraction was successful,
         'success' will be True and the dict will have a second entry 'data'
@@ -1628,8 +1772,15 @@ def get_metadata_from_pubmed(doi_string):
         ret_value['success'] = False
         ret_value['error_msg'] = "URLError: {}".format(urle.reason)
     except ET.ParseError as etpe:
-        ret_value['success'] = False
-        ret_value['error_msg'] = "ElementTree Parse Error: {}".format(etpe.msg)
+        if retry > 0:
+            msg = ("Encountered a ParseError while reading XML from Pubmed, " +
+            "retrying after 3 seconds...")
+            logging.warning(msg)
+            sleep(3)
+            return get_metadata_from_pubmed(doi_string, retry - 1)
+        else:
+            ret_value['success'] = False
+            ret_value['error_msg'] = "ElementTree Parse Error: {}".format(etpe.msg)
     return ret_value
 
 def get_euro_exchange_rates(currency, frequency="D"):
@@ -1824,9 +1975,9 @@ def _process_isbn(row_num, isbn, isbn_handling):
                             ISBNHandling.ISBN_ERRORS[norm_res["error_type"]])
             return "NA"
 
-def _process_institution_value(institution, row_num, orig_file_path, offsetting_mode):
+def _process_institution_value(institution, row_num, orig_file_path):
     global INSTITUTIONS_MAP
-    if offsetting_mode or not os.path.isfile(INSTITUTIONS_FILE):
+    if not os.path.isfile(INSTITUTIONS_FILE):
         return institution
     if INSTITUTIONS_MAP is None:
         with open(INSTITUTIONS_FILE, "r") as ins_file:
@@ -1847,7 +1998,7 @@ def _process_institution_value(institution, row_num, orig_file_path, offsetting_
     return institution
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                doab_analysis, doaj_analysis, no_crossref_lookup=False, no_pubmed_lookup=False,
+                doab_analysis, doaj_analysis, issnl_handling=None, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, no_title_lookup=False, preprint_auto_accept=False, 
                 round_monetary=False, offsetting_mode=None, orig_file_path=None, crossref_max_retries=3):
     """
@@ -1869,6 +2020,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         additional_isbn_columns: A list of ints designating row indexes as additional ISBN sources.
         doab_analysis: A DOABanalysis object to perform an offline DOAB lookup
         doaj_analysis: A DOAJAnalysis object to perform offline DOAJ lookups
+        issnl_handling: An ISSNLHandling object to perform ISSN-L enrichment
         no_crossref_lookup: If true, no metadata will be imported from crossref.
         no_pubmed_lookup: If true, no_metadata will be imported from pubmed.
         no_doaj_lookup: If true, journals will not be checked for being
@@ -1922,7 +2074,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         elif column_type == "is_hybrid" and index is not None:
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
         elif column_type == "institution" and index is not None:
-            current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path, offsetting_mode)
+            current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path)
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
@@ -2025,6 +2177,13 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                                        doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
                                        no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
+        # include a possible ISSN-L
+        if issnl_handling is not None and record_type == "journal-article":
+            for issn_field in ["issn", "issn_print", "issn_electronic"]:
+                issnl = issnl_handling.get_issnl(current_row[issn_field])
+                if issnl is not None:
+                    current_row["issn_l"] = issnl
+                    break
         # include pubmed metadata
         if not no_pubmed_lookup and record_type == "journal-article":
             pubmed_result = get_metadata_from_pubmed(doi)

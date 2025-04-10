@@ -26,7 +26,8 @@ PUBLISHER_IDENTITY = [
     (["Wiley-Blackwell"], ["British Institute of Radiology"]),
     (["jovis Verlag"], ["De Gruyter"]), # jovis is an imprint of De Gruyter
     (["Joule Inc."], ["CMA Impact Inc."]),
-    (["CRC Press"], ["Routledge"]) # both imprints of T&F, both share a website and present their portfolio together
+    (["CRC Press"], ["Routledge"]), # both imprints of T&F, both share a website and present their portfolio together
+    (["edition text + kritik"], ["De Gruyter"])
 ]
 
 
@@ -128,6 +129,7 @@ JOURNAL_OWNER_CHANGED = {
     "0883-6612": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine
     "1532-4796": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine (electronic)
     "0013-0095": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography
+    "1944-8287": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography (electronic)
     "2157-6564": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine
     "2157-6580": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine (electronic)
     "0002-9122": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany
@@ -545,8 +547,17 @@ JOURNAL_OWNER_CHANGED = {
 	"1733-8387": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria 
 	"1897-1695": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria (electronic)
 	"1365-2354": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care 
-	"0961-5423": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care (linking)
-
+	"0961-5423": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care (linking
+	"2641-5275": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Biomaterial Investigations in Dentistry
+	"1760-5393": ["CAIRN", "OpenEdition"], # Revue d'anthropologie des connaissances 
+	"2424-7723": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting 
+	"2424-8002": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting (electronic)
+	"2049-0801": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Annals of Medicine & Surgery
+	"2035-8164": ["PAGEPress Publications", "Open Medical Publishing"], # Orthopedic Reviews
+	"1897-4279": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska 
+	"0022-9032": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska (print)
+	"0392-1921": ["SAGE Publications", "Cambridge University Press (CUP)"], # Diogenes 
+	"1467-7695": ["SAGE Publications", "Cambridge University Press (CUP)"], # Diogenes (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -923,6 +934,19 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0001-0782", # Communications of the ACM, Gold OA since 2024
     "1365-2354", # European Journal of Cancer Care, Gold OA since 2023
     "0961-5423", # European Journal of Cancer Care, Gold OA since 2023 (linking)
+    "0891-6934", # Autoimmunity, Gold OA since 2023
+    "0018-442X", # HOMO, Gold OA since 2022
+    "0378-3820", # Fuel Processing Technology, Gold OA since 2024
+    "2573-8348", # Cancer Reports, Gold OA since 2021
+    "1591-9528", # Clinical and Experimental Medicine, Gold OA since 2024
+    "1742-3600", # Episteme, Gold OA since 2024
+    "1478-9515", # Palliative and Supportive Care, Gold OA since 2025
+    "1396-0296", # Dermatologic Therapy, Gold OA since 2023
+    "1435-9456", # Animal Cognition, Gold OA since 2024
+    "1016-2291", # Pediatric Neurosurgery, Subscribe to Open (S2O) in 2023
+    "0016-7568", # Geological Magazine, Gold OA since 2024
+    "1471-0684", # Theory and Practice of Logic Programming, Gold OA since 2024
+    "1092-8529", # CNS Spectrums, Gold OA since 2024 (Nov.)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
