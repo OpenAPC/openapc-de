@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 131,537 articles, published at 427 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 131,752 articles, published at 428 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 131,537 articles, published at 427 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15486|
-|DEAL Wiley Germany                               |    13889|
+|DEAL Springer Nature Germany                     |    15577|
+|DEAL Wiley Germany                               |    14013|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -316,6 +316,7 @@ This dataset contains information on 131,537 articles, published at 427 institut
 |University of Reading                                                                                                                              |      226|
 |University of Natural Resources and Life Sciences Vienna (BOKU)                                                                                    |      219|
 |Queen's University Belfast                                                                                                                         |      217|
+|FU Berlin                                                                                                                                          |      215|
 |Kiel U                                                                                                                                             |      214|
 |Augsburg U                                                                                                                                         |      208|
 |Tilburg University                                                                                                                                 |      208|
