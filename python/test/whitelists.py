@@ -947,6 +947,24 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0016-7568", # Geological Magazine, Gold OA since 2024
     "1471-0684", # Theory and Practice of Logic Programming, Gold OA since 2024
     "1092-8529", # CNS Spectrums, Gold OA since 2024 (Nov.)
+    "0022-3778", # Journal of Plasma Physics, Gold OA since 2024 (Sept.)
+    "0962-4929", # Acta Numerica, Gold OA since 2025
+    "1740-0228", # Journal of Global History, Gold OA since 2024
+    "2057-5637", # European Journal of International Security, Gold OA since 2025
+    "0922-1565", # Leiden Journal of International Law, Gold OA since 2025
+    "1816-3831", # International Review of the Red Cross, Gold OA since 2025
+    "1469-3569", # Business and Politics, Gold OA since 2024 (Oct.)
+    "1744-1331", # Health Economics, Policy and Law, Gold OA since 2024 (Aug.)
+    "0018-246X", # The Historical Journal, Gold OA since 2024 (Aug.)
+    "0954-3945", # Language Variation and Change, Gold OA since 2024 (Oct.)
+    "0147-5479", # International Labor and Working-Class History, Gold OA since 2024 (June)
+    "0007-1234", # British Journal of Political Science, Gold OA since 2024 (July)
+    "1867-299X", # European Journal of Risk Regulation, Gold OA since 2025
+    "1866-9808", # Language and Cognition, Gold OA since 2023
+    "1755-7739", # European Political Science Review, Gold OA since 2023
+    "2049-8470", # Political Science Research and Methods, Gold OA since 2024 (Aug.)
+    "0094-8373", # Paleobiology, Gold OA since 2024 (Nov.)
+    
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
