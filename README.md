@@ -279,6 +279,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Pädagogische Hochschule Zürich](https://phzh.ch/ueber-die-phzh/campus/bibliothek/open-access/)
 - [Schwyz University of Teacher Education](https://www.phsz.ch/en/)
 - [St.Gallen University of Teacher Education](https://www.phsg.ch/en)
+- [Swiss Distance University Institute](https://unidistance.ch/en/)
 - [Swiss Federal University for Vocational Education and Training](https://www.sfuvet.swiss/)
 - [Swiss National Science Foundation (SNSF)](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Swiss Ornithological Institute](https://www.vogelwarte.ch/de/home/)
