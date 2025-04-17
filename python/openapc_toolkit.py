@@ -1722,6 +1722,28 @@ def get_metadata_from_ror(ror_id):
     ret["success"] = True
     return ret
 
+def search_institution_in_ror(name):
+    """
+    Look up an institution (exact name) in ROR and extract all metadata.
+    May return more than one record.
+    """
+    ret = {"success": False}
+    url = "https://api.ror.org/v2/organizations?"
+    quoted_name = '"{}"'.format(name)
+    url = url + urlencode({'query': quoted_name})
+    data = {}
+    try:
+        req = Request(url)
+        response = urlopen(req)
+        content_string = response.read()
+        data = json.loads(content_string)
+    except HTTPError as httpe:
+        ret['error_msg'] = 'HTTPError: {} - {}'.format(httpe.code, httpe.reason)
+        return ret
+    ret["data"] = data
+    ret["success"] = True
+    return ret
+
 def get_metadata_from_pubmed(doi_string, retry=10):
     """
     Look up a DOI in Europe PMC and extract Pubmed ID and Pubmed Central ID
