@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |241,560 | 487,282,698    | 457 |
+| Articles         |241,569 | 487,297,930    | 458 |
 | Monographs       |2,107 | 13,781,332    | 82 |
 
 ## How to access the data?
@@ -107,6 +107,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Otto-von-Guericke-Universität Magdeburg](https://www.ub.ovgu.de/Publizieren+_+Open+Access/Open+Access.html)
 - [Philipps University of Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds)
 - [RWTH Aachen](https://www.ub.rwth-aachen.de/cms/ub/Forschung/Wissenschaftliches-Publizieren/~iigq/Open-Access-Die-neue-Art-zu-publizieren/)
+- [Regensburg University of Applied Sciences](https://www.oth-regensburg.de)
 - [Rheinische Friedrich-Wilhelms-Universität Bonn](https://www.open-access.uni-bonn.de/de)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
@@ -791,11 +792,11 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 241,560 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 457 research performing institutions and research funders. 
+The article data set contains information on 241,569 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 458 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 487,282,698. The average payment was € 2,017 and the median was € 1,868.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 487,297,930. The average payment was € 2,017 and the median was € 1,868.
 
-177,988 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 325,053,651, including value-added tax; the average payment was € 1,826 (median =  € 1,716, SD = € 874).
+177,997 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 325,068,883, including value-added tax; the average payment was € 1,826 (median =  € 1,716, SD = € 874).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 63,572 articles in the data set were published in hybrid journals. Total expenditure amounts to 162,229,047 €; the average fee was € 2,552 (median =  € 2,500, SD = € 1,110).
 
@@ -828,8 +829,8 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2019   |      17,538|   1,703|     1,630|    10.7 -  7,684|           7,064|       2,535|         2,498|    75.3 -  9,500|
 |2020   |      21,250|   1,716|     1,683|     0.2 -  8,906|           4,480|       2,493|         2,532|    16.6 -  7,416|
 |2021   |      26,050|   1,825|     1,794|    27.0 -  8,341|           3,513|       2,548|         2,506|    30.2 - 11,400|
-|2022   |      28,919|   2,101|     1,999|    12.4 - 11,175|           2,962|       2,882|         2,730|     2.1 - 14,607|
-|2023   |      21,191|   2,283|     2,160|    17.4 - 10,138|           2,910|       3,013|         2,820|   106.4 - 11,895|
+|2022   |      28,920|   2,101|     1,999|    12.4 - 11,175|           2,962|       2,882|         2,730|     2.1 - 14,607|
+|2023   |      21,199|   2,283|     2,160|    17.4 - 10,138|           2,910|       3,013|         2,820|   106.4 - 11,895|
 |2024   |       2,356|   2,385|     2,276|   100.0 -  8,048|             285|       3,757|         3,385|   231.3 - 12,554|
 |2025   |           5|   3,283|     2,376| 1,913.5 -  5,022|              NA|          NA|            NA|               NA|
 
