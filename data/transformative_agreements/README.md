@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 132,079 articles, published at 430 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 132,233 articles, published at 431 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 132,079 articles, published at 430 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15593|
-|DEAL Wiley Germany                               |    14022|
+|DEAL Springer Nature Germany                     |    15666|
+|DEAL Wiley Germany                               |    14103|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -346,6 +346,7 @@ This dataset contains information on 132,079 articles, published at 430 institut
 |Scuola Normale Superiore                                                                                                                           |      157|
 |Lancaster University                                                                                                                               |      155|
 |Nottingham Trent University                                                                                                                        |      154|
+|Potsdam U                                                                                                                                          |      154|
 |Linnaeus University                                                                                                                                |      153|
 |GFZ-Potsdam                                                                                                                                        |      152|
 |University of Strathclyde                                                                                                                          |      151|

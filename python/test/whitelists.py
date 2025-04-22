@@ -964,7 +964,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1755-7739", # European Political Science Review, Gold OA since 2023
     "2049-8470", # Political Science Research and Methods, Gold OA since 2024 (Aug.)
     "0094-8373", # Paleobiology, Gold OA since 2024 (Nov.)
-    
+    "1383-4924", # The Journal of Comparative Germanic Linguistics, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
