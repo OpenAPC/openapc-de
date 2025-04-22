@@ -1722,6 +1722,28 @@ def get_metadata_from_ror(ror_id):
     ret["success"] = True
     return ret
 
+def search_institution_in_ror(name):
+    """
+    Look up an institution (exact name) in ROR and extract all metadata.
+    May return more than one record.
+    """
+    ret = {"success": False}
+    url = "https://api.ror.org/v2/organizations?"
+    quoted_name = '"{}"'.format(name)
+    url = url + urlencode({'query': quoted_name})
+    data = {}
+    try:
+        req = Request(url)
+        response = urlopen(req)
+        content_string = response.read()
+        data = json.loads(content_string)
+    except HTTPError as httpe:
+        ret['error_msg'] = 'HTTPError: {} - {}'.format(httpe.code, httpe.reason)
+        return ret
+    ret["data"] = data
+    ret["success"] = True
+    return ret
+
 def get_metadata_from_pubmed(doi_string, retry=10):
     """
     Look up a DOI in Europe PMC and extract Pubmed ID and Pubmed Central ID
@@ -1975,9 +1997,9 @@ def _process_isbn(row_num, isbn, isbn_handling):
                             ISBNHandling.ISBN_ERRORS[norm_res["error_type"]])
             return "NA"
 
-def _process_institution_value(institution, row_num, orig_file_path, offsetting_mode):
+def _process_institution_value(institution, row_num, orig_file_path):
     global INSTITUTIONS_MAP
-    if offsetting_mode or not os.path.isfile(INSTITUTIONS_FILE):
+    if not os.path.isfile(INSTITUTIONS_FILE):
         return institution
     if INSTITUTIONS_MAP is None:
         with open(INSTITUTIONS_FILE, "r") as ins_file:
@@ -2074,7 +2096,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         elif column_type == "is_hybrid" and index is not None:
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
         elif column_type == "institution" and index is not None:
-            current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path, offsetting_mode)
+            current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path)
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
