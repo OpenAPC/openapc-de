@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 132,233 articles, published at 431 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 132,243 articles, published at 432 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 132,233 articles, published at 431 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15666|
-|DEAL Wiley Germany                               |    14103|
+|DEAL Springer Nature Germany                     |    15672|
+|DEAL Wiley Germany                               |    14107|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -510,6 +510,7 @@ This dataset contains information on 132,233 articles, published at 431 institut
 |University of Education Freiburg                                                                                                                   |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |HAWK Hildesheim/Holzminden/Göttingen                                                                                                               |       10|
+|Regensburg University of Applied Sciences                                                                                                          |       10|
 |Darmstadt University of Applied Sciences                                                                                                           |        9|
 |Haaga-Helia University of Applied Sciences                                                                                                         |        9|
 |Social Insurance Institution of Finland                                                                                                            |        9|
