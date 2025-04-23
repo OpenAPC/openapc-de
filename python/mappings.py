@@ -719,7 +719,8 @@ JOURNAL_MAPPINGS = {
     "Diabetes Technology &amp; Therapeutics": "Diabetes Technology & Therapeutics",
     "Evolution &amp; Development": "Evolution & Development",
     "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology",
-    "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports"
+    "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports",
+    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung"
 }
 
 COLUMN_NAMES = {
