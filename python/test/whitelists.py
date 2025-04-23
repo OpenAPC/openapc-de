@@ -7,7 +7,7 @@ PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
     (["SAGE Publications"], ["Pion Ltd"]),
-    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
+    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)", "Hindawi Publishing Corporation"]),
     (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
     (["Mineralogical Society of America", "Geological Society of America"], ["GeoScienceWorld"]),
     (["International Scientific Literature"], ["International Scientific Information, Inc."]),
@@ -89,16 +89,11 @@ JOURNAL_OWNER_CHANGED = {
     "1096-7508": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review (linking)
     "1528-3658": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine 
     "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine (linking)
-    "1555-4309": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging
-    "1555-4317": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging (electronic)
     "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
-    "0197-6729": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation
-    "2042-3195": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation (electronic)
     "0094-8276": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters"
     "1944-8007": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters (electronic)"
     "8755-1209": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics
     "1944-9208": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics (linking)
-    "0161-0457": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Scanning
     "2169-9380": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics
     "2169-9402": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics (electronic)
     "1542-7390": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Space Weather
@@ -142,8 +137,6 @@ JOURNAL_OWNER_CHANGED = {
     "1869-6716": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine
     "1613-9860": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine (electronic)
     "0883-8305": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography
-    "1099-0526": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Complexity
-    "1076-2787": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Complexity (print)
     "2333-5084": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Earth and Space Science
     "2041-8213": ["IOP Publishing", "American Astronomical Society"], # The Astrophysical Journal
     "0024-6107": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society
@@ -394,18 +387,11 @@ JOURNAL_OWNER_CHANGED = {
 	"1532-298X": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"], # The Plant Cell (electronic)
 	"0011-183X": ["Crop Science Society of America", "Wiley-Blackwell"], # Crop Science 
 	"1435-0653": ["Crop Science Society of America", "Wiley-Blackwell"], # Crop Science (electronic)
-	"1365-2095": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Nutrition 
-	"1353-5773": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Nutrition (print)
-	"2475-0387": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Theoretical Social Psychology
-	"1365-2109": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research 
-	"1355-557X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research (print)
 	"2095-9273": ["Springer Nature", "Elsevier BV"], # Science Bulletin 
 	"0014-3820": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution 
 	"1558-5646": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution (electronic)
 	"0004-8038": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology 
 	"2732-4613": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology (electronic)
-	"1865-1682": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases 
-	"1865-1674": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases (print)
 	"0961-7671": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice 
 	"2042-7174": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice (electronic)
 	"0307-6938": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology 
@@ -427,21 +413,11 @@ JOURNAL_OWNER_CHANGED = {
 	"2042-7158": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Pharmacy and Pharmacology (electronic)
 	"0309-8249": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education 
 	"1467-9752": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education (electronic)
-	"1742-1241": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice 
-	"1368-5031": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice (print)
 	"2241-5793": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki 
 	"1790-045X": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki (linking)
 	"0025-5300": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing 
 	"2195-8572": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing (electronic)
-	"1755-0238": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research 
-	"1322-7130": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research (print)
-	"1524-4741": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal 
-	"1075-122X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal (print)
 	"2056-3744": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution Letters 
-	"1545-2263": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring 
-	"1545-2255": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring (print)
-	"1365-2524": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Health & Social Care in the Community 
-	"0966-0410": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Health & Social Care in the Community (linking)
 	"2471-254X": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology Communications 
 	"2375-1916": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives 
 	"2375-1924": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives (electronic)
@@ -455,18 +431,10 @@ JOURNAL_OWNER_CHANGED = {
 	"1743-9159": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery
 	"2168-1813": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology 
 	"2168-1805": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology (print)
-	"1399-5448": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Pediatric Diabetes 
-	"1399-543X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Pediatric Diabetes (print)
-	"1600-0404": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica 
-	"0001-6314": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica (print)
 	"2000-656X": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
 	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery (electronic)
 	"0024-1164": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia 
 	"1502-3931": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia (electronic)
-	"1932-7005": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine 
-	"1932-6254": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine (linking)
-	"1520-6394": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety 
-	"1091-4269": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety (print)
 	"2516-3817": ["Elsevier", "Adjacent Digital Politics Ltd"], # Open Access Government
 	"1342-078X": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine 
 	"1347-4715": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine (electronic)
@@ -484,8 +452,6 @@ JOURNAL_OWNER_CHANGED = {
 	"1097-6647": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance (linking)
 	"1355-8145": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Cell Stress and Chaperones
 	"1071-3581": ["Springer Nature", "Elsevier BV"], # Journal of Nuclear Cardiology 
-	"1745-4549": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation 
-	"0145-8892": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation (print)
 	"1538-7836": ["Wiley-Blackwell", "Elsevier BV"], # Journal of Thrombosis and Haemostasis
 	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
     "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
@@ -501,16 +467,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1010-061X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Evolutionary Biology (linking)
 	"1057-2414": ["Wiley-Blackwell", "Informa UK Limited"], # International Journal of Nautical Archaeology 
 	"1095-9270": ["Wiley-Blackwell", "Informa UK Limited"], # International Journal of Nautical Archaeology (electronic)
-	"1098-1004": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Mutation 
-	"1059-7794": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Mutation (print)
-	"1365-2834": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management 
-	"0966-0429": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management (print)
-	"2578-1863": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Behavior and Emerging Technologies
 	"1757-1146": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Foot and Ankle Research
 	"1672-0229": ["Elsevier BV", "Oxford University Press (OUP)"], # Genomics, Proteomics & Bioinformatics 
 	"2210-3244": ["Elsevier BV", "Oxford University Press (OUP)"], # Genomics, Proteomics & Bioinformatics (electronic) 
-	"1439-0426": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology 
-	"0175-8659": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology (print)
 	"1876-2883": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes 
 	"1876-2891": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes (electronic)
 	"1098-5549": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology 
@@ -539,15 +498,11 @@ JOURNAL_OWNER_CHANGED = {
 	"2352-4588": ["Wageningen Academic Publishers", "Brill"], # Journal of Insects as Food and Feed
 	"1751-7362": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal 
 	"1751-7370": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal (electronic) 
-    "1099-114X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research 
-    "0363-907X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research (print)
     "2050-1161": ["Elsevier BV", "Oxford University Press (OUP)"], # Sexual Medicine
     "0277-2116": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Journal of Pediatric Gastroenterology and Nutrition 
 	"1536-4801": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Journal of Pediatric Gastroenterology and Nutrition (electronic)
 	"1733-8387": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria 
 	"1897-1695": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria (electronic)
-	"1365-2354": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care 
-	"0961-5423": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # European Journal of Cancer Care (linking
 	"2641-5275": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Biomaterial Investigations in Dentistry
 	"1760-5393": ["CAIRN", "OpenEdition"], # Revue d'anthropologie des connaissances 
 	"2424-7723": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting 
