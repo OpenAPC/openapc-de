@@ -1,7 +1,7 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
-"Mälardalen University",2024,1867.69,"10.1142/s1363919624500348",TRUE,"World Scientific Pub Co Pte Ltd","International Journal of Innovation Management","1363-9196","1363-9196","1757-5877","1363-9196",NA,TRUE,NA,NA,NA,NA,FALSE
+"Mälardalen University",2024,1867.69,"10.1142/s1363919624500348",TRUE,"World Scientific Pub Co Pte Lt","International Journal of Innovation Management","1363-9196","1363-9196","1757-5877","1363-9196",NA,TRUE,NA,NA,NA,NA,FALSE
 "Mälardalen University",2024,445.72,"10.18848/2326-9960/cgp/11-25",TRUE,"Common Ground Research Networks","The International Journal of Social, Political and Community Agendas in the Arts","2326-9960","2326-9960","2327-2104","2326-9960",NA,TRUE,NA,NA,NA,NA,FALSE
-"Mälardalen University",2024,768.69,"10.16993/sjdr.1167",TRUE,"Stockholm University Press","Scandinavian Journal of Disability Research","1745-3011","1745-3011",NA,"1501-7419",NA,TRUE,NA,NA,NA,NA,TRUE
+"Mälardalen University",2024,768.69,"10.16993/sjdr.1167",FALSE,"Stockholm University Press","Scandinavian Journal of Disability Research","1745-3011","1745-3011",NA,"1501-7419",NA,TRUE,NA,NA,NA,NA,TRUE
 "Mälardalen University",2024,2247.44,"10.3390/f15111955",FALSE,"MDPI AG","Forests","1999-4907",NA,"1999-4907","1999-4907","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Mälardalen University",2024,838.6,"10.3390/jcp4040039",FALSE,"MDPI AG","Journal of Cybersecurity and Privacy","2624-800X",NA,"2624-800X","2624-800X","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Mälardalen University",2024,1188.42,"10.3390/logistics8040094",FALSE,"MDPI AG","Logistics","2305-6290",NA,"2305-6290","2305-6290","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -22,7 +22,7 @@
 "Mälardalen University",2024,2129.31,"10.3390/en17102246",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Mälardalen University",2024,1829.36,"10.3390/horticulturae10040336",FALSE,"MDPI AG","Horticulturae","2311-7524",NA,"2311-7524","2311-7524","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Mälardalen University",2024,1000.56,"10.1109/ojse.2024.3357243",FALSE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Open Journal of Systems Engineering","2771-9987",NA,"2771-9987","2771-9987","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,TRUE
-"Mälardalen University",2024,1553.91,"10.7717/peerj-cs.1894",TRUE,"PeerJ","PeerJ Computer Science","2376-5992",NA,"2376-5992","2376-5992","https://creativecommons.org/licenses/by/4.0/",TRUE,"38660216","PMC11042000",NA,NA,TRUE
+"Mälardalen University",2024,1553.91,"10.7717/peerj-cs.1894",FALSE,"PeerJ","PeerJ Computer Science","2376-5992",NA,"2376-5992","2376-5992","https://creativecommons.org/licenses/by/4.0/",TRUE,"38660216","PMC11042000",NA,NA,TRUE
 "Mälardalen University",2024,1344.88,"10.3390/infrastructures9020024",FALSE,"MDPI AG","Infrastructures","2412-3811",NA,"2412-3811","2412-3811","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Mälardalen University",2024,2212.09,"10.3390/en17020522",FALSE,"MDPI AG","Energies","1996-1073",NA,"1996-1073","1996-1073","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Mälardalen University",2024,3145.1,"10.1063/5.0181311",TRUE,"AIP Publishing","Journal of Renewable and Sustainable Energy","1941-7012",NA,"1941-7012","1941-7012","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
