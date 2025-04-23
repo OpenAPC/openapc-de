@@ -1,11 +1,11 @@
 institution,period,euro,doi,backlist_oa,publisher,book_title,isbn_1,isbn_2,isbn_3
 lu,45295,13369.39,,FALSE,The University of Oxford,Global Antitrust and Sustainability,9780192864505,,
-lu,45306, 9860.11,,FALSE,Brill N.V.,Shi'i Materiality beyond Karbala,9789004691377,,
+lu,45306, 9860.11,10.1163/9789004691377,FALSE,Brill N.V.,Shi'i Materiality beyond Karbala,9789004691377,,
 lu,45323,11451.29,10.51952/9781529225402,FALSE,University of Bristol,Remaking Money for a Sustainable Future,,9781529225372,9781529225396
 lu,45352,11463.90,10.4324/9780429952968,FALSE,Informa Uk Ltd,"Law, Society and Corruption",,,9780429952968
 lu,45352,11811.01,10.4324/9781003351092,FALSE,Informa UK Ltd,Serving aristocracy,,,9781003351092
 lu,45352,12550.65,10.1007/978-3-031-46057-9,FALSE,Springer Nature,Women’s Drug Use in Everyday Life,9783031460562,,9783031460579
-lu,45384,46372.34,,FALSE,Edward Elgar Publishing Ltd,Research Handbook on Sustainability and Competition Law,,9781802204650,9781802204667
+lu,45384,46372.34,10.4337/9781802204667,FALSE,Edward Elgar Publishing Ltd,Research Handbook on Sustainability and Competition Law,,9781802204650,9781802204667
 lu,45413,13040.19,10.7765/9789198557824,FALSE,The University of Manchester,Raoul Wallenberg: Life and legacy,,,
 lu,45462,17398.76,10.37852/oblu.260,FALSE,Nordic Academic Press AB,Genusvetenskapliga forskningsmetoder,,9789189361812,9789181041125
 lu,45444, 7162.49,10.1017/9781009161114,FALSE,University of Cambridge,Phonetics in the Brain,,,9781009161114
@@ -22,5 +22,5 @@ lu,45566,12871.10,10.1007/978-3-031-53233-7,FALSE,Springer Nature,Justice and Re
 lu,45566, 1424.18,,FALSE,Informa Uk Ltd,Critical Children's Rights Studies,9781003510284,,
 lu,45597, 3704.20,,FALSE,University of Cambridge,Sustainability and EU Migration Law,,,9781009573122
 lu,45614,13908.93,10.1007/978-3-031-71444-3,FALSE,Springer Nature,Civil Society Elites in the Italian Third Sector,9783031714436,,9783031714443
-lu,45614, 2559.38,,TRUE,Taylor & Francis,The Production of Gendered Knowledge of War,9781032869988,,
+lu,45614, 2559.38,10.4324/9781003530411,TRUE,Taylor & Francis,The Production of Gendered Knowledge of War,9781032869988,,
 lu,45628, 7166.25,10.4324/9781003327707,FALSE,Taylor & Francis,Hip Heritage and Museum Practices in Contemporary Hybrid Markets,,,9781003327707
