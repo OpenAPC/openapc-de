@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 132,593 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 132,666 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 132,593 articles, published at 433 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15879|
-|DEAL Wiley Germany                               |    14250|
+|DEAL Springer Nature Germany                     |    15924|
+|DEAL Wiley Germany                               |    14278|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -385,6 +385,7 @@ This dataset contains information on 132,593 articles, published at 433 institut
 |Sheffield Hallam University                                                                                                                        |       82|
 |TiHo Hannover                                                                                                                                      |       81|
 |University West                                                                                                                                    |       80|
+|Osnabrück U                                                                                                                                        |       79|
 |Hochschule Luzern                                                                                                                                  |       78|
 |University of Portsmouth                                                                                                                           |       78|
 |Royal Botanic Gardens                                                                                                                              |       76|
@@ -536,7 +537,6 @@ This dataset contains information on 132,593 articles, published at 433 institut
 |HS Düsseldorf                                                                                                                                      |        6|
 |Netherlands Institute for Neuroscience                                                                                                             |        6|
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                                                                                         |        6|
-|Osnabrück U                                                                                                                                        |        6|
 |TH Brandenburg                                                                                                                                     |        6|
 |TH Ingolstadt                                                                                                                                      |        6|
 |TH Wildau                                                                                                                                          |        6|
