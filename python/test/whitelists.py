@@ -327,8 +327,8 @@ JOURNAL_OWNER_CHANGED = {
     "1535-3508": ["Hindawi Publishing Corporation", "SAGE Publications"], # Molecular Imaging (linking)
     "1756-591X": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"], # Metallomics
     "1756-5901": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"], # Metallomics (linking)
-    "1745-3682": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica
-    "1745-3674": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica (linking)
+    "1745-3682": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Orthopaedica
+    "1745-3674": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Orthopaedica (linking)
     "1432-2277": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International
     "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International (linking)
     "0022-0302": ["American Dairy Science Association", "Elsevier BV"], # Journal of Dairy Science
@@ -340,8 +340,8 @@ JOURNAL_OWNER_CHANGED = {
     "1686-4360": ["Informa UK Limited", "CAD Solutions, LLC"], # Computer-Aided Design and Applications
     "2535-5449": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden
     "0800-1669": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden (linking)
-    "1651-2081": ["Acta Dermato-Venereologica", "Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine
-    "1650-1977": ["Acta Dermato-Venereologica", "Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine (linking)
+    "1651-2081": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine
+    "1650-1977": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine (linking)
     "1083-7159": [ "Wiley-Blackwell", "Oxford University Press (OUP)"], # The Oncologist
     "1549-490X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Oncologist (electronic)
     "1178-2234": ["Libertas Academica, Ltd.", "SAGE Publications"], # Breast Cancer: Basic and Clinical Research
@@ -429,10 +429,10 @@ JOURNAL_OWNER_CHANGED = {
 	"0270-9139": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology
     "1527-3350": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology (electronic)
 	"1743-9159": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery
-	"2168-1813": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology 
-	"2168-1805": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology (print)
-	"2000-656X": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
-	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery (electronic)
+	"2168-1813": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Scandinavian Journal of Urology 
+	"2168-1805": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Scandinavian Journal of Urology (print)
+	"2000-656X": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
+	"2000-6764": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery (electronic)
 	"0024-1164": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia 
 	"1502-3931": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia (electronic)
 	"2516-3817": ["Elsevier", "Adjacent Digital Politics Ltd"], # Open Access Government
@@ -513,6 +513,20 @@ JOURNAL_OWNER_CHANGED = {
 	"0022-9032": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska (print)
 	"0392-1921": ["SAGE Publications", "Cambridge University Press (CUP)"], # Diogenes 
 	"1467-7695": ["SAGE Publications", "Cambridge University Press (CUP)"], # Diogenes (electronic)
+	"1743-5889": ["Future Medicine Ltd", "Informa UK Limited"], # Nanomedicine 
+	"1748-6963": ["Future Medicine Ltd", "Informa UK Limited"], # Nanomedicine (electronic)
+	"1387-2877": ["IOS Press", "SAGE Publications"], # Journal of Alzheimer's Disease 
+	"1875-8908": ["IOS Press", "SAGE Publications"], # Journal of Alzheimer's Disease (electronic)
+	"1750-1911": ["Future Medicine Ltd", "Informa UK Limited"], # Epigenomics 
+	"1750-192X": ["Future Medicine Ltd", "Informa UK Limited"], # Epigenomics (electronic)
+	"1651-226X": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Oncologica 
+	"0284-186X": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Oncologica (linking)
+	"1651-2057": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Acta Dermato Venereologica 
+	"0001-5555": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Acta Dermato Venereologica (print)
+	"1048-891X": ["Ovid Technologies (Wolters Kluwer Health)", "BMJ"], # International Journal of Gynecological Cancer
+	"0736-6205": ["Future Science, LTD", "Informa UK Limited"], # BioTechniques 
+	"1940-9818": ["Future Science, LTD", "Informa UK Limited"], # BioTechniques (electronic)
+	"2161-2234": ["Wiley-Blackwell", "Philosophy Documentation Center"], # Thought: A Journal of Philosophy 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -920,6 +934,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2049-8470", # Political Science Research and Methods, Gold OA since 2024 (Aug.)
     "0094-8373", # Paleobiology, Gold OA since 2024 (Nov.)
     "1383-4924", # The Journal of Comparative Germanic Linguistics, Gold OA since 2023
+    "1651-226X", # Acta Oncologica, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
