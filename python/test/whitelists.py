@@ -935,6 +935,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0094-8373", # Paleobiology, Gold OA since 2024 (Nov.)
     "1383-4924", # The Journal of Comparative Germanic Linguistics, Gold OA since 2023
     "1651-226X", # Acta Oncologica, Gold OA since 2024
+    "0142-0615", # International Journal of Electrical Power & Energy Systems, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
