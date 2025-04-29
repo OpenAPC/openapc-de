@@ -12,6 +12,7 @@ All datasets
 - DLRopenAPC_2021.csv
 - DLRopenAPC_2022.csv
 - DLRopenAPC_2023.csv
+- DLRopenAPC_2024.csv
 
 - DLR_deal_wiley_2019.csv
 - DLR_deal_wiley_2020.csv
@@ -22,5 +23,6 @@ All datasets
 - DLR_deal_springernature_2020.csv
 - DLR_deal_springernature_2021.csv
 - DLR_deal_springernature_2022.csv
+- DLR_deal_springernature_2023.csv
 
 are made available under the Open Data Commons Attribution License: https://opendatacommons.org/licenses/by/1.0/
