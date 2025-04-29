@@ -527,6 +527,10 @@ JOURNAL_OWNER_CHANGED = {
 	"0736-6205": ["Future Science, LTD", "Informa UK Limited"], # BioTechniques 
 	"1940-9818": ["Future Science, LTD", "Informa UK Limited"], # BioTechniques (electronic)
 	"2161-2234": ["Wiley-Blackwell", "Philosophy Documentation Center"], # Thought: A Journal of Philosophy 
+	"0364-2313": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # World Journal of Surgery 
+	"1432-2323": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # World Journal of Surgery (electronic)
+	"1743-6095": ["Elsevier BV", "Oxford University Press (OUP)"], # The Journal of Sexual Medicine 
+	"1743-6109": ["Elsevier BV", "Oxford University Press (OUP)"], # The Journal of Sexual Medicine (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -936,6 +940,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1383-4924", # The Journal of Comparative Germanic Linguistics, Gold OA since 2023
     "1651-226X", # Acta Oncologica, Gold OA since 2024
     "0142-0615", # International Journal of Electrical Power & Energy Systems, Gold OA since 2024
+    "2169-9763", # Journal of International and Comparative Social Policy, Gold OA since 2025
+    "0956-7933", # Rural History, Gold OA since 2024 
+    "0959-7743", # Cambridge Archaeological Journal, Gold OA since 2024 (Oct.)
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
