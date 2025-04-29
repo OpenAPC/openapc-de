@@ -2119,7 +2119,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             index = column_map["doi"].index
             row[index] = found_doi
             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
+                doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
                 no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
         # lookup the book title in Crossref
         lookup_title = current_row["book_title"]
@@ -2132,7 +2132,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 index = column_map["doi"].index
                 row[index] = book_doi
                 return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                    doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
+                    doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
                     no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
     if has_value(doi):
         # Normalise DOI
@@ -2171,7 +2171,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                             index = column_map["doi"].index
                             row[index] = article_doi
                             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                                doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
+                                doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
                                 no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
             if crossref_result["success"]:
                 data = crossref_result["data"]
@@ -2197,7 +2197,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     index = column_map["doi"].index
                     row[index] = found_doi
                     return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                                       doab_analysis, doaj_analysis, no_crossref_lookup, no_pubmed_lookup,
+                                       doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
                                        no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
         # include a possible ISSN-L
         if issnl_handling is not None and record_type == "journal-article":
