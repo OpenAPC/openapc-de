@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 132,666 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 132,917 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -32,31 +32,31 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |Swiss Consortium Wiley agreement                 |     3142|
 |FinELib Springer Compact agreement               |     2656|
 |FinELib Wiley agreement                          |     2656|
-|IReL Wiley Agreement                             |     2339|
+|IReL Wiley Agreement                             |     2364|
 |CSIC-Elsevier                                    |     1880|
 |FinELib Taylor & Francis agreement               |     1637|
-|IReL Springer Agreement                          |     1465|
-|IReL T&F Agreement                               |     1376|
+|IReL Springer Agreement                          |     1509|
+|IReL T&F Agreement                               |     1421|
 |Swiss Consortium T&F agreement                   |     1148|
 |FinELib IEEE agreement                           |      933|
 |FinELib SAGE agreement                           |      879|
 |FWF Transformative Agreement Wiley-Blackwell     |      869|
 |CSIC-Wiley                                       |      806|
 |Swiss Consortium SAGE agreement                  |      799|
-|IReL Sage Agreement                              |      782|
+|IReL Sage Agreement                              |      796|
 |University of Milan - Springer                   |      738|
 |Swiss Consortium CUP agreement                   |      709|
-|IReL IEEE Agreement                              |      653|
+|IReL IEEE Agreement                              |      672|
 |Swiss Consortium RSC agreement                   |      640|
 |FinELib ACS agreement                            |      565|
 |FinELib OUP agreement                            |      559|
+|IReL OUP Agreement                               |      558|
 |FWF Transformative Agreement Springer Nature     |      556|
 |Swiss Consortium IOP agreement                   |      550|
-|IReL OUP Agreement                               |      544|
 |FWF Transformative Agreement Elsevier            |      498|
+|IReL CUP Agreement                               |      488|
+|IReL ACS Agreement                               |      478|
 |Austrian Consortium Wiley agreement              |      474|
-|IReL CUP Agreement                               |      465|
-|IReL ACS Agreement                               |      461|
 |CSIC-Royal Society of Chemistry                  |      456|
 |FWF Transformative Agreement ACS                 |      444|
 |FinELib Emerald agreement                        |      435|
@@ -66,49 +66,49 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |Swiss Consortium ACS agreement                   |      318|
 |University of Milan - Wiley                      |      310|
 |FWF Transformative Agreement T&F                 |      306|
+|IReL PLOS Agreement                              |      296|
 |Swiss Consortium AIP agreement                   |      287|
 |Swiss Consortium OUP Journals Agreement          |      280|
-|IReL PLOS Agreement                              |      279|
 |CSIC-Oxford University Press                     |      276|
 |University of Milan - Elsevier                   |      276|
 |MPG RSC agreement                                |      246|
 |CzechELib Wiley agreement                        |      231|
 |FinELib RSC agreement                            |      231|
 |Swiss Consortium Karger agreement                |      223|
-|IReL Emerald Agreement                           |      217|
+|IReL Emerald Agreement                           |      221|
 |CzechELib Springer Nature agreement              |      200|
 |QNL Elsevier Agreement                           |      194|
 |Swiss Consortium Ovid LWW agreement              |      190|
 |Austrian Consortium RSC agreement                |      179|
+|IReL RSC Agreement                               |      175|
 |FWF Transformative Agreement IOP                 |      172|
-|IReL RSC Agreement                               |      168|
 |FinELib Wolters Kluwer Lippincott agreement      |      127|
 |TIB RSC Journals R&P - TU Berlin                 |      114|
 |CSIC-Taylor & Francis                            |      109|
+|IReL IOP Agreement                               |      109|
 |QNL Springer Nature Agreement                    |      103|
-|IReL IOP Agreement                               |      102|
 |Swiss Consortium IEEE agreement                  |      100|
 |QNL Wiley Agreement                              |       92|
 |IReL RIA Agreement                               |       87|
 |CzechELib Taylor & Francis agreement             |       85|
+|IReL AIP Agreement                               |       85|
 |QNL T&F Agreement                                |       85|
-|IReL AIP Agreement                               |       84|
 |University of Milan - Cambridge University Press |       83|
 |EISZ agreement Springer Nature                   |       79|
 |Swiss Consortium Nature Transformative agreement |       78|
 |CzechELib OUP agreement                          |       73|
 |EISZ agreement Elsevier                          |       64|
 |IReL RS Agreement                                |       63|
+|IReL BMJ Agreement                               |       61|
 |Crui-CARE Springer Agreement                     |       58|
 |CzechELib ACS agreement                          |       58|
-|IReL BMJ Agreement                               |       58|
 |University of Milan - ACS                        |       58|
 |CSIC-Cambridge University Press                  |       57|
 |FWF Transformative Agreement RSC                 |       55|
+|IReL Optica Agreement                            |       55|
 |EISZ agreement Akadémiai Kiadó                   |       54|
-|IReL Optica Agreement                            |       54|
 |CzechELib RSC agreement                          |       50|
-|IReL Microbiology Society Agreement              |       48|
+|IReL Microbiology Society Agreement              |       50|
 |MPG Taylor & Francis agreement                   |       46|
 |Austrian Consortium IOP agreement                |       45|
 |University of Milan - Royal Society of Chemistry |       45|
@@ -139,12 +139,13 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |CzechELib AIP agreement                          |       16|
 |FWF Transformative Agreement IEEE                |       16|
 |FinELib Elsevier Cell Press agreement            |       16|
+|IReL Cell Press Agreement                        |       16|
 |Crui-CARE Wiley Agreement                        |       15|
-|IReL Cell Press Agreement                        |       14|
 |CSIC-Microbiology Society                        |       13|
 |CSIC-Company of biologists                       |       11|
 |Crui-CARE CUP Agreement                          |       11|
 |Swiss Consortium BMJ agreement                   |       10|
+|IReL AmericanPhysicalSociety Agreement           |        8|
 |CSIC-Brill                                       |        7|
 |CSIC-Portland Press                              |        7|
 |Crui-CARE AIP Agreement                          |        7|
@@ -158,7 +159,6 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |University of Milan - BMJ                        |        3|
 |CSIC-De Gruyter                                  |        2|
 |EISZ agreement Cambridge University Press        |        2|
-|IReL AmericanPhysicalSociety Agreement           |        2|
 |QNL De Gruyter Agreement                         |        2|
 |University of Milan - ACM                        |        2|
 |CSIC-Rockefeller University Press                |        1|
@@ -182,20 +182,20 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |TU Muenchen                                                                                                                                        |     2598|
 |University of Bern                                                                                                                                 |     2403|
 |University of Geneva                                                                                                                               |     2327|
-|University College Dublin                                                                                                                          |     2216|
+|University College Dublin                                                                                                                          |     2271|
 |University of Lausanne                                                                                                                             |     1982|
 |University of Basel                                                                                                                                |     1929|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1875|
 |Muenchen LMU                                                                                                                                       |     1801|
 |Aalto University                                                                                                                                   |     1734|
 |Tampere University                                                                                                                                 |     1702|
-|Trinity College Dublin                                                                                                                             |     1633|
+|Trinity College Dublin                                                                                                                             |     1671|
 |Milano U                                                                                                                                           |     1617|
 |University of Turku                                                                                                                                |     1606|
 |University of Oulu                                                                                                                                 |     1550|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1535|
+|University College Cork                                                                                                                            |     1377|
 |KIT                                                                                                                                                |     1374|
-|University College Cork                                                                                                                            |     1350|
 |Wuerzburg U                                                                                                                                        |     1286|
 |Friedrich-Schiller-Universität Jena                                                                                                                |     1242|
 |University of Eastern Finland                                                                                                                      |     1219|
@@ -203,20 +203,20 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |Bonn U                                                                                                                                             |     1124|
 |University of Jyväskylä                                                                                                                            |     1067|
 |Karolinska Institutet                                                                                                                              |     1061|
+|University of Galway                                                                                                                               |     1035|
 |UCL                                                                                                                                                |     1022|
-|University of Galway                                                                                                                               |     1005|
 |TU Berlin                                                                                                                                          |      997|
 |MPG                                                                                                                                                |      946|
+|University of Limerick                                                                                                                             |      914|
 |University of Cambridge                                                                                                                            |      912|
-|University of Limerick                                                                                                                             |      896|
 |University of Oxford                                                                                                                               |      883|
 |Uppsala University                                                                                                                                 |      869|
 |Tuebingen U                                                                                                                                        |      867|
 |University of Gothenburg                                                                                                                           |      820|
 |Charles University                                                                                                                                 |      819|
+|Dublin City University                                                                                                                             |      792|
 |Frankfurt U                                                                                                                                        |      777|
 |Imperial College London                                                                                                                            |      771|
-|Dublin City University                                                                                                                             |      767|
 |HHU Düsseldorf                                                                                                                                     |      723|
 |Erlangen Nuernberg U                                                                                                                               |      720|
 |Empa - Swiss Federal Laboratories for Materials Science and Technology                                                                             |      686|
@@ -242,14 +242,14 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |Qatar National Library                                                                                                                             |      510|
 |Wageningen University and Research Centre                                                                                                          |      506|
 |DLR                                                                                                                                                |      505|
+|Maynooth University                                                                                                                                |      503|
 |University of Groningen                                                                                                                            |      501|
 |University of Edinburgh                                                                                                                            |      495|
 |TU Dresden                                                                                                                                         |      494|
-|Maynooth University                                                                                                                                |      492|
+|Royal College of Surgeons in Ireland                                                                                                               |      486|
 |Delft University of Technology                                                                                                                     |      484|
 |Umeå University                                                                                                                                    |      475|
 |Åbo Akademi University                                                                                                                             |      470|
-|Royal College of Surgeons in Ireland                                                                                                               |      469|
 |Heidelberg U                                                                                                                                       |      463|
 |Leiden University                                                                                                                                  |      461|
 |Swedish University of Agricultural Sciences                                                                                                        |      461|
@@ -301,12 +301,12 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |TU Wien                                                                                                                                            |      283|
 |Fraunhofer-Gesellschaft                                                                                                                            |      280|
 |University of Vaasa                                                                                                                                |      280|
+|Technological University Dublin                                                                                                                    |      278|
 |University of Newcastle                                                                                                                            |      275|
 |University Medical Center Hamburg-Eppendorf                                                                                                        |      272|
 |University Medical Center Groningen (UMCG)                                                                                                         |      270|
 |Luleå University of Technology                                                                                                                     |      269|
 |Natural Resources Institute Finland                                                                                                                |      269|
-|Technological University Dublin                                                                                                                    |      264|
 |University of Exeter                                                                                                                               |      262|
 |Agroscope                                                                                                                                          |      257|
 |Hamburg TUHH                                                                                                                                       |      251|
@@ -375,7 +375,7 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |Liverpool John Moores University                                                                                                                   |      102|
 |Heriot-Watt University                                                                                                                             |       98|
 |Malmö University                                                                                                                                   |       93|
-|Teagasc                                                                                                                                            |       91|
+|Teagasc                                                                                                                                            |       92|
 |University of Lapland                                                                                                                              |       89|
 |Vienna University of Economics and Business (WU)                                                                                                   |       88|
 |Royal Holloway                                                                                                                                     |       87|
@@ -400,11 +400,11 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |Manchester Metropolitan University                                                                                                                 |       64|
 |UFZ                                                                                                                                                |       62|
 |Brandenburg University of Technology Cottbus-Senftenberg                                                                                           |       61|
+|Mary Immaculate College                                                                                                                            |       60|
 |The Open University                                                                                                                                |       60|
 |University of Huddersfield                                                                                                                         |       60|
 |University of Veterinary Medicine Vienna                                                                                                           |       59|
 |Aston University                                                                                                                                   |       58|
-|Mary Immaculate College                                                                                                                            |       57|
 |Trier U                                                                                                                                            |       57|
 |University of Lincoln                                                                                                                              |       57|
 |TU Clausthal                                                                                                                                       |       56|
@@ -433,6 +433,7 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |University of Bradford                                                                                                                             |       39|
 |University of Greenwich                                                                                                                            |       39|
 |Aberystwyth University                                                                                                                             |       38|
+|Atlantic Technological University                                                                                                                  |       38|
 |International Institute for Applied Systems Analysis (IIASA)                                                                                       |       38|
 |Swedish Museum of Natural History                                                                                                                  |       38|
 |Bamberg U                                                                                                                                          |       37|
@@ -440,16 +441,15 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |Leibniz-IGB                                                                                                                                        |       36|
 |Robert Gordon University                                                                                                                           |       36|
 |Netherlands Institute of Ecology                                                                                                                   |       35|
-|Atlantic Technological University                                                                                                                  |       34|
 |Kingston University                                                                                                                                |       34|
 |University of Borås                                                                                                                                |       34|
 |University of Central Lancashire                                                                                                                   |       32|
 |Catholic University of Eichstätt-Ingolstadt                                                                                                        |       31|
 |IST Austria                                                                                                                                        |       31|
 |University of West of Scotland                                                                                                                     |       31|
+|Munster Technological University                                                                                                                   |       30|
 |University of Skövde                                                                                                                               |       30|
 |Goldsmiths                                                                                                                                         |       29|
-|Munster Technological University                                                                                                                   |       29|
 |University of Applied Sciences Upper Austria                                                                                                       |       29|
 |University of Derby                                                                                                                                |       29|
 |Halmstad University                                                                                                                                |       28|
@@ -468,11 +468,11 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |DESY                                                                                                                                               |       24|
 |Glasgow Caledonian University                                                                                                                      |       24|
 |Medical University of Innsbruck                                                                                                                    |       24|
+|South East Technological University                                                                                                                |       24|
 |HS Hannover                                                                                                                                        |       23|
 |Dalarna University                                                                                                                                 |       22|
 |Pädagogische Hochschule Zürich                                                                                                                     |       22|
 |Fachhochschule Südwestfalen                                                                                                                        |       21|
-|South East Technological University                                                                                                                |       21|
 |London South Bank University                                                                                                                       |       20|
 |Stockholm School of Economics                                                                                                                      |       20|
 |Cardiff Metropolitan University                                                                                                                    |       19|
@@ -488,8 +488,8 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |GESIS                                                                                                                                              |       16|
 |Technological University of the Shannon: Midlands Midwest                                                                                          |       16|
 |Universität Erfurt                                                                                                                                 |       16|
+|Dundalk Institute of Technology                                                                                                                    |       15|
 |Leibniz-IZW                                                                                                                                        |       15|
-|Dundalk Institute of Technology                                                                                                                    |       14|
 |Leibniz-IPK                                                                                                                                        |       14|
 |Swiss Federal University for Vocational Education and Training                                                                                     |       14|
 |Birmingham City University                                                                                                                         |       13|
@@ -548,6 +548,7 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |SWP - German Institute for International and Security Affairs                                                                                      |        5|
 |University of Worcester                                                                                                                            |        5|
 |DIfE                                                                                                                                               |        4|
+|Dublin Institute for Advanced Studies                                                                                                              |        4|
 |Research Institute of Molecular Pathology - IMP                                                                                                    |        4|
 |University Psychiatric Services Bern                                                                                                               |        4|
 |University of Applied Sciences in Business Administration Zurich                                                                                   |        4|
@@ -586,7 +587,6 @@ This dataset contains information on 132,666 articles, published at 433 institut
 |University Campus Suffolk                                                                                                                          |        2|
 |VAMK University of Applied Sciences                                                                                                                |        2|
 |AC2T Research GmbH                                                                                                                                 |        1|
-|Dublin Institute for Advanced Studies                                                                                                              |        1|
 |European Chemicals Agency                                                                                                                          |        1|
 |FH Kufstein Tirol - University of Applied Sciences                                                                                                 |        1|
 |FHWien der WKW (FHW)                                                                                                                               |        1|
