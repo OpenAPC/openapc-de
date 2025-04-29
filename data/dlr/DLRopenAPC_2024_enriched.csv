@@ -9,7 +9,7 @@
 "DLR",2024,1832,"10.1007/s10055-024-01008-w",FALSE,"Springer Nature","Virtual Reality","1434-9957",NA,"1434-9957","1359-4338","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,2712,"10.1007/s10980-024-01804-4",TRUE,"Springer Nature","Landscape Ecology","1572-9761",NA,"1572-9761","0921-2973","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2024,1356.6,"10.1007/s43926-024-00067-4",FALSE,"Springer Nature","Discover Internet of Things","2730-7239",NA,"2730-7239","2730-7239","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,TRUE
-"DLR",2024,902.52,"10.1007/s44205-024-00094-x",TRUE,"Springer Nature","Journal of Electric Propulsion","2731-4596",NA,"2731-4596","2731-4596","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
+"DLR",2024,902.52,"10.1007/s44205-024-00094-x",FALSE,"Springer Nature","Journal of Electric Propulsion","2731-4596",NA,"2731-4596","2731-4596","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2024,1208,"10.1016/j.aeaoa.2024.100298",FALSE,"Elsevier BV","Atmospheric Environment: X","2590-1621","2590-1621",NA,"2590-1621","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,460,"10.1016/j.dib.2023.109019",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"36942099","PMC10023968",NA,NA,TRUE
 "DLR",2024,696,"10.1016/j.dib.2025.111333",FALSE,"Elsevier BV","Data in Brief","2352-3409","2352-3409",NA,"2352-3409","http://creativecommons.org/licenses/by/4.0/",TRUE,"39975960","PMC11835586",NA,NA,TRUE
@@ -28,7 +28,7 @@
 "DLR",2024,1504,"10.1016/j.heliyon.2024.e25856",FALSE,"Elsevier BV","Heliyon","2405-8440","2405-8440",NA,"2405-8440","http://creativecommons.org/licenses/by/4.0/",TRUE,"38434352","PMC10907532",NA,NA,TRUE
 "DLR",2024,1504,"10.1016/j.heliyon.2024.e25966",FALSE,"Elsevier BV","Heliyon","2405-8440","2405-8440",NA,"2405-8440","http://creativecommons.org/licenses/by/4.0/",TRUE,"38380005","PMC10877297",NA,NA,TRUE
 "DLR",2024,1000,"10.1016/j.idm.2024.12.015",FALSE,"Elsevier BV","Infectious Disease Modelling","2468-0427","2468-0427",NA,"2468-0427","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"39944375","PMC11815675",NA,NA,TRUE
-"DLR",2024,2496,"10.1016/j.ijepes.2024.110447",FALSE,"Elsevier BV","International Journal of Electrical Power & Energy Systems","0142-0615","0142-0615",NA,"0142-0615","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"DLR",2024,2496,"10.1016/j.ijepes.2024.110447",TRUE,"Elsevier BV","International Journal of Electrical Power & Energy Systems","0142-0615","0142-0615",NA,"0142-0615","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,2190,"10.1016/j.jag.2023.103571",FALSE,"Elsevier BV","International Journal of Applied Earth Observation and Geoinformation","1569-8432","1569-8432",NA,"1569-8432","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,1520,"10.1016/j.jcomc.2024.100450",FALSE,"Elsevier BV","Composites Part C: Open Access","2666-6820","2666-6820",NA,"2666-6820","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,1520,"10.1016/j.jcomc.2024.100460",FALSE,"Elsevier BV","Composites Part C: Open Access","2666-6820","2666-6820",NA,"2666-6820","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -65,7 +65,7 @@
 "DLR",2024,1960,"10.1029/2024gl110622",FALSE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276","0094-8276","1944-8007","0094-8276","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,1960,"10.1029/2024gl112885",FALSE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276","0094-8276","1944-8007","0094-8276","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,1960,"10.1029/2024gl113037",FALSE,"American Geophysical Union (AGU)","Geophysical Research Letters","0094-8276","0094-8276","1944-8007","0094-8276","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"DLR",2024,2080,"10.1029/2024jh000123",TRUE,"American Geophysical Union (AGU)","Journal of Geophysical Research: Machine Learning and Computation","2993-5210","2993-5210","2993-5210","2993-5210","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"DLR",2024,2080,"10.1029/2024jh000123",FALSE,"American Geophysical Union (AGU)","Journal of Geophysical Research: Machine Learning and Computation","2993-5210","2993-5210","2993-5210","2993-5210","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,1744,"10.1029/2024ms004398",FALSE,"American Geophysical Union (AGU)","Journal of Advances in Modeling Earth Systems","1942-2466","1942-2466","1942-2466","1942-2466","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,2032,"10.1029/2024sw004095",FALSE,"American Geophysical Union (AGU)","Space Weather","1542-7390","1542-7390","1542-7390","1542-7390","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,5022.48,"10.1038/s41467-024-51019-z",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"39143091","PMC11324880",NA,NA,TRUE
@@ -160,7 +160,7 @@
 "DLR",2024,1734,"10.1155/2024/8812115",FALSE,"Wiley-Blackwell","International Journal of Energy Research","0363-907X","0363-907X","1099-114X","0363-907X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,1596,"10.1155/2024/9927275",TRUE,"Wiley-Blackwell","Indoor Air","0905-6947","0905-6947","1600-0668","0905-6947","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2024,1784,"10.1155/er/4460462",FALSE,"Wiley-Blackwell","International Journal of Energy Research","0363-907X","0363-907X","1099-114X","0363-907X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
-"DLR",2024,2400,"10.1161/jaha.124.034800",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of the American Heart Association","2047-9980",NA,"2047-9980","2047-9980",NA,TRUE,"39450723","PMC11935683",NA,NA,TRUE
+"DLR",2024,2400,"10.1161/jaha.124.034800",FALSE,"Wiley-Blackwell","Journal of the American Heart Association","2047-9980",NA,"2047-9980","2047-9980",NA,TRUE,"39450723","PMC11935683",NA,NA,TRUE
 "DLR",2024,1200,"10.1175/jas-d-23-0217.1",TRUE,"American Meteorological Society","Journal of the Atmospheric Sciences","0022-4928","0022-4928","1520-0469","0022-4928","http://www.ametsoc.org/PUBSReuseLicenses",TRUE,NA,NA,NA,NA,FALSE
 "DLR",2024,1200,"10.1175/jas-d-24-0037.1",TRUE,"American Meteorological Society","Journal of the Atmospheric Sciences","0022-4928","0022-4928","1520-0469","0022-4928","http://www.ametsoc.org/PUBSReuseLicenses",TRUE,NA,NA,NA,NA,FALSE
 "",,,"","","","","","","","","","","","","","",""
@@ -181,7 +181,7 @@
 "DLR",2024,2318.68,"10.2514/1.d0419",TRUE,"American Institute of Aeronautics and Astronautics (AIAA)","Journal of Air Transportation","2380-9450",NA,"2380-9450","2380-9450",NA,TRUE,NA,NA,NA,NA,FALSE
 "DLR",2024,2285.4,"10.2514/1.j063426",TRUE,"American Institute of Aeronautics and Astronautics (AIAA)","AIAA Journal","0001-1452","0001-1452","1533-385X","0001-1452",NA,TRUE,NA,NA,NA,NA,FALSE
 "DLR",2024,2400,"10.2514/1.j064640",TRUE,"American Institute of Aeronautics and Astronautics (AIAA)","AIAA Journal","0001-1452","0001-1452","1533-385X","0001-1452",NA,TRUE,NA,NA,NA,NA,FALSE
-"DLR",2024,1827.32,"10.33012/navi.624",FALSE,"Institute of Navigation","NAVIGATION: Journal of the Institute of Navigation","0028-1522","0028-1522","2161-4296","0028-1522",NA,TRUE,NA,NA,NA,NA,TRUE
+"DLR",2024,1827.32,"10.33012/navi.624",FALSE,"Institute of Navigation","Navigation","0028-1522","0028-1522","2161-4296","0028-1522",NA,TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,1680.81,"10.3389/ffutr.2024.1415375",FALSE,"Frontiers Media SA","Frontiers in Future Transportation","2673-5210",NA,"2673-5210","2673-5210","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,2545.03,"10.3389/fmars.2023.1158524",FALSE,"Frontiers Media SA","Frontiers in Marine Science","2296-7745",NA,"2296-7745","2296-7745","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "DLR",2024,2604.7,"10.3389/fpsyg.2024.1444276",FALSE,"Frontiers Media SA","Frontiers in Psychology","1664-1078",NA,"1664-1078","1664-1078","https://creativecommons.org/licenses/by/4.0/",TRUE,"39559694","PMC11570997",NA,NA,TRUE
