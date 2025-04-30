@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 132,917 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 132,921 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 132,917 articles, published at 433 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15924|
-|DEAL Wiley Germany                               |    14278|
+|DEAL Springer Nature Germany                     |    15927|
+|DEAL Wiley Germany                               |    14279|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -447,6 +447,7 @@ This dataset contains information on 132,917 articles, published at 433 institut
 |Catholic University of Eichstätt-Ingolstadt                                                                                                        |       31|
 |IST Austria                                                                                                                                        |       31|
 |University of West of Scotland                                                                                                                     |       31|
+|HS Bielefeld                                                                                                                                       |       30|
 |Munster Technological University                                                                                                                   |       30|
 |University of Skövde                                                                                                                               |       30|
 |Goldsmiths                                                                                                                                         |       29|
@@ -460,7 +461,6 @@ This dataset contains information on 132,917 articles, published at 433 institut
 |Open University of The Netherlands                                                                                                                 |       27|
 |Aachen FH                                                                                                                                          |       26|
 |Finnish Meteorological Institute                                                                                                                   |       26|
-|HS Bielefeld                                                                                                                                       |       26|
 |Swiss Ornithological Institute                                                                                                                     |       26|
 |HafenCity Universität Hamburg                                                                                                                      |       25|
 |Leibniz-ZALF                                                                                                                                       |       25|
