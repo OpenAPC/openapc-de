@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 132,921 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 132,922 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 132,921 articles, published at 433 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |DEAL Springer Nature Germany                     |    15927|
-|DEAL Wiley Germany                               |    14279|
+|DEAL Wiley Germany                               |    14280|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -532,12 +532,12 @@ This dataset contains information on 132,921 articles, published at 433 institut
 |Metropolia University of Applied Sciences                                                                                                          |        7|
 |Pädagogische Hochschule Luzern                                                                                                                     |        7|
 |Queen Margaret University                                                                                                                          |        7|
+|TH Brandenburg                                                                                                                                     |        7|
 |VATT Institute for Economic Research                                                                                                               |        7|
 |ASH Berlin                                                                                                                                         |        6|
 |HS Düsseldorf                                                                                                                                      |        6|
 |Netherlands Institute for Neuroscience                                                                                                             |        6|
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                                                                                         |        6|
-|TH Brandenburg                                                                                                                                     |        6|
 |TH Ingolstadt                                                                                                                                      |        6|
 |TH Wildau                                                                                                                                          |        6|
 |University of Roehampton                                                                                                                           |        6|
