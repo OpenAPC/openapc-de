@@ -10,6 +10,7 @@ import sys
 from copy import deepcopy
 
 import openapc_toolkit as oat
+import mappings
 
 ARG_HELP_STRINGS = {
     "source_file": "The source csv file",
@@ -41,17 +42,34 @@ def _build_ins_line_dict(ins_name, ror_item):
     names = _get_ror_names(ror_item)
     line = deepcopy(INS_LINE_TMPL)
     line["institution"] = ins_name
-    line["institution_cubes_name"] = ins_name.lower().replace(" ", "_")
+    line["institution_cubes_name"] = _build_cubes_name(ins_name)
     line["institution_full_name"] = names["main"]
-    line["continent"] = ror_item["locations"][0]["geonames_details"]["continent_name"]
-    line["country"] = ror_item["locations"][0]["geonames_details"]["country_code"]
-    line["state"] = ror_item["locations"][0]["geonames_details"]["country_subdivision_code"]
+    geo_data = {
+        "continent": ror_item["locations"][0]["geonames_details"]["continent_name"],
+        "country": ror_item["locations"][0]["geonames_details"]["country_code"],
+        "state": ror_item["locations"][0]["geonames_details"]["country_subdivision_code"],
+    }
+    for geo_level, geo_name in geo_data.items():
+        if geo_name not in mappings.GEO_MAPPINGS:
+            msg = 'WARNING: Geo name "{}" not founds in mappings.GEO_MAPPINGS, using original value'
+            oat.print_y(msg.format(geo_name))
+            line[geo_level] = geo_name
+        else:
+            line[geo_level] = mappings.GEO_MAPPINGS[geo_name]
     line["ror_id"] = ror_item["id"]
     for link_dict in ror_item["links"]:
         if link_dict["type"] == "website":
             line["info_url"] = link_dict["value"]
             break
     return line
+
+def _build_cubes_name(ins_name):
+    cubes_name = ins_name.lower().replace(" ", "_").replace("'", "")
+    if cubes_name.endswith("university"):
+        cubes_name = cubes_name[:-9]
+    elif cubes_name.startswith("university_of"):
+        cubes_name = cubes_name[14:] + "_u"
+    return cubes_name
 
 def _load_ins_data():
     ins_map = {}
@@ -182,6 +200,8 @@ def main():
             oat.print_c(msg.format(institution_name))
             continue
         ror_item = _ror_lookup(institution_name)
+        if not ror_item:
+            continue
         lookups += 1
         ror_id = ror_item["id"]
         if ror_map is not None and ror_id in ror_map:
