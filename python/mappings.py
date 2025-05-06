@@ -780,3 +780,23 @@ AGREEMENT_PUBLISHERS = {
     "DEAL Springer Nature Germany": ["Springer Nature"],
     "DEAL Wiley Germany": ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)", "International Union of Crystallography (IUCr)"]
 }
+
+# maps ROR geo names to terms used in the institutions table
+GEO_MAPPINGS = {
+    # world level
+    "North America": "NORTH_AMERICA",
+    # countries
+    "CA": "CAN",
+    # subdivisions
+    # -- Canada
+    "ON": "CA-ON",
+    "MB": "CA-MB",
+    "QC": "CA-QC",
+    "AB": "CA-AB",
+    "NS": "CA-NS",
+    "BC": "CA-BC",
+    "NL": "CA-NL",
+    "NB": "CA-NB",
+    "PE": "CA-PE",
+    "SK": "CA-SK",
+}
