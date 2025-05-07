@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 132,922 articles, published at 433 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 132,924 articles, published at 434 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 132,922 articles, published at 433 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15927|
+|DEAL Springer Nature Germany                     |    15929|
 |DEAL Wiley Germany                               |    14280|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
@@ -568,6 +568,7 @@ This dataset contains information on 132,922 articles, published at 433 institut
 |Tampere University of Applied Sciences                                                                                                             |        3|
 |University of Teacher Education in Special Needs                                                                                                   |        3|
 |FH Joanneum - University of Applied Sciences                                                                                                       |        2|
+|HS Neubrandenburg                                                                                                                                  |        2|
 |Haute Ecole Pédagogique du Valais                                                                                                                  |        2|
 |Haute École Pédagogique Fribourg                                                                                                                   |        2|
 |Hubrecht Institute for Developmental Biology and Stem Cell Research                                                                                |        2|
