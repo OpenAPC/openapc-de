@@ -531,6 +531,34 @@ JOURNAL_OWNER_CHANGED = {
 	"1432-2323": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # World Journal of Surgery (electronic)
 	"1743-6095": ["Elsevier BV", "Oxford University Press (OUP)"], # The Journal of Sexual Medicine 
 	"1743-6109": ["Elsevier BV", "Oxford University Press (OUP)"], # The Journal of Sexual Medicine (electronic)
+	"1556-3316": ["Springer Nature", "SAGE Publications"], # HSS Journal®: The Musculoskeletal Journal of Hospital for Special Surgery 
+	"1556-3324": ["Springer Nature", "SAGE Publications"], # HSS Journal®: The Musculoskeletal Journal of Hospital for Special Surgery (electronic)
+	"0195-6574": ["International Association for Energy Economics (IAEE)", "SAGE Publications"], # The Energy Journal 
+	"1944-9089": ["International Association for Energy Economics (IAEE)", "SAGE Publications"], # The Energy Journal (electronic)
+	"0267-0836": ["Informa UK Limited", "SAGE Publications"], # Materials Science and Technology 
+	"1743-2847": ["Informa UK Limited", "SAGE Publications"], # Materials Science and Technology (electronic)
+	"0278-0771": ["Society of Ethnobiology", "SAGE Publications"], # Journal of Ethnobiology 
+	"2162-4496": ["Society of Ethnobiology", "SAGE Publications"], # Journal of Ethnobiology (electronic)
+	"0301-9233": ["Informa UK Limited", "SAGE Publications"], # Ironmaking & Steelmaking: Processes, Products and Applications 
+	"1743-2812": ["Informa UK Limited", "SAGE Publications"], # Ironmaking & Steelmaking: Processes, Products and Applications (electronic)
+	"1059-1478": ["Wiley-Blackwell", "SAGE Publications"], # Production and Operations Management 
+	"1937-5956": ["Wiley-Blackwell", "SAGE Publications"], # Production and Operations Management (electronic)
+	"1080-6032": ["Elsevier BV", "SAGE Publications"], # Wilderness & Environmental Medicine 
+	"1545-1534": ["Elsevier BV", "SAGE Publications"], # Wilderness & Environmental Medicine (electronic)
+	"1362-1718": ["Informa UK Limited", "SAGE Publications"], # Science and Technology of Welding and Joining 
+	"1743-2936": ["Informa UK Limited", "SAGE Publications"], # Science and Technology of Welding and Joining (electronic)
+	"2042-6445": ["Informa UK Limited", "SAGE Publications"], # International Wood Products Journal 
+	"2042-6453": ["Informa UK Limited", "SAGE Publications"], # International Wood Products Journal (electronic)
+	"0959-3020": ["IOS Press", "SAGE Publications"], # Isokinetics and Exercise Science 
+	"1878-5913": ["IOS Press", "SAGE Publications"], # Isokinetics and Exercise Science (electronic)
+	"1752-7015": ["White Horse Press", "SAGE Publications"], # Environmental Values 
+	"0963-2719": ["White Horse Press", "SAGE Publications"], # Environmental Values (linking)
+	"1051-9815": ["IOS Press", "SAGE Publications"], # WORK: A Journal of Prevention, Assessment & Rehabilitation 
+	"1875-9270": ["IOS Press", "SAGE Publications"], # WORK: A Journal of Prevention, Assessment & Rehabilitation (electronic)
+	"1499-9013": ["Informa UK Limited", "SAGE Publications"], # International Journal of Forensic Mental Health 
+	"1932-9903": ["Informa UK Limited", "SAGE Publications"], # International Journal of Forensic Mental Health (electronic)
+	"1878-5123": ["IOS Press", "SAGE Publications"], # Journal of Berry Research 
+	"1878-5093": ["IOS Press", "SAGE Publications"], # Journal of Berry Research (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -943,6 +971,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2169-9763", # Journal of International and Comparative Social Policy, Gold OA since 2025
     "0956-7933", # Rural History, Gold OA since 2024 
     "0959-7743", # Cambridge Archaeological Journal, Gold OA since 2024 (Oct.)
+    "0967-3911", # Polymers and Polymer Composites, Gold OA since 2022
+    "1528-0837", # Journal of Industrial Textiles, Gold OA since 2022
+    "1940-0829", # Tropical Conservation Science, Hybrid OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
