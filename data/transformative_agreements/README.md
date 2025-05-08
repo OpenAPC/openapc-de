@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 132,924 articles, published at 434 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 132,931 articles, published at 435 institutions under 142 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 132,924 articles, published at 434 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15929|
-|DEAL Wiley Germany                               |    14280|
+|DEAL Springer Nature Germany                     |    15935|
+|DEAL Wiley Germany                               |    14281|
 |Swiss Consortium Elsevier agreement              |    10993|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
@@ -526,6 +526,7 @@ This dataset contains information on 132,924 articles, published at 434 institut
 |Academisch Centrum Tandheelkunde Amsterdam (ACTA)                                                                                                  |        7|
 |Anglia Ruskin University                                                                                                                           |        7|
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
+|HS Reutlingen                                                                                                                                      |        7|
 |HTWG Konstanz                                                                                                                                      |        7|
 |Institute for Advanced Studies Vienna                                                                                                              |        7|
 |Laurea University of Applied Sciences                                                                                                              |        7|
