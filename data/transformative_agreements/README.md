@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 141,239 articles, published at 524 institutions under 143 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 141,243 articles, published at 525 institutions under 143 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 141,239 articles, published at 524 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15935|
+|DEAL Springer Nature Germany                     |    15939|
 |DEAL Wiley Germany                               |    14281|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
@@ -626,6 +626,7 @@ This dataset contains information on 141,239 articles, published at 524 institut
 |École Nationale d'Administration Publique                                                                                                          |        5|
 |DIfE                                                                                                                                               |        4|
 |Dublin Institute for Advanced Studies                                                                                                              |        4|
+|HTW Dresden                                                                                                                                        |        4|
 |Mount Sinai Hospital                                                                                                                               |        4|
 |Research Institute of Molecular Pathology - IMP                                                                                                    |        4|
 |University Psychiatric Services Bern                                                                                                               |        4|
