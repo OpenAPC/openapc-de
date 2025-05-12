@@ -974,6 +974,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0967-3911", # Polymers and Polymer Composites, Gold OA since 2022
     "1528-0837", # Journal of Industrial Textiles, Gold OA since 2022
     "1940-0829", # Tropical Conservation Science, Hybrid OA since 2025
+    "0022-2615", # Journal of Medical Microbiology, Subscribe to Open (S2O) in Feb. 2025 
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
