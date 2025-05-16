@@ -559,7 +559,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1932-9903": ["Informa UK Limited", "SAGE Publications"], # International Journal of Forensic Mental Health (electronic)
 	"1878-5123": ["IOS Press", "SAGE Publications"], # Journal of Berry Research 
 	"1878-5093": ["IOS Press", "SAGE Publications"], # Journal of Berry Research (linking)
-	"2168-8184": ["Cureus, Inc.", "Springer Nature"], # Cureus 
+	"2168-8184": ["Cureus, Inc.", "Springer Nature"], # Cureus
+	"0002-9270": ["Nature Publishing Group", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # American Journal of Gastroenterology 
+	"1572-0241": ["Nature Publishing Group", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # American Journal of Gastroenterology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -975,7 +977,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0967-3911", # Polymers and Polymer Composites, Gold OA since 2022
     "1528-0837", # Journal of Industrial Textiles, Gold OA since 2022
     "1940-0829", # Tropical Conservation Science, Hybrid OA since 2025
-    "0022-2615", # Journal of Medical Microbiology, Subscribe to Open (S2O) in Feb. 2025 
+    "0022-2615", # Journal of Medical Microbiology, Subscribe to Open (S2O) in Feb. 2025
+    "0014-4800", # Experimental and Molecular Pathology, Gold OA since 2023 
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
