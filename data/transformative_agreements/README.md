@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 141,567 articles, published at 525 institutions under 143 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 142,035 articles, published at 525 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -49,6 +49,7 @@ This dataset contains information on 141,567 articles, published at 525 institut
 |Swiss Consortium CUP agreement                   |      709|
 |IReL IEEE Agreement                              |      693|
 |Swiss Consortium RSC agreement                   |      640|
+|University of Milan - Elsevier                   |      580|
 |FinELib ACS agreement                            |      565|
 |IReL OUP Agreement                               |      565|
 |FinELib OUP agreement                            |      559|
@@ -61,17 +62,16 @@ This dataset contains information on 141,567 articles, published at 525 institut
 |CSIC-Royal Society of Chemistry                  |      456|
 |FWF Transformative Agreement ACS                 |      444|
 |FinELib Emerald agreement                        |      435|
+|University of Milan - Wiley                      |      428|
 |CSIC-ACS                                         |      359|
 |CSIC-Springer Nature                             |      357|
 |Austrian Consortium T&F agreement                |      353|
 |Swiss Consortium ACS agreement                   |      318|
 |IReL PLOS Agreement                              |      312|
-|University of Milan - Wiley                      |      310|
 |FWF Transformative Agreement T&F                 |      306|
 |Swiss Consortium AIP agreement                   |      287|
 |Swiss Consortium OUP Journals Agreement          |      280|
 |CSIC-Oxford University Press                     |      276|
-|University of Milan - Elsevier                   |      276|
 |MPG RSC agreement                                |      246|
 |CzechELib Wiley agreement                        |      231|
 |FinELib RSC agreement                            |      231|
@@ -114,11 +114,12 @@ This dataset contains information on 141,567 articles, published at 525 institut
 |Austrian Consortium IOP agreement                |       45|
 |University of Milan - Royal Society of Chemistry |       45|
 |CzechELib CUP agreement                          |       43|
+|University of Milan - De Gruyter                 |       40|
 |Crui-CARE ACS Agreement                          |       38|
+|University of Milan - Lippincott                 |       38|
 |IReL ACM Agreement                               |       36|
 |EISZ agreement Wiley                             |       35|
 |FinELib ACM agreement                            |       34|
-|University of Milan - De Gruyter                 |       34|
 |FinELib Nature Research agreement                |       33|
 |MPG IOP agreement                                |       32|
 |QNL IEEE Agreement                               |       31|
@@ -132,11 +133,11 @@ This dataset contains information on 141,567 articles, published at 525 institut
 |CzechELib Karger agreement                       |       23|
 |IReL ECS Agreement                               |       20|
 |CzechELib IOP agreement                          |       19|
+|University of Milan - OUP                        |       19|
 |CzechELib SAGE agreement                         |       18|
 |Crui-CARE Elsevier Agreement                     |       17|
 |FWF Transformative Agreement Sage                |       17|
 |IReL Cell Press Agreement                        |       17|
-|University of Milan - Lippincott                 |       17|
 |Austrian Consortium Sage agreement               |       16|
 |CzechELib AIP agreement                          |       16|
 |FWF Transformative Agreement IEEE                |       16|
@@ -184,6 +185,7 @@ This dataset contains information on 141,567 articles, published at 525 institut
 |University of Bern                                                                                                                                 |     2403|
 |University College Dublin                                                                                                                          |     2333|
 |University of Geneva                                                                                                                               |     2327|
+|Milano U                                                                                                                                           |     2085|
 |University of Lausanne                                                                                                                             |     1982|
 |University of Basel                                                                                                                                |     1929|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1875|
@@ -191,7 +193,6 @@ This dataset contains information on 141,567 articles, published at 525 institut
 |Aalto University                                                                                                                                   |     1734|
 |Trinity College Dublin                                                                                                                             |     1730|
 |Tampere University                                                                                                                                 |     1702|
-|Milano U                                                                                                                                           |     1617|
 |University of Turku                                                                                                                                |     1606|
 |University of Oulu                                                                                                                                 |     1550|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1535|
