@@ -559,6 +559,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1932-9903": ["Informa UK Limited", "SAGE Publications"], # International Journal of Forensic Mental Health (electronic)
 	"1878-5123": ["IOS Press", "SAGE Publications"], # Journal of Berry Research 
 	"1878-5093": ["IOS Press", "SAGE Publications"], # Journal of Berry Research (linking)
+	"2168-8184": ["Cureus, Inc.", "Springer Nature"], # Cureus 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
