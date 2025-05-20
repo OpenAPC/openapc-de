@@ -9,97 +9,11 @@ import datetime
 import locale
 import logging
 import os
+import shutil
 import sys
 
 import openapc_toolkit as oat
-
-class CSVColumn(object):
-
-    MANDATORY = {"text": "mandatory", "color": "green"}
-    BACKUP = {"text": "backup", "color": "blue"}
-    RECOMMENDED = {"text": "recommended", "color": "cyan"}
-    NONE = {"text": "not required", "color": "yellow"}
-
-    OW_ALWAYS = 0
-    OW_ASK = 1
-    OW_NEVER = 2
-
-    _OW_MSG = (u"\033[91mConflict\033[0m: Existing non-NA value " +
-               u"\033[93m{ov}\033[0m in column \033[93m{name}\033[0m is to be " +
-               u"replaced by new value \033[93m{nv}\033[0m.\nAllow overwrite?\n" +
-               u"1) Yes\n2) Yes, and always replace \033[93m{ov}\033[0m by "+
-               "\033[93m{nv}\033[0m in this column\n3) Yes, and always " +
-               "overwrite in this column\n4) No\n5) No, and never replace " +
-               "\033[93m{ov}\033[0m by \033[93m{nv}\033[0m in this " +
-               "column\n6) No, and never overwrite in this column\n>")
-
-    def __init__(self, column_type, requirement=None, index=None, column_name="", overwrite=OW_ASK):
-        self.column_type = column_type
-        if requirement is None:
-            self.requirement = {
-                "articles": CSVColumn.NONE,
-                "books": CSVColumn.NONE
-            }
-        else:
-            self.requirement = requirement
-        self.index = index
-        self.column_name = column_name
-        self.overwrite = overwrite
-        self.overwrite_whitelist = {}
-        self.overwrite_blacklist = {}
-
-    def get_req_description(self, colored=True):
-        requirements = []
-        for pub_type, required in self.requirement.items():
-            if colored:
-                requirement = oat.colorize(required["text"] + " for " + pub_type, required["color"])
-            else:
-                requirement = required["text"] + " for " + pub_type
-            requirements.append(requirement)
-        return ", ".join(requirements)
-
-    def check_overwrite(self, old_value, new_value):
-        if old_value == new_value:
-            return old_value
-        # Priority: Empty or NA values will always be overwritten.
-        if old_value == "NA":
-            return new_value
-        if old_value.strip() == "":
-            return new_value
-        # Do not replace an existing old value with NA
-        if new_value == "NA":
-            return old_value
-        if self.overwrite == CSVColumn.OW_ALWAYS:
-            return new_value
-        if self.overwrite == CSVColumn.OW_NEVER:
-            return old_value
-        if old_value in self.overwrite_blacklist:
-            if self.overwrite_blacklist[old_value] == new_value:
-                return old_value
-        if old_value in self.overwrite_whitelist:
-            return new_value
-        msg = CSVColumn._OW_MSG.format(ov=old_value, name=self.column_name,
-                                       nv=new_value)
-        ret = input(msg)
-        while ret not in ["1", "2", "3", "4", "5", "6"]:
-            ret = input("Please select a number between 1 and 5:")
-        if ret == "1":
-            return new_value
-        if ret == "2":
-            self.overwrite_whitelist[old_value] = new_value
-            return new_value
-        if ret == "3":
-            self.overwrite = CSVColumn.OW_ALWAYS
-            return new_value
-        if ret == "4":
-            return old_value
-        if ret == "5":
-            self.overwrite_blacklist[old_value] = new_value
-            return old_value
-        if ret == "6":
-            self.overwrite = CSVColumn.OW_NEVER
-            return old_value
-            
+from openapc_toolkit import CSVColumn
             
 # This reflects the OpenAPC update strategy for the core data / TransAgree files.
 # In general, only article-related data will be updated retroactively, while journal-related
@@ -129,7 +43,15 @@ OVERWRITE_STRATEGY = {
     "isbn": CSVColumn.OW_NEVER,
     "isbn_print": CSVColumn.OW_NEVER,
     "isbn_electronic": CSVColumn.OW_NEVER,
-    "backlist_oa": CSVColumn.OW_NEVER
+    "backlist_oa": CSVColumn.OW_NEVER,
+    "colour charge": CSVColumn.OW_NEVER,
+    "cover charge": CSVColumn.OW_NEVER,
+    "page charge": CSVColumn.OW_NEVER,
+    "permission": CSVColumn.OW_NEVER,
+    "reprint": CSVColumn.OW_NEVER,
+    "submission fee": CSVColumn.OW_NEVER,
+    "payment fee": CSVColumn.OW_NEVER,
+    "other": CSVColumn.OW_NEVER,
 }
 
 ARG_HELP_STRINGS = {
@@ -449,7 +371,15 @@ def main():
         "backlist_oa": CSVColumn("backlist_oa", {"articles": CSVColumn.NONE, "books": CSVColumn.MANDATORY}, args.backlist_oa_column, overwrite=OVERWRITE_STRATEGY["backlist_oa"]),
         "isbn": CSVColumn("isbn", {"articles": CSVColumn.NONE, "books": CSVColumn.BACKUP}, args.isbn_column, overwrite=OVERWRITE_STRATEGY["isbn"]),
         "isbn_print": CSVColumn("isbn_print", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["isbn_print"]),
-        "isbn_electronic": CSVColumn("isbn_electronic", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"])
+        "isbn_electronic": CSVColumn("isbn_electronic", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"]),
+        "colour charge": CSVColumn("colour charge", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["colour charge"]),
+        "cover charge": CSVColumn("cover charge", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["cover charge"]),
+        "page charge": CSVColumn("page charge", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["page charge"]),
+        "permission": CSVColumn("permission", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["permission"]),
+        "reprint": CSVColumn("reprint", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["reprint"]),
+        "submission fee": CSVColumn("submission fee", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["submission fee"]),
+        "payment fee": CSVColumn("payment fee", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["payment fee"]),
+        "other": CSVColumn("other", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["other"]),
     }
 
     header = None
@@ -661,14 +591,24 @@ def main():
 
     if not os.path.isdir("tempfiles"):
         os.mkdir("tempfiles")
-    isbn_handling = oat.ISBNHandling("tempfiles/ISBNRangeFile.xml")
+    isbn_handling = oat.ISBNHandling()
     doab_analysis = oat.DOABAnalysis(isbn_handling, "tempfiles/DOAB.csv", verbose=False)
-    doaj_analysis = oat.DOAJAnalysis("tempfiles/DOAJ.csv", force_update=False, max_mdays=30, backup=True, verbose=True)
+    doaj_analysis = oat.DOAJAnalysis(max_mdays=30, verbose=True)
+    issnl_handling = None
+    try:
+        issnl_handling = oat.ISSNLHandling()
+    except Exception as e:
+        msg = ("WARNING: An exception occured while trying to set up " +
+               "the ISSN-L handling: \n{}\nISSN-L enrichment during " +
+               "processing will not work.")
+        oat.print_y(msg.format(e))
 
     csv_file.seek(0)
     reader = csv.reader(csv_file, dialect=dialect)
     header_processed = False
     row_num = 0
+
+    ac_value_found = False
 
     for row in reader:
         row_num += 1
@@ -695,32 +635,63 @@ def main():
                 no_crossref = True
                 no_pubmed = True
                 no_doaj = True
-        result_type, enriched_row = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
-                                                    no_crossref, no_pubmed,
-                                                    no_doaj, args.no_preprint_lookup, args.preprint_auto_accept, args.round_monetary,
-                                                    args.offsetting_mode, args.csv_file, args.crossref_max_retries)
+        enriched_rows = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
+                                        issnl_handling, no_crossref, no_pubmed, no_doaj, args.no_preprint_lookup, args.preprint_auto_accept,
+                                        args.round_monetary, args.offsetting_mode, args.csv_file, args.crossref_max_retries)
+        if not ac_value_found and "additional_costs" in enriched_rows:
+            for index in range(1, len(enriched_rows["additional_costs"])): # index 0 is the DOI
+                if oat.has_value(enriched_rows["additional_costs"][index]):
+                    ac_value_found = True
         for record_type, value in enriched_content.items():
-            if record_type == result_type:
-                value["content"].append(enriched_row)
+            if record_type in enriched_rows:
+                value["content"].append(enriched_rows[record_type])
                 value["count"] += 1
             else:
                 empty_line = ["" for x in value["content"][0]]
                 value["content"].append(empty_line)
     csv_file.close()
+
+    num_different_record_types = 0
+    last_out_file_name = None
     for record_type, value in enriched_content.items():
         if value["count"] > 0:
+            if record_type != "additional_costs":
+                quotemask = oat.OPENAPC_STANDARD_QUOTEMASK
+                num_different_record_types += 1
+                last_out_file_name = 'out_' + record_type + '.csv'
+            else:
+                quotemask = oat.ADDITIONAL_COSTS_QUOTEMASK
             with open('out_' + record_type + '.csv', 'w') as out:
-                writer = oat.OpenAPCUnicodeWriter(out, oat.OPENAPC_STANDARD_QUOTEMASK, 
+                writer = oat.OpenAPCUnicodeWriter(out, quotemask,
                                                   True, True, True)
                 writer.write_rows(value["content"])
 
     if not bufferedHandler.buffer:
         oat.print_g("Metadata enrichment successful, no errors occured")
+        # Directly created an enriched file if there were no errors and only a single record type
+        if num_different_record_types == 1:
+            path, file_name = os.path.split(args.csv_file)
+            file_parts = file_name.split(".")
+            if file_parts[0].endswith("_postprocessed"):
+                file_parts[0] = file_parts[0][:-14]
+            file_parts[0] += "_enriched"
+            enriched_name = ".".join(file_parts)
+            enriched_path = os.path.join(path, enriched_name)
+            if not os.path.isfile(enriched_path):
+                msg = "Enriched file will be created automatically: '{}'"
+                oat.print_g(msg.format(enriched_path))
+                shutil.copy2(last_out_file_name, enriched_path)
+            else:
+                msg = "Could not create enriched file '{}' - file exists!"
+                oat.print_y(msg.format(enriched_path))
     else:
         oat.print_r("There were errors during the enrichment process:\n")
+
     # closing will implicitly flush the handler and print any buffered
     # messages to stderr
     bufferedHandler.close()
+    if ac_value_found:
+        oat.print_m("ATTENTION: Non-zero additional costs found in table - file out_additional_costs.csv should be appended and squashed.")
 
 if __name__ == '__main__':
     main()

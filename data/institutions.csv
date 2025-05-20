@@ -7,7 +7,7 @@ GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB
 Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW,unikonstanz,https://ror.org/0546hnb39,HEI,NA,https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/funding-open-access/,NA
 Leipzig U,leipzig_u,Leipzig University,EUROPE,DEU,SN,unileipzig,https://ror.org/03s7gtk40,HEI,NA,https://www.ub.uni-leipzig.de/open-science/publikationsfonds/,NA
 MPG,mpg,Max Planck Digital Library,EUROPE,DEU,BY,mpg,https://ror.org/0061msm67,INS,MPG,http://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html,The data content covers APCs as paid for by the central budget for the Max Planck Society (MPS). APCs funded locally by Max Planck Institutes are not part of the data. The MPS has a limited input tax reduction. The refund of input VAT for APC is 20%. Until the end of 2007 the MPS was VAT exempt.
-Regensburg U,regensburg_u,University of Regensburg,EUROPE,DEU,BY,unireg,https://ror.org/01eezs655,HEI,NA,http://oa.uni-regensburg.de/,NA
+Regensburg U,regensburg_u,University of Regensburg,EUROPE,DEU,BY,unireg,https://ror.org/01eezs655,HEI,NA,https://epub.uni-regensburg.de/oa-publizieren.html,NA
 TU Clausthal,tu_clausthal,Clausthal University of Technology,EUROPE,DEU,NI,tuclausthal,https://ror.org/04qb8nc58,HEI,NA,https://www.ub.tu-clausthal.de/publizieren-open-access/open-access-publizieren/publikationsfonds,NA
 Muenchen LMU,muenchen_lmu,Ludwig-Maximilians-Universität München,EUROPE,DEU,BY,lmu,https://ror.org/05591te55,HEI,NA,http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html,NA
 Goettingen U,goettingen_u,University of Göttingen,EUROPE,DEU,NI,unigoettingen,https://ror.org/01y9bpm73,HEI,NA,http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/,NA
@@ -15,10 +15,10 @@ Heidelberg U,heidelberg_u,Heidelberg University,EUROPE,DEU,BW,uniheidelberg,http
 Hamburg TUHH,hamburg_tuhh,Hamburg University of Technology,EUROPE,DEU,HH,tuhh,https://ror.org/04bs1pb34,HEI,NA,https://www.tub.tu-harburg.de/publizieren/openaccess/,NA
 Bayreuth U,bayreuth_u,Bayreuth University,EUROPE,DEU,BY,unibayreuth,https://ror.org/0234wmv40,HEI,NA,http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html,NA
 KIT,kit,KIT Karlsruhe,EUROPE,DEU,BW,kit,https://ror.org/04t3en479,INS,HGF,http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php,NA
-INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL,leibniz-INM,https://ror.org/00g656d67,INS,WGL,https://www.ntnm-bib.de/open-access/publikationsfonds/,NA
+INM - Leibniz-Institut für Neue Materialien,inm,INM - Leibniz Institute for New Materials,EUROPE,DEU,SL,leibniz-INM,https://ror.org/00g656d67,INS,WGL,https://www.ntnm-bib.de/en/,NA
 MDC,mdc,Max Delbrück Center for Molecular Medicine (MDC),EUROPE,DEU,BE,mdc,https://ror.org/04p5ggc03,INS,HGF,https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI,NA
 TU Chemnitz,tu_chemnitz,Technische Universität Chemnitz,EUROPE,DEU,SN,tuchemnitz,https://ror.org/00a208s56,HEI,NA,https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en,NA
-TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,tudresden,https://ror.org/042aqky30,HEI,NA,https://www.slub-dresden.de/veroeffentlichen/open-access-finanzieren,NA
+TU Dresden,tu_dresden,Technische Universität Dresden,EUROPE,DEU,SN,tudresden,https://ror.org/042aqky30,HEI,NA,https://www.slub-dresden.de/veroeffentlichen/open-access,NA
 Dortmund TU,dortmund_tu,Technische Universität Dortmund,EUROPE,DEU,NW,tudortmund,https://ror.org/01k97gp34,HEI,NA,https://ub.tu-dortmund.de/forschen-publizieren/open-access/,NA
 Bochum U,bochum_u,Ruhr Universität Bochum,EUROPE,DEU,NW,rub,https://ror.org/04tsk2644,HEI,NA,http://www.ruhr-uni-bochum.de/oa/,NA
 Giessen U,giessen_u,JLU Gießen,EUROPE,DEU,HE,jlu_giessen,https://ror.org/033eqas34,HEI,NA,https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en,NA
@@ -35,22 +35,22 @@ Bremen U,bremen_u,University of Bremen,EUROPE,DEU,HB,unibremen,https://ror.org/0
 Erlangen Nuernberg U,erlangen_nuernberg_u,Friedrich-Alexander-Universität Erlangen-Nürnberg,EUROPE,DEU,BY,fau,https://ror.org/00f7hpc57,HEI,NA,https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/,NA
 Wellcome Trust,wellcome_trust, Wellcome Trust,EUROPE,GBR,ENG,NA,https://ror.org/029chgv08,NA,NA,https://wellcome.ac.uk/funding/managing-grant/open-access-policy,NA
 Tuebingen U,tuebingen_u,Eberhard Karls Universität Tübingen,EUROPE,DEU,BW,unituebingen,https://ror.org/03a1kwz48,HEI,NA,https://uni-tuebingen.de/en/facilities/university-library/publishing-research/publishing/open-access-publication-fund/,NA
-Ulm U,ulm_u,Ulm University,EUROPE,DEU,BW,uniulm,https://ror.org/032000t02,HEI,NA,https://www.uni-ulm.de/en/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/open-access/open-access/,NA
+Ulm U,ulm_u,Ulm University,EUROPE,DEU,BW,uniulm,https://ror.org/032000t02,HEI,NA,https://www.uni-ulm.de/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/oap/,NA
 Freiburg U,freiburg_u,University of Freiburg,EUROPE,DEU,BW,unifreiburg,https://ror.org/0245cg223,HEI,NA,https://www.ub.uni-freiburg.de/en/support/electronic-publishing/open-access/open-access-publication-fund/,NA
-TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien,https://ror.org/04d836q62,NA,NA,https://www.tuwien.at/en/library/research-and-publishing/funding,NA
+TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien,https://ror.org/04d836q62,NA,NA,https://www.tuwien.at/bibliothek/publizieren/open-access-und-urheberrecht,NA
 HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,hzdr,https://ror.org/01zy2cs03,INS,HGF,http://www.hzdr.de/db/Cms?pNid=73,NA
 Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,harvard-hope,https://ror.org/03vek6s52,NA,NA,https://osc.hul.harvard.edu/programs/hope/,NA
 Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,unioldenburg,https://ror.org/033n9gh91,HEI,NA,https://uol.de/en/bis/research-publishing/open-access/open-access-publication-fund,NA
 OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire,NA,NA,NA,https://digital-strategy.ec.europa.eu/en/news/results-fp7-post-grant-open-access-pilot,NA
 University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA,https://ror.org/03yjb2x39,NA,NA,https://library.ucalgary.ca/oa/,NA
-IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn,https://ror.org/008n8dd57,INS,WGL,http://www.ipn.uni-kiel.de/en/the-ipn/library/open-access,NA
+IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn,https://ror.org/008n8dd57,INS,WGL,https://www.leibniz-ipn.de/de/das-ipn/ueber-uns/bibliothek,NA
 UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,ufz,https://ror.org/000h6jb29,INS,HGF,https://www.ufz.de/index.php?en=36297,NA
 TiHo Hannover,tiho,"University of Veterinary Medicine Hannover, Foundation",EUROPE,DEU,NI,tihohannover,https://ror.org/015qjqf64,HEI,NA,http://www.tiho-hannover.de/de/kliniken-institute/bibliothek/open-access/publikationsfonds-an-der-tiho/,NA
 Milano U,milano_u,Università degli Studi di Milano,EUROPE,ITA,IT-25,unimilano,https://ror.org/00wjc7c48,NA,NA,https://www.unimi.it/en,NA
 Virginia Tech,virginia_tech,Virginia Polytechnic Institute and State University,NORTH_AMERICA,USA,US-VA,virginiatech,https://ror.org/02smfhw86,NA,NA,http://guides.lib.vt.edu/oa,NA
 Münster U,muenster_u,Münster University,EUROPE,DEU,NW,unimuenster,https://ror.org/00pd74e08,HEI,NA,https://www.uni-muenster.de/Publizieren/service/publikationsfonds/,NA
 JGU Mainz,jgu_mainz,Johannes Gutenberg University of Mainz,EUROPE,DEU,RP,unimainz,https://ror.org/023b0x485,HEI,NA,https://www.ub.uni-mainz.de/de/open-access/foerderkriterien-open-access,NA
-Universitat de Barcelona,barcelona_u,Universitat de Barcelona,EUROPE,ESP,ES.CT,unibarcelona,https://ror.org/021018s57,NA,NA,http://crai.ub.edu/en/crai-services/open-access-ub,NA
+Universitat de Barcelona,barcelona_u,Universitat de Barcelona,EUROPE,ESP,ES.CT,unibarcelona,https://ror.org/021018s57,NA,NA,https://crai.ub.edu/en/services-and-resources/copyright-intellectual-property-open-access-support/ub-open-acess,NA
 IST Austria,ist_austria,Institute of Science and Technology Austria,EUROPE,AUT,AUT-NO,istaustria,https://ror.org/03gnh5541,NA,NA,https://ist.ac.at/en/research/library/publish-communicate/,NA
 TIB,tib,TIB – German National Library of Science and Technology,EUROPE,DEU,NI,tib,https://ror.org/04aj4c181,INS,WGL,https://www.tib.eu/en/service/tib-open-access-policy/,NA
 Aberystwyth University,aberystwyth_u,Aberystwyth University,EUROPE,GBR,WLS,NA,https://ror.org/015m2p889,NA,NA,NA,NA
@@ -158,42 +158,42 @@ Osnabrück U,osnabrueck_u,Osnabrück University,EUROPE,DEU,NI,uniosnabrueck,http
 TU Braunschweig,tu_braunschweig,Technische Universität Braunschweig,EUROPE,DEU,NI,tubraunschweig,https://ror.org/010nsgg66,HEI,NA,https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php,NA
 Stuttgart U,stuttgart_u,University of Stuttgart,EUROPE,DEU,BW,unistuttgart,https://ror.org/04vnq7t77,HEI,NA,https://oa.uni-stuttgart.de/publizieren/fonds/,NA
 TU Darmstadt,tu_darmstadt,Technische Universität Darmstadt,EUROPE,DEU,HE,tudarmstadt,https://ror.org/05n911h24,HEI,NA,https://www.ulb.tu-darmstadt.de/service/elektronisches_publizieren/oa_publikationsfond/index.en.jsp,NA
-GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,giga,https://ror.org/00681ts17,INS,WGL,https://www.giga-hamburg.de/en/giga-open-access-guidelines,NA
+GIGA,giga,GIGA German Institute of Global and Area Studies,EUROPE,DEU,HH,giga,https://ror.org/00681ts17,INS,WGL,https://www.giga-hamburg.de/de/das-giga/giga-bibliothek/open-access,NA
 Fraunhofer-Gesellschaft Publishing Fund,fraunhofer_publishing_fund,Fraunhofer-Gesellschaft Publishing Fund,EUROPE,DEU,BY,fraunhofer,NA,INS,FHG,https://www.openaccess.fraunhofer.de/en/open-access-strategy.html,NA
 MLU Halle-Wittenberg,mlu,Martin Luther Universität Halle-Wittenberg,EUROPE,DEU,ST,mluhalle,https://ror.org/05gqaka33,HEI,NA,https://bibliothek.uni-halle.de/dbib/openaccess/,NA
 Rhode Island U,rhode_island_u,University of Rhode Island,NORTH_AMERICA,USA,US-RI,unirhodeisland,https://ror.org/013ckk937,NA,NA,https://uri.libguides.com/oafund,NA
 Aix-Marseille Université,aix_marseille_u,Aix-Marseille Université,EUROPE,FRA,FR-PAC,couperin/amu,https://ror.org/035xkbk20,NA,NA,NA,NA
 Université de Bourgogne,bourgogne_u,Université de Bourgogne,EUROPE,FRA,FR-BFC,couperin/bourgogne,https://ror.org/03k1bsr36,NA,NA,NA,NA
-Hospices Civils de Lyon,hcl_u,Hospices Civils de Lyon,EUROPE,FRA,FR-ARA,couperin/hcl,https://ror.org/01502ca60,NA,NA,NA,NA
-INRIA,inria,Institut national de recherche en informatique et en automatique (INRIA),EUROPE,FRA,FR-IDF,couperin/inria,https://ror.org/02kvxyf05,NA,NA,NA,NA
-INSERM,inserm,Institut national de la santé et de la recherche médicale (INSERM),EUROPE,FRA,FR-IDF,couperin/inserm,https://ror.org/02vjkv261,NA,NA,NA,NA
-Université Lille 1,lille1_u,Université Lille 1,EUROPE,FRA,FR-HDF,couperin/lille1,NA,NA,NA,NA,NA
-Université Lille 2,lille2_u,Université Lille 2,EUROPE,FRA,FR-HDF,couperin/lille2,NA,NA,NA,NA,NA
-Université de Rennes 1,rennes1_u,Université de Rennes 1,EUROPE,FRA,FR-BRE,couperin/rennes1,https://ror.org/015m7wh34,NA,NA,NA,NA
+HCL - Hospices civils de Lyon,hcl_u,HCL - Hospices civils de Lyon,EUROPE,FRA,FR-ARA,couperin/hcl,https://ror.org/01502ca60,NA,NA,NA,NA
+INRIA - Institut National de Recherche en Informatique et en Automatique,inria,INRIA - Institut National de Recherche en Informatique et en Automatique,EUROPE,FRA,FR-IDF,couperin/inria,https://ror.org/02kvxyf05,NA,NA,NA,NA
+INSERM - Institut National de la Santé et de la Recherche Médicale,inserm,INSERM - Institut National de la Santé et de la Recherche Médicale,EUROPE,FRA,FR-IDF,couperin/inserm,https://ror.org/02vjkv261,NA,NA,NA,NA
+Université de Lille I Sciences et technologies,lille1_u,Université de Lille I Sciences et technologies,EUROPE,FRA,FR-HDF,couperin/lille1,NA,NA,NA,NA,NA
+Université de Lille II Droit et Santé,lille2_u,Université de Lille II Droit et Santé,EUROPE,FRA,FR-HDF,couperin/lille2,NA,NA,NA,NA,NA
+Université de Rennes,rennes1_u,Université de Rennes,EUROPE,FRA,FR-BRE,couperin/rennes1,https://ror.org/015m7wh34,NA,NA,NA,NA
 Université de Toulon,toulon_u,Université de Toulon,EUROPE,FRA,FR-PAC,couperin/toulon,https://ror.org/02m9kbe37,NA,NA,NA,NA
-Université Pierre et Marie Curie (Paris VI),upmc,Université Pierre et Marie Curie (Paris VI),EUROPE,FRA,FR-IDF,couperin/upmc,NA,NA,NA,NA,NA
+Université Pierre et Marie Curie - Paris VI,upmc,Université Pierre et Marie Curie - Paris VI,EUROPE,FRA,FR-IDF,couperin/upmc,NA,NA,NA,NA,NA
 Université de Bordeaux,bordeaux_u,Université de Bordeaux,EUROPE,FRA,FR-NAQ,couperin/bordeaux,https://ror.org/057qpr032,NA,NA,NA,NA
 Université Grenoble Alpes,grenoble_u,Université Grenoble Alpes,EUROPE,FRA,FR-ARA,couperin/grenoble,https://ror.org/02rx3b187,NA,NA,NA,NA
-Institut national polytechnique de Toulouse,inpt,Institut national polytechnique de Toulouse(INPT),EUROPE,FRA,FR-OCC,couperin/inpt,https://ror.org/033p9g875,NA,NA,NA,NA
+Toulouse INP - Institut National Polytechnique de Toulouse,inpt,Toulouse INP - Institut National Polytechnique de Toulouse,EUROPE,FRA,FR-OCC,couperin/inpt,https://ror.org/033p9g875,NA,NA,NA,NA
 Université de Poitiers,poitiers_u,Université de Poitiers,EUROPE,FRA,FR-NAQ,couperin/poitiers,https://ror.org/04xhy8q59,NA,NA,NA,NA
 University of Borås,boras_u,University of Borås,EUROPE,SWE,SE-O,natlibswe/univ_boras,https://ror.org/01fdxwh83,NA,NA,NA,NA
 University West,west_u,University West,EUROPE,SWE,SE-O,natlibswe/univ_vast,https://ror.org/0257kt353,NA,NA,NA,NA
 Linnaeus University,linnaeus_u,Linnaeus University,EUROPE,SWE,SE-G,natlibswe/univ_linne,https://ror.org/00j9qag85,NA,NA,NA,NA
 Örebro University,orebro_u,Örebro University,EUROPE,SWE,SE-T,natlibswe/univ_orebro,https://ror.org/05kytsw45,NA,NA,NA,NA
 Université de Lorraine,lorraine_u,Université de Lorraine,EUROPE,FRA,FR-GES,couperin/lorraine,https://ror.org/04vfs2w97,NA,NA,NA,NA
-CNRS,cnrs,Centre national de la recherche scientifique (CNRS),EUROPE,FRA,FR-IDF,couperin/cnrs,https://ror.org/00675rp98,NA,NA,NA,NA
+CNRS - Centre national de la recherche scientifique,cnrs,CNRS - Centre national de la recherche scientifique,EUROPE,FRA,FR-IDF,couperin/cnrs,https://ror.org/00675rp98,NA,NA,NA,NA
 Université Clermont Auvergne,clermont_u,Université Clermont Auvergne,EUROPE,FRA,FR-ARA,couperin/auvergne,https://ror.org/01a8ajp46,NA,NA,NA,NA
 Indiana University - Purdue University Indianapolis (IUPUI),iupui,Indiana University - Purdue University Indianapolis (IUPUI),NORTH_AMERICA,USA,US-IN,iupui,https://ror.org/05gxnyn08,NA,NA,https://ulib.iupui.edu/digitalscholarship/openaccess/oafund,NA
 Leibniz-IGB,igb,IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries,EUROPE,DEU,BE,igb,https://ror.org/01nftxb06,INS,WGL,https://www.igb-berlin.de/en/library,NA
 Weierstrass Institute for Applied Analysis and Stochastics,wias,WIAS - Weierstrass Institute for Applied Analysis and Stochastics,EUROPE,DEU,BE,wias,https://ror.org/00h1x4t21,INS,WGL,https://www.wias-berlin.de/services/library/,NA
-Université Paris Descartes (Paris V),paris_descartes_u,Université Paris Descartes (Paris V),EUROPE,FRA,FR-IDF,couperin/paris-descartes,NA,NA,NA,NA,NA
+Université Paris Descartes - Paris V,paris_descartes_u,Université Paris Descartes - Paris V,EUROPE,FRA,FR-IDF,couperin/paris-descartes,NA,NA,NA,NA,NA
 Université Toulouse III - Paul Sabatier,toulouse_u_3,Université Toulouse III,EUROPE,FRA,FR-OCC,couperin/toulouse3,https://ror.org/02v6kpv12,NA,NA,NA,NA
-INRA,inra,Institut national de la recherche agronomique (INRA),EUROPE,FRA,FR-IDF,couperin/inra,https://ror.org/05y503v71,NA,NA,NA,NA
-ESPCI Paris,espci,École supérieure de physique et de chimie industrielles de la Ville de Paris (ESPCI),EUROPE,FRA,FR-IDF,couperin/espci,https://ror.org/03zx86w41,NA,NA,NA,NA
+INRA - Institut National de la Recherche Agronomique,inra,INRA - Institut National de la Recherche Agronomique,EUROPE,FRA,FR-IDF,couperin/inra,https://ror.org/05y503v71,NA,NA,NA,NA
+ESPCI - Ecole supérieure de physique et de chimie industrielles,espci,ESPCI - Ecole supérieure de physique et de chimie industrielles,EUROPE,FRA,FR-IDF,couperin/espci,https://ror.org/03zx86w41,NA,NA,NA,NA
 Avignon Université,avignon_u,Avignon Université,EUROPE,FRA,FR-PAC,couperin/avignon,https://ror.org/00mfpxb84,NA,NA,NA,NA
 Université de Caen Normandie,caen_u,Université de Caen Normandie,EUROPE,FRA,FR-NOR,couperin/caen,https://ror.org/051kpcy16,NA,NA,NA,NA
 Université de Franche-Comté,france_comte_u,Université de Franche-Comté,EUROPE,FRA,FR-BFC,couperin/franche-comte,https://ror.org/03pcc9z86,NA,NA,NA,NA
-Université Paris Diderot (Paris VII),paris_diderot_u,Université Paris Diderot (Paris VII),EUROPE,FRA,FR-IDF,couperin/paris-diderot,NA,NA,NA,NA,NA
+Université Paris Diderot - Paris VII,paris_diderot_u,Université Paris Diderot - Paris VII,EUROPE,FRA,FR-IDF,couperin/paris-diderot,NA,NA,NA,NA,NA
 Université de Strasbourg,strasbourg_u,Université de Strasbourg,EUROPE,FRA,FR-GES,couperin/strasbourg,https://ror.org/00pg6eq24,NA,NA,NA,NA
 "University of Chemistry and Technology, Prague",uct_prague_u,"University of Chemistry and Technology, Prague",EUROPE,CZE,CZ-PR,uct_prague,https://ror.org/05ggn0a85,NA,NA,https://www.chemtk.cz/en/,NA
 Brunel University,brunel_u,Brunel University,EUROPE,GBR,ENG,NA,https://ror.org/00dn4t376,NA,NA,NA,NA
@@ -215,24 +215,24 @@ SOAS,soas,SOAS University of London,EUROPE,GBR,ENG,NA,https://ror.org/04vrxay34,
 London South Bank University,london_south_bank_u,London South Bank University,EUROPE,GBR,ENG,NA,https://ror.org/02vwnat91,NA,NA,NA,NA
 Oxford Brookes University,oxford_brookes_u,Oxford Brookes University,EUROPE,GBR,ENG,NA,https://ror.org/04v2twj65,NA,NA,NA,NA
 Université d'Angers,angers_u,Université d'Angers,EUROPE,FRA,FR-PDL,couperin/angers,https://ror.org/04yrqp957,NA,NA,NA,NA
-CIRAD,cirad,Centre de coopération internationale en recherche agronomique pour le développement (CIRAD),EUROPE,FRA,FR-IDF,couperin/cirad,https://ror.org/05kpkpg04,NA,NA,NA,NA
-Ecole normale supérieure de Paris,ens_paris,Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF,couperin/ens_paris,https://ror.org/05a0dhs15,NA,NA,NA,NA
-Institut de recherche pour le développement (IRD),ird,Institut de recherche pour le développement (IRD),EUROPE,FRA,FR-PAC,couperin/ird,https://ror.org/05q3vnk25,NA,NA,NA,NA
-Université Claude Bernard Lyon 1,lyon1_u,Université Claude Bernard Lyon 1,EUROPE,FRA,FR-ARA,couperin/lyon1,https://ror.org/029brtt94,NA,NA,NA,NA
-Université de Nantes,nantes_u,Université de Nantes,EUROPE,FRA,FR-PDL,couperin/nantes,https://ror.org/03gnr7b55,NA,NA,NA,NA
-IFSTTAR,ifsttar,"Institut français des sciences et technologies des transports, de l'aménagement et des réseaux (IFSTTAR)",EUROPE,FRA,FR-IDF,couperin/ifsttar,NA,NA,NA,NA,NA
-IRSTEA,irstea,Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture (IRSTEA),EUROPE,FRA,FR-IDF,couperin/irstea,NA,NA,NA,NA,NA
-Université Evry Val-d'Essonne,evry_u,Université Evry Val-d'Essonne,EUROPE,FRA,FR-IDF,couperin/evry,https://ror.org/00e96v939,NA,NA,NA,NA
-Université Technologique de Compiègne,compiegne_u,Université Technologique de Compiègne,EUROPE,FRA,FR-HDF,couperin/compiegne,https://ror.org/04y5kwa70,NA,NA,NA,NA
+CIRAD - Centre de coopération internationale en recherche agronomique pour le développement,cirad,CIRAD - Centre de coopération internationale en recherche agronomique pour le développement,EUROPE,FRA,FR-IDF,couperin/cirad,https://ror.org/05kpkpg04,NA,NA,NA,NA
+ENS Paris - Ecole normale supérieure de Paris,ens_paris,ENS Paris - Ecole normale supérieure de Paris,EUROPE,FRA,FR-IDF,couperin/ens_paris,https://ror.org/05a0dhs15,NA,NA,NA,NA
+IRD - Institut de Recherche pour le Développement,ird,IRD - Institut de Recherche pour le Développement,EUROPE,FRA,FR-PAC,couperin/ird,https://ror.org/05q3vnk25,NA,NA,NA,NA
+Université Claude Bernard - Lyon I,lyon1_u,Université Claude Bernard - Lyon I,EUROPE,FRA,FR-ARA,couperin/lyon1,https://ror.org/029brtt94,NA,NA,NA,NA
+Nantes Université,nantes_u,Nantes Université,EUROPE,FRA,FR-PDL,couperin/nantes,https://ror.org/03gnr7b55,NA,NA,NA,NA
+"IFSTTAR - Institut Français des Sciences et Technologies des Transports, de l’aménagement et des Réseaux",ifsttar,"IFSTTAR - Institut Français des Sciences et Technologies des Transports, de l’aménagement et des Réseaux",EUROPE,FRA,FR-IDF,couperin/ifsttar,NA,NA,NA,NA,NA
+IRSTEA - Institut de Recherche en Sciences et Technologies pour l'Environnement et l'Agriculture,irstea,IRSTEA - Institut de Recherche en Sciences et Technologies pour l'Environnement et l'Agriculture,EUROPE,FRA,FR-IDF,couperin/irstea,NA,NA,NA,NA,NA
+Université d'Evry-Val-d'Essonne,evry_u,Université d'Evry-Val-d'Essonne,EUROPE,FRA,FR-IDF,couperin/evry,https://ror.org/00e96v939,NA,NA,NA,NA
+Université de Technologie de Compiègne,compiegne_u,Université de Technologie de Compiègne,EUROPE,FRA,FR-HDF,couperin/compiegne,https://ror.org/04y5kwa70,NA,NA,NA,NA
 Frankfurt U,frankfurt_u,Johann Wolfgang Goethe-Universität Frankfurt am Main,EUROPE,DEU,HE,unifrankfurt,https://ror.org/04cvxnb49,HEI,NA,https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html,NA
-Museum National d'Histoire Naturelle,mnhn,Museum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn,https://ror.org/03wkt5x30,NA,NA,NA,NA
+MNHN - Muséum National d'Histoire Naturelle,mnhn,MNHN - Muséum National d'Histoire Naturelle,EUROPE,FRA,FR-IDF,couperin/mnhn,https://ror.org/03wkt5x30,NA,NA,NA,NA
 TH Wildau,th_wildau,Technische Hochschule Wildau,EUROPE,DEU,BB,thwildau,https://ror.org/00k62pe27,HEI,NA,https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/,NA
 Charité - Universitätsmedizin Berlin,charite,Charité - Universitätsmedizin Berlin,EUROPE,DEU,BE,charite,https://ror.org/001w7jn25,HEI,NA,https://bibliothek.charite.de/publizieren/open_access,NA
 La Rochelle Université,la_rochelle_u,La Rochelle Université,EUROPE,FRA,FR-NAQ,couperin/rochelle,https://ror.org/04mv1z119,NA,NA,NA,NA
-Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,unirostock,https://ror.org/03zdwsf69,HEI,NA,https://www.ub.uni-rostock.de/en/wissenschaftliche-services/open-access/open-access-foerdermoeglichkeiten/open-access-publikationsfonds-der-universitaet-rostock/,NA
+Rostock U,rostock_u,University of Rostock,EUROPE,DEU,MV,unirostock,https://ror.org/03zdwsf69,HEI,NA,https://www.ub.uni-rostock.de/wissenschaftliche-services/open-access/open-access-foerdermoeglichkeiten/,NA
 Qatar National Library,qnl,Qatar National Library,WESTERN_ASIA,QAT,QA-RA,qatar_national_library,https://ror.org/02jv93662,NA,NA,https://www.qnl.qa/en,NA
 Université de La Réunion,reunion_u,Université de La Réunion,EUROPE,FRA,FR-RE,couperin/reunion,https://ror.org/005ypkf75,NA,NA,NA,NA
-Mines ParisTech,mines,MINES ParisTech,EUROPE,FRA,FR-IDF,couperin/mines-paristech,https://ror.org/04y8cs423,NA,NA,NA,NA
+Mines Paris - Ecole nationale supérieure des Mines de Paris,mines,Mines Paris - Ecole nationale supérieure des Mines de Paris,EUROPE,FRA,FR-IDF,couperin/mines-paristech,https://ror.org/04y8cs423,NA,NA,NA,NA
 Université de Montpellier,montpellier_u,Université de Montpellier,EUROPE,FRA,FR-OCC,couperin/montpellier,https://ror.org/051escj72,NA,NA,NA,NA
 Marburg U,marburg_u,Philipps University of Marburg,EUROPE,DEU,HE,unimarburg,https://ror.org/01rdrb571,HEI,NA,https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds,NA
 Free University of Bozen-Bolzano,bozen_u,Free University of Bozen-Bolzano,EUROPE,ITA,IT-32,unibozen,https://ror.org/012ajp527,NA,NA,https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/,NA
@@ -243,7 +243,7 @@ University of Debrecen,debrecen_u,University of Debrecen,EUROPE,HUN,HU-DE,unideb
 Institut für Arbeitsmarkt- und Berufsforschung,iab,Institut für Arbeitsmarkt- und Berufsforschung (IAB),EUROPE,DEU,BY,iab,https://ror.org/02qcqwf93,OTH,NA,https://iab.de/en/the-iab/aufgaben-und-leitlinien-en/open-access/,NA
 GEOMAR,geomar,GEOMAR - Helmholtz Centre for Ocean Research Kiel,EUROPE,DEU,SH,geomar,https://ror.org/02h2x0161,INS,HGF,https://www.geomar.de/en/centre/central-facilities/bibliothek/author-services/publication-costs,NA
 University of Jyväskylä,jyvaskyla_u,University of Jyväskylä,EUROPE,FIN,FI-08,unijyväskylä,https://ror.org/05n3dz165,NA,NA,https://openscience.jyu.fi/en/open-access-publishing,NA
-Commissariat à l'énergie atomique et aux énergies alternatives (CEA),cea,Commissariat à l'énergie atomique et aux énergies alternatives (CEA),EUROPE,FRA,FR-IDF,couperin/cea,https://ror.org/00jjx8s55,NA,NA,NA,NA
+CEA - Commissariat à l'énergie atomique et aux énergies alternatives,cea,CEA - Commissariat à l'énergie atomique et aux énergies alternatives,EUROPE,FRA,FR-IDF,couperin/cea,https://ror.org/00jjx8s55,NA,NA,NA,NA
 Salzburg U,salzburg_u,University of Salzburg,EUROPE,AUT,AUT-SZ,unisalzburg,https://ror.org/05gs8cd61,NA,NA,https://www.plus.ac.at/university-library/services/open-access/open-access-policy/?lang=en,NA
 Swedish School of Sport and Health Sciences,swedish_school_sport_health_sciences,Swedish School of Sport and Health Sciences,EUROPE,SWE,SE-AB,natlibswe/swe_school_sports_health_sciences,https://ror.org/046hach49,NA,NA,NA,NA
 University of Skövde,skovde_u,University of Skövde,EUROPE,SWE,SE-O,natlibswe/univ_skovde,https://ror.org/051mrsz47,NA,NA,NA,NA
@@ -259,7 +259,7 @@ Södertörns University,sodertorns_u,Södertörns University,EUROPE,SWE,SE-AB,na
 Laurea University of Applied Sciences,laurea_uas,Laurea University of Applied Sciences,EUROPE,FIN,FI-18,laurea_uas,https://ror.org/05h664633,NA,NA,https://www.laurea.fi/en/,NA
 Hanken School of Economics,hanken_soe,Hanken School of Economics,EUROPE,FIN,FI-18,hanken,https://ror.org/026086s92,NA,NA,https://www.hanken.fi/en,NA
 Passau U,passau_u,University of Passau,EUROPE,DEU,BY,unipassau,https://ror.org/05ydjnb78,HEI,NA,https://www.ub.uni-passau.de/publizieren/open-access/publikationsfonds/,NA
-DLR,dlr,Deutsches Zentrum für Luft- und Raumfahrt,EUROPE,DEU,NW,dlr,https://ror.org/04bwf3e34,INS,HGF,https://www.dlr.de/zb/en/desktopdefault.aspx/tabid-8234/,NA
+DLR,dlr,Deutsches Zentrum für Luft- und Raumfahrt,EUROPE,DEU,NW,dlr,https://ror.org/04bwf3e34,INS,HGF,https://www.dlr.de/de/das-dlr/ueber-uns/organisation/wissenschaftliche-information/dlr-bibliothek,NA
 Institut Pasteur,institut_pasteur,Institut Pasteur,EUROPE,FRA,FR-IDF,couperin/pasteur,https://ror.org/0495fxg12,NA,NA,NA,NA
 Bill & Melinda Gates Foundation,gates_foundation,Bill & Melinda Gates Foundation,NORTH_AMERICA,USA,US-WA,gates_foundation,https://ror.org/0456r8d26,NA,NA,https://www.gatesfoundation.org/how-we-work/general-information/open-access-policy,NA
 Siegen U,siegen_u,University of Siegen,EUROPE,DEU,NW,unisiegen,https://ror.org/02azyry73,HEI,NA,https://www.ub.uni-siegen.de/index.php?id=1510&L=1,NA
@@ -271,26 +271,26 @@ Hochschule Luzern,hs_luzern,Hochschule Luzern,EUROPE,CHE,CH.LU,hsluzern,https://
 Veneto Institute of Oncology IOV IRCCS,iov_ircss,Veneto Institute of Oncology (IOV IRCCS),EUROPE,ITA,IT-34,iov-irccs,https://ror.org/01xcjmy57,NA,NA,https://www.ioveneto.it/unit/gestione-documentazione-scientifica/,NA
 HS Bielefeld,hs_bielefeld,Hochschule Bielefeld - University of Applied Sciences and Arts (HSBI),EUROPE,DEU,NW,fhbielefeld,https://ror.org/00edvg943,HEI,NA,https://www.hsbi.de/open-access/publikationsfonds,NA
 Pädagogische Hochschule Luzern,ph_luzern,Pädagogische Hochschule Luzern,EUROPE,CHE,CH.LU,phluzern,https://ror.org/0235ynq74,NA,NA,https://www.phlu.ch/,NA
-Universität Luzern,luzern_u,Universität Luzern,EUROPE,CHE,CH.LU,uniluzern,https://ror.org/00kgrkn83,NA,NA,https://www.zhbluzern.ch/en/services/research-publish#WzU1Mzhd/,NA
+Universität Luzern,luzern_u,Universität Luzern,EUROPE,CHE,CH.LU,uniluzern,https://ror.org/00kgrkn83,NA,NA,https://www.zhbluzern.ch/lernen-forschen/open-science/open-access-publizieren,NA
 University of Bern,bern_u,University of Bern,EUROPE,CHE,CH.BE,unibern,https://ror.org/02k7v4d05,NA,NA,https://www.ub.unibe.ch/services/open_science/open_access/oa_fonds/index_eng.html,NA
 ETH Zurich,ethz,ETH Zürich,EUROPE,CHE,CH.ZH,ethz,https://ror.org/05a28rw58,NA,NA,https://library.ethz.ch/en/publishing-and-archiving/publishing-and-registering/publishing-in-open-access-journals.html,NA
 University of Gävle,gavle_u,University of Gävle,EUROPE,SWE,SE-X,natlibswe/univ_gavle,https://ror.org/043fje207,NA,NA,NA,NA
-Kiel U,kiel_u,Christian-Albrechts-Universität zu Kiel,EUROPE,DEU,SH,unikiel,https://ror.org/04v76ef78,HEI,NA,https://www.ub.uni-kiel.de/en/open-access-publishing/open-access,NA
-Université de Reims Champagne Ardenne,reims_u,Université de Reims Champagne Ardenne,EUROPE,FRA,FR-GES,couperin/reims,https://ror.org/03hypw319,NA,NA,NA,NA
+Kiel U,kiel_u,Christian-Albrechts-Universität zu Kiel,EUROPE,DEU,SH,unikiel,https://ror.org/04v76ef78,HEI,NA,https://www.ub.uni-kiel.de/de/publizieren/open-access-finanzierung,NA
+Université de Reims Champagne-Ardenne,reims_u,Université de Reims Champagne-Ardenne,EUROPE,FRA,FR-GES,couperin/reims,https://ror.org/03hypw319,NA,NA,NA,NA
 Bonn U,bonn_u,Rheinische Friedrich-Wilhelms-Universität Bonn,EUROPE,DEU,NW,unibonn,https://ror.org/041nas322,HEI,NA,https://www.open-access.uni-bonn.de/de,NA
 Eawag - Swiss Federal Institute of Aquatic Science and Technology,eawag,Eawag - Swiss Federal Institute of Aquatic Science and Technology,EUROPE,CHE,CH.ZH,NA,https://ror.org/00pc48d59,NA,NA,https://www.eawag.ch/en/,via [Lib4RI](https://www.lib4ri.ch/services/open-access.html)
 Empa - Swiss Federal Laboratories for Materials Science and Technology,empa,Empa - Swiss Federal Laboratories for Materials Science and Technology,EUROPE,CHE,CH.ZH,NA,https://ror.org/02x681a42,NA,NA,https://www.empa.ch/,via [Lib4RI](https://www.lib4ri.ch/services/open-access.html)
-ANSM,ansm,Agence nationale de sécurité du médicament et des produits de santé,EUROPE,FRA,FR-IDF,couperin/ansm,https://ror.org/01g80gk13,NA,NA,NA,NA
-Institut Laue-Langevin,laue_langevin,Institut Laue-Langevin,EUROPE,FRA,FR-ARA,couperin/ill,https://ror.org/01xtjs520,NA,NA,NA,NA
-ISARA,isara,Institut supérieur d'agriculture Rhône-Alpes,EUROPE,FRA,FR-ARA,couperin/isara,https://ror.org/03xsqa235,NA,NA,NA,NA
+ANSM - Agence Nationale de Sécurité des Médicaments et des produits de santé,ansm,ANSM - Agence Nationale de Sécurité des Médicaments et des produits de santé,EUROPE,FRA,FR-IDF,couperin/ansm,https://ror.org/01g80gk13,NA,NA,NA,NA
+ILL - Institut Laue-Langevin,laue_langevin,ILL - Institut Laue-Langevin,EUROPE,FRA,FR-ARA,couperin/ill,https://ror.org/01xtjs520,NA,NA,NA,NA
+ISARA - Institut Supérieur d'Agriculture et d'Agroalimentaire Rhône-Alpes,isara,ISARA - Institut Supérieur d'Agriculture et d'Agroalimentaire Rhône-Alpes,EUROPE,FRA,FR-ARA,couperin/isara,https://ror.org/03xsqa235,NA,NA,NA,NA
 Université Paris-Est Marne-la-Vallée,paris_est_u,Université Paris-Est Marne-la-Vallée,EUROPE,FRA,FR-IDF,couperin/upem,NA,NA,NA,NA,NA
 DIPF,dipf,DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation,EUROPE,DEU,HE,dipf,https://ror.org/0327sr118,INS,WGL,https://www.dipf.de/en/knowledge-resources/dipfdocs-open-access?set_language=en,NA
 University of Basel,basel_u,University of Basel,EUROPE,CHE,CH.BS,unibasel,https://ror.org/02s6k3f65,NA,NA,https://ub.unibas.ch/de/digitale-dienste/open-access/,NA
-CNAM,cnam,Conservatoire national des arts et métiers,EUROPE,FRA,FR-IDF,couperin/cnam,https://ror.org/0175hh227,NA,NA,NA,NA
-IMT Atlantique,imt_atlantique,IMT Atlantique Bretagne Pays de la Loire,EUROPE,FRA,FR-BRE,couperin/imt,https://ror.org/030hj3061,NA,NA,NA,NA
+CNAM - Conservatoire national des arts et métiers,cnam,CNAM - Conservatoire national des arts et métiers,EUROPE,FRA,FR-IDF,couperin/cnam,https://ror.org/0175hh227,NA,NA,NA,NA
+IMT Atlantique Bretagne - Pays de la Loire,imt_atlantique,IMT Atlantique Bretagne - Pays de la Loire,EUROPE,FRA,FR-BRE,couperin/imt,https://ror.org/030hj3061,NA,NA,NA,NA
 HS Düsseldorf,hs_duesseldorf,Hochschule Düsseldorf,EUROPE,DEU,NW,hsduesseldorf,https://ror.org/00ftx0026,HEI,NA,https://bib.hs-duesseldorf.de/en,NA
 Université des Antilles,antilles_u,Université des Antilles,EUROPE,FRA,FR-GP,couperin/antilles,https://ror.org/02ryfmr77,NA,NA,NA,NA
-ENSICAEN,ensicaen,École nationale supérieure d'ingénieurs de Caen,EUROPE,FRA,FR-NOR,couperin/ensicaen,https://ror.org/01fpqqe90,NA,NA,NA,NA
+ENSICAEN - Ecole nationale supérieure de Caen,ensicaen,ENSICAEN - Ecole nationale supérieure de Caen,EUROPE,FRA,FR-NOR,couperin/ensicaen,https://ror.org/01fpqqe90,NA,NA,NA,NA
 Natural Resources Institute Finland,nri_finland,Natural Resources Institute Finland,EUROPE,FIN,FI-18,NA,https://ror.org/02hb7bm88,NA,NA,NA,NA
 University of Applied Sciences Savonia,savonia_uas,University of Applied Sciences Savonia,EUROPE,FIN,FI-15,NA,https://ror.org/0238fqd79,NA,NA,NA,NA
 SAMK Satakunta University of Applied Sciences,satakunta_uas,Satakunta University of Applied Sciences,EUROPE,FIN,FI-17,NA,https://ror.org/008wzdf98,NA,NA,NA,NA
@@ -301,23 +301,23 @@ Häme University of Applied Sciences,hame_uas,Häme University of Applied Scienc
 Université du Littoral Côte d'Opale,ulco,Université du Littoral Côte d'Opale,EUROPE,FRA,FR-HDF,couperin/ulco,https://ror.org/02gdcg342,NA,NA,NA,NA
 Université de Tours,tours_u,Université de Tours,EUROPE,FRA,FR-CVL,couperin/tours,https://ror.org/02wwzvj46,NA,NA,NA,NA
 Université Savoie Mont Blanc,savoie_u,Université Savoie Mont Blanc,EUROPE,FRA,FR-ARA,couperin/savoie,https://ror.org/04gqg1a07,NA,NA,NA,NA
-Paris 8 Vincennes - Saint-Denis,paris_8_u,Paris 8 Vincennes - Saint-Denis,EUROPE,FRA,FR-IDF,couperin/paris-8,https://ror.org/04wez5e68,NA,NA,NA,NA
-ONERA,onera,Office National d'Etudes et de Recherches Aérospatiales (ONERA),EUROPE,FRA,FR-IDF,couperin/onera,https://ror.org/005y2ap84,NA,NA,NA,NA
-Université de Nouvelle Calédonie,nouvelle_caledonie_u,Université de Nouvelle Calédonie,EUROPE,FRA,FR-NC,couperin/nouvelle-caledonie,https://ror.org/02jrgcx64,NA,NA,NA,NA
+Université Vincennes-Saint Denis - Paris VIII,paris_8_u,Université Vincennes-Saint Denis - Paris VIII,EUROPE,FRA,FR-IDF,couperin/paris-8,https://ror.org/04wez5e68,NA,NA,NA,NA
+ONERA - Office National d'Etudes et de Recherches Aérospatiales - The French Aerospace Lab,onera,ONERA - Office National d'Etudes et de Recherches Aérospatiales - The French Aerospace Lab,EUROPE,FRA,FR-IDF,couperin/onera,https://ror.org/005y2ap84,NA,NA,NA,NA
+Université de la Nouvelle-Calédonie,nouvelle_caledonie_u,Université de la Nouvelle-Calédonie,EUROPE,FRA,FR-NC,couperin/nouvelle-caledonie,https://ror.org/02jrgcx64,NA,NA,NA,NA
 Le Mans Université,le_mans_u,Le Mans Université,EUROPE,FRA,FR-PDL,couperin/le-mans,https://ror.org/0406t3m57,NA,NA,NA,NA
-Laboratoire national de métrologie et d'essais - LNE,lne,Laboratoire national de métrologie et d'essais - LNE,EUROPE,FRA,FR-IDF,couperin/lne,https://ror.org/01ph39d13,NA,NA,NA,NA
+LNE - Laboratoire National de Métrologie et d'Essais,lne,LNE - Laboratoire National de Métrologie et d'Essais,EUROPE,FRA,FR-IDF,couperin/lne,https://ror.org/01ph39d13,NA,NA,NA,NA
 Université de Lille,lille_u,Université de Lille,EUROPE,FRA,FR-HDF,couperin/lille,https://ror.org/02kzqn938,NA,NA,NA,NA
 MHB Fontane,mhb_fontane,Medizinische Hochschule Brandenburg Theodor Fontane,EUROPE,DEU,BB,mhbfontane,https://ror.org/04839sh14,HEI,NA,https://www.mhb-fontane.de/open-access-publikationsfonds-482.html,NA
 HTW Dresden,htw_dresden,Hochschule für Technik und Wirtschaft Dresden,EUROPE,DEU,SN,htwdresden,https://ror.org/05q5pk319,HEI,NA,https://www.htw-dresden.de/open-access,NA
 Thomas Jefferson University,jefferson_u,Thomas Jefferson University,NORTH_AMERICA,USA,US-PA,unijefferson,https://ror.org/00ysqcn41,NA,NA,https://library.jefferson.edu/pub/open_access.cfm,NA
-ENS de Lyon,ens_lyon,ENS de Lyon,EUROPE,FRA,FR-ARA,couperin/ens_lyon,https://ror.org/04zmssz18,NA,NA,NA,NA
-INSA Strasbourg,insa_strasbourg,Institut National des Sciences Appliquées de Strasbourg,EUROPE,FRA,FR-GES,couperin/insa-strasbourg,https://ror.org/001nta019,NA,NA,NA,NA
-Université de Pau et des Pays de l'Adour,pau_u,Université de Pau et des Pays de l'Adour,EUROPE,FRA,FR-NAQ,couperin/pau,https://ror.org/01frn9647,NA,NA,NA,NA
-Université de Bretagne Occidentale,bretagne_u,Université de Bretagne Occidentale,EUROPE,FRA,FR-BRE,couperin/ubo,https://ror.org/01b8h3982,NA,NA,NA,NA
-Université de Versailles-Saint-Quentin-en-Yvelines,uvsq,Université de Versailles-Saint-Quentin-en-Yvelines,EUROPE,FRA,FR-IDF,couperin/uvsq,https://ror.org/03mkjjy25,NA,NA,NA,NA
-Université de Bretagne-Sud,bretagne_sud_u,Université de Bretagne-Sud,EUROPE,FRA,FR-BRE,couperin/ubs,https://ror.org/04ed7fw48,NA,NA,NA,NA
+ENS Lyon - Ecole normale supérieure de Lyon,ens_lyon,ENS Lyon - Ecole normale supérieure de Lyon,EUROPE,FRA,FR-ARA,couperin/ens_lyon,https://ror.org/04zmssz18,NA,NA,NA,NA
+INSA Strasbourg - Institut National des Sciences Appliquées de Strasbourg,insa_strasbourg,INSA Strasbourg - Institut National des Sciences Appliquées de Strasbourg,EUROPE,FRA,FR-GES,couperin/insa-strasbourg,https://ror.org/001nta019,NA,NA,NA,NA
+Université de Pau et des Pays de l'Adour - UPPA,pau_u,Université de Pau et des Pays de l'Adour - UPPA,EUROPE,FRA,FR-NAQ,couperin/pau,https://ror.org/01frn9647,NA,NA,NA,NA
+Université de Bretagne Occidentale - UBO,bretagne_u,Université de Bretagne Occidentale - UBO,EUROPE,FRA,FR-BRE,couperin/ubo,https://ror.org/01b8h3982,NA,NA,NA,NA
+Université de Versailles Saint-Quentin-en-Yvelines,uvsq,Université de Versailles Saint-Quentin-en-Yvelines,EUROPE,FRA,FR-IDF,couperin/uvsq,https://ror.org/03mkjjy25,NA,NA,NA,NA
+Université de Bretagne Sud - UBS,bretagne_sud_u,Université de Bretagne Sud - UBS,EUROPE,FRA,FR-BRE,couperin/ubs,https://ror.org/04ed7fw48,NA,NA,NA,NA
 Sorbonne Université,sorbonne_u,Sorbonne Université,EUROPE,FRA,FR-IDF,couperin/sorbonne-universite,https://ror.org/02en5vm52,NA,NA,NA,NA
-INSA de Lyon,insa_lyon,INSA de Lyon,EUROPE,FRA,FR-ARA,couperin/insa-lyon,https://ror.org/050jn9y42,NA,NA,NA,NA
+INSA Lyon - Institut National des Sciences Appliquées de Lyon,insa_lyon,INSA Lyon - Institut National des Sciences Appliquées de Lyon,EUROPE,FRA,FR-ARA,couperin/insa-lyon,https://ror.org/050jn9y42,NA,NA,NA,NA
 Aalto University,aalto_u,Aalto University,EUROPE,FIN,FI-18,NA,https://ror.org/020hwjq30,NA,NA,NA,NA
 ZHAW Zurich University of Applied Sciences,zhaw,ZHAW Zurich University of Applied Sciences,EUROPE,CHE,CH.ZH,zhaw,https://ror.org/05pmsvm27,NA,NA,https://www.zhaw.ch/en/library/writing-publishing/publishing-and-open-access/oa-at-the-zhaw/#c112481,NA
 "WSL - Swiss Federal Institute for Forest, Snow and Landscape Research",wsl,"WSL - Swiss Federal Institute for Forest, Snow and Landscape Research",EUROPE,CHE,CH.ZH,NA,https://ror.org/04bs5yc70,NA,NA,https://www.wsl.ch/en/index.html,NA
@@ -325,33 +325,33 @@ PSI - Paul Scherrer Institute,psi,PSI - Paul Scherrer Institute,EUROPE,CHE,CH.AG
 Zurich University of the Arts,zhdk,Zurich University of the Arts,EUROPE,CHE,CH.ZH,zhdk,https://ror.org/05r0ap620,NA,NA,https://www.zhdk.ch/miz/miz-oa,NA
 Johannes Kepler University Linz,linz_u,Johannes Kepler University Linz,EUROPE,AUT,AUT-OO,unilinz,https://ror.org/052r2xn60,NA,NA,https://www.jku.at/en/library/service/bibliometrics-and-publication-support/open-access-publishing/publication-fund/,NA
 Paul-Drude-Institut für Festkörperelektronik,pdi,Paul-Drude-Institut für Festkörperelektronik,EUROPE,DEU,BE,pdi,https://ror.org/01mk1hj86,INS,WGL,http://www.pdi-berlin.de/home/,NA
-Magdeburg U,magdeburg_u,Otto-von-Guericke-Universität Magdeburg,EUROPE,DEU,ST,unimagdeburg,https://ror.org/00ggpsq73,HEI,NA,https://www.ub.ovgu.de/en/Publication+_+Open+Access/Open+Access/Publication+Fund+for+Articles.html,NA
+Magdeburg U,magdeburg_u,Otto-von-Guericke-Universität Magdeburg,EUROPE,DEU,ST,unimagdeburg,https://ror.org/00ggpsq73,HEI,NA,https://www.ub.ovgu.de/Publizieren+_+Open+Access/Open+Access.html,NA
 AgroParisTech,aggroparistech,AgroParisTech,EUROPE,FRA,FR-IDF,couperin/agroparistech,https://ror.org/02kbmgc12,NA,NA,NA,NA
-ENGEES,engees,École nationale du génie de l'eau et de l'environnement de Strasbourg,EUROPE,FRA,FR-GES,couperin/engees,https://ror.org/02jhjzd11,NA,NA,NA,NA
-ENSTA Bretagne,ensta_bretagne,ENSTA Bretagne,EUROPE,FRA,FR-BRE,couperin/ensta-bretagne,https://ror.org/059n54003,NA,NA,NA,NA
+ENGEES - Ecole nationale du Génie de l'Eau et de l'Environnement de Strasbourg,engees,ENGEES - Ecole nationale du Génie de l'Eau et de l'Environnement de Strasbourg,EUROPE,FRA,FR-GES,couperin/engees,https://ror.org/02jhjzd11,NA,NA,NA,NA
+ENSTA Bretagne - Ecole nationale supérieure de techniques avancées - Bretagne,ensta_bretagne,ENSTA Bretagne - Ecole nationale supérieure de techniques avancées - Bretagne,EUROPE,FRA,FR-BRE,couperin/ensta-bretagne,https://ror.org/059n54003,NA,NA,NA,NA
 Université de Haute-Alsace,haute_alsace_u,Université de Haute-Alsace,EUROPE,FRA,FR-GES,couperin/haute-alsace,https://ror.org/04k8k6n84,NA,NA,NA,NA
-IFREMER,ifremer,Institut Français de Recherche pour l'Exploitation de la Mer,EUROPE,FRA,FR-BRE,couperin/ifremer,https://ror.org/044jxhp58,NA,NA,NA,NA
-Université du Havre,havre_u,Université du Havre,EUROPE,FRA,FR-NOR,couperin/le-havre,https://ror.org/05v509s40,NA,NA,NA,NA
-Université Paris 1 Panthéon-Sorbonne,paris_1_u,Université Paris 1 Panthéon-Sorbonne,EUROPE,FRA,FR-IDF,couperin/paris-1,https://ror.org/002t25c44,NA,NA,NA,NA
-Université Paris Nanterre,paris_nanterre_u,Université Paris Nanterre,EUROPE,FRA,FR-IDF,couperin/paris-nanterre,https://ror.org/013bkhk48,NA,NA,NA,NA
-Université de Perpignan - Via Domitia,perpignan_u,Université de Perpignan - Via Domitia,EUROPE,FRA,FR-OCC,couperin/perpignan,https://ror.org/03am2jy38,NA,NA,NA,NA
-Sciences Po Paris,scpo_paris,Sciences Po Paris,EUROPE,FRA,FR-IDF,couperin/scpo-paris,https://ror.org/05fe7ax82,NA,NA,NA,NA
+IFREMER - Institut Français de Recherche pour l'Exploitation de la Mer,ifremer,IFREMER - Institut Français de Recherche pour l'Exploitation de la Mer,EUROPE,FRA,FR-BRE,couperin/ifremer,https://ror.org/044jxhp58,NA,NA,NA,NA
+Université Le Havre Normandie,havre_u,Université Le Havre Normandie,EUROPE,FRA,FR-NOR,couperin/le-havre,https://ror.org/05v509s40,NA,NA,NA,NA
+Université Panthéon-Sorbonne - Paris I,paris_1_u,Université Panthéon-Sorbonne - Paris I,EUROPE,FRA,FR-IDF,couperin/paris-1,https://ror.org/002t25c44,NA,NA,NA,NA
+Université de Paris Ouest Nanterre La Défense - Paris X,paris_nanterre_u,Université de Paris Ouest Nanterre La Défense - Paris X,EUROPE,FRA,FR-IDF,couperin/paris-nanterre,https://ror.org/013bkhk48,NA,NA,NA,NA
+Université de Perpignan Via Domitia,perpignan_u,Université de Perpignan Via Domitia,EUROPE,FRA,FR-OCC,couperin/perpignan,https://ror.org/03am2jy38,NA,NA,NA,NA
+Sciences Po Paris - Institut d'Etudes Politiques de Paris,scpo_paris,Sciences Po Paris - Institut d'Etudes Politiques de Paris,EUROPE,FRA,FR-IDF,couperin/scpo-paris,https://ror.org/05fe7ax82,NA,NA,NA,NA
 Université de technologie de Troyes,troyes_u,Université de technologie de Troyes,EUROPE,FRA,FR-GES,couperin/utt,https://ror.org/01qhqcj41,NA,NA,NA,NA
 Université Gustave Eiffel,gustave_eiffel_u,Université Gustave Eiffel,EUROPE,FRA,FR-IDF,couperin/gustave-eiffel,https://ror.org/03x42jk29,NA,NA,NA,NA
-CHU de Rennes,rennes_chu,CHU de Rennes,EUROPE,FRA,FR-BRE,couperin/chu-rennes,https://ror.org/05qec5a53,NA,NA,NA,NA
+Centre Hospitalier Universitaire de Rennes,rennes_chu,Centre Hospitalier Universitaire de Rennes,EUROPE,FRA,FR-BRE,couperin/chu-rennes,https://ror.org/05qec5a53,NA,NA,NA,NA
 Université Polytechnique Hauts-de-France,up_hauts_de_france,Université Polytechnique Hauts-de-France,EUROPE,FRA,FR-HDF,couperin/polytechnique-hdf,https://ror.org/02ezch769,NA,NA,NA,NA
-INRAE,inrae,"Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)",EUROPE,FRA,FR-IDF,couperin/inrae,https://ror.org/003vg9w96,NA,NA,NA,NA
-European Synchrotron Radiation Facility (ESRF),esrf,European Synchrotron Radiation Facility (ESRF),EUROPE,FRA,FR-ARA,couperin/esrf,https://ror.org/02550n020,NA,NA,NA,NA
+"INRAE - Institut national de recherche pour l’agriculture, l’alimentation et l’environnement",inrae,"INRAE - Institut national de recherche pour l’agriculture, l’alimentation et l’environnement",EUROPE,FRA,FR-IDF,couperin/inrae,https://ror.org/003vg9w96,NA,NA,NA,NA
+ESRF - European Synchrotron Radiation Facility,esrf,ESRF - European Synchrotron Radiation Facility,EUROPE,FRA,FR-ARA,couperin/esrf,https://ror.org/02550n020,NA,NA,NA,NA
 Ecole centrale de Lyon,centrale_lyon,Ecole centrale de Lyon,EUROPE,FRA,FR-ARA,couperin/centrale-lyon,https://ror.org/05s6rge65,NA,NA,NA,NA
-Pädagogische Hochschule Zürich,phzh,Pädagogische Hochschule Zürich,EUROPE,CHE,CH.ZH,phzh,https://ror.org/01awgk221,NA,NA,https://phzh.ch/de/Forschung/grundsatze/open-access/,NA
+Pädagogische Hochschule Zürich,phzh,Pädagogische Hochschule Zürich,EUROPE,CHE,CH.ZH,phzh,https://ror.org/01awgk221,NA,NA,https://phzh.ch/ueber-die-phzh/campus/bibliothek/open-access/,NA
 South-Eastern Finland University of Applied Sciences (Xamk),xamk,South-Eastern Finland University of Applied Sciences (Xamk),EUROPE,FIN,FI-04,NA,https://ror.org/051v6v138,NA,NA,NA,NA
 Seinäjoki University of Applied Sciences,seinäjoki_uas,Seinäjoki University of Applied Sciences,EUROPE,FIN,FI-03,NA,https://ror.org/036je1b38,NA,NA,NA,NA
 Lapin ammattikorkeakoulu (fi),lapin_uas,Lapin ammattikorkeakoulu (Lapland University of Applied Sciences),EUROPE,FIN,FI-10,NA,https://ror.org/047h64h89,NA,NA,NA,NA
 Halmstad University,halmstad_u,Halmstad University,EUROPE,SWE,SE-N,natlibswe/univ_halmstad,https://ror.org/03h0qfp10,NA,NA,NA,NA
 IFW Dresden,ifw_dresden,Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden,EUROPE,DEU,SN,ifw-dresden,https://ror.org/04zb59n70,INS,WGL,https://www.ifw-dresden.de/about-us/library,NA
-Hochschule Hannover,hsh,Hochschule Hannover,EUROPE,DEU,NI,hshannover,https://ror.org/03m2kj587,HEI,NA,https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/,NA
-Université de Côte d'Azur,cote_azur_u,Université de Côte d'Azur,EUROPE,FRA,FR-PAC,couperin/cote-azur,https://ror.org/019tgvf94,NA,NA,NA,NA
-IRSN,irsn,Institut de radioprotection et de sûreté nucléaire,EUROPE,FRA,FR-IDF,couperin/irsn,https://ror.org/01ha22c77,NA,NA,NA,NA
+HS Hannover,hsh,Hochschule Hannover,EUROPE,DEU,NI,hshannover,https://ror.org/03m2kj587,HEI,NA,https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh/,NA
+Université Côte d'Azur - UniCA,cote_azur_u,Université Côte d'Azur - UniCA,EUROPE,FRA,FR-PAC,couperin/cote-azur,https://ror.org/019tgvf94,NA,NA,NA,NA
+IRSN - Institut de Radioprotection et de Sûreté Nucléaire,irsn,IRSN - Institut de Radioprotection et de Sûreté Nucléaire,EUROPE,FRA,FR-IDF,couperin/irsn,https://ror.org/01ha22c77,NA,NA,NA,NA
 Bauhaus-Universität Weimar,weimar_u,Bauhaus-Universität Weimar,EUROPE,DEU,TH,uniweimar,https://ror.org/033bb5z47,HEI,NA,https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/,NA
 Universität Erfurt,erfurt_u,Universität Erfurt,EUROPE,DEU,TH,unierfurt,https://ror.org/03606hw36,HEI,NA,https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren-1/open-access-publikationsfonds,NA
 Friedrich-Schiller-Universität Jena,fsu_jena,Friedrich-Schiller-Universität Jena,EUROPE,DEU,TH,fsu,https://ror.org/05qpz1x62,HEI,NA,https://www.thulb.uni-jena.de/services/forschung-/-lehre/open-access-/-elektronisches-publizieren#c3516,NA
@@ -370,219 +370,217 @@ Oxford University Clinical Research Unit,oucru,Oxford University Clinical Resear
 Royal Veterinary College,rvc,Royal Veterinary College,EUROPE,GBR,ENG,NA,https://ror.org/01wka8n18,NA,NA,NA,NA
 SWP - German Institute for International and Security Affairs,swp,SWP - German Institute for International and Security Affairs,EUROPE,DEU,BE,swp_berlin,https://ror.org/05frkc804,OTH,NA,https://www.swp-berlin.org/en/,NA
 University of Vaasa,vaasa_u,University of Vaasa,EUROPE,FIN,FI-12,univaasa,https://ror.org/03769b225,NA,NA,https://www.uwasa.fi/en,NA
-ENAC,enac,École Nationale de l'Aviation Civile,EUROPE,FRA,FR-OCC,couperin/enac,https://ror.org/022zdgq74,NA,NA,NA,NA
+ENAC - Ecole Nationale de l'Aviation Civile,enac,ENAC - Ecole Nationale de l'Aviation Civile,EUROPE,FRA,FR-OCC,couperin/enac,https://ror.org/022zdgq74,NA,NA,NA,NA
 Åbo Akademi University,abo_akademi,Åbo Akademi University,EUROPE,FIN,FI-19,aboakademi,https://ror.org/029pk6x14,NA,NA,NA,NA
 Finnish Environment Institute,finnish_environment_institute,Finnish Environment Institute,EUROPE,FIN,FI-18,NA,https://ror.org/013nat269,NA,NA,NA,NA
-Université de Rennes 2,rennes2_u,Université de Rennes 2,EUROPE,FRA,FR-BRE,couperin/rennes2,https://ror.org/01m84wm78,NA,NA,NA,NA
+Université de Rennes II Haute-Bretagne,rennes2_u,Université de Rennes II Haute-Bretagne,EUROPE,FRA,FR-BRE,couperin/rennes2,https://ror.org/01m84wm78,NA,NA,NA,NA
 Université de Nîmes,nimes_u,Université de Nîmes,EUROPE,FRA,FR-OCC,couperin/nimes,https://ror.org/044t4x544,NA,NA,NA,NA
 The National Defence University,ndu,The National Defence University Finland,EUROPE,FIN,FI-18,NA,https://ror.org/01js4x705,NA,NA,NA,NA
 Ecole polytechnique,ecole_polytechnique,Ecole polytechnique,EUROPE,FRA,FR_IDF,couperin/polytechnique-saclay,https://ror.org/05hy3tk52,NA,NA,NA,NA
 Université de Picardie Jules Verne,picardie_u,Université de Picardie Jules Verne,EUROPE,FRA,FR-HDF,couperin/picardie,https://ror.org/01gyxrk03,NA,NA,NA,NA
-Université Paris Dauphine-PSL,paris_dauphine_u,Université Paris Dauphine-PSL,EUROPE,FRA,FR_IDF,couperin/paris-dauphine,https://ror.org/052bz7812,NA,NA,NA,NA
+Université Paris-Dauphine - Paris IX,paris_dauphine_u,Université Paris-Dauphine - Paris IX,EUROPE,FRA,FR_IDF,couperin/paris-dauphine,https://ror.org/052bz7812,NA,NA,NA,NA
 CentraleSupélec,centrale_supelec,CentraleSupélec,EUROPE,FRA,FR_IDF,couperin/centrale-supelec,https://ror.org/019tcpt25,NA,NA,NA,NA
 University of Oulu,oulu_u,University of Oulu,EUROPE,FIN,FI-14,unioulu,https://ror.org/03yj89h83,NA,NA,https://www.oulu.fi/en,NA
-OA-Monofonds Brandenburg,NA,OA-Monofonds Brandenburg,NA,DEU,NA,brandenburg_oa-monofonds,NA,OTH,NA,https://open-access-brandenburg.de/fonds/,NA
-Pädagogische Hochschule Thurgau,phtg,Pädagogische Hochschule Thurgau,NA,CHE,NA,phtg,https://ror.org/04bf6dq94,NA,NA,https://www.phtg.ch/,NA
-Knowledge Unlatched,NA,Knowledge Unlatched,NA,DEU,NA,NA,https://ror.org/00xgd4p18,OTH,NA,http://www.knowledgeunlatched.org/,NA
-Anglia Ruskin University,NA,Anglia Ruskin University,NA,GBR,NA,NA,https://ror.org/0009t4v78,NA,NA,https://www.aru.ac.uk/,NA
-Bournemouth University,NA,Bournemouth University,NA,GBR,NA,NA,https://ror.org/05wwcw481,NA,NA,https://www.bournemouth.ac.uk/,NA
-Cardiff Metropolitan University,NA,Cardiff Metropolitan University,NA,GBR,NA,NA,https://ror.org/00bqvf857,NA,NA,https://www.cardiffmet.ac.uk/Pages/default.aspx,NA
-City University London,NA,City University London,NA,GBR,NA,NA,https://ror.org/04489at23,NA,NA,https://www.city.ac.uk/,NA
-Edge Hill University,NA,Edge Hill University,NA,GBR,NA,NA,https://ror.org/028ndzd53,NA,NA,https://www.edgehill.ac.uk/,NA
-Kingston University,NA,Kingston University,NA,GBR,NA,NA,https://ror.org/05bbqza97,NA,NA,https://www.kingston.ac.uk/,NA
-Natural History Museum,NA,Natural History Museum,NA,GBR,NA,NA,https://ror.org/039zvsn29,NA,NA,https://www.nhm.ac.uk/,NA
-Nottingham Trent University,NA,Nottingham Trent University,NA,GBR,NA,NA,https://ror.org/04xyxjd90,NA,NA,https://www.ntu.ac.uk/,NA
-Robert Gordon University,NA,Robert Gordon University,NA,GBR,NA,NA,https://ror.org/04f0qj703,NA,NA,https://www.rgu.ac.uk/,NA
-Scotland's Rural College,NA,Scotland's Rural College,NA,GBR,NA,NA,https://ror.org/044e2ja82,NA,NA,https://www.sruc.ac.uk/,NA
-Sheffield Hallam University,NA,Sheffield Hallam University,NA,GBR,NA,NA,https://ror.org/019wt1929,NA,NA,https://libguides.shu.ac.uk/OpenAccess/,NA
-University of Abertay Dundee,NA,University of Abertay Dundee,NA,GBR,NA,NA,https://ror.org/04mwwnx67,NA,NA,https://www.abertay.ac.uk/,NA
-University of Bedfordshire,NA,University of Bedfordshire,NA,GBR,NA,NA,https://ror.org/0400avk24,NA,NA,https://www.beds.ac.uk/,NA
-University of Bradford,NA,University of Bradford,NA,GBR,NA,NA,https://ror.org/00vs8d940,NA,NA,https://www.bradford.ac.uk/external/,NA
-University of Central Lancashire,NA,University of Central Lancashire,NA,GBR,NA,NA,https://ror.org/010jbqd54,NA,NA,https://www.uclan.ac.uk/,NA
-University of Chester,NA,University of Chester,NA,GBR,NA,NA,https://ror.org/01drpwb22,NA,NA,https://www1.chester.ac.uk/,NA
-University of Derby,NA,University of Derby,NA,GBR,NA,NA,https://ror.org/02yhrrk59,NA,NA,https://www.derby.ac.uk/,NA
-University of Greenwich,NA,University of Greenwich,NA,GBR,NA,NA,https://ror.org/00bmj0a71,NA,NA,https://www.gre.ac.uk/,NA
-University of Lincoln,NA,University of Lincoln,NA,GBR,NA,NA,https://ror.org/03yeq9x20,NA,NA,http://www.lincoln.ac.uk/home/,NA
-University of Northampton,NA,University of Northampton,NA,GBR,NA,NA,https://ror.org/04jp2hx10,NA,NA,https://www.northampton.ac.uk/,NA
-University of Stirling,NA,University of Stirling,NA,GBR,NA,NA,https://ror.org/045wgfr59,NA,NA,https://www.stir.ac.uk/,NA
-University of Westminster,NA,University of Westminster,NA,GBR,NA,NA,https://ror.org/04ycpbx82,NA,NA,https://www.westminster.ac.uk/,NA
-University of West of Scotland,NA,University of West of Scotland,NA,GBR,NA,NA,https://ror.org/04w3d2v20,NA,NA,https://www.uws.ac.uk/home/,NA
-University of the Highlands and Islands,NA,University of the Highlands and Islands,NA,GBR,NA,NA,https://ror.org/02s08xt61,NA,NA,https://www.uhi.ac.uk/en/,NA
-University of Wales Trinity St David,NA,University of Wales Trinity St David,NA,GBR,NA,NA,https://ror.org/05gkzcc88,NA,NA,https://www.uwtsd.ac.uk/,NA
-Queen Margaret University,NA,Queen Margaret University,NA,GBR,NA,NA,https://ror.org/002g3cb31,NA,NA,https://www.qmu.ac.uk/,NA
-Academic Medical Center (AMC),NA,Academic Medical Center (AMC),NA,NLD,NA,NA,https://ror.org/03t4gr691,NA,NA,https://www.amc.nl/web/home.htm,NA
-Delft University of Technology,NA,Delft University of Technology,NA,NLD,NA,NA,https://ror.org/02e2c7k09,NA,NA,https://www.tudelft.nl/en/,NA
-Eindhoven University of Technology,NA,Eindhoven University of Technology,NA,NLD,NA,NA,https://ror.org/02c2kyt77,NA,NA,https://www.tue.nl/en/,NA
-Erasmus MC,NA,Erasmus University Medical Center,NA,NLD,NA,NA,https://ror.org/018906e22,NA,NA,https://www.erasmusmc.nl/en/,NA
-Erasmus University,NA,Erasmus University Rotterdam,NA,NLD,NA,NA,https://ror.org/057w15z03,NA,NA,https://www.eur.nl/en,NA
-Leiden University,NA,Leiden University,NA,NLD,NA,NA,https://ror.org/027bh9e22,NA,NA,https://www.universiteitleiden.nl/en,NA
-Maastricht University,NA,Maastricht University,NA,NLD,NA,NA,https://ror.org/02jz4aj89,NA,NA,https://www.maastrichtuniversity.nl/,NA
-Radboud University,NA,Radboud University,NA,NLD,NA,NA,https://ror.org/016xsfp80,NA,NA,https://www.ru.nl/en,NA
-Radboud University Medical Center,NA,Radboud University Medical Center,NA,NLD,NA,NA,https://ror.org/05wg1m734,NA,NA,https://www.radboudumc.nl/en/research,NA
-University Medical Center Utrecht,NA,University Medical Center Utrecht,NA,NLD,NA,NA,https://ror.org/0575yy874,NA,NA,https://www.umcutrecht.nl/en,NA
-University Medical Center Groningen (UMCG),NA,University Medical Center Groningen (UMCG),NA,NLD,NA,NA,https://ror.org/03cv38k47,NA,NA,https://www.umcg.nl/,NA
-University of Groningen,NA,University of Groningen,NA,NLD,NA,NA,https://ror.org/012p63287,NA,NA,https://www.rug.nl/,NA
-University of Amsterdam,NA,University of Amsterdam,NA,NLD,NA,NA,https://ror.org/04dkp9463,NA,NA,https://www.uva.nl/en,NA
-University of Twente,NA,University of Twente,NA,NLD,NA,NA,https://ror.org/006hf6230,NA,NA,https://www.utwente.nl/en/,NA
-Utrecht University,NA,Utrecht University,NA,NLD,NA,NA,https://ror.org/04pp8hn57,NA,NA,https://www.uu.nl/en,NA
-VU University Amsterdam,NA,VU University Amsterdam,NA,NLD,NA,NA,https://ror.org/008xxew50,NA,NA,https://vu.nl/en,NA
-VU University Medical Center (VUmc),NA,VU University Medical Center (VUmc),NA,NLD,NA,NA,https://ror.org/00q6h8f30,NA,NA,https://www.vumc.nl/,NA
-Wageningen University and Research Centre,NA,Wageningen University and Research Centre,NA,NLD,NA,NA,https://ror.org/04qw24q55,NA,NA,https://www.wur.nl/en.htm,NA
-Maastricht University Medical Center (UMC+),NA,Maastricht University Medical Center (UMC+),NA,NLD,NA,NA,https://ror.org/02d9ce178,NA,NA,https://www.mumc.nl/en,NA
-Open University of The Netherlands,NA,Open University of The Netherlands,NA,NLD,NA,NA,https://ror.org/018dfmf50,NA,NA,https://www.ou.nl/en/,NA
-Tilburg University,NA,Tilburg University,NA,NLD,NA,NA,https://ror.org/04b8v1s79,NA,NA,https://www.tilburguniversity.edu/,NA
-Netherlands Interdisciplinary Demographic Institute (NIDI),NA,Netherlands Interdisciplinary Demographic Institute (NIDI),NA,NLD,NA,NA,https://ror.org/04kf5kc54,NA,NA,https://nidi.nl/en/,NA
-Netherlands Institute of Ecology,NA,Netherlands Institute of Ecology,NA,NLD,NA,NA,https://ror.org/01g25jp36,NA,NA,https://nioo.knaw.nl/en,NA
-"Meertens Institute",NA,"Meertens Institute",NA,NLD,NA,NA,https://ror.org/05kaxyq51,NA,NA,https://meertens.knaw.nl/en/,NA
-Leiden University Medical Center (LUMC),NA,Leiden University Medical Center (LUMC),NA,NLD,NA,NA,https://ror.org/05xvt9f17,NA,NA,https://www.lumc.nl/,NA
-Westerdijk Fungal Biodiversity Center (CBS),NA,Westerdijk Fungal Biodiversity Center (CBS),NA,NLD,NA,NA,https://ror.org/030a5r161,NA,NA,https://wi.knaw.nl/,NA
-International Institute of Social History (IISH),NA,International Institute of Social History (IISH),NA,NLD,NA,NA,https://ror.org/05dq4pp56,NA,NA,https://iisg.amsterdam/en,NA
-Academisch Centrum Tandheelkunde Amsterdam (ACTA),NA,Academisch Centrum Tandheelkunde Amsterdam (ACTA),NA,NLD,NA,NA,https://ror.org/04x5wnb75,NA,NA,https://acta.nl/en/,NA
-Rathenau Institute,NA,Rathenau Institute,NA,NLD,NA,NA,https://ror.org/04crnd335,NA,NA,https://www.rathenau.nl/en,NA
-Netherlands Institute for Neuroscience,NA,Netherlands Institute for Neuroscience,NA,NLD,NA,NA,https://ror.org/05csn2x06,NA,NA,https://nin.nl/,NA
-Swedish Museum of Natural History,NA,Swedish Museum of Natural History,NA,SWE,NA,NA,https://ror.org/05k323c76,NA,NA,https://www.nrm.se/en/16.html,NA
-Mid Sweden University,NA,Mid Sweden University,NA,SWE,NA,NA,https://ror.org/019k1pd13,NA,NA,https://www.miun.se/en,NA
-Kristianstad University,NA,Kristianstad University,NA,SWE,NA,NA,https://ror.org/00tkrft03,NA,NA,https://www.hkr.se/en/,NA
-Medical Products Agency,NA,Medical Products Agency,NA,SWE,NA,NA,https://ror.org/0356c4a29,NA,NA,https://www.lakemedelsverket.se/en,NA
-Swedish Defence Research Agency,NA,Swedish Defence Research Agency,NA,SWE,NA,NA,https://ror.org/0470cgs30,NA,NA,https://www.foi.se/en/foi.html,NA
-Swedish National Road and Transport Research Institute (VTI),NA,Swedish National Road and Transport Research Institute (VTI),NA,SWE,NA,NA,https://ror.org/04zmmpw58,NA,NA,https://www.vti.se/en/,NA
-Swiss Federal University for Vocational Education and Training,NA,Swiss Federal University for Vocational Education and Training,NA,CHE,NA,NA,https://ror.org/00zg4za48,NA,NA,https://www.sfuvet.swiss/,NA
-Schwyz University of Teacher Education,NA,Schwyz University of Teacher Education,NA,CHE,NA,NA,https://ror.org/00rqdn375,NA,NA,https://www.phsz.ch/en/,NA
-Haute École Pédagogique BEJUNE,NA,Haute École Pédagogique BEJUNE,NA,CHE,NA,NA,https://ror.org/015pmkr43,NA,NA,https://www.hep-bejune.ch/,NA
-Medicines for Malaria Venture,NA,Medicines for Malaria Venture,NA,CHE,NA,NA,https://ror.org/00p9jf779,NA,NA,https://www.mmv.org/,NA
-University of Teacher Education Zug,NA,University of Teacher Education Zug,NA,CHE,NA,NA,https://ror.org/05ghhx264,NA,NA,https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug,NA
-University of Applied Sciences of the Grisons,NA,University of Applied Sciences of the Grisons,NA,CHE,NA,NA,https://ror.org/032ymzc07,NA,NA,https://www.fhgr.ch/en/,NA
-Haute École Pédagogique Fribourg,NA,Haute École Pédagogique Fribourg,NA,CHE,NA,NA,https://ror.org/048gre751,NA,NA,https://hepfr.ch/,NA
-Graduate Institute of International and Development Studies,NA,Graduate Institute of International and Development Studies,NA,CHE,NA,NA,https://ror.org/007ygn379,NA,NA,http://graduateinstitute.ch/home.html,NA
-University of Liechtenstein,NA,University of Liechtenstein,NA,LIE,NA,NA,https://ror.org/01qjrx392,NA,NA,https://www.uni.li/study/de/,NA
-Pädagogische Hochschule Bern,NA,Pädagogische Hochschule Bern,NA,CHE,NA,NA,https://ror.org/05jf1ma54,NA,NA,https://www.phbern.ch/,NA
+OA-Monofonds Brandenburg,monofonds,OA-Monofonds Brandenburg,EUROPE,DEU,BB,brandenburg_oa-monofonds,NA,OTH,NA,https://open-access-brandenburg.de/fonds/,NA
+Pädagogische Hochschule Thurgau,phtg,Pädagogische Hochschule Thurgau,EUROPE,CHE,CH.TG,phtg,https://ror.org/04bf6dq94,NA,NA,https://www.phtg.ch/,NA
+Knowledge Unlatched,knowledge_unlatched,Knowledge Unlatched,EUROPE,DEU,BE,NA,https://ror.org/00xgd4p18,OTH,NA,http://www.knowledgeunlatched.org/,NA
+Anglia Ruskin University,ruskin_u,Anglia Ruskin University,EUROPE,GBR,ENG,NA,https://ror.org/0009t4v78,NA,NA,https://www.aru.ac.uk/,NA
+Bournemouth University,bournemouth_u,Bournemouth University,EUROPE,GBR,ENG,NA,https://ror.org/05wwcw481,NA,NA,https://www.bournemouth.ac.uk/,NA
+Cardiff Metropolitan University,cardiff_met,Cardiff Metropolitan University,EUROPE,GBR,WLS,NA,https://ror.org/00bqvf857,NA,NA,https://www.cardiffmet.ac.uk/Pages/default.aspx,NA
+City University London,london_city_u,City University London,EUROPE,GBR,ENG,NA,https://ror.org/04489at23,NA,NA,https://www.city.ac.uk/,NA
+Edge Hill University,edge_hill_u,Edge Hill University,EUROPE,GBR,ENG,NA,https://ror.org/028ndzd53,NA,NA,https://www.edgehill.ac.uk/,NA
+Kingston University,kingston_u,Kingston University,EUROPE,GBR,ENG,NA,https://ror.org/05bbqza97,NA,NA,https://www.kingston.ac.uk/,NA
+Natural History Museum,nhm,Natural History Museum,EUROPE,GBR,ENG,NA,https://ror.org/039zvsn29,NA,NA,https://www.nhm.ac.uk/,NA
+Nottingham Trent University,ntu,Nottingham Trent University,EUROPE,GBR,ENG,NA,https://ror.org/04xyxjd90,NA,NA,https://www.ntu.ac.uk/,NA
+Robert Gordon University,rgu,Robert Gordon University,EUROPE,GBR,SCT,NA,https://ror.org/04f0qj703,NA,NA,https://www.rgu.ac.uk/,NA
+Scotland's Rural College,sruc,Scotland's Rural College,EUROPE,GBR,SCT,NA,https://ror.org/044e2ja82,NA,NA,https://www.sruc.ac.uk/,NA
+Sheffield Hallam University,shu,Sheffield Hallam University,EUROPE,GBR,SCT,NA,https://ror.org/019wt1929,NA,NA,https://libguides.shu.ac.uk/OpenAccess/,NA
+University of Abertay Dundee,abertay_u,University of Abertay Dundee,EUROPE,GBR,SCT,NA,https://ror.org/04mwwnx67,NA,NA,https://www.abertay.ac.uk/,NA
+University of Bedfordshire,bedfordshire_u,University of Bedfordshire,EUROPE,GBR,ENG,NA,https://ror.org/0400avk24,NA,NA,https://www.beds.ac.uk/,NA
+University of Bradford,bradford_u,University of Bradford,EUROPE,GBR,ENG,NA,https://ror.org/00vs8d940,NA,NA,https://www.bradford.ac.uk/external/,NA
+University of Central Lancashire,uclan,University of Central Lancashire,EUROPE,GBR,ENG,NA,https://ror.org/010jbqd54,NA,NA,https://www.uclan.ac.uk/,NA
+University of Chester,chester_u,University of Chester,EUROPE,GBR,ENG,NA,https://ror.org/01drpwb22,NA,NA,https://www1.chester.ac.uk/,NA
+University of Derby,derby_u,University of Derby,EUROPE,GBR,ENG,NA,https://ror.org/02yhrrk59,NA,NA,https://www.derby.ac.uk/,NA
+University of Greenwich,greenwich_u,University of Greenwich,EUROPE,GBR,ENG,NA,https://ror.org/00bmj0a71,NA,NA,https://www.gre.ac.uk/,NA
+University of Lincoln,lincoln_u,University of Lincoln,EUROPE,GBR,ENG,NA,https://ror.org/03yeq9x20,NA,NA,http://www.lincoln.ac.uk/home/,NA
+University of Northampton,northampton_u,University of Northampton,EUROPE,GBR,ENG,NA,https://ror.org/04jp2hx10,NA,NA,https://www.northampton.ac.uk/,NA
+University of Stirling,stirling_u,University of Stirling,EUROPE,GBR,SCT,NA,https://ror.org/045wgfr59,NA,NA,https://www.stir.ac.uk/,NA
+University of Westminster,westminster_u,University of Westminster,EUROPE,GBR,ENG,NA,https://ror.org/04ycpbx82,NA,NA,https://www.westminster.ac.uk/,NA
+University of West of Scotland,uws,University of West of Scotland,EUROPE,GBR,SCT,NA,https://ror.org/04w3d2v20,NA,NA,https://www.uws.ac.uk/home/,NA
+University of the Highlands and Islands,uhi,University of the Highlands and Islands,EUROPE,GBR,SCT,NA,https://ror.org/02s08xt61,NA,NA,https://www.uhi.ac.uk/en/,NA
+University of Wales Trinity St David,uwtsd,University of Wales Trinity St David,EUROPE,GBR,WLS,NA,https://ror.org/05gkzcc88,NA,NA,https://www.uwtsd.ac.uk/,NA
+Queen Margaret University,qmu,Queen Margaret University,EUROPE,GBR,SCT,NA,https://ror.org/002g3cb31,NA,NA,https://www.qmu.ac.uk/,NA
+Academic Medical Center (AMC),amc,Academic Medical Center (AMC),EUROPE,NLD,NL-NH,NA,https://ror.org/03t4gr691,NA,NA,https://www.amc.nl/web/home.htm,NA
+Delft University of Technology,tu_delft,Delft University of Technology,EUROPE,NLD,NL-ZH,NA,https://ror.org/02e2c7k09,NA,NA,https://www.tudelft.nl/en/,NA
+Eindhoven University of Technology,tu_eindhoven,Eindhoven University of Technology,EUROPE,NLD,NL-NB,NA,https://ror.org/02c2kyt77,NA,NA,https://www.tue.nl/en/,NA
+Erasmus MC,erasmus_umc,Erasmus University Medical Center,EUROPE,NLD,NL-ZH,NA,https://ror.org/018906e22,NA,NA,https://www.erasmusmc.nl/en/,NA
+Erasmus University,erasmus_u,Erasmus University Rotterdam,EUROPE,NLD,NL-ZH,NA,https://ror.org/057w15z03,NA,NA,https://www.eur.nl/en,NA
+Leiden University,leiden_u,Leiden University,EUROPE,NLD,NL-ZH,NA,https://ror.org/027bh9e22,NA,NA,https://www.universiteitleiden.nl/en,NA
+Maastricht University,maastricht_u,Maastricht University,EUROPE,NLD,NL-LI,NA,https://ror.org/02jz4aj89,NA,NA,https://www.maastrichtuniversity.nl/,NA
+Radboud University,radboud_u,Radboud University,EUROPE,NLD,NL-GE,NA,https://ror.org/016xsfp80,NA,NA,https://www.ru.nl/en,NA
+Radboud University Medical Center,radboud_umc,Radboud University Medical Center,EUROPE,NLD,NL-GE,NA,https://ror.org/05wg1m734,NA,NA,https://www.radboudumc.nl/en/research,NA
+University Medical Center Utrecht,utrecht_umc,University Medical Center Utrecht,EUROPE,NLD,NL-UT,NA,https://ror.org/0575yy874,NA,NA,https://www.umcutrecht.nl/en,NA
+University Medical Center Groningen (UMCG),groningen_umc,University Medical Center Groningen (UMCG),EUROPE,NLD,NL-GR,NA,https://ror.org/03cv38k47,NA,NA,https://www.umcg.nl/,NA
+University of Groningen,groningen_u,University of Groningen,EUROPE,NLD,NL-GR,NA,https://ror.org/012p63287,NA,NA,https://www.rug.nl/,NA
+University of Amsterdam,amsterdam_u,University of Amsterdam,EUROPE,NLD,NL-NH,NA,https://ror.org/04dkp9463,NA,NA,https://www.uva.nl/en,NA
+University of Twente,twente_u,University of Twente,EUROPE,NLD,NL-OV,NA,https://ror.org/006hf6230,NA,NA,https://www.utwente.nl/en/,NA
+Utrecht University,utrecht_u,Utrecht University,EUROPE,NLD,NL-UT,NA,https://ror.org/04pp8hn57,NA,NA,https://www.uu.nl/en,NA
+VU University Amsterdam,vu_amsterdam,VU University Amsterdam,EUROPE,NLD,NL-NH,NA,https://ror.org/008xxew50,NA,NA,https://vu.nl/en,NA
+VU University Medical Center (VUmc),vumc,VU University Medical Center (VUmc),EUROPE,NLD,NL-NH,NA,https://ror.org/00q6h8f30,NA,NA,https://www.vumc.nl/,NA
+Wageningen University and Research Centre,wageningen_ur,Wageningen University and Research Centre,EUROPE,NLD,NL-GE,NA,https://ror.org/04qw24q55,NA,NA,https://www.wur.nl/en.htm,NA
+Maastricht University Medical Center (UMC+),maastricht_umc,Maastricht University Medical Center (UMC+),EUROPE,NLD,NL-LI,NA,https://ror.org/02d9ce178,NA,NA,https://www.mumc.nl/en,NA
+Open University of The Netherlands,ounl,Open University of The Netherlands,EUROPE,NLD,NL-LI,NA,https://ror.org/018dfmf50,NA,NA,https://www.ou.nl/en/,NA
+Tilburg University,tilburg_u,Tilburg University,EUROPE,NLD,NL-NB,NA,https://ror.org/04b8v1s79,NA,NA,https://www.tilburguniversity.edu/,NA
+Netherlands Interdisciplinary Demographic Institute (NIDI),nidi,Netherlands Interdisciplinary Demographic Institute (NIDI),EUROPE,NLD,NL-ZH,NA,https://ror.org/04kf5kc54,NA,NA,https://nidi.nl/en/,NA
+Netherlands Institute of Ecology,nioo_knaw,Netherlands Institute of Ecology,EUROPE,NLD,NL-GE,NA,https://ror.org/01g25jp36,NA,NA,https://nioo.knaw.nl/en,NA
+"Meertens Institute",meertens,"Meertens Institute",EUROPE,NLD,NL-NH,NA,https://ror.org/05kaxyq51,NA,NA,https://meertens.knaw.nl/en/,NA
+Leiden University Medical Center (LUMC),lumc,Leiden University Medical Center (LUMC),EUROPE,NLD,NL-ZH,NA,https://ror.org/05xvt9f17,NA,NA,https://www.lumc.nl/,NA
+Westerdijk Fungal Biodiversity Center (CBS),cbs,Westerdijk Fungal Biodiversity Center (CBS),EUROPE,NLD,NL-UT,NA,https://ror.org/030a5r161,NA,NA,https://wi.knaw.nl/,NA
+International Institute of Social History (IISH),iish,International Institute of Social History (IISH),EUROPE,NLD,NL-NH,NA,https://ror.org/05dq4pp56,NA,NA,https://iisg.amsterdam/en,NA
+Academisch Centrum Tandheelkunde Amsterdam (ACTA),acta,Academisch Centrum Tandheelkunde Amsterdam (ACTA),EUROPE,NLD,NL-NH,NA,https://ror.org/04x5wnb75,NA,NA,https://acta.nl/en/,NA
+Rathenau Institute,rathenau,Rathenau Institute,EUROPE,NLD,NL-ZH,NA,https://ror.org/04crnd335,NA,NA,https://www.rathenau.nl/en,NA
+Netherlands Institute for Neuroscience,nin,Netherlands Institute for Neuroscience,EUROPE,NLD,NL-NH,NA,https://ror.org/05csn2x06,NA,NA,https://nin.nl/,NA
+Swedish Museum of Natural History,smnh,Swedish Museum of Natural History,EUROPE,SWE,SE-AB,NA,https://ror.org/05k323c76,NA,NA,https://www.nrm.se/engelska/in-english,NA
+Mid Sweden University,mid_sweden_u,Mid Sweden University,EUROPE,SWE,SE-Y,natlibswe/univ_mid_sweden,https://ror.org/019k1pd13,NA,NA,https://www.miun.se/en,NA
+Kristianstad University,kristianstad_u,Kristianstad University,EUROPE,SWE,SE-M,natlibswe/univ_kristianstad,https://ror.org/00tkrft03,NA,NA,https://www.hkr.se/en/,NA
+Medical Products Agency,mpa,Medical Products Agency,EUROPE,SWE,SE-C,NA,https://ror.org/0356c4a29,NA,NA,https://www.lakemedelsverket.se/en,NA
+Swedish Defence Research Agency,foi,Swedish Defence Research Agency,EUROPE,SWE,SE-AB,NA,https://ror.org/0470cgs30,NA,NA,https://www.foi.se/en/foi.html,NA
+Swedish National Road and Transport Research Institute (VTI),vti,Swedish National Road and Transport Research Institute (VTI),EUROPE,SWE,SE-E,NA,https://ror.org/04zmmpw58,NA,NA,https://www.vti.se/en/,NA
+Swiss Federal University for Vocational Education and Training,sfuvet,Swiss Federal University for Vocational Education and Training,EUROPE,CHE,CH.BE,NA,https://ror.org/00zg4za48,NA,NA,https://www.sfuvet.swiss/,NA
+Schwyz University of Teacher Education,phsz,Schwyz University of Teacher Education,EUROPE,CHE,CH.SZ,NA,https://ror.org/00rqdn375,NA,NA,https://www.phsz.ch/en/,NA
+Haute École Pédagogique BEJUNE,hep_bejune,Haute École Pédagogique BEJUNE,EUROPE,CHE,CH.JU,NA,https://ror.org/015pmkr43,NA,NA,https://www.hep-bejune.ch/,NA
+Medicines for Malaria Venture,mmv,Medicines for Malaria Venture,EUROPE,CHE,CH.GE,NA,https://ror.org/00p9jf779,NA,NA,https://www.mmv.org/,NA
+University of Teacher Education Zug,phzg,University of Teacher Education Zug,EUROPE,CHE,CH.ZG,phzg,https://ror.org/05ghhx264,NA,NA,https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug,NA
+University of Applied Sciences of the Grisons,fh_grisons,University of Applied Sciences of the Grisons,EUROPE,CHE,CH.GR,NA,https://ror.org/032ymzc07,NA,NA,https://www.fhgr.ch/en/,NA
+Haute École Pédagogique Fribourg,hep_fribourg,Haute École Pédagogique Fribourg,EUROPE,CHE,CH.FR,NA,https://ror.org/048gre751,NA,NA,https://hepfr.ch/,NA
+Graduate Institute of International and Development Studies,graduateinstitute_geneva,Graduate Institute of International and Development Studies,EUROPE,CHE,CH.GE,NA,https://ror.org/007ygn379,NA,NA,http://graduateinstitute.ch/home.html,NA
+University of Liechtenstein,liechtenstein_u,University of Liechtenstein,EUROPE,LIE,NA,NA,https://ror.org/01qjrx392,NA,NA,https://www.uni.li/study/de/,NA
+Pädagogische Hochschule Bern,ph_bern,Pädagogische Hochschule Bern,EUROPE,CHE,CH.BE,NA,https://ror.org/05jf1ma54,NA,NA,https://www.phbern.ch/,NA
 University of Lausanne,lausanne_u,University of Lausanne,EUROPE,CHE,CH.VD,unilausanne,https://ror.org/019whta54,NA,NA,https://www.unil.ch/openscience/en/home/menuinst/open-access/open-access-a-lunil/soutien-360/voie-doree/gold-open-access-fund-unil.html,NA
-University of Fribourg,NA,University of Fribourg,NA,CHE,NA,NA,https://ror.org/022fs9h90,NA,NA,https://www.unifr.ch/home/en/,NA
-University of St.Gallen,NA,University of St.Gallen,NA,CHE,NA,NA,https://ror.org/0561a3s31,NA,NA,https://www.unisg.ch/,NA
-University of Neuchatel,NA,University of Neuchatel,NA,CHE,NA,NA,https://ror.org/00vasag41,NA,NA,https://www.unine.ch/,NA
-University of Geneva,NA,University of Geneva,NA,CHE,NA,NA,https://ror.org/01swzsf04,NA,NA,https://www.unige.ch/,NA
-Haute École Pédagogique du Canton de Vaud,NA,Haute École Pédagogique du Canton de Vaud,NA,CHE,NA,NA,https://ror.org/01bvm0h13,NA,NA,https://www.hepl.ch/accueil.html,NA
-Swiss Ornithological Institute,NA,Swiss Ornithological Institute,NA,CHE,NA,NA,https://ror.org/03mcsbr76,NA,NA,https://www.vogelwarte.ch/de/home/,NA
-St.Gallen University of Teacher Education,NA,St.Gallen University of Teacher Education,NA,CHE,NA,NA,https://ror.org/05m37v666,NA,NA,https://www.phsg.ch/en,NA
-École Polytechnique Fédérale de Lausanne,NA,École Polytechnique Fédérale de Lausanne,NA,CHE,NA,NA,https://ror.org/02s376052,NA,NA,https://www.epfl.ch/en/,NA
-Università della Svizzera italiana,NA,Università della Svizzera italiana,NA,CHE,NA,NA,https://ror.org/03c4atk17,NA,NA,https://www.usi.ch/en,NA
-Tampere University of Applied Sciences,NA,Tampere University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/00bwtjf83,NA,NA,https://www.tuni.fi/fi/tutustu-meihin/tamk,NA
-VAMK University of Applied Sciences,NA,VAMK University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/00dde9829,NA,NA,https://www.vamk.fi/en/,NA
-Oulu University of Applied Sciences,NA,Oulu University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/03dvp8k55,NA,NA,https://www.oamk.fi/en/,NA
-Turku University of Applied Sciences,NA,Turku University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/04s0yt949,NA,NA,https://www.tuas.fi/en/,NA
-VATT Institute for Economic Research,NA,VATT Institute for Economic Research,NA,FIN,NA,NA,https://ror.org/017qjec28,NA,NA,https://vatt.fi/etusivu,NA
-Metropolia University of Applied Sciences,NA,Metropolia University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/03hdaef25,NA,NA,https://www.metropolia.fi/en,NA
-University of Lapland,NA,University of Lapland,NA,FIN,NA,NA,https://ror.org/05jzt8766,NA,NA,https://lib.luc.fi/research,NA
-Social Insurance Institution of Finland,NA,Social Insurance Institution of Finland,NA,FIN,NA,NA,https://ror.org/057yw0190,NA,NA,https://www.kela.fi/about-kela-library,NA
-Finnish Food Authority,NA,Finnish Food Authority,NA,FIN,NA,NA,https://ror.org/00dpnza76,NA,NA,https://www.ruokavirasto.fi/,NA
-Medical University of Vienna,NA,Medical University of Vienna,NA,AUT,NA,NA,https://ror.org/05n3x4p02,NA,NA,https://www.meduniwien.ac.at/web/en/,NA
-Paracelsus Medical University,NA,Paracelsus Medical University,NA,AUT,NA,NA,https://ror.org/03z3mg085,NA,NA,https://www.pmu.ac.at/en/home.html,NA
-Vienna University of Economics and Business (WU),NA,Vienna University of Economics and Business (WU),NA,AUT,NA,NA,https://ror.org/03yn8s215,NA,NA,https://www.wu.ac.at/en/,NA
-Medical University of Graz,NA,Medical University of Graz,NA,AUT,NA,NA,https://ror.org/02n0bts35,NA,NA,https://www.medunigraz.at/en/,NA
-University of Natural Resources and Life Sciences Vienna (BOKU),NA,University of Natural Resources and Life Sciences Vienna (BOKU),NA,AUT,NA,NA,https://ror.org/057ff4y42,NA,NA,https://boku.ac.at/en/,NA
-University of Vienna,NA,University of Vienna,NA,AUT,NA,NA,https://ror.org/03prydq77,NA,NA,https://www.univie.ac.at/en/,NA
-University of Graz,NA,University of Graz,NA,AUT,NA,NA,https://ror.org/01faaaf77,NA,NA,https://www.uni-graz.at/en/,NA
-Montanuniversität Leoben,NA,Montanuniversität Leoben,NA,AUT,NA,NA,https://ror.org/02fhfw393,NA,NA,https://www.unileoben.ac.at/en/,NA
-University of Klagenfurt,NA,University of Klagenfurt,NA,AUT,NA,NA,https://ror.org/05q9m0937,NA,NA,https://www.aau.at/en/,NA
-Graz University of Technology,NA,Graz University of Technology,NA,AUT,NA,NA,https://ror.org/00d7xrm67,NA,NA,https://www.tugraz.at/en/home,NA
-International Institute for Applied Systems Analysis (IIASA),NA,International Institute for Applied Systems Analysis (IIASA),NA,AUT,NA,NA,https://ror.org/02wfhk785,NA,NA,https://iiasa.ac.at/,NA
-University of Veterinary Medicine Vienna,NA,University of Veterinary Medicine Vienna,NA,AUT,NA,NA,https://ror.org/01w6qp003,NA,NA,https://www.vetmeduni.ac.at/en/,NA
-Institute for Advanced Studies Vienna,NA,Institute for Advanced Studies Vienna,NA,AUT,NA,NA,https://ror.org/05ag62t55,NA,NA,https://www.ihs.ac.at/,NA
-FH Vorarlberg - University of Applied Sciences,NA,FH Vorarlberg - University of Applied Sciences,NA,AUT,NA,NA,https://ror.org/031wyx077,NA,NA,https://www.fhv.at/en/,NA
-University of Applied Sciences Upper Austria,NA,University of Applied Sciences Upper Austria,NA,AUT,NA,NA,https://ror.org/03jqp6d56,NA,NA,https://www.fh-ooe.at/en/,NA
-FH St. Pölten - University of Applied Sciences,NA,FH St. Pölten - University of Applied Sciences,NA,AUT,NA,NA,https://ror.org/039a2re55,NA,NA,https://www.fhstp.ac.at/en,NA
-Danube University Krems University for Continuing Education,NA,Danube University Krems University for Continuing Education,NA,AUT,NA,NA,https://ror.org/03ef4a036,NA,NA,https://www.donau-uni.ac.at/en.html,NA
-FH Salzburg - University of Applied Sciences,NA,FH Salzburg - University of Applied Sciences,NA,AUT,NA,NA,https://ror.org/0072dxg89,NA,NA,https://www.fh-salzburg.ac.at/en/,NA
-FH Joanneum - University of Applied Sciences,NA,FH Joanneum - University of Applied Sciences,NA,AUT,NA,NA,https://ror.org/03kkbqm48,NA,NA,https://www.fh-joanneum.at/en/,NA
-University of Applied Sciences Burgenland,NA,University of Applied Sciences Burgenland,NA,AUT,NA,NA,https://ror.org/00t6gnv18,NA,NA,https://www.fh-burgenland.at/en/,NA
-Royal Botanic Gardens,NA,Royal Botanic Gardens,NA,GBR,NA,NA,https://ror.org/00ynnr806,NA,NA,https://www.kew.org/,NA
-Birmingham City University,NA,Birmingham City University,NA,GBR,NA,NA,https://ror.org/00t67pt25,NA,NA,https://www.bcu.ac.uk/,NA
-Institute Mittag-Leffler,NA,Institute Mittag-Leffler,NA,SWE,NA,NA,https://ror.org/02z85gz67,NA,NA,http://www.mittag-leffler.se/,NA
-Netherlands Institute for Advanced Study in the Humanities and Social Sciences (NIAS),NA,Netherlands Institute for Advanced Study in the Humanities and Social Sciences (NIAS),NA,NLD,NA,NA,https://ror.org/04z3wz653,NA,NA,https://nias.knaw.nl/,NA
-University Campus Suffolk,NA,University Campus Suffolk,NA,GBR,NA,NA,https://ror.org/01cy0sz82,NA,NA,https://www.uos.ac.uk/,NA
-Carinthia University of Applied Sciences (CUAS),NA,Carinthia University of Applied Sciences (CUAS),NA,AUT,NA,NA,https://ror.org/036w00e23,NA,NA,https://www.fh-kaernten.at/en/,NA
-FH Kufstein Tirol - University of Applied Sciences,NA,FH Kufstein Tirol - University of Applied Sciences,NA,AUT,NA,NA,https://ror.org/04r1x2k35,NA,NA,https://www.fh-kufstein.ac.at/eng/,NA
-FH Campus Wien - University of Applied Sciences,NA,FH Campus Wien - University of Applied Sciences,NA,AUT,NA,NA,https://ror.org/003f4pg83,NA,NA,https://www.fh-campuswien.ac.at/en,NA
-University of Applied Sciences Wiener Neustadt for Business and Engineering,NA,University of Applied Sciences Wiener Neustadt for Business and Engineering,NA,AUT,NA,NA,https://ror.org/03k7r0z51,NA,NA,https://www.fhwn.ac.at/en/,NA
-University of Worcester,NA,University of Worcester,NA,GBR,NA,NA,https://ror.org/00v6s9648,NA,NA,https://www.worcester.ac.uk/,NA
-University of Roehampton,NA,University of Roehampton,NA,GBR,NA,NA,https://ror.org/043071f54,NA,NA,https://www.roehampton.ac.uk/,NA
-Public Health Agency of Sweden,NA,Public Health Agency of Sweden,NA,SWE,NA,NA,https://ror.org/05x4m5564,NA,NA,https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/,NA
-AC2T Research GmbH,NA,AC2T Research GmbH,NA,AUT,NA,NA,https://ror.org/012d0ge65,NA,NA,https://www.ac2t.at/en/,NA
-Modul University Vienna (MUVIENNA),NA,Modul University Vienna (MUVIENNA),NA,AUT,NA,NA,https://ror.org/04v2brz27,NA,NA,https://www.modul.ac.at/,NA
-RISE Research Institutes of Sweden,NA,RISE Research Institutes of Sweden,NA,SWE,NA,NA,https://ror.org/03nnxqz81,NA,NA,https://www.ri.se/en,NA
-The Swedish Environmental Protection Agency,NA,The Swedish Environmental Protection Agency,NA,SWE,NA,NA,https://ror.org/02y7nf053,NA,NA,https://www.naturvardsverket.se/en,NA
-Sophiahemmet University College,NA,Sophiahemmet University College,NA,SWE,NA,NA,https://ror.org/01aem0w72,NA,NA,https://www.shh.se/en/,NA
-Agroscope,NA,Agroscope,NA,CHE,NA,NA,https://ror.org/04d8ztx87,NA,NA,https://www.agroscope.admin.ch/agroscope/en/home.html,NA
-University of Applied Sciences and Arts Northwestern Switzerland,NA,University of Applied Sciences and Arts Northwestern Switzerland,NA,CHE,NA,NA,https://ror.org/04mq2g308,NA,NA,https://www.fhnw.ch/en,NA
-University of Applied Sciences and Arts of Southern Switzerland,NA,University of Applied Sciences and Arts of Southern Switzerland,NA,CHE,NA,NA,https://ror.org/05ep8g269,NA,NA,https://www.supsi.ch/home_en.html,NA
-University of Applied Sciences and Arts Western Switzerland,NA,University of Applied Sciences and Arts Western Switzerland,NA,CHE,NA,NA,https://ror.org/01xkakk17,NA,NA,https://www.hes-so.ch/en/homepage,NA
-European Organization for Nuclear Research,NA,European Organization for Nuclear Research,NA,CHE,NA,NA,https://ror.org/01ggx4157,NA,NA,https://home.web.cern.ch/,NA
-Forschungsinstitut für biologischen Landbau FiBL,NA,Forschungsinstitut für biologischen Landbau FiBL,NA,CHE,NA,NA,https://ror.org/039t93g49,NA,NA,https://www.fibl.org/en,NA
-OST University of Applied Science of Eastern Switzerland,NA,OST University of Applied Science of Eastern Switzerland,NA,CHE,NA,NA,https://ror.org/038mj2660,NA,NA,https://www.ost.ch/en/,NA
-University of Applied Sciences in Business Administration Zurich,NA,University of Applied Sciences in Business Administration Zurich,NA,CHE,NA,NA,https://ror.org/02ejkey04,NA,NA,https://fh-hwz.ch/english/,NA
-Finnish Meteorological Institute,NA,Finnish Meteorological Institute,NA,FIN,NA,NA,https://ror.org/05hppb561,NA,NA,https://en.ilmatieteenlaitos.fi/,NA
-Arcada University of Applied Sciences,NA,Arcada University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/02s466x84,NA,NA,https://www.arcada.fi/en,NA
-Finnish Institute of Occupational Health,NA,Finnish Institute of Occupational Health,NA,FIN,NA,NA,https://ror.org/030wyr187,NA,NA,https://www.ttl.fi/en,NA
-Geological Survey of Finland,NA,Geological Survey of Finland,NA,FIN,NA,NA,https://ror.org/03vjnqy43,NA,NA,https://www.gtk.fi/en/,NA
-Lappeenranta-Lahti University of Technology LUT,NA,Lappeenranta-Lahti University of Technology LUT,NA,FIN,NA,NA,https://ror.org/0208vgz68,NA,NA,https://www.lut.fi/en,NA
-Finnish Institute for Health and Welfare,NA,Finnish Institute for Health and Welfare,NA,FIN,NA,NA,https://ror.org/03tf0c761,NA,NA,https://thl.fi/en/web/thlfi-en,NA
-Novia University of Applied Sciences,NA,Novia University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/05e08rb26,NA,NA,https://www.novia.fi/novia-uas/,NA
-Finnish Government,NA,Finnish Government,NA,FIN,NA,NA,https://ror.org/04863f219,NA,NA,https://valtioneuvosto.fi/en/frontpage,NA
-Hubrecht Institute for Developmental Biology and Stem Cell Research,NA,Hubrecht Institute for Developmental Biology and Stem Cell Research,NA,NLD,NA,NA,https://ror.org/023qc4a07,NA,NA,https://www.hubrecht.eu/,NA
-Ferdinand Porsche FernFH,NA,Ferdinand Porsche FernFH,NA,AUT,NA,NA,NA,NA,NA,https://www.fernfh.ac.at/en,NA
-FHWien der WKW (FHW),NA,FHWien der WKW (FHW),NA,AUT,NA,NA,NA,NA,NA,https://www.fh-wien.ac.at/en/,NA
-University of Innsbruck and Medical University of Innsbruck,NA,University of Innsbruck and Medical University of Innsbruck,NA,AUT,NA,NA,NA,NA,NA,NA,NA
-University of Innsbruck,NA,University of Innsbruck,NA,AUT,NA,NA,https://ror.org/054pv6659,NA,NA,https://www.uibk.ac.at/en/,NA
-Medical University of Innsbruck,NA,Medical University of Innsbruck,NA,AUT,NA,NA,https://ror.org/03pt86f80,NA,NA,https://www.i-med.ac.at/mypoint/index.xml.en,NA
-Hannover U und TIB,NA,Hannover U und TIB,NA,DEU,NA,NA,NA,NA,NA,NA,NA
-French institutions,NA,French institutions,NA,FRA,NA,NA,NA,NA,NA,NA,NA
-National Land Survey of Finland,NA,National Land Survey of Finland,NA,FIN,NA,NA,NA,NA,NA,https://www.maanmittauslaitos.fi/en,NA
-Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau),NA,Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau),NA,NLD,NA,NA,https://ror.org/043c0p156,NA,NA,https://www.knaw.nl/en,NA
-Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology,NA,Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology,NA,AUT,NA,NA,NA,NA,NA,NA,NA
+University of Fribourg,fribourg_u,University of Fribourg,EUROPE,CHE,CH.FR,NA,https://ror.org/022fs9h90,NA,NA,https://www.unifr.ch/home/en/,NA
+University of St.Gallen,st_gallen_u,University of St.Gallen,EUROPE,CHE,CH.SG,NA,https://ror.org/0561a3s31,NA,NA,https://www.unisg.ch/,NA
+University of Neuchatel,neuchatel_u,University of Neuchatel,EUROPE,CHE,CH.NE,NA,https://ror.org/00vasag41,NA,NA,https://www.unine.ch/,NA
+University of Geneva,geneva_u,University of Geneva,EUROPE,CHE,CH.GE,NA,https://ror.org/01swzsf04,NA,NA,https://www.unige.ch/,NA
+Haute École Pédagogique du Canton de Vaud,hep_vaud,Haute École Pédagogique du Canton de Vaud,EUROPE,CHE,CH.VD,NA,https://ror.org/01bvm0h13,NA,NA,https://www.hepl.ch/accueil.html,NA
+Swiss Ornithological Institute,swiss_oi,Swiss Ornithological Institute,EUROPE,CHE,CH.LU,NA,https://ror.org/03mcsbr76,NA,NA,https://www.vogelwarte.ch/de/home/,NA
+St.Gallen University of Teacher Education,ph_st_gallen,St.Gallen University of Teacher Education,EUROPE,CHE,CH.SG,NA,https://ror.org/05m37v666,NA,NA,https://www.phsg.ch/en,NA
+École Polytechnique Fédérale de Lausanne,epfl,École Polytechnique Fédérale de Lausanne,EUROPE,CHE,CH.VD,NA,https://ror.org/02s376052,NA,NA,https://www.epfl.ch/en/,NA
+Università della Svizzera italiana,usi,Università della Svizzera italiana,EUROPE,CHE,CH.TI,NA,https://ror.org/03c4atk17,NA,NA,https://www.usi.ch/en,NA
+Tampere University of Applied Sciences,tamk,Tampere University of Applied Sciences,EUROPE,FIN,FI-11,NA,https://ror.org/00bwtjf83,NA,NA,https://www.tuni.fi/fi/tutustu-meihin/tamk,NA
+VAMK University of Applied Sciences,vamk,VAMK University of Applied Sciences,EUROPE,FIN,FI-12,NA,https://ror.org/00dde9829,NA,NA,https://www.vamk.fi/en/,NA
+Oulu University of Applied Sciences,oamk,Oulu University of Applied Sciences,EUROPE,FIN,FI-14,NA,https://ror.org/03dvp8k55,NA,NA,https://www.oamk.fi/en/,NA
+Turku University of Applied Sciences,turku_uas,Turku University of Applied Sciences,EUROPE,FIN,FI-19,NA,https://ror.org/04s0yt949,NA,NA,https://www.tuas.fi/en/,NA
+VATT Institute for Economic Research,vatt,VATT Institute for Economic Research,EUROPE,FIN,FI-18,NA,https://ror.org/017qjec28,NA,NA,https://vatt.fi/etusivu,NA
+Metropolia University of Applied Sciences,helsinki_metropolia,Metropolia University of Applied Sciences,EUROPE,FIN,FI-18,NA,https://ror.org/03hdaef25,NA,NA,https://www.metropolia.fi/en,NA
+University of Lapland,lapland_u,University of Lapland,EUROPE,FIN,FI-10,NA,https://ror.org/05jzt8766,NA,NA,https://lib.luc.fi/EN,NA
+Social Insurance Institution of Finland,sii_finland,Social Insurance Institution of Finland,EUROPE,FIN,FI-18,NA,https://ror.org/057yw0190,NA,NA,https://www.kela.fi/main-page,NA
+Finnish Food Authority,finnish_fa,Finnish Food Authority,EUROPE,FIN,FI-03,NA,https://ror.org/00dpnza76,NA,NA,https://www.ruokavirasto.fi/,NA
+Medical University of Vienna,meduni_vienna,Medical University of Vienna,EUROPE,AUT,AUT-WI,NA,https://ror.org/05n3x4p02,NA,NA,https://www.meduniwien.ac.at/web/en/,NA
+Paracelsus Medical University,pmu,Paracelsus Medical University,EUROPE,AUT,AUT-SZ,NA,https://ror.org/03z3mg085,NA,NA,https://www.pmu.ac.at/en/home.html,NA
+Vienna University of Economics and Business (WU),wu_wien,Vienna University of Economics and Business (WU),EUROPE,AUT,AUT-WI,NA,https://ror.org/03yn8s215,NA,NA,https://www.wu.ac.at/en/,NA
+Medical University of Graz,unimed_graz,Medical University of Graz,EUROPE,AUT,AUT-ST,NA,https://ror.org/02n0bts35,NA,NA,https://www.medunigraz.at/en/,NA
+University of Natural Resources and Life Sciences Vienna (BOKU),boku,University of Natural Resources and Life Sciences Vienna (BOKU),EUROPE,AUT,AUT-WI,NA,https://ror.org/057ff4y42,NA,NA,https://boku.ac.at/en/,NA
+University of Vienna,vienna_u,University of Vienna,EUROPE,AUT,AUT-WI,NA,https://ror.org/03prydq77,NA,NA,https://www.univie.ac.at/en/,NA
+University of Graz,graz_u,University of Graz,EUROPE,AUT,AUT-ST,NA,https://ror.org/01faaaf77,NA,NA,https://www.uni-graz.at/en/,NA
+Montanuniversität Leoben,leoben_u,Montanuniversität Leoben,EUROPE,AUT,AUT-ST,NA,https://ror.org/02fhfw393,NA,NA,https://www.unileoben.ac.at/en/,NA
+University of Klagenfurt,klagenfurt_u,University of Klagenfurt,EUROPE,AUT,AUT-KA,NA,https://ror.org/05q9m0937,NA,NA,https://www.aau.at/en/,NA
+Graz University of Technology,tu_graz,Graz University of Technology,EUROPE,AUT,AUT-ST,NA,https://ror.org/00d7xrm67,NA,NA,https://www.tugraz.at/en/home,NA
+International Institute for Applied Systems Analysis (IIASA),iiasa,International Institute for Applied Systems Analysis (IIASA),EUROPE,AUT,AUT-NO,NA,https://ror.org/02wfhk785,NA,NA,https://iiasa.ac.at/,NA
+University of Veterinary Medicine Vienna,vuw,University of Veterinary Medicine Vienna,EUROPE,AUT,AUT-WI,NA,https://ror.org/01w6qp003,NA,NA,https://www.vetmeduni.ac.at/en/,NA
+Institute for Advanced Studies Vienna,ihs,Institute for Advanced Studies Vienna,EUROPE,AUT,AUT-WI,NA,https://ror.org/05ag62t55,NA,NA,https://www.ihs.ac.at/,NA
+FH Vorarlberg - University of Applied Sciences,fh_vorarlberg,FH Vorarlberg - University of Applied Sciences,EUROPE,AUT,AUT-VO,NA,https://ror.org/031wyx077,NA,NA,https://www.fhv.at/en/,NA
+University of Applied Sciences Upper Austria,fh_ooe,University of Applied Sciences Upper Austria,EUROPE,AUT,AUT-OO,NA,https://ror.org/03jqp6d56,NA,NA,https://www.fh-ooe.at/en/,NA
+FH St. Pölten - University of Applied Sciences,fh_st_poelten,FH St. Pölten - University of Applied Sciences,EUROPE,AUT,AUT-NO,NA,https://ror.org/039a2re55,NA,NA,https://www.fhstp.ac.at/en,NA
+Danube University Krems University for Continuing Education,krems_u,Danube University Krems University for Continuing Education,EUROPE,AUT,AUT-NO,NA,https://ror.org/03ef4a036,NA,NA,https://www.donau-uni.ac.at/en.html,NA
+FH Salzburg - University of Applied Sciences,fh_salzburg,FH Salzburg - University of Applied Sciences,EUROPE,AUT,AUT-SZ,NA,https://ror.org/0072dxg89,NA,NA,https://www.fh-salzburg.ac.at/en/,NA
+FH Joanneum - University of Applied Sciences,fh_joanneum,FH Joanneum - University of Applied Sciences,EUROPE,AUT,AUT-ST,NA,https://ror.org/03kkbqm48,NA,NA,https://www.fh-joanneum.at/en/,NA
+University of Applied Sciences Burgenland,fh_burgenland,University of Applied Sciences Burgenland,EUROPE,AUT,AUT-BU,NA,https://ror.org/00t6gnv18,NA,NA,https://www.fh-burgenland.at/en/,NA
+Royal Botanic Gardens,kew_gardens,Royal Botanic Gardens,EUROPE,GBR,ENG,NA,https://ror.org/00ynnr806,NA,NA,https://www.kew.org/,NA
+Birmingham City University,birmingham_city_u,Birmingham City University,EUROPE,GBR,ENG,NA,https://ror.org/00t67pt25,NA,NA,https://www.bcu.ac.uk/,NA
+Institute Mittag-Leffler,mittag_leffler,Institute Mittag-Leffler,EUROPE,SWE,SE-AB,NA,https://ror.org/02z85gz67,NA,NA,http://www.mittag-leffler.se/,NA
+Netherlands Institute for Advanced Study in the Humanities and Social Sciences (NIAS),nias,Netherlands Institute for Advanced Study in the Humanities and Social Sciences (NIAS),EUROPE,NLD,NL-ZH,NA,https://ror.org/04z3wz653,NA,NA,https://nias.knaw.nl/,NA
+University Campus Suffolk,suffolk_u,University Campus Suffolk,EUROPE,GBR,ENG,NA,https://ror.org/01cy0sz82,NA,NA,https://www.uos.ac.uk/,NA
+Carinthia University of Applied Sciences (CUAS),cuas,Carinthia University of Applied Sciences (CUAS),EUROPE,AUT,AUT-KA,NA,https://ror.org/036w00e23,NA,NA,https://www.fh-kaernten.at/en/,NA
+FH Kufstein Tirol - University of Applied Sciences,fh_kufstein,FH Kufstein Tirol - University of Applied Sciences,EUROPE,AUT,AUT-TR,NA,https://ror.org/04r1x2k35,NA,NA,https://www.fh-kufstein.ac.at/eng/,NA
+FH Campus Wien - University of Applied Sciences,fh_campus_wien,FH Campus Wien - University of Applied Sciences,EUROPE,AUT,AUT-WI,NA,https://ror.org/003f4pg83,NA,NA,https://www.fh-campuswien.ac.at/en,NA
+University of Applied Sciences Wiener Neustadt for Business and Engineering,fhwn,University of Applied Sciences Wiener Neustadt for Business and Engineering,EUROPE,AUT,AUT-NO,NA,https://ror.org/03k7r0z51,NA,NA,https://www.fhwn.ac.at/en/,NA
+University of Worcester,worcester_u,University of Worcester,EUROPE,GBR,ENG,NA,https://ror.org/00v6s9648,NA,NA,https://www.worcester.ac.uk/,NA
+University of Roehampton,roehampton_u,University of Roehampton,EUROPE,GBR,ENG,NA,https://ror.org/043071f54,NA,NA,https://www.roehampton.ac.uk/,NA
+Public Health Agency of Sweden,pha_sweden,Public Health Agency of Sweden,EUROPE,SWE,SE-AB,NA,https://ror.org/05x4m5564,NA,NA,https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/,NA
+AC2T Research GmbH,ac2t,AC2T Research GmbH,EUROPE,AUT,AUT-NO,NA,https://ror.org/012d0ge65,NA,NA,https://www.ac2t.at/en/,NA
+Modul University Vienna (MUVIENNA),mu_vienna,Modul University Vienna (MUVIENNA),EUROPE,AUT,AUT-WI,NA,https://ror.org/04v2brz27,NA,NA,https://www.modul.ac.at/,NA
+RISE Research Institutes of Sweden,rise,RISE Research Institutes of Sweden,EUROPE,SWE,SE-O,NA,https://ror.org/03nnxqz81,NA,NA,https://www.ri.se/en,NA
+The Swedish Environmental Protection Agency,swedish_epa,The Swedish Environmental Protection Agency,EUROPE,SWE,SE-AB,NA,https://ror.org/02y7nf053,NA,NA,https://www.naturvardsverket.se/en,NA
+Sophiahemmet University College,sophiahemmet_u,Sophiahemmet University College,EUROPE,SWE,SE-AB,NA,https://ror.org/01aem0w72,NA,NA,https://www.shh.se/en/,NA
+Agroscope,agroscope,Agroscope,EUROPE,CHE,CH.BE,NA,https://ror.org/04d8ztx87,NA,NA,https://www.agroscope.admin.ch/agroscope/en/home.html,NA
+University of Applied Sciences and Arts Northwestern Switzerland,fhnw,University of Applied Sciences and Arts Northwestern Switzerland,EUROPE,CHE,CH.AG,NA,https://ror.org/04mq2g308,NA,NA,https://www.fhnw.ch/en,NA
+University of Applied Sciences and Arts of Southern Switzerland,supsi,University of Applied Sciences and Arts of Southern Switzerland,EUROPE,CHE,CH.TI,NA,https://ror.org/05ep8g269,NA,NA,https://www.supsi.ch/home_en.html,NA
+University of Applied Sciences and Arts Western Switzerland,hes_so,University of Applied Sciences and Arts Western Switzerland,EUROPE,CHE,CH.JU,NA,https://ror.org/01xkakk17,NA,NA,https://www.hes-so.ch/en/homepage,NA
+European Organization for Nuclear Research,cern,European Organization for Nuclear Research,EUROPE,CHE,CH.GE,NA,https://ror.org/01ggx4157,NA,NA,https://home.web.cern.ch/,NA
+Forschungsinstitut für biologischen Landbau FiBL,fibl,Forschungsinstitut für biologischen Landbau FiBL,EUROPE,CHE,CH.AG,NA,https://ror.org/039t93g49,NA,NA,https://www.fibl.org/en,NA
+OST University of Applied Science of Eastern Switzerland,ost_fh,OST University of Applied Science of Eastern Switzerland,EUROPE,CHE,CH.SG,NA,https://ror.org/038mj2660,NA,NA,https://www.ost.ch/en/,NA
+University of Applied Sciences in Business Administration Zurich,fh_hwz,University of Applied Sciences in Business Administration Zurich,EUROPE,CHE,CH.ZH,NA,https://ror.org/02ejkey04,NA,NA,https://fh-hwz.ch/english/,NA
+Finnish Meteorological Institute,fmi,Finnish Meteorological Institute,EUROPE,FIN,FI-18,NA,https://ror.org/05hppb561,NA,NA,https://en.ilmatieteenlaitos.fi/,NA
+Arcada University of Applied Sciences,arcada_uas,Arcada University of Applied Sciences,EUROPE,FIN,FI-18,NA,https://ror.org/02s466x84,NA,NA,https://www.arcada.fi/en,NA
+Finnish Institute of Occupational Health,fioh,Finnish Institute of Occupational Health,EUROPE,FIN,FI-18,NA,https://ror.org/030wyr187,NA,NA,https://www.ttl.fi/en,NA
+Geological Survey of Finland,gtk_finland,Geological Survey of Finland,EUROPE,FIN,FI-18,NA,https://ror.org/03vjnqy43,NA,NA,https://www.gtk.fi/en/,NA
+Lappeenranta-Lahti University of Technology LUT,lut_u,Lappeenranta-Lahti University of Technology LUT,EUROPE,FIN,FI-02,NA,https://ror.org/0208vgz68,NA,NA,https://www.lut.fi/en,NA
+Finnish Institute for Health and Welfare,finnish_thl,Finnish Institute for Health and Welfare,EUROPE,FIN,FI-18,NA,https://ror.org/03tf0c761,NA,NA,https://thl.fi/en/web/thlfi-en,NA
+Novia University of Applied Sciences,novia,Novia University of Applied Sciences,EUROPE,FIN,FI-12,NA,https://ror.org/05e08rb26,NA,NA,https://www.novia.fi/novia-uas/,NA
+Finnish Government,finnish_government,Finnish Government,EUROPE,FIN,FI-12,NA,https://ror.org/04863f219,NA,NA,https://valtioneuvosto.fi/en/frontpage,NA
+Hubrecht Institute for Developmental Biology and Stem Cell Research,hubrecht_institute,Hubrecht Institute for Developmental Biology and Stem Cell Research,EUROPE,NLD,NL-UT,NA,https://ror.org/023qc4a07,NA,NA,https://www.hubrecht.eu/,NA
+Ferdinand Porsche FernFH,fernfh,Ferdinand Porsche FernFH,EUROPE,AUT,AUT-NO,NA,NA,NA,NA,https://www.fernfh.ac.at/en,NA
+FHWien der WKW (FHW),fh_wien,FHWien der WKW (FHW),EUROPE,AUT,AUT-WI,NA,NA,NA,NA,https://www.fh-wien.ac.at/en/,NA
+University of Innsbruck and Medical University of Innsbruck,innsbruck_uni_meduni,University of Innsbruck and Medical University of Innsbruck,EUROPE,AUT,AUT-TR,NA,NA,NA,NA,NA,NA
+University of Innsbruck,innsbruck_u,University of Innsbruck,EUROPE,AUT,AUT-TR,NA,https://ror.org/054pv6659,NA,NA,https://www.uibk.ac.at/en/,NA
+Medical University of Innsbruck,meduni_innsbruck,Medical University of Innsbruck,EUROPE,AUT,AUT-TR,NA,https://ror.org/03pt86f80,NA,NA,https://www.i-med.ac.at/mypoint/index.xml.en,NA
+Hannover U und TIB,hannover_u_tib,Hannover U und TIB,EUROPE,DEU,NI,NA,NA,NA,NA,NA,NA
+French institutions,french_institutions,French institutions,EUROPE,FRA,NA,NA,NA,NA,NA,NA,NA
+National Land Survey of Finland,nls_finland,National Land Survey of Finland,EUROPE,FIN,FI-18,NA,NA,NA,NA,https://www.maanmittauslaitos.fi/en,NA
+Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau),knaw_bureau,Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau),EUROPE,NLD,NL-NH,NA,https://ror.org/043c0p156,NA,NA,https://www.knaw.nl/en,NA
+Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology,imp_imba_gmi,Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology,EUROPE,AUT,AUT-WI,NA,NA,NA,NA,NA,NA
 University Medical Center Hamburg-Eppendorf,uke,University Medical Center Hamburg-Eppendorf,EUROPE,DEU,HH,uke,https://ror.org/01zgy1s35,HEI,NA,https://www.uke.de/forschung/open-science/publikationsfoerderung/index.html,NA
 Consiglio Nazionale Delle Ricerche (CNR),cnr,Consiglio Nazionale Delle Ricerche (CNR),EUROPE,ITA,IT-62,cnr,https://ror.org/04zaypm56,NA,NA,https://www.cnr.it/en/cnr-open-access,NA
-École nationale vétérinaire d'Alfort (EnvA),enva,École nationale vétérinaire d'Alfort (EnvA),EUROPE,FRA,FR-IDF,couperin/enva,https://ror.org/04k031t90,NA,NA,https://www.vet-alfort.fr/,NA
-Marie Cederschiöld University,NA,Marie Cederschiöld University,EUROPE,SWE,NA,NA,https://ror.org/00ajvsd91,NA,NA,https://www.mchs.se/,NA
-ANSES,anses,"Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail (ANSES)",EUROPE,FRA,FR-IDF,couperin/anses,https://ror.org/0471kz689,NA,NA,https://www.anses.fr/en,NA
-EHESP,ehesp,École des Hautes Etudes en Santé Publique (EHESP),EUROPE,FRA,FR-BRE,couperin/ehesp,https://ror.org/01sc83v92,NA,NA,https://www.ehesp.fr/en/,NA
+EnvA - Ecole nationale vétérinaire d'Alfort,enva,EnvA - Ecole nationale vétérinaire d'Alfort,EUROPE,FRA,FR-IDF,couperin/enva,https://ror.org/04k031t90,NA,NA,https://www.vet-alfort.fr/,NA
+Marie Cederschiöld University,cederschioeld_u,Marie Cederschiöld University,EUROPE,SWE,SE-AB,NA,https://ror.org/00ajvsd91,NA,NA,https://www.mchs.se/,NA
+"ANSES - Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail",anses,"ANSES - Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail",EUROPE,FRA,FR-IDF,couperin/anses,https://ror.org/0471kz689,NA,NA,https://www.anses.fr/en,NA
+EHESP - Ecole des hautes études en santé publique,ehesp,EHESP - Ecole des hautes études en santé publique,EUROPE,FRA,FR-BRE,couperin/ehesp,https://ror.org/01sc83v92,NA,NA,https://www.ehesp.fr/en/,NA
 Université Paris Cité,paris_cite_u,Université Paris Cité,EUROPE,FRA,FR-IDF,couperin/paris-cité,https://ror.org/05f82e368,NA,NA,https://u-paris.fr/en/,NA
 RWTH Aachen,rwth,RWTH Aachen,EUROPE,DEU,NW,rwth,https://ror.org/04xfq0f34,HEI,NA,https://www.ub.rwth-aachen.de/cms/ub/Forschung/Wissenschaftliches-Publizieren/~iigq/Open-Access-Die-neue-Art-zu-publizieren/,NA
 DESY,desy,Deutsches Elektronen-Synchrotron DESY,EUROPE,DEU,HH,desy,https://ror.org/01js2sh04,INS,HGF,https://library.desy.de/open_access/publishing_options_for_authors/,NA
 Hochschule Bonn-Rhein-Sieg,hbrs,Hochschule Bonn-Rhein-Sieg,EUROPE,DEU,NW,hbrs,https://ror.org/04m2anh63,HEI,NA,https://www.h-brs.de/en/bib/publication-fund,NA
 TH Brandenburg,th_brandenburg,Technische Hochschule Brandenburg,EUROPE,DEU,BB,thbrandenburg,https://ror.org/04qj3gf68,HEI,NA,https://bibliothek.th-brandenburg.de/open-access-und-publizieren/open-access/,NA
-"Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL",NA,"Lib4RI - Library for the Research Institutes within the ETH Domain Eawag, Empa, PSI & WSL",EUROPE,CHE,CH.ZH,NA,https://ror.org/021f7p178,NA,NA,https://www.lib4ri.ch/services/open-access.html,NA
 TU Bergakademie Freiberg,tu_freiberg,TU Bergakademie Freiberg,EUROPE,DEU,SN,tufreiberg,https://ror.org/031vc2293,HEI,NA,NA,NA
 Aachen FH,aachen_fh,Aachen University of Applied Sciences,EUROPE,DEU,NW,fhaachen,https://ror.org/04tqgg260,HEI,NA,https://www.fh-aachen.de/fh-aachen/arbeiten/servicestellen-fuer-beschaeftigte/bibliotheksservices-fuer-beschaeftigte/forschen-publizieren/publikationsfonds-forschung,NA
 Uniarts Helsinki,helsinki_uniarts,University of the Arts Helsinki,EUROPE,FIN,FI-18,NA,https://ror.org/05anqtc62,NA,NA,https://www.uniarts.fi/en/,NA
-Université de Bordeaux Montaigne,bordeaux_montaigne_u,Université de Bordeaux Montaigne,EUROPE,FRA,FR-NAQ,couperin/bordeaux-montaigne,https://ror.org/03pbgwk21,NA,NA,NA,NA
+Université Bordeaux Montaigne,bordeaux_montaigne_u,Université Bordeaux Montaigne,EUROPE,FRA,FR-NAQ,couperin/bordeaux-montaigne,https://ror.org/03pbgwk21,NA,NA,NA,NA
 Università degli Studi di Modena e Reggio Emilia,modena_reggioemilia_u,Università degli Studi di Modena e Reggio Emilia,EUROPE,ITA,IT-45,unimodena,https://ror.org/02d4c4y02,NA,NA,https://international.unimore.it/,NA
 Potsdam FH,potsdam_fh,University of Applied Sciences Potsdam,EUROPE,DEU,BB,fhpotsdam,https://ror.org/012m9bp23,HEI,NA,https://www.fh-potsdam.de/campus-services/bibliothek/open-access-publizieren#section-18181,NA
-LAB University of Applied Sciences,NA,LAB University of Applied Sciences,NA,FIN,NA,NA,https://ror.org/01qdmn762,NA,NA,https://www.lab.fi/en,NA
+LAB University of Applied Sciences,lab_uas,LAB University of Applied Sciences,EUROPE,FIN,FI-16,NA,https://ror.org/01qdmn762,NA,NA,https://www.lab.fi/en,NA
 Université d'Orléans,orleans_u,Université d'Orléans,EUROPE,FRA,FR-CVL,couperin/orleans,https://ror.org/014zrew76,NA,NA,NA,NA
-Université Louis Lumière - Lyon II,lyon2_u,Université Louis Lumière - Lyon II,EUROPE,FRA,FR-ARA,couperin/lyon2,https://ror.org/03rth4p18,NA,NA,NA,NA
+Université Lumière - Lyon II,lyon2_u,Université Lumière - Lyon II,EUROPE,FRA,FR-ARA,couperin/lyon2,https://ror.org/03rth4p18,NA,NA,NA,NA
 IRS,irs,Leibniz-Institut für Raumbezogene Sozialforschung (IRS),EUROPE,DEU,BB,irs,https://ror.org/01rkqb281,INS,WGL,https://leibniz-irs.de/en/research/publications/open-access,NA
-Kalaidos University of Applied Sciences,NA,Kalaidos University of Applied Sciences,NA,CHE,NA,NA,https://ror.org/049c2kr37,NA,NA,https://www.kalaidos-fh.ch/de-CH/,NA
-University of Teacher Education in Special Needs,NA,University of Teacher Education in Special Needs,NA,CHE,NA,NA,https://ror.org/00w9q2c06,NA,NA,https://www.hfh.ch/en,NA
-Pädagogische Hochschule Graubünden,NA,Pädagogische Hochschule Graubünden,NA,CHE,NA,NA,https://ror.org/02fjgft97,NA,NA,https://phgr.ch/,NA
-University of Galway,NA,University of Galway,NA,IRL,NA,NA,https://ror.org/03bea9k73,NA,NA,https://www.universityofgalway.ie/,NA
-University College Dublin,NA,University College Dublin,NA,IRL,NA,NA,https://ror.org/05m7pjf47,NA,NA,https://www.ucd.ie/,NA
-University of Limerick,NA,University of Limerick,NA,IRL,NA,NA,https://ror.org/00a0n9e72,NA,NA,https://www.ul.ie/,NA
-Trinity College Dublin,NA,Trinity College Dublin,NA,IRL,NA,NA,https://ror.org/02tyrky19,NA,NA,https://www.tcd.ie/,NA
-Technological University Dublin,NA,Technological University Dublin,NA,IRL,NA,NA,https://ror.org/04t0qbt32,NA,NA,https://www.tudublin.ie/,NA
-Dublin City University,NA,Dublin City University,NA,IRL,NA,NA,https://ror.org/04a1a1e81,NA,NA,https://www.dcu.ie/,NA
-University College Cork,NA,University College Cork,NA,IRL,NA,NA,https://ror.org/03265fv13,NA,NA,https://www.ucc.ie/en/,NA
-Maynooth University,NA,Maynooth University,NA,IRL,NA,NA,https://ror.org/048nfjm95,NA,NA,https://www.maynoothuniversity.ie/,NA
-Royal College of Surgeons in Ireland,NA,Royal College of Surgeons in Ireland,NA,IRL,NA,NA,https://ror.org/01hxy9878,NA,NA,https://www.rcsi.com/dublin,NA
-Teagasc,NA,Teagasc - The Irish Agriculture and Food Development Authority,NA,IRL,NA,NA,https://ror.org/03sx84n71,NA,NA,https://www.teagasc.ie/,NA
+Kalaidos University of Applied Sciences,kalaidos_fh,Kalaidos University of Applied Sciences,EUROPE,CHE,CH.ZH,NA,https://ror.org/049c2kr37,NA,NA,https://www.kalaidos-fh.ch/de-CH/,NA
+University of Teacher Education in Special Needs,hfh,University of Teacher Education in Special Needs,EUROPE,CHE,CH.ZH,NA,https://ror.org/00w9q2c06,NA,NA,https://www.hfh.ch/en,NA
+Pädagogische Hochschule Graubünden,ph_graubuenden,Pädagogische Hochschule Graubünden,EUROPE,CHE,CH.GR,NA,https://ror.org/02fjgft97,NA,NA,https://phgr.ch/,NA
+University of Galway,galway_u,University of Galway,EUROPE,IRL,IE-G,NA,https://ror.org/03bea9k73,NA,NA,https://www.universityofgalway.ie/,NA
+University College Dublin,dublin_u,University College Dublin,EUROPE,IRL,IE-D,NA,https://ror.org/05m7pjf47,NA,NA,https://www.ucd.ie/,NA
+University of Limerick,limerick_u,University of Limerick,EUROPE,IRL,IE-LK,NA,https://ror.org/00a0n9e72,NA,NA,https://www.ul.ie/,NA
+Trinity College Dublin,dublin_trinity,Trinity College Dublin,EUROPE,IRL,IE-D,NA,https://ror.org/02tyrky19,NA,NA,https://www.tcd.ie/,NA
+Technological University Dublin,dublin_tu,Technological University Dublin,EUROPE,IRL,IE-D,NA,https://ror.org/04t0qbt32,NA,NA,https://www.tudublin.ie/,NA
+Dublin City University,dublin_city_u,Dublin City University,EUROPE,IRL,IE-D,NA,https://ror.org/04a1a1e81,NA,NA,https://www.dcu.ie/,NA
+University College Cork,cork_uc,University College Cork,EUROPE,IRL,IE-CO,NA,https://ror.org/03265fv13,NA,NA,https://www.ucc.ie/en/,NA
+Maynooth University,maynooth_u,Maynooth University,EUROPE,IRL,IE-KE,NA,https://ror.org/048nfjm95,NA,NA,https://www.maynoothuniversity.ie/,NA
+Royal College of Surgeons in Ireland,rcsi,Royal College of Surgeons in Ireland,EUROPE,IRL,IE-D,NA,https://ror.org/01hxy9878,NA,NA,https://www.rcsi.com/dublin,NA
+Teagasc,teagasc,Teagasc - The Irish Agriculture and Food Development Authority,EUROPE,IRL,IE-CW,NA,https://ror.org/03sx84n71,NA,NA,https://www.teagasc.ie/,NA
 Fachhochschule Südwestfalen,fh_swf,Fachhochschule Südwestfalen,EUROPE,DEU,NW,fhswf,https://ror.org/04t5phd24,HEI,NA,https://www.fh-swf.de/de/studierende/rund_ums_studium/bibliothek_1/publikationsdienstleistungen/publikationsdienstleistungen.php#absatz_container_oa_fh,NA
-Leibniz-IDS,ids,Leibniz-Institut für Deutsche Sprache,EUROPE,DEU,BW,ids,https://ror.org/00hvwkt50,INS,WGL,https://www.ids-mannheim.de/bibliothek/open-access-am-ids/,NA
 Leibniz-BIPS,bips,Leibniz-Institut für Präventionsforschung und Epidemiologie - BIPS,EUROPE,DEU,HB,bips,https://ror.org/02c22vc57,INS,WGL,https://www.bips-institut.de/en/index.html,NA
 DIfE,dife,Deutsches Institut für Ernährungsforschung Potsdam-Rehbrücke,EUROPE,DEU,BB,dife,https://ror.org/05xdczy51,INS,WGL,https://www.dife.de/en/about-us/organization/science-coordination/,NA
 HS Reutlingen,hs_reutlingen,Hochschule Reutlingen,EUROPE,DEU,BW,hsreutlingen,https://ror.org/00q644y50,HEI,NA,NA,NA
 HS Anhalt,hs_anhalt,Hochschule Anhalt,EUROPE,DEU,ST,hsanhalt,https://ror.org/0076zct58,HEI,NA,https://www.hs-anhalt.de/en/university/institutions/library/publish.html,NA
 Leibniz-ZMT,zmt,Leibniz-Zentrum für Marine Tropenforschung,EUROPE,DEU,HB,zmt,https://ror.org/019w00969,INS,WGL,https://www.leibniz-zmt.de/en/research-infrastructure/media-unit.html,NA
 Hertie School,hertie_school,Hertie School,EUROPE,DEU,BE,hertie_school,https://ror.org/0473a4773,HEI,NA,https://www.hertie-school.org/en/research/publishing-and-research-data,NA
-Augsburg U,augsburg_u,Universität Augsburg,EUROPE,DEU,BY,uniaugsburg,https://ror.org/03p14d497,HEI,NA,https://www.uni-augsburg.de/de/organisation/bibliothek/publizieren-zitieren-archivieren/zuschuesse-oa/,NA
+Augsburg U,augsburg_u,Universität Augsburg,EUROPE,DEU,BY,uniaugsburg,https://ror.org/03p14d497,HEI,NA,https://www.uni-augsburg.de/de/organisation/bibliothek/publizieren-zitieren-archivieren/open-access/,NA
 Leibniz-IPK,ipk,Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung,EUROPE,DEU,ST,ipk,https://ror.org/02skbsp27,INS,WGL,https://www.ipk-gatersleben.de/en/library,NA
 Leibniz-DPZ,dpz,Deutsches Primatenzentrum - Leibniz-Institut für Primatenforschung,EUROPE,DEU,NI,dpz,https://ror.org/02f99v835,INS,WGL,https://www.dpz.eu/de/abteilung/bibliothek/serviceangebot.html,NA
 GESIS,gesis,GESIS - Leibniz-Institut für Sozialwissenschaften,EUROPE,DEU,BW,gesis,https://ror.org/018afyw53,INS,WGL,https://www.gesis.org/en/home,NA
@@ -599,11 +597,135 @@ Koeln U,koeln_u,Universität zu Köln,EUROPE,DEU,NW,unikoeln,https://ror.org/00r
 Leibniz-IÖR,ioer,Leibniz-Institut für ökologische Raumentwicklung,EUROPE,DEU,SN,ioer,https://ror.org/02t26g637,INS,WGL,https://www.ioer.de/en/,NA
 HS Neubrandenburg,hs_neubrandenburg,Hochschule Neubrandenburg,EUROPE,DEU,MV,hsneubrandenburg,https://ror.org/03b9q7371,HEI,NA,https://www.hs-nb.de/bibliothek/hauptmenue/wissenschaftliche-services/publizieren/open-access-beratung/#c1402011,NA
 Consejo Superior de Investigaciones Cientificas (CSIC),csic,Consejo Superior de Investigaciones Cientificas (CSIC),EUROPE,ESP,ES.MD,csic,https://ror.org/02gfc7t72,NA,NA,https://www.csic.es/en,NA
-Technological University of the Shannon: Midlands Midwest,NA,Technological University of the Shannon: Midlands Midwest,NA,IRL,NA,NA,https://ror.org/04efm0253,NA,NA,https://tus.ie/,NA
-Munster Technological University,NA,Munster Technological University,NA,IRL,NA,NA,https://ror.org/013xpqh61,NA,NA,https://www.mtu.ie/,NA
-Mary Immaculate College,NA,Mary Immaculate College,NA,IRL,NA,NA,https://ror.org/009q3yg92,NA,NA,https://www.mic.ul.ie/,NA
-"Institute of Art, Design + Technology",NA,"Dún Laoghaire Institute of Art, Design and Technology",NA,IRL,NA,NA,https://ror.org/02dk7c653,NA,NA,https://iadt.ie/,NA
-South East Technological University,NA,South East Technological University,NA,IRL,NA,NA,https://ror.org/03fgx6868,NA,NA,https://www.setu.ie/,NA
-Atlantic Technological University,NA,Atlantic Technological University,NA,IRL,NA,NA,https://ror.org/0458dap48,NA,NA,https://www.atu.ie,NA
-Dundalk Institute of Technology,NA,Dundalk Institute of Technology,NA,IRL,NA,NA,https://ror.org/01800zd49,NA,NA,https://www.dkit.ie/,NA
+Technological University of the Shannon: Midlands Midwest,tus,Technological University of the Shannon: Midlands Midwest,EUROPE,IRL,IE-WH,NA,https://ror.org/04efm0253,NA,NA,https://tus.ie/,NA
+Munster Technological University,munster_tu,Munster Technological University,EUROPE,IRL,IE-CO,NA,https://ror.org/013xpqh61,NA,NA,https://www.mtu.ie/,NA
+Mary Immaculate College,mi_college,Mary Immaculate College,EUROPE,IRL,IE-LK,NA,https://ror.org/009q3yg92,NA,NA,https://www.mic.ul.ie/,NA
+"Institute of Art, Design + Technology",iadt,"Dún Laoghaire Institute of Art, Design and Technology",EUROPE,IRL,IE-D,NA,https://ror.org/02dk7c653,NA,NA,https://iadt.ie/,NA
+South East Technological University,south_east_tu,South East Technological University,EUROPE,IRL,IE-WD,NA,https://ror.org/03fgx6868,NA,NA,https://www.setu.ie/,NA
+Atlantic Technological University,atlantic_tu,Atlantic Technological University,EUROPE,IRL,IE-G,NA,https://ror.org/0458dap48,NA,NA,https://www.atu.ie,NA
+Dundalk Institute of Technology,dundalk_it,Dundalk Institute of Technology,EUROPE,IRL,IE-LH,NA,https://ror.org/01800zd49,NA,NA,https://www.dkit.ie/,NA
 Scuola Normale Superiore,sns,Scuola Normale Superiore,EUROPE,ITA,IT-52,sns,https://ror.org/03aydme10,NA,NA,https://www.sns.it/it,NA
+University Hospital of Bern,bern_uh,University Hospital of Bern,EUROPE,CHE,CH.BE,NA,https://ror.org/01q9sj412,NA,NA,https://www.insel.ch/de/,NA
+Université de Limoges,limoges_u,Université de Limoges,EUROPE,FRA,FR-NAQ,couperin/limoges,https://ror.org/02cp04407,NA,NA,https://www.unilim.fr/?lang=en,NA
+Hohenheim U,hohenheim_u,Universität Hohenheim,EUROPE,DEU,BW,unihohenheim,https://ror.org/00b1c9541,HEI,NA,https://kim.uni-hohenheim.de/en/openaccess,NA
+Haute Ecole Pédagogique du Valais,hep_valais,Haute Ecole Pédagogique du Valais,EUROPE,CHE,CH.VS,NA,https://ror.org/040gs8e06,NA,NA,https://hepvs.ch/,NA
+Research Institute of Molecular Pathology - IMP,imp,Research Institute of Molecular Pathology - IMP,EUROPE,AUT,AUT-WI,NA,https://ror.org/02c5jsm26,NA,NA,https://www.imp.ac.at/,NA
+Université Paris-Est Créteil Val de Marne - Paris XII,upec,Université Paris-Est Créteil Val de Marne - Paris XII,EUROPE,FRA,FR-IDF,couperin/upec,https://ror.org/05ggc9x40,NA,NA,https://www.en.u-pec.fr/,NA
+University Psychiatric Services Bern,upd_bern,University Psychiatric Services Bern - UPD,EUROPE,CHE,CH.BE,NA,https://ror.org/04h670p07,NA,NA,https://www.upd.ch/de/,NA
+IMT Mines Alès,mines_ales,IMT Mines Alès,EUROPE,FRA,FR-OCC,couperin/mines-ales,https://ror.org/03e8rf594,NA,NA,https://www.imt-mines-ales.fr/en,NA
+Zentralbibliothek Zürich,zb_zuerich,Zentralbibliothek Zürich,EUROPE,CHE,CH.ZH,zb_zuerich,NA,NA,NA,https://www.zb.uzh.ch/en/services/forschungsforderung#Bretscher,NA
+European Chemicals Agency,echa,European Chemicals Agency,EUROPE,FIN,FI-18,NA,https://ror.org/01ayrdf49,NA,NA,https://echa.europa.eu/,NA
+Finnish Defence Research Agency,finnish_dra,Finnish Defence Research Agency,EUROPE,FIN,FI-11,NA,https://ror.org/02kpw7e71,NA,NA,https://puolustusvoimat.fi/en/about-us/finnish-defence-research-agency,NA
+Université Sorbonne Nouvelle - Paris III - USN,paris_3_u,Université Sorbonne Nouvelle - Paris III - USN,EUROPE,FRA,FR-IDF,couperin/paris-3,https://ror.org/03z6jp965,NA,NA,NA,NA
+HafenCity Universität Hamburg,hcu_hh,HafenCity Universität Hamburg,EUROPE,DEU,HH,hcu_hamburg,https://ror.org/01fzsd381,HEI,NA,https://www.hcu-hamburg.de/en/library/writing-publishing/open-access-in-research,NA
+HAWK Hildesheim/Holzminden/Göttingen,hawk,HAWK Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen,EUROPE,DEU,NI,hawk,https://ror.org/00f5q5839,HEI,NA,https://www.hawk.de/de/hochschule/organisation-und-personen/zentrale-einrichtungen/zentrum-fuer-information-medien-und-technologie/bibliothek/openaccess,NA
+TH Köln,th_koeln,TH Köln - University of Applied Sciences,EUROPE,DEU,NW,th_koeln,https://ror.org/014nnvj65,HEI,NA,https://www.th-koeln.de/hochschulbibliothek/open-access-publikationsfonds_98372.php,NA
+Université Toulouse - Jean Jaurès,toulouse_u_2,Université Toulouse - Jean Jaurès,EUROPE,FRA,FR-OCC,couperin/toulouse2,https://ror.org/04ezk3x31,NA,NA,NA,NA
+University of Milano-Bicocca,unimib,University of Milano-Bicocca,EUROPE,ITA,IT-25,unimilano-bicocca,https://ror.org/01ynf4891,NA,NA,https://en.unimib.it/,NA
+Centre Hospitalier Universitaire d'Amiens,chu_amiens,Centre Hospitalier Universitaire d'Amiens,EUROPE,FRA,FR-HDF,couperin/chu_amiens,https://ror.org/010567a58,NA,NA,https://www.chu-amiens.fr/,NA
+Centre Hospitalier Universitaire de Lille,chu_lille,Centre Hospitalier Universitaire de Lille,EUROPE,FRA,FR-HDF,couperin/chu-lille,https://ror.org/02ppyfa04,NA,NA,https://www.chu-lille.fr/welcome.en,NA
+Diaconia University of Applied Sciences,diak,Diaconia University of Applied Sciences,EUROPE,FIN,FI-18,NA,https://ror.org/04n5wkv72,NA,NA,https://www.diak.fi/en/,NA
+Alfred-Wegener-Institut,awi,Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung,EUROPE,DEU,HB,awi,https://ror.org/032e6b942,INS,HGF,https://www.awi.de/en/,NA
+University of Education Schwaebisch Gmuend,ph_schwaebisch_gmuend,University of Education Schwaebisch Gmuend,EUROPE,DEU,BW,ph_schwaebisch_gmuend,https://ror.org/02g2sh456,HEI,NA,https://www.ph-gmuend.de,NA
+University of Education Freiburg,ph_freiburg,University of Education Freiburg,EUROPE,DEU,BW,ph_freiburg,https://ror.org/02rtsfd15,HEI,NA,https://www.ph-freiburg.de/,NA
+University of Applied Sciences Mainz,hs_mainz,University of Applied Sciences Mainz,EUROPE,DEU,RP,hsmainz,https://ror.org/02re32a17,HEI,NA,https://www.hs-mainz.de/,NA
+Universität der Bundeswehr München,uni_bw_muenchen,Universität der Bundeswehr München,EUROPE,DEU,BY,uni_bw_muenchen,https://ror.org/05kkv3f82,HEI,NA,https://www.unibw.de,NA
+Brandenburg University of Technology Cottbus-Senftenberg,btu,Brandenburg University of Technology Cottbus-Senftenberg,EUROPE,DEU,BB,btu,https://ror.org/02wxx3e24,HEI,NA,https://www.b-tu.de/en/,NA
+Darmstadt University of Applied Sciences,hs_darmstadt,Darmstadt University of Applied Sciences,EUROPE,DEU,HE,hsdarmstadt,https://ror.org/047wbd030,HEI,NA,https://h-da.de/en/,NA
+Fulda University of Applied Sciences,hs_fulda,Fulda University of Applied Sciences,EUROPE,DEU,HE,hsfulda,https://ror.org/041bz9r75,HEI,NA,https://www.hs-fulda.de/en/,NA
+Dublin Institute for Advanced Studies,dias,Dublin Institute for Advanced Studies,EUROPE,IRL,IE-D,NA,https://ror.org/051sx6d27,NA,NA,https://www.dias.ie/,NA
+TH Ingolstadt,th_ingolstadt,Technische Hochschule Ingolstadt,EUROPE,DEU,BY,th_ingolstadt,https://ror.org/02bxzcy64,HEI,NA,https://www.thi.de/,NA
+HS RheinMain,hs_rheinmain,Hochschule RheinMain,EUROPE,DEU,HE,hsrheinmain,https://ror.org/0378gm372,HEI,NA,https://www.hs-rm.de/de/,NA
+Forschungsinstitut für Nutztierbiologie,fbn,Forschungsinstitut für Nutztierbiologie (FBN),EUROPE,DEU,MV,fbn,https://ror.org/02n5r1g44,INS,WGL,https://www.fbn-dummerstorf.de/,NA
+Helmholtz Zentrum München,hmgu,Helmholtz Zentrum München,EUROPE,DEU,BY,hmgu,https://ror.org/00cfam450,INS,HGF,https://www.helmholtz-munich.de/en/,NA
+Swiss Distance University Institute,swui,Swiss Distance University Institute,EUROPE,CHE,CH.VS,NA,https://ror.org/03exthx58,NA,NA,https://unidistance.ch/en/,NA
+Leibniz-ZALF,zalf,Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF),EUROPE,DEU,BB,zalf,https://ror.org/01ygyzs83,INS,WGL,https://www.zalf.de/en/struktur/bib/Pages/Bibliothek.aspx,NA
+Regensburg University of Applied Sciences,oth_regensburg,Regensburg University of Applied Sciences,EUROPE,DEU,BY,oth_regensburg,https://ror.org/04b9vrm74,HEI,NA,https://www.oth-regensburg.de,NA
+Queen's University,queens_u,Queen's University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/02y72wh86,NA,NA,http://www.queensu.ca/,NA
+Acadia University,acadia_u,Acadia University,NORTH_AMERICA,CAN,CA-NS,NA,https://ror.org/00839we02,NA,NA,http://www2.acadiau.ca/,NA
+Algoma University,algoma_u,Algoma University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/0131d6623,NA,NA,https://algomau.ca,NA
+Athabasca University,athabasca_u,Athabasca University,NORTH_AMERICA,CAN,CA-AB,NA,https://ror.org/01y3xgc52,NA,NA,https://www.athabascau.ca,NA
+BC Children's Hospital,bc_childrens_hospital,BC Children's Hospital Foundation,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/01xesb955,NA,NA,http://www.bcchf.ca/,NA
+Balsillie School of International Affairs,bsia,Balsillie School of International Affairs,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/00dg2xc09,NA,NA,https://balsillieschool.ca,NA
+Bishop's University,bishops_u,Bishop's University,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/051prj435,NA,NA,https://www.ubishops.ca,NA
+Brandon University,brandon_u,Brandon University,NORTH_AMERICA,CAN,CA-MB,NA,https://ror.org/02qp25a50,NA,NA,https://www.brandonu.ca/,NA
+Brock University,brock_u,Brock University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/056am2717,NA,NA,https://brocku.ca,NA
+Bruyère,bruyere,Bruyère,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/05bznkw77,NA,NA,http://www.bruyere.org/,NA
+Université Laval,laval_u,Université Laval,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/04sjchr03,NA,NA,https://www.ulaval.ca,NA
+Canadian Research Knowledge Network,crkn,Canadian Research Knowledge Network,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/00s5kmw74,NA,NA,http://www.crkn-rcdr.ca,NA
+Cape Breton University,cape_breton_u,Cape Breton University,NORTH_AMERICA,CAN,CA-NS,NA,https://ror.org/052y05165,NA,NA,http://www.cbu.ca/,NA
+Carleton University,carleton_u,Carleton University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/02qtvee93,NA,NA,https://carleton.ca,NA
+Concordia University,concordia_u,Concordia University,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/0420zvk78,NA,NA,https://www.concordia.ca/,NA
+University of Waterloo,waterloo_u,University of Waterloo,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/01aff2v68,NA,NA,https://uwaterloo.ca/,NA
+Dalhousie University,dalhousie_u,Dalhousie University,NORTH_AMERICA,CAN,CA-NS,NA,https://ror.org/01e6qks80,NA,NA,https://www.dal.ca,NA
+École Nationale d'Administration Publique,enap,École Nationale d'Administration Publique,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/05wwfbb42,NA,NA,https://enap.ca,NA
+Université de Montréal,montreal_u,Université de Montréal,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/0161xgx34,NA,NA,https://www.umontreal.ca,NA
+École de technologie supérieure,ets,École de Technologie Supérieure,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/0020snb74,NA,NA,https://www.etsmtl.ca,NA
+HEC Montréal,hec_montreal,HEC Montréal,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/05ww3wq27,NA,NA,https://www.hec.ca,NA
+University of Toronto,toronto_u,University of Toronto,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03dbr7087,NA,NA,https://www.utoronto.ca,NA
+Holland Bloorview Kids Rehabilitation Hospital,hb_kids_rehab_hospital,Holland Bloorview Kids Rehabilitation Hospital,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03qea8398,NA,NA,https://hollandbloorview.ca,NA
+Hospital for Sick Children,sickkids,Hospital for Sick Children,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/057q4rt57,NA,NA,http://www.sickkids.ca/,NA
+Institut national de la recherche scientifique,inrs,Institut National de la Recherche Scientifique,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/04td37d32,NA,NA,https://inrs.ca,NA
+Institut Universitaire de Cardiologie et de Pneumologie de Québec,iucpq,Institut Universitaire de Cardiologie et de Pneumologie de Québec,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/03gf7z214,NA,NA,http://iucpq.qc.ca/en,NA
+Western University,western_u,Western University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/02grkyz14,NA,NA,https://uwo.ca,NA
+Kwantlen Polytechnic University,kwantlen_polytechnic_u,Kwantlen Polytechnic University,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/04raxj885,NA,NA,https://www.kpu.ca,NA
+Lakehead University,lakehead_u,Lakehead University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/023p7mg82,NA,NA,https://www.lakeheadu.ca,NA
+Laurentian University,laurentian_u,Laurentian University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03rcwtr18,NA,NA,https://laurentian.ca/,NA
+MacEwan University,macewan_u,MacEwan University,NORTH_AMERICA,CAN,CA-AB,NA,https://ror.org/003s89n44,NA,NA,https://www.macewan.ca,NA
+McGill University,mcgill_u,McGill University,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/01pxwe438,NA,NA,https://www.mcgill.ca,NA
+McMaster University,mcmaster_u,McMaster University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/02fa3aq29,NA,NA,https://www.mcmaster.ca,NA
+Memorial University of Newfoundland,memorial_u_of_newfoundland,Memorial University of Newfoundland,NORTH_AMERICA,CAN,CA-NL,NA,https://ror.org/04haebc03,NA,NA,https://mun.ca,NA
+Mount Allison University,mount_allison_u,Mount Allison University,NORTH_AMERICA,CAN,CA-NB,NA,https://ror.org/03grc6f14,NA,NA,https://mta.ca,NA
+Mount Royal University,mount_royal_u,Mount Royal University,NORTH_AMERICA,CAN,CA-AB,NA,https://ror.org/04evsam41,NA,NA,https://www.mtroyal.ca,NA
+Mount Saint Vincent University,mount_saint_vincent_u,Mount Saint Vincent University,NORTH_AMERICA,CAN,CA-NS,NA,https://ror.org/03g3p3b82,NA,NA,https://www.msvu.ca,NA
+Mount Sinai Hospital,mount_sinai_hospital,Mount Sinai Hospital,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/05deks119,NA,NA,http://www.mountsinai.on.ca/,NA
+Nipissing University,nipissing_u,Nipissing University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/05k14ba46,NA,NA,https://www.nipissingu.ca,NA
+Northern Ontario School of Medicine University,nosm_u,NOSM University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/05yb43k62,NA,NA,https://www.nosm.ca,NA
+OCAD University,ocad_u,Ontario College of Art and Design,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/059ncap70,NA,NA,https://www.ocadu.ca,NA
+University of Ontario Institute of Technology,uoit,University of Ontario Institute of Technology,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/016zre027,NA,NA,http://www.uoit.ca/,NA
+University of Ottawa,ottawa_u,University of Ottawa,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03c4mmv16,NA,NA,https://www.uottawa.ca,NA
+Polytechnique Montreal,polytechnique_montreal,Polytechnique Montréal,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/05f8d4e86,NA,NA,https://polymtl.ca,NA
+Princess Margaret Cancer Centre,princess_margaret_cancer_centre,Princess Margaret Cancer Centre,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03zayce58,NA,NA,http://www.uhn.ca/PrincessMargaret,NA
+Sunnybrook Health Science Centre,sunnybrook_health_science_centre,Sunnybrook Health Science Centre,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03wefcv03,NA,NA,http://sunnybrook.ca/,NA
+Royal Roads University,royal_roads_u,Royal Roads University,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/05w4ste42,NA,NA,https://www.royalroads.ca,NA
+Toronto Metropolitan University,toronto_metropolitan_u,Toronto Metropolitan University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/05g13zd79,NA,NA,https://www.torontomu.ca,NA
+St. Francis Xavier University,st_francis_xavier_u,St. Francis Xavier University,NORTH_AMERICA,CAN,CA-NS,NA,https://ror.org/01wcaxs37,NA,NA,https://www.stfx.ca,NA
+Saint Mary's University,saint_marys_u,Saint Mary's University,NORTH_AMERICA,CAN,CA-NS,NA,https://ror.org/010zh7098,NA,NA,https://www.smu.ca,NA
+Simon Fraser University,simon_fraser_u,Simon Fraser University,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/0213rcc28,NA,NA,https://www.sfu.ca,NA
+St Jerome's University,st_jeromes_u,St. Jerome's University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/05fwyj602,NA,NA,http://www.sju.ca/,NA
+University of British Columbia,british_columbia_u,University of British Columbia,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/03rmrcq20,NA,NA,https://www.ubc.ca/,NA
+University of Winnipeg,winnipeg_u,University of Winnipeg,NORTH_AMERICA,CAN,CA-MB,NA,https://ror.org/02gdzyx04,NA,NA,https://www.uwinnipeg.ca,NA
+Thompson Rivers University,thompson_rivers_u,Thompson Rivers University,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/01v9wj339,NA,NA,https://www.tru.ca,NA
+Toronto General Hospital,toronto_general_hospital,Toronto General Hospital,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/026pg9j08,NA,NA,http://www.uhn.ca/corporate/AboutUHN/OurHospitals/TGH,NA
+Toronto Rehabilitation Institute,toronto_rehabilitation_institute,Toronto Rehabilitation Institute,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/00mxe0976,NA,NA,http://www.torontorehabfoundation.com/,NA
+Toronto Western Hospital,toronto_western_hospital,Toronto Western Hospital,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03qv8yq19,NA,NA,http://www.uhn.ca/corporate/AboutUHN/OurHospitals/TWH,NA
+Trent University,trent_u,Trent University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03ygmq230,NA,NA,https://www.trentu.ca,NA
+Trillium Health Partners,trillium_health_partners,Trillium Health Centre,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03v6a2j28,NA,NA,http://trilliumhealthpartners.ca/Pages/default.aspx,NA
+Trinity Western University,trinity_western_u,Trinity Western University,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/01j2kd606,NA,NA,https://www.twu.ca,NA
+Université TÉLUQ,teluq_u,Université TÉLUQ,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/007y6q934,NA,NA,https://www.teluq.ca,NA
+Université du Québec à Montréal,quebec_montreal_u,Université du Québec à Montréal,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/002rjbv21,NA,NA,https://uqam.ca,NA
+Université du Québec à Rimouski,quebec_rimouski_u,Université du Québec à Rimouski,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/049jtt335,NA,NA,https://www.uqar.ca,NA
+Université du Québec en Abitibi-Témiscamingue,quebec_abitibi_temiscamingue_u,Université du Québec en Abitibi-Témiscamingue,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/02mqrrm75,NA,NA,https://www.uqat.ca,NA
+Université du Québec à Trois-Rivières,quebec_trois_rivieres_u,Université du Québec à Trois-Rivières,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/02xrw9r68,NA,NA,https://www.uqtr.ca,NA
+Université de Moncton,moncton_u,Université de Moncton,NORTH_AMERICA,CAN,CA-NB,NA,https://ror.org/029tnqt29,NA,NA,http://www.umoncton.ca/,NA
+Université de Sherbrooke,sherbrooke_u,Université de Sherbrooke,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/00kybxq39,NA,NA,https://www.usherbrooke.ca,NA
+Université du Québec,quebec_u,Université du Québec,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/010gxg263,NA,NA,http://www.uquebec.ca,NA
+Université du Québec à Chicoutimi,quebec_chicoutimi_u,Université du Québec à Chicoutimi,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/00y3hzd62,NA,NA,https://www.uqac.ca,NA
+Université du Québec en Outaouais,quebec_outaouais_u,Université du Québec en Outaouais,NORTH_AMERICA,CAN,CA-QC,NA,https://ror.org/011pqxa69,NA,NA,https://uqo.ca,NA
+University Health Network,university_health_network,University Health Network,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/042xt5161,NA,NA,https://www.uhn.ca,NA
+University of Alberta,alberta_u,University of Alberta,NORTH_AMERICA,CAN,CA-AB,NA,https://ror.org/0160cpw27,NA,NA,https://www.ualberta.ca,NA
+University of Guelph,guelph_u,University of Guelph,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/01r7awg59,NA,NA,https://www.uoguelph.ca,NA
+University of Lethbridge,lethbridge_u,University of Lethbridge,NORTH_AMERICA,CAN,CA-AB,NA,https://ror.org/044j76961,NA,NA,https://www.ulethbridge.ca,NA
+University of Manitoba,manitoba_u,University of Manitoba,NORTH_AMERICA,CAN,CA-MB,NA,https://ror.org/02gfys938,NA,NA,https://umanitoba.ca,NA
+University of New Brunswick,new_brunswick_u,University of New Brunswick,NORTH_AMERICA,CAN,CA-NB,NA,https://ror.org/05nkf0n29,NA,NA,https://unb.ca,NA
+University of Northern British Columbia,northern_british_columbia_u,University of Northern British Columbia,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/025wzwv46,NA,NA,https://www.unbc.ca,NA
+University of Prince Edward Island,prince_edward_island_u,University of Prince Edward Island,NORTH_AMERICA,CAN,CA-PE,NA,https://ror.org/02xh9x144,NA,NA,http://home.upei.ca/,NA
+University of Regina,regina_u,University of Regina,NORTH_AMERICA,CAN,CA-SK,NA,https://ror.org/03dzc0485,NA,NA,https://www.uregina.ca,NA
+University of Saskatchewan,saskatchewan_u,University of Saskatchewan,NORTH_AMERICA,CAN,CA-SK,NA,https://ror.org/010x8gc63,NA,NA,https://www.usask.ca/,NA
+University of Victoria,victoria_u,University of Victoria,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/04s5mat29,NA,NA,https://www.uvic.ca,NA
+University of Windsor,windsor_u,University of Windsor,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/01gw3d370,NA,NA,https://www.uwindsor.ca,NA
+University of the Fraser Valley,fraser_valley_u,University of the Fraser Valley,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/04h6w7946,NA,NA,https://ufv.ca,NA
+Vancouver Island University,vancouver_island_u,Vancouver Island University,NORTH_AMERICA,CAN,CA-BC,NA,https://ror.org/033wcvv61,NA,NA,https://www.viu.ca/,NA
+Wilfrid Laurier University,wilfrid_laurier_u,Wilfrid Laurier University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/00fn7gb05,NA,NA,https://wlu.ca,NA
+Women's College Hospital,womens_college_hospital,Women's College Hospital,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/03cw63y62,NA,NA,http://www.womenscollegehospital.ca/,NA
+York University,toronto_york_u,York University,NORTH_AMERICA,CAN,CA-ON,NA,https://ror.org/05fq50484,NA,NA,https://www.yorku.ca,NA

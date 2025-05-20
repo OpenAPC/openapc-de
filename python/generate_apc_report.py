@@ -27,7 +27,8 @@ ARG_HELP_STRINGS = {
                             "given institution. Useful if time is short or there's no internet " +
                             "connection."),
     "csv_output": ('Write the APC deviation data to a CSV file ("report.csv") in addition to regular ' +
-                   'report generation')
+                   'report generation'),
+    "pdf_engine": 'Set the engine used by pandoc (--pdf-engine) to generate the report PDF. Default: xelatex'
 }
 
 with open("report/strings.json") as f:
@@ -50,6 +51,7 @@ def parse():
     parser = argparse.ArgumentParser()
     parser.add_argument("institution", help=ARG_HELP_STRINGS["institution"])
     parser.add_argument("lang", help=ARG_HELP_STRINGS["lang"], choices=LANG.keys())
+    parser.add_argument("-p", "--pdf-engine", help=ARG_HELP_STRINGS["pdf_engine"], default="xelatex")
     parser.add_argument("-v", "--verbose", help=ARG_HELP_STRINGS["verbose"], action="store_true")
     parser.add_argument("-d", "--no-doi-resolve-test", help=ARG_HELP_STRINGS["no_doi_resolve_test"],
                         action="store_true")
@@ -234,6 +236,8 @@ def generate_apc_deviaton_section(institution, articles, stats, lang, csv_output
                         elem = "[Link](" + article[16] + ")"
                 if index in [2, 18, 19, 20]: # monetary
                     elem = elem + "€"
+                    if elem.startswith("-"):
+                        elem = "-" + elem
                 row += elem + "|"
             row += "\n"
             md_content += row
@@ -342,7 +346,7 @@ def main():
     file_name = "report_" + ins + "_" + today + ".pdf"
     with open("report.md", "w") as out:
         out.write(report)
-    run(["pandoc", "report.md", "-f", "markdown", "-o", file_name, "--pdf-engine=xelatex"])
+    run(["pandoc", "report.md", "-f", "markdown", "-o", file_name, "--pdf-engine=" + args.pdf_engine])
 
 
 if __name__ == '__main__':

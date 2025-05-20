@@ -1,7 +1,7 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Institut Pasteur",2022,3651.12,"10.1126/sciadv.abl5942",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"35417240","PMC9007504",NA,NA,TRUE
 "Institut Pasteur",2022,3838.17,"10.1126/sciadv.abm5095",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"35417244","PMC9007517",NA,NA,TRUE
-"Institut Pasteur",2022,2017.35,"10.1126/sciadv.abn9793",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"36598988","PMC9812383",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "Institut Pasteur",2022,3898.06,"10.1126/sciadv.abo0171",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"35857849","PMC9299553",NA,NA,TRUE
 "Institut Pasteur",2022,4198.83,"10.1126/sciadv.abo5767",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"36269830","PMC9586479",NA,NA,TRUE
 "Institut Pasteur",2022,4220.07,"10.1126/sciadv.adc9340",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"36240268","PMC9565810",NA,NA,TRUE
@@ -33,7 +33,7 @@
 "Institut Pasteur",2022,5170,"10.1016/j.cell.2021.11.010",TRUE,"Elsevier BV","Cell","0092-8674","0092-8674",NA,"0092-8674","http://creativecommons.org/licenses/by/4.0/",TRUE,"34852239","PMC8724787",NA,NA,FALSE
 "Institut Pasteur",2022,2181.79,"10.1016/j.xgen.2022.100163",FALSE,"Elsevier BV","Cell Genomics","2666-979X","2666-979X",NA,"2666-979X","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35983101","PMC9365758",NA,NA,TRUE
 "Institut Pasteur",2022,7600,"10.1016/j.chom.2022.02.018",TRUE,"Elsevier BV","Cell Host & Microbe","1931-3128","1931-3128",NA,"1931-3128","http://creativecommons.org/licenses/by/4.0/",TRUE,"35316646","PMC9122126",NA,NA,FALSE
-"Institut Pasteur",2022,2250,"10.1016/j.celrep.2022.110825",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35584666",NA,NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "Institut Pasteur",2022,4500,"10.1016/j.celrep.2022.110923",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by/4.0/",TRUE,"35705035",NA,NA,NA,TRUE
 "Institut Pasteur",2022,4500,"10.1016/j.celrep.2022.110989",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by/4.0/",TRUE,"35767946","PMC9237956",NA,NA,TRUE
 "Institut Pasteur",2022,4500,"10.1016/j.celrep.2022.111074",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"35830812",NA,NA,NA,TRUE
@@ -175,7 +175,7 @@
 "Institut Pasteur",2022,5748,"10.1038/s41467-022-31111-y",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"35764616","PMC9239988",NA,NA,TRUE
 "Institut Pasteur",2022,5748,"10.1038/s41467-022-31266-8",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"35752632","PMC9233712",NA,NA,TRUE
 "Institut Pasteur",2022,4790,"10.1038/s41467-022-31287-3",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"35764636","PMC9240092",NA,NA,TRUE
-"Institut Pasteur",2022,2445,"10.1038/s41467-022-31511-0",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"35794110","PMC9258765",NA,NA,TRUE
+"",,,"","","","","","","","","","","","","","",""
 "Institut Pasteur",2022,4890,"10.1038/s41467-022-31565-0",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"35780224","PMC9250522",NA,NA,TRUE
 "Institut Pasteur",2022,4890,"10.1038/s41467-022-31775-6",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"35840595","PMC9287442",NA,NA,TRUE
 "Institut Pasteur",2022,5868,"10.1038/s41467-022-31842-y",FALSE,"Springer Nature","Nature Communications","2041-1723",NA,"2041-1723","2041-1723","https://creativecommons.org/licenses/by/4.0",TRUE,"35953476","PMC9372137",NA,NA,TRUE

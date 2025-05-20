@@ -21,7 +21,12 @@ ARG_HELP_STRINGS = {
                   '"all_harvested_articles_enriched.csv")'),
     "output": 'Write raw harvested data to disk',
     "links": "Print OAI GetRecord links for all harvested articles, useful " +
-             "for inspecting and debugging the original data"
+             "for inspecting and debugging the original data",
+    "validate": "Do not process any data and validate all records against the " +
+                "openCost XSD schema instead. Only works for sources with type " +
+                "'opencost'",
+    "force_update": "Download a fresh copy of the openCost XSD from GitHub. Only "+
+                    "works in connection with the -v option"
 }
 
 def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
@@ -116,7 +121,7 @@ def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
             writer.write_rows(updated_lines)
     return list(article_dict.values())
 
-def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact"):
+def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact", validate_only=False, force_update=False, record_url=None):
     """
     Harvest records via OAI-PMH
     """
@@ -178,13 +183,15 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
     if data_type == "intact":
         return oat.process_intact_xml(processing_instructions, *xml_content_strings)
     elif data_type == "opencost":
-        return octk.process_opencost_oai_records(processing_instructions, *xml_content_strings)
+        return octk.process_opencost_oai_records(processing_instructions, validate_only, force_update, record_url, *xml_content_strings)
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--integrate", help=ARG_HELP_STRINGS["integrate"], action="store_true")
     parser.add_argument("-o", "--output", help=ARG_HELP_STRINGS["output"], action="store_true")
     parser.add_argument("-l", "--print_record_links", help=ARG_HELP_STRINGS["links"], action="store_true")
+    parser.add_argument("-v", "--validate_only", help=ARG_HELP_STRINGS["validate"], action="store_true")
+    parser.add_argument("-u", "--force_update", help=ARG_HELP_STRINGS["force_update"], action="store_true")
     args = parser.parse_args()
 
     with open("harvest_list.csv", "r") as harvest_list:
@@ -192,14 +199,21 @@ def main():
         for line in reader:
             basic_url = line["basic_url"]
             if line["active"] == "TRUE":
-                oat.print_g("Starting harvest from source " + basic_url)
                 oai_set = line["oai_set"] if len(line["oai_set"]) > 0 else None
                 prefix = line["metadata_prefix"] if len(line["metadata_prefix"]) > 0 else None
                 processing = line["processing"] if len(line["processing"]) > 0 else None
                 repo_type = line["type"]
                 directory = os.path.join("..", line["directory"])
                 out_file_suffix = os.path.basename(line["directory"]) if args.output else None
-                articles = oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type)
+                if args.validate_only:
+                    if repo_type != "opencost":
+                        oat.print_y("Skipping source " + basic_url + " - Validation is not possible since it is not an openCost repository")
+                        continue
+                    oat.print_g("Starting validation run for source " + basic_url)
+                    oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type, args.validate_only, args.force_update)
+                    continue
+                oat.print_g("Starting harvest for source " + basic_url)
+                articles = oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type, args.validate_only, args.force_update)
                 harvest_file_path = os.path.join(directory, "all_harvested_articles.csv")
                 enriched_file_path = os.path.join(directory, "all_harvested_articles_enriched.csv")
                 new_article_dicts = integrate_changes(articles, harvest_file_path, False, not args.integrate)

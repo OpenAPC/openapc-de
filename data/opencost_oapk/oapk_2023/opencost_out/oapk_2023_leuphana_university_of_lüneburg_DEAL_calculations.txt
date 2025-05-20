@@ -1,0 +1,18 @@
+=== Overview: Contract group IDs ===
+
+Leuphana University of Lüneburg has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 99435.07999999999 €. (group_id: 02w2y2t16_sn2020deal_2023)
+32 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 99435.07999999999 / 32 = 3107.35 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s10980-023-01614-0) has an 'euro' value of 3107.35 €. ==> passed.
+
+Leuphana University of Lüneburg has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 84502.19 €. (group_id: 02w2y2t16_wiley2019deal_2023)
+21 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 84502.19 / 21 = 4023.91 was assigned to each of them.
+CONTROL: First new article in group (10.1002/bse.3375) has an 'euro' value of 4023.91 €. ==> passed.
+
+=== Update instructions ===
+
+1) There is no conflicting cost data for invoice group '02w2y2t16_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (Leuphana University of Lüneburg, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+2) There is no conflicting cost data for invoice group '02w2y2t16_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (Leuphana University of Lüneburg, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+

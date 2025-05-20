@@ -79,7 +79,8 @@ PUBLISHER_MAPPINGS = {
     "Waxmann": "Waxmann Verlag",
     "WALLSTEIN VERLAG": "Wallstein Verlag",
     "Nomos Verlagsgesellschaft mbH & Co.- KG": "Nomos Verlagsgesellschaft mbH & Co. KG",
-    "edition text + kritik im Richard Boorberg Verlag": "edition text + kritik"
+    "edition text + kritik im Richard Boorberg Verlag": "edition text + kritik",
+    "Springer Nature Switzerland": "Springer International Publishing",
 }
 
 JOURNAL_MAPPINGS = {
@@ -717,7 +718,9 @@ JOURNAL_MAPPINGS = {
     "BMJ Supportive &amp; Palliative Care": "BMJ Supportive & Palliative Care",
     "Diabetes Technology &amp; Therapeutics": "Diabetes Technology & Therapeutics",
     "Evolution &amp; Development": "Evolution & Development",
-    "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology"
+    "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology",
+    "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports",
+    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung"
 }
 
 COLUMN_NAMES = {
@@ -743,7 +746,15 @@ COLUMN_NAMES = {
     "backlist_oa": ["backlist_oa"],
     "isbn": ["isbn"],
     "isbn_print": ["isbn_print"],
-    "isbn_electronic": ["isbn_electronic"]
+    "isbn_electronic": ["isbn_electronic"],
+    "colour charge": ["colour charge", "colour_charge", "color charge", "color_charge"],
+    "cover charge": ["cover charge", "cover_charge"],
+    "page charge": ["page charge", "page_charge"],
+    "permission": ["permission"],
+    "reprint": ["reprint"],
+    "submission fee": ["submission fee", "submission_fee"],
+    "payment fee": ["payment fee", "payment_fee"],
+    "other": ["other"],
 }
 
 HYBRID_STATUS = {
@@ -761,10 +772,31 @@ ISSN_L_CORRECTIONS = {
     "1573-0565": "0885-6125", # "Machine Learning". 1573-0565(issn_e) -> 1573-0565, but 0885-6125(issn_p) -> 0885-6125
     "2041-7128": "2041-7136", # "Pastoralism" 
     "2035-8385": "2035-8377", # "Neurology International". 2035-8385(issn_p) -> 2035-8385, but 2035-8377(issn_e) -> 2035-8377
-    "0016-9420": "0018-9855" # "IIC - International Review of Intellectual Property and Competition Law"
+    "0016-9420": "0018-9855", # "IIC - International Review of Intellectual Property and Competition Law"
+    "2054-4650": "2054-4642" # "Work, Aging and Retirement". 2054-4650(issn_e) -> 2054-4650, but 2054-4642(issn_p) -> 2054-4642
 }
 
 AGREEMENT_PUBLISHERS = {
     "DEAL Springer Nature Germany": ["Springer Nature"],
     "DEAL Wiley Germany": ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)", "International Union of Crystallography (IUCr)"]
+}
+
+# maps ROR geo names to terms used in the institutions table
+GEO_MAPPINGS = {
+    # world level
+    "North America": "NORTH_AMERICA",
+    # countries
+    "CA": "CAN",
+    # subdivisions
+    # -- Canada
+    "ON": "CA-ON",
+    "MB": "CA-MB",
+    "QC": "CA-QC",
+    "AB": "CA-AB",
+    "NS": "CA-NS",
+    "BC": "CA-BC",
+    "NL": "CA-NL",
+    "NB": "CA-NB",
+    "PE": "CA-PE",
+    "SK": "CA-SK",
 }

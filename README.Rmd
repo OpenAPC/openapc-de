@@ -1,4 +1,4 @@
-﻿
+
 ```{r, echo = FALSE, warning = TRUE}
 
 knitr::opts_knit$set(base.url = "/")
@@ -19,7 +19,7 @@ knitr::knit_hooks$set(inline = function(x) {
 ```
 
 ```{r}
-require(dplyr)
+require(tidyverse)
 require(stringr)
 require(ggplot2)
 ```
@@ -27,6 +27,7 @@ require(ggplot2)
 ```{r, echo=FALSE, cache = FALSE}
 my_apc <- readr::read_csv("data/apc_de.csv")
 my_bpc <- readr::read_csv("data/bpc.csv")
+my_apc_ac <- readr::read_csv("data/apc_de_additional_costs.csv")
 ```
 
 ## About
@@ -47,19 +48,32 @@ At the moment this project provides the following cost data:
 
 There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.openapc.net/) for visual data exploration.
 
-| Dataset         | CSV File                                                                                                                                                         | OLAP Cube                                                               | Treemap                                                               |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set) | [APC cube](https://olap.openapc.net/cube/openapc/aggregate)             | [APC treemap](https://treemaps.openapc.net/apcdata/openapc/)          |
-| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)        | [BPC cube](https://olap.openapc.net/cube/bpc/aggregate)                 | [BPC treemap](https://treemaps.openapc.net/apcdata/bpc/)              |
+| Dataset         | CSV File                                                                                                                                                                                                                         | OLAP Cube                                                                     | Treemap                                                                       |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set)                                                                 | [APC cube](https://olap.openapc.net/cube/openapc/aggregate)                   | [APC treemap](https://treemaps.openapc.net/apcdata/openapc/)                  |
+| TA articles     | [TA file](https://github.com/OpenAPC/openapc-de/blob/master/data/transformative_agreements/transformative_agreements.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#transformative-agreements-data-set)   | [TA cube](https://olap.openapc.net/cube/transformative_agreements/aggregate)  | [TA treemap](https://treemaps.openapc.net/apcdata/transformative-agreements/) |
+| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)                                                                        | [BPC cube](https://olap.openapc.net/cube/bpc/aggregate)                       | [BPC treemap](https://treemaps.openapc.net/apcdata/bpc/)                      |
 
 Our latest data release can always be accessed via the following DOI:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6883472.svg)](https://doi.org/10.5281/zenodo.6883472)
 
+## Additional Costs
+
+In 2024 OpenAPC started to aggregate additional costs like page charges or submission fees, which may occur in the context of OA publishing aside from APCs. These cost types are considered optional and thus collected in a separate data file, they are linked to a main publication entry using the DOI as primary key. At the moment additional costs are only collected for journal articles.
+
+| Dataset         | Main CSV File                                                                 | Additional Costs File                                                                                       | OLAP Cube                                                             | Treemap                                                                           |
+|-----------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) | [APC additional costs](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de_additional_costs.csv)  | [APC_AC cube](https://olap.openapc.net/cube/openapc_ac/aggregate)     | [APC_AC Treemap](https://treemaps.openapc.net/apcdata/openapc/additional_costs)   |
+
 ## How to contribute?
 
 Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
-This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details. The following institutions have contributed to OpenAPC so far:
+This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
+
+Please note that OpenAPC uses internal identifiers for institutions in all its data sets to maintain backwards compatibility. Additional metadata on all participants (including ROR IDs as persistent identifier) is maintained in a separate [lookup table](https://github.com/OpenAPC/openapc-de/blob/master/data/institutions.csv).
+
+The following institutions have contributed to OpenAPC so far:
 
 ```{r, echo=FALSE, results = 'asis'}
 
@@ -207,6 +221,67 @@ full_join(oa_grouped, hyb_grouped) %>%
 knitr::kable(col.names = c("period", "OA articles", "OA mean", "OA median", "OA min - max", "Hybrid Articles", "Hybrid mean", "Hybrid median", "Hybrid min - max"), align = c("l","r", "r", "r", "r", "r", "r", "r", "r"))
 
 ```
+
+#### Additional Costs for articles
+
+```{r, echo=FALSE, results='asis', message = FALSE}
+
+apc_de_euro_only <- my_apc %>% mutate(apc = euro) %>% select(doi, apc)
+
+apc_ac_long <- my_apc_ac %>%
+  left_join(apc_de_euro_only) %>%
+  pivot_longer(!doi, names_to = "cost_type", values_to = "value", values_drop_na = TRUE)
+
+apc_ac_grouped <- apc_ac_long %>%
+  left_join(my_apc) %>%
+  mutate(cost_type = factor(cost_type), publisher = factor(publisher)) %>%
+  group_by(cost_type, publisher) %>%
+  summarize(value = sum(value), articles = n())
+
+apc_ac_biggest <- apc_ac_grouped %>%
+  group_by(publisher) %>%
+  summarize(value=sum(value)) %>%
+  arrange(desc(value))
+
+apc_ac_big_publishers <- apc_ac_biggest[1:20,] %>%
+  select(publisher)
+
+apc_ac_grouped_biggest <- apc_ac_big_publishers %>%
+  left_join(apc_ac_grouped)
+
+apc_ac_long_table <- apc_ac_long %>%
+  filter(cost_type != "apc") %>%
+  group_by(cost_type) %>%
+  summarize(count = n(), value = sum(value))
+
+p <- apc_ac %>%
+  ggplot(data = apc_ac_grouped_biggest, mapping = aes(x = factor(publisher, as.vector(apc_ac_big_publishers$publisher)), y = value, fill=cost_type)) +
+  geom_col(position = position_stack(reverse = TRUE)) + 
+  xlab('Publisher') + 
+  ylab("Summarized Costs (€)") +
+  guides(fill = guide_legend(title = "Cost Type")) + 
+  scale_fill_manual(
+    values = c("darkolivegreen3", "orange", "red", "magenta2", "darkslategray", "blue", "darkgreen", "yellow", "cyan"),
+  #  labels = c("APC", "Colour Charges", "Cover Charge", "Other", "Page Charge", "Payment Fee", "Permission", "Reprint", "Submission Fee")
+  ) + 
+  coord_flip()
+  ggsave(p, path = "figure/", filename = "additional_costs.png", width=9, height=4.5, units="in", device = "png")
+
+```
+
+In addition to APCs, additional costs have been reported for `r sum(apc_ac_long_table$count)` articles, totalling € `r sum(apc_ac_long_table$value)`. The following table shows an overview of the different cost types:
+
+```{r, echo=FALSE, results='asis', message = FALSE}
+apc_ac_long_table %>%
+  mutate(count = format(count, big.mark=","), 
+         value = format(value, big.mark=",")
+        ) %>%
+  knitr::kable(col.names = c("Cost Type", "Number of Articles", "Total Sum (€)"), align = c("l","r", "r"))
+```
+
+This plot shows the cost distribution grouped by publishers. It includes only articles where additional reports have been reported and summarizes both additional costs and APCs for all of them:
+
+![](figure/additional_costs.png)
 
 ### Books (BPCs)
 
@@ -368,7 +443,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Karina Barros Ferradás, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Micaela Crespo Quesada, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Silvia Giannini, Marianna Gnoato, Steffi Grimm, Birgit Hablizel, Florian Hagen, Christina Hemme, Ulrich Herb, Elfi Hesse, Dana Horch, Larissa Gordon, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Kathrin Höhner, Conrad Hübler, Christie Hurrell, Arto Ikonen, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Tiina Jounio, Juho Jussila, Nadja Kalinna, Mirjam Kant, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Stuart Lawson, Anne Lehto, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Vlatko Momirovski, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Martina Obst, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Ulrike Richter, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Andrea Stühn, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Agnieszka Wenninger, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Miriam Zeunert, Philipp Zumstein
+Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Karina Barros Ferradás, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Jochen Bihn, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Micaela Crespo Quesada, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Silvia Giannini, Marianna Gnoato, Larissa Gordon, Paul Gredler, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Birgit Hablizel, Florian Hagen, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Christina Hemme, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Elfi Hesse, Silke Hillmann, Kathrin Höhner, Dana Horch, Conrad Hübler, Christie Hurrell, Arto Ikonen, Simon Inselmann, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Tiina Jounio, Juho Jussila, Nadja Kalinna, Mirjam Kant, Kerstin Klein, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Sarah Last, Stuart Lawson, Anne Lehto, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Ute von Lüpke, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Vlatko Momirovski, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Martina Obst, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Ulrike Richter, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Andrea Stühn, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Agnieszka Wenninger, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Miriam Zeunert, Philipp Zumstein
 
 ## Contact
 

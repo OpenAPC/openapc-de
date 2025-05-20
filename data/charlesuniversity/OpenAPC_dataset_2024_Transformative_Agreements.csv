@@ -1,0 +1,471 @@
+institution,year,doi,is_hybrid,publisher,journal_full_title,agreement
+Charles University,2024,10.1145/3618260.3649783,TRUE,Association for Computing Machinery (ACM),Proceedings of the 56th Annual ACM Symposium on Theory of Computing,CzechELib ACM agreement
+Charles University,2024,10.1145/3626772.3657863,TRUE,Association for Computing Machinery (ACM),Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval,CzechELib ACM agreement
+Charles University,2024,10.1145/3627043.3659555,TRUE,Association for Computing Machinery (ACM),"Proceedings of the 32nd ACM Conference on User Modeling, Adaptation and Personalization",CzechELib ACM agreement
+Charles University,2024,10.1145/3639477.3639739,TRUE,Association for Computing Machinery (ACM),46th International Conference on Software Engineering: Software Engineering in Practice,CzechELib ACM agreement
+Charles University,2024,10.1145/3643795.3648389,TRUE,Association for Computing Machinery (ACM),2024 International Workshop on Large Language Models for Code,CzechELib ACM agreement
+Charles University,2024,10.1145/3649169.3649247,TRUE,Association for Computing Machinery (ACM),The 15th International Workshop on Programming Models and Applications for Multicores and Manycores,CzechELib ACM agreement
+Charles University,2024,10.1145/3649411.3649414,TRUE,Association for Computing Machinery (ACM),16th Workshop on General Purpose Processing Using GPU,CzechELib ACM agreement
+Charles University,2024,10.1145/3664647.3685517,TRUE,Association for Computing Machinery (ACM),Proceedings of the 32nd ACM International Conference on Multimedia,CzechELib ACM agreement
+Charles University,2024,10.1145/3676887,TRUE,Association for Computing Machinery (ACM),ACM Transactions on Algorithms,CzechELib ACM agreement
+Charles University,2024,10.1145/3709150,TRUE,Association for Computing Machinery (ACM),ACM Transactions on Computing Education,CzechELib ACM agreement
+Charles University,2024,10.1021/acsmaterialsau.4c00137,FALSE,American Chemical Society (ACS),ACS Materials Au,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jafc.4c09069,TRUE,American Chemical Society (ACS),Journal of Agricultural and Food Chemistry,CzechELib ACS agreement
+Charles University,2024,10.1021/acsami.4c13795,TRUE,American Chemical Society (ACS),ACS Applied Materials & Interfaces,CzechELib ACS agreement
+Charles University,2024,10.1021/acsptsci.4c00408,TRUE,American Chemical Society (ACS),ACS Pharmacology & Translational Science,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.orglett.4c04378,TRUE,American Chemical Society (ACS),Organic Letters,CzechELib ACS agreement
+Charles University,2024,10.1021/acscatal.4c05269,TRUE,American Chemical Society (ACS),ACS Catalysis,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jchemed.4c01146,TRUE,American Chemical Society (ACS),Journal of Chemical Education,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jpca.4c05556,TRUE,American Chemical Society (ACS),The Journal of Physical Chemistry A,CzechELib ACS agreement
+Charles University,2024,10.1021/acsanm.4c05231,FALSE,American Chemical Society (ACS),ACS Applied Nano Materials,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.biomac.4c00915,TRUE,American Chemical Society (ACS),Biomacromolecules,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.joc.4c01764,TRUE,American Chemical Society (ACS),The Journal of Organic Chemistry,CzechELib ACS agreement
+Charles University,2024,10.1021/acsptsci.4c00518,TRUE,American Chemical Society (ACS),ACS Pharmacology & Translational Science,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jchemed.4c00485,TRUE,American Chemical Society (ACS),Journal of Chemical Education,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jpca.4c05103,TRUE,American Chemical Society (ACS),The Journal of Physical Chemistry A,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.nanolett.4c02325,TRUE,American Chemical Society (ACS),Nano Letters,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jnatprod.4c00825,TRUE,American Chemical Society (ACS),Journal of Natural Products,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.analchem.4c02819,TRUE,American Chemical Society (ACS),Analytical Chemistry,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.organomet.4c00284,TRUE,American Chemical Society (ACS),Organometallics,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.biomac.4c00833,TRUE,American Chemical Society (ACS),Biomacromolecules,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.orglett.4c02434,TRUE,American Chemical Society (ACS),Organic Letters,CzechELib ACS agreement
+Charles University,2024,10.1021/jacsau.4c00453,FALSE,American Chemical Society (ACS),JACS Au,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jcim.4c00809,TRUE,American Chemical Society (ACS),Journal of Chemical Information and Modeling,CzechELib ACS agreement
+Charles University,2024,10.1021/acsami.4c05542,TRUE,American Chemical Society (ACS),ACS Applied Materials & Interfaces,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.analchem.4c01811,TRUE,American Chemical Society (ACS),Analytical Chemistry,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.accounts.4c00137,TRUE,American Chemical Society (ACS),Accounts of Chemical Research,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jpcc.4c02403,TRUE,American Chemical Society (ACS),The Journal of Physical Chemistry C,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jpclett.4c01152,TRUE,American Chemical Society (ACS),The Journal of Physical Chemistry Letters,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.joc.4c00572,TRUE,American Chemical Society (ACS),The Journal of Organic Chemistry,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jchemed.3c00908,TRUE,American Chemical Society (ACS),Journal of Chemical Education,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.inorgchem.4c00527,TRUE,American Chemical Society (ACS),Inorganic Chemistry,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.cgd.3c01312,TRUE,American Chemical Society (ACS),Crystal Growth & Design,CzechELib ACS agreement
+Charles University,2024,10.1021/jacsau.3c00668,FALSE,American Chemical Society (ACS),JACS Au,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jpclett.4c00291,TRUE,American Chemical Society (ACS),The Journal of Physical Chemistry Letters,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jproteome.3c00691,TRUE,American Chemical Society (ACS),Journal of Proteome Research,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jpcb.3c07007,TRUE,American Chemical Society (ACS),The Journal of Physical Chemistry B,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.jctc.3c01217,TRUE,American Chemical Society (ACS),Journal of Chemical Theory and Computation,CzechELib ACS agreement
+Charles University,2024,10.1021/acs.analchem.3c03599,TRUE,American Chemical Society (ACS),Analytical Chemistry,CzechELib ACS agreement
+Charles University,2024,10.1021/acsinfecdis.3c00529,TRUE,American Chemical Society (ACS),ACS Infectious Diseases,CzechELib ACS agreement
+Charles University,2024,10.1063/5.0207090,TRUE,AIP Publishing,Journal of Chemical Physics,CzechELib AIP agreement
+Charles University,2024,10.1063/5.0226594,TRUE,AIP Publishing,Journal of Chemical Physics,CzechELib AIP agreement
+Charles University,2024,10.1063/5.0225528,TRUE,AIP Publishing,Physics of Fluids,CzechELib AIP agreement
+Charles University,2024,10.1063/5.0227282,TRUE,AIP Publishing,Physics of Fluids,CzechELib AIP agreement
+Charles University,2024,10.1063/5.0225485,TRUE,AIP Publishing,Journal of Chemical Physics,CzechELib AIP agreement
+Charles University,2024,10.1017/lap.2024.56,TRUE,Cambridge University Press (CUP),Latin American Politics and Society,CzechELib CUP agreement
+Charles University,2024,10.1017/nps.2024.106,TRUE,Cambridge University Press (CUP),Nationalities Papers,CzechELib CUP agreement
+Charles University,2024,10.1017/S1743921324001820,TRUE,Cambridge University Press (CUP),Proceedings of the International Astronomical Union,CzechELib CUP agreement
+Charles University,2024,10.1017/pab.2024.48,TRUE,Cambridge University Press (CUP),Paleobiology,CzechELib CUP agreement
+Charles University,2024,10.1017/pls.2024.16,TRUE,Cambridge University Press (CUP),Politics and the Life Sciences,CzechELib CUP agreement
+Charles University,2024,10.1017/dmp.2024.260,TRUE,Cambridge University Press (CUP),Disaster Medicine and Public Health Preparedness,CzechELib CUP agreement
+Charles University,2024,10.1017/prm.2024.73,TRUE,Cambridge University Press (CUP),Proceedings of the Royal Society of Edinburgh Section A: Mathematics,CzechELib CUP agreement
+Charles University,2024,10.1017/slr.2024.378,TRUE,Cambridge University Press (CUP),Slavic Review,CzechELib CUP agreement
+Charles University,2024,10.1017/S0022149X24000622,TRUE,Cambridge University Press (CUP),Journal of Helminthology,CzechELib CUP agreement
+Charles University,2024,10.1017/RDC.2024.71,TRUE,Cambridge University Press (CUP),Radiocarbon,CzechELib CUP agreement
+Charles University,2024,10.1017/aee.2024.35,TRUE,Cambridge University Press (CUP),Australian Journal of Environmental Education,CzechELib CUP agreement
+Charles University,2024,10.1017/nps.2024.85,TRUE,Cambridge University Press (CUP),Nationalities Papers,CzechELib CUP agreement
+Charles University,2024,10.1017/S0013091524000348,TRUE,Cambridge University Press (CUP),Proceedings of the Edinburgh Mathematical Society,CzechELib CUP agreement
+Charles University,2024,10.1017/jpr.2024.21,TRUE,Cambridge University Press (CUP),Journal of Applied Probability,CzechELib CUP agreement
+Charles University,2024,10.1017/S0954422424000210,TRUE,Cambridge University Press (CUP),Nutrition Research Reviews,CzechELib CUP agreement
+Charles University,2024,10.1192/j.eurpsy.2024.1752,TRUE,Cambridge University Press (CUP),European Psychiatry,CzechELib CUP agreement
+Charles University,2024,10.1017/RDC.2024.62,TRUE,Cambridge University Press (CUP),Radiocarbon,CzechELib CUP agreement
+Charles University,2024,10.1017/S136510052400018X,TRUE,Cambridge University Press (CUP),Macroeconomic Dynamics,CzechELib CUP agreement
+Charles University,2024,10.4153/S0008414X23000044,TRUE,Cambridge University Press (CUP),Canadian Journal of Mathematics,CzechELib CUP agreement
+Charles University,2024,10.1017/S0031182024000453,TRUE,Cambridge University Press (CUP),Parasitology,CzechELib CUP agreement
+Charles University,2024,10.1017/jsl.2023.44,TRUE,Cambridge University Press (CUP),Journal of Symbolic Logic,CzechELib CUP agreement
+Charles University,2024,10.1017/nps.2024.32,TRUE,Cambridge University Press (CUP),Nationalities Papers,CzechELib CUP agreement
+Charles University,2024,10.1017/S0013091524000191,TRUE,Cambridge University Press (CUP),Proceedings of the Edinburgh Mathematical Society,CzechELib CUP agreement
+Charles University,2024,10.1017/S0950268824000384,TRUE,Cambridge University Press (CUP),Epidemiology & Infection,CzechELib CUP agreement
+Charles University,2024,10.1017/S0031182024000210,TRUE,Cambridge University Press (CUP),Parasitology,CzechELib CUP agreement
+Charles University,2024,10.1017/S0009838824000065,TRUE,Cambridge University Press (CUP),Classical Quarterly,CzechELib CUP agreement
+Charles University,2024,10.1017/glj.2024.8,FALSE,Cambridge University Press (CUP),German Law Journal,CzechELib CUP agreement
+Charles University,2024,10.1017/jog.2024.16,TRUE,Cambridge University Press (CUP),Journal of Glaciology,CzechELib CUP agreement
+Charles University,2024,10.1017/S002193202400004X,TRUE,Cambridge University Press (CUP),Journal of Biosocial Science,CzechELib CUP agreement
+Charles University,2024,10.1017/S0022149X23001001,TRUE,Cambridge University Press (CUP),Journal of Helminthology,CzechELib CUP agreement
+Charles University,2024,10.1017/S1574019624000051,TRUE,Cambridge University Press (CUP),European Constitutional Law Review,CzechELib CUP agreement
+Charles University,2024,10.1017/nps.2024.6,TRUE,Cambridge University Press (CUP),Nationalities Papers,CzechELib CUP agreement
+Charles University,2024,10.1088/1367-2630/ad1fa9,FALSE,IOP Publishing,New Journal of Physics,CzechELib IOP agreement
+Charles University,2024,10.1088/1751-8121/ad28b8,TRUE,IOP Publishing,Journal of Physics A: Mathematical and Theoretical,CzechELib IOP agreement
+Charles University,2024,10.1088/1361-6382/ad3ffd,TRUE,IOP Publishing,Classical and Quantum Gravity,CzechELib IOP agreement
+Charles University,2024,10.1088/2053-1591/ad45be,FALSE,IOP Publishing,Materials Research Express,CzechELib IOP agreement
+Charles University,2024,10.1088/1751-8121/ad4752,TRUE,IOP Publishing,Journal of Physics A: Mathematical and Theoretical,CzechELib IOP agreement
+Charles University,2024,10.1088/1748-9326/ad677b,FALSE,IOP Publishing,Environmental Research Letters,CzechELib IOP agreement
+Charles University,2024,10.1088/1475-7516/2024/08/034,FALSE,IOP Publishing,Journal of Cosmology and Astroparticle Physics,CzechELib IOP agreement
+Charles University,2024,10.1088/1361-6382/ad8437,TRUE,IOP Publishing,Classical and Quantum Gravity,CzechELib IOP agreement
+Charles University,2024,10.1088/2050-6120/ad8abf,TRUE,IOP Publishing,Methods and Applications in Fluorescence,CzechELib IOP agreement
+Charles University,2024,10.1088/1361-6544/ad7cb5,TRUE,IOP Publishing,Nonlinearity,CzechELib IOP agreement
+Charles University,2024,NA,FALSE,IOP Publishing,Journal of Instrumentation,CzechELib IOP agreement
+Charles University,2024,10.1159/000541881,TRUE,S. Karger AG,Oncology,CzechELib Karger agreement
+Charles University,2024,10.1159/000542804,TRUE,S. Karger AG,Cytogenetic and Genome Research,CzechELib Karger agreement
+Charles University,2024,10.1159/000538021,TRUE,S. Karger AG,Oncology,CzechELib Karger agreement
+Charles University,2024,10.1159/000540660,FALSE,S. Karger AG,Case Reports in Oncology,CzechELib Karger agreement
+Charles University,2024,10.1159/000538906,TRUE,S. Karger AG,Sexual Development,CzechELib Karger agreement
+Charles University,2024,10.1159/000539575,TRUE,S. Karger AG,Hormone Research in Paediatrics,CzechELib Karger agreement
+Charles University,2024,10.1159/000540220,FALSE,S. Karger AG,Skin Appendage Disorders,CzechELib Karger agreement
+Charles University,2024,10.1159/000542220,TRUE,S. Karger AG,Neuropsychobiology,CzechELib Karger agreement
+Charles University,2024,10.1159/000543297,FALSE,S. Karger AG,Visceral Medicine,CzechELib Karger agreement
+Charles University,2024,10.1159/000538232,TRUE,S. Karger AG,Annals of Nutrition and Metabolism,CzechELib Karger agreement
+Charles University,2024,10.1159/000540395,TRUE,S. Karger AG,Oncology,CzechELib Karger agreement
+Charles University,2024,10.1159/000539105,FALSE,S. Karger AG,Skin Appendage Disorders,CzechELib Karger agreement
+Charles University,2024,10.1159/000540863,TRUE,S. Karger AG,Oncology,CzechELib Karger agreement
+Charles University,2024,10.1093/isr/viae009,TRUE,Oxford University Press (OUP),International Studies Review,CzechELib OUP agreement
+Charles University,2024,10.1093/toxsci/kfae008,TRUE,Oxford University Press (OUP),Toxicological Sciences,CzechELib OUP agreement
+Charles University,2024,10.1093/nar/gkae081,FALSE,Oxford University Press (OUP),Nucleic Acids Research,CzechELib OUP agreement
+Charles University,2024,10.1093/mnras/stae324,TRUE,Oxford University Press (OUP),Monthly Notices of the Royal Astronomical Society,CzechELib OUP agreement
+Charles University,2024,10.1093/mnras/stae358,TRUE,Oxford University Press (OUP),Monthly Notices of the Royal Astronomical Society,CzechELib OUP agreement
+Charles University,2024,10.1093/lambio/ovae013,TRUE,Oxford University Press (OUP),Letters in Applied Microbiology,CzechELib OUP agreement
+Charles University,2024,10.1093/gbe/evae028,FALSE,Oxford University Press (OUP),Genome Biology and Evolution,CzechELib OUP agreement
+Charles University,2024,10.1093/jeb/voae023,TRUE,Oxford University Press (OUP),Journal of Evolutionary Biology,CzechELib OUP agreement
+Charles University,2024,10.1093/jxb/erae078,TRUE,Oxford University Press (OUP),Journal Of Experimental Botany,CzechELib OUP agreement
+Charles University,2024,10.1093/oncolo/oyae031,TRUE,Oxford University Press (OUP),The Oncologist,CzechELib OUP agreement
+Charles University,2024,10.1093/mutage/geae006,TRUE,Oxford University Press (OUP),Mutagenesis,CzechELib OUP agreement
+Charles University,2024,10.1093/ejendo/lvae015,TRUE,Oxford University Press (OUP),European Journal of Endocrinology,CzechELib OUP agreement
+Charles University,2024,10.1093/imanum/drae013,TRUE,Oxford University Press (OUP),Ima Journal Of Numerical Analysis,CzechELib OUP agreement
+Charles University,2024,10.1093/imrn/rnae056,TRUE,Oxford University Press (OUP),International Mathematics Research Notices,CzechELib OUP agreement
+Charles University,2024,10.1093/arclin/acae028,TRUE,Oxford University Press (OUP),Archives of Clinical Neuropsychology,CzechELib OUP agreement
+Charles University,2024,10.1093/heapro/daae034,TRUE,Oxford University Press (OUP),Health Promotion International,CzechELib OUP agreement
+Charles University,2024,10.1093/geronb/gbae056,TRUE,Oxford University Press (OUP),Journals of Gerontology Series B: Psychological Sciences and Social Sciences,CzechELib OUP agreement
+Charles University,2024,10.1093/ageing/afae078,TRUE,Oxford University Press (OUP),Age And Ageing,CzechELib OUP agreement
+Charles University,2024,10.1093/jac/dkae119,TRUE,Oxford University Press (OUP),Journal of Antimicrobial Chemotherapy,CzechELib OUP agreement
+Charles University,2024,10.1093/reseval/rvae016,TRUE,Oxford University Press (OUP),Research Evaluation,CzechELib OUP agreement
+Charles University,2024,10.1093/jxb/erae147,TRUE,Oxford University Press (OUP),Journal Of Experimental Botany,CzechELib OUP agreement
+Charles University,2024,10.1093/femsec/fiae075,TRUE,Oxford University Press (OUP),FEMS Microbiology Ecology,CzechELib OUP agreement
+Charles University,2024,10.1093/mnras/stae1276,TRUE,Oxford University Press (OUP),Monthly Notices of the Royal Astronomical Society,CzechELib OUP agreement
+Charles University,2024,10.1093/mnras/stae1379,TRUE,Oxford University Press (OUP),Monthly Notices of the Royal Astronomical Society,CzechELib OUP agreement
+Charles University,2024,10.1093/mnras/stae1548,TRUE,Oxford University Press (OUP),Monthly Notices of the Royal Astronomical Society,CzechELib OUP agreement
+Charles University,2024,10.1093/mnras/stae1599,TRUE,Oxford University Press (OUP),Monthly Notices of the Royal Astronomical Society,CzechELib OUP agreement
+Charles University,2024,10.1093/zoolinnean/zlae084,TRUE,Oxford University Press (OUP),Zoological Journal of the Linnean Society,CzechELib OUP agreement
+Charles University,2024,10.1093/monist/onae022,TRUE,Oxford University Press (OUP),The Monist,CzechELib OUP agreement
+Charles University,2024,10.1093/jaenfo/jnae014,TRUE,Oxford University Press (OUP),Journal of Antitrust Enforcement,CzechELib OUP agreement
+Charles University,2024,10.1093/jeb/voae060,TRUE,Oxford University Press (OUP),Journal of Evolutionary Biology,CzechELib OUP agreement
+Charles University,2024,10.1093/migration/mnae032,TRUE,Oxford University Press (OUP),Migration Studies,CzechELib OUP agreement
+Charles University,2024,10.1093/pcp/pcae090,TRUE,Oxford University Press (OUP),Plant And Cell Physiology,CzechELib OUP agreement
+Charles University,2024,10.1093/ismejo/wrae164,TRUE,Oxford University Press (OUP),The ISME Journal,CzechELib OUP agreement
+Charles University,2024,10.1093/jac/dkae303,TRUE,Oxford University Press (OUP),Journal of Antimicrobial Chemotherapy,CzechELib OUP agreement
+Charles University,2024,10.1093/ia/iiae228,TRUE,Oxford University Press (OUP),International Affairs,CzechELib OUP agreement
+Charles University,2024,10.1093/nar/gkae823,FALSE,Oxford University Press (OUP),Nucleic Acids Research,CzechELib OUP agreement
+Charles University,2024,10.1093/ismejo/wrae178,TRUE,Oxford University Press (OUP),The ISME Journal,CzechELib OUP agreement
+Charles University,2024,10.1093/database/baae107,FALSE,Oxford University Press (OUP),Database,CzechELib OUP agreement
+Charles University,2024,10.1093/pa/gsae036,TRUE,Oxford University Press (OUP),Parliamentary Affairs,CzechELib OUP agreement
+Charles University,2024,10.1093/zoolinnean/zlae137,TRUE,Oxford University Press (OUP),Zoological Journal of the Linnean Society,CzechELib OUP agreement
+Charles University,2024,10.1093/evolut/qpae162,TRUE,Oxford University Press (OUP),Evolution,CzechELib OUP agreement
+Charles University,2024,10.1093/beheco/arae092,TRUE,Oxford University Press (OUP),Behavioral Ecology,CzechELib OUP agreement
+Charles University,2024,10.1093/bioinformatics/btae745,TRUE,Oxford University Press (OUP),Bioinformatics,CzechELib OUP agreement
+Charles University,2024,10.1093/biolinnean/blae125,TRUE,Oxford University Press (OUP),Biological Journal of the Linnean Society,CzechELib OUP agreement
+Charles University,2024,10.1039/D3DT03839D,TRUE,Royal Society of Chemistry (RSC),Dalton Transactions,CzechELib RSC agreement
+Charles University,2024,10.1039/D3MA01076G,FALSE,Royal Society of Chemistry (RSC),Materials Advances,CzechELib RSC agreement
+Charles University,2024,10.1039/D3CC05878F,TRUE,Royal Society of Chemistry (RSC),ChemComm,CzechELib RSC agreement
+Charles University,2024,10.1039/D4NJ00349G,TRUE,Royal Society of Chemistry (RSC),New Journal of Chemistry,CzechELib RSC agreement
+Charles University,2024,10.1039/D3MA01164J,FALSE,Royal Society of Chemistry (RSC),Materials Advances,CzechELib RSC agreement
+Charles University,2024,10.1039/D3NR06281C,TRUE,Royal Society of Chemistry (RSC),Nanoscale,CzechELib RSC agreement
+Charles University,2024,10.1039/D4TC00132J,TRUE,Royal Society of Chemistry (RSC),Journal of Materials Chemistry C,CzechELib RSC agreement
+Charles University,2024,10.1039/D4MD00060A,FALSE,Royal Society of Chemistry (RSC),RSC Medicinal Chemistry,CzechELib RSC agreement
+Charles University,2024,10.1039/D4DT00507D,TRUE,Royal Society of Chemistry (RSC),Dalton Transactions,CzechELib RSC agreement
+Charles University,2024,10.1039/D4NR00017J,TRUE,Royal Society of Chemistry (RSC),Nanoscale,CzechELib RSC agreement
+Charles University,2024,10.1039/D4DT00961D,TRUE,Royal Society of Chemistry (RSC),Dalton Transactions,CzechELib RSC agreement
+Charles University,2024,10.1039/D4AN00336E,TRUE,Royal Society of Chemistry (RSC),Analyst,CzechELib RSC agreement
+Charles University,2024,10.1039/D4FD00100A,TRUE,Royal Society of Chemistry (RSC),Faraday Discussions,CzechELib RSC agreement
+Charles University,2024,10.1039/D4DT01433B,TRUE,Royal Society of Chemistry (RSC),Dalton Transactions,CzechELib RSC agreement
+Charles University,2024,10.1039/D4NJ02010C,TRUE,Royal Society of Chemistry (RSC),New Journal of Chemistry,CzechELib RSC agreement
+Charles University,2024,10.1039/D4DT01305K,TRUE,Royal Society of Chemistry (RSC),Dalton Transactions,CzechELib RSC agreement
+Charles University,2024,10.1039/D4MD00311J,FALSE,Royal Society of Chemistry (RSC),RSC Medicinal Chemistry,CzechELib RSC agreement
+Charles University,2024,10.1039/D4QO01291G,FALSE,Royal Society of Chemistry (RSC),Organic Chemistry Frontiers,CzechELib RSC agreement
+Charles University,2024,10.1039/D4CY00763H,TRUE,Royal Society of Chemistry (RSC),Catalysis Science & Technology,CzechELib RSC agreement
+Charles University,2024,10.1039/D4MD00343H,FALSE,Royal Society of Chemistry (RSC),RSC Medicinal Chemistry,CzechELib RSC agreement
+Charles University,2024,10.1039/D3FO04672A,TRUE,Royal Society of Chemistry (RSC),Food & Function,CzechELib RSC agreement
+Charles University,2024,10.1039/D4CP01911C,TRUE,Royal Society of Chemistry (RSC),Physical Chemistry Chemical Physics,CzechELib RSC agreement
+Charles University,2024,10.1039/D4DT02383H,TRUE,Royal Society of Chemistry (RSC),Dalton Transactions,CzechELib RSC agreement
+Charles University,2024,10.1039/D4OB01529K,TRUE,Royal Society of Chemistry (RSC),Organic & Biomolecular Chemistry,CzechELib RSC agreement
+Charles University,2024,10.1039/D4MD00663A,FALSE,Royal Society of Chemistry (RSC),RSC Medicinal Chemistry,CzechELib RSC agreement
+Charles University,2024,10.1039/D4TA05539J,TRUE,Royal Society of Chemistry (RSC),Journal of Materials Chemistry A,CzechELib RSC agreement
+Charles University,2024,10.1039/D4OB01473A,TRUE,Royal Society of Chemistry (RSC),Organic & Biomolecular Chemistry,CzechELib RSC agreement
+Charles University,2024,10.1039/D4SM00851K,TRUE,Royal Society of Chemistry (RSC),Soft Matter,CzechELib RSC agreement
+Charles University,2024,10.1039/D4DT03063J,TRUE,Royal Society of Chemistry (RSC),Dalton Transactions,CzechELib RSC agreement
+Charles University,2024,10.1039/D4DD00306C,FALSE,Royal Society of Chemistry (RSC),Digital Discovery,CzechELib RSC agreement
+Charles University,2024,10.1039/D4QI02834A,FALSE,Royal Society of Chemistry (RSC),Inorganic Chemistry Frontiers,CzechELib RSC agreement
+Charles University,2024,10.1177/21674795241235085,TRUE,SAGE Publications,Communication and Sport,CzechELib SAGE agreement
+Charles University,2024,10.1177/13634607241242605,TRUE,SAGE Publications,Sexualities,CzechELib SAGE agreement
+Charles University,2024,10.1177/02653788241244541,TRUE,SAGE Publications,Transformation,CzechELib SAGE agreement
+Charles University,2024,10.1177/14789299241254204,TRUE,SAGE Publications,Political Studies Review,CzechELib SAGE agreement
+Charles University,2024,10.1177/00111287241259473,TRUE,SAGE Publications,Crime & Delinquency,CzechELib SAGE agreement
+Charles University,2024,10.1177/02653788241271824,TRUE,SAGE Publications,Transformation,CzechELib SAGE agreement
+Charles University,2024,10.1177/14779714241279356,TRUE,SAGE Publications,Journal of Adult and Continuing Education,CzechELib SAGE agreement
+Charles University,2024,10.1177/14749041241304151,TRUE,SAGE Publications,European Educational Research Journal,CzechELib SAGE agreement
+Charles University,2024,10.1177/1357034X241311811,TRUE,SAGE Publications,Body & Society,CzechELib SAGE agreement
+Charles University,2024,10.1007/s42991-023-00388-x,TRUE,Springer Nature,Mammalian Biology,CzechELib Springer Nature agreement
+Charles University,2024,10.1140/epjp/s13360-023-04809-1,TRUE,Springer Nature,The European Physical Journal Plus,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00428-023-03731-2,TRUE,Springer Nature,Virchows Archiv,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10508-023-02802-4,TRUE,Springer Nature,Archives of Sexual Behavior,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00701-024-05936-z,TRUE,Springer Nature,Acta Neurochirurgica,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s40626-023-00305-0,TRUE,Springer Nature,Theoretical and Experimental Plant Physiology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11523-023-01031-y,TRUE,Springer Nature,Targeted Oncology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11869-024-01516-3,TRUE,Springer Nature,"Air Quality, Atmosphere & Health",CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11525-024-09422-1,TRUE,Springer Nature,Morphology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11634-024-00579-5,TRUE,Springer Nature,Advances in Data Analysis and Classification,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00216-024-05187-y,TRUE,Springer Nature,Analytical and Bioanalytical Chemistry,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00161-024-01281-9,TRUE,Springer Nature,Continuum Mechanics and Thermodynamics,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00148-024-01010-1,TRUE,Springer Nature,Journal of Population Economics,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00702-024-02758-2,TRUE,Springer Nature,Journal of Neural Transmission,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00415-024-12223-5,TRUE,Springer Nature,Journal of Neurology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10508-024-02827-3,TRUE,Springer Nature,Archives of Sexual Behavior,CzechELib Springer Nature agreement
+Charles University,2024,10.1038/s41390-024-03120-8,TRUE,Springer Nature,Pediatric Research,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10686-024-09933-z,TRUE,Springer Nature,Experimental Astronomy,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00428-024-03775-y,TRUE,Springer Nature,Virchows Archiv,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00264-024-06157-w,TRUE,Springer Nature,International Orthopaedics,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11101-024-09931-1,TRUE,Springer Nature,Phytochemistry Reviews,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00453-024-01216-5,TRUE,Springer Nature,Algorithmica,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s42979-024-02721-8,FALSE,Springer Nature,SN Computer Science,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00442-024-05538-7,TRUE,Springer Nature,Oecologia,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10143-024-02410-3,TRUE,Springer Nature,Neurosurgical Review,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00484-024-02682-w,TRUE,Springer Nature,International Journal of Biometeorology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s12304-024-09562-1,TRUE,Springer Nature,Biosemiotics,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00421-024-05490-7,TRUE,Springer Nature,European Journal of Applied Physiology,CzechELib Springer Nature agreement
+Charles University,2024,10.1038/s41390-024-03192-6,TRUE,Springer Nature,Pediatric Research,CzechELib Springer Nature agreement
+Charles University,2024,10.1140/epjp/s13360-024-05175-2,TRUE,Springer Nature,The European Physical Journal Plus,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11558-024-09551-6,TRUE,Springer Nature,The Review of International Organizations,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11523-024-01065-w,TRUE,Springer Nature,Targeted Oncology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s12520-024-01994-7,TRUE,Springer Nature,Archaeological and Anthropological Sciences,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00606-024-01904-3,TRUE,Springer Nature,Plant Systematics and Evolution,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s12220-024-01673-y,TRUE,Springer Nature,The Journal of Geometric Analysis,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10508-024-02892-8,TRUE,Springer Nature,Archives of Sexual Behavior,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s40879-024-00749-x,TRUE,Springer Nature,European Journal of Mathematics,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00418-024-02295-9,TRUE,Springer Nature,Histochemistry and Cell Biology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s40803-024-00232-5,TRUE,Springer Nature,Hague Journal on the Rule of Law,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00701-024-06121-y,TRUE,Springer Nature,Acta Neurochirurgica,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10336-024-02187-8,TRUE,Springer Nature,Journal of Ornithology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00405-024-08757-z,TRUE,Springer Nature,European Archives of Oto-Rhino- Laryngology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00467-024-06425-2,TRUE,Springer Nature,Pediatric Nephrology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11069-024-06679-x,TRUE,Springer Nature,Natural Hazards,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00209-024-03519-3,TRUE,Springer Nature,Mathematische Zeitschrift,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10508-024-02918-1,TRUE,Springer Nature,Archives of Sexual Behavior,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10071-024-01883-5,TRUE,Springer Nature,Animal Cognition,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11841-024-01030-0,TRUE,Springer Nature,Sophia,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00531-024-02438-2,TRUE,Springer Nature,International Journal of Earth Sciences,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10973-024-13380-5,TRUE,Springer Nature,Journal of Thermal Analysis and Calorimetry,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00604-024-06512-z,TRUE,Springer Nature,Microchimica Acta,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10479-024-06082-6,TRUE,Springer Nature,Annals of Operations Research,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10508-024-02933-2,TRUE,Springer Nature,Archives of Sexual Behavior,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11139-024-00849-y,TRUE,Springer Nature,The Ramanujan Journal,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s12304-024-09584-9,TRUE,Springer Nature,Biosemiotics,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00431-024-05683-4,TRUE,Springer Nature,European Journal of Pediatrics,CzechELib Springer Nature agreement
+Charles University,2024,10.1038/s41393-024-01016-2,TRUE,Springer Nature,Spinal Cord,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11229-024-04702-z,TRUE,Springer Nature,Synthese,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s40753-024-00250-6,TRUE,Springer Nature,International Journal of Research in Undergraduate Mathematics Education,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00701-024-06216-6,TRUE,Springer Nature,Acta Neurochirurgica,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00146-024-02040-9,TRUE,Springer Nature,AI & SOCIETY,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10838-024-09692-7,TRUE,Springer Nature,Journal for General Philosophy of Science,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10508-024-02917-2,TRUE,Springer Nature,Archives of Sexual Behavior,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00405-024-08891-8,TRUE,Springer Nature,European Archives of Oto-Rhino- Laryngology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10915-024-02650-x,TRUE,Springer Nature,Journal of Scientific Computing,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11142-024-09853-5,TRUE,Springer Nature,Review of Accounting Studies,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10875-024-01787-6,TRUE,Springer Nature,Journal of Clinical Immunology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s12665-024-11804-x,TRUE,Springer Nature,Environmental Earth Sciences,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10660-024-09892-9,TRUE,Springer Nature,Electronic Commerce Research,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00453-024-01263-y,TRUE,Springer Nature,Algorithmica,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s12325-024-02952-4,TRUE,Springer Nature,Advances in Therapy,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00204-024-03841-z,TRUE,Springer Nature,Archives of Toxicology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00109-024-02482-0,TRUE,Springer Nature,Journal of Molecular Medicine,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11101-024-09978-0,TRUE,Springer Nature,Phytochemistry Reviews,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00428-024-03905-6,TRUE,Springer Nature,Virchows Archiv,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s13127-024-00654-x,TRUE,Springer Nature,Organisms Diversity & Evolution,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00428-024-03925-2,TRUE,Springer Nature,Virchows Archiv,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10508-024-03010-4,TRUE,Springer Nature,Archives of Sexual Behavior,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11523-024-01099-0,TRUE,Springer Nature,Targeted Oncology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s40258-024-00917-w,TRUE,Springer Nature,Applied Health Economics and Health Policy,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00209-024-03598-2,TRUE,Springer Nature,Mathematische Zeitschrift,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11661-024-07595-2,TRUE,Springer Nature,Metallurgical and Materials Transactions A,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00277-024-06025-y,TRUE,Springer Nature,Annals of Hematology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00428-024-03936-z,TRUE,Springer Nature,Virchows Archiv,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00775-024-02078-6,TRUE,Springer Nature,JBIC Journal of Biological Inorganic Chemistry,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00467-024-06554-8,TRUE,Springer Nature,Pediatric Nephrology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10571-024-01503-3,TRUE,Springer Nature,Cellular and Molecular Neurobiology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00204-024-03889-x,TRUE,Springer Nature,Archives of Toxicology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00209-024-03617-2,TRUE,Springer Nature,Mathematische Zeitschrift,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10485-024-09791-y,TRUE,Springer Nature,Applied Categorical Structures,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00066-024-02316-5,TRUE,Springer Nature,Strahlentherapie und Onkologie,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s40993-024-00577-8,TRUE,Springer Nature,Research in Number Theory,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10915-024-02721-z,TRUE,Springer Nature,Journal of Scientific Computing,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10822-024-00577-x,TRUE,Springer Nature,Journal of Computer-Aided Molecular Design,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00467-024-06590-4,TRUE,Springer Nature,Pediatric Nephrology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00710-024-00878-x,TRUE,Springer Nature,Mineralogy and Petrology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s10468-024-10296-4,TRUE,Springer Nature,Algebras and Representation Theory,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00428-024-03970-x,TRUE,Springer Nature,Virchows Archiv,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00701-024-06333-2,TRUE,Springer Nature,Acta Neurochirurgica,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11914-024-00896-w,TRUE,Springer Nature,Current Osteoporosis Reports,CzechELib Springer Nature agreement
+Charles University,2024,10.1057/s41299-024-00205-2,TRUE,Springer Nature,Corporate Reputation Review,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00114-024-01952-2,TRUE,Springer Nature,The Science of Nature,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00701-024-06364-9,TRUE,Springer Nature,Acta Neurochirurgica,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00428-024-03984-5,TRUE,Springer Nature,Virchows Archiv,CzechELib Springer Nature agreement
+Charles University,2024,10.1038/s41431-024-01752-2,TRUE,Springer Nature,European Journal of Human Genetics,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11007-024-09665-z,TRUE,Springer Nature,Continental Philosophy Review,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00208-024-03052-y,TRUE,Springer Nature,Mathematische Annalen,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00428-024-03994-3,TRUE,Springer Nature,Virchows Archiv,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s12035-024-04650-2,TRUE,Springer Nature,Molecular Neurobiology,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s11139-024-01005-2,TRUE,Springer Nature,The Ramanujan Journal,CzechELib Springer Nature agreement
+Charles University,2024,10.1007/s00415-024-12828-w,TRUE,Springer Nature,Journal of Neurology,CzechELib Springer Nature agreement
+Charles University,2024,10.1080/13527258.2024.2443923,TRUE,Taylor & Francis,International Journal of Heritage Studies,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10618600.2024.2444302,TRUE,Taylor & Francis,Journal of Computational and Graphical Statistics,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/17450101.2024.2417935,TRUE,Taylor & Francis,Mobilities,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/0907676X.2024.2414258,TRUE,Taylor & Francis,Perspectives,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/07036337.2024.2411238,TRUE,Taylor & Francis,Journal of European Integration,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/03098265.2024.2410759,TRUE,Taylor & Francis,Journal of Geography in Higher Education,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/21567689.2024.2401780,TRUE,Taylor & Francis,"Politics, Religion & Ideology",CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/09528822.2024.2393947,TRUE,Taylor & Francis,Third Text,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/13572334.2024.2378551,TRUE,Taylor & Francis,The Journal of Legislative Studies,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/13183222.2024.2393055,TRUE,Taylor & Francis,Javnost - The Public,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/09636412.2024.2391757,TRUE,Taylor & Francis,Security Studies,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/0907676X.2024.2386447,TRUE,Taylor & Francis,Perspectives,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/03344355.2024.2385144,TRUE,Taylor & Francis,Tel Aviv,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/02634937.2024.2382161,TRUE,Taylor & Francis,Central Asian Survey,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/1060586X.2024.2382646,TRUE,Taylor & Francis,Post-Soviet Affairs,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/01431161.2024.2383381,TRUE,Taylor & Francis,International Journal of Remote Sensing,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10758216.2024.2380329,TRUE,Taylor & Francis,Problems of Post-Communism,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/17511321.2024.2379379,TRUE,Taylor & Francis,"Sport, Ethics and Philosophy",CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/00207659.2024.2376985,TRUE,Taylor & Francis,International Journal of Sociology,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/13530194.2024.2373066,TRUE,Taylor & Francis,British Journal of Middle Eastern Studies,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10382046.2024.2377030,TRUE,Taylor & Francis,International Research in Geographical and Environmental Education,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/1351847X.2024.2375221,TRUE,Taylor & Francis,The European Journal of Finance,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/09500693.2024.2364956,TRUE,Taylor & Francis,International Journal of Science Education,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10758216.2024.2374706,TRUE,Taylor & Francis,Problems of Post-Communism,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10489223.2024.2366804,TRUE,Taylor & Francis,Language Acquisition,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/13688804.2024.2366186,TRUE,Taylor & Francis,Media History,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10382046.2024.2354097,TRUE,Taylor & Francis,International Research in Geographical and Environmental Education,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/02673037.2024.2351893,TRUE,Taylor & Francis,Housing Studies,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/15583058.2024.2341048,TRUE,Taylor & Francis,International Journal of Architectural Heritage,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/00318884.2024.2325329,TRUE,Taylor & Francis,Phycologia,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/15548627.2024.2340408,TRUE,Taylor & Francis,Autophagy,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/07420528.2024.2337007,TRUE,Taylor & Francis,Chronobiology International,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/23254823.2024.2338132,TRUE,Taylor & Francis,European Journal of Cultural and Political Sociology,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10510974.2024.2335592,TRUE,Taylor & Francis,Communication Studies,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10556788.2024.2329590,TRUE,Taylor & Francis,Optimization Methods and Software,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/09500782.2024.2324946,TRUE,Taylor & Francis,Language and Education,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/19436149.2024.2309447,TRUE,Taylor & Francis,Middle East Critique,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/05704928.2024.2314534,TRUE,Taylor & Francis,Applied Spectroscopy Reviews,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/10408347.2024.2312502,TRUE,Taylor & Francis,Critical Reviews in Analytical Chemistry,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/14740338.2023.2295980,TRUE,Taylor & Francis,Expert Opinion on Drug Safety,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/14614103.2024.2307153,TRUE,Taylor & Francis,Environmental Archaeology,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1080/09546553.2023.2296514,TRUE,Taylor & Francis,Terrorism and Political Violence,CzechELib Taylor & Francis agreement
+Charles University,2024,10.1002/jimd.12844,TRUE,Wiley-Blackwell,Journal of Inherited Metabolic Disease,CzechELib Wiley agreement
+Charles University,2024,10.1002/ardp.202400423,TRUE,Wiley-Blackwell,Archiv der Pharmazie,CzechELib Wiley agreement
+Charles University,2024,10.1111/zsc.12716,TRUE,Wiley-Blackwell,Zoologica Scripta,CzechELib Wiley agreement
+Charles University,2024,10.1111/pce.15357,TRUE,Wiley-Blackwell,"Plant, Cell & Environment",CzechELib Wiley agreement
+Charles University,2024,10.1111/epi.18237,TRUE,Wiley-Blackwell,Epilepsia,CzechELib Wiley agreement
+Charles University,2024,10.1111/his.15369,TRUE,Wiley-Blackwell,Histopathology,CzechELib Wiley agreement
+Charles University,2024,10.1002/ijgo.16109,TRUE,Wiley-Blackwell,International Journal of Gynecology & Obstetrics,CzechELib Wiley agreement
+Charles University,2024,10.1002/tcr.202200284,TRUE,Wiley-Blackwell,The Chemical Record,CzechELib Wiley agreement
+Charles University,2024,10.1111/his.15121,TRUE,Wiley-Blackwell,Histopathology,CzechELib Wiley agreement
+Charles University,2024,10.1002/elan.202300376,TRUE,Wiley-Blackwell,Electroanalysis,CzechELib Wiley agreement
+Charles University,2024,10.1002/etc.5841,TRUE,Wiley-Blackwell,Environmental Toxicology and Chemistry,CzechELib Wiley agreement
+Charles University,2024,10.1111/jeu.13034,TRUE,Wiley-Blackwell,The Journal of Eukaryotic Microbiology,CzechELib Wiley agreement
+Charles University,2024,10.1111/1755-0998.13894,TRUE,Wiley-Blackwell,Molecular Ecology Resources,CzechELib Wiley agreement
+Charles University,2024,10.1002/ppap.202300070,TRUE,Wiley-Blackwell,Plasma Processes and Polymers,CzechELib Wiley agreement
+Charles University,2024,10.1002/asna.20240017,TRUE,Wiley-Blackwell,Astronomische Nachrichten,CzechELib Wiley agreement
+Charles University,2024,10.1111/cbdd.70030,TRUE,Wiley-Blackwell,Chemical Biology & Drug Design,CzechELib Wiley agreement
+Charles University,2024,10.1111/his.15396,TRUE,Wiley-Blackwell,Histopathology,CzechELib Wiley agreement
+Charles University,2024,10.1002/fuce.202400095,TRUE,Wiley-Blackwell,Fuel Cells,CzechELib Wiley agreement
+Charles University,2024,10.1002/anie.202416106,TRUE,Wiley-Blackwell,Angewandte Chemie International Edition,CzechELib Wiley agreement
+Charles University,2024,10.1002/ijfe.3073,TRUE,Wiley-Blackwell,International Journal of Finance & Economics,CzechELib Wiley agreement
+Charles University,2024,10.1029/2024JA033195,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Space Physics,CzechELib Wiley agreement
+Charles University,2024,10.1029/2024JD041902,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Atmospheres,CzechELib Wiley agreement
+Charles University,2024,10.1111/apa.17519,TRUE,Wiley-Blackwell,Acta Paediatrica,CzechELib Wiley agreement
+Charles University,2024,10.1002/ppul.27417,TRUE,Wiley-Blackwell,Pediatric Pulmonology,CzechELib Wiley agreement
+Charles University,2024,10.1111/1467-8462.12583,TRUE,Wiley-Blackwell,The Australian Economic Review,CzechELib Wiley agreement
+Charles University,2024,10.1002/mabi.202400411,TRUE,Wiley-Blackwell,Macromolecular Bioscience,CzechELib Wiley agreement
+Charles University,2024,10.1112/plms.70010,TRUE,Wiley-Blackwell,Proceedings of the London Mathematical Society,CzechELib Wiley agreement
+Charles University,2024,10.1002/gcc.70011,TRUE,Wiley-Blackwell,"Genes, Chromosomes and Cancer",CzechELib Wiley agreement
+Charles University,2024,10.1111/jce.16507,TRUE,Wiley-Blackwell,Journal of Cardiovascular Electrophysiology,CzechELib Wiley agreement
+Charles University,2024,10.1002/aenm.202403738,FALSE,Wiley-Blackwell,Advanced Energy Materials,CzechELib Wiley agreement
+Charles University,2024,10.1029/2024JA033181,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Space Physics,CzechELib Wiley agreement
+Charles University,2024,10.1002/jimd.12814,TRUE,Wiley-Blackwell,Journal of Inherited Metabolic Disease,CzechELib Wiley agreement
+Charles University,2024,10.1111/epi.18185,TRUE,Wiley-Blackwell,Epilepsia,CzechELib Wiley agreement
+Charles University,2024,10.1002/mana.202300480,TRUE,Wiley-Blackwell,Mathematische Nachrichten,CzechELib Wiley agreement
+Charles University,2024,10.1002/mdc3.14269,TRUE,Wiley-Blackwell,Movement Disorders Clinical Practice,CzechELib Wiley agreement
+Charles University,2024,10.1111/bjh.19888,TRUE,Wiley-Blackwell,British Journal of Haematology,CzechELib Wiley agreement
+Charles University,2024,10.1112/jlms.70022,TRUE,Wiley-Blackwell,Journal of the London Mathematical Society,CzechELib Wiley agreement
+Charles University,2024,10.1002/ijc.35252,TRUE,Wiley-Blackwell,International Journal of Cancer,CzechELib Wiley agreement
+Charles University,2024,10.1002/jmv.70038,TRUE,Wiley-Blackwell,Journal of Medical Virology,CzechELib Wiley agreement
+Charles University,2024,10.1029/2023JA032033,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Space Physics,CzechELib Wiley agreement
+Charles University,2024,10.1002/pol.20240639,TRUE,Wiley-Blackwell,Journal of Polymer Science,CzechELib Wiley agreement
+Charles University,2024,10.1111/dar.13970,TRUE,Wiley-Blackwell,Drug and Alcohol Review,CzechELib Wiley agreement
+Charles University,2024,10.1002/adma.202410282,TRUE,Wiley-Blackwell,Advanced Materials,CzechELib Wiley agreement
+Charles University,2024,10.1002/ajpa.25036,TRUE,Wiley-Blackwell,American Journal of Biological Anthropology,CzechELib Wiley agreement
+Charles University,2024,10.1112/blms.13172,TRUE,Wiley-Blackwell,Bulletin of the London Mathematical Society,CzechELib Wiley agreement
+Charles University,2024,10.1111/jce.16468,TRUE,Wiley-Blackwell,Journal of Cardiovascular Electrophysiology,CzechELib Wiley agreement
+Charles University,2024,10.1111/mec.17559,TRUE,Wiley-Blackwell,Molecular Ecology,CzechELib Wiley agreement
+Charles University,2024,10.1002/pbc.31394,TRUE,Wiley-Blackwell,Pediatric Blood & Cancer,CzechELib Wiley agreement
+Charles University,2024,10.1002/pamm.202400049,TRUE,Wiley-Blackwell,Proceedings in Applied Mathematics and Mechanics,CzechELib Wiley agreement
+Charles University,2024,10.1111/jep.14196,TRUE,Wiley-Blackwell,Journal of Evaluation in Clinical Practice,CzechELib Wiley agreement
+Charles University,2024,10.1112/jlms.70000,TRUE,Wiley-Blackwell,Journal of the London Mathematical Society,CzechELib Wiley agreement
+Charles University,2024,10.1111/jbi.15028,TRUE,Wiley-Blackwell,Journal of Biogeography,CzechELib Wiley agreement
+Charles University,2024,10.1111/mam.12380,TRUE,Wiley-Blackwell,Mammal Review,CzechELib Wiley agreement
+Charles University,2024,10.1111/ejn.16444,TRUE,Wiley-Blackwell,European Journal of Neuroscience,CzechELib Wiley agreement
+Charles University,2024,10.1111/theo.12573,TRUE,Wiley-Blackwell,Theoria,CzechELib Wiley agreement
+Charles University,2024,10.1111/stan.12349,TRUE,Wiley-Blackwell,Statistica Neerlandica,CzechELib Wiley agreement
+Charles University,2024,10.1002/jssc.202400252,TRUE,Wiley-Blackwell,Journal of Separation Science,CzechELib Wiley agreement
+Charles University,2024,10.1111/cfs.13168,TRUE,Wiley-Blackwell,Child & Family Social Work,CzechELib Wiley agreement
+Charles University,2024,10.1002/jssc.202400181,TRUE,Wiley-Blackwell,Journal of Separation Science,CzechELib Wiley agreement
+Charles University,2024,10.1111/1462-2920.16706,TRUE,Wiley-Blackwell,Environmental Microbiology,CzechELib Wiley agreement
+Charles University,2024,10.1002/pros.24801,TRUE,Wiley-Blackwell,The Prostate,CzechELib Wiley agreement
+Charles University,2024,10.1002/adsc.202401111,TRUE,Wiley-Blackwell,Advanced Synthesis & Catalysis,CzechELib Wiley agreement
+Charles University,2024,10.1111/pai.14247,TRUE,Wiley-Blackwell,Pediatric Allergy and Immunology,CzechELib Wiley agreement
+Charles University,2024,10.1029/2024JA032802,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Space Physics,CzechELib Wiley agreement
+Charles University,2024,10.1002/mana.202400253,TRUE,Wiley-Blackwell,Mathematische Nachrichten,CzechELib Wiley agreement
+Charles University,2024,10.1111/febs.17275,TRUE,Wiley-Blackwell,The FEBS Journal,CzechELib Wiley agreement
+Charles University,2024,10.1002/ppul.27265,TRUE,Wiley-Blackwell,Pediatric Pulmonology,CzechELib Wiley agreement
+Charles University,2024,10.1002/eji.202451004,TRUE,Wiley-Blackwell,European Journal of Immunology,CzechELib Wiley agreement
+Charles University,2024,10.1002/esp.5987,TRUE,Wiley-Blackwell,Earth Surface Processes and Landforms,CzechELib Wiley agreement
+Charles University,2024,10.1111/ejn.16521,TRUE,Wiley-Blackwell,European Journal of Neuroscience,CzechELib Wiley agreement
+Charles University,2024,10.1111/tesg.12652,TRUE,Wiley-Blackwell,Tijdschrift voor Economische en Sociale Geografie,CzechELib Wiley agreement
+Charles University,2024,10.1111/aje.13315,TRUE,Wiley-Blackwell,African Journal of Ecology,CzechELib Wiley agreement
+Charles University,2024,10.1002/jhbp.12067,TRUE,Wiley-Blackwell,Journal of Hepato-Biliary- Pancreatic Sciences,CzechELib Wiley agreement
+Charles University,2024,10.1029/2024JA032713,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Space Physics,CzechELib Wiley agreement
+Charles University,2024,10.1111/lamp.12354,TRUE,Wiley-Blackwell,Latin American Policy,CzechELib Wiley agreement
+Charles University,2024,10.1111/ede.12490,TRUE,Wiley-Blackwell,Evolution & Development,CzechELib Wiley agreement
+Charles University,2024,10.1111/nph.20031,TRUE,Wiley-Blackwell,New Phytologist,CzechELib Wiley agreement
+Charles University,2024,10.1029/2023JB027566,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Solid Earth,CzechELib Wiley agreement
+Charles University,2024,10.1111/eje.13026,TRUE,Wiley-Blackwell,European Journal of Dental Education,CzechELib Wiley agreement
+Charles University,2024,10.1002/ajpa.25002,TRUE,Wiley-Blackwell,American Journal of Biological Anthropology,CzechELib Wiley agreement
+Charles University,2024,10.1111/jpy.13486,TRUE,Wiley-Blackwell,Journal of Phycology,CzechELib Wiley agreement
+Charles University,2024,10.1002/cplu.202400365,TRUE,Wiley-Blackwell,ChemPlusChem,CzechELib Wiley agreement
+Charles University,2024,10.1111/soc4.13248,TRUE,Wiley-Blackwell,Sociology Compass,CzechELib Wiley agreement
+Charles University,2024,10.1002/eji.202350897,TRUE,Wiley-Blackwell,European Journal of Immunology,CzechELib Wiley agreement
+Charles University,2024,10.1029/2024JA032655,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Space Physics,CzechELib Wiley agreement
+Charles University,2024,10.1111/padm.13016,TRUE,Wiley-Blackwell,Public Administration,CzechELib Wiley agreement
+Charles University,2024,10.1002/aoc.7621,TRUE,Wiley-Blackwell,Applied Organometallic Chemistry,CzechELib Wiley agreement
+Charles University,2024,10.1002/mdc3.14160,TRUE,Wiley-Blackwell,Movement Disorders Clinical Practice,CzechELib Wiley agreement
+Charles University,2024,10.1002/lary.31604,TRUE,Wiley-Blackwell,The Laryngoscope,CzechELib Wiley agreement
+Charles University,2024,10.1111/mec.17441,TRUE,Wiley-Blackwell,Molecular Ecology,CzechELib Wiley agreement
+Charles University,2024,10.1111/jvs.13283,TRUE,Wiley-Blackwell,Journal of Vegetation Science,CzechELib Wiley agreement
+Charles University,2024,10.1111/bcp.16155,TRUE,Wiley-Blackwell,British Journal of Clinical Pharmacology,CzechELib Wiley agreement
+Charles University,2024,10.1107/S160057672400400X,TRUE,Wiley-Blackwell,Journal of Applied Crystallography,CzechELib Wiley agreement
+Charles University,2024,10.1111/aen.12704,TRUE,Wiley-Blackwell,Austral Entomology,CzechELib Wiley agreement
+Charles University,2024,10.1002/jimd.12767,TRUE,Wiley-Blackwell,Journal of Inherited Metabolic Disease,CzechELib Wiley agreement
+Charles University,2024,10.1029/2023JE008227,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Planets,CzechELib Wiley agreement
+Charles University,2024,10.1002/ca.24176,TRUE,Wiley-Blackwell,Clinical Anatomy,CzechELib Wiley agreement
+Charles University,2024,10.1002/ajoc.202400126,TRUE,Wiley-Blackwell,Asian Journal of Organic Chemistry,CzechELib Wiley agreement
+Charles University,2024,10.1002/ardp.202400171,TRUE,Wiley-Blackwell,Archiv der Pharmazie,CzechELib Wiley agreement
+Charles University,2024,10.1111/febs.17136,TRUE,Wiley-Blackwell,The FEBS Journal,CzechELib Wiley agreement
+Charles University,2024,10.1002/chem.202400970,TRUE,Wiley-Blackwell,Chemistry - A European Journal,CzechELib Wiley agreement
+Charles University,2024,10.1002/pmrj.13203,TRUE,Wiley-Blackwell,PM&R,CzechELib Wiley agreement
+Charles University,2024,10.1111/dme.15329,TRUE,Wiley-Blackwell,Diabetic Medicine,CzechELib Wiley agreement
+Charles University,2024,10.1111/jtsa.12741,TRUE,Wiley-Blackwell,Journal of Time Series Analysis,CzechELib Wiley agreement
+Charles University,2024,10.1002/jcc.27361,TRUE,Wiley-Blackwell,Journal of Computational Chemistry,CzechELib Wiley agreement
+Charles University,2024,10.1111/zsc.12658,TRUE,Wiley-Blackwell,Zoologica Scripta,CzechELib Wiley agreement
+Charles University,2024,10.1002/mabi.202200516,TRUE,Wiley-Blackwell,Macromolecular Bioscience,CzechELib Wiley agreement
+Charles University,2024,10.1111/1467-8322.12873,TRUE,Wiley-Blackwell,Anthropology Today,CzechELib Wiley agreement
+Charles University,2024,10.1111/apa.17207,TRUE,Wiley-Blackwell,Acta Paediatrica,CzechELib Wiley agreement
+Charles University,2024,10.1002/jez.2808,TRUE,Wiley-Blackwell,Journal of Experimental Zoology Part A: Ecological and Integrative Physiology,CzechELib Wiley agreement
+Charles University,2024,10.1111/bjso.12736,TRUE,Wiley-Blackwell,British Journal of Social Psychology,CzechELib Wiley agreement
+Charles University,2024,10.1002/adom.202302715,FALSE,Wiley-Blackwell,Advanced Optical Materials,CzechELib Wiley agreement
+Charles University,2024,10.1111/jbi.14823,TRUE,Wiley-Blackwell,Journal of Biogeography,CzechELib Wiley agreement
+Charles University,2024,10.1029/2023JE008107,TRUE,Wiley-Blackwell,Journal of Geophysical Research: Planets,CzechELib Wiley agreement
+Charles University,2024,10.1111/myc.13708,TRUE,Wiley-Blackwell,Mycoses,CzechELib Wiley agreement
+Charles University,2024,10.1111/oik.10267,TRUE,Wiley-Blackwell,Oikos,CzechELib Wiley agreement
+Charles University,2024,10.1029/2023TC007822,TRUE,Wiley-Blackwell,Tectonics,CzechELib Wiley agreement
+Charles University,2024,10.1111/epi.17894,TRUE,Wiley-Blackwell,Epilepsia,CzechELib Wiley agreement
+Charles University,2024,10.1111/zsc.12650,TRUE,Wiley-Blackwell,Zoologica Scripta,CzechELib Wiley agreement
+Charles University,2024,10.1002/ppul.26863,TRUE,Wiley-Blackwell,Pediatric Pulmonology,CzechELib Wiley agreement
+Charles University,2024,10.1002/mabi.202300510,TRUE,Wiley-Blackwell,Macromolecular Bioscience,CzechELib Wiley agreement
+Charles University,2024,10.1002/smll.202307793,TRUE,Wiley-Blackwell,Small,CzechELib Wiley agreement
+Charles University,2024,10.1111/tpj.16630,TRUE,Wiley-Blackwell,The Plant Journal,CzechELib Wiley agreement
+Charles University,2024,10.1111/geb.13802,TRUE,Wiley-Blackwell,Global Ecology and Biogeography,CzechELib Wiley agreement

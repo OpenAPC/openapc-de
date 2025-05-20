@@ -1,0 +1,70 @@
+=== Overview: Contract group IDs ===
+
+GESIS has reported DEAL Elsevier Germany cost data for the 2023 period, total costs: 5701.799999999999 €. (group_id: 018afyw53_els2023deal_2023)
+There were no new articles without publication-level costs linked to this group id.
+
+GESIS has reported DEAL Springer Nature Germany cost data for the 2023 period, total costs: 740.63 €. (group_id: 018afyw53_sn2020deal_2023)
+13 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 740.63 / 13 = 56.97 was assigned to each of them.
+CONTROL: First new article in group (10.1007/s11135-023-01801-w) has an 'euro' value of 56.97 €. ==> passed.
+
+GESIS has reported DEAL Wiley Germany cost data for the 2023 period, total costs: 481.04999999999995 €. (group_id: 018afyw53_wiley2019deal_2023)
+1 new articles without publication-level costs were linked to this group id. A preliminary EAPC of 481.04999999999995 / 1 = 481.05 was assigned to each of them.
+CONTROL: First new article in group (10.1111/nana.12985) has an 'euro' value of 481.05 €. ==> passed.
+
+GESIS has reported DEAL Elsevier Germany cost data for the 2024 period, total costs: 9978.150000000001 €. (group_id: 018afyw53_els2023deal_2024)
+There were no new articles without publication-level costs linked to this group id.
+
+GESIS has reported DEAL Springer Nature Germany cost data for the 2022 period, total costs: 20648.73 €. (group_id: 018afyw53_sn2020deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (10 articles, EAPC: 74.06 €). The EAPC might need an update, see below.
+
+GESIS has reported DEAL Wiley Germany cost data for the 2022 period, total costs: 34382.590000000004 €. (group_id: 018afyw53_wiley2019deal_2022)
+NOTE: This group_id was merged during processing, meaning that it occured more than once.
+There were no new articles without publication-level costs linked to this group id.
+NOTE: The institution has already reported TA DEAL data for the given period and publisher (6 articles, EAPC: 85.9 €). The EAPC might need an update, see below.
+
+=== Update instructions ===
+
+1) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2023 and no matching TA data exists.
+ ==> Nothing to do here.
+
+2) There is no conflicting cost data for invoice group '018afyw53_sn2020deal_2023', the calculated EAPC is valid.
+ ==> The data file (GESIS, DEAL Springer Nature Germany, 2023) can be directly enriched and processed.
+
+3) There is no conflicting cost data for invoice group '018afyw53_wiley2019deal_2023', the calculated EAPC is valid.
+ ==> The data file (GESIS, DEAL Wiley Germany, 2023) can be directly enriched and processed.
+
+4) There are no articles linked to the cost data in all invoice groups related to DEAL Elsevier Germany 2024 and no matching TA data exists.
+ ==> Nothing to do here.
+
+5) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Springer Nature Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  018afyw53_sn2020deal_2022                              --                  20648.73
+  TA data                                                10                  --    (Total: 740.6 , EAPC: 74.06, checking first TA article (10.1007/s11192-022-04554-9) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    10                  20648.73
+
+  New EAPC: 20648.73 / 10 = 2064.87
+
+ ==> Existing DEAL data (GESIS, DEAL Springer Nature Germany, 2022) has to be updated with the new EAPC (2064.87) as euro value (10 articles in original file(s), enriched file(s) and TA collection).
+
+6) There are existing TA DEAL articles, additional invoice groups or duplicates with existing data for the agreement period DEAL Wiley Germany 2022.
+ ==> Checking if EAPC needs to be updated.
+
+ = Recalculation = 
+  data_source                                            num_articles         total_costs (€)
+  -------------------------------------------------------------------------------------------
+  018afyw53_wiley2019deal_2022                           --                  34382.590000000004
+  TA data                                                6                   --    (Total: 515.4000000000001 , EAPC: 85.9, checking first TA article (10.1111/nana.12926) => passed)
+  -------------------------------------------------------------------------------------------
+  Sum                                                    6                   34382.590000000004
+
+  New EAPC: 34382.590000000004 / 6 = 5730.43
+
+ ==> Existing DEAL data (GESIS, DEAL Wiley Germany, 2022) has to be updated with the new EAPC (5730.43) as euro value (6 articles in original file(s), enriched file(s) and TA collection).
+
