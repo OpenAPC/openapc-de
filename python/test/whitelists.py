@@ -562,6 +562,15 @@ JOURNAL_OWNER_CHANGED = {
 	"2168-8184": ["Cureus, Inc.", "Springer Nature"], # Cureus
 	"0002-9270": ["Nature Publishing Group", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # American Journal of Gastroenterology 
 	"1572-0241": ["Nature Publishing Group", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # American Journal of Gastroenterology (electronic)
+	"2193-0074": ["Copernicus GmbH", "Pensoft Publishers"], # Fossil Record 
+	"2193-0066": ["Copernicus GmbH", "Pensoft Publishers"], # Fossil Record (print)
+	"2052-3211": ["Springer Nature", "Informa UK Limited"], # Journal of Pharmaceutical Policy and Practice 
+	"1757-4684": ["EMBO", "Springer Nature"], # EMBO Molecular Medicine 
+	"1757-4676": ["EMBO", "Springer Nature"], # EMBO Molecular Medicine (linking)
+	"1744-4292": ["EMBO", "Springer Nature"], # Molecular Systems Biology 
+	"1948-6596": ["California Digital Library (CDL)", "Pensoft Publishers"], # Frontiers of Biogeography 
+	"2473-4039": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # JBMR Plus
+	"2643-6515": ["American Association for the Advancement of Science (AAAS)", "Elsevier BV"], # Plant Phenomics 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -978,7 +987,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1528-0837", # Journal of Industrial Textiles, Gold OA since 2022
     "1940-0829", # Tropical Conservation Science, Hybrid OA since 2025
     "0022-2615", # Journal of Medical Microbiology, Subscribe to Open (S2O) in Feb. 2025
-    "0014-4800", # Experimental and Molecular Pathology, Gold OA since 2023 
+    "0014-4800", # Experimental and Molecular Pathology, Gold OA since 2023
+    "0956-540X", # Geophysical Journal International, Gold OA since 2024 
+    "1049-9644", # Biological Control, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
