@@ -571,6 +571,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1948-6596": ["California Digital Library (CDL)", "Pensoft Publishers"], # Frontiers of Biogeography 
 	"2473-4039": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # JBMR Plus
 	"2643-6515": ["American Association for the Advancement of Science (AAAS)", "Elsevier BV"], # Plant Phenomics 
+	"1478-422X": ["Informa UK Limited", "SAGE Publications"], # Corrosion Engineering, Science and Technology: The International Journal of Corrosion Processes and Corrosion Control 
+	"1743-2782": ["Informa UK Limited", "SAGE Publications"], # Corrosion Engineering, Science and Technology: The International Journal of Corrosion Processes and Corrosion Control (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -990,6 +992,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0014-4800", # Experimental and Molecular Pathology, Gold OA since 2023
     "0956-540X", # Geophysical Journal International, Gold OA since 2024 
     "1049-9644", # Biological Control, Gold OA since 2024
+    "0924-0519", # Netherlands Quarterly of Human Rights, Subscribe to Open (S2O) since 2023 
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
