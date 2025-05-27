@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 142,404 articles, published at 526 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 142,897 articles, published at 526 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 142,404 articles, published at 526 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    15940|
-|DEAL Wiley Germany                               |    14291|
+|DEAL Springer Nature Germany                     |    16247|
+|DEAL Wiley Germany                               |    14477|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -209,6 +209,7 @@ This dataset contains information on 142,404 articles, published at 526 institut
 |Karolinska Institutet                                                                                                                              |     1061|
 |UCL                                                                                                                                                |     1022|
 |TU Berlin                                                                                                                                          |      997|
+|Heidelberg U                                                                                                                                       |      956|
 |University of Limerick                                                                                                                             |      955|
 |MPG                                                                                                                                                |      946|
 |University of Cambridge                                                                                                                            |      912|
@@ -254,7 +255,6 @@ This dataset contains information on 142,404 articles, published at 526 institut
 |Delft University of Technology                                                                                                                     |      484|
 |Umeå University                                                                                                                                    |      475|
 |Åbo Akademi University                                                                                                                             |      470|
-|Heidelberg U                                                                                                                                       |      463|
 |Leiden University                                                                                                                                  |      461|
 |Swedish University of Agricultural Sciences                                                                                                        |      461|
 |Linköping University                                                                                                                               |      459|
