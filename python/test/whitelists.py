@@ -428,7 +428,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1746-1553": ["SAGE Publications", "Ovid Technologies (Wolters Kluwer Health)"], # Prosthetics & Orthotics International (electronic)
 	"0270-9139": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology
     "1527-3350": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology (electronic)
-	"1743-9159": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery
+	"1743-9191": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery
+	"1743-9159": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery (linking)
 	"2168-1813": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Scandinavian Journal of Urology 
 	"2168-1805": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Scandinavian Journal of Urology (print)
 	"2000-656X": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
@@ -573,6 +574,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2643-6515": ["American Association for the Advancement of Science (AAAS)", "Elsevier BV"], # Plant Phenomics 
 	"1478-422X": ["Informa UK Limited", "SAGE Publications"], # Corrosion Engineering, Science and Technology: The International Journal of Corrosion Processes and Corrosion Control 
 	"1743-2782": ["Informa UK Limited", "SAGE Publications"], # Corrosion Engineering, Science and Technology: The International Journal of Corrosion Processes and Corrosion Control (electronic)
+	"2468-3574": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery Protocols
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -993,6 +995,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0956-540X", # Geophysical Journal International, Gold OA since 2024 
     "1049-9644", # Biological Control, Gold OA since 2024
     "0924-0519", # Netherlands Quarterly of Human Rights, Subscribe to Open (S2O) since 2023 
+    "0954-6634", # Journal of Dermatological Treatment, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
