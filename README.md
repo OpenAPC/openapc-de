@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |230,390 | 459,689,554    | 444 |
-| Monographs       |2,014 | 13,233,279    | 76 |
+| Articles         |246,203 | 499,206,635    | 460 |
+| Monographs       |2,164 | 14,336,359    | 90 |
 
 ## How to access the data?
 
@@ -61,16 +61,19 @@ The following institutions have contributed to OpenAPC so far:
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bergische Universität Wuppertal](https://www.bib.uni-wuppertal.de/de/forschen/open-access/publikationsfonds/)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
+- [Brandenburg University of Technology Cottbus-Senftenberg](https://www.b-tu.de/en/)
 - [Carl von Ossietzky Universität Oldenburg](https://uol.de/en/bis/research-publishing/open-access/open-access-publication-fund)
 - [Catholic University of Eichstätt-Ingolstadt](https://www.ku.de/bibliothek/forschen-und-publizieren/open-access)
 - [Charité - Universitätsmedizin Berlin](https://bibliothek.charite.de/publizieren/open_access)
 - [Christian-Albrechts-Universität zu Kiel](https://www.ub.uni-kiel.de/de/publizieren/open-access-finanzierung)
 - [Clausthal University of Technology](https://www.ub.tu-clausthal.de/publizieren-open-access/open-access-publizieren/publikationsfonds)
+- [Darmstadt University of Applied Sciences](https://h-da.de/en/)
 - [Eberhard Karls Universität Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/publishing/open-access-publication-fund/)
 - [Fachhochschule Südwestfalen](https://www.fh-swf.de/de/studierende/rund_ums_studium/bibliothek_1/publikationsdienstleistungen/publikationsdienstleistungen.php#absatz_container_oa_fh)
 - [Freie Universität Berlin](https://www.fu-berlin.de/sites/open_access/finanzierung-oa/zeitschriftenartikel/publikationsfonds_zeitschriften/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
 - [Friedrich-Schiller-Universität Jena](https://www.thulb.uni-jena.de/services/forschung-/-lehre/open-access-/-elektronisches-publizieren#c3516)
+- [Fulda University of Applied Sciences](https://www.hs-fulda.de/en/)
 - [HAWK Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen](https://www.hawk.de/de/hochschule/organisation-und-personen/zentrale-einrichtungen/zentrum-fuer-information-medien-und-technologie/bibliothek/openaccess)
 - [HafenCity Universität Hamburg](https://www.hcu-hamburg.de/en/library/writing-publishing/open-access-in-research)
 - [Hamburg University of Applied Sciences](https://www.haw-hamburg.de/hibs/publizieren/publikationsfonds/)
@@ -88,6 +91,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Hochschule Konstanz Technik, Wirtschaft und Gestaltung](https://www.htwg-konstanz.de/hochschule/einrichtungen/bibliothek/publizieren-open-access/foerdermoeglichkeiten)
 - [Hochschule Neubrandenburg](https://www.hs-nb.de/bibliothek/hauptmenue/wissenschaftliche-services/publizieren/open-access-beratung/#c1402011)
 - Hochschule Reutlingen
+- [Hochschule RheinMain](https://www.hs-rm.de/de/)
 - [Hochschule für Technik und Wirtschaft Dresden](https://www.htw-dresden.de/open-access)
 - [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/finanzierung/publikationsfonds-zeitschriftenartikel)
 - [JLU Gießen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
@@ -103,12 +107,14 @@ The following institutions have contributed to OpenAPC so far:
 - [Otto-von-Guericke-Universität Magdeburg](https://www.ub.ovgu.de/Publizieren+_+Open+Access/Open+Access.html)
 - [Philipps University of Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds)
 - [RWTH Aachen](https://www.ub.rwth-aachen.de/cms/ub/Forschung/Wissenschaftliches-Publizieren/~iigq/Open-Access-Die-neue-Art-zu-publizieren/)
+- [Regensburg University of Applied Sciences](https://www.oth-regensburg.de)
 - [Rheinische Friedrich-Wilhelms-Universität Bonn](https://www.open-access.uni-bonn.de/de)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
 - [TH Köln - University of Applied Sciences](https://www.th-koeln.de/hochschulbibliothek/open-access-publikationsfonds_98372.php)
 - TU Bergakademie Freiberg
 - [Technische Hochschule Brandenburg](https://bibliothek.th-brandenburg.de/open-access-und-publizieren/open-access/)
+- [Technische Hochschule Ingolstadt](https://www.thi.de/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php)
@@ -120,9 +126,12 @@ The following institutions have contributed to OpenAPC so far:
 - [Technische Universität München](https://www.ub.tum.de/en/publishing-fund)
 - [Ulm University](https://www.uni-ulm.de/einrichtungen/kiz/service-katalog/wid/publikationsmanagement/oap/)
 - [University Medical Center Hamburg-Eppendorf](https://www.uke.de/forschung/open-science/publikationsfoerderung/index.html)
+- [University of Applied Sciences Mainz](https://www.hs-mainz.de/)
 - [University of Applied Sciences Potsdam](https://www.fh-potsdam.de/campus-services/bibliothek/open-access-publizieren#section-18181)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
 - University of Duisburg-Essen
+- [University of Education Freiburg](https://www.ph-freiburg.de/)
+- [University of Education Schwaebisch Gmuend](https://www.ph-gmuend.de)
 - [University of Freiburg](https://www.ub.uni-freiburg.de/en/support/electronic-publishing/open-access/open-access-publication-fund/)
 - [University of Greifswald](https://ub.uni-greifswald.de/en/service/for-academics/open-access/funding/)
 - [University of Göttingen](http://www.sub.uni-goettingen.de/en/electronic-publishing/open-access/open-access-publication-funding/)
@@ -141,6 +150,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Universität Augsburg](https://www.uni-augsburg.de/de/organisation/bibliothek/publizieren-zitieren-archivieren/open-access/)
 - [Universität Erfurt](https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren-1/open-access-publikationsfonds)
 - [Universität Hohenheim](https://kim.uni-hohenheim.de/en/openaccess)
+- [Universität der Bundeswehr München](https://www.unibw.de)
 - [Universität zu Köln](https://ub.uni-koeln.de/en/forschen-publizieren/publizieren/financial-support-for-open-access-publications)
 
 ###  Research institutes 
@@ -152,12 +162,14 @@ The following institutions have contributed to OpenAPC so far:
 
 ####  Helmholtz Association 
 
+- [Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung](https://www.awi.de/en/)
 - [Deutsches Elektronen-Synchrotron DESY](https://library.desy.de/open_access/publishing_options_for_authors/)
 - [Deutsches Zentrum für Luft- und Raumfahrt](https://www.dlr.de/de/das-dlr/ueber-uns/organisation/wissenschaftliche-information/dlr-bibliothek)
 - [Forschungszentrum Jülich](https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html)
 - [GEOMAR - Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/centre/central-facilities/bibliothek/author-services/publication-costs)
 - [GFZ German Research Centre for Geosciences](https://www.gfz-potsdam.de/en) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
 - [GSI Helmholtzzentrum für Schwerionenforschung](https://www.gsi.de/bibliothekunddokumentation/open_access_gsi)
+- [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung – UFZ](https://www.ufz.de/index.php?en=36297)
 - [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
@@ -168,6 +180,7 @@ The following institutions have contributed to OpenAPC so far:
 - [DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation](https://www.dipf.de/en/knowledge-resources/dipfdocs-open-access?set_language=en)
 - [Deutsches Institut für Ernährungsforschung Potsdam-Rehbrücke](https://www.dife.de/en/about-us/organization/science-coordination/)
 - [Deutsches Primatenzentrum - Leibniz-Institut für Primatenforschung](https://www.dpz.eu/de/abteilung/bibliothek/serviceangebot.html)
+- [Forschungsinstitut für Nutztierbiologie (FBN)](https://www.fbn-dummerstorf.de/)
 - [GESIS - Leibniz-Institut für Sozialwissenschaften](https://www.gesis.org/en/home)
 - [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/de/das-giga/giga-bibliothek/open-access)
 - [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/en/library)
@@ -180,6 +193,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Leibniz-Institut für Raumbezogene Sozialforschung (IRS)](https://leibniz-irs.de/en/research/publications/open-access)
 - [Leibniz-Institut für Zoo- und Wildtierforschung](https://www.izw-berlin.de/de/bibliothek.html)
 - [Leibniz-Institut für ökologische Raumentwicklung](https://www.ioer.de/en/)
+- [Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF)](https://www.zalf.de/en/struktur/bib/Pages/Bibliothek.aspx)
 - [Leibniz-Zentrum für Marine Tropenforschung](https://www.leibniz-zmt.de/en/research-infrastructure/media-unit.html)
 - Museum für Naturkunde - Leibniz-Institut für Evolutions- und Biodiversitätsforschung
 - [Paul-Drude-Institut für Festkörperelektronik](http://www.pdi-berlin.de/home/)
@@ -267,6 +281,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Pädagogische Hochschule Zürich](https://phzh.ch/ueber-die-phzh/campus/bibliothek/open-access/)
 - [Schwyz University of Teacher Education](https://www.phsz.ch/en/)
 - [St.Gallen University of Teacher Education](https://www.phsg.ch/en)
+- [Swiss Distance University Institute](https://unidistance.ch/en/)
 - [Swiss Federal University for Vocational Education and Training](https://www.sfuvet.swiss/)
 - [Swiss National Science Foundation (SNSF)](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Swiss Ornithological Institute](https://www.vogelwarte.ch/de/home/)
@@ -686,7 +701,95 @@ The following institutions have contributed to OpenAPC so far:
 
 ## Institutions from Canada 
 
+- [Acadia University](http://www2.acadiau.ca/)
+- [Algoma University](https://algomau.ca)
+- [Athabasca University](https://www.athabascau.ca)
+- [BC Children's Hospital Foundation](http://www.bcchf.ca/)
+- [Balsillie School of International Affairs](https://balsillieschool.ca)
+- [Bishop's University](https://www.ubishops.ca)
+- [Brandon University](https://www.brandonu.ca/)
+- [Brock University](https://brocku.ca)
+- [Bruyère](http://www.bruyere.org/)
+- [Canadian Research Knowledge Network](http://www.crkn-rcdr.ca)
+- [Cape Breton University](http://www.cbu.ca/)
+- [Carleton University](https://carleton.ca)
+- [Concordia University](https://www.concordia.ca/)
+- [Dalhousie University](https://www.dal.ca)
+- [HEC Montréal](https://www.hec.ca)
+- [Holland Bloorview Kids Rehabilitation Hospital](https://hollandbloorview.ca)
+- [Hospital for Sick Children](http://www.sickkids.ca/)
+- [Institut National de la Recherche Scientifique](https://inrs.ca)
+- [Institut Universitaire de Cardiologie et de Pneumologie de Québec](http://iucpq.qc.ca/en)
+- [Kwantlen Polytechnic University](https://www.kpu.ca)
+- [Lakehead University](https://www.lakeheadu.ca)
+- [Laurentian University](https://laurentian.ca/)
+- [MacEwan University](https://www.macewan.ca)
+- [McGill University](https://www.mcgill.ca)
+- [McMaster University](https://www.mcmaster.ca)
+- [Memorial University of Newfoundland](https://mun.ca)
+- [Mount Allison University](https://mta.ca)
+- [Mount Royal University](https://www.mtroyal.ca)
+- [Mount Saint Vincent University](https://www.msvu.ca)
+- [Mount Sinai Hospital](http://www.mountsinai.on.ca/)
+- [NOSM University](https://www.nosm.ca)
+- [Nipissing University](https://www.nipissingu.ca)
+- [Ontario College of Art and Design](https://www.ocadu.ca)
+- [Polytechnique Montréal](https://polymtl.ca)
+- [Princess Margaret Cancer Centre](http://www.uhn.ca/PrincessMargaret)
+- [Queen's University](http://www.queensu.ca/)
+- [Royal Roads University](https://www.royalroads.ca)
+- [Saint Mary's University](https://www.smu.ca)
+- [Simon Fraser University](https://www.sfu.ca)
+- [St. Francis Xavier University](https://www.stfx.ca)
+- [St. Jerome's University](http://www.sju.ca/)
+- [Sunnybrook Health Science Centre](http://sunnybrook.ca/)
+- [Thompson Rivers University](https://www.tru.ca)
+- [Toronto General Hospital](http://www.uhn.ca/corporate/AboutUHN/OurHospitals/TGH)
+- [Toronto Metropolitan University](https://www.torontomu.ca)
+- [Toronto Rehabilitation Institute](http://www.torontorehabfoundation.com/)
+- [Toronto Western Hospital](http://www.uhn.ca/corporate/AboutUHN/OurHospitals/TWH)
+- [Trent University](https://www.trentu.ca)
+- [Trillium Health Centre](http://trilliumhealthpartners.ca/Pages/default.aspx)
+- [Trinity Western University](https://www.twu.ca)
+- [University Health Network](https://www.uhn.ca)
+- [University of Alberta](https://www.ualberta.ca)
+- [University of British Columbia](https://www.ubc.ca/)
 - [University of Calgary](https://library.ucalgary.ca/oa/)
+- [University of Guelph](https://www.uoguelph.ca)
+- [University of Lethbridge](https://www.ulethbridge.ca)
+- [University of Manitoba](https://umanitoba.ca)
+- [University of New Brunswick](https://unb.ca)
+- [University of Northern British Columbia](https://www.unbc.ca)
+- [University of Ontario Institute of Technology](http://www.uoit.ca/)
+- [University of Ottawa](https://www.uottawa.ca)
+- [University of Prince Edward Island](http://home.upei.ca/)
+- [University of Regina](https://www.uregina.ca)
+- [University of Saskatchewan](https://www.usask.ca/)
+- [University of Toronto](https://www.utoronto.ca)
+- [University of Victoria](https://www.uvic.ca)
+- [University of Waterloo](https://uwaterloo.ca/)
+- [University of Windsor](https://www.uwindsor.ca)
+- [University of Winnipeg](https://www.uwinnipeg.ca)
+- [University of the Fraser Valley](https://ufv.ca)
+- [Université Laval](https://www.ulaval.ca)
+- [Université TÉLUQ](https://www.teluq.ca)
+- [Université de Moncton](http://www.umoncton.ca/)
+- [Université de Montréal](https://www.umontreal.ca)
+- [Université de Sherbrooke](https://www.usherbrooke.ca)
+- [Université du Québec](http://www.uquebec.ca)
+- [Université du Québec en Abitibi-Témiscamingue](https://www.uqat.ca)
+- [Université du Québec en Outaouais](https://uqo.ca)
+- [Université du Québec à Chicoutimi](https://www.uqac.ca)
+- [Université du Québec à Montréal](https://uqam.ca)
+- [Université du Québec à Rimouski](https://www.uqar.ca)
+- [Université du Québec à Trois-Rivières](https://www.uqtr.ca)
+- [Vancouver Island University](https://www.viu.ca/)
+- [Western University](https://uwo.ca)
+- [Wilfrid Laurier University](https://wlu.ca)
+- [Women's College Hospital](http://www.womenscollegehospital.ca/)
+- [York University](https://www.yorku.ca)
+- [École Nationale d'Administration Publique](https://enap.ca)
+- [École de Technologie Supérieure](https://www.etsmtl.ca)
 
 ## Institutions from Qatar 
 
@@ -752,6 +855,7 @@ The following institutions have contributed to OpenAPC so far:
 
 - [Atlantic Technological University](https://www.atu.ie)
 - [Dublin City University](https://www.dcu.ie/)
+- [Dublin Institute for Advanced Studies](https://www.dias.ie/)
 - [Dundalk Institute of Technology](https://www.dkit.ie/)
 - [Dún Laoghaire Institute of Art, Design and Technology](https://iadt.ie/)
 - [Mary Immaculate College](https://www.mic.ul.ie/)
@@ -776,13 +880,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 230,390 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 444 research performing institutions and research funders. 
+The article data set contains information on 246,203 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 460 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 459,689,554. The average payment was € 1,995 and the median was € 1,846.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 499,206,635. The average payment was € 2,028 and the median was € 1,876.
 
-168,054 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 301,409,339, including value-added tax; the average payment was € 1,794 (median =  € 1,690, SD = € 852).
+182,083 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 335,387,835, including value-added tax; the average payment was € 1,842 (median =  € 1,726, SD = € 891).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 62,336 articles in the data set were published in hybrid journals. Total expenditure amounts to 158,280,216 €; the average fee was € 2,539 (median =  € 2,500, SD = € 1,086).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,120 articles in the data set were published in hybrid journals. Total expenditure amounts to 163,818,800 €; the average fee was € 2,555 (median =  € 2,500, SD = € 1,119).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -794,28 +898,29 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-|period | OA articles| OA mean| OA median|   OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
-|:------|-----------:|-------:|---------:|--------------:|---------------:|-----------:|-------------:|----------------:|
-|2005   |           7|     858|       871| 480.0 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
-|2006   |          52|   1,021|     1,095| 665.0 -  1,340|              NA|          NA|            NA|               NA|
-|2007   |          88|   1,081|     1,062| 870.0 -  1,825|              NA|          NA|            NA|               NA|
-|2008   |         205|   1,170|     1,025| 440.8 -  2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
-|2009   |         359|   1,185|     1,060| 124.6 -  4,386|              NA|          NA|            NA|               NA|
-|2010   |         401|   1,261|     1,139| 158.8 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
-|2011   |         777|   1,158|     1,127| 104.8 -  4,666|               6|       1,781|         2,085|   552.0 -  2,631|
-|2012   |       1,577|   1,173|     1,175|  69.0 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
-|2013   |       2,473|   1,229|     1,178|  50.0 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
-|2014   |       5,190|   1,375|     1,255|  40.0 -  9,028|           6,523|       2,238|         2,200|   132.3 -  6,000|
-|2015   |       8,477|   1,523|     1,451|  59.0 -  5,669|           6,693|       2,609|         2,621|   126.6 -  8,636|
-|2016   |       9,846|   1,637|     1,531|  62.5 -  5,985|           7,893|       2,551|         2,514|     2.3 -  9,079|
-|2017   |      14,976|   1,701|     1,553|   8.7 - 14,634|          10,642|       2,528|         2,469|    36.9 -  9,858|
-|2018   |      16,251|   1,701|     1,583|  13.0 -  8,926|           9,478|       2,551|         2,538|     1.8 -  9,073|
-|2019   |      17,538|   1,703|     1,630|  10.7 -  7,684|           7,064|       2,535|         2,498|    75.3 -  9,500|
-|2020   |      21,250|   1,716|     1,683|   0.2 -  8,906|           4,480|       2,493|         2,532|    16.6 -  7,416|
-|2021   |      26,007|   1,822|     1,791|  27.0 -  8,341|           3,485|       2,548|         2,506|    30.2 - 11,400|
-|2022   |      28,621|   2,100|     1,999|  12.4 - 11,175|           2,918|       2,862|         2,730|     2.1 - 14,607|
-|2023   |      12,916|   2,219|     2,128|  17.4 -  9,893|           1,823|       2,937|         2,783|   106.4 - 11,895|
-|2024   |       1,043|   2,402|     2,345| 150.0 -  7,723|             208|       3,798|         3,322|   231.3 - 12,554|
+|period | OA articles| OA mean| OA median|     OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
+|:------|-----------:|-------:|---------:|----------------:|---------------:|-----------:|-------------:|----------------:|
+|2005   |           7|     858|       871|   480.0 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
+|2006   |          52|   1,021|     1,095|   665.0 -  1,340|              NA|          NA|            NA|               NA|
+|2007   |          88|   1,081|     1,062|   870.0 -  1,825|              NA|          NA|            NA|               NA|
+|2008   |         205|   1,170|     1,025|   440.8 -  2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
+|2009   |         359|   1,185|     1,060|   124.6 -  4,386|              NA|          NA|            NA|               NA|
+|2010   |         401|   1,261|     1,139|   158.8 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
+|2011   |         777|   1,158|     1,127|   104.8 -  4,666|               6|       1,781|         2,085|   552.0 -  2,631|
+|2012   |       1,577|   1,173|     1,175|    69.0 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
+|2013   |       2,473|   1,229|     1,178|    50.0 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
+|2014   |       5,190|   1,375|     1,255|    40.0 -  9,028|           6,523|       2,238|         2,200|   132.3 -  6,000|
+|2015   |       8,477|   1,523|     1,451|    59.0 -  5,669|           6,693|       2,609|         2,621|   126.6 -  8,636|
+|2016   |       9,846|   1,637|     1,531|    62.5 -  5,985|           7,893|       2,551|         2,514|     2.3 -  9,079|
+|2017   |      14,976|   1,701|     1,553|     8.7 - 14,634|          10,642|       2,528|         2,469|    36.9 -  9,858|
+|2018   |      16,251|   1,701|     1,583|    13.0 -  8,926|           9,478|       2,551|         2,538|     1.8 -  9,073|
+|2019   |      17,538|   1,703|     1,630|    10.7 -  7,684|           7,064|       2,535|         2,498|    75.3 -  9,500|
+|2020   |      21,250|   1,716|     1,683|     0.2 -  8,906|           4,480|       2,493|         2,532|    16.6 -  7,416|
+|2021   |      26,054|   1,825|     1,794|    27.0 -  8,341|           3,514|       2,548|         2,506|    30.2 - 11,400|
+|2022   |      29,056|   2,102|     1,999|    12.4 - 11,175|           3,029|       2,876|         2,730|     2.1 - 14,607|
+|2023   |      22,214|   2,290|     2,160|    17.4 - 10,138|           2,999|       3,011|         2,817|   106.4 - 11,895|
+|2024   |       5,268|   2,489|     2,305|    62.7 -  8,048|             676|       3,284|         3,067|   180.7 - 13,044|
+|2025   |          24|   2,354|     1,928| 1,044.3 -  5,022|              NA|          NA|            NA|               NA|
 
 
 
@@ -823,19 +928,19 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-In addition to APCs, additional costs have been reported for 337 articles, totalling € 200,387. The following table shows an overview of the different cost types:
+In addition to APCs, additional costs have been reported for 495 articles, totalling € 272,013. The following table shows an overview of the different cost types:
 
 
 
 |Cost Type      | Number of Articles| Total Sum (€)|
 |:--------------|------------------:|-------------:|
-|colour charge  |                 48|        65,897|
-|cover charge   |                  8|        10,162|
-|other          |                146|        16,584|
-|page charge    |                110|       105,444|
-|payment fee    |                 13|           744|
-|reprint        |                  2|           843|
-|submission fee |                 10|           713|
+|colour charge  |                 64|        88,587|
+|cover charge   |                 11|        14,457|
+|other          |                205|        32,376|
+|page charge    |                145|       131,610|
+|payment fee    |                 54|         2,256|
+|reprint        |                  4|         1,879|
+|submission fee |                 12|           848|
 
 
 
@@ -845,9 +950,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 2,014 open access books. Publication fees were supported financially by 76 research performing institutions and funders. 
+The book data set contains information on 2,164 open access books. Publication fees were supported financially by 90 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 13,233,279. The average payment was € 6,571 and the median was € 6,797.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 14,336,359. The average payment was € 6,625 and the median was € 6,732.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -871,9 +976,10 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2019   |             173|    7,794|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             174|    6,974|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
-|2022   |             219|    7,615|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |             196|    7,232|      6,632|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
-|2024   |              16|    5,926|      6,115| 1,300 - 10,710|             NA|       NA|         NA|            NA|
+|2022   |             224|    7,577|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
+|2023   |             254|    7,036|      6,408|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
+|2024   |             100|    7,848|      6,424|   402 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
+|2025   |               1|    3,450|      3,450| 3,450 -  3,450|             NA|       NA|         NA|            NA|
 
 
 
@@ -918,10 +1024,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.75%       |87.84%   |
-|PubMed ID                  |  73.68%      | NA                                                          |
-|PubMed Central ID          |  68.18%     | NA                                                          |
-|Web of Science record ID   | 71.53%         | NA                                                          |
+|DOI                        |  99.76%       |88.31%   |
+|PubMed ID                  |  73.38%      | NA                                                          |
+|PubMed Central ID          |  67.88%     | NA                                                          |
+|Web of Science record ID   | 66.93%         | NA                                                          |
 
 
 

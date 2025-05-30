@@ -9,6 +9,7 @@ import datetime
 import locale
 import logging
 import os
+import shutil
 import sys
 
 import openapc_toolkit as oat
@@ -590,14 +591,24 @@ def main():
 
     if not os.path.isdir("tempfiles"):
         os.mkdir("tempfiles")
-    isbn_handling = oat.ISBNHandling("tempfiles/ISBNRangeFile.xml")
+    isbn_handling = oat.ISBNHandling()
     doab_analysis = oat.DOABAnalysis(isbn_handling, "tempfiles/DOAB.csv", verbose=False)
-    doaj_analysis = oat.DOAJAnalysis("tempfiles/DOAJ.csv", force_update=False, max_mdays=30, backup=True, verbose=True)
+    doaj_analysis = oat.DOAJAnalysis(max_mdays=30, verbose=True)
+    issnl_handling = None
+    try:
+        issnl_handling = oat.ISSNLHandling()
+    except Exception as e:
+        msg = ("WARNING: An exception occured while trying to set up " +
+               "the ISSN-L handling: \n{}\nISSN-L enrichment during " +
+               "processing will not work.")
+        oat.print_y(msg.format(e))
 
     csv_file.seek(0)
     reader = csv.reader(csv_file, dialect=dialect)
     header_processed = False
     row_num = 0
+
+    ac_value_found = False
 
     for row in reader:
         row_num += 1
@@ -625,8 +636,12 @@ def main():
                 no_pubmed = True
                 no_doaj = True
         enriched_rows = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
-                                        no_crossref, no_pubmed, no_doaj, args.no_preprint_lookup, args.preprint_auto_accept,
+                                        issnl_handling, no_crossref, no_pubmed, no_doaj, args.no_preprint_lookup, args.preprint_auto_accept,
                                         args.round_monetary, args.offsetting_mode, args.csv_file, args.crossref_max_retries)
+        if not ac_value_found and "additional_costs" in enriched_rows:
+            for index in range(1, len(enriched_rows["additional_costs"])): # index 0 is the DOI
+                if oat.has_value(enriched_rows["additional_costs"][index]):
+                    ac_value_found = True
         for record_type, value in enriched_content.items():
             if record_type in enriched_rows:
                 value["content"].append(enriched_rows[record_type])
@@ -635,21 +650,48 @@ def main():
                 empty_line = ["" for x in value["content"][0]]
                 value["content"].append(empty_line)
     csv_file.close()
+
+    num_different_record_types = 0
+    last_out_file_name = None
     for record_type, value in enriched_content.items():
         if value["count"] > 0:
+            if record_type != "additional_costs":
+                quotemask = oat.OPENAPC_STANDARD_QUOTEMASK
+                num_different_record_types += 1
+                last_out_file_name = 'out_' + record_type + '.csv'
+            else:
+                quotemask = oat.ADDITIONAL_COSTS_QUOTEMASK
             with open('out_' + record_type + '.csv', 'w') as out:
-                quotemask = oat.ADDITIONAL_COSTS_QUOTEMASK if record_type == "additional_costs" else oat.OPENAPC_STANDARD_QUOTEMASK
                 writer = oat.OpenAPCUnicodeWriter(out, quotemask,
                                                   True, True, True)
                 writer.write_rows(value["content"])
 
     if not bufferedHandler.buffer:
         oat.print_g("Metadata enrichment successful, no errors occured")
+        # Directly created an enriched file if there were no errors and only a single record type
+        if num_different_record_types == 1:
+            path, file_name = os.path.split(args.csv_file)
+            file_parts = file_name.split(".")
+            if file_parts[0].endswith("_postprocessed"):
+                file_parts[0] = file_parts[0][:-14]
+            file_parts[0] += "_enriched"
+            enriched_name = ".".join(file_parts)
+            enriched_path = os.path.join(path, enriched_name)
+            if not os.path.isfile(enriched_path):
+                msg = "Enriched file will be created automatically: '{}'"
+                oat.print_g(msg.format(enriched_path))
+                shutil.copy2(last_out_file_name, enriched_path)
+            else:
+                msg = "Could not create enriched file '{}' - file exists!"
+                oat.print_y(msg.format(enriched_path))
     else:
         oat.print_r("There were errors during the enrichment process:\n")
+
     # closing will implicitly flush the handler and print any buffered
     # messages to stderr
     bufferedHandler.close()
+    if ac_value_found:
+        oat.print_m("ATTENTION: Non-zero additional costs found in table - file out_additional_costs.csv should be appended and squashed.")
 
 if __name__ == '__main__':
     main()

@@ -24,6 +24,8 @@ DATA = {
     "translation_institution_types": []
 }
 
+CONTINENT_WL = ["EUROPE", "NORTH_AMERICA", "WESTERN_ASIA", "SOUTH_EASTERN_ASIA", "EASTERN_AFRICA"]
+
 # List of all OpenAPC institutional identifiers (as strings)
 INSTITUTIONS = []
 
@@ -265,9 +267,9 @@ def test_geo_data(row_object):
         msg = MSG_HEAD + "Continent column is empty."
         msg = msg.format(row_object.file_name, row_object.line_number)
         pytest.fail(msg)
-    if not oat.has_value(state):
-        msg = MSG_HEAD + "State column is empty."
-        msg = msg.format(row_object.file_name, row_object.line_number)
+    elif continent not in CONTINENT_WL:
+        msg = MSG_HEAD + "Continent column value not in whitelist: '{}'."
+        msg = msg.format(row_object.file_name, row_object.line_number, continent)
         pytest.fail(msg)
 
 @pytest.mark.parametrize("row_object", DATA["institutions"])
