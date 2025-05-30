@@ -172,7 +172,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung – UFZ](https://www.ufz.de/index.php?en=36297)
-- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [KIT Karlsruhe](https://www.bibliothek.kit.edu/publikationsfonds.php)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
 
 ####  Leibniz Association 
