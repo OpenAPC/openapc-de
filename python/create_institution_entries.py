@@ -13,10 +13,10 @@ import openapc_toolkit as oat
 import mappings
 
 ARG_HELP_STRINGS = {
-    "source_file": "The source csv file",
-    "source_file_ins_column": "The numerical index of the institution column",
+    "source_file": "The source csv file. Default: ../data/apc_de.csv",
+    "source_file_ins_column": "The numerical index of the institution column. Default: 0",
     "ins_table": "Check names against the OpenAPC institutions table first and " +
-                 "only look up unknown institutions",
+                 "only look up unknown institutions. Default: True",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
     "num_lookups": "Maximum number of lookups before quitting and writing " +
@@ -51,7 +51,7 @@ def _build_ins_line_dict(ins_name, ror_item):
     }
     for geo_level, geo_name in geo_data.items():
         if geo_name not in mappings.GEO_MAPPINGS:
-            msg = 'WARNING: Geo name "{}" not founds in mappings.GEO_MAPPINGS, using original value'
+            msg = 'WARNING: Geo name "{}" not found in mappings.GEO_MAPPINGS, using original value'
             oat.print_y(msg.format(geo_name))
             line[geo_level] = geo_name
         else:
@@ -153,9 +153,9 @@ def _ror_lookup(institution_name):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("source_file", help=ARG_HELP_STRINGS["source_file"])
-    parser.add_argument("source_file_key_column", type=int, help=ARG_HELP_STRINGS["source_file_ins_column"])
-    parser.add_argument("-i", "--ins_table", action="store_true", help=ARG_HELP_STRINGS["ins_table"])
+    parser.add_argument("-f", "--source_file", default="../data/apc_de.csv", help=ARG_HELP_STRINGS["source_file"])
+    parser.add_argument("-c", "--source_file_key_column", type=int, default=0, help=ARG_HELP_STRINGS["source_file_ins_column"])
+    parser.add_argument("-i", "--ins_table", action="store_true", default=True, help=ARG_HELP_STRINGS["ins_table"])
     parser.add_argument("-e", "--encoding", default="utf-8", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-n", "--num_lookups", type=int, default=10, help=ARG_HELP_STRINGS["num_lookups"])
     
