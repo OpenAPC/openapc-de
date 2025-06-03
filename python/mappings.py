@@ -785,8 +785,10 @@ AGREEMENT_PUBLISHERS = {
 GEO_MAPPINGS = {
     # world level
     "North America": "NORTH_AMERICA",
+    "Europe": "EUROPE",
     # countries
     "CA": "CAN",
+    "DE": "DEU",
     # subdivisions
     # -- Canada
     "ON": "CA-ON",
