@@ -1009,6 +1009,7 @@ AMBIGUOUS_JOURNAL_TITLES = {
     "Journal of Optics": ["0974-6900", "2040-8978"], # Springer Nature / IOP Publishing
     "Educational Studies": ["0013-1946", "0305-5698"], # Both T&F. 0013-1946 with subtitle "A Journal of the American Educational Studies Association"
     "Journal of Surgery": ["2330-0914", "2575-9760"], # Science Publishing Group / Gavin Publishers
+    "Engineering": ["1947-394X", "2095-8099"], # Scientific Research Publishing / Elsevier
 }
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
