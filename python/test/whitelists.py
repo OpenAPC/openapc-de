@@ -997,6 +997,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0924-0519", # Netherlands Quarterly of Human Rights, Subscribe to Open (S2O) since 2023 
     "0954-6634", # Journal of Dermatological Treatment, Gold OA since 2023
     "1534-8687", # New Directions for Child and Adolescent Development, Gold OA since 2023
+    "2365-5135", # Automotive and Engine Technology, Gold OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
