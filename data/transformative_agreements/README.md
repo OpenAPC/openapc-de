@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 142,897 articles, published at 526 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 142,971 articles, published at 527 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 142,897 articles, published at 526 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    16247|
-|DEAL Wiley Germany                               |    14477|
+|DEAL Springer Nature Germany                     |    16289|
+|DEAL Wiley Germany                               |    14509|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -419,6 +419,7 @@ This dataset contains information on 142,897 articles, published at 526 institut
 |Royal Botanic Gardens                                                                                                                              |       76|
 |Cranfield University                                                                                                                               |       75|
 |Mälardalen University                                                                                                                              |       74|
+|Oldenburg U                                                                                                                                        |       74|
 |Bangor University                                                                                                                                  |       72|
 |University of Hull                                                                                                                                 |       72|
 |University of Ulster                                                                                                                               |       72|
