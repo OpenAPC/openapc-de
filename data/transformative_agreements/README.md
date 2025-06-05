@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 142,971 articles, published at 527 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 143,101 articles, published at 528 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 142,971 articles, published at 527 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    16289|
-|DEAL Wiley Germany                               |    14509|
+|DEAL Springer Nature Germany                     |    16350|
+|DEAL Wiley Germany                               |    14578|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -384,6 +384,7 @@ This dataset contains information on 142,971 articles, published at 527 institut
 |University of Guelph                                                                                                                               |      132|
 |Finnish Environment Institute                                                                                                                      |      130|
 |Hanken School of Economics                                                                                                                         |      130|
+|RPTU Kaiserslautern-Landau                                                                                                                         |      130|
 |University Hospital of Bern                                                                                                                        |      129|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
