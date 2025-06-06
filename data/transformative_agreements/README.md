@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 143,101 articles, published at 528 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 143,107 articles, published at 528 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -148,6 +148,7 @@ This dataset contains information on 143,101 articles, published at 528 institut
 |Crui-CARE CUP Agreement                          |       11|
 |IReL AmericanPhysicalSociety Agreement           |       11|
 |Swiss Consortium BMJ agreement                   |       10|
+|Swiss Consortium ACM agreement                   |        9|
 |CSIC-Brill                                       |        7|
 |CSIC-Portland Press                              |        7|
 |Crui-CARE AIP Agreement                          |        7|
@@ -157,7 +158,6 @@ This dataset contains information on 143,101 articles, published at 528 institut
 |IReL CSHL Agreement                              |        4|
 |CzechELib ACM agreement                          |        3|
 |QNL OVID Agreement                               |        3|
-|Swiss Consortium ACM agreement                   |        3|
 |University of Milan - BMJ                        |        3|
 |CSIC-De Gruyter                                  |        2|
 |EISZ agreement Cambridge University Press        |        2|
@@ -179,10 +179,10 @@ This dataset contains information on 143,101 articles, published at 528 institut
 |ETH Zurich                                                                                                                                         |     4471|
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4421|
 |University of Helsinki                                                                                                                             |     4225|
-|University of Zurich                                                                                                                               |     4209|
+|University of Zurich                                                                                                                               |     4210|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |TU Muenchen                                                                                                                                        |     2598|
-|University of Bern                                                                                                                                 |     2403|
+|University of Bern                                                                                                                                 |     2406|
 |University of Geneva                                                                                                                               |     2366|
 |University College Dublin                                                                                                                          |     2333|
 |Milano U                                                                                                                                           |     2085|
@@ -294,10 +294,10 @@ This dataset contains information on 143,101 articles, published at 528 institut
 |University of Warwick                                                                                                                              |      332|
 |TU Chemnitz                                                                                                                                        |      331|
 |Dortmund TU                                                                                                                                        |      329|
-|University of St.Gallen                                                                                                                            |      326|
+|University of St.Gallen                                                                                                                            |      327|
+|University of Applied Sciences and Arts Western Switzerland                                                                                        |      317|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |TU Braunschweig                                                                                                                                    |      316|
-|University of Applied Sciences and Arts Western Switzerland                                                                                        |      316|
 |Eawag - Swiss Federal Institute of Aquatic Science and Technology                                                                                  |      312|
 |Radboud University                                                                                                                                 |      309|
 |ZHAW Zurich University of Applied Sciences                                                                                                         |      299|
