@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 143,361 articles, published at 528 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 143,365 articles, published at 528 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 143,361 articles, published at 528 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    16502|
-|DEAL Wiley Germany                               |    14680|
+|DEAL Springer Nature Germany                     |    16503|
+|DEAL Wiley Germany                               |    14683|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -587,6 +587,7 @@ This dataset contains information on 143,361 articles, published at 528 institut
 |Darmstadt University of Applied Sciences                                                                                                           |        9|
 |Haaga-Helia University of Applied Sciences                                                                                                         |        9|
 |Laurentian University                                                                                                                              |        9|
+|Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        9|
 |Social Insurance Institution of Finland                                                                                                            |        9|
 |TH Köln                                                                                                                                            |        9|
 |University of Applied Sciences of the Grisons                                                                                                      |        9|
@@ -625,7 +626,6 @@ This dataset contains information on 143,361 articles, published at 528 institut
 |Finnish Food Authority                                                                                                                             |        5|
 |Kwantlen Polytechnic University                                                                                                                    |        5|
 |Medicines for Malaria Venture                                                                                                                      |        5|
-|Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        5|
 |SWP - German Institute for International and Security Affairs                                                                                      |        5|
 |University of Worcester                                                                                                                            |        5|
 |École Nationale d'Administration Publique                                                                                                          |        5|
