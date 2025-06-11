@@ -575,6 +575,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1478-422X": ["Informa UK Limited", "SAGE Publications"], # Corrosion Engineering, Science and Technology: The International Journal of Corrosion Processes and Corrosion Control 
 	"1743-2782": ["Informa UK Limited", "SAGE Publications"], # Corrosion Engineering, Science and Technology: The International Journal of Corrosion Processes and Corrosion Control (electronic)
 	"2468-3574": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery Protocols
+	"1877-7171": ["IOS Press", "SAGE Publications"], # Journal of Parkinson’s Disease 
+	"1877-718X": ["IOS Press", "SAGE Publications"], # Journal of Parkinson’s Disease (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -998,6 +1000,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0954-6634", # Journal of Dermatological Treatment, Gold OA since 2023
     "1534-8687", # New Directions for Child and Adolescent Development, Gold OA since 2023
     "2365-5135", # Automotive and Engine Technology, Gold OA since 2025
+    "1877-7171", # Journal of Parkinson’s Disease, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
