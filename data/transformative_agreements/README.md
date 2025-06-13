@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 143,795 articles, published at 528 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 144,119 articles, published at 529 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 143,795 articles, published at 528 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    16760|
-|DEAL Wiley Germany                               |    14856|
+|DEAL Springer Nature Germany                     |    16931|
+|DEAL Wiley Germany                               |    15009|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -295,6 +295,7 @@ This dataset contains information on 143,795 articles, published at 528 institut
 |TU Chemnitz                                                                                                                                        |      331|
 |Dortmund TU                                                                                                                                        |      329|
 |University of St.Gallen                                                                                                                            |      327|
+|Münster U                                                                                                                                          |      324|
 |University of Applied Sciences and Arts Western Switzerland                                                                                        |      317|
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |TU Braunschweig                                                                                                                                    |      316|
