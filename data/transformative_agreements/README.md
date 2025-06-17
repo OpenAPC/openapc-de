@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 146,279 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 146,799 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 146,279 articles, published at 531 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    16938|
-|DEAL Wiley Germany                               |    15015|
+|DEAL Springer Nature Germany                     |    17227|
+|DEAL Wiley Germany                               |    15246|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -190,12 +190,12 @@ This dataset contains information on 146,279 articles, published at 531 institut
 |University of Bern                                                                                                                                 |     2406|
 |University of Geneva                                                                                                                               |     2366|
 |University College Dublin                                                                                                                          |     2333|
+|Muenchen LMU                                                                                                                                       |     2321|
 |University of Padua                                                                                                                                |     2147|
 |Milano U                                                                                                                                           |     2085|
 |University of Lausanne                                                                                                                             |     2040|
 |University of Basel                                                                                                                                |     1982|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1875|
-|Muenchen LMU                                                                                                                                       |     1801|
 |Aalto University                                                                                                                                   |     1734|
 |Trinity College Dublin                                                                                                                             |     1730|
 |Tampere University                                                                                                                                 |     1702|
