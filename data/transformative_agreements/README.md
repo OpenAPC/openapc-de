@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 144,132 articles, published at 530 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 146,279 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -45,6 +45,7 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |FWF Transformative Agreement Wiley-Blackwell     |      869|
 |IReL Sage Agreement                              |      810|
 |CSIC-Wiley                                       |      806|
+|Crui-CARE Springer Agreement                     |      795|
 |University of Milan - Springer                   |      738|
 |Swiss Consortium CUP agreement                   |      709|
 |IReL IEEE Agreement                              |      693|
@@ -58,7 +59,9 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |FWF Transformative Agreement Elsevier            |      498|
 |IReL CUP Agreement                               |      498|
 |IReL ACS Agreement                               |      495|
+|Crui-CARE Elsevier Agreement                     |      476|
 |Austrian Consortium Wiley agreement              |      474|
+|Crui-CARE Wiley Agreement                        |      470|
 |CSIC-Royal Society of Chemistry                  |      456|
 |FWF Transformative Agreement ACS                 |      444|
 |FinELib Emerald agreement                        |      435|
@@ -83,6 +86,8 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |IReL RSC Agreement                               |      182|
 |Austrian Consortium RSC agreement                |      179|
 |FWF Transformative Agreement IOP                 |      172|
+|Crui-CARE ACS Agreement                          |      149|
+|Crui-CARE IEEE Agreement                         |      127|
 |FinELib Wolters Kluwer Lippincott agreement      |      127|
 |IReL IOP Agreement                               |      114|
 |TIB RSC Journals R&P - TU Berlin                 |      114|
@@ -90,6 +95,7 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |QNL Springer Nature Agreement                    |      103|
 |Swiss Consortium IEEE agreement                  |      100|
 |QNL Wiley Agreement                              |       92|
+|Crui-CARE CUP Agreement                          |       91|
 |IReL RIA Agreement                               |       87|
 |IReL AIP Agreement                               |       86|
 |CzechELib Taylor & Francis agreement             |       85|
@@ -98,10 +104,10 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |EISZ agreement Springer Nature                   |       79|
 |Swiss Consortium Nature Transformative agreement |       78|
 |CzechELib OUP agreement                          |       73|
+|Crui-CARE De Gruyter Agreement                   |       72|
 |IReL RS Agreement                                |       66|
 |EISZ agreement Elsevier                          |       64|
 |IReL BMJ Agreement                               |       63|
-|Crui-CARE Springer Agreement                     |       58|
 |CzechELib ACS agreement                          |       58|
 |University of Milan - ACS                        |       58|
 |CSIC-Cambridge University Press                  |       57|
@@ -115,16 +121,18 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |University of Milan - Royal Society of Chemistry |       45|
 |CzechELib CUP agreement                          |       43|
 |University of Milan - De Gruyter                 |       40|
-|Crui-CARE ACS Agreement                          |       38|
 |University of Milan - Lippincott                 |       38|
+|Crui-CARE RSC Agreement                          |       37|
 |IReL ACM Agreement                               |       36|
 |EISZ agreement Wiley                             |       35|
 |FinELib ACM agreement                            |       34|
+|Crui-CARE Emerald Agreement                      |       33|
 |FinELib Nature Research agreement                |       33|
 |MPG IOP agreement                                |       32|
 |QNL IEEE Agreement                               |       31|
 |IReL APA Agreement                               |       30|
 |CSIC-AIP                                         |       29|
+|Crui-CARE AIP Agreement                          |       29|
 |University of Milan - IOP                        |       27|
 |CSIC-Institute of Physics                        |       26|
 |CSIC-Royal Society                               |       25|
@@ -132,28 +140,24 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |Austrian Consortium Emerald agreement            |       23|
 |CzechELib Karger agreement                       |       23|
 |IReL ECS Agreement                               |       20|
+|Crui-CARE Lippincott Agreement                   |       19|
 |CzechELib IOP agreement                          |       19|
 |University of Milan - OUP                        |       19|
 |CzechELib SAGE agreement                         |       18|
-|Crui-CARE Elsevier Agreement                     |       17|
 |FWF Transformative Agreement Sage                |       17|
 |IReL Cell Press Agreement                        |       17|
 |Austrian Consortium Sage agreement               |       16|
 |CzechELib AIP agreement                          |       16|
 |FWF Transformative Agreement IEEE                |       16|
 |FinELib Elsevier Cell Press agreement            |       16|
-|Crui-CARE Wiley Agreement                        |       15|
 |CSIC-Microbiology Society                        |       13|
 |CSIC-Company of biologists                       |       11|
-|Crui-CARE CUP Agreement                          |       11|
 |IReL AmericanPhysicalSociety Agreement           |       11|
 |Swiss Consortium BMJ agreement                   |       10|
 |Swiss Consortium ACM agreement                   |        9|
 |CSIC-Brill                                       |        7|
 |CSIC-Portland Press                              |        7|
-|Crui-CARE AIP Agreement                          |        7|
 |IReL Company of Biologists Agreement             |        7|
-|Crui-CARE De Gruyter Agreement                   |        6|
 |Crui-CARE IOP Agreement                          |        5|
 |IReL CSHL Agreement                              |        4|
 |CzechELib ACM agreement                          |        3|
@@ -164,6 +168,7 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |QNL De Gruyter Agreement                         |        2|
 |University of Milan - ACM                        |        2|
 |CSIC-Rockefeller University Press                |        1|
+|Crui-CARE ACM Agreement                          |        1|
 |EISZ agreement DeGruyter                         |        1|
 |EISZ agreement Lippincott Williams and Wilkins   |        1|
 
@@ -185,6 +190,7 @@ This dataset contains information on 144,132 articles, published at 530 institut
 |University of Bern                                                                                                                                 |     2406|
 |University of Geneva                                                                                                                               |     2366|
 |University College Dublin                                                                                                                          |     2333|
+|University of Padua                                                                                                                                |     2147|
 |Milano U                                                                                                                                           |     2085|
 |University of Lausanne                                                                                                                             |     2040|
 |University of Basel                                                                                                                                |     1982|
