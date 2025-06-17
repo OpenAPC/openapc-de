@@ -1003,6 +1003,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1534-8687", # New Directions for Child and Adolescent Development, Gold OA since 2023
     "2365-5135", # Automotive and Engine Technology, Gold OA since 2025
     "1877-7171", # Journal of Parkinson’s Disease, Gold OA since 2023
+    "0939-3889", # Zeitschrift für Medizinische Physik, Gold OA since 2022
+    "0171-5216", # Journal of Cancer Research and Clinical Oncology, Gold OA since 2024
+    "0340-7004", # Cancer Immunology, Immunotherapy, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
