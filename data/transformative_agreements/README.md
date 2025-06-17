@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 144,119 articles, published at 529 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 144,132 articles, published at 530 institutions under 144 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 144,119 articles, published at 529 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    16931|
-|DEAL Wiley Germany                               |    15009|
+|DEAL Springer Nature Germany                     |    16938|
+|DEAL Wiley Germany                               |    15015|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -554,6 +554,7 @@ This dataset contains information on 144,119 articles, published at 529 institut
 |GSI                                                                                                                                                |       13|
 |Hochschule Bonn-Rhein-Sieg                                                                                                                         |       13|
 |Institut national de la recherche scientifique                                                                                                     |       13|
+|Munich University of Applied Sciences                                                                                                              |       13|
 |St.Gallen University of Teacher Education                                                                                                          |       13|
 |University of Education Schwaebisch Gmuend                                                                                                         |       13|
 |Université du Québec en Outaouais                                                                                                                  |       13|

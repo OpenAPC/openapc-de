@@ -102,6 +102,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Martin Luther Universität Halle-Wittenberg](https://bibliothek.uni-halle.de/dbib/openaccess/)
 - [Medizinische Hochschule Brandenburg Theodor Fontane](https://www.mhb-fontane.de/open-access-publikationsfonds-482.html)
+- [Munich University of Applied Sciences](https://www.hm.edu)
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
 - [Nürtingen-Geislingen University of Applied Science](https://www.hfwu.de)
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
