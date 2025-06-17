@@ -577,6 +577,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2468-3574": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery Protocols
 	"1877-7171": ["IOS Press", "SAGE Publications"], # Journal of Parkinson’s Disease 
 	"1877-718X": ["IOS Press", "SAGE Publications"], # Journal of Parkinson’s Disease (electronic)
+	"0938-8982": ["Wiley-Blackwell", "SAGE Publications"], # Learning Disabilities Research & Practice 
+	"1540-5826": ["Wiley-Blackwell", "SAGE Publications"], # Learning Disabilities Research & Practice (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
