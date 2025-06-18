@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 146,799 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 146,975 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 146,799 articles, published at 531 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    17227|
-|DEAL Wiley Germany                               |    15246|
+|DEAL Springer Nature Germany                     |    17316|
+|DEAL Wiley Germany                               |    15333|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -291,6 +291,7 @@ This dataset contains information on 146,799 articles, published at 531 institut
 |TU Bergakademie Freiberg                                                                                                                           |      362|
 |HU Berlin                                                                                                                                          |      360|
 |University of Birmingham                                                                                                                           |      355|
+|Marburg U                                                                                                                                          |      352|
 |Saarland U                                                                                                                                         |      350|
 |University of Calgary                                                                                                                              |      343|
 |Cardiff University                                                                                                                                 |      339|
@@ -355,7 +356,6 @@ This dataset contains information on 146,799 articles, published at 531 institut
 |Maastricht University Medical Center (UMC+)                                                                                                        |      189|
 |Graduate Institute of International and Development Studies                                                                                        |      184|
 |FZJ - ZB                                                                                                                                           |      179|
-|Marburg U                                                                                                                                          |      176|
 |University of Durham                                                                                                                               |      175|
 |Carleton University                                                                                                                                |      173|
 |University of Loughborough                                                                                                                         |      173|
