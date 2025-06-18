@@ -1006,6 +1006,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0939-3889", # Zeitschrift für Medizinische Physik, Gold OA since 2022
     "0171-5216", # Journal of Cancer Research and Clinical Oncology, Gold OA since 2024
     "0340-7004", # Cancer Immunology, Immunotherapy, Gold OA since 2024
+    "1467-5463", # Briefings in Bioinformatics, Gold OA since 2024
+    "1103-3088", # YOUNG, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
