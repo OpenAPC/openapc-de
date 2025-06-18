@@ -81,6 +81,7 @@ PUBLISHER_MAPPINGS = {
     "Nomos Verlagsgesellschaft mbH & Co.- KG": "Nomos Verlagsgesellschaft mbH & Co. KG",
     "edition text + kritik im Richard Boorberg Verlag": "edition text + kritik",
     "Springer Nature Switzerland": "Springer International Publishing",
+    "Schüren Verlag": "Schüren Verlag GmbH",
 }
 
 JOURNAL_MAPPINGS = {
