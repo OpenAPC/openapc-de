@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 147,011 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 147,114 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 147,011 articles, published at 531 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    17331|
-|DEAL Wiley Germany                               |    15354|
+|DEAL Springer Nature Germany                     |    17379|
+|DEAL Wiley Germany                               |    15409|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -336,6 +336,7 @@ This dataset contains information on 147,011 articles, published at 531 institut
 |Dalhousie University                                                                                                                               |      233|
 |University of Graz                                                                                                                                 |      232|
 |University of Reading                                                                                                                              |      226|
+|Konstanz U                                                                                                                                         |      221|
 |University of Natural Resources and Life Sciences Vienna (BOKU)                                                                                    |      219|
 |Queen's University                                                                                                                                 |      218|
 |Queen's University Belfast                                                                                                                         |      217|
@@ -398,7 +399,6 @@ This dataset contains information on 147,011 articles, published at 531 institut
 |University of Innsbruck                                                                                                                            |      124|
 |Montanuniversität Leoben                                                                                                                           |      122|
 |Salzburg U                                                                                                                                         |      119|
-|Konstanz U                                                                                                                                         |      118|
 |Universität Luzern                                                                                                                                 |      117|
 |University of Dundee                                                                                                                               |      115|
 |Rostock U                                                                                                                                          |      114|
