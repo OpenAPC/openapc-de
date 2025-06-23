@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 147,114 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 147,120 articles, published at 531 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 147,114 articles, published at 531 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    17379|
-|DEAL Wiley Germany                               |    15409|
+|DEAL Springer Nature Germany                     |    17384|
+|DEAL Wiley Germany                               |    15410|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -536,6 +536,7 @@ This dataset contains information on 147,114 articles, published at 531 institut
 |Cardiff Metropolitan University                                                                                                                    |       19|
 |University of Winnipeg                                                                                                                             |       19|
 |Westerdijk Fungal Biodiversity Center (CBS)                                                                                                        |       19|
+|Leibniz-BIPS                                                                                                                                       |       18|
 |Pädagogische Hochschule Bern                                                                                                                       |       18|
 |Swedish Defence Research Agency                                                                                                                    |       18|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       18|
@@ -568,7 +569,6 @@ This dataset contains information on 147,114 articles, published at 531 institut
 |GIGA                                                                                                                                               |       12|
 |HS RheinMain                                                                                                                                       |       12|
 |Häme University of Applied Sciences                                                                                                                |       12|
-|Leibniz-BIPS                                                                                                                                       |       12|
 |Leibniz-ZMT                                                                                                                                        |       12|
 |Toronto Rehabilitation Institute                                                                                                                   |       12|
 |Turku University of Applied Sciences                                                                                                               |       12|
