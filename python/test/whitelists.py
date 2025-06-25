@@ -1008,6 +1008,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0340-7004", # Cancer Immunology, Immunotherapy, Gold OA since 2024
     "1467-5463", # Briefings in Bioinformatics, Gold OA since 2024
     "1103-3088", # YOUNG, Gold OA since 2023
+    "1365-2710", # Journal of Clinical Pharmacy and Therapeutics, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
