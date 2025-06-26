@@ -7,7 +7,7 @@ PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
     (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
     (["SAGE Publications"], ["Pion Ltd"]),
-    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)"]),
+    (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)", "Hindawi Publishing Corporation"]),
     (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
     (["Mineralogical Society of America", "Geological Society of America"], ["GeoScienceWorld"]),
     (["International Scientific Literature"], ["International Scientific Information, Inc."]),
@@ -26,7 +26,8 @@ PUBLISHER_IDENTITY = [
     (["Wiley-Blackwell"], ["British Institute of Radiology"]),
     (["jovis Verlag"], ["De Gruyter"]), # jovis is an imprint of De Gruyter
     (["Joule Inc."], ["CMA Impact Inc."]),
-    (["CRC Press"], ["Routledge"]) # both imprints of T&F, both share a website and present their portfolio together
+    (["CRC Press"], ["Routledge"]), # both imprints of T&F, both share a website and present their portfolio together
+    (["edition text + kritik"], ["De Gruyter"])
 ]
 
 
@@ -88,16 +89,11 @@ JOURNAL_OWNER_CHANGED = {
     "1096-7508": ["International Food and Agribusiness Management Association", "Wageningen Academic Publishers"], # International Food and Agribusiness Management Review (linking)
     "1528-3658": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine 
     "1076-1551": ["The Feinstein Institute for Medical Research (North Shore LIJ Research Institute)", "Springer Nature"], # Molecular Medicine (linking)
-    "1555-4309": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging
-    "1555-4317": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Contrast Media & Molecular Imaging (electronic)
     "2049-1115": ["HAU, Journal of Ethnographic Theory", "University of Chicago Press"], # HAU: Journal of Ethnographic Theory
-    "0197-6729": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation
-    "2042-3195": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Advanced Transportation (electronic)
     "0094-8276": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters"
     "1944-8007": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # "Geophysical Research Letters (electronic)"
     "8755-1209": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics
     "1944-9208": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Reviews of Geophysics (linking)
-    "0161-0457": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Scanning
     "2169-9380": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics
     "2169-9402": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Journal of Geophysical Research: Space Physics (electronic)
     "1542-7390": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Space Weather
@@ -128,6 +124,7 @@ JOURNAL_OWNER_CHANGED = {
     "0883-6612": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine
     "1532-4796": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Annals of Behavioral Medicine (electronic)
     "0013-0095": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography
+    "1944-8287": ["Wiley-Blackwell", "Informa UK Limited"], #Economic Geography (electronic)
     "2157-6564": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine
     "2157-6580": ["Alphamed Press", "Wiley-Blackwell", "Oxford University Press (OUP)"], # STEM CELLS Translational Medicine (electronic)
     "0002-9122": ["Botanical Society of America", "Wiley-Blackwell"], # American Journal of Botany
@@ -140,8 +137,6 @@ JOURNAL_OWNER_CHANGED = {
     "1869-6716": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine
     "1613-9860": ["Springer Science + Business Media", "Springer Nature", "Oxford University Press (OUP)"], # Translational Behavioral Medicine (electronic)
     "0883-8305": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Paleoceanography
-    "1099-0526": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Complexity
-    "1076-2787": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Complexity (print)
     "2333-5084": ["Wiley-Blackwell", "American Geophysical Union (AGU)"], # Earth and Space Science
     "2041-8213": ["IOP Publishing", "American Astronomical Society"], # The Astrophysical Journal
     "0024-6107": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Journal of the London Mathematical Society
@@ -332,8 +327,8 @@ JOURNAL_OWNER_CHANGED = {
     "1535-3508": ["Hindawi Publishing Corporation", "SAGE Publications"], # Molecular Imaging (linking)
     "1756-591X": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"], # Metallomics
     "1756-5901": ["Oxford University Press (OUP)", "Royal Society of Chemistry (RSC)"], # Metallomics (linking)
-    "1745-3682": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica
-    "1745-3674": ["Informa UK Limited", "Medical Journals Sweden AB"], # Acta Orthopaedica (linking)
+    "1745-3682": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Orthopaedica
+    "1745-3674": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Orthopaedica (linking)
     "1432-2277": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International
     "0934-0874": ["Wiley-Blackwell", "Frontiers Media SA"], # Transplant International (linking)
     "0022-0302": ["American Dairy Science Association", "Elsevier BV"], # Journal of Dairy Science
@@ -345,8 +340,8 @@ JOURNAL_OWNER_CHANGED = {
     "1686-4360": ["Informa UK Limited", "CAD Solutions, LLC"], # Computer-Aided Design and Applications
     "2535-5449": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden
     "0800-1669": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden (linking)
-    "1651-2081": ["Acta Dermato-Venereologica", "Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine
-    "1650-1977": ["Acta Dermato-Venereologica", "Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine (linking)
+    "1651-2081": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine
+    "1650-1977": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine (linking)
     "1083-7159": [ "Wiley-Blackwell", "Oxford University Press (OUP)"], # The Oncologist
     "1549-490X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # The Oncologist (electronic)
     "1178-2234": ["Libertas Academica, Ltd.", "SAGE Publications"], # Breast Cancer: Basic and Clinical Research
@@ -392,18 +387,11 @@ JOURNAL_OWNER_CHANGED = {
 	"1532-298X": ["American Society of Plant Biologists (ASPB)", "Oxford University Press (OUP)"], # The Plant Cell (electronic)
 	"0011-183X": ["Crop Science Society of America", "Wiley-Blackwell"], # Crop Science 
 	"1435-0653": ["Crop Science Society of America", "Wiley-Blackwell"], # Crop Science (electronic)
-	"1365-2095": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Nutrition 
-	"1353-5773": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Nutrition (print)
-	"2475-0387": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Theoretical Social Psychology
-	"1365-2109": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research 
-	"1355-557X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Aquaculture Research (print)
 	"2095-9273": ["Springer Nature", "Elsevier BV"], # Science Bulletin 
 	"0014-3820": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution 
 	"1558-5646": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution (electronic)
 	"0004-8038": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology 
 	"2732-4613": ["American Ornithologists' Union", "Oxford University Press (OUP)"], # Ornithology (electronic)
-	"1865-1682": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases 
-	"1865-1674": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Transboundary and Emerging Diseases (print)
 	"0961-7671": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice 
 	"2042-7174": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Pharmacy Practice (electronic)
 	"0307-6938": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Clinical and Experimental Dermatology 
@@ -425,21 +413,11 @@ JOURNAL_OWNER_CHANGED = {
 	"2042-7158": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Pharmacy and Pharmacology (electronic)
 	"0309-8249": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education 
 	"1467-9752": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Philosophy of Education (electronic)
-	"1742-1241": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice 
-	"1368-5031": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Clinical Practice (print)
 	"2241-5793": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki 
 	"1790-045X": ["Springer Nature", "Aristotle University of Thessaloniki (AUTH)"], # Journal of Biological Research-Thessaloniki (linking)
 	"0025-5300": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing 
 	"2195-8572": ["Carl Hanser Verlag", "Walter de Gruyter GmbH"], # Materials Testing (electronic)
-	"1755-0238": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research 
-	"1322-7130": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Australian Journal of Grape and Wine Research (print)
-	"1524-4741": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal 
-	"1075-122X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # The Breast Journal (print)
 	"2056-3744": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Evolution Letters 
-	"1545-2263": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring 
-	"1545-2255": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Structural Control and Health Monitoring (print)
-	"1365-2524": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Health & Social Care in the Community 
-	"0966-0410": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Health & Social Care in the Community (linking)
 	"2471-254X": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology Communications 
 	"2375-1916": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives 
 	"2375-1924": ["Knowledge Enterprise Journals", "European Society of Medicine"], # Medical Research Archives (electronic)
@@ -450,21 +428,14 @@ JOURNAL_OWNER_CHANGED = {
 	"1746-1553": ["SAGE Publications", "Ovid Technologies (Wolters Kluwer Health)"], # Prosthetics & Orthotics International (electronic)
 	"0270-9139": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology
     "1527-3350": ["Wiley-Blackwell", "Ovid Technologies (Wolters Kluwer Health)"], # Hepatology (electronic)
-	"1743-9159": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery
-	"2168-1813": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology 
-	"2168-1805": ["Informa UK Limited", "Medical Journals Sweden AB"], # Scandinavian Journal of Urology (print)
-	"1399-5448": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Pediatric Diabetes 
-	"1399-543X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Pediatric Diabetes (print)
-	"1600-0404": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica 
-	"0001-6314": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Acta Neurologica Scandinavica (print)
-	"2000-656X": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
-	"2000-6764": ["Informa UK Limited", "Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery (electronic)
+	"1743-9191": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery
+	"1743-9159": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery (linking)
+	"2168-1813": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Scandinavian Journal of Urology 
+	"2168-1805": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Scandinavian Journal of Urology (print)
+	"2000-656X": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery
+	"2000-6764": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Plastic Surgery and Hand Surgery (electronic)
 	"0024-1164": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia 
 	"1502-3931": ["Wiley-Blackwell", "Scandinavian University Press / Universitetsforlaget AS"], # Lethaia (electronic)
-	"1932-7005": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine 
-	"1932-6254": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Tissue Engineering and Regenerative Medicine (linking)
-	"1520-6394": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety 
-	"1091-4269": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Depression and Anxiety (print)
 	"2516-3817": ["Elsevier", "Adjacent Digital Politics Ltd"], # Open Access Government
 	"1342-078X": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine 
 	"1347-4715": ["Springer Nature", "Japanese Society for Hygiene"], # Environmental Health and Preventive Medicine (electronic)
@@ -482,8 +453,6 @@ JOURNAL_OWNER_CHANGED = {
 	"1097-6647": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance (linking)
 	"1355-8145": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Cell Stress and Chaperones
 	"1071-3581": ["Springer Nature", "Elsevier BV"], # Journal of Nuclear Cardiology 
-	"1745-4549": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation 
-	"0145-8892": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Food Processing and Preservation (print)
 	"1538-7836": ["Wiley-Blackwell", "Elsevier BV"], # Journal of Thrombosis and Haemostasis
 	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
     "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
@@ -499,16 +468,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1010-061X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Evolutionary Biology (linking)
 	"1057-2414": ["Wiley-Blackwell", "Informa UK Limited"], # International Journal of Nautical Archaeology 
 	"1095-9270": ["Wiley-Blackwell", "Informa UK Limited"], # International Journal of Nautical Archaeology (electronic)
-	"1098-1004": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Mutation 
-	"1059-7794": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Mutation (print)
-	"1365-2834": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management 
-	"0966-0429": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Nursing Management (print)
-	"2578-1863": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Human Behavior and Emerging Technologies
 	"1757-1146": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Journal of Foot and Ankle Research
 	"1672-0229": ["Elsevier BV", "Oxford University Press (OUP)"], # Genomics, Proteomics & Bioinformatics 
 	"2210-3244": ["Elsevier BV", "Oxford University Press (OUP)"], # Genomics, Proteomics & Bioinformatics (electronic) 
-	"1439-0426": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology 
-	"0175-8659": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # Journal of Applied Ichthyology (print)
 	"1876-2883": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes 
 	"1876-2891": ["Wageningen Academic Publishers", "Brill"], # Beneficial Microbes (electronic)
 	"1098-5549": ["American Society for Microbiology", "Informa UK Limited"], # Molecular and Cellular Biology 
@@ -537,14 +499,86 @@ JOURNAL_OWNER_CHANGED = {
 	"2352-4588": ["Wageningen Academic Publishers", "Brill"], # Journal of Insects as Food and Feed
 	"1751-7362": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal 
 	"1751-7370": ["Nature Publishing Group", "Springer Nature", "Oxford University Press (OUP)"], # The ISME Journal (electronic) 
-    "1099-114X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research 
-    "0363-907X": ["Wiley-Blackwell", "Hindawi Publishing Corporation"], # International Journal of Energy Research (print)
     "2050-1161": ["Elsevier BV", "Oxford University Press (OUP)"], # Sexual Medicine
     "0277-2116": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Journal of Pediatric Gastroenterology and Nutrition 
 	"1536-4801": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Journal of Pediatric Gastroenterology and Nutrition (electronic)
 	"1733-8387": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria 
 	"1897-1695": ["Walter de Gruyter GmbH", "Silesian University of Technology"], # Geochronometria (electronic)
-
+	"2641-5275": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Biomaterial Investigations in Dentistry
+	"1760-5393": ["CAIRN", "OpenEdition"], # Revue d'anthropologie des connaissances 
+	"2424-7723": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting 
+	"2424-8002": ["Whioce Publishing Pte Ltd", "AccScience Publishing"], # International Journal of Bioprinting (electronic)
+	"2049-0801": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Annals of Medicine & Surgery
+	"2035-8164": ["PAGEPress Publications", "Open Medical Publishing"], # Orthopedic Reviews
+	"1897-4279": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska 
+	"0022-9032": ["Polskie Towarzystwo Kardiologiczne", "Via Medica"], # Kardiologia Polska (print)
+	"0392-1921": ["SAGE Publications", "Cambridge University Press (CUP)"], # Diogenes 
+	"1467-7695": ["SAGE Publications", "Cambridge University Press (CUP)"], # Diogenes (electronic)
+	"1743-5889": ["Future Medicine Ltd", "Informa UK Limited"], # Nanomedicine 
+	"1748-6963": ["Future Medicine Ltd", "Informa UK Limited"], # Nanomedicine (electronic)
+	"1387-2877": ["IOS Press", "SAGE Publications"], # Journal of Alzheimer's Disease 
+	"1875-8908": ["IOS Press", "SAGE Publications"], # Journal of Alzheimer's Disease (electronic)
+	"1750-1911": ["Future Medicine Ltd", "Informa UK Limited"], # Epigenomics 
+	"1750-192X": ["Future Medicine Ltd", "Informa UK Limited"], # Epigenomics (electronic)
+	"1651-226X": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Oncologica 
+	"0284-186X": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Oncologica (linking)
+	"1651-2057": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Acta Dermato Venereologica 
+	"0001-5555": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Acta Dermato Venereologica (print)
+	"1048-891X": ["Ovid Technologies (Wolters Kluwer Health)", "BMJ"], # International Journal of Gynecological Cancer
+	"0736-6205": ["Future Science, LTD", "Informa UK Limited"], # BioTechniques 
+	"1940-9818": ["Future Science, LTD", "Informa UK Limited"], # BioTechniques (electronic)
+	"2161-2234": ["Wiley-Blackwell", "Philosophy Documentation Center"], # Thought: A Journal of Philosophy 
+	"0364-2313": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # World Journal of Surgery 
+	"1432-2323": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # World Journal of Surgery (electronic)
+	"1743-6095": ["Elsevier BV", "Oxford University Press (OUP)"], # The Journal of Sexual Medicine 
+	"1743-6109": ["Elsevier BV", "Oxford University Press (OUP)"], # The Journal of Sexual Medicine (electronic)
+	"1556-3316": ["Springer Nature", "SAGE Publications"], # HSS Journal®: The Musculoskeletal Journal of Hospital for Special Surgery 
+	"1556-3324": ["Springer Nature", "SAGE Publications"], # HSS Journal®: The Musculoskeletal Journal of Hospital for Special Surgery (electronic)
+	"0195-6574": ["International Association for Energy Economics (IAEE)", "SAGE Publications"], # The Energy Journal 
+	"1944-9089": ["International Association for Energy Economics (IAEE)", "SAGE Publications"], # The Energy Journal (electronic)
+	"0267-0836": ["Informa UK Limited", "SAGE Publications"], # Materials Science and Technology 
+	"1743-2847": ["Informa UK Limited", "SAGE Publications"], # Materials Science and Technology (electronic)
+	"0278-0771": ["Society of Ethnobiology", "SAGE Publications"], # Journal of Ethnobiology 
+	"2162-4496": ["Society of Ethnobiology", "SAGE Publications"], # Journal of Ethnobiology (electronic)
+	"0301-9233": ["Informa UK Limited", "SAGE Publications"], # Ironmaking & Steelmaking: Processes, Products and Applications 
+	"1743-2812": ["Informa UK Limited", "SAGE Publications"], # Ironmaking & Steelmaking: Processes, Products and Applications (electronic)
+	"1059-1478": ["Wiley-Blackwell", "SAGE Publications"], # Production and Operations Management 
+	"1937-5956": ["Wiley-Blackwell", "SAGE Publications"], # Production and Operations Management (electronic)
+	"1080-6032": ["Elsevier BV", "SAGE Publications"], # Wilderness & Environmental Medicine 
+	"1545-1534": ["Elsevier BV", "SAGE Publications"], # Wilderness & Environmental Medicine (electronic)
+	"1362-1718": ["Informa UK Limited", "SAGE Publications"], # Science and Technology of Welding and Joining 
+	"1743-2936": ["Informa UK Limited", "SAGE Publications"], # Science and Technology of Welding and Joining (electronic)
+	"2042-6445": ["Informa UK Limited", "SAGE Publications"], # International Wood Products Journal 
+	"2042-6453": ["Informa UK Limited", "SAGE Publications"], # International Wood Products Journal (electronic)
+	"0959-3020": ["IOS Press", "SAGE Publications"], # Isokinetics and Exercise Science 
+	"1878-5913": ["IOS Press", "SAGE Publications"], # Isokinetics and Exercise Science (electronic)
+	"1752-7015": ["White Horse Press", "SAGE Publications"], # Environmental Values 
+	"0963-2719": ["White Horse Press", "SAGE Publications"], # Environmental Values (linking)
+	"1051-9815": ["IOS Press", "SAGE Publications"], # WORK: A Journal of Prevention, Assessment & Rehabilitation 
+	"1875-9270": ["IOS Press", "SAGE Publications"], # WORK: A Journal of Prevention, Assessment & Rehabilitation (electronic)
+	"1499-9013": ["Informa UK Limited", "SAGE Publications"], # International Journal of Forensic Mental Health 
+	"1932-9903": ["Informa UK Limited", "SAGE Publications"], # International Journal of Forensic Mental Health (electronic)
+	"1878-5123": ["IOS Press", "SAGE Publications"], # Journal of Berry Research 
+	"1878-5093": ["IOS Press", "SAGE Publications"], # Journal of Berry Research (linking)
+	"2168-8184": ["Cureus, Inc.", "Springer Nature"], # Cureus
+	"0002-9270": ["Nature Publishing Group", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # American Journal of Gastroenterology 
+	"1572-0241": ["Nature Publishing Group", "Springer Nature", "Ovid Technologies (Wolters Kluwer Health)"], # American Journal of Gastroenterology (electronic)
+	"2193-0074": ["Copernicus GmbH", "Pensoft Publishers"], # Fossil Record 
+	"2193-0066": ["Copernicus GmbH", "Pensoft Publishers"], # Fossil Record (print)
+	"2052-3211": ["Springer Nature", "Informa UK Limited"], # Journal of Pharmaceutical Policy and Practice 
+	"1757-4684": ["EMBO", "Springer Nature"], # EMBO Molecular Medicine 
+	"1757-4676": ["EMBO", "Springer Nature"], # EMBO Molecular Medicine (linking)
+	"1744-4292": ["EMBO", "Springer Nature"], # Molecular Systems Biology 
+	"1948-6596": ["California Digital Library (CDL)", "Pensoft Publishers"], # Frontiers of Biogeography 
+	"2473-4039": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # JBMR Plus
+	"2643-6515": ["American Association for the Advancement of Science (AAAS)", "Elsevier BV"], # Plant Phenomics 
+	"1478-422X": ["Informa UK Limited", "SAGE Publications"], # Corrosion Engineering, Science and Technology: The International Journal of Corrosion Processes and Corrosion Control 
+	"1743-2782": ["Informa UK Limited", "SAGE Publications"], # Corrosion Engineering, Science and Technology: The International Journal of Corrosion Processes and Corrosion Control (electronic)
+	"2468-3574": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # International Journal of Surgery Protocols
+	"1877-7171": ["IOS Press", "SAGE Publications"], # Journal of Parkinson’s Disease 
+	"1877-718X": ["IOS Press", "SAGE Publications"], # Journal of Parkinson’s Disease (electronic)
+	"0938-8982": ["Wiley-Blackwell", "SAGE Publications"], # Learning Disabilities Research & Practice 
+	"1540-5826": ["Wiley-Blackwell", "SAGE Publications"], # Learning Disabilities Research & Practice (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -919,6 +953,62 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1871-4757", # NanoEthics, Gold OA since 2023
     "0333-1024", # Cephalalgia, Gold OA since 2023
     "0001-0782", # Communications of the ACM, Gold OA since 2024
+    "1365-2354", # European Journal of Cancer Care, Gold OA since 2023
+    "0961-5423", # European Journal of Cancer Care, Gold OA since 2023 (linking)
+    "0891-6934", # Autoimmunity, Gold OA since 2023
+    "0018-442X", # HOMO, Gold OA since 2022
+    "0378-3820", # Fuel Processing Technology, Gold OA since 2024
+    "2573-8348", # Cancer Reports, Gold OA since 2021
+    "1591-9528", # Clinical and Experimental Medicine, Gold OA since 2024
+    "1742-3600", # Episteme, Gold OA since 2024
+    "1478-9515", # Palliative and Supportive Care, Gold OA since 2025
+    "1396-0296", # Dermatologic Therapy, Gold OA since 2023
+    "1435-9456", # Animal Cognition, Gold OA since 2024
+    "1016-2291", # Pediatric Neurosurgery, Subscribe to Open (S2O) in 2023
+    "0016-7568", # Geological Magazine, Gold OA since 2024
+    "1471-0684", # Theory and Practice of Logic Programming, Gold OA since 2024
+    "1092-8529", # CNS Spectrums, Gold OA since 2024 (Nov.)
+    "0022-3778", # Journal of Plasma Physics, Gold OA since 2024 (Sept.)
+    "0962-4929", # Acta Numerica, Gold OA since 2025
+    "1740-0228", # Journal of Global History, Gold OA since 2024
+    "2057-5637", # European Journal of International Security, Gold OA since 2025
+    "0922-1565", # Leiden Journal of International Law, Gold OA since 2025
+    "1816-3831", # International Review of the Red Cross, Gold OA since 2025
+    "1469-3569", # Business and Politics, Gold OA since 2024 (Oct.)
+    "1744-1331", # Health Economics, Policy and Law, Gold OA since 2024 (Aug.)
+    "0018-246X", # The Historical Journal, Gold OA since 2024 (Aug.)
+    "0954-3945", # Language Variation and Change, Gold OA since 2024 (Oct.)
+    "0147-5479", # International Labor and Working-Class History, Gold OA since 2024 (June)
+    "0007-1234", # British Journal of Political Science, Gold OA since 2024 (July)
+    "1867-299X", # European Journal of Risk Regulation, Gold OA since 2025
+    "1866-9808", # Language and Cognition, Gold OA since 2023
+    "1755-7739", # European Political Science Review, Gold OA since 2023
+    "2049-8470", # Political Science Research and Methods, Gold OA since 2024 (Aug.)
+    "0094-8373", # Paleobiology, Gold OA since 2024 (Nov.)
+    "1383-4924", # The Journal of Comparative Germanic Linguistics, Gold OA since 2023
+    "1651-226X", # Acta Oncologica, Gold OA since 2024
+    "0142-0615", # International Journal of Electrical Power & Energy Systems, Gold OA since 2024
+    "2169-9763", # Journal of International and Comparative Social Policy, Gold OA since 2025
+    "0956-7933", # Rural History, Gold OA since 2024 
+    "0959-7743", # Cambridge Archaeological Journal, Gold OA since 2024 (Oct.)
+    "0967-3911", # Polymers and Polymer Composites, Gold OA since 2022
+    "1528-0837", # Journal of Industrial Textiles, Gold OA since 2022
+    "1940-0829", # Tropical Conservation Science, Hybrid OA since 2025
+    "0022-2615", # Journal of Medical Microbiology, Subscribe to Open (S2O) in Feb. 2025
+    "0014-4800", # Experimental and Molecular Pathology, Gold OA since 2023
+    "0956-540X", # Geophysical Journal International, Gold OA since 2024 
+    "1049-9644", # Biological Control, Gold OA since 2024
+    "0924-0519", # Netherlands Quarterly of Human Rights, Subscribe to Open (S2O) since 2023 
+    "0954-6634", # Journal of Dermatological Treatment, Gold OA since 2023
+    "1534-8687", # New Directions for Child and Adolescent Development, Gold OA since 2023
+    "2365-5135", # Automotive and Engine Technology, Gold OA since 2025
+    "1877-7171", # Journal of Parkinson’s Disease, Gold OA since 2023
+    "0939-3889", # Zeitschrift für Medizinische Physik, Gold OA since 2022
+    "0171-5216", # Journal of Cancer Research and Clinical Oncology, Gold OA since 2024
+    "0340-7004", # Cancer Immunology, Immunotherapy, Gold OA since 2024
+    "1467-5463", # Briefings in Bioinformatics, Gold OA since 2024
+    "1103-3088", # YOUNG, Gold OA since 2023
+    "1365-2710", # Journal of Clinical Pharmacy and Therapeutics, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
@@ -931,6 +1021,7 @@ AMBIGUOUS_JOURNAL_TITLES = {
     "Journal of Optics": ["0974-6900", "2040-8978"], # Springer Nature / IOP Publishing
     "Educational Studies": ["0013-1946", "0305-5698"], # Both T&F. 0013-1946 with subtitle "A Journal of the American Educational Studies Association"
     "Journal of Surgery": ["2330-0914", "2575-9760"], # Science Publishing Group / Gavin Publishers
+    "Engineering": ["1947-394X", "2095-8099"], # Scientific Research Publishing / Elsevier
 }
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like

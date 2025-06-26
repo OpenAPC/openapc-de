@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |236,559 | 474,879,762    | 452 |
-| Monographs       |2,052 | 13,504,472    | 80 |
+| Articles         |249,837 | 508,082,338    | 465 |
+| Monographs       |2,230 | 14,756,922    | 92 |
 
 ## How to access the data?
 
@@ -91,6 +91,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Hochschule Konstanz Technik, Wirtschaft und Gestaltung](https://www.htwg-konstanz.de/hochschule/einrichtungen/bibliothek/publizieren-open-access/foerdermoeglichkeiten)
 - [Hochschule Neubrandenburg](https://www.hs-nb.de/bibliothek/hauptmenue/wissenschaftliche-services/publizieren/open-access-beratung/#c1402011)
 - Hochschule Reutlingen
+- [Hochschule RheinMain](https://www.hs-rm.de/de/)
 - [Hochschule für Technik und Wirtschaft Dresden](https://www.htw-dresden.de/open-access)
 - [Humboldt-Universität zu Berlin](https://www.ub.hu-berlin.de/de/forschen-publizieren/open-access/finanzierung/publikationsfonds-zeitschriftenartikel)
 - [JLU Gießen](https://www.uni-giessen.de/ub/en/digitales-publizieren-en/openaccess-en/oafonds-en?set_language=en)
@@ -98,20 +99,26 @@ The following institutions have contributed to OpenAPC so far:
 - [Johannes Gutenberg University of Mainz](https://www.ub.uni-mainz.de/de/open-access/foerderkriterien-open-access)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
 - [Leipzig University](https://www.ub.uni-leipzig.de/open-science/publikationsfonds/)
+- [Leuphana University of Lüneburg](https://www.leuphana.de)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Martin Luther Universität Halle-Wittenberg](https://bibliothek.uni-halle.de/dbib/openaccess/)
 - [Medizinische Hochschule Brandenburg Theodor Fontane](https://www.mhb-fontane.de/open-access-publikationsfonds-482.html)
+- [Munich University of Applied Sciences](https://www.hm.edu)
 - [Münster University](https://www.uni-muenster.de/Publizieren/service/publikationsfonds/)
+- [Nürtingen-Geislingen University of Applied Science](https://www.hfwu.de)
 - [Osnabrück University](https://www.ub.uni-osnabrueck.de/publizieren_archivieren/open_access/publikationsfonds.html)
 - [Otto-von-Guericke-Universität Magdeburg](https://www.ub.ovgu.de/Publizieren+_+Open+Access/Open+Access.html)
 - [Philipps University of Marburg](https://www.uni-marburg.de/de/ub/forschen/open-access/open-access-publikationsfonds)
 - [RWTH Aachen](https://www.ub.rwth-aachen.de/cms/ub/Forschung/Wissenschaftliches-Publizieren/~iigq/Open-Access-Die-neue-Art-zu-publizieren/)
+- [Regensburg University of Applied Sciences](https://www.oth-regensburg.de)
 - [Rheinische Friedrich-Wilhelms-Universität Bonn](https://www.open-access.uni-bonn.de/de)
+- [Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau](https://ub.rptu.de/en/writing-publishing/open-access/financing-of-oa-publications)
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
 - [TH Köln - University of Applied Sciences](https://www.th-koeln.de/hochschulbibliothek/open-access-publikationsfonds_98372.php)
 - TU Bergakademie Freiberg
 - [Technische Hochschule Brandenburg](https://bibliothek.th-brandenburg.de/open-access-und-publizieren/open-access/)
+- [Technische Hochschule Ingolstadt](https://www.thi.de/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php)
@@ -166,9 +173,10 @@ The following institutions have contributed to OpenAPC so far:
 - [GEOMAR - Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/centre/central-facilities/bibliothek/author-services/publication-costs)
 - [GFZ German Research Centre for Geosciences](https://www.gfz-potsdam.de/en) (data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/))
 - [GSI Helmholtzzentrum für Schwerionenforschung](https://www.gsi.de/bibliothekunddokumentation/open_access_gsi)
+- [Helmholtz Zentrum München](https://www.helmholtz-munich.de/en/)
 - [Helmholtz-Zentrum Dresden-Rossendorf](http://www.hzdr.de/db/Cms?pNid=73)
 - [Helmholtz-Zentrum für Umweltforschung – UFZ](https://www.ufz.de/index.php?en=36297)
-- [KIT Karlsruhe](http://www.bibliothek.kit.edu/cms/kit-publikationsfonds.php)
+- [KIT Karlsruhe](https://www.bibliothek.kit.edu/publikationsfonds.php)
 - [Max Delbrück Center for Molecular Medicine (MDC)](https://www.mdc-berlin.de/about_the_mdc/structure/administration/library/oa?mdcbl%5B0%5D=/library&mdctl=0&mdcou=0&mdcot=0&mdcbv=nqe3t2xG8PGtPtxTs7kNhLVIaYkEwltgLl3DWBohxeI)
 
 ####  Leibniz Association 
@@ -176,11 +184,13 @@ The following institutions have contributed to OpenAPC so far:
 - [DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation](https://www.dipf.de/en/knowledge-resources/dipfdocs-open-access?set_language=en)
 - [Deutsches Institut für Ernährungsforschung Potsdam-Rehbrücke](https://www.dife.de/en/about-us/organization/science-coordination/)
 - [Deutsches Primatenzentrum - Leibniz-Institut für Primatenforschung](https://www.dpz.eu/de/abteilung/bibliothek/serviceangebot.html)
+- [Forschungsinstitut für Nutztierbiologie (FBN)](https://www.fbn-dummerstorf.de/)
 - [GESIS - Leibniz-Institut für Sozialwissenschaften](https://www.gesis.org/en/home)
 - [GIGA German Institute of Global and Area Studies](https://www.giga-hamburg.de/de/das-giga/giga-bibliothek/open-access)
 - [IGB - Leibniz-Institute of Freshwater Ecology and Inland Fisheries](https://www.igb-berlin.de/en/library)
 - [INM - Leibniz Institute for New Materials](https://www.ntnm-bib.de/en/)
 - [IPN - Leibniz Institute for Science and Mathematics Education](https://www.leibniz-ipn.de/de/das-ipn/ueber-uns/bibliothek)
+- [Kiel Institute for the World Economy](https://www.ifw-kiel.de/institute/about-the-kiel-institute/organization/open-access-policy-of-the-kiel-institute/)
 - [Leibniz-Fonds](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access)
 - [Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden](https://www.ifw-dresden.de/about-us/library)
 - [Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung](https://www.ipk-gatersleben.de/en/library)
@@ -188,6 +198,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Leibniz-Institut für Raumbezogene Sozialforschung (IRS)](https://leibniz-irs.de/en/research/publications/open-access)
 - [Leibniz-Institut für Zoo- und Wildtierforschung](https://www.izw-berlin.de/de/bibliothek.html)
 - [Leibniz-Institut für ökologische Raumentwicklung](https://www.ioer.de/en/)
+- [Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF)](https://www.zalf.de/en/struktur/bib/Pages/Bibliothek.aspx)
 - [Leibniz-Zentrum für Marine Tropenforschung](https://www.leibniz-zmt.de/en/research-infrastructure/media-unit.html)
 - Museum für Naturkunde - Leibniz-Institut für Evolutions- und Biodiversitätsforschung
 - [Paul-Drude-Institut für Festkörperelektronik](http://www.pdi-berlin.de/home/)
@@ -275,6 +286,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Pädagogische Hochschule Zürich](https://phzh.ch/ueber-die-phzh/campus/bibliothek/open-access/)
 - [Schwyz University of Teacher Education](https://www.phsz.ch/en/)
 - [St.Gallen University of Teacher Education](https://www.phsg.ch/en)
+- [Swiss Distance University Institute](https://unidistance.ch/en/)
 - [Swiss Federal University for Vocational Education and Training](https://www.sfuvet.swiss/)
 - [Swiss National Science Foundation (SNSF)](http://www.snf.ch/en/theSNSF/research-policies/open-access/Pages/default.aspx#OA%202020%20Policy)
 - [Swiss Ornithological Institute](https://www.vogelwarte.ch/de/home/)
@@ -309,6 +321,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Free University of Bozen-Bolzano](https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/)
 - [Scuola Normale Superiore](https://www.sns.it/it)
 - [University of Milano-Bicocca](https://en.unimib.it/)
+- [University of Padua](https://biblio.unipd.it/en/digital-library/about-publishing/agreements-with-publishers)
 - [Università degli Studi di Milano](https://www.unimi.it/en)
 - [Università degli Studi di Modena e Reggio Emilia](https://international.unimore.it/)
 - [Veneto Institute of Oncology (IOV IRCCS)](https://www.ioveneto.it/unit/gestione-documentazione-scientifica/)
@@ -694,7 +707,95 @@ The following institutions have contributed to OpenAPC so far:
 
 ## Institutions from Canada 
 
+- [Acadia University](http://www2.acadiau.ca/)
+- [Algoma University](https://algomau.ca)
+- [Athabasca University](https://www.athabascau.ca)
+- [BC Children's Hospital Foundation](http://www.bcchf.ca/)
+- [Balsillie School of International Affairs](https://balsillieschool.ca)
+- [Bishop's University](https://www.ubishops.ca)
+- [Brandon University](https://www.brandonu.ca/)
+- [Brock University](https://brocku.ca)
+- [Bruyère](http://www.bruyere.org/)
+- [Canadian Research Knowledge Network](http://www.crkn-rcdr.ca)
+- [Cape Breton University](http://www.cbu.ca/)
+- [Carleton University](https://carleton.ca)
+- [Concordia University](https://www.concordia.ca/)
+- [Dalhousie University](https://www.dal.ca)
+- [HEC Montréal](https://www.hec.ca)
+- [Holland Bloorview Kids Rehabilitation Hospital](https://hollandbloorview.ca)
+- [Hospital for Sick Children](http://www.sickkids.ca/)
+- [Institut National de la Recherche Scientifique](https://inrs.ca)
+- [Institut Universitaire de Cardiologie et de Pneumologie de Québec](http://iucpq.qc.ca/en)
+- [Kwantlen Polytechnic University](https://www.kpu.ca)
+- [Lakehead University](https://www.lakeheadu.ca)
+- [Laurentian University](https://laurentian.ca/)
+- [MacEwan University](https://www.macewan.ca)
+- [McGill University](https://www.mcgill.ca)
+- [McMaster University](https://www.mcmaster.ca)
+- [Memorial University of Newfoundland](https://mun.ca)
+- [Mount Allison University](https://mta.ca)
+- [Mount Royal University](https://www.mtroyal.ca)
+- [Mount Saint Vincent University](https://www.msvu.ca)
+- [Mount Sinai Hospital](http://www.mountsinai.on.ca/)
+- [NOSM University](https://www.nosm.ca)
+- [Nipissing University](https://www.nipissingu.ca)
+- [Ontario College of Art and Design](https://www.ocadu.ca)
+- [Polytechnique Montréal](https://polymtl.ca)
+- [Princess Margaret Cancer Centre](http://www.uhn.ca/PrincessMargaret)
+- [Queen's University](http://www.queensu.ca/)
+- [Royal Roads University](https://www.royalroads.ca)
+- [Saint Mary's University](https://www.smu.ca)
+- [Simon Fraser University](https://www.sfu.ca)
+- [St. Francis Xavier University](https://www.stfx.ca)
+- [St. Jerome's University](http://www.sju.ca/)
+- [Sunnybrook Health Science Centre](http://sunnybrook.ca/)
+- [Thompson Rivers University](https://www.tru.ca)
+- [Toronto General Hospital](http://www.uhn.ca/corporate/AboutUHN/OurHospitals/TGH)
+- [Toronto Metropolitan University](https://www.torontomu.ca)
+- [Toronto Rehabilitation Institute](http://www.torontorehabfoundation.com/)
+- [Toronto Western Hospital](http://www.uhn.ca/corporate/AboutUHN/OurHospitals/TWH)
+- [Trent University](https://www.trentu.ca)
+- [Trillium Health Centre](http://trilliumhealthpartners.ca/Pages/default.aspx)
+- [Trinity Western University](https://www.twu.ca)
+- [University Health Network](https://www.uhn.ca)
+- [University of Alberta](https://www.ualberta.ca)
+- [University of British Columbia](https://www.ubc.ca/)
 - [University of Calgary](https://library.ucalgary.ca/oa/)
+- [University of Guelph](https://www.uoguelph.ca)
+- [University of Lethbridge](https://www.ulethbridge.ca)
+- [University of Manitoba](https://umanitoba.ca)
+- [University of New Brunswick](https://unb.ca)
+- [University of Northern British Columbia](https://www.unbc.ca)
+- [University of Ontario Institute of Technology](http://www.uoit.ca/)
+- [University of Ottawa](https://www.uottawa.ca)
+- [University of Prince Edward Island](http://home.upei.ca/)
+- [University of Regina](https://www.uregina.ca)
+- [University of Saskatchewan](https://www.usask.ca/)
+- [University of Toronto](https://www.utoronto.ca)
+- [University of Victoria](https://www.uvic.ca)
+- [University of Waterloo](https://uwaterloo.ca/)
+- [University of Windsor](https://www.uwindsor.ca)
+- [University of Winnipeg](https://www.uwinnipeg.ca)
+- [University of the Fraser Valley](https://ufv.ca)
+- [Université Laval](https://www.ulaval.ca)
+- [Université TÉLUQ](https://www.teluq.ca)
+- [Université de Moncton](http://www.umoncton.ca/)
+- [Université de Montréal](https://www.umontreal.ca)
+- [Université de Sherbrooke](https://www.usherbrooke.ca)
+- [Université du Québec](http://www.uquebec.ca)
+- [Université du Québec en Abitibi-Témiscamingue](https://www.uqat.ca)
+- [Université du Québec en Outaouais](https://uqo.ca)
+- [Université du Québec à Chicoutimi](https://www.uqac.ca)
+- [Université du Québec à Montréal](https://uqam.ca)
+- [Université du Québec à Rimouski](https://www.uqar.ca)
+- [Université du Québec à Trois-Rivières](https://www.uqtr.ca)
+- [Vancouver Island University](https://www.viu.ca/)
+- [Western University](https://uwo.ca)
+- [Wilfrid Laurier University](https://wlu.ca)
+- [Women's College Hospital](http://www.womenscollegehospital.ca/)
+- [York University](https://www.yorku.ca)
+- [École Nationale d'Administration Publique](https://enap.ca)
+- [École de Technologie Supérieure](https://www.etsmtl.ca)
 
 ## Institutions from Qatar 
 
@@ -760,6 +861,7 @@ The following institutions have contributed to OpenAPC so far:
 
 - [Atlantic Technological University](https://www.atu.ie)
 - [Dublin City University](https://www.dcu.ie/)
+- [Dublin Institute for Advanced Studies](https://www.dias.ie/)
 - [Dundalk Institute of Technology](https://www.dkit.ie/)
 - [Dún Laoghaire Institute of Art, Design and Technology](https://iadt.ie/)
 - [Mary Immaculate College](https://www.mic.ul.ie/)
@@ -784,13 +886,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 236,559 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 452 research performing institutions and research funders. 
+The article data set contains information on 249,837 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 465 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 474,879,762. The average payment was € 2,007 and the median was € 1,860.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 508,082,338. The average payment was € 2,034 and the median was € 1,884.
 
-173,658 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 314,747,916, including value-added tax; the average payment was € 1,812 (median =  € 1,704, SD = € 864).
+185,530 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 343,695,975, including value-added tax; the average payment was € 1,853 (median =  € 1,733, SD = € 897).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 62,901 articles in the data set were published in hybrid journals. Total expenditure amounts to 160,131,846 €; the average fee was € 2,546 (median =  € 2,500, SD = € 1,097).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,307 articles in the data set were published in hybrid journals. Total expenditure amounts to 164,386,363 €; the average fee was € 2,556 (median =  € 2,502, SD = € 1,121).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -820,10 +922,11 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2018   |      16,251|   1,701|     1,583|  13.0 -  8,926|           9,478|       2,551|         2,538|     1.8 -  9,073|
 |2019   |      17,538|   1,703|     1,630|  10.7 -  7,684|           7,064|       2,535|         2,498|    75.3 -  9,500|
 |2020   |      21,250|   1,716|     1,683|   0.2 -  8,906|           4,480|       2,493|         2,532|    16.6 -  7,416|
-|2021   |      26,023|   1,824|     1,791|  27.0 -  8,341|           3,485|       2,548|         2,506|    30.2 - 11,400|
-|2022   |      28,876|   2,100|     1,999|  12.4 - 11,175|           2,939|       2,871|         2,730|     2.1 - 14,607|
-|2023   |      17,844|   2,268|     2,150|  17.4 - 10,138|           2,338|       3,001|         2,817|   106.4 - 11,895|
-|2024   |       1,448|   2,382|     2,303| 139.1 -  7,723|             237|       3,771|         3,385|   231.3 - 12,554|
+|2021   |      26,054|   1,825|     1,794|  27.0 -  8,341|           3,514|       2,548|         2,506|    30.2 - 11,400|
+|2022   |      29,306|   2,101|     1,999|  12.4 - 11,175|           3,041|       2,877|         2,730|     2.1 - 14,607|
+|2023   |      25,085|   2,306|     2,163|  17.4 - 10,138|           3,154|       3,007|         2,817|   106.4 - 11,895|
+|2024   |       5,430|   2,488|     2,297|  62.7 -  8,048|             688|       3,291|         3,087|   180.7 - 13,044|
+|2025   |         188|   2,562|     2,584| 237.9 -  5,673|               8|       4,138|         4,317| 1,830.0 -  7,674|
 
 
 
@@ -831,19 +934,19 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-In addition to APCs, additional costs have been reported for 453 articles, totalling € 254,149. The following table shows an overview of the different cost types:
+In addition to APCs, additional costs have been reported for 511 articles, totalling € 278,234. The following table shows an overview of the different cost types:
 
 
 
 |Cost Type      | Number of Articles| Total Sum (€)|
 |:--------------|------------------:|-------------:|
-|colour charge  |                 55|        79,888|
+|colour charge  |                 64|        88,587|
 |cover charge   |                 11|        14,457|
-|other          |                199|        30,658|
-|page charge    |                132|       124,818|
-|payment fee    |                 41|         1,667|
+|other          |                206|        33,258|
+|page charge    |                151|       136,589|
+|payment fee    |                 63|         2,617|
 |reprint        |                  4|         1,879|
-|submission fee |                 11|           783|
+|submission fee |                 12|           848|
 
 
 
@@ -853,9 +956,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 2,052 open access books. Publication fees were supported financially by 80 research performing institutions and funders. 
+The book data set contains information on 2,230 open access books. Publication fees were supported financially by 92 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 13,504,472. The average payment was € 6,581 and the median was € 6,784.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 14,756,922. The average payment was € 6,617 and the median was € 6,726.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -879,9 +982,10 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2019   |             173|    7,794|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             174|    6,974|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
-|2022   |             222|    7,600|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |             227|    7,237|      6,600|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
-|2024   |              20|    6,048|      6,115| 1,300 - 10,710|             NA|       NA|         NA|            NA|
+|2022   |             229|    7,554|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
+|2023   |             313|    6,892|      6,420|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
+|2024   |             102|    7,870|      6,456|   402 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
+|2025   |               1|    3,450|      3,450| 3,450 -  3,450|             NA|       NA|         NA|            NA|
 
 
 
@@ -926,10 +1030,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.75%       |88.06%   |
-|PubMed ID                  |  73.7%      | NA                                                          |
-|PubMed Central ID          |  68.2%     | NA                                                          |
-|Web of Science record ID   | 69.66%         | NA                                                          |
+|DOI                        |  99.76%       |88.65%   |
+|PubMed ID                  |  73.4%      | NA                                                          |
+|PubMed Central ID          |  67.93%     | NA                                                          |
+|Web of Science record ID   | 65.96%         | NA                                                          |
 
 
 
@@ -957,7 +1061,7 @@ This project was set up in collaboration with the [DINI working group Electronic
 
 ## Contributors
 
-Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Karina Barros Ferradás, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Jochen Bihn, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Micaela Crespo Quesada, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Agnes Geißelmann, Kai Karin Geschuhn, Silvia Giannini, Marianna Gnoato, Larissa Gordon, Paul Gredler, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Birgit Hablizel, Florian Hagen, Uli Hahn, Kristina Hanig, Margit L. Hartung, Dominik Hell, Christina Hemme, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Elfi Hesse, Silke Hillmann, Kathrin Höhner, Dana Horch, Conrad Hübler, Christie Hurrell, Arto Ikonen, Simon Inselmann, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Tiina Jounio, Juho Jussila, Nadja Kalinna, Mirjam Kant, Kerstin Klein, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Sarah Last, Stuart Lawson, Anne Lehto, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Ute von Lüpke, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Vlatko Momirovski, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Martina Obst, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Ulrike Richter, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Andrea Stühn, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Agnieszka Wenninger, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Miriam Zeunert, Philipp Zumstein
+Jens Harald Aasheim, Sarah Abusaada, Benjamin Ahlborn, Chelsea Ambler, Magdalena Andrae, Jochen Apel, Mauro Apostolico, Karina Barros Ferradás, Myriam Bastin, Hans-Georg Becker, Roland Bertelmann, Daniel Beucke, Manuela Bielow, Jochen Bihn, Peter Blume, Ute Blumtritt, Sabine Boccalini, Stefanie Bollin, Katrin Bosselmann, Valentina Bozzato, Kim Braun, Christoph Broschinski, Paolo Buoso, Cliff Buschhart, Dorothea Busjahn, Pablo de Castro, Ann-Kathrin Christann, Roberto Cozatl, Micaela Crespo Quesada, Amanda Cullin, Patrick Danowski, Gernot Deinzer, Julia Dickel, Andrea Dorner, Stefan Drößler, Karin Eckert, Carsten Elsner, Clemens Engelhardt, Olli Eskola, Katrin Falkenstein-Feldhoff, Ashley Farley, Inken Feldsien-Sudhaus, Silke Frank, Fabian Franke, Claudia Frick, Marléne Friedrich, Paola Galimberti, Elena Gandert, Agnes Geißelmann, Kai Karin Geschuhn, Silvia Giannini, Marianna Gnoato, Larissa Gordon, Paul Gredler, Steffi Grimm, Ute Grimmel-Holzwarth, Evgenia Grishina, Christian Gutknecht, Birgit Hablizel, Florian Hagen, Uli Hahn, Kristina Hanig, Margit L. Hartung, Julia Heitmann-Pletsch, Dominik Hell, Christina Hemme, Eike Hentschel, Ulrich Herb, Stephanie Herzog, Elfi Hesse, Silke Hillmann, Kathrin Höhner, Dana Horch, Conrad Hübler, Christie Hurrell, Arto Ikonen, Simon Inselmann, Doris Jaeger, Najko Jahn, Alexandra Jobmann, Daniela Jost, Tiina Jounio, Juho Jussila, Nadja Kalinna, Mirjam Kant, Kerstin Klein, Andreas Kennecke, Robert Kiley, Ilka Kleinod, Lydia Koglin, Nives Korrodi, Biljana Kosanovic, Stephanie Kroiß, Gerrit Kuehle, Stefanie Kutz, Marjo Kuusela, Anna Laakkonen, Ignasi Labastida i Juan, Gerald Langhanke, Inga Larres, Sarah Last, Stuart Lawson, Anne Lehto, Sari Leppänen, Camilla Lindelöw, Maria Löffler, Jutta Lotz, Kathrin Lucht-Roussel, Susanne Luger, Ute von Lüpke, Jan Lüth, Frank Lützenkirchen, Steffen Malo, Anna Marini, Manuel Moch, Vlatko Momirovski, Andrea Moritz, Max Mosterd, Marcel Nieme, Anja Oberländer, Martina Obst, Jere Odell, Linda Ohrtmann, Vitali Peil, Gabriele Pendorf, Mikko Pennanen, Dirk Pieper, Tobias Pohlmann, Thomas Porquet, Markus Putnings, Andrée Rathemacher, Rainer Rees-Mertins, Edith Reschke, Ulrike Richter, Katharina Rieck, Friedrich Riedel, Simone Rosenkranz, Florian Ruckelshausen, Steffen Rudolph, Ilka Rudolf, Pavla Rygelová, Lea Satzinger, Annette Scheiner, Isabo Schick, Michael Schlachter, Birgit Schlegel, Andreas Schmid, Barbara Schmidt, Katharina Schulz, Stefanie Seeh, Barbara Senkbeil-Stoffels, Adriana Sikora, Tereza Simandlová, Stefanie Söhnitz, Jana Sonnenstuhl, Lisa Spindler, Susanne Stemmler, Matti Stöhr, Eva Stopková, Marius Stricker, Andrea Stühn, Kálmán Szőke, Linda Thomas, Anne Timm, Laura Tobler, Johanna Tönsing, Marco Tullney,  Milan Vasiljevic, Astrid Vieler, Lena Vinnemann, Viola Voß, Christin Wacke, Roland Wagner, Agnieszka Wenninger, Kerstin Werth, Martin Wimmer, Marco Winkler, Sabine Witt, Michael Wohlgemuth, Verena Wohlleben, Qingbo Xu, Philip Young, Esther Zaugg, Miriam Zeunert, Philipp Zumstein
 
 ## Contact
 

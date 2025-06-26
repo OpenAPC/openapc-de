@@ -76,15 +76,9 @@ NORMALIZATION_TESTS = {
 
 @pytest.fixture(scope="module")
 def isbn_handling():
-    index = 0
-    tempfile_name = "TempRangeMessage.xml"
-    while os.path.isfile(tempfile_name):
-        index += 1
-        tempfile_name = "TempRangeMessage_" + str(index) + ".xml"
-    print('\nUsing temporary RangeMessage file path "' + tempfile_name + '"...')
-    yield oat.ISBNHandling(tempfile_name)
-    print('\nRemoving temporary RangeMessage file "' + tempfile_name + '"...')
-    os.remove(tempfile_name)
+    yield oat.ISBNHandling(temp_file_dir=".", force_update=True, make_backup=True, verbose=True)
+    print('\nRemoving temporary RangeMessage file "ISBNRangeFile.xml"...')
+    os.remove("ISBNRangeFile.xml")
 
 @pytest.mark.parametrize("isbn, split_result", CORRECT_ISBN_SPLITS.items())
 def test_isbn_splits(isbn, split_result, isbn_handling):

@@ -81,6 +81,7 @@ PUBLISHER_MAPPINGS = {
     "Nomos Verlagsgesellschaft mbH & Co.- KG": "Nomos Verlagsgesellschaft mbH & Co. KG",
     "edition text + kritik im Richard Boorberg Verlag": "edition text + kritik",
     "Springer Nature Switzerland": "Springer International Publishing",
+    "Schüren Verlag": "Schüren Verlag GmbH",
 }
 
 JOURNAL_MAPPINGS = {
@@ -719,7 +720,8 @@ JOURNAL_MAPPINGS = {
     "Diabetes Technology &amp; Therapeutics": "Diabetes Technology & Therapeutics",
     "Evolution &amp; Development": "Evolution & Development",
     "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology",
-    "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports"
+    "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports",
+    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung"
 }
 
 COLUMN_NAMES = {
@@ -778,4 +780,26 @@ ISSN_L_CORRECTIONS = {
 AGREEMENT_PUBLISHERS = {
     "DEAL Springer Nature Germany": ["Springer Nature"],
     "DEAL Wiley Germany": ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)", "International Union of Crystallography (IUCr)"]
+}
+
+# maps ROR geo names to terms used in the institutions table
+GEO_MAPPINGS = {
+    # world level
+    "North America": "NORTH_AMERICA",
+    "Europe": "EUROPE",
+    # countries
+    "CA": "CAN",
+    "DE": "DEU",
+    # subdivisions
+    # -- Canada
+    "ON": "CA-ON",
+    "MB": "CA-MB",
+    "QC": "CA-QC",
+    "AB": "CA-AB",
+    "NS": "CA-NS",
+    "BC": "CA-BC",
+    "NL": "CA-NL",
+    "NB": "CA-NB",
+    "PE": "CA-PE",
+    "SK": "CA-SK",
 }
