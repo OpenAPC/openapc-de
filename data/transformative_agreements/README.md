@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 147,482 articles, published at 533 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 147,778 articles, published at 534 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 147,482 articles, published at 533 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    17588|
-|DEAL Wiley Germany                               |    15568|
+|DEAL Springer Nature Germany                     |    17761|
+|DEAL Wiley Germany                               |    15691|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -312,6 +312,7 @@ This dataset contains information on 147,482 articles, published at 533 institut
 |VTT Technical Research Centre of Finland Ltd                                                                                                       |      298|
 |University of Twente                                                                                                                               |      297|
 |WSL - Swiss Federal Institute for Forest, Snow and Landscape Research                                                                              |      297|
+|Leipzig U                                                                                                                                          |      296|
 |University of Liverpool                                                                                                                            |      289|
 |University of Glasgow                                                                                                                              |      285|
 |Technological University Dublin                                                                                                                    |      284|
