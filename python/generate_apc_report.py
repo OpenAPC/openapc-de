@@ -223,7 +223,9 @@ def generate_apc_deviaton_section(institution, articles, stats, lang, csv_output
     for journal in journals:
         publisher = journal_dict[journal][0][5]
         num_articles = journal_dict[journal][0][22]
-        md_content += LANG[lang]["ad_table_header"].format(journal, publisher, num_articles)
+        journal_str = journal.replace("\\", "\\\\")
+        publisher_str = journal.replace("\\", "\\\\")
+        md_content += LANG[lang]["ad_table_header"].format(journal_str, publisher_str, num_articles)
         md_content += LANG[lang]["ad_th"]
         for article in journal_dict[journal]:
             row = "|"
