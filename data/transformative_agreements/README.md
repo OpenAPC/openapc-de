@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 147,778 articles, published at 534 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 147,815 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 147,778 articles, published at 534 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    17761|
-|DEAL Wiley Germany                               |    15691|
+|DEAL Springer Nature Germany                     |    17771|
+|DEAL Wiley Germany                               |    15718|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -487,6 +487,7 @@ This dataset contains information on 147,778 articles, published at 534 institut
 |Swedish Museum of Natural History                                                                                                                  |       38|
 |University Health Network                                                                                                                          |       38|
 |Bamberg U                                                                                                                                          |       37|
+|GEOMAR                                                                                                                                             |       37|
 |Robert Gordon University                                                                                                                           |       36|
 |Netherlands Institute of Ecology                                                                                                                   |       35|
 |Kingston University                                                                                                                                |       34|
