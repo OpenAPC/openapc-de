@@ -1009,6 +1009,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1467-5463", # Briefings in Bioinformatics, Gold OA since 2024
     "1103-3088", # YOUNG, Gold OA since 2023
     "1365-2710", # Journal of Clinical Pharmacy and Therapeutics, Gold OA since 2023
+    "1947-6035", # Cartilage, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
