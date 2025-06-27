@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 147,824 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 147,827 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 147,824 articles, published at 535 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    17779|
-|DEAL Wiley Germany                               |    15719|
+|DEAL Springer Nature Germany                     |    17781|
+|DEAL Wiley Germany                               |    15720|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -553,6 +553,7 @@ This dataset contains information on 147,824 articles, published at 535 institut
 |Technological University of the Shannon: Midlands Midwest                                                                                          |       17|
 |Cape Breton University                                                                                                                             |       16|
 |Danube University Krems University for Continuing Education                                                                                        |       16|
+|Hochschule Bonn-Rhein-Sieg                                                                                                                         |       16|
 |Nipissing University                                                                                                                               |       16|
 |Saint Mary's University                                                                                                                            |       16|
 |Universität Erfurt                                                                                                                                 |       16|
@@ -562,7 +563,6 @@ This dataset contains information on 147,824 articles, published at 535 institut
 |Leibniz-IPK                                                                                                                                        |       14|
 |Swiss Federal University for Vocational Education and Training                                                                                     |       14|
 |Birmingham City University                                                                                                                         |       13|
-|Hochschule Bonn-Rhein-Sieg                                                                                                                         |       13|
 |Institut national de la recherche scientifique                                                                                                     |       13|
 |Munich University of Applied Sciences                                                                                                              |       13|
 |St.Gallen University of Teacher Education                                                                                                          |       13|
