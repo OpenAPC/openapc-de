@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 148,028 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 148,040 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 148,028 articles, published at 535 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    17880|
-|DEAL Wiley Germany                               |    15822|
+|DEAL Springer Nature Germany                     |    17887|
+|DEAL Wiley Germany                               |    15827|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -515,6 +515,7 @@ This dataset contains information on 148,028 articles, published at 535 institut
 |Open University of The Netherlands                                                                                                                 |       27|
 |Aachen FH                                                                                                                                          |       26|
 |Finnish Meteorological Institute                                                                                                                   |       26|
+|Leibniz-IPK                                                                                                                                        |       26|
 |MacEwan University                                                                                                                                 |       26|
 |Swiss Ornithological Institute                                                                                                                     |       26|
 |Université du Québec à Trois-Rivières                                                                                                              |       26|
@@ -560,7 +561,6 @@ This dataset contains information on 148,028 articles, published at 535 institut
 |Université de Moncton                                                                                                                              |       16|
 |Dundalk Institute of Technology                                                                                                                    |       15|
 |Leibniz-IZW                                                                                                                                        |       15|
-|Leibniz-IPK                                                                                                                                        |       14|
 |Swiss Federal University for Vocational Education and Training                                                                                     |       14|
 |Birmingham City University                                                                                                                         |       13|
 |Institut national de la recherche scientifique                                                                                                     |       13|
