@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 148,040 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 148,053 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 148,040 articles, published at 535 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    17887|
-|DEAL Wiley Germany                               |    15827|
+|DEAL Springer Nature Germany                     |    17895|
+|DEAL Wiley Germany                               |    15832|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -522,6 +522,7 @@ This dataset contains information on 148,040 articles, published at 535 institut
 |Athabasca University                                                                                                                               |       25|
 |HafenCity Universität Hamburg                                                                                                                      |       25|
 |Leibniz-ZALF                                                                                                                                       |       25|
+|Leibniz-ZMT                                                                                                                                        |       25|
 |South East Technological University                                                                                                                |       25|
 |University of Lethbridge                                                                                                                           |       25|
 |University of Westminster                                                                                                                          |       25|
@@ -572,7 +573,6 @@ This dataset contains information on 148,040 articles, published at 535 institut
 |GIGA                                                                                                                                               |       12|
 |HS RheinMain                                                                                                                                       |       12|
 |Häme University of Applied Sciences                                                                                                                |       12|
-|Leibniz-ZMT                                                                                                                                        |       12|
 |Toronto Rehabilitation Institute                                                                                                                   |       12|
 |Turku University of Applied Sciences                                                                                                               |       12|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
