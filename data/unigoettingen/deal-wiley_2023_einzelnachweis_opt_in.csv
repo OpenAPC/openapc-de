@@ -7,9 +7,7 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 6;Georg-August-Universität Göttingen;SYNTAX;1467-9612;10.1111/synt.12266;https://doi.org/10.1111/synt.12266;29.09.2023;2750;optin
 7;Georg-August-Universität Göttingen;MOVEMENT DISORDERS;1531-8257;10.1002/mds.29329;https://doi.org/10.1002/mds.29329;05.01.2023;2750;optin
 8;Georg-August-Universität Göttingen;JOURNAL OF THE EUROPEAN ACADEMY OF DERMATOLOGY AND VENEREOLOGY;1468-3083;10.1111/jdv.19018;https://doi.org/10.1111/jdv.19018;06.03.2023;2750;optin
-9;Georg-August-Universität Göttingen;JOURNAL OF PHYTOPATHOLOGY;1439-0434;10.1111/jph.13205;https://doi.org/10.1111/jph.13205;29.06.2023;2750;optout
 10;Georg-August-Universität Göttingen;GRASS AND FORAGE SCIENCE;1365-2494;10.1111/gfs.12618;https://doi.org/10.1111/gfs.12618;15.05.2023;2750;optin
-11;Georg-August-Universität Göttingen;JOURNAL DER DEUTSCHEN DERMATOLOGISCHEN GESELLSCHAFT;1610-0387;10.1111/ddg.15267;https://doi.org/10.1111/ddg.15267;07.09.2023;2750;optout
 12;Georg-August-Universität Göttingen;PLANT, CELL & ENVIRONMENT;1365-3040;10.1111/pce.14659;https://doi.org/10.1111/pce.14659;19.06.2023;2750;optin
 13;Georg-August-Universität Göttingen;ADVANCED OPTICAL MATERIALS;2195-1071;10.1002/adom.202202753;https://doi.org/10.1002/adom.202202753;06.02.2023;2750;optin
 14;Georg-August-Universität Göttingen;GLOBAL CHANGE BIOLOGY;1365-2486;10.1111/gcb.17026;https://doi.org/10.1111/gcb.17026;18.10.2023;2750;optin
@@ -17,7 +15,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 16;Georg-August-Universität Göttingen;EMBO REPORTS;1469-3178;10.15252/embr.202255760;https://doi.org/10.15252/embr.202255760;16.02.2023;2750;optin
 17;Georg-August-Universität Göttingen;SWISS POLITICAL SCIENCE REVIEW;1662-6370;10.1111/spsr.12559;https://doi.org/10.1111/spsr.12559;29.01.2023;2750;optin
 18;Georg-August-Universität Göttingen;JOURNAL OF ORAL REHABILITATION;1365-2842;10.1111/joor.13641;https://doi.org/10.1111/joor.13641;02.12.2023;2750;optin
-19;Georg-August-Universität Göttingen;THE WORLD ECONOMY;1467-9701;10.1111/twec.13473;https://doi.org/10.1111/twec.13473;10.04.2023;2750;optout
 20;Georg-August-Universität Göttingen;ETHOS;1548-1352;10.1111/etho.12417;https://doi.org/10.1111/etho.12417;30.11.2023;2750;optin
 21;Georg-August-Universität Göttingen;JOURNAL DER DEUTSCHEN DERMATOLOGISCHEN GESELLSCHAFT;1610-0387;10.1111/ddg.15050;https://doi.org/10.1111/ddg.15050;09.02.2023;2750;optin
 22;Georg-August-Universität Göttingen;JOURNAL DER DEUTSCHEN DERMATOLOGISCHEN GESELLSCHAFT;1610-0387;10.1111/ddg.15313;https://doi.org/10.1111/ddg.15313;24.10.2023;2750;optin
@@ -100,7 +97,6 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 99;Georg-August-Universität Göttingen;PSYCHOLOGY & MARKETING;1520-6793;10.1002/mar.21912;https://doi.org/10.1002/mar.21912;18.09.2023;2750;optin
 100;Georg-August-Universität Göttingen;JOURNAL OF VEGETATION SCIENCE;1654-1103;10.1111/jvs.13214;https://doi.org/10.1111/jvs.13214;22.10.2023;2750;optin
 101;Georg-August-Universität Göttingen;RESEARCH SYNTHESIS METHODS;1759-2887;10.1002/jrsm.1693;https://doi.org/10.1002/jrsm.1693;03.12.2023;2750;optin
-102;Georg-August-Universität Göttingen;THE WORLD ECONOMY;1467-9701;10.1111/twec.13466;https://doi.org/10.1111/twec.13466;02.06.2023;2750;optout
 103;Georg-August-Universität Göttingen;JOURNAL OF MEDICAL VIROLOGY;1096-9071;10.1002/jmv.29122;https://doi.org/10.1002/jmv.29122;12.09.2023;2750;optin
 104;Georg-August-Universität Göttingen;JOURNAL OF APPLIED CRYSTALLOGRAPHY;1600-5767;10.1107/S1600576723007215;https://doi.org/10.1107/S1600576723007215;15.08.2023;2750;optin
 105;Georg-August-Universität Göttingen;JOURNAL OF APPLIED CRYSTALLOGRAPHY;1600-5767;10.1107/S1600576723007203;https://doi.org/10.1107/S1600576723007203;15.08.2023;2750;optin
@@ -131,18 +127,15 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 130;Georg-August-Universität Göttingen;JOURNAL OF MORPHOLOGY;1097-4687;10.1002/jmor.21675;https://doi.org/10.1002/jmor.21675;28.12.2023;2750;optin
 131;Georg-August-Universität Göttingen;AGRIBUSINESS;1520-6297;10.1002/agr.21892;https://doi.org/10.1002/agr.21892;05.07.2023;2750;optin
 132;Georg-August-Universität Göttingen;EUROPEAN POLICY ANALYSIS;2380-6567;10.1002/epa2.1193;https://doi.org/10.1002/epa2.1193;06.09.2023;2750;optin
-133;Georg-August-Universität Göttingen;MAMMAL REVIEW;1365-2907;10.1111/mam.12317;https://doi.org/10.1111/mam.12317;18.01.2023;2750;optout
 134;Georg-August-Universität Göttingen;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202302038;https://doi.org/10.1002/chem.202302038;13.07.2023;2750;optin
 135;Georg-August-Universität Göttingen;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202306764;https://doi.org/10.1002/anie.202306764;02.07.2023;2750;optin
 136;Georg-August-Universität Göttingen;ANGEWANDTE CHEMIE INTERNATIONAL EDITION;1521-3773;10.1002/anie.202300166;https://doi.org/10.1002/anie.202300166;05.03.2023;2750;optin
 137;Georg-August-Universität Göttingen;ADVANCED SYNTHESIS & CATALYSIS;1615-4169;10.1002/adsc.202301323;https://doi.org/10.1002/adsc.202301323;12.12.2023;2750;optin
 138;Georg-August-Universität Göttingen;ANGEWANDTE CHEMIE;1521-3757;10.1002/ange.202300166;https://doi.org/10.1002/ange.202300166;05.03.2023;1375;optin
-139;Georg-August-Universität Göttingen;EMBO REPORTS;1469-3178;10.15252/embr.202256702;https://doi.org/10.15252/embr.202256702;05.07.2023;2750;optout
 140;Georg-August-Universität Göttingen;SUSTAINABLE DEVELOPMENT;1099-1719;10.1002/sd.2503;https://doi.org/10.1002/sd.2503;11.01.2023;2750;optin
 141;Georg-August-Universität Göttingen;ECOLOGY LETTERS;1461-0248;10.1111/ele.14191;https://doi.org/10.1111/ele.14191;06.02.2023;2750;optin
 142;Georg-August-Universität Göttingen;CHEMISTRY - A EUROPEAN JOURNAL;1521-3765;10.1002/chem.202303113;https://doi.org/10.1002/chem.202303113;05.11.2023;2750;optin
 143;Georg-August-Universität Göttingen;HISTOPATHOLOGY;1365-2559;10.1111/his.15090;https://doi.org/10.1111/his.15090;19.10.2023;2750;optin
-144;Georg-August-Universität Göttingen;JOURNAL OF NEUROCHEMISTRY;1471-4159;10.1111/jnc.15955;https://doi.org/10.1111/jnc.15955;21.08.2023;2750;optout
 145;Georg-August-Universität Göttingen;HISTOPATHOLOGY;1365-2559;10.1111/his.14972;https://doi.org/10.1111/his.14972;22.05.2023;2750;optin
 146;Georg-August-Universität Göttingen;JOURNAL OF NEUROCHEMISTRY;1471-4159;10.1111/jnc.15992;https://doi.org/10.1111/jnc.15992;30.09.2023;2750;optin
 147;Georg-August-Universität Göttingen;ECOLOGY LETTERS;1461-0248;10.1111/ele.14276;https://doi.org/10.1111/ele.14276;01.06.2023;2750;optin
@@ -172,13 +165,11 @@ pos;institution_name;journal_title;eissn;doi;url;accepted;par_fee;initial_opt-ou
 171;Georg-August-Universität Göttingen;NEW PHYTOLOGIST;1469-8137;10.1111/nph.19011;https://doi.org/10.1111/nph.19011;01.05.2023;2750;optin
 172;Georg-August-Universität Göttingen;THE WORLD ECONOMY;1467-9701;10.1111/twec.13523;https://doi.org/10.1111/twec.13523;28.09.2023;2750;optin
 173;Georg-August-Universität Göttingen;PEDIATRIC ANESTHESIA;1460-9592;10.1111/pan.14811;https://doi.org/10.1111/pan.14811;12.11.2023;2750;optin
-174;Georg-August-Universität Göttingen;DIGEST OF MIDDLE EAST STUDIES;1949-3606;10.1111/dome.12287;https://doi.org/10.1111/dome.12287;01.03.2023;2750;optout
 175;Georg-August-Universität Göttingen;INFANT AND CHILD DEVELOPMENT;1522-7219;10.1002/icd.2466;https://doi.org/10.1002/icd.2466;18.09.2023;2750;optin
 176;Georg-August-Universität Göttingen;DEVELOPMENTAL SCIENCE;1467-7687;10.1111/desc.13444;https://doi.org/10.1111/desc.13444;12.08.2023;2750;optin
 177;Georg-August-Universität Göttingen;NEW TECHNOLOGY, WORK AND EMPLOYMENT;1468-005X;10.1111/ntwe.12282;https://doi.org/10.1111/ntwe.12282;04.11.2023;2750;optin
 178;Georg-August-Universität Göttingen;GLIA;1098-1136;10.1002/glia.24452;https://doi.org/10.1002/glia.24452;23.07.2023;2750;optin
 179;Georg-August-Universität Göttingen;ACTA PHYSIOLOGICA;1748-1716;10.1111/apha.13913;https://doi.org/10.1111/apha.13913;01.01.2023;2750;optin
-180;Georg-August-Universität Göttingen;THE WORLD ECONOMY;1467-9701;10.1111/twec.13389;https://doi.org/10.1111/twec.13389;22.01.2023;2750;optout
 181;Georg-August-Universität Göttingen;ECOLOGICAL APPLICATIONS;1939-5582;10.1002/eap.2862;https://doi.org/10.1002/eap.2862;02.04.2023;2750;optin
 182;Georg-August-Universität Göttingen;JOURNAL OF AGRONOMY AND CROP SCIENCE;1439-037X;10.1111/jac.12658;https://doi.org/10.1111/jac.12658;06.06.2023;2750;optin
 183;Georg-August-Universität Göttingen;INSECT CONSERVATION AND DIVERSITY;1752-4598;10.1111/icad.12688;https://doi.org/10.1111/icad.12688;25.08.2023;2750;optin
