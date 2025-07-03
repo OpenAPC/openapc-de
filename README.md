@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |250,275 | 509,141,166    | 466 |
+| Articles         |250,589 | 509,881,322    | 466 |
 | Monographs       |2,230 | 14,756,922    | 92 |
 
 ## How to access the data?
@@ -887,13 +887,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 250,275 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 466 research performing institutions and research funders. 
+The article data set contains information on 250,589 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 466 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 509,141,166. The average payment was € 2,034 and the median was € 1,885.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 509,881,322. The average payment was € 2,035 and the median was € 1,885.
 
-185,957 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 344,718,728, including value-added tax; the average payment was € 1,854 (median =  € 1,733, SD = € 898).
+186,202 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 345,241,062, including value-added tax; the average payment was € 1,854 (median =  € 1,734, SD = € 898).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,318 articles in the data set were published in hybrid journals. Total expenditure amounts to 164,422,438 €; the average fee was € 2,556 (median =  € 2,502, SD = € 1,122).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,387 articles in the data set were published in hybrid journals. Total expenditure amounts to 164,640,260 €; the average fee was € 2,557 (median =  € 2,502, SD = € 1,122).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -924,9 +924,9 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2019   |      17,538|   1,703|     1,630|  10.7 -  7,684|           7,064|       2,535|         2,498|    75.3 -  9,500|
 |2020   |      21,250|   1,716|     1,683|   0.2 -  8,906|           4,480|       2,493|         2,532|    16.6 -  7,416|
 |2021   |      26,054|   1,825|     1,794|  27.0 -  8,341|           3,514|       2,548|         2,506|    30.2 - 11,400|
-|2022   |      29,289|   2,101|     1,999|  12.4 - 11,175|           3,042|       2,877|         2,730|     2.1 - 14,607|
-|2023   |      25,502|   2,307|     2,163|  17.4 - 10,138|           3,164|       3,008|         2,816|   106.4 - 11,895|
-|2024   |       5,457|   2,485|     2,295|  62.7 -  8,048|             688|       3,291|         3,087|   180.7 - 13,044|
+|2022   |      29,291|   2,101|     1,999|  12.4 - 11,175|           3,045|       2,877|         2,730|     2.1 - 14,607|
+|2023   |      25,740|   2,306|     2,160|  17.4 - 10,138|           3,230|       3,011|         2,820|   106.4 - 11,895|
+|2024   |       5,462|   2,485|     2,295|  62.7 -  8,048|             688|       3,291|         3,087|   180.7 - 13,044|
 |2025   |         188|   2,562|     2,584| 237.9 -  5,673|               8|       4,138|         4,317| 1,830.0 -  7,674|
 
 
@@ -935,18 +935,18 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-In addition to APCs, additional costs have been reported for 514 articles, totalling € 278,328. The following table shows an overview of the different cost types:
+In addition to APCs, additional costs have been reported for 524 articles, totalling € 289,966. The following table shows an overview of the different cost types:
 
 
 
 |Cost Type      | Number of Articles| Total Sum (€)|
 |:--------------|------------------:|-------------:|
-|colour charge  |                 64|        88,587|
+|colour charge  |                 68|        94,398|
 |cover charge   |                 11|        14,457|
-|other          |                206|        33,258|
-|page charge    |                151|       136,589|
+|other          |                208|        33,724|
+|page charge    |                154|       141,621|
 |payment fee    |                 66|         2,711|
-|reprint        |                  4|         1,879|
+|reprint        |                  5|         2,207|
 |submission fee |                 12|           848|
 
 
@@ -1032,9 +1032,9 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.76%       |88.65%   |
-|PubMed ID                  |  73.39%      | NA                                                          |
-|PubMed Central ID          |  67.92%     | NA                                                          |
-|Web of Science record ID   | 65.84%         | NA                                                          |
+|PubMed ID                  |  73.35%      | NA                                                          |
+|PubMed Central ID          |  67.88%     | NA                                                          |
+|Web of Science record ID   | 65.76%         | NA                                                          |
 
 
 
