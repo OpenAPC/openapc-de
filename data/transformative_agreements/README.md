@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 148,481 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 148,484 articles, published at 535 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 148,481 articles, published at 535 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |DEAL Springer Nature Germany                     |    18071|
-|DEAL Wiley Germany                               |    16084|
+|DEAL Wiley Germany                               |    16087|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -544,6 +544,7 @@ This dataset contains information on 148,481 articles, published at 535 institut
 |University of Winnipeg                                                                                                                             |       19|
 |Westerdijk Fungal Biodiversity Center (CBS)                                                                                                        |       19|
 |Leibniz-BIPS                                                                                                                                       |       18|
+|Leibniz-IZW                                                                                                                                        |       18|
 |Pädagogische Hochschule Bern                                                                                                                       |       18|
 |Swedish Defence Research Agency                                                                                                                    |       18|
 |Swedish National Road and Transport Research Institute (VTI)                                                                                       |       18|
@@ -561,7 +562,6 @@ This dataset contains information on 148,481 articles, published at 535 institut
 |Universität Erfurt                                                                                                                                 |       16|
 |Université de Moncton                                                                                                                              |       16|
 |Dundalk Institute of Technology                                                                                                                    |       15|
-|Leibniz-IZW                                                                                                                                        |       15|
 |Swiss Federal University for Vocational Education and Training                                                                                     |       14|
 |Birmingham City University                                                                                                                         |       13|
 |Institut national de la recherche scientifique                                                                                                     |       13|
