@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 148,491 articles, published at 536 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 148,502 articles, published at 537 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 148,491 articles, published at 536 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18075|
-|DEAL Wiley Germany                               |    16090|
+|DEAL Springer Nature Germany                     |    18081|
+|DEAL Wiley Germany                               |    16095|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -578,6 +578,7 @@ This dataset contains information on 148,491 articles, published at 536 institut
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
 |Haute École Pédagogique du Canton de Vaud                                                                                                          |       11|
 |INM - Leibniz-Institut für Neue Materialien                                                                                                        |       11|
+|Leibniz-IOW                                                                                                                                        |       11|
 |MDC                                                                                                                                                |       11|
 |Scotland's Rural College                                                                                                                           |       11|
 |Swedish School of Sport and Health Sciences                                                                                                        |       11|
