@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 148,507 articles, published at 538 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 148,655 articles, published at 538 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -69,6 +69,7 @@ This dataset contains information on 148,507 articles, published at 538 institut
 |CSIC-ACS                                         |      359|
 |CSIC-Springer Nature                             |      357|
 |Austrian Consortium T&F agreement                |      353|
+|Swiss Consortium Ovid LWW agreement              |      338|
 |Swiss Consortium ACS agreement                   |      318|
 |IReL PLOS Agreement                              |      312|
 |FWF Transformative Agreement T&F                 |      306|
@@ -82,7 +83,6 @@ This dataset contains information on 148,507 articles, published at 538 institut
 |IReL Emerald Agreement                           |      221|
 |CzechELib Springer Nature agreement              |      200|
 |QNL Elsevier Agreement                           |      194|
-|Swiss Consortium Ovid LWW agreement              |      190|
 |IReL RSC Agreement                               |      182|
 |Austrian Consortium RSC agreement                |      179|
 |FWF Transformative Agreement IOP                 |      172|
@@ -183,18 +183,18 @@ This dataset contains information on 148,507 articles, published at 538 institut
 |French institutions                                                                                                                                |     4998|
 |ETH Zurich                                                                                                                                         |     4471|
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4421|
+|University of Zurich                                                                                                                               |     4252|
 |University of Helsinki                                                                                                                             |     4225|
-|University of Zurich                                                                                                                               |     4210|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |TU Muenchen                                                                                                                                        |     2598|
-|University of Bern                                                                                                                                 |     2406|
-|University of Geneva                                                                                                                               |     2366|
+|University of Bern                                                                                                                                 |     2443|
+|University of Geneva                                                                                                                               |     2393|
 |University College Dublin                                                                                                                          |     2333|
 |Muenchen LMU                                                                                                                                       |     2321|
 |University of Padua                                                                                                                                |     2147|
 |Milano U                                                                                                                                           |     2085|
-|University of Lausanne                                                                                                                             |     2040|
-|University of Basel                                                                                                                                |     1982|
+|University of Lausanne                                                                                                                             |     2063|
+|University of Basel                                                                                                                                |     2001|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1875|
 |Aalto University                                                                                                                                   |     1734|
 |Trinity College Dublin                                                                                                                             |     1730|
