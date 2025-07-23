@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 148,655 articles, published at 538 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 148,684 articles, published at 538 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 148,655 articles, published at 538 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18086|
-|DEAL Wiley Germany                               |    16095|
+|DEAL Springer Nature Germany                     |    18097|
+|DEAL Wiley Germany                               |    16113|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -407,6 +407,7 @@ This dataset contains information on 148,655 articles, published at 538 institut
 |University of Surrey                                                                                                                               |      107|
 |Jönköping University                                                                                                                               |      102|
 |Liverpool John Moores University                                                                                                                   |      102|
+|HZDR                                                                                                                                               |      101|
 |Heriot-Watt University                                                                                                                             |       98|
 |Teagasc                                                                                                                                            |       95|
 |Malmö University                                                                                                                                   |       93|
@@ -430,7 +431,6 @@ This dataset contains information on 148,655 articles, published at 538 institut
 |Mälardalen University                                                                                                                              |       74|
 |Oldenburg U                                                                                                                                        |       74|
 |Bangor University                                                                                                                                  |       72|
-|HZDR                                                                                                                                               |       72|
 |University of Hull                                                                                                                                 |       72|
 |University of Ulster                                                                                                                               |       72|
 |Bournemouth University                                                                                                                             |       71|
