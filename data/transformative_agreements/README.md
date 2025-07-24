@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 148,684 articles, published at 538 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 148,684 articles, published at 539 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -222,7 +222,6 @@ This dataset contains information on 148,684 articles, published at 538 institut
 |University of Oxford                                                                                                                               |      883|
 |Uppsala University                                                                                                                                 |      869|
 |Tuebingen U                                                                                                                                        |      867|
-|Hannover U und TIB                                                                                                                                 |      825|
 |Dublin City University                                                                                                                             |      820|
 |University of Gothenburg                                                                                                                           |      820|
 |Charles University                                                                                                                                 |      819|
@@ -238,6 +237,7 @@ This dataset contains information on 148,684 articles, published at 538 institut
 |Koeln U                                                                                                                                            |      673|
 |TU Darmstadt                                                                                                                                       |      670|
 |King's College London                                                                                                                              |      652|
+|Hannover U und TIB                                                                                                                                 |      603|
 |KTH Royal Institute of Technology                                                                                                                  |      590|
 |University of Manchester                                                                                                                           |      585|
 |Greifswald U                                                                                                                                       |      573|
@@ -339,6 +339,7 @@ This dataset contains information on 148,684 articles, published at 538 institut
 |Dalhousie University                                                                                                                               |      233|
 |University of Graz                                                                                                                                 |      232|
 |University of Reading                                                                                                                              |      226|
+|Hannover U                                                                                                                                         |      222|
 |Konstanz U                                                                                                                                         |      221|
 |University of Natural Resources and Life Sciences Vienna (BOKU)                                                                                    |      219|
 |Queen's University                                                                                                                                 |      218|
