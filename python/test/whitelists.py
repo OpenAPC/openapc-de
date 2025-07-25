@@ -579,6 +579,10 @@ JOURNAL_OWNER_CHANGED = {
 	"1877-718X": ["IOS Press", "SAGE Publications"], # Journal of Parkinson’s Disease (electronic)
 	"0938-8982": ["Wiley-Blackwell", "SAGE Publications"], # Learning Disabilities Research & Practice 
 	"1540-5826": ["Wiley-Blackwell", "SAGE Publications"], # Learning Disabilities Research & Practice (electronic)
+	"1472-3808": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Royal Musical Association Research Chronicle 
+	"2167-4027": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Royal Musical Association Research Chronicle (electronic)
+	"0022-1767": ["The American Association of Immunologists", "Oxford University Press (OUP)"], # The Journal of Immunology 
+	"1550-6606": ["The American Association of Immunologists", "Oxford University Press (OUP)"], # The Journal of Immunology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1010,6 +1014,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1103-3088", # YOUNG, Gold OA since 2023
     "1365-2710", # Journal of Clinical Pharmacy and Therapeutics, Gold OA since 2023
     "1947-6035", # Cartilage, Gold OA since 2022
+    "1062-7987", # European Review, Gold OA since 2025
+    "0269-8897", # Science in Context, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
