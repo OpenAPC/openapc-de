@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 149,287 articles, published at 539 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 149,288 articles, published at 539 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -45,7 +45,7 @@ This dataset contains information on 149,287 articles, published at 539 institut
 |FWF Transformative Agreement Wiley-Blackwell     |      869|
 |IReL Sage Agreement                              |      861|
 |CSIC-Wiley                                       |      806|
-|Crui-CARE Springer Agreement                     |      795|
+|Crui-CARE Springer Agreement                     |      796|
 |University of Milan - Springer                   |      738|
 |IReL IEEE Agreement                              |      721|
 |Swiss Consortium CUP agreement                   |      709|
@@ -191,7 +191,7 @@ This dataset contains information on 149,287 articles, published at 539 institut
 |University College Dublin                                                                                                                          |     2432|
 |University of Geneva                                                                                                                               |     2393|
 |Muenchen LMU                                                                                                                                       |     2321|
-|University of Padua                                                                                                                                |     2147|
+|University of Padua                                                                                                                                |     2148|
 |Milano U                                                                                                                                           |     2085|
 |University of Lausanne                                                                                                                             |     2063|
 |University of Basel                                                                                                                                |     2001|
