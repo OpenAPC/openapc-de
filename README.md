@@ -937,7 +937,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-In addition to APCs, additional costs have been reported for 524 articles, totalling € 289,966. The following table shows an overview of the different cost types:
+In addition to APCs, additional costs have been reported for 527 articles, totalling € 291,822. The following table shows an overview of the different cost types:
 
 
 
@@ -946,7 +946,7 @@ In addition to APCs, additional costs have been reported for 524 articles, total
 |colour charge  |                 68|        94,398|
 |cover charge   |                 11|        14,457|
 |other          |                208|        33,724|
-|page charge    |                154|       141,621|
+|page charge    |                157|       143,476|
 |payment fee    |                 66|         2,711|
 |reprint        |                  5|         2,207|
 |submission fee |                 12|           848|
