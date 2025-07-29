@@ -11,7 +11,7 @@
 "KIT",2023,3523.43,"10.1021/acs.nanolett.2c02944",TRUE,"American Chemical Society (ACS)","Nano Letters","1530-6984","1530-6984","1530-6992","1530-6984","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"36852434","PMC9999453",NA,NA,FALSE
 "KIT",2023,1968.98,"10.1016/j.actamat.2022.117842",TRUE,"Elsevier BV","Acta Materialia","1359-6454","1359-6454",NA,"1359-6454","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,3283.84,"10.1109/jlt.2023.3243471",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","Journal of Lightwave Technology","0733-8724","0733-8724","1558-2213","0733-8724","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,NA,NA,NA,NA,FALSE
-"KIT",2023,2150,"10.1163/24714607-bja10113",TRUE,"Walter de Gruyter GmbH","Journal of Labor and Society","2667-3657","2667-3657","2471-4607","2471-4607","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"KIT",2023,2150,"10.1163/24714607-bja10113",TRUE,"Brill","Journal of Labor and Society","2667-3657","2667-3657","2471-4607","2471-4607","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,2062.38,"10.1109/tbme.2023.3252889",TRUE,"Institute of Electrical & Electronics Engineers (IEEE)","IEEE Transactions on Biomedical Engineering","0018-9294","0018-9294","1558-2531","0018-9294","https://creativecommons.org/licenses/by/4.0/legalcode",TRUE,"37028023",NA,NA,NA,FALSE
 "KIT",2023,2160,"10.1016/j.fusengdes.2023.113552",TRUE,"Elsevier BV","Fusion Engineering and Design","0920-3796","0920-3796",NA,"0920-3796","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,3060,"10.1016/j.renene.2023.03.074",TRUE,"Elsevier BV","Renewable Energy","0960-1481","0960-1481",NA,"0960-1481","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -37,11 +37,11 @@
 "KIT",2023,3630,"10.1016/j.energy.2023.128133",TRUE,"Elsevier BV","Energy","0360-5442","0360-5442",NA,"0360-5442","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,3450,"10.1016/j.jmps.2023.105341",TRUE,"Elsevier BV","Journal of the Mechanics and Physics of Solids","0022-5096","0022-5096",NA,"0022-5096","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,2466.4,"10.1103/physrevapplied.20.014059",TRUE,"American Physical Society (APS)","Physical Review Applied","2331-7019",NA,"2331-7019","2331-7019","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"KIT",2023,1789.82,"10.1039/d3na00124e",TRUE,"Royal Society of Chemistry (RSC)","Nanoscale Advances","2516-0230",NA,"2516-0230","2516-0230","http://creativecommons.org/licenses/by/3.0/",TRUE,"37496619","PMC10367961",NA,NA,TRUE
+"KIT",2023,1789.82,"10.1039/d3na00124e",FALSE,"Royal Society of Chemistry (RSC)","Nanoscale Advances","2516-0230",NA,"2516-0230","2516-0230","http://creativecommons.org/licenses/by/3.0/",TRUE,"37496619","PMC10367961",NA,NA,TRUE
 "KIT",2023,3190,"10.1080/01919512.2023.2233746",TRUE,"Informa UK Limited","Ozone: Science & Engineering","0191-9512","0191-9512","1547-6545","0191-9512","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"KIT",2023,3411.18,"10.1364/optica.484200",TRUE,"Optica Publishing Group","Optica","2334-2536",NA,"2334-2536","2334-2536","https://doi.org/10.1364/OA_License_v2#VOR-OA",TRUE,NA,NA,NA,NA,TRUE
+"KIT",2023,3411.18,"10.1364/optica.484200",FALSE,"Optica Publishing Group","Optica","2334-2536",NA,"2334-2536","2334-2536","https://doi.org/10.1364/OA_License_v2#VOR-OA",TRUE,NA,NA,NA,NA,TRUE
 "KIT",2023,2670,"10.1016/j.physb.2023.415090",TRUE,"Elsevier BV","Physica B: Condensed Matter","0921-4526","0921-4526",NA,"0921-4526","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"KIT",2023,2367.6,"10.1364/oe.492221",TRUE,"Optica Publishing Group","Optics Express","1094-4087",NA,"1094-4087","1094-4087","https://doi.org/10.1364/OA_License_v2#VOR-OA",TRUE,"37710488",NA,NA,NA,TRUE
+"KIT",2023,2367.6,"10.1364/oe.492221",FALSE,"Optica Publishing Group","Optics Express","1094-4087",NA,"1094-4087","1094-4087","https://doi.org/10.1364/OA_License_v2#VOR-OA",TRUE,"37710488",NA,NA,NA,TRUE
 "KIT",2023,2494.87,"10.1103/physreva.108.022806",TRUE,"American Physical Society (APS)","Physical Review A","2469-9926","2469-9926","2469-9934","2469-9926","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,1639.8,"10.1080/15361055.2023.2194235",TRUE,"Informa UK Limited","Fusion Science and Technology","1536-1055","1536-1055","1943-7641","1536-1055","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,1822,"10.1080/15361055.2023.2229679",TRUE,"Informa UK Limited","Fusion Science and Technology","1536-1055","1536-1055","1943-7641","1536-1055","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -67,8 +67,8 @@
 "KIT",2023,2114.06,"10.1021/acsami.3c11165",TRUE,"American Chemical Society (ACS)","ACS Applied Materials & Interfaces","1944-8244","1944-8244","1944-8252","1944-8244","https://creativecommons.org/licenses/by/4.0/",TRUE,"37913778","PMC10659031",NA,NA,FALSE
 "KIT",2023,2540,"10.1016/j.matchemphys.2023.128530",TRUE,"Elsevier BV","Materials Chemistry and Physics","0254-0584","0254-0584",NA,"0254-0584","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,2680,"10.1016/j.est.2023.109210",TRUE,"Elsevier BV","Journal of Energy Storage","2352-152X","2352-152X",NA,"2352-152X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"KIT",2023,2866.54,"10.1364/optica.500978",TRUE,"Optica Publishing Group","Optica","2334-2536",NA,"2334-2536","2334-2536","https://doi.org/10.1364/OA_License_v2#VOR-OA",TRUE,NA,NA,NA,NA,TRUE
-"KIT",2023,1958.1,"10.1364/oe.504777",TRUE,"Optica Publishing Group","Optics Express","1094-4087",NA,"1094-4087","1094-4087","https://doi.org/10.1364/OA_License_v2#VOR-OA",TRUE,"38041340",NA,NA,NA,TRUE
+"KIT",2023,2866.54,"10.1364/optica.500978",FALSE,"Optica Publishing Group","Optica","2334-2536",NA,"2334-2536","2334-2536","https://doi.org/10.1364/OA_License_v2#VOR-OA",TRUE,NA,NA,NA,NA,TRUE
+"KIT",2023,1958.1,"10.1364/oe.504777",FALSE,"Optica Publishing Group","Optics Express","1094-4087",NA,"1094-4087","1094-4087","https://doi.org/10.1364/OA_License_v2#VOR-OA",TRUE,"38041340",NA,NA,NA,TRUE
 "KIT",2023,3664.37,"10.3791/66153",TRUE,"MyJove Corporation","Journal of Visualized Experiments","1940-087X",NA,"1940-087X","1940-087X",NA,TRUE,"38284527",NA,NA,NA,FALSE
 "KIT",2023,2000,"10.1515/auto-2023-0079",TRUE,"Walter de Gruyter GmbH","at - Automatisierungstechnik","0178-2312","0178-2312","2196-677X","0178-2312","http://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
 "KIT",2023,3550,"10.1016/j.enbuild.2023.113753",TRUE,"Elsevier BV","Energy and Buildings","0378-7788","0378-7788",NA,"0378-7788","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -84,7 +84,7 @@
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
-"",,,"","","","","","","","","","","","","","","
+"",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
 "",,,"","","","","","","","","","","","","","",""
