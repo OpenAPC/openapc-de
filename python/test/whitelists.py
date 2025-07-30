@@ -220,7 +220,7 @@ JOURNAL_OWNER_CHANGED = {
     "2414-6641": ["Universitaet Innsbruck - Innsbruck University Press", "University of Bern"], # Current Issues in Sport Science (CISS)
     "0003-021X": ["Springer Nature", "Wiley-Blackwell"], # Journal of the American Oil Chemists' Society
     "1558-9331": ["Springer Nature", "Wiley-Blackwell"], # Journal of the American Oil Chemists' Society (electronic)
-    "1995-8692": ["Bern Open Publishing", "University of Bern"], # Journal of Eye Movement Research
+    "1995-8692": ["Bern Open Publishing", "University of Bern", "MDPI AG"], # Journal of Eye Movement Research
     "2051-1426": ["Springer Nature", "BMJ"], # Journal for ImmunoTherapy of Cancer
     "1474-905X": ["Royal Society of Chemistry (RSC)", "Springer Nature"], # Photochemical & Photobiological Sciences
     "1474-9092": ["Royal Society of Chemistry (RSC)", "Springer Nature"], # Photochemical & Photobiological Sciences (electronic)
