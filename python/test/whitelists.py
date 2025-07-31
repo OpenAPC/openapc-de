@@ -583,6 +583,10 @@ JOURNAL_OWNER_CHANGED = {
 	"2167-4027": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Royal Musical Association Research Chronicle (electronic)
 	"0022-1767": ["The American Association of Immunologists", "Oxford University Press (OUP)"], # The Journal of Immunology 
 	"1550-6606": ["The American Association of Immunologists", "Oxford University Press (OUP)"], # The Journal of Immunology (electronic)
+	"1084-5453": ["Oxford University Press (OUP)", "University of Chicago Press"], # Environmental History 
+	"1930-8892": ["Oxford University Press (OUP)", "University of Chicago Press"], # Environmental History (electronic)
+	"2210-4968": ["IOS Press", "SAGE Publications"], # Semantic Web 
+	"1570-0844": ["IOS Press", "SAGE Publications"], # Semantic Web (print)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
