@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |251,196 | 511,329,005    | 468 |
-| Monographs       |2,249 | 14,914,526    | 92 |
+| Articles         |251,640 | 512,402,063    | 468 |
+| Monographs       |2,260 | 15,017,945    | 93 |
 
 ## How to access the data?
 
@@ -889,13 +889,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 251,196 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 468 research performing institutions and research funders. 
+The article data set contains information on 251,640 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 468 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 511,329,005. The average payment was € 2,036 and the median was € 1,886.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 512,402,063. The average payment was € 2,036 and the median was € 1,887.
 
-186,671 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 346,280,533, including value-added tax; the average payment was € 1,855 (median =  € 1,735, SD = € 899).
+187,017 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 347,065,095, including value-added tax; the average payment was € 1,856 (median =  € 1,735, SD = € 943).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,525 articles in the data set were published in hybrid journals. Total expenditure amounts to 165,048,472 €; the average fee was € 2,558 (median =  € 2,503, SD = € 1,122).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,623 articles in the data set were published in hybrid journals. Total expenditure amounts to 165,336,968 €; the average fee was € 2,558 (median =  € 2,504, SD = € 1,122).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -907,29 +907,29 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-|period | OA articles| OA mean| OA median|   OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
-|:------|-----------:|-------:|---------:|--------------:|---------------:|-----------:|-------------:|----------------:|
-|2005   |           7|     858|       871| 480.0 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
-|2006   |          52|   1,021|     1,095| 665.0 -  1,340|              NA|          NA|            NA|               NA|
-|2007   |          88|   1,081|     1,062| 870.0 -  1,825|              NA|          NA|            NA|               NA|
-|2008   |         205|   1,170|     1,025| 440.8 -  2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
-|2009   |         359|   1,185|     1,060| 124.6 -  4,386|              NA|          NA|            NA|               NA|
-|2010   |         401|   1,261|     1,139| 158.8 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
-|2011   |         776|   1,156|     1,127| 104.8 -  4,666|               7|       1,835|         2,097|   552.0 -  2,631|
-|2012   |       1,577|   1,173|     1,175|  69.0 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
-|2013   |       2,473|   1,229|     1,178|  50.0 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
-|2014   |       5,188|   1,375|     1,255|  40.0 -  9,028|           6,525|       2,238|         2,200|   132.3 -  6,000|
-|2015   |       8,477|   1,523|     1,451|  59.0 -  5,669|           6,693|       2,609|         2,621|   126.6 -  8,636|
-|2016   |       9,846|   1,637|     1,531|  62.5 -  5,985|           7,893|       2,551|         2,514|     2.3 -  9,079|
-|2017   |      14,974|   1,701|     1,553|   8.7 - 14,634|          10,644|       2,528|         2,469|    36.9 -  9,858|
-|2018   |      16,250|   1,701|     1,583|  13.0 -  8,926|           9,479|       2,551|         2,539|     1.8 -  9,073|
-|2019   |      17,538|   1,703|     1,630|  10.7 -  7,684|           7,064|       2,535|         2,498|    75.3 -  9,500|
-|2020   |      21,249|   1,716|     1,683|   0.2 -  8,906|           4,481|       2,493|         2,532|    16.6 -  7,416|
-|2021   |      26,054|   1,825|     1,794|  27.0 -  8,341|           3,510|       2,550|         2,506|    30.2 - 11,400|
-|2022   |      29,293|   2,102|     1,999|  12.4 - 11,175|           3,053|       2,878|         2,730|     2.1 - 14,607|
-|2023   |      25,914|   2,306|     2,162|  17.4 - 10,138|           3,310|       3,005|         2,817|   106.4 - 11,895|
-|2024   |       5,729|   2,466|     2,289|  62.7 -  8,048|             731|       3,288|         3,067|   180.7 - 13,044|
-|2025   |         221|   2,545|     2,541| 237.9 -  5,673|              12|       3,389|         2,985|   245.3 -  7,674|
+|period | OA articles| OA mean| OA median|    OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
+|:------|-----------:|-------:|---------:|---------------:|---------------:|-----------:|-------------:|----------------:|
+|2005   |           7|     858|       871| 480.0 -   1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
+|2006   |          52|   1,021|     1,095| 665.0 -   1,340|              NA|          NA|            NA|               NA|
+|2007   |          88|   1,081|     1,062| 870.0 -   1,825|              NA|          NA|            NA|               NA|
+|2008   |         205|   1,170|     1,025| 440.8 -   2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
+|2009   |         359|   1,185|     1,060| 124.6 -   4,386|              NA|          NA|            NA|               NA|
+|2010   |         401|   1,261|     1,139| 158.8 -   7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
+|2011   |         776|   1,156|     1,127| 104.8 -   4,666|               7|       1,835|         2,097|   552.0 -  2,631|
+|2012   |       1,577|   1,173|     1,175|  69.0 -   4,498|              20|       2,308|         2,412|   997.4 -  2,700|
+|2013   |       2,473|   1,229|     1,178|  50.0 -   4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
+|2014   |       5,188|   1,375|     1,255|  40.0 -   9,028|           6,525|       2,238|         2,200|   132.3 -  6,000|
+|2015   |       8,477|   1,523|     1,451|  59.0 -   5,669|           6,693|       2,609|         2,621|   126.6 -  8,636|
+|2016   |       9,850|   1,637|     1,531|  62.5 -   5,985|           7,893|       2,551|         2,514|     2.3 -  9,079|
+|2017   |      14,977|   1,701|     1,553|   8.7 -  14,634|          10,644|       2,528|         2,469|    36.9 -  9,858|
+|2018   |      16,256|   1,701|     1,582|  13.0 -   8,926|           9,481|       2,551|         2,538|     1.8 -  9,073|
+|2019   |      17,548|   1,702|     1,630|  10.7 -   7,684|           7,067|       2,535|         2,498|    75.3 -  9,500|
+|2020   |      21,253|   1,716|     1,683|   0.2 -   8,906|           4,485|       2,492|         2,532|    16.6 -  7,416|
+|2021   |      26,062|   1,825|     1,793|  27.0 -   8,341|           3,509|       2,551|         2,506|    30.2 - 11,400|
+|2022   |      29,299|   2,101|     1,999|  12.4 -  11,175|           3,055|       2,879|         2,730|     2.1 - 14,607|
+|2023   |      25,920|   2,306|     2,161|  17.4 -  10,138|           3,314|       3,006|         2,817|   106.4 - 11,895|
+|2024   |       5,952|   2,448|     2,279|  62.7 -   8,048|             787|       3,273|         3,066|   180.7 - 13,044|
+|2025   |         297|   2,850|     2,455| 237.9 - 124,950|              40|       2,972|         2,877|   245.3 -  7,674|
 
 
 
@@ -959,9 +959,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 2,249 open access books. Publication fees were supported financially by 92 research performing institutions and funders. 
+The book data set contains information on 2,260 open access books. Publication fees were supported financially by 93 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 14,914,526. The average payment was € 6,632 and the median was € 6,740.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 15,017,945. The average payment was € 6,645 and the median was € 6,744.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -985,10 +985,10 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2019   |             173|    7,794|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
 |2021   |             174|    6,974|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
-|2022   |             229|    7,554|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |             321|    6,861|      6,420|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
-|2024   |             112|    8,119|      6,616|   402 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
-|2025   |               2|    4,675|      4,675| 3,450 -  5,900|             NA|       NA|         NA|            NA|
+|2022   |             230|    7,578|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
+|2023   |             322|    6,865|      6,460|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
+|2024   |             120|    8,165|      6,557|   402 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
+|2025   |               3|    7,117|      5,900| 3,450 - 12,000|             NA|       NA|         NA|            NA|
 
 
 
@@ -1033,10 +1033,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.76%       |88.75%   |
-|PubMed ID                  |  73.32%      | NA                                                          |
-|PubMed Central ID          |  67.85%     | NA                                                          |
-|Web of Science record ID   | 65.6%         | NA                                                          |
+|DOI                        |  99.76%       |88.81%   |
+|PubMed ID                  |  73.29%      | NA                                                          |
+|PubMed Central ID          |  67.82%     | NA                                                          |
+|Web of Science record ID   | 65.48%         | NA                                                          |
 
 
 
