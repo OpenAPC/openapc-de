@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 149,444 articles, published at 539 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 149,720 articles, published at 539 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -24,7 +24,7 @@ This dataset contains information on 149,444 articles, published at 539 institut
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
 |DEAL Springer Nature Germany                     |    18340|
-|DEAL Wiley Germany                               |    16180|
+|DEAL Wiley Germany                               |    16456|
 |Swiss Consortium Elsevier agreement              |    10993|
 |CRKN SAGE Agreement                              |     8308|
 |French EDP Sciences agreement                    |     4998|
@@ -196,13 +196,13 @@ This dataset contains information on 149,444 articles, published at 539 institut
 |University of Lausanne                                                                                                                             |     2063|
 |University of Basel                                                                                                                                |     2001|
 |École Polytechnique Fédérale de Lausanne                                                                                                           |     1875|
+|KIT                                                                                                                                                |     1806|
 |Trinity College Dublin                                                                                                                             |     1804|
 |Aalto University                                                                                                                                   |     1734|
 |Tampere University                                                                                                                                 |     1702|
 |University of Turku                                                                                                                                |     1606|
 |University of Oulu                                                                                                                                 |     1550|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     1535|
-|KIT                                                                                                                                                |     1530|
 |University College Cork                                                                                                                            |     1484|
 |Wuerzburg U                                                                                                                                        |     1286|
 |Friedrich-Schiller-Universität Jena                                                                                                                |     1242|
