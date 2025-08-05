@@ -587,6 +587,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1930-8892": ["Oxford University Press (OUP)", "University of Chicago Press"], # Environmental History (electronic)
 	"2210-4968": ["IOS Press", "SAGE Publications"], # Semantic Web 
 	"1570-0844": ["IOS Press", "SAGE Publications"], # Semantic Web (print)
+	"1091-255X": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Gastrointestinal Surgery
+	"1600-6135": ["Wiley-Blackwell", "Elsevier BV"], # American Journal of Transplantation
+	"0893-3952": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Modern Pathology
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
