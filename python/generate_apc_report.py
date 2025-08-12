@@ -64,16 +64,21 @@ def get_data_dir_stats(data_dir):
     files = listdir(path)
     stats = {
         "readme": False,
-        "orig_files": 0
+        "total_files": 0,
+        "data_files": 0,
+        "oapk_files": 0,
     }
     for file_name in files:
         lower = file_name.lower()
+        stats["total_files"] += 1
         if "readme" in lower:
             stats["readme"] = True
             continue
-        if "angereichert" in lower or "enriched" in lower:
+        if "angereichert" in lower or "enriched" in lower or "postprocessed" in lower:
             continue
-        stats["orig_files"] += 1
+        if "oapk" in lower:
+            stats["oapk_files"] += 1
+        stats["data_files"] += 1
     return stats
 
 def generate_header(lang):
@@ -111,8 +116,11 @@ def generate_metadata_section(institution, ins_content, stats, lang):
         stats = get_data_dir_stats(data_dir)
         data_url = "https://github.com/OpenAPC/openapc-de/tree/master/data/" + data_dir
         markdown += "* " + LANG[lang]["md_data_dir"] + ": [" + data_dir + "](" + data_url + ")\n"
-        markdown += "* " + LANG[lang]["md_num_files"] +  ": " + str(stats["orig_files"]) + "\n"
-        markdown += "* " + LANG[lang]["md_readme"] +  ": "
+        markdown += "  + " + LANG[lang]["md_num_files"] + str(stats["total_files"]) + "\n"
+        markdown += "  + " + LANG[lang]["md_num_data_files"] + str(stats["data_files"]) + "\n"
+        oapk_info = "  + " + LANG[lang]["md_num_oapk_files"] + str(stats["oapk_files"]) + "\n" if stats["oapk_files"] > 0 else ""
+        markdown += oapk_info
+        markdown += "  + " + LANG[lang]["md_readme"] +  ": "
         if stats["readme"]:
             markdown += LANG[lang]["md_readme_yes"]
         else:
