@@ -1023,6 +1023,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1947-6035", # Cartilage, Gold OA since 2022
     "1062-7987", # European Review, Gold OA since 2025
     "0269-8897", # Science in Context, Gold OA since 2024
+    "1432-184X", # Microbial Ecology, Gold OA since 2024
+    "0924-2708", # Acta Neuropsychiatrica, Gold OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
