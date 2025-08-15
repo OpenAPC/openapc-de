@@ -57,11 +57,8 @@ OUT_ASK = ("Please select a target file for the results.\n" +
 QUOTE_MASK = [True, False, False, True, True, True, True, True, True, True, True,
               True, True, True, True, True, True, True, True]
 
-
-EZBS = oat.EZBSrcaping()
-
 def _prepare_ezb_info(issn):
-    info = EZBS.get_ezb_info(issn)
+    info = oat.get_metadata_from_ezb(issn)
     if not info["success"]:
         msg = "\n\nNo Information could be obtained from the EZB for ISSN " + issn
         return msg

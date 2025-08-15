@@ -595,6 +595,7 @@ class EZBSrcaping(object):
     def get_ezb_info(self, search_term):
         ret_value = {"success": True, "data": []}
         url = self.EZB_SEARCH_URL + urlencode({"jq_term1": search_term})
+        print(url)
         answer = self._request_ezb_page(url)
         if not answer['success']:
             return answer
@@ -1534,6 +1535,73 @@ def _build_crossref_request(api_route):
     if CROSSREF_PLUS_TOKEN is not None and CROSSREF_PLUS_TOKEN != "unset":
         req.add_header('Crossref-Plus-API-Token', CROSSREF_PLUS_TOKEN)
     return req
+    
+def get_metadata_from_ezb(issn):
+    if not is_wellformed_ISSN(issn):
+        return {"success": False,
+                "error_msg": "Parse Error: '{}' is no valid ISSN".format(issn)
+               }
+    journal_xpaths = {
+        "access_msg" : {
+            "path": ".//ezb_detail_about_journal/journal/detail/access_conditions",
+            "attrib": None
+        },
+        "access_color": {
+            "path": ".//ezb_detail_about_journal/journal/journal_color",
+            "attrib": "color"
+         },
+        "title": {
+            "path": ".//ezb_detail_about_journal/journal/title",
+            "attrib": None
+        },
+        "remarks": {
+            "path": ".//ezb_detail_about_journal/journal/detail/remarks",
+            "attrib": None
+        },
+        "categories": {
+            "path": ".//ezb_detail_about_journal/journal/detail/categories/category",
+            "attrib": None,
+        },
+        "doaj_link": {
+            "path": ".//ezb_detail_about_journal/journal/publishing/doaj",
+            "attrib": "url",
+        }
+    }
+    url = "https://ezb.ur.de/searchres.phtml?bibid=AAAAA&jq_type1=QS&xmloutput=1&jq_term1=" + issn
+    ret_value = {"success": True}
+    try:
+        request = requests.get(url)
+        root = ET.fromstring(request.text)
+        journal_xpath = ".//ezb_alphabetical_list_searchresult/alphabetical_order/journals/journal"
+        result = root.findall(journal_xpath)
+        data = []
+        for journal in result:
+            jourid = journal.attrib.get("jourid", None)
+            if jourid is not None:
+                j_url = "https://ezb.ur.de/detail.phtml?bibid=AAAAA&xmloutput=1&jour_id=" + jourid
+                j_request = requests.get(j_url)
+                j_root = ET.fromstring(j_request.text)
+                j_data = {}
+                for elem, path_info in journal_xpaths.items():
+                    j_data[elem] = None
+                    result = j_root.findall(path_info["path"])
+                    if result is None:
+                        continue
+                    if path_info["attrib"] is None:
+                        result_texts = [xml_elem.text for xml_elem in result]
+                        j_data[elem] = "; ".join(result_texts)
+                    else:
+                        result_attribs = [xml_elem.attrib.get(path_info["attrib"], "") for xml_elem in result]
+                        j_data[elem] = "; ".join(result_attribs)
+                data.append(j_data)
+        ret_value["data"] = data
+    except HTTPError as httpe:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
+    except URLError as urle:
+        ret_value['success'] = False
+        ret_value['error_msg'] = "URLError: {}".format(urle.reason)
+    return ret_value
 
 def get_metadata_from_crossref(doi_string):
     """
