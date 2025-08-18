@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 152,125 articles, published at 539 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 152,211 articles, published at 539 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -86,6 +86,7 @@ This dataset contains information on 152,125 articles, published at 539 institut
 |QNL Elsevier Agreement                           |      194|
 |Austrian Consortium RSC agreement                |      179|
 |FWF Transformative Agreement IOP                 |      172|
+|Swiss Consortium Nature Transformative agreement |      164|
 |Crui-CARE ACS Agreement                          |      149|
 |Crui-CARE IEEE Agreement                         |      127|
 |FinELib Wolters Kluwer Lippincott agreement      |      127|
@@ -102,7 +103,6 @@ This dataset contains information on 152,125 articles, published at 539 institut
 |QNL T&F Agreement                                |       85|
 |University of Milan - Cambridge University Press |       83|
 |EISZ agreement Springer Nature                   |       79|
-|Swiss Consortium Nature Transformative agreement |       78|
 |CzechELib OUP agreement                          |       73|
 |Crui-CARE De Gruyter Agreement                   |       72|
 |IReL RS Agreement                                |       71|
@@ -181,21 +181,21 @@ This dataset contains information on 152,125 articles, published at 539 institut
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |French institutions                                                                                                                                |     4998|
-|ETH Zurich                                                                                                                                         |     4802|
-|University of Zurich                                                                                                                               |     4531|
+|ETH Zurich                                                                                                                                         |     4833|
+|University of Zurich                                                                                                                               |     4545|
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4421|
 |University of Helsinki                                                                                                                             |     4225|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
-|University of Bern                                                                                                                                 |     2694|
+|University of Bern                                                                                                                                 |     2697|
 |TU Muenchen                                                                                                                                        |     2598|
-|University of Geneva                                                                                                                               |     2567|
+|University of Geneva                                                                                                                               |     2572|
 |University College Dublin                                                                                                                          |     2512|
 |Muenchen LMU                                                                                                                                       |     2321|
-|University of Lausanne                                                                                                                             |     2279|
+|University of Lausanne                                                                                                                             |     2285|
 |University of Padua                                                                                                                                |     2148|
-|University of Basel                                                                                                                                |     2140|
+|University of Basel                                                                                                                                |     2145|
 |Milano U                                                                                                                                           |     2085|
-|École Polytechnique Fédérale de Lausanne                                                                                                           |     2023|
+|École Polytechnique Fédérale de Lausanne                                                                                                           |     2039|
 |Trinity College Dublin                                                                                                                             |     1887|
 |KIT                                                                                                                                                |     1806|
 |Aalto University                                                                                                                                   |     1734|
@@ -228,7 +228,7 @@ This dataset contains information on 152,125 articles, published at 539 institut
 |JGU Mainz                                                                                                                                          |      785|
 |Frankfurt U                                                                                                                                        |      777|
 |Imperial College London                                                                                                                            |      771|
-|Empa - Swiss Federal Laboratories for Materials Science and Technology                                                                             |      766|
+|Empa - Swiss Federal Laboratories for Materials Science and Technology                                                                             |      767|
 |University of British Columbia                                                                                                                     |      729|
 |HHU Düsseldorf                                                                                                                                     |      723|
 |Erlangen Nuernberg U                                                                                                                               |      720|
@@ -240,9 +240,9 @@ This dataset contains information on 152,125 articles, published at 539 institut
 |Hannover U und TIB                                                                                                                                 |      603|
 |KTH Royal Institute of Technology                                                                                                                  |      590|
 |University of Manchester                                                                                                                           |      585|
-|PSI - Paul Scherrer Institute                                                                                                                      |      580|
+|PSI - Paul Scherrer Institute                                                                                                                      |      583|
 |Greifswald U                                                                                                                                       |      573|
-|University of Fribourg                                                                                                                             |      568|
+|University of Fribourg                                                                                                                             |      569|
 |Hohenheim U                                                                                                                                        |      567|
 |Maynooth University                                                                                                                                |      566|
 |Royal College of Surgeons in Ireland                                                                                                               |      561|
@@ -300,8 +300,8 @@ This dataset contains information on 152,125 articles, published at 539 institut
 |University of Calgary                                                                                                                              |      343|
 |Cardiff University                                                                                                                                 |      339|
 |University of Ottawa                                                                                                                               |      338|
+|Eawag - Swiss Federal Institute of Aquatic Science and Technology                                                                                  |      336|
 |Siegen U                                                                                                                                           |      336|
-|Eawag - Swiss Federal Institute of Aquatic Science and Technology                                                                                  |      335|
 |University of Warwick                                                                                                                              |      332|
 |TU Chemnitz                                                                                                                                        |      331|
 |Dortmund TU                                                                                                                                        |      329|
