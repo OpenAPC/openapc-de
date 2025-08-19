@@ -57,20 +57,17 @@ OUT_ASK = ("Please select a target file for the results.\n" +
 QUOTE_MASK = [True, False, False, True, True, True, True, True, True, True, True,
               True, True, True, True, True, True, True, True]
 
-
-EZBS = oat.EZBSrcaping()
-
 def _prepare_ezb_info(issn):
-    info = EZBS.get_ezb_info(issn)
+    info = oat.get_metadata_from_ezb(issn)
     if not info["success"]:
         msg = "\n\nNo Information could be obtained from the EZB for ISSN " + issn
         return msg
     msg = "\n\nThe following additional information could be obtained from the EZB for ISSN " + issn + ":\n"
     for record in info["data"]:
-        msg += "Title:      " + record["title"] + "\n"
+        msg += "Title:      " + record["title"] + "\n" if record["title"] else ""
         msg += "Access:     " + oat.colorize(record["access_msg"], record["access_color"]) + "\n"
-        msg += "Comments:   " + str(record["remarks"]) + "\n"
-        msg += "Categories: " + ", ".join(record["categories"]) + "\n" if record["categories"] else ""
+        msg += "Comments:   " + record["remarks"] + "\n" if record["remarks"] else ""
+        msg += "Categories: " + record["categories"] + "\n" if record["categories"] else ""
         msg += "DOAJ:       " + record["doaj_link"] + "\n" if record["doaj_link"] else ""
         msg += "-------------------------------------------------------\n"        
     return msg
