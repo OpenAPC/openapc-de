@@ -511,110 +511,6 @@ class DOAJAnalysis(TempFileHandling):
                 print_c(backup_msg)
         return filename
 
-class EZBSrcaping(object):
-    """
-    Contains methods to scrap journal information from the Regensburg
-    Electronic Journals Library ("Elektronische Zeitschriftenbibliothek")
-    (https://ezb.uni-regensburg.de/)
-    """
-
-    EZB_SEARCH_URL = ("https://ezb.uni-regensburg.de/searchres.phtml?" +
-                      "bibid=AAAAA&colors=7&lang=de&jq_type1=QS&")
-    EZB_ID_URL = ('https://ezb.uni-regensburg.de/detail.phtml?')
-
-    JOURNAL_PAGE_INDICATOR = re.compile(r'<h1\s+class="detail_heading".*?>')
-    #JOURNAL_ACCESS = re.compile(r'<h1\s+class="detail_heading"\s*>\s*<div\s+class="filter-container-mid"\s+title="(?P<access_msg>.*?)">\s*<span\s+class="filter-light\s+(?P<green>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<yellow>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<red>.*?)"\s*>')
-    JOURNAL_ACCESS = re.compile(r'<div\s+class="filter-container-mid leftfloat"\s+title="(?P<access_msg>.*?)".*?>\s*<span\s+class="filter-light\s+(?P<green>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<yellow>.*?)"\s*>\s*</span>\s*<span\s+class="filter-light\s+(?P<red>.*?)"\s*>')
-    JOURNAL_TITLE = re.compile(r'<dd\s+id="title"\s+class="defListContentDefinition"\s*>\s*(?P<title>.*?)\s*</dd\s*>')
-    JOURNAL_REMARKS = re.compile(r'<dt\s+class="defListContentTitle"\s*>\s*Bemerkung:\s*</dt\s*>\s*<dd\s+class="defListContentDefinition"\s*>\s*(?P<remarks>.*?)\s*</dd\s*>')
-    JOURNAL_CATEGORY_LABELS = re.compile(r"<span\s+class='label\s+label-usercolor'\s+role='button'\s+tabindex='\d'\s+aria-describedby='apcDesc'\s*>(?P<category>.*?)</span>")
-    DOAJ_LINK = re.compile(r'<a\s+href="(?P<doaj_link>.*?)"\s+title=".*?"\s+target="_blank">\s*DOAJ\s*</a>')
-
-    RESULT_LINKS = re.compile(r'<a\s+href="warpto.phtml\?(?P<url_params>.*?)"\s+title="Direktlink zur Zeitschrift"\s*>')
-
-    def _get_journal_details(self, content):
-        res = {
-            "errors": [],
-            "access_msg" : None,
-            "access_color": None,
-            "title": None,
-            "remarks": None,
-            "categories": [],
-            "doaj_link": None
-        }
-        access_mo = re.search(self.JOURNAL_ACCESS, content)
-        if access_mo:
-            access_dict = access_mo.groupdict()
-            res["access_msg"] = access_dict["access_msg"]
-            if access_dict["green"] == "green":
-                res["access_color"] = "green"
-            elif access_dict["yellow"] == "yellow":
-                res["access_color"] = "yellow"
-            elif access_dict["red"] == "red":
-                res["access_color"] = "red"
-        else:
-            res["errors"].append("Could not scrap journal access information (RE 'JOURNAL_ACCESS' did not find anything)")
-        title_mo = re.search(self.JOURNAL_TITLE, content)
-        if title_mo:
-            title_dict = title_mo.groupdict()
-            res["title"] = title_dict["title"]
-        else:
-            res["errors"].append("Could not scrap journal title information (RE 'JOURNAL_TITLE' did not find anything)")
-        remarks_mo = re.search(self.JOURNAL_REMARKS, content)
-        if remarks_mo:
-            remarks_dict = remarks_mo.groupdict()
-            res["remarks"] = remarks_dict["remarks"]
-        else:
-            res["errors"].append("Could not scrap journal remarks information (RE 'JOURNAL_REMARKS' did not find anything)")
-        categories = re.findall(self.JOURNAL_CATEGORY_LABELS, content)
-        if categories:
-            res["categories"] = categories
-        doaj_link_mo = re.search(self.DOAJ_LINK, content)
-        if doaj_link_mo:
-            doaj_link_dict = doaj_link_mo.groupdict()
-            res["doaj_link"] = doaj_link_dict["doaj_link"]
-        return res
-
-    def _request_ezb_page(self, url):
-        request = Request(url)
-        request.add_header("User-Agent", USER_AGENT)
-        ret_value = {'success': True}
-        try:
-            ret = urlopen(request)
-            content_bytes = ret.read()
-            content = content_bytes.decode("latin-1")
-            ret_value["content"] = content
-        except HTTPError as httpe:
-            ret_value['success'] = False
-            ret_value['error_msg'] = "HTTPError: {} - {}".format(httpe.code, httpe.reason)
-        except URLError as urle:
-            ret_value['success'] = False
-            ret_value['error_msg'] = "URLError: {}".format(urle.reason)
-        return ret_value
-
-    def get_ezb_info(self, search_term):
-        ret_value = {"success": True, "data": []}
-        url = self.EZB_SEARCH_URL + urlencode({"jq_term1": search_term})
-        print(url)
-        answer = self._request_ezb_page(url)
-        if not answer['success']:
-            return answer
-        # When querying the EZB, it may either lead us directly to a journal detail
-        # page or to a results page if there's more than one search result
-        content = answer["content"]
-        if re.search(self.JOURNAL_PAGE_INDICATOR, content):
-            ret_value["data"].append(self._get_journal_details(content))
-        else:
-            link_params = re.findall(self.RESULT_LINKS, content)
-            for params in link_params:
-                url = self.EZB_ID_URL + unescape(params)
-                answer = self._request_ezb_page(url)
-                if answer['success']:
-                    ret_value["data"].append(self._get_journal_details(answer["content"]))
-        if not ret_value["data"]:
-            ret_value["success"] = False
-        return ret_value
-
 class DOABAnalysis(object):
 
     # Priority mappings from DOAB fields to OpenAPC values. Unfortuately, the current DOAB CSV file is a real mess...
@@ -1535,8 +1431,11 @@ def _build_crossref_request(api_route):
     if CROSSREF_PLUS_TOKEN is not None and CROSSREF_PLUS_TOKEN != "unset":
         req.add_header('Crossref-Plus-API-Token', CROSSREF_PLUS_TOKEN)
     return req
-    
+
 def get_metadata_from_ezb(issn):
+    """
+    Take an ISSN and obtain journal metadata from the EZB.
+    """
     if not is_wellformed_ISSN(issn):
         return {"success": False,
                 "error_msg": "Parse Error: '{}' is no valid ISSN".format(issn)
@@ -2449,7 +2348,7 @@ def get_unified_journal_title(journal_full_title):
 
 def get_corrected_issn_l(issn_l):
     return mappings.ISSN_L_CORRECTIONS.get(issn_l, issn_l)
-    
+
 def colorize(text, color):
     ANSI_COLORS = {
         "red": "\033[91m",
@@ -2459,6 +2358,8 @@ def colorize(text, color):
         "cyan": "\033[96m",
         "magenta": "\033[95m"
     }
+    if color not in ANSI_COLORS:
+        return text
     return ANSI_COLORS[color] + text + "\033[0m"
 
 def print_b(text):
