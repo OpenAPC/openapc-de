@@ -1487,7 +1487,7 @@ def get_metadata_from_ezb(issn):
                     if result is None:
                         continue
                     if path_info["attrib"] is None:
-                        result_texts = [xml_elem.text for xml_elem in result]
+                        result_texts = [xml_elem.text for xml_elem in result if xml_elem.text is not None]
                         j_data[elem] = "; ".join(result_texts)
                     else:
                         result_attribs = [xml_elem.attrib.get(path_info["attrib"], "") for xml_elem in result]
