@@ -16,9 +16,6 @@ import openapc_toolkit as oat
 import opencost_toolkit_v2 as octk
 
 ARG_HELP_STRINGS = {
-    "integrate": ('Integrate changes in harvested data into existing ' +
-                  'collected files ("all_harvested_articles.csv" and '+
-                  '"all_harvested_articles_enriched.csv")'),
     "output": 'Write raw harvested data to disk',
     "links": "Print OAI GetRecord links for all harvested articles, useful " +
              "for inspecting and debugging the original data",
@@ -28,98 +25,6 @@ ARG_HELP_STRINGS = {
     "force_update": "Download a fresh copy of the openCost XSD from GitHub. Only "+
                     "works in connection with the -v option"
 }
-
-def integrate_changes(articles, file_path, enriched_file=False, dry_run=False):
-    '''
-    Update existing entries in a previously created harvest file.
-    
-    Args:
-        articles: A list of article dicts, as retured by oai_harvest()
-        file_path: Path to the CSV file the new values should be integrated into.
-        enriched_file: If true, columns which are overwritten during enrichment
-                       will not be updated
-        dry_run: Do not make any changes to the file (but still report changes and
-                 return the list of unencountered articles)
-    Returns:
-        A reduced list of article dicts, containing those which did not
-        find a matching DOI in the file (Order preserved).
-    '''
-
-    messages = {
-        'wet': {
-            'start': 'Integrating changes in harvest data into existing file {}',
-            'line_change': 'Line {} ({}): Updating value in column {} ("{}" -> "{}")',
-            'remove': 'PID {} no longer found in harvest data, removing article',
-        },
-        'dry': {
-            'start': 'Dry Run: Comparing harvest data to existing file {}',
-            'line_change': 'Line {} ({}): Change in column {} ("{}" -> "{}")',
-            'remove': 'PID {} no longer found in harvest data, article would be removed',
-        }
-    }
-
-    messages = messages['dry'] if dry_run else messages['wet']
-
-    if not os.path.isfile(file_path):
-        return articles
-    enriched_blacklist = ["institution", "publisher", "journal_full_title", "issn", "license_ref", "pmid"]
-    article_dict = OrderedDict()
-    for article in articles:
-        # Harvested articles use OAI record IDs in the url field as PID.
-        url = article["url"]
-        if oat.has_value(url):
-            article_dict[url] = article
-    updated_lines = []
-    fieldnames = None
-    unmatched_keys = []
-    with open(file_path, "r") as f:
-        reader = DictReader(f)
-        fieldnames = reader.fieldnames
-        updated_lines.append(list(fieldnames)) #header
-        oat.print_y(messages["start"].format(file_path))
-        for line in reader:
-            url = line["url"]
-            if not oat.has_value(line["institution"]):
-                # Do not change empty lines
-                updated_lines.append([line[key] for key in fieldnames])
-                continue
-            line_num = reader.reader.line_num
-            if url in article_dict:
-                for key, value in article_dict[url].items():
-                    if key not in line:
-                        if key not in unmatched_keys:
-                            unmatched_keys.append(key)
-                        continue
-                    if enriched_file and key in enriched_blacklist:
-                        continue
-                    if key == "euro":
-                        old_euro = oat._auto_atof(line[key])
-                        new_euro = oat._auto_atof(value)
-                        if old_euro is not None and new_euro is not None:
-                            if old_euro == new_euro:
-                                continue
-                    if key in line and value != line[key]:
-                        oat.print_g(messages["line_change"].format(line_num, line["url"], key, line[key], value))
-                        line[key] = value
-                del(article_dict[url])
-                updated_line = [line[key] for key in fieldnames]
-                updated_lines.append(updated_line)
-            else:
-                oat.print_r(messages["remove"].format(url))
-    if unmatched_keys:
-        msg = ("WARNING: There were unmatched keys in the harvested " +
-               "data which do not exist in the all_harvested_articles " +
-               "file: {}\nThis might occur if the repo switched to " +
-               "another data format (e.g. from intact to opencost), in " +
-               "this case you should delete the old all_harvested files " +
-               "and start new ones.")
-        oat.print_y(msg.format(unmatched_keys))
-    if not dry_run:
-        with open(file_path, "w") as f:
-            mask = oat.OPENAPC_STANDARD_QUOTEMASK if enriched_file else None
-            writer = oat.OpenAPCUnicodeWriter(f, quotemask=mask, openapc_quote_rules=True, has_header=True)
-            writer.write_rows(updated_lines)
-    return list(article_dict.values())
 
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact", validate_only=False, force_update=False, record_url=None):
     """
@@ -187,7 +92,6 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-i", "--integrate", help=ARG_HELP_STRINGS["integrate"], action="store_true")
     parser.add_argument("-o", "--output", help=ARG_HELP_STRINGS["output"], action="store_true")
     parser.add_argument("-l", "--print_record_links", help=ARG_HELP_STRINGS["links"], action="store_true")
     parser.add_argument("-v", "--validate_only", help=ARG_HELP_STRINGS["validate"], action="store_true")
@@ -213,25 +117,33 @@ def main():
                     oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type, args.validate_only, args.force_update)
                     continue
                 oat.print_g("Starting harvest for source " + basic_url)
-                articles = oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type, args.validate_only, args.force_update)
-                harvest_file_path = os.path.join(directory, "all_harvested_articles.csv")
-                enriched_file_path = os.path.join(directory, "all_harvested_articles_enriched.csv")
-                new_article_dicts = integrate_changes(articles, harvest_file_path, False, not args.integrate)
-                integrate_changes(articles, enriched_file_path, True, not args.integrate)
+                publication_dicts = oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type, args.validate_only, args.force_update)
                 if repo_type == 'intact':
                     header = list(oat.OAI_COLLECTION_CONTENT.keys())
                 elif repo_type == 'opencost':
                     header = list(octk.OPENCOST_EXTRACTION_FIELDS.keys())
-                new_articles = [header]
-                for article_dict in new_article_dicts:
-                    new_articles.append([article_dict[key] for key in header])
+                new_publications = {
+                    "journal article": [list(header)],
+                    "book": [list(header)],
+                }
+                for publication_dict in publication_dicts:
+                    pub_type = publication_dict.get("type", "journal article") # opencost only, intact will be accepted as article per default
+                    if pub_type not in new_publications:
+                        msg = 'Skipping publication ({}), invalid type "{}"'
+                        oat.print_y(msg.format(publication_dict["doi"], publication_dict["type"]))
+                        continue
+                    new_publications[pub_type].append([publication_dict[key] for key in header])
                 now = datetime.datetime.now()
                 date_string = now.strftime("%Y_%m_%d")
-                file_name = "new_articles_" + date_string + ".csv"
-                target = os.path.join(directory, file_name)
-                with open(target, "w") as t:
-                    writer = oat.OpenAPCUnicodeWriter(t, openapc_quote_rules=True, has_header=True)
-                    writer.write_rows(new_articles)
+                for pub_type, content in new_publications.items():
+                    if len(content) < 2:
+                        continue
+                    type_string = pub_type.replace(" ", "_")
+                    file_name = "harvest_" + type_string + "_" + date_string + ".csv"
+                    target = os.path.join(directory, file_name)
+                    with open(target, "w") as t:
+                        writer = oat.OpenAPCUnicodeWriter(t, openapc_quote_rules=True, has_header=True)
+                        writer.write_rows(content)
             else:
                 oat.print_y("Skipping inactive source " + basic_url)
 
