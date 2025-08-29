@@ -16,8 +16,8 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |252,137 | 513,449,257    | 468 |
-| Monographs       |2,262 | 15,031,085    | 93 |
+| Articles         |252,734 | 514,680,779    | 469 |
+| Monographs       |2,266 | 15,054,375    | 94 |
 
 ## How to access the data?
 
@@ -323,6 +323,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Consiglio Nazionale Delle Ricerche (CNR)](https://www.cnr.it/en/cnr-open-access)
 - [Free University of Bozen-Bolzano](https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/)
 - [Scuola Normale Superiore](https://www.sns.it/it)
+- [University of Ferrara](https://www.unife.it)
 - [University of Milano-Bicocca](https://en.unimib.it/)
 - [University of Padua](https://biblio.unipd.it/en/digital-library/about-publishing/agreements-with-publishers)
 - [Università degli Studi di Milano](https://www.unimi.it/en)
@@ -889,13 +890,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 252,137 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 468 research performing institutions and research funders. 
+The article data set contains information on 252,734 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 469 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 513,449,257. The average payment was € 2,036 and the median was € 1,888.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 514,680,779. The average payment was € 2,036 and the median was € 1,888.
 
-187,432 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 347,840,415, including value-added tax; the average payment was € 1,856 (median =  € 1,735, SD = € 899).
+187,948 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 348,858,565, including value-added tax; the average payment was € 1,856 (median =  € 1,736, SD = € 899).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,705 articles in the data set were published in hybrid journals. Total expenditure amounts to 165,608,842 €; the average fee was € 2,559 (median =  € 2,505, SD = € 1,123).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,786 articles in the data set were published in hybrid journals. Total expenditure amounts to 165,822,215 €; the average fee was € 2,560 (median =  € 2,505, SD = € 1,123).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -924,11 +925,11 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2017   |      14,977|   1,701|     1,553|   8.7 - 14,634|          10,644|       2,528|         2,469|    36.9 -  9,858|
 |2018   |      16,256|   1,701|     1,582|  13.0 -  8,926|           9,481|       2,551|         2,538|     1.8 -  9,073|
 |2019   |      17,548|   1,702|     1,630|  10.7 -  7,684|           7,067|       2,535|         2,498|    75.3 -  9,500|
-|2020   |      21,253|   1,716|     1,683|   0.2 -  8,906|           4,485|       2,492|         2,532|    16.6 -  7,416|
-|2021   |      26,062|   1,825|     1,793|  27.0 -  8,341|           3,509|       2,551|         2,506|    30.2 - 11,400|
-|2022   |      29,299|   2,101|     1,999|  12.4 - 11,175|           3,054|       2,880|         2,730|     2.1 - 14,607|
-|2023   |      25,921|   2,306|     2,161|  17.4 - 10,138|           3,314|       3,006|         2,817|   106.4 - 11,895|
-|2024   |       6,366|   2,430|     2,275|  62.7 -  8,048|             870|       3,274|         3,116|   180.7 - 13,044|
+|2020   |      21,365|   1,716|     1,683|   0.2 -  8,906|           4,500|       2,490|         2,531|    16.6 -  7,416|
+|2021   |      26,184|   1,825|     1,793|  27.0 -  8,341|           3,537|       2,551|         2,506|    30.2 - 11,400|
+|2022   |      29,410|   2,101|     1,999|  12.4 - 11,175|           3,072|       2,881|         2,730|     2.1 - 14,607|
+|2023   |      26,015|   2,305|     2,162|  17.4 - 10,138|           3,324|       3,005|         2,817|   106.4 - 11,895|
+|2024   |       6,443|   2,431|     2,276|  62.7 -  8,048|             880|       3,269|         3,126|   180.7 - 13,044|
 |2025   |         297|   2,433|     2,455| 237.9 -  5,980|              40|       2,972|         2,877|   245.3 -  7,674|
 
 
@@ -959,9 +960,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 2,262 open access books. Publication fees were supported financially by 93 research performing institutions and funders. 
+The book data set contains information on 2,266 open access books. Publication fees were supported financially by 94 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 15,031,085. The average payment was € 6,645 and the median was € 6,744.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 15,054,375. The average payment was € 6,644 and the median was € 6,738.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -984,10 +985,10 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2018   |             149|    8,925|      8,250|   476 - 21,104|            191|    1,875|      1,875| 1,875 - 1,875|
 |2019   |             173|    7,794|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
-|2021   |             174|    6,974|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
+|2021   |             175|    6,969|      6,402|   595 - 18,000|             NA|       NA|         NA|            NA|
 |2022   |             230|    7,578|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |             322|    6,865|      6,460|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
-|2024   |             122|    8,139|      6,557|   402 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
+|2023   |             324|    6,838|      6,420|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
+|2024   |             123|    8,172|      6,569|   402 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
 |2025   |               3|    7,117|      5,900| 3,450 - 12,000|             NA|       NA|         NA|            NA|
 
 
@@ -1033,10 +1034,10 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.76%       |88.82%   |
-|PubMed ID                  |  73.27%      | NA                                                          |
+|DOI                        |  99.76%       |88.7%   |
+|PubMed ID                  |  73.28%      | NA                                                          |
 |PubMed Central ID          |  67.8%     | NA                                                          |
-|Web of Science record ID   | 65.36%         | NA                                                          |
+|Web of Science record ID   | 65.2%         | NA                                                          |
 
 
 
