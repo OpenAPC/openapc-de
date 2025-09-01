@@ -790,6 +790,7 @@ GEO_MAPPINGS = {
     # countries
     "CA": "CAN",
     "DE": "DEU",
+    "IT": "ITA",
     # subdivisions
     # -- Canada
     "ON": "CA-ON",
