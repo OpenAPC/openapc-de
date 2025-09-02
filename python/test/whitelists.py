@@ -590,6 +590,14 @@ JOURNAL_OWNER_CHANGED = {
 	"1091-255X": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Gastrointestinal Surgery
 	"1600-6135": ["Wiley-Blackwell", "Elsevier BV"], # American Journal of Transplantation
 	"0893-3952": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Modern Pathology
+	"1098-3600": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Genetics in Medicine 
+	"0006-341X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biometrics 
+	"1541-0420": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biometrics (electronic)
+	"0032-3195": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Political Science Quarterly 
+	"1538-165X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Political Science Quarterly (electronic)
+	"2572-9241": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # HemaSphere
+	"1943-3875": ["SAGE Publications", "MDPI AG"], # Craniomaxillofacial Trauma & Reconstruction 
+	"1943-3883": ["SAGE Publications", "MDPI AG"], # Craniomaxillofacial Trauma & Reconstruction (electronic) 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1026,6 +1034,26 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1432-184X", # Microbial Ecology, Gold OA since 2024
     "0924-2708", # Acta Neuropsychiatrica, Gold OA since 2025
     "0269-8463", # Functional Ecology, Gold OA since 2025
+    "0305-0009", # Journal of Child Language, Gold OA since 2024
+    "2049-7547", # Journal of Linguistic Geography, Gold OA since 2023
+    "0332-5865", # Nordic Journal of Linguistics, Gold OA since 2024
+    "0814-0626", # Australian Journal of Environmental Education, Gold OA since 2023
+    "0890-0604", # Artificial Intelligence for Engineering Design, Analysis and Manufacturing, Gold OA since 2025
+    "1570-8268", # Web Semantics: Science, Services and Agents on the World Wide Web, Gold OA since 2024
+    "1572-1000", # Photodiagnosis and Photodynamic Therapy, Gold OA since 2024
+    "0098-8472", # Environmental and Experimental Botany, Gold OA since 2025
+    "0163-4453", # Journal of Infection, Gold OA since 2024
+    "1573-0409", # Journal of Intelligent & Robotic Systems, Gold OA since 2024
+    "1573-515X", # Biogeochemistry, Gold OA since 2024
+    "0942-0940", # Acta Neurochirurgica, Gold OA since 2025
+    "1432-0711", # Archives of Gynecology and Obstetrics, Gold OA since 2025
+    "0939-5555", # Annals of Hematology, Gold OA since 2025
+    "0271-9142", # Journal of Clinical Immunology, Gold OA since 2025
+    "1435-2451", # Langenbeck's Archives of Surgery, Gold OA since 2025
+    "2522-0128", # Advanced Composites and Hybrid Materials, Gold OA since 2025
+    "1573-2576", # Inflammation, Gold OA since 2025
+    "2573-5098", # JSFA reports, Gold OA since 2025
+    "0953-1513", # Learned Publishing, Gold OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
