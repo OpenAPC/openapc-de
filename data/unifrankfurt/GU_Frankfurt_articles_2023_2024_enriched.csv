@@ -1,8 +1,8 @@
 "institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
 "Frankfurt U",2023,3353.06,"10.1001/jamanetworkopen.2023.40256",FALSE,"American Medical Association (AMA)","JAMA Network Open","2574-3805",NA,"2574-3805","2574-3805",NA,TRUE,"37902752","PMC10616722",NA,NA,TRUE
 "Frankfurt U",2024,3297,"10.1001/jamanetworkopen.2024.32927",FALSE,"American Medical Association (AMA)","JAMA Network Open","2574-3805",NA,"2574-3805","2574-3805","CC BY",TRUE,"39264626","PMC11393720",NA,NA,TRUE
-"Frankfurt U",2024,NA,"10.1002/anie.202317675",FALSE,"Wiley-Blackwell","Angewandte Chemie International Edition","1433-7851","1433-7851","1521-3773","1433-7851","http://creativecommons.org/licenses/by/4.0/",TRUE,"38127455",NA,NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1002/hep.32676",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Hepatology","0270-9139","0270-9139",NA,"0270-9139","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"35869810",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2024,2075.36,"10.1002/pan3.10637",FALSE,"Wiley-Blackwell","People and Nature","2575-8314","2575-8314","2575-8314","2575-8314","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Frankfurt U",2024,3266.55,"10.1007/s00292-024-01306-9",TRUE,"Springer Nature","Die Pathologie","2731-7188","2731-7188","2731-7196","2731-7188","https://creativecommons.org/licenses/by/4.0",TRUE,"38416173","PMC10902075",NA,NA,FALSE
 "Frankfurt U",2023,2897.65,"10.1007/s11577-023-00882-7",TRUE,"Springer Nature","KZfSS Kölner Zeitschrift für Soziologie und Sozialpsychologie","0023-2653","0023-2653","1861-891X","0023-2653","https://creativecommons.org/licenses/by/4.0",TRUE,NA,NA,NA,NA,FALSE
@@ -15,7 +15,7 @@
 "Frankfurt U",2024,3641.4,"10.1016/j.biopha.2024.116127",FALSE,"Elsevier BV","Biomedicine & Pharmacotherapy","0753-3322","0753-3322",NA,"0753-3322","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38198951","PMC10857809",NA,NA,FALSE
 "Frankfurt U",2024,4622.08,"10.1016/j.bja.2023.12.014",FALSE,"Elsevier BV","British Journal of Anaesthesia","0007-0912","0007-0912",NA,"0007-0912","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38267339",NA,NA,NA,FALSE
 "Frankfurt U",2023,1917.09,"10.1016/j.bpr.2023.100123",FALSE,"Elsevier BV","Biophysical Reports","2667-0747","2667-0747",NA,"2667-0747","http://creativecommons.org/licenses/by/4.0/",TRUE,"37680382","PMC10480660",NA,NA,TRUE
-"Frankfurt U",2024,NA,"10.1016/j.ccell.2023.12.019",TRUE,"Elsevier BV","Cancer Cell","1535-6108","1535-6108",NA,"1535-6108","http://www.elsevier.com/open-access/userlicense/1.0/",TRUE,"38215749","PMC11256978",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2024,5533.5,"10.1016/j.celrep.2023.112824",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37481725",NA,NA,NA,TRUE
 "Frankfurt U",2024,5807.2,"10.1016/j.celrep.2023.113484",FALSE,"Elsevier BV","Cell Reports","2211-1247","2211-1247",NA,"2211-1247","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37999976",NA,NA,NA,TRUE
 "Frankfurt U",2023,3403.4,"10.1016/j.chemgeo.2023.121803",TRUE,"Elsevier BV","Chemical Geology","0009-2541","0009-2541",NA,"0009-2541","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
@@ -32,7 +32,7 @@
 "Frankfurt U",2023,2070.6,"10.1016/j.heliyon.2023.e14646",FALSE,"Elsevier BV","Heliyon","2405-8440","2405-8440",NA,"2405-8440","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37009241","PMC10060570",NA,NA,TRUE
 "Frankfurt U",2023,2237.2,"10.1016/j.heliyon.2023.e17396",FALSE,"Elsevier BV","Heliyon","2405-8440","2405-8440",NA,"2405-8440","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37408923","PMC10318444",NA,NA,TRUE
 "Frankfurt U",2024,2237.2,"10.1016/j.heliyon.2023.e23379",FALSE,"Elsevier BV","Heliyon","2405-8440","2405-8440",NA,"2405-8440","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38148800","PMC10750160",NA,NA,TRUE
-"Frankfurt U",2024,NA,"10.1016/j.humpath.2023.06.003",TRUE,"Elsevier BV","Human Pathology","0046-8177","0046-8177",NA,"0046-8177","https://www.elsevier.com/tdm/userlicense/1.0/",TRUE,"37331528",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2023,1655.69,"10.1016/j.ijchp.2022.100364",FALSE,"Elsevier BV","International Journal of Clinical and Health Psychology","1697-2600","1697-2600",NA,"1697-2600","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"36589551","PMC9790876",NA,NA,TRUE
 "Frankfurt U",2023,2779.01,"10.1016/j.ijid.2022.12.034",FALSE,"Elsevier BV","International Journal of Infectious Diseases","1201-9712","1201-9712",NA,"1201-9712","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"36587839","PMC9800011",NA,NA,TRUE
 "Frankfurt U",2023,737.8,"10.1016/j.ijid.2023.07.006",FALSE,"Elsevier BV","International Journal of Infectious Diseases","1201-9712","1201-9712",NA,"1201-9712","http://creativecommons.org/licenses/by/4.0/",TRUE,"37454890",NA,NA,NA,TRUE
@@ -69,14 +69,14 @@
 "Frankfurt U",2023,4117.4,"10.1016/j.scitotenv.2023.166540",TRUE,"Elsevier BV","Science of The Total Environment","0048-9697","0048-9697",NA,"0048-9697","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"37634730",NA,NA,NA,FALSE
 "Frankfurt U",2023,1758.23,"10.1016/j.seares.2022.102332",FALSE,"Elsevier BV","Journal of Sea Research","1385-1101","1385-1101",NA,"1385-1101","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Frankfurt U",2024,3320.1,"10.1016/j.ssresearch.2024.103003",TRUE,"Elsevier BV","Social Science Research","0049-089X","0049-089X",NA,"0049-089X","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"38763538",NA,NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1016/j.ymthe.2024.05.022",TRUE,"Elsevier BV","Molecular Therapy","1525-0016","1525-0016",NA,"1525-0016","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38751112","PMC11287004",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2024,2378.22,"10.1017/fas.2024.11",FALSE,"Cambridge University Press (CUP)","Finance and Society","2059-5999",NA,"2059-5999","2059-5999","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Frankfurt U",2023,2904.84,"10.1017/gov.2023.43",TRUE,"Cambridge University Press (CUP)","Government and Opposition","0017-257X","0017-257X","1477-7053","0017-257X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Frankfurt U",2023,4208.14,"10.1021/acs.accounts.3c00402",TRUE,"American Chemical Society (ACS)","Accounts of Chemical Research","0001-4842","0001-4842","1520-4898","0001-4842","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37944919","PMC10666278",NA,NA,FALSE
 "Frankfurt U",2023,4182.7,"10.1021/acs.analchem.3c03368",TRUE,"American Chemical Society (ACS)","Analytical Chemistry","0003-2700","0003-2700","1520-6882","0003-2700","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37989265","PMC10701707",NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1021/acs.jmedchem.3c02164",TRUE,"American Chemical Society (ACS)","Journal of Medicinal Chemistry","0022-2623","0022-2623","1520-4804","0022-2623","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38917049","PMC11249017",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2024,4163.17,"10.1021/acs.jpcb.4c02065",TRUE,"American Chemical Society (ACS)","The Journal of Physical Chemistry B","1520-6106","1520-6106","1520-5207","1520-5207","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38955346","PMC11264260",NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1021/acsami.3c14387",TRUE,"American Chemical Society (ACS)","ACS Applied Materials & Interfaces","1944-8244","1944-8244","1944-8252","1944-8244","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38442898","PMC10959108",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2023,4190.55,"10.1021/acschembio.2c00877",FALSE,"American Chemical Society (ACS)","ACS Chemical Biology","1554-8929","1554-8929","1554-8937","1554-8929","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"36944371","PMC10127199",NA,NA,FALSE
 "Frankfurt U",2024,2458.68,"10.1021/acsnano.3c08731",TRUE,"American Chemical Society (ACS)","ACS Nano","1936-0851","1936-0851","1936-086X","1936-0851","https://creativecommons.org/licenses/by/4.0/",TRUE,"38301137","PMC10868588",NA,NA,FALSE
 "Frankfurt U",2023,1836.9,"10.1021/acsomega.3c04681",FALSE,"American Chemical Society (ACS)","ACS Omega","2470-1343","2470-1343","2470-1343","2470-1343","https://creativecommons.org/licenses/by/4.0/",TRUE,"37720784","PMC10500644",NA,NA,TRUE
@@ -116,7 +116,7 @@
 "Frankfurt U",2023,3445.05,"10.1080/15476286.2023.2298532",FALSE,"Informa UK Limited","RNA Biology","1547-6286","1547-6286","1555-8584","1547-6286","http://creativecommons.org/licenses/by/4.0/",TRUE,"38156797","PMC10761087",NA,NA,TRUE
 "Frankfurt U",2024,3772.3,"10.1080/15476286.2024.2395718",FALSE,"Informa UK Limited","RNA Biology","1547-6286","1547-6286","1555-8584","1547-6286","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"39257052","PMC11404584",NA,NA,TRUE
 "Frankfurt U",2023,4480.35,"10.1080/15548627.2023.2230839",TRUE,"Informa UK Limited","Autophagy","1554-8627","1554-8627","1554-8635","1554-8627","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"37439113","PMC10549194",NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1080/15548627.2024.2330037",TRUE,"Informa UK Limited","Autophagy","1554-8627","1554-8627","1554-8635","1554-8627","http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38511596","PMC11210897",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2023,2017.05,"10.1080/20008066.2023.2257434",FALSE,"Informa UK Limited","European Journal of Psychotraumatology","2000-8066",NA,"2000-8066","2000-8066","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"37753639","PMC10538459",NA,NA,TRUE
 "Frankfurt U",2024,1898.05,"10.1080/20008066.2023.2260293",FALSE,"Informa UK Limited","European Journal of Psychotraumatology","2000-8066",NA,"2000-8066","2000-8066","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"37860858","PMC10591525",NA,NA,TRUE
 "Frankfurt U",2024,2017.05,"10.1080/20008066.2024.2308439",FALSE,"Informa UK Limited","European Journal of Psychotraumatology","2000-8066",NA,"2000-8066","2000-8066","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"38323870","PMC10851818",NA,NA,TRUE
@@ -127,7 +127,7 @@
 "Frankfurt U",2023,1408.09,"10.1080/26395916.2023.2253317",FALSE,"Informa UK Limited","Ecosystems and People","2639-5908","2639-5908","2639-5916","2639-5908","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Frankfurt U",2023,5709.73,"10.1083/jcb.202304030",TRUE,"Rockefeller University Press","The Journal of Cell Biology","0021-9525","0021-9525","1540-8140","0021-9525","https://creativecommons.org/licenses/by/4.0/",TRUE,"38108808","PMC10726014",NA,NA,FALSE
 "Frankfurt U",2024,1219.61,"10.1088/1402-4896/ad6aea",TRUE,"IOP Publishing","Physica Scripta","0031-8949","0031-8949","1402-4896","0031-8949","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1089/jwh.2023.0665",FALSE,"Mary Ann Liebert Inc","Journal of Women's Health","1540-9996","1540-9996","1931-843X","1540-9996","https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/",TRUE,"38530069",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2024,2194.76,"10.1089/neur.2023.0098",FALSE,"Mary Ann Liebert Inc","Neurotrauma Reports","2689-288X",NA,"2689-288X","2689-288X","https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/",TRUE,"38463418","PMC10924060",NA,NA,TRUE
 "Frankfurt U",2024,1445.04,"10.1093/aobpla/plae061",FALSE,"Oxford University Press (OUP)","AoB Plants","2041-2851",NA,"2041-2851","2041-2851","https://creativecommons.org/licenses/by/4.0/",TRUE,"39850953","PMC11752646",NA,NA,TRUE
 "Frankfurt U",2024,4203.1,"10.1093/bib/bbae640",FALSE,"Oxford University Press (OUP)","Briefings in Bioinformatics","1467-5463","1467-5463","1477-4054","1467-5463","https://creativecommons.org/licenses/by/4.0/",TRUE,"39658207","PMC11631343",NA,NA,TRUE
@@ -175,7 +175,7 @@
 "Frankfurt U",2024,1803.2,"10.1097/hc9.0000000000000535",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Hepatology Communications","2471-254X",NA,"2471-254X","2471-254X","http://creativecommons.org/licenses/by-nc-nd/4.0/ http://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"39330948","PMC11441853",NA,NA,TRUE
 "Frankfurt U",2024,1891.54,"10.1097/sc9.0000000000000020",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Journal of Craniofacial Surgery Open","2832-5877",NA,"2832-5877","2832-5877","http://creativecommons.org/licenses/by/4.0/ http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Frankfurt U",2023,675.94,"10.1097/shk.0000000000002231",TRUE,"Ovid Technologies (Wolters Kluwer Health)","Shock","1073-2322","1073-2322",NA,"1073-2322",NA,TRUE,"37878473",NA,NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1097/shk.0000000000002491",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Shock","1073-2322","1073-2322",NA,"1073-2322",NA,TRUE,"39456115",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2023,2046.36,"10.1098/rsob.230031",FALSE,"The Royal Society","Open Biology","2046-2441",NA,"2046-2441","2046-2441","https://royalsociety.org/journals/ethics-policies/data-sharing-mining/",TRUE,"37253421","PMC10229228",NA,NA,TRUE
 "Frankfurt U",2023,1713.6,"10.1098/rsos.221234",FALSE,"The Royal Society","Royal Society Open Science","2054-5703",NA,"2054-5703","2054-5703","https://royalsociety.org/journals/ethics-policies/data-sharing-mining/",TRUE,"36778955","PMC9905983",NA,NA,TRUE
 "Frankfurt U",2024,2850.05,"10.1098/rstb.2023.0401",TRUE,"The Royal Society","Philosophical Transactions of the Royal Society B: Biological Sciences","0962-8436","0962-8436","1471-2970","0962-8436","http://creativecommons.org/licenses/by/4.0/",TRUE,"39278241","PMC11449153",NA,NA,FALSE
@@ -205,8 +205,8 @@
 "Frankfurt U",2023,2003.29,"10.1126/sciadv.abq8227",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"37683006","PMC10491222",NA,NA,TRUE
 "Frankfurt U",2023,2432.08,"10.1126/sciadv.adj0384",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548","CC BY",TRUE,"38266078","PMC10807816",NA,NA,TRUE
 "Frankfurt U",2024,2165.05,"10.1126/sciadv.adn0155",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548","CC BY",TRUE,"38809987","PMC11135390",NA,NA,TRUE
-"Frankfurt U",2024,NA,"10.1126/science.adi5295",FALSE,"American Association for the Advancement of Science (AAAS)","Science","0036-8075","0036-8075","1095-9203","0036-8075",NA,TRUE,"39541449",NA,NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1128/jvi.00534-24",TRUE,"American Society for Microbiology","Journal of Virology","0022-538X","0022-538X","1098-5514","0022-538X","https://doi.org/10.1128/ASMCopyrightv2",TRUE,"38899932","PMC11265465",NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2023,2108.36,"10.1128/mbio.02139-23",FALSE,"American Society for Microbiology","mBio","2150-7511",NA,"2150-7511","2150-7511","https://creativecommons.org/licenses/by/4.0/",TRUE,"37768061","PMC10653857",NA,NA,TRUE
 "Frankfurt U",2024,1425.55,"10.1128/mra.00397-24",FALSE,"American Society for Microbiology","Microbiology Resource Announcements","2576-098X",NA,"2576-098X","2576-098X","https://creativecommons.org/licenses/by/4.0/",TRUE,"38953338","PMC11320913",NA,NA,FALSE
 "Frankfurt U",2023,3621.5,"10.1128/spectrum.05174-22",FALSE,"American Society for Microbiology","Microbiology Spectrum","2165-0497",NA,"2165-0497","2165-0497","https://creativecommons.org/licenses/by/4.0/",TRUE,"37052493","PMC10269660",NA,NA,TRUE
@@ -218,7 +218,7 @@
 "Frankfurt U",2024,2869.32,"10.1136/openhrt-2023-002540",FALSE,"BMJ","Open Heart","2053-3624",NA,"2053-3624","2053-3624","http://creativecommons.org/licenses/by-nc/4.0/",TRUE,"38388188","PMC10884198",NA,NA,TRUE
 "Frankfurt U",2023,4974.44,"10.1152/ajpcell.00101.2023",TRUE,"American Physiological Society","American Journal of Physiology - Cell Physiology","0363-6143","0363-6143","1522-1563","0363-6143",NA,TRUE,"37273239",NA,NA,NA,FALSE
 "Frankfurt U",2023,1098.41,"10.1152/ajpcell.00293.2023",TRUE,"American Physiological Society","American Journal of Physiology - Cell Physiology","0363-6143","0363-6143","1522-1563","0363-6143",NA,TRUE,"37899749",NA,NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1152/ajpcell.00413.2023",TRUE,"American Physiological Society","American Journal of Physiology - Cell Physiology","0363-6143","0363-6143","1522-1563","0363-6143",NA,TRUE,"38223924",NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2024,1066.22,"10.1152/ajpcell.00630.2024",TRUE,"American Physiological Society","American Journal of Physiology - Cell Physiology","0363-6143","0363-6143","1522-1563","0363-6143",NA,TRUE,"39437447",NA,NA,NA,FALSE
 "Frankfurt U",2024,1600,"10.1159/000540962",FALSE,"S. Karger AG","Transfusion Medicine and Hemotherapy","1660-3796","1660-3796","1660-3818","1660-3796","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"39944413","PMC11813277",NA,NA,TRUE
 "Frankfurt U",2024,1600,"10.1159/000540964",FALSE,"S. Karger AG","Transfusion Medicine and Hemotherapy","1660-3796","1660-3796","1660-3818","1660-3796","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"39944412","PMC11813276",NA,NA,TRUE
@@ -229,7 +229,7 @@
 "Frankfurt U",2023,2025.68,"10.1167/jov.23.10.9",FALSE,"Association for Research in Vision and Ophthalmology (ARVO)","Journal of Vision","1534-7362","1534-7362",NA,"1534-7362","http://creativecommons.org/licenses/by/4.0/",TRUE,"37707802","PMC10506680",NA,NA,TRUE
 "Frankfurt U",2023,5021.56,"10.1172/jci.insight.162124",FALSE,"American Society for Clinical Investigation","JCI Insight","2379-3708",NA,"2379-3708","2379-3708","http://creativecommons.org/licenses/by/4.0/",TRUE,"36883566","PMC10077484",NA,NA,TRUE
 "Frankfurt U",2024,1430.95,"10.1175/jas-d-23-0069.1",TRUE,"American Meteorological Society","Journal of the Atmospheric Sciences","0022-4928","0022-4928","1520-0469","0022-4928","http://www.ametsoc.org/PUBSReuseLicenses",TRUE,NA,NA,NA,NA,FALSE
-"Frankfurt U",2024,NA,"10.1175/jcli-d-23-0589.1",FALSE,"American Meteorological Society","Journal of Climate","0894-8755","0894-8755","1520-0442","0894-8755","http://www.ametsoc.org/PUBSReuseLicenses",TRUE,NA,NA,NA,NA,FALSE
+"",,,"","","","","","","","","","","","","","",""
 "Frankfurt U",2024,2216.44,"10.1177/00207152231219489",TRUE,"SAGE Publications","International Journal of Comparative Sociology","0020-7152","0020-7152","1745-2554","0020-7152","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Frankfurt U",2024,2251.9,"10.1177/00207152241246746",TRUE,"SAGE Publications","International Journal of Comparative Sociology","0020-7152","0020-7152","1745-2554","0020-7152","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,FALSE
 "Frankfurt U",2023,1200.95,"10.1177/10760296231152898",FALSE,"SAGE Publications","Clinical and Applied Thrombosis/Hemostasis","1076-0296","1076-0296","1938-2723","1076-0296","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"37069796","PMC10123917",NA,NA,TRUE
