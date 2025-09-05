@@ -27,7 +27,8 @@ PUBLISHER_IDENTITY = [
     (["jovis Verlag"], ["De Gruyter"]), # jovis is an imprint of De Gruyter
     (["Joule Inc."], ["CMA Impact Inc."]),
     (["CRC Press"], ["Routledge"]), # both imprints of T&F, both share a website and present their portfolio together
-    (["edition text + kritik"], ["De Gruyter"])
+    (["edition text + kritik"], ["De Gruyter"]),
+    (["Medknow"], ["Ovid Technologies (Wolters Kluwer Health)"]), # Medknow is an imprint of Wolters Kluwer
 ]
 
 
@@ -185,7 +186,7 @@ JOURNAL_OWNER_CHANGED = {
     "0034-0111": ["Springer Nature", "Walter de Gruyter GmbH", "Oekom Publishers GmbH"], # Raumforschung und Raumordnung (linking)
     "1552-5260": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia
     "1552-5279": ["Elsevier BV", "Wiley-Blackwell"], # Alzheimer's & Dementia (electronic)
-    "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina"], # Clinics
+    "1807-5932": ["FapUNIFESP (SciELO)", "Fundacao Faculdade de Medicina", "Elsevier BV"], # Clinics
     "1617-9625": ["Springer Science + Business Media", "Springer Nature", "E.U. European Publishing"], #  Tobacco Induced Diseases, at EP since 2018
     "1878-7657": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine
     "1878-7649": ["Elsevier BV", "Springer Nature"], # European Geriatric Medicine (linking)
@@ -1054,6 +1055,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1573-2576", # Inflammation, Gold OA since 2025
     "2573-5098", # JSFA reports, Gold OA since 2025
     "0953-1513", # Learned Publishing, Gold OA since 2025
+    "1877-8879", # Scandinavian Journal of Pain, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
