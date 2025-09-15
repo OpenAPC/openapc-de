@@ -28,7 +28,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 27;Universität Bielefeld;SN Business & Economics;2662-9399;10.1007/s43546-023-00445-0;https://doi.org/10.1007/s43546-023-00445-0;10.02.2023;26.01.2023;2750;originalpaper;optin
 28;Universität Bielefeld;Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte;2365-9521;10.1007/s41245-023-00215-8;https://doi.org/10.1007/s41245-023-00215-8;15.11.2023;24.10.2023;2750;originalpaper;optin
 29;Universität Bielefeld;Herzschrittmachertherapie + Elektrophysiologie;1435-1544;10.1007/s00399-023-00947-2;https://doi.org/10.1007/s00399-023-00947-2;28.06.2023;17.05.2023;2750;originalpaper;optin
-30;Universität Bielefeld;manuscripta mathematica;1432-1785;10.1007/s00229-023-01521-3;https://doi.org/10.1007/s00229-023-01521-3;09.11.2023;23.10.2023;2750;originalpaper;optout
 31;Universität Bielefeld;Journal of Statistical Theory and Practice;1559-8616;10.1007/s42519-023-00342-7;https://doi.org/10.1007/s42519-023-00342-7;01.09.2023;14.08.2023;2750;originalpaper;optin
 32;Universität Bielefeld;Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz;1437-1588;10.1007/s00103-023-03737-w;https://doi.org/10.1007/s00103-023-03737-w;20.07.2023;14.06.2023;2750;originalpaper;optin
 33;Universität Bielefeld;Applied Microbiology and Biotechnology;1432-0614;10.1007/s00253-023-12592-3;https://doi.org/10.1007/s00253-023-12592-3;29.05.2023;12.05.2023;2750;originalpaper;optin
@@ -44,12 +43,8 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 43;Universität Bielefeld;Metabolomics;1573-3890;10.1007/s11306-023-02026-6;https://doi.org/10.1007/s11306-023-02026-6;23.06.2023;09.06.2023;2750;originalpaper;optin
 44;Universität Bielefeld;Numerische Mathematik;0945-3245;10.1007/s00211-023-01373-9;https://doi.org/10.1007/s00211-023-01373-9;11.09.2023;21.08.2023;2750;originalpaper;optin
 45;Universität Bielefeld;Neue Politische Literatur;2197-6082;10.1007/s42520-023-00525-3;https://doi.org/10.1007/s42520-023-00525-3;19.09.2023;05.09.2023;917;bookreview;optin
-46;Universität Bielefeld;Decisions in Economics and Finance;1129-6569;10.1007/s10203-023-00422-0;https://doi.org/10.1007/s10203-023-00422-0;16.12.2023;20.11.2023;2750;originalpaper;optout
 47;Universität Bielefeld;The Journal of Value Inquiry;1573-0492;10.1007/s10790-023-09965-2;https://doi.org/10.1007/s10790-023-09965-2;07.12.2023;18.09.2023;2750;originalpaper;optin
 48;Universität Bielefeld;Ethik in der Medizin;1437-1618;10.1007/s00481-023-00765-7;https://doi.org/10.1007/s00481-023-00765-7;27.04.2023;08.02.2023;2750;originalpaper;optin
-49;Universität Bielefeld;SN Computer Science;2661-8907;10.1007/s42979-023-01782-5;https://doi.org/10.1007/s42979-023-01782-5;05.05.2023;15.03.2023;2750;originalpaper;optout
-50;Universität Bielefeld;The European Physical Journal A;1434-601X;10.1140/epja/s10050-023-01145-x;https://doi.org/10.1140/epja/s10050-023-01145-x;17.10.2023;29.09.2023;2750;originalpaper;optout
-51;Universität Bielefeld;Probability Theory and Related Fields;1432-2064;10.1007/s00440-023-01201-z;https://doi.org/10.1007/s00440-023-01201-z;18.04.2023;30.03.2023;2750;originalpaper;optout
 52;Universität Bielefeld;Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz;1437-1588;10.1007/s00103-023-03729-w;https://doi.org/10.1007/s00103-023-03729-w;06.06.2023;22.05.2023;2750;reviewpaper;optin
 53;Universität Bielefeld;International Journal of Social Robotics;1875-4805;10.1007/s12369-023-01043-8;https://doi.org/10.1007/s12369-023-01043-8;22.09.2023;09.08.2023;2750;originalpaper;optin
 54;Universität Bielefeld;Journal of Fourier Analysis and Applications;1531-5851;10.1007/s00041-023-10045-z;https://doi.org/10.1007/s00041-023-10045-z;11.10.2023;07.01.2023;2750;originalpaper;optin
@@ -64,7 +59,6 @@ pos;institution_name;journal_title;eissn;doi;url;published;accepted;par_fee;arti
 63;Universität Bielefeld;European Archives of Oto-Rhino-Laryngology;1434-4726;10.1007/s00405-023-08271-8;https://doi.org/10.1007/s00405-023-08271-8;17.10.2023;02.10.2023;2750;originalpaper;optin
 64;Universität Bielefeld;Der Nervenarzt;1433-0407;10.1007/s00115-023-01549-6;https://doi.org/10.1007/s00115-023-01549-6;27.09.2023;08.08.2023;2750;reviewpaper;optin
 65;Universität Bielefeld;Forum Kinder- und Jugendsport;2730-7220;10.1007/s43594-023-00085-0;https://doi.org/10.1007/s43594-023-00085-0;11.04.2023;08.02.2023;2750;originalpaper;optin
-66;Universität Bielefeld;Medizinische Klinik - Intensivmedizin und Notfallmedizin;2193-6226;10.1007/s00063-023-01056-1;https://doi.org/10.1007/s00063-023-01056-1;08.09.2023;24.07.2023;2750;originalpaper;optout
 67;Universität Bielefeld;Social Psychiatry and Psychiatric Epidemiology;1433-9285;10.1007/s00127-023-02506-z;https://doi.org/10.1007/s00127-023-02506-z;05.06.2023;25.05.2023;2750;originalpaper;optin
 68;Universität Bielefeld;Annals of Mathematics and Artificial Intelligence;1573-7470;10.1007/s10472-023-09890-x;https://doi.org/10.1007/s10472-023-09890-x;18.08.2023;03.08.2023;2750;originalpaper;optin
 69;Universität Bielefeld;Prevention Science;1573-6695;10.1007/s11121-023-01550-0;https://doi.org/10.1007/s11121-023-01550-0;26.05.2023;12.05.2023;2750;originalpaper;optin
