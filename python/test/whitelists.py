@@ -599,6 +599,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2572-9241": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # HemaSphere
 	"1943-3875": ["SAGE Publications", "MDPI AG"], # Craniomaxillofacial Trauma & Reconstruction 
 	"1943-3883": ["SAGE Publications", "MDPI AG"], # Craniomaxillofacial Trauma & Reconstruction (electronic) 
+	"1479-6694": ["Future Medicine Ltd", "Informa UK Limited"], # Future Oncology 
+	"1744-8301": ["Future Medicine Ltd", "Informa UK Limited"], # Future Oncology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1056,6 +1058,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2573-5098", # JSFA reports, Gold OA since 2025
     "0953-1513", # Learned Publishing, Gold OA since 2025
     "1877-8879", # Scandinavian Journal of Pain, Gold OA since 2024
+    "0958-1596", # Critical Public Health, Gold OA since 2024
+    "1103-8128", # Scandinavian Journal of Occupational Therapy, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
