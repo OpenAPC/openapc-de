@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 159,319 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 159,375 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 159,319 articles, published at 543 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18624|
-|DEAL Wiley Germany                               |    16657|
+|DEAL Springer Nature Germany                     |    18657|
+|DEAL Wiley Germany                               |    16680|
 |Swiss Consortium Elsevier agreement              |    12988|
 |CRKN SAGE Agreement                              |     8308|
 |FinELib Elsevier agreement                       |     6879|
@@ -314,6 +314,7 @@ This dataset contains information on 159,319 articles, published at 543 institut
 |Leiden University Medical Center (LUMC)                                                                                                            |      316|
 |TU Braunschweig                                                                                                                                    |      316|
 |Radboud University                                                                                                                                 |      309|
+|Hamburg TUHH                                                                                                                                       |      307|
 |Technological University Dublin                                                                                                                    |      303|
 |University of Twente                                                                                                                               |      297|
 |Leipzig U                                                                                                                                          |      296|
@@ -333,7 +334,6 @@ This dataset contains information on 159,319 articles, published at 543 institut
 |University of Exeter                                                                                                                               |      262|
 |York University                                                                                                                                    |      261|
 |Université de Montréal                                                                                                                             |      260|
-|Hamburg TUHH                                                                                                                                       |      251|
 |Medical University of Graz                                                                                                                         |      248|
 |University of Debrecen                                                                                                                             |      236|
 |Dalhousie University                                                                                                                               |      233|
