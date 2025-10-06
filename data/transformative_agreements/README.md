@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 159,380 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 159,476 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 159,380 articles, published at 543 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18657|
-|DEAL Wiley Germany                               |    16680|
+|DEAL Springer Nature Germany                     |    18708|
+|DEAL Wiley Germany                               |    16725|
 |Swiss Consortium Elsevier agreement              |    12988|
 |CRKN SAGE Agreement                              |     8308|
 |FinELib Elsevier agreement                       |     6879|
@@ -239,6 +239,7 @@ This dataset contains information on 159,380 articles, published at 543 institut
 |Koeln U                                                                                                                                            |      673|
 |TU Darmstadt                                                                                                                                       |      670|
 |Åbo Akademi University                                                                                                                             |      664|
+|Hohenheim U                                                                                                                                        |      663|
 |King's College London                                                                                                                              |      652|
 |Hannover U und TIB                                                                                                                                 |      603|
 |University of Fribourg                                                                                                                             |      597|
@@ -246,7 +247,6 @@ This dataset contains information on 159,380 articles, published at 543 institut
 |PSI - Paul Scherrer Institute                                                                                                                      |      585|
 |University of Manchester                                                                                                                           |      585|
 |Greifswald U                                                                                                                                       |      573|
-|Hohenheim U                                                                                                                                        |      567|
 |Maynooth University                                                                                                                                |      566|
 |Royal College of Surgeons in Ireland                                                                                                               |      561|
 |Stockholm University                                                                                                                               |      559|
