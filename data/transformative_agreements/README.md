@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 159,375 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 159,380 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -30,7 +30,7 @@ This dataset contains information on 159,375 articles, published at 543 institut
 |FinELib Elsevier agreement                       |     6879|
 |French EDP Sciences agreement                    |     4998|
 |Swiss Consortium Springer Compact agreement      |     4992|
-|FinELib Wiley agreement                          |     3847|
+|FinELib Wiley agreement                          |     3848|
 |FinELib Springer Compact agreement               |     3562|
 |Swiss Consortium Wiley agreement                 |     3142|
 |IReL Wiley Agreement                             |     2682|
@@ -39,8 +39,8 @@ This dataset contains information on 159,375 articles, published at 543 institut
 |IReL Springer Agreement                          |     1734|
 |Swiss Consortium T&F agreement                   |     1698|
 |IReL T&F Agreement                               |     1614|
-|FinELib SAGE agreement                           |     1294|
-|FinELib IEEE agreement                           |     1254|
+|FinELib SAGE agreement                           |     1295|
+|FinELib IEEE agreement                           |     1257|
 |Swiss Consortium SAGE agreement                  |     1157|
 |IReL Sage Agreement                              |      878|
 |FWF Transformative Agreement Wiley-Blackwell     |      869|
@@ -181,7 +181,7 @@ This dataset contains information on 159,375 articles, published at 543 institut
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |French institutions                                                                                                                                |     4998|
-|University of Helsinki                                                                                                                             |     4983|
+|University of Helsinki                                                                                                                             |     4985|
 |ETH Zurich                                                                                                                                         |     4895|
 |University of Zurich                                                                                                                               |     4625|
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4421|
@@ -189,13 +189,13 @@ This dataset contains information on 159,375 articles, published at 543 institut
 |University of Bern                                                                                                                                 |     2752|
 |University of Geneva                                                                                                                               |     2632|
 |TU Muenchen                                                                                                                                        |     2598|
-|Aalto University                                                                                                                                   |     2520|
+|Aalto University                                                                                                                                   |     2521|
 |University College Dublin                                                                                                                          |     2512|
 |Tampere University                                                                                                                                 |     2444|
 |University of Lausanne                                                                                                                             |     2354|
 |Muenchen LMU                                                                                                                                       |     2321|
 |University of Turku                                                                                                                                |     2283|
-|University of Oulu                                                                                                                                 |     2259|
+|University of Oulu                                                                                                                                 |     2261|
 |University of Basel                                                                                                                                |     2192|
 |University of Padua                                                                                                                                |     2148|
 |Milano U                                                                                                                                           |     2085|
