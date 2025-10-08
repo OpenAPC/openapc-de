@@ -1,12 +1,12 @@
-"DOI (Angabe wg. Formatvorlage von Open-APC bitte ohne vorangestelltes ""DOI:"")";Hybrid [ja/nein];APC in Euro brutto - WIB-Recherche: 33766,87;Verlag
-10.3389/fsoc.2023.1267235;Nein;689,7;Frontiers Media
-10.1093/migration/mnae002;ja;4306,61;Oxford University Press
-10.1214/24-STS927;ja;1299,27;Institute of Mathematical Statistics
-10.3368/jhr.0223-12757R1;ja;2420,04;University of Wisconsin Press
-10.1055/a-2374-2467;ja;3629,5;Thieme
-10.1515/zsr-2024-0006;ja;2737;De Gruyter
-10.1515/zsr-2023-0023;ja;2737;De Gruyter
-10.1093/sp/jxae031;ja;3742,16;Oxford University Press
-10.1086/733977;ja;2821,51;University of Chicago Press
-10.1093/sf/soae170;ja;4491,73;Oxford University Press
-10.1093/ej/ueae114 ;ja;4892,35;Oxford University Press
+institution;DOI;is_hybrid;APC;Verlag;period
+IAB;10.3389/fsoc.2023.1267235;Nein;689,7;Frontiers Media;2024
+IAB;10.1093/migration/mnae002;ja;4306,61;Oxford University Press;2024
+IAB;10.1214/24-STS927;ja;1299,27;Institute of Mathematical Statistics;2024
+IAB;10.3368/jhr.0223-12757R1;ja;2420,04;University of Wisconsin Press;2024
+IAB;10.1055/a-2374-2467;ja;3629,5;Thieme;2024
+IAB;10.1515/zsr-2024-0006;ja;2737;De Gruyter;2024
+IAB;10.1515/zsr-2023-0023;ja;2737;De Gruyter;2024
+IAB;10.1093/sp/jxae031;ja;3742,16;Oxford University Press;2024
+IAB;10.1086/733977;ja;2821,51;University of Chicago Press;2024
+IAB;10.1093/sf/soae170;ja;4491,73;Oxford University Press;2024
+IAB;10.1093/ej/ueae114 ;ja;4892,35;Oxford University Press;2024
