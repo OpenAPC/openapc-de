@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 159,476 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 160,231 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -28,7 +28,7 @@ This dataset contains information on 159,476 articles, published at 543 institut
 |Swiss Consortium Elsevier agreement              |    12988|
 |CRKN SAGE Agreement                              |     8308|
 |FinELib Elsevier agreement                       |     6879|
-|French EDP Sciences agreement                    |     4998|
+|French EDP Sciences agreement                    |     5753|
 |Swiss Consortium Springer Compact agreement      |     4992|
 |FinELib Wiley agreement                          |     3848|
 |FinELib Springer Compact agreement               |     3562|
@@ -180,7 +180,7 @@ This dataset contains information on 159,476 articles, published at 543 institut
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|French institutions                                                                                                                                |     4998|
+|French institutions                                                                                                                                |     5753|
 |University of Helsinki                                                                                                                             |     4985|
 |ETH Zurich                                                                                                                                         |     4895|
 |University of Zurich                                                                                                                               |     4625|
