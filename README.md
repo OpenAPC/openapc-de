@@ -52,6 +52,8 @@ The following institutions have contributed to OpenAPC so far:
 
 ## Institutions from Germany 
 
+<details>
+
 ###  Higher education institutions 
 
 - [Aachen University of Applied Sciences](https://www.fh-aachen.de/fh-aachen/arbeiten/servicestellen-fuer-beschaeftigte/bibliotheksservices-fuer-beschaeftigte/forschen-publizieren/publikationsfonds-forschung)
@@ -222,7 +224,11 @@ The following institutions have contributed to OpenAPC so far:
 
 - Hannover U und TIB
 
+</details>
+
 ## Institutions from Austria 
+
+<details>
 
 - [AC2T Research GmbH](https://www.ac2t.at/en/)
 - [Carinthia University of Applied Sciences (CUAS)](https://www.fh-kaernten.at/en/)
@@ -263,7 +269,11 @@ The following institutions have contributed to OpenAPC so far:
 - [University of Vienna](https://www.univie.ac.at/en/)
 - [Vienna University of Economics and Business (WU)](https://www.wu.ac.at/en/)
 
+</details>
+
 ## Institutions from Switzerland 
+
+<details>
 
 - [Agroscope](https://www.agroscope.admin.ch/agroscope/en/home.html)
 - [Bern University of Applied Sciences](http://www.bfh.ch/)
@@ -318,7 +328,11 @@ The following institutions have contributed to OpenAPC so far:
 - [Zurich University of the Arts](https://www.zhdk.ch/miz/miz-oa)
 - [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/en/)
 
+</details>
+
 ## Institutions from Italy 
+
+<details>
 
 - [Consiglio Nazionale Delle Ricerche (CNR)](https://www.cnr.it/en/cnr-open-access)
 - [Free University of Bozen-Bolzano](https://www.unibz.it/en/services/library/publishing-at-unibz/unibz-open-access-publishing-fund/)
@@ -330,7 +344,11 @@ The following institutions have contributed to OpenAPC so far:
 - [Università degli Studi di Modena e Reggio Emilia](https://international.unimore.it/)
 - [Veneto Institute of Oncology (IOV IRCCS)](https://www.ioveneto.it/unit/gestione-documentazione-scientifica/)
 
+</details>
+
 ## Institutions from Norway 
+
+<details>
 
 - Akershus University Hospital
 - BI Norwegian Business School
@@ -366,12 +384,20 @@ The following institutions have contributed to OpenAPC so far:
 - Vestfold Hospital Trust
 - Vestre Viken Hospital Trust
 
+</details>
+
 ## Institutions from Spain 
+
+<details>
 
 - [Consejo Superior de Investigaciones Cientificas (CSIC)](https://www.csic.es/en)
 - [Universitat de Barcelona](https://crai.ub.edu/en/services-and-resources/copyright-intellectual-property-open-access-support/ub-open-acess)
 
+</details>
+
 ## Institutions from Sweden 
+
+<details>
 
 - BTH Blekinge Institute of Technology
 - Chalmers University of Technology
@@ -413,7 +439,11 @@ The following institutions have contributed to OpenAPC so far:
 - Uppsala University
 - Örebro University
 
+</details>
+
 ## Institutions from Finland 
+
+<details>
 
 - Aalto University
 - [Arcada University of Applied Sciences](https://www.arcada.fi/en)
@@ -464,7 +494,11 @@ The following institutions have contributed to OpenAPC so far:
 - VTT Technical Research Centre of Finland
 - Åbo Akademi University
 
+</details>
+
 ## Institutions from France 
+
+<details>
 
 - [ANSES - Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail](https://www.anses.fr/en)
 - ANSM - Agence Nationale de Sécurité des Médicaments et des produits de santé
@@ -581,7 +615,11 @@ The following institutions have contributed to OpenAPC so far:
 - Université des Antilles
 - Université du Littoral Côte d'Opale
 
+</details>
+
 ## Institutions from the United Kingdom 
+
+<details>
 
 - Aberystwyth University
 - [Anglia Ruskin University](https://www.aru.ac.uk/)
@@ -686,25 +724,45 @@ The following institutions have contributed to OpenAPC so far:
 - University of the West of England
 - [Wellcome Trust](https://wellcome.ac.uk/funding/managing-grant/open-access-policy)
 
+</details>
+
 ## Institutions from the Czech Republic 
+
+<details>
 
 - [Charles University](https://cuni.cz/UKEN-1.html)
 - [University of Chemistry and Technology, Prague](https://www.chemtk.cz/en/)
 - [VSB - Technical University of Ostrava](https://www.vsb.cz/en)
 
+</details>
+
 ## Institutions from Hungary 
+
+<details>
 
 - [University of Debrecen](https://unideb.hu/en)
 
+</details>
+
 ## Institutions from Serbia 
+
+<details>
 
 - [University of Belgrade](http://bg.ac.rs/en/)
 
+</details>
+
 ## Institutions from Belgium 
+
+<details>
 
 - [University of Liège](https://www.uliege.be/cms/c_8699436/en/uliege)
 
+</details>
+
 ## Institutions from the United States 
+
+<details>
 
 - [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/how-we-work/general-information/open-access-policy)
 - [Harvard University](https://osc.hul.harvard.edu/programs/hope/)
@@ -713,7 +771,11 @@ The following institutions have contributed to OpenAPC so far:
 - [University of Rhode Island](https://uri.libguides.com/oafund)
 - [Virginia Polytechnic Institute and State University](http://guides.lib.vt.edu/oa)
 
+</details>
+
 ## Institutions from Canada 
+
+<details>
 
 - [Acadia University](http://www2.acadiau.ca/)
 - [Algoma University](https://algomau.ca)
@@ -805,27 +867,51 @@ The following institutions have contributed to OpenAPC so far:
 - [École Nationale d'Administration Publique](https://enap.ca)
 - [École de Technologie Supérieure](https://www.etsmtl.ca)
 
+</details>
+
 ## Institutions from Qatar 
+
+<details>
 
 - [Qatar National Library](https://www.qnl.qa/en)
 
+</details>
+
 ## Institutions from Malawi 
+
+<details>
 
 - Malawi-Liverpool-Wellcome Clinical Research-Programme
 
+</details>
+
 ## Institutions from Thailand 
+
+<details>
 
 - Mahidol Oxford Tropical Medicine Research Unit
 
+</details>
+
 ## Institutions from Vietnam 
+
+<details>
 
 - Oxford University Clinical Research Unit
 
+</details>
+
 ## Institutions from Greece 
+
+<details>
 
 - [OpenAIRE (FP7 Post-Grant OA Pilot)](https://digital-strategy.ec.europa.eu/en/news/results-fp7-post-grant-open-access-pilot)
 
+</details>
+
 ## Institutions from the Netherlands 
+
+<details>
 
 - [Academic Medical Center (AMC)](https://www.amc.nl/web/home.htm)
 - [Academisch Centrum Tandheelkunde Amsterdam (ACTA)](https://acta.nl/en/)
@@ -861,11 +947,19 @@ The following institutions have contributed to OpenAPC so far:
 - [Wageningen University and Research Centre](https://www.wur.nl/en.htm)
 - [Westerdijk Fungal Biodiversity Center (CBS)](https://wi.knaw.nl/)
 
+</details>
+
 ## Institutions from Liechtenstein 
+
+<details>
 
 - [University of Liechtenstein](https://www.uni.li/study/de/)
 
+</details>
+
 ## Institutions from Ireland 
+
+<details>
 
 - [Atlantic Technological University](https://www.atu.ie)
 - [Dublin City University](https://www.dcu.ie/)
@@ -885,6 +979,8 @@ The following institutions have contributed to OpenAPC so far:
 - [University College Dublin](https://www.ucd.ie/)
 - [University of Galway](https://www.universityofgalway.ie/)
 - [University of Limerick](https://www.ul.ie/)
+
+</details>
 
 ## Data sets
 

@@ -88,7 +88,7 @@ ins_groups <- readr::read_csv("data/translation_institution_groups.csv")
 for (i in seq_along(countries$country)) {
   ctry_full_name <- countries[[i, "country_full_name"]]
   ctry <- countries[[i, "country"]]
-  cat(paste("## Institutions from", ctry_full_name, "\n\n"))
+  cat(paste("## Institutions from", ctry_full_name, "\n\n<details>\n\n"))
   for (j in seq_along(ins_types$institution_type)) {
     ins_type <- ins_types[[j, "institution_type"]]
     if (!is.na(ins_type)) {
@@ -130,6 +130,7 @@ for (i in seq_along(countries$country)) {
       }
     }
   }
+  cat(paste("</details>\n\n"))
 }
 
 ```
