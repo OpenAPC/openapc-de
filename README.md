@@ -17,7 +17,7 @@ At the moment this project provides the following cost data:
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
 | Articles         |254,103 | 518,048,971    | 471 |
-| Monographs       |2,332 | 15,410,209    | 98 |
+| Monographs       |2,333 | 15,421,355    | 98 |
 
 ## How to access the data?
 
@@ -1060,9 +1060,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 2,332 open access books. Publication fees were supported financially by 98 research performing institutions and funders. 
+The book data set contains information on 2,333 open access books. Publication fees were supported financially by 98 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 15,410,209. The average payment was € 6,608 and the median was € 6,574.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 15,421,355. The average payment was € 6,610 and the median was € 6,578.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -1089,7 +1089,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2022   |             230|    7,578|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
 |2023   |             345|    6,706|      6,000|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
 |2024   |             159|    7,636|      6,335|   402 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
-|2025   |              11|    5,322|      4,165| 1,437 - 12,000|             NA|       NA|         NA|            NA|
+|2025   |              12|    5,808|      4,407| 1,437 - 12,000|             NA|       NA|         NA|            NA|
 
 
 
