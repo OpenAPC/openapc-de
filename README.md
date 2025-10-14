@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |254,103 | 518,048,971    | 471 |
+| Articles         |254,095 | 518,028,205    | 471 |
 | Monographs       |2,333 | 15,421,355    | 98 |
 
 ## How to access the data?
@@ -990,13 +990,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 254,103 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 471 research performing institutions and research funders. 
+The article data set contains information on 254,095 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 471 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 518,048,971. The average payment was € 2,039 and the median was € 1,890.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 518,028,205. The average payment was € 2,039 and the median was € 1,890.
 
-189,117 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 351,592,387, including value-added tax; the average payment was € 1,859 (median =  € 1,738, SD = € 900).
+189,112 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 351,578,420, including value-added tax; the average payment was € 1,859 (median =  € 1,738, SD = € 900).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,986 articles in the data set were published in hybrid journals. Total expenditure amounts to 166,456,585 €; the average fee was € 2,561 (median =  € 2,506, SD = € 1,127).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 64,983 articles in the data set were published in hybrid journals. Total expenditure amounts to 166,449,785 €; the average fee was € 2,561 (median =  € 2,506, SD = € 1,127).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -1025,10 +1025,10 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2017   |      14,977|   1,701|     1,553|   8.7 - 14,634|          10,644|       2,528|         2,469|    36.9 -  9,858|
 |2018   |      16,256|   1,701|     1,582|  13.0 -  8,926|           9,481|       2,551|         2,538|     1.8 -  9,073|
 |2019   |      17,548|   1,702|     1,630|  10.7 -  7,684|           7,067|       2,535|         2,498|    75.3 -  9,500|
-|2020   |      21,388|   1,716|     1,683|   0.2 -  8,906|           4,505|       2,491|         2,531|    16.6 -  7,416|
+|2020   |      21,388|   1,716|     1,683|   0.2 -  8,906|           4,504|       2,491|         2,532|    16.6 -  7,416|
 |2021   |      26,209|   1,825|     1,792|  27.0 -  8,341|           3,546|       2,550|         2,506|    30.2 - 11,400|
-|2022   |      29,418|   2,101|     1,999|  12.4 - 11,175|           3,074|       2,881|         2,730|     2.1 - 14,607|
-|2023   |      26,379|   2,305|     2,160|  17.4 - 10,138|           3,390|       3,011|         2,821|   106.4 - 11,895|
+|2022   |      29,417|   2,101|     1,999|  12.4 - 11,175|           3,074|       2,881|         2,730|     2.1 - 14,607|
+|2023   |      26,375|   2,304|     2,160|  17.4 -  9,893|           3,388|       3,012|         2,821|   106.4 - 11,895|
 |2024   |       7,077|   2,430|     2,285|  62.7 -  8,048|             987|       3,237|         3,034|   180.7 - 13,044|
 |2025   |         412|   2,407|     2,400| 237.9 -  5,980|              51|       3,413|         3,380|   245.3 -  7,674|
 
