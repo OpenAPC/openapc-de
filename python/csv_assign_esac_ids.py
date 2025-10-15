@@ -108,7 +108,7 @@ def main():
             assigned_ids[ins][period][publisher][agreement] = line[19]
     
     with open('out.csv', 'w') as out:
-        mask = [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+        mask = [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
         writer = oat.OpenAPCUnicodeWriter(out, mask, True, True)
         writer.write_rows(source_header + source_content)
 
