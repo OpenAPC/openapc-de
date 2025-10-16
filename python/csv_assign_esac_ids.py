@@ -86,6 +86,14 @@ def main():
         if country not in esac_content:
             oat.print_y("Line {}: Country '{}' not found in ESAC file!".format(line_num, country))
             continue
+        if agreement == "DEAL Springer Nature Germany" and int(period) >= 2020 and int(period) <= 2023:
+            print("Line {}: ESAC ID for Springer DEAL assigned automatically".format(line_num))
+            line[19] = "sn2020deal"
+            continue
+        if agreement == "DEAL Wiley Germany" and int(period) >= 2019 and int(period) <= 2023:
+            print("Line {}: ESAC ID for Wiley DEAL assigned automatically".format(line_num))
+            line[19] = "wiley2019deal"
+            continue
         candidates = []
         country_tas = esac_content[country]
         candidates = [ta for ta in country_tas if ta["Publisher_OAPC"] == publisher]
