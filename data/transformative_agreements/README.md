@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 160,231 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 160,352 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 160,231 articles, published at 543 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18708|
-|DEAL Wiley Germany                               |    16725|
+|DEAL Springer Nature Germany                     |    18794|
+|DEAL Wiley Germany                               |    16760|
 |Swiss Consortium Elsevier agreement              |    12988|
 |CRKN SAGE Agreement                              |     8308|
 |FinELib Elsevier agreement                       |     6879|
@@ -241,6 +241,7 @@ This dataset contains information on 160,231 articles, published at 543 institut
 |Åbo Akademi University                                                                                                                             |      664|
 |Hohenheim U                                                                                                                                        |      663|
 |King's College London                                                                                                                              |      652|
+|DLR                                                                                                                                                |      626|
 |Hannover U und TIB                                                                                                                                 |      603|
 |University of Fribourg                                                                                                                             |      597|
 |KTH Royal Institute of Technology                                                                                                                  |      590|
@@ -258,7 +259,6 @@ This dataset contains information on 160,231 articles, published at 543 institut
 |HU Berlin                                                                                                                                          |      514|
 |Qatar National Library                                                                                                                             |      510|
 |Wageningen University and Research Centre                                                                                                          |      506|
-|DLR                                                                                                                                                |      505|
 |University of Groningen                                                                                                                            |      501|
 |University of Edinburgh                                                                                                                            |      495|
 |TU Dresden                                                                                                                                         |      494|
