@@ -142,6 +142,8 @@ title_dict = {}
 
 isbn_dict = {}
 
+agreement_dict = {}
+
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
 for data_file, metadata in DATA_FILES.items():
@@ -541,11 +543,20 @@ def check_ta_data(row_object):
     if "agreement" in row:
         agreement = row["agreement"]
         publisher = row["publisher"]
+        doi = row["doi"]
         if agreement in mappings.AGREEMENT_PUBLISHERS:
             if publisher not in mappings.AGREEMENT_PUBLISHERS[agreement]:
                 msg = '"{}" is no valid publisher name for the agreement "{}"'
                 ret = line_str + msg.format(publisher, agreement)
                 fail(ret)
+        else:
+            if agreement not in agreement_dict:
+                agreement_dict[agreement] = publisher
+            else:
+                if agreement_dict[agreement] != publisher:
+                    msg = 'publisher mismatch found for agreement "{}": {} <> {} [{}]'
+                    ret = line_str + msg.format(agreement, publisher, agreement_dict[agreement], doi)
+                    fail(ret)
 
 @pytest.mark.parametrize("row_object", APC_DATA)
 class TestAPCRows(object):
