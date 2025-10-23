@@ -782,6 +782,9 @@ AGREEMENT_PUBLISHER_MAP = {
     "EMBO": "Wiley-Blackwell",
     "American Geophysical Union (AGU)": "Wiley-Blackwell",
     "International Union of Crystallography (IUCr)": "Wiley-Blackwell",
+    "Springer Fachmedien Wiesbaden GmbH": "Springer Nature",
+    "Nature Publishing Group": "Springer Nature",
+    "Institute of Mathematics, Czech Academy of Sciences": "Springer Nature",
 }
 
 # maps ROR geo names to terms used in the institutions table
