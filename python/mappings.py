@@ -777,9 +777,11 @@ ISSN_L_CORRECTIONS = {
     "2054-4650": "2054-4642" # "Work, Aging and Retirement". 2054-4650(issn_e) -> 2054-4650, but 2054-4642(issn_p) -> 2054-4642
 }
 
-AGREEMENT_PUBLISHERS = {
-    "DEAL Springer Nature Germany": ["Springer Nature"],
-    "DEAL Wiley Germany": ["Wiley-Blackwell", "EMBO", "American Geophysical Union (AGU)", "International Union of Crystallography (IUCr)"]
+# maps publishers names which might appear in ta articles
+AGREEMENT_PUBLISHER_MAP = {
+    "EMBO": "Wiley-Blackwell",
+    "American Geophysical Union (AGU)": "Wiley-Blackwell",
+    "International Union of Crystallography (IUCr)": "Wiley-Blackwell",
 }
 
 # maps ROR geo names to terms used in the institutions table

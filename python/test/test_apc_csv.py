@@ -544,19 +544,14 @@ def check_ta_data(row_object):
         agreement = row["agreement"]
         publisher = row["publisher"]
         doi = row["doi"]
-        if agreement in mappings.AGREEMENT_PUBLISHERS:
-            if publisher not in mappings.AGREEMENT_PUBLISHERS[agreement]:
-                msg = '"{}" is no valid publisher name for the agreement "{}"'
-                ret = line_str + msg.format(publisher, agreement)
-                fail(ret)
+        publisher = mappings.AGREEMENT_PUBLISHER_MAP.get(publisher, publisher)
+        if agreement not in agreement_dict:
+            agreement_dict[agreement] = publisher
         else:
-            if agreement not in agreement_dict:
-                agreement_dict[agreement] = publisher
-            else:
-                if agreement_dict[agreement] != publisher:
-                    msg = 'publisher mismatch found for agreement "{}": {} <> {} [{}]'
-                    ret = line_str + msg.format(agreement, publisher, agreement_dict[agreement], doi)
-                    fail(ret)
+            if agreement_dict[agreement] != publisher:
+                msg = 'publisher mismatch found for agreement "{}": {} <> {} [{}]'
+                ret = line_str + msg.format(agreement, publisher, agreement_dict[agreement], doi)
+                fail(ret)
 
 @pytest.mark.parametrize("row_object", APC_DATA)
 class TestAPCRows(object):
