@@ -787,7 +787,7 @@ AGREEMENT_PUBLISHER_MAP = {
     "Institute of Mathematics, Czech Academy of Sciences": "Springer Nature",
     "The Endocrine Society": "Oxford University Press (OUP)",
     "National Inquiry Services Center (NISC)": "Informa UK Limited",
-	"F1000 Research": "Informa UK Limited",
+	"F1000 Research, Ltd.": "Informa UK Limited",
 	"Royal College of Psychiatrists": "Cambridge University Press (CUP)",
 	"Mineralogical Society": "Cambridge University Press (CUP)",
 	"Canadian Mathematical Society": "Cambridge University Press (CUP)",
@@ -796,6 +796,8 @@ AGREEMENT_PUBLISHER_MAP = {
 	"Acoustical Society of America (ASA)": "AIP Publishing",
 	"Laser Institute of America": "AIP Publishing",
 	"American Association of Physics Teachers (AAPT)": "AIP Publishing",
+	"British Institute of Radiology": "Wiley-Blackwell",
+	"Institution of Engineering and Technology (IET)": "Wiley-Blackwell",
 }
 
 # maps ROR geo names to terms used in the institutions table

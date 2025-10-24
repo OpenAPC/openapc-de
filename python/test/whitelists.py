@@ -603,8 +603,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1744-8301": ["Future Medicine Ltd", "Informa UK Limited"], # Future Oncology (electronic)
 	"0262-2750": ["Oxford University Press (OUP)", "Liverpool University Press"], # French Studies Bulletin
 	"1748-9180": ["Oxford University Press (OUP)", "Liverpool University Press"], # French Studies Bulletin (electronic)
-	"0250-832X": ["British Institute of Radiology", "Oxford University Press (OUP)"], # Dentomaxillofacial Radiology 
-	"1476-542X": ["British Institute of Radiology", "Oxford University Press (OUP)"], # Dentomaxillofacial Radiology (electronic)
+	"0250-832X": ["Wiley-Blackwell", "British Institute of Radiology", "Oxford University Press (OUP)"], # Dentomaxillofacial Radiology 
+	"1476-542X": ["Wiley-Blackwell", "British Institute of Radiology", "Oxford University Press (OUP)"], # Dentomaxillofacial Radiology (electronic)
 	"1449-4035": ["Informa UK Limited", "Oxford University Press (OUP)"], # Policy and Society 
 	"1839-3373": ["Informa UK Limited", "Oxford University Press (OUP)"], # Policy and Society (electronic)
 	"2572-6668": ["Informa UK Limited", "SAGE Publications"], # Mining Technology: Transactions of the Institutions of Mining and Metallurgy 
