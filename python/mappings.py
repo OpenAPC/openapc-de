@@ -786,6 +786,8 @@ AGREEMENT_PUBLISHER_MAP = {
     "Nature Publishing Group": "Springer Nature",
     "Institute of Mathematics, Czech Academy of Sciences": "Springer Nature",
     "The Endocrine Society": "Oxford University Press (OUP)",
+    "National Inquiry Services Center (NISC)": "Informa UK Limited",
+	"F1000 Research": "Informa UK Limited",
 }
 
 # maps ROR geo names to terms used in the institutions table

@@ -605,6 +605,11 @@ JOURNAL_OWNER_CHANGED = {
 	"1748-9180": ["Oxford University Press (OUP)", "Liverpool University Press"], # French Studies Bulletin (electronic)
 	"0250-832X": ["British Institute of Radiology", "Oxford University Press (OUP)"], # Dentomaxillofacial Radiology 
 	"1476-542X": ["British Institute of Radiology", "Oxford University Press (OUP)"], # Dentomaxillofacial Radiology (electronic)
+	"1449-4035": ["Informa UK Limited", "Oxford University Press (OUP)"], # Policy and Society 
+	"1839-3373": ["Informa UK Limited", "Oxford University Press (OUP)"], # Policy and Society (electronic)
+	"2572-6668": ["Informa UK Limited", "SAGE Publications"], # Mining Technology: Transactions of the Institutions of Mining and Metallurgy 
+	"2572-6676": ["Informa UK Limited", "SAGE Publications"], # Mining Technology: Transactions of the Institutions of Mining and Metallurgy (electronic)
+
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
