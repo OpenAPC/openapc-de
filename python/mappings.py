@@ -792,6 +792,10 @@ AGREEMENT_PUBLISHER_MAP = {
 	"Mineralogical Society": "Cambridge University Press (CUP)",
 	"Canadian Mathematical Society": "Cambridge University Press (CUP)",
 	"Antiquity Publications": "Cambridge University Press (CUP)",
+	"American Vacuum Society": "AIP Publishing",
+	"Acoustical Society of America (ASA)": "AIP Publishing",
+	"Laser Institute of America": "AIP Publishing",
+	"American Association of Physics Teachers (AAPT)": "AIP Publishing",
 }
 
 # maps ROR geo names to terms used in the institutions table
