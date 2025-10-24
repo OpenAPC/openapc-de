@@ -601,6 +601,10 @@ JOURNAL_OWNER_CHANGED = {
 	"1943-3883": ["SAGE Publications", "MDPI AG"], # Craniomaxillofacial Trauma & Reconstruction (electronic) 
 	"1479-6694": ["Future Medicine Ltd", "Informa UK Limited"], # Future Oncology 
 	"1744-8301": ["Future Medicine Ltd", "Informa UK Limited"], # Future Oncology (electronic)
+	"0262-2750": ["Oxford University Press (OUP)", "Liverpool University Press"], # French Studies Bulletin
+	"1748-9180": ["Oxford University Press (OUP)", "Liverpool University Press"], # French Studies Bulletin (electronic)
+	"0250-832X": ["British Institute of Radiology", "Oxford University Press (OUP)"], # Dentomaxillofacial Radiology 
+	"1476-542X": ["British Institute of Radiology", "Oxford University Press (OUP)"], # Dentomaxillofacial Radiology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs

@@ -785,6 +785,7 @@ AGREEMENT_PUBLISHER_MAP = {
     "Springer Fachmedien Wiesbaden GmbH": "Springer Nature",
     "Nature Publishing Group": "Springer Nature",
     "Institute of Mathematics, Czech Academy of Sciences": "Springer Nature",
+    "The Endocrine Society": "Oxford University Press (OUP)",
 }
 
 # maps ROR geo names to terms used in the institutions table
