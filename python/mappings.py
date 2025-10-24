@@ -788,6 +788,10 @@ AGREEMENT_PUBLISHER_MAP = {
     "The Endocrine Society": "Oxford University Press (OUP)",
     "National Inquiry Services Center (NISC)": "Informa UK Limited",
 	"F1000 Research": "Informa UK Limited",
+	"Royal College of Psychiatrists": "Cambridge University Press (CUP)",
+	"Mineralogical Society": "Cambridge University Press (CUP)",
+	"Canadian Mathematical Society": "Cambridge University Press (CUP)",
+	"Antiquity Publications": "Cambridge University Press (CUP)",
 }
 
 # maps ROR geo names to terms used in the institutions table
