@@ -610,6 +610,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2572-6668": ["Informa UK Limited", "SAGE Publications"], # Mining Technology: Transactions of the Institutions of Mining and Metallurgy 
 	"2572-6676": ["Informa UK Limited", "SAGE Publications"], # Mining Technology: Transactions of the Institutions of Mining and Metallurgy (electronic)
 	"1072-7515": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of the American College of Surgeons 
+	"0194-5998": ["SAGE Publications", "Wiley-Blackwell"], # Otolaryngology–Head and Neck Surgery 
+	"1097-6817": ["SAGE Publications", "Wiley-Blackwell"], # Otolaryngology–Head and Neck Surgery (electronic)
 
 }
 

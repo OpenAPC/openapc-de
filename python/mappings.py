@@ -800,6 +800,7 @@ AGREEMENT_PUBLISHER_MAP = {
 	"Institution of Engineering and Technology (IET)": "Wiley-Blackwell",
 	"American Psychological Association (APA)": "Elsevier BV",
 	"American Dairy Science Association": "Elsevier BV",
+	"American Educational Research Association (AERA)": "SAGE Publications",
 }
 
 # maps ROR geo names to terms used in the institutions table
