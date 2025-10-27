@@ -798,6 +798,8 @@ AGREEMENT_PUBLISHER_MAP = {
 	"American Association of Physics Teachers (AAPT)": "AIP Publishing",
 	"British Institute of Radiology": "Wiley-Blackwell",
 	"Institution of Engineering and Technology (IET)": "Wiley-Blackwell",
+	"American Psychological Association (APA)": "Elsevier BV",
+	"American Dairy Science Association": "Elsevier BV",
 }
 
 # maps ROR geo names to terms used in the institutions table

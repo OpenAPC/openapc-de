@@ -609,6 +609,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1839-3373": ["Informa UK Limited", "Oxford University Press (OUP)"], # Policy and Society (electronic)
 	"2572-6668": ["Informa UK Limited", "SAGE Publications"], # Mining Technology: Transactions of the Institutions of Mining and Metallurgy 
 	"2572-6676": ["Informa UK Limited", "SAGE Publications"], # Mining Technology: Transactions of the Institutions of Mining and Metallurgy (electronic)
+	"1072-7515": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of the American College of Surgeons 
 
 }
 
