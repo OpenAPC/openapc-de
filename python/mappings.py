@@ -801,6 +801,7 @@ AGREEMENT_PUBLISHER_MAP = {
 	"American Psychological Association (APA)": "Elsevier BV",
 	"American Dairy Science Association": "Elsevier BV",
 	"American Educational Research Association (AERA)": "SAGE Publications",
+	"The Electrochemical Society": "IOP Publishing",
 }
 
 # maps ROR geo names to terms used in the institutions table
