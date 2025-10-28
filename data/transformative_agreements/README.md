@@ -105,12 +105,12 @@ This dataset contains information on 161,614 articles, published at 543 institut
 |University of Milan - Cambridge University Press |       83|
 |EISZ agreement Springer Nature                   |       79|
 |CzechELib OUP agreement                          |       73|
-|Crui-CARE De Gruyter Agreement                   |       72|
 |IReL RS Agreement                                |       71|
 |FinELib ACM agreement                            |       66|
 |IReL BMJ Agreement                               |       66|
 |EISZ agreement Elsevier                          |       64|
 |IReL Optica Agreement                            |       62|
+|Crui-CARE De Gruyter Agreement                   |       60|
 |CzechELib ACS agreement                          |       58|
 |University of Milan - ACS                        |       58|
 |CSIC-Cambridge University Press                  |       57|
@@ -121,17 +121,17 @@ This dataset contains information on 161,614 articles, published at 543 institut
 |IReL ACM Agreement                               |       46|
 |MPG Taylor & Francis agreement                   |       46|
 |Austrian Consortium IOP agreement                |       45|
+|Crui-CARE Emerald Agreement                      |       45|
 |University of Milan - Royal Society of Chemistry |       45|
 |CzechELib CUP agreement                          |       43|
 |University of Milan - De Gruyter                 |       40|
 |University of Milan - Lippincott                 |       38|
 |Crui-CARE RSC Agreement                          |       37|
 |EISZ agreement Wiley                             |       35|
-|Crui-CARE Emerald Agreement                      |       33|
 |FinELib Nature Research agreement                |       33|
 |MPG IOP agreement                                |       32|
-|QNL IEEE Agreement                               |       31|
 |IReL APA Agreement                               |       30|
+|QNL IEEE Agreement                               |       30|
 |CSIC-AIP                                         |       29|
 |Crui-CARE AIP Agreement                          |       29|
 |University of Milan - IOP                        |       27|
@@ -161,11 +161,11 @@ This dataset contains information on 161,614 articles, published at 543 institut
 |Crui-CARE IOP Agreement                          |        5|
 |IReL CSHL Agreement                              |        4|
 |CzechELib ACM agreement                          |        3|
+|QNL De Gruyter Agreement                         |        3|
 |QNL OVID Agreement                               |        3|
 |University of Milan - BMJ                        |        3|
 |CSIC-De Gruyter                                  |        2|
 |EISZ agreement Cambridge University Press        |        2|
-|QNL De Gruyter Agreement                         |        2|
 |University of Milan - ACM                        |        2|
 |CSIC-Rockefeller University Press                |        1|
 |Crui-CARE ACM Agreement                          |        1|
