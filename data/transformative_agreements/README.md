@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 161,614 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 161,615 articles, published at 543 institutions under 149 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -30,7 +30,7 @@ This dataset contains information on 161,614 articles, published at 543 institut
 |FinELib Elsevier agreement                       |     6879|
 |French EDP Sciences agreement                    |     5753|
 |Swiss Consortium Springer Compact agreement      |     4992|
-|Swiss Consortium Wiley agreement                 |     4404|
+|Swiss Consortium Wiley agreement                 |     4405|
 |FinELib Wiley agreement                          |     3848|
 |FinELib Springer Compact agreement               |     3562|
 |IReL Wiley Agreement                             |     2682|
@@ -242,7 +242,7 @@ This dataset contains information on 161,614 articles, published at 543 institut
 |Hohenheim U                                                                                                                                        |      663|
 |King's College London                                                                                                                              |      652|
 |DLR                                                                                                                                                |      626|
-|University of Fribourg                                                                                                                             |      624|
+|University of Fribourg                                                                                                                             |      625|
 |PSI - Paul Scherrer Institute                                                                                                                      |      604|
 |Hannover U und TIB                                                                                                                                 |      603|
 |KTH Royal Institute of Technology                                                                                                                  |      590|
