@@ -612,6 +612,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1072-7515": ["Elsevier BV", "Ovid Technologies (Wolters Kluwer Health)"], # Journal of the American College of Surgeons 
 	"0194-5998": ["SAGE Publications", "Wiley-Blackwell"], # Otolaryngology–Head and Neck Surgery 
 	"1097-6817": ["SAGE Publications", "Wiley-Blackwell"], # Otolaryngology–Head and Neck Surgery (electronic)
+	"1125-4718": ["PAGEPress Publications", "Elsevier BV"], # Italian Journal of Agronomy 
 
 }
 
@@ -1072,6 +1073,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1877-8879", # Scandinavian Journal of Pain, Gold OA since 2024
     "0958-1596", # Critical Public Health, Gold OA since 2024
     "1103-8128", # Scandinavian Journal of Occupational Therapy, Gold OA since 2024
+    "0703-8992", # Canadian Journal of Remote Sensing, Gold OA since 2023
+    "1463-6778", # New Genetics and Society, Gold OA since 2022
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list

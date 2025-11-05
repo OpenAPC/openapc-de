@@ -41,7 +41,7 @@ TU Wien,tu_wien,Technische Universität Wien,EUROPE,AUT,AUT-WI,tuwien,https://ro
 HZDR,hzdr,Helmholtz-Zentrum Dresden-Rossendorf,EUROPE,DEU,SN,hzdr,https://ror.org/01zy2cs03,INS,HGF,http://www.hzdr.de/db/Cms?pNid=73,NA
 Harvard U,harvard_u,Harvard University,NORTH_AMERICA,USA,US-MA,harvard-hope,https://ror.org/03vek6s52,NA,NA,https://osc.hul.harvard.edu/programs/hope/,NA
 Oldenburg U,oldenburg_u,Carl von Ossietzky Universität Oldenburg,EUROPE,DEU,NI,unioldenburg,https://ror.org/033n9gh91,HEI,NA,https://uol.de/en/bis/research-publishing/open-access/open-access-publication-fund,NA
-OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire,NA,NA,NA,https://digital-strategy.ec.europa.eu/en/news/results-fp7-post-grant-open-access-pilot,NA
+OpenAIRE,openaire,OpenAIRE (FP7 Post-Grant OA Pilot),EUROPE,GRC,GR-I,openaire,https://ror.org/019kf3481,NA,NA,https://digital-strategy.ec.europa.eu/en/news/results-fp7-post-grant-open-access-pilot,NA
 University of Calgary,calgary_u,University of Calgary,NORTH_AMERICA,CAN,CA-AB,NA,https://ror.org/03yjb2x39,NA,NA,https://library.ucalgary.ca/oa/,NA
 IPN - Leibniz Kiel,ipn,IPN - Leibniz Institute for Science and Mathematics Education,EUROPE,DEU,SH,ipn,https://ror.org/008n8dd57,INS,WGL,https://www.leibniz-ipn.de/de/das-ipn/ueber-uns/bibliothek,NA
 UFZ,ufz,Helmholtz-Zentrum für Umweltforschung – UFZ,EUROPE,DEU,SN,ufz,https://ror.org/000h6jb29,INS,HGF,https://www.ufz.de/index.php?en=36297,NA
@@ -743,3 +743,6 @@ Centria University of Applied Sciences,centria_uas,Centria University of Applied
 Finnish Medicines Agency,fimea,Finnish Medicines Agency Fimea,EUROPE,FIN,FI-18,NA,https://ror.org/04mjpp490,NA,NA,https://fimea.fi/en/frontpage,NA
 Centre Georges-François Leclerc (CGFL) - Centre régional de lutte contre le cancer du réseau UNICANCER,cgfl,Centre Georges-François Leclerc (CGFL) - Centre régional de lutte contre le cancer du réseau UNICANCER,EUROPE,FRA,FR-BFC,couperin/cgfl,https://ror.org/00pjqzf38,NA,NA,NA,NA
 Université de la Polynésie française,polynesie,Université de la Polynésie française,EUROPE,FRA,FR-PF,couperin/polynésie,https://ror.org/03ay59x86,NA,NA,NA,NA
+Centre Hospitalier Universitaire d'Orléans,orleans_chu,Centre Hospitalier Universitaire d'Orléans,EUROPE,FRA,FR-CVL,couperin/chu-orleans,https://ror.org/04yvax419,NA,NA,NA,NA
+EZUS - LYON,ezus_lyon,EZUS - LYON,EUROPE,FRA,FR-ARA,couperin/ezus-lyon,NA,NA,NA,NA,NA
+Université de Montpellier - Paul Valéry,upvm,Université de Montpellier - Paul Valéry,EUROPE,FRA,FR-OCC,couperin/upvm,https://ror.org/05pbb8783,NA,NA,NA,NA
