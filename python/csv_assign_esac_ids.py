@@ -6,6 +6,7 @@ import csv
 import sys
 
 import openapc_toolkit as oat
+from mappings import AGREEMENT_PUBLISHER_MAP
 
 ARG_HELP_STRINGS = {
     "ta_file": "The ta file, must have an additional column 'esac_id' at index 19",
@@ -54,6 +55,7 @@ def main():
         ins = line[0]
         period = line[1]
         publisher = line[5]
+        publisher = AGREEMENT_PUBLISHER_MAP.get(publisher, publisher)
         agreement = line[18]
         esac_id = line[19]
         if ins not in assigned_ids:
@@ -74,8 +76,13 @@ def main():
             continue
         ins = line[0]
         period = line[1]
-        publisher = line[5]
+        publisher_orig = line[5]
+        publisher = AGREEMENT_PUBLISHER_MAP.get(publisher_orig, publisher_orig)
         agreement = line[18]
+        if publisher == publisher_orig:
+            publisher_str = publisher
+        else:
+            publisher_str = publisher + ' [mapped from "{}"]'.format(publisher_orig)
         country = ins_lookup[ins]
         assigned_id = assigned_ids[ins][period][publisher][agreement]
         if assigned_id != "unchecked":
@@ -98,7 +105,7 @@ def main():
         country_tas = esac_content[country]
         candidates = [ta for ta in country_tas if ta["Publisher_OAPC"] == publisher]
         if candidates:
-            msg = sug_head.format(line_num, ins, period, publisher, agreement)
+            msg = sug_head.format(line_num, ins, period, publisher_str, agreement)
             for num, can in enumerate(candidates):
                 msg += sug_tmpl.format(num, can["Organization"], can["Start date"], can["End date"], can["ID"])
             msg += sug_foot
