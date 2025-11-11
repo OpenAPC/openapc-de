@@ -1791,7 +1791,7 @@ def get_euro_exchange_rates(currency, frequency="D"):
     ISO_4217_RE = re.compile(r"[A-Z]{3}")
     FREQUENCIES = ["D", "M", "A"]
     
-    URL_TEMPLATE = "http://sdw-wsrest.ecb.europa.eu/service/data/EXR/{}.{}.EUR.SP00.A?format=csvdata"
+    URL_TEMPLATE = "https://data-api.ecb.europa.eu/service/data/EXR/{}.{}.EUR.SP00.A?format=csvdata"
     
     if not ISO_4217_RE.match(currency):
         raise ValueError('"' + currency + '" is no valid currency code!')
