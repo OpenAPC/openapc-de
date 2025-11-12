@@ -613,6 +613,8 @@ JOURNAL_OWNER_CHANGED = {
 	"0194-5998": ["SAGE Publications", "Wiley-Blackwell"], # Otolaryngology–Head and Neck Surgery 
 	"1097-6817": ["SAGE Publications", "Wiley-Blackwell"], # Otolaryngology–Head and Neck Surgery (electronic)
 	"1125-4718": ["PAGEPress Publications", "Elsevier BV"], # Italian Journal of Agronomy 
+	"1759-2879": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Research Synthesis Methods 
+	"1759-2887": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Research Synthesis Methods (electronic)
 
 }
 
@@ -1075,6 +1077,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1103-8128", # Scandinavian Journal of Occupational Therapy, Gold OA since 2024
     "0703-8992", # Canadian Journal of Remote Sensing, Gold OA since 2023
     "1463-6778", # New Genetics and Society, Gold OA since 2022
+    "0738-2480", # Law and History Review, Gold OA since 2024 (Oct.)
+    "1759-2879", # Research Synthesis Methods, Gold OA since 2025
+    "0841-8209", # Canadian Journal of Law & Jurisprudence, Gold OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
