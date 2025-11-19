@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 162,422 articles, published at 543 institutions under 150 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 162,439 articles, published at 543 institutions under 150 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,7 +23,7 @@ This dataset contains information on 162,422 articles, published at 543 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18886|
+|DEAL Springer Nature Germany                     |    18903|
 |DEAL Wiley Germany                               |    16840|
 |Swiss Consortium Elsevier agreement              |    12988|
 |CRKN SAGE Agreement                              |     8308|
@@ -476,6 +476,7 @@ This dataset contains information on 162,422 articles, published at 543 institut
 |HAW Hamburg                                                                                                                                        |       44|
 |Natural History Museum                                                                                                                             |       44|
 |Södertörns University                                                                                                                              |       44|
+|Aachen FH                                                                                                                                          |       43|
 |Leeds Beckett University                                                                                                                           |       43|
 |Munster Technological University                                                                                                                   |       43|
 |South East Technological University                                                                                                                |       43|
@@ -521,7 +522,6 @@ This dataset contains information on 162,422 articles, published at 543 institut
 |Lakehead University                                                                                                                                |       27|
 |Mount Royal University                                                                                                                             |       27|
 |Open University of The Netherlands                                                                                                                 |       27|
-|Aachen FH                                                                                                                                          |       26|
 |Leibniz-IPK                                                                                                                                        |       26|
 |MacEwan University                                                                                                                                 |       26|
 |Université du Québec à Trois-Rivières                                                                                                              |       26|
