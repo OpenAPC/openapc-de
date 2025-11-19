@@ -90,6 +90,8 @@ def main():
             msg = "Line {}: ID for combination already assigned ({}, {}, {}, {}) => {}"
             print(msg.format(line_num, ins, period, publisher, agreement, assigned_id))
             continue
+        if country == 'LIE':
+            country = 'CHE' # Liechtenstein participates in Swiss agreements
         if country not in esac_content:
             oat.print_y("Line {}: Country '{}' not found in ESAC file!".format(line_num, country))
             continue
