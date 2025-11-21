@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 162,556 articles, published at 543 institutions under 150 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 162,559 articles, published at 543 institutions under 150 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 162,556 articles, published at 543 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18969|
-|DEAL Wiley Germany                               |    16891|
+|DEAL Springer Nature Germany                     |    18971|
+|DEAL Wiley Germany                               |    16892|
 |Swiss Consortium Elsevier agreement              |    12988|
 |CRKN SAGE Agreement                              |     8308|
 |FinELib Elsevier agreement                       |     6879|
@@ -581,6 +581,7 @@ This dataset contains information on 162,556 articles, published at 543 institut
 |HS RheinMain                                                                                                                                       |       12|
 |Haaga-Helia University of Applied Sciences                                                                                                         |       12|
 |Haute École Pédagogique du Canton de Vaud                                                                                                          |       12|
+|TH Köln                                                                                                                                            |       12|
 |Toronto Rehabilitation Institute                                                                                                                   |       12|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
 |INM - Leibniz-Institut für Neue Materialien                                                                                                        |       11|
@@ -608,7 +609,6 @@ This dataset contains information on 162,556 articles, published at 543 institut
 |Laurentian University                                                                                                                              |        9|
 |Paul-Drude-Institut für Festkörperelektronik                                                                                                       |        9|
 |Social Insurance Institution of Finland                                                                                                            |        9|
-|TH Köln                                                                                                                                            |        9|
 |Université du Québec à Rimouski                                                                                                                    |        9|
 |VATT Institute for Economic Research                                                                                                               |        9|
 |Finnish Food Authority                                                                                                                             |        8|
