@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 162,439 articles, published at 543 institutions under 150 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 162,556 articles, published at 543 institutions under 150 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 162,439 articles, published at 543 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18903|
-|DEAL Wiley Germany                               |    16840|
+|DEAL Springer Nature Germany                     |    18969|
+|DEAL Wiley Germany                               |    16891|
 |Swiss Consortium Elsevier agreement              |    12988|
 |CRKN SAGE Agreement                              |     8308|
 |FinELib Elsevier agreement                       |     6879|
@@ -336,6 +336,7 @@ This dataset contains information on 162,439 articles, published at 543 institut
 |York University                                                                                                                                    |      261|
 |Université de Montréal                                                                                                                             |      260|
 |Medical University of Graz                                                                                                                         |      248|
+|RPTU Kaiserslautern-Landau                                                                                                                         |      247|
 |University of Debrecen                                                                                                                             |      236|
 |Dalhousie University                                                                                                                               |      233|
 |University of Graz                                                                                                                                 |      232|
@@ -398,7 +399,6 @@ This dataset contains information on 162,439 articles, published at 543 institut
 |University of Lapland                                                                                                                              |      133|
 |Paracelsus Medical University                                                                                                                      |      132|
 |University of Guelph                                                                                                                               |      132|
-|RPTU Kaiserslautern-Landau                                                                                                                         |      130|
 |University of Kent                                                                                                                                 |      125|
 |Brunel University                                                                                                                                  |      124|
 |University of Innsbruck                                                                                                                            |      124|
