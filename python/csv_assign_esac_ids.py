@@ -46,7 +46,7 @@ def main():
     
     print("Processing TA file...")
     source_header, source_content = oat.get_csv_file_content(args.ta_file, enc='utf-8')
-    if not source_header[0][19] == "esac_id":
+    if not source_header[0][20] == "esac_id":
         oat.print_r("TA file is missing an additional column 'esac_id' at index 19!")
         sys.exit()
         
@@ -54,10 +54,10 @@ def main():
     for line in source_content:
         ins = line[0]
         period = line[1]
-        publisher = line[5]
+        publisher = line[6]
         publisher = AGREEMENT_PUBLISHER_MAP.get(publisher, publisher)
-        agreement = line[18]
-        esac_id = line[19]
+        agreement = line[19]
+        esac_id = line[20]
         if ins not in assigned_ids:
             assigned_ids[ins] = {}
         if period not in assigned_ids[ins]:
@@ -72,13 +72,13 @@ def main():
     sug_foot = "x) None of the above, assign value NA and continue\nq) None of the above, quit and save results to out.csv\n> "
     
     for line_num, line in enumerate(source_content):
-        if line[19] != "unchecked":
+        if line[20] != "unchecked":
             continue
         ins = line[0]
         period = line[1]
-        publisher_orig = line[5]
+        publisher_orig = line[6]
         publisher = AGREEMENT_PUBLISHER_MAP.get(publisher_orig, publisher_orig)
-        agreement = line[18]
+        agreement = line[19]
         if publisher == publisher_orig:
             publisher_str = publisher
         else:
@@ -86,7 +86,7 @@ def main():
         country = ins_lookup[ins]
         assigned_id = assigned_ids[ins][period][publisher][agreement]
         if assigned_id != "unchecked":
-            line[19] = assigned_id
+            line[20] = assigned_id
             msg = "Line {}: ID for combination already assigned ({}, {}, {}, {}) => {}"
             print(msg.format(line_num, ins, period, publisher, agreement, assigned_id))
             continue
@@ -97,11 +97,11 @@ def main():
             continue
         if agreement == "DEAL Springer Nature Germany" and int(period) >= 2020 and int(period) <= 2023:
             print("Line {}: ESAC ID for Springer DEAL assigned automatically".format(line_num))
-            line[19] = "sn2020deal"
+            line[20] = "sn2020deal"
             continue
         if agreement == "DEAL Wiley Germany" and int(period) >= 2019 and int(period) <= 2023:
             print("Line {}: ESAC ID for Wiley DEAL assigned automatically".format(line_num))
-            line[19] = "wiley2019deal"
+            line[20] = "wiley2019deal"
             continue
         candidates = []
         country_tas = esac_content[country]
@@ -119,10 +119,10 @@ def main():
             if ret == "q":
                 break
             if ret == "x":
-                line[19] = "NA"
+                line[20] = "NA"
             else:
-                line[19] = candidates[int(ret)]["ID"]
-            assigned_ids[ins][period][publisher][agreement] = line[19]
+                line[20] = candidates[int(ret)]["ID"]
+            assigned_ids[ins][period][publisher][agreement] = line[20]
     
     with open('out.csv', 'w') as out:
         mask = [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
