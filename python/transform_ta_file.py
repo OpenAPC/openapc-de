@@ -29,14 +29,14 @@ print("...Done")
 group_dict = {}
 
 source_header, source_content = oat.get_csv_file_content("../data/transformative_agreements/transformative_agreements.csv", enc='utf-8')
-source_header[0][19] = "group_id"
+source_header[0][20] = "group_id"
 
 for line in source_content:
-    esac_id = contract_id = line[19]
-    agreement = line[18]
+    esac_id = contract_id = line[20]
+    agreement = line[19]
     doi = line[3]
     consortium = esac_lookup.get(esac_id, {}).get("Organization", "NA")
-    publisher = AGREEMENT_PUBLISHER_MAP.get(line[5], line[5])
+    publisher = AGREEMENT_PUBLISHER_MAP.get(line[6], line[6])
     if esac_id == 'NA':
         esac_id = publisher.replace(" ", "").replace("-", "").lower()
         esac_id = re.sub(r'\(.*?\)', '', esac_id)
@@ -85,7 +85,7 @@ for line in source_content:
                 print(ins, ror, period, agreement, doi)
     if ins != "FWF - Austrian Science Fund":
         line[2] = "NA"
-    line[19] = group_id
+    line[20] = group_id
 
 header = ["institution", "consortium", "contract_name", "identifier", "period_from", "period_to", "cost_type", "euro", "group_id"]
 content = [header]
@@ -105,6 +105,6 @@ with open('out_contract.csv', 'w') as out:
     writer.write_rows(content)
 
 with open('out_ta.csv', 'w') as out:
-    mask = [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+    mask = [True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
     writer = oat.OpenAPCUnicodeWriter(out, mask, True, True)
     writer.write_rows(source_header + source_content)  
