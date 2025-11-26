@@ -47,7 +47,7 @@ def main():
     print("Processing TA file...")
     source_header, source_content = oat.get_csv_file_content(args.ta_file, enc='utf-8')
     if not source_header[0][20] == "esac_id":
-        oat.print_r("TA file is missing an additional column 'esac_id' at index 19!")
+        oat.print_r("TA file is missing an additional column 'esac_id' at index 20!")
         sys.exit()
         
     assigned_ids = {}
