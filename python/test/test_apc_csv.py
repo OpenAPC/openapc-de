@@ -12,6 +12,7 @@ from sortedcontainers import SortedList
 APC_DATA = []
 APC_AC_DATA = []
 BPC_DATA = []
+CONTRACTS_DATA = []
 
 DATA_FILES = {
     "apc": {
@@ -20,9 +21,11 @@ DATA_FILES = {
         "unused_fields": ["license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
         "row_length": 18,
+        "has_doi": True,
         "has_issn": True,
         "has_isbn": False,
         "has_url": True,
+        "has_group_ids": False,
         "doi_list": SortedList(),
     },
     "apc_ac": {
@@ -31,9 +34,11 @@ DATA_FILES = {
         "unused_fields": [],
         "target_file": APC_AC_DATA,
         "row_length": 9,
+        "has_doi": True,
         "has_issn": False,
         "has_isbn": False,
         "has_url": False,
+        "has_group_ids": False,
         "doi_list": SortedList(),
     },
     "ta": {
@@ -41,10 +46,12 @@ DATA_FILES = {
         "is_ac_file_for": None,
         "unused_fields": ["license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
-        "row_length": 19,
+        "row_length": 20,
+        "has_doi": True,
         "has_issn": True,
         "has_isbn": False,
         "has_url": True,
+        "has_group_ids": False,
         "doi_list": SortedList(),
     },
     "bpc": {
@@ -53,29 +60,44 @@ DATA_FILES = {
         "unused_fields": ["license_ref"],
         "target_file": BPC_DATA,
         "row_length": 13,
+        "has_doi": True,
         "has_issn": False,
         "has_isbn": True,
         "has_url": False,
+        "has_group_ids": False,
         "doi_list": SortedList(),
+    },
+    "contracts": {
+        "file_path": "data/transformative_agreements/contracts.csv",
+        "is_ac_file_for": None,
+        "unused_fields": [],
+        "target_file": CONTRACTS_DATA,
+        "row_length": 9,
+        "has_doi": False,
+        "has_issn": False,
+        "has_isbn": False,
+        "has_url": False,
+        "has_group_ids": True,
+        "doi_list": None,
     }
 }
 
 KNOWN_DUPLICATES = {
     "apc": {
-		"unresolved_duplicates": {
-			"file_path": "data/unresolved_duplicates.csv",
-			"doi_list": [],
-		},
+        "unresolved_duplicates": {
+            "file_path": "data/unresolved_duplicates.csv",
+            "doi_list": [],
+        },
         "apc_cofunding": {
-			"file_path": "data/apc_cofunding.csv",
-			"doi_list": [],
+            "file_path": "data/apc_cofunding.csv",
+            "doi_list": [],
         },
     },
     "bpc": {
-		"unresolved_bpc_duplicates": {
-			"file_path": "data/unresolved_bpc_duplicates.csv",
-			"doi_list": [],
-		},
+        "unresolved_bpc_duplicates": {
+            "file_path": "data/unresolved_bpc_duplicates.csv",
+            "doi_list": [],
+        },
     }
 }
 
@@ -132,6 +154,7 @@ def _normalize_url(url_string):
 global_doi_list = SortedList()
 global_isbn_list = SortedList()
 global_url_list = SortedList()
+global_group_id_list = SortedList()
 
 issn_dict = {}
 issn_p_dict = {}
@@ -154,7 +177,7 @@ for data_file, metadata in DATA_FILES.items():
             for field in metadata["unused_fields"]:
                 del(row[field])
             metadata["target_file"].append(RowObject(metadata["file_path"], line, row, data_file))
-            if oat.has_value(row["doi"]):
+            if metadata["has_doi"] and oat.has_value(row["doi"]):
                 if metadata["is_ac_file_for"] is None:
                     global_doi_list.add(row["doi"])
                 metadata["doi_list"].add(row["doi"])
@@ -207,6 +230,8 @@ for data_file, metadata in DATA_FILES.items():
                         isbn_list.append(isbn)
                 for entry in isbn_list:
                     global_isbn_list.add(entry)
+            if metadata["has_group_ids"] and oat.has_value(row["group_id"]):
+                global_group_id_list.add(row["group_id"])
             line += 1
 
 for _, file_dict in KNOWN_DUPLICATES.items():
@@ -432,6 +457,16 @@ def check_for_url_duplicates(row_object):
             fail(line_str + 'Duplicate: Normalized URL "' + norm_url + '" was ' +
                         'encountered more than one time' + norm_string)
 
+def check_for_group_id_duplicates(row_object):
+    __tracebackhide__ = True
+    group_id = row_object.row["group_id"]
+    line_str = '{}, line {}: '.format(row_object.file_name,
+                                      row_object.line_number)
+    global_group_id_list.remove(group_id)
+    if group_id in global_group_id_list:
+        fail(line_str + 'Duplicate: group_id "' + group_id + '" was ' +
+             'encountered more than one time')
+
 def check_for_isbn_duplicates(row_object):
     __tracebackhide__ = True
     isbn_list = []
@@ -540,7 +575,7 @@ def check_ta_data(row_object):
     __tracebackhide__ = True
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
-    if "agreement" in row:
+    if row_object.origin == "ta":
         agreement = row["agreement"]
         publisher = row["publisher"]
         doi = row["doi"]
@@ -551,6 +586,16 @@ def check_ta_data(row_object):
             if agreement_dict[agreement] != publisher:
                 msg = 'publisher mismatch found for agreement "{}": {} <> {} [{}]'
                 ret = line_str + msg.format(agreement, publisher, agreement_dict[agreement], doi)
+                fail(ret)
+        if not oat.has_value(row["group_id"]):
+            msg = 'missing group_id for agreement "{}" [{}]'
+            ret = line_str + msg.format(agreement, doi)
+            fail(ret)
+        else:
+            group_id = row["group_id"]
+            if group_id not in global_group_id_list:
+                msg = 'group_id "{}" not found in contracts file [{}]'
+                ret = line_str + msg.format(group_id, doi)
                 fail(ret)
 
 @pytest.mark.parametrize("row_object", APC_DATA)
@@ -624,3 +669,10 @@ if __name__ == '__main__':
         check_isbns(row_object)
         check_for_isbn_duplicates(row_object)
         check_for_doi_duplicates(row_object)
+    oat.print_b(str(len(CONTRACTS_DATA)) + " contract records collected, starting tests...")
+    deciles = {round((len(CONTRACTS_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
+    for num, row_object in enumerate(CONTRACTS_DATA):
+        if num in deciles:
+            oat.print_b(deciles[num])
+        check_line_length(row_object)
+        check_for_group_id_duplicates(row_object)
