@@ -53,6 +53,8 @@ for line in source_content:
         euro = float(line[2])
     except ValueError:
         euro = "NA"
+    if ins == "FWF - Austrian Science Fund":
+        euro = "NA" # FWF data cannot be reliably assigned to contracts - cost data will be kept at article level
     existing_group_id =  group_dict.get(ror, {}).get(period, {}).get(agreement, {}).get('group_id')
     if existing_group_id is not None and existing_group_id != group_id:
         msg = "ERROR: Different group ids ({} <-> {}) generated for combo ({},{},{}) ({})!"
@@ -77,7 +79,12 @@ for line in source_content:
         }
     else:
         if group_dict[ror][period][agreement]["euro"] != 'NA':
-            group_dict[ror][period][agreement]["euro"] += euro
+            try:
+                group_dict[ror][period][agreement]["euro"] += euro
+            except TypeError:
+                print(ins, ror, period, agreement, doi)
+    if ins != "FWF - Austrian Science Fund":
+        line[2] = "NA"
     line[19] = group_id
 
 header = ["institution", "consortium", "contract_name", "identifier", "period_from", "period_to", "cost_type", "euro", "group_id"]
