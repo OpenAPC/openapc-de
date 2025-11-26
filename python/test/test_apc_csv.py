@@ -46,7 +46,7 @@ DATA_FILES = {
         "is_ac_file_for": None,
         "unused_fields": ["license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
-        "row_length": 20,
+        "row_length": 21,
         "has_doi": True,
         "has_issn": True,
         "has_isbn": False,
