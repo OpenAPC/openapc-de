@@ -338,7 +338,7 @@ JOURNAL_OWNER_CHANGED = {
     "0771-3312": ["Agri‐Overseas", "Presses Agronomiques de Gembloux"], # Tropicultura (linking)
     "1863-2521": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"], # Journal of Children's Orthopaedics
     "1863-2548": ["British Editorial Society of Bone & Joint Surgery", "SAGE Publications"], # Journal of Children's Orthopaedics (electronic)
-    "1686-4360": ["Informa UK Limited", "CAD Solutions, LLC"], # Computer-Aided Design and Applications
+    "1686-4360": ["Informa UK Limited", "U-turn Press LLC"], # Computer-Aided Design and Applications
     "2535-5449": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden
     "0800-1669": ["Norwegian University of Science and Technology (NTNU) Library", "Cappelen Damm AS - Cappelen Damm Akademisk"], # BARN - Forskning om barn og barndom i Norden (linking)
     "1651-2081": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Journal of Rehabilitation Medicine
@@ -615,6 +615,10 @@ JOURNAL_OWNER_CHANGED = {
 	"1125-4718": ["PAGEPress Publications", "Elsevier BV"], # Italian Journal of Agronomy 
 	"1759-2879": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Research Synthesis Methods 
 	"1759-2887": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # Research Synthesis Methods (electronic)
+	"1353-2618": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the ICE - Geotechnical Engineering 
+	"1751-8563": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the ICE - Geotechnical Engineering (electronic)
+	"1502-3850": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Odontologica Scandinavica 
+	"0001-6357": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Odontologica Scandinavica (print)
 
 }
 
@@ -1080,6 +1084,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0738-2480", # Law and History Review, Gold OA since 2024 (Oct.)
     "1759-2879", # Research Synthesis Methods, Gold OA since 2025
     "0841-8209", # Canadian Journal of Law & Jurisprudence, Gold OA since 2025
+    "1502-3850", # Acta Odontologica Scandinavica, Gold OA since 2024
+    "1574-6976", # FEMS Microbiology Reviews, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
