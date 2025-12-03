@@ -161,6 +161,7 @@ COLUMN_SCHEMAS = {
         "euro",
         "doi",
         "is_hybrid",
+        "opt_out",
         "publisher",
         "journal_full_title",
         "issn",
@@ -174,7 +175,8 @@ COLUMN_SCHEMAS = {
         "ut",
         "url",
         "doaj",
-        "agreement"
+        "agreement",
+        "group_id"
     ],
     "book": [
         "institution",
@@ -201,6 +203,17 @@ COLUMN_SCHEMAS = {
         "submission fee",
         "payment fee",
         "other"
+    ],
+    "contracts": [
+        "institution",
+        "consortium",
+        "contract_name",
+        "identifier",
+        "period_from",
+        "period_to",
+        "cost_type",
+        "euro",
+        "group_id"
     ]
 }
 
