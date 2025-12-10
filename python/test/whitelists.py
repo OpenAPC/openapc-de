@@ -619,6 +619,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1751-8563": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the ICE - Geotechnical Engineering (electronic)
 	"1502-3850": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Odontologica Scandinavica 
 	"0001-6357": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Odontologica Scandinavica (print)
+	"0308-0188": ["Informa UK Limited", "SAGE Publications"], # Interdisciplinary Science Reviews 
+	"1743-2790": ["Informa UK Limited", "SAGE Publications"], # Interdisciplinary Science Reviews (electronic)
 
 }
 
@@ -1086,6 +1088,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0841-8209", # Canadian Journal of Law & Jurisprudence, Gold OA since 2025
     "1502-3850", # Acta Odontologica Scandinavica, Gold OA since 2024
     "1574-6976", # FEMS Microbiology Reviews, Gold OA since 2024
+    "2524-7867", # Biochar, Gold OA since 2022
+    "0950-0839", # Philosophical Magazine Letters, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
