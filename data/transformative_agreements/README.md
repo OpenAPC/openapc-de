@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 162,942 articles, published at 543 institutions under 150 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 164,995 articles, published at 543 institutions under 152 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -33,18 +33,18 @@ This dataset contains information on 162,942 articles, published at 543 institut
 |Swiss Consortium Wiley agreement                 |     4405|
 |FinELib Wiley agreement                          |     3848|
 |FinELib Springer Compact agreement               |     3562|
+|CSIC-Elsevier                                    |     2924|
 |IReL Wiley Agreement                             |     2881|
 |FinELib Taylor & Francis agreement               |     2246|
-|CSIC-Elsevier                                    |     2082|
 |IReL Springer Agreement                          |     1849|
 |Swiss Consortium T&F agreement                   |     1698|
 |IReL T&F Agreement                               |     1623|
+|CSIC-Wiley                                       |     1307|
 |FinELib SAGE agreement                           |     1295|
 |FinELib IEEE agreement                           |     1257|
 |Swiss Consortium SAGE agreement                  |     1157|
 |IReL Sage Agreement                              |      932|
 |FWF Transformative Agreement Wiley-Blackwell     |      869|
-|CSIC-Wiley                                       |      864|
 |Crui-CARE Springer Agreement                     |      796|
 |IReL IEEE Agreement                              |      791|
 |FinELib OUP agreement                            |      757|
@@ -52,29 +52,29 @@ This dataset contains information on 162,942 articles, published at 543 institut
 |Swiss Consortium CUP agreement                   |      709|
 |IReL OUP Agreement                               |      644|
 |Swiss Consortium RSC agreement                   |      640|
+|CSIC-Springer Nature                             |      636|
 |University of Milan - Elsevier                   |      580|
 |FinELib Emerald agreement                        |      575|
 |IReL CUP Agreement                               |      572|
 |FinELib ACS agreement                            |      565|
 |FWF Transformative Agreement Springer Nature     |      556|
 |IReL ACS Agreement                               |      552|
+|CSIC-Royal Society of Chemistry                  |      551|
 |Swiss Consortium IOP agreement                   |      550|
+|CSIC-ACS                                         |      512|
 |FWF Transformative Agreement Elsevier            |      498|
 |Crui-CARE Elsevier Agreement                     |      476|
-|CSIC-Royal Society of Chemistry                  |      475|
 |Austrian Consortium Wiley agreement              |      474|
 |Crui-CARE Wiley Agreement                        |      470|
 |FWF Transformative Agreement ACS                 |      444|
 |University of Milan - Wiley                      |      428|
-|CSIC-ACS                                         |      387|
-|CSIC-Springer Nature                             |      386|
+|CSIC-Oxford University Press                     |      403|
 |IReL PLOS Agreement                              |      374|
 |FinELib RSC agreement                            |      365|
 |Austrian Consortium T&F agreement                |      353|
 |Swiss Consortium Ovid LWW agreement              |      338|
 |Swiss Consortium ACS agreement                   |      318|
 |FWF Transformative Agreement T&F                 |      306|
-|CSIC-Oxford University Press                     |      294|
 |Swiss Consortium AIP agreement                   |      287|
 |Swiss Consortium OUP Journals Agreement          |      280|
 |MPG RSC agreement                                |      246|
@@ -87,18 +87,19 @@ This dataset contains information on 162,942 articles, published at 543 institut
 |QNL Elsevier Agreement                           |      194|
 |Austrian Consortium RSC agreement                |      179|
 |FWF Transformative Agreement IOP                 |      172|
+|CSIC-Taylor & Francis                            |      164|
 |Swiss Consortium Nature Transformative agreement |      164|
 |Crui-CARE ACS Agreement                          |      149|
 |Swiss Consortium IEEE agreement                  |      131|
 |Crui-CARE IEEE Agreement                         |      127|
 |IReL IOP Agreement                               |      124|
 |TIB RSC Journals R&P - TU Berlin                 |      114|
-|CSIC-Taylor & Francis                            |      109|
 |QNL Springer Nature Agreement                    |      103|
 |IReL AIP Agreement                               |       94|
 |IReL RIA Agreement                               |       92|
 |QNL Wiley Agreement                              |       92|
 |Crui-CARE CUP Agreement                          |       91|
+|CSIC-Cambridge University Press                  |       88|
 |FinELib CUP agreement                            |       86|
 |CzechELib Taylor & Francis agreement             |       85|
 |QNL T&F Agreement                                |       85|
@@ -107,18 +108,20 @@ This dataset contains information on 162,942 articles, published at 543 institut
 |IReL RS Agreement                                |       75|
 |CzechELib OUP agreement                          |       73|
 |IReL BMJ Agreement                               |       68|
+|CSIC-Institute of Physics                        |       66|
 |FinELib ACM agreement                            |       66|
 |IReL Optica Agreement                            |       66|
 |EISZ agreement Elsevier                          |       64|
 |IReL Microbiology Society Agreement              |       62|
-|CSIC-Cambridge University Press                  |       60|
 |Crui-CARE De Gruyter Agreement                   |       60|
 |IReL ACM Agreement                               |       59|
 |CzechELib ACS agreement                          |       58|
 |University of Milan - ACS                        |       58|
 |FWF Transformative Agreement RSC                 |       55|
 |EISZ agreement Akadémiai Kiadó                   |       54|
+|CSIC-Royal Society                               |       53|
 |CzechELib RSC agreement                          |       50|
+|CSIC-AIP                                         |       46|
 |MPG Taylor & Francis agreement                   |       46|
 |Austrian Consortium IOP agreement                |       45|
 |Crui-CARE Emerald Agreement                      |       45|
@@ -128,36 +131,34 @@ This dataset contains information on 162,942 articles, published at 543 institut
 |University of Milan - Lippincott                 |       38|
 |Crui-CARE RSC Agreement                          |       37|
 |EISZ agreement Wiley                             |       35|
-|CSIC-Institute of Physics                        |       33|
 |FinELib Nature Research agreement                |       33|
 |MPG IOP agreement                                |       32|
-|CSIC-AIP                                         |       31|
-|CSIC-Royal Society                               |       31|
 |IReL APA Agreement                               |       30|
 |QNL IEEE Agreement                               |       30|
 |Crui-CARE AIP Agreement                          |       29|
 |University of Milan - IOP                        |       27|
 |University of Milan - IEEE                       |       24|
 |Austrian Consortium Emerald agreement            |       23|
+|CSIC-Brill                                       |       23|
 |CzechELib Karger agreement                       |       23|
 |IReL Cell Press Agreement                        |       23|
 |IReL ECS Agreement                               |       20|
+|CSIC-SAGE                                        |       19|
 |Crui-CARE Lippincott Agreement                   |       19|
 |CzechELib IOP agreement                          |       19|
 |IReL AmericanPhysicalSociety Agreement           |       19|
 |University of Milan - OUP                        |       19|
 |CzechELib SAGE agreement                         |       18|
+|CSIC-Company of biologists                       |       17|
+|CSIC-Microbiology Society                        |       17|
 |FWF Transformative Agreement Sage                |       17|
 |Austrian Consortium Sage agreement               |       16|
 |CzechELib AIP agreement                          |       16|
 |FWF Transformative Agreement IEEE                |       16|
-|CSIC-Microbiology Society                        |       13|
-|CSIC-Brill                                       |       11|
-|CSIC-Company of biologists                       |       11|
+|CSIC-De Gruyter                                  |       15|
+|CSIC-Portland Press                              |       12|
 |Swiss Consortium BMJ agreement                   |       10|
-|CSIC-De Gruyter                                  |        9|
 |Swiss Consortium ACM agreement                   |        9|
-|CSIC-Portland Press                              |        7|
 |IReL Company of Biologists Agreement             |        7|
 |Crui-CARE IOP Agreement                          |        5|
 |IReL CSHL Agreement                              |        4|
@@ -166,9 +167,10 @@ This dataset contains information on 162,942 articles, published at 543 institut
 |QNL De Gruyter Agreement                         |        3|
 |QNL OVID Agreement                               |        3|
 |University of Milan - BMJ                        |        3|
+|CSIC-Bentham                                     |        2|
+|CSIC-Rockefeller University Press                |        2|
 |EISZ agreement Cambridge University Press        |        2|
 |University of Milan - ACM                        |        2|
-|CSIC-Rockefeller University Press                |        1|
 |Crui-CARE ACM Agreement                          |        1|
 |EISZ agreement DeGruyter                         |        1|
 |EISZ agreement Lippincott Williams and Wilkins   |        1|
@@ -181,11 +183,11 @@ This dataset contains information on 162,942 articles, published at 543 institut
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
+|Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     6857|
 |French institutions                                                                                                                                |     5753|
 |ETH Zurich                                                                                                                                         |     5104|
 |University of Helsinki                                                                                                                             |     4985|
 |University of Zurich                                                                                                                               |     4836|
-|Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     4804|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |University of Bern                                                                                                                                 |     2908|
 |University of Geneva                                                                                                                               |     2744|
