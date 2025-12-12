@@ -7,6 +7,8 @@ import logging
 import os
 import sys
 
+from copy import deepcopy
+
 import openapc_toolkit as oat
 
 TARGET_DIR = "opencost_out"
@@ -291,7 +293,7 @@ def prepare_deal_update(args, ta_data, ta_doi_lookup, new_deal_writers, invoice_
 
 parser = argparse.ArgumentParser()
 parser.add_argument("xml_files", nargs="+", help="One or more openCost XML files which should validate against the official openCost XSD schema")
-parser.add_argument("-v", "--version", choices=["v1", "v2"], default="v1")
+parser.add_argument("-v", "--version", choices=["v1", "v2"], default="v2")
 parser.add_argument("-p", "--prefix", default="", help="An optional prefix for generated file names")
 parser.add_argument("-l", "--log_level", choices=["DEBUG", "INFO", "WARNING", "ERROR"], default="INFO", help="Set the log level of the underlying openCost toolkit library")
 parser.add_argument("-m", "--merge_groups", action="store_true", help="Merge invoice groups with identical group_id by adding their total costs")
@@ -328,7 +330,6 @@ articles, invoice_groups = octk.process_opencost_xml(*xml_content_strings)
 invoice_groups = octk.detect_invoice_group_duplicates(invoice_groups)
 if args.merge_groups:
     invoice_groups = octk.merge_invoice_groups(invoice_groups)
-articles = octk.apply_contract_data(articles, invoice_groups)
 
 with open(oat.INSTITUTIONS_FILE, "r") as ins_file:
     reader = csv.DictReader(ins_file)
@@ -353,7 +354,8 @@ for collection in [articles, invoice_groups]:
                 logging.error(msg)
         element["institution"] = ROR_MAP.get(ror_id, "")
 
-fieldnames = list(octk.OPENCOST_EXTRACTION_FIELDS.keys())
+article_fieldnames = list(octk.OPENCOST_EXTRACTION_FIELDS.keys())
+contract_fieldnames = oat.COLUMN_SCHEMAS["contracts"]
 
 if not os.path.isdir(TARGET_DIR):
     os.mkdir(TARGET_DIR)
@@ -363,7 +365,7 @@ csv_writers = {}
 if not args.no_collected_file:
     all_articles_path = os.path.join(TARGET_DIR, "all_articles.csv")
     main_handle = open(all_articles_path, "w")
-    main_writer = csv.DictWriter(main_handle, fieldnames, extrasaction="ignore")
+    main_writer = csv.DictWriter(main_handle, article_fieldnames, extrasaction="ignore")
     main_writer.writeheader()
 
 for article in articles:
@@ -376,9 +378,8 @@ for article in articles:
         continue # Skip articles silently which have already been omitted by the oc toolkit (usually cost splitting cases)
     esac_id = article["contract_primary_identifier"]
     pub_type = article["type"]
-    ins_name = institution.lower().replace(" ", "_")
+    target_file = institution.lower().replace(" ", "_")
     period = article["period"]
-    deal_data = None
     publication_level_costs = False
     try:
         euro_value = float(article["euro"])
@@ -387,154 +388,65 @@ for article in articles:
     except ValueError:
         pass
     if pub_type == "book":
-        ins_name += "_BPC"
-    elif oat.has_value(esac_id):
-        if article["is_hybrid"] == "TRUE":
-            if esac_id in ["sn2020deal", "wiley2019deal", "els2023deal"]:
-                if publication_level_costs:
-                    msg = 'Skipped a hybrid DEAL record with publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
-                    logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
-                    continue
-                article["euro"] = article.get("contract_euro", 0)
-                opt_out = article["publication charge"] == 0.0 
-                if esac_id == "sn2020deal":
-                    ins_name += "_DEAL_Springer_" + period
-                    if opt_out:
-                        ins_name += "_opt_out"
-                    deal_data = {
-                        "period": period,
-                        "institution": institution,
-                        "agreement": "DEAL Springer Nature Germany",
-                        "opt_out": "opt_out" if opt_out else "opt_in"
-                    }
-                elif esac_id == "wiley2019deal":
-                    ins_name += "_DEAL_Wiley_" + period
-                    if opt_out:
-                        ins_name += "_opt_out"
-                    deal_data = {
-                        "period": period,
-                        "institution": institution,
-                        "agreement": "DEAL Wiley Germany",
-                        "opt_out": "opt_out" if opt_out else "opt_in"
-                    }
-                elif esac_id == "els2023deal":
-                    ins_name += "_DEAL_Elsevier_" + period
-                    if opt_out:
-                        ins_name += "_opt_out"
-                    deal_data = {
-                        "period": period,
-                        "institution": institution,
-                        "agreement": "DEAL Elsevier Germany",
-                        "opt_out": "opt_out" if opt_out else "opt_in"
-                    }
-            # Experimental: Apply EAPC principle to TU Berlin RSC agreement
-            # TODO: Parameters should be exported to a whitelist/lookup table to allow external control on which TAs to process
-            elif esac_id == "rsc2021tib" and institution == "TU Berlin":
-                if publication_level_costs:
-                    msg = 'Skipped a hybrid RSC record with publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
-                    logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
-                    continue
-                article["euro"] = article.get("contract_euro", 0)
-                opt_out = article["publication charge"] == 0.0
-                ins_name += "_RSC_" + period
-                if opt_out:
-                    ins_name += "_opt_out"
-                deal_data = {
-                    "period": period,
-                    "institution": institution,
-                    "agreement": "TIB RSC Agreement",
-                    "opt_out": "opt_out" if opt_out else "opt_in"
-                }
-            else:
-                # Skip hybrid articles from contracts other than DEAL/RSC
-                msg = 'Skipped a hybrid non-DEAL record ({}, {}, {}€, {}, {}, {}, {}))'
-                logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
-                continue
-        elif not publication_level_costs:
-            msg = 'Skipped a contract-linked non-hybrid record which had no publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
-            logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
-            continue
-        elif pub_type != "journal article":
-            msg = 'Skipped a contract-linked non-hybrid record which was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
-            logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
-            continue
-        # Only use gold articles from contracts if they are journal articles and have costs on publication level
-    elif pub_type != "journal article":
+        target_file += "_BPC"
+        continue
+    if oat.has_value(esac_id):
+        target_file += "_TA"
+        continue
+    if pub_type != "journal article":
         msg = 'Skipped a record (not linked to a contract) which was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
         logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
         continue
-    elif not publication_level_costs:
+    if not publication_level_costs:
         msg = 'Skipped a record (not linked to a contract) which had no publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
         logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
         continue
-    if ins_name not in csv_writers:
-        path = os.path.join(TARGET_DIR, args.prefix + ins_name + ".csv")
+    if target_file not in csv_writers:
+        path = os.path.join(TARGET_DIR, args.prefix + target_file + ".csv")
         handle = open(path, "w")
-        csv_writers[ins_name] = {
-            "writer": csv.DictWriter(handle, fieldnames, extrasaction="ignore"),
+        csv_writers[target_file] = {
+            "writer": csv.DictWriter(handle, article_fieldnames, extrasaction="ignore"),
             "handle": handle,
-            "articles": [],
-            "deal_data": deal_data
+            "lines": [],
         }
-        csv_writers[ins_name]["writer"].writeheader()
-    csv_writers[ins_name]["articles"].append(article)
+        csv_writers[target_file]["writer"].writeheader()
+    csv_writers[target_file]["lines"].append(article)
+
+for invoice_group in invoice_groups:
+    institution = invoice_group["institution"]
+    target_file = institution.lower().replace(" ", "_") + "_contracts"
+    if target_file not in csv_writers:
+        path = os.path.join(TARGET_DIR, args.prefix + target_file + ".csv")
+        handle = open(path, "w")
+        csv_writers[target_file] = {
+            "writer": csv.DictWriter(handle, contract_fieldnames, extrasaction="ignore"),
+            "handle": handle,
+            "lines": [],
+        }
+        csv_writers[target_file]["writer"].writeheader()
+    line_tmpl = {
+        "institution": institution,
+        "identifier": invoice_group["contract_id"],
+        "group_id": invoice_group["group_id"],
+        "period_from": invoice_group["period"],
+        "period_to": invoice_group["period"],
+    }
+    for invoice in invoice_group["invoices"]:
+        for cost_type, amount in invoice.items():
+            if cost_type == "date_invoice":
+                continue
+            line = deepcopy(line_tmpl)
+            line["cost_type"] = cost_type
+            line["euro"] = amount
+            csv_writers[target_file]["lines"].append(line)
 
 if not args.no_collected_file:
     main_handle.close()
 
-ta_deal_data = {}
-ta_doi_lookup = {}
-# Extract existing DEAL data and create nested lookup dicts
-for source in [TA_FILE, WILEY_OPT_OUT_FILE, SPRINGER_OPT_OUT_FILE]:
-    with open(source, "r") as ta_file:
-        reader = csv.DictReader(ta_file)
-        for line in reader:
-            institution = line["institution"]
-            doi = line["doi"]
-            agreement = line["agreement"]
-            ta_doi_lookup[doi] = line
-            if line["is_hybrid"] != "TRUE":
-                continue
-            if agreement not in ["DEAL Springer Nature Germany", "DEAL Wiley Germany", "DEAL Elsevier Germany", "TIB RSC Journals R&P - TU Berlin"]:
-                continue
-            period = str(line["period"])
-            if institution not in ta_deal_data:
-                ta_deal_data[institution] = {}
-            if period not in ta_deal_data[institution]:
-                ta_deal_data[institution][period] = {}
-            if agreement not in ta_deal_data[institution][period]:
-                ta_deal_data[institution][period][agreement] = {
-                    "articles": [],
-                    "opt_out_articles": False,
-                }
-            ta_deal_data[institution][period][agreement]["articles"].append(line)
-            if source in [WILEY_OPT_OUT_FILE, SPRINGER_OPT_OUT_FILE]:
-                ta_deal_data[institution][period][agreement]["opt_out_articles"] = True
-
-new_deal_writers = {}
-# Also create a nested lookup dict for csv writers with DEAL data
-for _, data in csv_writers.items():
-    if data["deal_data"] is None:
-        continue
-    ins = data["deal_data"]["institution"]
-    period = data["deal_data"]["period"]
-    agreement = data["deal_data"]["agreement"]
-    opt_out = data["deal_data"]["opt_out"]
-    if ins not in new_deal_writers:
-        new_deal_writers[ins] = {}
-    if period not in new_deal_writers[ins]:
-        new_deal_writers[ins][period] = {}
-    if agreement not in new_deal_writers[ins][period]:
-        new_deal_writers[ins][period][agreement] = {}
-    if opt_out not in new_deal_writers[ins][period][agreement]:
-        new_deal_writers[ins][period][agreement][opt_out] = data
-
-prepare_deal_update(args, ta_deal_data, ta_doi_lookup, new_deal_writers, invoice_groups)
-
 # Create institutional output files
 for writer_name, writer_data in csv_writers.items():
-    for article in writer_data["articles"]:
-        writer_data["writer"].writerow(article)
+    for line in writer_data["lines"]:
+        writer_data["writer"].writerow(line)
     writer_data["handle"].close()
 
 # Flush buffered log messages
