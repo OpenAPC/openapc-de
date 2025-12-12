@@ -38,7 +38,7 @@ for line in source_content:
     consortium = esac_lookup.get(esac_id, {}).get("Organization", "NA")
     publisher = AGREEMENT_PUBLISHER_MAP.get(line[6], line[6])
     if esac_id == 'NA':
-        esac_id = publisher.replace(" ", "").replace("-", "").lower()
+        esac_id = agreement.replace(" ", "").replace("-", "").lower()
         esac_id = re.sub(r'\(.*?\)', '', esac_id)
         contract_id = 'NA'
     ins = line[0]
