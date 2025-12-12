@@ -368,6 +368,7 @@ if not args.no_collected_file:
     main_writer = csv.DictWriter(main_handle, article_fieldnames, extrasaction="ignore")
     main_writer.writeheader()
 
+
 for article in articles:
     institution = article["institution"]
     if args.institution is not None and args.institution != institution:
@@ -389,18 +390,17 @@ for article in articles:
         pass
     if pub_type == "book":
         target_file += "_BPC"
-        continue
-    if oat.has_value(esac_id):
+    elif oat.has_value(esac_id):
         target_file += "_TA"
-        continue
-    if pub_type != "journal article":
-        msg = 'Skipped a record (not linked to a contract) which was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
-        logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
-        continue
-    if not publication_level_costs:
-        msg = 'Skipped a record (not linked to a contract) which had no publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
-        logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
-        continue
+    else: #APC
+        if pub_type != "journal article":
+            msg = 'Skipped a record (not linked to a contract) which was no journal article ({}, {}, {}€, {}, {}, {}, {}))'
+            logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
+            continue
+        if not publication_level_costs:
+            msg = 'Skipped a record (not linked to a contract) which had no publication level costs ({}, {}, {}€, {}, {}, {}, {}))'
+            logging.warning(msg.format(article["institution"], article["period"], article["euro"], article["doi"], article["is_hybrid"], pub_type, esac_id))
+            continue
     if target_file not in csv_writers:
         path = os.path.join(TARGET_DIR, args.prefix + target_file + ".csv")
         handle = open(path, "w")
