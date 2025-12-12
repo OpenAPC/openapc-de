@@ -30,6 +30,7 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("euro", None),
     ("doi", "opencost:primary_identifier//opencost:doi"),
     ("is_hybrid", None),
+    ("opt-out", None),
     ("type", "opencost:publication_type"),
     ("contract_primary_identifier", None),
     ("contract_group_id", None),
@@ -272,6 +273,7 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
     for group_element in group_elements:
         data = {
             "group_total_costs": 0,
+            "invoices": [],
             "merged": False,
             "possible_duplicate": False
         }
@@ -301,6 +303,7 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
                  # sum all payment amounts
                 if field in ["read", "publish", "vat"]:
                     data["group_total_costs"] += value
+            data["invoices"].append(invoice_data)
         extracted_invoice_groups.append(data)
     ret["success"] = True
     ret["data"] = extracted_invoice_groups
@@ -482,7 +485,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     3) Map extracted values to OpenAPC fields euro, period and is_hybrid
 
     If the publication was part of a contract, the primary_identifier
-    and invoice_id will be extracted as well. In this case, however, the
+    and invoice group id will be extracted as well. In this case, however, the
     final calculation of costs and dates relies on that invoice data and has
     to be resolved on a higher level. Consistency checks will be omitted
     in this case.
@@ -566,12 +569,13 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
         if "vat" in final_data:
             final_data["euro"] += final_data["vat"]
         final_data["is_hybrid"] = "TRUE"
-    # Special is_hybrid rule: DEAL opt-out
+    # Special is_hybrid rule: opt-out
+    final_data["opt_out"] = "FALSE"
     esac_id = final_data.get("contract_primary_identifier", "")
-    if esac_id in ["sn2020deal", "wiley2019deal", "els2023deal"]:
+    if esac_id:
         if "publication charge" in final_data and not "hybrid-oa" in final_data:
             if final_data["publication charge"] == 0.0:
-                final_data["is_hybrid"] = "TRUE"
+                final_data["opt_out"] = "TRUE"
     if "date_paid" in final_data:
         final_data["period"] =  final_data["date_paid"]
     elif "date_invoice" in final_data:
