@@ -570,12 +570,14 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
             final_data["euro"] += final_data["vat"]
         final_data["is_hybrid"] = "TRUE"
     # Special is_hybrid rule: opt-out
-    final_data["opt_out"] = "FALSE"
+    final_data["opt-out"] = "FALSE"
     esac_id = final_data.get("contract_primary_identifier", "")
     if esac_id:
         if "publication charge" in final_data and not "hybrid-oa" in final_data:
             if final_data["publication charge"] == 0.0:
-                final_data["opt_out"] = "TRUE"
+                final_data["opt-out"] = "TRUE"
+                final_data["is_hybrid"] = "TRUE"
+                final_data["euro"] = "0.0"
     if "date_paid" in final_data:
         final_data["period"] =  final_data["date_paid"]
     elif "date_invoice" in final_data:
