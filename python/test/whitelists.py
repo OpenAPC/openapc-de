@@ -621,6 +621,8 @@ JOURNAL_OWNER_CHANGED = {
 	"0001-6357": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Odontologica Scandinavica (print)
 	"0308-0188": ["Informa UK Limited", "SAGE Publications"], # Interdisciplinary Science Reviews 
 	"1743-2790": ["Informa UK Limited", "SAGE Publications"], # Interdisciplinary Science Reviews (electronic)
+	"1757-9708": ["Royal Society of Chemistry (RSC)", "Oxford University Press (OUP)"], # Integrative Biology 
+	"1757-9694": ["Royal Society of Chemistry (RSC)", "Oxford University Press (OUP)"], # Integrative Biology (linking)
 
 }
 
@@ -1090,6 +1092,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1574-6976", # FEMS Microbiology Reviews, Gold OA since 2024
     "2524-7867", # Biochar, Gold OA since 2022
     "0950-0839", # Philosophical Magazine Letters, Gold OA since 2023
+    "2049-632X", # Pathogens and Disease, Gold OA since 2024
+    "1460-2237", # Health Policy and Planning, Gold OA since 2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
