@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 165,560 articles, published at 543 institutions under 153 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 165,564 articles, published at 543 institutions under 153 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -23,8 +23,8 @@ This dataset contains information on 165,560 articles, published at 543 institut
 |Agreement                                        | Articles|
 |:------------------------------------------------|--------:|
 |Springer Compact                                 |    35725|
-|DEAL Springer Nature Germany                     |    18971|
-|DEAL Wiley Germany                               |    16892|
+|DEAL Springer Nature Germany                     |    18973|
+|DEAL Wiley Germany                               |    16894|
 |Swiss Consortium Elsevier agreement              |    12988|
 |CRKN SAGE Agreement                              |     8308|
 |FinELib Elsevier agreement                       |     6879|
@@ -529,6 +529,7 @@ This dataset contains information on 165,560 articles, published at 543 institut
 |MacEwan University                                                                                                                                 |       26|
 |Université du Québec à Trois-Rivières                                                                                                              |       26|
 |Athabasca University                                                                                                                               |       25|
+|Fachhochschule Südwestfalen                                                                                                                        |       25|
 |HafenCity Universität Hamburg                                                                                                                      |       25|
 |Leibniz-ZALF                                                                                                                                       |       25|
 |Leibniz-ZMT                                                                                                                                        |       25|
@@ -543,7 +544,6 @@ This dataset contains information on 165,560 articles, published at 543 institut
 |Turku University of Applied Sciences                                                                                                               |       23|
 |Dalarna University                                                                                                                                 |       22|
 |GSI                                                                                                                                                |       22|
-|Fachhochschule Südwestfalen                                                                                                                        |       21|
 |Royal Roads University                                                                                                                             |       21|
 |University of Prince Edward Island                                                                                                                 |       21|
 |London South Bank University                                                                                                                       |       20|
