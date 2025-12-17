@@ -1094,6 +1094,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0950-0839", # Philosophical Magazine Letters, Gold OA since 2023
     "2049-632X", # Pathogens and Disease, Gold OA since 2024
     "1460-2237", # Health Policy and Planning, Gold OA since 2024
+    "2050-1242", # Network Science, Gold OA since 2024
+    "0021-1214", # Irish Historical Studies, Gold OA since 2025
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
