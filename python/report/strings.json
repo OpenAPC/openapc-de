@@ -37,7 +37,7 @@
         "nrd_th": "|Jahrgang|DOI|Verlag|Zeitschrift|\n|-|----|----|----|\n"
     },
     "EN": {
-        "front": "---\ngeometry:\n- top=30mm\n- left=20mm\n- right=20mm\n- heightrounded\nlinkcolor: red\nfontfamily: arev\n---\n\n![](report/openAPC_01.png){#openapc_logo width=20%}\n\n",
+        "front": "---\ngeometry:\n- top=30mm\n- left=20mm\n- right=20mm\n- heightrounded\nlinkcolor: red\n---\n\n![](report/openAPC_01.png){#openapc_logo width=20%}\n\n",
         "header": "# Data Analysis\n\n",
         "intro": "### Preface\n\n This is an auto-generated report based on all articles your institution has reported to OpenAPC so far. Its aim is to provide clues to possible errors in the submitted APC data. The report should be treated as an additional service provided by OpenAPC to its participants - please do not feel obliged to answer to it. However, if the pointers in here do indeed lead to the discovery of data errors, we would be happy if you could provide us with corrections.\n\n",
         "ad_th": "|Period|Article|Reported Costs|MV|SD|Difference\n|--|----|-|-|-|-|\n",
