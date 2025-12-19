@@ -135,6 +135,18 @@ ADDITIONAL_COSTS_QUOTEMASK = [
     False,
 ]
 
+CONTRACTS_QUOTEMASK = [
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    True,
+    False,
+    True,
+]
+
 COLUMN_SCHEMAS = {
     "journal-article": [
         "institution",
@@ -223,6 +235,9 @@ EXCHANGE_RATES = {}
 
 INSTITUTIONS_FILE = "../data/institutions.csv"
 INSTITUTIONS_MAP = None
+
+CONTRACTS_FILE = "../data/transformative_agreements/contracts.csv"
+CONTRACTS_MAP = None
 
 class OpenAPCUnicodeWriter(object):
     """
@@ -2350,6 +2365,29 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 ret["additional_costs"].append("NA")
 
     return ret
+
+def get_contract_data(esac_id):
+    """
+    Obtain existing contract metadata from contracts.csv for a given esac id
+    Args:
+        esac_id: A string representing an ESAC ID ("identifier" column in
+        contracts table)
+    Returns:
+        A dict with the keys "consortium" and "contract_name" if the esac
+        was found in the contracts table, None otherwise.
+    """
+    global CONTRACTS_MAP
+    if CONTRACTS_MAP is None: #Lazy init
+        CONTRACTS_MAP = {}
+        with open(CONTRACTS_FILE, "r") as handle:
+            reader = csv.DictReader(handle)
+            for line in reader:
+                esac_id = line["identifier"]
+                CONTRACTS_MAP[esac_id] = {
+                    "consortium": line["consortium"],
+                    "contract_name": line["contract_name"]
+                }
+    return CONTRACTS_MAP.get(esac_id, None)
 
 def get_hybrid_status_from_whitelist(hybrid_status):
     """
