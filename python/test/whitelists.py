@@ -623,6 +623,14 @@ JOURNAL_OWNER_CHANGED = {
 	"1743-2790": ["Informa UK Limited", "SAGE Publications"], # Interdisciplinary Science Reviews (electronic)
 	"1757-9708": ["Royal Society of Chemistry (RSC)", "Oxford University Press (OUP)"], # Integrative Biology 
 	"1757-9694": ["Royal Society of Chemistry (RSC)", "Oxford University Press (OUP)"], # Integrative Biology (linking)
+	"1574-0153": ["IOS Press", "SAGE Publications"], # Cancer Biomarkers 
+	"1875-8592": ["IOS Press", "SAGE Publications"], # Cancer Biomarkers (electronic)
+	"1875-8592": ["IOS Press", "SAGE Publications"], # Cancer Biomarkers 
+	"1574-0153": ["IOS Press", "SAGE Publications"], # Cancer Biomarkers (print)
+	"1756-8919": ["Future Science, LTD", "Informa UK Limited"], # Future Medicinal Chemistry 
+	"1756-8927": ["Future Science, LTD", "Informa UK Limited"], # Future Medicinal Chemistry (electronic)
+	"2299-0054": ["Termedia Sp. z.o.o.", "Medycyna Praktyczna"], # Videosurgery and Other Miniinvasive Techniques 
+	"1895-4588": ["Termedia Sp. z.o.o.", "Medycyna Praktyczna"], # Videosurgery and Other Miniinvasive Techniques (linking)
 
 }
 
@@ -1096,6 +1104,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1460-2237", # Health Policy and Planning, Gold OA since 2024
     "2050-1242", # Network Science, Gold OA since 2024
     "0021-1214", # Irish Historical Studies, Gold OA since 2025
+    "1875-8592", # Cancer Biomarkers, Gold OA since 2024
+    "0886-0440", # Journal of Cardiac Surgery, Gold OA since 2023
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
