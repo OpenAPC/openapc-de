@@ -663,7 +663,7 @@ class ESACHandling(TempFileHandling):
         if not publisher_oapc and show_warnings:
             msg = 'ESAC publisher "{}" not found in ESAC_PUBLISHER_MAPPINGS'
             print_y("WARNING: " + msg.format(entry["Publisher"]))
-        country_oapc = mappings.ESAC_PUBLISHER_MAPPINGS.get(entry["Country"], "")
+        country_oapc = mappings.ESAC_COUNTRY_MAPPINGS.get(entry["Country"], "")
         entry["Country_OAPC"] = country_oapc
         if not country_oapc and show_warnings:
             msg = 'ESAC Country Name "{}" not found in ESAC_COUNTRY_MAPPINGS'
