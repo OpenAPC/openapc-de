@@ -52,6 +52,7 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
 
 OPENCOST_CONTRACT_EXTRACTION_FIELDS = OrderedDict([
     ("institution_ror", "opencost:institution//opencost:id[opencost:type='ror']//opencost:value"),
+    ("contract_name", "opencost:contract_name"),
     ("contract_id", "opencost:primary_identifier[opencost:type='ESAC']//opencost:value")
 ])
 

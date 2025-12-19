@@ -326,6 +326,8 @@ logging.root.addHandler(fileHandler)
 logging.root.setLevel(args.log_level)
 logging.debug("Logger initialized.")
 
+esac_lookup = oat.ESACHandling()
+
 articles, invoice_groups = octk.process_opencost_xml(*xml_content_strings)
 invoice_groups = octk.detect_invoice_group_duplicates(invoice_groups)
 if args.merge_groups:
@@ -361,13 +363,13 @@ if not os.path.isdir(TARGET_DIR):
     os.mkdir(TARGET_DIR)
 
 csv_writers = {}
+unicode_writers = {}
 
 if not args.no_collected_file:
     all_articles_path = os.path.join(TARGET_DIR, "all_articles.csv")
     main_handle = open(all_articles_path, "w")
     main_writer = csv.DictWriter(main_handle, article_fieldnames, extrasaction="ignore")
     main_writer.writeheader()
-
 
 for article in articles:
     institution = article["institution"]
@@ -415,17 +417,36 @@ for article in articles:
 for invoice_group in invoice_groups:
     institution = invoice_group["institution"]
     target_file = institution.lower().replace(" ", "_") + "_contracts"
-    if target_file not in csv_writers:
+    esac_id = invoice_group["contract_id"]
+    # Preferred way is to get consortium/contract name from contracts.csv
+    consortium = "NA"
+    contract_name = "NA"
+    contract_entry = oat.get_contract_data(esac_id)
+    if contract_entry is not None:
+        contract_name = contract_entry["contract_name"]
+        consortium = contract_entry["consortium"]
+        msg = "ESAC ID {} found in contracts.csv, importing consortium/contract name ({}/{})"
+        logging.info(msg.format(esac_id, consortium, contract_name))
+    else:
+        contract_name = invoice_group["contract_name"]
+        esac_entry = esac_lookup.get_esac_entry(esac_id)
+        if esac_entry is not None:
+            consortium = esac_entry["Organization"]
+        msg = "ESAC ID {} not found in contracts.csv, using consortium from ESAC Registry and contract name from openCost data ({}/{})"
+        logging.info(msg.format(esac_id, consortium, contract_name))
+    if target_file not in unicode_writers:
         path = os.path.join(TARGET_DIR, args.prefix + target_file + ".csv")
         handle = open(path, "w")
-        csv_writers[target_file] = {
-            "writer": csv.DictWriter(handle, contract_fieldnames, extrasaction="ignore"),
+        unicode_writers[target_file] = {
+            "writer": oat.OpenAPCUnicodeWriter(handle, quotemask=oat.CONTRACTS_QUOTEMASK),
             "handle": handle,
             "lines": [],
         }
-        csv_writers[target_file]["writer"].writeheader()
+        unicode_writers[target_file]["lines"].append(list(contract_fieldnames))
     line_tmpl = {
         "institution": institution,
+        "consortium": consortium,
+        "contract_name": contract_name,
         "identifier": invoice_group["contract_id"],
         "group_id": invoice_group["group_id"],
         "period_from": invoice_group["period"],
@@ -437,17 +458,22 @@ for invoice_group in invoice_groups:
                 continue
             line = deepcopy(line_tmpl)
             line["cost_type"] = cost_type
-            line["euro"] = amount
-            csv_writers[target_file]["lines"].append(line)
+            line["euro"] = str(amount)
+            line_as_list = [line.get(column, "NA") for column in contract_fieldnames]
+            unicode_writers[target_file]["lines"].append(line_as_list)
 
 if not args.no_collected_file:
     main_handle.close()
 
-# Create institutional output files
+# Create article output files
 for writer_name, writer_data in csv_writers.items():
     for line in writer_data["lines"]:
         writer_data["writer"].writerow(line)
     writer_data["handle"].close()
+
+# Create contract output files
+for writer_name, writer_data in unicode_writers.items():
+    writer_data["writer"].write_rows(writer_data["lines"])
 
 # Flush buffered log messages
 bufferedHandler.close()
