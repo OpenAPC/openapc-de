@@ -29,4 +29,7 @@ All datasets
 
 - DLR_deal_elsevier_2024.csv
 
+- DLR_additional-costs_2023.csv
+- DLR_additional-costs_2024.csv
+
 are made available under the Open Data Commons Attribution License: https://opendatacommons.org/licenses/by/1.0/
