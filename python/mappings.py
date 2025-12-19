@@ -804,6 +804,17 @@ AGREEMENT_PUBLISHER_MAP = {
 	"The Electrochemical Society": "IOP Publishing",
 }
 
+# Maps ESAC Registry Country Names to ISO 3166-1 alpha-3
+ESAC_COUNTRY_MAPPINGS = {
+    "Germany": "DEU",
+    "Austria": "AUT",
+}
+
+# Maps ESAC Registry Publisher Names to OpenAPC variants
+ESAC_PUBLISHER_MAPPINGS = {
+    "Taylor & Francis": "Informa UK Limited",
+}
+
 # maps ROR geo names to terms used in the institutions table
 GEO_MAPPINGS = {
     # world level

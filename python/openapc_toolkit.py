@@ -10,6 +10,7 @@ import json
 import locale
 import logging
 from logging.handlers import MemoryHandler
+import openpyxl
 import os
 import re
 from shutil import copyfileobj, copy2
@@ -390,12 +391,27 @@ class TempFileHandling(object):
                       "the download file '{}{}'"
     }
 
-    def _unzip(self):
+    def _unzip(self, **kwargs):
         with zipfile.ZipFile(self.file_path, "r") as zip_file:
             zip_file.extractall(self.temp_file_dir)
 
+    def _excel_to_csv(self, **kwargs):
+        excel = openpyxl.load_workbook(self.file_path)
+        sheet = excel.active # only works for excel files with one sheet
+        target_name = os.path.join(self.temp_file_dir, self.file_name + ".csv")
+        skip_lines = kwargs.get("skip_lines", 0)
+        row_num = -1
+        with open(target_name, "w") as out:
+            writer = csv.writer(out)
+            for row in sheet.rows:
+                row_num += 1
+                if row_num < skip_lines:
+                    continue
+                writer.writerow([cell.value for cell in row])
+
     DECOMPRESSION_OPTIONS = {
-        "zip": "_unzip"
+        "zip": "_unzip",
+        "excel_to_csv": "_excel_to_csv"
     }
 
     def __init__(self, file_name, file_ext, url=None, url_local_file=None, temp_file_dir="tempfiles", max_mdays=7):
@@ -431,7 +447,7 @@ class TempFileHandling(object):
         timediff = now - then
         return timediff.days
 
-    def prepare_file(self, force_update=False, make_backup=False, verbose=False, decompress=None):
+    def prepare_file(self, force_update=False, make_backup=False, verbose=False, decompress=None, decompress_kwargs={}):
         """
         Return a path to the temporary file, downloading a fresh copy
         and creating a backup if necessary. 
@@ -466,11 +482,12 @@ class TempFileHandling(object):
         with urlopen(request) as source:
             with open(self.file_path, "wb") as dest:
                 copyfileobj(source, dest)
+        print(decompress_kwargs)
         if decompress is not None:
             if verbose:
-                print_c("Extracting compressed file ({})...".format(decompress))
+                print_c("Extracting/transforming file ({})...".format(decompress))
             decompression_func = getattr(self, self.DECOMPRESSION_OPTIONS[decompress])
-            decompression_func()
+            decompression_func(**decompress_kwargs)
         if verbose:
             print_c("...Done!")
             if backup_msg:
@@ -618,6 +635,40 @@ class DOABAnalysis(object):
 
     def download_doab_csv(self, target):
         urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
+
+class ESACHandling(TempFileHandling):
+
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
+        super().__init__("ESAC_Transformative_Agreement_Registry", "xlsx", url="https://keeper.mpdl.mpg.de/f/7fbb5edd24ab4c5ca157/?dl=1", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+        self.prepare_file(force_update, make_backup, verbose, decompress="excel_to_csv", decompress_kwargs={"skip_lines": 2})
+        self.mapping_table = self._prepare_mapping_table()
+        print(json.dumps(self.mapping_table, indent=2))
+
+    def _prepare_mapping_table(self):
+        csv_file_path = os.path.join(self.temp_file_dir, self.file_name + ".csv")
+        table = {}
+        with open(csv_file_path, "r") as csv_file:
+            reader = csv.DictReader(csv_file)
+            for line in reader:
+                esac_id = line["ID"]
+                table[esac_id] = line
+        return table
+
+    def get_esac_entry(self, esac_id, show_warnings=True):
+        if esac_id not in self.mapping_table:
+            return None
+        entry = self.mapping_table[esac_id]
+        publisher_oapc = mappings.ESAC_PUBLISHER_MAPPINGS.get(entry["Publisher"], "")
+        entry["Publisher_OAPC"] = publisher_oapc
+        if not publisher_oapc and show_warnings:
+            msg = 'ESAC publisher "{}" not found in ESAC_PUBLISHER_MAPPINGS'
+            print_y("WARNING: " + msg.format(entry["Publisher"]))
+        country_oapc = mappings.ESAC_PUBLISHER_MAPPINGS.get(entry["Country"], "")
+        entry["Country_OAPC"] = country_oapc
+        if not country_oapc and show_warnings:
+            msg = 'ESAC Country Name "{}" not found in ESAC_COUNTRY_MAPPINGS'
+            print_y("WARNING: " + msg.format(entry["Country"]))
+        return entry
 
 class ISSNLHandling(TempFileHandling):
 
