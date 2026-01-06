@@ -14,7 +14,7 @@ Universities and research institutions globally are invited to contribute their 
 
 ## Overview
 
-This dataset contains information on 165,564 articles, published at 543 institutions under 153 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
+This dataset contains information on 165,566 articles, published at 543 institutions under 153 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/transformative-agreements/).
 
 ### Breakdown by agreement
 
@@ -99,7 +99,7 @@ This dataset contains information on 165,564 articles, published at 543 institut
 |IReL AIP Agreement                               |       98|
 |QNL Wiley Agreement                              |       92|
 |Crui-CARE CUP Agreement                          |       91|
-|CSIC-Cambridge University Press                  |       88|
+|CSIC-Cambridge University Press                  |       89|
 |FinELib CUP agreement                            |       86|
 |CzechELib Taylor & Francis agreement             |       85|
 |QNL T&F Agreement                                |       85|
@@ -153,9 +153,9 @@ This dataset contains information on 165,564 articles, published at 543 institut
 |CSIC-Microbiology Society                        |       17|
 |FWF Transformative Agreement Sage                |       17|
 |Austrian Consortium Sage agreement               |       16|
+|CSIC-De Gruyter                                  |       16|
 |CzechELib AIP agreement                          |       16|
 |FWF Transformative Agreement IEEE                |       16|
-|CSIC-De Gruyter                                  |       15|
 |CSIC-Portland Press                              |       12|
 |Swiss Consortium BMJ agreement                   |       10|
 |Swiss Consortium ACM agreement                   |        9|
@@ -184,7 +184,7 @@ This dataset contains information on 165,564 articles, published at 543 institut
 
 |Institution                                                                                                                                        | Articles|
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     6857|
+|Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     6859|
 |French institutions                                                                                                                                |     5753|
 |ETH Zurich                                                                                                                                         |     5145|
 |University of Helsinki                                                                                                                             |     4985|
