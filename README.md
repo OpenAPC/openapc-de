@@ -16,7 +16,7 @@ At the moment this project provides the following cost data:
 
 | Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
 |------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |256,498 | 524,028,578    | 474 |
+| Articles         |256,504 | 524,041,282    | 474 |
 | Monographs       |2,351 | 15,566,122    | 101 |
 
 ## How to access the data?
@@ -993,13 +993,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 256,498 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 474 research performing institutions and research funders. 
+The article data set contains information on 256,504 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 474 research performing institutions and research funders. 
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 524,028,578. The average payment was € 2,043 and the median was € 1,894.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 524,041,282. The average payment was € 2,043 and the median was € 1,894.
 
-191,123 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 356,325,701, including value-added tax; the average payment was € 1,864 (median =  € 1,740, SD = € 903).
+191,128 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 356,336,073, including value-added tax; the average payment was € 1,864 (median =  € 1,740, SD = € 903).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 65,375 articles in the data set were published in hybrid journals. Total expenditure amounts to 167,702,876 €; the average fee was € 2,565 (median =  € 2,509, SD = € 1,133).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 65,376 articles in the data set were published in hybrid journals. Total expenditure amounts to 167,705,210 €; the average fee was € 2,565 (median =  € 2,509, SD = € 1,133).
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -1033,7 +1033,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 |2022   |      29,426|   2,101|     1,999|  12.4 - 11,175|           3,078|       2,881|         2,730|     2.1 - 14,607|
 |2023   |      26,446|   2,304|     2,160|  17.4 -  9,893|           3,399|       3,009|         2,820|   106.4 - 11,895|
 |2024   |       8,860|   2,421|     2,304|  60.4 -  8,048|           1,334|       3,233|         3,045|    28.4 - 13,044|
-|2025   |         561|   2,331|     2,327| 100.0 -  8,854|              80|       3,415|         3,486|   200.0 -  8,095|
+|2025   |         566|   2,329|     2,321| 100.0 -  8,854|              81|       3,402|         3,468|   200.0 -  8,095|
 
 
 
@@ -1041,7 +1041,7 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-In addition to APCs, additional costs have been reported for 566 articles, totalling € 327,921. The following table shows an overview of the different cost types:
+In addition to APCs, additional costs have been reported for 568 articles, totalling € 329,201. The following table shows an overview of the different cost types:
 
 
 
@@ -1050,8 +1050,8 @@ In addition to APCs, additional costs have been reported for 566 articles, total
 |colour charge  |                 71|        96,682|
 |cover charge   |                 12|        15,626|
 |other          |                208|        33,724|
-|page charge    |                187|       175,825|
-|payment fee    |                 71|         3,008|
+|page charge    |                188|       177,075|
+|payment fee    |                 72|         3,038|
 |reprint        |                  5|         2,207|
 |submission fee |                 12|           848|
 
