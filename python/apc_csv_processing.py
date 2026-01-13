@@ -25,6 +25,7 @@ OVERWRITE_STRATEGY = {
     "euro": CSVColumn.OW_NEVER,
     "doi": CSVColumn.OW_NEVER,
     "is_hybrid": CSVColumn.OW_NEVER,
+    "opt_out": CSVColumn.OW_NEVER,
     "publisher": CSVColumn.OW_NEVER,
     "journal_full_title": CSVColumn.OW_NEVER,
     "issn": CSVColumn.OW_NEVER,
@@ -59,13 +60,8 @@ ARG_HELP_STRINGS = {
                 "the 5 mandatory columns defined by the OpenAPC data schema: " +
                 "institution, period, euro, doi and is_hybrid (in no " +
                 "particular order).",
-    "offsetting": 'Switch enrichment to "offsetting mode". Treats the input file as ' +
-                  'containing articles published under a transformative agreement ' +
-                  '(instead of directly paid APCS). In this mode the "euro" column ' +
-                  'becomes optional, but the name of the agreement is expected as ' +
-                  'parameter. Note that output files generated in this mode will no' +
-                  'longer conform to the OpenAPC data schema, but to the specialised ' +
-                  'offsetting data schema instead.',
+    "ta": 'Treats the input file as containing articles published under a ' +
+          'transformative agreement.',
     "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
     "verbose": "Be more verbose during the enrichment process.",
@@ -120,6 +116,10 @@ ARG_HELP_STRINGS = {
                  "fails to detect it automatically. The value is the " +
                  "numerical column index in the CSV file, with the leftmost " +
                  "column being 0.",
+    "opt_out": "Manually identify the 'opt_out' column if the script " +
+               "fails to detect it automatically. The value is the " +
+               "numerical column index in the CSV file, with the leftmost " +
+               "column being 0.",
     "publisher": "Manually identify the 'publisher' column if the script " +
                  "fails to detect it automatically. The value is the " +
                  "numerical column index in the CSV file, with the leftmost " +
@@ -181,7 +181,7 @@ ARG_HELP_STRINGS = {
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
-    parser.add_argument("-O", "--offsetting_mode", help=ARG_HELP_STRINGS["offsetting"])
+    parser.add_argument("-T", "--ta_mode", action="store_true", help=ARG_HELP_STRINGS["ta"])
     parser.add_argument("-b", "--bypass-cert-verification", action="store_true",
                         help=ARG_HELP_STRINGS["bypass"])
     parser.add_argument("-e", "--encoding", help=ARG_HELP_STRINGS["encoding"])
@@ -226,6 +226,8 @@ def main():
                         help=ARG_HELP_STRINGS["euro"])
     parser.add_argument("-is_hybrid", "--is_hybrid_column", type=int,
                         help=ARG_HELP_STRINGS["is_hybrid"])
+    parser.add_argument("-opt_out", "--opt_out_column", type=int,
+                        help=ARG_HELP_STRINGS["opt_out"])
     parser.add_argument("-publisher", "--publisher_column", type=int,
                         help=ARG_HELP_STRINGS["publisher"])
     parser.add_argument("-journal_full_title", "--journal_full_title_column",
@@ -348,38 +350,237 @@ def main():
                 additional_isbn_columns.append(index)
 
     column_map = {
-        "institution": CSVColumn("institution", {"articles": CSVColumn.MANDATORY, "books": CSVColumn.MANDATORY}, args.institution_column, overwrite=OVERWRITE_STRATEGY["institution"]),
-        "period": CSVColumn("period",{"articles": CSVColumn.MANDATORY, "books": CSVColumn.MANDATORY}, args.period_column, overwrite=OVERWRITE_STRATEGY["period"]),
-        "euro": CSVColumn("euro", {"articles": CSVColumn.MANDATORY, "books": CSVColumn.MANDATORY}, args.euro_column, overwrite=OVERWRITE_STRATEGY["euro"]),
-        "doi": CSVColumn("doi", {"articles": CSVColumn.MANDATORY, "books": CSVColumn.MANDATORY}, args.doi_column, overwrite=OVERWRITE_STRATEGY["doi"]),
-        "is_hybrid": CSVColumn("is_hybrid", {"articles": CSVColumn.MANDATORY, "books": CSVColumn.NONE}, args.is_hybrid_column, overwrite=OVERWRITE_STRATEGY["is_hybrid"]),
-        "publisher": CSVColumn("publisher", {"articles": CSVColumn.BACKUP, "books": CSVColumn.NONE}, args.publisher_column, overwrite=OVERWRITE_STRATEGY["publisher"]),
-        "journal_full_title": CSVColumn("journal_full_title", {"articles": CSVColumn.BACKUP, "books": CSVColumn.NONE}, args.journal_full_title_column, overwrite=OVERWRITE_STRATEGY["journal_full_title"]),
-        "issn": CSVColumn("issn", {"articles": CSVColumn.BACKUP, "books": CSVColumn.NONE}, args.issn_column, overwrite=OVERWRITE_STRATEGY["issn"]),
-        "issn_print": CSVColumn("issn_print", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["issn_print"]),
-        "issn_electronic": CSVColumn("issn_electronic", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["issn_electronic"]),
-        "issn_l": CSVColumn("issn_l", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["issn_l"]),
-        "license_ref": CSVColumn("license_ref", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE} , None, overwrite=OVERWRITE_STRATEGY["license_ref"]),
-        "indexed_in_crossref": CSVColumn("indexed_in_crossref", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["indexed_in_crossref"]),
-        "pmid": CSVColumn("pmid", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["pmid"]),
-        "pmcid": CSVColumn("pmcid", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["pmcid"]),
-        "ut": CSVColumn("ut", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["ut"]),
-        "url": CSVColumn("url", {"articles": CSVColumn.BACKUP, "books": CSVColumn.NONE}, args.url_column, overwrite=OVERWRITE_STRATEGY["url"]),
-        "doaj": CSVColumn("doaj", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["doaj"]),
-        "agreement": CSVColumn("agreement", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["agreement"]),
-        "book_title": CSVColumn("book_title", {"articles": CSVColumn.NONE, "books": CSVColumn.RECOMMENDED}, args.book_title_column, overwrite=OVERWRITE_STRATEGY["book_title"]),
-        "backlist_oa": CSVColumn("backlist_oa", {"articles": CSVColumn.NONE, "books": CSVColumn.MANDATORY}, args.backlist_oa_column, overwrite=OVERWRITE_STRATEGY["backlist_oa"]),
-        "isbn": CSVColumn("isbn", {"articles": CSVColumn.NONE, "books": CSVColumn.BACKUP}, args.isbn_column, overwrite=OVERWRITE_STRATEGY["isbn"]),
-        "isbn_print": CSVColumn("isbn_print", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["isbn_print"]),
-        "isbn_electronic": CSVColumn("isbn_electronic", {"articles": CSVColumn.NONE, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"]),
-        "colour charge": CSVColumn("colour charge", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["colour charge"]),
-        "cover charge": CSVColumn("cover charge", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["cover charge"]),
-        "page charge": CSVColumn("page charge", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["page charge"]),
-        "permission": CSVColumn("permission", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["permission"]),
-        "reprint": CSVColumn("reprint", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["reprint"]),
-        "submission fee": CSVColumn("submission fee", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["submission fee"]),
-        "payment fee": CSVColumn("payment fee", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["payment fee"]),
-        "other": CSVColumn("other", {"articles": CSVColumn.ADDITIONAL_COSTS, "books": CSVColumn.NONE}, None, overwrite=OVERWRITE_STRATEGY["other"]),
+        "institution": CSVColumn("institution",
+            {
+                "articles": CSVColumn.MANDATORY,
+                "ta": CSVColumn.MANDATORY,
+                "books": CSVColumn.MANDATORY
+            },
+            args.institution_column, overwrite=OVERWRITE_STRATEGY["institution"]),
+        "period": CSVColumn("period",
+            {
+                "articles": CSVColumn.MANDATORY,
+                "ta": CSVColumn.MANDATORY,
+                "books": CSVColumn.MANDATORY
+            },
+            args.period_column, overwrite=OVERWRITE_STRATEGY["period"]),
+        "euro": CSVColumn("euro",
+            {
+                "articles": CSVColumn.MANDATORY,
+                "ta": CSVColumn.DEFAULT_NA,
+                "books": CSVColumn.MANDATORY,
+            },
+            args.euro_column, overwrite=OVERWRITE_STRATEGY["euro"]),
+        "doi": CSVColumn("doi",
+            {
+                "articles": CSVColumn.MANDATORY,
+                "ta": CSVColumn.MANDATORY,
+                "books": CSVColumn.MANDATORY
+            },
+            args.doi_column, overwrite=OVERWRITE_STRATEGY["doi"]),
+        "is_hybrid": CSVColumn("is_hybrid",
+            {
+                "articles": CSVColumn.DEFAULT_NA,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            args.is_hybrid_column, overwrite=OVERWRITE_STRATEGY["is_hybrid"]),
+        "opt_out": CSVColumn("opt_out",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.DEFAULT_FALSE,
+                "books": CSVColumn.NONE
+            },
+            args.opt_out_column, overwrite=OVERWRITE_STRATEGY["opt_out"]),
+        "publisher": CSVColumn("publisher",
+            {
+                "articles": CSVColumn.BACKUP,
+                "ta": CSVColumn.BACKUP,
+                "books": CSVColumn.NONE
+            },
+            args.publisher_column, overwrite=OVERWRITE_STRATEGY["publisher"]),
+        "journal_full_title": CSVColumn("journal_full_title",
+            {
+                "articles": CSVColumn.BACKUP,
+                "ta": CSVColumn.BACKUP,
+                "books": CSVColumn.NONE
+            },
+            args.journal_full_title_column, overwrite=OVERWRITE_STRATEGY["journal_full_title"]),
+        "issn": CSVColumn("issn",
+            {
+                "articles": CSVColumn.BACKUP,
+                "ta": CSVColumn.BACKUP,
+                "books": CSVColumn.NONE
+            },
+            args.issn_column, overwrite=OVERWRITE_STRATEGY["issn"]),
+        "issn_print": CSVColumn("issn_print",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["issn_print"]),
+        "issn_electronic": CSVColumn("issn_electronic",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["issn_electronic"]),
+        "issn_l": CSVColumn("issn_l",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["issn_l"]),
+        "license_ref": CSVColumn("license_ref",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["license_ref"]),
+        "indexed_in_crossref": CSVColumn("indexed_in_crossref",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["indexed_in_crossref"]),
+        "pmid": CSVColumn("pmid",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["pmid"]),
+        "pmcid": CSVColumn("pmcid",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["pmcid"]),
+        "ut": CSVColumn("ut",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["ut"]),
+        "url": CSVColumn("url",
+            {
+                "articles": CSVColumn.BACKUP,
+                "ta": CSVColumn.BACKUP,
+                "books": CSVColumn.NONE
+            },
+            args.url_column, overwrite=OVERWRITE_STRATEGY["url"]),
+        "doaj": CSVColumn("doaj",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["doaj"]),
+        "agreement": CSVColumn("agreement",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.BACKUP,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["agreement"]),
+        "book_title": CSVColumn("book_title",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.RECOMMENDED
+            },
+            args.book_title_column, overwrite=OVERWRITE_STRATEGY["book_title"]),
+        "backlist_oa": CSVColumn("backlist_oa",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.DEFAULT_FALSE
+            },
+            args.backlist_oa_column, overwrite=OVERWRITE_STRATEGY["backlist_oa"]),
+        "isbn": CSVColumn("isbn",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.BACKUP
+            },
+            args.isbn_column, overwrite=OVERWRITE_STRATEGY["isbn"]),
+        "isbn_print": CSVColumn("isbn_print",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["isbn_print"]),
+        "isbn_electronic": CSVColumn("isbn_electronic",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["isbn_electronic"]),
+        "colour charge": CSVColumn("colour charge",
+            {
+                "articles": CSVColumn.ADDITIONAL_COSTS,
+                "ta": CSVColumn.ADDITIONAL_COSTS,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["colour charge"]),
+        "cover charge": CSVColumn("cover charge",
+            {
+                "articles": CSVColumn.ADDITIONAL_COSTS,
+                "ta": CSVColumn.ADDITIONAL_COSTS,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["cover charge"]),
+        "page charge": CSVColumn("page charge",
+            {
+                "articles": CSVColumn.ADDITIONAL_COSTS,
+                "ta": CSVColumn.ADDITIONAL_COSTS,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["page charge"]),
+        "permission": CSVColumn("permission",
+            {
+                "articles": CSVColumn.ADDITIONAL_COSTS,
+                "ta": CSVColumn.ADDITIONAL_COSTS,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["permission"]),
+        "reprint": CSVColumn("reprint",
+            {
+                "articles": CSVColumn.ADDITIONAL_COSTS,
+                "ta": CSVColumn.ADDITIONAL_COSTS,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["reprint"]),
+        "submission fee": CSVColumn("submission fee",
+            {
+                "articles": CSVColumn.ADDITIONAL_COSTS,
+                "ta": CSVColumn.ADDITIONAL_COSTS,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["submission fee"]),
+        "payment fee": CSVColumn("payment fee",
+            {
+                "articles": CSVColumn.ADDITIONAL_COSTS,
+                "ta": CSVColumn.ADDITIONAL_COSTS,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["payment fee"]),
+        "other": CSVColumn("other",
+            {
+                "articles": CSVColumn.ADDITIONAL_COSTS,
+                "ta": CSVColumn.ADDITIONAL_COSTS,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["other"]),
     }
 
     header = None
@@ -526,6 +727,8 @@ def main():
 
     article_mand_missing = [x.column_type for x in column_map.values() if x.requirement["articles"] == CSVColumn.MANDATORY and x.index is None]
     article_back_missing = [x.column_type for x in column_map.values() if x.requirement["articles"] == CSVColumn.BACKUP and x.index is None]
+    ta_mand_missing = [x.column_type for x in column_map.values() if x.requirement["ta"] == CSVColumn.MANDATORY and x.index is None]
+    ta_back_missing = [x.column_type for x in column_map.values() if x.requirement["ta"] == CSVColumn.BACKUP and x.index is None]
     book_mand_missing = [x.column_type for x in column_map.values() if x.requirement["books"] == CSVColumn.MANDATORY and x.index is None]
     book_back_missing = [x.column_type for x in column_map.values() if x.requirement["books"] == CSVColumn.BACKUP and x.index is None]
 
@@ -533,7 +736,15 @@ def main():
         msg = "Article enrichment is not possible - mandatory columns are missing ({})"
         oat.print_y(msg.format(", ".join(article_mand_missing)))
     elif article_back_missing:
-        msg = "Article enrichment is possible, but backup columns are missing ({}) - each record will need a valid DOI"
+        msg = "Article enrichment is possible, but backup columns are missing ({})"
+        oat.print_b(msg.format(", ".join(article_back_missing)))
+    else:
+        oat.print_g("Article enrichment is possible with all backup columns in place")
+    if ta_mand_missing:
+        msg = "TA enrichment is not possible - mandatory columns are missing ({})"
+        oat.print_y(msg.format(", ".join(article_mand_missing)))
+    elif ta_back_missing:
+        msg = "TA enrichment is possible, but backup columns are missing ({})"
         oat.print_b(msg.format(", ".join(article_back_missing)))
     else:
         oat.print_g("Article enrichment is possible with all backup columns in place")
@@ -541,13 +752,13 @@ def main():
         msg = "Book enrichment is not possible - mandatory columns are missing ({})"
         oat.print_y(msg.format(", ".join(book_mand_missing)))
     elif book_back_missing:
-        msg = "Book enrichment is possible, but backup columns are missing ({}) - each record will need a valid DOI"
+        msg = "Book enrichment is possible, but backup columns are missing ({})"
         oat.print_b(msg.format(", ".join(book_back_missing)))
     else:
         oat.print_g("Book enrichment is possible with all backup columns in place")
     print()
 
-    if article_mand_missing and book_mand_missing:
+    if article_mand_missing and book_mand_missing and ta_mand_missing:
         if not args.force:
             oat.print_r("ERROR: Could not detect the minimum mandatory data set for any " + 
                   "publication type. There are 2 ways to fix this:")
@@ -637,7 +848,7 @@ def main():
                 no_doaj = True
         enriched_rows = oat.process_row(row, row_num, column_map, num_columns, additional_isbn_columns, doab_analysis, doaj_analysis,
                                         issnl_handling, no_crossref, no_pubmed, no_doaj, args.no_preprint_lookup, args.preprint_auto_accept,
-                                        args.round_monetary, args.offsetting_mode, args.csv_file, args.crossref_max_retries)
+                                        args.round_monetary, args.ta_mode, args.csv_file, args.crossref_max_retries)
         if not ac_value_found and "additional_costs" in enriched_rows:
             for index in range(1, len(enriched_rows["additional_costs"])): # index 0 is the DOI
                 if oat.has_value(enriched_rows["additional_costs"][index]):

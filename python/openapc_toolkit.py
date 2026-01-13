@@ -305,6 +305,8 @@ class CSVColumn(object):
     BACKUP = {"text": "backup", "color": "blue"}
     RECOMMENDED = {"text": "recommended", "color": "cyan"}
     ADDITIONAL_COSTS = {"text": "additional_costs", "color": "magenta"}
+    DEFAULT_FALSE = {"text": "defaulting to FALSE", "color": "green"}
+    DEFAULT_NA = {"text": "defaulting to NA", "color": "green"}
     NONE = {"text": "not required", "color": "yellow"}
 
     OW_ALWAYS = 0
@@ -1891,14 +1893,12 @@ def get_euro_exchange_rates(currency, frequency="D"):
         result[date] = value
     return result
 
-def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_mode, additional_costs=False):
+def _process_euro_value(euro_value, round_monetary, row_num, index, ta_mode, additional_costs=False):
     if not has_value(euro_value):
         if not additional_costs:
             msg = "Line %s: Empty monetary value in column %s."
-            if offsetting_mode is None:
+            if not ta_mode:
                 logging.error(msg, row_num, index)
-            else:
-                logging.warning(msg, row_num, index)
         return "NA"
     try:
         # Cast to float to ensure the decimal point is a dot (instead of a comma)
@@ -1916,10 +1916,8 @@ def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_m
         if euro == 0:
             if not additional_costs:
                 msg = "Line %s: Euro value is 0"
-                if offsetting_mode is None:
+                if not ta_mode:
                     logging.error(msg, row_num)
-                else:
-                    logging.warning(msg, row_num)
         return str(euro)
     except ValueError:
         msg = "Line %s: " + MESSAGES["locale"]
@@ -2068,14 +2066,14 @@ def _process_institution_value(institution, row_num, orig_file_path):
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, issnl_handling=None, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, no_title_lookup=False, preprint_auto_accept=False, 
-                round_monetary=False, offsetting_mode=None, orig_file_path=None, crossref_max_retries=3):
+                round_monetary=False, ta_mode=False, orig_file_path=None, crossref_max_retries=3):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
 
     Take a csv row (a list) and a column mapping (a dict of CSVColumn objects)
     and return an enriched and re-arranged version which conforms to the Open
     APC data schema. The method will decide on which data schema to use depending
-    on the identified publication type.
+    on the identified publication type and possible flags.
 
     Args:
         row: A list of column values (as yielded by a UnicodeReader f.e.).
@@ -2099,8 +2097,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                               has an effect if no_title_lookup is False.
         round_monetary: If true, monetary values with more than 2 digits behind the decimal
                         mark will be rounded. If false, these cases will be treated as errors.
-        offsetting_mode: If not None, the row is assumed to originate from an offsetting file
-                         and this argument's value will be added to the 'agreement' column
+        ta_mode: If true, the row is assumed to originate from a ta article file and the according
+                 data schema will be applied.
         crossref_max_retries: Max number of attempts to query the crossref API if a 504 error
                               is received.
         orig_file_path: Path of the csv file this row originates from, can be used for
@@ -2134,7 +2132,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             current_row[column_type] = ""
             continue
         if column_type == "euro" and index is not None:
-            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, offsetting_mode, False)
+            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, ta_mode, False)
         elif csv_column.requirement["articles"] == CSVColumn.ADDITIONAL_COSTS and index is not None:
             current_row[column_type] = _process_euro_value(row[index], round_monetary, row_num, index, None, True)
         elif column_type == "period" and index is not None:
