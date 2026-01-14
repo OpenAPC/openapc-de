@@ -744,6 +744,8 @@ COLUMN_NAMES = {
     "ut": ["ut"],
     "url": ["url"],
     "doaj": ["doaj"],
+    "agreement": ["agreement", "contract_primary_identifier"],
+    "group_id": ["group_id", "contract_group_id"],
     "book_title": ["book_title"],
     "backlist_oa": ["backlist_oa"],
     "isbn": ["isbn"],

@@ -40,6 +40,7 @@ OVERWRITE_STRATEGY = {
     "url": CSVColumn.OW_NEVER,
     "doaj": CSVColumn.OW_NEVER,
     "agreement": CSVColumn.OW_NEVER,
+    "group_id": CSVColumn.OW_NEVER,
     "book_title": CSVColumn.OW_NEVER,
     "isbn": CSVColumn.OW_NEVER,
     "isbn_print": CSVColumn.OW_NEVER,
@@ -490,6 +491,13 @@ def main():
                 "books": CSVColumn.NONE
             },
             None, overwrite=OVERWRITE_STRATEGY["agreement"]),
+        "group_id": CSVColumn("group_id",
+            {
+                "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
+                "books": CSVColumn.NONE
+            },
+            None, overwrite=OVERWRITE_STRATEGY["group_id"]),
         "book_title": CSVColumn("book_title",
             {
                 "articles": CSVColumn.NONE,
@@ -857,21 +865,29 @@ def main():
             if record_type in enriched_rows:
                 value["content"].append(enriched_rows[record_type])
                 value["count"] += 1
-            else:
+            elif record_type != "contracts":
                 empty_line = ["" for x in value["content"][0]]
                 value["content"].append(empty_line)
     csv_file.close()
+
+    if "contracts" in enriched_content:
+        dedup_list = []
+        previous = len(enriched_content["contracts"]["content"])
+        for row in enriched_content["contracts"]["content"]:
+            if row not in dedup_list:
+                dedup_list.append(row)
+        enriched_content["contracts"]["content"] = dedup_list
+        msg = "Creating out_contracts.csv (automatically deduplicated from {} to {} entries)"
+        oat.print_g(msg.format(previous - 1, len(dedup_list) - 1))
 
     num_different_record_types = 0
     last_out_file_name = None
     for record_type, value in enriched_content.items():
         if value["count"] > 0:
+            quotemask = oat.QUOTEMASKS.get(record_type, oat.QUOTEMASKS.get("journal-article"))
             if record_type != "additional_costs":
-                quotemask = oat.OPENAPC_STANDARD_QUOTEMASK
                 num_different_record_types += 1
                 last_out_file_name = 'out_' + record_type + '.csv'
-            else:
-                quotemask = oat.ADDITIONAL_COSTS_QUOTEMASK
             with open('out_' + record_type + '.csv', 'w') as out:
                 writer = oat.OpenAPCUnicodeWriter(out, quotemask,
                                                   True, True, True)

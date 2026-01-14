@@ -99,53 +99,74 @@ MESSAGES = {
     "empty_row": "Row is empty."
 }
 
-# Do not quote the values in the 'period' and 'euro' columns
-OPENAPC_STANDARD_QUOTEMASK = [
-    True,
-    False,
-    False,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True
-]
-
-# Only quote the doi column, all others are monetary values
-ADDITIONAL_COSTS_QUOTEMASK = [
-    True,
-    False,
-    False,
-    False,
-    False,
-    False,
-    False,
-    False,
-    False,
-]
-
-CONTRACTS_QUOTEMASK = [
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    False,
-    True,
-]
+QUOTEMASKS = {
+    "journal-article": [
+        True,
+        False,
+        False,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True
+    ],
+    "contracts": [
+        True,
+        True,
+        True,
+        True,
+        False,
+        False,
+        True,
+        False,
+        True,
+    ],
+    "additional_costs": [
+        True,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+    ],
+    "journal-article_transagree": [
+        True,
+        False,
+        False,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True
+    ]
+}
 
 COLUMN_SCHEMAS = {
     "journal-article": [
@@ -234,7 +255,8 @@ COLUMN_SCHEMAS = {
 EXCHANGE_RATES = {}
 
 INSTITUTIONS_FILE = "../data/institutions.csv"
-INSTITUTIONS_MAP = None
+INSTITUTIONS_PATH_MAP = None
+INSTITUTIONS_NAME_MAP = None
 
 CONTRACTS_LOOKUP = None
 ESAC_HANDLING = None
@@ -499,7 +521,6 @@ class TempFileHandling(object):
         with urlopen(request) as source:
             with open(self.file_path, "wb") as dest:
                 copyfileobj(source, dest)
-        print(decompress_kwargs)
         if decompress is not None:
             if verbose:
                 print_c("Extracting/transforming file ({})...".format(decompress))
@@ -2075,21 +2096,13 @@ def _process_isbn(row_num, isbn, isbn_handling):
             return "NA"
 
 def _process_institution_value(institution, row_num, orig_file_path):
-    global INSTITUTIONS_MAP
-    if not os.path.isfile(INSTITUTIONS_FILE):
-        return institution
-    if INSTITUTIONS_MAP is None:
-        with open(INSTITUTIONS_FILE, "r") as ins_file:
-            reader = csv.DictReader(ins_file)
-            INSTITUTIONS_MAP = {}
-            for line in reader:
-                path = line["openapc_data_dir"]
-                if has_value(path):
-                    INSTITUTIONS_MAP[path] = line["institution"]
+    global INSTITUTIONS_PATH_MAP
+    if INSTITUTIONS_PATH_MAP is None:
+        INSTITUTIONS_PATH_MAP = _create_institution_map_dict("openapc_data_dir")
     path = os.path.dirname(orig_file_path)
     data_path = path.split("data/").pop()
-    if data_path in INSTITUTIONS_MAP:
-        new_value = INSTITUTIONS_MAP[data_path]
+    if data_path in INSTITUTIONS_PATH_MAP:
+        new_value = INSTITUTIONS_PATH_MAP[data_path]["institution"]
         if new_value != institution:
             msg = "Line %s: Normalisation: Institution name replaced via mapping file ('%s' -> '%s')"
             logging.warning(msg, row_num, institution, new_value)
@@ -2104,9 +2117,9 @@ def _process_agreement_value(agreement, row_num):
     if ESAC_HANDLING is None:
         ESAC_HANDLING = ESACHandling()
     ret = {
-        "consortium": None,
-        "contract_name": None,
-        "identifier": None
+        "consortium": "NA",
+        "contract_name": "NA",
+        "identifier": "NA"
     }
     identifier_dict = CONTRACTS_LOOKUP.get_by_identifier(agreement)
     if identifier_dict is not None: # agreement is an esac id
@@ -2144,6 +2157,55 @@ def _process_agreement_value(agreement, row_num):
     ret["contract_name"] = agreement
     msg = "Line %s: agreement '%s' not found in contracts.csv or ESAC registry, value will be used as is"
     logging.info(msg, row_num, agreement)
+    return ret
+
+def _create_institution_map_dict(map_type):
+    types = ["institution", "openapc_data_dir"]
+    if map_type not in types:
+        raise Exception("Invalid parameter for _create_institution_map_dict, must be one of: " + ", ".join(types))
+    with open(INSTITUTIONS_FILE, "r") as ins_file:
+        ret_dict = {}
+        reader = csv.DictReader(ins_file)
+        for line in reader:
+            key = line[map_type]
+            if has_value(key):
+                ret_dict[key] = line
+    return ret_dict
+
+def _obtain_group_id(row, row_num):
+    global CONTRACTS_LOOKUP
+    if CONTRACTS_LOOKUP is None:
+        CONTRACTS_LOOKUP = ContractsLookup()
+    global INSTITUTIONS_NAME_MAP
+    if INSTITUTIONS_NAME_MAP is None:
+        INSTITUTIONS_NAME_MAP = _create_institution_map_dict("institution")
+    ret = {
+        "created": False,
+        "group_id": "NA"
+    }
+    institution_entry = INSTITUTIONS_NAME_MAP.get(row["institution"])
+    if institution_entry is None:
+        msg = ("Line %s: Institution '%s' not present in institutions file, could not not obtain ROR for group_id generation")
+        logging.error(msg, row_num, row["institution"])
+        return ret
+    ror = institution_entry["ror_id"]
+    if not has_value(ror):
+        msg = ("Line %s: Institution '%s' does not have a ROR ID in institutions file, using the cubes name instead")
+        logging.warning(msg, row_num, row["institution"])
+        ror = institution_entry["institution_cubes_name"]
+    else:
+        ror = ror[16:]
+    identifier = row["identifier"]
+    if not has_value(identifier):
+        identifier = row["contract_name"]
+    period = row["period"]
+    group_id = ror + "_" + identifier + "_" + str(period)
+    ret["group_id"] = group_id
+    if CONTRACTS_LOOKUP.get_by_group_id(group_id) is not None:
+        msg = ("Line %s: group_id '%s' already present in contracts.csv, article will be linked to this existing contract data")
+        logging.warning(msg, row_num, group_id)
+        return ret
+    ret["created"] = True
     return ret
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
@@ -2224,8 +2286,15 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
         elif column_type == "institution" and index is not None:
             current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path)
-        elif column_type == "agreement" and index is not None:
-            current_row["agreement"] = _process_agreement_value(row[index], row_num)
+        elif column_type == "agreement" and index is not None and ta_mode:
+            agreement_data = _process_agreement_value(row[index], row_num)
+            current_row["identifier"] = agreement_data["identifier"]
+            current_row["contract_name"] = agreement_data["contract_name"]
+            current_row["consortium"] = agreement_data["consortium"]
+            if has_value(agreement_data["identifier"]):
+                current_row["agreement"] = agreement_data["identifier"]
+            else:
+                current_row["agreement"] = agreement_data["contract_name"]
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
@@ -2414,9 +2483,13 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 current_row["doab"] = "FALSE"
                 msg = "DOAB: None of the ISBNs found in DOAB"
                 logging.info(msg)
-    if offsetting_mode:
-        current_row["agreement"] = offsetting_mode
+    if ta_mode:
         record_type = "journal-article_transagree"
+        current_row["period_from"] = current_row["period"]
+        current_row["period_to"] = current_row["period"]
+        current_row["cost_type"] = "NA"
+        group_id_creation = _obtain_group_id(current_row, row_num)
+        current_row["group_id"] = group_id_creation["group_id"]
 
     if record_type is None:
         msg = "Line %s: Could not identify record type, using default schema 'journal-article'"
@@ -2446,6 +2519,15 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 ret["additional_costs"].append(current_row[field])
             else:
                 ret["additional_costs"].append("NA")
+
+    # only write a contracts line if a group_id could be created in the first place
+    if ta_mode and group_id_creation["created"]:
+        ret["contracts"] = []
+        for field in COLUMN_SCHEMAS["contracts"]:
+            if field == "euro": # Do not copy article-level costs to contracts...
+                  ret["contracts"].append("NA")
+            else:
+                ret["contracts"].append(current_row[field])
 
     return ret
 
