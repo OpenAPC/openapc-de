@@ -236,8 +236,8 @@ EXCHANGE_RATES = {}
 INSTITUTIONS_FILE = "../data/institutions.csv"
 INSTITUTIONS_MAP = None
 
-CONTRACTS_FILE = "../data/transformative_agreements/contracts.csv"
-CONTRACTS_MAP = None
+CONTRACTS_LOOKUP = None
+ESAC_HANDLING = None
 
 class OpenAPCUnicodeWriter(object):
     """
@@ -659,7 +659,6 @@ class ESACHandling(TempFileHandling):
         super().__init__("ESAC_Transformative_Agreement_Registry", "xlsx", url="https://keeper.mpdl.mpg.de/f/7fbb5edd24ab4c5ca157/?dl=1", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         self.prepare_file(force_update, make_backup, verbose, decompress="excel_to_csv", decompress_kwargs={"skip_lines": 2})
         self.mapping_table = self._prepare_mapping_table()
-        print(json.dumps(self.mapping_table, indent=2))
 
     def _prepare_mapping_table(self):
         csv_file_path = os.path.join(self.temp_file_dir, self.file_name + ".csv")
@@ -919,6 +918,41 @@ class ISBNHandling(TempFileHandling):
             msg = 'ISBN "{}" does not seem to have a valid registration group element.'
             ret_value['value'] = msg.format(isbn)
             return ret_value
+
+class ContractsLookup(object):
+
+    CONTRACTS_FILE = "../data/transformative_agreements/contracts.csv"
+
+    def __init__(self):
+        lookup_fields = ["identifier", "contract_name", "group_id"]
+        data_fields = ["identifier", "contract_name", "group_id", "consortium"]
+        self.lookup_dicts = {
+            field: {} for field in lookup_fields
+        }
+        with open(self.CONTRACTS_FILE, "r") as handle:
+            reader = csv.DictReader(handle)
+            for line in reader:
+                data = {field: line[field] for field in data_fields}
+                for field in lookup_fields:
+                    field_value = line[field]
+                    if not has_value(field_value):
+                        continue
+                    if field_value not in self.lookup_dicts[field]:
+                        self.lookup_dicts[field][field_value] = {
+                            field: [] for field in data_fields
+                        }
+                    for line_field, line_data in data.items():
+                        if has_value(line_data) and line_data not in self.lookup_dicts[field][field_value][line_field]:
+                            self.lookup_dicts[field][field_value][line_field].append(line_data)
+
+    def get_by_identifier(self, identifier):
+        return self.lookup_dicts["identifier"].get(identifier, None)
+
+    def get_by_contract_name(self, identifier):
+        return self.lookup_dicts["contract_name"].get(identifier, None)
+
+    def get_by_group_id(self, identifier):
+        return self.lookup_dicts["group_id"].get(identifier, None)
 
 class CSVAnalysisResult(object):
 
@@ -1457,7 +1491,6 @@ def title_lookup(lookup_title, acccepted_doi_types, auto_accept=False):
     else:
         print_r("Could not obtain a result with an accepted DOI type.")
         return None
-
 
 def _extract_crossref_license(crossref_data):
     """
@@ -2063,6 +2096,56 @@ def _process_institution_value(institution, row_num, orig_file_path):
             return new_value
     return institution
 
+def _process_agreement_value(agreement, row_num):
+    global CONTRACTS_LOOKUP
+    if CONTRACTS_LOOKUP is None:
+        CONTRACTS_LOOKUP = ContractsLookup()
+    global ESAC_HANDLING
+    if ESAC_HANDLING is None:
+        ESAC_HANDLING = ESACHandling()
+    ret = {
+        "consortium": None,
+        "contract_name": None,
+        "identifier": None
+    }
+    identifier_dict = CONTRACTS_LOOKUP.get_by_identifier(agreement)
+    if identifier_dict is not None: # agreement is an esac id
+        ret["identifier"] = agreement
+        ret["contract_name"] = identifier_dict["contract_name"][0]
+        ret["consortium"] = identifier_dict["consortium"][0]
+        msg = "Line %s: agreement '%s' found as identifier in contracts.csv"
+        logging.info(msg, row_num, agreement)
+        return ret
+    contract_name_dict = CONTRACTS_LOOKUP.get_by_contract_name(agreement)
+    if contract_name_dict is not None:
+        identifiers = contract_name_dict["identifier"]
+        if len(identifiers) > 1:
+            msg = "Line %s: agreement '%s' found as contract_name in contracts.csv, but the identifier is not unique (%s)"
+            logging.error(msg, row_num, agreement, ", ".join(identifiers))
+            return ret
+        ret["identifier"] = contract_name_dict["identifier"][0]
+        ret["contract_name"] = agreement
+        ret["consortium"] = contract_name_dict["consortium"][0]
+        msg = "Line %s: agreement '%s' found as contract_name in contracts.csv (identifier: %s)"
+        logging.info(msg, row_num, agreement, ret["identifier"])
+        return ret
+    esac_entry = ESAC_HANDLING.get_esac_entry(agreement)
+    if esac_entry is not None:
+        publisher = esac_entry["Publisher"]
+        if esac_entry["Publisher_OAPC"] != "":
+            publisher = esac_entry["Publisher_OAPC"]
+        contract_name = "{} {} agreement".format(esac_entry["Organization"], publisher)
+        msg = "Line %s: agreement '%s' found in ESAC Registry, contract_name constructed from ESAC data: '%s'"
+        logging.info(msg, row_num, agreement, contract_name)
+        ret["identifier"] = agreement
+        ret["contract_name"] = contract_name
+        ret["consortium"] = esac_entry["Organization"]
+        return ret
+    ret["contract_name"] = agreement
+    msg = "Line %s: agreement '%s' not found in contracts.csv or ESAC registry, value will be used as is"
+    logging.info(msg, row_num, agreement)
+    return ret
+
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, issnl_handling=None, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, no_title_lookup=False, preprint_auto_accept=False, 
@@ -2141,6 +2224,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
         elif column_type == "institution" and index is not None:
             current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path)
+        elif column_type == "agreement" and index is not None:
+            current_row["agreement"] = _process_agreement_value(row[index], row_num)
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
@@ -2363,29 +2448,6 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 ret["additional_costs"].append("NA")
 
     return ret
-
-def get_contract_data(esac_id):
-    """
-    Obtain existing contract metadata from contracts.csv for a given esac id
-    Args:
-        esac_id: A string representing an ESAC ID ("identifier" column in
-        contracts table)
-    Returns:
-        A dict with the keys "consortium" and "contract_name" if the esac
-        was found in the contracts table, None otherwise.
-    """
-    global CONTRACTS_MAP
-    if CONTRACTS_MAP is None: #Lazy init
-        CONTRACTS_MAP = {}
-        with open(CONTRACTS_FILE, "r") as handle:
-            reader = csv.DictReader(handle)
-            for line in reader:
-                esac_id = line["identifier"]
-                CONTRACTS_MAP[esac_id] = {
-                    "consortium": line["consortium"],
-                    "contract_name": line["contract_name"]
-                }
-    return CONTRACTS_MAP.get(esac_id, None)
 
 def get_hybrid_status_from_whitelist(hybrid_status):
     """

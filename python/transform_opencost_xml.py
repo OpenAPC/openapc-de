@@ -327,6 +327,7 @@ logging.root.setLevel(args.log_level)
 logging.debug("Logger initialized.")
 
 esac_lookup = oat.ESACHandling()
+contracts_lookup = oat.ContractsLookup()
 
 articles, invoice_groups = octk.process_opencost_xml(*xml_content_strings)
 invoice_groups = octk.detect_invoice_group_duplicates(invoice_groups)
@@ -421,10 +422,10 @@ for invoice_group in invoice_groups:
     # Preferred way is to get consortium/contract name from contracts.csv
     consortium = "NA"
     contract_name = "NA"
-    contract_entry = oat.get_contract_data(esac_id)
+    contract_entry = contracts_lookup.get_by_identifier(esac_id)
     if contract_entry is not None:
-        contract_name = contract_entry["contract_name"]
-        consortium = contract_entry["consortium"]
+        contract_name = contract_entry["contract_name"][0]
+        consortium = contract_entry["consortium"][0]
         msg = "ESAC ID {} found in contracts.csv, importing consortium/contract name ({}/{})"
         logging.info(msg.format(esac_id, consortium, contract_name))
     else:
