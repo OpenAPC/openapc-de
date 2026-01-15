@@ -165,6 +165,32 @@ QUOTEMASKS = {
         True,
         True,
         True
+    ],
+    "oapk_output": [
+        True,
+        True,
+        False,
+        False,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        True
     ]
 }
 
