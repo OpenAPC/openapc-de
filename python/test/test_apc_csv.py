@@ -154,18 +154,19 @@ def _normalize_url(url_string):
 global_doi_list = SortedList()
 global_isbn_list = SortedList()
 global_url_list = SortedList()
-global_group_id_list = SortedList()
 
 issn_dict = {}
 issn_p_dict = {}
 issn_e_dict = {}
 issn_l_dict = {}
+group_id_dict = {}
+identifier_dict = {} # ESAC Ids
 
 title_dict = {}
 
 isbn_dict = {}
 
-agreement_dict = {}
+group_id_publisher_dict = {}
 
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
@@ -187,7 +188,6 @@ for data_file, metadata in DATA_FILES.items():
                 reduced_row = {}
                 for field in ISSN_DICT_FIELDS:
                     reduced_row[field] = row[field]
-
                 issn = row["issn"]
                 if oat.has_value(issn):
                     if issn not in issn_dict:
@@ -230,8 +230,19 @@ for data_file, metadata in DATA_FILES.items():
                         isbn_list.append(isbn)
                 for entry in isbn_list:
                     global_isbn_list.add(entry)
-            if metadata["has_group_ids"] and oat.has_value(row["group_id"]):
-                global_group_id_list.add(row["group_id"])
+            if metadata["has_group_ids"]:
+                if oat.has_value(row["group_id"]):
+                    group_id = row["group_id"]
+                    if group_id not in group_id_dict:
+                        group_id_dict[group_id] = [row]
+                    else:
+                        group_id_dict[group_id].append(row)
+                if oat.has_value("identifier"):
+                    identifier = row["identifier"]
+                    if identifier not in identifier_dict:
+                        identifier_dict[identifier] = [row]
+                    else:
+                        identifier_dict[identifier].append(row)
             line += 1
 
 for _, file_dict in KNOWN_DUPLICATES.items():
@@ -368,6 +379,31 @@ def check_bpc_field_content(row_object):
     if row['doab'] not in ["TRUE", "FALSE"]:
         fail(line_str + 'value in row "doab" must either be TRUE or FALSE')
 
+def check_contract_field_content(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    for field in ["institution", "contract_name", "period_from", "period_to", "group_id"]:
+        if not oat.has_value(row[field]):
+            fail(line_str + 'the column "' + field + '" must not be empty')
+    try:
+        from_date = datetime.datetime.strptime(row['period_from'], "%Y")
+        to_date = datetime.datetime.strptime(row['period_to'], "%Y")
+        if to_date < from_date:
+            msg = 'the to_period date {} occurs earlier than the from_period date {}'
+            fail(line_str + msg.format(row["period_to"], row["period_from"]))
+    except ValueError:
+        msg = 'at least one period value (from/to) could not be parsed as a year value'
+        fail(line_str + msg)
+    #TODO: Check cost type against vocab?
+    if oat.has_value(row["euro"]):
+        try:
+            euro = float(row["euro"])
+            if euro <= 0:
+                 fail(line_str + 'contract euro value (' + row["euro"] + ') must be larger than 0')
+        except ValueError:
+            fail(line_str + 'contract euro value (' + row["euro"] + ') is no valid number')
+
 def check_issns(row_object):
     __tracebackhide__ = True
     row = row_object.row
@@ -457,16 +493,6 @@ def check_for_url_duplicates(row_object):
             fail(line_str + 'Duplicate: Normalized URL "' + norm_url + '" was ' +
                         'encountered more than one time' + norm_string)
 
-def check_for_group_id_duplicates(row_object):
-    __tracebackhide__ = True
-    group_id = row_object.row["group_id"]
-    line_str = '{}, line {}: '.format(row_object.file_name,
-                                      row_object.line_number)
-    global_group_id_list.remove(group_id)
-    if group_id in global_group_id_list:
-        fail(line_str + 'Duplicate: group_id "' + group_id + '" was ' +
-             'encountered more than one time')
-
 def check_for_isbn_duplicates(row_object):
     __tracebackhide__ = True
     isbn_list = []
@@ -495,6 +521,28 @@ def check_hybrid_status(row_object):
         msg = 'Journal "{}" ({}) is listed in the DOAJ but is marked as hybrid (DOAJ only lists fully OA journals)'
         msg = msg.format(title, issn)
         fail(line_str + msg)
+
+def check_contract_consistency(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    msg = (line_str + 'Two contract entries share a common {} ({}), but the ' +
+           '{} differs ("{}" vs "{}")')
+    group_id = row["group_id"]
+    same_group_id_rows = group_id_dict[group_id]
+    for other_row in same_group_id_rows:
+        for field in ["institution", "contract_name", "identifier", "consortium"]:
+            if row[field] != other_row[field]:
+                msg = msg.format("group_id", group_id, field, row[field], other_row[field])
+                fail(msg)
+    identifier = row["identifier"]
+    if oat.has_value(identifier):
+        same_identifier_rows = identifier_dict[identifier]
+        for other_row in same_identifier_rows:
+            for field in ["contract_name", "consortium"]:
+                if row[field] != other_row[field]:
+                    msg = msg.format("identifier", identifier, field, row[field], other_row[field])
+                    fail(msg)
 
 def check_name_consistency(row_object):
     __tracebackhide__ = True
@@ -579,24 +627,22 @@ def check_ta_data(row_object):
         agreement = row["agreement"]
         publisher = row["publisher"]
         doi = row["doi"]
-        publisher = mappings.AGREEMENT_PUBLISHER_MAP.get(publisher, publisher)
-        if agreement not in agreement_dict:
-            agreement_dict[agreement] = publisher
-        else:
-            if agreement_dict[agreement] != publisher:
-                msg = 'publisher mismatch found for agreement "{}": {} <> {} [{}]'
-                ret = line_str + msg.format(agreement, publisher, agreement_dict[agreement], doi)
-                fail(ret)
         if not oat.has_value(row["group_id"]):
             msg = 'missing group_id for agreement "{}" [{}]'
             ret = line_str + msg.format(agreement, doi)
             fail(ret)
-        else:
-            group_id = row["group_id"]
-            if group_id not in global_group_id_list:
-                msg = 'group_id "{}" not found in contracts file [{}]'
-                ret = line_str + msg.format(group_id, doi)
-                fail(ret)
+        group_id = row["group_id"]
+        if group_id not in group_id_dict:
+            msg = 'group_id "{}" not found in contracts file [{}]'
+            ret = line_str + msg.format(group_id, doi)
+            fail(ret)
+        publisher = mappings.AGREEMENT_PUBLISHER_MAP.get(publisher, publisher)
+        if group_id not in group_id_publisher_dict:
+            group_id_publisher_dict[group_id] = publisher
+        elif group_id_publisher_dict[group_id] != publisher:
+            msg = 'publisher mismatch found for group_id "{}": {} <> {} [{}]'
+            ret = line_str + msg.format(group_id, publisher, group_id_publisher_dict[group_id], doi)
+            fail(ret)
 
 @pytest.mark.parametrize("row_object", APC_DATA)
 class TestAPCRows(object):
@@ -675,4 +721,5 @@ if __name__ == '__main__':
         if num in deciles:
             oat.print_b(deciles[num])
         check_line_length(row_object)
-        check_for_group_id_duplicates(row_object)
+        check_contract_field_content(row_object)
+        check_contract_consistency(row_object)
