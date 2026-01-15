@@ -389,6 +389,8 @@ for article in articles:
         euro_value = float(article["euro"])
         if euro_value > 0.0:
             publication_level_costs = True
+        else:
+            article["euro"] = "NA"
     except ValueError:
         pass
     if pub_type == "book":
@@ -439,7 +441,7 @@ for invoice_group in invoice_groups:
         path = os.path.join(TARGET_DIR, args.prefix + target_file + ".csv")
         handle = open(path, "w")
         unicode_writers[target_file] = {
-            "writer": oat.OpenAPCUnicodeWriter(handle, quotemask=oat.CONTRACTS_QUOTEMASK),
+            "writer": oat.OpenAPCUnicodeWriter(handle, quotemask=oat.QUOTEMASKS["contracts"]),
             "handle": handle,
             "lines": [],
         }
