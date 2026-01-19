@@ -1106,6 +1106,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0021-1214", # Irish Historical Studies, Gold OA since 2025
     "1875-8592", # Cancer Biomarkers, Gold OA since 2024
     "0886-0440", # Journal of Cardiac Surgery, Gold OA since 2023
+    "1574-0196", # European Constitutional Law Review, Gold OA since 2025
+    "2057-0198", # Business and Human Rights Journal, Gold OA since 9.2024
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
