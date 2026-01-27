@@ -399,8 +399,6 @@ def check_contract_field_content(row_object):
     if oat.has_value(row["euro"]):
         try:
             euro = float(row["euro"])
-            if euro <= 0:
-                 fail(line_str + 'contract euro value (' + row["euro"] + ') must be larger than 0')
         except ValueError:
             fail(line_str + 'contract euro value (' + row["euro"] + ') is no valid number')
 
