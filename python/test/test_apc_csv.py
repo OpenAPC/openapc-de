@@ -367,7 +367,7 @@ def check_ac_doi_links(row_object):
             break
     else:
         msg = line_str + 'DOI {} does not occur in any of the target primary data files ({})'
-        fail(msg.format(row["doi"], target_files.join[", "]))
+        fail(msg.format(row["doi"], ", ".join(target_files)))
 
 def check_bpc_field_content(row_object):
     __tracebackhide__ = True
