@@ -480,7 +480,7 @@ def check_for_doi_duplicates(row_object):
                     msg = 'DOI "{}" is listed in {} and should not appear in {}'
                     msg = msg.format(doi, dup_file_name, DATA_FILES[row_object.origin]["file_path"])
                     fail(line_str + msg)
-                    
+
 def check_for_url_duplicates(row_object):
     __tracebackhide__ = True
     url = row_object.row["url"]
@@ -659,7 +659,7 @@ class TestAPCRows(object):
         check_for_doi_duplicates(row_object)
         check_name_consistency(row_object)
         check_ta_data(row_object)
-        
+
 @pytest.mark.parametrize("row_object", BPC_DATA)
 class TestBPCRows(object):
 

@@ -2302,9 +2302,10 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         if empty_row:
             current_row[column_type] = ""
             continue
+        req = csv_column.requirement
         if column_type == "euro" and index is not None:
             current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, ta_mode, False)
-        elif csv_column.requirement["articles"] == CSVColumn.ADDITIONAL_COSTS and index is not None:
+        elif req["articles"] == CSVColumn.ADDITIONAL_COSTS or req["ta"] == CSVColumn.ADDITIONAL_COSTS and index is not None:
             current_row[column_type] = _process_euro_value(row[index], round_monetary, row_num, index, None, True)
         elif column_type == "period" and index is not None:
             current_row["period"] = _process_period_value(row[index], row_num)
@@ -2534,14 +2535,18 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
 
     additional_cost_data = False
     for csv_column in column_map.values():
+        req = csv_column.requirement
         if csv_column.requirement["articles"] == CSVColumn.ADDITIONAL_COSTS:
+            additional_cost_data = True
+            break
+        elif ta_mode and csv_column.requirement["ta"] == CSVColumn.ADDITIONAL_COSTS:
             additional_cost_data = True
             break
 
     if additional_cost_data:
         ret["additional_costs"] = []
         for field in COLUMN_SCHEMAS["additional_costs"]:
-            if field in current_row and has_value(current_row["euro"]):
+            if field in current_row:
                 ret["additional_costs"].append(current_row[field])
             else:
                 ret["additional_costs"].append("NA")
