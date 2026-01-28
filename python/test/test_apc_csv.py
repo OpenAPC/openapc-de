@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 from sortedcontainers import SortedList
 
 APC_DATA = []
-APC_AC_DATA = []
+ARTICLE_AC_DATA = []
 BPC_DATA = []
 CONTRACTS_DATA = []
 
@@ -28,11 +28,11 @@ DATA_FILES = {
         "has_group_ids": False,
         "doi_list": SortedList(),
     },
-    "apc_ac": {
-        "file_path": "data/apc_de_additional_costs.csv",
-        "is_ac_file_for": "apc",
+    "article_ac": {
+        "file_path": "data/additional_costs.csv",
+        "is_ac_file_for": ["apc", "ta"],
         "unused_fields": [],
-        "target_file": APC_AC_DATA,
+        "target_file": ARTICLE_AC_DATA,
         "row_length": 9,
         "has_doi": True,
         "has_issn": False,
@@ -361,10 +361,13 @@ def check_ac_doi_links(row_object):
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
     ac_metadata = DATA_FILES[row_object.origin]
-    target_file = ac_metadata["is_ac_file_for"]
-    if row["doi"] not in DATA_FILES[target_file]["doi_list"]:
-        msg = line_str + 'DOI {} does not occur in the target primary data file ({})'
-        fail(msg.format(row["doi"], target_file))
+    target_files = ac_metadata["is_ac_file_for"]
+    for target_file in target_files:
+        if row["doi"] in DATA_FILES[target_file]["doi_list"]:
+            break
+    else:
+        msg = line_str + 'DOI {} does not occur in any of the target primary data files ({})'
+        fail(msg.format(row["doi"], target_files.join[", "]))
 
 def check_bpc_field_content(row_object):
     __tracebackhide__ = True
@@ -669,7 +672,7 @@ class TestBPCRows(object):
         check_for_isbn_duplicates(row_object)
         check_for_doi_duplicates(row_object)
 
-@pytest.mark.parametrize("row_object", APC_AC_DATA)
+@pytest.mark.parametrize("row_object", ARTICLE_AC_DATA)
 class TestAPCACRows(object):
 
     # Set of tests to run on all APC AC data
@@ -694,9 +697,9 @@ if __name__ == '__main__':
         check_for_url_duplicates(row_object)
         check_name_consistency(row_object)
         check_ta_data(row_object)
-    oat.print_b(str(len(APC_AC_DATA)) + " APC AC records collected, starting tests...")
-    deciles = {round((len(APC_AC_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
-    for num, row_object in enumerate(APC_AC_DATA):
+    oat.print_b(str(len(ARTICLE_AC_DATA)) + " APC AC records collected, starting tests...")
+    deciles = {round((len(ARTICLE_AC_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
+    for num, row_object in enumerate(ARTICLE_AC_DATA):
         if num in deciles:
             oat.print_b(deciles[num])
         check_line_length(row_object)
