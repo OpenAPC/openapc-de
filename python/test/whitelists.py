@@ -631,6 +631,11 @@ JOURNAL_OWNER_CHANGED = {
 	"1756-8927": ["Future Science, LTD", "Informa UK Limited"], # Future Medicinal Chemistry (electronic)
 	"2299-0054": ["Termedia Sp. z.o.o.", "Medycyna Praktyczna"], # Videosurgery and Other Miniinvasive Techniques 
 	"1895-4588": ["Termedia Sp. z.o.o.", "Medycyna Praktyczna"], # Videosurgery and Other Miniinvasive Techniques (linking)
+	"2055-7124": ["Springer Nature", "American Association for the Advancement of Science (AAAS)"], # Biomaterials Research 
+	"1226-4601": ["Springer Nature", "American Association for the Advancement of Science (AAAS)"], # Biomaterials Research (linking)
+	"1641-876X": ["Walter de Gruyter GmbH", "University of Zielona Góra, Poland"], # International Journal of Applied Mathematics and Computer Science 
+	"2083-8492": ["Walter de Gruyter GmbH", "University of Zielona Góra, Poland"], # International Journal of Applied Mathematics and Computer Science (electronic)
+	"0079-2993": ["Walter de Gruyter GmbH", "Polish Academy of Sciences Chancellery"], # Polish Psychological Bulletin 
 
 }
 
