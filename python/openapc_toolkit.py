@@ -1842,7 +1842,12 @@ def get_metadata_from_ror(ror_id):
         response = urlopen(req)
         content_string = response.read()
         ror_data = json.loads(content_string)
-        data["institution"] = ror_data["name"]
+        ror_name = None
+        for name_dict in ror_data["names"]:
+            for types in name_dict["types"]:
+                if "ror_display" in types:
+                    ror_name = name_dict["value"]
+        data["institution"] = ror_name
     except HTTPError as httpe:
         ret['error_msg'] = 'HTTPError: {} - {}'.format(httpe.code, httpe.reason)
         return ret
