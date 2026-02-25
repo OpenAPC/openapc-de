@@ -161,7 +161,7 @@ def generate_duplicates_section(institution, dup_content, ins_content, lang):
         markdown += LANG[lang]["dup_th"]
         for article in articles:
             row = "|"
-            for index in [0, 1, 2, 6]:
+            for index in [0, 1, 2, 7]:
                 row += article[index] + "|"
             markdown += row + "\n"
         markdown += "\n"
