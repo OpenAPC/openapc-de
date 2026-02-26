@@ -2232,6 +2232,7 @@ def _obtain_group_id(row, row_num):
     identifier = row["identifier"]
     if not has_value(identifier):
         identifier = row["contract_name"]
+        identifier = identifier.lower().replace(" ", "")
     period = row["period"]
     group_id = ror + "_" + identifier + "_" + str(period)
     ret["group_id"] = group_id
