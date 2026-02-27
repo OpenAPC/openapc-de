@@ -638,6 +638,10 @@ JOURNAL_OWNER_CHANGED = {
 	"0079-2993": ["Walter de Gruyter GmbH", "Polish Academy of Sciences Chancellery"], # Polish Psychological Bulletin 
 	"0214-6282": ["UPV/EHU Press", "EHU Press"], # The International Journal of Developmental Biology 
 	"1696-3547": ["UPV/EHU Press", "EHU Press"], # The International Journal of Developmental Biology (electronic)
+	"0031-6997": ["American Society for Pharmacology & Experimental Therapeutics (ASPET)", "Elsevier BV"], # Pharmacological Reviews
+	"0003-4967": ["BMJ", "Elsevier BV"], # Annals of the Rheumatic Diseases
+	"0730-7268": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Environmental Toxicology and Chemistry 
+	"1552-8618": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Environmental Toxicology and Chemistry (electronic) 
 
 }
 
@@ -1121,6 +1125,12 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1462-5814", # Cellular Microbiology, Gold OA since 2022
     "1882-0778", # Applied Physics Express, Gold OA since 2024
     "0300-5526", # Intervirology, Gold OA since 2021
+    "0196-0709", # American Journal of Otolaryngology, Gold OA since 2025
+    "1059-0560", # International Review of Economics & Finance, Gold OA since 2025
+    "2589-2347", # Materials Today Sustainability, Gold OA since 2025
+    "1323-3580", # Publications of the Astronomical Society of Australia, Gold OA since 2025
+    "0947-5745", # Journal of Zoological Systematics and Evolutionary Research, Gold OA since 2022
+    "1573-6830", # Cellular and Molecular Neurobiology, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
