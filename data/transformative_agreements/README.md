@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 181,798 articles, published at 557 institutions under 215 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 183,081 articles, published at 557 institutions under 220 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 181,798 articles, published at 557 institut
 
 |Agreement                                                 | Articles|
 |:---------------------------------------------------------|--------:|
-|Springer Nature (DEAL) 2020-2023                          |    30095|
-|Wiley (DEAL) 2019-2023                                    |    20433|
+|Springer Nature (DEAL) 2020-2023                          |    30646|
+|Wiley (DEAL) 2019-2023                                    |    21013|
 |Springer Compact                                          |    13332|
 |Elsevier (CSAL) 2020-2023                                 |    10742|
 |Sage (CRKN) 2021-2023                                     |     5811|
@@ -156,6 +156,7 @@ This dataset contains information on 181,798 articles, published at 557 institut
 |Royal Society of Chemistry (TIB) 2021-2023                |       58|
 |Wolters Kluwer Health (CRUI-CARE) 2021-2024               |       57|
 |Royal Society of Chemistry (TIB) 2018-2020                |       56|
+|Sage (BSB) 2021-2023                                      |       56|
 |Royal Society of Chemistry (KEMOE/FWF) 2021-2024          |       55|
 |Taylor & Francis (CSIC) 2024-2026                         |       55|
 |Akadémiai Kiadó (EISZ) 2021-2023                          |       54|
@@ -167,6 +168,7 @@ This dataset contains information on 181,798 articles, published at 557 institut
 |AIP Publishing (IReL) 2023-2025                           |       49|
 |Optica Publishing Group (IReL) 2022-2024                  |       49|
 |QNL T&F Agreement                                         |       48|
+|Walter de Gruyter (SUB Göttingen) 2023-2024               |       48|
 |AIP Publishing (CSIC) 2022-2024                           |       46|
 |Taylor & Francis (MPDL) 2017-2019                         |       46|
 |Wolters Kluwer Health (FinELib) 2022-2024                 |       46|
@@ -185,6 +187,7 @@ This dataset contains information on 181,798 articles, published at 557 institut
 |IOP Publishing (MPDL) 2018-2020                           |       32|
 |Microbiology Society (IReL) 2021-2023                     |       32|
 |American Psychological Association (IReL) 2022-2024       |       30|
+|CUP (BSB) 2022-2024                                       |       30|
 |QNL IEEE Agreement                                        |       30|
 |AIP Publishing (CRUI-CARE) 2023-2026                      |       29|
 |American Physical Society (IReL) 2025-2027                |       28|
@@ -212,8 +215,10 @@ This dataset contains information on 181,798 articles, published at 557 institut
 |The Royal Society (CSIC) 2022-2022                        |       12|
 |The Company of Biologists (CSIC) 2021-2023                |       11|
 |BMJ Publishing (CSAL) 2024-2024                           |       10|
+|Hogrefe (SUB Göttingen) 2021-2023                         |       10|
 |Association for Computing Machinery (CSAL) 2022-2025      |        9|
 |Walter de Gruyter (CRUI-CARE) 2023-2025                   |        9|
+|BMJ (BSB) 2023-2024                                       |        8|
 |IReL ECS Agreement                                        |        8|
 |Portland Press (CSIC) 2023-2024                           |        8|
 |The Company of Biologists (CSIC) 2024-2026                |        6|
@@ -259,6 +264,7 @@ This dataset contains information on 181,798 articles, published at 557 institut
 |University of Bern                                                                                                                                 |     2947|
 |University College Dublin                                                                                                                          |     2808|
 |University of Geneva                                                                                                                               |     2782|
+|Tuebingen U                                                                                                                                        |     2553|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     2526|
 |Aalto University                                                                                                                                   |     2521|
 |University of Lausanne                                                                                                                             |     2487|
@@ -279,7 +285,6 @@ This dataset contains information on 181,798 articles, published at 557 institut
 |University of Jyväskylä                                                                                                                            |     1548|
 |Bonn U                                                                                                                                             |     1495|
 |Heidelberg U                                                                                                                                       |     1385|
-|Tuebingen U                                                                                                                                        |     1270|
 |University of Galway                                                                                                                               |     1255|
 |Goettingen U                                                                                                                                       |     1201|
 |Lund University                                                                                                                                    |     1177|
