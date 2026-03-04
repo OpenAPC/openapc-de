@@ -343,6 +343,9 @@ def main():
 
     for ta_article in ta_content:
         if oat.has_value(ta_article[2]): # Add euro TA articles to checks
+            del(ta_article[20])
+            del(ta_article[19])
+            del(ta_article[5])
             apc_content.append(ta_article)
 
     sig_articles, stats = find_significant_apc_differences(apc_content, args.institution,
