@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 183,851 articles, published at 557 institutions under 226 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 185,369 articles, published at 557 institutions under 227 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -25,7 +25,7 @@ This dataset contains information on 183,851 articles, published at 557 institut
 |Agreement                                                 | Articles|
 |:---------------------------------------------------------|--------:|
 |Springer Nature (DEAL) 2020-2023                          |    30646|
-|Wiley (DEAL) 2019-2023                                    |    21013|
+|Wiley (DEAL) 2019-2023                                    |    21012|
 |Springer Compact                                          |    13332|
 |Elsevier (CSAL) 2020-2023                                 |    10742|
 |Sage (CRKN) 2021-2023                                     |     5811|
@@ -49,6 +49,7 @@ This dataset contains information on 183,851 articles, published at 557 institut
 |Elsevier (FinELib) 2024-2025                              |     1922|
 |Wiley (FinELib) 2020-2022                                 |     1640|
 |Springer Nature (CRUI-CARE) 2020-2024                     |     1535|
+|Springer Nature (DEAL) 2024-2028                          |     1504|
 |Springer Nature (IReL) 2021-2024                          |     1425|
 |Springer Nature (CSAL) 2023-2025                          |     1409|
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
@@ -60,17 +61,18 @@ This dataset contains information on 183,851 articles, published at 557 institut
 |Taylor & Francis (IReL) 2021-2023                         |     1006|
 |IEEE (FinELib) 2021-2023                                  |      933|
 |Wiley (KEMOE/FWF) 2018-2020                               |      928|
-|Springer Nature (DEAL) 2024-2028                          |      923|
 |Springer Nature (FinELib) 2024-2025                       |      906|
 |Wiley (CRUI-CARE) 2020-2023                               |      780|
 |Wiley (IReL) 2025-2028                                    |      710|
 |Sage (FinELib) 2023-2024                                  |      707|
+|Wiley (DEAL) 2024-2028                                    |      661|
 |Sage (CSAL) 2023-2025                                     |      649|
 |Oxford University Press (CSAL) 2023-2024                  |      642|
 |Springer Nature (CRUE-CSIC Alliance) 2021-2024            |      636|
 |Cambridge University Press (IReL) 2021-2025               |      622|
 |Springer Compact (MPDL) 2015-2018                         |      622|
 |Taylor & Francis (IReL) 2024-2026                         |      620|
+|Elsevier (DEAL) 2023-2028                                 |      603|
 |Sage (FinELib) 2020-2022                                  |      588|
 |American Chemical Society (FinELib) 2021-2023             |      565|
 |Sage (IReL) 2021-2023                                     |      562|
@@ -96,7 +98,6 @@ This dataset contains information on 183,851 articles, published at 557 institut
 |Springer Compact (KEMOE/FWF) 2019-2021                    |      372|
 |Royal Society of Chemistry (CSAL) 2021-2023               |      364|
 |Wolters Kluwer Health (CSAL) 2022-2024                    |      338|
-|Wiley (DEAL) 2024-2028                                    |      326|
 |IEEE (FinELib) 2024-2025                                  |      324|
 |American Chemical Society (CSAL) 2023-2025                |      318|
 |Wiley (CRUI-CARE) 2024-2027                               |      293|
@@ -262,9 +263,9 @@ This dataset contains information on 183,851 articles, published at 557 institut
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                                                                             |     6859|
 |French institutions                                                                                                                                |     5753|
 |ETH Zurich                                                                                                                                         |     5145|
+|TU Muenchen                                                                                                                                        |     5041|
 |University of Helsinki                                                                                                                             |     4985|
 |University of Zurich                                                                                                                               |     4920|
-|TU Muenchen                                                                                                                                        |     3522|
 |FWF - Austrian Science Fund                                                                                                                        |     3469|
 |Muenchen LMU                                                                                                                                       |     2998|
 |University of Bern                                                                                                                                 |     2947|
@@ -301,7 +302,7 @@ This dataset contains information on 183,851 articles, published at 557 institut
 |JGU Mainz                                                                                                                                          |     1124|
 |University of Limerick                                                                                                                             |     1124|
 |Karolinska Institutet                                                                                                                              |     1061|
-|TU Dresden                                                                                                                                         |     1055|
+|TU Dresden                                                                                                                                         |     1054|
 |HHU Düsseldorf                                                                                                                                     |     1050|
 |UCL                                                                                                                                                |     1022|
 |Freiburg U                                                                                                                                         |      967|
