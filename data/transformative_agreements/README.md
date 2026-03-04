@@ -16,7 +16,10 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 185,369 articles, published at 557 institutions under 227 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+```
+#> [1] 184598
+```
+This dataset contains information on 184,598 articles, published at 557 institutions under 227 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -24,8 +27,8 @@ This dataset contains information on 185,369 articles, published at 557 institut
 
 |Agreement                                                 | Articles|
 |:---------------------------------------------------------|--------:|
-|Springer Nature (DEAL) 2020-2023                          |    30646|
-|Wiley (DEAL) 2019-2023                                    |    21012|
+|Springer Nature (DEAL) 2020-2023                          |    30388|
+|Wiley (DEAL) 2019-2023                                    |    20583|
 |Springer Compact                                          |    13332|
 |Elsevier (CSAL) 2020-2023                                 |    10742|
 |Sage (CRKN) 2021-2023                                     |     5811|
@@ -159,7 +162,6 @@ This dataset contains information on 185,369 articles, published at 557 institut
 |Wolters Kluwer Health (CRUI-CARE) 2021-2024               |       57|
 |Oxford University Press (CRUI-CARE) 2024-2026             |       56|
 |Royal Society of Chemistry (TIB) 2018-2020                |       56|
-|Sage (BSB) 2021-2023                                      |       56|
 |Royal Society of Chemistry (KEMOE/FWF) 2021-2024          |       55|
 |Taylor & Francis (CSIC) 2024-2026                         |       55|
 |Akadémiai Kiadó (EISZ) 2021-2023                          |       54|
@@ -172,7 +174,6 @@ This dataset contains information on 185,369 articles, published at 557 institut
 |AIP Publishing (IReL) 2023-2025                           |       49|
 |Optica Publishing Group (IReL) 2022-2024                  |       49|
 |QNL T&F Agreement                                         |       48|
-|Walter de Gruyter (SUB Göttingen) 2023-2024               |       48|
 |AIP Publishing (CSIC) 2022-2024                           |       46|
 |Taylor & Francis (MPDL) 2017-2019                         |       46|
 |Wolters Kluwer Health (FinELib) 2022-2024                 |       46|
@@ -192,10 +193,10 @@ This dataset contains information on 185,369 articles, published at 557 institut
 |Microbiology Society (IReL) 2021-2023                     |       32|
 |American Chemical Society (CRUI-CARE) 2024-2026           |       31|
 |American Psychological Association (IReL) 2022-2024       |       30|
-|CUP (BSB) 2022-2024                                       |       30|
 |QNL IEEE Agreement                                        |       30|
 |American Physical Society (IReL) 2025-2027                |       28|
 |Royal Irish Academy (IReL) 2021-2023                      |       28|
+|Sage (BSB) 2021-2023                                      |       28|
 |The Royal Society (IReL) 2024-2026                        |       27|
 |Elsevier (IReL) 2024-2026                                 |       26|
 |Brill (CSIC) 2023-2024                                    |       23|
@@ -213,6 +214,8 @@ This dataset contains information on 185,369 articles, published at 557 institut
 |IEEE (KEMOE/FWF) 2021-2024                                |       16|
 |Sage (KEMOE) 2016-2018                                    |       16|
 |Walter de Gruyter (CSIC) 2023-2025                        |       16|
+|Walter de Gruyter (SUB Göttingen) 2023-2024               |       16|
+|CUP (BSB) 2022-2024                                       |       15|
 |Wolters Kluwer Health (CRUI-CARE) 2025-2027               |       14|
 |Association for Computing Machinery (IReL) 2020-2022      |       13|
 |Microbiology Society (CSIC) 2021-2023                     |       13|
@@ -220,18 +223,18 @@ This dataset contains information on 185,369 articles, published at 557 institut
 |The Company of Biologists (CSIC) 2021-2023                |       11|
 |Walter de Gruyter (CRUI-CARE) 2023-2025                   |       11|
 |BMJ Publishing (CSAL) 2024-2024                           |       10|
-|Hogrefe (SUB Göttingen) 2021-2023                         |       10|
 |Royal Society of Chemistry (CRUI-CARE) 2025               |       10|
 |Association for Computing Machinery (CSAL) 2022-2025      |        9|
-|BMJ (BSB) 2023-2024                                       |        8|
 |IReL ECS Agreement                                        |        8|
 |Portland Press (CSIC) 2023-2024                           |        8|
 |The Company of Biologists (CSIC) 2024-2026                |        6|
 |The Electrochemical Society (IReL) 2022-2022              |        6|
 |The Electrochemical Society (IReL) 2023-2023              |        6|
 |Emerald (CRUI-CARE) 2025                                  |        5|
+|Hogrefe (SUB Göttingen) 2021-2023                         |        5|
 |The Company of Biologists (IReL) 2023-2025                |        5|
 |Association for Computing Machinery (CRUI-CARE) 2022-2025 |        4|
+|BMJ (BSB) 2023-2024                                       |        4|
 |Microbiology Society (CSIC) 2024-2024                     |        4|
 |Portland Press (CSIC) 2021-2022                           |        4|
 |The Electrochemical Society (IReL) 2021-2021              |        4|
@@ -272,7 +275,6 @@ This dataset contains information on 185,369 articles, published at 557 institut
 |University College Dublin                                                                                                                          |     2808|
 |Milano U                                                                                                                                           |     2801|
 |University of Geneva                                                                                                                               |     2782|
-|Tuebingen U                                                                                                                                        |     2553|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     2526|
 |Aalto University                                                                                                                                   |     2521|
 |University of Lausanne                                                                                                                             |     2487|
@@ -285,6 +287,7 @@ This dataset contains information on 185,369 articles, published at 557 institut
 |KIT                                                                                                                                                |     2125|
 |Trinity College Dublin                                                                                                                             |     2089|
 |University of Eastern Finland                                                                                                                      |     1786|
+|Tuebingen U                                                                                                                                        |     1782|
 |University College Cork                                                                                                                            |     1726|
 |Frankfurt U                                                                                                                                        |     1716|
 |Wuerzburg U                                                                                                                                        |     1690|
