@@ -16,10 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-```
-#> [1] 184598
-```
-This dataset contains information on 184,598 articles, published at 557 institutions under 227 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 184,608 articles, published at 557 institutions under 227 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,7 +25,7 @@ This dataset contains information on 184,598 articles, published at 557 institut
 |Agreement                                                 | Articles|
 |:---------------------------------------------------------|--------:|
 |Springer Nature (DEAL) 2020-2023                          |    30388|
-|Wiley (DEAL) 2019-2023                                    |    20583|
+|Wiley (DEAL) 2019-2023                                    |    20593|
 |Springer Compact                                          |    13332|
 |Elsevier (CSAL) 2020-2023                                 |    10742|
 |Sage (CRKN) 2021-2023                                     |     5811|
@@ -343,8 +340,8 @@ This dataset contains information on 184,598 articles, published at 557 institut
 |Marburg U                                                                                                                                          |      602|
 |KTH Royal Institute of Technology                                                                                                                  |      590|
 |University of Manchester                                                                                                                           |      585|
+|Kiel U                                                                                                                                             |      572|
 |Saarland U                                                                                                                                         |      567|
-|Kiel U                                                                                                                                             |      562|
 |Stockholm University                                                                                                                               |      559|
 |University of Vienna                                                                                                                               |      548|
 |University of Amsterdam                                                                                                                            |      542|
