@@ -14,6 +14,8 @@ ARTICLE_AC_DATA = []
 BPC_DATA = []
 CONTRACTS_DATA = []
 
+CONTRACT_AMOUNT_MIN_DIFF = 0.02
+
 DATA_FILES = {
     "apc": {
         "file_path": "data/apc_de.csv",
@@ -531,6 +533,64 @@ def check_hybrid_status(row_object):
         msg = msg.format(title, issn)
         fail(line_str + msg)
 
+def check_contract_amounts(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    group_id = row["group_id"]
+    if group_id in wl.CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS:
+        return
+    amount = float(row["euro"]) if oat.has_value(row["euro"]) else None
+    if amount is None:
+        return
+    other_euro_rows = []
+    # find contract entries with the same group_id which also have euro values
+    for other_row_object in group_id_dict[group_id]:
+        if other_row_object.line_number == row_object.line_number:
+            continue
+        other_row = other_row_object.row
+        other_euro = float(other_row["euro"]) if oat.has_value(other_row["euro"]) else None
+        if other_euro is None or other_euro == 0:
+            continue
+        other_euro_rows.append(other_row)
+    # Check for similar amounts
+    for other_row in other_euro_rows:
+        other_amount = float(other_row["euro"])
+        if amount * other_amount < 0:
+            continue
+        lower, higher = sorted([abs(amount), abs(other_amount)])
+        diff = (higher - lower) / higher
+        if diff < CONTRACT_AMOUNT_MIN_DIFF:
+            msg = line_str
+            msg += ('Two contract entries share a common group_id ({}) and ' +
+                    'the cost amount is almost equal (difference less than ' +
+                    '{}%), this might be a case of double reporting ({}€ vs. {}€).')
+            msg = msg.format(group_id, CONTRACT_AMOUNT_MIN_DIFF*100, amount, other_amount)
+            fail(msg)
+    if len(other_euro_rows) < 2:
+        return
+    # Check if any sum of two other amounts is similar to current amount
+    i = 0
+    j = 1
+    while i < len(other_euro_rows) - 1:
+        while j < len(other_euro_rows):
+            amount_a = float(other_euro_rows[i]["euro"])
+            amount_b = float(other_euro_rows[j]["euro"])
+            amount_sum = amount_a + amount_b
+            lower, higher = sorted([abs(amount), abs(amount_sum)])
+            diff = (higher - lower) / higher
+            if diff < CONTRACT_AMOUNT_MIN_DIFF:
+                msg = line_str
+                msg += ('Three contract entries share a common group_id ({}) and ' +
+                        'the summarized cost of two of them ({}€ + {}€) is almost ' +
+                         'equal to the third ({}€) (difference less than ' +
+                        '{}%), this might be a case of double reporting.')
+                msg = msg.format(group_id, amount_a, amount_b, amount, CONTRACT_AMOUNT_MIN_DIFF*100)
+                fail(msg)
+            j += 1
+        i += 1
+        j = i + 1
+
 def check_contract_consistency(row_object):
     __tracebackhide__ = True
     row = row_object.row
@@ -551,20 +611,6 @@ def check_contract_consistency(row_object):
             if row[field] != other_row[field]:
                 msg = msg.format("group_id", group_id, field, row[field], other_row[field])
                 fail(msg)
-        if amount is not None and amount != 0 and group_id not in wl.CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS:
-            other_amount = float(other_row["euro"]) if oat.has_value(other_row["euro"]) else None
-            if other_amount is not None and other_amount != 0:
-                if amount * other_amount < 0:
-                    continue
-                lower, higher = sorted([abs(amount), abs(other_amount)])
-                diff = (higher - lower) / higher
-                if diff < 0.01:
-                    msg = line_str
-                    msg += ('Two contract entries share a common group_id ({}) and ' +
-                            'the cost amount is almost equal (difference less than ' +
-                            '1%), this might be a case of double reporting ({}€ vs. {}€).')
-                    msg = msg.format(group_id, amount, other_amount)
-                    fail(msg)
     same_contract_name_rows = contract_name_dict[contract_name]
     for other_row_object in same_contract_name_rows:
         other_row = other_row_object.row
@@ -767,3 +813,4 @@ if __name__ == '__main__':
         check_line_length(row_object)
         check_contract_field_content(row_object)
         check_contract_consistency(row_object)
+        check_contract_amounts(row_object)
