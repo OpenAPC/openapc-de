@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 184,608 articles, published at 557 institutions under 227 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 184,609 articles, published at 557 institutions under 227 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -100,7 +100,7 @@ This dataset contains information on 184,608 articles, published at 557 institut
 |Wolters Kluwer Health (CSAL) 2022-2024                    |      338|
 |IEEE (FinELib) 2024-2025                                  |      324|
 |American Chemical Society (CSAL) 2023-2025                |      318|
-|Wiley (CRUI-CARE) 2024-2027                               |      293|
+|Wiley (CRUI-CARE) 2024-2027                               |      294|
 |AIP Publishing (CSAL) 2022-2024                           |      287|
 |Oxford University Press (IReL) 2024-2026                  |      279|
 |Royal Society of Chemistry (MPDL) 2017-2018               |      246|
@@ -437,7 +437,7 @@ This dataset contains information on 184,608 articles, published at 557 institut
 |Queen's University                                                                                                                                 |      218|
 |Queen's University Belfast                                                                                                                         |      217|
 |University of Waterloo                                                                                                                             |      215|
-|Scuola Normale Superiore                                                                                                                           |      211|
+|Scuola Normale Superiore                                                                                                                           |      212|
 |Simon Fraser University                                                                                                                            |      209|
 |GFZ-Potsdam                                                                                                                                        |      208|
 |Tilburg University                                                                                                                                 |      208|
