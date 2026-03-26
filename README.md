@@ -18,7 +18,7 @@ At the moment OpenAPC provides the following cost data:
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
 | Articles (APCs)             |268,154                  | 551,487,371    | 480                   |
 | Monographs (BPCs)           |2,419                           | 15,963,810             | 105                            |
-| OA Agreements/Contracts     |268                 | 110,692,654   | 126                  |
+| OA Agreements/Contracts     |270                 | 110,698,363   | 126                  |
 
 ## How to access the data?
 
