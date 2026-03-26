@@ -1136,7 +1136,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
 # A whitelist to identify contract group_ids where similar cost amounts
 # have been confirmed to be legitimate. These group_ids are excluded from tests. 
 CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
-    #"031vc2293_wiley2019deal_2023", Example record - remove when adding the first case.
+    "032e6b942_wiley2019deal_2023", # DEAL Wiley 2023, Alfred-Wegener-Institut
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list

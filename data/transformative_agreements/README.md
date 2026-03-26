@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 184,609 articles, published at 557 institutions under 227 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 184,734 articles, published at 557 institutions under 230 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -49,7 +49,7 @@ This dataset contains information on 184,609 articles, published at 557 institut
 |Elsevier (FinELib) 2024-2025                              |     1922|
 |Wiley (FinELib) 2020-2022                                 |     1640|
 |Springer Nature (CRUI-CARE) 2020-2024                     |     1535|
-|Springer Nature (DEAL) 2024-2028                          |     1504|
+|Springer Nature (DEAL) 2024-2028                          |     1533|
 |Springer Nature (IReL) 2021-2024                          |     1425|
 |Springer Nature (CSAL) 2023-2025                          |     1409|
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
@@ -64,15 +64,15 @@ This dataset contains information on 184,609 articles, published at 557 institut
 |Springer Nature (FinELib) 2024-2025                       |      906|
 |Wiley (CRUI-CARE) 2020-2023                               |      780|
 |Wiley (IReL) 2025-2028                                    |      710|
+|Wiley (DEAL) 2024-2028                                    |      708|
 |Sage (FinELib) 2023-2024                                  |      707|
-|Wiley (DEAL) 2024-2028                                    |      661|
 |Sage (CSAL) 2023-2025                                     |      649|
 |Oxford University Press (CSAL) 2023-2024                  |      642|
+|Elsevier (DEAL) 2023-2028                                 |      636|
 |Springer Nature (CRUE-CSIC Alliance) 2021-2024            |      636|
 |Cambridge University Press (IReL) 2021-2025               |      622|
 |Springer Compact (MPDL) 2015-2018                         |      622|
 |Taylor & Francis (IReL) 2024-2026                         |      620|
-|Elsevier (DEAL) 2023-2028                                 |      603|
 |Sage (FinELib) 2020-2022                                  |      588|
 |American Chemical Society (FinELib) 2021-2023             |      565|
 |Sage (IReL) 2021-2023                                     |      562|
@@ -224,6 +224,8 @@ This dataset contains information on 184,609 articles, published at 557 institut
 |Association for Computing Machinery (CSAL) 2022-2025      |        9|
 |IReL ECS Agreement                                        |        8|
 |Portland Press (CSIC) 2023-2024                           |        8|
+|Taylor & Francis (ZBW) 2024-2026                          |        8|
+|Nature (MPDL) 2021-2024                                   |        7|
 |The Company of Biologists (CSIC) 2024-2026                |        6|
 |The Electrochemical Society (IReL) 2022-2022              |        6|
 |The Electrochemical Society (IReL) 2023-2023              |        6|
@@ -247,6 +249,7 @@ This dataset contains information on 184,609 articles, published at 557 institut
 |Cambridge University Press (EISZ) 2022-2022               |        2|
 |Rockefeller University Press (CSIC) 2023-2024             |        2|
 |The Company of Biologists (IReL) 2020-2022                |        2|
+|ACS (HGF) 2023-2025                                       |        1|
 |Cold Spring Harbor Laboratory Press (IReL) 2021-2021      |        1|
 |Rockefeller University Press (IReL) 2022-2024             |        1|
 |Walter de Gruyter (EISZ) 2022-2022                        |        1|
@@ -446,6 +449,7 @@ This dataset contains information on 184,609 articles, published at 557 institut
 |University of Manitoba                                                                                                                             |      201|
 |Örebro University                                                                                                                                  |      200|
 |University of Bath                                                                                                                                 |      199|
+|Alfred-Wegener-Institut                                                                                                                            |      198|
 |MLU Halle-Wittenberg                                                                                                                               |      196|
 |TiHo Hannover                                                                                                                                      |      195|
 |Bern University of Applied Sciences                                                                                                                |      194|
@@ -522,7 +526,6 @@ This dataset contains information on 184,609 articles, published at 557 institut
 |Royal Botanic Gardens                                                                                                                              |       76|
 |Cranfield University                                                                                                                               |       75|
 |Mälardalen University                                                                                                                              |       74|
-|Alfred-Wegener-Institut                                                                                                                            |       73|
 |Bangor University                                                                                                                                  |       72|
 |University of Hull                                                                                                                                 |       72|
 |University of Ulster                                                                                                                               |       72|
