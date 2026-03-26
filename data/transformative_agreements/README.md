@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 184,734 articles, published at 557 institutions under 230 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 184,741 articles, published at 557 institutions under 231 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -48,8 +48,8 @@ This dataset contains information on 184,734 articles, published at 557 institut
 |Springer Compact (VSNU) 2018-2023                         |     2042|
 |Elsevier (FinELib) 2024-2025                              |     1922|
 |Wiley (FinELib) 2020-2022                                 |     1640|
+|Springer Nature (DEAL) 2024-2028                          |     1539|
 |Springer Nature (CRUI-CARE) 2020-2024                     |     1535|
-|Springer Nature (DEAL) 2024-2028                          |     1533|
 |Springer Nature (IReL) 2021-2024                          |     1425|
 |Springer Nature (CSAL) 2023-2025                          |     1409|
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
@@ -252,6 +252,7 @@ This dataset contains information on 184,734 articles, published at 557 institut
 |ACS (HGF) 2023-2025                                       |        1|
 |Cold Spring Harbor Laboratory Press (IReL) 2021-2021      |        1|
 |Rockefeller University Press (IReL) 2022-2024             |        1|
+|Sage (BSB) 2024-2025                                      |        1|
 |Walter de Gruyter (EISZ) 2022-2022                        |        1|
 |Wolters Kluwer Health (EISZ) 2022-2022                    |        1|
 
@@ -666,6 +667,7 @@ This dataset contains information on 184,734 articles, published at 557 institut
 |HAWK Hildesheim/Holzminden/Göttingen                                                                                                               |       15|
 |Metropolia University of Applied Sciences                                                                                                          |       15|
 |TH Köln                                                                                                                                            |       15|
+|ASH Berlin                                                                                                                                         |       14|
 |HS RheinMain                                                                                                                                       |       14|
 |Birmingham City University                                                                                                                         |       13|
 |DIfE                                                                                                                                               |       13|
@@ -715,7 +717,6 @@ This dataset contains information on 184,734 articles, published at 557 institut
 |University of Northampton                                                                                                                          |        8|
 |University of Wales Trinity St David                                                                                                               |        8|
 |Zurich University of the Arts                                                                                                                      |        8|
-|ASH Berlin                                                                                                                                         |        7|
 |Academisch Centrum Tandheelkunde Amsterdam (ACTA)                                                                                                  |        7|
 |Anglia Ruskin University                                                                                                                           |        7|
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
