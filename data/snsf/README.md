@@ -39,6 +39,7 @@ Financial Reporting at the SNSF is always done in Swiss Francs (CHF). For OpenAP
 |2022|1|1.0048|Whole publication year of 2022, delivery 2023-02-06|
 |2023|1|0.9717|Whole publication year of 2023, delivery 2024-03-05 (as provided by Chronoshub on 2024-01-31)|
 |2024|1|0.9524|Whole publication year of 2024, delivery 2025-05-19 (as provided by Chronoshub on 2025-04-14)|
+|2025|1|0.9370|Whole publication year of 2025, delivery 2026-03-11 (as provided by Chronoshub on 2026-03-11)|
 
 ## Co-Funding
 
