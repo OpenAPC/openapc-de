@@ -643,6 +643,8 @@ JOURNAL_OWNER_CHANGED = {
 	"0730-7268": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Environmental Toxicology and Chemistry 
 	"1552-8618": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Environmental Toxicology and Chemistry (electronic) 
 	"2689-288X": ["Mary Ann Liebert Inc", "SAGE Publications"], # Neurotrauma Reports 
+	"2514-183X": ["SAGE Publications", "MDPI AG"], # Clinical and Translational Neuroscience 
+	"2192-4406": ["Springer Nature", "Elsevier BV"], # EURO Journal on Computational Optimization 
 
 }
 
