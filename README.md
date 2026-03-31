@@ -16,7 +16,7 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |268,304                  | 551,804,504    | 480                   |
+| Articles (APCs)             |269,676                  | 556,692,982    | 480                   |
 | Monographs (BPCs)           |2,419                           | 15,963,810             | 105                            |
 | OA Agreements/Contracts     |281                 | 110,983,510   | 126                  |
 
@@ -59,7 +59,7 @@ The following institutions have contributed to OpenAPC so far:
 ###  Higher education institutions 
 
 - [Aachen University of Applied Sciences](https://www.fh-aachen.de/fh-aachen/arbeiten/servicestellen-fuer-beschaeftigte/bibliotheksservices-fuer-beschaeftigte/forschen-publizieren/publikationsfonds-forschung)
-- [Alice Salomon Hochschule Berlin](https://www.ash-berlin.eu/studium/einrichtungen-fuer-studierende/bibliothek/open-access/#c29181)
+- [Alice Salomon Hochschule Berlin](https://www.ash-berlin.eu/studium/einrichtungen-fuer-studierende/bibliothek/open-research/#c41548)
 - [Bamberg University](https://www.uni-bamberg.de/en/library/publishing/oa-publishing/)
 - [Bauhaus-Universität Weimar](https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/)
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
@@ -999,13 +999,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 249,482 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 480 research-performing institutions and research funders.
+The APC data set contains information on 250,854 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 480 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 510,034,961. The average payment was € 2,044 and the median was € 1,891.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 514,923,439. The average payment was € 2,053 and the median was € 1,896.
 
-182,918 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 338,760,285, including value-added tax; the average payment was € 1,852 (median =  € 1,723, SD = € 899).
+184,277 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 343,610,655, including value-added tax; the average payment was € 1,865 (median =  € 1,728, SD = € 920).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 66,564 articles in the data set were published in hybrid journals. Total expenditure amounts to 171,274,676 €; the average fee was € 2,573 (median =  € 2,512, SD = € 1,155).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 66,577 articles in the data set were published in hybrid journals. Total expenditure amounts to 171,312,784 €; the average fee was € 2,573 (median =  € 2,512, SD = € 1,155).
 
 Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
@@ -1038,10 +1038,10 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2019   |      17,533|   1,707|     1,636|    10.7 -  7,684|           7,121|       2,535|         2,498|    75.3 -  9,500|
 |2020   |      19,712|   1,706|     1,668|     0.2 -  8,906|           4,573|       2,497|         2,534|    16.6 -  7,416|
 |2021   |      23,291|   1,792|     1,754|    27.0 -  8,341|           3,621|       2,561|         2,513|    30.2 - 11,400|
-|2022   |      26,279|   2,071|     1,991|    12.4 - 11,175|           3,149|       2,905|         2,730|     2.1 - 14,607|
+|2022   |      26,280|   2,071|     1,991|    12.4 - 11,175|           3,148|       2,905|         2,730|     2.1 - 14,607|
 |2023   |      23,041|   2,282|     2,207|    35.0 -  9,893|           3,552|       3,022|         2,839|   106.4 - 11,895|
-|2024   |      11,309|   2,439|     2,345|    40.0 - 10,030|           2,074|       3,116|         2,904|    28.4 - 13,044|
-|2025   |       1,065|   2,338|     2,396|   100.0 -  8,854|             108|       3,178|         3,301|   200.0 -  8,095|
+|2024   |      11,311|   2,439|     2,345|    40.0 - 10,030|           2,073|       3,117|         2,910|    28.4 - 13,044|
+|2025   |       2,421|   3,030|     2,720|   100.0 -  8,854|             123|       3,124|         3,155|   148.3 -  8,095|
 |2026   |           2|   2,094|     2,094| 1,519.6 -  2,667|              NA|          NA|            NA|               NA|
 
 
@@ -1146,8 +1146,8 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.76%       |88.51%   |
-|PubMed ID                  |  72.46%      | NA                                                          |
-|PubMed Central ID          |  66.62%     | NA                                                          |
+|PubMed ID                  |  72.5%      | NA                                                          |
+|PubMed Central ID          |  66.68%     | NA                                                          |
 
 
 
