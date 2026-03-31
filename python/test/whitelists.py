@@ -642,6 +642,7 @@ JOURNAL_OWNER_CHANGED = {
 	"0003-4967": ["BMJ", "Elsevier BV"], # Annals of the Rheumatic Diseases
 	"0730-7268": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Environmental Toxicology and Chemistry 
 	"1552-8618": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Environmental Toxicology and Chemistry (electronic) 
+	"2689-288X": ["Mary Ann Liebert Inc", "SAGE Publications"], # Neurotrauma Reports 
 
 }
 
