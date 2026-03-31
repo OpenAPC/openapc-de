@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 184,845 articles, published at 557 institutions under 232 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 184,853 articles, published at 557 institutions under 233 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -223,6 +223,7 @@ This dataset contains information on 184,845 articles, published at 557 institut
 |BMJ Publishing (CSAL) 2024-2024                           |       10|
 |Royal Society of Chemistry (CRUI-CARE) 2025               |       10|
 |Association for Computing Machinery (CSAL) 2022-2025      |        9|
+|ACS (University of Jyväskylä) 2025-2026                   |        8|
 |IReL ECS Agreement                                        |        8|
 |Portland Press (CSIC) 2023-2024                           |        8|
 |Taylor & Francis (ZBW) 2024-2026                          |        8|
@@ -294,7 +295,7 @@ This dataset contains information on 184,845 articles, published at 557 institut
 |Frankfurt U                                                                                                                                        |     1716|
 |Wuerzburg U                                                                                                                                        |     1690|
 |Friedrich-Schiller-Universität Jena                                                                                                                |     1655|
-|University of Jyväskylä                                                                                                                            |     1548|
+|University of Jyväskylä                                                                                                                            |     1556|
 |Bonn U                                                                                                                                             |     1495|
 |Heidelberg U                                                                                                                                       |     1385|
 |University of Galway                                                                                                                               |     1255|
