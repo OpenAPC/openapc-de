@@ -1132,6 +1132,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1323-3580", # Publications of the Astronomical Society of Australia, Gold OA since 2025
     "0947-5745", # Journal of Zoological Systematics and Evolutionary Research, Gold OA since 2022
     "1573-6830", # Cellular and Molecular Neurobiology, Gold OA since 2024
+    "1473-5504", # International Journal of Astrobiology, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
