@@ -1668,7 +1668,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01js2sh04</opencost:value>
@@ -3758,7 +3758,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/000h6jb29</opencost:value>
@@ -8618,7 +8618,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02h2x0161</opencost:value>
@@ -22596,7 +22596,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01zy2cs03</opencost:value>
@@ -28138,7 +28138,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04z8jg394</opencost:value>
@@ -32129,7 +32129,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02nv7yv05</opencost:value>
@@ -38546,7 +38546,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/00cfam450</opencost:value>
