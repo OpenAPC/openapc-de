@@ -1962,7 +1962,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>Optica (TIB) 2023-2024</opencost:contract_name>
+    <opencost:contract_name>Optica (TIB) 2023-2026</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01js2sh04</opencost:value>
@@ -9612,7 +9612,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IEEE (TU Ilmenau) 2020-2023</opencost:contract_name>
+    <opencost:contract_name>IEEE (TU Ilmenau) 2022-2023</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04mz5ra38</opencost:value>
@@ -10542,7 +10542,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>Optica (TIB) 2023-2024</opencost:contract_name>
+    <opencost:contract_name>Optica (TIB) 2023-2026</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02azyry73</opencost:value>
@@ -16589,7 +16589,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IEEE (TU Ilmenau) 2020-2023</opencost:contract_name>
+    <opencost:contract_name>IEEE (TU Ilmenau) 2022-2023</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01k97gp34</opencost:value>
@@ -18093,7 +18093,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>Optica (TIB) 2023-2024</opencost:contract_name>
+    <opencost:contract_name>Optica (TIB) 2023-2026</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04vnq7t77</opencost:value>
@@ -23077,7 +23077,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>Optica (TIB) 2023-2024</opencost:contract_name>
+    <opencost:contract_name>Optica (TIB) 2023-2026</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/0304hq317</opencost:value>
