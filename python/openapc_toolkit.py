@@ -701,6 +701,8 @@ class DOABAnalysis(object):
         urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
 
 class ESACHandling(TempFileHandling):
+    
+    ESAC_TIME_STAMP = "%Y-%m-%d %H:%M:%S"
 
     def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
         super().__init__("ESAC_Transformative_Agreement_Registry", "xlsx", url="https://keeper.mpdl.mpg.de/f/7fbb5edd24ab4c5ca157/?dl=1", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
@@ -721,11 +723,12 @@ class ESACHandling(TempFileHandling):
         if esac_id not in self.mapping_table:
             return None
         entry = self.mapping_table[esac_id]
-        publisher_oapc = mappings.ESAC_PUBLISHER_MAPPINGS.get(entry["Publisher"], "")
-        entry["Publisher_OAPC"] = publisher_oapc
+        publisher_oapc = mappings.ESAC_PUBLISHER_MAPPINGS.get(entry["Publisher"], {})
         if not publisher_oapc and show_warnings:
             msg = 'ESAC publisher "{}" not found in ESAC_PUBLISHER_MAPPINGS'
             print_y("WARNING: " + msg.format(entry["Publisher"]))
+        entry["Publisher_short"] = publisher_oapc.get("short", "")
+        entry["Publisher_full"] = publisher_oapc.get("full", "")
         country_oapc = mappings.ESAC_COUNTRY_MAPPINGS.get(entry["Country"], "")
         entry["Country_OAPC"] = country_oapc
         if not country_oapc and show_warnings:
@@ -2179,9 +2182,14 @@ def _process_agreement_value(agreement, row_num):
     esac_entry = ESAC_HANDLING.get_esac_entry(agreement)
     if esac_entry is not None:
         publisher = esac_entry["Publisher"]
-        if esac_entry["Publisher_OAPC"] != "":
-            publisher = esac_entry["Publisher_OAPC"]
-        contract_name = "{} {} agreement".format(esac_entry["Organization"], publisher)
+        organization = esac_entry["Organization"]
+        if esac_entry["Publisher_short"] != "":
+            publisher = esac_entry["Publisher_short"]
+        start = esac_entry["Start date"]
+        end = esac_entry["End date"]
+        start_time = datetime.datetime.strptime(start, ESAC_HANDLING.ESAC_TIME_STAMP)
+        end_time = datetime.datetime.strptime(end, ESAC_HANDLING.ESAC_TIME_STAMP)
+        contract_name = "{} ({}) {}-{}".format(publisher, organization, start_time.year, end_time.year)
         msg = "Line %s: agreement '%s' found in ESAC Registry, contract_name constructed from ESAC data: '%s'"
         logging.info(msg, row_num, agreement, contract_name)
         ret["identifier"] = agreement

@@ -813,9 +813,11 @@ ESAC_COUNTRY_MAPPINGS = {
     "Austria": "AUT",
 }
 
-# Maps ESAC Registry Publisher Names to OpenAPC variants
+# Maps ESAC Registry Publisher Names to OpenAPC standards and short 
+# versions used in contract_name construction
 ESAC_PUBLISHER_MAPPINGS = {
-    "Taylor & Francis": "Informa UK Limited",
+    "Taylor & Francis": {"full": "Informa UK Limited", "short": "Taylor & Francis"},
+    "American Chemical Society": {"full": "American Chemical Society (ACS)", "short": "ACS"},
 }
 
 # maps ROR geo names to terms used in the institutions table
