@@ -23,7 +23,6 @@ parser.add_argument("xml_files", nargs="+", help="One or more openCost XML files
 parser.add_argument("-v", "--version", choices=["v1", "v2"], default="v2")
 parser.add_argument("-p", "--prefix", default="", help="An optional prefix for generated file names")
 parser.add_argument("-l", "--log_level", choices=["DEBUG", "INFO", "WARNING", "ERROR"], default="INFO", help="Set the log level of the underlying openCost toolkit library")
-parser.add_argument("-m", "--merge_groups", action="store_true", help="Merge invoice groups with identical group_id by adding their total costs")
 parser.add_argument("-i", "--institution", help="Transform data for a specific institution only")
 parser.add_argument("--no_collected_file", action="store_true", help="Do not generate a collected file (all_articles.csv)")
 
@@ -58,8 +57,6 @@ contracts_lookup = oat.ContractsLookup()
 
 articles, invoice_groups = octk.process_opencost_xml(*xml_content_strings)
 invoice_groups = octk.detect_invoice_group_duplicates(invoice_groups)
-if args.merge_groups:
-    invoice_groups = octk.merge_invoice_groups(invoice_groups)
 
 with open(oat.INSTITUTIONS_FILE, "r") as ins_file:
     reader = csv.DictReader(ins_file)
@@ -196,9 +193,7 @@ for invoice_group in invoice_groups:
         "period_to": invoice_group["period"],
     }
     for invoice in invoice_group["invoices"]:
-        for cost_type, amount in invoice.items():
-            if cost_type == "date_invoice":
-                continue
+        for cost_type, amount in invoice["costs"]:
             line = deepcopy(line_tmpl)
             line["cost_type"] = cost_type
             line["euro"] = str(round(amount, 2))

@@ -436,7 +436,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/05591te55</opencost:value>
@@ -1002,7 +1002,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01hcx6992</opencost:value>
@@ -1198,7 +1198,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01hcx6992</opencost:value>
@@ -1668,7 +1668,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01js2sh04</opencost:value>
@@ -1864,7 +1864,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01js2sh04</opencost:value>
@@ -1962,7 +1962,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>Optica (TIB) 2023-2024</opencost:contract_name>
+    <opencost:contract_name>Optica (TIB) 2023-2026</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01js2sh04</opencost:value>
@@ -2262,7 +2262,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/033eqas34</opencost:value>
@@ -2733,7 +2733,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01weqhp73</opencost:value>
@@ -2884,7 +2884,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01weqhp73</opencost:value>
@@ -3758,7 +3758,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/000h6jb29</opencost:value>
@@ -4101,7 +4101,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02hpadn98</opencost:value>
@@ -4426,7 +4426,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/00a208s56</opencost:value>
@@ -4824,7 +4824,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/00pd74e08</opencost:value>
@@ -5905,7 +5905,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01mk1hj86</opencost:value>
@@ -6101,7 +6101,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01eezs655</opencost:value>
@@ -6285,7 +6285,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01eezs655</opencost:value>
@@ -8205,7 +8205,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/0076zct58</opencost:value>
@@ -8618,7 +8618,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02h2x0161</opencost:value>
@@ -9258,7 +9258,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04mz5ra38</opencost:value>
@@ -9612,7 +9612,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IEEE (TU Ilmenau) 2020-2023</opencost:contract_name>
+    <opencost:contract_name>IEEE (TU Ilmenau) 2022-2023</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04mz5ra38</opencost:value>
@@ -9802,7 +9802,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/05n911h24</opencost:value>
@@ -10021,7 +10021,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/012k1v959</opencost:value>
@@ -10493,7 +10493,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02azyry73</opencost:value>
@@ -10542,7 +10542,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>Optica (TIB) 2023-2024</opencost:contract_name>
+    <opencost:contract_name>Optica (TIB) 2023-2026</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02azyry73</opencost:value>
@@ -11154,7 +11154,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/031bsb921</opencost:value>
@@ -11632,7 +11632,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02wxx3e24</opencost:value>
@@ -12073,7 +12073,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/03zdwsf69</opencost:value>
@@ -13116,7 +13116,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04t3en479</opencost:value>
@@ -13742,7 +13742,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/032000t02</opencost:value>
@@ -14515,7 +14515,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/033n9gh91</opencost:value>
@@ -15166,7 +15166,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/033bb5z47</opencost:value>
@@ -16442,7 +16442,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01k97gp34</opencost:value>
@@ -16589,7 +16589,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IEEE (TU Ilmenau) 2020-2023</opencost:contract_name>
+    <opencost:contract_name>IEEE (TU Ilmenau) 2022-2023</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01k97gp34</opencost:value>
@@ -17024,7 +17024,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/0234wmv40</opencost:value>
@@ -17837,7 +17837,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04vnq7t77</opencost:value>
@@ -18093,7 +18093,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>Optica (TIB) 2023-2024</opencost:contract_name>
+    <opencost:contract_name>Optica (TIB) 2023-2026</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04vnq7t77</opencost:value>
@@ -18574,7 +18574,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/05qpz1x62</opencost:value>
@@ -20021,7 +20021,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/00f7hpc57</opencost:value>
@@ -20290,7 +20290,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/00r1edq15</opencost:value>
@@ -20985,7 +20985,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/0546hnb39</opencost:value>
@@ -21181,7 +21181,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/0546hnb39</opencost:value>
@@ -22304,7 +22304,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01zy2cs03</opencost:value>
@@ -22596,7 +22596,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01zy2cs03</opencost:value>
@@ -22803,7 +22803,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04qb8nc58</opencost:value>
@@ -23022,7 +23022,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/0304hq317</opencost:value>
@@ -23077,7 +23077,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>Optica (TIB) 2023-2024</opencost:contract_name>
+    <opencost:contract_name>Optica (TIB) 2023-2026</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/0304hq317</opencost:value>
@@ -23359,7 +23359,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/0304hq317</opencost:value>
@@ -24767,7 +24767,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/05hkkdn48</opencost:value>
@@ -25177,7 +25177,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04tsk2644</opencost:value>
@@ -25422,7 +25422,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04tsk2644</opencost:value>
@@ -26123,7 +26123,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/010nsgg66</opencost:value>
@@ -26590,7 +26590,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/010nsgg66</opencost:value>
@@ -28017,7 +28017,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02k8cbn47</opencost:value>
@@ -28138,7 +28138,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04z8jg394</opencost:value>
@@ -29409,7 +29409,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/03s7gtk40</opencost:value>
@@ -30748,7 +30748,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/01y9bpm73</opencost:value>
@@ -31400,7 +31400,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/024z2rq82</opencost:value>
@@ -31639,7 +31639,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/024z2rq82</opencost:value>
@@ -32129,7 +32129,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02nv7yv05</opencost:value>
@@ -32365,7 +32365,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/02nv7yv05</opencost:value>
@@ -33454,7 +33454,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/042aqky30</opencost:value>
@@ -33990,7 +33990,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/046ak2485</opencost:value>
@@ -34180,7 +34180,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/046ak2485</opencost:value>
@@ -34903,7 +34903,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACM (hebis) 2021-2026</opencost:contract_name>
+    <opencost:contract_name>ACM (hebis) 2021-2028</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/03p14d497</opencost:value>
@@ -35283,7 +35283,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/00g656d67</opencost:value>
@@ -36282,7 +36282,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04zc7p361</opencost:value>
@@ -37368,7 +37368,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/04cvxnb49</opencost:value>
@@ -38137,7 +38137,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/03bnmw459</opencost:value>
@@ -38546,7 +38546,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>ACS (Helmholtz) 2023-2025</opencost:contract_name>
+    <opencost:contract_name>ACS (HGF) 2023-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/00cfam450</opencost:value>
@@ -38742,7 +38742,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/00cfam450</opencost:value>
@@ -39024,7 +39024,7 @@
     </opencost:cost_data>
   </opencost:contract>
   <opencost:contract>
-    <opencost:contract_name>IOP (TIB) 2022-2024</opencost:contract_name>
+    <opencost:contract_name>IOP (TIB) 2022-2025</opencost:contract_name>
     <opencost:institution>
       <opencost:id>
         <opencost:value>https://ror.org/001w7jn25</opencost:value>
