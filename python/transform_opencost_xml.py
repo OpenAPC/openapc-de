@@ -193,9 +193,7 @@ for invoice_group in invoice_groups:
         "period_to": invoice_group["period"],
     }
     for invoice in invoice_group["invoices"]:
-        for cost_type, amount in invoice.items():
-            if cost_type == "date_invoice":
-                continue
+        for cost_type, amount in invoice["costs"]:
             line = deepcopy(line_tmpl)
             line["cost_type"] = cost_type
             line["euro"] = str(round(amount, 2))
