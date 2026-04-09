@@ -319,6 +319,7 @@ The following institutions have contributed to OpenAPC so far:
 - [University of Lausanne](https://www.unil.ch/openscience/en/home/menuinst/open-access/open-access-a-lunil/soutien-360/voie-doree/gold-open-access-fund-unil.html)
 - [University of Neuchatel](https://www.unine.ch/)
 - [University of St.Gallen](https://www.unisg.ch/)
+- [University of Teacher Education NMS Bern](https://www.phnmsbern.ch)
 - [University of Teacher Education Zug](https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug)
 - [University of Teacher Education in Special Needs](https://www.hfh.ch/en)
 - [University of Zurich](https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access.html)
