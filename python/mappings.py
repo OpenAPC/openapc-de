@@ -86,6 +86,7 @@ PUBLISHER_MAPPINGS = {
 
 JOURNAL_MAPPINGS = {
     "PLoS ONE": "PLOS ONE",
+    "PLOS One": "PLOS ONE",
     "Phys. Chem. Chem. Phys.": "Physical Chemistry Chemical Physics",
     "J. Mater. Chem. A": "Journal of Materials Chemistry A",
     "J. Mater. Chem. B": "Journal of Materials Chemistry B",
