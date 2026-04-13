@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 186,461 articles, published at 558 institutions under 233 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 186,468 articles, published at 558 institutions under 233 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -49,7 +49,7 @@ This dataset contains information on 186,461 articles, published at 558 institut
 |Springer Compact (VSNU) 2018-2023                         |     2042|
 |Elsevier (FinELib) 2024-2025                              |     1922|
 |Wiley (FinELib) 2020-2022                                 |     1640|
-|Springer Nature (DEAL) 2024-2028                          |     1577|
+|Springer Nature (DEAL) 2024-2028                          |     1581|
 |Springer Nature (CRUI-CARE) 2020-2024                     |     1535|
 |Springer Nature (IReL) 2021-2024                          |     1425|
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
@@ -63,10 +63,10 @@ This dataset contains information on 186,461 articles, published at 558 institut
 |Wiley (KEMOE/FWF) 2018-2020                               |      928|
 |Springer Nature (FinELib) 2024-2025                       |      906|
 |Wiley (CRUI-CARE) 2020-2023                               |      780|
-|Wiley (DEAL) 2024-2028                                    |      723|
+|Wiley (DEAL) 2024-2028                                    |      724|
 |Wiley (IReL) 2025-2028                                    |      710|
 |Sage (FinELib) 2023-2024                                  |      707|
-|Elsevier (DEAL) 2023-2028                                 |      660|
+|Elsevier (DEAL) 2023-2028                                 |      662|
 |Sage (CSAL) 2023-2025                                     |      649|
 |Oxford University Press (CSAL) 2023-2024                  |      642|
 |Springer Nature (CRUE-CSIC Alliance) 2021-2024            |      636|
@@ -608,6 +608,7 @@ This dataset contains information on 186,461 articles, published at 558 institut
 |Leibniz-BIPS                                                                                                                                       |       31|
 |Leibniz-ZALF                                                                                                                                       |       31|
 |University of West of Scotland                                                                                                                     |       31|
+|HS Hannover                                                                                                                                        |       30|
 |Hertie School                                                                                                                                      |       30|
 |University of Skövde                                                                                                                               |       30|
 |Goldsmiths                                                                                                                                         |       29|
@@ -630,7 +631,6 @@ This dataset contains information on 186,461 articles, published at 558 institut
 |Medical University of Innsbruck                                                                                                                    |       24|
 |Mount Saint Vincent University                                                                                                                     |       24|
 |St. Francis Xavier University                                                                                                                      |       24|
-|HS Hannover                                                                                                                                        |       23|
 |Turku University of Applied Sciences                                                                                                               |       23|
 |Universität Erfurt                                                                                                                                 |       23|
 |Dalarna University                                                                                                                                 |       22|
