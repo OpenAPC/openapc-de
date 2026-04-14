@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 186,604 articles, published at 558 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 186,932 articles, published at 558 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -24,8 +24,8 @@ This dataset contains information on 186,604 articles, published at 558 institut
 
 |Agreement                                                 | Articles|
 |:---------------------------------------------------------|--------:|
-|Springer Nature (DEAL) 2020-2023                          |    30388|
-|Wiley (DEAL) 2019-2023                                    |    20593|
+|Springer Nature (DEAL) 2020-2023                          |    30359|
+|Wiley (DEAL) 2019-2023                                    |    20589|
 |Springer Compact                                          |    13332|
 |Elsevier (CSAL) 2020-2023                                 |    10742|
 |Sage (CRKN) 2021-2023                                     |     5811|
@@ -48,8 +48,8 @@ This dataset contains information on 186,604 articles, published at 558 institut
 |Wiley (FinELib) 2023-2024                                 |     2208|
 |Springer Compact (VSNU) 2018-2023                         |     2042|
 |Elsevier (FinELib) 2024-2025                              |     1922|
+|Springer Nature (DEAL) 2024-2028                          |     1776|
 |Wiley (FinELib) 2020-2022                                 |     1640|
-|Springer Nature (DEAL) 2024-2028                          |     1634|
 |Springer Nature (CRUI-CARE) 2020-2024                     |     1535|
 |Springer Nature (IReL) 2021-2024                          |     1425|
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
@@ -62,11 +62,11 @@ This dataset contains information on 186,604 articles, published at 558 institut
 |IEEE (FinELib) 2021-2023                                  |      933|
 |Wiley (KEMOE/FWF) 2018-2020                               |      928|
 |Springer Nature (FinELib) 2024-2025                       |      906|
+|Wiley (DEAL) 2024-2028                                    |      833|
 |Wiley (CRUI-CARE) 2020-2023                               |      780|
-|Wiley (DEAL) 2024-2028                                    |      748|
+|Elsevier (DEAL) 2023-2028                                 |      776|
 |Wiley (IReL) 2025-2028                                    |      710|
 |Sage (FinELib) 2023-2024                                  |      707|
-|Elsevier (DEAL) 2023-2028                                 |      688|
 |Sage (CSAL) 2023-2025                                     |      649|
 |Oxford University Press (CSAL) 2023-2024                  |      642|
 |Springer Nature (CRUE-CSIC Alliance) 2021-2024            |      636|
@@ -183,6 +183,7 @@ This dataset contains information on 186,604 articles, published at 558 institut
 |BMJ Publishing (IReL) 2021-2023                           |       36|
 |BMJ Publishing (IReL) 2024-2026                           |       36|
 |Microbiology Society (IReL) 2024-2026                     |       36|
+|Taylor & Francis (ZBW) 2024-2026                          |       36|
 |Wiley (EISZ) 2022-2022                                    |       35|
 |AIP Publishing (CRUI-CARE) 2023-2026                      |       34|
 |Springer Nature (FinELib) 2022-2024                       |       33|
@@ -192,35 +193,35 @@ This dataset contains information on 186,604 articles, published at 558 institut
 |American Chemical Society (CRUI-CARE) 2024-2026           |       31|
 |American Psychological Association (IReL) 2022-2024       |       30|
 |QNL IEEE Agreement                                        |       30|
+|Sage (BSB) 2024-2025                                      |       30|
+|Sage (BSB) 2021-2023                                      |       29|
 |American Physical Society (IReL) 2025-2027                |       28|
+|CUP (BSB) 2022-2024                                       |       28|
 |Royal Irish Academy (IReL) 2021-2023                      |       28|
-|Sage (BSB) 2021-2023                                      |       28|
 |The Royal Society (IReL) 2024-2026                        |       27|
 |Elsevier (IReL) 2024-2026                                 |       26|
 |Brill (CSIC) 2023-2024                                    |       23|
-|CUP (BSB) 2022-2024                                       |       23|
 |Emerald (KEMOE) 2017-2019                                 |       23|
 |Karger (CzechELib) 2023-2027                              |       23|
 |The Royal Society (CSIC) 2024-2024                        |       22|
 |Optica Publishing Group (IReL) 2025-2027                  |       21|
 |Royal Irish Academy (IReL) 2024-2026                      |       21|
-|Taylor & Francis (ZBW) 2024-2026                          |       21|
-|Sage (BSB) 2024-2025                                      |       20|
+|Walter de Gruyter (SUB Göttingen) 2023-2024               |       20|
 |IOP Publishing (CzechELib) 2023-2025                      |       19|
 |Sage (CSIC) 2024-2025                                     |       19|
 |The Royal Society (CSIC) 2023-2023                        |       19|
 |CzechELib SAGE agreement                                  |       18|
 |Sage (KEMOE) 2019-2022                                    |       17|
-|Walter de Gruyter (SUB Göttingen) 2023-2024               |       17|
 |AIP Publishing (CzechELib) 2023-2025                      |       16|
 |IEEE (KEMOE/FWF) 2021-2024                                |       16|
 |Sage (KEMOE) 2016-2018                                    |       16|
 |Walter de Gruyter (CSIC) 2023-2025                        |       16|
+|Nature (MPDL) 2021-2024                                   |       14|
 |Wolters Kluwer Health (CRUI-CARE) 2025-2027               |       14|
 |Association for Computing Machinery (IReL) 2020-2022      |       13|
+|Hogrefe (SUB Göttingen) 2024-2026                         |       13|
 |Microbiology Society (CSIC) 2021-2023                     |       13|
 |The Royal Society (CSIC) 2022-2022                        |       12|
-|Hogrefe (SUB Göttingen) 2024-2026                         |       11|
 |The Company of Biologists (CSIC) 2021-2023                |       11|
 |Walter de Gruyter (CRUI-CARE) 2023-2025                   |       11|
 |BMJ Publishing (CSAL) 2024-2024                           |       10|
@@ -229,15 +230,14 @@ This dataset contains information on 186,604 articles, published at 558 institut
 |IReL ECS Agreement                                        |        8|
 |Portland Press (CSIC) 2023-2024                           |        8|
 |RSC (TIB) 2024-2027                                       |        8|
-|Nature (MPDL) 2021-2024                                   |        7|
+|BMJ (BSB) 2023-2024                                       |        6|
+|Hogrefe (SUB Göttingen) 2021-2023                         |        6|
 |The Company of Biologists (CSIC) 2024-2026                |        6|
 |The Electrochemical Society (IReL) 2022-2022              |        6|
 |The Electrochemical Society (IReL) 2023-2023              |        6|
 |Emerald (CRUI-CARE) 2025                                  |        5|
-|Hogrefe (SUB Göttingen) 2021-2023                         |        5|
 |The Company of Biologists (IReL) 2023-2025                |        5|
 |Association for Computing Machinery (CRUI-CARE) 2022-2025 |        4|
-|BMJ (BSB) 2023-2024                                       |        4|
 |Microbiology Society (CSIC) 2024-2024                     |        4|
 |Portland Press (CSIC) 2021-2022                           |        4|
 |The Electrochemical Society (IReL) 2021-2021              |        4|
@@ -290,11 +290,11 @@ This dataset contains information on 186,604 articles, published at 558 institut
 |University of Padua                                                                                                                                |     2148|
 |KIT                                                                                                                                                |     2125|
 |Trinity College Dublin                                                                                                                             |     2089|
+|Wuerzburg U                                                                                                                                        |     2018|
 |University of Eastern Finland                                                                                                                      |     1786|
 |Tuebingen U                                                                                                                                        |     1782|
 |University College Cork                                                                                                                            |     1726|
 |Frankfurt U                                                                                                                                        |     1716|
-|Wuerzburg U                                                                                                                                        |     1690|
 |Friedrich-Schiller-Universität Jena                                                                                                                |     1655|
 |University of Jyväskylä                                                                                                                            |     1556|
 |Bonn U                                                                                                                                             |     1495|
