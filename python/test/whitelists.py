@@ -647,6 +647,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2192-4406": ["Springer Nature", "Elsevier BV"], # EURO Journal on Computational Optimization 
 	"0032-5899": ["Informa UK Limited", "SAGE Publications"], # Powder Metallurgy 
 	"1743-2901": ["Informa UK Limited", "SAGE Publications"], # Powder Metallurgy (electronic)
+	"2364-1177": ["Springer Nature", "Walter de Gruyter GmbH"], # Asia-Pacific Science Education
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
