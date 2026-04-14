@@ -645,7 +645,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2689-288X": ["Mary Ann Liebert Inc", "SAGE Publications"], # Neurotrauma Reports 
 	"2514-183X": ["SAGE Publications", "MDPI AG"], # Clinical and Translational Neuroscience 
 	"2192-4406": ["Springer Nature", "Elsevier BV"], # EURO Journal on Computational Optimization 
-
+	"0032-5899": ["Informa UK Limited", "SAGE Publications"], # Powder Metallurgy 
+	"1743-2901": ["Informa UK Limited", "SAGE Publications"], # Powder Metallurgy (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1142,6 +1143,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
 # have been confirmed to be legitimate. These group_ids are excluded from tests. 
 CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "032e6b942_wiley2019deal_2023", # DEAL Wiley 2023, Alfred-Wegener-Institut
+    "00613ak93_sage2024gac_2024", # Wuppertal U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
