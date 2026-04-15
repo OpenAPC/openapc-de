@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 187,004 articles, published at 558 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 187,007 articles, published at 559 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -63,7 +63,7 @@ This dataset contains information on 187,004 articles, published at 558 institut
 |Wiley (KEMOE/FWF) 2018-2020                               |      928|
 |Springer Nature (FinELib) 2024-2025                       |      906|
 |Wiley (DEAL) 2024-2028                                    |      838|
-|Elsevier (DEAL) 2023-2028                                 |      811|
+|Elsevier (DEAL) 2023-2028                                 |      814|
 |Wiley (CRUI-CARE) 2020-2023                               |      780|
 |Wiley (IReL) 2025-2028                                    |      710|
 |Sage (FinELib) 2023-2024                                  |      707|
@@ -777,6 +777,7 @@ This dataset contains information on 187,004 articles, published at 558 institut
 |Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology |        3|
 |Schwyz University of Teacher Education                                                                                                             |        3|
 |Trillium Health Partners                                                                                                                           |        3|
+|University of Applied Sciences Mainz                                                                                                               |        3|
 |Vancouver Island University                                                                                                                        |        3|
 |European Chemicals Agency                                                                                                                          |        2|
 |FH Joanneum - University of Applied Sciences                                                                                                       |        2|
