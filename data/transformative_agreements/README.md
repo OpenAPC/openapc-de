@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 186,937 articles, published at 558 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 186,957 articles, published at 558 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -48,7 +48,7 @@ This dataset contains information on 186,937 articles, published at 558 institut
 |Wiley (FinELib) 2023-2024                                 |     2208|
 |Springer Compact (VSNU) 2018-2023                         |     2041|
 |Elsevier (FinELib) 2024-2025                              |     1922|
-|Springer Nature (DEAL) 2024-2028                          |     1781|
+|Springer Nature (DEAL) 2024-2028                          |     1794|
 |Wiley (FinELib) 2020-2022                                 |     1640|
 |Springer Nature (CRUI-CARE) 2020-2024                     |     1535|
 |Springer Nature (IReL) 2021-2024                          |     1425|
@@ -62,9 +62,9 @@ This dataset contains information on 186,937 articles, published at 558 institut
 |IEEE (FinELib) 2021-2023                                  |      933|
 |Wiley (KEMOE/FWF) 2018-2020                               |      928|
 |Springer Nature (FinELib) 2024-2025                       |      906|
-|Wiley (DEAL) 2024-2028                                    |      833|
+|Wiley (DEAL) 2024-2028                                    |      834|
 |Wiley (CRUI-CARE) 2020-2023                               |      780|
-|Elsevier (DEAL) 2023-2028                                 |      778|
+|Elsevier (DEAL) 2023-2028                                 |      779|
 |Wiley (IReL) 2025-2028                                    |      710|
 |Sage (FinELib) 2023-2024                                  |      707|
 |Sage (CSAL) 2023-2025                                     |      649|
@@ -179,13 +179,14 @@ This dataset contains information on 186,937 articles, published at 558 institut
 |Cambridge University Press (CSIC) 2023-2025               |       44|
 |Cambridge University Press (CzechELib) 2023-2025          |       43|
 |IOP Publishing (IReL) 2025-2027                           |       38|
+|Taylor & Francis (ZBW) 2024-2026                          |       38|
 |Taylor & Francis (QNL) 2019-2020                          |       37|
 |BMJ Publishing (IReL) 2021-2023                           |       36|
 |BMJ Publishing (IReL) 2024-2026                           |       36|
 |Microbiology Society (IReL) 2024-2026                     |       36|
-|Taylor & Francis (ZBW) 2024-2026                          |       36|
 |Wiley (EISZ) 2022-2022                                    |       35|
 |AIP Publishing (CRUI-CARE) 2023-2026                      |       34|
+|Sage (BSB) 2024-2025                                      |       33|
 |Springer Nature (FinELib) 2022-2024                       |       33|
 |Association for Computing Machinery (CSAL) 2022-2025      |       32|
 |IOP Publishing (MPDL) 2018-2020                           |       32|
@@ -193,7 +194,6 @@ This dataset contains information on 186,937 articles, published at 558 institut
 |American Chemical Society (CRUI-CARE) 2024-2026           |       31|
 |American Psychological Association (IReL) 2022-2024       |       30|
 |QNL IEEE Agreement                                        |       30|
-|Sage (BSB) 2024-2025                                      |       30|
 |Sage (BSB) 2021-2023                                      |       29|
 |American Physical Society (IReL) 2025-2027                |       28|
 |CUP (BSB) 2022-2024                                       |       28|
@@ -608,6 +608,7 @@ This dataset contains information on 186,937 articles, published at 558 institut
 |IST Austria                                                                                                                                        |       31|
 |Leibniz-BIPS                                                                                                                                       |       31|
 |Leibniz-ZALF                                                                                                                                       |       31|
+|University of Education Freiburg                                                                                                                   |       31|
 |University of West of Scotland                                                                                                                     |       31|
 |HS Hannover                                                                                                                                        |       30|
 |Hertie School                                                                                                                                      |       30|
@@ -691,7 +692,6 @@ This dataset contains information on 186,937 articles, published at 558 institut
 |Scotland's Rural College                                                                                                                           |       11|
 |Swedish School of Sport and Health Sciences                                                                                                        |       11|
 |University of Chester                                                                                                                              |       11|
-|University of Education Freiburg                                                                                                                   |       11|
 |University of the Highlands and Islands                                                                                                            |       11|
 |Acadia University                                                                                                                                  |       10|
 |Arcada University of Applied Sciences                                                                                                              |       10|
