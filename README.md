@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |272,976                  | 564,897,816    | 480                   |
+| Articles (APCs)             |273,010                  | 564,977,583    | 480                   |
 | Monographs (BPCs)           |2,464                           | 16,162,166             | 110                            |
-| OA Agreements/Contracts     |354                 | 115,710,868   | 128                  |
+| OA Agreements/Contracts     |368                 | 116,224,900   | 128                  |
 
 ## How to access the data?
 
@@ -61,7 +61,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Aachen University of Applied Sciences](https://www.fh-aachen.de/fh-aachen/arbeiten/servicestellen-fuer-beschaeftigte/bibliotheksservices-fuer-beschaeftigte/forschen-publizieren/publikationsfonds-forschung)
 - [Alice Salomon Hochschule Berlin](https://www.ash-berlin.eu/studium/einrichtungen-fuer-studierende/bibliothek/open-research/#c41548)
 - [Bamberg University](https://www.uni-bamberg.de/en/library/publishing/oa-publishing/)
-- [Bauhaus-Universität Weimar](https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/)
+- [Bauhaus-Universität Weimar](https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research-and-publish/open-access/)
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bergische Universität Wuppertal](https://www.bib.uni-wuppertal.de/de/forschen/open-access/publikationsfonds/)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
@@ -1000,11 +1000,11 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 253,625 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 480 research-performing institutions and research funders.
+The APC data set contains information on 253,650 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 480 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 521,857,701. The average payment was € 2,058 and the median was € 1,899.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 521,920,280. The average payment was € 2,058 and the median was € 1,899.
 
-186,649 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 349,113,149, including value-added tax; the average payment was € 1,870 (median =  € 1,731, SD = € 925).
+186,674 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 349,175,729, including value-added tax; the average payment was € 1,871 (median =  € 1,731, SD = € 925).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 66,976 articles in the data set were published in hybrid journals. Total expenditure amounts to 172,744,552 €; the average fee was € 2,579 (median =  € 2,514, SD = € 1,173).
 
@@ -1040,9 +1040,9 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2020   |      19,710|   1,706|     1,668|     0.2 -  8,906|           4,573|       2,497|         2,534|    16.6 -  7,416|
 |2021   |      24,444|   1,802|     1,755|    27.0 -  8,341|           3,860|       2,565|         2,518|    30.2 - 11,400|
 |2022   |      26,280|   2,071|     1,991|    12.4 - 11,175|           3,148|       2,906|         2,730|     2.1 - 14,607|
-|2023   |      23,041|   2,282|     2,207|    35.0 -  9,893|           3,553|       3,022|         2,840|   106.4 - 11,895|
-|2024   |      11,977|   2,444|     2,345|    40.0 -  8,048|           2,128|       3,147|         2,945|    28.4 - 13,044|
-|2025   |       2,976|   2,968|     2,657|   100.0 -  8,854|             227|       4,163|         3,272|   148.3 - 11,258|
+|2023   |      23,042|   2,282|     2,207|    35.0 -  9,893|           3,553|       3,022|         2,840|   106.4 - 11,895|
+|2024   |      12,000|   2,444|     2,345|    40.0 -  8,048|           2,128|       3,147|         2,945|    28.4 - 13,044|
+|2025   |       2,977|   2,968|     2,657|   100.0 -  8,854|             227|       4,163|         3,272|   148.3 - 11,258|
 |2026   |           2|   2,094|     2,094| 1,519.6 -  2,667|              NA|          NA|            NA|               NA|
 
 
@@ -1148,7 +1148,7 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.76%       |88.15%   |
 |PubMed ID                  |  72.46%      | NA                                                          |
-|PubMed Central ID          |  66.66%     | NA                                                          |
+|PubMed Central ID          |  66.65%     | NA                                                          |
 
 
 
