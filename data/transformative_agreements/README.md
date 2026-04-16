@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 187,799 articles, published at 559 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 188,412 articles, published at 559 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -41,12 +41,12 @@ This dataset contains information on 187,799 articles, published at 559 institut
 |Springer Nature (CSAL) 2023-2025                          |     2994|
 |Elsevier (CRUE-CSIC Alliance) 2021-2024                   |     2924|
 |Springer Compact (FinELib) 2021-2023                      |     2656|
+|Springer Nature (DEAL) 2024-2028                          |     2528|
 |Sage (CRKN) 2024-2026                                     |     2497|
 |EDP Sciences (Couperin) 2022-2026                         |     2423|
 |Wiley (IReL) 2021-2024                                    |     2332|
 |Elsevier (CSAL) 2024-2028                                 |     2246|
 |Wiley (FinELib) 2023-2024                                 |     2208|
-|Springer Nature (DEAL) 2024-2028                          |     2198|
 |Springer Compact (VSNU) 2018-2023                         |     2041|
 |Elsevier (FinELib) 2024-2025                              |     1922|
 |Wiley (FinELib) 2020-2022                                 |     1640|
@@ -55,12 +55,12 @@ This dataset contains information on 187,799 articles, published at 559 institut
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
 |Elsevier (CRUI-CARE) 2023-2027                            |     1343|
 |Taylor & Francis (FinELib) 2023-2024                      |     1205|
+|Elsevier (DEAL) 2023-2028                                 |     1197|
 |Taylor & Francis (CSAL) 2021-2023                         |     1148|
 |Wiley (CRUE-CSIC Alliance) 2022-2024                      |     1109|
+|Wiley (DEAL) 2024-2028                                    |     1101|
 |Taylor & Francis (FinELib) 2020-2022                      |     1041|
-|Elsevier (DEAL) 2023-2028                                 |     1037|
 |Taylor & Francis (IReL) 2021-2023                         |     1006|
-|Wiley (DEAL) 2024-2028                                    |      983|
 |IEEE (FinELib) 2021-2023                                  |      933|
 |Wiley (KEMOE/FWF) 2018-2020                               |      928|
 |Springer Nature (FinELib) 2024-2025                       |      906|
@@ -177,9 +177,9 @@ This dataset contains information on 187,799 articles, published at 559 institut
 |Wolters Kluwer Health (FinELib) 2022-2024                 |       46|
 |Cambridge University Press (CSIC) 2020-2022               |       45|
 |Emerald (CRUI-CARE) 2020-2024                             |       45|
+|Taylor & Francis (ZBW) 2024-2026                          |       45|
 |Cambridge University Press (CSIC) 2023-2025               |       44|
 |Cambridge University Press (CzechELib) 2023-2025          |       43|
-|Taylor & Francis (ZBW) 2024-2026                          |       40|
 |IOP Publishing (IReL) 2025-2027                           |       38|
 |Taylor & Francis (QNL) 2019-2020                          |       37|
 |BMJ Publishing (IReL) 2021-2023                           |       36|
@@ -311,6 +311,7 @@ This dataset contains information on 187,799 articles, published at 559 institut
 |Karolinska Institutet                                                                                                                              |     1061|
 |TU Dresden                                                                                                                                         |     1054|
 |HHU Düsseldorf                                                                                                                                     |     1050|
+|University Medical Center Hamburg-Eppendorf                                                                                                        |     1041|
 |UCL                                                                                                                                                |     1022|
 |Freiburg U                                                                                                                                         |      967|
 |Dublin City University                                                                                                                             |      950|
@@ -373,7 +374,6 @@ This dataset contains information on 187,799 articles, published at 559 institut
 |University of Innsbruck and Medical University of Innsbruck                                                                                        |      436|
 |University of Alberta                                                                                                                              |      435|
 |University of Vaasa                                                                                                                                |      431|
-|University Medical Center Hamburg-Eppendorf                                                                                                        |      428|
 |University of Leeds                                                                                                                                |      428|
 |VTT Technical Research Centre of Finland Ltd                                                                                                       |      427|
 |TU Braunschweig                                                                                                                                    |      426|
