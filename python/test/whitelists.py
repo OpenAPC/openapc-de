@@ -1147,6 +1147,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "032e6b942_wiley2019deal_2023", # DEAL Wiley 2023, Alfred-Wegener-Institut
     "00613ak93_sage2024gac_2024", # Wuppertal U
     "02wxx3e24_sage2024gac_2024", # Brandenburg University of Technology Cottbus-Senftenberg
+    "03606hw36_sage2024gac_2024", # Erfurt U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
