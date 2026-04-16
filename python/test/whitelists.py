@@ -1138,6 +1138,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1573-6830", # Cellular and Molecular Neurobiology, Gold OA since 2024
     "1473-5504", # International Journal of Astrobiology, Gold OA since 2024
     "2731-7420", # Die Gastroenterologie
+    "0956-7925", # European Journal of Applied Mathematics, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
