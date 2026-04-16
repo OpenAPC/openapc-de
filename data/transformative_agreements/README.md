@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 188,412 articles, published at 559 institutions under 234 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 188,511 articles, published at 559 institutions under 236 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -25,7 +25,7 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |Agreement                                                 | Articles|
 |:---------------------------------------------------------|--------:|
 |Springer Nature (DEAL) 2020-2023                          |    30359|
-|Wiley (DEAL) 2019-2023                                    |    20589|
+|Wiley (DEAL) 2019-2023                                    |    20590|
 |Springer Compact                                          |    13332|
 |Elsevier (CSAL) 2020-2023                                 |    10742|
 |Sage (CRKN) 2021-2023                                     |     5811|
@@ -41,7 +41,7 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |Springer Nature (CSAL) 2023-2025                          |     2994|
 |Elsevier (CRUE-CSIC Alliance) 2021-2024                   |     2924|
 |Springer Compact (FinELib) 2021-2023                      |     2656|
-|Springer Nature (DEAL) 2024-2028                          |     2528|
+|Springer Nature (DEAL) 2024-2028                          |     2555|
 |Sage (CRKN) 2024-2026                                     |     2497|
 |EDP Sciences (Couperin) 2022-2026                         |     2423|
 |Wiley (IReL) 2021-2024                                    |     2332|
@@ -54,11 +54,11 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |Springer Nature (IReL) 2021-2024                          |     1425|
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
 |Elsevier (CRUI-CARE) 2023-2027                            |     1343|
+|Elsevier (DEAL) 2023-2028                                 |     1232|
 |Taylor & Francis (FinELib) 2023-2024                      |     1205|
-|Elsevier (DEAL) 2023-2028                                 |     1197|
 |Taylor & Francis (CSAL) 2021-2023                         |     1148|
+|Wiley (DEAL) 2024-2028                                    |     1120|
 |Wiley (CRUE-CSIC Alliance) 2022-2024                      |     1109|
-|Wiley (DEAL) 2024-2028                                    |     1101|
 |Taylor & Francis (FinELib) 2020-2022                      |     1041|
 |Taylor & Francis (IReL) 2021-2023                         |     1006|
 |IEEE (FinELib) 2021-2023                                  |      933|
@@ -162,6 +162,7 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |Royal Society of Chemistry (KEMOE/FWF) 2021-2024          |       55|
 |Taylor & Francis (CSIC) 2024-2026                         |       55|
 |Akadémiai Kiadó (EISZ) 2021-2023                          |       54|
+|Taylor & Francis (ZBW) 2024-2026                          |       54|
 |Austrian Consortium RSC agreement                         |       52|
 |The Royal Society (IReL) 2021-2023                        |       52|
 |Association for Computing Machinery (IReL) 2023-2025      |       51|
@@ -170,14 +171,13 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |Royal Society of Chemistry (CzechELib) 2023-2025          |       50|
 |AIP Publishing (IReL) 2023-2025                           |       49|
 |Optica Publishing Group (IReL) 2022-2024                  |       49|
+|CUP (BSB) 2022-2024                                       |       48|
 |QNL T&F Agreement                                         |       48|
-|CUP (BSB) 2022-2024                                       |       47|
 |AIP Publishing (CSIC) 2022-2024                           |       46|
 |Taylor & Francis (MPDL) 2017-2019                         |       46|
 |Wolters Kluwer Health (FinELib) 2022-2024                 |       46|
 |Cambridge University Press (CSIC) 2020-2022               |       45|
 |Emerald (CRUI-CARE) 2020-2024                             |       45|
-|Taylor & Francis (ZBW) 2024-2026                          |       45|
 |Cambridge University Press (CSIC) 2023-2025               |       44|
 |Cambridge University Press (CzechELib) 2023-2025          |       43|
 |IOP Publishing (IReL) 2025-2027                           |       38|
@@ -187,7 +187,7 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |Microbiology Society (IReL) 2024-2026                     |       36|
 |Wiley (EISZ) 2022-2022                                    |       35|
 |AIP Publishing (CRUI-CARE) 2023-2026                      |       34|
-|Sage (BSB) 2024-2025                                      |       33|
+|Sage (BSB) 2024-2025                                      |       34|
 |Springer Nature (FinELib) 2022-2024                       |       33|
 |Association for Computing Machinery (CSAL) 2022-2025      |       32|
 |IOP Publishing (MPDL) 2018-2020                           |       32|
@@ -235,6 +235,7 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |The Company of Biologists (CSIC) 2024-2026                |        6|
 |The Electrochemical Society (IReL) 2022-2022              |        6|
 |The Electrochemical Society (IReL) 2023-2023              |        6|
+|ACS (FAK) 2024-2026                                       |        5|
 |Emerald (CRUI-CARE) 2025                                  |        5|
 |The Company of Biologists (IReL) 2023-2025                |        5|
 |Association for Computing Machinery (CRUI-CARE) 2022-2025 |        4|
@@ -254,6 +255,7 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |Rockefeller University Press (CSIC) 2023-2024             |        2|
 |The Company of Biologists (IReL) 2020-2022                |        2|
 |ACS (HGF) 2023-2025                                       |        1|
+|AIP (TIB) 2024-2026                                       |        1|
 |Cold Spring Harbor Laboratory Press (IReL) 2021-2021      |        1|
 |Rockefeller University Press (IReL) 2022-2024             |        1|
 |Walter de Gruyter (EISZ) 2022-2022                        |        1|
@@ -469,6 +471,7 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |University of Applied Sciences and Arts of Southern Switzerland                                                                                    |      172|
 |HZDR                                                                                                                                               |      171|
 |University Hospital of Bern                                                                                                                        |      169|
+|Brandenburg University of Technology Cottbus-Senftenberg                                                                                           |      168|
 |University of St Andrews                                                                                                                           |      168|
 |University of Sussex                                                                                                                               |      168|
 |LSE                                                                                                                                                |      166|
@@ -537,7 +540,6 @@ This dataset contains information on 188,412 articles, published at 559 institut
 |University of Ulster                                                                                                                               |       72|
 |Bournemouth University                                                                                                                             |       71|
 |Forschungsinstitut für biologischen Landbau FiBL                                                                                                   |       71|
-|Brandenburg University of Technology Cottbus-Senftenberg                                                                                           |       69|
 |Geological Survey of Finland                                                                                                                       |       68|
 |Mid Sweden University                                                                                                                              |       67|
 |University of Stirling                                                                                                                             |       66|
