@@ -5,7 +5,7 @@
 # they will not be treated as different by the name_consistency and check_isbns tests.
 PUBLISHER_IDENTITY = [
     (["Springer Science + Business Media"], ["BioMed Central", "American Vacuum Society"]),
-    (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media"]),
+    (["Springer Nature"], ["Nature Publishing Group", "Springer Science + Business Media", "Springer International Publishing", "Palgrave MacMillan"]),
     (["SAGE Publications"], ["Pion Ltd"]),
     (["Wiley-Blackwell"], ["American Association of Physicists in Medicine (AAPM)", "Hindawi Publishing Corporation"]),
     (["Informa UK Limited"], ["Informa Healthcare"]), # Usage very inconsistent in crossref data
@@ -29,6 +29,9 @@ PUBLISHER_IDENTITY = [
     (["CRC Press"], ["Routledge"]), # both imprints of T&F, both share a website and present their portfolio together
     (["edition text + kritik"], ["De Gruyter"]),
     (["Medknow"], ["Ovid Technologies (Wolters Kluwer Health)"]), # Medknow is an imprint of Wolters Kluwer
+    (["Palgrave MacMillan"], ["Springer International Publishing"]), # Palgrave MacMillan is an imprint of Springer
+    (["CRC Press", "Routledge"], ["Taylor & Francis"]),
+    (["Hart Publishing"], ["Bloomsbury Publishing Plc"]), # Hart is an imprint of Bloomsbury
 ]
 
 
@@ -648,6 +651,13 @@ JOURNAL_OWNER_CHANGED = {
 	"0032-5899": ["Informa UK Limited", "SAGE Publications"], # Powder Metallurgy 
 	"1743-2901": ["Informa UK Limited", "SAGE Publications"], # Powder Metallurgy (electronic)
 	"2364-1177": ["Springer Nature", "Walter de Gruyter GmbH"], # Asia-Pacific Science Education
+	"2662-4044": ["Springer Nature", "CABI Publishing"], # CABI Agriculture and Bioscience
+	"2213-686X": ["Elsevier BV", "Scientific Scholar"], # Journal of King Saud University – Science 
+	"1018-3647": ["Elsevier BV", "Scientific Scholar"], # Journal of King Saud University – Science (print)
+	"1925-4040": ["Sciedu Press", "Association for Health Sciences and Education"], # Journal of Nursing Education and Practice 
+	"1925-4059": ["Sciedu Press", "Association for Health Sciences and Education"], # Journal of Nursing Education and Practice (electronic)
+	"1916-0216": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Journal of Otolaryngology - Head & Neck Surgery 
+	"1916-0208": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Journal of Otolaryngology - Head & Neck Surgery (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1139,6 +1149,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1473-5504", # International Journal of Astrobiology, Gold OA since 2024
     "2731-7420", # Die Gastroenterologie
     "0956-7925", # European Journal of Applied Mathematics, Gold OA since 2024
+    "0099-2240", # Applied and Environmental Microbiology, Subscribe to Open (S2O) since 2025
+    "1362-7937", # Gothic Studies, Subscribe to Open (S2O) since 2025
+    "0022-538X", # Journal of Virology, Subscribe to Open (S2O) since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
