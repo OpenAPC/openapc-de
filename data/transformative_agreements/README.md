@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 188,618 articles, published at 559 institutions under 236 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 188,640 articles, published at 559 institutions under 236 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -41,7 +41,7 @@ This dataset contains information on 188,618 articles, published at 559 institut
 |Springer Nature (CSAL) 2023-2025                          |     2994|
 |Elsevier (CRUE-CSIC Alliance) 2021-2024                   |     2924|
 |Springer Compact (FinELib) 2021-2023                      |     2656|
-|Springer Nature (DEAL) 2024-2028                          |     2588|
+|Springer Nature (DEAL) 2024-2028                          |     2600|
 |Sage (CRKN) 2024-2026                                     |     2497|
 |EDP Sciences (Couperin) 2022-2026                         |     2423|
 |Wiley (IReL) 2021-2024                                    |     2332|
@@ -54,10 +54,10 @@ This dataset contains information on 188,618 articles, published at 559 institut
 |Springer Nature (IReL) 2021-2024                          |     1425|
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
 |Elsevier (CRUI-CARE) 2023-2027                            |     1343|
-|Elsevier (DEAL) 2023-2028                                 |     1252|
+|Elsevier (DEAL) 2023-2028                                 |     1258|
 |Taylor & Francis (FinELib) 2023-2024                      |     1205|
 |Taylor & Francis (CSAL) 2021-2023                         |     1148|
-|Wiley (DEAL) 2024-2028                                    |     1129|
+|Wiley (DEAL) 2024-2028                                    |     1132|
 |Wiley (CRUE-CSIC Alliance) 2022-2024                      |     1109|
 |Taylor & Francis (FinELib) 2020-2022                      |     1041|
 |Taylor & Francis (IReL) 2021-2023                         |     1006|
@@ -226,10 +226,10 @@ This dataset contains information on 188,618 articles, published at 559 institut
 |Walter de Gruyter (CRUI-CARE) 2023-2025                   |       11|
 |BMJ Publishing (CSAL) 2024-2024                           |       10|
 |Royal Society of Chemistry (CRUI-CARE) 2025               |       10|
+|RSC (TIB) 2024-2027                                       |        9|
 |ACS (University of Jyväskylä) 2025-2026                   |        8|
 |IReL ECS Agreement                                        |        8|
 |Portland Press (CSIC) 2023-2024                           |        8|
-|RSC (TIB) 2024-2027                                       |        8|
 |BMJ (BSB) 2023-2024                                       |        6|
 |Hogrefe (SUB Göttingen) 2021-2023                         |        6|
 |The Company of Biologists (CSIC) 2024-2026                |        6|
@@ -601,6 +601,7 @@ This dataset contains information on 188,618 articles, published at 559 institut
 |Technological University of the Shannon: Midlands Midwest                                                                                          |       34|
 |University of Borås                                                                                                                                |       34|
 |University of Ontario Institute of Technology                                                                                                      |       34|
+|Darmstadt University of Applied Sciences                                                                                                           |       33|
 |GESIS                                                                                                                                              |       33|
 |HS Bielefeld                                                                                                                                       |       33|
 |Leibniz-IZW                                                                                                                                        |       33|
@@ -688,7 +689,6 @@ This dataset contains information on 188,618 articles, published at 559 institut
 |Regensburg University of Applied Sciences                                                                                                          |       12|
 |Toronto Rehabilitation Institute                                                                                                                   |       12|
 |University of Applied Sciences of the Grisons                                                                                                      |       12|
-|Darmstadt University of Applied Sciences                                                                                                           |       11|
 |FH Salzburg - University of Applied Sciences                                                                                                       |       11|
 |Pädagogische Hochschule Luzern                                                                                                                     |       11|
 |Scotland's Rural College                                                                                                                           |       11|

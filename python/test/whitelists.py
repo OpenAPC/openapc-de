@@ -1161,6 +1161,8 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "00613ak93_sage2024gac_2024", # Wuppertal U
     "02wxx3e24_sage2024gac_2024", # Brandenburg University of Technology Cottbus-Senftenberg
     "03606hw36_sage2024gac_2024", # Erfurt U
+    "047wbd030_sage2021gac_2023", # Darmstadt University of Applied Sciences
+    "047wbd030_sage2024gac_2024", # Darmstadt University of Applied Sciences
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
