@@ -631,7 +631,23 @@ JOURNAL_OWNER_CHANGED = {
 	"1756-8927": ["Future Science, LTD", "Informa UK Limited"], # Future Medicinal Chemistry (electronic)
 	"2299-0054": ["Termedia Sp. z.o.o.", "Medycyna Praktyczna"], # Videosurgery and Other Miniinvasive Techniques 
 	"1895-4588": ["Termedia Sp. z.o.o.", "Medycyna Praktyczna"], # Videosurgery and Other Miniinvasive Techniques (linking)
-
+	"2055-7124": ["Springer Nature", "American Association for the Advancement of Science (AAAS)"], # Biomaterials Research 
+	"1226-4601": ["Springer Nature", "American Association for the Advancement of Science (AAAS)"], # Biomaterials Research (linking)
+	"1641-876X": ["Walter de Gruyter GmbH", "University of Zielona Góra, Poland"], # International Journal of Applied Mathematics and Computer Science 
+	"2083-8492": ["Walter de Gruyter GmbH", "University of Zielona Góra, Poland"], # International Journal of Applied Mathematics and Computer Science (electronic)
+	"0079-2993": ["Walter de Gruyter GmbH", "Polish Academy of Sciences Chancellery"], # Polish Psychological Bulletin 
+	"0214-6282": ["UPV/EHU Press", "EHU Press"], # The International Journal of Developmental Biology 
+	"1696-3547": ["UPV/EHU Press", "EHU Press"], # The International Journal of Developmental Biology (electronic)
+	"0031-6997": ["American Society for Pharmacology & Experimental Therapeutics (ASPET)", "Elsevier BV"], # Pharmacological Reviews
+	"0003-4967": ["BMJ", "Elsevier BV"], # Annals of the Rheumatic Diseases
+	"0730-7268": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Environmental Toxicology and Chemistry 
+	"1552-8618": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Environmental Toxicology and Chemistry (electronic) 
+	"2689-288X": ["Mary Ann Liebert Inc", "SAGE Publications"], # Neurotrauma Reports 
+	"2514-183X": ["SAGE Publications", "MDPI AG"], # Clinical and Translational Neuroscience 
+	"2192-4406": ["Springer Nature", "Elsevier BV"], # EURO Journal on Computational Optimization 
+	"0032-5899": ["Informa UK Limited", "SAGE Publications"], # Powder Metallurgy 
+	"1743-2901": ["Informa UK Limited", "SAGE Publications"], # Powder Metallurgy (electronic)
+	"2364-1177": ["Springer Nature", "Walter de Gruyter GmbH"], # Asia-Pacific Science Education
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1098,6 +1114,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0841-8209", # Canadian Journal of Law & Jurisprudence, Gold OA since 2025
     "1502-3850", # Acta Odontologica Scandinavica, Gold OA since 2024
     "1574-6976", # FEMS Microbiology Reviews, Gold OA since 2024
+    "2575-0356", # ENERGY & ENVIRONMENTAL MATERIALS, Gold OA since 2023
     "2524-7867", # Biochar, Gold OA since 2022
     "0950-0839", # Philosophical Magazine Letters, Gold OA since 2023
     "2049-632X", # Pathogens and Disease, Gold OA since 2024
@@ -1106,6 +1123,31 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0021-1214", # Irish Historical Studies, Gold OA since 2025
     "1875-8592", # Cancer Biomarkers, Gold OA since 2024
     "0886-0440", # Journal of Cardiac Surgery, Gold OA since 2023
+    "1574-0196", # European Constitutional Law Review, Gold OA since 2025
+    "2057-0198", # Business and Human Rights Journal, Gold OA since 9.2024
+    "0214-6282", # The International Journal of Developmental Biology
+    "1049-8001", # International Journal of Wildland Fire, Gold OA since 2024
+    "1462-5814", # Cellular Microbiology, Gold OA since 2022
+    "1882-0778", # Applied Physics Express, Gold OA since 2024
+    "0300-5526", # Intervirology, Gold OA since 2021
+    "0196-0709", # American Journal of Otolaryngology, Gold OA since 2025
+    "1059-0560", # International Review of Economics & Finance, Gold OA since 2025
+    "2589-2347", # Materials Today Sustainability, Gold OA since 2025
+    "1323-3580", # Publications of the Astronomical Society of Australia, Gold OA since 2025
+    "0947-5745", # Journal of Zoological Systematics and Evolutionary Research, Gold OA since 2022
+    "1573-6830", # Cellular and Molecular Neurobiology, Gold OA since 2024
+    "1473-5504", # International Journal of Astrobiology, Gold OA since 2024
+    "2731-7420", # Die Gastroenterologie
+    "0956-7925", # European Journal of Applied Mathematics, Gold OA since 2024
+]
+
+# A whitelist to identify contract group_ids where similar cost amounts
+# have been confirmed to be legitimate. These group_ids are excluded from tests. 
+CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
+    "032e6b942_wiley2019deal_2023", # DEAL Wiley 2023, Alfred-Wegener-Institut
+    "00613ak93_sage2024gac_2024", # Wuppertal U
+    "02wxx3e24_sage2024gac_2024", # Brandenburg University of Technology Cottbus-Senftenberg
+    "03606hw36_sage2024gac_2024", # Erfurt U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list

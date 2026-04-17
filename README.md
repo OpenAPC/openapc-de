@@ -9,25 +9,27 @@
 
 The aim of this repository is:
 
-- to release data sets on fees paid for Open Access journal articles and monographs by Universities and Research Society Funds under an Open Database License
-- to demonstrate how reporting on fee-based Open Access publishing can be made more transparent and reproducible across institutions.
+- to release data sets on costs incurred by academic institutions for Open Access publishing, including fees for journal articles, monographs, and publications covered by Open Access publishing agreements, under an Open Database License
+- to demonstrate how reporting on Open Access publishing can be made more transparent and reproducible across institutions.
 
-At the moment this project provides the following cost data:
+At the moment OpenAPC provides the following cost data:
 
-| Publication Type | Count           | Aggregated Sum (€)      | Contributing Institutions              |
-|------------------|-----------------|-------------------------|----------------------------------------|
-| Articles         |256,534 | 524,119,551    | 474 |
-| Monographs       |2,348 | 15,537,357    | 100 |
+| Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
+|-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
+| Articles (APCs)             |273,024                  | 565,007,880    | 480                   |
+| Monographs (BPCs)           |2,467                           | 16,179,066             | 110                            |
+| OA Agreements/Contracts     |376                 | 116,437,626   | 128                  |
 
 ## How to access the data?
 
 There are several options. You may simply download the the raw data sets in CSV format, query our [OLAP server](https://github.com/OpenAPC/openapc-olap/blob/master/HOWTO.md) or use our [Treemap site](https://treemaps.openapc.net/) for visual data exploration.
 
-| Dataset         | CSV File                                                                                                                                                                                                                         | OLAP Cube                                                                     | Treemap                                                                       |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set)                                                                 | [APC cube](https://olap.openapc.net/cube/openapc/aggregate)                   | [APC treemap](https://treemaps.openapc.net/apcdata/openapc/)                  |
-| TA articles     | [TA file](https://github.com/OpenAPC/openapc-de/blob/master/data/transformative_agreements/transformative_agreements.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#transformative-agreements-data-set)   | [TA cube](https://olap.openapc.net/cube/transformative_agreements/aggregate)  | [TA treemap](https://treemaps.openapc.net/apcdata/transformative-agreements/) |
-| monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)                                                                        | [BPC cube](https://olap.openapc.net/cube/bpc/aggregate)                       | [BPC treemap](https://treemaps.openapc.net/apcdata/bpc/)                      |
+| Dataset         | CSV File                                                                                                                                                                                                                         | OLAP Cubes                                                                                                                                            | Treemaps                                                                                                                                 |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#openapc-data-set)                                                                 | [APC cube](https://olap.openapc.net/cube/openapc/aggregate)                                                                                           | [APC treemap](https://treemaps.openapc.net/apcdata/openapc/)                                                                             |
+| TA articles     | [TA file](https://github.com/OpenAPC/openapc-de/blob/master/data/transformative_agreements/transformative_agreements.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#transformative-agreements-data-set)   | [TA cube (Euro)](https://olap.openapc.net/cube/ta_euro/aggregate), [TA cube (Count)](https://olap.openapc.net/cube/ta_count/aggregate)                | [TA treemap (Euro)](https://treemaps.openapc.net/apcdata/ta-euro/), [TA treemap (Count)](https://treemaps.openapc.net/apcdata/ta-count/) |
+| Monographs      | [BPC file](https://github.com/OpenAPC/openapc-de/blob/master/data/bpc.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#bpc-data-set)                                                                        | [BPC cube](https://olap.openapc.net/cube/bpc/aggregate)                                                                                               | [BPC treemap](https://treemaps.openapc.net/apcdata/bpc/)                                                                                 |
+| Contracts       | [Contracts file](https://github.com/OpenAPC/openapc-de/blob/master/data/transformative_agreements/contracts.csv), [data schema](https://github.com/OpenAPC/openapc-de/wiki/schema#contracts-data-set)                            |                                                                                                                                                       |                                                                                                                                          |
 
 Our latest data release can always be accessed via the following DOI:
 
@@ -35,15 +37,15 @@ Our latest data release can always be accessed via the following DOI:
 
 ## Additional Costs
 
-In 2024 OpenAPC started to aggregate additional costs like page charges or submission fees, which may occur in the context of OA publishing aside from APCs. These cost types are considered optional and thus collected in a separate data file, they are linked to a main publication entry using the DOI as primary key. At the moment additional costs are only collected for journal articles.
+In 2024 OpenAPC started to aggregate additional costs like page charges or submission fees, which may occur in the context of OA publishing alongside primary publication fees. These cost types are considered optional and thus collected in a separate data file, they are linked to the corresponding main publication entry in the APC or TA file using the DOI as primary key. At the moment additional costs are only collected for journal articles (both for the APC and TA data set).
 
-| Dataset         | Main CSV File                                                                 | Additional Costs File                                                                                       | OLAP Cube                                                             | Treemap                                                                           |
-|-----------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) | [APC additional costs](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de_additional_costs.csv)  | [APC_AC cube](https://olap.openapc.net/cube/openapc_ac/aggregate)     | [APC_AC Treemap](https://treemaps.openapc.net/apcdata/openapc/additional_costs)   |
+| Dataset         | Main CSV File                                                                 | Additional Costs File                                                                                    | 
+|-----------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| articles        | [APC file](https://github.com/OpenAPC/openapc-de/blob/master/data/apc_de.csv) | [Article additional costs](https://github.com/OpenAPC/openapc-de/blob/master/data/additional_costs.csv)  |
 
 ## How to contribute?
 
-Any academic institution or research funder paying for Article Process Charges (APCs) or Book Processing Charges (BPCs) can contribute to OpenAPC, no formal registration is required.
+Any academic institution or research funder covering costs for Open Access publications (e.g.  Article Process Charges [APCs] or Book Processing Charges [BPCs] can contribute to OpenAPC, no formal registration is required.
 This [page](https://github.com/OpenAPC/openapc-de/wiki/Data-Submission-Handout) ([German version](https://github.com/OpenAPC/openapc-de/wiki/Handreichung-Dateneingabe)) explains the details.
 
 Please note that OpenAPC uses internal identifiers for institutions in all its data sets to maintain backwards compatibility. Additional metadata on all participants (including ROR IDs as persistent identifier) is maintained in a separate [lookup table](https://github.com/OpenAPC/openapc-de/blob/master/data/institutions.csv).
@@ -57,9 +59,9 @@ The following institutions have contributed to OpenAPC so far:
 ###  Higher education institutions 
 
 - [Aachen University of Applied Sciences](https://www.fh-aachen.de/fh-aachen/arbeiten/servicestellen-fuer-beschaeftigte/bibliotheksservices-fuer-beschaeftigte/forschen-publizieren/publikationsfonds-forschung)
-- [Alice Salomon Hochschule Berlin](https://www.ash-berlin.eu/studium/einrichtungen-fuer-studierende/bibliothek/open-access/#c29181)
+- [Alice Salomon Hochschule Berlin](https://www.ash-berlin.eu/studium/einrichtungen-fuer-studierende/bibliothek/open-research/#c41548)
 - [Bamberg University](https://www.uni-bamberg.de/en/library/publishing/oa-publishing/)
-- [Bauhaus-Universität Weimar](https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research/open-access/open-access-publication-fund/)
+- [Bauhaus-Universität Weimar](https://www.uni-weimar.de/en/university/structure/central-university-facilities/university-library/research-and-publish/open-access/)
 - [Bayreuth University](http://www.ub.uni-bayreuth.de/en/digitale_bibliothek/open_access/index.html)
 - [Bergische Universität Wuppertal](https://www.bib.uni-wuppertal.de/de/forschen/open-access/publikationsfonds/)
 - [Bielefeld University](http://oa.uni-bielefeld.de/publikationsfonds.html)
@@ -317,6 +319,7 @@ The following institutions have contributed to OpenAPC so far:
 - [University of Lausanne](https://www.unil.ch/openscience/en/home/menuinst/open-access/open-access-a-lunil/soutien-360/voie-doree/gold-open-access-fund-unil.html)
 - [University of Neuchatel](https://www.unine.ch/)
 - [University of St.Gallen](https://www.unisg.ch/)
+- [University of Teacher Education NMS Bern](https://www.phnmsbern.ch)
 - [University of Teacher Education Zug](https://www.zg.ch/behoerden/direktion-fur-bildung-und-kultur/phzg/university-of-teacher-education-zug)
 - [University of Teacher Education in Special Needs](https://www.hfh.ch/en)
 - [University of Zurich](https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/publizieren/Open-Access.html)
@@ -509,7 +512,7 @@ The following institutions have contributed to OpenAPC so far:
 - CIRAD - Centre de coopération internationale en recherche agronomique pour le développement
 - CNAM - Conservatoire national des arts et métiers
 - CNRS - Centre national de la recherche scientifique
-- CentraleSupélec
+- Centrale Nantes
 - Centre Georges-François Leclerc (CGFL) - Centre régional de lutte contre le cancer du réseau UNICANCER
 - [Centre Hospitalier Universitaire d'Amiens](https://www.chu-amiens.fr/)
 - Centre Hospitalier Universitaire d'Orléans
@@ -518,8 +521,8 @@ The following institutions have contributed to OpenAPC so far:
 - [EHESP - Ecole des hautes études en santé publique](https://www.ehesp.fr/en/)
 - ENAC - Ecole Nationale de l'Aviation Civile
 - ENGEES - Ecole nationale du Génie de l'Eau et de l'Environnement de Strasbourg
+- ENPC - École des Ponts ParisTech
 - ENS Lyon - Ecole normale supérieure de Lyon
-- ENS Paris - Ecole normale supérieure de Paris
 - ENSICAEN - Ecole nationale supérieure de Caen
 - ENSTA Bretagne - Ecole nationale supérieure de techniques avancées - Bretagne
 - ESPCI - Ecole supérieure de physique et de chimie industrielles
@@ -541,6 +544,8 @@ The following institutions have contributed to OpenAPC so far:
 - INRIA - Institut National de Recherche en Informatique et en Automatique
 - INSA Lyon - Institut National des Sciences Appliquées de Lyon
 - INSA Strasbourg - Institut National des Sciences Appliquées de Strasbourg
+- INSA Toulouse - Institut National des Sciences Appliquées de Toulouse
+- INSEP - Institut National du Sport, de l'Expertise et de la Performance
 - INSERM - Institut National de la Santé et de la Recherche Médicale
 - IRD - Institut de Recherche pour le Développement
 - IRSN - Institut de Radioprotection et de Sûreté Nucléaire
@@ -566,6 +571,7 @@ The following institutions have contributed to OpenAPC so far:
 - Université Jean Moulin - Lyon III
 - Université Le Havre Normandie
 - Université Lumière - Lyon II
+- Université Marie et Louis Pasteur
 - Université Panthéon-Sorbonne - Paris I
 - [Université Paris Cité](https://u-paris.fr/en/)
 - Université Paris Descartes - Paris V
@@ -573,12 +579,12 @@ The following institutions have contributed to OpenAPC so far:
 - Université Paris-Dauphine - Paris IX
 - [Université Paris-Est Créteil Val de Marne - Paris XII](https://www.en.u-pec.fr/)
 - Université Paris-Est Marne-la-Vallée
+- Université Paris-Saclay - CentraleSupélec - ENS Paris-Saclay
 - Université Pierre et Marie Curie - Paris VI
 - Université Polytechnique Hauts-de-France
 - Université Savoie Mont Blanc
 - Université Sorbonne Nouvelle - Paris III - USN
 - Université Toulouse - Jean Jaurès
-- Université Toulouse III
 - Université Vincennes-Saint Denis - Paris VIII
 - Université d'Angers
 - Université d'Evry-Val-d'Essonne
@@ -610,6 +616,7 @@ The following institutions have contributed to OpenAPC so far:
 - Université de Strasbourg
 - Université de Technologie de Compiègne
 - Université de Toulon
+- [Université de Toulouse](https://www.univ-tlse3.fr)
 - Université de Tours
 - Université de Versailles Saint-Quentin-en-Yvelines
 - Université de la Nouvelle-Calédonie
@@ -993,13 +1000,15 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The article data set contains information on 256,534 open access journal articles being published in fully and hybrid open access journal. Publication fees for these articles were supported financially by 474 research performing institutions and research funders. 
+The APC data set contains information on 253,660 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 480 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 524,119,551. The average payment was € 2,043 and the median was € 1,894.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 521,940,619. The average payment was € 2,058 and the median was € 1,899.
 
-191,159 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 356,416,674, including value-added tax; the average payment was € 1,865 (median =  € 1,740, SD = € 903).
+186,682 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 349,189,902, including value-added tax; the average payment was € 1,871 (median =  € 1,731, SD = € 925).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 65,375 articles in the data set were published in hybrid journals. Total expenditure amounts to 167,702,876 €; the average fee was € 2,565 (median =  € 2,509, SD = € 1,133).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 66,978 articles in the data set were published in hybrid journals. Total expenditure amounts to 172,750,716 €; the average fee was € 2,579 (median =  € 2,514, SD = € 1,173).
+
+Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
 #### Spending distribution over fully and hybrid open access journals
 
@@ -1011,49 +1020,49 @@ Hybrid open access journals rely on both publication fees and subscriptions as r
 
 
 
-|period | OA articles| OA mean| OA median|   OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
-|:------|-----------:|-------:|---------:|--------------:|---------------:|-----------:|-------------:|----------------:|
-|2005   |           7|     858|       871| 480.0 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
-|2006   |          52|   1,021|     1,095| 665.0 -  1,340|              NA|          NA|            NA|               NA|
-|2007   |          88|   1,081|     1,062| 870.0 -  1,825|              NA|          NA|            NA|               NA|
-|2008   |         205|   1,170|     1,025| 440.8 -  2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
-|2009   |         359|   1,185|     1,060| 124.6 -  4,386|              NA|          NA|            NA|               NA|
-|2010   |         401|   1,261|     1,139| 158.8 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
-|2011   |         776|   1,156|     1,127| 104.8 -  4,666|               7|       1,835|         2,097|   552.0 -  2,631|
-|2012   |       1,577|   1,173|     1,175|  69.0 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
-|2013   |       2,473|   1,229|     1,178|  50.0 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
-|2014   |       5,188|   1,375|     1,255|  40.0 -  9,028|           6,525|       2,238|         2,200|   132.3 -  6,000|
-|2015   |       8,477|   1,523|     1,451|  59.0 -  5,669|           6,693|       2,609|         2,621|   126.6 -  8,636|
-|2016   |       9,850|   1,637|     1,531|  62.5 -  5,985|           7,893|       2,551|         2,514|     2.3 -  9,079|
-|2017   |      14,977|   1,701|     1,553|   8.7 - 14,634|          10,644|       2,528|         2,469|    36.9 -  9,858|
-|2018   |      16,256|   1,701|     1,582|  13.0 -  8,926|           9,481|       2,551|         2,538|     1.8 -  9,073|
-|2019   |      17,548|   1,702|     1,630|  10.7 -  7,684|           7,067|       2,535|         2,498|    75.3 -  9,500|
-|2020   |      21,388|   1,716|     1,683|   0.2 -  8,906|           4,505|       2,491|         2,531|    16.6 -  7,416|
-|2021   |      26,208|   1,825|     1,792|  27.0 -  8,341|           3,546|       2,550|         2,506|    30.2 - 11,400|
-|2022   |      29,426|   2,101|     1,999|  12.4 - 11,175|           3,078|       2,881|         2,730|     2.1 - 14,607|
-|2023   |      26,446|   2,304|     2,160|  17.4 -  9,893|           3,399|       3,009|         2,820|   106.4 - 11,895|
-|2024   |       8,896|   2,421|     2,307|  60.4 -  8,048|           1,334|       3,233|         3,045|    28.4 - 13,044|
-|2025   |         561|   2,331|     2,327| 100.0 -  8,854|              80|       3,415|         3,486|   200.0 -  8,095|
+|period | OA articles| OA mean| OA median|     OA min - max| Hybrid Articles| Hybrid mean| Hybrid median| Hybrid min - max|
+|:------|-----------:|-------:|---------:|----------------:|---------------:|-----------:|-------------:|----------------:|
+|2005   |           7|     858|       871|   480.0 -  1,350|               1|       2,983|         2,983| 2,983.3 -  2,983|
+|2006   |          52|   1,021|     1,095|   665.0 -  1,340|              NA|          NA|            NA|               NA|
+|2007   |          88|   1,081|     1,062|   870.0 -  1,825|              NA|          NA|            NA|               NA|
+|2008   |         205|   1,170|     1,025|   440.8 -  2,830|               1|       2,660|         2,660| 2,660.0 -  2,660|
+|2009   |         359|   1,185|     1,060|   124.6 -  4,386|              NA|          NA|            NA|               NA|
+|2010   |         401|   1,261|     1,139|   158.8 -  7,419|               3|       2,318|         2,173| 2,152.0 -  2,630|
+|2011   |         776|   1,156|     1,127|   104.8 -  4,666|               7|       1,835|         2,097|   552.0 -  2,631|
+|2012   |       1,577|   1,173|     1,175|    69.0 -  4,498|              20|       2,308|         2,412|   997.4 -  2,700|
+|2013   |       2,473|   1,229|     1,178|    50.0 -  4,574|           1,098|       2,257|         2,260|   120.2 -  4,679|
+|2014   |       5,188|   1,375|     1,255|    40.0 -  9,028|           6,525|       2,238|         2,200|   132.3 -  6,000|
+|2015   |       8,477|   1,523|     1,451|    59.0 -  5,669|           6,693|       2,609|         2,621|   126.6 -  8,636|
+|2016   |       9,850|   1,637|     1,531|    62.5 -  5,985|           7,893|       2,551|         2,514|     2.3 -  9,079|
+|2017   |      14,977|   1,701|     1,553|     8.7 - 14,634|          10,644|       2,528|         2,469|    36.9 -  9,858|
+|2018   |      16,256|   1,701|     1,582|    13.0 -  8,926|           9,481|       2,551|         2,538|     1.8 -  9,073|
+|2019   |      17,533|   1,707|     1,636|    10.7 -  7,684|           7,121|       2,535|         2,498|    75.3 -  9,500|
+|2020   |      19,710|   1,706|     1,668|     0.2 -  8,906|           4,573|       2,497|         2,534|    16.6 -  7,416|
+|2021   |      24,444|   1,802|     1,755|    27.0 -  8,341|           3,860|       2,565|         2,518|    30.2 - 11,400|
+|2022   |      26,280|   2,071|     1,991|    12.4 - 11,175|           3,148|       2,906|         2,730|     2.1 - 14,607|
+|2023   |      23,042|   2,282|     2,207|    35.0 -  9,893|           3,553|       3,022|         2,840|   106.4 - 11,895|
+|2024   |      12,008|   2,443|     2,345|    40.0 -  8,048|           2,130|       3,147|         2,945|    28.4 - 13,044|
+|2025   |       2,977|   2,968|     2,657|   100.0 -  8,854|             227|       4,163|         3,272|   148.3 - 11,258|
+|2026   |           2|   2,094|     2,094| 1,519.6 -  2,667|              NA|          NA|            NA|               NA|
 
 
 
-#### Additional Costs for articles
+#### Additional Costs for articles (APC data set)
 
 
-
-In addition to APCs, additional costs have been reported for 566 articles, totalling € 327,921. The following table shows an overview of the different cost types:
+In addition to APCs, additional costs have been reported for 725 articles in the APC data set, totalling € 368,335. The following table shows an overview of the different cost types:
 
 
 
 |Cost Type      | Number of Articles| Total Sum (€)|
 |:--------------|------------------:|-------------:|
-|colour charge  |                 71|        96,682|
-|cover charge   |                 12|        15,626|
-|other          |                208|        33,724|
-|page charge    |                187|       175,825|
-|payment fee    |                 71|         3,008|
+|colour charge  |                 80|       107,118|
+|cover charge   |                 13|        19,411|
+|other          |                310|        47,718|
+|page charge    |                193|       186,386|
+|payment fee    |                110|         4,236|
 |reprint        |                  5|         2,207|
-|submission fee |                 12|           848|
+|submission fee |                 14|         1,259|
 
 
 
@@ -1063,9 +1072,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 2,348 open access books. Publication fees were supported financially by 100 research performing institutions and funders. 
+The book data set contains information on 2,467 open access books. Publication fees were supported financially by 110 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 15,537,357. The average payment was € 6,617 and the median was € 6,583.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 16,179,066. The average payment was € 6,558 and the median was € 6,419.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -1088,11 +1097,11 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2018   |             149|    8,925|      8,250|   476 - 21,104|            191|    1,875|      1,875| 1,875 - 1,875|
 |2019   |             173|    7,794|      8,250|   774 - 22,000|            194|    1,876|      1,875| 1,875 - 1,981|
 |2020   |             165|    7,469|      7,380|   802 - 19,200|              2|    1,235|      1,235|   595 - 1,875|
-|2021   |             176|    6,995|      6,561|   595 - 18,000|             NA|       NA|         NA|            NA|
-|2022   |             230|    7,578|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
-|2023   |             346|    6,709|      6,000|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
-|2024   |             170|    7,694|      6,357|   402 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
-|2025   |              15|    5,602|      4,165| 1,437 - 12,000|             NA|       NA|         NA|            NA|
+|2021   |             181|    6,912|      6,295|   595 - 18,000|             NA|       NA|         NA|            NA|
+|2022   |             232|    7,660|      6,902| 1,000 - 50,000|              1|    3,467|      3,467| 3,467 - 3,467|
+|2023   |             349|    6,685|      6,000|   265 - 22,000|              7|    1,693|      1,464|   280 - 3,350|
+|2024   |             216|    7,098|      6,000|   200 - 46,372|              2|    5,059|      5,059| 2,559 - 7,558|
+|2025   |              78|    5,569|      4,949|   193 - 17,302|             NA|       NA|         NA|            NA|
 
 
 
@@ -1137,11 +1146,9 @@ Metadata representing publication titles or publisher names is obtained from Cro
 
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
-|DOI                        |  99.77%       |89.01%   |
-|PubMed ID                  |  73.27%      | NA                                                          |
-|PubMed Central ID          |  67.75%     | NA                                                          |
-|Web of Science record ID   | 64.23%         | NA                                                          |
-
+|DOI                        |  99.76%       |88.16%   |
+|PubMed ID                  |  72.45%      | NA                                                          |
+|PubMed Central ID          |  66.65%     | NA                                                          |
 
 
 

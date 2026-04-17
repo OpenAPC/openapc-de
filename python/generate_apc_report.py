@@ -161,7 +161,7 @@ def generate_duplicates_section(institution, dup_content, ins_content, lang):
         markdown += LANG[lang]["dup_th"]
         for article in articles:
             row = "|"
-            for index in [0, 1, 2, 6]:
+            for index in [0, 1, 2, 7]:
                 row += article[index] + "|"
             markdown += row + "\n"
         markdown += "\n"
@@ -337,8 +337,16 @@ def find_significant_apc_differences(apc_content, institution, verbose=False):
 def main():
     args = parse()
     _, apc_content = oat.get_csv_file_content("../data/apc_de.csv", "utf-8", True)
+    _, ta_content = oat.get_csv_file_content("../data/transformative_agreements/transformative_agreements.csv", "utf-8", True)
     _, ins_content = oat.get_csv_file_content("../data/institutions.csv", "utf-8", True)
     _, dup_content = oat.get_csv_file_content("../data/unresolved_duplicates.csv", "utf-8", True)
+
+    for ta_article in ta_content:
+        if oat.has_value(ta_article[2]): # Add euro TA articles to checks
+            del(ta_article[20])
+            del(ta_article[19])
+            del(ta_article[5])
+            apc_content.append(ta_article)
 
     sig_articles, stats = find_significant_apc_differences(apc_content, args.institution,
                                                            args.verbose)

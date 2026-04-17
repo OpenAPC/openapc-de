@@ -55,7 +55,7 @@ OUT_ASK = ("Please select a target file for the results.\n" +
            "2) Source file {} - WARNING: Make sure the file has already been commited to git!" )
 
 QUOTE_MASK = [True, False, False, True, True, True, True, True, True, True, True,
-              True, True, True, True, True, True, True, True]
+              True, True, True, True, True, True, True, True, True, True]
 
 def _prepare_ezb_info(issn):
     info = oat.get_metadata_from_ezb(issn)

@@ -10,8 +10,11 @@ from urllib.parse import urlparse
 from sortedcontainers import SortedList
 
 APC_DATA = []
-APC_AC_DATA = []
+ARTICLE_AC_DATA = []
 BPC_DATA = []
+CONTRACTS_DATA = []
+
+CONTRACT_AMOUNT_MIN_DIFF = 0.02
 
 DATA_FILES = {
     "apc": {
@@ -20,20 +23,24 @@ DATA_FILES = {
         "unused_fields": ["license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
         "row_length": 18,
+        "has_doi": True,
         "has_issn": True,
         "has_isbn": False,
         "has_url": True,
+        "has_group_ids": False,
         "doi_list": SortedList(),
     },
-    "apc_ac": {
-        "file_path": "data/apc_de_additional_costs.csv",
-        "is_ac_file_for": "apc",
+    "article_ac": {
+        "file_path": "data/additional_costs.csv",
+        "is_ac_file_for": ["apc", "ta"],
         "unused_fields": [],
-        "target_file": APC_AC_DATA,
+        "target_file": ARTICLE_AC_DATA,
         "row_length": 9,
+        "has_doi": True,
         "has_issn": False,
         "has_isbn": False,
         "has_url": False,
+        "has_group_ids": False,
         "doi_list": SortedList(),
     },
     "ta": {
@@ -41,10 +48,12 @@ DATA_FILES = {
         "is_ac_file_for": None,
         "unused_fields": ["license_ref", "pmid", "pmcid", "ut"],
         "target_file": APC_DATA,
-        "row_length": 19,
+        "row_length": 21,
+        "has_doi": True,
         "has_issn": True,
         "has_isbn": False,
         "has_url": True,
+        "has_group_ids": False,
         "doi_list": SortedList(),
     },
     "bpc": {
@@ -53,29 +62,44 @@ DATA_FILES = {
         "unused_fields": ["license_ref"],
         "target_file": BPC_DATA,
         "row_length": 13,
+        "has_doi": True,
         "has_issn": False,
         "has_isbn": True,
         "has_url": False,
+        "has_group_ids": False,
         "doi_list": SortedList(),
+    },
+    "contracts": {
+        "file_path": "data/transformative_agreements/contracts.csv",
+        "is_ac_file_for": None,
+        "unused_fields": [],
+        "target_file": CONTRACTS_DATA,
+        "row_length": 9,
+        "has_doi": False,
+        "has_issn": False,
+        "has_isbn": False,
+        "has_url": False,
+        "has_group_ids": True,
+        "doi_list": None,
     }
 }
 
 KNOWN_DUPLICATES = {
     "apc": {
-		"unresolved_duplicates": {
-			"file_path": "data/unresolved_duplicates.csv",
-			"doi_list": [],
-		},
+        "unresolved_duplicates": {
+            "file_path": "data/unresolved_duplicates.csv",
+            "doi_list": [],
+        },
         "apc_cofunding": {
-			"file_path": "data/apc_cofunding.csv",
-			"doi_list": [],
+            "file_path": "data/apc_cofunding.csv",
+            "doi_list": [],
         },
     },
     "bpc": {
-		"unresolved_bpc_duplicates": {
-			"file_path": "data/unresolved_bpc_duplicates.csv",
-			"doi_list": [],
-		},
+        "unresolved_bpc_duplicates": {
+            "file_path": "data/unresolved_bpc_duplicates.csv",
+            "doi_list": [],
+        },
     }
 }
 
@@ -137,12 +161,15 @@ issn_dict = {}
 issn_p_dict = {}
 issn_e_dict = {}
 issn_l_dict = {}
+group_id_dict = {}
+contract_name_dict = {}
+identifier_dict = {} # ESAC Ids
 
 title_dict = {}
 
 isbn_dict = {}
 
-agreement_dict = {}
+group_id_publisher_dict = {}
 
 ISSN_DICT_FIELDS = ["is_hybrid", "publisher", "journal_full_title", "issn_l"]
 
@@ -153,8 +180,9 @@ for data_file, metadata in DATA_FILES.items():
         for row in reader:
             for field in metadata["unused_fields"]:
                 del(row[field])
-            metadata["target_file"].append(RowObject(metadata["file_path"], line, row, data_file))
-            if oat.has_value(row["doi"]):
+            row_object = RowObject(metadata["file_path"], line, row, data_file)
+            metadata["target_file"].append(row_object)
+            if metadata["has_doi"] and oat.has_value(row["doi"]):
                 if metadata["is_ac_file_for"] is None:
                     global_doi_list.add(row["doi"])
                 metadata["doi_list"].add(row["doi"])
@@ -164,7 +192,6 @@ for data_file, metadata in DATA_FILES.items():
                 reduced_row = {}
                 for field in ISSN_DICT_FIELDS:
                     reduced_row[field] = row[field]
-
                 issn = row["issn"]
                 if oat.has_value(issn):
                     if issn not in issn_dict:
@@ -207,6 +234,25 @@ for data_file, metadata in DATA_FILES.items():
                         isbn_list.append(isbn)
                 for entry in isbn_list:
                     global_isbn_list.add(entry)
+            if metadata["has_group_ids"]:
+                if oat.has_value(row["group_id"]):
+                    group_id = row["group_id"]
+                    if group_id not in group_id_dict:
+                        group_id_dict[group_id] = [row_object]
+                    else:
+                        group_id_dict[group_id].append(row_object)
+                if oat.has_value("identifier"):
+                    identifier = row["identifier"]
+                    if identifier not in identifier_dict:
+                        identifier_dict[identifier] = [row_object]
+                    else:
+                        identifier_dict[identifier].append(row_object)
+                if oat.has_value("contract_name"):
+                    contract_name = row["contract_name"]
+                    if contract_name not in contract_name_dict:
+                        contract_name_dict[contract_name] = [row_object]
+                    else:
+                        contract_name_dict[contract_name].append(row_object)
             line += 1
 
 for _, file_dict in KNOWN_DUPLICATES.items():
@@ -325,10 +371,13 @@ def check_ac_doi_links(row_object):
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
     ac_metadata = DATA_FILES[row_object.origin]
-    target_file = ac_metadata["is_ac_file_for"]
-    if row["doi"] not in DATA_FILES[target_file]["doi_list"]:
-        msg = line_str + 'DOI {} does not occur in the target primary data file ({})'
-        fail(msg.format(row["doi"], target_file))
+    target_files = ac_metadata["is_ac_file_for"]
+    for target_file in target_files:
+        if row["doi"] in DATA_FILES[target_file]["doi_list"]:
+            break
+    else:
+        msg = line_str + 'DOI {} does not occur in any of the target primary data files ({})'
+        fail(msg.format(row["doi"], ", ".join(target_files)))
 
 def check_bpc_field_content(row_object):
     __tracebackhide__ = True
@@ -342,6 +391,29 @@ def check_bpc_field_content(row_object):
         fail(line_str + 'value in row "backlist_oa" must either be TRUE or FALSE')
     if row['doab'] not in ["TRUE", "FALSE"]:
         fail(line_str + 'value in row "doab" must either be TRUE or FALSE')
+
+def check_contract_field_content(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    for field in ["institution", "contract_name", "period_from", "period_to", "group_id"]:
+        if not oat.has_value(row[field]):
+            fail(line_str + 'the column "' + field + '" must not be empty')
+    try:
+        from_date = datetime.datetime.strptime(row['period_from'], "%Y")
+        to_date = datetime.datetime.strptime(row['period_to'], "%Y")
+        if to_date < from_date:
+            msg = 'the to_period date {} occurs earlier than the from_period date {}'
+            fail(line_str + msg.format(row["period_to"], row["period_from"]))
+    except ValueError:
+        msg = 'at least one period value (from/to) could not be parsed as a year value'
+        fail(line_str + msg)
+    #TODO: Check cost type against vocab?
+    if oat.has_value(row["euro"]):
+        try:
+            euro = float(row["euro"])
+        except ValueError:
+            fail(line_str + 'contract euro value (' + row["euro"] + ') is no valid number')
 
 def check_issns(row_object):
     __tracebackhide__ = True
@@ -418,7 +490,7 @@ def check_for_doi_duplicates(row_object):
                     msg = 'DOI "{}" is listed in {} and should not appear in {}'
                     msg = msg.format(doi, dup_file_name, DATA_FILES[row_object.origin]["file_path"])
                     fail(line_str + msg)
-                    
+
 def check_for_url_duplicates(row_object):
     __tracebackhide__ = True
     url = row_object.row["url"]
@@ -460,6 +532,99 @@ def check_hybrid_status(row_object):
         msg = 'Journal "{}" ({}) is listed in the DOAJ but is marked as hybrid (DOAJ only lists fully OA journals)'
         msg = msg.format(title, issn)
         fail(line_str + msg)
+
+def check_contract_amounts(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    group_id = row["group_id"]
+    if group_id in wl.CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS:
+        return
+    amount = float(row["euro"]) if oat.has_value(row["euro"]) else None
+    if amount is None:
+        return
+    other_euro_rows = []
+    # find contract entries with the same group_id which also have euro values
+    for other_row_object in group_id_dict[group_id]:
+        if other_row_object.line_number == row_object.line_number:
+            continue
+        other_row = other_row_object.row
+        other_euro = float(other_row["euro"]) if oat.has_value(other_row["euro"]) else None
+        if other_euro is None or other_euro == 0:
+            continue
+        other_euro_rows.append(other_row)
+    # Check for similar amounts
+    for other_row in other_euro_rows:
+        other_amount = float(other_row["euro"])
+        if amount * other_amount < 0:
+            continue
+        lower, higher = sorted([abs(amount), abs(other_amount)])
+        diff = (higher - lower) / higher
+        if diff < CONTRACT_AMOUNT_MIN_DIFF:
+            msg = line_str
+            msg += ('Two contract entries share a common group_id ({}) and ' +
+                    'the cost amount is almost equal (difference less than ' +
+                    '{}%), this might be a case of double reporting ({}€ vs. {}€).')
+            msg = msg.format(group_id, CONTRACT_AMOUNT_MIN_DIFF*100, amount, other_amount)
+            fail(msg)
+    if len(other_euro_rows) < 2:
+        return
+    # Check if any sum of two other amounts is similar to current amount
+    i = 0
+    j = 1
+    while i < len(other_euro_rows) - 1:
+        while j < len(other_euro_rows):
+            amount_a = float(other_euro_rows[i]["euro"])
+            amount_b = float(other_euro_rows[j]["euro"])
+            amount_sum = amount_a + amount_b
+            lower, higher = sorted([abs(amount), abs(amount_sum)])
+            diff = (higher - lower) / higher
+            if diff < CONTRACT_AMOUNT_MIN_DIFF:
+                msg = line_str
+                msg += ('Three contract entries share a common group_id ({}) and ' +
+                        'the summarized cost of two of them ({}€ + {}€) is almost ' +
+                         'equal to the third ({}€) (difference less than ' +
+                        '{}%), this might be a case of double reporting.')
+                msg = msg.format(group_id, amount_a, amount_b, amount, CONTRACT_AMOUNT_MIN_DIFF*100)
+                fail(msg)
+            j += 1
+        i += 1
+        j = i + 1
+
+def check_contract_consistency(row_object):
+    __tracebackhide__ = True
+    row = row_object.row
+    line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
+    msg = (line_str + 'Two contract entries share a common {} ({}), but the ' +
+           '{} differs ("{}" vs "{}")')
+    group_id = row["group_id"]
+    identifier = row["identifier"]
+    contract_name = row["contract_name"]
+    amount = float(row["euro"]) if oat.has_value(row["euro"]) else None
+    cost_type = row["cost_type"]
+    same_group_id_rows = group_id_dict[group_id]
+    for other_row_object in same_group_id_rows:
+        if other_row_object.line_number == row_object.line_number:
+            continue
+        other_row = other_row_object.row
+        for field in ["institution", "contract_name", "identifier", "consortium"]:
+            if row[field] != other_row[field]:
+                msg = msg.format("group_id", group_id, field, row[field], other_row[field])
+                fail(msg)
+    same_contract_name_rows = contract_name_dict[contract_name]
+    for other_row_object in same_contract_name_rows:
+        other_row = other_row_object.row
+        if identifier != other_row["identifier"]:
+            msg = msg.format("contract_name", contract_name, "identifier", identifier, other_row["identifier"])
+            fail(msg)
+    if oat.has_value(identifier):
+        same_identifier_rows = identifier_dict[identifier]
+        for other_row_object in same_identifier_rows:
+            other_row = other_row_object.row
+            for field in ["contract_name", "consortium"]:
+                if row[field] != other_row[field]:
+                    msg = msg.format("identifier", identifier, field, row[field], other_row[field])
+                    fail(msg)
 
 def check_name_consistency(row_object):
     __tracebackhide__ = True
@@ -540,17 +705,33 @@ def check_ta_data(row_object):
     __tracebackhide__ = True
     row = row_object.row
     line_str = '{}, line {}: '.format(row_object.file_name, row_object.line_number)
-    if "agreement" in row:
+    if row_object.origin == "ta":
         agreement = row["agreement"]
         publisher = row["publisher"]
         doi = row["doi"]
+        if not oat.has_value(row["group_id"]):
+            msg = 'missing group_id for agreement "{}" [{}]'
+            ret = line_str + msg.format(agreement, doi)
+            fail(ret)
+        group_id = row["group_id"]
+        if group_id not in group_id_dict:
+            msg = 'group_id "{}" not found in contracts file [{}]'
+            ret = line_str + msg.format(group_id, doi)
+            fail(ret)
         publisher = mappings.AGREEMENT_PUBLISHER_MAP.get(publisher, publisher)
-        if agreement not in agreement_dict:
-            agreement_dict[agreement] = publisher
-        else:
-            if agreement_dict[agreement] != publisher:
-                msg = 'publisher mismatch found for agreement "{}": {} <> {} [{}]'
-                ret = line_str + msg.format(agreement, publisher, agreement_dict[agreement], doi)
+        if group_id not in group_id_publisher_dict:
+            group_id_publisher_dict[group_id] = publisher
+        elif group_id_publisher_dict[group_id] != publisher:
+            msg = 'publisher mismatch found for group_id "{}": {} <> {} [{}]'
+            ret = line_str + msg.format(group_id, publisher, group_id_publisher_dict[group_id], doi)
+            fail(ret)
+        contract_rows = group_id_dict[group_id]
+        for row_object in contract_rows:
+            contract_name = row_object.row["contract_name"]
+            identifier = row_object.row["identifier"]
+            if identifier != agreement and contract_name != agreement:
+                msg = 'agreement name "{}" for group_id {} does not match values in linked contract record (contract_name: "{}"; identifier: "{}")'
+                ret = line_str + msg.format(agreement, group_id, contract_name, identifier)
                 fail(ret)
 
 @pytest.mark.parametrize("row_object", APC_DATA)
@@ -567,7 +748,7 @@ class TestAPCRows(object):
         check_for_doi_duplicates(row_object)
         check_name_consistency(row_object)
         check_ta_data(row_object)
-        
+
 @pytest.mark.parametrize("row_object", BPC_DATA)
 class TestBPCRows(object):
 
@@ -580,7 +761,7 @@ class TestBPCRows(object):
         check_for_isbn_duplicates(row_object)
         check_for_doi_duplicates(row_object)
 
-@pytest.mark.parametrize("row_object", APC_AC_DATA)
+@pytest.mark.parametrize("row_object", ARTICLE_AC_DATA)
 class TestAPCACRows(object):
 
     # Set of tests to run on all APC AC data
@@ -605,9 +786,9 @@ if __name__ == '__main__':
         check_for_url_duplicates(row_object)
         check_name_consistency(row_object)
         check_ta_data(row_object)
-    oat.print_b(str(len(APC_AC_DATA)) + " APC AC records collected, starting tests...")
-    deciles = {round((len(APC_AC_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
-    for num, row_object in enumerate(APC_AC_DATA):
+    oat.print_b(str(len(ARTICLE_AC_DATA)) + " APC AC records collected, starting tests...")
+    deciles = {round((len(ARTICLE_AC_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
+    for num, row_object in enumerate(ARTICLE_AC_DATA):
         if num in deciles:
             oat.print_b(deciles[num])
         check_line_length(row_object)
@@ -624,3 +805,12 @@ if __name__ == '__main__':
         check_isbns(row_object)
         check_for_isbn_duplicates(row_object)
         check_for_doi_duplicates(row_object)
+    oat.print_b(str(len(CONTRACTS_DATA)) + " contract records collected, starting tests...")
+    deciles = {round((len(CONTRACTS_DATA)/10) * i): str(i * 10) + "%" for i in range(1, 10)}
+    for num, row_object in enumerate(CONTRACTS_DATA):
+        if num in deciles:
+            oat.print_b(deciles[num])
+        check_line_length(row_object)
+        check_contract_field_content(row_object)
+        check_contract_consistency(row_object)
+        check_contract_amounts(row_object)

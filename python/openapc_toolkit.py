@@ -10,6 +10,7 @@ import json
 import locale
 import logging
 from logging.handlers import MemoryHandler
+import openpyxl
 import os
 import re
 from shutil import copyfileobj, copy2
@@ -98,41 +99,100 @@ MESSAGES = {
     "empty_row": "Row is empty."
 }
 
-# Do not quote the values in the 'period' and 'euro' columns
-OPENAPC_STANDARD_QUOTEMASK = [
-    True,
-    False,
-    False,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True,
-    True
-]
-
-# Only quote the doi column, all others are monetary values
-ADDITIONAL_COSTS_QUOTEMASK = [
-    True,
-    False,
-    False,
-    False,
-    False,
-    False,
-    False,
-    False,
-    False,
-]
+QUOTEMASKS = {
+    "journal-article": [
+        True,
+        False,
+        False,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True
+    ],
+    "contracts": [
+        True,
+        True,
+        True,
+        True,
+        False,
+        False,
+        True,
+        False,
+        True,
+    ],
+    "additional_costs": [
+        True,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+    ],
+    "journal-article_transagree": [
+        True,
+        False,
+        False,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True
+    ],
+    "oapk_output": [
+        True,
+        True,
+        False,
+        False,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        True,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        False,
+        True
+    ]
+}
 
 COLUMN_SCHEMAS = {
     "journal-article": [
@@ -161,6 +221,7 @@ COLUMN_SCHEMAS = {
         "euro",
         "doi",
         "is_hybrid",
+        "opt_out",
         "publisher",
         "journal_full_title",
         "issn",
@@ -174,7 +235,8 @@ COLUMN_SCHEMAS = {
         "ut",
         "url",
         "doaj",
-        "agreement"
+        "agreement",
+        "group_id"
     ],
     "book": [
         "institution",
@@ -201,6 +263,17 @@ COLUMN_SCHEMAS = {
         "submission fee",
         "payment fee",
         "other"
+    ],
+    "contracts": [
+        "institution",
+        "consortium",
+        "contract_name",
+        "identifier",
+        "period_from",
+        "period_to",
+        "cost_type",
+        "euro",
+        "group_id"
     ]
 }
 
@@ -208,7 +281,11 @@ COLUMN_SCHEMAS = {
 EXCHANGE_RATES = {}
 
 INSTITUTIONS_FILE = "../data/institutions.csv"
-INSTITUTIONS_MAP = None
+INSTITUTIONS_PATH_MAP = None
+INSTITUTIONS_NAME_MAP = None
+
+CONTRACTS_LOOKUP = None
+ESAC_HANDLING = None
 
 class OpenAPCUnicodeWriter(object):
     """
@@ -276,6 +353,8 @@ class CSVColumn(object):
     BACKUP = {"text": "backup", "color": "blue"}
     RECOMMENDED = {"text": "recommended", "color": "cyan"}
     ADDITIONAL_COSTS = {"text": "additional_costs", "color": "magenta"}
+    DEFAULT_FALSE = {"text": "defaulting to FALSE", "color": "green"}
+    DEFAULT_NA = {"text": "defaulting to NA", "color": "green"}
     NONE = {"text": "not required", "color": "yellow"}
 
     OW_ALWAYS = 0
@@ -377,12 +456,27 @@ class TempFileHandling(object):
                       "the download file '{}{}'"
     }
 
-    def _unzip(self):
+    def _unzip(self, **kwargs):
         with zipfile.ZipFile(self.file_path, "r") as zip_file:
             zip_file.extractall(self.temp_file_dir)
 
+    def _excel_to_csv(self, **kwargs):
+        excel = openpyxl.load_workbook(self.file_path)
+        sheet = excel.active # only works for excel files with one sheet
+        target_name = os.path.join(self.temp_file_dir, self.file_name + ".csv")
+        skip_lines = kwargs.get("skip_lines", 0)
+        row_num = -1
+        with open(target_name, "w") as out:
+            writer = csv.writer(out)
+            for row in sheet.rows:
+                row_num += 1
+                if row_num < skip_lines:
+                    continue
+                writer.writerow([cell.value for cell in row])
+
     DECOMPRESSION_OPTIONS = {
-        "zip": "_unzip"
+        "zip": "_unzip",
+        "excel_to_csv": "_excel_to_csv"
     }
 
     def __init__(self, file_name, file_ext, url=None, url_local_file=None, temp_file_dir="tempfiles", max_mdays=7):
@@ -418,7 +512,7 @@ class TempFileHandling(object):
         timediff = now - then
         return timediff.days
 
-    def prepare_file(self, force_update=False, make_backup=False, verbose=False, decompress=None):
+    def prepare_file(self, force_update=False, make_backup=False, verbose=False, decompress=None, decompress_kwargs={}):
         """
         Return a path to the temporary file, downloading a fresh copy
         and creating a backup if necessary. 
@@ -455,9 +549,9 @@ class TempFileHandling(object):
                 copyfileobj(source, dest)
         if decompress is not None:
             if verbose:
-                print_c("Extracting compressed file ({})...".format(decompress))
+                print_c("Extracting/transforming file ({})...".format(decompress))
             decompression_func = getattr(self, self.DECOMPRESSION_OPTIONS[decompress])
-            decompression_func()
+            decompression_func(**decompress_kwargs)
         if verbose:
             print_c("...Done!")
             if backup_msg:
@@ -605,6 +699,42 @@ class DOABAnalysis(object):
 
     def download_doab_csv(self, target):
         urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
+
+class ESACHandling(TempFileHandling):
+    
+    ESAC_TIME_STAMP = "%Y-%m-%d %H:%M:%S"
+
+    def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
+        super().__init__("ESAC_Transformative_Agreement_Registry", "xlsx", url="https://keeper.mpdl.mpg.de/f/7fbb5edd24ab4c5ca157/?dl=1", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+        self.prepare_file(force_update, make_backup, verbose, decompress="excel_to_csv", decompress_kwargs={"skip_lines": 2})
+        self.mapping_table = self._prepare_mapping_table()
+
+    def _prepare_mapping_table(self):
+        csv_file_path = os.path.join(self.temp_file_dir, self.file_name + ".csv")
+        table = {}
+        with open(csv_file_path, "r") as csv_file:
+            reader = csv.DictReader(csv_file)
+            for line in reader:
+                esac_id = line["ID"]
+                table[esac_id] = line
+        return table
+
+    def get_esac_entry(self, esac_id, show_warnings=True):
+        if esac_id not in self.mapping_table:
+            return None
+        entry = self.mapping_table[esac_id]
+        publisher_oapc = mappings.ESAC_PUBLISHER_MAPPINGS.get(entry["Publisher"], {})
+        if not publisher_oapc and show_warnings:
+            msg = 'ESAC publisher "{}" not found in ESAC_PUBLISHER_MAPPINGS'
+            print_y("WARNING: " + msg.format(entry["Publisher"]))
+        entry["Publisher_short"] = publisher_oapc.get("short", "")
+        entry["Publisher_full"] = publisher_oapc.get("full", "")
+        country_oapc = mappings.ESAC_COUNTRY_MAPPINGS.get(entry["Country"], "")
+        entry["Country_OAPC"] = country_oapc
+        if not country_oapc and show_warnings:
+            msg = 'ESAC Country Name "{}" not found in ESAC_COUNTRY_MAPPINGS'
+            print_y("WARNING: " + msg.format(entry["Country"]))
+        return entry
 
 class ISSNLHandling(TempFileHandling):
 
@@ -838,6 +968,41 @@ class ISBNHandling(TempFileHandling):
             msg = 'ISBN "{}" does not seem to have a valid registration group element.'
             ret_value['value'] = msg.format(isbn)
             return ret_value
+
+class ContractsLookup(object):
+
+    CONTRACTS_FILE = "../data/transformative_agreements/contracts.csv"
+
+    def __init__(self):
+        lookup_fields = ["identifier", "contract_name", "group_id"]
+        data_fields = ["identifier", "contract_name", "group_id", "consortium"]
+        self.lookup_dicts = {
+            field: {} for field in lookup_fields
+        }
+        with open(self.CONTRACTS_FILE, "r") as handle:
+            reader = csv.DictReader(handle)
+            for line in reader:
+                data = {field: line[field] for field in data_fields}
+                for field in lookup_fields:
+                    field_value = line[field]
+                    if not has_value(field_value):
+                        continue
+                    if field_value not in self.lookup_dicts[field]:
+                        self.lookup_dicts[field][field_value] = {
+                            field: [] for field in data_fields
+                        }
+                    for line_field, line_data in data.items():
+                        if has_value(line_data) and line_data not in self.lookup_dicts[field][field_value][line_field]:
+                            self.lookup_dicts[field][field_value][line_field].append(line_data)
+
+    def get_by_identifier(self, identifier):
+        return self.lookup_dicts["identifier"].get(identifier, None)
+
+    def get_by_contract_name(self, identifier):
+        return self.lookup_dicts["contract_name"].get(identifier, None)
+
+    def get_by_group_id(self, identifier):
+        return self.lookup_dicts["group_id"].get(identifier, None)
 
 class CSVAnalysisResult(object):
 
@@ -1283,8 +1448,8 @@ def find_book_dois_in_crossref(isbn_list):
                 if item["type"] in ["monograph", "book", "edited-book"] and item["DOI"] not in ret_value["dois"]:
                     ret_value["dois"].append(item["DOI"])
             if len(ret_value["dois"]) == 0:
-                msg = "No monograph/book DOI type found in  Crossref ISBN search result ({})!"
-                raise ValueError(msg.format(url))
+                msg = "No monograph/book DOI type found in  Crossref ISBN search result ({})"
+                raise ValueError(msg.format(route))
             else:
                 ret_value["success"] = True
     except HTTPError as httpe:
@@ -1376,7 +1541,6 @@ def title_lookup(lookup_title, acccepted_doi_types, auto_accept=False):
     else:
         print_r("Could not obtain a result with an accepted DOI type.")
         return None
-
 
 def _extract_crossref_license(crossref_data):
     """
@@ -1681,7 +1845,12 @@ def get_metadata_from_ror(ror_id):
         response = urlopen(req)
         content_string = response.read()
         ror_data = json.loads(content_string)
-        data["institution"] = ror_data["name"]
+        ror_name = None
+        for name_dict in ror_data["names"]:
+            for types in name_dict["types"]:
+                if "ror_display" in types:
+                    ror_name = name_dict["value"]
+        data["institution"] = ror_name
     except HTTPError as httpe:
         ret['error_msg'] = 'HTTPError: {} - {}'.format(httpe.code, httpe.reason)
         return ret
@@ -1812,14 +1981,12 @@ def get_euro_exchange_rates(currency, frequency="D"):
         result[date] = value
     return result
 
-def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_mode, additional_costs=False):
+def _process_euro_value(euro_value, round_monetary, row_num, index, ta_mode, additional_costs=False):
     if not has_value(euro_value):
         if not additional_costs:
             msg = "Line %s: Empty monetary value in column %s."
-            if offsetting_mode is None:
+            if not ta_mode:
                 logging.error(msg, row_num, index)
-            else:
-                logging.warning(msg, row_num, index)
         return "NA"
     try:
         # Cast to float to ensure the decimal point is a dot (instead of a comma)
@@ -1837,10 +2004,8 @@ def _process_euro_value(euro_value, round_monetary, row_num, index, offsetting_m
         if euro == 0:
             if not additional_costs:
                 msg = "Line %s: Euro value is 0"
-                if offsetting_mode is None:
+                if not ta_mode:
                     logging.error(msg, row_num)
-                else:
-                    logging.warning(msg, row_num)
         return str(euro)
     except ValueError:
         msg = "Line %s: " + MESSAGES["locale"]
@@ -1965,38 +2130,138 @@ def _process_isbn(row_num, isbn, isbn_handling):
             return "NA"
 
 def _process_institution_value(institution, row_num, orig_file_path):
-    global INSTITUTIONS_MAP
-    if not os.path.isfile(INSTITUTIONS_FILE):
-        return institution
-    if INSTITUTIONS_MAP is None:
-        with open(INSTITUTIONS_FILE, "r") as ins_file:
-            reader = csv.DictReader(ins_file)
-            INSTITUTIONS_MAP = {}
-            for line in reader:
-                path = line["openapc_data_dir"]
-                if has_value(path):
-                    INSTITUTIONS_MAP[path] = line["institution"]
+    global INSTITUTIONS_PATH_MAP
+    if INSTITUTIONS_PATH_MAP is None:
+        INSTITUTIONS_PATH_MAP = _create_institution_map_dict("openapc_data_dir")
     path = os.path.dirname(orig_file_path)
     data_path = path.split("data/").pop()
-    if data_path in INSTITUTIONS_MAP:
-        new_value = INSTITUTIONS_MAP[data_path]
+    if data_path in INSTITUTIONS_PATH_MAP:
+        new_value = INSTITUTIONS_PATH_MAP[data_path]["institution"]
         if new_value != institution:
             msg = "Line %s: Normalisation: Institution name replaced via mapping file ('%s' -> '%s')"
             logging.warning(msg, row_num, institution, new_value)
             return new_value
     return institution
 
+def _process_agreement_value(agreement, row_num):
+    global CONTRACTS_LOOKUP
+    if CONTRACTS_LOOKUP is None:
+        CONTRACTS_LOOKUP = ContractsLookup()
+    global ESAC_HANDLING
+    if ESAC_HANDLING is None:
+        ESAC_HANDLING = ESACHandling()
+    ret = {
+        "consortium": "NA",
+        "contract_name": "NA",
+        "identifier": "NA"
+    }
+    identifier_dict = CONTRACTS_LOOKUP.get_by_identifier(agreement)
+    if identifier_dict is not None: # agreement is an esac id
+        ret["identifier"] = agreement
+        ret["contract_name"] = identifier_dict["contract_name"][0]
+        if len(identifier_dict["consortium"]) > 0:
+            ret["consortium"] = identifier_dict["consortium"][0]
+        msg = "Line %s: agreement '%s' found as identifier in contracts.csv"
+        logging.info(msg, row_num, agreement)
+        return ret
+    contract_name_dict = CONTRACTS_LOOKUP.get_by_contract_name(agreement)
+    if contract_name_dict is not None:
+        identifiers = contract_name_dict["identifier"]
+        if len(identifiers) > 1:
+            msg = "Line %s: agreement '%s' found as contract_name in contracts.csv, but the identifier is not unique (%s)"
+            logging.error(msg, row_num, agreement, ", ".join(identifiers))
+            return ret
+        if len(contract_name_dict["identifier"]) > 0:
+            ret["identifier"] = contract_name_dict["identifier"][0]
+        ret["contract_name"] = agreement
+        if len(contract_name_dict["consortium"]) > 0:
+            ret["consortium"] = contract_name_dict["consortium"][0]
+        msg = "Line %s: agreement '%s' found as contract_name in contracts.csv (identifier: %s)"
+        logging.info(msg, row_num, agreement, ret["identifier"])
+        return ret
+    esac_entry = ESAC_HANDLING.get_esac_entry(agreement)
+    if esac_entry is not None:
+        publisher = esac_entry["Publisher"]
+        organization = esac_entry["Organization"]
+        if esac_entry["Publisher_short"] != "":
+            publisher = esac_entry["Publisher_short"]
+        start = esac_entry["Start date"]
+        end = esac_entry["End date"]
+        start_time = datetime.datetime.strptime(start, ESAC_HANDLING.ESAC_TIME_STAMP)
+        end_time = datetime.datetime.strptime(end, ESAC_HANDLING.ESAC_TIME_STAMP)
+        contract_name = "{} ({}) {}-{}".format(publisher, organization, start_time.year, end_time.year)
+        msg = "Line %s: agreement '%s' found in ESAC Registry, contract_name constructed from ESAC data: '%s'"
+        logging.info(msg, row_num, agreement, contract_name)
+        ret["identifier"] = agreement
+        ret["contract_name"] = contract_name
+        ret["consortium"] = esac_entry["Organization"]
+        return ret
+    ret["contract_name"] = agreement
+    msg = "Line %s: agreement '%s' not found in contracts.csv or ESAC registry, value will be used as is"
+    logging.info(msg, row_num, agreement)
+    return ret
+
+def _create_institution_map_dict(map_type):
+    types = ["institution", "openapc_data_dir"]
+    if map_type not in types:
+        raise Exception("Invalid parameter for _create_institution_map_dict, must be one of: " + ", ".join(types))
+    with open(INSTITUTIONS_FILE, "r") as ins_file:
+        ret_dict = {}
+        reader = csv.DictReader(ins_file)
+        for line in reader:
+            key = line[map_type]
+            if has_value(key):
+                ret_dict[key] = line
+    return ret_dict
+
+def _obtain_group_id(row, row_num):
+    global CONTRACTS_LOOKUP
+    if CONTRACTS_LOOKUP is None:
+        CONTRACTS_LOOKUP = ContractsLookup()
+    global INSTITUTIONS_NAME_MAP
+    if INSTITUTIONS_NAME_MAP is None:
+        INSTITUTIONS_NAME_MAP = _create_institution_map_dict("institution")
+    ret = {
+        "created": False,
+        "group_id": "NA"
+    }
+    institution_entry = INSTITUTIONS_NAME_MAP.get(row["institution"])
+    if institution_entry is None:
+        msg = ("Line %s: Institution '%s' not present in institutions file, could not not obtain ROR for group_id generation")
+        logging.error(msg, row_num, row["institution"])
+        return ret
+    ror = institution_entry["ror_id"]
+    if not has_value(ror):
+        msg = ("Line %s: Institution '%s' does not have a ROR ID in institutions file, using the cubes name instead")
+        logging.warning(msg, row_num, row["institution"])
+        ror = institution_entry["institution_cubes_name"]
+    else:
+        ror = ror[16:]
+    identifier = row["identifier"]
+    if not has_value(identifier):
+        identifier = row["contract_name"]
+        identifier = identifier.lower().replace(" ", "")
+    period = row["period"]
+    group_id = ror + "_" + identifier + "_" + str(period)
+    ret["group_id"] = group_id
+    if CONTRACTS_LOOKUP.get_by_group_id(group_id) is not None:
+        msg = ("Line %s: group_id '%s' already present in contracts.csv, article will be linked to this existing contract data")
+        logging.warning(msg, row_num, group_id)
+        return ret
+    ret["created"] = True
+    return ret
+
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, issnl_handling=None, no_crossref_lookup=False, no_pubmed_lookup=False,
                 no_doaj_lookup=False, no_title_lookup=False, preprint_auto_accept=False, 
-                round_monetary=False, offsetting_mode=None, orig_file_path=None, crossref_max_retries=3):
+                round_monetary=False, ta_mode=False, orig_file_path=None, crossref_max_retries=3):
     """
     Enrich a single row of data and reformat it according to OpenAPC standards.
 
     Take a csv row (a list) and a column mapping (a dict of CSVColumn objects)
     and return an enriched and re-arranged version which conforms to the Open
     APC data schema. The method will decide on which data schema to use depending
-    on the identified publication type.
+    on the identified publication type and possible flags.
 
     Args:
         row: A list of column values (as yielded by a UnicodeReader f.e.).
@@ -2020,8 +2285,8 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                               has an effect if no_title_lookup is False.
         round_monetary: If true, monetary values with more than 2 digits behind the decimal
                         mark will be rounded. If false, these cases will be treated as errors.
-        offsetting_mode: If not None, the row is assumed to originate from an offsetting file
-                         and this argument's value will be added to the 'agreement' column
+        ta_mode: If true, the row is assumed to originate from a ta article file and the according
+                 data schema will be applied.
         crossref_max_retries: Max number of attempts to query the crossref API if a 504 error
                               is received.
         orig_file_path: Path of the csv file this row originates from, can be used for
@@ -2054,9 +2319,10 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
         if empty_row:
             current_row[column_type] = ""
             continue
+        req = csv_column.requirement
         if column_type == "euro" and index is not None:
-            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, offsetting_mode, False)
-        elif csv_column.requirement["articles"] == CSVColumn.ADDITIONAL_COSTS and index is not None:
+            current_row["euro"] = _process_euro_value(row[index], round_monetary, row_num, index, ta_mode, False)
+        elif (req["articles"] == CSVColumn.ADDITIONAL_COSTS or req["ta"] == CSVColumn.ADDITIONAL_COSTS) and index is not None:
             current_row[column_type] = _process_euro_value(row[index], round_monetary, row_num, index, None, True)
         elif column_type == "period" and index is not None:
             current_row["period"] = _process_period_value(row[index], row_num)
@@ -2064,6 +2330,15 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             current_row["is_hybrid"] = _process_hybrid_status(row[index], row_num)
         elif column_type == "institution" and index is not None:
             current_row["institution"] = _process_institution_value(row[index], row_num, orig_file_path)
+        elif column_type == "agreement" and index is not None and ta_mode:
+            agreement_data = _process_agreement_value(row[index], row_num)
+            current_row["identifier"] = agreement_data["identifier"]
+            current_row["contract_name"] = agreement_data["contract_name"]
+            current_row["consortium"] = agreement_data["consortium"]
+            if has_value(agreement_data["identifier"]):
+                current_row["agreement"] = agreement_data["identifier"]
+            else:
+                current_row["agreement"] = agreement_data["contract_name"]
         else:
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
@@ -2087,7 +2362,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             row[index] = found_doi
             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                 doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
-                no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
+                no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, ta_mode, orig_file_path)
         # lookup the book title in Crossref
         lookup_title = current_row["book_title"]
         if has_value(lookup_title):
@@ -2100,7 +2375,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 row[index] = book_doi
                 return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                     doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
-                    no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
+                    no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, ta_mode, orig_file_path)
     if has_value(doi):
         # Normalise DOI
         norm_doi = get_normalised_DOI(doi)
@@ -2139,7 +2414,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                             row[index] = article_doi
                             return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                                 doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
-                                no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
+                                no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, ta_mode, orig_file_path)
             if crossref_result["success"]:
                 data = crossref_result["data"]
                 record_type = data.pop("doi_type")
@@ -2165,7 +2440,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                     row[index] = found_doi
                     return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
                                        doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
-                                       no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, offsetting_mode, orig_file_path)
+                                       no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, ta_mode, orig_file_path)
         # include a possible ISSN-L
         if issnl_handling is not None and record_type == "journal-article":
             for issn_field in ["issn", "issn_print", "issn_electronic"]:
@@ -2252,9 +2527,13 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 current_row["doab"] = "FALSE"
                 msg = "DOAB: None of the ISBNs found in DOAB"
                 logging.info(msg)
-    if offsetting_mode:
-        current_row["agreement"] = offsetting_mode
+    if ta_mode:
         record_type = "journal-article_transagree"
+        current_row["period_from"] = current_row["period"]
+        current_row["period_to"] = current_row["period"]
+        current_row["cost_type"] = "NA"
+        group_id_creation = _obtain_group_id(current_row, row_num)
+        current_row["group_id"] = group_id_creation["group_id"]
 
     if record_type is None:
         msg = "Line %s: Could not identify record type, using default schema 'journal-article'"
@@ -2273,17 +2552,30 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
 
     additional_cost_data = False
     for csv_column in column_map.values():
+        req = csv_column.requirement
         if csv_column.requirement["articles"] == CSVColumn.ADDITIONAL_COSTS:
+            additional_cost_data = True
+            break
+        elif ta_mode and csv_column.requirement["ta"] == CSVColumn.ADDITIONAL_COSTS:
             additional_cost_data = True
             break
 
     if additional_cost_data:
         ret["additional_costs"] = []
         for field in COLUMN_SCHEMAS["additional_costs"]:
-            if field in current_row and has_value(current_row["euro"]):
+            if field in current_row:
                 ret["additional_costs"].append(current_row[field])
             else:
                 ret["additional_costs"].append("NA")
+
+    # only write a contracts line if a group_id could be created in the first place
+    if ta_mode and group_id_creation["created"]:
+        ret["contracts"] = []
+        for field in COLUMN_SCHEMAS["contracts"]:
+            if field == "euro": # Do not copy article-level costs to contracts...
+                  ret["contracts"].append("NA")
+            else:
+                ret["contracts"].append(current_row[field])
 
     return ret
 

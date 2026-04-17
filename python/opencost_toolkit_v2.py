@@ -21,6 +21,8 @@ except ImportError:
     etree = None
     print("WARNING: 3rd party module 'lxml' not found - optional openCost schema validation will not work")
 
+DEAL_IDENTIFIERS = ["wiley2024deal", "wiley2019deal", "sn2024deal", "sn2020deal", "els2023deal"]
+
 EXCHANGE_RATES = {}
 
 OPENCOST_EXTRACTION_FIELDS = OrderedDict([
@@ -30,6 +32,7 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("euro", None),
     ("doi", "opencost:primary_identifier//opencost:doi"),
     ("is_hybrid", None),
+    ("opt-out", None),
     ("type", "opencost:publication_type"),
     ("contract_primary_identifier", None),
     ("contract_group_id", None),
@@ -51,6 +54,7 @@ OPENCOST_EXTRACTION_FIELDS = OrderedDict([
 
 OPENCOST_CONTRACT_EXTRACTION_FIELDS = OrderedDict([
     ("institution_ror", "opencost:institution//opencost:id[opencost:type='ror']//opencost:value"),
+    ("contract_name", "opencost:contract_name"),
     ("contract_id", "opencost:primary_identifier[opencost:type='ESAC']//opencost:value")
 ])
 
@@ -159,7 +163,10 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
     }
     local_vat_found = False
 
-    data = {}
+    data = {
+        "dates": {},
+        "costs": []
+    }
     for field, xpath in cost_data_xpaths.items():
         results = invoice_element.findall(xpath, namespaces)
         for result in results:
@@ -172,6 +179,7 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                     value = result.text[:4]
                 else:
                     value = result.text
+                data["dates"][target_field] = value
             elif field == "amount_paid":
                 cur = result.find("opencost:currency", namespaces).text
                 cost_type = result.find("opencost:cost_type", namespaces).text
@@ -195,10 +203,10 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                         value += vat_value
                         local_vat_found = True
                 if cur != "EUR":
-                    if "date_paid" in data:
-                        period = data["date_paid"]
-                    elif "date_invoice" in data:
-                        period = data["date_invoice"]
+                    if "date_paid" in data["dates"]:
+                        period = data["dates"]["date_paid"]
+                    elif "date_invoice" in data["dates"]:
+                        period = data["dates"]["date_invoice"]
                     else:
                         ret["error_msg"] = msgs["conv_no_period"]
                         return ret
@@ -218,7 +226,7 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                     msg = msg.format(value, cur, euro_value, period)
                     logging.info(msg)
                     value = euro_value
-                # Add monetary values of the same cost type, handle problematic VAT cases
+                # Handle problematic VAT cases
                 target_field = cost_type
                 if target_field == 'vat' and local_vat_found:
                     if strict_vat:
@@ -226,16 +234,12 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
                         return ret
                     else:
                         logging.warning(msgs["both_vat_types"])
-                if target_field in data:
-                    if target_field == 'vat' and strict_vat:
-                        ret["error_msg"] = msgs["multiple_vats"]
-                        return ret
-                    old_value = data[target_field]
-                    msg = msgs["add_amounts_paid"]
-                    msg = msg.format(target_field, old_value, value, old_value + value)
-                    logging.info(msg)
-                    value = old_value + value
-            data[target_field] = value
+                if target_field == 'vat' and strict_vat:
+                    for data_tuple in data:
+                        if data_tuple[0] == 'vat':
+                            ret["error_msg"] = msgs["multiple_vats"]
+                            return ret
+                data["costs"].append((target_field, value))
     ret["success"] = True
     ret["data"] = data
     return ret
@@ -271,7 +275,8 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
     group_elements = cost_data_element.findall("opencost:invoice_group", namespaces)
     for group_element in group_elements:
         data = {
-            "group_total_costs": 0,
+            "group_total_costs": 0, # deprecated
+            "invoices": [],
             "merged": False,
             "possible_duplicate": False
         }
@@ -297,10 +302,7 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
             if not processed_invoice["success"]:
                 return processed_invoice
             invoice_data = processed_invoice["data"]
-            for field, value in invoice_data.items():
-                 # sum all payment amounts
-                if field in ["read", "publish", "vat"]:
-                    data["group_total_costs"] += value
+            data["invoices"].append(invoice_data)
         extracted_invoice_groups.append(data)
     ret["success"] = True
     ret["data"] = extracted_invoice_groups
@@ -482,7 +484,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     3) Map extracted values to OpenAPC fields euro, period and is_hybrid
 
     If the publication was part of a contract, the primary_identifier
-    and invoice_id will be extracted as well. In this case, however, the
+    and invoice group id will be extracted as well. In this case, however, the
     final calculation of costs and dates relies on that invoice data and has
     to be resolved on a higher level. Consistency checks will be omitted
     in this case.
@@ -495,7 +497,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
                            'for the same publication.',
         'no_date': 'No date value found and the publication is not part ' +
                    'of any contract.',
-        'add_amounts_invoices': 'Cost type {} occurs in more than one invoice, ' +
+        'add_amounts_invoices': 'Cost type {} occurs in more than once, ' +
                                 'adding amounts ({} + {} = {})'
     }
 
@@ -531,27 +533,26 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     for invoice_data in invoices_data:
         # If there are multiple invoices, we have to merge the data in a
         # meaningful way
-        for field, value in invoice_data.items():
-            if field not in final_data:
-                 # If we have not encountered this type of field yet,
+        for cost_type, value in invoice_data["costs"]:
+            if cost_type not in final_data:
+                 # If we have not encountered this cost type yet,
                 # we can safely add it
-                final_data[field] = value
-                continue
-            # Otherwise we have to apply special rules on how
-            # to combine data from multiple invoices
-            if field in ["date_paid", "date_invoice"]:
-                if value != final_data[field]:
-                    msg = msgs["date_inconsistent"].format(field, value, final_data[field])
-                    logging.warning(msg)
-                    if value < final_data[field]:
-                        final_data[field] = value
+                final_data[cost_type] = value
             else:
                 # Monetary values can be simply added
                 msg = msgs["add_amounts_invoices"]
-                old_value = final_data[field]
-                msg = msg.format(field, old_value, value, old_value + value)
+                old_value = final_data[cost_type]
+                msg = msg.format(cost_type, old_value, value, old_value + value)
                 logging.info(msg)
-                final_data[field] += value
+                final_data[cost_type] += value
+        for date_type, value in invoice_data["dates"].items():
+            if date_type not in final_data:
+                final_data[date_type] = value
+            elif value != final_data[date_type]:
+                msg = msgs["date_inconsistent"].format(date_type, value, final_data[date_type])
+                logging.warning(msg)
+                if value < final_data[date_type]:
+                    final_data[date_type] = value
     # Final consistency checks + hybrid status extraction
     if "gold-oa" in final_data and "hybrid-oa" in final_data:
         ret["error_msg"] = msgs["gold_hybrid_mix"]
@@ -566,12 +567,22 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
         if "vat" in final_data:
             final_data["euro"] += final_data["vat"]
         final_data["is_hybrid"] = "TRUE"
-    # Special is_hybrid rule: DEAL opt-out
+    # Special is_hybrid rule: opt-out
+    final_data["opt-out"] = "FALSE"
     esac_id = final_data.get("contract_primary_identifier", "")
-    if esac_id in ["sn2020deal", "wiley2019deal", "els2023deal"]:
-        if "publication charge" in final_data and not "hybrid-oa" in final_data:
-            if final_data["publication charge"] == 0.0:
+    if esac_id:
+        if not "hybrid-oa" in final_data and not "gold-oa" in final_data:
+            if "publication charge" in final_data and final_data["publication charge"] == 0.0:
+                final_data["opt-out"] = "TRUE"
                 final_data["is_hybrid"] = "TRUE"
+                final_data["euro"] = "NA"
+                final_data["publication charge"] = "NA"
+            # DEAL workaround: OAPK institutions erroneously using "other" to mark opt-out articles
+            elif esac_id in DEAL_IDENTIFIERS and "other" in final_data and final_data["other"] == 0.0:
+                final_data["opt-out"] = "TRUE"
+                final_data["is_hybrid"] = "TRUE"
+                final_data["euro"] = "NA"
+                final_data["other"] = "NA"
     if "date_paid" in final_data:
         final_data["period"] =  final_data["date_paid"]
     elif "date_invoice" in final_data:
