@@ -1152,6 +1152,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0099-2240", # Applied and Environmental Microbiology, Subscribe to Open (S2O) since 2025
     "1362-7937", # Gothic Studies, Subscribe to Open (S2O) since 2025
     "0022-538X", # Journal of Virology, Subscribe to Open (S2O) since 2025
+    "1465-6485", # German Economic Review, Subscribe to Open (S2O) since 2025
+    "0890-037X", # Weed Technology, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
