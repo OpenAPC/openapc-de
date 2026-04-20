@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 188,640 articles, published at 559 institutions under 236 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 188,661 articles, published at 559 institutions under 236 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -41,7 +41,7 @@ This dataset contains information on 188,640 articles, published at 559 institut
 |Springer Nature (CSAL) 2023-2025                          |     2994|
 |Elsevier (CRUE-CSIC Alliance) 2021-2024                   |     2924|
 |Springer Compact (FinELib) 2021-2023                      |     2656|
-|Springer Nature (DEAL) 2024-2028                          |     2600|
+|Springer Nature (DEAL) 2024-2028                          |     2605|
 |Sage (CRKN) 2024-2026                                     |     2497|
 |EDP Sciences (Couperin) 2022-2026                         |     2423|
 |Wiley (IReL) 2021-2024                                    |     2332|
@@ -54,10 +54,10 @@ This dataset contains information on 188,640 articles, published at 559 institut
 |Springer Nature (IReL) 2021-2024                          |     1425|
 |Springer Compact (Bibsam) 2022-2024                       |     1388|
 |Elsevier (CRUI-CARE) 2023-2027                            |     1343|
-|Elsevier (DEAL) 2023-2028                                 |     1258|
+|Elsevier (DEAL) 2023-2028                                 |     1270|
 |Taylor & Francis (FinELib) 2023-2024                      |     1205|
 |Taylor & Francis (CSAL) 2021-2023                         |     1148|
-|Wiley (DEAL) 2024-2028                                    |     1132|
+|Wiley (DEAL) 2024-2028                                    |     1134|
 |Wiley (CRUE-CSIC Alliance) 2022-2024                      |     1109|
 |Taylor & Francis (FinELib) 2020-2022                      |     1041|
 |Taylor & Francis (IReL) 2021-2023                         |     1006|
@@ -215,9 +215,9 @@ This dataset contains information on 188,640 articles, published at 559 institut
 |Sage (KEMOE) 2019-2022                                    |       17|
 |AIP Publishing (CzechELib) 2023-2025                      |       16|
 |IEEE (KEMOE/FWF) 2021-2024                                |       16|
+|Nature (MPDL) 2021-2024                                   |       16|
 |Sage (KEMOE) 2016-2018                                    |       16|
 |Walter de Gruyter (CSIC) 2023-2025                        |       16|
-|Nature (MPDL) 2021-2024                                   |       14|
 |Wolters Kluwer Health (CRUI-CARE) 2025-2027               |       14|
 |Association for Computing Machinery (IReL) 2020-2022      |       13|
 |Microbiology Society (CSIC) 2021-2023                     |       13|
@@ -597,6 +597,7 @@ This dataset contains information on 188,640 articles, published at 559 institut
 |Netherlands Institute of Ecology                                                                                                                   |       35|
 |Pädagogische Hochschule Zürich                                                                                                                     |       35|
 |University of Liechtenstein                                                                                                                        |       35|
+|DIfE                                                                                                                                               |       34|
 |Kingston University                                                                                                                                |       34|
 |Technological University of the Shannon: Midlands Midwest                                                                                          |       34|
 |University of Borås                                                                                                                                |       34|
@@ -678,7 +679,6 @@ This dataset contains information on 188,640 articles, published at 559 institut
 |ASH Berlin                                                                                                                                         |       14|
 |HS RheinMain                                                                                                                                       |       14|
 |Birmingham City University                                                                                                                         |       13|
-|DIfE                                                                                                                                               |       13|
 |Institut national de la recherche scientifique                                                                                                     |       13|
 |Munich University of Applied Sciences                                                                                                              |       13|
 |Université du Québec en Outaouais                                                                                                                  |       13|
