@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |274,373                  | 567,942,064    | 481                   |
+| Articles (APCs)             |274,452                  | 568,133,422    | 481                   |
 | Monographs (BPCs)           |2,554                           | 16,953,213             | 113                            |
-| OA Agreements/Contracts     |430                 | 117,745,276   | 128                  |
+| OA Agreements/Contracts     |444                 | 119,286,194   | 128                  |
 
 ## How to access the data?
 
@@ -1001,13 +1001,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 254,910 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 481 research-performing institutions and research funders.
+The APC data set contains information on 254,954 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 481 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 524,682,963. The average payment was € 2,058 and the median was € 1,899.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 524,789,306. The average payment was € 2,058 and the median was € 1,899.
 
-187,563 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 350,979,070, including value-added tax; the average payment was € 1,871 (median =  € 1,733, SD = € 925).
+187,602 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 351,077,157, including value-added tax; the average payment was € 1,871 (median =  € 1,733, SD = € 925).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,347 articles in the data set were published in hybrid journals. Total expenditure amounts to 173,703,893 €; the average fee was € 2,579 (median =  € 2,514, SD = € 1,175).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,352 articles in the data set were published in hybrid journals. Total expenditure amounts to 173,712,150 €; the average fee was € 2,579 (median =  € 2,514, SD = € 1,175).
 
 Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
@@ -1042,8 +1042,8 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2021   |      24,445|   1,802|     1,755|    27.0 -  8,341|           3,860|       2,565|         2,518|    30.2 - 11,400|
 |2022   |      26,280|   2,071|     1,991|    12.4 - 11,175|           3,148|       2,906|         2,730|     2.1 - 14,607|
 |2023   |      23,045|   2,282|     2,207|    35.0 -  9,893|           3,553|       3,022|         2,840|   106.4 - 11,895|
-|2024   |      12,094|   2,441|     2,345|    40.0 -  8,048|           2,184|       3,107|         2,895|    28.4 - 13,044|
-|2025   |       3,768|   2,771|     2,475|   100.0 -  8,854|             542|       3,349|         2,878|   148.3 - 13,166|
+|2024   |      12,132|   2,441|     2,345|    40.0 -  8,048|           2,189|       3,104|         2,895|    28.4 - 13,044|
+|2025   |       3,769|   2,771|     2,475|   100.0 -  8,854|             542|       3,349|         2,878|   148.3 - 13,166|
 |2026   |           2|   2,094|     2,094| 1,519.6 -  2,667|              NA|          NA|            NA|               NA|
 
 
@@ -1148,7 +1148,7 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.76%       |87.82%   |
-|PubMed ID                  |  72.33%      | NA                                                          |
+|PubMed ID                  |  72.32%      | NA                                                          |
 |PubMed Central ID          |  66.52%     | NA                                                          |
 
 
