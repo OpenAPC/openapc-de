@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 190,041 articles, published at 559 institutions under 242 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 190,042 articles, published at 559 institutions under 242 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -98,7 +98,7 @@ This dataset contains information on 190,041 articles, published at 559 institut
 |Springer Compact (KEMOE/FWF) 2019-2021                                                                                                           |      372|
 |Royal Society of Chemistry (CSAL) 2021-2023                                                                                                      |      364|
 |Wolters Kluwer Health (CSAL) 2022-2024                                                                                                           |      338|
-|IEEE (FinELib) 2024-2025                                                                                                                         |      323|
+|IEEE (FinELib) 2024-2025                                                                                                                         |      324|
 |American Chemical Society (CSAL) 2023-2025                                                                                                       |      318|
 |Wiley (CRUI-CARE) 2024-2027                                                                                                                      |      294|
 |AIP Publishing (CSAL) 2022-2024                                                                                                                  |      287|
@@ -289,7 +289,7 @@ This dataset contains information on 190,041 articles, published at 559 institut
 |Milano U                                                                                                                                           |     2801|
 |University of Lausanne                                                                                                                             |     2616|
 |Charité - Universitätsmedizin Berlin                                                                                                               |     2526|
-|Aalto University                                                                                                                                   |     2520|
+|Aalto University                                                                                                                                   |     2521|
 |University of Basel                                                                                                                                |     2518|
 |Tampere University                                                                                                                                 |     2444|
 |Bonn U                                                                                                                                             |     2287|
