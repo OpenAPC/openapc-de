@@ -658,6 +658,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1925-4059": ["Sciedu Press", "Association for Health Sciences and Education"], # Journal of Nursing Education and Practice (electronic)
 	"1916-0216": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Journal of Otolaryngology - Head & Neck Surgery 
 	"1916-0208": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Journal of Otolaryngology - Head & Neck Surgery (linking)
+	"2214-3599": ["IOS Press", "SAGE Publications"], # Journal of Neuromuscular Diseases 
+	"2214-3602": ["IOS Press", "SAGE Publications"], # Journal of Neuromuscular Diseases (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1154,6 +1156,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0022-538X", # Journal of Virology, Subscribe to Open (S2O) since 2025
     "1465-6485", # German Economic Review, Subscribe to Open (S2O) since 2025
     "0890-037X", # Weed Technology, Gold OA since 2024
+    "1745-3925", # Monthly Notices of the Royal Astronomical Society: Letters, Gold OA since 2024
+    "2214-3599", # Journal of Neuromuscular Diseases, Gold OA since 2023
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1166,6 +1170,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "047wbd030_sage2021gac_2023", # Darmstadt University of Applied Sciences
     "047wbd030_sage2024gac_2024", # Darmstadt University of Applied Sciences
     "000h6jb29_sn2024deal_2024", # UFZ
+    "04mz5ra38_els2023deal_2024", # Duisburg-Essen U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
