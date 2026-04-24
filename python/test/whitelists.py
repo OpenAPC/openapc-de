@@ -1159,6 +1159,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1745-3925", # Monthly Notices of the Royal Astronomical Society: Letters, Gold OA since 2024
     "2214-3599", # Journal of Neuromuscular Diseases, Gold OA since 2023
     "0021-4027", # Jahrbücher für Nationalökonomie und Statistik, S20 since 2023
+    "2045-3817", # Global Constitutionalism, Gold OA since 2024
+    "0952-5238", # Visual Neuroscience, Gold OA since 2023
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts

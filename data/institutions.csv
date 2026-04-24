@@ -1,7 +1,7 @@
 institution,institution_cubes_name,institution_full_name,continent,country,state,openapc_data_dir,ror_id,institution_type,institution_group,info_url,comment
 Bamberg U,bamberg_u,Bamberg University,EUROPE,DEU,BY,unibamberg,https://ror.org/01c1w6d29,HEI,NA,https://www.uni-bamberg.de/en/library/publishing/oa-publishing/,NA
 Bielefeld U,bielefeld_u,Bielefeld University,EUROPE,DEU,NW,unibi,https://ror.org/02hpadn98,HEI,NA,http://oa.uni-bielefeld.de/publikationsfonds.html,NA
-Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue,https://ror.org/04mz5ra38,HEI,NA,NA,NA
+Duisburg-Essen U,duisburg_essen_u,University of Duisburg-Essen,EUROPE,DEU,NW,unidue,https://ror.org/04mz5ra38,HEI,NA,https://www.uni-due.de/ub/en/publish/open-access-funding.php,NA
 FU Berlin,fu_berlin,Freie Universität Berlin,EUROPE,DEU,BE,fuberlin,https://ror.org/046ak2485,HEI,NA,https://www.fu-berlin.de/sites/open_access/finanzierung-oa/zeitschriftenartikel/publikationsfonds_zeitschriften/index.html,NA
 GFZ-Potsdam,gfz_potsdam,GFZ German Research Centre for Geosciences,EUROPE,DEU,BB,gfz-potsdam,https://ror.org/04z8jg394,INS,HGF,https://www.gfz-potsdam.de/en,data provided by the [Library Wissenschaftspark Albert Einstein](http://bib.telegrafenberg.de/en/publishing/open-access/)
 Konstanz U,konstanz_u,University of Konstanz,EUROPE,DEU,BW,unikonstanz,https://ror.org/0546hnb39,HEI,NA,https://www.kim.uni-konstanz.de/en/openscience/publishing-and-open-access/funding-open-access/,NA
