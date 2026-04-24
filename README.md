@@ -75,7 +75,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Eberhard Karls Universität Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/open-access-publication-fund-articles/)
 - [Fachhochschule Südwestfalen](https://www.fh-swf.de/de/studierende/rund_ums_studium/bibliothek_1/publikationsdienstleistungen/publikationsdienstleistungen.php#absatz_container_oa_fh)
 - [Freie Universität Berlin](https://www.fu-berlin.de/sites/open_access/finanzierung-oa/zeitschriftenartikel/publikationsfonds_zeitschriften/index.html)
-- [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
+- [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/en/research/open-access/)
 - [Friedrich-Schiller-Universität Jena](https://www.thulb.uni-jena.de/services/forschung-/-lehre/open-access-/-elektronisches-publizieren#c3516)
 - [Fulda University of Applied Sciences](https://www.hs-fulda.de/en/)
 - [HAWK Hochschule für angewandte Wissenschaft und Kunst Hildesheim/Holzminden/Göttingen](https://www.hawk.de/de/hochschule/organisation-und-personen/zentrale-einrichtungen/zentrum-fuer-information-medien-und-technologie/bibliothek/openaccess)
