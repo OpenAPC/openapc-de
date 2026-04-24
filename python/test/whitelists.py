@@ -660,6 +660,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1916-0208": ["Springer Science + Business Media", "Springer Nature", "SAGE Publications"], # Journal of Otolaryngology - Head & Neck Surgery (linking)
 	"2214-3599": ["IOS Press", "SAGE Publications"], # Journal of Neuromuscular Diseases 
 	"2214-3602": ["IOS Press", "SAGE Publications"], # Journal of Neuromuscular Diseases (electronic)
+	"2575-1220": ["American Society of Agronomy", "Wiley-Blackwell"], # Urban Agriculture & Regional Food Systems
+	"1876-4401": ["Elsevier BV", "Springer Nature"], # Artery Research 
+	"1872-9312": ["Elsevier BV", "Springer Nature"], # Artery Research (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1161,6 +1164,10 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0021-4027", # Jahrbücher für Nationalökonomie und Statistik, S20 since 2023
     "2045-3817", # Global Constitutionalism, Gold OA since 2024
     "0952-5238", # Visual Neuroscience, Gold OA since 2023
+    "1876-4401", # Artery Research, Gold OA since 2019
+    "1872-9312", # Artery Research, Gold OA since 2019 (linking)
+    "1878-8750", # World Neurosurgery, Gold OA since 2025
+    "1745-4514", # Journal of Food Biochemistry, Gold OA since 2023
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
