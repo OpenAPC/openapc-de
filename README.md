@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |275,584                  | 570,942,945    | 481                   |
-| Monographs (BPCs)           |2,565                           | 16,999,022             | 113                            |
-| OA Agreements/Contracts     |497                 | 125,052,776   | 128                  |
+| Articles (APCs)             |275,991                  | 571,840,375    | 481                   |
+| Monographs (BPCs)           |2,567                           | 17,020,484             | 113                            |
+| OA Agreements/Contracts     |516                 | 127,217,501   | 128                  |
 
 ## How to access the data?
 
@@ -72,7 +72,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Christian-Albrechts-Universität zu Kiel](https://www.ub.uni-kiel.de/de/publizieren/open-access-finanzierung)
 - [Clausthal University of Technology](https://www.ub.tu-clausthal.de/publizieren-open-access/open-access-publizieren/publikationsfonds)
 - [Darmstadt University of Applied Sciences](https://h-da.de/en/)
-- [Eberhard Karls Universität Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/publishing/open-access-publication-fund/)
+- [Eberhard Karls Universität Tübingen](https://uni-tuebingen.de/en/facilities/university-library/publishing-research/open-access-publication-fund-articles/)
 - [Fachhochschule Südwestfalen](https://www.fh-swf.de/de/studierende/rund_ums_studium/bibliothek_1/publikationsdienstleistungen/publikationsdienstleistungen.php#absatz_container_oa_fh)
 - [Freie Universität Berlin](https://www.fu-berlin.de/sites/open_access/finanzierung-oa/zeitschriftenartikel/publikationsfonds_zeitschriften/index.html)
 - [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://ub.fau.de/schreiben-publizieren/open-access/dfg-gefoerderter-publikationsfonds/)
@@ -138,7 +138,7 @@ The following institutions have contributed to OpenAPC so far:
 - [University of Applied Sciences Mainz](https://www.hs-mainz.de/)
 - [University of Applied Sciences Potsdam](https://www.fh-potsdam.de/campus-services/bibliothek/open-access-publizieren#section-18181)
 - [University of Bremen](http://www.suub.uni-bremen.de/home-english/refworks-and-publishing/open-access-in-bremen-2/)
-- University of Duisburg-Essen
+- [University of Duisburg-Essen](https://www.uni-due.de/ub/en/publish/open-access-funding.php)
 - [University of Education Freiburg](https://www.ph-freiburg.de/)
 - [University of Education Schwaebisch Gmuend](https://www.ph-gmuend.de)
 - [University of Freiburg](https://www.ub.uni-freiburg.de/en/support/electronic-publishing/open-access/open-access-publication-fund/)
@@ -1001,13 +1001,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 256,001 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 481 research-performing institutions and research funders.
+The APC data set contains information on 256,181 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 481 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 527,363,555. The average payment was € 2,060 and the median was € 1,900.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 527,764,524. The average payment was € 2,060 and the median was € 1,900.
 
-188,571 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 353,396,976, including value-added tax; the average payment was € 1,874 (median =  € 1,735, SD = € 926).
+188,750 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 353,795,927, including value-added tax; the average payment was € 1,874 (median =  € 1,736, SD = € 926).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,430 articles in the data set were published in hybrid journals. Total expenditure amounts to 173,966,579 €; the average fee was € 2,580 (median =  € 2,515, SD = € 1,176).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,431 articles in the data set were published in hybrid journals. Total expenditure amounts to 173,968,597 €; the average fee was € 2,580 (median =  € 2,515, SD = € 1,176).
 
 Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
@@ -1042,8 +1042,8 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2021   |      24,445|   1,802|     1,755|    27.0 -  8,341|           3,860|       2,565|         2,518|    30.2 - 11,400|
 |2022   |      26,280|   2,071|     1,991|    12.4 - 11,175|           3,148|       2,906|         2,730|     2.1 - 14,607|
 |2023   |      23,064|   2,282|     2,207|    35.0 -  9,893|           3,557|       3,022|         2,840|   106.4 - 11,895|
-|2024   |      13,000|   2,438|     2,345|    40.0 -  9,758|           2,263|       3,110|         2,920|    28.4 - 13,044|
-|2025   |       3,851|   2,761|     2,461|   100.0 -  8,854|             542|       3,349|         2,878|   148.3 - 13,166|
+|2024   |      13,178|   2,435|     2,345|    40.0 -  9,758|           2,264|       3,109|         2,918|    28.4 - 13,044|
+|2025   |       3,852|   2,761|     2,461|   100.0 -  8,854|             542|       3,349|         2,878|   148.3 - 13,166|
 |2026   |           2|   2,094|     2,094| 1,519.6 -  2,667|              NA|          NA|            NA|               NA|
 
 
@@ -1073,9 +1073,9 @@ This plot shows the cost distribution grouped by publishers. It includes only ar
 
 ### Books (BPCs)
 
-The book data set contains information on 2,565 open access books. Publication fees were supported financially by 113 research performing institutions and funders. 
+The book data set contains information on 2,567 open access books. Publication fees were supported financially by 113 research performing institutions and funders. 
 
-In total, book processing charges covered by the OpenAPC initiative amounted to € 16,999,022. The average payment was € 6,627 and the median was € 6,545.
+In total, book processing charges covered by the OpenAPC initiative amounted to € 17,020,484. The average payment was € 6,630 and the median was € 6,545.
 
 Books can be made Open Access right from the beginning ("frontlist") or only retroactively after having been published traditionally in the first place ("backlist"), which can have a big influence on the paid BPCs.
 
@@ -1101,7 +1101,7 @@ Books can be made Open Access right from the beginning ("frontlist") or only ret
 |2021   |             181|    6,912|      6,295|   595 - 18,000|             NA|       NA|         NA|             NA|
 |2022   |             233|    7,661|      6,902| 1,000 - 50,000|              4|    7,352|      7,138| 3,467 - 11,666|
 |2023   |             352|    6,697|      6,000|   265 - 22,000|              7|    1,693|      1,464|   280 -  3,350|
-|2024   |             236|    7,034|      6,000|   200 - 46,372|              2|    5,059|      5,059| 2,559 -  7,558|
+|2024   |             238|    7,065|      6,000|   200 - 46,372|              2|    5,059|      5,059| 2,559 -  7,558|
 |2025   |             147|    7,148|      6,964|   193 - 17,302|              2|    9,625|      9,625| 3,885 - 15,365|
 
 
