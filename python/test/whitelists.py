@@ -663,6 +663,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2575-1220": ["American Society of Agronomy", "Wiley-Blackwell"], # Urban Agriculture & Regional Food Systems
 	"1876-4401": ["Elsevier BV", "Springer Nature"], # Artery Research 
 	"1872-9312": ["Elsevier BV", "Springer Nature"], # Artery Research (linking)
+	"2688-1152": ["Wiley-Blackwell", "Elsevier BV"], # JACEP Open 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1181,6 +1182,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "047wbd030_sage2024gac_2024", # Darmstadt University of Applied Sciences
     "000h6jb29_sn2024deal_2024", # UFZ
     "04mz5ra38_els2023deal_2024", # Duisburg-Essen U
+    "05qpz1x62_degruy2023gac_2024", # Friedrich-Schiller-Universität Jena
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
