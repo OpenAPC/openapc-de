@@ -364,9 +364,7 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
                         publication[key] = str(publication[key])
                         if key == "doi":
                             norm_doi = oat.get_normalised_DOI(publication["doi"])
-                            if norm_doi is None:
-                                publication["doi"] = "NA"
-                            else:
+                            if norm_doi is not None:
                                 publication["doi"] = norm_doi
                         if key == "euro":
                             if not oat.has_value(publication["euro"]):
