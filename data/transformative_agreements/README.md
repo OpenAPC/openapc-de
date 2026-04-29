@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 193,260 articles, published at 559 institutions under 250 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 193,269 articles, published at 559 institutions under 250 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -31,7 +31,7 @@ This dataset contains information on 193,260 articles, published at 559 institut
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     4245|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     4251|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
@@ -103,7 +103,7 @@ This dataset contains information on 193,260 articles, published at 559 institut
 |Wiley (CRUI-CARE) 2024-2027                                                                                                                      |      294|
 |AIP Publishing (CSAL) 2022-2024                                                                                                                  |      287|
 |Oxford University Press (IReL) 2024-2026                                                                                                         |      279|
-|Taylor & Francis (ZBW) 2024-2026                                                                                                                 |      253|
+|Taylor & Francis (ZBW) 2024-2026                                                                                                                 |      255|
 |Royal Society of Chemistry (MPDL) 2017-2018                                                                                                      |      246|
 |Wiley (CzechELib) 2023-2026                                                                                                                      |      231|
 |Taylor & Francis (KEMOE) 2020-2023                                                                                                               |      217|
@@ -123,8 +123,8 @@ This dataset contains information on 193,260 articles, published at 559 institut
 |Emerald (IReL) 2021-2023                                                                                                                         |      164|
 |Nature (CSAL) 2023-2025                                                                                                                          |      164|
 |IEEE (CRUI-CARE) 2022-2024                                                                                                                       |      151|
+|Sage (BSB) 2024-2025                                                                                                                             |      151|
 |Royal Society of Chemistry (CSIC) 2023-2025                                                                                                      |      150|
-|Sage (BSB) 2024-2025                                                                                                                             |      150|
 |Royal Society of Chemistry (CSAL) 2024-2026                                                                                                      |      143|
 |RSC (TIB) 2024-2027                                                                                                                              |      141|
 |Emerald (FinELib) 2024                                                                                                                           |      140|
@@ -697,6 +697,7 @@ This dataset contains information on 193,260 articles, published at 559 institut
 |Munich University of Applied Sciences                                                                                                              |       13|
 |Université du Québec en Outaouais                                                                                                                  |       13|
 |École de technologie supérieure                                                                                                                    |       13|
+|Fulda University of Applied Sciences                                                                                                               |       12|
 |GIGA                                                                                                                                               |       12|
 |Haaga-Helia University of Applied Sciences                                                                                                         |       12|
 |PIK-Potsdam                                                                                                                                        |       12|
@@ -780,7 +781,6 @@ This dataset contains information on 193,260 articles, published at 559 institut
 |Carinthia University of Applied Sciences (CUAS)                                                                                                    |        3|
 |FH Campus Wien - University of Applied Sciences                                                                                                    |        3|
 |FH Vorarlberg - University of Applied Sciences                                                                                                     |        3|
-|Fulda University of Applied Sciences                                                                                                               |        3|
 |HS Furtwangen                                                                                                                                      |        3|
 |Haute Ecole Pédagogique du Valais                                                                                                                  |        3|
 |Hochschule Aalen                                                                                                                                   |        3|
