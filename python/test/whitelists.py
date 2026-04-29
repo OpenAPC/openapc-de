@@ -1177,6 +1177,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1878-8750", # World Neurosurgery, Gold OA since 2025
     "1745-4514", # Journal of Food Biochemistry, Gold OA since 2023
     "1877-4091", # Journal of Language Contact, Hybrid OA since 2022
+    "1567-1364", # FEMS Yeast Research, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1192,6 +1193,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "04mz5ra38_els2023deal_2024", # Duisburg-Essen U
     "05qpz1x62_degruy2023gac_2024", # Friedrich-Schiller-Universität Jena
     "041bz9r75_hogrefe2021gac_2023", # Fulda University of Applied Sciences
+    "02nv7yv05_wiley2019deal_2022", # FZJ - ZB
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
