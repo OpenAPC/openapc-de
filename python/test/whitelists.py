@@ -32,6 +32,7 @@ PUBLISHER_IDENTITY = [
     (["Palgrave MacMillan"], ["Springer International Publishing"]), # Palgrave MacMillan is an imprint of Springer
     (["CRC Press", "Routledge"], ["Taylor & Francis"]),
     (["Hart Publishing"], ["Bloomsbury Publishing Plc"]), # Hart is an imprint of Bloomsbury
+    (["Brill"], ["Walter de Gruyter GmbH"]),# Fusion of De Gruyter and Brill in 2024, renamed De Gruyter Brill
 ]
 
 
@@ -664,6 +665,12 @@ JOURNAL_OWNER_CHANGED = {
 	"1876-4401": ["Elsevier BV", "Springer Nature"], # Artery Research 
 	"1872-9312": ["Elsevier BV", "Springer Nature"], # Artery Research (linking)
 	"2688-1152": ["Wiley-Blackwell", "Elsevier BV"], # JACEP Open 
+	"1877-4091": ["Brill", "Walter de Gruyter GmbH"], # Journal of Language Contact 
+	"1955-2629": ["Brill", "Walter de Gruyter GmbH"], # Journal of Language Contact (electronic)
+	"0019-7246": ["Brill", "Walter de Gruyter GmbH"], # Indo-Iranian Journal 
+	"1572-8536": ["Brill", "Walter de Gruyter GmbH"], # Indo-Iranian Journal (electronic)
+	"1571-7283": ["Brill", "Walter de Gruyter GmbH"], # Zutot 
+	"1875-0214": ["Brill", "Walter de Gruyter GmbH"], # Zutot (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1169,6 +1176,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1872-9312", # Artery Research, Gold OA since 2019 (linking)
     "1878-8750", # World Neurosurgery, Gold OA since 2025
     "1745-4514", # Journal of Food Biochemistry, Gold OA since 2023
+    "1877-4091", # Journal of Language Contact, Hybrid OA since 2022
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
