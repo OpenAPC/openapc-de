@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |276,908                  | 574,264,164    | 481                   |
+| Articles (APCs)             |277,054                  | 574,633,083    | 481                   |
 | Monographs (BPCs)           |2,581                           | 17,148,511             | 114                            |
-| OA Agreements/Contracts     |569                 | 131,436,060   | 129                  |
+| OA Agreements/Contracts     |592                 | 133,402,392   | 129                  |
 
 ## How to access the data?
 
@@ -1001,11 +1001,11 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 256,658 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 481 research-performing institutions and research funders.
+The APC data set contains information on 256,732 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 481 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 529,055,222. The average payment was € 2,061 and the median was € 1,902.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 529,196,902. The average payment was € 2,061 and the median was € 1,902.
 
-189,167 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 354,874,893, including value-added tax; the average payment was € 1,876 (median =  € 1,737, SD = € 927).
+189,241 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 355,016,574, including value-added tax; the average payment was € 1,876 (median =  € 1,737, SD = € 927).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,491 articles in the data set were published in hybrid journals. Total expenditure amounts to 174,180,329 €; the average fee was € 2,581 (median =  € 2,516, SD = € 1,177).
 
@@ -1042,7 +1042,7 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2021   |      24,445|   1,802|     1,755|    27.0 -  8,341|           3,861|       2,566|         2,518|    30.2 - 11,400|
 |2022   |      26,280|   2,071|     1,991|    12.4 - 11,175|           3,149|       2,906|         2,730|     2.1 - 14,607|
 |2023   |      23,068|   2,282|     2,207|    35.0 -  9,893|           3,567|       3,023|         2,841|   106.4 - 11,895|
-|2024   |      13,586|   2,439|     2,345|    40.0 -  9,758|           2,312|       3,118|         2,942|    28.4 - 13,044|
+|2024   |      13,660|   2,436|     2,345|    40.0 -  9,758|           2,312|       3,118|         2,942|    28.4 - 13,044|
 |2025   |       3,857|   2,762|     2,462|   100.0 -  8,854|             542|       3,349|         2,878|   148.3 - 13,166|
 |2026   |           2|   2,094|     2,094| 1,519.6 -  2,667|              NA|          NA|            NA|               NA|
 
@@ -1148,7 +1148,7 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.76%       |87.95%   |
-|PubMed ID                  |  72.36%      | NA                                                          |
+|PubMed ID                  |  72.35%      | NA                                                          |
 |PubMed Central ID          |  66.56%     | NA                                                          |
 
 
