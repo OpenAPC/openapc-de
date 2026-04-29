@@ -1183,6 +1183,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "000h6jb29_sn2024deal_2024", # UFZ
     "04mz5ra38_els2023deal_2024", # Duisburg-Essen U
     "05qpz1x62_degruy2023gac_2024", # Friedrich-Schiller-Universität Jena
+    "041bz9r75_hogrefe2021gac_2023", # Fulda University of Applied Sciences
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
