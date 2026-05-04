@@ -1194,6 +1194,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "05qpz1x62_degruy2023gac_2024", # Friedrich-Schiller-Universität Jena
     "041bz9r75_hogrefe2021gac_2023", # Fulda University of Applied Sciences
     "02nv7yv05_wiley2019deal_2022", # FZJ - ZB
+    "02h2x0161_els2023deal_2024", # GEOMAR
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
