@@ -8,6 +8,7 @@ import os
 import re
 import sys
 
+from copy import deepcopy
 from io import StringIO
 from shutil import copyfileobj
 from urllib.request import urlopen, Request
@@ -24,6 +25,9 @@ except ImportError:
 DEAL_IDENTIFIERS = ["wiley2024deal", "wiley2019deal", "sn2024deal", "sn2020deal", "els2023deal"]
 
 EXCHANGE_RATES = {}
+CONTRACTS_LOOKUP = oat.ContractsLookup()
+ESAC_LOOKUP = oat.ESACHandling()
+ROR_MAP = oat._create_institution_map_dict("ror_id")
 
 OPENCOST_EXTRACTION_FIELDS = OrderedDict([
     ("institution_ror", "opencost:institution//opencost:id[opencost:type='ror']//opencost:value"),
@@ -318,6 +322,7 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
     identifier_xpath = ".//oai_2_0:header//oai_2_0:identifier"
 
     extracted_publications = []
+    extracted_invoice_groups = []
     if validate_only:
         if etree is None:
             logging.critical("Could not import etree. You probably need to install the python lxml package")
@@ -350,7 +355,8 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
                     logging.error(msg.format(link, res["error_msg"]))
                     validation_counts["invalid"] += 1
                 continue
-            publications, _ = process_opencost_xml(data_element_xml)
+            publications, invoice_groups = process_opencost_xml(data_element_xml)
+            extracted_invoice_groups += invoice_groups
             for publication in publications: # Should only be one
                 publication["identifier"] = identifier.text
                 if processing_instructions:
@@ -358,29 +364,72 @@ def process_opencost_oai_records(processing_instructions=None, validate_only=Fal
                     for variable in processing_instructions["variables"]:
                         target_string = target_string.replace("%" + variable + "%", publication[variable])
                     publication[processing_instructions["target"]] = target_string
-                for key in list(publication.keys()):
-                    # postprocessing
-                    if publication[key] is not None:
-                        publication[key] = str(publication[key])
-                        if key == "doi":
-                            norm_doi = oat.get_normalised_DOI(publication["doi"])
-                            if norm_doi is not None:
-                                publication["doi"] = norm_doi
-                        if key == "euro":
-                            if not oat.has_value(publication["euro"]):
-                                logging.warning("Article skipped, no APC amount found.")
-                                break
-                            euro_float = oat._auto_atof(publication["euro"])
-                            if euro_float is not None and euro_float <= 0.0:
-                                msg = "Article skipped, non-positive APC amount found ({})."
-                                logging.warning(msg.format(publication['euro']))
-                                break
-                else:
-                    extracted_publications += publications
+                    for key in list(publication.keys()):
+                        # postprocessing
+                        if publication[key] is not None:
+                            publication[key] = str(publication[key])
+                            if key == "doi":
+                                norm_doi = oat.get_normalised_DOI(publication["doi"])
+                                if norm_doi is not None:
+                                    publication["doi"] = norm_doi
+                            if key == "euro":
+                                if not oat.has_value(publication["euro"]):
+                                    publication["euro"] = "NA"
+                                #else:
+                                #    euro_float = oat._auto_atof(publication["euro"])
+                                #    if euro_float is not None and euro_float == 0.0:
+                                #    publication["euro"] = "NA"
+                extracted_publications += publications
+
     if validate_only:
         msg = "Validation run finished.\n valid records: {}\n invalid records: {}"
         oat.print_c(msg.format(validation_counts["valid"], validation_counts["invalid"]))
-    return extracted_publications
+    return (extracted_publications, extracted_invoice_groups)
+
+"""
+Transform an invoice group into a list of row lists
+
+Take an invoice group dict and transform it into a list of lists which
+represent rows in the OpenAPC contracts.csv and can be used by a CSV writer
+"""
+def transform_invoice_group(invoice_group):
+    contract_rows = []
+    esac_id = invoice_group["contract_id"]
+    # Preferred way is to get consortium/contract name from contracts.csv
+    consortium = "NA"
+    contract_name = "NA"
+    institution_ror = invoice_group["institution_ror"]
+    institution = ROR_MAP.get(institution_ror, {}).get("institution", institution_ror)
+    contract_entry = CONTRACTS_LOOKUP.get_by_identifier(esac_id)
+    if contract_entry is not None:
+        contract_name = contract_entry["contract_name"][0]
+        consortium = contract_entry["consortium"][0]
+        msg = "ESAC ID {} found in contracts.csv, importing consortium/contract name ({}/{})"
+        logging.info(msg.format(esac_id, consortium, contract_name))
+    else:
+        contract_name = invoice_group["contract_name"]
+        esac_entry = ESAC_LOOKUP.get_esac_entry(esac_id)
+        if esac_entry is not None:
+            consortium = esac_entry["Organization"]
+        msg = "ESAC ID {} not found in contracts.csv, using consortium from ESAC Registry and contract name from openCost data ({}/{})"
+        logging.info(msg.format(esac_id, consortium, contract_name))
+    line_tmpl = {
+        "institution": institution,
+        "consortium": consortium,
+        "contract_name": contract_name,
+        "identifier": invoice_group["contract_id"],
+        "group_id": invoice_group["group_id"],
+        "period_from": invoice_group["period"],
+        "period_to": invoice_group["period"],
+    }
+    for invoice in invoice_group["invoices"]:
+        for cost_type, amount in invoice["costs"]:
+            line = deepcopy(line_tmpl)
+            line["cost_type"] = cost_type
+            line["euro"] = str(round(amount, 2))
+            line_as_list = [line.get(column, "NA") for column in oat.COLUMN_SCHEMAS["contracts"]]
+            contract_rows.append(line_as_list)
+    return contract_rows
 
 def process_opencost_xml(*xml_content_strings):
     """
