@@ -213,8 +213,8 @@ JOURNAL_OWNER_CHANGED = {
     "1460-244X": ["Oxford University Press (OUP)", "Wiley-Blackwell"], # Proceedings of the London Mathematical Society
     "0860-021X": ["Index Copernicus", "Termedia Sp. z.o.o."], # Biology of Sport
     "1056-6171": ["Oxford University Press (OUP)", "Elsevier BV"], # Journal of Applied Poultry Research
-    "1341-9145": ["Japanese Association of Industrial Health", "Wiley-Blackwell"], # Journal of Occupational Health
-    "1348-9585": ["Japanese Association of Industrial Health", "Wiley-Blackwell"], # Journal of Occupational Health (electronic)
+    "1341-9145": ["Japanese Association of Industrial Health", "Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Occupational Health
+    "1348-9585": ["Japanese Association of Industrial Health", "Wiley-Blackwell", "Oxford University Press (OUP)"], # Journal of Occupational Health (electronic)
     "2059-7029": ["BMJ", "Elsevier BV"], # ESMO Open
     "2001-1326": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Medicine
     "2050-0068": ["Springer Nature", "Wiley-Blackwell"], # Clinical & Translational Immunology
@@ -1178,6 +1178,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1745-4514", # Journal of Food Biochemistry, Gold OA since 2023
     "1877-4091", # Journal of Language Contact, Hybrid OA since 2022
     "1567-1364", # FEMS Yeast Research, Gold OA since 2024
+    "2573-8488", # Translational Sports Medicine, Gold OA since 2022
+    "1938-2014", # Islets, Gold OA since 2022
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1195,6 +1197,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "041bz9r75_hogrefe2021gac_2023", # Fulda University of Applied Sciences
     "02nv7yv05_wiley2019deal_2022", # FZJ - ZB
     "02h2x0161_els2023deal_2024", # GEOMAR
+    "033eqas34_sage2021gac_2023", # Giessen U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
