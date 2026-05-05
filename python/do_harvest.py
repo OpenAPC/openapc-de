@@ -86,7 +86,7 @@ def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, 
         with open("raw_harvest_data_" + out_file_suffix, "w") as out:
             out.write(file_output)
     if data_type == "intact":
-        return oat.process_intact_xml(processing_instructions, *xml_content_strings)
+        return (oat.process_intact_xml(processing_instructions, *xml_content_strings), [])
     elif data_type == "opencost":
         return octk.process_opencost_oai_records(processing_instructions, validate_only, force_update, record_url, *xml_content_strings)
 
@@ -117,7 +117,7 @@ def main():
                     oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type, args.validate_only, args.force_update)
                     continue
                 oat.print_g("Starting harvest for source " + basic_url)
-                publication_dicts = oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type, args.validate_only, args.force_update)
+                publication_dicts, invoice_groups = oai_harvest(basic_url, prefix, oai_set, processing, out_file_suffix, repo_type, args.validate_only, args.force_update)
                 if repo_type == 'intact':
                     header = list(oat.OAI_COLLECTION_CONTENT.keys())
                 elif repo_type == 'opencost':
@@ -125,6 +125,7 @@ def main():
                 new_publications = {
                     "journal article": [list(header)],
                     "book": [list(header)],
+                    "contracts": [list(oat.COLUMN_SCHEMAS["contracts"])]
                 }
                 for publication_dict in publication_dicts:
                     pub_type = publication_dict.get("type", "journal article") # opencost only, intact will be accepted as article per default
@@ -133,6 +134,9 @@ def main():
                         oat.print_y(msg.format(publication_dict["doi"], publication_dict["type"]))
                         continue
                     new_publications[pub_type].append([publication_dict[key] for key in header])
+                for invoice_group in invoice_groups:
+                    contract_rows = octk.transform_invoice_group(invoice_group)
+                    new_publications["contracts"] += contract_rows
                 now = datetime.datetime.now()
                 date_string = now.strftime("%Y_%m_%d")
                 for pub_type, content in new_publications.items():
