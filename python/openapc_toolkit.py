@@ -2202,7 +2202,7 @@ def _process_agreement_value(agreement, row_num):
     return ret
 
 def _create_institution_map_dict(map_type):
-    types = ["institution", "openapc_data_dir"]
+    types = ["institution", "openapc_data_dir", "ror_id"]
     if map_type not in types:
         raise Exception("Invalid parameter for _create_institution_map_dict, must be one of: " + ", ".join(types))
     with open(INSTITUTIONS_FILE, "r") as ins_file:
