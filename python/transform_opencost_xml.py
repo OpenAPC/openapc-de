@@ -7,8 +7,6 @@ import logging
 import os
 import sys
 
-from copy import deepcopy
-
 import openapc_toolkit as oat
 
 TARGET_DIR = "opencost_out"
@@ -157,23 +155,6 @@ for invoice_group in invoice_groups:
     if args.institution is not None and args.institution != institution:
         continue
     target_file = institution.lower().replace(" ", "_").replace("/", "_") + "_contracts"
-    esac_id = invoice_group["contract_id"]
-    # Preferred way is to get consortium/contract name from contracts.csv
-    consortium = "NA"
-    contract_name = "NA"
-    contract_entry = contracts_lookup.get_by_identifier(esac_id)
-    if contract_entry is not None:
-        contract_name = contract_entry["contract_name"][0]
-        consortium = contract_entry["consortium"][0]
-        msg = "ESAC ID {} found in contracts.csv, importing consortium/contract name ({}/{})"
-        logging.info(msg.format(esac_id, consortium, contract_name))
-    else:
-        contract_name = invoice_group["contract_name"]
-        esac_entry = esac_lookup.get_esac_entry(esac_id)
-        if esac_entry is not None:
-            consortium = esac_entry["Organization"]
-        msg = "ESAC ID {} not found in contracts.csv, using consortium from ESAC Registry and contract name from openCost data ({}/{})"
-        logging.info(msg.format(esac_id, consortium, contract_name))
     if target_file not in unicode_writers:
         path = os.path.join(TARGET_DIR, args.prefix + target_file + ".csv")
         handle = open(path, "w")
@@ -183,22 +164,8 @@ for invoice_group in invoice_groups:
             "lines": [],
         }
         unicode_writers[target_file]["lines"].append(list(contract_fieldnames))
-    line_tmpl = {
-        "institution": institution,
-        "consortium": consortium,
-        "contract_name": contract_name,
-        "identifier": invoice_group["contract_id"],
-        "group_id": invoice_group["group_id"],
-        "period_from": invoice_group["period"],
-        "period_to": invoice_group["period"],
-    }
-    for invoice in invoice_group["invoices"]:
-        for cost_type, amount in invoice["costs"]:
-            line = deepcopy(line_tmpl)
-            line["cost_type"] = cost_type
-            line["euro"] = str(round(amount, 2))
-            line_as_list = [line.get(column, "NA") for column in contract_fieldnames]
-            unicode_writers[target_file]["lines"].append(line_as_list)
+    contract_rows = octk.transform_invoice_group(invoice_group)
+    unicode_writers[target_file]["lines"] += contract_rows
 
 if not args.no_collected_file:
     main_handle.close()
