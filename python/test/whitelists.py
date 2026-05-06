@@ -1180,6 +1180,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1567-1364", # FEMS Yeast Research, Gold OA since 2024
     "2573-8488", # Translational Sports Medicine, Gold OA since 2022
     "1938-2014", # Islets, Gold OA since 2022
+    "2168-1163", # Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1198,6 +1199,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "02nv7yv05_wiley2019deal_2022", # FZJ - ZB
     "02h2x0161_els2023deal_2024", # GEOMAR
     "033eqas34_sage2021gac_2023", # Giessen U
+    "042aqky30_sage2024gac_2024", # TU Dresden
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
