@@ -90,23 +90,27 @@ OPENCOST_STANDARD_QUOTEMASK = [
 
 class OpenCostValidator(object):
 
-    OPENCOST_XSD_URL = "https://raw.githubusercontent.com/opencost-de/opencost/refs/heads/main/doc/opencost.xsd"
+    OPENCOST_XSDS = [
+        ("tempfiles/opencost.xsd", "https://raw.githubusercontent.com/opencost-de/opencost/refs/heads/main/doc/opencost.xsd"),
+        ("tempfiles/opencost_types.xsd", "https://raw.githubusercontent.com/opencost-de/opencost/refs/heads/main/doc/opencost_types.xsd"),
+    ]
 
     def __init__(self, force_update=False):
         if not os.path.isdir("tempfiles"):
             os.mkdir("tempfiles")
         filename = "tempfiles/opencost.xsd"
-        self.download_opencost_xsd(filename, force_update)
-        xsd_doc = etree.parse(filename)
-        self.schema = etree.XMLSchema(xsd_doc)
+        for target, url in self.OPENCOST_XSDS:
+            self.download_opencost_xsd(target, url, force_update)
+            xsd_doc = etree.parse(filename)
+            self.schema = etree.XMLSchema(xsd_doc)
 
-    def download_opencost_xsd(self, filename, force_update=False):
+    def download_opencost_xsd(self, filename, url, force_update=False):
         if os.path.isfile(filename) and not force_update:
             msg = "opencost XSD file already found at {}, using existing copy."
             logging.info(msg.format(filename))
             return
         logging.info("Downloading a fresh copy of the openCost XSD file...")
-        request = Request(self.OPENCOST_XSD_URL)
+        request = Request(url)
         with urlopen(request) as source:
             with open(filename, "wb") as dest:
                 copyfileobj(source, dest)
