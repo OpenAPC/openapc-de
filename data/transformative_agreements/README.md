@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 195,362 articles, published at 558 institutions under 253 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 195,376 articles, published at 558 institutions under 253 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -29,7 +29,7 @@ This dataset contains information on 195,362 articles, published at 558 institut
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     5006|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     5012|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -39,11 +39,11 @@ This dataset contains information on 195,362 articles, published at 558 institut
 |Springer Compact (Bibsam) 2016-2018                                                                                                              |     3382|
 |Springer Compact (KEMOE/FWF) 2016-2018                                                                                                           |     3339|
 |EDP Sciences (Couperin) 2017-2021                                                                                                                |     3330|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     3201|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     3207|
 |Springer Nature (CSAL) 2023-2025                                                                                                                 |     2994|
 |Elsevier (CRUE-CSIC Alliance) 2021-2024                                                                                                          |     2924|
 |Springer Compact (FinELib) 2021-2023                                                                                                             |     2656|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     2557|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     2559|
 |Sage (CRKN) 2024-2026                                                                                                                            |     2497|
 |EDP Sciences (Couperin) 2022-2026                                                                                                                |     2423|
 |Wiley (IReL) 2021-2024                                                                                                                           |     2332|
@@ -587,6 +587,7 @@ This dataset contains information on 195,362 articles, published at 558 institut
 |University of Regina                                                                                                                               |       50|
 |Magdeburg U                                                                                                                                        |       48|
 |St George's, University of London                                                                                                                  |       48|
+|HS Bielefeld                                                                                                                                       |       47|
 |Hospital for Sick Children                                                                                                                         |       47|
 |South East Technological University                                                                                                                |       47|
 |MDC                                                                                                                                                |       46|
@@ -621,7 +622,6 @@ This dataset contains information on 195,362 articles, published at 558 institut
 |University of Ontario Institute of Technology                                                                                                      |       34|
 |Darmstadt University of Applied Sciences                                                                                                           |       33|
 |GESIS                                                                                                                                              |       33|
-|HS Bielefeld                                                                                                                                       |       33|
 |Leibniz-IZW                                                                                                                                        |       33|
 |OST University of Applied Science of Eastern Switzerland                                                                                           |       33|
 |HafenCity Universität Hamburg                                                                                                                      |       32|
