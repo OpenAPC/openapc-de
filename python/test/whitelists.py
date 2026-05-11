@@ -671,6 +671,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1572-8536": ["Brill", "Walter de Gruyter GmbH"], # Indo-Iranian Journal (electronic)
 	"1571-7283": ["Brill", "Walter de Gruyter GmbH"], # Zutot 
 	"1875-0214": ["Brill", "Walter de Gruyter GmbH"], # Zutot (electronic)
+	"0009-8604": ["Springer Nature", "Cambridge University Press (CUP)"], # Clays and Clay Minerals 
+	"1552-8367": ["Springer Nature", "Cambridge University Press (CUP)"], # Clays and Clay Minerals (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
