@@ -1183,6 +1183,11 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2573-8488", # Translational Sports Medicine, Gold OA since 2022
     "1938-2014", # Islets, Gold OA since 2022
     "2168-1163", # Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, Gold OA since 2024
+    "1744-957X", # Biology Letters, S2O since 2026
+    "0962-8436", # Philosophical Transactions of the Royal Society B: Biological Sciences, S2O since 2025
+    "1471-2954", # Proceedings of the Royal Society B: Biological Sciences, S2O since 2025
+    "1364-5021", # Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, S2O since 2026
+    "1742-5662", # Journal of The Royal Society Interface, S2O since 2026
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
