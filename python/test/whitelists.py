@@ -1208,6 +1208,8 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "033eqas34_sage2021gac_2023", # Giessen U
     "042aqky30_sage2024gac_2024", # TU Dresden
     "00681ts17_sage2024gac_2024", # GIGA
+    "05n911h24_wiley2019deal_2023", # TU Darmstadt
+    "05n911h24_els2023deal_2024" # TU Darmstadt
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
