@@ -128,7 +128,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Technische Universität Berlin](http://www.ub.tu-berlin.de/publikationsfonds/)
 - [Technische Universität Braunschweig](https://ub.tu-braunschweig.de/publikationsfonds/englisch/index_en.php)
 - [Technische Universität Chemnitz](https://www.tu-chemnitz.de/ub/publizieren/openaccess/index.html.en)
-- [Technische Universität Darmstadt](https://www.ulb.tu-darmstadt.de/service/elektronisches_publizieren/oa_publikationsfond/index.en.jsp)
+- [Technische Universität Darmstadt](https://www.ulb.tu-darmstadt.de/forschen_publizieren/publizieren/oa_foerderung/index.de.jsp)
 - [Technische Universität Dortmund](https://ub.tu-dortmund.de/forschen-publizieren/open-access/)
 - [Technische Universität Dresden](https://www.slub-dresden.de/veroeffentlichen/open-access)
 - [Technische Universität Ilmenau](https://www.tu-ilmenau.de/universitaet/quicklinks/universitaetsbibliothek/forschen-publizieren/open-access/open-access-finanzierung/open-access-publikationsfonds)
