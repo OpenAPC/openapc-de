@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 196,371 articles, published at 558 institutions under 254 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 196,390 articles, published at 558 institutions under 254 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -29,20 +29,20 @@ This dataset contains information on 196,371 articles, published at 558 institut
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     5353|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     5359|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
 |Springer Compact (CSAL) 2020-2022                                                                                                                |     3583|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     3531|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     3536|
 |Springer Compact (Bibsam) 2016-2018                                                                                                              |     3382|
 |Springer Compact (KEMOE/FWF) 2016-2018                                                                                                           |     3339|
 |EDP Sciences (Couperin) 2017-2021                                                                                                                |     3330|
 |Springer Nature (CSAL) 2023-2025                                                                                                                 |     2994|
 |Elsevier (CRUE-CSIC Alliance) 2021-2024                                                                                                          |     2924|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     2743|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     2750|
 |Springer Compact (FinELib) 2021-2023                                                                                                             |     2656|
 |Sage (CRKN) 2024-2026                                                                                                                            |     2497|
 |EDP Sciences (Couperin) 2022-2026                                                                                                                |     2423|
@@ -94,7 +94,7 @@ This dataset contains information on 196,371 articles, published at 558 institut
 |IEEE (IReL) 2021-2023                                                                                                                            |      409|
 |IReL PLOS Agreement                                                                                                                              |      406|
 |Oxford University Press (CSIC) 2020-2024                                                                                                         |      403|
-|Taylor & Francis (ZBW) 2024-2026                                                                                                                 |      397|
+|Taylor & Francis (ZBW) 2024-2026                                                                                                                 |      398|
 |Oxford University Press (IReL) 2021-2023                                                                                                         |      395|
 |Springer Compact (KEMOE/FWF) 2019-2021                                                                                                           |      372|
 |Royal Society of Chemistry (CSAL) 2021-2023                                                                                                      |      364|
@@ -661,6 +661,7 @@ This dataset contains information on 196,371 articles, published at 558 institut
 |Turku University of Applied Sciences                                                                                                               |       23|
 |University of Education Schwaebisch Gmuend                                                                                                         |       23|
 |Dalarna University                                                                                                                                 |       22|
+|Hochschule Aalen                                                                                                                                   |       22|
 |Bremen U                                                                                                                                           |       21|
 |Royal Roads University                                                                                                                             |       21|
 |University of Prince Edward Island                                                                                                                 |       21|
@@ -786,7 +787,6 @@ This dataset contains information on 196,371 articles, published at 558 institut
 |FH Vorarlberg - University of Applied Sciences                                                                                                     |        3|
 |HS Furtwangen                                                                                                                                      |        3|
 |Haute Ecole Pédagogique du Valais                                                                                                                  |        3|
-|Hochschule Aalen                                                                                                                                   |        3|
 |IPN - Leibniz Kiel                                                                                                                                 |        3|
 |Institut Universitaire de Cardiologie et de Pneumologie de Québec                                                                                  |        3|
 |Kalaidos University of Applied Sciences                                                                                                            |        3|
