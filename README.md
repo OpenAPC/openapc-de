@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |283,717                  | 590,931,341    | 481                   |
+| Articles (APCs)             |283,739                  | 590,980,559    | 481                   |
 | Monographs (BPCs)           |2,592                           | 17,215,722             | 114                            |
-| OA Agreements/Contracts     |742                 | 144,926,056   | 129                  |
+| OA Agreements/Contracts     |749                 | 145,012,464   | 130                  |
 
 ## How to access the data?
 
@@ -1001,11 +1001,11 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 262,875 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 481 research-performing institutions and research funders.
+The APC data set contains information on 262,897 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 481 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 544,265,418. The average payment was € 2,070 and the median was € 1,904.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 544,314,637. The average payment was € 2,070 and the median was € 1,904.
 
-195,306 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 369,814,056, including value-added tax; the average payment was € 1,894 (median =  € 1,743, SD = € 948).
+195,328 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 369,863,275, including value-added tax; the average payment was € 1,894 (median =  € 1,743, SD = € 948).
 
 Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,569 articles in the data set were published in hybrid journals. Total expenditure amounts to 174,451,362 €; the average fee was € 2,582 (median =  € 2,517, SD = € 1,178).
 
@@ -1042,7 +1042,7 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2021   |      25,325|   1,814|     1,760|  27.0 -  8,341|           3,861|       2,566|         2,518|    30.2 - 11,400|
 |2022   |      27,137|   2,085|     1,990|  12.4 - 11,175|           3,149|       2,906|         2,730|     2.1 - 14,607|
 |2023   |      23,723|   2,294|     2,207|  35.0 -  9,893|           3,575|       3,027|         2,841|   106.4 - 11,895|
-|2024   |      15,373|   2,466|     2,345|  40.0 -  9,758|           2,396|       3,118|         2,945|    28.4 - 13,044|
+|2024   |      15,395|   2,465|     2,345|  40.0 -  9,758|           2,396|       3,118|         2,945|    28.4 - 13,044|
 |2025   |       4,567|   2,816|     2,487|  62.0 -  8,854|             544|       3,347|         2,875|   148.3 - 13,166|
 |2026   |          33|   1,696|     1,866| 799.0 -  2,667|              NA|          NA|            NA|               NA|
 
