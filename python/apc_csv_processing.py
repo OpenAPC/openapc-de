@@ -811,7 +811,7 @@ def main():
     if not os.path.isdir("tempfiles"):
         os.mkdir("tempfiles")
     isbn_handling = oat.ISBNHandling()
-    doab_analysis = oat.DOABAnalysis(isbn_handling, "tempfiles/DOAB.csv", verbose=False)
+    doab_analysis = oat.DOABAnalysis(isbn_handling, max_mdays=30, verbosity=1)
     doaj_analysis = oat.DOAJAnalysis(max_mdays=30, verbose=True)
     issnl_handling = None
     try:

@@ -585,27 +585,7 @@ class DOAJAnalysis(TempFileHandling):
             return self.doaj_eissn_map[any_issn]
         return None
 
-    def download_doaj_csv(self, filename, make_backup=False, verbose=False):
-        backup_msg = None
-        if make_backup and os.path.isfile(filename):
-            then = datetime.datetime.fromtimestamp(os.path.getmtime(filename))
-            mdate = then.strftime("%Y_%m_%d_%H_%M_%S")
-            backup_target = "tempfiles/DOAJ_" + mdate + ".csv"
-            if verbose:
-                backup_msg = self.MSGS['backup'].format(backup_target)
-            copy2(filename, backup_target)
-        request = Request("https://doaj.org/csv")
-        request.add_header("User-Agent", USER_AGENT)
-        with urlopen(request) as source:
-            with open(filename, "wb") as dest:
-                copyfileobj(source, dest)
-        if verbose:
-            print_c("...Done!")
-            if backup_msg:
-                print_c(backup_msg)
-        return filename
-
-class DOABAnalysis(object):
+class DOABAnalysis(TempFileHandling):
 
     # Priority mappings from DOAB fields to OpenAPC values. Unfortuately, the current DOAB CSV file is a real mess...
     MAPPINGS = {
@@ -619,12 +599,12 @@ class DOABAnalysis(object):
 
     DOAB_ISBN_RE = re.compile(r"97[89]\d{10}")
 
-    def __init__(self, isbn_handling, doab_csv_file, update=False, verbose=False):
+    def __init__(self, isbn_handling, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbosity=0, max_mdays=7):
+        super().__init__("DOAB", "csv", url="https://directory.doabooks.org/download-export?format=csv", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         self.isbn_map = {}
         self.isbn_handling = isbn_handling
 
-        if not os.path.isfile(doab_csv_file) or update:
-            self.download_doab_csv(doab_csv_file)
+        doab_csv_file = self.prepare_file(force_update, make_backup, True if verbosity > 0 else False)
 
         lines = []
         # The file might contain NUL bytes, we need to get rid of them before
@@ -636,6 +616,8 @@ class DOABAnalysis(object):
                 lines.append(line)
         duplicate_isbns = []
         reader = csv.DictReader(lines)
+        if verbosity > 0:
+            print_b("Intitializing DOAB ISBN map...")
         for line in reader:
             # ATM we focus on books only
             if line["dc.type"] != "book" and line["dc.title.alternative"] != "book":
@@ -654,7 +636,7 @@ class DOABAnalysis(object):
             for isbn in list(set(isbns)):
                 result = self.isbn_handling.test_and_normalize_isbn(isbn)
                 if not result["valid"]:
-                    if verbose:
+                    if verbosity > 1:
                         msg = "Line {}: ISBN normalization failure ({}): {}"
                         msg = msg.format(reader.line_num, result["input_value"],
                                          ISBNHandling.ISBN_ERRORS[result["error_type"]])
@@ -664,7 +646,7 @@ class DOABAnalysis(object):
                     isbn = result["normalised"]
                 if isbn not in self.isbn_map:
                     new_line = self._extract_line_data(line)
-                    if verbose:
+                    if verbosity > 1:
                         for field in ["publisher", "book_title"]:
                             if not has_value(new_line[field]):
                                 msg = "Line {}: No '{}' value found for ISBN {}" 
@@ -673,12 +655,12 @@ class DOABAnalysis(object):
                 else:
                     if isbn not in duplicate_isbns:
                         duplicate_isbns.append(isbn)
-                        if verbose:
+                        if verbosity > 1:
                             print_y("ISBN duplicate found in DOAB: " + isbn)
         for duplicate in duplicate_isbns:
             # drop duplicates alltogether
             del(self.isbn_map[duplicate])
-        if verbose:
+        if verbosity > 0:
             print_b("ISBN map created, contains " + str(len(self.isbn_map)) + " entries")
 
     def _extract_line_data(self, line):
@@ -696,9 +678,6 @@ class DOABAnalysis(object):
             norm_isbn = result["normalised"]
             return self.isbn_map.get(norm_isbn)
         return None
-
-    def download_doab_csv(self, target):
-        urlretrieve("https://directory.doabooks.org/download-export?format=csv", target)
 
 class ESACHandling(TempFileHandling):
     
