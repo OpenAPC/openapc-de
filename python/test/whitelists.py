@@ -1188,6 +1188,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1471-2954", # Proceedings of the Royal Society B: Biological Sciences, S2O since 2025
     "1364-5021", # Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, S2O since 2026
     "1742-5662", # Journal of The Royal Society Interface, S2O since 2026
+    "2046-0252", # PsyCh Journal, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
