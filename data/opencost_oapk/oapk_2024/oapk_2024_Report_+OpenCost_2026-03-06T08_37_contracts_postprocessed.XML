@@ -23584,30 +23584,6 @@
           <opencost:amounts_paid>
             <opencost:amount_paid>
               <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>publish</opencost:cost_type>
-              <opencost:amount>-18445</opencost:amount>
-              <opencost:vat>-3504.55</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>read</opencost:cost_type>
-              <opencost:amount>-24877.5</opencost:amount>
-              <opencost:vat>-1741.43</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>publish</opencost:cost_type>
-              <opencost:amount>-16600.5</opencost:amount>
-              <opencost:vat>-3154.09</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>read</opencost:cost_type>
-              <opencost:amount>-22389.75</opencost:amount>
-              <opencost:vat>-1567.28</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
               <opencost:cost_type>service fee</opencost:cost_type>
               <opencost:amount>3317</opencost:amount>
               <opencost:vat>232.19</opencost:vat>
@@ -23762,30 +23738,6 @@
             <opencost:amount_paid>
               <opencost:currency>EUR</opencost:currency>
               <opencost:cost_type>publish</opencost:cost_type>
-              <opencost:amount>-37620.28</opencost:amount>
-              <opencost:vat>-7147.85</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>read</opencost:cost_type>
-              <opencost:amount>-4612.73</opencost:amount>
-              <opencost:vat>-322.89</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>publish</opencost:cost_type>
-              <opencost:amount>-37620.28</opencost:amount>
-              <opencost:vat>-7147.85</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>read</opencost:cost_type>
-              <opencost:amount>-4612.73</opencost:amount>
-              <opencost:vat>-322.89</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>publish</opencost:cost_type>
               <opencost:amount>63227.37</opencost:amount>
               <opencost:vat>4425.92</opencost:vat>
             </opencost:amount_paid>
@@ -23936,18 +23888,6 @@
             <opencost:amount>-8316.81</opencost:amount>
           </opencost:amount_invoice>
           <opencost:amounts_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>publish</opencost:cost_type>
-              <opencost:amount>-52957.96</opencost:amount>
-              <opencost:vat>-10062.01</opencost:vat>
-            </opencost:amount_paid>
-            <opencost:amount_paid>
-              <opencost:currency>EUR</opencost:currency>
-              <opencost:cost_type>read</opencost:cost_type>
-              <opencost:amount>-9568.85</opencost:amount>
-              <opencost:vat>-669.82</opencost:vat>
-            </opencost:amount_paid>
             <opencost:amount_paid>
               <opencost:currency>EUR</opencost:currency>
               <opencost:cost_type>publish</opencost:cost_type>
