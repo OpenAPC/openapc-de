@@ -684,8 +684,8 @@ class ESACHandling(TempFileHandling):
     ESAC_TIME_STAMP = "%Y-%m-%d %H:%M:%S"
 
     def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
-        super().__init__("ESAC_Transformative_Agreement_Registry", "xlsx", url="https://keeper.mpdl.mpg.de/f/7fbb5edd24ab4c5ca157/?dl=1", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
-        self.prepare_file(force_update, make_backup, verbose, decompress="excel_to_csv", decompress_kwargs={"skip_lines": 2})
+        super().__init__("ESAC_Transformative_Agreement_Registry", "xlsx", url="https://keeper.mpdl.mpg.de/f/c31f94f8d7e54168af21/?dl=1", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+        self.prepare_file(force_update, make_backup, verbose, decompress="excel_to_csv", decompress_kwargs={"skip_lines": 0})
         self.mapping_table = self._prepare_mapping_table()
 
     def _prepare_mapping_table(self):
@@ -694,7 +694,7 @@ class ESACHandling(TempFileHandling):
         with open(csv_file_path, "r") as csv_file:
             reader = csv.DictReader(csv_file)
             for line in reader:
-                esac_id = line["ID"]
+                esac_id = line["Agreement ID"]
                 table[esac_id] = line
         return table
 
@@ -708,11 +708,11 @@ class ESACHandling(TempFileHandling):
             print_y("WARNING: " + msg.format(entry["Publisher"]))
         entry["Publisher_short"] = publisher_oapc.get("short", "")
         entry["Publisher_full"] = publisher_oapc.get("full", "")
-        country_oapc = mappings.ESAC_COUNTRY_MAPPINGS.get(entry["Country"], "")
+        country_oapc = mappings.ESAC_COUNTRY_MAPPINGS.get(entry["Country / Territory"], "")
         entry["Country_OAPC"] = country_oapc
         if not country_oapc and show_warnings:
             msg = 'ESAC Country Name "{}" not found in ESAC_COUNTRY_MAPPINGS'
-            print_y("WARNING: " + msg.format(entry["Country"]))
+            print_y("WARNING: " + msg.format(entry["Country / Territory"]))
         return entry
 
 class ISSNLHandling(TempFileHandling):
@@ -2161,19 +2161,19 @@ def _process_agreement_value(agreement, row_num):
     esac_entry = ESAC_HANDLING.get_esac_entry(agreement)
     if esac_entry is not None:
         publisher = esac_entry["Publisher"]
-        organization = esac_entry["Organization"]
+        consortium = esac_entry["Consortia / Institution"]
         if esac_entry["Publisher_short"] != "":
             publisher = esac_entry["Publisher_short"]
         start = esac_entry["Start date"]
         end = esac_entry["End date"]
         start_time = datetime.datetime.strptime(start, ESAC_HANDLING.ESAC_TIME_STAMP)
         end_time = datetime.datetime.strptime(end, ESAC_HANDLING.ESAC_TIME_STAMP)
-        contract_name = "{} ({}) {}-{}".format(publisher, organization, start_time.year, end_time.year)
+        contract_name = "{} ({}) {}-{}".format(publisher, consortium, start_time.year, end_time.year)
         msg = "Line %s: agreement '%s' found in ESAC Registry, contract_name constructed from ESAC data: '%s'"
         logging.info(msg, row_num, agreement, contract_name)
         ret["identifier"] = agreement
         ret["contract_name"] = contract_name
-        ret["consortium"] = esac_entry["Organization"]
+        ret["consortium"] = esac_entry["Consortia / Institution"]
         return ret
     ret["contract_name"] = agreement
     msg = "Line %s: agreement '%s' not found in contracts.csv or ESAC registry, value will be used as is"

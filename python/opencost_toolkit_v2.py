@@ -414,7 +414,7 @@ def transform_invoice_group(invoice_group):
         contract_name = invoice_group["contract_name"]
         esac_entry = ESAC_LOOKUP.get_esac_entry(esac_id)
         if esac_entry is not None:
-            consortium = esac_entry["Organization"]
+            consortium = esac_entry["Consortia / Institution"]
         msg = "ESAC ID {} not found in contracts.csv, using consortium from ESAC Registry and contract name from openCost data ({}/{})"
         logging.info(msg.format(esac_id, consortium, contract_name))
     line_tmpl = {
