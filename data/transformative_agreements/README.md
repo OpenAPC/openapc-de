@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 197,641 articles, published at 558 institutions under 257 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 197,647 articles, published at 558 institutions under 257 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -29,11 +29,11 @@ This dataset contains information on 197,641 articles, published at 558 institut
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     5712|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     5715|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     3917|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     3920|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
 |Springer Compact (CSAL) 2020-2022                                                                                                                |     3583|
@@ -701,6 +701,7 @@ This dataset contains information on 197,641 articles, published at 558 institut
 |ASH Berlin                                                                                                                                         |       14|
 |HS RheinMain                                                                                                                                       |       14|
 |Birmingham City University                                                                                                                         |       13|
+|HTWG Konstanz                                                                                                                                      |       13|
 |Institut national de la recherche scientifique                                                                                                     |       13|
 |Munich University of Applied Sciences                                                                                                              |       13|
 |Université du Québec en Outaouais                                                                                                                  |       13|
@@ -749,7 +750,6 @@ This dataset contains information on 197,641 articles, published at 558 institut
 |Academisch Centrum Tandheelkunde Amsterdam (ACTA)                                                                                                  |        7|
 |Anglia Ruskin University                                                                                                                           |        7|
 |FH St. Pölten - University of Applied Sciences                                                                                                     |        7|
-|HTWG Konstanz                                                                                                                                      |        7|
 |Institute for Advanced Studies Vienna                                                                                                              |        7|
 |Queen Margaret University                                                                                                                          |        7|
 |TH Brandenburg                                                                                                                                     |        7|
