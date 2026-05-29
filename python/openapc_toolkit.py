@@ -684,7 +684,7 @@ class ESACHandling(TempFileHandling):
     ESAC_TIME_STAMP = "%Y-%m-%d %H:%M:%S"
 
     def __init__(self, temp_file_dir="tempfiles", force_update=False, make_backup=True, verbose=True, max_mdays=7):
-        super().__init__("ESAC_Transformative_Agreement_Registry", "xlsx", url="https://keeper.mpdl.mpg.de/f/c31f94f8d7e54168af21/?dl=1", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
+        super().__init__("ESAC_Transformative_Agreement_Registry", "xlsx", url="https://keeper.mpdl.mpg.de/f/a5a2c702889140bab440/?dl=1", temp_file_dir=temp_file_dir, max_mdays=max_mdays)
         self.prepare_file(force_update, make_backup, verbose, decompress="excel_to_csv", decompress_kwargs={"skip_lines": 0})
         self.mapping_table = self._prepare_mapping_table()
 
