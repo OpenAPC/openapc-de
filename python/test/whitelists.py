@@ -1189,6 +1189,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1364-5021", # Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, S2O since 2026
     "1742-5662", # Journal of The Royal Society Interface, S2O since 2026
     "2046-0252", # PsyCh Journal, Gold OA since 2024
+    "2352-2143", # Computational Condensed Matter, Hybrid OA since 2016
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
