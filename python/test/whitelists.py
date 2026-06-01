@@ -673,6 +673,14 @@ JOURNAL_OWNER_CHANGED = {
 	"1875-0214": ["Brill", "Walter de Gruyter GmbH"], # Zutot (electronic)
 	"0009-8604": ["Springer Nature", "Cambridge University Press (CUP)"], # Clays and Clay Minerals 
 	"1552-8367": ["Springer Nature", "Cambridge University Press (CUP)"], # Clays and Clay Minerals (electronic)
+	"2110-5820": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Annals of Intensive Care 
+	"1041-6102": ["Cambridge University Press (CUP)", "Elsevier BV"], # International Psychogeriatrics
+	"1460-3578": ["SAGE Publications", "Oxford University Press (OUP)"], # Journal of Peace Research 
+	"0022-3433": ["SAGE Publications", "Oxford University Press (OUP)"], # Journal of Peace Research (linking)
+	"1467-8624": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Child Development 
+	"0009-3920": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Child Development (linking)
+	"1121-8428": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Nephrology 
+	"1724-6059": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Nephrology (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1190,6 +1198,9 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1742-5662", # Journal of The Royal Society Interface, S2O since 2026
     "2046-0252", # PsyCh Journal, Gold OA since 2024
     "2352-2143", # Computational Condensed Matter, Hybrid OA since 2016
+    "0022-1317", # Journal of General Virology, S2O since 2025
+    "0957-4824", # Health Promotion International, Gold OA since 2026
+    "1041-6102", # International Psychogeriatrics, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
