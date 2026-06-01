@@ -121,7 +121,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Ruhr Universität Bochum](http://www.ruhr-uni-bochum.de/oa/)
 - [Saarland University](https://www.sulb.uni-saarland.de/lernen/open-access/open-access-publikationsfonds/)
 - [TH Köln - University of Applied Sciences](https://www.th-koeln.de/hochschulbibliothek/open-access-publikationsfonds_98372.php)
-- TU Bergakademie Freiberg
+- [TU Bergakademie Freiberg](https://tu-freiberg.de/en/ub/publishing/open-access)
 - [Technische Hochschule Brandenburg](https://bibliothek.th-brandenburg.de/open-access-und-publizieren/open-access/)
 - [Technische Hochschule Ingolstadt](https://www.thi.de/)
 - [Technische Hochschule Wildau](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/open-access-und-publikationsdienste/publikationsfonds/)
