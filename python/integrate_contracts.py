@@ -17,7 +17,7 @@ args = parser.parse_args()
 
 add_content = []
 if args.add_file is not None:
-    add_header, add_content = oat.get_csv_file_content(args.add_file)
+    add_header, add_content = oat.get_csv_file_content(args.add_file, enc="utf-8")
     
 header, content = oat.get_csv_file_content(args.contracts_file)
 content += add_content
