@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 199,194 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 199,222 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -29,10 +29,10 @@ This dataset contains information on 199,194 articles, published at 558 institut
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     5788|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     5795|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     4024|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     4042|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
@@ -40,7 +40,7 @@ This dataset contains information on 199,194 articles, published at 558 institut
 |Springer Compact (Bibsam) 2016-2018                                                                                                              |     3382|
 |Springer Compact (KEMOE/FWF) 2016-2018                                                                                                           |     3339|
 |EDP Sciences (Couperin) 2017-2021                                                                                                                |     3330|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     3077|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     3080|
 |Springer Nature (CSAL) 2023-2025                                                                                                                 |     2994|
 |Elsevier (CRUE-CSIC Alliance) 2021-2024                                                                                                          |     2924|
 |Springer Compact (FinELib) 2021-2023                                                                                                             |     2656|
@@ -619,6 +619,7 @@ This dataset contains information on 199,194 articles, published at 558 institut
 |International Institute for Applied Systems Analysis (IIASA)                                                                                       |       38|
 |Swedish Museum of Natural History                                                                                                                  |       38|
 |University Health Network                                                                                                                          |       38|
+|TH Ingolstadt                                                                                                                                      |       37|
 |Robert Gordon University                                                                                                                           |       36|
 |National Land Survey of Finland                                                                                                                    |       35|
 |Netherlands Institute of Ecology                                                                                                                   |       35|
@@ -736,7 +737,6 @@ This dataset contains information on 199,194 articles, published at 558 institut
 |HS Düsseldorf                                                                                                                                      |        9|
 |Laurentian University                                                                                                                              |        9|
 |Social Insurance Institution of Finland                                                                                                            |        9|
-|TH Ingolstadt                                                                                                                                      |        9|
 |Université du Québec à Rimouski                                                                                                                    |        9|
 |VATT Institute for Economic Research                                                                                                               |        9|
 |Zurich University of the Arts                                                                                                                      |        9|
