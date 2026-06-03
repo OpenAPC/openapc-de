@@ -179,7 +179,7 @@ Aalto University;2020;763;10.1109/ACCESS.2020.3010842;FALSE;;;;
 Aalto University;2020;1506;10.3390/en13174372;FALSE;;;;
 Aalto University;2020;1272;10.1016/j.mineng.2020.106610;TRUE;;;;
 VTT Technical Research Centre of Finland Ltd;2020;1268;10.1016/j.ijhydene.2020.04.252;TRUE;;;;
-Aalto University;2020;739;0.1109/ACCESS.2020.3020506;FALSE;;;;
+Aalto University;2020;739;10.1109/ACCESS.2020.3020506;FALSE;;;;
 Aalto University;2020;2980;10.1016/j.mattod.2020.03.003;TRUE;;;;
 Aalto University;2020;1514;10.3390/en13143553;FALSE;;;;
 Aalto University;2020;1115;10.3390/min10080653;FALSE;;;;
@@ -3207,7 +3207,7 @@ University of Helsinki;2022;2820;10.1371/journal.ppat.1010338;FALSE;;;;
 University of Helsinki;2022;1866;10.3390/app12073227;FALSE;;;;
 University of Helsinki;2022;1581;10.5194/amt-15-1811-2022;FALSE;;;;
 University of Helsinki;2022;1136;10.3390/data7030036;FALSE;;;;
-University of Helsinki;2022;385;10.5194/bg-2021-231;FALSE;;;;
+University of Helsinki;2022;385;10.5194/bg-17-1033-2020;FALSE;;;;
 University of Helsinki;2022;2350;10.3389/fmolb.2022.855511;FALSE;;;;
 University of Helsinki;2022;1036;10.3390/nano12081247;FALSE;;;;
 University of Helsinki;2022;787;10.3389/feduc.2022.885987;FALSE;;;;
@@ -3458,7 +3458,7 @@ University of Helsinki;2024;1600;10.5194/gmd-17-545-2024;FALSE;;;;
 University of Helsinki;2024;1668;10.3390/rel15050570;FALSE;;;;
 University of Eastern Finland;2025;3490;10.1007/s00248-025-02682-2;FALSE;;;;
 Aalto University;2021;2500;10.1111/ejn.15504;TRUE;;;;
-University of Helsinki;2022;3000;10.21203/rs.3.rs-257705/v2;FALSE;;;;
+University of Helsinki;2022;3000;10.1038/s41467-022-28389-3;FALSE;;;;
 University of Helsinki;2022;880;10.1016/j.ajoc.2022.101380;FALSE;;;;
 University of Helsinki;2022;1694;10.3389/froh.2022.956072;FALSE;;;;
 Aalto University;2023;1383;10.1016/j.brs.2023.02.009;FALSE;;;;
@@ -4268,7 +4268,7 @@ University of Helsinki;2022;2122;10.3389/fevo.2022.893453;FALSE;;;;
 University of Helsinki;2022;2476;10.3389/fmars.2022.880309;FALSE;;;;
 University of Jyväskylä;2022;1113;10.1162/nol_a_00093;FALSE;;;;
 University of Helsinki;2024;1903;10.1124/pharmrev.123.000953;TRUE;;;;
-University of Helsinki;2024;2624;10.21203/rs.3.rs-3649450/v1;FALSE;;;;
+University of Helsinki;2024;2624;10.1186/s12866-024-03470-7;FALSE;;;;
 University of Jyväskylä;2024;2684;10.1371/journal.pcbi.1011914;FALSE;;;;
 University of Helsinki;2024;2086;10.1186/s13068-024-02566-6;FALSE;;;;
 University of Helsinki;2024;1615;10.1080/2331186X.2024.2402683;FALSE;;;;
@@ -4656,7 +4656,7 @@ University of Helsinki;2024;1344;10.3390/soc14120270;FALSE;;;;
 University of Helsinki;2024;1196;10.3390/app142411850;FALSE;;;;
 University of Helsinki;2024;2133;10.3390/bs14121218;FALSE;;;;
 University of Helsinki;2024;2508;10.3389/fpsyg.2024.1395920;FALSE;;;;
-University of Helsinki;2024;930;10.21203/rs.3.rs-3796345/v1;FALSE;;;;
+University of Helsinki;2024;930;10.1016/j.onehlt.2024.100845;FALSE;;;;
 University of Helsinki;2024;2256;10.1016/j.bioactmat.2024.05.013;FALSE;;;;
 University of Helsinki;2024;1661;10.1186/s13015-023-00245-z;FALSE;;;;
 University of Helsinki;2025;2180;10.1080/15230430.2024.2433829;FALSE;;;;
@@ -5537,7 +5537,7 @@ Aalto University;2020;1841;10.3390/RS12172748;FALSE;;;;
 University of Helsinki;2021;1674;10.5194/acp-21-17559-2021;FALSE;;;;
 VTT Technical Research Centre of Finland Ltd;2022;1460;10.3390/atmos13010031;FALSE;;;;
 Aalto University;2021;1510;10.1371/journal.pone.0251952;FALSE;;;;
-Laurea University of Applied Sciences;2021;856;10.2196/preprints.34567;FALSE;;;;
+Laurea University of Applied Sciences;2021;856;10.2196/34567;FALSE;;;;
 Finnish Environment Institute;2021;2650;10.1080/00318884.2021.2000285;TRUE;;;;
 University of Helsinki;2022;2420;10.1017/S1368980022001707;FALSE;;;;
 Natural Resources Institute Finland;2022;3000;10.1016/j.foreco.2022.120649;TRUE;;;;
@@ -5904,7 +5904,7 @@ The National Defence University;2022;1617;10.1167/jov.22.1.9;FALSE;;;;
 Natural Resources Institute Finland;2022;1533;10.3390/agriculture12020266;FALSE;;;;
 University of Helsinki;2022;1623;10.3390/app12020679;FALSE;;;;
 Natural Resources Institute Finland;2022;1803;10.3390/su14053103;FALSE;;;;
-Aalto University;2022;1460;10.3390/ land11020200;FALSE;;;;
+Aalto University;2022;1460;10.3390/land11020200;FALSE;;;;
 Natural Resources Institute Finland;2022;1398;10.3390/fermentation8040156;FALSE;;;;
 JAMK University of Applied Sciences;2023;480;10.22495/rgcv13i1p2;FALSE;;;;
 University of Helsinki;2022;2587;10.3389/fmicb.2022.977106;FALSE;;;;
@@ -6279,24 +6279,24 @@ VTT Technical Research Centre of Finland Ltd;2017;620;;FALSE;;Advances in Recycl
 University of Jyväskylä;2022;250;;FALSE;Hylonome Publications;Journal of Musculoskeletal and Neuronal Interactions;1108-7161;https://www.ismni.org/jmni/pdf/90/jmni_22_514.pdf
 University of Jyväskylä;2020;1718;;FALSE;e-Century Publishing Corporation;American Journal of Translational Research;1943-8141;http://www.ajtr.org/files/ajtr0107339.pdf
 Natural Resources Institute Finland;2021;340;;FALSE;;Mathematical and Computational Forestry & Natural-Resource Sciences;1946-7664;http://mirror1.mcfns.com/index.php/Journal/article/view/13.2
-South-Eastern Finland University of Applied Sciences (Xamk);2025;2400;;TRUE;Brill;Youth and globalization;2589-5737;https://doi.org/10.1163/25895745-bja10054
-Natural Resources Institute Finland;2020;1190;;FALSE;De Gruyter;Open Agriculture;2391-9531;https://www.degruyter.com/document/doi/10.1515/opag-2020-0212/pdf
-South-Eastern Finland University of Applied Sciences (Xamk);2023;3450;;TRUE;Blackwell;Scandinavian journal of psychology;0036-5564;https://doi.org/10.1111/sjop.12967
-Aalto University;2021;2471;;TRUE;Inderscience Publishers;Journal of Design Research;1748-3050;https://doi.org/10.1504/JDR.2020.115935
+South-Eastern Finland University of Applied Sciences (Xamk);2025;2400;10.1163/25895745-bja10054;TRUE;Brill;Youth and globalization;2589-5737;https://doi.org/10.1163/25895745-bja10054
+Natural Resources Institute Finland;2020;1190;10.1515/opag-2020-0212;FALSE;De Gruyter;Open Agriculture;2391-9531;https://www.degruyter.com/document/doi/10.1515/opag-2020-0212/pdf
+South-Eastern Finland University of Applied Sciences (Xamk);2023;3450;10.1111/sjop.12967;TRUE;Blackwell;Scandinavian journal of psychology;0036-5564;https://doi.org/10.1111/sjop.12967
+Aalto University;2021;2471;10.1504/JDR.2020.115935;TRUE;Inderscience Publishers;Journal of Design Research;1748-3050;https://doi.org/10.1504/JDR.2020.115935
 Aalto University;2022;395;;TRUE;Research Trends;Current Topics in Electrochemistry;0972-4443;http://www.researchtrends.net/tia/article_pdf.asp?in=0&vn=24&tid=19&aid=7092
-VTT Technical Research Centre of Finland Ltd;2018;1076;;FALSE;;BioResources;1930-2126;https://cris.vtt.fi/en/publications/9f8088e7-3775-4336-aa9d-2c8eca2385fd
-VTT Technical Research Centre of Finland Ltd;2018;1551;;FALSE;;Remote Sensing;2072-4292;https://cris.vtt.fi/en/publications/7ad18b37-0385-4474-824f-5c68f50374f0
+VTT Technical Research Centre of Finland Ltd;2018;1076;10.15376/biores.13.4.7310-7324;FALSE;;BioResources;1930-2126;https://cris.vtt.fi/en/publications/9f8088e7-3775-4336-aa9d-2c8eca2385fd
+VTT Technical Research Centre of Finland Ltd;2018;1551;10.3390/rs10060942;FALSE;;Remote Sensing;2072-4292;https://cris.vtt.fi/en/publications/7ad18b37-0385-4474-824f-5c68f50374f0
 University of Eastern Finland;2025;2000;;TRUE;;Journal of mental health policy and economics;1091-4358;https://www.icmpe.net/openjmhpe/28-133_text.pdf
-South-Eastern Finland University of Applied Sciences (Xamk);2025;2026;;FALSE;Public Library of Science (PLoS);PLoS ONE;1932-6203;https://doi.org/10.1371/journal.pone.0327808
-South-Eastern Finland University of Applied Sciences (Xamk);2026;1545;;FALSE;Springer Nature;Discover sustainability;2662-9984;https://doi.org/10.1007/s43621-026-02610-5
-Haaga-Helia University of Applied Sciences;2026;80;;FALSE;Human Resource Management Academic Research Society;International journal of academic research in business and social sciences;2222-6990;http://dx.doi.org/10.6007/IJARBSS/v16-i2/27722
-VTT Technical Research Centre of Finland Ltd;2016;1995;;FALSE;;BioResources;1930-2126;https://cris.vtt.fi/en/publications/4d66b603-1a76-429f-abc6-fda70de6042b
-VTT Technical Research Centre of Finland Ltd;2016;940;;FALSE;;BioResources;1930-2126;https://cris.vtt.fi/en/publications/ff6431a4-0c34-4682-8894-8284cc3a693b
-Aalto University;2020;1886;;FALSE;IEEE;IEEE Access;2169-3536;http://10.1109/ACCESS.2020.3017460
+South-Eastern Finland University of Applied Sciences (Xamk);2025;2026;10.1371/journal.pone.0327808;FALSE;Public Library of Science (PLoS);PLoS ONE;1932-6203;https://doi.org/10.1371/journal.pone.0327808
+South-Eastern Finland University of Applied Sciences (Xamk);2026;1545;10.1007/s43621-026-02610-5;FALSE;Springer Nature;Discover sustainability;2662-9984;https://doi.org/10.1007/s43621-026-02610-5
+Haaga-Helia University of Applied Sciences;2026;80;10.6007/IJARBSS/v16-i2/27722;FALSE;Human Resource Management Academic Research Society;International journal of academic research in business and social sciences;2222-6990;http://dx.doi.org/10.6007/IJARBSS/v16-i2/27722
+VTT Technical Research Centre of Finland Ltd;2016;1995;10.15376/biores.11.3.6049-6061;FALSE;;BioResources;1930-2126;https://cris.vtt.fi/en/publications/4d66b603-1a76-429f-abc6-fda70de6042b
+VTT Technical Research Centre of Finland Ltd;2016;940;10.15376/biores.11.2.4201-4211;FALSE;;BioResources;1930-2126;https://cris.vtt.fi/en/publications/ff6431a4-0c34-4682-8894-8284cc3a693b
+Aalto University;2020;1886;10.1109/ACCESS.2020.3017460;FALSE;IEEE;IEEE Access;2169-3536;http://10.1109/ACCESS.2020.3017460
 Aalto University;2020;843;;FALSE;Chinese Institute of Design;International Journal of Design;1991-3761;http://www.ijdesign.org/index.php/IJDesign/article/view/3781
-VTT Technical Research Centre of Finland Ltd;2021;1265;;FALSE;;Entropy;1099-4300;https://cris.vtt.fi/en/publications/f1779247-3199-40cd-9bf3-a107fe57f02d
+VTT Technical Research Centre of Finland Ltd;2021;1265;10.3390/e23040396;FALSE;;Entropy;1099-4300;https://cris.vtt.fi/en/publications/f1779247-3199-40cd-9bf3-a107fe57f02d
 Aalto University;2021;478;;TRUE;Research Trends;Current Topics in Electrochemistry;0972-4443;http://www.researchtrends.net/tia/article_pdf.asp?in=0&vn=23&tid=19&aid=6881
-VTT Technical Research Centre of Finland Ltd;2018;936;;FALSE;;Frontiers in Robotics and AI;2296-9144;https://cris.vtt.fi/en/publications/aae0974a-abec-4ecc-a0f6-2045cfcccfed
+VTT Technical Research Centre of Finland Ltd;2018;936;10.3389/frobt.2018.00106;FALSE;;Frontiers in Robotics and AI;2296-9144;https://cris.vtt.fi/en/publications/aae0974a-abec-4ecc-a0f6-2045cfcccfed
 South-Eastern Finland University of Applied Sciences (Xamk);2021;100;;FALSE;Consulting and Training Center Key;Journal of Hygienic Engineering and Design;1857-8489;https://keypublishing.org/jhed/jhed-volumes/jhed-volume-36-fqs-2-svetlana-eliseeva-ekaterina-fedinishina-natalia-kushcheva-2021-effect-of-secondary-food-resources-in-the-formation-of-the-quality-of-flour-confectionery/
-South-Eastern Finland University of Applied Sciences (Xamk);2023;1245;;FALSE;Springer;Journal of shipping and trade;2364-4575;https://doi.org/10.1186/s41072-023-00142-z
+South-Eastern Finland University of Applied Sciences (Xamk);2023;1245;10.1186/s41072-023-00142-z;FALSE;Springer;Journal of shipping and trade;2364-4575;https://doi.org/10.1186/s41072-023-00142-z
 University of Helsinki;2024;1304;10.3390/languages9070247;FALSE;"Multidisciplinary Digital Publishing Institute";"";"";""
