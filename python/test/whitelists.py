@@ -1201,6 +1201,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0022-1317", # Journal of General Virology, S2O since 2025
     "0957-4824", # Health Promotion International, Gold OA since 2026
     "1041-6102", # International Psychogeriatrics, Gold OA since 2025
+    "1878-7479", # Neurotherapeutics, Gold OA since 2024
+    "0095-1137", # Journal of Clinical Microbiology, S2O since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1224,6 +1226,8 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "05n911h24_wiley2019deal_2023", # TU Darmstadt
     "05n911h24_els2023deal_2024", # TU Darmstadt
     "00a208s56_els2023deal_2024", # TU Chemnitz
+    "015qjqf64_els2023deal_2023", # TiHo Hannover
+    "015qjqf64_wiley2019deal_2023", # TiHo Hannover
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
