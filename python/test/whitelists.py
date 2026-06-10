@@ -294,8 +294,8 @@ JOURNAL_OWNER_CHANGED = {
     "2045-7022": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Clinical and Translational Allergy
     "1755-4535": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics
     "1755-4543": ["Institution of Engineering and Technology (IET)", "Wiley-Blackwell"], # IET Power Electronics (electronic)
-    "2590-0366": ["Springer Nature", "Brill"], # Triple Helix 
-    "2197-1927": ["Springer Nature", "Brill"], # Triple Helix (electronic)
+    "2590-0366": ["Springer Nature", "Brill", "Walter de Gruyter GmbH"], # Triple Helix 
+    "2197-1927": ["Springer Nature", "Brill", "Walter de Gruyter GmbH"], # Triple Helix (electronic)
     "1718-7729": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (electronic)
     "1198-0052": ["MultiMed Inc.", "MDPI AG"], # Current Oncology (linking)
     "0894-0282": ["Scientific Societies", "American Phytopathological Society"], # Molecular Plant-Microbe Interactions
@@ -681,6 +681,7 @@ JOURNAL_OWNER_CHANGED = {
 	"0009-3920": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Child Development (linking)
 	"1121-8428": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Nephrology 
 	"1724-6059": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Nephrology (electronic)
+	"2001-0370": ["Elsevier BV", "American Association for the Advancement of Science (AAAS)"], # Computational and Structural Biotechnology Journal
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1138,6 +1139,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2573-5098", # JSFA reports, Gold OA since 2025
     "0953-1513", # Learned Publishing, Gold OA since 2025
     "1877-8879", # Scandinavian Journal of Pain, Gold OA since 2024
+    "1877-8860", # Scandinavian Journal of Pain, Gold OA since 2024 (linking)
     "0958-1596", # Critical Public Health, Gold OA since 2024
     "1103-8128", # Scandinavian Journal of Occupational Therapy, Gold OA since 2024
     "0703-8992", # Canadian Journal of Remote Sensing, Gold OA since 2023
