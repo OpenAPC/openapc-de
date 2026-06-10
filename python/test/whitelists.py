@@ -682,6 +682,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1121-8428": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Nephrology 
 	"1724-6059": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Nephrology (electronic)
 	"2001-0370": ["Elsevier BV", "American Association for the Advancement of Science (AAAS)"], # Computational and Structural Biotechnology Journal
+	"2274-5807": ["Springer Nature", "Elsevier BV"], # The Journal of Prevention of Alzheimer's Disease
+	"2688-4844": ["Mary Ann Liebert Inc", "SAGE Publications"], # Women's Health Reports
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1205,6 +1207,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1041-6102", # International Psychogeriatrics, Gold OA since 2025
     "1878-7479", # Neurotherapeutics, Gold OA since 2024
     "0095-1137", # Journal of Clinical Microbiology, S2O since 2025
+    "2274-5807", # The Journal of Prevention of Alzheimer's Disease, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
