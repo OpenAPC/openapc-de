@@ -368,7 +368,7 @@ def main():
         "euro": CSVColumn("euro",
             {
                 "articles": CSVColumn.MANDATORY,
-                "ta": CSVColumn.DEFAULT_NA,
+                "ta": CSVColumn.NONE,
                 "books": CSVColumn.MANDATORY,
             },
             args.euro_column, overwrite=OVERWRITE_STRATEGY["euro"]),
@@ -381,7 +381,7 @@ def main():
             args.doi_column, overwrite=OVERWRITE_STRATEGY["doi"]),
         "is_hybrid": CSVColumn("is_hybrid",
             {
-                "articles": CSVColumn.DEFAULT_NA,
+                "articles": CSVColumn.MANDATORY,
                 "ta": CSVColumn.NONE,
                 "books": CSVColumn.NONE
             },
@@ -389,10 +389,10 @@ def main():
         "opt_out": CSVColumn("opt_out",
             {
                 "articles": CSVColumn.NONE,
-                "ta": CSVColumn.DEFAULT_FALSE,
+                "ta": CSVColumn.NONE,
                 "books": CSVColumn.NONE
             },
-            args.opt_out_column, overwrite=OVERWRITE_STRATEGY["opt_out"]),
+            args.opt_out_column, overwrite=OVERWRITE_STRATEGY["opt_out"], default_value="FALSE"),
         "publisher": CSVColumn("publisher",
             {
                 "articles": CSVColumn.BACKUP,
@@ -509,9 +509,9 @@ def main():
             {
                 "articles": CSVColumn.NONE,
                 "ta": CSVColumn.NONE,
-                "books": CSVColumn.DEFAULT_FALSE
+                "books": CSVColumn.NONE
             },
-            args.backlist_oa_column, overwrite=OVERWRITE_STRATEGY["backlist_oa"]),
+            args.backlist_oa_column, overwrite=OVERWRITE_STRATEGY["backlist_oa"], default_value="FALSE"),
         "isbn": CSVColumn("isbn",
             {
                 "articles": CSVColumn.NONE,

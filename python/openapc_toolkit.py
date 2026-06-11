@@ -353,8 +353,6 @@ class CSVColumn(object):
     BACKUP = {"text": "backup", "color": "blue"}
     RECOMMENDED = {"text": "recommended", "color": "cyan"}
     ADDITIONAL_COSTS = {"text": "additional_costs", "color": "magenta"}
-    DEFAULT_FALSE = {"text": "defaulting to FALSE", "color": "green"}
-    DEFAULT_NA = {"text": "defaulting to NA", "color": "green"}
     NONE = {"text": "not required", "color": "yellow"}
 
     OW_ALWAYS = 0
@@ -370,11 +368,12 @@ class CSVColumn(object):
                "\033[93m{ov}\033[0m by \033[93m{nv}\033[0m in this " +
                "column\n6) No, and never overwrite in this column\n>")
 
-    def __init__(self, column_type, requirement=None, index=None, column_name="", overwrite=OW_ASK):
+    def __init__(self, column_type, requirement=None, index=None, column_name="", overwrite=OW_ASK, default_value="NA"):
         self.column_type = column_type
         if requirement is None:
             self.requirement = {
                 "articles": CSVColumn.NONE,
+                "ta": CSVColumn.NONE,
                 "books": CSVColumn.NONE
             }
         else:
@@ -382,6 +381,7 @@ class CSVColumn(object):
         self.index = index
         self.column_name = column_name
         self.overwrite = overwrite
+        self.default_value = default_value
         self.overwrite_whitelist = {}
         self.overwrite_blacklist = {}
 
@@ -393,7 +393,13 @@ class CSVColumn(object):
             else:
                 requirement = required["text"] + " for " + pub_type
             requirements.append(requirement)
-        return ", ".join(requirements)
+        default_hint = ""
+        if self.default_value != "NA":
+            if colored:
+                default_hint = colorize('. Defaults to "' + self.default_value + '"', "cyan")
+            else:
+                default_hint = '. Defaults to "' + self.default_value + '"'
+        return ", ".join(requirements) + default_hint
 
     def check_overwrite(self, old_value, new_value):
         if old_value == new_value:
@@ -2322,7 +2328,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             if index is not None and len(row[index]) > 0:
                 current_row[column_type] = row[index]
             else:
-                current_row[column_type] = "NA"
+                current_row[column_type] = csv_column.default_value
 
     doi = current_row["doi"]
     if not has_value(doi) and not empty_row:
