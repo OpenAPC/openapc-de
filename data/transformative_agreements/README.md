@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 200,134 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 200,288 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -24,15 +24,15 @@ This dataset contains information on 200,134 articles, published at 558 institut
 
 |Agreement                                                                                                                                        | Articles|
 |:------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|Springer Nature (DEAL) 2020-2023                                                                                                                 |    30212|
-|Wiley (DEAL) 2019-2023                                                                                                                           |    20604|
+|Springer Nature (DEAL) 2020-2023                                                                                                                 |    30294|
+|Wiley (DEAL) 2019-2023                                                                                                                           |    20630|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     6080|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     6106|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     4321|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     4329|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
@@ -40,7 +40,7 @@ This dataset contains information on 200,134 articles, published at 558 institut
 |Springer Compact (Bibsam) 2016-2018                                                                                                              |     3382|
 |Springer Compact (KEMOE/FWF) 2016-2018                                                                                                           |     3339|
 |EDP Sciences (Couperin) 2017-2021                                                                                                                |     3330|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     3251|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     3258|
 |Springer Nature (CSAL) 2023-2025                                                                                                                 |     2994|
 |Elsevier (CRUE-CSIC Alliance) 2021-2024                                                                                                          |     2924|
 |Springer Compact (FinELib) 2021-2023                                                                                                             |     2656|
@@ -162,9 +162,9 @@ This dataset contains information on 200,134 articles, published at 558 institut
 |Oxford University Press (CzechELib) 2023-2025                                                                                                    |       73|
 |Association for Computing Machinery (FinELib) 2022-2024                                                                                          |       66|
 |IOP Publishing (CSIC) 2023-2025                                                                                                                  |       66|
+|Nature (MPDL) 2021-2024                                                                                                                          |       66|
 |Elsevier (EISZ) 2022-2022                                                                                                                        |       64|
 |Hogrefe (SUB Göttingen) 2024-2026                                                                                                                |       63|
-|Nature (MPDL) 2021-2024                                                                                                                          |       61|
 |Royal Society of Chemistry (FinELib) 2020-2021                                                                                                   |       60|
 |Royal Society of Chemistry (TIB) 2021-2023                                                                                                       |       59|
 |American Chemical Society (CzechELib) 2023-2025                                                                                                  |       58|
@@ -504,6 +504,7 @@ This dataset contains information on 200,134 articles, published at 558 institut
 |University of St Andrews                                                                                                                           |      168|
 |University of Sussex                                                                                                                               |      168|
 |LSE                                                                                                                                                |      166|
+|PIK-Potsdam                                                                                                                                        |      166|
 |University of East Anglia                                                                                                                          |      164|
 |Hanken School of Economics                                                                                                                         |      163|
 |Johannes Kepler University Linz                                                                                                                    |      157|
@@ -713,7 +714,6 @@ This dataset contains information on 200,134 articles, published at 558 institut
 |Dublin Institute for Advanced Studies                                                                                                              |       12|
 |Fulda University of Applied Sciences                                                                                                               |       12|
 |Haaga-Helia University of Applied Sciences                                                                                                         |       12|
-|PIK-Potsdam                                                                                                                                        |       12|
 |Regensburg University of Applied Sciences                                                                                                          |       12|
 |Toronto Rehabilitation Institute                                                                                                                   |       12|
 |University of Applied Sciences of the Grisons                                                                                                      |       12|

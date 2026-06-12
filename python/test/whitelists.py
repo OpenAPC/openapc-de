@@ -1233,6 +1233,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "00a208s56_els2023deal_2024", # TU Chemnitz
     "015qjqf64_els2023deal_2023", # TiHo Hannover
     "015qjqf64_wiley2019deal_2023", # TiHo Hannover
+    "03e8s1d88_wiley2019deal_2022" # PIK Potsdam
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
