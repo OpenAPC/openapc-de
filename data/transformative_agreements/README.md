@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 200,288 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 200,287 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -32,7 +32,7 @@ This dataset contains information on 200,288 articles, published at 558 institut
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     4329|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     4328|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
@@ -597,8 +597,8 @@ This dataset contains information on 200,288 articles, published at 558 institut
 |RISE Research Institutes of Sweden                                                                                                                 |       51|
 |University of Regina                                                                                                                               |       50|
 |St George's, University of London                                                                                                                  |       48|
-|HS Bielefeld                                                                                                                                       |       47|
 |Hospital for Sick Children                                                                                                                         |       47|
+|HS Bielefeld                                                                                                                                       |       46|
 |MDC                                                                                                                                                |       46|
 |Magdeburg U                                                                                                                                        |       45|
 |University of Gävle                                                                                                                                |       45|
