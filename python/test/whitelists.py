@@ -1208,6 +1208,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1878-7479", # Neurotherapeutics, Gold OA since 2024
     "0095-1137", # Journal of Clinical Microbiology, S2O since 2025
     "2274-5807", # The Journal of Prevention of Alzheimer's Disease, Gold OA since 2025
+    "0018-3830", # Holzforschung, Gold OA since 2025
+    "1611-4663", # Journal of Wood Science, Gold OA since 2019
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
