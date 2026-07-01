@@ -684,6 +684,12 @@ JOURNAL_OWNER_CHANGED = {
 	"2001-0370": ["Elsevier BV", "American Association for the Advancement of Science (AAAS)"], # Computational and Structural Biotechnology Journal
 	"2274-5807": ["Springer Nature", "Elsevier BV"], # The Journal of Prevention of Alzheimer's Disease
 	"2688-4844": ["Mary Ann Liebert Inc", "SAGE Publications"], # Women's Health Reports
+	"1055-4181": ["IOS Press", "SAGE Publications"], # Technology and Disability 
+	"1878-643X": ["IOS Press", "SAGE Publications"], # Technology and Disability (electronic)
+	"0213-4748": ["Informa UK Limited", "SAGE Publications"], # International Journal of Social Psychology: Revista de Psicología Social 
+	"1579-3680": ["Informa UK Limited", "SAGE Publications"], # International Journal of Social Psychology: Revista de Psicología Social (electronic)
+	"1570-1255": ["IOS Press", "SAGE Publications"], # Information Polity 
+	"1875-8754": ["IOS Press", "SAGE Publications"], # Information Polity (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
