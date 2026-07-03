@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 203,058 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 203,076 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,14 +28,14 @@ This dataset contains information on 203,058 articles, published at 558 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20665|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7091|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7096|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     4904|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     4912|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     3767|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     3771|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
 |Springer Compact (CSAL) 2020-2022                                                                                                                |     3583|
 |Springer Compact (Bibsam) 2016-2018                                                                                                              |     3382|
@@ -108,7 +108,7 @@ This dataset contains information on 203,058 articles, published at 558 institut
 |AIP Publishing (CSAL) 2022-2024                                                                                                                  |      287|
 |Royal Society of Chemistry (CSAL) 2024-2026                                                                                                      |      283|
 |Royal Society of Chemistry (MPDL) 2017-2018                                                                                                      |      246|
-|Sage (BSB) 2024-2025                                                                                                                             |      240|
+|Sage (BSB) 2024-2025                                                                                                                             |      241|
 |Wiley (CzechELib) 2023-2026                                                                                                                      |      231|
 |Taylor & Francis (KEMOE) 2020-2023                                                                                                               |      217|
 |American Chemical Society (CRUI-CARE) 2020-2023                                                                                                  |      207|
@@ -621,6 +621,7 @@ This dataset contains information on 203,058 articles, published at 558 institut
 |International Institute for Applied Systems Analysis (IIASA)                                                                                       |       38|
 |Swedish Museum of Natural History                                                                                                                  |       38|
 |University Health Network                                                                                                                          |       38|
+|Hochschule Bonn-Rhein-Sieg                                                                                                                         |       37|
 |TH Ingolstadt                                                                                                                                      |       37|
 |Robert Gordon University                                                                                                                           |       36|
 |University of Liechtenstein                                                                                                                        |       36|
@@ -680,7 +681,6 @@ This dataset contains information on 203,058 articles, published at 558 institut
 |St.Gallen University of Teacher Education                                                                                                          |       20|
 |Stockholm School of Economics                                                                                                                      |       20|
 |Cardiff Metropolitan University                                                                                                                    |       19|
-|Hochschule Bonn-Rhein-Sieg                                                                                                                         |       19|
 |Häme University of Applied Sciences                                                                                                                |       19|
 |Pädagogische Hochschule Bern                                                                                                                       |       19|
 |South-Eastern Finland University of Applied Sciences (Xamk)                                                                                        |       19|
