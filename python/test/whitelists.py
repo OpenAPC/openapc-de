@@ -691,6 +691,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1570-1255": ["IOS Press", "SAGE Publications"], # Information Polity 
 	"1875-8754": ["IOS Press", "SAGE Publications"], # Information Polity (electronic)
 	"2694-5746": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Stroke: Vascular and Interventional Neurology 
+	"2041-9031": ["WITPRESS LTD.", "International Information and Engineering Technology Association"], # International Journal of Safety and Security Engineering 
+	"2041-904X": ["WITPRESS LTD.", "International Information and Engineering Technology Association"], # International Journal of Safety and Security Engineering (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
