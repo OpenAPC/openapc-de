@@ -690,6 +690,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1579-3680": ["Informa UK Limited", "SAGE Publications"], # International Journal of Social Psychology: Revista de Psicología Social (electronic)
 	"1570-1255": ["IOS Press", "SAGE Publications"], # Information Polity 
 	"1875-8754": ["IOS Press", "SAGE Publications"], # Information Polity (electronic)
+	"2694-5746": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Stroke: Vascular and Interventional Neurology 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1216,6 +1217,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2274-5807", # The Journal of Prevention of Alzheimer's Disease, Gold OA since 2025
     "0018-3830", # Holzforschung, Gold OA since 2025
     "1611-4663", # Journal of Wood Science, Gold OA since 2019
+    "1438-2199", # Amino Acids, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
