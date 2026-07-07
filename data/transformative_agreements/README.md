@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 203,076 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 203,085 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,14 +28,14 @@ This dataset contains information on 203,076 articles, published at 558 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20665|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7096|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7102|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (DEAL) 2023-2028                                                                                                                        |     4912|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     3771|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     3774|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
 |Springer Compact (CSAL) 2020-2022                                                                                                                |     3583|
 |Springer Compact (Bibsam) 2016-2018                                                                                                              |     3382|
@@ -704,6 +704,7 @@ This dataset contains information on 203,076 articles, published at 558 institut
 |Metropolia University of Applied Sciences                                                                                                          |       15|
 |TH Köln                                                                                                                                            |       15|
 |ASH Berlin                                                                                                                                         |       14|
+|HS Anhalt                                                                                                                                          |       14|
 |HS RheinMain                                                                                                                                       |       14|
 |Birmingham City University                                                                                                                         |       13|
 |HTWG Konstanz                                                                                                                                      |       13|
@@ -770,7 +771,6 @@ This dataset contains information on 203,076 articles, published at 558 institut
 |Tampere University of Applied Sciences                                                                                                             |        6|
 |University of Roehampton                                                                                                                           |        6|
 |University of Teacher Education Zug                                                                                                                |        6|
-|HS Anhalt                                                                                                                                          |        5|
 |HTW Dresden                                                                                                                                        |        5|
 |JAMK University of Applied Sciences                                                                                                                |        5|
 |Kwantlen Polytechnic University                                                                                                                    |        5|
