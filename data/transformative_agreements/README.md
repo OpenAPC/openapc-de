@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 203,098 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 203,101 articles, published at 558 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,7 +28,7 @@ This dataset contains information on 203,098 articles, published at 558 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20665|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7112|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7115|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (DEAL) 2023-2028                                                                                                                        |     4912|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
@@ -762,6 +762,7 @@ This dataset contains information on 203,098 articles, published at 558 institut
 |University of Teacher Education in Special Needs                                                                                                   |        7|
 |Women's College Hospital                                                                                                                           |        7|
 |Bruyère                                                                                                                                            |        6|
+|HS Furtwangen                                                                                                                                      |        6|
 |Holland Bloorview Kids Rehabilitation Hospital                                                                                                     |        6|
 |Institut für Arbeitsmarkt- und Berufsforschung                                                                                                     |        6|
 |Kiel Institute for the World Economy                                                                                                               |        6|
@@ -791,7 +792,6 @@ This dataset contains information on 203,098 articles, published at 558 institut
 |Carinthia University of Applied Sciences (CUAS)                                                                                                    |        3|
 |FH Campus Wien - University of Applied Sciences                                                                                                    |        3|
 |FH Vorarlberg - University of Applied Sciences                                                                                                     |        3|
-|HS Furtwangen                                                                                                                                      |        3|
 |Haute Ecole Pédagogique du Valais                                                                                                                  |        3|
 |IPN - Leibniz Kiel                                                                                                                                 |        3|
 |Institut Universitaire de Cardiologie et de Pneumologie de Québec                                                                                  |        3|
