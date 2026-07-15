@@ -255,7 +255,6 @@ The following institutions have contributed to OpenAPC so far:
 - [Modul University Vienna (MUVIENNA)](https://www.modul.ac.at/)
 - [Montanuniversität Leoben](https://www.unileoben.ac.at/en/)
 - [Paracelsus Medical University](https://www.pmu.ac.at/en/home.html)
-- Research Institute of Molecular Pathology (IMP) / IMBA - Institute of Molecular Biotechnology / Gregor Mendel Institute of Molecular Plant Biology
 - [Research Institute of Molecular Pathology - IMP](https://www.imp.ac.at/)
 - [Technische Universität Wien](https://www.tuwien.at/bibliothek/publizieren/open-access-und-urheberrecht)
 - [University of Applied Sciences Burgenland](https://www.fh-burgenland.at/en/)
