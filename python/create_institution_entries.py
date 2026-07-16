@@ -114,17 +114,23 @@ def _build_name_string(names_dict):
             aliases += '"' + oat.colorize(name, "magenta") + '", '
     return name_str.format(main, other, aliases)[:-2]
 
-def _ror_lookup(institution_name):
-    ret = oat.search_institution_in_ror(institution_name)
+def _ror_lookup(institution_name, exact_term=True):
+    ret = oat.search_institution_in_ror(institution_name, exact_term)
     if ret["success"] == False:
         msg = "An Error occured while querying the ROR API: {}"
         oat.print_r(msg.format(ret["error_msg"]))
         return {}
     data = ret["data"]
     if data["number_of_results"] == 0:
-        msg = 'No ROR entry found for institution "{}"'
-        oat.print_y(msg.format(institution_name))
-        return {}
+        if exact_term:
+            msg = 'No ROR entry found for exact institution name "{}", retrying with a keyword search...'
+            oat.print_y(msg.format(institution_name))
+            time.sleep(1)
+            return _ror_lookup(institution_name, exact_term=False)
+        else:
+            msg = 'No ROR entry found for keyword combination "{}"'
+            oat.print_y(msg.format(institution_name))
+            return {}
     selected_item = data["items"][0]
     if data["number_of_results"] > 1:
         ask_msg = 'Found more than one possible candidate in ROR for institution name "{}", please select one:\n'

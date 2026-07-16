@@ -1843,14 +1843,16 @@ def get_metadata_from_ror(ror_id):
     ret["success"] = True
     return ret
 
-def search_institution_in_ror(name):
+def search_institution_in_ror(name, exact_term=True):
     """
     Look up an institution (exact name) in ROR and extract all metadata.
     May return more than one record.
     """
     ret = {"success": False}
     url = "https://api.ror.org/v2/organizations?"
-    quoted_name = '"{}"'.format(name)
+    quoted_name = '{}'.format(name)
+    if exact_term:
+        quoted_name = '"{}"'.format(name)
     url = url + urlencode({'query': quoted_name})
     data = {}
     try:

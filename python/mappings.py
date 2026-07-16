@@ -830,6 +830,7 @@ GEO_MAPPINGS = {
     "CA": "CAN",
     "DE": "DEU",
     "IT": "ITA",
+    "AT": "AUT",
     # subdivisions
     # -- Canada
     "ON": "CA-ON",
