@@ -699,6 +699,7 @@ JOURNAL_OWNER_CHANGED = {
 	"0034-673X": ["Springer Nature", "SAGE Publications"], # Review of Religious Research 
 	"2211-4866": ["Springer Nature", "SAGE Publications"], # Review of Religious Research (electronic)
 	"1878-7479": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Neurotherapeutics
+	"2691-171X": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # JPGN Reports
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
