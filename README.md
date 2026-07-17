@@ -16,7 +16,7 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |287,367                  | 599,620,893    | 482                   |
+| Articles (APCs)             |287,365                  | 599,617,312    | 482                   |
 | Monographs (BPCs)           |2,630                           | 17,452,182             | 118                            |
 | OA Agreements/Contracts     |966                 | 159,342,937   | 132                  |
 
@@ -233,7 +233,12 @@ The following institutions have contributed to OpenAPC so far:
 <details>
 
 - [AC2T Research GmbH](https://www.ac2t.at/en/)
+- [Austrian Academy of Sciences](https://www.oeaw.ac.at)
+- [Austrian Institute of Economic Research](https://www.wifo.ac.at)
+- [Austrian Institute of Technology](https://www.ait.ac.at)
 - [Carinthia University of Applied Sciences (CUAS)](https://www.fh-kaernten.at/en/)
+- [Central European University](https://www.ceu.edu)
+- [Danube Private University](http://www.danube-private-university.at/)
 - [Danube University Krems University for Continuing Education](https://www.donau-uni.ac.at/en.html)
 - [FH Campus Wien - University of Applied Sciences](https://www.fh-campuswien.ac.at/en)
 - [FH Joanneum - University of Applied Sciences](https://www.fh-joanneum.at/en/)
@@ -245,10 +250,14 @@ The following institutions have contributed to OpenAPC so far:
 - [FWF - Austrian Science Fund](https://www.fwf.ac.at/en/research-funding/open-access-policy/)
 - [Ferdinand Porsche FernFH](https://www.fernfh.ac.at/en)
 - [Graz University of Technology](https://www.tugraz.at/en/home)
+- [IMC University of Applied Sciences Krems](https://www.fh-krems.ac.at/en/)
 - [Institute for Advanced Studies Vienna](https://www.ihs.ac.at/)
 - [Institute of Science and Technology Austria](https://ist.ac.at/en/research/library/publish-communicate/)
 - [International Institute for Applied Systems Analysis (IIASA)](https://iiasa.ac.at/)
+- [Joanneum Research](http://www.joanneum.at/en.html)
 - [Johannes Kepler University Linz](https://www.jku.at/en/library/service/bibliometrics-and-publication-support/open-access-publishing/publication-fund/)
+- [Karl Landsteiner University of Health Sciences](https://www.kl.ac.at)
+- [Management Center Innsbruck](https://www.mci.edu/)
 - [Medical University of Graz](https://www.medunigraz.at/en/)
 - [Medical University of Innsbruck](https://www.i-med.ac.at/mypoint/index.xml.en)
 - [Medical University of Vienna](https://www.meduniwien.ac.at/web/en/)
@@ -256,18 +265,24 @@ The following institutions have contributed to OpenAPC so far:
 - [Montanuniversität Leoben](https://www.unileoben.ac.at/en/)
 - [Paracelsus Medical University](https://www.pmu.ac.at/en/home.html)
 - [Research Institute of Molecular Pathology - IMP](https://www.imp.ac.at/)
+- [Sigmund Freud Privatuniversität Wien](https://www.sfu.ac.at)
 - [Technische Universität Wien](https://www.tuwien.at/bibliothek/publizieren/open-access-und-urheberrecht)
+- [UMIT - Private Universität für Gesundheitswissenschaften, Medizinische Informatik und Technik](https://www.umit.at/page.cfm?vpath=studien&switchLocale=en_US)
 - [University of Applied Sciences Burgenland](https://www.fh-burgenland.at/en/)
+- [University of Applied Sciences Technikum Wien](https://www.technikum-wien.at)
 - [University of Applied Sciences Upper Austria](https://www.fh-ooe.at/en/)
 - [University of Applied Sciences Wiener Neustadt for Business and Engineering](https://www.fhwn.ac.at/en/)
 - [University of Graz](https://www.uni-graz.at/en/)
 - [University of Innsbruck](https://www.uibk.ac.at/en/)
 - University of Innsbruck and Medical University of Innsbruck
 - [University of Klagenfurt](https://www.aau.at/en/)
+- [University of Music and Performing Arts Vienna](https://www.mdw.ac.at)
 - [University of Natural Resources and Life Sciences Vienna (BOKU)](https://boku.ac.at/en/)
 - [University of Salzburg](https://www.plus.ac.at/university-library/services/open-access/open-access-policy/?lang=en)
 - [University of Veterinary Medicine Vienna](https://www.vetmeduni.ac.at/en/)
 - [University of Vienna](https://www.univie.ac.at/en/)
+- [Universitäts- und Landesbibliothek Tirol](https://www.uibk.ac.at/ulb)
+- [Verbund für Bildung und Kultur](https://www.vbk.ac.at)
 - [Vienna University of Economics and Business (WU)](https://www.wu.ac.at/en/)
 
 </details>
@@ -1000,13 +1015,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 265,374 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 482 research-performing institutions and research funders.
+The APC data set contains information on 265,373 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 482 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 550,259,216. The average payment was € 2,074 and the median was € 1,908.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 550,258,016. The average payment was € 2,074 and the median was € 1,908.
 
-197,599 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 375,167,276, including value-added tax; the average payment was € 1,899 (median =  € 1,747, SD = € 949).
+197,597 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 375,162,614, including value-added tax; the average payment was € 1,899 (median =  € 1,747, SD = € 949).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,775 articles in the data set were published in hybrid journals. Total expenditure amounts to 175,091,940 €; the average fee was € 2,583 (median =  € 2,518, SD = € 1,180).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,776 articles in the data set were published in hybrid journals. Total expenditure amounts to 175,095,402 €; the average fee was € 2,583 (median =  € 2,518, SD = € 1,180).
 
 Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
@@ -1035,13 +1050,13 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2015   |       8,418|   1,522|     1,451|  59.0 -  5,669|           6,685|       2,610|         2,623|   126.6 -  8,636|
 |2016   |       9,796|   1,638|     1,531|  62.5 -  5,985|           7,894|       2,551|         2,513|     2.3 -  9,079|
 |2017   |      14,975|   1,700|     1,553|   8.7 - 14,634|          10,645|       2,528|         2,469|    36.9 -  9,858|
-|2018   |      16,613|   1,700|     1,581|  13.0 -  8,926|           9,480|       2,551|         2,538|     1.8 -  9,073|
+|2018   |      16,612|   1,700|     1,581|  13.0 -  8,926|           9,481|       2,551|         2,538|     1.8 -  9,073|
 |2019   |      17,946|   1,708|     1,634|  10.7 -  7,821|           7,123|       2,535|         2,498|    75.3 -  9,500|
 |2020   |      20,324|   1,708|     1,668|   0.2 -  8,906|           4,582|       2,498|         2,534|    16.6 -  7,416|
 |2021   |      25,378|   1,814|     1,760|  27.0 -  8,341|           3,868|       2,566|         2,519|    30.2 - 11,400|
 |2022   |      27,147|   2,085|     1,990|  12.4 - 11,175|           3,153|       2,904|         2,730|     2.1 - 14,607|
-|2023   |      23,932|   2,292|     2,205|  35.0 -  9,893|           3,587|       3,026|         2,841|   106.4 - 11,895|
-|2024   |      16,555|   2,461|     2,348|  40.0 -  9,758|           2,462|       3,130|         2,945|    28.4 - 13,044|
+|2023   |      23,931|   2,292|     2,205|  35.0 -  9,893|           3,588|       3,026|         2,842|   106.4 - 11,895|
+|2024   |      16,555|   2,461|     2,348|  40.0 -  9,758|           2,461|       3,131|         2,945|    28.4 - 13,044|
 |2025   |       5,118|   2,756|     2,452|  20.0 -  8,854|             619|       3,295|         2,896|     9.0 - 13,166|
 |2026   |         288|   2,465|     2,340|  80.0 -  7,503|              29|       3,156|         3,170| 1,106.1 -  5,142|
 
