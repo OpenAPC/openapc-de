@@ -2299,12 +2299,14 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
 
     current_row = {}
     record_type = None
+    create_empty_row = False
+    if empty_row:
+        create_empty_row = True
 
     # Copy content of identified columns and apply special processing rules
     for csv_column in column_map.values():
         index, column_type = csv_column.index, csv_column.column_type
         if empty_row:
-            current_row[column_type] = ""
             continue
         req = csv_column.requirement
         if column_type == "euro" and index is not None:
@@ -2414,20 +2416,24 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
             else:
                 msg = "Line %s: Crossref: Error while trying to resolve DOI %s: %s"
                 logging.error(msg, row_num, doi, crossref_result["error_msg"])
-                current_row["indexed_in_crossref"] = "FALSE"
-                # lookup ISBNs in crossref and try to find a correct DOI
-                additional_isbns = [row[i] for i in additional_isbn_columns]
-                found_doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
-                if r_type is not None:
-                    record_type = r_type
-                if found_doi is not None:
-                    # integrate DOI into row and restart
-                    logging.info("New DOI integrated, restarting enrichment for current line.")
-                    index = column_map["doi"].index
-                    row[index] = found_doi
-                    return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
-                                       doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
-                                       no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, ta_mode, orig_file_path)
+                if "exception" in crossref_result and isinstance(crossref_result["exception"], UnsupportedDoiTypeError):
+                    # Unsupported DOI types cannot be fixed, so we output a blank line
+                    create_empty_row = True
+                else:
+                    current_row["indexed_in_crossref"] = "FALSE"
+                    # lookup ISBNs in crossref and try to find a correct DOI
+                    additional_isbns = [row[i] for i in additional_isbn_columns]
+                    found_doi, r_type = _isbn_lookup(current_row, row_num, additional_isbns, doab_analysis.isbn_handling)
+                    if r_type is not None:
+                        record_type = r_type
+                    if found_doi is not None:
+                        # integrate DOI into row and restart
+                        logging.info("New DOI integrated, restarting enrichment for current line.")
+                        index = column_map["doi"].index
+                        row[index] = found_doi
+                        return process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
+                                           doab_analysis, doaj_analysis, issnl_handling, no_crossref_lookup, no_pubmed_lookup,
+                                           no_doaj_lookup, no_title_lookup, preprint_auto_accept, round_monetary, ta_mode, orig_file_path)
         # include a possible ISSN-L
         if issnl_handling is not None and record_type == "journal-article":
             for issn_field in ["issn", "issn_print", "issn_electronic"]:
@@ -2529,11 +2535,17 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
 
     result = []
     for field in COLUMN_SCHEMAS[record_type]:
-        result.append(current_row[field])
+        if not create_empty_row:
+            result.append(current_row[field])
+        else:
+            result.append("")
 
     for _, column in column_map.items():
         if column.column_type == "added_unknown_column":
-            result.append(row[column.index])
+            if not create_empty_row:
+                result.append(row[column.index])
+            else:
+                result.append("")
 
     ret = {record_type: result}
 
@@ -2556,7 +2568,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 ret["additional_costs"].append("NA")
 
     # only write a contracts line if a group_id could be created in the first place
-    if ta_mode and group_id_creation["created"]:
+    if ta_mode and group_id_creation["created"] and not create_empty_row:
         ret["contracts"] = []
         for field in COLUMN_SCHEMAS["contracts"]:
             if field == "euro": # Do not copy article-level costs to contracts...
