@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 203,101 articles, published at 557 institutions under 260 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 203,283 articles, published at 557 institutions under 261 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -120,14 +120,15 @@ This dataset contains information on 203,101 articles, published at 557 institut
 |Wiley (CRUE-CSIC Alliance) 2021-2021                                                                                                             |      198|
 |Elsevier (QNL) 2020-2022                                                                                                                         |      194|
 |Springer Nature (KEMOE/FWF) 2022-2023                                                                                                            |      185|
+|Wolters Kluwer Health (Consortium of Swiss Academic Libraries) 2025-2027                                                                         |      181|
 |Cambridge University Press (CSAL) 2024-2026                                                                                                      |      179|
 |Elsevier (FinELib) 2022-2024                                                                                                                     |      173|
 |Royal Society of Chemistry (FinELib) 2022-2023                                                                                                   |      171|
 |Springer Nature (CRUI-CARE) 2025-2029                                                                                                            |      167|
 |Royal Society of Chemistry (IReL) 2022-2024                                                                                                      |      165|
 |Emerald (IReL) 2021-2023                                                                                                                         |      164|
+|Karger (CSAL) 2023-2025                                                                                                                          |      164|
 |Nature (CSAL) 2023-2025                                                                                                                          |      164|
-|Karger (CSAL) 2023-2025                                                                                                                          |      163|
 |IOP (TIB) 2022-2025                                                                                                                              |      157|
 |IEEE (CRUI-CARE) 2022-2024                                                                                                                       |      151|
 |Royal Society of Chemistry (CSIC) 2023-2025                                                                                                      |      150|
@@ -295,18 +296,18 @@ This dataset contains information on 203,101 articles, published at 557 institut
 |:-------------------------------------------------------------------------------------|--------:|
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                |     6859|
 |French institutions                                                                   |     5753|
-|University of Zurich                                                                  |     5427|
+|University of Zurich                                                                  |     5473|
 |ETH Zurich                                                                            |     5383|
 |TU Muenchen                                                                           |     5041|
 |University of Helsinki                                                                |     4984|
 |FWF - Austrian Science Fund                                                           |     3469|
-|University of Bern                                                                    |     3181|
+|University of Bern                                                                    |     3218|
 |University College Dublin                                                             |     3091|
+|University of Geneva                                                                  |     3013|
 |Muenchen LMU                                                                          |     2998|
-|University of Geneva                                                                  |     2972|
 |Milano U                                                                              |     2801|
-|University of Lausanne                                                                |     2687|
-|University of Basel                                                                   |     2587|
+|University of Lausanne                                                                |     2714|
+|University of Basel                                                                   |     2618|
 |Charité - Universitätsmedizin Berlin                                                  |     2526|
 |Aalto University                                                                      |     2521|
 |Tampere University                                                                    |     2444|
