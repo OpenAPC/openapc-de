@@ -306,7 +306,7 @@ JOURNAL_OWNER_CHANGED = {
     "1367-5435": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology
     "1476-5535": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Industrial Microbiology and Biotechnology (electronic)
     "2192-1962": ["Springer Nature", "KIPS-CSWRG"], # Human-Centric Computing and Information Sciences
-    "2523-3548": ["Springer Nature", "Wiley-Blackwell"], # Cancer Communications
+    "2523-3548": ["Springer Nature", "Wiley-Blackwell", "American Association for the Advancement of Science (AAAS)"], # Cancer Communications
     "0045-5091": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Canadian Journal of Philosophy
     "1911-0820": ["Informa UK Limited", "Cambridge University Press (CUP)"], # Canadian Journal of Philosophy (electronic)
     "0391-3988": ["Wichtig Publishing, SRL", "SAGE Publications"], # The International Journal of Artificial Organs
@@ -683,6 +683,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1724-6059": ["Springer Nature", "Oxford University Press (OUP)"], # Journal of Nephrology (electronic)
 	"2001-0370": ["Elsevier BV", "American Association for the Advancement of Science (AAAS)"], # Computational and Structural Biotechnology Journal
 	"2274-5807": ["Springer Nature", "Elsevier BV"], # The Journal of Prevention of Alzheimer's Disease
+	"2426-0266": ["Springer Nature", "Elsevier BV"], # The Journal of Prevention of Alzheimer's Disease (electronic)
 	"2688-4844": ["Mary Ann Liebert Inc", "SAGE Publications"], # Women's Health Reports
 	"1055-4181": ["IOS Press", "SAGE Publications"], # Technology and Disability 
 	"1878-643X": ["IOS Press", "SAGE Publications"], # Technology and Disability (electronic)
@@ -693,6 +694,11 @@ JOURNAL_OWNER_CHANGED = {
 	"2694-5746": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # Stroke: Vascular and Interventional Neurology 
 	"2041-9031": ["WITPRESS LTD.", "International Information and Engineering Technology Association"], # International Journal of Safety and Security Engineering 
 	"2041-904X": ["WITPRESS LTD.", "International Information and Engineering Technology Association"], # International Journal of Safety and Security Engineering (electronic)
+	"0934-5043": ["Springer Nature", "Association for Computing Machinery (ACM)"], # Formal Aspects of Computing 
+	"1433-299X": ["Springer Nature", "Association for Computing Machinery (ACM)"], # Formal Aspects of Computing (electronic)
+	"0034-673X": ["Springer Nature", "SAGE Publications"], # Review of Religious Research 
+	"2211-4866": ["Springer Nature", "SAGE Publications"], # Review of Religious Research (electronic)
+	"1878-7479": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Neurotherapeutics
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
