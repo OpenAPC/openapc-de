@@ -722,9 +722,11 @@ def check_ta_data(row_object):
         if group_id not in group_id_publisher_dict:
             group_id_publisher_dict[group_id] = publisher
         elif group_id_publisher_dict[group_id] != publisher:
-            msg = 'publisher mismatch found for group_id "{}": {} <> {} [{}]'
-            ret = line_str + msg.format(group_id, publisher, group_id_publisher_dict[group_id], doi)
-            fail(ret)
+            issn = row["issn"]
+            if not wl.in_whitelist(issn, publisher, group_id_publisher_dict[group_id]):
+                msg = 'publisher mismatch found for group_id "{}": {} <> {} [{}]'
+                ret = line_str + msg.format(group_id, publisher, group_id_publisher_dict[group_id], doi)
+                fail(ret)
         contract_rows = group_id_dict[group_id]
         for row_object in contract_rows:
             contract_name = row_object.row["contract_name"]
