@@ -700,6 +700,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2211-4866": ["Springer Nature", "SAGE Publications"], # Review of Religious Research (electronic)
 	"1878-7479": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Neurotherapeutics
 	"2691-171X": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # JPGN Reports
+	"0304-4130": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # European Journal of Political Research 
+	"1475-6765": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # European Journal of Political Research (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1227,6 +1229,28 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0018-3830", # Holzforschung, Gold OA since 2025
     "1611-4663", # Journal of Wood Science, Gold OA since 2019
     "1438-2199", # Amino Acids, Gold OA since 2024
+    "0143-814X", # Journal of Public Policy, Gold OA since 2025
+    "2052-2630", # Journal of Experimental Political Science, Gold OA since 2024
+    "0010-4175", # Comparative Studies in Society and History, Gold OA since 2026
+    "0960-7773", # Contemporary European History, Gold OA since 2026
+    "1474-7456", # World Trade Review, Gold OA since 2026
+    "1752-9719", # International Theory, Gold OA since 2024
+    "0730-9384", # Politics and the Life Sciences, Gold OA since 2026
+    "2326-3768", # Advances in Archaeological Practice, Gold OA since 2025
+    "0142-7164", # Applied Psycholinguistics, Gold OA since 2025
+    "0968-5650", # Financial History Review, Gold OA since 2025
+    "0304-4130", # European Journal of Political Research, Gold OA since 2026
+    "0142-7164", # Applied Psycholinguistics, Gold OA since 2025
+    "1366-7289", # Bilingualism: Language and Cognition, Gold OA since 2025
+    "0017-257X", # Government and Opposition, Gold OA since 2025
+    "0165-1153", # Itinerario, Gold OA since 2025
+    "0021-0889", # Iraq, Gold OA since 2025
+    "1748-4995", # Annals of Actuarial Science, Gold OA since 2025
+    "0045-5091", # Canadian Journal of Philosophy, Gold OA since 2026
+    "0272-2631", # Studies in Second Language Acquisition, Gold OA since 2026
+    "1470-5427", # Journal of Germanic Linguistics, Gold OA since 2026
+    "1474-7472", # Journal of Pension Economics and Finance, Gold OA since 07/2025
+    "0025-1003", # Journal of the International Phonetic Association, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
