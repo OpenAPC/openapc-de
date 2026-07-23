@@ -702,6 +702,13 @@ JOURNAL_OWNER_CHANGED = {
 	"2691-171X": ["Ovid Technologies (Wolters Kluwer Health)", "Wiley-Blackwell"], # JPGN Reports
 	"0304-4130": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # European Journal of Political Research 
 	"1475-6765": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # European Journal of Political Research (electronic)
+	"2192-8614": ["Walter de Gruyter GmbH", "Wiley-Blackwell"], # Nanophotonics 
+	"0950-5423": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Food Science and Technology 
+	"1365-2621": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # International Journal of Food Science and Technology (electronic)
+	"1478-4637": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the Institution of Civil Engineers - Bridge Engineering 
+	"1751-7664": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the Institution of Civil Engineers - Bridge Engineering (electronic)
+	"1465-8011": ["Informa UK Limited", "SAGE Publications"], # Plastics, Rubber and Composites: Macromolecular Engineering 
+	"1743-2898": ["Informa UK Limited", "SAGE Publications"], # Plastics, Rubber and Composites: Macromolecular Engineering (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1251,6 +1258,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1470-5427", # Journal of Germanic Linguistics, Gold OA since 2026
     "1474-7472", # Journal of Pension Economics and Finance, Gold OA since 07/2025
     "0025-1003", # Journal of the International Phonetic Association, Gold OA since 2025
+    "0950-5423", # International Journal of Food Science & Technology, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
