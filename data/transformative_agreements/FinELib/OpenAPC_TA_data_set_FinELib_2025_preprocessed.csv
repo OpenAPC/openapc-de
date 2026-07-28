@@ -1,4 +1,4 @@
-"institution","period","doi","is_hybrid","agreement","identifier"
+"institution","period","doi","is_hybrid","contract_name","agreement"
 "Aalto University",2025,"10.1002/adfm.202506820",TRUE,"FinELib Wiley agreement","wiley2025finelib"
 "Aalto University",2025,"10.1002/adfm.202527264",TRUE,"FinELib Wiley agreement","wiley2025finelib"
 "Aalto University",2025,"10.1002/adma.202413058",TRUE,"FinELib Wiley agreement","wiley2025finelib"
