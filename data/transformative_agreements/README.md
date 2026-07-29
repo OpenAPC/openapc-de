@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 209,649 articles, published at 572 institutions under 274 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 216,081 articles, published at 572 institutions under 281 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -34,6 +34,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
+|Elsevier (FinELib) 2024-2025                                                                                                                     |     4001|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
 |Wiley (DEAL) 2024-2028                                                                                                                           |     3776|
 |Springer Compact (Bibsam) 2019-2021                                                                                                              |     3730|
@@ -51,7 +52,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Wiley (FinELib) 2023-2024                                                                                                                        |     2208|
 |Springer Compact (VSNU) 2018-2023                                                                                                                |     2041|
 |Elsevier (KEMOE) 2024-2026                                                                                                                       |     1999|
-|Elsevier (FinELib) 2024-2025                                                                                                                     |     1922|
+|Springer Nature (FinELib) 2024-2025                                                                                                              |     1848|
 |Wiley (FinELib) 2020-2022                                                                                                                        |     1640|
 |Springer Nature (KEMOE) 2024-2026                                                                                                                |     1609|
 |Springer Nature (CRUI-CARE) 2020-2024                                                                                                            |     1535|
@@ -61,6 +62,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Taylor & Francis (FinELib) 2023-2024                                                                                                             |     1205|
 |Taylor & Francis (CSAL) 2021-2023                                                                                                                |     1148|
 |Wiley (CRUE-CSIC Alliance) 2022-2024                                                                                                             |     1109|
+|Wiley (FinELib consortium) 2025-2026                                                                                                             |     1046|
 |Taylor & Francis (FinELib) 2020-2022                                                                                                             |     1041|
 |Sage (CSAL) 2023-2025                                                                                                                            |     1038|
 |Taylor & Francis (IReL) 2021-2023                                                                                                                |     1006|
@@ -68,9 +70,10 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |IEEE (FinELib) 2021-2023                                                                                                                         |      933|
 |Wiley (KEMOE/FWF) 2018-2020                                                                                                                      |      928|
 |Wiley (IReL) 2025-2028                                                                                                                           |      916|
-|Springer Nature (FinELib) 2024-2025                                                                                                              |      906|
 |Wiley (CRUI-CARE) 2020-2023                                                                                                                      |      780|
 |Taylor & Francis (IReL) 2024-2026                                                                                                                |      754|
+|IEEE (FinELib) 2024-2025                                                                                                                         |      739|
+|Taylor & Francis (FinELib consortium) 2025-2026                                                                                                  |      716|
 |Sage (FinELib) 2023-2024                                                                                                                         |      707|
 |Cambridge University Press (IReL) 2021-2025                                                                                                      |      652|
 |Oxford University Press (CSAL) 2023-2024                                                                                                         |      642|
@@ -90,6 +93,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |IEEE (IReL) 2024-2026                                                                                                                            |      507|
 |Taylor & Francis (ZBW) 2024-2026                                                                                                                 |      505|
 |Elsevier (KEMOE/FWF) 2021-2023                                                                                                                   |      498|
+|Sage (FinELib consortium) 2025-2026                                                                                                              |      477|
 |Elsevier (IReL) 2026-2028                                                                                                                        |      451|
 |American Chemical Society (KEMOE) 2020-2022                                                                                                      |      444|
 |Taylor & Francis (KEMOE/FWF) 2017-2019                                                                                                           |      439|
@@ -102,20 +106,22 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |IEEE (IReL) 2021-2023                                                                                                                            |      409|
 |Oxford University Press (CSIC) 2020-2024                                                                                                         |      403|
 |Oxford University Press (IReL) 2021-2023                                                                                                         |      395|
+|Oxford University Press (FinELib) 2024-2025                                                                                                      |      388|
 |Springer Compact (KEMOE/FWF) 2019-2021                                                                                                           |      372|
 |Royal Society of Chemistry (CSAL) 2021-2023                                                                                                      |      364|
 |Wolters Kluwer Health (CSAL) 2022-2024                                                                                                           |      338|
 |Oxford University Press (IReL) 2024-2026                                                                                                         |      336|
-|IEEE (FinELib) 2024-2025                                                                                                                         |      324|
 |American Chemical Society (CSAL) 2023-2025                                                                                                       |      318|
 |RSC (TIB) 2024-2027                                                                                                                              |      311|
 |Wiley (CRUI-CARE) 2024-2027                                                                                                                      |      294|
 |AIP Publishing (CSAL) 2022-2024                                                                                                                  |      287|
 |Royal Society of Chemistry (CSAL) 2024-2026                                                                                                      |      283|
+|Royal Society of Chemistry (FinELib) 2024-2025                                                                                                   |      258|
 |Royal Society of Chemistry (MPDL) 2017-2018                                                                                                      |      246|
 |Oxford University Press (KEMOE) 2023-2027                                                                                                        |      243|
 |Sage (BSB) 2024-2025                                                                                                                             |      241|
 |Wiley (CzechELib) 2023-2026                                                                                                                      |      231|
+|Cambridge University Press (FinELib) 2024-2025                                                                                                   |      225|
 |ACS (KEMOE) 2024-2026                                                                                                                            |      221|
 |Taylor & Francis (KEMOE) 2020-2023                                                                                                               |      217|
 |American Chemical Society (CRUI-CARE) 2020-2023                                                                                                  |      207|
@@ -123,7 +129,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Royal Society of Chemistry (CSIC) 2019-2020                                                                                                      |      200|
 |Springer Nature (CzechELib) 2023-2025                                                                                                            |      200|
 |CUP (BSB) 2022-2024                                                                                                                              |      199|
-|Oxford University Press (FinELib) 2024-2025                                                                                                      |      198|
 |Wiley (CRUE-CSIC Alliance) 2021-2021                                                                                                             |      198|
 |Elsevier (QNL) 2020-2022                                                                                                                         |      194|
 |Sage (KEMOE) 2023-2026                                                                                                                           |      192|
@@ -137,11 +142,12 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Karger (CSAL) 2023-2025                                                                                                                          |      164|
 |Nature (CSAL) 2023-2025                                                                                                                          |      164|
 |IOP (TIB) 2022-2025                                                                                                                              |      157|
+|Wolters Kluwer Health (FinELib) 2024-2026                                                                                                        |      156|
+|Emerald (FinELib consortium) 2025-2026                                                                                                           |      151|
 |IEEE (CRUI-CARE) 2022-2024                                                                                                                       |      151|
 |Royal Society of Chemistry (CSIC) 2023-2025                                                                                                      |      150|
 |Royal Society of Chemistry (KEMOE/FWF) 2021-2024                                                                                                 |      146|
 |Emerald (FinELib) 2024                                                                                                                           |      140|
-|Royal Society of Chemistry (FinELib) 2024-2025                                                                                                   |      134|
 |Royal Society of Chemistry (CSAL) 2019-2020                                                                                                      |      133|
 |IEEE (CSAL) 2021-2024                                                                                                                            |      131|
 |Royal Society of Chemistry (KEMOE) 2017-2018                                                                                                     |      127|
@@ -162,8 +168,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |IOP Publishing (KEMOE/FWF) 2017-2019                                                                                                             |       91|
 |Walter de Gruyter (CRUI-CARE) 2020-2022                                                                                                          |       91|
 |AIP (TIB) 2024-2026                                                                                                                              |       90|
-|Wolters Kluwer Health (FinELib) 2024-2026                                                                                                        |       86|
-|Cambridge University Press (FinELib) 2024-2025                                                                                                   |       85|
 |Taylor & Francis (CzechELib) 2023-2025                                                                                                           |       85|
 |Cambridge University Press (CRUI-CARE) 2020-2022                                                                                                 |       83|
 |Royal Society of Chemistry (CRUI-CARE) 2022-2024                                                                                                 |       82|
@@ -203,6 +207,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Emerald (KEMOE) 2023-2025                                                                                                                        |       45|
 |Cambridge University Press (CSIC) 2023-2025                                                                                                      |       44|
 |Cambridge University Press (CzechELib) 2023-2025                                                                                                 |       43|
+|Association for Computing Machinery (FinELib consortium) 2025-2027                                                                               |       42|
 |Microbiology Society (IReL) 2024-2026                                                                                                            |       42|
 |BMJ Publishing (IReL) 2024-2026                                                                                                                  |       41|
 |BMJ (BSB) 2023-2024                                                                                                                              |       40|
@@ -229,6 +234,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Brill (CSIC) 2023-2024                                                                                                                           |       23|
 |Emerald (KEMOE) 2017-2019                                                                                                                        |       23|
 |Karger (CzechELib) 2023-2027                                                                                                                     |       23|
+|Springer Nature (FinELib consortium) 2025-2026                                                                                                   |       22|
 |The Royal Society (CSIC) 2024-2024                                                                                                               |       22|
 |Royal Irish Academy (IReL) 2024-2026                                                                                                             |       21|
 |ACS (BSB) 2023-2024                                                                                                                              |       20|
@@ -237,6 +243,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Sage (CSIC) 2024-2025                                                                                                                            |       19|
 |The Royal Society (CSIC) 2023-2023                                                                                                               |       19|
 |CzechELib SAGE agreement                                                                                                                         |       18|
+|FinELib MJS agreement                                                                                                                            |       18|
 |Sage (KEMOE) 2019-2022                                                                                                                           |       17|
 |AIP Publishing (CzechELib) 2023-2025                                                                                                             |       16|
 |Sage (KEMOE) 2016-2018                                                                                                                           |       16|
@@ -308,43 +315,43 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Institution                                                                           | Articles|
 |:-------------------------------------------------------------------------------------|--------:|
 |Consejo Superior de Investigaciones Cientificas (CSIC)                                |     6859|
+|University of Helsinki                                                                |     6455|
 |French institutions                                                                   |     5753|
 |University of Zurich                                                                  |     5529|
 |ETH Zurich                                                                            |     5426|
 |TU Muenchen                                                                           |     5041|
-|University of Helsinki                                                                |     4984|
 |FWF - Austrian Science Fund                                                           |     3469|
 |University of Bern                                                                    |     3242|
+|Tampere University                                                                    |     3199|
+|Aalto University                                                                      |     3181|
 |University College Dublin                                                             |     3091|
 |University of Geneva                                                                  |     3034|
 |Muenchen LMU                                                                          |     2998|
+|University of Oulu                                                                    |     2993|
+|University of Turku                                                                   |     2930|
 |Milano U                                                                              |     2801|
 |University of Lausanne                                                                |     2735|
 |University of Basel                                                                   |     2634|
 |Charité - Universitätsmedizin Berlin                                                  |     2526|
-|Aalto University                                                                      |     2521|
-|Tampere University                                                                    |     2444|
 |Heidelberg U                                                                          |     2435|
 |Tuebingen U                                                                           |     2381|
 |Friedrich-Schiller-Universität Jena                                                   |     2350|
+|University of Eastern Finland                                                         |     2346|
 |Bonn U                                                                                |     2286|
-|University of Turku                                                                   |     2283|
 |Trinity College Dublin                                                                |     2280|
 |École Polytechnique Fédérale de Lausanne                                              |     2276|
-|University of Oulu                                                                    |     2261|
 |University of Padua                                                                   |     2148|
 |KIT                                                                                   |     2125|
 |Erlangen Nuernberg U                                                                  |     2098|
 |Wuerzburg U                                                                           |     2018|
+|University of Jyväskylä                                                               |     1969|
 |TU Dresden                                                                            |     1948|
 |University College Cork                                                               |     1873|
 |Goettingen U                                                                          |     1848|
 |Freiburg U                                                                            |     1828|
-|University of Eastern Finland                                                         |     1786|
 |TU Berlin                                                                             |     1718|
 |Frankfurt U                                                                           |     1716|
 |HHU Düsseldorf                                                                        |     1564|
-|University of Jyväskylä                                                               |     1556|
 |University of Vienna                                                                  |     1462|
 |Medical University of Vienna                                                          |     1456|
 |University of Galway                                                                  |     1376|
@@ -352,6 +359,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |TU Darmstadt                                                                          |     1245|
 |University of Limerick                                                                |     1224|
 |Lund University                                                                       |     1177|
+|Lappeenranta-Lahti University of Technology LUT                                       |     1175|
 |Bielefeld U                                                                           |     1169|
 |University of Toronto                                                                 |     1150|
 |JGU Mainz                                                                             |     1124|
@@ -368,8 +376,8 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |University of Oxford                                                                  |      883|
 |TU Wien                                                                               |      879|
 |Koeln U                                                                               |      873|
-|Lappeenranta-Lahti University of Technology LUT                                       |      871|
 |Uppsala University                                                                    |      869|
+|Åbo Akademi University                                                                |      864|
 |Empa - Swiss Federal Laboratories for Materials Science and Technology                |      825|
 |University of Gothenburg                                                              |      820|
 |Charles University                                                                    |      819|
@@ -387,7 +395,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Maynooth University                                                                   |      682|
 |Royal College of Surgeons in Ireland                                                  |      674|
 |HU Berlin                                                                             |      664|
-|Åbo Akademi University                                                                |      663|
 |King's College London                                                                 |      652|
 |Hannover U und TIB                                                                    |      646|
 |RWTH Aachen                                                                           |      640|
@@ -396,6 +403,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |University of Natural Resources and Life Sciences Vienna (BOKU)                       |      607|
 |Marburg U                                                                             |      602|
 |KTH Royal Institute of Technology                                                     |      590|
+|Natural Resources Institute Finland                                                   |      590|
 |TU Bergakademie Freiberg                                                              |      585|
 |University of Manchester                                                              |      585|
 |University of Graz                                                                    |      580|
@@ -403,6 +411,8 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Saarland U                                                                            |      567|
 |TU Chemnitz                                                                           |      561|
 |Stockholm University                                                                  |      559|
+|VTT Technical Research Centre of Finland Ltd                                          |      557|
+|University of Vaasa                                                                   |      552|
 |Graz University of Technology                                                         |      545|
 |University of Amsterdam                                                               |      542|
 |Rostock U                                                                             |      534|
@@ -425,13 +435,10 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Erasmus MC                                                                            |      453|
 |McGill University                                                                     |      449|
 |Academic Medical Center (AMC)                                                         |      447|
-|Natural Resources Institute Finland                                                   |      437|
 |University of Innsbruck and Medical University of Innsbruck                           |      436|
 |University of Alberta                                                                 |      435|
 |University of St.Gallen                                                               |      432|
-|University of Vaasa                                                                   |      431|
 |University of Leeds                                                                   |      428|
-|VTT Technical Research Centre of Finland Ltd                                          |      427|
 |VU University Amsterdam                                                               |      426|
 |University of Neuchatel                                                               |      421|
 |University of Applied Sciences and Arts Western Switzerland                           |      412|
@@ -483,12 +490,13 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |York University                                                                       |      261|
 |Université de Montréal                                                                |      260|
 |Graduate Institute of International and Development Studies                           |      257|
+|Finnish Institute for Health and Welfare                                              |      253|
 |Augsburg U                                                                            |      246|
+|Finnish Environment Institute                                                         |      241|
 |University of Debrecen                                                                |      236|
 |Dalhousie University                                                                  |      233|
 |Paracelsus Medical University                                                         |      232|
 |University of Reading                                                                 |      226|
-|Finnish Institute for Health and Welfare                                              |      225|
 |Bern University of Applied Sciences                                                   |      220|
 |Mannheim U                                                                            |      220|
 |TU Ilmenau                                                                            |      219|
@@ -507,12 +515,13 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Örebro University                                                                     |      200|
 |University of Bath                                                                    |      199|
 |Alfred-Wegener-Institut                                                               |      198|
+|Hanken School of Economics                                                            |      198|
 |MLU Halle-Wittenberg                                                                  |      196|
 |Oldenburg U                                                                           |      192|
 |Queen Mary, University of London                                                      |      192|
-|Finnish Environment Institute                                                         |      190|
 |Maastricht University Medical Center (UMC+)                                           |      189|
 |Trier U                                                                               |      184|
+|University of Lapland                                                                 |      184|
 |University of Applied Sciences and Arts of Southern Switzerland                       |      178|
 |University Hospital of Bern                                                           |      177|
 |University of Durham                                                                  |      175|
@@ -526,7 +535,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |LSE                                                                                   |      166|
 |PIK-Potsdam                                                                           |      166|
 |University of East Anglia                                                             |      164|
-|Hanken School of Economics                                                            |      163|
 |Universität Luzern                                                                    |      161|
 |Lancaster University                                                                  |      155|
 |Nottingham Trent University                                                           |      154|
@@ -545,7 +553,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Toronto Metropolitan University                                                       |      137|
 |University of Klagenfurt                                                              |      136|
 |University of Victoria                                                                |      135|
-|University of Lapland                                                                 |      133|
 |University of Guelph                                                                  |      132|
 |University of Kent                                                                    |      125|
 |Brunel University                                                                     |      124|
@@ -565,11 +572,13 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Hochschule Luzern                                                                     |      100|
 |Heriot-Watt University                                                                |       98|
 |Fraunhofer-Gesellschaft Publishing Fund                                               |       96|
+|Geological Survey of Finland                                                          |       95|
 |Leibniz-IGB                                                                           |       94|
 |Malmö University                                                                      |       93|
 |Mary Immaculate College                                                               |       92|
 |Université de Sherbrooke                                                              |       91|
 |Central European University                                                           |       88|
+|Finnish Institute of Occupational Health                                              |       88|
 |Royal Holloway                                                                        |       87|
 |Bauhaus-Universität Weimar                                                            |       86|
 |City University London                                                                |       86|
@@ -591,7 +600,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |University of Ulster                                                                  |       72|
 |Bournemouth University                                                                |       71|
 |Forschungsinstitut für biologischen Landbau FiBL                                      |       71|
-|Geological Survey of Finland                                                          |       68|
 |Universität Erfurt                                                                    |       68|
 |Mid Sweden University                                                                 |       67|
 |University of Stirling                                                                |       66|
@@ -599,7 +607,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Wilfrid Laurier University                                                            |       65|
 |Manchester Metropolitan University                                                    |       64|
 |Aachen FH                                                                             |       63|
-|Finnish Institute of Occupational Health                                              |       63|
 |Hertie School                                                                         |       61|
 |Leuphana University of Lüneburg                                                       |       61|
 |The Open University                                                                   |       60|
@@ -623,6 +630,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |HS Bielefeld                                                                          |       46|
 |MDC                                                                                   |       46|
 |Magdeburg U                                                                           |       45|
+|National Land Survey of Finland                                                       |       45|
 |University of Gävle                                                                   |       45|
 |Natural History Museum                                                                |       44|
 |Swiss Ornithological Institute                                                        |       44|
@@ -647,7 +655,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Österreichische Akademie der Wissenschaften                                           |       37|
 |Robert Gordon University                                                              |       36|
 |University of Liechtenstein                                                           |       36|
-|National Land Survey of Finland                                                       |       35|
 |Netherlands Institute of Ecology                                                      |       35|
 |Pädagogische Hochschule Zürich                                                        |       35|
 |DIfE                                                                                  |       34|
@@ -660,6 +667,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Leibniz-IZW                                                                           |       33|
 |HafenCity Universität Hamburg                                                         |       32|
 |University of Central Lancashire                                                      |       32|
+|Finnish Meteorological Institute                                                      |       31|
 |Leibniz-BIPS                                                                          |       31|
 |Leibniz-ZALF                                                                          |       31|
 |University of Education Freiburg                                                      |       31|
@@ -668,15 +676,16 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |University of Skövde                                                                  |       30|
 |Goldsmiths                                                                            |       29|
 |University of Derby                                                                   |       29|
-|Finnish Meteorological Institute                                                      |       28|
 |GIGA                                                                                  |       28|
 |Halmstad University                                                                   |       28|
 |Trent University                                                                      |       28|
+|Turku University of Applied Sciences                                                  |       28|
 |Kristianstad University                                                               |       27|
 |Lakehead University                                                                   |       27|
 |Mount Royal University                                                                |       27|
 |Open University of The Netherlands                                                    |       27|
 |Fachhochschule Südwestfalen                                                           |       26|
+|Häme University of Applied Sciences                                                   |       26|
 |MacEwan University                                                                    |       26|
 |Université du Québec à Trois-Rivières                                                 |       26|
 |Athabasca University                                                                  |       25|
@@ -688,11 +697,11 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Mount Saint Vincent University                                                        |       24|
 |St. Francis Xavier University                                                         |       24|
 |Swiss Federal University for Vocational Education and Training                        |       23|
-|Turku University of Applied Sciences                                                  |       23|
 |University of Education Schwaebisch Gmuend                                            |       23|
 |Dalarna University                                                                    |       22|
 |Dundalk Institute of Technology                                                       |       22|
 |Hochschule Aalen                                                                      |       22|
+|Metropolia University of Applied Sciences                                             |       22|
 |Sigmund Freud Privatuniversität Wien                                                  |       22|
 |Bremen U                                                                              |       21|
 |Royal Roads University                                                                |       21|
@@ -701,22 +710,21 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |INM - Leibniz-Institut für Neue Materialien                                           |       20|
 |Institute for Advanced Studies Vienna                                                 |       20|
 |London South Bank University                                                          |       20|
+|South-Eastern Finland University of Applied Sciences (Xamk)                           |       20|
 |St.Gallen University of Teacher Education                                             |       20|
 |Stockholm School of Economics                                                         |       20|
 |Cardiff Metropolitan University                                                       |       19|
-|Häme University of Applied Sciences                                                   |       19|
 |Pädagogische Hochschule Bern                                                          |       19|
-|South-Eastern Finland University of Applied Sciences (Xamk)                           |       19|
 |University of Winnipeg                                                                |       19|
 |Westerdijk Fungal Biodiversity Center (CBS)                                           |       19|
 |FH St. Pölten - University of Applied Sciences                                        |       18|
+|Laurea University of Applied Sciences                                                 |       18|
 |Swedish Defence Research Agency                                                       |       18|
 |Swedish National Road and Transport Research Institute (VTI)                          |       18|
 |University of Bedfordshire                                                            |       18|
 |University of Northern British Columbia                                               |       18|
 |Edinburgh Napier University                                                           |       17|
 |FH Salzburg - University of Applied Sciences                                          |       17|
-|Laurea University of Applied Sciences                                                 |       17|
 |MHB Fontane                                                                           |       17|
 |Paul-Drude-Institut für Festkörperelektronik                                          |       17|
 |Research Institute of Molecular Pathology - IMP                                       |       17|
@@ -725,13 +733,15 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Nipissing University                                                                  |       16|
 |Saint Mary's University                                                               |       16|
 |Université de Moncton                                                                 |       16|
+|Arcada University of Applied Sciences                                                 |       15|
 |HS Düsseldorf                                                                         |       15|
 |Haute École Pédagogique du Canton de Vaud                                             |       15|
-|Metropolia University of Applied Sciences                                             |       15|
 |TH Köln                                                                               |       15|
 |ASH Berlin                                                                            |       14|
+|Finnish Food Authority                                                                |       14|
 |HS Anhalt                                                                             |       14|
 |HS RheinMain                                                                          |       14|
+|Haaga-Helia University of Applied Sciences                                            |       14|
 |Birmingham City University                                                            |       13|
 |HS Neubrandenburg                                                                     |       13|
 |HTWG Konstanz                                                                         |       13|
@@ -742,7 +752,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Dublin Institute for Advanced Studies                                                 |       12|
 |FH Joanneum - University of Applied Sciences                                          |       12|
 |Fulda University of Applied Sciences                                                  |       12|
-|Haaga-Helia University of Applied Sciences                                            |       12|
 |Regensburg University of Applied Sciences                                             |       12|
 |Toronto Rehabilitation Institute                                                      |       12|
 |University of Applied Sciences of the Grisons                                         |       12|
@@ -751,8 +760,8 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Swedish School of Sport and Health Sciences                                           |       11|
 |University of Chester                                                                 |       11|
 |University of the Highlands and Islands                                               |       11|
+|VATT Institute for Economic Research                                                  |       11|
 |Acadia University                                                                     |       10|
-|Arcada University of Applied Sciences                                                 |       10|
 |Joanneum Research                                                                     |       10|
 |Management Center Innsbruck                                                           |       10|
 |Modul University Vienna (MUVIENNA)                                                    |       10|
@@ -767,13 +776,14 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Brandon University                                                                    |        9|
 |FH Campus Wien - University of Applied Sciences                                       |        9|
 |FH Vorarlberg - University of Applied Sciences                                        |        9|
+|LAB University of Applied Sciences                                                    |        9|
 |Laurentian University                                                                 |        9|
 |Social Insurance Institution of Finland                                               |        9|
+|Tampere University of Applied Sciences                                                |        9|
 |Université du Québec à Rimouski                                                       |        9|
-|VATT Institute for Economic Research                                                  |        9|
 |Zurich University of the Arts                                                         |        9|
-|Finnish Food Authority                                                                |        8|
 |HS Reutlingen                                                                         |        8|
+|JAMK University of Applied Sciences                                                   |        8|
 |Leibniz-IDS                                                                           |        8|
 |Leibniz-IÖR                                                                           |        8|
 |Medicines for Malaria Venture                                                         |        8|
@@ -788,6 +798,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Anglia Ruskin University                                                              |        7|
 |Danube Private University                                                             |        7|
 |Queen Margaret University                                                             |        7|
+|Seinäjoki University of Applied Sciences                                              |        7|
 |TH Brandenburg                                                                        |        7|
 |Toronto General Hospital                                                              |        7|
 |University of Teacher Education in Special Needs                                      |        7|
@@ -801,24 +812,22 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Kiel Institute for the World Economy                                                  |        6|
 |Netherlands Institute for Neuroscience                                                |        6|
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                            |        6|
-|Seinäjoki University of Applied Sciences                                              |        6|
-|Tampere University of Applied Sciences                                                |        6|
 |University of Roehampton                                                              |        6|
 |University of Teacher Education Zug                                                   |        6|
 |Österreichisches Institut für Wirtschaftsforschung                                    |        6|
 |HTW Dresden                                                                           |        5|
 |IMC University of Applied Sciences Krems                                              |        5|
-|JAMK University of Applied Sciences                                                   |        5|
 |Kwantlen Polytechnic University                                                       |        5|
-|LAB University of Applied Sciences                                                    |        5|
 |Pädagogische Hochschule Thurgau                                                       |        5|
 |SWP - German Institute for International and Security Affairs                         |        5|
 |University Psychiatric Services Bern                                                  |        5|
 |University of Worcester                                                               |        5|
 |École Nationale d'Administration Publique                                             |        5|
+|European Chemicals Agency                                                             |        4|
 |Institute of Art, Design + Technology                                                 |        4|
 |Mount Sinai Hospital                                                                  |        4|
 |Novia University of Applied Sciences                                                  |        4|
+|Oulu University of Applied Sciences                                                   |        4|
 |Potsdam FH                                                                            |        4|
 |University of Applied Sciences Burgenland                                             |        4|
 |University of Applied Sciences in Business Administration Zurich                      |        4|
@@ -831,11 +840,13 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Medical Products Agency                                                               |        3|
 |OCAD University                                                                       |        3|
 |Public Health Agency of Sweden                                                        |        3|
+|SAMK Satakunta University of Applied Sciences                                         |        3|
 |Schwyz University of Teacher Education                                                |        3|
 |Trillium Health Partners                                                              |        3|
 |University of Applied Sciences Mainz                                                  |        3|
 |Vancouver Island University                                                           |        3|
-|European Chemicals Agency                                                             |        2|
+|Centria University of Applied Sciences                                                |        2|
+|Diaconia University of Applied Sciences                                               |        2|
 |Finnish Defence Research Agency                                                       |        2|
 |HS Kaiserslautern                                                                     |        2|
 |Haute École Pédagogique Fribourg                                                      |        2|
@@ -845,7 +856,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Lapin ammattikorkeakoulu (fi)                                                         |        2|
 |Marie Cederschiöld University                                                         |        2|
 |Meertens Institute                                                                    |        2|
-|Oulu University of Applied Sciences                                                   |        2|
 |Passau U                                                                              |        2|
 |Princess Margaret Cancer Centre                                                       |        2|
 |Pädagogische Hochschule Graubünden                                                    |        2|
@@ -859,9 +869,7 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Balsillie School of International Affairs                                             |        1|
 |Bishop's University                                                                   |        1|
 |Canadian Research Knowledge Network                                                   |        1|
-|Centria University of Applied Sciences                                                |        1|
 |City of Helsinki                                                                      |        1|
-|Diaconia University of Applied Sciences                                               |        1|
 |FHWien der WKW (FHW)                                                                  |        1|
 |Ferdinand Porsche FernFH                                                              |        1|
 |Finnish Medicines Agency                                                              |        1|
@@ -871,7 +879,6 @@ This dataset contains information on 209,649 articles, published at 572 institut
 |Netherlands Institute for Advanced Study in the Humanities and Social Sciences (NIAS) |        1|
 |Northern Ontario School of Medicine University                                        |        1|
 |Royal Netherlands Academy of Arts and Sciences Bureau (KNAW Bureau)                   |        1|
-|SAMK Satakunta University of Applied Sciences                                         |        1|
 |Swiss Distance University Institute                                                   |        1|
 |The National Defence University                                                       |        1|
 |The Swedish Environmental Protection Agency                                           |        1|
