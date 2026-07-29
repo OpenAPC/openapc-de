@@ -529,7 +529,7 @@ JOURNAL_OWNER_CHANGED = {
 	"0284-186X": ["Informa UK Limited", "MJS Publishing, Medical Journals Sweden AB"], # Acta Oncologica (linking)
 	"1651-2057": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Acta Dermato Venereologica 
 	"0001-5555": ["Acta Dermato-Venereologica", "MJS Publishing, Medical Journals Sweden AB"], # Acta Dermato Venereologica (print)
-	"1048-891X": ["Ovid Technologies (Wolters Kluwer Health)", "BMJ"], # International Journal of Gynecological Cancer
+	"1048-891X": ["Ovid Technologies (Wolters Kluwer Health)", "BMJ", "Elsevier BV"], # International Journal of Gynecological Cancer
 	"0736-6205": ["Future Science, LTD", "Informa UK Limited"], # BioTechniques 
 	"1940-9818": ["Future Science, LTD", "Informa UK Limited"], # BioTechniques (electronic)
 	"2161-2234": ["Wiley-Blackwell", "Philosophy Documentation Center"], # Thought: A Journal of Philosophy 
@@ -709,6 +709,16 @@ JOURNAL_OWNER_CHANGED = {
 	"1751-7664": ["Thomas Telford Ltd.", "Emerald"], # Proceedings of the Institution of Civil Engineers - Bridge Engineering (electronic)
 	"1465-8011": ["Informa UK Limited", "SAGE Publications"], # Plastics, Rubber and Composites: Macromolecular Engineering 
 	"1743-2898": ["Informa UK Limited", "SAGE Publications"], # Plastics, Rubber and Composites: Macromolecular Engineering (electronic)
+	"0015-749X": ["Oxford University Press (OUP)", "Springer Nature"], # Forest Science 
+	"1938-3738": ["Oxford University Press (OUP)", "Springer Nature"], # Forest Science (electronic)
+	"0026-895X": ["American Society for Pharmacology & Experimental Therapeutics (ASPET)", "Elsevier BV"], # Molecular Pharmacology
+	"1750-743X": ["Future Medicine Ltd", "Informa UK Limited"], # Immunotherapy 
+	"1750-7448": ["Future Medicine Ltd", "Informa UK Limited"], # Immunotherapy (electronic)
+	"0090-9556": ["American Society for Pharmacology & Experimental Therapeutics (ASPET)", "Elsevier BV"], # Drug Metabolism and Disposition
+	"2163-2324": ["Informa UK Limited", "SAGE Publications"], # Migration and Development 
+	"2163-2332": ["Informa UK Limited", "SAGE Publications"], # Migration and Development (electronic)
+	"1460-3640": ["SAGE Publications", "Oxford University Press (OUP)"], # Security Dialogue 
+	"0967-0106": ["SAGE Publications", "Oxford University Press (OUP)"], # Security Dialogue (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1259,6 +1269,18 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1474-7472", # Journal of Pension Economics and Finance, Gold OA since 07/2025
     "0025-1003", # Journal of the International Phonetic Association, Gold OA since 2025
     "0950-5423", # International Journal of Food Science & Technology, Gold OA since 2025
+    "0926-6690", # Industrial Crops and Products, Gold OA since 2025
+    "1052-3057", # Journal of Stroke and Cerebrovascular Diseases, Gold OA since 2025
+    "0168-0102", # Neuroscience Research, Gold OA since 2024
+    "1757-7438", # Power and Education, Gold OA since 2023
+    "2194-5888", # Journal of Benefit-Cost Analysis, Gold OA since 2025
+    "0107-055X", # Nordic Journal of Botany, Gold OA since 2025
+    "1877-5756", # Sexual & Reproductive Healthcare, Gold OA since 2024
+    "2156-8588", # Nordic Social Work Research, Gold OA since 2025
+    "1904-0016", # Nordic Psychology, Gold OA since 2025
+    "1432-0584", # Annals of Hematology, Gold OA since 2025
+    "1432-0851", # Cancer Immunology, Immunotherapy, Gold OA since 2025
+    "1420-9071", # Cellular and Molecular Life Sciences, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
