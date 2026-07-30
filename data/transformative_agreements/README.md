@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 216,081 articles, published at 572 institutions under 281 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 216,103 articles, published at 572 institutions under 281 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,9 +28,9 @@ This dataset contains information on 216,081 articles, published at 572 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20665|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7115|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7125|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     4912|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     4922|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -119,7 +119,7 @@ This dataset contains information on 216,081 articles, published at 572 institut
 |Royal Society of Chemistry (FinELib) 2024-2025                                                                                                   |      258|
 |Royal Society of Chemistry (MPDL) 2017-2018                                                                                                      |      246|
 |Oxford University Press (KEMOE) 2023-2027                                                                                                        |      243|
-|Sage (BSB) 2024-2025                                                                                                                             |      241|
+|Sage (BSB) 2024-2025                                                                                                                             |      243|
 |Wiley (CzechELib) 2023-2026                                                                                                                      |      231|
 |Cambridge University Press (FinELib) 2024-2025                                                                                                   |      225|
 |ACS (KEMOE) 2024-2026                                                                                                                            |      221|
@@ -660,6 +660,7 @@ This dataset contains information on 216,081 articles, published at 572 institut
 |DIfE                                                                                  |       34|
 |Kingston University                                                                   |       34|
 |OST University of Applied Science of Eastern Switzerland                              |       34|
+|Regensburg University of Applied Sciences                                             |       34|
 |University of Borås                                                                   |       34|
 |University of Ontario Institute of Technology                                         |       34|
 |Darmstadt University of Applied Sciences                                              |       33|
@@ -752,7 +753,6 @@ This dataset contains information on 216,081 articles, published at 572 institut
 |Dublin Institute for Advanced Studies                                                 |       12|
 |FH Joanneum - University of Applied Sciences                                          |       12|
 |Fulda University of Applied Sciences                                                  |       12|
-|Regensburg University of Applied Sciences                                             |       12|
 |Toronto Rehabilitation Institute                                                      |       12|
 |University of Applied Sciences of the Grisons                                         |       12|
 |Pädagogische Hochschule Luzern                                                        |       11|
