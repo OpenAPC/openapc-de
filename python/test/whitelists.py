@@ -719,6 +719,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2163-2332": ["Informa UK Limited", "SAGE Publications"], # Migration and Development (electronic)
 	"1460-3640": ["SAGE Publications", "Oxford University Press (OUP)"], # Security Dialogue 
 	"0967-0106": ["SAGE Publications", "Oxford University Press (OUP)"], # Security Dialogue (linking)
+	"0928-7329": ["IOS Press", "SAGE Publications"], # Technology and Health Care 
+	"1878-7401": ["IOS Press", "SAGE Publications"], # Technology and Health Care (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1309,7 +1311,10 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "03e8s1d88_wiley2019deal_2022", # PIK Potsdam
     "0076zct58_wiley2019deal_2022", # HS Anhalt
     "03b9q7371_wiley2019deal_2022", # HS Neubrandenburg
-    "00ftx0026_sn2024deal_2024" # HS Düsseldorf
+    "00ftx0026_sn2024deal_2024", # HS Düsseldorf
+    "04b9vrm74_sage2021gac_2023", # OTH Regensburg
+    "04b9vrm74_sage2024gac_2024", # OTH Regensburg
+    "04b9vrm74_sn2024deal_2025", # OTH Regensburg
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
