@@ -1316,6 +1316,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "04b9vrm74_sage2024gac_2024", # OTH Regensburg
     "04b9vrm74_sn2024deal_2025", # OTH Regensburg
     "001w7jn25_sn2020deal_2023", # Charité - Universitätsmedizin Berlin
+    "04qmmjx98_sage2021gac_2023", # Osnabrück U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
