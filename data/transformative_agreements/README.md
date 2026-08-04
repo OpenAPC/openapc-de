@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 217,819 articles, published at 572 institutions under 282 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 217,822 articles, published at 572 institutions under 282 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,9 +28,9 @@ This dataset contains information on 217,819 articles, published at 572 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20675|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7821|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7822|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     5288|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     5290|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Wiley (DEAL) 2024-2028                                                                                                                           |     4138|
@@ -817,6 +817,7 @@ This dataset contains information on 217,819 articles, published at 572 institut
 |University of Roehampton                                                              |        6|
 |University of Teacher Education Zug                                                   |        6|
 |Österreichisches Institut für Wirtschaftsforschung                                    |        6|
+|HS Kaiserslautern                                                                     |        5|
 |HTW Dresden                                                                           |        5|
 |IMC University of Applied Sciences Krems                                              |        5|
 |Kwantlen Polytechnic University                                                       |        5|
@@ -850,7 +851,6 @@ This dataset contains information on 217,819 articles, published at 572 institut
 |Centria University of Applied Sciences                                                |        2|
 |Diaconia University of Applied Sciences                                               |        2|
 |Finnish Defence Research Agency                                                       |        2|
-|HS Kaiserslautern                                                                     |        2|
 |Haute École Pédagogique Fribourg                                                      |        2|
 |Hubrecht Institute for Developmental Biology and Stem Cell Research                   |        2|
 |IRS                                                                                   |        2|
