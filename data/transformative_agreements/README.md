@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 217,822 articles, published at 572 institutions under 282 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 217,827 articles, published at 573 institutions under 282 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,9 +28,9 @@ This dataset contains information on 217,822 articles, published at 572 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20675|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7822|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7823|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     5290|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     5293|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Wiley (DEAL) 2024-2028                                                                                                                           |     4138|
@@ -173,8 +173,8 @@ This dataset contains information on 217,822 articles, published at 572 institut
 |Royal Society of Chemistry (CRUI-CARE) 2022-2024                                                                                                 |       82|
 |Wolters Kluwer Health (FinELib) 2018-2022                                                                                                        |       81|
 |Springer Nature (EISZ) 2020-2022                                                                                                                 |       79|
+|Hogrefe (SUB Göttingen) 2024-2026                                                                                                                |       76|
 |IReL RIA Agreement                                                                                                                               |       76|
-|Hogrefe (SUB Göttingen) 2024-2026                                                                                                                |       75|
 |Oxford University Press (CzechELib) 2023-2025                                                                                                    |       73|
 |IOP Publishing (KEMOE) 2023-2026                                                                                                                 |       69|
 |Nature (MPDL) 2021-2024                                                                                                                          |       67|
@@ -821,6 +821,7 @@ This dataset contains information on 217,822 articles, published at 572 institut
 |HTW Dresden                                                                           |        5|
 |IMC University of Applied Sciences Krems                                              |        5|
 |Kwantlen Polytechnic University                                                       |        5|
+|Nürtingen-Geislingen University of Applied Science                                    |        5|
 |Pädagogische Hochschule Thurgau                                                       |        5|
 |SWP - German Institute for International and Security Affairs                         |        5|
 |University Psychiatric Services Bern                                                  |        5|
