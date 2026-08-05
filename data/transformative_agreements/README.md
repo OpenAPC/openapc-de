@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 217,854 articles, published at 573 institutions under 282 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 217,859 articles, published at 573 institutions under 282 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,12 +28,12 @@ This dataset contains information on 217,854 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20675|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7833|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     7835|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     5298|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     5299|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     4144|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     4145|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Elsevier (FinELib) 2024-2025                                                                                                                     |     4001|
 |Springer Compact (Jisc) 2019-2022                                                                                                                |     3876|
@@ -280,6 +280,7 @@ This dataset contains information on 217,854 articles, published at 573 institut
 |Microbiology Society (CSIC) 2024-2024                                                                                                            |        4|
 |Portland Press (CSIC) 2021-2022                                                                                                                  |        4|
 |The Electrochemical Society (IReL) 2021-2021                                                                                                     |        4|
+|The Royal Society (TIB) 2024-2024                                                                                                                |        4|
 |ACS (German Academic Consortium administered by Bayerische Staatsbibliothek (participants from Bavaria, Baden-Württemberg and Saxony)) 2025-2025 |        3|
 |American Society of Mechanical Engineers (IReL) 2025-2027                                                                                        |        3|
 |Association for Computing Machinery (CzechELib) 2023-2025                                                                                        |        3|
@@ -292,7 +293,6 @@ This dataset contains information on 217,854 articles, published at 573 institut
 |QNL OVID Agreement                                                                                                                               |        3|
 |Rockefeller University Press (ZB MED) 2024-2026                                                                                                  |        3|
 |Taylor & Francis (KEMOE/FWF) 2014-2016                                                                                                           |        3|
-|The Royal Society (TIB) 2024-2024                                                                                                                |        3|
 |Bentham Science Publishers (CSIC) 2024-2026                                                                                                      |        2|
 |Cambridge University Press (EISZ) 2022-2022                                                                                                      |        2|
 |Nature (MPDL) 2025-2028                                                                                                                          |        2|
@@ -751,6 +751,7 @@ This dataset contains information on 217,854 articles, published at 573 institut
 |HTWG Konstanz                                                                         |       13|
 |Institut national de la recherche scientifique                                        |       13|
 |Munich University of Applied Sciences                                                 |       13|
+|Museum für Naturkunde Berlin                                                          |       13|
 |Université du Québec en Outaouais                                                     |       13|
 |École de technologie supérieure                                                       |       13|
 |Dublin Institute for Advanced Studies                                                 |       12|
@@ -789,7 +790,6 @@ This dataset contains information on 217,854 articles, published at 573 institut
 |Leibniz-IDS                                                                           |        8|
 |Leibniz-IÖR                                                                           |        8|
 |Medicines for Malaria Venture                                                         |        8|
-|Museum für Naturkunde Berlin                                                          |        8|
 |Trinity Western University                                                            |        8|
 |UMIT Tirol                                                                            |        8|
 |University of Abertay Dundee                                                          |        8|
