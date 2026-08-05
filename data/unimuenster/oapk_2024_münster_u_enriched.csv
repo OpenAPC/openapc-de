@@ -44,9 +44,9 @@
 "Münster U",2024,1764.67,"10.3390/rel15030260",FALSE,"MDPI AG","Religions","2077-1444",NA,"2077-1444","2077-1444","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Münster U",2024,2775.98,"10.3390/metabo14040238",FALSE,"MDPI AG","Metabolites","2218-1989",NA,"2218-1989","2218-1989","https://creativecommons.org/licenses/by/4.0/",TRUE,"38668366","PMC11052043",NA,NA,TRUE
 "Münster U",2024,3284.17,"10.3390/biom14040469",FALSE,"MDPI AG","Biomolecules","2218-273X",NA,"2218-273X","2218-273X","https://creativecommons.org/licenses/by/4.0/",TRUE,"38672485","PMC11047987",NA,NA,TRUE
-"Münster U",2024,1725.5,"10.3892/ol.2024.14441",FALSE,"Spandidos Publications","Oncology Letters","1792-1074","1792-1074","1792-1082","1792-1074",NA,TRUE,"38784603","PMC11112145",NA,NA,FALSE
+"Münster U",2024,1725.5,"10.3892/ol.2024.14441",TRUE,"Spandidos Publications","Oncology Letters","1792-1074","1792-1074","1792-1082","1792-1074",NA,TRUE,"38784603","PMC11112145",NA,NA,FALSE
 "Münster U",2024,1114.04,"10.1177/20416695241246755",FALSE,"SAGE Publications","i-Perception","2041-6695","2041-6695","2041-6695","2041-6695","https://creativecommons.org/licenses/by/4.0/",TRUE,"38903983",NA,NA,NA,TRUE
-"Münster U",2024,1332.09,"10.1162/qss_a_00313",FALSE,"MIT Press","Quantitative Science Studies","2641-3337",NA,"2641-3337","2641-3337","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"Münster U",2024,1332.09,"10.1162/qss_a_00313",FALSE,"MIT Press - Journals","Quantitative Science Studies","2641-3337",NA,"2641-3337","2641-3337","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
 "Münster U",2024,2969.45,"10.2196/58501",FALSE,"JMIR Publications Inc.","JMIR Formative Research","2561-326X",NA,"2561-326X","2561-326X",NA,TRUE,"38935424","PMC11240067",NA,NA,TRUE
 "Münster U",2024,1240.04,"10.1177/23259671241253836",FALSE,"SAGE Publications","Orthopaedic Journal of Sports Medicine","2325-9671","2325-9671","2325-9671","2325-9671","https://creativecommons.org/licenses/by-nc-nd/4.0/",TRUE,"38881852","PMC11179473",NA,NA,TRUE
 "Münster U",2024,1721.06,"10.3847/1538-4357/ad2ea8",FALSE,"American Astronomical Society","The Astrophysical Journal","0004-637X","0004-637X","1538-4357","0004-637X","http://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -67,7 +67,7 @@
 "Münster U",2024,2405.19,"10.1093/gbe/evae129",FALSE,"Oxford University Press (OUP)","Genome Biology and Evolution","1759-6653",NA,"1759-6653","1759-6653","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,"38879874","PMC11339603",NA,NA,TRUE
 "Münster U",2024,3542.25,"10.3390/ijms25084196",FALSE,"MDPI AG","International Journal of Molecular Sciences","1422-0067",NA,"1422-0067","1422-0067","https://creativecommons.org/licenses/by/4.0/",TRUE,"38673781","PMC11050644",NA,NA,FALSE
 "Münster U",2024,1601.09,"10.3390/jcm13133938",FALSE,"MDPI AG","Journal of Clinical Medicine","2077-0383",NA,"2077-0383","2077-0383","https://creativecommons.org/licenses/by/4.0/",TRUE,"38999503","PMC11242654",NA,NA,FALSE
-"Münster U",2024,3294.36,"10.1212/nxi.0000000000200270",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Neurology Neuroimmunology & Neuroinflammation","2332-7812",NA,"2332-7812","2332-7812",NA,TRUE,"38912898","PMC11226316",NA,NA,TRUE
+"Münster U",2024,3294.36,"10.1212/nxi.0000000000200270",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Neurology: Neuroimmunology & Neuroinflammation","2332-7812",NA,"2332-7812","2332-7812",NA,TRUE,"38912898","PMC11226316",NA,NA,TRUE
 "Münster U",2024,1646.19,"10.3390/biom14070876",FALSE,"MDPI AG","Biomolecules","2218-273X",NA,"2218-273X","2218-273X","https://creativecommons.org/licenses/by/4.0/",TRUE,"39062590","PMC11274870",NA,NA,TRUE
 "Münster U",2024,2689.07,"10.3390/polym16131862",FALSE,"MDPI AG","Polymers","2073-4360",NA,"2073-4360","2073-4360","https://creativecommons.org/licenses/by/4.0/",TRUE,"39000716","PMC11243789",NA,NA,FALSE
 "Münster U",2024,1665.11,"10.1063/5.0183578",FALSE,"AIP Publishing","AIP Advances","2158-3226",NA,"2158-3226","2158-3226","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
@@ -99,7 +99,7 @@
 "Münster U",2024,1609.89,"10.1177/23259671241300520",FALSE,"SAGE Publications","Orthopaedic Journal of Sports Medicine","2325-9671","2325-9671","2325-9671","2325-9671","https://creativecommons.org/licenses/by/4.0/",TRUE,"39678438","PMC11645734",NA,NA,TRUE
 "Münster U",2024,3659.29,"10.3390/cancers16223793",FALSE,"MDPI AG","Cancers","2072-6694",NA,"2072-6694","2072-6694","https://creativecommons.org/licenses/by/4.0/",TRUE,"39594750","PMC11593292",NA,NA,FALSE
 "Münster U",2024,1283.71,"10.21037/tlcr-24-359",FALSE,"AME Publishing Company","Translational Lung Cancer Research","2218-6751","2218-6751","2226-4477","2218-6751",NA,TRUE,"39507015","PMC11535839",NA,NA,FALSE
-"Münster U",2024,3203.68,"10.1212/nxi.0000000000200331",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Neurology Neuroimmunology & Neuroinflammation","2332-7812",NA,"2332-7812","2332-7812",NA,TRUE,"39602677","PMC11604103",NA,NA,TRUE
+"Münster U",2024,3203.68,"10.1212/nxi.0000000000200331",FALSE,"Ovid Technologies (Wolters Kluwer Health)","Neurology: Neuroimmunology & Neuroinflammation","2332-7812",NA,"2332-7812","2332-7812",NA,TRUE,"39602677","PMC11604103",NA,NA,TRUE
 "Münster U",2024,3192.71,"10.3390/jcm13226964",FALSE,"MDPI AG","Journal of Clinical Medicine","2077-0383",NA,"2077-0383","2077-0383","https://creativecommons.org/licenses/by/4.0/",TRUE,"39598109","PMC11594754",NA,NA,FALSE
 "Münster U",2024,1348.6,"10.5334/pme.1171",FALSE,"Ubiquity Press, Ltd.","Perspectives on Medical Education","2212-277X","2212-277X",NA,"2212-2761",NA,TRUE,"39735823","PMC11673732",NA,NA,TRUE
 "Münster U",2024,2156.65,"10.3390/cells13221858",FALSE,"MDPI AG","Cells","2073-4409",NA,"2073-4409","2073-4409","https://creativecommons.org/licenses/by/4.0/",TRUE,"39594607","PMC11592675",NA,NA,TRUE
