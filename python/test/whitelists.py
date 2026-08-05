@@ -1320,6 +1320,9 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "02rqsa469_els2023deal_2024", # Nürtingen-Geislingen University of Applied Science
     "02rqsa469_sn2024deal_2024", # Nürtingen-Geislingen University of Applied Science
     "02rqsa469_wiley2024deal_2024", # Nürtingen-Geislingen University of Applied Science
+    "052d1a351_sn2020deal_2022", # Museum für Naturkunde Berlin
+    "052d1a351_sn2024deal_2024", # Museum für Naturkunde Berlin
+    "052d1a351_trs2024tib_2024", # Museum für Naturkunde Berlin
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
