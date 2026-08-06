@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 219,960 articles, published at 573 institutions under 284 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 219,978 articles, published at 573 institutions under 284 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,11 +28,11 @@ This dataset contains information on 219,960 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20675|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     8584|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     5847|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     8596|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     5849|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     4601|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     4604|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
 |Elsevier (FinELib) 2024-2025                                                                                                                     |     4001|
@@ -170,7 +170,7 @@ This dataset contains information on 219,960 articles, published at 573 institut
 |Walter de Gruyter (CRUI-CARE) 2020-2022                                                                                                          |       91|
 |Taylor & Francis (CzechELib) 2023-2025                                                                                                           |       85|
 |Cambridge University Press (CRUI-CARE) 2020-2022                                                                                                 |       83|
-|Hogrefe (SUB Göttingen) 2024-2026                                                                                                                |       82|
+|Hogrefe (SUB Göttingen) 2024-2026                                                                                                                |       83|
 |Royal Society of Chemistry (CRUI-CARE) 2022-2024                                                                                                 |       82|
 |Wolters Kluwer Health (FinELib) 2018-2022                                                                                                        |       81|
 |Springer Nature (EISZ) 2020-2022                                                                                                                 |       79|
@@ -661,6 +661,7 @@ This dataset contains information on 219,960 articles, published at 573 institut
 |Robert Gordon University                                                              |       36|
 |University of Liechtenstein                                                           |       36|
 |HS Reutlingen                                                                         |       35|
+|MHB Fontane                                                                           |       35|
 |Netherlands Institute of Ecology                                                      |       35|
 |Pädagogische Hochschule Zürich                                                        |       35|
 |DIfE                                                                                  |       34|
@@ -732,7 +733,6 @@ This dataset contains information on 219,960 articles, published at 573 institut
 |University of Northern British Columbia                                               |       18|
 |Edinburgh Napier University                                                           |       17|
 |FH Salzburg - University of Applied Sciences                                          |       17|
-|MHB Fontane                                                                           |       17|
 |Research Institute of Molecular Pathology - IMP                                       |       17|
 |Cape Breton University                                                                |       16|
 |Leibniz-IOW                                                                           |       16|
