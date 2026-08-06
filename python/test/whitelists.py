@@ -1283,6 +1283,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1432-0584", # Annals of Hematology, Gold OA since 2025
     "1432-0851", # Cancer Immunology, Immunotherapy, Gold OA since 2025
     "1420-9071", # Cellular and Molecular Life Sciences, Gold OA since 2024
+    "1598-2408", # Journal of East Asian Studies, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
