@@ -1,4 +1,4 @@
-Institution;DOI;Name des Verlags;Publikationsform;CC-Lizenz;Euro netto;Euro brutto;Kostensplitting;Geb�hrenart;Zuordnung zu Transformationsvertrag;Rechnungsjahr / Lizenzjahr;Publikationsjahr;is_hybrid
+Institution;DOI;Name des Verlags;Publikationsform;CC-Lizenz;Euro netto;Euro brutto;Kostensplitting;Geb�hrenart;agreement;Rechnungsjahr / Lizenzjahr;Publikationsjahr;is_hybrid
 Augsburg U;10.1186/s42466-024-00310-x;Springer;journal article;CC BY;1.432,00;1.532,24;;gold-oa;Springer (DEAL) 2024-2028;2024;2024;FALSE
 Augsburg U;10.1002/cnr2.1916;Wiley;journal article;CC BY;1.080,00;1.285,20;;gold-oa;Wiley (DEAL) 2024-2028;2024;2024;FALSE
 Augsburg U;10.1111/iwj.70015;Wiley;journal article;CC BY;2.400,00;2.568,00;;gold-oa;Wiley (DEAL) 2024-2028;2024;2024;FALSE
@@ -26,7 +26,7 @@ Augsburg U;10.1186/s12916-024-03533-6;Springer;journal article;CC BY;2.552,00;2.
 Augsburg U;10.1038/s41698-024-00662-2;Springer;journal article;CC BY;1.164,71;1.246,24;;gold-oa;Springer (DEAL) 2024-2028;2024;2024;FALSE
 Augsburg U;10.1038/s41598-024-69287-6;Springer;journal article;CC BY;1.801,60;1.927,71;;gold-oa;Springer (DEAL) 2024-2028;2024;2024;FALSE
 Augsburg U;10.1038/s43856-024-00589-6;Springer;journal article;CC BY;2.881,59;3.083,30;;gold-oa;Springer (DEAL) 2024-2028;2024;2024;FALSE
-Augsburg U;10.1111/srt.13632;Wiley;journal article;CC BY-NC-ND;2.000,00;2.140,00;;gold-oa;Wiley (DEAL) 2024-2028;2023;2024;FALSE
+Augsburg U;10.1111/srt.13632;Wiley;journal article;CC BY-NC-ND;2.000,00;2.140,00;;gold-oa;Wiley (DEAL) 2024-2028;2024;2024;FALSE
 Augsburg U;10.1186/s12883-024-03828-4;Springer;journal article;CC BY;1.765,07;1.888,62;;gold-oa;Springer (DEAL) 2024-2028;2024;2024;FALSE
 Augsburg U;10.1016/j.ijcha.2024.101524;Elsevier;journal article;CC BY-NC;2.288,00;2.448,16;;gold-oa;Elsevier (DEAL) 2023-2028;2024;2024;FALSE
 Augsburg U;10.1186/s12967-024-05765-9;Springer;journal article;CC BY-NC;2.208,56;2.363,16;;gold-oa;Springer (DEAL) 2024-2028;2024;2024;FALSE
