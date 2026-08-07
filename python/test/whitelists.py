@@ -1328,6 +1328,8 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "052d1a351_trs2024tib_2024", # Museum für Naturkunde Berlin
     "00pd74e08_degruy2023gac_2023", # Münster U
     "04839sh14_sn2024deal_2024", # MHB Fontane
+    "02w2y2t16_sage2021gac_2023", # Leuphana
+    "02w2y2t16_sn2024deal_2024" # Leuphana
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
