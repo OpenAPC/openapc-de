@@ -721,6 +721,7 @@ JOURNAL_OWNER_CHANGED = {
 	"0967-0106": ["SAGE Publications", "Oxford University Press (OUP)"], # Security Dialogue (linking)
 	"0928-7329": ["IOS Press", "SAGE Publications"], # Technology and Health Care 
 	"1878-7401": ["IOS Press", "SAGE Publications"], # Technology and Health Care (electronic)
+	"2192-4376": ["Springer Nature", "Elsevier BV"], # EURO Journal on Transportation and Logistics
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1284,6 +1285,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1432-0851", # Cancer Immunology, Immunotherapy, Gold OA since 2025
     "1420-9071", # Cellular and Molecular Life Sciences, Gold OA since 2024
     "1598-2408", # Journal of East Asian Studies, Gold OA since 2025
+    "2192-4376", # EURO Journal on Transportation and Logistics, Gold OA since 2020
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
