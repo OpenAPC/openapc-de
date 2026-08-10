@@ -13,6 +13,7 @@ All datasets
 - DLRopenAPC_2022.csv
 - DLRopenAPC_2023.csv
 - DLRopenAPC_2024.csv
+- DLRopenAPC_2025.csv
 
 - DLR_deal_wiley_2019.csv
 - DLR_deal_wiley_2020.csv
