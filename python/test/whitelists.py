@@ -722,6 +722,8 @@ JOURNAL_OWNER_CHANGED = {
 	"0928-7329": ["IOS Press", "SAGE Publications"], # Technology and Health Care 
 	"1878-7401": ["IOS Press", "SAGE Publications"], # Technology and Health Care (electronic)
 	"2192-4376": ["Springer Nature", "Elsevier BV"], # EURO Journal on Transportation and Logistics
+	"2183-9956": ["AP2 - Associação para a Participação Pública", "Visualcom Scientific Publications SL"], # Street Art & Urban Creativity 
+	"2183-3869": ["AP2 - Associação para a Participação Pública", "Visualcom Scientific Publications SL"], # Street Art & Urban Creativity (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
