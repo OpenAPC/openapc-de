@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 221,131 articles, published at 573 institutions under 286 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 221,275 articles, published at 573 institutions under 286 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -29,7 +29,7 @@ This dataset contains information on 221,131 articles, published at 573 institut
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
 |Springer Nature (DEAL) 2024-2028                                                                                                                 |     9052|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     6151|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     6295|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Wiley (DEAL) 2024-2028                                                                                                                           |     4798|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
@@ -379,6 +379,7 @@ This dataset contains information on 221,131 articles, published at 573 institut
 |Marburg U                                                                             |      987|
 |MPG                                                                                   |      946|
 |University of Cambridge                                                               |      912|
+|DLR                                                                                   |      910|
 |Hohenheim U                                                                           |      884|
 |University of Oxford                                                                  |      883|
 |TU Wien                                                                               |      879|
@@ -393,7 +394,6 @@ This dataset contains information on 221,131 articles, published at 573 institut
 |Stuttgart U                                                                           |      786|
 |Universitäts- und Landesbibliothek Tirol                                              |      776|
 |Imperial College London                                                               |      771|
-|DLR                                                                                   |      766|
 |TU Braunschweig                                                                       |      754|
 |Augsburg U                                                                            |      741|
 |University of British Columbia                                                        |      729|
