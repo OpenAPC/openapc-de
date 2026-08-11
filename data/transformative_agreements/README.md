@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 222,203 articles, published at 573 institutions under 288 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 222,223 articles, published at 573 institutions under 288 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 222,203 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20675|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9302|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     6465|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9306|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     6476|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     4966|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     4971|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -617,6 +617,7 @@ This dataset contains information on 222,203 articles, published at 573 institut
 |Manchester Metropolitan University                                                    |       64|
 |Aachen FH                                                                             |       63|
 |Hertie School                                                                         |       61|
+|Leibniz-ZMT                                                                           |       60|
 |The Open University                                                                   |       60|
 |University of Huddersfield                                                            |       60|
 |Aston University                                                                      |       58|
@@ -650,7 +651,6 @@ This dataset contains information on 222,203 articles, published at 573 institut
 |Leibniz-IPK                                                                           |       41|
 |Paul-Drude-Institut für Festkörperelektronik                                          |       41|
 |University of New Brunswick                                                           |       41|
-|Leibniz-ZMT                                                                           |       40|
 |Sunnybrook Health Science Centre                                                      |       40|
 |University of Salford                                                                 |       40|
 |Edge Hill University                                                                  |       39|
