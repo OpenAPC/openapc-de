@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |290,754                  | 607,927,022    | 482                   |
+| Articles (APCs)             |290,770                  | 607,959,379    | 482                   |
 | Monographs (BPCs)           |2,687                           | 17,832,372             | 119                            |
-| OA Agreements/Contracts     |1,245                 | 179,476,208   | 137                  |
+| OA Agreements/Contracts     |1,252                 | 179,588,022   | 137                  |
 
 ## How to access the data?
 
@@ -103,7 +103,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Johann Wolfgang Goethe-Universität Frankfurt am Main](https://www.ub.uni-frankfurt.de/publizieren/publikationsfonds.html)
 - [Johannes Gutenberg University of Mainz](https://www.ub.uni-mainz.de/de/open-access/foerderkriterien-open-access)
 - [Leibniz Universität Hannover](https://tib.eu/oafonds)
-- [Leipzig University](https://www.ub.uni-leipzig.de/open-science/publikationsfonds/)
+- [Leipzig University](https://www.ub.uni-leipzig.de/open-science/open-access-finanzierung/publikationen-in-zeitschriften/publikationsfonds)
 - [Leuphana University of Lüneburg](https://www.leuphana.de)
 - [Ludwig-Maximilians-Universität München](http://www.en.ub.uni-muenchen.de/writing/open-access-publishing/funding/index.html)
 - [Martin Luther Universität Halle-Wittenberg](https://bibliothek.uni-halle.de/dbib/openaccess/)
@@ -1015,13 +1015,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 267,490 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 482 research-performing institutions and research funders.
+The APC data set contains information on 267,499 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 482 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 555,415,342. The average payment was € 2,076 and the median was € 1,913.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 555,434,700. The average payment was € 2,076 and the median was € 1,913.
 
-199,572 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 379,889,425, including value-added tax; the average payment was € 1,904 (median =  € 1,752, SD = € 950).
+199,580 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 379,908,332, including value-added tax; the average payment was € 1,904 (median =  € 1,752, SD = € 950).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,918 articles in the data set were published in hybrid journals. Total expenditure amounts to 175,525,916 €; the average fee was € 2,584 (median =  € 2,518, SD = € 1,181).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 67,919 articles in the data set were published in hybrid journals. Total expenditure amounts to 175,526,368 €; the average fee was € 2,584 (median =  € 2,518, SD = € 1,181).
 
 Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
@@ -1056,7 +1056,7 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2021   |      25,378|   1,814|     1,760|  27.0 -  8,341|           3,868|       2,566|         2,519|    30.2 - 11,400|
 |2022   |      27,147|   2,085|     1,990|  12.4 - 11,175|           3,153|       2,904|         2,730|     2.1 - 14,607|
 |2023   |      23,978|   2,292|     2,206|  35.0 -  9,893|           3,590|       3,025|         2,841|   106.4 - 11,895|
-|2024   |      18,005|   2,467|     2,365|  40.0 -  9,758|           2,524|       3,136|         2,958|    28.4 - 13,044|
+|2024   |      18,013|   2,467|     2,365|  40.0 -  9,758|           2,525|       3,135|         2,958|    28.4 - 13,044|
 |2025   |       5,596|   2,687|     2,414|  20.0 -  8,854|             697|       3,239|         2,875|    95.0 - 13,166|
 |2026   |         288|   2,465|     2,340|  80.0 -  7,503|              28|       3,228|         3,200| 1,106.1 -  5,142|
 
