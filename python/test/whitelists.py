@@ -1288,6 +1288,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1420-9071", # Cellular and Molecular Life Sciences, Gold OA since 2024
     "1598-2408", # Journal of East Asian Studies, Gold OA since 2025
     "2192-4376", # EURO Journal on Transportation and Logistics, Gold OA since 2020
+    "0021-8979", # Journal of Applied Physics, S2O from 2024 - 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
