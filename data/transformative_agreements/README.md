@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 222,502 articles, published at 573 institutions under 288 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 222,516 articles, published at 573 institutions under 288 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 222,502 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20675|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9375|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     6561|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9380|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     6564|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     5033|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5039|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -629,6 +629,7 @@ This dataset contains information on 222,502 articles, published at 573 institut
 |Université du Québec                                                                  |       57|
 |South East Technological University                                                   |       56|
 |University of the West of England                                                     |       56|
+|Leibniz-IPK                                                                           |       55|
 |Munster Technological University                                                      |       55|
 |Keele University                                                                      |       54|
 |BTH Blekinge Institute of Technology                                                  |       52|
@@ -651,7 +652,6 @@ This dataset contains information on 222,502 articles, published at 573 institut
 |Leeds Beckett University                                                              |       43|
 |Technological University of the Shannon: Midlands Midwest                             |       42|
 |AIT Austrian Institute of Technology                                                  |       41|
-|Leibniz-IPK                                                                           |       41|
 |Paul-Drude-Institut für Festkörperelektronik                                          |       41|
 |University of New Brunswick                                                           |       41|
 |Sunnybrook Health Science Centre                                                      |       40|
