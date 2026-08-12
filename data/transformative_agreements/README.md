@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 222,446 articles, published at 573 institutions under 288 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 222,477 articles, published at 573 institutions under 288 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 222,446 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20675|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9364|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     6553|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9372|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     6560|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     4998|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5014|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -615,6 +615,7 @@ This dataset contains information on 222,446 articles, published at 573 institut
 |University of Stirling                                                                |       66|
 |University of Applied Sciences Upper Austria                                          |       65|
 |Wilfrid Laurier University                                                            |       65|
+|Leibniz-IZW                                                                           |       64|
 |Manchester Metropolitan University                                                    |       64|
 |Aachen FH                                                                             |       63|
 |Hertie School                                                                         |       61|
@@ -677,7 +678,6 @@ This dataset contains information on 222,446 articles, published at 573 institut
 |University of Ontario Institute of Technology                                         |       34|
 |Darmstadt University of Applied Sciences                                              |       33|
 |GESIS                                                                                 |       33|
-|Leibniz-IZW                                                                           |       33|
 |HafenCity Universität Hamburg                                                         |       32|
 |University of Central Lancashire                                                      |       32|
 |Finnish Meteorological Institute                                                      |       31|
