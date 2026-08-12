@@ -724,6 +724,8 @@ JOURNAL_OWNER_CHANGED = {
 	"2192-4376": ["Springer Nature", "Elsevier BV"], # EURO Journal on Transportation and Logistics
 	"2183-9956": ["AP2 - Associação para a Participação Pública", "Visualcom Scientific Publications SL"], # Street Art & Urban Creativity 
 	"2183-3869": ["AP2 - Associação para a Participação Pública", "Visualcom Scientific Publications SL"], # Street Art & Urban Creativity (linking)
+	"2332-8878": ["Informa UK Limited", "American Association for the Advancement of Science (AAAS)"], # Ecosystem Health and Sustainability
+	"2096-4129": ["Informa UK Limited", "American Association for the Advancement of Science (AAAS)"], # Ecosystem Health and Sustainability (linking)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1334,6 +1336,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "02w2y2t16_sage2021gac_2023", # Leuphana
     "02w2y2t16_sn2024deal_2024", # Leuphana
     "019w00969_els2023deal_2024", # Leibniz-ZMT
+    "01ygyzs83_sn2020deal_2023", # Leibniz-ZALF
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
