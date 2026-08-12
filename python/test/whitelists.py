@@ -1337,6 +1337,9 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "02w2y2t16_sn2024deal_2024", # Leuphana
     "019w00969_els2023deal_2024", # Leibniz-ZMT
     "01ygyzs83_sn2020deal_2023", # Leibniz-ZALF
+    "00g656d67_sn2024deal_2024", # INM - Leibniz-Institut für Neue Materialien
+    "00g656d67_els2023deal_2023", # INM - Leibniz-Institut für Neue Materialien
+    "00g656d67_els2023deal_2024", # INM - Leibniz-Institut für Neue Materialien
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
