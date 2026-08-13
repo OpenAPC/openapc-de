@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 222,516 articles, published at 573 institutions under 288 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 222,540 articles, published at 573 institutions under 288 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 222,516 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20675|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9380|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     6564|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9388|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     6569|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     5039|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5050|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -654,6 +654,7 @@ This dataset contains information on 222,516 articles, published at 573 institut
 |AIT Austrian Institute of Technology                                                  |       41|
 |Paul-Drude-Institut für Festkörperelektronik                                          |       41|
 |University of New Brunswick                                                           |       41|
+|Leibniz-IOW                                                                           |       40|
 |Sunnybrook Health Science Centre                                                      |       40|
 |University of Salford                                                                 |       40|
 |Edge Hill University                                                                  |       39|
@@ -739,7 +740,6 @@ This dataset contains information on 222,516 articles, published at 573 institut
 |FH Salzburg - University of Applied Sciences                                          |       17|
 |Research Institute of Molecular Pathology - IMP                                       |       17|
 |Cape Breton University                                                                |       16|
-|Leibniz-IOW                                                                           |       16|
 |Nipissing University                                                                  |       16|
 |Saint Mary's University                                                               |       16|
 |Université de Moncton                                                                 |       16|
