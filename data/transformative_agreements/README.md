@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 223,711 articles, published at 573 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 223,717 articles, published at 573 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,7 +28,7 @@ This dataset contains information on 223,711 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20679|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9798|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9801|
 |Elsevier (DEAL) 2023-2028                                                                                                                        |     6858|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Wiley (DEAL) 2024-2028                                                                                                                           |     5317|
@@ -96,7 +96,7 @@ This dataset contains information on 223,711 articles, published at 573 institut
 |RSC (TIB) 2024-2027                                                                                                                              |      481|
 |Sage (FinELib consortium) 2025-2026                                                                                                              |      477|
 |Elsevier (IReL) 2026-2028                                                                                                                        |      451|
-|Sage (BSB) 2024-2025                                                                                                                             |      447|
+|Sage (BSB) 2024-2025                                                                                                                             |      448|
 |American Chemical Society (KEMOE) 2020-2022                                                                                                      |      444|
 |Taylor & Francis (KEMOE/FWF) 2017-2019                                                                                                           |      439|
 |Emerald (FinELib) 2021-2023                                                                                                                      |      435|
@@ -133,8 +133,8 @@ This dataset contains information on 223,711 articles, published at 573 institut
 |Wiley (CRUE-CSIC Alliance) 2021-2021                                                                                                             |      198|
 |Elsevier (QNL) 2020-2022                                                                                                                         |      194|
 |Sage (KEMOE) 2023-2026                                                                                                                           |      192|
+|Walter de Gruyter (SUB Göttingen) 2023-2024                                                                                                      |      186|
 |Springer Nature (KEMOE/FWF) 2022-2023                                                                                                            |      185|
-|Walter de Gruyter (SUB Göttingen) 2023-2024                                                                                                      |      184|
 |Wolters Kluwer Health (Consortium of Swiss Academic Libraries) 2025-2027                                                                         |      181|
 |Elsevier (FinELib) 2022-2024                                                                                                                     |      173|
 |Royal Society of Chemistry (FinELib) 2022-2023                                                                                                   |      171|
@@ -755,6 +755,7 @@ This dataset contains information on 223,711 articles, published at 573 institut
 |HS Anhalt                                                                             |       14|
 |HS RheinMain                                                                          |       14|
 |Haaga-Helia University of Applied Sciences                                            |       14|
+|Leibniz-IDS                                                                           |       14|
 |Birmingham City University                                                            |       13|
 |HS Neubrandenburg                                                                     |       13|
 |HTWG Konstanz                                                                         |       13|
@@ -796,7 +797,6 @@ This dataset contains information on 223,711 articles, published at 573 institut
 |Université du Québec à Rimouski                                                       |        9|
 |Zurich University of the Arts                                                         |        9|
 |JAMK University of Applied Sciences                                                   |        8|
-|Leibniz-IDS                                                                           |        8|
 |Medicines for Malaria Venture                                                         |        8|
 |Trinity Western University                                                            |        8|
 |UMIT Tirol                                                                            |        8|
