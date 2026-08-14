@@ -1292,6 +1292,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2192-4376", # EURO Journal on Transportation and Logistics, Gold OA since 2020
     "0021-8979", # Journal of Applied Physics, S2O from 2024 - 2025
     "1573-6822", # Cell Biology and Toxicology, Gold OA since 2024
+    "1098-111X", # International Journal of Intelligent Systems, Gold OA since 2023
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1347,6 +1348,8 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "02t26g637_sage2021gac_2023", # Leibniz-IÖR
     "04tsk2644_els2023deal_2024", # Bochum U
     "04tsk2644_sn2024deal_2024", # Bochum U
+    "018afyw53_sn2020deal_2022", # GESIS
+    "018afyw53_wiley2019deal_2022", # GESIS
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
