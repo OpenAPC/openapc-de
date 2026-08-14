@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 222,837 articles, published at 573 institutions under 289 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 222,861 articles, published at 573 institutions under 289 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 222,837 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20679|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9471|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     6637|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9479|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     6644|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     5139|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5140|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -70,7 +70,7 @@ This dataset contains information on 222,837 articles, published at 573 institut
 |IEEE (FinELib) 2021-2023                                                                                                                         |      933|
 |Wiley (KEMOE/FWF) 2018-2020                                                                                                                      |      928|
 |Wiley (IReL) 2025-2028                                                                                                                           |      916|
-|Taylor & Francis (ZBW) 2024-2026                                                                                                                 |      817|
+|Taylor & Francis (ZBW) 2024-2026                                                                                                                 |      823|
 |Wiley (CRUI-CARE) 2020-2023                                                                                                                      |      780|
 |Taylor & Francis (IReL) 2024-2026                                                                                                                |      754|
 |IEEE (FinELib) 2024-2025                                                                                                                         |      739|
@@ -96,7 +96,7 @@ This dataset contains information on 222,837 articles, published at 573 institut
 |Sage (FinELib consortium) 2025-2026                                                                                                              |      477|
 |RSC (TIB) 2024-2027                                                                                                                              |      455|
 |Elsevier (IReL) 2026-2028                                                                                                                        |      451|
-|Sage (BSB) 2024-2025                                                                                                                             |      445|
+|Sage (BSB) 2024-2025                                                                                                                             |      447|
 |American Chemical Society (KEMOE) 2020-2022                                                                                                      |      444|
 |Taylor & Francis (KEMOE/FWF) 2017-2019                                                                                                           |      439|
 |Emerald (FinELib) 2021-2023                                                                                                                      |      435|
@@ -682,6 +682,7 @@ This dataset contains information on 222,837 articles, published at 573 institut
 |Darmstadt University of Applied Sciences                                              |       33|
 |GESIS                                                                                 |       33|
 |HafenCity Universität Hamburg                                                         |       32|
+|Leibniz-IÖR                                                                           |       32|
 |University of Central Lancashire                                                      |       32|
 |Finnish Meteorological Institute                                                      |       31|
 |Leibniz-BIPS                                                                          |       31|
@@ -795,7 +796,6 @@ This dataset contains information on 222,837 articles, published at 573 institut
 |Zurich University of the Arts                                                         |        9|
 |JAMK University of Applied Sciences                                                   |        8|
 |Leibniz-IDS                                                                           |        8|
-|Leibniz-IÖR                                                                           |        8|
 |Medicines for Malaria Venture                                                         |        8|
 |Trinity Western University                                                            |        8|
 |UMIT Tirol                                                                            |        8|
