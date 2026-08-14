@@ -1,0 +1,9 @@
+"institution","period","euro","doi","is_hybrid","publisher","journal_full_title","issn","issn_print","issn_electronic","issn_l","license_ref","indexed_in_crossref","pmid","pmcid","ut","url","doaj"
+"GESIS",2024,3353.29,"10.1093/jssam/smae008",TRUE,"Oxford University Press (OUP)","Journal of Survey Statistics and Methodology","2325-0984","2325-0984","2325-0992","2325-0984","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"GESIS",2024,1087.84,"10.3390/socsci13100549",FALSE,"MDPI AG","Social Sciences","2076-0760",NA,"2076-0760","2076-0760","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"GESIS",2024,914.96,"10.5334/dsj-2024-016",FALSE,"Ubiquity Press, Ltd.","Data Science Journal","1683-1470","1683-1470",NA,"1683-1470",NA,TRUE,NA,NA,NA,NA,TRUE
+"GESIS",2025,3540,"10.1093/jssam/smae031",TRUE,"Oxford University Press (OUP)","Journal of Survey Statistics and Methodology","2325-0984","2325-0984","2325-0992","2325-0984","https://creativecommons.org/licenses/by-nc/4.0/",TRUE,NA,NA,NA,NA,FALSE
+"GESIS",2024,736.72,"10.1162/qss_a_00283",FALSE,"MIT Press","Quantitative Science Studies","2641-3337",NA,"2641-3337","2641-3337","https://creativecommons.org/licenses/by/4.0/",TRUE,NA,NA,NA,NA,TRUE
+"GESIS",2024,4808.3,"10.1126/sciadv.adg9287",FALSE,"American Association for the Advancement of Science (AAAS)","Science Advances","2375-2548",NA,"2375-2548","2375-2548",NA,TRUE,"39270019","PMC11397479",NA,NA,TRUE
+"GESIS",2023,250.19,"10.15195/v10.a19",FALSE,"Society for Sociological Science","Sociological Science","2330-6696",NA,"2330-6696","2330-6696",NA,TRUE,NA,NA,NA,NA,TRUE
+"GESIS",2024,905.2,"10.5334/dsj-2024-007",FALSE,"Ubiquity Press, Ltd.","Data Science Journal","1683-1470","1683-1470",NA,"1683-1470",NA,TRUE,NA,NA,NA,NA,TRUE
