@@ -1341,6 +1341,9 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "00g656d67_els2023deal_2023", # INM - Leibniz-Institut für Neue Materialien
     "00g656d67_els2023deal_2024", # INM - Leibniz-Institut für Neue Materialien
     "02skbsp27_wiley2019deal_2022", # Leibniz-IPK
+    "02t26g637_wiley2019deal_2023", # Leibniz-IÖR
+    "02t26g637_sage2024gac_2024", # Leibniz-IÖR
+    "02t26g637_sage2021gac_2023", # Leibniz-IÖR
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
