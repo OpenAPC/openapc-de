@@ -1350,6 +1350,8 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "04tsk2644_sn2024deal_2024", # Bochum U
     "018afyw53_sn2020deal_2022", # GESIS
     "018afyw53_wiley2019deal_2022", # GESIS
+    "0304hq317_aip2021tib_2023", # Hannover U
+    "0304hq317_els2023deal_2024", # Hannover U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
