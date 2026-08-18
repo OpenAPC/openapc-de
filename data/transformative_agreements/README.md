@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 224,356 articles, published at 573 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 224,412 articles, published at 573 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 224,356 articles, published at 573 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20680|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9982|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     7076|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9994|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     7095|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     5401|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5426|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -556,6 +556,7 @@ This dataset contains information on 224,356 articles, published at 573 institut
 |University of Saskatchewan                                                            |      151|
 |University of Strathclyde                                                             |      151|
 |Université Laval                                                                      |      151|
+|Leibniz-IGB                                                                           |      150|
 |TU Clausthal                                                                          |      147|
 |University of Leicester                                                               |      146|
 |Swansea University                                                                    |      142|
@@ -585,7 +586,6 @@ This dataset contains information on 224,356 articles, published at 573 institut
 |Heriot-Watt University                                                                |       98|
 |Fraunhofer-Gesellschaft Publishing Fund                                               |       96|
 |Geological Survey of Finland                                                          |       95|
-|Leibniz-IGB                                                                           |       94|
 |Malmö University                                                                      |       93|
 |Mary Immaculate College                                                               |       92|
 |Université de Sherbrooke                                                              |       91|
