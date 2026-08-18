@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 224,422 articles, published at 574 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 224,443 articles, published at 574 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 224,422 articles, published at 574 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20680|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |     9996|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     7097|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10008|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     7102|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     5426|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5430|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -637,6 +637,7 @@ This dataset contains information on 224,422 articles, published at 574 institut
 |Keele University                                                                      |       54|
 |BTH Blekinge Institute of Technology                                                  |       52|
 |DIPF                                                                                  |       52|
+|Leibniz-BIPS                                                                          |       52|
 |RISE Research Institutes of Sweden                                                    |       51|
 |Karl Landsteiner Privatuniversität für Gesundheitswissenschaften                      |       50|
 |University of Regina                                                                  |       50|
@@ -686,7 +687,6 @@ This dataset contains information on 224,422 articles, published at 574 institut
 |Leibniz-IÖR                                                                           |       32|
 |University of Central Lancashire                                                      |       32|
 |Finnish Meteorological Institute                                                      |       31|
-|Leibniz-BIPS                                                                          |       31|
 |University of Education Freiburg                                                      |       31|
 |University of West of Scotland                                                        |       31|
 |HS Hannover                                                                           |       30|
