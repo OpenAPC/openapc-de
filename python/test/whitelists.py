@@ -1293,6 +1293,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0021-8979", # Journal of Applied Physics, S2O from 2024 - 2025
     "1573-6822", # Cell Biology and Toxicology, Gold OA since 2024
     "1098-111X", # International Journal of Intelligent Systems, Gold OA since 2023
+    "0273-1223", # Water Science & Technology, S2O since 2021
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1352,6 +1353,9 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "018afyw53_wiley2019deal_2022", # GESIS
     "0304hq317_aip2021tib_2023", # Hannover U
     "0304hq317_els2023deal_2024", # Hannover U
+    "02vvvm705_els2023deal_2024", # Jade University of Applied Sciences
+    "02vvvm705_sn2024deal_2024", # Jade University of Applied Sciences
+    "02vvvm705_wiley2024deal_2024", # Jade University of Applied Sciences
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
