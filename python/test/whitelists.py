@@ -1356,6 +1356,9 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "02vvvm705_els2023deal_2024", # Jade University of Applied Sciences
     "02vvvm705_sn2024deal_2024", # Jade University of Applied Sciences
     "02vvvm705_wiley2024deal_2024", # Jade University of Applied Sciences
+    "04zc7p361_aip2021tib_2023", # Kassel U
+    "04zc7p361_els2023deal_2024", # Kassel U
+    "04zc7p361_sn2024deal_2024", # Kassel U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
