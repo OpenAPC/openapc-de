@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 225,139 articles, published at 575 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 225,154 articles, published at 576 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 225,139 articles, published at 575 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20681|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10333|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     7269|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10346|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     7270|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     5537|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5538|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -750,6 +750,7 @@ This dataset contains information on 225,139 articles, published at 575 institut
 |Arcada University of Applied Sciences                                                 |       15|
 |HS Düsseldorf                                                                         |       15|
 |Haute École Pédagogique du Canton de Vaud                                             |       15|
+|Leibniz-FLI                                                                           |       15|
 |TH Köln                                                                               |       15|
 |ASH Berlin                                                                            |       14|
 |Finnish Food Authority                                                                |       14|
