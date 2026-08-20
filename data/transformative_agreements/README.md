@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 225,172 articles, published at 576 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 225,182 articles, published at 577 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -28,10 +28,10 @@ This dataset contains information on 225,172 articles, published at 576 institut
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20681|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10351|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     7279|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10352|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     7284|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     5541|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5544|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -271,9 +271,9 @@ This dataset contains information on 225,172 articles, published at 576 institut
 |IReL ECS Agreement                                                                                                                               |        8|
 |OUP (Uni Bayreuth) 2024-2026                                                                                                                     |        8|
 |Portland Press (CSIC) 2023-2024                                                                                                                  |        8|
+|The Royal Society (TIB) 2024-2024                                                                                                                |        8|
 |Thieme 2 (ZB MED) 2021-2025                                                                                                                      |        8|
 |SPIE (TIB) 2024-2026                                                                                                                             |        7|
-|The Royal Society (TIB) 2024-2024                                                                                                                |        7|
 |Hogrefe (SUB Göttingen) 2021-2023                                                                                                                |        6|
 |Nature (MPDL) 2025-2028                                                                                                                          |        6|
 |The Company of Biologists (CSIC) 2024-2026                                                                                                       |        6|
@@ -781,6 +781,7 @@ This dataset contains information on 225,172 articles, published at 576 institut
 |Acadia University                                                                     |       10|
 |Jade University of Applied Sciences                                                   |       10|
 |Joanneum Research                                                                     |       10|
+|Leibniz-IPB                                                                           |       10|
 |Management Center Innsbruck                                                           |       10|
 |Modul University Vienna (MUVIENNA)                                                    |       10|
 |Mount Allison University                                                              |       10|
