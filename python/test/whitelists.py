@@ -1360,6 +1360,9 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "04zc7p361_els2023deal_2024", # Kassel U
     "04zc7p361_sn2024deal_2024", # Kassel U
     "032yym934_sage2024gac_2024", # Kiel Institute for the World Economy
+    "01mzk5576_els2023deal_2024", # Leibniz-IPB
+    "01mzk5576_sn2024deal_2024", # Leibniz-IPB
+    "01mzk5576_wiley2024deal_2024", # Leibniz-IPB
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
