@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |292,030                  | 610,973,159    | 486                   |
+| Articles (APCs)             |292,031                  | 610,975,554    | 487                   |
 | Monographs (BPCs)           |2,698                           | 17,890,532             | 120                            |
-| OA Agreements/Contracts     |1,456                 | 191,242,261   | 141                  |
+| OA Agreements/Contracts     |1,459                 | 191,325,121   | 142                  |
 
 ## How to access the data?
 
@@ -201,6 +201,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Kiel Institute for the World Economy](https://www.ifw-kiel.de/institute/about-the-kiel-institute/organization/open-access-policy-of-the-kiel-institute/)
 - [Leibniz Institute for Baltic Sea Research](https://www.io-warnemuende.de/en_index.html)
 - [Leibniz Institute for the German Language](https://www.ids-mannheim.de/bibliothek/open-access-am-ids/)
+- [Leibniz Institute of Plant Biochemistry](http://www.ipb-halle.de/en)
 - [Leibniz Institute on Aging - Fritz Lipmann Institute](https://www.leibniz-fli.de)
 - [Leibniz-Fonds](https://www.leibniz-gemeinschaft.de/en/research/open-science-and-digitalisation/open-access)
 - [Leibniz-Institut für Festkörper- und Werkstoffforschung Dresden](https://www.ifw-dresden.de/about-us/library)
