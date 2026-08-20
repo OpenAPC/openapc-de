@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |292,027                  | 610,968,362    | 486                   |
+| Articles (APCs)             |292,030                  | 610,973,159    | 486                   |
 | Monographs (BPCs)           |2,698                           | 17,890,532             | 120                            |
-| OA Agreements/Contracts     |1,450                 | 191,198,640   | 141                  |
+| OA Agreements/Contracts     |1,456                 | 191,242,261   | 141                  |
 
 ## How to access the data?
 
