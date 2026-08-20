@@ -1363,6 +1363,7 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "01mzk5576_els2023deal_2024", # Leibniz-IPB
     "01mzk5576_sn2024deal_2024", # Leibniz-IPB
     "01mzk5576_wiley2024deal_2024", # Leibniz-IPB
+    "00q5t0010_sn2024deal_2024", # Leibniz-LIR
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
