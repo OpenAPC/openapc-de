@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 225,188 articles, published at 578 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 225,197 articles, published at 579 institutions under 290 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -25,13 +25,13 @@ This dataset contains information on 225,188 articles, published at 578 institut
 |Agreement                                                                                                                                        | Articles|
 |:------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |Springer Nature (DEAL) 2020-2023                                                                                                                 |    30348|
-|Wiley (DEAL) 2019-2023                                                                                                                           |    20681|
+|Wiley (DEAL) 2019-2023                                                                                                                           |    20682|
 |Springer Compact                                                                                                                                 |    13332|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10357|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     7285|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10360|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     7289|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     5544|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     5545|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
 |Springer Compact (VSNU) 2015-2016                                                                                                                |     4013|
@@ -797,6 +797,7 @@ This dataset contains information on 225,188 articles, published at 578 institut
 |FH Vorarlberg - University of Applied Sciences                                        |        9|
 |LAB University of Applied Sciences                                                    |        9|
 |Laurentian University                                                                 |        9|
+|Leibniz-LIN                                                                           |        9|
 |Social Insurance Institution of Finland                                               |        9|
 |Tampere University of Applied Sciences                                                |        9|
 |Université du Québec à Rimouski                                                       |        9|
