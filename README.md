@@ -162,7 +162,7 @@ The following institutions have contributed to OpenAPC so far:
 - [Universität Erfurt](https://www.uni-erfurt.de/bibliothek/forschen-und-publizieren/publizieren-1/open-access-publikationsfonds)
 - [Universität Hohenheim](https://kim.uni-hohenheim.de/en/openaccess)
 - [Universität der Bundeswehr München](https://www.unibw.de)
-- [Universität zu Köln](https://ub.uni-koeln.de/en/forschen-publizieren/publizieren/financial-support-for-open-access-publications)
+- [Universität zu Köln](https://ub.uni-koeln.de/en/publishing-research/publikationsfonds)
 
 ###  Research institutes 
 
