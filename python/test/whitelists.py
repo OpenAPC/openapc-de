@@ -33,6 +33,7 @@ PUBLISHER_IDENTITY = [
     (["CRC Press", "Routledge"], ["Taylor & Francis"]),
     (["Hart Publishing"], ["Bloomsbury Publishing Plc"]), # Hart is an imprint of Bloomsbury
     (["Brill"], ["Walter de Gruyter GmbH"]),# Fusion of De Gruyter and Brill in 2024, renamed De Gruyter Brill
+    (["Society of Rheology"], ["AIP Publishing"]),
 ]
 
 
@@ -1365,6 +1366,11 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "01mzk5576_wiley2024deal_2024", # Leibniz-IPB
     "00q5t0010_sn2024deal_2024", # Leibniz-LIR
     "05hkkdn48_els2023deal_2024", # Fraunhofer-Gesellschaft
+    "04t3en479_aip2021tib_2023", # KIT
+    "04t3en479_aip2024tib_2024", # KIT
+    "04t3en479_sage2021gac_2023", # KIT
+    "04t3en479_sn2024deal_2024", # KIT
+    "04t3en479_wiley2024deal_2024", # KIT
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
