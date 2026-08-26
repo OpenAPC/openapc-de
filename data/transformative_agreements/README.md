@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 227,574 articles, published at 579 institutions under 295 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 227,568 articles, published at 578 institutions under 295 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -27,9 +27,9 @@ This dataset contains information on 227,574 articles, published at 579 institut
 |Springer Nature (DEAL) 2020-2023                                                                                                                 |    30382|
 |Wiley (DEAL) 2019-2023                                                                                                                           |    20713|
 |Springer Compact                                                                                                                                 |    13332|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10974|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10969|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     8011|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     8010|
 |Wiley (DEAL) 2024-2028                                                                                                                           |     6098|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
@@ -830,7 +830,6 @@ This dataset contains information on 227,574 articles, published at 579 institut
 |HS Furtwangen                                                                         |        6|
 |Holland Bloorview Kids Rehabilitation Hospital                                        |        6|
 |Institut für Arbeitsmarkt- und Berufsforschung                                        |        6|
-|Leibniz-LIR                                                                           |        6|
 |Netherlands Institute for Neuroscience                                                |        6|
 |Netherlands Interdisciplinary Demographic Institute (NIDI)                            |        6|
 |University of Roehampton                                                              |        6|
