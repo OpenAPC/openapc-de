@@ -16,9 +16,9 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |293,196                  | 613,562,246    | 488                   |
+| Articles (APCs)             |293,206                  | 613,586,837    | 488                   |
 | Monographs (BPCs)           |2,707                           | 17,956,939             | 120                            |
-| OA Agreements/Contracts     |1,531                 | 202,728,418   | 143                  |
+| OA Agreements/Contracts     |1,537                 | 202,950,384   | 143                  |
 
 ## How to access the data?
 
@@ -1071,19 +1071,19 @@ Articles published under OA publishing agreements, including cases where APCs ar
 #### Additional Costs for articles (APC data set)
 
 
-In addition to APCs, additional costs have been reported for 1,605 articles in the APC data set, totalling € 548,479. The following table shows an overview of the different cost types:
+In addition to APCs, additional costs have been reported for 1,608 articles in the APC data set, totalling € 550,400. The following table shows an overview of the different cost types:
 
 
 
 |Cost Type      | Number of Articles| Total Sum (€)|
 |:--------------|------------------:|-------------:|
 |colour charge  |                 96|       127,356|
-|cover charge   |                 28|        43,672|
+|cover charge   |                 29|        45,505|
 |other          |              1,034|       131,145|
 |page charge    |                224|       229,444|
-|payment fee    |                192|        10,757|
+|payment fee    |                193|        10,795|
 |reprint        |                  6|         3,470|
-|submission fee |                 25|         2,635|
+|submission fee |                 26|         2,685|
 
 
 
