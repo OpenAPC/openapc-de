@@ -2209,33 +2209,35 @@ def _obtain_group_id(row, row_num):
     if INSTITUTIONS_NAME_MAP is None:
         INSTITUTIONS_NAME_MAP = _create_institution_map_dict("institution")
     ret = {
-        "created": False,
+        "linked": False,
         "group_id": "NA"
     }
-    institution_entry = INSTITUTIONS_NAME_MAP.get(row["institution"])
-    if institution_entry is None:
-        msg = ("Line %s: Institution '%s' not present in institutions file, could not not obtain ROR for group_id generation")
-        logging.error(msg, row_num, row["institution"])
-        return ret
-    ror = institution_entry["ror_id"]
-    if not has_value(ror):
-        msg = ("Line %s: Institution '%s' does not have a ROR ID in institutions file, using the cubes name instead")
-        logging.warning(msg, row_num, row["institution"])
-        ror = institution_entry["institution_cubes_name"]
+    if "group_id" in row and has_value(row["group_id"]):
+        group_id = row["group_id"]
     else:
-        ror = ror[16:]
-    identifier = row["identifier"]
-    if not has_value(identifier):
-        identifier = row["contract_name"]
-        identifier = identifier.lower().replace(" ", "")
-    period = row["period"]
-    group_id = ror + "_" + identifier + "_" + str(period)
+        institution_entry = INSTITUTIONS_NAME_MAP.get(row["institution"])
+        if institution_entry is None:
+            msg = ("Line %s: Institution '%s' not present in institutions file, could not not obtain ROR for group_id generation")
+            logging.error(msg, row_num, row["institution"])
+            return ret
+        ror = institution_entry["ror_id"]
+        if not has_value(ror):
+            msg = ("Line %s: Institution '%s' does not have a ROR ID in institutions file, using the cubes name instead")
+            logging.warning(msg, row_num, row["institution"])
+            ror = institution_entry["institution_cubes_name"]
+        else:
+            ror = ror[16:]
+        identifier = row["identifier"]
+        if not has_value(identifier):
+            identifier = row["contract_name"]
+            identifier = identifier.lower().replace(" ", "")
+        period = row["period"]
+        group_id = ror + "_" + identifier + "_" + str(period)
     ret["group_id"] = group_id
     if CONTRACTS_LOOKUP.get_by_group_id(group_id) is not None:
         msg = ("Line %s: group_id '%s' already present in contracts.csv, article will be linked to this existing contract data")
+        ret["linked"] = True
         logging.warning(msg, row_num, group_id)
-        return ret
-    ret["created"] = True
     return ret
 
 def process_row(row, row_num, column_map, num_required_columns, additional_isbn_columns,
@@ -2568,7 +2570,7 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 ret["additional_costs"].append("NA")
 
     # only write a contracts line if a group_id could be created in the first place
-    if ta_mode and group_id_creation["created"] and not create_empty_row:
+    if ta_mode and not group_id_creation["linked"] and not create_empty_row:
         ret["contracts"] = []
         for field in COLUMN_SCHEMAS["contracts"]:
             if field == "euro": # Do not copy article-level costs to contracts...
