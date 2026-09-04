@@ -37,7 +37,7 @@ tree = ET.parse(args.oapk_xml_file)
 root = tree.getroot()
 with open(args.gold_dois) as doi_file:
     for doi in doi_file:
-        doi = doi.strip()
+        doi = doi.strip().lower()
         oat.print_c("Processing DOI " + doi + "...")
         xpath_publication_with_doi = xpath_publication_with_doi_tmpl.format(doi)
         publication = root.find(xpath_publication_with_doi, namespaces)
@@ -73,5 +73,5 @@ with open(args.gold_dois) as doi_file:
         institutions_modified.append(ins_map[ror_id]["institution"])
 ET.indent(tree, '  ')
 tree.write("out.xml", encoding="unicode", xml_declaration=True)
-oat.print_c("At least one publication from the following institutions was re-assigned to DEAL: " + ", ".join(institutions_modified))
+oat.print_c("At least one publication from the following institutions was re-assigned to DEAL: " + ", ".join(list(set(institutions_modified))))
 
