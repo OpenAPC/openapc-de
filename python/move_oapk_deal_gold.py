@@ -31,6 +31,8 @@ args = parser.parse_args()
 ET.register_namespace("opencost", "https://opencost.de")
 xpath_publication_with_doi_tmpl = "opencost:publication/opencost:primary_identifier/opencost:doi[.='{}']../.."
 
+institutions_modified = []
+
 tree = ET.parse(args.oapk_xml_file)
 root = tree.getroot()
 with open(args.gold_dois) as doi_file:
@@ -68,6 +70,8 @@ with open(args.gold_dois) as doi_file:
         group_id_element = ET.SubElement(part_of_contract, 'opencost:group_id')
         group_id_element.text = group_id
         oat.print_g("part_of_contract appended successfully")
+        institutions_modified.append(ins_map[ror_id]["institution"])
 ET.indent(tree, '  ')
 tree.write("out.xml", encoding="unicode", xml_declaration=True)
+oat.print_c("At least one publication from the following institutions was re-assigned to DEAL: " + ", ".join(institutions_modified))
 
