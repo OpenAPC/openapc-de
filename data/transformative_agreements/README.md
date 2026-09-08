@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 227,648 articles, published at 578 institutions under 295 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 227,815 articles, published at 578 institutions under 295 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -24,13 +24,13 @@ This dataset contains information on 227,648 articles, published at 578 institut
 
 |Agreement                                                                                                                                        | Articles|
 |:------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|Springer Nature (DEAL) 2020-2023                                                                                                                 |    30382|
-|Wiley (DEAL) 2019-2023                                                                                                                           |    20713|
+|Springer Nature (DEAL) 2020-2023                                                                                                                 |    30383|
+|Wiley (DEAL) 2019-2023                                                                                                                           |    20717|
 |Springer Compact                                                                                                                                 |    13332|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    10970|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    11081|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     8072|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     6099|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     8101|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     6121|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
@@ -355,9 +355,9 @@ This dataset contains information on 227,648 articles, published at 578 institut
 |Bonn U                                                                                |     2286|
 |Trinity College Dublin                                                                |     2280|
 |École Polytechnique Fédérale de Lausanne                                              |     2276|
+|Wuerzburg U                                                                           |     2185|
 |University of Padua                                                                   |     2148|
 |Erlangen Nuernberg U                                                                  |     2098|
-|Wuerzburg U                                                                           |     2018|
 |University of Jyväskylä                                                               |     1969|
 |TU Dresden                                                                            |     1948|
 |University College Cork                                                               |     1873|
