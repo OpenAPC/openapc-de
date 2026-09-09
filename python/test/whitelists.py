@@ -727,6 +727,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2183-3869": ["AP2 - Associação para a Participação Pública", "Visualcom Scientific Publications SL"], # Street Art & Urban Creativity (linking)
 	"2332-8878": ["Informa UK Limited", "American Association for the Advancement of Science (AAAS)"], # Ecosystem Health and Sustainability
 	"2096-4129": ["Informa UK Limited", "American Association for the Advancement of Science (AAAS)"], # Ecosystem Health and Sustainability (linking)
+	"1056-8190": ["Wiley-Blackwell", "Elsevier BV"], # Papers in Regional Science 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1295,6 +1296,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1573-6822", # Cell Biology and Toxicology, Gold OA since 2024
     "1098-111X", # International Journal of Intelligent Systems, Gold OA since 2023
     "0273-1223", # Water Science & Technology, S2O since 2021
+    "1056-8190", # Papers in Regional Science, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1371,6 +1373,9 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "04t3en479_sage2021gac_2023", # KIT
     "04t3en479_sn2024deal_2024", # KIT
     "04t3en479_wiley2024deal_2024", # KIT
+    "04v76ef78_els2023deal_2024", # Kiel U
+    "04v76ef78_sn2024deal_2024", # Kiel U
+    "04v76ef78_wiley2024deal_2024", # Kiel U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
