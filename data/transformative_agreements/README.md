@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 229,126 articles, published at 578 institutions under 295 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 229,134 articles, published at 578 institutions under 295 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -29,8 +29,8 @@ This dataset contains information on 229,126 articles, published at 578 institut
 |Springer Compact                                                                                                                                 |    13332|
 |Springer Nature (DEAL) 2024-2028                                                                                                                 |    11676|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     8480|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     6376|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     8487|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     6377|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
@@ -454,9 +454,9 @@ This dataset contains information on 229,126 articles, published at 578 institut
 |Chalmers University of Technology                                                     |      458|
 |Erasmus MC                                                                            |      453|
 |McGill University                                                                     |      449|
+|Hamburg TUHH                                                                          |      448|
 |Academic Medical Center (AMC)                                                         |      447|
 |Medizinische Hochschule Hannover                                                      |      442|
-|Hamburg TUHH                                                                          |      440|
 |University of Innsbruck and Medical University of Innsbruck                           |      436|
 |University of Alberta                                                                 |      435|
 |University of St.Gallen                                                               |      432|
