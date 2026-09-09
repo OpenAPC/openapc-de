@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 227,815 articles, published at 578 institutions under 295 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 228,060 articles, published at 578 institutions under 295 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -24,13 +24,13 @@ This dataset contains information on 227,815 articles, published at 578 institut
 
 |Agreement                                                                                                                                        | Articles|
 |:------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|Springer Nature (DEAL) 2020-2023                                                                                                                 |    30383|
-|Wiley (DEAL) 2019-2023                                                                                                                           |    20717|
+|Springer Nature (DEAL) 2020-2023                                                                                                                 |    30382|
+|Wiley (DEAL) 2019-2023                                                                                                                           |    20713|
 |Springer Compact                                                                                                                                 |    13332|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    11081|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    11078|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     8101|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     6121|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     8211|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     6210|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
@@ -80,7 +80,7 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |Oxford University Press (CSAL) 2023-2024                                                                                                         |      642|
 |Springer Nature (CRUE-CSIC Alliance) 2021-2024                                                                                                   |      636|
 |Springer Compact (MPDL) 2015-2018                                                                                                                |      622|
-|RSC (TIB) 2024-2027                                                                                                                              |      589|
+|RSC (TIB) 2024-2027                                                                                                                              |      596|
 |Sage (FinELib) 2020-2022                                                                                                                         |      588|
 |American Chemical Society (FinELib) 2021-2023                                                                                                    |      565|
 |Sage (IReL) 2021-2023                                                                                                                            |      562|
@@ -107,8 +107,8 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |Wiley (KEMOE/FWF) 2021-2023                                                                                                                      |      415|
 |IEEE (IReL) 2021-2023                                                                                                                            |      409|
 |Oxford University Press (CSIC) 2020-2024                                                                                                         |      403|
+|CUP (BSB) 2022-2024                                                                                                                              |      402|
 |Oxford University Press (IReL) 2021-2023                                                                                                         |      395|
-|CUP (BSB) 2022-2024                                                                                                                              |      394|
 |Oxford University Press (FinELib) 2024-2025                                                                                                      |      388|
 |Springer Compact (KEMOE/FWF) 2019-2021                                                                                                           |      372|
 |Royal Society of Chemistry (CSAL) 2021-2023                                                                                                      |      364|
@@ -128,13 +128,14 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |Taylor & Francis (KEMOE) 2020-2023                                                                                                               |      217|
 |American Chemical Society (CRUI-CARE) 2020-2023                                                                                                  |      207|
 |Royal Society of Chemistry (CSIC) 2021-2022                                                                                                      |      201|
+|Walter de Gruyter (SUB Göttingen) 2023-2024                                                                                                      |      201|
 |Royal Society of Chemistry (CSIC) 2019-2020                                                                                                      |      200|
 |Springer Nature (CzechELib) 2023-2025                                                                                                            |      200|
 |Wiley (CRUE-CSIC Alliance) 2021-2021                                                                                                             |      198|
 |Elsevier (QNL) 2020-2022                                                                                                                         |      194|
 |Sage (KEMOE) 2023-2026                                                                                                                           |      192|
-|Walter de Gruyter (SUB Göttingen) 2023-2024                                                                                                      |      191|
 |Springer Nature (KEMOE/FWF) 2022-2023                                                                                                            |      185|
+|ACS (FAK) 2024-2026                                                                                                                              |      183|
 |Wolters Kluwer Health (Consortium of Swiss Academic Libraries) 2025-2027                                                                         |      181|
 |AIP (TIB) 2024-2026                                                                                                                              |      174|
 |Elsevier (FinELib) 2022-2024                                                                                                                     |      173|
@@ -144,7 +145,6 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |Emerald (IReL) 2021-2023                                                                                                                         |      164|
 |Karger (CSAL) 2023-2025                                                                                                                          |      164|
 |Nature (CSAL) 2023-2025                                                                                                                          |      164|
-|ACS (FAK) 2024-2026                                                                                                                              |      160|
 |Wolters Kluwer Health (FinELib) 2024-2026                                                                                                        |      156|
 |Emerald (FinELib consortium) 2025-2026                                                                                                           |      151|
 |IEEE (CRUI-CARE) 2022-2024                                                                                                                       |      151|
@@ -155,8 +155,8 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |IEEE (CSAL) 2021-2024                                                                                                                            |      131|
 |Royal Society of Chemistry (KEMOE) 2017-2018                                                                                                     |      127|
 |IOP Publishing (KEMOE/FWF) 2020-2022                                                                                                             |      126|
+|Hogrefe (SUB Göttingen) 2024-2026                                                                                                                |      123|
 |IEEE (KEMOE/FWF) 2021-2024                                                                                                                       |      123|
-|Hogrefe (SUB Göttingen) 2024-2026                                                                                                                |      122|
 |Karger (CSAL) 2020-2022                                                                                                                          |      118|
 |Royal Society of Chemistry (IReL) 2025-2028                                                                                                      |      118|
 |Emerald (IReL) 2024-2026                                                                                                                         |      116|
@@ -166,8 +166,8 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |Cambridge University Press (CRUI-CARE) 2023-2025                                                                                                 |      105|
 |IOP Publishing (IReL) 2021-2024                                                                                                                  |      103|
 |QNL Springer Nature Agreement                                                                                                                    |      103|
+|Nature (MPDL) 2021-2024                                                                                                                          |       97|
 |Cambridge University Press (KEMOE) 2023-2027                                                                                                     |       95|
-|Nature (MPDL) 2021-2024                                                                                                                          |       93|
 |QNL Wiley Agreement                                                                                                                              |       92|
 |IOP Publishing (KEMOE/FWF) 2017-2019                                                                                                             |       91|
 |Walter de Gruyter (CRUI-CARE) 2020-2022                                                                                                          |       91|
@@ -179,8 +179,8 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |IReL RIA Agreement                                                                                                                               |       76|
 |Oxford University Press (CzechELib) 2023-2025                                                                                                    |       73|
 |IOP Publishing (KEMOE) 2023-2026                                                                                                                 |       69|
+|BMJ (BSB) 2023-2024                                                                                                                              |       67|
 |Association for Computing Machinery (FinELib) 2022-2024                                                                                          |       66|
-|BMJ (BSB) 2023-2024                                                                                                                              |       66|
 |IOP Publishing (CSIC) 2023-2025                                                                                                                  |       66|
 |Elsevier (EISZ) 2022-2022                                                                                                                        |       64|
 |IEEE (Fraunhofer) 2023-2025                                                                                                                      |       63|
@@ -355,9 +355,9 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |Bonn U                                                                                |     2286|
 |Trinity College Dublin                                                                |     2280|
 |École Polytechnique Fédérale de Lausanne                                              |     2276|
-|Wuerzburg U                                                                           |     2185|
 |University of Padua                                                                   |     2148|
 |Erlangen Nuernberg U                                                                  |     2098|
+|Wuerzburg U                                                                           |     2018|
 |University of Jyväskylä                                                               |     1969|
 |TU Dresden                                                                            |     1948|
 |University College Cork                                                               |     1873|
@@ -390,6 +390,7 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |UCL                                                                                   |     1022|
 |FZJ - ZB                                                                              |     1013|
 |Marburg U                                                                             |      987|
+|Kiel U                                                                                |      984|
 |Fraunhofer-Gesellschaft                                                               |      970|
 |MPG                                                                                   |      946|
 |Hannover U                                                                            |      942|
@@ -427,7 +428,6 @@ This dataset contains information on 227,815 articles, published at 578 institut
 |University of Manchester                                                              |      585|
 |University of Graz                                                                    |      579|
 |Bayreuth U                                                                            |      576|
-|Kiel U                                                                                |      572|
 |Saarland U                                                                            |      567|
 |TU Chemnitz                                                                           |      561|
 |Konstanz U                                                                            |      560|
