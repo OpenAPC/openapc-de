@@ -1297,6 +1297,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1098-111X", # International Journal of Intelligent Systems, Gold OA since 2023
     "0273-1223", # Water Science & Technology, S2O since 2021
     "1056-8190", # Papers in Regional Science, Gold OA since 2024
+    "2192-953X", # European Journal of Applied Linguistics, S2O since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
