@@ -731,7 +731,9 @@ JOURNAL_OWNER_CHANGED = {
 	"2210-6359": ["Springer Nature", "Pensoft Publishers"], # IMA Fungus 
 	"2210-6340": ["Springer Nature", "Pensoft Publishers"], # IMA Fungus (print)
 	"2542-4823": ["IOS Press", "SAGE Publications"], # Journal of Alzheimer's Disease Reports 
-	"1944-3986": ["Desalination Publications", "Elsevier BV"], # Desalination and Water Treatment 
+	"1944-3986": ["Desalination Publications", "Elsevier BV"], # Desalination and Water Treatment
+	"1937-3341": ["Mary Ann Liebert Inc", "SAGE Publications"], # Tissue Engineering Part A 
+	"1937-335X": ["Mary Ann Liebert Inc", "SAGE Publications"], # Tissue Engineering Part A (electronic) 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1303,6 +1305,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1056-8190", # Papers in Regional Science, Gold OA since 2024
     "2192-953X", # European Journal of Applied Linguistics, S2O since 2025
     "1944-3986", # DESALINATION AND WATER TREATMENT, Gold OA since 2024
+    "0363-6135", # American Journal of Physiology - Heart and Circulatory Physiology, S2O since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
