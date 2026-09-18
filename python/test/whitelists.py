@@ -728,6 +728,10 @@ JOURNAL_OWNER_CHANGED = {
 	"2332-8878": ["Informa UK Limited", "American Association for the Advancement of Science (AAAS)"], # Ecosystem Health and Sustainability
 	"2096-4129": ["Informa UK Limited", "American Association for the Advancement of Science (AAAS)"], # Ecosystem Health and Sustainability (linking)
 	"1056-8190": ["Wiley-Blackwell", "Elsevier BV"], # Papers in Regional Science 
+	"2210-6359": ["Springer Nature", "Pensoft Publishers"], # IMA Fungus 
+	"2210-6340": ["Springer Nature", "Pensoft Publishers"], # IMA Fungus (print)
+	"2542-4823": ["IOS Press", "SAGE Publications"], # Journal of Alzheimer's Disease Reports 
+	"1944-3986": ["Desalination Publications", "Elsevier BV"], # Desalination and Water Treatment 
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1298,6 +1302,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0273-1223", # Water Science & Technology, S2O since 2021
     "1056-8190", # Papers in Regional Science, Gold OA since 2024
     "2192-953X", # European Journal of Applied Linguistics, S2O since 2025
+    "1944-3986", # DESALINATION AND WATER TREATMENT, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
