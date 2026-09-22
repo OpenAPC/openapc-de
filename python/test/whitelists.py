@@ -1385,6 +1385,13 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "04v76ef78_els2023deal_2024", # Kiel U
     "04v76ef78_sn2024deal_2024", # Kiel U
     "04v76ef78_wiley2024deal_2024", # Kiel U
+    "023b0x485_thie2019ger_2023", # JGU Mainz
+    "023b0x485_els2023deal_2023", # JGU Mainz
+    "023b0x485_els2023deal_2024", # JGU Mainz
+    "023b0x485_sn2020deal_2022", # JGU Mainz
+    "023b0x485_sn2024deal_2024", # JGU Mainz
+    "023b0x485_wiley2019deal_2023", # JGU Mainz
+    "023b0x485_wiley2019deal_2022", # JGU Mainz
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
