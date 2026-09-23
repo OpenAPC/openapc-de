@@ -132,7 +132,7 @@ class OpenCostValidator(object):
             ret["error_msg"] = str(invalid)
             return ret
 
-def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
+def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True, optional_identifier=None):
     """
     Extract and process payment data from an openCost invoice element.
     """
@@ -157,6 +157,9 @@ def _process_oc_invoice_data(invoice_element, namespaces, strict_vat=True):
         'add_amounts_paid': 'Cost type {} occurs more than once in the same ' +
                        'invoice, adding amounts ({} + {} = {})'
     }
+    if optional_identifier is not None:
+        for key, value in msgs.items():
+            msgs[key] = value + " [" + optional_identifier + "]"
 
     cost_data_xpaths = {
         "date_paid": "opencost:dates//opencost:paid",
@@ -306,7 +309,7 @@ def _process_oc_contract_cost_data(cost_data_element, namespaces):
             data["period"] = years["from"]
         invoice_elements = group_element.findall("opencost:invoice", namespaces)
         for invoice_element in invoice_elements:
-            processed_invoice = _process_oc_invoice_data(invoice_element, namespaces, strict_vat=False)
+            processed_invoice = _process_oc_invoice_data(invoice_element, namespaces, strict_vat=False, optional_identifier=data["group_id"])
             if not processed_invoice["success"]:
                 return processed_invoice
             invoice_data = processed_invoice["data"]
@@ -475,20 +478,21 @@ def process_opencost_xml(*xml_content_strings):
                     result = publication.find(xpath, namespaces)
                     if result is not None and result.text is not None:
                         publication_data[field] = result.text
+            doi = publication_data.get("doi")
             if "external_costsplitting" in publication_data:
                 if publication_data["external_costsplitting"] in ["1", "true"]:
                     prefix = ""
-                    if "doi" in publication_data:
-                        prefix += " (" +  publication_data["doi"] + "): "
+                    if doi is not None:
+                        prefix += " (" +  doi + "): "
                     logging.warning(prefix + msgs["external_costsplitting"])
                     extracted_publications.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
                     continue
             cost_data_element = publication.find(cost_data_xpath, namespaces)
-            cost_data_extract = _process_oc_publication_cost_data(cost_data_element, namespaces)
+            cost_data_extract = _process_oc_publication_cost_data(cost_data_element, namespaces, optional_identifier=doi)
             if not cost_data_extract["success"]:
                 prefix = "Error: "
-                if "doi" in publication_data:
-                    prefix = "Error (" +  publication_data["doi"] + "): "
+                if doi is not None:
+                    prefix = "Error (" +  doi + "): "
                 logging.error(prefix + cost_data_extract["error_msg"])
                 extracted_publications.append({field: "" for field, _ in OPENCOST_EXTRACTION_FIELDS.items()})
                 continue
@@ -515,7 +519,7 @@ def process_opencost_xml(*xml_content_strings):
             extracted_invoice_groups += invoice_groups
     return extracted_publications, extracted_invoice_groups
 
-def _process_oc_publication_cost_data(cost_data_element, namespaces):
+def _process_oc_publication_cost_data(cost_data_element, namespaces, optional_identifier=None):
     """
     Extract date and cost data from an openCost publication cost_data element
 
@@ -551,6 +555,9 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
         'add_amounts_invoices': 'Cost type {} occurs in more than once, ' +
                                 'adding amounts ({} + {} = {})'
     }
+    if optional_identifier is not None:
+        for key, value in msgs.items():
+            msgs[key] = value + " [" + optional_identifier + "]"
 
     part_of_contract_xpaths = {
         "contract_primary_identifier": "opencost:primary_identifier/opencost:value",
@@ -576,7 +583,7 @@ def _process_oc_publication_cost_data(cost_data_element, namespaces):
     invoices = cost_data_element.findall("opencost:invoice", namespaces)
     invoices_data = []
     for invoice_element in invoices:
-        processed_invoice = _process_oc_invoice_data(invoice_element, namespaces)
+        processed_invoice = _process_oc_invoice_data(invoice_element, namespaces, optional_identifier=optional_identifier)
         if not processed_invoice["success"]:
             return processed_invoice
         invoices_data.append(processed_invoice["data"])
