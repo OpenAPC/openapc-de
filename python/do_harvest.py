@@ -26,6 +26,10 @@ ARG_HELP_STRINGS = {
                     "works in connection with the -v option"
 }
 
+PUBLICATION_TYPE_MAPPINGS = {
+    "doctoral thesis": "book"
+}
+
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact", validate_only=False, force_update=False, record_url=None):
     """
     Harvest records via OAI-PMH
@@ -129,6 +133,7 @@ def main():
                 }
                 for publication_dict in publication_dicts:
                     pub_type = publication_dict.get("type", "journal article") # opencost only, intact will be accepted as article per default
+                    pub_type = PUBLICATION_TYPE_MAPPINGS.get(pub_type, pub_type)
                     if pub_type not in new_publications:
                         msg = 'Skipping publication ({}), invalid type "{}"'
                         oat.print_y(msg.format(publication_dict["doi"], publication_dict["type"]))
