@@ -733,7 +733,9 @@ JOURNAL_OWNER_CHANGED = {
 	"2542-4823": ["IOS Press", "SAGE Publications"], # Journal of Alzheimer's Disease Reports 
 	"1944-3986": ["Desalination Publications", "Elsevier BV"], # Desalination and Water Treatment
 	"1937-3341": ["Mary Ann Liebert Inc", "SAGE Publications"], # Tissue Engineering Part A 
-	"1937-335X": ["Mary Ann Liebert Inc", "SAGE Publications"], # Tissue Engineering Part A (electronic) 
+	"1937-335X": ["Mary Ann Liebert Inc", "SAGE Publications"], # Tissue Engineering Part A (electronic)
+	"1873-9601": ["Springer Nature", "Wiley-Blackwell"], # Journal of Cell Communication and Signaling 
+	"1873-961X": ["Springer Nature", "Wiley-Blackwell"], # Journal of Cell Communication and Signaling (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1306,6 +1308,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2192-953X", # European Journal of Applied Linguistics, S2O since 2025
     "1944-3986", # DESALINATION AND WATER TREATMENT, Gold OA since 2024
     "0363-6135", # American Journal of Physiology - Heart and Circulatory Physiology, S2O since 2025
+    "1873-9601", # Journal of Cell Communication and Signaling, Gold OA since 2024
+    "2213-333X", # Journal of Vascular Surgery: Venous and Lymphatic Disorders, Gold OA since 2024
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
