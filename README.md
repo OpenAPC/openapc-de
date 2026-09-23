@@ -174,7 +174,7 @@ The following institutions have contributed to OpenAPC so far:
 ####  Helmholtz Association 
 
 - [Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung](https://www.awi.de/en/)
-- [Deutsches Elektronen-Synchrotron DESY](https://library.desy.de/open_access/publishing_options_for_authors/)
+- [Deutsches Elektronen-Synchrotron DESY](https://library.desy.de/publish/where_to_publish/open_access_amp_costs/index_eng.html)
 - [Deutsches Zentrum für Luft- und Raumfahrt](https://www.dlr.de/de/das-dlr/ueber-uns/organisation/wissenschaftliche-information/dlr-bibliothek)
 - [Forschungszentrum Jülich](https://www.fz-juelich.de/zb/DE/Leistungen/Open_Access/publikationsfonds/publikationsfonds_node.html)
 - [GEOMAR - Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/bibliothek/publikation/open-access)
