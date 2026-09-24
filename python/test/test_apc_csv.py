@@ -602,12 +602,14 @@ def check_contract_consistency(row_object):
     contract_name = row["contract_name"]
     amount = float(row["euro"]) if oat.has_value(row["euro"]) else None
     cost_type = row["cost_type"]
+    period_from = row["period_from"]
+    period_to = row["period_to"]
     same_group_id_rows = group_id_dict[group_id]
     for other_row_object in same_group_id_rows:
         if other_row_object.line_number == row_object.line_number:
             continue
         other_row = other_row_object.row
-        for field in ["institution", "contract_name", "identifier", "consortium"]:
+        for field in ["institution", "contract_name", "identifier", "consortium", "period_from", "period_to"]:
             if row[field] != other_row[field]:
                 msg = msg.format("group_id", group_id, field, row[field], other_row[field])
                 fail(msg)
@@ -709,6 +711,7 @@ def check_ta_data(row_object):
         agreement = row["agreement"]
         publisher = row["publisher"]
         doi = row["doi"]
+        period = row["period"]
         if not oat.has_value(row["group_id"]):
             msg = 'missing group_id for agreement "{}" [{}]'
             ret = line_str + msg.format(agreement, doi)
@@ -734,6 +737,12 @@ def check_ta_data(row_object):
             if identifier != agreement and contract_name != agreement:
                 msg = 'agreement name "{}" for group_id {} does not match values in linked contract record (contract_name: "{}"; identifier: "{}")'
                 ret = line_str + msg.format(agreement, group_id, contract_name, identifier)
+                fail(ret)
+            period_from = row_object.row["period_from"]
+            period_to = row_object.row["period_to"]
+            if period < period_from or period > period_to:
+                msg = 'period {} for doi {} is outside linked contract period ({}, {}-{})'
+                ret = line_str + msg.format(period, doi, group_id, period_from, period_to)
                 fail(ret)
 
 @pytest.mark.parametrize("row_object", APC_DATA)
