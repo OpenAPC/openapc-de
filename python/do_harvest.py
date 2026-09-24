@@ -27,7 +27,9 @@ ARG_HELP_STRINGS = {
 }
 
 PUBLICATION_TYPE_MAPPINGS = {
-    "doctoral thesis": "book"
+    "doctoral thesis": "BPC",
+    "book": "BPC",
+    "journal article": "APC"
 }
 
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact", validate_only=False, force_update=False, record_url=None):
@@ -127,17 +129,21 @@ def main():
                 elif repo_type == 'opencost':
                     header = list(octk.OPENCOST_EXTRACTION_FIELDS.keys())
                 new_publications = {
-                    "journal article": [list(header)],
-                    "book": [list(header)],
+                    "APC": [list(header)],
+                    "BPC": [list(header)],
+                    "TA": [list(header)],
                     "contracts": [list(oat.COLUMN_SCHEMAS["contracts"])]
                 }
                 for publication_dict in publication_dicts:
+                    print(publication_dict)
                     pub_type = publication_dict.get("type", "journal article") # opencost only, intact will be accepted as article per default
                     pub_type = PUBLICATION_TYPE_MAPPINGS.get(pub_type, pub_type)
                     if pub_type not in new_publications:
                         msg = 'Skipping publication ({}), invalid type "{}"'
                         oat.print_y(msg.format(publication_dict["doi"], publication_dict["type"]))
                         continue
+                    if pub_type == "APC" and oat.has_value(publication_dict.get("contract_group_id")):
+                        pub_type = "TA"
                     new_publications[pub_type].append([publication_dict[key] for key in header])
                 for invoice_group in invoice_groups:
                     contract_rows = octk.transform_invoice_group(invoice_group)
