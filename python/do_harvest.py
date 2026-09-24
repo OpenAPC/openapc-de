@@ -135,7 +135,6 @@ def main():
                     "contracts": [list(oat.COLUMN_SCHEMAS["contracts"])]
                 }
                 for publication_dict in publication_dicts:
-                    print(publication_dict)
                     pub_type = publication_dict.get("type", "journal article") # opencost only, intact will be accepted as article per default
                     pub_type = PUBLICATION_TYPE_MAPPINGS.get(pub_type, pub_type)
                     if pub_type not in new_publications:
