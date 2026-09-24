@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 231,031 articles, published at 578 institutions under 296 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 231,032 articles, published at 578 institutions under 296 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -51,7 +51,7 @@ This dataset contains information on 231,031 articles, published at 578 institut
 |Elsevier (CSAL) 2024-2028                                                                                                                        |     2246|
 |Wiley (FinELib) 2023-2024                                                                                                                        |     2208|
 |Springer Compact (VSNU) 2018-2023                                                                                                                |     2041|
-|Elsevier (KEMOE) 2024-2026                                                                                                                       |     1999|
+|Elsevier (KEMOE) 2024-2026                                                                                                                       |     2000|
 |Springer Nature (FinELib) 2024-2025                                                                                                              |     1848|
 |Wiley (FinELib) 2020-2022                                                                                                                        |     1640|
 |Springer Nature (KEMOE) 2024-2026                                                                                                                |     1609|
@@ -400,7 +400,7 @@ This dataset contains information on 231,031 articles, published at 578 institut
 |DLR                                                                                   |      910|
 |Hohenheim U                                                                           |      884|
 |University of Oxford                                                                  |      883|
-|TU Wien                                                                               |      879|
+|TU Wien                                                                               |      880|
 |Uppsala University                                                                    |      869|
 |Åbo Akademi University                                                                |      864|
 |Empa - Swiss Federal Laboratories for Materials Science and Technology                |      825|

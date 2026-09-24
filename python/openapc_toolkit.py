@@ -960,7 +960,7 @@ class ContractsLookup(object):
 
     def __init__(self):
         lookup_fields = ["identifier", "contract_name", "group_id"]
-        data_fields = ["identifier", "contract_name", "group_id", "consortium"]
+        data_fields = ["identifier", "contract_name", "group_id", "consortium", "period_from", "period_to"]
         self.lookup_dicts = {
             field: {} for field in lookup_fields
         }
@@ -2524,6 +2524,20 @@ def process_row(row, row_num, column_map, num_required_columns, additional_isbn_
                 logging.info(msg)
     if ta_mode:
         record_type = "journal-article_transagree"
+        if "group_id" in current_row:
+            group_id_dict = CONTRACTS_LOOKUP.get_by_group_id(current_row["group_id"])
+            if group_id_dict is not None:
+                period = int(current_row["period"])
+                period_from = int(group_id_dict["period_from"][0])
+                period_to = int(group_id_dict["period_to"][0])
+                if period < period_from:
+                    msg = "Line %s: Article period (%s) is outside contract period (%s-%s), setting it to %s"
+                    current_row["period"] = str(period_from)
+                    logging.warning(msg, row_num, period, period_from, period_to, period_from)
+                elif period > period_to:
+                    msg = "Line %s: Article period (%s) is outside contract period (%s-%s), setting it to %s"
+                    current_row["period"] = str(period_to)
+                    logging.warning(msg, row_num, period, period_from, period_to, period_to)
         current_row["period_from"] = current_row["period"]
         current_row["period_to"] = current_row["period"]
         current_row["cost_type"] = "NA"
