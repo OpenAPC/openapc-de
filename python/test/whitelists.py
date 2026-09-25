@@ -34,6 +34,7 @@ PUBLISHER_IDENTITY = [
     (["Hart Publishing"], ["Bloomsbury Publishing Plc"]), # Hart is an imprint of Bloomsbury
     (["Brill"], ["Walter de Gruyter GmbH"]),# Fusion of De Gruyter and Brill in 2024, renamed De Gruyter Brill
     (["Society of Rheology"], ["AIP Publishing"]),
+    (["Bielefeld University Press"], ["transcript Verlag"]),
 ]
 
 
@@ -1310,6 +1311,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0363-6135", # American Journal of Physiology - Heart and Circulatory Physiology, S2O since 2025
     "1873-9601", # Journal of Cell Communication and Signaling, Gold OA since 2024
     "2213-333X", # Journal of Vascular Surgery: Venous and Lymphatic Disorders, Gold OA since 2024
+    "0022-3077", # Journal of Neurophysiology, S2O since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
@@ -1396,6 +1398,11 @@ CONFIRMED_SIMILAR_CONTRACTS_AMOUNTS = [
     "023b0x485_sn2024deal_2024", # JGU Mainz
     "023b0x485_wiley2019deal_2023", # JGU Mainz
     "023b0x485_wiley2019deal_2022", # JGU Mainz
+    "02hpadn98_wiley2024deal_2025", # Bielefeld U
+    "02hpadn98_sn2024deal_2024", # Bielefeld U
+    "02hpadn98_sn2024deal_2025", # Bielefeld U
+    "02hpadn98_els2023deal_2024", # Bielefeld U
+    "02hpadn98_els2023deal_2025", # Bielefeld U
 ]
 
 # A whitelist to identify titles which a shared by multiple journals. The list
