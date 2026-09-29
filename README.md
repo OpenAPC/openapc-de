@@ -16,7 +16,7 @@ At the moment OpenAPC provides the following cost data:
 
 | Entity                      | Count                                     | Aggregated Sum (€)               | Contributing Institutions                                         |
 |-----------------------------|-------------------------------------------|----------------------------------|-------------------------------------------------------------------|
-| Articles (APCs)             |295,549                  | 618,087,757    | 488                   |
+| Articles (APCs)             |295,555                  | 618,104,778    | 488                   |
 | Monographs (BPCs)           |2,759                           | 18,249,149             | 120                            |
 | OA Agreements/Contracts     |1,600                 | 213,049,201   | 143                  |
 
@@ -1021,13 +1021,13 @@ The following institutions have contributed to OpenAPC so far:
 
 
 
-The APC data set contains information on 269,221 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 486 research-performing institutions and research funders.
+The APC data set contains information on 267,195 Open Access journal articles for which publication fees were paid on an article basis. These articles were published in fully Open Access and hybrid journals, and the corresponding fees were supported financially by 486 research-performing institutions and research funders.
 
-In total, article publication fee spending covered by the OpenAPC initiative amounted to € 559,734,203. The average payment was € 2,079 and the median was € 1,916.
+In total, article publication fee spending covered by the OpenAPC initiative amounted to € 552,954,826. The average payment was € 2,069 and the median was € 1,911.
 
-201,097 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 383,569,182, including value-added tax; the average payment was € 1,907 (median =  € 1,757, SD = € 952).
+199,072 articles in the data set were published in fully open access journals. Total spending on publication fees for these articles amounts to € 376,792,072, including value-added tax; the average payment was € 1,893 (median =  € 1,749, SD = € 931).
 
-Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 68,124 articles in the data set were published in hybrid journals. Total expenditure amounts to 176,165,021 €; the average fee was € 2,586 (median =  € 2,520, SD = € 1,182).
+Hybrid open access journals rely on both publication fees and subscriptions as revenue source. 68,123 articles in the data set were published in hybrid journals. Total expenditure amounts to 176,162,754 €; the average fee was € 2,586 (median =  € 2,520, SD = € 1,182).
 
 Articles published under OA publishing agreements, including cases where APCs are paid on an article basis within such agreements, are not included in the APC data set but are recorded in the TA data set.
 
@@ -1058,12 +1058,12 @@ Articles published under OA publishing agreements, including cases where APCs ar
 |2017   |      14,975|   1,700|     1,553|   8.7 - 14,634|          10,645|       2,528|         2,469|    36.9 -  9,858|
 |2018   |      16,612|   1,700|     1,581|  13.0 -  8,926|           9,481|       2,551|         2,538|     1.8 -  9,073|
 |2019   |      17,946|   1,708|     1,634|  10.7 -  7,821|           7,123|       2,535|         2,498|    75.3 -  9,500|
-|2020   |      20,324|   1,708|     1,668|   0.2 -  8,906|           4,582|       2,498|         2,534|    16.6 -  7,416|
-|2021   |      25,378|   1,814|     1,760|  27.0 -  8,341|           3,868|       2,566|         2,519|    30.2 - 11,400|
-|2022   |      27,147|   2,085|     1,990|  12.4 - 11,175|           3,153|       2,904|         2,730|     2.1 - 14,607|
-|2023   |      23,992|   2,293|     2,206|  35.0 -  9,893|           3,592|       3,025|         2,841|   106.4 - 11,895|
-|2024   |      19,025|   2,463|     2,387|  40.0 -  9,758|           2,617|       3,135|         2,978|    28.4 - 13,044|
-|2025   |       5,957|   2,668|     2,421|  20.0 -  8,854|             797|       3,221|         2,875|    95.0 - 13,166|
+|2020   |      20,267|   1,706|     1,668|   0.2 -  8,906|           4,582|       2,498|         2,534|    16.6 -  7,416|
+|2021   |      24,995|   1,801|     1,754|  27.0 -  8,341|           3,868|       2,566|         2,519|    30.2 - 11,400|
+|2022   |      26,781|   2,068|     1,990|  12.4 - 11,175|           3,153|       2,904|         2,730|     2.1 - 14,607|
+|2023   |      23,703|   2,278|     2,201|  35.0 -  9,893|           3,591|       3,025|         2,841|   106.4 - 11,895|
+|2024   |      18,496|   2,433|     2,380|  40.0 -  9,758|           2,617|       3,135|         2,978|    28.4 - 13,044|
+|2025   |       5,556|   2,585|     2,400|  20.0 -  8,854|             797|       3,221|         2,875|    95.0 - 13,166|
 |2026   |         418|   2,475|     2,398|  66.0 -  7,503|              39|       3,197|         3,364|   595.0 -  5,142|
 
 
@@ -1169,8 +1169,8 @@ Metadata representing publication titles or publisher names is obtained from Cro
 |Identifier                 | Coverage (articles)                                               | Coverage (Books)                                            |
 |:--------------------------|:------------------------------------------------------------------|-------------------------------------------------------------|
 |DOI                        |  99.78%       |88.73%   |
-|PubMed ID                  |  70.92%      | NA                                                          |
-|PubMed Central ID          |  65.4%     | NA                                                          |
+|PubMed ID                  |  70.08%      | NA                                                          |
+|PubMed Central ID          |  64.54%     | NA                                                          |
 
 
 
