@@ -573,9 +573,9 @@ JOURNAL_OWNER_CHANGED = {
 	"2193-0074": ["Copernicus GmbH", "Pensoft Publishers"], # Fossil Record 
 	"2193-0066": ["Copernicus GmbH", "Pensoft Publishers"], # Fossil Record (print)
 	"2052-3211": ["Springer Nature", "Informa UK Limited"], # Journal of Pharmaceutical Policy and Practice 
-	"1757-4684": ["EMBO", "Springer Nature"], # EMBO Molecular Medicine 
-	"1757-4676": ["EMBO", "Springer Nature"], # EMBO Molecular Medicine (linking)
-	"1744-4292": ["EMBO", "Springer Nature"], # Molecular Systems Biology 
+	"1757-4684": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # EMBO Molecular Medicine 
+	"1757-4676": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # EMBO Molecular Medicine (linking)
+	"1744-4292": ["Wiley-Blackwell", "EMBO", "Springer Nature"], # Molecular Systems Biology 
 	"1948-6596": ["California Digital Library (CDL)", "Pensoft Publishers"], # Frontiers of Biogeography 
 	"2473-4039": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # JBMR Plus
 	"2643-6515": ["American Association for the Advancement of Science (AAAS)", "Elsevier BV"], # Plant Phenomics 
