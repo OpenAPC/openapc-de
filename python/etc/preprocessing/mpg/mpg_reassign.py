@@ -39,7 +39,7 @@ for file_name in os.listdir(path):
         for doi in handle:
             doi = doi.strip().lower()
             esac_id = esac_ids[publisher][year]
-            dois[doi] = esac_id
+            dois[doi] = {"esac_id": esac_id, "period": year}
 
 apc = []
 ta = []
@@ -52,7 +52,13 @@ for line in content:
     if doi not in dois:
         apc.append(line)
     else:
-        line += [dois[doi]]
+        line += [dois[doi]["esac_id"]]
+        period = line[1]
+        deal_period = dois[doi]["period"]
+        if period != deal_period:
+            msg = "WARNING: Period in original data {} differs from DEAL period {} for doi {}. Normalized to DEAL data."
+            oat.print_y(msg.format(period, deal_period, doi))
+            line[1] = deal_period
         ta.append(line)
 
 quotemask = [False, False, False, False, False, False]
