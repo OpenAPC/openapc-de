@@ -16,7 +16,7 @@ Academic institutions and research funders globally are invited to contribute da
 
 ## Overview
 
-This dataset contains information on 231,454 articles, published at 578 institutions under 297 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
+This dataset contains information on 233,486 articles, published at 578 institutions under 297 different transformative agreements. The data can also be inspected as a [treemap visualisation](https://treemaps.openapc.net/apcdata/ta-euro/).
 
 ### Breakdown by agreement
 
@@ -24,13 +24,13 @@ This dataset contains information on 231,454 articles, published at 578 institut
 
 |Agreement                                                                                                                                        | Articles|
 |:------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
-|Springer Nature (DEAL) 2020-2023                                                                                                                 |    30398|
-|Wiley (DEAL) 2019-2023                                                                                                                           |    20645|
+|Springer Nature (DEAL) 2020-2023                                                                                                                 |    31286|
+|Wiley (DEAL) 2019-2023                                                                                                                           |    20866|
 |Springer Compact                                                                                                                                 |    13332|
-|Springer Nature (DEAL) 2024-2028                                                                                                                 |    12497|
+|Springer Nature (DEAL) 2024-2028                                                                                                                 |    13198|
 |Elsevier (CSAL) 2020-2023                                                                                                                        |    10742|
-|Elsevier (DEAL) 2023-2028                                                                                                                        |     9263|
-|Wiley (DEAL) 2024-2028                                                                                                                           |     6914|
+|Elsevier (DEAL) 2023-2028                                                                                                                        |     9347|
+|Wiley (DEAL) 2024-2028                                                                                                                           |     7052|
 |Sage (CRKN) 2021-2023                                                                                                                            |     5811|
 |Elsevier (FinELib) 2021-2023                                                                                                                     |     4784|
 |Wiley (CSAL) 2021-2024                                                                                                                           |     4405|
@@ -346,6 +346,7 @@ This dataset contains information on 231,454 articles, published at 578 institut
 |University College Dublin                                                             |     3091|
 |University of Geneva                                                                  |     3034|
 |University of Oulu                                                                    |     2993|
+|MPG                                                                                   |     2978|
 |University of Turku                                                                   |     2930|
 |Milano U                                                                              |     2801|
 |University of Lausanne                                                                |     2735|
@@ -395,7 +396,6 @@ This dataset contains information on 231,454 articles, published at 578 institut
 |FZJ - ZB                                                                              |     1020|
 |Marburg U                                                                             |      987|
 |Kiel U                                                                                |      984|
-|MPG                                                                                   |      946|
 |Hannover U                                                                            |      944|
 |University of Cambridge                                                               |      912|
 |DLR                                                                                   |      910|
