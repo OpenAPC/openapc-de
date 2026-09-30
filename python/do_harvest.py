@@ -29,7 +29,14 @@ ARG_HELP_STRINGS = {
 PUBLICATION_TYPE_MAPPINGS = {
     "doctoral thesis": "BPC",
     "book": "BPC",
-    "journal article": "APC"
+    "http://purl.org/coar/resource_type/c_2f33": "BPC",
+    "https://purl.org/coar/resource_type/c_2f33": "BPC",
+    "journal article": "APC",
+    "http://purl.org/coar/resource_type/c_6501": "APC",
+    "https://purl.org/coar/resource_type/c_6501": "APC",
+    "review article": "APC",
+    "http://purl.org/coar/resource_type/c_dcae04bc": "APC",
+    "https://purl.org/coar/resource_type/c_dcae04bc": "APC",
 }
 
 def oai_harvest(basic_url, metadata_prefix=None, oai_set=None, processing=None, out_file_suffix=None, data_type="intact", validate_only=False, force_update=False, record_url=None):
