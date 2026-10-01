@@ -737,6 +737,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1937-335X": ["Mary Ann Liebert Inc", "SAGE Publications"], # Tissue Engineering Part A (electronic)
 	"1873-9601": ["Springer Nature", "Wiley-Blackwell"], # Journal of Cell Communication and Signaling 
 	"1873-961X": ["Springer Nature", "Wiley-Blackwell"], # Journal of Cell Communication and Signaling (electronic)
+	"1088-467X": ["IOS Press", "SAGE Publications"], # Intelligent Data Analysis: An International Journal 
+	"1571-4128": ["IOS Press", "SAGE Publications"], # Intelligent Data Analysis: An International Journal (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1417,6 +1419,7 @@ AMBIGUOUS_JOURNAL_TITLES = {
     "Journal of Surgery": ["2330-0914", "2575-9760"], # Science Publishing Group / Gavin Publishers
     "Engineering": ["1947-394X", "2095-8099"], # Scientific Research Publishing / Elsevier
     "Interactions": ["3005-0731", "1072-5520"], # Springer Nature / Association for Computing Machinery (ACM)
+    "Journal of Engineering Research": ["2307-1877", "2764-1317"] # Atena Editora / Elsevier
 }
 
 # A list of ISBNs which are exempt from the usual ISBN duplicate check. This is necessary for cases like
