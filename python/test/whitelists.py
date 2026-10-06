@@ -739,6 +739,17 @@ JOURNAL_OWNER_CHANGED = {
 	"1873-961X": ["Springer Nature", "Wiley-Blackwell"], # Journal of Cell Communication and Signaling (electronic)
 	"1088-467X": ["IOS Press", "SAGE Publications"], # Intelligent Data Analysis: An International Journal 
 	"1571-4128": ["IOS Press", "SAGE Publications"], # Intelligent Data Analysis: An International Journal (electronic)
+	"2260-1341": ["Springer Nature", "Elsevier BV"], # The Journal of Frailty & Aging 
+	"2329-6933": ["American Thoracic Society", "Oxford University Press (OUP)"], # Annals of the American Thoracic Society 
+	"2325-6621": ["American Thoracic Society", "Oxford University Press (OUP)"], # Annals of the American Thoracic Society (electronic)
+	"1470-1626": ["BioScientifica", "Oxford University Press (OUP)"], # Reproduction 
+	"1741-7899": ["BioScientifica", "Oxford University Press (OUP)"], # Reproduction (electronic)
+	"1551-3777": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Integrated Environmental Assessment and Management 
+	"1551-3793": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Integrated Environmental Assessment and Management (electronic)
+	"0275-5408": ["Wiley-Blackwell", "Springer Nature"], # Ophthalmic and Physiological Optics 
+	"1475-1313": ["Wiley-Blackwell", "Springer Nature"], # Ophthalmic and Physiological Optics (electronic)
+	"0749-8063": ["Elsevier BV", "Wiley-Blackwell"], # Arthroscopy 
+	"1526-3231": ["Elsevier BV", "Wiley-Blackwell"], # Arthroscopy (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1306,6 +1317,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "0021-8979", # Journal of Applied Physics, S2O from 2024 - 2025
     "1573-6822", # Cell Biology and Toxicology, Gold OA since 2024
     "1098-111X", # International Journal of Intelligent Systems, Gold OA since 2023
+    "0884-8173", # International Journal of Intelligent Systems, Gold OA since 2023 (linking)
     "0273-1223", # Water Science & Technology, S2O since 2021
     "1056-8190", # Papers in Regional Science, Gold OA since 2024
     "2192-953X", # European Journal of Applied Linguistics, S2O since 2025
@@ -1314,6 +1326,16 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1873-9601", # Journal of Cell Communication and Signaling, Gold OA since 2024
     "2213-333X", # Journal of Vascular Surgery: Venous and Lymphatic Disorders, Gold OA since 2024
     "0022-3077", # Journal of Neurophysiology, S2O since 2025
+    "1946-6226", # ACM Transactions on Computing Education, Gold OA since 2026
+    "2691-1957", # ACM Transactions on Computing for Healthcare, Gold OA since 2026
+    "2637-8051", # ACM Transactions on Computing for Healthcare, Gold OA since 2026 (linking)
+    "1049-331X", # ACM Transactions on Software Engineering and Methodology, Gold OA since 2026
+    "2573-0142", # Proceedings of the ACM on Human-Computer Interaction, Gold OA since 2026
+    "0940-7391", # International Journal of Cultural Property, Gold OA since 2026
+    "0043-1745", # Weed Science, Gold OA since 2026
+    "2210-7711", # International Journal of Clinical Pharmacy, Gold OA since 2026
+    "1755-098X", # Molecular Ecology Resources, Gold OA since 2026
+    "1539-9087", # ACM Transactions on Embedded Computing Systems, Gold OA since 2026
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
