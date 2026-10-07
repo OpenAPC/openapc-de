@@ -16,7 +16,7 @@ ARG_HELP_STRINGS = {
     "source_file": "The source csv file. Default: ../data/apc_de.csv",
     "source_file_ins_column": "The numerical index of the institution column. Default: 0",
     "ins_table": "Check names against the OpenAPC institutions table first and " +
-                 "only look up unknown institutions. Default: True",
+                 "only look up unknown institutions. Default: False",
     "encoding": "The encoding of the CSV file. Setting this argument will " +
                 "disable automatic guessing of encoding.",
     "num_lookups": "Maximum number of lookups before quitting and writing " +
@@ -161,7 +161,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--source_file", default="../data/apc_de.csv", help=ARG_HELP_STRINGS["source_file"])
     parser.add_argument("-c", "--source_file_key_column", type=int, default=0, help=ARG_HELP_STRINGS["source_file_ins_column"])
-    parser.add_argument("-i", "--ins_table", action="store_true", default=True, help=ARG_HELP_STRINGS["ins_table"])
+    parser.add_argument("-i", "--ins_table", action="store_true", default=False, help=ARG_HELP_STRINGS["ins_table"])
     parser.add_argument("-e", "--encoding", default="utf-8", help=ARG_HELP_STRINGS["encoding"])
     parser.add_argument("-n", "--num_lookups", type=int, default=10, help=ARG_HELP_STRINGS["num_lookups"])
     
