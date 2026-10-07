@@ -4,17 +4,22 @@
 import json
 
 MAPPINGS_DICT = None
+MAPPINGS_FILE = "mappings.json"
 
-def load_mappings_json():
+def load_mappings_json(mappings_file=None):
     global MAPPINGS_DICT
-    with open("mappings.json", "r") as handle:
+    if mappings_file is None:
+        mappings_file = MAPPINGS_FILE
+    with open(mappings_file, "r") as handle:
         content = handle.read()
         MAPPINGS_DICT = json.loads(content)
 
-def save_mappings_json():
+def save_mappings_json(mappings_file=None):
     if MAPPINGS_DICT is None:
         load_mappings_json()
-    with open("mappings.json", "w") as handle:
+    if mappings_file is None:
+        mappings_file = MAPPINGS_FILE
+    with open(mappings_file, "w") as handle:
         json.dump(MAPPINGS_DICT, handle, ensure_ascii=False, indent=2)
 
 def __getattr__(name):
