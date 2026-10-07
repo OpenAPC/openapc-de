@@ -459,7 +459,9 @@ JOURNAL_OWNER_CHANGED = {
 	"1532-429X": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance
 	"1097-6647": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Cardiovascular Magnetic Resonance (linking)
 	"1355-8145": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Cell Stress and Chaperones
+	"1466-1268": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Cell Stress and Chaperones (electronic)
 	"1071-3581": ["Springer Nature", "Elsevier BV"], # Journal of Nuclear Cardiology 
+	"1532-6551": ["Springer Nature", "Elsevier BV"], # Journal of Nuclear Cardiology (electronic)
 	"1538-7836": ["Wiley-Blackwell", "Elsevier BV"], # Journal of Thrombosis and Haemostasis
 	"2041-7136": ["Springer Science + Business Media", "Springer Nature", "Frontiers Media SA"], # Pastoralism
     "0942-2056": ["Springer Science + Business Media", "Springer Nature", "Wiley-Blackwell"], # Knee Surgery, Sports Traumatology, Arthroscopy 
@@ -1344,6 +1346,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1462-3994", # Expert Reviews in Molecular Medicine, Gold OA since
     "2196-7024", # Soziologische Revue, S2O since 2022
     "2366-0325", # Zeitschrift für Soziologie, S2O OA since 2022
+    "2055-6837", # European Heart Journal - Cardiovascular Pharmacotherapy, Gold OA since 2025
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts

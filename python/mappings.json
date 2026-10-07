@@ -1,6 +1,45 @@
 {
   "CONTEXTUAL_MAPPINGS": {
-    "issn": {},
+    "issn": {
+      "1388-9842": {
+        "publisher": {
+          "2020": "Wiley-Blackwell",
+          "2021": "Wiley-Blackwell",
+          "2023": "Wiley-Blackwell"
+        }
+      },
+      "2471-254X": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2688-6146": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2642-3561": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "1527-6465": {
+        "publisher": {
+          "2018": "Wiley-Blackwell",
+          "2020": "Wiley-Blackwell"
+        }
+      },
+      "2210-2612": {
+        "publisher": {
+          "2021": "Elsevier BV"
+        }
+      },
+      "0896-4327": {
+        "is_hybrid": {
+          "2018": "FALSE"
+        }
+      }
+    },
     "issn_print": {},
     "issn_electronic": {},
     "issn_l": {}
@@ -729,7 +768,13 @@
     "Ironmaking & Steelmaking: Processes, Products and Applications": "Ironmaking & Steelmaking",
     "PROTEOMICS – Clinical Applications": "PROTEOMICS - Clinical Applications",
     "Medizinische Genetik": "medizinische genetik",
-    "Arthroscopy": "Arthroscopy: The Journal of Arthroscopic & Related Surgery"
+    "Arthroscopy": "Arthroscopy: The Journal of Arthroscopic & Related Surgery",
+    "Mutation Research/Genetic Toxicology and Environmental Mutagenesis": "Mutation Research - Genetic Toxicology and Environmental Mutagenesis",
+    "Mutation Research - Reviews in Mutation Research": "Mutation Research/Reviews in Mutation Research",
+    "Journal of Medical Mycology": "Journal de Mycologie Médicale",
+    "Molecular Therapy Methods & Clinical Development": "Molecular Therapy - Methods & Clinical Development",
+    "Seizure: European Journal of Epilepsy": "Seizure",
+    "British Journal of Radiology": "The British Journal of Radiology"
   },
   "COLUMN_NAMES": {
     "institution": [
