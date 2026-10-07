@@ -720,7 +720,10 @@
     "Evolution &amp; Development": "Evolution & Development",
     "Ultrasound in Obstetrics &amp; Gynecology": "Ultrasound in Obstetrics & Gynecology",
     "Epilepsy &amp; Behavior Reports": "Epilepsy & Behavior Reports",
-    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung"
+    "Schmalenbachs Zeitschrift fÃ¼r betriebswirtschaftliche Forschung": "Schmalenbachs Zeitschrift für betriebswirtschaftliche Forschung",
+    "CHEST": "Chest",
+    "Journal of the American Society for Mass Spectrometry": "Journal of The American Society for Mass Spectrometry",
+    "Journal of the Royal Statistical Society Series C: Applied Statistics": "Journal of the Royal Statistical Society: Series C (Applied Statistics)"
   },
   "COLUMN_NAMES": {
     "institution": [
