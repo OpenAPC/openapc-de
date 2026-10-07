@@ -597,6 +597,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1091-255X": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Gastrointestinal Surgery
 	"1873-4626": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Gastrointestinal Surgery (electronic)
 	"1600-6135": ["Wiley-Blackwell", "Elsevier BV"], # American Journal of Transplantation
+	"1600-6143": ["Wiley-Blackwell", "Elsevier BV"], # American Journal of Transplantation (electronic)
 	"0893-3952": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Modern Pathology
 	"1098-3600": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Genetics in Medicine 
 	"0006-341X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Biometrics 
@@ -753,6 +754,7 @@ JOURNAL_OWNER_CHANGED = {
 	"1526-3231": ["Elsevier BV", "Wiley-Blackwell"], # Arthroscopy (electronic)
 	"0028-4289": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # New Blackfriars
 	"1741-2005": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # New Blackfriars (electronic)
+	"2690-442X": ["Wiley-Blackwell", "Oxford University Press (OUP)"], # Skin Health and Disease
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
@@ -1340,6 +1342,8 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "1755-098X", # Molecular Ecology Resources, Gold OA since 2026
     "1539-9087", # ACM Transactions on Embedded Computing Systems, Gold OA since 2026
     "1462-3994", # Expert Reviews in Molecular Medicine, Gold OA since
+    "2196-7024", # Soziologische Revue, S2O since 2022
+    "2366-0325", # Zeitschrift für Soziologie, S2O OA since 2022
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
