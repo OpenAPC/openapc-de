@@ -46,9 +46,9 @@ CORRECT_MSG = ("How do you want to proceed?\n" +
                "4) Do nothing and abort (saving all changes to out.csv)\n" +
                "5) Get additional information from the EZB\n> ")
 
-MAPPING_MSG = ("Do you want to create a persistent entry in JOURNAL_MAPPINGS?\n" +
-               "1) Create mapping {} -> {}\n" +
-               "2) Do nothing\n")
+MAPPING_ASK = ("Do you want to update the mappings?\n" +
+               "1) Yes, modify mappings.json directly\n" +
+               "2) No, generate out_mappings.json instead\n")
 
 WL_ENTRY_WARNING = ("WARNING: At least one of the issn values ({}) is already present " +
                     "in the JOURNAL_OWNER_CHANGED whitelist. You might have to add additional " +
@@ -101,6 +101,43 @@ def _build_wl_suggestion(field_type, new_value, established_value, issn, issn_p,
         entry += line.format(issn, journal_full_title, new_status)
     return entry
 
+def _apply_mappings_to_line(line_num, line):
+    changes_made = False
+    title = line["journal_full_title"]
+    period = line["period"]
+    if title in mappings.JOURNAL_MAPPINGS:
+        new_value = mappings.JOURNAL_MAPPINGS[title]
+        if new_value != title:
+            line["journal_full_title"] = new_value
+            msg = 'Line {}: journal_full_title mapped automatically ("{}" -> "{}")'
+            msg = msg.format(line_num, title, new_value)
+            oat.print_c(msg)
+            changes_made = True
+    for field_type in ["is_hybrid", "publisher"]:
+        old_value = line[field_type]
+        for issn_type in ISSN_DICTS.keys():
+            issn = line[issn_type]
+            new_value = mappings.CONTEXTUAL_MAPPINGS[issn_type].get(issn, {}).get(field_type, {}).get(period, None)
+            if new_value is not None and new_value != old_value:
+                line[field_type] = new_value
+                msg = 'Line {}: {} mapped automatically ("{}" -> "{}") [{} ({}: {}), {}]'
+                msg = msg.format(line_num, field_type, old_value, new_value, title, issn_type, issn, period)
+                oat.print_c(msg)
+                changes_made = True
+                break
+    return (line, changes_made)
+
+def _create_mapping(issn_type, issn_value, field_type, mapping_key, mapping_target, period=None):
+    if field_type == "journal_full_title":
+        mappings.JOURNAL_MAPPINGS[mapping_key] = mapping_target
+    if field_type in ["is_hybrid", "publisher"]:
+        con_map = mappings.CONTEXTUAL_MAPPINGS
+        if issn_value not in con_map[issn_type]:
+            con_map[issn_type][issn_value] = {}
+        if field_type not in con_map[issn_type][issn_value]:
+            con_map[issn_type][issn_value][field_type] = {}
+        con_map[issn_type][issn_value][field_type][period] = mapping_target
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
@@ -140,13 +177,7 @@ def main():
             if stopped:
                 modified_content.append(line)
                 continue
-            if line["journal_full_title"] in mappings.JOURNAL_MAPPINGS:
-                old_value = line["journal_full_title"]
-                new_value = mappings.JOURNAL_MAPPINGS[old_value]
-                line["journal_full_title"] = new_value
-                msg = 'Line {}: journal_full_title mapped automatically ("{}" -> "{}")'
-                msg = msg.format(reader.line_num, old_value, new_value)
-                oat.print_c(msg)
+            line, changes_made = _apply_mappings_to_line(reader.line_num, line)
             skip_line = False
             for issn_type in ISSN_DICTS.keys():
                 if skip_line:
@@ -177,16 +208,11 @@ def main():
                                 ret = input("Please select an option from 1 to 5 > ")
                             print("\n\n\n\n")
                             if ret in ["1", "2"]:
-                                changes_made = True
                                 line[field_type] = established_value
-                                if field_type == "journal_full_title":
-                                    map_msg = MAPPING_MSG.format(oat.colorize(new_value, "yellow"), oat.colorize(established_value, "green"))
-                                    map_ret = input(map_msg)
-                                    while map_ret not in ["1", "2"]:
-                                        map_ret = input('Please select either "1" or "2"')
-                                    if ret == "1":
-                                        mappings.JOURNAL_MAPPINGS[new_value] = established_value
-                                        mappings_changed = True
+                                changes_made = True
+                                if field_type in ["is_hybrid", "publisher", "journal_full_title"]:
+                                    _create_mapping(issn_type, issn, field_type, new_value, established_value, line["period"])
+                                    mappings_changed = True
                             if ret in ["3", "4"]:
                                 skip_line = True
                             if ret in ["2", "4"]:
@@ -197,8 +223,14 @@ def main():
     for line in modified_content:
         modified_lines.append(list(line.values()))
     if mappings_changed:
-        mappings.save_mappings_json()
-        print("mappings file updated")
+        ret = input(MAPPING_ASK)
+        while ret not in ["1", "2"]:
+            ret = input('Please select either "1" or "2"')
+        if ret == "1":
+            mappings.save_mappings_json()
+            print("mappings file updated")
+        if ret == "2":
+            mappings.save_mappings_json("out_mappings.json")
     if not changes_made:
         print("No changes made, skipping result file generation")
         sys.exit()
