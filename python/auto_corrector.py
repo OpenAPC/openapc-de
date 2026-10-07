@@ -177,7 +177,9 @@ def main():
             if stopped:
                 modified_content.append(line)
                 continue
-            line, changes_made = _apply_mappings_to_line(reader.line_num, line)
+            line, mapping_applied = _apply_mappings_to_line(reader.line_num, line)
+            if mapping_applied:
+                changes_made = True
             skip_line = False
             for issn_type in ISSN_DICTS.keys():
                 if skip_line:
