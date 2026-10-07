@@ -9,6 +9,7 @@ import os
 import sys
 
 import openapc_toolkit as oat
+import mappings
 
 from test import whitelists as wl
 
@@ -44,6 +45,10 @@ CORRECT_MSG = ("How do you want to proceed?\n" +
                "3) Do nothing\n" +
                "4) Do nothing and abort (saving all changes to out.csv)\n" +
                "5) Get additional information from the EZB\n> ")
+
+MAPPING_MSG = ("Do you want to create a persistent entry in JOURNAL_MAPPINGS?\n" +
+               "1) Create mapping {} -> {}\n" +
+               "2) Do nothing\n")
 
 WL_ENTRY_WARNING = ("WARNING: At least one of the issn values ({}) is already present " +
                     "in the JOURNAL_OWNER_CHANGED whitelist. You might have to add additional " +
@@ -100,6 +105,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_file", help=ARG_HELP_STRINGS["csv_file"])
     args = parser.parse_args()
+    mappings.load_mappings_json() # avoid lazy loading to detect possible JSON errors right away
     
     for file_path in [APC_DE_FILE, TA_FILE]:
         with open(file_path, "r") as path:
@@ -125,6 +131,7 @@ def main():
     modified_content = []
     header = None
     changes_made = False
+    mappings_changed = False
     with open(args.csv_file) as csv_file:
         reader = csv.DictReader(csv_file)
         header = list(reader.fieldnames)
@@ -133,6 +140,13 @@ def main():
             if stopped:
                 modified_content.append(line)
                 continue
+            if line["journal_full_title"] in mappings.JOURNAL_MAPPINGS:
+                old_value = line["journal_full_title"]
+                new_value = mappings.JOURNAL_MAPPINGS[old_value]
+                line["journal_full_title"] = new_value
+                msg = 'Line {}: journal_full_title mapped automatically ("{}" -> "{}")'
+                msg = msg.format(reader.line_num, old_value, new_value)
+                oat.print_c(msg)
             skip_line = False
             for issn_type in ISSN_DICTS.keys():
                 if skip_line:
@@ -165,6 +179,14 @@ def main():
                             if ret in ["1", "2"]:
                                 changes_made = True
                                 line[field_type] = established_value
+                                if field_type == "journal_full_title":
+                                    map_msg = MAPPING_MSG.format(oat.colorize(new_value, "yellow"), oat.colorize(established_value, "green"))
+                                    map_ret = input(map_msg)
+                                    while map_ret not in ["1", "2"]:
+                                        map_ret = input('Please select either "1" or "2"')
+                                    if ret == "1":
+                                        mappings.JOURNAL_MAPPINGS[new_value] = established_value
+                                        mappings_changed = True
                             if ret in ["3", "4"]:
                                 skip_line = True
                             if ret in ["2", "4"]:
@@ -174,6 +196,9 @@ def main():
     modified_lines = [header]
     for line in modified_content:
         modified_lines.append(list(line.values()))
+    if mappings_changed:
+        mappings.save_mappings_json()
+        print("mappings file updated")
     if not changes_made:
         print("No changes made, skipping result file generation")
         sys.exit()
