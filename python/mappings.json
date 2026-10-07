@@ -38,6 +38,19 @@
         "is_hybrid": {
           "2018": "FALSE"
         }
+      },
+      "0934-0874": {
+        "publisher": {
+          "2018": "Wiley-Blackwell"
+        }
+      },
+      "2047-9980": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
       }
     },
     "issn_print": {},
@@ -774,7 +787,8 @@
     "Journal of Medical Mycology": "Journal de Mycologie Médicale",
     "Molecular Therapy Methods & Clinical Development": "Molecular Therapy - Methods & Clinical Development",
     "Seizure: European Journal of Epilepsy": "Seizure",
-    "British Journal of Radiology": "The British Journal of Radiology"
+    "British Journal of Radiology": "The British Journal of Radiology",
+    "Journal of the Royal Statistical Society Series A: Statistics in Society": "Journal of the Royal Statistical Society: Series A (Statistics in Society)"
   },
   "COLUMN_NAMES": {
     "institution": [
