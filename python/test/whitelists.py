@@ -1339,6 +1339,7 @@ JOURNAL_HYBRID_STATUS_CHANGED = [
     "2210-7711", # International Journal of Clinical Pharmacy, Gold OA since 2026
     "1755-098X", # Molecular Ecology Resources, Gold OA since 2026
     "1539-9087", # ACM Transactions on Embedded Computing Systems, Gold OA since 2026
+    "1462-3994", # Expert Reviews in Molecular Medicine, Gold OA since
 ]
 
 # A whitelist to identify contract group_ids where similar cost amounts
