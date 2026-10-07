@@ -111,6 +111,7 @@ if __name__ == '__main__':
     import openapc_toolkit as oat
     import mappings
     import whitelists as wl
+    mappings.load_mappings_json("../mappings.json")
     ISBNHANDLING = oat.ISBNHandling(temp_file_dir="../tempfiles")
     for data_file, metadata in DATA_FILES.items():
         metadata["file_path"] = join("..", "..", metadata["file_path"])
@@ -126,6 +127,7 @@ else:
     import openapc_toolkit as oat
     import mappings
     from . import whitelists as wl
+    mappings.load_mappings_json("python/mappings.json")
     ISBNHANDLING = oat.ISBNHandling(temp_file_dir="python/tempfiles")
 
 class RowObject(object):
