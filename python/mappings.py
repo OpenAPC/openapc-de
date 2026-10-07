@@ -11,6 +11,12 @@ def load_mappings_json():
         content = handle.read()
         MAPPINGS_DICT = json.loads(content)
 
+def save_mappings_json():
+    if MAPPINGS_DICT is None:
+        load_mappings_json()
+    with open("mappings.json", "w") as handle:
+        json.dump(MAPPINGS_DICT, handle, ensure_ascii=False, indent=2)
+
 def __getattr__(name):
     '''
     Backwards compatibility, mapping dicts were module attributes before
