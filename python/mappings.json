@@ -5,7 +5,8 @@
         "publisher": {
           "2020": "Wiley-Blackwell",
           "2021": "Wiley-Blackwell",
-          "2023": "Wiley-Blackwell"
+          "2023": "Wiley-Blackwell",
+          "2018": "Wiley-Blackwell"
         }
       },
       "2471-254X": {
@@ -50,6 +51,79 @@
         },
         "publisher": {
           "2022": "Wiley-Blackwell"
+        }
+      },
+      "1661-8726": {
+        "publisher": {
+          "2016": "Springer Nature"
+        }
+      },
+      "2699-9293": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2699-9412": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-7634": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-7022": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2001-1326": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2045-7758": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2055-5822": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        },
+        "publisher": {
+          "2022": "Wiley-Blackwell"
+        }
+      },
+      "2698-5977": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2470-9239": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2190-5991": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2001-3078": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2378-2242": {
+        "is_hybrid": {
+          "2022": "FALSE"
+        }
+      },
+      "2191-1363": {
+        "is_hybrid": {
+          "2022": "FALSE"
         }
       }
     },
@@ -788,7 +862,9 @@
     "Molecular Therapy Methods & Clinical Development": "Molecular Therapy - Methods & Clinical Development",
     "Seizure: European Journal of Epilepsy": "Seizure",
     "British Journal of Radiology": "The British Journal of Radiology",
-    "Journal of the Royal Statistical Society Series A: Statistics in Society": "Journal of the Royal Statistical Society: Series A (Statistics in Society)"
+    "Journal of the Royal Statistical Society Series A: Statistics in Society": "Journal of the Royal Statistical Society: Series A (Statistics in Society)",
+    "Operations Research Forum": "SN Operations Research Forum",
+    "Partial Differential Equations and Applications": "SN Partial Differential Equations and Applications"
   },
   "COLUMN_NAMES": {
     "institution": [
