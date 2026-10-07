@@ -595,6 +595,7 @@ JOURNAL_OWNER_CHANGED = {
 	"2210-4968": ["IOS Press", "SAGE Publications"], # Semantic Web 
 	"1570-0844": ["IOS Press", "SAGE Publications"], # Semantic Web (print)
 	"1091-255X": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Gastrointestinal Surgery
+	"1873-4626": ["Springer Science + Business Media", "Springer Nature", "Elsevier BV"], # Journal of Gastrointestinal Surgery (electronic)
 	"1600-6135": ["Wiley-Blackwell", "Elsevier BV"], # American Journal of Transplantation
 	"0893-3952": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Modern Pathology
 	"1098-3600": ["Nature Publishing Group", "Springer Nature", "Elsevier BV"], # Genetics in Medicine 
@@ -750,6 +751,8 @@ JOURNAL_OWNER_CHANGED = {
 	"1475-1313": ["Wiley-Blackwell", "Springer Nature"], # Ophthalmic and Physiological Optics (electronic)
 	"0749-8063": ["Elsevier BV", "Wiley-Blackwell"], # Arthroscopy 
 	"1526-3231": ["Elsevier BV", "Wiley-Blackwell"], # Arthroscopy (electronic)
+	"0028-4289": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # New Blackfriars
+	"1741-2005": ["Wiley-Blackwell", "Cambridge University Press (CUP)"], # New Blackfriars (electronic)
 }
 
 # A whiltelist for denoting changes in journal full open access policy. ISSNs
